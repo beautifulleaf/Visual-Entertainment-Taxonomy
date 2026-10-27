@@ -106,7 +106,7 @@ Normalise each signal to a percentile **within the artist's region** (by citizen
 - Monthly: pageviews.
 - Quarterly: Artfacts, if subscribed.
 
-## 4. Decisions needed
-1. **Artfacts:** subscribe at €15/month so ranks can be transcribed for the candidate pool, and/or email them for research or API access? Without it, the biennial, museum and Wikidata signals stand in, and those lag emerging artists by a few years.
-2. **Contemporary cutoff year:** "contemporary" = active after 1960 (the art-historical convention) or after 1980?
-3. **Living artist count target:** is about 5–10k the right scale for a consumer taxonomy, or narrower (about 2–3k)?
+## 4. Decisions
+1. **Scale: maximise coverage** (decided 2026-10-27). Use the broad end of the range, about 10k+ living and contemporary artists, with cutoffs set low enough that every region × medium cell is represented. If in doubt, include.
+2. **Contemporary = active after 1960** (the art-historical convention; it captures Gutai, Dansaekhwa, Pop and Conceptual art as contemporary-era nodes).
+3. **Artfacts: deferred.** Start with the free signals; add Artfacts (€15/month, or a research/API request) if emerging artists turn out under-covered.
