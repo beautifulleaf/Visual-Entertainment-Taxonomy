@@ -72,7 +72,11 @@ Metadata comes from the TMDB API plus the daily ID exports, with Kaggle `alanvou
 - Spine: IMDb `tvSeries` + `tvMiniSeries`, with TMDB TV for metadata, networks and origin country.
 - *Measured IMDb counts:* series ≥2.5k votes = 6,172, ≥5k = 3,909; miniseries ≥2.5k = 1,469.
 - Proposed: **IMDb ≥2.5k votes OR the regional-percentile rule OR a major award (Emmy, BAFTA, International Emmy, Peabody)**, giving about 7–9k titles. Trakt watcher counts (free API) are a secondary signal.
-- Gap to decide: telenovelas, Turkish dizi and Indian serials are under-voted on IMDb. Either give them their own sub-databases like anime, or rely on the regional rule.
+- **Decided (2026-10-27): telenovelas, Turkish dizi and Indian serials stay in the scripted-TV database, without sub-databases of their own.** Anime and Asian dramas got their own databases because each has its own audience platform and metric (MAL, MDL). These traditions don't, since their audiences barely use IMDb or any rating site, so a separate database would have no spine metric. Instead:
+  - They form a **"long-running serial" format node** (telenovela, dizi, Indian daily soap, also the Filipino teleserye and the Arabic Ramadan series) under scripted TV, so the later genre → cluster organisation can group them.
+  - **Inclusion uses the regional-percentile rule** (top-N per origin country × decade, by IMDb votes and by TMDB vote_count), plus signals that track their actual reach: **Wikipedia sitelinks** (export reach; top dizi air in 100+ countries and gain many language editions), the **International Emmy** telenovela and non-English drama categories, and the national awards (Premios TVyNovelas, Indian Telly Awards, Altın Kelebek).
+  - National ratings (Kantar IBOPE Brazil and Mexico, BARC India, Turkey's TİAK) are optional, if any are found to be published as open data.
+  - Revisit if the regional rule leaves these cells visibly thin.
 
 ## 4. Anime (own database)
 - Spine: **anime-offline-database**, the weekly-updated JSON that cross-references MAL, AniList, AniDB, Kitsu and others. The original manami-project repo was archived 2026-07-04 (final release 2026-27) and continues as `cedya77/anime-offline-database` (~38k entries, week 36 2026).
@@ -81,7 +85,12 @@ Metadata comes from the TMDB API plus the daily ID exports, with Kaggle `alanvou
 - Include donghua (Chinese animation) here, using AniList plus Bilibili/Douban signals.
 
 ## 5. Asian live-action dramas (own database)
-- Metric: **MyDramaList "Watchers"**. There is no official public API, only unofficial scrapers and reverse-engineered app wrappers, and no public dataset was found. Use Wikidata P3868 for the ID join and fetch watcher counts politely in small batches (a ToS risk to accept or avoid).
+- Metric: **MyDramaList "Watchers"**. There is no official public API, only unofficial scrapers and reverse-engineered app wrappers, and no public dataset was found. Use Wikidata P3868 for the ID join.
+- **Decided (2026-10-27): fetch MDL watcher counts politely.** The ToS risk is accepted. MDL's robots.txt allows general crawling (`User-agent: * / Allow: /`) and reserves only AI training (`Content-Signal: ai-train=no`). Rules for the fetcher:
+  - One request at a time, at most one every 3–5 seconds, with an identifying User-Agent. Back off on any 429/403 or Cloudflare challenge, and never work around one (no rotating proxies, no headless-browser evasion).
+  - Fetch only the title pages of candidates (IDs from Wikidata P3868 plus MDL search for the rest). Store only the ID, watchers, rating, rating count and episode count. Cache every page, so each title is fetched once per refresh. Refresh at most quarterly.
+  - The counts stay internal, like every other audience metric (§7), and are never used to train models, per MDL's content signal.
+  - If a candidate is still missing after that, Douban/TMDB carry it rather than more aggressive fetching.
 - Secondary signals: **Douban rating counts** for C-dramas (a better domestic signal than MDL), TMDB vote_count filtered by origin_country (KR, CN, JP, TW, TH, PH), and Naver/Nielsen Korea peak ratings.
 - Proposed: MDL watchers ≥ ~5–10k OR Douban ≥50k ratings (the threshold MDL list-makers use for 2022+ titles) OR a top domestic award (Baeksang, Golden Bird, and similar).
 
