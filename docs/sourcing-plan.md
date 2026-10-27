@@ -36,12 +36,12 @@ See **[visual-art-plan.md](visual-art-plan.md)** for the full deep dive. Summary
 ### Solution: MDBList API (recommended primary source for Letterboxd rating counts)
 MDBList (mdblist.com) aggregates ratings from IMDb, TMDB, Trakt, Letterboxd, RT, Metacritic and MAL. Each entry in its `ratings` array includes **`votes`**. For Letterboxd, `votes` is the **number of ratings**, e.g. `{"source":"letterboxd","value":3.5,"score":70,"votes":354165}`. That is exactly the "10k+ ratings" metric.
 - Free API key; **batch "Media Info" endpoint takes up to 200 IMDb/TMDB IDs per request**; lists can be sorted by `lettervotes`.
-- Limits: free = 1,000 requests/day; €3/month supporter = 100,000/day; every tier is also capped at 1,000 reads per 5 minutes. A full pass over ~60k candidates is ~300 batch calls, under an hour even on the free tier.
+- Limits: free = 1,000 requests/day; €3/month supporter = 100,000/day; every tier is also capped at 1,000 reads per 5 minutes. A full pass over the 85k candidates is 425 batch calls, about 10 minutes (*measured*). Our key's limit is 25,000 requests a day.
 - MDBList refreshes Letterboxd numbers itself; use its `updates` endpoint for incremental sync.
 - Caveat: MDBList obtains this from Letterboxd. We consume a public third-party API rather than scraping, but the counts remain Letterboxd's data, so keep them internal (see §7).
 
 ### Pipeline
-1. **Candidate set:** IMDb `movie` with numVotes ≥ 1,000 (49,392, *measured*), unioned with TMDB films with vote_count ≥ ~50 and with every film on the canon lists below. The union catches titles that are under-voted on IMDb but logged on Letterboxd (arthouse, non-English, shorts).
+1. **Candidate set:** IMDb film-like titles with numVotes ≥ 500 (84,993, *measured*; `pipelines/film/build_candidates.py`), unioned with TMDB films with vote_count ≥ ~50 and with every film on the canon lists below. The union catches titles that are under-voted on IMDb but logged on Letterboxd (arthouse, non-English, shorts).
 2. **Enrich via MDBList batch:** get `letterboxd.votes` per film.
 3. **Include if** `letterboxd.votes ≥ 10,000` **OR** a canon/curation hit **OR** the regional-percentile rule (top-N by Letterboxd votes per country and decade, so that Nigerian, Indonesian or Iranian cinema is not cut).
 4. **Gaps:** if MDBList lacks a Letterboxd figure for a candidate, fall back to the Letterboxd user samples (Apr 2026 / Dec 2025) as a relative signal, with a threshold calibrated on films that do have MDBList votes.
@@ -50,7 +50,19 @@ Canon/curation lists: Sight and Sound 2022, TSPDT 1000 and 21st-century 1000, th
 
 *Measured IMDb counts (movies):* ≥1k votes = 49,392 · ≥2.5k = 29,175 · ≥5k = 19,221 · ≥10k = 12,657.
 *Measured Letterboxd 10M-sample (films logged by ≥N of 6,519 users):* ≥20 = 41,960 · ≥50 = 23,586 · ≥100 = 15,129.
-**Expected final size: about 20–30k films**, an estimate to be replaced by the real figure after the first MDBList pass.
+*Measured, first MDBList pass (2026-10-27):* candidates = IMDb films (movie, tvMovie, short, video, tvSpecial; adult titles excluded) with ≥500 votes = **84,993**. MDBList returned 83,332 of them, and **73,493 have a Letterboxd rating count**. The other 11,500 have none: 1,661 were not returned at all, and 9,839 came back with a null Letterboxd figure. Those are mostly low-vote titles (median 745 IMDb votes), over-represented among TV movies, videos and Indian films. India is 17% of the null-figure titles against 8% of all candidates, because IMDb votes there outrun Letterboxd use; the largest is *Kaiva* (2023), with 69,668 IMDb votes. These are what step 4's fallback is for.
+
+| Letterboxd ratings | All film types | Feature films (`movie`) only |
+|---|---|---|
+| ≥1k | 47,884 | 42,077 |
+| ≥5k | 22,225 | 20,382 |
+| ≥10k | **15,150** | **14,120** |
+| ≥25k | 8,931 | 8,487 |
+| ≥100k | 3,782 | 3,694 |
+
+**Final size: about 15k films clear the 10k-ratings bar** (14.1k features, plus about 1k shorts, TV movies, videos and specials). The canon/curation and regional-percentile rules add to that, so the total should land around 17–20k (an estimate until those lists are joined). That is below the earlier 20–30k estimate, because the 10k bar on Letterboxd is stricter than it looked from the IMDb counts. Each film record also keeps IMDb genres, MDBList genres (mostly TMDB's), country, language and runtime, which feed the genre → cluster organisation and the per-country/decade rule.
+Spot checks (Letterboxd ratings): *Parasite* 5.96M, *The Dark Knight* 4.96M, *Good Will Hunting* 3.69M, *The Shawshank Redemption* 3.20M, *Princess Mononoke* 1.87M, *Come and See* 515k, *Seven Samurai* 480k, *Ran* 296k, *Balto* 81k, *The Wild Bunch* 81k, *The Wages of Fear* 75k.
+Note: MDBList reports the Letterboxd average on a 0–10 scale (twice the site's 5-star value).
 
 Other routes checked and rejected as primary: Google rich snippets via a SERP API (works, but costs per query and is less structured); third-party aggregator pages such as WeTrakr, which show the same Letterboxd count on HTML pages only.
 
