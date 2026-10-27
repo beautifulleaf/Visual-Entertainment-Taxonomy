@@ -13,6 +13,7 @@ can be applied to cells where coverage is thin without emptying them.
                      (for regions that have no reference list yet)
 
 Inputs: data/interim/visual_art/pool_R.csv, holdings.csv, pageviews.csv
+(which collections and authority IDs feed the features is set per region in regions.py)
 Output: data/interim/visual_art/scores_R.csv (all pooled artists, score, selected)
 """
 import argparse
@@ -33,9 +34,12 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 DATA = os.path.join(ROOT, "data", "interim", "visual_art")
 MODELS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models")
 
+# Abstract features: the sources behind museum_objects, n_museums and
+# n_regional_ids come from the region's config (regions.py), so the same
+# coefficients apply to a region whose decisive collections are different.
 FEATURES = [
     "sitelinks", "pageviews", "museum_objects", "n_museums", "met_timeline_works",
-    "has_ulan", "has_wikiart", "has_rkd", "has_artuk", "n_other_ids",
+    "has_ulan", "has_wikiart", "n_regional_ids",
 ]
 MIN_CELL = 50  # cells smaller than this are merged with the following period
 
@@ -52,23 +56,25 @@ def load_table(path, key="qid"):
 
 
 def load_features(region):
+    cfg = REGIONS[region]
     pool = load_table(os.path.join(DATA, f"pool_{region}.csv"))
     holdings = load_table(os.path.join(DATA, "holdings.csv"))
     views = load_table(os.path.join(DATA, "pageviews.csv"))
+    regional_ids = set(cfg["authority_ids"])
     rows = []
     for q, p in pool.items():
         h, v = holdings.get(q, {}), views.get(q, {})
+        objects = [num(h.get(f"{c}_objects")) for c in cfg["collections"]]
         rows.append({
             "qid": q, "label": p["label"], "birth": p["birth"], "period": p["period"],
             "in_pool_rule": int(p["in_pool_rule"]), "is_reference": int(p["is_reference"]),
             "sitelinks": num(p["sitelinks"]),
             "pageviews": num(v.get("pageviews")),
-            "museum_objects": num(h.get("met_objects")) + num(h.get("aic_objects")) + num(h.get("cma_objects")),
-            "n_museums": num(h.get("n_museums")),
+            "museum_objects": sum(objects),
+            "n_museums": float(sum(1 for o in objects if o)),
             "met_timeline_works": num(h.get("met_timeline_works")),
             "has_ulan": float(bool(p["ulan_id"])), "has_wikiart": float(bool(p["wikiart_id"])),
-            "has_rkd": float(bool(p["rkd_id"])), "has_artuk": float(bool(p["artuk_id"])),
-            "n_other_ids": num(p["n_other_ids"]),
+            "n_regional_ids": float(len(regional_ids & set(filter(None, p["authority_ids"].split("|"))))),
         })
     return rows
 

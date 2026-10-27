@@ -9,7 +9,10 @@ Sources (downloaded once to data/raw/museums/):
   Cleveland Cleveland Museum of Art open-access API (CC0), matched the same way.
 
 Output: data/interim/visual_art/holdings.csv with, per QID in any pool file:
-  met_objects, met_timeline_works, met_highlights, aic_objects, cma_objects, n_museums
+  met_objects, met_timeline_works, met_highlights, aic_objects, cma_objects
+A source added here as <key>_objects becomes usable by any region that lists
+<key> in its `collections` (regions.py); regional collections (ColBase, the
+National Palace Museum, the National Museum of Asian Art, ...) slot in this way.
 
 Usage: python3 pipelines/visual_art/museum_holdings.py
 """
@@ -34,6 +37,7 @@ UA = "VisualEntertainmentTaxonomy/0.1 (research; contact via repository)"
 MET_URL = "https://media.githubusercontent.com/media/metmuseum/openaccess/master/MetObjects.csv"
 AIC_URL = "https://artic-api-data.s3.amazonaws.com/artic-api-data.tar.bz2"
 CMA_API = "https://openaccess-api.clevelandart.org/api/artworks/"
+CMA_PAGE = 1000
 
 
 def download(url, path):
@@ -128,24 +132,21 @@ def cma_records():
     path = os.path.join(RAW, "cma_creators.jsonl")
     if not os.path.exists(path):
         with open(path + ".part", "w", encoding="utf-8") as out:
-            skip, total, empty = 0, None, 0
-            while total is None or skip < total:
-                url = f"{CMA_API}?limit=1000&skip={skip}&fields=id,creators"
+            # Advance by the page size, not by len(data): some pages come back one
+            # short, and requesting the "missing" offset returns total=0 and no data.
+            skip, total, seen = 0, 0, set()
+            while skip == 0 or skip < total:
+                url = f"{CMA_API}?limit={CMA_PAGE}&skip={skip}&fields=id,creators"
                 req = urllib.request.Request(url, headers={"User-Agent": UA})
                 with urllib.request.urlopen(req, timeout=300) as r:
                     page = json.load(r)
-                total, data = page["info"]["total"], page["data"]
-                if not data:  # the API occasionally returns an empty page mid-run
-                    empty += 1
-                    if empty > 5:
-                        raise RuntimeError(f"Cleveland API returned empty pages at skip={skip} of {total}")
-                    time.sleep(10 * empty)
-                    continue
-                empty = 0
-                for w in data:
-                    out.write(json.dumps({"id": w["id"], "creators": w.get("creators") or []}) + "\n")
-                skip += len(data)
-                print(f"  Cleveland: {skip} artworks")
+                total = max(total, page["info"].get("total") or 0)
+                for w in page["data"]:
+                    if w["id"] not in seen:
+                        seen.add(w["id"])
+                        out.write(json.dumps({"id": w["id"], "creators": w.get("creators") or []}) + "\n")
+                skip += CMA_PAGE
+                print(f"  Cleveland: {len(seen)} of {total} artworks")
                 time.sleep(1)
         os.replace(path + ".part", path)
     with open(path, encoding="utf-8") as f:
@@ -188,10 +189,9 @@ def main():
     out = os.path.join(OUT_DIR, "holdings.csv")
     with open(out, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["qid", "met_objects", "met_timeline_works", "met_highlights", "aic_objects", "cma_objects", "n_museums"])
+        w.writerow(["qid", "met_objects", "met_timeline_works", "met_highlights", "aic_objects", "cma_objects"])
         for q in sorted(pool):
-            row = [met_obj[q], met_tl[q], met_hl[q], aic[q], cma[q]]
-            w.writerow([q] + row + [sum(1 for v in (met_obj[q], aic[q], cma[q]) if v)])
+            w.writerow([q, met_obj[q], met_tl[q], met_hl[q], aic[q], cma[q]])
     print("pooled artists held by: Met", sum(1 for q in pool if met_obj[q]), "· AIC", sum(1 for q in pool if aic[q]),
           "· Cleveland", sum(1 for q in pool if cma[q]), "· Met Timeline", sum(1 for q in pool if met_tl[q]))
     print(f"wrote {out}")

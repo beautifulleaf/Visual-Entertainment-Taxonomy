@@ -4,8 +4,8 @@
    Wikidata, worldwide, by birth decade (cached under data/raw/wikidata/pool/,
    so other regions reuse it). People with no birth date are fetched by death date.
 2. Fetch, for those people plus the region's reference artists: citizenship and
-   birth/death countries, genres (P136), movements (P135), the ID crosswalk
-   (ULAN, WikiArt, RKD, Art UK, other museum/authority IDs) and their Wikipedia
+   birth/death countries, genres (P136), movements (P135), ULAN and WikiArt IDs,
+   every region's authority IDs (regions.py) and their Wikipedia
    article titles (for pageviews.py).
 3. Keep people whose active span overlaps the region's years and whose country
    falls in the region (see regions.py).
@@ -24,33 +24,16 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from reference import load_reference  # noqa: E402
-from regions import REGIONS, active_span, period_of  # noqa: E402
+from regions import GLOBAL_IDS, REGIONS, active_span, period_of  # noqa: E402
 from wikidata import sparql, year_of  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 RAW = os.path.join(ROOT, "data", "raw", "wikidata", "pool")
 OUT_DIR = os.path.join(ROOT, "data", "interim", "visual_art")
 
-# Crosswalk IDs kept as individual features.
-NAMED_IDS = {"P245": "ulan", "P6002": "wikiart", "P650": "rkd", "P1367": "artuk"}
-# Further museum and art-historical authority IDs, counted together.
-OTHER_IDS = [
-    "P2843",  # Benezit
-    "P4432",  # AKL / Artists of the World
-    "P781",   # SIKART
-    "P1795",  # Smithsonian American Art Museum
-    "P1816",  # National Portrait Gallery (London)
-    "P2252",  # National Gallery of Art
-    "P2268",  # Musee d'Orsay
-    "P2538",  # Nationalmuseum Sweden
-    "P2741",  # Tate
-    "P4808",  # Royal Academy
-    "P5321",  # Museo del Prado
-    "P7711",  # Joconde author
-    "P8705",  # Louvre Department of Prints and Drawings
-    "P2174",  # MoMA
-]
-FACT_PROPS = ["P27", "P136", "P135"] + list(NAMED_IDS) + OTHER_IDS
+# Union over all regions, so one cached fetch serves every pass.
+AUTHORITY_IDS = sorted({p for cfg in REGIONS.values() for p in cfg["authority_ids"]})
+FACT_PROPS = ["P27", "P136", "P135"] + list(GLOBAL_IDS) + AUTHORITY_IDS
 CHUNK = 250
 
 
@@ -122,7 +105,13 @@ def people_by_qid(qids):
 def fetch_facts(qids):
     """Statement values, birth/death countries and Wikipedia titles, cached per QID."""
     path = os.path.join(RAW, "facts.json")
+    props_path = path + ".props"
     facts = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
+    if facts and os.path.exists(props_path):
+        missing = set(FACT_PROPS) - set(json.load(open(props_path)))
+        if missing:
+            sys.exit(f"{path} was fetched without {sorted(missing)}; delete it and re-run")
+    json.dump(FACT_PROPS, open(props_path, "w"))
     todo = [q for q in qids if q not in facts]
     props = " ".join("wdt:" + p for p in FACT_PROPS)
     for i in range(0, len(todo), CHUNK):
@@ -240,9 +229,10 @@ def main():
             "movements": "|".join(sorted(set(claims.get("P135", [])))),
             "in_pool_rule": int(in_pool), "is_reference": int(q in ref_set),
         }
-        for pid, name in NAMED_IDS.items():
+        for pid, name in GLOBAL_IDS.items():
             row[f"{name}_id"] = (claims.get(pid) or [""])[0]
-        row["n_other_ids"] = sum(1 for pid in OTHER_IDS if claims.get(pid))
+        # Which authority IDs the artist has; depth_model.py counts the region's own.
+        row["authority_ids"] = "|".join(pid for pid in AUTHORITY_IDS if claims.get(pid))
         rows.append(row)
 
     out = os.path.join(OUT_DIR, f"pool_{args.region}.csv")

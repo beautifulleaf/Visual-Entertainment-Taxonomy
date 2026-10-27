@@ -58,6 +58,12 @@ The target depth is the owner-supplied list in `seeds/visual-art/europe_1400-190
 2. Features: sitelinks, pageviews, number of open-access museums holding work, number of Heilbrunn Timeline works, ULAN record, WikiArt ID, and Art UK / RKD / national-database IDs.
 3. Fit a simple, interpretable model (logistic regression) predicting reference membership. Pick the score cutoff that recovers about 95% of the reference, which matches "if in doubt, include".
 4. Apply the same model to every other region × period cell. Features are percentile-normalised within the cell, so thinner Wikipedia coverage elsewhere doesn't empty those cells.
+   **Decided (2026-10-27): harvest candidates once, take the evidence per region × era.** Wikidata is global, so the candidate fetch is done once worldwide and cached. Each region's config (`pipelines/visual_art/regions.py`) then names its own evidence:
+   - **who counts as an artist:** painters for Europe; ink painters, calligraphers and ukiyo-e print designers for East Asia; miniaturists, illuminators and calligraphers for the Islamic world;
+   - **which collections are decisive:** the Met, AIC and Cleveland as an encyclopedic baseline everywhere, plus specialists such as ColBase, the National Palace Museum and the National Museum of Asian Art for East Asia, or the V&A and the British Library for South Asia;
+   - **which authority files count:** RKD, Art UK, Joconde, the Prado and others for Europe.
+
+   The model sees only abstract features built from these (`museum_objects`, `n_museums`, `n_regional_ids`, plus sitelinks, pageviews, Timeline works, ULAN and WikiArt). So the coefficients fitted on Europe carry over while the sources behind each feature change by region.
 5. Validate per region with further reference lists added to `seeds/visual-art/` (e.g. Chinese painting by dynasty, Ukiyo-e, Mughal/Rajput, Persian miniature, Latin American colonial), each in the same "Movement: names" format.
 
 ## 2A. Unattributed traditions: antiquity, decorative arts, architecture
