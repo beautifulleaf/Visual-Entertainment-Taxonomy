@@ -32,6 +32,68 @@ Region (e.g. East Asia)
 **Metric:** Wikidata **sitelink count** (number of Wikipedia language editions), thresholded **per region × period cell** at a percentile, with a global floor; plus the number of open-access museums holding the artist's work.
 *Measured:* painters with ≥5 sitelinks = 24,946, ≥15 = 4,119; sculptors ≥5 = 6,773; photographers ≥5 = 7,033.
 
+### 2.1 Depth target: calibrated from the reference lists
+The target depth is the owner-supplied list in `seeds/visual-art/europe_1400-1900_depth_reference.txt`: WikiArt-style movement lists, 910 names from Early Renaissance to Realism. `pipelines/visual_art/calibrate_depth.py` matches each name to Wikidata. 837 matched by exact label, with birth-year and art-occupation guards; 75 of those are ambiguous and flagged for hand review, and 73 are unmatched, mostly spelling variants without diacritics such as "Albrecht Durer" or "Diego Velazquez".
+
+*Measured sitelink distribution of the reference artists (p10 / p25 / median):*
+| Movement | n | p10 | p25 | median |
+|---|---|---|---|---|
+| Early Renaissance | 22 | 22 | 30 | 40.5 |
+| High Renaissance | 28 | 18 | 28 | 45 |
+| Mannerism | 36 | 14 | 24 | 36.5 |
+| Northern Renaissance | 47 | 13 | 18 | 33 |
+| Baroque | 99 | 8 | 13 | 23 |
+| Dutch Golden Age | 53 | 14 | 18 | 27 |
+| Rococo | 56 | 9 | 19 | 26 |
+| Neoclassicism | 50 | 7 | 11 | 23 |
+| Romanticism | 249 | 4 | 8 | 16 |
+| Academic Art | 78 | 4 | 9 | 14 |
+| Realism / Naturalism | 192 | 3 | 8 | 15 |
+| **All** | 910 | **5** | **11** | **21** |
+
+**Finding: a sitelink cutoff alone cannot reproduce this depth.** Painters born 1300–1900 worldwide: ≥5 sitelinks = 16,561 (18× the reference, still missing ~10% of it); ≥12 = 4,269 (missing ~25%). The reference is a *curated* top tier, roughly the most-exhibited and most-reproduced ~900 painters of 1400–1900 Europe, not everyone with some Wikipedia presence.
+
+**Method: treat the reference as labelled training data.**
+1. Candidate pool for the reference cells: painters active 1400–1900 in Europe and its colonies, with ≥3 sitelinks.
+2. Features: sitelinks, pageviews, number of open-access museums holding work, number of Heilbrunn Timeline works, ULAN record, WikiArt ID, and Art UK / RKD / national-database IDs.
+3. Fit a simple, interpretable model (logistic regression) predicting reference membership. Pick the score cutoff that recovers about 95% of the reference, which matches "if in doubt, include".
+4. Apply the same model to every other region × period cell. Features are percentile-normalised within the cell, so thinner Wikipedia coverage elsewhere doesn't empty those cells.
+5. Validate per region with further reference lists added to `seeds/visual-art/` (e.g. Chinese painting by dynasty, Ukiyo-e, Mughal/Rajput, Persian miniature, Latin American colonial), each in the same "Movement: names" format.
+
+## 2A. Unattributed traditions: antiquity, decorative arts, architecture
+
+A large part of world art has no recorded maker. *Measured* in the Met's open-access CSV (503,012 objects): **40% have no artist**, rising to 94–99% in the Greek and Roman, Egyptian, Islamic, Medieval and Ancient West Asian departments, 72% in Asian Art and 67% in European Sculpture and Decorative Arts. These traditions therefore need their **own node type and their own prominence signals**, not the artist pipeline.
+
+### Node types
+| Node | Examples | Children |
+|---|---|---|
+| **Culture / period style** | Attic red-figure, Benin court art, Nok, Moche, Gandhara, Mamluk, Nazca, Jōmon | object traditions, representative works, known names where they exist (Exekias) |
+| **Object tradition / ware** (region × medium) | Iznik ware, Song celadon, Ming blue-and-white, Persian carpets by centre (Tabriz, Kashan), Mamluk enamelled glass, Limoges enamel, Chinese lacquer, Kente cloth | representative works |
+| **Workshop / manufactory** | Sèvres, Meissen, Gobelins, Wedgwood, Tiffany Studios, Kakiemon kilns | designers where known, representative works |
+| **Architectural style** | Gothic, Mughal, Khmer, Nara-period temple style, Pueblo, Brutalism | exemplar buildings and sites, named architects where attributed |
+| **Monument / site** | Angkor Wat, Hagia Sophia, Great Zimbabwe, Chartres | — |
+
+Medium is a third axis alongside region and period: painting and calligraphy, sculpture, ceramics, glass, metalwork and jewellery, textiles and carpets, furniture and woodwork, lacquer, manuscripts and the arts of the book, arms and armour, costume, musical instruments, architecture.
+
+### Sources
+| Source | Role |
+|---|---|
+| **Met Heilbrunn Timeline works** | *Measured:* 7,946 Timeline works, 3,210 of them unattributed, spanning **578 distinct cultures**. This is the curatorial equivalent of the WikiArt lists for unattributed art, so it serves as the depth benchmark. |
+| Met / AIC / Cleveland / Smithsonian (incl. Cooper Hewitt and the National Museum of Asian Art) / Rijksmuseum / V&A open data | `culture`, `period`, `dynasty`, `classification` fields. *Measured (Met, unattributed only):* 5,954 distinct culture strings, of which 206 have ≥50 objects and 32 have ≥500; 137 periods with ≥50 objects. The culture strings need normalising to AAT terms. |
+| **Getty AAT** | the styles/periods/cultures facet and the object-type hierarchy: stable IDs for every tradition and medium node |
+| **Wikidata** | *Measured, items with ≥5 / ≥15 sitelinks:* architectural styles 401 / 171, art movements 445 / 211, art styles 160 / 85, archaeological cultures 580 / 185 |
+| **UNESCO World Heritage List** (~1,200 sites) + Wikidata buildings by sitelinks | exemplar monuments for architecture and sites |
+| ColBase, National Palace Museum, ICOM / national museum portals | East Asian ceramics, bronzes and lacquer, plus regional depth |
+
+### Prominence metric (tradition nodes)
+Each signal is a percentile within its region × period cell:
+1. **Curatorial:** has Heilbrunn Timeline works, or a Smarthistory or Heilbrunn essay (auto-include).
+2. **Institutional:** the number of objects across open-access museums, and the number of museums holding it.
+3. **Attention:** Wikidata sitelinks of the tradition item, plus pageviews.
+4. **Architecture only:** the number of UNESCO-listed and high-sitelink exemplar buildings.
+
+Representative works per node: 3–10, preferring Timeline works and museum "highlights" (the Met's `Is Highlight` flag), then public-domain images.
+
 ## 3. Living and contemporary artists
 
 This is the hardest part. No single source measures prominence the way IMDb or Letterboxd votes do for film, and every ranking is skewed toward Europe and the US. ArtReview's Power 100 for 2006–2012 was about 0.4% African; Artfacts and Kunstkompass are Euro-centric by design. So **contemporary prominence has to be built as a composite of independent signals.**
