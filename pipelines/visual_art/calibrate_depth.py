@@ -98,7 +98,7 @@ def read_seeds():
             if not sub:
                 parent = movement.strip()
             label = f"{parent} > {movement.strip()}" if sub else movement.strip()
-            rows += [{"movement": label, "name": n.strip()} for n in names.split(",") if n.strip()]
+            rows += [{"list": os.path.basename(path), "movement": label, "name": n.strip()} for n in names.split(",") if n.strip()]
     return rows
 
 
@@ -192,7 +192,7 @@ def main():
             time.sleep(1)
         json.dump(cache, open(CACHE, "w", encoding="utf-8"), ensure_ascii=False)
 
-    fields = ["movement", "name", "qid", "sitelinks", "birth_year", "has_wikiart_id", "via", "candidates"]
+    fields = ["list", "movement", "name", "qid", "sitelinks", "birth_year", "has_wikiart_id", "via", "candidates"]
     for r in rows:
         r.update(cache.get(r["name"]) or {})
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
