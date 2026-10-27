@@ -128,14 +128,20 @@ def cma_records():
     path = os.path.join(RAW, "cma_creators.jsonl")
     if not os.path.exists(path):
         with open(path + ".part", "w", encoding="utf-8") as out:
-            skip = 0
-            while True:
+            skip, total, empty = 0, None, 0
+            while total is None or skip < total:
                 url = f"{CMA_API}?limit=1000&skip={skip}&fields=id,creators"
                 req = urllib.request.Request(url, headers={"User-Agent": UA})
                 with urllib.request.urlopen(req, timeout=300) as r:
-                    data = json.load(r)["data"]
-                if not data:
-                    break
+                    page = json.load(r)
+                total, data = page["info"]["total"], page["data"]
+                if not data:  # the API occasionally returns an empty page mid-run
+                    empty += 1
+                    if empty > 5:
+                        raise RuntimeError(f"Cleveland API returned empty pages at skip={skip} of {total}")
+                    time.sleep(10 * empty)
+                    continue
+                empty = 0
                 for w in data:
                     out.write(json.dumps({"id": w["id"], "creators": w.get("creators") or []}) + "\n")
                 skip += len(data)
