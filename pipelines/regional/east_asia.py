@@ -199,7 +199,11 @@ SIMPLIFIED = dict(zip("黄徴赵孟頫沈周董其昌王恽寿平郑燮刘陈张
 # Same person under a longer art name in one source and the short one elsewhere.
 NAME_ALIASES = {"雪舟等楊": "雪舟", "安藤広重": "歌川広重", "一立斎広重": "歌川広重", "雪村周継": "雪村", "天章周文": "周文",
                 "可翁仁賀": "可翁", "大巧如拙": "如拙", "池野大雅": "池大雅", "谷口蕪村": "与謝蕪村", "画狂老人卍": "葛飾北斎",
-                "応挙": "円山応挙", "牧谿法常": "牧谿", "梁楷": "梁楷"}
+                "応挙": "円山応挙", "牧谿法常": "牧谿", "光悦": "本阿弥光悦", "長谷川信春": "長谷川等伯",
+                "等伯": "長谷川等伯", "宗達": "俵屋宗達", "光琳": "尾形光琳", "乾山": "尾形乾山", "若冲": "伊藤若冲",
+                "北斎": "葛飾北斎", "広重": "歌川広重", "歌麿": "喜多川歌麿", "探幽": "狩野探幽", "永徳": "狩野永徳",
+                "大雅": "池大雅", "蕪村": "与謝蕪村", "崋山": "渡辺崋山", "仁清": "野々村仁清", "弘法大師": "空海",
+                "岩佐勝以": "岩佐又兵衛", "雪舟等揚": "雪舟", "明兆": "吉山明兆"}
 
 
 def fold_cjk(s):
@@ -386,12 +390,13 @@ def period_label(i):
 
 # ------------------------------------------------------------------ attribution
 
-PLACEHOLDER = re.compile(r"不詳|不明|未詳|作者不|筆者不|佚名|無款|unknown|anonymous|unidentified|미상|작자미상|"
+PLACEHOLDER = re.compile(r"不詳|不明|未詳|無銘|作者不|筆者不|佚名|無款|unknown|anonymous|unidentified|미상|작자미상|"
                          r"^(?:宋|元|明|清|唐|五代|宋元)人$", re.I)
 NON_PERSON = re.compile(r"アイヌ|研究所|博物館|写真館|美術館|学校|製作所|商店|会社|協会|本舗|^中国|^朝鮮|^日本|^韓国|"
                         r"^台湾|^琉球|^沖縄|人形師|^Ｇ．|ware\b|kiln|workshop|studio", re.I)
 WORKSHOP = re.compile(r"(窯|焼|工房|御用|官窯|伊万里|瀬戸|有田|鍋島|唐津|萩|楽家|座)$|窯|ware\b|kiln|workshop", re.I)
 JP_ROLES = [("撮影", "photographer"), ("下絵", "designer"), ("原画", "designer"), ("図案", "designer"),
+            ("自画自賛", "painter"), ("自画賛", "painter"), ("画賛", "painter"), ("自賛", "painter"),
             ("筆", "painter"), ("画", "painter"), ("書", "calligrapher"), ("作", "maker"), ("造", "maker"),
             ("製", "maker"), ("刻", "carver"), ("彫", "carver"), ("模", "copyist"), ("摸", "copyist"),
             ("写", "copyist"), ("著", "author"), ("編", "author"), ("撰", "author"), ("訳", "author"),
@@ -402,6 +407,11 @@ CREATOR_ROLES = {"painter", "calligrapher", "maker", "carver", "designer", "phot
 def split_jp_maker(token):
     """'伝狩野元信筆' -> ('狩野元信', 'painter', True)."""
     t = re.sub(r"[（(〈][^）)〉]*[）)〉]", "", token).strip(" 　　「」『』")
+    if "無銘" in t:
+        return "", "", False
+    if t.startswith("銘") and len(t) > 2:          # sword signatures: 銘豊後国行平 -> 行平
+        t = re.sub(r"^銘", "", t)
+        t = re.sub(r"^.{1,4}?国(?:.{1,4}?住)?", "", t) + "作"
     attributed = False
     if t.startswith("伝") and len(t) > 2:
         t, attributed = t[1:], True
@@ -1268,6 +1278,8 @@ def em_period(label, country):
 
 def ko_type(classification, material, title):
     c = classification or ""
+    if "불화" in c or "초상" in c:
+        return "painting"
     if "서화" in c or "회화" in c or "글씨" in c:
         if "글씨" in c or "서예" in c or "서첩" in c or "어필" in c:
             return "calligraphy"
@@ -1286,7 +1298,9 @@ def ko_type(classification, material, title):
     if m in KO_MATERIAL_TYPE:
         t = KO_MATERIAL_TYPE[m]
         if t == "painting":
-            return "books and manuscripts" if ("문서" in c or "책" in c) else "painting"
+            if "문서" in c or "책" in c or "전적" in c or (not c and re.search(r"경|권|본|책|록|집|첩|문서|교지|호적", title or "")):
+                return "books and manuscripts"
+            return "painting"
         return t
     return "other"
 
@@ -1331,10 +1345,11 @@ def fetch_korea(delay, n_details):
             mk = [{"name": maker[0], "rom": romanise_korean_name(maker[0]), "dates": None, "role": "artist",
                    "attributed": maker[1]}]
         otype = ko_type(det.get("분류", ""), det.get("재질", ""), title)
+        des = re.sub(r"\s*제?\s*\d+호.*$", "", det.get("국가지정유산") or label).strip() or label
         o = obj(source="emuseum", id=rid, title=title, country=country, period_original=period_txt.strip(),
                 _period_idx=pidx, object_type=otype, object_subtype=det.get("분류", ""),
-                attribution=maker_attribution(mk, ""), designation=det.get("국가지정유산") or label,
-                designation_en=DESIGNATION_EN.get(det.get("국가지정유산") or label, label),
+                attribution=maker_attribution(mk, ""), designation=des,
+                designation_en=DESIGNATION_EN.get(des, des),
                 holder=it[2], url=f"{EM}/detail?relicId={rid}", _makers=mk)
         set_dates_from_period(o, pidx)
         out.append(o)
@@ -1342,20 +1357,23 @@ def fetch_korea(delay, n_details):
     # (b) National Museum of Korea painting and calligraphy, per period facet
     nmk_n = 0
     for code, otype, ko in EM_SEOHWA:
-        _, first = em.listing(f"nmk_{code}_all", max_pages=1, facet1Lv2=EM_NMK, facet5Lv3=code)
+        all_items, first = em.listing(f"nmk_{code}_all", facet1Lv2=EM_NMK, facet5Lv3=code)
         if first is None:
-            print(f"  e-Museum: NMK {ko} facets failed", file=sys.stderr)
+            print(f"  e-Museum: NMK {ko} listing failed", file=sys.stderr)
             continue
         periods = [f for f in first["facets"] if f[0] == "facet3Lv2"]
-        covered = 0
+        period_of_rid = {}
         for _, pcode, plabel, n in periods:
             items, _ = em.listing(f"nmk_{code}_{pcode}", facet1Lv2=EM_NMK, facet5Lv3=code, facet3Lv2=pcode)
-            if items is None:
-                continue
-            covered += len(items)
+            for it in items or []:
+                period_of_rid.setdefault(it[0], (pcode, plabel))
+        covered = 0
+        for rid, title, museum, acc in all_items:
+            pcode, plabel = period_of_rid.get(rid, ("PS06001", ""))   # NMK 서화 without a period facet: Korean
+            covered += rid in period_of_rid
             country = EM_COUNTRY.get(pcode[:7], "other")
             pidx = em_period(plabel, country if country in EAST else None)
-            for rid, title, museum, acc in items:
+            if True:
                 if rid in seen:
                     continue
                 seen.add(rid)
@@ -1371,7 +1389,8 @@ def fetch_korea(delay, n_details):
                 set_dates_from_period(o, pidx)
                 out.append(o)
                 nmk_n += 1
-        print(f"  e-Museum NMK {ko}: {first['total']:,} listed, {covered:,} read across {len(periods)} period facets")
+        print(f"  e-Museum NMK {ko}: {first['total']:,} listed, {len(all_items):,} read, {covered:,} with a period "
+              f"facet ({len(periods)} facets)")
     # (c) NMK whole collection: period x material facet counts (context for traditions)
     facet_counts = []
     _, first = em.listing("nmk_all", max_pages=1, facet1Lv2=EM_NMK)
