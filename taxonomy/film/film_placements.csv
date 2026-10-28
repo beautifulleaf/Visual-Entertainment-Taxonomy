@@ -378,10 +378,27 @@ tt8241872,Vitalina Varela,2019,PT,Pedro Costa,Q66501208,A1-33,,3,A1-33,med,,revi
 tt8399288,Memoria,2021,CO,Apichatpong Weerasethakul,Q67087116,A1-33,,3,A1-33,med,Weerasethakul; slow cinema attested,review
 tt11697820,Days,2021,TW,Tsai Ming-liang,Q84324952,A1-33,,3,A1-33,high,,review
 tt13702796,Pacifiction,2022,PT,Albert Serra,Q111686259,A1-33,A3-6,3,A1-33,low,Serra linked to slow cinema; plot is a nuclear-paranoia thriller,review
+tt0144782,The Red Light Bandit,1968,BR,Rogério Sganzerla,Q3347771,A1-35,A2-4;A16-1,10,A1-35,high,Founding Cinema Marginal film (Sganzerla); no cycle home,sweep
+tt0053270,Shadows,1960,US,John Cassavetes,Q1535980,A1-36,A14-4;A9-1,12,A1-36,high,"Definition example; Cassavetes debut, NAC Group",sweep
 tt0056952,The Cool World,1964,US,Shirley Clarke,Q7727567,A1-36,A14-3;A14-4,3,A1-36,med,Shirley Clarke; pre-dates blaxploitation,review
+tt0078763,Camera Buff,1979,PL,Krzysztof Kieślowski,Q2417978,A1-37,A14-5;A10-2,12,A1-37,high,Definition example,sweep
+tt0082222,Man of Iron,1981,PL,Andrzej Wajda,Q959682,A1-37,A14-13;A7-4,12,A1-37,med,"Sequel to Man of Marble, moral-anxiety canon",sweep
+tt0084549,Blind Chance,1987,PL,Krzysztof Kieślowski,Q1198219,A1-37,A14-5;A14-13,12,A1-37,med,"Made 1981, shelved; moral-anxiety canon",sweep
+tt0057642,The Green Years,1963,PT,Paulo Rocha,Q1341783,A1-38,A9-1;A14-4,12,A1-38,high,Definition example; Paulo Rocha,sweep
+tt0060720,Change of Life,1967,PT,Paulo Rocha,Q28148422,A1-38,A14-5;A14-4,12,A1-38,high,Definition example; Paulo Rocha,sweep
+tt0073363,Manila in the Claws of Light,1975,PH,Lino Brocka,Q7723321,A1-39,A14-4,12,A1-39,high,Definition example; Brocka,sweep
+tt0077740,Insiang,1976,PH,Lino Brocka,Q950142,A1-39,A14-4;A3-5,12,A1-39,high,Definition example; Brocka,sweep
+tt0221322,In the Wink of an Eye,1981,PH,Mike De Leon,Q3585810,A1-39,A3-1;A14-2,10,A1-39,med,"Kisapmata, Mike de Leon; thriller not a cycle",sweep
+tt0125144,Miracle,1982,PH,Ishmael Bernal,Q12124781,A1-39,A14-4,12,A1-39,high,"Himala, definition example; Bernal",sweep
+tt0086056,"Oro, Plata, Mata",1982,PH,Peque Gallaga,Q7103679,A1-39,A7-3;A7-4,8,A1-39,med,"Gallaga, cited in martial-law era canon",sweep
 tt0010307,J'accuse!,1919,FR,Abel Gance,Q3156550,A1-4,A7-3,3,A1-4,high,,review
 tt0018192,Napoleon,1927,FR,Abel Gance,Q1632158,A1-4,A7-8,3,A1-4,med,Attested impressionist film; biopic as see-also,review
 tt0018770,The Fall of the House of Usher,1928,FR,Jean Epstein,Q1747223,A1-4,A4-13,3,A1-4,high,,review
+tt0084488,Permanent Vacation,1981,US,Jim Jarmusch,Q2071501,A1-40,A14-5,12,A1-40,high,Definition example; Jarmusch debut,sweep
+tt0084698,Smithereens,1982,US,Susan Seidelman,Q12127550,A1-40,A14-5;A11-1,12,A1-40,high,Definition example; Seidelman downtown punk,sweep
+tt0085267,Born in Flames,1983,US,Lizzie Borden,Q893926,A1-40,A5-7;A16-1,7,A1-40,high,Definition example; Lizzie Borden; dystopia not a cycle,sweep
+tt0088184,Stranger Than Paradise,1984,US,Jim Jarmusch,Q1345409,A1-40,A14-11;A10-2,12,A1-40,high,Definition example; early Jarmusch No Wave,sweep
+tt0090251,Variety,1985,US,Bette Gordon,Q29107373,A1-40,A14-5;A12-3,12,A1-40,med,"Bette Gordon, No Wave filmmaker; Acker script",sweep
 tt0024844,L'Atalante,1934,FR,Jean Vigo,Q780016,A1-5,,3,A1-5,high,,review
 tt0028950,Grand Illusion,1937,FR,Jean Renoir,Q470336,A1-5,A7-3,3,A1-5,med,,review
 tt0029453,Pépé le Moko,1937,FR,Julien Duvivier,Q1241684,A1-5,A2-2,3,A1-5,high,,review
@@ -506,13 +523,10 @@ tt0065622,The Decameron,1971,IT,Pier Paolo Pasolini,Q720159,A10-1,A7-7,12,,low,,
 tt0070356,Now Where Did the Seventh Company Get to?,1973,FR,Robert Lamoureux,Q663019,A10-1,A7-3,12,,high,Wartime farce (F21),review
 tt0069747,The Mad Adventures of Rabbi Jacob,1973,FR,Gérard Oury,Q1210863,A10-1,,12,,high,,review
 tt0071524,The Front Page,1974,US,Billy Wilder,Q645456,A10-1,A10-4,12,,med,Newspaper farce,review
-tt0152492,Snooker,1975,IL,Boaz Davidson,Q2911381,A10-1,,12,,med,Bourekas film,review
 tt0427550,Two Tons of Turquoise to Taos Tonight,1975,,Robert Downey Sr.,Q114274170,A10-1,A16-1,12,,med,Underground sketch comedy,review
 tt0074103,The Wing or The Thigh?,1976,FR,Claude Zidi,Q994421,A10-1,,12,,high,,review
 tt0073052,Halfon Hill Doesn't Answer,1976,IL,Assi Dayan,Q2911307,A10-1,A10-6,12,,med,,review
-tt0253828,Tosun Pasha,1976,TR,Kartal Tibet,Q7827905,A10-1,A7-4,12,,med,period is backdrop for gags,review
 tt0074865,"Marecek, Pass Me the Pen!",1976,XC,Oldřich Lipský,Q3498052,A10-1,,12,,high,,review
-tt0253997,The King of the Street Cleaners,1977,TR,Zeki Ökten,Q7744599,A10-1,,12,,med,,review
 tt0213322,Tomorrow I'll Wake Up and Scald Myself with Tea,1977,XC,Jindřich Polák,Q2659490,A10-1,A5-9,12,,med,Time-travel farce (F25),review
 tt1411769,Qayinana,1978,AZ,Huseyn Seyidzadeh,Q4410065,A10-1,A11-1,12,,med,,review
 tt0077276,French Fried Vacation,1978,FR,Patrice Leconte,Q652094,A10-1,,12,,high,,review
@@ -1393,6 +1407,8 @@ tt37245594,Caleb Hearon: Model Comedian,2025,US,,,A10-12,,12,,high,,review
 tt39227597,Dave Chappelle: The Unstoppable,2025,US,,,A10-12,,12,,high,,review
 tt43617492,Deniz Goktas: Ölü Deniz,2026,TR,,,A10-12,,12,,high,stand-up special,review
 tt39132072,Marcello Hernandez: American Boy,2026,US,,,A10-12,,12,,high,,review
+tt0058541,Sallah Shabati,1964,IL,Ephraim Kishon,Q1632708,A10-13,A10-3,12,,high,Definition example; founding bourekas film,sweep
+tt0152492,Snooker,1975,IL,Boaz Davidson,Q2911381,A10-13,A10-1,12,,high,Definition example,sweep
 tt0011607,The Parson's Widow,1920,SE,Carl Theodor Dreyer,Q3212086,A10-2,A7-7,12,,med,,review
 tt0012349,The Kid,1921,US,Charlie Chaplin,Q374172,A10-2,A10-5,12,,high,,review
 tt0012465,Miss Lulu Bett,1921,,William Churchill deMille,Q16253256,A10-2,A14-2,12,,med,,review
@@ -1441,15 +1457,14 @@ tt0061735,Guess Who's Coming to Dinner,1967,US,Stanley Kramer,Q736969,A10-2,A14-
 tt0062981,The Girls,1968,SE,Mai Zetterling,Q1142923,A10-2,,12,,med,,review
 tt0063991,Age of Consent,1969,AU,Michael Powell,Q4691874,A10-2,A9-1,12,,med,Not a biopic,review
 tt0064591,Lions Love (... and Lies),1969,FR,Agnès Varda,Q3241992,A10-2,A16-1,12,,low,,review
-tt0064100,Bob & Carol & Ted & Alice,1969,US,Paul Mazursky,Q2731768,A10-2,A10-3,12,,med,,review
-tt0065651,Bed & Board,1970,FR,François Truffaut,Q627975,A10-2,A9-2,12,,high,,review
+tt0064100,Bob & Carol & Ted & Alice,1969,US,Paul Mazursky,Q2731768,A10-2,A10-3,12,A1-15,med,,review
+tt0065651,Bed & Board,1970,FR,François Truffaut,Q627975,A10-2,A9-2,12,A1-7,high,,review
 tt0129303,Little by Little,1970,NE,Jean Rouch,Q3377304,A10-2,A13-9,12,,med,Rouch ethnofiction,review
 tt0069191,Roma,1972,IT,Federico Fellini,Q18423,A10-2,A16-1,12,,med,Episodic city portrait,review
 tt0070460,Day for Night,1973,FR,François Truffaut,Q909816,A10-2,,12,,high,,review
 tt0071129,Amarcord,1973,IT,Federico Fellini,Q18428,A10-2,A14-3,12,,med,,review
 tt0071155,The Apprenticeship of Duddy Kravitz,1974,CA,Ted Kotcheff,Q1402938,A10-2,,12,,high,,review
 tt0078122,Get Out Your Handkerchiefs,1978,FR,Bertrand Blier,Q1451544,A10-2,A10-3,12,,high,,review
-tt0765833,Happy Days,1978,TR,Orhan Aksoy,Q6084541,A10-2,A14-2,12,,med,,review
 tt0078444,An Unmarried Woman,1978,US,Paul Mazursky,Q1306726,A10-2,A14-5,12,,med,,review
 tt0077613,Girlfriends,1978,US,Claudia Weill,Q5564531,A10-2,A14-5,12,,med,Mumblecore link is influence only,review
 tt0078771,Love on the Run,1979,FR,François Truffaut,Q277281,A10-2,,12,,high,,review
@@ -1604,7 +1619,7 @@ tt0316768,Tiptoes,2002,US,Matthew Bright,Q1640008,A10-2,,12,,med,,review
 tt0379577,Vodka Lemon,2003,AM,Huner Saleem,Q1767580,A10-2,,12,,high,,review
 tt0338135,The Barbarian Invasions,2003,CA,Denys Arcand,Q549012,A10-2,A14-2,12,,high,,review
 tt0301357,Good Bye Lenin!,2003,DE,Wolfgang Becker,Q154817,A10-2,,12,,high,,review
-tt0347131,The Magic Gloves,2003,DE,Martín Rejtman,Q27703697,A10-2,,12,,med,,review
+tt0347131,The Magic Gloves,2003,DE,Martín Rejtman,Q27703697,A10-2,,12,A1-31,med,,review
 tt0337909,Calendar Girls,2003,GB,Nigel Cole,Q83789,A10-2,A7-8,12,,high,,review
 tt0374887,Munna Bhai M.B.B.S.,2003,IN,Rajkumar Hirani,Q262778,A10-2,A18-1,12,,med,,review
 tt0367195,Come and Go,2003,PT,João César Monteiro,Q3553054,A10-2,A14-5,12,,med,,review
@@ -2084,7 +2099,6 @@ tt0052784,Skeleton of Mrs. Morales,1960,MX,Rogelio A. González,Q599172,A10-3,A1
 tt0055256,"One, Two, Three",1961,US,Billy Wilder,Q1283810,A10-3,,12,,high,Cold War satire,review
 tt0057643,The Executioner,1963,IT,Luis García Berlanga,Q1747275,A10-3,,12,,high,,review
 tt0057012,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1964,GB,Stanley Kubrick,Q105702,A10-3,A5-5,12,,high,,review
-tt0058541,Sallah Shabati,1964,IL,Ephraim Kishon,Q1632708,A10-3,,12,,high,Bourekas film; no leaf for the cycle,review
 tt0278094,Tiga Abdul,1964,MY,P. Ramlee,Q7801310,A10-3,A6-5,12,,med,,review
 tt0138311,Babo 73,1964,,Robert Downey Sr.,Q97958944,A10-3,,12,,high,,review
 tt0059719,Simon of the Desert,1965,MX,Luis Buñuel,Q2357585,A10-3,A16-2,12,,med,"45 min, feature by the 40-minute line",review
@@ -2101,15 +2115,15 @@ tt0063462,The Producers,1968,US,Mel Brooks,Q315732,A10-3,A11-1,12,,high,,review
 tt0251300,No More Excuses,1968,,,,A10-3,A16-1,12,,med,Underground satire,review
 tt0065076,The Big Dig,1969,IL,Ephraim Kishon,Q329354,A10-3,,12,,high,,review
 tt0064855,Putney Swope,1969,US,Robert Downey Sr.,Q7262376,A10-3,,12,,high,,review
-tt0065528,Catch-22,1970,US,Mike Nichols,Q1050533,A10-3,A7-3,12,,high,F22 war satire,review
-tt0065836,"Hi, Mom!",1970,US,Brian De Palma,Q1546809,A10-3,,12,,med,,review
+tt0065528,Catch-22,1970,US,Mike Nichols,Q1050533,A10-3,A7-3,12,A1-15,high,F22 war satire,review
+tt0065836,"Hi, Mom!",1970,US,Brian De Palma,Q1546809,A10-3,,12,A1-15,med,,review
 tt0067454,Multiple Maniacs,1970,US,John Waters,Q3327689,A10-3,A4-16,12,,med,,review
 tt0066550,Watermelon Man,1970,US,Melvin Van Peebles,Q3819958,A10-3,,12,,med,Pre-blaxploitation satire,review
-tt0066537,Killing the Devil,1970,XC,Ester Krumbachová,Q111747692,A10-3,A6-1,12,,low,,review
+tt0066537,Killing the Devil,1970,XC,Ester Krumbachová,Q111747692,A10-3,A6-1,12,A1-10,low,,review
 tt0067482,A New Leaf,1971,US,Elaine May,Q223278,A10-3,A9-2,12,,med,,review
 tt0066808,Bananas,1971,US,Woody Allen,Q806092,A10-3,A10-5,12,,med,,review
-tt0065492,Brewster McCloud,1971,US,Robert Altman,Q2924761,A10-3,A6-1,12,,med,,review
-tt0067185,Harold and Maude,1971,US,Hal Ashby,Q368577,A10-3,A9-1,12,,med,,review
+tt0065492,Brewster McCloud,1971,US,Robert Altman,Q2924761,A10-3,A6-1,12,A1-15,med,,review
+tt0067185,Harold and Maude,1971,US,Hal Ashby,Q368577,A10-3,A9-1,12,A1-15,med,,review
 tt0067350,Little Murders,1971,US,Alan Arkin,Q3902621,A10-3,A2-4,12,,med,Urban black comedy satire (F22),review
 tt0067217,The Hospital,1971,US,Arthur Hiller,Q1630422,A10-3,A14-4,12,,high,,review
 tt0295363,The Captain,1972,AL,Muharrem Fejzo; Fehmi Hoshafi,Q11001907,A10-3,,12,,low,Village satire of misogyny; little evidence,review
@@ -2510,7 +2524,7 @@ tt0028772,A Day at the Races,1937,US,Sam Wood,Q1214749,A10-5,A11-1,12,,high,Marx
 tt0040497,Jour de fête,1949,FR,Jacques Tati,Q29867,A10-5,,12,,high,,review
 tt0046487,Monsieur Hulot's Holiday,1953,FR,Jacques Tati,Q532006,A10-5,,12,,high,Tati,review
 tt0050706,My Uncle,1958,FR,Jacques Tati,Q1346590,A10-5,,12,,high,Tati,review
-tt0054494,Zazie in the Metro,1960,FR,Louis Malle,Q167905,A10-5,,12,,med,Frenetic slapstick,review
+tt0054494,Zazie in the Metro,1960,FR,Louis Malle,Q167905,A10-5,,12,A1-7,med,Frenetic slapstick,review
 tt0055069,The Ladies Man,1961,US,Jerry Lewis,Q2394537,A10-5,,12,,high,,review
 tt0056514,The Suitor,1962,FR,Pierre Étaix,Q759314,A10-5,A9-2,12,,high,Étaix,review
 tt0057193,"It's a Mad, Mad, Mad, Mad World",1963,US,Stanley Kramer,Q1306890,A10-5,A10-10,12,,med,Slapstick chase ensemble,review
@@ -2548,7 +2562,6 @@ tt0069945,Dark Star,1974,US,John Carpenter,Q506580,A10-6,A5-3,12,,med,2001 parod
 tt0072431,Young Frankenstein,1974,US,Mel Brooks,Q651923,A10-6,A4-13,12,,high,Leaf example,review
 tt0071853,Monty Python and the Holy Grail,1975,GB,Terry Gilliam; Terry Jones,Q25043,A10-6,A6-4,12,,high,,review
 tt0073312,Love and Death,1975,US,Woody Allen,Q1218888,A10-6,A7-4,12,,high,,review
-tt0253779,The Foster Brothers,1976,TR,Ertem Eğilmez,Q4807991,A10-6,A4-16,12,,med,spoofs horror classics,review
 tt0074937,Murder by Death,1976,US,Robert Moore,Q288098,A10-6,A3-2,12,,high,,review
 tt0075222,Silent Movie,1976,US,Mel Brooks,Q834385,A10-6,A10-5,12,,high,,review
 tt0076141,High Anxiety,1977,US,Mel Brooks,Q1449248,A10-6,A3-9,12,,high,Hitchcock spoof,review
@@ -2684,10 +2697,6 @@ tt3402138,The Naked Gun,2025,US,Akiva Schaffer,Q125908027,A10-6,,12,,high,Parody
 tt32093575,Scary Movie,2026,US,Michael Tiddes,Q131450198,A10-6,,12,,high,,review
 tt0030386,Love Finds Andy Hardy,1938,US,George B. Seitz,Q2733456,A10-7,A19-2,12,,med,Teen comedy; Christmas only a deadline,review
 tt0059362,The Knack... and How to Get It,1965,GB,Richard Lester,Q1198726,A10-7,,12,,low,Swinging London sex comedy; BNW link unattested,review
-tt0252487,The Chaos Class,1975,TR,Ertem Eğilmez,Q1218009,A10-7,A14-3,12,,med,school comedy series,review
-tt0252488,The Chaos Class Failed the Class,1976,TR,Ertem Eğilmez,Q6088721,A10-7,A14-3,12,,med,,review
-tt0252490,The Chaos Class Is Waking Up,1976,TR,Ertem Eğilmez,Q6087318,A10-7,A14-3,12,,med,,review
-tt0252489,The Chaos Class Is on Vacation,1977,TR,Ertem Eğilmez,Q5636593,A10-7,A14-3,12,,med,proposal adventure rejected,review
 tt0079118,Lemon Popsicle,1978,IL,Boaz Davidson,Q946157,A10-7,,12,,high,,review
 tt0077714,I Wanna Hold Your Hand,1978,US,Robert Zemeckis,Q2661044,A10-7,A11-1,12,,med,Beatlemania teen comedy,review
 tt0077975,National Lampoon's Animal House,1978,US,John Landis,Q960125,A10-7,,12,,high,Leaf example,review
@@ -2871,7 +2880,7 @@ tt0087481,Double Trouble,1984,IT,Enzo Barboni,Q597579,A10-9,,12,,med,,review
 tt0086960,Beverly Hills Cop,1984,US,Martin Brest,Q722267,A10-9,A8-7,12,,high,named A10-9 example,review
 tt0089177,My Lucky Stars,1985,HK,Sammo Hung,Q1549954,A10-9,A8-6,12,,med,,review
 tt0091431,Armour of God,1986,HK,Jackie Chan; Eric Tsang,Q1199513,A10-9,A6-2;A8-6,12,,med,,review
-tt0090952,Peking Opera Blues,1986,HK,Tsui Hark,Q3374423,A10-9,A7-4;A1-20,12,,med,Tsui Hark; New Wave membership not attested here,review
+tt0090952,Peking Opera Blues,1986,HK,Tsui Hark,Q3374423,A10-9,A7-4;A1-20,12,A1-20,med,Tsui Hark; New Wave membership not attested here,review
 tt0092644,Beverly Hills Cop II,1987,US,Tony Scott,Q525860,A10-9,A8-7,12,,high,Beverly Hills Cop is A10-9 example,review
 tt0093278,Ishtar,1987,US,Elaine May,Q2215067,A10-9,A10-1,12,,med,,review
 tt0099005,Air America,1990,US,Roger Spottiswoode,Q406785,A10-9,A7-3,12,,med,,review
@@ -3070,7 +3079,7 @@ tt0056262,The Music Man,1962,US,Morton DaCosta,Q762649,A11-1,A9-2,12,,high,,revi
 tt0056891,Bye Bye Birdie,1963,US,George Sidney,Q1018487,A11-1,A9-2,12,,high,,review
 tt4261760,Ulduz,1964,AZ,Aga-Rza Kuliyev,Q12846974,A11-1,A10-1,12,,med,operetta adaptation,review
 tt4258424,Where is Ahmad?,1964,AZ,Adil Isgandarov,Q4134602,A11-1,A10-1,12,,low,,review
-tt0058450,The Umbrellas of Cherbourg,1964,FR,Jacques Demy,Q163868,A11-1,A9-1,12,,high,,review
+tt0058450,The Umbrellas of Cherbourg,1964,FR,Jacques Demy,Q163868,A11-1,A9-1,12,A1-7,high,,review
 tt0058182,A Hard Day's Night,1964,GB,Richard Lester,Q913311,A11-1,A10-1,12,,high,,review
 tt0058385,My Fair Lady,1964,US,George Cukor,Q201215,A11-1,A9-2,12,,high,,review
 tt0058725,Viva Las Vegas,1964,US,George Sidney,Q1060241,A11-1,A9-2,12,,med,,review
@@ -3369,6 +3378,7 @@ tt13531468,Rise,2022,FR,Cédric Klapisch,Q110904414,A11-2,A10-2,12,,high,Dancer 
 tt15000700,Houria,2023,DZ,Mounia Meddour,Q116981053,A11-2,A14-5,12,,med,,review
 tt16280138,Magic Mike's Last Dance,2023,US,Steven Soderbergh,Q114876189,A11-2,A9-1,12,,med,stripper dance show (F22),review
 tt16478058,Best of the Best,2026,US,Lena Khan,Q141520590,A11-2,A14-3,12,,high,,review
+tt0043115,Victims of Sin,1951,MX,Emilio Fernández,Q7944574,A11-3,A14-6;A11-2,12,,high,Definition example,sweep
 tt0022867,Ecstasy,1933,XC,Gustav Machatý,Q369346,A12-3,A9-1,5,,med,Erotic awakening is its reason to exist,review
 tt0150980,The Housemaid,1960,KR,Kim Ki-young,Q49729,A12-3,A3-1;A4-9,5,,med,named A12-3 example; sexual obsession drives it,review
 tt0056193,Lolita,1962,US,Stanley Kubrick,Q536560,A12-3,A10-3,5,,med,Sexual obsession is the subject; black-comic tone,review
@@ -3388,7 +3398,6 @@ tt0104779,Bitter Moon,1992,FR,Roman Polanski,Q878964,A12-3,A3-4,5,,med,Sexual ob
 tt0104237,Damage,1992,GB,Louis Malle,Q1542915,A12-3,A9-1,5,,med,,review
 tt0101316,The Lover,1992,VN,Jean-Jacques Annaud,Q602927,A12-3,A9-1;A7-7,5,,med,"Autofiction, not biopic; affair's sexuality is the subject",review
 tt0106471,Boxing Helena,1993,US,Jennifer Lynch,Q895690,A12-3,A3-1,5,,med,Sexual obsession is the subject,review
-tt0109593,Delta of Venus,1995,CZ,Zalman King,Q4157281,A12-3,A12-4,5,,med,Zalman King softcore erotic drama,review
 tt0114134,The Pillow Book,1995,LU,Peter Greenaway,Q1211345,A12-3,A16-1,5,,med,,review
 tt0114436,Showgirls,1995,US,Paul Verhoeven,Q532264,A12-3,A11-2,5,,med,"Studio erotic drama, not low-budget sexploitation",review
 tt0115964,Crash,1996,CA,David Cronenberg,Q839133,A12-3,A3-4,5,,high,Sexual obsession is the subject,review
@@ -3430,10 +3439,12 @@ tt31723358,Tell Me What You Want,2024,ES,Lucía Alemany,Q128826994,A12-3,A9-1,5,
 tt20247888,Emmanuelle,2024,FR,Audrey Diwan,Q112054990,A12-3,A9-1,5,,med,,review
 tt0040603,Mom and Dad,1945,,William Beaudine,Q3026327,A12-4,,5,,med,Sex-hygiene roadshow exploitation,review
 tt0059170,"Faster, Pussycat! Kill! Kill!",1965,US,Russ Meyer,Q1215958,A12-4,A2-4,5,,high,,review
+tt0064789,Venus in Furs,1969,DE,Jesús Franco,Q3430416,A12-4,A3-4,10,,med,Franco Euro-softcore; not the Hollywood erotic thriller cycle,sweep
 tt0065466,Beyond the Valley of the Dolls,1970,US,Russ Meyer,Q886194,A12-4,A10-6,5,,med,,review
 tt0066380,Vampyros Lesbos,1971,ES,Jesús Franco,Q575980,A12-4,A4-11,5,,med,Erotic vampire film; key step 5 before horror,review
 tt0068522,The Demons,1973,PT,Jesús Franco,Q3232231,A12-4,A4-3,5,,med,Franco nunsploitation,review
 tt0076112,"Ilsa, the Wicked Warden",1977,CH,Jesús Franco,Q1171062,A12-4,A2-8,5,,med,,review
+tt0109593,Delta of Venus,1995,CZ,Zalman King,Q4157281,A12-4,A12-3,5,,med,Zalman King softcore,sweep
 tt0080491,Caligula,1979,IT,Tinto Brass; Bob Guccione,Q217685,A12-5,A7-6,5,,med,Hardcore inserts in Roman epic,review
 tt0000147,The Corbett-Fitzsimmons Fight,1897,US,Enoch J. Rector,Q3784136,A13-1,A14-7,1,,high,,review
 tt1764657,The Great White Silence,1924,AQ,Herbert Ponting,Q7737994,A13-1,,1,,high,,review
@@ -3463,7 +3474,7 @@ tt0089282,Gold and Glory,1953,,Hannu Leminen,Q11873294,A13-1,,1,,med,,review
 tt0345678,Memories of the Olympic Summer of 1952,1954,,,,A13-1,,1,,low,Runtime unknown,review
 tt0255438,"Olympic Games, 1956",1956,,,,A13-1,,1,,med,,review
 tt0049916,White Vertigo,1956,,Giorgio Ferroni,Q4010286,A13-1,,1,,med,,review
-tt0050800,On the Bowery,1957,US,Lionel Rogosin,Q2023665,A13-1,A14-4,1,,med,Docufiction,review
+tt0050800,On the Bowery,1957,US,Lionel Rogosin,Q2023665,A13-1,A14-4,1,A1-36,med,Docufiction,review
 tt0053195,Bread,1959,PT,Manoel de Oliveira,Q2091766,A13-1,,1,,med,,review
 tt0051372,Araya,1959,VE,Margot Benacerraf,Q426748,A13-1,A13-9,1,,high,,review
 tt1985144,"People, Hopes, Medals",1960,,,,A13-1,,1,,low,Runtime unknown,review
@@ -3476,8 +3487,8 @@ tt0057960,Love Meetings,1965,IT,Pier Paolo Pasolini; Vincenzo Cerami,Q1475100,A1
 tt0060371,The Endless Summer,1966,US,Bruce Brown,Q931146,A13-1,A14-7,1,,high,,review
 tt0165853,The Laughing Man,1966,XG,Gerhard Scheumann; Walter Heynowski,Q1199308,A13-1,,1,,high,,review
 tt7262782,Sensation of the Century,1966,,,Q104866196,A13-1,,1,,med,,review
-tt0061913,Far from Vietnam,1967,BE,Jean-Luc Godard; Chris Marker; Alain Resnais; Agnès Varda; Joris Ivens; Claude Lelouch; William Klein,Q3258662,A13-1,A13-6,1,,high,omnibus by Left Bank directors,review
-tt0062144,Portrait of Jason,1967,US,Shirley Clarke,Q15052466,A13-1,A13-4,1,,high,,review
+tt0061913,Far from Vietnam,1967,BE,Jean-Luc Godard; Chris Marker; Alain Resnais; Agnès Varda; Joris Ivens; Claude Lelouch; William Klein,Q3258662,A13-1,A13-6,1,A1-8,high,omnibus by Left Bank directors,review
+tt0062144,Portrait of Jason,1967,US,Shirley Clarke,Q15052466,A13-1,A13-4,1,A1-36,high,,review
 tt0063477,The Queen,1968,US,Frank Simon,Q48968601,A13-1,A13-4,1,,high,,review
 tt0063342,Innocence Unprotected,1968,YU,Dušan Makavejev,Q2487851,A13-1,A13-6,1,A1-12,med,Documentary collage; non-fiction step first,review
 tt0189330,13 Days in France,1968,,Claude Lelouch; François Reichenbach,Q2558010,A13-1,,1,,high,,review
@@ -3497,7 +3508,7 @@ tt0234669,Goodbye CP,1972,,Kazuo Hara,Q140607455,A13-1,,1,,high,,review
 tt0069222,Sapporo Winter Olympics,1972,,Masahiro Shinoda,Q11521091,A13-1,,1,,high,,review
 tt0070884,Visions of Eight,1973,US,Arthur Penn; Miloš Forman; John Schlesinger; Kon Ichikawa; Michael Pfleghar; Mai Zetterling; Claude Lelouch; Yuri Ozerov,Q481310,A13-1,A14-7,1,,high,,review
 tt0071544,General Idi Amin Dada: A Self Portrait,1974,CH,Barbet Schroeder,Q2718952,A13-1,,1,,high,,review
-tt0070136,The Great Ecstasy of Woodcarver Steiner,1974,DE,Werner Herzog,Q2897042,A13-1,A14-7,1,,high,,review
+tt0070136,The Great Ecstasy of Woodcarver Steiner,1974,DE,Werner Herzog,Q2897042,A13-1,A14-7,1,A1-16,high,,review
 tt0222337,The Hour of Liberation Has Arrived,1974,LB,Heiny Srour,Q105808312,A13-1,,1,,high,,review
 tt9675320,About Some Meaningless Events,1974,MA,Mustapha Derkaoui,Q12178402,A13-1,A16-1,1,,low,Docufiction,review
 tt0233175,Everyday Life in a Syrian Village,1974,SA,Omar Amiralay,Q3735538,A13-1,,1,,high,,review
@@ -4255,7 +4266,7 @@ tt42863533,Maternal Instinct,2026,US,,Q140276990,A13-5,,1,,high,True-crime docum
 tt32572716,The Truth and Tragedy of Moriah Wilson,2026,US,,,A13-5,,1,,high,,review
 tt0013257,Häxan,1922,DK,Benjamin Christensen,Q1438966,A13-6,A4-3;A16-1,1,,med,Docu-essay with horror reenactments,review
 tt0063084,The Hour of the Furnaces,1968,AR,Fernando Solanas; Octavio Getino,Q3950846,A13-6,A13-1,1,A1-14,high,Militant essay documentary; Third Cinema founding text,review
-tt0196499,Diaries Notes and Sketches,1968,US,Jonas Mekas,Q58815030,A13-6,A16-1,1,,med,Mekas diary film,review
+tt0196499,Diaries Notes and Sketches,1968,US,Jonas Mekas,Q58815030,A13-6,A16-1,1,A1-36,med,Mekas diary film,review
 tt0069172,Reminiscences of a Journey to Lithuania,1972,DE,Jonas Mekas,Q2961885,A13-6,,1,,high,Diary film,review
 tt0068585,Film Portrait,1972,,Jerome Hill,Q2413543,A13-6,,1,,high,Autobiographical film essay,review
 tt0072962,F for Fake,1973,FR,Orson Welles,Q2251852,A13-6,,1,,high,,review
@@ -4269,7 +4280,7 @@ tt0091943,Sherman's March,1986,US,Ross McElwee,Q3025877,A13-6,A13-1,1,,high,Pers
 tt0274069,Routine Pleasures,1986,,,,A13-6,,1,,med,Gorin essay documentary,review
 tt0093267,Intervista,1987,IT,Federico Fellini,Q18441,A13-6,A10-11,1,,low,Docu-fiction hybrid; seam,review
 tt0100624,Sink or Swim,1990,US,Su Friedrich,Q21869824,A13-6,A16-1,1,,med,Autobiographical experimental essay,review
-tt0103099,Tongues Untied,1990,US,Marlon Riggs,Q7821187,A13-6,,1,,high,,review
+tt0103099,Tongues Untied,1990,US,Marlon Riggs,Q7821187,A13-6,,1,A1-26,high,,review
 tt0109382,Dear Diary,1993,FR,Nanni Moretti,Q949784,A13-6,A10-2,1,,med,Diaristic autofiction; seam essay vs fiction,review
 tt0106438,Blue,1993,GB,Derek Jarman,Q885594,A13-6,A16-1,1,,med,Autobiographical essay over a blue screen,review
 tt0109285,Black Is... Black Ain't,1995,US,Marlon Riggs,Q4922351,A13-6,A13-1,1,,med,Riggs' personal essay documentary,review
@@ -4453,7 +4464,6 @@ tt0076276,Who's Singin' Over There?,1980,YU,Slobodan Šijan,Q280962,A14-11,A10-3
 tt0082136,The Cannonball Run,1981,US,Hal Needham,Q759359,A14-11,A10-9,12,,med,,review
 tt0319856,My Partner,1982,BO,Paolo Agazzi,Q4121304,A14-11,,12,,high,,review
 tt0085995,National Lampoon's Vacation,1983,US,Harold Ramis,Q1219310,A14-11,A10-1,12,,high,road trip comedy (F19),review
-tt0088184,Stranger Than Paradise,1984,US,Jim Jarmusch,Q1345409,A14-11,A10-2,12,,med,No Wave not an A1 leaf,review
 tt0089960,Vagabond,1985,FR,Agnès Varda,Q2298257,A14-11,A14-5,12,,med,,review
 tt0089355,Istanbul,1985,LU,Marc Didden,Q2384593,A14-11,,12,,low,,review
 tt0089504,Lost in America,1985,US,Albert Brooks,Q2945752,A14-11,A10-1,12,,high,,review
@@ -4664,13 +4674,12 @@ tt0057286,Hands Over the City,1963,IT,Francesco Rosi,Q2253732,A14-13,,12,,high,,
 tt0059347,The Rabbit Is Me,1965,XG,Kurt Maetzig,Q1169236,A14-13,A9-1,12,,med,Banned political drama of justice,review
 tt0061834,I Am Curious (Yellow),1967,SE,Vilgot Sjöman,Q2054210,A14-13,A12-3;A16-1,12,,low,Political docu-fiction; sex scandal secondary; seam,review
 tt0063149,I Am Curious (Blue),1968,SE,Vilgot Sjöman,Q5975957,A14-13,A12-3,12,,low,Companion to Yellow,review
-tt0064652,Medium Cool,1969,US,Haskell Wexler,Q1284125,A14-13,A13-4,12,,med,Fiction shot inside real 1968 events,review
+tt0064652,Medium Cool,1969,US,Haskell Wexler,Q1284125,A14-13,A13-4,12,A1-15,med,Fiction shot inside real 1968 events,review
 tt0151243,Kongi's Harvest,1970,NG,Ossie Davis,Q6429198,A14-13,,12,,med,,review
 tt0989831,Jibon Theke Neya,1970,PK,Zahir Raihan,Q3250193,A14-13,A10-3,12,,med,Political allegory of family tyranny,review
 tt0069398,All's Well,1972,FR,Jean-Luc Godard; Jean-Pierre Gorin,Q2721711,A14-13,A16-1,12,,med,Dziga Vertov period essay-fiction,review
 tt0068334,The Candidate,1972,US,Michael Ritchie,Q500672,A14-13,A10-2,12,,high,Leaf example,review
 tt0169599,"Beirut, Oh Beirut",1975,SA,,,A14-13,A14-4,12,,low,"Post-1967 political malaise, not combat",review
-tt0082222,Man of Iron,1981,PL,Andrzej Wajda,Q959682,A14-13,A7-4,12,,med,Moral anxiety/Solidarity film; no spy plot,review
 tt0089276,The Official Story,1985,ES,Luis Puenzo,Q1219153,A14-13,A14-2,12,,med,"1985, predates New Argentine Cinema",review
 tt0171922,The Wife of an Important Man,1988,EG,Mohamed Khan,Q4984665,A14-13,A14-6,12,,med,,review
 tt0097243,A Dry White Season,1989,ZA,Euzhan Palcy,Q636356,A14-13,A14-10;A7-4,12,,med,Anti-apartheid political drama; trial is one strand,review
@@ -4700,6 +4709,12 @@ tt12913444,The Inheritance,2020,,Ephraim Asili,Q105519275,A14-13,A16-1;A13-1,12,
 tt20242416,Maamannan,2023,IN,Mari Selvaraj,Q111915004,A14-13,A14-4,12,,med,caste politics,review
 tt32386654,The Wizard of the Kremlin,2026,FR,Olivier Assayas,Q126009194,A14-13,A7-8;A3-6,12,,med,,review
 tt37510326,The Social Reckoning,2026,US,Aaron Sorkin,Q136387857,A14-13,A7-8;A3-6,12,,low,"Whistleblower event, not a life (F14)",review
+tt0113247,La haine,1995,FR,Mathieu Kassovitz,Q466101,A14-14,A14-4;A2-4,12,,high,Definition example; narrow leaf (F22 logic),sweep
+tt3655522,Girlhood,2014,FR,Céline Sciamma,Q17003709,A14-14,A14-3,12,,high,Definition example,sweep
+tt4730986,Divines,2016,FR,Houda Benyamina,Q24050089,A14-14,A2-4;A14-3,10,,high,Definition example,sweep
+tt10199590,Les Misérables,2019,FR,Ladj Ly,Q63246549,A14-14,A2-4;A2-3,10,,high,Definition example,sweep
+tt12444424,Gagarine,2020,FR,Fanny Liatard; Jerémy Trouilh,Q100719246,A14-14,A14-3;A14-4,12,,med,Cité Gagarine estate youth,sweep
+tt15445056,Athena,2022,FR,Romain Gavras,Q111293909,A14-14,A8-2;A14-4,11,,med,Estate riot film; banlieue defines it,sweep
 tt0929415,The Curse of Quon Gwon,1916,,Marion E. Wong,Q2483701,A14-2,,12,,low,Fragmentary feature; family drama,review
 tt0008443,The Poor Little Rich Girl,1917,US,Maurice Tourneur,Q940606,A14-2,A6-1,12,,low,Pickford vehicle; dream fantasy only frames,review
 tt0016491,Mother,1925,CH,Jacques Feyder,Q2318429,A14-2,A14-6,12,,high,,review
@@ -5021,13 +5036,13 @@ tt0064579,The Learning Tree,1969,US,Gordon Parks,Q1749731,A14-3,A7-4,12,,med,,re
 tt0067439,My Uncle Antoine,1971,CA,Claude Jutra,Q2443599,A14-3,A19-2,12,,med,"Christmas is setting, not built on it",review
 tt0066122,Deep End,1971,DE,Jerzy Skolimowski,Q570929,A14-3,A3-1,12,,med,1970 Skolimowski; not British New Wave,review
 tt0067778,Murmur of the Heart,1971,FR,Louis Malle,Q686059,A14-3,A10-2,12,,high,,review
-tt0068509,"Drive, He Said",1971,US,Jack Nicholson,Q3554881,A14-3,A14-7,12,,med,,review
+tt0068509,"Drive, He Said",1971,US,Jack Nicholson,Q3554881,A14-3,A14-7,12,A1-15,med,,review
 tt0070040,The Spirit of the Beehive,1973,ES,Víctor Erice,Q2290517,A14-3,A6-1,12,,med,,review
-tt0070766,Experience,1973,IR,Abbas Kiarostami,Q3062091,A14-3,A14-4,12,,low,,review
+tt0070766,Experience,1973,IR,Abbas Kiarostami,Q3062091,A14-3,A14-4,12,A1-18,low,,review
 tt0071833,My Little Loves,1974,FR,Jean Eustache,Q2690426,A14-3,,12,,high,,review
 tt0072820,Cooley High,1975,US,Michael Schultz,Q5167435,A14-3,A10-2;A2-11,12,,high,,review
 tt0074360,Cría Cuervos,1976,ES,Carlos Saura,Q150881,A14-3,A14-2,12,,high,,review
-tt0074782,A Suit for Wedding,1976,IR,Abbas Kiarostami,Q2744045,A14-3,,12,,med,,review
+tt0074782,A Suit for Wedding,1976,IR,Abbas Kiarostami,Q2744045,A14-3,,12,A1-18,med,,review
 tt0075939,Peppermint Soda,1977,FR,Diane Kurys,Q3025807,A14-3,A10-2,12,,high,,review
 tt0078264,Seven Freckles,1978,XG,Herrmann Zschoche,Q2282219,A14-3,A9-1,12,,high,,review
 tt0079766,Quadrophenia,1979,GB,Franc Roddam,Q962987,A14-3,A11-1,12,,high,,review
@@ -5214,7 +5229,6 @@ tt1727388,The Way Way Back,2013,US,Jim Rash; Nat Faxon,Q3560878,A14-3,A10-2,12,,
 tt1931602,Very Good Girls,2013,US,Naomi Foner Gyllenhaal,Q610471,A14-3,A9-1,12,,med,,review
 tt3474994,Casa Grande,2014,BR,Fellipe Gamarano Barbosa,Q22000044,A14-3,A14-4,12,,med,,review
 tt3365778,Breathe,2014,FR,Mélanie Laurent,Q17374402,A14-3,,12,,high,,review
-tt3655522,Girlhood,2014,FR,Céline Sciamma,Q17003709,A14-3,A2-11,12,,med,French banlieue; A2-11 is American,review
 tt1065073,Boyhood,2014,US,Richard Linklater,Q4103201,A14-3,,12,,high,,review
 tt2479800,Palo Alto,2014,US,Gia Coppola,Q14788814,A14-3,,12,,high,,review
 tt2238050,White Bird in a Blizzard,2014,US,Gregg Araki,Q3567763,A14-3,A3-2,12,,med,,review
@@ -5278,7 +5292,6 @@ tt3864056,The Goldfinch,2019,US,John Crowley,Q48672402,A14-3,A2-4,12,,med,,revie
 tt8399664,Babyteeth,2020,AU,Shannon Murphy,Q66712802,A14-3,A9-1,12,,med,,review
 tt10434142,Schoolgirls,2020,ES,Pilar Palomero,Q85092153,A14-3,A14-4,12,,high,,review
 tt9196192,Cuties,2020,FR,Maïmouna Doucouré,Q84349632,A14-3,A11-2,12,,high,,review
-tt12444424,Gagarine,2020,FR,Fanny Liatard; Jerémy Trouilh,Q100719246,A14-3,A14-4,12,,med,Space dream frames youth drama (F9),review
 tt9067182,Rocks,2020,GB,Sarah Gavron,Q73541400,A14-3,A14-4,12,,high,,review
 tt7886936,Dating Amber,2020,IE,David Freyne,Q96418280,A14-3,A10-2,12,,high,,review
 tt11091664,Fan Girl,2020,PH,Antoinette Jadaone,Q104875146,A14-3,A3-1,12,,med,,review
@@ -5393,7 +5406,7 @@ tt0025610,Our Daily Bread,1934,US,King Vidor,Q762789,A14-4,,12,,high,,review
 tt0027672,Sisters of the Gion,1936,JP,Kenji Mizoguchi,Q762077,A14-4,A14-6,9,,,Geisha social critique,review
 tt0028021,Osaka Elegy,1936,JP,Kenji Mizoguchi,Q3205300,A14-4,A14-6,9,,,Woman's social ruin,review
 tt0027307,Mr. Thank You,1936,JP,Hiroshi Shimizu,Q17191988,A14-4,A10-2,9,,,Depression-era road film,review
-tt0027336,The Lower Depths,1936,FR,Jean Renoir,Q1652827,A14-4,A2-4,12,,med,,review
+tt0027336,The Lower Depths,1936,FR,Jean Renoir,Q1652827,A14-4,A2-4,12,A1-5,med,,review
 tt0028165,Redes,1936,MX,Fred Zinnemann; Emilio Gómez Muriel,Q3235241,A14-4,,12,,high,,review
 tt0027652,Fury,1936,US,Fritz Lang; Lesley Selander,Q884223,A14-4,A2-4,12,,med,Lynch-mob social drama,review
 tt0176049,Prisioneros de la tierra,1939,,Mario Soffici,Q4469893,A14-4,,12,,high,,review
@@ -5420,7 +5433,6 @@ tt0251742,Where To?,1957,LB,Georges Nasser,Q84984047,A14-4,A14-2,12,,med,,review
 tt0050347,Edge of the City,1957,US,Martin Ritt,Q1304888,A14-4,A2-5,12,,med,Racial friendship on docks,review
 tt0051980,The Ballad of Narayama,1958,JP,Keisuke Kinoshita,Q2480468,A14-4,A7-1,9,,,Stylised kabuki staging of Narayama,review
 tt0049087,"Come Back, Africa",1959,ZA,Lionel Rogosin,Q2843968,A14-4,A13-1,12,,med,Staged docufiction with non-actors,review
-tt0053270,Shadows,1960,US,John Cassavetes,Q1535980,A14-4,A9-1,12,,med,New American Cinema has no leaf,review
 tt0203040,Girls of the Night,1961,JP,Kinuyo Tanaka,Q11446269,A14-4,,9,,,Post-1956 prostitution law rehabilitation,review
 tt0054599,Accattone,1961,IT,Pier Paolo Pasolini,Q338599,A14-4,,12,,low,late neorealist heir; membership unattested,review
 tt0055320,The Sound of Trumpets,1961,IT,Ermanno Olmi,Q1962870,A14-4,,12,,med,,review
@@ -5448,9 +5460,7 @@ tt0053295,Sun Seekers,1972,XG,Konrad Wolf,Q1229947,A14-4,,12,,med,,review
 tt0062285,"Oh, Sun",1973,MR,Med Hondo,Q515099,A14-4,A16-1,12,,med,Third Cinema-adjacent but no attestation,review
 tt0212408,The Bus,1974,CH,Tunç Okan,Q6058788,A14-4,,12,,high,Migrant social drama,review
 tt0073421,The Young Girl,1975,BM,Souleymane Cissé,Q3022266,A14-4,,12,,med,,review
-tt0073363,Manila in the Claws of Light,1975,PH,Lino Brocka,Q7723321,A14-4,,12,,high,Second Golden Age Philippine cinema has no leaf,review
 tt0073467,Not a Pretty Picture,1975,,Martha Coolidge,Q7062275,A14-4,A13-1,12,,low,Docufiction: staged reenactment with rehearsal footage; seam,review
-tt0077740,Insiang,1976,PH,Lino Brocka,Q950142,A14-4,A3-5,12,,med,Slum melodrama; revenge only in last act,review
 tt0125040,Chuquiago,1977,BO,,,A14-4,,12,,med,,review
 tt0075915,One Way or Another,1977,CU,Tomás Gutiérrez Alea; Sara Gómez; Julio García Espinosa,Q5244315,A14-4,A9-1;A13-1,12,,med,Docu-fiction; social theme over romance,review
 tt0076855,"One Sings, the Other Doesn't",1977,FR,Agnès Varda,Q3205011,A14-4,A11-1,12,,med,Feminist friendship drama,review
@@ -5466,7 +5476,6 @@ tt0082317,They Don't Wear Black Tie,1981,BR,Leon Hirszman,Q3429203,A14-4,,12,,hi
 tt0081974,Absence of Malice,1981,US,Sydney Pollack,Q1216268,A14-4,A3-6,12,,low,Press ethics drama,review
 tt0232951,Will,1981,,Jessie Maple,Q30599687,A14-4,A14-7,12,,med,Addiction and mentorship; basketball backdrop,review
 tt0084934,Yol,1982,CH,Yılmaz Güney; Şerif Gören,Q683020,A14-4,A14-11,12,,high,,review
-tt0125144,Miracle,1982,PH,Ishmael Bernal,Q12124781,A14-4,,12,,med,,review
 tt0084899,White Dog,1982,US,Samuel Fuller,Q783461,A14-4,A14-8,12,,med,"racism drama, not horror",review
 tt0084390,The Ballad of Narayama,1983,JP,Shohei Imamura,Q1140513,A14-4,A7-1,9,,,Leaf example: social drama,review
 tt0083942,The Wind,1983,BM,Souleymane Cissé,Q3072682,A14-4,A14-3,12,,low,,review
@@ -5489,7 +5498,7 @@ tt0100508,Rodrigo D: No futuro,1990,CO,Víctor Gaviria,Q7357318,A14-4,A14-3;A2-4
 tt0305242,The Architects,1990,XG,Peter Kahane,Q1211089,A14-4,,12,,med,,review
 tt0102439,The Suspended Step of the Stork,1991,GR,Thodoros Angelopoulos,Q1199606,A14-4,A1-33;A14-13,12,,low,Angelopoulos predates Greek Weird Wave; link not membership,review
 tt0101969,Grand Canyon,1991,US,Lawrence Kasdan,Q1542548,A14-4,,12,,med,,review
-tt0105197,The Story of Qiu Ju,1992,CN,Zhang Yimou,Q644174,A14-4,A10-2;A14-10,12,,med,,review
+tt0105197,The Story of Qiu Ju,1992,CN,Zhang Yimou,Q644174,A14-4,A10-2;A14-10,12,A1-21,med,,review
 tt0103945,Life According to Agfa,1992,IL,Assi Dayan,Q390371,A14-4,A10-3,12,,med,,review
 tt0104348,Glengarry Glen Ross,1992,US,James Foley,Q844068,A14-4,A14-5,12,,med,,review
 tt0105046,Of Mice and Men,1992,US,Gary Sinise,Q1091172,A14-4,A7-4,12,,med,Depression migrant workers; not a western,review
@@ -5499,7 +5508,6 @@ tt0110882,Before the Rain,1994,MK,Milcho Manchevski,Q911013,A14-4,A7-3;A9-1,12,,
 tt0111055,The Silences of the Palace,1994,TN,Moufida Tlatli,Q2746780,A14-4,A7-4,12,,med,,review
 tt0106968,Friends,1994,ZA,Elaine Proctor,Q5504127,A14-4,A14-13,12,,low,Apartheid-era friendship drama; bombing is one strand,review
 tt0109020,71 Fragments of a Chronology of Chance,1995,AT,Michael Haneke,Q262977,A14-4,A2-4,12,,med,,review
-tt0113247,La haine,1995,FR,Mathieu Kassovitz,Q466101,A14-4,A2-11;A2-4,12,,med,Banlieue film; A2-11 is American only - leaf gap,review
 tt0112792,Dangerous Minds,1995,US,John N. Smith,Q579359,A14-4,A14-3;A7-8,12,,med,"Inner-city school drama, not hood film",review
 tt0112818,Dead Man Walking,1995,US,Tim Robbins,Q587891,A14-4,A2-8;A7-8,12,,med,Death-penalty drama,review
 tt0113305,Higher Learning,1995,US,John Singleton,Q1617908,A14-4,A14-3,12,,med,,review
@@ -5515,7 +5523,7 @@ tt0157154,The Rose Seller,1998,CO,Víctor Gaviria,Q6466474,A14-4,A14-3,12,,high,
 tt0120586,American History X,1998,US,Tony Kaye,Q208572,A14-4,A2-4,12,,high,,review
 tt0181517,Drylongso,1998,,Cauleen Smith,Q48674263,A14-4,,12,,med,,review
 tt0200071,Rosetta,1999,BE,Luc Dardenne; Jean-Pierre Dardenne,Q1907380,A14-4,,12,,high,,review
-tt0209189,Not One Less,1999,CN,Zhang Yimou,Q1190863,A14-4,,12,,med,,review
+tt0209189,Not One Less,1999,CN,Zhang Yimou,Q1190863,A14-4,,12,A1-21,med,,review
 tt0189630,Kadosh,1999,IL,Amos Gitai,Q3191800,A14-4,,12,,high,,review
 tt0209885,Closed Doors,1999,SA,Atef Hetata,Q20421755,A14-4,A14-2,12,,med,,review
 tt0196848,The Little Girl Who Sold the Sun,1999,SN,Djibril Diop Mambéty,Q5964798,A14-4,,12,,med,45 minutes,review
@@ -5777,7 +5785,7 @@ tt0055499,Through a Glass Darkly,1961,SE,Ingmar Bergman,Q587498,A14-5,,12,,high,
 tt0055464,Something Wild,1961,US,Jack Garfein,Q2004483,A14-5,,12,,med,"Trauma drama, not crime",review
 tt0055910,Sundays and Cybèle,1962,AT,Serge Bourguignon,Q776623,A14-5,A19-2,12,,med,"Christmas is climax, not the film's basis",review
 tt0055601,Viridiana,1962,MX,Luis Buñuel,Q852841,A14-5,A10-3,12,,med,,review
-tt0057058,The Fire Within,1963,FR,Louis Malle,Q2053405,A14-5,,12,,high,,review
+tt0057058,The Fire Within,1963,FR,Louis Malle,Q2053405,A14-5,,12,A1-7,high,,review
 tt0057490,The Servant,1963,GB,Joseph Losey,Q2264443,A14-5,A3-1,12,,med,Losey; not attested British New Wave,review
 tt0056801,8½,1963,IT,Federico Fellini,Q12018,A14-5,A16-2,12,,med,,review
 tt0056854,The Baby Carriage,1963,SE,Bo Widerberg,Q1741927,A14-5,,12,,low,,review
@@ -5785,7 +5793,7 @@ tt0057611,The Silence,1963,SE,Ingmar Bergman,Q464651,A14-5,,12,,med,,review
 tt0057358,Winter Light,1963,SE,Ingmar Bergman,Q842067,A14-5,,12,,high,,review
 tt0055895,Days of Wine and Roses,1963,US,Blake Edwards,Q1216682,A14-5,A9-1,12,,med,Addiction drama,review
 tt0057831,Zorba the Greek,1964,US,Michael Cacoyannis,Q818710,A14-5,A10-2,12,,med,Not Greek Weird Wave,review
-tt0195324,"São Paulo, Incorporated",1965,BR,Luis Sérgio Person,Q7665651,A14-5,A14-4,12,,med,,review
+tt0195324,"São Paulo, Incorporated",1965,BR,Luis Sérgio Person,Q7665651,A14-5,A14-4,12,A1-13,med,,review
 tt0060545,I Knew Her Well,1965,IT,Antonio Pietrangeli,Q442390,A14-5,A10-8,12,,med,,review
 tt0059229,Juliet of the Spirits,1965,IT,Federico Fellini,Q18411,A14-5,A6-1,12,,low,fantasies frame a marriage crisis,review
 tt0059037,The Cincinnati Kid,1965,US,Norman Jewison,Q499680,A14-5,,12,,med,,review
@@ -5796,7 +5804,6 @@ tt0060827,Persona,1966,SE,Ingmar Bergman,Q695255,A14-5,A16-1,12,,med,"Psychologi
 tt0061196,Wings,1966,SU,Larisa Shepitko,Q3230416,A14-5,,12,,high,,review
 tt0059325,Born in '45,1966,XG,Jürgen Böttcher,Q1540387,A14-5,A9-1,12,,med,,review
 tt0062310,The Stranger,1967,DZ,Luchino Visconti,Q2067859,A14-5,A14-10,12,,med,,review
-tt0060720,Change of Life,1967,PT,Paulo Rocha,Q28148422,A14-5,A14-4,12,,med,Portuguese Cinema Novo has no A1 leaf,review
 tt0062864,David Holzman's Diary,1967,US,Jim McBride,Q2230991,A14-5,A10-11,12,,low,Dramatic faux-documentary; no non-comic mockumentary leaf,review
 tt0060082,Thirst for Love,1967,,Koreyoshi Kurahara,Q21647197,A14-5,A12-3,12,,med,,review
 tt0063718,Three Sad Tigers,1968,CL,Raúl Ruiz,Q5262922,A14-5,A10-2;A2-4,12,,low,Drifting underworld siblings; observational rather than comic,review
@@ -5816,8 +5823,8 @@ tt0067961,Wanda,1970,US,Barbara Loden,Q381528,A14-5,A2-4,12,,high,Not a heist fi
 tt0066601,Zabriskie Point,1970,US,Michelangelo Antonioni,Q139078,A14-5,A1-33,12,,med,Antonioni precursor only,review
 tt0064625,Maidstone,1970,,Norman Mailer,Q6735492,A14-5,A14-13;A16-1,12,,low,Improvised Mailer film; political and self-reflexive,review
 tt0067445,Death in Venice,1971,IT,Luchino Visconti,Q742308,A14-5,A12-3,12,,med,,review
-tt0067699,A Safe Place,1971,US,Henry Jaglom,Q526972,A14-5,,12,,med,,review
-tt0066892,Carnal Knowledge,1971,US,Mike Nichols,Q1703964,A14-5,A10-2,12,,med,,review
+tt0067699,A Safe Place,1971,US,Henry Jaglom,Q526972,A14-5,,12,A1-15,med,,review
+tt0066892,Carnal Knowledge,1971,US,Mike Nichols,Q1703964,A14-5,A10-2,12,A1-15,med,,review
 tt0068955,Mirage,1972,PE,Armando Robles Godoy,Q8778548,A14-5,A16-1,12,,low,,review
 tt0069467,Cries & Whispers,1972,SE,Ingmar Bergman,Q830874,A14-5,A14-2,12,,med,,review
 tt0069033,Stone Wedding,1973,RO,Dan Pița; Mircea Veroiu,Q12736946,A14-5,,12,,med,,review
@@ -5837,16 +5844,13 @@ tt0079672,Opening Night,1977,US,John Cassavetes,Q1504568,A14-5,,12,,high,"Cassav
 tt0078152,Meetings with Anna,1978,FR,Chantal Akerman,Q3235132,A14-5,A1-33,12,,med,Akerman minimalism seam,review
 tt0076520,What Max Said,1978,,Emilio Martínez-Lázaro,Q3015346,A14-5,,12,,med,,review
 tt0205506,Vsichko e lyubov,1979,BG,Borislav Sharaliev,Q12275693,A14-5,A14-3,12,,low,Little evidence,review
-tt0078763,Camera Buff,1979,PL,Krzysztof Kieślowski,Q2417978,A14-5,A10-2,12,,med,Cinema of moral anxiety has no A1 leaf,review
 tt0079854,Every Man for Himself,1980,CH,Jean-Luc Godard,Q972787,A14-5,,12,,med,,review
 tt0080397,From the Life of the Marionettes,1980,DE,Ingmar Bergman,Q677912,A14-5,A3-1,12,,med,,review
 tt0082622,Knightriders,1981,US,George A. Romero,Q2673630,A14-5,A8-2,12,,low,Motorcycle jousting troupe drama,review
 tt0082783,My Dinner with Andre,1981,US,Louis Malle,Q1344940,A14-5,A10-2,12,,low,Conversation film; Mumblecore link influence only,review
-tt0084488,Permanent Vacation,1981,US,Jim Jarmusch,Q2071501,A14-5,,12,,med,No Wave; no leaf,review
 tt0084481,Passion,1982,CH,Jean-Luc Godard,Q672061,A14-5,A16-1,12,,med,,review
 tt0082275,Documenteur,1982,FR,Agnès Varda,Q3033632,A14-5,A13-6,12,,med,,review
 tt0084725,The State of Things,1982,PT,Wim Wenders,Q692367,A14-5,A1-16,12,,low,Late Wenders; New German Cinema membership unverified,review
-tt0084698,Smithereens,1982,US,Susan Seidelman,Q12127550,A14-5,A11-1,12,,med,No Wave not an A1 leaf,review
 tt0088861,Brussels by Night,1983,BE,Marc Didden,Q2927084,A14-5,,12,,med,,review
 tt0086423,Tender Mercies,1983,US,Bruce Beresford,Q1113987,A14-5,A11-1,12,,high,,review
 tt0087193,After the Rehearsal,1984,SE,Ingmar Bergman,Q694762,A14-5,,12,,med,TV film,review
@@ -5857,10 +5861,8 @@ tt0089366,Hail Mary,1985,CH,Jean-Luc Godard,Q689938,A14-5,A14-12,12,,low,"Modern
 tt0090366,A Zed & Two Noughts,1985,GB,Peter Greenaway,Q602236,A14-5,A16-1,12,,low,Greenaway formalism; seam with A16-1,review
 tt0090310,Wetherby,1985,GB,David Hare,Q3420924,A14-5,A3-2,12,,med,,review
 tt0088939,The Color Purple,1985,US,Steven Spielberg,Q223299,A14-5,A7-4;A14-6,12,,med,,review
-tt0090251,Variety,1985,US,Bette Gordon,Q29107373,A14-5,A12-3,12,,med,,review
 tt0089297,Hour of the Star,1986,BR,Suzana Amaral,Q3283192,A14-5,,12,,high,,review
 tt0094011,Under the Sun of Satan,1987,FR,Maurice Pialat,Q389971,A14-5,A6-1,12,,med,Religious drama of a priest; supernatural is inner,review
-tt0084549,Blind Chance,1987,PL,Krzysztof Kieślowski,Q1198219,A14-5,A14-13,12,,med,,review
 tt0092558,Motherland Hotel,1987,TR,Ömer Kavur,Q3203956,A14-5,A3-1,12,,med,,review
 tt0092618,Barfly,1987,US,Barbet Schroeder,Q195303,A14-5,A9-1,12,,med,,review
 tt0096219,Talk Radio,1988,CA,Oliver Stone,Q2297385,A14-5,A3-9,12,,med,,review
@@ -6373,7 +6375,6 @@ tt0039192,Black Narcissus,1947,GB,Emeric Pressburger; Michael Powell,Q252529,A14
 tt0039668,Nosotros los pobres,1948,MX,Ismael Rodríguez,Q7061845,A14-6,A2-4,12,,high,Classic Mexican arrabal melodrama,review
 tt0041232,Chains,1949,IT,Raffaello Matarazzo,Q3224487,A14-6,,12,,high,,review
 tt0046447,Tormento,1950,,Raffaello Matarazzo,Q3993850,A14-6,,12,,high,,review
-tt0043115,Victims of Sin,1951,MX,Emilio Fernández,Q7944574,A14-6,A11-2,12,,med,Rumberas/cabaretera cycle has no leaf,review
 tt0043532,Nobody's Children,1952,,Raffaello Matarazzo,Q3072233,A14-6,A9-1,12,,high,Matarazzo melodrama,review
 tt0045557,The Bigamist,1953,US,Ida Lupino,Q594498,A14-6,A2-5,12,,low,Domestic melodrama; little noir crime,review
 tt0047203,Magnificent Obsession,1954,US,Douglas Sirk,Q1219923,A14-6,A9-1,12,,med,Sirk melodrama,review
@@ -6388,7 +6389,6 @@ tt0052918,Imitation of Life,1959,US,Douglas Sirk,Q373774,A14-6,,12,,high,Leaf ex
 tt0054144,When a Woman Ascends the Stairs,1960,JP,Mikio Naruse,Q2714058,A14-6,A14-1,9,,,Naruse women's film of a bar hostess,review
 tt0062430,Valley of the Dolls,1967,US,Mark Robson,Q1170515,A14-6,A11-1,12,,med,,review
 tt0066763,Anand,1971,IN,Hrishikesh Mukherjee,Q485676,A14-6,A11-1,12,,med,Hrishikesh Mukherjee middle cinema; no leaf for it,review
-tt0267351,My Dear Brother,1973,TR,Ertem Eğilmez,Q6081026,A14-6,A14-2,12,,med,,review
 tt0074168,Return of the Prodigal Son,1976,EG,Youssef Chahine,Q3226413,A14-6,A11-1,12,,med,,review
 tt0094715,Beaches,1988,US,Garry Marshall,Q1455870,A14-6,A11-1,12,,med,Weepie of female friendship,review
 tt0103030,High Heels,1991,ES,Pedro Almodóvar,Q650043,A14-6,A2-4,12,,med,,review
@@ -7499,7 +7499,7 @@ tt42575634,Le vertige,2026,FR,Quentin Dupieux,Q139740328,A15-4,A15-2,2,,low,Dupi
 tt0017048,A Page of Madness,1926,JP,Teinosuke Kinugasa,Q1165285,A16-1,A4-3,9,,,Avant-garde silent asylum film,review
 tt0020701,Borderline,1930,CH,Kenneth Macpherson,Q2910742,A16-1,A14-5,4,,med,POOL group modernist silent,review
 tt0022080,Limit,1931,BR,Mário Peixoto,Q6549483,A16-1,,4,,high,,review
-tt0054880,Flaming Creatures,1963,US,Jack Smith,Q947538,A16-1,A12-3,4,,high,Jack Smith underground film,review
+tt0054880,Flaming Creatures,1963,US,Jack Smith,Q947538,A16-1,A12-3,4,A1-36,high,Jack Smith underground film,review
 tt0058604,I Am Cuba,1964,CU,Mikhail Kalatozov,Q2527730,A16-1,A14-13,4,,low,Episodic propaganda epic; experimental camera,review
 tt0058206,Hole in the Moon,1964,IL,Uri Zohar,Q5880022,A16-1,A10-3,4,,med,Improvised anti-Zionist-myth satire,review
 tt5896468,Dog Star Man,1965,US,Stan Brakhage,Q12686420,A16-1,,4,,high,Brakhage; not animation,review
@@ -7572,7 +7572,7 @@ tt0021577,L'Age d'Or,1930,FR,Luis Buñuel,Q946849,A16-2,,4,,high,,review
 tt0021331,The Blood of a Poet,1932,FR,Jean Cocteau,Q3226891,A16-2,,4,,high,,review
 tt0054377,Testament of Orpheus,1960,FR,Jean Cocteau,Q25521,A16-2,A6-1,4,,med,Cocteau personal avant-garde,review
 tt0056732,The Exterminating Angel,1962,MX,Luis Buñuel,Q332427,A16-2,,4,,high,,review
-tt0063049,Head,1968,US,Bob Rafelson,Q3280621,A16-2,A11-1;A10-6,4,,med,,review
+tt0063049,Head,1968,US,Bob Rafelson,Q3280621,A16-2,A11-1;A10-6,4,A1-15,med,,review
 tt0066534,The Milky Way,1969,DE,Luis Buñuel,Q1214845,A16-2,A10-3,4,,med,Buñuel surrealist picaresque,review
 tt0066530,Long Live Death,1971,TN,Fernando Arrabal,Q3561417,A16-2,A7-3,4,,high,Arrabal; surrealist,review
 tt0068361,The Discreet Charm of the Bourgeoisie,1972,FR,Luis Buñuel,Q308920,A16-2,A10-3,4,,high,Named A16-2 example,review
@@ -7783,6 +7783,7 @@ tt0061057,The Sons of Great Bear,1966,XG,Josef Mach,Q323401,A17-5,,8,,high,,revi
 tt0069725,Apaches,1973,XG,Gottfried Kolditz,Q617191,A17-5,,8,,high,,review
 tt0072860,Deewaar,1975,IN,Yash Chopra,Q787034,A18-1,A2-2,3,,med,"Heroic bloodshed article links it as influence, not member",review
 tt0073707,Sholay,1975,IN,Ramesh Sippy,Q949228,A18-1,A17-2,3,,high,,review
+tt0101649,Thalapathi,1991,IN,Mani Ratnam,Q3536854,A18-1,A2-2,10,,med,"Rajinikanth star vehicle: action, songs, melodrama (F13)",sweep
 tt0110076,Hum Aapke Hain Koun..!,1994,IN,Sooraj R. Barjatya,Q1497594,A18-1,A9-1;A11-1,3,,med,family-wedding musical blockbuster; no action strand,review
 tt0139876,Baasha,1995,IN,Suresh Krishna,Q3424327,A18-1,A2-2,3,,high,,review
 tt0112870,Dilwale Dulhania Le Jayenge,1995,IN,Aditya Chopra,Q849343,A18-1,A9-2,3,,med,romance-comedy-melodrama-song star vehicle,review
@@ -7831,9 +7832,11 @@ tt4535650,Dilwale,2015,IN,Rohit Shetty,Q19264035,A18-1,A10-9,3,,high,"masala sta
 tt2302966,I,2015,IN,S. Shankar,Q12975794,A18-1,A3-5,3,,med,Shankar revenge-romance spectacle (F13),review
 tt4596814,S/O Satyamurthy,2015,IN,Trivikram Srinivas,Q16254994,A18-1,A14-2,3,,high,,review
 tt5896470,Pravegaya,2015,LK,,Q7238862,A18-1,A2-2,3,,low,Sinhala remake of Tamil masala film,review
+tt5071886,Kabali,2016,IN,Pa Ranjith,Q20900127,A18-1,A2-2,10,,med,Rajinikanth mass vehicle (F13),sweep
 tt5440700,Theri,2016,IN,Atlee,Q20814887,A18-1,A2-3,3,,high,,review
 tt4849438,Baahubali 2: The Conclusion,2017,IN,S. S. Rajamouli,Q21001674,A18-1,A6-1,3,,high,Baahubali is a leaf example (F13),review
 tt6485666,Mersal,2017,IN,Atlee,Q30612603,A18-1,A3-5,3,,high,,review
+tt3405236,Raees,2017,IN,Rahul Dholakia,Q19833751,A18-1,A2-2,10,,med,"SRK star vehicle: action, songs, romance (F13)",sweep
 tt7838252,K.G.F: Chapter 1,2018,IN,Prashanth Neel,Q21646605,A18-1,A2-2,3,,high,,review
 tt7392212,Rangasthalam,2018,IN,Sukumar,Q29832413,A18-1,A7-4,3,,med,rural period masala,review
 tt7715202,Sarkar,2018,IN,A. R. Murugadoss,Q48672795,A18-1,A14-13,3,,med,,review
@@ -7855,6 +7858,7 @@ tt13751694,Animal,2023,IN,Sandeep Vanga,Q115947372,A18-1,A2-2,3,,low,mass star v
 tt15440322,Dasara,2023,IN,Srikanth Odela,Q111427163,A18-1,A14-4,3,,low,rural mass drama,review
 tt11663228,Jailer,2023,IN,Nelson Dilipkumar,Q113625011,A18-1,A10-9,3,,high,,review
 tt15354916,Jawan,2023,IN,Atlee,Q113493289,A18-1,A3-6,3,,high,,review
+tt15134398,King of Kotha,2023,IN,,Q115518140,A18-1,A2-2,10,,med,Dulquer mass gangster vehicle (F13),sweep
 tt15654328,Leo,2023,IN,Lokesh Kanagaraj,Q116536092,A18-1,A8-2,3,,med,,review
 tt22543326,Maaveeran,2023,IN,Madonne Ashwin,Q118465261,A18-1,A6-3;A10-9,3,,med,"Star vehicle; voice-given hero, no costumed identity",review
 tt13927994,Salaar,2023,IN,Prashanth Neel,Q106298596,A18-1,A2-2;A8-2,3,,med,Mass star vehicle,review
@@ -7864,6 +7868,7 @@ tt30415138,Toofan,2024,BD,Raihan Rafi,Q124811422,A18-1,A8-2,3,,med,Bangladeshi m
 tt11821912,Devara Part 1,2024,IN,Koratala Siva,Q118502010,A18-1,A8-2,3,,high,Mass star vehicle,review
 tt14564000,Guntur Kaaram,2024,IN,Trivikram Srinivas,Q109701344,A18-1,A14-2,3,,high,Mass family star vehicle,review
 tt8066940,Indian 2,2024,IN,S. Shankar,Q60737510,A18-1,A3-6,3,,med,Shankar vigilante star vehicle,review
+tt22036406,Kanguva,2024,IN,Siva,Q118485602,A18-1,A6-1;A8-2,7,,med,Suriya fantasy-action masala (F13 before fantasy),sweep
 tt16539454,Pushpa: The Rule - Part 2,2024,IN,Sukumar,Q112083510,A18-1,A2-2,3,,high,Mass star vehicle,review
 tt26903104,Saripodhaa Sanivaaram,2024,IN,Vivek Athreya,Q123207140,A18-1,A3-5,3,,med,Mass vigilante star vehicle,review
 tt11976134,Singham Again,2024,IN,Rohit Shetty,Q123528206,A18-1,A2-3,3,,high,Rohit Shetty cop universe,review
@@ -7905,6 +7910,19 @@ tt15565704,A Naija Christmas,2021,NG,Kunle Afolayan,Q110192408,A18-2,A19-2,3,,me
 tt19704612,Gangs of Lagos,2023,NG,Jadesola Osiberu,Q117842620,A18-2,A2-2,3,,med,New Nollywood gang epic,review
 tt24083908,The Black Book,2023,NG,Editi Effiong,Q122830674,A18-2,A3-5,3,,med,Netflix Nollywood revenge actioner,review
 tt33540966,Hijack '93,2024,NG,Robert O. Peters,Q130707099,A18-2,A3-9,3,,low,1993 hijack drama; Nollywood mode,review
+tt0200588,Dracula in Istanbul,1953,TR,Mehmet Muhtar,Q4809431,A18-3,A4-11;A4-13,6,,med,Yeşilçam studio horror; vampire not a cycle,sweep
+tt0252084,My Prostitute Love,1968,TR,Lütfi Ömer Akad,Q3556327,A18-3,A9-1;A14-6,12,,med,"Vesikalı Yarim, Yeşilçam star melodrama",sweep
+tt0392396,Malkoçoglu Ölüm Fedaileri,1972,PK,Remzi Jöntürk; Ebrahim Bagheri,Q94531083,A18-3,A6-6;A7-4,7,,med,Malkoçoğlu adventure series; country data wrong,sweep
+tt0267351,My Dear Brother,1973,TR,Ertem Eğilmez,Q6081026,A18-3,A14-6;A14-2,12,,high,"Canım Kardeşim, Eğilmez melodrama",sweep
+tt0252487,The Chaos Class,1975,TR,Ertem Eğilmez,Q1218009,A18-3,A10-7;A14-3,12,,high,"Hababam Sınıfı, definition example",sweep
+tt0252488,The Chaos Class Failed the Class,1976,TR,Ertem Eğilmez,Q6088721,A18-3,A10-7;A14-3,12,,high,Hababam Sınıfı series,sweep
+tt0252490,The Chaos Class Is Waking Up,1976,TR,Ertem Eğilmez,Q6087318,A18-3,A10-7;A14-3,12,,high,Hababam Sınıfı series,sweep
+tt0253779,The Foster Brothers,1976,TR,Ertem Eğilmez,Q4807991,A18-3,A10-6;A4-16,12,,med,"Süt Kardeşler, Eğilmez/Arzu Film comedy",sweep
+tt0253828,Tosun Pasha,1976,TR,Kartal Tibet,Q7827905,A18-3,A10-1;A7-4,12,,high,Definition example,sweep
+tt0252489,The Chaos Class Is on Vacation,1977,TR,Ertem Eğilmez,Q5636593,A18-3,A10-7;A14-3,12,,high,Hababam Sınıfı series,sweep
+tt0263975,The Girl with the Red Scarf,1977,TR,Atıf Yılmaz,Q2278004,A18-3,A9-1,12,,high,"Selvi Boylum Al Yazmalım, definition example",sweep
+tt0253997,The King of the Street Cleaners,1977,TR,Zeki Ökten,Q7744599,A18-3,A10-1,12,,high,Kemal Sunal star comedy,sweep
+tt0765833,Happy Days,1978,TR,Orhan Aksoy,Q6084541,A18-3,A10-2;A14-2,12,,med,"Neşeli Günler, Yeşilçam family comedy",sweep
 tt0038969,Song of the South,1946,US,Wilfred Jackson; Harve Foster,Q1345920,A19-1,A15-1,9,,med,Mostly live action with animated segments,review
 tt0137387,"Bim, the Little Donkey",1951,,Albert Lamorisse,Q2903794,A19-1,A14-8,9,,med,,review
 tt0047216,The Miracle of Marcelino,1955,ES,Ladislao Vajda,Q56217,A19-1,A14-12,9,,med,,review
@@ -8327,6 +8345,7 @@ tt0430308,Get Rich or Die Tryin',2005,US,Jim Sheridan,Q641723,A2-11,A11-1,3,,med
 tt0433387,Harsh Times,2005,US,David Ayer,Q301768,A2-11,A2-4,3,,med,,review
 tt3850214,Dope,2015,US,Rick Famuyiwa,Q18890297,A2-11,A14-3;A10-2,3,,med,,review
 tt7242142,Blindspotting,2018,US,Carlos López Estrada,Q47064265,A2-11,A10-2,3,,med,,review
+tt0082259,"Deprisa, Deprisa",1981,ES,Carlos Saura,Q922099,A2-12,A14-3;A2-4,10,,high,Definition example,sweep
 tt0006206,Les Vampires,1915,FR,Louis Feuillade,Q602998,A2-2,A3-9,10,,med,"Crime serial about a gang, not vampires",review
 tt0005960,The Regeneration,1915,US,Raoul Walsh,Q727334,A2-2,A7-8,10,,med,Early gangster film,review
 tt0018526,Underworld,1927,US,Josef von Sternberg,Q1483683,A2-2,A2-5,10,,high,Early gangster film,review
@@ -8345,7 +8364,6 @@ tt0087089,The Cotton Club,1984,US,Francis Ford Coppola,Q639387,A2-2,A11-1,10,,me
 tt0093603,Nayakan,1987,IN,Mani Ratnam,Q3181879,A2-2,A7-8,10,,med,commercial Tamil gangster saga; parallel cinema link is not membership,review
 tt0099939,King of New York,1990,US,Abel Ferrara,Q775586,A2-2,A2-5,10,,med,,review
 tt0099674,The Godfather Part III,1990,US,Francis Ford Coppola,Q202326,A2-2,,10,,high,1990; outside New Hollywood era,review
-tt0101649,Thalapathi,1991,IN,Mani Ratnam,Q3536854,A2-2,A18-1,10,,med,gangster star vehicle; masala seam,review
 tt0103671,American Me,1992,US,Edward James Olmos,Q642516,A2-2,A2-8;A2-11,10,,low,Latino prison gang saga,review
 tt0106519,Carlito's Way,1993,US,Brian De Palma,Q939176,A2-2,A2-5,10,,high,,review
 tt0112641,Casino,1995,US,Martin Scorsese,Q220910,A2-2,A7-8,10,,high,,review
@@ -8382,10 +8400,8 @@ tt1764234,Killing Them Softly,2012,US,Andrew Dominik,Q136264,A2-2,A2-5,10,,med,,
 tt1212450,Lawless,2012,US,John Hillcoat,Q253901,A2-2,A7-4,10,,med,"Prohibition bootleggers, not frontier",review
 tt3569782,Jigarthanda,2014,IN,Karthik Subbaraj,Q15720528,A2-2,A10-3,10,,med,,review
 tt4025514,Suburra,2015,IT,Stefano Sollima,Q21187930,A2-2,,10,,med,,review
-tt5071886,Kabali,2016,IN,Pa Ranjith,Q20900127,A2-2,A18-1,10,,high,,review
 tt4936122,Wùlu,2016,ML,Daouda Coulibaly,Q28494812,A2-2,A2-4,10,,med,Rise to criminal power in drug trafficking,review
 tt2361317,Live by Night,2016,US,Ben Affleck,Q21293827,A2-2,A7-4,10,,high,Prohibition gangster rise and fall,review
-tt3405236,Raees,2017,IN,Rahul Dholakia,Q19833751,A2-2,A18-1,10,,med,bootlegger rise and fall,review
 tt6386748,Birds of Passage,2018,CO,Ciro Guerra; Cristina Gallego,Q51998716,A2-2,A7-4,10,,med,Rise and fall of Wayuu drug clans,review
 tt7892050,Chekka Chivantha Vaanam,2018,IN,Mani Ratnam,Q48671868,A2-2,,10,,high,,review
 tt6929642,Kaala,2018,IN,Pa Ranjith,Q30048306,A2-2,A14-13,10,,med,Dharavi don vs politician,review
@@ -8405,7 +8421,6 @@ tt14002046,Bheeshma Parvam,2022,IN,Amal Neerad,Q105833849,A2-2,,10,,high,,review
 tt12472554,Mahaan,2022,IN,Karthik Subbaraj,Q106347400,A2-2,,10,,high,,review
 tt14182646,Vendhu Thanindhathu Kaadu,2022,IN,Gautham Vasudev Menon,Q108782567,A2-2,,10,,high,,review
 tt24226474,Jigarthanda Double X,2023,IN,Karthik Subbaraj,Q118903242,A2-2,A17-3,10,,med,"1970s gangster, western homage",review
-tt15134398,King of Kotha,2023,IN,,Q115518140,A2-2,A18-1,10,,med,,review
 tt6722400,Fast Charlie,2023,US,Phillip Noyce,Q114843114,A2-2,A8-2,10,,med,hitman in mob world,review
 tt26233598,Raayan,2024,IN,Dhanush,Q121501146,A2-2,A18-1,10,,med,,review
 tt8337290,Absolution,2024,US,Hans Petter Moland,Q116029515,A2-2,,10,,med,,review
@@ -8636,7 +8651,7 @@ tt0016142,The Mystic,1925,US,Tod Browning,Q1989695,A2-4,,10,,med,Con-artist fake
 tt0019290,The Power of the Press,1928,,Frank Capra,Q2229501,A2-4,A14-13,10,,low,Newspaper film; no journalism leaf,review
 tt0021406,That Night's Wife,1930,JP,Yasujirō Ozu,Q3205375,A2-4,A14-2,7,,,Robbery for sick child,review
 tt0020980,Walk Cheerfully,1930,JP,Yasujirō Ozu,Q3897247,A2-4,A9-1,7,,,Ozu petty-thief goes straight for love,review
-tt0021739,La Chienne,1931,FR,Jean Renoir,Q2603395,A2-4,A2-5,10,,med,,review
+tt0021739,La Chienne,1931,FR,Jean Renoir,Q2603395,A2-4,A2-5,10,A1-5,med,,review
 tt0024617,The Story of Temple Drake,1933,US,Stephen Roberts,Q784066,A2-4,A14-6,10,,med,,review
 tt0025898,Toni,1935,FR,Jean Renoir,Q639795,A2-4,A14-4,10,,med,"Neorealism precursor, not member",review
 tt0026529,The Informer,1935,US,John Ford,Q463869,A2-4,A14-5,10,,med,,review
@@ -8659,12 +8674,11 @@ tt0054460,The Bad Sleep Well,1960,JP,Akira Kurosawa,Q2005041,A2-4,A3-1,7,,,"Corp
 tt0054189,Purple Noon,1960,FR,René Clément,Q919444,A2-4,A3-1,10,,med,,review
 tt0055597,Victim,1961,GB,Basil Dearden,Q2747218,A2-4,A14-4,10,,med,,review
 tt0055399,Salvatore Giuliano,1962,IT,Francesco Rosi,Q1783832,A2-4,A14-13,10,,med,,review
-tt0059159,The Pleasures of the Flesh,1965,JP,Nagisa Ōshima,Q7169660,A2-4,A12-3,7,,,Oshima film not on NW list,review
+tt0059159,The Pleasures of the Flesh,1965,JP,Nagisa Ōshima,Q7169660,A2-4,A12-3,7,A1-1,,Oshima film not on NW list,review
 tt0261739,Law of the Border,1966,TR,Lütfi Ömer Akad,Q3210090,A2-4,A17-4,10,,med,,review
 tt0060232,The Chase,1966,US,Arthur Penn,Q942453,A2-4,A14-4,10,,med,,review
-tt0062009,Double Suicide: Japanese Summer,1967,JP,Nagisa Ōshima,Q1215053,A2-4,A10-3,7,,,Oshima film not on NW list,review
+tt0062009,Double Suicide: Japanese Summer,1967,JP,Nagisa Ōshima,Q1215053,A2-4,A10-3,7,A1-1,,Oshima film not on NW list,review
 tt0061809,In Cold Blood,1967,US,Richard Brooks,Q1722631,A2-4,A7-8,10,,med,Dramatised real crime,review
-tt0144782,The Red Light Bandit,1968,BR,Rogério Sganzerla,Q3347771,A2-4,A16-1,10,,med,Cinema Marginal has no leaf,review
 tt0062492,Wild 90,1968,,Norman Mailer,Q8000469,A2-4,A10-1,10,,low,Improvised Mailer gangster film; barely a crime story,review
 tt0064063,The Axe,1969,JM,Mircea Mureșan,Q18537683,A2-4,A14-5,10,,med,Romanian film; country field wrong,review
 tt0066214,Performance,1970,GB,Nicolas Roeg; Donald Cammell,Q733968,A2-4,A2-2;A16-1,10,,med,"Psychedelic art-crime, not noir",review
@@ -8679,15 +8693,14 @@ tt0073778,Switchblade Sisters,1975,US,Jack Hill,Q1211739,A2-4,A2-6,10,,med,Ameri
 tt0074901,Mikey and Nicky,1976,US,Elaine May,Q3313626,A2-4,A14-5,10,,med,,review
 tt0074749,The Killing of a Chinese Bookie,1976,US,John Cassavetes,Q1212252,A2-4,A2-5,10,,med,,review
 tt1334044,"Please, Don't Bury Me Alive!",1976,,Efraín Gutiérrez,Q28408391,A2-4,A14-10;A14-4,10,,med,"Arrest, trial and prison of a Chicano veteran",review
-tt0077248,Blue Collar,1978,US,Paul Schrader,Q885666,A2-4,A14-4,10,,med,Factory workers' robbery; no detectives,review
+tt0077248,Blue Collar,1978,US,Paul Schrader,Q885666,A2-4,A14-4,10,A1-15,med,Factory workers' robbery; no detectives,review
 tt0078326,Straight Time,1978,US,Ulu Grosbard,Q1523648,A2-4,,10,,high,,review
 tt0079182,Vengeance Is Mine,1979,JP,Shohei Imamura,Q2456608,A2-4,,7,,,Leaf example: crime drama of a killer,review
 tt0078898,Boulevard Nights,1979,US,Michael Pressman,Q4949654,A2-4,A2-11,10,,med,Chicano gang drama predates hood cycle,review
-tt0079271,Hardcore,1979,US,Paul Schrader,Q2715149,A2-4,A3-9,10,,med,,review
+tt0079271,Hardcore,1979,US,Paul Schrader,Q2715149,A2-4,A3-9,10,A1-15,med,,review
 tt0080120,The Warriors,1979,US,Walter Hill,Q1122971,A2-4,A8-2,10,,med,Gang chase; hood cycle is 1990s,review
 tt0082912,Pixote,1980,BR,Héctor Babenco,Q736916,A2-4,A14-4,10,,high,,review
 tt0080388,Atlantic City,1980,CA,Louis Malle,Q756329,A2-4,A9-1,10,,med,,review
-tt0082259,"Deprisa, Deprisa",1981,ES,Carlos Saura,Q922099,A2-4,A14-3,10,,med,Cine quinqui cycle has no leaf,review
 tt0086153,First Name: Carmen,1983,CH,Jean-Luc Godard,Q2296139,A2-4,A9-1,10,,med,,review
 tt0085180,L'Argent,1983,FR,Robert Bresson,Q2621769,A2-4,A14-4,10,,med,"Bresson cited as slow-cinema precursor, not attested member",review
 tt0085276,Breathless,1983,US,Jim McBride,Q754304,A2-4,A9-1,10,,low,,review
@@ -8848,7 +8861,6 @@ tt4262142,Cleveland Abduction,2015,US,Alex Kalymnios,Q24034487,A2-4,A7-8,10,,med
 tt3715320,Irrational Man,2015,US,Woody Allen,Q17417520,A2-4,A10-3,10,,med,,review
 tt2273657,True Story,2015,US,Rupert Goold,Q14317024,A2-4,A14-10,10,,med,,review
 tt5354160,Mirror Game,2016,BD,Amitabh Reza Chowdhury,Q22342998,A2-4,A3-9,10,,med,Aynabaji crime thriller,review
-tt4730986,Divines,2016,FR,Houda Benyamina,Q24050089,A2-4,A14-3,10,,high,,review
 tt4991384,Interrogation,2016,IN,Vetrimaaran,Q18395508,A2-4,A14-4,10,,med,"custodial torture, not a prison film",review
 tt5662932,Psycho Raman,2016,IN,Anurag Kashyap,Q21998253,A2-4,A3-1,10,,med,,review
 tt4434004,Udta Punjab,2016,IN,Abhishek Chaubey,Q19899057,A2-4,A14-4,10,,high,,review
@@ -8882,7 +8894,6 @@ tt10589914,The Forest of Love,2019,JP,Sion Sono,Q70903399,A2-4,A4-5,7,,,Con man 
 tt5563334,The Good Liar,2019,CA,Bill Condon,Q52715530,A2-4,A3-1,10,,med,,review
 tt7670212,The Golden Glove,2019,DE,Fatih Akin,Q56054702,A2-4,A4-5;A7-8,10,,low,Serial killer Fritz Honka,review
 tt10080270,Killing Sarai,2019,DO,Matias Moltrasio,Q123949195,A2-4,A9-1,10,,low,,review
-tt10199590,Les Misérables,2019,FR,Ladj Ly,Q63246549,A2-4,A2-3;A14-4,10,,med,,review
 tt10409498,Only the Animals,2019,FR,Dominik Moll,Q65924999,A2-4,A3-2,10,,med,,review
 tt10958282,Street Flow,2019,FR,Kery James; Leïla Sy,Q71285080,A2-4,A14-4,10,,med,,review
 tt4523910,Chicuarotes,2019,MX,Gael García Bernal,Q67317576,A2-4,A14-3,10,,high,,review
@@ -8901,7 +8912,7 @@ tt7395114,The Devil All the Time,2020,US,António Campos,Q61927376,A2-4,A14-5,10
 tt13694628,Nitram,2021,AU,Justin Kurzel,Q106462638,A2-4,A14-5,10,,high,,review
 tt10975604,The Boy Who Killed My Parents,2021,BR,,Q96099761,A2-4,A14-10,10,,med,Richthofen case dramatization,review
 tt10605812,The Girl Who Killed Her Parents,2021,BR,Mauricio Eça,Q96099760,A2-4,A14-10,10,,med,Richthofen case dramatization,review
-tt11892272,The Laws of the Border,2021,ES,Daniel Monzón,Q107133629,A2-4,A14-3,10,,med,Cine quinqui: no leaf for this Spanish cycle,review
+tt11892272,The Laws of the Border,2021,ES,Daniel Monzón,Q107133629,A2-4,A14-3;A2-12,10,,med,Cine quinqui: no leaf for this Spanish cycle,review
 tt12361178,Drishyam 2,2021,IN,Jeethu Joseph,Q102036246,A2-4,A3-9,10,,high,,review
 tt13206926,Joji,2021,IN,Dileesh Pothan,Q106363196,A2-4,A14-2,10,,high,Macbeth in Kerala family,review
 tt10345782,The Catholic School,2021,IT,Stefano Mordini,Q108672811,A2-4,A7-4,10,,med,Circeo massacre,review
@@ -9091,7 +9102,7 @@ tt0330536,A Colt Is My Passport,1967,JP,Takashi Nomura,Q4656027,A2-5,A8-2,7,,,Ni
 tt0062229,Le Samouraï,1967,FR,Jean-Pierre Melville,Q618499,A2-5,,3,,high,,review
 tt0062138,Point Blank,1967,US,John Boorman,Q595047,A2-5,,3,,high,,review
 tt0061955,The Bride Wore Black,1968,FR,François Truffaut,Q1211737,A2-5,A3-5,3,A1-7,med,Noir homage revenge story,review
-tt0064990,Mississippi Mermaid,1969,FR,François Truffaut,Q1168045,A2-5,A9-1,3,,med,,review
+tt0064990,Mississippi Mermaid,1969,FR,François Truffaut,Q1168045,A2-5,A9-1,3,A1-7,med,,review
 tt0065808,Gods of the Plague,1970,DE,Rainer Werner Fassbinder; Michael Fengler,Q830191,A2-5,A1-16,3,A1-16,med,"Fassbinder gangster trilogy, neo-noir",review
 tt0064588,Love Is Colder Than Death,1970,DE,Rainer Werner Fassbinder,Q599423,A2-5,A1-16,3,A1-16,med,"Fassbinder gangster trilogy, neo-noir",review
 tt0065531,The Red Circle,1970,FR,Jean-Pierre Melville,Q1416440,A2-5,A2-7,3,,high,,review
@@ -9249,7 +9260,7 @@ tt0065938,Kelly's Heroes,1970,US,Brian G. Hutton,Q756920,A2-7,A7-3;A10-9,10,,med
 tt0066767,The Anderson Tapes,1971,US,Sidney Lumet,Q1192193,A2-7,A3-9,10,,high,,review
 tt0069865,Charley Varrick,1973,US,Don Siegel,Q860287,A2-7,A2-4,10,,med,,review
 tt0072251,The Taking of Pelham One Two Three,1974,US,Joseph Sargent,Q633171,A2-7,A3-9,10,,high,,review
-tt0072288,Thunderbolt and Lightfoot,1974,US,Michael Cimino,Q1219013,A2-7,A14-11,10,,med,,review
+tt0072288,Thunderbolt and Lightfoot,1974,US,Michael Cimino,Q1219013,A2-7,A14-11,10,A1-15,med,,review
 tt0079240,The Great Train Robbery,1978,GB,Michael Crichton,Q546471,A2-7,A7-4,3,,high,,review
 tt0078269,The Silent Partner,1978,US,Daryl Duke,Q1750419,A2-7,A3-9,10,,med,,review
 tt0087742,The Vultures,1984,TN,Henri Verneuil,Q1213093,A2-7,A10-10;A7-3,10,,low,wartime gold-hunt comedy,review
@@ -9419,7 +9430,6 @@ tt0064106,The Butcher,1970,FR,Claude Chabrol,Q1196689,A3-1,A2-4,10,,med,,review
 tt0067588,Play Misty for Me,1971,US,Clint Eastwood,Q544434,A3-1,A3-9,10,,high,Stalker; Eastwood not counted NH,review
 tt0124012,Morgiana,1972,XC,Juraj Herz,Q3324046,A3-1,A4-13,10,,low,Gothic poisoning tale; dread over scares,review
 tt0074806,The Little Girl Who Lives Down the Lane,1976,CA,Nicolas Gessner,Q1169837,A3-1,A4-9,10,,med,No supernatural element,review
-tt0221322,In the Wink of an Eye,1981,PH,Mike De Leon,Q3585810,A3-1,A14-2,10,,med,,review
 tt0096163,The Vanishing,1988,NL,George Sluizer,Q1895379,A3-1,A3-9,10,,med,,review
 tt0099292,The Comfort of Strangers,1990,IT,Paul Schrader,Q1879989,A3-1,A12-3,10,,med,,review
 tt0099091,Bad Influence,1990,US,Curtis Hanson,Q594226,A3-1,A2-5,10,,med,,review
@@ -9470,7 +9480,6 @@ tt0481369,The Number 23,2007,US,Joel Schumacher,Q1123479,A3-1,,10,,high,,review
 tt0449487,Passengers,2008,CA,Rodrigo García Márquez,Q1511480,A3-1,A9-1,10,,med,,review
 tt1239435,Fiksi.,2008,ID,Mouly Surya,Q12482945,A3-1,,10,,med,,review
 tt1323019,Zayy el-Nahardah,2008,SA,Amr Salama,Q3574944,A3-1,A6-1;A9-1,10,,low,,review
-tt0808279,Funny Games,2008,US,Michael Haneke,Q951002,A3-1,A3-9,10,,med,"Home-invasion thriller, not supernatural",review
 tt1288645,The Forbidden Door,2009,ID,Joko Anwar,Q4184651,A3-1,A4-9,10,,low,,review
 tt1590089,Confessions,2010,JP,Tetsuya Nakashima,Q1364843,A3-1,A2-4,7,,,Definition example; teacher's revenge,review
 tt1373156,Karthik Calling Karthik,2010,IN,Vijay Lalwani,Q6373532,A3-1,,10,,high,,review
@@ -9781,7 +9790,6 @@ tt31192372,Fall 2: Deadpoint,2026,US,Michael Spierig; Peter Spierig,Q136388712,A
 tt7526136,Heart of the Beast,2026,US,David Ayer,Q131900904,A3-3,A14-8,10,,med,Wilderness survival after plane crash,review
 tt8036976,Send Help,2026,US,Sam Raimi,Q132200341,A3-3,A10-3;A4-16,10,,med,Desert-island survival power play,review
 tt28535715,Whalefall,2026,US,Brian Duffield,Q134876629,A3-3,,10,,high,Survival ordeal,review
-tt0064789,Venus in Furs,1969,DE,Jesús Franco,Q3430416,A3-4,A12-4,10,,low,,review
 tt0066819,The Beguiled,1971,US,Don Siegel,Q727890,A3-4,A7-4,10,,med,Civil War setting a backdrop to sexual suspense,review
 tt0080408,Bad Timing,1980,GB,Nicolas Roeg,Q880665,A3-4,A12-3,10,,med,,review
 tt0080661,Dressed to Kill,1980,US,Brian De Palma,Q980308,A3-4,A3-8,3,,med,De Palma giallo homage (F23),review
@@ -9843,7 +9851,6 @@ tt32654916,Soulm8te,2026,US,Kate Dolan,Q131144615,A3-4,A4-15,3,,med,,review
 tt0053976,The Virgin Spring,1960,SE,Ingmar Bergman,Q753141,A3-5,A7-4,10,,med,,review
 tt0061136,And So It Is,1966,BO,Jorge Sanjinés,Q3075704,A3-5,A14-4,10,,med,,review
 tt0066141,The Night Visitor,1971,DK,László Benedek,Q1199722,A3-5,A4-8,10,,med,,review
-tt0067800,Straw Dogs,1971,GB,Sam Peckinpah,Q1163628,A3-5,A3-9,10,,med,Siege and revenge,review
 tt0068814,The Goat Horn,1972,BG,Metodi Andonov,Q5960612,A3-5,A7-4,10,,high,,review
 tt0072285,Thriller: A Cruel Picture,1973,SE,Bo Arne Vibenius,Q1740744,A3-5,A8-2;A12-4,10,,high,Rape-and-revenge,review
 tt0071402,Death Wish,1974,US,Michael Winner,Q841961,A3-5,A2-4,10,,high,,review
@@ -9892,7 +9899,6 @@ tt1242432,I Spit on Your Grave,2010,US,Steven R. Monroe,Q1655288,A3-5,A4-5,10,,h
 tt1657507,Colombiana,2011,US,Olivier Megaton,Q868329,A3-5,A8-2,10,,high,,review
 tt1502404,Drive Angry,2011,US,Patrick Lussier,Q1259409,A3-5,A8-2;A6-1,10,,low,Grindhouse revenge with supernatural frame,review
 tt6019206,Kill Bill: The Whole Bloody Affair,2011,US,Quentin Tarantino,Q18126825,A3-5,A8-1,10,,med,Combined cut of Kill Bill Vol. 1–2; possible duplicate,review
-tt0999913,Straw Dogs,2011,US,Rod Lurie,Q738018,A3-5,A3-9,10,,med,,review
 tt2537176,I Spit on Your Grave 2,2013,BG,Steven R. Monroe,Q15039856,A3-5,,10,,high,,review
 tt2309224,Big Bad Wolves,2013,IL,Aharon Keshales; Navot Papushado,Q14434297,A3-5,A10-3,10,,high,,review
 tt2101341,Dead Man Down,2013,US,Niels Arden Oplev,Q2741435,A3-5,A2-4,10,,med,,review
@@ -9933,7 +9939,6 @@ tt20114686,Femme,2023,GB,Sam H. Freeman; Ng Choon Ping,Q116250318,A3-5,A3-4,10,,
 tt26350277,Ballerina,2023,KR,Lee Chung-hyun,Q116232642,A3-5,A8-2,10,,med,,review
 tt27327494,A Very Good Girl,2023,PH,Petersen Vargas,Q121079689,A3-5,A10-3,10,,med,,review
 tt14270702,God Is a Bullet,2023,US,Nick Cassavetes,Q112114754,A3-5,A2-4,10,,low,cult rescue and revenge; not horror,review
-tt20916568,The Wrath of Becky,2023,US,Matt Angel; Suzanne Coote,Q117468568,A3-5,A4-20,10,,med,Revenge against home invaders,review
 tt26548265,Maharaja,2024,IN,Nithilan Saminathan,Q126595889,A3-5,A2-4,10,,high,,review
 tt29383379,Marco,2024,IN,Haneef Adeni,Q126734383,A3-5,A2-2,10,,med,"Gangster revenge, extreme violence",review
 tt29461220,Pani,2024,IN,Joju George,Q127850162,A3-5,A2-4,10,,med,,review
@@ -10255,8 +10260,7 @@ tt0049470,The Man Who Knew Too Much,1956,US,Alfred Hitchcock,Q486826,A3-9,A3-7,1
 tt0051207,The Wrong Man,1956,US,Alfred Hitchcock,Q472390,A3-9,A2-5;A14-10,10,,med,The wrong man literally,review
 tt0055824,Cape Fear,1962,US,J. Lee Thompson,Q529106,A3-9,A2-5,10,,high,,review
 tt0056923,Charade,1963,US,Stanley Donen,Q496266,A3-9,A9-2;A10-1,10,,med,Comedy-romance thriller; not screwball era,review
-tt0062467,Wait Until Dark,1967,US,Terence Young,Q5493376,A3-9,,10,,high,,review
-tt0063671,Targets,1968,US,Peter Bogdanovich,Q852162,A3-9,A2-4,10,,med,,review
+tt0063671,Targets,1968,US,Peter Bogdanovich,Q852162,A3-9,A2-4,10,A1-15,med,,review
 tt0067023,Duel,1971,US,Steven Spielberg,Q583407,A3-9,A14-11,10,,high,Leaf example,review
 tt0068611,Frenzy,1972,GB,Alfred Hitchcock,Q221587,A3-9,A2-3,10,,high,"British wrong-man thriller, not giallo",review
 tt0074916,Mr. Klein,1976,FR,Joseph Losey,Q648168,A3-9,A7-9,10,,med,Identity thriller in occupied Paris,review
@@ -10297,13 +10301,11 @@ tt0117883,Thesis,1996,ES,Alejandro Amenábar,Q1636502,A3-9,A4-5,10,,med,,review
 tt0116287,Fear,1996,US,James Foley,Q1070275,A3-9,A3-1,10,,med,,review
 tt0117438,Ransom,1996,US,Ron Howard,Q752362,A3-9,A2-4,10,,med,Kidnapping thriller from the father's side,review
 tt0116731,The Juror,1996,US,Brian Gibson,Q1475275,A3-9,A14-10,10,,med,,review
-tt0119167,Funny Games,1997,AT,Michael Haneke,Q696928,A3-9,A4-9,10,,med,Home-invasion hostage provocation; horror seam,review
 tt0118771,Breakdown,1997,US,Jonathan Mostow,Q465789,A3-9,,10,,high,,review
 tt0119791,Nightwatch,1997,US,Ole Bornedal,Q1265650,A3-9,A4-9,10,,med,,review
 tt0120176,The Spanish Prisoner,1997,US,David Mamet,Q163253,A3-9,A2-5,10,,med,,review
 tt0130827,Run Lola Run,1998,DE,Tom Tykwer,Q468697,A3-9,A16-1;A8-2,10,,med,"Formal play, but a narrative thriller",review
 tt0120787,A Perfect Murder,1998,US,Andrew Davis,Q282069,A3-9,A2-5,10,,med,,review
-tt0195002,Kaun?,1999,IN,Ram Gopal Varma,Q13479270,A3-9,A3-1,10,,med,home-invasion thriller; 'Indian giallo' is not the Italian cycle,review
 tt0176783,Gossip,2000,US,Davis Guggenheim,Q1972145,A3-9,A14-3,10,,med,,review
 tt0228750,Proof of Life,2000,US,Taylor Hackford,Q168849,A3-9,A8-2,10,,med,,review
 tt0249478,Domestic Disturbance,2001,US,Harold Becker,Q1479655,A3-9,,10,,med,,review
@@ -10342,7 +10344,6 @@ tt1600195,Abduction,2011,US,John Singleton,Q143716,A3-9,A8-2,10,,high,,review
 tt0873886,Red State,2011,US,Kevin Smith,Q1255499,A3-9,A4-9,10,,low,Extremist-cult siege; no non-supernatural horror leaf fits,review
 tt1410051,Retreat,2011,US,Carl Tibbetts,Q1400498,A3-9,A4-9,10,,med,,review
 tt1334102,The Resident,2011,US,Antti Jokinen,Q2043182,A3-9,A4-9,10,,med,,review
-tt1674784,Trespass,2011,US,Joel Schumacher,Q185764,A3-9,A2-4,10,,med,Home-invasion hostage thriller,review
 tt1401152,Unknown,2011,US,Jaume Collet-Serra,Q158759,A3-9,A8-2,10,,high,,review
 tt1603257,ATM,2012,CA,David Brooks,Q1060517,A3-9,A4-8,10,,med,Trapped-victims thriller; Christmas only a setting,review
 tt1658837,The Tall Man,2012,CA,Pascal Laugier,Q2073955,A3-9,A4-3,10,,low,Abduction mystery dressed as supernatural horror,review
@@ -10364,7 +10365,6 @@ tt2024469,Non-Stop,2014,US,Jaume Collet-Serra,Q2855777,A3-9,A8-2,10,,med,"Airpla
 tt2980592,The Guest,2014,US,Adam Wingard,Q16250945,A3-9,A8-2;A4-8,10,,med,"Mumblecore link is director's, not attested membership",review
 tt4058500,A Perfect Man,2015,FR,Yann Gozlan,Q17640256,A3-9,A3-1,10,,med,,review
 tt3813310,Cop Car,2015,US,Jon Watts,Q19824612,A3-9,A2-4,10,,med,,review
-tt4009278,Intruders,2015,US,Adam Schindler,Q20002453,A3-9,A4-8,10,,low,Home invasion,review
 tt1781922,No Escape,2015,US,John Erick Dowdle,Q15272134,A3-9,A8-2,10,,med,,review
 tt4178092,The Gift,2015,US,Joel Edgerton,Q19750433,A3-9,A3-1,10,,med,Stalker thriller,review
 tt3896738,Hounds of Love,2016,AU,Ben Young,Q27962542,A3-9,A4-8,10,,med,abduction survival thriller,review
@@ -10423,7 +10423,6 @@ tt8657700,Plaza Catedral,2021,PA,Abner Benaim,Q109283515,A3-9,A14-5,10,,low,,rev
 tt11456054,Run Hide Fight,2021,US,Kyle Rankin,Q98277032,A3-9,A8-2,10,,med,School-siege thriller with ordinary teen protagonist,review
 tt12004038,Watcher,2022,AE,Chloe Okuno,Q106554940,A3-9,A4-9,10,,med,Stalker suspense; horror elements secondary,review
 tt15189534,The Wrath of God,2022,AR,Sebastián Schindel,Q112670466,A3-9,A3-2,10,,med,,review
-tt11209212,See for Me,2022,CA,Randall Okita,Q108166759,A3-9,,10,,high,Home invasion thriller,review
 tt13133936,The Desperate Hour,2022,CA,Phillip Noyce,Q108166716,A3-9,,10,,high,,review
 tt13729232,The Origin of Evil,2022,CA,Sébastien Marnier,Q111599936,A3-9,A3-1,10,,low,,review
 tt10354106,Stars at Noon,2022,FR,Claire Denis,Q110982493,A3-9,A9-1,10,,low,,review
@@ -10566,7 +10565,6 @@ tt0021815,Drácula,1931,US,George Melford,Q1102110,A4-11,A4-13,6,,high,Spanish-l
 tt0023649,Vampyr,1932,DE,Carl Theodor Dreyer,Q304923,A4-11,A4-3,3,,high,,review
 tt0027545,Dracula's Daughter,1936,US,Lambert Hillyer,Q282276,A4-11,A4-13,6,,high,,review
 tt0045283,The White Reindeer,1952,FI,Erik Blomberg,Q519594,A4-11,A4-10,6,,med,,review
-tt0200588,Dracula in Istanbul,1953,TR,Mehmet Muhtar,Q4809431,A4-11,A4-13,6,,high,,review
 tt0058700,The Last Man on Earth,1964,US,Sidney Salkow; Ubaldo Ragona,Q1242772,A4-11,A4-6;A5-5,6,,med,Plague vampires,review
 tt0360232,The Living Corpse,1967,PK,Khwaja Sarfraz,Q3038555,A4-11,A4-13,6,,high,,review
 tt0061655,The Fearless Vampire Killers,1967,US,Roman Polanski,Q834530,A4-11,A4-16,6,,high,,review
@@ -10587,7 +10585,6 @@ tt0193438,Pure Blood,1982,CO,Luis Ospina,Q21031263,A4-11,,6,,med,,review
 tt0084357,The Living Dead Girl,1982,FR,Jean Rollin,Q1507931,A4-11,A4-6,6,,med,,review
 tt0083264,Ferat Vampire,1982,XC,Juraj Herz,Q908750,A4-11,A10-3,6,,med,,review
 tt0085701,The Hunger,1983,GB,Tony Scott,Q814334,A4-11,A3-4;A12-3,6,,high,,review
-tt0089371,Mr. Vampire,1985,HK,Ricky Lau,Q1185829,A4-11,A4-16;A8-4,6,,med,Jiangshi premise drives plot (F12),review
 tt0089175,Fright Night,1985,US,Tom Holland,Q371456,A4-11,A4-16,6,,high,,review
 tt0089730,Once Bitten,1985,US,Howard Storm,Q651740,A4-11,A4-16,6,,med,Vampire premise drives the comedy (F12),review
 tt0092147,Vamp,1986,US,Richard Wenk,Q929811,A4-11,A4-16,6,,high,,review
@@ -11307,12 +11304,31 @@ tt27802490,Exhuma,2024,KR,Jang Jae-hyun,Q117322466,A4-18,A4-3,3,,high,K-horror n
 tt31513578,Death Whisperer 2,2024,TH,Taweewat Wantha,Q124748407,A4-18,A4-10,3,,med,,review
 tt33512889,Haunting of Mount Gede,2025,ID,Azhar Kinoi Lubis,Q133287519,A4-18,,6,,med,,review
 tt33349807,Sugar Mill,2025,ID,Awi Suryadi,Q133844344,A4-18,,6,,high,,review
+tt0089371,Mr. Vampire,1985,HK,Ricky Lau,Q1185829,A4-19,A4-16;A8-4,6,,high,Founding jiangshi film; definition example,sweep
 tt0046478,Ugetsu,1953,JP,Kenji Mizoguchi,Q1076605,A4-2,A7-1,4,,,Definition example (F3 ghosts before period),review
 tt0058430,Onibaba,1964,JP,Kaneto Shindō,Q1190090,A4-2,A7-1,2,A1-1,,Japanese New Wave member (tag); kaidan cycle wins (D1),override
 tt0058279,Kwaidan,1965,JP,Masaki Kobayashi,Q133488,A4-2,,2,A1-1,,Japanese New Wave member (tag); kaidan cycle wins (D1),override
-tt0122136,Black Cat,1968,JP,Kaneto Shindō,Q2698704,A4-2,A7-1,4,,,Heian ghost-cat revenge kaidan; not on WP New Wave list,review
+tt0122136,Black Cat,1968,JP,Kaneto Shindō,Q2698704,A4-2,A7-1,4,A1-1,,Heian ghost-cat revenge kaidan; not on WP New Wave list,review
 tt0077132,Empire of Passion,1978,JP,Nagisa Ōshima,Q1659440,A4-2,A12-3,4,,,Meiji-era ghost tale of adultery; not on NW list,review
+tt0062467,Wait Until Dark,1967,US,Terence Young,Q5493376,A4-20,A3-9,10,,med,Blind woman terrorised in her flat by intruders,sweep
+tt0067800,Straw Dogs,1971,GB,Sam Peckinpah,Q1163628,A4-20,A3-5;A3-9,10,A1-15,med,Siege of the farmhouse; Peckinpah NH tag,sweep
+tt0096741,Deadly Games,1990,FR,René Manzor,Q2816341,A4-20,A4-8;A19-2,6,,med,Killer Santa invades mansion; horror before Christmas,sweep
+tt0119167,Funny Games,1997,AT,Michael Haneke,Q696928,A4-20,A3-9;A4-9,10,,high,Definition example,sweep
+tt0195002,Kaun?,1999,IN,Ram Gopal Varma,Q13479270,A4-20,A3-9;A3-1,10,,med,Home-invasion thriller,sweep
+tt0465203,Them,2006,FR,David Moreau; Xavier Palud,Q1112469,A4-20,A4-8;A3-9,6,,high,Ils; home-invasion horror,sweep
+tt0856288,Inside,2007,FR,Julien Maury; Alexandre Bustillo,Q1664534,A4-20,A4-8;A4-5,6,,med,À l'intérieur; intruder besieges pregnant widow,sweep
+tt0808279,Funny Games,2008,US,Michael Haneke,Q951002,A4-20,A3-1;A3-9,10,,high,Remake of definition example,sweep
+tt0482606,The Strangers,2008,US,Bryan Bertino,Q1259466,A4-20,A4-8;A3-9,6,,high,Definition example,sweep
+tt0844479,The Collector,2009,US,Marcus Dunstan,Q600095,A4-20,A4-8;A4-5,6,,med,Burglar and trap-killer inside family home,sweep
+tt0999913,Straw Dogs,2011,US,Rod Lurie,Q738018,A4-20,A3-5;A3-9,10,,med,Remake; farmhouse siege,sweep
+tt1674784,Trespass,2011,US,Joel Schumacher,Q185764,A4-20,A3-9;A2-4,10,,high,Home-invasion hostage thriller,sweep
+tt2184339,The Purge,2013,US,James DeMonaco,Q7758789,A4-20,A4-8;A5-7,6,,high,Masked intruders besiege family home,sweep
+tt1853739,You're Next,2013,US,Adam Wingard,Q3572721,A4-20,A4-8,6,,high,Definition example,sweep
+tt4009278,Intruders,2015,US,Adam Schindler,Q20002453,A4-20,A3-9;A4-8,10,,high,Home invasion of agoraphobe,sweep
+tt4160708,Don't Breathe,2016,US,Fede Álvarez,Q21450470,A4-20,A4-9;A3-9,6,,high,Definition example,sweep
+tt5022702,Hush,2016,US,Mike Flanagan,Q23044927,A4-20,A4-8;A3-9,6,,high,Deaf woman besieged at home,sweep
 tt3612320,Within,2016,US,Phil Claydon,Q29021010,A4-20,A4-8,6,,med,Intruder living inside house,review
+tt1285009,The Strangers: Prey at Night,2018,GB,Johannes Roberts,Q42049541,A4-20,A4-8,6,,med,Strangers franchise; family besieged at trailer park,sweep
 tt7137846,Breaking In,2018,US,James McTeigue,Q39075152,A4-20,A3-9,6,,high,,review
 tt4052050,He's Out There,2018,US,Quinn Lasher,Q27703165,A4-20,A3-9,6,,med,,review
 tt7608028,The Open House,2018,US,Matt Angel,Q45710333,A4-20,,6,,high,,review
@@ -11320,11 +11336,14 @@ tt6079516,I See You,2019,US,Adam Randall,Q65081437,A4-20,A3-2,6,,med,Hidden intr
 tt10314450,Becky,2020,US,Cary Murnion; Jonathan Milott,Q93972936,A4-20,,6,,high,,review
 tt9806370,The Owners,2020,US,Julius Berg,Q96409532,A4-20,,6,,med,,review
 tt6246322,Don't Breathe 2,2021,US,Rodo Sayagues,Q100701374,A4-20,A3-5,6,,med,,review
+tt11209212,See for Me,2022,CA,Randall Okita,Q108166759,A4-20,A3-9,10,,med,Home-invasion thriller,sweep
 tt14557188,Soft & Quiet,2022,US,Beth de Araújo,Q111914580,A4-20,A3-9,6,,med,,review
 tt17677178,Who Invited Them,2022,US,Duncan Birmingham,Q125625680,A4-20,A4-16,6,,med,,review
 tt8272064,Knock at the Cabin,2023,US,M. Night Shyamalan,Q111684978,A4-20,A5-5,6,,med,cabin hostage siege with apocalypse,review
+tt20916568,The Wrath of Becky,2023,US,Matt Angel; Suzanne Coote,Q117468568,A4-20,A3-5,10,,med,Becky sequel; home invaders again,sweep
 tt22050754,The Strangers: Chapter 1,2024,US,Renny Harlin,Q114073140,A4-20,A4-8,6,,high,,review
 tt13650814,Borderline,2025,US,,Q130381570,A4-20,A10-3,6,,med,,review
+tt28671344,The Strangers: Chapter 2,2025,US,Renny Harlin,Q122396990,A4-20,A4-8,6,,med,Franchise unity with Chapters 1 and 3,sweep
 tt31314745,Trust,2025,US,Carlson Young,Q134700472,A4-20,A3-9,6,,med,,review
 tt28682323,The Strangers: Chapter 3,2026,US,Renny Harlin,Q122396992,A4-20,A4-8,6,,high,Strangers franchise is the home-invasion example,review
 tt0003419,The Student of Prague,1913,DE,Paul Wegener; Hanns Heinz Ewers; Stellan Rye,Q551025,A4-3,A1-2,6,,med,"1913 precursor of Expressionism, not member",review
@@ -12166,7 +12185,6 @@ tt0098089,Phantom of the Mall: Eric's Revenge,1989,US,Richard Friedman,Q2084906,
 tt0098320,Shocker,1989,US,Wes Craven,Q1633832,A4-8,A4-3,6,,high,,review
 tt0098331,"Silent Night, Deadly Night 3: Better Watch Out!",1989,US,Monte Hellman,Q1144191,A4-8,A19-2,6,,high,,review
 tt0096119,Sleepaway Camp III: Teenage Wasteland,1989,US,Michael A. Simpson,Q2362866,A4-8,A4-16,6,,high,,review
-tt0096741,Deadly Games,1990,FR,René Manzor,Q2816341,A4-8,A19-2,6,,med,Killer-Santa home invasion; horror before Christmas,review
 tt0099253,Child's Play 2,1990,US,John Lafia,Q1089281,A4-8,,6,,high,,review
 tt0099994,Leatherface: Texas Chainsaw Massacre III,1990,US,Jeff Burr,Q334169,A4-8,,6,,high,,review
 tt0100107,Maniac Cop 2,1990,US,William Lustig,Q123097,A4-8,A2-3,6,,high,,review
@@ -12215,7 +12233,6 @@ tt0364376,The Gingerdead Man,2005,US,Charles Band,Q7736467,A4-8,A4-16,6,,med,,re
 tt0451957,Urban Legends: Bloody Mary,2005,US,Mary Lambert,Q283296,A4-8,A4-3,6,,med,supernatural slasher,review
 tt0437179,See No Evil,2006,AU,Gregory Dark,Q1467545,A4-8,,3,,high,,review
 tt0454082,Black Christmas,2006,CA,Glen Morgan,Q582320,A4-8,A19-2,6,,high,,review
-tt0465203,Them,2006,FR,David Moreau; Xavier Palud,Q1112469,A4-8,A3-9,6,,med,Home-invasion horror,review
 tt0454841,The Hills Have Eyes,2006,MA,Alexandre Aja,Q1141519,A4-8,A4-5,6,,high,,review
 tt0808276,Cold Prey,2006,NO,Roar Uthaug,Q947347,A4-8,,6,,high,,review
 tt0905633,The Pit,2006,UA,Lubomyr Levytskyi,Q12172407,A4-8,,6,,low,,review
@@ -12228,7 +12245,6 @@ tt0420294,The Texas Chainsaw Massacre: The Beginning,2006,US,Jonathan Liebesman,
 tt0455857,When a Stranger Calls,2006,US,Simon West,Q908384,A4-8,A3-9,6,,med,,review
 tt0462322,Grindhouse,2007,CA,Quentin Tarantino; Robert Rodriguez; Rob Zombie; Eli Roth; Edgar Wright,Q679023,A4-8,A4-6,6,,low,Double feature: Death Proof slasher plus Planet Terror zombies,review
 tt0492486,Shrooms,2007,DK,Paddy Breathnach,Q1278022,A4-8,A4-9,6,,med,,review
-tt0856288,Inside,2007,FR,Julien Maury; Alexandre Bustillo,Q1664534,A4-8,A4-5,6,,high,,review
 tt0800069,The Hills Have Eyes 2,2007,MA,Martin Weisz,Q1353813,A4-8,A4-5,6,,med,,review
 tt0887973,Hell's Ground,2007,PK,Omar Ali Khan,Q8071437,A4-8,A4-6,6,,high,,review
 tt1028528,Death Proof,2007,US,Quentin Tarantino,Q1137310,A4-8,A8-2,6,,med,Car-as-weapon slasher; grindhouse homage,review
@@ -12241,14 +12257,12 @@ tt1020530,Eden Lake,2008,GB,James Watkins,Q1283552,A4-8,A3-3,6,,med,British 'hoo
 tt1172571,The Children,2008,GB,Tom Shankland,Q779545,A4-8,A19-2,6,,med,Killer-children horror has no leaf,review
 tt0926129,Prom Night,2008,US,Nelson McCormick,Q1301177,A4-8,,6,,high,,review
 tt0805570,The Midnight Meat Train,2008,US,Ryuhei Kitamura,Q2030471,A4-8,A4-5,6,,high,,review
-tt0482606,The Strangers,2008,US,Bryan Bertino,Q1259466,A4-8,A3-9,6,,med,Home-invasion slasher,review
 tt0907676,The Hills Run Red,2009,BG,Dave Parker,Q2096647,A4-8,,6,,high,,review
 tt1447791,Macabre,2009,ID,Timo Tjahjanto; Kimo Stamboel,Q972562,A4-8,,6,,high,,review
 tt0758746,Friday the 13th,2009,US,Marcus Nispel,Q1454815,A4-8,,6,,high,,review
 tt1311067,Halloween II,2009,US,Rob Zombie,Q908690,A4-8,,6,,high,,review
 tt1179891,My Bloody Valentine,2009,US,Patrick Lussier,Q1137784,A4-8,,6,,high,,review
 tt1232783,Sorority Row,2009,US,Stewart Hendler,Q1508758,A4-8,,6,,high,,review
-tt0844479,The Collector,2009,US,Marcus Dunstan,Q600095,A4-8,A4-5,6,,med,,review
 tt0814335,The Stepfather,2009,US,Nelson McCormick,Q2299344,A4-8,A3-1,6,,med,,review
 tt1261978,Wrong Turn 3: Left for Dead,2009,US,Declan O'Brien,Q1583771,A4-8,,6,,high,,review
 tt1407972,Dream Home,2010,HK,Pang Ho-cheung,Q3039255,A4-8,A10-3,6,,high,,review
@@ -12272,15 +12286,12 @@ tt2230358,Curse of Chucky,2013,US,Don Mancini,Q12161666,A4-8,,6,,high,,review
 tt1870419,Hatchet III,2013,US,B. J. McDonnell,Q6442259,A4-8,A4-16,6,,high,,review
 tt1763264,No One Lives,2013,US,Ryuhei Kitamura,Q3342445,A4-8,A3-5,6,,med,,review
 tt1572315,Texas Chainsaw,2013,US,John Luessenhop,Q1832350,A4-8,,6,,high,,review
-tt2184339,The Purge,2013,US,James DeMonaco,Q7758789,A4-8,A5-7,6,,med,Masked killers hunt family; horror first,review
-tt1853739,You're Next,2013,US,Adam Wingard,Q3572721,A4-8,,6,,high,Mumblecore link via cast only,review
 tt2027136,Kristy,2014,US,Olly Blackburn,Q18682975,A4-8,,6,,med,,review
 tt2561546,The Town That Dreaded Sundown,2014,US,Alfonso Gomez-Rejon,Q16679828,A4-8,,6,,high,,review
 tt3612032,Wrong Turn 6: Last Resort,2014,US,Valeri Milev,Q15975899,A4-8,,6,,high,,review
 tt2118624,The Final Girls,2015,US,Todd Strauss-Schulson,Q16980741,A4-8,A4-16;A10-6,6,,med,Meta slasher; slasher premise drives plot (F12),review
 tt3835080,31,2016,GB,Rob Zombie,Q19559250,A4-8,A4-5;A3-3,6,,med,,review
 tt3610746,Don't Hang Up,2016,GB,Alexis Wajsbrot,Q17426161,A4-8,A3-9,6,,med,"Human tormentor, not supernatural",review
-tt5022702,Hush,2016,US,Mike Flanagan,Q23044927,A4-8,A3-9,6,,med,,review
 tt4728386,Killing Ground,2017,AU,Damien Power,Q39075595,A4-8,A3-9,6,,med,,review
 tt5154288,Prevenge,2017,GB,Alice Lowe,Q28101350,A4-8,A4-16,6,,med,,review
 tt3280262,Cult of Chucky,2017,US,Don Mancini,Q28130946,A4-8,,6,,high,,review
@@ -12291,7 +12302,6 @@ tt3859272,Tragedy Girls,2017,US,Tyler MacIntyre,Q31271054,A4-8,A4-16,6,,med,Slas
 tt5534434,Victor Crowley,2017,US,Adam Green,Q43259908,A4-8,,6,,high,,review
 tt5126274,Friendly Beast,2018,BR,Gabriela Amaral Almeida,Q77999190,A4-8,A4-5;A3-9,6,,med,Restaurant hostage siege turns gory killing spree,review
 tt6426028,Knife + Heart,2018,FR,Yann Gonzalez,Q39071530,A4-8,A3-8,6,,med,Giallo homage goes by own genre (F23),review
-tt1285009,The Strangers: Prey at Night,2018,GB,Johannes Roberts,Q42049541,A4-8,,6,,high,,review
 tt6521776,Open 24 Hours,2018,RS,Padraig Reynolds,Q106795671,A4-8,A4-9,6,,med,,review
 tt1502407,Halloween,2018,US,David Gordon Green,Q20666646,A4-8,,6,,high,,review
 tt1999890,Hell Fest,2018,US,Gregory Plotkin,Q51756492,A4-8,,6,,high,,review
@@ -12365,7 +12375,6 @@ tt4045450,I Know What You Did Last Summer,2025,US,Jennifer Kaytin Robinson,Q1303
 tt15220066,Marshmallow,2025,US,,Q132802213,A4-8,A4-15,6,,low,,review
 tt34379050,Night of the Reaper,2025,US,,Q136388923,A4-8,,6,,high,,review
 tt34508974,"Silent Night, Deadly Night",2025,US,,Q134386480,A4-8,A19-2,6,,high,,review
-tt28671344,The Strangers: Chapter 2,2025,US,Renny Harlin,Q122396990,A4-8,A4-20,6,,high,,review
 tt30887701,Pinocchio: Unstrung,2026,GB,Rhys Frake-Waterfield,Q124317046,A4-8,,6,,high,,review
 tt32639175,Dolly,2026,US,Rod Blackhurst,Q138337407,A4-8,A4-5,6,,low,Masked killer abducts girl; backwoods slasher,review
 tt14619456,Faces of Death,2026,US,Daniel Goldhaber,Q124432905,A4-8,A3-9,6,,low,Copycat killer horror-thriller,review
@@ -12428,7 +12437,6 @@ tt2187884,Escape from Tomorrow,2013,US,Randy Moore,Q5397048,A4-9,A16-2,6,,med,No
 tt2733258,The Strange Color of Your Body's Tears,2014,LU,Hélène Cattet; Bruno Forzani,Q3205538,A4-9,A3-8;A16-1,6,,med,Neo-giallo homage (F23),review
 tt5334704,Twin Peaks: The Missing Pieces,2014,US,David Lynch,Q32067391,A4-9,A16-2,6,,low,Deleted-scenes assembly of Fire Walk with Me,review
 tt3086442,Goodnight Mommy,2015,AT,Severin Fiala; Veronika Franz,Q18642934,A4-9,,6,,high,Not mumblecore,review
-tt4160708,Don't Breathe,2016,US,Fede Álvarez,Q21450470,A4-9,A3-9,6,,low,Home-invasion horror; no home-invasion leaf,review
 tt1183374,Pet,2016,US,Carles Torrens,Q22905746,A4-9,A3-1,6,,med,Obsessive kidnapping horror; no supernatural element,review
 tt5225338,The Eyes of My Mother,2016,US,Nicolas Pesce,Q23647160,A4-9,A4-5,6,,med,,review
 tt1974419,The Neon Demon,2016,US,Nicolas Winding Refn,Q19750881,A4-9,A4-5,6,,med,,review
@@ -12581,7 +12589,7 @@ tt0051380,Attack of the 50 Foot Woman,1958,US,Nathan Juran,Q543347,A5-3,A4-15,7,
 tt0052374,Invention for Destruction,1958,XC,Karel Zeman,Q2353193,A5-3,A6-2;A15-1,7,,med,Live action dominates Zeman's hybrid (F25),review
 tt0122111,Voyage to the End of the Universe,1963,XC,Jindřich Polák,Q723239,A5-3,A5-6,7,,med,,review
 tt0058530,Robinson Crusoe on Mars,1964,US,Byron Haskin,Q2562723,A5-3,A3-3,7,,high,,review
-tt0060263,The Creatures,1966,FR,Agnès Varda,Q3231865,A5-3,A1-8,7,,low,Varda fantasy; fits poorly,review
+tt0060263,The Creatures,1966,FR,Agnès Varda,Q3231865,A5-3,A1-8,7,A1-8,low,Varda fantasy; fits poorly,review
 tt0060397,Fantastic Voyage,1966,US,Richard Fleischer,Q1219171,A5-3,,7,,high,,review
 tt0060955,Seconds,1966,US,John Frankenheimer,Q1195447,A5-3,A3-1,7,,med,Identity-transplant technology; not supernatural,review
 tt0063195,Genocide,1968,JP,Kazui Nihonmatsu,Q3818308,A5-3,A5-5,5,,,Insect swarm and H-bomb sci-fi horror,review
@@ -13012,10 +13020,10 @@ tt1757678,Avatar: Fire and Ash,2025,US,James Cameron,Q29580929,A5-6,A5-3,7,,med,
 tt9603060,Star Trek: Section 31,2025,US,Olatunde Osunsanmi,Q106948764,A5-6,A3-7,7,,med,,review
 tt30825738,Star Wars: The Mandalorian and Grogu,2026,US,Jon Favreau,Q124246549,A5-6,,7,,high,,review
 tt0059095,The 10th Victim,1965,IT,Elio Petri,Q1171757,A5-7,A3-3;A10-3,7,,med,,review
-tt0060390,Fahrenheit 451,1966,GB,François Truffaut,Q261546,A5-7,,7,,high,,review
+tt0060390,Fahrenheit 451,1966,GB,François Truffaut,Q261546,A5-7,,7,A1-7,high,,review
 tt0066921,A Clockwork Orange,1971,US,Stanley Kubrick,Q181086,A5-7,A2-8,7,,high,,review
 tt0067633,Punishment Park,1971,US,Peter Watkins,Q1348016,A5-7,A3-6,7,,med,Fake-documentary dystopia,review
-tt0066434,THX 1138,1971,US,George Lucas,Q783365,A5-7,,7,,high,,review
+tt0066434,THX 1138,1971,US,George Lucas,Q783365,A5-7,,7,A1-15,high,,review
 tt0068408,Conquest of the Planet of the Apes,1972,US,J. Lee Thompson,Q469646,A5-7,,7,,high,,review
 tt0070723,Soylent Green,1973,US,Richard Fleischer,Q426196,A5-7,A2-3,7,,high,,review
 tt0070948,Zardoz,1974,GB,John Boorman,Q147845,A5-7,A5-5,7,,med,,review
@@ -13026,7 +13034,6 @@ tt0076240,Jubilee,1978,GB,Derek Jarman,Q2456013,A5-7,A10-3;A16-1,7,,low,Punk dys
 tt0076725,Sleeping Dogs,1978,NZ,Roger Donaldson,Q3486620,A5-7,A3-6,7,,med,,review
 tt0079501,Mad Max,1979,AU,George Miller,Q248775,A5-7,A3-5;A8-2,3,A1-29,med,,review
 tt0082340,Escape from New York,1981,US,John Carpenter,Q403033,A5-7,A8-2,7,,high,,review
-tt0085267,Born in Flames,1983,US,Lizzie Borden,Q893926,A5-7,A16-1,7,,med,,review
 tt0087803,1984,1984,GB,Michael Radford,Q208424,A5-7,,7,,high,,review
 tt0088083,Sexmission,1984,PL,Juliusz Machulski,Q54966,A5-7,A10-1,7,,med,,review
 tt0088846,Brazil,1985,GB,Terry Gilliam,Q25057,A5-7,A10-3,7,,high,Leaf example,review
@@ -13175,7 +13182,7 @@ tt15940132,War Machine,2026,NZ,Patrick Hughes,Q130375767,A5-8,A8-2,7,,low,,revie
 tt15047880,Disclosure Day,2026,US,Steven Spielberg,Q126683577,A5-8,A3-6,7,,high,,review
 tt0047930,A Journey to the Beginning of Time,1955,XC,Karel Zeman,Q1767168,A5-9,A6-2;A19-1,7,,med,Journey back through geological ages,review
 tt0054387,The Time Machine,1960,US,George Pal,Q1217787,A5-9,,7,,high,,review
-tt0063152,"I Love You, I Love You",1968,FR,Alain Resnais,Q245920,A5-9,A9-1,7,,high,,review
+tt0063152,"I Love You, I Love You",1968,FR,Alain Resnais,Q245920,A5-9,A9-1,7,A1-8,high,,review
 tt0067065,Escape from the Planet of the Apes,1971,US,Don Taylor,Q469639,A5-9,A5-3,7,,med,,review
 tt0069280,Slaughterhouse-Five,1972,US,George Roy Hill,Q648299,A5-9,A7-3;A10-3,7,,med,,review
 tt0070233,Ivan Vasilyevich Changes His Profession,1973,SU,Leonid Gaidai,Q777739,A5-9,A10-1,7,,med,Time-travel farce; seam with Groundhog exception,review
@@ -13285,7 +13292,7 @@ tt0076054,Freaky Friday,1976,US,Gary Nelson,Q1305497,A6-1,A19-1;A10-1,7,,med,Bod
 tt0076538,Pete's Dragon,1977,US,Don Bluth; Don Chaffey,Q1332299,A6-1,A19-1;A11-1,7,,med,Live-action Disney musical with animated dragon,review
 tt0077663,Heaven Can Wait,1978,US,Warren Beatty; Buck Henry,Q637180,A6-1,A9-2;A14-7,7,,low,Afterlife fantasy comedy; football secondary,review
 tt0079041,Demon Pond,1979,JP,Masahiro Shinoda,Q108252570,A6-1,A9-1,5,,,Dragon-princess folk fantasy,review
-tt0079422,Kummatty,1979,IN,G. Aravindan,Q13553733,A6-1,A19-1,7,,low,Aravindan parallel cinema; film's attestation unverified,review
+tt0079422,Kummatty,1979,IN,G. Aravindan,Q13553733,A6-1,A19-1,7,A1-17,low,Aravindan parallel cinema; film's attestation unverified,review
 tt0079886,Legend of the Mountain,1979,TW,King Hu,Q3229052,A6-1,A4-3;A8-3,7,,low,King Hu ghost tale with little swordplay,review
 tt0081633,Time Bandits,1981,GB,Terry Gilliam,Q1426318,A6-1,A5-9;A6-2,7,,med,,review
 tt0082186,Clash of the Titans,1981,US,Desmond Davis,Q1049545,A6-1,A7-6;A6-2,7,,med,Greek myth quest,review
@@ -13491,7 +13498,6 @@ tt6632018,The King Tide,2024,CA,Christian Sparkes,Q121095216,A6-1,A3-9,7,,low,Mi
 tt6176336,Hagen,2024,CZ,Philipp Stennert; Cyrill Boss,Q124685472,A6-1,A7-4,7,,med,Nibelung legend; film cut of a series,review
 tt29195603,Family Pack,2024,FR,François Uzan,Q124388086,A6-1,A10-1,7,,med,,review
 tt29306667,Rita,2024,GT,Jayro Bustamante,Q130233338,A6-1,A14-4,7,,low,,review
-tt22036406,Kanguva,2024,IN,Siva,Q118485602,A6-1,A8-2,7,,med,,review
 tt27717667,Pedro Páramo,2024,MX,Rodrigo Prieto,Q127850160,A6-1,A7-4,7,,low,Magic-realist ghost town; no literary/magic-realism leaf,review
 tt14536120,The Master and Margarita,2024,RU,Michael Lockshin,Q54893954,A6-1,A10-3,7,,med,"Bulgakov fantasy satire, not horror-first",review
 tt20215396,Girl Haunts Boy,2024,US,,,A6-1,A9-1,7,,low,Teen ghost romance; romance vs fantasy seam,review
@@ -13969,7 +13975,6 @@ tt0044602,Fanfan la Tulipe,1952,FR,Christian-Jaque,Q1395528,A6-6,A10-1,7,,high,,
 tt0045125,Scaramouche,1952,US,George Sidney,Q1897321,A6-6,,7,,high,,review
 tt0048387,Moonfleet,1955,US,Fritz Lang; Otto Preminger,Q741686,A6-6,,7,,med,,review
 tt0052365,The Vikings,1958,US,Richard Fleischer,Q1146960,A6-6,A7-4,7,,med,,review
-tt0392396,Malkoçoglu Ölüm Fedaileri,1972,PK,Remzi Jöntürk; Ebrahim Bagheri,Q94531083,A6-6,A7-4,7,,low,Turkish Yeşilçam adventure; country data looks wrong,review
 tt0072281,The Three Musketeers,1973,PA,Richard Lester,Q303235,A6-6,A10-1,7,,high,,review
 tt0073012,The Four Musketeers,1974,PA,Richard Lester,Q470584,A6-6,A10-1,7,,high,,review
 tt0090199,Treasure Island,1986,CL,Raúl Ruiz,Q2273883,A6-6,A16-2,7,,low,Ruiz's dreamlike reworking; narrative still pirate adventure,review
@@ -14043,7 +14048,7 @@ tt0200768,Sword of the Beast,1965,JP,Hideo Gosha,Q3506702,A7-2,,6,,,Gosha chanba
 tt0123335,Zatoichi's Revenge,1965,JP,Akira Inoue,Q11486174,A7-2,,6,,,Zatoichi series; sword combat carries it,review
 tt0059942,Zatoichi and the Chess Expert,1965,JP,Kenji Misumi,Q11486176,A7-2,,6,,,Zatoichi series; sword combat carries it,review
 tt0202154,Zatoichi and the Doomed Man,1965,JP,Kazuo Mori,Q11486180,A7-2,,6,,,Zatoichi series; sword combat carries it,review
-tt0059303,Samurai Spy,1965,JP,Masahiro Shinoda,Q7413111,A7-2,A3-1,6,,,Ninja espionage; Shinoda film not on NW list,review
+tt0059303,Samurai Spy,1965,JP,Masahiro Shinoda,Q7413111,A7-2,A3-1,6,A1-1,,Ninja espionage; Shinoda film not on NW list,review
 tt0060277,The Sword of Doom,1966,JP,Kihachi Okamoto,Q1637652,A7-2,,6,,,Swordplay nihilism,review
 tt0199905,Zatoichi's Pilgrimage,1966,JP,Kazuo Ikehiro,Q11486177,A7-2,,6,,,Zatoichi series; sword combat carries it,review
 tt0063834,Zatoichi Challenged,1967,JP,Kenji Misumi,Q17001121,A7-2,,6,,,Zatoichi series; sword combat carries it,review
@@ -14054,7 +14059,7 @@ tt0063835,Zatoichi and the Fugitives,1968,JP,Kimiyoshi Yasuda,Q17001114,A7-2,,6,
 tt0164983,Samaritan Zatoichi,1968,JP,Kenji Misumi,Q109363048,A7-2,,6,,,Zatoichi series; sword combat carries it,review
 tt0066603,Zatoichi Meets Yojimbo,1970,JP,Kihachi Okamoto,Q11063466,A7-2,,6,,,Zatoichi series; sword combat carries it,review
 tt0164982,Zatoichi Goes to the Fire Festival,1970,JP,Kenji Misumi,Q21870041,A7-2,,6,,,Zatoichi series; sword combat carries it,review
-tt0165473,Demons,1971,JP,Toshio Matsumoto,Q17058581,A7-2,A4-5,6,,,Matsumoto's Shura; not on WP New Wave list,review
+tt0165473,Demons,1971,JP,Toshio Matsumoto,Q17058581,A7-2,A4-5,6,A1-1,,Matsumoto's Shura; not on WP New Wave list,review
 tt0068815,Lone Wolf and Cub: Sword of Vengeance,1972,JP,Kenji Misumi,Q1813228,A7-2,,6,,,Chanbara; manga adaptation,review
 tt0068816,Lone Wolf and Cub: Baby Cart at the River Styx,1972,JP,Kenji Misumi,Q2878023,A7-2,,6,,,Lone Wolf and Cub series; chanbara,review
 tt0068817,Lone Wolf and Cub: Baby Cart to Hades,1972,JP,Kenji Misumi,Q2878018,A7-2,,6,,,Lone Wolf and Cub series; chanbara,review
@@ -14163,7 +14168,6 @@ tt0082432,Gallipoli,1981,AU,Peter Weir,Q1077160,A7-3,,3,A1-29,med,War Film claim
 tt0082096,Das Boot,1981,DE,Wolfgang Petersen,Q62730,A7-3,,8,,high,,review
 tt0084492,The Little Wars,1982,LB,Maroun Bagdadi,Q12137963,A7-3,,8,,med,,review
 tt0083543,Alsino and the Condor,1982,NI,Miguel Littin,Q1636893,A7-3,A14-3,8,,med,Contra war through a child,review
-tt0086056,"Oro, Plata, Mata",1982,PH,Peque Gallaga,Q7103679,A7-3,A7-4,8,,med,,review
 tt0085933,Merry Christmas Mr. Lawrence,1983,NZ,Nagisa Ōshima,Q696855,A7-3,A2-8,8,,high,POW camp; Christmas not its basis; Oshima post-1975,review
 tt0086969,Birdy,1984,US,Alan Parker,Q700725,A7-3,A14-5,8,,med,,review
 tt0087985,Red Dawn,1984,US,John Milius,Q506400,A7-3,A8-2,8,,med,invasion war film,review
@@ -14683,7 +14687,7 @@ tt0052995,El Lazarillo de Tormes,1960,,César Fernández-Ardavín,Q281677,A7-7,A
 tt0057091,The Leopard,1963,IT,Luchino Visconti,Q596623,A7-7,,8,,high,,review
 tt0058780,Loving Couples,1964,SE,Mai Zetterling,Q3230506,A7-7,A12-3;A14-6,8,,med,1910s literary adaptation of women's lives,review
 tt0059012,Chimes at Midnight,1965,CH,Orson Welles,Q2529482,A7-7,A7-3,8,,med,Shakespeare history adaptation,review
-tt0060891,The Nun,1967,FR,Jacques Rivette,Q965569,A7-7,,8,,med,Diderot adaptation; Rivette,review
+tt0060891,The Nun,1967,FR,Jacques Rivette,Q965569,A7-7,,8,A1-7,med,Diderot adaptation; Rivette,review
 tt0063794,War and Peace,1968,SU,Sergei Bondarchuk,Q845176,A7-7,A7-3,8,,med,Literary epic of manners and war,review
 tt0445527,Werewolf,1969,EE,Leida Laius,Q25522232,A7-7,A9-1,8,,med,"Kitzberg play adaptation; folklore drama, not horror",review
 tt0066579,Women in Love,1969,GB,Ken Russell,Q630132,A7-7,A9-1;A12-3,8,,med,"Kitchen-sink link is a list, not membership",review
@@ -14803,7 +14807,7 @@ tt0058715,The Gospel According to St. Matthew,1965,IT,Pier Paolo Pasolini,Q11671
 tt0060860,The Taking of Power by Louis XIV,1966,FR,Roberto Rossellini,Q1408504,A7-8,,8,,high,,review
 tt0060665,A Man for All Seasons,1966,GB,Fred Zinnemann,Q218999,A7-8,A14-10,8,,high,,review
 tt0061620,Elvira Madigan,1967,SE,Bo Widerberg,Q976061,A7-8,A9-1,8,,med,,review
-tt0062804,The Chronicle of Anna Magdalena Bach,1968,DE,Jean-Marie Straub; Danièle Huillet,Q1114312,A7-8,A11-1,8,,med,,review
+tt0062804,The Chronicle of Anna Magdalena Bach,1968,DE,Jean-Marie Straub; Danièle Huillet,Q1114312,A7-8,A11-1,8,A1-16,med,,review
 tt0062994,Funny Girl,1968,US,William Wyler,Q1364076,A7-8,A11-1,8,,high,,review
 tt0064147,Jackal of Nahueltoro,1970,CL,Miguel Littin,Q6116060,A7-8,A2-4;A14-4,8,,med,Life of a real murderer (F14),review
 tt0064285,The Wild Child,1970,FR,François Truffaut,Q477707,A7-8,,8,,high,Victor of Aveyron (F14),review
@@ -15541,7 +15545,7 @@ tt0095016,Die Hard,1988,US,John McTiernan,Q105598,A8-2,A19-2,11,,high,Leaf examp
 tt0095956,Rambo III,1988,US,Peter MacDonald,Q392355,A8-2,A7-3,11,,high,F21,review
 tt0098180,Red Scorpion,1988,ZA,Joseph Zito,Q1151145,A8-2,A3-7;A7-3,11,,med,Cold War commando action vehicle; war only setting (F21),review
 tt0098206,Road House,1989,US,Rowdy Herrington,Q963351,A8-2,A8-1,11,,high,,review
-tt0100263,La Femme Nikita,1990,FR,Luc Besson,Q743928,A8-2,A3-7,11,,med,A8-6 is Hong Kong only,review
+tt0100263,La Femme Nikita,1990,FR,Luc Besson,Q743928,A8-2,A3-7,11,A1-32,med,A8-6 is Hong Kong only,review
 tt0099423,Die Hard 2,1990,US,Renny Harlin,Q105993,A8-2,A19-2,11,,high,"Christmas setting only, not built on Christmas",review
 tt0101393,Backdraft,1991,US,Ron Howard,Q499371,A8-2,A5-5;A2-3,11,,low,Firefighter drama with arson mystery; no leaf,review
 tt0102005,Harley Davidson and the Marlboro Man,1991,US,Simon Wincer,Q1585546,A8-2,A17-4,11,,med,,review
@@ -15715,7 +15719,6 @@ tt6902332,The Marksman,2021,US,Robert Lorenz,Q103854727,A8-2,A14-11;A17-4,11,,me
 tt6079772,The Protégé,2021,US,Martin Campbell,Q94578366,A8-2,,11,,high,Not Hong Kong action,review
 tt14060094,Blacklight,2022,AU,Mark Williams,Q104889029,A8-2,A3-6,11,,med,,review
 tt14174940,Interceptor,2022,AU,Matthew Reilly,Q111945687,A8-2,,11,,high,,review
-tt15445056,Athena,2022,FR,Romain Gavras,Q111293909,A8-2,A14-4,11,,med,Riot action drama; no fit for noir,review
 tt9179430,Vikram,2022,IN,Lokesh Kanagaraj,Q102147287,A8-2,A18-1,11,,med,,review
 tt21237030,Carter,2022,KR,Jung Byung-gil,Q110629410,A8-2,A3-7,11,,high,,review
 tt4139928,The Legend of Maula Jatt,2022,PK,Bilal Lashari,Q18358101,A8-2,A18-1,11,,med,Mythic revenge action; little song so not Masala,review
@@ -15792,7 +15795,7 @@ tt0070942,The Fate of Lee Khan,1973,TW,King Hu,Q3202577,A8-3,,3,,high,,review
 tt0071324,The Valiant Ones,1974,TW,King Hu,Q3389153,A8-3,,3,,high,,review
 tt0077655,Last Hurrah for Chivalry,1979,HK,John Woo,Q2227506,A8-3,,3,,high,"John Woo wuxia, not high fantasy",review
 tt0192213,Raining in the Mountain,1979,TW,King Hu,Q377767,A8-3,A2-7,3,,med,,review
-tt0109688,Ashes of Time,1994,HK,Wong Kar-wai,Q725167,A8-3,A1-20,3,,med,,review
+tt0109688,Ashes of Time,1994,HK,Wong Kar-wai,Q725167,A8-3,A1-20,3,A1-20,med,,review
 tt0112800,The Blade,1995,TW,Tsui Hark,Q1444780,A8-3,,3,,high,,review
 tt0190332,"Crouching Tiger, Hidden Dragon",2000,TW,Ang Lee,Q273978,A8-3,A9-1,3,,high,"Wuxia, not kung fu",review
 tt0299977,Hero,2002,CN,Zhang Yimou,Q260379,A8-3,,3,,high,,review
@@ -15984,25 +15987,23 @@ tt0053437,The Wayward Girl,1959,NO,Edith Carlmar,Q1764531,A9-1,,12,,med,,review
 tt0052832,The Fugitive Kind,1960,US,Sidney Lumet,Q1195600,A9-1,A14-6,12,,med,,review
 tt0055309,Dancing in the Rain,1961,SI,Boštjan Hladnik,Q15911102,A9-1,,12,,med,,review
 tt0055471,Splendor in the Grass,1961,US,Elia Kazan,Q1411454,A9-1,A14-3,12,,high,,review
-tt0056846,Bay of Angels,1963,FR,Jacques Demy,Q1217981,A9-1,,12,,med,,review
+tt0056846,Bay of Angels,1963,FR,Jacques Demy,Q1217981,A9-1,,12,A1-7,med,,review
 tt0055981,The Fiances,1963,IT,Ermanno Olmi,Q531827,A9-1,,12,,med,,review
-tt0057642,The Green Years,1963,PT,Paulo Rocha,Q1341783,A9-1,A14-4,12,,med,Portuguese Cinema Novo has no A1 leaf,review
 tt0058277,The Peach Thief,1964,BG,Vulo Radev,Q7756429,A9-1,A7-3,12,,med,WWI POW love story; war only backdrop,review
 tt0058138,Gertrud,1964,DK,Carl Theodor Dreyer,Q1253821,A9-1,A14-5,12,,med,,review
 tt0058139,The Divided Heaven,1964,XG,Konrad Wolf,Q1198715,A9-1,A14-13,12,,med,,review
-tt0058985,Happiness,1965,FR,Agnès Varda,Q1168501,A9-1,,12,,med,,review
+tt0058985,Happiness,1965,FR,Agnès Varda,Q1168501,A9-1,,12,A1-7;A1-8,med,,review
 tt0058642,Shadows of Forgotten Ancestors,1965,SU,Sergei Parajanov,Q1409627,A9-1,A16-1,12,,med,,review
 tt0167400,Time to Love,1965,TR,Metin Erksan,Q7805464,A9-1,,12,,high,,review
 tt0061138,A Man and a Woman,1966,FR,Claude Lelouch,Q261403,A9-1,,12,,high,Not commedia all'italiana,review
 tt0062407,Two for the Road,1967,GB,Stanley Donen,Q232170,A9-1,A14-11,12,,med,,review
 tt0061883,Brief Encounters,1967,SU,Kira Muratova,Q2927272,A9-1,A10-2,12,,med,,review
 tt0063646,The Story of a Three Day Pass,1968,FR,Melvin Van Peebles,Q3211482,A9-1,,12,,high,,review
-tt0252084,My Prostitute Love,1968,TR,Lütfi Ömer Akad,Q3556327,A9-1,A14-6,12,,med,Yeşilçam melodrama,review
 tt0063518,Romeo and Juliet,1968,US,Franco Zeffirelli,Q517265,A9-1,,12,,high,,review
-tt0063803,Who's That Knocking at My Door,1968,US,Martin Scorsese,Q2575227,A9-1,A14-5,12,,med,,review
-tt0062663,Mad Love,1969,FR,Jacques Rivette,Q1558569,A9-1,A14-5,12,,med,,review
-tt0064612,My Night at Maud's,1969,FR,Éric Rohmer,Q542527,A9-1,A10-2,12,,med,,review
-tt0065772,Claire's Knee,1970,FR,Éric Rohmer,Q1094852,A9-1,,12,,high,,review
+tt0063803,Who's That Knocking at My Door,1968,US,Martin Scorsese,Q2575227,A9-1,A14-5,12,A1-15,med,,review
+tt0062663,Mad Love,1969,FR,Jacques Rivette,Q1558569,A9-1,A14-5,12,A1-7,med,,review
+tt0064612,My Night at Maud's,1969,FR,Éric Rohmer,Q542527,A9-1,A10-2,12,A1-7,med,,review
+tt0065772,Claire's Knee,1970,FR,Éric Rohmer,Q1094852,A9-1,,12,A1-7,high,,review
 tt0064165,The Things of Life,1970,FR,Claude Sautet,Q1211971,A9-1,,12,,high,,review
 tt0065955,A Love Story,1970,SE,Roy Andersson,Q735047,A9-1,A14-3,12,,high,,review
 tt0066011,Love Story,1970,US,Arthur Hiller,Q729991,A9-1,,12,,high,,review
@@ -16020,7 +16021,6 @@ tt0072315,The Truce,1974,AR,Sergio Renán,Q1634612,A9-1,,12,,high,,review
 tt0073417,Muna Moto,1975,CM,Jean-Pierre Dikongué Pipa,Q3283244,A9-1,,12,,high,,review
 tt0073155,That Most Important Thing: Love,1975,FR,Andrzej Żuławski,Q1359224,A9-1,,12,,high,,review
 tt0075932,The Lacemaker,1977,CH,Claude Goretta,Q736508,A9-1,,12,,high,,review
-tt0263975,The Girl with the Red Scarf,1977,TR,Atıf Yılmaz,Q2278004,A9-1,,12,,high,,review
 tt0485908,The Girls,1978,LK,Sumitra Peries,Q31798955,A9-1,A14-2,12,,med,,review
 tt0080109,A Woman Like Eve,1979,NL,Nouchka van Brakel,Q523260,A9-1,,12,,med,,review
 tt0081076,Loulou,1980,FR,Maurice Pialat,Q941542,A9-1,,12,,high,,review
@@ -16644,7 +16644,7 @@ tt0064117,Cactus Flower,1969,US,Gene Saks,Q467262,A9-2,,12,,high,,review
 tt0067433,Minnie and Moskowitz,1971,US,John Cassavetes,Q2395265,A9-2,A10-2,12,,med,Cassavetes romance; not tagged as movement,review
 tt0068240,Avanti!,1972,US,Billy Wilder,Q790207,A9-2,A10-1,12,,high,,review
 tt0069097,"Play It Again, Sam",1972,US,Herbert Ross,Q767819,A9-2,A10-6,12,,med,,review
-tt0068687,The Heartbreak Kid,1972,US,Elaine May,Q1338889,A9-2,A10-3,12,,med,,review
+tt0068687,The Heartbreak Kid,1972,US,Elaine May,Q1338889,A9-2,A10-3,12,A1-15,med,,review
 tt1587224,The Beehive,1974,BD,Arabinda Mukhopadhyay,Q42345782,A9-2,,12,,med,,review
 tt0071334,Claudine,1974,US,John Berry,Q1440046,A9-2,A14-4,12,,med,Not blaxploitation; family romance,review
 tt0173504,The Lady from the City,1976,AL,Piro Milkani,Q11802638,A9-2,,12,,med,,review
@@ -17207,11 +17207,7 @@ tt0046408,The Tell-Tale Heart,1953,US,Ted Parmelee,Q1145582,B1-1,B1-2,B 1,,med,U
 tt0048449,One Froggy Evening,1955,US,Chuck Jones,Q2584290,B1-1,,B 1,,high,,review
 tt0051189,"What's Opera, Doc?",1957,US,Chuck Jones,Q2635222,B1-1,,B 1,,high,,review
 tt0272170,Let's All Go to the Lobby,1957,,Dave Fleischer,Q10559776,B1-1,,B 1,,high,"Animated snipe, not live action",review
-tt0059026,A Charlie Brown Christmas,1965,US,Bill Melendez,Q1393337,B1-1,A19-2,B 1,,med,TV animated special; no TV-special short leaf,review
-tt0060345,How the Grinch Stole Christmas!,1966,US,Chuck Jones,Q251801,B1-1,A19-2,B 1,,med,TV animated special,review
-tt0060550,"It's the Great Pumpkin, Charlie Brown",1966,US,Bill Melendez,Q596994,B1-1,,B 1,,med,TV animated special,review
 tt0063437,Pinkadilly Circus,1968,UA,Hawley Pratt,Q7196163,B1-1,,B 1,,high,DePatie-Freleng Pink Panther; country field odd,review
-tt0213065,The Lorax,1972,US,Hawley Pratt,Q7748410,B1-1,B1-2,B 1,,low,TV studio special; no TV-special short leaf,review
 tt0085936,Mickey's Christmas Carol,1983,US,Burny Mattinson,Q1539739,B1-1,,B 1,,high,Disney theatrical featurette,review
 tt0296843,The Scooby-Doo Project,1999,US,,Q57524508,B1-1,A10-6,B 1,,low,"Cartoon Network spoof special, part live action",review
 tt1287845,Kung Fu Panda: Secrets of the Furious Five,2008,US,Raman Hui,Q584023,B1-1,A8-4,B 1,,low,Studio DTV 2D/CGI short; no fitting leaf,review
@@ -17298,7 +17294,6 @@ tt7129636,Hair Love,2019,US,Bruce W. Smith; Matthew A. Cherry; Everett Downing J
 tt11768948,If Anything Happens I Love You,2020,US,Will McCormack; Michael Govier,Q102036279,B1-2,,B 1,,high,,review
 tt9464038,The Windshield Wiper,2021,US,Alberto Mielgo,Q110876762,B1-2,,B 1,,med,,review
 tt20240228,The Flying Sailor,2022,CA,Amanda Forbis; Wendy Tilby,Q115648153,B1-2,,B 1,,high,,review
-tt22667880,"The Boy, the Mole, the Fox and the Horse",2022,GB,Charlie Mackesy; Peter Baynton,Q116056737,B1-2,,B 1,,med,35-min hand-drawn special,review
 tt11020596,Ninety-Five Senses,2022,US,Jared Hess; Jerusha Hess,Q124341361,B1-2,,B 1,,high,,review
 tt28768883,In the Shadow of the Cypress,2023,IR,Shirin Sohani; Hossein Molayemi,Q131565976,B1-2,,B 1,,high,,review
 tt28058015,Our Uniform,2023,IR,Yegane Moghaddam,Q119789250,B1-2,,B 1,,high,,review
@@ -17326,7 +17321,6 @@ tt0439873,The Way of Peace,1947,,Frank Tashlin,Q18749277,B1-3,,B 1,,high,,review
 tt0041510,Inspiration,1949,XC,Karel Zeman,Q19572221,B1-3,,B 1,,high,Animated glass figurines,review
 tt0059746,A Game with Stones,1965,AT,Jan Švankmajer,Q3787295,B1-3,B4-1,B 1,,high,,review
 tt0239921,The Hand,1965,XC,Jiří Trnka,Q3210283,B1-3,,B 1,,high,Trnka puppet short,review
-tt0063230,The Little Drummer Boy,1968,US,Jules Bass,Q7747589,B1-3,A19-2,B 1,,high,,review
 tt0067259,Jabberwocky,1971,XC,Jan Švankmajer,Q3157016,B1-3,,B 1,,high,,review
 tt1945126,Krabi,1976,XC,,,B1-3,,B 1,,med,,review
 tt0076657,Samba the Great,1977,NE,Moustapha Alassane,Q3470689,B1-3,,B 1,,med,Puppet animation,review
@@ -17389,7 +17383,6 @@ tt0901686,Mater and the Ghostlight,2006,US,John Lasseter; Dan Scanlon,Q2219678,B
 tt1134859,Your Friend the Rat,2007,US,Jim Capobianco,Q1206788,B1-4,B1-1,B 1,,low,Mixed 2D/CG Pixar short,review
 tt1334585,Burn-E,2008,US,Angus MacLane,Q797106,B1-4,,B 1,,high,,review
 tt1245104,Presto,2008,US,Doug Sweetland,Q1630228,B1-4,,B 1,,high,Pixar CGI short,review
-tt1461418,The Gruffalo,2009,GB,Max Lang; Jakob Schuh,Q1194060,B1-4,A19-1,B 1,,high,CGI animated half-hour,review
 tt1537759,Dug's Special Mission,2009,US,Ronnie del Carmen,Q1264168,B1-4,,B 1,,high,,review
 tt1425244,Partly Cloudy,2009,US,Peter Sohn,Q736938,B1-4,,B 1,,high,Pixar CGI short,review
 tt1620446,Day & Night,2010,US,Teddy Newton,Q1179049,B1-4,,B 1,,high,"Pixar short, CGI with 2D",review
@@ -17428,6 +17421,12 @@ tt29795707,War Is Over!,2023,US,Dave Mullins,Q124125145,B1-4,,B 1,,med,,review
 tt33999453,Sing: Thriller,2024,US,Garth Jennings,Q131355385,B1-4,,B 1,,high,,review
 tt36454323,Forevergreen,2025,US,,Q134958825,B1-4,,B 1,,med,,review
 tt39075285,Yuki's Revenge,2025,US,Quentin Tarantino,Q137212522,B1-4,,B 1,,med,Fortnite machinima short,review
+tt0059026,A Charlie Brown Christmas,1965,US,Bill Melendez,Q1393337,B1-5,A19-2,B 1,,high,Definition example,sweep
+tt0060345,How the Grinch Stole Christmas!,1966,US,Chuck Jones,Q251801,B1-5,A19-2,B 1,,high,Definition example,sweep
+tt0060550,"It's the Great Pumpkin, Charlie Brown",1966,US,Bill Melendez,Q596994,B1-5,,B 1,,high,CBS Halloween special,sweep
+tt0063230,The Little Drummer Boy,1968,US,Jules Bass,Q7747589,B1-5,B1-3;A19-2,B 1,,high,Rankin/Bass NBC Christmas special,sweep
+tt0213065,The Lorax,1972,US,Hawley Pratt,Q7748410,B1-5,B1-1,B 1,,high,CBS television special,sweep
+tt1461418,The Gruffalo,2009,GB,Max Lang; Jakob Schuh,Q1194060,B1-5,B1-4;A19-1,B 1,,med,BBC Christmas Day special,sweep
 tt1526300,Merry Madagascar,2009,US,David Soren,Q247197,B1-5,A19-2,B 1,,high,30-min TV Christmas special,review
 tt1725156,Scared Shrekless,2010,US,Gary Trousdale,Q2659351,B1-5,,B 1,,high,Halloween TV special,review
 tt2065968,Dragons: Gift of the Night Fury,2011,US,Tom Owens,Q899236,B1-5,,B 1,,high,TV holiday special (Snoggletog),review
@@ -17436,6 +17435,7 @@ tt2446040,Toy Story of Terror,2013,US,Angus MacLane,Q15090947,B1-5,,B 1,,high,22
 tt3473654,Toy Story That Time Forgot,2014,US,Steve Purcell,Q18049213,B1-5,A19-2,B 1,,high,22-minute animated TV special (F27),review
 tt6645614,Trolls Holiday,2017,US,,Q42954558,B1-5,,B 1,,high,Animated TV holiday special,review
 tt11112140,How to Train Your Dragon: Homecoming,2019,US,Tim Johnson,Q80204855,B1-5,,B 1,,high,22-minute CGI holiday TV special (F27),review
+tt22667880,"The Boy, the Mole, the Fox and the Horse",2022,GB,Charlie Mackesy; Peter Baynton,Q116056737,B1-5,B1-2,B 1,,med,BBC/Apple TV+ Christmas special,sweep
 tt0132134,"The Execution of Mary, Queen of Scots",1895,US,Alfred Clark,Q1789171,B2-1,,B 4,,high,Substitution splice trick,review
 tt0000091,The House of the Devil,1896,FR,Georges Méliès,Q153603,B2-1,,B 4,,high,,review
 tt0000172,The X-Ray Fiend,1897,GB,George Albert Smith,Q5237210,B2-1,,B 4,,high,,review
@@ -17516,7 +17516,7 @@ tt0048765,A Flirtatious Woman,1955,CH,Jean-Luc Godard,Q3549460,B2-3,,B 4,,high,,
 tt0048980,The Red Balloon,1956,FR,Albert Lamorisse,Q1199519,B2-3,A19-1,B 4,,high,,review
 tt0178760,Modesta,1956,PR,Benjamin Doniger,Q1925966,B2-3,,B 4,,med,,review
 tt0052330,The Killers,1956,SU,Andrei Tarkovsky; Aleksandr Gordon,Q3017093,B2-3,A2-5,B 4,,high,,review
-tt0052100,Pull My Daisy,1959,US,Robert Frank; Alfred Leslie,Q1919594,B2-3,B4-1,B 4,,med,Beat Generation short,review
+tt0052100,Pull My Daisy,1959,US,Robert Frank; Alfred Leslie,Q1919594,B2-3,B4-1,B 4,A1-36,med,Beat Generation short,review
 tt0171789,Uncle,1959,XC,,,B2-3,,B 4,,high,,review
 tt1180329,Antoine and Colette,1962,FR,François Truffaut,Q2856966,B2-3,,B 4,A1-7,high,Antoine Doinel,review
 tt0056119,La Jetée,1962,FR,Chris Marker,Q451434,B2-3,A5-7,B 4,A1-8,high,Named B2-3 example,review
@@ -17784,7 +17784,7 @@ tt0442820,Notes on the Port of St. Francis,1951,,Frank Stauffacher,Q16253746,B3-
 tt0213381,Duck and Cover,1952,US,Anthony Rizzo,Q499144,B3-2,B1-1,B 2,,med,"Instructional, mostly live action",review
 tt0303271,The House in the Middle,1954,US,,Q2267474,B3-2,,B 2,,high,,review
 tt0130169,Sea Urchins,1954,,,,B3-2,,B 2,,high,,review
-tt0048434,Night and Fog,1956,FR,Alain Resnais,Q706373,B3-2,A13-6,B 2,,high,,review
+tt0048434,Night and Fog,1956,FR,Alain Resnais,Q706373,B3-2,A13-6,B 2,A1-8,high,,review
 tt0049620,The Artist and the City,1956,PT,Manoel de Oliveira,Q3281986,B3-2,,B 2,,med,,review
 tt1349452,Disneyland Dream,1956,,Robbins Barstow,Q2595533,B3-2,,B 2,,high,,review
 tt0129859,Sea Ballerinas,1956,,,,B3-2,,B 2,,high,,review

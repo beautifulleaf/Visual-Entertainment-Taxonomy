@@ -319,6 +319,16 @@ def merge():
                                  "leaf": r["leaf"].strip(), "see_also": r.get("see_also", ""), "key_step": r.get("key_step", ""),
                                  "movement": r.get("movement", ""), "confidence": r.get("confidence", ""),
                                  "note": r.get("note", ""), "by": "review"}
+    for r in rd(os.path.join(R, "sweep_out.csv")):
+        if r["tconst"] in rows:
+            o = rows[r["tconst"]]
+            if r["leaf"] != o["leaf"]:
+                o.update({"leaf": r["leaf"], "see_also": r.get("see_also", ""), "confidence": r.get("confidence", ""),
+                          "note": r.get("note", ""), "by": "sweep"})
+            elif r.get("see_also"):
+                o["see_also"] = r["see_also"]
+            if r.get("movement"):
+                o["movement"] = r["movement"]
     for r in rd(os.path.join(S, "film_overrides.csv")):
         if r["tconst"] in rows:
             rows[r["tconst"]].update({"leaf": r["leaf"], "see_also": r.get("see_also", ""), "note": r.get("note", ""), "by": "override"})
