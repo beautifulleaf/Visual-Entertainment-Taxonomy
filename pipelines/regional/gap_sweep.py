@@ -158,9 +158,9 @@ LATAM = (r"mexic|new spain|nueva espana|novohispan|peru|cuzco|cusco|lima\b|boliv
          r"colombia|new granada|nueva granada|bogota|guatemala|brazil|brasil|bahia|minas gerais|venezuela|"
          r"argentin|chile|paraguay|philippin|latin america|spanish colonial|viceroyalty|andean|new mexico|"
          r"puebla|oaxaca|cuba|puerto rico|dominican")
-THAI = r"thai|siam|ayutthaya|rattanakosin|bangkok|lan ?na|chiang mai"
-BURMA = r"burm|myanmar|mandalay|pagan\b|bagan|rangoon|yangon|shan state|konbaung|amarapura"
-VIET = r"vietnam|viet nam|annam|tonkin|cochinchin|hanoi|hue\b|indochin"
+THAI = r"thai|siam|ayutthaya|rattanakosin|bangkok|\blan ?na\b|chiang mai"
+BURMA = r"burm|myanmar|mandalay|pagan (period|kingdom|dynasty)|bagan|rangoon|yangon|shan state|konbaung|amarapura"
+VIET = r"vietnam|viet nam|annam|tonkin|cochinchin|hanoi|indochin"
 BALI = r"\bbali|balinese|klungkung|gianyar|karangasem"
 JAVA = r"\bjava|javanese|jawa|sunda|indonesia|surakarta|yogyakarta|cirebon|madura|lombok"
 PHIL = r"philippin|filipin|luzon|mindanao|visayas|manila|ifugao|cordillera"
@@ -174,7 +174,7 @@ NODES = []
 
 
 def N(area, key, label, region, medium, era, pat=None, ctx=None, neg=None, inf=None, groups=None, med=None,
-      date=None, fallback=False, family=None, kn=None, wd=(), api=(), parent="", qid=None, desc_ok=False):
+      date=None, fallback=False, family=None, kn=None, wd=(), api=(), parent="", qid=None, desc_ok=False, mid=False):
     """area/key/label; region, nominal medium and era (begin, end);
     pat   explicit-naming regex on title / labels / place / type / medium (+ description if desc_ok)
     ctx   regex that must also match the record text (place / culture context)
@@ -190,7 +190,7 @@ def N(area, key, label, region, medium, era, pat=None, ctx=None, neg=None, inf=N
                       ctx=rx(ctx), neg=rx(neg),
                       inf=(rx(inf[0]), set(inf[1]) if inf[1] else None, inf[2], rx(inf[3]) if len(inf) > 3 else None)
                       if inf else None,
-                      groups=set(groups) if groups else None, med=rx(med), date=date, fallback=fallback,
+                      groups=set(groups) if groups else None, med=rx(med), date=date, mid=mid, fallback=fallback,
                       family=family or key, kn=rx(kn or pat), wd=list(wd), api=list(api), parent=parent,
                       qid=qid, desc_ok=desc_ok))
 
@@ -649,8 +649,8 @@ N(A, "af_tada", "Tsoede bronzes (Tada, Jebba) and Lower Niger Bronze Industry", 
   pat=r"tsoede|jebba|\btada\b|lower niger bronze|lower niger", kn=r"tsoede|lower niger|jebba",
   wd=["Tsoede bronzes", "Lower Niger Bronze Industry"], api=["Tsoede", "Lower Niger bronze"])
 N(A, "af_benin_early", "Benin court art, early period (before 1700)", R, "metalwork (brass); ivory", (1300, 1700),
-  pat=r"\bbenin\b|\bedo\b|benin city|court of benin|kingdom of benin", ctx=r"nigeria|edo|benin city|kingdom of benin|court|oba|plaque|benin",
-  neg=r"republic of benin|dahomey|\bfon\b|abomey|porto-novo", date=(1200, 1700),
+  pat=r"\bbenin\b|\bedo\b(?!\s*(period|jidai|era|castle|bay|-period))", ctx=r"nigeria|benin|court|\boba\b",
+  neg=r"japan|tokugawa|republic of benin|dahomey|\bfon\b|abomey|porto-novo", date=(1200, 1700), mid=True,
   kn=r"benin (early|16th|middle period)|early benin", wd=["Benin Bronzes", "Benin art"], api=["Benin plaque"])
 N(A, "af_ind", "Inland Niger Delta (Djenne-jeno) terracottas", R, "sculpture (terracotta)", (300, 1700),
   pat=r"djenn?e|jenne|inland niger delta|niger delta \(djenne|jenne-?jeno|djenne-?jeno", neg=r"mosque",
@@ -719,6 +719,12 @@ N(A, "af_eth_other", "Ethiopian traditional arts (other)", R, "various", (1300, 
   fallback=True, family="af_eth", kn=r"ethiopian", wd=[], api=[])
 
 NODE = {n["key"]: n for n in NODES}
+for _fam, _keys in {"col_mex": ["col_casta", "col_enconchado", "col_biombo", "col_feather", "col_retablo", "col_exvoto",
+                                "col_maque", "col_talavera"],
+                    "sea_bali": ["sea_kamasan", "sea_ubud", "sea_batuan"],
+                    "sea_viet_painting": ["sea_sonmai"]}.items():
+    for _k in _keys:
+        NODE[_k]["family"] = _fam
 AREAS = ["colonial_latam", "southeast_asia", "east_asia_folk", "aboriginal_aus", "ancient_africa"]
 
 # a fast pre-filter: any node's pattern, inference place or context
@@ -876,9 +882,7 @@ def _load_any(fn):
 
 def iter_vam_cache():
     files = [f for f in glob.glob(os.path.join(RAWREG, "**", "*.json*"), recursive=True)
-             if os.sep + "vam" + os.sep in f and os.path.basename(f).startswith("p") or
-             (os.sep + "regional" + os.sep + "vam" + os.sep in f)]
-    files += glob.glob(os.path.join(RAW, "vam", "*.json.gz"))
+             if os.sep + "vam" + os.sep in f and not f.startswith(RAW + os.sep)]
     seen = set()
     for fn in sorted(set(files)):
         if os.path.basename(fn).startswith("count_"):
@@ -914,7 +918,7 @@ def cma_record(r):
 
 def iter_cma_cache():
     files = [f for f in glob.glob(os.path.join(RAWREG, "**", "*.json*"), recursive=True)
-             if os.sep + "cma" + os.sep in f]
+             if os.sep + "cma" + os.sep in f and not f.startswith(RAW + os.sep)]
     seen = set()
     for fn in sorted(files):
         d = _load_any(fn)
@@ -1042,15 +1046,13 @@ def match(r):
         if (n["groups"] or n["med"]) and not ((n["groups"] and group in n["groups"]) or
                                                (n["med"] and n["med"].search(fold(r["medium"] + " " + r["title"])))):
             continue
-        if n["date"] and not date_overlap(r, n["date"]):
-            continue
+        if n["date"] and not (date_inside(r, n["date"]) if n["mid"] else date_overlap(r, n["date"])):
+            if not (n["mid"] and r["begin"] is None and r["end"] is None):
+                continue
         hits.append((n["key"], basis))
     if hits:
         specific = {NODE[k]["family"] for k, _ in hits if not NODE[k]["fallback"]}
         hits = [(k, b) for k, b in hits if not (NODE[k]["fallback"] and NODE[k]["family"] in specific)]
-        # a named hit in a family beats inferred hits of the same family (Cusco named vs Peru inferred)
-        named_fams = {NODE[k]["family"] for k, b in hits if b == "named"}
-        hits = [(k, b) for k, b in hits if b == "named" or NODE[k]["family"] not in named_fams or NODE[k]["family"] == k]
     return hits, group
 
 
@@ -1289,17 +1291,17 @@ def wd_resolve():
             lab = l.rpartition("@")[0] if re.search(r"@[a-z]{2,3}$", l) else l
             for q in by_label.get(fold(lab), []):
                 c = cand[q]
-                if c["cls"] and all(BAD_CLASSES.search(x) for x in c["cls"]):
-                    continue
-                if BAD_CLASSES.search(c["desc"]) and not re.search(r"(?i)art|style|culture|craft|paint|school|tradition|"
-                                                                  r"textile|print|puppet|movement|technique|civili",
-                                                                  c["desc"]):
-                    continue
-                key = (-rank, c["sl"])
+                artish = re.search(r"(?i)art|style|culture|craft|paint|school|tradition|textile|print|puppet|movement|"
+                                   r"technique|civili|kingdom|empire|sculpt|mask|lacquer|embroider|weav|archaeolog",
+                                   c["desc"] + " " + " ".join(c["cls"]))
+                bad = (c["cls"] and all(BAD_CLASSES.search(x) for x in c["cls"])) or \
+                    (BAD_CLASSES.search(c["desc"]) and not artish)
+                key = (not bad, bool(artish), -rank, c["sl"])
                 if best is None or key > best[0]:
                     best = (key, q, lab, c)
         if best:
-            out[n["key"]] = (best[1], best[2], best[3]["sl"], best[3]["desc"])
+            out[n["key"]] = (best[1], best[2] + ("" if best[0][0] else " (place/other item)"), best[3]["sl"],
+                             best[3]["desc"])
     ich = [q for q, c in cand.items() if "Representative List of the Intangible Cultural Heritage of Humanity" in c["labels"]]
     return out, ich
 
@@ -1710,7 +1712,8 @@ def build(objs, src_stats, qids, wd_works, wd_artists, disc, args):
         for wq, x in (extra_works or {}).items():
             works.setdefault(wq, {"label": x.get("wl", ""), "colls": x.get("_colls", set()), "creators": x.get("_cr", set()),
                                   "inc": x.get("inc", ""), "sl": int(x.get("sl") or 0), "prop": "discovery"})
-        art_works = [w for w in works.values() if w["colls"] or w["creators"] or w["inc"]]
+        art_items = [(q, w) for q, w in works.items() if w["colls"] or w["creators"]]
+        art_works = [w for _, w in art_items]
         wd_colls = collections.Counter(c for w in art_works for c in w["colls"])
         wd_attr = sum(1 for w in art_works if any(c and not re.search(r"(?i)anonymous|unknown", c) for c in w["creators"]))
         artists = dict(ev["artists"]) if ev else {}
@@ -1731,8 +1734,7 @@ def build(objs, src_stats, qids, wd_works, wd_artists, disc, args):
                            (f" [{o['flag']}]" if o["flag"] else ""))
             if len(samples) >= 5:
                 break
-        for wq, w in sorted(art_works and [(q, w) for q, w in works.items() if w in art_works] or [],
-                            key=lambda x: -x[1]["sl"])[:3]:
+        for wq, w in sorted(art_items, key=lambda x: -x[1]["sl"])[:3]:
             samples.append(f"wd:{wq} {w['label'][:60]}" + (f" @ {sorted(w['colls'])[0][:40]}" if w["colls"] else ""))
         st, km = known_status(n.get("kn"), labelish, rawish)
         q = qinfo or ("", "", "", "")
@@ -1803,8 +1805,8 @@ def build(objs, src_stats, qids, wd_works, wd_artists, disc, args):
             txt = r.get("xl", "") + " " + r.get("xd", "")
             if not CRAFT_RX.search(txt):
                 continue
-            if name == "ich_africa" and not re.search(r"(?i)ethiop|nubia|aksum|sudan|zimbabwe|nigeria", txt + qc.get(r["c"], "")):
-                area = "ancient_africa"
+            if name == "ich_africa" and r["c"] not in ("Q115", "Q986"):   # Ethiopia, Eritrea only
+                continue
             seen.add(r["x"])
             area = "ancient_africa" if name == "ich_africa" else areamap.get(qc.get(r["c"], ""), "")
             rows.append(cand(area, "wd_" + r["x"], r.get("xl", r["x"]), regmap.get(area, ""), "intangible heritage craft",
@@ -1821,7 +1823,7 @@ def build(objs, src_stats, qids, wd_works, wd_artists, disc, args):
                       1 if o["named"] else 0, o["place"][:150], o["labels"][:200], o["flag"], o["url"]])
     for k, ev in wd_ev.items():
         for wq, w in ev["works"].items():
-            if not (w["colls"] or w["creators"] or w["inc"]):
+            if not (w["colls"] or w["creators"]):
                 continue
             orows.append([NODE[k]["area"], k, NODE[k]["label"], "wikidata:" + w["prop"], "wikidata",
                           "; ".join(sorted(w["colls"]))[:200], wq, w["label"][:200], w["inc"][:10], "", "", "",

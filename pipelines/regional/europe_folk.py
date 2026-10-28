@@ -1113,6 +1113,19 @@ BOOK_RE = re.compile(r"рукопис|лицев|миниатюр|евангел
                      r"народн\w* картин")
 
 
+def _s(v):
+    """Goskatalog fields are mostly strings but some records carry lists or dicts."""
+    if v is None:
+        return ""
+    if isinstance(v, str):
+        return v
+    if isinstance(v, dict):
+        return " ".join(_s(x) for x in v.values())
+    if isinstance(v, (list, tuple)):
+        return " ".join(_s(x) for x in v)
+    return str(v)
+
+
 def gosk_year(d):
     s = d.get("startDate") or ""
     m = re.match(r"(-?\d{4})", s)
@@ -1151,18 +1164,18 @@ def harvest_goskatalog(icons=True, progress=None):
                 except ValueError:
                     continue
                 seen += 1
-                name = d.get("name") or ""
+                name = _s(d.get("name"))
                 if n == GOSK_ICON_FILE and not ICON_RE.search(name.lower()):
                     continue
-                desc = d.get("description") or ""
+                desc = _s(d.get("description"))
                 if n in GOSK_BOOK_FILES and not BOOK_RE.search((name + " " + desc[:500]).lower()):
                     continue
-                place = d.get("productionPlace") or ""
-                tech = d.get("technologies") or []
-                words = d.get("mainWords") or ""
-                authors = " ".join(d.get("authors") or [])
-                text = " ".join([name, desc[:1500], place, " ".join(tech), words if isinstance(words, str) else "",
-                                 authors]).lower()
+                place = _s(d.get("productionPlace"))
+                tech = [_s(t) for t in (d.get("technologies") or []) if t] if isinstance(d.get("technologies"), list) \
+                    else [_s(d.get("technologies"))] if d.get("technologies") else []
+                words = _s(d.get("mainWords"))
+                authors = _s(d.get("authors"))
+                text = " ".join([name, desc[:1500], place, " ".join(tech), words, authors]).lower()
                 trads = match_traditions(text)
                 peoples = match_peoples(" ".join([name, desc[:1500], place]).lower())
                 if n == GOSK_ICON_FILE:
@@ -1171,7 +1184,7 @@ def harvest_goskatalog(icons=True, progress=None):
                     med = "popular prints" if re.search(r"лубок|лубочн|картин", name.lower()) else "manuscript illumination"
                 else:
                     med = medium_of(name, " ".join(tech), desc[:300])
-                museum = (d.get("museum") or {}).get("name") or ""
+                museum = _s((d.get("museum") or {}).get("name")) if isinstance(d.get("museum"), dict) else ""
                 year = gosk_year(d)
                 if not trads and not peoples:
                     if n == GOSK_ICON_FILE or n in GOSK_BOOK_FILES:
