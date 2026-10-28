@@ -33,7 +33,7 @@ Output: data/interim/asian_drama_awards.csv (one row per award row)
   mdl_title, native_title, mdl_country, mdl_type, mdl_year, watchers, in_ranking
 
 Usage:
-  python3 pipelines/asian_drama/match_awards.py [--max-requests 500] [--offline] [--delay 1.5]
+  python3 pipelines/asian_drama/match_awards.py [--max-requests 500] [--winners-only] [--offline] [--delay 1.5]
 """
 import argparse
 import collections
@@ -63,6 +63,13 @@ ASIAN_AWARDS = {"Baeksang Arts Awards", "Golden Eagle (China)", "Flying Apsaras"
                 "Golden Bell", "Asian Television Awards"}
 ASIAN_COUNTRIES = {"KR", "JP", "CN", "TW", "HK", "MO", "TH", "PH", "SG", "MY", "ID", "VN"}
 CHINESE = {"CN", "TW", "HK", "MO", "SG"}  # co-productions and cross-strait credits are common
+# Other titles to try for award rows whose listed title misses on MDL (checked by hand).
+ALT_TITLES = {
+    "Damo: The Legendary Police Woman": ["Damo"],
+    "The Water Margin": ["Water Margin", "水浒传"],
+    "觉醒年代": ["The Age of Awakening"],
+    "平凡的世界": ["Ordinary World", "The Ordinary World"],
+}
 # MDL types an award series can be (Baeksang's TV grand prize also goes to variety shows,
 # which select.py routes to the unscripted database); films are never matched.
 SERIES_TYPES = ("Drama", "TV Show", "Special", "")
@@ -149,6 +156,9 @@ def load_index():
 
 
 def make_info(slug, page, rank_row=None):
+    canon = re.search(r'<link rel="canonical" href="https://mydramalist\.com/([^"/?]+)"', page)
+    if canon and not rank_row:
+        slug = canon.group(1)
     d = parse_details(page)
     t = parse_title(page)
     page_type = {"TV Program": "TV Show"}.get(d["type"], d["type"])
@@ -245,8 +255,17 @@ def fetch(path, budget, offline):
 
 
 def search(row, index, keymap, budget, offline):
-    """MDL search for one award row; returns (num, 'search'|'search_loose'), None, or 'skipped' (no budget)."""
-    q = row["title"]
+    """MDL search for one award row, trying its alternative titles too;
+    returns (num, 'search'|'search_loose'), None, or 'skipped' (no budget)."""
+    out = None
+    for q in [row["title"]] + ALT_TITLES.get(row["title"], []):
+        out = search_one(q, row, index, keymap, budget, offline)
+        if out and out != "skipped":
+            return out
+    return out
+
+
+def search_one(q, row, index, keymap, budget, offline):
     path = "/search?" + urllib.parse.urlencode({"q": q, "adv": "titles"})
     page = fetch(path, budget, offline)
     if page is None:
@@ -285,6 +304,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--max-requests", type=int, default=500, help="new MDL requests allowed (search + title pages)")
     ap.add_argument("--offline", action="store_true", help="cached pages only, no MDL or Wikidata requests")
+    ap.add_argument("--winners-only", action="store_true", help="search MDL for winners only, not nominees")
     ap.add_argument("--delay", type=float, default=mdl_fetch.DELAY,
                     help=f"seconds between MDL requests (min {mdl_fetch.DELAY})")
     args = ap.parse_args()
@@ -310,13 +330,28 @@ def main():
         if r["_slug"]:
             r["mdl_num"], r["match"] = mdl_num(r["_slug"]), "wikidata"
             continue
-        hit = pick(r, keymap.get(norm(r["title"]), []), index)
+        nums = [n for t in [r["title"]] + ALT_TITLES.get(r["title"], []) for n in keymap.get(norm(t), [])]
+        hit = pick(r, nums, index)
         if hit:
             r["mdl_num"], r["match"] = hit[0], "title" if hit[1] == "strict" else "title_loose"
     print("offline pass:", dict(collections.Counter(r["match"] for r in rows)))
 
     budget = Budget(0 if args.offline else args.max_requests)
-    todo = [r for r in rows if r["match"] == "none"]
+    # fetch title pages for Wikidata-linked dramas that are not cached (watchers, native title)
+    try:
+        for r in rows:
+            n = r["mdl_num"]
+            if n and n not in index:
+                try:
+                    page = fetch("/" + r["_slug"], budget, args.offline)
+                except Missing:
+                    page = None
+                if page:
+                    index[n] = make_info(r["_slug"], page)
+    except Blocked as e:
+        print(f"stopped fetching title pages: {e}")
+
+    todo = [r for r in rows if r["match"] == "none" and (r["won"] == "1" or not args.winners_only)]
     # winners first; Flying Apsaras (hundreds of mostly obscure winners) after the other awards' winners
     todo.sort(key=lambda r: (r["won"] != "1", r["award"] == "Flying Apsaras"))
     seen = {}
@@ -333,20 +368,6 @@ def main():
     except Blocked as e:
         print(f"stopped searching: {e}. Cached pages are kept; re-run to resume.")
     print(f"new MDL requests: {budget.used}")
-
-    # fetch title pages for Wikidata-linked dramas that are not cached (watchers, native title)
-    try:
-        for r in rows:
-            n = r["mdl_num"]
-            if n and n not in index:
-                try:
-                    page = fetch("/" + r["_slug"], budget, args.offline)
-                except Missing:
-                    page = None
-                if page:
-                    index[n] = make_info(r["_slug"], page)
-    except Blocked as e:
-        print(f"stopped fetching title pages: {e}")
 
     cols = ["award", "category", "year", "won", "title", "qid", "tconst", "country", "mdl_id", "match",
             "mdl_title", "native_title", "mdl_country", "mdl_type", "mdl_year", "watchers", "in_ranking"]
