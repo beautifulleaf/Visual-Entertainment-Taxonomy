@@ -14,6 +14,7 @@ Usage: python3 pipelines/visual_art/pageviews.py [--months 2026-09 2026-08 ...]
 import argparse
 import collections
 import csv
+import hashlib
 import os
 import shutil
 import subprocess
@@ -41,7 +42,10 @@ def dump_path(month):
 
 def month_views(month, articles):
     """{qid: views} for one month, using a per-month cache."""
-    cache = os.path.join(RAW, f"views-{month}.tsv")
+    # Keyed on the article set too: a later region adds artists, and a per-month
+    # cache would silently return counts that omit them.
+    digest = hashlib.sha1("\n".join(sorted(f"{w.decode()} {t.decode()}" for w, t in articles)).encode()).hexdigest()[:12]
+    cache = os.path.join(RAW, f"views-{month}-{digest}.tsv")
     if os.path.exists(cache):
         with open(cache, encoding="utf-8") as f:
             return {q: int(v) for q, v in (line.rstrip("\n").split("\t") for line in f)}
