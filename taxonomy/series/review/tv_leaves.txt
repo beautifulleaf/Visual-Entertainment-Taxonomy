@@ -1,0 +1,108 @@
+TAB KEY
+1. Is it Japanese animation (anime), in any format — TV series, film, OVA, ONA, special? → E Anime; format is a filter (D4). Animation from elsewhere is placed by its form below (a feature → A15 Animated Feature).
+2. Is it an unscripted format licensed across countries (talent competition, dating, cooking, game show, docusoap)? → G Unscripted Formats.
+3. Is it a long-running serial in a named serial tradition — telenovela, dizi, Indian daily soap, soap opera? → D Serial Drama Traditions.
+4. Any other scripted series or miniseries, from anywhere — including the East and Southeast Asian drama traditions (K-drama, Chinese costume drama, asadora, taiga drama, lakorn)? → C Television Series (D3: Asian drama is a filter, not a family).
+5. A film under 40 minutes? → B Short Film. Otherwise → A Feature Film (the Academy's 40-minute line).
+
+## C Television Series — test: a scripted series or miniseries made for television or streaming, anywhere, outside the named long-running serial traditions and anime.
+  key: 1. Animated, and not anime? → C6 Animated Series (TV1).
+  key: 2. Made first for children or tweens (live action)? → C7 Children's Series.
+  key: 3. An East or Southeast Asian drama in a named tradition — K-drama romance, sageuk, makjang, Chinese costume drama, wuxia/xianxia drama, idol drama, asadora, taiga drama, Japanese trendy drama, lakorn, BL drama? → C2 (D3). Asian dramas outside those traditions (thrillers, medical, fantasy) go by genre below with 'Asian drama' as a filter.
+  key: 4. Science fiction, fantasy, horror, the supernatural or superheroes? → C5 Genre Series.
+  key: 5. Criminals, police, detectives, spies or a thriller plot? → C3 Crime & Thriller Series.
+  key: 6. Laughter first? → C4 Comedy Series. Otherwise → C1 Drama Series, by subject.
+### C1 Drama Series — Axis: subject (family, medicine, law, politics, the past, youth).
+C1-1 Family Drama Series: series about families and their generations (Six Feet Under, This Is Us, Succession, Reply 1988). [aka family saga]
+C1-2 Medical Drama: series set in hospitals and medical practice (ER, Grey's Anatomy, House, Hospital Playlist). [aka hospital drama]
+C1-3 Legal Drama Series: series about lawyers and the law's own world (L.A. Law, The Good Wife, Extraordinary Attorney Woo) (TV4). [aka courtroom series]
+C1-4 Political Drama Series: series of government, elections and power (The West Wing, House of Cards, Borgen). [aka ]
+C1-5 Teen Drama: series about adolescents and high school (Beverly Hills, 90210, Skins, Euphoria, Sex Education excepted as comedy). [aka teen series]
+C1-6 Period Drama Series: series set in a defining past, costume and historical drama (Downton Abbey, The Crown, Mad Men, Rome). [aka costume drama; historical drama series]
+C1-7 War Drama Series: series about war and soldiers (Band of Brothers, The Pacific, Generation Kill). [aka military drama]
+C1-8 Western Series: series of the American frontier (Gunsmoke, Bonanza, Deadwood, Yellowstone as neo-western). [aka TV western]
+C1-9 Docudrama Series: dramatisations of real events and lives (Chernobyl, When They See Us, The People v. O. J. Simpson). [aka biographical series; true-story drama]
+C1-10 Workplace & Professional Drama: series built on a profession or workplace outside medicine and law (The Newsroom, Mad Men excepted as period, The Bear, Misaeng). [aka workplace drama]
+C1-11 Sports Drama Series: series built on a sport and its teams (Friday Night Lights, Ted Lasso excepted as comedy). [aka ]
+C1-12 Drama Series: dramas of character and society outside the narrower leaves (The Leftovers, Normal People, The Crown excepted as period). [aka serial drama]
+C1-13 Romantic Drama Series: series whose main line is a love story, outside the Asian drama traditions (Outlander excepted as fantasy, Bridgerton, Normal People). [aka romance series]
+### C2 East & Southeast Asian Drama Traditions — Axis: the named tradition (D3: 'Asian drama' is a filter; Asian dramas outside these traditions are placed by genre).
+C2-1 K-Drama: the Korean miniseries tradition of romance and melodrama — trendy, fated and rom-com love stories in 16–20 episodes (Winter Sonata, Guardian: The Lonely and Great God, Crash Landing on You, Coffee Prince). [aka Korean drama; Korean miniseries; K-drama romance]
+C2-2 Sageuk: Korean historical drama of the Joseon, Goryeo and Three Kingdoms courts (Dae Jang Geum, Moon Embracing the Sun, Mr. Sunshine, Kingdom). [aka Korean historical drama; fusion sageuk]
+C2-3 Makjang: Korean melodrama of outrageous twists — birth secrets, revenge, chaebol families, affairs — often in daily and weekend slots (The Penthouse, Temptation of Wife, The World of the Married). [aka makjang drama; Korean family melodrama]
+C2-4 Chinese Costume Drama: guzhuang: Chinese historical and palace drama of the imperial past (Story of Yanxi Palace, Nirvana in Fire, Empresses in the Palace, Meteor Garden excepted as idol drama). [aka guzhuang; palace drama; gongdou]
+C2-5 Wuxia & Xianxia Drama: Chinese drama of martial heroes (wuxia) and of immortal cultivation and celestial romance (xianxia) (The Legend of the Condor Heroes, The Untamed, Eternal Love, Love Between Fairy and Devil). [aka wuxia drama; xianxia drama; xuanhuan]
+C2-6 Idol Drama: Taiwanese and Chinese youth romance with pop-idol casts, from Meteor Garden (2001) to the modern Chinese campus and urban romances (It Started with a Kiss, Go Go Squid!, A Love So Beautiful). [aka ouxiang ju; Taiwanese drama; C-drama romance]
+C2-7 Asadora: NHK's morning serial (renzoku terebi shōsetsu) of a woman's life across decades (Oshin, Amachan, Carnation). [aka renzoku terebi shōsetsu]
+C2-8 Taiga Drama: NHK's year-long historical drama of a figure of Japanese history (Sanada Maru, Ryōmaden, The 13 Lords of the Shogun). [aka taiga dorama]
+C2-9 Japanese Trendy Drama: the Japanese prime-time drama (dorama) of urban romance and work in one-cour seasons, from the trendy dramas of Fuji TV's Monday 9 pm slot (Tokyo Love Story, Long Vacation, Nodame Cantabile, We Married as a Job!). [aka dorama; getsuku; J-drama]
+C2-10 Lakorn: Thai television drama (lakhon), with its romance, revenge and slap-kiss conventions (Love Destiny, The Crown Princess, Girl from Nowhere excepted as thriller). [aka lakhon; Thai drama]
+C2-11 Boys' Love Drama: BL series — romance between young men — from Thailand, Taiwan, Japan, Korea and China (SOTUS, 2gether, Bad Buddy, Cherry Magic!, Word of Honor). [aka BL drama; Y series; danmei drama]
+### C3 Crime & Thriller Series — Axis: milieu and source of suspense.
+C3-1 Police Procedural Series: series of police investigations case by case (Hill Street Blues, NYPD Blue, Law & Order, Line of Duty, Signal). [aka cop show]
+C3-2 Detective Series: series of a detective solving mysteries, whodunits and cosy crime (Columbo, Poirot, Sherlock, Midsomer Murders). [aka whodunit series; cosy mystery]
+C3-3 Crime Drama Series: series of criminals and their world (The Sopranos, The Wire, Breaking Bad, Peaky Blinders, Narcos) (TV4). [aka crime series; gangster series]
+C3-4 Nordic Noir: Scandinavian crime series of bleak landscapes and slow investigations (The Killing, The Bridge, Wallander, Trapped). [aka Scandinavian noir; Scandi noir]
+C3-5 Spy & Espionage Series: series of intelligence agents (Mission: Impossible, The Americans, Homeland, Slow Horses, The Bureau). [aka spy series]
+C3-6 Thriller Series: suspense series of conspiracy, survival, revenge and psychological danger (24, Mr. Robot, Squid Game, Money Heist excepted as crime). [aka conspiracy thriller series]
+C3-7 True Crime Drama: dramatised series of real criminal cases (Mindhunter, Dahmer, The Serpent). [aka ]
+### C4 Comedy Series — Axis: comic form (multi-camera sitcom, single-camera, sketch, mockumentary).
+C4-1 Multi-Camera Sitcom: studio sitcoms shot before an audience or laugh track (I Love Lucy, Cheers, Seinfeld, Friends, The Big Bang Theory). [aka sitcom; situation comedy]
+C4-2 Single-Camera Comedy: film-style comedy series without laugh track (Curb Your Enthusiasm, Arrested Development, Fleabag, Atlanta). [aka single-camera sitcom]
+C4-3 Mockumentary Sitcom: comedy in documentary form (The Office, Parks and Recreation, What We Do in the Shadows, Abbott Elementary). [aka mockumentary series]
+C4-4 Sketch Comedy: series of comic sketches (Monty Python's Flying Circus, Saturday Night Live, Key & Peele). [aka sketch show]
+C4-5 Comedy-Drama Series: series balancing comedy and drama (M*A*S*H, Gilmore Girls, Ted Lasso, The Bear excepted as workplace). [aka dramedy]
+C4-6 Satire & Political Comedy: comedy that satirises politics and institutions (Yes Minister, The Thick of It, Veep). [aka political satire]
+### C5 Genre Series — Axis: speculative premise (science fiction, fantasy, horror, superheroes).
+C5-1 Science Fiction Series: series of the future, space and technology (Star Trek, Doctor Who, The Expanse, Black Mirror, Severance). [aka SF series; space opera series]
+C5-2 Fantasy Series: series of magic and invented worlds (Game of Thrones, The Witcher, Outlander, Alchemy of Souls). [aka ]
+C5-3 Horror Series: series that aim first to frighten (The Walking Dead, American Horror Story, The Haunting of Hill House, Sweet Home). [aka ]
+C5-4 Supernatural Drama: series of ghosts, vampires, witches and the uncanny told as drama or adventure (Buffy the Vampire Slayer, Supernatural, Twin Peaks, Stranger Things). [aka supernatural series; paranormal drama]
+C5-5 Superhero Series: series of costumed or super-powered heroes (Smallville, Daredevil, The Boys, WandaVision). [aka ]
+### C6 Animated Series — Axis: audience and form (non-anime animation).
+C6-1 Animated Sitcom: animated comedy series for adults and families (The Flintstones, The Simpsons, South Park, BoJack Horseman, Rick and Morty). [aka adult animated sitcom]
+C6-2 Adult Animated Series: non-comedy animation for adults (Arcane, Invincible, Primal, Love, Death & Robots). [aka adult animation]
+C6-3 Animated Action-Adventure: animated adventure series for all ages (Batman: The Animated Series, Avatar: The Last Airbender, Gravity Falls, The Legend of Vox Machina). [aka action cartoon]
+C6-4 Children's Animated Series: cartoon series made first for children (Looney Tunes, SpongeBob SquarePants, Bluey, Peppa Pig). [aka Saturday-morning cartoon; kids' cartoon]
+### C7 Children's Series — Axis: age of audience (live action).
+C7-1 Preschool Series: live-action and puppet series for young children (Sesame Street, Mister Rogers' Neighborhood, Teletubbies). [aka preschool television]
+C7-2 Children's & Tween Series: live-action series for children and tweens (Lizzie McGuire, Hannah Montana, iCarly, Goosebumps). [aka teen sitcom; tween series]
+
+## D Serial Drama Traditions — test: a long-running serial in a named serial tradition, with continuing storylines broadcast daily or weekly for years or hundreds of episodes: soap opera, telenovela, dizi, Indian daily soap, teleserye, musalsal (TV2).
+  key: 1. Latin American or Iberian telenovela? → D1. 2. Anglophone soap opera? → D2. 3. Turkish dizi? → D3. 4. South Asian serial? → D4. 5. Arab musalsal? → D5. 6. Philippine teleserye? → D6.
+### D1 Telenovela — Axis: sub-genre and industry tradition.
+D1-1 Telenovela: the Latin American serial of a single romance resolved in one run of 100–200 episodes, Mexican, Venezuelan and Colombian (Los ricos también lloran, Yo soy Betty, la fea, Café con aroma de mujer). [aka novela; culebrón]
+D1-2 Brazilian Novela: the Brazilian telenovela, above all TV Globo's prime-time novelas das nove (Roque Santeiro, Avenida Brasil, Escrava Isaura). [aka novela das nove; telenovela brasileira]
+D1-3 Narconovela: the Colombian and Mexican telenovela of drug traffickers (El Patrón del Mal, La Reina del Sur, Sin senos no hay paraíso). [aka narco-telenovela]
+D1-4 Youth Telenovela: telenovelas for children and teens (Chiquititas, Rebelde Way, Rebelde, Violetta). [aka juvenile telenovela]
+### D2 Soap Opera — Axis: daypart and national industry (the field's own division).
+D2-1 American Daytime Soap Opera: US daytime serials sponsored for the home audience (Guiding Light, General Hospital, Days of Our Lives, The Young and the Restless). [aka daytime soap]
+D2-2 British Soap Opera: British continuing dramas of a community (Coronation Street, EastEnders, Emmerdale, Hollyoaks). [aka continuing drama]
+D2-3 Australian Soap Opera: Australian serials (Neighbours, Home and Away, Prisoner). [aka Aussie soap]
+D2-4 Prime-Time Soap Opera: evening serials of wealthy families, intrigue and cliffhangers (Peyton Place, Dallas, Dynasty, Melrose Place, Desperate Housewives). [aka prime-time serial]
+D2-5 European Soap Opera: the continental European daily and weekly soaps (Lindenstraße, Gute Zeiten, schlechte Zeiten, Un posto al sole, Goede tijden, slechte tijden). [aka ]
+### D3 Dizi — Axis: setting.
+D3-1 Dizi: the Turkish weekly serial of 120–150-minute episodes, romance, family honour and class (Aşk-ı Memnu, Fatmagül'ün Suçu Ne?, Kara Sevda). [aka Turkish drama; Turkish television drama]
+D3-2 Historical Dizi: Turkish serials of the Ottoman and Seljuk past (Muhteşem Yüzyıl, Diriliş: Ertuğrul, Kuruluş: Osman). [aka Ottoman dizi]
+### D4 South Asian Serials — Axis: serial genre.
+D4-1 Indian Daily Soap: the Hindi and regional daily serial of the joint family, above all the saas-bahu (mother-in-law and daughter-in-law) serial of the 2000s (Kyunki Saas Bhi Kabhi Bahu Thi, Kahaani Ghar Ghar Kii, Balika Vadhu, Anupamaa). [aka saas-bahu serial; Indian soap opera]
+D4-2 Indian Mythological Serial: serials of the epics and the gods (Ramayan, Mahabharat, Devon Ke Dev...Mahadev). [aka mythological serial]
+D4-3 Pakistani Drama Serial: the Urdu prime-time drama serial of family and romance (Humsafar, Zindagi Gulzar Hai, Mere Paas Tum Ho). [aka Pakistani drama]
+### D5 Musalsal — Axis: serial genre.
+D5-1 Ramadan Musalsal: the Arab serial made for the Ramadan season, Syrian, Egyptian and Gulf (Bab al-Hara, Al-Taghriba al-Filistiniya, Omar). [aka musalsal; Ramadan series]
+### D6 Teleserye — Axis: none (one leaf).
+D6-1 Teleserye: the Philippine prime-time serial (Pangako Sa 'Yo, Ang Probinsyano, Encantadia). [aka teledrama; Filipino soap opera]
+
+PRECEDENCE
+F1 Named cycle before movement: A film with a home in a named genre cycle (chanbara, kaidan, J-horror, yakuza, film noir, pink film, Roman Porno, pinky violence, kaiju, tokusatsu, Taiyōzoku) goes to that cycle, even when a movement's reference sources list it as a member. A movement leaf keeps the attested members with no cycle home; every attested member carries the movement as a tag (D1).
+F2 Named cycle before general genre: A named cycle with its own canon (J-horror, kaiju eiga, yakuza eiga, pink film) beats the general genre leaf (supernatural horror, monster film, gangster film, sexploitation).
+F10 Leaf examples follow the key: When a film named as a leaf example would be sent elsewhere by the key, the key wins and the example is replaced; examples never override the key.
+AN1 Battle before world: A series whose episodes are built on escalating fights, rivals and power systems (shōnen battle) is E1 even when set in a fantasy world (Fullmetal Alchemist, Demon Slayer, Jujutsu Kaisen); an isekai or a fantasy whose world and journey carry it stays E3 (Re:Zero, Frieren).
+AN2 Franchise unity: All seasons, films, OVAs and specials of one franchise share the leaf of its main series, unless a spin-off belongs to another genre outright (a gag spin-off → E10).
+AN3 Demographic: Shōnen, seinen, shōjo and josei are tags on every title (MAL/AniList demographic); they divide leaves only where the field names a demographic genre (shōjo romance, josei).
+AN4 Non-Japanese animation in the anime database: Donghua and Korean animation selected through the anime database are placed by the same key, with country as a filter; animation from elsewhere selected as film is A15.
+TV1 Animation: Every animated series that is not anime is C6, whatever its genre (The Simpsons → Animated Sitcom; Arcane → Animated Action-Adventure).
+TV2 Serial or series: A long-running serial in a named serial tradition (telenovela, dizi, daily soap, soap opera, teleserye, musalsal) is D, not C, even when it is also a crime or historical story; a limited or seasonal series with a closed arc is C.
+TV3 Named Asian tradition before genre: An Asian drama in a named tradition of C2 stays there whatever its genre mix (a sageuk with zombies, Kingdom, is Sageuk; a xianxia romance is Wuxia & Xianxia Drama); a Korean thriller or a Japanese medical drama with no tradition home goes by genre.
+TV4 Crime before drama: A series centred on crime, police, lawyers defending criminals or spies is C3, even when its prestige makes it 'drama' (The Sopranos, The Wire, Breaking Bad); a legal series about the law firm's own life is Legal Drama.
+TV5 Franchise unity: Spin-offs and revivals share their parent's leaf unless they change genre outright.

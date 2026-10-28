@@ -1,0 +1,38 @@
+TAB KEY
+1. Is it Japanese animation (anime), in any format — TV series, film, OVA, ONA, special? → E Anime; format is a filter (D4). Animation from elsewhere is placed by its form below (a feature → A15 Animated Feature).
+2. Is it an unscripted format licensed across countries (talent competition, dating, cooking, game show, docusoap)? → G Unscripted Formats.
+3. Is it a long-running serial in a named serial tradition — telenovela, dizi, Indian daily soap, soap opera? → D Serial Drama Traditions.
+4. Any other scripted series or miniseries, from anywhere — including the East and Southeast Asian drama traditions (K-drama, Chinese costume drama, asadora, taiga drama, lakorn)? → C Television Series (D3: Asian drama is a filter, not a family).
+5. A film under 40 minutes? → B Short Film. Otherwise → A Feature Film (the Academy's 40-minute line).
+
+## G Unscripted Formats — test: an unscripted entertainment format licensed across borders (≥3 versions in ≥2 countries), with its national versions as variants; and the East Asian variety shows of the drama database.
+  key: 1. Contestants compete for a prize or title? → G1 Competition Formats.
+  key: 2. Real people filmed in arranged situations (dating, makeover, swaps, docusoap)? → G2 Factual Entertainment Formats.
+  key: 3. Hosts, guests, games and talk in a studio or on location? → G3 Variety & Talk.
+### G1 Competition Formats — Axis: what is contested.
+G1-1 Talent Show: singing, dancing and variety talent contests judged by panel and public (Idols, Got Talent, The Voice, The X Factor, Dancing with the Stars). [aka talent competition]
+G1-2 Reality Competition: contestants live together or travel and are eliminated (Survivor, Big Brother, The Amazing Race, Fort Boyard). [aka reality game show]
+G1-3 Cooking Competition: contests of cooks and bakers (MasterChef, Hell's Kitchen, The Great British Bake Off, Top Chef). [aka cooking show]
+G1-4 Game Show: quiz and game formats played in a studio (Who Wants to Be a Millionaire?, Wheel of Fortune, The Price Is Right, The Chase). [aka quiz show]
+G1-5 Business Pitch Show: entrepreneurs pitch to investors (Dragons' Den, Shark Tank, The Apprentice). [aka ]
+### G2 Factual Entertainment Formats — Axis: the arranged situation.
+G2-1 Dating Show: formats of courtship and matchmaking (The Dating Game, The Bachelor, Love Island, Married at First Sight). [aka dating game show]
+G2-2 Docusoap & Social Experiment: real people followed or placed in arranged situations (Wife Swap, The Real Housewives, Undercover Boss, Gogglebox). [aka docusoap; social experiment]
+G2-3 Makeover Show: transformations of people, homes and businesses (Extreme Makeover, Queer Eye, Kitchen Nightmares, Grand Designs). [aka makeover television; lifestyle show]
+### G3 Variety & Talk — Axis: form.
+G3-1 Variety Show: entertainment programmes of games, missions, music and comedy led by a fixed cast — including the Korean and Japanese real-variety shows (Running Man, Infinite Challenge, 2 Days & 1 Night, Gaki no Tsukai). [aka real variety; Korean variety show]
+G3-2 Talk Show: host-led conversation formats (The Tonight Show as a type, Wetten, dass..?, Late Night franchises). [aka chat show]
+
+PRECEDENCE
+F1 Named cycle before movement: A film with a home in a named genre cycle (chanbara, kaidan, J-horror, yakuza, film noir, pink film, Roman Porno, pinky violence, kaiju, tokusatsu, Taiyōzoku) goes to that cycle, even when a movement's reference sources list it as a member. A movement leaf keeps the attested members with no cycle home; every attested member carries the movement as a tag (D1).
+F2 Named cycle before general genre: A named cycle with its own canon (J-horror, kaiju eiga, yakuza eiga, pink film) beats the general genre leaf (supernatural horror, monster film, gangster film, sexploitation).
+F10 Leaf examples follow the key: When a film named as a leaf example would be sent elsewhere by the key, the key wins and the example is replaced; examples never override the key.
+AN1 Battle before world: A series whose episodes are built on escalating fights, rivals and power systems (shōnen battle) is E1 even when set in a fantasy world (Fullmetal Alchemist, Demon Slayer, Jujutsu Kaisen); an isekai or a fantasy whose world and journey carry it stays E3 (Re:Zero, Frieren).
+AN2 Franchise unity: All seasons, films, OVAs and specials of one franchise share the leaf of its main series, unless a spin-off belongs to another genre outright (a gag spin-off → E10).
+AN3 Demographic: Shōnen, seinen, shōjo and josei are tags on every title (MAL/AniList demographic); they divide leaves only where the field names a demographic genre (shōjo romance, josei).
+AN4 Non-Japanese animation in the anime database: Donghua and Korean animation selected through the anime database are placed by the same key, with country as a filter; animation from elsewhere selected as film is A15.
+TV1 Animation: Every animated series that is not anime is C6, whatever its genre (The Simpsons → Animated Sitcom; Arcane → Animated Action-Adventure).
+TV2 Serial or series: A long-running serial in a named serial tradition (telenovela, dizi, daily soap, soap opera, teleserye, musalsal) is D, not C, even when it is also a crime or historical story; a limited or seasonal series with a closed arc is C.
+TV3 Named Asian tradition before genre: An Asian drama in a named tradition of C2 stays there whatever its genre mix (a sageuk with zombies, Kingdom, is Sageuk; a xianxia romance is Wuxia & Xianxia Drama); a Korean thriller or a Japanese medical drama with no tradition home goes by genre.
+TV4 Crime before drama: A series centred on crime, police, lawyers defending criminals or spies is C3, even when its prestige makes it 'drama' (The Sopranos, The Wire, Breaking Bad); a legal series about the law firm's own life is Legal Drama.
+TV5 Franchise unity: Spin-offs and revivals share their parent's leaf unless they change genre outright.

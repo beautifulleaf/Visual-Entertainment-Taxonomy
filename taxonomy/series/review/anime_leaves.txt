@@ -1,0 +1,93 @@
+TAB KEY
+1. Is it Japanese animation (anime), in any format — TV series, film, OVA, ONA, special? → E Anime; format is a filter (D4). Animation from elsewhere is placed by its form below (a feature → A15 Animated Feature).
+2. Is it an unscripted format licensed across countries (talent competition, dating, cooking, game show, docusoap)? → G Unscripted Formats.
+3. Is it a long-running serial in a named serial tradition — telenovela, dizi, Indian daily soap, soap opera? → D Serial Drama Traditions.
+4. Any other scripted series or miniseries, from anywhere — including the East and Southeast Asian drama traditions (K-drama, Chinese costume drama, asadora, taiga drama, lakorn)? → C Television Series (D3: Asian drama is a filter, not a family).
+5. A film under 40 minutes? → B Short Film. Otherwise → A Feature Film (the Academy's 40-minute line).
+
+## E Anime — test: Japanese animation in any format (TV series, film, OVA, ONA, special); format is a filter, never a division (D4). Donghua and Korean animation selected through the anime database are placed here with their country as a filter.
+  key: 1. Explicit sexual content made for the adult market (hentai)? → E12 Adult Anime.
+  key: 2. Made first for young children (kodomo-muke), or a family literary adaptation? → E11 Children's & Family.
+  key: 3. A magical girl who transforms to fight or to help? → E4 Magical Girl.
+  key: 4. Giant robots, or speculative science (space, cyborgs, the future) that carries the story — not a device that only frames a school comedy, romance or idol show? → E2 Mecha & Science Fiction.
+  key: 5. A sport or a competitive game carries it? → E7 Sports.
+  key: 6. Aims first to frighten? → E9 Horror.
+  key: 7. Transported or reborn into another world, or an invented fantasy world or yōkai spirit world at its centre? → E3 Fantasy & Isekai (a battle series in a fantasy world with a shōnen battle structure is E1, AN1).
+  key: 8. Fights and powers carry it? → E1 Action & Battle.
+  key: 9. A love story first? → E5 Romance & Romantic Comedy. Everyday life, healing calm, cute-girls, idols and bands? → E6 Slice of Life & Iyashikei.
+  key: 10. Laughter first? → E10 Comedy. Otherwise → E8 Drama, Psychological & Mystery.
+### E1 Action & Battle — Axis: the fighting premise (shōnen battle, martial arts, samurai). Built at scale.
+E1-1 Shōnen Battle: long-running action series of escalating fights, rivals, training arcs and power systems, the core of Weekly Shōnen Jump adaptations (Dragon Ball Z, Naruto, One Piece, Bleach, Jujutsu Kaisen, Demon Slayer). [aka battle shōnen; nekketsu]
+E1-2 Seinen Action: violent action for adult audiences — mercenaries, hunters, gunfights, dark warriors (Hellsing, Black Lagoon, Gantz, Golgo 13; Berserk excepted as dark fantasy). [aka seinen action]
+E1-3 Samurai & Ninja Anime: action in Japan's samurai and ninja past, including chanbara anime (Rurouni Kenshin, Samurai Champloo, Ninja Scroll, Sword of the Stranger). [aka chanbara anime; jidaigeki anime]
+E1-4 Superhero Anime: anime of costumed heroes and hero societies (My Hero Academia, One-Punch Man, Tiger & Bunny). [aka hero anime]
+E1-6 Action Anime: action series and films outside shōnen battle, seinen action and the narrower leaves — light-novel and game-based action, school battle series (Absolute Duo, Akame ga Kill! excepted as dark fantasy). [aka ]
+E1-7 Wuxia & Xianxia Animation: Chinese animation (donghua) of martial heroes and of immortal cultivation (Soul Land, Battle Through the Heavens, Link Click excepted as drama). [aka cultivation donghua; xianxia animation]
+E1-5 Martial Arts Anime: anime built on hand-to-hand fighting and tournaments outside shōnen battle power systems (Baki, Kengan Ashura, Fist of the North Star). [aka ]
+### E2 Mecha & Science Fiction — Axis: real-robot, super-robot, cyberpunk, space opera. Built at scale.
+E2-1 Super Robot: giant robots as invincible heroes with signature attacks (Mazinger Z, Getter Robo, Gurren Lagann). [aka super robot anime]
+E2-2 Real Robot: mecha as mass-produced military machines in realistic wars (Mobile Suit Gundam, Macross, Code Geass, Neon Genesis Evangelion). [aka real robot anime]
+E2-3 Cyberpunk Anime: high-tech, low-life futures of cyborgs, networks and megacities (Akira, Ghost in the Shell, Serial Experiments Lain, Psycho-Pass). [aka ]
+E2-4 Space Opera Anime: adventure and war among the stars (Space Battleship Yamato, Legend of the Galactic Heroes, Cowboy Bebop, Space Brothers excepted as drama). [aka ]
+E2-5 Science Fiction Anime: speculative anime outside mecha, cyberpunk and space opera: time travel, post-apocalypse, aliens, technology (Steins;Gate, Dr. Stone, Planetes, Attack on Titan excepted as dark fantasy). [aka SF anime]
+### E3 Fantasy & Isekai — Axis: the invented world. Built at scale.
+E3-1 Isekai: stories of people transported to or reborn in another world (Re:Zero, Mushoku Tensei, KonoSuba, That Time I Got Reincarnated as a Slime, Sword Art Online). [aka isekai; another-world anime]
+E3-2 Fantasy Adventure: quests and journeys through invented worlds and magic (Spirited Away, Frieren, Made in Abyss, Magi). [aka high fantasy anime]
+E3-3 Dark Fantasy: grim fantasy of monsters, war and cruelty (Attack on Titan, Claymore, Devilman Crybaby, Vinland Saga excepted as historical). [aka ]
+E3-4 Supernatural & Yōkai Anime: the spirit world among us — yōkai, gods, exorcists, ghosts — told as adventure or quiet wonder (Natsume's Book of Friends, Mushishi, Noragami, Mononoke). [aka yōkai anime; urban fantasy]
+### E4 Magical Girl — Axis: tradition. Built at scale.
+E4-1 Magical Girl: mahō shōjo: girls who gain magic to help others, from Sally the Witch and Minky Momo to Cardcaptor Sakura. [aka mahō shōjo; majokko]
+E4-2 Magical Girl Warrior: magical girls who transform to fight evil in teams, and their dark deconstructions (Sailor Moon, Pretty Cure, Puella Magi Madoka Magica). [aka sentai magical girl; dark magical girl]
+### E5 Romance & Romantic Comedy — Axis: tone and demographic (shōjo, josei, harem). Built at scale.
+E5-1 Shōjo Romance: romance written for girls, of first love and feelings (Fruits Basket, Kimi ni Todoke, Ouran High School Host Club, Nana excepted as josei). [aka shōjo manga romance]
+E5-2 Romantic Comedy Anime: love stories told for laughter, often school rom-coms (Toradora!, Kaguya-sama: Love Is War, Horimiya). [aka rom-com]
+E5-3 Harem: one protagonist surrounded by several romantic interests (Love Hina, The Quintessential Quintuplets, Tenchi Muyo!). [aka harem anime; reverse harem]
+E5-4 Boys' Love: romance between men (BL, yaoi) (Given, Sasaki and Miyano, Doukyuusei). [aka BL; yaoi; shōnen-ai]
+E5-5 Yuri: romance between women (Bloom Into You, Citrus, Revolutionary Girl Utena excepted as drama). [aka shōjo-ai; girls' love]
+E5-6 Romantic Drama Anime: love stories told as drama, including josei romance (Your Name excepted as fantasy; Nana, Honey and Clover, Clannad, The Garden of Words). [aka josei romance]
+### E6 Slice of Life & Iyashikei — Axis: setting. Built at scale.
+E6-1 Iyashikei: 'healing' anime of calm, beauty and small pleasures (Aria, Yuru Camp, Non Non Biyori, Barakamon). [aka healing anime]
+E6-2 Cute Girls Doing Cute Things: moe slice-of-life of girls' clubs and daily routines (K-On!, Lucky Star, Azumanga Daioh, Nichijou excepted as gag). [aka CGDCT; moe slice of life]
+E6-3 Slice of Life Anime: everyday school, work and family life outside the narrower leaves (Shirobako, Silver Spoon, Spy × Family excepted as comedy). [aka nichijō-kei]
+E6-4 Idol Anime: anime of idol groups and their rise (Love Live!, The Idolmaster, Uta no Prince-sama, Oshi no Ko excepted as drama). [aka idol anime]
+E6-5 Music Anime: anime of musicians, bands and performance (Your Lie in April, Bocchi the Rock!, Beck, Nodame Cantabile). [aka band anime]
+E6-6 Cooking & Gourmet Anime: anime built on food, cooking and eating (Food Wars!, Sweetness and Lightning, Restaurant to Another World). [aka gourmet anime]
+### E7 Sports — Axis: sport. Built at scale.
+E7-1 Sports Anime: spokon: anime of a sport, a team and its competitions — volleyball, basketball, baseball, football, boxing, cycling, swimming (Slam Dunk, Haikyu!!, Hajime no Ippo, Ashita no Joe, Blue Lock). [aka spokon; supokon]
+E7-2 Game Anime: anime of competitive games — go, shogi, karuta, mahjong, card battles (Hikaru no Go, Chihayafuru, March Comes in Like a Lion excepted as drama, Yu-Gi-Oh!). [aka card battle anime; board game anime]
+### E8 Drama, Psychological & Mystery — Axis: subject. Built at scale.
+E8-1 Psychological Thriller Anime: suspense of minds in conflict, manipulation and identity (Death Note, Monster, Perfect Blue, Paranoia Agent, The Promised Neverland). [aka psychological anime]
+E8-2 Mystery & Detective Anime: anime of detection and puzzles (Case Closed, Hyouka, Odd Taxi, Erased). [aka detective anime]
+E8-3 Drama Anime: dramas of grief, growing up, family and society (Anohana, Violet Evergarden, A Silent Voice, March Comes in Like a Lion, Wolf Children). [aka ]
+E8-4 Historical & War Anime: anime in which a historical era or a war is the subject (Grave of the Fireflies, In This Corner of the World, The Rose of Versailles, Vinland Saga). [aka historical anime; war anime]
+E8-6 Death Game & Survival Anime: anime of lethal games and forced survival contests (Danganronpa, Darwin's Game, Kaiji, Btooom!, Future Diary). [aka death game anime; desu gēmu]
+E8-5 Crime & Gangster Anime: anime of thieves, gangsters and the underworld (Lupin III, Baccano!, 91 Days, Great Pretender). [aka crime anime]
+### E9 Horror — Axis: source of fear. Built at scale.
+E9-1 Horror Anime: anime that aims first to frighten — curses, ghosts, killers, cosmic dread (Another, Higurashi: When They Cry, Shiki, Junji Ito Collection). [aka ]
+### E10 Comedy — Axis: comic mode. Built at scale.
+E10-1 Gag & Parody Anime: comedy first: gags, absurdity, parody and surreal humour (Gintama, Nichijou, The Disastrous Life of Saiki K., Pop Team Epic). [aka gag anime; owarai]
+E10-2 Ecchi: comedy and fan service built on sexual innuendo without explicit content (High School DxD, Prison School, Kill la Kill excepted as battle). [aka fan service comedy]
+E10-3 Comedy Anime: situation and character comedy outside gag and ecchi (Spy × Family, Grand Blue, The Devil Is a Part-Timer!). [aka ]
+### E11 Children's & Family — Axis: audience. Built at scale.
+E11-1 Kodomo-muke: anime made for young children, including the long family series (Doraemon, Anpanman, Crayon Shin-chan, Pokémon, Chibi Maruko-chan). [aka kodomo anime; children's anime]
+E11-2 World Masterpiece Theater: Nippon Animation's series of family adaptations of Western classics and their kin (Heidi, Girl of the Alps, Anne of Green Gables, A Dog of Flanders). [aka Sekai Meisaku Gekijō]
+### E12 Adult Anime — Axis: none (one leaf); is_adult titles of the anime database.
+E12-1 Hentai: explicit adult anime, mostly OVAs (flagged is_adult in the anime database). [aka adult anime]
+
+PRECEDENCE
+F1 Named cycle before movement: A film with a home in a named genre cycle (chanbara, kaidan, J-horror, yakuza, film noir, pink film, Roman Porno, pinky violence, kaiju, tokusatsu, Taiyōzoku) goes to that cycle, even when a movement's reference sources list it as a member. A movement leaf keeps the attested members with no cycle home; every attested member carries the movement as a tag (D1).
+F2 Named cycle before general genre: A named cycle with its own canon (J-horror, kaiju eiga, yakuza eiga, pink film) beats the general genre leaf (supernatural horror, monster film, gangster film, sexploitation).
+F10 Leaf examples follow the key: When a film named as a leaf example would be sent elsewhere by the key, the key wins and the example is replaced; examples never override the key.
+AN1 Battle before world: A series whose episodes are built on escalating fights, rivals and power systems (shōnen battle) is E1 even when set in a fantasy world (Fullmetal Alchemist, Demon Slayer, Jujutsu Kaisen); an isekai or a fantasy whose world and journey carry it stays E3 (Re:Zero, Frieren).
+AN2 Franchise unity: All seasons, films, OVAs and specials of one franchise share the leaf of its main series, unless a spin-off belongs to another genre outright (a gag spin-off → E10).
+AN3 Demographic: Shōnen, seinen, shōjo and josei are tags on every title (MAL/AniList demographic); they divide leaves only where the field names a demographic genre (shōjo romance, josei).
+AN5 Comedy first: A series whose premise is a pretext for gags or parody (gag manga, a genre parody) is E10 whatever its setting or club (Detroit Metal City, Dragon Half, KonoSuba excepted as isekai, since its world carries the story).
+AN6 Children's franchises: A children's franchise (Pokémon, Digimon, Doraemon) stays in E11 across its entries (AN2), including films made for its grown-up fans.
+AN7 What carries the story: A setting, sport, band or speculative frame that is only a backdrop does not decide the leaf: the sport must drive the plot for E7 (Blue Box → romance), a fantasy world must carry the story for E3 (a villainess romance in a fantasy court → romance). Toy-line battle shows for children (Beyblade, Bakugan) are E11; one-off comedy specials and chibi extras of a franchise are E10.
+AN8 Adult flag: E12 holds explicit hentai only; an adult-flagged art film or erotic drama (Cleopatra 1970, Shoujo Tsubaki) is placed by its genre with E12-1 as see-also. A gag series about everyday life is E10 (comedy first, AN5); a gentle everyday series without gag structure is E6.
+AN4 Non-Japanese animation in the anime database: Donghua and Korean animation selected through the anime database are placed by the same key, with country as a filter; animation from elsewhere selected as film is A15.
+TV1 Animation: Every animated series that is not anime is C6, whatever its genre (The Simpsons → Animated Sitcom; Arcane → Animated Action-Adventure).
+TV2 Serial or series: A long-running serial in a named serial tradition (telenovela, dizi, daily soap, soap opera, teleserye, musalsal) is D, not C, even when it is also a crime or historical story; a limited or seasonal series with a closed arc is C.
+TV3 Named Asian tradition before genre: An Asian drama in a named tradition of C2 stays there whatever its genre mix (a sageuk with zombies, Kingdom, is Sageuk; a xianxia romance is Wuxia & Xianxia Drama); a Korean thriller or a Japanese medical drama with no tradition home goes by genre.
+TV4 Crime before drama: A series centred on crime, police, lawyers defending criminals or spies is C3, even when its prestige makes it 'drama' (The Sopranos, The Wire, Breaking Bad); a legal series about the law firm's own life is Legal Drama.
+TV5 Franchise unity: Spin-offs and revivals share their parent's leaf unless they change genre outright.

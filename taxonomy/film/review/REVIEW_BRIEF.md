@@ -26,3 +26,5 @@ Output: write `taxonomy/film/review/films_NN_out.csv` with exactly these columns
 - note: ≤15 words, only when useful (why a cycle, a seam, a doubt). Use csv quoting.
 Write the file with Python's csv module. Check that the row count equals the input's before finishing.
 Reply with: rows written, count of changes from the proposal, and up to 5 seams or leaf gaps you noticed (films that fit no leaf well).
+
+Temporary files: other reviewers run at the same time. Keep any helper or scratch file in your own folder named after your batch, e.g. /tmp/claude-0/review_films_07/ — never a shared or generic file name.

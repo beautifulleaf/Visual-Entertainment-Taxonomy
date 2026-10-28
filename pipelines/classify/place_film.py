@@ -37,7 +37,7 @@ def rd(p):
 MOVEMENT_ARTICLES = {
     "Japanese New Wave": "A1-1", "German expressionist cinema": "A1-2", "Soviet montage theory": "A1-3",
     "French impressionist cinema": "A1-4", "Poetic realism": "A1-5", "Italian neorealism": "A1-6",
-    "French New Wave": "A1-7", "Left Bank (film)": "A1-8", "British New Wave": "A1-9", "Kitchen sink realism": "A1-9",
+    "French New Wave": "A1-7", "Left Bank (film)": "A1-8", "British New Wave": "A1-9",
     "Czechoslovak New Wave": "A1-10", "Polish Film School": "A1-11", "Yugoslav Black Wave": "A1-12",
     "Cinema Novo": "A1-13", "Third Cinema": "A1-14", "New Hollywood": "A1-15", "New German Cinema": "A1-16",
     "Parallel cinema": "A1-17", "Iranian New Wave": "A1-18", "Taiwan New Cinema": "A1-19", "Hong Kong New Wave": "A1-20",
@@ -293,5 +293,50 @@ def batches():
     print(len(rows), "films in", n, "batches;", Counter(r["proposal"][:3] for r in rows).most_common(40))
 
 
+
+def merge():
+    """Pilot placements + reviewed batches + overrides → one row per film."""
+    ev = {r["tconst"]: r for r in rd(os.path.join(OUT, "film_evidence.csv"))}
+    wd = {r["tconst"]: r for r in rd(os.path.join(D, "film_wikidata.csv"))}
+    replace = {r["tconst"] for r in rd(os.path.join(S, "film_replace.csv"))}
+    names = {l[1]: l[0] for v in FT.LEAVES.values() for l in v if l[0].startswith("A1-")}
+    rows = {}
+    for r in rd(os.path.join(ROOT, "taxonomy", "pilot", "japan_placements.csv")):
+        if r["tconst"] in replace:
+            continue
+        rows[r["tconst"]] = {"tconst": r["tconst"], "title": r["title"], "year": r["year"], "countries": r["countries"],
+                             "director": r["director"], "leaf": r["leaf"], "see_also": r["see_also"], "key_step": r["key_step"],
+                             "movement": names.get(r["movement"], r["movement"]), "confidence": "", "note": r["note"],
+                             "by": r["by"] or "pilot"}
+    missing = []
+    for f in sorted(os.listdir(R)):
+        if not re.match(r"films_\d+_out\.csv$", f):
+            continue
+        for r in rd(os.path.join(R, f)):
+            e = ev.get(r["tconst"], {})
+            rows[r["tconst"]] = {"tconst": r["tconst"], "title": e.get("title", r["title"]), "year": e.get("year", ""),
+                                 "countries": e.get("countries", ""), "director": e.get("director", ""),
+                                 "leaf": r["leaf"].strip(), "see_also": r.get("see_also", ""), "key_step": r.get("key_step", ""),
+                                 "movement": r.get("movement", ""), "confidence": r.get("confidence", ""),
+                                 "note": r.get("note", ""), "by": "review"}
+    for r in rd(os.path.join(S, "film_overrides.csv")):
+        if r["tconst"] in rows:
+            rows[r["tconst"]].update({"leaf": r["leaf"], "see_also": r.get("see_also", ""), "note": r.get("note", ""), "by": "override"})
+    for t, e in ev.items():
+        if t not in rows:
+            missing.append(t)
+    for r in rows.values():
+        r["qid"] = wd.get(r["tconst"], {}).get("qid", "")
+    cols = ["tconst", "title", "year", "countries", "director", "qid", "leaf", "see_also", "key_step", "movement", "confidence", "note", "by"]
+    with open(os.path.join(OUT, "film_placements.csv"), "w", newline="", encoding="utf-8") as fh:
+        w = csv.DictWriter(fh, fieldnames=cols)
+        w.writeheader()
+        w.writerows(sorted(rows.values(), key=lambda r: (r["leaf"], r["year"])))
+    known = {l[0] for v in FT.LEAVES.values() for l in v}
+    bad = [r for r in rows.values() if not (r["leaf"] in known or r["leaf"].startswith(("route:", "exclude:")))]
+    print(len(rows), "placed;", len(missing), "not yet reviewed;", len(bad), "with an unknown leaf",
+          Counter(r["leaf"] for r in bad).most_common(10))
+
+
 if __name__ == "__main__":
-    {"batches": batches}[sys.argv[1]]()
+    {"batches": batches, "merge": merge}[sys.argv[1]]()

@@ -16,7 +16,7 @@ FAMILY_KEY = [
     "2. Is it an <b>unscripted format</b> licensed across countries (talent competition, dating, cooking, game show, docusoap)? → <b>G Unscripted Formats</b>.",
     "3. Is it a <b>long-running serial</b> in a named serial tradition — telenovela, dizi, Indian daily soap, soap opera? → <b>D Serial Drama Traditions</b>.",
     "4. Any other <b>scripted series or miniseries</b>, from anywhere — including the East and Southeast Asian drama traditions (K-drama, Chinese costume drama, asadora, taiga drama, lakorn)? → <b>C Television Series</b> (D3: Asian drama is a filter, not a family).",
-    "5. A film <b>under 40 minutes</b>? → <b>B Short Film</b>. Otherwise → <b>A Feature Film</b> (the Academy's 40-minute line).",
+    "5. A film of <b>40 minutes or less</b>? → <b>B Short Film</b>. Otherwise → <b>A Feature Film</b> (the Academy's 40-minute line).",
 ]
 
 PRECEDENCE = [
@@ -48,7 +48,7 @@ MODIFIERS = [
 
 FAMILIES = [
     {"code": "A", "label": "Feature Film",
-     "test": "a film of 40 minutes or more made as a single work for cinema, festival, television or streaming release; not anime.",
+     "test": "a film of more than 40 minutes made as a single work for cinema, festival, television or streaming release; not anime.",
      "key": [
          "1. Non-fiction? → <b>A13 Documentary</b>.",
          "2. Does it belong to a <b>named genre cycle</b> (the narrower leaves of A2–A12: chanbara, kaidan, J-horror, yakuza, noir, pink, Roman Porno, pinky violence, kaiju, tokusatsu, Taiyōzoku)? → skip to that leaf (F1). Otherwise, is it an <b>attested member of a named film movement</b>? → <b>A1 Movements & Schools</b>.",
@@ -312,14 +312,17 @@ LEAVES = {
 PRECEDENCE += [
     ("F11", "Pre-modern wars in Japan", "A war fought in Japan's pre-1868 past is jidaigeki or chanbara, not War Film (<i>Ran</i>, <i>Kagemusha</i>)."),
     ("F12", "Cycle before comedy", "A genre cycle wins over Comedy when the cycle's premise drives the plot (<i>Zom 100</i> → Zombie Film; <i>Shaun of the Dead</i> → Zombie Film). Comedy keeps films whose premise is only a backdrop for gags; a horror film played mainly for laughs with no cycle home is Comedy Horror."),
-    ("F13", "Popular-cinema modes", "An Indian popular film that mixes action, romance, comedy, melodrama and song-and-dance in one star vehicle is Masala Film, before the crime, action, romance and musical leaves; a Nigerian film made in the Nollywood mode is Nollywood Film unless a named genre cycle claims it. Indian and Nigerian films outside those modes (parallel cinema, art-house, realist thrillers) are placed by genre like any other film."),
+    ("F13", "Popular-cinema modes", "A South Asian popular star vehicle that mixes an action strand with romance, comedy, melodrama and song-and-dance is Masala Film, before the general crime, action, fantasy and historical leaves (<i>Sholay</i>, <i>Baahubali</i>, <i>Pushpa</i>). Without an action strand, a family or romance musical goes by its main line with Masala Film as see-also (<i>Dilwale Dulhania Le Jayenge</i> → Romantic Drama). A film built on one narrow premise keeps that leaf with Masala Film as see-also (heist, spy, superhero, sport, revenge: <i>Dhoom</i>, <i>Pathaan</i>, <i>Krrish</i>, <i>Dangal</i>). A Nigerian film made in the Nollywood mode is Nollywood Film unless a named genre cycle claims it. Films outside those modes (parallel cinema, art-house, realist thrillers) are placed by genre like any other film."),
     ("F14", "Biopics", "A film that tells a real person's life or career is Biographical Film whatever the person's field (musicians, athletes, criminals), unless it is mainly a war film, a sports contest or a named cycle; a dramatised single real event is placed by its genre (a heist → Heist Film; a battle → War Film)."),
     ("F15", "Superheroes", "A film whose protagonist has a costumed or super-powered heroic identity is Superhero Film, before Action, Science Fiction and Fantasy; a superhero parody stays there too. Japanese transforming heroes are Tokusatsu (F5)."),
     ("F16", "Spies", "Espionage as the plot's engine makes a Spy Film, before Action and Political Thriller (James Bond, <i>Tinker Tailor Soldier Spy</i>)."),
     ("F17", "Animation", "Every animated feature that is not Japanese animation is Animated Feature (A15), placed by technique, whatever its genre; animated documentaries are Documentary (key step 1). Genre is a see-also."),
     ("F18", "Children's and Christmas films", "A live-action film made first for children (not a family-friendly fantasy or adventure, which keep their genre) is Children's Film; a film built on Christmas is Christmas Film, before Comedy, Romance and Drama."),
     ("F19", "Road, sport and court", "A film whose structure is a journey is Road Movie, a film built on a sport and its competition is Sports Film, and a film built on a trial is Legal Drama, whether comic or dramatic, unless a named cycle claims it."),
-    ("F20", "Westerns", "A film set on the American frontier (or a transposition of its codes) is a Western leaf before Action, Historical Drama and Comedy; a contemporary crime film in the West is Neo-Western only when the frontier code carries it (<i>Hell or High Water</i>, <i>No Country for Old Men</i>)."),
+    ("F21", "Genre films in wartime", "A war film is about the war and the soldiers' experience of it; a horror, action or thriller film that merely uses a war as its setting goes by its own genre (<i>Sisu</i> → Action Film; <i>Overlord</i> → Science Fiction Horror)."),
+    ("F22", "Narrow before broad", "When a film's defining trait is named by a narrow leaf that the key reaches only later (Crime Comedy, Action Comedy, Parody & Spoof, Sports Film, Dance Film, Spy Film, Road Movie), that leaf wins over the broader sub-family reached first: <i>The Olsen Gang</i> → Crime Comedy, a Karl May spoof → Parody & Spoof, a fencing biopic → Sports Film."),
+    ("F23", "Subgenres are not cycles", "Subgenre leaves (vampire, zombie, slasher, haunted house, creature feature, found footage) are not named cycles for F1/D1: an attested movement member that is also a vampire film stays in the movement (<i>Nosferatu</i> → German Expressionism). Named cycles are the period- and industry-bound leaves (giallo, J-horror, poliziottesco, spaghetti western ...); a later foreign remake or homage of a cycle film goes by its own genre, with the cycle as see-also (<i>The Grudge</i> 2019)."),
+    ("F20", "Westerns", "A film set on the American frontier (or a transposition of its codes to another frontier — the Australian bushranger film, <i>Aferim!</i>) is a Western leaf before Action, Historical Drama and Comedy; a contemporary crime film in the West is Neo-Western only when the frontier code carries it (<i>Hell or High Water</i>, <i>No Country for Old Men</i>)."),
 ]
 
 MODIFIERS += [
@@ -348,7 +351,7 @@ _FAM_A["subs"] += [
 ]
 
 _FAM_B = next(f for f in FAMILIES if f["code"] == "B")
-_FAM_B["test"] = "a film under 40 minutes (the Academy's line), fiction, animation, documentary or experimental; Japanese animated shorts go to E Anime."
+_FAM_B["test"] = "a film of 40 minutes or less (the Academy's line), fiction, animation, documentary or experimental; Japanese animated shorts go to E Anime."
 _FAM_B["key"] = [
     "1. Animated? → <b>B1 Animated Short</b>, by tradition and technique.",
     "2. Non-fiction (actualities, documentary shorts)? → <b>B3 Documentary & Actuality Short</b>.",
@@ -509,6 +512,9 @@ _add("A1", [
     ("A1-33", "Slow Cinema", "medium",
      "contemplative art cinema of long takes, minimal story and observed duration — Tarr, Tsai Ming-liang, Lav Diaz, Weerasethakul, Akerman, Alonso (<i>Jeanne Dielman</i>, <i>Sátántangó</i>, <i>Uncle Boonmee Who Can Recall His Past Lives</i>).",
      "contemplative cinema; cinema of slowness", "A14-5 Character Study.", "slow cinema"),
+    ("A1-35", "Cinema Marginal", "narrow",
+     "the Brazilian underground of 1968–1973 that broke with Cinema Novo — Sganzerla, Bressane, Reichenbach (<i>The Red Light Bandit</i>, <i>Killed the Family and Went to the Movies</i>).",
+     "Cinema de Boca do Lixo; Udigrudi", "A1-13 Cinema Novo.", "Cinema Marginal"),
     ("A1-34", "Korean New Wave", "narrow",
      "the socially critical South Korean films of the 1980s–90s after the end of military censorship — Park Kwang-su, Jang Sun-woo, Lee Chang-dong's debut (<i>Chilsu and Mansu</i>, <i>A Single Spark</i>, <i>Green Fish</i>).",
      "Korean New Cinema", "", "Korean New Wave"),
@@ -527,6 +533,9 @@ _add("A2", [
     ("A2-10", "Blaxploitation", "narrow",
      "the American cycle of 1970s films with Black heroes for Black urban audiences, mostly crime and action (<i>Shaft</i>, <i>Super Fly</i>, <i>Coffy</i>, <i>Foxy Brown</i>).",
      "blaxploitation film", "A2-11 Hood Film.", "blaxploitation"),
+    ("A2-12", "Cine Quinqui", "narrow",
+     "the Spanish cycle of 1977–1985 about juvenile delinquents of the urban periphery, often played by non-actors (<i>Deprisa, deprisa</i>, <i>Navajeros</i>, <i>El Pico</i>).",
+     "cinema quinqui", "A2-11 Hood Film.", "Cine quinqui"),
     ("A2-11", "Hood Film", "narrow",
      "American films of the 1990s and after about young Black and Latino life in inner-city neighbourhoods, gangs and violence (<i>Boyz n the Hood</i>, <i>Menace II Society</i>, <i>Juice</i>).",
      "'hood film; ghetto film", "A2-10 Blaxploitation.", "hood film"),
@@ -575,11 +584,14 @@ _add("A4", [
     ("A4-16", "Comedy Horror", "medium",
      "horror played mainly for laughs, outside a named cycle (<i>The Evil Dead II</i>, <i>What We Do in the Shadows</i>, <i>Tucker & Dale vs. Evil</i>) (F12).",
      "horror comedy", "A4-6 Zombie Film.", "comedy horror"),
+    ("A4-19", "Jiangshi Film", "narrow",
+     "the Hong Kong cycle of hopping-corpse films, horror played with kung fu and comedy (<i>Mr. Vampire</i>, <i>Encounters of the Spooky Kind</i>, <i>Rigor Mortis</i>).",
+     "hopping vampire film; geungsi film", "A4-16 Comedy Horror; A8-4 Kung Fu Film.", "Jiangshi fiction|jiangshi"),
     ("A4-17", "Cannibal Film", "narrow",
      "the Italian exploitation cycle of the late 1970s–early 80s set among jungle cannibals (<i>Cannibal Holocaust</i>, <i>Cannibal Ferox</i>).",
      "cannibal boom; Italian cannibal film", "A13-8 Mondo Film.", "cannibal film"),
     ("A4-18", "Asian Horror", "narrow",
-     "the Thai, Korean, Indonesian and Hong Kong ghost-film cycles that followed J-horror (<i>Shutter</i>, <i>A Tale of Two Sisters</i>, <i>Satan's Slaves</i>, <i>The Eye</i>).",
+     "the Thai, Korean, Indonesian and Hong Kong ghost-film cycles that followed J-horror; as a named cycle it wins over the subgenre leaves (F2) (<i>Shutter</i>, <i>A Tale of Two Sisters</i>, <i>Satan's Slaves</i>, <i>The Eye</i>).",
      "Asian horror; K-horror; Thai horror", "A4-1 J-Horror.", "Asian horror"),
 ])
 
@@ -624,7 +636,7 @@ _add("A7", [
      "fiction films about the Nazi persecution and murder of the Jews (<i>Schindler's List</i>, <i>The Pianist</i>, <i>Son of Saul</i>, <i>The Zone of Interest</i>).",
      "", "A7-3 War Film; A13-1 Documentary Film.", "Holocaust film"),
     ("A7-10", "Partisan Film", "narrow",
-     "Yugoslav and Soviet-bloc films of the Second World War resistance (<i>The Battle of Neretva</i>, <i>Walter Defends Sarajevo</i>, <i>Come and See</i> excepted as war).",
+     "Yugoslav, Albanian and other Eastern-bloc films of the Second World War partisan resistance (<i>The Battle of Neretva</i>, <i>Walter Defends Sarajevo</i>, <i>Red Poppies on the Wall</i>; <i>Come and See</i> excepted as war).",
      "partizanski film", "A7-3 War Film.", "partisan film"),
 ])
 
@@ -671,6 +683,9 @@ _add("A10", [
     ("A10-11", "Mockumentary", "narrow",
      "fiction comedy in the form of a documentary (<i>This Is Spinal Tap</i>, <i>Best in Show</i>, <i>Borat</i>).",
      "mock documentary", "A10-6 Parody & Spoof.", "mockumentary"),
+    ("A10-13", "Bourekas Film", "narrow",
+     "the Israeli comedy and melodrama cycle of the 1960s–70s built on Mizrahi–Ashkenazi ethnic stereotypes (<i>Sallah Shabati</i>, <i>Snooker</i>, <i>Charlie and a Half</i>).",
+     "bourekas", "A10-1 Comedy Film.", "Bourekas film"),
     ("A10-12", "Stand-Up Comedy Film", "narrow",
      "recorded stand-up comedy performances released as films or specials (<i>Richard Pryor: Live in Concert</i>, <i>Eddie Murphy Raw</i>, <i>Nanette</i>).",
      "stand-up special; comedy special", "A13-2 Concert & Music Documentary.", "stand-up comedy"),
@@ -725,6 +740,9 @@ _add("A14", [
     ("A14-11", "Road Movie", "medium",
      "films whose structure is a journey on the road, comic or dramatic (<i>Easy Rider</i> excepted as New Hollywood; <i>Thelma & Louise</i>, <i>Paris, Texas</i>, <i>Wild Strawberries</i>, <i>Y tu mamá también</i>) (F19).",
      "road film", "A14-3 Coming-of-Age Film.", "road movie"),
+    ("A14-14", "Banlieue Film", "narrow",
+     "French films of the multi-ethnic housing estates on the cities' edge, their youth, police and violence (<i>La Haine</i>, <i>Girlhood</i>, <i>Divines</i>, <i>Les Misérables</i> 2019).",
+     "cinéma de banlieue", "A2-11 Hood Film; A14-4 Social Drama.", "Banlieue film|cinéma de banlieue"),
     ("A14-12", "Christian Film", "narrow",
      "films made by and for Christian audiences, of conversion and faith (<i>The Passion of the Christ</i> excepted as biblical epic; <i>God's Not Dead</i>, <i>Fireproof</i>).",
      "faith-based film", "A7-6 Sword-and-Sandal Film.", "Christian film"),
@@ -735,7 +753,7 @@ _add("A14", [
 
 _add("A15", [
     ("A15-1", "Hand-Drawn Animated Feature", "broad",
-     "features animated by hand on cels or paper, the Disney tradition and its rivals and the European, Soviet and Chinese studios (<i>Snow White and the Seven Dwarfs</i>, <i>The Lion King</i>, <i>The Snow Queen</i>, <i>The Triplets of Belleville</i>).",
+     "two-dimensional features animated by hand on cels or paper, or drawn digitally in 2D (Flash, Toon Boom, digital cut-out silhouettes), the Disney tradition and its rivals and the European, Soviet and Chinese studios (<i>Snow White and the Seven Dwarfs</i>, <i>The Lion King</i>, <i>The Snow Queen</i>, <i>The Triplets of Belleville</i>).",
      "traditional animation; cel animation", "A15-2 Computer-Animated Feature.", "traditional animation"),
     ("A15-2", "Computer-Animated Feature", "broad",
      "features made with 3D computer animation, from <i>Toy Story</i> (1995) on: Pixar, DreamWorks, Disney and their peers (<i>Shrek</i>, <i>Spider-Man: Into the Spider-Verse</i>, <i>Ne Zha</i>).",
@@ -771,7 +789,7 @@ _add("A17", [
 
 _add("A18", [
     ("A18-1", "Masala Film", "medium",
-     "Indian popular cinema that mixes action, romance, comedy, melodrama and song-and-dance in one star vehicle — Hindi, Telugu, Tamil and other industries (<i>Sholay</i>, <i>Amar Akbar Anthony</i>, <i>Baahubali</i>, <i>RRR</i>, <i>Pushpa</i>) (F13).",
+     "South Asian popular cinema that mixes action, romance, comedy, melodrama and song-and-dance in one star vehicle — the Hindi, Telugu, Tamil and other Indian industries, and the same mode in Bangladesh (Dhallywood) and Pakistan (Lollywood) (<i>Sholay</i>, <i>Amar Akbar Anthony</i>, <i>Baahubali</i>, <i>RRR</i>, <i>Pushpa</i>) (F13).",
      "masala movie; Bollywood masala; mass film", "A1-17 Parallel Cinema; A11-1 Musical & Music Film.", "masala film"),
     ("A18-2", "Nollywood Film", "narrow",
      "Nigerian popular film made in the Nollywood mode: the home-video melodramas of family, wealth, the occult and the city from <i>Living in Bondage</i> (1992), and the 'New Nollywood' cinema releases that grew from them (<i>The Wedding Party</i>, <i>King of Boys</i>) (F13).",
@@ -842,7 +860,7 @@ ATTEST_WIKI = {
 "A1-22":"Sixth Generation (Chinese cinema)|Sixth generation of Chinese filmmakers","A1-23":"Dogme 95","A1-24":"Romanian New Wave",
 "A1-25":"Berlin School (filmmaking)|Berlin School (film)","A1-26":"New Queer Cinema","A1-27":"Mumblecore","A1-28":"L.A. Rebellion",
 "A1-29":"Australian New Wave","A1-30":"Greek Weird Wave","A1-31":"New Argentine Cinema|Nuevo cine argentino","A1-32":"Cinéma du look",
-"A1-33":"Slow cinema","A1-34":"Korean New Wave",
+"A1-33":"Slow cinema","A1-34":"Korean New Wave","A1-35":"Cinema Marginal|Brazilian marginal cinema","A2-12":"Cine quinqui",
 "A2-1":"Yakuza film","A2-2":"Gangster film","A2-3":"Police procedural","A2-4":"Crime film","A2-5":"Film noir","A2-6":"Pinky violence",
 "A2-7":"Heist film","A2-8":"Prison film","A2-9":"Poliziotteschi","A2-10":"Blaxploitation","A2-11":"Hood film",
 "A3-1":"Psychological thriller","A3-2":"Mystery film","A3-3":"Survival film","A3-4":"Erotic thriller","A3-5":"Revenge film|Rape and revenge film",
@@ -850,7 +868,7 @@ ATTEST_WIKI = {
 "A4-1":"Japanese horror","A4-2":"Kaidan","A4-3":"Supernatural horror film","A4-4":"Body horror","A4-5":"Splatter film","A4-6":"Zombie film",
 "A4-7":"Found footage (film technique)|Found footage film","A4-8":"Slasher film","A4-9":"Psychological horror","A4-10":"Folk horror",
 "A4-11":"Vampire film","A4-12":"Haunted house film|Haunted house","A4-13":"Gothic film|Gothic horror","A4-14":"Monster movie|Natural horror film|Creature feature",
-"A4-15":"Science fiction horror film|Science fiction horror","A4-16":"Comedy horror","A4-17":"Cannibal film","A4-18":"Asian horror|Korean horror|Thai horror",
+"A4-15":"Science fiction horror film|Science fiction horror","A4-16":"Comedy horror","A4-17":"Cannibal film","A4-19":"Jiangshi fiction|Jiangshi","A4-18":"Asian horror|Korean horror|Thai horror",
 "A5-1":"Kaiju","A5-2":"Tokusatsu","A5-3":"Science fiction film","A5-4":"Cyberpunk","A5-5":"Disaster film","A5-6":"Space opera",
 "A5-7":"Dystopian film|Utopian and dystopian fiction","A5-8":"Alien invasion","A5-9":"Time travel in fiction",
 "A6-1":"Fantasy film","A6-2":"Adventure film","A6-3":"Superhero film","A6-4":"High fantasy","A6-5":"Fairy tale film|Fairy-tale fantasy","A6-6":"Swashbuckler film",
@@ -866,7 +884,7 @@ ATTEST_WIKI = {
 "A13-7":"City symphony","A13-8":"Mondo film","A13-9":"Ethnographic film",
 "A14-1":"Shomin-geki|Shoshimin-eiga","A14-2":"Family film|Domestic drama","A14-3":"Coming-of-age story|Coming-of-age film","A14-4":"Social problem film",
 "A14-5":"Character study|Psychological drama","A14-6":"Melodrama","A14-7":"Sports film","A14-8":"Animal film|List of films about animals",
-"A14-9":"Taiyozoku|Taiyōzoku","A14-10":"Legal drama","A14-11":"Road movie","A14-12":"Christian film","A14-13":"Political drama|Political film",
+"A14-9":"Taiyozoku|Taiyōzoku","A14-10":"Legal drama","A14-11":"Road movie","A14-12":"Christian film","A14-14":"Banlieue film|Cinéma de banlieue","A10-13":"Bourekas film","A14-13":"Political drama|Political film",
 "A15-1":"Traditional animation","A15-2":"Computer animation","A15-3":"Stop motion","A15-4":"Adult animation",
 "A16-1":"Experimental film","A16-2":"Surrealist cinema",
 "A17-1":"Western film","A17-2":"Spaghetti Western","A17-3":"Revisionist Western","A17-4":"Contemporary Western|Neo-Western","A17-5":"Ostern",
@@ -902,7 +920,7 @@ _FAM_E["key"] = [
     "1. Explicit sexual content made for the adult market (hentai)? → <b>E12 Adult Anime</b>.",
     "2. Made first for young children (kodomo-muke), or a family literary adaptation? → <b>E11 Children's & Family</b>.",
     "3. A magical girl who transforms to fight or to help? → <b>E4 Magical Girl</b>.",
-    "4. Giant robots, or a premise of speculative science (space, cyborgs, the future)? → <b>E2 Mecha & Science Fiction</b>.",
+    "4. Giant robots, or speculative science (space, cyborgs, the future) that carries the story — not a device that only frames a school comedy, romance or idol show? → <b>E2 Mecha & Science Fiction</b>.",
     "5. A sport or a competitive game carries it? → <b>E7 Sports</b>.",
     "6. Aims first to frighten? → <b>E9 Horror</b>.",
     "7. Transported or reborn into another world, or an invented fantasy world or yōkai spirit world at its centre? → <b>E3 Fantasy & Isekai</b> (a battle series in a fantasy world with a shōnen battle structure is E1, AN1).",
@@ -916,6 +934,10 @@ PRECEDENCE += [
     ("AN1", "Battle before world", "A series whose episodes are built on escalating fights, rivals and power systems (shōnen battle) is E1 even when set in a fantasy world (<i>Fullmetal Alchemist</i>, <i>Demon Slayer</i>, <i>Jujutsu Kaisen</i>); an isekai or a fantasy whose world and journey carry it stays E3 (<i>Re:Zero</i>, <i>Frieren</i>)."),
     ("AN2", "Franchise unity", "All seasons, films, OVAs and specials of one franchise share the leaf of its main series, unless a spin-off belongs to another genre outright (a gag spin-off → E10)."),
     ("AN3", "Demographic", "Shōnen, seinen, shōjo and josei are tags on every title (MAL/AniList demographic); they divide leaves only where the field names a demographic genre (shōjo romance, josei)."),
+    ("AN5", "Comedy first", "A series whose premise is a pretext for gags or parody (gag manga, a genre parody) is E10 whatever its setting or club (<i>Detroit Metal City</i>, <i>Dragon Half</i>, <i>KonoSuba</i> excepted as isekai, since its world carries the story)."),
+    ("AN6", "Children's franchises", "A children's franchise (Pokémon, Digimon, Doraemon) stays in E11 across its entries (AN2), including films made for its grown-up fans."),
+    ("AN7", "What carries the story", "A setting, sport, band or speculative frame that is only a backdrop does not decide the leaf: the sport must drive the plot for E7 (<i>Blue Box</i> → romance), a fantasy world must carry the story for E3 (a villainess romance in a fantasy court → romance). Toy-line battle shows for children (<i>Beyblade</i>, <i>Bakugan</i>) are E11; one-off comedy specials and chibi extras of a franchise are E10."),
+    ("AN8", "Adult flag", "E12 holds explicit hentai only; an adult-flagged art film or erotic drama (<i>Cleopatra</i> 1970, <i>Shoujo Tsubaki</i>) is placed by its genre with E12-1 as see-also. A gag series about everyday life is E10 (comedy first, AN5); a gentle everyday series without gag structure is E6."),
     ("AN4", "Non-Japanese animation in the anime database", "Donghua and Korean animation selected through the anime database are placed by the same key, with country as a filter; animation from elsewhere selected as film is A15."),
 ]
 
@@ -924,7 +946,7 @@ _add("E1", [
      "long-running action series of escalating fights, rivals, training arcs and power systems, the core of Weekly Shōnen Jump adaptations (<i>Dragon Ball Z</i>, <i>Naruto</i>, <i>One Piece</i>, <i>Bleach</i>, <i>Jujutsu Kaisen</i>, <i>Demon Slayer</i>).",
      "battle shōnen; nekketsu", "E3-2 Fantasy Adventure.", "Shōnen manga|battle shōnen"),
     ("E1-2", "Seinen Action", "medium",
-     "violent action for adult audiences — mercenaries, hunters, gunfights, dark warriors (<i>Berserk</i>, <i>Hellsing</i>, <i>Black Lagoon</i>, <i>Chainsaw Man</i> excepted as shōnen battle).",
+     "violent action for adult audiences — mercenaries, hunters, gunfights, dark warriors (<i>Hellsing</i>, <i>Black Lagoon</i>, <i>Gantz</i>, <i>Golgo 13</i>; <i>Berserk</i> excepted as dark fantasy).",
      "seinen action", "E8-5 Crime & Gangster Anime.", "seinen"),
     ("E1-3", "Samurai & Ninja Anime", "medium",
      "action in Japan's samurai and ninja past, including chanbara anime (<i>Rurouni Kenshin</i>, <i>Samurai Champloo</i>, <i>Ninja Scroll</i>, <i>Sword of the Stranger</i>).",
@@ -932,6 +954,12 @@ _add("E1", [
     ("E1-4", "Superhero Anime", "medium",
      "anime of costumed heroes and hero societies (<i>My Hero Academia</i>, <i>One-Punch Man</i>, <i>Tiger & Bunny</i>).",
      "hero anime", "A6-3 Superhero Film.", "superhero fiction"),
+    ("E1-6", "Action Anime", "broad",
+     "action series and films outside shōnen battle, seinen action and the narrower leaves — light-novel and game-based action, school battle series (<i>Absolute Duo</i>, <i>Akame ga Kill!</i> excepted as dark fantasy).",
+     "", "E1-1 Shōnen Battle.", "action anime"),
+    ("E1-7", "Wuxia & Xianxia Animation", "narrow",
+     "Chinese animation (donghua) of martial heroes and of immortal cultivation (<i>Soul Land</i>, <i>Battle Through the Heavens</i>, <i>Link Click</i> excepted as drama).",
+     "cultivation donghua; xianxia animation", "C2-5 Wuxia & Xianxia Drama.", "Xianxia"),
     ("E1-5", "Martial Arts Anime", "narrow",
      "anime built on hand-to-hand fighting and tournaments outside shōnen battle power systems (<i>Baki</i>, <i>Kengan Ashura</i>, <i>Fist of the North Star</i>).",
      "", "E7-1 Sports Anime.", "martial arts film"),
@@ -1036,6 +1064,9 @@ _add("E8", [
     ("E8-4", "Historical & War Anime", "medium",
      "anime in which a historical era or a war is the subject (<i>Grave of the Fireflies</i>, <i>In This Corner of the World</i>, <i>The Rose of Versailles</i>, <i>Vinland Saga</i>).",
      "historical anime; war anime", "E1-3 Samurai & Ninja Anime.", "Historical fiction"),
+    ("E8-6", "Death Game & Survival Anime", "medium",
+     "anime of lethal games and forced survival contests (<i>Danganronpa</i>, <i>Darwin's Game</i>, <i>Kaiji</i>, <i>Btooom!</i>, <i>Future Diary</i>).",
+     "death game anime; desu gēmu", "A3-3 Survival & Death-Game Thriller.", "death game"),
     ("E8-5", "Crime & Gangster Anime", "medium",
      "anime of thieves, gangsters and the underworld (<i>Lupin III</i>, <i>Baccano!</i>, <i>91 Days</i>, <i>Great Pretender</i>).",
      "crime anime", "E1-2 Seinen Action.", "crime fiction"),
@@ -1070,13 +1101,13 @@ _add("E12", [
      "adult anime", "E10-2 Ecchi.", "Hentai"),
 ])
 ATTEST_WIKI.update({
-    "E1-1": "Shōnen manga", "E1-2": "Seinen manga", "E1-3": "Samurai cinema", "E1-4": "Superhero fiction", "E1-5": "Martial arts film",
+    "E1-1": "Shōnen manga", "E1-2": "Seinen manga", "E1-3": "Samurai cinema", "E1-4": "Superhero fiction", "E1-5": "Martial arts film", "E1-6": "Action fiction", "E1-7": "Xianxia",
     "E2-1": "Super robot", "E2-2": "Real robot", "E2-3": "Cyberpunk", "E2-4": "Space opera", "E2-5": "Science fiction",
     "E3-1": "Isekai", "E3-2": "Fantasy", "E3-3": "Dark fantasy", "E3-4": "Yōkai", "E4-1": "Magical girl", "E4-2": "Magical girl",
     "E5-1": "Shōjo manga", "E5-2": "Romantic comedy", "E5-3": "Harem (genre)", "E5-4": "Yaoi", "E5-5": "Yuri (genre)", "E5-6": "Josei manga",
     "E6-1": "Iyashikei", "E6-2": "Cute girls doing cute things", "E6-3": "Slice of life", "E6-4": "Japanese idol", "E6-5": "Music anime|Music in anime",
     "E6-6": "Cooking manga|Gourmet manga", "E7-1": "Sports anime and manga|Spokon", "E7-2": "Hikaru no Go",
-    "E8-1": "Psychological thriller", "E8-2": "Detective fiction", "E8-3": "Drama", "E8-4": "Historical fiction", "E8-5": "Crime fiction",
+    "E8-1": "Psychological thriller", "E8-2": "Detective fiction", "E8-3": "Drama", "E8-4": "Historical fiction", "E8-5": "Crime fiction", "E8-6": "Death game|Battle royale (genre)",
     "E9-1": "Horror fiction", "E10-1": "Gag manga", "E10-2": "Ecchi", "E10-3": "Comedy", "E11-1": "Kodomo manga",
     "E11-2": "World Masterpiece Theater", "E12-1": "Hentai",
 })
