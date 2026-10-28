@@ -71,8 +71,10 @@ MEDIA["vase painting"] = [
     "Q15301511", "Q59938940", "Q56312678", "Q21282419", "Q15303045", "Q15303031", "Q41000669",
     "Q21505859", "Q31092701",
 ]
-# Pre-1400 media: vase painting first, so a painter-potter like Exekias is a vase painter.
-PRE1400_MEDIA = ["vase painting"] + ALL_MEDIA
+# Pre-1400 media, in primary-medium order: vase painting first (a painter-potter like
+# Exekias is a vase painter), then sculpture before painting, so sculptors who also
+# carry "painter" (Phidias, Giovanni Pisano, Kaikei) are ranked in sculpture cells.
+PRE1400_MEDIA = ["vase painting", "sculpture", "painting"] + [m for m in ALL_MEDIA if m not in ("painting", "sculpture")]
 # Occupations that only matter before 1400, added to a medium for the pre-1400 passes
 # (regions' "extra_occupations"; existing MEDIA groups and their caches stay as they are).
 PRE1400_EXTRA_OCCUPATIONS = {
