@@ -230,7 +230,7 @@ N(A, "col_nspain_sculpt", "New Spain polychrome sculpture (estofado)", R, "sculp
   neg=r"new mexico", fallback=True, family="col_mex", kn=r"estofad|novohispan sculpt",
   wd=["Estofado"], api=["estofado"])
 N(A, "col_casta", "Casta painting (pintura de castas)", R, "painting", (1700, 1810),
-  pat=r"pintura de castas|casta painting|casta series|cuadros? de castas|\bcastas\b|"
+  pat=r"pintura de castas|casta painting|casta series|cuadro de castas|cuadros de castas|\bcastas\b|"
       r"\bde espanol y (de )?(india|negra|mestiza|mulata|morisca|castiza|albina)|\bde (mestizo|castizo|mulato|morisco|lobo|"
       r"chino|indio) y (de )?(espanola|india|mestiza|negra|mulata|loba)",
   kn=r"casta painting|pintura de castas", wd=["casta painting", "Pintura de castas@es"], api=["casta painting", "castas"])
@@ -248,7 +248,7 @@ N(A, "col_retablo", "Retablo devotional painting (Mexico and Andes)", R, "painti
   neg=r"new mexico|nuevo mexico|ayacucho|huamanga|san marcos|cajon|spain|spanish(?!.colonial)",
   kn=r"retablo", wd=["Retablo (Latin American folk art)", "Retablo"], api=["retablo"])
 N(A, "col_exvoto", "Ex-voto painting (Latin America)", R, "painting (tin)", (1700, 1950),
-  pat=r"ex[- ]?votos?|exvoto|milagro painting|votive painting", ctx=LATAM, kn=r"ex-?voto",
+  pat=r"ex-votos?|ex votos?|exvotos?|milagro painting|votive painting", ctx=LATAM, kn=r"ex-?voto",
   wd=["Ex-voto", "exvoto@es"], api=["ex-voto"])
 N(A, "col_santero", "New Mexican santero tradition (retablos and bultos)", R, "painting; sculpture", (1750, 1950),
   pat=r"santero|\bbultos?\b|retablos?|\bsantos?\b|reredos", ctx=r"new mexico|nuevo mexico|santa fe|taos|rio grande|truchas|cordova",
@@ -302,7 +302,7 @@ N(A, "sea_thai_lacquer", "Thai gold-and-black lacquer (lai rot nam)", R, "lacque
   pat=r"lai ?rot ?nam|lai ?rod ?nam|lacquer", ctx=THAI, kn=r"lai rot nam|thai lacquer",
   wd=["Lai rot nam", "Thai lacquerware"], api=["lai rot nam", "Thai lacquer"])
 N(A, "sea_bencharong", "Bencharong porcelain", R, "ceramics", (1700, 1900),
-  pat=r"bencharong|benjarong|lai nam thong|ben?charong", kn=r"bencharong|benjarong", wd=["Bencharong", "Benjarong"],
+  pat=r"bencharong|benjarong|lai nam thong|becharong", kn=r"bencharong|benjarong", wd=["Bencharong", "Benjarong"],
   api=["Bencharong"])
 N(A, "sea_kamasan", "Balinese Kamasan (wayang-style) painting", R, "painting", (1600, 1960),
   pat=r"kamasan|klungkung (painting|style)|langse|ider-?ider|wayang[- ]style|parba|palelintangan|calendar painting",
@@ -390,7 +390,7 @@ N(A, "sea_ph_bulul", "Ifugao bulul (granary figures)", R, "sculpture", (1500, 20
 N(A, "sea_ph_okir", "Maranao okir and sarimanok", R, "woodcarving; metalwork", (1700, 2000),
   pat=r"\bokir|okkil|sarimanok|maranao|torogan|lanao", kn=r"okir|sarimanok|maranao", wd=["Okir", "Sarimanok"],
   api=["Maranao", "sarimanok"])
-N(A, "sea_ph_tnalak", "T'boli t'nalak (abaca ikat)", R, "textiles", (1800, 2000), pat=r"t'?nalak|tinalak|t'?boli|tboli",
+N(A, "sea_ph_tnalak", "T'boli t'nalak (abaca ikat)", R, "textiles", (1800, 2000), pat=r"tnalak|t'nalak|tinalak|t'boli|tboli",
   kn=r"t'?nalak|t'?boli", wd=["T'nalak", "Tʼnalak"], api=["T'boli", "tnalak"])
 N(A, "sea_ph_tipos", "Tipos del Pais and Letras y figuras (Philippine colonial painting)", R, "painting", (1820, 1900),
   pat=r"tipos del pais|letras y figuras|damian domingo|justiniano asuncion|jose honorato lozano|lozano album",
@@ -429,7 +429,7 @@ N(A, "ea_papercut", "Chinese paper-cutting (jianzhi)", R, "paper-cut", (1700, 20
   ctx=CHINA + r"|剪纸|剪紙|窗花", neg=r"silhouette|scherenschnitt|polish|wycinanki|japan|mexic|papel picado",
   kn=r"paper-?cut|jianzhi|剪纸|剪紙", wd=["Chinese paper cutting", "Paper cutting", "剪纸@zh"], api=["Chinese paper cut", "papercut China"])
 N(A, "ea_suxiu", "Suzhou embroidery (Su xiu)", R, "embroidery", (1600, 2000),
-  pat=r"su ?xiu|蘇繡|苏绣|suzhou embroider|gu embroider|顧繡|顾绣|gu family embroider", kn=r"su ?xiu|蘇繡|苏绣|suzhou embroider",
+  pat=r"su xiu|suxiu|蘇繡|苏绣|suzhou embroider|gu embroider|顧繡|顾绣|gu family embroider", kn=r"su ?xiu|蘇繡|苏绣|suzhou embroider",
   wd=["Suzhou embroidery", "苏绣@zh"], api=["Suzhou embroidery"])
 N(A, "ea_xiangxiu", "Hunan embroidery (Xiang xiu)", R, "embroidery", (1800, 2000),
   pat=r"xiang ?xiu|湘繡|湘绣|hunan embroider|changsha embroider", kn=r"xiang ?xiu|湘繡|湘绣|hunan embroider",
@@ -464,7 +464,7 @@ N(A, "ea_li", "Li textiles (Hainan)", R, "textiles", (1800, 2000),
   pat=r"\bli (people|minority|textile|ethnic|tribe|weav)|hainan (textile|weav|li\b)|黎锦|黎錦|黎族", kn=r"\bli people|黎锦|黎族|hainan",
   wd=["Li brocade", "Li textile techniques", "黎锦@zh"], api=["Hainan Li textile"])
 N(A, "ea_yao", "Yao (Mien) embroidery and ritual paintings", R, "textiles; painting", (1800, 2000),
-  pat=r"\byao (people|mien|ritual|embroider|minority|tribe|taoist|textile|costume)|\bmien\b|iu ?mien|瑶族|瑤族",
+  pat=r"\byao (people|mien|ritual|embroider|minority|tribe|taoist|textile|costume)|\bmien\b|iu mien|iumien|瑶族|瑤族",
   kn=r"\byao (people|mien)|\bmien\b|瑶族|瑤族", wd=["Yao people", "Mien people", "Yao ritual painting"], api=["Yao Mien"])
 N(A, "ea_naxi", "Naxi Dongba manuscripts and painting", R, "manuscripts; painting", (1600, 2000),
   pat=r"\bnaxi\b|\bnakhi\b|dongba|tomba|東巴|东巴|纳西|納西", kn=r"naxi|nakhi|dongba", wd=["Dongba", "Naxi script", "Dongba manuscript"],
@@ -473,16 +473,16 @@ N(A, "ea_regong", "Regong (Rebkong) art", R, "painting (thangka); sculpture", (1
   pat=r"regong|rebkong|repkong|rebgong|热贡|熱貢|tongren (county|thangka)", kn=r"regong|rebkong|热贡|熱貢",
   wd=["Regong arts", "Regong art", "热贡艺术@zh"], api=["Regong", "Rebkong"])
 N(A, "ea_minhwa", "Korean minhwa folk painting", R, "painting", (1700, 1950),
-  pat=r"minhwa|min-hwa|민화|民畫|民画|chaek ?geori|ch'?aekk?ori|chaekgado|책거리|책가도|munja-?do|문자도|文字圖|"
+  pat=r"minhwa|min-hwa|민화|民畫|民画|chaekgeori|chaek geori|chaekkori|ch'aekkori|chaekori|ch'aekori|chaekgado|ch'aekkado|chaekkado|책거리|책가도|munja-?do|문자도|文字圖|"
       r"character (painting|ideograph)|hojak|호작도|까치호랑이|magpie and tiger|tiger and magpie|sipjangsaeng|십장생|"
       r"ten symbols of longevity|bookshelf|scholar'?s (accoutrements|objects) (screen|painting)|ch'?aekkado",
   ctx=KOREA + r"|민화|책거리|문자도|minhwa", kn=r"minhwa|민화|chaekgeori|munjado|책거리|문자도",
   wd=["Minhwa", "Chaekgeori", "Munjado", "민화@ko"], api=["minhwa", "Korean folk painting", "chaekgeori"])
 N(A, "ea_bojagi", "Korean bojagi (wrapping cloths)", R, "textiles", (1700, 2000),
-  pat=r"bojagi|pojagi|po-?jagi|보자기|褓|jogakbo|조각보|wrapping cloth", ctx=KOREA + r"|보자기|bojagi|pojagi|조각보",
+  pat=r"bojagi|pojagi|po-jagi|보자기|褓|jogakbo|조각보|wrapping cloth", ctx=KOREA + r"|보자기|bojagi|pojagi|조각보",
   kn=r"bojagi|pojagi|보자기|조각보", wd=["Bojagi", "보자기@ko"], api=["bojagi", "pojagi", "Korean wrapping cloth"])
 N(A, "ea_hwagak", "Korean hwagak (painted ox-horn)", R, "decorative arts (ox horn)", (1700, 1950),
-  pat=r"hwagak|hwagag|hwa-?gak|화각|華角|ox[- ]?horn", ctx=KOREA + r"|화각|hwagak", kn=r"hwagak|화각|華角",
+  pat=r"hwagak|hwagag|hwa-gak|화각|華角|ox-horn|ox horn|oxhorn", ctx=KOREA + r"|화각|hwagak", kn=r"hwagak|화각|華角",
   wd=["Hwagak", "화각공예@ko"], api=["hwagak", "Korean ox horn"])
 N(A, "ea_hahoe", "Korean folk masks (Hahoe tal)", R, "masks", (1100, 2000),
   pat=r"hahoe|하회|\btal\b|mask|탈", ctx=KOREA + r"|하회|hahoe", groups=("mask", "sculpture", "other"),
@@ -525,7 +525,7 @@ A = "aboriginal_aus"
 R = "Australia (Aboriginal and Torres Strait Islander)"
 N(A, "au_bark_west", "Western Arnhem Land bark painting (Kunwinjku, Oenpelli)", R, "bark painting", (1880, 2020),
   pat=r"kunwinjku|gunwinggu|gunwinjgu|gunwinjku|oenpelli|gunbalanya|kunbarlang|croker island|goulburn island|minjilang|"
-      r"x-?ray (style|painting)|mimih?\b|western arnhem", ctx=AU + r"|oenpelli|kunwinjku|gunwinggu", family="au_bark",
+      r"x-ray (style|painting)|xray|mimih?\b|western arnhem", ctx=AU + r"|oenpelli|kunwinjku|gunwinggu", family="au_bark",
   kn=r"western arnhem|kunwinjku|gunwinggu|oenpelli", wd=["Kunwinjku art", "X-ray art", "Mimi spirits"], api=["Oenpelli", "Kunwinjku"])
 N(A, "au_bark_central", "Central Arnhem Land bark painting (Maningrida, Ramingining, Milingimbi)", R, "bark painting",
   (1920, 2020), pat=r"maningrida|ramingining|milingimbi|burarra|rembarrnga|kuninjku|kune\b|djinang|ganalbingu|yan-?nhangu|"
@@ -541,7 +541,7 @@ N(A, "au_groote", "Groote Eylandt bark painting (Anindilyakwa)", R, "bark painti
   pat=r"groote|anindilyakwa|angurugu|umbakumba|bickerton island", family="au_bark", kn=r"groote|anindilyakwa",
   wd=["Anindilyakwa Arts"], api=["Groote Eylandt"])
 N(A, "au_bark_other", "Arnhem Land bark painting (region unrecorded)", R, "bark painting", (1880, 2020),
-  pat=r"bark painting|painting on bark|on (eucalyptus |stringybark )?bark|stringybark|bark-paintings", ctx=AU,
+  pat=r"bark painting|painting on bark|on bark|on eucalyptus bark|stringybark|bark-paintings", ctx=AU,
   neg=r"kwoma|sepik|papua|new guinea|maprik|abelam|yinibu|amazon|tapa|mexic|amate", fallback=True, family="au_bark",
   kn=r"bark painting|arnhem land", wd=["Bark painting", "Australian Aboriginal bark painting"], api=["bark painting"])
 N(A, "au_tiwi", "Tiwi art (pukumani poles, ochre painting)", R, "sculpture; painting", (1900, 2020),
@@ -613,7 +613,7 @@ N(A, "au_mornington", "Mornington Island (Lardil, Kaiadilt) art", R, "painting; 
 N(A, "au_ngukurr", "Ngukurr (Roper River) painting", R, "painting (acrylic)", (1987, 2020), pat=r"ngukurr|roper river",
   kn=r"ngukurr", wd=["Ngukurr Arts Centre"], api=["Ngukurr"])
 N(A, "au_ts_mask", "Torres Strait turtle-shell masks (krar, le-op)", R, "masks (turtle shell)", (1700, 1920),
-  pat=r"\bkrar\b|le-?op|turtle[- ]?shell|tortoise[- ]?shell|\bmask", ctx=r"torres strait|mabuiag|mabuyag|saibai|badu|\bmoa\b|erub|"
+  pat=r"\bkrar\b|le-op|\bleop\b|turtle[- ]?shell|tortoise[- ]?shell|\bmask", ctx=r"torres strait|mabuiag|mabuyag|saibai|badu|\bmoa\b|erub|"
       r"darnley|murray island|\bmer\b|nagir|yam island|tudu|dauan|boigu",
   groups=("mask", "sculpture", "other", "ritual object"), family="au_ts", kn=r"torres strait (mask|turtle)|krar|le-?op",
   wd=["Torres Strait Islander mask", "Krar (mask)", "Mawa mask"], api=["Torres Strait mask"])
@@ -671,19 +671,19 @@ N(A, "af_sapi", "Sapi stone figures (nomoli, pomdo) and Sapi-Portuguese ivories"
   pat=r"\bsapi\b|nomoli|pomdo|afro-?portuguese|sapi-?portuguese|bullom|luso-?african", kn=r"sapi|nomoli|afro-?portuguese",
   wd=["Sapi", "Nomoli", "Afro-Portuguese ivories"], api=["nomoli", "Afro-Portuguese ivory"])
 N(A, "af_aksum", "Aksumite art", R, "sculpture; coins; architecture", (-100, 960),
-  pat=r"aksum|axum|aksumite|axumite|pre-?aksumite|d'?mt\b|yeha|matara|adulis", kn=r"aksum|axum",
+  pat=r"aksum|axum|aksumite|axumite|pre-?aksumite|d'mt\b|\bdmt\b|yeha|matara|adulis", kn=r"aksum|axum",
   wd=["Kingdom of Aksum", "Aksumite art", "Aksumite architecture"], api=["Aksum", "Axum"])
 N(A, "af_kerma", "Kerma culture (Nubia)", R, "ceramics; jewellery", (-2500, -1500), pat=r"\bkerma\b", kn=r"\bkerma\b",
   wd=["Kerma culture", "Kingdom of Kerma"], api=["Kerma"])
 N(A, "af_kush", "Napatan and Meroitic Kush", R, "sculpture; ceramics; jewellery", (-800, 350),
   pat=r"napata|napatan|meroe|meroitic|kushite|\bkush\b|nubian.{0,20}(25th|twenty-fifth) dynasty|(25th|twenty-fifth) dynasty|"
-      r"karanog|el-?kurru|nuri\b|jebel barkal|gebel barkal|faras.{0,20}meroitic", kn=r"napata|meroe|meroitic|kushite|\bkush\b",
+      r"karanog|el-kurru|el kurru|elkurru|nuri\b|jebel barkal|gebel barkal|faras.{0,20}meroitic", kn=r"napata|meroe|meroitic|kushite|\bkush\b",
   wd=["Kingdom of Kush", "Meroitic art", "Meroë", "Napata"], api=["Meroe", "Meroitic", "Kushite"])
 N(A, "af_nubia_ac", "Nubian A-Group, C-Group and Pan-Grave cultures", R, "ceramics; figurines", (-3800, -1500),
-  pat=r"\ba-?group\b|\bc-?group\b|pan-?grave", ctx=r"nubia|egypt|sudan|group|grave", kn=r"a-group|c-group|pan-grave",
+  pat=r"a-group|a group culture|c-group|c group culture|pan-?grave", ctx=r"nubia|egypt|sudan|group|grave", kn=r"a-group|c-group|pan-grave",
   wd=["A-Group culture", "C-Group culture", "Pan-Grave culture"], api=["C-Group Nubia"])
 N(A, "af_ballana", "Post-Meroitic Nubia (X-Group / Ballana)", R, "metalwork; ceramics", (350, 600),
-  pat=r"ballana|qustul|x-?group|post-?meroitic|noba(dia)?\b", kn=r"ballana|x-group|post-meroitic",
+  pat=r"ballana|qustul|x-group|x group|post-?meroitic|noba(dia)?\b", kn=r"ballana|x-group|post-meroitic",
   wd=["Ballana culture", "X-Group culture", "Noubadia"], api=["Ballana"])
 N(A, "af_christian_nubia", "Christian Nubia (Faras wall painting, Makuria)", R, "wall painting; ceramics", (550, 1500),
   pat=r"faras|makuria|nobadia|alodia|christian nubia|old nubian|dongola|qasr ibrim", kn=r"faras|makuria|christian nubia",
@@ -706,7 +706,7 @@ N(A, "af_eth_icon", "Ethiopian icon and panel painting (Gondarine)", R, "paintin
   family="af_eth", kn=r"ethiopian (icon|painting)|gondarine", wd=["Ethiopian art", "Gondarine art", "Ethiopian icon"],
   api=["Ethiopian icon"])
 N(A, "af_eth_ms", "Ethiopian illuminated manuscripts", R, "manuscript painting", (1300, 1900),
-  pat=r"manuscript|gospel|psalter|miracles of mary|ta'?amra maryam|homiliary|leaf from|folio|codex|book of", ctx=ETH,
+  pat=r"manuscript|gospel|psalter|miracles of mary|ta'amra maryam|taamra maryam|homiliary|leaf from|folio|codex|book of", ctx=ETH,
   neg=r"scroll", family="af_eth", kn=r"ethiopian manuscript|ethiopian illuminated",
   wd=["Ethiopian manuscripts", "Ethiopian illuminated manuscript", "Garima Gospels"], api=["Ethiopian manuscript"])
 N(A, "af_eth_scroll", "Ethiopian healing (protective) scrolls", R, "painting on parchment", (1700, 1950),
@@ -727,14 +727,70 @@ for _fam, _keys in {"col_mex": ["col_casta", "col_enconchado", "col_biombo", "co
         NODE[_k]["family"] = _fam
 AREAS = ["colonial_latam", "southeast_asia", "east_asia_folk", "aboriginal_aus", "ancient_africa"]
 
-# a fast pre-filter: any node's pattern, inference place or context
-_parts = []
+# Fast pre-filter. A union regex of ~150 patterns costs ~0.75 ms per record in
+# Python's engine, so each pattern is reduced to the literal prefixes its
+# alternatives must start with (via the regex parser): long word-like prefixes
+# are checked as token prefixes (set lookups), short or punctuated ones and CJK
+# as substrings. Only records that pass run the node regexes.
+import re._parser as _P  # noqa: E402
+import re._constants as _C  # noqa: E402
+
+
+def _prefixes(items):
+    cur = {""}
+    for op, av in items:
+        if op is _C.AT:
+            continue
+        if op is _C.LITERAL:
+            cur = {c + chr(av) for c in cur}
+            continue
+        if op is _C.IN and all(o is _C.LITERAL for o, _ in av) and len(av) <= 4:
+            cur = {c + chr(x) for c in cur for _, x in av}
+            continue
+        if op is _C.BRANCH or op is _C.SUBPATTERN:
+            alts = av[1] if op is _C.BRANCH else [av[-1]]
+            out = set()
+            for alt in alts:
+                p = _prefixes(list(alt))
+                if not p or "" in p:
+                    return cur if "" not in cur else None
+                out |= p
+            return {c + x for c in cur for x in out}
+        if op in (_C.MAX_REPEAT, _C.MIN_REPEAT) and av[0] >= 1:
+            p = _prefixes(list(av[2]))
+            return {c + x for c in cur for x in p} if p else (cur if "" not in cur else None)
+        break
+    return cur if "" not in cur else None
+
+
+TOKPRE = collections.defaultdict(set)   # length -> token prefixes
+SUBSTR = set()
 for _n in NODES:
-    if _n["pat"]:
-        _parts.append(_n["pat"].pattern)
-    if _n["inf"]:
-        _parts.append(_n["inf"][0].pattern)
-PREFILTER = re.compile("|".join(f"(?:{p})" for p in _parts))
+    for _p in ([_n["pat"]] if _n["pat"] else []) + ([_n["inf"][0]] if _n["inf"] else []):
+        _pre = _prefixes(list(_P.parse(_p.pattern)))
+        if not _pre:
+            raise SystemExit(f"unanchorable pattern in {_n['key']}: {_p.pattern[:80]}")
+        for _a in _pre:
+            _lead = re.match(r"[a-z0-9]*", _a).group()
+            if len(_lead) >= 3:
+                TOKPRE[len(_lead)].add(_lead)
+            elif len(_a) >= 3 or re.match(r"[^\x00-\x7f]", _a):
+                SUBSTR.add(_a)
+            else:
+                log(f"  weak anchor {_a!r} in {_n['key']}")
+                SUBSTR.add(_a)
+TOKLENS = sorted(TOKPRE)
+_TOK = re.compile(r"[a-z0-9]+")
+
+
+def prefilter(text):
+    for t in set(_TOK.findall(text)):
+        for L in TOKLENS:
+            if L > len(t):
+                break
+            if t[:L] in TOKPRE[L]:
+                return True
+    return any(a in text for a in SUBSTR)
 
 
 # ------------------------------------------------------------------ records
@@ -1021,7 +1077,7 @@ def match(r):
     core = fold(" | ".join((r["title"], r["labels"], r["place"], r["otype"], r["medium"])))
     desc = fold(r["desc"])
     full = core + " | " + desc
-    if not PREFILTER.search(full):
+    if not prefilter(full):
         return [], None
     group = saa.object_group(r["otype"], r["title"], r["medium"])
     if group == "photograph" or re.search(r"photograph|postcard|albumen print|gelatin silver", fold(r["otype"])):

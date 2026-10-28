@@ -40,18 +40,24 @@ from regions import MODERN_REGIONS, REGIONS  # noqa: E402
 
 NAME = "modern_1860-1960"
 ALL = [f"modern_{r}" for r in MODERN_REGIONS]
-# Spot checks: modernists across regions (labels as in the pools).
-SPOT = [
-    "Abanindranath Tagore", "Nandalal Bose", "Jamini Roy", "Amrita Sher-Gil", "Rabindranath Tagore",
-    "M. F. Husain", "S. H. Raza", "Francis Newton Souza", "Ramkinkar Baij", "Benode Behari Mukherjee",
-    "Ben Enwonwu", "Uche Okeke", "Bruce Onobrakpeya", "Yusuf Grillo", "Gerard Sekoto", "Irma Stern",
-    "Ibrahim El-Salahi", "Qi Baishi", "Xu Beihong", "Lin Fengmian", "Pan Yuliang", "Wu Changshuo",
-    "Gao Jianfu", "Yokoyama Taikan", "Kishida Ryūsei", "Tsuguharu Foujita", "Lee Jung-seob",
-    "Diego Rivera", "Frida Kahlo", "José Clemente Orozco", "Tarsila do Amaral", "Wifredo Lam",
-    "Joaquín Torres García", "Mahmoud Mokhtar", "Mahmoud Saïd", "Jewad Selim", "Shakir Hassan Al Said",
-    "Albert Namatjira", "Affandi", "Fernando Amorsolo", "Sidney Nolan", "Tom Roberts",
-    "Claude Monet", "Pablo Picasso", "Georgia O'Keeffe", "Ivan Shishkin",
-]
+# Spot checks: modernists across regions, by QID (some pool labels are empty).
+SPOT = {
+    'Abanindranath Tagore': 'Q691796', 'Nandalal Bose': 'Q3348980', 'Jamini Roy': 'Q3595454',
+    'Amrita Sher-Gil': 'Q150312', 'Rabindranath Tagore': 'Q7241', 'M. F. Husain': 'Q558522',
+    'S. H. Raza': 'Q3105774', 'F. N. Souza': 'Q5482041', 'Ramkinkar Baij': 'Q3345966',
+    'Benode Behari Mukherjee': 'Q380226', 'Ben Enwonwu': 'Q4885605', 'Uche Okeke': 'Q15461959',
+    'Bruce Onobrakpeya': 'Q3645490', 'Gerard Sekoto': 'Q3103960', 'Irma Stern': 'Q281203',
+    'Ibrahim El-Salahi': 'Q2662098', 'Qi Baishi': 'Q369608', 'Xu Beihong': 'Q714152',
+    'Lin Fengmian': 'Q986362', 'Pan Yuliang': 'Q148400', 'Wu Changshuo': 'Q715400',
+    'Gao Jianfu': 'Q3083171', 'Yokoyama Taikan': 'Q2034441', 'Kishida Ryusei': 'Q3021493',
+    'Tsuguharu Foujita': 'Q261846', 'Lee Jung-seob': 'Q3789181', 'Diego Rivera': 'Q171128',
+    'Frida Kahlo': 'Q5588', 'Jose Clemente Orozco': 'Q332041', 'Tarsila do Amaral': 'Q466627',
+    'Wifredo Lam': 'Q465342', 'Joaquin Torres-Garcia': 'Q520713', 'Mahmoud Mokhtar': 'Q1459134',
+    'Mahmoud Said': 'Q6734398', 'Jewad Selim': 'Q2720307', 'Shakir Hassan Al Said': 'Q7462952',
+    'Albert Namatjira': 'Q560086', 'Affandi': 'Q2826050', 'Fernando Amorsolo': 'Q1943091',
+    'Sidney Nolan': 'Q381031', 'Tom Roberts': 'Q1291901', 'Claude Monet': 'Q296',
+    'Pablo Picasso': 'Q5593', "Georgia O'Keeffe": 'Q46408', 'Ivan Shishkin': 'Q193064',
+}
 
 
 _load_table = dm.load_table
@@ -103,6 +109,15 @@ def main():
     print(f"  {'intercept':20} {model.intercept_[0]:+.2f}")
     print(f"cutoff (90% out-of-fold recall): {cutoff:.4f}; in-sample reference recall at it "
           f"{(scores[y == 1] >= cutoff).mean():.1%}")
+    # Diagnostic: the same rule measured only on reference artists that some
+    # curatorial source holds (not kept by the membership fallback alone).
+    with open(os.path.join(dm.ROOT, REGIONS[ALL[0]]["reference_qids"]), encoding="utf-8") as f:
+        backed = {r["qid"] for r in csv.DictReader(f) if r["source_signal"] != "membership-fallback"}
+    yb = np.array([r["qid"] in backed for r in rows]) & (y == 1)
+    alt = float(np.quantile(oof[yb], 1 - args.recall))
+    alt_n = sum(int(dm.select(data[reg][0], model.predict_proba(data[reg][1])[:, 1], alt, REGIONS[reg]).sum()) for reg in ALL)
+    print(f"diagnostic: on the {int(yb.sum())} curatorially backed positives only, the 90% out-of-fold cutoff is "
+          f"{alt:.4f} and would select {alt_n} in total")
 
     os.makedirs(dm.MODELS, exist_ok=True)
     n_sel = 0
@@ -126,8 +141,8 @@ def main():
         n_sel += int(sel.sum())
         dm.write_scores(region, rws, sr, cutoff)
         for r, s, c in zip(rws, sr, sel):
-            new_sel.setdefault(r["label"], []).append((region, c, s, r["is_reference"]))
-            old_sel.setdefault(r["label"], []).append(old.get(r["qid"]))
+            new_sel.setdefault(r["qid"], []).append((region, c, s, r["is_reference"]))
+            old_sel.setdefault(r["qid"], []).append(old.get(r["qid"]))
     print(f"total selected: {n_sel}")
 
     json.dump({
@@ -140,12 +155,12 @@ def main():
     print(f"wrote {os.path.join(dm.MODELS, NAME + '.json')}")
 
     print("\nspot checks (region: modern model selected? score / Europe model selected?):")
-    for name in SPOT:
-        if name not in new_sel:
+    for name, q in SPOT.items():
+        if q not in new_sel:
             print(f"  {name:28} not in any modern pool")
             continue
         parts = [f"{reg[7:]}: {'yes' if c else 'no'} {s:.3f}{' ref' if isref else ''} / {'yes' if o else 'no' if o is not None else '-'}"
-                 for (reg, c, s, isref), o in zip(new_sel[name], old_sel[name])]
+                 for (reg, c, s, isref), o in zip(new_sel[q], old_sel[q])]
         print(f"  {name:28} " + "; ".join(parts))
 
 

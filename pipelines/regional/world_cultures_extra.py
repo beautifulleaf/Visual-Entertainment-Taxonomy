@@ -565,6 +565,8 @@ def rijks_rows(stats):
         rows.append({
             "source": "rijks", "id": r.get("objno") or r.get("rid"), "title": (r.get("title") or "")[:200],
             "culture_keys": "; ".join(k for k, _ in keys), "culture_label": "; ".join(l for _, l in keys),
+            "culture_kind": "; ".join(("european_textile_centre" if euro_centre and not sub_place else
+                                       "production_centre") if ", " in k else "place" for k, _ in keys),
             "culture_from": culture_from, "place": "; ".join(dict.fromkeys(places)), "country": country,
             "region": region, "object_type": "; ".join(dict.fromkeys(types))[:120],
             "object_group": object_group(ttxt, " ".join(classes), r.get("title") or "", " ".join(r.get("mats") or [])),
@@ -866,7 +868,9 @@ def nmvw_rows(stats):
         k, l = keys[0]
         if ", " not in k:
             par = th.get(t, {}).get("broader", "")
-            if par and kind(par) == "culture" and not DIRECTIONAL.search(fold(lab(par))):
+            pl = fold(re.sub(r"\s*\([^)]*\)", "", lab(par))) if par else ""
+            if (par and kind(par) == "culture" and not DIRECTIONAL.search(pl) and " " not in pl
+                    and not re.search(r"(an|ese|ish|ic|i)$", pl) and pl not in COUNTRY_NAMES):
                 pk = culture_keys(re.sub(r"\s*\([^)]*\)", "", lab(par)))
                 if pk and ", " not in pk[0][0] and pk[0][0] != k:
                     return f"{pk[0][0]}, {k}", f"{pk[0][1]}, {l}"
@@ -1039,6 +1043,154 @@ def known_index():
     return idx
 
 
+# ======================================================================== merge
+
+OBJ_COLS = ["source", "id", "title", "culture_keys", "culture_label", "culture_kind", "culture_from", "culture_path",
+            "aat", "place", "country", "region", "object_type", "object_group", "period", "date_begin", "date_end",
+            "maker", "attributed", "materials", "institution", "url"]
+CULT_COLS = ["key", "label", "level", "parent", "kind", "region", "countries", "object_groups", "date_begin_min",
+             "date_end_max", "mid_median", "top_periods", "objects", "objects_rijks", "objects_nmvw", "attributed_share",
+             "top_makers", "institutions", "n_institutions", "culture_from", "is_new", "match_basis", "matched_name",
+             "known_institutions", "new_institutions", "gained_institution", "culture_path", "aat", "sample_urls"]
+INST_PARENT = {"Tropenmuseum": "Wereldmuseum (NMVW)", "Museum Volkenkunde": "Wereldmuseum (NMVW)",
+               "Wereldmuseum Rotterdam": "Wereldmuseum (NMVW)", "Afrika Museum": "Wereldmuseum (NMVW)"}
+COUNTED_KINDS = ("culture", "period_style", "production_centre", "european_textile_centre")
+
+
+def match_known(key, label, idx):
+    """-> (basis, matched name, institutions) or (None, '', set())."""
+    leaf = key.split(", ")[-1]
+    lab_leaf = fold(label.split(", ")[-1]) if label else ""
+    for basis, name in (("key", key), ("leaf", leaf), ("label", lab_leaf), ("label", fold(label))):
+        if name and len(name) > 2 and name in idx:
+            return basis, name, idx[name]
+    # adjective -> place noun ("central javanese" -> "central java", "sumatran" -> "sumatra")
+    for suf, rep in (("nese", ""), ("an", "a"), ("ese", ""), ("ian", "ia"), ("i", "")):
+        if len(leaf) > 5 and leaf.endswith(suf):
+            name = leaf[: -len(suf)] + rep
+            for cand in (name, "indonesian, " + name):
+                if cand in idx:
+                    return "adjective", cand, idx[cand]
+    return None, "", set()
+
+
+def _top(counter, n=5):
+    return "; ".join(f"{k} ({v})" for k, v in counter.most_common(n) if k)
+
+
+def build_cultures(rows, idx):
+    agg = collections.defaultdict(lambda: {"rows": 0, "src": collections.Counter(), "label": collections.Counter(),
+                                           "kind": collections.Counter(), "region": collections.Counter(),
+                                           "country": collections.Counter(), "group": collections.Counter(),
+                                           "period": collections.Counter(), "inst": collections.Counter(),
+                                           "from": collections.Counter(), "makers": collections.Counter(),
+                                           "attr": 0, "b": [], "e": [], "mid": [], "urls": [], "path": "", "aat": ""})
+    for r in rows:
+        keys = r["culture_keys"].split("; ")
+        labels = r["culture_label"].split("; ")
+        kinds = (r.get("culture_kind") or "").split("; ")
+        paths = (r.get("culture_path") or "").split(" | ")
+        aats = (r.get("aat") or "").split("; ")
+        seen = set()
+        for i, k in enumerate(keys):
+            lab = labels[i] if i < len(labels) else k
+            kd = kinds[i] if i < len(kinds) else ""
+            targets = [(k, lab, kd)]
+            if ", " in k:
+                targets.append((k.split(", ")[0], lab.split(", ")[0], kd if kd in ("culture", "period_style")
+                                else "place"))
+            for kk, ll, dd in targets:
+                if kk in seen:
+                    continue
+                seen.add(kk)
+                a = agg[kk]
+                a["rows"] += 1
+                a["src"][r["source"]] += 1
+                a["label"][ll] += 1
+                a["kind"][dd] += 1
+                a["region"][r["region"]] += 1
+                a["country"][r["country"]] += 1
+                a["group"][r["object_group"]] += 1
+                for p in (r.get("period") or "").split("; "):
+                    a["period"][p] += 1
+                a["inst"][r["institution"]] += 1
+                a["from"][r["culture_from"]] += 1
+                a["attr"] += int(r["attributed"] or 0)
+                for m in (r.get("maker") or "").split("; "):
+                    a["makers"][m] += 1
+                b, e = r["date_begin"], r["date_end"]
+                if b != "":
+                    a["b"].append(b)
+                if e != "":
+                    a["e"].append(e)
+                if b != "" and e != "" and e - b < 1000:
+                    a["mid"].append((b + e) / 2)
+                if len(a["urls"]) < 3 and r["url"]:
+                    a["urls"].append(r["url"])
+                if kk == k and i < len(paths) and paths[i] and not a["path"]:
+                    a["path"] = paths[i]
+                if kk == k and i < len(aats) and aats[i] and not a["aat"]:
+                    a["aat"] = aats[i]
+    out = []
+    for k, a in agg.items():
+        label = a["label"].most_common(1)[0][0]
+        basis, name, kinst = match_known(k, label, idx)
+        new_inst = sorted(set(i for i in a["inst"] if INST_PARENT.get(i, i) not in kinst and i not in kinst))
+        mids = sorted(a["mid"])
+        out.append({
+            "key": k, "label": label, "level": "sub" if ", " in k else "base",
+            "parent": k.split(", ")[0] if ", " in k else "",
+            "kind": a["kind"].most_common(1)[0][0], "region": a["region"].most_common(1)[0][0],
+            "countries": _top(a["country"], 3), "object_groups": _top(a["group"], 6),
+            "date_begin_min": min(a["b"], default=""), "date_end_max": max(a["e"], default=""),
+            "mid_median": int(mids[len(mids) // 2]) if mids else "", "top_periods": _top(a["period"], 4),
+            "objects": a["rows"], "objects_rijks": a["src"]["rijks"], "objects_nmvw": a["src"]["nmvw"],
+            "attributed_share": round(a["attr"] / a["rows"], 3), "top_makers": _top(a["makers"], 4),
+            "institutions": _top(a["inst"], 6), "n_institutions": len(a["inst"]),
+            "culture_from": _top(a["from"], 2), "is_new": int(basis is None), "match_basis": basis or "",
+            "matched_name": name, "known_institutions": "; ".join(sorted(kinst))[:300],
+            "new_institutions": "; ".join(new_inst) if basis else "",
+            "gained_institution": int(bool(basis) and bool(new_inst)),
+            "culture_path": a["path"], "aat": a["aat"], "sample_urls": " ".join(a["urls"]),
+        })
+    out.sort(key=lambda x: (-x["is_new"], -x["objects"]))
+    return out
+
+
+def gain_curve(rows, idx, source, steps=10):
+    """Distinct new counted-kind keys after each tenth of the source's rows."""
+    sel = [r for r in rows if r["source"] == source]
+    if not sel:
+        return []
+    new, curve = set(), []
+    cache = {}
+    for n, r in enumerate(sel, 1):
+        for k, kd in zip(r["culture_keys"].split("; "), (r.get("culture_kind") or "").split("; ")):
+            if kd in COUNTED_KINDS:
+                if k not in cache:
+                    cache[k] = match_known(k, "", idx)[0] is None
+                if cache[k]:
+                    new.add(k)
+        if n % max(1, len(sel) // steps) == 0 or n == len(sel):
+            curve.append((n, len(new)))
+    return curve
+
+
+def bm_check():
+    """British Museum: read robots.txt only; never harvest the collection."""
+    try:
+        req = urllib.request.Request(BM_ROBOTS, headers={"User-Agent": UA})
+        txt = urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "replace")
+    except (urllib.error.URLError, OSError) as e:
+        return f"robots.txt unreachable ({e}); not harvested"
+    blocked = [ua for ua in ("anthropic-ai", "ClaudeBot", "Claude-Web")
+               if re.search(r"User-agent:\s*" + re.escape(ua) + r"\s*\n\s*Disallow:\s*/\s*\n", txt, re.I)]
+    sig = re.search(r"Content-Signal:\s*([^\n]+)", txt)
+    return (f"robots.txt disallows {', '.join(blocked) or 'no Anthropic agent'} site-wide"
+            f"{'; Content-Signal ' + sig.group(1).strip() if sig else ''}; /search disallowed for all agents; "
+            "collection not harvested (project rule: stop when blocked)")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--skip", default="", help="comma-separated sources to skip: rijks,nmvw,bm")
@@ -1047,10 +1199,41 @@ def main():
     ap.add_argument("--limit", type=int, default=0, help="test: stop each stream after N records")
     args = ap.parse_args()
     run = [s for s in (args.only.split(",") if args.only else SOURCES) if s and s not in args.skip.split(",")]
+    if "bm" in run:
+        log("bm: " + bm_check())
+    if args.fetch_only:
+        if "rijks" in run:
+            extract_rijks(args.limit or None)
+        if "nmvw" in run:
+            extract_nmvw(args.limit or None)
+        return
+    stats = collections.Counter()
+    rows = []
     if "rijks" in run:
-        extract_rijks(args.limit or None)
+        rows += rijks_rows(stats)
     if "nmvw" in run:
-        extract_nmvw(args.limit or None)
+        rows += nmvw_rows(stats)
+    for k, v in sorted(stats.items()):
+        log(f"  {k}: {v:,}")
+    idx = known_index()
+    cultures = build_cultures(rows, idx)
+    os.makedirs(OUT_DIR, exist_ok=True)
+    write_csv(os.path.join(OUT_DIR, "world_extra_objects.csv"), rows, OBJ_COLS)
+    write_csv(os.path.join(OUT_DIR, "world_extra_cultures.csv"), cultures, CULT_COLS)
+    # summary: node gain
+    for src in ("rijks", "nmvw"):
+        curve = gain_curve(rows, idx, src)
+        if curve:
+            log(f"{src}: new counted keys by rows read: " + ", ".join(f"{n:,}->{k}" for n, k in curve))
+    by = collections.Counter()
+    for c in cultures:
+        for thr in (1, 3, 10, 50):
+            if c["objects"] >= thr:
+                by[(c["kind"], c["is_new"], thr)] += 1
+    for kd in sorted({c["kind"] for c in cultures}):
+        log(f"  kind={kd:24s} " + "  ".join(f">={t}: new {by[(kd, 1, t)]} / known {by[(kd, 0, t)]}"
+                                          for t in (1, 3, 10, 50)))
+    log(f"  known keys that gained a holding institution: {sum(c['gained_institution'] for c in cultures)}")
 
 
 if __name__ == "__main__":

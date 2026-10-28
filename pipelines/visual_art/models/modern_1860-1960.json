@@ -1,0 +1,40 @@
+{
+ "fitted_on": [
+  "modern_europe",
+  "modern_north_america",
+  "modern_latin_america",
+  "modern_east_asia",
+  "modern_south_asia",
+  "modern_southeast_asia",
+  "modern_mena_central_asia",
+  "modern_subsaharan_africa",
+  "modern_oceania"
+ ],
+ "features": [
+  "sitelinks",
+  "pageviews",
+  "museum_objects",
+  "n_museums",
+  "met_timeline_works",
+  "has_ulan",
+  "n_regional_ids"
+ ],
+ "feature_transform": "within-cell mid-rank percentile (per region)",
+ "coef": [
+  0.639888,
+  0.319249,
+  0.0,
+  1.373265,
+  2.461927,
+  0.591555,
+  2.130864
+ ],
+ "intercept": -6.865225,
+ "recall_target": 0.9,
+ "cutoff": 0.020947,
+ "cutoff_method": "out-of-fold (5-fold) reference recall",
+ "reference": "data/interim/modern_reference_candidate.csv",
+ "n_artists": 59952,
+ "n_reference": 2105,
+ "n_selected": 32287
+}
