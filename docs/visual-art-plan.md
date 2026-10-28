@@ -125,7 +125,13 @@ The target depth is the owner-supplied list in `seeds/visual-art/europe_1400-190
 - **The pass:** artists active **1860–1960**, all media, split into **nine world regions**, each ranked within its own medium × period cells so that every modernism is measured against its peers, not against Paris and New York.
   - The regions: Europe · North America · Latin America · East Asia · South Asia · Southeast Asia · Middle East, North Africa and Central Asia · Sub-Saharan Africa · Oceania (`regions.MODERN_REGIONS`; `exclude_countries` carves Mexico and the Caribbean out of North America, and North Africa out of Africa).
   - Examples of what this is meant to catch: Mexican muralism, the Bengal School and Indian modernism, *yōga*/*Nihonga*, Chinese modern ink painting, the Nsukka/Zaria schools.
-- **Scoring:** there are no modern reference lists yet, so each region is scored with the model fitted on Europe 1400–1900. If WikiArt-style lists for modern movements (Impressionism, Post-Impressionism, Fauvism, Expressionism, Cubism, Futurism, Dada, Surrealism, Abstract Expressionism, plus non-Western modernisms) are added to `seeds/visual-art/`, the pass can be recalibrated.
+- **Scoring:** until a modern reference exists, each region is scored with the model fitted on Europe 1400–1900.
+- **Decided (2026-10-28): the modern reference list is built from data, not by hand.** It must avoid circularity, so it uses only signals the model does not use as features:
+  - **movements as the skeleton:** Wikidata art movements active 1860–1960 and their members (P135/P463), including non-Western modernisms;
+  - **within each movement, members ranked by works held at MoMA and Tate:** both CC0 collection datasets, and not model features. Regional collections stand in for movements those two museums under-cover;
+  - **the reference is the top members of each movement**, scaled to movement size, mirroring the WikiArt-style lists.
+
+  The Europe model's recall on this list is measured, and the model is refit if needed (`build_modern_reference.py`). The candidate list is reviewed before it goes into `seeds/visual-art/`.
 - **Overlaps:** artists active 1860–1900 are also in the Europe 1400–1900 pass, and those born 1920–1940 are also in the contemporary pool. Selections are unioned by QID.
 - **Runner:** `pipelines/visual_art/run_modern.sh`.
 
