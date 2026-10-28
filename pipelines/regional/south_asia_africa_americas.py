@@ -1299,9 +1299,10 @@ WESTERN = re.compile(r"\((English|British|American|French|Dutch|German|Scottish|
 # military / honorific titles mark British colonial-era artists in these records
 WESTERN_TITLES = re.compile(r"^(Captain|Capt\.?|Lt\.?|Lieutenant|Colonel|Col\.?|Major|General|Sir|Lady|Mrs\.?|Miss|"
                             r"Dr\.?|Rev\.?|Reverend)\s")
-# frequent Western makers in the V&A South & SE Asia records, reviewed by hand (2026-10-28)
+# frequent Western makers in the V&A and Rijksmuseum records, reviewed by hand (2026-10-28)
 WESTERN_NAMES = re.compile(r"(?<![a-z])(griffiths|de fabeck|fabeck|lockwood kipling|kipling|elkington|blaikie keith|"
-                           r"daniell|chinnery|canning|carpenter|locker|landseer|grindlay|orme|simpson)(?![a-z])")
+                           r"daniell|chinnery|canning|carpenter|locker|landseer|grindlay|orme|simpson|"
+                           r"marius bauer|boursse|bernelot-moens|jan brandes|reijer stolk)(?![a-z])")
 
 
 def make_row(source, rid, region, pm, title, otype, oclass, labels, place_text, extra, date_text, begin, end,
@@ -1334,6 +1335,12 @@ def make_row(source, rid, region, pm, title, otype, oclass, labels, place_text, 
         DROPPED[(source, "made by a Western artist")] += 1
         return None
     classify(row, labels, place_text, extra, agent)
+    if (source == "rijks" and named and row["object_group"] in ("drawing", "painting", "print")
+            and not re.search(r"(?i)anonymous|anoniem", labels)):
+        # Rijksmuseum objects made in the region are recorded as "anonymous, <place>";
+        # a named draughtsman/painter there is a Dutch artist (Jan Brandes, Marius Bauer)
+        DROPPED[(source, "made by a Western artist")] += 1
+        return None
     if source == "vam" and sweep.startswith("place:"):
         if collection in VAM_LABEL_ONLY_COLLECTIONS and row["culture_source"] != "label":
             DROPPED[(source, "Prints, Drawings & Paintings record without a school/culture label")] += 1
