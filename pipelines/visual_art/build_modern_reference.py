@@ -16,14 +16,17 @@ authority IDs), so that refitting on it is not circular.
 2. Curatorial signal per member, independent of the model's features:
      tate_works      Tate collection open data (CC0), joined on the Tate ID (P2741)
                      or name + birth year
-     moma_works      MoMA collection open data (CC0), joined on Wikidata QID; used
-                     only if data/raw/curatorial/moma/Artists.json + Artworks.json exist
+     moma_held       1 if the artist is in MoMA's Artists.json (CC0; every constituent
+                     there has works in the collection), joined on Wikidata QID, then
+                     ULAN (used only as a join key), then name + birth year. Artworks.json
+                     is not available, so this is binary, weighted like ~5 Tate works.
      wd_collections  distinct collections (P195) holding works by the artist on
                      Wikidata, excluding the Met, AIC, Cleveland (model features)
                      and "private collection"
      regional_objects  objects in the regional sweeps (ColBase, Bunka Isan, NPM,
                      V&A, Rijksmuseum, Smithsonian units; never the Met/AIC/CMA columns)
-   score = sum of log1p over the four. Members with no curatorial signal are
+   score = log1p(tate_works) + MOMA_WEIGHT * moma_held + log1p(wd_collections)
+   + log1p(regional_objects). Members with no curatorial signal are
    ordered by their number of kept movement memberships (fallback).
 3. Reference = per movement, the top 30% of members by score (min 3, max 60).
    Poorly covered non-Western movements (region outside Europe / North America,
@@ -77,6 +80,7 @@ MIN_MEMBERS = 3
 SHARE, MIN_K, MAX_K = 0.30, 3, 60
 SMALL_CAP = 25
 CHUNK = 200
+MOMA_WEIGHT = math.log1p(5)   # MoMA holding counts like five Tate works
 
 MOVEMENT_TYPES = {
     "Q968159": "art movement", "Q3326867": "painting movement", "Q1792644": "art style",
@@ -92,6 +96,10 @@ UMBRELLA = {
     "Q1414236": "modernism", "Q215592": "avant-garde", "Q1640824": "figurative art",
     "Q2111604": "post-war art", "Q878985": "modernism", "Q102932": "avant-garde",
     "Q47783": "postmodernism",
+    # Pruned on review (2026-10-28): a theme, a literature, a pre-modern academy, a
+    # post-1960 movement whose early members only would be kept.
+    "Q42865": "Orientalism (a subject, not a movement)", "Q194380": "Arabic literature",
+    "Q189772": "Brazilian academic art", "Q134147": "pop art (contemporary pass)",
 }
 # P31 values that mark an organisation rather than a movement (unions, salons, academies).
 NON_MOVEMENT = {
@@ -102,6 +110,16 @@ NON_MOVEMENT = {
     "Q15911314": "association", "Q667276": "art exhibition", "Q464980": "exhibition",
 }
 WESTERN = ("europe", "north_america")
+# Fetched first when the Wikipedia API is rate-limited (ordering only; every
+# candidate article is fetched eventually).
+PRIORITY_ARTICLES = [
+    "Bengal School of Art", "Nsukka group", "Zaria Art Society", "Calcutta Group", "Shanghai School (painting)",
+    "Taller de Gráfica Popular", "Mavo", "Saqqakhaneh movement", "Modern Indian painting", "Yōga", "Shin-hanga",
+    "Sōsaku-hanga", "Mexican modernism", "Mexican Renaissance", "Generación del 13", "Otra Figuración",
+    "Samikshavad", "Ofakim Hadashim", "Jikken Kōbō", "Shōwa Modan", "Patna School of Painting", "Kyoto school (art)",
+    "Nanga (Japanese painting)", "Tengenenge", "Six Directions", "Rutland Group", "The Papelipolas",
+    "Shinkō shashin", "Sōdeisha",
+]
 # Exhibiting societies and professional bodies, not movements (by label).
 ORG_WORDS = re.compile(r"\b(association|associazione|club|union|institute|academy|salon|verein|verband|"
                        r"künstlerbund|genossenschaft|federation|league|guild)\b", re.I)
@@ -251,7 +269,7 @@ def fetch_artists(qids):
     return chunked_cache("artists.json", qids, q)
 
 
-def fetch_fallback_labels(qids):
+def fetch_fallback_labels(qids, cache="fallback_labels.json"):
     """A label for artists with no English one: 'mul', else any Latin-script language, else any."""
     def q(chunk):
         values = " ".join("wd:" + a for a in chunk)
@@ -262,7 +280,7 @@ def fetch_fallback_labels(qids):
             if r["a"] not in best or rank < best[r["a"]][0]:
                 best[r["a"]] = (rank, r["l"])
         return {a: best.get(a, (9, a))[1] for a in chunk}
-    return chunked_cache("fallback_labels.json", qids, q)
+    return chunked_cache(cache, qids, q)
 
 
 def fetch_collections(qids):
@@ -499,22 +517,33 @@ def load_tate():
 
 
 def load_moma():
-    """{qid: works} from MoMA's Artists.json + Artworks.json, if present."""
-    base = os.path.join(CURATORIAL, "moma")
-    a_path, w_path = os.path.join(base, "Artists.json"), os.path.join(base, "Artworks.json")
-    if not (os.path.exists(a_path) and os.path.getsize(a_path) and os.path.exists(w_path)):
-        print("  MoMA data missing (data/raw/curatorial/moma/Artists.json, Artworks.json); moma_works = 0")
+    """MoMA constituents (artists with works in the collection) as three join keys:
+    Wikidata QIDs, ULAN IDs and (name key, birth year). None if Artists.json is missing."""
+    path = os.path.join(CURATORIAL, "moma", "Artists.json")
+    if not (os.path.exists(path) and os.path.getsize(path)):
+        print("  MoMA Artists.json missing (data/raw/curatorial/moma/); moma_held = 0")
         return None
-    qid_of = {}
-    for a in json.load(open(a_path, encoding="utf-8")):
+    qids, ulans, names = set(), set(), set()
+    for a in json.load(open(path, encoding="utf-8")):
         if a.get("Wiki QID"):
-            qid_of[a["ConstituentID"]] = a["Wiki QID"]
-    works = collections.Counter()
-    for w in json.load(open(w_path, encoding="utf-8")):
-        for cid in w.get("ConstituentID") or []:
-            if cid in qid_of:
-                works[qid_of[cid]] += 1
-    return works
+            qids.add(a["Wiki QID"])
+        if a.get("ULAN"):
+            ulans.add(str(a["ULAN"]))
+        if a.get("DisplayName"):
+            names.add((name_key(a["DisplayName"]), str(a.get("BeginDate") or "")))
+    print(f"  MoMA: {len(qids)} QIDs, {len(ulans)} ULAN IDs, {len(names)} names")
+    return qids, ulans, names
+
+
+def fetch_ulan(qids):
+    """{qid: [ULAN IDs]} (P245), used only to join MoMA's artist list."""
+    def q(chunk):
+        values = " ".join("wd:" + a for a in chunk)
+        out = {a: [] for a in chunk}
+        for r in sparql(f"SELECT ?a ?u WHERE {{ VALUES ?a {{ {values} }} ?a wdt:P245 ?u }}"):
+            out[r["a"]].append(r["u"])
+        return out
+    return chunked_cache("ulan.json", qids, q)
 
 
 def load_regional():
@@ -561,11 +590,27 @@ def main():
     ap.add_argument("--share", type=float, default=SHARE, help="share of each movement's members kept")
     ap.add_argument("--endpoint", choices=sorted(ENDPOINTS), default="qlever",
                     help="SPARQL endpoint (QLever's Wikidata mirror by default: WDQS was rate-limited)")
+    ap.add_argument("--links-only", action="store_true", help="only fetch the Wikipedia article links, then stop")
     ap.add_argument("--cached-links-only", action="store_true",
                     help="use only the Wikipedia article links already cached (the API is often rate-limited)")
     args = ap.parse_args()
     ENDPOINT[0] = args.endpoint
     CACHED_LINKS_ONLY[0] = args.cached_links_only
+    if args.links_only:
+        cands = fetch_nonwestern_candidates()
+        ccont = fetch_continents(sorted({c for r in cands for c in r.get("countries", "").split("|") + r["loc_countries"]
+                                         if re.fullmatch(r"Q\d+", c)}))
+        titles = []
+        for r in sorted(cands, key=lambda r: -r["sitelinks"]):
+            reg = modern_region({"P27": r.get("countries", "").split("|"), "birth_country": r["loc_countries"]}, ccont)
+            if reg == "unknown":
+                reg = region_from_text(r["title"] + " " + r["description"]) or "unknown"
+            start = year_of(r.get("start"))
+            if reg not in WESTERN + ("unknown", "other") and (start is None or INCEPTION_RANGE[0] <= start <= INCEPTION_RANGE[1]):
+                titles.append(r["title"])
+        first = [t for t in PRIORITY_ARTICLES if t in titles]
+        article_link_qids(list(dict.fromkeys(first + titles)))
+        return
     os.makedirs(RAW, exist_ok=True)
 
     print("memberships")
@@ -601,6 +646,10 @@ def main():
     artists = sorted({p["a"] for p in pairs})
     print(f"  {len(pairs)} artist-movement pairs, {len(movements)} movements, {len(artists)} artists")
     meta = fetch_movement_meta(movements)
+    for m, lab in fetch_fallback_labels(sorted(m for m, md in meta.items() if not md.get("label")),
+                                        "fallback_labels_movements.json").items():
+        if lab != m:
+            meta[m]["label"] = lab
     info = fetch_artists(artists)
     fallback = fetch_fallback_labels(sorted(a for a, r in info.items() if not r["label"]))
     for a, lab in fallback.items():
@@ -640,7 +689,9 @@ def main():
         regions = collections.Counter(region_of[a] for a in mem)
         reasons = []
         if m in UMBRELLA:
-            reasons.append("umbrella term")
+            reasons.append("umbrella term / pruned: " + UMBRELLA[m])
+        if not md.get("label"):
+            reasons.append("no label in any language")
         if len(mem) < MIN_MEMBERS:
             reasons.append(f"<{MIN_MEMBERS} members")
         if start is not None and not INCEPTION_RANGE[0] <= start <= INCEPTION_RANGE[1]:
@@ -681,6 +732,7 @@ def main():
     coll = fetch_collections(pool)
     tate_works, tate_by_name = load_tate()
     moma = load_moma()
+    ulan = fetch_ulan(pool) if moma else {}
     regional = load_regional()
     n_memberships = collections.Counter(a for m in kept for a in members[m])
 
@@ -691,13 +743,17 @@ def main():
         if tid is None:
             tid = tate_by_name.get((name_key(rec["label"]), str(rec["birth"] or "")))
         tate = tate_works.get(tid, 0) if tid else 0
-        mw = moma.get(a, 0) if moma else 0
+        mw = 0
+        if moma:
+            m_q, m_u, m_n = moma
+            mw = int(a in m_q or any(u in m_u for u in ulan.get(a, []))
+                     or (name_key(rec["label"]), str(rec["birth"] or "")) in m_n)
         nc, nw = coll.get(a, [0, 0])
         key = name_key(rec["label"])
         reg, reg_src = regional.get((key, str(rec["birth"] or "")), regional.get((key, ""), (0, "")))
         sources = [s for s, v in (("tate", tate), ("moma", mw), ("wd_collections", nc), (reg_src, reg)) if v]
-        score = math.log1p(tate) + math.log1p(mw) + math.log1p(nc) + math.log1p(reg)
-        sig[a] = {"tate_works": tate, "moma_works": mw, "wd_collections": nc, "wd_collection_works": nw,
+        score = math.log1p(tate) + MOMA_WEIGHT * mw + math.log1p(nc) + math.log1p(reg)
+        sig[a] = {"tate_works": tate, "moma_held": mw, "wd_collections": nc, "wd_collection_works": nw,
                   "regional_objects": reg, "score": score,
                   "source_signal": "+".join(sources) if sources else "membership-fallback"}
 
@@ -707,7 +763,7 @@ def main():
         ranked = sorted(members[m], key=lambda a: (-sig[a]["score"], -n_memberships[a], info[a]["label"]))
         # Coverage by the two curatorial collections (Tate, MoMA), not by Wikidata or
         # the regional sweeps: it decides whether the movement is ranked or kept whole.
-        covered = sum(1 for a in ranked if sig[a]["tate_works"] or sig[a]["moma_works"]) / len(ranked)
+        covered = sum(1 for a in ranked if sig[a]["tate_works"] or sig[a]["moma_held"]) / len(ranked)
         western = mr["region"] in ("europe", "north_america")
         if not western and covered < 0.5:
             k, rule = min(len(ranked), SMALL_CAP), "all members (non-Western, thin curatorial coverage)"
@@ -720,6 +776,11 @@ def main():
 
     # Deduplicate: each artist goes to the movement where it ranks best (ties -> smaller movement).
     rows = []
+    unnamed = [a for a in picks if re.fullmatch(r"Q\d+", info[a]["label"] or a)]
+    if unnamed:
+        print(f"  {len(unnamed)} picked artists have no label in any language; dropped")
+    for a in unnamed:
+        del picks[a]
     for a, ps in picks.items():
         # Listed once, WikiArt-style: under a movement of the artist's own region if
         # any, preferring P135 (declared movement) over Wikipedia-link and group
@@ -748,7 +809,7 @@ def main():
         w = csv.DictWriter(f, fieldnames=list(dict.fromkeys(cols)))
         w.writeheader()
         w.writerows(sorted(mrows, key=lambda r: (-r["kept"], r["region"], -r["members"])))
-    cols = ["movement", "region", "name", "qid", "moma_works", "tate_works", "rank_in_movement", "source_signal",
+    cols = ["movement", "region", "name", "qid", "moma_held", "tate_works", "rank_in_movement", "source_signal",
             "movement_qid", "movement_region", "birth", "death", "wd_collections", "wd_collection_works",
             "regional_objects", "score", "also_in"]
     with open(os.path.join(OUT, "modern_reference_candidate.csv"), "w", newline="", encoding="utf-8") as f:
