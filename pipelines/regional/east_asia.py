@@ -953,7 +953,7 @@ NPM_DYNASTIES = ["-7000~-2000~新石器時代", "-2600~-2000~新石器時代晚�
                  "-800~-500~春秋", "-500~-300~戰國", "-221~-207~秦", "-206~8~西漢", "9~23~新莽", "25~220~東漢",
                  "220~589~魏晉南北朝", "581~618~隋", "618~907~唐", "907~960~五代", "907~1125~遼", "960~1279~宋",
                  "1115~1234~金", "1271~1368~元", "1368~1644~明", "1644~1911~清", "1911~9999~民國", "0~0~時代不詳"]
-NPM_PAGE = 2000
+NPM_PAGE = 150   # the server cuts responses off after ~65 s; at ~0.25 s per item this stays under
 NPM_ARTIST_CATS = {"繪畫", "法書", "成扇"}
 NPM_PREFIXES = sorted(["六朝梁", "六朝", "五代南唐", "五代後蜀", "五代", "南唐", "北宋", "南宋", "東晉", "西晉", "晉", "唐", "宋",
                        "元", "明", "清", "金", "遼", "隋", "民國", "後梁", "北魏", "漢", "宋元", "元明", "明清"],
@@ -990,11 +990,14 @@ def npm_counts(fetcher, dyn):
     return out or None
 
 
-def fetch_npm(delay):
+def fetch_npm(delay, all_cats=False):
+    """List NPM objects. By default only painting / calligraphy / fans are listed item by item (the
+    artist-led categories); the others enter as dynasty x category counts (catalogue_counts)."""
     f = Fetcher(delay, BROWSER_UA, "npm")
     d = os.path.join(RAW, "npm")
     rows = {}
     expected = 0
+    catalogue_counts = []
     for di, dyn in enumerate(NPM_DYNASTIES):
         counts = cached(os.path.join(d, "counts", f"{di:02d}.json"), lambda: npm_counts(f, dyn))
         if counts is None:
@@ -1004,9 +1007,14 @@ def fetch_npm(delay):
             n = counts.get(cat, 0)
             if not n:
                 continue
+            catalogue_counts.append({"country": "China", "period_original": dyn.split("~")[-1],
+                                     "period_en": period_label(period_of(dyn.split("~")[-1], "China")),
+                                     "category": cat, "object_type": NPM_TYPE[cat], "objects": n})
+            if not all_cats and cat not in NPM_ARTIST_CATS:
+                continue
             expected += n
             for page in range(1, (n - 1) // NPM_PAGE + 2):
-                items = cached(os.path.join(d, "list", f"{di:02d}_{safe(cat)}_{page}.json"),
+                items = cached(os.path.join(d, "list", f"{di:02d}_{safe(cat)}_s{NPM_PAGE}_{page}.json"),
                                lambda: npm_search(f, cat, dyn, page))
                 if items is None:
                     print(f"  NPM: listing failed {dyn} {cat} p{page}", file=sys.stderr)
@@ -1017,8 +1025,8 @@ def fetch_npm(delay):
                     if label not in r["dyn"]:
                         r["dyn"].append(label)
     print(f"NPM: {len(rows):,} distinct objects listed ({expected:,} dynasty x category hits expected); "
-          f"{f.requests} requests")
-    return list(rows.values()), f
+          f"{f.requests} requests; catalogue total by dynasty x category {sum(c['objects'] for c in catalogue_counts):,}")
+    return list(rows.values()), f, catalogue_counts
 
 
 def npm_title_split(title):
@@ -1671,13 +1679,14 @@ def build_artists(objects):
 
 # ====================================================================== traditions
 
-def build_traditions(objects, facet_counts):
+def build_traditions(objects, facet_counts, npm_counts=()):
     cells = {}
 
     def cell(country, period, otype):
         return cells.setdefault((country, period or "(unknown)", otype), {
             "all": 0, "attr": 0, "una": 0, "copies": 0, "src": collections.Counter(), "des": 0,
-            "workshops": collections.Counter(), "orig": collections.Counter(), "examples": [], "nmk_all": 0})
+            "workshops": collections.Counter(), "orig": collections.Counter(), "examples": [], "nmk_all": 0,
+            "npm_all": 0})
     for o in objects:
         c = cell(o["country"], o["period_en"], o["object_type"])
         if o["attribution"] == "copy":
@@ -1699,6 +1708,8 @@ def build_traditions(objects, facet_counts):
             c["examples"].append(f"{o['source']}:{o['title'][:50]}")
     for fc in facet_counts:
         cell(fc["country"], fc["period_en"] or fc["period_original"], fc["object_type"])["nmk_all"] += fc["objects"]
+    for nc in npm_counts:
+        cell(nc["country"], nc["period_en"], nc["object_type"])["npm_all"] += nc["objects"]
     rows = []
     for (country, period, otype), c in cells.items():
         pidx = next((i for i, p in enumerate(PERIODS) if p[0] == period and p[1] == country), None)
@@ -1712,10 +1723,11 @@ def build_traditions(objects, facet_counts):
             row[f"unattributed_{s}"] = c["src"].get(s, 0)
         row["designated_unattributed"] = c["des"]
         row["nmk_all_objects_by_material"] = c["nmk_all"]
+        row["npm_catalogue_objects"] = c["npm_all"]
         row["top_kilns_workshops"] = "; ".join(f"{n} ({k})" for n, k in c["workshops"].most_common(3))
         row["period_original_examples"] = "; ".join(p for p, _ in c["orig"].most_common(3))
         row["examples"] = " | ".join(c["examples"])
-        if row["unattributed_objects"] or row["nmk_all_objects_by_material"]:
+        if row["unattributed_objects"] or row["nmk_all_objects_by_material"] or row["npm_catalogue_objects"]:
             rows.append(row)
     order = {"China": 0, "Japan": 1, "Korea": 2, "Taiwan": 3}
     rows.sort(key=lambda r: (order.get(r["country"], 9), r["period_begin"] if r["period_begin"] != "" else 99999,
@@ -1781,6 +1793,8 @@ def main():
     ap.add_argument("--skip", default="", help="comma list of sources to skip: bunka,npm,emuseum,cma,aic")
     ap.add_argument("--npm-details", type=int, default=400, help="NPM detail pages (one per parsed maker)")
     ap.add_argument("--korea-details", type=int, default=2000, help="e-Museum detail pages for designated objects")
+    ap.add_argument("--npm-all-categories", action="store_true",
+                    help="list every NPM category item by item (slow: the portal serves ~4 items/s)")
     ap.add_argument("--delay", type=float, default=1.0)
     ap.add_argument("--offline", action="store_true", help="use cached responses only")
     args = ap.parse_args()
@@ -1794,9 +1808,9 @@ def main():
     if "bunka" not in skip:
         bunka = load_bunka(fetch_bunka(args.delay))
     korea, facet_counts = ([], []) if "emuseum" in skip else fetch_korea(args.delay, args.korea_details)
-    npm = []
+    npm, npm_counts_ = [], []
     if "npm" not in skip:
-        rows, fetcher = fetch_npm(args.delay)
+        rows, fetcher, npm_counts_ = fetch_npm(args.delay, args.npm_all_categories)
         lexicon = set()
         for o in cma + objects:
             if o["country"] == "China":
@@ -1807,7 +1821,7 @@ def main():
     objects = objects + bunka + npm + korea + cma + aic
 
     artists = build_artists(objects)
-    traditions = build_traditions(objects, facet_counts)
+    traditions = build_traditions(objects, facet_counts, npm_counts_)
     for o in objects:
         for k in ("date_begin", "date_end"):
             if o[k] in (None, ""):
@@ -1820,7 +1834,7 @@ def main():
     write(os.path.join(OUT_DIR, "east_asia_artists.csv"), artists, afields)
     tfields = ["country", "period_en", "period_begin", "period_end", "object_type", "unattributed_objects",
                "all_objects", "attributed_share", "copies_excluded"] + [f"unattributed_{s}" for s in SOURCES] + \
-              ["designated_unattributed", "nmk_all_objects_by_material", "top_kilns_workshops",
+              ["designated_unattributed", "nmk_all_objects_by_material", "npm_catalogue_objects", "top_kilns_workshops",
                "period_original_examples", "examples"]
     write(os.path.join(OUT_DIR, "east_asia_traditions.csv"), traditions, tfields)
     print(f"\nwrote {len(objects):,} objects, {len(artists):,} artists, {len(traditions):,} tradition cells "

@@ -55,7 +55,8 @@ import urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from regions import HOME_CONTINENT_ORDER, MEDIA, MODERN_REGIONS, active_span  # noqa: E402
-from wikidata import UA, sparql, year_of  # noqa: E402
+import wikidata  # noqa: E402
+from wikidata import UA, year_of  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 RAW = os.path.join(ROOT, "data", "raw", "wikidata", "modern_reference")
@@ -102,6 +103,53 @@ WESTERN = ("europe", "north_america")
 EXCLUDED_COLLECTIONS = {"Q160236", "Q239303", "Q657415", "Q768717"}
 ART_OCCUPATIONS = {o for m, occs in MEDIA.items() for o in occs}
 ARCHITECTURE = set(MEDIA["architecture"])
+
+
+ENDPOINTS = {"qlever": "https://qlever.dev/api/wikidata", "wdqs": "https://query.wikidata.org/sparql"}
+ENDPOINT = ["qlever"]
+CACHED_LINKS_ONLY = [False]
+PREFIXES = """PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <http://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+"""
+
+
+def sparql(query, retries=8):
+    """One query at a time, to WDQS or (default, during the WDQS outage) QLever's Wikidata mirror."""
+    if ENDPOINT[0] == "wdqs":
+        return wikidata.sparql(query, retries)
+    body = urllib.parse.urlencode({"query": PREFIXES + query}).encode()
+    req = urllib.request.Request(ENDPOINTS["qlever"], data=body, headers={
+        "User-Agent": UA, "Accept": "application/sparql-results+json",
+        "Content-Type": "application/x-www-form-urlencoded"})
+    for attempt in range(retries):
+        try:
+            with urllib.request.urlopen(req, timeout=300) as r:
+                data = json.loads(r.read().decode("utf-8"))
+            break
+        except urllib.error.HTTPError as e:
+            wait = int(e.headers.get("Retry-After") or 0) or min(120, 5 * 2 ** attempt)
+            print(f"    QLever HTTP {e.code}: {e.read()[:150]!r}, retrying in {wait}s")
+            time.sleep(wait)
+        except (urllib.error.URLError, TimeoutError, ConnectionError, OSError, json.JSONDecodeError) as e:
+            print(f"    QLever {type(e).__name__}, retrying")
+            time.sleep(min(120, 5 * 2 ** attempt))
+    else:
+        raise RuntimeError("SPARQL query failed repeatedly")
+    time.sleep(1)
+    out = []
+    for b in data["results"]["bindings"]:
+        row = {}
+        for k, v in b.items():
+            val = v["value"]
+            if v["type"] == "uri" and val.startswith("http://www.wikidata.org/entity/"):
+                val = val.rsplit("/", 1)[1]
+            row[k] = val
+        out.append(row)
+    return out
 
 
 def cached(name, fn):
@@ -266,6 +314,9 @@ def article_link_qids(titles):
     path = os.path.join(RAW, "enwiki_links.json")
     data = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
     todo = [t for t in titles if t not in data]
+    if CACHED_LINKS_ONLY[0]:
+        print(f"  --cached-links-only: {len(todo)} of {len(titles)} articles not fetched")
+        todo = []
     for i, t in enumerate(todo, 1):   # saved per article: the API is often rate-limited
         data.update(q([t]))
         json.dump(data, open(path, "w", encoding="utf-8"), ensure_ascii=False)
@@ -314,8 +365,29 @@ def home_continents(c, continents):
     return set(conts)
 
 
+def region_of_countries(cs, continents):
+    for name, geo in MODERN_REGIONS.items():
+        inc, exc, conts = set(geo.get("countries", [])), set(geo.get("exclude_countries", [])), set(geo.get("continents", []))
+        if any(c in inc or (c not in exc and conts & home_continents(c, continents)) for c in cs):
+            return name
+    return "other"
+
+
+def modern_regions(rec, continents):
+    """Every region the artist belongs to, as build_pool.py places modern artists: by
+    country of birth and of death (both count), else by citizenship. First = primary."""
+    out = []
+    for key in ("birth_country", "death_country"):
+        cs = [c for c in rec.get(key, []) if re.fullmatch(r"Q\d+", c)]
+        if cs:
+            reg = region_of_countries(cs, continents)
+            if reg not in out:
+                out.append(reg)
+    return out or [modern_region(rec, continents)]
+
+
 def modern_region(rec, continents):
-    """First MODERN_REGIONS entry matching the artist (same country and home-continent rule as build_pool.py)."""
+    """First MODERN_REGIONS entry matching by citizenship, then birth/death country."""
     for key in ("P27", "birth_country", "death_country"):
         cs = [c for c in rec.get(key, []) if re.fullmatch(r"Q\d+", c)]
         if not cs:
@@ -418,7 +490,13 @@ def load_regional():
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--share", type=float, default=SHARE, help="share of each movement's members kept")
+    ap.add_argument("--endpoint", choices=sorted(ENDPOINTS), default="qlever",
+                    help="SPARQL endpoint (QLever's Wikidata mirror by default: WDQS was rate-limited)")
+    ap.add_argument("--cached-links-only", action="store_true",
+                    help="use only the Wikipedia article links already cached (the API is often rate-limited)")
     args = ap.parse_args()
+    ENDPOINT[0] = args.endpoint
+    CACHED_LINKS_ONLY[0] = args.cached_links_only
     os.makedirs(RAW, exist_ok=True)
 
     print("memberships")
@@ -469,9 +547,10 @@ def main():
 
     members = collections.defaultdict(set)
     via = collections.defaultdict(set)
-    region_of = {a: modern_region(info[a], continents) for a in artists if a in info}
+    regions_of = {a: modern_regions(info[a], continents) for a in artists if a in info}
+    region_of = {a: r[0] for a, r in regions_of.items()}
     for p in pairs:
-        if eligible(p["a"]) and (p["prop"] != "enwiki" or region_of.get(p["a"]) == p["region"]):
+        if eligible(p["a"]) and (p["prop"] != "enwiki" or p["region"] in regions_of.get(p["a"], [])):
             members[p["m"]].add(p["a"])
             via[p["m"]].add(p["prop"])
 

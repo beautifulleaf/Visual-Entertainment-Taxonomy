@@ -17,7 +17,7 @@ only for picks not already cached (for watchers, year and native title).
 Cells: Japanese, Taiwanese, Hong Kong and Filipino dramas for every decade
 from the 1960s; Korean and Chinese dramas before the 2010s.
 
-Polite rules as mdl_fetch.py (one request at a time, >= 1.5 s apart,
+Polite rules as mdl_fetch.py (one request at a time, --delay seconds apart, floor 1 s,
 identifying User-Agent, stop on 403/429/challenge, everything cached in
 data/raw/mdl/), with at most --max-requests new requests.
 
@@ -98,7 +98,7 @@ def main():
     ap.add_argument("--topup-min", type=int, default=5)
     ap.add_argument("--delay", type=float, default=mdl_fetch.DELAY)
     args = ap.parse_args()
-    mdl_fetch._delay[0] = max(mdl_fetch.DELAY, args.delay)
+    mdl_fetch._delay[0] = max(mdl_fetch.MIN_DELAY, args.delay)
     b = Budget(args.max_requests, args.offline)
     cells = [(c, d) for c in MDL_COUNTRY for d in DECADES[c]]
     rows = []

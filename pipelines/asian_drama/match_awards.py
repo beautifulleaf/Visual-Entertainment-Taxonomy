@@ -6,7 +6,7 @@ gives every Asian award row an MDL ID where one can be found.
 
 Rows taken from data/interim/tv_awards.csv:
   - every row of Baeksang, Golden Eagle, Flying Apsaras, Magnolia, Golden Bell
-    and the Asian Television Awards;
+    and the Asian Television Awards (except Magnolia's foreign series);
   - rows of the other awards whose country is East or Southeast Asian.
 
 Matching, first hit wins:
@@ -22,7 +22,7 @@ Matching, first hit wins:
                accepted when its listed title, or the native/AKA titles of its
                title page, match under the same country and year rules
                ("search" / "search_loose"). Polite: one request at a time,
-               >= 1.5 s apart, identifying User-Agent, stop on 403/429/challenge,
+               --delay s apart (floor 1 s), identifying User-Agent, stop on 403/429/challenge,
                all pages cached in data/raw/mdl/, at most --max-requests new
                requests (winners are searched before nominees).
 Matched titles outside the ranking get watchers, native title, country, type
@@ -306,16 +306,25 @@ def main():
     ap.add_argument("--offline", action="store_true", help="cached pages only, no MDL or Wikidata requests")
     ap.add_argument("--winners-only", action="store_true", help="search MDL for winners only, not nominees")
     ap.add_argument("--delay", type=float, default=mdl_fetch.DELAY,
-                    help=f"seconds between MDL requests (min {mdl_fetch.DELAY})")
+                    help=f"seconds between MDL requests (min {mdl_fetch.MIN_DELAY})")
     args = ap.parse_args()
-    mdl_fetch._delay[0] = max(mdl_fetch.DELAY, args.delay)
+    mdl_fetch._delay[0] = max(mdl_fetch.MIN_DELAY, args.delay)
 
     with open(AWARDS, encoding="utf-8") as f:
         rows = [r for r in csv.DictReader(f)
                 if r["award"] in ASIAN_AWARDS or r["country"] in ASIAN_COUNTRIES]
+    # Magnolia also honours foreign series (Downton Abbey, Game of Thrones): rows that
+    # resolved through their QID to a non-Asian country are foreign and are not matched.
+    # Otherwise an Asian award's country comes from the award, unless the row's own
+    # country came from its QID (title-matched countries are often wrong, e.g. Cliff -> IS).
+    rows = [r for r in rows if not (r["award"] == "Magnolia" and r["match"] == "qid"
+                                    and r["country"] and r["country"] not in ASIAN_COUNTRIES)]
     for r in rows:
-        r["_country"] = r["country"] if r["country"] in ASIAN_COUNTRIES else (
-            "" if r["country"] else AWARD_COUNTRY.get(r["award"], ""))
+        own = r["country"] if r["country"] in ASIAN_COUNTRIES else ""
+        if r["award"] in ASIAN_AWARDS:
+            r["_country"] = own if (own and r["match"] == "qid") else AWARD_COUNTRY.get(r["award"], own)
+        else:
+            r["_country"] = own
     print(f"Asian award rows: {len(rows)} ({sum(r['won'] == '1' for r in rows)} winners)")
 
     index, ranked = load_index()
