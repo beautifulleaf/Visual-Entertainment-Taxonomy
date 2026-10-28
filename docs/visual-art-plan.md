@@ -187,6 +187,21 @@ This is the hardest part. No single source measures prominence the way IMDb or L
 
 Wikidata is therefore a good **candidate pool and ID crosswalk**, but weak as a prominence measure for living artists, because sitelinks lag a career by 5–15 years.
 
+### 3.1b Candidate pool (measured 2026-10-28, `pipelines/contemporary_art/build_pool.py`)
+- **Rule:** a person enters by either route:
+  - *occupation rule:* any visual-art occupation, born ≥1920, sitelinks ≥3;
+  - *market rule:* an Artnet, Artsy or MoMA ID plus an art occupation (sitelinks ≥1). The occupation requirement keeps out the subjects and celebrities those databases also index; film occupations are excluded.
+  - Collectives are included when typed as artist collectives.
+- **Pool: 48,269 artists**, 28,779 living. 38,161 come in by the occupation rule, 18,786 by the market rule (9,838 market-only).
+  - By region: Europe 26,941 · North America 10,000 · Latin America 2,745 · East Asia 2,183 · MENA 2,096 · Sub-Saharan Africa 1,172 · Oceania 1,038 · South Asia 853 · Southeast Asia 406 · Central Asia 61 · unknown 697.
+  - By primary medium: painting 18,899 · photography 7,523 · architecture 5,167 · sculpture 4,556 · design 3,623 · drawing 3,578 · installation, performance and conceptual 1,020 · new media 541 · street art 476.
+- **Signals:**
+  - Artnet 13,024, Artsy 8,048, MoMA 5,945 (18,875 have at least one); ULAN 14,919; museum IDs 10,912; awards (P166) 13,674.
+  - Too thin to use: gallery representation (P1875, 1,867) and exhibition history (P608, 70).
+- **Canon-list join:** 579 pool artists are on Kunstkompass, the Power 100 or the Artprice lists.
+- **Caveats for scoring:**
+  - `art_occ_share` (art occupations ÷ all occupations) is needed: celebrities who also paint or design (Bowie, George W. Bush) are in the pool on occupation.
+  - Wikidata currently gives Yayoi Kusama a 2026 death date. Check it before relying on `living`.
 ### 3.2 Signals and sources
 
 | Signal | Source | Access | What it captures |

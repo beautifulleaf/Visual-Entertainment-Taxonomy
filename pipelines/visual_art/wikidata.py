@@ -1,4 +1,5 @@
 """Small Wikidata SPARQL helper shared by the visual-art pipelines."""
+import http.client
 import json
 import time
 import urllib.error
@@ -18,6 +19,10 @@ def sparql(query, retries=8):
             with urllib.request.urlopen(req, timeout=300) as r:
                 data = json.load(r)
             break
+        except (http.client.IncompleteRead, ConnectionError, json.JSONDecodeError) as e:
+            # Dropped or truncated responses: retry like other network errors.
+            print(f"    SPARQL {type(e).__name__}, retrying")
+            time.sleep(min(120, 5 * 2 ** attempt))
         except urllib.error.HTTPError as e:
             wait = int(e.headers.get("Retry-After") or 0) or min(120, 5 * 2 ** attempt)
             print(f"    SPARQL HTTP {e.code}, retrying in {wait}s")
