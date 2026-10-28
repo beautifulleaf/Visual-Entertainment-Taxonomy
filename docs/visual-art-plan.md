@@ -181,6 +181,19 @@ The AAT columns in the tradition and architecture outputs stay empty. If the tax
   - Africa and Oceania stay thin in these sources. The Met (about 12k objects in its Africa/Oceania/Americas cultures) and the Smithsonian NMAI remain the main sources there, and a targeted Africa and Oceania sweep is running.
   - Caveats: manuscripts count once per folio; 12k undated V&A records are not reachable through its API.
 
+- **East Asia sweep** (`pipelines/regional/east_asia.py`): **205,989 objects, 10,350 artists, 804 tradition cells**. Sources:
+  - ColBase 143k;
+  - Japan's national designated-property register: 959 国宝 and 10,247 重要文化財;
+  - National Palace Museum: 18k paintings, calligraphy works and fans item by item, plus 144k catalogue counts by dynasty × category;
+  - e-Museum Korea: all 국보 and 보물, plus the National Museum of Korea's paintings;
+  - Cleveland; AIC.
+
+  Findings:
+  - **Top artists by designated properties:** Kim Hong-do, Sesshū, Buson, Kōrin, Tōhaku, Ōkyo, Taiga; Japanese swordsmiths also rank high. **By objects:** Hiroshige, Hokusai, Utamaro, Dong Qichang, Wang Hui, Wen Zhengming, Shen Zhou.
+  - **Attribution profile confirmed:** painting is artist-led (attributed share China 86%, Japan 56%, Korea 31%). Ceramics, sculpture and metalwork are tradition-led (1–7%; Japanese named potters are the exception).
+  - **Thin cells for the audit:** Goguryeo, Balhae, Gaya and Korean Neolithic; Xin, Qin and Xi Xia.
+  - **Unreachable:** NPM bulk dumps (connection reset; the other categories enter as counts only) and the Korea API (needs a data.go.kr key).
+
 ### 2.2 Gathering exit criterion: coverage audit (decided 2026-10-28)
 Node creation happens in the classifying stage. Gathering must hand it **evidence for every region at the level that region records**, so that no non-Western tradition drops out because it lacks artist names.
 - **Grid:** before gathering closes, build a region × period audit grid. Per cell, it counts:
