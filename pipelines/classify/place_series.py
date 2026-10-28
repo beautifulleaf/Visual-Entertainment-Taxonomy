@@ -176,6 +176,7 @@ def merge():
     """Reviewed batches + overrides → taxonomy/series/{anime,tv,unscripted}_placements.csv."""
     known = {l[0] for v in FT.LEAVES.values() for l in v}
     ov = {r["id"]: r for r in rd(os.path.join(ROOT, "seeds", "classify", "series_overrides.csv"))}
+    sw = {r["id"]: r for r in rd(os.path.join(R, "sweep_out.csv"))}
     for name, prefixes, ev in (("anime", ("anime",), anime_rows), ("tv", ("tv", "drama"), None), ("unscripted", ("unscripted",), unscripted_rows)):
         inputs, out = {}, {}
         for f in sorted(os.listdir(R)):
@@ -187,6 +188,8 @@ def merge():
         rows = []
         for i, src in inputs.items():
             o = dict(out.get(i, {"leaf": "unplaced"}))
+            if i in sw:
+                o.update({k: sw[i][k] for k in ("leaf", "see_also", "confidence", "note") if sw[i].get(k)}, by="sweep")
             if i in ov:
                 o.update({k: ov[i][k] for k in ("leaf", "see_also", "note") if k in ov[i]}, by="override")
             rows.append({"id": i, "title": src.get("title", ""), "year": src.get("year") or src.get("years") or src.get("first_year", ""),
