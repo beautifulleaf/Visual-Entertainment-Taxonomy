@@ -50,7 +50,10 @@ Steps
      name, norm_name, lists, n_lists, editions, n_entries, best_rank, country,
      birth_year, qid, label, status (pool / resolved_not_in_pool / unresolved),
      in_pool, method (pool_join / same_name / exact / prefix / wbsearch / members),
-     evidence, ambiguous, alternatives, member_qids, region.
+     evidence, ambiguous, alternatives, member_qids, unverified_qids, region.
+     unverified_qids (unresolved rows only): same-name humans or groups whose items
+     carry no evidence either way (stubs with no occupation, dates, country or
+     description), kept as leads for a manual check, not as matches.
      Duos resolved only through their members keep qid blank and list member_qids;
      status then follows the members. Unresolved artists stay in as list-only
      candidates, carried by the list itself (auto-include rule).
@@ -990,7 +993,7 @@ def main():
 
     art = bp.art_occupations()
     facts, troots = {}, {}
-    results, methods = {}, {}
+    results, methods, unverified = {}, {}, {}
 
     def judge_stage(cands, method):
         nonlocal facts, troots
@@ -1008,6 +1011,15 @@ def main():
             if res:
                 results[key], methods[key] = res, method
                 n += 1
+                unverified.pop(key, None)
+                continue
+            # Same-name humans / groups with no evidence either way (stub items with
+            # no occupation, dates, country or description): kept as unverified leads.
+            for q, m in c.items():
+                if q in facts and judge.kind(q) and m in ("exact", "exact-norm", "normalised"):
+                    ev = judge.evaluate(targets[key], q, m)[2]
+                    if not any(e.startswith(("birth conflict", "birth near")) for e in ev):
+                        unverified.setdefault(key, set()).add(q)
         print(f"  {method}: {n} resolved ({sum(1 for c in cands.values() if c)} targets had name hits)")
         return judge
 
@@ -1093,7 +1105,9 @@ def main():
             "label": (facts.get(q) or {}).get("label", "") or (pool.get(q) or {}).get("label", "") if q else "",
             "status": status, "in_pool": int(in_pool), "method": a["method"] or "",
             "evidence": a.get("evidence", ""), "ambiguous": a.get("ambiguous", 0),
-            "alternatives": a.get("alternatives", ""), "member_qids": "|".join(mq), "region": region,
+            "alternatives": a.get("alternatives", ""), "member_qids": "|".join(mq),
+            "unverified_qids": "" if status != "unresolved" else "|".join(sorted(unverified.get(key, ()))),
+            "region": region,
             "_tie": a.get("tie", 0), "_entries": es,
         })
     out.sort(key=lambda r: (r["status"], r["name"].lower()))
@@ -1114,6 +1128,7 @@ def main():
     print(f"\n{len(out)} distinct list artists: " + ", ".join(f"{k} {v}" for k, v in st.most_common()))
     print("resolved by method: " + ", ".join(f"{k} {v}" for k, v in newly.most_common()))
     print(f"ambiguous: {sum(r['ambiguous'] for r in out)} (tied scores: {sum(r['_tie'] for r in out)})")
+    print(f"unresolved with unverified same-name leads: {sum(1 for r in out if r['unverified_qids'])}")
     print("\nper list (entries): before -> pool / resolved_not_in_pool / unresolved")
     per = collections.defaultdict(collections.Counter)
     for r in out:
