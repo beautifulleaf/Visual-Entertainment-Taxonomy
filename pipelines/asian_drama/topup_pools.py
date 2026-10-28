@@ -11,8 +11,12 @@ release-year range, sorted by popularity, with a result total:
 The top-up is defined operationally (decided 2026-10-28) as: per country x
 decade, the top max(--topup-min, --topup-share x result total) entries by MDL
 popularity. Listing entries of type Special count toward the total and the
-rank but are not picked (select.py keeps Drama only). Title pages are fetched
-only for picks not already cached (for watchers, year and native title).
+rank but are not picked (select.py keeps Drama only). Beyond each cell's top
+--keep (5), a pick also needs >= --floor (500) MDL watchers (decided
+2026-10-28). Title pages are fetched only for picks not already cached, in
+popularity order; once a cell's pick is known to be below the floor, its later
+picks are not fetched (watchers fall with MDL popularity) and are marked
+below_inferred.
 
 Cells: Japanese, Taiwanese, Hong Kong and Filipino dramas for every decade
 from the 1960s; Korean and Chinese dramas before the 2010s.
@@ -22,11 +26,12 @@ identifying User-Agent, stop on 403/429/challenge, everything cached in
 data/raw/mdl/), with at most --max-requests new requests.
 
 Output: data/interim/asian_drama_mdl_pools.csv
-  country, decade, result_total, quota, pool_rank, pick, mdl_id, title, type, year,
+  country, decade, result_total, quota, pool_rank, pick, floor, mdl_id, title, type, year,
   native_title, watchers
+  floor = keep | ok | below | below_inferred | unknown (select.py takes keep and ok)
 
 Usage:
-  python3 pipelines/asian_drama/topup_pools.py [--max-requests 1000] [--offline]
+  python3 pipelines/asian_drama/topup_pools.py [--max-requests 1000] [--floor 500] [--keep 5] [--offline]
 """
 import argparse
 import collections
@@ -90,6 +95,11 @@ def cached_title_page(mdl_id):
     return None
 
 
+def fill(r, page):
+    r["native_title"] = parse_details(page)["native_title"]
+    r["watchers"] = parse_title(page)["watchers"] or ""
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--max-requests", type=int, default=1000)
@@ -97,6 +107,8 @@ def main():
     ap.add_argument("--topup-share", type=float, default=0.15)
     ap.add_argument("--topup-min", type=int, default=5)
     ap.add_argument("--delay", type=float, default=mdl_fetch.DELAY)
+    ap.add_argument("--floor", type=int, default=500, help="watchers a pick needs beyond its cell's top --keep")
+    ap.add_argument("--keep", type=int, default=5, help="picks per cell kept regardless of the floor")
     args = ap.parse_args()
     mdl_fetch._delay[0] = max(mdl_fetch.MIN_DELAY, args.delay)
     b = Budget(args.max_requests, args.offline)
@@ -136,33 +148,73 @@ def main():
                              "pick": int(pick), **{k: e[k] for k in ("mdl_id", "title", "type", "year")}})
             print(f"  {c} {d}s: {n:5d} titles, quota {q:4d}, listed {len(entries):4d}, "
                   f"pages {page_no}{'' if page is not None else ' (budget out)'}")
-        # 3. title pages of picks (watchers, native title, year)
+        # 3. title pages of picks (watchers, native title, year), then the watchers floor
         picks = [r for r in rows if r["pick"]]
-        picks.sort(key=lambda r: r["pool_rank"])
+        by_cell = collections.defaultdict(list)
         for r in picks:
+            by_cell[(r["country"], r["decade"])].append(r)
+        for cell in by_cell.values():
+            cell.sort(key=lambda r: r["pool_rank"])
+            for i, r in enumerate(cell):
+                r["_i"] = i  # position among the cell's picks
+        for r in picks:  # cached pages first (free)
             p = cached_title_page(r["mdl_id"])
-            page = None
             if p:
                 with gzip.open(p, "rt", encoding="utf-8") as f:
-                    page = f.read()
-            else:
-                try:
-                    page = b.get("/" + r["mdl_id"])
-                except Missing:
-                    page = None
+                    fill(r, f.read())
+
+        def cut_from(cell):
+            """Index of the first pick past the kept top that is known to be below the floor;
+            watchers fall with MDL popularity, so every later pick of the cell is below it too."""
+            for r in cell[args.keep:]:
+                if r.get("watchers") not in (None, "") and int(r["watchers"]) < args.floor:
+                    return r["_i"]
+            return len(cell)
+
+        cut = {k: cut_from(c) for k, c in by_cell.items()}
+        todo = sorted((r for r in picks if r.get("watchers") in (None, "")), key=lambda r: r["pool_rank"])
+        for r in todo:
+            k = (r["country"], r["decade"])
+            if r["_i"] >= cut[k]:
+                continue  # already outside: below the floor by popularity order
+            try:
+                page = b.get("/" + r["mdl_id"])
+            except Missing:
+                page = None
             if page:
-                r["native_title"] = parse_details(page)["native_title"]
-                r["watchers"] = parse_title(page)["watchers"] or ""
+                fill(r, page)
+                if r["_i"] >= args.keep and r["watchers"] != "" and int(r["watchers"]) < args.floor:
+                    cut[k] = min(cut[k], r["_i"])
     except Blocked as e:
         print(f"stopped: {e}. Cached pages are kept; re-run to resume.")
 
-    cols = ["country", "decade", "result_total", "quota", "pool_rank", "pick", "mdl_id", "title", "type",
+    # floor status of each pick: keep (cell's top --keep), ok (>= --floor watchers),
+    # below (known below), below_inferred (after a known-below pick of its cell), unknown
+    picks = [r for r in rows if r["pick"]]
+    by_cell = collections.defaultdict(list)
+    for r in picks:
+        by_cell[(r["country"], r["decade"])].append(r)
+    for cell in by_cell.values():
+        cell.sort(key=lambda r: r["pool_rank"])
+        dead = False
+        for i, r in enumerate(cell):
+            w = r.get("watchers")
+            known = w not in (None, "")
+            if i < args.keep:
+                r["floor"] = "keep"
+            elif known and int(w) >= args.floor:
+                r["floor"] = "ok"
+            elif known and int(w) < args.floor:
+                r["floor"], dead = "below", True
+            else:
+                r["floor"] = "below_inferred" if dead else "unknown"
+    cols = ["country", "decade", "result_total", "quota", "pool_rank", "pick", "floor", "mdl_id", "title", "type",
             "year", "native_title", "watchers"]
     with open(OUT, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
         w.writeheader()
         w.writerows(rows)
-    picks = [r for r in rows if r["pick"]]
+    print("floor status of picks:", dict(collections.Counter(r["floor"] for r in picks)))
     print(f"new MDL requests: {b.used}; picks: {len(picks)} "
           f"({sum(bool(r.get('watchers')) for r in picks)} with watchers)")
     print("picks by country:", dict(collections.Counter(r["country"] for r in picks)))

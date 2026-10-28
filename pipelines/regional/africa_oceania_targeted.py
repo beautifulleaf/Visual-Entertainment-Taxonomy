@@ -646,8 +646,9 @@ def harvest_tepapa():
 # ---- Auckland
 # The endpoint sits behind a web-application firewall that answers SQL-looking
 # queries with a bot challenge: ORDER BY, UNION, "||" and GROUP_CONCAT separators
-# are all refused. So: plain id lists per department, then one simple query per
-# field over batches of ids (VALUES), POSTed a few seconds apart.
+# are all refused, as are some PREFIX declarations (so names are expanded to full IRIs).
+# So: plain id lists per department, then one simple query per field over batches of
+# ids (VALUES), POSTed a few seconds apart.
 AUCK_SPARQL = "https://api.aucklandmuseum.com/sparql"
 AUCK_BATCH = 800
 AUCK_DELAY = 3.0
@@ -674,12 +675,19 @@ AUCK_FIELDS = {
 MAORI_ORIGIN = re.compile(r"(?i)m[aā]ori|moriori|iwi hapu")
 
 
+def auck_expand(q):
+    """Prefixed names -> full IRIs, with no PREFIX block (the firewall challenges some PREFIX lines)."""
+    ns = dict(re.findall(r"PREFIX (\w+): <([^>]+)>", AUCK_PREFIX))
+    return re.sub(r"(?<![\w<\"])(%s):([A-Za-z_][\w.-]*\w)" % "|".join(ns),
+                  lambda m: f"<{ns[m.group(1)]}{m.group(2)}>", q)
+
+
 def auck_query(q, path):
     def fetch():
         saved = DELAY[0]
         DELAY[0] = max(DELAY[0], AUCK_DELAY)
         try:
-            return http(AUCK_SPARQL, data=urllib.parse.urlencode({"query": AUCK_PREFIX + q}).encode(),
+            return http(AUCK_SPARQL, data=urllib.parse.urlencode({"query": auck_expand(q)}).encode(),
                         headers={"Content-Type": "application/x-www-form-urlencoded"},
                         accept="application/sparql-results+json", timeout=300)
         finally:

@@ -3,7 +3,8 @@
 A drama is selected when any of these holds (reasons are listed together):
   watchers  MDL type Drama with watchers >= --min-watchers (5,000);
   topup     per country x decade, the top max(5, 15% of MDL's title count)
-            by MDL popularity: the picks of topup_pools.py for the cells it
+            by MDL popularity, and beyond the cell's top 5 only with >= 500
+            watchers: the picks of topup_pools.py (floor = keep|ok) for the cells it
             covers (Japanese, Taiwanese, Hong Kong, Filipino; Korean and
             Chinese before the 2010s). Other cells fall back to the top
             --topup-share (15%) by watchers of the cell within the top-5,000
@@ -108,12 +109,15 @@ def main():
         print(f"note: {AWARDS} missing; run match_awards.py for the award route")
 
     # per-country popularity pools (topup_pools.py)
-    pool_cells, pool_picks = set(), []
+    pool_cells, pool_picks, floor_cut = set(), [], collections.Counter()
     if os.path.exists(POOLS):
         with open(POOLS, encoding="utf-8") as f:
             for p in csv.DictReader(f):
                 pool_cells.add((p["country"], int(p["decade"])))
                 if p["pick"] != "1":
+                    continue
+                if p.get("floor", "ok") not in ("keep", "ok"):
+                    floor_cut[p.get("floor")] += 1
                     continue
                 k = num(p["mdl_id"])
                 if k not in items:
@@ -170,6 +174,7 @@ def main():
     # report
     by_type = collections.Counter(it["type"] or "?" for it in items.values())
     print(f"MDL entries: {len(items)} {dict(by_type)}; winning award rows matched: {n_award_rows}")
+    print(f"pool picks cut by the watchers floor: {sum(floor_cut.values())} {dict(floor_cut)}")
     print(f"selected dramas: {len(selected)}")
     print("  by reason (any):", dict(collections.Counter(r for it in selected for r in it["reasons"])))
     print("  by reason combination:", dict(collections.Counter(";".join(it["reasons"]) for it in selected)))
