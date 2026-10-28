@@ -271,6 +271,158 @@ def extract_rijks(limit=None):
     return final
 
 
+# ========================================================================= NMVW
+
+HDL = "<https://hdl.handle.net/20.500.11840/"
+CRM = "http://www.cidoc-crm.org/cidoc-crm/"
+NMVW_KEEP = ["E22_Human-Made_Object>", "purl.org/dc/terms/title>", "P108i_was_produced_by>",
+             "P7_took_place_at>", "P4_has_time-span>", "P82a_begin_of_the_begin>", "P82b_end_of_the_end>",
+             "P14_carried_out_by>", "P65_shows_visual_item>", "P138_represents>", "P2_has_type>",
+             "P45_consists_of>", "skos/core#prefLabel>", "skos/core#altLabel>", "skos/core#broader>",
+             "skos/core#inScheme>", "skos/core#exactMatch>", "20.500.11840/pi"]
+LIT = re.compile(r'"((?:[^"\\]|\\.)*)"(?:@([A-Za-z-]+)|\^\^<[^>]*>)?\s*\.\s*$')
+SCHEMES = {"conceptscheme1": "geo", "conceptscheme2": "objtype", "conceptscheme3": "culture",
+           "conceptscheme4": "function", "conceptscheme5": "material"}
+
+
+def _lit(s):
+    m = LIT.search(s)
+    if not m:
+        return None, None
+    v = m.group(1)
+    if "\\" in v:
+        try:
+            v = json.loads('"' + v.replace("\\'", "'") + '"')
+        except ValueError:
+            v = v.replace('\\"', '"').replace("\\n", " ")
+    return v, (m.group(2) or "")
+
+
+def _id(iri):
+    """Short id: object digits / termmasterN / piN / genid hex."""
+    iri = iri.strip("<>")
+    return iri.rsplit("/", 1)[-1]
+
+
+def _lines(path):
+    """zcat | grep -F prefilter (fast); falls back to Python filtering."""
+    import shutil
+    import subprocess
+    if shutil.which("zcat") and shutil.which("grep"):
+        args = ["grep", "-F"] + [x for p in NMVW_KEEP for x in ("-e", p)]
+        z = subprocess.Popen(["zcat", path], stdout=subprocess.PIPE)
+        g = subprocess.Popen(args, stdin=z.stdout, stdout=subprocess.PIPE, env=dict(os.environ, LC_ALL="C"))
+        z.stdout.close()
+        for b in g.stdout:
+            yield b.decode("utf-8", "replace")
+        g.wait()
+        z.wait()
+    else:
+        with gzip.open(path, "rt", encoding="utf-8", errors="replace") as f:
+            for line in f:
+                if any(p in line for p in NMVW_KEEP):
+                    yield line
+
+
+def extract_nmvw(limit=None):
+    """One pass over the dump: per-object slim records + thesaurus, cached."""
+    cache = os.path.join(RAW, "nmvw", "objects.jsonl.gz")
+    thes_cache = os.path.join(RAW, "nmvw", "thesaurus.json.gz")
+    if os.path.exists(cache) and os.path.exists(thes_cache) and not limit:
+        return cache, thes_cache
+    dump = download(NMVW_DUMP, os.path.join(RAW, "nmvw", "collection-archives.nt.gz"))
+    objs, title, prod, place, tspan, begin, end, maker = set(), {}, {}, {}, {}, {}, {}, {}
+    vis, rep, otype, mat = {}, {}, {}, {}
+    pref, alt, broader, scheme, aat, pilabel = {}, {}, {}, {}, {}, {}
+    n = 0
+    t0 = time.time()
+    for line in _lines(dump):
+        n += 1
+        if n % 5_000_000 == 0:
+            log(f"nmvw: {n:,} filtered lines ({time.time() - t0:.0f}s), {len(objs):,} objects")
+        if limit and n > limit:
+            break
+        try:
+            s, p, rest = line.split(" ", 2)
+        except ValueError:
+            continue
+        p = p.strip("<>")
+        sid = _id(s)
+        is_obj = s.startswith(HDL) and sid.isdigit()
+        if p.endswith("#type"):
+            if is_obj and "E22_Human-Made_Object" in rest:
+                objs.add(sid)
+            continue
+        o = rest.rsplit(" ", 1)[0].strip()
+        if p == "http://purl.org/dc/terms/title" and is_obj:
+            title[sid] = _lit(rest)[0]
+        elif p == CRM + "P108i_was_produced_by" and is_obj:
+            prod.setdefault(sid, []).append(_id(o))
+        elif p == CRM + "P7_took_place_at":
+            place.setdefault(sid, []).append(_id(o))
+        elif p == CRM + "P4_has_time-span":
+            tspan[sid] = _id(o)
+        elif p == CRM + "P82a_begin_of_the_begin":
+            begin[sid] = (_lit(rest)[0] or "")[:5]
+        elif p == CRM + "P82b_end_of_the_end":
+            end[sid] = (_lit(rest)[0] or "")[:5]
+        elif p == CRM + "P14_carried_out_by":
+            maker.setdefault(sid, []).append(_id(o))
+        elif p == CRM + "P65_shows_visual_item" and is_obj:
+            vis.setdefault(sid, []).append(_id(o))
+        elif p == CRM + "P138_represents":
+            rep.setdefault(sid, []).append(_id(o))
+        elif p == CRM + "P2_has_type" and is_obj and "termmaster" in o:
+            otype.setdefault(sid, []).append(_id(o))
+        elif p == CRM + "P45_consists_of" and is_obj:
+            mat.setdefault(sid, []).append(_id(o))
+        elif p.startswith("http://www.w3.org/2004/02/skos/core#") and "termmaster" in s:
+            k = p.rsplit("#", 1)[1]
+            if k == "prefLabel":
+                v, lang = _lit(rest)
+                pref.setdefault(sid, {})[lang] = v
+            elif k == "altLabel":
+                v, lang = _lit(rest)
+                if lang == "en":
+                    alt.setdefault(sid, v)
+            elif k == "broader":
+                broader.setdefault(sid, _id(o))
+            elif k == "inScheme":
+                scheme[sid] = SCHEMES.get(_id(o), _id(o))
+            elif k == "exactMatch" and "aat" in o:
+                aat.setdefault(sid, _id(o))
+        elif p == "http://www.w3.org/2000/01/rdf-schema#label" and sid.startswith("pi"):
+            pilabel[sid] = _lit(rest)[0]
+    log(f"nmvw: {n:,} lines; {len(objs):,} objects, {len(prod):,} with production, "
+        f"{len(vis):,} with visual items, {len(pref):,} thesaurus terms, {len(pilabel):,} makers")
+    thes = {t: {"pref": pref.get(t, {}).get("") or next(iter(pref.get(t, {}).values()), ""),
+                "en": pref.get(t, {}).get("en") or alt.get(t, ""), "broader": broader.get(t, ""),
+                "scheme": scheme.get(t, ""), "aat": aat.get(t, "")}
+            for t in set(pref) | set(broader) | set(scheme)}
+    sfx = ".sample" if limit else ""
+    with gzip.open(thes_cache + sfx + ".part", "wt", encoding="utf-8") as f:
+        json.dump(thes, f, ensure_ascii=False)
+    os.replace(thes_cache + sfx + ".part", thes_cache + sfx)
+    with gzip.open(cache + sfx + ".part", "wt", encoding="utf-8") as f:
+        for oid in sorted(objs | set(title) | set(prod), key=lambda x: int(x)):
+            places, makers, b, e = [], [], [], []
+            for pr in prod.get(oid, []):
+                places += place.get(pr, [])
+                makers += [pilabel.get(m, m) for m in maker.get(pr, [])]
+                ts = tspan.get(pr)
+                if ts:
+                    b.append(begin.get(ts, ""))
+                    e.append(end.get(ts, ""))
+            terms = [t for v in vis.get(oid, []) for t in rep.get(v, [])]
+            rec = {"id": oid, "title": title.get(oid, ""), "places": places, "terms": terms,
+                   "types": otype.get(oid, []), "mats": mat.get(oid, [])[:6], "makers": makers[:5],
+                   "begin": min((x for x in b if x), default=""), "end": max((x for x in e if x), default="")}
+            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    os.replace(cache + sfx + ".part", cache + sfx)
+    log(f"nmvw: cached {cache + sfx}")
+    return cache + sfx, thes_cache + sfx
+
+
 # ============================================================ known culture keys
 
 MET = "Metropolitan Museum of Art"
@@ -379,6 +531,8 @@ def main():
     run = [s for s in (args.only.split(",") if args.only else SOURCES) if s and s not in args.skip.split(",")]
     if "rijks" in run:
         extract_rijks(args.limit or None)
+    if "nmvw" in run:
+        extract_nmvw(args.limit or None)
 
 
 if __name__ == "__main__":
