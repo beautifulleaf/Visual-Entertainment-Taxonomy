@@ -69,6 +69,8 @@ ACTIVE = (1860, 1960)
 BIRTH_RANGE = (1790, 1936)        # anyone who can be active inside ACTIVE
 INCEPTION_RANGE = (1855, 1960)
 MEDIAN_BIRTH_RANGE = (1815, 1925)   # for movements with no inception date
+MAX_BIRTH_WESTERN = 1925            # members of European / North American movements
+MAX_BIRTH_NONWESTERN = 1940         # the modern pool's own limit (active by 1960)
 MAX_ASSOCIATION = 40              # P463-only groups larger than this are professional associations
 MIN_MEMBERS = 3
 SHARE, MIN_K, MAX_K = 0.30, 3, 60
@@ -243,6 +245,20 @@ def fetch_artists(qids):
                 rec[k].append(v)
         return out
     return chunked_cache("artists.json", qids, q)
+
+
+def fetch_fallback_labels(qids):
+    """A label for artists with no English one: 'mul', else any Latin-script language, else any."""
+    def q(chunk):
+        values = " ".join("wd:" + a for a in chunk)
+        best = {}
+        for r in sparql(f"""SELECT ?a ?l (LANG(?l) AS ?lang) WHERE {{ VALUES ?a {{ {values} }} ?a rdfs:label ?l }}"""):
+            lang = r.get("lang", "")
+            rank = 0 if lang == "mul" else 1 if lang in ("fr", "de", "es", "pt", "it", "nl", "id", "tr", "sv", "pl") else 2
+            if r["a"] not in best or rank < best[r["a"]][0]:
+                best[r["a"]] = (rank, r["l"])
+        return {a: best.get(a, (9, a))[1] for a in chunk}
+    return chunked_cache("fallback_labels.json", qids, q)
 
 
 def fetch_collections(qids):
@@ -582,6 +598,9 @@ def main():
     print(f"  {len(pairs)} artist-movement pairs, {len(movements)} movements, {len(artists)} artists")
     meta = fetch_movement_meta(movements)
     info = fetch_artists(artists)
+    fallback = fetch_fallback_labels(sorted(a for a, r in info.items() if not r["label"]))
+    for a, lab in fallback.items():
+        info[a]["label"] = lab
     countries = sorted({c for a in info.values() for k in ("P27", "birth_country", "death_country")
                         for c in a[k] if re.fullmatch(r"Q\d+", c)})
     continents = fetch_continents(countries)
@@ -640,6 +659,14 @@ def main():
         })
     kept = {r["movement_qid"]: r for r in mrows if r["kept"]}
     print(f"  {len(kept)} of {len(movements)} movements kept")
+    # Western movements: members born after 1925 are left to the contemporary pass
+    # (Rosenquist and Twombly are tagged abstract expressionism). Non-Western 1950s
+    # modernisms (Zaria, Nsukka, Bombay PAG) keep members up to the pool's limit.
+    for m, mr in kept.items():
+        cap = MAX_BIRTH_WESTERN if mr["region"] in WESTERN else MAX_BIRTH_NONWESTERN
+        members[m] = {a for a in members[m] if info[a]["birth"] is None or info[a]["birth"] <= cap}
+        mr["members_in_reference_span"] = len(members[m])
+    kept = {m: mr for m, mr in kept.items() if members[m]}
 
     # Curatorial signal for every member of a kept movement.
     pool = sorted({a for m in kept for a in members[m]})
@@ -686,11 +713,12 @@ def main():
     for a, ps in picks.items():
         # Listed once, WikiArt-style: under a movement of the artist's own region if
         # any, preferring P135 (declared movement) over group membership, then the
-        # largest movement (the major style); the other picks go to also_in.
+        # movement where the artist ranks highest relative to its quota (Matisse under
+        # Fauvism, not Impressionism), then the larger movement; the rest go to also_in.
         def pref(p):
             mm = p[0]
             return (kept[mm]["region"] != region_of[a], "P135" not in via[mm] and "enwiki" not in via[mm],
-                    -kept[mm]["members"], p[1])
+                    (p[1] - 1) / kept[mm]["quota"], -kept[mm]["members"])
         ps = sorted(ps, key=pref)
         m, rank = ps[0]
         rec = info[a]
@@ -705,7 +733,7 @@ def main():
         mr["reference_artists"] = picked.get(mr["movement_qid"], 0)
         mr["listed_under"] = sum(1 for r in rows if r["movement_qid"] == mr["movement_qid"])
     with open(os.path.join(OUT, "modern_reference_movements.csv"), "w", newline="", encoding="utf-8") as f:
-        cols = list(mrows[0]) + ["curatorial_coverage", "quota", "rule", "listed_under"]
+        cols = list(mrows[0]) + ["members_in_reference_span", "curatorial_coverage", "quota", "rule", "listed_under"]
         w = csv.DictWriter(f, fieldnames=list(dict.fromkeys(cols)))
         w.writeheader()
         w.writerows(sorted(mrows, key=lambda r: (-r["kept"], r["region"], -r["members"])))
