@@ -1,0 +1,300 @@
+pool_id,disposition,note
+met/aic:Japanese,tag:place,"Japanese: textiles, sword furniture, ceramics evidence feeds Yūzen, Japanese Sword Mountings, Arita etc."
+met/aic:Chinese,tag:place,"Chinese: ceramics, textiles, jade evidence feeds the Chinese ware, Kesi and Chinese Jade leaves"
+met/aic:Qing dynasty,tag:period,"ceramics/snuff bottles: Chinese Snuff Bottles, Famille Rose, Kesi"
+met/aic:Edo period,tag:period,"netsuke, textiles, ceramics"
+manuscripts:Dunhuang and early Chinese manuscripts (to 1000),leaf:L6,evidence columns are noisy (European codices); label fits
+world_folk:Katagami (paper stencils),leaf:L107,katagami stencils (1824 objects)
+met/aic:Meiji period,tag:period,netsuke 678
+met/aic:Ming dynasty,tag:period,ceramics: Chinese Blue-and-White Porcelain
+"met/aic:Chinese, Export",leaf:L73,ceramics 613 of 1230
+manuscripts:Chinese illustrated manuscripts and scrolls (1000+),route:artist-led,"illustrated scrolls by named painters (Chen Shizeng, Li Keran)"
+manuscripts:Japanese manuscripts and Nara-ehon,leaf:L1,named illuminators in evidence are mis-linked painters
+met/aic:Korean,tag:place,"Korean: ceramics evidence feeds Goryeo Celadon, Buncheong, Joseon White Porcelain"
+world_folk:Chinese shadow puppets (piyingxi),leaf:L14,
+"gap_sweep:Ainu textiles and carving (attush, ruunpe, ikupasuy)",alias:L105,
+world_folk:Kasuri (Japanese ikat),leaf:L111,
+world_folk:Chinese paper-cutting (jianzhi),alias:L10,
+met/aic:Han dynasty,tag:period,tomb pottery: Mingqi
+met/aic:Tang dynasty,tag:period,"tomb pottery: Mingqi, Tang Sancai"
+world_folk:Ainu textiles and carving,leaf:L105,Ainu: textiles leaf; carving is the Ainu Woodcarving leaf
+met/aic:Song dynasty,tag:period,"ceramics: Song wares (Ru, Guan, Jun, Ding, Jian, Longquan)"
+gap_sweep:Chinese paper-cutting (jianzhi),alias:L10,
+met/aic:Zhou dynasty,tag:period,"metalwork, jade: Chinese Ritual Bronzes, Chinese Jade"
+met/aic:Goryeo dynasty,tag:period,ceramics: Goryeo Celadon
+met/aic:Yuan dynasty,tag:period,"ceramics, lacquer: Carved Lacquer"
+met/aic:Joseon dynasty,tag:period,"ceramics: Buncheong, Joseon White Porcelain"
+met/aic:Jōmon period,tag:period,period of Jōmon Pottery
+met/aic:Ming,tag:period,paintings: artist pass
+met/aic:Momoyama period,tag:period,"ceramics 90: Shino, Oribe, Raku"
+met/aic:Edo,route:africa,"Met ""Edo"" culture is the Edo people of Benin (sculpture, metalwork, ivory; child row Edo, Bini-Portuguese): Benin court art, not the Japanese period"
+gap_sweep:Japanese mingei (folk-craft) movement,route:artist-led,"Mingei movement: Yanagi, Hamada, Munakata; folk kilns placed as ware leaves"
+manuscripts:Japanese emaki (Yamato-e),route:artist-led,emaki: Yamato-e painting by Tosa and court painters (A2)
+met/aic:Muromachi period,tag:period,
+world_folk:Korean najeon (mother-of-pearl lacquer),leaf:L125,
+"gap_sweep:Japanese folk textiles (tsutsugaki, sashiko, kogin, boro, sakiori)",leaf:L109,"row also lists sashiko, kogin, boro, sakiori: see Sashiko"
+met/aic:Kofun period,tag:period,Haniwa
+met/aic:Shang dynasty,tag:period,Chinese Ritual Bronzes
+world_folk:Chinese New Year prints (nianhua),alias:L5,
+"met/aic:Chinese, Suzhou",alias:L5,"Met ""Chinese, Suzhou"" prints (106, Qing) are Suzhou (Gusu) prints = the Taohuawu kind"
+met/aic:Kamakura period,tag:period,Japanese Buddhist Sculpture
+manuscripts:Korean: Joseon manuscripts and uigwe,leaf:L7,
+"gap_sweep:Ryukyuan weaving (bashofu, kasuri, Shuri)",alias:L93,Ryukyuan weaving row carries the Bashōfu QID; Shuri weaving is its own leaf
+manuscripts:Emakimono (narrative handscrolls),route:artist-led,emaki: Yamato-e painting by Tosa and court painters (A2)
+"met/aic:Chinese, Xinjiang Autonomous Region",route:himalaya_central_asia,Tibetan Empire and Khotan metalwork from Xinjiang
+met/aic:Jin dynasty,tag:period,"ceramics 76: Cizhou Ware, Jun Ware"
+gap_sweep:Ryukyu lacquer,leaf:L124,
+met/aic:North China,tag:place,steppe metalwork evidence for Ordos Bronzes
+gap_sweep:Zhuxianzhen New Year prints (Kaifeng),kind:L5/Zhuxianzhen,
+"met/aic:Japanese, Export",kind:L76/export,Japanese export ceramics (77) are mainly Arita/Imari
+met/aic:Heian period,tag:period,
+met/aic:Northwest China,tag:place,steppe metalwork evidence for Ordos Bronzes
+east_asia:Japan Paleolithic (Japan),exclude:archaeological tools,Palaeolithic stone tools
+smithsonian:Japanese,tag:place,SAAM Japanese prints (20th-c. woodcuts): artist pass
+smithsonian:Chinantec,route:mesoamerica_south_america,"Chinantec are an Oaxacan people (Mexico), mis-regioned"
+rijks/wereldmuseum:Kyoto,route:artist-led,photographs by Felice Beato and Kusakabe Kimbei (family J)
+"gap_sweep:Miao (Hmong) textiles: embroidery, batik, pleated skirts",leaf:L104,
+"world_folk:Japanese folk toys (kyodo gangu, hariko, Fushimi dolls)",kind:L22/kyōdo gangu,folk toys incl. hariko and Fushimi dolls
+gap_sweep:Ema (votive plaques),leaf:L3,
+gap_sweep:Chinese New Year prints (nianhua),leaf:L5,
+gap_sweep:Ryukyuan bingata (stencil-dyed textiles),alias:L108,
+rijks/wereldmuseum:Waropen,route:oceania_australia,"Waropen, Geelvink Bay, New Guinea"
+manuscripts:Japanese illustrated sutras,leaf:L8,Heike Nōkyō and fan sutras
+met/aic:Nara period,tag:period,
+world_folk:Kokeshi,leaf:L23,
+gap_sweep:Otsu-e (Otsu folk painting),leaf:L2,
+met/aic:Liao dynasty,tag:period,"Liao sculpture, sancai"
+world_folk:Otsu-e,alias:L2,
+gap_sweep:Korean bojagi (wrapping cloths),leaf:L102,
+gap_sweep:Taohuawu (Suzhou) prints,kind:L5/Taohuawu,
+gap_sweep:Korean hwagak (painted ox-horn),alias:L120,
+world_folk:Korean bojagi,alias:L102,
+"in_situ:Southern Chinese rock art (Cangyuan, Lianyungang, Jiangjunya)",exclude:umbrella,"mixes petroglyph sites (Cangyuan, Jiangjunya) with Buddhist rock carvings (Dazu: kind of Chinese Buddhist Sculpture); no attested umbrella"
+gap_sweep:Miao silverwork,leaf:L87,
+met/aic:Northern Wei,tag:period,tomb pottery: Mingqi
+met/aic:Chinese with French mounts,route:europe_other,Chinese porcelain with European gilt-bronze mounts: European mounted porcelain
+met/aic:Yayoi period,tag:period,Yayoi Pottery
+world_folk:Bingata,leaf:L108,
+"in_situ:Korean petroglyphs (Bangudae, Cheonjeon-ri)",leaf:L130,
+gap_sweep:Yao (Mien) embroidery and ritual paintings,tag:place,Yao (Mien): culture label; no attested Yao tradition label
+world_folk:Korean hwagak (painted ox horn),alias:L120,
+gap_sweep:Yi (Nuosu) lacquerware and textiles,alias:L126,Yi (Nuosu) lacquerware and textiles: lacquer is the named tradition
+gap_sweep:Korean minhwa folk painting,leaf:L4,
+met/aic:Paiwan,tag:place,"Paiwan (Taiwan) carving: culture label, no attested Paiwan tradition label in evidence"
+world_folk:Japanese mingei,route:artist-led,"Mingei movement: Yanagi, Hamada, Munakata; folk kilns placed as ware leaves"
+"met/aic:British, London mounts and Chinese porcelain",route:europe_other,Chinese porcelain with European gilt-bronze mounts: European mounted porcelain
+met/aic:Western Zhou,tag:period,Chinese Ritual Bronzes
+world_folk:Ema (votive plaques),alias:L3,
+"in_situ:Japanese tomb and temple wall painting (Takamatsuzuka, Kitora, Hōryū-ji)",leaf:L135,
+world_folk:Yi (Nuosu) lacquerware,leaf:L126,
+gap_sweep:Yangliuqing New Year prints (Tianjin),kind:L5/Yangliuqing,
+gap_sweep:Korean folk masks (Hahoe tal),kind:L16/Hahoe,Hahoetal masks (National Treasure)
+in_situ:Zuojiang Huashan rock paintings,leaf:L129,
+"in_situ:Japanese rock carvings (Fugoppe, Temiya)",leaf:L131,
+world_folk:Korean minhwa (folk painting),alias:L4,
+in_situ:Dunhuang (Mogao and Yulin) cave murals,leaf:L133,
+in_situ:Japanese wall painting (other),exclude:umbrella,Japanese wall painting (other): Daigo-ji pagoda and Murō-ji murals; no leaf yet (see problems)
+"met/aic:Chinese, Henan Province",tag:place,
+manuscripts:ukiyo-e,route:artist-led,ukiyo-e (B2): school and makers built in the artist pass
+"in_situ:Helan, Yinshan and northern Chinese petroglyphs",leaf:L132,
+met/aic:early Goryeo,tag:period,
+met/aic:late Unified Silla,tag:period,
+world_folk:Suzhou embroidery (Su xiu),leaf:L96,
+world_folk:Bashofu (Ryukyuan banana-fibre cloth),leaf:L93,
+gap_sweep:Weifang / Yangjiabu New Year prints,kind:L5/Yangjiabu,
+gap_sweep:Wuqiang New Year prints (Hebei),kind:L5/Wuqiang,
+gap_sweep:Suzhou embroidery (Su xiu),alias:L96,
+gap_sweep:Naxi Dongba manuscripts and painting,leaf:L9,
+in_situ:rock relief - People's Republic of China (medieval),kind:L19/rock-cut,Rongxian Giant Buddha
+in_situ:rock relief - People's Republic of China (undated),kind:L19/cave temples,Bingling Temple
+in_situ:rock relief - South Korea (undated),kind:L20/rock-cut,Seosan rock-carved triad
+"in_situ:Chinese Buddhist and Daoist temple murals (Yongle Palace, Fahai)",leaf:L134,
+"in_situ:Japanese screen and wall painting (shōhekiga, fusuma-e)",route:artist-led,fusuma and shōhekiga by the Kanō and Hasegawa schools (A2)
+in_situ:mural - Japan (modern),route:artist-led,modern murals and mosaics by named artists
+in_situ:Goguryeo tomb murals,leaf:L136,
+in_situ:Korean tomb and temple wall painting,exclude:umbrella,Korean tomb and temple wall painting: Muwisa mural; no leaf (see problems)
+in_situ:mosaic - Taiwan (undated),route:artist-led,modern murals and mosaics by named artists
+in_situ:mosaic - Japan (modern),route:artist-led,modern murals and mosaics by named artists
+in_situ:mosaic - South Korea (modern),route:artist-led,modern murals and mosaics by named artists
+in_situ:Modern land art (China),route:artist-led,modern land art
+world_folk:Cantonese embroidery (Yue xiu / Guangxiu),leaf:L99,
+"world_folk:Chinese clay figurines (Huishan, Clay Figure Zhang)",alias:L24,combined Huishan / Clay Figure Zhang row; Clay Figure Zhang has its own leaf
+world_folk:Hunan embroidery (Xiang xiu),alias:L97,
+world_folk:Bai tie-dye (zharan),leaf:L112,
+world_folk:Korean onggi,alias:L33,
+world_folk:ukiyo-e,route:artist-led,ukiyo-e (B2): school and makers built in the artist pass
+world_folk:kintsugi,leaf:L127,
+world_folk:cheongsam (qipao),exclude:garment type (P10),dress items belong to the Possession Taxonomy
+world_folk:washi,exclude:material production,"papermaking (washi, hanji)"
+world_folk:hanfu,exclude:garment type (P10),dress items belong to the Possession Taxonomy
+world_folk:Chinese ceramics,exclude:umbrella,Chinese ceramics: medium umbrella
+world_folk:Chinese paper cutting,leaf:L10,
+world_folk:Amigurumi,exclude:hobby craft,amigurumi
+world_folk:Kakiemon,leaf:L77,
+world_folk:Nihonga,route:artist-led,"painting schools (Nihonga, Yōga, Korean painting)"
+world_folk:sancai,leaf:L30,
+world_folk:Korean painting,route:artist-led,"painting schools (Nihonga, Yōga, Korean painting)"
+world_folk:shibori,leaf:L110,
+world_folk:seal cutting,route:artist-led,seal carving (zhuanke) belongs with calligraphy lineages
+world_folk:Imari ware,kind:L76/Imari,Imari is the port name for Arita export porcelain; Ko-Imari style
+world_folk:yakisugi,exclude:non-art,yakisugi wood charring
+world_folk:maki-e,leaf:L122,
+world_folk:New Year picture,alias:L5,
+world_folk:Yōga,route:artist-led,"painting schools (Nihonga, Yōga, Korean painting)"
+world_folk:Kutani ware,leaf:L80,
+world_folk:Utagawa school,route:artist-led,Utagawa school of ukiyo-e
+world_folk:Regong arts,route:himalaya_central_asia,Regong (Rebkong) Tibetan Buddhist thangka and sculpture
+world_folk:Amezaiku,exclude:food,amezaiku candy
+world_folk:kumihimo,leaf:L114,
+world_folk:Longquan celadon,leaf:L36,
+world_folk:Kraak porcelain,leaf:L71,
+world_folk:Satsuma ware,leaf:L32,
+world_folk:sashiko,leaf:L103,
+world_folk:Mokume-gane,kind:L86/mokume-gane,laminate technique devised for sword fittings
+world_folk:yosegi,leaf:L118,
+world_folk:onggi,leaf:L33,
+world_folk:Mingei,route:artist-led,"Mingei movement: Yanagi, Hamada, Munakata; folk kilns placed as ware leaves"
+world_folk:Bizen ware,leaf:L48,
+world_folk:Dudou,exclude:garment type (P10),dress items belong to the Possession Taxonomy
+world_folk:Blanc de Chine,leaf:L74,
+world_folk:Arita ware,leaf:L76,
+world_folk:Chinese embroidery,exclude:umbrella,Chinese embroidery: its named regional embroideries are leaves
+world_folk:Hagi ware,leaf:L55,
+world_folk:norigae,exclude:garment type (P10),norigae: hanbok accessory
+world_folk:Ding ware,leaf:L62,
+world_folk:Nabeshima ware,leaf:L78,
+world_folk:Shino ware,leaf:L46,
+world_folk:Koishiwara ware,leaf:L60,
+world_folk:Echigo-jofu,leaf:L94,
+world_folk:carved lacquer,leaf:L121,
+world_folk:Onta ware,leaf:L59,
+world_folk:Kurume kasuri,kind:L111/Kurume,
+world_folk:Mumyōi ware,leaf:L61,
+world_folk:Tu'er Ye,leaf:L26,
+world_folk:Huishan clay figurine,leaf:L24,
+world_folk:lacquering,kind:L125/chiljang,lacquering craft designation
+world_folk:Miyako jofu,kind:L111/Miyako-jōfu,
+world_folk:Gu embroidery,leaf:L100,
+world_folk:Wanchojang,leaf:L117,
+world_folk:Maedeupjang,leaf:L115,
+world_folk:Geumsok Hwaljajang,exclude:printing technology,metal movable type
+world_folk:Jasujang,leaf:L101,Jasujang: embroidery craft designation
+world_folk:Sagijang,kind:L75/sagijang,Sagijang: designated porcelain-making craft
+world_folk:Tsugaru-nuri,kind:L123/Tsugaru-nuri,
+world_folk:Hirose-gasuri,kind:L111/Hirose,
+world_folk:Duseokjang,exclude:trade,Duseokjang: furniture hardware making
+world_folk:Hansan Mosi Jjagi,alias:L95,
+world_folk:Dancheongjang,leaf:L137,
+world_folk:Kedao,exclude:song,Kedao: Miao toast song
+world_folk:Naju Saetgollai,exclude:plain-cloth production,Naju Saetgollai cotton weaving
+world_folk:Wooden movable-type printing of China,exclude:printing technology,wooden movable type
+world_folk:traditional Li textile techniques,leaf:L91,
+world_folk:Weaving of Mosi (fine ramie) in the Hansan region,leaf:L95,
+world_folk:China engraved block printing technique,exclude:printing technology,block printing technique
+world_folk:Najeonjang,alias:L125,
+world_folk:Mokjogakjang,kind:L20/wood (mokjogak),Mokjogakjang: wooden Buddhist sculpture
+world_folk:Hwagakjang,leaf:L120,Hwagakjang
+world_folk:Nubijang,exclude:trade,Nubijang: garment quilting
+world_folk:Bulhwajang,route:artist-led,Korean Buddhist painting (bulhwa) is painting; craft designation
+world_folk:Geumbakjang,leaf:L113,
+world_folk:Yeomsaekjang,exclude:technique,natural dyeing
+world_folk:Hanjijang,exclude:material production,"papermaking (washi, hanji)"
+world_folk:Beonwajang,route:VA-K,roof tiles and roofing (architecture)
+world_folk:Chimseonjang,exclude:trade,Chimseonjang: sewing (garment needlework)
+world_folk:Baekdong Yeonjukjang,exclude:trade,pipe making
+world_folk:Yugijang,leaf:L83,
+world_folk:Ipsajang,leaf:L84,
+world_folk:Chaesangjang,leaf:L116,
+world_folk:Myeongju Jjagi,exclude:plain-cloth production,Myeongju silk weaving
+world_folk:Sambae Jjagi,exclude:plain-cloth production,Sambae hemp weaving
+world_folk:Jangdojang,leaf:L88,
+world_folk:Jewajang,route:VA-K,roof tiles and roofing (architecture)
+world_folk:traditional Shuri weaving,leaf:L92,
+world_folk:Ojiya-chijimi and Echigo-jofu,alias:L94,
+"world_folk:Raiho-shin, ritual visits of deities in masks and costumes",exclude:ritual performance,Raiho-shin masked visits (performance; no mask tradition label)
+world_folk:Dong Ho woodblock prints,route:southeast_asia,Đông Hồ prints are Vietnamese
+gap_sweep:Mianzhu New Year prints (Sichuan),kind:L5/Mianzhu,
+gap_sweep:Hunan embroidery (Xiang xiu),leaf:L97,
+gap_sweep:Sichuan embroidery (Shu xiu),leaf:L98,
+gap_sweep:Cantonese embroidery (Yue xiu / Guangxiu),alias:L99,
+gap_sweep:Dong (Kam) textiles,tag:place,Dong (Kam): culture label
+"gap_sweep:Bai tie-dye (zharan, Dali)",alias:L112,
+gap_sweep:Zhuang brocade (zhuangjin),leaf:L90,
+gap_sweep:Li textiles (Hainan),alias:L91,
+gap_sweep:Regong (Rebkong) art,route:himalaya_central_asia,Regong (Rebkong) Tibetan Buddhist thangka and sculpture
+gap_sweep:Clay Figure Zhang,leaf:L25,
+gap_sweep:Chaekgeori,kind:L4/chaekgeori,folk chaekgeori; court chaekgeori is artist-led
+gap_sweep:Bulhwajang,route:artist-led,Bulhwajang: Korean Buddhist painting
+gap_sweep:Geumbakjang,alias:L113,
+gap_sweep:Yeomsaekjang,exclude:technique,natural dyeing
+gap_sweep:Hanjijang,exclude:material production,"papermaking (washi, hanji)"
+gap_sweep:Gungjung Chaehwa,exclude:ephemeral,Gungjung chaehwa: court silk flowers
+gap_sweep:Sambae Jjagi,exclude:plain-cloth production,Sambae hemp weaving
+gap_sweep:Goseong ogwangdae,kind:L16/Goseong ogwangdae,regional mask-dance drama: its mask set is the kind
+gap_sweep:Bunraku,leaf:L15,
+gap_sweep:Sericulture and silk craftsmanship of China,exclude:material production,sericulture
+gap_sweep:traditional Li textile techniques,alias:L91,
+gap_sweep:Dongnae Yaryu,kind:L16/Dongnae yaryu,regional mask-dance drama: its mask set is the kind
+gap_sweep:Jasujang,alias:L101,
+gap_sweep:Gangnyeong Talchum,kind:L16/Gangnyeong talchum,regional mask-dance drama: its mask set is the kind
+gap_sweep:Eunyul talchum,kind:L16/Eunyul talchum,regional mask-dance drama: its mask set is the kind
+gap_sweep:Wanchojang,alias:L117,
+gap_sweep:Hwahyejang,exclude:garment type (P10),shoe and horsehair hat/headband making
+gap_sweep:Longquan celadon,alias:L36,
+gap_sweep:Kakiemon,alias:L77,
+gap_sweep:Gannil,exclude:garment type (P10),shoe and horsehair hat/headband making
+gap_sweep:Maedeupjang,alias:L115,
+gap_sweep:Suyeong Yaryu,kind:L16/Suyeong yaryu,regional mask-dance drama: its mask set is the kind
+gap_sweep:Onggijang,alias:L33,Onggijang: master potter designation
+gap_sweep:Songpasandaenori,kind:L16/Songpa sandae nori,regional mask-dance drama: its mask set is the kind
+gap_sweep:Tongyeong ogwandae,kind:L16/Tongyeong ogwangdae,regional mask-dance drama: its mask set is the kind
+gap_sweep:Yangju byeolsandae nori,kind:L16/Yangju byeolsandae nori,regional mask-dance drama: its mask set is the kind
+gap_sweep:lacquering,alias:L125,chiljang ICH entry (kind chiljang)
+gap_sweep:Duseokjang,exclude:trade,Duseokjang: furniture hardware making
+gap_sweep:Geumsok Hwaljajang,exclude:printing technology,metal movable type
+gap_sweep:Hansan Mosi Jjagi,alias:L95,
+gap_sweep:Dancheongjang,alias:L137,
+gap_sweep:Hahoe byeolsingut talnori,alias:L16,Hahoe byeolsingut talnori: the drama of the Hahoe masks (kind Hahoe)
+gap_sweep:Bukcheong sajanoreum,kind:L16/Bukcheong saja noreum,regional mask-dance drama: its mask set is the kind
+gap_sweep:Naju Saetgollai,exclude:plain-cloth production,Naju Saetgollai cotton weaving
+gap_sweep:Tsugaru-nuri,alias:L123,Tsugaru-nuri ICH entry (kind)
+gap_sweep:Najeonjang,alias:L125,
+gap_sweep:Gwangju Chilseok Gossaum Nori,exclude:folk game,Korean folk games
+gap_sweep:Yeongsan Soemeori Daegi,exclude:folk game,Korean folk games
+gap_sweep:gungsijang,exclude:trade,bow and quiver making
+gap_sweep:Jangdojang,alias:L88,
+gap_sweep:Chaesangjang,alias:L116,
+gap_sweep:Tanggeonjang,exclude:garment type (P10),shoe and horsehair hat/headband making
+gap_sweep:Baekdong Yeonjukjang,exclude:trade,pipe making
+gap_sweep:Manggeonjang,exclude:garment type (P10),shoe and horsehair hat/headband making
+gap_sweep:Gasan Ogwangdae,kind:L16/Gasan ogwangdae,regional mask-dance drama: its mask set is the kind
+gap_sweep:Baltal,kind:L16/Baltal,regional mask-dance drama: its mask set is the kind
+gap_sweep:Yugijang,alias:L83,
+gap_sweep:Ipsajang,alias:L84,
+gap_sweep:Myeongju Jjagi,exclude:plain-cloth production,Myeongju silk weaving
+gap_sweep:Badijang,exclude:trade,Badijang: loom reed making
+gap_sweep:Jewajang,route:VA-K,roof tiles and roofing (architecture)
+gap_sweep:Sobanjang,leaf:L128,
+gap_sweep:Okjang,exclude:trade,Okjang: jade-working craft designation; no Korean jade tradition in the evidence (see Chinese Jade)
+gap_sweep:Shulaibao,exclude:performance,Shulaibao: storytelling performance
+gap_sweep:Bongsan Talchum,kind:L16/Bongsan talchum,regional mask-dance drama: its mask set is the kind
+gap_sweep:Hachioji Kuruma Ningyo,kind:L15/Hachiōji kuruma ningyō,
+gap_sweep:Hitachi Fūryūmono,exclude:festival performance,Hitachi Fūryūmono: festival float puppetry
+gap_sweep:Seonjajang,exclude:trade,Seonjajang: fan making
+gap_sweep:Sagijang,alias:L75,Sagijang ICH entry (kind sagijang)
+gap_sweep:Gakjajang,exclude:trade,Gakjajang: engraving of signboards and printing blocks
+gap_sweep:Daemokjang,route:VA-K,Daemokjang: timber architecture
+gap_sweep:washi,exclude:material production,"papermaking (washi, hanji)"
+gap_sweep:Jeontongjang,exclude:trade,bow and quiver making
+gap_sweep:Mokjogakjang,alias:L20,Mokjogakjang ICH entry (kind wood)
+gap_sweep:Hwagakjang,alias:L120,
+gap_sweep:Yeomjang,exclude:trade,Yeomjang: bamboo blinds
+gap_sweep:Weaving of Mosi (fine ramie) in the Hansan region,alias:L95,
+"gap_sweep:Raiho-shin, ritual visits of deities in masks and costumes",exclude:ritual performance,Raiho-shin masked visits (performance; no mask tradition label)
+gap_sweep:traditional Shuri weaving,alias:L92,
+manuscripts:Korean: Goryeo illuminated sutras,kind:L8/Goryeo,Goryeo illuminated sutras (sagyeong)
+in_situ:Chinese wall painting (other),exclude:umbrella,Chinese wall painting (other): 0 objects
+in_situ:Gozan no Okuribi (Kyoto bonfire characters),leaf:L138,
+"in_situ:Chinese tattooing traditions (Dulong, Li)",exclude:umbrella,"Chinese tattooing (Dulong, Li, Taiwan): several peoples, no attested umbrella; Taiwanese facial tattoo seam with southeast_asia"
+"in_situ:Irezumi and Japanese tattooing (incl. hajichi, Ainu)",leaf:L139,
+in_situ:Korean tattooing,exclude:umbrella,Korean tattooing: modern country bucket

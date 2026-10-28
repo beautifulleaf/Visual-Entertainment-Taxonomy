@@ -1,0 +1,83 @@
+tmp,kind,group,basis
+L27,Majiayao,culture,"excluded row rijks Chinese, Kansu (ceramics 6)"
+L28,Dogū,figurines,east_asia:Japan 조몬 object_type sculpture; P13
+L18,Zhenmushou (tomb guardians),type,"excluded rows Tomb guardian Q24834891; zhenmushou of Han, Chu and Tang style"
+L30,Huanan sancai,centre,excluded row Huanan sancai Q11620040
+L19,Xiangtangshan,cave temples,"excluded rows Chinese, Northern/Southern Xiangtangshan"
+L19,Dazu Rock Carvings,rock-cut,exemplar in row Southern Chinese rock art (Q651278)
+L22,Hakata ningyō,centre,excluded row Q3782485
+L22,Kyō-ningyō,centre,excluded row Q108568106
+L22,Iwatsuki dolls,centre,excluded row Q24871923
+L22,Suruga hina dolls,centre,excluded row Q96473405
+L22,Tsutsumi dolls,centre,excluded row 堤人形 Q114403216
+L34,Mise (secret-colour ware),type,excluded rows Secret colour ware Q97624035
+L34,Chicken-head ewers,type,excluded row chicken-head-spout pitcher Q18381206
+L40,Hare's-fur and oil-spot bowls,type,"excluded rows Jian tea bowl Q30949767; Jian (workshop, kiln)"
+L44,Mishima,type,excluded row Mishima pottery Q6875549
+L44,Kohiki,type,excluded row Kohiki Q11604451
+L44,Hakeme,type,excluded row Hakeme Q137660575
+L45,Ki-Seto,Mino kilns,excluded row Ki-Seto ware Q110065095
+L45,Setoguro,Mino kilns,excluded row Setoguro ware Q110065672
+L45,Seto sometsuke (blue-and-white),type,excluded row Seto ware blue and white porcelain Q96473413
+L45,Katō Shirōzaemon (Tōshirō),maker,"rijks Japanese, Seto top maker Toshiro"
+L48,Yaheita,maker,"rijks Japanese, Bizen top maker"
+L58,Awata ware,kiln,excluded row Q28154114
+L58,Kiyomizu ware,kiln,excluded row Q11561059
+L58,Mizoro ware,kiln,excluded row Q28154112
+L58,Otagaki Rengetsu,maker,excluded row Rengetsu ware Q11621672
+L32,Toyosai,maker,"rijks Japanese, Satsuma top maker"
+L65,Transitional porcelain,phase,excluded row Kangxi transitional porcelain Q6362946
+L65,Tianqi porcelain (ko-sometsuke),phase,excluded row Tianqi porcelain Q7699916
+L66,Chicken cups,type,excluded row Chicken cup Q98883591
+L68,Famille jaune,palette,excluded row Q12362552
+L68,Famille noire,palette,excluded row Q12362550
+L69,Falangcai,palace enamels,excluded row Q118594522
+L69,Yangcai,palace enamels,excluded rows yangcai Q24835166; Yangcai decoration
+L70,Peachbloom glaze,monochrome,excluded row Q97844482
+L70,Robin's-egg glaze,monochrome,excluded row Q98878100
+L70,Tea-dust glaze,monochrome,excluded row Q99674166
+L70,Underglaze red,technique,excluded row Q17038609
+L70,Anhua decoration,technique,excluded row Q98882866
+L73,Canton porcelain,centre,"excluded row Q5033984; rijks Chinese, Canton"
+L73,Rose Medallion,pattern,excluded row Q98878522
+L73,Rose Mandarin,pattern,excluded row Q98878424
+L73,Armorial porcelain,type,excluded row Q98874404
+L73,Jesuit porcelain,type,excluded row Q98462898
+L73,Chine de commande with Dutch decoration,type,"excluded rows Chinese with Dutch decoration (12, 8)"
+L74,He Chaozong,maker,"rijks Chinese, Dehua top maker"
+L75,Cheonghwa baekja (blue-and-white),type,excluded row Blue and white porcelain of Korea Q3616445
+L76,Kinrande,style,excluded row Q46352919
+L77,Sakaida Kakiemon XV,maker,"rijks Japanese, Arita top maker"
+L86,Higo school,school,"excluded row Japanese, Higo (sword furniture)"
+L89,Dragon robes,type,Qing textiles 1259 (Met)
+L99,Chaozhou (Chaoshan) embroidery,centre,excluded row Chaoshan embroidery Q15934782
+L103,Kogin and boro,type,"excluded row Sashiko, kogin and boro Q25203477"
+L103,Harakata-sashiko,type,excluded row Q77760288
+L106,Kyō-yūzen,centre,excluded row Q11374240
+L106,Kaga-yūzen,centre,excluded row Q11399657
+L107,Ise-katagami,centre,excluded row Q6079548
+L110,Tsujigahana,type,excluded row Q11638100
+L111,Iyo kasuri,centre,excluded row Q11378829
+L111,Bingo kasuri,centre,excluded row Q11387372
+L111,Kurayoshi kasuri,centre,excluded row Q17222488
+L111,Yumihama kasuri,centre,excluded row Q11487109
+L111,Isesaki kasuri,centre,excluded row Q11379011
+L123,Wajima-nuri,centre,excluded row Q11637708
+L123,Kamakura-bori,type,excluded row Q6355321
+L123,Aizu lacquerware,centre,excluded row Q4253290
+L123,Kishū lacquerware,centre,excluded row Q11605049
+L123,Raden,technique,excluded row Q860235
+L123,Ikkan-bari,technique,excluded row Q11353243
+L121,Qianlong imperial carved lacquer,phase,"excluded row Qing dynasty, Qianlong period (lacquer 3)"
+L82,Ordos region,centre,"excluded row rijks Chinese, Ordos-gebied"
+L139,Hajichi,type,row exemplar Q73968731
+L139,Ainu tattooing,type,row exemplar Q15783255
+L130,Cheonjeon-ri petroglyphs,site,"row label (Bangudae, Cheonjeon-ri)"
+L131,Temiya Cave,site,row exemplar Q105317841
+L132,Damaidi,site,row exemplar Q3012594
+L133,Yulin Caves,site,row exemplar Q751622
+L134,Fahai Temple murals,site,row exemplar Q1392042
+L135,Kitora Tomb,site,row exemplar Q846393
+L135,Hōryū-ji Golden Hall murals,site,row exemplar Q107020506
+L9,Dongba scroll paintings,type,row label Naxi Dongba manuscripts and painting
+L11,Meiji netsuke,phase,Meiji period row netsuke 678 (evidence of phase only)
