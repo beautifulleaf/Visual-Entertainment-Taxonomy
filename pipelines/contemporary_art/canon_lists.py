@@ -450,12 +450,53 @@ def venice():
                                     is_artist=1, role="participant", note=base.rsplit("/", 1)[-1], src=url))
                 page += 1
     for ed, url in VENICE_NEWS.items():
-        text = strip_html(fetch(url))
-        for m in re.finditer(r"(?m)^\s*([^\n,]{2,80}?)\s*,\s*(?:born|b\.|founded|established)\s+(\d{4})([^\n]*)", text):
-            place = [p.strip() for p in m.group(3).split(".")[0].split(",") if p.strip()]
-            rows.append(row("venice_biennale", ed, m.group(1), birth=m.group(2),
-                            country=place[-1] if place else "", is_artist=1, role="participant", src=url))
+        rows += venice_news(ed, url)
     return dedupe(rows)
+
+
+BIO_LINE = re.compile(r"^(?:[A-Z][a-z]+, )?(?:Born|born|Founded|founded),?\s+(\d{4})(.*)$")
+
+
+def venice_news(ed, url):
+    """'Artists' section of a news page: a name line ('A & B' for duos, 'Collective :' before its
+    members) followed by one 'Born 1983, Manila, Philippines. Lives in ...' line per person."""
+    text = strip_html(fetch(url))
+    k = text.find("\n               Artists")
+    k = k if k >= 0 else text.find("Artists\n")
+    end = min(x for x in (text.find("Share this page", k), len(text)) if x >= 0)
+    raw_lines = [l.replace("\t", " ").strip() for l in text[k:end].split("\n")]
+    rows, pending = [], []
+
+    def flush():
+        for n in pending:
+            rows.append(row("venice_biennale", ed, n["name"], birth=n.get("b", ""), country=n.get("c", ""),
+                            is_artist=1, role="participant", note=n.get("note", ""), src=url))
+        pending.clear()
+
+    for raw in raw_lines:
+        l = clean(raw)
+        if not l or l in ("Artists", "Out of competition") or re.match(r"(?i)special project|applied arts pavilion", l):
+            continue
+        m = BIO_LINE.match(l)
+        if m:
+            target = next((n for n in pending if "b" not in n), None)
+            if target is not None:
+                place = [x.strip() for x in re.split(r"\.\s+(?:Lives|D\.|\d{4})", m.group(2) + " ")[0].strip(" .").split(",") if x.strip()]
+                place = [x for x in place if not re.fullmatch(r"\d{4}|D", x)]
+                target["b"], target["c"] = m.group(1), (place[-1] if place else "")
+            continue
+        if l.startswith(("Lives", "D.")) or len(l) > 90:
+            continue
+        flush()
+        name = re.sub(r"\s+", " ", l).rstrip(" *")
+        if name.endswith(":"):  # a collective; its members follow with their own bio lines
+            rows.append(row("venice_biennale", ed, name.rstrip(" :"), is_artist=1, role="participant",
+                            note="collective", src=url))
+            continue
+        note = "out of competition" if raw.endswith("*") else ""
+        pending.extend({"name": n.strip(), "note": note} for n in name.split(" & "))
+    flush()
+    return rows
 
 
 def documenta():
@@ -690,7 +731,7 @@ def prize_prince_claus():
         lau = re.search(r"(?ms)^===\s*Laureates\s*===.*?\n(.*?)(?=^===|\Z)", body)
         for line in re.findall(r"(?m)^\*\s*(.+)$", lau.group(1) if lau else ""):
             plain = strip_wiki(line)
-            name = re.split(r"\s*\(", plain, 1)[0]
+            name = re.split(r"\s*\(", plain, maxsplit=1)[0]
             first_link = re.match(r"\s*(?:The\s+)?\[\[([^\]]+)\]\]", line)
             if first_link:
                 name = first_link.group(1).split("|")[-1]
@@ -719,17 +760,26 @@ def prize_jameel():
         except (urllib.error.HTTPError, Blocked) as e:
             print(f"  jameel {ed}: {e}", file=sys.stderr)
             continue
-        for w in re.findall(r"([^\n]+?) – WINNERS? OF THE JAMEEL PRIZE", text):
-            rows.append(row("prize_jameel", ed, w.strip().title() if w.strip().isupper() else w, is_artist=1,
-                            role="winner", note="name upper-cased at source", src=url))
+        winners = set()
+        for w in re.findall(r"([^\n]+?)\s+[–-]\s+(?:JOINT )?WINNERS? OF (?:THE )?JAMEEL PRIZE", text):
+            w = clean(w)
+            for n in re.split(r"\s+AND\s+|\s*&\s*", w):
+                winners.add(n.title() if n.isupper() else n)
+                rows.append(row("prize_jameel", ed, n.title() if n.isupper() else n, is_artist=1,
+                                role="winner", note="name upper-cased at source", src=url))
         lines = [l.strip() for l in text.split("\n") if l.strip()]
         k = next((i for i, l in enumerate(lines) if "SHORTLIST" in l.upper() and len(l) < 80), None)
         if k is None:
             continue
-        # each shortlisted name is a heading followed by a paragraph that starts with the name
+        # each shortlisted name is a heading followed (after at most an image caption) by a
+        # paragraph that starts with the name; "Name – People's Choice winner" headings too
         for i in range(k + 1, len(lines) - 1):
-            if len(lines[i].split()) <= 7 and lines[i + 1].startswith(lines[i]) and lines[i] != lines[i + 1]:
-                rows.append(row("prize_jameel", ed, lines[i], is_artist=1, role="shortlisted", src=url))
+            name = re.split(r"\s+[–-]\s+", lines[i])[0]
+            if len(name.split()) <= 7 and any(l.startswith(name) and l != lines[i] for l in lines[i + 1:i + 4]):
+                if name in winners or name.title() in winners:
+                    continue
+                rows.append(row("prize_jameel", ed, name, is_artist=1, role="shortlisted",
+                                note=lines[i][len(name):].strip(" –-"), src=url))
     return dedupe(rows)
 
 

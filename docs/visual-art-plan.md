@@ -204,7 +204,15 @@ Wikidata is therefore a good **candidate pool and ID crosswalk**, but weak as a 
 - **Signals:**
   - Artnet 13,024, Artsy 8,048, MoMA 5,945 (18,875 have at least one); ULAN 14,919; museum IDs 10,912; awards (P166) 13,674.
   - Too thin to use: gallery representation (P1875, 1,867) and exhibition history (P608, 70).
-- **Canon-list join:** 579 pool artists are on Kunstkompass, the Power 100 or the Artprice lists.
+- **Canon lists** (`pipelines/contemporary_art/canon_lists.py`): 6,304 entries and 3,582 distinct names across 21 lists:
+  - Kunstkompass 2001–2025 (only the top 10 is public);
+  - ArtReview Power 100 2019–2025 (artists flagged);
+  - Artprice Top 500 2023–2026 and ultra-contemporary Top 100;
+  - biennials from organisers' announcements: Venice 2015–2026, documenta 14/15, Sharjah 14–17, São Paulo 35–36, Gwangju 15–16, Kochi-Muziris, Istanbul 18, Dak'Art 15. Universes in Universe's robots.txt disallows Claude's crawlers, so it was not used;
+  - prizes: Turner, Hugo Boss, Praemium Imperiale, Duchamp, Venice Lions, Future Generation, Prince Claus, Jameel.
+  - Not available: the Kunstkompass top 100, and the Asia Pacific Triennial (403).
+  - **1,530 pool artists are on at least one list.**
+  - **The unmatched rate is highest for non-Western lists** (Dak'Art 53/58, Istanbul 35/47, Kochi 46/66, Jameel 29/47, Sharjah 300/483), which is Wikidata's bias showing through. Unmatched list artists are resolved without pool filters, and any still unresolved stay in as **list-only candidates** carried by the list (auto-include rule) (`resolve_list_artists.py`).
 - **Caveats for scoring:**
   - `art_occ_share` (art occupations ÷ all occupations) is needed: celebrities who also paint or design (Bowie, George W. Bush) are in the pool on occupation.
   - Wikidata currently gives Yayoi Kusama a 2026 death date. Check it before relying on `living`.
