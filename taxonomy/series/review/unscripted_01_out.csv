@@ -1,0 +1,231 @@
+id,title,leaf,see_also,key_step,confidence,note
+Q127173,Big Brother,G1-2,G2-2,G key 1,high,
+Q2590440,The Real Housewives,G2-2,,G key 2,high,
+Q169568,The Million Pound Drop,G1-4,,G key 1,high,
+Q236245,Your Face Sounds Familiar,G1-1,,G key 1,high,
+Q56276162,Masked Singer,G1-1,G1-4,G key 1,high,
+Q506074,Family Feud,G1-4,,G key 1,high,
+Q169844,RuPaul's Drag Race,G1-1,G1-2,G key 1,high,drag talent contest with eliminations
+Q7737672,The Great British Bake Off,G1-3,,G key 1,high,
+Q18066850,MasterChef,G1-3,,G key 1,high,first_year 1962 suspect; format dates from 1990
+Q811225,Farmer Wants a Wife,G2-1,,G key 2,high,
+Q8327345,Got Talent,G1-1,,G key 1,high,
+Q700722,The Bachelor,G2-1,,G key 2,high,
+Q2812534,Brain Wall,G1-4,,G key 1,high,Hole in the Wall
+Q164304,Deal or No Deal,G1-4,,G key 1,high,
+Q837102,The Farm,G1-2,,G key 1,high,
+Q8070684,Strictly Come Dancing,G1-1,,G key 1,high,
+Q3567653,Wheel of Fortune,G1-4,,G key 1,high,
+Q105947690,De Verraders,G1-2,,G key 1,high,The Traitors
+Q200562,Who Wants to Be a Millionaire?,G1-4,,G key 1,high,
+Q17091089,The Moment of Truth,G1-4,,G key 1,high,
+Q20899617,Taskmaster,G1-4,G3-3,G key 1,med,comedians compete on tasks; panel-show seam
+Q327762,Weakest Link,G1-4,,G key 1,high,
+Q674110,Are You Smarter Than a 5th Grader?,G1-4,,G key 1,high,
+Q2579158,Dragons' Den,G1-5,,G key 1,high,
+Q4115772,The Voice,G1-1,,G key 1,high,
+Q1652366,The Voice Kids,G1-1,,G key 1,high,
+Q16935557,Q16935557,G2-1,,G key 2,low,untitled QID; likely First Dates (2013)
+Q48749271,HITOSHI MATSUMOTO presents Documental,G1-2,G3-1,G key 1,med,"confined comedians, last one not laughing wins"
+Q92096,Q92096,G1-2,,G key 1,med,untitled QID; likely Fort Boyard (1990)
+Q1498075,The Chase,G1-4,,G key 1,high,
+Q679554,Peking Express,G1-2,,G key 1,high,
+Q2298323,Top Chef,G1-3,,G key 1,high,
+Q19798725,Lip Sync Battle,G1-1,G3-1,G key 1,med,
+Q1538095,Ramsay's Kitchen Nightmares,G2-3,,G key 2,high,leaf example; cluster says cooking
+Q119225088,The Floor,G1-4,,G key 1,high,
+Q7549631,So You Think You Can Dance,G1-1,,G key 1,high,
+Q2327946,Temptation Island,G2-1,,G key 2,high,
+Q4110339,The Biggest Loser,G1-2,G2-3,G key 1,high,
+Q160896,1 vs. 100,G1-4,,G key 1,high,
+Q499767,Q499767,G1-4,,G key 1,low,untitled QID; likely Jeopardy! (1964)
+Q1294344,Des chiffres et des lettres,G1-4,,G key 1,high,Countdown format
+Q1595930,America's Funniest Home Videos,G3-1,G1-4,G key 3,med,clip show; prize incidental
+Q2364116,Taken Out,G2-1,,G key 2,high,
+Q16962715,Lingo,G1-4,,G key 1,high,
+Q19903409,Little Big Shots,G3-1,G1-1,G key 3,med,"kids show talents, no contest"
+Q28229322,Q28229322,G1-4,,G key 1,low,untitled QID; game show 2017
+Q90801721,Lego Masters,G1-1,G1-3,G key 1,med,build contest; no craft-competition leaf
+Q569376,Popstars,G1-1,,G key 1,high,
+Q661095,Thank God You're Here,G3-1,G3-3,G key 3,med,improv comedy format
+Q835784,Sasuke,G1-4,G1-2,G key 1,med,obstacle-course competition
+Q1766797,Minute to Win It,G1-4,,G key 1,high,
+Q20471563,Exatlon,G1-2,,G key 1,med,athletic team reality competition
+Q48699959,All Together Now,G1-1,,G key 1,high,
+Q65061433,SAS: Who Dares Wins,G1-2,G2-2,G key 1,med,
+Q819428,Come Dine with Me,G1-3,,G key 1,high,
+Q19867345,Boom!,G1-4,,G key 1,high,
+Q20033265,Married at First Sight,G2-1,,G key 2,high,
+Q31426,America's Next Top Model,G1-2,G1-1,G key 1,med,"modelling contest, live-in eliminations"
+Q10859368,Star Academy,G1-1,G1-2,G key 1,high,
+Q459720,The Price Is Right,G1-4,,G key 1,high,
+Q755975,Survivor,G1-2,,G key 1,high,
+Q3113852,I'm a Celebrity...Get Me Out of Here!,G1-2,,G key 1,high,
+Q27965168,Q27965168,G1-4,,G key 1,low,untitled QID; quiz from 1959
+Q17521497,Q17521497,G1-4,,G key 1,low,untitled QID
+Q138392595,Q138392595,G1-4,,G key 1,low,untitled QID
+Q253511,Pasapalabra,G1-4,,G key 1,high,
+Q1784016,Name That Tune,G1-4,,G key 1,high,
+Q2572270,Hollywood Squares,G1-4,G3-3,G key 1,high,
+Q3555437,Anything Goes,G1-4,,G key 1,low,title ambiguous
+Q1850352,Wife Swap,G2-2,,G key 2,high,
+Q25351803,Alone,G1-2,,G key 1,med,survival contest for prize
+Q64425263,Race Across the World,G1-2,,G key 1,high,
+Q85846472,Love Is Blind,G2-1,,G key 2,high,
+Q111907765,Q111907765,G1-4,,G key 1,low,untitled QID
+Q641613,The Amazing Race,G1-2,,G key 1,high,
+Q923377,Extreme Makeover,G2-3,,G key 2,high,
+Q1307433,Iron Chef,G1-3,,G key 1,high,
+Q1785648,The Lyrics Board,G1-4,,G key 1,high,
+Q2204370,Paradise Hotel,G1-2,G2-1,G key 1,med,
+Q2985293,Who Do You Think You Are?,G2-2,,G key 2,med,genealogy factual; near C8 documentary
+Q8037127,Worst Driver,G2-3,G1-2,G key 2,med,driver rehabilitation with eliminations
+Q11281770,Wakuwaku Dōbutsu Land,G1-4,,G key 1,high,
+Q12003280,Stjernekamp,G1-1,,G key 1,high,
+Q13410714,71° nord,G1-2,,G key 1,high,
+Q16340367,Lauf al Hamillion,G1-4,,G key 1,med,Arabic Million Pound Drop
+Q16993042,Gogglebox,G2-2,,G key 2,high,
+Q21427546,Hunted,G1-2,,G key 1,high,
+Q21575860,I Can See Your Voice,G1-4,G1-1,G key 1,high,
+Q39055175,Hot Ones,G3-6,G3-2,G key 3,high,leaf example; cluster says game show
+Q425836,Million Dollar Password,G1-4,,G key 1,high,
+Q770130,Divided,G1-4,,G key 1,high,
+Q863122,The Apprentice,G1-5,,G key 1,high,
+Q1219561,Around the World in Eighty Days,route:FT-C,,G key 1,low,travel documentary series (C8)
+Q1286698,QI,G3-3,,G key 3,high,
+Q1418248,Queer Eye,G2-3,,G key 2,high,
+Q1768525,Have I Got News for You,G3-3,,G key 3,high,
+Q2086544,Ladette to Lady,G2-3,,G key 2,high,
+Q2385373,The Mole,G1-2,,G key 1,high,
+Q3052933,Antiques Roadshow,G3-5,G2-2,G key 3,med,appraisal show; no factual-lifestyle leaf
+Q7443167,Second Chance,G1-4,,G key 1,high,
+Q3784600,Hell's Kitchen,G1-3,,G key 1,high,
+Q11274015,Dancing on Ice,G1-1,,G key 1,high,
+Q18156166,Rising Star,G1-1,,G key 1,high,
+Q27645828,You Can't Ask That,G3-2,G2-2,G key 3,low,anonymous-questions interview format; near C8
+Q118967669,The Summit,G1-2,,G key 1,high,
+Q54827537,Q54827537,G1-4,,G key 1,low,untitled QID
+Q21149,Running Man,G3-1,,G key 3,high,cluster wrong; Korean real variety
+Q17245,Q17245,G1-4,,G key 1,low,untitled QID
+Q52497,Wipeout,G1-4,,G key 1,high,
+Q328076,Card Sharks,G1-4,,G key 1,high,
+Q610525,Love It or List It,G2-3,,G key 2,high,
+Q104853101,Fear Factor,G1-2,G1-4,G key 1,med,
+Q1206359,Deutschlands Superhirn,G1-1,G1-4,G key 1,med,Superbrain mental-talent contest
+Q1248126,"The $64,000 Question",G1-4,,G key 1,high,
+Q1393313,The Dr. Oz Show,G3-2,,G key 3,high,
+Q1631331,Power of 10,G1-4,,G key 1,high,
+Q2518713,Don't Forget Your Toothbrush,G1-4,G3-1,G key 1,high,
+Q2630384,Beauty and the Geek,G1-2,G2-3,G key 1,high,
+Q3127177,Happy Family Plan,G1-4,,G key 1,high,
+Q3359114,Robinson,G1-2,,G key 1,high,Expedition Robinson
+Q3571119,Y a que la vérité qui compte,G3-2,G2-2,G key 3,med,confession/reunion talk show
+Q3532819,Touche pas à mon poste !,G3-2,,G key 3,high,cluster wrong; talk show
+Q4117016,Celebrity Duets,G1-1,,G key 1,high,
+Q5067905,Chain Reaction,G1-4,,G key 1,high,
+Q5453652,The X Factor,G1-1,,G key 1,high,
+Q5520132,Q5520132,G1-4,,G key 1,low,untitled QID
+Q5548218,A todo o nada,G1-4,,G key 1,high,
+Q12479139,Cinta Melody,G1-3,,G key 1,low,unknown title
+Q11888566,Poliisit,G2-2,,G key 2,high,occupational police docusoap
+Q13958674,The Genius,G1-2,G1-4,G key 1,high,
+Q16159810,Are You the One?,G2-1,G1-2,G key 2,med,dating format with prize
+Q23905882,Naked Attraction,G2-1,,G key 2,high,
+Q50573334,Nailed It!,G1-3,,G key 1,high,baking contest
+Q81047851,Q81047851,G1-4,,G key 1,low,untitled QID
+Q128022263,Een Van De Acht,G1-4,,G key 1,med,
+Q101141566,Stripped,G2-2,,G key 2,med,possessions social experiment
+Q97352022,Youth With You,G1-1,,G key 1,high,
+Q161569,Runaround,G1-4,,G key 1,high,
+Q262400,The Successor,G1-1,,G key 1,low,psychic contest
+Q275132,The Winner Is,G1-1,,G key 1,high,
+Q383443,Lenßen & Partner,route:FT-C,G2-2,G key 2,med,scripted reality with actors
+Q322015,Fifteen to One,G1-4,,G key 1,high,
+Q421941,Aktenzeichen XY… ungelöst,route:FT-C,,G key 2,low,crime-appeal programme with reenactments (C8)
+Q464710,American Gladiators,G1-4,G1-2,G key 1,med,
+Q486844,MythBusters,G2-2,G3-5,G key 2,med,science-experiment factual entertainment
+Q543051,Ready Steady Cook,G1-3,,G key 1,high,
+Q583933,Britain’s Brainiest Kid,G1-4,,G key 1,high,
+Q566130,Let's Make a Deal,G1-4,,G key 1,high,
+Q609711,The Cube,G1-4,,G key 1,high,
+Q7711683,"The $1,000,000 Chance of a Lifetime",G1-4,,G key 1,high,
+Q666799,"Wetten, dass..?",G3-2,G3-1,G key 3,med,leaf example; arguably variety
+Q695193,Cash Cab,G1-4,,G key 1,high,
+Q819092,Supernanny,G2-3,G2-2,G key 2,high,
+Q797907,Cops,G2-2,,G key 2,high,
+Q902421,The Challenge,G1-2,,G key 1,high,
+Q868643,De beste zangers van Nederland,G3-1,,G key 3,high,singers cover each other; no contest
+Q872948,To Tell the Truth,G1-4,G3-3,G key 1,high,
+Q912279,Punk'd,G2-2,G3-1,G key 2,med,hidden-camera pranks
+Q922713,Whose Line Is It Anyway?,G3-3,G3-1,G key 3,med,improv; points don't matter
+Q936051,Rojo,G1-1,,G key 1,med,
+Q1087835,Candid Camera,G2-2,G3-1,G key 2,med,hidden camera
+Q1324265,El hormiguero,G3-2,,G key 3,high,
+Q1249607,This Is Your Life,G3-2,,G key 3,med,
+Q1548487,Grand Designs,G2-3,,G key 2,high,
+Q1627719,Sale of the Century,G1-4,,G key 1,high,
+Q1784093,Joe Millionaire,G2-1,,G key 2,high,
+Q1917985,My Big Fat Obnoxious Fiance,G2-2,G2-1,G key 2,med,prank premise
+Q2004615,Pointless,G1-4,,G key 1,high,
+Q2493371,De Slimste Mens ter Wereld,G1-4,G3-3,G key 1,med,
+Q2894802,How to Look Good Naked,G2-3,,G key 2,high,
+Q3109937,Going for Gold,G1-4,,G key 1,high,
+Q3209278,La Fureur,G1-4,,G key 1,med,music game show
+Q3219953,The Bar,G1-2,,G key 1,high,
+Q3219938,Clash of the Choirs,G1-1,,G key 1,high,
+Q3310878,Intervention,G2-2,,G key 2,high,
+Q3234737,What Not to Wear,G2-3,,G key 2,high,
+Q3531297,Love Letters,G1-4,,G key 1,low,
+Q3776292,Greed,G1-4,,G key 1,high,
+Q4841562,Baggage,G2-1,,G key 2,high,dating game; cluster says game show
+Q4899944,Beyond Boundaries,G2-2,G1-2,G key 2,med,
+Q110565472,Mastermind,G1-4,,G key 1,high,
+Q6146521,Jamie's Dream School,G2-2,,G key 2,high,
+Q6407502,Killer Karaoke,G1-4,G1-1,G key 1,high,
+Q6502417,Pop Idol,G1-1,,G key 1,high,
+Q6943181,Must Love Kids,G2-1,,G key 2,low,
+Q6786214,Match Game,G1-4,G3-3,G key 1,high,
+Q7243489,What Would You Do?,G2-2,,G key 2,high,hidden-camera social experiment
+Q7716810,The Best Singers,G3-1,,G key 3,med,Beste Zangers format; no contest
+Q7760649,The Rich List,G1-4,,G key 1,high,
+Q7997198,Who Dares Wins,G1-4,,G key 1,med,
+Q7997397,Who Wants to Be a Millionaire?,exclude:duplicate,,G key 1,med,duplicate of Q200562 Millionaire
+Q12774918,Pálí vám to?!,G1-4,,G key 1,low,
+Q16156071,Ex on the Beach,G2-1,,G key 2,high,
+Q15904275,Adam Zkt. Eva,G2-1,,G key 2,high,
+Q17006222,Have You Been Paying Attention?,G3-3,,G key 3,high,
+Q17104499,Naked and Afraid,G2-2,,G key 2,high,
+Q17561244,"Mein Lokal, dein Lokal",G1-3,,G key 1,med,restaurants compete
+Q18227885,Eeuwige roem,G1-1,,G key 1,low,
+Q21043544,Wer weiß denn sowas?,G1-4,G3-3,G key 1,high,
+Q21428138,Q21428138,G1-4,,G key 1,low,untitled QID
+Q56276010,Mental Samurai,G1-4,,G key 1,high,
+Q96378045,Flirty Dancing,G2-1,,G key 2,high,
+Q105742641,Game of Talents,G1-4,G1-1,G key 1,high,
+Q109460947,Game of Blood,G1-2,,G key 1,low,
+Q109918379,That's My Jam,G1-4,G3-1,G key 1,high,
+Q110128847,Next Level Chef,G1-3,,G key 1,high,
+Q123140364,Q123140364,G1-4,,G key 1,low,untitled QID
+Q123115327,Bridge of Lies,G1-4,,G key 1,high,
+Q130283730,Everybody's Equal,G1-4,,G key 1,high,
+Q132851376,Boksen,G2-2,,G key 2,low,
+Q135403857,Versus Drag Queens,G1-1,,G key 1,low,
+mdl:25565-running-man,Running Man,G3-1,,G key 3,high,Korean original of Q21149
+mdl:697793-solo-hell,Single’s Inferno,G2-1,,G key 2,high,
+mdl:728253-young-actors-retreat,Young Actors' Retreat,G3-1,,G key 3,high,
+mdl:725837-single-s-inferno-season-2,Single’s Inferno Season 2,G2-1,,G key 2,high,
+mdl:26034-the-culprit-is-you,Busted,G3-1,,G key 3,high,mystery real variety
+mdl:736657-run-bts-2022-special-episode,Run BTS! 2022 Special Episode: Telepathy,G3-1,,G key 3,high,
+mdl:32612-exo-s-ladder-season-2,EXO's Ladder Season 2,G3-1,,G key 3,high,
+mdl:748117-single-s-inferno-season-3,Single’s Inferno Season 3,G2-1,,G key 2,high,
+mdl:748377-run-bts-2023-special-episode-mini-field-day,Run BTS! 2023 Special Episode: Mini Field Day,G3-1,,G key 3,high,
+mdl:32415-we-ll-show-you-exo,EXO Arcade,G3-1,,G key 3,high,
+mdl:730523-physical-100,Physical: 100,G1-2,,G key 1,high,
+mdl:60727-i-land,I-LAND,G1-1,G1-2,G key 1,high,
+mdl:710607-bts-in-the-soop-season-2,BTS in the Soop Season 2,G3-1,G2-2,G key 3,med,
+mdl:746319-run-bts-2023-special-episode-next-top-genius,Run BTS! 2023 Special Episode: Next Top Genius,G3-1,,G key 3,high,
+mdl:743645-run-bts-2022-special-episode-run-bts-tv-on-air,Run BTS! 2022 Special Episode: 'Run BTS TV' On-air,G3-1,,G key 3,high,
+mdl:773005-are-you-sure,Are You Sure?!,G3-1,,G key 3,med,travel variety
+mdl:713503-bts-in-the-soop-season-2-behind-the-scene,BTS in the Soop Season 2: Behind The Scene,G3-1,G2-2,G key 3,med,
+mdl:29228-busted-2,Busted Season 2,G3-1,,G key 3,high,
+mdl:771359-the-boyfriend,The Boyfriend,G2-1,,G key 2,high,
