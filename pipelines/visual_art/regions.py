@@ -174,8 +174,9 @@ WEST_CENTRAL_ASIA = [
 
 # Modern era (Impressionism to ~1960; contemporary starts in the 1960s), split by
 # world region so that each modernism is ranked against its own peers, not
-# against Paris and New York. No reference lists yet: each region is scored with
-# the model fitted on europe_1400-1900 (`depth_model.py apply`).
+# against Paris and New York. Calibrated on its own reference (decided 2026-10-28;
+# the Europe 1400-1900 model was only an example of the depth wanted): one model
+# fitted on all nine regions, models/modern_1860-1960.json (fit_modern.py).
 MODERN_REGIONS = {
     "europe": {"continents": [EUROPE], "exclude_countries": WEST_CENTRAL_ASIA},
     "north_america": {"continents": [NORTH_AMERICA], "exclude_countries": LATIN_AMERICA_NORTH},
@@ -200,7 +201,12 @@ for _name, _geo in MODERN_REGIONS.items():
         "home_continent": True,
         "place_by_birth_death": True,
         "min_sitelinks": 3,
-        "reference": None,
+        # Modern reference built from data (build_modern_reference.py: movements from
+        # Wikidata, ranked by Tate / MoMA / collection holdings, none of them model
+        # features). Its artists below the pool rule still join the pool as positives.
+        "reference": "seeds/visual-art/modern_1860-1960_depth_reference.txt",
+        "reference_qids": "data/interim/modern_reference_candidate.csv",
+        "reference_region": _name,
         "collections": GLOBAL_COLLECTIONS,
         "authority_ids": REGIONS["europe_1400-1900"]["authority_ids"],
     }

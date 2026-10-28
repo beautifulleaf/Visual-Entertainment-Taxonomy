@@ -23,7 +23,17 @@ def load_overrides():
 
 
 def load_reference(region_cfg):
-    """Rows {movement, name, qid} for the region's reference list; qid '' when unresolved."""
+    """Rows {movement, name, qid} for the region's reference list; qid '' when unresolved.
+
+    A reference built from data already carries its QIDs: region_cfg["reference_qids"]
+    names that CSV (movement, region, name, qid, ...; the modern reference written by
+    build_modern_reference.py), and the name matching is skipped."""
+    if region_cfg.get("reference_qids"):
+        # One list spans several regions; "reference_region" keeps the region's own rows.
+        want = region_cfg.get("reference_region")
+        with open(os.path.join(ROOT, region_cfg["reference_qids"]), encoding="utf-8") as f:
+            return [{"movement": r["movement"], "name": r["name"], "qid": r["qid"]} for r in csv.DictReader(f)
+                    if not want or r.get("region") == want]
     seed = os.path.basename(region_cfg["reference"])
     overrides = load_overrides()
     rows = []
