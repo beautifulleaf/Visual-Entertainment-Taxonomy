@@ -209,12 +209,17 @@ def fetch_labels(qids):
     if os.path.exists(path):
         with open(path, encoding="utf-8") as f:
             labels = dict(line.rstrip("\n").split("\t", 1) for line in f if "\t" in line)
-    todo = [q for q in qids if q not in labels]
+    # Only real items (claims can hold "unknown value" blank nodes), and labels are
+    # cosmetic: a failing label query must not abort the pool build.
+    todo = [q for q in qids if q not in labels and re.fullmatch(r"Q\d+", q)]
     for i in range(0, len(todo), CHUNK):
         values = " ".join("wd:" + q for q in todo[i:i + CHUNK])
-        for r in sparql(f"""SELECT ?x ?l WHERE {{ VALUES ?x {{ {values} }}
-              ?x rdfs:label ?l FILTER(LANG(?l) = "en") }}"""):
-            labels[r["x"]] = r["l"]
+        try:
+            for r in sparql(f"""SELECT ?x ?l WHERE {{ VALUES ?x {{ {values} }}
+                  ?x rdfs:label ?l FILTER(LANG(?l) = "en") }}"""):
+                labels[r["x"]] = r["l"]
+        except RuntimeError as e:
+            print(f"  labels: skipped a batch ({e})")
     with open(path, "w", encoding="utf-8") as f:
         f.writelines(f"{k}\t{v}\n" for k, v in sorted(labels.items()))
     return labels
