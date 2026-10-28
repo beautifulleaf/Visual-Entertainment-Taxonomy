@@ -13387,6 +13387,90 @@ europe_folk_east,evidence:europe_folk_east:Kapyl weaving,evidence,Kapyl weaving,
 europe_folk_east,evidence:europe_folk_east:çorape,evidence,çorape,kind from evidence,,,,kind:H7-8/sub-type,excluded row çorape (footwear)
 europe_folk_east,evidence:europe_folk_east:Vednovo stitch,evidence,Vednovo stitch,kind from evidence,,,,kind:H4-72/centre,excluded row ведновская строчка Q16629511
 europe_folk_east,evidence:europe_folk_east:Vyatka lace,evidence,Vyatka lace,kind from evidence,,,,kind:H4-84/see-also,"excluded rows Kirov (Vyatka) lace; Q4130508 (separate centre, no own leaf)"
+gapsweep_europe,evidence:gapsweep_europe:Johann Joachim Kändler,evidence,Johann Joachim Kändler,kind from evidence,,,,kind:E4-23/modeller,Met 186 objects (Q73593); currently T143 in artist_placements
+gapsweep_europe,evidence:gapsweep_europe:Johann Gregorius Höroldt,evidence,Johann Gregorius Höroldt,kind from evidence,,,,kind:E4-23/painter,Met 11 objects (Q875243); currently T31
+gapsweep_europe,evidence:gapsweep_europe:Vincennes,evidence,Vincennes,kind from evidence,,,,kind:E4-24/phase (1740-1756),"Cooper Hewitt 2 + Met ""French, Vincennes"" 1; wiki:Vincennes porcelain"
+gapsweep_europe,evidence:gapsweep_europe:Alexandre Brachard,evidence,Alexandre Brachard,kind from evidence,,,,kind:E4-24/modeller,Cooper Hewitt Sèvres biscuit medallion
+gapsweep_europe,evidence:gapsweep_europe:Chelsea,evidence,Chelsea,kind from evidence,,,,kind:E4-25/English factory,Cooper Hewitt 44; wiki:Chelsea porcelain factory
+gapsweep_europe,evidence:gapsweep_europe:Worcester,evidence,Worcester,kind from evidence,,,,kind:E4-25/English factory,"Cooper Hewitt 33 (Royal Worcester) + Met ""British, Worcester"" 7; wiki:Royal Worcester"
+gapsweep_europe,evidence:gapsweep_europe:Derby,evidence,Derby,kind from evidence,,,,kind:E4-25/English factory,Cooper Hewitt 8; wiki:Royal Crown Derby
+gapsweep_europe,evidence:gapsweep_europe:Bow,evidence,Bow,kind from evidence,,,,kind:E4-25/English factory,"Cooper Hewitt 4; Thomas Frye (Q3893676, Met 23, 1 Timeline work); wiki:Bow porcelain factory"
+gapsweep_europe,evidence:gapsweep_europe:Longton Hall,evidence,Longton Hall,kind from evidence,,,,kind:E4-25/English factory,Cooper Hewitt 6
+gapsweep_europe,evidence:gapsweep_europe:Caughley,evidence,Caughley,kind from evidence,,,,kind:E4-25/English factory,Cooper Hewitt 4
+gapsweep_europe,evidence:gapsweep_europe:Saint-Cloud,evidence,Saint-Cloud,kind from evidence,,,,kind:E4-25/French factory,Cooper Hewitt 7; wiki:Saint-Cloud porcelain
+gapsweep_europe,evidence:gapsweep_europe:Chantilly,evidence,Chantilly,kind from evidence,,,,kind:E4-25/French factory,Cooper Hewitt 9; wiki:Chantilly porcelain
+gapsweep_europe,evidence:gapsweep_europe:Mennecy,evidence,Mennecy,kind from evidence,,,,kind:E4-25/French factory,Cooper Hewitt 14; wiki:Mennecy-Villeroy porcelain
+gapsweep_europe,evidence:gapsweep_europe:Capodimonte,evidence,Capodimonte,kind from evidence,,,,kind:E4-25/Italian factory,Cooper Hewitt 3; wiki:Capodimonte porcelain
+gapsweep_europe,evidence:gapsweep_europe:Vienna (Du Paquier),evidence,Vienna (Du Paquier),kind from evidence,,,,kind:E4-26/Austrian factory,Cooper Hewitt 13; wiki:Vienna porcelain
+gapsweep_europe,evidence:gapsweep_europe:Nymphenburg,evidence,Nymphenburg,kind from evidence,,,,kind:E4-26/German factory,"Cooper Hewitt 2 + Met ""German, Nymphenburg"" 3; passes alone on Met Timeline (Bustelli); wiki:Nymphenburg Porcelain Manufactory"
+gapsweep_europe,evidence:gapsweep_europe:Franz Anton Bustelli,evidence,Franz Anton Bustelli,kind from evidence,,,,kind:E4-26/Nymphenburg modeller,"Met 28 objects, 2 Timeline works (Q124781); currently T143"
+gapsweep_europe,evidence:gapsweep_europe:Berlin (KPM),evidence,Berlin (KPM),kind from evidence,,,,kind:E4-26/German factory,"Cooper Hewitt 26 + Rijks 4; wiki:Royal Porcelain Factory, Berlin"
+gapsweep_europe,evidence:gapsweep_europe:Fürstenberg,evidence,Fürstenberg,kind from evidence,,,,kind:E4-26/German factory,Cooper Hewitt 15 + Met 1
+gapsweep_europe,evidence:gapsweep_europe:Frankenthal,evidence,Frankenthal,kind from evidence,,,,kind:E4-26/German factory,Cooper Hewitt 5; wiki:Frankenthal Porcelain Factory
+gapsweep_europe,evidence:gapsweep_europe:Höchst,evidence,Höchst,kind from evidence,,,,kind:E4-26/German factory,"Cooper Hewitt 3 + Met ""German, Höchst"" 6; J. P. Melchior (Q1695799, 1 Timeline work)"
+gapsweep_europe,evidence:gapsweep_europe:Ludwigsburg,evidence,Ludwigsburg,kind from evidence,,,,kind:E4-26/German factory,Cooper Hewitt 2 + Met 1
+gapsweep_europe,evidence:gapsweep_europe:Wallendorf,evidence,Wallendorf,kind from evidence,,,,kind:E4-26/Thuringian factory,Cooper Hewitt 10
+gapsweep_europe,evidence:gapsweep_europe:Carl Thieme Potschappel,evidence,Carl Thieme Potschappel,kind from evidence,,,,kind:E4-26/Dresden decorating factory,Cooper Hewitt 10
+gapsweep_europe,evidence:gapsweep_europe:Doccia,evidence,Doccia,kind from evidence,,,,kind:E4-26/Italian factory,Cooper Hewitt 25 (hybrid paste); wiki:Doccia porcelain
+gapsweep_europe,evidence:gapsweep_europe:Cozzi,evidence,Cozzi,kind from evidence,,,,kind:E4-26/Italian factory,"Cooper Hewitt 15 (Venice, hybrid paste)"
+gapsweep_europe,"evidence:gapsweep_europe:Imperial Porcelain Factory, St Petersburg",evidence,"Imperial Porcelain Factory, St Petersburg",kind from evidence,,,,kind:E4-26/Russian factory,Cooper Hewitt 5
+gapsweep_europe,evidence:gapsweep_europe:Royal Copenhagen,evidence,Royal Copenhagen,kind from evidence,,,,kind:E4-26/Danish factory,"Met ""Danish, Copenhagen / ceramics"" 49 + Cooper Hewitt 1; below rule alone; wiki:Royal Copenhagen"
+gapsweep_europe,evidence:gapsweep_europe:Herend,evidence,Herend,kind from evidence,,,,kind:E4-26/Hungarian factory,"Rijks 12 + Met ""Hungarian, Herend"" 3; below rule alone; wiki:Herend Porcelain Manufactory"
+gapsweep_europe,evidence:gapsweep_europe:Romanesque stained glass,evidence,Romanesque stained glass,kind from evidence,,,,kind:F5-1/phase,wiki:Medieval stained glass
+gapsweep_europe,evidence:gapsweep_europe:Gothic stained glass,evidence,Gothic stained glass,kind from evidence,,,,kind:F5-1/phase,"Met ""French / glass"" 455, median 1400"
+gapsweep_europe,evidence:gapsweep_europe:English Gothic stained glass,evidence,English Gothic stained glass,kind from evidence,,,,kind:F5-1/school,wiki:English Gothic stained glass windows
+gapsweep_europe,evidence:gapsweep_europe:Ebreichsdorf glazing,evidence,Ebreichsdorf glazing,kind from evidence,,,,kind:F5-1/workshop/centre,"Met ""Austrian / glass"" 78 (Cloisters, 1390)"
+gapsweep_europe,evidence:gapsweep_europe:Peter Hemmel von Andlau (Strassburger Werkstattgemeinschaft),evidence,Peter Hemmel von Andlau (Strassburger Werkstattgemeinschaft),kind from evidence,,,,kind:F5-1/workshop,Met essay Stained Glass in Medieval Europe
+gapsweep_europe,evidence:gapsweep_europe:South Netherlandish roundels,evidence,South Netherlandish roundels,kind from evidence,,,,kind:F5-2/centre,"Met ""South Netherlandish / glass"" 75"
+gapsweep_europe,evidence:gapsweep_europe:Circle of the Master of the Amsterdam Cabinet,evidence,Circle of the Master of the Amsterdam Cabinet,kind from evidence,,,,kind:F5-2/designer group,Met essay Stained Glass in Medieval Europe (roundel 469853)
+gapsweep_europe,evidence:gapsweep_europe:Tiffany Studios (Tiffany Glass and Decorating Company),evidence,Tiffany Studios (Tiffany Glass and Decorating Company),kind from evidence,,,,kind:F5-3/workshop,Cooper Hewitt 17 + 40 (L. C. Tiffany) + Met 703 (Q312950); currently T40
+gapsweep_europe,evidence:gapsweep_europe:Favrile glass,evidence,Favrile glass,kind from evidence,,,,kind:F5-3/sub-type (blown),wiki:Favrile glass; Cooper Hewitt Favrile vessels
+gapsweep_europe,evidence:gapsweep_europe:John La Farge,evidence,John La Farge,kind from evidence,,,,kind:F5-3/opalescent window maker,"Met 50 objects, 1 Timeline work (Q3120087); Cooper Hewitt 17 window designs; currently T40"
+gapsweep_europe,evidence:gapsweep_europe:Francis Lathrop,evidence,Francis Lathrop,kind from evidence,,,,kind:F5-3/window designer,Cooper Hewitt 20 window designs (Q5481685)
+gapsweep_europe,evidence:gapsweep_europe:Alice Cordelia Morse,evidence,Alice Cordelia Morse,kind from evidence,,,,kind:F5-3/Tiffany designer,"Cooper Hewitt 54 window designs; Met 62 objects, 17 Timeline works (Q4725795); currently T167"
+gapsweep_europe,evidence:gapsweep_europe:Agnes Northrop,evidence,Agnes Northrop,kind from evidence,,,,kind:F5-3/Tiffany designer,"Met 21 objects, 1 Timeline work (Q102156729); currently T167"
+gapsweep_europe,evidence:gapsweep_europe:Clara Driscoll,evidence,Clara Driscoll,kind from evidence,,,,kind:F5-3/Tiffany designer,Cooper Hewitt 1
+gapsweep_europe,evidence:gapsweep_europe:Champlevé (Œuvre de Limoges),evidence,Champlevé (Œuvre de Limoges),kind from evidence,,,,kind:G1-43/sub-type,"Met ""French / champleve"" 146, 13 Timeline works"
+gapsweep_europe,evidence:gapsweep_europe:Painted enamel and grisaille,evidence,Painted enamel and grisaille,kind from evidence,,,,kind:G1-43/sub-type,"Met ""French / enamels"" 199; Cooper Hewitt 3"
+gapsweep_europe,evidence:gapsweep_europe:Léonard Limosin,evidence,Léonard Limosin,kind from evidence,,,,kind:G1-43/enameller,"Met 9 objects, 1 Timeline work (Q1879480); currently T24"
+gapsweep_europe,evidence:gapsweep_europe:Pierre Reymond,evidence,Pierre Reymond,kind from evidence,,,,kind:G1-43/enameller,"Met 9 objects, 1 Timeline work (Q7192420)"
+gapsweep_europe,evidence:gapsweep_europe:Martial Courteys,evidence,Martial Courteys,kind from evidence,,,,kind:G1-43/enameller,Cooper Hewitt plate
+gapsweep_europe,evidence:gapsweep_europe:Pierre Courteys,evidence,Pierre Courteys,kind from evidence,,,,kind:G1-43/enameller,europe 1400-1900 artist pool (Q3384556)
+gapsweep_europe,evidence:gapsweep_europe:Johann Andreas Thelot,evidence,Johann Andreas Thelot,kind from evidence,,,,kind:G1-44/goldsmith,Met mantel clock 199771
+gapsweep_europe,evidence:gapsweep_europe:Johann Martin Satzger I,evidence,Johann Martin Satzger I,kind from evidence,,,,kind:G1-44/goldsmith,Met oval box 206244
+gapsweep_europe,evidence:gapsweep_europe:Johann Erhard Heuglin II,evidence,Johann Erhard Heuglin II,kind from evidence,,,,kind:G1-44/goldsmith,Cooper Hewitt 2
+gapsweep_europe,evidence:gapsweep_europe:Huguenot silver,evidence,Huguenot silver,kind from evidence,,,,kind:G1-45/school,Fitzwilliam/LACMA/Ashmolean pages; Met Lamerie 1 Timeline work
+gapsweep_europe,evidence:gapsweep_europe:Paul de Lamerie,evidence,Paul de Lamerie,kind from evidence,,,,kind:G1-45/Huguenot silversmith,"Met 74 objects, 1 Timeline work (Q1751768); currently T162"
+gapsweep_europe,evidence:gapsweep_europe:Simon Pantin I,evidence,Simon Pantin I,kind from evidence,,,,kind:G1-45/Huguenot silversmith,Cooper Hewitt 1
+gapsweep_europe,evidence:gapsweep_europe:Pierre Harache,evidence,Pierre Harache,kind from evidence,,,,kind:G1-45/Huguenot silversmith,Ashmolean silver gallery (Capel Basket)
+gapsweep_europe,evidence:gapsweep_europe:David Willaume,evidence,David Willaume,kind from evidence,,,,kind:G1-45/Huguenot silversmith,V&A blog (Tessa Murdoch)
+gapsweep_europe,evidence:gapsweep_europe:Pierre Platel,evidence,Pierre Platel,kind from evidence,,,,kind:G1-45/Huguenot silversmith,V&A blog (Tessa Murdoch)
+gapsweep_europe,evidence:gapsweep_europe:Henry Chawner,evidence,Henry Chawner,kind from evidence,,,,kind:G1-45/silversmith,Cooper Hewitt 4
+gapsweep_europe,evidence:gapsweep_europe:Joseph Angell II,evidence,Joseph Angell II,kind from evidence,,,,kind:G1-45/silversmith,Cooper Hewitt 4
+gapsweep_europe,evidence:gapsweep_europe:Robert Hennell I,evidence,Robert Hennell I,kind from evidence,,,,kind:G1-45/silversmith,Cooper Hewitt 2
+gapsweep_europe,evidence:gapsweep_europe:Thomas Heming,evidence,Thomas Heming,kind from evidence,,,,kind:G1-45/silversmith,Cooper Hewitt 2
+gapsweep_europe,evidence:gapsweep_europe:Florentine commesso (Galleria dei Lavori),evidence,Florentine commesso (Galleria dei Lavori),kind from evidence,,,,kind:D3-10/centre,"Met ""Italian / lapidary work"" 95; wiki:Commesso"
+gapsweep_europe,evidence:gapsweep_europe:Milan,evidence,Milan,kind from evidence,,,,kind:D3-10/centre,"Met ""Italian, Milan / lapidary work"" 6, 1 Timeline work"
+gapsweep_europe,evidence:gapsweep_europe:Rome,evidence,Rome,kind from evidence,,,,kind:D3-10/centre,"Met ""Italian, Rome / lapidary work"" 4"
+gapsweep_europe,evidence:gapsweep_europe:André-Charles Boulle,evidence,André-Charles Boulle,kind from evidence,,,,kind:I1-23/ébéniste,"Met 12 objects, 3 Timeline works (Q128964); currently T27"
+gapsweep_europe,evidence:gapsweep_europe:Pierre Gole,evidence,Pierre Gole,kind from evidence,,,,kind:I1-23/ébéniste,Met 1 Timeline work (Q3385271)
+gapsweep_europe,evidence:gapsweep_europe:Alexandre-Jean Oppenordt,evidence,Alexandre-Jean Oppenordt,kind from evidence,,,,kind:I1-23/ébéniste,Met 1 Timeline work (Q2833357)
+gapsweep_europe,evidence:gapsweep_europe:Reticella,evidence,Reticella,kind from evidence,,,,kind:H4-91/sub-type,Cooper Hewitt about 50 reticella-style needle laces
+gapsweep_europe,evidence:gapsweep_europe:Punto in aria,evidence,Punto in aria,kind from evidence,,,,kind:H4-91/sub-type,Cooper Hewitt 20
+gapsweep_europe,evidence:gapsweep_europe:Gros point de Venise,evidence,Gros point de Venise,kind from evidence,,,,kind:H4-91/sub-type,wiki:Point de Venise
+gapsweep_europe,evidence:gapsweep_europe:Urnes style,evidence,Urnes style,kind from evidence,,,,kind:G1-35/style phase,wiki:Viking art (Urnes style redirects to its section); named in G1-35 definition
+gapsweep_europe,evidence:gapsweep_europe:Ringerike style,evidence,Ringerike style,kind from evidence,,,,kind:G1-35/style phase,wiki:Viking art (Ringerike style redirects to its section); named in G1-35 definition
+gapsweep_europe,evidence:gapsweep_europe:Oseberg style,evidence,Oseberg style,kind from evidence,,,,kind:G1-35/style phase,named in G1-35 definition; wiki:Viking art
+gapsweep_europe,evidence:gapsweep_europe:Borre style,evidence,Borre style,kind from evidence,,,,kind:G1-35/style phase,named in G1-35 definition; wiki:Viking art
+gapsweep_europe,evidence:gapsweep_europe:Jelling style,evidence,Jelling style,kind from evidence,,,,kind:G1-35/style phase,named in G1-35 definition; wiki:Viking art
+gapsweep_europe,evidence:gapsweep_europe:Mammen style,evidence,Mammen style,kind from evidence,,,,kind:G1-35/style phase,named in G1-35 definition; wiki:Viking art
+gapsweep_europe,evidence:gapsweep_europe:Nicholas of Verdun,evidence,Nicholas of Verdun,kind from evidence,,,,kind:G1-43/goldsmith,"named in G1-43 definition; Met ""Mosan"" 7 objects carry no maker names"
+gapsweep_europe,evidence:gapsweep_europe:Bilston,evidence,Bilston,kind from evidence,,,,kind:G1-36/centre,"Met ""British, Bilston"" 54 (+93 ""British, South Staffordshire / enamels""); Battersea is already an alias of G1-36"
+gapsweep_europe,evidence:gapsweep_europe:Wedgwood,evidence,Wedgwood,kind from evidence,,,,kind:E1-79/manufactory,"Cooper Hewitt 49 + Josiah Wedgwood 3; Met Josiah Wedgwood 122 objects, 1 Timeline work (Q319331; currently T163); wiki:Wedgwood"
+gapsweep_europe,evidence:gapsweep_europe:Jasperware,evidence,Jasperware,kind from evidence,,,,kind:E1-79/sub-type (stoneware body),Cooper Hewitt 13 jasper objects; wiki:Jasperware
+gapsweep_europe,evidence:gapsweep_europe:Spode,evidence,Spode,kind from evidence,,,,kind:E1-79/manufactory,Cooper Hewitt 26
+gapsweep_europe,evidence:gapsweep_europe:Minton,evidence,Minton,kind from evidence,,,,kind:E1-79/manufactory,"Cooper Hewitt 21 (Minton Ceramics Manufactory, Mintons, Minton and Company, Minton's Art Pottery Studio)"
+gapsweep_europe,evidence:gapsweep_europe:Haviland & Co.,evidence,Haviland & Co.,kind from evidence,,,,kind:E4-21/manufactory,Cooper Hewitt Limoges porcelain made by Haviland
 architecture_west,Q12554,architecture_west,Middle Ages,style,,,,tag:period,"Middle Ages: period, not a style"
 architecture_west,Q4692,architecture_west,Renaissance,style,,,,alias:K5-22,period umbrella used as building style tag; buildings are Renaissance architecture
 architecture_west,Q37068,architecture_west,Romanticism,style,,,,kind:K2-6/Romantic historicism,Romanticism as tagged on buildings = Romantic (early Gothic Revival) historicism; the art movement itself is artist-led
@@ -20163,7 +20247,7 @@ artists,Q1246958,artists,Lorenz Clasen,artist,Western Europe,1812,,kind:A5-31/Ar
 artists,Q1247072,artists,Judit Reigl,artist,Western Europe,1923,,kind:A5-110/Artists,
 artists,Q1247148,artists,Lucas Faydherbe,artist,Western Europe,1617,,kind:D5-112/Artists,Baroque
 artists,Q1247346,artists,Ludwig Passini,artist,Western Europe,1832,,kind:A5-38/Artists,
-artists,Q124781,artists,Franz Anton Bustelli,artist,Western Europe,1723,,kind:D5-112/Artists,
+artists,Q124781,artists,Franz Anton Bustelli,artist,Western Europe,1723,,kind:E4-26/Nymphenburg,porcelain modeller (gap sweep)
 artists,Q124783,artists,Aloïse Corbaz,artist,Western Europe,1886,,kind:A5-80/Artists,art brut; movement art brut; other movements: art brut
 artists,Q124816157,artists,Tarlan Rafiee,artist,"Islamic world (MENA, Iran, Anatolia)",1980,,kind:A5-111/Artists,
 artists,Q1248359,artists,Leone Minassian,artist,Western Europe,1905,,kind:A5-110/Artists,
@@ -20583,7 +20667,7 @@ artists,Q130364230,artists,Hao Liang,artist,China,1983,,kind:A5-111/Artists,
 artists,Q130366345,artists,Jacky Tsai,artist,China,1984,,kind:B1-4/Artists,
 artists,Q130373881,artists,Marlene Almeida,artist,South America,1942,,kind:A5-110/Artists,
 artists,Q1303769,artists,Kateřina Šedá,artist,Western Europe,1977,,kind:A5-111/Artists,
-artists,Q1303913,artists,Eilbertus of Cologne,artist,Western Europe,1200,,kind:G1-43/Artists,
+artists,Q1303913,artists,Eilbertus of Cologne,artist,Western Europe,1200,,kind:G1-46/Artists,
 artists,Q130391830,artists,Mikhail Veksler,artist,Western Europe,1898,,kind:A5-110/Artists,
 artists,Q1304075,artists,Eilfried Huth,artist,Western Europe,1930,,kind:A5-110/Artists,
 artists,Q13042146,artists,Llambi Blido,artist,Western Europe,1939,,kind:A5-110/Artists,
@@ -21719,7 +21803,7 @@ artists,Q1437314,artists,Miklos Gaál,artist,Western Europe,1974,,kind:A5-111/Ar
 artists,Q143750,artists,John Rogers,artist,Western Europe,1829,,kind:D5-114/Artists,
 artists,Q1437598,artists,Karl Haider,artist,Western Europe,1846,,kind:A5-38/Artists,
 artists,Q1438306,artists,Almir Mavignier,artist,South America,1925,,kind:A5-110/Artists,
-artists,Q143854,artists,Theophilus Presbyter,artist,Western Europe,1070,,kind:G1-43/Artists,
+artists,Q143854,artists,Theophilus Presbyter,artist,Western Europe,1070,,kind:G1-46/Artists,
 artists,Q1438541,artists,Priam Painter,artist,Greco-Roman & Byzantine Mediterranean,-600,,kind:E1-27/Artists,
 artists,Q1439115,artists,Onorata Rodiani,artist,Western Europe,1403,,kind:A5-20/Artists,Italian Renaissance Painting; Italy and the Italian states; country group: Italy
 artists,Q1439498,artists,Fot,artist,Western Europe,1050,,kind:A5-15/Artists,
@@ -22273,7 +22357,7 @@ artists,Q1532683,artists,Blaise Alexandre Desgoffe,artist,Western Europe,1830,,k
 artists,Q1532915,artists,Mirella Ricciardi,artist,Sub-Saharan Africa,1931,,kind:J1-6/Artists,
 artists,Q1532955,artists,Alexander Olbricht,artist,Western Europe,1876,,kind:A5-110/Artists,
 artists,Q1533115,artists,Pausias,artist,Greco-Roman & Byzantine Mediterranean,-350,,kind:L2-31/Artists,
-artists,Q1533705,artists,Godefroid de Claire,artist,Western Europe,1100,,kind:G1-43/Artists,
+artists,Q1533705,artists,Godefroid de Claire,artist,Western Europe,1100,,kind:G1-46/Artists,
 artists,Q1533730,artists,Karl-Jean Longuet,artist,Western Europe,1904,,kind:D5-117/Artists,
 artists,Q15339037,artists,Georges Victor-Hugo,artist,Western Europe,1868,,kind:A5-110/Artists,
 artists,Q1533935,artists,Ursula Stock,artist,Western Europe,1937,,kind:A5-110/Artists,
@@ -24524,7 +24608,7 @@ artists,Q1751201,artists,Master of the Fogg Pietà,artist,Western Europe,1300,,k
 artists,Q175130,artists,Alfred Sisley,artist,Western Europe,1839,,kind:A5-47/Artists,movement Impressionism
 artists,Q1751436,artists,Samuel Colman,artist,Western Europe,1832,,kind:A5-38/Artists,
 artists,Q1751646,artists,Pierre Parrocel,artist,Western Europe,1670,,kind:A5-25/Artists,movement Baroque
-artists,Q1751768,artists,Paul de Lamerie,artist,Western Europe,1688,,kind:I3-5/Artists,
+artists,Q1751768,artists,Paul de Lamerie,artist,Western Europe,1688,,kind:G1-45/Huguenot silver,goldsmith (gap sweep)
 artists,Q175184,artists,Friedrich Eckenfelder,artist,Western Europe,1861,,kind:A5-47/Artists,movement Impressionism
 artists,Q17521996,artists,Christian Ludwig Bokelmann,artist,Western Europe,1844,,kind:A5-38/Artists,
 artists,Q17522222,artists,Michel Manzi,artist,Western Europe,1849,,kind:B1-4/Artists,
@@ -29054,7 +29138,7 @@ artists,Q2480828,artists,Van Leo,artist,"Islamic world (MENA, Iran, Anatolia)",1
 artists,Q24809961,artists,Anthony Hernandez,artist,North America (settler),1947,,kind:J1-7/Artists,
 artists,Q24809969,artists,Carmen Parra,artist,South America,1944,,kind:A5-110/Artists,
 artists,Q2481088,artists,John Opie,artist,Western Europe,1761,,kind:A5-30/Artists,
-artists,Q2481739,artists,Hugo d'Oignies,artist,Western Europe,1178,,kind:G1-43/Artists,
+artists,Q2481739,artists,Hugo d'Oignies,artist,Western Europe,1178,,kind:G1-46/Artists,
 artists,Q2482193,artists,Utagawa Yoshiiku,artist,China,1833,,kind:B2-13/Artists,ukiyo-e artist (P106)
 artists,Q2482340,artists,Jean Massart,artist,Western Europe,1865,,kind:J1-2/Artists,
 artists,Q2483186,artists,Georges Wakhévitch,artist,Western Europe,1907,,kind:A5-110/Artists,
@@ -32222,7 +32306,7 @@ artists,Q3119817,artists,Guillaume Dubufe,artist,Western Europe,1853,,kind:A5-38
 artists,Q3119822,artists,Carel Weeber,artist,Western Europe,1937,,kind:K6-22/Artists,
 artists,Q3119825,artists,Guillaume Dupré,artist,Western Europe,1570,,kind:D5-112/Artists,
 artists,Q3119860,artists,Guillaume Gillet,artist,Western Europe,1912,,kind:A5-110/Artists,
-artists,Q3120087,artists,John La Farge,artist,Western Europe,1835,,kind:A5-38/Artists,
+artists,Q3120087,artists,John La Farge,artist,Western Europe,1835,,kind:F5-3/Opalescent window designers,stained-glass designer (gap sweep)
 artists,Q3120202,artists,Guillaume Tronchet,artist,Western Europe,1867,,kind:A5-110/Artists,
 artists,Q312024,artists,Ivan Bilibin,artist,Western Europe,1876,,kind:A5-110/Artists,
 artists,Q3120552,artists,Guillermo Jullian de la Fuente,artist,South America,1931,,kind:A5-110/Artists,
@@ -32304,7 +32388,7 @@ artists,Q312859,artists,Yousuf Karsh,artist,North America (settler),1908,,kind:J
 artists,Q312915,artists,Eugène Pottier,artist,Western Europe,1816,,kind:B1-4/Artists,
 artists,Q3129262,artists,Hector Hyppolite,artist,South America,1894,,kind:A5-110/Artists,
 artists,Q3129322,artists,Heddy Kun,artist,"Islamic world (MENA, Iran, Anatolia)",1936,,kind:A5-110/Artists,
-artists,Q312950,artists,Louis Comfort Tiffany,artist,Western Europe,1848,,kind:A5-38/Artists,Art Nouveau
+artists,Q312950,artists,Louis Comfort Tiffany,artist,Western Europe,1848,,kind:F5-3/Makers,Art Nouveau; glass designer (gap sweep)
 artists,Q31295305,artists,Faig Ahmed,artist,Western Europe,1982,,kind:A5-111/Artists,
 artists,Q3129550,artists,Heinz von Perckhammer,artist,Western Europe,1895,,kind:J1-3/Artists,
 artists,Q3129634,artists,Helen Oxenbury,artist,Western Europe,1938,,kind:B1-4/Artists,
@@ -35054,7 +35138,7 @@ artists,Q3607116,artists,Aimaro Isola,artist,Western Europe,1928,,kind:K6-22/Art
 artists,Q360718,artists,Johan Niclas Byström,artist,Western Europe,1783,,kind:D5-113/Artists,
 artists,Q360724,artists,Stanhope Forbes,artist,Western Europe,1857,,kind:A5-38/Artists,
 artists,Q3607930,artists,Albe Steiner,artist,Western Europe,1913,,kind:I3-15/Artists,
-artists,Q360798,artists,Eligius,artist,Western Europe,588,,kind:G1-43/Artists,
+artists,Q360798,artists,Eligius,artist,Western Europe,588,,kind:G1-46/Artists,
 artists,Q3608043,artists,Albert Edward Sterner,artist,Western Europe,1863,,kind:A5-110/Artists,
 artists,Q3608150,artists,Alberto Biasi,artist,Western Europe,1937,,kind:A5-110/Artists,
 artists,Q360827,artists,Kurt Westergaard,artist,Western Europe,1935,,kind:A5-110/Artists,
@@ -45431,7 +45515,7 @@ artists,Q7358443,artists,Roger Kemp,artist,Oceania (Pacific),1908,,kind:A5-110/A
 artists,Q7358614,artists,Roger Mayne,artist,Western Europe,1929,,kind:J1-6/Artists,
 artists,Q73588441,artists,Justin Pieris Deraniyagala,artist,South Asia,1903,,kind:A5-110/Artists,
 artists,Q7358909,artists,Roger Shimomura,artist,North America (settler),1939,,kind:A5-89/Artists,movement pop art
-artists,Q73593,artists,Johann Joachim Kändler,artist,Western Europe,1706,,kind:D5-112/Artists,
+artists,Q73593,artists,Johann Joachim Kändler,artist,Western Europe,1706,,kind:E4-23/Makers,Meissen modeller (gap sweep)
 artists,Q735978,artists,Kaita Murayama,artist,China,1896,,kind:A5-108/Artists,Western-style (Yōga) training
 artists,Q7359860,artists,Roi Partridge,artist,North America (settler),1888,,kind:B2-11/Artists,
 artists,Q735994,artists,Louis Sparre,artist,Western Europe,1863,,kind:A5-110/Artists,
@@ -47650,7 +47734,7 @@ artists,Q9169348,artists,Bernard van Risenburgh,artist,Western Europe,1700,,kind
 artists,Q91739,artists,Horst von Möllendorff,artist,Western Europe,1906,,kind:B1-4/Artists,
 artists,Q917532,artists,Juan de Juni,artist,Western Europe,1506,,kind:A5-22/French Renaissance,Northern Renaissance (kind: French Renaissance); country group: France
 artists,Q9176096,artists,Bohdan Butenko,artist,Western Europe,1931,,kind:A5-110/Artists,
-artists,Q9177337,artists,Faci de Cremona,artist,Western Europe,1190,,kind:G1-43/Artists,
+artists,Q9177337,artists,Faci de Cremona,artist,Western Europe,1190,,kind:G1-46/Artists,
 artists,Q9179740,artists,Bronisław Jamontt,artist,Western Europe,1886,,kind:A5-110/Artists,
 artists,Q9179990,artists,Bronisława Janowska,artist,Western Europe,1868,,kind:A5-40/Artists,movement realism
 artists,Q91824,artists,Carl Saltzmann,artist,Western Europe,1847,,kind:A5-38/Artists,

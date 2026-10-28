@@ -1,0 +1,85 @@
+tmp,kind,group,basis
+L1,Johann Joachim Kändler,modeller,Met 186 objects (Q73593); currently T143 in artist_placements
+L1,Johann Gregorius Höroldt,painter,Met 11 objects (Q875243); currently T31
+L2,Vincennes,phase (1740-1756),"Cooper Hewitt 2 + Met ""French, Vincennes"" 1; wiki:Vincennes porcelain"
+L2,Alexandre Brachard,modeller,Cooper Hewitt Sèvres biscuit medallion
+L3,Chelsea,English factory,Cooper Hewitt 44; wiki:Chelsea porcelain factory
+L3,Worcester,English factory,"Cooper Hewitt 33 (Royal Worcester) + Met ""British, Worcester"" 7; wiki:Royal Worcester"
+L3,Derby,English factory,Cooper Hewitt 8; wiki:Royal Crown Derby
+L3,Bow,English factory,"Cooper Hewitt 4; Thomas Frye (Q3893676, Met 23, 1 Timeline work); wiki:Bow porcelain factory"
+L3,Longton Hall,English factory,Cooper Hewitt 6
+L3,Caughley,English factory,Cooper Hewitt 4
+L3,Saint-Cloud,French factory,Cooper Hewitt 7; wiki:Saint-Cloud porcelain
+L3,Chantilly,French factory,Cooper Hewitt 9; wiki:Chantilly porcelain
+L3,Mennecy,French factory,Cooper Hewitt 14; wiki:Mennecy-Villeroy porcelain
+L3,Capodimonte,Italian factory,Cooper Hewitt 3; wiki:Capodimonte porcelain
+L4,Vienna (Du Paquier),Austrian factory,Cooper Hewitt 13; wiki:Vienna porcelain
+L4,Nymphenburg,German factory,"Cooper Hewitt 2 + Met ""German, Nymphenburg"" 3; passes alone on Met Timeline (Bustelli); wiki:Nymphenburg Porcelain Manufactory"
+L4,Franz Anton Bustelli,Nymphenburg modeller,"Met 28 objects, 2 Timeline works (Q124781); currently T143"
+L4,Berlin (KPM),German factory,"Cooper Hewitt 26 + Rijks 4; wiki:Royal Porcelain Factory, Berlin"
+L4,Fürstenberg,German factory,Cooper Hewitt 15 + Met 1
+L4,Frankenthal,German factory,Cooper Hewitt 5; wiki:Frankenthal Porcelain Factory
+L4,Höchst,German factory,"Cooper Hewitt 3 + Met ""German, Höchst"" 6; J. P. Melchior (Q1695799, 1 Timeline work)"
+L4,Ludwigsburg,German factory,Cooper Hewitt 2 + Met 1
+L4,Wallendorf,Thuringian factory,Cooper Hewitt 10
+L4,Carl Thieme Potschappel,Dresden decorating factory,Cooper Hewitt 10
+L4,Doccia,Italian factory,Cooper Hewitt 25 (hybrid paste); wiki:Doccia porcelain
+L4,Cozzi,Italian factory,"Cooper Hewitt 15 (Venice, hybrid paste)"
+L4,"Imperial Porcelain Factory, St Petersburg",Russian factory,Cooper Hewitt 5
+L4,Royal Copenhagen,Danish factory,"Met ""Danish, Copenhagen / ceramics"" 49 + Cooper Hewitt 1; below rule alone; wiki:Royal Copenhagen"
+L4,Herend,Hungarian factory,"Rijks 12 + Met ""Hungarian, Herend"" 3; below rule alone; wiki:Herend Porcelain Manufactory"
+L5,Romanesque stained glass,phase,wiki:Medieval stained glass
+L5,Gothic stained glass,phase,"Met ""French / glass"" 455, median 1400"
+L5,English Gothic stained glass,school,wiki:English Gothic stained glass windows
+L5,Ebreichsdorf glazing,workshop/centre,"Met ""Austrian / glass"" 78 (Cloisters, 1390)"
+L5,Peter Hemmel von Andlau (Strassburger Werkstattgemeinschaft),workshop,Met essay Stained Glass in Medieval Europe
+L6,South Netherlandish roundels,centre,"Met ""South Netherlandish / glass"" 75"
+L6,Circle of the Master of the Amsterdam Cabinet,designer group,Met essay Stained Glass in Medieval Europe (roundel 469853)
+L7,Tiffany Studios (Tiffany Glass and Decorating Company),workshop,Cooper Hewitt 17 + 40 (L. C. Tiffany) + Met 703 (Q312950); currently T40
+L7,Favrile glass,sub-type (blown),wiki:Favrile glass; Cooper Hewitt Favrile vessels
+L7,John La Farge,opalescent window maker,"Met 50 objects, 1 Timeline work (Q3120087); Cooper Hewitt 17 window designs; currently T40"
+L7,Francis Lathrop,window designer,Cooper Hewitt 20 window designs (Q5481685)
+L7,Alice Cordelia Morse,Tiffany designer,"Cooper Hewitt 54 window designs; Met 62 objects, 17 Timeline works (Q4725795); currently T167"
+L7,Agnes Northrop,Tiffany designer,"Met 21 objects, 1 Timeline work (Q102156729); currently T167"
+L7,Clara Driscoll,Tiffany designer,Cooper Hewitt 1
+L8,Champlevé (Œuvre de Limoges),sub-type,"Met ""French / champleve"" 146, 13 Timeline works"
+L8,Painted enamel and grisaille,sub-type,"Met ""French / enamels"" 199; Cooper Hewitt 3"
+L8,Léonard Limosin,enameller,"Met 9 objects, 1 Timeline work (Q1879480); currently T24"
+L8,Pierre Reymond,enameller,"Met 9 objects, 1 Timeline work (Q7192420)"
+L8,Martial Courteys,enameller,Cooper Hewitt plate
+L8,Pierre Courteys,enameller,europe 1400-1900 artist pool (Q3384556)
+L9,Johann Andreas Thelot,goldsmith,Met mantel clock 199771
+L9,Johann Martin Satzger I,goldsmith,Met oval box 206244
+L9,Johann Erhard Heuglin II,goldsmith,Cooper Hewitt 2
+L10,Huguenot silver,school,Fitzwilliam/LACMA/Ashmolean pages; Met Lamerie 1 Timeline work
+L10,Paul de Lamerie,Huguenot silversmith,"Met 74 objects, 1 Timeline work (Q1751768); currently T162"
+L10,Simon Pantin I,Huguenot silversmith,Cooper Hewitt 1
+L10,Pierre Harache,Huguenot silversmith,Ashmolean silver gallery (Capel Basket)
+L10,David Willaume,Huguenot silversmith,V&A blog (Tessa Murdoch)
+L10,Pierre Platel,Huguenot silversmith,V&A blog (Tessa Murdoch)
+L10,Henry Chawner,silversmith,Cooper Hewitt 4
+L10,Joseph Angell II,silversmith,Cooper Hewitt 4
+L10,Robert Hennell I,silversmith,Cooper Hewitt 2
+L10,Thomas Heming,silversmith,Cooper Hewitt 2
+L11,Florentine commesso (Galleria dei Lavori),centre,"Met ""Italian / lapidary work"" 95; wiki:Commesso"
+L11,Milan,centre,"Met ""Italian, Milan / lapidary work"" 6, 1 Timeline work"
+L11,Rome,centre,"Met ""Italian, Rome / lapidary work"" 4"
+L12,André-Charles Boulle,ébéniste,"Met 12 objects, 3 Timeline works (Q128964); currently T27"
+L12,Pierre Gole,ébéniste,Met 1 Timeline work (Q3385271)
+L12,Alexandre-Jean Oppenordt,ébéniste,Met 1 Timeline work (Q2833357)
+L13,Reticella,sub-type,Cooper Hewitt about 50 reticella-style needle laces
+L13,Punto in aria,sub-type,Cooper Hewitt 20
+L13,Gros point de Venise,sub-type,wiki:Point de Venise
+G1-35,Urnes style,style phase,wiki:Viking art (Urnes style redirects to its section); named in G1-35 definition
+G1-35,Ringerike style,style phase,wiki:Viking art (Ringerike style redirects to its section); named in G1-35 definition
+G1-35,Oseberg style,style phase,named in G1-35 definition; wiki:Viking art
+G1-35,Borre style,style phase,named in G1-35 definition; wiki:Viking art
+G1-35,Jelling style,style phase,named in G1-35 definition; wiki:Viking art
+G1-35,Mammen style,style phase,named in G1-35 definition; wiki:Viking art
+G1-43,Nicholas of Verdun,goldsmith,"named in G1-43 definition; Met ""Mosan"" 7 objects carry no maker names"
+G1-36,Bilston,centre,"Met ""British, Bilston"" 54 (+93 ""British, South Staffordshire / enamels""); Battersea is already an alias of G1-36"
+E1-79,Wedgwood,manufactory,"Cooper Hewitt 49 + Josiah Wedgwood 3; Met Josiah Wedgwood 122 objects, 1 Timeline work (Q319331; currently T163); wiki:Wedgwood"
+E1-79,Jasperware,sub-type (stoneware body),Cooper Hewitt 13 jasper objects; wiki:Jasperware
+E1-79,Spode,manufactory,Cooper Hewitt 26
+E1-79,Minton,manufactory,"Cooper Hewitt 21 (Minton Ceramics Manufactory, Mintons, Minton and Company, Minton's Art Pottery Studio)"
+E4-21,Haviland & Co.,manufactory,Cooper Hewitt Limoges porcelain made by Haviland
