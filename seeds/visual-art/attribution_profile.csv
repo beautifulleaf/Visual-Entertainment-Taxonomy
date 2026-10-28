@@ -1,0 +1,121 @@
+region,era,profile,attributed_share,n_traditions,n_artists,rule_basis
+Western Europe,antiquity,tradition-led,0.067,36,4,attributed share 7% < 15%
+Western Europe,traditional,artist-led,0.287,1825,5669,attributed share 29% in 15-50%; named artists 5669 >= 3x traditions 1825
+Western Europe,traditional:500-1399,tradition-led,0.043,152,487,attributed share 4% < 15%
+Western Europe,traditional:1400-1859,artist-led,0.307,1673,5182,attributed share 31% in 15-50%; named artists 5182 >= 3x traditions 1673
+Western Europe,modern,artist-led,0.503,287,11304,attributed share 50% > 50%
+Western Europe,contemporary,artist-led,0.882,73,4597,attributed share 88% > 50%
+Central & Eastern Europe,antiquity,tradition-led,,20,1,attributed share not measured; traditions 20 >= 3x named artists 1
+Central & Eastern Europe,traditional,mixed,0.187,821,281,attributed share 19% in 15-50%; traditions 821 vs named artists 281 within 3x
+Central & Eastern Europe,traditional:500-1399,tradition-led,,47,14,attributed share not measured; traditions 47 >= 3x named artists 14
+Central & Eastern Europe,traditional:1400-1859,mixed,0.189,774,267,attributed share 19% in 15-50%; traditions 774 vs named artists 267 within 3x
+Central & Eastern Europe,modern,artist-led,0.215,619,2346,attributed share 21% in 15-50%; named artists 2346 >= 3x traditions 619
+Central & Eastern Europe,contemporary,artist-led,0.256,318,1075,attributed share 26% in 15-50%; named artists 1075 >= 3x traditions 318
+Greco-Roman & Byzantine Mediterranean,antiquity,tradition-led,0.063,346,458,attributed share 6% < 15%
+Greco-Roman & Byzantine Mediterranean,traditional,tradition-led,0.029,80,60,attributed share 3% < 15%
+Greco-Roman & Byzantine Mediterranean,traditional:500-1399,tradition-led,0.006,38,15,attributed share 1% < 15%
+Greco-Roman & Byzantine Mediterranean,traditional:1400-1859,tradition-led,0.067,42,45,attributed share 7% < 15%
+Greco-Roman & Byzantine Mediterranean,modern,n/a,,0,0,structural: cell outside the region's definition
+Greco-Roman & Byzantine Mediterranean,contemporary,n/a,,0,1,structural: cell outside the region's definition
+Ancient Egypt & Nubia,antiquity,tradition-led,0.016,58,8,attributed share 2% < 15%
+Ancient Egypt & Nubia,traditional,tradition-led,0.001,5,0,attributed share 0% < 15%
+Ancient Egypt & Nubia,traditional:500-1399,tradition-led,0.001,5,0,attributed share 0% < 15%
+Ancient Egypt & Nubia,traditional:1400-1859,n/a,,0,0,attributed share not measured; no nodes
+Ancient Egypt & Nubia,modern,n/a,,2,0,structural: cell outside the region's definition
+Ancient Egypt & Nubia,contemporary,n/a,,1,0,structural: cell outside the region's definition
+Ancient Near East,antiquity,tradition-led,0.000,150,1,attributed share 0% < 15%
+Ancient Near East,traditional,n/a,,2,0,structural: cell outside the region's definition
+Ancient Near East,traditional:500-1399,n/a,,2,0,structural: cell outside the region's definition
+Ancient Near East,traditional:1400-1859,n/a,,0,0,structural: cell outside the region's definition
+Ancient Near East,modern,n/a,,0,0,structural: cell outside the region's definition
+Ancient Near East,contemporary,n/a,,0,0,structural: cell outside the region's definition
+"Islamic world (MENA, Iran, Anatolia)",antiquity,n/a,,0,0,structural: cell outside the region's definition
+"Islamic world (MENA, Iran, Anatolia)",traditional,tradition-led,0.064,573,353,attributed share 6% < 15%
+"Islamic world (MENA, Iran, Anatolia)",traditional:500-1399,tradition-led,0.015,151,94,attributed share 1% < 15%
+"Islamic world (MENA, Iran, Anatolia)",traditional:1400-1859,tradition-led,0.109,424,259,attributed share 11% < 15%
+"Islamic world (MENA, Iran, Anatolia)",modern,artist-led,0.298,100,471,attributed share 30% in 15-50%; named artists 471 >= 3x traditions 100
+"Islamic world (MENA, Iran, Anatolia)",contemporary,artist-led,0.456,22,653,attributed share 46% in 15-50%; named artists 653 >= 3x traditions 22
+Central Asia & Silk Road,antiquity,tradition-led,0.001,41,0,attributed share 0% < 15%
+Central Asia & Silk Road,traditional,tradition-led,0.081,95,0,attributed share 8% < 15%
+Central Asia & Silk Road,traditional:500-1399,tradition-led,0.002,51,0,attributed share 0% < 15%
+Central Asia & Silk Road,traditional:1400-1859,tradition-led,0.369,44,0,attributed share 37% in 15-50%; traditions 44 >= 3x named artists 0
+Central Asia & Silk Road,modern,tradition-led,0.442,13,2,attributed share 44% in 15-50%; traditions 13 >= 3x named artists 2
+Central Asia & Silk Road,contemporary,artist-led,0.218,2,17,attributed share 22% in 15-50%; named artists 17 >= 3x traditions 2
+Himalaya,antiquity,tradition-led,,11,0,attributed share not measured; traditions 11 >= 3x named artists 0
+Himalaya,traditional,tradition-led,0.042,315,16,attributed share 4% < 15%
+Himalaya,traditional:500-1399,tradition-led,0.004,93,1,attributed share 0% < 15%
+Himalaya,traditional:1400-1859,tradition-led,0.053,225,16,attributed share 5% < 15%
+Himalaya,modern,tradition-led,0.021,26,5,attributed share 2% < 15%
+Himalaya,contemporary,mixed,0.424,17,25,attributed share 42% in 15-50%; traditions 17 vs named artists 25 within 3x
+South Asia,antiquity,tradition-led,0.000,43,0,attributed share 0% < 15%
+South Asia,traditional,tradition-led,0.051,773,434,attributed share 5% < 15%
+South Asia,traditional:500-1399,tradition-led,0.022,88,3,attributed share 2% < 15%
+South Asia,traditional:1400-1859,tradition-led,0.052,688,431,attributed share 5% < 15%
+South Asia,modern,tradition-led,0.117,147,228,attributed share 12% < 15%
+South Asia,contemporary,artist-led,0.244,71,230,attributed share 24% in 15-50%; named artists 230 >= 3x traditions 71
+Southeast Asia,antiquity,tradition-led,0.006,17,0,attributed share 1% < 15%
+Southeast Asia,traditional,tradition-led,0.065,387,18,attributed share 7% < 15%
+Southeast Asia,traditional:500-1399,tradition-led,0.013,78,1,attributed share 1% < 15%
+Southeast Asia,traditional:1400-1859,tradition-led,0.093,311,17,attributed share 9% < 15%
+Southeast Asia,modern,tradition-led,0.117,273,152,attributed share 12% < 15%
+Southeast Asia,contemporary,artist-led,0.220,15,148,attributed share 22% in 15-50%; named artists 148 >= 3x traditions 15
+China,antiquity,tradition-led,0.013,51,33,attributed share 1% < 15%
+China,traditional,artist-led,0.372,372,1898,attributed share 37% in 15-50%; named artists 1898 >= 3x traditions 372
+China,traditional:500-1399,artist-led,0.329,41,473,attributed share 33% in 15-50%; named artists 473 >= 3x traditions 41
+China,traditional:1400-1859,artist-led,0.381,331,1425,attributed share 38% in 15-50%; named artists 1425 >= 3x traditions 331
+China,modern,artist-led,0.354,48,618,attributed share 35% in 15-50%; named artists 618 >= 3x traditions 48
+China,contemporary,artist-led,0.265,9,375,attributed share 26% in 15-50%; named artists 375 >= 3x traditions 9
+Japan,antiquity,tradition-led,0.006,12,16,attributed share 1% < 15%
+Japan,traditional,artist-led,0.456,257,4057,attributed share 46% in 15-50%; named artists 4057 >= 3x traditions 257
+Japan,traditional:500-1399,tradition-led,0.103,43,767,attributed share 10% < 15%
+Japan,traditional:1400-1859,artist-led,0.522,214,3290,attributed share 52% > 50%
+Japan,modern,artist-led,0.588,26,1799,attributed share 59% > 50%
+Japan,contemporary,artist-led,0.535,9,633,attributed share 54% > 50%
+Korea,antiquity,tradition-led,0.016,14,0,attributed share 2% < 15%
+Korea,traditional,artist-led,0.182,72,520,attributed share 18% in 15-50%; named artists 520 >= 3x traditions 72
+Korea,traditional:500-1399,tradition-led,0.008,19,14,attributed share 1% < 15%
+Korea,traditional:1400-1859,artist-led,0.240,53,506,attributed share 24% in 15-50%; named artists 506 >= 3x traditions 53
+Korea,modern,artist-led,0.280,7,70,attributed share 28% in 15-50%; named artists 70 >= 3x traditions 7
+Korea,contemporary,artist-led,0.291,1,89,attributed share 29% in 15-50%; named artists 89 >= 3x traditions 1
+Sub-Saharan Africa,antiquity,tradition-led,0.008,16,0,attributed share 1% < 15%
+Sub-Saharan Africa,traditional,tradition-led,0.034,182,29,attributed share 3% < 15%
+Sub-Saharan Africa,traditional:500-1399,tradition-led,0.004,37,4,attributed share 0% < 15%
+Sub-Saharan Africa,traditional:1400-1859,tradition-led,0.078,146,25,attributed share 8% < 15%
+Sub-Saharan Africa,modern,tradition-led,0.137,448,231,attributed share 14% < 15%
+Sub-Saharan Africa,contemporary,artist-led,0.192,24,332,attributed share 19% in 15-50%; named artists 332 >= 3x traditions 24
+North America (Indigenous),antiquity,tradition-led,0.000,316,0,attributed share 0% < 15%
+North America (Indigenous),traditional,tradition-led,0.002,695,0,attributed share 0% < 15%
+North America (Indigenous),traditional:500-1399,tradition-led,0.000,225,0,attributed share 0% < 15%
+North America (Indigenous),traditional:1400-1859,tradition-led,0.005,470,0,attributed share 0% < 15%
+North America (Indigenous),modern,tradition-led,0.146,1114,17,attributed share 15% < 15%
+North America (Indigenous),contemporary,artist-led,0.666,461,4,attributed share 67% > 50%
+North America (settler),antiquity,n/a,0.864,11,0,structural: cell outside the region's definition
+North America (settler),traditional,artist-led,0.554,175,216,attributed share 55% > 50%
+North America (settler),traditional:500-1399,tradition-led,0.429,21,0,attributed share 43% in 15-50%; traditions 21 >= 3x named artists 0
+North America (settler),traditional:1400-1859,artist-led,0.556,154,216,attributed share 56% > 50%
+North America (settler),modern,artist-led,0.726,180,3575,attributed share 73% > 50%
+North America (settler),contemporary,artist-led,0.833,16,2096,attributed share 83% > 50%
+Mesoamerica & Caribbean,antiquity,tradition-led,0.022,77,1,attributed share 2% < 15%
+Mesoamerica & Caribbean,traditional,tradition-led,0.007,159,10,attributed share 1% < 15%
+Mesoamerica & Caribbean,traditional:500-1399,tradition-led,0.001,102,2,attributed share 0% < 15%
+Mesoamerica & Caribbean,traditional:1400-1859,tradition-led,0.056,59,8,attributed share 6% < 15%
+Mesoamerica & Caribbean,modern,tradition-led,0.065,61,280,attributed share 6% < 15%
+Mesoamerica & Caribbean,contemporary,artist-led,0.383,56,247,attributed share 38% in 15-50%; named artists 247 >= 3x traditions 56
+South America,antiquity,tradition-led,0.000,58,0,attributed share 0% < 15%
+South America,traditional,tradition-led,0.012,178,52,attributed share 1% < 15%
+South America,traditional:500-1399,tradition-led,0.000,89,3,attributed share 0% < 15%
+South America,traditional:1400-1859,tradition-led,0.058,89,49,attributed share 6% < 15%
+South America,modern,tradition-led,0.093,62,537,attributed share 9% < 15%
+South America,contemporary,artist-led,0.472,31,488,attributed share 47% in 15-50%; named artists 488 >= 3x traditions 31
+Oceania (Pacific),antiquity,tradition-led,,4,0,attributed share not measured; traditions 4 >= 3x named artists 0
+Oceania (Pacific),traditional,tradition-led,0.026,196,22,attributed share 3% < 15%
+Oceania (Pacific),traditional:500-1399,tradition-led,,20,0,attributed share not measured; traditions 20 >= 3x named artists 0
+Oceania (Pacific),traditional:1400-1859,tradition-led,0.023,176,22,attributed share 2% < 15%
+Oceania (Pacific),modern,tradition-led,0.073,151,441,attributed share 7% < 15%
+Oceania (Pacific),contemporary,artist-led,0.225,9,227,attributed share 22% in 15-50%; named artists 227 >= 3x traditions 9
+Australia (Aboriginal),antiquity,mixed,,6,4,attributed share not measured; traditions 6 vs named artists 4 within 3x
+Australia (Aboriginal),traditional,tradition-led,,19,0,attributed share not measured; traditions 19 >= 3x named artists 0
+Australia (Aboriginal),traditional:500-1399,n/a,,0,0,attributed share not measured; no nodes
+Australia (Aboriginal),traditional:1400-1859,tradition-led,,19,0,attributed share not measured; traditions 19 >= 3x named artists 0
+Australia (Aboriginal),modern,mixed,,33,18,attributed share not measured; traditions 33 vs named artists 18 within 3x
+Australia (Aboriginal),contemporary,mixed,,16,21,attributed share not measured; traditions 16 vs named artists 21 within 3x
