@@ -1,0 +1,1272 @@
+pool_id,label,disposition,note
+Q12554,Middle Ages,tag:period,"Middle Ages: period, not a style"
+Q4692,Renaissance,alias:artists:T182,period umbrella used as building style tag; buildings are Renaissance architecture
+Q37068,Romanticism,kind:L1/Romantic historicism,Romanticism as tagged on buildings = Romantic (early Gothic Revival) historicism; the art movement itself is artist-led
+Q39427,surrealism,route:artist-led,"surrealism: painting movement, not an architectural style"
+Q40415,Impressionism,route:artist-led,Impressionism: painting movement
+Q42934,cubism,alias:L77,"cubism tagged on 95 buildings, almost all Czech Cubist; painting movement is artists:T60"
+Q878985,modernism,alias:artists:T186,modernism tagged on buildings = modern architecture
+Q47783,Postmodernism,alias:artists:T188,Postmodernism tagged on buildings
+Q46825,Gothic art,alias:artists:T181,Gothic art umbrella tagged on buildings
+Q486761,classical antiquity,tag:period,classical antiquity
+Q80113,Expressionism,kind:L78/Sub-styles,Expressionism tagged on buildings = expressionist architecture; painting is artists:T58
+Q128115,abstract art,route:artist-led,abstract art
+Q124354,Bauhaus,leaf:L81,design school is artists:T170 (I3); this is its architecture
+Q170292,Classicism,alias:artists:T184,"Classicism (Central/East European usage) tagged on 3,570 buildings = Neoclassical architecture"
+Q176483,Gothic architecture,leaf:artists:T181,
+Q102932,avant-garde,exclude:umbrella,avant-garde: umbrella term
+Q122960,Rococo,alias:L58,Rococo movement tagged on buildings
+Q134178,Minoan civilization,tag:period,Minoan civilization: culture/period; its buildings are Minoan Architecture
+Q14378,Neoclassicism,alias:artists:T184,Neoclassicism movement tagged on buildings
+Q10857409,realism,route:artist-led,realism: art movement
+Q173436,Minimalism,route:artist-led,Minimalism (art); minimalist architecture is a separate row
+Q131808,Mannerism,kind:artists:T182/Phases,Mannerism tagged on buildings = Mannerist architecture (alias of that kind)
+Q173782,Art Deco,alias:L80,"Art Deco movement tagged on 2,677 buildings; design leaf is artists:T169"
+Q46261,Romanesque architecture,leaf:L50,
+Q46805,Romanesque art,alias:L50,Romanesque art umbrella tagged on buildings
+Q186030,contemporary art,route:artist-led,contemporary art
+Q189458,academic art,route:artist-led,academic art (painting)
+Q186363,Gothic Revival,leaf:L1,
+Q207103,Constructivism,alias:L83,Constructivism movement tagged on buildings; the art movement is artists:T65
+Q47591,Byzantine architecture,leaf:L42,
+Q223750,ancient Roman architecture,leaf:L39,
+Q236122,Renaissance architecture,leaf:artists:T182,
+Q207445,De Stijl,kind:artists:T186/Movements,De Stijl architecture (Rietveld Schröder House); the art movement is artists:T66
+Q217050,Late antiquity,tag:period,Late antiquity
+Q189548,Ionic order,kind:L37/Orders,Ionic order
+Q245188,modern architecture,leaf:artists:T186,
+Q994776,brutalist architecture,leaf:artists:T187,
+Q191105,Empire style,leaf:L63,
+Q211884,Byzantine art,alias:L42,Byzantine art umbrella tagged on buildings
+Q466887,Belle Époque,tag:period,Belle Époque
+Q192664,Doric order,kind:L37/Orders,Doric order
+Q42865,Orientalism,route:artist-led,Orientalism (painting); Moorish/Islamic revival buildings are K2-1
+Q54124,Corinthian order,kind:L37/Orders,Corinthian order
+Q326478,land art,route:artist-led,land art
+Q331273,ancient Greek architecture,leaf:L37,
+Q840829,baroque architecture,leaf:artists:T183,
+Q1404472,Italian Renaissance,tag:period,Italian Renaissance (period); buildings are Renaissance architecture
+Q157123,Carolingian Renaissance,tag:period,Carolingian Renaissance (period); buildings are Carolingian Architecture
+Q192068,eclecticism,alias:L12,eclecticism
+Q154432,Biedermeier,kind:artists:T184/Phases,Biedermeier architecture; decorative arts leaf is artists:T165
+Q208208,Vienna Secession,kind:artists:T185/Regional schools,Vienna Secession
+Q330369,Arts and Crafts movement,leaf:L74,movement's design leaf is artists:T167 (I3); this is its architecture
+Q54111,Neoclassical architecture,leaf:artists:T184,
+Q629000,timber framing,route:K12,timber framing: vernacular building technique
+Q1133779,Renaissance art,alias:artists:T182,Renaissance art umbrella tagged on buildings
+Q11084414,modernity,exclude:not a style,modernity
+Q238255,deconstructivism,leaf:artists:T189,
+Q36118,organic architecture,kind:artists:T186/Movements,organic architecture (T186 note: a kind)
+Q429811,early Christian art,alias:L41,Early Christian art tagged on buildings
+Q47942,functionalism,kind:artists:T186/Movements,functionalism (T186 note: a kind)
+Q264649,Palladian architecture,leaf:L61,
+Q594150,art brut,route:artist-led,art brut
+Q595448,postmodern architecture,leaf:artists:T188,
+Q828310,Panopticon,exclude:building type,Panopticon: prison design
+Q764675,Mudéjar architecture of Aragon,kind:K1-5/Regional schools,Mudéjar architecture of Aragon (UNESCO)
+Q160218,New Objectivity,route:artist-led,New Objectivity (painting) artists:T70; architecture is Q574561
+Q263985,romantic nationalism,alias:L25,romantic nationalism tagged on Nordic buildings
+Q460501,historicism,exclude:umbrella,historicism = the K2 sub-family itself
+Q654057,Tuscan order,kind:L39/Orders,Tuscan order
+Q734649,Composite order,kind:L39/Orders,Composite order
+Q930314,vernacular architecture,route:K12,vernacular architecture umbrella
+Q971480,modernist literature,exclude:not architecture,modernist literature
+Q1153484,folk art,exclude:umbrella,folk art
+Q422681,Nazarene movement,route:artist-led,Nazarene movement (painting)
+Q60138,peripteral,kind:L37/Temple plans,peripteral temple
+Q751878,Manueline,leaf:L55,
+Q1134824,Stalinist architecture,leaf:L88,
+Q443153,Early Netherlandish painting,route:artist-led,Early Netherlandish painting
+Q478774,purism,kind:artists:T186/Movements,Purism (Le Corbusier/Ozenfant)
+Q610877,Northern Renaissance,kind:artists:T182/Regional schools,Northern Renaissance
+Q12797,star fort,exclude:building type,star fort (military type)
+Q728266,hall church,exclude:building type,hall church
+Q1128018,pastiche,exclude:not a style,pastiche
+Q162034,hip roof,exclude:building element,hip roof
+Q397469,Neo-romanticism,route:artist-led,Neo-romanticism
+Q47848,sacred architecture,exclude:umbrella,sacred architecture
+Q589655,neo-expressionism,route:artist-led,neo-expressionism (painting) artists:T100
+Q911397,baroque revival,leaf:L8,
+Q845318,high-tech architecture,leaf:L92,
+Q1148060,expressionist architecture,leaf:L78,
+Q1197995,Frankokratia,tag:period,Frankokratia
+Q1332178,Sienese school,route:artist-led,Sienese school (painting)
+Q1351624,Flamboyant,kind:artists:T181/Sub-styles,Flamboyant
+Q2642826,French Realism,route:artist-led,French Realism
+Q708807,pre-Romanesque art,alias:L47,pre-Romanesque art umbrella tagged on buildings
+Q847847,synthetism,route:artist-led,synthetism
+Q509364,Tudor architecture,leaf:L53,
+Q753683,metaphysical painting,route:artist-led,metaphysical painting
+Q694408,Weimar Classicism,tag:period,Weimar Classicism (literary period)
+Q867769,International Gothic,kind:artists:T181/Sub-styles,International Gothic in architecture; painting leaf is artists:T20
+Q118114289,Frutiger Aero,exclude:not architecture,Frutiger Aero (graphic design aesthetic)
+Q1474884,High Renaissance,kind:artists:T182/Phases,High Renaissance
+Q1542287,Ukrainian Baroque,kind:artists:T183/Regional schools,Ukrainian (Cossack) Baroque
+Q245580,Cyclopean masonry,kind:L36/Techniques,Cyclopean masonry
+Q277466,historicism,exclude:umbrella,historicism (design) = K2 sub-family
+Q287025,Nazi architecture,leaf:L90,
+Q435405,prehistoric Britain,tag:period,prehistoric Britain
+Q695863,Brick Gothic,kind:artists:T181/Regional schools,Brick Gothic
+Q863679,chinoiserie,kind:L58/Sub-styles,chinoiserie pavilions and interiors
+Q1066218,Ottonian art,alias:L49,Ottonian art tagged on a building
+Q136693,Norman architecture,kind:L50/Regional schools,Norman architecture (Anglo-Norman Romanesque)
+Q247492,Moorish architecture,leaf:K1-4,Moorish architecture (pilot leaf)
+Q1232633,Hague School,route:artist-led,Hague School (painting)
+Q1400430,Macedonian Renaissance,tag:period,Macedonian Renaissance (Byzantine period)
+Q15011985,Mudéjar style,alias:K1-5,Mudéjar style
+Q2349908,French Renaissance,kind:artists:T182/Regional schools,French Renaissance
+Q2479493,eclectic architecture,leaf:L12,
+Q840111,Giant order,exclude:building element,giant order
+Q966571,Byzantine Revival architecture,leaf:L4,
+Q1004004,Bulgarian National Revival,alias:L66,Bulgarian National Revival tagged on a building
+Q1141784,Sicilian Baroque,kind:artists:T183/Regional schools,Sicilian Baroque
+Q290472,amphiprostyle,kind:L37/Temple plans,amphiprostyle
+Q1122677,Catalan modernism,kind:artists:T185/Regional schools,Catalan modernisme
+Q577852,Plateresque,leaf:L54,
+Q845421,neoplasticism,route:artist-led,neoplasticism (De Stijl painting)
+Q492255,tetrapylon,kind:L39/Building types,tetrapylon
+Q557141,public art,route:artist-led,public art
+Q74156,Moorish Revival architecture,leaf:K2-1,Moorish Revival (pilot leaf)
+Q3357314,Florentine School,route:artist-led,Florentine School (painting)
+Q694519,Gründerzeit,tag:period,Gründerzeit
+Q988346,Merovingian art,kind:L47/Regional schools,Merovingian
+Q1349760,medieval architecture,exclude:umbrella,medieval architecture
+Q4198718,classical architecture,exclude:umbrella,classical architecture (tradition spanning K3–K6)
+Q1095072,large panel system building,exclude:construction system,large panel system building
+Q1973348,Norman-Arab-Byzantine culture,leaf:L51,
+Q2455000,German Renaissance,kind:artists:T182/Regional schools,German Renaissance
+Q2535546,rationalism,kind:artists:T186/Movements,Rationalism (Italian razionalismo and Spanish racionalismo)
+Q478742,Amsterdam School,kind:L78/Regional schools,Amsterdam School
+Q914771,Koban culture,exclude:archaeological culture,Koban culture
+Q12020836,timber-framed house,route:K12,timber-framed house
+Q1424667,modular building,exclude:building type,modular building
+Q1628039,Utrecht Caravaggism,route:artist-led,Utrecht Caravaggism
+Q388587,Louis XVI style,kind:artists:T184/Sub-styles,Louis XVI style (decorative leaf artists:T163)
+Q958255,Anglo-Saxon art,alias:L47,Anglo-Saxon art tagged on a building (see kind Anglo-Saxon architecture)
+Q1517921,Louis XIV style,kind:artists:T183/Sub-styles,Louis XIV style (decorative leaf artists:T161)
+Q16862908,Belarusian Gothic,kind:artists:T181/Regional schools,Belarusian Gothic
+Q2026876,Russian Revival architecture,leaf:L22,
+Q2256729,Swiss chalet style,leaf:L27,
+Q24798,critical regionalism,kind:artists:T190/Movements,critical regionalism
+Q333353,futurist architecture,leaf:L79,
+Q352097,Adam style,kind:artists:T184/Sub-styles,Adam style
+Q750752,English Gothic architecture,kind:artists:T181/Regional schools,English Gothic
+Q945693,Louis Quinze,alias:L58,Louis Quinze (decorative leaf artists:T162)
+Q1227514,Directoire style,kind:artists:T184/Sub-styles,Directoire style
+Q1788398,cross-in-square,kind:L42/Building types,cross-in-square plan
+Q1951304,Mozarabic art,alias:L47,Mozarabic art (see kind Mozarabic architecture)
+Q616753,Naryshkin Baroque,kind:artists:T183/Regional schools,Naryshkin Baroque
+Q1277524,Gothic sculpture,route:sculpture,Gothic sculpture (D)
+Q2337737,Carolingian architecture,leaf:L48,
+Q2390991,Gothicism,exclude:not a style,Gothicism (Swedish ideology)
+Q2494008,Early Christian architecture,leaf:L41,
+Q51879601,historicist architecture,exclude:umbrella,historicist architecture = K2 sub-family
+Q615196,Italianate architecture,leaf:L6,
+Q979160,Proto-Renaissance,kind:L50/Regional schools,Proto-Renaissance (Florentine Romanesque)
+Q1294605,Jugendstil,kind:artists:T185/Regional schools,Jugendstil
+Q1580216,Noucentisme,kind:artists:T186/Movements,Noucentisme (Catalan)
+Q1882338,Mosan art,route:artists:T157,"Mosan art (goldsmiths' work, G1)"
+Q2008210,Visigothic art,alias:L47,Visigothic art (see kind Visigothic architecture)
+Q2142976,Romano-British culture,tag:place,Romano-British culture
+Q2914850,Rayonnant,kind:artists:T181/Sub-styles,Rayonnant
+Q430167,Spanish Renaissance,kind:artists:T182/Regional schools,Spanish Renaissance
+Q600320,architecture of the Fascist period,leaf:L89,
+Q841977,constructivist architecture,leaf:L83,
+Q1295040,Art Nouveau architecture,leaf:artists:T185,
+Q15609295,Perpendicular Gothic,kind:artists:T181/Regional schools,Perpendicular (English Gothic)
+Q2398144,architecture of France,tag:place,architecture of France
+Q2712488,Spanish architecture,tag:place,Spanish architecture
+Q460596,Brâncovenesc art,leaf:L60,
+Q50084199,New Classical architecture,leaf:L93,
+Q537454,Anglo-Saxon architecture,kind:L47/Regional schools,Anglo-Saxon architecture
+Q614624,neo-Mudéjar,leaf:K2-2,Neo-Mudéjar (pilot leaf)
+Q15838173,Regionalism,route:artist-led,Regionalism (American realist painting)
+Q1588393,Ottonian architecture,leaf:L49,
+Q1667680,structuralism,kind:artists:T186/Movements,Structuralism (Dutch)
+Q1788409,Nordic Classicism,leaf:L86,
+Q1946544,monumental art,exclude:umbrella,monumental art
+Q2903045,Renaissance in Poland,tag:place,Renaissance in Poland
+Q468050,Brick Expressionism,kind:L78/Regional schools,Brick Expressionism
+Q477371,kitchen sink realism,exclude:not architecture,kitchen sink realism
+Q884574,Blobitecture,kind:artists:T190/Movements,Blobitecture
+Q933661,Novecento Italiano,kind:L89/Sub-styles,Novecento (architecture); painting group is artist-led
+Q174419,Second Empire style,leaf:L7,
+Q1755128,Rundbogenstil,kind:L3/Sub-styles,Rundbogenstil
+Q1936626,aisleless church,exclude:building type,aisleless church
+Q2245489,Italian Gothic architecture,kind:artists:T181/Regional schools,Italian Gothic
+Q2600188,Russian architecture,exclude:umbrella,Russian architecture (country umbrella)
+Q2763408,Baroque sculpture,route:sculpture,Baroque sculpture (D)
+Q5477607,Zakopane Style architecture,leaf:L26,
+Q635231,architecture of Germany,tag:place,architecture of Germany
+Q2245347,French Gothic architecture,kind:artists:T181/Regional schools,French Gothic
+Q2632089,Dutch and Flemish Renaissance painting,route:artist-led,Dutch and Flemish Renaissance painting
+Q2636415,Petrine Baroque,kind:artists:T183/Regional schools,Petrine Baroque
+Q2722661,First Romanesque,kind:L50/Phases,First Romanesque (Lombard Romanesque)
+Q2748473,Asturian architecture,kind:L47/Regional schools,Asturian architecture
+Q3271544,neomodern,kind:artists:T190/Movements,Neomodern
+Q3818926,Northern Mannerism,kind:artists:T182/Phases,Northern Mannerism (with Mannerist architecture)
+Q3931689,Regency architecture,kind:L62/Phases,Regency architecture
+Q820539,Bergère,exclude:not architecture,bergère (chair)
+Q1077702,national Romantic style,leaf:L25,
+Q109280471,classical architecture,exclude:umbrella,classical architecture
+Q1323065,Louis XIII style,kind:artists:T183/Sub-styles,Louis XIII style
+Q1434013,Grand Siècle,tag:period,Grand Siècle
+Q1534870,smock mill,exclude:building type,smock mill
+Q1614189,Herrerian,leaf:L56,
+Q1920546,Czech Cubism,leaf:L77,
+Q1967635,Postconstructivism,kind:L88/Phases,Postconstructivism
+Q2300756,Dutch Baroque architecture,kind:artists:T183/Regional schools,Dutch Baroque
+Q2704973,Spanish Gothic architecture,kind:artists:T181/Regional schools,Spanish Gothic
+Q3476363,Scottish baronial architecture,kind:L1/Sub-styles,Scottish baronial
+Q3624021,Art Nouveau architecture in Riga,kind:artists:T185/Regional schools,Riga Art Nouveau (UNESCO)
+Q3771791,Etruscan architecture,leaf:L38,
+Q3953215,Romanesque sculpture,route:sculpture,Romanesque sculpture (D)
+Q4562834,dragestil,kind:L25/Sub-styles,Dragestil (Norway)
+Q574561,New Objectivity,kind:artists:T186/Movements,New Objectivity (Neues Bauen) in architecture
+Q585010,Weser Renaissance,kind:artists:T182/Regional schools,Weser Renaissance
+Q6297212,French Renaissance architecture,alias:artists:T182,French Renaissance architecture (kind 'French Renaissance' placed from Q2349908)
+Q936588,Renaissance sculpture,route:sculpture,Renaissance sculpture (D)
+Q1125039,Post-romanticism,route:artist-led,Post-romanticism
+Q1477476,industrial architecture,exclude:building type,industrial architecture
+Q1756718,Rascian architecture,kind:L43/Regional schools,Raška school (Rascian architecture)
+Q2083873,Lombard architecture,kind:L47/Regional schools,Lombard architecture
+Q2365000,Elizabethan architecture,kind:L53/Phases,Elizabethan architecture
+Q2860335,architecture of Georgia,leaf:L46,
+Q2864605,Cistercian architecture,kind:L50/Monastic,Cistercian architecture (Romanesque into Gothic)
+Q2864672,Art of Al-Andalus,alias:K1-4,Art of al-Andalus tagged on buildings
+Q316711,Beuron school,route:artist-led,Beuron school (painting)
+Q3501307,Troubadour style,route:artist-led,Troubadour style (painting)
+Q373277,Frederician Rococo,kind:L58/Regional schools,Frederician Rococo
+Q7919731,Venetian Gothic architecture,kind:artists:T181/Regional schools,Venetian Gothic
+Q956832,Brabantine Gothic,kind:artists:T181/Regional schools,Brabantine Gothic
+Q1189662,architecture of the United Kingdom,tag:place,architecture of the United Kingdom
+Q1472236,Early Renaissance,kind:artists:T182/Phases,Early Renaissance
+Q2574110,English Baroque,kind:artists:T183/Regional schools,English Baroque
+Q2860343,Jacobean architecture,kind:artists:T182/Regional schools,Jacobean architecture
+Q3354525,polygonal masonry,exclude:construction technique,polygonal masonry
+Q3501300,Serbo-Byzantine style (modern architecture),kind:L4/Regional schools,Serbo-Byzantine Revival
+Q56394155,Bosnian style in architecture,kind:artists:T186/Regional schools,Bosnian style (Bosnian modernism)
+Q655556,Heimatschutz architecture,kind:L84/Sub-styles,Heimatschutz architecture
+Q7573930,megalithism,route:ancient_world,megalithism (prehistoric monuments; no K sub-family)
+Q900557,cast-iron architecture,exclude:construction technique,cast-iron architecture
+Q1810654,Serbo-Byzantine architecture,leaf:L43,
+Q1938594,Morava architectural school,kind:L43/Regional schools,Morava school
+Q24940792,Gothic art in Milan,tag:place,Gothic art in Milan
+Q2537632,eclecticism in art,alias:L12,eclecticism in art
+Q273495,École de Nancy,kind:artists:T185/Regional schools,École de Nancy
+Q2864692,Art Nouveau in Brussels,tag:place,Art Nouveau in Brussels
+Q3399545,Spanish Renaissance architecture,alias:artists:T182,Spanish Renaissance architecture (kind 'Spanish Renaissance' placed from Q430167)
+Q3953198,Italian Renaissance sculpture,route:sculpture,Italian Renaissance sculpture (D)
+Q4153087,Hutsul Secession,kind:artists:T185/Regional schools,Hutsul Secession
+Q4438509,Architecture of the medieval cathedrals of England,exclude:umbrella,topic article (medieval cathedrals of England)
+Q4787140,Architecture of Kievan Rus',leaf:L44,
+Q65089629,Venetian Renaissance architecture,kind:artists:T182/Regional schools,Venetian Renaissance architecture
+Q11350230,Rococo architecture,leaf:L58,
+Q12018399,Czech Gothic architecture,kind:artists:T181/Regional schools,Bohemian (Czech) Gothic
+Q13512662,Regence style,kind:L58/Sub-styles,Régence style
+Q13581485,Italian Baroque,alias:artists:T183,Italian Baroque (see kind Italian Baroque architecture)
+Q1777427,Cartilage baroque,tag:ornament,"Cartilage baroque (Knorpelwerk ornament, D6)"
+Q1896616,Romano-Gothic,kind:artists:T181/Phases,Romano-Gothic (transitional)
+Q220416,Zopf style,kind:artists:T184/Sub-styles,Zopf style
+Q2359372,Elizabethan Baroque,kind:artists:T183/Regional schools,Elizabethan Baroque (Russia)
+Q2568026,Vilnian Baroque,kind:artists:T183/Regional schools,Vilnian Baroque
+Q27055630,Russian wooden architecture,route:K12,Russian wooden architecture
+Q3111490,Plantagenet style,kind:artists:T181/Regional schools,Plantagenet (Angevin) Gothic
+Q326469,Portuguese baroque,kind:artists:T183/Regional schools,Portuguese Baroque
+Q47015062,Valencian Art Nouveau,kind:artists:T185/Regional schools,Valencian Art Nouveau
+Q5501689,French Baroque architecture,kind:artists:T183/Regional schools,French Baroque
+Q578577,Early English Gothic,kind:artists:T181/Regional schools,Early English Gothic
+Q64462328,"Modernist Kaunas: Architecture of Optimism, 1919-1939",kind:artists:T186/Regional schools,Modernist Kaunas (UNESCO)
+Q6695419,Lublin Renaissance,kind:artists:T182/Regional schools,Lublin Renaissance
+Q878965,Resort architecture,kind:L12/Sub-styles,Resort architecture (Bäderarchitektur)
+Q9322693,Rondocubism,kind:L77/Phases,Rondocubism
+Q1003339,classicist baroque,kind:artists:T183/Sub-styles,classicist baroque
+Q1174101,Romanticism in Poland,route:artist-led,Romanticism in Poland
+Q1182092,Decorated Gothic,kind:artists:T181/Regional schools,Decorated Gothic
+Q12348939,medievalism,exclude:not a style,medievalism
+Q12720948,Romanian Revival architecture,leaf:L24,
+Q13107150,Czech Baroque architecture,kind:artists:T183/Regional schools,Czech (Bohemian) Baroque
+Q13422195,Czech Renaissance architecture,tag:place,Czech Renaissance architecture
+Q1556741,Gustavian style,kind:artists:T184/Regional schools,Gustavian style
+Q2434964,Mosan gothic,kind:artists:T181/Regional schools,Mosan Gothic
+Q24935410,Soviet Modernist architecture,kind:artists:T186/Regional schools,Soviet Modernism
+Q2864630,Repoblación art and architecture,kind:L47/Regional schools,Repoblación architecture
+Q3326940,Movimento Arte Concreta,route:artist-led,Movimento Arte Concreta (concrete art artists:T89)
+Q3501291,Pombaline style,leaf:L65,
+Q3501296,Sapin style,kind:artists:T185/Regional schools,Sapin style
+Q3774048,Moldavian style,leaf:L52,
+Q3940633,romanesque arte in Pisa,kind:L50/Regional schools,Pisan Romanesque
+Q4426604,wooden architecture,route:K12,wooden architecture
+Q495381,Scheldt Gothic architecture,kind:artists:T181/Regional schools,Scheldt Gothic
+Q5118885,châteauesque,kind:L5/Sub-styles,Châteauesque
+Q660311,Art nouveau in Milan,tag:place,Art Nouveau in Milan (Stile Liberty kind)
+Q7356060,Rococo Revival,kind:L8/Sub-styles,Rococo Revival
+Q7573157,Spanish Baroque architecture,kind:artists:T183/Regional schools,Spanish Baroque
+Q913340,Florentine Renaissance art,tag:place,Florentine Renaissance art
+Q1114972,Mannerist architecture,kind:artists:T182/Phases,Mannerist architecture
+Q11784483,Neues Bauen,kind:artists:T186/Movements,Neues Bauen
+Q17165854,Late modernism,kind:artists:T186/Phases,Late modernism
+Q2056895,Neo-Manueline,leaf:L21,
+Q21032839,Valencian Gothic,kind:artists:T181/Regional schools,Valencian Gothic
+Q2130795,Bossche School,kind:L85/Sub-styles,Bossche School
+Q2420087,Neapolitan baroque art,kind:artists:T183/Regional schools,Neapolitan Baroque
+Q27301872,Romanticism in France,route:artist-led,Romanticism in France
+Q2864591,art of Almoravides and Almohades,kind:K1-4/Dynastic styles,Almoravid and Almohad
+Q3111491,Meridional Gothic,kind:artists:T181/Regional schools,Southern French (Meridional) Gothic
+Q3407309,Catherine de' Medici's building projects,exclude:not a style,Catherine de' Medici's building projects (patronage topic)
+Q3501269,Louis-Philippe style,kind:artists:T184/Sub-styles,Louis-Philippe style
+Q3501299,Soft Portuguese style,kind:L12/Regionalism,Português Suave (Estado Novo regionalism)
+Q3635090,Milanese Baroque,kind:artists:T183/Regional schools,Milanese Baroque
+Q3773652,International Gothic art in Italy,tag:place,International Gothic in Italy
+Q3973544,Stile umbertino,kind:L12/Sub-styles,Stile Umbertino
+Q4373390,Portuguese Gothic architecture,tag:place,Portuguese Gothic architecture
+Q4470573,Ukrainian modern,kind:artists:T185/Regional schools,Ukrainian Art Nouveau (Ukrainian modern)
+Q4895430,Catalan Gothic,kind:artists:T181/Regional schools,Catalan Gothic
+Q4968832,Bristol Byzantine,kind:L3/Sub-styles,Bristol Byzantine
+Q6119627,Jacobethan,kind:L2/Sub-styles,Jacobethan
+Q7362467,Romanesque architecture in Spain,tag:place,Romanesque architecture in Spain
+Q811240,country baroque architecture,kind:artists:T183/Sub-styles,"country (rustic) Baroque, South Bohemia"
+Q9159129,Pre-Romanesque architecture,leaf:L47,
+Q963612,Romanesque architecture in Sardinia,kind:L50/Regional schools,Sardinian Romanesque
+Q1289482,Traditionalist School,leaf:L85,
+Q1334868,Romanesque art in Catalonia,kind:L50/Regional schools,Catalan Romanesque
+Q1444486,Saxon Renaissance,kind:artists:T182/Regional schools,Saxon Renaissance
+Q15229457,Mannerist art in Milan,tag:place,Mannerist art in Milan
+Q1595728,Heimatstil,kind:L84/Sub-styles,Heimatstil
+Q16482064,Portuguese Romanesque architecture,tag:place,Portuguese Romanesque architecture
+Q1811245,barocco leccese,kind:artists:T183/Regional schools,Lecce Baroque (barocco leccese)
+Q18409378,Tatar architecture,route:nonwestern,Tatar architecture (Volga Tatar Islamic)
+Q1936935,minimalism in architecture,kind:artists:T190/Movements,Minimalism in architecture
+Q20645040,Stile Liberty,kind:artists:T185/Regional schools,Stile Liberty
+Q2095930,Pinnettas,route:K12,Pinnettas (Sardinian shepherds' huts)
+Q21652111,monumentalism in architecture,kind:L89/Sub-styles,monumentalism (Italian)
+Q2278641,Cycladic architecture,route:K12,Cycladic architecture (whitewashed island vernacular)
+Q2406030,Mosan renaissance style,kind:artists:T182/Regional schools,Mosan Renaissance
+Q25393587,Regionalism,kind:L12/Regionalism,"Regionalism (architecture, France/Belgium/Spain)"
+Q25401181,neoconstructivism,kind:artists:T186/Regional schools,Neoconstructivism (Soviet modernism)
+Q2748747,Delftse School,kind:L85/Sub-styles,Delft School
+Q28133999,Maltese Baroque architecture,kind:artists:T183/Regional schools,Maltese Baroque
+Q2864597,cybernetic art,route:artist-led,cybernetic art
+Q2864689,Nasrid art,kind:K1-4/Dynastic styles,Nasrid
+Q2864700,Art Nouveau in Paris,tag:place,Art Nouveau in Paris
+Q2864702,Art Nouveau in Turin,tag:place,Art Nouveau in Turin
+Q2884586,romanesque architecture in Italy,tag:place,Romanesque architecture in Italy
+Q3441125,Romanticism in Italy,route:artist-led,Romanticism in Italy
+Q3501270,Henry II style,kind:artists:T182/Sub-styles,Henri II style
+Q3874654,neoclassicism in Milan,tag:place,neoclassicism in Milan
+Q3917391,architectural school of Hrodna,kind:L44/Regional schools,Hrodna school
+Q3935973,Renaissance in Ferrara,tag:place,Renaissance in Ferrara
+Q3935975,Renaissance in Lombardy,tag:place,Renaissance in Lombardy
+Q3935976,Renaissance in Naples,tag:place,Renaissance in Naples
+Q4070852,architecture of Moldova,tag:place,architecture of Moldova
+Q4439247,Stalinist Empire style,kind:L88/Sub-styles,Stalinist Empire style
+Q5403441,Turku romanticism,route:artist-led,Turku romanticism
+Q6027751,Industrial style,exclude:not a style,industrial style (interior design)
+Q6092662,Italian Baroque architecture,kind:artists:T183/Regional schools,Italian Baroque architecture
+Q6092863,Italian Neoclassical architecture,kind:artists:T184/Regional schools,Italian Neoclassical architecture
+Q7209916,Gothic architecture in Poland,tag:place,Gothic architecture in Poland
+Q7362841,Romanticism in Scotland,route:artist-led,Romanticism in Scotland
+Q9159155,French Romanesque architecture,tag:place,French Romanesque architecture
+Q10276410,Chão style,kind:artists:T182/Regional schools,Portuguese Plain Style (estilo chão)
+Q12049741,Romantic architecture,kind:L1/Romantic historicism,Romantic architecture
+Q1295289,secessionist architecture in Hungary,kind:artists:T185/Regional schools,Hungarian Secession
+Q1962333,Gothic Survival architecture,kind:artists:T181/Phases,Gothic Survival
+Q20192147,Neoclassicalism,alias:L93,Neoclassicalism (21st-century classicism)
+Q2136756,Reform Architecture,leaf:L84,
+Q2314870,New Hague School,kind:artists:T186/Regional schools,New Hague School
+Q25110575,Neo-Historism,alias:L93,Neo-Historism
+Q28945426,Louis XII style,kind:artists:T182/Sub-styles,Louis XII style
+Q3940635,Romanesque art in Apulia,kind:L50/Regional schools,Apulian Romanesque
+Q4221815,brick style,kind:L22/Sub-styles,brick style (kirpichny stil)
+Q4393722,Retrospectivist architecture,alias:L23,Retrospectivism
+Q4401046,Uzorochye,leaf:L59,
+Q4408702,Belarusian Baroque,kind:artists:T183/Regional schools,Belarusian Baroque
+Q4520962,tented-roof church,kind:L59/Building types,tented-roof church
+Q798511,list of Brick Renaissance buildings,alias:artists:T182,list item for Brick Renaissance (kind placed from Q30658194)
+Q798512,Brick Romanesque Architecture,kind:L50/Regional schools,Brick Romanesque
+Q8242964,Hispanic baroque,kind:L68/Sub-styles,Hispanic Baroque
+Q10412776,Visigothic architecture,kind:L47/Regional schools,Visigothic architecture
+Q10924220,Late Gothic,kind:artists:T181/Phases,Late Gothic
+Q12275767,The Architecture of the Bulgarian Revival,leaf:L66,
+Q134883921,Vladimir-Suzdal school (art),kind:L44/Regional schools,Vladimir-Suzdal school
+Q2611710,cottage style,kind:L74/Sub-styles,cottage style (Low Countries)
+Q2740095,Um 1800,kind:L84/Sub-styles,Um 1800
+Q2860289,Norman architecture of Sicily,kind:L51/Sub-styles,Norman architecture of Sicily
+Q2860359,Russian-Byzantine architecture,kind:L22/Sub-styles,Russian-Byzantine style (Thon)
+Q2864629,art of the Umayyads of Cordoba,kind:K1-4/Dynastic styles,Umayyad of Córdoba
+Q2864731,Romanesque art of Provence,kind:L50/Regional schools,Provençal Romanesque
+Q2940898,Creole case,kind:L71/Building types,Creole case (Antilles)
+Q3282723,reconstruction-period architecture,tag:period,Dutch post-war reconstruction architecture (Wederopbouw)
+Q33247990,Early Gothic architecture,kind:artists:T181/Phases,Early Gothic
+Q3347108,Neo-Basque style,kind:L12/Regionalism,Neo-Basque style
+Q3546877,tetrastyle,kind:L37/Temple plans,tetrastyle
+Q3624106,Baroque art,alias:artists:T183,Baroque art tagged on buildings
+Q38451143,Pskov architectural style,kind:L44/Regional schools,Pskov school
+Q3973547,restoration style,kind:artists:T183/Regional schools,Restoration style (England 1660–1685)
+Q4070858,Architectural school of Polock,kind:L44/Regional schools,Polotsk school
+Q4176287,baroque gothic,kind:artists:T183/Sub-styles,Baroque Gothic (Santini)
+Q54912692,Art Deco in the Land of Valencia,tag:place,Art Deco in Valencia
+Q7382246,Russian Neoclassical Revival,leaf:L23,
+Q742962,Demer Gothic,kind:artists:T181/Regional schools,Demer Gothic
+Q9159154,Romanesque architecture in Poland,tag:place,Romanesque architecture in Poland
+Q111903038,Esglésies de repoblament de Mallorca,kind:artists:T181/Regional schools,Mallorcan repopulation churches
+Q112687131,Bienne modernism,kind:artists:T186/Regional schools,Bienne modernism
+Q112702185,Dutch colonial architecture,leaf:L72,
+Q11686645,Art Nouveau architecture in Italy,tag:place,Art Nouveau architecture in Italy (Stile Liberty kind)
+Q117005626,Northern modern,kind:L25/Sub-styles,Northern Modern (Russian northern Art Nouveau)
+Q12033488,vernacular architecture in the Czech Republic,route:K12,Czech vernacular
+Q13031741,vernacular architecture of Belarus,route:K12,Belarusian vernacular
+Q16626171,Romanesque art in Galicia,tag:place,Romanesque art in Galicia
+Q17104714,Nieuwe Zakelijkheid,alias:artists:T186,Nieuwe Zakelijkheid (with kind New Objectivity)
+Q1900706,Archduke Style,exclude:unclear item,Archduke Style: no description or source to place it
+Q19347338,Architectural school of Western Paliessie,route:K12,Western Polesie vernacular school
+Q19347339,Architectural school of Eastern Paliessie,route:K12,Eastern Polesie vernacular school
+Q1962399,Nachkriegsmoderne,tag:period,post-war modernism (Germany)
+Q24265256,Maximilianstil,kind:L1/Sub-styles,Maximilianstil
+Q2654404,spa architecture,exclude:building type,spa architecture
+Q2860314,Taifa art,kind:K1-4/Dynastic styles,Taifa
+Q2860353,Mudéjar architecture,leaf:K1-5,Mudéjar architecture (pilot leaf)
+Q2860368,filipská architektura,exclude:unclear item,no English label; cannot identify
+Q29024373,English mansion style in the Netherlands,kind:L74/Sub-styles,English mansion style (Netherlands)
+Q3501272,Ренессанс,alias:artists:T182,unlabelled Renaissance item tagged on French/Belgian buildings
+Q4141616,Golitsyn Baroque,kind:artists:T183/Regional schools,Golitsyn Baroque
+Q5175548,cottage orné,kind:L1/Picturesque,cottage orné
+Q52713635,Mozarabic architecture,kind:L47/Regional schools,Mozarabic architecture
+Q56378393,Neobarroco,alias:L8,Neobarroco
+Q5705264,regionalist architecture in Spain,kind:L12/Regionalism,Spanish regionalist architecture
+Q60094901,Rationalist architecture in the Land of Valencia,tag:place,Rationalism in Valencia
+Q64334168,Late Baroque,kind:artists:T183/Phases,Late Baroque
+Q819854,Berg house,route:K12,Berg house (regional house type)
+Q8205322,Romanesque art in Aragon,tag:place,Romanesque art in Aragon
+Q9347553,national style,kind:L25/Sub-styles,Polish national style (1920s)
+Q105363923,Haussmannian architecture,kind:L7/Sub-styles,Haussmannian architecture
+Q108602174,Жеравненска къща,kind:L66/Building types,Zheravna house
+Q11303546,Gothic style,alias:artists:T181,Gothic style
+Q11355242,Brussels style,kind:artists:T186/Regional schools,Brussels style (Czechoslovak Expo 58 style)
+Q115688756,Rationalism of Lake Como,kind:artists:T186/Regional schools,Como rationalism
+Q11686646,Socialist architecture in Poland,alias:L88,socialist architecture in Poland (socialist realism)
+Q11784484,Modernist architecture in Poland,tag:place,Modernist architecture in Poland
+Q12393149,megalitismo de Galicia,route:ancient_world,Galician megaliths
+Q125591692,neo-pompeian style,kind:L9/Sub-styles,Neo-Pompeian
+Q1621045,historicizing,exclude:umbrella,historicizing
+Q16678069,Neo-Louis XIII style,kind:L5/Sub-styles,Neo-Louis XIII
+Q16693026,Russian Romanesque,kind:L44/Regional schools,Russian Romanesque (Vladimir-Suzdal white stone)
+Q19910996,Moscow baroque,alias:artists:T183,Moscow Baroque (kind Naryshkin Baroque)
+Q2269431,Semper Nicolai school,kind:L5/Sub-styles,Semper-Nicolai school
+Q2345965,Holland gothic,kind:artists:T181/Regional schools,Holland Gothic
+Q2710172,transitional architecture,kind:artists:T185/Regional schools,Dutch transitional architecture (c. 1900)
+Q27557355,Nasrid architecture,kind:K1-4/Dynastic styles,Nasrid architecture
+Q3347056,Flemish Renaissance Revival architecture,kind:L5/Sub-styles,Flemish Renaissance Revival
+Q5705254,Neo-Plateresque architecture,kind:L5/Sub-styles,Neo-Plateresque
+Q63982693,styl dworkowy,kind:L25/Sub-styles,manor style (styl dworkowy)
+Q65116247,interwar period architecture,tag:period,interwar period architecture
+Q72553961,classic gothic,kind:artists:T181/Phases,High (classic) Gothic
+Q9159144,Italian Renaissance architecture,kind:artists:T182/Regional schools,Italian Renaissance architecture
+Q109180294,Early Baroque,kind:artists:T183/Phases,Early Baroque
+Q11327340,half-timbering,route:K12,half-timbering
+Q115096447,severská neorenesance,kind:L5/Sub-styles,Nordic Neo-Renaissance (Czech)
+Q115920141,Gruppenbau,kind:L84/Sub-styles,Gruppenbau
+Q117315337,märkische Backsteingotik,kind:L1/Sub-styles,Brick Gothic Revival (Mark Brandenburg)
+Q130386788,waterstaatsstijl,kind:artists:T184/Regional schools,Waterstaat style (Dutch)
+Q134054300,Dudok-trant,kind:L78/Regional schools,Dudok style
+Q141617253,Willem II Gotiek,kind:L1/Sub-styles,Willem II Gothic
+Q30658194,Brick Renaissance Style,kind:artists:T182/Regional schools,Brick Renaissance
+Q42293889,expo style,kind:artists:T186/Regional schools,Expo 58 style
+Q49974793,Neotraditional,exclude:umbrella,Neotraditional (generic)
+Q56266149,Castellated Gothic,kind:L1/Sub-styles,Castellated Gothic
+Q61777202,Geometric Art Nouveau,kind:artists:T185/Regional schools,Geometric Art Nouveau
+Q63442026,High Baroque,kind:artists:T183/Phases,High Baroque
+Q73252539,Renaixement Comnè,tag:period,Komnenian Renaissance
+Q84418145,Rococo Revival architecture,alias:L8,Rococo Revival architecture (kind Rococo Revival)
+Q85685942,traditional (architectural style),exclude:umbrella,traditional (generic interior style)
+Q93899018,Soviet classicism,alias:L88,Soviet classicism
+Q98476163,Proto-Baroque,kind:artists:T183/Phases,Proto-Baroque
+Q134147,pop art,route:artist-led,pop art
+Q162324,International Style,leaf:L82,
+Q502163,Renaissance Revival architecture,leaf:L5,
+Q754602,Sentimentalism,route:artist-led,Sentimentalism
+Q850107,bungalow,route:K12,bungalow (house type)
+Q943853,Hudson River school,route:artist-led,Hudson River School
+Q744373,Romanesque Revival architecture,leaf:L3,
+Q565165,Victorian architecture,leaf:L13,
+Q735901,New Urbanism,kind:artists:T188/Movements,New Urbanism
+Q1125300,Georgian architecture,leaf:L62,
+Q938864,Mexican muralism,route:artist-led,Mexican muralism
+Q1072060,Chicago School,leaf:L75,
+Q1268134,Beaux-Arts,leaf:L11,
+Q928960,Streamline Moderne,kind:L80/Phases,Streamline Moderne
+Q717220,Googie,kind:L79/Sub-styles,Googie
+Q1344946,facadism,exclude:practice,facadism
+Q2005167,Maya architecture,route:nonwestern,Maya architecture
+Q616358,Prairie School architecture,leaf:L76,
+Q529819,Queen Anne style,leaf:L14,
+Q1627825,picturesque,exclude:aesthetic concept,picturesque
+Q384177,Egyptian Revival architecture,leaf:L10,
+Q1216982,revivalism,exclude:umbrella,revivalism = K2 sub-family
+Q508475,colonial architecture,exclude:umbrella,colonial architecture (K5 colonial leaves)
+Q1400086,Federal architecture,leaf:L64,
+Q5346070,Edwardian architecture,kind:L8/Sub-styles,Edwardian architecture (Edwardian Baroque)
+Q1755539,City Beautiful movement,kind:L11/Movements,City Beautiful movement
+Q338739,Talud-tablero,route:nonwestern,talud-tablero
+Q548879,novelty architecture,exclude:building category,novelty architecture
+Q2650380,Mesoamerican architecture,route:nonwestern,Mesoamerican architecture
+Q3645460,Spanish Colonial Revival architecture,leaf:L17,
+Q1458835,shotgun house,route:K12,shotgun house
+Q2700522,Mission Revival architecture,leaf:L18,
+Q6840667,mid-century modern,leaf:L91,
+Q3501282,Gingerbread house,kind:L13/Sub-styles,Gingerbread (Haiti/Caribbean)
+Q571648,Antebellum architecture,kind:L9/Regional schools,Antebellum architecture
+Q7080212,saltbox,kind:L67/Building types,saltbox
+Q966937,monolithic architecture,exclude:construction technique,monolithic architecture
+Q23091252,Stripped Classicism,leaf:L87,
+Q3501297,Richardsonian Romanesque,kind:L3/Sub-styles,Richardsonian Romanesque
+Q4365410,Carpenter Gothic,kind:L1/Sub-styles,Carpenter Gothic
+Q4832964,Aztec architecture,route:nonwestern,Aztec architecture
+Q5148367,Colonial Revival architecture,leaf:L16,
+Q5673292,Shingle style architecture,leaf:L15,
+Q3635094,Russian Baroque,kind:artists:T183/Regional schools,Russian Baroque
+Q4418329,Siberian Baroque,kind:artists:T183/Regional schools,Siberian Baroque
+Q570074,American colonial architecture,leaf:L67,
+Q2299876,Adirondack Architecture,kind:L29/Sub-styles,Adirondack Great Camps
+Q30327019,post and lintel,exclude:construction technique,post and lintel
+Q463382,American Craftsman,kind:L74/Regional schools,American Craftsman
+Q5034667,Cape Cod,kind:L67/Building types,Cape Cod house
+Q5249786,New Spanish Baroque,kind:L68/Sub-styles,New Spanish Baroque
+Q56266198,Collegiate Gothic,kind:L1/Sub-styles,Collegiate Gothic
+Q754650,Superadobe,exclude:construction technique,Superadobe
+Q7937337,Mediterranean Revival architecture,kind:L17/Sub-styles,Mediterranean Revival
+Q2130555,ranch-style house,route:K12,ranch-style house
+Q3933952,Mayan Revival architecture,leaf:L20,
+Q466675,American Renaissance,kind:L11/Regional schools,American Renaissance
+Q4745501,American modernism,alias:artists:T186,American modernism
+Q6175722,Jeffersonian architecture,kind:L61/Regional schools,Jeffersonian architecture
+Q7127018,Palazzo style architecture,kind:L5/Sub-styles,Palazzo style
+Q7258468,Pueblo Revival Style architecture,leaf:L19,
+Q7270218,Queen Anne style architecture in the United States,alias:L14,Queen Anne in the United States
+Q7616244,Stick style,kind:L13/Sub-styles,Stick style
+Q7851317,Tudor Revival architecture,leaf:L2,
+Q106225044,Neo-Byzantine architecture in the Russian Empire,kind:L4/Regional schools,Neo-Byzantine in the Russian Empire
+Q12069738,Spanish Colonial architecture,leaf:L68,
+Q1541698,Sarasota School of Architecture,kind:L91/Regional schools,Sarasota School
+Q16292813,Utopian architecture,exclude:not a style,Utopian architecture (unbuilt projects)
+Q2657199,rustic architecture,leaf:L29,
+Q5501716,French Colonial,leaf:L71,
+Q12720942,Art Deco architecture,leaf:L80,
+Q18746504,New Formalism,kind:artists:T186/Movements,New Formalism
+Q5317260,Dutch Colonial Revival architecture,kind:L16/Sub-styles,Dutch Colonial Revival
+Q5967732,I-house,route:K12,I-house
+Q6974748,National Park Service rustic,kind:L29/Sub-styles,National Park Service rustic
+Q16911022,Folk Victorian,kind:L13/Sub-styles,Folk Victorian
+Q16931750,Northwest Regional style,kind:L91/Regional schools,Northwest Regional style
+Q27958342,Second Empire architecture in the United States and Canada,alias:L7,Second Empire in the US and Canada
+Q27958345,Second Empire architecture in Europe,alias:L7,Second Empire in Europe
+Q5330714,Eastlake Movement,kind:L14/Sub-styles,Eastlake movement
+Q5453505,First Period,kind:L67/Phases,First Period
+Q55164904,Queen Anne Revival architecture,alias:L14,Queen Anne Revival
+Q7703756,Territorial architecture,kind:L19/Regional schools,Territorial style (New Mexico)
+Q1016889,Burr Truss,exclude:not a style,Burr truss (bridge)
+Q113158860,French provincial architecture,kind:L12/Regionalism,French provincial (American)
+Q16933931,Pueblo Deco architecture,kind:L19/Sub-styles,Pueblo Deco
+Q17182373,PWA Moderne,kind:L80/Phases,PWA Moderne
+Q4743854,American Foursquare,route:K12,American Foursquare
+Q48976503,Moderne architecture,alias:L80,Moderne (with kind Streamline Moderne)
+Q5184212,Creole architecture in the United States,kind:L71/Regional schools,Creole architecture (Louisiana)
+Q5757358,High Victorian Gothic,kind:L1/Sub-styles,High Victorian Gothic
+Q6827366,Miami Modern architecture,kind:L91/Regional schools,Miami Modern (MiMo)
+Q7954160,WPA Rustic,kind:L29/Sub-styles,WPA Rustic
+Q96400431,Pueblo architecture,route:nonwestern,Pueblo architecture
+Q137216891,Late Victorian Plain,kind:L13/Sub-styles,Late Victorian Plain (Canada)
+Q20897878,Georgian Revival architecture,kind:L16/Sub-styles,Georgian Revival
+Q5515426,gablefront house,route:K12,gablefront house
+Q5587872,Gothic Revival architecture in Canada,tag:place,Gothic Revival in Canada
+Q61459826,Streamline Moderne architecture,alias:L80,Streamline Moderne architecture (kind)
+Q65051019,New Mexico vernacular,route:K12,New Mexico vernacular
+Q6905299,Monterey Colonial architecture,kind:L68/Regional schools,Monterey Colonial
+Q7703749,Territorial Revival architecture,kind:L19/Regional schools,Territorial Revival
+Q7800890,Tidewater architecture,kind:L67/Regional schools,Tidewater architecture
+Q98939712,Boom Town style,route:K12,Boom Town false-front
+Q111679105,English Cottage architecture,kind:L2/Sub-styles,English Cottage
+Q133514349,Spanish Eclectic architecture,kind:L17/Sub-styles,Spanish Eclectic
+Q133530651,Eastlake üslubu,alias:L14,Eastlake (Turkish-labelled duplicate)
+Q134962467,dombellotisme,kind:L78/Regional schools,Dom Bellot style (dombellotisme)
+Q15613803,Usonian architecture,kind:artists:T186/Movements,Usonian (with organic architecture)
+Q5146960,Collegiate Gothic in North America,alias:L1,Collegiate Gothic in North America (kind Collegiate Gothic)
+Q97960960,Romanesque Revival architecture in the United States,tag:place,Romanesque Revival in the US
+Q98964999,Forest Service rustic,kind:L29/Sub-styles,Forest Service rustic
+Q567789,Federation architecture,leaf:L28,
+Q5021201,California bungalow,kind:L74/Regional schools,California bungalow
+Q54979933,Victorian Free Classical,kind:L13/Sub-styles,Victorian Free Classical (Australia)
+Q186018,contemporary architecture,leaf:artists:T190,
+Q1431376,Baroque literature,exclude:not architecture,Baroque literature
+Q2004258,Inca architecture,route:nonwestern,Inca architecture
+Q17625141,Cholet,route:nonwestern,"Neo-Andean (cholet), Bolivia"
+Q7232704,Portuguese colonial architecture,leaf:L70,
+Q9630227,colonial architecture of Brazil,kind:L70/Regional schools,Brazilian colonial
+Q899271,Brazilian baroque,kind:L70/Sub-styles,Brazilian Baroque
+Q189772,Brazilian academic art,route:artist-led,Brazilian academic art
+Q25040753,Muisca architecture,route:nonwestern,Muisca architecture
+Q3083331,Andean Baroque,leaf:L69,
+Q9630291,Modernist architecture in Brazil,kind:artists:T186/Regional schools,Brazilian modernism
+Q5099182,Chilotan architecture,route:K12,Chilotan architecture
+Q34636,Art Nouveau,route:artists:T168,Art Nouveau movement; architecture is artists:T185
+Q147516,magic realism,route:artist-led,magic realism
+Q33565,stilt house,exclude:building type,stilt house (generic)
+Q837024,social realism,route:artist-led,social realism
+Q848365,primitivism,route:artist-led,primitivism
+Q62506,Caravaggisti,route:artist-led,Caravaggisti
+Q1236678,orientalizing period,tag:period,orientalizing period
+Q1578378,Precisionism,route:artist-led,Precisionism
+Q30531,tiny house movement,exclude:not a style,tiny house movement
+Q112762818,loft apartment,exclude:building type,loft apartment
+Q149276,tented roof,exclude:building element,tented roof
+Q1136545,Costumbrismo,route:artist-led,Costumbrismo
+Q1295485,Neolithic architecture,route:ancient_world,Neolithic architecture (prehistoric)
+Q7921926,Vernacular architecture of the Carpathians,route:K12,Carpathian vernacular
+Q946790,chashitsu,route:nonwestern,chashitsu
+Q1418745,dark romanticism,route:artist-led,dark romanticism
+Q2185042,Flemish painting,route:artist-led,Flemish painting
+Q3355791,Aeolic order,kind:L37/Orders,Aeolic order
+Q1285794,Kumbum,route:nonwestern,kumbum
+Q1128503,container building,exclude:building type,container building
+Q1994273,Flemish Baroque painting,route:artist-led,Flemish Baroque painting
+Q2623468,kliros,exclude:building element,kliros
+Q3080012,Shinto architecture,route:nonwestern,Shinto architecture
+Q3629007,prefabricated home,exclude:building type,prefabricated home
+Q859039,yaodong,route:nonwestern,yaodong
+Q2860383,totalitarian architecture,exclude:umbrella,"totalitarian architecture (STAL, FASC, NAZI)"
+Q3649129,cabana,exclude:building type,cabana
+Q4745458,American folk music revival,exclude:not architecture,American folk music revival
+Q1973650,Templon,exclude:building element,templon
+Q3270912,Architecture of cathedrals and great churches,exclude:umbrella,cathedral architecture topic
+Q4303378,Western Chalukya architecture,route:nonwestern,Western Chalukya architecture
+Q6960545,Vainakh tower architecture,route:nonwestern,Vainakh towers
+Q8027878,witch window,exclude:building element,witch window
+Q992797,lavatorium,exclude:building element,lavatorium
+Q2694178,Mycenaean architecture,leaf:L36,
+Q332496,overtaking station,exclude:not architecture,overtaking station
+Q4921794,design–build,exclude:practice,design–build
+Q1555183,modular construction,exclude:construction technique,modular construction
+Q17080368,Nabataean architecture,leaf:L40,
+Q3038946,romantic drama,exclude:not architecture,romantic drama
+Q3192940,karamon,route:nonwestern,karamon
+Q3556317,Vesara,route:nonwestern,Vesara
+Q3621603,Minoan architecture,leaf:L35,
+Q3692618,Babinets,exclude:building element,babinets
+Q4745527,American realism,route:artist-led,American realism
+Q607600,congregation hall,exclude:building element,congregation hall
+Q1030200,Campana reliefs,route:ancient_world,Campana reliefs (terracotta revetment plaques)
+Q3432586,roundhouse,route:K12,roundhouse
+Q3658025,Architecture of the Tarnovo Artistic School,kind:L42/Regional schools,Tarnovo school (Bulgaria)
+Q576489,Branchwork,tag:ornament,"branchwork (Astwerk, D6)"
+Q102428480,Complementary architecture,kind:artists:T190/Movements,Complementary architecture
+Q10925819,Hakka walled village,route:nonwestern,Hakka walled village
+Q1204196,Sondergotik,kind:artists:T181/Phases,Sondergotik
+Q1978437,slow architecture,exclude:not a style,slow architecture
+Q241169,Tectonics (architecture),exclude:not a style,tectonics (theory)
+Q25052076,parametricism,kind:artists:T190/Movements,Parametricism
+Q3006708,synthetic cubism,route:artist-led,synthetic cubism
+Q4075721,Byronism,exclude:not architecture,Byronism
+Q4868540,Batak architecture,route:nonwestern,Batak architecture
+Q7140262,Parthian style,alias:L33,"Pope's ""Parthian style"" of Iranian architecture (Wikipedia redirects Parthian architecture here); spans Parthian and Sasanian building"
+Q7578710,split platform,exclude:not architecture,split platform
+Q106092136,Japandi,exclude:not a style,Japandi (interior design)
+Q19287983,classicism,exclude:umbrella,classicism
+Q19595137,Soft style,route:artist-led,Soft style (sculpture/painting)
+Q25469888,Hokkien architecture,route:nonwestern,Hokkien architecture
+Q301449,grondzeiler,exclude:building type,grondzeiler mill
+Q3024426,Radical period,kind:artists:T188/Movements,Radical period (Italian radical architecture)
+Q30324577,William and Mary style,kind:artists:T183/Regional schools,William and Mary style (England)
+Q30687810,Lingnan architecture,route:nonwestern,Lingnan architecture
+Q3280285,Victorian house,alias:L13,Victorian house
+Q4099120,visionary architecture,exclude:not a style,visionary architecture (unbuilt)
+Q4240381,Russian church architecture,exclude:umbrella,Russian church architecture
+Q5348513,Egyptian revival decorative arts,route:decorative arts,Egyptian revival decorative arts (I3)
+Q5515430,Dutch roof,exclude:building element,Dutch roof
+Q5668507,Rococo painting,route:artist-led,Rococo painting
+Q5723565,Henry IV style,kind:artists:T182/Sub-styles,Henri IV style
+Q61826372,educational architecture,exclude:building type,educational architecture
+Q6402320,Khorasani style,route:nonwestern,Khorasani style
+Q65040981,Hausa architecture,route:nonwestern,Hausa architecture
+Q65062299,minimalist photography,exclude:not architecture,minimalist photography
+Q6806834,Medieval Scandinavian architecture,tag:place,Medieval Scandinavian architecture
+Q7850893,Tubism,route:artist-led,Tubism
+Q7979040,wedding-cake style,kind:L80/Sub-styles,wedding-cake (setback) style
+Q2602891,Isabelline,kind:artists:T181/Regional schools,Isabelline Gothic
+Q116007157,Almohad architecture,kind:K1-4/Dynastic styles,Almohad
+Q527449,Ottoman architecture,leaf:K1-12,Ottoman architecture (pilot leaf)
+Q4673399,Achaemenid architecture,leaf:L32,
+Q2147720,Umayyad architecture,leaf:K1-1,Umayyad architecture (pilot leaf)
+Q108760735,Ottoman Baroque,alias:K1-12,Ottoman Baroque (alias in pilot)
+Q750181,Umayyad art,alias:K1-1,Umayyad art tagged on buildings
+Q98417627,Ziyarid architecture,route:nonwestern,Ziyarid architecture
+Q37853,Baroque,alias:artists:T183,"Baroque period tagged on 2,195 buildings"
+Q131221,Futurism,route:artist-led,Futurism (art) artists:T61; architecture is FUTU
+Q180902,socialist realism,route:artist-led,socialist realism (art); architecture is STAL
+Q4787206,architecture of Turkey,route:nonwestern,architecture of Turkey (place bucket; Ottoman/Turkish)
+Q3621606,Neoclassical architecture in Russia,kind:artists:T184/Regional schools,Russian Neoclassicism
+Q4123717,Vologda wooden architecture,route:K12,Vologda wooden architecture
+Q25407941,Art Nouveau architecture in Russia,tag:place,Art Nouveau architecture in Russia
+Q56293550,Rationalism,alias:artists:T186,Rationalism (Russian label; kind Rationalism)
+Q112869097,Yaroslavl school,kind:L59/Regional schools,Yaroslavl school
+Q1401605,Russian avant-garde,route:artist-led,Russian avant-garde (art); architecture is CONS
+Q942123,Russian pseudo-gothic,kind:L1/Regional schools,Russian pseudo-Gothic
+Q23752285,Eclectic architecture in Russia,tag:place,Eclectic architecture in Russia
+Q112711827,Russian Empire style,kind:L63/Regional schools,Russian Empire style
+Q164800,Symbolism,route:artist-led,Symbolism artists:T53
+Q954879,Churrigueresque,leaf:L57,
+Q571755,Futuro,exclude:building type,Futuro house (prefab model)
+Q1513688,Greek Revival architecture,leaf:L9,
+Q7166434,pepperpot,exclude:building type,pepperpot lighthouse
+Q842352,ancient Egyptian architecture,leaf:L30,
+Q3844828,Sasanian architecture,leaf:L34,
+Q17993889,Parthian architecture,leaf:L33,
+Q16047776,Median architecture,kind:L32/Precursors,Median architecture
+Q98417156,Elamite architecture,kind:L31/Neighbouring traditions,Elamite architecture
+Q2011484,Hellenistic architecture,kind:L37/Phases,Hellenistic architecture
+Q428995,Hellenistic period,tag:period,Hellenistic period
+Q16191884,Neo-Grec,kind:L9/Sub-styles,Néo-Grec
+Q1073342,Cape Dutch architecture,leaf:L73,
+Q5327255,Earthquake Baroque,kind:L68/Sub-styles,Earthquake Baroque (Philippines)
+Q5148407,colonial architecture of Indonesia,kind:L72/Regional schools,Dutch colonial architecture of Indonesia
+Q1945086,Heliopolis style,kind:K2-1/Regional schools,Heliopolis style (Egypt)
+Q2860299,Armenian architecture,leaf:L45,
+Q16148493,Armenian church architecture,alias:L45,Armenian church architecture
+Q17012219,neo-futurism,kind:L79/Sub-styles,Neo-futurism
+Q104860918,Renaissance architecture of Toulouse,exclude:below inclusion rule (§2.3),
+Q10674187,Soviet architecture,exclude:below inclusion rule (§2.3),
+Q1071656,Chiaramonte style,exclude:below inclusion rule (§2.3),
+Q109840068,Gotico Angioino,exclude:below inclusion rule (§2.3),
+Q11784487,avant-garde architecture of the Soviet Union,exclude:below inclusion rule (§2.3),
+Q122978289,Moscow School,exclude:below inclusion rule (§2.3),
+Q12385501,casa de indianos,exclude:below inclusion rule (§2.3),
+Q12604540,Neoliberty,exclude:below inclusion rule (§2.3),
+Q126894865,Galician school (architecture),exclude:below inclusion rule (§2.3),
+Q1367277,School of Porto,exclude:below inclusion rule (§2.3),
+Q14158222,Cas di torto,exclude:below inclusion rule (§2.3),
+Q15121288,Hispano-Flemish style,exclude:below inclusion rule (§2.3),
+Q16917845,Paulista School,exclude:below inclusion rule (§2.3),
+Q18011802,Merovingian architecture,exclude:below inclusion rule (§2.3),
+Q20072995,Baroque architecture in Lviv,exclude:below inclusion rule (§2.3),
+Q25930405,Asturian Romanesque,exclude:below inclusion rule (§2.3),
+Q27273707,Romantic art,exclude:below inclusion rule (§2.3),
+Q28407017,Western false front architecture,exclude:below inclusion rule (§2.3),
+Q2860356,visionary environment,exclude:below inclusion rule (§2.3),
+Q300702,Liège-Aachen Baroque furniture,exclude:below inclusion rule (§2.3),
+Q387328,Świdermajer,exclude:below inclusion rule (§2.3),
+Q3935986,Sicilian Renaissance,exclude:below inclusion rule (§2.3),
+Q4373402,Rococo architecture in Portugal,exclude:below inclusion rule (§2.3),
+Q5116757,church architecture in Scotland,exclude:below inclusion rule (§2.3),
+Q5326886,early music revival,exclude:below inclusion rule (§2.3),
+Q55831996,Baroque art in Genoa,exclude:below inclusion rule (§2.3),
+Q5684584,Hawaiian architecture,exclude:below inclusion rule (§2.3),
+Q574489,anthroposophic architecture,exclude:below inclusion rule (§2.3),
+Q5937538,Stanislaus Augustus style,exclude:below inclusion rule (§2.3),
+Q60827164,carpintería de lo blanco,exclude:below inclusion rule (§2.3),
+Q6095546,First national architectural movement,exclude:below inclusion rule (§2.3),
+Q6534925,Levantino Gothic,exclude:below inclusion rule (§2.3),
+Q7209882,Polish Cathedral style,exclude:below inclusion rule (§2.3),
+Q7312462,Renaissance architecture in Central and Eastern Europe,exclude:below inclusion rule (§2.3),
+Q8204876,prehistoric architecture,exclude:below inclusion rule (§2.3),
+Q91759637,Stile Littorio,exclude:below inclusion rule (§2.3),
+Q103534264,podnikatelské baroko,exclude:below inclusion rule (§2.3),
+Q10539653,Zui-Ki-Tei,exclude:below inclusion rule (§2.3),
+Q11679968,Almoravid art,exclude:below inclusion rule (§2.3),
+Q12274199,Bulgarian architecture,exclude:below inclusion rule (§2.3),
+Q12383304,Arquitectura prehistòrica de Galícia,exclude:below inclusion rule (§2.3),
+Q12383305,Pre-Romanesque architecture in Galicia,exclude:below inclusion rule (§2.3),
+Q1258486,Dresden Baroque architecture,exclude:below inclusion rule (§2.3),
+Q127433034,Filigree architecture,exclude:below inclusion rule (§2.3),
+Q13568526,Baroque in Prince-Bishopric of Liège,exclude:below inclusion rule (§2.3),
+Q17040481,Marshall Erdman Prefab House,exclude:below inclusion rule (§2.3),
+Q17100657,Italian Rococo art,exclude:below inclusion rule (§2.3),
+Q18225059,Italian theater,exclude:below inclusion rule (§2.3),
+Q18351990,inverted pyramid,exclude:below inclusion rule (§2.3),
+Q19901641,Art Nouveau in Poland,exclude:below inclusion rule (§2.3),
+Q202204,Nordic megalith architecture,exclude:below inclusion rule (§2.3),
+Q20747586,Crystal Cubism,exclude:below inclusion rule (§2.3),
+Q21402543,medieval architecture of Normandy,exclude:below inclusion rule (§2.3),
+Q2176289,round barn,exclude:below inclusion rule (§2.3),
+Q21856457,Gothic architecture in Lithuania,exclude:below inclusion rule (§2.3),
+Q25312912,Hollywood Regency,exclude:below inclusion rule (§2.3),
+Q25439635,Mannerism in Brazil,exclude:below inclusion rule (§2.3),
+Q2864691,Art Nouveau in Antwerp,exclude:below inclusion rule (§2.3),
+Q2864728,Romanesque art in Auvergne,exclude:below inclusion rule (§2.3),
+Q3577888,Románico del Esgueva,exclude:below inclusion rule (§2.3),
+Q3621581,19th-century architecture,exclude:below inclusion rule (§2.3),
+Q3621592,Aeolian architecture,exclude:below inclusion rule (§2.3),
+Q3621614,Romanesque architecture in Canavese,exclude:below inclusion rule (§2.3),
+Q3773653,German Gothic,exclude:below inclusion rule (§2.3),
+Q43143961,Art Nouveau in Alcoy,exclude:below inclusion rule (§2.3),
+Q4444065,Stroganov Baroque,exclude:below inclusion rule (§2.3),
+Q4787047,Architectural development of the eastern end of cathedrals in England and France,exclude:below inclusion rule (§2.3),
+Q5288487,dogtrot house,exclude:below inclusion rule (§2.3),
+Q5558834,black architecture,exclude:below inclusion rule (§2.3),
+Q5642659,hall and parlor house,exclude:below inclusion rule (§2.3),
+Q60703999,contextual architecture,exclude:below inclusion rule (§2.3),
+Q610260,Flemish gothic and Renaissance reredos and altarpieces,exclude:below inclusion rule (§2.3),
+Q61362756,Modern architecture of Bosnia and Herzegovina,exclude:below inclusion rule (§2.3),
+Q66595665,Moorish Revival architecture in Bosnia and Herzegovina,exclude:below inclusion rule (§2.3),
+Q67473409,colonial architecture of Southeast Asia,exclude:below inclusion rule (§2.3),
+Q6991788,neo-eclectic architecture,exclude:below inclusion rule (§2.3),
+Q6992182,neoclassical architecture in Poland,exclude:below inclusion rule (§2.3),
+Q72938652,Art Nouveau in Strasbourg,exclude:below inclusion rule (§2.3),
+Q7366666,roots revival,exclude:below inclusion rule (§2.3),
+Q7620445,Storybook house,exclude:below inclusion rule (§2.3),
+Q85743118,Art Deco architecture of New York City,exclude:below inclusion rule (§2.3),
+Q9159139,Renaissance architecture in Poland,exclude:below inclusion rule (§2.3),
+Q9630295,neoclassical architecture in Portugal,exclude:below inclusion rule (§2.3),
+Q97382697,Caprom,exclude:below inclusion rule (§2.3),
+Q98668652,High Gothic,exclude:below inclusion rule (§2.3),
+Q100312492,Galerías de La Coruña,exclude:below inclusion rule (§2.3),
+Q102423159,postromantic music,exclude:below inclusion rule (§2.3),
+Q104878356,Art Deco in Brussels,exclude:below inclusion rule (§2.3),
+Q106486100,Style tournaisien,exclude:below inclusion rule (§2.3),
+Q108600985,Chilean muralism,exclude:below inclusion rule (§2.3),
+Q108704573,classical Ottoman architecture,exclude:below inclusion rule (§2.3),
+Q109362266,Peruvian Revival architecture,exclude:below inclusion rule (§2.3),
+Q110359286,Art Nouveau architecture in Timișoara,exclude:below inclusion rule (§2.3),
+Q1113492,Neoclassical architecture in Hungary,exclude:below inclusion rule (§2.3),
+Q111937515,glass architecture,exclude:below inclusion rule (§2.3),
+Q113409382,postmodern architecture in Russia,exclude:below inclusion rule (§2.3),
+Q113409736,constructivist architecture in Perm,exclude:below inclusion rule (§2.3),
+Q113411723,constructivist architecture in Yekaterinburg,exclude:below inclusion rule (§2.3),
+Q114800781,neoclassical architecture in   Scandinavia,exclude:below inclusion rule (§2.3),
+Q115918531,Francoist architecture,exclude:below inclusion rule (§2.3),
+Q115920438,Battlemented Neo-Renaissance style,exclude:below inclusion rule (§2.3),
+Q11686640,Flemish Baroque architecture,exclude:below inclusion rule (§2.3),
+Q11937152,Modernism in Camprodon,exclude:below inclusion rule (§2.3),
+Q11998433,Rosenborg-stil,exclude:below inclusion rule (§2.3),
+Q12033487,vernacular architecture in Slovakia,exclude:below inclusion rule (§2.3),
+Q12335978,Skønvirke,exclude:below inclusion rule (§2.3),
+Q124791909,Shōsei-an,exclude:below inclusion rule (§2.3),
+Q12775905,Art Nouveau architecture in Slovakia,exclude:below inclusion rule (§2.3),
+Q129248676,Gaussian vault,exclude:below inclusion rule (§2.3),
+Q1297259,Egerland half-timbered house,exclude:below inclusion rule (§2.3),
+Q13489779,Mosan Baroque architecture,exclude:below inclusion rule (§2.3),
+Q135016584,Szocreál építészet Magyarországon,exclude:below inclusion rule (§2.3),
+Q13538445,postmodern architecture in Slovakia,exclude:below inclusion rule (§2.3),
+Q13742674,Campine Gothic,exclude:below inclusion rule (§2.3),
+Q15735354,Backsteinexpressionismus in Hannover,exclude:below inclusion rule (§2.3),
+Q16039581,Belgian Beaux-Arts architecture,exclude:below inclusion rule (§2.3),
+Q16718639,cast-iron architecture of New York City,exclude:below inclusion rule (§2.3),
+Q17186633,Art Nouveau in Madrid,exclude:below inclusion rule (§2.3),
+Q17462248,Eclectic art in Catania,exclude:below inclusion rule (§2.3),
+Q175232,Schinkel school,exclude:below inclusion rule (§2.3),
+Q17625758,Colonial californiano,exclude:below inclusion rule (§2.3),
+Q1803027,Swiss Landistil architecture,exclude:below inclusion rule (§2.3),
+Q19311731,Wilhelminian style,exclude:below inclusion rule (§2.3),
+Q19953630,colonial architecture of Latin America,exclude:below inclusion rule (§2.3),
+Q2007102,Nürnberger Stil,exclude:below inclusion rule (§2.3),
+Q2050789,boerderette,exclude:below inclusion rule (§2.3),
+Q20733247,Mogilev baroque,exclude:below inclusion rule (§2.3),
+Q21038020,Gothic architecture in Catalonia,exclude:below inclusion rule (§2.3),
+Q22670038,Medieval Serbian architecture,exclude:below inclusion rule (§2.3),
+Q23020423,Romanesque Revival Architecture in the United Kingdom,exclude:below inclusion rule (§2.3),
+Q2340043,Steinbloss,exclude:below inclusion rule (§2.3),
+Q23891762,Romanesque architecture in Moravia,exclude:below inclusion rule (§2.3),
+Q2510655,Belgian neoclassical architecture,exclude:below inclusion rule (§2.3),
+Q25390692,Ingush architecture,exclude:below inclusion rule (§2.3),
+Q25416155,First Romanesque,exclude:below inclusion rule (§2.3),
+Q2640894,Timber framing in Germany,exclude:below inclusion rule (§2.3),
+Q27963016,Rococo in Spain,exclude:below inclusion rule (§2.3),
+Q28136281,Egyptian Revival architecture in the British Isles,exclude:below inclusion rule (§2.3),
+Q2860306,architecture of Normandy,exclude:below inclusion rule (§2.3),
+Q2864685,Art Nouveau in Belgium,exclude:below inclusion rule (§2.3),
+Q2864687,Art nouveau in France,exclude:below inclusion rule (§2.3),
+Q2932236,Cabane tchanquée,exclude:below inclusion rule (§2.3),
+Q30324062,modern architecture in Athens,exclude:below inclusion rule (§2.3),
+Q30888823,Don Cossack architecture,exclude:below inclusion rule (§2.3),
+Q30889405,Neoclassical architecture in Tuscany,exclude:below inclusion rule (§2.3),
+Q3145356,pavilion style hospital,exclude:below inclusion rule (§2.3),
+Q3341324,Nieuwe Kunst,exclude:below inclusion rule (§2.3),
+Q3355738,French order,exclude:below inclusion rule (§2.3),
+Q3360219,Pacific lodge,exclude:below inclusion rule (§2.3),
+Q3389209,piscine Caneton,exclude:below inclusion rule (§2.3),
+Q3441124,British Romanticism,exclude:below inclusion rule (§2.3),
+Q3527918,Romanticisme teatral,exclude:below inclusion rule (§2.3),
+Q3621613,Romanesque architecture in Aosta Valley,exclude:below inclusion rule (§2.3),
+Q3718602,Art Nouveau in Messina,exclude:below inclusion rule (§2.3),
+Q3773651,International Gothic art in Europe,exclude:below inclusion rule (§2.3),
+Q39080983,Baroque architecture in Central Europe,exclude:below inclusion rule (§2.3),
+Q3940629,romanesque architecture in Florence,exclude:below inclusion rule (§2.3),
+Q4397395,Romanesque architecture in the Czech Republic,exclude:below inclusion rule (§2.3),
+Q4698857,Airplane Bungalow,exclude:below inclusion rule (§2.3),
+Q4817248,Atomic Age,exclude:below inclusion rule (§2.3),
+Q51881637,Eclectic architecture in Melilla,exclude:below inclusion rule (§2.3),
+Q51881638,Art Deco architecture in Melilla,exclude:below inclusion rule (§2.3),
+Q5434236,Fantastic architecture,exclude:below inclusion rule (§2.3),
+Q5440527,Federal furniture,exclude:below inclusion rule (§2.3),
+Q5445448,Ferrovitreous,exclude:below inclusion rule (§2.3),
+Q55659256,Rococo in Russia,exclude:below inclusion rule (§2.3),
+Q56354833,postmodern architecture in Brazil,exclude:below inclusion rule (§2.3),
+Q5676545,teatre romàntic espanyol,exclude:below inclusion rule (§2.3),
+Q5705242,Art Nouveau architecture of Lower Aragon,exclude:below inclusion rule (§2.3),
+Q5706693,Mozarabic art in Catalonia,exclude:below inclusion rule (§2.3),
+Q5706716,Romanesque architecture in the province of Palencia,exclude:below inclusion rule (§2.3),
+Q5764167,Mission Style in Argentina,exclude:below inclusion rule (§2.3),
+Q5968766,Ladrillismo,exclude:below inclusion rule (§2.3),
+Q600029,Late Modernism,exclude:below inclusion rule (§2.3),
+Q6020231,Art Nouveau architecture in Cartagena and La Unión,exclude:below inclusion rule (§2.3),
+Q6076367,Classicist painting,exclude:below inclusion rule (§2.3),
+Q60846671,Art Deco architecture in Liège,exclude:below inclusion rule (§2.3),
+Q6101949,Second national architectural movement,exclude:below inclusion rule (§2.3),
+Q6103979,Andalusian regionalist architecture,exclude:below inclusion rule (§2.3),
+Q61362401,historicist architecture in Bosnia and Herzegovina,exclude:below inclusion rule (§2.3),
+Q62740802,architecture of Veliko Tarnovo,exclude:below inclusion rule (§2.3),
+Q63226735,Door and window house,exclude:below inclusion rule (§2.3),
+Q65209564,Minangkabau architecture,exclude:below inclusion rule (§2.3),
+Q65268316,20th-century architecture,exclude:below inclusion rule (§2.3),
+Q65962586,Amtrak Standard Stations Program,exclude:below inclusion rule (§2.3),
+Q6750805,Mannerist architecture and sculpture in Poland,exclude:below inclusion rule (§2.3),
+Q6942551,Musical historicism,exclude:below inclusion rule (§2.3),
+Q7094639,Ontario Cottage,exclude:below inclusion rule (§2.3),
+Q7226218,Polychrome brickwork,exclude:below inclusion rule (§2.3),
+Q7311330,religious architecture in Novi Sad,exclude:below inclusion rule (§2.3),
+Q7312463,Renaissance architecture in Portugal,exclude:below inclusion rule (§2.3),
+Q7899203,Upright and Wing,exclude:below inclusion rule (§2.3),
+Q7914254,Vancouver Special,exclude:below inclusion rule (§2.3),
+Q80357069,constructivist architecture in Kyiv,exclude:below inclusion rule (§2.3),
+Q85311672,Geschenkwoningen,exclude:below inclusion rule (§2.3),
+Q86248242,chalet paulistano,exclude:below inclusion rule (§2.3),
+Q87647497,Contemporary houses in the United States,exclude:below inclusion rule (§2.3),
+Q8778251,Escola de Barcelona,exclude:below inclusion rule (§2.3),
+Q901970,Braunschweiger Schule,exclude:below inclusion rule (§2.3),
+Q9059990,Mannerist painting,exclude:below inclusion rule (§2.3),
+Q9159109,Baroque architecture in Poland,exclude:below inclusion rule (§2.3),
+Q94652822,Construction system T06B,exclude:below inclusion rule (§2.3),
+Q95742157,Art Deco architecture in Miami,exclude:below inclusion rule (§2.3),
+Q96069702,Hungarian folk style,exclude:below inclusion rule (§2.3),
+Q97279790,意大利自由风格建筑,exclude:below inclusion rule (§2.3),
+Q97940790,Neo-eclectic architecture in Hungary,exclude:below inclusion rule (§2.3),
+Q99222620,functionalist architecture in Finland,exclude:below inclusion rule (§2.3),
+Q99600895,Modern Style,exclude:below inclusion rule (§2.3),
+Q10274764,Rococo sculpture,exclude:below inclusion rule (§2.3),
+Q104176899,Klever Romanticism,exclude:below inclusion rule (§2.3),
+Q105080079,Westphalian Baroque,exclude:below inclusion rule (§2.3),
+Q10544017,Carolean style,exclude:below inclusion rule (§2.3),
+Q105578100,Jugend i Sverige,exclude:below inclusion rule (§2.3),
+Q10604232,Louis XVI revival,exclude:below inclusion rule (§2.3),
+Q106575293,Конструктивізм в Україні,exclude:below inclusion rule (§2.3),
+Q106771064,Stockbroker's Tudor,exclude:below inclusion rule (§2.3),
+Q10684874,church architecture  of Sweden,exclude:below inclusion rule (§2.3),
+Q106935998,By-pass Variegated,exclude:below inclusion rule (§2.3),
+Q10698970,Tjustempire,exclude:below inclusion rule (§2.3),
+Q107096063,Landmark tower,exclude:below inclusion rule (§2.3),
+Q10713299,Vaasa Style,exclude:below inclusion rule (§2.3),
+Q107739697,Greek Revival architecture in North America,exclude:below inclusion rule (§2.3),
+Q108528088,Neo-Norman style,exclude:below inclusion rule (§2.3),
+Q108602125,Черноморска къща,exclude:below inclusion rule (§2.3),
+Q108602133,Тревненска къща,exclude:below inclusion rule (§2.3),
+Q108602136,Тетевенска къща,exclude:below inclusion rule (§2.3),
+Q108602146,Севернобългарска къща,exclude:below inclusion rule (§2.3),
+Q108602154,Копривщенска къща,exclude:below inclusion rule (§2.3),
+Q108602162,Западна къща,exclude:below inclusion rule (§2.3),
+Q108602182,Добруджанска къща,exclude:below inclusion rule (§2.3),
+Q109108709,Amerindian architecture,exclude:below inclusion rule (§2.3),
+Q109325911,Indigenous architecture in the United States,exclude:below inclusion rule (§2.3),
+Q109376672,Classical Greek architecture,exclude:below inclusion rule (§2.3),
+Q109424336,Art Nouveau in Mexico,exclude:below inclusion rule (§2.3),
+Q109443808,East Modernism,exclude:below inclusion rule (§2.3),
+Q1103658,vernacular architecture of Țara Călatei,exclude:below inclusion rule (§2.3),
+Q110427549,Modernist architecture in Łódź,exclude:below inclusion rule (§2.3),
+Q111903050,Romanesque-Gothic transitional style,exclude:below inclusion rule (§2.3),
+Q112659580,Art Deco architecture in Hungary,exclude:below inclusion rule (§2.3),
+Q113266457,Federation Filigree architecture,exclude:below inclusion rule (§2.3),
+Q113266466,Victorian Filigree architecture,exclude:below inclusion rule (§2.3),
+Q113622837,Spanish Colonial style,exclude:below inclusion rule (§2.3),
+Q113833459,German Renaissance architecture,exclude:below inclusion rule (§2.3),
+Q113833463,Flemish Renaissance architecture,exclude:below inclusion rule (§2.3),
+Q114389934,neoclassical architecture in Spain,exclude:below inclusion rule (§2.3),
+Q114389989,Neoclassical architecture in Germany,exclude:below inclusion rule (§2.3),
+Q116245538,industrial eclecticism,exclude:below inclusion rule (§2.3),
+Q116490624,Konstrukční soustava HK,exclude:below inclusion rule (§2.3),
+Q11686643,Renaissance architecture in England,exclude:below inclusion rule (§2.3),
+Q11686644,Romanesque architecture in Scandinavia,exclude:below inclusion rule (§2.3),
+Q117653472,Victorian Rustic Gothic architecture,exclude:below inclusion rule (§2.3),
+Q11766739,Italian Mannerism painting,exclude:below inclusion rule (§2.3),
+Q118287763,Moorish Revival architecture in Hungary,exclude:below inclusion rule (§2.3),
+Q11878497,Velkomoravská kamenná církevní architektura,exclude:below inclusion rule (§2.3),
+Q11895044,church architecture of Finland,exclude:below inclusion rule (§2.3),
+Q11910414,stone cabin,exclude:below inclusion rule (§2.3),
+Q120052860,traditional architecture of Papua New Guinea,exclude:below inclusion rule (§2.3),
+Q120499802,premodern architecture in Hungary,exclude:below inclusion rule (§2.3),
+Q121835208,Budapesti gyárépítészet,exclude:below inclusion rule (§2.3),
+Q122702620,British Brutalism,exclude:below inclusion rule (§2.3),
+Q123221340,Tropical modernism,exclude:below inclusion rule (§2.3),
+Q12383303,Gothic architecture in Galicia,exclude:below inclusion rule (§2.3),
+Q12383306,arquitectura romana de Galicia,exclude:below inclusion rule (§2.3),
+Q124439583,Siculo Gothic architecture,exclude:below inclusion rule (§2.3),
+Q125189498,Expresszionista építészet Magyarországon,exclude:below inclusion rule (§2.3),
+Q12772444,Neorationalism (architecture),exclude:below inclusion rule (§2.3),
+Q12781628,Scandinavian architecture,exclude:below inclusion rule (§2.3),
+Q12906799,Islamic architecture of North Macedonia,exclude:below inclusion rule (§2.3),
+Q130394325,premodern architecture,exclude:below inclusion rule (§2.3),
+Q131914037,Aldwych Farcical,exclude:below inclusion rule (§2.3),
+Q13196554,Liberty,exclude:below inclusion rule (§2.3),
+Q133538024,Gothick,exclude:below inclusion rule (§2.3),
+Q134593751,Christchurch Style architecture,exclude:below inclusion rule (§2.3),
+Q1355963,Hamburger Kaffeemühle,exclude:below inclusion rule (§2.3),
+Q136261946,Post 65,exclude:below inclusion rule (§2.3),
+Q136749582,Amsterdamer Renaissance,exclude:below inclusion rule (§2.3),
+Q137217989,arquitectura románica de Galicia,exclude:below inclusion rule (§2.3),
+Q139174722,konstrukční soustava PS 69/2 jižní Čechy,exclude:below inclusion rule (§2.3),
+Q139323866,Free Classic Queen Anne style,exclude:below inclusion rule (§2.3),
+Q139780999,Деревянный модерн,exclude:below inclusion rule (§2.3),
+Q140035114,Art roman scaldien,exclude:below inclusion rule (§2.3),
+Q1401581,Puuc,exclude:below inclusion rule (§2.3),
+Q140196711,Italian colonial architecture,exclude:below inclusion rule (§2.3),
+Q141806810,neoclassicism in Faenza,exclude:below inclusion rule (§2.3),
+Q141818585,20th-century architecture in Forlì,exclude:below inclusion rule (§2.3),
+Q14621761,baroque architecture in the Southern Netherlands,exclude:below inclusion rule (§2.3),
+Q15837726,Orcadian roundhouses,exclude:below inclusion rule (§2.3),
+Q15879448,Moderne gotiek,exclude:below inclusion rule (§2.3),
+Q15959212,Brutalist architecture in Yugoslavia,exclude:below inclusion rule (§2.3),
+Q1596229,Postbauschule,exclude:below inclusion rule (§2.3),
+Q15974689,Belgian eclectic architecture,exclude:below inclusion rule (§2.3),
+Q16142221,contemporary architecture of Portugal,exclude:below inclusion rule (§2.3),
+Q16142974,barroco mineiro,exclude:below inclusion rule (§2.3),
+Q16303815,Functionalist architecture in Belgium,exclude:below inclusion rule (§2.3),
+Q16481723,religious architecture in Susa Valley,exclude:below inclusion rule (§2.3),
+Q16522536,Renaissance architecture in Hungary,exclude:below inclusion rule (§2.3),
+Q16626174,Romanesque art in Segovia Province,exclude:below inclusion rule (§2.3),
+Q16833665,Dresden school,exclude:below inclusion rule (§2.3),
+Q16849402,Jamaican Georgian architecture,exclude:below inclusion rule (§2.3),
+Q17146855,Modern Gothic style,exclude:below inclusion rule (§2.3),
+Q17148543,Renaissance architecture in Central Europe,exclude:below inclusion rule (§2.3),
+Q17186637,Rationalism in Madrid,exclude:below inclusion rule (§2.3),
+Q1722994,Kameralamtsstil,exclude:below inclusion rule (§2.3),
+Q17634639,neo-Breton house,exclude:below inclusion rule (§2.3),
+Q17995705,civil architecture,exclude:below inclusion rule (§2.3),
+Q18021193,Johann Albrecht style,exclude:below inclusion rule (§2.3),
+Q18086896,Egyptian Revival,exclude:below inclusion rule (§2.3),
+Q18485274,minimalist architecture,exclude:below inclusion rule (§2.3),
+Q18485291,Arquitectura protomoderna,exclude:below inclusion rule (§2.3),
+Q19721532,religious architecture in Rimini,exclude:below inclusion rule (§2.3),
+Q1977038,Christocentric church,exclude:below inclusion rule (§2.3),
+Q19863801,Gothic Revival architecture in Poland,exclude:below inclusion rule (§2.3),
+Q20092355,Renaissance architecture of Lviv,exclude:below inclusion rule (§2.3),
+Q20102811,neoclassical architecture in Catalonia,exclude:below inclusion rule (§2.3),
+Q20541681,Suído huts,exclude:below inclusion rule (§2.3),
+Q20651405,Art Nouveau architecture in Blankenberge,exclude:below inclusion rule (§2.3),
+Q20724244,Art Deco architecture in Reims,exclude:below inclusion rule (§2.3),
+Q21009418,Seconde Renaissance française,exclude:below inclusion rule (§2.3),
+Q21129596,Avant-garde architecture,exclude:below inclusion rule (§2.3),
+Q2159184,Basilicastijl,exclude:below inclusion rule (§2.3),
+Q22337518,sacred architecture of Busto Arsizio,exclude:below inclusion rule (§2.3),
+Q23017387,Art nouveau in Luxembourg,exclude:below inclusion rule (§2.3),
+Q23133411,Minimal Traditional,exclude:below inclusion rule (§2.3),
+Q23134517,Seattle box,exclude:below inclusion rule (§2.3),
+Q2359584,Stuttgarter Schule,exclude:below inclusion rule (§2.3),
+Q2376150,Art Nouveau in Prague,exclude:below inclusion rule (§2.3),
+Q2376844,pre-Classical architecture,exclude:below inclusion rule (§2.3),
+Q2448760,aisled roundhouse,exclude:below inclusion rule (§2.3),
+Q24904462,shake-hands architecture,exclude:below inclusion rule (§2.3),
+Q25432560,Austrian Baroque art,exclude:below inclusion rule (§2.3),
+Q25480402,Среднобългарска къща,exclude:below inclusion rule (§2.3),
+Q25494801,Historicist architecture in Zagreb,exclude:below inclusion rule (§2.3),
+Q25536467,Драўлянае дойлідства Беларусі,exclude:below inclusion rule (§2.3),
+Q28031756,Baroque de Totma,exclude:below inclusion rule (§2.3),
+Q28038956,Разложка къща,exclude:below inclusion rule (§2.3),
+Q28059003,Пловдивска къща,exclude:below inclusion rule (§2.3),
+Q2849781,Mycenaean military architecture,exclude:below inclusion rule (§2.3),
+Q2860274,Art Deco architecture in Belgium,exclude:below inclusion rule (§2.3),
+Q2860275,Art Deco architecture in Bordeaux,exclude:below inclusion rule (§2.3),
+Q2860276,architecture Belle Époque à Nice,exclude:below inclusion rule (§2.3),
+Q2860286,Almohad architecture in Spain,exclude:below inclusion rule (§2.3),
+Q2860351,Modernist architecture in Belgium,exclude:below inclusion rule (§2.3),
+Q2860360,Gothic Revival architecture in New York,exclude:below inclusion rule (§2.3),
+Q2860376,romanesque architecture in the Pyrenees,exclude:below inclusion rule (§2.3),
+Q2864590,Baroque art in Savoy,exclude:below inclusion rule (§2.3),
+Q2864690,Art Nouveau in Switzerland,exclude:below inclusion rule (§2.3),
+Q2864694,Art nouveau in Charleroi,exclude:below inclusion rule (§2.3),
+Q2864695,Art Nouveau in Liège,exclude:below inclusion rule (§2.3),
+Q2895246,Art Deco architecture in Bilbao,exclude:below inclusion rule (§2.3),
+Q2940896,Case SATEC,exclude:below inclusion rule (§2.3),
+Q2940897,Case Tomi,exclude:below inclusion rule (§2.3),
+Q2975235,Mycenaean palace,exclude:below inclusion rule (§2.3),
+Q2981295,fermette,exclude:below inclusion rule (§2.3),
+Q30899571,baroque architecture in New Spain,exclude:below inclusion rule (§2.3),
+Q31192104,Банска укрепена къща,exclude:below inclusion rule (§2.3),
+Q3148810,Turnhout School,exclude:below inclusion rule (§2.3),
+Q3162607,Dutch landscape style,exclude:below inclusion rule (§2.3),
+Q31888993,Kontrajugend,exclude:below inclusion rule (§2.3),
+Q3280131,Delian house,exclude:below inclusion rule (§2.3),
+Q3399861,postmodern architecture in Belgium,exclude:below inclusion rule (§2.3),
+Q3501260,1940's style,exclude:below inclusion rule (§2.3),
+Q3501263,style Beaumanoir,exclude:below inclusion rule (§2.3),
+Q3501284,Neo-Provencal,exclude:below inclusion rule (§2.3),
+Q3501302,Saint-Sulpicien style,exclude:below inclusion rule (§2.3),
+Q3577815,École de Pont-Croix,exclude:below inclusion rule (§2.3),
+Q3621576,κυκλαδική αρχιτεκτονική,exclude:below inclusion rule (§2.3),
+Q3621579,18th-century architecture,exclude:below inclusion rule (§2.3),
+Q3621595,Archaic Greek architecture,exclude:below inclusion rule (§2.3),
+Q3621601,Italian architecture of the twentieth century,exclude:below inclusion rule (§2.3),
+Q3621607,British Gothic Revival architecture,exclude:below inclusion rule (§2.3),
+Q3621625,religious architecture in Rome,exclude:below inclusion rule (§2.3),
+Q3624124,arte della Controriforma,exclude:below inclusion rule (§2.3),
+Q41009387,Архитектура на католическите храмове в България,exclude:below inclusion rule (§2.3),
+Q4147033,Gothic architecture of Prague,exclude:below inclusion rule (§2.3),
+Q42402788,Legowoningen Dordrecht,exclude:below inclusion rule (§2.3),
+Q42902640,Ferdinandean style,exclude:below inclusion rule (§2.3),
+Q4530145,Nederrijnse gotiek,exclude:below inclusion rule (§2.3),
+Q462379,a Sárköz népi építészete,exclude:below inclusion rule (§2.3),
+Q463005,vernacular architecture of Vendvidék,exclude:below inclusion rule (§2.3),
+Q4812052,Asylum architecture,exclude:below inclusion rule (§2.3),
+Q4825158,Australian residential architectural styles,exclude:below inclusion rule (§2.3),
+Q48760270,Baroque architecture in Turin,exclude:below inclusion rule (§2.3),
+Q48803890,Eclettismo a Messina,exclude:below inclusion rule (§2.3),
+Q50350970,brutalism in Belgium,exclude:below inclusion rule (§2.3),
+Q5116756,church architecture of England,exclude:below inclusion rule (§2.3),
+Q5165020,Contemporary architecture in Cluj-Napoca,exclude:below inclusion rule (§2.3),
+Q5175496,Cotswold architecture,exclude:below inclusion rule (§2.3),
+Q5317261,Dutch Colonial architecture in New Netherlands,exclude:below inclusion rule (§2.3),
+Q5421149,experimental architecture,exclude:below inclusion rule (§2.3),
+Q5440545,federal modernism,exclude:below inclusion rule (§2.3),
+Q5461746,Florida modern,exclude:below inclusion rule (§2.3),
+Q54953351,pair-house,exclude:below inclusion rule (§2.3),
+Q55595574,Art Deco architecture in Limoges,exclude:below inclusion rule (§2.3),
+Q55599951,Style lillois à arcures,exclude:below inclusion rule (§2.3),
+Q5601565,Greco Deco,exclude:below inclusion rule (§2.3),
+Q56279167,Burnham Baroque,exclude:below inclusion rule (§2.3),
+Q56324233,neoclassical architecture in France,exclude:below inclusion rule (§2.3),
+Q5705173,Baroque architecture in Hispanic America,exclude:below inclusion rule (§2.3),
+Q5705184,Arquitectura de Aliste,exclude:below inclusion rule (§2.3),
+Q5705266,religious architecture in Jaén,exclude:below inclusion rule (§2.3),
+Q5705269,religious architecture in Seville,exclude:below inclusion rule (§2.3),
+Q5705272,renaissance architecture in Zaragoza,exclude:below inclusion rule (§2.3),
+Q5705277,Romanesque architecture in Lacio  and Rome,exclude:below inclusion rule (§2.3),
+Q5790159,Andalusian costumbrismo,exclude:below inclusion rule (§2.3),
+Q5817027,eclectic architecture in Bilbao,exclude:below inclusion rule (§2.3),
+Q5849435,Estilo Cisneros,exclude:below inclusion rule (§2.3),
+Q5928832,Hudson River Bracketed architectural style,exclude:below inclusion rule (§2.3),
+Q6020229,modernismo canario,exclude:below inclusion rule (§2.3),
+Q6020234,Art Nouveau architecture in Bilbao,exclude:below inclusion rule (§2.3),
+Q6023393,Art Nouveau in Zaragoza,exclude:below inclusion rule (§2.3),
+Q60367157,Salon Cubism,exclude:below inclusion rule (§2.3),
+Q60745301,Summer architecture,exclude:below inclusion rule (§2.3),
+Q6092927,Italian Rococo interior design,exclude:below inclusion rule (§2.3),
+Q6093346,Italian modern and contemporary architecture,exclude:below inclusion rule (§2.3),
+Q6103976,regionalist architecture in Bilbao,exclude:below inclusion rule (§2.3),
+Q61138148,Мелнишка къща,exclude:below inclusion rule (§2.3),
+Q61138160,Ковачевишка къща,exclude:below inclusion rule (§2.3),
+Q61444300,Cezannian cubism,exclude:below inclusion rule (§2.3),
+Q62072617,modernist architecture in the Czech Republic,exclude:below inclusion rule (§2.3),
+Q6992203,Neoclásico Isabelino,exclude:below inclusion rule (§2.3),
+Q7311327,religious architecture in Belgrade,exclude:below inclusion rule (§2.3),
+Q7443131,Second Bay Tradition,exclude:below inclusion rule (§2.3),
+Q7492291,Shed style,exclude:below inclusion rule (§2.3),
+Q7523970,Single pen and double pen architecture,exclude:below inclusion rule (§2.3),
+Q7619061,stone ender,exclude:below inclusion rule (§2.3),
+Q7660129,Sydney School,exclude:below inclusion rule (§2.3),
+Q7784785,Third Bay Tradition,exclude:below inclusion rule (§2.3),
+Q790720,Baroque architecture in Hungary,exclude:below inclusion rule (§2.3),
+Q7921925,vernacular architecture in Norway,exclude:below inclusion rule (§2.3),
+Q82669930,Странджанска къща,exclude:below inclusion rule (§2.3),
+Q84100050,Hungarian vernacular architecture,exclude:below inclusion rule (§2.3),
+Q8488760,Category:Georgian Revival architecture in Florida,exclude:below inclusion rule (§2.3),
+Q85743128,Art Nouveau glass,exclude:below inclusion rule (§2.3),
+Q85789444,Norman Revival architecture,exclude:below inclusion rule (§2.3),
+Q85952896,Art Nouveau in the Basque Country,exclude:below inclusion rule (§2.3),
+Q85996050,Монументально-декоративні композиції станцій Київського метрополітену,exclude:below inclusion rule (§2.3),
+Q87019510,Pseudoclassicism,exclude:below inclusion rule (§2.3),
+Q88331525,Superdutch,exclude:below inclusion rule (§2.3),
+Q89200502,Gothic architecture in Abruzzo,exclude:below inclusion rule (§2.3),
+Q89207267,Baroque architecture in Abruzzo,exclude:below inclusion rule (§2.3),
+Q9070524,Romanticismo hispanoamericano,exclude:below inclusion rule (§2.3),
+Q9159116,Baroque architecture in Scandinavia,exclude:below inclusion rule (§2.3),
+Q9159125,Gothic architecture in Central Europe,exclude:below inclusion rule (§2.3),
+Q9159134,Renaissance architecture in the Low Countries,exclude:below inclusion rule (§2.3),
+Q9159138,Renaissance architecture in Germany,exclude:below inclusion rule (§2.3),
+Q9159140,Renaissance architecture in Scandinavia,exclude:below inclusion rule (§2.3),
+Q9159148,Romanesque architecture in England,exclude:below inclusion rule (§2.3),
+Q9159151,Romanesque architecture in Central and Eastern Europe,exclude:below inclusion rule (§2.3),
+Q9159153,Romanesque architecture in Germany,exclude:below inclusion rule (§2.3),
+Q9159161,art Nouveau architecture in Germany,exclude:below inclusion rule (§2.3),
+Q9159163,Architektura wczesnopiastowska,exclude:below inclusion rule (§2.3),
+Q9307614,retroversion,exclude:below inclusion rule (§2.3),
+Q97941126,цегляний стиль у Києві,exclude:below inclusion rule (§2.3),
+Q98052157,Gothic architecture in Hungary,exclude:below inclusion rule (§2.3),
+Q98181553,Japanese tea house,exclude:below inclusion rule (§2.3),
+Q98931287,Romanesque architecture in Hungary,exclude:below inclusion rule (§2.3),
+Q104156887,Fachwerkarchitektur,exclude:below inclusion rule (§2.3),
+Q104599439,neo-medieval architecture,exclude:below inclusion rule (§2.3),
+Q108107298,postwar modernism,exclude:below inclusion rule (§2.3),
+Q108107402,Bauhaus modernism,exclude:below inclusion rule (§2.3),
+Q108538780,Tuscan architecture,exclude:below inclusion rule (§2.3),
+Q109325954,Amerindian architecture of Mexico,exclude:below inclusion rule (§2.3),
+Q110158779,Romani architecture,exclude:below inclusion rule (§2.3),
+Q110162072,21st-century architecture,exclude:below inclusion rule (§2.3),
+Q110253733,Sonoran Revival,exclude:below inclusion rule (§2.3),
+Q110804659,აბასთუმნის აბანო,exclude:below inclusion rule (§2.3),
+Q111663785,Brâncovenesc style,exclude:below inclusion rule (§2.3),
+Q111960419,Annex style architecture,exclude:below inclusion rule (§2.3),
+Q112281533,Sutherland Estates 1830s bridge,exclude:below inclusion rule (§2.3),
+Q115096446,aerodynamický funkcionalismus,exclude:below inclusion rule (§2.3),
+Q115096448,neo-Biedermeier,exclude:below inclusion rule (§2.3),
+Q115096449,pozdní funkcionalismus,exclude:below inclusion rule (§2.3),
+Q115096450,nový brutalismus,exclude:below inclusion rule (§2.3),
+Q115096533,organický expresionismus,exclude:below inclusion rule (§2.3),
+Q115169056,French modernism,exclude:below inclusion rule (§2.3),
+Q115921194,art revivalism,exclude:below inclusion rule (§2.3),
+Q115921216,musical revivalism,exclude:below inclusion rule (§2.3),
+Q116311977,style arcachonnais,exclude:below inclusion rule (§2.3),
+Q116951969,tropical modernism,exclude:below inclusion rule (§2.3),
+Q124039105,art of Netherlandish illumination,exclude:below inclusion rule (§2.3),
+Q125739188,Art Deco Revival,exclude:below inclusion rule (§2.3),
+Q126360952,vernacular architecture in Bosnia and Herzegovina,exclude:below inclusion rule (§2.3),
+Q126727489,Arquitectura academicista,exclude:below inclusion rule (§2.3),
+Q131199330,Art nouveau painting,exclude:below inclusion rule (§2.3),
+Q133530617,Domestic Revival,exclude:below inclusion rule (§2.3),
+Q133530673,Edwardian style,exclude:below inclusion rule (§2.3),
+Q133534786,European Rationalism,exclude:below inclusion rule (§2.3),
+Q133566751,Neo-Georgian,exclude:below inclusion rule (§2.3),
+Q133658637,Wrenaissance,exclude:below inclusion rule (§2.3),
+Q134007068,Gooise landhuisstijl,exclude:below inclusion rule (§2.3),
+Q134446033,baksteenarchitectuur,exclude:below inclusion rule (§2.3),
+Q136386382,Ottoman Rococo,exclude:below inclusion rule (§2.3),
+Q136769288,oriëntaalse architectuur,exclude:below inclusion rule (§2.3),
+Q137112710,Art Deco architecture style,exclude:below inclusion rule (§2.3),
+Q137116749,British Colonial architecture style,exclude:below inclusion rule (§2.3),
+Q137124051,Eclectic architecture style,exclude:below inclusion rule (§2.3),
+Q137124075,European Neoclassical architecture style,exclude:below inclusion rule (§2.3),
+Q137125350,Indian Decorative architecture style,exclude:below inclusion rule (§2.3),
+Q137130753,Modern Institutional architecture style,exclude:below inclusion rule (§2.3),
+Q137132574,Neo-Classical architecture style,exclude:below inclusion rule (§2.3),
+Q137133221,Postmodern architecture style,exclude:below inclusion rule (§2.3),
+Q138533856,early English architecture,exclude:below inclusion rule (§2.3),
+Q139310188,Briarde architecture,exclude:below inclusion rule (§2.3),
+Q140469803,Bruynzeel house,exclude:below inclusion rule (§2.3),
+Q140779349,Jesuit architecture,exclude:below inclusion rule (§2.3),
+Q141250266,Monterey Revival Architecture,exclude:below inclusion rule (§2.3),
+Q141532070,West-Friese architectuur,exclude:below inclusion rule (§2.3),
+Q21167467,Gothic architecture in Romania,exclude:below inclusion rule (§2.3),
+Q23657375,Art Nouveau in Spain,exclude:below inclusion rule (§2.3),
+Q30619313,Republican,exclude:below inclusion rule (§2.3),
+Q30619580,Ingles,exclude:below inclusion rule (§2.3),
+Q30627185,Brick Romanesque Style,exclude:below inclusion rule (§2.3),
+Q30713752,Federalism,exclude:below inclusion rule (§2.3),
+Q30713920,Late Egyptian,exclude:below inclusion rule (§2.3),
+Q41781516,arquitectura neoherreriana,exclude:below inclusion rule (§2.3),
+Q42885640,florentinsk medeltidsstil,exclude:below inclusion rule (§2.3),
+Q42898444,round building,exclude:below inclusion rule (§2.3),
+Q55993629,Art Nouveau architecture in Spain,exclude:below inclusion rule (§2.3),
+Q56072838,Mannerist Revival architecture,exclude:below inclusion rule (§2.3),
+Q57392981,Italian postmodern architecture,exclude:below inclusion rule (§2.3),
+Q59708192,Neo-Moldavian architecture,exclude:below inclusion rule (§2.3),
+Q61611903,sculpturalism,exclude:below inclusion rule (§2.3),
+Q61637183,Florentine Gothic,exclude:below inclusion rule (§2.3),
+Q61777227,neo-functionalism,exclude:below inclusion rule (§2.3),
+Q61984620,Chalé Mori,exclude:below inclusion rule (§2.3),
+Q63982818,Frederician architecture,exclude:below inclusion rule (§2.3),
+Q78044912,Middle Pointed,exclude:below inclusion rule (§2.3),
+Q85684352,Empire revival architecture,exclude:below inclusion rule (§2.3),
+Q97141725,Old English style,exclude:below inclusion rule (§2.3),
+Q97371750,fascist architecture in Italy,exclude:below inclusion rule (§2.3),
+Q97679216,cottage,exclude:below inclusion rule (§2.3),
+Q98075286,Poblano,exclude:below inclusion rule (§2.3),
+Q98077643,Assyrian Revival,exclude:below inclusion rule (§2.3),
+Q98136873,Reduktionsgotik,exclude:below inclusion rule (§2.3),
+Q9848719,religious architecture of Italy,exclude:below inclusion rule (§2.3),
+Q98596477,Moorish style,exclude:below inclusion rule (§2.3),
+Q98961658,Elizabethan Revival,exclude:below inclusion rule (§2.3),
+Q99299802,Baroque Classicism,exclude:below inclusion rule (§2.3),

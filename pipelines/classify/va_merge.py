@@ -129,6 +129,8 @@ def main():
             {"pool_id": r["pool_id"], "source": sl, "label": r.get("label", ""), "type": "style" if sl.startswith("arch") else "gap sweep",
              "region": "", "era": "", "objects": "", "disposition": ""} for r in disp.values()]
         for p in pool:
+            if sl in NOPOOL and disp.get(p["pool_id"], {}).get("disposition", "") in ("route:west", "route:nonwest"):
+                continue  # the other architecture slice holds this row
             d = p["disposition"]
             note = ""
             if not d:
