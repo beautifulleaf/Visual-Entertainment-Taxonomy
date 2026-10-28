@@ -304,6 +304,7 @@ Wikidata is therefore a good **candidate pool and ID crosswalk**, but weak as a 
   | Central Asia | 16 |
 
   Plus about 810 list-only names, most of them with no region yet.
+- **List resolution** (`resolve_list_artists.py`): 1,003 previously unmatched list artists were resolved, roughly doubling each non-Western region's matched list artists. 685 stay list-only (Wikidata has no item for most of them). Wikidata's public query service was in an outage that rate-limited to 1 request a minute, so lookups ran on the QLever Wikidata mirror (`--endpoint`). List artists born before 1920 (e.g. Venice 2024's historical section: Kahlo, Lam) are left to the modern pass. Selection re-run: 11,000 (3,075 auto-includes + 7,925 regional picks).
 - **Fixes:**
   - 104 list artists resolved to Wikidata people with no art occupation (a poet, a researcher, Franz Boas) are kept as list-only names, not under the wrong QID.
   - Consumer categories that the metrics under-count (§3.4) get hand-curated includes in `seeds/visual-art/contemporary_manual_includes.csv`, starting with Beeple; add others as review finds them.

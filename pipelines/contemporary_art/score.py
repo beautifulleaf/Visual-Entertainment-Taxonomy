@@ -179,6 +179,15 @@ def load_inputs(args):
     if os.path.exists(ADDITIONS):
         add = pd.read_csv(ADDITIONS, dtype=str, keep_default_na=False)
         add = add[~add.qid.isin(pool_q)].drop_duplicates("qid")
+        # Historical artists on contemporary lists (e.g. Venice 2024's historical
+        # section: Frida Kahlo, Wifredo Lam) belong to the modern pass (visual-art-plan §2.4).
+        born = pd.to_numeric(add.birth.str[:4], errors="coerce")
+        historical = add[born < 1920]
+        if len(historical):
+            for q in historical.qid:
+                auto_reason.pop(q, None)
+            add = add[~add.qid.isin(historical.qid)]
+            notes.append(f"{len(historical):,} resolved list artists born before 1920 left to the modern pass")
         # A list artist resolved to someone with no art occupation (a poet, a researcher,
         # Franz Boas...) is almost certainly the wrong person: keep the list entry as a
         # list-only name instead of the wrong QID.
