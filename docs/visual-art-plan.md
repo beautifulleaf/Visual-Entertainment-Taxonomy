@@ -171,6 +171,13 @@ The target depth is the owner-supplied list in `seeds/visual-art/europe_1400-190
   - **Result after the fixes:** 12,840 distinct modern artists: Europe 9,701 · North America 2,038 · Latin America 459 · East Asia 362 · MENA/Central Asia 243 · Oceania 224 · South Asia 98 · Sub-Saharan Africa 73 · Southeast Asia 47. Sub-Saharan Africa is led by Seydou Keïta, Malick Sidibé, Irma Stern, Malangatana, Ernest Cole and Ousmane Sow. The smallest regions (Africa, South and Southeast Asia) are also covered by the tradition sweeps and the coverage audit.
   - After the first two fixes the Europe 1400–1900 selection is **9,973** (was 10,543), and the modern regions total about 14k before deduplication. Sub-Saharan Africa now leads with Irma Stern, Malangatana, Ousmane Sow and Seydou Keïta.
 
+### 2.4b Pre-1400 named artists (measured 2026-10-28, `run_pre1400.sh`)
+- **Passes:** `antiquity_mediterranean` (−800 to 500), `europe_medieval_500-1400` (incl. Byzantium, Armenia, Georgia), `east_asia_pre1400` (−200 to 1400) and `islamic_pre1400` (600–1400). Placement uses any of citizenship, birth or death country (`place_any`), because citizenships here are historical states. New medium: vase painting (vase painters and potters, including conventional names such as the Berlin Painter, typed as notname on Wikidata).
+- **Pools:** 529 / 565 / 361 / 38. The Islamic pass is thin, and the Islamic regional sweep remains the main source there.
+- **Europe model at its cutoff:** 394 selected (147 / 146 / 98 / 7). In: Giotto, Duccio, Cimabue, Simone Martini, the Pisani, Exekias, Euphronios, the Berlin and Amasis Painters, Phidias, Polykleitos, Praxiteles, Gu Kaizhi, Wu Daozi, Guo Xi, Unkei, al-Wasiti, Yaqut. Missing: Zhan Ziqian and Yi Nyeong (no dates on Wikidata), Kaikei (ranked as a painter), Villard de Honnecourt (architecture excluded).
+- **Era-own reference** (153 members of pre-1400 schools and styles via P135): the Europe model recovers only 42%. An era model fitted on it barely discriminates (P135 tags workshop members as readily as masters) and would take about 80% of each pool (1,186).
+- **Known noise:** the calligrapher occupation pulls in poets and emperors (Li Bai, Du Fu, Huizong); some vase "Groups" and "Classes" are typed as notname; primary medium takes painting before sculpture.
+
 ### 2.5 Getty vocabularies: dropped from this project (decided 2026-10-28)
 Getty AAT/ULAN IDs are **not required**:
 - Wikidata QIDs are the join key everywhere.
