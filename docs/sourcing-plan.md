@@ -143,7 +143,7 @@ Metadata comes from the TMDB API plus the daily ID exports, with Kaggle `alanvou
 - *Measured (2026-10-28, `pipelines/unscripted/build_formats.py`):* Wikidata links a format's versions inconsistently (based on / media franchise / part of the series / derivative work), so each connected family of linked programmes is treated as one format.
   - Rule: ≥3 versions in ≥2 countries, with no country holding more than 80% of them unless the family spans 5+. That gives **209 unscripted formats with 3,127 versions**: game show 110, reality/docusoap 57, talent competition 24, cooking 8, dating 7, talk 3.
   - It also gives 254 scripted remake families (*Yo soy Betty, la fea*, *The Office*) for scripted TV, though a few Japanese broadcast slots still slip in through mis-tagged items.
-  - Coverage against `seeds/unscripted/formats_checklist.txt`: 33 of 35. Wife Swap and Married at First Sight are missing and need hand-adding.
+  - Coverage against `seeds/unscripted/formats_checklist.txt`: 35 of 35, with Wife Swap and Married at First Sight added by hand in `seeds/unscripted/format_additions.csv` (Wikidata does not link their national versions).
 - **Non-format unscripted** (prestige docuseries, true crime, nature, stand-alone reality like *Keeping Up with the Kardashians*) is handled as individual titles under the scripted-TV thresholds.
 
 ## 7. Licensing note

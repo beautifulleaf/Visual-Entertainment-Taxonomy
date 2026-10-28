@@ -22,7 +22,8 @@ Genres (P136) of its members pick the genre cluster. Families without an
 unscripted genre are kept as `scripted` (remakes such as Yo soy Betty, la fea
 or The Office), which scripted TV can use for remake links.
 seeds/unscripted/formats_checklist.txt lists well-known formats; each run
-reports which of them were not found.
+reports which of them were not found. seeds/unscripted/format_additions.csv adds
+hand-curated families whose versions Wikidata does not link to each other.
 
 Output: data/interim/unscripted_formats.csv      one row per format
         data/interim/unscripted_adaptations.csv  one row per version
@@ -41,6 +42,7 @@ from wikidata import sparql, year_of  # noqa: E402
 
 IMDB_RATINGS = os.path.join(ROOT, "data", "raw", "imdb", "title.ratings.tsv.gz")
 CHECKLIST = os.path.join(ROOT, "seeds", "unscripted", "formats_checklist.txt")
+ADDITIONS = os.path.join(ROOT, "seeds", "unscripted", "format_additions.csv")
 OUT_FORMATS = os.path.join(ROOT, "data", "interim", "unscripted_formats.csv")
 OUT_ADAPT = os.path.join(ROOT, "data", "interim", "unscripted_adaptations.csv")
 
@@ -135,6 +137,13 @@ def main():
         print(f"  {prop}: {len(e)} links")
         pairs += e
         indegree.update(p for _, p in e)
+    if os.path.exists(ADDITIONS):
+        # Hand-curated families whose versions Wikidata does not link (Wife Swap, ...).
+        with open(ADDITIONS, encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                extra = [(m, row["root_qid"]) for m in row["member_qids"].split("|") if m]
+                pairs += extra
+                indegree[row["root_qid"]] += len(extra)
     families = [g for g in components(pairs) if len(g) >= MIN_VERSIONS]
     print(f"{len(families)} linked families with >= {MIN_VERSIONS} members")
 
