@@ -50,6 +50,7 @@ class Blocked(Exception):
 
 _last = [0.0]
 _delay = [DELAY]
+_net_retries = [0]
 
 
 class Missing(Exception):
@@ -75,6 +76,13 @@ def get(path, retry=True):
             _last[0] = time.time()
             return get(path, retry=False)
         raise Missing(f"HTTP {e.code} for {path}")
+    except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+        # Network drop (not a refusal from MDL): wait and retry a few times.
+        if retry is not False and _net_retries[0] < 5:
+            _net_retries[0] += 1
+            time.sleep(30 * _net_retries[0])
+            return get(path, retry=retry)
+        raise Blocked(f"network unavailable ({e}) for {path}")
     finally:
         _last[0] = time.time()
     if "challenges.cloudflare.com" in page or "<title>Just a moment" in page:
