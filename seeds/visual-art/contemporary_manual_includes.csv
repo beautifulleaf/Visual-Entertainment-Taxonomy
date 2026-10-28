@@ -1,2 +1,5 @@
 qid,name,category,reason
 Q82953425,Beeple (Mike Winkelmann),NFT / crypto art,"visual-art-plan §3.4: consumer category that art-world lists and market IDs under-count; no list entries or Artnet/Artsy/MoMA IDs on Wikidata, so the composite misses him"
+Q777909,Rover Thomas,Indigenous contemporary (Aboriginal Australian),"Represented Australia at the Venice Biennale 1990; a founder of the East Kimberley painting movement; just below the Oceania cutoff (0.591 vs 0.614)"
+Q16945517,Simon Stålenhag,Illustration / digital painting crossover,"§3.4 consumer category: cult illustrator (Tales from the Loop); 97th pageview percentile, just under the attention route's 98th"
+Q24007153,Tayeba Begum Lipi,Contemporary (South Asia),"Bangladeshi artist shown at the Venice Biennale; dropped by the market-record check because Wikidata lacks her museum and list records"

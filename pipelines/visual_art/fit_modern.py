@@ -12,28 +12,32 @@ calibrated on its own reference, built from data by build_modern_reference.py
 - Positives: reference artists, in whichever regional pool they appear (an émigré
   pooled in two regions is a positive in both). Training rows: the painting cells
   plus every reference artist, as in depth_model.fit.
-- One NonNegativeLogit over all nine regions. The cutoff is the 10th percentile of
-  the reference artists' 5-fold out-of-fold scores (90% out-of-fold recall).
+- One NonNegativeLogit over all nine regions. Candidate cutoffs at 90 / 85 / 80%
+  out-of-fold reference recall (5-fold); the cutoff is chosen on review of the
+  marginal artists each one adds, so it is not finalised here.
 - Selection is depth_model.select (every reference artist, plus pool-rule artists at
   or above the cutoff after the art_occ_share factor, architecture excluded).
 
-Output: pipelines/visual_art/models/modern_1860-1960.json
-        data/interim/visual_art/scores_modern_<region>.csv (overwritten; the previous
-        Europe-model scores are kept once as scores_modern_<region>_europe_model.csv)
+Output: pipelines/visual_art/models/modern_1860-1960.json (coefficients, candidate cutoffs)
+        data/interim/visual_art/modern_cutoff_review.csv (30 marginal artists per region
+        and candidate cutoff, for Europe, North America, Latin America, East Asia,
+        Sub-Saharan Africa)
+The shared scores_modern_<region>.csv (Europe-model scores) are left untouched.
 
-Usage: python3 pipelines/visual_art/fit_modern.py [--recall 0.9]
+Usage: python3 pipelines/visual_art/fit_modern.py
 """
 import argparse
+import collections
 import csv
 import json
 import os
-import shutil
 import sys
 
 import numpy as np
 from sklearn.model_selection import StratifiedKFold
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import build_modern_reference as bmr  # noqa: E402
 import depth_model as dm  # noqa: E402
 from reference import load_reference  # noqa: E402
 from regions import MODERN_REGIONS, REGIONS  # noqa: E402
@@ -76,11 +80,35 @@ def load_table_with_extras(path, key="qid"):
 dm.load_table = load_table_with_extras
 
 
+RECALLS = (0.90, 0.85, 0.80)
+REVIEW_REGIONS = ["modern_europe", "modern_north_america", "modern_latin_america", "modern_east_asia",
+                  "modern_subsaharan_africa"]
+N_SAMPLE = 30
+
+
+def side_info():
+    """Labels (pool labels can be empty), movement labels, Tate works and MoMA membership."""
+    labels = {}
+    for name in ("artists.json",):
+        for q, r in json.load(open(os.path.join(bmr.RAW, name), encoding="utf-8")).items():
+            labels[q] = r["label"]
+    fb = os.path.join(bmr.RAW, "fallback_labels.json")
+    if os.path.exists(fb):
+        labels.update({q: l for q, l in json.load(open(fb, encoding="utf-8")).items() if not labels.get(q)})
+    tsv = os.path.join(dm.DATA, "labels.tsv")
+    mlabels = dict(line.rstrip("\n").split("\t", 1) for line in open(tsv, encoding="utf-8") if "\t" in line)
+    tate_works, tate_by_name = bmr.load_tate()
+    moma = bmr.load_moma()
+    return labels, mlabels, tate_works, tate_by_name, moma
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
-    ap.add_argument("--recall", type=float, default=0.90)
     args = ap.parse_args()
-    ref = {r["qid"] for reg in ALL for r in load_reference(REGIONS[reg]) if r["qid"]}
+    ref_rows = [r for reg in ALL for r in load_reference(REGIONS[reg]) if r["qid"]]
+    ref = {r["qid"] for r in ref_rows}
+    with open(os.path.join(dm.ROOT, REGIONS[ALL[0]]["reference_qids"]), encoding="utf-8") as f:
+        ref_csv = list(csv.DictReader(f))
 
     data = {}
     for region in ALL:
@@ -101,67 +129,119 @@ def main():
     ti = np.flatnonzero(train)
     for tr, te in StratifiedKFold(5, shuffle=True, random_state=0).split(X[train], y[train]):
         oof[ti[te]] = dm.NonNegativeLogit().fit(X[train][tr], y[train][tr]).predict_proba(X[train][te])[:, 1]
-    cutoff = float(np.quantile(oof[y == 1], 1 - args.recall))
     scores = model.predict_proba(X)[:, 1]
+    cutoffs = {rc: float(np.quantile(oof[y == 1], 1 - rc)) for rc in RECALLS}
     print("coefficients (within-cell percentiles):")
     for f, c in sorted(zip(dm.FEATURES, model.coef_[0]), key=lambda t: -t[1]):
         print(f"  {f:20} {c:+.2f}")
     print(f"  {'intercept':20} {model.intercept_[0]:+.2f}")
-    print(f"cutoff (90% out-of-fold recall): {cutoff:.4f}; in-sample reference recall at it "
-          f"{(scores[y == 1] >= cutoff).mean():.1%}")
-    # Diagnostic: the same rule measured only on reference artists that some
-    # curatorial source holds (not kept by the membership fallback alone).
-    with open(os.path.join(dm.ROOT, REGIONS[ALL[0]]["reference_qids"]), encoding="utf-8") as f:
-        backed = {r["qid"] for r in csv.DictReader(f) if r["source_signal"] != "membership-fallback"}
-    yb = np.array([r["qid"] in backed for r in rows]) & (y == 1)
-    alt = float(np.quantile(oof[yb], 1 - args.recall))
-    alt_n = sum(int(dm.select(data[reg][0], model.predict_proba(data[reg][1])[:, 1], alt, REGIONS[reg]).sum()) for reg in ALL)
-    print(f"diagnostic: on the {int(yb.sum())} curatorially backed positives only, the 90% out-of-fold cutoff is "
-          f"{alt:.4f} and would select {alt_n} in total")
+    for rc, cut in cutoffs.items():
+        print(f"cutoff for {rc:.0%} out-of-fold recall: {cut:.4f} (in-sample recall {(scores[y == 1] >= cut).mean():.1%})")
+
+    # Selected totals per region at each candidate cutoff (nothing is written to the
+    # shared scores_modern_*.csv: the cutoff is chosen on review).
+    region_scores = {reg: model.predict_proba(data[reg][1])[:, 1] for reg in ALL}
+    print(f"\n{'region':28} {'pool':>6} {'ref':>5} " + " ".join(f"{'sel@' + format(rc, '.0%'):>9}" for rc in RECALLS)
+          + f" {'Europe model':>12}")
+    totals = collections.Counter()
+    for reg in ALL:
+        rws, sr = data[reg][0], region_scores[reg]
+        keep = os.path.join(dm.DATA, f"scores_{reg}.csv")
+        with open(keep, encoding="utf-8") as f:
+            old = sum(r["selected"] == "1" for r in csv.DictReader(f))
+        sels = [int(dm.select(rws, sr, cutoffs[rc], REGIONS[reg]).sum()) for rc in RECALLS]
+        for rc, n in zip(RECALLS, sels):
+            totals[rc] += n
+        totals["old"] += old
+        print(f"{reg:28} {len(rws):>6} {sum(r['is_reference'] for r in rws):>5} "
+              + " ".join(f"{n:>9}" for n in sels) + f" {old:>12}")
+    print(f"{'total':28} {'':>6} {'':>5} " + " ".join(f"{totals[rc]:>9}" for rc in RECALLS) + f" {totals['old']:>12}")
+
+    # Core of each movement: the top third (by rank) of the reference artists listed under it.
+    best = {}
+    for r, s in zip(rows, scores):
+        best[r["qid"]] = max(best.get(r["qid"], 0), s)
+    by_mv = collections.defaultdict(list)
+    for r in ref_csv:
+        by_mv[(r["movement_region"], r["movement"])].append(r)
+    core = []
+    for (mreg, mv), rs in by_mv.items():
+        rs.sort(key=lambda r: int(r["rank_in_movement"]))
+        core += [(mreg, mv, r["qid"]) for r in rs[:max(1, -(-len(rs) // 3))] if r["qid"] in best]
+    print("\nrecall of each movement's core (top third of its listed reference artists), by movement region:")
+    print(f"  {'region':20} {'core':>5} " + " ".join(f"{'@' + format(rc, '.0%'):>7}" for rc in RECALLS))
+    for mreg in sorted({c[0] for c in core}):
+        cs = [c for c in core if c[0] == mreg]
+        print(f"  {mreg:20} {len(cs):>5} " + " ".join(
+            f"{sum(best[q] >= cutoffs[rc] for _, _, q in cs) / len(cs):>7.1%}" for rc in RECALLS))
+    print(f"  {'all':20} {len(core):>5} " + " ".join(
+        f"{sum(best[q] >= cutoffs[rc] for _, _, q in core) / len(core):>7.1%}" for rc in RECALLS))
+    weak = collections.defaultdict(list)
+    for mreg, mv, q in core:
+        weak[(mreg, mv)].append(best[q] >= cutoffs[0.80])
+    worst = sorted(((sum(v) / len(v), len(v), k) for k, v in weak.items() if len(v) >= 3))[:12]
+    print("  movements whose core is least recovered even at 80%: "
+          + "; ".join(f"{mv} ({mreg}) {share:.0%} of {n}" for share, n, (mreg, mv) in worst))
+
+    # Review samples: the marginal band just above each cutoff (lowest-scoring 10% of
+    # the non-reference artists it selects), 30 per region and band, evenly spaced.
+    labels, mlabels, tate_works, tate_by_name, moma = side_info()
+    m_q, m_u, m_n = moma if moma else (set(), set(), set())
+    pools = {}
+    for reg in REVIEW_REGIONS:
+        with open(os.path.join(dm.DATA, f"pool_{reg}.csv"), encoding="utf-8") as f:
+            pools.update({r["qid"]: r for r in csv.DictReader(f)})
+    out = os.path.join(dm.DATA, "modern_cutoff_review.csv")
+    cols = ["region", "recall_band", "qid", "label", "birth", "medium", "movements", "sitelinks", "pageviews",
+            "n_museums", "tate", "moma", "score"]
+    with open(out, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=cols)
+        w.writeheader()
+        for reg in REVIEW_REGIONS:
+            rws, sr = data[reg][0], region_scores[reg]
+            excl = set(REGIONS[reg].get("model_excluded_media", []))
+            adj = [(s * dm.art_factor(r), r) for r, s in zip(rws, sr)
+                   if not r["is_reference"] and r["in_pool_rule"] and r["medium"] not in excl]
+            for rc in RECALLS:
+                sel = sorted((a for a in adj if a[0] >= cutoffs[rc]), key=lambda t: t[0])
+                band = sel[:max(N_SAMPLE, len(sel) // 10)]
+                idx = np.unique(np.linspace(0, len(band) - 1, min(N_SAMPLE, len(band))).round().astype(int)) if band else []
+                for i in idx:
+                    s, r = band[i]
+                    p = pools.get(r["qid"], {})
+                    label = r["label"] or labels.get(r["qid"], "")
+                    tid = next((x for x in [tate_by_name.get((bmr.name_key(label), str(r["birth"] or "")))] if x), None)
+                    w.writerow({
+                        "region": reg[7:], "recall_band": f"{rc:.0%}", "qid": r["qid"], "label": label,
+                        "birth": r["birth"], "medium": r["medium"],
+                        "movements": "|".join(mlabels.get(m, m) for m in p.get("movements", "").split("|") if m),
+                        "sitelinks": int(r["sitelinks"]), "pageviews": int(r["pageviews"]),
+                        "n_museums": int(r["n_museums"]),
+                        "tate": tate_works.get(tid, 0) if tid else ("id" if "P2741" in p.get("authority_ids", "") else 0),
+                        "moma": int(r["qid"] in m_q or (bmr.name_key(label), str(r["birth"] or "")) in m_n
+                                    or "P2174" in p.get("authority_ids", "")),
+                        "score": round(float(s), 4),
+                    })
+    print(f"\nwrote {out}")
 
     os.makedirs(dm.MODELS, exist_ok=True)
-    n_sel = 0
-    print(f"\n{'region':28} {'pool':>6} {'ref':>5} {'ref>=cut':>8} {'selected':>8} {'Europe model':>12}")
-    old_sel, new_sel = {}, {}
-    for region in ALL:
-        rws, Xr = data[region]
-        sr = model.predict_proba(Xr)[:, 1]
-        sel = dm.select(rws, sr, cutoff, REGIONS[region])
-        cur = os.path.join(dm.DATA, f"scores_{region}.csv")
-        keep = os.path.join(dm.DATA, f"scores_{region}_europe_model.csv")
-        if os.path.exists(cur) and not os.path.exists(keep):
-            shutil.copy(cur, keep)
-        old = {}
-        if os.path.exists(keep):
-            with open(keep, encoding="utf-8") as f:
-                old = {r["qid"]: r["selected"] == "1" for r in csv.DictReader(f)}
-        refidx = [i for i, r in enumerate(rws) if r["is_reference"]]
-        print(f"{region:28} {len(rws):>6} {len(refidx):>5} {sum(sr[i] >= cutoff for i in refidx):>8} "
-              f"{int(sel.sum()):>8} {sum(old.values()):>12}")
-        n_sel += int(sel.sum())
-        dm.write_scores(region, rws, sr, cutoff)
-        for r, s, c in zip(rws, sr, sel):
-            new_sel.setdefault(r["qid"], []).append((region, c, s, r["is_reference"]))
-            old_sel.setdefault(r["qid"], []).append(old.get(r["qid"]))
-    print(f"total selected: {n_sel}")
-
     json.dump({
         "fitted_on": ALL, "features": dm.FEATURES, "feature_transform": "within-cell mid-rank percentile (per region)",
         "coef": [round(float(c), 6) for c in model.coef_[0]], "intercept": round(float(model.intercept_[0]), 6),
-        "recall_target": args.recall, "cutoff": round(cutoff, 6), "cutoff_method": "out-of-fold (5-fold) reference recall",
-        "reference": "data/interim/modern_reference_candidate.csv",
-        "n_artists": len(rows), "n_reference": int(y.sum()), "n_selected": n_sel,
+        "cutoff": None, "cutoff_status": "under review (modern_cutoff_review.csv); candidates by out-of-fold recall",
+        "candidate_cutoffs": {f"{rc:.2f}": round(c, 6) for rc, c in cutoffs.items()},
+        "selected_at_candidates": {f"{rc:.2f}": totals[rc] for rc in RECALLS},
+        "reference": REGIONS[ALL[0]]["reference_qids"], "n_artists": len(rows), "n_reference": int(y.sum()),
     }, open(os.path.join(dm.MODELS, f"{NAME}.json"), "w"), indent=1)
     print(f"wrote {os.path.join(dm.MODELS, NAME + '.json')}")
 
-    print("\nspot checks (region: modern model selected? score / Europe model selected?):")
+    print("\nspot checks: best score over the artist's regions, selected at 90 / 85 / 80% recall?")
     for name, q in SPOT.items():
-        if q not in new_sel:
+        if q not in best:
             print(f"  {name:28} not in any modern pool")
             continue
-        parts = [f"{reg[7:]}: {'yes' if c else 'no'} {s:.3f}{' ref' if isref else ''} / {'yes' if o else 'no' if o is not None else '-'}"
-                 for (reg, c, s, isref), o in zip(new_sel[q], old_sel[q])]
-        print(f"  {name:28} " + "; ".join(parts))
+        flags = " ".join("y" if best[q] >= cutoffs[rc] else "n" for rc in RECALLS)
+        print(f"  {name:28} {best[q]:.3f} {flags}{'  (reference)' if q in ref else ''}")
 
 
 if __name__ == "__main__":

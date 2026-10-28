@@ -121,6 +121,7 @@ VIEWS = os.path.join(INTERIM, "contemporary_pageviews.csv")
 LIST_ARTISTS = os.path.join(INTERIM, "contemporary_list_artists.csv")
 ADDITIONS = os.path.join(INTERIM, "contemporary_pool_additions.csv")
 MANUAL = os.path.join(ROOT, "seeds", "visual-art", "contemporary_manual_includes.csv")
+MANUAL_EXCLUDES = os.path.join(ROOT, "seeds", "visual-art", "contemporary_manual_excludes.csv")
 OUT = os.path.join(INTERIM, "contemporary_scores.csv")
 MOVEMENTS_OUT = os.path.join(INTERIM, "contemporary_movements.csv")
 RAW = os.path.join(ROOT, "data", "raw", "wikidata", "contemporary")
@@ -566,6 +567,10 @@ def main():
               f">= {args.attention_min_share}); {int(df.route_attention.sum()):,} pass the guards")
     base = df.selected == 1
     df["selected"] = (base | (df.route_movement_guarantee == 1) | (df.route_attention == 1)).astype(int)
+    if os.path.exists(MANUAL_EXCLUDES):
+        # Reviewed false positives of the automatic routes (celebrities, non-artist collectives).
+        drop = set(pd.read_csv(MANUAL_EXCLUDES, dtype=str, keep_default_na=False).qid)
+        df.loc[df.qid.isin(drop) & ~df.auto_include.str.startswith("manual:"), "selected"] = 0
     routes = ["route_list", "route_regional_score", "route_movement_guarantee", "route_attention", "route_manual"]
     df["routes"] = df[routes].apply(lambda r: "|".join(c[6:] for c in routes if r[c]), axis=1)
 
