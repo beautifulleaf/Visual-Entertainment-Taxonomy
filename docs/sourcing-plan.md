@@ -87,7 +87,7 @@ Metadata comes from the TMDB API plus the daily ID exports, with Kaggle `alanvou
 ## 5. Asian live-action dramas (own database)
 - Metric: **MyDramaList "Watchers"**. There is no official public API, only unofficial scrapers and reverse-engineered app wrappers, and no public dataset was found. Use Wikidata P3868 for the ID join.
 - **Decided (2026-10-27): fetch MDL watcher counts politely.** The ToS risk is accepted. MDL's robots.txt allows general crawling (`User-agent: * / Allow: /`) and reserves only AI training (`Content-Signal: ai-train=no`). Rules for the fetcher:
-  - One request at a time, at most one every 3–5 seconds, with an identifying User-Agent. Back off on any 429/403 or Cloudflare challenge, and never work around one (no rotating proxies, no headless-browser evasion).
+  - One request at a time, 1.5 seconds apart by default (raised from 3–5 s on 2026-10-28 to finish a full pass in about 3 hours; the fetcher enforces a hard floor of 1 s), with an identifying User-Agent. Back off on any 429/403 or Cloudflare challenge, and never work around one (no rotating proxies, no headless-browser evasion).
   - Fetch only the title pages of candidates (IDs from Wikidata P3868 plus MDL search for the rest). Store only the ID, watchers, rating, rating count and episode count. Cache every page, so each title is fetched once per refresh. Refresh at most quarterly.
   - The counts stay internal, like every other audience metric (§7), and are never used to train models, per MDL's content signal.
   - If a candidate is still missing after that, Douban/TMDB carry it rather than more aggressive fetching.

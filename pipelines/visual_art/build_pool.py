@@ -139,23 +139,30 @@ def fetch_facts(qids):
     return facts
 
 
+# Tried in order for countries still without a continent: the country's own
+# continent, then that of its country (subnational/historical places), its
+# successor state, and its capital's country. Separate simple queries, because
+# one property-path union over all four times out on the public endpoint.
+CONTINENT_PATHS = ["wdt:P30", "wdt:P17/wdt:P30", "wdt:P1366/wdt:P30", "wdt:P36/wdt:P17/wdt:P30"]
+
+
 def fetch_country_continents(countries):
-    """Continent(s) per country QID; falls back to the continent of the capital's country."""
+    """Continent(s) per country QID."""
     path = os.path.join(RAW, "country_continents.json")
     known = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
-    todo = [c for c in countries if c not in known]
-    for i in range(0, len(todo), CHUNK):
-        chunk = todo[i:i + CHUNK]
-        for c in chunk:
-            known[c] = []
-        values = " ".join("wd:" + q for q in chunk)
-        for r in sparql(f"""SELECT ?c ?cont WHERE {{
-              VALUES ?c {{ {values} }}
-              ?c wdt:P30|wdt:P36/wdt:P17/wdt:P30|wdt:P1366/wdt:P30 ?cont .
-            }}"""):
-            if r["cont"] not in known[r["c"]]:
-                known[r["c"]].append(r["cont"])
-    json.dump(known, open(path, "w", encoding="utf-8"))
+    for prop_path in CONTINENT_PATHS:
+        todo = [c for c in countries if not known.get(c)]
+        for i in range(0, len(todo), 100):
+            values = " ".join("wd:" + q for q in todo[i:i + 100])
+            for r in sparql(f"SELECT ?c ?cont WHERE {{ VALUES ?c {{ {values} }} ?c {prop_path} ?cont . }}"):
+                known.setdefault(r["c"], [])
+                if r["cont"] not in known[r["c"]]:
+                    known[r["c"]].append(r["cont"])
+        json.dump(known, open(path, "w", encoding="utf-8"))
+    for c in countries:
+        known.setdefault(c, [])
+    missing = sum(1 for c in countries if not known[c])
+    print(f"  {len(countries)} countries, {missing} without a continent")
     return known
 
 
