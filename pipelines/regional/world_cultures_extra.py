@@ -745,6 +745,202 @@ def extract_nmvw(limit=None):
     return cache + sfx, thes_cache + sfx
 
 
+NMVW_INST = {"TM": "Tropenmuseum", "RV": "Museum Volkenkunde", "WM": "Wereldmuseum Rotterdam",
+             "AM": "Afrika Museum"}
+NMVW_DROP_TYPES = re.compile(r"photo|slide|negative|lantern|stereo|collodion|albumen|gelatin|film\b|cyanotype|"
+                             r"fonds|archiv|document|letter|book|manuscript page|periodical|newspaper|"
+                             r"coin|money|banknote|paper money|human specimen|specimen|postcard|"
+                             r"street scenes|landscapes \(representations\)|portraits")
+NMVW_DROP_CHAINS = re.compile(r"visual works by subject type|information artifacts|document genres|"
+                              r"exchange media|money")
+RELIGION = re.compile(r"religon|religion")
+PERIOD_STYLE = re.compile(r"\bperiods?\b|\bstyles?\b|periodes")
+BROAD = re.compile(r"cultures\b|-culturen|culturen\b|\bregion|regional|peoples\b|speaking|widespread|groups\b|"
+                   r"^(african|european|asian|oceanic|melanesian|polynesian|micronesian|american|native american|"
+                   r"cultural provenance.*)$")
+DIRECTIONAL = re.compile(r"^(north|south|east|west|central|southern|northern|eastern|western|highland|lowland|"
+                         r"coastal|insular|mainland|upper|lower|middle)\b|^(indonesian|asian|african|american|"
+                         r"oceanic|melanesian|european)$")
+PAREN_IGNORE = {"people", "peoples", "culture", "style", "ethnic group", "volk"}
+COUNTRY_NAMES = set(fold(x) for x in (
+    "Afghanistan Algeria Angola Argentina Armenia Australia Bangladesh Benin Bhutan Bolivia Botswana Brazil "
+    "Burkina_Faso Burundi Cambodia Cameroon Canada Chad Chile China Colombia Comoros Congo Cuba Curacao Egypt "
+    "Ecuador Eritrea Ethiopia Fiji Gabon Gambia Ghana Greenland Guatemala Guinea Guinea-Bissau Guyana Haiti "
+    "Honduras India Indonesia Iran Iraq Israel Ivory_Coast Jamaica Japan Jordan Kenya Kiribati Korea Kuwait Laos "
+    "Lebanon Lesotho Liberia Libya Madagascar Malawi Malaysia Mali Mauritania Mexico Mongolia Morocco "
+    "Mozambique Myanmar Namibia Nepal New_Zealand Nicaragua Niger Nigeria Oman Pakistan Panama Papua_New_Guinea "
+    "Paraguay Peru Philippines Qatar Rwanda Samoa Saudi_Arabia Senegal Sierra_Leone Singapore Solomon_Islands "
+    "Somalia South_Africa Sri_Lanka Sudan Suriname Swaziland Syria Taiwan Tanzania Thailand Timor-Leste Togo "
+    "Tonga Tunisia Turkey Uganda United_States_of_America Uzbekistan Vanuatu Venezuela Vietnam Yemen Zambia "
+    "Zimbabwe Democratic_Republic_of_the_Congo Republic_of_the_Congo Central_African_Republic Côte_d'Ivoire "
+    "Equatorial_Guinea Djibouti Turkmenistan Tajikistan Kyrgyzstan Kazakhstan Azerbaijan Georgia Tibet "
+    "Netherlands Belgium France Germany Italy Spain Portugal United_Kingdom Greece Russia Poland Austria "
+    "Switzerland Sweden Norway Denmark Hungary Romania Bulgaria Albania Serbia Croatia Bosnia_and_Herzegovina "
+    "Solomon_Islands_(nation) New_Caledonia French_Polynesia Micronesia Marshall_Islands Palau Aruba Bonaire "
+    "Sint_Maarten Trinidad_and_Tobago Dominican_Republic Puerto_Rico El_Salvador Belize Costa_Rica Uruguay "
+    "Western_Sahara Cape_Verde Sao_Tome_and_Principe Brunei East_Timor Burma").split())
+COUNTRY_NAMES = {fold(x.replace("_", " ")) for x in COUNTRY_NAMES}
+COUNTRY_NAMES |= {fold(x.replace("_", " ")) for x in (
+    "Burkina_Faso Ivory_Coast New_Zealand Papua_New_Guinea Saudi_Arabia Sierra_Leone Solomon_Islands South_Africa "
+    "Sri_Lanka United_States_of_America Democratic_Republic_of_the_Congo Republic_of_the_Congo "
+    "Central_African_Republic Côte_d'Ivoire Equatorial_Guinea Bosnia_and_Herzegovina Solomon_Islands_(nation) "
+    "New_Caledonia French_Polynesia Marshall_Islands Sint_Maarten Trinidad_and_Tobago Dominican_Republic "
+    "Puerto_Rico El_Salvador Costa_Rica Western_Sahara Cape_Verde Sao_Tome_and_Principe East_Timor "
+    "United_Kingdom").split()}
+
+
+def geo_region(chain):
+    """chain: labels root-first ('Geographical Provenance', 'Asia', 'East Asia', 'Japan', ...)."""
+    t = " > ".join(chain[1:3]).lower()
+    if not t:
+        return ""
+    if t.startswith("asia"):
+        t3 = " > ".join(chain[2:4]).lower()
+        if "east asia" in t and "southeast" not in t:
+            return "east_asia"
+        if re.search(r"(?<!east )south asia", t3):
+            return "south_asia"
+        if "southeast" in t3 or "zuidoost" in t3:
+            return "southeast_asia"
+        if "southwest asia" in t3:
+            return "west_asia_islamic"
+        if "central asia" in t3:
+            return "himalaya_central_asia"
+        return "west_asia_islamic"
+    if t.startswith("africa"):
+        return "africa_north" if "north africa" in t else "africa"
+    if t.startswith("america"):
+        return "americas"
+    if t.startswith("oceania"):
+        return "oceania"
+    if t.startswith("eurasia"):
+        return "europe" if "europe" in t else "himalaya_central_asia"
+    return ""
+
+
+def nmvw_rows(stats):
+    cache, thes_cache = extract_nmvw()
+    th = json.load(gzip.open(thes_cache, "rt", encoding="utf-8"))
+
+    def lab(t):
+        x = th.get(t) or {}
+        return x.get("en") or x.get("pref") or ""
+
+    chains = {}
+
+    def chain(t):
+        if t not in chains:
+            out, seen = [], set()
+            while t in th and t not in seen:
+                seen.add(t)
+                out.append(t)
+                t = th[t]["broader"]
+            chains[out[0] if out else t] = out[::-1]   # root first
+            return out[::-1]
+        return chains[t]
+
+    def kind(t):
+        c = chain(t)
+        labels = " > ".join(lab(x) for x in c).lower()
+        if RELIGION.search(labels):
+            return "religion"
+        if PERIOD_STYLE.search(" > ".join(lab(x) for x in c[1:]).lower()) and PERIOD_STYLE.search(
+                (lab(t) + " " + lab(th.get(t, {}).get("broader", ""))).lower()):
+            return "period_style"
+        if BROAD.search(fold(lab(t))) or len(c) <= 3:
+            return "regional_group"
+        return "culture"
+
+    def ckey(t):
+        """culture term -> (key, label), with its parent culture as base when the parent is a culture."""
+        label = lab(t)
+        m = re.match(r"^(.*?)\s*\(([^)]*)\)\s*$", label)
+        if m:
+            outer, par = tidy(m.group(1)), tidy(m.group(2))
+            label_raw = outer if fold(par) in PAREN_IGNORE else f"{par}, {outer}"
+        else:
+            label_raw = label
+        keys = culture_keys(label_raw)
+        if not keys:
+            return None
+        k, l = keys[0]
+        if ", " not in k:
+            par = th.get(t, {}).get("broader", "")
+            if par and kind(par) == "culture" and not DIRECTIONAL.search(fold(lab(par))):
+                pk = culture_keys(re.sub(r"\s*\([^)]*\)", "", lab(par)))
+                if pk and ", " not in pk[0][0] and pk[0][0] != k:
+                    return f"{pk[0][0]}, {k}", f"{pk[0][1]}, {l}"
+        return k, l
+
+    rows = []
+    for line in gzip.open(cache, "rt", encoding="utf-8"):
+        r = json.loads(line)
+        stats["nmvw_records"] += 1
+        tlabels = [lab(t) for t in r.get("types") or []]
+        tchains = " | ".join(" > ".join(lab(x) for x in chain(t)) for t in (r.get("types") or [])[:2]).lower()
+        ttxt = " ".join(tlabels).lower()
+        if (NMVW_DROP_TYPES.search(ttxt) or NMVW_DROP_CHAINS.search(tchains)) and not re.search(
+                r"textile|cloth|costume|sculpt|statue|mask|painting|print\b|prints \(visual|drawing|gouache", ttxt):
+            stats["nmvw_drop:photograph / archive / coin / specimen"] += 1
+            continue
+        terms = r.get("terms") or []
+        cterms = [t for t in dict.fromkeys(terms + (r.get("places") or [])) if th.get(t, {}).get("scheme") == "culture"]
+        gterms = [t for t in (r.get("places") or []) + terms if th.get(t, {}).get("scheme") == "geo"]
+        gchain = [lab(x) for x in chain(gterms[0])] if gterms else []
+        country = next((l for l in gchain if fold(l) in COUNTRY_NAMES), "")
+        region = geo_region(gchain)
+        keys, labels, kinds, paths, aats = [], [], [], [], []
+        for t in cterms:
+            kd = kind(t)
+            if kd == "religion":
+                continue
+            kl = ckey(t)
+            if not kl:
+                continue
+            keys.append(kl[0])
+            labels.append(kl[1])
+            kinds.append(kd)
+            paths.append(" > ".join(lab(x) for x in chain(t)[1:]))
+            aats.append(th.get(t, {}).get("aat", ""))
+            if not region:
+                cc = " > ".join(lab(x) for x in chain(t)).lower()
+                region = next((rg for w_, rg in (("east asian", "east_asia"), ("insular southeast", "southeast_asia"),
+                                                 ("mainland southeast", "southeast_asia"), ("south asian", "south_asia"),
+                                                 ("north-african", "africa_north"), ("african", "africa"),
+                                                 ("oceanic", "oceania"), ("americas", "americas"),
+                                                 ("west asian", "west_asia_islamic"), ("islamic", "west_asia_islamic"),
+                                                 ("european", "europe")) if w_ in cc), "")
+        culture_from = "recorded culture"
+        if not keys:
+            if not country:
+                stats["nmvw_drop:no culture and no country"] += 1
+                continue
+            kl = culture_keys(re.sub(r"\s*\([^)]*\)", "", country))
+            if not kl:
+                stats["nmvw_drop:no culture key"] += 1
+                continue
+            keys, labels, kinds, paths, aats = [kl[0][0]], [kl[0][1]], ["place"], [" > ".join(gchain[1:])], [""]
+            culture_from = "production place (country)"
+        inv = r.get("inv") or ""
+        inst = NMVW_INST.get(inv.split("-")[0], SOURCE_INST["nmvw"])
+        makers = [m for m in r.get("makers") or [] if m and not ANON.search(m) and not m.startswith("pi")]
+        rows.append({
+            "source": "nmvw", "id": inv or r["id"], "title": (r.get("title") or "")[:200],
+            "culture_keys": "; ".join(keys), "culture_label": "; ".join(labels), "culture_kind": "; ".join(kinds),
+            "culture_path": " | ".join(paths)[:300], "aat": "; ".join(a for a in aats if a),
+            "culture_from": culture_from, "place": "; ".join(dict.fromkeys(lab(t) for t in gterms[:3])),
+            "country": country, "region": region, "object_type": "; ".join(tlabels)[:120],
+            "object_group": object_group(ttxt, tchains, r.get("title") or ""),
+            "period": "", "date_begin": _year(r.get("begin")), "date_end": _year(r.get("end")),
+            "maker": "; ".join(dict.fromkeys(makers))[:200], "attributed": int(bool(makers)),
+            "materials": "; ".join(lab(m) for m in r.get("mats") or [])[:150], "institution": inst,
+            "url": f"https://hdl.handle.net/20.500.11840/{r['id']}",
+        })
+    stats["nmvw_kept"] = len(rows)
+    stats["nmvw_kept_recorded_culture"] = sum(1 for x in rows if x["culture_from"] == "recorded culture")
+    return rows
+
+
 # ============================================================ known culture keys
 
 MET = "Metropolitan Museum of Art"

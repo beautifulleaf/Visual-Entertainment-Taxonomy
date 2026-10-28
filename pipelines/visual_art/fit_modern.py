@@ -4,8 +4,9 @@ visual-art-plan.md §2.4 (decided 2026-10-28): the modern pass (active 1860-1960
 calibrated on its own reference, built from data by build_modern_reference.py
 (data/interim/modern_reference_candidate.csv; seeds/visual-art/modern_1860-1960_depth_reference.txt).
 
-- Rows: every modern_<region> pool (pool_modern_*.csv, with the reference artists
-  below the pool rule added as positives by build_pool.py). Features are the usual
+- Rows: every modern_<region> pool (pool_modern_*.csv), plus the reference artists
+  below the pool rule as positives (refextra_* files from modern_reference_extras.py,
+  until build_pool.py adds them itself on the next pool rebuild). Features are the usual
   within-cell percentiles, computed inside each region (depth_model.load_features,
   assign_cells, percentile_matrix), so each modernism is ranked against its peers.
 - Positives: reference artists, in whichever regional pool they appear (an émigré
@@ -51,6 +52,22 @@ SPOT = [
     "Albert Namatjira", "Affandi", "Fernando Amorsolo", "Sidney Nolan", "Tom Roberts",
     "Claude Monet", "Pablo Picasso", "Georgia O'Keeffe", "Ivan Shishkin",
 ]
+
+
+_load_table = dm.load_table
+
+
+def load_table_with_extras(path, key="qid"):
+    """depth_model.load_table plus the refextra_* side file next to it, if any
+    (modern_reference_extras.py: reference artists below the pool rule)."""
+    table = _load_table(path, key)
+    extra = os.path.join(os.path.dirname(path), "refextra_" + os.path.basename(path))
+    if os.path.exists(extra):
+        table.update({k: v for k, v in _load_table(extra, key).items() if k not in table})
+    return table
+
+
+dm.load_table = load_table_with_extras
 
 
 def main():

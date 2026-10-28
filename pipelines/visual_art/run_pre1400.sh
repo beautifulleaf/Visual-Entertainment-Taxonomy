@@ -18,3 +18,6 @@ python3 -u pipelines/visual_art/pageviews.py
 for r in $REGIONS; do
   python3 -u pipelines/visual_art/depth_model.py apply --region "$r" --model europe_1400-1900
 done
+# Era-own reference (pre-1400 schools/movements from P135), Europe-model recall on
+# it, and an era model fitted on it (models/pre1400.json, scores_<R>_era.csv).
+python3 -u pipelines/visual_art/pre1400_reference.py
