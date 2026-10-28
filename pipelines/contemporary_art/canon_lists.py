@@ -10,7 +10,8 @@ after 1960, one row per (list, edition, entry):
                      a page-data JSON giving its place per edition plus the previous and
                      next entries, so each edition is read by walking that chain from a
                      seed entry. Non-artists (curators, collectors, gallerists, ...) are
-                     kept but flagged is_artist=0 (ArtReview's own artist_category).
+                     kept but flagged is_artist=0, from ArtReview's own category (Artist,
+                     Artists and Artist Collective count as artists).
   artprice_top500    Artprice Contemporary Art Market Report: Top 500 contemporary artists
   artprice_ultra100  (born after 1945) by auction turnover, and the Top 100
                      ultra-contemporary artists when the edition has one (2026 only has a
@@ -22,6 +23,8 @@ after 1960, one row per (list, edition, entry):
   documenta          documenta 14 and documenta fifteen participants (English Wikipedia).
   <biennial>         Other biennials from their participant announcements on e-flux
                      (see EFLUX below): Sharjah, Istanbul, Gwangju, Kochi-Muziris, ...
+  prize_jameel       Jameel Prize winners and shortlists, editions 2-5 (V&A article pages;
+                     editions 1, 6 and 7 have no parseable V&A page).
   prize_<name>       Prize winners (and shortlists where the page has them) from English
                      Wikipedia: Turner, Hugo Boss, Praemium Imperiale (painting and
                      sculpture only), Marcel Duchamp, Venice Golden/Silver Lions, Future
@@ -315,7 +318,7 @@ def artreview_power100(editions):
     rows = []
     for (ed, place), (title, cat, path) in sorted(entries.items(), key=lambda kv: (kv[0][0], kv[0][1] or 0)):
         rows.append(row("artreview_power100", ed, title, rank=place or "",
-                        is_artist=1 if cat == "Artist" else 0, role="ranked", note=cat,
+                        is_artist=1 if cat.startswith("Artist") else 0, role="ranked", note=cat,
                         src=f"https://artreview.com{path}"))
     return rows
 
@@ -466,9 +469,11 @@ EFLUX = [
     ("sharjah_biennial", "SB17 (2027)", "https://www.e-flux.com/announcements/6787370/sharjah-biennial-17-framework-and-participants",
      "sep", "List of participants", "About the curators"),
     ("istanbul_biennial", "18th (2025-2027), first leg", "https://www.e-flux.com/announcements/6784139/18th-istanbul-biennialthe-three-legged-cat",
-     "bold", "Participating artists in the first leg", "list of participants in the public program"),
+     "bold", "Participating artists in the first leg of the biennial<br></strong>", "list of participants in the public program"),
     ("kochi_muziris_biennale", "6th (2025)", "https://www.e-flux.com/announcements/6784510/participating-artists",
      "sep", "Participating artists of the Sixth Edition of Kochi-Muziris Biennale", "</p>"),
+    ("gwangju_biennale", "15th (2024)", "https://www.e-flux.com/announcements/595141/artist-list-for-15th-edition",
+     "sep", "Participating artists:</strong>", "</p>"),
     ("gwangju_biennale", "16th (2026)", "https://www.e-flux.com/announcements/6787431/16th-gwangju-biennaleyou-must-change-your-life",
      "sep", "Participating artists", "</p>"),
 ]
@@ -502,6 +507,7 @@ def eflux_names(body, mode, start, end):
     if end and end in body:
         body = body[:body.index(end)]
     if mode == "bold":
+        body = re.sub(r"</(strong|b)>(?:\s|&nbsp;)*<\1>", " ", body)
         runs = [strip_html(r) for r in re.findall(r"(?s)<(?:strong|b)>(.*?)</(?:strong|b)>", body)]
         items = [x for r in runs if not re.search(r"(?i)curated by|:", r) for x in split_outside_parens(r)]
     else:
@@ -661,7 +667,36 @@ def prize_prince_claus():
     return rows
 
 
-PRIZES = [prize_turner, prize_hugo_boss, prize_praemium, prize_duchamp, prize_venice_lions,
+JAMEEL_PAGES = {  # V&A article per edition (English Wikipedia has no Jameel Prize article)
+    "2009": "jameel-prize-2009", "2011": "jameel-prize-2011", "2013": "jameel-prize-3",
+    "2016": "jameel-prize-4", "2018": "jameel-prize-5",
+}
+
+
+def prize_jameel():
+    rows = []
+    for ed, slug in JAMEEL_PAGES.items():
+        url = f"https://www.vam.ac.uk/articles/{slug}"
+        try:
+            text = strip_html(fetch(url))
+        except (urllib.error.HTTPError, Blocked) as e:
+            print(f"  jameel {ed}: {e}", file=sys.stderr)
+            continue
+        for w in re.findall(r"([^\n]+?) – WINNERS? OF THE JAMEEL PRIZE", text):
+            rows.append(row("prize_jameel", ed, w.strip().title() if w.strip().isupper() else w, is_artist=1,
+                            role="winner", note="name upper-cased at source", src=url))
+        lines = [l.strip() for l in text.split("\n") if l.strip()]
+        k = next((i for i, l in enumerate(lines) if "SHORTLIST" in l.upper() and len(l) < 80), None)
+        if k is None:
+            continue
+        # each shortlisted name is a heading followed by a paragraph that starts with the name
+        for i in range(k + 1, len(lines) - 1):
+            if len(lines[i].split()) <= 7 and lines[i + 1].startswith(lines[i]) and lines[i] != lines[i + 1]:
+                rows.append(row("prize_jameel", ed, lines[i], is_artist=1, role="shortlisted", src=url))
+    return dedupe(rows)
+
+
+PRIZES = [prize_jameel, prize_turner, prize_hugo_boss, prize_praemium, prize_duchamp, prize_venice_lions,
           prize_future_generation, prize_prince_claus]
 
 
