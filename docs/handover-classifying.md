@@ -43,11 +43,11 @@ All commands are `python3 pipelines/<path>`. Expect a day or more in total, with
 | | Architecture styles | candidate pool; cutoff rule decided (sitelinks ≥5 OR ≥3 heritage buildings OR any UNESCO) → 894 + 146 non-Western | §2.3 |
 | Film & TV | Asian drama | **FINAL SELECTION** (`asian_drama_selected.csv`) | 5,268 |
 | | Unscripted formats | **FINAL SELECTION** (`unscripted_formats.csv`, `kind = unscripted`) | 211 formats (+254 scripted remake families) |
-| | Film | **RULES DECIDED, SELECTION NOT MATERIALISED** | ~19k expected |
-| | Scripted TV | **RULES DECIDED, SELECTION NOT MATERIALISED** | ~7,100 expected |
-| | Anime | **RULES DECIDED, SELECTION NOT MATERIALISED** | ~5,500 expected |
+| | Film | **FINAL SELECTION** (`film_selected.csv`, `pipelines/film/select.py`) | 18,365 |
+| | Scripted TV | **FINAL SELECTION** (`tv_selected.csv`, `pipelines/tv/select.py`) | 7,134 |
+| | Anime | **FINAL SELECTION** (`anime_selected.csv`, `pipelines/anime/select.py`) | 5,511 |
 
-**First task for classifying:** write a small `select` step for film, scripted TV and anime that applies sourcing-plan §8 to the files listed in §3. The counts quoted there were measured ad hoc and no script writes them out. For the visual-art tradition pools, apply the §2.3 inclusion rule as part of seeding leaves.
+**Done (2026-10-28):** film, scripted TV and anime now have `select.py` steps that apply sourcing-plan §8 to the files in §3 and write `film_selected.csv`, `tv_selected.csv` and `anime_selected.csv` (each with a `reasons` column; see §3 and sourcing-plan §8 for the measured counts). **First task for classifying:** for the visual-art tradition pools, apply the §2.3 inclusion rule as part of seeding leaves.
 
 ## 2. Visual Art inputs
 
@@ -135,6 +135,9 @@ Caveats: 55 curated nodes have no museum evidence (Gond, Saura and Pithora paint
 | `tv_routed.csv` | 43,676 | series routed to a database | **database** (scripted_tv 32,520, unscripted 4,249, asian_drama 3,768, anime 3,139), **serial_tradition** (1,102) | scripted ≥2,500 IMDb votes = 6,342; +5% regional top-up (+502); +award winners (+296) |
 | `tv_awards.csv` | 5,533 | award row | won, tconst, qid, match | ~460 winners without IMDb ID (Chinese/Taiwanese/older Korean) |
 | `anime_candidates.csv` / `anime_popularity.csv` | 38,270 | anime-offline-database entry / MAL + AniList popularity | mal_members, type, year, genres, top_tags, country_of_origin | MAL ≥25k = 5,167; + pre-2000 top 20% per decade (+271); donghua MAL ≥10k (146) |
+| `film_selected.csv` | 18,365 | **final film** | key (tconst; tmdb:ID for extra films with no IMDb ID, none selected), countries (regional-rule countries, P495 first), letterboxd_votes, letterboxd_estimate, **reasons** (letterboxd 15,155 · canon 3,839 · topup 6,236 · gap 32), canon_lists, note | 389 canon-only films carry only title and year; *Man* (2012) has a hand-check note; 28 manual-review gap films are not selected |
+| `tv_selected.csv` | 7,134 | **final scripted series** | tconst, country, start_year, imdb_votes, serial_tradition (212), **reasons** (imdb 6,342 · topup 1,896 · award 778), awards (wins), nominations (signal only) | |
+| `anime_selected.csv` | 5,511 | **final anime** | mal_id, anilist_id, type, year, country, mal_members, is_adult (101), **reasons** (mal 5,167 · decade 559 · country 146) | |
 | `asian_drama_selected.csv` | 5,268 | **final drama** | mdl_id, country, year, watchers, reasons, awards | KR 1,614 · JP 1,465 · CN 1,135 · TH 545 · TW 230 · PH 148 · HK 127 · SG 4 |
 | `asian_unscripted_mdl.csv` | 212 | MDL variety show | | goes to unscripted, not drama |
 | `asian_drama_mdl.csv`, `_mdl_pools.csv`, `_candidates.csv`, `_awards.csv` | 5,000 / 3,967 / 4,589 / 1,364 | ranking / top-up pools / IMDb–Wikidata cross-reference / award rows | | evidence |
