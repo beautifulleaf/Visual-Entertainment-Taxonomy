@@ -1,0 +1,224 @@
+pool_id,disposition,note
+islamic_makers:Mukunda,alias:A1-4/Mukund,Akbar-period painter; Mukund in makers_1
+islamic_makers:Dharmadas,alias:A1-4/Dharmdas,Akbar-period painter; Dharmdas/Dharam Das in makers_1
+islamic_makers:Muhammad Husain Kashmiri,alias:C1-4/Muhammad Husain Zarin Qalam,"Akbar's nasta'liq calligrapher, not a painter"
+islamic_makers:Calligraphy attributed to Muhammad Husayn al-Kashmiri (“Zarin Qalam”),alias:C1-4/Muhammad Husain Zarin Qalam,attribution phrase; same calligrapher
+islamic_makers:Signed “the work of Dawlat Khan”,alias:A1-4/Daulat,attribution phrase; Daulat in makers_1; uncertain identity
+islamic_makers:ascribed to Hiranand,kind:A1-4/Imperial Mughal atelier,cleaned name Hiranand; Akbar-period painter
+islamic_makers:Signed “The insignificant palace-born Manohar”,alias:A1-4/Manohar,signature phrase; Manohar in makers_1
+islamic_makers:Signed by Balchand,alias:A1-4/Balchand,signature phrase; Balchand in makers_1
+islamic_makers:Nadir al-Zaman,alias:A1-4/Abu'l Hasan,Nadir al-Zaman is Abu'l Hasan's title
+islamic_makers:Attributed to Bhawani Das,kind:A1-4/Imperial Mughal atelier,cleaned name Bhawani Das; late Mughal painter; uncertain
+islamic_makers:Safi b. Vali (author),exclude:author of the text,"author of Anis al-Hujjaj, not the painter"
+islamic_makers:Ahmad ibn Ali al-Sharfi,kind:G1-8,Nasrid astrolabe maker
+islamic_makers:Édition Soubhi S. et Munir Aïta,exclude:publisher,postcard publisher
+islamic_makers:Published by Lucien Levy & Sons (1895-1919),exclude:publisher,postcard publisher (Lévy & Fils)
+islamic_makers:Ahmad bin Hasan Qalib-i Fani,route:I1 Woodwork (no fitting leaf),Qur'an cabinet maker; uncertain
+islamic_makers:Hajj Sanqur,kind:G2-1,Ottoman swordsmith
+islamic_makers:Asadullah Kirmani,kind:C1-3,"Esedullah Kirmani, Mehmed II-era calligrapher; uncertain"
+"islamic_makers:Sheikh Hamdullah (Hamd Allah, AH 840?–926? / AD 1437?–1520?)",alias:C1-3/Sheikh Hamdullah,Ottoman six-pens master; also in makers_3
+islamic_makers:'Abd al-Gani painted the binding as well as folios 1b-2a and fol. 18a,kind:C2-2,cleaned name 'Abd al-Gani; illumination and painted binding
+islamic_makers:The calligrapher was Ahmed Karahisari (AH 875–963 / AD 1470–1556),kind:C1-3,cleaned name Ahmed Karahisari; Ottoman six-pens master
+islamic_makers:Abraham of Kütahya,kind:E2-7,Iznik blue-and-white potter (Abraham of Kütahya ewer)
+islamic_makers:Sayyid Thabit,kind:G1-8,maker of qibla-finding instrument
+islamic_makers:Ibn Hadj-la-B’lade,route:I1 Woodwork (no fitting leaf),Algerian table maker; uncertain
+islamic_makers:Musli,kind:E2-7,signer of Iznik Dome of the Rock lamp
+islamic_makers:Sayyid Loqman Aşuri,exclude:author of the text,"Seyyid Lokman, court historian and author"
+"islamic_makers:al-Sayyid Lutfi, Molla Kasım (Mulla Qasim)",exclude:combined credit of two names,split Lutfi and Molla Kasım before placing
+islamic_makers:The kaftan has on the front the name ‘Muhammad’ who may have been a court artisan and the maker of this garment,exclude:catalogue placeholder,"descriptive note, vague name 'Muhammad'"
+islamic_makers:Mustafa,kind:A1-3/Ottoman court nakkaşhane,Surname-i Hümayun painter; generic name; uncertain
+islamic_makers:Feramruz?,kind:A1-3/Ottoman court nakkaşhane,Surname-i Hümayun painter; uncertain
+islamic_makers:Ali,kind:A1-3/Ottoman court nakkaşhane,Surname-i Hümayun painter; generic name; uncertain
+islamic_makers:Abdurrahman. Bookbinders: Abdi Şaban,exclude:combined credit field,mixes Abdurrahman with binder Abdi Şaban; split
+islamic_makers:Mehmet Haydar,kind:A1-3/Ottoman court nakkaşhane,Surname-i Hümayun painter; uncertain
+islamic_makers:Kara Mehmed,kind:A1-3/Ottoman court nakkaşhane,"Kara Mehmed Çelebi, nakkaşhane painter"
+islamic_makers:Recep Abdullah,kind:A1-3/Ottoman court nakkaşhane,Surname-i Hümayun painter; uncertain
+"islamic_makers:Ottoman Court manufactory, Cairo",exclude:workshop label,Cairo carpet manufactory label adds nothing
+islamic_makers:Halab Shah ibn Isa,route:Syrian painted woodwork ('ajami; no leaf),painter of the Aleppo Room panelling
+islamic_makers:Al-fakir Süleyman,kind:A1-3/Ottoman court nakkaşhane,painter of Ahmed I portrait; uncertain
+islamic_makers:Sedefkâr (‘mother-of-pearl master’) Mehmed Agha (died 1st quarter of the 11th / 17th century),kind:K1-12,cleaned name Sedefkâr Mehmed Agha; see-also I1-3
+islamic_makers:Sayyid Süleyman Kasım Pasha,kind:C1-3,scribe of Siyer-i Nebi; uncertain
+islamic_makers:Mehmed bin Abdurrahman (Muhammad bin ‘Abd al-Rahman),kind:C3-1,Ottoman bookbinder
+islamic_makers:Hüseyin al-Istanbuli,kind:A1-3/Ottoman court nakkaşhane,genealogy scroll; role unclear; uncertain
+islamic_makers:Ibrahim Babirbarzadeh,kind:C1-3,scribe of prayer book; uncertain
+"islamic_makers:The craftsman may have been the Tunisian, al-Hajj Mas’ud al-Sab’a",route:E1 Tunisian Qallaline tiles (no leaf),attribution tentative; uncertain
+islamic_makers:Barun al-Muhtari,kind:G1-8,qiblanuma instrument maker
+islamic_makers:The case only made by Ali Üsküdari,kind:C2-2,"cleaned name Ali Üsküdari; Ottoman illuminator, lacquer case"
+"islamic_makers:Kaptan-ı Derya (Grand Admiral) Karabağlı Süleyman Pasha, court tuğra artist (dates of service: AH 1168–71 / AD 1754–57)",kind:C1-5,court tuğra artist
+islamic_makers:Selanik (Thessaloniki) Printing House,exclude:institution,printing house
+islamic_makers:Mustafa Ali Effendi,kind:E2-11,tile maker; Kütahya attribution uncertain
+islamic_makers:Kazasker Mustafa Izzet Efendi,kind:C1-3,"Kazasker Mustafa Izzet, Ottoman calligrapher"
+"islamic_makers:Mehmet Salih Efendi, Mustafa Rashid Efendi",exclude:combined credit of two names,two calligraphers in one field; split
+islamic_makers:Es-Seyyid Ömer er-Recai (al-Sayyid ‘Umar al-Rija’i),route:Ottoman lacquer (no leaf),writing-box maker; role uncertain
+islamic_makers:Written by ‘Abdallah Zuhdi,kind:C1-3,"Abdullah Zühdi, thuluth calligrapher"
+islamic_makers:Signed,exclude:catalogue placeholder,bare 'Signed'
+"islamic_makers:Signed ""Thos. Black, Sgt R.E"". In pencil, beneath, ""Corpl. Brophy's work""",exclude:survey draughtsmen,Royal Engineers survey map signature
+islamic_makers:Photochrom/Photoglob Co. Zurich,exclude:company,photochrom publisher
+islamic_makers:Photochrome/Photoglob Co. Zurich,exclude:company,photochrom publisher; duplicate spelling
+islamic_makers:Maison Bonfils (Beirut),route:VA-J Photography,Bonfils studio; duplicate of Bonfils
+"islamic_makers:Maison Bonfils, Beirut",route:VA-J Photography,Bonfils studio; duplicate of Bonfils
+islamic_makers:Supplement au 'Genie Civil',exclude:publication,periodical supplement
+"islamic_makers:American Colony Photographic Service, AH 1316-1329 / AD 1898-1911",route:VA-J Photography,American Colony photographers; duplicate below
+"islamic_makers:American Colony Photographic Service, Jerusalem",route:VA-J Photography,American Colony photographers; duplicate above
+islamic_makers:J.H. Halladjian,route:VA-J Photography,Hijaz railway photographer; uncertain
+islamic_makers:Subhi,route:VA-J Photography,Hijaz railway photograph/postcard; uncertain
+"islamic_makers:Published by Société Lumière — Lyon,  owned by Antoine Lumière and his son Auguste",exclude:company,Lumière publishing company
+islamic_makers:Louis,exclude:catalogue placeholder,"bare first name, unidentifiable"
+islamic_makers:S. Fielding & Co,route:Europe,Staffordshire pottery company
+islamic_makers:AP Newsfeatures,exclude:company,news agency
+islamic_makers:Issued by Österreichischer Lloyd in collaboration with the Hijaz Railway,exclude:company,shipping company advertisement
+islamic_makers:Mirza Aqa,kind:A5-1,Qajar portrait painter; uncertain
+islamic_makers:The forging is attributed to As'ad Allah,alias:G2-1/Assadullah of Isfahan,legendary Safavid swordsmith; variants in makers_1/3
+islamic_makers:Attributed to Habiballah,alias:A1-2/Habiballah of Sava,attribution phrase; same painter
+"islamic_makers:Attributed to Sultan Muhammad, Mir Sayyid ‘Ali, Mir Musavvir, Aqa Mirak",exclude:multi-artist attribution,four Tabriz masters in one field
+islamic_makers:Attributed to Safavid master Sultan Muhammad,alias:A1-2/Sultan Muhammad,attribution phrase; Sultan Muhammad in makers_1
+islamic_makers:Shaikh Zada,alias:A1-2/Shaykhzada,Herat/Bukhara painter; Sheikhzadeh in makers_3
+"islamic_makers:Maqsud Kashani, whose signature is woven into the carpet, but his exact role is debated",kind:H1-1,Ardabil carpet signatory; role debated
+islamic_makers:Attributed to Dust Muhammad,alias:A1-2/Dust Muhammad,attribution phrase; Dust Muhammad in makers_3
+islamic_makers:Attributed to Vali Jan,kind:A1-3/Ottoman court nakkaşhane,cleaned name Vali Jan; Persian émigré; see-also B1-1
+islamic_makers:Shiraz,exclude:place,city name
+islamic_makers:Attributed to Siyavusah,alias:A1-2/Siyavush,attribution phrase; same Qazvin painter
+islamic_makers:Siyavush,kind:A1-2/Qazvin school,"Siyavush the Georgian, Qazvin court painter"
+islamic_makers:Habiballah of Sava,kind:A1-2/Isfahan school,painter for Shah Abbas c.1600
+islamic_makers:Black square potter’s mark on base,exclude:catalogue placeholder,"potter's mark, no name"
+islamic_makers:Afzal Al-Husayni,kind:A1-2/Isfahan school,canonical; Afzal al-husaini in makers_3
+islamic_makers:Shaykh ʿAbbasi,kind:A1-2/Isfahan school,"Isfahan painter, Indian-influenced style"
+islamic_makers:Muhammad Zaman al-Munajjim al-Asturlabi,kind:G1-8,"Muhammad Zaman of Mashhad, astrolabe/globe maker"
+islamic_makers:copied by Mir ‘Abdallah Mir Ja‘far al-Husayni al-Tabrizi,kind:C1-3,cleaned name; scribe of scientific text; script uncertain
+islamic_makers:Attributed to Mo‘in Mosavvir,alias:A1-2/Mu'in Musavvir,attribution phrase; same painter
+"islamic_makers:Attributed to Muhammad Qasim, died Hegira 1070 / AD 1659/60 (miniature)",alias:A1-2/Muhammad Qasim,attribution phrase; same painter
+"islamic_makers:attributed to Razi Taliqani (border). Muhammad Qasim, active Hegira 1036-1070 / AD 1627-1659/60",exclude:combined credit field,merges Razi Taliqani and Muhammad Qasim
+"islamic_makers:Razi Taliqani, active Hegira before 1295-after 1327 / AD before 1878-after 1908/09",kind:C2-2,Qajar border painter (illumination); uncertain
+islamic_makers:Muʿin Musavvir,kind:A1-2/Isfahan school,canonical; Muin Musavvir in makers_3
+islamic_makers:Muhammad Yusuf ibn Muhammad Zaman,kind:I2-1,Safavid lacquer pen-box painter
+islamic_makers:The work of ‘Abd al-Wahid ibn Sulayman (as stated on the interlocking ‘teeth’ of the Qur’an stand),route:I1 Woodwork (no fitting leaf),Seljuq Qur'an stand carver
+islamic_makers:Islamicised workers from Sicily or southern Italy,exclude:workshop label,generic Siculo-Arabic workers
+islamic_makers:Siculo-Arabic artist,exclude:workshop label,generic Siculo-Arabic artist
+islamic_makers:Islamicised Sicilian workers,exclude:workshop label,generic Sicilian workers
+islamic_makers:Al-Andalus,exclude:place,region name
+islamic_makers:‘Abd al-Rahman bin Zaywan,alias:D2-1/'Abd al-Rahman ibn Zayyan,Palencia ivory chest; spelling variant
+islamic_makers:Ibrahim ibn Said al-Sahali,kind:G1-8,Toledo/Valencia astrolabe maker
+islamic_makers:`Abd al-Rahman al-Sufi,exclude:author of the text,astronomer-author of Book of Fixed Stars
+islamic_makers:Shahmardan b. Abi al-Khayr Razi,exclude:author of the text,author of the Nuzhatnama
+islamic_makers:Abu Ali Al-Husayn Ibn Sina,exclude:author of the text,author of the Canon
+islamic_makers:Abu Ja`far,exclude:role unclear,name on flask; medium and role unknown; uncertain
+"islamic_makers:Visigod (Al-Andalus), probably cordovan workshops",exclude:workshop label,generic Cordovan workshops
+islamic_makers:Fath,route:D1 Caliphal stone carving (no leaf),Madinat al-Zahra capital carver; uncertain
+islamic_makers:Muhammad ibn al-Saffar,kind:G1-8,Córdoba astrolabe maker
+islamic_makers:Master ‘Iyas of Mosul,kind:G1-2,Mosul inlaid brass ewer maker
+"islamic_makers:‘Ali ibn ‘Abdallah al-‘Alawi, al-naqqash al-Mawsili (the engraver of Mosul)",kind:G1-2,al-Mawsili engraver
+islamic_makers:'Ali ibn Ahmad al-Warraq,kind:C1-1,"Nurse's Qur'an calligrapher-illuminator, Kairouan"
+"islamic_makers:Trilles y Badenes, Jose (Sr)",route:Europe,19th-c. Spanish cast maker
+islamic_makers:Ali Reza,alias:A1-5/Ali Riza,Bijapur 'Bodleian Painter'; in makers_1
+islamic_makers:G. Sarolides,route:VA-J Photography,photographer
+"islamic_makers:Bechard, H",route:VA-J Photography,"Henri Béchard, photographer"
+islamic_makers:Zangaki,route:VA-J Photography,Zangaki brothers; see makers_1 variants
+islamic_makers:Bonfils,route:VA-J Photography,Bonfils studio canonical
+islamic_makers:Bullen Sergeant,route:Europe,Royal Engineers reproduction cast maker
+islamic_makers:V&A,exclude:institution,museum
+islamic_makers:K.A.C. Creswell,route:VA-J Photography,architectural historian's photographs
+"islamic_makers:Naqqash, Husain",kind:A1-4/Imperial Mughal atelier,Akbarnama painter Husain Naqqash
+islamic_makers:Chitra,kind:A1-4/Imperial Mughal atelier,Akbarnama painter
+islamic_makers:Ibrahim Kahar,kind:A1-4/Imperial Mughal atelier,Akbarnama painter
+islamic_makers:Babu Naqqash,kind:A1-4/Imperial Mughal atelier,Akbarnama painter
+islamic_makers:Farrukh (Beg),alias:A1-4/Farrukh Beg,same painter as Farrukh Beg
+islamic_makers:Dhanun,kind:A1-4/Imperial Mughal atelier,Akbarnama painter
+islamic_makers:Mani,kind:A1-4/Imperial Mughal atelier,Akbarnama painter
+islamic_makers:Bhawani Kalan,kind:A1-4/Imperial Mughal atelier,distinct from Bhawani (makers_1)
+islamic_makers:Jagannath,kind:A1-4/Imperial Mughal atelier,Akbarnama painter
+islamic_makers:Hari,kind:A1-4/Imperial Mughal atelier,Akbarnama painter
+islamic_makers:Khem,kind:A1-4/Imperial Mughal atelier,possibly short form of Khem Karan; uncertain
+islamic_makers:Mah Muhammad,kind:A1-4/Imperial Mughal atelier,Akbarnama painter
+islamic_makers:Nandi,kind:A1-4/Imperial Mughal atelier,distinct from Nand Gwaliari?; uncertain
+islamic_makers:Mukhlis,kind:A1-4/Imperial Mughal atelier,Akbarnama painter
+islamic_makers:Premjiv,kind:A1-4/Imperial Mughal atelier,Akbarnama painter
+islamic_makers:Qabu,kind:A1-4/Imperial Mughal atelier,Akbarnama painter
+islamic_makers:Tiriyya,kind:A1-4/Imperial Mughal atelier,Akbarnama painter
+islamic_makers:Bandi,kind:A1-4/Imperial Mughal atelier,Akbarnama painter
+islamic_makers:Husain Ali,kind:A1-4/Imperial Mughal atelier,Razmnama painter
+islamic_makers:Banwari the Younger,alias:A1-4/Banwari Khurd,Banwali Khord in makers_1
+islamic_makers:Nini,kind:A1-4/Imperial Mughal atelier,Jahangir-period painter after European prints
+islamic_makers:'Ali al-Husaini,kind:A1-4/Imperial Mughal atelier,"role unclear, maybe calligrapher; uncertain"
+islamic_makers:Sahifa Banu,kind:A1-4/Imperial Mughal atelier,woman painter of Jahangir's atelier
+islamic_makers:Sultan 'Ali al-Mashhadi,alias:C1-4/Sultan 'Ali Mashhadi,Timurid nasta'liq master on Mughal album
+islamic_makers:Farrokh Beg,alias:A1-4/Farrukh Beg,spelling variant
+islamic_makers:Abd ur-Rahim Ambarin Qalam,alias:C1-4/'Abd al-Rahim 'Anbarin Qalam,Akbar's nasta'liq calligrapher; makers_1 variant
+islamic_makers:Inayat,kind:A1-4/Imperial Mughal atelier,Jahangir-period painter
+islamic_makers:Farrukh Beg,kind:A1-4/Imperial Mughal atelier,"canonical; Kabul/Bijapur too, see-also A1-5"
+islamic_makers:Sa'ida-ye Gilani,kind:D3-2,"Jahangir's jade cup maker, court goldsmith"
+islamic_makers:Shiv Das,kind:A1-4/Imperial Mughal atelier,Jahangir/Shah Jahan portraitist
+islamic_makers:Muhammad Husain Zarin Qalam,kind:C1-4,"canonical for Zarin Qalam, nasta'liq calligrapher"
+islamic_makers:Muhammad Abed,kind:A1-4/Imperial Mughal atelier,"Muhammad 'Abid, Shah Jahan portraitist"
+islamic_makers:Prince Dara Shokuh,exclude:patron,Dara Shikoh album patron
+islamic_makers:Lalchand,kind:A1-4/Imperial Mughal atelier,"canonical; Lal Chand, La'lchand variants elsewhere"
+islamic_makers:Ziya al-Din,kind:G1-8,Lahore celestial globe maker
+islamic_makers:Ghulaman,kind:A1-4/Imperial Mughal atelier,Aurangzeb-period portraitist
+islamic_makers:Masud,kind:A1-4/Imperial Mughal atelier,late Mughal draughtsman; uncertain
+islamic_makers:Madhu,kind:A1-4/Imperial Mughal atelier,late Mughal painter; distinct from Madhav; uncertain
+islamic_makers:Muhammad Panah,kind:A1-4/Imperial Mughal atelier,late Mughal painter; uncertain
+islamic_makers:Fateh Chand,kind:A1-4/Lucknow (Awadh),Awadh painter
+islamic_makers:Mihr Chand,kind:A1-4/Lucknow (Awadh),Faizabad/Lucknow painter
+islamic_makers:Muhammad Husseyn (Hajji),kind:A1-4/Lucknow (Awadh),provincial Mughal painter; uncertain
+islamic_makers:Hedayat-Ullah,kind:A1-4/Lucknow (Awadh),provincial Mughal painter; uncertain
+"islamic_makers:Phillips, Robert",route:Europe,London silversmith
+"islamic_makers:Tagore, Abanindranath",route:modern,Bengal School founder
+islamic_makers:Naksi of Edirne,route:Ottoman lacquer (Edirnekâri; no leaf),Edirne lacquer writing-box maker
+"islamic_makers:Ashraf, Ali",alias:I2-1/Muhammad 'Ali Ashraf,in makers_1; Zand lacquer painter
+islamic_makers:Abdullah Khan,kind:A5-1,Qajar court portraitist
+islamic_makers:Haji Muhammad,kind:G1-7,"steel crutch, likely damascened; uncertain"
+islamic_makers:Muhammad Ibrahim,route:Qajar enamel/metal (no leaf),pipe-head maker; medium uncertain
+"islamic_makers:al-Husayni, Ahmad",kind:G2-1,Qajar dagger maker; not Lucknow Ahmad al-Husaini
+islamic_makers:Ali Akbar Shirazi,kind:E2-12,Qajar bowl; medium uncertain
+"islamic_makers:Isfahani, Muhammad Isma'il",kind:I2-1,Qajar lacquer painter
+islamic_makers:Isma'il Jalayir,kind:A5-1,Qajar painter
+"islamic_makers:Nasr, Muhammad",kind:E2-12,Qajar potter
+islamic_makers:Muhammad ibn Yusuf,kind:E2-12,Qajar plate; medium uncertain
+islamic_makers:Mirak Husayn Yazdi,route:G1 Safavid metalwork (no leaf),Safavid brass inkwell maker
+islamic_makers:Qutb al-Din Muhammad ibn Abdallah,route:G1 Safavid metalwork (no leaf),Safavid brass jug maker
+islamic_makers:Mirak Husayn,alias:G1 Safavid metalwork/Mirak Husayn Yazdi,short form of Mirak Husayn Yazdi
+"islamic_makers:Zaman, Muhammad",alias:G1-8/Muhammad Zaman al-Munajjim al-Asturlabi,same Mashhad globe maker
+"islamic_makers:Isfahani, Muhammad Khalil",kind:G1-8,Isfahan astrolabe maker
+"islamic_makers:Yazdi, Muhammad Mahdi",kind:G1-8,astrolabe engraver
+islamic_makers:Abd al-A'immah,kind:G1-8,Isfahan astrolabe maker
+islamic_makers:'Abd al-Rahman ibn Zayyan,kind:D2-1,Palencia ivory chest; canonical
+islamic_makers:Habiballah ibn 'Ali Baharjani,route:G1 Timurid metalwork (no leaf),Herat brass jug maker
+islamic_makers:Sofia Karim,route:modern,contemporary artist
+islamic_makers:James William Wild,route:Europe,British architect-draughtsman
+"islamic_makers:Carpenter, William",route:Europe,British watercolourist in India
+"islamic_makers:Kennard, Peter",route:Europe,British contemporary artist
+"islamic_makers:Picton Phillipps, Cat",route:Europe,British contemporary artist
+islamic_makers:Mazhar Ali Khan,kind:A1-6,Delhi Company painter
+islamic_makers:Henry Aston Barker,route:Europe,British panorama painter
+islamic_makers:Charles Tomkins,route:Europe,British etcher
+islamic_makers:Frederick Christian Lewis,route:Europe,British aquatinter
+islamic_makers:George Robert Lewis,route:Europe,British aquatinter
+islamic_makers:Lutf 'Ali Khan,kind:A5-1,"Lutf 'Ali Khan Shirazi, Qajar painter"
+islamic_makers:Charles William Cain,route:Europe,British painter
+islamic_makers:Martello Press in Association with Henry Peacock and Gimpel Fils,exclude:publisher,publisher
+islamic_makers:San Grafik,exclude:company,printer
+"islamic_makers:Mohassess, Bahman",route:modern,Iranian modern artist
+"islamic_makers:Akbari, Abbas",route:modern,contemporary tile maker
+islamic_makers:Ali ibn Muhammad ibn Abi Tahir,kind:E2-2,Abu Tahir family lustre potter
+islamic_makers:Faiz Ali Khan,kind:A1-6,Delhi Company painter
+islamic_makers:Helen Messinger Murdoch,route:VA-J Photography,autochrome photographer
+"islamic_makers:Cunynghame, Henry Hardinge (Sir)",route:Europe,British etcher
+islamic_makers:zina guessous,route:modern,Moroccan fashion designer
+islamic_makers:Pascal Hachem,route:modern,contemporary Lebanese designer
+islamic_makers:Rana Haddad,route:modern,contemporary Lebanese designer
+islamic_makers:200 Grs.,exclude:studio label,studio of Hachem and Haddad
+"islamic_makers:Vanmour, Jean-Baptiste",route:Europe,Flemish-French painter in Istanbul
+islamic_makers:Léon Parvillée,route:Europe,French architect-decorator
+islamic_makers:Eser-i Istanbul,exclude:mark,'work of Istanbul' factory mark
+"islamic_makers:George, Frederick",route:Europe,British draughtsman
+islamic_makers:Zhor Sebti,route:modern,Moroccan fashion designer
+islamic_makers:Ayse ege,route:modern,Dice Kayek co-founder
+islamic_makers:ece ege,route:modern,Dice Kayek co-founder
+islamic_makers:Dice Kayek,exclude:company,fashion label of Ayşe and Ece Ege
+islamic_makers:Farnaz Rabieijah,route:modern,contemporary Iranian artist
+islamic_makers:Afruz Amighi,route:modern,contemporary Iranian-American artist
+islamic_makers:Lalla Essaydi,route:modern,contemporary Moroccan photographer-artist
+islamic_makers:Muhammad Qasim,kind:A1-2/Isfahan school,canonical; also in makers_3
+islamic_makers:Lotf 'Ali,kind:G2-1,steel chiseller of axes
+"islamic_makers:Cominazzo, Lazarino",route:Europe,Italian gunmaker
+"islamic_makers:Borra, Giovanni Battista",route:Europe,Italian draughtsman
+"islamic_makers:Khan, Ghulam Ali",kind:A1-6,Delhi Company painter

@@ -1,0 +1,223 @@
+pool_id,disposition,note
+islamic_makers:Selina Bracebridge,route:European Orientalist art,British amateur topographical artist
+islamic_makers:Haghe,route:European prints,"Louis Haghe, Belgian-British lithographer"
+"islamic_makers:Hodgson, John Evan RA",route:European Orientalist art,"British painter-etcher, Tunisian subjects"
+islamic_makers:A. M. Shorose,exclude:not an artist,correspondent in C.R. Smith carpet archive
+islamic_makers:The Persian Carpet Manufacturing Company Ld.,"exclude:commercial firm, archive correspondent","letters in C.R. Smith archive, not artworks"
+"islamic_makers:Beaton, Cecil (Sir)",route:European theatre design,British photographer and costume/set designer
+"islamic_makers:Ertel, Mengu",route:modern,Turkish 20th-century theatre designer
+"islamic_makers:Ucansu, Leyla",route:modern,Turkish 20th-century theatre designer
+"islamic_makers:Balian, Setrag",route:Armenian ceramics (Jerusalem),"Jerusalem Armenian pottery, 1980s; Kütahya-derived; uncertain"
+"islamic_makers:Balian, Marie",route:Armenian ceramics (Jerusalem),"decorator, Jerusalem Armenian pottery, 1980s"
+"islamic_makers:Berndorfer, Tom (Architect)",route:modern,"contemporary architect, 2009 prototype"
+"islamic_makers:Gallagher, David",route:modern,"contemporary architect, 2009 prototype"
+islamic_makers:DGA Architects,route:modern,contemporary architecture firm
+"islamic_makers:Hemami, Taraneh",route:modern,contemporary Iranian-American artist
+"islamic_makers:Said, Ibrahim (Mr)",route:modern,contemporary Egyptian ceramicist
+islamic_makers:Rabih Kayrouz,route:modern,contemporary Lebanese fashion designer
+islamic_makers:Nathalie Khayat,route:modern,contemporary Lebanese ceramicist
+islamic_makers:Parvaneh Etemadi,route:modern,contemporary Iranian artist
+islamic_makers:Najla el Zein,route:modern,contemporary Lebanese designer
+islamic_makers:Nour Hage,route:modern,contemporary Lebanese fashion designer
+islamic_makers:Hala Kaiksow,route:modern,contemporary Bahraini fashion designer
+islamic_makers:Hassan Massoudy,route:modern,contemporary Iraqi-French calligrapher
+islamic_makers:Jalal ad-Din Muhammad Rumi,"exclude:poet, author of quoted text",Rumi credited as text author
+islamic_makers:Talib bin Mushmil al-Manahi,route:D1 unplaced (Omani stucco mihrabs),"Omani carved stucco mihrab, no matching leaf; uncertain"
+islamic_makers:Asadallah al-Isfahani,alias:G2-1/Assadullah of Isfahan,Safavid swordsmith; dup of makers_1 row
+islamic_makers:Jalāl al-Dīn Rūmī,"exclude:poet, author of text","Masnavi author, not the manuscript's maker"
+"islamic_makers:Spiers, Richard Phené",exclude:collector,role collector only
+islamic_makers:Shahed Saleem,route:modern,contemporary British architect
+"islamic_makers:Sebah, Jean",route:J Photography,photographer of monuments
+"islamic_makers:Dillon, Frank",route:European Orientalist art,British painter of Cairo interiors
+islamic_makers:Rupen Manas,kind:A1-3,Armenian painter at Ottoman court; uncertain
+"islamic_makers:of Gabala, Severian",exclude:author,"Byzantine church father, Coptic text"
+islamic_makers:Hassan b. Arabshah,kind:E2-2,Kashan lustre tile maker; uncertain
+islamic_makers:Turanshah,route:G1 unplaced (Inju Fars metalwork),"1351 Iranian bowl, likely Fars inlaid brass; uncertain"
+islamic_makers:Master of the Centenar,route:European Gothic painting,Valencian altarpiece master
+"islamic_makers:Marçal de Sas, Andrés",route:European Gothic painting,"Valencian painter, former attribution"
+islamic_makers:Zayn al-Din,kind:G1-4,signature on Veneto-Saracenic inlaid brass
+islamic_makers:Pieter Coecke van Aelst,route:European Renaissance prints,"Flemish artist, Ces Moeurs des Turcs woodcuts"
+"islamic_makers:Bakharzi, Mir",kind:C1-4,Safavid nasta'liq scribe; uncertain
+islamic_makers:Yaqub Kashmiri,kind:A1-4/Imperial Mughal atelier,Akbar-period painter
+islamic_makers:Devji Gujarati,kind:A1-4/Imperial Mughal atelier,Akbar-period painter
+"islamic_makers:Oliver, Isaac",route:European portrait miniature,English limner; object copied in India
+islamic_makers:Kalb 'Ali,kind:G2-1,Safavid sword maker
+"islamic_makers:Muhsin, Muhammad",kind:C3-1/Safavid Isfahan,bookbinder
+islamic_makers:Aqa Reza,kind:A1-4/Imperial Mughal atelier,"likely Aqa Riza Haravi, Jahangir's atelier; uncertain"
+islamic_makers:Abd al-Rahim al-Katib,alias:C1-4/Abd ur-Rahim Ambarin Qalam,Mughal nasta'liq calligrapher; dup of makers_2; uncertain
+islamic_makers:Mir Afdal Tuni,alias:A1-2/Afzal Al-Husayni,Mir Afzal Tuni = Afzal al-Husayni; dup makers_2
+islamic_makers:Afzal al-husaini,alias:A1-2/Afzal Al-Husayni,dup of makers_2 Afzal Al-Husayni
+"islamic_makers:Mustafa, son of Mehmet",kind:C1-3,"Ottoman Qur'an scribe, naskh"
+islamic_makers:Rahim Deccani,kind:I2-1,lacquer painter of caskets; uncertain
+islamic_makers:Jean Pattru,route:European watchmaking,French watchmaker for Ottoman market
+islamic_makers:Ali Muhammad Shirazi,kind:G2-1,talwar maker
+islamic_makers:Mir Amad al Husaini,alias:C1-4/Imad al-Husaini,"Mir 'Imad, nasta'liq calligrapher; dup makers_1"
+"islamic_makers:Scotin, Gérard Jean-Baptiste",route:European prints,"French engraver, Ferriol Turquerie"
+islamic_makers:Sahib al-Zaman,"exclude:inscription, not a maker",'Ya Sahib al-Zaman' invocation; uncertain
+"islamic_makers:Liotard, Jean Etienne",route:European Orientalist art,"Swiss pastellist, Turquerie"
+"islamic_makers:Terreni, Giuseppe Maria Terreni",route:European topographical art,Italian view painter
+"islamic_makers:Keene, Henry",route:European architecture,English Gothick architect; Painshill Turkish Tent; uncertain
+islamic_makers:Punch,route:Pahari painting,"Hindu subject, Kashmir/Pahari; uncertain"
+islamic_makers:Jean-Baptiste Hilaire,route:European Orientalist art,French costume illustrator
+islamic_makers:Faqirullah,kind:A1-4/Lucknow,Awadh provincial Mughal painter
+islamic_makers:J. Cooke,exclude:publisher,publisher only
+"islamic_makers:Favray, Antoine de (Le Chevalier)",route:European Orientalist art,"Maltese-French painter, Ottoman subjects"
+"islamic_makers:Spilsbury, Francis B.",route:European Orientalist art,"British surgeon-artist, Levant views"
+islamic_makers:'Abdurrashid,kind:A1-4/Late Mughal,late Mughal painter; possibly Company; uncertain
+islamic_makers:Franciscan monk,exclude:anonymous designation,not a named maker
+"islamic_makers:Kapidagli, Konstantin",kind:A1-3,Ottoman court painter of Selim III portraits
+"islamic_makers:Schiavonetti, Luigi",route:European prints,Italian engraver
+islamic_makers:Hafiz Muhammad Multani,route:Sikh court art,goldsmith of Ranjit Singh's throne
+"islamic_makers:Salih, Muhammad",kind:G2-1,Qajar gun barrel maker
+islamic_makers:William Bone,route:European portrait miniature,English enamel miniaturist
+"islamic_makers:D'Arcy, Joseph",route:European Orientalist art,British painter
+islamic_makers:Mordecai,kind:F1-2/Hebron,Hebron glassmaker; uncertain
+islamic_makers:Jiwan Ram,kind:A1-6/Delhi,Company portraitist
+"islamic_makers:Warren, Henry",route:European Orientalist art,British painter
+islamic_makers:James Atkinson,route:European Orientalist art,"British officer-artist, Afghanistan"
+"islamic_makers:Preziosi, Aloysius Rosarius Amadeus Raymundus Andreas 5th Count Preziosi",route:European Orientalist art,Maltese painter in Istanbul
+islamic_makers:C.W. Dixey & Son,route:European manufacture,"London opticians, case maker"
+"islamic_makers:Müller, William James",route:European Orientalist art,British painter
+islamic_makers:Bernatz,route:European Orientalist art,German travel artist
+islamic_makers:Leopold Rottmann,route:European prints,lithographer
+"islamic_makers:Roberts, David (RA)",route:European Orientalist art,Scottish painter
+"islamic_makers:Preziosi, Aloysius Rosarius Amadeus Raymondus Andreas (5th Count Preziosi)",route:European Orientalist art,duplicate spelling of Preziosi above
+islamic_makers:Thomas Picken,route:European prints,lithographer
+islamic_makers:Machereau,route:European prints,artist of lithograph
+"islamic_makers:Vincent Brooks, Day & Son",route:European prints,London lithographic printers
+islamic_makers:Kehar Singh,kind:A1-6/Punjab,Lahore Sikh-period Company painter
+"islamic_makers:Johnson, Henry",route:European Orientalist art,British painter
+islamic_makers:Antoine Claudet,route:J Photography,photography pioneer
+islamic_makers:Samson & Cie,route:European ceramics,French reproduction ceramics firm
+"islamic_makers:Bakhsh, Khudha",route:South Asian clay figures,Punjab figure modeller; uncertain
+"islamic_makers:Ainslie, Henry Francis",route:European amateur art,British officer artist
+islamic_makers:Copeland & Co.,route:European ceramics,English ceramics firm
+"islamic_makers:Goodall, Frederick",route:European Orientalist art,British painter
+islamic_makers:Bacri,route:North African jewellery,Algerian Jewish jeweller family; uncertain
+islamic_makers:Berchere,route:European Orientalist art,French painter
+islamic_makers:Mariano Fortuny y Marsal,route:European Orientalist art,Spanish painter
+islamic_makers:Arif Pasha,route:Ottoman costume albums,Ottoman official credited with costume album; uncertain
+"islamic_makers:Julien, M.",route:European prints,lithographer
+islamic_makers:Mortimer Menpes,route:European Orientalist art,Australian-British painter
+islamic_makers:Debenham & Freebody,exclude:retailer,retailer only
+islamic_makers:Ganeshi Lall,exclude:retailer,retailer only
+islamic_makers:Gleichen (Count),route:European amateur art,British officer-artist
+"islamic_makers:Beato, Antonio",route:J Photography,photographer
+"islamic_makers:Fiorillo, L.",route:J Photography,photographer
+islamic_makers:Edith Brearey Dawson,route:European Arts and Crafts,British designer-maker
+islamic_makers:Imperial Porcelain Factory,route:modern,"Ottoman Yıldız porcelain factory, c.1900; uncertain"
+islamic_makers:A.M.  Shorose,exclude:not an artist,archive correspondent; duplicate of Shorose above
+islamic_makers:B. J.  Roelofz,exclude:not an artist,archive correspondent
+islamic_makers:Groeneweg Dunlop & Co.,"exclude:commercial firm, archive correspondent",trading firm letters
+"islamic_makers:Henderson, Arthur Edward",route:European topographical art,British artist
+islamic_makers:Ustad Ali-yi Kirmani,kind:H1-1/Kerman,Kerman carpet weaver
+"islamic_makers:OSVAG, Office of the Russian Press",exclude:publisher,propaganda publisher
+"islamic_makers:De La Neziere, Joseph",route:European Orientalist art,French poster artist
+islamic_makers:V Roullier,route:European design,French cover maker; uncertain
+islamic_makers:Max Pollak,route:European prints,Austrian-Czech etcher
+islamic_makers:Muirhead Bone,route:European prints,Scottish etcher
+"islamic_makers:Fakhkhari, Husayn",kind:H5-2/Isfahan,qalamkar printer
+islamic_makers:Manning,route:European topographical art,artist
+"islamic_makers:Degueldre, M.",route:modern,French propaganda poster artist
+islamic_makers:Elmonzer,route:modern,Egyptian poster designer
+islamic_makers:Ratus,exclude:printer,printer only
+islamic_makers:Sirak Melkonian,route:modern,Iranian-Armenian modern painter
+islamic_makers:Naima Bennis,route:modern,Moroccan fashion designer
+islamic_makers:Yassavoli Publications,exclude:publisher,publisher only
+"islamic_makers:Isma'il-zadeh , Hasan",route:modern,Iranian poster artist
+"islamic_makers:Farshchian, Mahmoud",route:modern,modern Iranian neo-miniaturist
+islamic_makers:Sadegh Tabrizi,route:modern,modern Iranian painter
+"islamic_makers:Zarifi, Sa'id",route:modern,Iranian poster artist
+"islamic_makers:Salim, 'Ali",route:modern,Harrania tapestry weaver
+"islamic_makers:El Farouk, Omar",kind:I1-1/Cairo,contemporary mashrabiya designer; uncertain
+"islamic_makers:Hassan, Abua Zaid",kind:I1-1/Cairo,contemporary mashrabiya maker
+islamic_makers:Chant Avedissian,route:modern,contemporary Egyptian-Armenian artist
+"islamic_makers:Yilmaz, Fatma",kind:H1-2/DOBAG,Anatolian village rug weaver
+"islamic_makers:Küllú, Fatma",kind:H1-2/DOBAG,Anatolian village rug weaver
+islamic_makers:Rezayi,exclude:publisher,publisher only
+"islamic_makers:Lijn, Liliane",route:modern,"contemporary artist, carpet design"
+"islamic_makers:Farr, Christopher",route:modern,contemporary British carpet designer
+"islamic_makers:Sedira, Zineb",route:modern,contemporary Algerian-French artist
+islamic_makers:Mina Nouri,route:modern,contemporary Iranian artist
+islamic_makers:Hushidar Mortezaie,route:modern,contemporary fashion designer
+islamic_makers:Michael Sears,route:modern,contemporary fashion designer
+islamic_makers:Publication Rezayi,exclude:publisher,publisher only; dup of Rezayi
+islamic_makers:Burhani,route:modern,contemporary Iranian tile designer
+islamic_makers:Monir Shahroudy Farmanfarmaian,route:modern,modern Iranian artist
+"islamic_makers:Kazim, Ali",route:modern,contemporary Pakistani artist
+islamic_makers:Mehdi Moutashar,route:modern,contemporary Iraqi-French artist
+islamic_makers:Hadieh Shafie,route:modern,contemporary Iranian-American artist
+islamic_makers:Darmaki,route:modern,contemporary shoe designer
+"islamic_makers:al-Kader, Hany al-Sayed Ahmad Abd",kind:H4-7/Cairo,khayamiya tentmaker
+"islamic_makers:Fooladfar, Mehdi",route:modern,contemporary Iranian maker; craft unclear; uncertain
+islamic_makers:Yahya Al Bishri,route:modern,contemporary Saudi designer
+islamic_makers:Taheya Ibrahim,route:modern,Harrania tapestry weaver
+"islamic_makers:Lahlou, Hicham",route:modern,contemporary Moroccan designer
+islamic_makers:Dima Srouji,route:modern,contemporary Palestinian designer
+islamic_makers:Fereydoun Ave,route:modern,contemporary Iranian artist
+"islamic_makers:el Malak, Faissal",route:modern,contemporary designer
+"islamic_makers:Ouhaddou, Sara",route:modern,contemporary Moroccan artist
+islamic_makers:Diaa el-Din Daoud,route:modern,contemporary Egyptian tile maker
+"islamic_makers:Sinai, Alma",route:modern,contemporary Iranian artist
+islamic_makers:Bushra Waqas Khan,route:modern,contemporary Pakistani artist
+islamic_makers:Farah Fayyad,route:modern,contemporary artist
+"islamic_makers:G, Tal",exclude:editor,editor only
+islamic_makers:Maison Farah Wali,route:modern,contemporary Egyptian fashion house
+islamic_makers:Aya Haidar,route:modern,contemporary Lebanese-British artist
+"islamic_makers:Mostafa, Khadija",route:modern,contemporary Egyptian designer
+islamic_makers:Ayham Hassan Musleh,route:modern,contemporary embroidery maker
+islamic_makers:Yasmine El Meleegy,route:modern,contemporary Egyptian artist
+islamic_makers:Massoud Hayoun,route:modern,contemporary artist
+islamic_makers:Zeid Hijazi,route:modern,contemporary Lebanese designer
+illuminators:Q4665830,alias:A1-3/Levni,dup of europe_1400-1900:Q4665830
+illuminators:Q334875,alias:A1-2/Bihzad,Herat school master; dup of makers_1 Bihzad
+illuminators:Q380726,alias:A1-2/Riza 'Abbasi,Safavid Isfahan; dup of makers_1
+illuminators:Q307497,alias:A1-4/Abd al-Samad,dup of makers_1
+illuminators:Q4056503,kind:A1-2/Safavid Tabriz,Shah Tahmasp's Shahnama painter
+illuminators:Q2502664,alias:A1-4/Mansur,Jahangir's natural-history painter; dup makers_1
+illuminators:Q4404551,alias:A1-2/Sadiqi Bek,Safavid Qazvin/Isfahan; dup makers_1
+illuminators:Q866302,alias:A1-4/Bishandas,dup of makers_1
+illuminators:Q1937873,alias:A1-4/Mir Sayyid Ali,dup of makers_1
+illuminators:Q2470155,alias:A1-2/Muhammad Siya Qalam,Turkman/Timurid attribution debated; dup makers_1
+illuminators:Q4171195,kind:A1-2/Safavid Tabriz,"painter, Bahram Mirza album compiler"
+illuminators:Q2743344,"alias:A1-2/Zaman, Muhammad",Safavid Isfahan Europeanising painter; dup makers_2; uncertain
+illuminators:Q2783517,alias:A1-2/Mirza ‘Ali,Safavid Tabriz; dup makers_1
+illuminators:Q3327312,alias:A1-2/Muʿin Musavvir,Safavid Isfahan; dup makers_2
+illuminators:Q111826332,kind:A1-2/Safavid Qazvin,"Riza's father, Ibrahim Mirza circle"
+illuminators:Q4522495,alias:A1-2/Shaikh Zada,Herat/Bukhara painter; dup makers_2
+illuminators:Q5691977,kind:A1-2/Herat school,"Mirak Naqqash, also illuminator; uncertain"
+illuminators:Q4072985,alias:A1-2/Aḥmad Mūsā,dup of pre1400_islamic:Q4072985
+illuminators:Q4308820,alias:A1-2/Muhammad Qasim,Safavid Isfahan; dup makers_2
+illuminators:Q4308838,alias:A1-2/Muhammad Yusuf,Safavid Isfahan; dup makers_1
+illuminators:Q4158706,kind:A1-2/Turkman Tabriz,Aq Qoyunlu painter; uncertain
+illuminators:Q4522498,kind:A1-2/Turkman Tabriz,Aq Qoyunlu court painter
+illuminators:Q4062220,kind:A1-2/Safavid Isfahan,son of Shaykh 'Abbasi
+illuminators:Q4295436,alias:A1-2/Afzal Al-Husayni,Mir Afzal Tuni; dup makers_2
+illuminators:Q16050444,kind:C2-2/Safavid,illuminator-painter for Ibrahim Mirza; uncertain
+illuminators:Q4054725,kind:A1-4/Imperial Mughal atelier,Shah Jahan's painter
+illuminators:Q4216554,kind:A1-2/Herat school,pupil of Bihzad
+illuminators:Q108526217,kind:C2-2/Ilkhanid,illuminator of Öljeitü Qur'ans
+illuminators:Q111590366,alias:A1-4/Lal Chand,dup of makers_1 Lal Chand; uncertain
+illuminators:Q13054091,route:Armenian illumination,"Minas of Jugha, New Julfa"
+illuminators:Q18575695,kind:A1-2/Safavid Qazvin,Isma'il II Shahnama painter
+illuminators:Q135677114,kind:C2-2,illuminator (mudhahhib)
+pre1400_islamic:Q2915617,kind:C1-3,master of the six pens
+pre1400_islamic:Q974105,kind:C1-3,codifier of proportioned script
+pre1400_islamic:Q3133618,kind:C1-3,Buyid-era master of naskh
+pre1400_islamic:Q4160597,kind:A1-2/Jalayirid Baghdad,"Khwaju Kirmani painter, 1396"
+pre1400_islamic:Q472751,alias:A1-1/Yahya ibn Mahmoud al-Wasiti,1237 Maqamat painter; dup makers_1
+pre1400_islamic:Q5960615,kind:C1-3,pupil of Yaqut
+pre1400_islamic:Q4115137,kind:C1-4,inventor of nasta'liq
+pre1400_islamic:Q4072985,kind:A1-2/Ilkhanid Tabriz,Abu Sa'id's court painter
+pre1400_islamic:Q4670813,kind:E2-2/Kashan,lustre and mina'i potter; dup makers_1 messy row
+pre1400_islamic:Q5897557,kind:C1-3,"muhaqqaq master, pupil of Yaqut line"
+pre1400_islamic:Q13422938,kind:A1-2/Jalayirid Baghdad,"Jalayirid master, taken to Samarqand"
+pre1400_islamic:Q7285569,exclude:religious leader/statesman,"Umayyad-era scholar, not an artist"
+pre1400_islamic:Q5940510,exclude:poet,"poet, trained as goldsmith-painter; uncertain"
+pre1400_islamic:Q5681576,kind:C1-3,pupil of Yaqut
+pre1400_islamic:Q11955678,exclude:religious leader,"Isma'ili da'i, not an artist"
+pre1400_islamic:Q5723646,kind:C1-3,Jalayirid/Timurid calligrapher; script uncertain
+europe_1400-1900:Q3561135,kind:C1-3/Ottoman,master of Ottoman naskh; dup of makers_2 messy row
+europe_1400-1900:Q4115413,kind:A1-3,topographical miniatures
+europe_1400-1900:Q4665830,kind:A1-3,Surname-i Vehbi painter
+europe_1400-1900:Q6419363,kind:A1-3,Hünername painter

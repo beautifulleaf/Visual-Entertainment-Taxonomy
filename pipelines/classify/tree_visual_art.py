@@ -398,6 +398,9 @@ LEAVES = {
         ("E2-12", "Qajar Ceramics", "medium",
          "the tiles and vessels of Qajar Iran (19th century): moulded and painted figural tiles of Tehran and Shiraz (Ali Muhammad Isfahani) and revival lustre.",
          "Qajar tiles", "A5-1 Qajar Painting; L3-3 Moʿaraq.", "Qajar art"),
+        ("E2-13", "Qallaline Tiles", "narrow",
+         "the tin-glazed tiles of the Qallaline quarter of Tunis (17th–19th century), with Ottoman and Italian floral designs.",
+         "Tunisian tiles; qallalin", "E1-10 Fez Pottery.", "Qallaline"),
     ],
     "F1": [
         ("F1-1", "Beykoz Glass", "narrow",
@@ -450,6 +453,9 @@ LEAVES = {
         ("G1-9", "Firoozeh Koobi", "narrow",
          "Iranian metal objects set with turquoise chips in a mosaic over the surface (Isfahan, Mashhad).",
          "turquoise inlay", "", "Firoozeh Koobi"),
+        ("G1-10", "Persian Metalwork", "medium",
+         "inlaid and engraved brass and steel of Iran after the Mongols: Inju Fars inlay (14th century), Timurid and Safavid tinned-brass jugs, candlesticks and inkwells with poetic inscriptions, and Qajar cut steel (Hajji 'Abbas).",
+         "Timurid metalwork; Safavid metalwork; Qajar steel", "G1-1 Khurasan Metalwork.", "Persian metalwork"),
     ],
     "G2": [
         ("G2-1", "Islamic Arms and Armour", "broad",
@@ -590,6 +596,12 @@ LEAVES = {
         ("I1-4", "Palestinian Olive-Wood Carving", "narrow",
          "carved olive wood of Bethlehem and Jerusalem, devotional and souvenir objects since the 16th century.",
          "Bethlehem olive wood", "", "Olive wood carving in Palestine"),
+        ("I1-5", "Islamic Woodwork", "broad",
+         "carved and joined woodwork of the Islamic world outside the named leaves: minbars, Qur'an stands and cenotaphs carved in bevelled and geometric strapwork (the Minbar of Nur al-Din, Aleppo 1168).",
+         "Islamic woodcarving; minbar carving", "I1-1 Mashrabiya; D1-1 Samarra Stucco.", "Islamic woodwork"),
+        ("I1-6", "ʿAjami", "narrow",
+         "painted, gessoed and gilded wooden panelling of Ottoman Syrian reception rooms (the Aleppo Room, 1600–03; the Damascus Room, 1707).",
+         "ajami; Damascene painted wood", "L2 Wall Painting.", "Damascus Room|ʿAjami"),
     ],
     "I2": [
         ("I2-1", "Persian Lacquer", "medium",
@@ -598,6 +610,9 @@ LEAVES = {
         ("I2-2", "Kashmiri Papier-Mâché", "narrow",
          "painted and varnished papier-mâché of Kashmir (boxes, vases), with floral and hunting designs.",
          "kar-e-kalamdani", "I2-1 Persian Lacquer.", "Kashmiri papier-mâché|papier-mâché in Kashmir"),
+        ("I2-3", "Edirnekâri", "narrow",
+         "Ottoman lacquer of Edirne (17th–19th century): writing boxes, bookbindings and furniture painted with flowers under varnish.",
+         "Edirne work; Ottoman lacquer", "I2-1 Persian Lacquer.", "Edirnekâri"),
     ],
     "K1": [
         ("K1-1", "Umayyad Architecture", "medium",
@@ -711,6 +726,8 @@ LEAVES = {
 # item is broader); found by targeted search, 2026-10-28. Wikidata matches for
 # the rest are resolved by attest.py and stored with the leaf.
 ATTEST_URLS = {
+    "G1-10": "https://www.metmuseum.org/essays/the-art-of-the-timurid-period-ca-1370-1507",
+    "I1-6": "https://www.metmuseum.org/art/collection/search/449153",
     "E1-5": "https://www.metmuseum.org/learn/educators/curriculum-resources/art-of-the-islamic-world/unit-six/chapter-one/featured-works-of-art/image-33",
     "E1-10": "https://fr.wikipedia.org/wiki/Poterie_de_Fès",
     "E1-11": "https://collections.vam.ac.uk/item/O156110/jar-unknown",
@@ -760,6 +777,9 @@ ATTEST_URLS = {
 }
 # Leaves whose label is weakly attested in English (flagged for the owner).
 WEAK = {"E1-10": "no English source names 'Moroccan pottery' as one tradition; 'poterie de Fès / de Safi' in French sources",
+        "G1-10": "attested as a period group (Timurid, Safavid metalwork) in museum essays; no item for the umbrella name",
+        "I1-5": "a broad leaf for woodwork outside named traditions; split when the field names its schools",
+        "I2-3": "attested in Turkish sources (Edirnekâri); English sources say Ottoman lacquer",
         "I1-3": "English sources describe the technique; the Turkish term sedefkârlık is the attested name"}
 # Wikidata matches that must not be used (false matches found in review).
 BAD_QID = {"Q1189512", "Q12660335", "Q5834342", "Q1176707", "Q136386177", "Q183562"}

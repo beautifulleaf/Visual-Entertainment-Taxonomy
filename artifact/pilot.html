@@ -1,0 +1,235 @@
+<title>Visual Entertainment Taxonomy Pilot</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Pilot of the Visual Entertainment Taxonomy: the Islamic world (Visual Art) and Japanese cinema (Film & Television), with keys, leaves, placements and audits.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,500;0,700;1,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: reference key in the house style of the owner's taxonomies — sticky bar (title, tabs, finder), left family index, main column of families → sub-families → leaf cards that open into kinds. Lapis for Visual Art, cinnabar-brown for film, on a cool stone ground. */
+:root{
+  --bg:#eef0ee; --surface:#f9faf8; --ink:#1b2220; --muted:#59645f; --rule:#d3d9d5; --chip:#e3e8e4;
+  --va:#2a4f8f; --ft:#8f3b2a; --accent:#2a4f8f; --warn:#8a6300; --warn-soft:#f4ead0; --hit:#fff0b0;
+  --f-display:"Spectral",Georgia,"Times New Roman",serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --h:var(--va);
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141917; --surface:#1b2220; --ink:#e4e9e6; --muted:#9aa6a0; --rule:#2f3934; --chip:#26302c;
+  --va:#8fb0ec; --ft:#e69a86; --accent:#8fb0ec; --warn:#e6bd5c; --warn-soft:#3a2f12; --hit:#584a12; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141917; --surface:#1b2220; --ink:#e4e9e6; --muted:#9aa6a0; --rule:#2f3934; --chip:#26302c;
+  --va:#8fb0ec; --ft:#e69a86; --accent:#8fb0ec; --warn:#e6bd5c; --warn-soft:#3a2f12; --hit:#584a12; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5;margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+a{color:var(--h)}
+.code{font-family:var(--f-mono);font-size:.8em;letter-spacing:0}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--h);outline-offset:2px}
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--rule)}
+.top-in{max-width:1260px;margin:0 auto;padding-block:10px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center}
+.brand{font-family:var(--f-display);font-weight:700;font-size:1.28rem;margin:0;white-space:nowrap}
+.brand small{display:block;font-family:var(--f-mono);font-weight:400;font-size:.68rem;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.tabs{display:flex;gap:4px;flex-wrap:wrap}
+.tab{border:1px solid var(--rule);background:var(--surface);border-radius:999px;padding:5px 13px;cursor:pointer;font-size:.88rem}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+#q{flex:1 1 240px;min-width:0;border:1px solid var(--rule);background:var(--surface);color:var(--ink);border-radius:8px;padding:8px 11px;font:inherit;font-size:.9rem}
+.wrap{max-width:1260px;margin:0 auto;padding-block:20px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;grid-template-columns:240px minmax(0,1fr);gap:30px}
+@media (max-width:860px){.wrap{grid-template-columns:minmax(0,1fr)}.index{position:static!important;max-height:240px!important;border:1px solid var(--rule);border-radius:8px;padding:10px;background:var(--surface)}}
+.index{position:sticky;top:84px;align-self:start;max-height:calc(100vh - 104px);overflow:auto;font-size:.86rem}
+.index h3{font-family:var(--f-display);font-size:1rem;margin:0 0 6px}
+.index ol{list-style:none;margin:0;padding:0;display:grid;gap:1px}
+.index a{display:flex;justify-content:space-between;gap:8px;padding:3px 6px;border-radius:6px;text-decoration:none;color:var(--ink)}
+.index a:hover{background:var(--chip)}
+.index a.dim{color:var(--muted)}
+.index .n{color:var(--muted);font-variant-numeric:tabular-nums;font-size:.78rem}
+main{min-width:0}
+.lede{max-width:72ch;color:var(--muted);margin:0 0 16px}
+.stats{display:flex;flex-wrap:wrap;gap:6px 20px;font-size:.85rem;color:var(--muted);margin:0 0 20px}
+.stats b{color:var(--ink);font-variant-numeric:tabular-nums}
+.fam{margin:0 0 34px;scroll-margin-top:90px}
+.fam-h{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:2px solid var(--h);padding-bottom:4px;margin-bottom:6px}
+.fam-h h2{font-family:var(--f-display);font-size:1.5rem;line-height:1.2;margin:0;text-wrap:balance}
+.fam-h .code{color:var(--h);font-weight:500}
+.count{font-variant-numeric:tabular-nums;font-size:.76rem;color:var(--muted);border:1px solid var(--rule);border-radius:999px;padding:0 8px;white-space:nowrap}
+.test{font-style:italic;color:var(--muted);margin:4px 0 8px;max-width:78ch}
+details.key{margin:4px 0 10px;font-size:.88rem;max-width:84ch}
+details.key summary{cursor:pointer;color:var(--h);font-weight:500}
+details.key p{margin:5px 0}
+.sub{margin:16px 0 0;scroll-margin-top:90px}
+.sub-h{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.sub-h h3{font-family:var(--f-display);font-size:1.1rem;margin:0}
+.sub-h .code{color:var(--muted)}
+.axis{font-size:.85rem;color:var(--muted);margin:2px 0 8px;max-width:84ch}
+.later{font-size:.8rem;color:var(--muted);border:1px dashed var(--rule);border-radius:8px;padding:6px 10px;margin:6px 0 0;max-width:84ch}
+.leaves{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px;align-items:start}
+.leaf{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:10px 12px;display:flex;flex-direction:column;gap:6px;min-width:0;scroll-margin-top:96px}
+.leaf.open{grid-column:1/-1;border-color:var(--h)}
+.leaf-top{display:flex;gap:8px;align-items:baseline;justify-content:space-between}
+.leaf h4{margin:0;font-size:.97rem;font-weight:600;line-height:1.3}
+.leaf h4 .code{color:var(--h);margin-right:4px}
+.badge{font-size:.66rem;text-transform:uppercase;letter-spacing:.07em;border-radius:4px;padding:1px 6px;white-space:nowrap;border:1px solid currentColor}
+.b-broad{color:var(--h)} .b-medium{color:var(--muted)} .b-narrow{color:var(--muted);border-style:dashed}
+.defn{font-size:.86rem;margin:0}
+.aka{font-size:.8rem;color:var(--muted);margin:0}
+.aka b{color:var(--ink);font-weight:500}
+.weak{font-size:.76rem;color:var(--warn);background:var(--warn-soft);border-radius:4px;padding:2px 6px;align-self:flex-start}
+.srcs{display:flex;flex-wrap:wrap;gap:4px 10px;font-size:.76rem}
+.srcs a{text-decoration:none}
+.srcs a:hover{text-decoration:underline}
+.leaf-foot{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:auto}
+.open-btn{border:0;background:none;color:var(--h);cursor:pointer;padding:2px 0;font-size:.85rem;font-weight:500}
+.kinds{border-top:1px solid var(--rule);margin-top:4px;padding-top:6px;display:grid;gap:10px}
+.kgrp h5{margin:0 0 3px;font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--h)}
+.kgrp ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:2px 16px}
+.kgrp li{font-size:.86rem;padding:3px 0;border-bottom:1px dotted var(--rule);min-width:0}
+.kgrp li.hl{background:var(--hit);border-radius:4px;padding-inline:4px}
+.kn{font-weight:500}
+.kmeta{color:var(--muted);font-size:.78rem}
+.films{width:100%;border-collapse:collapse;font-size:.84rem}
+.films td,.films th{text-align:left;padding:4px 8px 4px 0;border-bottom:1px dotted var(--rule);vertical-align:top}
+.films th{font-size:.7rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:500}
+.films td.y{font-variant-numeric:tabular-nums;color:var(--muted);white-space:nowrap}
+.films tr.hl td{background:var(--hit)}
+.tw{overflow-x:auto}
+.extra{font-size:.8rem;color:var(--muted)}
+.results{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:10px 14px}
+.results h2{font-family:var(--f-display);font-size:1.15rem;margin:0 0 6px}
+.res{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 12px;padding:6px 0;border-bottom:1px dotted var(--rule);cursor:pointer}
+.res:last-child{border-bottom:0}
+.res .where{font-size:.78rem;color:var(--muted);text-align:right}
+.res:hover .kn{text-decoration:underline}
+.doc{max-width:86ch}
+.doc h2{font-family:var(--f-display);font-size:1.38rem;margin:28px 0 8px;text-wrap:balance}
+.doc h2:first-child{margin-top:0}
+.doc h3{font-size:1rem;margin:18px 0 6px}
+.doc p,.doc li{font-size:.92rem}
+.doc ul,.doc ol{padding-left:1.2em}
+.doc table{border-collapse:collapse;font-size:.85rem;margin:8px 0 14px;width:100%}
+.doc th,.doc td{border-bottom:1px solid var(--rule);padding:5px 10px 5px 0;text-align:left;vertical-align:top}
+.doc th{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:500}
+.doc td.num{font-variant-numeric:tabular-nums;text-align:right}
+.q{border-left:3px solid var(--h);padding:4px 12px;margin:10px 0;background:var(--surface);border-radius:0 8px 8px 0}
+.q b.id{font-family:var(--f-mono);font-size:.8rem;color:var(--h)}
+.empty{color:var(--muted);font-style:italic}
+</style>
+
+<header class="top"><div class="top-in">
+  <h1 class="brand">Visual Entertainment Taxonomy<small>Pilot · Islamic world &amp; Japanese cinema</small></h1>
+  <div class="tabs" role="tablist" id="tabs"></div>
+  <input id="q" type="search" placeholder="Find a tradition, maker, film or alias" aria-label="Finder" autocomplete="off">
+</div></header>
+<div class="wrap">
+  <nav class="index" id="index" aria-label="Contents"></nav>
+  <main id="main"><p class="lede">Loading the pilot…</p></main>
+</div>
+
+<script>
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const norm=s=>String(s||'').toLowerCase().normalize('NFKD').replace(/[̀-ͯʻʿʾ'’ʿ]/g,'');
+let D=null, state={tab:'VA',open:new Set(),hl:null};
+try{const t=localStorage.getItem('vet-tab'); if(t) state.tab=t;}catch(e){}
+const TABS=[['VA','Visual Art'],['FT','Film & Television'],['KEY','How to place'],['REPORT','Pilot report']];
+const tabs=document.getElementById('tabs'), main=document.getElementById('main'), idx=document.getElementById('index'), q=document.getElementById('q');
+TABS.forEach(([k,l])=>{const b=document.createElement('button');b.className='tab';b.setAttribute('role','tab');b.dataset.t=k;b.textContent=l;
+  b.onclick=()=>{state.tab=k;state.hl=null;q.value='';try{localStorage.setItem('vet-tab',k)}catch(e){};render();window.scrollTo(0,0)};tabs.appendChild(b)});
+fetch('pilot-data.json').then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{D=j;
+  const h=location.hash.slice(1); if(/^(VA|FT)-/.test(h)){state.tab=h.slice(0,2);state.open.add(h.slice(3));}
+  render(); if(h) requestAnimationFrame(()=>{const el=document.getElementById(h);if(el)el.scrollIntoView({block:'start'})});
+}).catch(e=>{main.innerHTML='<p class="empty">The pilot data did not load ('+esc(e.message)+'). Reload the page to try again.</p>'});
+
+function setHue(t){document.documentElement.style.setProperty('--h',t==='FT'?'var(--ft)':'var(--va)')}
+function srcHTML(src){return src&&src.length?`<div class="srcs">${src.map(([u,l])=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(l)}</a>`).join('')}</div>`:''}
+
+function vaKinds(l){
+  if(!l.kinds.length) return '<p class="empty">No kind placed yet. The tradition is attested; its sub-types and makers arrive with the next sources.</p>';
+  const groups={}; const order=[];
+  for(const k of l.kinds){const g=k[1]||(k[4]?'Makers':'Sub-types, centres and named groups'); if(!groups[g]){groups[g]=[];order.push(g)} groups[g].push(k)}
+  order.sort((a,b)=>(a==='Makers')-(b==='Makers'));
+  return order.map(g=>`<div class="kgrp"><h5>${esc(g)} · ${groups[g].length}</h5><ul>${groups[g].map(k=>`<li class="${state.hl===k[0]?'hl':''}"><span class="kn">${esc(k[0])}</span>${k[2]?` <span class="kmeta">— ${esc(k[2])}</span>`:''}</li>`).join('')}</ul></div>`).join('')
+   +(l.alias_rows.length?`<p class="extra"><b>Also gathered as</b> ${l.alias_rows.map(esc).join(' · ')}</p>`:'')
+   +(l.gathered.length?`<p class="extra"><b>Gathered rows for this leaf</b> ${l.gathered.map(esc).join(' · ')}</p>`:'');
+}
+function ftKinds(l){
+  if(!l.kinds.length) return '<p class="empty">No Japanese film placed here in the pilot. The leaf is needed for the full tab.</p>';
+  return `<div class="tw"><table class="films"><thead><tr><th>Year</th><th>Title</th><th>Director</th><th>See also</th><th>Note</th></tr></thead><tbody>${l.kinds.map(k=>`<tr class="${state.hl===k[0]?'hl':''}"><td class="y">${esc(k[1])}</td><td><a href="https://www.imdb.com/title/${esc(k[5])}/" target="_blank" rel="noopener">${esc(k[0])}</a></td><td>${esc(k[2])}</td><td class="code">${esc(k[3])}</td><td class="kmeta">${esc(k[4])}</td></tr>`).join('')}</tbody></table></div>`;
+}
+function leafHTML(t,l){
+  const open=state.open.has(l.code);
+  const id=t+'-'+l.code;
+  return `<article class="leaf${open?' open':''}" id="${id}">
+   <div class="leaf-top"><h4><span class="code">${l.code}</span>${esc(l.label)}</h4><span class="badge b-${l.breadth}">${l.breadth}</span></div>
+   <p class="defn">${l.defn}</p>
+   ${l.aliases?`<p class="aka"><b>Aliases</b> ${esc(l.aliases)}</p>`:''}${l.see?`<p class="aka"><b>See also</b> ${esc(l.see)}</p>`:''}
+   ${srcHTML(l.src)}${l.weak?`<span class="weak">Attestation to confirm: ${esc(l.weak)}</span>`:''}
+   <div class="leaf-foot"><span class="count">${l.n} ${t==='FT'?(l.n===1?'film':'films'):(l.n===1?'kind':'kinds')}</span><button class="open-btn" data-leaf="${l.code}" aria-expanded="${open}">${open?'Close':(t==='FT'?'Show films':'Show kinds')}</button></div>
+   ${open?`<div class="kinds">${t==='FT'?ftKinds(l):vaKinds(l)}</div>`:''}</article>`;
+}
+function renderTree(t){
+  setHue(t); const T=D[t.toLowerCase()]; const c=D.census[t.toLowerCase()];
+  let out = t==='VA'
+   ? `<p class="lede">Visual Art is divided by what the work is (its medium), never by region or period. The pilot builds the Islamic world: ${c.leaves} leaves in ${T.fams.filter(f=>f.nleaves).length} of the 13 families, holding ${c.kinds.toLocaleString()} kinds (schools, centres, sub-types and makers). Dynasties and places are filters, not nodes. Families and sub-families with a dashed note are defined now and built at scale.</p>`
+   : `<p class="lede">Film &amp; Television is divided by form, then by genre, cycle and movement. The pilot places all ${c.rows} Japanese selected films: live-action features into ${c.leaves} genre leaves, animation to the Anime family, shorts to the Short Film family. Country and decade are filters.</p>`;
+  let ix=`<h3>${t==='VA'?'Visual Art':'Film & Television'}</h3><ol>`;
+  for(const f of T.fams){
+    ix+=`<li><a href="#${t}-${f.code}" class="${f.nleaves?'':'dim'}"><span>${f.code} ${esc(f.label)}</span><span class="n">${f.nleaves?f.n:''}</span></a></li>`;
+    let subs='';
+    for(const s of f.subs){
+      subs+=`<section class="sub" id="${t}-${s.code}"><div class="sub-h"><span class="code">${s.code}</span><h3>${esc(s.label)}</h3>${s.leaves.length?`<span class="count">${s.leaves.length} leaves · ${s.n}</span>`:''}</div><p class="axis">${esc(s.axis)}</p>
+        ${s.leaves.length?`<div class="leaves">${s.leaves.map(l=>leafHTML(t,l)).join('')}</div>`:'<p class="later">Leaves built at scale; nothing in the pilot slice falls here.</p>'}</section>`;
+    }
+    out+=`<section class="fam" id="${t}-${f.code}"><div class="fam-h"><span class="code">${t}-${f.code}</span><h2>${esc(f.label)}</h2>${f.nleaves?`<span class="count">${f.nleaves} leaves · ${f.n} ${t==='FT'?'films':'kinds'}</span>`:''}</div>
+      <p class="test">Membership test: ${esc(f.test)}</p>
+      ${f.key.length?`<details class="key"><summary>Key to this family (first yes wins)</summary>${f.key.map(p=>`<p>${p}</p>`).join('')}</details>`:''}
+      ${subs||'<p class="later">Sub-families are designed with this family\'s build; the pilot routes items here (see the report).</p>'}</section>`;
+  }
+  idx.innerHTML=ix+'</ol>'; main.innerHTML=out;
+}
+function renderKey(){
+  setHue('VA');
+  const part=(t,name)=>{const T=D[t];return `<h2 id="k-${t}">${name}: which family</h2>${T.familyKey.map(p=>`<p>${p}</p>`).join('')}
+    <h3>Precedence sentences</h3><ul>${T.precedence.map(([c,n,s])=>`<li><b class="code">${c}</b> <b>${esc(n)}.</b> ${s}</li>`).join('')}</ul>
+    <h3>Modifiers (tags and filters, never nodes)</h3><ul>${T.modifiers.map(m=>`<li>${m}</li>`).join('')}</ul>`};
+  main.innerHTML=`<div class="doc"><h2>How to read the taxonomy</h2>
+   <p><b>Levels.</b> Tab → Family (membership test, stated as what the work <i>is</i>) → Sub-family (one axis) → Leaf (a named tradition, school, ware, style, genre, cycle or movement) → Kind (a sub-school, centre, sub-type, maker, building style or title) → Variant. Nothing is deeper.</p>
+   <p><b>One home.</b> Run the tab's key below (first <i>yes</i> wins), then the family's own key on its card, then the leaf definitions and the precedence sentences. Every gathered row has exactly one disposition: a leaf, a kind, an alias of an existing node, a filter tag, a route to another family or slice, or an exclusion with its reason.</p>
+   <p><b>Codes.</b> <span class="code">VA-E2-7</span> = Visual Art, family E (Ceramics), sub-family 2 (Fritware), leaf 7 (Iznik Pottery). Pilot codes are provisional; they freeze at the first full release and are append-only from then on.</p>
+   <p><b>Names.</b> Every leaf label is an established term with a source: a Wikidata item, a Wikipedia article or a museum or encyclopedia page, shown on the leaf card. Native terms are aliases. Labels whose attestation is still weak carry a yellow note.</p>
+   <p><b>Order.</b> By affinity: the canonical or earliest form first, neighbours next, edge cases last; never alphabetical.</p>
+   ${part('va','Visual Art')}${part('ft','Film & Television')}</div>`;
+  idx.innerHTML='<h3>How to place</h3><ol><li><a href="#k-va"><span>Visual Art key</span></a></li><li><a href="#k-ft"><span>Film & Television key</span></a></li></ol>';
+}
+function renderReport(){setHue('VA'); main.innerHTML=`<div class="doc">${D.report}</div>`;
+  idx.innerHTML='<h3>Pilot report</h3><ol>'+[...main.querySelectorAll('h2[id]')].map(h=>`<li><a href="#${h.id}"><span>${esc(h.textContent)}</span></a></li>`).join('')+'</ol>';}
+
+let INDEX=null;
+function buildIndex(){INDEX=[];
+  for(const t of ['va','ft']) for(const f of D[t].fams) for(const s of f.subs) for(const l of s.leaves){
+    INDEX.push({t,l,name:l.label,what:'leaf',keys:[l.label,...l.aliases.split(';')].map(norm)});
+    for(const k of l.kinds) INDEX.push({t,l,name:k[0],what:t==='ft'?`${k[1]} film`:(k[1]||''),keys:[norm(k[0])]});
+  }}
+function renderFind(s){
+  if(!INDEX) buildIndex(); const n=norm(s); const hits=[];
+  for(const e of INDEX){let b=9; for(const k of e.keys){k=k.trim(); if(!k)continue; if(k===n){b=0;break} if(k.startsWith(n))b=Math.min(b,1); else if(k.includes(n))b=Math.min(b,2)} if(b<9)hits.push([b,e])}
+  hits.sort((a,b)=>a[0]-b[0]||(a[1].what==='leaf'?-1:1));
+  main.innerHTML=`<div class="results"><h2>${hits.length} ${hits.length===1?'match':'matches'} for “${esc(s)}”</h2>${hits.slice(0,200).map(([b,e])=>`<div class="res" tabindex="0" data-t="${e.t.toUpperCase()}" data-leaf="${e.l.code}" data-name="${esc(e.name)}"><div><span class="kn">${esc(e.name)}</span> <span class="kmeta">${esc(e.what)}</span></div><div class="where"><span class="code">${e.t.toUpperCase()}-${e.l.code}</span><br>${esc(e.l.label)}</div></div>`).join('')||'<p class="empty">Nothing matches. Try a shorter spelling, or a native term without diacritics.</p>'}</div>`;
+  idx.innerHTML='<h3>Finder</h3><p class="lede">Searches leaf labels, aliases, kinds, makers and film titles in both tabs.</p>';
+}
+function render(){
+  for(const b of tabs.children) b.setAttribute('aria-selected',b.dataset.t===state.tab);
+  if(!D) return; const s=q.value.trim();
+  if(s.length>=2) return renderFind(s);
+  if(state.tab==='KEY') return renderKey();
+  if(state.tab==='REPORT') return renderReport();
+  renderTree(state.tab);
+}
+main.addEventListener('click',e=>{
+  const b=e.target.closest('.open-btn'); if(b){const c=b.dataset.leaf; state.open.has(c)?state.open.delete(c):state.open.add(c); render(); const el=document.getElementById(state.tab+'-'+c); if(el) el.scrollIntoView({block:'nearest'}); return;}
+  const r=e.target.closest('.res'); if(r) go(r);
+});
+main.addEventListener('keydown',e=>{if(e.key==='Enter'){const r=e.target.closest('.res'); if(r) go(r);}});
+function go(r){state.tab=r.dataset.t; state.open.add(r.dataset.leaf); state.hl=r.dataset.name; q.value=''; render();
+  requestAnimationFrame(()=>{const el=document.getElementById(state.tab+'-'+r.dataset.leaf); if(el) el.scrollIntoView({block:'start'})});}
+let tmr; q.addEventListener('input',()=>{clearTimeout(tmr);tmr=setTimeout(render,160)});
+</script>
