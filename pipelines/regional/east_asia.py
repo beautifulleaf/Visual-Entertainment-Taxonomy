@@ -192,7 +192,14 @@ def safe(s):
 VARIANTS = dict(zip(
     "黃徵齊齋澤濱邊廣國圖畫學寶藝顏錢壽樂榮惠雙應舉擧圓澀濟讀嚴禪傳淸歷恆眞靑爲與吳賴嶋嶌邨僊晉祿禮鐵豐薰臺灣萬寫實盡單戰黑點燈鷗曉龜龍螢鄕德佛來兩參從縣變關陽陰會豔岡髙﨑",
     "黄徴斉斎沢浜辺広国図画学宝芸顔銭寿楽栄恵双応挙挙円渋済読厳禅伝清歴恒真青為与呉頼島島村仙晋禄礼鉄豊薫台湾万写実尽単戦黒点灯鴎暁亀竜蛍郷徳仏来両参従県変関陽陰会艶岡高崎"))
+NAME_ALIASES_F = {}
 SIMPLIFIED = dict(zip("黄徴赵孟頫沈周董其昌王恽寿平郑燮刘陈张杨吴钱龚邹罗蓝马冯", "黄徴趙孟頫沈周董其昌王惲壽平鄭燮劉陳張楊呉銭龔鄒羅藍馬馮"))
+
+
+# Same person under a longer art name in one source and the short one elsewhere.
+NAME_ALIASES = {"雪舟等楊": "雪舟", "安藤広重": "歌川広重", "一立斎広重": "歌川広重", "雪村周継": "雪村", "天章周文": "周文",
+                "可翁仁賀": "可翁", "大巧如拙": "如拙", "池野大雅": "池大雅", "谷口蕪村": "与謝蕪村", "画狂老人卍": "葛飾北斎",
+                "応挙": "円山応挙", "牧谿法常": "牧谿", "梁楷": "梁楷"}
 
 
 def fold_cjk(s):
@@ -208,6 +215,7 @@ def fold_rom(s):
     return re.sub(r"[^a-z]", "", s)
 
 
+NAME_ALIASES_F.update({fold_cjk(k): fold_cjk(v) for k, v in NAME_ALIASES.items()})
 CJK = re.compile(r"[぀-ヿ㐀-鿿豈-﫿가-힯]")
 
 
@@ -244,6 +252,7 @@ def life_dates(text):
 # under each country and resolved by the object's country.
 PERIODS = [
     # Japan
+    ("Paleolithic (Japan)", "Japan", -38000, -14000, ["旧石器", "先土器"]),
     ("Jōmon", "Japan", -10000, -300, ["縄文", "jomon", "jōmon"]),
     ("Yayoi", "Japan", -300, 250, ["弥生", "yayoi"]),
     ("Kofun", "Japan", 250, 592, ["古墳", "kofun"]),
@@ -262,6 +271,7 @@ PERIODS = [
     ("Muromachi", "Japan", 1336, 1573, ["무로마치"]),
     ("Momoyama", "Japan", 1573, 1615, ["모모야마"]),
     ("Meiji–Shōwa (modern)", "Japan", 1868, 1989, ["근대"]),
+    ("Ryukyu Kingdom", "Japan", 1429, 1879, ["尚氏", "琉球王国", "ryukyu kingdom"]),
     # China
     ("Neolithic", "China", -7000, -1600, ["新石器", "neolithic", "신석기"]),
     ("Shang", "China", -1600, -1046, ["商", "殷", "shang", "상"]),
@@ -323,6 +333,10 @@ for _i, (_en, _c, _b, _e, _al) in enumerate(PERIODS):
             _PALIAS.append((_a, None, _i))
         else:
             _PALIAS.append((_a, re.compile(r"(?<![a-z])" + re.escape(_a) + r"(?![a-z])"), _i))
+_COUNTRIES_OF = collections.defaultdict(set)
+for _a, _, _i in _PALIAS:
+    _COUNTRIES_OF[_a].add(PERIODS[_i][1])
+_UNIQUE = [all(len(_COUNTRIES_OF[a]) == 1 for a in p[4]) for p in PERIODS]
 # Single CJK characters that are also common in Japanese era names / words
 # (元禄, 明暦, 金銅); they only count when nothing longer matched.
 WEAK = {"元", "明", "金", "清", "宋", "唐", "商", "秦", "漢", "隋", "晉", "晋", "殷", "汉", "수", "당", "송", "원", "명",
@@ -351,6 +365,11 @@ def period_of(text, country=None):
             hits.append((alias in WEAK, pos, -len(alias), i))
     if not hits:
         return None
+    if not country:
+        # vote with aliases that belong to one country only (三国時代(新羅) -> Korea)
+        votes = collections.Counter(PERIODS[h[3]][1] for h in hits if _UNIQUE[h[3]])
+        if len(votes) == 1:
+            country = next(iter(votes))
     if country:
         same = [h for h in hits if PERIODS[h[3]][1] == country]
         if same:
@@ -405,8 +424,11 @@ def jp_makers(raw):
         if not tok:
             continue
         name, role, attr = split_jp_maker(tok)
-        if len(name) < 2 or PLACEHOLDER.search(name):
+        name = name.strip("[]【】［］「」 ")
+        if len(name) < 2 or PLACEHOLDER.search(name) or NON_PERSON.search(name) or WORKSHOP.search(name):
             continue
+        if re.fullmatch(r"[\x00-\x7f\uff01-\uff5e]+", name) and (len(name) < 6 or "&" in name or " " not in name):
+            continue   # photographic studios and fragments ("Cie", "AD．BRAUN")
         out.append((name, role, attr))
     return out
 
@@ -627,6 +649,11 @@ PLACE_COUNTRY = [(r"台湾|taiwan", "Taiwan"), (r"中国|景徳鎮|china|chaina|
                   r"薩摩|美濃|備前|信楽|丹波|越前|常滑|萩|唐津|九谷|鍋島|肥前|尾張|加賀|[都道府県]$", "Japan")]
 
 
+FOREIGN = re.compile(r"タイ|インド|ベトナム|オランダ|アメリカ|イギリス|フランス|ドイツ|イタリア|スペイン|ポルトガル|エジプト|"
+                     r"イラン|ペルシ|ギリシ|ローマ|カンボジア|ミャンマー|インドネシア|ジャワ|クメール|アフガ|パキスタン|ガンダーラ|"
+                     r"ネパール|チベット|モンゴル|西アジア|ヨーロッパ|ムガル|阮朝|ラーンナー")
+
+
 def place_country(place):
     if not place:
         return ""
@@ -672,6 +699,8 @@ def load_colbase():
             place = g("制作地") or g("Country/Origin")
             period_txt = g("時代世紀")
             pc = place_country(place)
+            if not pc and FOREIGN.search(period_txt):
+                pc = "other"
             pidx = period_of(period_txt or g("Period/Century"), pc if pc in EAST else None)
             country = pc
             if not country:
@@ -714,6 +743,8 @@ def load_colbase():
                     attribution=attribution, designation=des, designation_en=DESIGNATION_EN.get(des, des),
                     date=period_txt, date_begin=b, date_end=e, holder=COLBASE_INST.get(inst, inst),
                     url=g("URL"), _makers=mk)
+            if attribution == "workshop":
+                o["_workshop"] = re.sub(r"^中国・", "", raw_maker)
             out.append(o)
     print(f"ColBase: {len(out):,} East Asian objects; dropped {sum(dropped.values()):,} "
           f"(non-East-Asian or unknown place: {dict(dropped.most_common(6))})")
@@ -909,7 +940,7 @@ NPM_DYNASTIES = ["-7000~-2000~新石器時代", "-2600~-2000~新石器時代晚�
 NPM_PAGE = 2000
 NPM_ARTIST_CATS = {"繪畫", "法書", "成扇"}
 NPM_PREFIXES = sorted(["六朝梁", "六朝", "五代南唐", "五代後蜀", "五代", "南唐", "北宋", "南宋", "東晉", "西晉", "晉", "唐", "宋",
-                       "元", "明", "清", "金", "遼", "隋", "民國", "後梁", "北魏", "漢", "梁", "陳", "宋元", "元明", "明清"],
+                       "元", "明", "清", "金", "遼", "隋", "民國", "後梁", "北魏", "漢", "宋元", "元明", "明清"],
                       key=len, reverse=True)
 NPM_NOT_NAME = set("圖卷冊軸畫帖集冊頁幅屏書法墨跡")
 NPM_BAD_END = set("畫寫書臨仿摹倣墨繪行草楷題詩詞山水花鳥竹梅蘭石松雪秋春夏冬江溪雲林圖卷冊軸人物蓮荷集等御製法帖與及并合"
@@ -927,7 +958,7 @@ def npm_search(fetcher, cat, dyn, page):
         return None
     t = data.decode("utf-8", "replace")
     items = re.findall(r"Detail\('(\d+)',\s*'(\w+)'\)\"\s*class=\"card\">.*?card-title\">([^<]*)<", t, re.S)
-    if not items and "card-title" in t:
+    if not items:
         return None
     return [[i, dep, html.unescape(title).strip()] for i, dep, title in items]
 
@@ -1357,6 +1388,8 @@ def fetch_korea(delay, n_details):
 
 CMA_API = "https://openaccess-api.clevelandart.org/api/artworks/"
 CMA_DEPTS = {"Chinese Art": "China", "Japanese Art": "Japan", "Korean Art": "Korea"}
+CMA_NON_CREATOR = {"inscriber", "publisher", "author", "collector", "former owner", "printer", "editor",
+                   "translator", "compiler", "commentator", "seal carver", "owner"}
 CMA_FIELDS = ("id,accession_number,title,culture,creators,type,technique,creation_date,creation_date_earliest,"
               "creation_date_latest,department,url,collection")
 
@@ -1412,11 +1445,15 @@ def cma_object(o, country):
                 dates = (b, d)
         except ValueError:
             dates = life_dates(desc)
+        role = (c.get("role") or "artist").lower()
         mk.append({"name": orig if has_cjk(orig) else "", "rom": rom, "dates": dates,
-                   "role": "artist" if (c.get("role") or "artist") in ("artist", "") else c.get("role"),
-                   "attributed": attributed})
+                   "role": role if role in CMA_NON_CREATOR else "artist", "attributed": attributed})
     raw = " ".join((c.get("description") or "") for c in o.get("creators") or [])
-    attribution = maker_attribution([m for m in mk if m["role"] in CREATOR_ROLES or m["role"] == "artist"], raw)
+    attribution = maker_attribution(mk, raw)
+    if attribution == "workshop":
+        ob_workshop = re.sub(r"\s*\(.*", "", raw)[:40]
+    else:
+        ob_workshop = ""
     otype = en_type(o.get("type"), o.get("collection"), o.get("technique"))
     ob = obj(source="cma", id=str(o.get("id")), title=o.get("title", ""), country=country,
              period_original=culture, _period_idx=pidx, object_type=otype,
@@ -1424,6 +1461,7 @@ def cma_object(o, country):
              date=o.get("creation_date", ""), date_begin=o.get("creation_date_earliest"),
              date_end=o.get("creation_date_latest"), holder="Cleveland Museum of Art",
              url=o.get("url", ""), _makers=mk)
+    ob["_workshop"] = ob_workshop
     return ob
 
 
@@ -1481,7 +1519,8 @@ def build_artists(objects):
     for o in objects:
         for m in o["_makers"]:
             if m["name"]:
-                m["key"] = "o:" + fold_cjk(m["name"])
+                fk = fold_cjk(m["name"])
+                m["key"] = "o:" + NAME_ALIASES_F.get(fk, fk)
                 if m["rom"]:
                     rom2key[fold_rom(m["rom"])][m["key"]] += 1
     for o in objects:
@@ -1627,10 +1666,8 @@ def build_traditions(objects, facet_counts):
         c["src"][o["source"]] += 1
         if o["designation"]:
             c["des"] += 1
-        if o["attribution"] == "workshop":
-            for m in o["_makers"] or [{"name": ""}]:
-                if m["name"]:
-                    c["workshops"][m["name"]] += 1
+        if o["attribution"] == "workshop" and o.get("_workshop"):
+            c["workshops"][o["_workshop"][:30]] += 1
         if o["period_original"]:
             c["orig"][o["period_original"][:40]] += 1
         if len(c["examples"]) < 3 and (o["designation"] or len(c["examples"]) < 2):

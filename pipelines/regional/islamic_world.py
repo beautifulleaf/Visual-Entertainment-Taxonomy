@@ -130,8 +130,13 @@ def fetch(url, path):
                 print(f"  {e.code} {url}", file=sys.stderr)
                 return None
             print(f"  {e.code} {url} (retry {attempt + 1})", file=sys.stderr)
-        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+        except (urllib.error.URLError, TimeoutError, ConnectionError, OSError) as e:
             print(f"  {e} {url} (retry {attempt + 1})", file=sys.stderr)
+        except ValueError as e:   # malformed URL: no point retrying
+            print(f"  {e}", file=sys.stderr)
+            return None
+        except Exception as e:    # IncompleteRead, RemoteDisconnected, ...
+            print(f"  {type(e).__name__}: {e} {url} (retry {attempt + 1})", file=sys.stderr)
         time.sleep(5 * (attempt + 1))
     return None
 
@@ -631,7 +636,7 @@ def harvest_dia(details=True):
     for key, ent in objs.items():
         en = ent["en"]
         f = {}
-        url = (en.get("objectUrl") or "").replace("&pageD=N", "")
+        url = urllib.parse.urljoin(DIA_SITE, (en.get("objectUrl") or "").replace("&pageD=N", ""))
         if details and url:
             page = fetch(url, os.path.join(RAW, "dia", "items", slug(key) + ".html"))
             if page:

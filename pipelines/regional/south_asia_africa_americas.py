@@ -437,14 +437,25 @@ def vam_sweep(params, cache_dir, label):
 
 
 def vam_split(params, cache_dir, label, lo=-10000, hi=3000):
-    """Yield records for params, bisecting the year range until each query is under the cap."""
-    n = vam_count(dict(params, year_made_from=lo, year_made_to=hi), cache_dir)
+    """Yield records for params, splitting the year range until each part can be read.
+
+    The year filter matches every record whose date range *overlaps* the window,
+    so many records spanning e.g. 1800-1900 fall in every narrow window and
+    bisection alone cannot get under the cap. A window of up to twice the cap is
+    therefore read twice, ordered by date ascending and descending."""
+    p = dict(params, year_made_from=lo, year_made_to=hi)
+    n = vam_count(p, cache_dir)
     if n == 0:
         return
-    if n <= VAM_MAX or hi - lo < 2:
-        if n > VAM_MAX:
-            print(f"  V&A {label} {lo}-{hi}: {n} records, capped at {VAM_MAX}", file=sys.stderr)
-        yield from vam_pages(dict(params, year_made_from=lo, year_made_to=hi), cache_dir, f"{label}_{lo}_{hi}")
+    tag = f"{label}_{lo}_{hi}".replace("-", "m")
+    if n <= VAM_MAX:
+        yield from vam_pages(p, cache_dir, tag)
+        return
+    if n <= 2 * VAM_MAX or hi - lo < 2:
+        if n > 2 * VAM_MAX:
+            print(f"  V&A {label} {lo}-{hi}: {n} records, only {2 * VAM_MAX} reachable", file=sys.stderr)
+        for order in ("asc", "desc"):
+            yield from vam_pages(dict(p, order_by="date", order_sort=order), cache_dir, f"{tag}_{order}")
         return
     if lo < 0 < hi:
         mid = 0
@@ -515,7 +526,7 @@ def cma_department(dept, cache_dir):
     skip, limit = 0, 100
     while True:
         url = CMA_API + "?" + urllib.parse.urlencode(
-            {"department": dept, "skip": skip, "limit": limit, "fields": CMA_FIELDS})
+            {"department": dept, "skip": skip, "limit": limit, "fields": CMA_FIELDS}, safe=",")
         d = cached_json(url, os.path.join(cache_dir, f"{slug(dept)}_{skip:05d}.json.gz"), reduce=cma_reduce,
                         ok=lambda d: bool(d["data"]) and d["info"]["total"] > 0)
         if not d or not d.get("data"):
@@ -982,9 +993,14 @@ def century_label(begin, end):
         return ""
     b = begin if begin is not None else end
     e = end if end is not None else begin
-    if e - b > 300:
-        return ""
     mid = (b + e) / 2
+    if e - b > 300:
+        # broad archaeological ranges: name the millennium when the range sits inside one
+        mb, me = (b - 1) // 1000 if b > 0 else -((-b) // 1000) - 1, (e - 1) // 1000 if e > 0 else -((-e) // 1000) - 1
+        if e - b <= 1000 and mb == me:
+            k = mb + 1 if mb >= 0 else -mb
+            return f"{k}{_suffix(k)} millennium {'CE' if mb >= 0 else 'BCE'}"
+        return ""
     if mid < 0:
         c = int((-mid) // 100) + 1
         return f"{c}{_suffix(c)} century BCE"
@@ -1056,9 +1072,10 @@ def object_group(*texts):
 
 PLACEHOLDER = re.compile(
     r"(?i)^(unknown|unidentified|anonymous|anoniem|not known|unrecorded|n/?a|none|various|others?|"
-    r"artist unknown|maker unknown|unknown maker)\b|\bartists?(\s*\(s\))?$|^artists? of\b|\b(guild|caste)\b|"
+    r"artist unknown|maker unknown|unknown maker)\b|\b(unknown|unidentified)$|"
+    r"^[\w'-]+ (embroiderer|weaver|potter|carver|maker|painter|smith|sculptor|craftsman|beadworker)s?$|\bartists?(\s*\(s\))?$|^artists? of\b|\b(guild|caste)\b|"
     r"\b(people|peoples|culture|style|school|tribe)$|^(workshop|atelier)$")
-MAKER_CLEAN = re.compile(r"(?i)^(attributed to|attrib\.?|probably by|possibly by|probably|possibly|perhaps|"
+MAKER_CLEAN = re.compile(r"(?i)^(design(ed)? attributed to|attributed to|attrib\.?|probably by|possibly by|probably|possibly|perhaps|"
                          r"workshop of|studio of|circle of|follower of|school of|style of|after|designed by|"
                          r"made by|carved by|painted by|signed by|by)\s+")
 
@@ -1117,6 +1134,18 @@ def year(v):
     return int(m.group(1)) if m else None
 
 
+FALLBACK_NAME = {
+    "democratic republic of the congo": "DR Congo", "democratic republic of congo": "DR Congo", "zaire": "DR Congo",
+    "belgian congo": "DR Congo", "congo": "Congo", "republic of the congo": "Republic of the Congo",
+    "cote d ivoire": "Cote d'Ivoire", "cote divoire": "Cote d'Ivoire", "ivory coast": "Cote d'Ivoire",
+    "central coast": "Peru, central coast", "north coast": "Peru, north coast", "south coast": "Peru, south coast",
+    "peruvian north coast": "Peru, north coast", "peruvian south coast": "Peru, south coast",
+    "southern peru": "Peru, south", "northern peru": "Peru, north", "nazca valley": "Peru, south coast",
+    "moche valley": "Peru, north coast", "burma": "Myanmar", "siam": "Thailand", "ceylon": "Sri Lanka",
+    "usa": "United States", "upper volta": "Burkina Faso", "dahomey": "Republic of Benin",
+    "gold coast": "Ghana", "abyssinia": "Ethiopia", "new hebrides": "Vanuatu", "easter island": "Rapa Nui",
+    "northern africa and the sahel": "Sahel", "eastern and southern africa": "Eastern and Southern Africa",
+}
 LATIN = {"Mesoamerica", "Central America and Caribbean", "South America"}
 DROPPED = collections.Counter()
 
@@ -1139,10 +1168,13 @@ def decide_region(source, prior, strong_prior, place_text, label_text, extra_tex
     if not strong_prior and excluded_place(place_text):
         DROPPED[(source, "out-of-scope place first")] += 1
         return None
+    if strong_prior and prior == "africa" and excluded_place(place_text):
+        DROPPED[(source, "out-of-scope place first")] += 1
+        return None
     if strong_prior:
-        region = prior
-        if pm and pm[0] != prior:
-            pm = None
+        # department / section records stay in the department's region unless their
+        # place belongs to another swept region (Cleveland files Island SE Asia under Oceania)
+        region = pm[0] if pm else prior
     else:
         region = pm[0]
         if prior and region != prior:
@@ -1151,7 +1183,7 @@ def decide_region(source, prior, strong_prior, place_text, label_text, extra_tex
     if region in ("americas_oceania", "africa") and needs_indigenous(pm) and not trusted:
         mid = None if begin is None or end is None else (begin + end) / 2
         early = pm[1] in LATIN and mid is not None and mid < 1550
-        if not early and not indigenous_evidence(label_text + " " + extra_text):
+        if not early and not indigenous_evidence(label_text + (" " + extra_text if source in ("vam", "rijks") else "")):
             DROPPED[(source, "settler-country record without Indigenous culture term")] += 1
             return None
     if begin is not None and begin >= 1960:
@@ -1173,7 +1205,7 @@ def classify(row, label_text, place_text, extra_text):
         src = "description"
     if not culture:
         pm = row["_pm"]
-        culture = f"Unspecified ({pm[2].title()})" if pm else "Unspecified"
+        culture = f"Unspecified ({FALLBACK_NAME.get(pm[2], pm[2].title())})" if pm else "Unspecified"
         src = "fallback"
     elif culture in GENERIC_CULTURES:
         src += " (generic)"
@@ -1206,8 +1238,16 @@ def make_row(source, rid, region, pm, title, otype, oclass, labels, place_text, 
            "labels": tidy(labels)[:300], "date_text": tidy(date_text)[:80], "date_begin": begin, "date_end": end,
            "makers": named, "attributed": bool(named), "materials": tidy(materials)[:200],
            "institution": institution, "collection": collection, "url": url, "sweep": sweep}
+    if row["object_group"] == "photograph":
+        DROPPED[(source, "photograph")] += 1
+        return None
     classify(row, labels, place_text, extra)
     return row
+
+
+def _add(out, row):
+    if row is not None:
+        out.append(row)
 
 
 SOURCE_INST = {"vam": "Victoria and Albert Museum", "cma": "Cleveland Museum of Art",
@@ -1235,7 +1275,7 @@ def rows_vam(items):
             continue
         region, pm = dec
         makers = [(n, role) for n, role in r["persons"] + r["orgs"]]
-        out.append(make_row("vam", r["id"], region, pm, r["title"] or typ, typ, "", labels, place_text, extra,
+        _add(out, make_row("vam", r["id"], region, pm, r["title"] or typ, typ, "", labels, place_text, extra,
                             dt, b, e, makers, r["mats"], SOURCE_INST["vam"], r["coll"],
                             VAM_OBJECT_URL.format(r["id"]), sweep))
     return out
@@ -1260,7 +1300,7 @@ def rows_cma(items):
         for c in r.get("creators") or []:
             desc = c.get("description") or ""
             makers.append((desc, c.get("role") or ""))
-        out.append(make_row("cma", r.get("accession_number") or str(r.get("id")), region, pm, r.get("title") or "",
+        _add(out, make_row("cma", r.get("accession_number") or str(r.get("id")), region, pm, r.get("title") or "",
                             r.get("type") or "", "", cult, cult, extra, r.get("creation_date") or "", b, e, makers,
                             r.get("technique") or "", SOURCE_INST["cma"], r.get("department") or "",
                             r.get("url") or "", sweep))
@@ -1281,7 +1321,10 @@ def rows_aic(items):
         disp = r.get("artist_display") or ""
         first = disp.split("\n")[0]
         artist = r.get("artist_title") or ""
-        named = bool(artist) and is_named(artist, None) and is_named(first, None)
+        # AIC files cultures as agents ("Kuba", "Moche", "Grasslands"); personal makers
+        # carry a "(Nationality, dates)" or "active ..." qualifier on the first line
+        named = (bool(artist) and is_named(artist, None) and is_named(first, None)
+                 and bool(re.search(r"\((?=[^)]*(\d{3}|active|born|died|century))", first)))
         styles = "; ".join(r.get("style_titles") or [])
         culture_lines = disp if not named else "\n".join(disp.split("\n")[1:])
         labels = "; ".join(x for x in (culture_lines.replace("\n", "; "), styles) if x)
@@ -1294,7 +1337,7 @@ def rows_aic(items):
             continue
         region, pm = dec
         makers = [(first if "(" in first else artist, "")] if named else []
-        out.append(make_row("aic", str(r["id"]), region, pm, r.get("title") or "",
+        _add(out, make_row("aic", str(r["id"]), region, pm, r.get("title") or "",
                             r.get("artwork_type_title") or "", r.get("classification_title") or "", labels,
                             place_text, extra, r.get("date_display") or "", b, e, makers,
                             r.get("medium_display") or "", SOURCE_INST["aic"], dept,
@@ -1320,7 +1363,7 @@ def rows_rijks(items):
         region, pm = dec
         makers = [(m, "") for m in r.get("makers") or [] if not m.startswith("~")]
         title = next((n for n in r.get("names") or [] if n), "")
-        out.append(make_row("rijks", r.get("objno") or r["id"], region, pm, title, types, "", labels,
+        _add(out, make_row("rijks", r.get("objno") or r["id"], region, pm, title, types, "", labels,
                             places + "; " + prod_txt, extra, r.get("date_text") or "", b, e, makers,
                             "; ".join(r.get("mats") or []), SOURCE_INST["rijks"], "", r["id"], sweep))
     return out
