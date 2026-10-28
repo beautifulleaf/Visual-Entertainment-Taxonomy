@@ -176,7 +176,7 @@ def merge():
     """Reviewed batches + overrides → taxonomy/series/{anime,tv,unscripted}_placements.csv."""
     known = {l[0] for v in FT.LEAVES.values() for l in v}
     ov = {r["id"]: r for r in rd(os.path.join(ROOT, "seeds", "classify", "series_overrides.csv"))}
-    sw = {r["id"]: r for r in rd(os.path.join(R, "sweep_out.csv"))}
+    sw = {r["id"]: r for f in sorted(os.listdir(R)) if re.match(r"sweep_\w+\.csv$", f) for r in rd(os.path.join(R, f))}
     for name, prefixes, ev in (("anime", ("anime",), anime_rows), ("tv", ("tv", "drama"), None), ("unscripted", ("unscripted",), unscripted_rows)):
         inputs, out = {}, {}
         for f in sorted(os.listdir(R)):
