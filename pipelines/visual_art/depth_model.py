@@ -1,8 +1,10 @@
 """Artist-depth model: learn "reference-list depth" and apply it region by region.
 
 visual-art-plan.md §2.1. The reference list (seeds/visual-art/*_depth_reference.txt)
-gives the positives; every other pooled artist is unlabelled (treated as negative).
-Each feature is converted to a percentile within its region x period cell, so a
+gives the positives. It is a painting list, so other pooled painters are the
+negatives, and artists in other media (sculpture, printmaking, architecture,
+design, ...) are left out of training and only scored.
+Each feature is converted to a percentile within its medium x period cell, so a
 model fitted on Europe 1400-1900, where Wikipedia and museum coverage is dense,
 can be applied to cells where coverage is thin without emptying them.
 
@@ -61,12 +63,19 @@ def load_features(region):
     holdings = load_table(os.path.join(DATA, "holdings.csv"))
     views = load_table(os.path.join(DATA, "pageviews.csv"))
     regional_ids = set(cfg["authority_ids"])
-    rows = []
+    lo, hi = cfg["active"]
+    rows, outside = [], []
     for q, p in pool.items():
+        # Reference artists not active inside the region's years (e.g. 20th-century
+        # names on the source list) would distort the period cells; leave them out.
+        if p["active_start"] and not (int(float(p["active_start"])) <= hi and int(float(p["active_end"])) >= lo):
+            if int(p["is_reference"]):
+                outside.append(f'{p["label"]} ({p["birth"]})')
+            continue
         h, v = holdings.get(q, {}), views.get(q, {})
         objects = [num(h.get(f"{c}_objects")) for c in cfg["collections"]]
         rows.append({
-            "qid": q, "label": p["label"], "birth": p["birth"], "period": p["period"],
+            "qid": q, "label": p["label"], "birth": p["birth"], "period": p["period"], "medium": p["medium"],
             "in_pool_rule": int(p["in_pool_rule"]), "is_reference": int(p["is_reference"]),
             "sitelinks": num(p["sitelinks"]),
             "pageviews": num(v.get("pageviews")),
@@ -76,23 +85,34 @@ def load_features(region):
             "has_ulan": float(bool(p["ulan_id"])), "has_wikiart": float(bool(p["wikiart_id"])),
             "n_regional_ids": float(len(regional_ids & set(filter(None, p["authority_ids"].split("|"))))),
         })
+    if outside:
+        print(f"{len(outside)} reference artists active outside {lo}-{hi}, not used: {', '.join(outside)}")
     return rows
 
 
 def assign_cells(rows):
-    """Cell = period bucket, with small buckets merged into the following one."""
-    periods = sorted({int(r["period"]) for r in rows if r["period"]})
-    sizes = {pd: sum(1 for r in rows if r["period"] and int(r["period"]) == pd) for pd in periods}
-    groups = []
-    for pd in periods:
-        if not groups or sum(sizes[x] for x in groups[-1]) >= MIN_CELL:
-            groups.append([])
-        groups[-1].append(pd)
-    if len(groups) > 1 and sum(sizes[x] for x in groups[-1]) < MIN_CELL:
-        groups[-2] += groups.pop()  # a small tail joins the previous cell
-    cell_of = {pd: f"{g[0]}-{g[-1] + PERIOD_BUCKET - 1}" for g in groups for pd in g}
+    """Cell = medium x period bucket; within a medium, small buckets merge into the next.
+
+    A medium too small to fill one cell joins "visual art (unspecified)"."""
+    by_medium = {}
     for r in rows:
-        r["cell"] = cell_of.get(int(r["period"])) if r["period"] else "undated"
+        by_medium.setdefault(r["medium"], []).append(r)
+    for medium, rs in list(by_medium.items()):
+        if len(rs) < MIN_CELL and medium != "visual art (unspecified)":
+            by_medium.setdefault("visual art (unspecified)", []).extend(by_medium.pop(medium))
+    for medium, rs in by_medium.items():
+        periods = sorted({int(r["period"]) for r in rs if r["period"]})
+        sizes = {pd: sum(1 for r in rs if r["period"] and int(r["period"]) == pd) for pd in periods}
+        groups = []
+        for pd in periods:
+            if not groups or sum(sizes[x] for x in groups[-1]) >= MIN_CELL:
+                groups.append([])
+            groups[-1].append(pd)
+        if len(groups) > 1 and sum(sizes[x] for x in groups[-1]) < MIN_CELL:
+            groups[-2] += groups.pop()  # a small tail joins the previous cell
+        cell_of = {pd: f"{g[0]}-{g[-1] + PERIOD_BUCKET - 1}" for g in groups for pd in g}
+        for r in rs:
+            r["cell"] = f"{medium} {cell_of[int(r['period'])]}" if r["period"] else f"{medium} undated"
 
 
 def percentile_matrix(rows):
@@ -113,7 +133,7 @@ def percentile_matrix(rows):
 
 def write_scores(region, rows, scores, cutoff):
     out = os.path.join(DATA, f"scores_{region}.csv")
-    cols = ["qid", "label", "birth", "cell", "in_pool_rule", "is_reference", "score", "selected"] + FEATURES
+    cols = ["qid", "label", "birth", "medium", "cell", "in_pool_rule", "is_reference", "score", "selected"] + FEATURES
     with open(out, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
         w.writeheader()
@@ -123,13 +143,14 @@ def write_scores(region, rows, scores, cutoff):
 
 
 def report_cells(rows, scores, cutoff):
-    print(f"\n{'cell':12} {'pool':>6} {'ref':>5} {'selected':>8} {'ref recovered':>13}")
-    for cell in sorted({r["cell"] for r in rows}):
-        idx = [i for i, r in enumerate(rows) if r["cell"] == cell]
-        ref = [i for i in idx if rows[i]["is_reference"]]
-        sel = sum(1 for i in idx if scores[i] >= cutoff and (rows[i]["in_pool_rule"] or rows[i]["is_reference"]))
-        rec = sum(1 for i in ref if scores[i] >= cutoff)
-        print(f"{cell:12} {len(idx):>6} {len(ref):>5} {sel:>8} {rec:>6}/{len(ref):<6}")
+    for key, title in (("medium", "medium"), ("cell", "cell")):
+        print(f"\n{title:42} {'pool':>6} {'ref':>5} {'selected':>8} {'ref recovered':>13}")
+        for group in sorted({r[key] for r in rows}):
+            idx = [i for i, r in enumerate(rows) if r[key] == group]
+            ref = [i for i in idx if rows[i]["is_reference"]]
+            sel = sum(1 for i in idx if scores[i] >= cutoff and (rows[i]["in_pool_rule"] or rows[i]["is_reference"]))
+            rec = sum(1 for i in ref if scores[i] >= cutoff)
+            print(f"{group:42} {len(idx):>6} {len(ref):>5} {sel:>8} {rec:>6}/{len(ref):<6}")
 
 
 def fit(region, recall):
@@ -140,16 +161,21 @@ def fit(region, recall):
     assign_cells(rows)
     X = percentile_matrix(rows)
     y = np.array([r["is_reference"] for r in rows])
-    print(f"{region}: {len(rows)} artists ({sum(r['in_pool_rule'] for r in rows)} by the pool rule), {y.sum()} reference positives")
+    # The reference list covers painting only, so unlisted artists in other media
+    # are not negatives: train on the training media plus every reference artist.
+    train = np.array([r["medium"] in cfg["train_media"] or r["is_reference"] for r in rows])
+    print(f"{region}: {len(rows)} artists ({sum(r['in_pool_rule'] for r in rows)} by the pool rule), {y.sum()} reference positives; "
+          f"training on {train.sum()} ({', '.join(cfg['train_media'])} + reference)")
 
-    model = LogisticRegression(C=1.0, max_iter=2000).fit(X, y)
+    model = LogisticRegression(C=1.0, max_iter=2000).fit(X[train], y[train])
     scores = model.predict_proba(X)[:, 1]
     cutoff = float(np.quantile(scores[y == 1], 1 - recall))
 
-    # Honest check: out-of-fold scores, same recall target.
+    # Honest check: out-of-fold scores on the training rows, same recall target.
     oof = np.zeros(len(y))
-    for tr, te in StratifiedKFold(5, shuffle=True, random_state=0).split(X, y):
-        oof[te] = LogisticRegression(C=1.0, max_iter=2000).fit(X[tr], y[tr]).predict_proba(X[te])[:, 1]
+    Xt, yt, ti = X[train], y[train], np.flatnonzero(train)
+    for tr, te in StratifiedKFold(5, shuffle=True, random_state=0).split(Xt, yt):
+        oof[ti[te]] = LogisticRegression(C=1.0, max_iter=2000).fit(Xt[tr], yt[tr]).predict_proba(Xt[te])[:, 1]
     oof_cut = float(np.quantile(oof[y == 1], 1 - recall))
     in_rule = np.array([r["in_pool_rule"] for r in rows]) == 1
 
@@ -161,8 +187,8 @@ def fit(region, recall):
     print(f"\ncutoff for {recall:.0%} reference recall: score >= {cutoff:.4f}")
     print(f"  selects {int(selected.sum())} artists ({int((selected & (y == 0)).sum())} beyond the reference list)")
     print(f"  pool-rule artists at or above the cutoff: {int((in_rule & (scores >= cutoff)).sum())}")
-    print(f"  cross-validated: cutoff {oof_cut:.4f} recovers {recall:.0%} out-of-fold and selects "
-          f"{int(((oof >= oof_cut) & (in_rule | (y == 1))).sum())}; the fitted cutoff recovers {(oof[y == 1] >= cutoff).mean():.1%} out-of-fold")
+    print(f"  cross-validated (training media only): cutoff {oof_cut:.4f} recovers {recall:.0%} out-of-fold and selects "
+          f"{int(((oof >= oof_cut) & train & (in_rule | (y == 1))).sum())}; the fitted cutoff recovers {(oof[y == 1] >= cutoff).mean():.1%} out-of-fold")
     report_cells(rows, scores, cutoff)
 
     ref_rows = load_reference(cfg)

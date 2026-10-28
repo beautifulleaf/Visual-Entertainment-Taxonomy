@@ -57,7 +57,7 @@ ART_OCCUPATIONS = " ".join("wd:" + q for q in (
     "Q16947657",  # lithographer
     "Q3303330",   # calligrapher
     "Q5322166",   # designer
-    "Q7541856",   # miniaturist
+    "Q7541856",   # ceramicist
 ))
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))

@@ -4,7 +4,8 @@ calibrate_depth.py writes data/interim/depth_reference_matched.csv (one row per
 reference name, with the Wikidata match it picked). Wrong or missing picks are
 corrected in the committed seeds/visual-art/depth_reference_overrides.csv:
   name,qid,note
-An empty qid drops the name (no Wikidata item, or not an individual artist).
+An empty qid drops the name (no Wikidata item, or not an individual artist);
+"Q1|Q2" splits an entry that fuses two artists.
 """
 import csv
 import os
@@ -30,6 +31,8 @@ def load_reference(region_cfg):
         for r in csv.DictReader(f):
             if r.get("list") and r["list"] != seed:
                 continue
-            qid = overrides.get(r["name"], r.get("qid") or "")
-            rows.append({"movement": r["movement"], "name": r["name"], "qid": qid})
+            qids = overrides.get(r["name"], r.get("qid") or "")
+            # "Q1|Q2" splits an entry that fuses two artists into two positives.
+            for qid in qids.split("|"):
+                rows.append({"movement": r["movement"], "name": r["name"], "qid": qid})
     return rows

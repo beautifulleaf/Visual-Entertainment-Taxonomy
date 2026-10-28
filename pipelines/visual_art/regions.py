@@ -12,7 +12,7 @@ to the country of the place of birth (P19) and then of death (P20). A country is
 in the region if its continent (P30) is listed in `continents` or the country
 itself is listed in `countries`.
 
-Evidence is per region: `occupations` (who counts as an artist there),
+Evidence is per region: `media` (which occupation groups count as artists there),
 `collections` (which museum holdings count) and `authority_ids` (which regional
 databases count). The model only sees abstract features built from them
 (museum_objects, n_museums, n_regional_ids, ...), each turned into a percentile
@@ -28,6 +28,39 @@ ASIA, AFRICA = "Q48", "Q15"
 
 PAINTER = "Q1028181"
 
+# Visual-art occupations grouped by medium (the third axis of the grid, beside
+# region and period). Order matters: an artist's primary medium is the first
+# group that matches any of their occupations; all matching media are kept too.
+MEDIA = {
+    "painting": [PAINTER],
+    "sculpture": ["Q1281618", "Q1708232"],                     # sculptor, medalist
+    "architecture": ["Q42973", "Q2815948"],                    # architect, landscape architect
+    "photography": ["Q33231"],                                 # photographer
+    "printmaking": ["Q11569986", "Q329439", "Q10862983", "Q16947657"],  # printmaker, engraver, etcher, lithographer
+    "book arts": ["Q998628", "Q47494964", "Q3303330"],         # illuminator, miniaturist, calligrapher
+    "design and decorative arts": [
+        "Q5322166",   # designer
+        "Q211423",    # goldsmith
+        "Q2216340",   # silversmith
+        "Q336221",    # jeweler
+        "Q7541856",   # ceramicist
+        "Q3400050",   # potter
+        "Q2865798",   # glass artist
+        "Q2205972",   # stained-glass artist
+        "Q559597",    # cabinetmaker
+        "Q11455387",  # furniture designer
+        "Q10694573",  # textile artist
+        "Q21117684",  # tapestry weaver
+        "Q282718",    # mosaicist
+        "Q56673616",  # decorative artist
+        "Q2133309",   # interior designer
+        "Q3501317",   # fashion designer
+    ],
+    "drawing and illustration": ["Q15296811", "Q644687", "Q3658608", "Q1925963"],  # draftsperson, illustrator, caricaturist, graphic artist
+    "visual art (unspecified)": ["Q3391743"],                  # visual artist
+}
+ALL_MEDIA = list(MEDIA)
+
 # Encyclopedic open-access collections, a baseline for every region. Regions add
 # their specialist collections on top (the decisive ones differ by region and era).
 GLOBAL_COLLECTIONS = ["met", "aic", "cma"]
@@ -36,9 +69,13 @@ GLOBAL_IDS = {"P245": "ulan", "P6002": "wikiart"}
 
 REGIONS = {
     "europe_1400-1900": {
-        "label": "Europe and its colonies, painters active 1400-1900",
+        "label": "Europe and its colonies, visual artists active 1400-1900",
         "active": (1400, 1900),
-        "occupations": [PAINTER],
+        "media": ALL_MEDIA,
+        # The reference list is painting movements, so the model is fitted on the
+        # painting cells (plus reference artists from any medium) and applied to
+        # every medium with within-cell percentiles.
+        "train_media": ["painting"],
         "continents": [EUROPE, NORTH_AMERICA, SOUTH_AMERICA, OCEANIA, INSULAR_OCEANIA, AUSTRALIA],
         # Colonial states outside those continents.
         "countries": [
@@ -75,7 +112,8 @@ REGIONS = {
     # "east_asia_pre1900": {
     #     "label": "China, Japan, Korea: painters, calligraphers, print designers, before 1900",
     #     "active": (600, 1900),
-    #     "occupations": [PAINTER, "Q3303330", "Q11569986"],  # + calligrapher, printmaker
+    #     "media": ALL_MEDIA,  # plus region-specific occupations (ink painter, ukiyo-e artist, ...) added to MEDIA
+    #     "train_media": ["painting"],
     #     "continents": [],
     #     "countries": [...],  # China and its dynasties, Japan, Korea, ...
     #     "min_sitelinks": 3,
@@ -86,8 +124,8 @@ REGIONS = {
 }
 
 # Width (years) of the period buckets inside a region. Features are converted to
-# percentiles within each region x period cell, so a model fitted where Wikipedia
-# coverage is dense transfers to cells where it is thin.
+# percentiles within each region x period x medium cell, so a model fitted where
+# Wikipedia coverage is dense transfers to cells (and media) where it is thin.
 PERIOD_BUCKET = 50
 
 
