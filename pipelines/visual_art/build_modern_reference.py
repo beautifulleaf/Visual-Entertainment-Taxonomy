@@ -228,14 +228,14 @@ def fetch_nonwestern_candidates():
 def wiki_get(params):
     """English Wikipedia API call, paced and honouring Retry-After."""
     url = "https://en.wikipedia.org/w/api.php?" + urllib.parse.urlencode({**params, "format": "json"})
-    for attempt in range(10):
+    for attempt in range(40):
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=60) as r:
                 data = json.load(r)
             time.sleep(1)
             return data
         except urllib.error.HTTPError as e:
-            wait = int(e.headers.get("Retry-After") or 0) or min(300, 10 * 2 ** attempt)
+            wait = int(e.headers.get("Retry-After") or 0) or min(300, 10 * 2 ** min(attempt, 5))
             print(f"    Wikipedia HTTP {e.code}, retrying in {wait}s")
             time.sleep(wait)
         except (urllib.error.URLError, TimeoutError, ConnectionError, json.JSONDecodeError) as e:
@@ -263,7 +263,15 @@ def article_link_qids(titles):
                 cont = {k: v for k, v in data["continue"].items()}
             out[title] = sorted(set(qids))
         return out
-    return chunked_cache("enwiki_links.json", titles, q)
+    path = os.path.join(RAW, "enwiki_links.json")
+    data = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
+    todo = [t for t in titles if t not in data]
+    for i, t in enumerate(todo, 1):   # saved per article: the API is often rate-limited
+        data.update(q([t]))
+        json.dump(data, open(path, "w", encoding="utf-8"), ensure_ascii=False)
+        if i % 20 == 0 or i == len(todo):
+            print(f"  enwiki_links: {i}/{len(todo)}")
+    return data
 
 
 def filter_artists(qids):

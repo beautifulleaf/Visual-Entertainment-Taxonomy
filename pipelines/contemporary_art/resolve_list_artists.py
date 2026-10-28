@@ -31,7 +31,10 @@ Steps
    Stage B needs QLever's fast prefix filter, so it is skipped with --endpoint wdqs.
 4. Disambiguation per candidate (facts fetched for every candidate and cached):
    art      a visual-art occupation (build_pool.art_occupations()), or for a group an
-            artist-collective / art-group type or an art field of work (P101);
+            artist-collective / art-group type or an art field of work (P101), or
+            failing those a description naming an art practice ("Lebanese artist",
+            "pintora mexicana"): many biennial artists have stub items with a
+            description but no occupation;
    creative a film, music, writing, design, architecture or curating occupation;
    birth    birth (or inception) year within 1 year of the list's birth year;
             2-3 years off is neutral, more is a conflict;
@@ -570,6 +573,59 @@ def type_roots(endpoint, types):
 
 # ---------------------------------------------------------------- evidence
 
+DESC_LANGS = ["en", "mul", "fr", "de", "es", "pt", "it", "nl"]
+# Descriptions naming a visual-art practice ("Lebanese artist", "pintora mexicana"):
+# many biennial artists have stub items with a description but no occupation.
+ART_DESC = re.compile(r"\b(artist|painter|sculptor|photographer|illustrator|printmaker|ceramicist|"
+                      r"installation|video art|performance art|visual art|künstler(in)?|maler(in)?|bildhauer(in)?|"
+                      r"fotograf(in)?|artiste|peintre|sculpt(eur|rice)|photographe|plasticien(ne)?|artista|"
+                      r"pintor(a)?|escultor(a)?|fot[oó]graf[oa]|kunstenaar|schilder|beeldhouwer|fotograaf|"
+                      r"pittore|pittrice|scultore|scultrice)\b", re.I)
+NOT_ART_DESC = re.compile(r"\b(martial|make-?up|recording|con|voice|trapeze|escape|hip hop|rap|musical|"
+                          r"tattoo|visual effects)\s+(artist|artiste|artista)|art historian", re.I)
+
+
+def attach_descriptions(endpoint, facts, qids, workers):
+    """Add f["descs"] (descriptions in DESC_LANGS) to facts; cached per QID."""
+    path = os.path.join(RAW, "descriptions.json")
+    known = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
+    todo = sorted(q for q in qids if q not in known)
+    langs = ", ".join(f'"{x}"' for x in DESC_LANGS)
+
+    def make(chunk):
+        values = " ".join("wd:" + q for q in chunk)
+        return f"""SELECT ?p ?d WHERE {{ VALUES ?p {{ {values} }}
+              ?p schema:description ?d . FILTER(LANG(?d) IN ({langs})) }}"""
+    if todo:
+        chunks = [todo[i:i + 300] for i in range(0, len(todo), 300)]
+        for i, chunk in enumerate(chunks, 1):
+            try:
+                rows = run_sparql(endpoint, make(chunk))
+            except (RuntimeError, QueryTimeout) as e:
+                print(f"    descriptions chunk skipped ({str(e)[:60]})")
+                continue
+            for q in chunk:
+                known[q] = []
+            for r in rows:
+                known[r["p"]].append(r["d"])
+            if i % 10 == 0 or i == len(chunks):
+                print(f"  descriptions: {i}/{len(chunks)} queries")
+        with open(path + ".part", "w", encoding="utf-8") as f:
+            json.dump(known, f, ensure_ascii=False)
+        os.replace(path + ".part", path)
+    for q in qids:
+        if q in facts:
+            facts[q]["descs"] = known.get(q, [])
+
+
+def desc_art(descs):
+    """The first description that names a visual-art practice, or None."""
+    for d in descs:
+        if ART_DESC.search(d) and not NOT_ART_DESC.search(d):
+            return d
+    return None
+
+
 class Judge:
     def __init__(self, facts, troots, art_occs, country_lookup_):
         self.facts, self.troots, self.art, self.clook = facts, troots, art_occs, country_lookup_
@@ -596,9 +652,13 @@ class Judge:
         ev = []
         occs = set(cl.get("P106", []))
         art = bool(occs & self.art) or kind == "art_group" or bool(set(cl.get("P101", [])) & ART_FIELDS)
-        creative = not art and bool(occs & CREATIVE_OCCS)
+        dart = None if art else desc_art(f.get("descs", []))
+        creative = not art and not dart and bool(occs & CREATIVE_OCCS)
         if art:
             ev.append("art")
+        elif dart:
+            art = True
+            ev.append(f"art (description: {dart[:60]})")
         if creative:
             ev.append("creative")
         wb = [y for y in cl.get("P569", []) + (cl.get("P571", []) if kind != "human" else []) if y is not None]
@@ -936,6 +996,7 @@ def main():
         nonlocal facts, troots
         qids = {q for c in cands.values() for q in c}
         facts = fetch_facts(ep, qids, args.workers)
+        attach_descriptions(ep, facts, qids, args.workers)
         types = {t for q in qids if q in facts for t in facts[q]["claims"].get("P31", [])} - {HUMAN}
         troots = type_roots(ep, types)
         judge = Judge(facts, troots, art, clook)
