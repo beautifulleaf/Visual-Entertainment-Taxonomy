@@ -25,9 +25,9 @@ R = os.path.join(VA, "review")
 SCALEUP = os.path.join(VA, "leaves_scaleup.csv")
 SLICES = ["south_asia", "himalaya_central_asia", "southeast_asia", "east_asia", "africa", "ancient_world",
           "mesoamerica_south_america", "north_america_indigenous", "oceania_australia", "europe_other",
-          "europe_folk_west", "europe_folk_east", "gapsweep_europe", "architecture_west", "architecture_nonwest", "artists"]
+          "europe_folk_west", "europe_folk_east", "gapsweep_europe", "probefix", "architecture_west", "architecture_nonwest", "artists"]
 # slices whose input is their own disposition file rather than a region pool
-NOPOOL = {"gapsweep_europe", "architecture_west", "architecture_nonwest"}
+NOPOOL = {"gapsweep_europe", "probefix", "architecture_west", "architecture_nonwest"}
 
 
 def ref(codes, sl, r):
@@ -155,7 +155,9 @@ def main():
                             "disposition": f"kind:{code}" + (f"/{k['group']}" if k.get("group") else ""), "note": k.get("basis", "")})
                 stats[sl, "kind (evidence)"] += 1
     # artists: one kind row per placed artist, under its leaf (T… tmp ids, slice:L… ids or existing codes)
-    aov = {r["qid"]: r for r in rd(os.path.join(ROOT, "seeds", "classify", "artist_overrides.csv"))}
+    aov = {r["qid"]: {"leaf": "probefix:" + r["new_leaf_tmp"].strip(), "kind": "", "note": r.get("note", "")}
+           for r in rd(os.path.join(R, "probefix_artists.csv"))}
+    aov.update({r["qid"]: r for r in rd(os.path.join(ROOT, "seeds", "classify", "artist_overrides.csv"))})
     for a in rd(os.path.join(VA, "artist_placements.csv")):
         if a["qid"] in aov:
             a = dict(a, leaf=aov[a["qid"]]["leaf"], kind=aov[a["qid"]]["kind"], note=aov[a["qid"]]["note"], confidence="high")
