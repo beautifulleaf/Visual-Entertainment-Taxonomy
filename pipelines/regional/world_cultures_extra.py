@@ -591,7 +591,9 @@ NMVW_KEEP = ["E22_Human-Made_Object>", "purl.org/dc/terms/title>", "P108i_was_pr
              "P7_took_place_at>", "P4_has_time-span>", "P82a_begin_of_the_begin>", "P82b_end_of_the_end>",
              "P14_carried_out_by>", "P65_shows_visual_item>", "P138_represents>", "P2_has_type>",
              "P45_consists_of>", "skos/core#prefLabel>", "skos/core#altLabel>", "skos/core#broader>",
-             "skos/core#inScheme>", "skos/core#exactMatch>", "20.500.11840/pi"]
+             "skos/core#inScheme>", "skos/core#exactMatch>", "20.500.11840/pi", "P1_is_identified_by>",
+             "P190_has_symbolic_content>"]
+INV = re.compile(r'^"([A-Z]{2,4}-[^"]{1,40})"')
 LIT = re.compile(r'"((?:[^"\\]|\\.)*)"(?:@([A-Za-z-]+)|\^\^<[^>]*>)?\s*\.\s*$')
 SCHEMES = {"conceptscheme1": "geo", "conceptscheme2": "objtype", "conceptscheme3": "culture",
            "conceptscheme4": "function", "conceptscheme5": "material"}
@@ -646,6 +648,7 @@ def extract_nmvw(limit=None):
     objs, title, prod, place, tspan, begin, end, maker = set(), {}, {}, {}, {}, {}, {}, {}
     vis, rep, otype, mat = {}, {}, {}, {}
     pref, alt, broader, scheme, aat, pilabel = {}, {}, {}, {}, {}, {}
+    ident, inv = {}, {}
     n = 0
     t0 = time.time()
     for line in _lines(dump):
@@ -703,6 +706,12 @@ def extract_nmvw(limit=None):
                 scheme[sid] = SCHEMES.get(_id(o), _id(o))
             elif k == "exactMatch" and "aat" in o:
                 aat.setdefault(sid, _id(o))
+        elif p == CRM + "P1_is_identified_by" and is_obj:
+            ident.setdefault(sid, []).append(_id(o))
+        elif p == CRM + "P190_has_symbolic_content":
+            m = INV.match(rest.strip())
+            if m:
+                inv[sid] = m.group(1)
         elif p == "http://www.w3.org/2000/01/rdf-schema#label" and sid.startswith("pi"):
             pilabel[sid] = _lit(rest)[0]
     log(f"nmvw: {n:,} lines; {len(objs):,} objects, {len(prod):,} with production, "
@@ -726,7 +735,8 @@ def extract_nmvw(limit=None):
                     b.append(begin.get(ts, ""))
                     e.append(end.get(ts, ""))
             terms = [t for v in vis.get(oid, []) for t in rep.get(v, [])]
-            rec = {"id": oid, "title": title.get(oid, ""), "places": places, "terms": terms,
+            invs = [inv[g] for g in ident.get(oid, []) if g in inv]
+            rec = {"id": oid, "inv": invs[0] if invs else "", "title": title.get(oid, ""), "places": places, "terms": terms,
                    "types": otype.get(oid, []), "mats": mat.get(oid, [])[:6], "makers": makers[:5],
                    "begin": min((x for x in b if x), default=""), "end": max((x for x in e if x), default="")}
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
