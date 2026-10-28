@@ -532,7 +532,9 @@ def item_details(qids):
     for batch in chunks(sorted(qids), 300):
         q = """SELECT ?item ?label ?imdb ?cc ?isSeries ?seasonOf ?start WHERE {
           VALUES ?item { %s }
-          OPTIONAL { ?item rdfs:label ?label FILTER(LANG(?label) = "en") }
+          OPTIONAL { ?item rdfs:label ?enLabel FILTER(LANG(?enLabel) = "en") }
+          OPTIONAL { ?item rdfs:label ?anyLabel FILTER(LANG(?anyLabel) IN ("ko", "zh", "zh-hans", "tr", "es", "ja")) }
+          BIND(COALESCE(?enLabel, ?anyLabel) AS ?label)
           OPTIONAL { ?item wdt:P345 ?imdb FILTER(STRSTARTS(?imdb, "tt")) }
           OPTIONAL { ?item wdt:P495/wdt:P297 ?cc }
           OPTIONAL { ?item wdt:P580|wdt:P577 ?start }
@@ -715,10 +717,17 @@ def main():
         if r["source"] == "wikidata" and not d:
             dropped[r["award"]] += 1
             continue
-        key = (r["award"], r["category"], r["year"], r["qid"] or tconst or norm(title), r["won"])
+        # Identity: tconst first, so a title-matched Wikipedia row and a Wikidata row merge.
+        key = (r["award"], r["category"], r["year"], tconst or r["qid"] or norm(title), r["won"])
         if key in out:
-            if r["source"] != out[key]["source"]:
-                out[key]["source"] = "both"
+            o = out[key]
+            if r["source"] != o["source"]:
+                o["source"] = "both"
+            if r["qid"] and not o["qid"]:
+                o["qid"] = r["qid"]
+                o["match"] = "qid" if match == "qid" else o["match"]
+            if o["title"].startswith("Q") and o["title"] == o["qid"] and r["title"]:
+                o["title"] = title
             continue
         out[key] = {"award": r["award"], "category": r["category"], "year": r["year"] or "", "won": r["won"],
                     "title": title, "qid": r["qid"], "tconst": tconst, "country": country,

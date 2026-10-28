@@ -124,6 +124,11 @@ GROUPS.update({m: q for m, q in MEDIA.items() if m != UNSPECIFIED})
 GROUPS.update(CONTEMPORARY_MEDIA)
 GROUPS[UNSPECIFIED] = MEDIA[UNSPECIFIED]
 COLLECTIVE_TYPES = ["Q1400264", "Q4502119"]  # artist collective, art group
+# Groups typed "art group" that are not contemporary artist collectives: art movements
+# and schools (Barbizon school, Fluxus), music groups (The Residents).
+NOT_COLLECTIVE_TYPES = {"Q968159", "Q215380", "Q2088357", "Q5741069"}
+VISUAL_ARTIST = "Q3391743"
+ARTIST = "Q483501"
 
 # Market / institution IDs used by the market rule, and all IDs reported as columns.
 MARKET_IDS = {"P3782": "artnet", "P2042": "artsy", "P2174": "moma"}
@@ -282,6 +287,49 @@ def fetch_candidates(workers):
             if i % 25 == 0 or i == len(jobs):
                 print(f"  {i}/{len(jobs)} candidate queries, {len(people)} candidates")
     return {q: p for q, p in people.items() if p["rules"]}
+
+
+def art_occupations():
+    """Occupations that make a market-rule person an artist: GROUPS, artist, and every
+    subclass of visual artist. Artnet / MoMA / Artsy also hold IDs for sitters,
+    writers, musicians and film makers (Donald Trump, Lionel Messi, Federico Fellini)."""
+    rows = cached("visual_artist_subclasses.json", lambda: sparql(
+        f"SELECT DISTINCT ?o WHERE {{ ?o wdt:P279* wd:{VISUAL_ARTIST} . }}"))
+    return {r["o"] for r in rows} | {q for qs in GROUPS.values() for q in qs} | {ARTIST}
+
+
+def collective_countries(qids):
+    """{collective QID: [country QIDs]} from P17, P495, P159/P17 and P740/P17 (cached)."""
+    values = " ".join("wd:" + q for q in sorted(qids))
+    rows = cached(f"collective_countries_{len(qids)}.json", lambda: sparql(f"""SELECT ?p ?c WHERE {{
+      VALUES ?p {{ {values} }}
+      {{ ?p wdt:P17 ?c }} UNION {{ ?p wdt:P495 ?c }} UNION {{ ?p wdt:P159/wdt:P17 ?c }}
+      UNION {{ ?p wdt:P740/wdt:P17 ?c }} }}"""))
+    out = collections.defaultdict(list)
+    for r in rows:
+        if r["c"] not in out[r["p"]]:
+            out[r["p"]].append(r["c"])
+    return out
+
+
+def screen(people, facts):
+    """Drop market-rule non-artists and collectives that are movements, schools or bands."""
+    art = art_occupations()
+    dropped = collections.Counter()
+    for q in list(people):
+        p, cl = people[q], facts.get(q, {}).get("claims", {})
+        if p.get("is_collective"):
+            if set(cl.get("P31", [])) & NOT_COLLECTIVE_TYPES:
+                dropped["collective: movement or music group"] += 1
+                del people[q]
+            elif not p.get("birth") and not p.get("market"):
+                dropped["collective: undated, no market ID"] += 1
+                del people[q]
+        elif p["rules"] == {"market"} and cl.get("P106") and not set(cl["P106"]) & art:
+            dropped["market rule: no art occupation"] += 1
+            del people[q]
+    print("  screened out: " + ", ".join(f"{k} {v}" for k, v in dropped.items()))
+    return people
 
 
 def fetch_facts(qids, workers):
@@ -454,8 +502,12 @@ def main():
     people = fetch_candidates(args.workers)
     print(f"{len(people)} candidates")
     facts = fetch_facts(sorted(people), args.workers)
+    people = screen(people, facts)
+    coll_c = collective_countries([q for q, p in people.items() if p.get("is_collective")])
+    for q, cs in coll_c.items():
+        facts[q]["claims"].setdefault("P27", cs)
 
-    countries = sorted({c for f in facts.values() for k in ("P27", "birth_country")
+    countries = sorted({c for q in people for f in [facts[q]] for k in ("P27", "birth_country")
                         for c in f["claims"].get(k, []) if re.fullmatch(r"Q\d+", c)})
     cinfo = fetch_countries(countries)
 

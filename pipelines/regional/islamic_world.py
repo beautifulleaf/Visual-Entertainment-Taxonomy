@@ -240,7 +240,7 @@ PLACE_BASE = [
                      "transoxiana kyrgyzstan kazakhstan"),
     ("afghan", "afghanistan herat ghazni kabul balkh"),
     ("indian", "india delhi agra fatehpur deccan golconda bijapur hyderabad lucknow mysore gujarat bengal "
-               "kashmir rajasthan ahmadabad burhanpur"),
+               "kashmir rajasthan ahmadabad burhanpur murshidabad ahmadnagar avadh oudh mughal"),
     ("pakistani", "pakistan lahore sindh multan"),
     ("spanish", "spain andalus granada malaga cordoba seville valencia manises murcia almeria"),
     ("moroccan", "morocco fez fes marrakesh marrakech rabat meknes"),
@@ -391,6 +391,13 @@ def maker_key(name):
 VAM_PLACES = ["Iran", "Persia", "Turkey", "Egypt", "Syria", "Iraq", "Uzbekistan", "Afghanistan", "Azerbaijan",
               "Central Asia", "Turkmenistan", "Morocco", "Tunisia", "Algeria", "Palestine", "Jerusalem",
               "Lebanon", "Yemen", "Arabia"]
+# South Asian (1206-1858) and Iberian (711-1500) places, filtered again in vam_keep
+VAM_PLACES_SOUTH_ASIA = ["Mughal Empire", "Deccan", "Bijapur", "Golconda", "Hyderabad", "Ahmadnagar", "Lucknow",
+                         "Murshidabad", "Lahore", "Agra", "Delhi", "Kashmir"]
+VAM_PLACES_SPAIN = ["Granada", "Malaga", "Valencia", "Manises", "Cordoba", "Spain"]
+# Persian, Central Asian and Ottoman book-painting and production centres (622-1950)
+VAM_PLACES_CENTRES = ["Herat", "Tabriz", "Shiraz", "Isfahan", "Qazvin", "Mashhad", "Bukhara", "Samarkand",
+                      "Baghdad", "Istanbul", "Kashan"]
 VAM_KEYWORDS = ["Mughal", "Deccan", "Deccani", "Nasrid", "Hispano-Moresque", "al-Andalus", "Mudejar",
                 "Mamluk", "Ottoman", "Safavid", "Timurid", "Fatimid", "Seljuk", "Qajar", "Iznik"]
 VAM_SECTION = "THES48607"      # Middle East Section
@@ -459,23 +466,44 @@ def vam_row(r):
         "institution": "Victoria and Albert Museum",
         "collection": (r.get("collectionCode") or {}).get("text", ""),
         "url": VAM_OBJECT_URL.format(r.get("systemNumber", "")),
+        "school_text": " | ".join(styles + [(r.get("production") or "")[:600]]),
+        "centre_text": place_txt,
     }
 
 
+# normalised labels that are not Islamic dynasties (kept as recorded, but they do
+# not by themselves admit an object to the Islamic-world set)
+NON_ISLAMIC_LABELS = {"Sasanian", "Qing", "Crusader", "Siculo-Norman"}
+PRE_ISLAMIC_STYLE = re.compile(r"late antique|coptic|roman|ancient|byzantine|kingdom|dynastic|ptolemaic|"
+                               r"sasanian|sassanian|parthian|seleucid|hellenistic|pharaonic|\btang\b|\bsong\b|\bliao\b", re.I)
+
+
+def islamic_dynasties(row):
+    return [d for d in row["dynasties"] if d not in NON_ISLAMIC_LABELS]
+
+
 def vam_keep(row, sweep):
-    """Section/category sweeps keep everything; place and keyword sweeps are filtered."""
-    if sweep in ("section", "islam"):
-        return True
-    if row["dynasties"]:
-        return True
+    """Section/category sweeps keep everything made from 622 on (the Middle East
+    Section also holds Coptic, Late Antique and Pharaonic material, which is
+    dropped); place and keyword sweeps are filtered."""
     b, e = row["date_begin"], row["date_end"]
     mid = (b + e) / 2 if b is not None and e is not None else None
+    if islamic_dynasties(row):
+        return True
+    if sweep in ("section", "islam"):
+        if PRE_ISLAMIC_STYLE.search(row["dynasty_recorded"] or ""):
+            return False
+        return mid is None or mid >= 622
     bases = set(row["bases"])
+    if PRE_ISLAMIC_STYLE.search(row["dynasty_recorded"] or ""):
+        return False
     if bases & ISLAMIC_BASES and (mid is None or mid >= 622):
         return True
-    if sweep in ("Mughal", "Deccan", "Deccani") and bases & {"indian", "pakistani"} and mid and 1206 <= mid <= 1858:
+    south_asia = ("Mughal", "Deccan", "Deccani") + tuple(VAM_PLACES_SOUTH_ASIA)
+    if sweep in south_asia and bases & {"indian", "pakistani"} and mid and 1206 <= mid <= 1858:
         return True
-    if sweep in ("Nasrid", "Hispano-Moresque", "al-Andalus", "Mudejar") and "spanish" in bases and mid and 711 <= mid <= 1500:
+    spain = ("Nasrid", "Hispano-Moresque", "al-Andalus", "Mudejar") + tuple(VAM_PLACES_SPAIN)
+    if sweep in spain and "spanish" in bases and mid and 711 <= mid <= 1500:
         return True
     return False
 
@@ -486,7 +514,13 @@ def harvest_vam():
     sweeps = [("section", {"id_collection": VAM_SECTION}, (("date", "asc"), ("date", "desc"))),
               ("islam", {"id_category": VAM_ISLAM_CAT}, ((None, None),))]
     sweeps += [(p, {"q_place_name": p, "year_made_from": 622, "year_made_to": 1950}, ((None, None),)) for p in VAM_PLACES]
-    sweeps += [(k, {"q": k}, ((None, None),)) for k in VAM_KEYWORDS]
+    for places, y0, y1 in ((VAM_PLACES_SOUTH_ASIA, 1206, 1858), (VAM_PLACES_SPAIN, 711, 1500),
+                           (VAM_PLACES_CENTRES, 622, 1950)):
+        sweeps += [(p, {"q_place_name": p, "year_made_from": y0, "year_made_to": y1}, ((None, None),))
+                   for p in places]
+    # "Mughal" matches ~17,400 records, over the 10,000 cap: read it in both date orders
+    sweeps += [(k, {"q": k}, (("date", "asc"), ("date", "desc")) if k == "Mughal" else ((None, None),))
+               for k in VAM_KEYWORDS]
     for sweep, params, orders in sweeps:
         n = kept = 0
         for rec in vam_query(sweep, params, orders):
@@ -608,8 +642,11 @@ def harvest_dia(details=True):
             "date_begin": yr(en.get("startDate")), "date_end": yr(en.get("endDate")),
             "makers": makers, "materials_technique": mats,
             "techniques": technique_keys(mats + " " + name),
-            "institution": f.get("Holding Museum", ""), "collection": en.get("countryName", ""),
+            "institution": re.split(r" About ", f.get("Holding Museum", ""))[0].strip(),
+            "collection": en.get("countryName", ""),
             "url": url, "sweep": "dynasty pages",
+            "school_text": " | ".join(v for k, v in f.items() if re.match(r"(Workshop|Provenance|How provenance)", k)),
+            "centre_text": f.get("Provenance", ""),
         })
     print(f"  DIA: {len(rows)} unique objects, {n_detail} object pages read", file=sys.stderr)
     return rows, collections.Counter(dia=len(rows))
@@ -617,43 +654,177 @@ def harvest_dia(details=True):
 
 # --------------------------------------------------------------- Cleveland
 
-def harvest_cma():
-    rows = []
+CMA_KEYWORDS = ["Umayyad", "Abbasid", "Fatimid", "Seljuq", "Ayyubid", "Mamluk", "Ilkhanid", "Timurid",
+                "Safavid", "Qajar", "Ottoman", "Mughal", "Nasrid", "Deccan", "Samanid", "Buyid", "Ghaznavid",
+                "Zand", "Turkman", "Shaybanid", "Jalayirid", "Almohad", "Hispano-Moresque"]
+
+
+def cma_pages(label, params):
     skip, limit = 0, 100
     while True:
-        url = CMA_API + "?" + urllib.parse.urlencode({"department": "Islamic Art", "skip": skip, "limit": limit})
-        d = fetch_json(url, os.path.join(RAW, "cma", f"islamic_art_{skip:05d}.json"))
+        url = CMA_API + "?" + urllib.parse.urlencode(dict(params, skip=skip, limit=limit))
+        name = "islamic_art" if label == "Islamic Art" else "q_" + slug(label)
+        d = fetch_json(url, os.path.join(RAW, "cma", f"{name}_{skip:05d}.json"))
         if not d or not d.get("data"):
             break
-        for r in d["data"]:
-            cult = "; ".join(r.get("culture") or [])
-            place = "; ".join(c.split(",")[0].strip() for c in (r.get("culture") or []))
-            bases = place_bases(place)
-            makers = []
-            for c in r.get("creators") or []:
-                desc = c.get("description") or ""
-                n = desc.split(" (")[0].strip()
-                if n and not PLACEHOLDER_MAKER.match(n):
-                    makers.append((n, c.get("role") or ""))
-            tech = r.get("technique") or ""
-            rows.append({
-                "source": "cma", "id": r.get("accession_number") or str(r.get("id")),
-                "title": r.get("title") or "", "object_type": r.get("type") or "",
-                "dynasty_recorded": cult, "dynasties": norm_dynasties(cult, bases),
-                "culture_place": place, "bases": bases,
-                "date_text": r.get("creation_date") or "",
-                "date_begin": r.get("creation_date_earliest"), "date_end": r.get("creation_date_latest"),
-                "makers": makers, "materials_technique": tech,
-                "techniques": technique_keys(tech + " " + (r.get("title") or "")),
-                "institution": "Cleveland Museum of Art", "collection": r.get("department") or "",
-                "url": r.get("url") or "", "sweep": "Islamic Art",
-            })
+        yield from d["data"]
         total = d.get("info", {}).get("total", 0)
         skip += limit
         if skip >= total:
             break
-    print(f"  CMA Islamic Art: {len(rows)} objects", file=sys.stderr)
-    return rows, collections.Counter(cma=len(rows))
+
+
+def cma_row(r, sweep):
+    cult = "; ".join(r.get("culture") or [])
+    place = "; ".join(c.split(",")[0].strip() for c in (r.get("culture") or []))
+    bases = place_bases(place)
+    makers = []
+    for c in r.get("creators") or []:
+        desc = c.get("description") or ""
+        n = desc.split(" (")[0].strip()
+        if n and not PLACEHOLDER_MAKER.match(n):
+            makers.append((n, c.get("role") or ""))
+    tech = r.get("technique") or ""
+    return {
+        "source": "cma", "id": r.get("accession_number") or str(r.get("id")),
+        "title": r.get("title") or "", "object_type": r.get("type") or "",
+        "dynasty_recorded": cult, "dynasties": norm_dynasties(cult, bases),
+        "culture_place": cult, "bases": bases,
+        "date_text": r.get("creation_date") or "",
+        "date_begin": r.get("creation_date_earliest"), "date_end": r.get("creation_date_latest"),
+        "makers": makers, "materials_technique": tech,
+        "techniques": technique_keys(tech + " " + (r.get("title") or "")),
+        "institution": "Cleveland Museum of Art", "collection": r.get("department") or "",
+        "url": r.get("url") or "", "sweep": sweep,
+        "school_text": cult,
+        "centre_text": cult,
+    }
+
+
+def harvest_cma():
+    """Department "Islamic Art" in full, plus keyword sweeps for dynasty names
+    (Islamic textiles sit in Textiles, Mughal and Deccani painting in Indian and
+    Southeast Asian Art). Keyword hits are kept only when the culture string
+    itself names an Islamic dynasty."""
+    rows = {}
+    sweeps = [("Islamic Art", {"department": "Islamic Art"})] + [(k, {"q": k}) for k in CMA_KEYWORDS]
+    for sweep, params in sweeps:
+        n = kept = 0
+        for r in cma_pages(sweep, params):
+            n += 1
+            row = cma_row(r, sweep)
+            if row["id"] in rows:
+                continue
+            if sweep == "Islamic Art" or islamic_dynasties(row):
+                rows[row["id"]] = row
+                kept += 1
+        print(f"  CMA {sweep}: {n} records read, {kept} new kept", file=sys.stderr)
+    print(f"  CMA: {len(rows)} objects", file=sys.stderr)
+    return list(rows.values()), collections.Counter(cma=len(rows))
+
+
+# --------------------------------------------------------- schools / workshops
+#
+# Islamic book painting is tradition-led (visual-art-plan.md §2.1 point 4): the
+# primary nodes are schools and workshops, with named masters under them. A
+# school is taken from what the record says, in this order:
+#   recorded  an explicit court / workshop / school phrase in the dynasty or
+#             style field, the culture string (Cleveland: "India, Mughal, court
+#             of Akbar"), V&A production notes or a Discover Islamic Art
+#             Workshop / provenance field;
+#   place     for book arts only (paintings, manuscripts, album pages,
+#             calligraphy, drawings), the recorded place of production when it
+#             is one of the painting centres below, named "<dynasty> <city>"
+#             (Timurid Herat, Safavid Tabriz, ...).
+# Production centres (Iznik, Kashan, Herat, ...) are also kept for every object.
+
+BOOK_ARTS_RE = re.compile(r"painting|miniature|manuscript|album|folio|calligraph|qur.?an|koran|drawing|"
+                          r"illuminat|\bpage\b|\bbook\b|muraqqa|qit.?a\b|portrait|\bleaf\b|shahnam|khamsa", re.I)
+
+CENTRES = [  # (regex on folded place text, centre name, painting school family)
+    (r"\bherat\b", "Herat"), (r"\btabriz\b", "Tabriz"), (r"\bshiraz\b", "Shiraz"),
+    (r"\b(isfahan|esfahan|ispahan)\b", "Isfahan"), (r"\bqazvin\b|\bkazvin\b", "Qazvin"),
+    (r"\b(mashhad|meshed|mashad)\b", "Mashhad"), (r"\b(bukhara|bokhara)\b", "Bukhara"),
+    (r"\b(samarkand|samarqand)\b", "Samarkand"), (r"\bbaghdad\b", "Baghdad"), (r"\bmosul\b", "Mosul"),
+    (r"\b(istanbul|constantinople)\b", "Istanbul"), (r"\b(tehran|teheran)\b", "Tehran"),
+    (r"\bcairo\b|\bfustat\b", "Cairo"), (r"\bdamascus\b", "Damascus"), (r"\baleppo\b", "Aleppo"),
+    (r"\blahore\b", "Lahore"), (r"\bagra\b", "Agra"), (r"fatehpur", "Fatehpur Sikri"), (r"\bdelhi\b", "Delhi"),
+    (r"\b(lucknow|awadh|avadh|oudh|faizabad)\b", "Lucknow (Awadh)"), (r"murshidabad", "Murshidabad"),
+    (r"\bpatna\b", "Patna"), (r"\bkashmir\b", "Kashmir"), (r"\bbijapur\b", "Bijapur"),
+    (r"\bgolconda\b", "Golconda"), (r"\bahmadnagar\b", "Ahmadnagar"), (r"\bhyderabad\b", "Hyderabad"),
+    (r"\bkashan\b", "Kashan"), (r"\b(iznik|nicaea)\b", "Iznik"), (r"\b(kutahya|kütahya)\b", "Kutahya"),
+    (r"\b(nishapur|neyshabur|nishapour)\b", "Nishapur"), (r"\b(rayy|rey|ray)\b", "Rayy"),
+    (r"\b(raqqa)\b", "Raqqa"), (r"\bsamarra\b", "Samarra"), (r"\bkirman\b|\bkerman\b", "Kirman"),
+    (r"\byazd\b", "Yazd"), (r"\bbursa\b", "Bursa"), (r"\bhereke\b", "Hereke"), (r"\b(ushak|usak)\b", "Ushak"),
+    (r"\bgranada\b", "Granada"), (r"\bmalaga\b", "Malaga"), (r"\b(valencia|manises|paterna)\b", "Valencia"),
+    (r"\bcordoba\b|madinat al.?zahra", "Cordoba"), (r"\bfez\b|\bfes\b", "Fez"),
+    (r"\b(kairouan|qayrawan)\b", "Kairouan"), (r"\bsultanabad\b", "Sultanabad"),
+]
+CENTRE_RE = [(re.compile(p), n) for p, n in CENTRES]
+DECCAN_CITIES = {"Bijapur", "Golconda", "Ahmadnagar", "Hyderabad"}
+MUGHAL_REIGNS = ["Babur", "Humayun", "Akbar", "Jahangir", "Shah Jahan", "Aurangzeb", "Bahadur Shah",
+                 "Muhammad Shah", "Shah Alam"]
+SAFAVID_REIGNS = ["Shah Isma'il", "Shah Tahmasp", "Shah Abbas", "Shah Safi", "Shah Sulayman", "Shah Sultan Husayn"]
+
+EXPLICIT_SCHOOLS = [  # (regex on folded text, school); first match wins
+    (r"company (school|style|painting|painter)|^company$|\| ?company\b|\bcompany\b ?\|", "Company school"),
+    (r"mughal court|imperial (mughal )?(workshop|atelier|studio|library|kitabkhana)|"
+     r"mughal (imperial|royal) (workshop|atelier|studio)|court of (babur|humayun|akbar|jahangir|shah jahan|aurangzeb)",
+     "Imperial Mughal atelier"),
+    (r"nakkash|nakkas|ehl.?i hiref|ottoman (court|palace|imperial) (workshop|studio|atelier)|"
+     r"(court|palace) (workshop|studio|atelier) (in|of) istanbul", "Ottoman court studio (nakkashane)"),
+    (r"kitab.?khana|(royal|court) (library|workshop|atelier|studio) of (shah|the safavid)|"
+     r"court of shah (isma.?il|tahmasp|abbas)|safavid (court|royal) (workshop|atelier|studio)", "Safavid court atelier"),
+    (r"timurid (court|royal) (workshop|atelier|studio)|court of (baysunghur|husayn bayqara|sultan husayn)|"
+     r"baysunghur.{0,20}(workshop|atelier|library)", "Timurid court atelier"),
+    (r"jalayirid (court|royal)|court of (sultan )?ahmad jalayir", "Jalayirid court atelier"),
+    (r"bazaar (painting|style|painter)", "Bazaar painting"),
+    (r"kalighat", "Kalighat"),
+]
+EXPLICIT_RE = [(re.compile(p), n) for p, n in EXPLICIT_SCHOOLS]
+
+
+def is_book_arts(row):
+    return bool(BOOK_ARTS_RE.search(f"{row['object_type']} | {row['title']}"))
+
+
+def centres(text):
+    t = fold(text or "")
+    return [n for rx, n in CENTRE_RE if rx.search(t)]
+
+
+def assign_school(row):
+    """Sets row['school'], row['school_basis'], row['centre'], row['reign'], row['book_arts']."""
+    text = fold(" | ".join([row.get("school_text", ""), row["dynasty_recorded"],
+                            "; ".join(n for n, _ in row["makers"])]))
+    dyns = islamic_dynasties(row)
+    dyn = dyns[0] if dyns else ""
+    cen = centres(row.get("centre_text", ""))
+    row["centre"] = cen[0] if cen else ""
+    row["book_arts"] = is_book_arts(row)
+    reigns = [r for r in MUGHAL_REIGNS + SAFAVID_REIGNS if re.search(r"\b" + fold(r).replace("'", ".?") + r"\b", text)]
+    row["reign"] = reigns[0] if reigns else ""
+    school, basis = "", ""
+    for rx, name in EXPLICIT_RE:
+        if rx.search(text):
+            school, basis = name, "recorded"
+            break
+    if school == "Safavid court atelier" and row["centre"] in ("Tabriz", "Qazvin", "Isfahan", "Mashhad"):
+        school = f"Safavid {row['centre']}"
+    if school == "Timurid court atelier" and row["centre"] in ("Herat", "Shiraz", "Samarkand"):
+        school = f"Timurid {row['centre']}"
+    # Mughal reign styles on V&A records ("Mughal" + "Akbar") = the imperial atelier
+    if not school and dyn == "Mughal" and row["book_arts"] and row["reign"] in MUGHAL_REIGNS[:6]:
+        school, basis = "Imperial Mughal atelier", "recorded"
+    if not school and row["book_arts"]:
+        c = row["centre"]
+        if c in DECCAN_CITIES or (not c and dyn == "Deccani sultanates"):
+            school, basis = f"Deccani ({c})" if c else "Deccani", "place" if c else "recorded"
+        elif c in ("Lucknow (Awadh)", "Murshidabad", "Patna", "Kashmir"):
+            school, basis = c, "place"
+        elif c:
+            school, basis = (f"{dyn} {c}" if dyn else c), "place"
+    row["school"], row["school_basis"] = school, basis
 
 
 # ------------------------------------------------------------------ outputs

@@ -730,8 +730,8 @@ SOURCES = ["kunstkompass", "artreview", "artprice", "venice", "documenta", "eflu
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--only", nargs="+", choices=SOURCES, help="run only these sources (others are "
-                    "kept from the existing output file)")
+    ap.add_argument("--only", nargs="+", choices=SOURCES, help="run only these sources (rows of the "
+                    "other sources, and of any source that fails, are kept from the existing output file)")
     ap.add_argument("--power100-editions", nargs="+", default=[str(y) for y in range(2019, 2026)])
     ap.add_argument("--artprice-years", nargs="+", default=["2023", "2024", "2025", "2026"])
     args = ap.parse_args()
@@ -739,7 +739,7 @@ def main():
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
 
     kept = []
-    if args.only and os.path.exists(OUT_PATH):
+    if os.path.exists(OUT_PATH):
         with open(OUT_PATH, encoding="utf-8") as f:
             kept = list(csv.DictReader(f))
     groups = {
@@ -754,22 +754,30 @@ def main():
     prefixes = {"kunstkompass": ("kunstkompass",), "artreview": ("artreview",), "artprice": ("artprice",),
                 "venice": ("venice_biennale",), "documenta": ("documenta",),
                 "eflux": tuple({e[0] for e in EFLUX}), "prizes": ("prize_",)}
-    rows = []
+    def write(rows):
+        with open(OUT_PATH + ".part", "w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=FIELDS)
+            w.writeheader()
+            w.writerows(rows)
+        os.replace(OUT_PATH + ".part", OUT_PATH)
+
+    rows, failed = [], []
     for src in run:
         print(f"{src} ...", flush=True)
         try:
             got = groups[src]()
-        except (urllib.error.URLError, Blocked) as e:
-            print(f"  {src} failed: {e}", file=sys.stderr)
+        except Exception as e:  # one broken source must not lose the others; its old rows are kept
+            print(f"  {src} failed: {type(e).__name__}: {e}", file=sys.stderr)
+            failed.append(src)
             continue
         rows += got
         kept = [r for r in kept if not r["list"].startswith(prefixes[src])]
         print(f"  {len(got)} rows")
+        write(kept + rows)  # checkpoint after every source
     rows = kept + rows
-    with open(OUT_PATH, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=FIELDS)
-        w.writeheader()
-        w.writerows(rows)
+    write(rows)
+    if failed:
+        print(f"failed sources (re-run with --only {' '.join(failed)}): {failed}", file=sys.stderr)
 
     counts = collections.defaultdict(lambda: [0, set()])
     for r in rows:
