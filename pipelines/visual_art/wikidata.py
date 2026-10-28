@@ -7,13 +7,26 @@ import urllib.parse
 import urllib.request
 
 SPARQL = "https://query.wikidata.org/sparql"
+# QLever mirror of Wikidata: much faster on broad scans (e.g. every artist born in a
+# 50-year bucket), and a fallback when WDQS is down. Needs explicit prefixes.
+QLEVER = "https://qlever.dev/api/wikidata"
+PREFIXES = """PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX schema: <http://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+"""
 UA = "VisualEntertainmentTaxonomy/0.1 (research; contact via repository)"
 
 
-def sparql(query, retries=8):
+def sparql(query, retries=8, endpoint=SPARQL):
     """Run a SELECT query; returns a list of {var: value} dicts (entity URIs shortened to QIDs)."""
+    if endpoint == QLEVER:
+        query = PREFIXES + query
     body = urllib.parse.urlencode({"query": query, "format": "json"}).encode()
-    req = urllib.request.Request(SPARQL, data=body, headers={"User-Agent": UA, "Accept": "application/sparql-results+json"})
+    req = urllib.request.Request(endpoint, data=body, headers={"User-Agent": UA, "Accept": "application/sparql-results+json"})
     for attempt in range(retries):
         try:
             with urllib.request.urlopen(req, timeout=300) as r:

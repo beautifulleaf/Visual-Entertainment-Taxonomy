@@ -27,7 +27,8 @@ authority IDs), so that refitting on it is not circular.
    ordered by their number of kept movement memberships (fallback).
 3. Reference = per movement, the top 30% of members by score (min 3, max 60).
    Poorly covered non-Western movements (region outside Europe / North America,
-   under half the members with any signal) keep every member up to a cap of 25,
+   under half the members held by Tate or MoMA) keep their members up to a cap of 25
+   (all of them in a small group; the top 25 by score in a large one),
    since they are curatorially defined groups. Artists are deduplicated across
    movements: each is listed under the movement where it ranks best.
 
@@ -101,6 +102,9 @@ NON_MOVEMENT = {
     "Q15911314": "association", "Q667276": "art exhibition", "Q464980": "exhibition",
 }
 WESTERN = ("europe", "north_america")
+# Exhibiting societies and professional bodies, not movements (by label).
+ORG_WORDS = re.compile(r"\b(association|associazione|club|union|institute|academy|salon|verein|verband|"
+                       r"künstlerbund|genossenschaft|federation|league|guild)\b", re.I)
 # Collections that are model features (Met, AIC, Cleveland) or not curatorial.
 EXCLUDED_COLLECTIONS = {"Q160236", "Q239303", "Q657415", "Q768717"}
 ART_OCCUPATIONS = {o for m, occs in MEDIA.items() for o in occs}
@@ -646,14 +650,16 @@ def main():
         bad = [NON_MOVEMENT[t] for t in md.get("types", []) if t in NON_MOVEMENT]
         if bad:
             reasons.append("organisation: " + ", ".join(bad))
-        if via.get(m) == {"P463"} and len(mem) > MAX_ASSOCIATION:
-            reasons.append(f"association (P463 only, {len(mem)} members)")
+        if via.get(m) and via[m] <= {"P463", "enwiki"} and len(mem) > MAX_ASSOCIATION:
+            reasons.append(f"association (no P135 members, {len(mem)} members)")
+        if ORG_WORDS.search(md.get("label") or ""):
+            reasons.append("organisation (label)")
         types = [MOVEMENT_TYPES[t] for t in md.get("types", []) if t in MOVEMENT_TYPES]
         mrows.append({
             "movement_qid": m, "movement": md.get("label") or m, "types": "|".join(types) or "subclass",
             "via": "|".join(sorted(via.get(m, []))), "inception": start, "median_birth": median_birth,
             "members": len(mem),
-            "region": regions.most_common(1)[0][0] if regions else "",
+            "region": min(regions.items(), key=lambda t: (-t[1], t[0]))[0] if regions else "",
             "regions": "; ".join(f"{r} {n}" for r, n in regions.most_common()),
             "kept": int(not reasons), "excluded_because": "; ".join(reasons),
         })
@@ -666,6 +672,8 @@ def main():
         cap = MAX_BIRTH_WESTERN if mr["region"] in WESTERN else MAX_BIRTH_NONWESTERN
         members[m] = {a for a in members[m] if info[a]["birth"] is None or info[a]["birth"] <= cap}
         mr["members_in_reference_span"] = len(members[m])
+        if not members[m]:
+            mr["kept"], mr["excluded_because"] = 0, f"no members born by {cap}"
     kept = {m: mr for m, mr in kept.items() if members[m]}
 
     # Curatorial signal for every member of a kept movement.
@@ -697,7 +705,9 @@ def main():
     picks = collections.defaultdict(list)   # artist -> [(relative rank, movement, rank)]
     for m, mr in kept.items():
         ranked = sorted(members[m], key=lambda a: (-sig[a]["score"], -n_memberships[a], info[a]["label"]))
-        covered = sum(1 for a in ranked if sig[a]["score"] > 0) / len(ranked)
+        # Coverage by the two curatorial collections (Tate, MoMA), not by Wikidata or
+        # the regional sweeps: it decides whether the movement is ranked or kept whole.
+        covered = sum(1 for a in ranked if sig[a]["tate_works"] or sig[a]["moma_works"]) / len(ranked)
         western = mr["region"] in ("europe", "north_america")
         if not western and covered < 0.5:
             k, rule = min(len(ranked), SMALL_CAP), "all members (non-Western, thin curatorial coverage)"
@@ -712,13 +722,14 @@ def main():
     rows = []
     for a, ps in picks.items():
         # Listed once, WikiArt-style: under a movement of the artist's own region if
-        # any, preferring P135 (declared movement) over group membership, then the
-        # movement where the artist ranks highest relative to its quota (Matisse under
-        # Fauvism, not Impressionism), then the larger movement; the rest go to also_in.
+        # any, preferring P135 (declared movement) over Wikipedia-link and group
+        # membership, then the movement where the artist ranks highest relative to its
+        # quota (Matisse under Fauvism, not Impressionism), then the smaller, more
+        # specific movement (Picasso under cubism); the rest go to also_in.
         def pref(p):
             mm = p[0]
-            return (kept[mm]["region"] != region_of[a], "P135" not in via[mm] and "enwiki" not in via[mm],
-                    (p[1] - 1) / kept[mm]["quota"], -kept[mm]["members"])
+            strength = 0 if "P135" in via[mm] else 1 if "enwiki" in via[mm] else 2
+            return (kept[mm]["region"] != region_of[a], strength, (p[1] - 1) / kept[mm]["quota"], kept[mm]["members"])
         ps = sorted(ps, key=pref)
         m, rank = ps[0]
         rec = info[a]

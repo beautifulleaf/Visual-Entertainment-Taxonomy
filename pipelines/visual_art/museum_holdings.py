@@ -8,8 +8,20 @@ Sources (downloaded once to data/raw/museums/):
             QID or ULAN, so they are matched on normalised name + birth/death year.
   Cleveland Cleveland Museum of Art open-access API (CC0), matched the same way.
 
+  East Asia the East Asia sweep (pipelines/regional/east_asia.py ->
+            data/interim/regional/east_asia_artists.csv: ColBase, designated
+            properties, NPM, e-Museum), reused rather than refetched. Its makers
+            carry no QID; they are matched on their original-script name against the
+            Chinese/Japanese/Korean Wikidata labels of East Asian pooled artists
+            (cached), then on romanised name + birth year. Cleveland and AIC objects
+            are subtracted (counted above).
+
+Met objects without an artist QID made before 1500 ("Attributed to the Berlin
+Painter") are matched on the display name to pooled pre-1500 artists, when the
+name is unique among them.
+
 Output: data/interim/visual_art/holdings.csv with, per QID in any pool file:
-  met_objects, met_timeline_works, met_highlights, aic_objects, cma_objects
+  met_objects, met_timeline_works, met_highlights, aic_objects, cma_objects, eastasia_objects
 A source added here as <key>_objects becomes usable by any region that lists
 <key> in its `collections` (regions.py); regional collections (ColBase, the
 National Palace Museum, the National Museum of Asian Art, ...) slot in this way.
@@ -26,11 +38,18 @@ import tarfile
 import time
 import unicodedata
 import urllib.request
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from wikidata import sparql  # noqa: E402
 
 csv.field_size_limit(1 << 24)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 RAW = os.path.join(ROOT, "data", "raw", "museums")
+EAST_ASIA_ARTISTS = os.path.join(ROOT, "data", "interim", "regional", "east_asia_artists.csv")
+CJK_LABELS = os.path.join(ROOT, "data", "raw", "wikidata", "pool", "cjk_labels.json")
+CJK_LANGS = ["zh", "zh-hant", "zh-hans", "zh-tw", "zh-hk", "zh-cn", "lzh", "ja", "ko"]
 OUT_DIR = os.path.join(ROOT, "data", "interim", "visual_art")
 UA = "VisualEntertainmentTaxonomy/0.1 (research; contact via repository)"
 
@@ -93,17 +112,89 @@ class NameIndex:
         return None
 
 
-def met_counts():
+def met_counts(early_names=None):
+    """Per-QID Met counts. early_names: {normalised name: QID} for pre-1500 pooled
+    artists with a unique name, used for objects made before 1500 whose artist has
+    no Wikidata link ("Attributed to the Berlin Painter")."""
     path = download(MET_URL, os.path.join(RAW, "MetObjects.csv"))
     objects, timeline, highlights = collections.Counter(), collections.Counter(), collections.Counter()
+    by_name = 0
     with open(path, encoding="utf-8-sig", newline="") as f:
         for row in csv.DictReader(f):
             qids = {u.rsplit("/", 1)[-1] for u in row["Artist Wikidata URL"].split("|") if "/Q" in u}
+            if not qids and early_names and row["Artist Display Name"] and (to_int(row["Object End Date"]) or 9999) < 1500:
+                qids = {early_names[n] for n in map(norm, row["Artist Display Name"].split("|")) if n in early_names}
+                by_name += bool(qids)
             for q in qids:
                 objects[q] += 1
                 timeline[q] += row["Is Timeline Work"] == "True"
                 highlights[q] += row["Is Highlight"] == "True"
+    print(f"  Met: {by_name} pre-1500 objects matched by artist name (no Wikidata link)")
     return objects, timeline, highlights
+
+
+def early_name_index(pool, active_start):
+    """{normalised label: QID} for pooled artists active before 1500 whose name is unique there."""
+    names = collections.defaultdict(set)
+    for q, (label, _, _) in pool.items():
+        if active_start.get(q) is not None and active_start[q] < 1500 and norm(label):
+            names[re.sub(r"^the ", "", norm(label))].add(q)
+    return {n: next(iter(qs)) for n, qs in names.items() if len(qs) == 1}
+
+
+def cjk_labels(qids):
+    """Chinese/Japanese/Korean labels per QID (cached), for matching the East Asia sweep."""
+    known = json.load(open(CJK_LABELS, encoding="utf-8")) if os.path.exists(CJK_LABELS) else {}
+    todo = [q for q in qids if q not in known]
+    langs = ", ".join(f'"{lang}"' for lang in CJK_LANGS)
+    for i in range(0, len(todo), 250):
+        chunk = todo[i:i + 250]
+        for q in chunk:
+            known[q] = []
+        values = " ".join("wd:" + q for q in chunk)
+        for r in sparql(f"""SELECT ?p ?l WHERE {{ VALUES ?p {{ {values} }}
+              {{ ?p rdfs:label ?l }} UNION {{ ?p skos:altLabel ?l }} FILTER(LANG(?l) IN ({langs})) }}"""):
+            if r["l"] not in known[r["p"]]:
+                known[r["p"]].append(r["l"])
+        json.dump(known, open(CJK_LABELS, "w", encoding="utf-8"), ensure_ascii=False)
+        print(f"  CJK labels: {min(i + 250, len(todo))}/{len(todo)}")
+    return known
+
+
+def cjk_norm(name):
+    return re.sub(r"[\s　・·]|[(（].*?[)）]", "", name or "")
+
+
+def east_asia_counts(pool, ea_qids):
+    """Objects per QID from the East Asia sweep, minus its Cleveland and AIC objects."""
+    if not os.path.exists(EAST_ASIA_ARTISTS):
+        print("  East Asia sweep: no east_asia_artists.csv, skipped")
+        return collections.Counter()
+    labels = cjk_labels(sorted(ea_qids))
+    native = collections.defaultdict(set)
+    for q in ea_qids:
+        for lab in labels.get(q, []):
+            native[cjk_norm(lab)].add(q)
+    roman = collections.defaultdict(set)
+    for q in ea_qids:
+        roman[norm(pool[q][0])].add(q)
+    counts, matched = collections.Counter(), 0
+    with open(EAST_ASIA_ARTISTS, encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            names = {cjk_norm(n) for n in [r["artist_original"]] + re.split(r"[;|,、]", r["other_names"]) if cjk_norm(n)}
+            hits = set().union(*(native.get(n, set()) for n in names)) if names else set()
+            birth = to_int(r["birth_year"])
+            if len(hits) > 1 and birth is not None:
+                hits = {q for q in hits if pool[q][1] is not None and abs(pool[q][1] - birth) <= 2}
+            if not hits and birth is not None and r["artist_romanised"]:
+                hits = {q for q in roman.get(norm(r["artist_romanised"]), set())
+                        if pool[q][1] is not None and abs(pool[q][1] - birth) <= 2}
+            if len(hits) == 1:
+                n = int(r["objects_total"] or 0) - int(r["objects_cma"] or 0) - int(r["objects_aic"] or 0)
+                counts[next(iter(hits))] += max(n, 0)
+                matched += 1
+    print(f"  East Asia sweep: {matched} makers matched to {len(counts)} pooled artists")
+    return counts
 
 
 def aic_counts(index):
@@ -170,28 +261,34 @@ def cma_counts(index):
 
 
 def load_pools():
-    pool = {}
+    """{qid: (label, birth, death)}, {qid: active_start}, and the QIDs in East Asian pools."""
+    pool, active_start, east_asia = {}, {}, set()
     for path in glob.glob(os.path.join(OUT_DIR, "pool_*.csv")):
         with open(path, encoding="utf-8") as f:
             for r in csv.DictReader(f):
                 pool[r["qid"]] = (r["label"], to_int(r["birth"]), to_int(r["death"]))
-    return pool
+                if r.get("active_start"):
+                    active_start[r["qid"]] = int(float(r["active_start"]))
+                if "east_asia" in os.path.basename(path):
+                    east_asia.add(r["qid"])
+    return pool, active_start, east_asia
 
 
 def main():
     os.makedirs(RAW, exist_ok=True)
-    pool = load_pools()
+    pool, active_start, east_asia = load_pools()
     print(f"{len(pool)} pooled artists")
     index = NameIndex(pool)
-    met_obj, met_tl, met_hl = met_counts()
+    met_obj, met_tl, met_hl = met_counts(early_name_index(pool, active_start))
     aic = aic_counts(index)
     cma = cma_counts(index)
+    ea = east_asia_counts(pool, east_asia)
     out = os.path.join(OUT_DIR, "holdings.csv")
     with open(out, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["qid", "met_objects", "met_timeline_works", "met_highlights", "aic_objects", "cma_objects"])
+        w.writerow(["qid", "met_objects", "met_timeline_works", "met_highlights", "aic_objects", "cma_objects", "eastasia_objects"])
         for q in sorted(pool):
-            w.writerow([q, met_obj[q], met_tl[q], met_hl[q], aic[q], cma[q]])
+            w.writerow([q, met_obj[q], met_tl[q], met_hl[q], aic[q], cma[q], ea[q]])
     print("pooled artists held by: Met", sum(1 for q in pool if met_obj[q]), "· AIC", sum(1 for q in pool if aic[q]),
           "· Cleveland", sum(1 for q in pool if cma[q]), "· Met Timeline", sum(1 for q in pool if met_tl[q]))
     print(f"wrote {out}")

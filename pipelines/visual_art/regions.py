@@ -25,6 +25,7 @@ added to seeds/visual-art/ as the per-region passes build them.
 EUROPE, NORTH_AMERICA, SOUTH_AMERICA = "Q46", "Q49", "Q18"
 OCEANIA, INSULAR_OCEANIA, AUSTRALIA = "Q55643", "Q538", "Q3960"
 ASIA, AFRICA = "Q48", "Q15"
+EURASIA = "Q5401"  # recorded on some states instead of Europe + Asia
 
 PAINTER = "Q1028181"
 
@@ -60,6 +61,31 @@ MEDIA = {
     "visual art (unspecified)": ["Q3391743"],                  # visual artist
 }
 ALL_MEDIA = list(MEDIA)
+
+# Ancient vase painting is its own medium in the pre-1400 passes (not in ALL_MEDIA,
+# so the 1400+ passes are unchanged). QIDs verified by label: vase painter,
+# pottery painter, ceramic painter, Attic vase-painter, red-figure, black-figure and
+# white-ground vase painters, plus the ancient Greek and Attic potter occupations
+# (generic "potter" stays in design and decorative arts).
+MEDIA["vase painting"] = [
+    "Q15301511", "Q59938940", "Q56312678", "Q21282419", "Q15303045", "Q15303031", "Q41000669",
+    "Q21505859", "Q31092701",
+]
+# Pre-1400 media: vase painting first, so a painter-potter like Exekias is a vase painter.
+PRE1400_MEDIA = ["vase painting"] + ALL_MEDIA
+# Occupations that only matter before 1400, added to a medium for the pre-1400 passes
+# (regions' "extra_occupations"; existing MEDIA groups and their caches stay as they are).
+PRE1400_EXTRA_OCCUPATIONS = {
+    "painting": ["Q4199058", "Q22669155"],           # iconographer (icon painter), fresco painter
+    "sculpture": ["Q2928765", "Q2926103", "Q3109381"],  # busshi (Buddhist sculptor), brazier (bronze caster), gem engraver
+    "visual art (unspecified)": ["Q483501"],         # artist: many medieval masters carry only this
+}
+
+
+def media_occupations(cfg):
+    """{medium: occupation QIDs} for a region: MEDIA plus the region's extra occupations."""
+    extra = cfg.get("extra_occupations", {})
+    return {m: MEDIA[m] + extra.get(m, []) for m in cfg["media"]}
 
 # Encyclopedic open-access collections, a baseline for every region. Regions add
 # their specialist collections on top (the decisive ones differ by region and era).
@@ -179,19 +205,124 @@ for _name, _geo in MODERN_REGIONS.items():
         "authority_ids": REGIONS["europe_1400-1900"]["authority_ids"],
     }
 
+# Pre-1400 passes. The 1400+ passes start at 1400, so named makers before then
+# (Giotto, Exekias, Phidias, Gu Kaizhi, Unkei, Ibn al-Bawwab) were in no pool. Each
+# region is scored with the model fitted on europe_1400-1900 (`depth_model.py apply`).
+# Citizenships are historical states (Tang dynasty, Delian League, Cilicia) and
+# birth places resolve to modern countries, so "place_any" lets any of citizenship,
+# birth or death country place an artist; the state lists below were curated from
+# the citizenships found in the pre-1400 candidate pool (QIDs verified by label).
+PRE1400_COMMON = {
+    "media": PRE1400_MEDIA,
+    "extra_occupations": PRE1400_EXTRA_OCCUPATIONS,
+    "train_media": ["painting"],
+    "model_excluded_media": ["architecture"],
+    "home_continent": True,
+    "place_any": True,
+    "min_sitelinks": 3,
+    "reference": None,
+    "fetch_bucket": 50,   # one query per 50-year bucket for all occupations, BCE dates, floruit/work period
+    "collections": GLOBAL_COLLECTIONS,
+    "authority_ids": REGIONS["europe_1400-1900"]["authority_ids"],
+}
+ANTIQUE_MEDITERRANEAN_STATES = [
+    "Q11772", "Q844930", "Q193235", "Q5690", "Q368628", "Q83958", "Q184313",  # Ancient Greece, Classical Athens, Delian League, Sparta, Sicyon, Macedonia, Magna Graecia
+    "Q1747689", "Q2277", "Q1072140", "Q42834",                               # Ancient Rome, Roman Empire, Roman Republic, Western Roman Empire
+    "Q2320005", "Q93180", "Q2022162",                                        # Ptolemaic Kingdom, Seleucid Empire, Kingdom of Pergamon
+    "Q79", "Q11768", "Q43", "Q229", "Q858", "Q822", "Q801", "Q1016", "Q948",  # Egypt, Ancient Egypt, Turkey, Cyprus, Syria, Lebanon, Israel, Libya, Tunisia
+]
+MEDIEVAL_EUROPE_EXTRA = [
+    "Q12544", "Q178913", "Q43", "Q229", "Q213638",                # Byzantine Empire, Empire of Trebizond, Turkey, Cyprus, Kingdom of Cyprus
+    "Q399", "Q208404", "Q2622868", "Q335088",                     # Armenia, Kingdom of Armenia, Bagratid Armenia, Armenian Kingdom of Cilicia
+    "Q230", "Q154667", "Q154816",                                 # Georgia, Kingdom of Georgia, Kingdom of the Iberians
+    "Q55502",                                                     # Kingdom of Jerusalem
+]
+CHINA_JAPAN_KOREA_STATES = [
+    "Q29520", "Q7209", "Q1147037", "Q1069829", "Q320930", "Q274488", "Q7352", "Q5066", "Q1145470", "Q306928",
+    # China, Han, Eastern Han, Later Han, Cao Wei, Eastern Wu, Jin (x2), Western Jin, Eastern Jin
+    "Q49697", "Q62456", "Q1069868", "Q62454", "Q875305", "Q1143164", "Q551067", "Q1143524", "Q7405", "Q9683",
+    # Liu Song, Southern Qi, Liang, Chen, Northern Wei, Western Wei, Northern Zhou, Northern Qi, Sui, Tang
+    "Q783489", "Q1143126", "Q1154540", "Q1154556", "Q1323195", "Q1326742", "Q11180184",
+    # Later Liang, Later Tang, Later Jin, Later Zhou, Yang Wu, Southern Tang, Qi (Huang Chao)
+    "Q1188046", "Q1149230", "Q1471995", "Q2314907", "Q1574107", "Q1730130", "Q4505481", "Q546282", "Q736936",
+    # Yan, Western Yan, Former Qin, Later Zhao, Han Zhao, Later Qin, Liu Qi, Xia, Lu
+    "Q7462", "Q319460", "Q1147043", "Q4958", "Q7427", "Q26472", "Q7313", "Q9903",
+    # Song, Northern Song, Southern Song, Liao, Western Xia, Dali, Yuan, Ming
+    "Q28370", "Q28428", "Q28456", "Q715257", "Q28084", "Q28322", "Q28208", "Q28179",
+    # Goguryeo, Baekje, Silla, Later Silla, Gaya, Balhae, Goryeo, Joseon
+    "Q736839",  # Kamakura shogunate
+]
+ISLAMIC_STATES = [
+    "Q12490507", "Q8575586", "Q12536", "Q160307", "Q180114", "Q63135869", "Q282428", "Q847420", "Q11696332",
+    # Rashidun, Umayyad, Abbasid, Fatimid, Ayyubid (x2), Mamluk (x2), Medieval Egypt
+    "Q123559", "Q1337854", "Q171740", "Q75613", "Q199688", "Q238445",
+    # al-Andalus, Emirate and Caliphate of Cordoba, Almoravid, Almohad, Emirate of Granada
+    "Q12150341", "Q273874", "Q249578", "Q3708094", "Q975405", "Q63134381", "Q178084", "Q866716", "Q484195",
+    # Samanid, Buyid, Ghaznavid, Seljuk, Sultanate of Rum, Khwarazmian, Ilkhanate, Jalayirid, Timurid
+    "Q6563843", "Q709175", "Q428400", "Q189545", "Q1133431", "Q837187", "Q828665", "Q555994", "Q229411",
+    # Nizari state, Tabaristan, Eldiguzids, Zengid, Artuqids, Hamdanid, Ikhshidid, Aq Qoyunlu, Delhi Sultanate
+]
+REGIONS["antiquity_mediterranean"] = {
+    **PRE1400_COMMON,
+    "label": "Greek, Etruscan, Hellenistic and Roman named makers, active 800 BCE-500 CE",
+    "active": (-800, 500),
+    "continents": [EUROPE],
+    "countries": ANTIQUE_MEDITERRANEAN_STATES,
+    # Many vase painters carry no citizenship or birth place, only a culture or a
+    # language; build_pool falls back to work location, then to these.
+    "fallback_cultures": [
+        "Q11772", "Q17161", "Q184313",   # cultures: Ancient Greece, Etruscans, Magna Graecia
+        "Q35497", "Q35726", "Q397",      # languages: Ancient Greek, Etruscan, Latin
+    ],
+}
+REGIONS["europe_medieval_500-1400"] = {
+    **PRE1400_COMMON,
+    "label": "Medieval Europe, Byzantium, Armenia and Georgia, active 500-1400",
+    "active": (500, 1400),
+    "continents": [EUROPE],
+    "countries": MEDIEVAL_EUROPE_EXTRA,
+}
+REGIONS["east_asia_pre1400"] = {
+    **PRE1400_COMMON,
+    # Starts at 200 BCE rather than 300 CE so that Han and Three Kingdoms calligraphers
+    # and painters (Cai Yong, Zhang Zhi, Cao Buxing) are in some pass.
+    "label": "China, Japan and Korea, active 200 BCE-1400",
+    "active": (-200, 1400),
+    "continents": [],
+    "countries": EAST_ASIA + CHINA_JAPAN_KOREA_STATES,
+    # The East Asia sweep (data/interim/regional/east_asia_artists.csv: ColBase, NPM,
+    # e-Museum, designated properties) is matched to QIDs in museum_holdings.py.
+    "collections": GLOBAL_COLLECTIONS + ["eastasia"],
+}
+REGIONS["islamic_pre1400"] = {
+    **PRE1400_COMMON,
+    "label": "Islamic world (calligraphers, illuminators, painters), active 600-1400",
+    "active": (600, 1400),
+    "continents": [],
+    # Turkey is left out of the modern countries so that Byzantine artists born in
+    # Constantinople stay out; Anatolian Seljuk artists come in through their states.
+    "countries": [c for c in NORTH_AFRICA + WEST_CENTRAL_ASIA if c != "Q43"] + ISLAMIC_STATES,
+}
+
 # Width (years) of the period buckets inside a region. Features are converted to
 # percentiles within each region x period x medium cell, so a model fitted where
 # Wikipedia coverage is dense transfers to cells (and media) where it is thin.
 PERIOD_BUCKET = 50
 
 
-def active_span(birth, death, floruit=None):
-    """Approximate working years: from age 20 to death (or age 70 if no death date)."""
+def active_span(birth, death, floruit=None, work_start=None, work_end=None):
+    """Approximate working years: from age 20 to death (or age 70 if no death date).
+
+    Without a birth date: 40 years up to death; else the work period (P2031/P2032);
+    else 10 years either side of floruit (P1317)."""
     if birth is not None:
         start = birth + 20
         end = death if death is not None else birth + 70
     elif death is not None:
         start, end = death - 40, death
+    elif work_start is not None or work_end is not None:
+        start = work_start if work_start is not None else work_end - 20
+        end = work_end if work_end is not None else work_start + 20
     elif floruit is not None:
         start, end = floruit - 10, floruit + 10
     else:

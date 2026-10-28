@@ -23,6 +23,7 @@ import argparse
 import collections
 import csv
 from concurrent.futures import ThreadPoolExecutor
+import hashlib
 import json
 import os
 import re
@@ -30,14 +31,16 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from reference import load_reference  # noqa: E402
-from regions import GLOBAL_IDS, HOME_CONTINENT_ORDER, MEDIA, REGIONS, active_span, period_of  # noqa: E402
-from wikidata import sparql, year_of  # noqa: E402
+from regions import (ASIA, EURASIA, EUROPE, GLOBAL_IDS, HOME_CONTINENT_ORDER, MEDIA, REGIONS, active_span,  # noqa: E402
+                     media_occupations, period_of)
+from wikidata import QLEVER, sparql, year_of  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 RAW = os.path.join(ROOT, "data", "raw", "wikidata", "pool")
 OUT_DIR = os.path.join(ROOT, "data", "interim", "visual_art")
 
-ART_OCCUPATIONS = {o for occs in MEDIA.values() for o in occs} | {"Q483501"}  # + "artist"
+ART_OCCUPATIONS = ({o for occs in MEDIA.values() for o in occs} | {"Q483501"}  # + "artist"
+                   | {o for cfg in REGIONS.values() for occs in cfg.get("extra_occupations", {}).values() for o in occs})
 # Union over all regions, so one cached fetch serves every pass.
 AUTHORITY_IDS = sorted({p for cfg in REGIONS.values() for p in cfg["authority_ids"]})
 FACT_PROPS = ["P27", "P136", "P135"] + list(GLOBAL_IDS) + AUTHORITY_IDS
@@ -78,8 +81,103 @@ def people_died_no_birth(occs, start, end, min_sl):
     }} GROUP BY ?p ?s""")
 
 
+def xsd_year(y):
+    """xsd:dateTime literal for 1 January of year y (BCE years as -0450)."""
+    return f'"{"-" if y < 0 else ""}{abs(y):04d}-01-01T00:00:00Z"^^xsd:dateTime'
+
+
+# Who counts as a person in the pre-1400 passes: humans, conventional-name artists
+# ("notname": Berlin Painter, Amasis Painter; most are also typed human) and humans
+# whose existence is disputed. Excludes vase "Groups"/"Classes", characters, categories.
+PERSON_CLASSES = "wd:Q5 wd:Q1747829 wd:Q21070568"  # human, notname, human whose existence is disputed
+
+
+def people_born_any(occs, start, end, min_sl):
+    """people_born for any year, BCE included."""
+    values = " ".join("wd:" + o for o in occs)
+    return sparql(f"""SELECT ?p ?s (MIN(?b) AS ?birth) (MIN(?d) AS ?death) (SAMPLE(?lab) AS ?label) WHERE {{
+      VALUES ?occ {{ {values} }}
+      ?p wdt:P106 ?occ ; wdt:P569 ?b ; wikibase:sitelinks ?s .
+      FILTER(?s >= {min_sl})
+      FILTER EXISTS {{ VALUES ?cls {{ {PERSON_CLASSES} }} ?p wdt:P31 ?cls }}
+      FILTER(?b >= {xsd_year(start)} && ?b < {xsd_year(end)})
+      OPTIONAL {{ ?p wdt:P570 ?d }}
+      OPTIONAL {{ ?p rdfs:label ?lab FILTER(LANG(?lab) = "en") }}
+    }} GROUP BY ?p ?s""", endpoint=QLEVER)
+
+
+def people_dated_no_birth(occs, start, end, min_sl):
+    """People with no birth date, by death, floruit (P1317) or work period (P2031/P2032).
+
+    Pre-1400 makers are often dated only by floruit or work period (Greek vase
+    painters, medieval masters)."""
+    values = " ".join("wd:" + o for o in occs)
+    return sparql(f"""SELECT ?p ?s (MIN(?d) AS ?death) (MIN(?f) AS ?floruit) (MIN(?ws) AS ?work_start)
+        (MAX(?we) AS ?work_end) (SAMPLE(?lab) AS ?label) WHERE {{
+      VALUES ?occ {{ {values} }}
+      ?p wdt:P106 ?occ ; wikibase:sitelinks ?s .
+      FILTER(?s >= {min_sl})
+      FILTER NOT EXISTS {{ ?p wdt:P569 [] }}
+      FILTER EXISTS {{ VALUES ?cls {{ {PERSON_CLASSES} }} ?p wdt:P31 ?cls }}
+      {{ ?p wdt:P570 ?d }} UNION {{ ?p wdt:P1317 ?f }} UNION {{ ?p wdt:P2031 ?ws }} UNION {{ ?p wdt:P2032 ?we }}
+      BIND(COALESCE(?d, ?f, ?ws, ?we) AS ?t)
+      FILTER(?t >= {xsd_year(start)} && ?t < {xsd_year(end)})
+      OPTIONAL {{ ?p rdfs:label ?lab FILTER(LANG(?lab) = "en") }}
+    }} GROUP BY ?p ?s""", endpoint=QLEVER)
+
+
+def merge_person(people, r):
+    """One record per QID across buckets (a person's death, floruit and work period
+    can fall in different buckets): earliest dates, latest work-period end."""
+    old = people.setdefault(r["p"], dict(r))
+
+    def yr(v):  # unknown-value dates (blank nodes) sort last
+        y = year_of(v)
+        return y if y is not None else 10 ** 6
+
+    for k, v in r.items():
+        if not v or k in ("p", "s", "label"):
+            continue
+        if not old.get(k):
+            old[k] = v
+        elif k != "work_end":
+            old[k] = min(old[k], v, key=yr)
+        else:
+            old[k] = max(old[k], v, key=lambda x: yr(x) if yr(x) < 10 ** 6 else -10 ** 6)
+
+
+def fetch_people_grouped(cfg, workers):
+    """Pre-1400 passes: one query per time bucket for all the region's occupations
+    (results are small), with BCE dates and floruit/work-period dating. These broad
+    scans time out on WDQS, so they run on the QLever mirror."""
+    lo, hi = cfg["active"]
+    sl, step = cfg["min_sitelinks"], cfg["fetch_bucket"]
+    occs = sorted({o for v in media_occupations(cfg).values() for o in v})
+    key = "occ" + hashlib.sha1(" ".join(occs).encode()).hexdigest()[:8]
+    jobs = []
+    for a in range((lo - 70) // step * step, hi - 20 + 1, step):
+        jobs.append((f"{key}_born_{a}_w{step}_s{sl}.json", people_born_any, a))
+    for a in range(lo // step * step, hi + step, step):
+        jobs.append((f"{key}_dated_{a}_w{step}_s{sl}.json", people_dated_no_birth, a))
+
+    def run(job):
+        name, fn, a = job
+        return cached(name, lambda: fn(occs, a, a + step, sl))
+
+    people = {}
+    with ThreadPoolExecutor(workers) as pool:
+        for i, rows in enumerate(pool.map(run, jobs), 1):
+            for r in rows:
+                merge_person(people, r)
+            if i % 10 == 0 or i == len(jobs):
+                print(f"  {i}/{len(jobs)} period queries, {len(people)} people")
+    return people
+
+
 def fetch_people(cfg, workers=3):
     """Worldwide people in any of the region's media, keyed by QID (queries run in parallel)."""
+    if cfg.get("fetch_bucket"):
+        return fetch_people_grouped(cfg, workers)
     lo, hi = cfg["active"]
     sl = cfg["min_sitelinks"]
     jobs = []
@@ -176,6 +274,28 @@ def fetch_facts(qids):
     return facts
 
 
+def fetch_extra_places(qids):
+    """Fallback place evidence for people with no citizenship or birth/death country
+    (pre-1400 passes): work location (P937) and its country, culture (P2596) and
+    languages (P1412). Cached per QID."""
+    path = os.path.join(RAW, "extra_places.json")
+    known = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
+    todo = [q for q in qids if q not in known]
+    for i in range(0, len(todo), CHUNK):
+        chunk = todo[i:i + CHUNK]
+        for q in chunk:
+            known[q] = {"work_country": [], "culture": []}
+        values = " ".join("wd:" + q for q in chunk)
+        for r in sparql(f"""SELECT ?p ?k ?v WHERE {{ VALUES ?p {{ {values} }}
+              {{ ?p wdt:P937 ?v . BIND("work_country" AS ?k) }} UNION {{ ?p wdt:P937/wdt:P17 ?v . BIND("work_country" AS ?k) }}
+              UNION {{ ?p wdt:P2596 ?v . BIND("culture" AS ?k) }} UNION {{ ?p wdt:P1412 ?v . BIND("culture" AS ?k) }} }}"""):
+            if re.fullmatch(r"Q\d+", r["v"]) and r["v"] not in known[r["p"]][r["k"]]:
+                known[r["p"]][r["k"]].append(r["v"])
+        json.dump(known, open(path, "w", encoding="utf-8"))
+        print(f"  extra places: {min(i + CHUNK, len(todo))}/{len(todo)}")
+    return known
+
+
 # Tried in order for countries still without a continent: the country's own
 # continent, then that of its country (subnational/historical places), its
 # successor state, and its capital's country. Separate simple queries, because
@@ -249,14 +369,25 @@ def main():
     facts = fetch_facts(sorted(people))
     occupations = fetch_occupations(sorted(people))
     # Skip "unknown value" claims, which come back as genid blank-node IRIs.
+    extra = {}
+    if cfg.get("place_any"):
+        unplaced = [q for q in sorted(people) if not any(
+            facts.get(q, {}).get("claims", {}).get(k) for k in ("P27", "birth_country", "death_country"))]
+        extra = fetch_extra_places(unplaced)
     countries = sorted({c for f in facts.values() for k in ("P27", "birth_country", "death_country")
-                        for c in f["claims"].get(k, []) if re.fullmatch(r"Q\d+", c)})
+                        for c in f["claims"].get(k, []) if re.fullmatch(r"Q\d+", c)}
+                       | {c for e in extra.values() for c in e["work_country"]})
     continents = fetch_country_continents(countries)
     region_continents, region_countries = set(cfg["continents"]), set(cfg["countries"])
     excluded = set(cfg.get("exclude_countries", []))
 
     def country_continents(c):
         conts = continents.get(c, [])
+        # Some states record "Eurasia" instead of Europe and Asia (the Russian Empire:
+        # North America via Alaska + Eurasia), which made North America its home
+        # continent and dropped every Russian-Empire artist from Europe.
+        if EURASIA in conts:
+            conts = [x for x in conts if x != EURASIA] + [x for x in (EUROPE, ASIA) if x not in conts]
         if cfg.get("home_continent") and len(conts) > 1:
             # Imperial and transcontinental states list every continent they reached
             # (France: South America, Oceania; German Empire: Africa, Oceania), which
@@ -268,7 +399,22 @@ def main():
     def hit(c):
         return c in region_countries or (c not in excluded and bool(region_continents & country_continents(c)))
 
-    def in_region(claims):
+    fallback_cultures = set(cfg.get("fallback_cultures", []))
+
+    def in_region(claims, q=None):
+        if cfg.get("place_any"):
+            # Pre-1400: citizenship is a historical state (Tang dynasty, Delian League,
+            # Cilicia) and birth/death places resolve to modern countries, so any of
+            # them may place the artist; overlaps between regions are unioned later.
+            cs = [c for k in ("P27", "birth_country", "death_country") for c in claims.get(k, [])]
+            if cs:
+                return any(hit(c) for c in cs)
+            e = extra.get(q, {})
+            if e.get("work_country"):  # then where they worked
+                return any(hit(c) for c in e["work_country"])
+            if e.get("culture"):       # then culture or language (Ancient Greek, Etruscan)
+                return bool(fallback_cultures & set(e["culture"]))
+            return None
         if cfg.get("place_by_birth_death"):
             # Secondary or honorary citizenships (Max Ernst: Cuba; Leni Riefenstahl:
             # Sudan) put famous Europeans at the top of other regions' rankings. Use
@@ -291,9 +437,9 @@ def main():
     rows, n_unknown_place = [], 0
     for q, p in people.items():
         birth, death, floruit = year_of(p.get("birth")), year_of(p.get("death")), year_of(p.get("floruit"))
-        span = active_span(birth, death, floruit)
+        span = active_span(birth, death, floruit, year_of(p.get("work_start")), year_of(p.get("work_end")))
         claims = facts.get(q, {}).get("claims", {})
-        region_hit = in_region(claims)
+        region_hit = in_region(claims, q)
         n_unknown_place += region_hit is None
         in_pool = bool(span and span[0] <= hi and span[1] >= lo and region_hit and int(p["s"]) >= cfg["min_sitelinks"])
         if not (in_pool or q in ref_set):
@@ -309,7 +455,7 @@ def main():
             "in_pool_rule": int(in_pool), "is_reference": int(q in ref_set),
         }
         # Primary medium = first matching group in MEDIA order; all matches kept for placement.
-        media = [m for m in cfg["media"] if set(MEDIA[m]) & set(occupations.get(q, []))]
+        media = [m for m, occs in media_occupations(cfg).items() if set(occs) & set(occupations.get(q, []))]
         row["medium"] = media[0] if media else "visual art (unspecified)"
         row["media"] = "|".join(media)
         # Share of the person's occupations that are art occupations; depth_model
