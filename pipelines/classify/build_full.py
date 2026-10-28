@@ -186,7 +186,7 @@ def main():
                     find.append([l["label"], tab, l["code"], "leaf", l["aliases"]])
                     for k in mem.get(l["code"], []):
                         what = (f"{k[1]} {k[7]}" if tab == "FT" else (k[1] or ("maker" if k[4] else "kind")))
-                        find.append([k[0], tab, l["code"], what.strip(), ""])
+                        find.append([k[0], tab, l["code"], what.strip(), (k[2].replace(";", " ;") if tab == "FT" and k[7] == "film" else "")])
         print(tab, "member files (KB):", {k: v // 1024 for k, v in sizes.items()})
     json.dump(find, open(os.path.join(OUT, "find.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     census = {

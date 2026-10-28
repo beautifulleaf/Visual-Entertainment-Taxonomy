@@ -360,29 +360,29 @@
   ]
  },
  "ft": {
-  "leaves": 331,
-  "placed": 36187,
+  "leaves": 332,
+  "placed": 36181,
   "dispositions": {
    "film|leaf": 18007,
    "film|exclude": 28,
    "film|route": 332,
-   "tv|leaf": 12249,
-   "tv|exclude": 68,
+   "tv|leaf": 12248,
+   "tv|exclude": 69,
    "tv|route": 50,
-   "anime|leaf": 5534,
-   "anime|exclude": 2,
+   "anime|leaf": 5531,
+   "anime|exclude": 5,
    "anime|route": 1,
-   "unscripted|leaf": 397,
-   "unscripted|exclude": 26
+   "unscripted|leaf": 395,
+   "unscripted|exclude": 28
   },
   "per_family": {
    "A": 17187,
    "B": 820,
    "C": 11686,
    "D": 366,
-   "E": 5534,
+   "E": 5531,
    "F": 0,
-   "G": 594
+   "G": 591
   },
   "empty_leaves": [
    "A1-34",
