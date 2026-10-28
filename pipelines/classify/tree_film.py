@@ -708,8 +708,8 @@ _add("A12", [
     ("A12-4", "Sexploitation", "narrow",
      "low-budget softcore features made for sex appeal outside Japan — nudie-cuties, Russ Meyer, Euro-softcore (<i>Faster, Pussycat! Kill! Kill!</i>, <i>Emmanuelle</i>, <i>Vixen!</i>).",
      "softcore film; sexploitation film", "A12-1 Pink Film.", "sexploitation film"),
-    ("A12-5", "Pornographic Film", "narrow",
-     "hardcore features, chiefly of the Golden Age of Porn (1969–1984) that reached mainstream cinemas (<i>Deep Throat</i>, <i>Behind the Green Door</i>, <i>The Devil in Miss Jones</i>).",
+    ("A12-5", "Pornographic Film (retired)", "narrow",
+     "<b>Retired (S1).</b> Hardcore pornography is classified in the Pleasure Taxonomies (EP II-K-1 Watching Pornography: theatrical, home-video and internet eras), not here; an explicit film made and received as cinema is placed by its genre (<i>Caligula</i> → A7-6). The code is not reused.",
      "Golden Age of Porn; porno chic", "A12-4 Sexploitation.", "pornographic film"),
 ])
 
@@ -956,7 +956,7 @@ WEAK = {
 
 _FAM_E = next(f for f in FAMILIES if f["code"] == "E")
 _FAM_E["key"] = [
-    "1. Explicit sexual content made for the adult market (hentai)? → <b>E12 Adult Anime</b>.",
+    "1. Explicit sexual content made for the adult market (hentai)? → not placed here: the Pleasure Taxonomies (S1). An adult-flagged drama, horror or art anime goes on by its genre (AN8).",
     "2. Made first for young children (kodomo-muke), or a family literary adaptation? → <b>E11 Children's & Family</b>.",
     "3. A magical girl who transforms to fight or to help? → <b>E4 Magical Girl</b>.",
     "4. Giant robots, or speculative science (space, cyborgs, the future) that carries the story — not a device that only frames a school comedy, romance or idol show? → <b>E2 Mecha & Science Fiction</b>.",
@@ -976,7 +976,7 @@ PRECEDENCE += [
     ("AN5", "Comedy first", "A series whose premise is a pretext for gags or parody (gag manga, a genre parody) is E10 whatever its setting or club (<i>Detroit Metal City</i>, <i>Dragon Half</i>, <i>KonoSuba</i> excepted as isekai, since its world carries the story)."),
     ("AN6", "Children's franchises", "A children's franchise (Pokémon, Digimon, Doraemon) stays in E11 across its entries (AN2), including films made for its grown-up fans."),
     ("AN7", "What carries the story", "A setting, sport, band or speculative frame that is only a backdrop does not decide the leaf: the sport must drive the plot for E7 (<i>Blue Box</i> → romance), a fantasy world must carry the story for E3 (a villainess romance in a fantasy court → romance). Toy-line battle shows for children (<i>Beyblade</i>, <i>Bakugan</i>) are E11; one-off comedy specials and chibi extras of a franchise are E10."),
-    ("AN8", "Adult flag", "E12 holds explicit hentai only; an adult-flagged art film or erotic drama (<i>Cleopatra</i> 1970, <i>Shoujo Tsubaki</i>) is placed by its genre with E12-1 as see-also. A gag series about everyday life is E10 (comedy first, AN5); a gentle everyday series without gag structure is E6."),
+    ("AN8", "Adult flag", "Explicit hentai is classified in the Pleasure Taxonomies (S1; E12-1 retired); an adult-flagged art film or erotic drama (<i>Cleopatra</i> 1970, <i>Shoujo Tsubaki</i>) is placed by its genre. A gag series about everyday life is E10 (comedy first, AN5); a gentle everyday series without gag structure is E6."),
     ("AN9", "Battle structure in any setting", "AN1 holds for science-fiction and samurai settings too: a series built on escalating fights and power systems is E1 (<i>Kaiju No. 8</i>, <i>Jigokuraku</i>); a death game or gambling series whose engine is the game, not the fights, is E8-6 (<i>Kakegurui</i>, <i>Juuni Taisen</i> excepted as battle). Ecchi series whose fan service carries them stay E10-2 even with fights (<i>High School DxD</i>)."),
     ("AN10", "Frames and parodies", "A magical-girl or robot frame on a romance or comedy does not make E4 or E2 (AN7); a magical-girl parody is E10. A historical war epic whose era and campaigns are the subject is E8-4 even with constant battles (<i>Kingdom</i>, <i>Vinland Saga</i>). Comedy shorts, bloopers and chibi extras of a franchise are E10; side stories in the franchise's own genre stay with it (AN2)."),
     ("AN4", "Non-Japanese animation in the anime database", "Donghua and Korean animation selected through the anime database are placed by the same key, with country as a filter; animation from elsewhere selected as film is A15."),
@@ -1155,8 +1155,8 @@ _add("E11", [
      "Sekai Meisaku Gekijō", "E11-1 Kodomo-muke.", "World Masterpiece Theater"),
 ])
 _add("E12", [
-    ("E12-1", "Hentai", "narrow",
-     "explicit adult anime, mostly OVAs (flagged is_adult in the anime database).",
+    ("E12-1", "Hentai (retired)", "narrow",
+     "<b>Retired (S1).</b> Explicit hentai made to arouse is classified in the Pleasure Taxonomies (EP II-K-12 Drawn &amp; Animated Erotic Media), not here; an adult-flagged anime made as drama, horror or art is placed by its genre (AN8), and ecchi stays E10-2. The code is not reused.",
      "adult anime", "E10-2 Ecchi.", "Hentai"),
 ])
 ATTEST_WIKI.update({
@@ -1494,3 +1494,6 @@ PRECEDENCE += [
     ("F31", "Generals, real disasters and narrow-leaf ties", "A biopic whose story is a military campaign is War Film (A7-3) with A7-8 as see-also; a soldier's life beyond the war is A7-8. A real disaster told as a social drama of the people in it (a mine rescue) goes by that drama with A5-5 as see-also; A5-5 takes the disaster spectacle. When two narrow leaves tie (sport and road), the one the film's climax belongs to wins."),
     ("AN11", "Promotional shorts and supplements", "Manner movies, recap specials and behind-the-scenes supplements of an anime are excluded as supplements of their series; a promotional short with its own story is placed by genre."),
 ]
+
+# Seam ruling S1 with the Erotic Pleasure taxonomy (owner, 2026-10-28; pipelines/classify/seam_ep.py)
+PRECEDENCE.append(("S1", "Seam with Erotic Pleasure", "Explicit works made to arouse (hardcore pornography, hentai) are classified in the Pleasure Taxonomies, not here; an explicit work made and received as art or mainstream cinema is placed by its genre (<i>In the Realm of the Senses</i>, <i>Caligula</i>). Non-explicit erotic genres and cycles with their own canon stay here (pink film, Roman Porno, erotic drama, sexploitation, erotic thriller, ecchi; shunga in VA-B2-17). Segments of the adult trade with no canon (amateur and creator content, adult magazines, glamour and pin-up photography, late-night cable softcore) are the Pleasure Taxonomies'. Retired here: A12-5, E12-1."))
