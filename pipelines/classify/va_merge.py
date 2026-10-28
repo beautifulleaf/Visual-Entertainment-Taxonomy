@@ -25,7 +25,20 @@ R = os.path.join(VA, "review")
 SCALEUP = os.path.join(VA, "leaves_scaleup.csv")
 SLICES = ["south_asia", "himalaya_central_asia", "southeast_asia", "east_asia", "africa", "ancient_world",
           "mesoamerica_south_america", "north_america_indigenous", "oceania_australia", "europe_other",
-          "europe_folk_west", "europe_folk_east", "artists"]
+          "europe_folk_west", "europe_folk_east", "gapsweep_europe", "architecture_west", "architecture_nonwest", "artists"]
+# slices whose input is their own disposition file rather than a region pool
+NOPOOL = {"gapsweep_europe", "architecture_west", "architecture_nonwest"}
+
+
+def ref(codes, sl, r):
+    """Resolve a leaf reference: L<n> (this slice), <slice>:L<n>, artists:T<n>, T<n>, or an existing code."""
+    r = r.strip()
+    if ":" in r and not r.startswith(("http",)):
+        osl, tmp = r.split(":", 1)
+        return codes.get((osl, tmp.strip()), r)
+    if re.fullmatch(r"T\d+", r):
+        return codes.get(("artists", r), r)
+    return codes.get((sl, r), r)
 
 
 def rd(p):
@@ -73,7 +86,7 @@ def main():
         typ, _, rest = d.partition(":")
         if typ in ("leaf", "kind", "alias"):
             tgt, _, grp = rest.partition("/")
-            tgt = codes.get((sl, tgt.strip()), tgt.strip())
+            tgt = ref(codes, sl, tgt)
             return f"{typ}:{tgt}" + (f"/{grp}" if grp else "")
         if typ == "route":
             other = rest.strip()
@@ -84,22 +97,30 @@ def main():
         return d
 
     out, stats = [], Counter()
+    routes = {(r["slice"], r["pool_id"]): r for r in rd(os.path.join(R, "route_resolution.csv"))}
     for sl in SLICES:
         if sl == "artists":
             continue
         disp = {r["pool_id"]: r for r in rd(os.path.join(R, f"{sl}_disp.csv"))}
-        for p in rd(os.path.join(VA, "regions", f"{sl}_pool.csv")):
+        pool = rd(os.path.join(VA, "regions", f"{sl}_pool.csv")) if sl not in NOPOOL else [
+            {"pool_id": r["pool_id"], "source": sl, "label": r.get("label", ""), "type": "style" if sl.startswith("arch") else "gap sweep",
+             "region": "", "era": "", "objects": "", "disposition": ""} for r in disp.values()]
+        for p in pool:
             d = p["disposition"]
             note = ""
             if not d:
                 r = disp.get(p["pool_id"])
                 d, note = (r["disposition"], r.get("note", "")) if r else ("unplaced", "")
                 d = res(sl, d, note)
+                if d.startswith("route") and (sl, p["pool_id"]) in routes:
+                    rr = routes[sl, p["pool_id"]]
+                    d, note = res(sl, rr["disposition"], rr.get("note", "")), (note + "; " if note else "") + "route resolved: " + rr.get("note", "")
             out.append({"slice": sl, "pool_id": p["pool_id"], "source": p["source"], "label": p["label"], "type": p["type"],
                         "region": p["region"], "era": p["era"], "objects": p["objects"], "disposition": d, "note": note})
             stats[sl, d.split(":")[0]] += 1
         for k in rd(os.path.join(R, f"{sl}_kinds.csv")):
-            code = codes.get((sl, k["tmp"].strip()))
+            code = ref(codes, sl, k["tmp"])
+            code = code if re.fullmatch(r"[A-M]\d+-\d+", code or "") else None
             if code:
                 out.append({"slice": sl, "pool_id": f"evidence:{sl}:{k['kind']}", "source": "evidence", "label": k["kind"],
                             "type": "kind from evidence", "region": "", "era": "", "objects": "",
