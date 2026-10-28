@@ -106,6 +106,13 @@ The target depth is the owner-supplied list in `seeds/visual-art/europe_1400-190
   - the depth model does not select architects on its own; its architecture rows are kept only as a cross-check.
   - The style and exemplar-building harvest is queued behind the current Wikidata jobs.
 
+### 2.1b Regional sweeps: results so far
+- **Smithsonian Open Access** (`pipelines/regional/smithsonian.py`, 2026-10-28): 315,019 CC0 records across seven units.
+  - **American Indian (NMAI): 237,752 objects**, 91% with a recorded culture and a culture-area hierarchy (Southwest, Woodlands, Plains, Mesoamerica, Andes, Arctic). This is the strongest source for the Indigenous Americas.
+  - **The public bucket holds only part of the other collections:** Asian Art 4,720 records (79% with period or dynasty: Edo 780, Ming 359, Han 187, Goryeo 156, ...), African Art only 113, Hirshhorn 449. These regions need other sources (or api.si.edu with a key).
+  - Cooper Hewitt (58,202), SAAM (13,783) and Hirshhorn record no culture or period, only makers.
+  - No maker carries an outside ID (ULAN/Wikidata), so maker matching is a separate step.
+
 ### 2.2 Gathering exit criterion: coverage audit (decided 2026-10-28)
 Node creation happens in the classifying stage. Gathering must hand it **evidence for every region at the level that region records**, so that no non-Western tradition drops out because it lacks artist names.
 - **Grid:** before gathering closes, build a region × period audit grid. Per cell, it counts:
