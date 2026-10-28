@@ -864,3 +864,31 @@ PRECEDENCE += [
     ("P14", "Culture rows", "A gathered culture row (Ewe, Mende, Asante) is a kind of the tradition that holds most of its objects when one medium tradition of that people has a leaf; otherwise it is a place tag (P12). A named carving school, provincial painting school or centre (Te Arawa, Murshidabad, Swat) is a kind of its leaf."),
     ("P15", "Period leaves for artists", "With no attested movement, an artist goes to the period-style leaf of their medium by birth year: academic and salon art for those trained in the academies before the modern movements (born before c. 1850), Modern Art (born c. 1850–1944), Contemporary Art (born 1945 or later). The artist's own medium decides, not the medium recorded in the source when it is plainly wrong (a photographer recorded as a painter is a photographer)."),
 ]
+
+
+def _alias(code, extra):
+    for rows in LEAVES.values():
+        for i, l in enumerate(rows):
+            if l[0] == code:
+                rows[i] = l[:4] + ((l[4] + ";" if l[4] else "") + extra,) + l[5:]
+
+
+# Coverage-probe fixes: umbrella names a user types.
+_alias("C1-3", "Islamic calligraphy;Arabic calligraphy")
+_alias("A2-3", "Chinese landscape painting;shanshui;Chinese scroll painting")
+_alias("A2-2", "shanshui (monumental)")
+_alias("E4-10", "Chinese porcelain;Chinese vase")
+_alias("E1-27", "Greek vase painting;Greek pottery;Greek vase")
+_alias("E1-28", "Greek vase painting;Greek vase")
+_alias("A5-81", "abstract art (American)")
+_alias("J1-5", "street photography")
+_alias("M2-2", "generative art;computer art;NFT art;crypto art;AI art;pixel art")
+MODIFIERS += [
+    "<b>Subject and genre</b> — portrait, landscape, still life, history painting, genre scene, religious image: a tag on works and kinds, never a node.",
+    "<b>Technique and process</b> — oil, tempera, fresco, watercolour, gouache, acrylic; woodcut, engraving, etching, lithography, screen print; daguerreotype, albumen, gelatin silver, colour and black-and-white photography: tags, never nodes (a fresco cycle is Art in Place by its site, an etching is a print by its school).",
+    "<b>Abstraction and figuration</b> — abstract art is a tag across movements (Abstract Expressionism, Suprematism, Dansaekhwa …), not a leaf of its own.",
+    "<b>Building type</b> — skyscraper, mosque, temple, castle, palace, house, garden pavilion: a tag on architecture kinds; styles are the leaves.",
+    "<b>Folk and popular art</b> — a filter that gathers the folk leaves of every medium (Mexican folk art = the Mexican folk leaves in A6, D5, E1, C4, H …).",
+]
+_fam("B")["subs"] = [(c, l, ("Axis: school and tradition; the process (woodcut, etching, lithography, screen print) is a tag." if c == "B2" else a)) for c, l, a in _fam("B")["subs"]]
+_fam("K")["subs"] += [("K13", "Gardens & Designed Landscapes", "Axis: garden tradition (Persian chahar bagh, Chinese scholar garden, Japanese garden, Italian Renaissance, French formal, English landscape).")]
