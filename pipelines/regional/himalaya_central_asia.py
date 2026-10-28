@@ -602,7 +602,7 @@ def medium_of(*texts):
 # ------------------------------------------------------------------ makers
 
 PLACEHOLDER_MAKER = re.compile(
-    r"^(unknown|unidentified|anonymous|not known|various|unrecorded|n/?a|none)\b", re.I)
+    r"^(unknown|unidentified|anonymous|not known|various|unrecorded|n/?a|none|maker|artist)\b", re.I)
 MAKER_ALIASES = [
     (r"\b(aniko|araniko|anige|arniko)\b", "Aniko"),
     (r"khazi lha?zo|khazi lazo", "Khazi Lhazo"),
@@ -802,6 +802,9 @@ def harvest_har(max_items=0):
         fcat, fig = figure.get(icode, ("", ""))
         mats = f.get("material", "")
         med = medium_of(mats) if mats else ""
+        if not med or med in ("other", "metalwork"):   # HAR material "Metal" = a cast figure
+            set_med = next((x for x in (har_set_medium(n) for n in set_names) if x), "")
+            med = set_med or ("sculpture" if med == "metalwork" else med)
         if not med or med == "other":
             meds = [har_set_medium(n) for n in set_names]
             med = next((x for x in meds if x), "") or medium_of(d["title"], fcat) or "other"
@@ -838,8 +841,12 @@ VAM_PLACES = ["Tibet", "Lhasa", "Nepal", "Kathmandu", "Patan", "Bhaktapur", "Bhu
               "Samarkand", "Uzbekistan", "Tajikistan", "Turkmenistan"]
 VAM_KEYWORDS = ["Tibetan", "thangka", "Newar", "Nepalese", "Bhutanese", "Mongolian", "Gandhara", "Gandharan",
                 "Kushan", "Sogdian", "Bactrian", "Khotan", "Dunhuang", "Tangut", "Xixia", "Uighur", "Sino-Tibetan"]
-DOCUMENTARY_TYPE = re.compile(r"photograph|negative|lantern slide|postcard|print\b|transparency|cast\b|model\b|"
-                              r"sketch|drawing", re.I)
+DOCUMENTARY_TYPE = re.compile(r"print\b|cast\b|model\b|sketch|drawing|aquatint|engraving|lithograph|etching|"
+                              r"\bmap\b|\bbook\b", re.I)
+PHOTO_TYPE = re.compile(r"photograph|negative|lantern slide|postcard|transparency|glass plate|albumen", re.I)
+NON_MAKER_ROLE = re.compile(r"retail|brand|editor|publish|\bafter\b|engraver|printmaker|photograph|architect|"
+                            r"manufactur|author|collector|owner|lithograph|distribut|commission|patron|donor|"
+                            r"previous|dealer|printer", re.I)
 
 
 def vam_reduce(d):
@@ -889,7 +896,8 @@ def vam_row(r):
     made = [p for p, a in r["places"] if p and a in ("made", "", "probably made", "possibly made", "found")]
     place = "; ".join(dict.fromkeys(made or [p for p, a in r["places"] if p and not re.match(
         r"(photographed|depicted|published|printed|retailed|collected|used)", a or "")]))
-    makers = [(maker_name(n), role) for n, role in r["makers"] if n and not PLACEHOLDER_MAKER.match(n)]
+    makers = [(maker_name(n), role) for n, role in r["makers"]
+              if n and not PLACEHOLDER_MAKER.match(n) and not NON_MAKER_ROLE.search(role or "")]
     labels = "; ".join(r["styles"] + r["people"])
     return {
         "source": "vam", "id": r["id"], "title": r["title"] or r["type"],
@@ -912,7 +920,8 @@ def harvest_vam():
             if not rec["id"] or rec["id"] in rows:
                 continue
             row = vam_row(rec)
-            if DOCUMENTARY_TYPE.search(row["object_type"]) and (row["date_begin"] or 0) >= 1750:
+            if PHOTO_TYPE.search(row["object_type"]) or (
+                    DOCUMENTARY_TYPE.search(row["object_type"]) and (row["date_begin"] or 0) >= 1750):
                 stats["documentary_dropped"] += 1
                 continue
             # place text decides; labels only help when no place is recorded
@@ -952,7 +961,7 @@ def harvest_cma():
                     desc = c.get("description") or ""
                     nm = re.sub(r"^(attributed to|workshop of|circle of|follower of|school of)\s+", "", desc.split(" (")[0],
                                 flags=re.I).strip()
-                    if nm and not PLACEHOLDER_MAKER.match(nm):
+                    if nm and not PLACEHOLDER_MAKER.match(nm) and not NON_MAKER_ROLE.search(c.get("role") or ""):
                         role = c.get("role") or ""
                         if re.match(r"attributed to", desc, re.I):
                             role = "attributed"
