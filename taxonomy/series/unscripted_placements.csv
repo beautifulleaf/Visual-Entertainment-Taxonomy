@@ -1,4 +1,11 @@
 id,title,year,country,type,leaf,see_also,confidence,note,by
+Q383443,Lenßen & Partner,2003,3,,C3-2,G2-2,med,German scripted-reality detective series,sweep
+Q1219561,Around the World in Eighty Days,1989,3,,C8-1,,high,Palin travel documentary series,sweep
+mdl:733393-bts-monuments-beyond-the-star,BTS Monuments: Beyond the Star,2023,KR,,C8-1,,high,music documentary series,sweep
+mdl:28136-bts-burn-the-stage,BTS: Burn The Stage,2018,KR,,C8-1,,high,music documentary series,sweep
+mdl:60093-break-the-silence-docu-series,Break the Silence: Docu-Series,2020,KR,,C8-1,,high,music documentary series,sweep
+mdl:39947-bring-the-soul-docu-series,Bring the Soul: Docu-Series,2019,KR,,C8-1,,high,music documentary series,sweep
+Q421941,Aktenzeichen XY… ungelöst,1967,2,,C8-2,,med,crime-appeal programme with reconstructions,sweep
 Q48699959,All Together Now,2018,9,,G1-1,,high,,review
 mdl:774401-planet-b,Boys II Planet,2025,KR,,G1-1,,high,,review
 mdl:719603-boys-planet,Boys Planet,2023,KR,,G1-1,,high,,review
@@ -413,12 +420,5 @@ mdl:697913-vincenzo-special,Vincenzo: Special,2021,KR,,exclude:drama supplement,
 mdl:21631-w-the-unfinished-story,W: The Unfinished Story,2016,KR,,exclude:drama supplement,,med,making-of/recap special of a scripted drama,review
 mdl:762865-nana-tour-with-seventeen-uncut,Nana Tour with Seventeen Uncut,2024,KR,,exclude:duplicate,,med,uncut cut of Nana Tour with Seventeen,review
 Q7997397,Who Wants to Be a Millionaire?,1998,3,,exclude:duplicate,,med,duplicate of Q200562 Millionaire,review
-Q421941,Aktenzeichen XY… ungelöst,1967,2,,route:FT-C,,low,crime-appeal programme with reenactments (C8),review
-Q1219561,Around the World in Eighty Days,1989,3,,route:FT-C,,low,travel documentary series (C8),review
-mdl:733393-bts-monuments-beyond-the-star,BTS Monuments: Beyond the Star,2023,KR,,route:FT-C,,med,music documentary series; C8,review
-mdl:28136-bts-burn-the-stage,BTS: Burn The Stage,2018,KR,,route:FT-C,,med,music documentary series; C8,review
-mdl:60093-break-the-silence-docu-series,Break the Silence: Docu-Series,2020,KR,,route:FT-C,,med,music documentary series; C8,review
-mdl:39947-bring-the-soul-docu-series,Bring the Soul: Docu-Series,2019,KR,,route:FT-C,,med,music documentary series; C8,review
-mdl:2205-hana-yori-dango-special,Hana yori Dango 2 (Returns) Bangai hen: Makinoke Hajimete no Kazoku Ryoko in N.Y.,2007,JP,,route:FT-C,,high,scripted special episode of a drama,review
-Q383443,Lenßen & Partner,2003,3,,route:FT-C,G2-2,med,scripted reality with actors,review
-mdl:734743-the-eclipse-special,The Eclipse Special,2022,TH,,route:FT-C,,low,appears scripted side story of drama,review
+mdl:2205-hana-yori-dango-special,Hana yori Dango 2 (Returns) Bangai hen: Makinoke Hajimete no Kazoku Ryoko in N.Y.,2007,JP,,exclude:special episode of Hana yori Dango 2 (TV19),C2-9,med,"scripted side-story special, not a series",sweep
+mdl:734743-the-eclipse-special,The Eclipse Special,2022,TH,,exclude:special episode of The Eclipse (TV19),C2-11,med,scripted side-story special of BL series,sweep

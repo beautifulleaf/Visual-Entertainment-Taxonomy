@@ -1,0 +1,50 @@
+tmp,kind,group,basis
+L1,Ernabella Arts,art centre,row APY / Ngaanyatjarra Lands art centres
+L1,Tjala Arts,art centre,row APY / Ngaanyatjarra Lands (qid Q96409969)
+L1,Lajamanu (Warnayaka),art centre,row Yuendumu / Lajamanu
+L4,Buku-Larrnggay Mulka Centre (Yirrkala),art centre,row Eastern Arnhem Land bark painting (qid Q124684065)
+L4,Injalak Arts (Gunbalanya/Oenpelli),art centre,row Western Arnhem Land bark painting (qid Q16847638)
+L4,Maningrida Arts & Culture,art centre,row Central Arnhem Land bark painting (qid Q124671861)
+L4,Ramingining and Milingimbi,centres,row Central Arnhem Land bark painting
+L4,x-ray style,style,rows Western Arnhem Land bark painting and Arnhem Land rock art
+L2,Waringarri Aboriginal Arts,art centre,row Warmun / East Kimberley painting (qid Q124684446)
+L2,"Tiwi ochre painting (Munupi, Jilamara)",sub-type,row Tiwi art (ochre painting)
+L18,Munupi Arts,art centre,row Tiwi art (qid Q111370236)
+L6,dhari,sub-type,rows Torres Strait Islander art (dhari)
+L6,krar,sub-type,row Torres Strait turtle-shell masks
+L6,le op,sub-type,row Torres Strait turtle-shell masks
+L7,Thomas Heberley,maker,row Maori (33)
+L7,Jacob Heberley,maker,row Maori: other iwi (19)
+L7,Anaha Te Rahui,maker,"rows Maori (28), Maori: Tainui"
+L7,Tene Waitere,maker,row Maori: Te Arawa (5)
+L7,Neke Kapua,maker,row Maori: Te Arawa (4)
+L7,Wero Taroi,maker,row Maori: Te Arawa (3)
+L7,Pineamine Taiapa,maker,row Maori: Ngati Porou (2)
+L10,bisj poles,sub-type,row Asmat (met/aic wood/sculpture); wiki:Bisj Pole
+L11,Sawos,sub-group,row Sepik: Sawos
+L15,Benedicto Tuki,maker,row Rapa Nui (2)
+L21,tāniko,technique,row Maori weaving (kaitaka); wiki:Tāniko
+L21,korowai,sub-type,row Maori weaving
+L21,kaitaka,sub-type,row Maori weaving
+L21,piupiu,sub-type,row Maori weaving
+L21,kete,sub-type,row Maori weaving
+L21,whāriki,sub-type,row Maori weaving
+L24,hiapo (Niue),sub-type,row Polynesian tapa (other)
+L24,ahu (Tahiti),sub-type,row Polynesian tapa (other)
+L24,Marquesan and Rapa Nui tapa,sub-group,row Polynesian tapa (other)
+L24,ngatu (Tonga),sub-type,row Tongan (textile 74)
+L24,masi (Fiji),sub-type,rows Fijian (barkcloth)
+L24,kapa (Hawaiʻi),sub-type,row Hawaiian (textile); wiki:Kapa
+L25,kiekie and fala (Tonga),sub-type,row Pacific fine mats
+L26,Tjanpi Desert Weavers,art centre,"rows Aboriginal fibre art, APY Lands; wiki:Tjanpi Desert Weavers"
+L26,ghost net art,sub-type,row Aboriginal fibre art
+L26,dillybags,sub-type,row Aboriginal fibre art (qid Q5276990)
+L26,Arnhem Land pandanus weaving,sub-type,row Aboriginal fibre art
+L31,tree-fern grade figures,sub-type,row Vanuatu slit drums and grade figures
+L33,Ubirr,site,row Arnhem Land and Kakadu rock art
+L33,Burrungkuy (Nourlangie),site,row Arnhem Land and Kakadu rock art
+L33,Nanguluwur,site,row Arnhem Land and Kakadu rock art
+L34,Wandjina rock paintings,sub-type,row Kimberley rock art (Wanjina)
+L41,peʻa,sub-type,row Polynesian tatau
+L41,malu,sub-type,row Polynesian tatau
+L41,veiqia (Fiji),sub-type,row Polynesian tatau

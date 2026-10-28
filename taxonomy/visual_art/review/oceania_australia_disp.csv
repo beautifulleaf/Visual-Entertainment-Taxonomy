@@ -1,0 +1,181 @@
+pool_id,disposition,note
+africa_oceania_targeted:Maori,tag:place,"culture bucket (jewellery 1506 = pounamu L17; sculpture = L7); carvers Thomas Heberley, Anaha Te Rahui seeded as kinds of L7"
+africa_oceania_targeted:Melanesian,tag:place,"culture-area bucket, arms dominate"
+africa_oceania_targeted:Solomon Islands,tag:place,"arms 1229 (clubs, shields); shell inlay is L13"
+africa_oceania_targeted:New Guinea,tag:place,
+africa_oceania_targeted:Samoan,tag:place,textile 360 and fibre 182 evidence L24 (siapo) and L25 (ʻie tōga); makers are contemporary
+africa_oceania_targeted:Unspecified (Oceania),exclude:no attribution,
+africa_oceania_targeted:Fijian,leaf:L30,arms 647 = clubs; textile 136 = masi (kind of L24)
+"world_folk:Maori weaving (raranga, whatu: kakahu, korowai, kete, whariki)",leaf:L21,
+africa_oceania_targeted:Polynesian,tag:place,culture-area bucket
+africa_oceania_targeted:Vanuatu,tag:place,arms dominate; slit gongs are L31
+"world_folk:Polynesian tapa (other: Niue, Tahiti, Marquesas, Wallis-Futuna, Rapa Nui)",leaf:L24,hiapo and ahu seeded as kinds
+"world_folk:Aboriginal fibre art (Tjanpi, ghost nets, dilly bags, pandanus weaving)",leaf:L26,
+africa_oceania_targeted:New Britain,tag:place,Baining and Tolai masks: gap
+africa_oceania_targeted:Sepik,leaf:L11,sculpture 63; jewellery and arms dominate
+africa_oceania_targeted:Unspecified (Western Australia),tag:place,
+africa_oceania_targeted:New Caledonia (Kanak),tag:place,Kanak door jambs and roof finials: gap
+met/aic:Asmat,leaf:L10,"wood 261, sculpture 100"
+africa_oceania_targeted:Unspecified (Australia),tag:place,
+africa_oceania_targeted:Tongan,tag:place,textile 74 = ngatu (kind of L24); arms 82 = clubs (see L30)
+africa_oceania_targeted:Cook Islands,tag:place,textile 95 likely tivaevae (L22)
+africa_oceania_targeted:Massim,leaf:L12,
+"gap_sweep:Tiwi art (pukumani poles, ochre painting)",leaf:L18,Munupi Arts seeded as kind; Tiwi painters artist-led
+africa_oceania_targeted:Aboriginal Australian: Tiwi,alias:L18,"same tradition, museum culture label"
+africa_oceania_targeted:Bougainville,tag:place,arms 302
+africa_oceania_targeted:Aboriginal Australian: Wardaman,tag:place,
+africa_oceania_targeted:Unspecified (Pacific Islands),exclude:no attribution,
+africa_oceania_targeted:Hawaiian,tag:place,"featherwork L28 and kapa (kind of L24); aloha-shirt makers (Shaheen, Tori Richards, Hilo Hattie) are fashion, not this tab"
+africa_oceania_targeted:Niue,tag:place,hiapo is a kind of L24
+africa_oceania_targeted:Society Islands (Tahiti),tag:place,ahu tapa kind of L24; mourner's costume
+africa_oceania_targeted:Marquesan,leaf:L14,
+africa_oceania_targeted:Admiralty Islands,tag:place,
+africa_oceania_targeted:Unspecified (Bismarck Archipelago),tag:place,
+africa_oceania_targeted:Maori: other iwi,tag:place,Jacob and Thomas Heberley seeded as kinds of L7
+rijks/wereldmuseum:Asmat,alias:L10,duplicate culture label
+africa_oceania_targeted:New Guinea Highlands,tag:place,body art and headdresses: gap
+rijks/wereldmuseum:New Guinea cultures,tag:place,
+africa_oceania_targeted:Yap,tag:place,
+africa_oceania_targeted:Kiribati,tag:place,coconut-fibre armour: gap
+"world_folk:Torres Strait Islander art (dhari, masks, printmaking)",leaf:L6,dhari seeded as kind; printmaking is L5
+africa_oceania_targeted:Chuuk,tag:place,
+africa_oceania_targeted:Micronesian,tag:place,culture-area bucket
+rijks/wereldmuseum:Papua cultures,tag:place,
+africa_oceania_targeted:New Ireland,leaf:L8,"mask 38, sculpture 26"
+africa_oceania_targeted:New Guinea: Yonggom,tag:place,
+africa_oceania_targeted:Tuvalu,tag:place,
+world_folk:Bilum (PNG string bags),route:southeast_asia,label Noken (SE Asia L54): Bilum redirects to Noken on Wikipedia; bilum as kind there
+africa_oceania_targeted:Maori: Te Arawa,kind:L7/Te Arawa,"Ngāti Tarawhai carvers Tene Waitere, Neke Kapua, Wero Taroi, Anaha Te Rahui"
+africa_oceania_targeted:Unspecified (Pacific),exclude:no attribution,
+world_folk:Omie and Maisin barkcloth (Papua New Guinea),kind:L24/Omie and Maisin,nioge
+africa_oceania_targeted:Papuan Gulf,tag:place,gope boards and hohao: gap
+"gap_sweep:Torres Strait Islander art (dhari, drums, carving, printmaking)",leaf:L5,makers are printmakers
+africa_oceania_targeted:Moriori,tag:place,
+"world_folk:Pacific fine mats (ie toga, kiekie)",leaf:L25,
+rijks/wereldmuseum:Papua cultures: central mountains,tag:place,
+africa_oceania_targeted:Maori: Tuhoe,kind:L7/Tūhoe,sculpture 21
+africa_oceania_targeted:Marshall Islands,tag:place,
+africa_oceania_targeted:Torres Strait,tag:place,arms 65; masks see L6
+met/aic:Melanesian,tag:place,musical instruments (aerophones)
+smithsonian:Desert Cahuilla [Torres-Martinez Reservation/Torres-Martinez Band],route:north_america_indigenous,NMAI row mis-regioned
+rijks/wereldmuseum:Papua cultures: south coast,tag:place,"drawings by J.A. van der Hoeven (colonial documentation), not an Indigenous tradition"
+africa_oceania_targeted:Caroline Islands,tag:place,Carolinian loom weaving: gap
+africa_oceania_targeted:Unspecified (Queensland),tag:place,
+rijks/wereldmuseum:Papua cultures: southwest coast,tag:place,drawings by J.A. van der Hoeven
+africa_oceania_targeted:Maori: Tainui,tag:place,
+rijks/wereldmuseum:Papua New Guinea cultures,tag:place,
+met/aic:Iatmul,kind:L11/Iatmul,
+africa_oceania_targeted:Asmat,alias:L10,duplicate culture label
+africa_oceania_targeted:Tokelau,tag:place,
+africa_oceania_targeted:Maori: Ngati Kahungunu,tag:place,
+met/aic:Fijian,tag:place,"wood = clubs (L30), barkcloth = masi (L24)"
+world_folk:Solomon Islands shell inlay (nguzunguzu),leaf:L13,
+africa_oceania_targeted:Maori: Ngai Tahu,kind:L17/Ngāi Tahu,jewellery 25; Ngāi Tahu are the pounamu iwi
+met/aic:Abelam,kind:L11/Abelam,
+africa_oceania_targeted:Austral Islands,tag:place,carved paddles and ladles: gap
+africa_oceania_targeted:Aboriginal Australian: Kimberley,tag:place,"arms 30; Ronnie Carlton, Gypsy Jinjair are Warmun painters (artist-led)"
+africa_oceania_targeted:Sepik: Iatmul,alias:L11,second label for kind Iatmul (see met/aic:Iatmul)
+africa_oceania_targeted:Sepik: Sawos,tag:place,ceramics 39: Sepik pottery gap
+africa_oceania_targeted:Maori: Ngapuhi,tag:place,
+gap_sweep:Arnhem Land bark painting (region unrecorded),leaf:L4,
+rijks/wereldmuseum:New Zealand cultures,exclude:non-art,tourist publicity photographs and prints
+africa_oceania_targeted:Huon Gulf,tag:place,Tami bowls: gap
+world_folk:Tivaevae (Cook Islands quilts),leaf:L22,
+africa_oceania_targeted:Aboriginal Australian: Arrernte (Hermannsburg),tag:place,"ethnographic objects; see L3, L32"
+africa_oceania_targeted:Rapa Nui,leaf:L15,sculpture 16; Benedicto Tuki seeded as maker
+africa_oceania_targeted:Sepik: Abelam,alias:L11,second label for kind Abelam (masks 14)
+world_folk:Vanuatu slit drums and grade figures (tamtam),leaf:L31,grade figures seeded as kind
+met/aic:Maori,leaf:L7,"wood 11, sculpture 5"
+africa_oceania_targeted:Unspecified (New Zealand),exclude:non-art,contemporary fashion brands
+africa_oceania_targeted:Lake Sentani,tag:place,Sentani barkcloth and carving: gap
+africa_oceania_targeted:Wallis and Futuna,kind:L24/Wallis and Futuna,textile 16 = tapa
+africa_oceania_targeted:Nauru,tag:place,
+met/aic:Kanak,tag:place,see New Caledonia (Kanak)
+africa_oceania_targeted:Maori: Ngati Porou,kind:L7/Ngāti Porou,Pineamine Taiapa
+africa_oceania_targeted:Unspecified (Northern Territory),tag:place,
+met/aic:Solomon Islands,alias:L13,shell 7
+gap_sweep:Warmun / East Kimberley (Gija) painting,kind:L2/Warmun,Waringarri Aboriginal Arts seeded as kind; Rover Thomas artist-led
+"gap_sweep:Southeast Australian carved shields, clubs and possum-skin cloaks",leaf:L23,shields and clubs: gap
+gap_sweep:Western / Central Desert painting (other),leaf:L1,
+met/aic:Hawai'i,tag:place,musical instruments
+met/aic:Marquesan,alias:L14,
+"met/aic:Marquesan, Enata",alias:L14,duplicate of met/aic:Marquesan
+met/aic:Northern New Ireland,alias:L8,northern New Ireland is the malagan region (sculpture 10)
+"gap_sweep:Eastern Arnhem Land (Yolngu) bark painting (Yirrkala, Galiwin'ku)",kind:L4/Eastern Arnhem Land (Yolŋu),Buku-Larrnggay Mulka seeded as kind
+met/aic:Caroline Islands,tag:place,
+met/aic:Samoa,kind:L24/Siapo,barkcloth 6
+met/aic:Rapa Nui,alias:L15,
+"gap_sweep:Western Arnhem Land bark painting (Kunwinjku, Oenpelli)",kind:L4/Western Arnhem Land (Kunwinjku),Injalak Arts seeded as kind
+"gap_sweep:Kimberley pearl-shell ornaments (riji, jakuli)",leaf:L20,
+"gap_sweep:Torres Strait turtle-shell masks (krar, le-op)",alias:L6,same tradition as the world_folk row
+met/aic:Western Desert,tag:place,wood carving (punu): gap
+"gap_sweep:Wandjina art (Mowanjum: Worrorra, Ngarinyin, Wunambal)",kind:L2/Mowanjum,Wandjina paintings on bark and canvas; Wandjina rock paintings see L34
+"met/aic:Melanesian, Fijian",tag:place,musical instruments
+gap_sweep:Groote Eylandt bark painting (Anindilyakwa),kind:L4/Groote Eylandt,
+in_situ:Arnhem Land and Kakadu rock art,leaf:L33,
+"met/aic:Maori, Te Arawa",alias:L7,second label for kind Te Arawa
+met/aic:Southern New Ireland,tag:place,kulap chalk figures: gap
+world_folk:Lalava (Pacific lashing),leaf:L27,
+gap_sweep:Utopia (Anmatyerre / Alyawarr batik and painting),kind:L1/Utopia,"batik phase (Utopia Women's Batik Group) belongs to H5 if built; Kngwarray, Petyarre artist-led"
+gap_sweep:Fitzroy Crossing (Mangkaja Arts),kind:L2/Mangkaja Arts,
+in_situ:Sydney Basin rock engravings,leaf:L36,
+in_situ:Māori rock art,leaf:L39,
+in_situ:mural - New Zealand (modern),exclude:single artwork,modern murals
+met/aic:Torres Strait Islander,tag:place,
+met/aic:Western Kimberley,alias:L20,shell 2 = engraved pearl shells (Met riji)
+gap_sweep:Papunya Tula (Western Desert painting),kind:L1/Papunya Tula,
+in_situ:mural - Australia (undated),exclude:single artwork,modern murals
+met/aic:Mangarevan,tag:place,
+gap_sweep:Aurukun (Wik) sculpture,leaf:L16,
+"gap_sweep:Mornington Island (Lardil, Kaiadilt) art",kind:L2/Mornington Island,Sally Gabori artist-led
+in_situ:Aboriginal rock art (other),exclude:umbrella bucket,grinding grooves and minor sites
+in_situ:mural - Australia (modern),exclude:single artwork,"Keith Haring mural, Northcote Koori Mural"
+in_situ:mural - New Zealand (undated),exclude:single artwork,school murals
+met/aic:Austral Islands,tag:place,
+"met/aic:Caroline Islands, Pohnpei",tag:place,
+"met/aic:Caroline Islands, Satawan",tag:place,
+met/aic:Central New Ireland,kind:L9/Central New Ireland,uli region
+"met/aic:Central New Ireland, Mandak-Barak region",alias:L9,Met uli figure 310415
+"met/aic:Mā'ohi, Tahitian",tag:place,
+met/aic:Warlpiri,tag:place,wood 1; Warlpiri painting is kind Yuendumu of L1
+"gap_sweep:Central Arnhem Land bark painting (Maningrida, Ramingining, Milingimbi)",kind:L4/Central Arnhem Land (Maningrida),
+"gap_sweep:Yuendumu / Lajamanu (Warlpiri: Warlukurlangu, Warnayaka)",kind:L1/Yuendumu (Warlukurlangu),
+"gap_sweep:APY / Ngaanyatjarra Lands art centres (Ernabella, Tjala, Spinifex, Tjanpi)",kind:L1/APY Lands,Tjanpi is a kind of L26
+gap_sweep:Hermannsburg watercolour school (Namatjira and followers),leaf:L3,"maker ""Luis Barragán"" is noise"
+gap_sweep:Queensland rainforest shields and bicornual baskets,kind:L26/rainforest bicornual baskets,painted rainforest shields: gap
+"in_situ:Central Australian rock art (Uluru, Ewaninga)",kind:L38/Ewaninga,Ewaninga engravings are Panaramitee style
+"in_situ:Kimberley rock art (Gwion Gwion / Bradshaw, Wanjina)",leaf:L34,
+in_situ:Murujuga (Burrup) petroglyphs,leaf:L35,
+in_situ:Quinkan / Laura (Cape York) rock art,leaf:L37,
+in_situ:Victorian and Grampians (Gariwerd) rock art,tag:place,"Gariwerd shelters (Bunjil's Shelter): no leaf, one exemplar"
+in_situ:Melanesian and Pacific rock art,tag:place,Ndakunimba Stones (Fiji)
+in_situ:mosaic - Australia (undated),exclude:single artwork,
+in_situ:mosaic - New Zealand (modern),exclude:single artwork,
+in_situ:Modern land art (Aboriginal Australia),route:artist-led,Marree Man
+in_situ:Modern land art (Oceania),route:artist-led,Vacant lot of cabbages
+world_folk:Marshall Islands stick charts,exclude:non-art,"navigation instruments (rebbelib, mattang); 0 objects"
+gap_sweep:Balgo (Warlayirti Artists),kind:L1/Balgo (Warlayirti Artists),
+gap_sweep:Haasts Bluff (Ikuntji Artists),kind:L1/Haasts Bluff (Ikuntji Artists),
+gap_sweep:Hermannsburg Potters,leaf:L32,
+gap_sweep:Lake Eyre toas (direction markers),leaf:L19,
+gap_sweep:Ngukurr (Roper River) painting,kind:L2/Ngukurr,
+gap_sweep:Elcho Island Art and Craft,kind:L4/Elcho Island Art and Craft,Galiwin'ku
+gap_sweep:Gab Titui Cultural Centre,exclude:holding institution,cultural centre and gallery on Thursday Island
+gap_sweep:Jukurrpa Designs,kind:L1/Jukurrpa Designs,
+gap_sweep:Kayili Artists,kind:L1/Kayili Artists,"Patjarr, Ngaanyatjarra Lands"
+gap_sweep:Marrawuddi Arts and Culture,kind:L4/Marrawuddi Arts and Culture,"Jabiru, Kakadu"
+gap_sweep:Martumili Artists,kind:L1/Martumili Artists,Martu
+gap_sweep:Mimili Maku Arts,kind:L1/Mimili Maku Arts,APY Lands
+gap_sweep:Nambara Arts & Crafts,kind:L4/Nambara Arts & Crafts,"Nhulunbuy, East Arnhem"
+gap_sweep:Ngaruwanajirri Inc.,kind:L18/Ngaruwanajirri,"Tiwi, Wurrumiyanga"
+gap_sweep:Papalankutja Artists,kind:L1/Papulankutja Artists,"Blackstone, Ngaanyatjarra Lands"
+gap_sweep:Spinifex Arts Project,kind:L1/Spinifex Arts Project,Tjuntjuntjara
+gap_sweep:Tangenyere Artists,kind:L1/Tangenyere Artists,Alice Springs town camps
+gap_sweep:Tapatjatjaka Art & Craft,kind:L1/Tapatjatjaka Art & Craft,Titjikala
+gap_sweep:Tjungu Palya,kind:L1/Tjungu Palya,"Nyapari, APY Lands"
+gap_sweep:Warakuna Artists,kind:L1/Warakurna Artists,Ngaanyatjarra Lands
+gap_sweep:Warnayaka Art and Culture,kind:L1/Warnayaka Art and Culture,"Lajamanu, Warlpiri"
+gap_sweep:Wik & Kugu Aurukun Art Centre,kind:L16/Wik & Kugu Art Centre,
+"in_situ:Micronesian and Melanesian tattooing (Palau, PNG)",exclude:umbrella bucket,0 objects; Palauan tattooing named in exemplar only
+"in_situ:Polynesian tatau (Samoa, Tahiti, Marquesas, Hawai'i, Tonga, Fiji)",leaf:L41,
+in_situ:Tā moko (Māori),leaf:L40,
