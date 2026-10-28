@@ -1,9 +1,9 @@
 """Film & Television tab: families, sub-families and (pilot) leaves.
 
-Pilot slice: Japanese cinema (live-action features and shorts in
-film_selected.csv with JP among their countries). Japanese animated films go to
-the Anime family (FT-E), built in its own pass. Codes are provisional until the
-first full release.
+Pilot slice: Japanese cinema. Scale-up (2026-10-28): global feature-film and
+short-film leaves; leaves added after the pilot are appended inside each
+sub-family, so pilot codes keep their meaning. Japanese animated films go to the
+Anime family (FT-E). Codes are provisional until the first full release.
 
 Leaf tuple: (code, label, breadth, definition, aliases, see_also, attest)
 """
@@ -301,4 +301,592 @@ LEAVES = {
          "avant-garde and underground films that work outside narrative convention (Terayama's <i>Emperor Tomato Ketchup</i>, Matsumoto's shorts).",
          "avant-garde film; underground film", "A1-1 Japanese New Wave.", "experimental film"),
     ],
+}
+
+
+# --------------------------------------------------------------------------
+# Scale-up (2026-10-28): global feature-film leaves, short-film leaves, and the
+# precedence sentences accepted for the scale-up (F11, F12) or found in it.
+# New leaves are appended to their sub-family; pilot codes keep their meaning.
+
+PRECEDENCE += [
+    ("F11", "Pre-modern wars in Japan", "A war fought in Japan's pre-1868 past is jidaigeki or chanbara, not War Film (<i>Ran</i>, <i>Kagemusha</i>)."),
+    ("F12", "Cycle before comedy", "A genre cycle wins over Comedy when the cycle's premise drives the plot (<i>Zom 100</i> → Zombie Film; <i>Shaun of the Dead</i> → Zombie Film). Comedy keeps films whose premise is only a backdrop for gags; a horror film played mainly for laughs with no cycle home is Comedy Horror."),
+    ("F13", "Popular-cinema modes", "An Indian popular film that mixes action, romance, comedy, melodrama and song-and-dance in one star vehicle is Masala Film, before the crime, action, romance and musical leaves; a Nigerian film made in the Nollywood mode is Nollywood Film unless a named genre cycle claims it. Indian and Nigerian films outside those modes (parallel cinema, art-house, realist thrillers) are placed by genre like any other film."),
+    ("F14", "Biopics", "A film that tells a real person's life or career is Biographical Film whatever the person's field (musicians, athletes, criminals), unless it is mainly a war film, a sports contest or a named cycle; a dramatised single real event is placed by its genre (a heist → Heist Film; a battle → War Film)."),
+    ("F15", "Superheroes", "A film whose protagonist has a costumed or super-powered heroic identity is Superhero Film, before Action, Science Fiction and Fantasy; a superhero parody stays there too. Japanese transforming heroes are Tokusatsu (F5)."),
+    ("F16", "Spies", "Espionage as the plot's engine makes a Spy Film, before Action and Political Thriller (James Bond, <i>Tinker Tailor Soldier Spy</i>)."),
+    ("F17", "Animation", "Every animated feature that is not Japanese animation is Animated Feature (A15), placed by technique, whatever its genre; animated documentaries are Documentary (key step 1). Genre is a see-also."),
+    ("F18", "Children's and Christmas films", "A live-action film made first for children (not a family-friendly fantasy or adventure, which keep their genre) is Children's Film; a film built on Christmas is Christmas Film, before Comedy, Romance and Drama."),
+    ("F19", "Road, sport and court", "A film whose structure is a journey is Road Movie, a film built on a sport and its competition is Sports Film, and a film built on a trial is Legal Drama, whether comic or dramatic, unless a named cycle claims it."),
+    ("F20", "Westerns", "A film set on the American frontier (or a transposition of its codes) is a Western leaf before Action, Historical Drama and Comedy; a contemporary crime film in the West is Neo-Western only when the frontier code carries it (<i>Hell or High Water</i>, <i>No Country for Old Men</i>)."),
+]
+
+MODIFIERS += [
+    "<b>Theme</b> — LGBTQ+, disability, faith, sport fandom and similar subjects are tags on any film; they become leaves only as named genres or movements (New Queer Cinema, Christian Film).",
+    "<b>Era of production</b> — silent era, pre-Code Hollywood, the studio era, the Golden Age of a national cinema: filters, not leaves.",
+]
+
+_FAM_A = next(f for f in FAMILIES if f["code"] == "A")
+_FAM_A["key"] = [
+    "1. Non-fiction (documentary, concert film, nature film, essay film)? → <b>A13 Documentary</b>.",
+    "2. Animated, and not Japanese animation? → <b>A15 Animated Feature</b> (F17).",
+    "3. Does it belong to a <b>named genre cycle</b> — a narrow leaf of A2–A12, A17 or A18 (chanbara, kaidan, J-horror, yakuza, film noir, giallo, poliziottesco, blaxploitation, heroic bloodshed, wuxia, spaghetti western, pink film, kaiju, masala film ...)? → that leaf (F1, F2, F13). Otherwise, is it an <b>attested member of a named film movement</b> (Italian neorealism, the French New Wave, New Hollywood ...)? → <b>A1 Movements & Schools</b>.",
+    "4. Avant-garde, working outside narrative convention (abstract, structural, surrealist)? → <b>A16 Experimental & Avant-Garde</b>.",
+    "5. Is erotic display or sexual obsession the film's reason to exist? → <b>A12 Erotic Film</b>. A violent exploitation cycle with erotic elements is not: it goes on.",
+    "6. Does it aim first to frighten (ghosts, monsters, killers, gore)? → <b>A4 Horror</b> (F3).",
+    "7. Superheroes? → <b>A6-3</b> (F15). Speculative science — the future, technology, space, aliens, giant monsters? → <b>A5 Science Fiction & Monster</b> (F5). Magic, myth, fairy tale or a quest in perilous places? → <b>A6 Fantasy & Adventure</b>.",
+    "8. The American frontier? → <b>A17 Western</b> (F20). Set in a past era that defines it, a real life, or about war? → <b>A7 Historical, Period & War</b> (F4, F11, F14).",
+    "9. Made first for children, or built on Christmas? → <b>A19 Children's & Family</b> (F18).",
+    "10. Espionage? → <b>A3-7 Spy Film</b> (F16). Criminals or police at the centre? → <b>A2 Crime</b>. Suspense, conspiracy or puzzle? → <b>A3 Thriller & Mystery</b> (F6).",
+    "11. Fights, chases and stunts carry it? → <b>A8 Action & Martial Arts</b>.",
+    "12. Songs or dance carry the story? → <b>A11 Musical & Music</b>. Laughter first? → <b>A10 Comedy</b>. A love story? → <b>A9 Romance</b>. Otherwise → <b>A14 Drama</b> (F7, F19).",
+]
+_FAM_A["subs"] += [
+    ("A18", "Popular Cinema Modes", "Axis: the named popular-cinema mode — a production culture the field names as a genre of its own (F13)."),
+    ("A19", "Children's & Family", "Axis: occasion and audience (live action)."),
+]
+
+_FAM_B = next(f for f in FAMILIES if f["code"] == "B")
+_FAM_B["test"] = "a film under 40 minutes (the Academy's line), fiction, animation, documentary or experimental; Japanese animated shorts go to E Anime."
+_FAM_B["key"] = [
+    "1. Animated? → <b>B1 Animated Short</b>, by tradition and technique.",
+    "2. Non-fiction (actualities, documentary shorts)? → <b>B3 Documentary & Actuality Short</b>.",
+    "3. Avant-garde, outside narrative convention? → <b>B4 Experimental Short</b>.",
+    "4. Otherwise live-action fiction → <b>B2 Live-Action Short</b>.",
+]
+_FAM_B["subs"] = [
+    ("B1", "Animated Short", "Axis: tradition and technique."),
+    ("B2", "Live-Action Short", "Axis: mode (trick film, silent comedy, narrative short)."),
+    ("B3", "Documentary & Actuality Short", "Axis: mode."),
+    ("B4", "Experimental Short", "Axis: practice."),
+]
+
+
+def _add(sub, rows):
+    LEAVES.setdefault(sub, []).extend(rows)
+
+
+# Pilot leaves whose wording was Japan-only, generalised for the global tab.
+def _redef(code, **kw):
+    for sub, rows in LEAVES.items():
+        for i, l in enumerate(rows):
+            if l[0] == code:
+                f = dict(zip(("code", "label", "breadth", "defn", "aliases", "see", "attest"), l))
+                f.update(kw)
+                rows[i] = tuple(f[k] for k in ("code", "label", "breadth", "defn", "aliases", "see", "attest"))
+
+
+_redef("A2-3", defn="films centred on police or detectives working a case (<i>Stray Dog</i>, <i>The French Connection</i>, <i>Memories of Murder</i>); buddy-cop films are A8-7.")
+_redef("A2-4", defn="films about crime, its perpetrators and its effects, told as drama rather than suspense or gang epic (<i>Vengeance Is Mine</i>, <i>Dog Day Afternoon</i>, <i>City of God</i>).")
+_redef("A2-5", defn="crime films in the noir manner — fatalism, low-key style, corrupt cities, the femme fatale: the American cycle of the 1940s–50s (<i>Double Indemnity</i>, <i>The Big Sleep</i>) and its later neo-noir and national forms (<i>Chinatown</i>, <i>Pale Flower</i>, <i>Branded to Kill</i>).")
+_redef("A3-1", defn="suspense built on disturbed minds, obsession and manipulation (<i>Cure</i>, <i>Gone Girl</i>, <i>Black Swan</i>).")
+_redef("A3-2", defn="whodunits and puzzle films built on detection, including honkaku adaptations and Agatha Christie films (<i>The Inugamis</i>, <i>Knives Out</i>).")
+_redef("A3-3", defn="films in which characters are forced into a lethal contest or a fight to survive an ordeal (<i>Battle Royale</i>, <i>The Hunger Games</i>, <i>127 Hours</i>, <i>Cast Away</i>).")
+_redef("A4-3", defn="horror from ghosts, demons, possession and curses outside the named cycles (<i>The Exorcist</i>, <i>Hereditary</i>, <i>House</i>).")
+_redef("A5-1", defn="kaiju eiga and giant-monster films: Godzilla, Mothra, Gamera and their Hollywood and Korean kin (<i>Godzilla</i> 1954, <i>King Kong</i>, <i>The Host</i>, <i>Pacific Rim</i>).")
+_redef("A5-3", defn="speculative films of the future, technology, artificial minds and alien contact outside the narrower leaves (<i>2001: A Space Odyssey</i>, <i>Arrival</i>, <i>Summer Time Machine Blues</i>).")
+_redef("A6-1", defn="live-action films of magic, myth and invented worlds outside the narrower leaves (<i>Harry Potter</i>, <i>Pan's Labyrinth</i>, <i>The Great Yokai War</i>).")
+_redef("A6-2", defn="journeys, quests and treasure hunts in exotic or perilous settings (<i>Raiders of the Lost Ark</i>, <i>The Mummy</i> 1999).")
+_redef("A6-3", label="Superhero Film", defn="films of costumed or super-powered heroes — the Marvel and DC cycles and their kin — and live-action adaptations of power-based manga (<i>Superman</i>, <i>The Dark Knight</i>, <i>Gantz</i>, <i>Death Note</i>) (F15).",
+       aliases="superhero film; comic-book film; live-action manga adaptation")
+_redef("A7-4", defn="films whose past era defines them outside the narrower leaves: dramas of real events and of fictional lives in a recorded past, from the Meiji era to the twentieth century (<i>The Story of the Last Chrysanthemum</i>, <i>Titanic</i>, <i>The Last Emperor</i>); lives of real people are A7-8.",
+       aliases="historical film; period film", attest="historical drama film|historical film")
+_redef("A8-1", defn="films built on unarmed or weapons combat in modern or timeless settings outside chanbara, kung fu and wuxia (<i>The Street Fighter</i>, <i>The Raid</i>, <i>Ong-Bak</i>).")
+_redef("A8-2", defn="films carried by fights, chases, gunplay and stunts outside the narrower leaves (<i>Die Hard</i>, <i>Mad Max: Fury Road</i>, <i>John Wick</i>).")
+_redef("A9-1", defn="love stories told as drama (<i>Casablanca</i>, <i>In the Mood for Love</i>, <i>Love Letter</i>).")
+_redef("A9-2", defn="love stories told for laughter (<i>When Harry Met Sally...</i>, <i>Notting Hill</i>).")
+_redef("A10-1", defn="films aimed first at laughter outside the narrower leaves (<i>Groundhog Day</i>, <i>Tampopo</i>).")
+_redef("A10-3", defn="comedy of death, taboo and social satire (<i>Dr. Strangelove</i>, <i>The Funeral</i>, <i>The Taste of Tea</i>).")
+_redef("A11-1", label="Musical & Music Film", defn="films carried by song and music: stage and screen musicals and films about musicians and bands (<i>Singin' in the Rain</i>, <i>La La Land</i>, <i>Linda Linda Linda</i>).")
+_redef("A12-3", defn="art-house and mainstream films whose subject is sexual obsession (<i>In the Realm of the Senses</i>, <i>Last Tango in Paris</i>, <i>The Housemaid</i>).")
+_redef("A13-1", label="Documentary Film", defn="non-fiction films outside the narrower leaves: social, political, historical and portrait documentaries (<i>Shoah</i>, <i>Hoop Dreams</i>, <i>The Act of Killing</i>).")
+_redef("A14-2", defn="dramas of families, parents and children outside the classic shomingeki (<i>Kramer vs. Kramer</i>, <i>Shoplifters</i>, <i>A Separation</i>).")
+_redef("A14-3", defn="youth, school and teen films about growing up (<i>The 400 Blows</i> excepted as New Wave; <i>Stand by Me</i>, <i>Lady Bird</i>, <i>Kids Return</i>).")
+_redef("A14-4", defn="dramas of social conditions, poverty, work, institutions and injustice (<i>Ikiru</i>, <i>Parasite</i>, <i>I, Daniel Blake</i>).")
+_redef("A14-5", defn="dramas centred on one person's inner life, grief, solitude or change (<i>Taxi Driver</i>, <i>Drive My Car</i>, <i>Perfect Days</i>).")
+_redef("A14-6", defn="emotionally heightened dramas of suffering and sacrifice, especially the women's film (Sirk, haha-mono mother films, <i>Imitation of Life</i>, <i>The Life of Oharu</i>).",
+       aliases="haha-mono; women's film; weepie")
+_redef("A14-7", defn="films built on a sport and its competition, comic or dramatic (<i>Rocky</i>, <i>Raging Bull</i>, <i>Moneyball</i>) (F19).")
+_redef("A16-1", defn="avant-garde and underground films that work outside narrative convention (<i>Koyaanisqatsi</i>, <i>Wavelength</i>, Terayama's <i>Emperor Tomato Ketchup</i>).")
+_redef("A17-1", label="Western", defn="the classical western of the American frontier: gunfighters, cavalry, cattle drives and settlers (<i>Stagecoach</i>, <i>The Searchers</i>, <i>Rio Bravo</i>).",
+       aliases="cowboy film; horse opera")
+
+_add("A1", [
+    ("A1-2", "German Expressionism", "medium",
+     "the Weimar film movement of distorted sets, chiaroscuro and haunted protagonists, c. 1919–1931 (<i>The Cabinet of Dr. Caligari</i>, <i>Nosferatu</i>, <i>Metropolis</i>, <i>M</i>).",
+     "Expressionist film; Weimar cinema", "A4-13 Gothic Horror; A2-5 Film Noir & Neo-Noir.", "German Expressionism"),
+    ("A1-3", "Soviet Montage", "narrow",
+     "the Soviet cinema of the 1920s built on montage theory — Eisenstein, Pudovkin, Vertov, Dovzhenko (<i>Battleship Potemkin</i>, <i>Strike</i>, <i>Mother</i>, <i>Earth</i>).",
+     "Soviet montage cinema; montage school", "A13-7 City Symphony.", "Soviet montage theory"),
+    ("A1-4", "French Impressionist Cinema", "narrow",
+     "the French avant-garde narrative cinema of the 1920s — Gance, L'Herbier, Epstein, Dulac — built on subjective camera and rhythmic cutting (<i>La Roue</i>, <i>Coeur fidèle</i>, <i>The Fall of the House of Usher</i>).",
+     "première vague; first French avant-garde", "A16-2 Surrealist Film.", "French Impressionist Cinema"),
+    ("A1-5", "Poetic Realism", "narrow",
+     "French films of the 1930s of doomed working-class lovers in fog-bound ports and back streets — Carné, Prévert, Renoir, Duvivier, Vigo (<i>Port of Shadows</i>, <i>Le jour se lève</i>, <i>L'Atalante</i>).",
+     "réalisme poétique", "A2-5 Film Noir & Neo-Noir.", "poetic realism"),
+    ("A1-6", "Italian Neorealism", "medium",
+     "Italian films of 1943–1952 shot on location with non-professional actors about the poor and the war's aftermath — Rossellini, De Sica, Visconti, early Fellini (<i>Rome, Open City</i>, <i>Bicycle Thieves</i>, <i>La terra trema</i>, <i>Umberto D.</i>).",
+     "neorealismo; Italian neo-realism", "A14-4 Social Drama.", "Italian neorealism"),
+    ("A1-7", "French New Wave", "medium",
+     "the Nouvelle Vague of 1958–1968: Cahiers critics turned directors — Godard, Truffaut, Chabrol, Rohmer, Rivette, Varda — with location shooting, jump cuts and personal subjects (<i>The 400 Blows</i>, <i>Breathless</i>, <i>Jules and Jim</i>, <i>Cléo from 5 to 7</i>).",
+     "Nouvelle Vague", "A1-8 Left Bank.", "French New Wave"),
+    ("A1-8", "Left Bank", "narrow",
+     "the Rive Gauche group beside the New Wave — Resnais, Marker, Varda, Robbe-Grillet, Duras — literary, political and formally experimental (<i>Hiroshima mon amour</i>, <i>Last Year at Marienbad</i>).",
+     "Rive Gauche", "A1-7 French New Wave.", "Left Bank (film)"),
+    ("A1-9", "British New Wave", "narrow",
+     "British films of 1959–1963 of working-class life in the industrial North, from the Angry Young Men and kitchen-sink writers (<i>Saturday Night and Sunday Morning</i>, <i>A Taste of Honey</i>, <i>This Sporting Life</i>).",
+     "kitchen sink realism; British social realism", "A14-4 Social Drama.", "British New Wave|kitchen sink realism"),
+    ("A1-10", "Czechoslovak New Wave", "medium",
+     "Czech and Slovak films of 1963–1969 — Forman, Chytilová, Menzel, Němec, Jireš — absurdist, satirical and humane (<i>Daisies</i>, <i>Closely Watched Trains</i>, <i>The Firemen's Ball</i>, <i>Marketa Lazarová</i>).",
+     "Czech New Wave; Československá nová vlna", "A10-3 Black Comedy & Satire.", "Czechoslovak New Wave"),
+    ("A1-11", "Polish Film School", "narrow",
+     "Polish films of 1956–1963 about the war and its moral wreckage — Wajda, Munk, Kawalerowicz, Has (<i>Kanał</i>, <i>Ashes and Diamonds</i>, <i>Eroica</i>).",
+     "Polska Szkoła Filmowa", "A7-3 War Film.", "Polish Film School"),
+    ("A1-12", "Yugoslav Black Wave", "narrow",
+     "the critical, dark and sexually frank Yugoslav films of 1963–1972 — Makavejev, Petrović, Žilnik, Pavlović (<i>WR: Mysteries of the Organism</i>, <i>I Even Met Happy Gypsies</i>).",
+     "Crni talas", "A1-10 Czechoslovak New Wave.", "Yugoslav Black Wave"),
+    ("A1-13", "Cinema Novo", "medium",
+     "the Brazilian movement of the 1960s–70s — Glauber Rocha, Nelson Pereira dos Santos, Joaquim Pedro de Andrade — 'an idea in the head and a camera in the hand' (<i>Black God, White Devil</i>, <i>Vidas Secas</i>, <i>Entranced Earth</i>, <i>Macunaíma</i>).",
+     "Cinema Novo", "A1-14 Third Cinema.", "Cinema Novo"),
+    ("A1-14", "Third Cinema", "narrow",
+     "the Latin American and Third World militant cinema of the late 1960s–70s set against Hollywood and auteur cinema (<i>The Hour of the Furnaces</i>, <i>Memories of Underdevelopment</i>, <i>The Battle of Algiers</i>).",
+     "Tercer Cine; Third World cinema", "A1-13 Cinema Novo.", "Third Cinema"),
+    ("A1-15", "New Hollywood", "broad",
+     "the American director-driven cinema of c. 1967–1980 — Penn, Altman, Coppola, Scorsese, Ashby, Malick — in the wake of the studio system (<i>Bonnie and Clyde</i>, <i>Easy Rider</i>, <i>Five Easy Pieces</i>, <i>Nashville</i>).",
+     "American New Wave; Hollywood Renaissance", "A2-5 Film Noir & Neo-Noir.", "New Hollywood"),
+    ("A1-16", "New German Cinema", "medium",
+     "West German auteur cinema of 1962–1982 after the Oberhausen Manifesto — Fassbinder, Herzog, Wenders, Schlöndorff, von Trotta, Kluge (<i>Aguirre, the Wrath of God</i>, <i>Ali: Fear Eats the Soul</i>, <i>Kings of the Road</i>).",
+     "Neuer Deutscher Film; Young German Cinema", "A1-2 German Expressionism.", "New German Cinema"),
+    ("A1-17", "Parallel Cinema", "medium",
+     "Indian art cinema from the 1950s — Satyajit Ray, Ritwik Ghatak, Mrinal Sen, Adoor Gopalakrishnan, Shyam Benegal — realist and outside the song-and-dance mainstream (<i>Pather Panchali</i>, <i>The Cloud-Capped Star</i>, <i>Ankur</i>).",
+     "Indian New Wave; art cinema (India)", "A18-1 Masala Film.", "Parallel cinema"),
+    ("A1-18", "Iranian New Wave", "medium",
+     "Iranian art cinema from the late 1960s and its post-revolutionary flowering — Kiarostami, Makhmalbaf, Panahi, Majidi — with child protagonists, non-actors and fiction-documentary blends (<i>The Cow</i>, <i>Close-Up</i>, <i>Taste of Cherry</i>, <i>Children of Heaven</i>).",
+     "Iranian New Wave cinema; Moj-e No", "A14-5 Character Study.", "Iranian New Wave"),
+    ("A1-19", "Taiwan New Cinema", "narrow",
+     "the Taiwanese New Wave of 1982–1990 — Hou Hsiao-hsien, Edward Yang — long takes and everyday history (<i>A City of Sadness</i>, <i>A Brighter Summer Day</i>, <i>The Time to Live and the Time to Die</i>).",
+     "Taiwanese New Wave", "A1-20 Hong Kong New Wave.", "Taiwan New Cinema"),
+    ("A1-20", "Hong Kong New Wave", "narrow",
+     "the Hong Kong directors of 1979–1990 trained in television — Tsui Hark, Ann Hui, Patrick Tam, Allen Fong — and the 'second wave' of Wong Kar-wai and Stanley Kwan (<i>Boat People</i>, <i>Days of Being Wild</i>, <i>Rouge</i>).",
+     "HK New Wave; Hong Kong second wave", "A8-6 Hong Kong Action Cinema.", "Hong Kong New Wave"),
+    ("A1-21", "Fifth Generation", "narrow",
+     "the first class after the Cultural Revolution at the Beijing Film Academy — Chen Kaige, Zhang Yimou, Tian Zhuangzhuang — allegorical rural epics of the 1980s–90s (<i>Yellow Earth</i>, <i>Red Sorghum</i>, <i>Raise the Red Lantern</i>, <i>Farewell My Concubine</i>).",
+     "Chinese Fifth Generation", "A1-22 Sixth Generation.", "Fifth Generation (Chinese cinema)|Fifth Generation"),
+    ("A1-22", "Sixth Generation", "narrow",
+     "Chinese independent urban realism of the 1990s–2000s — Jia Zhangke, Wang Xiaoshuai, Lou Ye, Zhang Yuan (<i>Platform</i>, <i>Beijing Bicycle</i>, <i>Suzhou River</i>, <i>Still Life</i>).",
+     "Urban Generation", "A1-21 Fifth Generation.", "Sixth Generation (Chinese cinema)|Sixth Generation"),
+    ("A1-23", "Dogme 95", "narrow",
+     "the Danish manifesto films made under the 'Vow of Chastity' — hand-held, location sound, no effects (<i>The Celebration</i>, <i>The Idiots</i>, <i>Italian for Beginners</i>).",
+     "Dogma 95", "A1-27 Mumblecore.", "Dogme 95"),
+    ("A1-24", "Romanian New Wave", "narrow",
+     "Romanian minimalist realism from the 2000s — Puiu, Mungiu, Porumboiu, Muntean — long takes of bureaucracy and the moral afterlife of communism (<i>The Death of Mr. Lazarescu</i>, <i>4 Months, 3 Weeks and 2 Days</i>, <i>12:08 East of Bucharest</i>).",
+     "Noul val românesc", "A14-4 Social Drama.", "Romanian New Wave"),
+    ("A1-25", "Berlin School", "narrow",
+     "the German art cinema from the late 1990s — Petzold, Arslan, Schanelec, Ade, Köhler — detached, precise and observational (<i>Barbara</i>, <i>Toni Erdmann</i>, <i>Phoenix</i>).",
+     "Berliner Schule", "A1-16 New German Cinema.", "Berlin School (film)"),
+    ("A1-26", "New Queer Cinema", "narrow",
+     "the independent queer films of the early 1990s named by B. Ruby Rich — Haynes, Araki, Van Sant, Kalin, Jarman (<i>Poison</i>, <i>My Own Private Idaho</i>, <i>The Living End</i>, <i>Paris Is Burning</i> as documentary).",
+     "Queer New Wave", "", "New Queer Cinema"),
+    ("A1-27", "Mumblecore", "narrow",
+     "American micro-budget films of the 2000s with naturalistic acting and improvised dialogue about twenty-somethings — the Duplass brothers, Swanberg, Bujalski, early Gerwig (<i>Funny Ha Ha</i>, <i>Hannah Takes the Stairs</i>, <i>The Puffy Chair</i>).",
+     "bedhead cinema", "A1-23 Dogme 95.", "Mumblecore"),
+    ("A1-28", "L.A. Rebellion", "narrow",
+     "the Black filmmakers of UCLA, late 1960s–1980s — Charles Burnett, Haile Gerima, Julie Dash, Billy Woodberry (<i>Killer of Sheep</i>, <i>Bush Mama</i>, <i>Daughters of the Dust</i>).",
+     "Los Angeles School of Black Filmmakers", "A1-14 Third Cinema.", "L.A. Rebellion"),
+    ("A1-29", "Australian New Wave", "narrow",
+     "the revival of Australian feature production c. 1970–1985 — Weir, Armstrong, Beresford, Schepisi (<i>Picnic at Hanging Rock</i>, <i>Walkabout</i>, <i>Breaker Morant</i>, <i>My Brilliant Career</i>).",
+     "Australian film revival", "", "Australian New Wave"),
+    ("A1-30", "Greek Weird Wave", "narrow",
+     "Greek films of the late 2000s–2010s — Lanthimos, Tsangari, Avranas — deadpan, absurd and alienated (<i>Dogtooth</i>, <i>Attenberg</i>, <i>Alps</i>).",
+     "Greek New Wave", "A10-3 Black Comedy & Satire.", "Greek Weird Wave"),
+    ("A1-31", "New Argentine Cinema", "narrow",
+     "Argentine independent cinema from the mid-1990s — Martel, Trapero, Caetano, Alonso (<i>Pizza, Beer, and Cigarettes</i>, <i>La Ciénaga</i>, <i>Nine Queens</i> excepted as heist).",
+     "Nuevo cine argentino", "A1-24 Romanian New Wave.", "New Argentine Cinema"),
+    ("A1-32", "Cinéma du look", "narrow",
+     "French films of the 1980s with a glossy, youthful style from advertising and music video — Beineix, Besson, Carax (<i>Diva</i>, <i>Subway</i>, <i>The Lovers on the Bridge</i>, <i>Betty Blue</i>).",
+     "", "A1-7 French New Wave.", "Cinéma du look"),
+    ("A1-33", "Slow Cinema", "medium",
+     "contemplative art cinema of long takes, minimal story and observed duration — Tarr, Tsai Ming-liang, Lav Diaz, Weerasethakul, Akerman, Alonso (<i>Jeanne Dielman</i>, <i>Sátántangó</i>, <i>Uncle Boonmee Who Can Recall His Past Lives</i>).",
+     "contemplative cinema; cinema of slowness", "A14-5 Character Study.", "slow cinema"),
+    ("A1-34", "Korean New Wave", "narrow",
+     "the socially critical South Korean films of the 1980s–90s after the end of military censorship — Park Kwang-su, Jang Sun-woo, Lee Chang-dong's debut (<i>Chilsu and Mansu</i>, <i>A Single Spark</i>, <i>Green Fish</i>).",
+     "Korean New Cinema", "", "Korean New Wave"),
+])
+
+_add("A2", [
+    ("A2-7", "Heist Film", "medium",
+     "films built on planning and pulling off a robbery, and on its unravelling (<i>Rififi</i>, <i>The Asphalt Jungle</i>, <i>Heat</i>, <i>Ocean's Eleven</i>, <i>Reservoir Dogs</i>).",
+     "caper film; heist movie", "A10-10 Crime Comedy.", "heist film"),
+    ("A2-8", "Prison Film", "medium",
+     "films set inside prisons and built on incarceration, its society and escape (<i>A Man Escaped</i>, <i>Escape from Alcatraz</i>, <i>The Shawshank Redemption</i>, <i>A Prophet</i>).",
+     "prison drama; escape film", "A2-6 Pinky Violence.", "prison film"),
+    ("A2-9", "Poliziottesco", "narrow",
+     "the Italian crime cycle of the 1970s — vigilante police, kidnapping and urban violence (<i>Almost Human</i>, <i>The Big Racket</i>, <i>Rome Armed to the Teeth</i>).",
+     "poliziotteschi; Euro-crime", "A3-8 Giallo.", "poliziottesco"),
+    ("A2-10", "Blaxploitation", "narrow",
+     "the American cycle of 1970s films with Black heroes for Black urban audiences, mostly crime and action (<i>Shaft</i>, <i>Super Fly</i>, <i>Coffy</i>, <i>Foxy Brown</i>).",
+     "blaxploitation film", "A2-11 Hood Film.", "blaxploitation"),
+    ("A2-11", "Hood Film", "narrow",
+     "American films of the 1990s and after about young Black and Latino life in inner-city neighbourhoods, gangs and violence (<i>Boyz n the Hood</i>, <i>Menace II Society</i>, <i>Juice</i>).",
+     "'hood film; ghetto film", "A2-10 Blaxploitation.", "hood film"),
+])
+
+_add("A3", [
+    ("A3-4", "Erotic Thriller", "narrow",
+     "suspense driven by sexual desire, seduction and danger, the Hollywood cycle of the 1980s–90s and its heirs (<i>Fatal Attraction</i>, <i>Basic Instinct</i>, <i>Body Heat</i>, <i>Decision to Leave</i>).",
+     "", "A12-3 Erotic Drama.", "erotic thriller"),
+    ("A3-5", "Revenge Thriller", "medium",
+     "suspense built on a protagonist's revenge, including rape-and-revenge and the Korean revenge cycle (<i>Oldboy</i>, <i>Sympathy for Mr. Vengeance</i>, <i>I Saw the Devil</i>, <i>Ms .45</i>).",
+     "revenge film; rape and revenge", "A8-2 Action Film.", "revenge film"),
+    ("A3-6", "Political & Conspiracy Thriller", "medium",
+     "suspense built on state power, political violence, cover-ups and paranoia (<i>Z</i>, <i>The Parallax View</i>, <i>All the President's Men</i>, <i>The Lives of Others</i>).",
+     "political thriller; paranoid thriller; conspiracy film", "A3-7 Spy Film.", "political thriller"),
+    ("A3-7", "Spy Film", "medium",
+     "films whose plot is driven by espionage, from the Bond cycle to Cold War realism (<i>Dr. No</i>, <i>The Spy Who Came in from the Cold</i>, <i>Tinker Tailor Soldier Spy</i>, <i>Mission: Impossible</i>) (F16).",
+     "espionage film; spy thriller", "A3-6 Political & Conspiracy Thriller.", "spy film"),
+    ("A3-8", "Giallo", "narrow",
+     "the Italian thriller-horror cycle of the 1960s–70s: black-gloved killers, stylised murders and amateur sleuths (<i>Blood and Black Lace</i>, <i>The Bird with the Crystal Plumage</i>, <i>Deep Red</i>).",
+     "gialli; giallo film", "A4-8 Slasher Film.", "giallo"),
+    ("A3-9", "Suspense Thriller", "broad",
+     "thrillers of an ordinary protagonist in danger — the wrong man, the stalker, the hostage, the trap — outside the narrower leaves (<i>Rear Window</i>, <i>North by Northwest</i>, <i>Duel</i>, <i>Panic Room</i>).",
+     "thriller film; Hitchcockian thriller", "A3-1 Psychological Thriller.", "thriller film"),
+])
+
+_add("A4", [
+    ("A4-10", "Folk Horror", "narrow",
+     "horror rooted in rural isolation, pagan ritual and folklore (<i>Witchfinder General</i>, <i>The Wicker Man</i>, <i>The Witch</i>, <i>Midsommar</i>).",
+     "", "A4-3 Supernatural Horror.", "folk horror"),
+    ("A4-11", "Vampire Film", "narrow",
+     "horror and its offshoots built on vampires (<i>Dracula</i> 1931, <i>Let the Right One In</i>, <i>Thirst</i>, <i>Near Dark</i>).",
+     "vampire movie", "A4-13 Gothic Horror.", "vampire film"),
+    ("A4-12", "Haunted House Film", "narrow",
+     "horror of a haunted dwelling and its ghosts (<i>The Haunting</i>, <i>The Innocents</i>, <i>The Shining</i>, <i>The Conjuring</i>).",
+     "haunted house movie", "A4-3 Supernatural Horror.", "haunted house film"),
+    ("A4-13", "Gothic Horror", "medium",
+     "horror of castles, curses and the literary monsters of the Gothic tradition: the Universal monster cycle, Hammer, the Corman–Poe cycle and Italian Gothic (<i>Frankenstein</i>, <i>Horror of Dracula</i>, <i>Black Sunday</i>, <i>Crimson Peak</i>).",
+     "Hammer horror; Universal monsters; Italian gothic", "A4-11 Vampire Film.", "gothic horror film|Gothic film"),
+    ("A4-14", "Creature Feature & Natural Horror", "medium",
+     "horror of monsters, mutated beasts and nature turned killer, outside the giant kaiju (<i>The Thing</i>, <i>Jaws</i>, <i>The Birds</i>, <i>Tremors</i>, <i>An American Werewolf in London</i>).",
+     "monster movie; natural horror; werewolf film; eco-horror", "A5-1 Kaiju Film; A4-15 Science Fiction Horror.", "creature feature|natural horror film"),
+    ("A4-15", "Science Fiction Horror", "medium",
+     "horror whose threat comes from science, space or aliens (<i>Alien</i>, <i>Invasion of the Body Snatchers</i>, <i>Event Horizon</i>, <i>The Fly</i>).",
+     "sci-fi horror", "A5-8 Alien Invasion & First Contact.", "science fiction horror film|science fiction horror"),
+    ("A4-16", "Comedy Horror", "medium",
+     "horror played mainly for laughs, outside a named cycle (<i>The Evil Dead II</i>, <i>What We Do in the Shadows</i>, <i>Tucker & Dale vs. Evil</i>) (F12).",
+     "horror comedy", "A4-6 Zombie Film.", "comedy horror"),
+    ("A4-17", "Cannibal Film", "narrow",
+     "the Italian exploitation cycle of the late 1970s–early 80s set among jungle cannibals (<i>Cannibal Holocaust</i>, <i>Cannibal Ferox</i>).",
+     "cannibal boom; Italian cannibal film", "A13-8 Mondo Film.", "cannibal film"),
+    ("A4-18", "Asian Horror", "narrow",
+     "the Thai, Korean, Indonesian and Hong Kong ghost-film cycles that followed J-horror (<i>Shutter</i>, <i>A Tale of Two Sisters</i>, <i>Satan's Slaves</i>, <i>The Eye</i>).",
+     "Asian horror; K-horror; Thai horror", "A4-1 J-Horror.", "Asian horror"),
+])
+
+_add("A5", [
+    ("A5-6", "Space Opera & Space Adventure", "medium",
+     "adventure on an interplanetary scale: starships, galactic empires and space westerns (<i>Star Wars</i>, <i>Guardians of the Galaxy</i>, <i>Dune</i>).",
+     "space opera; space western", "A6-4 High Fantasy.", "space opera"),
+    ("A5-7", "Dystopian Film", "medium",
+     "films of oppressive future societies (<i>Metropolis</i> excepted as Expressionism; <i>Brazil</i>, <i>Children of Men</i>, <i>Snowpiercer</i>, <i>The Hunger Games</i> excepted as survival).",
+     "dystopia", "A5-5 Disaster & Post-Apocalyptic Film.", "dystopian film"),
+    ("A5-8", "Alien Invasion & First Contact", "medium",
+     "films of extraterrestrial invasion or contact (<i>The War of the Worlds</i>, <i>Close Encounters of the Third Kind</i>, <i>Independence Day</i>, <i>District 9</i>).",
+     "alien invasion film", "A4-15 Science Fiction Horror.", "alien invasion"),
+    ("A5-9", "Time Travel Film", "narrow",
+     "films whose plot is built on travel in time or time loops (<i>Back to the Future</i>, <i>12 Monkeys</i>, <i>Primer</i>, <i>Groundhog Day</i> excepted as comedy).",
+     "time loop film", "A5-3 Science Fiction Film.", "time travel film|time travel in fiction"),
+])
+
+_add("A6", [
+    ("A6-4", "High Fantasy", "medium",
+     "epic fantasy of invented worlds, quests and sword-and-sorcery (<i>The Lord of the Rings</i>, <i>Conan the Barbarian</i>, <i>The NeverEnding Story</i>).",
+     "epic fantasy; sword and sorcery", "A6-1 Fantasy Film.", "high fantasy"),
+    ("A6-5", "Fairy-Tale Film", "narrow",
+     "live-action films of fairy tales and their retellings (<i>Beauty and the Beast</i> 1946, <i>The Princess Bride</i>, <i>Three Wishes for Cinderella</i>).",
+     "fairy tale film", "A15 Animated Feature.", "fairy tale film"),
+    ("A6-6", "Swashbuckler", "medium",
+     "adventure of sword-fighting heroes — pirates, musketeers, outlaws (<i>The Adventures of Robin Hood</i>, <i>The Three Musketeers</i>, <i>Pirates of the Caribbean</i>).",
+     "swashbuckler film; cloak-and-dagger; pirate film", "A7-6 Sword-and-Sandal Film.", "swashbuckler film"),
+])
+
+_add("A7", [
+    ("A7-6", "Sword-and-Sandal Film", "medium",
+     "epics of the ancient and biblical world, including the Italian peplum (<i>Ben-Hur</i>, <i>Spartacus</i>, <i>The Ten Commandments</i>, <i>Hercules</i> 1958, <i>Gladiator</i>).",
+     "peplum; biblical epic", "A6-6 Swashbuckler.", "sword-and-sandal"),
+    ("A7-7", "Costume Drama", "medium",
+     "dramas of manners in a period setting, often literary adaptations and heritage films (<i>Barry Lyndon</i>, <i>The Age of Innocence</i>, <i>Pride & Prejudice</i>, <i>The Leopard</i>).",
+     "period drama; heritage film", "A9-1 Romantic Drama.", "costume drama"),
+    ("A7-8", "Biographical Film", "broad",
+     "films that tell a real person's life or career (<i>Lawrence of Arabia</i>, <i>Gandhi</i>, <i>Amadeus</i>, <i>The Social Network</i>) (F14).",
+     "biopic; biographical drama", "A7-4 Historical Drama.", "biographical film"),
+    ("A7-9", "Holocaust Film", "narrow",
+     "fiction films about the Nazi persecution and murder of the Jews (<i>Schindler's List</i>, <i>The Pianist</i>, <i>Son of Saul</i>, <i>The Zone of Interest</i>).",
+     "", "A7-3 War Film; A13-1 Documentary Film.", "Holocaust film"),
+    ("A7-10", "Partisan Film", "narrow",
+     "Yugoslav and Soviet-bloc films of the Second World War resistance (<i>The Battle of Neretva</i>, <i>Walter Defends Sarajevo</i>, <i>Come and See</i> excepted as war).",
+     "partizanski film", "A7-3 War Film.", "partisan film"),
+])
+
+_add("A8", [
+    ("A8-3", "Wuxia", "medium",
+     "Chinese films of martial-arts chivalry: wandering swordsmen and women of the jianghu with gravity-defying combat (<i>Come Drink with Me</i>, <i>A Touch of Zen</i>, <i>Crouching Tiger, Hidden Dragon</i>, <i>Hero</i>).",
+     "wuxia pian; swordplay film", "A8-4 Kung Fu Film; A7-2 Chanbara.", "wuxia"),
+    ("A8-4", "Kung Fu Film", "medium",
+     "Hong Kong and Chinese unarmed martial-arts films, from Shaw Brothers and Bruce Lee to Jackie Chan and Ip Man (<i>Enter the Dragon</i>, <i>The 36th Chamber of Shaolin</i>, <i>Drunken Master</i>, <i>Ip Man</i>).",
+     "kung fu movie; chopsocky", "A8-3 Wuxia; A8-1 Martial Arts Film.", "kung fu film"),
+    ("A8-5", "Heroic Bloodshed", "narrow",
+     "the Hong Kong gunplay cycle of the late 1980s–90s: brotherhood, honour and balletic shoot-outs (<i>A Better Tomorrow</i>, <i>The Killer</i>, <i>Hard Boiled</i>).",
+     "gun fu", "A8-6 Hong Kong Action Cinema.", "heroic bloodshed"),
+    ("A8-6", "Hong Kong Action Cinema", "medium",
+     "Hong Kong stunt-driven action outside kung fu, wuxia and heroic bloodshed: police action, girls-with-guns and the Milkyway crime-action films (<i>Police Story</i>, <i>Project A</i>, <i>Exiled</i>).",
+     "Hong Kong action film", "A8-5 Heroic Bloodshed.", "Hong Kong action cinema"),
+    ("A8-7", "Buddy Cop Film", "narrow",
+     "action films of two mismatched police partners (<i>48 Hrs.</i>, <i>Lethal Weapon</i>, <i>Rush Hour</i>, <i>Hot Fuzz</i>).",
+     "buddy cop", "A2-3 Police & Detective Film.", "buddy cop film"),
+])
+
+_add("A10", [
+    ("A10-4", "Screwball Comedy", "narrow",
+     "the fast-talking American romantic comedies of the 1930s–40s, battle of the sexes and comedy of remarriage (<i>It Happened One Night</i>, <i>Bringing Up Baby</i>, <i>His Girl Friday</i>).",
+     "comedy of remarriage", "A9-2 Romantic Comedy.", "screwball comedy"),
+    ("A10-5", "Slapstick Comedy", "medium",
+     "physical comedy of pratfalls, chases and sight gags, from the silent clowns to Tati and Mr. Bean (<i>The General</i>, <i>City Lights</i>, <i>Duck Soup</i>, <i>Playtime</i>).",
+     "silent comedy; physical comedy", "A10-1 Comedy Film.", "slapstick"),
+    ("A10-6", "Parody & Spoof", "medium",
+     "comedy that mocks a genre or a famous work (<i>Airplane!</i>, <i>Young Frankenstein</i>, <i>Monty Python and the Holy Grail</i>, <i>Scary Movie</i>).",
+     "spoof film; parody film", "A10-11 Mockumentary.", "parody film"),
+    ("A10-7", "Teen & Sex Comedy", "medium",
+     "comedy of adolescence, parties and sexual initiation (<i>Animal House</i>, <i>Fast Times at Ridgemont High</i>, <i>American Pie</i>, <i>Superbad</i>).",
+     "teen comedy; sex comedy; gross-out comedy", "A14-3 Coming-of-Age Film.", "teen comedy|sex comedy"),
+    ("A10-8", "Commedia all'italiana", "narrow",
+     "Italian comedy of 1958–1980 that satirised postwar society — Monicelli, Risi, Germi, Scola (<i>Big Deal on Madonna Street</i>, <i>Divorce Italian Style</i>, <i>Il Sorpasso</i>).",
+     "Italian-style comedy", "A10-3 Black Comedy & Satire.", "Commedia all'italiana"),
+    ("A10-9", "Action Comedy", "medium",
+     "comedy carried by action set pieces outside the buddy-cop cycle (<i>Beverly Hills Cop</i>, <i>The Nice Guys</i>, <i>Kung Fu Hustle</i>).",
+     "", "A8-7 Buddy Cop Film.", "action comedy film"),
+    ("A10-10", "Crime Comedy", "medium",
+     "comedy of criminals, capers and botched crimes (<i>The Ladykillers</i>, <i>A Fish Called Wanda</i>, <i>Snatch</i>, <i>The Big Lebowski</i>).",
+     "caper comedy", "A2-7 Heist Film.", "crime comedy film|crime comedy"),
+    ("A10-11", "Mockumentary", "narrow",
+     "fiction comedy in the form of a documentary (<i>This Is Spinal Tap</i>, <i>Best in Show</i>, <i>Borat</i>).",
+     "mock documentary", "A10-6 Parody & Spoof.", "mockumentary"),
+    ("A10-12", "Stand-Up Comedy Film", "narrow",
+     "recorded stand-up comedy performances released as films or specials (<i>Richard Pryor: Live in Concert</i>, <i>Eddie Murphy Raw</i>, <i>Nanette</i>).",
+     "stand-up special; comedy special", "A13-2 Concert & Music Documentary.", "stand-up comedy"),
+])
+
+_add("A11", [
+    ("A11-2", "Dance Film", "narrow",
+     "films built on dance and dancers, competitions and the dance floor (<i>The Red Shoes</i>, <i>Saturday Night Fever</i>, <i>Dirty Dancing</i>, <i>Step Up</i>).",
+     "dance movie", "A11-1 Musical & Music Film.", "dance film"),
+])
+
+_add("A12", [
+    ("A12-4", "Sexploitation", "narrow",
+     "low-budget softcore features made for sex appeal outside Japan — nudie-cuties, Russ Meyer, Euro-softcore (<i>Faster, Pussycat! Kill! Kill!</i>, <i>Emmanuelle</i>, <i>Vixen!</i>).",
+     "softcore film; sexploitation film", "A12-1 Pink Film.", "sexploitation film"),
+    ("A12-5", "Pornographic Film", "narrow",
+     "hardcore features, chiefly of the Golden Age of Porn (1969–1984) that reached mainstream cinemas (<i>Deep Throat</i>, <i>Behind the Green Door</i>, <i>The Devil in Miss Jones</i>).",
+     "Golden Age of Porn; porno chic", "A12-4 Sexploitation.", "pornographic film"),
+])
+
+_add("A13", [
+    ("A13-2", "Concert & Music Documentary", "medium",
+     "documentaries of musicians, concerts and festivals (<i>Woodstock</i>, <i>Stop Making Sense</i>, <i>The Last Waltz</i>, <i>Summer of Soul</i>).",
+     "concert film; rockumentary", "A11-1 Musical & Music Film.", "concert film"),
+    ("A13-3", "Nature Documentary", "narrow",
+     "documentaries of wildlife and the natural world (<i>Microcosmos</i>, <i>March of the Penguins</i>, <i>My Octopus Teacher</i>).",
+     "wildlife documentary", "", "nature documentary"),
+    ("A13-4", "Direct Cinema & Cinéma Vérité", "narrow",
+     "observational documentaries of the 1960s–70s with light cameras and synchronous sound (<i>Primary</i>, <i>Salesman</i>, <i>Grey Gardens</i>, <i>Chronicle of a Summer</i>).",
+     "cinéma vérité; observational documentary; direct cinema", "A13-1 Documentary Film.", "direct cinema|cinéma vérité"),
+    ("A13-5", "True Crime Documentary", "narrow",
+     "documentaries investigating real crimes and miscarriages of justice (<i>The Thin Blue Line</i>, <i>Paradise Lost</i>, <i>Capturing the Friedmans</i>).",
+     "true crime", "A2-4 Crime Drama.", "true crime"),
+    ("A13-6", "Essay Film", "narrow",
+     "personal, reflective non-fiction that argues and wanders (<i>Night and Fog</i>, <i>Sans Soleil</i>, <i>F for Fake</i>, <i>The Gleaners and I</i>).",
+     "film essay", "A16-1 Experimental Film.", "essay film"),
+    ("A13-7", "City Symphony", "narrow",
+     "1920s–30s documentaries that render a city's day as visual rhythm (<i>Berlin: Symphony of a Metropolis</i>, <i>Man with a Movie Camera</i>, <i>Manhatta</i>).",
+     "city symphony film", "A1-3 Soviet Montage.", "city symphony"),
+    ("A13-8", "Mondo Film", "narrow",
+     "Italian-born shockumentaries of bizarre customs and violence, 1962 onward (<i>Mondo Cane</i>, <i>Africa Addio</i>, <i>Faces of Death</i>).",
+     "shockumentary", "A4-17 Cannibal Film.", "mondo film"),
+    ("A13-9", "Ethnographic Film", "narrow",
+     "documentaries of peoples and cultures made from fieldwork (<i>Nanook of the North</i>, <i>Moi, un noir</i>, <i>Dead Birds</i>).",
+     "visual anthropology", "A13-4 Direct Cinema & Cinéma Vérité.", "ethnographic film"),
+])
+
+_add("A14", [
+    ("A14-10", "Legal Drama", "medium",
+     "dramas built on a trial, a lawyer's case or a jury (<i>12 Angry Men</i>, <i>To Kill a Mockingbird</i>, <i>Anatomy of a Murder</i>, <i>Anatomy of a Fall</i>) (F19).",
+     "courtroom drama; legal film", "A13-5 True Crime Documentary.", "legal drama|courtroom drama"),
+    ("A14-11", "Road Movie", "medium",
+     "films whose structure is a journey on the road, comic or dramatic (<i>Easy Rider</i> excepted as New Hollywood; <i>Thelma & Louise</i>, <i>Paris, Texas</i>, <i>Wild Strawberries</i>, <i>Y tu mamá también</i>) (F19).",
+     "road film", "A14-3 Coming-of-Age Film.", "road movie"),
+    ("A14-12", "Christian Film", "narrow",
+     "films made by and for Christian audiences, of conversion and faith (<i>The Passion of the Christ</i> excepted as biblical epic; <i>God's Not Dead</i>, <i>Fireproof</i>).",
+     "faith-based film", "A7-6 Sword-and-Sandal Film.", "Christian film"),
+    ("A14-13", "Political Drama", "medium",
+     "dramas of politics and power, of leaders, campaigns and activists, outside the thriller (<i>Mr. Smith Goes to Washington</i>, <i>The Candidate</i>, <i>Milk</i> excepted as biopic, <i>Battle of Algiers</i> excepted as Third Cinema).",
+     "political film", "A3-6 Political & Conspiracy Thriller.", "political drama|political film"),
+])
+
+_add("A15", [
+    ("A15-1", "Hand-Drawn Animated Feature", "broad",
+     "features animated by hand on cels or paper, the Disney tradition and its rivals and the European, Soviet and Chinese studios (<i>Snow White and the Seven Dwarfs</i>, <i>The Lion King</i>, <i>The Snow Queen</i>, <i>The Triplets of Belleville</i>).",
+     "traditional animation; cel animation", "A15-2 Computer-Animated Feature.", "traditional animation"),
+    ("A15-2", "Computer-Animated Feature", "broad",
+     "features made with 3D computer animation, from <i>Toy Story</i> (1995) on: Pixar, DreamWorks, Disney and their peers (<i>Shrek</i>, <i>Spider-Man: Into the Spider-Verse</i>, <i>Ne Zha</i>).",
+     "CGI animation; 3D animation", "A15-1 Hand-Drawn Animated Feature.", "computer animation"),
+    ("A15-3", "Stop-Motion Feature", "medium",
+     "features animated frame by frame with puppets, clay or cut-outs (<i>The Nightmare Before Christmas</i>, <i>Coraline</i>, <i>Chicken Run</i>, <i>Fantastic Mr. Fox</i>).",
+     "stop-motion animation; claymation; puppet animation", "B1-3 Stop-Motion & Puppet Short.", "stop-motion animation|stop motion"),
+    ("A15-4", "Adult Animated Feature", "medium",
+     "animated features made for adults — satire, sex, politics, memoir — whatever the technique (<i>Fritz the Cat</i>, <i>Persepolis</i>, <i>Anomalisa</i>, <i>Flee</i> excepted as documentary).",
+     "adult animation", "A15-1 Hand-Drawn Animated Feature.", "adult animation"),
+])
+
+_add("A16", [
+    ("A16-2", "Surrealist Film", "narrow",
+     "films of the surrealist movement and its heirs, dream logic and provocation (<i>L'Âge d'Or</i>, <i>The Discreet Charm of the Bourgeoisie</i>, <i>Eraserhead</i>, <i>The Holy Mountain</i>).",
+     "surrealist cinema", "A16-1 Experimental Film.", "surrealist film|surrealist cinema"),
+])
+
+_add("A17", [
+    ("A17-2", "Spaghetti Western", "medium",
+     "Italian westerns of 1964–1978 — Leone, Corbucci, Sollima — with mercenary heroes, operatic violence and Morricone scores (<i>A Fistful of Dollars</i>, <i>The Good, the Bad and the Ugly</i>, <i>Django</i>, <i>Once Upon a Time in the West</i>).",
+     "Italian western; macaroni western", "A17-3 Revisionist Western.", "spaghetti western"),
+    ("A17-3", "Revisionist Western", "medium",
+     "westerns that question the genre's myths — violence, race, the frontier (<i>The Wild Bunch</i>, <i>McCabe & Mrs. Miller</i>, <i>Little Big Man</i>, <i>Unforgiven</i>).",
+     "anti-western; acid western", "A17-1 Western.", "revisionist Western"),
+    ("A17-4", "Neo-Western", "medium",
+     "films set in the modern American West that carry the western's codes (<i>Lonely Are the Brave</i>, <i>No Country for Old Men</i>, <i>Hell or High Water</i>, <i>Brokeback Mountain</i> excepted as romance) (F20).",
+     "contemporary western; modern western", "A2-5 Film Noir & Neo-Noir.", "neo-Western"),
+    ("A17-5", "Ostern", "narrow",
+     "Soviet and East German westerns and 'Eastern' adventures (<i>White Sun of the Desert</i>, <i>The Sons of Great Bear</i>).",
+     "Red western; Indianerfilm; Eastern", "A17-2 Spaghetti Western.", "Ostern"),
+])
+
+_add("A18", [
+    ("A18-1", "Masala Film", "medium",
+     "Indian popular cinema that mixes action, romance, comedy, melodrama and song-and-dance in one star vehicle — Hindi, Telugu, Tamil and other industries (<i>Sholay</i>, <i>Amar Akbar Anthony</i>, <i>Baahubali</i>, <i>RRR</i>, <i>Pushpa</i>) (F13).",
+     "masala movie; Bollywood masala; mass film", "A1-17 Parallel Cinema; A11-1 Musical & Music Film.", "masala film"),
+    ("A18-2", "Nollywood Film", "narrow",
+     "Nigerian popular film made in the Nollywood mode: the home-video melodramas of family, wealth, the occult and the city from <i>Living in Bondage</i> (1992), and the 'New Nollywood' cinema releases that grew from them (<i>The Wedding Party</i>, <i>King of Boys</i>) (F13).",
+     "Nigerian video film; New Nollywood", "A18-1 Masala Film.", "Nollywood|Cinema of Nigeria"),
+])
+
+_add("A19", [
+    ("A19-1", "Children's Film", "medium",
+     "live-action films made first for children (<i>The Wizard of Oz</i> excepted as fantasy; <i>Mary Poppins</i> excepted as musical; <i>Matilda</i>, <i>Paddington</i>, <i>Kes</i> excepted as drama).",
+     "family film; kids' film", "A6-1 Fantasy Film; A14-8 Animal Film.", "children's film"),
+    ("A19-2", "Christmas Film", "medium",
+     "films built on Christmas, comic, romantic or dramatic (<i>It's a Wonderful Life</i>, <i>Miracle on 34th Street</i>, <i>Home Alone</i>, <i>Elf</i>) (F18).",
+     "holiday film", "A19-1 Children's Film.", "Christmas film"),
+])
+
+_add("B1", [
+    ("B1-1", "Theatrical Cartoon", "medium",
+     "studio cartoon shorts made for cinema programmes, the golden age of American animation and its kin (Disney's <i>Silly Symphonies</i>, Looney Tunes, <i>Tom and Jerry</i>, Fleischer's <i>Betty Boop</i>).",
+     "cartoon short; animated short subject", "A15-1 Hand-Drawn Animated Feature.", "animated cartoon|animated short film"),
+    ("B1-2", "Auteur Animated Short", "medium",
+     "independent and art animation shorts by individual animators and national studios — NFB, Soyuzmultfilm, Zagreb School (<i>Neighbours</i>, <i>Hedgehog in the Fog</i>, <i>The Man Who Planted Trees</i>).",
+     "independent animation; art animation", "B4-1 Avant-Garde Short.", "independent animation"),
+    ("B1-3", "Stop-Motion & Puppet Short", "narrow",
+     "shorts animated with puppets, clay or objects (<i>A Grand Day Out</i>, <i>The Wrong Trousers</i>, <i>Dimensions of Dialogue</i>).",
+     "claymation short", "A15-3 Stop-Motion Feature.", "stop-motion animation"),
+    ("B1-4", "Computer-Animated Short", "narrow",
+     "shorts made with 3D computer animation (<i>Luxo Jr.</i>, <i>Geri's Game</i>, <i>Bao</i>).",
+     "CGI short; Pixar short", "A15-2 Computer-Animated Feature.", "computer animation"),
+])
+
+_add("B2", [
+    ("B2-1", "Trick Film", "narrow",
+     "early fantasy shorts built on camera tricks and stage illusion, Méliès and his rivals (<i>A Trip to the Moon</i>, <i>The Haunted Castle</i>).",
+     "féerie; trick film", "B3-1 Actuality Film.", "trick film"),
+    ("B2-2", "Silent Comedy Short", "medium",
+     "one- and two-reel comedies of the silent clowns and the early sound comedy teams (<i>One Week</i>, <i>The Immigrant</i>, Laurel and Hardy's <i>The Music Box</i>).",
+     "slapstick short; comedy short", "A10-5 Slapstick Comedy.", "comedy short"),
+    ("B2-3", "Narrative Short Film", "broad",
+     "live-action fiction shorts of every genre (<i>La Jetée</i>, <i>The Red Balloon</i>, <i>Six Shooter</i>).",
+     "short film; short subject", "", "short film"),
+])
+
+_add("B3", [
+    ("B3-1", "Actuality Film", "narrow",
+     "the non-fiction views of early cinema, 1890s–1900s (<i>Workers Leaving the Lumière Factory</i>, <i>The Arrival of a Train</i>, <i>Carmencita</i>).",
+     "actualité; actuality", "B2-1 Trick Film.", "actuality film"),
+    ("B3-2", "Documentary Short", "medium",
+     "documentaries under 40 minutes (<i>Night and Fog</i>, <i>Glass</i>, <i>The Silent World</i> excepted as feature).",
+     "short documentary", "A13-1 Documentary Film.", "short documentary film|documentary film"),
+])
+
+_add("B4", [
+    ("B4-1", "Avant-Garde Short", "medium",
+     "experimental and avant-garde shorts — surrealist, abstract, structural and underground (<i>Un Chien Andalou</i>, <i>Meshes of the Afternoon</i>, <i>Scorpio Rising</i>, <i>Window Water Baby Moving</i>).",
+     "experimental short film", "A16-1 Experimental Film.", "experimental film|avant-garde film"),
+])
+
+
+# Attestation for leaves: English Wikipedia article titles (resolved to their
+# Wikidata item by build), then a QID where the article is a redirect, then a
+# source page. A leaf with none of these carries a weak-attestation note.
+ATTEST_WIKI = {
+"A1-1":"Japanese New Wave","A1-2":"German expressionist cinema","A1-3":"Soviet montage theory","A1-4":"French impressionist cinema",
+"A1-5":"Poetic realism","A1-6":"Italian neorealism","A1-7":"French New Wave","A1-8":"Left Bank (film)|Left Bank (film movement)|Rive Gauche (film)",
+"A1-9":"British New Wave","A1-10":"Czechoslovak New Wave","A1-11":"Polish Film School","A1-12":"Yugoslav Black Wave","A1-13":"Cinema Novo",
+"A1-14":"Third Cinema","A1-15":"New Hollywood","A1-16":"New German Cinema","A1-17":"Parallel cinema","A1-18":"Iranian New Wave",
+"A1-19":"Taiwanese New Wave|Taiwan New Cinema","A1-20":"Hong Kong New Wave","A1-21":"Fifth Generation (Chinese cinema)|Fifth generation of Chinese filmmakers",
+"A1-22":"Sixth Generation (Chinese cinema)|Sixth generation of Chinese filmmakers","A1-23":"Dogme 95","A1-24":"Romanian New Wave",
+"A1-25":"Berlin School (filmmaking)|Berlin School (film)","A1-26":"New Queer Cinema","A1-27":"Mumblecore","A1-28":"L.A. Rebellion",
+"A1-29":"Australian New Wave","A1-30":"Greek Weird Wave","A1-31":"New Argentine Cinema|Nuevo cine argentino","A1-32":"Cinéma du look",
+"A1-33":"Slow cinema","A1-34":"Korean New Wave",
+"A2-1":"Yakuza film","A2-2":"Gangster film","A2-3":"Police procedural","A2-4":"Crime film","A2-5":"Film noir","A2-6":"Pinky violence",
+"A2-7":"Heist film","A2-8":"Prison film","A2-9":"Poliziotteschi","A2-10":"Blaxploitation","A2-11":"Hood film",
+"A3-1":"Psychological thriller","A3-2":"Mystery film","A3-3":"Survival film","A3-4":"Erotic thriller","A3-5":"Revenge film|Rape and revenge film",
+"A3-6":"Political thriller","A3-7":"Spy film","A3-8":"Giallo","A3-9":"Thriller film",
+"A4-1":"Japanese horror","A4-2":"Kaidan","A4-3":"Supernatural horror film","A4-4":"Body horror","A4-5":"Splatter film","A4-6":"Zombie film",
+"A4-7":"Found footage (film technique)|Found footage film","A4-8":"Slasher film","A4-9":"Psychological horror","A4-10":"Folk horror",
+"A4-11":"Vampire film","A4-12":"Haunted house film|Haunted house","A4-13":"Gothic film|Gothic horror","A4-14":"Monster movie|Natural horror film|Creature feature",
+"A4-15":"Science fiction horror film|Science fiction horror","A4-16":"Comedy horror","A4-17":"Cannibal film","A4-18":"Asian horror|Korean horror|Thai horror",
+"A5-1":"Kaiju","A5-2":"Tokusatsu","A5-3":"Science fiction film","A5-4":"Cyberpunk","A5-5":"Disaster film","A5-6":"Space opera",
+"A5-7":"Dystopian film|Utopian and dystopian fiction","A5-8":"Alien invasion","A5-9":"Time travel in fiction",
+"A6-1":"Fantasy film","A6-2":"Adventure film","A6-3":"Superhero film","A6-4":"High fantasy","A6-5":"Fairy tale film|Fairy-tale fantasy","A6-6":"Swashbuckler film",
+"A7-1":"Jidaigeki","A7-2":"Samurai cinema","A7-3":"War film","A7-4":"Historical drama","A7-5":"Hibakusha cinema|Hibakusha","A7-6":"Sword-and-sandal",
+"A7-7":"Costume drama","A7-8":"Biographical film","A7-9":"Holocaust film|The Holocaust in film|Holocaust films","A7-10":"Partisan film",
+"A8-1":"Martial arts film","A8-2":"Action film","A8-3":"Wuxia","A8-4":"Kung fu film","A8-5":"Heroic bloodshed","A8-6":"Hong Kong action cinema","A8-7":"Buddy cop",
+"A9-1":"Romance film","A9-2":"Romantic comedy",
+"A10-1":"Comedy film","A10-2":"Comedy drama","A10-3":"Black comedy","A10-4":"Screwball comedy","A10-5":"Slapstick","A10-6":"Parody film",
+"A10-7":"Teen film|Sex comedy","A10-8":"Commedia all'italiana","A10-9":"Action comedy","A10-10":"Crime comedy","A10-11":"Mockumentary","A10-12":"Stand-up comedy",
+"A11-1":"Musical film","A11-2":"Dance film",
+"A12-1":"Pink film","A12-2":"Roman Porno|Nikkatsu Roman Porno","A12-3":"Erotic film","A12-4":"Sexploitation film","A12-5":"Golden Age of Porn|Pornographic film",
+"A13-1":"Documentary film","A13-2":"Concert film","A13-3":"Nature documentary","A13-4":"Direct cinema","A13-5":"True crime","A13-6":"Essay film|Film essay",
+"A13-7":"City symphony","A13-8":"Mondo film","A13-9":"Ethnographic film",
+"A14-1":"Shomin-geki|Shoshimin-eiga","A14-2":"Family film|Domestic drama","A14-3":"Coming-of-age story|Coming-of-age film","A14-4":"Social problem film",
+"A14-5":"Character study|Psychological drama","A14-6":"Melodrama","A14-7":"Sports film","A14-8":"Animal film|List of films about animals",
+"A14-9":"Taiyozoku|Taiyōzoku","A14-10":"Legal drama","A14-11":"Road movie","A14-12":"Christian film","A14-13":"Political drama|Political film",
+"A15-1":"Traditional animation","A15-2":"Computer animation","A15-3":"Stop motion","A15-4":"Adult animation",
+"A16-1":"Experimental film","A16-2":"Surrealist cinema",
+"A17-1":"Western film","A17-2":"Spaghetti Western","A17-3":"Revisionist Western","A17-4":"Contemporary Western|Neo-Western","A17-5":"Ostern",
+"A18-1":"Masala film","A18-2":"Nollywood","A19-1":"Children's film","A19-2":"Christmas film|Christmas movie",
+"B1-1":"Animated cartoon","B1-2":"Independent animation","B1-3":"Stop motion","B1-4":"Computer animation","B2-1":"Trick film",
+"B2-2":"Silent comedy|Slapstick film|Comedy short","B2-3":"Short film","B3-1":"Actuality film","B3-2":"Short documentary film|Documentary film","B4-1":"Experimental film",
+}
+ATTEST_QID = {"A1-30": "Q62086465", "A1-31": "Q2843729", "A10-10": "Q1788980", "A12-2": "Q11237516", "A3-5": "Q2254193"}
+ATTEST_URLS = {
+    "A1-21": "https://en.wikipedia.org/wiki/Cinema_of_China#The_fifth_generation",
+    "A1-22": "https://en.wikipedia.org/wiki/Cinema_of_China#The_sixth_generation",
+    "A1-34": "https://harvardfilmarchive.org/programs/park-kwang",
+    "A4-15": "https://en.wikipedia.org/wiki/List_of_science_fiction_horror_films",
+    "A7-9": "https://en.wikipedia.org/wiki/List_of_Holocaust_films",
+    "A10-3": "https://en.wikipedia.org/wiki/Black_comedy",
+}
+WEAK = {
+    "A2-6": "no Wikidata item; attested in Toei's own cycle name and the pink-film literature",
+    "A3-5": "attested as 'rape and revenge' (Wikidata) and as a Korean cycle in criticism; no item for 'revenge thriller'",
+    "A4-18": "attested through Korean horror and Thai horror; no item for the umbrella term",
+    "A6-5": "attested as a film form in the fairy-tale literature (Zipes); no item for 'fairy-tale film'",
+    "A14-9": "no Wikidata item; attested in Japanese film histories (taiyōzoku eiga)",
 }
