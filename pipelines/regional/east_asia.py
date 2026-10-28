@@ -873,6 +873,16 @@ def fetch_bunka(delay):
                 p = get_csv(key, kind, nation)
                 (files if p else missing).append(p or key)
                 continue
+            # The export is documented to fail above ~2,000 rows, but often succeeds a little beyond;
+            # try the whole query first and split by era only if it fails or comes back short.
+            p = get_csv(key, kind, nation)
+            if p:
+                with open(p, encoding="utf-8") as fh:
+                    rows_got = sum(1 for _ in csv.DictReader(fh))
+                if rows_got >= n:
+                    files.append(p)
+                    continue
+                print(f"  kunishitei {key}: whole export gave {rows_got} of {n}; splitting by era", file=sys.stderr)
             got = 0
             for era in KUN_ERAS:
                 ek = f"{key}|{era}"

@@ -1035,6 +1035,13 @@ IDP_FORMS = {"ITEM000059": "painting", "ITEM000060": "artefact", "ITEM000482": "
 IDP_SITE_REGION = [  # IDP find-site spellings that REGION_LEX does not already cover
     (r"chotscho|qoco|bazaklik|sangim|kichikhassar|chongtim|kurutka", "Turfan (Uyghur Qocho)"),
     (r"mingoi|kizilyar|kumtura|kucha|tumshuk|duldulokur|machi|shorchuk|khora", "Kucha & northern Tarim"),
+    (r"karakhoja", "Turfan (Uyghur Qocho)"),
+    # Stein site marks given in place of a site name: Ch. = Qianfodong (Dunhuang),
+    # T. = Dunhuang limes, M. = Miran, M.Tagh = Mazar Tagh, E. = Endere,
+    # L.A-L.K = Loulan, Ka. = Karadong
+    (r"^\(?ch [0-9ivxl]", "Dunhuang"), (r"^\(?t [ivxl]+\b", "Dunhuang"),
+    (r"^\(?m tagh", "Khotan"), (r"^\(?(e (i|ii|iii|fort)\b)", "Khotan"), (r"^\(?ka [ivx]+", "Khotan"),
+    (r"^\(?m [ivx]+\b", "Shanshan (Miran, Niya, Loulan)"), (r"^\(?l [a-k]\b", "Shanshan (Miran, Niya, Loulan)"),
 ]
 DE_MATERIALS = [("Tusche", "ink"), ("Farbe", "colour"), ("Seide", "silk"), ("Papier", "paper"), ("Hanf", "hemp"),
                 ("Baumwolle", "cotton"), ("Wolle", "wool"), ("Holz", "wood"), ("Leinen", "linen"), ("Ton", "clay"),
@@ -1131,7 +1138,7 @@ def harvest_idp():
                 site_txt = site.replace("_", " ")
                 for rx, reg in IDP_SITE_REGION:
                     if re.search(rx, fold(site_txt)):
-                        site_txt += " | " + reg.split(" (")[0].split(" &")[0]
+                        site_txt += " | " + {"Shanshan (Miran, Niya, Loulan)": "Miran"}.get(reg, reg.split(" (")[0].split(" &")[0])
                 row = {
                     "source": "idp", "id": key, "title": f"{kind} {r['pressmark']}",
                     "place_recorded": site.replace("_", " "), "tradition_recorded": r["language"],
