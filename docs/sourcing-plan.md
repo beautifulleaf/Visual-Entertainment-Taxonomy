@@ -146,5 +146,18 @@ Metadata comes from the TMDB API plus the daily ID exports, with Kaggle `alanvou
   - Coverage against `seeds/unscripted/formats_checklist.txt`: 35 of 35, with Wife Swap and Married at First Sight added by hand in `seeds/unscripted/format_additions.csv` (Wikidata does not link their national versions).
 - **Non-format unscripted** (prestige docuseries, true crime, nature, stand-alone reality like *Keeping Up with the Kardashians*) is handled as individual titles under the scripted-TV thresholds.
 
+## 8. Inclusion cutoffs (decided 2026-10-28)
+All rules below are an OR: a title qualifies through any one of them. "Regional top-up" means top X% per country × decade, with a minimum count per cell and a vote floor, so small industries are represented without re-adding big markets.
+
+| Database | Main bar | Top-ups and other routes | Measured size |
+|---|---|---|---|
+| Film | Letterboxd ≥10k ratings | canon lists (§2); gap rule (§2 step 4); regional top-up **5%** per country × decade (Letterboxd ≥1k, min 3 per cell; +720) | ~17–18k before the African fix below |
+| Scripted TV | IMDb ≥2,500 votes (6,342) | regional top-up **5%** per country × decade (≥200 votes, min 3; +502); **award winners** (+296 scripted; nominations are a signal only) | ~7,100 |
+| Anime | MAL members ≥25,000 (5,167) | pre-2000: top **20%** per decade, min 5 (+271); donghua: MAL ≥**10,000** (146 instead of 73) | ~5,500 |
+| Asian drama | MDL watchers ≥**5,000** (3,364 dramas) | per-country top-up: top **15%** per country × decade, min 5 (Japanese, Filipino and Hong Kong dramas are under-counted on MDL); award winners; MDL's variety shows go to unscripted | ~3,500+ |
+| Unscripted | all cross-border formats (≥3 versions in ≥2 countries; 211) | non-format shows use the scripted-TV rules | 211 formats |
+
+**Gathering gap found while setting these: African film.** The IMDb ≥500-vote candidate floor leaves Nigeria with 19 candidates, Ghana 3, Kenya 1 and Ethiopia 2 (against Iran 527, Egypt 446). Countries with under 200 candidates therefore get a lower floor (IMDb ≥100) plus Wikidata/TMDB films by country, before the regional top-up applies.
+
 ## 7. Licensing note
 Almost every audience-metric dataset (IMDb, Letterboxd samples, Douban, MAL dumps) is **non-commercial**. That is fine for an internal or personal taxonomy. If the taxonomy will ever be published commercially, ship only our own derived categories and IDs, never the raw counts.

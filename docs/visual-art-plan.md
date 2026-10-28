@@ -130,6 +130,14 @@ Node creation happens in the classifying stage. Gathering must hand it **evidenc
 - **Flags:** cells that are empty, thin relative to their art-historical weight, or resting on a single source (especially the Met alone) are flagged.
 - **Fix:** each flagged cell gets a targeted sweep before the handover to classifying.
 
+### 2.3 Inclusion cutoffs (decided 2026-10-28)
+- **Historical artists, artist-led cells:** the depth-model score at 90% reference recall, plus every reference artist (§2.1). Other regions reuse the fitted cutoff (`depth_model.py apply`).
+- **Traditions, tradition-led cells:** a base-level culture or tradition with ≥50 objects OR any Met Heilbrunn Timeline work. Sub-traditions are kept as children. This gives 501 from the Met/AIC harvest. Each regional sweep uses the same rule, with the object threshold scaled to its collection size.
+- **Architectural styles:** sitelinks ≥5 OR ≥3 heritage-listed buildings OR any UNESCO building. That gives 894, plus the styles from the non-Western pass. Sitelinks alone would leave Africa with 23 styles and South America with 10.
+- **Contemporary artists:**
+  - **Auto-include:** everyone on the 21 lists (1,530 pool artists, plus resolved and list-only artists).
+  - **Everyone else:** a composite score ranked within the artist's region, with each region's cutoff set so the total is about 10–12k. Signals: pageviews, sitelinks, Artnet/Artsy/MoMA IDs, museum IDs and awards; Artfacts' planned weight moves to the museum and market IDs. `art_occ_share` down-weights celebrities.
+
 ## 2A. Unattributed traditions: antiquity, decorative arts, architecture
 
 A large part of world art has no recorded maker. *Measured* in the Met's open-access CSV (503,012 objects): **40% have no artist**, rising to 94–99% in the Greek and Roman, Egyptian, Islamic, Medieval and Ancient West Asian departments, 72% in Asian Art and 67% in European Sculpture and Decorative Arts. These traditions therefore need their **own node type and their own prominence signals**, not the artist pipeline.
