@@ -12,7 +12,14 @@ authority IDs), so that refitting on it is not circular.
    or P463 (member of), worldwide. A movement is kept when it has >= 3 members
    active 1860-1960 and is modern: inception (P571/P580) 1855-1960 if dated, and
    median member birth 1800-1922 (later medians belong to the contemporary pass).
-   Umbrella terms (modern art, abstract art, avant-garde, ...) are dropped.
+   Umbrella terms (modern art, abstract art, avant-garde, ...), organisations
+   (unions, salons, societies), architecture/music/literature movements and a few
+   reviewed noise items (UMBRELLA) are dropped. Members of Western movements must be
+   born by 1925 (later births: contemporary pass), of non-Western ones by 1940.
+   Non-Western movements are thinly linked on Wikidata, so for them the artists
+   linked from the movement's English Wikipedia article (cached in enwiki_links.json,
+   plus enwiki_links_extra.json fetched via Firecrawl while the API was rate-limited)
+   also count, if they are visual artists from the movement's own region.
 2. Curatorial signal per member, independent of the model's features:
      tate_works      Tate collection open data (CC0), joined on the Tate ID (P2741)
                      or name + birth year
@@ -35,12 +42,13 @@ authority IDs), so that refitting on it is not circular.
    since they are curatorially defined groups. Artists are deduplicated across
    movements: each is listed under the movement where it ranks best.
 
-Output: data/interim/modern_reference_candidate.txt   (seeds format)
+Output: data/interim/modern_reference_candidate.txt   (seeds format; reviewed copy in
+                                                       seeds/visual-art/modern_1860-1960_depth_reference.txt)
         data/interim/modern_reference_candidate.csv   (one row per artist)
         data/interim/modern_reference_movements.csv   (every candidate movement)
 Cache:  data/raw/wikidata/modern_reference/ (one SPARQL query at a time)
 
-Usage: python3 pipelines/visual_art/build_modern_reference.py
+Usage: python3 pipelines/visual_art/build_modern_reference.py [--cached-links-only] [--links-only]
 """
 import argparse
 import collections
@@ -100,6 +108,12 @@ UMBRELLA = {
     # post-1960 movement whose early members only would be kept.
     "Q42865": "Orientalism (a subject, not a movement)", "Q194380": "Arabic literature",
     "Q189772": "Brazilian academic art", "Q134147": "pop art (contemporary pass)",
+    # Wikipedia-link members only, and the article is not about a modern movement:
+    # contemporary collectives citing their predecessors, a folk form, a design style,
+    # a 19th-century print genre whose navbox lists later printmakers.
+    "Q7188358": "Phunk Studio (contemporary collective)", "Q5611109": "Group 90 (contemporary collective)",
+    "Q26766755": "Alpana (folk art form)", "Q4763641": "Anglo-Japanese style (design style)",
+    "Q3074667": "Yokohama-e (print genre; navbox links)",
 }
 # P31 values that mark an organisation rather than a movement (unions, salons, academies).
 NON_MOVEMENT = {
@@ -110,6 +124,14 @@ NON_MOVEMENT = {
     "Q15911314": "association", "Q667276": "art exhibition", "Q464980": "exhibition",
 }
 WESTERN = ("europe", "north_america")
+# Architecture styles (organised by style elsewhere, plan §2.1), music, literature,
+# film and animation movements whose members include a few visual artists.
+NOT_VISUAL_ART = re.compile(r"architecture|\brevival\b|music|literature|literary|\bbeat generation\b|"
+                            r"dibujos animados|\bcinema\b|\bfilm\b", re.I)
+# Titles that redirect to a broad survey article (Persian painting -> Persian art,
+# Saqqakhaneh movement -> Iranian modern and contemporary art, Maruyama school ->
+# Shijo school): their links are any regional artist, not members, so unused.
+BROAD_ARTICLES = {"Persian painting", "Saqqakhaneh movement", "Maruyama school"}
 # Fetched first when the Wikipedia API is rate-limited (ordering only; every
 # candidate article is fetched eventually).
 PRIORITY_ARTICLES = [
@@ -122,7 +144,7 @@ PRIORITY_ARTICLES = [
 ]
 # Exhibiting societies and professional bodies, not movements (by label).
 ORG_WORDS = re.compile(r"\b(association|associazione|club|union|institute|academy|salon|verein|verband|"
-                       r"künstlerbund|genossenschaft|federation|league|guild)\b", re.I)
+                       r"künstlerbund|genossenschaft|federation|league|guild|society|societies)\b", re.I)
 # Collections that are model features (Met, AIC, Cleveland) or not curatorial.
 EXCLUDED_COLLECTIONS = {"Q160236", "Q239303", "Q657415", "Q768717"}
 ART_OCCUPATIONS = {o for m, occs in MEDIA.items() for o in occs}
@@ -648,7 +670,8 @@ def main():
     targets = sorted({q for t, _ in nonwestern.values() for q in links.get(t, [])})
     is_artist = filter_artists(targets)
     link_pairs = [{"a": q, "m": m, "prop": "enwiki", "region": reg}
-                  for m, (t, reg) in nonwestern.items() for q in links.get(t, []) if is_artist.get(q)]
+                  for m, (t, reg) in nonwestern.items() if t not in BROAD_ARTICLES
+                  for q in links.get(t, []) if is_artist.get(q)]
     print(f"  {len(link_pairs)} artist links before the region check")
     pairs = pairs + link_pairs
     movements = sorted({p["m"] for p in pairs})
@@ -714,6 +737,8 @@ def main():
             reasons.append(f"association (no P135 members, {len(mem)} members)")
         if ORG_WORDS.search(md.get("label") or ""):
             reasons.append("organisation (label)")
+        if NOT_VISUAL_ART.search(md.get("label") or ""):
+            reasons.append("not a visual-art movement (label)")
         types = [MOVEMENT_TYPES[t] for t in md.get("types", []) if t in MOVEMENT_TYPES]
         mrows.append({
             "movement_qid": m, "movement": md.get("label") or m, "types": "|".join(types) or "subclass",
@@ -827,10 +852,13 @@ def main():
         for r in rows:
             w.writerow({**r, "score": round(r["score"], 3)})
     with open(os.path.join(OUT, "modern_reference_candidate.txt"), "w", encoding="utf-8") as f:
-        f.write("# Depth reference candidate: modern art, active 1860-1960 (visual-art-plan.md §2.4).\n"
-                "# Generated by pipelines/visual_art/build_modern_reference.py from Wikidata movement\n"
-                "# membership (P135/P463) ranked by Tate / MoMA / Wikidata-collection / regional-sweep\n"
-                "# holdings; none of these are depth-model features. Format: \"Movement: name, name, ...\".\n")
+        f.write("# Depth reference: modern art, active 1860-1960 (visual-art-plan.md §2.4).\n"
+                "# Generated by pipelines/visual_art/build_modern_reference.py, not by hand: movements and\n"
+                "# members from Wikidata (P135/P463; for non-Western movements also the artists linked from\n"
+                "# the movement's English Wikipedia article), ranked by Tate / MoMA / Wikidata-collection /\n"
+                "# regional-sweep holdings, none of which are depth-model features. QIDs, ranks and signals:\n"
+                "# data/interim/modern_reference_candidate.csv. Grouped by the movement's region.\n"
+                "# Format: \"Movement: name, name, ...\".\n")
         by_region = collections.defaultdict(lambda: collections.defaultdict(list))
         for r in rows:
             by_region[r["movement_region"]][r["movement"]].append(r["name"])
