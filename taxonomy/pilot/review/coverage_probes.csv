@@ -1,0 +1,76 @@
+set,probe,type,home,status,comment
+VA,Kufic script,core,C1-1,ok,Direct leaf
+VA,Thuluth / naskh (six pens),core,C1-3,ok,Six Pens leaf names both in aka
+VA,Nasta'liq calligraphy,core,C1-4,ok,Direct leaf
+VA,Maghribi script,core,C1-2,ok,Direct leaf incl. Sudani
+VA,Qur'an illumination (tazhib),core,C2-2,ok,Direct leaf
+VA,Maqamat illustration (Baghdad school),core,A1-1,ok,Arab Painting names al-Wasiti Maqamat
+VA,Herat school (Timurid painting),core,A1-2 kind Herat,ok,School is a kind under Persian Miniature
+VA,Safavid Tabriz painting,core,A1-2 kind Tabriz,ok,School kind; Safavid is period tag
+VA,Ottoman miniature,core,A1-3,ok,Direct leaf
+VA,Mughal painting,core,A1-4,ok,Direct leaf
+VA,Deccani painting,core,A1-5,ok,Direct leaf
+VA,Abbasid lustreware,core,E1-2,ok,Direct leaf
+VA,Mina'i ware,core,E2-3,ok,Direct leaf
+VA,Iznik pottery,core,E2-7,ok,Direct leaf
+VA,Hispano-Moresque ware,core,E1-8,ok,Direct leaf
+VA,Mamluk enamelled glass,core,F3-1,ok,Direct leaf
+VA,Fatimid rock crystal,core,D3-1,ok,Direct leaf; P5 confirms
+VA,Mosul inlaid metalwork,core,G1-2,ok,Direct leaf
+VA,Bidri ware,core,G1-6,ok,Direct leaf
+VA,Safavid court carpets (Ardabil),core,H1-1 kind,ok,Named inside Persian Carpet
+VA,Tiraz textiles,core,H3-1,ok,Direct leaf
+VA,Ottoman silk velvet (kemha / catma),core,H3-3,ok,Direct leaf
+VA,Andalusian ivory pyxides,core,D2-1,ok,Direct leaf
+VA,Minbar / mashrabiya woodwork,core,I1-1; I1-5,ok,Two leaves cover both
+VA,Muqarnas,core,D1-2 mention only,weak,Architectural element; no ornament or element facet
+VA,Four-iwan mosque,core,K1-6 mention,weak,Building type cuts across styles; no type facet
+VA,Zellij,core,L3-2,ok,Direct leaf
+VA,Timurid tile mosaic,core,L3-3,ok,Cut-tile mosaic leaf; P2 applies
+VA,Sudano-Sahelian mud mosque (Djenne),core,K1-16,ok,Direct leaf
+VA,Javanese mosque (Demak),core,MISS,miss,No Southeast Asian Islamic architecture leaf in K1
+VA,Persian rug,naive,H1-1,ok,aka Persian rug
+VA,Turkish tiles,naive,E2-7,ok,aka Iznik tiles; Kutahya E2-11 also possible
+VA,Arabic writing art,naive,C1 family,ok,Family-level calligraphy; script then picks leaf
+VA,Moroccan mosaic,naive,L3-2,ok,Zellige leaf
+VA,Indian miniature with Mughal emperors,naive,A1-4,ok,Mughal Painting
+VA,Flying carpet,naive,MISS,miss,Folklore motif not art tradition; correct to exclude
+VA,Taj Mahal,naive,K1-15,ok,Named in Mughal Architecture
+VA,Alhambra,naive,K1-4,ok,Named in Moorish Architecture; stucco D1-2
+VA,Islamic geometric patterns,naive,MISS,miss,No ornament/motif facet (girih) anywhere
+VA,Arabesque,naive,MISS,miss,No ornament/motif facet; islimi unplaced
+VA,Prayer rug,naive,H1 any leaf,weak,Design type cuts across carpet traditions; no type tag
+VA,Damascus sword,naive,G2-1,ok,aka Damascus steel
+VA,Turkish marbled paper,naive,C4-1,ok,aka Turkish marbling
+VA,Moorish arches,naive,K1-4,ok,Style leaf; arch type itself unplaced
+VA,Mosque lamp,naive,F3-1,ok,aka mosque lamps
+FT,jidaigeki,core,A7-1,ok,Direct leaf
+FT,chanbara,core,A7-2,ok,Direct leaf; F4
+FT,gendaigeki,core,MISS,miss,Contemporary-setting umbrella; no leaf or setting filter
+FT,shomin-geki,core,A14-1,ok,Direct leaf
+FT,Taiyozoku films (Sun Tribe),core,A14-3 or A2-4,weak,Named 1956 cycle scattered; no leaf or kind
+FT,Shochiku Nouvelle Vague,core,A1-1,ok,aka of Japanese New Wave
+FT,ninkyo eiga,core,A2-1 kind,ok,aka of Yakuza Film
+FT,jitsuroku eiga,core,A2-1 kind,ok,aka of Yakuza Film
+FT,Roman Porno,core,A12-2,ok,Direct leaf
+FT,pinku eiga,core,A12-1,ok,Direct leaf
+FT,kaiju eiga,core,A5-1,ok,Direct leaf
+FT,kaidan eiga,core,A4-2,ok,Direct leaf
+FT,J-horror,core,A4-1,ok,Direct leaf
+FT,haha-mono (mother films),core,A14-6 aka,ok,Folded into Melodrama aka
+FT,V-cinema,core,A2-1 mention,weak,Direct-to-video industry spans genres; needs format filter
+FT,samurai movie,naive,A7-2,ok,aka samurai film
+FT,Japanese ghost film,naive,A4-2,weak,A4-3 also has aka ghost film; ambiguous
+FT,Godzilla films,naive,A5-1,ok,All Godzilla titles placed A5-1
+FT,yakuza gangster film,naive,A2-1,ok,Direct leaf
+FT,Ozu family drama,naive,A14-1,ok,Shomingeki names Ozu; A14-2 competes by label
+FT,sexy Japanese 70s films,naive,A12-2; A12-1; A2-6,ok,Three attested cycles cover it
+FT,ninja movie,naive,A7-2 or A8-2,weak,Ninja eiga cycle has no leaf or kind
+FT,Kurosawa epic,naive,A7-1/A7-2/A7-3,weak,No director facet; films split across three leaves
+FT,Zatoichi,naive,A7-2,ok,Named in Chanbara
+FT,Japanese monster movie,naive,A5-1,ok,aka giant monster film
+FT,Japanese high school movie,naive,A14-3,ok,seishun eiga aka
+FT,atomic bomb film,naive,A7-3 or A14-4,weak,Genbaku eiga / hibakusha films have no home
+FT,Japanese war movie,naive,A7-3,ok,Direct leaf
+FT,Japanese cop thriller,naive,A2-3,ok,Police & Detective Film; F6
+FT,death game movie,naive,A3-3,ok,aka death game

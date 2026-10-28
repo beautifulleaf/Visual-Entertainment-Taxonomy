@@ -1,0 +1,51 @@
+item_id,disposition,confidence
+0,kind:H1-1,high
+1,leaf:H3-5,high
+2,kind:H1-1,med
+3,kind:H1-4,med
+4,exclude:place+dynasty tag (P6/P7) - not a school label across media,med
+5,exclude:place+dynasty tag (P6/P7) - Inju label spans painting and metalwork,low
+6,leaf:K1-2,high
+7,kind:H1-1,med
+8,leaf:H4-6,high
+9,kind:H1-1,high
+10,kind:H1-1,med
+11,exclude:place+dynasty tag (P6/P7),med
+12,leaf:H1-3,high
+13,leaf:H2-2,high
+14,exclude:place+dynasty tag (P6/P7),med
+15,leaf:G3-4,high
+16,route:H4 new leaf (Iranian embroidery; no matching leaf),low
+17,kind:H1-1,high
+18,kind:A1-3,med
+19,kind:H1-1,high
+20,leaf:H4-3,high
+21,kind:H1-1,high
+22,kind:H1-2,med
+23,exclude:place+dynasty tag (P6/P7),med
+24,leaf:K1-6,med
+25,kind:A1-2,med
+26,kind:C1-4,low
+27,kind:A1-2,high
+28,kind:K2-4,high
+29,kind:K1-6,med
+30,kind:A1-2,med
+31,kind:A1-4,high
+32,kind:A1-2,med
+33,kind:C2-2,med
+34,kind:A1-4,med
+35,kind:A1-4,high
+36,kind:B1-1,high
+37,kind:A1-4,med
+38,kind:E2-2,med
+39,kind:C1-4,high
+40,kind:C2-2,low
+41,kind:A1-4,med
+42,kind:A1-4,low
+43,kind:C1-4,low
+44,kind:C1-4,high
+45,kind:A1-2,med
+46,kind:C3-1,low
+47,exclude:unplaceable - no context for maker,low
+48,kind:G1-10,high
+49,kind:C1-4,high

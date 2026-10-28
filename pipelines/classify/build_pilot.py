@@ -58,6 +58,23 @@ def islamic():
     return pool
 
 
+# Established names for painting schools and ateliers (the sweep's labels are
+# dynasty + city detections; the field names the school after its centre).
+SCHOOL = {
+    "Timurid Herat": "Herat school", "Safavid Herat": "Herat school", "Herat school": "Herat school",
+    "Safavid Tabriz": "Tabriz school (Safavid)", "Tabriz school": "Tabriz school (Safavid)",
+    "Ilkhanid Tabriz": "Ilkhanid Tabriz", "Turkman Tabriz": "Turkman school", "Timurid Tabriz": "Turkman school",
+    "Safavid Qazvin": "Qazvin school", "Qazvin school": "Qazvin school", "Safavid Isfahan": "Isfahan school",
+    "Isfahan school": "Isfahan school", "Esfahan school": "Isfahan school", "Safavid Shiraz": "Shiraz school (Safavid)",
+    "Timurid Shiraz": "Shiraz school (Timurid)", "Injuid Shiraz": "Inju school (Shiraz)", "Jalayirid Baghdad": "Jalayirid school",
+    "Bukhara school": "Bukhara school", "Safavid Bukhara": "Bukhara school", "Abbasid Baghdad": "Baghdad school",
+    "Ottoman court nakkaşhane": "Ottoman court atelier (nakkaşhane)", "Ottoman court studio (nakkashane)": "Ottoman court atelier (nakkaşhane)",
+    "Lucknow": "Lucknow (Awadh)", "Lucknow (Awadh)": "Lucknow (Awadh)", "Murshidabad": "Murshidabad",
+    "Deccani (Golconda)": "Golconda school", "Deccani (Hyderabad)": "Hyderabad school", "Deccani (Bijapur)": "Bijapur school",
+    "Bijapur school": "Bijapur school", "Company school": "Company painting",
+}
+
+
 def leaf_index(tree):
     out = {}
     for fam in tree.FAMILIES:
@@ -77,6 +94,9 @@ def va_data(pool):
         typ, _, rest = d.partition(":")
         code, _, grp = rest.partition("/")
         if typ == "kind" and code in LI:
+            if r["source"] in ("islamic_schools", "world_folk") and r["label"] in SCHOOL:
+                r = dict(r, label=SCHOOL[r["label"]])
+            grp = SCHOOL.get(grp, grp)
             kinds[code].append({"n": r["label"], "g": grp, "note": r["note"], "src": r["source"], "id": r["pool_id"],
                                 "maker": r["type"] in ("maker", "architect")})
         elif typ == "alias" and code in LI:
@@ -101,7 +121,15 @@ def va_data(pool):
                         src.append(["https://en.wikipedia.org/wiki/" + hit["enwiki"].replace(" ", "_"), "Wikipedia"])
                 if code in VA.ATTEST_URLS:
                     src.append([VA.ATTEST_URLS[code], "source page"])
-                ks = kinds.get(code, [])
+                ks, seen = [], set()
+                for k in kinds.get(code, []):
+                    if k["n"].lower() in seen:
+                        continue
+                    seen.add(k["n"].lower())
+                    note = k["note"]
+                    if re.search(r"makers_\d|canonical|stray|batch|dup\b", note, re.I):
+                        note = re.sub(r"(;\s*)?[^;]*(makers_\d|canonical|stray|batch|dup\b)[^;]*", "", note, flags=re.I).strip(" ;")
+                    ks.append(dict(k, note=note))
                 # group kinds: schools/sub-types first, makers under their group
                 groups = []
                 for k in ks:
@@ -204,6 +232,8 @@ def main():
     data = {"va": {"fams": va, "familyKey": VA.FAMILY_KEY, "precedence": VA.PRECEDENCE, "modifiers": VA.MODIFIERS},
             "ft": {"fams": ft, "familyKey": FT.FAMILY_KEY, "precedence": FT.PRECEDENCE, "modifiers": FT.MODIFIERS},
             "census": census}
+    import report_pilot
+    data["report"] = report_pilot.build(json.loads(json.dumps(census, default=dict)))
     json.dump(data, open(os.path.join(ROOT, "artifact", "pilot-data.json"), "w"), ensure_ascii=False, default=dict)
     print(json.dumps(census, default=dict)[:1500])
 

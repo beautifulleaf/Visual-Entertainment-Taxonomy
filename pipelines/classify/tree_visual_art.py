@@ -44,6 +44,7 @@ PRECEDENCE = [
 MODIFIERS = [
     "<b>Period and dynasty</b> — a filter on every kind and leaf (Umayyad, Abbasid, Fatimid, Seljuq, Ilkhanid, Mamluk, Timurid, Safavid, Ottoman, Mughal, Qajar ...). Never a node (P6).",
     "<b>Region and place</b> — the 20-region grid of the gathering, plus production centre and country as tags (P7).",
+    "<b>Ornament and motif</b> — girih (geometric strapwork), arabesque (islimi), muqarnas, saz leaves, cintamani: a tag across media, never a leaf, since one motif runs through tiles, carpets, metalwork and buildings (open question Q6).",
     "<b>Holding institution and collection</b> — evidence, never a node.",
     "<b>Patron and reign</b> — a tag (Akbar, Shah Tahmasp, Süleyman); a royal atelier is a kind only when it is a recorded workshop (Imperial Mughal atelier, the Ottoman nakkaşhane).",
     "<b>Object type</b> — bowl, ewer, tile, folio, page: an attribute of representative works, not a node. A leaf is a tradition, not an object type, except where the field treats the type as a tradition (astrolabes).",
@@ -669,6 +670,9 @@ LEAVES = {
         ("K1-18", "Chinese Islamic Architecture", "narrow",
          "mosques of China in the Chinese timber-frame idiom (Xi'an, Niujie) and the brick and tiled mosques of Xinjiang.",
          "Sino-Islamic architecture", "", "Chinese Islamic architecture"),
+        ("K1-19", "Javanese Mosque Architecture", "narrow",
+         "the mosques of Java and the Malay world built in the regional timber idiom with stacked pyramidal (tajug) roofs instead of domes (Demak, Kudus, Menara Kudus).",
+         "masjid Jawa; Indonesian vernacular mosque", "K1-18 Chinese Islamic Architecture; C2-4 Malay Manuscripts.", "Great Mosque of Demak"),
     ],
     "K2": [
         ("K2-1", "Moorish Revival Architecture", "medium",
@@ -776,7 +780,8 @@ ATTEST_URLS = {
     "L3-1": "https://en.wikipedia.org/wiki/Umayyad_Mosque",
 }
 # Leaves whose label is weakly attested in English (flagged for the owner).
-WEAK = {"E1-10": "no English source names 'Moroccan pottery' as one tradition; 'poterie de Fès / de Safi' in French sources",
+WEAK = {"K1-19": "attested through its buildings (Demak, Kudus); no item for the style name itself",
+        "E1-10": "no English source names 'Moroccan pottery' as one tradition; 'poterie de Fès / de Safi' in French sources",
         "G1-10": "attested as a period group (Timurid, Safavid metalwork) in museum essays; no item for the umbrella name",
         "I1-5": "a broad leaf for woodwork outside named traditions; split when the field names its schools",
         "I2-3": "attested in Turkish sources (Edirnekâri); English sources say Ottoman lacquer",
