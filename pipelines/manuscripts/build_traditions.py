@@ -111,6 +111,7 @@ PREFIX schema: <http://schema.org/>
 MANUSCRIPT = "Q87167"
 CALLIGRAPHIC_WORK = "Q22669850"
 ILLUMINATOR = "Q998628"
+GENID = "http://www.wikidata.org/.well-known/genid/"  # "unknown value" blank nodes
 # Classes outside the manuscript tree (labels verified 2026-10-28 and again at run time).
 EXTRA_CLASSES = {
     "Q690851": "Gospel Book", "Q956165": "psalter", "Q1754581": "Evangeliary", "Q623354": "Haggadah",
@@ -153,7 +154,7 @@ REGIONS = ["Western Europe", "C&E Europe incl. Armenia/Georgia", "Byzantine", "E
 # ------------------------------------------------------------------ rule table
 
 # Label regexes reused below.
-W_LANG = (r"^(latin|medieval latin|ecclesiastical latin|vulgar latin|french|old french|middle french|"
+W_LANG = (r"^(latin|basque|medieval latin|ecclesiastical latin|vulgar latin|french|old french|middle french|"
           r"anglo-norman|occitan|old occitan|italian|old italian|german|old high german|middle high german|"
           r"middle low german|english|old english|middle english|spanish|old spanish|castilian|catalan|"
           r"portuguese|galician|galician-portuguese|dutch|middle dutch|flemish|welsh|middle welsh|irish|"
@@ -193,6 +194,11 @@ DEFAULT_RULES = [
     ("Ethiopian (Ge'ez)", "style", "Ethiopia/Sub-Saharan Africa", "Ge'ez", r"amhara|ethiopia", "", "", "", "", "", "", "", 1, "recorded culture"),
     ("Islamic book arts: Persianate (see islamic_world.py)", "style", "Islamic world", "Persian", r"mughal|deccan|persian painting|timurid|safavid", "", "", "", "", "", "", "", 1, "recorded style; covered by islamic_world.py"),
     ("Balinese lontar", "style", "SE Asia", "Balinese, Kawi (Balinese script)", r"^bali", "", "", "", "", "", "", "", 1, "recorded culture"),
+    # ---- curated label / holding rules for landmark manuscripts that carry no language or origin
+    ("Insular (Hiberno-Saxon)", "style", "Western Europe", "Latin (Insular script)", "", "", r"book of kells|book of durrow|lindisfarne|lichfield gospels|st\.? chad|book of armagh|book of dimma|book of mulling|cathach|codex amiatinus|stockholm codex aureus|vespasian psalter|macregol|book of deer|durham gospels|barberini gospels|book of nunnaminster", "", "", "", "", "", 1, "curated labels"),
+    ("Insular (Hiberno-Saxon)", "style", "Western Europe", "Latin (Insular script)", "", "", "", "", "", r"trinity college dublin|royal irish academy", "", 900, 0, "holding library + date"),
+    ("Ethiopian (Ge'ez), early (to 1500)", "style", "Ethiopia/Sub-Saharan Africa", "Ge'ez", "", "", r"garima", "", "", "", "", "", 1, "curated labels"),
+    ("Ethiopian (Ge'ez)", "style", "Ethiopia/Sub-Saharan Africa", "Ge'ez", "", "", r"ethiopi|ge.?ez|amharic|kebra nagast|aksum", "", "", "", "", "", 1, "label-based"),
     # ---- class / genre-driven traditions
     ("Ancient Egyptian papyri", "style", "Egypt/Coptic", "Egyptian (hieroglyphic, hieratic, demotic)", "", "", "", r"egyptian|demotic|hieratic|hieroglyph", "", "", "", "", 1, ""),
     ("Japanese emaki (Yamato-e)", "style", "Japan", "Japanese", "", r"emaki|yōkai emaki|scroll painting", "", "", r"japan", "", "", "", 1, ""),
@@ -375,6 +381,9 @@ DEFAULT_RULES = [
     ("German / Austrian late Gothic and Renaissance", "style", "Western Europe", "Latin, Early New High German", "", "", "", "", r"german|holy roman|austria|bavaria|swabia|saxony|rhine|switzerland|franconia|nuremberg|augsburg|bohemia|prague", "", 1451, 1600, 0, ""),
     ("English late medieval", "style", "Western Europe", "Latin, Middle English", "", "", "", "", r"england|english|britain|wales|scotland|ireland", "", 1421, 1600, 0, ""),
     ("Iberian late Gothic and Renaissance", "style", "Western Europe", "Latin, Castilian, Catalan, Portuguese", "", "", "", "", r"spain|castile|le[oó]n|aragon|catalonia|navarre|portugal|valencia|majorca", "", 1451, 1600, 0, ""),
+    ("Late Antique and Early Christian", "style", "Western Europe", "Gothic (Wulfila)", "", "", "", r"^gothic$", "", "", "", "", 1, "Gothic language"),
+    ("Central and Eastern European manuscripts", "style", "C&E Europe incl. Armenia/Georgia", "Czech, Polish, Hungarian, Romanian, Baltic", "", "", "", r"^(czech|old czech|polish|old polish|hungarian|old hungarian|romanian|slovak|slovene|slovenian|lithuanian|latvian|estonian|finnish|ukrainian|belarusian|croatian)$", "", "", "", "", 1, "language only"),
+    ("Aramaic (Jewish and Christian)", "style", "Near East/Syriac", "Aramaic", "", "", "", r"aramaic", "", "", "", "", 1, ""),
     ("Central and Eastern European manuscripts (1500+)", "style", "C&E Europe incl. Armenia/Georgia", "Latin, vernaculars", "", "", "", "", r"poland|hungary|bohemia|czech|slovakia|croatia|lithuania|transylvania|romania", "", 1451, "", 1, ""),
     ("Western European manuscripts, early modern (1600+)", "style", "Western Europe", "Latin, vernaculars", "", "", "", "", W_ORIGIN, "", 1601, "", 0, "post-medieval; low priority"),
     ("Western European manuscripts, early medieval (unlocalised, to 1060)", "style", "Western Europe", "Latin", "", "", "", W_LANG, "", "", 651, 1060, 0, "language and date only"),
@@ -385,22 +394,32 @@ DEFAULT_RULES = [
     ("Western European manuscripts (undated)", "style", "Western Europe", "Latin, vernaculars", "", "", "", "", W_ORIGIN, "", "", "", 1, "origin only"),
     # ---- genres (multi-tag, cross-cutting)
     ("Books of Hours", "genre", "Western Europe", "Latin, French, Dutch", "", r"book of hours", "", "", "", "", "", "", 1, ""),
-    ("Books of Hours", "genre", "Western Europe", "Latin, French, Dutch", r"book of hours", "", r"book of hours|hours of |heures|horae|stundenbuch|getijdenboek|libro de horas|libro d'ore|livre d'heures|getijden", "", "", "", "", "", 1, ""),
+    ("Books of Hours", "genre", "Western Europe", "Latin, French, Dutch", r"book of hours", "", "", "", "", "", "", "", 1, ""),
+    ("Books of Hours", "genre", "Western Europe", "Latin, French, Dutch", "", "", r"book of hours|hours of |heures|horae|stundenbuch|getijdenboek|libro de horas|libro d'ore|livre d'heures|getijden", "", "", "", "", "", 1, ""),
     ("Beatus manuscripts", "genre", "Western Europe", "Latin (Visigothic script)", "", r"beatus", "", "", "", "", "", "", 1, ""),
     ("Beatus manuscripts", "genre", "Western Europe", "Latin", "", "", r"beatus|commentary on the apocalypse|liebana", "", "", "", "", "", 1, ""),
     ("Gospel books", "genre", "", "", "", r"gospel book|evangeliary|tetraevangel", "", "", "", "", "", "", 1, ""),
     ("Gospel books", "genre", "", "", "", "", r"gospels|evangeliar|evangeliary|evangelistary|evangéliaire|tetraevangel|gospel book|четвероевангел|ավետարան", "", "", "", "", "", 1, ""),
-    ("Psalters", "genre", "", "", "", r"psalter", r"psalter|psautier|psalterium", "", "", "", "", "", 1, ""),
+    ("Psalters", "genre", "", "", "", r"psalter", "", "", "", "", "", "", 1, ""),
+    ("Psalters", "genre", "", "", "", "", r"psalter|psautier|psalterium", "", "", "", "", "", 1, ""),
     ("Apocalypses (non-Beatus)", "genre", "Western Europe", "Latin, Anglo-Norman", "", "", r"apocalypse|apocalypsis", "", "", "", "", "", 1, ""),
-    ("Bibles moralisées and illustrated Bibles", "genre", "Western Europe", "Latin, French", "", r"bible moralis|biblical manuscript", r"bible", "", "", "", "", "", 1, ""),
-    ("Bestiaries", "genre", "Western Europe", "Latin, Anglo-Norman", "", r"bestiary", r"bestiar", "", "", "", "", "", 1, ""),
-    ("Haggadot", "genre", "", "Hebrew", "", r"haggadah", r"haggad", "", "", "", "", "", 1, ""),
+    ("Bibles moralisées and illustrated Bibles", "genre", "Western Europe", "Latin, French", "", r"bible moralis", "", "", "", "", "", "", 1, ""),
+    ("Bibles moralisées and illustrated Bibles", "genre", "Western Europe", "Latin, French", "", "", r"bible", "", "", "", "", "", 1, ""),
+    ("Bestiaries", "genre", "Western Europe", "Latin, Anglo-Norman", "", r"bestiary", "", "", "", "", "", "", 1, ""),
+    ("Bestiaries", "genre", "Western Europe", "Latin, Anglo-Norman", "", "", r"bestiar", "", "", "", "", "", 1, ""),
+    ("Haggadot", "genre", "", "Hebrew", "", r"haggadah", "", "", "", "", "", "", 1, ""),
+    ("Haggadot", "genre", "", "Hebrew", "", "", r"haggad", "", "", "", "", "", 1, ""),
     ("Mahzorim and Hebrew Bibles", "genre", "", "Hebrew", "", "", r"mahzor|ma[hḥ]zor|mishneh torah|hebrew bible|pentateuch", r"hebrew", "", "", "", "", 1, ""),
-    ("Exultet rolls", "genre", "Western Europe", "Latin (Beneventan)", "", r"exultet", r"exultet", "", "", "", "", "", 1, ""),
-    ("Chronicles and illustrated histories", "genre", "", "", "", r"illustrated chronicle", r"chronicle|chroniques|chronik|cronaca|crónica|skylitzes|grandes chroniques", "", "", "", "", "", 1, ""),
+    ("Exultet rolls", "genre", "Western Europe", "Latin (Beneventan)", "", "", r"exultet", "", "", "", "", "", 1, ""),
+    ("Exultet rolls", "genre", "Western Europe", "Latin (Beneventan)", "", r"exultet", "", "", "", "", "", "", 1, ""),
+    ("Chronicles and illustrated histories", "genre", "", "", "", r"illustrated chronicle", "", "", "", "", "", "", 1, ""),
+    ("Chronicles and illustrated histories", "genre", "", "", "", "", r"chronicle|chroniques|chronik|cronaca|crónica|skylitzes|grandes chroniques", "", "", "", "", "", 1, ""),
     ("Kalpasutra and Jain illustrated texts", "genre", "South Asia", "Prakrit", "", "", r"kalpa.?s[uū]tra|kalakacharya|k[aā]lak[aā]c[aā]rya", "", "", "", "", "", 1, ""),
-    ("Prajnaparamita and Buddhist illustrated sutras", "genre", "", "Sanskrit, Pali, Classical Chinese, Tibetan", "", r"ornamental sutra|ikkan|kammava", r"prajn|prajñ|sutra|sūtra|ky[oō]\b|kammav|phra malai", "", "", "", "", "", 1, ""),
-    ("Emakimono (narrative handscrolls)", "genre", "Japan", "Japanese", r"emaki|yamato-e", r"emaki", r"emaki|e-maki|monogatari emaki|engi emaki", "", "", "", "", "", 1, ""),
+    ("Prajnaparamita and Buddhist illustrated sutras", "genre", "", "Sanskrit, Pali, Classical Chinese, Tibetan", "", r"ornamental sutra|ikkan|kammava", "", "", "", "", "", "", 1, ""),
+    ("Prajnaparamita and Buddhist illustrated sutras", "genre", "", "Sanskrit, Pali, Classical Chinese, Tibetan", "", "", r"prajn|prajñ|sutra|sūtra|kammav|phra malai", "", "", "", "", "", 1, ""),
+    ("Emakimono (narrative handscrolls)", "genre", "Japan", "Japanese", r"emaki|yamato-e", "", "", "", "", "", "", "", 1, ""),
+    ("Emakimono (narrative handscrolls)", "genre", "Japan", "Japanese", "", r"emaki", "", "", "", "", "", "", 1, ""),
+    ("Emakimono (narrative handscrolls)", "genre", "Japan", "Japanese", "", "", r"emaki|e-maki|monogatari emaki|engi emaki", "", "", "", "", "", 1, ""),
     ("Shahnameh and Persian illustrated epics (see islamic_world.py)", "genre", "Islamic world", "Persian", "", "", r"shahnam|shāhnāma|shahnama|khamsa|haft awrang|book of kings", "", "", "", "", "", 1, "covered by islamic_world.py"),
     ("Mesoamerican screenfold codices", "genre", "Mesoamerica", "pictography", "", r"mesoamerican codex|colonial codex", "", "", "", "", "", "", 1, ""),
     ("Palm-leaf manuscripts", "genre", "", "", "", r"palm-leaf|lontar|geguritan|kakawin|kidung", "", "", "", "", "", "", 1, ""),
@@ -497,7 +516,7 @@ EXPECTED = [
     "Georgian", "Ethiopian", "Coptic", "Syriac", "Insular", "Carolingian", "Ottonian", "Mozarabic",
     "Beatus", "Romanesque", "Gothic: Parisian", "Gothic: English", "Gothic: Bohemian", "Books of Hours",
     "Hebrew: Sephardi", "Hebrew: Ashkenazi", "Mixtec", "Aztec", "Maya", "Mesoamerican codices, colonial",
-    "Jain", "Pala", "Odia", "Balinese", "Thai samut khoi", "Burmese parabaik", "Tibetan", "Emakimono",
+    "Jain", "Pala Buddhist", "Borgia", "Odia", "Balinese", "Thai samut khoi", "Burmese parabaik", "Tibetan", "Emakimono",
     "Japanese illustrated sutras", "Chinese illustrated", "Dunhuang", "Korean", "Andean", "Nepalese",
     "Sogdian", "Mongolian",
 ]
@@ -638,7 +657,8 @@ def harvest_items():
             sitelinks[r["i"]] = int(r["sl"])
         for prop in ITEM_PROPS:
             for r in cached(f"SELECT ?i ?v WHERE {{ VALUES ?k {{ {vals} }} ?i wdt:P31 ?k . ?i wdt:{prop} ?v }}", f"{tag}_{prop}"):
-                items[r["i"]][prop].add(r["v"])
+                if not r["v"].startswith(GENID):
+                    items[r["i"]][prop].add(r["v"])
         for r in cached(f"SELECT ?i ?l WHERE {{ VALUES ?k {{ {vals} }} ?i wdt:P31 ?k . ?i rdfs:label ?l FILTER(LANG(?l) = \"en\") }}", f"{tag}_label_en"):
             items[r["i"]]["label_en"].add(r["l"])
         for lang in ("mul", "fr", "de", "it", "es", "nl", "id", "ja", "zh", "hy"):
@@ -687,7 +707,7 @@ def harvest_illuminators():
         people[r["h"]] = collections.defaultdict(set, {"sitelinks": int(r["sl"])})
     for prop in ("P135", "P27", "P19", "P937", "P569", "P570", "P1317", "P2031", "P106"):
         for r in cached(f"SELECT ?h ?v WHERE {{ {base} ?h wdt:{prop} ?v }}", f"illum_{prop}"):
-            if r["h"] in people:
+            if r["h"] in people and not r["v"].startswith(GENID):
                 people[r["h"]][prop].add(r["v"])
     for r in cached(f"SELECT ?h ?l WHERE {{ {base} ?h rdfs:label ?l FILTER(LANG(?l) = \"en\") }}", "illum_label_en"):
         if r["h"] in people:
@@ -917,7 +937,10 @@ def main():
             y = min(ys) - 20 if ys else None
         f = {"styles": [lab(v) for v in d["P135"]], "classes": [], "labels": [], "langs": [],
              "origins": sorted(origin_labels(d["P27"] | d["P19"] | d["P937"])), "collections": []}
-        style, basis, _ = assign(rules, f, y, ignore=("class_re", "label_re", "lang_re", "collection_re"))
+        if y is not None and y > 1800:
+            style, basis = None, "modern (floruit after 1800): not placed"
+        else:
+            style, basis, _ = assign(rules, f, y, ignore=("class_re", "label_re", "lang_re", "collection_re"))
         out_people.append({
             "qid": q, "label": d.get("label", ""), "floruit_est": y if y is not None else "",
             "movement": "; ".join(lab(v) for v in sorted(d["P135"])),

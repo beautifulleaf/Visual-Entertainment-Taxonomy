@@ -62,8 +62,9 @@ Selection
            MutualArt record only counts when the artist also has an independent signal
            (a museum ID, a ULAN/Tate/MoMA ID, a list entry, an award, >= 5 sitelinks or
            a regional pageview percentile >= 0.5). Without one, the artist's market
-           percentile is 0 (and their market IDs are left out of everyone else's
-           percentiles), so vanity and minor-auction listings do not lift a score.
+           percentile is 0 (below artists with no market record, whose tied percentile
+           is ~0.3), so vanity and minor-auction listings do not lift a score. Everyone
+           else's market percentile is unchanged.
 Routes added ON TOP of the regional quotas (the --target total covers auto-includes and
 regional picks only, so the final total is larger)
   movement_guarantee  contemporary selection has no movement skeleton, so movements
@@ -81,7 +82,11 @@ regional picks only, so the final total is larger)
   attention   cult and popular artists the museum signals under-count (lowbrow,
            fantasy illustration, street art, internet-famous): anyone in the top 2% of
            their region by pageviews (--attention-pct 0.98) whose art_occ_share >= 0.5,
-           so celebrities who also paint stay out.
+           so celebrities who also paint stay out. Two guards, because that alone let in
+           mostly celebrities with one art occupation: without an art-world record
+           (market/museum/ULAN/Tate/MoMA ID or list) art_occ_share must be >= 0.6
+           (--attention-plain-share), and primary medium architecture or design is left
+           out (--attention-exclude-media).
 Route flags in the output: route_list, route_regional_score, route_movement_guarantee,
 route_attention, route_manual (an artist can carry several); `routes` names them and
 `guarantee_movements` names the movements an artist is guaranteed for.
@@ -134,8 +139,22 @@ UMBRELLA = {
     "Q47783": "postmodernism", "Q215592": "avant-garde", "Q102932": "avant-garde",
     "Q1414236": "modernism", "Q878985": "modernism", "Q1640824": "figurative art",
     "Q2111604": "post-war art",
+    # Pruned on review of the first run (2026-10-28): broad or pre-war styles and
+    # traditions, and items that pass the class filter but are not visual-art movements.
+    "Q10857409": "realism (broad style)", "Q147516": "magic realism (broad style)",
+    "Q245188": "modern architecture (broad style)", "Q848365": "primitivism (broad style)",
+    "Q837024": "social realism (broad style)", "Q273506": "School of Paris (pre-war)",
+    "Q85369440": "École flamande (historical school)", "Q7059995": "Northwest Coast art (tradition)",
+    "Q213457": "Beat Generation (literary)", "Q643782": "New German Cinema (film)",
+    "Q1092461": "Cinema of Transgression (film)", "Q153946": "punk subculture (music)",
+    "Q60749920": "Drain Gang (music collective)", "Q81220079": "The Wrecking Crew (session musicians)",
+    "Q1371509": "College of 'Pataphysics (literary society)",
+    "Q65149655": "comics creators' association against sexism (an association)",
+    "Q4797149": "Art Workers' Coalition (activist organisation)",
+    "Q1347824": "La Movida Madrileña (counterculture, mostly music and film)",
 }
 CHUNK = 400
+MAX_ASSOCIATION = 40   # P463-only "groups" larger than this are professional associations
 
 
 def parse_weights(spec):
@@ -285,10 +304,7 @@ def score(df, weights, celeb_share, market_check=True):
     unverified = (df.market_verified == 0).to_numpy()
     comp = np.zeros(len(df))
     for k, w in weights.items():
-        vals = sig[k].to_numpy()
-        if k == "market" and market_check:
-            vals = np.where(unverified, 0.0, vals)
-        df[f"pct_{k}"] = midrank_pct(vals, region)
+        df[f"pct_{k}"] = midrank_pct(sig[k].to_numpy(), region)
         if k == "market" and market_check:
             df.loc[unverified, f"pct_{k}"] = 0.0
         comp += w * df[f"pct_{k}"].to_numpy()
@@ -392,18 +408,31 @@ def fetch_movements(qids, endpoint):
         for m in p463.get(q, []):
             memberships[q].setdefault(m, "P463")
     movs = sorted({m for q in qids for m in memberships[q]})
-    return memberships, chunked_cache("movements_meta.json", movs, meta)
+    meta_ = chunked_cache("movements_meta.json", movs, meta)
+
+    def any_label(chunk):
+        values = " ".join("wd:" + m for m in chunk)
+        out = {m: "" for m in chunk}
+        for r in wikidata.sparql(f"SELECT ?m ?v WHERE {{ VALUES ?m {{ {values} }} ?m rdfs:label ?v }}",
+                                 endpoint=endpoint):
+            out[r["m"]] = out[r["m"]] or r["v"]
+        return out
+    for m, label in chunked_cache("movements_labels_any.json",
+                                  [m for m in movs if not meta_[m]["label"]], any_label).items():
+        if m in meta_ and not meta_[m]["label"]:
+            meta_[m]["label"] = label
+    return memberships, meta_
 
 
 def movement_guarantee(df, args):
     """Top-K members (holdings first) of every post-1945 art movement in the pool."""
-    p135, meta = fetch_movements(df.qid.tolist(), args.endpoint)
+    memberships, meta = fetch_movements(df.qid.tolist(), args.endpoint)
     birth = pd.to_numeric(df.birth.str[:4], errors="coerce")
     share = pd.to_numeric(df.art_occ_share, errors="coerce")
     holdings = sum(has(df, c).astype(int) for c in INDEPENDENT_IDS)
     members, via = collections.defaultdict(list), collections.defaultdict(set)
     for i, q in zip(df.index, df.qid):
-        for m, prop in p135.get(q, {}).items():
+        for m, prop in memberships.get(q, {}).items():
             members[m].append(i)
             via[m].add(prop)
     rows, guaranteed = [], collections.defaultdict(list)
@@ -429,11 +458,13 @@ def movement_guarantee(df, args):
         if start is None and not (median_birth >= args.movement_median_birth):
             reasons.append(f"undated, median birth {median_birth:.0f}" if median_birth == median_birth
                            else "undated, no member births")
+        if via[m] == {"P463"} and len(idx) > MAX_ASSOCIATION:
+            reasons.append(f"association (P463 only, {len(idx)} members)")
         if len(idx) < args.movement_min:
             reasons.append(f"<{args.movement_min} pool members")
         k = min(args.movement_max_k, max(args.movement_min_k, round(args.movement_share * len(idx))))
         rec = {"movement_qid": m, "movement": md.get("label") or m,
-               "classes": "|".join(dict.fromkeys(classes + [c + " (subclass)" for c in sub])),
+               "via": "|".join(sorted(via[m])), "classes": "|".join(dict.fromkeys(classes + [c + " (subclass)" for c in sub])),
                "inception": start, "median_birth": median_birth, "members": len(idx),
                "kept": int(not reasons), "excluded_because": "; ".join(reasons), "k": k, "member_idx": idx}
         if not reasons:
@@ -449,9 +480,18 @@ def movement_guarantee(df, args):
     return pd.DataFrame(rows), guaranteed
 
 
-def attention_route(df, args):
+def attention_route(df, args, guarded=True):
     share = pd.to_numeric(df.art_occ_share, errors="coerce")
-    return (df.pv_pct >= args.attention_pct) & (df.pageviews > 0) & (share.isna() | (share >= args.attention_min_share))
+    ok = (df.pv_pct >= args.attention_pct) & (df.pageviews > 0) & (share.isna() | (share >= args.attention_min_share))
+    if not guarded:
+        return ok
+    # Guards added on review of the first run, where the plain rule let in mostly
+    # celebrities with an art occupation (Frances Bean Cobain, Randy Johnson, Tommy
+    # Hilfiger, royal spouses): their pageviews come from fame outside art.
+    art_record = (df.market > 0) | (df.museum > 0) | sum(has(df, c) for c in INDEPENDENT_IDS).gt(0) | (df.lists > 0)
+    ok &= art_record | share.isna() | (share >= args.attention_plain_share)
+    excluded = set(filter(None, args.attention_exclude_media.split(",")))
+    return ok & ~df.medium.isin(excluded)
 
 
 def main():
@@ -478,6 +518,12 @@ def main():
     ap.add_argument("--no-attention", dest="attention", action="store_false", help="skip the attention route")
     ap.add_argument("--attention-pct", type=float, default=0.98, help="within-region pageview percentile")
     ap.add_argument("--attention-min-share", type=float, default=0.5, help="minimum art_occ_share")
+    ap.add_argument("--attention-plain-share", type=float, default=0.6,
+                    help="art_occ_share needed when the artist has no art-world record (market, museum, "
+                         "ULAN/Tate/MoMA ID or list); 0.5 turns this guard off")
+    ap.add_argument("--attention-exclude-media", default="architecture,design and decorative arts",
+                    help="primary media left out of the attention route (fashion designers, architect-"
+                         "politicians); '' turns this guard off")
     ap.add_argument("--endpoint", choices=["wdqs", "qlever"], default="wdqs",
                     help="SPARQL endpoint for the P135 fetch (cached after the first run)")
     ap.add_argument("--max-total", type=int, default=13000,
@@ -514,6 +560,10 @@ def main():
             df.loc[i, "route_movement_guarantee"] = 1
             df.loc[i, "guarantee_movements"] = "|".join(sorted(ms))
     df["route_attention"] = attention_route(df, args).astype(int) if args.attention else 0
+    if args.attention:
+        plain = attention_route(df, args, guarded=False)
+        print(f"attention route: {int(plain.sum()):,} artists pass the plain rule (top pageviews, art_occ_share "
+              f">= {args.attention_min_share}); {int(df.route_attention.sum()):,} pass the guards")
     base = df.selected == 1
     df["selected"] = (base | (df.route_movement_guarantee == 1) | (df.route_attention == 1)).astype(int)
     routes = ["route_list", "route_regional_score", "route_movement_guarantee", "route_attention", "route_manual"]
