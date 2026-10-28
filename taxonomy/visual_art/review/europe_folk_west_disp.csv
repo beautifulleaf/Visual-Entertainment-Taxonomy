@@ -1,0 +1,165 @@
+pool_id,disposition,note
+europe_folk:Sami / objects (Finna),tag:place,"Sámi culture bucket (Siida 4,476); traditions placed under L2 Duodji and L5 Gákti"
+europe_folk:Russian / objects (Finna),exclude:culture bucket,"Finna mixed objects, mostly postcards"
+europe_folk:Tuvan / woodcarving / woodwork,route:europe_folk_east,people of Russia/Siberia/Caucasus/Carpathians mislabelled Western Europe; sister rows are in the east pool
+europe_folk:Mansi / woodcarving / woodwork,route:europe_folk_east,people of Russia/Siberia/Caucasus/Carpathians mislabelled Western Europe; sister rows are in the east pool
+europe_folk:Mansi / birch bark / basketry,route:europe_folk_east,people of Russia/Siberia/Caucasus/Carpathians mislabelled Western Europe; sister rows are in the east pool
+europe_folk:Boyko / Lemko / Rusyn / woodcarving / woodwork,route:europe_folk_east,people of Russia/Siberia/Caucasus/Carpathians mislabelled Western Europe; sister rows are in the east pool
+europe_folk:Altai / woodcarving / woodwork,route:europe_folk_east,people of Russia/Siberia/Caucasus/Carpathians mislabelled Western Europe; sister rows are in the east pool
+europe_folk:Nanai / woodcarving / woodwork,route:europe_folk_east,people of Russia/Siberia/Caucasus/Carpathians mislabelled Western Europe; sister rows are in the east pool
+europe_folk:delftware,route:europe_other,"Delftware; joins met/aic ""Dutch, Delft"" row there"
+europe_folk:Nanai / birch bark / basketry,route:europe_folk_east,people of Russia/Siberia/Caucasus/Carpathians mislabelled Western Europe; sister rows are in the east pool
+europe_folk:Sámi duodji,leaf:L2,
+europe_folk:Roma / other,exclude:false match,"pattern ""roma"" hits Rome (Italia, Roma; AIC ancient Roman), a Moldovan village name and mixed Gypsy items; no named tradition"
+europe_folk:Brussels lace,leaf:L17,
+europe_folk:Basque / costume,exclude:false match,"Goskatalog stem ""баск"" (peplum, Bolshoi costumes, Vyatka toys, Semyonov painting); not Basque"
+europe_folk:Alençon lace,leaf:L14,
+europe_folk:Basque / textiles,exclude:false match,"Goskatalog stem ""баск"" (peplum, Bolshoi costumes, Vyatka toys, Semyonov painting); not Basque"
+europe_folk:Hungarian / objects (Finna),exclude:culture bucket,Finna hits are workers' theatre plays and photos
+europe_folk:Koryak / woodcarving / woodwork,route:europe_folk_east,people of Russia/Siberia/Caucasus/Carpathians mislabelled Western Europe; sister rows are in the east pool
+europe_folk:Sami / other,tag:place,Sámi culture bucket (Russian Ethnographic Museum)
+europe_folk:Greek / ceramics,route:ancient_world,AIC 452-200 BCE Greek vases
+europe_folk:Roma / toys,exclude:false match,"pattern ""roma"" hits Rome (Italia, Roma; AIC ancient Roman), a Moldovan village name and mixed Gypsy items; no named tradition"
+europe_folk:Hutsul / woodcarving / woodwork,route:europe_folk_east,people of Russia/Siberia/Caucasus/Carpathians mislabelled Western Europe; sister rows are in the east pool
+europe_folk:Athonite icon painting,route:ancient_world,"post-Byzantine icons (1598-1980, mostly Russian collections): kind under Byzantine Icons or a seam with Russian Athonite icons in europe_folk_east"
+europe_folk:Basque / lace,exclude:false match,"Goskatalog stem ""баск"" (peplum, Bolshoi costumes, Vyatka toys, Semyonov painting); not Basque"
+europe_folk:Avar / woodcarving / woodwork,route:europe_folk_east,people of Russia/Siberia/Caucasus/Carpathians mislabelled Western Europe; sister rows are in the east pool
+europe_folk:Khakas / woodcarving / woodwork,route:europe_folk_east,people of Russia/Siberia/Caucasus/Carpathians mislabelled Western Europe; sister rows are in the east pool
+europe_folk:Basque / painting (folk/decorative),exclude:false match,"Goskatalog stem ""баск"" (peplum, Bolshoi costumes, Vyatka toys, Semyonov painting); not Basque"
+europe_folk:Roma / metalwork,exclude:false match,"pattern ""roma"" hits Rome (Italia, Roma; AIC ancient Roman), a Moldovan village name and mixed Gypsy items; no named tradition"
+europe_folk:Sami / costume,leaf:L5,
+europe_folk:Basque / other,exclude:false match,"Goskatalog stem ""баск"" (peplum, Bolshoi costumes, Vyatka toys, Semyonov painting); not Basque"
+europe_folk:Veps / woodcarving / woodwork,route:europe_folk_east,people of Russia/Siberia/Caucasus/Carpathians mislabelled Western Europe; sister rows are in the east pool
+europe_folk:Basque / toys,exclude:false match,"Goskatalog stem ""баск"" (peplum, Bolshoi costumes, Vyatka toys, Semyonov painting); not Basque"
+europe_folk:Karachay-Balkar / woodcarving / woodwork,route:europe_folk_east,people of Russia/Siberia/Caucasus/Carpathians mislabelled Western Europe; sister rows are in the east pool
+europe_folk:Sami / bone carving,kind:L2/hard duodji (antler and bone),
+europe_folk:Basque / metalwork,exclude:false match,"Goskatalog stem ""баск"" (peplum, Bolshoi costumes, Vyatka toys, Semyonov painting); not Basque"
+europe_folk:Sami / textiles,kind:L2/soft duodji (textiles),
+europe_folk:Altai / birch bark / basketry,route:europe_folk_east,people of Russia/Siberia/Caucasus/Carpathians mislabelled Western Europe; sister rows are in the east pool
+europe_folk:Basque / embroidery,exclude:false match,"Goskatalog stem ""баск"" (peplum, Bolshoi costumes, Vyatka toys, Semyonov painting); not Basque"
+europe_folk:Mechlin lace,leaf:L18,
+europe_folk:Greek / lace,kind:L9/lace (needle and bobbin),Met 1500-1800; Greek embroidery literature counts lace as one of its four classes
+europe_folk:Burano lace,leaf:L15,
+europe_folk:Sami / metalwork,kind:L2/pewter-thread and silver work,
+europe_folk:Sami / leather,kind:L2/soft duodji (leather),
+europe_folk:Greek / embroidery,leaf:L9,
+europe_folk:Swedish / textiles,tag:place,AIC 1901-1961 modern designed textiles; designers go artist-led
+europe_folk:Rhenish stoneware,leaf:L36,
+europe_folk:Greek / costume,tag:place,"mixed Met/AIC, 800 BCE-1882"
+europe_folk:Cypriot / metalwork,tag:place,"V&A 1650-1800, no named tradition"
+europe_folk:Roma / manuscript illumination,exclude:false match,"pattern ""roma"" hits Rome (Italia, Roma; AIC ancient Roman), a Moldovan village name and mixed Gypsy items; no named tradition"
+europe_folk:Tuvan / birch bark / basketry,route:europe_folk_east,people of Russia/Siberia/Caucasus/Carpathians mislabelled Western Europe; sister rows are in the east pool
+europe_folk:Honiton lace,leaf:L20,
+europe_folk:Deruta maiolica,route:europe_other,"maiolica; joins met/aic ""Italian, Deruta"""
+europe_folk:Carrickmacross lace,leaf:L24,
+europe_folk:Hardanger embroidery,leaf:L10,
+europe_folk:dentelle du Puy,leaf:L21,
+europe_folk:Maltese lace,leaf:L22,
+europe_folk:Cretan school,route:ancient_world,Cretan School (L3 there)
+europe_folk:maiolica,route:europe_other,"Italian Renaissance maiolica (Deruta, Urbino, Pesaro rows there)"
+europe_folk:dry stone walling,route:VA-K,vernacular building craft (K12)
+europe_folk:kylix,exclude:object type,Greek vessel shape
+europe_folk:azulejo,route:europe_other,"Azulejo; joins in_situ ""Portuguese azulejo panels"" (L3 / E1 per P2)"
+europe_folk:lekythos,exclude:object type,Greek vessel shape
+europe_folk:black-figure pottery,route:ancient_world,Black-Figure Pottery (L25 there)
+europe_folk:red-figure pottery,route:ancient_world,Red-Figure Pottery (L26 there)
+europe_folk:letterpress printing,exclude:trade,"printing/binding trade, not a named tradition"
+europe_folk:basketry,exclude:umbrella term,
+europe_folk:aryballos,exclude:object type,Greek vessel shape
+europe_folk:Catalan modernism,route:europe_other,Modernisme
+europe_folk:Viking art,route:europe_other,"Viking art; joins met/aic ""Viking"""
+europe_folk:Aubusson tapestry,route:europe_other,Aubusson tapestry (H3 workshop tradition)
+europe_folk:Lefkara lace,leaf:L16,
+europe_folk:bunad,leaf:L6,
+europe_folk:goldwork,exclude:technique,goldwork embroidery is a technique
+europe_folk:mastos,exclude:object type,Greek vessel shape
+europe_folk:bilingual vase painting,route:ancient_world,kind of Red-Figure Pottery (L26 there)
+europe_folk:Toyism,route:artist-led,Dutch art movement (1990s)
+europe_folk:blue-dyeing,leaf:L27,
+europe_folk:Opus Anglicanum,route:europe_other,Opus Anglicanum (medieval ecclesiastical embroidery)
+europe_folk:Byzantine mosaics,route:ancient_world,Byzantine Mosaics (L59 there)
+europe_folk:kirtle,exclude:garment type (P10),
+europe_folk:Jasperware,route:europe_other,Jasperware (Wedgwood; Staffordshire rows there)
+europe_folk:Daum,route:europe_other,Daum (Art Nouveau glass of Nancy)
+europe_folk:Limoges porcelain,route:europe_other,Limoges porcelain
+europe_folk:hair jewellery,leaf:L38,
+europe_folk:Bisalhães black pottery,leaf:L33,
+europe_folk:Belgian comics,exclude:out of tab,comics belong to another tab
+europe_folk:arraiolos rug,leaf:L12,
+europe_folk:tambour lace,exclude:technique,tambour work is a technique (cf. L25 Limerick Lace); Norwegian ICH entry names no ware
+europe_folk:Limerick lace,leaf:L25,
+europe_folk:Irish crochet lace,leaf:L26,
+europe_folk:Equitation in the French tradition,exclude:non-art,
+europe_folk:Bollenstreek Flower Parade,exclude:festival,flower parade
+europe_folk:Estremoz clay figures,leaf:L4,
+europe_folk:folk costume of Sweden,leaf:L7,
+europe_folk:Zundert Flower Parade,exclude:festival,flower parade
+europe_folk:St. Veroon March,exclude:festival,
+europe_folk:Blueprint - resist block printing and indigo dyeing in Burgenland,kind:L27/Burgenland,
+europe_folk:Indigo Hand Block Printing in the Mühlviertel Region,kind:L27/Mühlviertel,
+europe_folk:Reverse glass painting in Sandl,kind:L1/Sandl,UNESCO Austria 2012
+europe_folk:Staphorster stipwerk,leaf:L28,
+europe_folk:Ceramics from El Puente del Arzobispo,kind:L32/El Puente del Arzobispo,
+europe_folk:Classical Equitation in Germany,exclude:non-art,
+europe_folk:Enamels from Longwy,leaf:L35,
+europe_folk:Eelde Flower Parade,exclude:festival,flower parade
+europe_folk:Valkenswaard Flower Parade,exclude:festival,flower parade
+europe_folk:Mountmellick embroidery,leaf:L11,
+europe_folk:quill embroidery,leaf:L19,
+europe_folk:Traditional Craftsmanship in Gmunden: Pottery Flaming,leaf:L34,
+europe_folk:Gilding & Faux Painting,exclude:trade,
+europe_folk:Manual Graphic Printing,exclude:trade,"printing/binding trade, not a named tradition"
+europe_folk:Production of Bregenz Forest Juppen and Wearing of Women’s Traditional Dress,kind:L8/Bregenzerwald Juppe,
+europe_folk:Basket weaving,exclude:umbrella term,
+europe_folk:Traditional clothing of Walser people in Vorarlberg,kind:L8/Walser costume,
+europe_folk:Bobbin-Lace Making in the Upper Palatine Forest,exclude:technique,"regional bobbin-lace practice, no named lace type attested"
+europe_folk:Kvinnebunad fra Vest-Telemark med fløyelsliv,kind:L6/Vest-Telemark bunad,
+"europe_folk:Artistic Printing Techniques of Relief, Gravure, Planographic, Pressure Printing and their Mixed Forms",exclude:trade,"printing/binding trade, not a named tradition"
+europe_folk:Bookbinding,exclude:trade,"printing/binding trade, not a named tradition"
+europe_folk:Honorable Court of Fools in Grosselfingen,exclude:festival,carnival custom
+europe_folk:Miners' Parades and Processions in Saxony,exclude:festival,
+europe_folk:The Culture of Nativity Sets in Marktredwitz,exclude:no attested leaf,"landscape nativity cribs; no crib leaf in this pool (santons, Neapolitan presepe rows were excluded below the inclusion rule)"
+"europe_folk:Painting, Setting and Gilding Techniques of Church Painters and Gilders",exclude:trade,
+europe_folk:Pottery Tradition of Westerwald’s Stoneware in Höhr-Grenzhausen and Breitscheid,kind:L36/Westerwald,
+europe_folk:Manufactory Production and Design of Jewellery,exclude:trade,
+europe_folk:Design and Traditionally Handcrafted Production of the Western Pomeranian Fisherman’s Carpets,leaf:L29,
+"europe_folk:Network „Kachelofenbau“  - Traditional, Handcrafted Construction of Tiled Stoves",exclude:trade,stove-building network (Velten); stove tiles would need their own E1 leaf (Hafner ware row was excluded)
+europe_folk:Englmarisuchen,exclude:festival,
+europe_folk:Hand Weaving,exclude:umbrella term,
+europe_folk:Specialist basketry for Breton fisherman,exclude:trade,fishing gear
+europe_folk:vannerie sur arceaux,exclude:technique,frame basketry technique
+europe_folk:panier de Mayun,leaf:L30,
+europe_folk:Glass Rosary parade of Borja,exclude:festival,
+europe_folk:giant Jas de Keistamper,leaf:L3,attests Processional Giants; Jas de Keistamper is also seeded as a kind
+europe_folk:The art of glass beads,leaf:L37,
+europe_folk:Traditions of the Untergailtaler Kirchtag and traditional costumes in the Untergailtal / Zilski Žegen in Ziljska Noša,kind:L8/Gailtal costume (Ziljska noša),
+europe_folk:zinc roofers and ornamentalists,exclude:trade,
+europe_folk:Goldschmiedehandwerk in Österreich,exclude:trade,
+europe_folk:Bordados da Glória do Ribatejo,leaf:L13,
+"europe_folk:The Goldbeater’s craft (Gold, silver, and metal beaters)",exclude:trade,
+europe_folk:The Lake Constance Radhaube in lamé lace,kind:L8/Radhaube (Lake Constance),
+europe_folk:The Gunsmith´s Craft in Ferlach,exclude:trade,
+europe_folk:The Custom Tailoring of Men’s Full Evening Dress,exclude:trade,
+europe_folk:Bobbin lace-making in Salzburg,exclude:technique,"regional bobbin-lace practice, no named lace type attested"
+europe_folk:Historical and Decorative Painting Techniques Using Traditional Materials,exclude:trade,
+europe_folk:Freehand blacksmithing,exclude:trade,
+europe_folk:Letterpress Printing in Ireland,exclude:trade,"printing/binding trade, not a named tradition"
+europe_folk:Clones Crochet Lace Making,kind:L26/Clones lace,
+europe_folk:Headford lacemaking,leaf:L23,
+europe_folk:Bata rociera,exclude:garment type (P10),flamenca dress designation of Almonte
+"europe_folk:Pinzgauer Sagenwelt: Erzähltradition, Erzählweise und Erzähler*innen",exclude:non-art,
+europe_folk:Ruta de la Pasión de Calatrava,exclude:festival,
+europe_folk:Traditional River Fishing at the River Sieg’s Mouth into the Rhine,exclude:non-art,
+europe_folk:Glass Rosary parade of Tauste,exclude:festival,
+europe_folk:Vía Crucis de Itálica,exclude:festival,
+europe_folk:Corpus Christi de Valverde de los Arroyos,exclude:festival,
+europe_folk:Corpus Christi de Lagartera,exclude:festival,feast known for Lagartera embroidery hung on houses; no Lagartera embroidery row
+europe_folk:Artisanal talavera of Puebla and Tlaxcala (Mexico) and ceramics of Talavera de la Reina and El Puente del Arzobispo (Spain) making process,leaf:L32,joint UNESCO 2019 element; Puebla side is Talavera Poblana in mesoamerica_south_america
+europe_folk:bastabinne,leaf:L31,
+europe_folk:lamprey fishing,exclude:non-art,
+europe_folk:Mummers of Fingal,exclude:festival,mumming/performance
+europe_folk:Glassblåsing i Norge,exclude:umbrella term,
+europe_folk:Vía Crucis,exclude:festival,
+europe_folk:Pintura decorativa en paredes,exclude:no attested leaf,local Andalusian wall-decoration practice (Benamejí)
+europe_folk:Via Crucis,exclude:festival,
+europe_folk:Carpintería ornamental en Baza,exclude:no attested leaf,local ornamental carpentry (Baza)

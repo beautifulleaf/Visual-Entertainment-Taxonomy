@@ -1439,3 +1439,16 @@ PRECEDENCE += [
     ("TV15", "C-drama traditions", "A Chinese drama of the Party, the revolution or national achievement is Main-Melody Drama (C2-12) whatever its genre; one set in 1912–1949 is Republican-Era Drama (C2-13); a modern Chinese romance of any kind is C2-6. A censored danmei adaptation goes by its setting (<i>The Untamed</i> → C2-5) with C2-11 as see-also; a modern-day one is C2-11. A costume drama goes to C2-5 when martial heroes or a fantasy world carry the story, otherwise C2-4."),
     ("TV16", "Remakes, spin-offs, rich-family serials", "A foreign remake keeps its original's leaf only when it keeps its form; it goes by its own setting when moved (a US remake of a Nordic series is C3-1, not C3-4). A spin-off that moves to another workplace goes by its own profession. A streaming or 2020s series of rich-family secrets with a closed season is C (C1-1 or C3-8) with D2-4 as see-also; the D2-4 rule of TV13 holds only for network serials of 2000–2019 and long-running streaming serials (TV12)."),
 ]
+
+# Scale-up, round 6: seams from drama batches 05–11.
+_redef("C2-9", label="Japanese Television Drama", defn="the Japanese drama series (dorama) of romance, school, work and everyday life in one-cour seasons, from the trendy dramas of Fuji TV's Monday 9 pm slot to the late-night and streaming manga adaptations (<i>Tokyo Love Story</i>, <i>Long Vacation</i>, <i>Hana Yori Dango</i>, <i>Nigeru wa Haji da ga Yaku ni Tatsu</i>).", aliases="dorama; J-drama; trendy drama; getsuku")
+_add("C2", [
+    ("C2-14", "TVB Drama", "medium", "the Hong Kong television drama of TVB and its rivals, modern and costume, in 20–40-episode serials (<i>The Greed of Man</i>, <i>War and Beauty</i>, <i>Triumph in the Skies</i>, <i>Line Walker</i>).", "Hong Kong television drama; TVB series", "C2-4 Chinese Costume Drama; C2-5 Wuxia & Xianxia Drama.", "TVB drama|Hong Kong television drama"),
+])
+_add("C5", [
+    ("C5-6", "Tokusatsu Series", "medium", "the Japanese live-action special-effects hero series and their adaptations, for children and adults alike (<i>Ultraman</i>, <i>Kamen Rider</i>, <i>Super Sentai</i>, <i>Power Rangers</i>, <i>Garo</i>).", "tokusatsu; henshin hero series", "E2-6 Mecha & Tokusatsu Anime; C5-5 Superhero Series.", "Tokusatsu"),
+])
+ATTEST_WIKI.update({"C2-14": "TVB drama|Hong Kong television drama", "C5-6": "Tokusatsu", "C2-9": "Japanese television drama|Trendy drama"})
+PRECEDENCE += [
+    ("TV17", "Japanese and Hong Kong drama; tokusatsu", "Every Japanese drama of romance, school, work, family or everyday life is C2-9; Japanese crime, mystery, medical, legal and speculative dramas go by genre with C2-9 as see-also. A Hong Kong drama is C2-14 unless it is wuxia (C2-5); Hong Kong BL is C2-11. A tokusatsu series is C5-6 whatever its audience (Power Rangers included); a tokusatsu parody comedy is C4. A foreign remake of an Asian drama made inside another tradition goes to the remaking tradition (a Japanese remake of a K-drama is C2-9) with the original's leaf as see-also. A New Year or one-off special is route:FT-A; a re-edit or complete edition of a series is excluded as a duplicate."),
+]
