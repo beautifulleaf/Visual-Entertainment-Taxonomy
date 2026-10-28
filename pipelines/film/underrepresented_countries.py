@@ -13,8 +13,10 @@ films in data/interim/film_ratings.csv (country = MDBList's ISO-2 code), this ad
      100-499-vote film through MDBList instead (about 550 requests).
   b) Wikidata films (instances of film or a subclass) whose country of origin
      (P495) is a target country and that carry an IMDb (P345) or TMDB (P4947)
-     ID, whatever their vote count. One query per country, run one at a time,
-     cached under data/raw/wikidata/film_by_country/.
+     ID, whatever their vote count. One query per country, at most
+     --wikidata-workers (default 3) at a time, cached under
+     data/raw/wikidata/film_by_country/. Lower it to 2 if Wikidata keeps
+     answering 429.
 
 New IMDb IDs are enriched through MDBList (cache data/raw/mdblist/media_batch_extra.jsonl;
 TMDB-only Wikidata films use media_batch_extra_tmdb.jsonl). Films already in
@@ -27,6 +29,11 @@ Output: data/interim/film_candidates_extra.csv, film_ratings.csv's columns plus
   wikidata       QID, if found through Wikidata
 film_ratings.csv itself is left untouched.
 
+Side output: data/interim/film_country_reattribution.csv lists films that are
+already candidates but that MDBList files under another country (often US or FR
+for a distributor or co-producer: The Wedding Party, King of Boys, Black Girl),
+while Wikidata's P495 names an under-represented country.
+
 Requires MDBLIST_API_KEY.
 
 Usage:
@@ -35,6 +42,7 @@ Usage:
 """
 import argparse
 import collections
+import concurrent.futures
 import csv
 import gzip
 import json
@@ -54,6 +62,7 @@ WD_CACHE = os.path.join(ROOT, "data", "raw", "wikidata", "film_by_country")
 CACHE = os.path.join(ROOT, "data", "raw", "mdblist", "media_batch_extra.jsonl")
 CACHE_TMDB = os.path.join(ROOT, "data", "raw", "mdblist", "media_batch_extra_tmdb.jsonl")
 OUT_PATH = os.path.join(ROOT, "data", "interim", "film_candidates_extra.csv")
+REATTR_PATH = os.path.join(ROOT, "data", "interim", "film_country_reattribution.csv")
 
 FILM_TYPES = {"movie", "tvMovie", "short", "video", "tvSpecial"}
 SOURCES = ("letterboxd", "imdb", "tmdb", "trakt")
@@ -166,15 +175,18 @@ def wikidata_films(code, qids):
     return rows
 
 
-def harvest_wikidata(targets):
-    """tconst/tmdb key -> {qid, label, year, countries}. Strictly one query at a time."""
+def harvest_wikidata(targets, workers):
+    """tconst/tmdb key -> {qid, label, year, countries}. At most `workers` queries at a time."""
     qids = country_qids(targets)
-    films = {}
-    for code in sorted(qids, key=lambda c: targets[c]):
+    for code in qids:
         if not qids[code]:
             print(f"    {code}: no Wikidata country item, skipped")
-            continue
-        rows = wikidata_films(code, qids[code])
+    codes = sorted((c for c in qids if qids[c]), key=lambda c: targets[c])
+    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
+        results = dict(zip(codes, pool.map(lambda c: wikidata_films(c, qids[c]), codes)))
+    films = {}
+    for code in codes:
+        rows = results[code]
         if rows is None:
             continue
         for r in rows:
@@ -273,6 +285,7 @@ def main():
     ap.add_argument("--min-votes", type=int, default=100)
     ap.add_argument("--max-votes", type=int, default=500, help="the main candidate floor (exclusive)")
     ap.add_argument("--no-prefilter", action="store_true", help="send every 100-499-vote film to MDBList")
+    ap.add_argument("--wikidata-workers", type=int, default=3, help="concurrent SPARQL queries (max 3)")
     ap.add_argument("--parse-only", action="store_true", help="use the MDBList caches only")
     args = ap.parse_args()
 
@@ -282,7 +295,7 @@ def main():
     print(f"{len(targets)} countries with < {args.min_candidates} candidates:")
     print("  " + ", ".join(f"{c} {n}" for c, n in sorted(targets.items(), key=lambda x: -x[1])))
 
-    wd = harvest_wikidata(targets)
+    wd = harvest_wikidata(targets, max(1, min(3, args.wikidata_workers)))
     wd_ids = {f["tconst"] for f in wd.values() if f["tconst"]}
     votes, basics = imdb_pool(args.min_votes, args.max_votes, wd_ids)
     pool = {t for t, b in basics.items() if b["in_pool"] and t not in have}
@@ -341,6 +354,19 @@ def main():
         w.writeheader()
         w.writerows(sorted(out.values(), key=lambda r: (r["target_country"], str(r.get("year") or ""))))
 
+    # Candidates already in film_ratings.csv whose Wikidata country is a target but MDBList's is not.
+    by_tconst = {r["tconst"]: r for r in existing}
+    reattr = [{"tconst": f["tconst"], "title": by_tconst[f["tconst"]]["mdblist_title"],
+               "year": by_tconst[f["tconst"]]["year"], "mdblist_country": by_tconst[f["tconst"]]["country"],
+               "wikidata_countries": "|".join(f["countries"]), "wikidata": f["qid"],
+               "letterboxd_votes": by_tconst[f["tconst"]]["letterboxd_votes"]}
+              for f in wd.values() if f["tconst"] in by_tconst and by_tconst[f["tconst"]]["country"] not in f["countries"]]
+    with open(REATTR_PATH, "w", newline="", encoding="utf-8") as fo:
+        w = csv.DictWriter(fo, fieldnames=list(reattr[0]) if reattr else ["tconst"])
+        w.writeheader()
+        w.writerows(sorted(reattr, key=lambda r: (r["wikidata_countries"], r["year"])))
+    re_n = collections.Counter(r["wikidata_countries"].split("|")[0] for r in reattr)
+
     # Report
     rows = list(out.values())
     added = collections.Counter(r["target_country"] for r in rows)
@@ -349,9 +375,11 @@ def main():
     src = collections.Counter(r["source"] for r in rows)
     print(f"\n{len(rows)} extra candidates ({dict(src)}); "
           f"{sum(lb.values())} with a Letterboxd count, {sum(lb1k.values())} with >= 1k")
-    print(f"{'country':8}{'before':>8}{'added':>8}{'after':>8}{'LB':>7}{'LB>=1k':>8}")
+    print(f"{len(reattr)} existing candidates have a target country on Wikidata but another on MDBList "
+          f"(column 'reattr'; {REATTR_PATH})")
+    print(f"{'country':8}{'before':>8}{'added':>8}{'after':>8}{'LB':>7}{'LB>=1k':>8}{'reattr':>8}")
     for c in sorted(targets, key=lambda c: -(targets[c] + added[c])):
-        print(f"{c:8}{targets[c]:>8}{added[c]:>8}{targets[c] + added[c]:>8}{lb[c]:>7}{lb1k[c]:>8}")
+        print(f"{c:8}{targets[c]:>8}{added[c]:>8}{targets[c] + added[c]:>8}{lb[c]:>7}{lb1k[c]:>8}{re_n[c]:>8}")
     print(f"wrote {OUT_PATH}")
 
 
