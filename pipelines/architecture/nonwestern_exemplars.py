@@ -290,7 +290,7 @@ RULES = [
       classes={"mosque", "madrasa", "tomb", "mausoleum", "palace"}, years=(1200, 1960), before=r"sudano|sahel"),
     R("F21", "Sudano-Sahelian", "sahel", countries=cs("Mali", "Niger", "Burkina Faso", "Guinea", "Ivory Coast", "Ghana", "Chad"),
       classes={"mosque", "madrasa", "tomb", "mausoleum", "palace"}, undated=True, notable=True),
-    R("F22", "Sudano-Sahelian", "sahel", countries=cs("Nigeria", "Senegal"), classes={"mosque", "palace"}, years=(1200, 1930)),
+    R("F22", "Sudano-Sahelian", "sahel", countries=cs("Nigeria", "Senegal"), classes={"mosque"}, years=(1200, 1930)),
     R("F23", "Sudano-Sahelian", "sahel", countries=cs("Nigeria"), classes={"mosque", "palace"}, place=r"kano|katsina|zaria|sokoto|zazzau|bauchi|kaduna"),
     R("F24", "Saharan stone (Mauritania ksour)", "saharan", countries=cs("Mauritania"), classes={"mosque", "ksar"} | SITE),
     R("F25", "Sudano-Sahelian (urban sites)", "sahel", countries=cs("Mali"), classes=SITE),
@@ -299,8 +299,8 @@ RULES = [
       before=r"swahili"),
     R("F40", "Kushite (Napatan / Meroitic)", "kushite", countries=cs("Sudan"), classes={"pyramid"} | SITE),
     R("F50", "Benin / Dahomey court architecture", "west_african_court", countries=cs("Benin", "Nigeria"), classes={"palace"}, notable=True),
-    R("O01", "Nan Madol (Saudeleur megalithic)", "oceania", countries=cs("Federated States of Micronesia"), classes=SITE),
-    R("O02", "Rapa Nui (ahu / moai)", "oceania", countries=cs("Chile"), place=r"easter island|isla de pascua|rapa nui|valpara[ií]so"),
+    R("O01", "Nan Madol (Saudeleur megalithic)", "oceania", countries=cs("Federated States of Micronesia"), classes=SITE, place=r"pohnpei|kosrae|nan madol|leluh"),
+    R("O02", "Rapa Nui (ahu / moai)", "oceania", countries=cs("Chile"), place=r"easter island|isla de pascua|rapa nui"),
     R("O03", "Tongan megalithic (langi / trilithon)", "oceania", countries=cs("Tonga"), classes=SITE),
 
     # --- Khmer and mainland Southeast Asia
@@ -334,17 +334,17 @@ RULES = [
     R("B04", "Burmese Buddhist (post-Pagan)", "burmese", countries=cs("Myanmar"), classes={"buddhist_temple", "pagoda", "stupa", "wat"}),
 
     # --- Island Southeast Asia
+    R("J06", "Balinese (pura)", "balinese", countries=cs("Indonesia"), classes={"hindu_temple", "temple", "candi"}, place=r"\bbali"),
     R("J01", "Javanese candi — Central Java (Mataram)", "javanese", countries=cs("Indonesia"), classes=TEMPLE | SITE, years=(650, 1000),
       place=r"central java|yogyakarta|magelang|klaten|sleman|dieng|semarang|wonosobo|banjarnegara|temanggung", before=r"candi|indonesia|java"),
-    R("J02", "Javanese candi — Central Java (Mataram)", "javanese", countries=cs("Indonesia"), classes=TEMPLE | SITE, undated=True,
+    R("J02", "Javanese candi — Central Java (Mataram)", "javanese", countries=cs("Indonesia"), classes=TEMPLE, undated=True,
       place=r"central java|yogyakarta|magelang|klaten|sleman|dieng|semarang|wonosobo|banjarnegara|temanggung"),
     R("J03", "Javanese candi — East Java (Kediri / Singhasari / Majapahit)", "javanese", countries=cs("Indonesia"), classes=TEMPLE | SITE,
       years=(929, 1527), place=r"east java|malang|blitar|mojokerto|trowulan|kediri|pasuruan|probolinggo|jombang|tulungagung"),
-    R("J04", "Javanese candi — East Java (Kediri / Singhasari / Majapahit)", "javanese", countries=cs("Indonesia"), classes=TEMPLE | SITE, undated=True,
+    R("J04", "Javanese candi — East Java (Kediri / Singhasari / Majapahit)", "javanese", countries=cs("Indonesia"), classes=TEMPLE, undated=True,
       place=r"east java|malang|blitar|mojokerto|trowulan|kediri|pasuruan|probolinggo|jombang|tulungagung"),
-    R("J05", "Sumatran candi (Srivijaya / Melayu)", "javanese", countries=cs("Indonesia"), classes={"candi", "stupa", "buddhist_temple"} | SITE,
+    R("J05", "Sumatran candi (Srivijaya / Melayu)", "javanese", countries=cs("Indonesia"), classes={"candi", "stupa", "buddhist_temple", "hindu_temple"},
       place=r"sumatra|jambi|riau|muara|padang lawas|lampung|bengkulu"),
-    R("J06", "Balinese (pura)", "balinese", countries=cs("Indonesia"), classes={"hindu_temple", "temple", "candi"}, place=r"\bbali"),
     R("J07", "Javanese candi (other)", "javanese", countries=cs("Indonesia"), classes={"candi"}),
     R("J08", "Javanese / Malay mosque (tajug)", "javanese", countries=cs("Indonesia", "Malaysia"), classes={"mosque"}, years=(1400, 1850),
       before=r"mosque architecture in indonesia"),
@@ -361,6 +361,8 @@ RULES = [
       undated=True),
     R("S11", "Bhutanese dzong", "tibetan", countries=cs("Bhutan"), classes={"dzong", "fortress", "fort", "buddhist_temple", "tibetan_monastery"}),
     R("S12", "Tibetan Buddhist", "tibetan", classes={"tibetan_monastery"}, before=r"tibet"),
+    R("S12b", "Tibetan Buddhist", "tibetan", countries=cs("People's Republic of China"), classes=EA_BUDDHIST | {"palace", "chinese_temple", "temple"},
+      place=r"tibet|xizang|lhasa|shigatse|nyingchi|shannan|chamdo|ngari"),
     R("S13", "Gandharan Buddhist", "gandharan", countries=cs("Pakistan", "Afghanistan"), classes={"stupa", "buddhist_temple", "archaeological_site", "ruins"},
       place=r"taxila|khyber|peshawar|swat|mardan|takht|gandhara|punjab|nangarhar|bamyan|kabul|kapisa|logar|balkh", before=r"gandhar"),
 
@@ -373,8 +375,8 @@ RULES = [
     R("D10", "Dravidian — Pallava", "dravidian", countries=cs("India"), classes=TEMPLE, place=r"tamil nadu|puducherry|pondicherry", years=(550, 849), before=r"pallava"),
     R("D11", "Dravidian — Chola", "dravidian", countries=cs("India"), classes=TEMPLE, place=r"tamil nadu|puducherry|pondicherry", years=(850, 1250), before=r"chola"),
     R("D12", "Dravidian — Pandya", "dravidian", countries=cs("India"), classes=TEMPLE, place=r"tamil nadu|puducherry|pondicherry", years=(1251, 1350), before=r"pandya"),
-    R("D13", "Dravidian — Vijayanagara", "dravidian", countries=cs("India"), classes=TEMPLE | {"palace", "fort"}, place=r"tamil nadu|puducherry|pondicherry", years=(1351, 1565), before=r"vijayanagar"),
-    R("D14", "Dravidian — Nayak", "dravidian", countries=cs("India"), classes=TEMPLE | {"palace", "fort"}, place=r"tamil nadu|puducherry|pondicherry", years=(1566, 1736), before=r"nayak"),
+    R("D13", "Dravidian — Vijayanagara", "dravidian", countries=cs("India"), classes=TEMPLE | {"palace"}, place=r"tamil nadu|puducherry|pondicherry", years=(1351, 1565), before=r"vijayanagar"),
+    R("D14", "Dravidian — Nayak", "dravidian", countries=cs("India"), classes=TEMPLE | {"palace"}, place=r"tamil nadu|puducherry|pondicherry", years=(1566, 1736), before=r"nayak"),
     R("D15", "Dravidian — modern (after 1736)", "dravidian", countries=cs("India"), classes=TEMPLE, place=r"tamil nadu|puducherry|pondicherry", years=(1737, 2100)),
     R("D16", "Dravidian (undated)", "dravidian", countries=cs("India"), classes=TEMPLE, place=r"tamil nadu|puducherry|pondicherry", undated=True, notable=True, before=r"dravid"),
     # Karnataka
@@ -403,8 +405,9 @@ RULES = [
     R("G05", "Nagara — Maru-Gurjara", "nagara", countries=cs("India"), classes=TEMPLE, place=r"gujarat|rajasthan", years=(950, 1350), before=r"m[aā]ru-gurjara"),
     R("G06", "Nagara — Maru-Gurjara", "nagara", countries=cs("India"), classes=TEMPLE, place=r"gujarat|rajasthan", undated=True, notable=True),
     R("G08", "Nagara — Bhumija / Hemadpanti (Deccan)", "nagara", countries=cs("India"), classes=TEMPLE, place=r"maharashtra", years=(1000, 1350)),
-    R("G09", "Indian rock-cut (Deccan caves)", "rock_cut_india", countries=cs("India"), classes={"cave_temple", "rock_cut", "buddhist_temple", "hindu_temple", "jain_temple"},
-      place=r"ajanta|ellora|elephanta|karla|bhaja|kanheri|aurangabad|pune|nashik|raigad|badami cave"),
+    R("G09", "Indian rock-cut (caves)", "rock_cut_india", countries=cs("India"), classes={"cave_temple", "rock_cut"}),
+    R("G09b", "Indian rock-cut (caves)", "rock_cut_india", countries=cs("India"), classes={"buddhist_temple", "hindu_temple", "jain_temple"},
+      place=r"ajanta|ellora|elephanta|karla|bhaja|kanheri|bagh caves|udayagiri"),
     R("G10", "Nagara — Bhumija / Hemadpanti (Deccan)", "nagara", countries=cs("India"), classes=TEMPLE, place=r"maharashtra", undated=True, notable=True),
     R("G11", "Kashmiri (Karkota / Utpala)", "nagara", countries=cs("India"), classes=TEMPLE | SITE, place=r"kashmir|martand|avantipur", years=(500, 1300)),
     R("G12", "Kashmiri (Karkota / Utpala)", "nagara", countries=cs("India"), classes=TEMPLE | SITE, place=r"kashmir|martand|avantipur", undated=True, notable=True),
@@ -416,7 +419,7 @@ RULES = [
     R("G16", "Assamese / Ahom temple", "nagara", countries=cs("India"), classes=TEMPLE, place=r"assam", notable=True),
     R("G17", "Nagara — central / north India", "nagara", countries=cs("India"), classes=TEMPLE, place=NORTH_INDIA, years=(400, 1300), before=r"nagara"),
     R("G18", "Nagara — central / north India", "nagara", countries=cs("India"), classes=TEMPLE, place=NORTH_INDIA, undated=True, notable=True),
-    R("G19", "Early Buddhist (Maurya – Gupta – Pala)", "early_buddhist", countries=cs("India", "Bangladesh"), classes={"stupa", "buddhist_temple"} | SITE, years=(-300, 1200)),
+    R("G19", "Early Buddhist (Maurya – Gupta – Pala)", "early_buddhist", countries=cs("India", "Bangladesh"), classes={"stupa", "buddhist_temple"}, years=(-300, 1200)),
     R("G20", "Early Buddhist (Maurya – Gupta – Pala)", "early_buddhist", countries=cs("India", "Bangladesh"), classes={"stupa", "buddhist_temple"} | SITE, undated=True,
       place=r"sanchi|bodh gaya|nalanda|sarnath|amaravati|bharhut|vikramashila|paharpur|somapura|vaishali|kushinagar|nagarjuna"),
 
@@ -436,7 +439,7 @@ RULES = [
     R("I08", "Mughal", "mughal", countries=cs("India", "Pakistan", "Bangladesh"), classes=ISL, undated=True, notable=True,
       place=r"\bagra\b|lahore"),
     R("I08b", "Mughal", "mughal", countries=cs("India", "Pakistan", "Bangladesh"), classes=ISL, name=r"taj mahal|humayun|akbar|jahangir|itimad|shalimar"),
-    R("I09", "Maratha (forts)", "maratha", countries=cs("India"), classes={"fort", "fortress"}, place=r"maharashtra", notable=True),
+    R("I09", "Deccan hill and sea forts (Maratha era)", "maratha", countries=cs("India"), classes={"fort", "fortress"}, place=r"maharashtra", notable=True),
     R("G07", "Stepwell (western India)", "nagara", countries=cs("India", "Pakistan"), classes={"stepwell"}),
 
 
@@ -745,10 +748,13 @@ def in_maya_area(c):
     return False
 
 
+CHURCH_NAME = r"cathedral|church|basilica|chapel|parroquia|iglesia|catedral|convent|capilla|templo de san|santuario"
+
+
 def match(rule, c):
     # Churches (and converted churches) only ever match the Ethiopian rules: the
     # generic "temple" class otherwise pulls colonial churches into local styles.
-    if "church" in c["classes"] and rule["family"] != "ethiopian":
+    if rule["family"] != "ethiopian" and ("church" in c["classes"] or re.search(CHURCH_NAME, c["label"].lower())):
         return False
     if "name" in rule and not re.search(rule["name"], c["label"].lower()):
         return False
@@ -888,16 +894,14 @@ def main():
         if not fams:
             continue
         ok = {r["family"]} | COMPAT.get(r["family"], set())
-        if fams & ok:
-            continue
         if c["year"] is not None and c["year"] >= 1800:
             # 19th/20th-century buildings mix local and European revival styles legitimately.
             existing = {s: f - {"european"} for s, f in existing.items()}
-            if not set().union(*existing.values()):
-                continue
-            if set().union(*existing.values()) & ok:
-                continue
+        # Flag every existing tag that names only families the proposed style does not
+        # accept, even when another tag agrees (Angkor Wat: Khmer + Dravidian).
         bad = [f"{lab(s)} ({'/'.join(sorted(f))})" for s, f in existing.items() if f and not f & ok]
+        if not bad:
+            continue
         c["flag"] = f"P149 {'; '.join(bad)} vs proposed {r['style']} ({r['family']})"
         flags.append(c)
 

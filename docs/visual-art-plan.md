@@ -116,7 +116,28 @@ The target depth is the owner-supplied list in `seeds/visual-art/europe_1400-190
 - **Architecture styles** (`pipelines/architecture/build_styles.py`, 2026-10-28): 2,412 style items (669 with ≥5 sitelinks); 1,071 have tagged buildings (P149, 186,597 buildings); 14,245 exemplar rows (up to 15 per style, ranked UNESCO > part of UNESCO site > other heritage > sitelinks, plus 5,992 UNESCO items with no style); 2,688 architects of exemplars. Getty AAT links on only 259 styles (missing even for Gothic, Romanesque, Byzantine, Mughal, Ottoman), so a direct AAT match is needed once Getty is back.
   - **The style tags are Western-biased:** Gothic has 9,025 tagged buildings and Romanesque 9,126, against Khmer 3, Maya 6, Inca 2 and Hoysala 1. Nagara and Nara-period temple styles have no usable style item at all; Angkor, Chichen Itza, Machu Picchu, Hōryū-ji and Great Zimbabwe arrive only through the UNESCO list. Some tags are wrong: Angkor Wat is also tagged Dravidian, and the Taj Mahal "architecture of Iran".
   - A recent bulk import added 617 zero-sitelink "… architecture style" items, mostly Indian regional styles. They are kept for classification to judge and excluded from counts.
-  - **A second pass for non-Western styles is running.** It assigns styles via building class (Hindu or Buddhist temple, stupa, mosque, pyramid, ...) × country × period, and via components of UNESCO sites. The coverage audit (§2.2) checks the result.
+  - **Non-Western second pass done** (`pipelines/architecture/nonwestern_exemplars.py`). It uses 204 explicit rules on building class × country/admin region × date, plus UNESCO components outside Europe (rule table in `data/interim/architecture_nonwestern_rules.csv`, reviewed in classifying before anything goes into `seeds/`). 80,771 candidates, 20,283 assigned to 146 styles. Coverage, tagged buildings before → candidates now:
+
+    | Style | Before | Now |
+    |---|---|---|
+    | Khmer (Angkorian) | 3 | 116 |
+    | Maya (by sub-region, e.g. Puuc, Chenes, Río Bec) | 6 | 317 |
+    | Inca | 2 | 121 |
+    | Hoysala | 1 | 43 |
+    | Nagara (Kalinga, Maru-Gurjara, Chandela, ...) | ~0 | 713 |
+    | Asuka/Nara Buddhist temples | 5 | 297 |
+    | Zimbabwe culture | 0 | 22 |
+    | Ethiopian rock-hewn | 0 | 34 |
+    | Javanese candi | ~6 | 136 |
+    | Pagan | 0 | 25 |
+
+    Also Thai, Lao, Cham, Newar, Swahili, Kushite, Mesoamerican and Andean cultures, Indo-Islamic, Mughal and Persian.
+    - **Wrong existing tags flagged:** 15, e.g. Angkor Wat → Khmer (not Dravidian), Taj Mahal → Mughal.
+    - **Known weaknesses:**
+      - Only 98 of about 16k Indian temples carry a date, so the Dravidian dynasty sub-periods are thin.
+      - P571 is sometimes a founding date, not the date of the standing building.
+      - Some false matches: the 1903 Taj Mahal Palace hotel → Mughal; Sanchi → Nagara.
+      - 60k candidates (minor temples, shrines, monasteries) are unassigned.
   - **Open item:** the unstyled list includes cities and natural sites (filter by instance-of).
 
 ### 2.4 Modern era pass (decided 2026-10-28)
