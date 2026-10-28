@@ -323,6 +323,34 @@ def fetch_country_continents(countries):
     return known
 
 
+LABEL_LANG_RANK = {"en": 0, "mul": 1, "en-gb": 2, "en-us": 2, "fr": 3, "de": 3, "es": 3, "it": 3, "nl": 3,
+                   "pt": 3, "sv": 3, "da": 3, "nb": 3, "pl": 3, "cs": 3, "id": 3, "tr": 3}
+
+
+def fallback_labels(qids):
+    """{qid: label} for items with no English label: 'mul' (the language-neutral label
+    Wikidata moved many English labels to), then another Latin-script language, then
+    any language. Cached in RAW/fallback_labels.json; '' when the item has no label."""
+    path = os.path.join(RAW, "fallback_labels.json")
+    cache = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
+    todo = [q for q in qids if q not in cache and re.fullmatch(r"Q\d+", q)]
+    for i in range(0, len(todo), CHUNK):
+        chunk = todo[i:i + CHUNK]
+        values = " ".join("wd:" + q for q in chunk)
+        best = {}
+        try:
+            for r in sparql(f"""SELECT ?x ?l (LANG(?l) AS ?lang) WHERE {{ VALUES ?x {{ {values} }} ?x rdfs:label ?l }}"""):
+                rank = LABEL_LANG_RANK.get(r.get("lang", ""), 9)
+                if r["x"] not in best or rank < best[r["x"]][0]:
+                    best[r["x"]] = (rank, r["l"])
+        except RuntimeError as e:
+            print(f"  fallback labels: skipped a batch ({e})")
+            continue
+        cache.update({q: best.get(q, (9, ""))[1] for q in chunk})
+        json.dump(cache, open(path, "w", encoding="utf-8"), ensure_ascii=False)
+    return {q: cache.get(q, "") for q in qids}
+
+
 def fetch_labels(qids):
     path = os.path.join(OUT_DIR, "labels.tsv")
     labels = {}
@@ -340,6 +368,9 @@ def fetch_labels(qids):
                 labels[r["x"]] = r["l"]
         except RuntimeError as e:
             print(f"  labels: skipped a batch ({e})")
+    for q, lab in fallback_labels([q for q in todo if q not in labels]).items():
+        if lab:
+            labels[q] = lab
     with open(path, "w", encoding="utf-8") as f:
         f.writelines(f"{k}\t{v}\n" for k, v in sorted(labels.items()))
     return labels
@@ -364,6 +395,18 @@ def main():
         extra = [q for q in ref_qids if q not in people]
         print(f"  {len(extra)} reference artists not returned by the occupation query; fetching them directly")
         people.update(people_by_qid(extra))
+    # Manual includes (seeds/visual-art/<era>_manual_includes.csv, rows for this region):
+    # always pooled and always selected (depth_model.select), like reference artists.
+    manual = set()
+    if cfg.get("manual_includes"):
+        mpath = os.path.join(ROOT, cfg["manual_includes"])
+        if os.path.exists(mpath):
+            with open(mpath, encoding="utf-8") as f:
+                manual = {r["qid"] for r in csv.DictReader(f) if r["region"] == args.region and r["qid"]}
+        extra = [q for q in sorted(manual) if q not in people]
+        if extra:
+            print(f"  {len(extra)} manual includes not returned by the occupation query; fetching them directly")
+            people.update(people_by_qid(extra))
     print(f"{len(people)} people")
 
     facts = fetch_facts(sorted(people))
@@ -442,7 +485,7 @@ def main():
         region_hit = in_region(claims, q)
         n_unknown_place += region_hit is None
         in_pool = bool(span and span[0] <= hi and span[1] >= lo and region_hit and int(p["s"]) >= cfg["min_sitelinks"])
-        if not (in_pool or q in ref_set):
+        if not (in_pool or q in ref_set or q in manual):
             continue
         row = {
             "qid": q, "label": p.get("label", ""), "birth": birth, "death": death,
@@ -452,7 +495,7 @@ def main():
             "countries": "|".join(claims.get("P27") or claims.get("birth_country") or claims.get("death_country") or []),
             "genres": "|".join(sorted(set(claims.get("P136", [])))),
             "movements": "|".join(sorted(set(claims.get("P135", [])))),
-            "in_pool_rule": int(in_pool), "is_reference": int(q in ref_set),
+            "in_pool_rule": int(in_pool), "is_reference": int(q in ref_set), "manual_include": int(q in manual),
         }
         # Primary medium = first matching group in MEDIA order; all matches kept for placement.
         media = [m for m, occs in media_occupations(cfg).items() if set(occs) & set(occupations.get(q, []))]
@@ -467,6 +510,16 @@ def main():
         # Which authority IDs the artist has; depth_model.py counts the region's own.
         row["authority_ids"] = "|".join(pid for pid in AUTHORITY_IDS if claims.get(pid))
         rows.append(row)
+
+    # Items whose English label moved to 'mul' (Georgia O'Keeffe) come back unlabelled.
+    unlabelled = [r["qid"] for r in rows if not r["label"]]
+    found = fallback_labels(unlabelled)
+    for r in rows:
+        if not r["label"]:
+            r["label"] = found.get(r["qid"], "")
+    if unlabelled:
+        print(f"  {len(unlabelled)} artists had no English label; {sum(1 for r in rows if r['qid'] in set(unlabelled) and r['label'])} "
+              "labelled from 'mul' or another language")
 
     out = os.path.join(OUT_DIR, f"pool_{args.region}.csv")
     with open(out, "w", newline="", encoding="utf-8") as f:

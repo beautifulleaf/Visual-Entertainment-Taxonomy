@@ -102,7 +102,9 @@ def load_features(region):
     for q, p in pool.items():
         # Reference artists not active inside the region's years (e.g. 20th-century
         # names on the source list) would distort the period cells; leave them out.
-        if p["active_start"] and not (int(float(p["active_start"])) <= hi and int(float(p["active_end"])) >= lo):
+        # Manual includes are kept whatever their dates (they were chosen by hand).
+        if (p["active_start"] and not (int(float(p["active_start"])) <= hi and int(float(p["active_end"])) >= lo)
+                and not int(p.get("manual_include") or 0)):
             if int(p["is_reference"]):
                 outside.append(f'{p["label"]} ({p["birth"]})')
             continue
@@ -111,6 +113,7 @@ def load_features(region):
         rows.append({
             "qid": q, "label": p["label"], "birth": p["birth"], "period": p["period"], "medium": p["medium"],
             "in_pool_rule": int(p["in_pool_rule"]), "is_reference": int(p["is_reference"]),
+            "manual_include": int(p.get("manual_include") or 0),
             "art_occ_share": p.get("art_occ_share", ""),
             "sitelinks": num(p["sitelinks"]),
             "pageviews": num(v.get("pageviews")),
@@ -172,9 +175,12 @@ def select(rows, scores, cutoff, cfg, guard=True):
     above the cutoff, except media the region excludes from model selection
     (architecture enters through its styles and buildings, not through this model).
     A region's optional "selection_guard" then drops non-reference picks with no
-    holdings and little attention (guard=False gives the selection before it)."""
+    holdings and little attention (guard=False gives the selection before it). Manual
+    includes (regions.py "manual_includes", a seeds CSV read by build_pool.py) are
+    always selected, like reference artists, and exempt from the guard."""
     excluded = set(cfg.get("model_excluded_media", []))
-    return np.array([bool(r["is_reference"]) or (bool(r["in_pool_rule"]) and s * art_factor(r) >= cutoff
+    return np.array([bool(r["is_reference"]) or bool(r.get("manual_include"))
+                     or (bool(r["in_pool_rule"]) and s * art_factor(r) >= cutoff
                                                   and r["medium"] not in excluded
                                                   and not (guard and guarded(r, cfg)))
                      for r, s in zip(rows, scores)], dtype=bool)
@@ -186,7 +192,7 @@ def guarded(row, cfg):
     max_pageviews monthly page views (decided 2026-10-28 for modern Europe, where
     the long tail of the Wikipedia-dense pool otherwise fills the margin)."""
     g = cfg.get("selection_guard")
-    if not g or row.get("is_reference"):
+    if not g or row.get("is_reference") or row.get("manual_include"):
         return False
     return row["n_museums"] < g.get("min_museums", 0) and row["pageviews"] < g.get("max_pageviews", 0)
 
@@ -202,7 +208,8 @@ def write_scores(region, rows, scores, cutoff):
     sel = select(rows, scores, cutoff, REGIONS[region])
     unguarded = select(rows, scores, cutoff, REGIONS[region], guard=False)
     out = os.path.join(DATA, f"scores_{region}.csv")
-    cols = ["qid", "label", "birth", "medium", "cell", "in_pool_rule", "is_reference", "art_occ_share", "score", "selected",
+    cols = ["qid", "label", "birth", "medium", "cell", "in_pool_rule", "is_reference", "manual_include", "art_occ_share",
+            "score", "selected",
             "dropped_by_guard"] + FEATURES
     with open(out, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")

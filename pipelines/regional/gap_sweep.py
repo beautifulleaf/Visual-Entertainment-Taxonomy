@@ -260,8 +260,8 @@ N(A, "col_ayacucho", "Ayacucho retablos and Huamanga alabaster (piedra de Huaman
       r"huamanga (stone|alabaster)|alabaster|\bretablos?\b|\bcajon", ctx=r"ayacucho|huamanga", date=(1600, 2025),
   kn=r"ayacucho|huamanga", wd=["Retablo ayacuchano@es", "Piedra de Huamanga@es", "Ayacucho retablo"], api=["Ayacucho", "Huamanga"])
 N(A, "col_brazil", "Brazilian Baroque (Barroco mineiro, Bahia)", R, "sculpture; painting", (1650, 1830),
-  pat=r"aleijadinho|ataide|barroco mineiro|mineiro baroque|brazilian baroque|ouro preto",
-  inf=(r"brazil|brasil|bahia|minas gerais|pernambuco|rio de janeiro|salvador", PS + ("furniture and woodwork",), (1600, 1830)),
+  pat=r"aleijadinho|mestre ataide|manuel da costa ataide|barroco mineiro|mineiro baroque|brazilian baroque|ouro preto",
+  inf=(r"brazil|brasil|bahia|minas gerais|pernambuco|rio de janeiro", PS + ("furniture and woodwork",), (1600, 1830)),
   kn=r"brazilian baroque|barroco mineiro|aleijadinho", wd=["Brazilian Baroque", "Barroco mineiro@pt", "Mineiro Baroque"],
   api=["Brazil baroque"])
 N(A, "col_ngranada", "New Granada painting (Santafe de Bogota)", R, "painting", (1550, 1830),
@@ -356,7 +356,8 @@ N(A, "sea_parabaik", "Burmese parabaik manuscript painting", R, "manuscript pain
   pat=r"parabaik|parabeik|para-?baik|folding (book|manuscript)|manuscript", ctx=BURMA + r"|parabaik",
   kn=r"parabaik|parabeik", wd=["Parabaik"], api=["parabaik"])
 N(A, "sea_burma_painting", "Burmese court painting", R, "painting", (1750, 1950),
-  inf=(BURMA, PAINT, (1700, 1960)), fallback=True, family="sea_parabaik", kn=r"burmese painting",
+  inf=(BURMA, PAINT, (1700, 1960)), neg=r"\bmodel\b|finial|stupa|shrine|throne", fallback=True, family="sea_parabaik",
+  kn=r"burmese painting",
   wd=["Burmese painting"], api=["Burmese painting"])
 N(A, "sea_kalaga", "Burmese kalaga (sequined tapestries)", R, "textiles", (1800, 2000),
   pat=r"kalaga|shwe ?chi ?doe|sequin(n)?ed (tapestry|hanging)", ctx=BURMA + r"|kalaga", kn=r"kalaga",
@@ -436,7 +437,8 @@ N(A, "ea_wuqiang", "Wuqiang New Year prints (Hebei)", R, "prints", (1600, 1950),
   kn=r"wuqiang", wd=["Wuqiang New Year pictures", "武强年画@zh"], api=["Wuqiang"])
 N(A, "ea_papercut", "Chinese paper-cutting (jianzhi)", R, "paper-cut", (1700, 2000),
   pat=r"paper-cut|paper cut|papercut|cut-paper|cut paper|jianzhi|jian zhi|剪纸|剪紙|窗花|window flower|chuang hua|chuanghua",
-  ctx=CHINA + r"|剪纸|剪紙|窗花", neg=r"silhouette|scherenschnitt|polish|wycinanki|japan|mexic|papel picado",
+  ctx=CHINA + r"|剪纸|剪紙|窗花", neg=r"silhouette|scherenschnitt|polish|wycinanki|japan|mexic|papel picado|bowl|jizhou|"
+                                   r"贴花|貼花|stoneware|porcelain|ceramic",
   kn=r"chinese paper|jianzhi|剪纸|剪紙|china.{0,30}paper-?cut", wd=["Chinese paper cutting", "Paper cutting", "剪纸@zh"], api=["Chinese paper cut", "papercut China"])
 N(A, "ea_suxiu", "Suzhou embroidery (Su xiu)", R, "embroidery", (1600, 2000),
   pat=r"su xiu|suxiu|蘇繡|苏绣|suzhou embroider|gu embroider|顧繡|顾绣|gu family embroider", kn=r"su ?xiu|蘇繡|苏绣|suzhou embroider",
@@ -663,7 +665,7 @@ N(A, "af_tada", "Tsoede bronzes (Tada, Jebba) and Lower Niger Bronze Industry", 
 N(A, "af_benin_early", "Benin court art, early period (before 1700)", R, "metalwork (brass); ivory", (1300, 1700),
   pat=r"\bbenin\b|\bedo\b(?!\s*(period|jidai|era|castle|bay|-period))", ctx=r"nigeria|benin|court|\boba\b",
   neg=r"japan|tokugawa|republic of benin|dahomey|\bfon\b|abomey|porto-novo", date=(1200, 1700), mid=True,
-  kn=r"benin (early|16th|middle period)|early benin", wd=["Benin Bronzes", "Benin art"], api=["Benin plaque"])
+  kn=r"\bbenin\b|\bedo\b(?! period)", wd=["Benin Bronzes", "Benin art"], api=["Benin plaque"])  # period split of a known culture
 N(A, "af_ind", "Inland Niger Delta (Djenne-jeno) terracottas", R, "sculpture (terracotta)", (300, 1700),
   pat=r"\bdjenn?e\b|\bjenne\b|inland niger delta|jenne-?jeno|djenne-?jeno", neg=r"mosque",
   kn=r"inland niger delta|djenn?e|jenne", wd=["Djenné-Djenno", "Inland Niger Delta terracotta", "Djenné terracotta"], api=["Djenne"])

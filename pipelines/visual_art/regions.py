@@ -209,6 +209,9 @@ for _name, _geo in MODERN_REGIONS.items():
         "reference": "seeds/visual-art/modern_1860-1960_depth_reference.txt",
         "reference_qids": "data/interim/modern_reference_candidate.csv",
         "reference_region": _name,
+        # Artists always selected although under the cutoff or unplaceable (no country
+        # on Wikidata); rows for modern_<region>, read by build_pool.py.
+        "manual_includes": "seeds/visual-art/modern_manual_includes.csv",
         # Decided 2026-10-28 (Europe only): at the 80%-recall cutoff, a non-reference
         # artist held by none of the collections and under 100 monthly page views is
         # dropped (depth_model.select); Europe's dense Wikipedia long tail fills the
