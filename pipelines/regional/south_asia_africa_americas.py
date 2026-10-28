@@ -685,6 +685,12 @@ def _rijks_reduce(d):
         for txt in lin(p.get("referred_to_by")):
             makers.append("~" + txt)
     ts = prod.get("timespan") or {}
+    if isinstance(ts, list):   # several timespans: widest range, first label
+        spans = [t for t in ts if isinstance(t, dict)]
+        bs = [t["begin_of_the_begin"] for t in spans if t.get("begin_of_the_begin")]
+        es = [t["end_of_the_end"] for t in spans if t.get("end_of_the_end")]
+        ts = dict(spans[0] if spans else {}, begin_of_the_begin=min(bs) if bs else None,
+                  end_of_the_end=max(es) if es else None)
     names = [i.get("content", "") for i in d.get("identified_by") or [] if i.get("type") == "Name"]
     objno = next((i.get("content", "") for i in d.get("identified_by") or []
                   if i.get("type") == "Identifier"), "")
@@ -1464,6 +1470,9 @@ def rows_aic(items):
     return out
 
 
+NON_MAKER_ROLE = re.compile(r"(?i)writer|publisher|collector|owner|commission|patron|dedicat|seller|dealer")
+
+
 def rows_rijks(items):
     out = []
     for r, sweep, _ in items:
@@ -1480,7 +1489,13 @@ def rows_rijks(items):
         if not dec:
             continue
         region, pm = dec
-        makers = [(m, "") for m in r.get("makers") or [] if not m.startswith("~")]
+        roles = {}
+        for m in r.get("makers") or []:
+            mm = re.match(r"~([^:]{2,60}):\s*(.+)$", m)
+            if mm:
+                roles.setdefault(mm.group(2).split(",")[0].strip(), mm.group(1).strip())
+        makers = [(m, roles.get(m, "")) for m in r.get("makers") or [] if not m.startswith("~")
+                  and not NON_MAKER_ROLE.search(roles.get(m, ""))]
         title = next((n for n in r.get("names") or [] if n), "")
         _add(out, make_row("rijks", r.get("objno") or r["id"], region, pm, title, types, "", labels,
                             places + "; " + prod_txt, extra, r.get("date_text") or "", b, e, makers,
