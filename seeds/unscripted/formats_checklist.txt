@@ -1,0 +1,38 @@
+# Well-known international TV formats (sourcing-plan.md §6). Coverage check only:
+# build_formats.py reports any whose name matches no member of a harvested family.
+# Alternative names are separated by "|" (e.g. the original title of a format).
+Idol
+Got Talent
+The Voice
+Big Brother
+Survivor|Expedition Robinson
+MasterChef
+Bake Off
+Who Wants to Be a Millionaire
+Family Feud
+Wheel of Fortune
+Deal or No Deal
+Dancing with the Stars|Strictly Come Dancing
+Masked Singer
+Love Island
+The Bachelor
+Dragons' Den|Shark Tank|Money Tigers
+Drag Race
+Top Model
+The Amazing Race
+Ninja Warrior|Sasuke
+Hell's Kitchen
+Come Dine with Me
+Supernanny
+Wife Swap
+The Traitors|De Verraders
+Married at First Sight
+Top Chef
+The X Factor
+The Apprentice
+Fort Boyard
+The Chase
+Weakest Link
+Pointless
+Taskmaster
+The Floor
