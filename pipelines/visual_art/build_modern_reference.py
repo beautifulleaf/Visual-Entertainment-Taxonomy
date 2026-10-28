@@ -270,7 +270,56 @@ def fetch_nonwestern_candidates():
           ?art schema:about ?m ; schema:isPartOf <https://en.wikipedia.org/> ; schema:name ?title .
           OPTIONAL {{ ?m wdt:P495|wdt:P17 ?c }} OPTIONAL {{ ?m wdt:P571|wdt:P580 ?s }}
         }} GROUP BY ?m ?title"""))
+    # Many movement items have no country (P495/P17): add the country of their
+    # location / headquarters / place of formation, the English description, and
+    # sitelinks (only to order the slow Wikipedia fetches, not as a signal).
+    extra = chunked_cache("movement_items_extra.json", sorted({r["m"] for r in rows}), lambda chunk: {
+        m: v for m, v in _extra(chunk).items()})
+    for r in rows:
+        e = extra.get(r["m"], {})
+        r["loc_countries"], r["description"], r["sitelinks"] = e.get("c", []), e.get("d", ""), e.get("s", 0)
     return rows
+
+
+def _extra(chunk):
+    values = " ".join("wd:" + m for m in chunk)
+    out = {m: {"c": [], "d": "", "s": 0} for m in chunk}
+    for r in sparql(f"""SELECT ?m ?c ?d ?s WHERE {{ VALUES ?m {{ {values} }}
+          OPTIONAL {{ ?m wdt:P276|wdt:P159|wdt:P740|wdt:P131 ?loc . ?loc wdt:P17 ?c }}
+          OPTIONAL {{ ?m schema:description ?d FILTER(LANG(?d) = "en") }}
+          OPTIONAL {{ ?m wikibase:sitelinks ?s }} }}"""):
+        o = out[r["m"]]
+        if r.get("c") and r["c"] not in o["c"]:
+            o["c"].append(r["c"])
+        o["d"] = r.get("d", o["d"])
+        o["s"] = int(r.get("s") or 0)
+    return out
+
+
+# Last resort for movements with no country at all: place names and demonyms in the
+# English label or description ("group of Nigerian artists", "Indian painting").
+REGION_WORDS = {
+    "south_asia": ["india", "bengal", "calcutta", "kolkata", "bombay", "mumbai", "madras", "pakistan", "lahore",
+                   "sri lank", "ceylon", "bangladesh", "nepal", "rajput", "mughal"],
+    "east_asia": ["china", "chinese", "shanghai", "beijing", "canton", "japan", "tokyo", "kyoto", "osaka", "korea",
+                  "taiwan", "hong kong"],
+    "southeast_asia": ["indonesia", "java", "bali", "philippin", "filipino", "thai", "siam", "vietnam", "burm",
+                       "malay", "singapore", "cambodia", "khmer"],
+    "mena_central_asia": ["arab", "iraq", "baghdad", "egypt", "cairo", "iran", "persia", "turk", "ottoman",
+                          "istanbul", "syria", "leban", "morocc", "algeri", "tunisi", "israel", "palestin", "uzbek"],
+    "subsaharan_africa": ["nigeria", "ghana", "senegal", "dakar", "congo", "kenya", "ethiopia", "uganda",
+                          "south africa", "zimbabwe", "sudan", "cameroon", "mozambique", "angola", "tanzania",
+                          "yoruba", "igbo", "zaria", "nsukka", "oshogbo", "osogbo"],
+    "latin_america": ["mexic", "brazil", "argentin", "cuba", "chile", "peru", "colombia", "venezuela", "uruguay",
+                      "latin america", "haiti", "puerto ric", "guatemala", "ecuador", "bolivia", "paraguay"],
+    "oceania": ["australia", "new zealand", "aborigin", "maori", "pacific island"],
+}
+
+
+def region_from_text(text):
+    t = text.lower().replace("african-american", "").replace("african american", "")
+    hits = {reg for reg, words in REGION_WORDS.items() if any(w in t for w in words)}
+    return hits.pop() if len(hits) == 1 else None
 
 
 def wiki_get(params):
@@ -509,16 +558,19 @@ def main():
     # visual artists from the movement's own region.
     print("non-Western movements: Wikipedia article links")
     cands = fetch_nonwestern_candidates()
-    ccountries = sorted({c for r in cands for c in r.get("countries", "").split("|") if re.fullmatch(r"Q\d+", c)})
+    ccountries = sorted({c for r in cands for c in r.get("countries", "").split("|") + r["loc_countries"]
+                         if re.fullmatch(r"Q\d+", c)})
     ccont = fetch_continents(ccountries)
     nonwestern = {}
-    for r in cands:
-        reg = modern_region({"P27": r.get("countries", "").split("|")}, ccont)
+    for r in sorted(cands, key=lambda r: -r["sitelinks"]):
+        reg = modern_region({"P27": r.get("countries", "").split("|"), "birth_country": r["loc_countries"]}, ccont)
+        if reg == "unknown":
+            reg = region_from_text(r["title"] + " " + r["description"]) or "unknown"
         start = year_of(r.get("start"))
         if reg not in WESTERN + ("unknown", "other") and (start is None or INCEPTION_RANGE[0] <= start <= INCEPTION_RANGE[1]):
             nonwestern[r["m"]] = (r["title"], reg)
     print(f"  {len(nonwestern)} non-Western movement items with an English article")
-    links = article_link_qids(sorted({t for t, _ in nonwestern.values()}))
+    links = article_link_qids(list(dict.fromkeys(t for t, _ in nonwestern.values())))  # most sitelinks first
     targets = sorted({q for t, _ in nonwestern.values() for q in links.get(t, [])})
     is_artist = filter_artists(targets)
     link_pairs = [{"a": q, "m": m, "prop": "enwiki", "region": reg}
