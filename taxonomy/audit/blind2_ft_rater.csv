@@ -1,0 +1,126 @@
+item_id,leaf,key_step,confidence
+0,B4-1,tab5>B key3,med
+1,A7-8,tab5>A key8 (F14),high
+2,A16-2,tab5>A key4,high
+3,A4-3,tab5>A key6,high
+4,A1-32,tab5>A key3 movement,med
+5,A3-1,tab5>A key10 (F6),med
+6,A14-5,tab5>A key12,med
+7,A8-1,tab5>A key11,med
+8,A5-5,tab5>A key7 (F26),low
+9,A10-9,tab5>A key12 (F30),high
+10,A2-5,tab5>A key3 cycle,high
+11,A2-4,tab5>A key10,low
+12,A14-2,tab5>A key12,med
+13,A8-2,tab5>A key11 (F21),low
+14,A17-4,tab5>A key8 (F20),med
+15,A9-2,tab5>A key12,high
+16,A14-11,tab5>A key12 (F19),high
+17,route:FT-C,tab5>A (F28),med
+18,A4-8,tab5>A key6 (F12),med
+19,A13-1,tab5>A key1,med
+20,A19-1,tab5>A key9 (F27),med
+21,A10-7,tab5>A key12,med
+22,A4-10,tab5>A key6,low
+23,A3-1,tab5>A key10 (F6),med
+24,A14-7,"tab5>A key12 (F19,F22)",low
+25,A7-8,tab5>A key8 (F14),med
+26,A19-1,tab5>A key9 (F27),high
+27,A15-1,tab5>A key2 (F17),high
+28,A15-1,tab5>A key2 (F17),high
+29,B2-3,tab5>B key4,high
+30,A9-2,tab5>A key12,low
+31,A13-2,tab5>A key1,high
+32,A11-2,tab5>A key12,high
+33,A14-5,tab5>A key12,med
+34,A3-9,tab5>A key10 (F6),low
+35,A12-3,tab5>A key5,med
+36,A15-2,tab5>A key2 (F17),high
+37,A9-1,tab5>A key12,med
+38,A3-4,tab5>A key10,med
+39,A7-3,tab5>A key8 (F14),high
+40,A13-6,tab5>A key1,med
+41,A14-11,"tab5>A key12 (F19,F22)",med
+42,A7-4,tab5>A key8,med
+43,A7-8,tab5>A key8 (F14),high
+44,A9-1,tab5>A key12 (F7),low
+45,A6-2,tab5>A key7,med
+46,A7-8,tab5>A key8 (F14),low
+47,A10-1,tab5>A key12,med
+48,A9-1,tab5>A key12,high
+49,A10-11,tab5>A key12 (F25),med
+50,B1-4,tab5>B key1,high
+51,A3-1,tab5>A key10,med
+52,A7-3,tab5>A key8,high
+53,A8-2,tab5>A key11 (F26),med
+54,A4-15,tab5>A key6,med
+55,A13-5,tab5>A key1,high
+56,A7-3,tab5>A key8 (F14),low
+57,A7-8,tab5>A key8 (F14),high
+58,A3-9,tab5>A key10,high
+59,A14-4,tab5>A key12,med
+60,C6-1,tab4>C key1 (TV1),high
+61,C3-2,tab4>C key5 (TV9),high
+62,C8-2,tab4>C key0 (TV13),high
+63,C4-5,tab4>C key6,med
+64,C1-7,tab4>C key6,med
+65,C1-3,tab4>C key5 (TV13),med
+66,C2-9,tab4>C key3 (TV17),high
+67,C2-6,tab4>C key3 (TV15),high
+68,C3-7,tab4>C key5 (TV6),high
+69,C4-1,tab4>C key6,high
+70,C3-6,tab4>C key5 (TV13),med
+71,C5-2,tab4>C key4,high
+72,C2-6,tab4>C key3 (TV15),high
+73,C6-1,tab4>C key1 (TV1),high
+74,C8-2,tab4>C key0,high
+75,C3-6,tab4>C key5,high
+76,C4-5,tab4>C key6,med
+77,C2-9,tab4>C key3 (TV17),high
+78,C2-11,tab4>C key3 (TV19),high
+79,C1-10,tab4>C key6,low
+80,C7-2,tab4>C key2,med
+81,C3-6,tab4>C key5 (TV17),med
+82,C2-3,tab4>C key3 (TV18),med
+83,C5-4,"tab4>C key4 (TV17,TV8)",low
+84,C4-2,tab4>C key6,med
+85,C2-6,tab4>C key3 (TV15),med
+86,C3-1,tab4>C key5,med
+87,C3-1,tab4>C key5,med
+88,C2-10,tab4>C key3 (TV19),low
+89,C2-6,tab4>C key3 (TV15),high
+90,E5-4,tab1>E key9,high
+91,E5-3,tab1>E key9,high
+92,E2-6,tab1>E key4,high
+93,E5-6,tab1>E key9,med
+94,E3-4,tab1>E key7,med
+95,E6-3,tab1>E key9 (AN8),low
+96,E10-1,tab1>E key10 (AN10),med
+97,E2-2,tab1>E key4,high
+98,E10-1,tab1>E key10 (AN5),low
+99,E10-1,tab1>E (AN10),med
+100,E1-1,"tab1>E key8 (AN1,AN2)",med
+101,E6-4,tab1>E key9,high
+102,E3-2,tab1>E key7,med
+103,E3-2,tab1>E key7,med
+104,E9-1,tab1>E key6,high
+105,E1-4,tab1>E key8 (AN2),high
+106,E8-2,tab1>E key10,med
+107,E10-1,tab1>E key10 (AN8),med
+108,E1-6,tab1>E key8,low
+109,E1-1,"tab1>E key8 (AN2,AN9)",high
+110,E3-4,tab1>E key7,low
+111,E5-6,tab1>E key9 (AN2),low
+112,E7-1,tab1>E key5,high
+113,E8-1,tab1>E key10 (AN2),med
+114,E1-4,tab1>E key8 (AN9),med
+115,G1-1,tab2>G key1 (TV20),high
+116,G1-4,tab2>G key1,high
+117,exclude:supplement,tab2>G (TV20),med
+118,G2-2,tab2>G key2 (TV13),high
+119,G3-1,tab2>G key3 (TV13),med
+120,G2-2,tab2>G key2,med
+121,G3-1,tab2>G key3,med
+122,G1-1,tab2>G key1,high
+123,G3-1,tab2>G key3,med
+124,G1-4,tab2>G key1,med

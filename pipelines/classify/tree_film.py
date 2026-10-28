@@ -1489,3 +1489,8 @@ PRECEDENCE += [
     ("F30", "Comic police and period settings", "A comedy about police that is neither buddy-cop (A8-7) nor spoof is Comedy (A10-1), or Action Comedy (A10-9) when action set-pieces carry it. A past setting 'defines' a film (key step 8) only when the era's events or manners are its subject; a family drama or comedy merely set in the past goes by its genre with A7-4 as see-also (F24)."),
     ("TV20", "Unscripted edges", "A hidden-camera, prank or stunt show is G2-4. A transformation story (house, body, business) is G2-3; a show that teaches the craft is G3-5. Recaps, re-edits with pop-up facts and behind-the-scenes companions of a format are excluded as supplements (TV19). A model or talent search judged on performance is G1-1; one built on living together and elimination tasks is G1-2."),
 ]
+_redef("A2-11", defn="crime dramas of urban youth, gangs and the street, from the American hood films of the 1990s (<i>Boyz n the Hood</i>, <i>Menace II Society</i>) to the British road and estate films (<i>Kidulthood</i>, <i>Blue Story</i>).")
+PRECEDENCE += [
+    ("F31", "Generals, real disasters and narrow-leaf ties", "A biopic whose story is a military campaign is War Film (A7-3) with A7-8 as see-also; a soldier's life beyond the war is A7-8. A real disaster told as a social drama of the people in it (a mine rescue) goes by that drama with A5-5 as see-also; A5-5 takes the disaster spectacle. When two narrow leaves tie (sport and road), the one the film's climax belongs to wins."),
+    ("AN11", "Promotional shorts and supplements", "Manner movies, recap specials and behind-the-scenes supplements of an anime are excluded as supplements of their series; a promotional short with its own story is placed by genre."),
+]

@@ -1148,8 +1148,6 @@ id,title,year,country,type,leaf,see_also,confidence,note,by
 33569,Re:Petit kara Hajimeru Isekai Seikatsu,2016,JP,SPECIAL,E10-1,E3-1,high,chibi spin-off of Re:Zero,review
 33142,Re:Zero kara Hajimeru Break Time,2016,JP,SPECIAL,E10-1,E3-1,high,chibi extras,review
 42364,Re:Zero kara Hajimeru Break Time 2nd Season,2020,JP,SPECIAL,E10-1,E3-1,high,chibi extras,review
-41590,Re:Zero kara Hajimeru Isekai Seikatsu - Hyouketsu no Kizuna - Manner Movie,2019,,MOVIE,E10-1,E3-1,high,chibi manners short,review
-39921,Re:Zero kara Hajimeru Isekai Seikatsu - Memory Snow - Manner Movie,2018,,MOVIE,E10-1,E3-1,high,chibi manners short,review
 11491,Recorder to Randoseru Do♪,2012,JP,TV,E10-1,,high,,review
 18099,Recorder to Randoseru Mi☆,2013,JP,TV,E10-1,,high,,review
 13377,Recorder to Randoseru Re♪,2012,JP,TV,E10-1,,high,,review
@@ -2691,7 +2689,6 @@ id,title,year,country,type,leaf,see_also,confidence,note,by
 19815,No Game No Life,2014,JP,TV,E3-1,,high,,review
 24991,No Game No Life Specials,2014,JP,SPECIAL,E3-1,,high,,review
 33674,No Game No Life: Zero,2017,JP,MOVIE,E3-1,,high,,review
-37402,No Game No Life: Zero - Manner Movie,2017,,MOVIE,E3-1,,low,Theatre manners short; franchise unity,review
 11933,Oda Nobuna no Yabou,2012,JP,TV,E3-1,E8-4,med,Transported to gender-flipped Sengoku,review
 60071,Odayaka Kizoku no Kyuuka no Susume.,2026,JP,TV,E3-1,E6-1,med,,review
 52611,Okashi na Tensei,2023,JP,TV,E3-1,,high,,review
@@ -5533,6 +5530,9 @@ id,title,year,country,type,leaf,see_also,confidence,note,by
 22537,Yami Shibai 2,2014,JP,TV,E9-1,,high,,review
 31994,Yami Shibai 3,2016,JP,TV,E9-1,,high,,review
 35714,Yami Shibai 5,2017,JP,TV,E9-1,,high,,review
+37402,No Game No Life: Zero - Manner Movie,2017,,MOVIE,exclude:manner movie (theatre etiquette short) (AN11),E3-1,low,supplement of No Game No Life Zero,override
+41590,Re:Zero kara Hajimeru Isekai Seikatsu - Hyouketsu no Kizuna - Manner Movie,2019,,MOVIE,exclude:manner movie (theatre etiquette short) (AN11),E3-1,high,supplement of Re:Zero,override
+39921,Re:Zero kara Hajimeru Isekai Seikatsu - Memory Snow - Manner Movie,2018,,MOVIE,exclude:manner movie (theatre etiquette short) (AN11),E3-1,high,supplement of Re:Zero,override
 20359,Yamada-kun to 7-nin no Majo PV,2013,JP,SPECIAL,exclude:promotional video,,med,"PV, not a title",review
 30813,Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e PV,2015,,SPECIAL,exclude:promotional video,,med,"PV, not a title",review
 1361,Final Fantasy: The Spirits Within,2001,JP,MOVIE,route:FT-A,,med,"US-made CGI feature (Square Pictures, Honolulu); A15",review

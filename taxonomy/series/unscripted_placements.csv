@@ -283,7 +283,6 @@ mdl:690491-bts-bon-voyage-2-behind-cam,BTS: Bon Voyage 2 Behind Cam,2017,KR,,G3-
 mdl:30899-bts-bon-voyage-3,BTS: Bon Voyage 3,2018,KR,,G3-1,,high,,review
 mdl:688297-bts-bon-voyage-3-behind-cam,BTS: Bon Voyage 3 Behind Cam,2018,KR,,G3-1,,med,behind-the-scenes of Bon Voyage,review
 mdl:51681-bts-bon-voyage-4,BTS: Bon Voyage 4,2019,KR,,G3-1,,high,,review
-mdl:690505-bts-bon-voyage-4-behind-cam,BTS: Bon Voyage 4 Behind Cam,2019,KR,,G3-1,,med,behind-the-scenes of Bon Voyage,review
 mdl:690489-bts-bon-voyage-behind-cam,BTS: Bon Voyage Behind Cam,2016,KR,,G3-1,,med,behind-the-scenes of Bon Voyage,review
 mdl:62351-bangtan-attic,Bangtan Attic,2019,KR,,G3-1,,med,talk/variety special,review
 mdl:26034-the-culprit-is-you,Busted,2018,KR,,G3-1,,high,mystery real variety,review
@@ -396,6 +395,7 @@ mdl:41517-ateez-treasure-film,Ateez Treasure Film,2019,KR,,G3-6,,low,short web r
 Q39055175,Hot Ones,2015,4,,G3-6,G3-2,high,leaf example; cluster says game show,review
 mdl:30980-making-of-bt21,Making of BT21,2017,KR,,G3-6,,med,web making-of of character line,review
 mdl:69855-bts-in-the-soop-behind-the-scene,BTS in the Soop: Behind The Scene,2020,KR,,exclude:behind-the-scenes supplement (TV19),G3-1,med,companion of In the Soop,override
+mdl:690505-bts-bon-voyage-4-behind-cam,BTS: Bon Voyage 4 Behind Cam,2019,KR,,exclude:behind-the-scenes supplement (TV19),G3-1,med,companion of Bon Voyage 4,override
 mdl:687781-a-tale-of-thousand-stars-counting-1-to-1000-stars,A Tale of Thousand Stars: Counting 1 to 1000 Stars,2021,TH,,exclude:drama supplement,,low,making-of special of a scripted drama,review
 mdl:16947-cheese-in-the-trap-sp,Cheese in the Trap SP,2016,KR,,exclude:drama supplement,,med,making-of/recap special of a scripted drama,review
 mdl:10075-coffee-prince-special,Coffee Prince Special,2007,KR,,exclude:drama supplement,,med,making-of/recap special of a scripted drama,review

@@ -8343,8 +8343,10 @@ tt0255819,Baby Boy,2001,US,John Singleton,Q607122,A2-11,A14-3,3,,med,,review
 tt0259484,Paid in Full,2002,US,Charles Stone III,Q2392216,A2-11,A2-2,3,,med,,review
 tt0430308,Get Rich or Die Tryin',2005,US,Jim Sheridan,Q641723,A2-11,A11-1,3,,med,Not blaxploitation; Queens drug-trade hood film,review
 tt0433387,Harsh Times,2005,US,David Ayer,Q301768,A2-11,A2-4,3,,med,,review
+tt0435680,Kidulthood,2006,GB,Menhaj Huda,Q4353419,A2-11,A14-3,10,,med,British hood film (A2-11 widened; blind test round 2),override
 tt3850214,Dope,2015,US,Rick Famuyiwa,Q18890297,A2-11,A14-3;A10-2,3,,med,,review
 tt7242142,Blindspotting,2018,US,Carlos López Estrada,Q47064265,A2-11,A10-2,3,,med,,review
+tt9285882,Blue Story,2019,US,Rapman,Q73535930,A2-11,A2-2,10,,med,British road film (A2-11 widened),override
 tt0082259,"Deprisa, Deprisa",1981,ES,Carlos Saura,Q922099,A2-12,A14-3;A2-4,10,,high,Definition example,sweep
 tt0006206,Les Vampires,1915,FR,Louis Feuillade,Q602998,A2-2,A3-9,10,,med,"Crime serial about a gang, not vampires",review
 tt0005960,The Regeneration,1915,US,Raoul Walsh,Q727334,A2-2,A7-8,10,,med,Early gangster film,review
@@ -8410,7 +8412,6 @@ tt5207158,South Wind,2018,RS,Miloš Avramović,Q58368358,A2-2,,10,,high,,review
 tt1833116,The Informer,2019,GB,Andrea Di Stefano,Q46223211,A2-2,A2-8,10,,med,,review
 tt10208198,"The Gangster, the Cop, the Devil",2019,KR,Lee Won-tae,Q63198576,A2-2,A2-3,10,,med,,review
 tt10804178,How I Became a Gangster,2019,PL,Maciej Kawulski,Q86680620,A2-2,A7-8,10,,med,,review
-tt9285882,Blue Story,2019,US,Rapman,Q73535930,A2-2,A2-11,10,,med,London gang film; hood-film analogue outside US,review
 tt5822564,The Kitchen,2019,US,Andrea Berloff,Q55642298,A2-2,A2-4,10,,med,mob wives take over Irish gang,review
 tt8461224,The Tax Collector,2020,US,David Ayer,Q55642336,A2-2,A8-2,10,,med,,review
 tt10661848,Jagame Thandhiram,2021,IN,Karthik Subbaraj,Q85626417,A2-2,,10,,high,,review
@@ -8790,7 +8791,6 @@ tt0399295,Lord of War,2005,US,Andrew Niccol,Q308681,A2-4,A10-3,10,,high,,review
 tt0468565,Tsotsi,2005,ZA,Gavin Hood,Q626215,A2-4,,10,,high,,review
 tt0396171,Perfume: The Story of a Murderer,2006,DE,Tom Tykwer,Q164813,A2-4,A7-7;A3-1,10,,med,18th-c. murderer; crime drama over period setting,review
 tt0458242,Lights in the Dusk,2006,FI,Aki Kaurismäki,Q1779674,A2-4,A2-5,10,,med,,review
-tt0435680,Kidulthood,2006,GB,Menhaj Huda,Q4353419,A2-4,A2-11;A14-3,10,,med,Hood film leaf is American; UK urban youth seam,review
 tt0488414,Omkara,2006,IN,Vishal Bhardwaj,Q2737200,A2-4,A9-1,10,,med,Othello among UP gangsters,review
 tt0426883,Alpha Dog,2006,US,Nick Cassavetes,Q661061,A2-4,A7-8,10,,med,dramatised real crime placed by genre (F14),review
 tt0870090,City of Men,2007,BR,Paulo Morelli,Q1910645,A2-4,A14-3,10,,med,,review
@@ -14148,6 +14148,7 @@ tt0312477,Madness,1969,EE,Kaljo Kiisk,Q1636351,A7-3,A3-7,8,,low,WWII asylum spy-
 tt0064040,Army of Shadows,1969,FR,Jean-Pierre Melville,Q681225,A7-3,,8,,high,Resistance,review
 tt0064072,Battle of Britain,1969,GB,Guy Hamilton,Q714989,A7-3,,8,,high,,review
 tt0066549,Waterloo,1970,SU,Sergei Bondarchuk,Q1604818,A7-3,A7-8,8,,high,Single battle (F14),review
+tt0066206,Patton,1970,US,Franklin J. Schaffner,Q217220,A7-3,A7-8,8,,med,general's campaign biopic (F31; blind test round 2),override
 tt0066473,Tora! Tora! Tora!,1970,US,Richard Fleischer; Kinji Fukasaku; Toshio Masuda,Q258092,A7-3,,8,,high,NH article cites it as old-Hollywood contrast,review
 tt0067277,Johnny Got His Gun,1971,US,Dalton Trumbo,Q84220,A7-3,,8,,high,,review
 tt0067885,The Third Part of the Night,1972,PL,Andrzej Żuławski,Q64148,A7-3,A16-2,8,,low,Delirious occupation film; war decides (key 8),review
@@ -14811,7 +14812,6 @@ tt0062804,The Chronicle of Anna Magdalena Bach,1968,DE,Jean-Marie Straub; Daniè
 tt0062994,Funny Girl,1968,US,William Wyler,Q1364076,A7-8,A11-1,8,,high,,review
 tt0064147,Jackal of Nahueltoro,1970,CL,Miguel Littin,Q6116060,A7-8,A2-4;A14-4,8,,med,Life of a real murderer (F14),review
 tt0064285,The Wild Child,1970,FR,François Truffaut,Q477707,A7-8,,8,,high,Victor of Aveyron (F14),review
-tt0066206,Patton,1970,US,Franklin J. Schaffner,Q217220,A7-8,A7-3,8,,med,,review
 tt0067155,Goya: Or the Hard Way to Enlightenment,1971,XG,Konrad Wolf,Q1540524,A7-8,,8,,high,Goya biopic,review
 tt0066839,Blaise Pascal,1972,IT,Roberto Rossellini,Q3640833,A7-8,,8,,high,,review
 tt0068346,The Mattei Affair,1972,IT,Francesco Rosi,Q2755251,A7-8,A14-13;A3-6,8,,med,Mattei's career and death as docudrama,review
