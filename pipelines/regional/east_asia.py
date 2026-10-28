@@ -24,7 +24,8 @@ spaced ~1 s apart; re-runs read the cache, so an interrupted run resumes):
       now online.bunka.go.jp, whose 国宝・重要文化財 list links to it).
       Every 国宝 and 重要文化財 in the fine-arts-and-crafts register (美術工芸品),
       via its CSV export. The export fails above ~2,000 rows, so queries are
-      split by art category x 国宝/重要文化財, and by era when still too large.
+      split by art category x 国宝/重要文化財, and by the owner's prefecture when
+      still too large.
       Makers come from the 〈…筆／…〉 part of the official name.
   National Palace Museum, Taipei (npm/)
       The open-data portal (digitalarchive.npm.gov.tw/opendata): the whole
@@ -777,10 +778,12 @@ def maker_attribution(mk, raw):
 KUN = "https://kunishitei.bunka.go.jp"
 KUN_KINDS = ["絵画", "彫刻", "工芸品", "書跡・典籍", "古文書", "考古資料", "歴史資料"]
 KUN_NATIONS = ["国宝", "重要文化財"]
-KUN_ERAS = ["縄文", "弥生", "古墳", "飛鳥", "奈良", "平安", "鎌倉", "南北朝", "室町", "安土桃山", "江戸", "明治", "大正",
-            "昭和", "平成", "五胡十六国", "隋", "唐", "五代十国", "北宋", "南宋", "元", "明", "清", "中国その他", "新羅", "高麗",
-            "李氏朝鮮", "朝鮮その他", "欧米", "その他"]
 KUN_MAX = 1900
+KUN_PREFS = ["北海道", "青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県", "茨城県", "栃木県", "群馬県", "埼玉県", "千葉県",
+             "東京都", "神奈川県", "新潟県", "富山県", "石川県", "福井県", "山梨県", "長野県", "岐阜県", "静岡県", "愛知県", "三重県",
+             "滋賀県", "京都府", "大阪府", "兵庫県", "奈良県", "和歌山県", "鳥取県", "島根県", "岡山県", "広島県", "山口県", "徳島県",
+             "香川県", "愛媛県", "高知県", "福岡県", "佐賀県", "長崎県", "熊本県", "大分県", "宮崎県", "鹿児島県", "沖縄県",
+             "２県以上", "地域を定めない"]
 KUN_COUNTRY = {"日本": "Japan", "中国": "China", "朝鮮": "Korea", "韓国": "Korea", "台湾": "Taiwan"}
 
 
@@ -798,17 +801,19 @@ class Kunishitei:
         self.token = self._token(page.decode("utf-8", "replace")) if page else None
         return self.token is not None
 
-    def params(self, kind, nation, era=""):
+    def params(self, kind, nation, era="", pref=""):
         p = [("_method", "POST"), ("_csrfToken", self.token), ("screen_id", "index"), ("page_no", "1"),
              ("register_sub_id", "201"), ("entry_kind_201[]", kind), ("nation_div_201", nation)]
         if era:
             p.append(("era_201", era))
+        if pref:
+            p.append(("owner_pref_201", pref))
         return p
 
-    def count(self, kind, nation, era=""):
+    def count(self, kind, nation, era="", pref=""):
         if not self.token and not self.start():
             return None
-        body = urllib.parse.urlencode(self.params(kind, nation, era))
+        body = urllib.parse.urlencode(self.params(kind, nation, era, pref))
         page = self.f.request(KUN + "/bsys/searchlist", data=body,
                               headers={"Content-Type": "application/x-www-form-urlencoded",
                                        "Referer": KUN + "/bsys/index"})
@@ -823,8 +828,8 @@ class Kunishitei:
             return 0
         return None
 
-    def csv(self, kind, nation, era=""):
-        body = urllib.parse.urlencode(self.params(kind, nation, era))
+    def csv(self, kind, nation, era="", pref=""):
+        body = urllib.parse.urlencode(self.params(kind, nation, era, pref))
         data = self.f.request(KUN + "/utile/csv-list", data=body,
                               headers={"Content-Type": "application/x-www-form-urlencoded",
                                        "Referer": KUN + "/bsys/searchlist"})
@@ -883,31 +888,22 @@ def fetch_bunka(delay):
                 p = get_csv(key, kind, nation)
                 (files if p else missing).append(p or key)
                 continue
-            # The export is documented to fail above ~2,000 rows, but often succeeds a little beyond;
-            # try the whole query first and split by era only if it fails or comes back short.
-            p = get_csv(key, kind, nation)
-            if p:
-                with open(p, encoding="utf-8") as fh:
-                    rows_got = sum(1 for _ in csv.DictReader(fh))
-                if rows_got >= n:
-                    files.append(p)
-                    continue
-                print(f"  kunishitei {key}: whole export gave {rows_got} of {n}; splitting by era", file=sys.stderr)
+            # The export refuses (HTTP 403) above ~2,000 rows, so split by the owner's prefecture,
+            # which every record has (including "２県以上" and "地域を定めない").
             got = 0
-            for era in KUN_ERAS:
-                ek = f"{key}|{era}"
-                n2 = get_count(ek, kind, nation, era)
+            for pref in KUN_PREFS:
+                pk = f"{key}|{pref}"
+                n2 = get_count(pk, kind, nation, "", pref)
                 if n2 is None:
-                    missing.append(ek)
+                    missing.append(pk)
                     continue
                 if n2 == 0:
                     continue
                 got += n2
-                p = get_csv(ek, kind, nation, era)
-                (files if p else missing).append(p or ek)
+                p = get_csv(pk, kind, nation, "", pref)
+                (files if p else missing).append(p or pk)
             if got < n:
-                print(f"  kunishitei {key}: {n} records, era split covers {got} (records without era are missed)",
-                      file=sys.stderr)
+                print(f"  kunishitei {key}: {n} records, prefecture split covers {got}", file=sys.stderr)
     if missing:
         print(f"  kunishitei: {len(missing)} queries failed: {missing[:6]}", file=sys.stderr)
     return files

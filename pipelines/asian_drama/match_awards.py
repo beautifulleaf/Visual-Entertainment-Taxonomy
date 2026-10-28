@@ -63,6 +63,9 @@ ASIAN_AWARDS = {"Baeksang Arts Awards", "Golden Eagle (China)", "Flying Apsaras"
                 "Golden Bell", "Asian Television Awards"}
 ASIAN_COUNTRIES = {"KR", "JP", "CN", "TW", "HK", "MO", "TH", "PH", "SG", "MY", "ID", "VN"}
 CHINESE = {"CN", "TW", "HK", "MO", "SG"}  # co-productions and cross-strait credits are common
+# MDL types an award series can be (Baeksang's TV grand prize also goes to variety shows,
+# which select.py routes to the unscripted database); films are never matched.
+SERIES_TYPES = ("Drama", "TV Show", "Special", "")
 # Country assumed when an award row has none (Magnolia lists mainland series; it has no fallback).
 AWARD_COUNTRY = {"Magnolia": "CN", "Golden Eagle (China)": "CN", "Flying Apsaras": "CN",
                  "Golden Bell": "TW", "Baeksang Arts Awards": "KR"}
@@ -176,7 +179,7 @@ def pick(row, nums, index, require_drama=True):
     best = None
     for num in set(nums):
         info = index[num]
-        if require_drama and info["mdl_type"] not in ("Drama", ""):
+        if require_drama and info["mdl_type"] not in SERIES_TYPES:
             continue
         if not country_ok(row["_country"], info["mdl_country"]):
             continue
@@ -242,7 +245,7 @@ def fetch(path, budget, offline):
 
 
 def search(row, index, keymap, budget, offline):
-    """MDL search for one award row; returns (num, 'search'|'search_loose') or None."""
+    """MDL search for one award row; returns (num, 'search'|'search_loose'), None, or 'skipped' (no budget)."""
     q = row["title"]
     path = "/search?" + urllib.parse.urlencode({"q": q, "adv": "titles"})
     page = fetch(path, budget, offline)
@@ -250,10 +253,10 @@ def search(row, index, keymap, budget, offline):
         return "skipped"
     key = norm(q)
     hits = [e for e in parse_listing(page)
-            if e["type"] in ("Drama", "") and country_ok(row["_country"], mdl_fetch.COUNTRY_CODES.get(e["country"], ""))
+            if e["type"] in SERIES_TYPES and country_ok(row["_country"], mdl_fetch.COUNTRY_CODES.get(e["country"], ""))
             and (not e["year"] or year_class(row["year"], e["year"]))]
     # listed English title equals the award title: accept; otherwise verify on the title page
-    hits.sort(key=lambda e: (norm(e["title"]) != key, abs(int(row["year"]) - int(e["year"] or 0))))
+    hits.sort(key=lambda e: norm(e["title"]) != key)  # stable: keeps MDL's relevance order
     for e in hits[:3]:
         num = mdl_num(e["mdl_id"])
         if num not in index:

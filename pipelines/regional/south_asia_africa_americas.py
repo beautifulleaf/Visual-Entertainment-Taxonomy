@@ -46,8 +46,17 @@ the cache, so the harvest is resumable):
       collection-search API sits behind a Cloudflare challenge; reported as
       unreachable, not harvested.
   Smithsonian (NMAA, NMAfA, NMAI) is harvested by pipelines/regional/smithsonian.py.
-  Mughal painting is owned by the Islamic-world job; Mughal objects that fall
-      into these sweeps are kept but flagged (overlap = islamic_world).
+  Mughal painting is owned by the Islamic-world job; Mughal, Awadh and Deccani
+      objects that fall into these sweeps are kept but flagged (overlap =
+      islamic_world). Nepal, Tibet, Bhutan, Gandhara and NW Pakistan are flagged
+      overlap = himalaya_central_asia (pipelines/regional/himalaya_central_asia.py).
+
+Filters: photographs, objects made 1960 or later, objects whose named makers are
+all Western (European/American artists depicting the region: comma-inverted V&A
+names, "(English, ...)" nationalities, military titles, a short reviewed list),
+records from settler countries without an Indigenous culture term, and V&A
+records from out-of-scope collections (East Asia, Middle East, photography,
+theatre, library) are dropped; counts per reason go to the _dropped file.
 
 Outputs (data/interim/regional/), for region in south_southeast_asia, africa,
 americas_oceania:
@@ -64,7 +73,9 @@ americas_oceania:
   <region>_makers.csv      named makers with objects, sources, traditions,
                            periods, roles, date range, example ids
   south_asia_africa_americas_sources.csv  per region x source: objects,
-                           attributed share, with tradition / period / date
+                           attributed share, culture / period / date coverage,
+                           overlap counts
+  south_asia_africa_americas_dropped.csv  records dropped, per source and reason
 
 Usage: python3 pipelines/regional/south_asia_africa_americas.py
            [--skip vam,cma,aic,rijks] [--fetch-only] [--delay 1.0] [--rijks-max 1500]
@@ -217,6 +228,7 @@ PLACES = {
             "northern india", "southern india", "himalayas", "himalaya", "western himalayas", "tibet", "western tibet",
             "central tibet", "eastern tibet", "lhasa", "sikkim", "dhaka", "dacca", "kandy", "jaffna", "anuradhapura",
             "polonnaruwa", "ahmednagar", "burhanpur", "rajput", "kotah", "bengal presidency", "amritsar",
+            "voor-indie", "brits-indie", "coromandel", "coromandelkust", "bengalen", "malabar",
         ],
         "Southeast Asia": [
             "southeast asia", "south east asia", "mainland southeast asia", "cambodia", "kampuchea", "angkor",
@@ -226,7 +238,8 @@ PLACES = {
             "kachin state", "pyu", "indonesia", "java", "central java", "east java", "eastern java", "west java",
             "bali", "lombok", "sumatra", "borneo", "kalimantan", "sulawesi", "celebes", "moluccas", "maluku",
             "flores", "sumba", "timor", "nias", "dutch east indies", "netherlands indies", "yogyakarta",
-            "jogjakarta", "surakarta", "solo", "cirebon", "madura", "malaysia", "malaya", "malay peninsula",
+            "jogjakarta", "surakarta", "solo", "cirebon", "madura", "cambodja", "birma", "indonesie",
+            "nederlands-indie", "oost-java", "midden-java", "west-java", "candi", "tjandi", "atjeh", "celebes", "malaysia", "malaya", "malay peninsula",
             "penang", "malacca", "melaka", "sarawak", "sabah", "brunei", "singapore", "philippines", "luzon",
             "mindanao", "sulu", "dvaravati", "srivijaya", "majapahit", "khmer",
         ],
@@ -235,7 +248,7 @@ PLACES = {
         "West Africa": [
             "west africa", "western africa", "nigeria", "benin city", "ile-ife", "ife", "igbo-ukwu", "nok",
             "yorubaland", "ghana", "gold coast", "asante", "ashanti", "kumasi", "cote d ivoire", "cote divoire",
-            "ivory coast", "mali", "bandiagara", "djenne", "jenne", "timbuktu", "burkina faso", "upper volta",
+            "ivory coast", "goudkust", "mali", "bandiagara", "djenne", "jenne", "timbuktu", "burkina faso", "upper volta",
             "senegal", "gambia", "guinea", "guinea-bissau", "sierra leone", "liberia", "togo", "republic of benin",
             "dahomey", "abomey", "niger", "cameroon", "cameroon grassfields", "grassfields", "bamum", "foumban",
             "mauritania", "korhogo", "lagos", "ibadan", "calabar", "oyo", "abeokuta", "ikere", "owo", "benin kingdom",
@@ -243,7 +256,7 @@ PLACES = {
         ],
         "Central Africa": [
             "central africa", "democratic republic of the congo", "democratic republic of congo", "congo",
-            "zaire", "belgian congo", "republic of the congo", "congo brazzaville", "gabon", "angola", "cabinda",
+            "zaire", "belgian congo", "belgisch-congo", "republic of the congo", "congo brazzaville", "gabon", "angola", "cabinda",
             "central african republic", "chad", "equatorial guinea", "fernando po", "bioko", "kasai", "kongo",
             "loango", "zambia", "northern rhodesia",
         ],
@@ -254,7 +267,7 @@ PLACES = {
             "madagascar", "malawi", "mozambique", "zimbabwe", "rhodesia", "southern rhodesia", "botswana",
             "namibia", "lesotho", "swaziland", "eswatini", "natal", "zululand", "kwazulu-natal", "transvaal",
             "cape colony", "cape of good hope", "great zimbabwe", "gondar", "lalibela", "aksum", "axum", "maqdala",
-            "magdala",
+            "magdala", "zuid-afrika", "abessinie",
         ],
         "Africa (unspecified)": ["africa", "sub-saharan africa", "african"],
     },
@@ -287,7 +300,7 @@ PLACES = {
         ],
         "Oceania": [
             "oceania", "pacific islands", "pacific", "south pacific", "melanesia", "polynesia", "micronesia",
-            "new guinea", "papua new guinea", "papua", "west papua", "irian jaya", "sepik", "sepik river",
+            "new guinea", "papua new guinea", "papua", "nieuw-guinea", "papoea-nieuw-guinea", "west papua", "irian jaya", "sepik", "sepik river",
             "middle sepik", "lower sepik", "massim", "trobriand islands", "new ireland", "new britain",
             "admiralty islands", "solomon islands", "vanuatu", "new hebrides", "new caledonia", "fiji", "samoa",
             "tonga", "cook islands", "tahiti", "society islands", "marquesas", "marquesas islands", "hawaii",
@@ -501,8 +514,13 @@ VAM_PLACE_SWEEPS = {
                          "New Caledonia", "Marquesas", "Easter Island", "Cook Islands", "Polynesia",
                          "Melanesia", "Micronesia", "Pacific Islands", "Torres Strait", "Sepik"],
 }
-SKIP_VAM_COLLECTIONS = {"Department of Photography", "Theatre and Performance Collection", "Young V&A Collection",
-                        "National Art Library", "Museum of Childhood"}
+# collectionCode values: photography, theatre, Young V&A, the library, and the East Asian and
+# Middle East sections (owned by the East Asia and Islamic-world jobs)
+SKIP_VAM_COLLECTIONS = {"PH", "PHO", "T&P", "YVA", "MOC", "NAL", "EAS", "MES"}
+# Prints, Drawings & Paintings: from a place sweep, kept only with a recorded school/culture
+# label (Company, Kalighat, ...); otherwise mostly British artists' views of the region
+VAM_LABEL_ONLY_COLLECTIONS = {"PDP"}
+COMMERCIAL_ROLES = re.compile(r"(?i)manufactur|publish|retail|printer|designer|distribut|factory")
 
 
 def harvest_vam(regions):
@@ -616,16 +634,41 @@ RIJKS_QUERIES = [
 
 
 def rijks_reduce(d):
+    try:
+        return _rijks_reduce(d)
+    except (AttributeError, TypeError, KeyError, IndexError) as e:
+        NET["rijks_unparsed"] += 1
+        return {"id": d.get("id", "") if isinstance(d, dict) else "", "unparsed": str(e)[:100]}
+
+
+def _rijks_reduce(d):
     def notation(x):
-        for n in x.get("notation") or []:
-            if n.get("@language") == "en":
+        if isinstance(x, str):
+            return x
+        if not isinstance(x, dict):
+            return ""
+        nots = x.get("notation") or []
+        if isinstance(nots, (str, dict)):
+            nots = [nots]
+        for n in nots:
+            if isinstance(n, dict) and n.get("@language") == "en":
                 return n.get("@value", "")
-        return (x.get("notation") or [{}])[0].get("@value", "") if x.get("notation") else x.get("_label", "")
+        for n in nots:
+            if isinstance(n, dict):
+                return n.get("@value", "")
+            if isinstance(n, str):
+                return n
+        for i in x.get("identified_by") or []:
+            if isinstance(i, dict) and i.get("type") == "Name" and i.get("content"):
+                return i["content"]
+        return x.get("_label", "")
 
     def lin(objs, lang="300388277"):
         out = []
         for o in objs or []:
-            langs = [l.get("id", "") for l in o.get("language") or []]
+            if not isinstance(o, dict):
+                continue
+            langs = [l.get("id", "") if isinstance(l, dict) else str(l) for l in o.get("language") or []]
             if not langs or any(lang in l for l in langs):
                 out.append(o.get("content", ""))
         return out
@@ -740,24 +783,24 @@ SSEA_CULTURES = _L([
     (r"kashmir|kashmiri", "Kashmiri"),
     (r"gandhara|gandharan", "Gandhara"), (r"mathura", "Mathura"),
     (r"indus valley|harappa|harappan|mohenjo", "Indus Valley"),
-    (r"amaravati|nagarjunakonda", "Amaravati"), (r"chandraketugarh", "Chandraketugarh"),
+    (r"amaravati|nagarjunakonda", "Amaravati"), (r"ajanta", "Ajanta"), (r"sanchi", "Sanchi"), (r"bharhut", "Bharhut"), (r"chandraketugarh", "Chandraketugarh"),
     (r"newar|newari", "Nepalese (Newar)"), (r"nepal|nepalese|nepali|kathmandu", "Nepalese (Newar)"),
     (r"sino-tibetan", "Sino-Tibetan"), (r"tibet|tibetan", "Tibetan"), (r"bhutan|bhutanese", "Bhutanese"),
     (r"himalaya|himalayan", "Himalayan"),
     (r"kandyan|kandy", "Sri Lankan: Kandyan"), (r"sri lanka|sri lankan|sinhal|singhalese|ceylon", "Sri Lankan"),
     (r"gujarat|gujarati", "Gujarat"), (r"orissa|odisha|puri", "Odisha"),
-    (r"bengal|bengali|bangladesh", "Bengal"), (r"bihar|patna", "Bihar"),
+    (r"bengal|bengali|bengalen|bangladesh", "Bengal"), (r"bihar|patna", "Bihar"),
     (r"tamil nadu|south india|south indian|southern india|kerala|karnataka|andhra|madurai", "South Indian"),
     (r"pakistan|sindh|sind|peshawar|taxila", "Pakistan (Indus / NW)"),
     # Southeast Asia
-    (r"khmer|angkor|angkorian|cambodia|cambodian", "Khmer"),
+    (r"khmer|angkor|angkorian|cambodia|cambodian|cambodja", "Khmer"),
     (r"champa|cham", "Cham (Champa)"),
     (r"dvaravati", "Mon-Dvaravati"), (r"pyu", "Pyu"),
     (r"lan ?na", "Thai: Lan Na"), (r"sawankhalok|si satchanalai", "Thai: Sawankhalok ware"),
     (r"thai|thailand|siam|siamese", "Thai"),
     (r"lao|laos|laotian", "Lao"),
     (r"shan", "Burmese: Shan"), (r"arakan|arakanese|mrauk", "Burmese: Arakan"),
-    (r"burma|burmese|myanmar", "Burmese"),
+    (r"burma|burmese|birma|myanmar", "Burmese"),
     (r"dong ?son", "Dong Son"), (r"ban chiang", "Ban Chiang"),
     (r"vietnam|vietnamese|annam|annamese|tonkin", "Vietnamese"),
     (r"bali|balinese", "Balinese"), (r"lombok|sasak", "Lombok (Sasak)"),
@@ -766,8 +809,8 @@ SSEA_CULTURES = _L([
     (r"dayak|iban|borneo|kalimantan|sarawak", "Dayak (Borneo)"),
     (r"toraja|sulawesi|celebes|bugis", "Sulawesi"), (r"sumba|sumbanese", "Sumba"), (r"flores", "Flores"),
     (r"timor", "Timor"), (r"moluccas|maluku|tanimbar", "Moluccas"),
-    (r"java|javanese|majapahit|yogyakarta|jogjakarta|surakarta|cirebon|madura", "Javanese"),
-    (r"indonesia|indonesian|dutch east indies", "Indonesian"),
+    (r"candi|tjandi|java|javanese|majapahit|yogyakarta|jogjakarta|surakarta|cirebon|madura", "Javanese"),
+    (r"indonesia|indonesian|indonesie|dutch east indies|nederlands-indie", "Indonesian"),
     (r"malay|malaya|malaysia|malaysian|penang|malacca|melaka|brunei", "Malay"),
     (r"philippines|philippine|filipino|ifugao|luzon|mindanao|moro|t.?boli", "Philippine"),
     (r"indian|india", "Indian"),
@@ -816,8 +859,8 @@ AFRICA_CULTURES = _L([
     (r"hausa", "Hausa"), (r"nupe", "Nupe"), (r"urhobo", "Urhobo"), (r"tiv", "Tiv"), (r"montol", "Montol"),
     (r"bamum|bamoun|foumban", "Cameroon Grassfields: Bamum"), (r"bamileke", "Cameroon Grassfields: Bamileke"),
     (r"bangwa", "Cameroon Grassfields: Bangwa"), (r"kom", "Cameroon Grassfields: Kom"),
-    (r"grassfields?|babanki|bali-nyonga|oku", "Cameroon Grassfields"),
-    (r"asante|ashanti", "Akan: Asante"), (r"fante|fanti", "Akan: Fante"), (r"akan", "Akan"),
+    (r"grassfields?|grasslands|babanki|bali-nyonga|oku", "Cameroon Grassfields"),
+    (r"asante|ashanti", "Akan: Asante"), (r"fante|fanti", "Akan: Fante"),
     (r"ewe", "Ewe"), (r"krobo", "Krobo"), (r"fon|dahomey|abomey", "Fon (Dahomey)"),
     (r"lagoons?( peoples)?|attie|ebrie|akye", "Lagoon peoples"),
     (r"baule|baoule", "Baule"), (r"senufo|senoufo|siena", "Senufo"), (r"guro|gouro", "Guro"),
@@ -853,6 +896,8 @@ AFRICA_CULTURES = _L([
     (r"meroitic|meroe|napatan|kerma|kushite|nubian|nubia", "Nubian (Kush)"),
     (r"malagasy|sakalava|mahafaly|merina|antanosy|madagascar", "Malagasy"),
     (r"berber|amazigh|kabyle", "Amazigh (Berber)"),
+    # broad language/culture groups last, so the specific people wins ("Baule; ... akan")
+    (r"akan", "Akan"),
 ])
 
 AFRICA_PERIODS = _L([
@@ -979,21 +1024,18 @@ REGION_LEX = {
     "americas_oceania": (AMERICAS_CULTURES, AMERICAS_PERIODS),
 }
 OVERLAP = {"Mughal": "islamic_world", "Awadh (Lucknow)": "islamic_world", "Farrukhabad": "islamic_world",
-           "Murshidabad": "islamic_world", "Deccani": "islamic_world (Deccani sultanates)"}
+           "Murshidabad": "islamic_world", "Deccani": "islamic_world (Deccani sultanates)",
+           # Nepal, Tibet, Bhutan, Gandhara and NW Pakistan are also swept by
+           # pipelines/regional/himalaya_central_asia.py
+           "Nepalese (Newar)": "himalaya_central_asia", "Tibetan": "himalaya_central_asia",
+           "Sino-Tibetan": "himalaya_central_asia", "Bhutanese": "himalaya_central_asia",
+           "Himalayan": "himalaya_central_asia", "Gandhara": "himalaya_central_asia",
+           "Pakistan (Indus / NW)": "himalaya_central_asia"}
 # fallback cultures that only restate the place
 GENERIC_CULTURES = {"Indian", "Indonesian", "Thai", "Burmese", "South Indian", "Bengal", "Bihar", "Gujarat",
                     "Odisha", "Pakistan (Indus / NW)", "Malay", "Philippine", "Vietnamese", "Lao", "Sri Lankan",
                     "Native North American", "Pre-Columbian (unspecified)", "Polynesian", "Melanesian",
                     "Micronesian", "New Guinea", "Himalayan", "Ethiopian"}
-
-
-def match_first(lex, text):
-    best = None
-    for rx, lab in lex:
-        m = rx.search(text)
-        if m and (best is None or m.start() < best[1]):
-            best = (lab, m.start())
-    return best[0] if best else None
 
 
 def match_ordered(lex, text):
@@ -1240,21 +1282,33 @@ def classify(row, label_text, place_text, extra_text, agent=None):
         psrc = "century" if period else ""
     row.update(culture=culture, culture_group=culture.split(":")[0].strip(), culture_source=src,
                period=period, period_source=psrc,
-               overlap=OVERLAP.get(culture) or OVERLAP.get(culture.split(":")[0]) or OVERLAP.get(period, ""))
+               overlap=OVERLAP.get(culture) or OVERLAP.get(culture.split(":")[0])
+               or (OVERLAP.get(period, "") if culture in GENERIC_CULTURES or src == "fallback" else ""))
 
 
 WESTERN = re.compile(r"\((English|British|American|French|Dutch|German|Scottish|Irish|Italian|Austrian|Swiss|"
                      r"Danish|Belgian|Swedish|Canadian|Australian|Spanish|Portuguese|Russian|Finnish|Norwegian)\b")
 
 
+# military / honorific titles mark British colonial-era artists in these records
+WESTERN_TITLES = re.compile(r"^(Captain|Capt\.?|Lt\.?|Lieutenant|Colonel|Col\.?|Major|General|Sir|Lady|Mrs\.?|Miss|"
+                            r"Dr\.?|Rev\.?|Reverend)\s")
+# frequent Western makers in the V&A South & SE Asia records, reviewed by hand (2026-10-28)
+WESTERN_NAMES = re.compile(r"(?<![a-z])(griffiths|de fabeck|fabeck|lockwood kipling|kipling|elkington|blaikie keith|"
+                           r"daniell|chinnery|canning|carpenter|locker|landseer|grindlay|orme|simpson)(?![a-z])")
+
+
 def make_row(source, rid, region, pm, title, otype, oclass, labels, place_text, extra, date_text, begin, end,
              makers, materials, institution, collection, url, sweep, agent=None):
+    begin = begin if begin is None or -12000 < begin < 2100 else None
+    end = end if end is None or -12000 < end < 2100 else None
     if begin is not None and end is not None and begin > end:
         begin, end = end, begin
     named, western = [], []
     for n, role in makers:
         if is_named(n, region):
-            western.append(bool(WESTERN.search(n)) or (source == "vam" and bool(re.match(r"^[A-Z][\w'-]+, [A-Z]", n))))
+            western.append(bool(WESTERN.search(n) or WESTERN_TITLES.search(n) or WESTERN_NAMES.search(fold(n)))
+                           or (source == "vam" and bool(re.match(r"^[A-Z][\w'-]+, [A-Z]", n))))
             nm = clean_maker(n.split(" (")[0]) if "(" in n else clean_maker(n)
             if nm and (nm, role) not in [(a, b) for a, b, _ in named]:
                 named.append((nm, role, maker_kind(n)))
@@ -1268,7 +1322,24 @@ def make_row(source, rid, region, pm, title, otype, oclass, labels, place_text, 
     if row["object_group"] == "photograph":
         DROPPED[(source, "photograph")] += 1
         return None
+    if named and row["western_makers"]:
+        # European / American artists depicting the region (Daniell, Poynter, Gauguin):
+        # colonial-era Western art, not the region's own traditions
+        DROPPED[(source, "made by a Western artist")] += 1
+        return None
     classify(row, labels, place_text, extra, agent)
+    if source == "vam" and sweep.startswith("place:"):
+        if collection in VAM_LABEL_ONLY_COLLECTIONS and row["culture_source"] != "label":
+            DROPPED[(source, "Prints, Drawings & Paintings record without a school/culture label")] += 1
+            return None
+        if region != "south_southeast_asia":
+            if (row["object_group"] in ("print", "drawing", "painting", "manuscript and book")
+                    and row["culture_source"] != "label"):
+                DROPPED[(source, "two-dimensional work without a recorded Indigenous culture")] += 1
+                return None
+            if named and (row["culture_source"] == "fallback" or any(COMMERCIAL_ROLES.search(r) for _, r in makers)):
+                DROPPED[(source, "named Western/commercial maker without an Indigenous culture")] += 1
+                return None
     return row
 
 
@@ -1279,6 +1350,10 @@ def _add(out, row):
 
 SOURCE_INST = {"vam": "Victoria and Albert Museum", "cma": "Cleveland Museum of Art",
                "aic": "Art Institute of Chicago", "rijks": "Rijksmuseum"}
+
+
+EAST_ASIAN_STYLE = re.compile(r"(?i)\b(qing|ming|yuan|song|tang|kangxi|yongzheng|qianlong|jiaqing|daoguang|"
+                              r"guangxu|edo|meiji|joseon|goryeo)\b")
 
 
 def rows_vam(items):
@@ -1296,6 +1371,9 @@ def rows_vam(items):
         extra = " ".join([r["title"], typ, r["brief"], " ".join(r["cats"])])
         dt, b, e = (r["dates"][0] if r["dates"] else ["", None, None])
         b, e = year(b), year(e)
+        if EAST_ASIAN_STYLE.search(styles):
+            DROPPED[("vam", "East Asian period style (Qing, Ming, Edo, ...)")] += 1
+            continue
         strong = sweep == "section"
         dec = decide_region("vam", prior, strong, place_text, labels, extra, b, e)
         if not dec:
@@ -1434,7 +1512,7 @@ def write_region(region, rows):
     rows.sort(key=lambda r: (r["culture"], r["period"], r["source"], r["date_begin"] or 0))
     ocols = ["source", "id", "title", "region", "subregion", "place", "culture", "culture_group", "culture_source",
              "period", "period_source", "object_group", "object_type", "labels_recorded", "date_text",
-             "date_begin", "date_end", "makers", "attributed", "western_makers_only", "materials", "institution", "collection",
+             "date_begin", "date_end", "makers", "attributed", "materials", "institution", "collection",
              "overlap", "sweep", "url"]
     write_csv(os.path.join(OUT_DIR, f"{region}_objects.csv"), ocols, [[
         r["source"], r["id"], r["title"], r["region"], r["subregion"], r["place"], r["culture"], r["culture_group"],
@@ -1442,12 +1520,11 @@ def write_region(region, rows):
         r["date_text"], "" if r["date_begin"] is None else r["date_begin"],
         "" if r["date_end"] is None else r["date_end"],
         "; ".join(f"{n} ({role})" if role else n for n, role, _ in r["makers"]), int(r["attributed"]),
-        int(r["western_makers"]),
         r["materials"], r["institution"], r["collection"], r["overlap"], r["sweep"], r["url"]] for r in rows])
 
     # ---- traditions
     def blank():
-        return {"src": collections.Counter(), "att": 0, "att_loc": 0, "begins": [], "ends": [], "mids": [],
+        return {"src": collections.Counter(), "att": 0, "begins": [], "ends": [], "mids": [],
                 "types": collections.Counter(), "raw": collections.Counter(), "makers": collections.Counter(),
                 "subs": collections.Counter(), "periods": collections.Counter(), "cultures": collections.Counter(),
                 "csrc": collections.Counter(), "ex": [], "overlap": ""}
@@ -1465,7 +1542,6 @@ def write_region(region, rows):
             a = agg[k]
             a["src"][r["source"]] += 1
             a["att"] += r["attributed"]
-            a["att_loc"] += r["attributed"] and not r["western_makers"]
             if r["date_begin"] is not None:
                 a["begins"].append(r["date_begin"])
             if r["date_end"] is not None:
@@ -1485,7 +1561,7 @@ def write_region(region, rows):
                 a["ex"].append(f"{r['source']}:{r['id']}")
     tcols = ["kind", "key", "culture", "culture_group", "period", "object_group", "objects"] + \
             [f"objects_{s}" for s in SOURCES] + \
-            ["n_sources", "attributed", "attributed_share", "attributed_local_share", "date_begin_min", "date_end_max", "mid_p10",
+            ["n_sources", "attributed", "attributed_share", "date_begin_min", "date_end_max", "mid_p10",
              "mid_median", "mid_p90", "top_object_groups", "top_periods", "top_cultures", "subregions",
              "culture_from", "named_makers", "raw_labels", "overlap", "example_ids"]
     trows = []
@@ -1498,7 +1574,6 @@ def write_region(region, rows):
         trows.append([kind, key, cult, cult.split(":")[0].strip() if cult else "", per, typ, n] +
                      [a["src"][s] for s in SOURCES] +
                      [sum(1 for s in SOURCES if a["src"][s]), a["att"], round(a["att"] / n, 3),
-                      round(a["att_loc"] / n, 3),
                       min(a["begins"]) if a["begins"] else "", max(a["ends"]) if a["ends"] else "",
                       _q(mids, 0.1), round(statistics.median(mids)) if mids else "", _q(mids, 0.9),
                       top(a["types"]), top(a["periods"]) if kind in ("culture", "culture_group", "culture_type") else "",
@@ -1570,23 +1645,22 @@ def build(raw):
             if not sr:
                 continue
             n = len(sr)
-            loc = sum(r["attributed"] and not r["western_makers"] for r in sr)
             summary.append([region, src, n, sum(r["attributed"] for r in sr),
-                            round(sum(r["attributed"] for r in sr) / n, 3), loc, round(loc / n, 3),
+                            round(sum(r["attributed"] for r in sr) / n, 3),
                             round(sum(1 for r in sr if r["culture_source"] in ("label", "place")) / n, 3),
                             round(sum(1 for r in sr if not r["culture_source"].startswith("fallback")) / n, 3),
                             round(sum(1 for r in sr if r["period_source"] in ("recorded", "description")) / n, 3),
                             round(sum(1 for r in sr if r["date_begin"] is not None) / n, 3),
                             len({r["culture"] for r in sr}), len({r["period"] for r in sr if r["period"]}),
                             len({fold(n_) for r in sr for n_, _, _ in r["makers"]}),
-                            sum(1 for r in sr if r["overlap"])])
+                            sum(1 for r in sr if r["overlap"].startswith("islamic")),
+                            sum(1 for r in sr if r["overlap"].startswith("himalaya"))])
         print(f"{region}: {len(rr)} objects, {len({r['culture'] for r in rr})} cultures, "
               f"{len(mk)} named makers, attributed {sum(r['attributed'] for r in rr)}", file=sys.stderr)
     write_csv(os.path.join(OUT_DIR, "south_asia_africa_americas_sources.csv"),
-              ["region", "source", "objects", "attributed", "attributed_share", "attributed_local",
-               "attributed_local_share", "culture_specific_share",
+              ["region", "source", "objects", "attributed", "attributed_share", "culture_specific_share",
                "culture_any_share", "period_recorded_share", "dated_share", "cultures", "periods", "named_makers",
-               "overlap_islamic_world"], summary)
+               "overlap_islamic_world", "overlap_himalaya_central_asia"], summary)
     write_csv(os.path.join(OUT_DIR, "south_asia_africa_americas_dropped.csv"), ["source", "reason", "records"],
               [[s, why, n] for (s, why), n in sorted(DROPPED.items())])
 
