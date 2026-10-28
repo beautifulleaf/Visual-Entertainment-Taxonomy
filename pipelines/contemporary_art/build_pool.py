@@ -9,11 +9,18 @@ An entity is in the pool if either rule holds:
                    dates at all), with >= 3 sitelinks;
   market rule      any human with an Artnet (P3782), Artsy (P2042) or MoMA (P2174)
                    artist ID, born >= 1920 (or no birth date and no death before
-                   1965), with >= 1 sitelink. These market/institution signals catch
-                   artists Wikipedia under-covers.
+                   1965), with >= 1 sitelink, and an art occupation (any group below,
+                   artist, comics, or a subclass of visual artist other than film
+                   occupations) or no occupation at all: the three databases also
+                   hold IDs for sitters, writers, musicians and film makers.
 Artist collectives (teamLab, Gelitin, ...) are added when founded >= 1950 (or
-undated) and they meet either rule's sitelink threshold; their inception year is
-used as `birth`.
+undated but typed "artist collective" or holding a market ID) and they meet either
+rule's sitelink threshold; their inception year is used as `birth` and their country
+comes from P17 / P495 / P159 / P740. Art movements and music groups are dropped.
+People with no dates at all are kept only with a contemporary signal (market ID,
+Instagram, gallery, contemporary occupation, or citizenship of an ISO-coded country).
+The column art_occ_share (art occupations / all occupations) flags celebrities who
+also paint or design (George W. Bush, Selena Gomez) for the scoring step.
 
 Steps
 1. Fetch candidates from Wikidata by medium group x birth decade and by market ID
@@ -123,12 +130,20 @@ GROUPS = dict(STREET)
 GROUPS.update({m: q for m, q in MEDIA.items() if m != UNSPECIFIED})
 GROUPS.update(CONTEMPORARY_MEDIA)
 GROUPS[UNSPECIFIED] = MEDIA[UNSPECIFIED]
+CONTEMPORARY_OCCS = {q for g in (STREET, CONTEMPORARY_MEDIA) for qs in g.values() for q in qs}
 COLLECTIVE_TYPES = ["Q1400264", "Q4502119"]  # artist collective, art group
 # Groups typed "art group" that are not contemporary artist collectives: art movements
 # and schools (Barbizon school, Fluxus), music groups (The Residents).
 NOT_COLLECTIVE_TYPES = {"Q968159", "Q215380", "Q2088357", "Q5741069"}
 VISUAL_ARTIST = "Q3391743"
 ARTIST = "Q483501"
+# Comics occupations are not under visual artist on Wikidata but count as art
+# occupations for the market rule (Marjane Satrapi): comics artist, cartoonist,
+# comics creator, mangaka.
+COMICS_OCCUPATIONS = {"Q715301", "Q1114448", "Q109517242", "Q191633"}
+# Film occupations sit under visual artist on Wikidata (film director, filmmaker,
+# film editor, cinematographer); they are another taxonomy, so they do not count.
+FILM_OCCUPATIONS = ["Q1414443", "Q2526255", "Q7042855", "Q222344", "Q3455803", "Q2059704"]
 
 # Market / institution IDs used by the market rule, and all IDs reported as columns.
 MARKET_IDS = {"P3782": "artnet", "P2042": "artsy", "P2174": "moma"}
@@ -295,7 +310,10 @@ def art_occupations():
     writers, musicians and film makers (Donald Trump, Lionel Messi, Federico Fellini)."""
     rows = cached("visual_artist_subclasses.json", lambda: sparql(
         f"SELECT DISTINCT ?o WHERE {{ ?o wdt:P279* wd:{VISUAL_ARTIST} . }}"))
-    return {r["o"] for r in rows} | {q for qs in GROUPS.values() for q in qs} | {ARTIST}
+    film_values = " ".join("wd:" + q for q in FILM_OCCUPATIONS)
+    film = cached("film_occupation_subclasses.json", lambda: sparql(
+        f"SELECT DISTINCT ?o WHERE {{ VALUES ?f {{ {film_values} }} ?o wdt:P279* ?f . }}"))
+    return ({r["o"] for r in rows} - {r["o"] for r in film}) | {q for qs in GROUPS.values() for q in qs} | {ARTIST} | COMICS_OCCUPATIONS
 
 
 def collective_countries(qids):
@@ -319,10 +337,13 @@ def screen(people, facts):
     for q in list(people):
         p, cl = people[q], facts.get(q, {}).get("claims", {})
         if p.get("is_collective"):
-            if set(cl.get("P31", [])) & NOT_COLLECTIVE_TYPES:
+            if (year_of(p.get("death")) or 9999) < 1960:
+                dropped["collective: dissolved before 1960"] += 1
+                del people[q]
+            elif set(cl.get("P31", [])) & NOT_COLLECTIVE_TYPES:
                 dropped["collective: movement or music group"] += 1
                 del people[q]
-            elif not p.get("birth") and not p.get("market"):
+            elif not p.get("birth") and not p.get("market") and "Q1400264" not in cl.get("P31", []):
                 dropped["collective: undated, no market ID"] += 1
                 del people[q]
         elif p["rules"] == {"market"} and cl.get("P106") and not set(cl["P106"]) & art:
@@ -511,11 +532,22 @@ def main():
                         for c in f["claims"].get(k, []) if re.fullmatch(r"Q\d+", c)})
     cinfo = fetch_countries(countries)
 
-    rows = []
+    art = art_occupations()
+    rows, n_undated = [], 0
     for q, p in people.items():
         f = facts.get(q, {"claims": {}, "titles": {}})
         cl = f["claims"]
         birth, death = year_of(p.get("birth")), year_of(p.get("death"))
+        # No dates at all: keep only with a contemporary signal (market ID, Instagram,
+        # gallery, a contemporary occupation such as digital artist, or a citizenship
+        # of a country with an ISO code); this drops ancient
+        # and early modern artists whose birth date Wikidata lacks.
+        if (birth is None and death is None and not p.get("floruit") and not p.get("is_collective")
+                and not any(cl.get(pid) for pid in MARKET_IDS) and not cl.get("P2003") and not cl.get("P1875")
+                and not set(cl.get("P106", [])) & CONTEMPORARY_OCCS
+                and not any((cinfo.get(c) or {}).get("iso") for c in cl.get("P27", []))):
+            n_undated += 1
+            continue
         occs = set(cl.get("P106", []))
         media = [m for m, qs in GROUPS.items() if occs & set(qs)]
         cits = [c for c in dict.fromkeys(cl.get("P27", [])) if re.fullmatch(r"Q\d+", c)]
@@ -543,6 +575,9 @@ def main():
             "region": primary, "regions": "|".join(regions),
             "continent": primary_cont, "continents": "|".join(conts),
             "medium": media[0] if media else UNSPECIFIED, "media": "|".join(media),
+            # Share of occupations that are visual-art ones: low for celebrities who
+            # also paint or design (George W. Bush, Selena Gomez); blank if none.
+            "art_occ_share": round(len(occs & art) / len(occs), 2) if occs else "",
             "sitelinks": int(p["s"]), "wikipedias": len(f["titles"]),
         }
         for pid, name in ID_COLUMNS.items():
@@ -557,6 +592,7 @@ def main():
         row["instagram"] = int(bool(cl.get("P2003")))
         rows.append(row)
 
+    print(f"  dropped {n_undated} undated people without a contemporary signal")
     summary = join_lists(rows, facts)
     if summary is None:
         print(f"{LISTS_PATH} not found; skipping the list join")

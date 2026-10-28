@@ -20,7 +20,10 @@ dynasty or period, so their labels can override that inference:
       behind its "Islamic Dynasties" pages (/dynasties-api/dynasties/<id>/objects).
       Each object page (database_item.php) adds holding museum, materials and
       technique, provenance and any named artist. The site has no robots.txt.
-  Cleveland Museum of Art open access API, department "Islamic Art"
+  Cleveland Museum of Art open access API, department "Islamic Art" in full,
+      plus keyword sweeps for dynasty names (Islamic textiles sit in Textiles,
+      Mughal and Deccani painting in Indian and Southeast Asian Art; keyword hits
+      are kept only when the culture string names an Islamic dynasty).
       Dynasty is part of the `culture` string ("Iran, Seljuq period of Iran
       (1037-1194)"); makers come from `creators`.
   Harvard Art Museums API: used only when HARVARD_API_KEY is set (not
@@ -47,8 +50,19 @@ Outputs (data/interim/regional/):
                          named makers, agreement with the Met-style inference,
                          and the Met's own inferred count (met_inferred_objects)
   islamic_makers.csv     named makers (calligraphers, painters, potters, ...)
-                         with object counts, sources, dynasties and dates; the
-                         seed for a named-artist reference list for the region
+                         with object counts, sources, dynasties, dates and the
+                         school they hang under (visual-art-plan.md §2.1 point 4);
+                         the seed for a named-artist reference list for the region
+  islamic_schools.csv    kind=school: schools / workshops (Timurid Herat, Safavid
+                         Tabriz, Imperial Mughal atelier, Ottoman nakkashane,
+                         Deccani, Company school, ...) as recorded, or for book
+                         arts from the recorded painting centre (see
+                         assign_school); kind=centre: production centres for all
+                         objects. Both with attributed share and named masters.
+
+Attributed share = objects with at least one named maker / all objects (the
+attribution profile of §2.1 point 4 and the §2.2 coverage audit), per dynasty,
+per school and for book arts separately.
 
 Usage: python3 pipelines/regional/islamic_world.py [--skip vam,dia,cma]
            [--no-dia-details] [--delay 1.0]
@@ -478,6 +492,10 @@ PRE_ISLAMIC_STYLE = re.compile(r"late antique|coptic|roman|ancient|byzantine|kin
                                r"sasanian|sassanian|parthian|seleucid|hellenistic|pharaonic|\btang\b|\bsong\b|\bliao\b", re.I)
 
 
+DOCUMENTARY_TYPE = re.compile(r"sketchbook|photograph|negative|print|drawing|watercolou?r|lantern slide|postcard|"
+                              r"cast|model|architectural|design|book\b|map\b", re.I)
+
+
 def islamic_dynasties(row):
     return [d for d in row["dynasties"] if d not in NON_ISLAMIC_LABELS]
 
@@ -490,6 +508,10 @@ def vam_keep(row, sweep):
     mid = (b + e) / 2 if b is not None and e is not None else None
     if islamic_dynasties(row):
         return True
+    # 19th/20th-century documentation of the region (James William Wild's Cairo
+    # sketchbooks, photographs, prints) is about Islamic art, not of it
+    if DOCUMENTARY_TYPE.search(row["object_type"] or "") and mid is not None and mid >= 1780:
+        return False
     if sweep in ("section", "islam"):
         if PRE_ISLAMIC_STYLE.search(row["dynasty_recorded"] or ""):
             return False
@@ -764,17 +786,17 @@ CENTRE_RE = [(re.compile(p), n) for p, n in CENTRES]
 DECCAN_CITIES = {"Bijapur", "Golconda", "Ahmadnagar", "Hyderabad"}
 MUGHAL_REIGNS = ["Babur", "Humayun", "Akbar", "Jahangir", "Shah Jahan", "Aurangzeb", "Bahadur Shah",
                  "Muhammad Shah", "Shah Alam"]
-SAFAVID_REIGNS = ["Shah Isma'il", "Shah Tahmasp", "Shah Abbas", "Shah Safi", "Shah Sulayman", "Shah Sultan Husayn"]
+SAFAVID_REIGNS = ["Shah Ismail", "Shah Tahmasp", "Shah Abbas", "Shah Safi", "Shah Sulayman", "Shah Sultan Husayn"]
 
 EXPLICIT_SCHOOLS = [  # (regex on folded text, school); first match wins
-    (r"company (school|style|painting|painter)|^company$|\| ?company\b|\bcompany\b ?\|", "Company school"),
+    (r"company (school|style|painting|painter)|(^|[|;] ?)company( ?[|;]|$)", "Company school"),
     (r"mughal court|imperial (mughal )?(workshop|atelier|studio|library|kitabkhana)|"
      r"mughal (imperial|royal) (workshop|atelier|studio)|court of (babur|humayun|akbar|jahangir|shah jahan|aurangzeb)",
      "Imperial Mughal atelier"),
     (r"nakkash|nakkas|ehl.?i hiref|ottoman (court|palace|imperial) (workshop|studio|atelier)|"
      r"(court|palace) (workshop|studio|atelier) (in|of) istanbul", "Ottoman court studio (nakkashane)"),
     (r"kitab.?khana|(royal|court) (library|workshop|atelier|studio) of (shah|the safavid)|"
-     r"court of shah (isma.?il|tahmasp|abbas)|safavid (court|royal) (workshop|atelier|studio)", "Safavid court atelier"),
+     r"court of shah (isma'?il|tahmasp|abbas)|safavid (court|royal) (workshop|atelier|studio)", "Safavid court atelier"),
     (r"timurid (court|royal) (workshop|atelier|studio)|court of (baysunghur|husayn bayqara|sultan husayn)|"
      r"baysunghur.{0,20}(workshop|atelier|library)", "Timurid court atelier"),
     (r"jalayirid (court|royal)|court of (sultan )?ahmad jalayir", "Jalayirid court atelier"),
@@ -784,8 +806,22 @@ EXPLICIT_SCHOOLS = [  # (regex on folded text, school); first match wins
 EXPLICIT_RE = [(re.compile(p), n) for p, n in EXPLICIT_SCHOOLS]
 
 
+def tfold(s):
+    """Lower-case ASCII, keeping the punctuation fold() drops (| ; ' and -)."""
+    s = re.sub(r"[’‘ʿʾ`]", "'", s or "")
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
+    return " ".join(s.split())
+
+
+NOT_BOOK_ARTS_RE = re.compile(r"wall|fresco|mural|\btiles?\b|textile|fabric|ceramic|bowl|dish|jar|vase|panel|"
+                              r"lacquer|pen.?box|qalamdan|box\b|casket|binding|cover|glass", re.I)
+
+
 def is_book_arts(row):
-    return bool(BOOK_ARTS_RE.search(f"{row['object_type']} | {row['title']}"))
+    t = f"{row['object_type']} | {row['title']}"
+    if NOT_BOOK_ARTS_RE.search(row["object_type"] or ""):
+        return False
+    return bool(BOOK_ARTS_RE.search(t))
 
 
 def centres(text):
@@ -795,14 +831,14 @@ def centres(text):
 
 def assign_school(row):
     """Sets row['school'], row['school_basis'], row['centre'], row['reign'], row['book_arts']."""
-    text = fold(" | ".join([row.get("school_text", ""), row["dynasty_recorded"],
-                            "; ".join(n for n, _ in row["makers"])]))
+    text = tfold(" | ".join([row.get("school_text", ""), row["dynasty_recorded"]]))
     dyns = islamic_dynasties(row)
     dyn = dyns[0] if dyns else ""
     cen = centres(row.get("centre_text", ""))
     row["centre"] = cen[0] if cen else ""
     row["book_arts"] = is_book_arts(row)
-    reigns = [r for r in MUGHAL_REIGNS + SAFAVID_REIGNS if re.search(r"\b" + fold(r).replace("'", ".?") + r"\b", text)]
+    reigns = [r for r in MUGHAL_REIGNS + SAFAVID_REIGNS
+              if re.search(r"\b" + r.lower() + r"\b", text.replace("isma'il", "ismail"))]
     row["reign"] = reigns[0] if reigns else ""
     school, basis = "", ""
     for rx, name in EXPLICIT_RE:
@@ -822,8 +858,8 @@ def assign_school(row):
             school, basis = f"Deccani ({c})" if c else "Deccani", "place" if c else "recorded"
         elif c in ("Lucknow (Awadh)", "Murshidabad", "Patna", "Kashmir"):
             school, basis = c, "place"
-        elif c:
-            school, basis = (f"{dyn} {c}" if dyn else c), "place"
+        elif c and dyn:
+            school, basis = f"{dyn} {c}", "place"
     row["school"], row["school_basis"] = school, basis
 
 
@@ -858,14 +894,34 @@ def check(row):
         row["check"] = "conflict"
 
 
+# named masters whose school is known when the records give no centre or court
+MASTER_SCHOOLS = [
+    (r"\bbehzad\b", "Timurid Herat"), (r"sultan ali mashhadi", "Timurid Herat"), (r"mir ali (haravi|heravi)", "Timurid Herat"),
+    (r"(reza|riza) abbasi|aqa (reza|riza)\b", "Safavid Isfahan"), (r"muin musavvir", "Safavid Isfahan"),
+    (r"muhammad zaman", "Safavid Isfahan"), (r"shaykh abbasi", "Safavid Isfahan"), (r"afzal al.?husayni", "Safavid Isfahan"),
+    (r"sultan muhammad\b", "Safavid Tabriz"), (r"aqa mirak", "Safavid Tabriz"), (r"mir musavvir", "Safavid Tabriz"),
+    (r"mirza ali\b", "Safavid Tabriz"), (r"dust muhammad", "Safavid Tabriz"), (r"muhammadi\b", "Safavid Qazvin"),
+    (r"siyavush", "Safavid Qazvin"), (r"sadiqi beg", "Safavid Qazvin"),
+    (r"mir sayyid ali|abd al.?samad|abdus samad|basawan|daswanth|\bmiskin\b|kesu das|manohar|abul hasan|"
+     r"\bmansur\b|bichitr|govardhan|bishandas|\bpayag\b|balchand|\bhashim\b|\bnanha\b|farrukh beg|dharm das|"
+     r"\btulsi\b|\bsanwala\b|\bbhawani\b|jagannath|\bmadhu\b|\bmahesh\b|khem karan|\bla ?l\b|\bmukund\b|"
+     r"\bmanohar\b|\bdaulat\b|\bhunhar\b|\bchitarman\b|\bmurad\b", "Imperial Mughal atelier"),
+    (r"\blevni\b|nakkas osman|nakkash osman|matrakci", "Ottoman court studio (nakkashane)"),
+]
+MASTER_RE = [(re.compile(p), n) for p, n in MASTER_SCHOOLS]
+COMPARABLE = [name for _, _, _, name in ISLAMIC_PERIODS]
+
+
 def write_outputs(rows):
     os.makedirs(OUT_DIR, exist_ok=True)
     for r in rows:
         check(r)
+        assign_school(r)
     rows.sort(key=lambda r: (r["source"], r["dynasties"][0] if r["dynasties"] else "~", r["date_begin"] or 0))
     cols = ["source", "id", "title", "object_type", "dynasty_recorded", "dynasty", "culture_place",
-            "date_text", "date_begin", "date_end", "makers", "materials_technique", "techniques",
-            "institution", "collection", "met_inferred_dynasty", "inference_check", "url"]
+            "date_text", "date_begin", "date_end", "makers", "attributed", "materials_technique", "techniques",
+            "book_arts", "school_workshop", "school_basis", "production_centre", "reign",
+            "institution", "collection", "met_inferred_dynasty", "inference_check", "sweep", "url"]
     with open(os.path.join(OUT_DIR, "islamic_objects.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(cols)
@@ -875,65 +931,94 @@ def write_outputs(rows):
                         "" if r["date_begin"] is None else r["date_begin"],
                         "" if r["date_end"] is None else r["date_end"],
                         "; ".join(f"{n} ({role})" if role else n for n, role in r["makers"]),
-                        r["materials_technique"], "; ".join(r["techniques"]), r["institution"],
-                        r["collection"], r["met_inferred"], r["check"], r["url"]])
+                        int(bool(r["makers"])), r["materials_technique"], "; ".join(r["techniques"]),
+                        int(r["book_arts"]), r["school"], r["school_basis"], r["centre"], r["reign"],
+                        r["institution"], r["collection"], r["met_inferred"], r["check"], r.get("sweep", ""), r["url"]])
+
+    def new_agg():
+        return {"src": collections.Counter(), "types": collections.Counter(), "tech": collections.Counter(),
+                "places": collections.Counter(), "makers": collections.Counter(), "begins": [], "ends": [],
+                "mids": [], "check": collections.Counter(), "conflicts": collections.Counter(),
+                "raw": collections.Counter(), "examples": [], "schools": collections.Counter(),
+                "centres": collections.Counter(), "dyn": collections.Counter(), "reigns": collections.Counter(),
+                "basis": collections.Counter(), "n": 0, "attr": 0, "book": 0, "book_attr": 0}
+
+    def add(a, r):
+        a["n"] += 1
+        a["attr"] += bool(r["makers"])
+        a["book"] += r["book_arts"]
+        a["book_attr"] += r["book_arts"] and bool(r["makers"])
+        a["src"][r["source"]] += 1
+        a["types"][(r["object_type"] or "").lower()] += 1
+        for t in r["techniques"]:
+            a["tech"][t] += 1
+        for b in r["bases"][:1]:
+            a["places"][b] += 1
+        for n, _ in r["makers"]:
+            a["makers"][n] += 1
+        if r["date_begin"] is not None:
+            a["begins"].append(r["date_begin"])
+        if r["date_end"] is not None:
+            a["ends"].append(r["date_end"])
+        if r["date_begin"] is not None and r["date_end"] is not None:
+            a["mids"].append((r["date_begin"] + r["date_end"]) / 2)
+        a["check"][r["check"]] += 1
+        if r["check"] == "conflict":
+            a["conflicts"][r["met_inferred"]] += 1
+        a["raw"][r["dynasty_recorded"][:80]] += 1
+        a["schools"][r["school"]] += 1
+        a["centres"][r["centre"]] += 1
+        a["reigns"][r["reign"]] += 1
+        a["basis"][r["school_basis"]] += 1
+        for d in r["dynasties"]:
+            a["dyn"][d] += 1
+        if len(a["examples"]) < 4:
+            a["examples"].append(f"{r['source']}:{r['id']}")
+
+    def q(mids, p):
+        return round(mids[min(len(mids) - 1, int(p * len(mids)))]) if mids else ""
+
+    def share(x, n):
+        return round(x / n, 3) if n else ""
 
     # ---- dynasties
     met = met_counts()
-    agg = collections.defaultdict(lambda: {"src": collections.Counter(), "types": collections.Counter(),
-                                           "tech": collections.Counter(), "places": collections.Counter(),
-                                           "makers": collections.Counter(), "begins": [], "ends": [],
-                                           "mids": [], "check": collections.Counter(),
-                                           "conflicts": collections.Counter(), "raw": collections.Counter(),
-                                           "examples": []})
+    agg = collections.defaultdict(new_agg)
     for r in rows:
         for d in r["dynasties"]:
-            a = agg[d]
-            a["src"][r["source"]] += 1
-            a["types"][(r["object_type"] or "").lower()] += 1
-            for t in r["techniques"]:
-                a["tech"][t] += 1
-            for b in r["bases"][:1]:
-                a["places"][b] += 1
-            for n, _ in r["makers"]:
-                a["makers"][n] += 1
-            if r["date_begin"] is not None:
-                a["begins"].append(r["date_begin"])
-            if r["date_end"] is not None:
-                a["ends"].append(r["date_end"])
-            if r["date_begin"] is not None and r["date_end"] is not None:
-                a["mids"].append((r["date_begin"] + r["date_end"]) / 2)
-            a["check"][r["check"]] += 1
-            if r["check"] == "conflict":
-                a["conflicts"][r["met_inferred"]] += 1
-            a["raw"][r["dynasty_recorded"][:80]] += 1
-            if len(a["examples"]) < 4:
-                a["examples"].append(f"{r['source']}:{r['id']}")
+            add(agg[d], r)
+    reg_total = sum(agg[d]["n"] for d in COMPARABLE if d in agg)
+    met_total = sum(met.get(fold(d), 0) for d in COMPARABLE)
     dcols = ["key", "dynasty", "objects", "objects_vam", "objects_dia", "objects_cma", "date_begin_min",
              "date_end_max", "mid_p10", "mid_median", "mid_p90", "top_object_types", "top_techniques",
-             "top_places", "named_makers", "checked", "agree", "conflict", "agree_share",
-             "conflict_inferred_as", "met_inferred_objects", "raw_labels", "example_ids"]
+             "top_places", "top_production_centres", "top_schools", "named_makers",
+             "attributed_objects", "attributed_share", "book_arts_objects", "book_arts_attributed_share",
+             "checked", "agree", "conflict", "agree_share", "conflict_inferred_as",
+             "met_inferred_objects", "share_regional", "share_met", "raw_labels", "example_ids"]
     with open(os.path.join(OUT_DIR, "islamic_dynasties.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(dcols)
-        for d, a in sorted(agg.items(), key=lambda kv: -sum(kv[1]["src"].values())):
+        for d, a in sorted(agg.items(), key=lambda kv: -kv[1]["n"]):
             mids = sorted(a["mids"])
-
-            def q(p):
-                return round(mids[min(len(mids) - 1, int(p * len(mids)))]) if mids else ""
             key = fold(d)
             checked = a["check"]["agree"] + a["check"]["conflict"]
-            w.writerow([key, d, sum(a["src"].values()), a["src"]["vam"], a["src"]["dia"], a["src"]["cma"],
+            comparable = d in COMPARABLE
+            w.writerow([key, d, a["n"], a["src"]["vam"], a["src"]["dia"], a["src"]["cma"],
                         min(a["begins"]) if a["begins"] else "", max(a["ends"]) if a["ends"] else "",
-                        q(0.1), round(statistics.median(mids)) if mids else "", q(0.9),
-                        top(a["types"]), top(a["tech"]), top(a["places"], 4), top(a["makers"], 8),
-                        checked, a["check"]["agree"], a["check"]["conflict"],
-                        round(a["check"]["agree"] / checked, 2) if checked else "",
-                        top(a["conflicts"], 4), met.get(key, ""), top(a["raw"], 4), " ".join(a["examples"])])
+                        q(mids, 0.1), round(statistics.median(mids)) if mids else "", q(mids, 0.9),
+                        top(a["types"]), top(a["tech"]), top(a["places"], 4), top(a["centres"], 5),
+                        top(a["schools"], 5), top(a["makers"], 8),
+                        a["attr"], share(a["attr"], a["n"]), a["book"], share(a["book_attr"], a["book"]),
+                        checked, a["check"]["agree"], a["check"]["conflict"], share(a["check"]["agree"], checked),
+                        top(a["conflicts"], 4), met.get(key, ""),
+                        share(a["n"], reg_total) if comparable else "",
+                        share(met.get(key, 0), met_total) if comparable else "",
+                        top(a["raw"], 4), " ".join(a["examples"])])
 
     # ---- makers
     mk = collections.defaultdict(lambda: {"names": collections.Counter(), "src": collections.Counter(),
                                           "dyn": collections.Counter(), "roles": collections.Counter(),
+                                          "schools": collections.Counter(), "book": 0,
                                           "begins": [], "ends": [], "ids": [], "titles": [], "places": collections.Counter()})
     for r in rows:
         for n, role in r["makers"]:
@@ -943,8 +1028,11 @@ def write_outputs(rows):
             m = mk[k]
             m["names"][n] += 1
             m["src"][r["source"]] += 1
+            m["book"] += r["book_arts"]
             for d in r["dynasties"]:
                 m["dyn"][d] += 1
+            if r["school"]:
+                m["schools"][r["school"]] += 1
             if role:
                 m["roles"][role.lower()] += 1
             for b in r["bases"][:1]:
@@ -956,20 +1044,59 @@ def write_outputs(rows):
             if len(m["ids"]) < 5:
                 m["ids"].append(f"{r['source']}:{r['id']}")
                 m["titles"].append(r["title"][:60])
-    mcols = ["maker", "name_variants", "objects", "objects_vam", "objects_dia", "objects_cma",
-             "dynasty_objects", "dynasties", "roles", "places", "date_begin_min", "date_end_max",
-             "example_ids", "example_titles"]
+    mcols = ["maker", "name_variants", "objects", "objects_vam", "objects_dia", "objects_cma", "book_arts_objects",
+             "dynasty_objects", "dynasties", "school", "school_basis", "schools", "roles", "places",
+             "date_begin_min", "date_end_max", "example_ids", "example_titles"]
     with open(os.path.join(OUT_DIR, "islamic_makers.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(mcols)
         order = sorted(mk.items(), key=lambda kv: (-(sum(kv[1]["dyn"].values()) > 0), -sum(kv[1]["src"].values())))
         for k, m in order:
+            school, basis = "", ""
+            if m["schools"]:
+                school, basis = m["schools"].most_common(1)[0][0], "objects"
+            else:
+                hit = next((n for rx, n in MASTER_RE if rx.search(k)), "")
+                if hit:
+                    school, basis = hit, "known master"
+            m["school"] = school
             w.writerow([m["names"].most_common(1)[0][0], top(m["names"], 5), sum(m["src"].values()),
-                        m["src"]["vam"], m["src"]["dia"], m["src"]["cma"], sum(m["dyn"].values()),
-                        top(m["dyn"], 4), top(m["roles"], 3), top(m["places"], 3),
+                        m["src"]["vam"], m["src"]["dia"], m["src"]["cma"], m["book"], sum(m["dyn"].values()),
+                        top(m["dyn"], 4), school, basis, top(m["schools"], 3), top(m["roles"], 3), top(m["places"], 3),
                         min(m["begins"]) if m["begins"] else "", max(m["ends"]) if m["ends"] else "",
                         " ".join(m["ids"]), " | ".join(m["titles"])])
-    return agg, mk
+
+    # ---- schools / workshops and production centres
+    sch = collections.defaultdict(new_agg)
+    cen = collections.defaultdict(new_agg)
+    for r in rows:
+        if r["school"]:
+            add(sch[r["school"]], r)
+        if r["centre"]:
+            add(cen[r["centre"]], r)
+    masters = collections.defaultdict(collections.Counter)
+    for k, m in mk.items():
+        if m.get("school"):
+            masters[m["school"]][m["names"].most_common(1)[0][0]] = sum(m["src"].values())
+    scols = ["kind", "name", "objects", "objects_vam", "objects_dia", "objects_cma", "basis",
+             "dynasties", "date_begin_min", "date_end_max", "mid_median", "book_arts_objects",
+             "attributed_objects", "attributed_share", "book_arts_attributed_share", "named_masters",
+             "top_object_types", "top_techniques", "reigns", "example_ids"]
+    with open(os.path.join(OUT_DIR, "islamic_schools.csv"), "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(scols)
+        for kind, table in (("school", sch), ("centre", cen)):
+            for name, a in sorted(table.items(), key=lambda kv: -kv[1]["n"]):
+                mids = sorted(a["mids"])
+                named = masters.get(name, collections.Counter()) if kind == "school" else a["makers"]
+                w.writerow([kind, name, a["n"], a["src"]["vam"], a["src"]["dia"], a["src"]["cma"],
+                            top(a["basis"], 2) if kind == "school" else "place",
+                            top(a["dyn"], 4), min(a["begins"]) if a["begins"] else "",
+                            max(a["ends"]) if a["ends"] else "", round(statistics.median(mids)) if mids else "",
+                            a["book"], a["attr"], share(a["attr"], a["n"]), share(a["book_attr"], a["book"]),
+                            top(named, 10), top(a["types"]), top(a["tech"]), top(a["reigns"], 4),
+                            " ".join(a["examples"])])
+    return agg, mk, sch
 
 
 def main():
@@ -999,13 +1126,16 @@ def main():
     else:
         print("  HARVARD_API_KEY not set; Harvard Art Museums skipped", file=sys.stderr)
 
-    agg, mk = write_outputs(rows)
+    agg, mk, sch = write_outputs(rows)
     with_dyn = collections.Counter(r["source"] for r in rows if r["dynasties"])
     checks = collections.Counter((r["source"], r["check"]) for r in rows)
     print(f"objects: {dict(stats)}; with a recorded dynasty: {dict(with_dyn)}")
     print(f"inference check: {dict(sorted(checks.items()))}")
-    print(f"dynasties: {len(agg)}; named makers: {len(mk)}")
-    print(f"wrote {OUT_DIR}/islamic_objects.csv, islamic_dynasties.csv, islamic_makers.csv")
+    attributed = collections.Counter(r["source"] for r in rows if r["makers"])
+    with_school = collections.Counter(r["source"] for r in rows if r["school"])
+    print(f"attributed (named maker): {dict(attributed)}; with a school/workshop: {dict(with_school)}")
+    print(f"dynasties: {len(agg)}; schools/workshops: {len(sch)}; named makers: {len(mk)}")
+    print(f"wrote {OUT_DIR}/islamic_objects.csv, islamic_dynasties.csv, islamic_makers.csv, islamic_schools.csv")
 
 
 if __name__ == "__main__":
