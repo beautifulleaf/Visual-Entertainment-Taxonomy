@@ -28,10 +28,11 @@ def _blind(prefix, keyname="leaf"):
         r = rat.get(str(i))
         if not r:
             continue
-        tab = items.get(str(i), {}).get("tab", "all")
+        tab = items.get(str(i), {}).get("tab") or items.get(str(i), {}).get("kind", "all")
         got = (r.get(keyname) or r.get("disposition") or "").strip()
         n[tab] += 1
-        ok[tab] += got.split("/")[0] == want.split("/")[0]
+        c = lambda d: (d.partition(":")[2] if d.split(":")[0] in ("leaf", "kind", "alias") else d).split("/")[0].strip()
+        ok[tab] += c(got) == c(want)
     return ok, n
 
 
