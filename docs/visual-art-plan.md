@@ -116,6 +116,16 @@ Medium is a third axis alongside region and period: painting and calligraphy, sc
 | **UNESCO World Heritage List** (~1,200 sites) + Wikidata buildings by sitelinks | exemplar monuments for architecture and sites |
 | ColBase, National Palace Museum, ICOM / national museum portals | East Asian ceramics, bronzes and lacquer, plus regional depth |
 
+*Measured, first harvest (2026-10-28, `pipelines/unattributed/build_traditions.py`):*
+- **Input:** 193,847 unattributed Met objects. Placeholder makers ("Unidentified artist", "Yoruba artist", the Benin brass-casting guild) count as unattributed; the Drawings and Prints, Photographs and Libraries departments are excluded.
+- **Cultures:** 6,394 raw culture strings normalise to 4,329 culture keys at two levels (`greek` > `greek, attic`), plus 822 culture × period and 342 period rows. 228 cultures have ≥50 objects, 41 have ≥500, and 668 have Timeline works.
+- **Object traditions:** 8,895 rows of culture × classification and culture × technique. Technique comes from the Medium field (blue-and-white, celadon, sancai, stonepaste, lustreware, maki-e, ...).
+- **AIC:** adds counts for 295 cultures (by place of origin). Cleveland is skipped, because the fetched data has no culture field.
+- **Caveats:**
+  - The Met records no Period or Dynasty on Islamic Art objects, so the dynasty (Mamluk, Safavid, Timurid, Ottoman, ...) is inferred from culture plus date (`ISLAMIC_PERIODS`).
+  - Attic red-figure vs black-figure cannot be split: the Met CSV never records it.
+- **Pending:** the Getty AAT mapping. vocab.getty.edu returned 499/403 throughout, so re-run the script when it's back; the AAT columns are empty until then.
+
 ### Prominence metric (tradition nodes)
 Each signal is a percentile within its region × period cell:
 1. **Curatorial:** has Heilbrunn Timeline works, or a Smarthistory or Heilbrunn essay (auto-include).
