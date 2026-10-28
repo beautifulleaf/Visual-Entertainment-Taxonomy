@@ -39,8 +39,8 @@ Steps
             country field (country names in six languages, capitals, million cities).
    Strong name matches (exact, normalised) are accepted with art, birth or country,
    or with creative when they are the only candidate; weak ones (transliteration,
-   typo) need (birth or country) and (art or creative). A birth conflict rejects a
-   candidate unless art and country both agree. The best-scoring candidate wins;
+   typo) need both art and birth. A birth conflict rejects a candidate unless art
+   and country both agree; a near birth year (2-3 off) rejects one without art. The best-scoring candidate wins;
    if more than one was accepted the row is flagged ambiguous with the others listed.
 5. Outputs
    data/interim/contemporary_list_artists.csv  one row per distinct list artist:
@@ -624,7 +624,10 @@ class Judge:
         ev.insert(0, f"name {match}")
         if conflict and not (art and country):
             return False, 0, ev, False
-        ok = (art or birth or country or creative) if strong else ((birth or country) and (art or creative))
+        if near and not art:
+            # A birth year 2-3 years off is only tolerated for a visual artist.
+            return False, 0, ev, False
+        ok = (art or birth or country or creative) if strong else (birth and art)
         only_creative = creative and not (birth or country)
         score = 3 * art + 3 * birth + 2 * country + creative + 0.5 * near + (1 if match == "exact" else 0.5 if strong else 0)
         return ok, score, ev, only_creative

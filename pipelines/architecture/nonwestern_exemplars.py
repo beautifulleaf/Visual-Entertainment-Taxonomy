@@ -219,7 +219,7 @@ def R(rid, style, family, **cond):
 
 
 # Conditions: classes (any), countries (any), place (regex over admin ancestors
-# + part-of labels), years (lo, hi inclusive, needs a date), undated (needs no
+# + part-of labels), name (regex over the item's label), years (lo, hi inclusive, needs a date), undated (needs no
 # date), culture (regex over P2596 labels), founder (regex over P112/P88),
 # bbox (lat_lo, lat_hi, lon_lo, lon_hi), maya (in the Maya area: culture Maya,
 # Guatemala/Belize, the Mexican Maya states, or western Honduras/El Salvador),
@@ -263,6 +263,7 @@ RULES = [
 
     # --- other Mesoamerica
     R("X01", "Teotihuacan", "mesoamerican", countries=cs("Mexico"), classes=MESO_SITE, place=r"teotihuac"),
+    R("X01b", "Teotihuacan", "mesoamerican", countries=cs("Mexico"), classes=MESO_SITE, name=r"teotihuac|pyramid of the (sun|moon)|feathered serpent|ciudadela"),
     R("X02", "Aztec", "mesoamerican", countries=cs("Mexico"), classes=MESO_SITE, years=(1300, 1521),
       place=r"mexico city|state of mexico|méxico|hidalgo|tlaxcala|puebla|morelos"),
     R("X03", "Zapotec / Mixtec (Oaxaca)", "mesoamerican", countries=cs("Mexico"), classes=MESO_SITE, place=r"oaxaca"),
@@ -282,7 +283,7 @@ RULES = [
       place=r"lalibela|tigray|gheralta|wukro|lasta|north wollo"),
     R("F03", "Gondarine (Ethiopia)", "ethiopian", countries=ETH, classes={"castle", "palace", "fortress", "church"} | SITE, place=r"gondar|fasil"),
     R("F04", "Aksumite", "ethiopian", countries=ETH, classes=SITE | {"church", "tomb"}, place=r"aksum|axum|yeha"),
-    R("F05", "Ethiopian church (other)", "ethiopian", countries=ETH, classes={"church", "monastery"}, notable=True),
+    R("F05", "Ethiopian church (other)", "ethiopian", countries=ETH, classes={"church", "monastery"}, years=(300, 1900)),
     R("F10", "Zimbabwe culture (dry-stone)", "zimbabwe", countries=cs("Zimbabwe", "Mozambique", "Botswana"), classes=SITE),
     R("F11", "Zimbabwe culture (dry-stone)", "zimbabwe", countries=cs("South Africa"), classes=SITE, place=r"limpopo|mapungubwe|vhembe"),
     R("F20", "Sudano-Sahelian", "sahel", countries=cs("Mali", "Niger", "Burkina Faso", "Guinea", "Ivory Coast", "Ghana", "Chad"),
@@ -291,7 +292,7 @@ RULES = [
       classes={"mosque", "madrasa", "tomb", "mausoleum", "palace"}, undated=True, notable=True),
     R("F22", "Sudano-Sahelian", "sahel", countries=cs("Nigeria", "Senegal"), classes={"mosque", "palace"}, years=(1200, 1930)),
     R("F23", "Sudano-Sahelian", "sahel", countries=cs("Nigeria"), classes={"mosque", "palace"}, place=r"kano|katsina|zaria|sokoto|zazzau|bauchi|kaduna"),
-    R("F24", "Saharan stone (Mauritania ksour)", "sahel", countries=cs("Mauritania"), classes={"mosque", "ksar"} | SITE),
+    R("F24", "Saharan stone (Mauritania ksour)", "saharan", countries=cs("Mauritania"), classes={"mosque", "ksar"} | SITE),
     R("F25", "Sudano-Sahelian (urban sites)", "sahel", countries=cs("Mali"), classes=SITE),
     R("F30", "Swahili coast (coral stone)", "swahili", countries=SWAHILI, classes={"mosque", "tomb", "mausoleum", "palace", "fort"} | SITE,
       place=r"kilwa|lamu|mombasa|kilifi|zanzibar|unguja|pemba|tanga|lindi|mtwara|malindi|gedi|songo|kwale|bagamoyo|pwani|coast",
@@ -345,7 +346,7 @@ RULES = [
       place=r"sumatra|jambi|riau|muara|padang lawas|lampung|bengkulu"),
     R("J06", "Balinese (pura)", "balinese", countries=cs("Indonesia"), classes={"hindu_temple", "temple", "candi"}, place=r"\bbali"),
     R("J07", "Javanese candi (other)", "javanese", countries=cs("Indonesia"), classes={"candi"}),
-    R("J08", "Javanese / Malay mosque (tajug)", "javanese", countries=cs("Indonesia", "Malaysia"), classes={"mosque"}, years=(1400, 1900),
+    R("J08", "Javanese / Malay mosque (tajug)", "javanese", countries=cs("Indonesia", "Malaysia"), classes={"mosque"}, years=(1400, 1850),
       before=r"mosque architecture in indonesia"),
 
     # --- South Asia: Sri Lanka, Nepal, Bhutan, Gandhara
@@ -355,7 +356,9 @@ RULES = [
     R("S04", "Sinhalese Buddhist (other)", "sri_lankan", countries=cs("Sri Lanka"), classes={"buddhist_temple", "stupa", "cave_temple", "rock_cut"} | SITE, notable=True),
     R("S05", "Sri Lankan Dravidian (kovil)", "dravidian", countries=cs("Sri Lanka"), classes={"hindu_temple"}, notable=True),
     R("S10", "Newar (Kathmandu valley)", "newar", countries=cs("Nepal"), classes={"hindu_temple", "buddhist_temple", "pagoda", "stupa", "palace", "temple"},
-      before=r"newa"),
+      years=(-500, 1850), before=r"newa"),
+    R("S10b", "Newar (Kathmandu valley)", "newar", countries=cs("Nepal"), classes={"hindu_temple", "buddhist_temple", "pagoda", "stupa", "palace", "temple"},
+      undated=True),
     R("S11", "Bhutanese dzong", "tibetan", countries=cs("Bhutan"), classes={"dzong", "fortress", "fort", "buddhist_temple", "tibetan_monastery"}),
     R("S12", "Tibetan Buddhist", "tibetan", classes={"tibetan_monastery"}, before=r"tibet"),
     R("S13", "Gandharan Buddhist", "gandharan", countries=cs("Pakistan", "Afghanistan"), classes={"stupa", "buddhist_temple", "archaeological_site", "ruins"},
@@ -399,7 +402,6 @@ RULES = [
     R("G04", "Nagara — Maru-Gurjara", "nagara", countries=cs("India"), classes={"jain_temple"}, place=r"gujarat|rajasthan|mount abu"),
     R("G05", "Nagara — Maru-Gurjara", "nagara", countries=cs("India"), classes=TEMPLE, place=r"gujarat|rajasthan", years=(950, 1350), before=r"m[aā]ru-gurjara"),
     R("G06", "Nagara — Maru-Gurjara", "nagara", countries=cs("India"), classes=TEMPLE, place=r"gujarat|rajasthan", undated=True, notable=True),
-    R("G07", "Stepwell (western India)", "nagara", countries=cs("India", "Pakistan"), classes={"stepwell"}),
     R("G08", "Nagara — Bhumija / Hemadpanti (Deccan)", "nagara", countries=cs("India"), classes=TEMPLE, place=r"maharashtra", years=(1000, 1350)),
     R("G09", "Indian rock-cut (Deccan caves)", "rock_cut_india", countries=cs("India"), classes={"cave_temple", "rock_cut", "buddhist_temple", "hindu_temple", "jain_temple"},
       place=r"ajanta|ellora|elephanta|karla|bhaja|kanheri|aurangabad|pune|nashik|raigad|badami cave"),
@@ -428,7 +430,15 @@ RULES = [
     R("I05", "Bengal Sultanate", "indo_islamic", countries=cs("India", "Bangladesh"), classes=ISL, place=r"bengal|bangladesh|dhaka|rajshahi|khulna|chittagong|sylhet|bagerhat|gaur|pandua|malda",
       years=(1352, 1576), before=r"bengal sultanate"),
     R("I06", "Indo-Islamic (Delhi Sultanate)", "indo_islamic", countries=cs("India", "Pakistan", "Bangladesh"), classes=ISL, years=(1192, 1525), before=r"indo-islamic|sultanate"),
-    R("I07", "Mughal", "mughal", countries=cs("India", "Pakistan", "Bangladesh"), classes=ISL, years=(1526, 1857), before=r"^mughal architecture"),
+    R("I07", "Mughal", "mughal", countries=cs("India", "Pakistan", "Bangladesh"), classes=ISL - {"fort", "fortress", "palace"}, years=(1526, 1857), before=r"^mughal architecture"),
+    R("I07b", "Mughal", "mughal", countries=cs("India", "Pakistan", "Bangladesh"), classes={"fort", "fortress", "palace"}, years=(1526, 1857),
+      place=r"agra|delhi|lahore|fatehpur|allahabad|prayagraj|attock|ajmer|aurangabad|dhaka|srinagar"),
+    R("I08", "Mughal", "mughal", countries=cs("India", "Pakistan", "Bangladesh"), classes=ISL, undated=True, notable=True,
+      place=r"\bagra\b|lahore"),
+    R("I08b", "Mughal", "mughal", countries=cs("India", "Pakistan", "Bangladesh"), classes=ISL, name=r"taj mahal|humayun|akbar|jahangir|itimad|shalimar"),
+    R("I09", "Maratha (forts)", "maratha", countries=cs("India"), classes={"fort", "fortress"}, place=r"maharashtra", notable=True),
+    R("G07", "Stepwell (western India)", "nagara", countries=cs("India", "Pakistan"), classes={"stepwell"}),
+
 
     # --- Iran, Central Asia, Anatolia, Arab world, Maghreb (dated only)
     R("P01", "Persian — early Islamic (Samanid / Buyid / Ghaznavid)", "persian", countries=cs("Iran", "Afghanistan", "Uzbekistan", "Turkmenistan", "Tajikistan"), classes=ISL, years=(800, 1036)),
@@ -441,7 +451,7 @@ RULES = [
     R("P08", "Azerbaijani (Shirvan–Absheron)", "persian", countries=cs("Azerbaijan"), classes=ISL, years=(1256, 1900)),
     R("U01", "Anatolian Seljuk / Beylik", "ottoman", countries=cs("Turkey"), classes=ISL, years=(1075, 1350), before=r"anatolian seljuk"),
     R("U02", "Ottoman", "ottoman", countries=cs("Turkey"), classes=ISL, years=(1351, 1922), before=r"^ottoman architecture$"),
-    R("E01", "Early Islamic (Umayyad / Abbasid / Tulunid)", "arab_islamic", countries=cs("Egypt", "Syria", "Iraq", "Tunisia"), classes=ISL, years=(640, 968)),
+    R("E01", "Early Islamic (Umayyad / Abbasid / Tulunid)", "arab_islamic", countries=cs("Egypt", "Syria", "Iraq"), classes=ISL, years=(640, 968)),
     R("E02", "Fatimid", "arab_islamic", countries=cs("Egypt", "Syria", "Tunisia"), classes=ISL, years=(969, 1170), before=r"fatimid"),
     R("E03", "Ayyubid", "arab_islamic", countries=cs("Egypt", "Syria", "Iraq"), classes=ISL, years=(1171, 1249)),
     R("E04", "Mamluk", "arab_islamic", countries=cs("Egypt", "Syria"), classes=ISL, years=(1250, 1517), before=r"^mamluk"),
@@ -527,8 +537,9 @@ FAMILY_RE = [
 COMPAT = {
     "mughal": {"indo_islamic"}, "indo_islamic": {"mughal"},
     "vesara": {"dravidian"}, "dravidian": {"vesara"},
-    "persian": {"central_asian", "ottoman"}, "central_asian": {"persian"},
-    "ottoman": {"persian", "arab_islamic"}, "arab_islamic": {"ottoman"},
+    "persian": {"central_asian", "ottoman", "arab_islamic"}, "central_asian": {"persian"},
+    "ottoman": {"persian", "arab_islamic", "maghreb"}, "arab_islamic": {"ottoman", "persian", "maghreb"},
+    "maghreb": {"ottoman", "arab_islamic"}, "saharan": {"maghreb", "sahel"}, "maratha": {"mughal", "rajput"},
     "maya": {"mesoamerican"}, "mesoamerican": {"maya"},
     "nagara": {"bengal", "rajput"}, "bengal": {"nagara", "indo_islamic"}, "rajput": {"mughal", "nagara", "indo_islamic"},
     "javanese": {"balinese"}, "balinese": {"javanese"},
@@ -735,6 +746,12 @@ def in_maya_area(c):
 
 
 def match(rule, c):
+    # Churches (and converted churches) only ever match the Ethiopian rules: the
+    # generic "temple" class otherwise pulls colonial churches into local styles.
+    if "church" in c["classes"] and rule["family"] != "ethiopian":
+        return False
+    if "name" in rule and not re.search(rule["name"], c["label"].lower()):
+        return False
     if "culture" in rule and not re.search(rule["culture"], c["culture"]):
         return False
     if "classes" in rule and not (rule["classes"] & c["classes"]):
@@ -776,6 +793,8 @@ def describe(rule):
         parts.append("class∈{" + ",".join(sorted(rule["classes"])) + "}")
     if "place" in rule:
         parts.append(f"place~/{rule['place'][:60]}/")
+    if "name" in rule:
+        parts.append(f"label~/{rule['name']}/")
     if "founder" in rule:
         parts.append(f"founder~/{rule['founder']}/")
     if "years" in rule:
@@ -871,6 +890,13 @@ def main():
         ok = {r["family"]} | COMPAT.get(r["family"], set())
         if fams & ok:
             continue
+        if c["year"] is not None and c["year"] >= 1800:
+            # 19th/20th-century buildings mix local and European revival styles legitimately.
+            existing = {s: f - {"european"} for s, f in existing.items()}
+            if not set().union(*existing.values()):
+                continue
+            if set().union(*existing.values()) & ok:
+                continue
         bad = [f"{lab(s)} ({'/'.join(sorted(f))})" for s, f in existing.items() if f and not f & ok]
         c["flag"] = f"P149 {'; '.join(bad)} vs proposed {r['style']} ({r['family']})"
         flags.append(c)
