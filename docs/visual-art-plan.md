@@ -208,6 +208,7 @@ Wikidata is therefore a good **candidate pool and ID crosswalk**, but weak as a 
 - **Caveats for scoring:**
   - `art_occ_share` (art occupations ÷ all occupations) is needed: celebrities who also paint or design (Bowie, George W. Bush) are in the pool on occupation.
   - Wikidata currently gives Yayoi Kusama a 2026 death date. Check it before relying on `living`.
+  - **Modern architects (5,167 in the pool) stay in as gathered.** Whether they are treated as artists or placed under architectural styles is decided in the classifying/clustering stage (decided 2026-10-28).
 ### 3.2 Signals and sources
 
 | Signal | Source | Access | What it captures |
