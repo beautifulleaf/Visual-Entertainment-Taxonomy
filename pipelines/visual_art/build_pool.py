@@ -247,12 +247,14 @@ def main():
                         for c in f["claims"].get(k, []) if re.fullmatch(r"Q\d+", c)})
     continents = fetch_country_continents(countries)
     region_continents, region_countries = set(cfg["continents"]), set(cfg["countries"])
+    excluded = set(cfg.get("exclude_countries", []))
 
     def in_region(claims):
         for key in ("P27", "birth_country", "death_country"):
             cs = claims.get(key, [])
             if cs:  # first property that has any country decides
-                return any(c in region_countries or region_continents & set(continents.get(c, [])) for c in cs)
+                return any(c in region_countries or (c not in excluded and region_continents & set(continents.get(c, [])))
+                           for c in cs)
         return None  # no country information at all
 
     lo, hi = cfg["active"]

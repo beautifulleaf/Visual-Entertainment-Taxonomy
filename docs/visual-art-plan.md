@@ -119,6 +119,16 @@ The target depth is the owner-supplied list in `seeds/visual-art/europe_1400-190
   - **A second pass for non-Western styles is running.** It assigns styles via building class (Hindu or Buddhist temple, stupa, mosque, pyramid, ...) × country × period, and via components of UNESCO sites. The coverage audit (§2.2) checks the result.
   - **Open item:** the unstyled list includes cities and natural sites (filter by instance-of).
 
+### 2.4 Modern era pass (decided 2026-10-28)
+**Periodisation:** *modern* runs from Impressionism (1860s–70s) to about 1960, and *contemporary* from the 1960s on (§3; contemporary pool = born ≥1920).
+- **The gap it closes:** the Europe 1400–1900 pass only takes artists active by 1900 (born by about 1880), so artists born 1881–1919 were in neither pool. Picasso, Duchamp, Magritte, O'Keeffe, Kahlo, Rivera, Rothko, Pollock and Henry Moore were all missing.
+- **The pass:** artists active **1860–1960**, all media, split into **nine world regions**, each ranked within its own medium × period cells so that every modernism is measured against its peers, not against Paris and New York.
+  - The regions: Europe · North America · Latin America · East Asia · South Asia · Southeast Asia · Middle East, North Africa and Central Asia · Sub-Saharan Africa · Oceania (`regions.MODERN_REGIONS`; `exclude_countries` carves Mexico and the Caribbean out of North America, and North Africa out of Africa).
+  - Examples of what this is meant to catch: Mexican muralism, the Bengal School and Indian modernism, *yōga*/*Nihonga*, Chinese modern ink painting, the Nsukka/Zaria schools.
+- **Scoring:** there are no modern reference lists yet, so each region is scored with the model fitted on Europe 1400–1900. If WikiArt-style lists for modern movements (Impressionism, Post-Impressionism, Fauvism, Expressionism, Cubism, Futurism, Dada, Surrealism, Abstract Expressionism, plus non-Western modernisms) are added to `seeds/visual-art/`, the pass can be recalibrated.
+- **Overlaps:** artists active 1860–1900 are also in the Europe 1400–1900 pass, and those born 1920–1940 are also in the contemporary pool. Selections are unioned by QID.
+- **Runner:** `pipelines/visual_art/run_modern.sh`.
+
 ### 2.2 Gathering exit criterion: coverage audit (decided 2026-10-28)
 Node creation happens in the classifying stage. Gathering must hand it **evidence for every region at the level that region records**, so that no non-Western tradition drops out because it lacks artist names.
 - **Grid:** before gathering closes, build a region × period audit grid. Per cell, it counts:

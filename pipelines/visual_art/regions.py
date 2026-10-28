@@ -126,6 +126,52 @@ REGIONS = {
     # },
 }
 
+# Country groups for regions that cut across continents (QIDs verified by label).
+LATIN_AMERICA_NORTH = [
+    "Q96", "Q774", "Q242", "Q783", "Q792", "Q811", "Q800", "Q804",  # Mexico, Central America
+    "Q241", "Q786", "Q790", "Q1183", "Q766",                        # Caribbean
+]
+EAST_ASIA = ["Q148", "Q17", "Q884", "Q423", "Q865", "Q711", "Q8646", "Q18097", "Q188712", "Q8733", "Q13426199"]
+SOUTH_ASIA = ["Q668", "Q843", "Q902", "Q854", "Q837", "Q129286", "Q889"]
+SOUTHEAST_ASIA = ["Q252", "Q928", "Q869", "Q881", "Q833", "Q334", "Q836", "Q424", "Q188161"]
+NORTH_AFRICA = ["Q79", "Q1016", "Q948", "Q262", "Q1028"]
+WEST_CENTRAL_ASIA = [
+    "Q43", "Q794", "Q796", "Q822", "Q858", "Q851", "Q12560", "Q801", "Q810", "Q817", "Q842",
+    "Q846", "Q878", "Q398", "Q805", "Q219060",                       # Middle East
+    "Q265", "Q874", "Q813", "Q863",                                  # Central Asia
+]
+
+# Modern era (Impressionism to ~1960; contemporary starts in the 1960s), split by
+# world region so that each modernism is ranked against its own peers, not
+# against Paris and New York. No reference lists yet: each region is scored with
+# the model fitted on europe_1400-1900 (`depth_model.py apply`).
+MODERN_REGIONS = {
+    "europe": {"continents": [EUROPE], "exclude_countries": WEST_CENTRAL_ASIA},
+    "north_america": {"continents": [NORTH_AMERICA], "exclude_countries": LATIN_AMERICA_NORTH},
+    "latin_america": {"continents": [SOUTH_AMERICA], "countries": LATIN_AMERICA_NORTH},
+    "east_asia": {"countries": EAST_ASIA},
+    "south_asia": {"countries": SOUTH_ASIA},
+    "southeast_asia": {"countries": SOUTHEAST_ASIA},
+    "mena_central_asia": {"countries": NORTH_AFRICA + WEST_CENTRAL_ASIA},
+    "subsaharan_africa": {"continents": [AFRICA], "exclude_countries": NORTH_AFRICA},
+    "oceania": {"continents": [OCEANIA, INSULAR_OCEANIA, AUSTRALIA]},
+}
+for _name, _geo in MODERN_REGIONS.items():
+    REGIONS[f"modern_{_name}"] = {
+        "label": f"Modern art (active 1860-1960), {_name.replace('_', ' ')}",
+        "active": (1860, 1960),
+        "media": ALL_MEDIA,
+        "train_media": ["painting"],
+        "model_excluded_media": ["architecture"],
+        "continents": _geo.get("continents", []),
+        "countries": _geo.get("countries", []),
+        "exclude_countries": _geo.get("exclude_countries", []),
+        "min_sitelinks": 3,
+        "reference": None,
+        "collections": GLOBAL_COLLECTIONS,
+        "authority_ids": REGIONS["europe_1400-1900"]["authority_ids"],
+    }
+
 # Width (years) of the period buckets inside a region. Features are converted to
 # percentiles within each region x period x medium cell, so a model fitted where
 # Wikipedia coverage is dense transfers to cells (and media) where it is thin.
