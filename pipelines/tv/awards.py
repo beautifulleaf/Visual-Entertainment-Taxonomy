@@ -558,10 +558,12 @@ def item_details(qids):
 # ---------------------------------------------------------------- title matching
 
 def norm(title):
-    t = unicodedata.normalize("NFKD", title or "").encode("ascii", "ignore").decode().lower()
+    # Drop accents but keep non-Latin letters (CJK, Hangul...): an ASCII-only fold turns them into "".
+    t = unicodedata.normalize("NFKD", title or "")
+    t = "".join(ch for ch in t if not unicodedata.combining(ch)).lower()
     t = re.sub(r"\(.*?\)", " ", t)
     t = t.replace("&", " and ")
-    t = re.sub(r"[^a-z0-9]+", " ", t).strip()
+    t = re.sub(r"[\W_]+", " ", t).strip()
     t = re.sub(r"^(the|a|an) ", "", t)
     return t
 
@@ -579,7 +581,10 @@ def load_routed():
 
 
 def title_match(by_title, title, year, country):
-    cands = by_title.get(norm(title), [])
+    key = norm(title)
+    if not key:
+        return None
+    cands = by_title.get(key, [])
     if year:
         cands = [c for c in cands if c["start"] and year - 15 <= c["start"] <= year + 1]
     if not cands:
