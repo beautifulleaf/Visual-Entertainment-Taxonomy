@@ -1,0 +1,9 @@
+pool_id,disposition,note
+architecture_styles:Q764675,kind:K1-5,UNESCO World Heritage group (Aragon)
+architecture_styles:Q15011985,alias:K1-5,Mudéjar style (art and architecture item)
+architecture_styles:Q1136545,exclude:false match (Spanish painting and literary genre),
+architecture_styles:Q3374557,leaf:K2-5,British colonial revival of Indo-Islamic forms
+architecture_styles:Q614624,leaf:K2-2,
+architecture_styles:Q2860353,alias:K1-5,duplicate item for Mudéjar architecture
+world_folk:wd:Q12528089,exclude:fails inclusion (0 objects; 3 sitelinks); review with Central Asia slice,
+world_folk:wd:Q16127661,exclude:fails inclusion (0 objects; 1 sitelink); costume ensemble,
