@@ -335,7 +335,7 @@ Q15229457,Mannerist art in Milan,tag:place,Mannerist art in Milan
 Q1595728,Heimatstil,kind:L84/Sub-styles,Heimatstil
 Q16482064,Portuguese Romanesque architecture,tag:place,Portuguese Romanesque architecture
 Q1811245,barocco leccese,kind:artists:T183/Regional schools,Lecce Baroque (barocco leccese)
-Q18409378,Tatar architecture,route:nonwestern,Tatar architecture (Volga Tatar Islamic)
+Q18409378,Tatar architecture,route:K1,"Tatar architecture (Volga Tatar mosques, Kazan)"
 Q1936935,minimalism in architecture,kind:artists:T190/Movements,Minimalism in architecture
 Q20645040,Stile Liberty,kind:artists:T185/Regional schools,Stile Liberty
 Q2095930,Pinnettas,route:K12,Pinnettas (Sardinian shepherds' huts)
@@ -507,7 +507,7 @@ Q508475,colonial architecture,exclude:umbrella,colonial architecture (K5 colonia
 Q1400086,Federal architecture,leaf:L64,
 Q5346070,Edwardian architecture,kind:L8/Sub-styles,Edwardian architecture (Edwardian Baroque)
 Q1755539,City Beautiful movement,kind:L11/Movements,City Beautiful movement
-Q338739,Talud-tablero,route:nonwestern,talud-tablero
+Q338739,Talud-tablero,route:nonwestern,talud-tablero: a kind of non-Western L60 Mesoamerican Architecture (not in that slice's disp)
 Q548879,novelty architecture,exclude:building category,novelty architecture
 Q2650380,Mesoamerican architecture,route:nonwestern,Mesoamerican architecture
 Q3645460,Spanish Colonial Revival architecture,leaf:L17,
@@ -599,7 +599,7 @@ Q54979933,Victorian Free Classical,kind:L13/Sub-styles,Victorian Free Classical 
 Q186018,contemporary architecture,leaf:artists:T190,
 Q1431376,Baroque literature,exclude:not architecture,Baroque literature
 Q2004258,Inca architecture,route:nonwestern,Inca architecture
-Q17625141,Cholet,route:nonwestern,"Neo-Andean (cholet), Bolivia"
+Q17625141,Cholet,kind:artists:T190/Regional schools,"Neo-Andean (cholet) of Freddy Mamani, El Alto; non-Western slice routed it west"
 Q7232704,Portuguese colonial architecture,leaf:L70,
 Q9630227,colonial architecture of Brazil,kind:L70/Regional schools,Brazilian colonial
 Q899271,Brazilian baroque,kind:L70/Sub-styles,Brazilian Baroque
@@ -607,7 +607,7 @@ Q189772,Brazilian academic art,route:artist-led,Brazilian academic art
 Q25040753,Muisca architecture,route:nonwestern,Muisca architecture
 Q3083331,Andean Baroque,leaf:L69,
 Q9630291,Modernist architecture in Brazil,kind:artists:T186/Regional schools,Brazilian modernism
-Q5099182,Chilotan architecture,route:K12,Chilotan architecture
+Q5099182,Chilotan architecture,route:nonwestern,Chilotan architecture = non-Western leaf (K12) Chilotan Architecture
 Q34636,Art Nouveau,route:artists:T168,Art Nouveau movement; architecture is artists:T185
 Q147516,magic realism,route:artist-led,magic realism
 Q33565,stilt house,exclude:building type,stilt house (generic)
@@ -639,7 +639,7 @@ Q4745458,American folk music revival,exclude:not architecture,American folk musi
 Q1973650,Templon,exclude:building element,templon
 Q3270912,Architecture of cathedrals and great churches,exclude:umbrella,cathedral architecture topic
 Q4303378,Western Chalukya architecture,route:nonwestern,Western Chalukya architecture
-Q6960545,Vainakh tower architecture,route:nonwestern,Vainakh towers
+Q6960545,Vainakh tower architecture,route:K12,Vainakh tower architecture (Caucasus vernacular towers); not placed by the non-Western slice
 Q8027878,witch window,exclude:building element,witch window
 Q992797,lavatorium,exclude:building element,lavatorium
 Q2694178,Mycenaean architecture,leaf:L36,
@@ -685,7 +685,7 @@ Q5515430,Dutch roof,exclude:building element,Dutch roof
 Q5668507,Rococo painting,route:artist-led,Rococo painting
 Q5723565,Henry IV style,kind:artists:T182/Sub-styles,Henri IV style
 Q61826372,educational architecture,exclude:building type,educational architecture
-Q6402320,Khorasani style,route:nonwestern,Khorasani style
+Q6402320,Khorasani style,route:K1,"Khorasani style (Pope's early Islamic Iranian style), as non-Western slice"
 Q65040981,Hausa architecture,route:nonwestern,Hausa architecture
 Q65062299,minimalist photography,exclude:not architecture,minimalist photography
 Q6806834,Medieval Scandinavian architecture,tag:place,Medieval Scandinavian architecture
@@ -698,11 +698,11 @@ Q4673399,Achaemenid architecture,leaf:L32,
 Q2147720,Umayyad architecture,leaf:K1-1,Umayyad architecture (pilot leaf)
 Q108760735,Ottoman Baroque,alias:K1-12,Ottoman Baroque (alias in pilot)
 Q750181,Umayyad art,alias:K1-1,Umayyad art tagged on buildings
-Q98417627,Ziyarid architecture,route:nonwestern,Ziyarid architecture
+Q98417627,Ziyarid architecture,route:K1,"Ziyarid architecture, as non-Western slice"
 Q37853,Baroque,alias:artists:T183,"Baroque period tagged on 2,195 buildings"
 Q131221,Futurism,route:artist-led,Futurism (art) artists:T61; architecture is FUTU
 Q180902,socialist realism,route:artist-led,socialist realism (art); architecture is STAL
-Q4787206,architecture of Turkey,route:nonwestern,architecture of Turkey (place bucket; Ottoman/Turkish)
+Q4787206,architecture of Turkey,tag:place,architecture of Turkey (place bucket; as non-Western slice)
 Q3621606,Neoclassical architecture in Russia,kind:artists:T184/Regional schools,Russian Neoclassicism
 Q4123717,Vologda wooden architecture,route:K12,Vologda wooden architecture
 Q25407941,Art Nouveau architecture in Russia,tag:place,Art Nouveau architecture in Russia

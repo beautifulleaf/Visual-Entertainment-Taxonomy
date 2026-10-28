@@ -140,6 +140,9 @@ def main():
                 if d.startswith("route") and (sl, p["pool_id"]) in routes:
                     rr = routes[sl, p["pool_id"]]
                     d, note = res(sl, rr["disposition"], rr.get("note", "")), (note + "; " if note else "") + "route resolved: " + rr.get("note", "")
+            if sl in NOPOOL and d.startswith("route:"):
+                note = (note + "; " if note else "") + f"no home yet ({d[6:]})"
+                d = "tag:place"
             out.append({"slice": sl, "pool_id": p["pool_id"], "source": p["source"], "label": p["label"], "type": p["type"],
                         "region": p["region"], "era": p["era"], "objects": p["objects"], "disposition": d, "note": note})
             stats[sl, d.split(":")[0]] += 1
