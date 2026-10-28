@@ -890,3 +890,377 @@ WEAK = {
     "A6-5": "attested as a film form in the fairy-tale literature (Zipes); no item for 'fairy-tale film'",
     "A14-9": "no Wikidata item; attested in Japanese film histories (taiyōzoku eiga)",
 }
+
+
+# --------------------------------------------------------------------------
+# Anime leaves (D4: genre and demographic; format — TV, film, OVA, ONA,
+# special — is a filter). Kinds are titles; seasons and films of one franchise
+# share their franchise's leaf.
+
+_FAM_E = next(f for f in FAMILIES if f["code"] == "E")
+_FAM_E["key"] = [
+    "1. Explicit sexual content made for the adult market (hentai)? → <b>E12 Adult Anime</b>.",
+    "2. Made first for young children (kodomo-muke), or a family literary adaptation? → <b>E11 Children's & Family</b>.",
+    "3. A magical girl who transforms to fight or to help? → <b>E4 Magical Girl</b>.",
+    "4. Giant robots, or a premise of speculative science (space, cyborgs, the future)? → <b>E2 Mecha & Science Fiction</b>.",
+    "5. A sport or a competitive game carries it? → <b>E7 Sports</b>.",
+    "6. Aims first to frighten? → <b>E9 Horror</b>.",
+    "7. Transported or reborn into another world, or an invented fantasy world or yōkai spirit world at its centre? → <b>E3 Fantasy & Isekai</b> (a battle series in a fantasy world with a shōnen battle structure is E1, AN1).",
+    "8. Fights and powers carry it? → <b>E1 Action & Battle</b>.",
+    "9. A love story first? → <b>E5 Romance & Romantic Comedy</b>. Everyday life, healing calm, cute-girls, idols and bands? → <b>E6 Slice of Life & Iyashikei</b>.",
+    "10. Laughter first? → <b>E10 Comedy</b>. Otherwise → <b>E8 Drama, Psychological & Mystery</b>.",
+]
+_FAM_E["subs"].append(("E12", "Adult Anime", "Axis: none (one leaf); is_adult titles of the anime database."))
+
+PRECEDENCE += [
+    ("AN1", "Battle before world", "A series whose episodes are built on escalating fights, rivals and power systems (shōnen battle) is E1 even when set in a fantasy world (<i>Fullmetal Alchemist</i>, <i>Demon Slayer</i>, <i>Jujutsu Kaisen</i>); an isekai or a fantasy whose world and journey carry it stays E3 (<i>Re:Zero</i>, <i>Frieren</i>)."),
+    ("AN2", "Franchise unity", "All seasons, films, OVAs and specials of one franchise share the leaf of its main series, unless a spin-off belongs to another genre outright (a gag spin-off → E10)."),
+    ("AN3", "Demographic", "Shōnen, seinen, shōjo and josei are tags on every title (MAL/AniList demographic); they divide leaves only where the field names a demographic genre (shōjo romance, josei)."),
+    ("AN4", "Non-Japanese animation in the anime database", "Donghua and Korean animation selected through the anime database are placed by the same key, with country as a filter; animation from elsewhere selected as film is A15."),
+]
+
+_add("E1", [
+    ("E1-1", "Shōnen Battle", "broad",
+     "long-running action series of escalating fights, rivals, training arcs and power systems, the core of Weekly Shōnen Jump adaptations (<i>Dragon Ball Z</i>, <i>Naruto</i>, <i>One Piece</i>, <i>Bleach</i>, <i>Jujutsu Kaisen</i>, <i>Demon Slayer</i>).",
+     "battle shōnen; nekketsu", "E3-2 Fantasy Adventure.", "Shōnen manga|battle shōnen"),
+    ("E1-2", "Seinen Action", "medium",
+     "violent action for adult audiences — mercenaries, hunters, gunfights, dark warriors (<i>Berserk</i>, <i>Hellsing</i>, <i>Black Lagoon</i>, <i>Chainsaw Man</i> excepted as shōnen battle).",
+     "seinen action", "E8-5 Crime & Gangster Anime.", "seinen"),
+    ("E1-3", "Samurai & Ninja Anime", "medium",
+     "action in Japan's samurai and ninja past, including chanbara anime (<i>Rurouni Kenshin</i>, <i>Samurai Champloo</i>, <i>Ninja Scroll</i>, <i>Sword of the Stranger</i>).",
+     "chanbara anime; jidaigeki anime", "A7-2 Chanbara.", "Samurai cinema"),
+    ("E1-4", "Superhero Anime", "medium",
+     "anime of costumed heroes and hero societies (<i>My Hero Academia</i>, <i>One-Punch Man</i>, <i>Tiger & Bunny</i>).",
+     "hero anime", "A6-3 Superhero Film.", "superhero fiction"),
+    ("E1-5", "Martial Arts Anime", "narrow",
+     "anime built on hand-to-hand fighting and tournaments outside shōnen battle power systems (<i>Baki</i>, <i>Kengan Ashura</i>, <i>Fist of the North Star</i>).",
+     "", "E7-1 Sports Anime.", "martial arts film"),
+])
+_add("E2", [
+    ("E2-1", "Super Robot", "medium",
+     "giant robots as invincible heroes with signature attacks (<i>Mazinger Z</i>, <i>Getter Robo</i>, <i>Gurren Lagann</i>).",
+     "super robot anime", "E2-2 Real Robot.", "Super robot"),
+    ("E2-2", "Real Robot", "medium",
+     "mecha as mass-produced military machines in realistic wars (<i>Mobile Suit Gundam</i>, <i>Macross</i>, <i>Code Geass</i>, <i>Neon Genesis Evangelion</i>).",
+     "real robot anime", "E2-1 Super Robot.", "Real robot"),
+    ("E2-3", "Cyberpunk Anime", "medium",
+     "high-tech, low-life futures of cyborgs, networks and megacities (<i>Akira</i>, <i>Ghost in the Shell</i>, <i>Serial Experiments Lain</i>, <i>Psycho-Pass</i>).",
+     "", "A5-4 Cyberpunk.", "Cyberpunk"),
+    ("E2-4", "Space Opera Anime", "medium",
+     "adventure and war among the stars (<i>Space Battleship Yamato</i>, <i>Legend of the Galactic Heroes</i>, <i>Cowboy Bebop</i>, <i>Space Brothers</i> excepted as drama).",
+     "", "A5-6 Space Opera & Space Adventure.", "Space opera"),
+    ("E2-5", "Science Fiction Anime", "broad",
+     "speculative anime outside mecha, cyberpunk and space opera: time travel, post-apocalypse, aliens, technology (<i>Steins;Gate</i>, <i>Dr. Stone</i>, <i>Planetes</i>, <i>Attack on Titan</i> excepted as dark fantasy).",
+     "SF anime", "E2-3 Cyberpunk Anime.", "Science fiction"),
+])
+_add("E3", [
+    ("E3-1", "Isekai", "medium",
+     "stories of people transported to or reborn in another world (<i>Re:Zero</i>, <i>Mushoku Tensei</i>, <i>KonoSuba</i>, <i>That Time I Got Reincarnated as a Slime</i>, <i>Sword Art Online</i>).",
+     "isekai; another-world anime", "E3-2 Fantasy Adventure.", "Isekai"),
+    ("E3-2", "Fantasy Adventure", "broad",
+     "quests and journeys through invented worlds and magic (<i>Spirited Away</i>, <i>Frieren</i>, <i>Made in Abyss</i>, <i>Magi</i>).",
+     "high fantasy anime", "E3-1 Isekai; E1-1 Shōnen Battle.", "Fantasy"),
+    ("E3-3", "Dark Fantasy", "medium",
+     "grim fantasy of monsters, war and cruelty (<i>Attack on Titan</i>, <i>Claymore</i>, <i>Devilman Crybaby</i>, <i>Vinland Saga</i> excepted as historical).",
+     "", "E9-1 Horror Anime.", "Dark fantasy"),
+    ("E3-4", "Supernatural & Yōkai Anime", "medium",
+     "the spirit world among us — yōkai, gods, exorcists, ghosts — told as adventure or quiet wonder (<i>Natsume's Book of Friends</i>, <i>Mushishi</i>, <i>Noragami</i>, <i>Mononoke</i>).",
+     "yōkai anime; urban fantasy", "E9-1 Horror Anime; E6-1 Iyashikei.", "Yōkai"),
+])
+_add("E4", [
+    ("E4-1", "Magical Girl", "medium",
+     "mahō shōjo: girls who gain magic to help others, from <i>Sally the Witch</i> and <i>Minky Momo</i> to <i>Cardcaptor Sakura</i>.",
+     "mahō shōjo; majokko", "E4-2 Magical Girl Warrior.", "Magical girl"),
+    ("E4-2", "Magical Girl Warrior", "medium",
+     "magical girls who transform to fight evil in teams, and their dark deconstructions (<i>Sailor Moon</i>, <i>Pretty Cure</i>, <i>Puella Magi Madoka Magica</i>).",
+     "sentai magical girl; dark magical girl", "E4-1 Magical Girl.", "Magical girl"),
+])
+_add("E5", [
+    ("E5-1", "Shōjo Romance", "medium",
+     "romance written for girls, of first love and feelings (<i>Fruits Basket</i>, <i>Kimi ni Todoke</i>, <i>Ouran High School Host Club</i>, <i>Nana</i> excepted as josei).",
+     "shōjo manga romance", "E5-6 Josei.", "Shōjo manga"),
+    ("E5-2", "Romantic Comedy Anime", "broad",
+     "love stories told for laughter, often school rom-coms (<i>Toradora!</i>, <i>Kaguya-sama: Love Is War</i>, <i>Horimiya</i>).",
+     "rom-com", "E5-3 Harem.", "Romantic comedy"),
+    ("E5-3", "Harem", "medium",
+     "one protagonist surrounded by several romantic interests (<i>Love Hina</i>, <i>The Quintessential Quintuplets</i>, <i>Tenchi Muyo!</i>).",
+     "harem anime; reverse harem", "E10-2 Ecchi.", "Harem (genre)"),
+    ("E5-4", "Boys' Love", "narrow",
+     "romance between men (BL, yaoi) (<i>Given</i>, <i>Sasaki and Miyano</i>, <i>Doukyuusei</i>).",
+     "BL; yaoi; shōnen-ai", "E5-5 Yuri.", "Yaoi"),
+    ("E5-5", "Yuri", "narrow",
+     "romance between women (<i>Bloom Into You</i>, <i>Citrus</i>, <i>Revolutionary Girl Utena</i> excepted as drama).",
+     "shōjo-ai; girls' love", "E5-4 Boys' Love.", "Yuri (genre)"),
+    ("E5-6", "Romantic Drama Anime", "broad",
+     "love stories told as drama, including josei romance (<i>Your Name</i> excepted as fantasy; <i>Nana</i>, <i>Honey and Clover</i>, <i>Clannad</i>, <i>The Garden of Words</i>).",
+     "josei romance", "E8-3 Drama Anime.", "Josei manga|romance anime"),
+])
+_add("E6", [
+    ("E6-1", "Iyashikei", "medium",
+     "'healing' anime of calm, beauty and small pleasures (<i>Aria</i>, <i>Yuru Camp</i>, <i>Non Non Biyori</i>, <i>Barakamon</i>).",
+     "healing anime", "E6-2 Cute Girls Doing Cute Things.", "Iyashikei"),
+    ("E6-2", "Cute Girls Doing Cute Things", "medium",
+     "moe slice-of-life of girls' clubs and daily routines (<i>K-On!</i>, <i>Lucky Star</i>, <i>Azumanga Daioh</i>, <i>Nichijou</i> excepted as gag).",
+     "CGDCT; moe slice of life", "E6-1 Iyashikei.", "Cute girls doing cute things"),
+    ("E6-3", "Slice of Life Anime", "broad",
+     "everyday school, work and family life outside the narrower leaves (<i>Shirobako</i>, <i>Silver Spoon</i>, <i>Spy × Family</i> excepted as comedy).",
+     "nichijō-kei", "E8-3 Drama Anime.", "Slice of life"),
+    ("E6-4", "Idol Anime", "narrow",
+     "anime of idol groups and their rise (<i>Love Live!</i>, <i>The Idolmaster</i>, <i>Uta no Prince-sama</i>, <i>Oshi no Ko</i> excepted as drama).",
+     "idol anime", "E6-5 Music Anime.", "Japanese idol|idol anime"),
+    ("E6-5", "Music Anime", "narrow",
+     "anime of musicians, bands and performance (<i>Your Lie in April</i>, <i>Bocchi the Rock!</i>, <i>Beck</i>, <i>Nodame Cantabile</i>).",
+     "band anime", "E6-4 Idol Anime.", "music anime"),
+    ("E6-6", "Cooking & Gourmet Anime", "narrow",
+     "anime built on food, cooking and eating (<i>Food Wars!</i>, <i>Sweetness and Lightning</i>, <i>Restaurant to Another World</i>).",
+     "gourmet anime", "E6-1 Iyashikei.", "Cooking manga|Gourmet manga"),
+])
+_add("E7", [
+    ("E7-1", "Sports Anime", "medium",
+     "spokon: anime of a sport, a team and its competitions — volleyball, basketball, baseball, football, boxing, cycling, swimming (<i>Slam Dunk</i>, <i>Haikyu!!</i>, <i>Hajime no Ippo</i>, <i>Ashita no Joe</i>, <i>Blue Lock</i>).",
+     "spokon; supokon", "A14-7 Sports Film.", "Sports anime and manga|Spokon"),
+    ("E7-2", "Game Anime", "narrow",
+     "anime of competitive games — go, shogi, karuta, mahjong, card battles (<i>Hikaru no Go</i>, <i>Chihayafuru</i>, <i>March Comes in Like a Lion</i> excepted as drama, <i>Yu-Gi-Oh!</i>).",
+     "card battle anime; board game anime", "E7-1 Sports Anime.", "Card game anime|Hikaru no Go"),
+])
+_add("E8", [
+    ("E8-1", "Psychological Thriller Anime", "medium",
+     "suspense of minds in conflict, manipulation and identity (<i>Death Note</i>, <i>Monster</i>, <i>Perfect Blue</i>, <i>Paranoia Agent</i>, <i>The Promised Neverland</i>).",
+     "psychological anime", "E9-1 Horror Anime.", "Psychological thriller"),
+    ("E8-2", "Mystery & Detective Anime", "medium",
+     "anime of detection and puzzles (<i>Case Closed</i>, <i>Hyouka</i>, <i>Odd Taxi</i>, <i>Erased</i>).",
+     "detective anime", "E8-1 Psychological Thriller Anime.", "Detective fiction|mystery anime"),
+    ("E8-3", "Drama Anime", "broad",
+     "dramas of grief, growing up, family and society (<i>Anohana</i>, <i>Violet Evergarden</i>, <i>A Silent Voice</i>, <i>March Comes in Like a Lion</i>, <i>Wolf Children</i>).",
+     "", "E5-6 Romantic Drama Anime; E6-3 Slice of Life Anime.", "drama anime"),
+    ("E8-4", "Historical & War Anime", "medium",
+     "anime in which a historical era or a war is the subject (<i>Grave of the Fireflies</i>, <i>In This Corner of the World</i>, <i>The Rose of Versailles</i>, <i>Vinland Saga</i>).",
+     "historical anime; war anime", "E1-3 Samurai & Ninja Anime.", "Historical fiction"),
+    ("E8-5", "Crime & Gangster Anime", "medium",
+     "anime of thieves, gangsters and the underworld (<i>Lupin III</i>, <i>Baccano!</i>, <i>91 Days</i>, <i>Great Pretender</i>).",
+     "crime anime", "E1-2 Seinen Action.", "crime fiction"),
+])
+_add("E9", [
+    ("E9-1", "Horror Anime", "medium",
+     "anime that aims first to frighten — curses, ghosts, killers, cosmic dread (<i>Another</i>, <i>Higurashi: When They Cry</i>, <i>Shiki</i>, <i>Junji Ito Collection</i>).",
+     "", "E3-3 Dark Fantasy; E8-1 Psychological Thriller Anime.", "horror anime"),
+])
+_add("E10", [
+    ("E10-1", "Gag & Parody Anime", "medium",
+     "comedy first: gags, absurdity, parody and surreal humour (<i>Gintama</i>, <i>Nichijou</i>, <i>The Disastrous Life of Saiki K.</i>, <i>Pop Team Epic</i>).",
+     "gag anime; owarai", "E5-2 Romantic Comedy Anime.", "gag manga"),
+    ("E10-2", "Ecchi", "medium",
+     "comedy and fan service built on sexual innuendo without explicit content (<i>High School DxD</i>, <i>Prison School</i>, <i>Kill la Kill</i> excepted as battle).",
+     "fan service comedy", "E5-3 Harem; E12-1 Hentai.", "Ecchi"),
+    ("E10-3", "Comedy Anime", "broad",
+     "situation and character comedy outside gag and ecchi (<i>Spy × Family</i>, <i>Grand Blue</i>, <i>The Devil Is a Part-Timer!</i>).",
+     "", "E6-3 Slice of Life Anime.", "comedy anime"),
+])
+_add("E11", [
+    ("E11-1", "Kodomo-muke", "medium",
+     "anime made for young children, including the long family series (<i>Doraemon</i>, <i>Anpanman</i>, <i>Crayon Shin-chan</i>, <i>Pokémon</i>, <i>Chibi Maruko-chan</i>).",
+     "kodomo anime; children's anime", "A19-1 Children's Film.", "Kodomo manga|Kodomo"),
+    ("E11-2", "World Masterpiece Theater", "narrow",
+     "Nippon Animation's series of family adaptations of Western classics and their kin (<i>Heidi, Girl of the Alps</i>, <i>Anne of Green Gables</i>, <i>A Dog of Flanders</i>).",
+     "Sekai Meisaku Gekijō", "E11-1 Kodomo-muke.", "World Masterpiece Theater"),
+])
+_add("E12", [
+    ("E12-1", "Hentai", "narrow",
+     "explicit adult anime, mostly OVAs (flagged is_adult in the anime database).",
+     "adult anime", "E10-2 Ecchi.", "Hentai"),
+])
+ATTEST_WIKI.update({
+    "E1-1": "Shōnen manga", "E1-2": "Seinen manga", "E1-3": "Samurai cinema", "E1-4": "Superhero fiction", "E1-5": "Martial arts film",
+    "E2-1": "Super robot", "E2-2": "Real robot", "E2-3": "Cyberpunk", "E2-4": "Space opera", "E2-5": "Science fiction",
+    "E3-1": "Isekai", "E3-2": "Fantasy", "E3-3": "Dark fantasy", "E3-4": "Yōkai", "E4-1": "Magical girl", "E4-2": "Magical girl",
+    "E5-1": "Shōjo manga", "E5-2": "Romantic comedy", "E5-3": "Harem (genre)", "E5-4": "Yaoi", "E5-5": "Yuri (genre)", "E5-6": "Josei manga",
+    "E6-1": "Iyashikei", "E6-2": "Cute girls doing cute things", "E6-3": "Slice of life", "E6-4": "Japanese idol", "E6-5": "Music anime|Music in anime",
+    "E6-6": "Cooking manga|Gourmet manga", "E7-1": "Sports anime and manga|Spokon", "E7-2": "Hikaru no Go",
+    "E8-1": "Psychological thriller", "E8-2": "Detective fiction", "E8-3": "Drama", "E8-4": "Historical fiction", "E8-5": "Crime fiction",
+    "E9-1": "Horror fiction", "E10-1": "Gag manga", "E10-2": "Ecchi", "E10-3": "Comedy", "E11-1": "Kodomo manga",
+    "E11-2": "World Masterpiece Theater", "E12-1": "Hentai",
+})
+
+
+# --------------------------------------------------------------------------
+# Television: scripted series (C), serial traditions (D), unscripted formats (G).
+
+_FAM_C = next(f for f in FAMILIES if f["code"] == "C")
+_FAM_C["key"] = [
+    "1. Animated, and not anime? → <b>C6 Animated Series</b> (TV1).",
+    "2. Made first for children or tweens (live action)? → <b>C7 Children's Series</b>.",
+    "3. An East or Southeast Asian drama in a <b>named tradition</b> — K-drama romance, sageuk, makjang, Chinese costume drama, wuxia/xianxia drama, idol drama, asadora, taiga drama, Japanese trendy drama, lakorn, BL drama? → <b>C2</b> (D3). Asian dramas outside those traditions (thrillers, medical, fantasy) go by genre below with 'Asian drama' as a filter.",
+    "4. Science fiction, fantasy, horror, the supernatural or superheroes? → <b>C5 Genre Series</b>.",
+    "5. Criminals, police, detectives, spies or a thriller plot? → <b>C3 Crime & Thriller Series</b>.",
+    "6. Laughter first? → <b>C4 Comedy Series</b>. Otherwise → <b>C1 Drama Series</b>, by subject.",
+]
+_FAM_C["subs"] = [
+    ("C1", "Drama Series", "Axis: subject (family, medicine, law, politics, the past, youth)."),
+    ("C2", "East & Southeast Asian Drama Traditions", "Axis: the named tradition (D3: 'Asian drama' is a filter; Asian dramas outside these traditions are placed by genre)."),
+    ("C3", "Crime & Thriller Series", "Axis: milieu and source of suspense."),
+    ("C4", "Comedy Series", "Axis: comic form (multi-camera sitcom, single-camera, sketch, mockumentary)."),
+    ("C5", "Genre Series", "Axis: speculative premise (science fiction, fantasy, horror, superheroes)."),
+    ("C6", "Animated Series", "Axis: audience and form (non-anime animation)."),
+    ("C7", "Children's Series", "Axis: age of audience (live action)."),
+]
+PRECEDENCE += [
+    ("TV1", "Animation", "Every animated series that is not anime is C6, whatever its genre (<i>The Simpsons</i> → Animated Sitcom; <i>Arcane</i> → Animated Action-Adventure)."),
+    ("TV2", "Serial or series", "A long-running serial in a named serial tradition (telenovela, dizi, daily soap, soap opera, teleserye, musalsal) is D, not C, even when it is also a crime or historical story; a limited or seasonal series with a closed arc is C."),
+    ("TV3", "Named Asian tradition before genre", "An Asian drama in a named tradition of C2 stays there whatever its genre mix (a sageuk with zombies, <i>Kingdom</i>, is Sageuk; a xianxia romance is Wuxia & Xianxia Drama); a Korean thriller or a Japanese medical drama with no tradition home goes by genre."),
+    ("TV4", "Crime before drama", "A series centred on crime, police, lawyers defending criminals or spies is C3, even when its prestige makes it 'drama' (<i>The Sopranos</i>, <i>The Wire</i>, <i>Breaking Bad</i>); a legal series about the law firm's own life is Legal Drama."),
+    ("TV5", "Franchise unity", "Spin-offs and revivals share their parent's leaf unless they change genre outright."),
+]
+MODIFIERS += [
+    "<b>Series format</b> — miniseries, limited, anthology, ongoing, web series: a filter on Television Series.",
+    "<b>Network and platform</b> — HBO, BBC, Netflix, TVB, Globo: tags.",
+]
+
+_add("C1", [
+    ("C1-1", "Family Drama Series", "broad", "series about families and their generations (<i>Six Feet Under</i>, <i>This Is Us</i>, <i>Succession</i>, <i>Reply 1988</i>).", "family saga", "D2-5 Prime-Time Soap Opera.", "family drama"),
+    ("C1-2", "Medical Drama", "medium", "series set in hospitals and medical practice (<i>ER</i>, <i>Grey's Anatomy</i>, <i>House</i>, <i>Hospital Playlist</i>).", "hospital drama", "C1-3 Legal Drama Series.", "medical drama"),
+    ("C1-3", "Legal Drama Series", "medium", "series about lawyers and the law's own world (<i>L.A. Law</i>, <i>The Good Wife</i>, <i>Extraordinary Attorney Woo</i>) (TV4).", "courtroom series", "C3-3 Crime Drama Series.", "legal drama"),
+    ("C1-4", "Political Drama Series", "medium", "series of government, elections and power (<i>The West Wing</i>, <i>House of Cards</i>, <i>Borgen</i>).", "", "C3-5 Spy & Espionage Series.", "political drama"),
+    ("C1-5", "Teen Drama", "medium", "series about adolescents and high school (<i>Beverly Hills, 90210</i>, <i>Skins</i>, <i>Euphoria</i>, <i>Sex Education</i> excepted as comedy).", "teen series", "C7-2 Children's & Tween Series.", "teen drama"),
+    ("C1-6", "Period Drama Series", "broad", "series set in a defining past, costume and historical drama (<i>Downton Abbey</i>, <i>The Crown</i>, <i>Mad Men</i>, <i>Rome</i>).", "costume drama; historical drama series", "C2-2 Sageuk; C2-5 Chinese Costume Drama.", "costume drama|historical drama"),
+    ("C1-7", "War Drama Series", "medium", "series about war and soldiers (<i>Band of Brothers</i>, <i>The Pacific</i>, <i>Generation Kill</i>).", "military drama", "C1-6 Period Drama Series.", "war drama"),
+    ("C1-8", "Western Series", "narrow", "series of the American frontier (<i>Gunsmoke</i>, <i>Bonanza</i>, <i>Deadwood</i>, <i>Yellowstone</i> as neo-western).", "TV western", "A17-1 Western.", "Western (genre)"),
+    ("C1-9", "Docudrama Series", "medium", "dramatisations of real events and lives (<i>Chernobyl</i>, <i>When They See Us</i>, <i>The People v. O. J. Simpson</i>).", "biographical series; true-story drama", "C3-3 Crime Drama Series.", "docudrama"),
+    ("C1-10", "Workplace & Professional Drama", "medium", "series built on a profession or workplace outside medicine and law (<i>The Newsroom</i>, <i>Mad Men</i> excepted as period, <i>The Bear</i>, <i>Misaeng</i>).", "workplace drama", "C1-2 Medical Drama.", "workplace drama"),
+    ("C1-11", "Sports Drama Series", "narrow", "series built on a sport and its teams (<i>Friday Night Lights</i>, <i>Ted Lasso</i> excepted as comedy).", "", "A14-7 Sports Film.", "sports drama"),
+    ("C1-12", "Drama Series", "broad", "dramas of character and society outside the narrower leaves (<i>The Leftovers</i>, <i>Normal People</i>, <i>The Crown</i> excepted as period).", "serial drama", "C1-1 Family Drama Series.", "drama television series|television drama"),
+    ("C1-13", "Romantic Drama Series", "medium", "series whose main line is a love story, outside the Asian drama traditions (<i>Outlander</i> excepted as fantasy, <i>Bridgerton</i>, <i>Normal People</i>).", "romance series", "C2-1 K-Drama.", "romance television"),
+])
+_add("C2", [
+    ("C2-1", "K-Drama", "broad", "the Korean miniseries tradition of romance and melodrama — trendy, fated and rom-com love stories in 16–20 episodes (<i>Winter Sonata</i>, <i>Guardian: The Lonely and Great God</i>, <i>Crash Landing on You</i>, <i>Coffee Prince</i>).", "Korean drama; Korean miniseries; K-drama romance", "C2-3 Makjang.", "Korean drama"),
+    ("C2-2", "Sageuk", "medium", "Korean historical drama of the Joseon, Goryeo and Three Kingdoms courts (<i>Dae Jang Geum</i>, <i>Moon Embracing the Sun</i>, <i>Mr. Sunshine</i>, <i>Kingdom</i>).", "Korean historical drama; fusion sageuk", "C1-6 Period Drama Series.", "Sageuk"),
+    ("C2-3", "Makjang", "medium", "Korean melodrama of outrageous twists — birth secrets, revenge, chaebol families, affairs — often in daily and weekend slots (<i>The Penthouse</i>, <i>Temptation of Wife</i>, <i>The World of the Married</i>).", "makjang drama; Korean family melodrama", "C2-1 K-Drama.", "Makjang"),
+    ("C2-4", "Chinese Costume Drama", "broad", "guzhuang: Chinese historical and palace drama of the imperial past (<i>Story of Yanxi Palace</i>, <i>Nirvana in Fire</i>, <i>Empresses in the Palace</i>, <i>Meteor Garden</i> excepted as idol drama).", "guzhuang; palace drama; gongdou", "C2-5 Wuxia & Xianxia Drama.", "Chinese historical drama|Guzhuang"),
+    ("C2-5", "Wuxia & Xianxia Drama", "medium", "Chinese drama of martial heroes (wuxia) and of immortal cultivation and celestial romance (xianxia) (<i>The Legend of the Condor Heroes</i>, <i>The Untamed</i>, <i>Eternal Love</i>, <i>Love Between Fairy and Devil</i>).", "wuxia drama; xianxia drama; xuanhuan", "A8-3 Wuxia.", "Xianxia|Wuxia"),
+    ("C2-6", "Idol Drama", "medium", "Taiwanese and Chinese youth romance with pop-idol casts, from <i>Meteor Garden</i> (2001) to the modern Chinese campus and urban romances (<i>It Started with a Kiss</i>, <i>Go Go Squid!</i>, <i>A Love So Beautiful</i>).", "ouxiang ju; Taiwanese drama; C-drama romance", "C2-1 K-Drama.", "Idol drama|Taiwanese drama"),
+    ("C2-7", "Asadora", "narrow", "NHK's morning serial (renzoku terebi shōsetsu) of a woman's life across decades (<i>Oshin</i>, <i>Amachan</i>, <i>Carnation</i>).", "renzoku terebi shōsetsu", "C2-8 Taiga Drama.", "Asadora"),
+    ("C2-8", "Taiga Drama", "narrow", "NHK's year-long historical drama of a figure of Japanese history (<i>Sanada Maru</i>, <i>Ryōmaden</i>, <i>The 13 Lords of the Shogun</i>).", "taiga dorama", "C2-7 Asadora; C1-6 Period Drama Series.", "Taiga drama"),
+    ("C2-9", "Japanese Trendy Drama", "medium", "the Japanese prime-time drama (dorama) of urban romance and work in one-cour seasons, from the trendy dramas of Fuji TV's Monday 9 pm slot (<i>Tokyo Love Story</i>, <i>Long Vacation</i>, <i>Nodame Cantabile</i>, <i>We Married as a Job!</i>).", "dorama; getsuku; J-drama", "C2-1 K-Drama.", "Trendy drama|Japanese television drama"),
+    ("C2-10", "Lakorn", "medium", "Thai television drama (lakhon), with its romance, revenge and slap-kiss conventions (<i>Love Destiny</i>, <i>The Crown Princess</i>, <i>Girl from Nowhere</i> excepted as thriller).", "lakhon; Thai drama", "C2-11 Boys' Love Drama.", "Lakorn|Thai television soap opera"),
+    ("C2-11", "Boys' Love Drama", "medium", "BL series — romance between young men — from Thailand, Taiwan, Japan, Korea and China (<i>SOTUS</i>, <i>2gether</i>, <i>Bad Buddy</i>, <i>Cherry Magic!</i>, <i>Word of Honor</i>).", "BL drama; Y series; danmei drama", "C2-10 Lakorn; E5-4 Boys' Love.", "Boys' love|Thai boys' love"),
+])
+_add("C3", [
+    ("C3-1", "Police Procedural Series", "medium", "series of police investigations case by case (<i>Hill Street Blues</i>, <i>NYPD Blue</i>, <i>Law & Order</i>, <i>Line of Duty</i>, <i>Signal</i>).", "cop show", "C3-2 Detective Series.", "police procedural"),
+    ("C3-2", "Detective Series", "medium", "series of a detective solving mysteries, whodunits and cosy crime (<i>Columbo</i>, <i>Poirot</i>, <i>Sherlock</i>, <i>Midsomer Murders</i>).", "whodunit series; cosy mystery", "C3-1 Police Procedural Series.", "detective fiction"),
+    ("C3-3", "Crime Drama Series", "broad", "series of criminals and their world (<i>The Sopranos</i>, <i>The Wire</i>, <i>Breaking Bad</i>, <i>Peaky Blinders</i>, <i>Narcos</i>) (TV4).", "crime series; gangster series", "C3-1 Police Procedural Series.", "crime drama"),
+    ("C3-4", "Nordic Noir", "narrow", "Scandinavian crime series of bleak landscapes and slow investigations (<i>The Killing</i>, <i>The Bridge</i>, <i>Wallander</i>, <i>Trapped</i>).", "Scandinavian noir; Scandi noir", "C3-1 Police Procedural Series.", "Nordic noir"),
+    ("C3-5", "Spy & Espionage Series", "medium", "series of intelligence agents (<i>Mission: Impossible</i>, <i>The Americans</i>, <i>Homeland</i>, <i>Slow Horses</i>, <i>The Bureau</i>).", "spy series", "C1-4 Political Drama Series.", "spy fiction"),
+    ("C3-6", "Thriller Series", "broad", "suspense series of conspiracy, survival, revenge and psychological danger (<i>24</i>, <i>Mr. Robot</i>, <i>Squid Game</i>, <i>Money Heist</i> excepted as crime).", "conspiracy thriller series", "C3-3 Crime Drama Series.", "thriller television series|thriller (genre)"),
+    ("C3-7", "True Crime Drama", "narrow", "dramatised series of real criminal cases (<i>Mindhunter</i>, <i>Dahmer</i>, <i>The Serpent</i>).", "", "C1-9 Docudrama Series.", "true crime"),
+])
+_add("C4", [
+    ("C4-1", "Multi-Camera Sitcom", "broad", "studio sitcoms shot before an audience or laugh track (<i>I Love Lucy</i>, <i>Cheers</i>, <i>Seinfeld</i>, <i>Friends</i>, <i>The Big Bang Theory</i>).", "sitcom; situation comedy", "C4-2 Single-Camera Comedy.", "sitcom"),
+    ("C4-2", "Single-Camera Comedy", "broad", "film-style comedy series without laugh track (<i>Curb Your Enthusiasm</i>, <i>Arrested Development</i>, <i>Fleabag</i>, <i>Atlanta</i>).", "single-camera sitcom", "C4-1 Multi-Camera Sitcom.", "single-camera setup"),
+    ("C4-3", "Mockumentary Sitcom", "medium", "comedy in documentary form (<i>The Office</i>, <i>Parks and Recreation</i>, <i>What We Do in the Shadows</i>, <i>Abbott Elementary</i>).", "mockumentary series", "A10-11 Mockumentary.", "mockumentary"),
+    ("C4-4", "Sketch Comedy", "medium", "series of comic sketches (<i>Monty Python's Flying Circus</i>, <i>Saturday Night Live</i>, <i>Key & Peele</i>).", "sketch show", "", "sketch comedy"),
+    ("C4-5", "Comedy-Drama Series", "broad", "series balancing comedy and drama (<i>M*A*S*H</i>, <i>Gilmore Girls</i>, <i>Ted Lasso</i>, <i>The Bear</i> excepted as workplace).", "dramedy", "C1-12 Drama Series.", "comedy drama"),
+    ("C4-6", "Satire & Political Comedy", "narrow", "comedy that satirises politics and institutions (<i>Yes Minister</i>, <i>The Thick of It</i>, <i>Veep</i>).", "political satire", "C1-4 Political Drama Series.", "political satire"),
+])
+_add("C5", [
+    ("C5-1", "Science Fiction Series", "broad", "series of the future, space and technology (<i>Star Trek</i>, <i>Doctor Who</i>, <i>The Expanse</i>, <i>Black Mirror</i>, <i>Severance</i>).", "SF series; space opera series", "C5-2 Fantasy Series.", "science fiction television"),
+    ("C5-2", "Fantasy Series", "broad", "series of magic and invented worlds (<i>Game of Thrones</i>, <i>The Witcher</i>, <i>Outlander</i>, <i>Alchemy of Souls</i>).", "", "C2-5 Wuxia & Xianxia Drama.", "fantasy television"),
+    ("C5-3", "Horror Series", "medium", "series that aim first to frighten (<i>The Walking Dead</i>, <i>American Horror Story</i>, <i>The Haunting of Hill House</i>, <i>Sweet Home</i>).", "", "C5-4 Supernatural Drama.", "horror television"),
+    ("C5-4", "Supernatural Drama", "medium", "series of ghosts, vampires, witches and the uncanny told as drama or adventure (<i>Buffy the Vampire Slayer</i>, <i>Supernatural</i>, <i>Twin Peaks</i>, <i>Stranger Things</i>).", "supernatural series; paranormal drama", "C5-3 Horror Series.", "supernatural fiction"),
+    ("C5-5", "Superhero Series", "medium", "series of costumed or super-powered heroes (<i>Smallville</i>, <i>Daredevil</i>, <i>The Boys</i>, <i>WandaVision</i>).", "", "A6-3 Superhero Film.", "superhero fiction"),
+])
+_add("C6", [
+    ("C6-1", "Animated Sitcom", "medium", "animated comedy series for adults and families (<i>The Flintstones</i>, <i>The Simpsons</i>, <i>South Park</i>, <i>BoJack Horseman</i>, <i>Rick and Morty</i>).", "adult animated sitcom", "C6-2 Adult Animated Series.", "animated sitcom"),
+    ("C6-2", "Adult Animated Series", "medium", "non-comedy animation for adults (<i>Arcane</i>, <i>Invincible</i>, <i>Primal</i>, <i>Love, Death & Robots</i>).", "adult animation", "C6-3 Animated Action-Adventure.", "adult animation"),
+    ("C6-3", "Animated Action-Adventure", "medium", "animated adventure series for all ages (<i>Batman: The Animated Series</i>, <i>Avatar: The Last Airbender</i>, <i>Gravity Falls</i>, <i>The Legend of Vox Machina</i>).", "action cartoon", "C6-4 Children's Animated Series.", "action-adventure animation|animated series"),
+    ("C6-4", "Children's Animated Series", "broad", "cartoon series made first for children (<i>Looney Tunes</i>, <i>SpongeBob SquarePants</i>, <i>Bluey</i>, <i>Peppa Pig</i>).", "Saturday-morning cartoon; kids' cartoon", "E11-1 Kodomo-muke.", "children's television series|Saturday-morning cartoon"),
+])
+_add("C7", [
+    ("C7-1", "Preschool Series", "narrow", "live-action and puppet series for young children (<i>Sesame Street</i>, <i>Mister Rogers' Neighborhood</i>, <i>Teletubbies</i>).", "preschool television", "C6-4 Children's Animated Series.", "preschool television"),
+    ("C7-2", "Children's & Tween Series", "medium", "live-action series for children and tweens (<i>Lizzie McGuire</i>, <i>Hannah Montana</i>, <i>iCarly</i>, <i>Goosebumps</i>).", "teen sitcom; tween series", "C1-5 Teen Drama.", "children's television series"),
+])
+
+_FAM_D = next(f for f in FAMILIES if f["code"] == "D")
+_FAM_D["test"] = "a long-running serial in a named serial tradition, with continuing storylines broadcast daily or weekly for years or hundreds of episodes: soap opera, telenovela, dizi, Indian daily soap, teleserye, musalsal (TV2)."
+_FAM_D["key"] = ["1. Latin American or Iberian telenovela? → <b>D1</b>. 2. Anglophone soap opera? → <b>D2</b>. 3. Turkish dizi? → <b>D3</b>. 4. South Asian serial? → <b>D4</b>. 5. Arab musalsal? → <b>D5</b>. 6. Philippine teleserye? → <b>D6</b>."]
+_FAM_D["subs"] = [
+    ("D1", "Telenovela", "Axis: sub-genre and industry tradition."),
+    ("D2", "Soap Opera", "Axis: daypart and national industry (the field's own division)."),
+    ("D3", "Dizi", "Axis: setting."),
+    ("D4", "South Asian Serials", "Axis: serial genre."),
+    ("D5", "Musalsal", "Axis: serial genre."),
+    ("D6", "Teleserye", "Axis: none (one leaf)."),
+]
+_add("D1", [
+    ("D1-1", "Telenovela", "broad", "the Latin American serial of a single romance resolved in one run of 100–200 episodes, Mexican, Venezuelan and Colombian (<i>Los ricos también lloran</i>, <i>Yo soy Betty, la fea</i>, <i>Café con aroma de mujer</i>).", "novela; culebrón", "D1-2 Brazilian Novela.", "Telenovela"),
+    ("D1-2", "Brazilian Novela", "medium", "the Brazilian telenovela, above all TV Globo's prime-time novelas das nove (<i>Roque Santeiro</i>, <i>Avenida Brasil</i>, <i>Escrava Isaura</i>).", "novela das nove; telenovela brasileira", "D1-1 Telenovela.", "Brazilian telenovela|Telenovelas of Brazil"),
+    ("D1-3", "Narconovela", "narrow", "the Colombian and Mexican telenovela of drug traffickers (<i>El Patrón del Mal</i>, <i>La Reina del Sur</i>, <i>Sin senos no hay paraíso</i>).", "narco-telenovela", "C3-3 Crime Drama Series.", "Narconovela"),
+    ("D1-4", "Youth Telenovela", "narrow", "telenovelas for children and teens (<i>Chiquititas</i>, <i>Rebelde Way</i>, <i>Rebelde</i>, <i>Violetta</i>).", "juvenile telenovela", "C1-5 Teen Drama.", "Telenovela"),
+])
+_add("D2", [
+    ("D2-1", "American Daytime Soap Opera", "medium", "US daytime serials sponsored for the home audience (<i>Guiding Light</i>, <i>General Hospital</i>, <i>Days of Our Lives</i>, <i>The Young and the Restless</i>).", "daytime soap", "D2-4 Prime-Time Soap Opera.", "Soap opera|American daytime soap opera"),
+    ("D2-2", "British Soap Opera", "medium", "British continuing dramas of a community (<i>Coronation Street</i>, <i>EastEnders</i>, <i>Emmerdale</i>, <i>Hollyoaks</i>).", "continuing drama", "D2-3 Australian Soap Opera.", "British soap opera"),
+    ("D2-3", "Australian Soap Opera", "narrow", "Australian serials (<i>Neighbours</i>, <i>Home and Away</i>, <i>Prisoner</i>).", "Aussie soap", "D2-2 British Soap Opera.", "Australian soap opera"),
+    ("D2-4", "Prime-Time Soap Opera", "medium", "evening serials of wealthy families, intrigue and cliffhangers (<i>Peyton Place</i>, <i>Dallas</i>, <i>Dynasty</i>, <i>Melrose Place</i>, <i>Desperate Housewives</i>).", "prime-time serial", "C1-1 Family Drama Series.", "Prime time soap opera"),
+    ("D2-5", "European Soap Opera", "narrow", "the continental European daily and weekly soaps (<i>Lindenstraße</i>, <i>Gute Zeiten, schlechte Zeiten</i>, <i>Un posto al sole</i>, <i>Goede tijden, slechte tijden</i>).", "", "D2-2 British Soap Opera.", "Soap opera"),
+])
+_add("D3", [
+    ("D3-1", "Dizi", "broad", "the Turkish weekly serial of 120–150-minute episodes, romance, family honour and class (<i>Aşk-ı Memnu</i>, <i>Fatmagül'ün Suçu Ne?</i>, <i>Kara Sevda</i>).", "Turkish drama; Turkish television drama", "D3-2 Historical Dizi.", "Turkish television drama|Dizi"),
+    ("D3-2", "Historical Dizi", "medium", "Turkish serials of the Ottoman and Seljuk past (<i>Muhteşem Yüzyıl</i>, <i>Diriliş: Ertuğrul</i>, <i>Kuruluş: Osman</i>).", "Ottoman dizi", "C1-6 Period Drama Series.", "Turkish television drama"),
+])
+_add("D4", [
+    ("D4-1", "Indian Daily Soap", "broad", "the Hindi and regional daily serial of the joint family, above all the saas-bahu (mother-in-law and daughter-in-law) serial of the 2000s (<i>Kyunki Saas Bhi Kabhi Bahu Thi</i>, <i>Kahaani Ghar Ghar Kii</i>, <i>Balika Vadhu</i>, <i>Anupamaa</i>).", "saas-bahu serial; Indian soap opera", "D4-2 Indian Mythological Serial.", "Indian soap opera"),
+    ("D4-2", "Indian Mythological Serial", "medium", "serials of the epics and the gods (<i>Ramayan</i>, <i>Mahabharat</i>, <i>Devon Ke Dev...Mahadev</i>).", "mythological serial", "D4-1 Indian Daily Soap.", "Ramayan (1987 TV series)|Indian television series"),
+    ("D4-3", "Pakistani Drama Serial", "medium", "the Urdu prime-time drama serial of family and romance (<i>Humsafar</i>, <i>Zindagi Gulzar Hai</i>, <i>Mere Paas Tum Ho</i>).", "Pakistani drama", "D4-1 Indian Daily Soap.", "Pakistani drama|Pakistani television dramas"),
+])
+_add("D5", [
+    ("D5-1", "Ramadan Musalsal", "medium", "the Arab serial made for the Ramadan season, Syrian, Egyptian and Gulf (<i>Bab al-Hara</i>, <i>Al-Taghriba al-Filistiniya</i>, <i>Omar</i>).", "musalsal; Ramadan series", "C1-6 Period Drama Series.", "Ramadan series|Musalsal"),
+])
+_add("D6", [
+    ("D6-1", "Teleserye", "medium", "the Philippine prime-time serial (<i>Pangako Sa 'Yo</i>, <i>Ang Probinsyano</i>, <i>Encantadia</i>).", "teledrama; Filipino soap opera", "C2-10 Lakorn.", "Teleserye"),
+])
+
+_FAM_G = next(f for f in FAMILIES if f["code"] == "G")
+_FAM_G["test"] = "an unscripted entertainment format licensed across borders (≥3 versions in ≥2 countries), with its national versions as variants; and the East Asian variety shows of the drama database."
+_FAM_G["key"] = ["1. Contestants compete for a prize or title? → <b>G1 Competition Formats</b>.",
+                 "2. Real people filmed in arranged situations (dating, makeover, swaps, docusoap)? → <b>G2 Factual Entertainment Formats</b>.",
+                 "3. Hosts, guests, games and talk in a studio or on location? → <b>G3 Variety & Talk</b>."]
+_FAM_G["subs"] = [
+    ("G1", "Competition Formats", "Axis: what is contested."),
+    ("G2", "Factual Entertainment Formats", "Axis: the arranged situation."),
+    ("G3", "Variety & Talk", "Axis: form."),
+]
+_add("G1", [
+    ("G1-1", "Talent Show", "medium", "singing, dancing and variety talent contests judged by panel and public (<i>Idols</i>, <i>Got Talent</i>, <i>The Voice</i>, <i>The X Factor</i>, <i>Dancing with the Stars</i>).", "talent competition", "G3-1 Variety Show.", "talent show"),
+    ("G1-2", "Reality Competition", "medium", "contestants live together or travel and are eliminated (<i>Survivor</i>, <i>Big Brother</i>, <i>The Amazing Race</i>, <i>Fort Boyard</i>).", "reality game show", "G2-1 Dating Show.", "reality competition|reality television"),
+    ("G1-3", "Cooking Competition", "medium", "contests of cooks and bakers (<i>MasterChef</i>, <i>Hell's Kitchen</i>, <i>The Great British Bake Off</i>, <i>Top Chef</i>).", "cooking show", "G2-3 Makeover Show.", "cooking show"),
+    ("G1-4", "Game Show", "broad", "quiz and game formats played in a studio (<i>Who Wants to Be a Millionaire?</i>, <i>Wheel of Fortune</i>, <i>The Price Is Right</i>, <i>The Chase</i>).", "quiz show", "G1-2 Reality Competition.", "game show"),
+    ("G1-5", "Business Pitch Show", "narrow", "entrepreneurs pitch to investors (<i>Dragons' Den</i>, <i>Shark Tank</i>, <i>The Apprentice</i>).", "", "G1-2 Reality Competition.", "Dragons' Den|business reality television"),
+])
+_add("G2", [
+    ("G2-1", "Dating Show", "medium", "formats of courtship and matchmaking (<i>The Dating Game</i>, <i>The Bachelor</i>, <i>Love Island</i>, <i>Married at First Sight</i>).", "dating game show", "G1-2 Reality Competition.", "dating game show|dating show"),
+    ("G2-2", "Docusoap & Social Experiment", "medium", "real people followed or placed in arranged situations (<i>Wife Swap</i>, <i>The Real Housewives</i>, <i>Undercover Boss</i>, <i>Gogglebox</i>).", "docusoap; social experiment", "G2-1 Dating Show.", "docusoap"),
+    ("G2-3", "Makeover Show", "medium", "transformations of people, homes and businesses (<i>Extreme Makeover</i>, <i>Queer Eye</i>, <i>Kitchen Nightmares</i>, <i>Grand Designs</i>).", "makeover television; lifestyle show", "G2-2 Docusoap & Social Experiment.", "makeover show|makeover television"),
+])
+_add("G3", [
+    ("G3-1", "Variety Show", "medium", "entertainment programmes of games, missions, music and comedy led by a fixed cast — including the Korean and Japanese real-variety shows (<i>Running Man</i>, <i>Infinite Challenge</i>, <i>2 Days & 1 Night</i>, <i>Gaki no Tsukai</i>).", "real variety; Korean variety show", "G1-1 Talent Show.", "variety show"),
+    ("G3-2", "Talk Show", "medium", "host-led conversation formats (<i>The Tonight Show</i> as a type, <i>Wetten, dass..?</i>, <i>Late Night</i> franchises).", "chat show", "G3-1 Variety Show.", "talk show"),
+])
+ATTEST_WIKI.update({
+    "C1-1": "Family saga|Family drama", "C1-2": "Medical drama", "C1-3": "Legal drama", "C1-4": "Political drama", "C1-5": "Teen drama",
+    "C1-6": "Costume drama", "C1-7": "War film", "C1-8": "Western (genre)", "C1-9": "Docudrama", "C1-10": "Workplace comedy",
+    "C1-11": "Sports film", "C1-12": "Drama (film and television)", "C1-13": "Romance film",
+    "C2-1": "Korean drama", "C2-2": "Sageuk", "C2-3": "Makjang", "C2-4": "Chinese historical drama|Guzhuang", "C2-5": "Xianxia|Wuxia",
+    "C2-6": "Taiwanese drama|Idol drama", "C2-7": "Asadora", "C2-8": "Taiga drama", "C2-9": "Trendy drama|Japanese television drama",
+    "C2-10": "Lakorn|Thai television soap opera", "C2-11": "Boys' love in Thailand|Thai boys' love", "C3-1": "Police procedural",
+    "C3-2": "Detective fiction", "C3-3": "Crime drama", "C3-4": "Nordic noir", "C3-5": "Spy fiction", "C3-6": "Thriller (genre)",
+    "C3-7": "True crime", "C4-1": "Sitcom", "C4-2": "Single-camera setup", "C4-3": "Mockumentary", "C4-4": "Sketch comedy",
+    "C4-5": "Comedy drama", "C4-6": "Political satire", "C5-1": "Science fiction on television", "C5-2": "Fantasy television",
+    "C5-3": "Horror television", "C5-4": "Supernatural fiction", "C5-5": "Superhero fiction", "C6-1": "Animated sitcom",
+    "C6-2": "Adult animation", "C6-3": "Animated series", "C6-4": "Saturday-morning cartoon", "C7-1": "Preschool television",
+    "C7-2": "Children's television series", "D1-1": "Telenovela", "D1-2": "Brazilian telenovela|Telenovelas of Brazil",
+    "D1-3": "Narconovela", "D1-4": "Telenovela", "D2-1": "American daytime soap opera|Soap opera", "D2-2": "British soap opera",
+    "D2-3": "Australian soap opera", "D2-4": "Prime time soap opera", "D2-5": "Soap opera", "D3-1": "Turkish television drama",
+    "D3-2": "Turkish television drama", "D4-1": "Indian soap opera", "D4-2": "Ramayan (1987 TV series)", "D4-3": "Pakistani drama",
+    "D5-1": "Ramadan series|Musalsal", "D6-1": "Teleserye", "G1-1": "Talent show", "G1-2": "Reality competition|Reality television",
+    "G1-3": "Cooking show", "G1-4": "Game show", "G1-5": "Dragons' Den", "G2-1": "Dating game show|Dating show", "G2-2": "Docusoap",
+    "G2-3": "Makeover show|Makeover television", "G3-1": "Variety show", "G3-2": "Talk show",
+})

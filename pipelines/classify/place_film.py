@@ -26,6 +26,7 @@ S = os.path.join(ROOT, "seeds", "classify")
 OUT = os.path.join(ROOT, "taxonomy", "film")
 R = os.path.join(OUT, "review")
 BATCH = 220
+REPLACE = set()
 
 
 def rd(p):
@@ -190,7 +191,7 @@ def propose(r):
     jp = "JP" in r["countries"].split("|")
     anim = "Animation" in g
     short = (0 < rtm < 40) or (r["type"] == "short" and rtm < 40)
-    if anim and jp:
+    if anim and jp and r["tconst"] not in REPLACE:
         return "route:FT-E", "family 1", "Japanese animation"
     if short:
         if anim:
@@ -266,7 +267,9 @@ def leaves_text():
 
 def batches():
     os.makedirs(R, exist_ok=True)
-    pilot = {r["tconst"] for r in rd(os.path.join(ROOT, "taxonomy", "pilot", "japan_placements.csv"))}
+    replace = {r["tconst"] for r in rd(os.path.join(S, "film_replace.csv"))}
+    pilot = {r["tconst"] for r in rd(os.path.join(ROOT, "taxonomy", "pilot", "japan_placements.csv"))} - replace
+    REPLACE.update(replace)
     rows = [r for r in evidence() if r["tconst"] not in pilot]
     for r in rows:
         r["proposal"], r["rule_step"], r["rule_reason"] = propose(r)
