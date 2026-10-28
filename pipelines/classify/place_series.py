@@ -156,7 +156,7 @@ def write(name, rows, cols, size=BATCH):
 def batches(only=None):
     os.makedirs(R, exist_ok=True)
     open(os.path.join(R, "anime_leaves.txt"), "w").write(leaves_text(("E",)))
-    open(os.path.join(R, "tv_leaves.txt"), "w").write(leaves_text(("C", "D")))
+    open(os.path.join(R, "tv_leaves.txt"), "w").write(leaves_text(("C", "D", "G")))
     open(os.path.join(R, "unscripted_leaves.txt"), "w").write(leaves_text(("G",)))
     a = anime_rows()
     na = write("anime", a, ["id", "title", "english", "type", "year", "episodes", "country", "is_adult", "studio", "genres", "top_tags", "tags", "film_tconst"])

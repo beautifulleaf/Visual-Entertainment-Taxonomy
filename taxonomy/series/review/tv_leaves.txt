@@ -106,6 +106,28 @@ D5-2 Arab Drama Serial: Arab serials made outside the Ramadan season, including 
 ### D6 Teleserye — Axis: none (one leaf).
 D6-1 Teleserye: the Philippine prime-time serial (Pangako Sa 'Yo, Ang Probinsyano, Encantadia). [aka teledrama; Filipino soap opera]
 
+## G Unscripted Formats — test: unscripted entertainment television: the formats licensed across borders (≥3 versions in ≥2 countries, national versions as variants), the East Asian variety shows of the drama database, and the domestic unscripted programmes of the series selection (talk, variety, reality, court and instructional shows).
+  key: 1. Contestants compete for a prize or title? → G1 Competition Formats.
+  key: 2. Real people filmed in arranged situations (dating, makeover, swaps, docusoap)? → G2 Factual Entertainment Formats.
+  key: 3. Hosts, guests, games and talk in a studio or on location? → G3 Variety & Talk.
+### G1 Competition Formats — Axis: what is contested.
+G1-1 Talent Show: singing, dancing and variety talent contests judged by panel and public (Idols, Got Talent, The Voice, The X Factor, Dancing with the Stars). [aka talent competition]
+G1-2 Reality Competition: contestants live together or travel and are eliminated (Survivor, Big Brother, The Amazing Race, Fort Boyard). [aka reality game show]
+G1-3 Cooking Competition: contests of cooks and bakers (MasterChef, Hell's Kitchen, The Great British Bake Off, Top Chef). [aka cooking show]
+G1-4 Game Show: quiz and game formats played in a studio (Who Wants to Be a Millionaire?, Wheel of Fortune, The Price Is Right, The Chase). [aka quiz show]
+G1-5 Business Pitch Show: entrepreneurs pitch to investors (Dragons' Den, Shark Tank, The Apprentice). [aka ]
+### G2 Factual Entertainment Formats — Axis: the arranged situation.
+G2-1 Dating Show: formats of courtship and matchmaking (The Dating Game, The Bachelor, Love Island, Married at First Sight). [aka dating game show]
+G2-2 Docusoap & Social Experiment: real people followed or placed in arranged situations, including occupational and paranormal-investigation reality (Wife Swap, The Real Housewives, Deadliest Catch, Dirty Jobs, Ghost Hunters, Jackass). [aka docusoap; social experiment]
+G2-3 Makeover Show: transformations of people, homes and businesses (Extreme Makeover, Queer Eye, Kitchen Nightmares, Grand Designs). [aka makeover television; lifestyle show]
+### G3 Variety & Talk — Axis: form.
+G3-1 Variety Show: entertainment programmes of games, missions, music and comedy led by a fixed cast or host, and broadcasts of concerts and stage performances — including the Korean and Japanese real-variety shows (Running Man, Infinite Challenge, 2 Days & 1 Night, The Ed Sullivan Show, Austin City Limits). [aka real variety; Korean variety show]
+G3-3 Panel Show: comedy panel games of a host, team captains and guests (QI, Have I Got News for You, Would I Lie to You?, Never Mind the Buzzcocks). [aka panel game]
+G3-2 Talk Show: host-led conversation programmes, late-night and daytime (The Tonight Show, Late Show with David Letterman, The Daily Show, Wetten, dass..?). [aka chat show]
+G3-4 Court Show: arbitration of real small-claims disputes before a television judge (The People's Court, Judge Judy, Judge Rinder). [aka judge show]
+G3-5 Instructional & Lifestyle Show: programmes that teach a craft, cooking, painting or home skill (The French Chef, The Joy of Painting, Good Eats, This Old House). [aka how-to show; cooking show]
+G3-6 Web Show: unscripted online video series of a host or channel (Good Mythical Morning, Hot Ones, Everything Wrong With, PewDiePie); scripted web series go by genre in C. [aka YouTube show; online show]
+
 PRECEDENCE
 F1 Named cycle before movement: A film with a home in a named genre cycle (chanbara, kaidan, J-horror, yakuza, film noir, pink film, Roman Porno, pinky violence, kaiju, tokusatsu, Taiyōzoku) goes to that cycle, even when a movement's reference sources list it as a member. A movement leaf keeps the attested members with no cycle home; every attested member carries the movement as a tag (D1).
 F2 Named cycle before general genre: A named cycle with its own canon (J-horror, kaiju eiga, yakuza eiga, pink film) beats the general genre leaf (supernatural horror, monster film, gangster film, sexploitation).
@@ -132,3 +154,5 @@ TV5 Franchise unity: Spin-offs and revivals share their parent's leaf unless the
 TV10 Ramadan comedies, dizi genres, Arab serials: TV6 wins over TV9 for Ramadan comedies: a Ramadan sitcom or sketch show is C4; only Ramadan drama is D5-1. A Turkish weekly serial in the dizi format stays D3 whatever its genre (crime, action, romantic comedy); only a case-of-the-week police show is C3-1. D3-2 is any dizi set before 1923.
 TV11 Biography, youth and remakes: A biographical or religious series of a pre-modern life (prophets, saints, Leonardo) is Period Drama (C1-6); a modern life is Docudrama (C1-9). Series about young adults past school age (college, aspirants, first jobs) go by genre (C1-12, C4-5), not Teen Drama. A remake of a series shares its original's leaf unless it changes genre (TV5).
 TV12 Streaming serials, Christmas calendars: A streaming serial of 60 or more episodes in a named serial tradition is D; a short web series of the same subject is C. A Nordic Advent serial is C7-3 whatever its genre. A short mythological web series is C5-2 with D4-2 as see-also.
+TV13 Unscripted programmes and edge genres: A talk, variety, reality, court, instructional or web show is placed in G directly, whether or not it is a licensed format (G2-2 for occupational and paranormal reality, G3-4 for court shows, G3-5 for how-to shows); professional wrestling is G3-1. A documentary series with reenactments is C8 when talking heads and archive carry it, C1-9 when dramatised scenes do. A disaster miniseries is Action & Adventure (C1-15). A US re-edit or dub of an anime is anime (route:FT-E). A defence-lawyer series is Legal Drama (C1-3) when the cases change each week, Crime Drama (C3-3) when a season follows one crime; a lawyer dramedy stays C1-3 with C4-5 as see-also. A 2000s–2010s network serial of secrets among the rich (Revenge, Gossip Girl) is Prime-Time Soap Opera (D2-4); a teen mystery (Pretty Little Liars) is Thriller (C3-6).
+TV14 Streaming originals in a serial tradition; sports: A streaming original of a closed season (8–20 episodes) from a serial-tradition country (a Netflix or BluTV Turkish series, a streaming telenovela) goes by genre in C; the broadcast weekly or daily serial is D. A remake that leaves its original's tradition goes by its own form (a 60-episode Turkish broadcast remake of Doctor Foster is D3-1). An anthology of crime or suspense stories is C1-16 Anthology with the genre as see-also. Live sports coverage is not a series of this tab: exclude it.

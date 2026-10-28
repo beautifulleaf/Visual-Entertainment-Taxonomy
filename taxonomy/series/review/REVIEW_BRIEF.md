@@ -20,7 +20,7 @@ Method, per row:
    title, country and year with your knowledge; if you do not know the show, place it from what the evidence shows and mark
    confidence low.
 4. Not a fit for this family at all (an anime in the TV list → `route:FT-E`; a film → `route:FT-A`; an unscripted show in the
-   TV list → `route:FT-G`; a scripted show in the unscripted list → `route:FT-C`; a duplicate or non-title →
+   TV list is placed directly in a G leaf (tv_leaves.txt now lists family G; TV13); a scripted show in the unscripted list → `route:FT-C`; a duplicate or non-title →
    `exclude:<reason>`).
 5. `see_also`: at most two other leaf codes, `;`-separated, or empty.
 
