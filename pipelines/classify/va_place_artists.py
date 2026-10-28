@@ -26,7 +26,11 @@ Order of placement (column `rule`)
                            (ukiyo-e artist, Nihonga painter, P106), then teacher (P1066) whose
                            school is known (TEACHER_SCHOOL, fetched from Wikidata 2026-10-28),
                            then an art-name school prefix (Kanō, Utagawa, Tosa …, before 1868).
-  5. period:<row>          period_rules.csv, first matching row (row number = data line).
+  5. period:<row>          period_rules.csv, first matching row (row = line number in the file).
+
+Confidence: high = own movement or named in the leaf's attesting source; medium = country rule,
+teacher/occupation, hand evidence or a medium-crossing movement; low = generic medium × birth band
+or era fallback.
 
     python3 pipelines/classify/va_place_artists.py
 
@@ -47,6 +51,8 @@ INT = os.path.join(ROOT, "data", "interim")
 sys.path.insert(0, HERE)
 
 PAINT = {"painting", "visual art (unspecified)", ""}
+# movement leaves that define their own medium: an artist recorded under another medium still goes there
+CROSS = {"T150", "T151", "T152"}
 
 # medium -> sub-families a movement leaf may have for an artist of that medium
 COMPAT = {
@@ -87,7 +93,7 @@ EXCLUDE = {
     "Q474262": "film director (film tab)", "Q1962284": "film pioneer (film tab)", "Q61654": "film pioneer (film tab)",
     "Q465350": "film pioneer (film tab)", "Q703759": "animator (film tab)", "Q339892": "musician", "Q212632": "poet",
     "Q150526": "neuroscientist", "Q2355375": "poet", "Q3306241": "poet", "Q150471": "writer and composer",
-    "Q2004984": "surgeon", "Q451727": "anatomist", "Q3087508": "writer", "Q1046410": "martial artist", "Q33772": "poet",
+    "Q2004984": "surgeon", "Q157100": "patron and regent", "Q451727": "anatomist", "Q3087508": "writer", "Q1046410": "martial artist", "Q33772": "poet",
 }
 
 # --- per-artist evidence: qid -> (leaf, kind, source, confidence, note)
@@ -164,6 +170,9 @@ EVIDENCE = {
     "Q3146355": ("T12", "", "hand", "medium", "Shijō-school painter (Nishiyama Hōen)"),
     "Q3121142": ("T127", "", "hand", "high", "ukiyo-e (kōsen-ga) print designer"),
     # premodern East Asian sculptors outside Kei
+    "Q1446925": ("T22", "Umbrian school", "hand", "high", "Umbrian painter (Giovanni di Pietro, called Lo Spagna), pupil of Perugino"),
+    "Q2027523": ("T142", "", "hand", "high", "Valencian/Aragonese sculptor of retables; recorded medium is painting"),
+    "Q3331432": ("east_asia:L21", "En school", "hand", "high", "En-school busshi (Myōen), not Kei"),
     "Q847250": ("east_asia:L20", "", "hand", "high", "Silla minister credited with Seokguram and Bulguksa"),
     "Q17214954": ("east_asia:L19", "", "hand", "medium", "Song Chinese caster who recast the Tōdai-ji Great Buddha"),
 }
@@ -291,7 +300,7 @@ def main():
         q = a["qid"]
         cty = C.get(q, set())
         b = birth_int(a["birth"])
-        tags, cands = [], []
+        tags, cands, cross = [], [], []
         for x in filter(None, a["movements"].split("|")):
             mq, _, ml = x.partition(":")
             m = M.get(mq)
@@ -304,6 +313,8 @@ def main():
                     ok = False  # Kei only for Japanese Kamakura sculptors
                 if ok:
                     cands.append((n_leaf[leaf], len(cands), leaf, grp, mq, ml))
+                elif leaf in CROSS or S.get(leaf, "").startswith("M"):
+                    cross.append((n_leaf[leaf], len(cands) + len(cross), leaf, grp, mq, ml))
                 else:
                     tags.append(ml or mq)
             elif d.startswith("tag"):
@@ -316,14 +327,22 @@ def main():
         elif q in EVIDENCE:
             leaf, kind, src, conf, note = EVIDENCE[q]
             row.update(leaf=leaf, kind=kind, rule=f"evidence:{src}", confidence=conf, note=note)
-            tags += [c[5] or c[4] for c in cands]
-        elif cands:
+            tags += [c[5] or c[4] for c in cands + cross]
+        elif cands or (cross and a["medium"] not in ("architecture", "vase painting")):
+            medium_note = ""
+            if not cands:
+                cands, cross = cross, []
+                medium_note = "; medium-defining movement (installation, conceptual, minimal, kinetic, media art) overrides the recorded medium"
+            tags += [c[5] or c[4] for c in cross]
             cands.sort()
             _, _, leaf, grp, mq, ml = cands[0]
             row.update(leaf=leaf, kind=grp, rule=f"movement:{mq}", confidence="high",
-                       note=f"movement {ml}" + (f"; other movements: {', '.join(c[5] for c in cands[1:])}" if len(cands) > 1 else ""))
+                       note=f"movement {ml}" + (f"; other movements: {', '.join(c[5] for c in cands[1:])}" if len(cands) > 1 else "") + medium_note)
+            if medium_note:
+                row["confidence"] = "medium"
             tags += [c[5] or c[4] for c in cands[1:]]
         else:
+            tags += [c[5] or c[4] for c in cross]
             pending.append(row)
         row["movement_tags"] = "|".join(dict.fromkeys(t for t in tags if t))
         if q in URBAN_ABORIGINAL:
@@ -338,7 +357,7 @@ def main():
         cty = C.get(a["qid"], set())
         for i, r in enumerate(R, start=2):
             if match_rule(r, a, cty):
-                conf = "medium" if r["country"] != "*" else ("low" if r["birth_from"].startswith("era:") else "medium")
+                conf = "medium" if r["country"] != "*" and not r["birth_from"].startswith("era:") else "low"
                 return r["leaf"], f"period:{i}", conf, r["note"]
         return None
 

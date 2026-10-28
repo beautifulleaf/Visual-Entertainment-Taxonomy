@@ -834,6 +834,12 @@ PRECEDENCE += [
 ]
 
 
+_fam("J")["subs"] = [("J1", "Photographic Schools & Movements", "Axis: period style and movement (pictorialism, straight photography, documentary, contemporary).")]
+_fam("M")["subs"] = [("M1", "Installation, Conceptual & Performance Art", "Axis: movement (conceptual art, Fluxus, Arte Povera, land art, performance)."),
+                     ("M2", "Video & New Media Art", "Axis: medium-led movement (video art, new media and net art).")]
+_fam("I")["subs"] = [(c, ("Furniture & Decorative Arts Styles" if c == "I3" else lab), ("Axis: period style of furniture and the decorative arts (Louis XIV to Mid-Century Modern); designers and makers are kinds." if c == "I3" else ax)) for c, lab, ax in _fam("I")["subs"]]
+
+
 def _load_scaleup():
     import csv as _csv
     import os as _os

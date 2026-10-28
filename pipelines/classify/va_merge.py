@@ -105,6 +105,24 @@ def main():
                             "type": "kind from evidence", "region": "", "era": "", "objects": "",
                             "disposition": f"kind:{code}" + (f"/{k['group']}" if k.get("group") else ""), "note": k.get("basis", "")})
                 stats[sl, "kind (evidence)"] += 1
+    # artists: one kind row per placed artist, under its leaf (T… tmp ids, slice:L… ids or existing codes)
+    for a in rd(os.path.join(VA, "artist_placements.csv")):
+        leaf = a["leaf"].strip()
+        if leaf.startswith("exclude"):
+            d = leaf
+        else:
+            if ":" in leaf:
+                sl, tmp = leaf.split(":", 1)
+                code = codes.get((sl, tmp))
+            elif re.fullmatch(r"T\d+", leaf):
+                code = codes.get(("artists", leaf))
+            else:
+                code = leaf
+            d = f"kind:{code}/{a['kind'] or 'Artists'}" if code else "unplaced"
+        out.append({"slice": "artists", "pool_id": a["qid"], "source": "artists", "label": a["label"], "type": "artist",
+                    "region": a["region"], "era": a["birth"], "objects": "", "disposition": d,
+                    "note": "; ".join(x for x in (a.get("movement_tags", ""), a.get("note", "") if a.get("confidence") != "low" else "") if x)})
+        stats["artists", d.split(":")[0]] += 1
     with open(os.path.join(VA, "va_placements.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(out[0]))
         w.writeheader()
