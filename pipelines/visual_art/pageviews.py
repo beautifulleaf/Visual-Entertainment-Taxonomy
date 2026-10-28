@@ -9,7 +9,7 @@ are summed per article and then over every language edition an artist has.
 Input:  data/interim/visual_art/sitelinks.tsv (qid, wiki, title; from build_pool.py)
 Output: data/interim/visual_art/pageviews.csv (qid, views_<month>..., pageviews = monthly mean)
 
-Usage: python3 pipelines/visual_art/pageviews.py [--months 2026-09 2026-08 ...]
+Usage: python3 pipelines/visual_art/pageviews.py [--months 2026-09 2026-08 ...] [--sitelinks TSV --out CSV]
 """
 import argparse
 import collections
@@ -73,11 +73,14 @@ def month_views(month, articles):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--months", nargs="+", default=["2026-09"])
+    # Other pools (e.g. contemporary art) pass their own sitelinks file and output.
+    ap.add_argument("--sitelinks", default=SITELINKS)
+    ap.add_argument("--out", default=OUT_PATH)
     args = ap.parse_args()
     os.makedirs(RAW, exist_ok=True)
 
     articles, qids = {}, set()
-    with open(SITELINKS, encoding="utf-8") as f:
+    with open(args.sitelinks, encoding="utf-8") as f:
         for line in f:
             q, wiki, title = line.rstrip("\n").split("\t")
             articles[(f"{wiki}.wikipedia".encode(), title.replace(" ", "_").encode())] = q
@@ -85,13 +88,13 @@ def main():
     print(f"{len(articles)} articles for {len(qids)} artists")
 
     per_month = {m: month_views(m, articles) for m in args.months}
-    with open(OUT_PATH, "w", newline="", encoding="utf-8") as f:
+    with open(args.out, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["qid"] + [f"views_{m}" for m in args.months] + ["pageviews"])
         for q in sorted(qids):
             vs = [per_month[m].get(q, 0) for m in args.months]
             w.writerow([q] + vs + [round(sum(vs) / len(vs))])
-    print(f"wrote {OUT_PATH}")
+    print(f"wrote {args.out}")
 
 
 if __name__ == "__main__":
