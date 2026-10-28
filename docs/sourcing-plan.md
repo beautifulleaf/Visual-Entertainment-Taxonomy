@@ -44,11 +44,15 @@ MDBList (mdblist.com) aggregates ratings from IMDb, TMDB, Trakt, Letterboxd, RT,
 1. **Candidate set:** IMDb film-like titles with numVotes ≥ 500 (84,993, *measured*; `pipelines/film/build_candidates.py`), unioned with TMDB films with vote_count ≥ ~50 and with every film on the canon lists below. The union catches titles that are under-voted on IMDb but logged on Letterboxd (arthouse, non-English, shorts).
 2. **Enrich via MDBList batch:** get `letterboxd.votes` per film.
 3. **Include if** `letterboxd.votes ≥ 10,000` **OR** a canon/curation hit **OR** the regional-percentile rule (top-N by Letterboxd votes per country and decade, so that Nigerian, Indonesian or Iranian cinema is not cut).
-4. **Gaps (decided 2026-10-28): triage by IMDb votes first.** On the 73,493 films with both counts, log IMDb votes and log Letterboxd ratings correlate at 0.85. The share reaching ≥10k Letterboxd by IMDb votes: 500–1k 0.9% · 1k–2k 2.7% · 2k–5k 9.6% · 5k–10k 31% · 10k–20k 59% · 20k–50k 89% · 50k+ 99.5%. Of the 11,500 candidates with no Letterboxd figure:
-   - about 11,250 have under 5k IMDb votes and are set aside;
-   - 33 have ≥20k and are included directly;
-   - 215 have 5k–20k and are decided by the Letterboxd user-sample estimate (`pipelines/film/letterboxd_sample.py`) or a manual look;
-   - the 6 on a canon list enter through canon anyway.
+4. **Gaps (decided 2026-10-28).** On the 73,493 films with both counts, log IMDb votes and log Letterboxd ratings correlate at 0.85. The share reaching ≥10k Letterboxd by IMDb votes: 500–1k 0.9% · 1k–2k 2.7% · 2k–5k 9.6% · 5k–10k 31% · 10k–20k 59% · 20k–50k 89% · 50k+ 99.5%. Of the 11,500 candidates with no Letterboxd figure, about 11,250 have under 5k IMDb votes and are near-certainly below 10k.
+   **High IMDb votes plus no Letterboxd figure is itself a red flag.** The 33 gap films at ≥20k IMDb votes are mostly DVD featurettes (*Attack of the Clones: Deleted Scenes*, *HBO First Look*), fan films, audiobook videos, streamer clips, and Indian titles with brigaded IMDb votes; the sample puts *Dam999* at ~240 Letterboxd ratings and *Checkmate* at ~125. So they are **not** auto-included.
+   The deciding signal is the Letterboxd user sample (`pipelines/film/letterboxd_sample.py`): HF `titouann/letterboxd-10m-movies-ratings-2025`, 10.46M ratings from 6,519 users, joined by Letterboxd slug.
+   - Calibration: log10(LB) = 2.098 + 0.956·log10(sample users), R² 0.79, so 10k Letterboxd ≈ 98 sample users. As a cutoff it gets about 84% of calls right in both directions; the estimate is good to about ×2 and under-estimates blockbusters.
+   - Coverage: 6,422 of the 11,500 gaps get an estimate.
+   - **Included: the 34 with an estimate ≥10k.** These are mostly cult shorts and videos MDBList never returned (*Save Ralph*, the Grindhouse fake trailers, Ari Aster's *Beau*, *Sallie Gardner at a Gallop*). *Man* (2012), matched on the generic slug `man`, needs a hand check.
+   - **Manual review:** the 28 gaps with ≥20k IMDb votes and no estimate.
+   - Canon films among the gaps enter through canon anyway.
+   - Indian films are thin in the sample (*Kaiva* has no raters), so Indian titles rely on the regional rule.
 
 Canon/curation lists: Sight and Sound 2022, TSPDT 1000 and 21st-century 1000, the Criterion Collection, national film registries, top prizes at major festivals.
 *Measured (2026-10-28, `pipelines/film/canon_lists.py`):* **3,839 distinct films** are on at least one canon list. **About 1,500 of them are not already in through Letterboxd ≥10k**: about 1,100 are candidates under 10k ratings, and about 400 are not film candidates at all (mostly shorts and titles under 500 IMDb votes).
