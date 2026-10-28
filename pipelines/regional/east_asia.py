@@ -61,7 +61,9 @@ spaced ~1 s apart; re-runs read the cache, so an interrupted run resumes):
 Normalisation:
   period    the recorded dynasty/era string is kept as is (period_original) and
             mapped to an English period (PERIODS), using the object's country to
-            choose between homographs (南北朝, 三国, 新石器).
+            choose between homographs (南北朝, 三国, 新石器). Objects with dates but no
+            recorded period get one from the dates when the whole range falls in a
+            single period (period_basis = "date", otherwise "recorded").
   type      every source's own classification is mapped to one medium axis
             (painting, prints, calligraphy, sculpture, ceramics, metalwork, jade,
             lacquer, textiles, ...; see TYPE_* tables). The source category is
@@ -390,6 +392,42 @@ def period_of(text, country=None):
     return hits[0][3]
 
 
+# Non-overlapping period sequences, used only to name the period of an object that records dates but
+# no period (period_basis = "date"); begin and end must fall in the same period.
+SEQUENCE = {
+    "Japan": ["Jōmon", "Yayoi", "Kofun", "Asuka", "Nara", "Heian", "Kamakura", "Nanbokuchō", "Muromachi", "Momoyama",
+              "Edo", "Meiji", "Taishō", "Shōwa", "Heisei"],
+    "China": ["Shang", "Western Zhou", "Eastern Zhou", "Qin", "Western Han", "Xin", "Eastern Han", "Six Dynasties", "Sui",
+              "Tang", "Five Dynasties", "Northern Song", "Southern Song", "Yuan", "Ming", "Qing", "Republic",
+              "People's Republic"],
+    "Korea": ["Three Kingdoms (Korea)", "Unified Silla", "Goryeo", "Joseon", "Korean Empire", "Japanese colonial period",
+              "Post-1945 (Korea)"],
+}
+_SEQ = {}
+for _c, _names in SEQUENCE.items():
+    _rows = []
+    for _n in _names:
+        _p = next(p for p in PERIODS if p[0] == _n and p[1] == _c)
+        _rows.append([_n, _p[2], _p[3]])
+    for _j in range(len(_rows) - 1):          # make them contiguous: each ends where the next begins
+        _rows[_j][2] = _rows[_j + 1][1]
+    if _c == "Japan":
+        _rows[_names.index("Nanbokuchō")][2] = 1392
+    _SEQ[_c] = _rows
+
+
+def period_from_dates(country, begin, end):
+    try:
+        b = int(begin)
+        e = int(end) if end not in (None, "") else b
+    except (TypeError, ValueError):
+        return None
+    for n, pb, pe in _SEQ.get(country, []):
+        if pb <= b and e < pe:
+            return next(i for i, p in enumerate(PERIODS) if p[0] == n and p[1] == country)
+    return None
+
+
 def period_label(i):
     return PERIODS[i][0] if i is not None else ""
 
@@ -403,6 +441,8 @@ NON_PERSON = re.compile(r"アイヌ|研究所|博物館|写真館|美術館|学�
 WORKSHOP = re.compile(r"(窯|焼|工房|御用|官窯|伊万里|瀬戸|有田|鍋島|唐津|萩|楽家|座)$|窯|ware\b|kiln|workshop", re.I)
 JP_ROLES = [("撮影", "photographer"), ("下絵", "designer"), ("原画", "designer"), ("図案", "designer"),
             ("自画自賛", "painter"), ("自画賛", "painter"), ("画賛", "painter"), ("自賛", "painter"),
+            ("自画自讃", "painter"), ("自画讃", "painter"), ("画讃", "painter"), ("自讃", "painter"),
+            ("讃", "inscriber"), ("自画自刻", "painter"), ("自画自摺", "painter"), ("自刻", "carver"),
             ("筆", "painter"), ("画", "painter"), ("書", "calligrapher"), ("作", "maker"), ("造", "maker"),
             ("製", "maker"), ("刻", "carver"), ("彫", "carver"), ("模", "copyist"), ("摸", "copyist"),
             ("写", "copyist"), ("著", "author"), ("編", "author"), ("撰", "author"), ("訳", "author"),
@@ -523,6 +563,8 @@ def rr_syllable(ch):
 
 def romanise_korean_name(name):
     """김홍도 -> Kim Hong-do; 정선 -> Jeong Seon (Revised Romanization, syllable by syllable)."""
+    if name and " " in name.strip():       # monks' and art names: 몽산 덕이 -> Mongsan Deogi
+        return " ".join("".join(rr_syllable(c) for c in part).capitalize() for part in name.split())
     if not name or not re.fullmatch(r"[가-힣]{2,5}", name):
         return ""
     sur = name[:2] if name[:2] in KO_SURNAME and len(name) >= 4 else name[:1]
@@ -631,7 +673,8 @@ DESIGNATION_EN = {"国宝": "National Treasure (Japan)", "重要文化財": "Imp
 
 # ----------------------------------------------------------------- record shape
 
-OBJ_FIELDS = ["source", "id", "title", "title_en", "country", "period_original", "period_en", "object_type",
+OBJ_FIELDS = ["source", "id", "title", "title_en", "country", "period_original", "period_en", "period_basis",
+              "object_type",
               "object_subtype", "artist_original", "artist_romanised", "artist_role", "attribution",
               "artist_key", "designation", "designation_en", "date", "date_begin", "date_end", "holder", "url"]
 
@@ -1078,7 +1121,7 @@ def npm_parse_makers(rows, lexicon):
         f = fold_cjk(rem)
         r["maker"], r["attributed"] = "", attributed
         if not r["_pre"] or not f or f[0] == "人" or \
-                f.startswith(("院", "佚名", "無款", "名人", "名画", "名賢", "名家", "歴代", "集古", "宋元", "元明", "明清",
+                f.startswith(("院", "佚名", "無款", "名人", "名画", "名賢", "名家", "歴代", "集古", "宋元", "元明", "明清", "諸",
                               "諸家", "群賢", "御製", "御筆")) or \
                 (len(f) > 1 and f[0] in "宋元明清唐" and f[1] == "人"):
             r["anonymous"] = True
@@ -1293,6 +1336,12 @@ def em_period(label, country):
 
 def ko_type(classification, material, title):
     c = classification or ""
+    if "서간" in c or "어필" in c:
+        return "calligraphy"
+    if re.search(r"경판|경전|문헌|전적|책판|목판", c):
+        return "books and manuscripts"
+    if "문서" in c:
+        return "documents and historical materials"
     if "불화" in c or "초상" in c:
         return "painting"
     if "서화" in c or "회화" in c or "글씨" in c:
@@ -1350,16 +1399,22 @@ def fetch_korea(delay, n_details):
         pidx = em_period(period_txt.strip(), country)
         title = it[1]
         maker = None
+        kdates = None
         for key in ("작가", "제작자", "작자"):
             if det.get(key):
-                maker = (det[key].strip(), False)
+                raw_k = det[key].strip()
+                kdates = life_dates(raw_k.replace("~", "-"))
+                hangul = re.findall(r"[가-힣]+", re.sub(r"\(.*", "", raw_k))
+                if hangul:
+                    maker = (" ".join(hangul), raw_k.startswith("전 ") or raw_k.startswith("傳"))
                 break
         maker = maker or korean_maker(title)
+        otype = ko_type(det.get("분류", ""), det.get("재질", ""), title)
         mk = []
         if maker and not KO_NOT_NAME.search(maker[0]):
-            mk = [{"name": maker[0], "rom": romanise_korean_name(maker[0]), "dates": None, "role": "artist",
+            mk = [{"name": maker[0], "rom": romanise_korean_name(maker[0]), "dates": kdates,
+                   "role": "artist" if otype not in NON_ARTIST_TYPES else "author",
                    "attributed": maker[1]}]
-        otype = ko_type(det.get("분류", ""), det.get("재질", ""), title)
         des = re.sub(r"\s*제?\s*\d+호.*$", "", det.get("국가지정유산") or label).strip() or label
         o = obj(source="emuseum", id=rid, title=title, country=country, period_original=period_txt.strip(),
                 _period_idx=pidx, object_type=otype, object_subtype=det.get("분류", ""),
@@ -1634,7 +1689,7 @@ def build_artists(objects):
                 a["attr_to"] += 1
             if o["object_type"] not in NON_ARTIST_TYPES:
                 a["visual"] += 1
-            if o["designation"]:
+            if o["designation"] and o["object_type"] not in NON_ARTIST_TYPES:
                 a["des"][(o["source"], o["designation"])] += 1
             if len(a["examples"]) < 3 and (o["designation"] or len(a["examples"]) < 2):
                 a["examples"].append(o["title"][:60])
@@ -1831,6 +1886,13 @@ def main():
         npm = load_npm(rows, fetcher, lexicon, args.npm_details)
     objects = objects + bunka + npm + korea + cma + aic
 
+    for o in objects:
+        if o["period_en"]:
+            o["period_basis"] = "recorded"
+        else:
+            i = period_from_dates(o["country"], o["date_begin"], o["date_end"])
+            if i is not None:
+                o["period_en"], o["period_basis"] = PERIODS[i][0], "date"
     artists = build_artists(objects)
     traditions = build_traditions(objects, facet_counts, npm_counts_)
     for o in objects:

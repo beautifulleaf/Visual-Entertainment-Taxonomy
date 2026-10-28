@@ -273,9 +273,13 @@ def main():
             # Secondary or honorary citizenships (Max Ernst: Cuba; Leni Riefenstahl:
             # Sudan) put famous Europeans at the top of other regions' rankings. Use
             # where the artist was born or died (both count: émigrés belong to both).
+            # Requiring a matching citizenship as well keeps colonial-era Europeans
+            # (Tolkien, born in South Africa; Thackeray, born in Calcutta) out of the
+            # colonies' rankings, while émigrés (Gorky) still count for both regions.
             places = claims.get("birth_country", []) + claims.get("death_country", [])
+            cits = [c for c in claims.get("P27", []) if re.fullmatch(r"Q\d+", c)]
             if places:
-                return any(hit(c) for c in places)
+                return any(hit(c) for c in places) and (not cits or any(hit(c) for c in cits))
         for key in ("P27", "birth_country", "death_country"):
             cs = claims.get(key, [])
             if cs:  # first property that has any country decides
