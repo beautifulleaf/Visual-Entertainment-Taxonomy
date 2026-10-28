@@ -113,6 +113,12 @@ The target depth is the owner-supplied list in `seeds/visual-art/europe_1400-190
   - Cooper Hewitt (58,202), SAAM (13,783) and Hirshhorn record no culture or period, only makers.
   - No maker carries an outside ID (ULAN/Wikidata), so maker matching is a separate step.
 
+- **Architecture styles** (`pipelines/architecture/build_styles.py`, 2026-10-28): 2,412 style items (669 with ≥5 sitelinks); 1,071 have tagged buildings (P149, 186,597 buildings); 14,245 exemplar rows (up to 15 per style, ranked UNESCO > part of UNESCO site > other heritage > sitelinks, plus 5,992 UNESCO items with no style); 2,688 architects of exemplars. Getty AAT links on only 259 styles (missing even for Gothic, Romanesque, Byzantine, Mughal, Ottoman), so a direct AAT match is needed once Getty is back.
+  - **The style tags are Western-biased:** Gothic has 9,025 tagged buildings and Romanesque 9,126, against Khmer 3, Maya 6, Inca 2 and Hoysala 1. Nagara and Nara-period temple styles have no usable style item at all; Angkor, Chichen Itza, Machu Picchu, Hōryū-ji and Great Zimbabwe arrive only through the UNESCO list. Some tags are wrong: Angkor Wat is also tagged Dravidian, and the Taj Mahal "architecture of Iran".
+  - A recent bulk import added 617 zero-sitelink "… architecture style" items, mostly Indian regional styles. They are kept for classification to judge and excluded from counts.
+  - **A second pass for non-Western styles is running.** It assigns styles via building class (Hindu or Buddhist temple, stupa, mosque, pyramid, ...) × country × period, and via components of UNESCO sites. The coverage audit (§2.2) checks the result.
+  - **Open item:** the unstyled list includes cities and natural sites (filter by instance-of).
+
 ### 2.2 Gathering exit criterion: coverage audit (decided 2026-10-28)
 Node creation happens in the classifying stage. Gathering must hand it **evidence for every region at the level that region records**, so that no non-Western tradition drops out because it lacks artist names.
 - **Grid:** before gathering closes, build a region × period audit grid. Per cell, it counts:
