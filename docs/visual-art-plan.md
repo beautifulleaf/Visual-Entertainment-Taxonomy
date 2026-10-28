@@ -135,6 +135,15 @@ The target depth is the owner-supplied list in `seeds/visual-art/europe_1400-190
 - **Overlaps:** artists active 1860–1900 are also in the Europe 1400–1900 pass, and those born 1920–1940 are also in the contemporary pool. Selections are unioned by QID.
 - **Runner:** `pipelines/visual_art/run_modern.sh`.
 
+### 2.5 Getty vocabularies: dropped from this project (decided 2026-10-28)
+Getty AAT/ULAN IDs are **not required**:
+- Wikidata QIDs are the join key everywhere.
+- ULAN already comes through Wikidata (P245) and is a model feature.
+- The node hierarchy is built by clustering in the classifying stage. The AAT would at most be one input to it, and it is thin on many non-Western traditions.
+- vocab.getty.edu refuses requests from cloud IPs.
+
+The AAT columns in the tradition and architecture outputs stay empty. If the taxonomy is ever published or has to interoperate with museum systems, backfill them then: the matching code exists (`build_traditions.py` without `--no-aat`), run from a machine Getty does not block.
+
 ### 2.2 Gathering exit criterion: coverage audit (decided 2026-10-28)
 Node creation happens in the classifying stage. Gathering must hand it **evidence for every region at the level that region records**, so that no non-Western tradition drops out because it lacks artist names.
 - **Grid:** before gathering closes, build a region × period audit grid. Per cell, it counts:
@@ -187,7 +196,7 @@ Medium is a third axis alongside region and period: painting and calligraphy, sc
 - **Caveats:**
   - The Met records no Period or Dynasty on Islamic Art objects, so the dynasty (Mamluk, Safavid, Timurid, Ottoman, ...) is inferred from culture plus date (`ISLAMIC_PERIODS`). **This is a stopgap (decided 2026-10-28).** The regional sweeps replace it with collections that record each region's own categories, and their labels override the Met-derived inference where they disagree. For the Islamic world: Smithsonian Open Access (incl. the National Museum of Asian Art), the V&A API, Harvard Art Museums, Discover Islamic Art (Museum With No Frontiers) and Cleveland's full artwork records. The same pattern applies to every region (ColBase and the National Palace Museum for East Asia, the V&A and the British Library for South Asia, ...).
   - Attic red-figure vs black-figure cannot be split: the Met CSV never records it.
-- **Pending:** the Getty AAT mapping. vocab.getty.edu returned 499/403 throughout, so re-run the script when it's back; the AAT columns are empty until then.
+- The Getty AAT mapping is not done; see §2.5 (Getty dropped from this project).
 
 ### Prominence metric (tradition nodes)
 Each signal is a percentile within its region × period cell:
