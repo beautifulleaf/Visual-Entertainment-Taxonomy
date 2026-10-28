@@ -1,0 +1,1227 @@
+pool_id,label,disposition,note
+proposed:Andean (culture unassigned),Andean (culture unassigned),tag:place,"geographic remainder bucket (Bolivia/Ecuador/Peru sites with no culture); includes noise (שלום Q219279, Nazca Lines = geoglyphs, L1); Tiwanaku/Pumapunku/Akapana are kind Tiwanaku of L63 Pre-Inca Andean Architecture"
+proposed:Inca,Inca,alias:L62,candidate bucket for the leaf (Wikidata Q2004258 is the leaf row); Pachacámac is pre-Inca (Ychsma/Wari) with an Inca phase
+proposed:Chavín,Chavín,kind:L63/Cultures,Chavín de Huántar; stela/portal exemplars are sculpture (D5 Chavín Sculpture)
+"proposed:Andean regional (Recuay, Lima, Sicán, ...)","Andean regional (Recuay, Lima, Sicán, ...)",kind:L63/Cultures,"mixed bucket of minor cultures (Recuay, Lima, Sicán): kept as one kind 'regional cultures'"
+proposed:Chachapoya,Chachapoya,kind:L63/Cultures,Kuélap; sarcophagi of Karajía are sculpture
+proposed:Moche,Moche,kind:L63/Cultures,"adobe huacas (Huaca del Sol, Huaca de la Luna); murals are L2 Moche Murals"
+proposed:Wari,Wari,kind:L63/Cultures,"Piquillacta; Toro Muerto is a petroglyph field (L1), false match"
+proposed:Chimú,Chimú,kind:L63/Cultures,Chan Chan
+proposed:Caral / Norte Chico,Caral / Norte Chico,kind:L63/Cultures,Caral-Supe platform mounds (only Vichama among candidates)
+proposed:Mamluk,Mamluk,alias:K1-8,
+proposed:Yemeni / Omani Islamic,Yemeni / Omani Islamic,route:K1,"no K1 pilot leaf for South Arabian Islamic architecture (Sana'a, Zabid, Omani forts); gap"
+proposed:Ayyubid,Ayyubid,kind:K1-8/Ayyubid,Ayyubid precursors of Mamluk architecture (Q137273324 below cut)
+proposed:Fatimid,Fatimid,alias:K1-3,
+proposed:Early Islamic (Umayyad / Abbasid / Tulunid),Early Islamic (Umayyad / Abbasid / Tulunid),alias:K1-1,"bucket spans K1-1 Umayyad and K1-2 Abbasid (Ibn Tulun, Samarra); buildings split by date; Umayyad Mosque Q183562 is on BAD_QID as a style match"
+proposed:Iraqi Islamic (Ilkhanid / Jalayirid),Iraqi Islamic (Ilkhanid / Jalayirid),kind:K1-9/Jalayirid,
+proposed:Balinese (pura),Balinese (pura),kind:L41/Pura,
+"proposed:Bengal temple (chala / ratna, terracotta)","Bengal temple (chala / ratna, terracotta)",leaf:L7,
+proposed:Burmese Buddhist (post-Pagan),Burmese Buddhist (post-Pagan),alias:L43,post-Pagan bucket (Konbaung and later)
+proposed:Burmese — Pagan,Burmese — Pagan,kind:L43/Pagan,
+proposed:Arakanese (Mrauk U),Arakanese (Mrauk U),kind:L43/Mrauk U,
+"proposed:Central Asian — Shaybanid / khanates (Bukhara, Khiva, Kokand)","Central Asian — Shaybanid / khanates (Bukhara, Khiva, Kokand)",kind:K1-10/Shaybanid and khanates,post-Timurid Central Asian architecture continuing the Timurid idiom
+proposed:Cham,Cham,leaf:L46,
+proposed:Chinese temple (undated),Chinese temple (undated),alias:L18,undated bucket; Bingling Temple is a cave-temple site
+proposed:Taiwanese (Minnan) temple,Taiwanese (Minnan) temple,kind:L24/Taiwanese temples,
+proposed:Chinese Islamic,Chinese Islamic,alias:K1-18,
+proposed:Chinese — Qing (1644–1912),Chinese — Qing (1644–1912),tag:period,
+proposed:Chinese — Ming (1368–1644),Chinese — Ming (1368–1644),tag:period,
+proposed:Chinese — Liao / Song / Jin (907–1279),Chinese — Liao / Song / Jin (907–1279),tag:period,
+proposed:Chinese — pre-Tang (to 617),Chinese — pre-Tang (to 617),tag:period,
+proposed:Chinese — Yuan (1279–1368),Chinese — Yuan (1279–1368),tag:period,
+proposed:Chinese — Tang (618–907),Chinese — Tang (618–907),tag:period,
+proposed:Kerala temple architecture,Kerala temple architecture,alias:L6,Q4787139 is the leaf row; Kottukal is rock-cut
+proposed:Dravidian (undated),Dravidian (undated),alias:L4,undated bucket of the leaf; Tiger Cave (Mahabalipuram) is Pallava
+proposed:Andhra Dravidian (other / undated),Andhra Dravidian (other / undated),tag:place,regional remainder bucket; Ramappa and Thousand Pillar are kind Kakatiya; Amaravati Mahastupa is L8 Buddhist Architecture (false match)
+proposed:Karnataka Dravidian (other / undated),Karnataka Dravidian (other / undated),tag:place,regional remainder bucket; Badami Bhutanatha and Lad Khan are kind Badami Chalukya of L5 Vesara
+proposed:Sri Lankan Dravidian (kovil),Sri Lankan Dravidian (kovil),kind:L4/Sri Lankan kovil,
+proposed:Dravidian — Vijayanagara,Dravidian — Vijayanagara,kind:L4/Vijayanagara,
+proposed:Dravidian — Pallava,Dravidian — Pallava,kind:L4/Pallava,
+proposed:Dravidian — Chola,Dravidian — Chola,kind:L4/Chola,
+proposed:Kakatiya,Kakatiya,kind:L4/Kakatiya,seam with Vesara: Kakatiya temples join Chalukyan and Dravidian forms
+proposed:Dravidian — modern (after 1736),Dravidian — modern (after 1736),tag:period,
+proposed:Early Buddhist (Maurya – Gupta – Pala),Early Buddhist (Maurya – Gupta – Pala),leaf:L8,
+proposed:Mississippian / mound builders,Mississippian / mound builders,leaf:L65,
+proposed:Ethiopian Islamic (Harar),Ethiopian Islamic (Harar),route:K1,Harar Jugol mosques and shrines; no K1 pilot leaf (Harari architecture); gap
+proposed:Ethiopian rock-hewn churches,Ethiopian rock-hewn churches,leaf:L53,Abu Simbel (Egypt) and Ruins of Aksum are false matches
+proposed:Ethiopian church (other),Ethiopian church (other),tag:place,"mixed bucket of Ethiopian and Eritrean churches, mostly 19th–20th century; no style"
+proposed:Gondarine (Ethiopia),Gondarine (Ethiopia),leaf:L54,
+proposed:Aksumite,Aksumite,leaf:L52,
+proposed:Gandharan Buddhist,Gandharan Buddhist,kind:L8/Gandhara,Buddhas of Bamiyan are colossal sculpture in situ (D)
+proposed:Harappan (Indus),Harappan (Indus),leaf:L17,
+proposed:Indo-Islamic (Delhi Sultanate),Indo-Islamic (Delhi Sultanate),kind:K1-14/Delhi Sultanate,
+proposed:Gujarat Sultanate,Gujarat Sultanate,kind:K1-14/Gujarat Sultanate,
+proposed:Deccan Sultanates (Bahmani / Qutb Shahi / Adil Shahi),Deccan Sultanates (Bahmani / Qutb Shahi / Adil Shahi),kind:K1-14/Deccan Sultanates,Pratapgad is a Maratha fort (false match)
+proposed:Bengal Sultanate,Bengal Sultanate,kind:K1-14/Bengal Sultanate,
+proposed:Japanese castle,Japanese castle,alias:L33,
+proposed:Kofun (mounded tombs),Kofun (mounded tombs),leaf:L34,
+proposed:Shinto shrine,Shinto shrine,alias:L27,"Q3080012 is the leaf row; the bucket's existing P149 tags include residential styles (sukiya, shoin, shinden, gasshō) on shrine buildings"
+proposed:Japanese Buddhist — Muromachi / Momoyama,Japanese Buddhist — Muromachi / Momoyama,tag:period,
+proposed:Japanese Buddhist — Edo,Japanese Buddhist — Edo,tag:period,
+proposed:Japanese Buddhist (undated),Japanese Buddhist (undated),alias:L28,undated bucket
+proposed:Japanese Buddhist — Heian (794–1185),Japanese Buddhist — Heian (794–1185),tag:period,
+proposed:Japanese Buddhist — Kamakura (Daibutsuyō / Zenshūyō),Japanese Buddhist — Kamakura (Daibutsuyō / Zenshūyō),tag:period,its styles Daibutsuyō and Zenshūyō are kinds of L28 Japanese Buddhist Architecture
+proposed:Japanese Buddhist — Asuka / Nara (538–794),Japanese Buddhist — Asuka / Nara (538–794),tag:period,
+proposed:Javanese / Malay mosque (tajug),Javanese / Malay mosque (tajug),alias:K1-19,
+proposed:Javanese candi — Central Java (Mataram),Javanese candi — Central Java (Mataram),kind:L40/Central Javanese,
+proposed:Javanese candi (other),Javanese candi (other),alias:L40,remainder bucket
+proposed:Javanese candi — East Java (Kediri / Singhasari / Majapahit),Javanese candi — East Java (Kediri / Singhasari / Majapahit),kind:L40/East Javanese,
+proposed:Sumatran candi (Srivijaya / Melayu),Sumatran candi (Srivijaya / Melayu),kind:L40/Sumatran,Sri Mariamman Temple is Tamil (false match)
+proposed:Khmer (Angkorian),Khmer (Angkorian),alias:L39,Q2480618 is the leaf row
+"proposed:Khmer (Angkorian, provincial)","Khmer (Angkorian, provincial)",kind:L39/Provincial,"Vat Phou, Phimai, Phanom Rung"
+proposed:Cambodian Buddhist (post-Angkor),Cambodian Buddhist (post-Angkor),kind:L39/Post-Angkorian,
+proposed:Pre-Angkorian Khmer,Pre-Angkorian Khmer,kind:L39/Pre-Angkorian,
+proposed:Korean Buddhist (undated),Korean Buddhist (undated),kind:L37/Buddhist temples,
+proposed:Korean Buddhist — Three Kingdoms / Unified Silla,Korean Buddhist — Three Kingdoms / Unified Silla,tag:period,
+proposed:Korean — Joseon,Korean — Joseon,tag:period,palaces of Joseon (Gyeongbokgung) are kind Palaces of L37 Korean Architecture
+proposed:Korean Buddhist — Goryeo,Korean Buddhist — Goryeo,tag:period,
+proposed:Kushite (Napatan / Meroitic),Kushite (Napatan / Meroitic),leaf:L55,
+proposed:Lao (Lan Xang / Luang Prabang),Lao (Lan Xang / Luang Prabang),leaf:L45,
+proposed:Maghrebi earthen (ksar / kasbah),Maghrebi earthen (ksar / kasbah),kind:L57/Maghreb,"Aït Benhaddou, the M'zab ksour (Beni Isguen, Melika, Bounoura)"
+proposed:Marinid / Zayyanid / Hafsid,Marinid / Zayyanid / Hafsid,kind:K1-4/Marinid,Mazagan is Portuguese (false match)
+proposed:Early Islamic Maghreb (Aghlabid / Idrisid / Zirid),Early Islamic Maghreb (Aghlabid / Idrisid / Zirid),kind:K1-2/Aghlabid,Aghlabid Kairouan and Sousse; Idrisid/Zirid buildings split by date
+proposed:Almoravid / Almohad,Almoravid / Almohad,kind:K1-4/Almoravid and Almohad,
+proposed:Alaouite,Alaouite,kind:K1-4/Alaouite,
+proposed:Saadian,Saadian,kind:K1-4/Saadian,
+proposed:Deccan hill and sea forts (Maratha era),Deccan hill and sea forts (Maratha era),kind:L14/Maratha forts,seam: no attested article for a Maratha style; hill and sea forts of the Marathas placed with the fort-and-palace leaf
+proposed:Maya — southern lowlands (Petén / Usumacinta / Belize),Maya — southern lowlands (Petén / Usumacinta / Belize),kind:L59/Petén,"Central Petén style (Q124477911 below cut); Usumacinta sites (Palenque, Yaxchilan) within"
+"proposed:Maya — highlands and southeast (Guatemala highlands, Copán)","Maya — highlands and southeast (Guatemala highlands, Copán)",tag:place,"regional bucket; Copán and Quiriguá are the Motagua group, Joya de Cerén is a village site"
+proposed:Maya — northern lowlands,Maya — northern lowlands,tag:place,"regional bucket; Puuc, Chenes and Río Bec are its named kinds; Chichen Itza and Tulum are Late/Postclassic"
+proposed:Maya (unlocated),Maya (unlocated),alias:L59,unlocated bucket
+proposed:Maya — Puuc,Maya — Puuc,kind:L59/Puuc,
+proposed:Maya — Río Bec,Maya — Río Bec,kind:L59/Río Bec,
+proposed:Maya — Chenes,Maya — Chenes,kind:L59/Chenes,
+"proposed:Mesoamerican (central / western Mexico, unassigned)","Mesoamerican (central / western Mexico, unassigned)",alias:L60,"remainder bucket; includes rock-art site Sierra de San Francisco and Paquimé (Casas Grandes, Mogollon/Oasisamerica)"
+proposed:Zapotec / Mixtec (Oaxaca),Zapotec / Mixtec (Oaxaca),kind:L60/Zapotec and Mixtec,Guilá Naquitz and Gheo-Shih are archaeological camps (false matches)
+proposed:Classic Veracruz / Totonac,Classic Veracruz / Totonac,kind:L60/Classic Veracruz,
+proposed:Aztec,Aztec,alias:L61,Q4832964 is the leaf row
+proposed:Teotihuacan,Teotihuacan,kind:L60/Teotihuacan,
+proposed:Olmec,Olmec,kind:L60/Olmec,
+proposed:Toltec,Toltec,kind:L60/Toltec,only two weak candidates (Tula itself not matched)
+proposed:Mughal,Mughal,alias:K1-15,"false match flagged in handover: 1903 Taj Mahal Palace hotel (Indo-Saracenic, K2-5)"
+proposed:Nagara — central / north India,Nagara — central / north India,alias:L1,"main bucket; Sanchi, Dhamek and Chaukhandi stupas are L8 Buddhist Architecture (false matches)"
+proposed:Nagara — Maru-Gurjara,Nagara — Maru-Gurjara,alias:L3,Q70346829 is the leaf row
+proposed:Nagara — Bhumija / Hemadpanti (Deccan),Nagara — Bhumija / Hemadpanti (Deccan),kind:L1/Bhumija and Hemadpanti,
+proposed:Stepwell (western India),Stepwell (western India),leaf:L15,
+proposed:Nagara — Kalinga (Odisha),Nagara — Kalinga (Odisha),alias:L2,Udayagiri and Khandagiri caves are L9 Indian Rock-cut Architecture
+proposed:Nagara — Himalayan (Himachal / Uttarakhand),Nagara — Himalayan (Himachal / Uttarakhand),kind:L1/Himalayan,includes kath-kuni and pagoda-roofed hill temples (Hidimba Devi)
+proposed:Assamese / Ahom temple,Assamese / Ahom temple,kind:L1/Assam (Ahom),"Ahom-period temples of Assam (Nilachal type, Q18128734 below cut)"
+proposed:Kashmiri (Karkota / Utpala),Kashmiri (Karkota / Utpala),kind:L1/Kashmir,"seam: Kashmiri temples (Martand, Avantiswami) have pyramidal roofs and trefoil arches; a separate leaf if the owner prefers"
+proposed:Nagara — Chandela (Khajuraho),Nagara — Chandela (Khajuraho),kind:L1/Chandela,
+proposed:Newar (Kathmandu valley),Newar (Kathmandu valley),alias:L11,Q7016535 is the leaf row; Boudhanath and Swayambhunath stupas stay with Newar
+proposed:Rapa Nui (ahu / moai),Rapa Nui (ahu / moai),kind:L70/Rapa Nui ahu,moai are sculpture (D)
+proposed:Nan Madol (Saudeleur megalithic),Nan Madol (Saudeleur megalithic),leaf:L71,
+proposed:Tongan megalithic (langi / trilithon),Tongan megalithic (langi / trilithon),kind:L70/Tongan langi and trilithon,seam: Tongan royal tombs and the Haʻamonga trilithon are not marae proper
+proposed:Ottoman,Ottoman,alias:K1-12,
+proposed:Ottoman (Arab provinces),Ottoman (Arab provinces),kind:K1-12/Arab provinces,
+proposed:Anatolian Seljuk / Beylik,Anatolian Seljuk / Beylik,alias:K1-7,
+proposed:Azerbaijani (Shirvan–Absheron),Azerbaijani (Shirvan–Absheron),route:K1,Shirvan–Absheron school (Q16414661); no K1 pilot leaf; candidate kind of K1-6/K1-9
+proposed:Persian — Safavid,Persian — Safavid,alias:K1-11,
+proposed:Persian — Ilkhanid / Muzaffarid,Persian — Ilkhanid / Muzaffarid,alias:K1-9,
+proposed:Timurid,Timurid,alias:K1-10,
+proposed:Persian — Seljuk / Khwarazmian,Persian — Seljuk / Khwarazmian,alias:K1-6,
+proposed:Persian — Qajar,Persian — Qajar,alias:K1-13,
+proposed:Persian — early Islamic (Samanid / Buyid / Ghaznavid),Persian — early Islamic (Samanid / Buyid / Ghaznavid),route:K1,"pre-Seljuk Iranian (Samanid, Buyid, Ziyarid, Ghaznavid): no K1 pilot leaf; gap"
+proposed:Ancestral Puebloan,Ancestral Puebloan,alias:L64,Q96400431 is the leaf row
+proposed:Rajput (forts and palaces),Rajput (forts and palaces),leaf:L14,
+proposed:Indian rock-cut (caves),Indian rock-cut (caves),leaf:L9,
+proposed:Saharan stone (Mauritania ksour),Saharan stone (Mauritania ksour),kind:L57/Mauritanian ksour,"Ouadane, Chinguetti, Tichitt, Oualata; the Nouakchott mosques are modern (false matches)"
+proposed:Sudano-Sahelian,Sudano-Sahelian,alias:K1-16,Sudano-Sahelian is a K1 pilot leaf (K10 axis names it; kept in K1)
+proposed:Sudano-Sahelian (urban sites),Sudano-Sahelian (urban sites),kind:K1-16/Inland Niger Delta towns,Djenné-Djenno and Inland Niger Delta tells; pre-Islamic phases
+proposed:Sinhalese Buddhist (other),Sinhalese Buddhist (other),alias:L10,undated bucket
+proposed:Sinhalese — Kandyan,Sinhalese — Kandyan,kind:L10/Kandyan,
+proposed:Sinhalese — Anuradhapura,Sinhalese — Anuradhapura,kind:L10/Anuradhapura,
+proposed:Sinhalese — Polonnaruwa,Sinhalese — Polonnaruwa,kind:L10/Polonnaruwa,
+proposed:Swahili coast (coral stone),Swahili coast (coral stone),alias:K1-17,Fort Jesus is Portuguese (false match)
+proposed:Thai — Lanna,Thai — Lanna,kind:L44/Lanna,
+proposed:Thai — Ayutthaya,Thai — Ayutthaya,kind:L44/Ayutthaya,
+proposed:Thai — Sukhothai,Thai — Sukhothai,kind:L44/Sukhothai,
+proposed:Thai — Rattanakosin,Thai — Rattanakosin,kind:L44/Rattanakosin,
+proposed:Tibetan Buddhist,Tibetan Buddhist,leaf:L12,"Vikramaśīla is Pala Buddhist (India), false match"
+proposed:Bhutanese dzong,Bhutanese dzong,alias:L13,Q386952 is the leaf row; Tamshing Lhakhang and Paro Taktsang are temples (Tibetan Buddhist)
+proposed:Hoysala,Hoysala,alias:L5,= kind Hoysala (Q2361582); Udupi Krishna Matha is Kerala-style (false match)
+proposed:Western Chalukya (Kalyani),Western Chalukya (Kalyani),alias:L5,= kind Western Chalukya (Q4303378)
+proposed:Badami Chalukya,Badami Chalukya,alias:L5,= kind Badami Chalukya (Q4840570)
+proposed:Vietnamese Buddhist (Lý – Nguyễn),Vietnamese Buddhist (Lý – Nguyễn),kind:L47/Buddhist pagodas (chùa),
+proposed:Benin / Dahomey court architecture,Benin / Dahomey court architecture,tag:place,"mixed bucket of West African palaces (Abomey earthen palaces, Benin City, Yoruba palaces, modern presidential palace); no attested common style; gap in K10"
+proposed:Zimbabwe culture (dry-stone),Zimbabwe culture (dry-stone),leaf:L56,"Tsodilo (rock art), Makapansgat (cave), Kubu Island are false matches"
+Q11634,art of sculpture,exclude:non-style,art of sculpture
+Q41493,ancient history,exclude:non-style,ancient history
+Q7209,Han dynasty,tag:period,Han dynasty
+Q37853,Baroque,route:west,Baroque
+Q428995,Hellenistic period,exclude:non-style,Hellenistic period: historical period
+Q131221,Futurism,route:west,Futurism
+Q180902,socialist realism,route:west,socialist realism
+Q212940,Islamic architecture,exclude:umbrella,= K1 Islamic Architecture sub-family
+Q1842924,prehistoric art,exclude:non-style,prehistoric art: umbrella
+Q210688,Asuka period,tag:period,Asuka period
+Q281108,naïve art,route:west,naïve art (not architecture)
+Q33565,stilt house,exclude:building type,stilt house: generic type across traditions
+Q957904,Chinese architecture,leaf:L18,
+Q842352,ancient Egyptian architecture,route:K3,ancient Egyptian architecture
+Q1501585,architecture of Iran,tag:place,architecture of Iran
+Q631931,decorative art,exclude:non-style,decorative art
+Q527449,Ottoman architecture,alias:K1-12,
+Q542261,Mughal architecture,alias:K1-15,
+Q61050,architecture of India,tag:place,architecture of India
+Q1422874,Japanese architecture,exclude:umbrella,Japanese architecture: its styles are K8 leaves
+Q386952,dzong,leaf:L13,
+Q1001041,Buddhist art,exclude:umbrella,Buddhist art
+Q1008014,Greco-Buddhist art,exclude:non-style,Greco-Buddhist art: sculpture umbrella (Gandhara sculpture is a D leaf); its buildings are kind Gandhara of L8 Buddhist Architecture
+Q149617,gable roof,exclude:architectural element,gable roof
+Q186018,contemporary architecture,route:west,contemporary architecture
+Q1401605,Russian avant-garde,route:west,Russian avant-garde
+Q1503425,Metabolism,route:west,Metabolism (K6 modern movement)
+Q2860299,Armenian architecture,route:west,Armenian architecture (K4 medieval Christian)
+Q2427263,architecture of Azerbaijan,tag:place,architecture of Azerbaijan
+Q2429892,Mughal gardens,alias:K1-15,Mughal gardens (listed alias)
+Q2480618,Khmer architecture,leaf:L39,
+Q1195718,siheyuan,leaf:L19,
+Q681188,paifang,kind:L18/Building types,paifang
+Q1431376,Baroque literature,exclude:non-style,Baroque literature
+Q17012219,neo-futurism,route:west,neo-futurism
+Q2005167,Maya architecture,leaf:L59,
+Q2361582,Hoysala architecture,kind:L5/Hoysala,
+Q935445,minka,leaf:L32,
+Q17222820,machiya,kind:L32/Machiya,
+Q2004258,Inca architecture,leaf:L62,
+Q3374557,Indo-Saracenic architecture,alias:K2-5,
+Q2975225,Shinden-zukuri,leaf:L29,
+Q946790,chashitsu,kind:L31/Chashitsu,tea house
+Q2860300,Korean architecture,leaf:L37,
+Q1285794,Kumbum,kind:L12/Kumbum,
+Q16210807,Mamluk architecture,alias:K1-8,
+Q4673399,Achaemenid architecture,route:K3,Achaemenid
+Q80706,Hindu temple architecture,exclude:umbrella,Hindu temple architecture: Nagara/Dravidian/Vesara are leaves
+Q825394,Indo-Islamic architecture,alias:K1-14,
+Q171309,Dravidian architecture,leaf:L4,
+Q2864747,Timurid art,alias:K1-10,"Timurid art: art umbrella, architecture leaf"
+Q4668050,ablaq,exclude:ornament,ablaq: masonry technique/ornament (tag)
+Q12052700,Abbasid architecture,alias:K1-2,
+Q16148493,Armenian church architecture,route:west,Armenian church architecture (K4)
+Q22948695,Moroccan architecture,tag:place,"Moroccan architecture: country bucket (K1-4, KSAR)"
+Q2860334,church architecture,exclude:umbrella,church architecture
+Q489021,Sudano-Sahelian architecture,alias:K1-16,
+Q7448523,Seljuk architecture,alias:K1-6,
+Q1073342,Cape Dutch architecture,route:west,Cape Dutch (K5 colonial)
+Q2602891,Isabelline,route:west,Isabelline (K4)
+Q4787206,architecture of Turkey,tag:place,architecture of Turkey
+Q7883744,Japanese Buddhist architecture,leaf:L28,
+Q16047695,Timurid architecture,alias:K1-10,
+Q2047562,Buddhist architecture,leaf:L8,
+Q2576209,shoin-zukuri,leaf:L30,
+Q2582036,Shikumen,leaf:L26,
+Q2740745,Pendopo,kind:L42/Pendopo,
+Q3080012,Shinto architecture,leaf:L27,
+Q859039,yaodong,leaf:L20,
+Q12472525,Balinese architecture,leaf:L41,
+Q17625141,Cholet,route:west,Cholet: contemporary Aymara 'New Andean' architecture of El Alto (K6)
+Q2147720,Umayyad architecture,alias:K1-1,
+Q2650380,Mesoamerican architecture,leaf:L60,
+Q571755,Futuro,route:west,Futuro house (K6)
+Q4303378,Western Chalukya architecture,kind:L5/Western Chalukya,
+Q11587139,rock-cut architecture,exclude:umbrella,rock-cut architecture (worldwide technique); Indian tradition is L9 Indian Rock-cut Architecture
+Q2860345,architecture of Indonesia,tag:place,architecture of Indonesia
+Q2860385,architecture of Thailand,leaf:L44,
+Q2875112,azekura-zukuri,kind:L28/Building types,azekura storehouse (Shōsōin); also shrine treasuries
+Q3024819,Deul,kind:L2/Deula,deul/deula: the Odishan and Bengali temple tower; seam with L7 Bengal Temple Architecture
+Q57892327,Hindu architecture,exclude:umbrella,Hindu architecture
+Q11060089,Imperial Crown Style,route:K2,Imperial Crown Style: Japanese national revival (P8)
+Q1353902,sukiya-zukuri,leaf:L31,
+Q1363743,wooden structure,exclude:architectural element,wooden structure
+Q16836366,Fatimid architecture,alias:K1-3,
+Q17141173,moresque,exclude:ornament,moresque: ornament
+Q3621572,Sikh architecture,leaf:L16,
+Q3844828,Sasanian architecture,route:K3,Sasanian
+Q4740890,Azari style,kind:K1-9/Azari style,Pirnia's Azari style (Ilkhanid–Timurid)
+Q4832964,Aztec architecture,leaf:L61,
+Q855025,East Asian hip-and-gable roof,exclude:architectural element,irimoya roof (tag)
+Q93154241,nagaya,kind:L32/Nagaya,
+Q16191884,Neo-Grec,route:west,Neo-Grec
+Q210684,nagare-zukuri,kind:L27/Styles,nagare-zukuri
+Q2561822,Coptic architecture,route:west,Coptic architecture (K4)
+Q3128641,nipa hut,leaf:L49,
+Q3155268,Ishi-no-ma-zukuri,kind:L27/Styles,ishi-no-ma-zukuri (gongen-zukuri)
+Q3192940,karamon,kind:L28/Gates,karamon (also shrines and castles)
+Q3556317,Vesara,leaf:L5,
+Q388774,rock-cut architecture in India,alias:L9,
+Q4787139,architecture of Kerala,leaf:L6,
+Q7130888,stilt houses in Hong Kong,exclude:building type,"stilt houses of Tai O, Hong Kong"
+Q7232704,Portuguese colonial architecture,route:west,Portuguese colonial (K5)
+Q9630227,colonial architecture of Brazil,route:west,colonial architecture of Brazil (K5)
+Q116007157,Almohad architecture,kind:K1-4/Almoravid and Almohad,
+Q12961919,bahay na bato,leaf:L50,
+Q3458957,rōmon,kind:L28/Gates,rōmon
+Q3621606,Neoclassical architecture in Russia,route:west,Neoclassical architecture in Russia
+Q4740900,Razi style,kind:K1-6/Razi style,Pirnia's Razi style (Seljuk era)
+Q4840570,Badami Chalukya architecture,kind:L5/Badami Chalukya,
+Q518007,Giyōfū architecture,leaf:L36,
+Q5957125,Safavid architecture,alias:K1-11,
+Q899271,Brazilian baroque,route:west,Brazilian baroque (K5)
+Q930545,Shinmei-zukuri,kind:L27/Styles,shinmei-zukuri
+Q108760735,Ottoman Baroque,alias:K1-12,Ottoman Baroque (listed alias)
+Q10925819,Hakka walled village,leaf:L21,
+Q115978689,Almoravid architecture,kind:K1-4/Almoravid and Almohad,
+Q11677842,Golden Tea Room,exclude:single building,Golden Tea Room: a work of L31 Sukiya-zukuri
+Q13014472,Sino-Portuguese architecture,leaf:L51,
+Q13640694,Kalinga architecture,leaf:L2,
+Q16414661,Shirvan-Absheron architectural school,route:K1,Shirvan–Absheron school; no K1 pilot leaf
+Q3012037,Daibutsuyō,kind:L28/Styles,daibutsuyō
+Q3503635,Sumiyoshi-zukuri,kind:L27/Styles,sumiyoshi-zukuri
+Q3575224,さやと,kind:L28/Building types,sayadō (sheath hall)
+Q387874,Taisha-zukuri,kind:L27/Styles,taisha-zukuri
+Q4118879,architecture of Tokyo,tag:place,architecture of Tokyo
+Q4123717,Vologda wooden architecture,route:west,Vologda wooden architecture
+Q4314692,Architectural school of Nakhchivan,route:K1,Nakhchivan school (Momine Khatun); no K1 pilot leaf; candidate kind of K1-6
+Q4868540,Batak architecture,leaf:L48,
+Q48841650,Mosque architecture in Indonesia,alias:K1-19,
+Q4924573,Jo-an,exclude:single building,Jo-an: a work of L31 Sukiya-zukuri
+Q5100577,Chinese Palaces,kind:L18/Imperial palaces,Chinese palaces
+Q70346829,Māru-Gurjara architecture,leaf:L3,
+Q7140262,Parthian style,route:K3,Pirnia's Parthian style (pre-Islamic Iran)
+Q750181,Umayyad art,alias:K1-1,Umayyad art
+Q942123,Russian pseudo-gothic,route:west,Russian pseudo-gothic
+Q106092136,Japandi,route:west,Japandi (design)
+Q108485986,architecture of Malaysia,tag:place,architecture of Malaysia
+Q11268718,zenpō-kōen-fun,kind:L34/Shapes,zenpō-kōen-fun (keyhole)
+Q11391718,Hassō-an,exclude:single building,Hassō-an: a work of L31 Sukiya-zukuri
+Q11417855,Japanese-Western Eclectic Architecture,kind:L36/Japanese-Western eclectic,wayō-setchū; seam with K6
+Q189772,Brazilian academic art,route:west,Brazilian academic art
+Q1945086,Heliopolis style,route:west,Heliopolis style (K2/K6)
+Q24945351,Do-chala,kind:L7/Do-chala,
+Q25040753,Muisca architecture,kind:L63/Cultures,Muisca (Colombian highlands); seam: northern Andes
+Q25339634,dak bungalow,route:west,dak bungalow (K5 colonial)
+Q25407941,Art Nouveau architecture in Russia,route:west,Art Nouveau in Russia
+Q25469888,Hokkien architecture,leaf:L24,
+Q2860291,Christian architecture,exclude:umbrella,Christian architecture
+Q30687810,Lingnan architecture,leaf:L23,
+Q3083331,Andean Baroque,route:west,Andean Baroque (K5 colonial)
+Q3193781,Kasuga-zukuri,kind:L27/Styles,kasuga-zukuri
+Q3480647,Setchūyō,kind:L28/Styles,setchūyō
+Q3566879,Wayō,kind:L28/Styles,wayō
+Q5148407,colonial architecture of Indonesia,route:west,colonial architecture of Indonesia (K5)
+Q5327255,Earthquake Baroque,route:west,Earthquake Baroque (K5 colonial)
+Q567789,Federation architecture,route:west,Federation architecture
+Q6079815,Isfahani style,alias:K1-11,Isfahani style (listed alias)
+Q6402320,Khorasani style,route:K1,Pirnia's Khorasani style (early Islamic Iran)
+Q65040981,Hausa architecture,leaf:L58,
+Q7016535,Newa architecture,leaf:L11,
+Q7652972,Swahili architecture,alias:K1-17,
+Q79592379,Chinese Islamic architecture,alias:K1-18,
+Q8139947,gasshō-zukuri,kind:L32/Gasshō-zukuri,
+Q10674187,Soviet architecture,exclude:below inclusion rule (§2.3),
+Q109349770,Pit courtyard,exclude:below inclusion rule (§2.3),pit courtyard: kind of L20 Yaodong
+Q11504353,square kofun,kind:L34/Shapes,square kofun
+Q11784487,avant-garde architecture of the Soviet Union,exclude:below inclusion rule (§2.3),
+Q121327085,Zayyanid architecture,exclude:below inclusion rule (§2.3),Zayyanid: kind of K1-4
+Q127632740,Anatolian Seljuk architecture,alias:K1-7,
+Q16917845,Paulista School,exclude:below inclusion rule (§2.3),
+Q1944289,Mondop,exclude:below inclusion rule (§2.3),"mondop, candidate kind of L44 Thai Architecture"
+Q2011484,Hellenistic architecture,route:K3,Hellenistic architecture
+Q24905948,Char-chala,kind:L7/Char-chala,
+Q24931476,Colonial architecture in Surabaya,exclude:below inclusion rule (§2.3),
+Q24945352,At-chala,kind:L7/At-chala,
+Q24945384,Ek-ratna,kind:L7/Ek-ratna,
+Q2860288,Ōbaku Zen architecture,exclude:below inclusion rule (§2.3),"Ōbaku style, candidate kind of L28 Japanese Buddhist Architecture"
+Q3125455,Hachiman-zukuri,kind:L27/Styles,hachiman-zukuri
+Q3136194,hirairi,exclude:below inclusion rule (§2.3),hirairi entrance type (tag)
+Q3196321,Kibitsu-zukuri,exclude:below inclusion rule (§2.3),"Kibitsu-zukuri, candidate kind of L27 Shinto Shrine Architecture"
+Q3304708,Meimei-an,exclude:below inclusion rule (§2.3),single tea room (L31 Sukiya-zukuri)
+Q4519811,Shamail,exclude:below inclusion rule (§2.3),
+Q4855822,Banjarese architecture,exclude:below inclusion rule (§2.3),"Banjarese house, candidate K9 leaf"
+Q5364576,ijinkan,exclude:below inclusion rule (§2.3),ijinkan (foreign residences): K5/K6
+Q56293550,Rationalism,route:west,Rationalism
+Q5742976,Herodian architecture,exclude:below inclusion rule (§2.3),
+Q6345071,Kadamba architecture,exclude:below inclusion rule (§2.3),"Kadamba, candidate kind of L4 Dravidian Architecture/L5 Vesara"
+Q64343292,Chala Style,exclude:below inclusion rule (§2.3),
+Q7139980,Parsian style,exclude:below inclusion rule (§2.3),
+Q732367,Ryukyuan architecture,leaf:L35,
+Q7883237,tsumairi,exclude:below inclusion rule (§2.3),tsumairi entrance type (tag)
+Q85784819,Meitei architecture,exclude:below inclusion rule (§2.3),"Meitei architecture (Manipur), candidate K7 leaf"
+Q85795362,Qutb Shahi architecture,exclude:below inclusion rule (§2.3),Qutb Shahi: kind Deccan Sultanates of K1-14
+Q867703,Western-style building,route:west,Western-style building (Japan/Taiwan colonial)
+Q87101624,Tai-an,exclude:below inclusion rule (§2.3),Tai-an: single tea room (L31 Sukiya-zukuri)
+Q9379879,sanheyuan,kind:L19/Sanheyuan,three-sided courtyard house (Taiwan)
+Q104785179,Glass Tea House - KOU-AN,exclude:below inclusion rule (§2.3),
+Q107299232,Rajput architecture,exclude:below inclusion rule (§2.3),= L14 Rajput Architecture
+Q108760702,Tulip Period architecture,exclude:below inclusion rule (§2.3),
+Q109284245,early Ottoman architecture,exclude:below inclusion rule (§2.3),
+Q11110863,Yangshi Lei,exclude:below inclusion rule (§2.3),"Yangshi Lei: architect family, listed as kind of L18 Chinese Architecture in kinds.csv"
+Q111255949,Neo-Mamluk architecture,exclude:below inclusion rule (§2.3),= K2-3
+Q11358496,round-topped burial mound,kind:L34/Shapes,round kofun
+Q11391751,octagonal kofun,kind:L34/Shapes,octagonal kofun
+Q11397225,Zenpō-kōhō-fun,kind:L34/Shapes,zenpō-kōhō-fun
+Q11480883,scallop-shaped kofun,kind:L34/Shapes,scallop-shaped kofun
+Q11515071,magariya,kind:L32/Magariya,
+Q11551112,Edo Hantei,exclude:below inclusion rule (§2.3),
+Q11571716,Jutaku,exclude:below inclusion rule (§2.3),
+Q121076488,Contemporary mosque architecture,exclude:below inclusion rule (§2.3),
+Q12228315,Arabic architecture,exclude:below inclusion rule (§2.3),
+Q125469961,Chettinad Mansions,exclude:below inclusion rule (§2.3),"Chettinad mansions, candidate K7 leaf"
+Q127433034,Filigree architecture,exclude:below inclusion rule (§2.3),
+Q139736348,Daejeokgwangjeon,exclude:below inclusion rule (§2.3),Korean temple hall type: kind of L37 Korean Architecture
+Q139771954,Samseonggak,exclude:below inclusion rule (§2.3),Korean temple shrine type: kind of L37 Korean Architecture
+Q15449701,Architecture of Jiangxi,exclude:below inclusion rule (§2.3),
+Q18128734,Nilachal architecture,exclude:below inclusion rule (§2.3),Nilachal type: kind Assam of L1 Nagara Architecture
+Q18653349,Hui-style architecture,leaf:L22,
+Q1882712,machiya in Kyoto,exclude:below inclusion rule (§2.3),kind Machiya of L32 Minka
+Q19646306,New Indies style,exclude:below inclusion rule (§2.3),
+Q22683451,Art Nouveau architecture in Tunis,exclude:below inclusion rule (§2.3),
+Q23752285,Eclectic architecture in Russia,route:west,Eclectic architecture in Russia
+Q24958744,Vietnamese architecture,exclude:below inclusion rule (§2.3),= L47 Vietnamese Architecture
+Q25204255,Pancharatna,kind:L7/Pancharatna,
+Q25439635,Mannerism in Brazil,exclude:below inclusion rule (§2.3),
+Q3138720,Hiyoshi-zukuri,exclude:below inclusion rule (§2.3),"Hiyoshi-zukuri, candidate kind of L27 Shinto Shrine Architecture"
+Q35583408,Najdi architecture,exclude:below inclusion rule (§2.3),
+Q4028413,111-134 (series of houses),exclude:below inclusion rule (§2.3),
+Q4467013,Styl łużkowski,exclude:below inclusion rule (§2.3),
+Q4787118,architecture of Central Asia,exclude:below inclusion rule (§2.3),
+Q5367475,bunka jūtaku,exclude:below inclusion rule (§2.3),
+Q56274171,Traditional Chinese house architecture,exclude:below inclusion rule (§2.3),umbrella of K8 vernacular
+Q56275629,Assam type house,exclude:below inclusion rule (§2.3),Assam-type house
+Q6276222,Jor-bangla,kind:L7/Jor-bangla,
+Q65070314,architecture of Fez,exclude:below inclusion rule (§2.3),
+Q67473409,colonial architecture of Southeast Asia,exclude:below inclusion rule (§2.3),
+Q6982098,Navaratna,kind:L7/Navaratna,
+Q7354874,rock temple,exclude:below inclusion rule (§2.3),
+Q96372311,architecture of Casablanca,exclude:below inclusion rule (§2.3),
+Q99962830,Rokusō-an,exclude:below inclusion rule (§2.3),
+Q10441713,hahubaka,kind:L35/Tombs,hafu-baka (gable-roofed tomb)
+Q10587275,New Khmer Architecture,exclude:below inclusion rule (§2.3),New Khmer Architecture (Vann Molyvann): K6 modern
+Q106463430,dozō,kind:L32/Dozō (kura),
+Q10825848,Tháp Mắm,exclude:below inclusion rule (§2.3),"Tháp Mắm style, candidate kind of L46 Cham Architecture"
+Q10855277,Kōraimon,exclude:below inclusion rule (§2.3),
+Q108600985,Chilean muralism,exclude:below inclusion rule (§2.3),
+Q108619287,Applied Thai architecture,exclude:below inclusion rule (§2.3),"Applied Thai, candidate kind of L44 Thai Architecture"
+Q10868503,hia6 suan1 houn2,exclude:below inclusion rule (§2.3),
+Q108704573,classical Ottoman architecture,exclude:below inclusion rule (§2.3),
+Q108907973,Kakatiya architecture,exclude:below inclusion rule (§2.3),= kind Kakatiya of L4 Dravidian Architecture
+Q109348812,ซาจ่อเลาะ,exclude:below inclusion rule (§2.3),
+Q109348825,ซี้แบ้ทัวเชีย,exclude:below inclusion rule (§2.3),
+Q109348826,แป๊ะเจี้ยวเฉี่ยวฮ้วง,exclude:below inclusion rule (§2.3),
+Q109351800,si3 diam2 gim1,exclude:below inclusion rule (§2.3),
+Q109362266,Peruvian Revival architecture,exclude:below inclusion rule (§2.3),
+Q11116161,lingxing gate,exclude:below inclusion rule (§2.3),lingxing gate: kind of L18 Chinese Architecture
+Q112711827,Russian Empire style,route:west,Russian Empire style
+Q113409382,postmodern architecture in Russia,exclude:below inclusion rule (§2.3),
+Q113409736,constructivist architecture in Perm,exclude:below inclusion rule (§2.3),
+Q113411723,constructivist architecture in Yekaterinburg,exclude:below inclusion rule (§2.3),
+Q11364287,Nakayama-zukuri,exclude:below inclusion rule (§2.3),candidate kind of L27 Shinto Shrine Architecture
+Q11388847,Kabuto-zukuri,exclude:below inclusion rule (§2.3),candidate kind of L32 Minka
+Q11394781,round school building,exclude:below inclusion rule (§2.3),
+Q11441991,Ōtori-zukuri,exclude:below inclusion rule (§2.3),candidate kind of L27 Shinto Shrine Architecture
+Q11443405,Tenrai-an,exclude:below inclusion rule (§2.3),
+Q11545899,buke yashiki,exclude:below inclusion rule (§2.3),"buke yashiki, candidate kind of L30 Shoin-zukuri"
+Q11588450,Gion-zukuri,exclude:below inclusion rule (§2.3),candidate kind of L27 Shinto Shrine Architecture
+Q11589496,Jingū Chashitsu,exclude:below inclusion rule (§2.3),
+Q116007257,Hafsid architecture,exclude:below inclusion rule (§2.3),Hafsid: kind of K1-4
+Q11611178,Shūen-tei,exclude:below inclusion rule (§2.3),
+Q116148607,Aghlabid architecture,exclude:below inclusion rule (§2.3),Aghlabid: kind of K1-2
+Q11650405,Shikorobuki,exclude:below inclusion rule (§2.3),
+Q11651929,nagayamon,exclude:below inclusion rule (§2.3),
+Q11659055,Oki-zukuri,exclude:below inclusion rule (§2.3),candidate kind of L27 Shinto Shrine Architecture
+Q120850099,Art Deco in Kolkata,exclude:below inclusion rule (§2.3),
+Q122382294,Matabei,exclude:below inclusion rule (§2.3),
+Q12406815,International style in Israel,exclude:below inclusion rule (§2.3),
+Q124477911,Petén architecture,exclude:below inclusion rule (§2.3),Petén style = kind of L59 Maya Architecture
+Q12811635,Safranbolu házai,exclude:below inclusion rule (§2.3),
+Q129248676,Gaussian vault,exclude:below inclusion rule (§2.3),
+Q131430863,Rekha deul,exclude:below inclusion rule (§2.3),"rekha deul, kind of L2 Kalinga Architecture/L7 Bengal Temple Architecture"
+Q133623961,gyoka,exclude:below inclusion rule (§2.3),candidate kind of L32 Minka
+Q135185206,Tabrizi tradition,exclude:below inclusion rule (§2.3),
+Q135947332,Tashkent Modernism,exclude:below inclusion rule (§2.3),
+Q138635829,misegura,exclude:below inclusion rule (§2.3),
+Q138720223,Architecture of ancient Israel,exclude:below inclusion rule (§2.3),
+Q139451496,アズマダチ,exclude:below inclusion rule (§2.3),
+Q15903364,siheyuan in Beijing,exclude:below inclusion rule (§2.3),candidate kind of L19 Siheyuan
+Q21019708,Yōsui-tei,exclude:below inclusion rule (§2.3),
+Q25326923,Indies Empire style,exclude:below inclusion rule (§2.3),
+Q25418214,village gate,exclude:below inclusion rule (§2.3),
+Q25497947,dzong in Bhutan,exclude:below inclusion rule (§2.3),= L13 Dzong Architecture
+Q25689202,Goan houses,exclude:below inclusion rule (§2.3),
+Q28689819,southern Kyushu type castle,exclude:below inclusion rule (§2.3),candidate kind of L33 Japanese Castle Architecture
+Q30113585,Kakukaku-tei,exclude:below inclusion rule (§2.3),
+Q31292208,Caucasian Albanian architecture,route:west,Caucasian Albanian (K4)
+Q4055350,avant-garde architecture in Saint Petersburg,exclude:below inclusion rule (§2.3),
+Q4069878,Arran architectural school,route:west,"Arran school (Azerbaijan, 18th–19th c. eclectic)"
+Q4796773,Art Deco in Durban,exclude:below inclusion rule (§2.3),
+Q48734893,Art Deco in Mumbai,exclude:below inclusion rule (§2.3),
+Q5021201,California bungalow,route:west,California bungalow
+Q55166869,Sundanese traditional house,exclude:below inclusion rule (§2.3),candidate kind of L42 Javanese Traditional House
+Q55659256,Rococo in Russia,exclude:below inclusion rule (§2.3),
+Q56354833,postmodern architecture in Brazil,exclude:below inclusion rule (§2.3),
+Q5764167,Mission Style in Argentina,exclude:below inclusion rule (§2.3),
+Q60760671,Ottoman architecture in Egypt,exclude:below inclusion rule (§2.3),
+Q60849324,Art Deco architecture in Shanghai,exclude:below inclusion rule (§2.3),
+Q6164915,Java-Malay architecture,exclude:below inclusion rule (§2.3),"Java-Malay, seam L42 Javanese Traditional House/K1-19"
+Q6756656,Eretz Israel style,exclude:below inclusion rule (§2.3),
+Q6960466,German-Templer architecture,exclude:below inclusion rule (§2.3),
+Q7681402,Tamil architecture,alias:L4,Tamil architecture
+Q76823526,Tradición Mito,exclude:below inclusion rule (§2.3),"Mito tradition (Kotosh), candidate kind of L63 Pre-Inca Andean Architecture"
+Q85851866,Sarumen Chaseki,exclude:below inclusion rule (§2.3),
+Q86248242,chalet paulistano,exclude:below inclusion rule (§2.3),
+Q86680388,wooden architecture in Nizhny Novgorod,exclude:below inclusion rule (§2.3),
+Q94062224,kakezukuri,kind:L28/Building types,"kakezukuri (stage on piles, Kiyomizu-dera)"
+Q9630291,Modernist architecture in Brazil,route:west,Modernist architecture in Brazil
+Q96400431,Pueblo architecture,leaf:L64,
+Q97227494,Khana Ratsadon's architecture,exclude:below inclusion rule (§2.3),
+Q98399895,Ilkhanid architecture,alias:K1-9,
+Q10484416,ear building,exclude:below inclusion rule (§2.3),
+Q10534016,貞節牌坊,exclude:below inclusion rule (§2.3),chastity paifang: kind of L18 Chinese Architecture
+Q1060326,Cham architecture,exclude:below inclusion rule (§2.3),= L46 Cham Architecture (Cham architecture)
+Q108147319,Indo-Persianate architecture,exclude:below inclusion rule (§2.3),
+Q108261899,Jewish home in Sanaa,exclude:below inclusion rule (§2.3),
+Q10910756,juanpeng,exclude:below inclusion rule (§2.3),
+Q109108709,Amerindian architecture,exclude:below inclusion rule (§2.3),umbrella of K11
+Q109256814,Fatimid architectural style,exclude:below inclusion rule (§2.3),
+Q109325827,Amerindian architecture of North America,exclude:below inclusion rule (§2.3),umbrella of K11
+Q109325885,Amerindian architecture of South America,exclude:below inclusion rule (§2.3),umbrella of K11 (South America)
+Q109325911,Indigenous architecture in the United States,exclude:below inclusion rule (§2.3),umbrella of K11
+Q109348725,竹竿厝,exclude:below inclusion rule (§2.3),
+Q109348810,多壁连,exclude:below inclusion rule (§2.3),
+Q109348827,二落二从厝,exclude:below inclusion rule (§2.3),
+Q109348828,九龙吐珠,exclude:below inclusion rule (§2.3),
+Q109357893,Shusui-tei,exclude:below inclusion rule (§2.3),
+Q109366413,Japanese colonial architecture,exclude:below inclusion rule (§2.3),
+Q109414360,Chinese Buddhist architecture,exclude:below inclusion rule (§2.3),= kind of L18 Chinese Architecture
+Q110970527,brick architecture in Nefta,exclude:below inclusion rule (§2.3),
+Q112869097,Yaroslavl school,route:west,Yaroslavl school
+Q11312189,スチールハウス,exclude:below inclusion rule (§2.3),
+Q113266457,Federation Filigree architecture,exclude:below inclusion rule (§2.3),
+Q113266466,Victorian Filigree architecture,exclude:below inclusion rule (§2.3),
+Q113557787,Sōketsu-tei,exclude:below inclusion rule (§2.3),
+Q113560484,Ninomaru Teahouse (Nagoya Castle),exclude:below inclusion rule (§2.3),
+Q113622837,Spanish Colonial style,exclude:below inclusion rule (§2.3),
+Q11368768,shuden-zukuri,exclude:below inclusion rule (§2.3),
+Q11374267,京屋敷,exclude:below inclusion rule (§2.3),
+Q11391464,yatsumune-zukuri,exclude:below inclusion rule (§2.3),
+Q11410445,Sōhō-chūen Kofun,exclude:below inclusion rule (§2.3),
+Q11418699,Kara-zukuri,exclude:below inclusion rule (§2.3),candidate kind of L33 Japanese Castle Architecture
+Q11419825,Shitennō-ji style,exclude:below inclusion rule (§2.3),"Shitennō-ji layout, kind of L28 Japanese Buddhist Architecture"
+Q11420098,shikyakumon,exclude:below inclusion rule (§2.3),
+Q11420180,four corner projections type grave mound,exclude:below inclusion rule (§2.3),
+Q11465322,Owari-zukuri,exclude:below inclusion rule (§2.3),candidate kind of L27 Shinto Shrine Architecture
+Q11557481,Sengen-zukuri,kind:L27/Styles,sengen-zukuri
+Q11577528,Tamugimata multilayered house,exclude:below inclusion rule (§2.3),candidate kind of L32 Minka
+Q11608504,Makimuku-type keyhole-shaped kofun,exclude:below inclusion rule (§2.3),
+Q11619350,Kanden-an,exclude:below inclusion rule (§2.3),
+Q11624287,Fujimura-style architecture,exclude:below inclusion rule (§2.3),Fujimura style: kind of L36 Giyōfū Architecture
+Q11638385,modern Japanese-style architecture,kind:L31/Kindai wafū,modern Japanese-style architecture (Meiji–Shōwa traditional building); seam with L30 Shoin-zukuri
+Q11639478,Teishin architecture,exclude:below inclusion rule (§2.3),
+Q11667652,Kashii-zukuri,exclude:below inclusion rule (§2.3),candidate kind of L27 Shinto Shrine Architecture
+Q117653472,Victorian Rustic Gothic architecture,exclude:below inclusion rule (§2.3),
+Q118463334,Imperial Chinese Architecture Style,exclude:below inclusion rule (§2.3),"Imperial Chinese Architecture Style (Murphy, Lü Yanzhi): K2 revival"
+Q120052860,traditional architecture of Papua New Guinea,exclude:below inclusion rule (§2.3),Papua New Guinea traditional architecture; see L69 Haus Tambaran
+Q121075264,bû,exclude:below inclusion rule (§2.3),
+Q121880236,並列型民家,exclude:below inclusion rule (§2.3),candidate kind of L32 Minka
+Q12228302,Damascene architecture,exclude:below inclusion rule (§2.3),
+Q122357942,Kudozukuri,exclude:below inclusion rule (§2.3),
+Q122915237,赤城型民家,exclude:below inclusion rule (§2.3),candidate kind of L32 Minka
+Q123221340,Tropical modernism,exclude:below inclusion rule (§2.3),
+Q123555639,Nakamura Park Tōin Chaseki,exclude:below inclusion rule (§2.3),
+Q12406814,Eclectic architecture in Israel,route:west,Eclectic architecture in Israel
+Q124077464,Komoda-an,exclude:below inclusion rule (§2.3),
+Q124877255,habitat vernaculaire amazigh,exclude:below inclusion rule (§2.3),Amazigh vernacular: see L57 Ksar
+Q125759156,Ottoman architecture in the 19th–20th centuries,exclude:below inclusion rule (§2.3),
+Q130377024,vernacular architecture of Armenia,exclude:below inclusion rule (§2.3),
+Q131375878,ajiro tenjō,exclude:below inclusion rule (§2.3),
+Q131512505,Shōfū-an,exclude:below inclusion rule (§2.3),
+Q134572165,upstream-downstream axis,exclude:below inclusion rule (§2.3),Austronesian spatial cosmology (tag)
+Q134593751,Christchurch Style architecture,exclude:below inclusion rule (§2.3),
+Q134887444,Preah Ko style,exclude:below inclusion rule (§2.3),"Preah Ko style, candidate kind of L39 Khmer Architecture"
+Q136840466,Marinid architecture,kind:K1-4/Marinid,
+Q136860335,Mukyō-an,exclude:below inclusion rule (§2.3),
+Q139413343,Gandhara Nagara architecture,exclude:below inclusion rule (§2.3),
+Q139823525,Balkan house,exclude:below inclusion rule (§2.3),
+Q141048129,Temple architecture of Konkan,exclude:below inclusion rule (§2.3),
+Q16047776,Median architecture,route:K3,Median
+Q16142974,barroco mineiro,exclude:below inclusion rule (§2.3),
+Q17993889,Parthian architecture,route:K3,Parthian
+Q17993891,Pahlavi architecture,route:west,Pahlavi architecture (K6 modern Iranian)
+Q1942020,Moderne Architektur in Indien,exclude:below inclusion rule (§2.3),
+Q20042697,Keyhole-shaped kofuns in the southern Korean peninsula,exclude:below inclusion rule (§2.3),
+Q24871653,Japanese castle architecture,leaf:L33,
+Q24897528,sōan,exclude:below inclusion rule (§2.3),
+Q25390581,Art Deco architecture in Tunis,exclude:below inclusion rule (§2.3),
+Q3042249,dzong in Tibet,exclude:below inclusion rule (§2.3),= L13 Dzong Architecture
+Q30920225,Trùng thiềm điệp ốc,exclude:below inclusion rule (§2.3),
+Q30938121,中世の寝殿造,exclude:below inclusion rule (§2.3),medieval Shinden: kind of L29 Shinden-zukuri
+Q30942155,huan-á-lâu,exclude:below inclusion rule (§2.3),
+Q4070868,architecture of Yaroslavl,exclude:below inclusion rule (§2.3),
+Q4787129,Architecture of Goan Catholics,exclude:below inclusion rule (§2.3),
+Q4825158,Australian residential architectural styles,exclude:below inclusion rule (§2.3),
+Q48913775,抬梁式,exclude:below inclusion rule (§2.3),tailiang frame: construction (tag)
+Q5099182,Chilotan architecture,leaf:L72,
+Q55637060,vernacular residential architecture of Western Sichuan,exclude:below inclusion rule (§2.3),kind of L25 Sichuanese Architecture
+Q56162937,Panchabimsati-ratna,kind:L7/Panchabimsati-ratna,
+Q56280545,Shanxi architecture,exclude:below inclusion rule (§2.3),
+Q5679012,Zand architecture,kind:K1-13/Zand,Zand (1751–94) precedes Qajar
+Q5718239,Qajar architecture,alias:K1-13,
+Q58621850,dalan,kind:L7/Dalan,flat-roofed dalan temples
+Q6087574,Eurasian Steppe architecture,exclude:below inclusion rule (§2.3),
+Q6102876,early Anatolian Turkish architecture,exclude:below inclusion rule (§2.3),
+Q61133902,Turkish vernacular architecture,exclude:below inclusion rule (§2.3),
+Q69985365,Saptadash-ratna,exclude:below inclusion rule (§2.3),candidate kind of L7 Bengal Temple Architecture
+Q7660129,Sydney School,exclude:below inclusion rule (§2.3),
+Q7800408,Tibetan Buddhist architecture,exclude:below inclusion rule (§2.3),= L12 Tibetan Buddhist Architecture
+Q7832319,Traditional architecture of Enggano,exclude:below inclusion rule (§2.3),
+Q81308322,Trayodash-ratna,exclude:below inclusion rule (§2.3),candidate kind of L7 Bengal Temple Architecture
+Q81477697,Baro-chala,exclude:below inclusion rule (§2.3),candidate kind of L7 Bengal Temple Architecture
+Q85877843,Song–Yuan architecture of Sichuan,exclude:below inclusion rule (§2.3),kind of L25 Sichuanese Architecture
+Q87056695,wayō,exclude:below inclusion rule (§2.3),= kind wayō of L28 Japanese Buddhist Architecture
+Q9552901,xiangfang,exclude:below inclusion rule (§2.3),xiangfang: wing of L19 Siheyuan
+Q99306282,Bayon,exclude:below inclusion rule (§2.3),"Bayon style, candidate kind of L39 Khmer Architecture"
+Q100377192,bell tower (China),exclude:below inclusion rule (§2.3),
+Q10165862,Religious Islamic architecture,exclude:below inclusion rule (§2.3),
+Q105467031,Jaina architecture,exclude:below inclusion rule (§2.3),"Jaina architecture: umbrella, mostly L3 Maru-Gurjara Architecture"
+Q109325954,Amerindian architecture of Mexico,exclude:below inclusion rule (§2.3),umbrella of K11
+Q111390205,Nizari architecture,route:K1,Nizari Ismaili castles (Alamut); no K1 pilot leaf
+Q112055433,Gupta Architecture,exclude:below inclusion rule (§2.3),Gupta: period tag (early Nagara)
+Q112762552,Malay architecture,exclude:below inclusion rule (§2.3),"Malay architecture, candidate K9 leaf (no row above the cut)"
+Q117209627,Sichuanese architecture,leaf:L25,
+Q119929916,双方中方墳,exclude:below inclusion rule (§2.3),
+Q119983533,双円墳,exclude:below inclusion rule (§2.3),
+Q121096743,tsiànn-sin,exclude:below inclusion rule (§2.3),
+Q123367627,architecture nagara,exclude:below inclusion rule (§2.3),= L1 Nagara Architecture
+Q124631844,shihōkorobi,exclude:below inclusion rule (§2.3),
+Q124934464,郡役所様式,exclude:below inclusion rule (§2.3),
+Q130841232,hakkyakumon,exclude:below inclusion rule (§2.3),
+Q131538639,nijū-roji,exclude:below inclusion rule (§2.3),
+Q131620441,日本の建築様式,exclude:below inclusion rule (§2.3),
+Q134587213,古典芸能伝承の館,exclude:below inclusion rule (§2.3),
+Q134774904,じょうご造り,exclude:below inclusion rule (§2.3),
+Q135408651,hünkâr kasrı,exclude:below inclusion rule (§2.3),
+Q135408866,maksem,exclude:below inclusion rule (§2.3),
+Q136148789,çıkma,exclude:below inclusion rule (§2.3),
+Q136363238,cihannüma,exclude:below inclusion rule (§2.3),
+Q136386382,Ottoman Rococo,exclude:below inclusion rule (§2.3),
+Q136536623,mosque architecture,exclude:below inclusion rule (§2.3),
+Q136557920,Thai architecture,alias:L44,duplicate Wikidata item for Thai architecture
+Q136905036,Eskimo architecture,exclude:below inclusion rule (§2.3),"Inuit architecture (igloo, qarmaq): K11 gap"
+Q137106116,Aat-Chala architecture style,exclude:below inclusion rule (§2.3),
+Q137106283,Vernacular Hindu architecture style,exclude:below inclusion rule (§2.3),
+Q137106853,Adaptive Nagara architecture style,exclude:below inclusion rule (§2.3),
+Q137109639,Agamic architecture style,exclude:below inclusion rule (§2.3),
+Q137109676,Ahom architecture style,exclude:below inclusion rule (§2.3),
+Q137111098,Ahom-Nagara architecture style,exclude:below inclusion rule (§2.3),
+Q137111184,Ajanta-Ellora-Influenced Rock-Cut architecture style,exclude:below inclusion rule (§2.3),
+Q137111364,Ancient Indian Rock-Cut architecture style,exclude:below inclusion rule (§2.3),
+Q137111549,Ancient Indian Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137111656,Ancient Indian University architecture style,exclude:below inclusion rule (§2.3),
+Q137111834,Ancient Indian Urban Planning architecture style,exclude:below inclusion rule (§2.3),
+Q137111927,Andhra architecture style,exclude:below inclusion rule (§2.3),
+Q137112022,Andhra Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137112206,Angkor Wat architecture style,exclude:below inclusion rule (§2.3),
+Q137112385,Anglo-Manipuri Military architecture style,exclude:below inclusion rule (§2.3),
+Q137112507,Arakanese Buddhist architecture style,exclude:below inclusion rule (§2.3),
+Q137112900,Arunachali Tribal architecture style,exclude:below inclusion rule (§2.3),
+Q137113024,Assam-Bengal Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137113190,Tokharistan architecture style,exclude:below inclusion rule (§2.3),
+Q137113376,Assamese Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137113507,Assamese Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137113659,Assam Region architecture style,exclude:below inclusion rule (§2.3),
+Q137113965,Assam Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137114090,Atchala architecture style,exclude:below inclusion rule (§2.3),
+Q137114225,Awadhi architecture style,exclude:below inclusion rule (§2.3),
+Q137114372,Vedic Period architecture style,exclude:below inclusion rule (§2.3),
+Q137114562,Bactria-Margiana architecture style,exclude:below inclusion rule (§2.3),
+Q137114675,Badami Chalukya architecture style,exclude:below inclusion rule (§2.3),
+Q137114690,Badami Chalukyan architecture style,exclude:below inclusion rule (§2.3),
+Q137114703,Bagan architecture style,exclude:below inclusion rule (§2.3),
+Q137114823,Pala-Sena architecture style,exclude:below inclusion rule (§2.3),
+Q137114941,Bagan Stupa architecture style,exclude:below inclusion rule (§2.3),
+Q137115052,Bagan Temple architecture style,exclude:below inclusion rule (§2.3),candidate kind of L43 Burmese Architecture
+Q137115215,Bahmani architecture style,exclude:below inclusion rule (§2.3),
+Q137115369,Bangla Roof architecture style,exclude:below inclusion rule (§2.3),
+Q137115498,Baphuon architecture style,exclude:below inclusion rule (§2.3),
+Q137115689,Bengala architecture style,exclude:below inclusion rule (§2.3),
+Q137115802,Bengal architecture style,exclude:below inclusion rule (§2.3),
+Q137115980,Bengal Chala architecture style,exclude:below inclusion rule (§2.3),
+Q137116164,Bengal Hindu Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137116272,Bengal Hut architecture style,exclude:below inclusion rule (§2.3),
+Q137116453,Bengali Terracotta Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137116593,Bengali Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137116680,Bengal Navaratna architecture style,exclude:below inclusion rule (§2.3),
+Q137116685,Bengal Sultanate architecture style,exclude:below inclusion rule (§2.3),
+Q137116692,Bengal Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137116698,Bengal Terracotta Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137116705,Bhumija architecture style,exclude:below inclusion rule (§2.3),
+Q137116707,Bhumija Nagara architecture style,exclude:below inclusion rule (§2.3),
+Q137116711,Bhutanese Dzong architecture style,exclude:below inclusion rule (§2.3),
+Q137116718,Bihari Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137116727,Bihari Vernacular Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137116735,Braj architecture style,exclude:below inclusion rule (§2.3),
+Q137116739,Brick architecture style,exclude:below inclusion rule (§2.3),
+Q137116744,Brick Nagara architecture style,exclude:below inclusion rule (§2.3),
+Q137116835,British Himalayan architecture style,exclude:below inclusion rule (§2.3),
+Q137116942,Bronze Age architecture style,exclude:below inclusion rule (§2.3),
+Q137117053,Bronze Age Settlement architecture style,exclude:below inclusion rule (§2.3),
+Q137117170,Buddhist architecture style,exclude:below inclusion rule (§2.3),
+Q137117340,Buddhist Monastery architecture style,exclude:below inclusion rule (§2.3),
+Q137117547,Buddhist Monastic architecture style,exclude:below inclusion rule (§2.3),
+Q137117574,Buddhist Stupa architecture style,exclude:below inclusion rule (§2.3),
+Q137117657,Bundela architecture style,exclude:below inclusion rule (§2.3),
+Q137117768,Bundela Rajput architecture style,exclude:below inclusion rule (§2.3),
+Q137117836,Burmese Buddhist architecture style,exclude:below inclusion rule (§2.3),
+Q137117944,Carpenter Gothic architecture style,exclude:below inclusion rule (§2.3),
+Q137118144,Cave Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137118337,Central Asian architecture style,exclude:below inclusion rule (§2.3),
+Q137118706,Indo-Greek architecture style,exclude:below inclusion rule (§2.3),
+Q137119040,Central Asian Cave architecture style,exclude:below inclusion rule (§2.3),
+Q137119252,Central Asian Fortification architecture style,exclude:below inclusion rule (§2.3),
+Q137119501,Central Asian Fortress architecture style,exclude:below inclusion rule (§2.3),
+Q137119639,Central Asian Funerary architecture style,exclude:below inclusion rule (§2.3),
+Q137119688,Central Asian Oasis architecture style,exclude:below inclusion rule (§2.3),
+Q137119788,Central Asian Oasis City architecture style,exclude:below inclusion rule (§2.3),
+Q137119912,Central Asian Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137120011,Central Indian architecture style,exclude:below inclusion rule (§2.3),
+Q137120118,Central Indian Nagara architecture style,exclude:below inclusion rule (§2.3),
+Q137120262,Central Indian Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137120307,Central Indian Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137120312,Ceylon Tamil architecture style,exclude:below inclusion rule (§2.3),
+Q137120436,Chala Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137120512,Chalukya architecture style,exclude:below inclusion rule (§2.3),
+Q137120609,Chalukya-Hoysala architecture style,exclude:below inclusion rule (§2.3),
+Q137120791,Chalukya Nagara architecture style,exclude:below inclusion rule (§2.3),
+Q137120966,Chalukyan architecture style,exclude:below inclusion rule (§2.3),
+Q137120991,Cham architecture style,exclude:below inclusion rule (§2.3),
+Q137120997,Cham Nagara architecture style,exclude:below inclusion rule (§2.3),
+Q137121185,Champa architecture style,exclude:below inclusion rule (§2.3),
+Q137121383,Chettiar architecture style,exclude:below inclusion rule (§2.3),
+Q137121480,Chettinad architecture style,exclude:below inclusion rule (§2.3),
+Q137121707,Chhatri architecture style,exclude:below inclusion rule (§2.3),
+Q137121777,Chinese architecture style,exclude:below inclusion rule (§2.3),
+Q137121800,Chinese Buddhist architecture style,exclude:below inclusion rule (§2.3),
+Q137121810,Nayaka architecture style,exclude:below inclusion rule (§2.3),
+Q137121814,Chorten architecture style,exclude:below inclusion rule (§2.3),
+Q137121821,Chutia-Tai Ahom architecture style,exclude:below inclusion rule (§2.3),
+Q137121828,Classical Hindu Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137121925,Coastal Fortification architecture style,exclude:below inclusion rule (§2.3),
+Q137121949,Colonial architecture style,exclude:below inclusion rule (§2.3),
+Q137122048,Colonial Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137122485,Contemporary Dravida architecture style,exclude:below inclusion rule (§2.3),
+Q137122493,Contemporary Hindu Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137122638,Contemporary Indian architecture style,exclude:below inclusion rule (§2.3),
+Q137122757,Contemporary Indian Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137122783,Contemporary Indic architecture style,exclude:below inclusion rule (§2.3),
+Q137122803,Contemporary Mandir architecture style,exclude:below inclusion rule (§2.3),
+Q137122808,Contemporary Nagara architecture style,exclude:below inclusion rule (§2.3),
+Q137122824,Courtyard architecture style,exclude:below inclusion rule (§2.3),
+Q137122923,Deccan architecture style,exclude:below inclusion rule (§2.3),
+Q137123073,Deccan Chalukya architecture style,exclude:below inclusion rule (§2.3),
+Q137123122,Deccani architecture style,exclude:below inclusion rule (§2.3),
+Q137123155,Deccani Indo-Islamic architecture style,exclude:below inclusion rule (§2.3),
+Q137123294,Deccani Military architecture style,exclude:below inclusion rule (§2.3),
+Q137123345,Deccani Sultanate architecture style,exclude:below inclusion rule (§2.3),
+Q137123367,Deccan Regional architecture style,exclude:below inclusion rule (§2.3),
+Q137123473,Deccan Sultanate architecture style,exclude:below inclusion rule (§2.3),
+Q137123565,Deccan Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137123613,Delhi Sultanate architecture style,exclude:below inclusion rule (§2.3),
+Q137123623,Deula architecture style,exclude:below inclusion rule (§2.3),
+Q137123730,Sustainable Indic architecture style,exclude:below inclusion rule (§2.3),
+Q137123901,Diaspora Hindu Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137123908,Diaspora Indian Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137123917,Diaspora Indic architecture style,exclude:below inclusion rule (§2.3),
+Q137123920,Diaspora Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137123925,Dimasa Kachari architecture style,exclude:below inclusion rule (§2.3),
+Q137123938,Dravida-Influenced Southeast Asian architecture style,exclude:below inclusion rule (§2.3),
+Q137123946,Dravida-Nagara Hybrid architecture style,exclude:below inclusion rule (§2.3),
+Q137123973,Early Angkorian Prasat architecture style,exclude:below inclusion rule (§2.3),candidate kind of L39 Khmer Architecture
+Q137123983,Early Anuradhapura architecture style,exclude:below inclusion rule (§2.3),
+Q137123990,Early Bagan Stupa architecture style,exclude:below inclusion rule (§2.3),
+Q137123995,Early Buddhist architecture style,exclude:below inclusion rule (§2.3),
+Q137124002,Early Buddhist Stupa architecture style,exclude:below inclusion rule (§2.3),
+Q137124007,Early Dravidian architecture style,exclude:below inclusion rule (§2.3),
+Q137124015,Early Hindu Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137124017,Early Indian architecture style,exclude:below inclusion rule (§2.3),
+Q137124019,Early Indic Religious architecture style,exclude:below inclusion rule (§2.3),
+Q137124026,Early Medieval Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137124031,Early Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137124037,Eastern Himalayan Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137124046,Eastern Indian Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137124056,Eclectic Hindu Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137124062,Edwardian Renaissance Revival architecture style,exclude:below inclusion rule (§2.3),
+Q137124066,Eka-Ratna architecture style,exclude:below inclusion rule (§2.3),
+Q137124069,Ekasringa architecture style,exclude:below inclusion rule (§2.3),
+Q137124072,European architecture style,exclude:below inclusion rule (§2.3),
+Q137124074,European Baroque architecture style,exclude:below inclusion rule (§2.3),
+Q137124080,European Renaissance architecture style,exclude:below inclusion rule (§2.3),
+Q137124087,Expressionist-Nagara Fusion architecture style,exclude:below inclusion rule (§2.3),
+Q137124090,Federation architecture style,exclude:below inclusion rule (§2.3),
+Q137124095,Fire Altar architecture style,exclude:below inclusion rule (§2.3),
+Q137124098,Fire Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137124103,Fort architecture style,exclude:below inclusion rule (§2.3),
+Q137124108,Fortification architecture style,exclude:below inclusion rule (§2.3),
+Q137124112,Fortress architecture style,exclude:below inclusion rule (§2.3),
+Q137124130,Gandhara-Influenced Rock-Cut architecture style,exclude:below inclusion rule (§2.3),
+Q137124135,Gandhara-Kushan architecture style,exclude:below inclusion rule (§2.3),
+Q137124142,Gandhara-Kushan Buddhist architecture style,exclude:below inclusion rule (§2.3),
+Q137124148,Gandhara-Mathura Buddhist architecture style,exclude:below inclusion rule (§2.3),
+Q137124152,Gandharan architecture style,exclude:below inclusion rule (§2.3),
+Q137124158,Himalayan architecture style,exclude:below inclusion rule (§2.3),
+Q137124164,Gaudiya-Nagara Hybrid architecture style,exclude:below inclusion rule (§2.3),
+Q137124169,Gaudiya Vaishnava architecture style,exclude:below inclusion rule (§2.3),
+Q137124194,Gaudiya Vaishnava Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137124316,Generic Hindu Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137124473,Indo-Islamic architecture style,exclude:below inclusion rule (§2.3),
+Q137124554,Goan Hindu architecture style,exclude:below inclusion rule (§2.3),
+Q137124679,Goan Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137124811,Gopuram architecture style,exclude:below inclusion rule (§2.3),
+Q137124920,Greater India Buddhist architecture style,exclude:below inclusion rule (§2.3),
+Q137125028,Maru-Gurjara architecture style,exclude:below inclusion rule (§2.3),
+Q137125149,Gujarati Haveli architecture style,exclude:below inclusion rule (§2.3),
+Q137125205,Gujarati Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137125211,Gujarat Regional architecture style,exclude:below inclusion rule (§2.3),
+Q137125213,Gujarat Sompura architecture style,exclude:below inclusion rule (§2.3),
+Q137125218,Gujarat Sultanate architecture style,exclude:below inclusion rule (§2.3),
+Q137125220,Gulf Vernacular-Influenced Hindu Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137125227,Kushan-Gandharan architecture style,exclude:below inclusion rule (§2.3),
+Q137125232,Gupta Period Rock-Cut architecture style,exclude:below inclusion rule (§2.3),
+Q137125235,North Indian Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137125242,Haveli architecture style,exclude:below inclusion rule (§2.3),
+Q137125248,Hellenistic architecture style,exclude:below inclusion rule (§2.3),
+Q137125253,Hemadpanthi architecture style,exclude:below inclusion rule (§2.3),
+Q137125256,Hemadpanti architecture style,exclude:below inclusion rule (§2.3),
+Q137125259,High-Altitude architecture style,exclude:below inclusion rule (§2.3),
+Q137125262,Hill Fort architecture style,exclude:below inclusion rule (§2.3),
+Q137125276,Himachali architecture style,exclude:below inclusion rule (§2.3),
+Q137125287,Himalayan Hill architecture style,exclude:below inclusion rule (§2.3),
+Q137125292,Himalayan Nagara architecture style,exclude:below inclusion rule (§2.3),
+Q137125294,Himalayan Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137125296,Himalayan Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137125299,Indian Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137125302,Hindu Shahi architecture style,exclude:below inclusion rule (§2.3),
+Q137125311,Hindu Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137125314,Hoysala architecture style,exclude:below inclusion rule (§2.3),
+Q137125317,Hybrid Hindu Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137125326,Indian Administrative architecture style,exclude:below inclusion rule (§2.3),
+Q137125330,Indian architecture style,exclude:below inclusion rule (§2.3),
+Q137125343,Indian Buddhist Cave architecture style,exclude:below inclusion rule (§2.3),
+Q137125346,Indian Buddhist Monastery architecture style,exclude:below inclusion rule (§2.3),
+Q137125350,Indian Decorative architecture style,exclude:below inclusion rule (§2.3),
+Q137125353,Indian Fortification architecture style,exclude:below inclusion rule (§2.3),
+Q137125359,Indian Garden architecture style,exclude:below inclusion rule (§2.3),
+Q137125362,Indian Hindu architecture style,exclude:below inclusion rule (§2.3),
+Q137125365,Indian Hindu Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137125387,Indian Palace architecture style,exclude:below inclusion rule (§2.3),
+Q137125483,Indian Religious architecture style,exclude:below inclusion rule (§2.3),
+Q137125595,Indian Rock-Cut architecture style,exclude:below inclusion rule (§2.3),
+Q137125749,Indian Rock-Cut Cave Monastery architecture style,exclude:below inclusion rule (§2.3),
+Q137125975,Indian Urban Planning architecture style,exclude:below inclusion rule (§2.3),
+Q137126088,Indian Vernacular Religious architecture style,exclude:below inclusion rule (§2.3),
+Q137126155,Indian Wood Carving architecture style,exclude:below inclusion rule (§2.3),
+Q137126217,Indic Agricultural architecture style,exclude:below inclusion rule (§2.3),
+Q137126323,Indic architecture style,exclude:below inclusion rule (§2.3),
+Q137126377,Indic Artistic Traditions architecture style,exclude:below inclusion rule (§2.3),
+Q137126475,Indic Bronze Sculpture Style architecture style,exclude:below inclusion rule (§2.3),
+Q137126545,Indic Buddhist architecture style,exclude:below inclusion rule (§2.3),
+Q137126559,Indic Colonial architecture style,exclude:below inclusion rule (§2.3),
+Q137126581,Indic Column architecture style,exclude:below inclusion rule (§2.3),
+Q137126588,Indic Cosmological architecture style,exclude:below inclusion rule (§2.3),
+Q137126590,Indic Decorative architecture style,exclude:below inclusion rule (§2.3),
+Q137126594,Indic Diaspora Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137126596,Indic Eclectic architecture style,exclude:below inclusion rule (§2.3),
+Q137126604,Indic Fire Worship architecture style,exclude:below inclusion rule (§2.3),
+Q137126607,Indic Hindu architecture style,exclude:below inclusion rule (§2.3),
+Q137126609,Indic Landscape architecture style,exclude:below inclusion rule (§2.3),
+Q137126614,Indic Mandala architecture style,exclude:below inclusion rule (§2.3),
+Q137126615,Indic Mural architecture style,exclude:below inclusion rule (§2.3),
+Q137126620,Indic Narrative architecture style,exclude:below inclusion rule (§2.3),
+Q137126626,Khorezmian Fortress architecture style,exclude:below inclusion rule (§2.3),
+Q137126629,Indic Replication architecture style,exclude:below inclusion rule (§2.3),
+Q137126631,Indic Riverine architecture style,exclude:below inclusion rule (§2.3),
+Q137126637,Indic Rock-Cut architecture style,exclude:below inclusion rule (§2.3),
+Q137126643,Indic Sculptural Style architecture style,exclude:below inclusion rule (§2.3),
+Q137126650,Indic Sculpture architecture style,exclude:below inclusion rule (§2.3),
+Q137126654,Indic Stupa architecture style,exclude:below inclusion rule (§2.3),
+Q137126659,Indic Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137126663,Indic Water architecture style,exclude:below inclusion rule (§2.3),
+Q137126672,Indic-Zoroastrian Syncretic architecture style,exclude:below inclusion rule (§2.3),
+Q137126678,Indigenous Arunachali architecture style,exclude:below inclusion rule (§2.3),
+Q137126685,Indigenous Tribal architecture style,exclude:below inclusion rule (§2.3),
+Q137126700,Indo-Ahom architecture style,exclude:below inclusion rule (§2.3),
+Q137126704,Indo-American Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137126709,Indo-Aryan architecture style,exclude:below inclusion rule (§2.3),
+Q137126714,Indo-Australian architecture style,exclude:below inclusion rule (§2.3),
+Q137126732,Indo-Bmac architecture style,exclude:below inclusion rule (§2.3),
+Q137126737,Indo-British architecture style,exclude:below inclusion rule (§2.3),
+Q137126743,Indo-Buddhist architecture style,exclude:below inclusion rule (§2.3),
+Q137126747,Indo-Burmese architecture style,exclude:below inclusion rule (§2.3),
+Q137126752,Indo-Canadian architecture style,exclude:below inclusion rule (§2.3),
+Q137126763,Indo-Canadian Hybrid architecture style,exclude:below inclusion rule (§2.3),
+Q137126768,Indo-Canadian Prairie Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137126776,Indo-Canadian Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137126783,Indo-Central Asian Fortress architecture style,exclude:below inclusion rule (§2.3),
+Q137126788,Indo-Chinese architecture style,exclude:below inclusion rule (§2.3),
+Q137126794,Indo-Chinese Buddhist architecture style,exclude:below inclusion rule (§2.3),
+Q137126807,Indo-Classical architecture style,exclude:below inclusion rule (§2.3),
+Q137126815,Indo-Colonial architecture style,exclude:below inclusion rule (§2.3),
+Q137126824,Indo-Diaspora architecture style,exclude:below inclusion rule (§2.3),
+Q137126828,Indo-Dravidian architecture style,exclude:below inclusion rule (§2.3),
+Q137126856,Indo-Dutch architecture style,exclude:below inclusion rule (§2.3),
+Q137126874,Indo-European Colonial architecture style,exclude:below inclusion rule (§2.3),
+Q137126880,Indo-European Colonial Fortification architecture style,exclude:below inclusion rule (§2.3),
+Q137126885,Indo-European Colonial Military architecture style,exclude:below inclusion rule (§2.3),
+Q137126891,Indo-French Renaissance architecture style,exclude:below inclusion rule (§2.3),
+Q137126896,Indo-Gothic architecture style,exclude:below inclusion rule (§2.3),
+Q137126905,Indo-Gujarati architecture style,exclude:below inclusion rule (§2.3),
+Q137126909,Indo-Gulf architecture style,exclude:below inclusion rule (§2.3),
+Q137126913,Indo-Hellenistic architecture style,exclude:below inclusion rule (§2.3),
+Q137126917,Indo-Hindu architecture style,exclude:below inclusion rule (§2.3),
+Q137126923,Indo-Industrial architecture style,exclude:below inclusion rule (§2.3),
+Q137126932,Indo-Javanese architecture style,exclude:below inclusion rule (§2.3),
+Q137126939,Indo-Kerala architecture style,exclude:below inclusion rule (§2.3),
+Q137126943,Indo-Khmer architecture style,exclude:below inclusion rule (§2.3),
+Q137126947,Indo-Khorezmian architecture style,exclude:below inclusion rule (§2.3),
+Q137126952,Indo-Khorezmian Palace-Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137126955,Indo-Modern architecture style,exclude:below inclusion rule (§2.3),
+Q137126957,Indo-Mughal architecture style,exclude:below inclusion rule (§2.3),
+Q137126962,Indo-Nagara architecture style,exclude:below inclusion rule (§2.3),
+Q137126967,Indo-Neoclassical architecture style,exclude:below inclusion rule (§2.3),
+Q137126974,Indo-Nepalese Pagoda architecture style,exclude:below inclusion rule (§2.3),
+Q137126977,Indo-Parthian architecture style,exclude:below inclusion rule (§2.3),
+Q137126981,Indo-Persian architecture style,exclude:below inclusion rule (§2.3),
+Q137126986,Indo-Portuguese architecture style,exclude:below inclusion rule (§2.3),
+Q137126990,Indo-Portuguese Military architecture style,exclude:below inclusion rule (§2.3),
+Q137126998,Indo-Saracenic architecture style,exclude:below inclusion rule (§2.3),
+Q137127001,Indo-Saracenic Revival architecture style,exclude:below inclusion rule (§2.3),
+Q137127004,Victorian architecture style,exclude:below inclusion rule (§2.3),
+Q137127010,Indo-Sogdian Fortress architecture style,exclude:below inclusion rule (§2.3),
+Q137127012,Indo-Southeast Asian architecture style,exclude:below inclusion rule (§2.3),
+Q137127017,Indo-Sri Lankan Buddhist architecture style,exclude:below inclusion rule (§2.3),
+Q137127021,Indo-Tibetan architecture style,exclude:below inclusion rule (§2.3),
+Q137127026,Indo-Tibetan Buddhist architecture style,exclude:below inclusion rule (§2.3),
+Q137127029,Indo-Tudor architecture style,exclude:below inclusion rule (§2.3),
+Q137127035,Indo-Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137127037,Indo-Victorian architecture style,exclude:below inclusion rule (§2.3),
+Q137127042,Indo-Western Neoclassical architecture style,exclude:below inclusion rule (§2.3),
+Q137127047,Indo-Zoroastrian architecture style,exclude:below inclusion rule (§2.3),
+Q137127055,Indus Valley Civilization Religious architecture style,exclude:below inclusion rule (§2.3),
+Q137127066,Iron Age Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137127070,Islamic architecture style,exclude:below inclusion rule (§2.3),
+Q137127074,Italian Renaissance architecture style,exclude:below inclusion rule (§2.3),
+Q137127078,Jaina architecture style,exclude:below inclusion rule (§2.3),
+Q137127083,Jain architecture style,exclude:below inclusion rule (§2.3),
+Q137127088,Jain Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137127093,Jaisalmer architecture style,exclude:below inclusion rule (§2.3),
+Q137127098,Jharokha architecture style,exclude:below inclusion rule (§2.3),
+Q137127104,Jor-Bangla architecture style,exclude:below inclusion rule (§2.3),
+Q137127113,Kadamba architecture style,exclude:below inclusion rule (§2.3),
+Q137127121,Kadamba-Chalukya architecture style,exclude:below inclusion rule (§2.3),
+Q137127126,Kadamba-Yadava architecture style,exclude:below inclusion rule (§2.3),
+Q137127129,Kakatiya architecture style,exclude:below inclusion rule (§2.3),
+Q137127131,Post-Gupta architecture style,exclude:below inclusion rule (§2.3),
+Q137127134,Kali Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137127144,Kandariya Mahadeva Nagara architecture style,exclude:below inclusion rule (§2.3),
+Q137127157,Kandyan architecture style,exclude:below inclusion rule (§2.3),
+Q137127170,Karnata Dravida architecture style,exclude:below inclusion rule (§2.3),
+Q137127181,Karnataka Dravida architecture style,exclude:below inclusion rule (§2.3),
+Q137127193,Kashmiri architecture style,exclude:below inclusion rule (§2.3),
+Q137127206,Kashmiri Hindu architecture style,exclude:below inclusion rule (§2.3),
+Q137127223,Kashmiri Hindu Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137127232,Kashmiri Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137127236,Kath-Khuni architecture style,exclude:below inclusion rule (§2.3),
+Q137127240,Kath-Kuni architecture style,exclude:below inclusion rule (§2.3),
+Q137127243,Katyuri architecture style,exclude:below inclusion rule (§2.3),
+Q137127247,Kerala architecture style,exclude:below inclusion rule (§2.3),
+Q137127248,Kerala Dravida architecture style,exclude:below inclusion rule (§2.3),
+Q137127251,Kerala Laterite Masonry architecture style,exclude:below inclusion rule (§2.3),
+Q137127256,Kerala Nālukettu architecture style,exclude:below inclusion rule (§2.3),
+Q137127260,Kerala Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137127263,Khasi architecture style,exclude:below inclusion rule (§2.3),
+Q137127268,Khasi Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137127270,Khas Malla architecture style,exclude:below inclusion rule (§2.3),
+Q137127307,Khmer Angkor Wat architecture style,exclude:below inclusion rule (§2.3),
+Q137127311,Khmer architecture style,exclude:below inclusion rule (§2.3),
+Q137127312,Khmer Baphuon architecture style,exclude:below inclusion rule (§2.3),
+Q137127315,Khmer Hindu Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137127318,Khmer-Nagara architecture style,exclude:below inclusion rule (§2.3),
+Q137127319,Khmer Nagara-Influenced Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137127322,Khmer Prang architecture style,exclude:below inclusion rule (§2.3),
+Q137127325,Khmer Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137127386,Khorezmian Palace architecture style,exclude:below inclusion rule (§2.3),
+Q137127485,Koch architecture style,exclude:below inclusion rule (§2.3),
+Q137127497,Koch-Nagara architecture style,exclude:below inclusion rule (§2.3),
+Q137127498,Koiri architecture style,exclude:below inclusion rule (§2.3),
+Q137127500,Konkani Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137127506,Koothambalam architecture style,exclude:below inclusion rule (§2.3),
+Q137127510,Kroraina Kingdom architecture style,exclude:below inclusion rule (§2.3),
+Q137127512,Kumaoni architecture style,exclude:below inclusion rule (§2.3),
+Q137127515,Kushana Buddhist architecture style,exclude:below inclusion rule (§2.3),
+Q137127528,Kushan architecture style,exclude:below inclusion rule (§2.3),
+Q137127553,Kushan Buddhist architecture style,exclude:below inclusion rule (§2.3),
+Q137127557,Kushan Nagara architecture style,exclude:below inclusion rule (§2.3),
+Q137127559,Lakshmi-Narayana Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137127563,Late Chalukya architecture style,exclude:below inclusion rule (§2.3),
+Q137127564,Late Gupta Period architecture style,exclude:below inclusion rule (§2.3),
+Q137127567,Late Medieval Hindu architecture style,exclude:below inclusion rule (§2.3),
+Q137127568,Late Medieval North Indian Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137127571,Late Mughal Military architecture style,exclude:below inclusion rule (§2.3),
+Q137127572,Later Chola architecture style,exclude:below inclusion rule (§2.3),
+Q137127574,Later Somavamshi Nagara architecture style,exclude:below inclusion rule (§2.3),
+Q137127577,Latina architecture style,exclude:below inclusion rule (§2.3),
+Q137127582,Local Bihari Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137127585,Madurai architecture style,exclude:below inclusion rule (§2.3),
+Q137127586,Madurai Nayak architecture style,exclude:below inclusion rule (§2.3),
+Q137127591,Malaysian Hindu Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137127593,Nagara architecture style,exclude:below inclusion rule (§2.3),
+Q137127597,Malwa Sultanate architecture style,exclude:below inclusion rule (§2.3),
+Q137127599,Mandala architecture style,exclude:below inclusion rule (§2.3),
+Q137127600,Mandala-Based architecture style,exclude:below inclusion rule (§2.3),
+Q137127603,Mandapa architecture style,exclude:below inclusion rule (§2.3),
+Q137127606,Mandapam architecture style,exclude:below inclusion rule (§2.3),
+Q137127789,Manipuri Nagara architecture style,exclude:below inclusion rule (§2.3),
+Q137127881,Manipuri Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137128181,Maratha Fortification architecture style,exclude:below inclusion rule (§2.3),
+Q137128343,Maratha Fortifications architecture style,exclude:below inclusion rule (§2.3),
+Q137128453,Maratha Military architecture style,exclude:below inclusion rule (§2.3),
+Q137128614,Maratha Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137128761,Maratha Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137128932,Maritime architecture style,exclude:below inclusion rule (§2.3),
+Q137129127,Maritime Silk Road architecture style,exclude:below inclusion rule (§2.3),
+Q137129392,Māru-Gurjara architecture style,exclude:below inclusion rule (§2.3),
+Q137129412,Maru-Gurjara Haveli architecture style,exclude:below inclusion rule (§2.3),
+Q137129506,Marwar architecture style,exclude:below inclusion rule (§2.3),
+Q137129680,Maurya architecture style,exclude:below inclusion rule (§2.3),
+Q137129786,Mauryan architecture style,exclude:below inclusion rule (§2.3),
+Q137129940,Medieval Hindu architecture style,exclude:below inclusion rule (§2.3),
+Q137130118,Megalithic architecture style,exclude:below inclusion rule (§2.3),
+Q137130297,Meitei architecture style,exclude:below inclusion rule (§2.3),
+Q137130434,Military architecture style,exclude:below inclusion rule (§2.3),
+Q137130603,Mizo Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137130733,Modern Dravidian architecture style,exclude:below inclusion rule (§2.3),
+Q137130748,Modern Hindu architecture style,exclude:below inclusion rule (§2.3),
+Q137130750,Modern Indian Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137130965,Mountain Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137131148,Mount Meru Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137131153,Mughal Fortification architecture style,exclude:below inclusion rule (§2.3),
+Q137131274,Mughal-Rajput architecture style,exclude:below inclusion rule (§2.3),
+Q137131393,Murugan Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137131398,Mysore architecture style,exclude:below inclusion rule (§2.3),
+Q137131632,Nagara-Bagan architecture style,exclude:below inclusion rule (§2.3),
+Q137131633,Nagara-Bagan Hybrid architecture style,exclude:below inclusion rule (§2.3),
+Q137131634,Nagara-Bengali-Assamese-Orissan Hybrid architecture style,exclude:below inclusion rule (§2.3),
+Q137131678,Nagara-Chhattisgarhi Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137131683,Nagara-Dravida Fusion architecture style,exclude:below inclusion rule (§2.3),
+Q137131831,Nagara-Dravida Hybrid architecture style,exclude:below inclusion rule (§2.3),
+Q137131953,Nagara-Influenced architecture style,exclude:below inclusion rule (§2.3),
+Q137132092,Nagara-Influenced Bagan architecture style,exclude:below inclusion rule (§2.3),
+Q137132230,Nagara-Influenced Bagan Cave Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137132357,Nagara-Influenced Hindu Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137132503,Nagara-Influenced Khmer architecture style,exclude:below inclusion rule (§2.3),
+Q137132540,Nagara-Influenced Khmer Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137132542,Nagara-Influenced Pagoda architecture style,exclude:below inclusion rule (§2.3),
+Q137132543,Nagara-Kalinga architecture style,exclude:below inclusion rule (§2.3),
+Q137132547,Nagara-Khmer architecture style,exclude:below inclusion rule (§2.3),
+Q137132549,Nagara-Pala architecture style,exclude:below inclusion rule (§2.3),
+Q137132551,Naga Tribal architecture style,exclude:below inclusion rule (§2.3),
+Q137132552,Naga Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137132557,Nalanda architecture style,exclude:below inclusion rule (§2.3),
+Q137132559,Nalanda Monastery architecture style,exclude:below inclusion rule (§2.3),
+Q137132561,Navaratna architecture style,exclude:below inclusion rule (§2.3),
+Q137132563,Navaratna Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137132568,Nayak architecture style,exclude:below inclusion rule (§2.3),
+Q137132570,Neoclassical architecture style,exclude:below inclusion rule (§2.3),
+Q137132576,Neolithic Settlement architecture style,exclude:below inclusion rule (§2.3),
+Q137132580,Nepalese Pagoda architecture style,exclude:below inclusion rule (§2.3),
+Q137132584,Nepali Pagoda architecture style,exclude:below inclusion rule (§2.3),
+Q137132764,Newar architecture style,exclude:below inclusion rule (§2.3),
+Q137132849,Newari architecture style,exclude:below inclusion rule (§2.3),
+Q137132854,North American Institutional architecture style,exclude:below inclusion rule (§2.3),
+Q137132857,North-Eastern Indian Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137132859,Northeast Indian Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137132865,Octagonal Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137132867,Odantapuri architecture style,exclude:below inclusion rule (§2.3),
+Q137132869,Orissan architecture style,exclude:below inclusion rule (§2.3),
+Q137132871,Orissan Kalinga architecture style,exclude:below inclusion rule (§2.3),
+Q137132874,Orissan Nagara architecture style,exclude:below inclusion rule (§2.3),
+Q137132877,Orissan Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137132970,Pagoda architecture style,exclude:below inclusion rule (§2.3),
+Q137133034,Pahadi architecture style,exclude:below inclusion rule (§2.3),
+Q137133036,Pahari architecture style,exclude:below inclusion rule (§2.3),
+Q137133041,Pala architecture style,exclude:below inclusion rule (§2.3),
+Q137133049,Palatial architecture style,exclude:below inclusion rule (§2.3),
+Q137133052,Pala-Tibetan architecture style,exclude:below inclusion rule (§2.3),
+Q137133054,Pancharatha architecture style,exclude:below inclusion rule (§2.3),
+Q137133074,Pancharatha Nagara architecture style,exclude:below inclusion rule (§2.3),
+Q137133101,Pancharatna architecture style,exclude:below inclusion rule (§2.3),
+Q137133104,Pancharatra Agama architecture style,exclude:below inclusion rule (§2.3),
+Q137133107,Pancharatra architecture style,exclude:below inclusion rule (§2.3),
+Q137133114,Panchayatana architecture style,exclude:below inclusion rule (§2.3),
+Q137133117,Panchayatana Nagara architecture style,exclude:below inclusion rule (§2.3),
+Q137133120,Panch Kedara architecture style,exclude:below inclusion rule (§2.3),
+Q137133122,Pandya architecture style,exclude:below inclusion rule (§2.3),
+Q137133125,Pan-Indian Hindu Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137133138,Parthian architecture style,exclude:below inclusion rule (§2.3),
+Q137133192,Persian architecture style,exclude:below inclusion rule (§2.3),
+Q137133209,Persian Garden architecture style,exclude:below inclusion rule (§2.3),
+Q137133210,Pilgrimage architecture style,exclude:below inclusion rule (§2.3),
+Q137133219,Post-Gupta Bengal architecture style,exclude:below inclusion rule (§2.3),
+Q137133223,Prairie architecture style,exclude:below inclusion rule (§2.3),
+Q137133225,Prasat architecture style,exclude:below inclusion rule (§2.3),
+Q137133228,Punjabi architecture style,exclude:below inclusion rule (§2.3),
+Q137133230,Queen Anne architecture style,exclude:below inclusion rule (§2.3),
+Q137133334,Queensland Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137133504,Qutb Shahi architecture style,exclude:below inclusion rule (§2.3),
+Q137133685,Rajagopuram architecture style,exclude:below inclusion rule (§2.3),
+Q137133805,Raja Gopuram architecture style,exclude:below inclusion rule (§2.3),
+Q137133964,Rajasthani architecture style,exclude:below inclusion rule (§2.3),
+Q137134129,Rajasthani Haveli architecture style,exclude:below inclusion rule (§2.3),
+Q137134310,Rajasthani Jain architecture style,exclude:below inclusion rule (§2.3),
+Q137134464,Rajasthani Military architecture style,exclude:below inclusion rule (§2.3),
+Q137134582,Rajasthani Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137134724,Rajasthani Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137134949,Rajputana architecture style,exclude:below inclusion rule (§2.3),
+Q137135008,Rajput Military architecture style,exclude:below inclusion rule (§2.3),
+Q137135165,Rajput-Mughal architecture style,exclude:below inclusion rule (§2.3),
+Q137135342,Rajput-Mughal Fort architecture style,exclude:below inclusion rule (§2.3),
+Q137135546,Ratna architecture style,exclude:below inclusion rule (§2.3),
+Q137135653,Regional Goan architecture style,exclude:below inclusion rule (§2.3),
+Q137135824,Regional Mughal architecture style,exclude:below inclusion rule (§2.3),
+Q137135981,Regional Punjabi architecture style,exclude:below inclusion rule (§2.3),
+Q137136109,Regional Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137136284,Rekha Deula architecture style,exclude:below inclusion rule (§2.3),
+Q137136431,Rekha-Deul architecture style,exclude:below inclusion rule (§2.3),
+Q137136578,Rekha Deul Nagara architecture style,exclude:below inclusion rule (§2.3),
+Q137136761,Religious architecture style,exclude:below inclusion rule (§2.3),
+Q137136903,Renaissance architecture style,exclude:below inclusion rule (§2.3),
+Q137137039,Revivalist Hindu architecture style,exclude:below inclusion rule (§2.3),
+Q137137262,Saiva architecture style,exclude:below inclusion rule (§2.3),
+Q137137439,Saiva Siddhanta architecture style,exclude:below inclusion rule (§2.3),
+Q137137605,Samadhi Mandir architecture style,exclude:below inclusion rule (§2.3),
+Q137137770,Samanid architecture style,exclude:below inclusion rule (§2.3),
+Q137137957,Secular Fortress architecture style,exclude:below inclusion rule (§2.3),
+Q137138093,Shakta architecture style,exclude:below inclusion rule (§2.3),
+Q137138147,Shakti Peetha architecture style,exclude:below inclusion rule (§2.3),
+Q137138253,Sharada Peeth architecture style,exclude:below inclusion rule (§2.3),
+Q137138384,Shekhawati architecture style,exclude:below inclusion rule (§2.3),
+Q137138567,Shikhara architecture style,exclude:below inclusion rule (§2.3),
+Q137138682,Shindoori architecture style,exclude:below inclusion rule (§2.3),
+Q137138854,Sikh architecture style,exclude:below inclusion rule (§2.3),
+Q137139076,Sikkimese Buddhist architecture style,exclude:below inclusion rule (§2.3),
+Q137139762,Silk Road architecture style,exclude:below inclusion rule (§2.3),
+Q137139999,Silk Road Buddhist architecture style,exclude:below inclusion rule (§2.3),
+Q137140156,Sindhi Hindu architecture style,exclude:below inclusion rule (§2.3),
+Q137140388,Sindhi-Hindu Contemporary architecture style,exclude:below inclusion rule (§2.3),
+Q137140569,Sindhi Hindu Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137140719,Singaporean architecture style,exclude:below inclusion rule (§2.3),
+Q137140904,Singaporean Hindu architecture style,exclude:below inclusion rule (§2.3),
+Q137141068,Singaporean Religious architecture style,exclude:below inclusion rule (§2.3),
+Q137141236,Singapore Hindu Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137141386,Sino-Tibetan architecture style,exclude:below inclusion rule (§2.3),
+Q137141499,Sogdian architecture style,exclude:below inclusion rule (§2.3),
+Q137141699,Sogdian Fortress architecture style,exclude:below inclusion rule (§2.3),
+Q137141896,Sogdian-Indic Syncretic architecture style,exclude:below inclusion rule (§2.3),
+Q137142048,Solanki architecture style,exclude:below inclusion rule (§2.3),
+Q137142146,Sompura architecture style,exclude:below inclusion rule (§2.3),
+Q137142326,Southeast Asian Brick architecture style,exclude:below inclusion rule (§2.3),
+Q137142491,Southeast Asian Hindu Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137142672,Southeast Asian Prasat architecture style,exclude:below inclusion rule (§2.3),
+Q137142807,South Indian architecture style,exclude:below inclusion rule (§2.3),
+Q137142989,Sri Lankan Buddhist architecture style,exclude:below inclusion rule (§2.3),
+Q137143109,Sri Lankan Cave Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137143293,Sri Lankan Dravida architecture style,exclude:below inclusion rule (§2.3),
+Q137143456,Sri Lankan Fortress architecture style,exclude:below inclusion rule (§2.3),
+Q137143570,Sri Lankan Hindu architecture style,exclude:below inclusion rule (§2.3),
+Q137143682,Sri Lankan Medieval architecture style,exclude:below inclusion rule (§2.3),
+Q137143851,Sri Lankan Tamil architecture style,exclude:below inclusion rule (§2.3),
+Q137143871,Straits Settlements architecture style,exclude:below inclusion rule (§2.3),
+Q137143873,Stucco architecture style,exclude:below inclusion rule (§2.3),
+Q137143880,Stupa architecture style,exclude:below inclusion rule (§2.3),
+Q137143885,Sultanate architecture style,exclude:below inclusion rule (§2.3),
+Q137143891,Swaminarayan architecture style,exclude:below inclusion rule (§2.3),
+Q137143895,Tai-Ahom architecture style,exclude:below inclusion rule (§2.3),
+Q137143899,Tai Ahom-Meitei Fusion architecture style,exclude:below inclusion rule (§2.3),
+Q137143905,Tamil Dravida architecture style,exclude:below inclusion rule (§2.3),
+Q137143908,Tamil Nadu Kovil architecture style,exclude:below inclusion rule (§2.3),
+Q137143913,Tamil Nadu Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137143916,Tamil Nadu Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137143921,Telangana Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137143924,Temple Architecture Of Mithila Style architecture style,exclude:below inclusion rule (§2.3),
+Q137143928,Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137143930,Temple Pond architecture style,exclude:below inclusion rule (§2.3),
+Q137143936,Temple Tank architecture style,exclude:below inclusion rule (§2.3),
+Q137143941,Terrace architecture style,exclude:below inclusion rule (§2.3),
+Q137143943,Thai architecture style,exclude:below inclusion rule (§2.3),
+Q137143949,Tibetan Buddhist Monastery architecture style,exclude:below inclusion rule (§2.3),
+Q137143961,Tibetan Buddhist Monastic architecture style,exclude:below inclusion rule (§2.3),
+Q137143991,Timurid architecture style,exclude:below inclusion rule (§2.3),
+Q137143997,Tokharistan Art Style architecture style,exclude:below inclusion rule (§2.3),
+Q137144007,Tower architecture style,exclude:below inclusion rule (§2.3),
+Q137144027,Traditional Arunachali architecture style,exclude:below inclusion rule (§2.3),
+Q137144105,Traditional Goan Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137144141,Traditional Gujarati architecture style,exclude:below inclusion rule (§2.3),
+Q137144158,Traditional Hindu architecture style,exclude:below inclusion rule (§2.3),
+Q137144216,Traditional Hindu Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137144228,Traditional Mizo architecture style,exclude:below inclusion rule (§2.3),
+Q137144274,Traditional Naga architecture style,exclude:below inclusion rule (§2.3),
+Q137144323,Traditional Sikkimese architecture style,exclude:below inclusion rule (§2.3),
+Q137144384,Tribal Influenced architecture style,exclude:below inclusion rule (§2.3),
+Q137144434,Tripura architecture style,exclude:below inclusion rule (§2.3),
+Q137144487,Tripura-Bengal Nagara architecture style,exclude:below inclusion rule (§2.3),
+Q137144524,Tripuri Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137144594,Triratha architecture style,exclude:below inclusion rule (§2.3),
+Q137144671,Tudor Revival architecture style,exclude:below inclusion rule (§2.3),
+Q137144678,Tughlaq architecture style,kind:K1-14/Tughlaq,
+Q137144704,Tulunadu architecture style,exclude:below inclusion rule (§2.3),
+Q137144810,Turk Shahi architecture style,exclude:below inclusion rule (§2.3),
+Q137144834,Utkala Nagara architecture style,exclude:below inclusion rule (§2.3),
+Q137144874,Vaishnava Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137144941,Vajrayana architecture style,exclude:below inclusion rule (§2.3),
+Q137144987,Vajrayana Buddhist architecture style,exclude:below inclusion rule (§2.3),
+Q137145011,Varanasi Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137145100,Vastu Shastra architecture style,exclude:below inclusion rule (§2.3),
+Q137145115,Vedic architecture style,exclude:below inclusion rule (§2.3),
+Q137145155,Vedic Fire Altar architecture style,exclude:below inclusion rule (§2.3),
+Q137145166,Vedic Period Religious architecture style,exclude:below inclusion rule (§2.3),
+Q137145170,Vernacular Architecture Of Bihar Style architecture style,exclude:below inclusion rule (§2.3),
+Q137145178,Vernacular architecture style,exclude:below inclusion rule (§2.3),
+Q137145183,Vernacular Haryana architecture style,exclude:below inclusion rule (§2.3),
+Q137145186,Vernacular Himalayan architecture style,exclude:below inclusion rule (§2.3),
+Q137145193,Vernacular Indic architecture style,exclude:below inclusion rule (§2.3),
+Q137145197,Vernacular Jharkhand architecture style,exclude:below inclusion rule (§2.3),
+Q137145199,Vernacular Manipuri architecture style,exclude:below inclusion rule (§2.3),
+Q137145204,Vernacular Manipuri Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137145206,Vernacular Meghalaya architecture style,exclude:below inclusion rule (§2.3),
+Q137145210,Vernacular Mizo architecture style,exclude:below inclusion rule (§2.3),
+Q137145215,Vernacular Naga architecture style,exclude:below inclusion rule (§2.3),
+Q137145216,Vernacular Northeast India architecture style,exclude:below inclusion rule (§2.3),
+Q137145217,Vernacular Northeast Indian architecture style,exclude:below inclusion rule (§2.3),
+Q137145223,Vernacular Religious architecture style,exclude:below inclusion rule (§2.3),
+Q137145224,Vernacular Religious Eclectic architecture style,exclude:below inclusion rule (§2.3),
+Q137145227,Vijayanagara architecture style,exclude:below inclusion rule (§2.3),
+Q137145233,Vihara architecture style,exclude:below inclusion rule (§2.3),
+Q137145241,Vijayanagara Military architecture style,exclude:below inclusion rule (§2.3),
+Q137145243,Vikramashila architecture style,exclude:below inclusion rule (§2.3),
+Q137145247,West Coast Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137145251,Western Chalukya architecture style,exclude:below inclusion rule (§2.3),
+Q137145253,Western Ganga architecture style,exclude:below inclusion rule (§2.3),
+Q137145255,Western Himalayan Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137145260,Yogini Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137145261,Zoroastrian architecture style,exclude:below inclusion rule (§2.3),
+Q137145264,Zoroastrian Fire Temple architecture style,exclude:below inclusion rule (§2.3),
+Q137145266,Zoroastrian Tower Of Silence architecture style,exclude:below inclusion rule (§2.3),
+Q137273324,Ayyubid architecture,kind:K1-8/Ayyubid,
+Q138595380,連歌所,exclude:below inclusion rule (§2.3),
+Q139679341,穿斗式,exclude:below inclusion rule (§2.3),chuandou frame: construction (tag)
+Q140441538,Chōgai-tei,exclude:below inclusion rule (§2.3),
+Q140469803,Bruynzeel house,exclude:below inclusion rule (§2.3),
+Q140608497,piah-tam-ênn,exclude:below inclusion rule (§2.3),
+Q141333088,T-plan style,exclude:below inclusion rule (§2.3),
+Q141342675,glazed ceramic architecture,exclude:below inclusion rule (§2.3),
+Q30619313,Republican,exclude:below inclusion rule (§2.3),
+Q54979933,Victorian Free Classical,route:west,Victorian Free Classical
+Q56247448,Alikusu,exclude:below inclusion rule (§2.3),
+Q80793203,Rectangular Kofun,exclude:below inclusion rule (§2.3),
+Q98399175,Afsharid architecture,kind:K1-13/Afsharid,
+Q98399996,Ghaznavid art,exclude:below inclusion rule (§2.3),
+Q98400041,Ghaznavid architecture,route:K1,Ghaznavid; pre-Seljuk Iranian gap
+Q98400141,Khwarazmian architecture,kind:K1-6/Khwarazmian,
+Q98406757,Buyid architecture,route:K1,Buyid; pre-Seljuk Iranian gap
+Q98406896,Samanid architecture,route:K1,Samanid; pre-Seljuk Iranian gap
+Q98407785,Saffarid architecture,route:K1,Saffarid; pre-Seljuk Iranian gap
+Q98408462,Tahirid architecture,exclude:below inclusion rule (§2.3),
+Q98412520,Rashidun architecture,route:K1,Rashidun; early Islamic gap
+Q98414024,Seleucid architecture,exclude:below inclusion rule (§2.3),
+Q98417156,Elamite architecture,route:K3,Elamite
+Q98417627,Ziyarid architecture,route:K1,Ziyarid (Gonbad-e Qabus); pre-Seljuk Iranian gap

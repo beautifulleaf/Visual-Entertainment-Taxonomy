@@ -1,0 +1,67 @@
+tmp,kind,group,basis
+L1,Khajuraho,Centres,Khajuraho Group of Monuments (Q167298) in architecture_nonwestern_styles.csv top exemplars
+L1,Bodh Gaya (Mahabodhi Temple),Centres,Mahabodhi Temple (Q4513) in architecture_nonwestern_styles.csv top exemplars
+L2,Bhubaneswar,Centres,Lingaraja Temple (Q2365530) in architecture_nonwestern_styles.csv top exemplars
+L2,Konark,Centres,Konark Sun Temple (Q752091) in architecture_nonwestern_styles.csv top exemplars
+L2,Puri,Centres,Jagannath Temple (Q1678260) in architecture_nonwestern_styles.csv top exemplars
+L3,Jain temples,Building types,"rule G04 (Jain temples of Gujarat and Rajasthan, 39 candidates)"
+L3,Pavagadh,Centres,"Jain temples, Pavagadh (Q112669656) in architecture_nonwestern_styles.csv top exemplars"
+L4,Mahabalipuram,Centres,Group of monuments at Mahabalipuram (Q3522747) in architecture_nonwestern_styles.csv top exemplars
+L4,Hampi,Centres,Hampi (Q26732) in architecture_nonwestern_styles.csv top exemplars
+L4,Pandya,Dynastic schools,rule D12 (Dravidian — Pandya)
+L4,Nayak,Dynastic schools,rule D14 (Dravidian — Nayak)
+L5,Pattadakal,Centres,"Galaganatha and Virupaksha temples, Pattadakal (Q97440563, Q97440564) in architecture_nonwestern_styles.csv top exemplars"
+L5,Lakkundi,Centres,"Kasivisvesvara Temple and Brahma Jinalaya, Lakkundi in architecture_nonwestern_styles.csv top exemplars"
+L7,Bishnupur,Centres,Radha Madhab and Rasmancha (Q7295089) in architecture_nonwestern_styles.csv top exemplars
+L8,Stupa,Building types,"Dhamek Stupa (Q1985137), Sanchi Stupa No.1 (Q126721537) in architecture_nonwestern_styles.csv top exemplars"
+L8,Mahavihara,Building types,Nalanda Mahavihara (Q216243) in architecture_nonwestern_styles.csv top exemplars
+L8,Pala,Dynastic schools,rule G19/G20 (Maurya – Gupta – Pala)
+L9,Ellora,Centres,"Kailasa Temple, Ellora (Q1268562) in architecture_nonwestern_styles.csv top exemplars"
+L10,Dagoba,Building types,"Ruwanweli Maha Saya (Q3534755), Jetavanaramaya (Q1961579) in architecture_nonwestern_styles.csv top exemplars"
+L11,Stupa,Building types,"Boudhanath (Q889902), Swayambhunath (Q12946982) in architecture_nonwestern_styles.csv top exemplars"
+L11,Pagoda temple,Building types,"Pashupatinath Temple (Q380384), Changu Narayan (Q10...) in architecture_nonwestern_styles.csv top exemplars"
+L12,Monastery (gompa),Building types,"rule S12 tibetan_monastery class (2,507 candidates)"
+L12,Palace-fortress,Building types,Potala Palace (Q71229) in architecture_nonwestern_styles.csv top exemplars
+L14,Hill forts,Building types,"Amber, Kumbhalgarh, Chittorgarh, Jaisalmer in architecture_nonwestern_styles.csv top exemplars (UNESCO Hill Forts of Rajasthan)"
+L18,Pagoda,Building types,"Small Wild Goose Pagoda, Liuhe Pagoda, Iron Pagoda, Songyue Pagoda in architecture_nonwestern_styles.csv top exemplars"
+L18,Buddhist temple,Building types,"Foguang Temple, White Horse Temple in architecture_nonwestern_styles.csv top exemplars (Q109414360 Chinese Buddhist architecture, below cut)"
+L18,Taoist temple,Building types,"Beijing Dongyue Temple, Xuanmiao Temple in architecture_nonwestern_styles.csv top exemplars"
+L18,Yangshi Lei,Architects,"Q11110863 (blank-region style row, below cut): hereditary Qing imperial architects"
+L18,Tibeto-Chinese temple,Building types,"Putuo Zongcheng and Puning temples, Chengde (Q1683898, Q188404) in architecture_nonwestern_styles.csv top exemplars"
+L21,Fujian tulou,Building types,wiki:Fujian tulou; Hakka walled village row Q10925819
+L27,Itō Chūta,Architects,"architecture_architects.csv Q1050457 (nagare-zukuri, shinmei-zukuri)"
+L27,Hiroshi Ōe,Architects,architecture_architects.csv Q11436810 (shinmei-zukuri)
+L28,Pagoda,Building types,rule Y02–Y07 pagoda class
+L28,Zenshūyō,Styles,rule Y04 label (Daibutsuyō / Zenshūyō)
+L31,Isoya Yoshida,Architects,architecture_architects.csv Q3155639 (sukiya-zukuri)
+L36,Takahashi Kanekichi,Architects,architecture_architects.csv Q85884652 (Giyōfū)
+L36,Itō Heizaemon IX,Architects,architecture_architects.csv Q17193360 (Giyōfū; modern Japanese-style)
+L37,Palaces,Building types,"Gyeongbokgung (Q482485), Geunjeongjeon in architecture_nonwestern_styles.csv top exemplars (Korean — Joseon)"
+L39,Angkor,Centres,"Angkor (Q163607), Angkor Wat (Q43473) in architecture_nonwestern_styles.csv top exemplars"
+L39,Koh Ker,Centres,Koh Ker in architecture_nonwestern_styles.csv top exemplars
+L39,Banteay Srei,Styles,Banteay Srei (Q790099) in architecture_nonwestern_styles.csv top exemplars
+L43,Bagan,Centres,"Ananda, Shwezigon, Thatbyinnyu in architecture_nonwestern_styles.csv top exemplars"
+L44,Somdet Chaophraya Borommahaphichaiyat (That Bunnak),Architects,architecture_architects.csv Q13022289 (Thai architecture)
+L45,Luang Prabang,Centres,Wat Xieng Thong (Q2671118) in architecture_nonwestern_styles.csv top exemplars
+L45,Vientiane,Centres,"Pha That Luang (Q1059720), Wat Si Saket in architecture_nonwestern_styles.csv top exemplars"
+L46,Mỹ Sơn,Centres,Mỹ Sơn (Q391406) groups A–K in architecture_nonwestern_styles.csv top exemplars
+L53,Lalibela,Centres,"Bete Maryam, Biete Medhani Alem, Bete Giyorgis in architecture_nonwestern_styles.csv top exemplars"
+L55,Meroë,Centres,"Meroë (Q5780), Naqa, Musawarat in architecture_nonwestern_styles.csv top exemplars"
+L55,Napata,Centres,"Jebel Barkal (Q499019), El-Kurru, Nuri, Sanam in architecture_nonwestern_styles.csv top exemplars"
+L56,Khami,Centres,Khami (Q938685) in architecture_nonwestern_styles.csv top exemplars
+L56,Mapungubwe,Centres,Mapungubwe in architecture_nonwestern_styles.csv top exemplars
+L56,Naletale,Centres,Naletale (Q1193888) in architecture_nonwestern_styles.csv top exemplars
+L59,Usumacinta,Regional styles,"rule M05 label (Petén / Usumacinta); Palenque, Temple of the Inscriptions in architecture_nonwestern_styles.csv top exemplars"
+L60,Talud-tablero,Building types,Teotihuacan pyramids in architecture_nonwestern_styles.csv top exemplars
+L63,Tiwanaku,Cultures,"Tiwanaku, Pumapunku, Kalasasaya, Akapana in architecture_nonwestern_styles.csv top exemplars (Andean unassigned)"
+L62,Cusco,Centres,"Tambomachay, Machu Picchu, Vilcabamba, Choquequirao in architecture_nonwestern_styles.csv top exemplars"
+L62,Inca road and bridges,Building types,"Inca Trail, Inca Bridge in architecture_nonwestern_styles.csv top exemplars"
+L64,Mesa Verde,Centres,Mesa Verde National Park (Q237128) in architecture_nonwestern_styles.csv top exemplars
+L64,Chacoan great houses,Building types,"Casamero Pueblo, Kin Nizhoni, Twin Angels, Halfway House (Chaco outliers) in architecture_nonwestern_styles.csv top exemplars"
+L64,Taos Pueblo,Centres,Taos Pueblo (Q252814) in architecture_nonwestern_styles.csv top exemplars
+L65,Mississippian,Phases,"Cahokia, Monks Mound, Moundville, Spiro, Etowah in architecture_nonwestern_styles.csv top exemplars"
+L65,Hopewell,Phases,"Hopewell Ceremonial Earthworks, Hopeton Earthworks in architecture_nonwestern_styles.csv top exemplars"
+L65,Poverty Point,Phases,Poverty Point (Q964745) in architecture_nonwestern_styles.csv top exemplars
+L71,Leluh (Kosrae),Centres,Leluh (Q17366581) in architecture_nonwestern_styles.csv top exemplars
+K1-16,Abu Ishaq es-Saheli,Architects,architecture_architects.csv Q2821734 (Sudano-Sahelian)
+K1-16,Falké Barmou,Architects,architecture_architects.csv Q56529285 (Sudano-Sahelian)
