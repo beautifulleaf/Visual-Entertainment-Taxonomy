@@ -1188,7 +1188,12 @@ def link_patterns_to_wikidata(kept):
         else:
             missing.append(v)
     # labels not among the kept nodes: ask WDQS, keep the best item that is not a place/person
-    for chunk in [missing[k:k + 80] for k in range(0, len(missing), 80)]:
+    variants = {}
+    for v in missing:   # Wikidata labels are often lower case ("rosemaling")
+        for x in {v, v.lower(), v[:1].lower() + v[1:]}:
+            variants.setdefault(x, v)
+    vlist = sorted(variants)
+    for chunk in [vlist[k:k + 120] for k in range(0, len(vlist), 120)]:
         vals = " ".join('"%s"@en' % v.replace('"', '') for v in chunk)
         q = """SELECT ?l ?i ?sl (GROUP_CONCAT(DISTINCT ?cl; separator='|') AS ?cls) WHERE { VALUES ?l { %s }
             { ?i rdfs:label ?l } UNION { ?i skos:altLabel ?l } ?i wikibase:sitelinks ?sl .
@@ -1200,7 +1205,7 @@ def link_patterns_to_wikidata(kept):
             if re.search(r"village|settlement|town|city|human|river|municipal|commune|island|archipelago|"
                          r"railway|ship|station|family name|disambiguation|county|district|region", r.get("cls", ""), re.I):
                 continue
-            for i in names[r["l"]]:
+            for i in names[variants[r["l"]]]:
                 link.setdefault(i, r["i"])
     return link
 

@@ -62,15 +62,19 @@ def main():
     ap.add_argument("--skip-pageviews", action="store_true")
     args = ap.parse_args()
     info = json.load(open(os.path.join(bmr.RAW, "artists.json"), encoding="utf-8"))
-    missing = {}
+    pooled = set()
     for region in ALL:
         with open(os.path.join(DATA, f"pool_{region}.csv"), encoding="utf-8") as f:
-            pooled = {r["qid"] for r in csv.DictReader(f)}
+            pooled |= {r["qid"] for r in csv.DictReader(f)}
+    # An artist pooled in another region (Pissarro, born in the Danish West Indies, is in
+    # Europe's pool) is a positive there already; only artists in no pool are added.
+    missing = {}
+    for region in ALL:
         for r in load_reference(REGIONS[region]):
             if r["qid"] and r["qid"] not in pooled and r["qid"] in info:
                 missing.setdefault(region, []).append(r["qid"])
     allq = sorted({q for qs in missing.values() for q in qs})
-    print(f"{len(allq)} reference artists missing from their region's pool: "
+    print(f"{len(allq)} reference artists in no modern pool: "
           + ", ".join(f"{r[7:]} {len(qs)}" for r, qs in missing.items()))
     facts = fetch_extra_facts(allq)
 
