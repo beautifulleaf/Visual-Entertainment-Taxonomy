@@ -635,8 +635,9 @@ def main():
     for k, c in clabel.items():  # parent label from children if it never occurs alone
         if ", " in clab[k] and ", " not in k:
             clab[k] = clab[k].split(", ")[0]
-    for k, v in premap.items():
-        plabel.setdefault(v, v)
+    for k, v in premap.items():  # "Final Jōmon period" -> "Jōmon period"
+        if v not in plabel:
+            plabel[v] = plabel.get(k, v).split(" ", 1)[-1]
 
     # sub-level names (staffordshire, venice, java, ...) -> full key, for AIC places
     sub_index, seen = {}, collections.Counter()

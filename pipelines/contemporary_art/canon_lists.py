@@ -13,7 +13,8 @@ after 1960, one row per (list, edition, entry):
                      kept but flagged is_artist=0 (ArtReview's own artist_category).
   artprice_top500    Artprice Contemporary Art Market Report: Top 500 contemporary artists
   artprice_ultra100  (born after 1945) by auction turnover, and the Top 100
-                     ultra-contemporary artists when the edition has one. Parsed from the
+                     ultra-contemporary artists when the edition has one (2026 only has a
+                     Top 10 of ultra-contemporary auction debuts). Parsed from the
                      free PDFs on imgpublic.artprice.com (needs `pypdf`).
   venice_biennale    Main (international) exhibition of the Venice Biennale, from the
                      official artist lists on labiennale.org (robots.txt asks for 60 s
@@ -323,7 +324,7 @@ def artreview_power100(editions):
 
 ARTPRICE_PDF = "https://imgpublic.artprice.com/pdf/the-contemporary-art-market-report-{year}.pdf"
 ARTPRICE_ROW = re.compile(
-    r"(?<![\d,$.])(\d{1,3}) ([^$()\n]+?) \(([^)]*)\)\s*([^$\d]*?)\s*\$\s?[\d,]+")
+    r"(?<![\d,$.])(\d{1,3}) ([^\d\s$()](?:(?!Turnover|artprice|Rank |record)[^$()])+?) \(([^)]*)\)\s*([^$\d]*?)\s*\$\s?[\d,]+")
 
 
 def artprice(years):
@@ -345,7 +346,7 @@ def artprice(years):
         tables, cur, expect = [], [], 1
         for page in reader.pages:
             text = page.extract_text() or ""
-            if "Turnover" not in text:
+            if not re.search(r"Artist[^\n]{0,40}Turnover", text):  # ranking-table pages only
                 continue
             for m in ARTPRICE_ROW.finditer(re.sub(r"\s*\n\s*", " ", text)):
                 rk = int(m.group(1))
@@ -358,7 +359,9 @@ def artprice(years):
         if cur:
             tables.append(cur)
         for t in tables:
-            lst = "artprice_top500" if len(t) >= 400 else "artprice_ultra100"
+            # 2026 has no ultra-contemporary Top 100, only a Top 10 of auction debuts (artists under 40)
+            lst = ("artprice_top500" if len(t) >= 400 else "artprice_ultra100" if len(t) >= 90
+                   else f"artprice_ultra_debuts_top{len(t)}")
             for rk, name, dates, country in t:
                 b = re.search(r"(\d{4})", dates)
                 rows.append(row(lst, year, name, rank=rk, country=country, birth=b.group(1) if b else "",
@@ -452,59 +455,76 @@ def documenta():
     return dedupe(rows)
 
 
-# e-flux participant announcements: (list, edition, url, marker after which the list starts,
-# marker before which it ends). Names are taken from <strong>/<b> runs if the list is
-# written that way, otherwise from the comma/semicolon/line-separated text.
+# e-flux participant announcements: (list, edition, url, mode, start marker, end marker).
+# mode "sep": the list is text separated by commas, semicolons or line breaks (bold runs,
+# e.g. curator headings, are dropped); mode "bold": each participant is a <strong> run.
 EFLUX = [
-    ("sharjah_biennial", "SB14 (2019)", "https://www.e-flux.com/announcements/210307/sharjah-biennial-14leaving-the-echo-chamber", None, None),
-    ("sharjah_biennial", "SB15 (2023)", "https://www.e-flux.com/announcements/459583/sharjah-biennial-15-participating-artists", None, None),
-    ("sharjah_biennial", "SB17 (2026)", "https://www.e-flux.com/announcements/6787370/sharjah-biennial-17-framework-and-participants", None, None),
-    ("istanbul_biennial", "18th (2025)", "https://www.e-flux.com/announcements/6784139/18th-istanbul-biennialthe-three-legged-cat", None, None),
-    ("kochi_muziris_biennale", "6th (2025)", "https://www.e-flux.com/announcements/6784510/participating-artists", None, None),
-    ("gwangju_biennale", "16th (2026)", "https://www.e-flux.com/announcements/6787431/16th-gwangju-biennaleyou-must-change-your-life", None, None),
+    ("sharjah_biennial", "SB14 (2019)", "https://www.e-flux.com/announcements/210307/sharjah-biennial-14leaving-the-echo-chamber",
+     "bold", "The complete selection of participating artists", "Media contact"),
+    ("sharjah_biennial", "SB15 (2023)", "https://www.e-flux.com/announcements/459583/sharjah-biennial-15-participating-artists",
+     "sep", "participating artists</strong>", "</p>"),
+    ("sharjah_biennial", "SB17 (2027)", "https://www.e-flux.com/announcements/6787370/sharjah-biennial-17-framework-and-participants",
+     "sep", "List of participants", "About the curators"),
+    ("istanbul_biennial", "18th (2025-2027), first leg", "https://www.e-flux.com/announcements/6784139/18th-istanbul-biennialthe-three-legged-cat",
+     "bold", "Participating artists in the first leg", "list of participants in the public program"),
+    ("kochi_muziris_biennale", "6th (2025)", "https://www.e-flux.com/announcements/6784510/participating-artists",
+     "sep", "Participating artists of the Sixth Edition of Kochi-Muziris Biennale", "</p>"),
+    ("gwangju_biennale", "16th (2026)", "https://www.e-flux.com/announcements/6787431/16th-gwangju-biennaleyou-must-change-your-life",
+     "sep", "Participating artists", "</p>"),
 ]
 
 
 def eflux_body(h):
     i = h.find('class="article__body"')
-    j = h.find('class="article__footer', i)
-    return h[i:j if j > 0 else i + 200000] if i >= 0 else ""
+    if i < 0:
+        return ""
+    ends = [k for k in (h.find('class="announcement__logo', i), h.find('class="article__bottom-buttons', i)) if k > 0]
+    return h[i:min(ends) if ends else i + 200000]
 
 
-def eflux_names(body, start, end):
-    """Heuristic list extraction from an e-flux announcement body (HTML)."""
-    if start and start in body:
-        body = body[body.index(start) + len(start):]
+def split_outside_parens(text, seps=",;"):
+    out, depth, buf = [], 0, ""
+    for ch in text:
+        depth += ch == "("
+        depth -= ch == ")" and depth > 0
+        if ch in seps and depth == 0:
+            out.append(buf)
+            buf = ""
+        else:
+            buf += ch
+    return out + [buf]
+
+
+def eflux_names(body, mode, start, end):
+    if start:
+        k = body.find(start)
+        body = body[k + len(start):] if k >= 0 else ""
     if end and end in body:
         body = body[:body.index(end)]
-    best = []
-    for block in re.split(r"(?i)</p>|<p[^>]*>", body):
-        text = strip_html(block)
-        if "," in text and text.count(",") >= 8 and text.count(".") < text.count(",") / 2:
-            items = re.split(r"[,;]\s*|\n", text)
-        elif ";" in text and text.count(";") >= 8:
-            items = re.split(r";\s*|\n", text)
-        else:
-            items = [x for x in text.split("\n")]
-        items = [clean(x) for x in items]
-        items = [x for x in items if 1 < len(x) <= 70 and len(x.split()) <= 8 and x[0].isupper() or x[:1].isdigit()]
-        if len(items) > len(best) and len(items) >= 8:
-            best = items
-    return best
+    if mode == "bold":
+        runs = [strip_html(r) for r in re.findall(r"(?s)<(?:strong|b)>(.*?)</(?:strong|b)>", body)]
+        items = [x for r in runs if not re.search(r"(?i)curated by|:", r) for x in split_outside_parens(r)]
+    else:
+        body = re.sub(r"(?s)<strong>.*?</strong>", "\n", body)
+        items = [x for line in strip_html(body).split("\n") for x in split_outside_parens(line)]
+    out = []
+    for x in items:
+        x = clean(re.sub(r"^\s*and\s+", "", clean(x))).rstrip(".")
+        if 1 < len(x) <= 90 and not x.startswith("<") and len(x.split()) <= 12 and not re.search(r"(?i)\b(born|lives|the biennial)\b", x):
+            out.append(x)
+    return out
 
 
 def eflux():
     rows = []
-    for lst, ed, url, start, end in EFLUX:
+    for lst, ed, url, mode, start, end in EFLUX:
         try:
             body = eflux_body(fetch(url))
         except (urllib.error.HTTPError, Blocked) as e:
             print(f"  e-flux {lst} {ed}: {e}", file=sys.stderr)
             continue
-        for n in eflux_names(body, start, end):
-            m = re.match(r"(.+?)\s*\((?:b\.\s*)?(\d{4})", n)
-            rows.append(row(lst, ed, m.group(1) if m else n, birth=m.group(2) if m else "",
-                            role="participant", src=url))
+        for n in eflux_names(body, mode, start, end):
+            rows.append(row(lst, ed, n, role="participant", src=url))
     return dedupe(rows)
 
 

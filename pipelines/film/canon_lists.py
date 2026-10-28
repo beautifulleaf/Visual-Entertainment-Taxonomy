@@ -27,7 +27,10 @@ accent-, case-, punctuation- and leading-article-insensitive) and year +-1,
 preferring titleType movie, then the most IMDb votes. Alternative titles a
 source gives (original title, title before a colon) are tried next, then
 IMDb's alternative titles (title.akas, English-language regions plus original
-titles; downloaded on first run, ~500 MB), then a +-2 year window.
+titles), then a +-2 year window. When the source names a director, IMDb's
+director credits (title.crew + name.basics) must confirm the match, except for
+a plain title hit, which is kept but flagged "_dir_unconfirmed". The akas, crew
+and names files are downloaded from datasets.imdbws.com on first run (~900 MB).
 
 Output: data/interim/film_canon.csv, one row per (list, film):
   list, rank_or_award, title, year, director, tconst, match_method
@@ -445,9 +448,11 @@ SOURCES = {
 # ---------------------------------------------------------------- matching
 
 ART_RE = re.compile(r"^(the|a|an|le|la|les|l|il|lo|gli|der|die|das|el|los|las|un|une|os|het|een) ")
+COARSE = {"movie": 0, "tvMovie": 0, "video": 0, "tvSpecial": 0, "short": 1}  # others: 2
+NAME_STOP = {"and", "the", "von", "van", "der", "den", "del", "della", "les", "jr"}
 
 
-def norm(title):
+def norm(title, strip_article=True):
     s = unicodedata.normalize("NFKD", title)
     s = "".join(ch for ch in s if not unicodedata.combining(ch)).lower()
     s = s.replace("&", " and ").replace("½", " 1/2")
@@ -455,72 +460,101 @@ def norm(title):
     s = re.sub(r"our(s?)\b", r"or\1", s)  # British/American spelling: colour, neighbour, honour
     s = re.sub(r"\bblvd\b", "boulevard", s)
     s = re.sub(r"\s+", " ", s).strip()
+    if strip_article:
+        s = ART_RE.sub("", s)
     # drop spaces last, so "Blowup" = "Blow-Up" and "Harlan County, USA" = "Harlan County U.S.A."
-    return ART_RE.sub("", s).replace(" ", "")
+    return s.replace(" ", "")
+
+
+def name_tokens(name):
+    s = unicodedata.normalize("NFKD", name)
+    s = "".join(ch for ch in s if not unicodedata.combining(ch)).lower()
+    return {t for t in re.split(r"[^a-z]+", s) if len(t) >= 3 and t not in NAME_STOP}
+
+
+def read_tsv(name):
+    path = os.path.join(IMDB_DIR, name)
+    if not os.path.exists(path):
+        print(f"downloading {name}")
+        urllib.request.urlretrieve("https://datasets.imdbws.com/" + name, path)
+    with gzip.open(path, "rt", encoding="utf-8") as f:
+        next(f)
+        for line in f:
+            yield line.rstrip("\n").split("\t")
 
 
 class Imdb:
+    """Title index over IMDb's datasets: basics + ratings (from build_candidates.py),
+    plus akas, crew and name.basics (downloaded here on first use, ~900 MB)."""
+
     def __init__(self):
         self.index, self.info = {}, {}
-        with gzip.open(os.path.join(IMDB_DIR, "title.basics.tsv.gz"), "rt", encoding="utf-8") as f:
-            next(f)
-            for line in f:
-                p = line.rstrip("\n").split("\t")
-                if p[1] not in TYPE_RANK or p[5] == "\\N" or p[4] == "1":  # p[4] = isAdult
-                    continue
-                self.info[p[0]] = (p[1], int(p[5]), p[2])
-                for t in {norm(p[2]), norm(p[3])}:
-                    self.index.setdefault(t, []).append(p[0])
-        self.votes = {}
-        with gzip.open(os.path.join(IMDB_DIR, "title.ratings.tsv.gz"), "rt", encoding="utf-8") as f:
-            next(f)
-            for line in f:
-                tc, _, n = line.rstrip("\n").split("\t")
-                if tc in self.info:
-                    self.votes[tc] = int(n)
-        # Alternative titles (English-language markets, worldwide, original).
-        # Used only when the primary/original title fails.
+        for p in read_tsv("title.basics.tsv.gz"):
+            if p[1] not in TYPE_RANK or p[5] == "\\N" or p[4] == "1":  # p[4] = isAdult
+                continue
+            self.info[p[0]] = (p[1], int(p[5]), {norm(p[2], False), norm(p[3], False)})
+            for t in {norm(p[2]), norm(p[3])}:
+                self.index.setdefault(t, []).append(p[0])
+        self.votes = {p[0]: int(p[2]) for p in read_tsv("title.ratings.tsv.gz") if p[0] in self.info}
+        # Alternative titles (English-language markets, worldwide, original), only
+        # consulted when the primary/original title fails. Rated titles only.
         self.akas = {}
-        akas_path = os.path.join(IMDB_DIR, "title.akas.tsv.gz")
-        if not os.path.exists(akas_path):
-            print("downloading title.akas.tsv.gz (~500 MB)")
-            urllib.request.urlretrieve("https://datasets.imdbws.com/title.akas.tsv.gz", akas_path)
-        with gzip.open(akas_path, "rt", encoding="utf-8") as f:
-            next(f)
-            for line in f:
-                p = line.rstrip("\n").split("\t")  # titleId ordering title region language types attributes isOriginalTitle
-                if p[0] in self.votes and (p[3] in AKA_REGIONS or p[7] == "1"):
-                    self.akas.setdefault(norm(p[2]), set()).add(p[0])
+        for p in read_tsv("title.akas.tsv.gz"):  # titleId ordering title region language types attributes isOriginal
+            if p[0] in self.votes and (p[3] in AKA_REGIONS or p[7] == "1"):
+                self.akas.setdefault(norm(p[2]), set()).add(p[0])
+        # Directors, to confirm a match when the source names one.
+        crew = {p[0]: p[1].split(",") for p in read_tsv("title.crew.tsv.gz") if p[0] in self.info and p[1] != "\\N"}
+        needed = {n for ns in crew.values() for n in ns}
+        names = {p[0]: name_tokens(p[1]) for p in read_tsv("name.basics.tsv.gz") if p[0] in needed}
+        self.directors = {tc: set().union(*(names.get(n, set()) for n in ns)) for tc, ns in crew.items()}
 
-    def lookup(self, title, year, window, index):
-        best = None
+    def candidates(self, title, year, window, index):
+        """Hits within the year window, best first: feature-like type, exact title
+        including any leading article, closest year, most votes."""
+        full = norm(title, False)
+        hits = []
         for tc in index.get(norm(title), ()):
-            ttype, y, _ = self.info[tc]
+            ttype, y, fulls = self.info[tc]
             if year is not None and abs(y - year) > window:
                 continue
-            key = (TYPE_RANK[ttype], -self.votes.get(tc, 0))
-            if best is None or key < best[0]:
-                best = (key, tc, y)
-        return best
+            key = (COARSE.get(ttype, 2), full not in fulls, TYPE_RANK[ttype],
+                   abs(y - year) if year else 0, -self.votes.get(tc, 0))
+            hits.append((key, tc, y))
+        return sorted(hits)
 
     def match(self, e):
-        """Return (tconst, method) or ("", "unmatched")."""
+        """Return (tconst, method) or ("", "unmatched").
+
+        Stages, in order: source title(s) on IMDb primary/original titles, then on
+        akas, then the title cut at a colon/dash/bracket; each with year +-1, then
+        all again with +-2. When the source names a director, the first stage with
+        a director-confirmed hit wins ("_dir"); if no stage has one, only a plain
+        title hit is accepted ("_dir_unconfirmed")."""
         titles = [e["title"]] + e["alts"]
         extra = []
         for t in titles:
             for sep in (": ", " - ", " – ", " (", " / ", " aka "):
                 if sep in t:
                     extra.append(t.split(sep)[0])
+        src_dir = name_tokens(e["director"]) if e["director"] else set()
+        fallback = None
         for window in (1, 2):
             for group, kind in ((titles, "title"), (extra, "short_title")):
                 for index, src in ((self.index, ""), (self.akas, "aka_")):
                     for i, t in enumerate(group):
-                        hit = self.lookup(t, e["year"], window, index)
-                        if hit:
-                            k = "alt_title" if kind == "title" and i > 0 else kind
-                            yr = "year" if hit[2] == e["year"] else f"year+-{window}"
-                            return hit[1], f"imdb_{src}{k}_{yr}"
-        return "", "unmatched"
+                        hits = self.candidates(t, e["year"], window, index)
+                        if not hits:
+                            continue
+                        k = "alt_title" if kind == "title" and i > 0 else kind
+                        method = lambda h: f"imdb_{src}{k}_" + ("year" if h[2] == e["year"] else f"year+-{window}")
+                        if not src_dir:
+                            return hits[0][1], method(hits[0])
+                        confirmed = [h for h in hits if src_dir & self.directors.get(h[1], set())]
+                        if confirmed:
+                            return confirmed[0][1], method(confirmed[0]) + "_dir"
+                        if fallback is None and kind == "title" and not src:
+                            fallback = (hits[0][1], method(hits[0]) + "_dir_unconfirmed")
+        return fallback or ("", "unmatched")
 
 
 # ---------------------------------------------------------------- main
@@ -575,6 +609,15 @@ def main():
         print(f"  in film_ratings.csv with < 10k Letterboxd votes: {sum(1 for t in added if lb.get(t) is not None)}")
         print(f"  in film_ratings.csv with no Letterboxd figure:   {sum(1 for t in added if t in lb and lb[t] is None)}")
         print(f"  not in film_ratings.csv (not a candidate):       {sum(1 for t in added if t not in lb)}")
+
+    print("\nsame tconst for different titles within one list (check by hand):")
+    seen = {}
+    for e in entries:
+        if e["tconst"]:
+            seen.setdefault((e["list"], e["tconst"]), set()).add(e["title"])
+    for (l, tc), ts in seen.items():
+        if len(ts) > 1:
+            print(f"  [{l}] {tc}: {' | '.join(sorted(ts))}")
 
     print("\nunmatched:")
     for e in entries:
