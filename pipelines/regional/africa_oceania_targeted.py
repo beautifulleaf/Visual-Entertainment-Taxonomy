@@ -33,7 +33,8 @@ and an interrupted harvest resumes where it stopped):
             documented guest key); metadata CC BY 4.0. Collections Pacific
             Cultures and Taonga Maori, objects only. `influencedBy` carries the
             culture / iwi and the Maori art periods (Te Puawaitanga, Te Huringa).
-  auckland  Auckland War Memorial Museum (Tamaki Paenga Hira) Linked Open Data
+  auckland  NOT IN THE DEFAULT RUN (unreachable 2026-10-28, see below).
+            Auckland War Memorial Museum (Tamaki Paenga Hira) Linked Open Data
             SPARQL endpoint (api.aucklandmuseum.com/sparql; API v2 dropped its
             key). The Elasticsearch search route sits behind a bot challenge;
             SPARQL is used instead, a few seconds apart, with long back-off when
@@ -47,7 +48,10 @@ and an interrupted harvest resumes where it stopped):
             collections, and Yale Peabody Museum Anthropology records matching
             Africa / Oceania terms. Each record is fetched individually (~3 req/s).
 
-Checked and skipped (reported in the run summary): Brooklyn Museum (API key;
+Checked and skipped (reported in the run summary): Auckland Museum (SPARQL
+answered with Cloudflare bot challenges; per project rule a challenge means
+stop, so it is excluded from the default run and the harvester stops at the
+first challenge), Brooklyn Museum (API key;
 the site answers with a Vercel security checkpoint), Musee du quai Branly
 (no open-data API or bulk download; HTML catalogue only), National Gallery of
 Australia (searchthecollection.nga.gov.au answers 403), Art Gallery of NSW
@@ -84,7 +88,7 @@ region = americas_oceania, subregion = Oceania, as in the earlier sweep):
   africa_oceania_targeted_dropped.csv     records dropped, per source and reason
 
 Usage: python3 pipelines/regional/africa_oceania_targeted.py
-           [--only mia,penn,tepapa,auckland,yale] [--skip ...] [--fetch-only]
+           [--only mia,penn,tepapa,yale (auckland only on explicit request)] [--skip ...] [--fetch-only]
            [--delay 0.34] [--yale-max N]
 Run one --only --fetch-only process per source for parallel harvesting, then a
 plain run (all from cache) to build the tables.
@@ -122,6 +126,10 @@ SOURCE_INST = {"mia": "Minneapolis Institute of Art", "penn": "Penn Museum",
                "tepapa": "Museum of New Zealand Te Papa Tongarewa",
                "auckland": "Auckland War Memorial Museum", "yale": "Yale University (LUX)"}
 SKIPPED_SOURCES = [
+    ("auckland", "Auckland War Memorial Museum",
+     "SPARQL endpoint behind a Cloudflare firewall: ordinary queries (ORDER BY, UNION, some PREFIX lines, and then "
+     "any query after a few) answered with a bot challenge (403); stopped per project rule, not in the default run "
+     "(--only auckland to retry another day; the harvester stops at the first challenge)"),
     ("brooklyn", "Brooklyn Museum", "API needs a key; site answers with a Vercel security checkpoint (429)"),
     ("quai_branly", "Musee du quai Branly", "no open-data API or bulk download; HTML catalogue only"),
     ("nga", "National Gallery of Australia", "searchthecollection.nga.gov.au answers 403; no open data"),
@@ -139,12 +147,13 @@ NET = collections.Counter()
 
 
 class Challenge(Exception):
-    pass
+    """A bot-challenge page: the host does not want this client. Project rule: stop, do not retry."""
 
 
 def http(url, data=None, headers=None, timeout=180, attempts=6, accept="application/json"):
     """GET (or POST data) -> text, or None for a permanent failure. Retries
-    network errors, 429/5xx and bot-challenge pages with growing back-off."""
+    network errors and 429/5xx with growing back-off; a bot-challenge page raises
+    Challenge, and the caller stops that source (it is reported as unreachable)."""
     for attempt in range(attempts):
         with _lock:   # requests start at most every DELAY seconds, also across worker threads
             wait = DELAY[0] - (time.time() - _last[0])
@@ -163,22 +172,18 @@ def http(url, data=None, headers=None, timeout=180, attempts=6, accept="applicat
             return text
         except Challenge:
             NET["challenge"] += 1
-            pause = 120 * (attempt + 1)
-            print(f"  bot challenge on {url[:90]} - pausing {pause}s", file=sys.stderr)
-            time.sleep(pause)
-            continue
+            print(f"  bot challenge on {url[:90]} - stopping this source", file=sys.stderr)
+            raise
         except urllib.error.HTTPError as e:
             body = ""
             try:
                 body = e.read(3000).decode("utf-8", "replace")
             except Exception:
                 pass
-            if "Testing connection" in body:
+            if "Testing connection" in body or "challenge" in body[:3000].lower():
                 NET["challenge"] += 1
-                pause = 120 * (attempt + 1)
-                print(f"  bot challenge ({e.code}) on {url[:90]} - pausing {pause}s", file=sys.stderr)
-                time.sleep(pause)
-                continue
+                print(f"  bot challenge ({e.code}) on {url[:90]} - stopping this source", file=sys.stderr)
+                raise Challenge()
             if e.code == 401:
                 raise
             if e.code in (400, 403, 404, 410, 422):
@@ -911,6 +916,7 @@ def harvest_yale(max_items):
 # ------------------------------------------------------------------ rows
 
 DROPPED = collections.Counter()
+UNREACHABLE = []
 SETTLER_OCEANIA = {"australia", "new zealand", "aotearoa", "hawaii", "hawaiian islands", "western australia",
                    "queensland", "northern territory"}
 
@@ -1235,6 +1241,8 @@ def build(recs):
                             "; ".join(sorted(c for c in cults - b["cultures"] if not c.startswith("Unspecified"))[:60])])
         print(f"{region}: {len(rr)} objects, {len({r['culture'] for r in rr})} cultures, "
               f"attributed {sum(r['attributed'] for r in rr)}", file=sys.stderr)
+    for s in UNREACHABLE:
+        summary.append(["", s, "", "", "", "", "", "", "", "", "", "", "", "stopped: bot challenge during this run"])
     for key, inst, why in SKIPPED_SOURCES:
         summary.append(["", key, "", "", "", "", "", "", "", "", "", "", "", f"skipped: {inst}: {why}"])
     write_csv(os.path.join(OUT_DIR, f"{PREFIX}_sources.csv"),
@@ -1256,7 +1264,7 @@ def main():
     ap.add_argument("--yale-max", type=int, default=0, help="cap on Yale LUX item fetches (0 = no cap)")
     args = ap.parse_args()
     DELAY[0] = args.delay
-    only = set(filter(None, args.only.split(","))) or set(SOURCES)
+    only = set(filter(None, args.only.split(","))) or (set(SOURCES) - {"auckland"})
     only -= set(filter(None, args.skip.split(",")))
     harvesters = {"mia": harvest_mia, "penn": harvest_penn, "tepapa": harvest_tepapa,
                   "auckland": harvest_auckland, "yale": lambda: harvest_yale(args.yale_max)}
@@ -1264,7 +1272,11 @@ def main():
     for s in SOURCES:
         if s in only:
             print(f"[{s}]", file=sys.stderr)
-            recs += harvesters[s]()
+            try:
+                recs += harvesters[s]()
+            except Challenge:
+                UNREACHABLE.append(s)
+                print(f"  {s}: bot challenge - source stopped, reported as unreachable", file=sys.stderr)
     print(f"network: {dict(NET)}", file=sys.stderr)
     if args.fetch_only:
         return
