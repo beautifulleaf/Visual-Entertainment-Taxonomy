@@ -373,10 +373,26 @@ def fetch_movements(qids, endpoint):
                 rec[r["k"]].append(r["v"])
         return out
 
+    def groups(chunk):
+        # P463 (member of) is mostly academies and unions; only movement-class items count.
+        out = {q: [] for q in chunk}
+        values = " ".join("wd:" + q for q in chunk)
+        types = " ".join("wd:" + t for t in MOVEMENT_TYPES)
+        for r in wikidata.sparql(f"""SELECT DISTINCT ?a ?m WHERE {{ VALUES ?a {{ {values} }} ?a wdt:P463 ?m .
+              VALUES ?t {{ {types} }} ?m wdt:P31/wdt:P279? ?t }}""", endpoint=endpoint):
+            out[r["a"]].append(r["m"])
+        return out
+
     os.makedirs(RAW, exist_ok=True)
-    p135 = chunked_cache("movements_P135.json", [q for q in qids if q], members)
-    movs = sorted({m for q in qids if q for m in p135.get(q, [])})
-    return p135, chunked_cache("movements_meta.json", movs, meta)
+    qids = [q for q in qids if q]
+    p135 = chunked_cache("movements_P135.json", qids, members)
+    p463 = chunked_cache("movements_P463.json", qids, groups)
+    memberships = {q: {m: "P135" for m in p135.get(q, [])} for q in qids}
+    for q in qids:
+        for m in p463.get(q, []):
+            memberships[q].setdefault(m, "P463")
+    movs = sorted({m for q in qids for m in memberships[q]})
+    return memberships, chunked_cache("movements_meta.json", movs, meta)
 
 
 def movement_guarantee(df, args):
@@ -385,10 +401,11 @@ def movement_guarantee(df, args):
     birth = pd.to_numeric(df.birth.str[:4], errors="coerce")
     share = pd.to_numeric(df.art_occ_share, errors="coerce")
     holdings = sum(has(df, c).astype(int) for c in INDEPENDENT_IDS)
-    members = collections.defaultdict(list)
+    members, via = collections.defaultdict(list), collections.defaultdict(set)
     for i, q in zip(df.index, df.qid):
-        for m in p135.get(q, []):
+        for m, prop in p135.get(q, {}).items():
             members[m].append(i)
+            via[m].add(prop)
     rows, guaranteed = [], collections.defaultdict(list)
     for m, idx in members.items():
         md = meta.get(m, {})
