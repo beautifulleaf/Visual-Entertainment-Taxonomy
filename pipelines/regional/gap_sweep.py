@@ -1589,6 +1589,8 @@ def main():
     ap.add_argument("--endpoint", choices=sorted(ENDPOINTS), default="wdqs")
     ap.add_argument("--sources", default=",".join(READERS))
     ap.add_argument("--delay", type=float, default=1.0, help="seconds between V&A requests (Cleveland: half)")
+    ap.add_argument("--reuse-objects", action="store_true",
+                    help="skip stages 1-2 and reuse the last run's matched objects (only valid if the node lexicon is unchanged)")
     args = ap.parse_args()
     ENDPOINT[0] = args.endpoint
     os.makedirs(RAW, exist_ok=True)
@@ -1612,7 +1614,7 @@ def main():
             objs[key] = dict(r, node=k, basis=basis, group=group, named=nm)
 
     # 1. caches
-    for name in [s for s in args.sources.split(",") if s in READERS]:
+    for name in [s for s in args.sources.split(",") if s in READERS and not args.reuse_objects]:
         t0 = time.time()
         n0 = len(objs)
         try:
@@ -1625,7 +1627,7 @@ def main():
             f"{len(objs) - n0} object-node rows ({time.time() - t0:.0f}s)")
 
     # 2. APIs
-    if not args.skip_api:
+    if not args.skip_api and not args.reuse_objects:
         log("V&A API ...")
         for r in harvest_vam_api(args.delay):
             take(r, "vam_api")
@@ -1634,6 +1636,21 @@ def main():
         for r in harvest_cma_api(max(0.34, args.delay / 2)):
             take(r, "cma_api")
         log(f"cma_api: {src_stats['cma_api']['read']} read, {src_stats['cma_api']['matched']} matched")
+
+    stage = os.path.join(RAW, "stage_objects.json.gz")
+    if args.reuse_objects:
+        with gzip.open(stage, "rt", encoding="utf-8") as f:
+            st = json.load(f)
+        objs = {tuple(k.split("\t")): v for k, v in st["objs"].items()}
+        src_stats.update({k: collections.Counter(v) for k, v in st["src_stats"].items()})
+        API_HITS.update(st["api_hits"])
+        API_STATUS.update(st["api_status"])
+        log(f"reused {len(objs)} object-node rows from {stage}")
+    else:
+        with gzip.open(stage + ".part", "wt", encoding="utf-8") as f:
+            json.dump({"objs": {"\t".join(k): v for k, v in objs.items()}, "src_stats": src_stats,
+                       "api_hits": API_HITS, "api_status": API_STATUS}, f, ensure_ascii=False)
+        os.replace(stage + ".part", stage)
 
     # 3. Wikidata
     qids, wd_works, wd_artists, disc, ich = {}, [], [], {}, []
@@ -1660,14 +1677,16 @@ AU_GROUP_RX = re.compile(r"(?i)aborig|torres|indigenous austral|australian indig
                          r"palawa|meriam|kaurareg|kalaw|wik\b|lardil|kaiadilt|anindilyakwa|burarra|gurindji|warumungu|"
                          r"people of (the )?(northern territory|western australia|queensland|south australia|new south wales|"
                          r"victoria|central australia|arnhem)")
-CENTRE_RX = re.compile(r"(?i)aborig|indigenous|torres|first nations|tjala|tula|mulka|arts? (and|&) (culture|crafts?)|"
-                       r"art centre|artists|weavers|potters|corporation")
+CENTRE_RX = re.compile(r"(?i)aborig|indigenous|torres|first nations|thursday island|^australian art centre$")
 NOT_CENTRE_RX = re.compile(r"(?i)department|register|melbourne|sydney|performing|theatre|concert|council|university|"
-                           r"gallery of|museum")
+                           r"gallery|museum")
 FOLK_RX = re.compile(r"(?i)folk|minhwa|chaekgeori|munjado|ethnic|minority|nianhua|new year|paper|embroider|textile|craft|"
                      r"puppet|lacquer|tie-dye|batik|wayang|village|clay figure|votive|shadow")
 CJK_CRAFT_RX = re.compile(r"年画|剪纸|刺绣|绣|染|织|锦|漆|陶|瓷|雕|绘|画|皮影|木偶|唐卡|版画|银饰|蜡染|扎染|面具|纸|編|織|塗|焼|"
                           r"人形|絵|칠|자수|민화|탈|매듭|공예|tranh|sơn|đúc|chạm|khắc|thêu|dệt|gốm")
+NOT_CRAFT_RX = re.compile(r"(?i)kimchi|makgeolli|tteok|jang damgeugi|\bjeyeom|food|cuisine|liquor|\bwine|\btea\b|"
+                          r"sauce|\bsoy|salt|bridge|building|training|education|strategy|safeguarding|compass|luopan")
+NOT_FOLK_RX = re.compile(r"(?i)ukiyo|kan[oō] school|kajikawa|dynastic style|superflat|mono-ha|shunga|calligraphy")
 PERF_RX = re.compile(r"(?i)opera|dance|music|song|singing|festival|cuisine|food|medicine|drama|theatre|theater|ritual|"
                      r"martial|game|tea|calendar|storytelling|epic|knowledge")
 COLONIAL_RX = re.compile(r"(?i)talavera|retablo|lacquer|barniz|maque|silver|santo|ex-?voto|imagin|carv|paint|pottery|"
@@ -1857,10 +1876,19 @@ def build(objs, src_stats, qids, wd_works, wd_artists, disc, args):
                           if t in API_HITS),
                 st, km, note]
 
+    au_works_by_node = collections.defaultdict(dict)
+    for k, arts in au_by_node.items():
+        for aq, a in arts.items():
+            for r in works_by_artist.get(aq, []):
+                x = au_works_by_node[k].setdefault(r["w"], {"wl": r.get("wl", ""), "_colls": set(), "_cr": {a["label"]},
+                                                            "inc": r.get("inc", ""), "sl": r.get("sl")})
+                if r.get("coll"):
+                    x["_colls"].add(r.get("colll") or r["coll"])
     rows = []
     for n in NODES:
         rows.append(node_row(n, by_node.get(n["key"], []), qids.get(n["key"]), wd_ev.get(n["key"]),
-                             extra_works=latam_by_node.get(n["key"]), extra_artists=au_by_node.get(n["key"])))
+                             extra_works=latam_by_node.get(n["key"]) or au_works_by_node.get(n["key"]),
+                             extra_artists=au_by_node.get(n["key"])))
     seed_q = {q for q, *_ in qids.values()}
 
     def cand(area, key, label, region, medium, q, sl, desc, note, kind):
@@ -1874,9 +1902,11 @@ def build(objs, src_stats, qids, wd_works, wd_artists, disc, args):
     for r in disc.get("au_centres") or []:
         txt = r.get("xl", "") + " " + r.get("xd", "")
         centre_rows.setdefault(r["x"], {"label": r.get("xl", r["x"]), "desc": r.get("xd", ""), "sl": r.get("sl"),
-                                        "members": set(), "indig": bool(CENTRE_RX.search(txt))})
+                                        "members": set(), "indig": bool(CENTRE_RX.search(r.get("xd", "")))})
     for oq, c in centres.items():
-        x = centre_rows.setdefault(oq, {"label": c["label"], "desc": "", "sl": "", "members": set(), "indig": True})
+        x = centre_rows.setdefault(oq, {"label": c["label"], "desc": "", "sl": "", "members": set(),
+                                        "indig": bool(re.search(r"(?i)art|artist|centre|center|tula|mulka|weaver|"
+                                                                r"co-?operative", c["label"]))})
         x["members"] |= c["members"]
     for oq, c in sorted(centre_rows.items(), key=lambda x: (-len(x[1]["members"]), x[1]["label"])):
         if oq in seed_q or not c["indig"] or NOT_CENTRE_RX.search(c["label"] + " " + c["desc"]):
@@ -1906,7 +1936,7 @@ def build(objs, src_stats, qids, wd_works, wd_artists, disc, args):
         if r["x"] in seed_q or r["x"] in seen:
             continue
         txt = r.get("xl", "") + " " + r.get("xd", "")
-        if not FOLK_RX.search(txt):
+        if not FOLK_RX.search(txt) or NOT_FOLK_RX.search(txt):
             continue
         seen.add(r["x"])
         area = areamap.get(qc.get(r["c"], ""), "")
@@ -1931,7 +1961,7 @@ def build(objs, src_stats, qids, wd_works, wd_artists, disc, args):
         native = " ".join(sorted(x["native"]))
         craft = (CRAFT_RX.search(txt) or CJK_CRAFT_RX.search(native)) and not (
             PERF_RX.search(txt) and not re.search(r"(?i)puppet|shadow|mask|paint|print|embroider|weav|carv|lacquer", txt))
-        if not craft or (area == "colonial_latam" and not COLONIAL_RX.search(txt + " " + native)):
+        if not craft or NOT_CRAFT_RX.search(txt) or (area == "colonial_latam" and not COLONIAL_RX.search(txt + " " + native)):
             continue
         n_ich[area] += 1
         label = x["en"] or (sorted(x["native"])[0] if x["native"] else q)

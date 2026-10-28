@@ -13,8 +13,10 @@ calibrated on its own reference, built from data by build_modern_reference.py
   pooled in two regions is a positive in both). Training rows: the painting cells
   plus every reference artist, as in depth_model.fit.
 - One NonNegativeLogit over all nine regions. Candidate cutoffs at 90 / 85 / 80%
-  out-of-fold reference recall (5-fold); the cutoff is chosen on review of the
-  marginal artists each one adds, so it is not finalised here.
+  out-of-fold reference recall (5-fold), reviewed on the marginal artists each adds.
+  Decided 2026-10-28: 80%, plus a Europe-only selection guard (regions.py); a refit
+  keeps that decision and recomputes the 80% cutoff. Selection is written by
+  `depth_model.py apply --model modern_1860-1960` per region.
 - Selection is depth_model.select (every reference artist, plus pool-rule artists at
   or above the cutoff after the art_occ_share factor, architecture excluded).
 
@@ -225,6 +227,16 @@ def main():
     print(f"\nwrote {out}")
 
     os.makedirs(dm.MODELS, exist_ok=True)
+    path = os.path.join(dm.MODELS, f"{NAME}.json")
+    decided = {}
+    if os.path.exists(path):
+        prev = json.load(open(path, encoding="utf-8"))
+        if str(prev.get("cutoff_status", "")).startswith("decided"):
+            # Keep the decided recall level (now 80%) and its guard; the cutoff value
+            # follows the refit at that recall.
+            rc = prev["recall_target"]
+            decided = {"cutoff": round(float(np.quantile(oof[y == 1], 1 - rc)), 6), "recall_target": rc,
+                       "cutoff_status": prev["cutoff_status"], "selection_guard": prev.get("selection_guard")}
     json.dump({
         "fitted_on": ALL, "features": dm.FEATURES, "feature_transform": "within-cell mid-rank percentile (per region)",
         "coef": [round(float(c), 6) for c in model.coef_[0]], "intercept": round(float(model.intercept_[0]), 6),
@@ -232,7 +244,8 @@ def main():
         "candidate_cutoffs": {f"{rc:.2f}": round(c, 6) for rc, c in cutoffs.items()},
         "selected_at_candidates": {f"{rc:.2f}": totals[rc] for rc in RECALLS},
         "reference": REGIONS[ALL[0]]["reference_qids"], "n_artists": len(rows), "n_reference": int(y.sum()),
-    }, open(os.path.join(dm.MODELS, f"{NAME}.json"), "w"), indent=1)
+        **decided,
+    }, open(path, "w"), indent=1)
     print(f"wrote {os.path.join(dm.MODELS, NAME + '.json')}")
 
     print("\nspot checks: best score over the artist's regions, selected at 90 / 85 / 80% recall?")

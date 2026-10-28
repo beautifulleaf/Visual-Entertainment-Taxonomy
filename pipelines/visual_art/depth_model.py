@@ -167,14 +167,28 @@ def percentile_matrix(rows):
     return X
 
 
-def select(rows, scores, cutoff, cfg):
+def select(rows, scores, cutoff, cfg, guard=True):
     """Decided rule (2026-10-28): every reference artist, plus pool-rule artists at or
     above the cutoff, except media the region excludes from model selection
-    (architecture enters through its styles and buildings, not through this model)."""
+    (architecture enters through its styles and buildings, not through this model).
+    A region's optional "selection_guard" then drops non-reference picks with no
+    holdings and little attention (guard=False gives the selection before it)."""
     excluded = set(cfg.get("model_excluded_media", []))
     return np.array([bool(r["is_reference"]) or (bool(r["in_pool_rule"]) and s * art_factor(r) >= cutoff
-                                                  and r["medium"] not in excluded)
+                                                  and r["medium"] not in excluded
+                                                  and not (guard and guarded(r, cfg)))
                      for r, s in zip(rows, scores)], dtype=bool)
+
+
+def guarded(row, cfg):
+    """True if the region's selection_guard drops this (non-reference) artist:
+    held by fewer than min_museums of the region's collections AND fewer than
+    max_pageviews monthly page views (decided 2026-10-28 for modern Europe, where
+    the long tail of the Wikipedia-dense pool otherwise fills the margin)."""
+    g = cfg.get("selection_guard")
+    if not g or row.get("is_reference"):
+        return False
+    return row["n_museums"] < g.get("min_museums", 0) and row["pageviews"] < g.get("max_pageviews", 0)
 
 
 def art_factor(row, full_share=0.5):
@@ -186,13 +200,15 @@ def art_factor(row, full_share=0.5):
 
 def write_scores(region, rows, scores, cutoff):
     sel = select(rows, scores, cutoff, REGIONS[region])
+    unguarded = select(rows, scores, cutoff, REGIONS[region], guard=False)
     out = os.path.join(DATA, f"scores_{region}.csv")
-    cols = ["qid", "label", "birth", "medium", "cell", "in_pool_rule", "is_reference", "art_occ_share", "score", "selected"] + FEATURES
+    cols = ["qid", "label", "birth", "medium", "cell", "in_pool_rule", "is_reference", "art_occ_share", "score", "selected",
+            "dropped_by_guard"] + FEATURES
     with open(out, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
         w.writeheader()
-        for r, s, chosen in sorted(zip(rows, scores, sel), key=lambda t: -t[1]):
-            w.writerow({**r, "score": round(float(s), 5), "selected": int(chosen)})
+        for r, s, chosen, pre in sorted(zip(rows, scores, sel, unguarded), key=lambda t: -t[1]):
+            w.writerow({**r, "score": round(float(s), 5), "selected": int(chosen), "dropped_by_guard": int(pre and not chosen)})
     return out
 
 
@@ -283,7 +299,10 @@ def apply(region, model_name):
     scores = 1 / (1 + np.exp(-(X @ np.array(m["coef"]) + m["intercept"])))
     in_rule = np.array([r["in_pool_rule"] for r in rows]) == 1
     print(f"{region}: {len(rows)} artists; model {model_name}, cutoff {m['cutoff']}")
-    print(f"selects {int(select(rows, scores, m['cutoff'], REGIONS[region]).sum())} artists")
+    n_pre = int(select(rows, scores, m["cutoff"], REGIONS[region], guard=False).sum())
+    n_sel = int(select(rows, scores, m["cutoff"], REGIONS[region]).sum())
+    print(f"selects {n_sel} artists" + (f" ({n_pre} before the selection guard, {n_pre - n_sel} dropped by it)"
+                                         if n_pre != n_sel else ""))
     report_cells(rows, scores, m["cutoff"], REGIONS[region])
     print(f"wrote {write_scores(region, rows, scores, m['cutoff'])}")
 
