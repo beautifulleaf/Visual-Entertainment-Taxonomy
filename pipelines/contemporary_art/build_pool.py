@@ -49,7 +49,22 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 sys.path.insert(0, os.path.join(ROOT, "pipelines", "visual_art"))
 from regions import (AFRICA, ASIA, AUSTRALIA, EUROPE, INSULAR_OCEANIA, MEDIA,  # noqa: E402
                      NORTH_AMERICA, OCEANIA, SOUTH_AMERICA)
-from wikidata import sparql, year_of  # noqa: E402
+from wikidata import sparql as _sparql, year_of  # noqa: E402
+import time  # noqa: E402
+
+
+def sparql(query, attempts=6):
+    """wikidata.sparql plus retries on errors it does not catch (IncompleteRead,
+    connection resets, truncated JSON, its own RuntimeError after repeated failures)."""
+    for attempt in range(attempts):
+        try:
+            return _sparql(query)
+        except Exception as e:  # noqa: BLE001 - network errors of many kinds
+            if attempt == attempts - 1:
+                raise
+            wait = min(300, 15 * 2 ** attempt)
+            print(f"    SPARQL failed ({type(e).__name__}: {str(e)[:80]}), retrying in {wait}s")
+            time.sleep(wait)
 
 RAW = os.path.join(ROOT, "data", "raw", "wikidata", "contemporary")
 SHARED_CONTINENTS = os.path.join(ROOT, "data", "raw", "wikidata", "pool", "country_continents.json")

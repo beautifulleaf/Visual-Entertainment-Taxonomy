@@ -46,6 +46,7 @@ Usage: python3 pipelines/tv/awards.py [--offline]
 import argparse
 import collections
 import csv
+import http.client
 import json
 import os
 import re
@@ -58,7 +59,8 @@ import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.insert(0, os.path.join(ROOT, "pipelines", "visual_art"))
-from wikidata import sparql, year_of  # noqa: E402
+import hashlib  # noqa: E402
+from wikidata import sparql as _sparql, year_of  # noqa: E402
 
 RAW = os.path.join(ROOT, "data", "raw", "tv_awards")
 ROUTED = os.path.join(ROOT, "data", "interim", "tv_routed.csv")
@@ -132,6 +134,30 @@ YEAR_RE = re.compile(r"(?<!\d)(19[3-9]\d|20[0-3]\d)(?!\d|s)")
 
 # ---------------------------------------------------------------- fetching
 
+def sparql(query):
+    """Cached SPARQL (data/raw/tv_awards/sparql/<sha1>.json) so a rerun resumes; one query at a time."""
+    d = os.path.join(RAW, "sparql")
+    os.makedirs(d, exist_ok=True)
+    path = os.path.join(d, hashlib.sha1(query.encode("utf-8")).hexdigest() + ".json")
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    for attempt in range(5):
+        try:
+            rows = _sparql(query)
+            break
+        except Exception as e:   # IncompleteRead, ConnectionReset, JSON decode, repeated failures
+            if attempt == 4:
+                raise
+            print(f"    SPARQL error {type(e).__name__}: {e}; retrying in {30 * (attempt + 1)}s")
+            time.sleep(30 * (attempt + 1))
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(rows, f, ensure_ascii=False)
+    os.replace(tmp, path)
+    return rows
+
+
 _last_fetch = [0.0]
 
 
@@ -153,7 +179,7 @@ def http_get(url, retries=8):
                 time.sleep(pause)
                 continue
             raise
-        except (urllib.error.URLError, TimeoutError) as e:
+        except (urllib.error.URLError, TimeoutError, OSError, http.client.HTTPException) as e:
             print(f"    {e}, retrying")
             time.sleep(min(120, 5 * 2 ** attempt))
     raise RuntimeError(f"fetch failed repeatedly: {url}")
@@ -171,8 +197,9 @@ def wikitext(lang, title, offline=False):
     url = f"https://{lang}.wikipedia.org/w/index.php?" + urllib.parse.urlencode({"title": title, "action": "raw"})
     body = http_get(url)
     text = body.decode("utf-8") if body else ""
-    with open(path, "w", encoding="utf-8") as f:
+    with open(path + ".tmp", "w", encoding="utf-8") as f:
         f.write(text)
+    os.replace(path + ".tmp", path)
     return text
 
 

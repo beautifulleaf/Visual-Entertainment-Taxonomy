@@ -100,6 +100,9 @@ def _robots_for(scheme, host):
         except urllib.error.HTTPError as e:
             rp.allow_all = e.code in (404, 410)
             rp.disallow_all = not rp.allow_all
+        except (urllib.error.URLError, TimeoutError, OSError) as e:
+            # robots.txt unreachable: do not cache the failure, so a later call can retry
+            raise urllib.error.URLError(f"robots.txt of {host} unreachable: {e}")
         _robots[host] = rp
         _last[host] = time.time()
     return _robots[host]
@@ -115,7 +118,8 @@ def fetch(url, binary=False):
             if not rp.can_fetch(agent, url):
                 raise Blocked(f"robots.txt of {p.netloc} disallows {agent} for {url}")
         delay = max(MIN_DELAY, float(rp.crawl_delay(UA) or 0))
-        for attempt in range(4):
+        attempts = 5
+        for attempt in range(attempts):
             wait = _last.get(p.netloc, 0) + delay - time.time()
             if wait > 0:
                 time.sleep(wait)
@@ -125,8 +129,17 @@ def fetch(url, binary=False):
                     body = r.read()
                 break
             except urllib.error.HTTPError as e:
-                if e.code in (429, 503) and attempt < 3:
-                    time.sleep(int(e.headers.get("Retry-After") or 30))
+                # transient server-side errors: back off and retry; anything else (404, 403) is final
+                if e.code in (429, 500, 502, 503, 504) and attempt < attempts - 1:
+                    ra = e.headers.get("Retry-After") or ""
+                    time.sleep(int(ra) if ra.isdigit() else min(300, 10 * 2 ** attempt))
+                    continue
+                raise
+            except (urllib.error.URLError, TimeoutError, ConnectionError, OSError) as e:
+                # DNS hiccups, resets, timeouts, truncated reads: exponential backoff
+                if attempt < attempts - 1:
+                    print(f"  fetch {url}: {e}; retrying", file=sys.stderr)
+                    time.sleep(min(300, 5 * 2 ** attempt))
                     continue
                 raise
             finally:

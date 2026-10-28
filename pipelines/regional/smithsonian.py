@@ -64,6 +64,7 @@ import json
 import os
 import re
 import statistics
+import time
 import unicodedata
 import urllib.error
 import urllib.parse
@@ -105,10 +106,20 @@ ID_PATTERNS = [
 
 # ------------------------------------------------------------------ download
 
-def fetch(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=300) as r:
-        return r.read()
+def fetch(url, tries=6):
+    """GET with retries and exponential backoff (network errors, 5xx, truncated reads)."""
+    for attempt in range(tries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=300) as r:
+                return r.read()
+        except urllib.error.HTTPError as e:
+            if e.code < 500 or attempt == tries - 1:
+                raise
+        except Exception:
+            if attempt == tries - 1:
+                raise
+        time.sleep(min(60, 2 ** attempt * 2))
 
 
 def unit_files(prefix):
@@ -138,13 +149,7 @@ def load_file(prefix, url, cache):
         with gzip.open(path, "rb") as f:
             data = f.read()
     else:
-        for attempt in range(4):
-            try:
-                data = fetch(url)
-                break
-            except Exception:
-                if attempt == 3:
-                    raise
+        data = fetch(url)
         if cache:
             os.makedirs(os.path.dirname(path), exist_ok=True)
             with gzip.open(path + ".part", "wb", compresslevel=6) as f:
