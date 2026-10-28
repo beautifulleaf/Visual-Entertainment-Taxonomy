@@ -317,7 +317,8 @@ def main():
 
     budget = Budget(0 if args.offline else args.max_requests)
     todo = [r for r in rows if r["match"] == "none"]
-    todo.sort(key=lambda r: r["won"] != "1")  # winners first
+    # winners first; Flying Apsaras (hundreds of mostly obscure winners) after the other awards' winners
+    todo.sort(key=lambda r: (r["won"] != "1", r["award"] == "Flying Apsaras"))
     seen = {}
     try:
         for i, r in enumerate(todo, 1):
