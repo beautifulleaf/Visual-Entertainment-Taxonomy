@@ -77,8 +77,8 @@ def people_died_no_birth(occs, start, end, min_sl):
     }} GROUP BY ?p ?s""")
 
 
-def fetch_people(cfg):
-    """Worldwide people in any of the region's media, keyed by QID (queries run 3 at a time)."""
+def fetch_people(cfg, workers=3):
+    """Worldwide people in any of the region's media, keyed by QID (queries run in parallel)."""
     lo, hi = cfg["active"]
     sl = cfg["min_sitelinks"]
     jobs = []
@@ -97,7 +97,7 @@ def fetch_people(cfg):
         return name, cached(name, lambda: fn(occs, a, b, sl))
 
     people = {}
-    with ThreadPoolExecutor(3) as pool:
+    with ThreadPoolExecutor(workers) as pool:
         for i, (name, rows) in enumerate(pool.map(run, jobs), 1):
             for r in rows:
                 people.setdefault(r["p"], r)
@@ -222,13 +222,16 @@ def fetch_labels(qids):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--region", required=True, choices=sorted(REGIONS))
+    # Wikidata's query service allows 5 concurrent queries per IP; leave room if
+    # other Wikidata jobs are running.
+    ap.add_argument("--workers", type=int, default=3, choices=range(1, 6))
     args = ap.parse_args()
     cfg = REGIONS[args.region]
     os.makedirs(RAW, exist_ok=True)
     os.makedirs(OUT_DIR, exist_ok=True)
 
     print("fetching people")
-    people = fetch_people(cfg)
+    people = fetch_people(cfg, args.workers)
     ref_qids = []
     if cfg.get("reference"):
         ref_qids = sorted({r["qid"] for r in load_reference(cfg) if r["qid"]})
