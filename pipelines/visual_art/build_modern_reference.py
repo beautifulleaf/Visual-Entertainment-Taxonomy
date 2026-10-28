@@ -54,7 +54,7 @@ import urllib.parse
 import urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from regions import MEDIA, MODERN_REGIONS, active_span  # noqa: E402
+from regions import HOME_CONTINENT_ORDER, MEDIA, MODERN_REGIONS, active_span  # noqa: E402
 from wikidata import UA, sparql, year_of  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -298,15 +298,23 @@ def fetch_continents(countries):
     return known
 
 
+def home_continents(c, continents):
+    """One home continent for multi-continent (imperial, transcontinental) countries, as build_pool.py."""
+    conts = continents.get(c, [])
+    if len(conts) > 1:
+        conts = [next(h for h in HOME_CONTINENT_ORDER + conts if h in conts)]
+    return set(conts)
+
+
 def modern_region(rec, continents):
-    """First MODERN_REGIONS entry matching the artist (same country rule as build_pool.py)."""
+    """First MODERN_REGIONS entry matching the artist (same country and home-continent rule as build_pool.py)."""
     for key in ("P27", "birth_country", "death_country"):
         cs = [c for c in rec.get(key, []) if re.fullmatch(r"Q\d+", c)]
         if not cs:
             continue
         for name, geo in MODERN_REGIONS.items():
             inc, exc, conts = set(geo.get("countries", [])), set(geo.get("exclude_countries", [])), set(geo.get("continents", []))
-            if any(c in inc or (c not in exc and conts & set(continents.get(c, []))) for c in cs):
+            if any(c in inc or (c not in exc and conts & home_continents(c, continents)) for c in cs):
                 return name
         return "other"
     return "unknown"

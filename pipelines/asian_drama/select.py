@@ -2,9 +2,12 @@
 
 A drama is selected when any of these holds (reasons are listed together):
   watchers  MDL type Drama with watchers >= --min-watchers (5,000);
-  topup     in the top --topup-share (15%) by watchers of its country x decade
-            cell of the MDL ranking (Drama type only), at least --topup-min (5)
-            per cell, or the whole cell when it is smaller;
+  topup     per country x decade, the top max(5, 15% of MDL's title count)
+            by MDL popularity: the picks of topup_pools.py for the cells it
+            covers (Japanese, Taiwanese, Hong Kong, Filipino; Korean and
+            Chinese before the 2010s). Other cells fall back to the top
+            --topup-share (15%) by watchers of the cell within the top-5,000
+            ranking, at least --topup-min (5) (Drama type only);
   award     won an Asian TV award (or an Asian winner of another award), as
             matched by match_awards.py; the drama may lie outside the ranking.
 MDL's "TV Show" entries (variety, reality, documentary) do not enter the drama
@@ -12,6 +15,7 @@ database: they go to a separate file for the unscripted database, with award
 winners of that type added. "Special" entries are left out of both.
 
 Inputs:  data/interim/asian_drama_mdl.csv, data/interim/asian_drama_awards.csv,
+         data/interim/asian_drama_mdl_pools.csv (topup_pools.py),
          cached title pages in data/raw/mdl/ (native title, missing type/country/year)
 Outputs: data/interim/asian_drama_selected.csv
            mdl_id, title, native_title, country, year, watchers, popularity_rank, reasons, awards
@@ -34,6 +38,7 @@ sys.path.insert(0, os.path.join(ROOT, "pipelines", "asian_drama"))
 from mdl_fetch import COUNTRY_CODES, RAW, parse_details  # noqa: E402
 
 MDL = os.path.join(ROOT, "data", "interim", "asian_drama_mdl.csv")
+POOLS = os.path.join(ROOT, "data", "interim", "asian_drama_mdl_pools.csv")
 AWARDS = os.path.join(ROOT, "data", "interim", "asian_drama_awards.csv")
 OUT = os.path.join(ROOT, "data", "interim", "asian_drama_selected.csv")
 OUT_UNSCRIPTED = os.path.join(ROOT, "data", "interim", "asian_unscripted_mdl.csv")
@@ -102,6 +107,25 @@ def main():
     else:
         print(f"note: {AWARDS} missing; run match_awards.py for the award route")
 
+    # per-country popularity pools (topup_pools.py)
+    pool_cells, pool_picks = set(), []
+    if os.path.exists(POOLS):
+        with open(POOLS, encoding="utf-8") as f:
+            for p in csv.DictReader(f):
+                pool_cells.add((p["country"], int(p["decade"])))
+                if p["pick"] != "1":
+                    continue
+                k = num(p["mdl_id"])
+                if k not in items:
+                    items[k] = {
+                        "mdl_id": p["mdl_id"], "title": p["title"], "native_title": p["native_title"],
+                        "country": p["country"], "year": p["year"], "watchers": to_int(p["watchers"]),
+                        "popularity_rank": "", "type": "Drama", "reasons": [], "awards": [],
+                    }
+                pool_picks.append(k)
+    else:
+        print(f"note: {POOLS} missing; the top-up uses the top-5,000 ranking only")
+
     # rules
     cells = collections.defaultdict(list)
     for k, it in items.items():
@@ -109,9 +133,14 @@ def main():
             continue
         if it["watchers"] >= args.min_watchers:
             it["reasons"].append("watchers")
-        if it["popularity_rank"] and it["country"] and it["year"]:
+        if it["popularity_rank"] and it["country"] and it["year"]:  # ranking cells (fallback)
             cells[(it["country"], int(it["year"]) // 10 * 10)].append(it)
-    for cell in cells.values():
+    for k in dict.fromkeys(pool_picks):
+        if items[k]["type"] == "Drama":
+            items[k]["reasons"].append("topup")
+    for key, cell in cells.items():
+        if key in pool_cells:
+            continue
         cell.sort(key=lambda it: -it["watchers"])
         take = min(len(cell), max(args.topup_min, math.ceil(args.topup_share * len(cell))))
         for it in cell[:take]:
@@ -153,6 +182,10 @@ def main():
         only_a = sum(it["reasons"] == ["award"] for it in add)
         both = sum(set(it["reasons"]) == {"topup", "award"} for it in add)
         print(f"    {c:3s} {n:5d}  {base:5d}  +{only_t:4d}  +{only_a:4d}  +{both:3d}")
+    added = collections.Counter((it["country"], (to_int(it["year"]) // 10 * 10) if it["year"] else "?")
+                                for it in selected if "topup" in it["reasons"] and "watchers" not in it["reasons"])
+    print("  top-up additions (below the watchers bar) by country x decade:",
+          ", ".join(f"{c} {d}s {n}" for (c, d), n in sorted(added.items(), key=str)))
     print(f"unscripted (MDL TV Show): {len(unscripted)} ({sum(bool(it['awards']) for it in unscripted)} award winners)")
     skipped = [it for it in items.values() if it["awards"] and it["type"] not in ("Drama", "", "TV Show")]
     if skipped:
