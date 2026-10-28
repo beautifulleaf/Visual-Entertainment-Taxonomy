@@ -151,7 +151,7 @@ All rules below are an OR: a title qualifies through any one of them. "Regional 
 
 | Database | Main bar | Top-ups and other routes | Measured size |
 |---|---|---|---|
-| Film | Letterboxd ≥10k ratings | canon lists (§2); gap rule (§2 step 4); regional top-up **5%** per country × decade (Letterboxd ≥1k, min 3 per cell; +720) | ~17–18k before the African fix below |
+| Film | Letterboxd ≥10k ratings | canon lists (§2); gap rule (§2 step 4); regional top-up **5%** per country × decade (min 3 per cell; Letterboxd floor 1k, or **100** in under-covered countries; +1,587 with the extra candidates) | ~18–19k |
 | Scripted TV | IMDb ≥2,500 votes (6,342) | regional top-up **5%** per country × decade (≥200 votes, min 3; +502); **award winners** (+296 scripted; nominations are a signal only) | ~7,100 |
 | Anime | MAL members ≥25,000 (5,167) | pre-2000: top **20%** per decade, min 5 (+271); donghua: MAL ≥**10,000** (146 instead of 73) | ~5,500 |
 | Asian drama | MDL watchers ≥**5,000** (3,364 dramas) | per-country top-up: top **15%** per country × decade, min 5 (Japanese, Filipino and Hong Kong dramas are under-counted on MDL); award winners; MDL's variety shows go to unscripted | ~3,500+ |
@@ -159,6 +159,8 @@ All rules below are an OR: a title qualifies through any one of them. "Regional 
 | Unscripted | all cross-border formats (≥3 versions in ≥2 countries; 211) | non-format shows use the scripted-TV rules | 211 formats |
 
 **Gathering gap found while setting these: African film.** The IMDb ≥500-vote candidate floor leaves Nigeria with 19 candidates, Ghana 3, Kenya 1 and Ethiopia 2 (against Iran 527, Egypt 446). Countries with under 200 candidates therefore get a lower floor (IMDb ≥100) plus Wikidata/TMDB films by country, before the regional top-up applies.
+*Measured (2026-10-28, `pipelines/film/underrepresented_countries.py`):* **26,471 extra candidates** (Wikidata films by country, plus IMDb 100–499 votes, enriched via MDBList; `data/interim/film_candidates_extra.csv`). Examples: Nigeria 19 → 319, South Africa 99 → 535, Ghana 3 → 39, Senegal 6 → 39, Kenya 1 → 28, Sri Lanka 14 → 242, Cambodia 3 → 58, Myanmar 2 → 41.
+**Decided:** these films typically have 200–500 Letterboxd ratings, so in the **146 countries with under 200 original candidates** the regional top-up's Letterboxd floor is **100** instead of 1,000. That adds **490 films** (*Difret*, *Teza*, *Keteke*, *Nawi*, *Contras' City*, *Sira*, *The Figurine*, *Isoken*, ...). With the extra candidates the top-up now selects 1,587 films in total.
 
 ## 7. Licensing note
 Almost every audience-metric dataset (IMDb, Letterboxd samples, Douban, MAL dumps) is **non-commercial**. That is fine for an internal or personal taxonomy. If the taxonomy will ever be published commercially, ship only our own derived categories and IDs, never the raw counts.
