@@ -113,6 +113,52 @@ def parse_title(page):
     }
 
 
+COUNTRY_CODES = {"South Korea": "KR", "Korea": "KR", "China": "CN", "Taiwan": "TW", "Japan": "JP",
+                 "Hong Kong": "HK", "Thailand": "TH", "Philippines": "PH", "Singapore": "SG",
+                 "Malaysia": "MY", "Indonesia": "ID", "Vietnam": "VN", "Macau": "MO",
+                 # adjectival forms, as in the ranking and search listings
+                 "Korean": "KR", "Chinese": "CN", "Taiwanese": "TW", "Japanese": "JP",
+                 "Thai": "TH", "Filipino": "PH", "Singaporean": "SG", "Malaysian": "MY",
+                 "Indonesian": "ID", "Vietnamese": "VN"}
+
+
+def parse_details(page):
+    """Identity fields of a title page: native title, also-known-as titles, country, type, year.
+
+    Read from the details box ("Native Title:", "Also Known As:", "Country:",
+    "Type:", "Aired:") with the JSON-LD block (alternateName, countryOfOrigin,
+    datePublished) as a fallback. Works on every cached page; no requests.
+    """
+    def field(label):
+        m = re.search(r'<b class="inline">' + re.escape(label) + r':</b>(.*?)</li>', page, re.S)
+        return " ".join(html.unescape(re.sub(r"<[^>]+>", " ", m.group(1))).split()) if m else ""
+
+    native = field("Native Title")
+    aka_m = re.search(r'<span class="mdl-aka-titles">(.*?)</span>', page, re.S)
+    akas = [a.strip() for a in html.unescape(aka_m.group(1)).split(" , ")] if aka_m else []
+    if not akas:
+        alt = re.search(r'"alternateName":\[(.*?)\]', page)
+        if alt:
+            akas = [html.unescape(a) for a in re.findall(r'"((?:[^"\\]|\\.)*)"', alt.group(1))]
+    akas = [" ".join(a.split()).strip(" ,") for a in akas if a.strip(" ,")]
+    country = field("Country")
+    if not country:
+        c = re.search(r'"countryOfOrigin":\{[^}]*"name":"([^"]+)"', page)
+        country = c.group(1) if c else ""
+    year = re.search(r"(\d{4})", field("Aired") or field("Release Date"))
+    if not year:
+        year = re.search(r'"datePublished":"(\d{4})', page)
+    og = (re.search(r'<meta property="og:title" content="([^"]+)"', page) or [None, ""])[1]
+    return {
+        "title": re.sub(r"\s*\(\d{4}\)\s*$", "", html.unescape(og)).strip(),
+        "native_title": native,
+        "aka": akas,
+        "country": COUNTRY_CODES.get(country, country),
+        "type": field("Type"),
+        "year": year.group(1) if year else "",
+    }
+
+
 def parse_listing(page):
     """Entries of one "popular shows" page, in MDL's popularity order."""
     out = []
