@@ -400,16 +400,25 @@ def article_link_qids(titles):
         return out
     path = os.path.join(RAW, "enwiki_links.json")
     data = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
-    todo = [t for t in titles if t not in data]
+    # Articles fetched another way while the API was rate-limited (Firecrawl, same
+    # {title: [QIDs]} shape) fill titles the API cache lacks; never written back.
+    extra_path = os.path.join(RAW, "enwiki_links_extra.json")
+    extra = json.load(open(extra_path, encoding="utf-8")) if os.path.exists(extra_path) else {}
+    merged = {**{t: q for t, q in extra.items() if t not in data}, **data}
+    if extra:
+        print(f"  enwiki_links_extra.json: {sum(1 for t in extra if t not in data)} articles added")
+    todo = [t for t in titles if t not in merged]
     if CACHED_LINKS_ONLY[0]:
         print(f"  --cached-links-only: {len(todo)} of {len(titles)} articles not fetched")
         todo = []
     for i, t in enumerate(todo, 1):   # saved per article: the API is often rate-limited
-        data.update(q([t]))
+        got = q([t])
+        data.update(got)
+        merged.update(got)
         json.dump(data, open(path, "w", encoding="utf-8"), ensure_ascii=False)
         if i % 20 == 0 or i == len(todo):
             print(f"  enwiki_links: {i}/{len(todo)}")
-    return data
+    return merged
 
 
 def filter_artists(qids):
