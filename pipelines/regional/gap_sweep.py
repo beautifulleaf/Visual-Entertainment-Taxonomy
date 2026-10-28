@@ -152,7 +152,7 @@ def rx(p):
 # Patterns are written in folded form (lower case, no accents).
 
 AU = (r"australia|aborigin|arnhem|northern territory|western australia|queensland|south australia|"
-      r"new south wales|kimberley|torres strait|western desert|central desert|tiwi|yolngu|warlpiri|pintupi|"
+      r"new south wales|kimberley|torres strait|tiwi|yolngu|warlpiri|pintupi|"
       r"arrernte|pitjantjatjara|anmatyerr")
 LATAM = (r"mexic|new spain|nueva espana|novohispan|peru|cuzco|cusco|lima\b|bolivia|potosi|alto peru|ecuador|quito|"
          r"colombia|new granada|nueva granada|bogota|guatemala|brazil|brasil|bahia|minas gerais|venezuela|"
@@ -213,7 +213,7 @@ N(A, "col_altoperu", "Potosi / Alto Peru (Collao) painting", R, "painting", (155
   wd=["Potosí School", "Collao School", "Escuela potosina@es", "Escuela del Collao@es"], api=["Potosi", "Bolivia painting"])
 N(A, "col_peru", "Viceroyalty of Peru painting (Lima and other centres)", R, "painting", (1550, 1850),
   pat=r"escuela limen|lima school|viceroyalty of peru|virreinato del peru",
-  inf=(r"peru|lima\b|arequipa|ayacucho|huamanga|trujillo", PAINT, (1550, 1850)), fallback=True, family="col_peru",
+  inf=(r"peru|lima\b|arequipa|ayacucho|huamanga|trujillo", ("painting",), (1550, 1850)), fallback=True, family="col_peru",
   kn=r"viceroyalty of peru|lima school|peruvian colonial", wd=["Escuela limeña@es"], api=["Peru painting"])
 N(A, "col_quito", "Quito School (Escuela quitena)", R, "painting; polychrome sculpture", (1550, 1850),
   pat=r"quito school|escuela quiten|quiten[oa]|school of quito|caspicara|legarda|miguel de santiago",
@@ -251,10 +251,13 @@ N(A, "col_exvoto", "Ex-voto painting (Latin America)", R, "painting (tin)", (170
   pat=r"ex-votos?|ex votos?|exvotos?|milagro painting|votive painting", ctx=LATAM, kn=r"ex-?voto",
   wd=["Ex-voto", "exvoto@es"], api=["ex-voto"])
 N(A, "col_santero", "New Mexican santero tradition (retablos and bultos)", R, "painting; sculpture", (1750, 1950),
-  pat=r"santero|\bbultos?\b|retablos?|\bsantos?\b|reredos", ctx=r"new mexico|nuevo mexico|santa fe|taos|rio grande|truchas|cordova",
+  pat=r"santero|\bbultos?\b|retablos?|\bsantos\b|reredos|carved saint|wooden saint|\bsanto\b(?! domingo)",
+  ctx=r"new mexico|nuevo mexico|taos|rio grande|truchas|cordova", groups=PS + ("other", "ritual object", "furniture and woodwork"),
+  neg=r"pueblo|santo domingo|hopi|navajo|zuni|apache|olla|\bjar\b|pottery",
   kn=r"santero|new mexican", wd=["New Mexican santos", "Santos (art)", "Santero art", "New Mexican retablo"], api=["santero", "bulto"])
 N(A, "col_ayacucho", "Ayacucho retablos and Huamanga alabaster (piedra de Huamanga)", R, "sculpture; folk boxes",
-  (1700, 2000), pat=r"ayacucho|huamanga|san marcos box|cajon san marcos|piedra de huamanga|sanmarcos",
+  (1700, 2000), pat=r"retablo ayacuchano|ayacucho retablo|san marcos box|cajon san marcos|sanmarcos|piedra de huamanga|"
+      r"huamanga (stone|alabaster)|alabaster|\bretablos?\b|\bcajon", ctx=r"ayacucho|huamanga", date=(1600, 2025),
   kn=r"ayacucho|huamanga", wd=["Retablo ayacuchano@es", "Piedra de Huamanga@es", "Ayacucho retablo"], api=["Ayacucho", "Huamanga"])
 N(A, "col_brazil", "Brazilian Baroque (Barroco mineiro, Bahia)", R, "sculpture; painting", (1650, 1830),
   pat=r"aleijadinho|ataide|barroco mineiro|mineiro baroque|brazilian baroque|ouro preto",
@@ -266,17 +269,19 @@ N(A, "col_ngranada", "New Granada painting (Santafe de Bogota)", R, "painting", 
   inf=(r"colombia|bogota|popayan|tunja", PS, (1550, 1830)), kn=r"new granada|nueva granada",
   wd=["Colonial art of New Granada", "Arte colonial neogranadino@es"], api=["New Granada"])
 N(A, "col_guatemala", "Guatemalan colonial sculpture and painting (Antigua)", R, "sculpture; painting", (1550, 1830),
-  inf=(r"guatemala|antigua guatemala", PS, (1550, 1830)), pat=r"antigua guatemala|guatemalan colonial",
+  inf=(r"guatemala|antigua guatemala", PS, (1550, 1830)), pat=r"antigua guatemala|guatemalan colonial", date=(1524, 1900),
   kn=r"guatemalan colonial|antigua guatemala", wd=["Guatemalan colonial art"], api=["Guatemala colonial"])
 N(A, "col_pasto", "Barniz de Pasto (mopa-mopa lacquer)", R, "lacquer", (1600, 1900),
-  pat=r"barniz de pasto|mopa[- ]?mopa|pasto varnish|pasto lacquer|barniz", ctx=r"pasto|colombia|ecuador|quito|peru|andes|mopa",
+  pat=r"barniz de pasto|mopa-mopa|mopa mopa|mopamopa|pasto varnish|pasto lacquer|\(pasto\)|san juan de pasto",
   kn=r"barniz de pasto|mopa-?mopa", wd=["Barniz de Pasto", "Barniz de Pasto@es"], api=["barniz de Pasto", "mopa mopa"])
 N(A, "col_maque", "Mexican lacquer (maque: Olinala, Patzcuaro, Periban)", R, "lacquer", (1550, 1900),
   pat=r"olinala|\bbateas?\b|patzcuaro|periban|uruapan|\bmaque\b|lacquer gourd|lacquered gourd|lacquer chest|lacquered chest|lacquer tray|lacquered tray",
   ctx=r"mexic|new spain|michoacan|guerrero", inf=(r"mexic|new spain|michoacan", None, (1550, 1900), r"lacquer"),
+  med=r"lacquer|laca\b|maque|varnish|\baje\b|chia oil|olinala",
   kn=r"\bmaque\b|olinala|mexican lacquer", wd=["Maque", "Olinalá lacquerware", "Laca mexicana@es"], api=["Olinala", "Mexican lacquer"])
 N(A, "col_silver", "Viceroyalty of Peru silver (Potosi, Cusco, Lima)", R, "metalwork", (1550, 1850),
-  inf=(r"peru|bolivia|potosi|cuzco|cusco|lima\b|alto peru", None, (1550, 1850), r"silver|plata"),
+  inf=(r"peru|bolivia|potosi|cuzco|cusco|lima\b|alto peru", ("metalwork", "jewellery and ornament", "ritual object", "other",
+                                                             "tool and implement"), (1550, 1850), r"silver|plata"),
   pat=r"potosi silver|peruvian silver|andean silver", kn=r"peruvian silver|andean colonial silver",
   wd=["Silverwork of Potosí"], api=["Potosi silver"])
 N(A, "col_talavera", "Talavera poblana (Puebla tin-glazed earthenware)", R, "ceramics", (1550, 1900),
@@ -299,7 +304,9 @@ N(A, "sea_thai_painting", "Thai temple painting (phra bot banners, murals)", R, 
   inf=(THAI, PAINT, (1500, 1950)), ctx=THAI, fallback=True, family="sea_thai_ms",
   kn=r"phra bot|thai (temple )?painting|thai mural", wd=["Thai art", "Thai mural painting", "Phra bot"], api=["Thai painting", "phra bot"])
 N(A, "sea_thai_lacquer", "Thai gold-and-black lacquer (lai rot nam)", R, "lacquer", (1600, 1950),
-  pat=r"lai ?rot ?nam|lai ?rod ?nam|lacquer", ctx=THAI, kn=r"lai rot nam|thai lacquer",
+  pat=r"lai rot nam|lai rod nam|lairotnam|lacquer", ctx=THAI, kn=r"lai rot nam|thai lacquer",
+  groups=("furniture and woodwork", "other", "manuscript and book", "ritual object", "tool and implement", "metalwork",
+          "basketry and fibre", "architectural element", "ceramics"),
   wd=["Lai rot nam", "Thai lacquerware"], api=["lai rot nam", "Thai lacquer"])
 N(A, "sea_bencharong", "Bencharong porcelain", R, "ceramics", (1700, 1900),
   pat=r"bencharong|benjarong|lai nam thong|becharong", kn=r"bencharong|benjarong", wd=["Bencharong", "Benjarong"],
@@ -358,7 +365,7 @@ N(A, "sea_burma_lacquer", "Burmese lacquer (yun, Bagan)", R, "lacquer", (1700, 2
   pat=r"lacquer|\byun\b|thitsi|hsun ?ok|kun-?it|thayo|shwe-?zawa", ctx=BURMA, kn=r"burmese lacquer|\byun\b|shwe-?zawa",
   wd=["Burmese lacquerware", "Shwe-zawa", "Yun lacquerware"], api=["Burmese lacquer"])
 N(A, "sea_burma_silver", "Burmese silverwork", R, "metalwork", (1800, 1950),
-  inf=(BURMA, None, (1750, 1960), r"silver"), kn=r"burmese silver", wd=["Burmese silverware"], api=["Burmese silver"])
+  inf=(BURMA, ("metalwork", "jewellery and ornament", "ritual object", "other"), (1750, 1960), r"silver"), kn=r"burmese silver", wd=["Burmese silverware"], api=["Burmese silver"])
 N(A, "sea_dongho", "Dong Ho woodblock prints", R, "prints", (1600, 2000), pat=r"dong ?ho\b|dongho",
   ctx=VIET + r"|dong ho|bac ninh", kn=r"dong ho", wd=["Đông Hồ painting", "Dong Ho painting", "Tranh Đông Hồ@vi"],
   api=["Dong Ho"])
@@ -374,13 +381,16 @@ N(A, "sea_viet_print", "Vietnamese folk woodblock prints (other)", R, "prints", 
 for _k in ("sea_hangtrong", "sea_kimhoang"):
     NODES[[n["key"] for n in NODES].index(_k)]["family"] = "sea_dongho"
 N(A, "sea_sonmai", "Vietnamese lacquer painting (son mai)", R, "lacquer painting", (1925, 2000),
-  pat=r"son ?mai|lacquer", ctx=VIET + r"|son mai", kn=r"son mai|vietnamese lacquer", wd=["Sơn mài", "Son mai"],
-  api=["son mai"])
+  pat=r"son mai|sonmai|lacquer", ctx=VIET + r"|son mai", date=(1920, 2025), kn=r"son mai|vietnamese lacquer",
+  wd=["Sơn mài", "Son mai"], api=["son mai"])
+N(A, "sea_tonkin_lacquer", "Tonkin export lacquer (17th-18th c.)", R, "lacquer", (1620, 1800),
+  inf=(VIET, None, (1600, 1820), r"lacquer|urushi|\blak\b|lakwerk"), pat=r"tonkin lacquer|tonkinese lacquer|tonkin lak",
+  kn=r"tonkin(ese)? lacquer", wd=["Tonkinese lacquer"], api=["Tonkin lacquer"])
 N(A, "sea_viet_painting", "Vietnamese painting (Nguyen court, silk, Indochina school)", R, "painting", (1800, 1960),
   inf=(VIET, PAINT, (1700, 1960)), fallback=True, family="sea_viet_painting", kn=r"vietnamese painting|indochina school",
   wd=["Vietnamese painting", "École des Beaux-Arts de l'Indochine"], api=["Vietnamese painting"])
 N(A, "sea_ph_ivory", "Hispano-Philippine ivory santos", R, "sculpture (ivory)", (1590, 1900),
-  inf=(PHIL, None, (1580, 1900), r"ivory"), pat=r"hispano-?philippine|filipino ivory|philippine ivory",
+  inf=(PHIL, ("sculpture", "ritual object", "other"), (1580, 1900), r"ivory"), pat=r"hispano-?philippine|filipino ivory|philippine ivory",
   kn=r"hispano-?philippine|philippine ivory", wd=["Hispano-Philippine ivory", "Philippine ivory"], api=["Philippine ivory"])
 N(A, "sea_ph_santos", "Philippine wooden santos and colonial religious painting", R, "sculpture; painting", (1600, 1950),
   pat=r"\bsantos?\b|santo nino|virgin|saint|crucifix|retablo|religious", ctx=PHIL, neg=r"ivory|bulul|ifugao",
@@ -464,10 +474,10 @@ N(A, "ea_li", "Li textiles (Hainan)", R, "textiles", (1800, 2000),
   pat=r"\bli (people|minority|textile|ethnic|tribe|weav)|hainan (textile|weav|li\b)|黎锦|黎錦|黎族", kn=r"\bli people|黎锦|黎族|hainan",
   wd=["Li brocade", "Li textile techniques", "黎锦@zh"], api=["Hainan Li textile"])
 N(A, "ea_yao", "Yao (Mien) embroidery and ritual paintings", R, "textiles; painting", (1800, 2000),
-  pat=r"\byao (people|mien|ritual|embroider|minority|tribe|taoist|textile|costume)|\bmien\b|iu mien|iumien|瑶族|瑤族",
+  pat=r"\byao (people|mien|ritual|embroider|minority|tribe|taoist|textile|costume)|iu mien|iumien|yao-mien|\bmien (people|yao|embroider)|瑶族|瑤族",
   kn=r"\byao (people|mien)|\bmien\b|瑶族|瑤族", wd=["Yao people", "Mien people", "Yao ritual painting"], api=["Yao Mien"])
 N(A, "ea_naxi", "Naxi Dongba manuscripts and painting", R, "manuscripts; painting", (1600, 2000),
-  pat=r"\bnaxi\b|\bnakhi\b|dongba|tomba|東巴|东巴|纳西|納西", kn=r"naxi|nakhi|dongba", wd=["Dongba", "Naxi script", "Dongba manuscript"],
+  pat=r"\bnaxi\b|\bnakhi\b|dongba|東巴|东巴|纳西|納西", kn=r"naxi|nakhi|dongba", wd=["Dongba", "Naxi script", "Dongba manuscript"],
   api=["Naxi", "Dongba"])
 N(A, "ea_regong", "Regong (Rebkong) art", R, "painting (thangka); sculpture", (1500, 2000),
   pat=r"regong|rebkong|repkong|rebgong|热贡|熱貢|tongren (county|thangka)", kn=r"regong|rebkong|热贡|熱貢",
@@ -538,20 +548,20 @@ N(A, "au_bark_east", "Eastern Arnhem Land (Yolngu) bark painting (Yirrkala, Gali
   ctx=AU + r"|yirrkala|yolngu|galiwin", family="au_bark", kn=r"yolngu|yirrkala|eastern arnhem|east arnhem",
   wd=["Yolngu art", "Buku-Larrnggay Mulka Centre", "Yirrkala bark petitions", "Larrakitj"], api=["Yirrkala", "Yolngu"])
 N(A, "au_groote", "Groote Eylandt bark painting (Anindilyakwa)", R, "bark painting", (1920, 2020),
-  pat=r"groote|anindilyakwa|angurugu|umbakumba|bickerton island", family="au_bark", kn=r"groote|anindilyakwa",
+  pat=r"groote eylandt|anindilyakwa|angurugu|umbakumba|bickerton island", family="au_bark", kn=r"groote|anindilyakwa",
   wd=["Anindilyakwa Arts"], api=["Groote Eylandt"])
 N(A, "au_bark_other", "Arnhem Land bark painting (region unrecorded)", R, "bark painting", (1880, 2020),
   pat=r"bark painting|painting on bark|on bark|on eucalyptus bark|stringybark|bark-paintings", ctx=AU,
   neg=r"kwoma|sepik|papua|new guinea|maprik|abelam|yinibu|amazon|tapa|mexic|amate", fallback=True, family="au_bark",
   kn=r"bark painting|arnhem land", wd=["Australian Aboriginal bark painting", "Aboriginal bark painting", "Bark painting"], api=["bark painting"])
 N(A, "au_tiwi", "Tiwi art (pukumani poles, ochre painting)", R, "sculpture; painting", (1900, 2020),
-  pat=r"\btiwi\b|pukumani|tutini|bathurst island|melville island|jilamara|munupi|ngaruwanajirri|nguiu|wurrumiyanga|milikapiti|pirlangimpi",
+  neg=r"albay|philippin|luzon", pat=r"\btiwi\b|pukumani|tutini|bathurst island|melville island|jilamara|munupi|ngaruwanajirri|nguiu|wurrumiyanga|milikapiti|pirlangimpi",
   kn=r"\btiwi\b|pukumani", wd=["Tiwi art", "Pukumani pole", "Jilamara Arts and Crafts", "Munupi Arts"], api=["Tiwi", "pukumani"])
 N(A, "au_papunya", "Papunya Tula (Western Desert painting)", R, "painting (acrylic)", (1971, 2020),
   pat=r"papunya|tula artists|walungurru|kintore|kiwirrkura|kiwirrkurra|pintupi", ctx=AU + r"|papunya", family="au_wd",
   kn=r"papunya", wd=["Papunya Tula", "Papunya Tula Artists", "Western Desert art movement"], api=["Papunya"])
 N(A, "au_balgo", "Balgo (Warlayirti Artists)", R, "painting (acrylic)", (1980, 2020),
-  pat=r"balgo|wirrimanu|warlayirti|kukatja", family="au_wd", kn=r"balgo|warlayirti", wd=["Warlayirti Artists", "Balgo"],
+  pat=r"balgo|wirrimanu|warlayirti|kukatja", ctx=AU, family="au_wd", kn=r"balgo|warlayirti", wd=["Warlayirti Artists", "Balgo"],
   api=["Balgo"])
 N(A, "au_utopia", "Utopia (Anmatyerre / Alyawarr batik and painting)", R, "painting; batik", (1977, 2020),
   pat=r"\butopia\b|anmatyerr|alyawarr|alhalkere|kngwarreye|petyarre|kemarre", ctx=AU + r"|anmatyerr|alyawarr|kngwarreye",
@@ -571,18 +581,20 @@ N(A, "au_haasts", "Haasts Bluff (Ikuntji Artists)", R, "painting (acrylic)", (19
   family="au_wd", kn=r"haasts bluff|ikuntji", wd=["Ikuntji Artists", "Haasts Bluff"], api=["Haasts Bluff"])
 N(A, "au_western_desert", "Western / Central Desert painting (other)", R, "painting (acrylic)", (1971, 2020),
   pat=r"western desert|central desert|luritja|dot painting|dreaming|tjukurrpa|jukurrpa|acrylic (on|polymer).{0,30}(canvas|linen|board)",
-  ctx=AU, neg=r"arnhem|yolngu|tiwi|kimberley|warmun|hermannsburg|torres", fallback=True, family="au_wd",
+  ctx=r"australia|aborigin|northern territory|western australia|pintupi|warlpiri|luritja|anmatyerr|papunya|pitjantjatjara|"
+      r"ngaanyatjarra", neg=r"arnhem|yolngu|tiwi|kimberley|warmun|hermannsburg|torres|egypt|oasis|kharga|dakhla",
+  fallback=True, family="au_wd",
   kn=r"western desert|central desert", wd=["Western Desert art", "Western Desert art movement", "Dot painting"], api=["Western Desert"])
 N(A, "au_hermannsburg", "Hermannsburg watercolour school (Namatjira and followers)", R, "watercolour", (1934, 2020),
   pat=r"hermannsburg|ntaria|namatjira|pareroultja|raberaba|inkamala|ebatarinja|arrernte (watercolou?r|landscape)",
   groups=("painting", "drawing", "other", "print"), kn=r"hermannsburg|namatjira",
   wd=["Hermannsburg School", "Hermannsburg school", "Namatjira"], api=["Hermannsburg", "Namatjira"])
 N(A, "au_hermannsburg_pottery", "Hermannsburg Potters", R, "ceramics", (1990, 2020),
-  pat=r"hermannsburg|ntaria", groups=("ceramics",), kn=r"hermannsburg potter", wd=["Hermannsburg Potters"],
+  pat=r"hermannsburg|ntaria", groups=("ceramics",), ctx=AU + r"|arrernte", date=(1950, 2025), kn=r"hermannsburg potter", wd=["Hermannsburg Potters"],
   api=["Hermannsburg Potters"])
 N(A, "au_warmun", "Warmun / East Kimberley (Gija) painting", R, "painting (ochre)", (1975, 2020),
   pat=r"warmun|turkey creek|\bgija\b|\bkija\b|jirrawun|rover thomas|queenie mckenzie|paddy jaminji|freddie timms|"
-      r"east kimberley|kununurra|waringarri|mirriwoong|miriwoong", kn=r"warmun|gija|kija|turkey creek|east kimberley",
+      r"east kimberley|kununurra|waringarri|mirriwoong|miriwoong", ctx=AU + r"|warmun|turkey creek", kn=r"warmun|gija|kija|turkey creek|east kimberley",
   wd=["Warmun Art Centre", "Waringarri Aboriginal Arts", "Jirrawun Arts"], api=["Warmun", "Turkey Creek"])
 N(A, "au_wandjina", "Wandjina art (Mowanjum: Worrorra, Ngarinyin, Wunambal)", R, "painting; rock art", (1950, 2020),
   pat=r"wandjina|wanjina|mowanjum|worrorra|worora|ngarinyin|ungarinyin|wunambal|kalumburu|gwion", kn=r"wandjina|wanjina|mowanjum",
@@ -596,8 +608,8 @@ N(A, "au_riji", "Kimberley pearl-shell ornaments (riji, jakuli)", R, "carved pea
 N(A, "au_aurukun", "Aurukun (Wik) sculpture", R, "sculpture", (1960, 2020), pat=r"aurukun|wik[- ]?mungkan|\bwik\b|wik-?ngathan",
   ctx=AU + r"|aurukun|wik", kn=r"aurukun|\bwik\b", wd=["Wik people", "Aurukun"], api=["Aurukun"])
 N(A, "au_rainforest", "Queensland rainforest shields and bicornual baskets", R, "painted shields; fibre", (1850, 1950),
-  pat=r"rainforest (shield|basket)|bicornual|cardwell|jirrbal|girramay|djabugay|yidinji|ngadjon|north queensland (shield|basket)|"
-      r"murray upper|tully river", ctx=AU + r"|queensland|cardwell|bicornual", kn=r"rainforest shield|bicornual",
+  pat=r"rainforest (shield|basket)|bicornual|jirrbal|girramay|djabugay|yidinji|ngadjon|north queensland (shield|basket)|"
+      r"murray upper|tully river", ctx=r"australia|queensland|aborigin", kn=r"rainforest shield|bicornual",
   wd=["Rainforest shield", "Bicornual basket"], api=["rainforest shield Queensland", "bicornual basket"])
 N(A, "au_southeast", "Southeast Australian carved shields, clubs and possum-skin cloaks", R, "woodcarving; skin cloaks", (1800, 1950),
   pat=r"possum[- ]?skin|parrying shield|broad shield|tree carving|dendroglyph|kulinyu|wurundjeri|gunditjmara|wiradjuri|kamilaroi|"
@@ -614,12 +626,12 @@ N(A, "au_ngukurr", "Ngukurr (Roper River) painting", R, "painting (acrylic)", (1
   kn=r"ngukurr", wd=["Ngukurr Arts Centre"], api=["Ngukurr"])
 N(A, "au_ts_mask", "Torres Strait turtle-shell masks (krar, le-op)", R, "masks (turtle shell)", (1700, 1920),
   pat=r"\bkrar\b|le-op|\bleop\b|turtle[- ]?shell|tortoise[- ]?shell|\bmask", ctx=r"torres strait|mabuiag|mabuyag|saibai|badu|\bmoa\b|erub|"
-      r"darnley|murray island|mer island|nagir|yam island|tudu|dauan|boigu",
+      r"darnley|murray island|mer island|nagir|yam island|tudu|dauan|boigu|torres",
   groups=("mask", "sculpture", "other", "ritual object"), family="au_ts", kn=r"torres strait (mask|turtle)|krar|le-?op",
   wd=["Torres Strait Islander mask", "Krar (mask)", "Mawa mask"], api=["Torres Strait mask"])
 N(A, "au_ts_other", "Torres Strait Islander art (dhari, drums, carving, printmaking)", R, "various", (1700, 2020),
-  pat=r"torres strait|mabuiag|mabuyag|saibai|badu island|\bdhari\b|dari headdress|warup|erub|darnley island|murray island|"
-      r"moa island|zenadth kes", fallback=True, family="au_ts", kn=r"torres strait",
+  pat=r"torres strait|mabuiag|mabuyag|saibai island|badu island|\bdhari\b|dari headdress|warup|\berub\b|darnley island|"
+      r"murray island|\bmoa island|zenadth kes", neg=r"samoa", fallback=True, family="au_ts", kn=r"torres strait",
   wd=["Torres Strait Islander art", "Dhari"], api=["Torres Strait"])
 
 # ---- 5. Ancient Africa (+ Ethiopian traditional painting)
@@ -653,7 +665,7 @@ N(A, "af_benin_early", "Benin court art, early period (before 1700)", R, "metalw
   neg=r"japan|tokugawa|republic of benin|dahomey|\bfon\b|abomey|porto-novo", date=(1200, 1700), mid=True,
   kn=r"benin (early|16th|middle period)|early benin", wd=["Benin Bronzes", "Benin art"], api=["Benin plaque"])
 N(A, "af_ind", "Inland Niger Delta (Djenne-jeno) terracottas", R, "sculpture (terracotta)", (300, 1700),
-  pat=r"djenn?e|jenne|inland niger delta|niger delta \(djenne|jenne-?jeno|djenne-?jeno", neg=r"mosque",
+  pat=r"\bdjenn?e\b|\bjenne\b|inland niger delta|jenne-?jeno|djenne-?jeno", neg=r"mosque",
   kn=r"inland niger delta|djenn?e|jenne", wd=["Djenné-Djenno", "Inland Niger Delta terracotta", "Djenné terracotta"], api=["Djenne"])
 N(A, "af_bankoni", "Bankoni terracottas", R, "sculpture (terracotta)", (1100, 1600), pat=r"bankoni", kn=r"bankoni",
   wd=["Bankoni"], api=["Bankoni"])
@@ -663,15 +675,15 @@ N(A, "af_bura", "Bura (Asinda-Sikka) terracottas", R, "sculpture (terracotta)", 
   ctx=r"niger|terracotta|bura", neg=r"bura\b.*(nigeria|cameroon).*(people|textile)", kn=r"\bbura\b",
   wd=["Bura culture", "Bura (archaeological site)"], api=["Bura terracotta"])
 N(A, "af_koma", "Koma (Komaland) terracottas", R, "sculpture (terracotta)", (1100, 1700), pat=r"\bkoma\b|komaland",
-  ctx=r"ghana|terracotta|koma", kn=r"\bkoma\b|komaland", wd=["Koma Land", "Komaland terracottas"], api=["Koma terracotta"])
+  ctx=r"ghana|komaland|terracotta", neg=r"japan|komainu|koma-?inu", kn=r"\bkoma\b|komaland", wd=["Koma Land", "Komaland terracottas"], api=["Koma terracotta"])
 N(A, "af_sao", "Sao culture (Lake Chad)", R, "sculpture (terracotta, bronze)", (500, 1600), pat=r"\bsao\b",
-  ctx=r"chad|cameroon|terracotta|bronze|kotoko|sao culture", neg=r"sao paulo|sao tome|\bsao\b \w+ (brazil|portugal)",
-  kn=r"\bsao\b", wd=["Sao civilisation", "Sao civilization", "Sao people"], api=["Sao Chad"])
+  ctx=r"chad|cameroon|terracotta|bronze|kotoko|sao culture", neg=r"sao paulo|sao tome|\bsao\b \w+ (brazil|portugal)|timor",
+  kn=r"^sao$|^sao\b|sao civili|sao culture", wd=["Sao civilisation", "Sao civilization", "Sao people"], api=["Sao Chad"])
 N(A, "af_sapi", "Sapi stone figures (nomoli, pomdo) and Sapi-Portuguese ivories", R, "sculpture (stone, ivory)", (1400, 1650),
   pat=r"\bsapi\b|nomoli|pomdo|afro-?portuguese|sapi-?portuguese|bullom|luso-?african", kn=r"sapi|nomoli|afro-?portuguese",
   wd=["Afro-Portuguese ivories", "Nomoli", "Sapi culture", "Sapi-Portuguese ivories"], api=["nomoli", "Afro-Portuguese ivory"])
 N(A, "af_aksum", "Aksumite art", R, "sculpture; coins; architecture", (-100, 960),
-  pat=r"aksum|axum|aksumite|axumite|d'mt\b|\bdmt\b|yeha|matara|adulis", kn=r"aksum|axum",
+  pat=r"aksum|axum|aksumite|axumite|d'mt\b|\bdmt\b|yeha|adulis", ctx=ETH + r"|aksum|axum|adulis|yeha", kn=r"aksum|axum",
   wd=["Kingdom of Aksum", "Aksumite art", "Aksumite architecture"], api=["Aksum", "Axum"])
 N(A, "af_kerma", "Kerma culture (Nubia)", R, "ceramics; jewellery", (-2500, -1500), pat=r"\bkerma\b", kn=r"\bkerma\b",
   wd=["Kerma culture", "Kingdom of Kerma"], api=["Kerma"])
@@ -686,10 +698,11 @@ N(A, "af_ballana", "Post-Meroitic Nubia (X-Group / Ballana)", R, "metalwork; cer
   pat=r"ballana|qustul|x-group|x group|post-?meroitic|noba(dia)?\b", kn=r"ballana|x-group|post-meroitic",
   wd=["Ballana culture", "X-Group culture", "Noubadia"], api=["Ballana"])
 N(A, "af_christian_nubia", "Christian Nubia (Faras wall painting, Makuria)", R, "wall painting; ceramics", (550, 1500),
-  pat=r"faras|makuria|nobadia|alodia|christian nubia|old nubian|dongola|qasr ibrim", kn=r"faras|makuria|christian nubia",
+  pat=r"\bfaras\b|makuria|nobadia|alodia|christian nubia|old nubian|dongola|qasr ibrim", date=(500, 1600), mid=True, kn=r"faras|makuria|christian nubia",
   wd=["Faras Gallery", "Makuria", "Nubian Christian art"], api=["Faras", "Christian Nubia"])
 N(A, "af_gzim", "Great Zimbabwe (soapstone birds) and Zimbabwe culture", R, "sculpture (soapstone); architecture", (1100, 1650),
   pat=r"great zimbabwe|zimbabwe birds?|soapstone birds?|zimbabwe culture|\bkhami\b|mutapa|monomotapa|torwa",
+  ctx=r"zimbabwe|southern africa|mutapa|monomotapa|limpopo|mozambique|botswana",
   kn=r"great zimbabwe|zimbabwe culture|zimbabwe bird", wd=["Great Zimbabwe", "Zimbabwe Bird", "Zimbabwe culture"],
   api=["Great Zimbabwe"])
 N(A, "af_mapungubwe", "Mapungubwe (gold rhinoceros)", R, "goldwork", (1075, 1220), pat=r"mapungubwe|bambandyanalo|\bk2 (site|culture)",
@@ -1097,7 +1110,8 @@ def match(r):
         elif n["inf"]:
             prx, groups, win, mrx = n["inf"]
             if prx.search(loc) and date_inside(r, win) and \
-                    ((groups and group in groups) or (mrx and mrx.search(fold(r["medium"] + " " + r["otype"] + " " + r["title"])))):
+                    (groups is None or group in groups) and \
+                    (mrx is None or mrx.search(fold(r["medium"] + " " + r["otype"] + " " + r["title"]))):
                 basis = "inferred"
         if not basis:
             continue

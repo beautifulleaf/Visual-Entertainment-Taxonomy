@@ -436,8 +436,9 @@ TRADITIONS = [
     ("Kholuy icon painting", "Russia", "icon painting", r"холуйск\w* (письм|икон)", ""),
     ("Ural icon painting", "Russia", "icon painting", r"уральск\w* (письм|школ)", ""),
     # --- Balkan and Caucasian icon schools (scope addition 2026-10-28)
+    ("Chiprovtsi iconographic school", "Bulgaria", "icon painting", r"chiprovtsi icon|чипровск\w* (икон|школ)", ""),
     ("Tryavna Iconographic School", "Bulgaria", "icon painting", r"tryavna|трявн|тревненск", ""),
-    ("Bansko art school", "Bulgaria", "icon painting", r"bansko|банско|банск\w* (школ|иконопис)", ""),
+    ("Bansko art school", "Bulgaria", "icon painting", r"\bbansko|(?<![а-яё])банско", ""),
     ("Samokov Art School", "Bulgaria", "icon painting", r"samokov|самоковск", ""),
     ("Strandzha Iconographic School", "Bulgaria", "icon painting", r"strandzha|странджа", ""),
     ("Bulgarian icon painting", "Bulgaria", "icon painting", r"bulgarian icon|болгарск\w* икон", ""),
@@ -449,10 +450,10 @@ TRADITIONS = [
     # --- manuscript illumination traditions (Caucasus, Slavic Orthodox)
     ("Armenian manuscript illumination", "Armenia", "manuscript illumination",
      r"armenian (illuminat|manuscript|gospel|miniatur)|армянск\w* (рукопис|миниатюр|евангел)|toros roslin|t'oros roslin", ""),
-    ("Cilician school of Armenian illumination", "Armenia", "manuscript illumination", r"cilicia|киликийск|hromkla|ромкл", ""),
-    ("Vaspurakan school of Armenian illumination", "Armenia", "manuscript illumination", r"vaspurakan|васпуракан", ""),
-    ("Glajor (Gladzor) school of illumination", "Armenia", "manuscript illumination", r"glajor|gladzor|гладзор|глаjор", ""),
-    ("Syunik school of illumination (Tatev)", "Armenia", "manuscript illumination", r"syunik|siunik|сюник|tatev\b|татев", ""),
+    ("Cicilian school of Armenian miniature painting", "Armenia", "manuscript illumination", r"cilicia|киликийск|hromkla|ромкл", ""),
+    ("Vaspurakan school of Armenian miniature painting", "Armenia", "manuscript illumination", r"vaspurakan|васпуракан", ""),
+    ("Gladzor school of Armenian miniature painting", "Armenia", "manuscript illumination", r"glajor|gladzor|гладзор|глаjор", ""),
+    ("Tatev school of Armenian miniature painting", "Armenia", "manuscript illumination", r"syunik|siunik|сюник|\btatev\b|(?<![а-яё])татевск", ""),
     ("Georgian manuscript illumination", "Georgia", "manuscript illumination",
      r"georgian (illuminat|manuscript|gospel)|грузинск\w* (рукопис|миниатюр|евангел)", ""),
     ("Old Russian manuscript illumination", "Russia", "manuscript illumination",
@@ -851,6 +852,34 @@ NOT_TRADITION = re.compile(
     r"recipe|beverage|tradition of a festival|religious festival|fiesta|carnival|procession|sport|"
     r"type of sport|game|ritual|rite|oral tradition|song|genre of music|music genre|language|"
     r"historical period|class of anatomical entity|taxon|architectural style|horse breed|dog breed)$", re.I)
+# visual-medium words without the generic craft/art words: used for items reached only via the
+# generic roots (craft, handicraft, ...), which also hold trades such as butchery or masonry
+VISUAL_SIGNAL = re.compile(
+    r"embroider|lace|pottery|ceramic|porcelain|faience|maiolica|majolica|carv|paint|weav|textile|costume|dress|"
+    r"\begg|toy|lacquer|\brug|carpet|kilim|\btile|azulejo|\bware\b|enamel|filigree|woodwork|paper|basket|glass|"
+    r"icon|knit|felt|printing|blueprint|indigo|\bdye|jewel|silver|metal|decorat|ornament|wicker|straw|"
+    r"leather|mask|doll|figur|sculpt|cross|clay|shawl|sash|belt|blouse|tapestr|needle|stitch|quilt|"
+    r"gild|inlay|engrav|smith|mosaic|народн|промысел|роспис|вышив|кружев|резьб", re.I)
+GENERIC_ROOTS = {"craft", "handicraft", "traditional craft", "decorative art", "artistic technique",
+                 "ICH status", "HCA Red List"}
+# P31 classes of individual objects, places and non-visual things (for items that are not classes)
+OBJECT_P31 = re.compile(
+    r"ceramic tile|^azulejo$|decorative wall|shop|depot|building|barracks|print|mural|archaeolog|intaglio|"
+    r"jewel|looted|egg$|plate$|vase|bowl|dish|festival|music|dessert|food|ship|boat|vehicle|painting|"
+    r"sculpture|relief|statue|object|artefact|artifact|manuscript|church|chapel|altarpiece|work of art|"
+    r"panel|monument|exhibit|collection|specimen|garment$|item|nightclub|historic|image|crucifix|"
+    r"processional|book|edition|map|atlas", re.I)
+TRADITION_P31 = re.compile(
+    r"craft|intangible|genre|movement|style|technique|tradition|folk art|decorative art|school|"
+    r"costume|bunad|tracht|lace|embroider|pottery ware|rug style|toy|textile art|needlework|art of", re.I)
+NON_VISUAL_CLASS = re.compile(
+    r"music|song|dance|archaeolog|greek vase|ancient greek|vessel shape|container|oven|cooking|food|dish|"
+    r"masonry|dry stone|architectur|building|cuisine|beverage|game|sport|ritual|custom|celebration", re.I)
+ARTWORK_P31 = re.compile(r"technique|maiolica|faience|porcelain|cut-paper|papercut|engraving|print|stoneware|"
+                         r"earthenware|ceramic", re.I)
+BIG_MOVEMENTS = re.compile(r"^(gothic art|art deco|bauhaus|art nouveau|byzantine art|medieval greek|romanesque art|"
+                           r"geometric art|protogeometric art|orientalizing period|modernism|arts and crafts movement|"
+                           r"jugendstil|secession|biedermeier|rococo|baroque|neoclassicism)$", re.I)
 MOVEMENT_FINE_ART = re.compile(r"avant.?garde|modernis|futuris|cubis|expressionis|surrealis|impressionis|"
                                r"abstract|realism|baroque|rococo|renaissance|mannerism|neoclassic|romanticism|"
                                r"academic|contemporary art|pop art|conceptual|minimalis|group of (painters|artists)",
@@ -977,10 +1006,10 @@ MS_LANGS = {  # language QID (verified labels) -> tradition label, None = decide
     "Q9299": "Serbian manuscript illumination", "Q7918": "Bulgarian manuscript illumination",
     "Q12294897": "Bulgarian manuscript illumination",
 }
-ARMENIAN_SCHOOLS = [(r"cilici|sis\b|hromkla|skevra|drazark", "Cilician school of Armenian illumination"),
-                    (r"vaspurakan|\bvan\b|aght?amar|khizan", "Vaspurakan school of Armenian illumination"),
-                    (r"glajor|gladzor", "Glajor (Gladzor) school of illumination"),
-                    (r"syunik|siunik|tatev", "Syunik school of illumination (Tatev)")]
+ARMENIAN_SCHOOLS = [(r"cilici|sis\b|hromkla|skevra|drazark", "Cicilian school of Armenian miniature painting"),
+                    (r"vaspurakan|\bvan\b|aght?amar|khizan", "Vaspurakan school of Armenian miniature painting"),
+                    (r"glajor|gladzor", "Gladzor school of Armenian miniature painting"),
+                    (r"syunik|siunik|tatev", "Tatev school of Armenian miniature painting")]
 
 
 def wd_icons_manuscripts():
@@ -1095,6 +1124,25 @@ def harvest_wikidata():
         only_ich = roots <= {"ICH status", "HCA Red List"}
         if only_ich and not ICH_SIGNAL.search(text):
             drops["ICH, not craft/visual"] += 1
+            continue
+        if roots <= GENERIC_ROOTS and not VISUAL_SIGNAL.search(text):
+            drops["generic craft root, no visual medium"] += 1
+            continue
+        if BIG_MOVEMENTS.match(label):
+            drops["major style/movement (covered elsewhere)"] += 1
+            continue
+        if any(NON_VISUAL_CLASS.search(c) for c in p31 | p279) and not FOLK_WD.search(label + " " + desc):
+            drops["non-visual or ancient class"] += 1
+            continue
+        if re.search(r"music|dance|song|archaeolog|greek vase|food|dish|cuisine|beverage|pastry|dessert|bread|"
+                     r"holiday|celebration|sport|game|fictional|character|deity|saint", classes, re.I):
+            drops["non-visual or ancient class"] += 1
+            continue
+        if not p279 and p31 and all(ARTWORK_P31.search(c) for c in p31):
+            drops["individual artwork (P31 medium class)"] += 1
+            continue
+        if not p279 and any(OBJECT_P31.search(c) for c in p31) and not any(TRADITION_P31.search(c) for c in p31):
+            drops["individual object/place (P31)"] += 1
             continue
         if q in needs_signal and not (roots - {r[1] for r in ROOTS if r[3]}) and not d["ich"]:
             if not FOLK_WD.search(text) or (MOVEMENT_FINE_ART.search(text) and not re.search(r"folk|icon|народн", text, re.I)):
@@ -1262,7 +1310,8 @@ def harvest_goskatalog(icons=True, progress=None):
                 museum = _s((d.get("museum") or {}).get("name")) if isinstance(d.get("museum"), dict) else ""
                 year = gosk_year(d)
                 if not trads and not peoples:
-                    if n == GOSK_ICON_FILE or n in GOSK_BOOK_FILES:
+                    if n == GOSK_ICON_FILE or (n in GOSK_BOOK_FILES and (med == "popular prints" or re.search(
+                            r"рукопис|лицев|миниатюр", (name + " " + desc[:500]).lower()))):
                         # unmatched icons / manuscripts still count towards a generic Russian cell
                         b = bucket(agg["people"], f"Russian (no school recorded) / {med}")
                         b["n"] += 1
@@ -1565,40 +1614,44 @@ GENERIC_TOKENS = set("""embroidery lace painting pottery ware ceramics ceramic s
 craft crafts carving woodcarving miniature toy toys tradition traditional of the and de la le du del di da
 technique work works rug rugs carpet carpets textile textiles weaving decorative russian costume figures
 eggs egg shawl sashes knitting stitch printing on glass painted majolica maiolica faience scenes making
-paper cuts""".split())
+paper cuts doll dolls bone bark birch iron knife northern southern eastern western cast casting enamel
+silver metalwork ivory walrus leather mosaic inlay wood tiled stoves stove""".split())
 
 
 def load_known():
-    """Met/AIC culture keys (build_traditions output) and their place tokens."""
+    """Met/AIC culture keys (build_traditions output): full keys, place-level sub-key tokens, base cultures."""
     keys, sub_tokens, base = set(), collections.defaultdict(set), set()
-    for path in (MET_CULTURES, MET_TRADITIONS):
-        if not os.path.exists(path):
-            continue
-        with open(path, encoding="utf-8") as f:
+    if os.path.exists(MET_CULTURES):
+        with open(MET_CULTURES, encoding="utf-8") as f:
             for r in csv.DictReader(f):
+                if r.get("kind") != "culture":
+                    continue
                 k = r.get("key", "")
                 keys.add(k)
-                for part in re.split(r"[,/|]", k):
-                    part = part.strip()
-                    if part:
-                        for tok in part.split():
-                            if len(tok) >= 4:
-                                sub_tokens[tok].add(k)
-                if r.get("kind") == "culture" and ", " not in k:
+                if ", " in k:
+                    for tok in k.split(", ", 1)[1].split():
+                        if len(tok) >= 4:
+                            sub_tokens[tok].add(k)
+                else:
                     base.add(k)
+    if os.path.exists(MET_TRADITIONS):
+        with open(MET_TRADITIONS, encoding="utf-8") as f:
+            for r in csv.DictReader(f):
+                if r.get("kind") == "culture_technique":
+                    keys.add(r.get("technique", "").lower())
     return keys, sub_tokens, base
 
 
 def known_status(label, known):
     keys, sub_tokens, base = known
     f = fold(label)
-    if f in keys or f.replace(" / ", " / ") in keys:
+    if f in keys:
         return "exact", f
     toks = [t for t in re.findall(r"[a-z]+", f) if t not in GENERIC_TOKENS and len(t) >= 4]
     for t in toks:
         if t in base or t.rstrip("s") in base:
             continue
-        for cand in (t, t[:-1], t.rstrip("ware"), t[:5]):
+        for cand in {t, t[:-1], re.sub(r"(ware|ian|ish|er|s)$", "", t)}:
             if len(cand) >= 4 and cand in sub_tokens:
                 hits = sorted(sub_tokens[cand], key=len)
                 # place-level hit only when the token is a sub-key (e.g. "dutch, delft"), not a base culture
@@ -1697,7 +1750,7 @@ def build_outputs(wd, link, gosk, finna, museums, europeana, ms_ev=None):
         return nodes[q_to_key.get(q) or f"pattern:{slug(TRADITIONS[i][0])}"]
 
     def people_node(cell):
-        people, med = cell.split(" / ", 1)
+        people, med = cell.rsplit(" / ", 1)
         p = PEOPLE_INFO.get(people)
         return node(f"people:{slug(people)}:{slug(med)}", kind="people_medium", label=f"{people} / {med}",
                     people=people, country=p[1] if p else "", region=p[2] if p else "", medium=med)
@@ -1761,7 +1814,7 @@ def build_outputs(wd, link, gosk, finna, museums, europeana, ms_ev=None):
             elif table == "people":
                 n = people_node(k)
             else:
-                cult, med = k.split(" / ", 1)
+                cult, med = k.rsplit(" / ", 1)
                 base = fold(cult.split(",")[0])
                 ctry = CULTURE_COUNTRY.get(base, "")
                 n = node(f"culture:{slug(cult)}:{slug(med)}", kind="culture_medium", label=k, country=ctry,
@@ -1833,7 +1886,7 @@ def build_outputs(wd, link, gosk, finna, museums, europeana, ms_ev=None):
         elif table == "people":
             nk = people_node(k)["node_key"]
         else:
-            cult, med = k.split(" / ", 1)
+            cult, med = k.rsplit(" / ", 1)
             nk = f"culture:{slug(cult)}:{slug(med)}"
         for it in items:
             ev.append(dict(it, node_key=nk))
