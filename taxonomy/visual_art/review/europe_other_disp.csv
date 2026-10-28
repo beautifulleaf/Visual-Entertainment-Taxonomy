@@ -1,0 +1,404 @@
+pool_id,disposition,note
+manuscripts:Western European manuscripts (undated),exclude:language bucket,"Latin and vernacular codices as texts; samples are documents (Cantar de Mio Cid, Codex Leicester)"
+in_situ:Scandinavian rock carvings (hällristningar / helleristninger),tag:place,"bucket over Sweden, Norway, Finland; evidences L54, L55; no attested umbrella leaf"
+met/aic:French,tag:place,"evidences L23, L41"
+met/aic:American,tag:place,
+met/aic:Italian,tag:place,"evidences L22, L29"
+"manuscripts:Western European manuscripts, Gothic (unlocalised, 1201-1450)",tag:period,"Gothic period bucket; illuminators (Limbourg, Jacquemart de Hesdin) belong to T134 Gothic Book Illustration (artist)"
+"manuscripts:Western European manuscripts, early modern (1600+)",exclude:language bucket,"post-1600 documents and autographs; named ""illuminators"" are authors"
+met/aic:British,tag:place,"evidences L26, L35"
+met/aic:European,tag:place,
+met/aic:German,tag:place,"evidences L30 (glass), armour"
+manuscripts:Hebrew manuscripts (unlocalised),leaf:L14,QID Q16632155
+"manuscripts:Western European manuscripts, late medieval/Renaissance (unlocalised, 1451-1600)",tag:period,period bucket; evidences L13
+rijks/wereldmuseum:European,exclude:collection bucket,colonial-period objects from Indonesia and Suriname
+met/aic:Spanish,tag:place,
+manuscripts:Armenian (later or unlocalised),leaf:L1,QID Q123981818
+in_situ:Tanum / Bohuslän Bronze Age rock carvings,leaf:L54,
+in_situ:mural - Spain (undated),tag:place,
+met/aic:Dutch,tag:place,ceramics 489: evidences L24
+"met/aic:Italian, Venice",tag:place,"glass 410: evidences L29; textiles (Venetian lace, velvets)"
+manuscripts:Romanesque,leaf:L12,QID Q1276812
+"manuscripts:French late Gothic and Renaissance (Fouquet, Bourdichon)",kind:L13/French,"Fouquet, Bourdichon, Pichore"
+in_situ:mural - France (undated),tag:place,
+met/aic:Flemish,tag:place,textiles 646: evidences L40
+"manuscripts:Western European manuscripts, early medieval (unlocalised, to 1060)",tag:period,"period bucket; evidences L8, L9"
+met/aic:Russian,tag:place,
+in_situ:Levantine rock art (Mediterranean Basin of Iberia),leaf:L51,QID Q1975533
+manuscripts:Italian Renaissance illumination,leaf:L13,QID Q998631
+manuscripts:Gothic: French and Northern French,route:artist-led,"Gothic Book Illustration (T134), kind French; QID Q1538834"
+met/aic:Frankish,kind:L32/Frankish,metalwork 658
+"manuscripts:Gothic: Italian (Bologna, Florence, Siena, Lombardy)",route:artist-led,"Gothic Book Illustration (T134), kind Italian"
+manuscripts:Books of Hours,exclude:object type,"manuscript genre spanning T134, T135 and L13; an attribute of works"
+met/aic:Swiss,tag:place,
+in_situ:mural - Spain (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+met/aic:Austrian,tag:place,
+manuscripts:Gothic: English,route:artist-led,"Gothic Book Illustration (T134), kind English"
+in_situ:rock art - Spain (undated),tag:place,
+met/aic:Belgian,tag:place,lace and collars; evidences europe_folk_west lace leaves
+manuscripts:Hebrew: Italian,kind:L14/Italian,Rothschild Miscellany
+met/aic:South Netherlandish,tag:place,
+met/aic:Irish,tag:place,
+manuscripts:German / Austrian late Gothic and Renaissance,tag:place,regional period bucket
+in_situ:Atlantic rock art (cup-and-ring marks),leaf:L53,QID Q373661
+in_situ:Baroque and Rococo ceiling and quadratura painting,route:artist-led,"Baroque Painting (T27); quadratura a kind (Pozzo, Tiepolo)"
+"met/aic:British, Staffordshire",leaf:L26,ceramics 318
+manuscripts:Old Rus' and Muscovite,leaf:L15,"named ""illuminators"" are modern noise; samples Ostromir Gospels, Radziwiłł Chronicle"
+in_situ:mural - Germany (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+manuscripts:Gothic: German and Austrian,route:artist-led,"Gothic Book Illustration (T134), kind German"
+"met/aic:Italian, Naples",leaf:L19,crèche 218
+"met/aic:French, Paris",tag:place,
+manuscripts:Bibles moralisées and illustrated Bibles,route:artist-led,"Gothic Book Illustration (T134), kind Bible moralisée"
+in_situ:Iberian Schematic rock art,leaf:L52,
+in_situ:mural - Czech Republic (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+met/aic:Bohemian,leaf:L30,glass 177
+met/aic:Hungarian,route:europe_folk_east,"folk dress, textiles and idiophones (place bucket)"
+manuscripts:Iberian late Gothic and Renaissance,tag:place,regional period bucket
+manuscripts:Central and Eastern European manuscripts,exclude:language bucket,modern authors' autographs
+met/aic:Southern German,tag:place,
+in_situ:mural - Germany (undated),tag:place,
+"met/aic:British, London",tag:place,
+"met/aic:Italian, Genoa",tag:place,Genoa velvets and lace; no leaf attested
+met/aic:Netherlandish,tag:place,
+in_situ:mural - United States (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mosaic - Czech Republic (undated),tag:place,
+"met/aic:Italian, Milan",leaf:L37,helmets and armour
+world_folk:American decoys,leaf:L20,
+manuscripts:Bestiaries,exclude:object type,manuscript genre; attribute of works
+"in_situ:Italian Trecento and Renaissance fresco (Giotto, Masaccio, Michelangelo)",route:artist-led,Italian Renaissance Painting (T22) / Gothic Painting (T18)
+manuscripts:Flemish / Ghent-Bruges and Burgundian Netherlands,route:artist-led,Ghent-Bruges School (T135)
+manuscripts:Hebrew: Ashkenazi,kind:L14/Ashkenazi,Birds' Head Haggadah
+manuscripts:English late medieval,tag:place,English 15th–16th-c. bucket; mostly texts
+"met/aic:German, Saxony",tag:place,
+"met/aic:Italian, Florence",tag:place,
+met/aic:Portuguese,tag:place,
+in_situ:Franco-Cantabrian Palaeolithic cave art,leaf:L49,
+"met/aic:German, Augsburg",tag:place,Augsburg goldsmiths and armourers (Helmschmid); no attested leaf
+manuscripts:Hebrew: Sephardi,kind:L14/Sephardi,Sarajevo and Golden Haggadahs
+smithsonian:Deh Gah Got'ine (Slavey),route:north_america_indigenous,Dene (Slavey) material culture
+in_situ:mural - Netherlands (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:rock art - France (undated),tag:place,
+manuscripts:Gothic: Low Countries,route:artist-led,"Gothic Book Illustration (T134), kind Low Countries"
+"met/aic:Flemish, Brussels",tag:place,textiles 126 (c. 1700): Brussels tapestry kind of L40 and Brussels lace (europe_folk_west L17)
+"met/aic:German, Nuremberg",tag:place,
+met/aic:Swedish,route:europe_folk_west,folk textiles (place bucket)
+"in_situ:Western European wall and ceiling painting (other, pre-1850)",tag:place,
+rijks/wereldmuseum:Colonial Insular Southeast Asian periodes and styles,route:southeast_asia,
+"met/aic:British, Export",tag:place,
+"met/aic:Belgian, Brussels",route:europe_folk_west,Brussels Lace (L17)
+"in_situ:Catalan Romanesque wall painting (Taüll, Boí)",kind:L59/Catalan,Sant Climent de Taüll
+met/aic:Scottish,tag:place,
+in_situ:mural - Czech Republic (undated),tag:place,
+met/aic:Northern Italian,tag:place,
+"met/aic:British, South Staffordshire",leaf:L35,enamels 93
+in_situ:mural - Austria (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mosaic - Czech Republic (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+"met/aic:Italian, Rome",tag:place,
+in_situ:mural - France (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mural - Italy (undated),tag:place,
+"met/aic:British, Buckinghamshire",leaf:L43,
+"met/aic:Spanish, Seville",tag:place,"Seville tiles (cuerda seca, arista): seam with E1-8 and L64"
+"met/aic:European, Eastern",route:europe_folk_east,"folk dress, textiles and idiophones (place bucket)"
+"met/aic:Italian, Sicily",tag:place,
+met/aic:North Italian,tag:place,
+"met/aic:Dutch, Delft",leaf:L24,
+in_situ:Modern land art (Western Europe),route:artist-led,Land Art (T198)
+"met/aic:French, Rouen",kind:L23/Rouen,
+met/aic:Romanian,route:europe_folk_east,"folk dress, textiles and idiophones (place bucket)"
+smithsonian:Europeans,route:ancient_world,"glass jewellery, begin c. AD 250: Roman Glass (L42)"
+manuscripts:Hebrew: French / Provençal,kind:L14/French and Provençal,
+manuscripts:Gothic: Parisian,route:artist-led,"Gothic Book Illustration (T134), kind Parisian (Pucelle)"
+met/aic:Armenian,tag:place,
+met/aic:North French,tag:place,ivories 27: evidences L17
+in_situ:mosaic - Germany (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+met/aic:Ecuadoran,route:mesoamerica_south_america,Quito School (L10): crèche figures
+"met/aic:Italian, Deruta",kind:L22/Deruta,
+manuscripts:Gothic: Iberian,route:artist-led,"Gothic Book Illustration (T134), kind Iberian"
+in_situ:Gothic wall painting,leaf:L60,QID Q5640253
+world_folk:American weathervanes and whirligigs,leaf:L21,
+met/aic:Czech,route:europe_folk_east,"folk dress, textiles and idiophones (place bucket)"
+met/aic:Danish,tag:place,
+in_situ:mural - Finland (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:Portuguese azulejo panels,leaf:L64,QID Q3179385
+in_situ:mosaic - France (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+met/aic:Albanian,route:europe_folk_east,"folk dress, textiles and idiophones (place bucket)"
+met/aic:Montenegrin,route:europe_folk_east,"folk dress, textiles and idiophones (place bucket)"
+met/aic:Celtic,leaf:L31,"metalwork 42, begin c. 400 BC"
+met/aic:Langobardic,kind:L32/Lombard,
+in_situ:mural - Poland (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+"met/aic:Spanish, Valencia",kind:E1-8/Valencia,Hispano-Moresque lustreware of Manises and Valencia
+"met/aic:Italian, Burano",route:europe_folk_west,Burano Lace (L15)
+manuscripts:Anglo-Saxon (Winchester school),leaf:L10,QID Q17354453
+met/aic:Guatemalan,route:mesoamerica_south_america,
+met/aic:Western European,tag:place,armour and swords
+in_situ:mural - Switzerland (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+met/aic:Slovak,route:europe_folk_east,"folk dress, textiles and idiophones (place bucket)"
+"met/aic:British, Bilston",kind:L35/Bilston,
+met/aic:Norwegian,route:europe_folk_west,folk textiles (place bucket)
+in_situ:mural - United Kingdom (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+"met/aic:British, Birmingham",kind:L35/Birmingham,
+"met/aic:Flemish, Mechlin",route:europe_folk_west,Mechlin Lace (L18)
+"met/aic:British, Bedfordshire",leaf:L44,
+"met/aic:French, Lyons",tag:place,Lyon silks; no leaf attested
+"met/aic:British, Bristol",tag:place,Bristol glass and delftware (L24)
+manuscripts:Ottonian,leaf:L9,QIDs Q1066218 Q1520763
+manuscripts:Georgian,tag:place,QID is Georgian art; no attested Georgian manuscript leaf (gap)
+manuscripts:Apocalypses (non-Beatus),exclude:object type,manuscript genre; attribute of works
+met/aic:Polish,tag:place,
+met/aic:South German,tag:place,
+met/aic:Visigothic,kind:L32/Visigothic,
+manuscripts:Carolingian,leaf:L8,QIDs Q614082 Q1734271
+in_situ:mosaic - Netherlands (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+"met/aic:French, Nevers",kind:L23/Nevers,also Nevers glass figures (verre filé)
+"met/aic:Italian, Brescia",tag:place,
+"manuscripts:South Slavic (Serbian, Bulgarian)",tag:place,"Miroslav Gospel, Book of Boril; no attested South Slavic illumination leaf (gap)"
+in_situ:mural - Portugal (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+"met/aic:Spanish, Catalonia",tag:place,
+americas_oceania:Native North American,route:north_america_indigenous,
+world_folk:Pennsylvania German fraktur,leaf:L16,
+world_folk:Pennsylvania German decorated redware and painted chests,leaf:L27,painted dower chests a kind (furniture seam)
+manuscripts:Beatus manuscripts,kind:L11/Beatus manuscripts,"Morgan, Gerona, Saint-Sever Beatus"
+in_situ:mural - Canada (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mosaic - France (undated),tag:place,
+manuscripts:Late Antique and Early Christian,leaf:L5,QID Q998553
+in_situ:mural - Italy (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mural - United States (undated),tag:place,
+in_situ:rock art - Portugal (undated),tag:place,
+in_situ:Armenian church wall painting,tag:place,no attested leaf for Armenian murals (gap)
+met/aic:Central European,tag:place,
+in_situ:Alta rock art (Finnmark),leaf:L55,
+world_folk:Scrimshaw,leaf:L18,QID Q2261659
+manuscripts:Croatian Glagolitic,exclude:language bucket,script bucket; Glagolitic codices as texts
+"met/aic:Italian, Siena",tag:place,
+manuscripts:Mozarabic / Visigothic,leaf:L11,QIDs Q1951304 Q18214676
+in_situ:English chalk hill figures,leaf:L68,QID Q2918952
+met/aic:Northern European,tag:place,
+rijks/wereldmuseum:Native North American,route:north_america_indigenous,mostly European prints of Native Americans
+in_situ:Côa / Siega Verde open-air Palaeolithic rock art,leaf:L50,
+in_situ:mural - Netherlands (undated),tag:place,
+world_folk:Amish quilts,leaf:L45,
+manuscripts:Insular (Hiberno-Saxon),leaf:L6,QIDs Q612118 Q13522717
+manuscripts:Central and Eastern European manuscripts (1500+),tag:place,"Samostrzelnik, Ciołek Missal; regional bucket"
+"met/aic:Italian, Urbino",kind:L22/Urbino,istoriato
+in_situ:mural - Austria (undated),tag:place,
+in_situ:mural - United Kingdom (undated),tag:place,
+in_situ:mural - no country (medieval),tag:place,
+in_situ:Soviet monumental mosaics,leaf:L67,QID Q105596504
+met/aic:Eastern European,tag:place,
+"met/aic:Italian, Padua",route:artist-led,Renaissance Sculpture (T142): Paduan bronzes (Riccio)
+in_situ:mosaic - Austria (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+met/aic:North German,tag:place,
+americas_oceania:Unspecified (California),route:north_america_indigenous,California Indian Basketry (L40)
+manuscripts:International Gothic,route:artist-led,International Gothic (T20) / Gothic Book Illustration (T134); Limbourg brothers
+in_situ:mural - Canada (undated),tag:place,
+in_situ:mural - Switzerland (undated),tag:place,
+in_situ:mosaic - Moldova (undated),tag:place,
+met/aic:Anglo-Saxon,leaf:L33,
+manuscripts:Armenian: Ani / early Armenian (to 1200),kind:L1/Early Armenian,Etchmiadzin and Mugni Gospels
+"manuscripts:Gothic: Central European (Poland, Hungary)",route:artist-led,"Gothic Book Illustration (T134), kind Central European"
+in_situ:mural - Belgium (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mosaic - Austria (undated),tag:place,
+"met/aic:German, Brunswick",tag:place,
+world_folk:Hooked rugs (incl. Grenfell mats),leaf:L46,
+in_situ:mosaic - Germany (undated),tag:place,
+met/aic:Carolingian,tag:period,ivories and metalwork; evidences L8 (Carolingian ivories a gap)
+"met/aic:Hungarian, Transylvania",tag:place,
+"met/aic:Italian, Pesaro",kind:L22/Pesaro,
+in_situ:Lüftlmalerei (Alpine façade painting),route:europe_folk_west,"Lüftlmalerei (wiki:Lüftlmalerei, Q1880270): vernacular façade painting; no leaf there yet"
+met/aic:Central Italian,tag:place,
+met/aic:North Spanish,tag:place,"Romanesque ivories (San Millán, León)"
+met/aic:Southern Italy,tag:place,
+in_situ:mosaic - Switzerland (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+met/aic:Germanic,alias:L32,Germanic metalwork and equestrian fittings
+in_situ:rock art - Germany (undated),tag:place,
+in_situ:mosaic - Netherlands (undated),tag:place,
+met/aic:European Bronze Age,tag:period,
+"met/aic:Russian, St. Petersburg",tag:place,Imperial factories; evidences L38
+in_situ:mural - Poland (undated),tag:place,
+in_situ:mural - Portugal (undated),tag:place,
+in_situ:mosaic - Albania (undated),tag:place,
+in_situ:mosaic - Italy (undated),tag:place,
+in_situ:mosaic - Spain (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+met/aic:Northern French,tag:place,
+in_situ:mural - Sweden (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mosaic - United States (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mosaic - United States (undated),tag:place,
+in_situ:mosaic - United Kingdom (undated),tag:place,
+"met/aic:Bohemian, Prague",tag:place,
+"met/aic:Spanish, Granada",tag:place,
+in_situ:rock art - Austria (undated),tag:place,
+in_situ:Modern land art (C&E Europe),route:artist-led,Land Art (T198)
+"met/aic:Italian, Ferrara",tag:place,
+"met/aic:Netherlandish, Brussels",kind:L40/Brussels,tapestries c. 1550; wiki:Brussels tapestry
+met/aic:Ottonian,tag:period,ivories and metalwork; evidences L9
+manuscripts:Armenian: Vaspurakan school,kind:L1/Vaspurakan school,Q16400450
+manuscripts:Gothic: Bohemian,route:artist-led,"Gothic Book Illustration (T134), kind Bohemian"
+in_situ:Medieval Western church mosaics,tag:period,mixed floor and wall mosaics
+met/aic:East Germanic,kind:L32/East Germanic,
+met/aic:Viking,leaf:L34,
+manuscripts:Mosan / Romanesque,kind:L12/Mosan,see T157 Mosan Art (artist); Averbode Evangeliary
+"in_situ:Romanian church painting (Wallachia, Transylvania, Maramureș)",tag:place,exemplars mixed (Chișinău circus mural)
+"in_situ:Nordic church wall painting (kalkmålningar, Albertus Pictor)",kind:L60/Nordic church painting,maker Albertus Pictor
+in_situ:mosaic - Spain (undated),tag:place,
+"met/aic:French, Cartoon",tag:place,"tapestries designed in France, woven in the Southern Netherlands: evidences L40"
+"met/aic:French, Saint-Porchaire",leaf:L25,
+"met/aic:South Netherlandish, Woven",leaf:L40,tapestries woven in the Southern Netherlands c. 1495
+"met/aic:Spanish, Almería",tag:place,
+in_situ:Ural rock paintings (pisanitsy),leaf:L57,QID Q4476738
+in_situ:mural - Ukraine (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mosaic - Italy (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+"met/aic:German, Rhineland",tag:place,
+"met/aic:Russian, Kholmogory",route:europe_folk_east,Kholmogory bone carving (chess sets)
+in_situ:Kyivan Rus' mosaics,route:ancient_world,"Byzantine Mosaics (L59), kind Kyiv"
+in_situ:mosaic - Poland (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mosaic - United Kingdom (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+"met/aic:French, Lyon",tag:place,
+"met/aic:German, Landshut",tag:place,
+manuscripts:Armenian: New Julfa / diaspora,kind:L1/New Julfa,
+in_situ:rock art - Switzerland (undated),tag:place,
+"in_situ:Macedonian (Ohrid) medieval fresco (Nerezi, Kurbinovo, St Sophia Ohrid)",route:ancient_world,"Byzantine Wall Painting (L55), kind Ohrid / Macedonian"
+in_situ:mural - United States (early modern),tag:place,
+in_situ:mural - Belgium (undated),tag:place,
+in_situ:mosaic - Poland (undated),tag:place,
+met/aic:Bosnian,route:europe_folk_east,"folk dress, textiles and idiophones (place bucket)"
+"met/aic:French, Moustiers",kind:L23/Moustiers,
+"met/aic:Northern European, German",tag:place,
+world_folk:Tramp art,leaf:L48,QID Q7833175
+manuscripts:Armenian: Cilician school,kind:L1/Cilician school,Q13053280; Toros Roslin
+manuscripts:Exultet rolls,kind:L12/Exultet rolls,Beneventan rolls of southern Italy
+manuscripts:Romanesque art,exclude:umbrella term,Q46805
+in_situ:Onega and White Sea petroglyphs (Karelia),leaf:L56,
+in_situ:rock art - Russia (undated),tag:place,
+in_situ:rock art - Italy (undated),tag:place,
+"in_situ:Serbian medieval fresco (Raška, Morava schools)",route:ancient_world,"Byzantine Wall Painting (L55), kind Serbian (Raška, Morava schools)"
+in_situ:mural - Slovakia (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:Spanish azulejo and alicatado,kind:L64/Spanish,Valencian ceramic retables
+"met/aic:German, Würzburg",tag:place,
+"met/aic:Hungarian, Munkács",tag:place,
+"met/aic:Italian, Murano",leaf:L29,Murano glass redirects to Venetian glass
+"met/aic:Southern German, Augsburg",tag:place,
+"met/aic:Western European, Langobardic",kind:L32/Lombard,
+manuscripts:Renaissance illumination,alias:L13,same QID Q998631
+manuscripts:Hungarian Corvinian,kind:L13/Corvinian,Bibliotheca Corviniana; Attavante
+in_situ:rock art - Bulgaria (undated),tag:place,
+in_situ:rock art - Andorra (undated),tag:place,
+"in_situ:Bulgarian medieval fresco (Boyana, Ivanovo)",route:ancient_world,"Byzantine Wall Painting (L55), kind Bulgarian"
+"in_situ:Kyivan Rus' fresco (St Sophia, Kyiv)",route:ancient_world,"Byzantine Wall Painting (L55), kind Kyivan Rus'"
+in_situ:Painted monasteries of Bukovina (northern Moldavia),leaf:L61,QID Q387687
+"in_situ:Ukrainian, Belarusian and Polish-Lithuanian church painting",tag:place,weak exemplars
+in_situ:mural - Denmark (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:Catalan trencadís (modernisme),leaf:L65,QID Q2476034
+in_situ:mosaic - Italy (early modern),tag:place,
+met/aic:East German,tag:place,
+"met/aic:German, Frankfurt-am-Main",tag:place,
+"met/aic:Hungarian, Fogaras",tag:place,
+"met/aic:Northern Italian, Padua",route:artist-led,Renaissance Sculpture (T142): Paduan bronzes
+world_folk:Theorem painting,leaf:L3,
+world_folk:Gullah sweetgrass baskets,leaf:L47,
+manuscripts:Ghent-Bruges / Flemish illumination,route:artist-led,Ghent-Bruges School (T135)
+manuscripts:Gothic (style recorded),route:artist-led,Gothic Book Illustration (T134); QID Q1538834
+manuscripts:Merovingian,leaf:L7,QID Q1776421
+in_situ:Valcamonica and Alpine rock art,leaf:L58,
+"in_situ:Russian medieval church fresco (Novgorod, Vladimir, Theophanes, Rublev, Dionisius)",route:ancient_world,"Byzantine Wall Painting (L55), kind Russian (Theophanes, Rublev, Dionisius); seam with T16 Russian Icons"
+in_situ:Yaroslavl and Muscovite church painting (17th c.),route:ancient_world,"Byzantine Wall Painting (L55), kind Russian 17th c. (Yaroslavl)"
+in_situ:mural - Hungary (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:Italian medieval wall painting,kind:L59/Italian,"Santa Sofia, Benevento"
+in_situ:mural - Kingdom of Italy (early modern),tag:place,
+in_situ:mosaic - Croatia (undated),tag:place,
+in_situ:mosaic - Lithuania (undated),tag:place,
+in_situ:mosaic - North Macedonia (undated),tag:place,
+in_situ:Levantine church floor mosaics (Madaba school),route:ancient_world,"Byzantine Mosaics (L59), kind Madaba school"
+in_situ:mosaic - Canada (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mosaic - Belgium (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mosaic - France (ancient),route:ancient_world,Roman Mosaics (L58); Louvre rooms
+in_situ:mosaic - Switzerland (undated),tag:place,
+in_situ:mosaic - no country (medieval),tag:place,
+"met/aic:Bohemian, Chomutov",tag:place,
+"met/aic:Caucasian, Northern Dagestan",route:islamic,Daghestani (Kubachi) dagger
+met/aic:Eastern Central Italian,tag:place,
+"met/aic:Eastern Central Italian, Emilia-Romagna or the Marche",tag:place,
+"met/aic:European, Scandinavia",tag:place,Viking-age sword: evidences L34
+"met/aic:French, La Chapelle-des-Pots",tag:place,
+"met/aic:French, Moulins",tag:place,
+"met/aic:Hungarian, Brassó",tag:place,
+"met/aic:Hungarian, Érsekújvár",tag:place,
+"met/aic:Hungarian, Nagyszeben",tag:place,
+"met/aic:Hungarian, Rimaszombat",tag:place,
+"met/aic:North French, Upper Rhenish",tag:place,Gothic ivory: evidences L17
+met/aic:South Russian,tag:place,
+"met/aic:Western European, Burgundy",tag:place,
+"met/aic:Western European, England",tag:place,single sculpture 1325
+manuscripts:French Gothic,exclude:umbrella term,Q28662599
+manuscripts:Ritual and Tribal European Art,exclude:umbrella term,Q136373984
+manuscripts:French Renaissance,route:artist-led,Q2349908; period style
+manuscripts:Early Netherlandish painting,route:artist-led,Early Netherlandish Painting (T21)
+in_situ:rock art - Bosnia and Herzegovina (undated),tag:place,
+in_situ:rock art - Montenegro (undated),tag:place,
+in_situ:rock art - North Macedonia (undated),tag:place,
+in_situ:rock art - Romania (undated),tag:place,
+in_situ:rock art - Ukraine (undated),tag:place,
+in_situ:rock relief - Romania (ancient),route:artist-led,Statue of Decebalus is a 1994–2004 rock sculpture
+in_situ:rock relief - Greece (early modern),route:artist-led,"Lion of the Bavarians (1836), sculpture"
+in_situ:rock art - Austria (early modern),exclude:not rock art,commemorative plaque
+in_situ:rock art - Austria (modern),exclude:not rock art,commemorative plaque
+in_situ:rock relief - Germany (undated),tag:place,
+in_situ:mural - Albania (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mural - Belarus (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mural - Croatia (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mural - Estonia (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mural - Kosovo (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mural - Lithuania (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mural - North Macedonia (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mural - Russia (early modern),tag:place,
+in_situ:mural - Russia (undated),tag:place,
+in_situ:mural - Serbia (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:Scottish Renaissance painted ceilings,leaf:L62,QID Q7437936
+in_situ:mural - Iceland (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mural - Ireland (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mural - Norway (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mosaic - Albania (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mosaic - Armenia (undated),tag:place,
+in_situ:mosaic - Czech Republic (early modern),tag:place,
+in_situ:mosaic - Czech Republic (medieval),tag:place,
+in_situ:mosaic - Georgia (undated),tag:place,
+in_situ:mosaic - Russia (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mosaic - Russia (undated),tag:place,
+in_situ:mosaic - Serbia (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mosaic - Greece (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mosaic - Canada (undated),tag:place,
+in_situ:mosaic - United States (early modern),tag:place,
+in_situ:mosaic - Belgium (early modern),tag:place,
+in_situ:mosaic - Belgium (undated),tag:place,
+in_situ:mosaic - Finland (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mosaic - Luxembourg (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mosaic - Malta (undated),tag:place,
+in_situ:mosaic - Norway (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mosaic - Sweden (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:geoglyph - Germany (undated),exclude:not art tradition,forest planting curiosity
+in_situ:geoglyph - Netherlands (undated),tag:place,
+in_situ:geoglyph - Switzerland (undated),tag:place,
+in_situ:geoglyph - United Kingdom (undated),tag:place,
+world_folk:American folk portraiture (limners),route:artist-led,"Naïve Art (T81); limners are named painters (Ammi Phillips, Erastus Salisbury Field)"
+world_folk:fléché,leaf:L39,QID Q56551063
+world_folk:traditional textile practices transmitted within the Cercles des Fermières du Québec,exclude:organisation,"an association's practices, not a named tradition"
+world_folk:manufacture of object in birch bark,route:north_america_indigenous,Atikamekw birch-bark work; their H8 birch-bark leaves
+manuscripts:Armenian: Glajor (Gladzor) school,kind:L1/Glajor school,Q16376676
+manuscripts:Armenian: Syunik / Tatev school,kind:L1/Tatev school,Q20512392
+manuscripts:Armenian: Crimean school,kind:L1/Crimean school,Q16392356
+manuscripts:Gothic art,exclude:umbrella term,Q46825
+manuscripts:Armenian art,exclude:umbrella term,Q3450240
+manuscripts:Visigothic art,exclude:umbrella term,Q2008210; period umbrella
+manuscripts:Lesser Armenian school of miniature painting,kind:L1/Lesser Armenian school,Q135644215
+manuscripts:art of medieval illumination,exclude:umbrella term,Q123943116
+"in_situ:Istrian and Slovene Gothic frescoes (Beram, Hrastovlje)",kind:L60/Istrian,Q20526399
+in_situ:mural - Armenia (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mural - Serbia (medieval),tag:place,
+in_situ:Romanesque wall painting,leaf:L59,QID Q18088491
+in_situ:Murals in Northern Ireland,leaf:L63,QID Q1144161
+in_situ:mosaic - Armenia (modern),route:artist-led,modern murals and mosaics by named artists (Street Art T192 / modern art)
+in_situ:mosaic - Russia (medieval),tag:place,
+in_situ:Portuguese pavement (calçada),leaf:L66,QID Q616484
+in_situ:mosaic - United Kingdom (early modern),tag:place,
+in_situ:mosaic - Vatican City (undated),tag:place,
+in_situ:Catholic tattooing in Bosnia and Herzegovina (sicanje),route:europe_folk_east,sicanje (Q3507857): folk body art
+"in_situ:Western sailor, prison and modern tattooing",leaf:L69,

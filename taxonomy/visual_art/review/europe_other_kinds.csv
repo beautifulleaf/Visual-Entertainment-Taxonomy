@@ -1,0 +1,54 @@
+tmp,kind,group,basis
+L1,Toros Roslin,maker,named illuminator on Cilician row
+L1,Sargis Pitsak,maker,Cilician row
+L1,Momik,maker,Cilician row
+L1,Mesrop of Khizan,maker,Vaspurakan row
+L1,Vardan Baghishetsi,maker,Vaspurakan row
+L1,Naghash Hovnatan,maker,later Armenian row
+L8,Utrecht Psalter,representative,sample manuscript
+L8,Tours school,workshop,"Basilica of St. Martin, Tours named on row"
+L8,Dagulf,maker,Dagulfus on row
+L8,Folchard,maker,Folchardus on row (St Gall)
+L9,Master of the Registrum Gregorii,maker,row
+L9,Liuthar group,workshop,Workshop of Liuthar on row
+L12,Master Hugo,maker,Mosan/Romanesque row (Bury Bible)
+L12,Hildegard of Bingen,maker,Romanesque row (Scivias)
+L12,Lambert of Saint-Omer,maker,Romanesque row (Liber Floridus)
+L11,Maius,maker,Beatus row
+L11,Ende,maker,Beatus row (Gerona Beatus)
+L11,Florentius,maker,Mozarabic row
+L11,Oveco,maker,Beatus row
+L6,Eadfrith of Lindisfarne,maker,Insular row
+L6,Ferdomnach,maker,Insular row (Book of Armagh)
+L10,Harley Psalter,representative,sample manuscript
+L13,Giulio Clovio,maker,Italian Renaissance row
+L13,Attavante degli Attavanti,maker,"Italian, Renaissance and Corvinian rows"
+L13,Jean Fouquet,maker,French row
+L13,Jean Bourdichon,maker,French row
+L13,Jean Pichore,maker,French row
+L13,Taddeo Crivelli,maker,Renaissance row
+L13,Girolamo da Cremona,maker,Renaissance row
+L13,Stanisław Samostrzelnik,maker,Central European (1500+) row
+L14,Sarajevo Haggadah,representative,Sephardi row
+L14,Birds' Head Haggadah,representative,Ashkenazi row
+L15,Vyg/Pomor Old Believer book painting,sub-school,routed europe_folk_east row
+L15,Ostromir Gospels,representative,Old Rus' row
+L60,Albertus Pictor,maker,Nordic church painting row
+L22,Gubbio,centre,"met/aic Italian, Gubbio (closed row) and lustre"
+L26,Jasperware,sub-type,routed europe_folk_west row
+L35,Wednesbury,centre,Met catalogue text
+L35,Battersea,workshop,"York House, Battersea (1753–56), Met catalogue text"
+L32,Ostrogothic and nomadic (East Germanic or nomadic),group,routed ancient_world row
+L38,Imperial Easter eggs,sub-type,routed europe_folk_east row
+L21,Whirligigs,sub-type,pool row label
+L46,Grenfell mats,sub-type,pool row label
+L27,Painted dower chests,sub-type,pool row label
+L69,Prison tattooing,sub-type,exemplar Q7245794
+L69,American traditional,sub-type,exemplar Q613135
+L36,Mounted porcelain,sub-type,routed east_asia rows
+L61,Voroneț,site,row exemplar
+L61,Humor,site,row exemplar
+T16,Novgorod school,school,routed europe_folk_east row
+T16,Old Believer icons,school,routed europe_folk_east row; cast icons a G1 seam
+T16,Nevyansk icons,school,routed europe_folk_east row (Urals Old Believer)
+T16,Karelian / Northern icons,school,routed europe_folk_east row

@@ -1,3 +1,4 @@
+import re
 """Visual Art tab: families, sub-families and (pilot) leaves.
 
 Pilot slice: the Islamic world (tradition-led). Every family and sub-family of
@@ -838,6 +839,10 @@ _fam("J")["subs"] = [("J1", "Photographic Schools & Movements", "Axis: period st
 _fam("M")["subs"] = [("M1", "Installation, Conceptual & Performance Art", "Axis: movement (conceptual art, Fluxus, Arte Povera, land art, performance)."),
                      ("M2", "Video & New Media Art", "Axis: medium-led movement (video art, new media and net art).")]
 _fam("I")["subs"] = [(c, ("Furniture & Decorative Arts Styles" if c == "I3" else lab), ("Axis: period style of furniture and the decorative arts (Louis XIV to Mid-Century Modern); designers and makers are kinds." if c == "I3" else ax)) for c, lab, ax in _fam("I")["subs"]]
+
+
+for _c in ("J", "M"):
+    _fam(_c)["test"] = re.sub(r"\s*Built at scale[^.]*\.?", "", _fam(_c)["test"]).strip() + " Photographers and artists are kinds of their school or movement."
 
 
 def _load_scaleup():
