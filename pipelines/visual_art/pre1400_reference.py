@@ -15,6 +15,17 @@ every era must use. This script:
    pipelines/visual_art/models/pre1400.json and scores_<R>_era.csv per region.
    The selection rule is depth_model.select(): every reference artist plus
    pool-rule artists at or above the cutoff (score x art_factor).
+4. cleans the era selection (decided 2026-10-28, the era selection is the one used):
+   - literati filter (east_asia_pre1400, islamic_pre1400): people whose only art
+     occupation is calligrapher and who are also poets, writers, politicians or
+     rulers stay only if the Europe model selects them or some museum holds their
+     work (n_museums >= 1, which counts the East Asia sweep there);
+   - vase "Group" / "Class" / "Workshop" / "Circle" items (typed notname on Wikidata)
+     are not artists: they leave the selection and go to
+     data/interim/visual_art/pre1400_workshop_groups.csv as tradition evidence;
+   - manual includes from seeds/visual-art/pre1400_manual_includes.csv (artists the
+     model cannot select: no dates on Wikidata, or architecture as primary medium).
+   The final choice is the `final` column of scores_<R>_era.csv, with `note`.
 
 Usage: python3 pipelines/visual_art/pre1400_reference.py [--recall 0.9]
 (after run_pre1400.sh)
@@ -26,12 +37,16 @@ import json
 import os
 import sys
 
+import re
+
 import numpy as np
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from depth_model import (DATA, FEATURES, MODELS, NonNegativeLogit, art_factor,  # noqa: E402
                          assign_cells, load_features, percentile_matrix, select)
-from regions import REGIONS  # noqa: E402
+from regions import MEDIA, PRE1400_EXTRA_OCCUPATIONS, REGIONS  # noqa: E402
+
+ART_OCCS = {o for occs in MEDIA.values() for o in occs} | {o for occs in PRE1400_EXTRA_OCCUPATIONS.values() for o in occs}
 
 PRE1400 = ["antiquity_mediterranean", "europe_medieval_500-1400", "east_asia_pre1400", "islamic_pre1400"]
 
@@ -58,6 +73,15 @@ MOVEMENTS = {
     "Q11362029": "Sesonji-ryu (calligraphy)",
 }
 REF_PATH = os.path.join(DATA, "pre1400_reference.csv")
+REPO = os.path.dirname(os.path.dirname(os.path.dirname(DATA)))
+GROUPS_PATH = os.path.join(DATA, "pre1400_workshop_groups.csv")
+MANUAL = os.path.join(REPO, "seeds", "visual-art", "pre1400_manual_includes.csv")
+OCCUPATIONS = os.path.join(REPO, "data", "raw", "wikidata", "pool", "occupations.json")
+LITERATI_REGIONS = {"east_asia_pre1400", "islamic_pre1400"}
+CALLIGRAPHER = "Q3303330"
+# poet, writer, politician, monarch, emperor, king, ruler, sovereign, statesperson (verified by label)
+LITERATI_OCCS = {"Q49757", "Q36180", "Q82955", "Q116", "Q39018", "Q12097", "Q1097498", "Q2304859", "Q372436"}
+GROUP_LABEL = re.compile(r"\b(Group|Class|Workshop|Circle)\b")
 
 
 def build_reference():
@@ -116,30 +140,75 @@ def fit_era(ref, recall):
     os.makedirs(MODELS, exist_ok=True)
     path = os.path.join(MODELS, "pre1400.json")
     json.dump({
-        "fitted_on": "+".join(PRE1400), "reference": os.path.relpath(REF_PATH, os.path.dirname(os.path.dirname(DATA))),
+        "fitted_on": "+".join(PRE1400), "reference": os.path.relpath(REF_PATH, REPO),
         "features": FEATURES, "feature_transform": "within-cell mid-rank percentile",
         "coef": [round(float(c), 6) for c in model.coef_[0]], "intercept": round(float(model.intercept_[0]), 6),
         "recall_target": recall, "cutoff": round(cutoff, 6), "n_artists": len(rows), "n_reference": int(y.sum()),
     }, open(path, "w"), indent=1)
     print(f"wrote {path}")
 
-    print(f"\n{'region':28} {'pool':>5} {'ref':>4} {'Europe model':>13} {'era model':>10}")
+    occupations = json.load(open(OCCUPATIONS, encoding="utf-8"))
+    manual = list(csv.DictReader(open(MANUAL, encoding="utf-8"))) if os.path.exists(MANUAL) else []
+    groups, totals = [], collections.Counter()
+    print(f"\n{'region':28} {'pool':>5} {'ref':>4} {'Europe model':>13} {'era model':>10} {'final':>6}")
     for region in PRE1400:
         idx = [i for i, r in enumerate(rows) if r["region"] == region]
         rs = [rows[i] for i in idx]
         sel = select(rs, scores[idx], cutoff, REGIONS[region])
         with open(os.path.join(DATA, f"scores_{region}.csv"), encoding="utf-8") as f:
-            eu = sum(r["selected"] == "1" for r in csv.DictReader(f))
-        print(f"{region:28} {sum(r['in_pool_rule'] for r in rs):>5} {sum(r['is_reference'] for r in rs):>4} {eu:>13} {int(sel.sum()):>10}")
-        by_medium = collections.Counter(r["medium"] for r, s in zip(rs, sel) if s)
-        print("    era model by medium: " + ", ".join(f"{m} {n}" for m, n in by_medium.most_common()))
+            eu_sel = {r["qid"] for r in csv.DictReader(f) if r["selected"] == "1"}
+        dropped, kept = [], []
+        for r, s, c in zip(rs, scores[idx], sel):
+            r["final"], r["note"] = int(c), ""
+            if GROUP_LABEL.search(r["label"] or ""):
+                r["final"], r["note"] = 0, "vase group/class/workshop: tradition evidence, not an artist"
+                groups.append({"qid": r["qid"], "label": r["label"], "region": region, "cell": r["cell"],
+                               "sitelinks": int(r["sitelinks"]), "museum_objects": int(r["museum_objects"]), "era_score": round(float(s), 5)})
+                continue
+            occ = set(occupations.get(r["qid"], []))
+            if (c and region in LITERATI_REGIONS and CALLIGRAPHER in occ and occ & LITERATI_OCCS
+                    and not (occ - {CALLIGRAPHER, "Q483501"}) & ART_OCCS):
+                if r["qid"] in eu_sel or r["n_museums"] >= 1:
+                    r["note"] = "literati calligrapher kept: " + ("Europe model selects" if r["qid"] in eu_sel else "museum holdings")
+                    kept.append(r["label"])
+                else:
+                    r["final"], r["note"] = 0, "literati calligrapher dropped: no Europe-model selection, no museum holdings"
+                    dropped.append(r["label"])
+        have = {r["qid"] for r in rs}
+        for m in manual:
+            if m["region"] != region:
+                continue
+            hit = next((r for r in rs if r["qid"] == m["qid"]), None)
+            if hit:
+                hit["final"], hit["note"] = 1, "manual include: " + m["note"]
+            elif m["qid"] not in have:
+                rs.append({"qid": m["qid"], "label": m["name"], "medium": "", "cell": "", "in_pool_rule": 0, "is_reference": 0,
+                           "final": 1, "note": "manual include (outside the pool): " + m["note"], **{f: "" for f in FEATURES}})
+        final = [r for r in rs if r["final"]]
+        totals[region] = len(final)
+        print(f"{region:28} {sum(r['in_pool_rule'] for r in rs):>5} {sum(r['is_reference'] for r in rs):>4} {len(eu_sel):>13} {int(sel.sum()):>10} {len(final):>6}")
+        by_medium = collections.Counter(r["medium"] or "(manual, outside pool)" for r in final)
+        print("    final by medium: " + ", ".join(f"{m} {n}" for m, n in by_medium.most_common()))
+        if kept or dropped:
+            print(f"    literati kept ({len(kept)}): {', '.join(kept)}")
+            print(f"    literati dropped ({len(dropped)}): {', '.join(dropped)}")
         out = os.path.join(DATA, f"scores_{region}_era.csv")
-        cols = ["qid", "label", "birth", "medium", "cell", "in_pool_rule", "is_reference", "art_occ_share", "score", "selected"] + FEATURES
+        cols = ["qid", "label", "birth", "medium", "cell", "in_pool_rule", "is_reference", "art_occ_share", "score",
+                "selected", "final", "note"] + FEATURES
+        score_of = {rows[i]["qid"]: float(scores[i]) for i in idx}
+        sel_of = {r["qid"]: int(c) for r, c in zip(rs, sel)}
         with open(out, "w", newline="", encoding="utf-8") as f:
             w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
             w.writeheader()
-            for r, s, c in sorted(zip(rs, scores[idx], sel), key=lambda t: -t[1]):
-                w.writerow({**r, "score": round(float(s), 5), "selected": int(c)})
+            for r in sorted(rs, key=lambda r: -score_of.get(r["qid"], 9)):
+                w.writerow({**r, "score": round(score_of[r["qid"]], 5) if r["qid"] in score_of else "",
+                            "selected": sel_of.get(r["qid"], 0)})
+    with open(GROUPS_PATH, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["qid", "label", "region", "cell", "sitelinks", "museum_objects", "era_score"])
+        w.writeheader()
+        w.writerows(sorted(groups, key=lambda g: -g["era_score"]))
+    print(f"\n{len(groups)} vase groups/classes/workshops moved to {GROUPS_PATH}")
+    print(f"final pre-1400 selection: {sum(totals.values())} rows across regions")
 
 
 def main():

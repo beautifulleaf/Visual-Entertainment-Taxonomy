@@ -58,16 +58,47 @@ Selection
            --target (default 11,000). List-only names are added outside the quotas so
            they do not take slots from resolved artists in the same region.
   The region's cutoff is the score of its last selected non-auto artist.
+  Market-record check (§3.4, --market-check, on by default): an Artnet/Artsy/Artprice/
+           MutualArt record only counts when the artist also has an independent signal
+           (a museum ID, a ULAN/Tate/MoMA ID, a list entry, an award, >= 5 sitelinks or
+           a regional pageview percentile >= 0.5). Without one, the artist's market
+           percentile is 0 (and their market IDs are left out of everyone else's
+           percentiles), so vanity and minor-auction listings do not lift a score.
+Routes added ON TOP of the regional quotas (the --target total covers auto-includes and
+regional picks only, so the final total is larger)
+  movement_guarantee  contemporary selection has no movement skeleton, so movements
+           whose members are individually modest (Mono-ha, Dansaekhwa, Gutai, Arte
+           Povera, Political Pop...) could end up with one or two names. Pool artists'
+           P135 (movement) is fetched (cached in data/raw/wikidata/contemporary/) and a
+           movement is kept when it is an art movement / style / group (the class list
+           of pipelines/visual_art/build_modern_reference.py, direct or one subclass
+           step), began in --movement-since (1945) or later (undated: median member
+           birth >= --movement-median-birth, 1915), is not an umbrella term (contemporary
+           art, modern art, abstract art, postmodernism, avant-garde...) and has >= 3
+           scored members. Its top K = max(3, round(0.15 x members)), at most 15,
+           members by holdings (n_museum_ids, then ULAN/Tate/MoMA presence, then score)
+           are included, provided art_occ_share >= 0.25 (collectives: blank, allowed).
+  attention   cult and popular artists the museum signals under-count (lowbrow,
+           fantasy illustration, street art, internet-famous): anyone in the top 2% of
+           their region by pageviews (--attention-pct 0.98) whose art_occ_share >= 0.5,
+           so celebrities who also paint stay out.
+Route flags in the output: route_list, route_regional_score, route_movement_guarantee,
+route_attention, route_manual (an artist can carry several); `routes` names them and
+`guarantee_movements` names the movements an artist is guaranteed for.
   Architects stay in as gathered (§3.1b); whether they stay artists is decided in
   the classifying stage.
 
 Inputs : data/interim/contemporary_pool.csv, contemporary_pageviews.csv,
          contemporary_list_artists.csv and contemporary_pool_additions.csv (optional)
-Output : data/interim/contemporary_scores.csv
+Output : data/interim/contemporary_scores.csv, data/interim/contemporary_movements.csv
+Cache  : data/raw/wikidata/contemporary/movements_P135.json, movements_meta.json
 Usage  : python3 pipelines/contemporary_art/score.py [--target 11000] [--floor 0.25]
              [--weights museum=0.3,market=0.15] [--celeb-share 0.5] [--report]
+             [--no-market-check] [--no-movements] [--no-attention] [--endpoint qlever]
 """
 import argparse
+import collections
+import json
 import math
 import os
 import sys
@@ -76,6 +107,9 @@ import numpy as np
 import pandas as pd
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.join(ROOT, "pipelines", "visual_art"))
+import wikidata  # noqa: E402
+from build_modern_reference import MOVEMENT_TYPES, NON_MOVEMENT, ORG_WORDS  # noqa: E402
 INTERIM = os.path.join(ROOT, "data", "interim")
 POOL = os.path.join(INTERIM, "contemporary_pool.csv")
 VIEWS = os.path.join(INTERIM, "contemporary_pageviews.csv")
@@ -83,6 +117,8 @@ LIST_ARTISTS = os.path.join(INTERIM, "contemporary_list_artists.csv")
 ADDITIONS = os.path.join(INTERIM, "contemporary_pool_additions.csv")
 MANUAL = os.path.join(ROOT, "seeds", "visual-art", "contemporary_manual_includes.csv")
 OUT = os.path.join(INTERIM, "contemporary_scores.csv")
+MOVEMENTS_OUT = os.path.join(INTERIM, "contemporary_movements.csv")
+RAW = os.path.join(ROOT, "data", "raw", "wikidata", "contemporary")
 
 WEIGHTS = {"lists": 0.20, "museum": 0.25, "ulan": 0.05, "market": 0.20,
            "pageviews": 0.10, "sitelinks": 0.10, "awards": 0.10}
@@ -90,6 +126,16 @@ MARKET_IDS = ["artnet_id", "artsy_id", "artprice_id", "mutualart_id"]
 NON_WESTERN = ["Sub-Saharan Africa", "Middle East and North Africa", "South Asia", "Southeast Asia",
                "East Asia", "Latin America and Caribbean", "Central Asia", "Asia (other)"]
 UNKNOWN = "Unknown"
+INDEPENDENT_IDS = ["ulan_id", "tate_id", "moma_id"]
+# Umbrella terms: not movements (members span every style). Checked by label on the
+# first run; the later entries were found in the pool's P135 values.
+UMBRELLA = {
+    "Q186030": "contemporary art", "Q38166": "modern art", "Q128115": "abstract art",
+    "Q47783": "postmodernism", "Q215592": "avant-garde", "Q102932": "avant-garde",
+    "Q1414236": "modernism", "Q878985": "modernism", "Q1640824": "figurative art",
+    "Q2111604": "post-war art",
+}
+CHUNK = 400
 
 
 def parse_weights(spec):
@@ -224,12 +270,27 @@ def load_inputs(args):
     return df, list_only, notes
 
 
-def score(df, weights, celeb_share):
+def independent_signal(df, sig, pv_pct):
+    """Anything besides a market record that says the artist is established."""
+    return ((sig.museum >= 1) | sum(has(df, c) for c in INDEPENDENT_IDS).gt(0)
+            | (num(df.get("n_lists", 0), df.index) >= 1) | (sig.awards >= 1)
+            | (sig.sitelinks >= 5) | (pd.Series(pv_pct, df.index) >= 0.5))
+
+
+def score(df, weights, celeb_share, market_check=True):
     sig = signals(df)
     region = df.region.to_numpy()
+    df["pv_pct"] = midrank_pct(sig.pageviews.to_numpy(), region)
+    df["market_verified"] = independent_signal(df, sig, df.pv_pct).astype(int)
+    unverified = (df.market_verified == 0).to_numpy()
     comp = np.zeros(len(df))
     for k, w in weights.items():
-        df[f"pct_{k}"] = midrank_pct(sig[k].to_numpy(), region)
+        vals = sig[k].to_numpy()
+        if k == "market" and market_check:
+            vals = np.where(unverified, 0.0, vals)
+        df[f"pct_{k}"] = midrank_pct(vals, region)
+        if k == "market" and market_check:
+            df.loc[unverified, f"pct_{k}"] = 0.0
         comp += w * df[f"pct_{k}"].to_numpy()
     share = pd.to_numeric(df.art_occ_share, errors="coerce")
     df["celebrity_factor"] = np.minimum(1.0, (share / celeb_share).fillna(1.0)).round(3)
@@ -271,6 +332,111 @@ def select(df, Q, A):
     return cutoffs
 
 
+# ---------------------------------------------------------------- movements
+
+def chunked_cache(name, keys, query_fn):
+    """{key: value} filled chunk by chunk and saved after every chunk (resumable)."""
+    path = os.path.join(RAW, name)
+    data = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
+    todo = sorted(set(keys) - set(data))
+    for i in range(0, len(todo), CHUNK):
+        data.update(query_fn(todo[i:i + CHUNK]))
+        json.dump(data, open(path, "w", encoding="utf-8"), ensure_ascii=False)
+        print(f"  {name}: {min(i + CHUNK, len(todo)):,}/{len(todo):,}")
+    return data
+
+
+def fetch_movements(qids, endpoint):
+    """P135 per artist, and label / classes / inception per movement (one query at a time)."""
+    def members(chunk):
+        out = {q: [] for q in chunk}
+        values = " ".join("wd:" + q for q in chunk)
+        for r in wikidata.sparql(f"SELECT ?a ?m WHERE {{ VALUES ?a {{ {values} }} ?a wdt:P135 ?m }}",
+                                 endpoint=endpoint):
+            if r["m"].startswith("Q"):
+                out[r["a"]].append(r["m"])
+        return out
+
+    def meta(chunk):
+        out = {m: {"label": "", "types": [], "parents": [], "start": []} for m in chunk}
+        values = " ".join("wd:" + m for m in chunk)
+        for r in wikidata.sparql(f"""SELECT ?m ?k ?v WHERE {{ VALUES ?m {{ {values} }}
+              {{ ?m rdfs:label ?v FILTER(LANG(?v) = "en") BIND("label" AS ?k) }}
+              UNION {{ ?m wdt:P31 ?v BIND("types" AS ?k) }}
+              UNION {{ ?m wdt:P31/wdt:P279 ?v BIND("parents" AS ?k) }}
+              UNION {{ ?m wdt:P279 ?v BIND("parents" AS ?k) }}
+              UNION {{ ?m wdt:P571|wdt:P580 ?v BIND("start" AS ?k) }} }}""", endpoint=endpoint):
+            rec = out[r["m"]]
+            if r["k"] == "label":
+                rec["label"] = r["v"]
+            elif r["v"] not in rec[r["k"]]:
+                rec[r["k"]].append(r["v"])
+        return out
+
+    os.makedirs(RAW, exist_ok=True)
+    p135 = chunked_cache("movements_P135.json", [q for q in qids if q], members)
+    movs = sorted({m for q in qids if q for m in p135.get(q, [])})
+    return p135, chunked_cache("movements_meta.json", movs, meta)
+
+
+def movement_guarantee(df, args):
+    """Top-K members (holdings first) of every post-1945 art movement in the pool."""
+    p135, meta = fetch_movements(df.qid.tolist(), args.endpoint)
+    birth = pd.to_numeric(df.birth.str[:4], errors="coerce")
+    share = pd.to_numeric(df.art_occ_share, errors="coerce")
+    holdings = sum(has(df, c).astype(int) for c in INDEPENDENT_IDS)
+    members = collections.defaultdict(list)
+    for i, q in zip(df.index, df.qid):
+        for m in p135.get(q, []):
+            members[m].append(i)
+    rows, guaranteed = [], collections.defaultdict(list)
+    for m, idx in members.items():
+        md = meta.get(m, {})
+        classes = [MOVEMENT_TYPES[t] for t in md.get("types", []) if t in MOVEMENT_TYPES]
+        sub = [MOVEMENT_TYPES[t] for t in md.get("parents", []) if t in MOVEMENT_TYPES]
+        starts = [y for y in map(wikidata.year_of, md.get("start", [])) if y is not None]
+        start = min(starts) if starts else None
+        median_birth = birth[idx].median()
+        reasons = []
+        if m in UMBRELLA:
+            reasons.append("umbrella term: " + UMBRELLA[m])
+        if not classes and not sub:
+            reasons.append("not an art movement/style/group class")
+        bad = [NON_MOVEMENT[t] for t in md.get("types", []) if t in NON_MOVEMENT]
+        if bad:
+            reasons.append("organisation: " + ", ".join(bad))
+        if ORG_WORDS.search(md.get("label") or ""):
+            reasons.append("organisation (label)")
+        if start is not None and start < args.movement_since:
+            reasons.append(f"inception {start}")
+        if start is None and not (median_birth >= args.movement_median_birth):
+            reasons.append(f"undated, median birth {median_birth:.0f}" if median_birth == median_birth
+                           else "undated, no member births")
+        if len(idx) < args.movement_min:
+            reasons.append(f"<{args.movement_min} pool members")
+        k = min(args.movement_max_k, max(args.movement_min_k, round(args.movement_share * len(idx))))
+        rec = {"movement_qid": m, "movement": md.get("label") or m,
+               "classes": "|".join(dict.fromkeys(classes + [c + " (subclass)" for c in sub])),
+               "inception": start, "median_birth": median_birth, "members": len(idx),
+               "kept": int(not reasons), "excluded_because": "; ".join(reasons), "k": k, "member_idx": idx}
+        if not reasons:
+            cand = df.loc[idx]
+            ok = share[idx].isna() | (share[idx] >= args.movement_min_share)
+            cand = cand[ok.to_numpy()].assign(_h=holdings[idx][ok.to_numpy()])
+            cand = cand.sort_values(["museum", "_h", "score"], ascending=False).head(k)
+            for i in cand.index:
+                guaranteed[i].append(rec["movement"])
+            rec["eligible"] = int(ok.sum())
+            rec["guaranteed_idx"] = list(cand.index)
+        rows.append(rec)
+    return pd.DataFrame(rows), guaranteed
+
+
+def attention_route(df, args):
+    share = pd.to_numeric(df.art_occ_share, errors="coerce")
+    return (df.pv_pct >= args.attention_pct) & (df.pageviews > 0) & (share.isna() | (share >= args.attention_min_share))
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--target", type=int, default=11000, help="total selected incl. auto-includes")
@@ -280,37 +446,110 @@ def main():
     ap.add_argument("--weights", default="", help="override weights, e.g. museum=0.3,market=0.15")
     ap.add_argument("--celeb-share", type=float, default=0.5, help="art_occ_share at which factor reaches 1")
     ap.add_argument("--allow-no-pageviews", action="store_true")
+    ap.add_argument("--no-market-check", dest="market_check", action="store_false",
+                    help="count market records even without an independent signal")
+    ap.add_argument("--no-movements", dest="movements", action="store_false", help="skip the movement guarantee")
+    ap.add_argument("--movement-since", type=int, default=1945, help="earliest movement inception")
+    ap.add_argument("--movement-median-birth", type=float, default=1915,
+                    help="undated movements: minimum median member birth year")
+    ap.add_argument("--movement-min", type=int, default=3, help="minimum scored pool members per movement")
+    ap.add_argument("--movement-share", type=float, default=0.15, help="share of members guaranteed")
+    ap.add_argument("--movement-min-k", type=int, default=3)
+    ap.add_argument("--movement-max-k", type=int, default=15)
+    ap.add_argument("--movement-min-share", type=float, default=0.25,
+                    help="minimum art_occ_share for a guaranteed member")
+    ap.add_argument("--no-attention", dest="attention", action="store_false", help="skip the attention route")
+    ap.add_argument("--attention-pct", type=float, default=0.98, help="within-region pageview percentile")
+    ap.add_argument("--attention-min-share", type=float, default=0.5, help="minimum art_occ_share")
+    ap.add_argument("--endpoint", choices=["wdqs", "qlever"], default="wdqs",
+                    help="SPARQL endpoint for the P135 fetch (cached after the first run)")
+    ap.add_argument("--max-total", type=int, default=13000,
+                    help="warn when the total exceeds this (the outputs are still written)")
     ap.add_argument("--report", action="store_true", help="print top-20 overall and top-10 per non-Western region")
     args = ap.parse_args()
     args.weights = parse_weights(args.weights)
+    args.endpoint = wikidata.QLEVER if args.endpoint == "qlever" else wikidata.SPARQL
 
     df, list_only, notes = load_inputs(args)
     for n in notes:
         print(n)
     print("weights: " + ", ".join(f"{k}={v:.3f}" for k, v in args.weights.items()))
-    df = score(df, args.weights, args.celeb_share)
+    df = score(df, args.weights, args.celeb_share, args.market_check)
+    if args.market_check:
+        unv = (df.market_verified == 0) & (df.market > 0)
+        print(f"market check: {int(unv.sum()):,} artists with market IDs but no independent signal "
+              f"get market percentile 0")
     floor_regions = set(df.region) if args.floor_regions == "all" else set(args.floor_regions.split(","))
     Q, A, f = quotas(df, len(list_only), args.target, args.floor, floor_regions)
     cutoffs = select(df, Q, A)
+    n_base = int(df.selected.sum()) + len(list_only)
+
+    df["route_list"] = df.auto_include.str.startswith("lists:").astype(int)
+    df["route_manual"] = df.auto_include.str.startswith("manual:").astype(int)
+    df["route_regional_score"] = ((df.selected == 1) & (df.auto_include == "")).astype(int)
+    df["route_movement_guarantee"] = 0
+    df["guarantee_movements"] = ""
+    mov = pd.DataFrame()
+    if args.movements:
+        print("\nmovement guarantee")
+        mov, guaranteed = movement_guarantee(df, args)
+        for i, ms in guaranteed.items():
+            df.loc[i, "route_movement_guarantee"] = 1
+            df.loc[i, "guarantee_movements"] = "|".join(sorted(ms))
+    df["route_attention"] = attention_route(df, args).astype(int) if args.attention else 0
+    base = df.selected == 1
+    df["selected"] = (base | (df.route_movement_guarantee == 1) | (df.route_attention == 1)).astype(int)
+    routes = ["route_list", "route_regional_score", "route_movement_guarantee", "route_attention", "route_manual"]
+    df["routes"] = df[routes].apply(lambda r: "|".join(c[6:] for c in routes if r[c]), axis=1)
+
+    if len(mov):
+        sel_base = set(df.index[base])
+        mov["guaranteed"] = mov.pop("guaranteed_idx").map(lambda ix: ix if isinstance(ix, list) else [])
+        mov["n_guaranteed"] = mov.guaranteed.map(len)
+        mov["n_new"] = mov.guaranteed.map(lambda ix: sum(i not in sel_base for i in ix))
+        mov["selected_before"] = mov.member_idx.map(lambda ix: sum(i in sel_base for i in ix))
+        mov["selected_after"] = mov.member_idx.map(lambda ix: int(df.selected[ix].sum()))
+        mov = mov.drop(columns=["member_idx"])
+        mov["new_members"] = mov.guaranteed.map(
+            lambda ix: "; ".join(df.label[i] or df.qid[i] for i in ix if i not in sel_base))
+        mov["guaranteed_members"] = mov.guaranteed.map(lambda ix: "; ".join(df.label[i] or df.qid[i] for i in ix))
+        mov = mov.drop(columns=["guaranteed"])
+        mov = mov.sort_values(["kept", "members"], ascending=False)
+        mov["median_birth"] = mov.median_birth.round(0)
+        mov.to_csv(MOVEMENTS_OUT, index=False)
 
     df["key"] = df.qid
     df["label"] = df.label.fillna("")
     cols = ["key", "qid", "label", "region", "medium", "score", "region_percentile", "celebrity_factor",
-            "auto_include", "selected", "source"] + list(signals(df.head(0)).columns)
+            "auto_include", "selected", "routes"] + routes + ["guarantee_movements", "market_verified", "pv_pct",
+            "source"] + list(signals(df.head(0)).columns)
+    if len(list_only):
+        list_only = list_only.assign(route_list=1, routes="list")
     out = pd.concat([df, list_only], ignore_index=True)[cols] if len(list_only) else df[cols]
+    for c in routes + ["market_verified"]:
+        out[c] = out[c].fillna(0).astype(int)
+    out["routes"] = out.routes.fillna("")
+    out["guarantee_movements"] = out.guarantee_movements.fillna("")
+    out["pv_pct"] = out.pv_pct.round(5)
     out = out.sort_values(["selected", "score"], ascending=False, na_position="last")
     out["score"] = out.score.round(5)
     out["region_percentile"] = out.region_percentile.round(5)
     out.to_csv(OUT, index=False)
 
     print(f"\nselection fraction f = {f:.4f} (floor {args.floor:.0%} in {len(floor_regions)} regions)")
-    print(f"\n{'region':30} {'pool':>7} {'auto':>6} {'picked':>7} {'selected':>8} {'sel%':>6} {'cutoff':>7} {'cut pct':>7}")
+    base_sel = df.route_list | df.route_manual | df.route_regional_score
+    mov_new = (df.route_movement_guarantee == 1) & (base_sel == 0)
+    att_new = (df.route_attention == 1) & (base_sel == 0) & ~mov_new
+    print(f"\n{'region':30} {'pool':>7} {'auto':>6} {'picked':>7} {'+mov':>5} {'+attn':>5} {'selected':>8} "
+          f"{'sel%':>6} {'cutoff':>7} {'cut pct':>7}")
     lo_by_region = list_only.region.value_counts() if len(list_only) else pd.Series(dtype=int)
     for r in sorted(Q.index, key=lambda r: -Q[r]):
-        sel = int(df[df.region == r].selected.sum())
+        m = df.region == r
+        sel = int(df[m].selected.sum())
         sc, pc = cutoffs[r]
-        print(f"{r:30} {int((df.region == r).sum()):>7} {int(A[r]):>6} {sel - int(A[r]):>7} {sel:>8} "
-              f"{sel / (df.region == r).sum():>6.1%} {sc:>7.3f} {pc:>7.3f}"
+        print(f"{r:30} {int(m.sum()):>7} {int(A[r]):>6} {int(df[m].route_regional_score.sum()):>7} "
+              f"{int(mov_new[m].sum()):>5} {int(att_new[m].sum()):>5} {sel:>8} "
+              f"{sel / m.sum():>6.1%} {sc:>7.3f} {pc:>7.3f}"
               + (f"  (+{lo_by_region[r]} list-only)" if r in lo_by_region else ""))
     print(f"\n{'medium':42} {'pool':>7} {'selected':>8}")
     for m, g in df.groupby("medium"):
@@ -318,8 +557,16 @@ def main():
     if len(list_only):
         print(f"{'(list-only, no medium)':42} {'':>7} {len(list_only):>8}")
     n_auto = int((df.auto_include != "").sum()) + len(list_only)
-    print(f"\nTOTAL selected {int(out.selected.sum()):,}  (auto-includes {n_auto:,}, "
-          f"regional picks {int(out.selected.sum()) - n_auto:,})\nwrote {OUT}")
+    total = int(out.selected.sum())
+    print(f"\nauto-includes {n_auto:,} + regional picks {n_base - n_auto:,} = {n_base:,} (--target)")
+    if len(mov):
+        k = mov[mov.kept == 1]
+        print(f"movement guarantee: {len(k):,} movements kept of {len(mov):,}; "
+              f"{int(df.route_movement_guarantee.sum()):,} artists guaranteed, {int(mov_new.sum()):,} not otherwise selected")
+    print(f"attention route: {int(df.route_attention.sum()):,} artists qualify, {int(att_new.sum()):,} not otherwise selected")
+    print(f"TOTAL selected {total:,}\nwrote {OUT}" + (f" and {MOVEMENTS_OUT}" if len(mov) else ""))
+    if total > args.max_total:
+        print(f"WARNING: total {total:,} exceeds --max-total {args.max_total:,}: review the route composition")
 
     if args.report:
         df["name"] = df.label.where(df.label != "", df.qid).str.slice(0, 32)

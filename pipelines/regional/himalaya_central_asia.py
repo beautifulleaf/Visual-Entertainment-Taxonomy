@@ -263,14 +263,14 @@ REGION_LEX = [
     (r"kashmir|srinagar", HIM, "Kashmir", "India / Pakistan"),
     (r"ladakh|alchi|\bleh\b|\bspiti\b|kinnaur|kunawar|zangskar|zanskar|lahaul|\btabo\b|hemis|western himalaya",
      HIM, "Ladakh & Western Himalaya", "India"),
-    (r"guge|tsaparang|tholing|toling|ngari|purang|west(ern)? tibet", HIM, "Western Tibet", "China (Tibet)"),
-    (r"kham\b|derge|dege\b|chamdo|riwoche|palpung|kandze|ganzi|east(ern)? tibet|amdo|rebkong|repkong|regong|"
+    (r"guge|tsaparang|tholing|toling|\bngari\b|purang|west(ern)? tibet", HIM, "Western Tibet", "China (Tibet)"),
+    (r"\bkham\b|derge|\bdege\b|chamdo|riwoche|palpung|kandze|ganzi|east(ern)? tibet|amdo|rebkong|repkong|regong|"
      r"qinghai|kokonor|labrang|kumbum", HIM, "Eastern Tibet (Kham, Amdo)", "China (Tibet / Qinghai / Sichuan)"),
     (r"lhasa|shigatse|gyantse|shalu|\bngor\b|densatil|central tibet|southern tibet|\btsang\b|u.?tsang|yarlung|"
      r"tashi.?lhunpo|narthang|nartang|samye|reting|sakya monastery", HIM, "Central Tibet", "China (Tibet)"),
     (r"tibet|tibetan", HIM, "Tibet", "China (Tibet)"),
     (r"mustang|dolpo|humla|jumla|khasa|yatse", HIM, "Western Nepal (Mustang, Khasa)", "Nepal"),
-    (r"nepal|kathmandu|patan|lalitpur|bhaktapur|newar|deopatan", HIM, "Nepal (Kathmandu Valley)", "Nepal"),
+    (r"nepal|kathmandu|\bpatan\b(?!.{0,20}gujarat)|lalitpur|bhaktapur|newar|deopatan", HIM, "Nepal (Kathmandu Valley)", "Nepal"),
     (r"bhutan", HIM, "Bhutan", "Bhutan"),
     (r"sikkim", HIM, "Sikkim", "India"),
     (r"inner mongolia|dolonn?or", HIM, "Inner Mongolia", "China (Inner Mongolia)"),
@@ -786,6 +786,9 @@ def harvest_har(max_items=0):
             continue
         f = d["fields"]
         origin, dr = f.get("origin-location", ""), f.get("date-range", "")
+        if re.search(r"photograph|^publication", f.get("collection", ""), re.I):
+            stats["photo_archive_skipped"] += 1   # site / field photographs and calendar reproductions
+            continue
         if not origin and not dr and not d["title"]:
             stats["detail_image_skipped"] += 1   # detail / secondary photographs of another item
             continue
@@ -820,7 +823,9 @@ def harvest_har(max_items=0):
         # the item's origin decides the region; the set names refine a bare
         # "Tibet" or stand in when the origin is outside the lexicon ("China")
         o_reg, s_reg = match_region(origin), match_region(" | ".join(set_names))
-        if o_reg and not (o_reg[1] == "Tibet" and s_reg and "Tibet" in s_reg[1]):
+        generic = {"Tibet", "China (Himalayan-style)", "Himalaya (unspecified)"}
+        if o_reg and not (o_reg[1] in generic and s_reg and s_reg[1] not in generic and
+                          (o_reg[1] != "Tibet" or "Tibet" in s_reg[1])):
             place = origin
         else:
             place = " | ".join(set_names) or origin

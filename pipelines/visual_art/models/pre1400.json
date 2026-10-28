@@ -1,6 +1,6 @@
 {
  "fitted_on": "antiquity_mediterranean+europe_medieval_500-1400+east_asia_pre1400+islamic_pre1400",
- "reference": "interim/visual_art/pre1400_reference.csv",
+ "reference": "data/interim/visual_art/pre1400_reference.csv",
  "features": [
   "sitelinks",
   "pageviews",
@@ -12,17 +12,17 @@
  ],
  "feature_transform": "within-cell mid-rank percentile",
  "coef": [
-  0.631034,
+  0.655444,
   0.0,
-  0.01756,
-  0.787469,
+  0.173728,
+  0.708037,
   0.0,
-  0.204903,
-  0.410203
+  0.236636,
+  0.422512
  ],
- "intercept": -3.147142,
+ "intercept": -3.226913,
  "recall_target": 0.9,
- "cutoff": 0.06819,
+ "cutoff": 0.065935,
  "n_artists": 1493,
  "n_reference": 153
 }

@@ -665,15 +665,10 @@ MEDIUM_WORDS = [  # (medium, regex) on lowercased multilingual text; first match
                                r"furniture|spinning|distaff|kuksa|ladle|spoon|ложк|донц|сундук|мебел"),
     ("musical instruments", r"instrument|музыкальн|гусл|балалайк|kantele|fiddle|violin|lute"),
 ]
-MEDIUM_RE = [(m, re.compile(p)) for m, p in MEDIUM_WORDS]
-
-
 def medium_of(*texts):
     t = " ".join(x for x in texts if x).lower()
-    for m, rx in MEDIUM_RE:
-        if rx.search(t):
-            return m
-    return "other"
+    i = MEDIUM_M.first(t)
+    return MEDIUM_WORDS[i][0] if i is not None else "other"
 
 
 FOLK_SIGNAL = re.compile(
@@ -681,25 +676,105 @@ FOLK_SIGNAL = re.compile(
     r"народн|крестьян|этнограф|kansan|kansallis|bonde|bauern|paysan|populaire|popular (print|art)|"
     r"handicraft|craft|ethnic|tribal|lubok|лубок|icon|икон", re.I)
 
-TRAD_COMPILED = [(i, re.compile(t[3])) for i, t in enumerate(TRADITIONS)]
-TRAD_BIG = re.compile("|".join(f"(?P<t{i}>{t[3]})" for i, t in enumerate(TRADITIONS)))
-PEOPLE_BIG = re.compile("|".join(f"(?P<p{i}>{p[3]})" for i, p in enumerate(PEOPLES)))
+class GramMatcher:
+    """Many regexes against one text, fast: each regex is indexed by the 3-character
+    prefixes it can start with (read from the parsed pattern), and only regexes whose
+    prefix occurs among the text's trigrams are run. Regexes whose start cannot be
+    reduced to 3-character literals are always run."""
+
+    def __init__(self, patterns):
+        self.rx = [re.compile(p) for p in patterns]
+        self.index = collections.defaultdict(set)
+        self.always = []
+        for i, p in enumerate(patterns):
+            pre = self._prefixes(re._parser.parse(p).data, 3)
+            if pre is None or any(len(x) < 3 for x in pre):
+                self.always.append(i)
+            else:
+                for x in pre:
+                    self.index[x].add(i)
+        self.keys = set(self.index)
+
+    @classmethod
+    def _prefixes(cls, items, k):
+        """Set of possible first-k-character strings, or None when unbounded."""
+        from re._constants import (LITERAL, IN, SUBPATTERN, BRANCH, AT, ASSERT_NOT, ASSERT, MAX_REPEAT,
+                                   MIN_REPEAT, RANGE)
+        out = {""}
+        for op, av in items:
+            if all(len(x) >= k for x in out):
+                break
+            if op in (AT, ASSERT_NOT, ASSERT):
+                continue
+            if op == LITERAL:
+                opts = {chr(av)}
+            elif op == IN:
+                if any(o != LITERAL for o, _ in av if o is not RANGE) or any(o == RANGE for o, _ in av):
+                    return None
+                opts = {chr(v) for o, v in av}
+            elif op == SUBPATTERN:
+                opts = cls._prefixes(av[-1], k)
+                if opts is None:
+                    return None
+            elif op == BRANCH:
+                opts = set()
+                for b in av[1]:
+                    sub = cls._prefixes(b, k)
+                    if sub is None:
+                        return None
+                    opts |= sub
+            elif op in (MAX_REPEAT, MIN_REPEAT):
+                lo, _, body = av
+                if lo == 0:
+                    return {x for x in out} if all(x for x in out) else None
+                sub = cls._prefixes(body, k)
+                if sub is None:
+                    return None
+                out = {(x + y)[:k] for x in out for y in sub}
+                return out
+            else:
+                return out if all(x for x in out) else None
+            new = set()
+            for x in out:
+                if len(x) >= k:
+                    new.add(x)
+                else:
+                    for y in opts:
+                        new.add((x + y)[:k])
+            out = new
+            if len(out) > 400:
+                return None
+        return out
+
+    def candidates(self, text):
+        grams = {text[i:i + 3] for i in range(len(text) - 2)}
+        cand = set(self.always)
+        for g in grams & self.keys:
+            cand |= self.index[g]
+        return sorted(cand)
+
+    def all(self, text):
+        return [i for i in self.candidates(text) if self.rx[i].search(text)]
+
+    def first(self, text):
+        for i in self.candidates(text):
+            if self.rx[i].search(text):
+                return i
+        return None
+
+
+TRAD_M = GramMatcher([t[3] for t in TRADITIONS])
+PEOPLE_M = GramMatcher([p[3] for p in PEOPLES])
+MEDIUM_M = GramMatcher([p for _, p in MEDIUM_WORDS])
 
 
 def match_traditions(text):
     """All TRADITIONS indexes whose regex hits text (lowercased)."""
-    if not TRAD_BIG.search(text):
-        return []
-    return [i for i, rx in TRAD_COMPILED if rx.search(text)]
+    return TRAD_M.all(text)
 
 
 def match_peoples(text):
-    out = []
-    for m in PEOPLE_BIG.finditer(text):
-        name = PEOPLES[int(m.lastgroup[1:])][0]
-        if name not in out:
-            out.append(name)
-    return out
+    return [PEOPLES[i][0] for i in PEOPLE_M.all(text)]
 
 
 def pattern_hash():

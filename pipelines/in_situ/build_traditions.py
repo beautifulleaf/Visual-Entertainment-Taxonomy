@@ -147,54 +147,54 @@ WHS_RE = (r"rock art|rock-art|petroglyph|pictograph|rock painting|rock drawing|r
 # Named exemplar sites and body-art items from the brief. Resolved by exact
 # English label (highest sitelinks); kind is used only when no class matches.
 SEEDS = {
-    ROCK: ["Lascaux", "Cave of Altamira", "Chauvet Cave", "Cosquer Cave", "Font-de-Gaume", "Niaux Cave",
+    ROCK: ["Lascaux", "Cave of Altamira", "Chauvet Cave", "Cosquer Cave", "Font-de-Gaume cave", "Cave of Niaux",
            "Rock Art of the Mediterranean Basin on the Iberian Peninsula",
-           "Prehistoric Rock Art Sites in the Côa Valley and Siega Verde", "Côa Valley Archaeological Park",
-           "Tassili n'Ajjer", "Tadrart Acacus", "Laas Geel", "Bhimbetka rock shelters", "Cueva de las Manos",
+           "Siega Verde", "Prehistoric Rock Art Sites in the Côa Valley",
+           "Tassili n'Ajjer", "Tadrart Acacus", "Laas Gaal", "Bhimbetka rock shelters", "Cueva de las Manos",
            "Serra da Capivara National Park", "Kakadu National Park", "Ubirr", "Murujuga", "Tsodilo", "Twyfelfontein",
-           "Maloti-Drakensberg Park", "Matobo National Park", "Kondoa Rock-Art Sites", "Chongoni Rock-Art Area",
-           "Tamgaly", "Gobustan State Reserve", "Rock Drawings in Valcamonica", "Rock Carvings in Tanum",
-           "Rock Art of Alta", "Zuojiang Huashan Rock Art Cultural Landscape", "Bangudae Petroglyphs",
-           "Horseshoe Canyon", "Great Gallery", "Coso Rock Art District", "Writing-on-Stone Provincial Park",
+           "Maloti-Drakensberg Park", "Matobo National Park", "Kondoa Rock Art Sites", "Chongoni Rock Art Area",
+           "Tamgaly", "Gobustan State Reserve", "rock drawings in Valcamonica", "Rock Carvings in Tanum",
+           "Rock carvings at Alta", "Rock Paintings of Hua Mountain", "Bangudae Petroglyphs",
+           "Horseshoe Canyon", "Gwion Gwion rock art", "Coso Rock Art District", "Writing-on-Stone Provincial Park",
            "Petroglyph National Monument", "Newspaper Rock State Historic Monument",
-           "Rock Paintings of the Sierra de San Francisco", "Leang Tedongnge", "Chiribiquete National Park",
+           "Rock Paintings of Sierra de San Francisco", "Leang Tedongnge", "Chiribiquete National Park",
            "Toro Muerto", "Cave of Swimmers", "Ennedi Plateau", "Dhambalin", "Sego Canyon", "Painted Rock",
-           "Kimberley", "Nourlangie Rock", "Ku-ring-gai Chase National Park", "Quinkan Country", "Naqsh-e Rostam",
-           "Behistun Inscription", "Jubbah", "Rock Art in the Hail Region of Saudi Arabia", "Wadi Rum",
-           "Sulawesi cave art", "Seminole Canyon State Park and Historic Site", "Pedra Furada"],
+           "Kimberley", "Nourlangie Rock", "Ku-ring-gai Chase National Park", "Quinkan rock art", "Naqsh-e Rostam",
+           "Behistun inscription", "Jubbah", "Rock Art in the Hail Region of Saudi Arabia", "Wadi Rum",
+           "Leang Bulu' Sipong 4", "Seminole Canyon State Park and Historic Site", "Pedra Furada"],
     MURAL: ["Ajanta Caves", "Sigiriya", "Mogao Caves", "Kizil Caves", "Bezeklik Thousand Buddha Caves", "Bonampak",
             "Teotihuacan", "Cacaxtla", "San Bartolo", "Pompeii", "Villa of the Mysteries", "Herculaneum",
             "Etruscan Necropolises of Cerveteri and Tarquinia", "Tomb of the Leopards", "Tomb of Nefertari",
             "Valley of the Kings", "Akrotiri", "Thracian Tomb of Kazanlak", "Studenica Monastery", "Sopoćani",
-            "Visoki Dečani", "Gračanica Monastery", "Boyana Church", "Church of St. Panteleimon, Gorno Nerezi",
-            "Gelati Monastery", "Ferapontov Monastery", "Voroneț Monastery", "Painted churches in northern Moldavia",
+            "Visoki Dečani", "Gračanica monastery", "Boyana Church", "Church of St. Panteleimon",
+            "Gelati Monastery", "Ferapontov Monastery", "Voroneț Monastery", "churches of Moldavia",
             "Painted Churches in the Troödos Region", "Chora Church", "Göreme National Park and the Rock Sites of Cappadocia",
             "Scrovegni Chapel", "Sistine Chapel", "Sant Climent de Taüll", "Abbey Church of Saint-Savin-sur-Gartempe",
-            "Alchi Monastery", "Tabo Monastery", "Ananda Temple", "Wat Phra Kaew", "Bagan", "Qusayr 'Amra",
-            "Chehel Sotoun", "Mattancherry Palace", "Padmanabhapuram Palace", "Takamatsuzuka Tomb", "Kitora Tomb",
-            "Complex of Goguryeo Tombs", "Faras", "Panjakent", "Afrasiyab", "Hospicio Cabañas",
-            "Church of San Pedro Apóstol of Andahuaylillas", "Huaca de la Luna", "Yongle Palace", "Fahai Temple",
-            "Ellora Caves", "Dambulla cave temple", "Lepakshi", "Brihadisvara Temple", "Shalu Monastery",
-            "Palace of Fine Arts", "Mirogoj", "Rila Monastery", "Kremikovtsi Monastery", "Church of the Savior on Nereditsa",
-            "Wat Pho", "Shwedagon Pagoda", "Lalibela", "Debre Berhan Selassie Church", "Tomb of the Diver",
-            "Tomb of Philip II of Macedon", "Sveshtari", "Ostrog Monastery", "Mileševa", "Hosios Loukas",
-            "Mistras", "Monastery of Saint John the Theologian"],
+            "Alchi Monastery", "Tabo Monastery, Himachal Pradesh", "Ananda Temple", "Wat Phra Kaew", "Bagan", "Qasr Amra",
+            "Chehel Sotun", "Mattancherry Palace", "Padmanabhapuram Palace", "Takamatsuzuka Tomb", "Kitora Tomb",
+            "Goguryeo tombs", "Faras", "Panjakent", "Afrasiyab", "Hospicio Cabañas",
+            "Andahuaylillas", "Huaca de la Luna", "Yongle Temple", "Fahai Temple",
+            "Ellora Caves", "Dambulla cave temple", "Lepakshi", "Prahadisvarar Temple", "Shalu Monastery",
+            "Palace of Fine Arts", "Mirogoj Cemetery", "Rila Monastery", "Kremikovtsi Monastery", "Saviour Church on Nereditsa",
+            "Wat Pho", "Shwedagon Pagoda", "Lalibela", "Church of Debra Berhan Selassie", "Tomb of the Diver",
+            "Tomb of Philip ΙΙ", "Sveshtari", "Ostrog monastery", "Mileševa", "Hosios Loukas",
+            "Mystras", "Monastery of Saint John the Theologian"],
     MOSAIC: ["Basilica of San Vitale", "Mausoleum of Galla Placidia", "Early Christian Monuments of Ravenna",
              "Basilica of Sant'Apollinare Nuovo", "Hagia Sophia", "Dome of the Rock", "Umayyad Mosque",
-             "Saint Sophia Cathedral, Kyiv", "St. Michael's Golden-Domed Monastery", "Cappella Palatina",
+             "Saint Sophia Cathedral", "Saint Michael's Golden-Domed Monastery", "Cappella Palatina",
              "Monreale Cathedral", "Cefalù Cathedral", "St Mark's Basilica", "Daphni Monastery", "Nea Moni of Chios",
              "Villa Romana del Casale", "Zeugma", "Madaba Map", "Khirbat al-Mafjar", "Shah Mosque", "Sheikh Lotfollah Mosque",
              "Registan", "Wazir Khan Mosque", "Rüstem Pasha Mosque", "Alhambra", "Bou Inania Madrasa", "Ben Youssef Madrasa",
-             "Park Güell", "Santa Maria Maggiore", "Torcello Cathedral", "Basilica of Aquileia", "Volubilis",
+             "Park Güell", "Santa Maria Maggiore", "Torcello Cathedral", "Basilica of Our Lady of the Assumption, St. Hermagoras and St. Fortunatus", "Volubilis",
              "Bardo National Museum", "Church of the Multiplication of the Loaves and Fish", "Gelati Monastery",
-             "Kariye Mosque", "Great Mosque of Córdoba", "Shah-i-Zinda", "Gur-e-Amir", "Blue Mosque, Tabriz",
+             "Chora Church", "Mosque-Cathedral of Cordoba", "Shah-i-Zinda", "Gur-e Amir", "Blue Mosque, Tabriz",
              "Tile mosaic of Lahore Fort"],
     GEO: ["Nazca Lines", "Uffington White Horse", "Cerne Abbas Giant", "Long Man of Wilmington", "Atacama Giant",
-          "Cerro Pintados", "Blythe Intaglios", "Serpent Mound", "Steppe Geoglyphs", "Spiral Jetty", "Palpa Lines",
+          "Cerro Pintados", "Blythe Intaglios", "Serpent Mound", "Steppe Geoglyph", "Spiral Jetty", "Palpa Lines",
           "Westbury White Horse", "Marree Man", "Paracas Candelabra", "Lines and Geoglyphs of Nasca and Palpa"],
     BODY: ["tā moko", "irezumi", "mehndi", "scarification", "Malu", "pe'a", "batok", "Deq", "kakiniit", "hajichi",
-           "veiqia", "body painting", "tattooing in Ainu and Jōmon culture", "sak yant", "Iban tattoo", "Marquesan tattoo",
-           "Hawaiian tattooing", "kakau", "moko kauae", "Berber tattoo", "henna", "uli", "Kalinga tattoo",
+           "veiqia", "body painting", "tattooing in Ainu and Jōmon culture", "Yantra tattooing", "Iban tattoo", "Marquesan tattoo",
+           "Hawaii tattoo", "kakau", "moko kauae", "Berber tattoo", "henna", "uli", "Kalinga tattoo",
            "Mentawai tattoo", "Chin tattoo", "godna", "Nuba scarification", "sailor tattoos", "Olympic tattoo",
            "Prison tattooing", "American traditional tattoo", "tattooing in China", "tattooing in India",
            "tattooing in Myanmar", "tattoos in Palau", "rajah", "tebori", "Litema"],
@@ -330,7 +330,8 @@ RULES = [
     R("RA21", "Arabian rock art (Ha'il, Shuwaymis, Bir Hima, Wadi Rum)", ROCK, "Near East", "Neolithic-pre-Islamic",
       iso=S("SA JO YE OM AE QA KW BH")),
     R("RA22", "Sasanian and Achaemenid rock reliefs", ROCK, "Near East", "6th c. BCE-7th c. CE", iso=S("IR IQ"),
-      text=r"relief|naqsh|behistun|bisotun|taq-e bostan|taq-i bustan|firuzabad|bishapur|rostam|rustam", wd="Sasanian rock relief"),
+      text=r"relief|naqsh|behistun|bisotun|taq-e bostan|taq-i bustan|firuzabad|bishapur|rostam|rustam", wd="Sasanian rock relief",
+      relief=True),
     R("RA23", "Near Eastern and Anatolian rock art", ROCK, "Near East", "Neolithic-Iron Age", iso=S("IR IQ IL PS SY LB TR AM GE")),
     R("RA24", "Tamgaly / Semirechye petroglyphs", ROCK, "Central Asia", "Bronze Age-medieval", iso=S("KZ KG"),
       text=r"tamgal|eshkiolmes|saimaly|cholpon|almaty|semirech|zhetysu|jetisu|bayan-zhurek|issyk"),
@@ -352,7 +353,7 @@ RULES = [
     R("RA31", "Indian rock art (other)", ROCK, "South Asia", "Mesolithic-historical", iso=S("IN")),
     R("RA32", "Sri Lankan and Pakistani rock art", ROCK, "South Asia", "", iso=S("LK PK BD")),
     R("RA33", "Zuojiang Huashan rock paintings", ROCK, "China", "c. 5th c. BCE-2nd c. CE", iso=S("CN"),
-      text=r"huashan|zuojiang|ningming|guangxi", wd="Zuojiang Huashan Rock Art Cultural Landscape"),
+      text=r"huashan|hua mountain|zuojiang|ningming|guangxi", wd="Rock Paintings of Hua Mountain"),
     R("RA34", "Helan, Yinshan and northern Chinese petroglyphs", ROCK, "China", "Neolithic-medieval", iso=S("CN"),
       text=r"helan|yinshan|ningxia|inner mongolia|nei mongol|xinjiang|altay|gansu|qinghai|heilongjiang"),
     R("RA35", "Southern Chinese rock art (Cangyuan, Lianyungang, Jiangjunya)", ROCK, "China", "", iso=S("CN TW HK MO")),
@@ -380,7 +381,8 @@ RULES = [
     R("RA57", "Madagascar and Indian Ocean rock art", ROCK, "Sub-Saharan Africa", "", iso=S("MG MU KM SC")),
     # --- Australia (bbox/text before the catch-all)
     R("RA60", "Kimberley rock art (Gwion Gwion / Bradshaw, Wanjina)", ROCK, "Aboriginal Australia", "c. 17,000 BP onward",
-      iso=S("AU"), text=r"kimberley|gwion|bradshaw|wandjina|wanjina|mitchell plateau|drysdale|king edward"),
+      iso=S("AU"), text=r"kimberley|gwion|bradshaw|wandjina|wanjina|mitchell plateau|drysdale|king edward",
+      wd="Gwion Gwion rock art"),
     R("RA61", "Kimberley rock art (Gwion Gwion / Bradshaw, Wanjina)", ROCK, "Aboriginal Australia", "c. 17,000 BP onward",
       iso=S("AU"), bbox=AUS_KIMBERLEY),
     R("RA62", "Arnhem Land and Kakadu rock art", ROCK, "Aboriginal Australia", "c. 28,000 BP-20th c.", iso=S("AU"),
@@ -613,7 +615,7 @@ RULES = [
       notext=r"thracian|kazanlak|sveshtari"),
     R("MU58", "Painted monasteries of Bukovina (northern Moldavia)", MURAL, "C&E Europe", "15th-16th c.", iso=S("RO"),
       text=r"vorone|moldovi|sucevi|humor|arbore|probota|p[aă]tr[aă]u[tţț]i|suceava|bucovina|bukovina|dragomirna|putna|"
-           r"baia|r[aă]d[aă]u", wd="Painted churches in northern Moldavia"),
+           r"baia|r[aă]d[aă]u", wd="churches of Moldavia"),
     R("MU59", "Romanian church painting (Wallachia, Transylvania, Maramureș)", MURAL, "C&E Europe", "14th-19th c.",
       iso=S("RO MD"), before=1900, undated_ok=True),
     R("MU60", "Georgian medieval wall painting (Gelati, Ubisi, Svaneti)", MURAL, "C&E Europe", "9th-18th c.",
@@ -952,6 +954,22 @@ def iso_codes(countries):
                          for ch in chunks(sorted(countries))], "ISO codes"):
         for r in rows:
             out.setdefault(r["c"], r["iso"])
+    # constituent countries / historical states without P297: take the ISO code of their own P17
+    todo = sorted(set(countries) - set(out))
+    for rows in run_all([f"SELECT ?c ?iso WHERE {{ VALUES ?c {{ {values(ch)} }} ?c wdt:P17 ?k . ?k wdt:P297 ?iso }}"
+                         for ch in chunks(todo)], "ISO codes via P17"):
+        for r in rows:
+            out.setdefault(r["c"], r["iso"])
+    return out
+
+
+def extra_claims(qids):
+    """Collection (P195), population (P1082) and ISO code (P297): is a work museum-held, is a location a place?"""
+    out = collections.defaultdict(set)
+    for rows in run_all([f"""SELECT DISTINCT ?s ?p WHERE {{ VALUES ?s {{ {values(c)} }} VALUES ?p {{ wdt:P195 wdt:P1082 wdt:P297 }}
+              ?s ?p [] . }}""" for c in chunks(qids)], "extra claims"):
+        for r in rows:
+            out[r["s"]].add(r["p"].rsplit("/", 1)[-1])
     return out
 
 
@@ -967,6 +985,8 @@ def museums(locs):
 def match(rule, c):
     if not (rule["kinds"] & c["kinds"]):
         return False
+    if c.get("relief") and ROCK in rule["kinds"] and not rule.get("relief"):
+        return False  # rock-cut relief sculpture only matches rules that ask for it
     if "iso" in rule and not (rule["iso"] & c["isos"]):
         return False
     if "text" in rule and not re.search(rule["text"], c["text"]):
@@ -1060,6 +1080,10 @@ def main():
     loc_claims, loc_meta = details(sorted(locs - set(all_q)))
     claims.update(loc_claims)
     meta.update(loc_meta)
+    extra = extra_claims(sorted(site_q | locs))
+    humans = {x for x in site_q if "Q5" in claims[x].get("P31", [])}
+    site_q -= humans
+    print(f"  dropped {len(humans)} humans (artists tagged with a land-art / mural movement)")
 
     want = set(all_q) | locs | set(whs_hit)
     for x in list(claims):
@@ -1070,6 +1094,7 @@ def main():
     labels = fetch_labels(want)
     countries = {c for x in claims for c in claims[x].get("P17", []) if is_qid(c)}
     iso = iso_codes(countries)
+    no_iso = collections.Counter(c for x in site_q for c in claims[x].get("P17", []) if is_qid(c) and c not in iso)
 
     def lab(x):
         return labels.get(x, "") or (meta.get(x, (0, "", ""))[1]) or x
@@ -1111,8 +1136,10 @@ def main():
         m = re.match(r"Point\(([-\d.eE]+) ([-\d.eE]+)\)", (cl.get("P625") or [""])[0])
         is_work = bool(found.get(x, set()) & WORK_CLASSES) or "fresco_work" in found.get(x, set())
         loc = next((v for v in cl.get("P276", []) if is_qid(v)), "")
-        in_museum = bool(loc and loc in museum_locs)
-        site = loc if is_work and loc and not in_museum else x
+        in_museum = bool(loc and loc in museum_locs) or (is_work and not loc and "P195" in extra.get(x, set()))
+        # a location that is a populated place or country is not a site: keep the work itself then
+        loc_is_place = bool(loc) and bool(extra.get(loc, set()) & {"P1082", "P297"})
+        site = loc if is_work and loc and not in_museum and not loc_is_place else x
         parts = [p for p in cl.get("P361", []) if is_qid(p)]
         site_cl = claims.get(site, cl)
         site_parts = parts + [p for p in site_cl.get("P361", []) if is_qid(p) and p not in parts]
@@ -1120,7 +1147,9 @@ def main():
         her = set(cl.get("P1435", [])) | (set(site_cl.get("P1435", [])) if site != x else set())
         is_whs = site in whs_set or x in whs_set or "Q9259" in her
         part_whs = bool(unesco_part) or "Q43113623" in her
-        ctys = [c for c in cl.get("P17", []) if is_qid(c)] or [c for c in site_cl.get("P17", []) if is_qid(c)]
+        loc_cl = claims.get(loc, {}) if loc else {}
+        ctys = [c for c in cl.get("P17", []) if is_qid(c)] or [c for c in site_cl.get("P17", []) if is_qid(c)] or \
+            [c for c in loc_cl.get("P17", []) if is_qid(c)] or [c for c in cl.get("P495", []) if is_qid(c)]
         isos = {iso[c] for c in ctys if c in iso}
         if y is None and site != x:
             y, ysrc = years_of(site_cl)
@@ -1138,6 +1167,8 @@ def main():
             "heritage": sorted(h for h in her if is_qid(h) and h not in ("Q9259", "Q43113623")),
             "wd_links": {v for p in ("P135", "P136", "P149", "P31", "P279", "P361") for v in cl.get(p, []) if v in trad},
             "place": "|".join(place),
+            "relief": found.get(x, set()) == {"rock_relief"} or (
+                "Q22022298" in cl.get("P31", []) and not found.get(x, set()) - {"rock_relief", "rock_art"}),
         })
     print(f"  {len(cands)} candidate records")
 
@@ -1148,7 +1179,8 @@ def main():
         cl = claims.get(x, {})
         txt = " | ".join([l_en, desc] + [lab(v) for p in ("P17", "P2596", "P31", "P279", "P495") for v in cl.get(p, [])
                                          if is_qid(v)]).lower()
-        if re.search(r"medical|surgical|cornea|scleral|make-up|makeup|fictional|electronic|uv tattoo|temporary", txt):
+        if re.search(r"medical|surgical|cornea|scleral|make-up|makeup|fictional|electronic|uv tattoo|temporary|air show|"
+                     r"airshow|military|germination|seed|\bdye\b|wikimedia|film|album|song|festival", (l_en + " | " + desc).lower()):
             continue
         body.append({"qid": x, "label": l_en or lab(x), "desc": desc, "kinds": {BODY}, "isos": {iso[c] for c in cl.get("P17", []) if c in iso},
                      "countries": "|".join(lab(c) for c in cl.get("P17", []) if is_qid(c)), "year": None, "year_src": "",
@@ -1167,9 +1199,12 @@ def main():
         if r:
             c["tradition"] = r["tradition"]
             c["region"] = r["region"] or default_region(iso0, c["year"], c["kind"], c["lon"]) or "unknown"
+            if not r["region"]:
+                c["tradition"] += f" ({c['region']})"
         else:
             cname = c["countries"].split("|")[0] if c["countries"] else "no country"
-            c["tradition"] = f"{c['kind']} - {cname} ({era_bucket(c['year'])})" if c["kind"] != BODY else f"{c['label']} (body art)"
+            kname = "rock relief" if c.get("relief") else c["kind"]
+            c["tradition"] = f"{kname} - {cname} ({era_bucket(c['year'])})" if c["kind"] != BODY else f"{c['label']} (body art)"
             c["region"] = default_region(iso0, c["year"], c["kind"], c["lon"]) or "unknown"
 
     # ---- site-level exemplars (works roll up to their location)
@@ -1212,6 +1247,11 @@ def main():
     for r in RULES:
         if r.get("wd") and r["wd"] in rule_wd:
             trad_qid.setdefault(r["tradition"], rule_wd[r["wd"]])
+    for c in cands + body:  # rules without a fixed region name one node per region
+        if c["rule"]:
+            rule_by_trad.setdefault(c["tradition"], c["rule"])
+            if c["rule"].get("wd") in rule_wd:
+                trad_qid.setdefault(c["tradition"], rule_wd[c["rule"]["wd"]])
     linked_items = collections.defaultdict(set)  # tradition label -> Wikidata items linked via its sites
     wd_sites = collections.defaultdict(set)      # wikidata tradition item -> sites linking to it
     for c in cands:
@@ -1353,6 +1393,9 @@ def main():
     print(f"\n{len(cands)} candidate records -> {sum(nk.values())} in-situ sites ({dict(nk)}), "
           f"{sum(1 for s in srows if s['in_museum'])} museum-held work groups; {len(body)} body-art items; "
           f"{len(trows)} tradition rows ({sum(1 for t in trows if t['node_source'] == 'rule')} rule nodes)")
+    if no_iso:
+        print("countries without an ISO code (sites fall back to region 'unknown'): " +
+              ", ".join(f"{lab(c)} ({n})" for c, n in no_iso.most_common(15)))
     if FAILED:
         print(f"WARNING: {len(FAILED)} queries failed; re-run to fill them in (results so far are cached)")
 

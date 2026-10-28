@@ -2,3 +2,7 @@ qid,name,region,note
 Q366502,Villard de Honnecourt,europe_medieval_500-1400,artist-architect famed for his sketchbook; primary medium architecture is excluded from model selection
 Q551380,Zhan Ziqian,east_asia_pre1400,Sui painter (Spring Outing); no dates on Wikidata so outside the pool
 Q12611147,Yi Nyeong,east_asia_pre1400,Goryeo painter; no dates and 2 sitelinks on Wikidata so outside the pool
+Q717343,Zhang Xu,east_asia_pre1400,Tang master of wild cursive script; dropped by the literati filter (no museum holdings matched)
+Q2994742,Wei Shuo,east_asia_pre1400,Lady Wei; Jin calligrapher and teacher of Wang Xizhi; dropped by the literati filter
+Q1194627,Wei Guan,east_asia_pre1400,Western Jin calligrapher; dropped by the literati filter
+Q11117828,Yang Ningshi,east_asia_pre1400,Five Dynasties calligrapher bridging Tang and Song styles; dropped by the literati filter

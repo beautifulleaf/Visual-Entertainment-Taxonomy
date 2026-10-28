@@ -488,8 +488,7 @@ def run_query(query, retries=4):
                 time.sleep(min(120, 10 * 2 ** attempt))
         if data is not None:
             if ep != ENDPOINT[0]:
-                print(f"    switching to {ep} for the rest of the run")
-                ENDPOINT[0] = ep
+                print(f"    answered by fallback {ep}")
             time.sleep(1)
             out = []
             for b in data["results"]["bindings"]:
@@ -538,6 +537,7 @@ LABEL_LANGS = ["en", "mul", "fr", "de", "it", "es", "nl", "la", "pt", "ca", "pl"
 def entity_meta(qids, tag):
     """{qid: {"label", "P17": [...], "P131": [...], "P31": [...]}} for referenced entities."""
     meta = {}
+    qids = {q for q in qids if re.fullmatch(r"Q\d+", q)}
     langs = ", ".join(f'"{l}"' for l in LABEL_LANGS)
     for i, ch in enumerate(chunks(sorted(qids), 400)):
         rows = cached(f"SELECT ?e ?l WHERE {{ VALUES ?e {{ {values(ch)} }} ?e rdfs:label ?l . "
@@ -553,7 +553,8 @@ def entity_meta(qids, tag):
             meta[q] = {"label": en.get(q) or (best.get(q) or [""])[0], "P17": [], "P131": [], "P31": []}
         for prop in ("P17", "P131", "P31"):
             for r in cached(f"SELECT ?e ?v WHERE {{ VALUES ?e {{ {values(ch)} }} ?e wdt:{prop} ?v }}", f"{tag}_{prop}"):
-                meta[r["e"]][prop].append(r["v"])
+                if re.fullmatch(r"Q\d+", r["v"]):
+                    meta[r["e"]][prop].append(r["v"])
     return meta
 
 

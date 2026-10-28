@@ -755,6 +755,8 @@ NMVW_DROP_TYPES = re.compile(r"photo|slide|negative|lantern|stereo|collodion|alb
                              r"street scenes|landscapes \(representations\)|portraits")
 NMVW_DROP_CHAINS = re.compile(r"visual works by subject type|information artifacts|document genres|"
                               r"exchange media|money")
+PHOTO_TITLE = re.compile(r"portret|foto|lichtbeeld|gezicht op|opname|repr\b|serie\b|\bzicht|groep|"
+                         r"landschap|straat|\bvan (de|het|een)\b|\d{4}")
 RELIGION = re.compile(r"religon|religion")
 PERIOD_STYLE = re.compile(r"\bperiods?\b|\bstyles?\b|periodes")
 BROAD = re.compile(r"cultures\b|-culturen|culturen\b|\bregion|regional|peoples\b|speaking|widespread|groups\b|"
@@ -887,6 +889,11 @@ def nmvw_rows(stats):
                 r"textile|cloth|costume|sculpt|statue|mask|painting|print\b|prints \(visual|drawing|gouache", ttxt):
             stats["nmvw_drop:photograph / archive / coin / specimen"] += 1
             continue
+        if not tlabels:
+            title = (r.get("title") or "").lower()
+            if (PHOTO_TITLE.search(title) or len(title.split()) > 3) and object_group(title) == "other":
+                stats["nmvw_drop:untyped record with photograph-like title"] += 1
+                continue
         terms = r.get("terms") or []
         cterms = [t for t in dict.fromkeys(terms + (r.get("places") or [])) if th.get(t, {}).get("scheme") == "culture"]
         gterms = [t for t in (r.get("places") or []) + terms if th.get(t, {}).get("scheme") == "geo"]

@@ -475,7 +475,7 @@ N(A, "ea_regong", "Regong (Rebkong) art", R, "painting (thangka); sculpture", (1
 N(A, "ea_minhwa", "Korean minhwa folk painting", R, "painting", (1700, 1950),
   pat=r"minhwa|min-hwa|민화|民畫|民画|chaekgeori|chaek geori|chaekkori|ch'aekkori|chaekori|ch'aekori|chaekgado|ch'aekkado|chaekkado|책거리|책가도|munja-?do|문자도|文字圖|"
       r"character (painting|ideograph)|hojak|호작도|까치호랑이|magpie and tiger|tiger and magpie|sipjangsaeng|십장생|"
-      r"ten symbols of longevity|bookshelf|scholar'?s (accoutrements|objects) (screen|painting)|ch'?aekkado",
+      r"ten symbols of longevity|bookshelf|scholar'?s (accoutrements|objects) (screen|painting)|ch'aekkado",
   ctx=KOREA + r"|민화|책거리|문자도|minhwa", kn=r"minhwa|민화|chaekgeori|munjado|책거리|문자도",
   wd=["Minhwa", "Chaekgeori", "Munjado", "민화@ko"], api=["minhwa", "Korean folk painting", "chaekgeori"])
 N(A, "ea_bojagi", "Korean bojagi (wrapping cloths)", R, "textiles", (1700, 2000),
