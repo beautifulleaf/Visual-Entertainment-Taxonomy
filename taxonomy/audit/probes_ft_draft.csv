@@ -1,0 +1,121 @@
+set,probe,type
+film,film noir,core
+film,neo-noir,core
+film,western,core
+film,spaghetti western,core
+film,giallo,core
+film,wuxia,core
+film,heroic bloodshed,core
+film,jidaigeki,core
+film,chanbara,core
+film,kaiju,core
+film,J-horror,core
+film,Bollywood masala,core
+film,parallel cinema,core
+film,Nollywood,core
+film,Cinema Novo,core
+film,Dogme 95,core
+film,mumblecore,core
+film,French New Wave,core
+film,Italian neorealism,core
+film,German Expressionism,core
+film,Third Cinema,core
+film,Iranian New Wave,core
+film,slasher,core
+film,found footage,core
+film,folk horror,core
+film,body horror,core
+film,screwball comedy,core
+film,heist film,core
+film,biopic,core
+film,mockumentary,core
+film,blaxploitation,core
+film,sword and sandal,core
+film,short film,core
+film,experimental film,core
+tv,telenovela,core
+tv,dizi,core
+tv,soap opera,core
+tv,sitcom,core
+tv,multi-camera sitcom,core
+tv,single-camera sitcom,core
+tv,police procedural,core
+tv,legal drama,core
+tv,medical drama,core
+tv,anthology series,core
+tv,miniseries,core
+tv,sageuk,core
+tv,asadora,core
+tv,makjang,core
+tv,taiga drama,core
+tv,xianxia drama,core
+tv,Nordic noir,core
+tv,prestige drama,core
+tv,sketch comedy,core
+tv,BL drama,core
+anime,isekai,core
+anime,shonen,core
+anime,shojo,core
+anime,seinen,core
+anime,josei,core
+anime,mecha,core
+anime,magical girl,core
+anime,slice of life,core
+anime,iyashikei,core
+anime,OVA,core
+anime,harem,core
+anime,sports anime,core
+anime,idol anime,core
+anime,kodomomuke,core
+unscripted,reality competition,core
+unscripted,panel show,core
+unscripted,quiz show,core
+unscripted,late-night talk show,core
+unscripted,docusoap,core
+unscripted,dating reality,core
+unscripted,makeover show,core
+unscripted,true crime docuseries,core
+unscripted,talent show,core
+unscripted,survival reality,core
+unscripted,hidden camera show,core
+unscripted,nature documentary series,core
+film,zombie movie,naive
+film,kung fu movie,naive
+film,scary movie,naive
+film,chick flick,naive
+film,monster movie,naive
+film,alien invasion movie,naive
+film,christmas movie,naive
+film,sports movie,naive
+film,courtroom movie,naive
+film,gangster movie,naive
+film,Indian movie with songs,naive
+film,Nigerian movie,naive
+film,cowboy movie,naive
+film,samurai movie,naive
+tv,cop show,naive
+tv,Turkish soap,naive
+tv,Korean drama,naive
+tv,hospital show,naive
+tv,lawyer show,naive
+tv,Spanish-language soap,naive
+tv,Chinese costume drama,naive
+tv,British crime drama,naive
+tv,cartoon for kids,naive
+tv,adult cartoon,naive
+tv,sitcom with laugh track,naive
+tv,Japanese morning drama,naive
+anime,anime for girls,naive
+anime,giant robot anime,naive
+anime,transported to another world anime,naive
+anime,cute girls doing cute things,naive
+anime,fighting anime,naive
+anime,sad anime,naive
+unscripted,cooking contest,naive
+unscripted,singing competition,naive
+unscripted,love island type show,naive
+unscripted,home renovation show,naive
+unscripted,baking show,naive
+unscripted,prank show,naive
+unscripted,ghost hunting show,naive
+unscripted,wedding dress show,naive

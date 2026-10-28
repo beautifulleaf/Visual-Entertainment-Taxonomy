@@ -1,0 +1,362 @@
+{
+ "film": {
+  "n": 18007,
+  "low": 935,
+  "pairs": [
+   [
+    "A10-2",
+    "Comedy-Drama",
+    "A9-2",
+    "Romantic Comedy",
+    138
+   ],
+   [
+    "A14-3",
+    "Coming-of-Age Film",
+    "A9-1",
+    "Romantic Drama",
+    126
+   ],
+   [
+    "A14-5",
+    "Character Study",
+    "A9-1",
+    "Romantic Drama",
+    110
+   ],
+   [
+    "A10-1",
+    "Comedy Film",
+    "A9-2",
+    "Romantic Comedy",
+    103
+   ],
+   [
+    "A10-2",
+    "Comedy-Drama",
+    "A14-3",
+    "Coming-of-Age Film",
+    102
+   ],
+   [
+    "A19-1",
+    "Children's Film",
+    "A6-1",
+    "Fantasy Film",
+    96
+   ],
+   [
+    "A10-2",
+    "Comedy-Drama",
+    "A14-2",
+    "Family Drama",
+    93
+   ],
+   [
+    "A11-1",
+    "Musical & Music Film",
+    "A7-8",
+    "Biographical Film",
+    83
+   ],
+   [
+    "A14-3",
+    "Coming-of-Age Film",
+    "A14-4",
+    "Social Drama",
+    81
+   ],
+   [
+    "A3-7",
+    "Spy Film",
+    "A8-2",
+    "Action Film",
+    77
+   ],
+   [
+    "A10-1",
+    "Comedy Film",
+    "A6-1",
+    "Fantasy Film",
+    73
+   ],
+   [
+    "A14-7",
+    "Sports Film",
+    "A7-8",
+    "Biographical Film",
+    73
+   ]
+  ]
+ },
+ "tv": {
+  "n": 12249,
+  "low": 594,
+  "pairs": [
+   [
+    "C1-5",
+    "Teen Drama",
+    "C2-9",
+    "Japanese Television Drama",
+    125
+   ],
+   [
+    "C2-9",
+    "Japanese Television Drama",
+    "C4-5",
+    "Comedy-Drama Series",
+    111
+   ],
+   [
+    "C5-6",
+    "Tokusatsu Series",
+    "C7-2",
+    "Children's & Tween Series",
+    104
+   ],
+   [
+    "C5-5",
+    "Superhero Series",
+    "C5-6",
+    "Tokusatsu Series",
+    92
+   ],
+   [
+    "C1-10",
+    "Workplace & Professional Drama",
+    "C2-9",
+    "Japanese Television Drama",
+    75
+   ],
+   [
+    "C1-1",
+    "Family Drama Series",
+    "C2-9",
+    "Japanese Television Drama",
+    73
+   ],
+   [
+    "C3-1",
+    "Police Procedural Series",
+    "C3-6",
+    "Thriller Series",
+    73
+   ],
+   [
+    "C6-3",
+    "Animated Action-Adventure",
+    "C6-4",
+    "Children's Animated Series",
+    72
+   ],
+   [
+    "C3-3",
+    "Crime Drama Series",
+    "C4-5",
+    "Comedy-Drama Series",
+    69
+   ],
+   [
+    "C1-6",
+    "Period Drama Series",
+    "C1-9",
+    "Docudrama Series",
+    68
+   ],
+   [
+    "C3-2",
+    "Detective Series",
+    "C4-5",
+    "Comedy-Drama Series",
+    67
+   ],
+   [
+    "C3-1",
+    "Police Procedural Series",
+    "C4-5",
+    "Comedy-Drama Series",
+    57
+   ]
+  ]
+ },
+ "anime": {
+  "n": 5534,
+  "low": 368,
+  "pairs": [
+   [
+    "E10-2",
+    "Ecchi",
+    "E5-3",
+    "Harem",
+    112
+   ],
+   [
+    "E10-3",
+    "Comedy Anime",
+    "E6-3",
+    "Slice of Life Anime",
+    79
+   ],
+   [
+    "E1-6",
+    "Action Anime",
+    "E3-4",
+    "Supernatural & Yōkai Anime",
+    70
+   ],
+   [
+    "E1-1",
+    "Shōnen Battle",
+    "E3-4",
+    "Supernatural & Yōkai Anime",
+    60
+   ],
+   [
+    "E1-1",
+    "Shōnen Battle",
+    "E3-2",
+    "Fantasy Adventure",
+    51
+   ],
+   [
+    "E1-6",
+    "Action Anime",
+    "E3-2",
+    "Fantasy Adventure",
+    48
+   ],
+   [
+    "E1-6",
+    "Action Anime",
+    "E2-5",
+    "Science Fiction Anime",
+    44
+   ],
+   [
+    "E10-3",
+    "Comedy Anime",
+    "E3-1",
+    "Isekai",
+    42
+   ],
+   [
+    "E10-1",
+    "Gag & Parody Anime",
+    "E3-1",
+    "Isekai",
+    41
+   ],
+   [
+    "E1-6",
+    "Action Anime",
+    "E10-2",
+    "Ecchi",
+    40
+   ],
+   [
+    "E10-1",
+    "Gag & Parody Anime",
+    "E6-2",
+    "Cute Girls Doing Cute Things",
+    40
+   ],
+   [
+    "E10-1",
+    "Gag & Parody Anime",
+    "E5-2",
+    "Romantic Comedy Anime",
+    40
+   ]
+  ]
+ },
+ "unscripted": {
+  "n": 397,
+  "low": 27,
+  "pairs": [
+   [
+    "G2-2",
+    "Docusoap & Social Experiment",
+    "G3-1",
+    "Variety Show",
+    20
+   ],
+   [
+    "G3-1",
+    "Variety Show",
+    "G3-6",
+    "Web Show",
+    13
+   ],
+   [
+    "G1-2",
+    "Reality Competition",
+    "G1-4",
+    "Game Show",
+    7
+   ],
+   [
+    "G2-1",
+    "Dating Show",
+    "G2-2",
+    "Docusoap & Social Experiment",
+    7
+   ],
+   [
+    "G1-4",
+    "Game Show",
+    "G3-3",
+    "Panel Show",
+    6
+   ],
+   [
+    "G1-1",
+    "Talent Show",
+    "G1-4",
+    "Game Show",
+    5
+   ],
+   [
+    "G1-1",
+    "Talent Show",
+    "G1-2",
+    "Reality Competition",
+    4
+   ],
+   [
+    "G1-2",
+    "Reality Competition",
+    "G2-3",
+    "Makeover Show",
+    3
+   ],
+   [
+    "G1-2",
+    "Reality Competition",
+    "G2-2",
+    "Docusoap & Social Experiment",
+    3
+   ],
+   [
+    "G1-2",
+    "Reality Competition",
+    "G3-1",
+    "Variety Show",
+    3
+   ],
+   [
+    "G1-4",
+    "Game Show",
+    "G3-1",
+    "Variety Show",
+    3
+   ],
+   [
+    "G3-1",
+    "Variety Show",
+    "G3-2",
+    "Talk Show",
+    3
+   ]
+  ]
+ }
+}

@@ -1,0 +1,121 @@
+set,probe,type,home,status,comment
+film,film noir,core,A2-5,ok,Film Noir & Neo-Noir; F1 lists noir as a named cycle
+film,neo-noir,core,A2-5,ok,Named in label and aliases
+film,western,core,A17-1,ok,Classical western; F20 gives frontier precedence
+film,spaghetti western,core,A17-2,ok,Alias Italian/macaroni western
+film,giallo,core,A3-8,ok,Leaf + alias gialli
+film,wuxia,core,A8-3,ok,Film leaf; series → C2-5; animation → E1-7
+film,heroic bloodshed,core,A8-5,ok,Alias gun fu
+film,jidaigeki,core,A7-1,ok,F4 separates jidaigeki from chanbara
+film,chanbara,core,A7-2,ok,Alias samurai film/chambara; anime → E1-3
+film,kaiju,core,A5-1,ok,F5/F29 precedence; anime → E2-6
+film,J-horror,core,A4-1,ok,Named cycle (F2)
+film,Bollywood masala,core,A18-1,ok,Alias 'Bollywood masala'; F13 precedence
+film,parallel cinema,core,A1-17,ok,Parallel Cinema; alias Indian New Wave
+film,Nollywood,core,A18-2,ok,F13 covers it
+film,Cinema Novo,core,A1-13,ok,Alias also used by A1-38 (Portugal) - possible lookup collision
+film,Dogme 95,core,A1-23,ok,Alias Dogma 95
+film,mumblecore,core,A1-27,ok,
+film,French New Wave,core,A1-7,ok,Alias Nouvelle Vague
+film,Italian neorealism,core,A1-6,ok,
+film,German Expressionism,core,A1-2,ok,
+film,Third Cinema,core,A1-14,ok,
+film,Iranian New Wave,core,A1-18,ok,
+film,slasher,core,A4-8,ok,
+film,found footage,core,A4-7,ok,"Leaf is Found-Footage Horror only; non-horror found footage (Chronicle, Cloverfield) goes by genre - scope not stated"
+film,folk horror,core,A4-10,ok,
+film,body horror,core,A4-4,ok,
+film,screwball comedy,core,A10-4,ok,
+film,heist film,core,A2-7,ok,Alias caper film
+film,biopic,core,A7-8,ok,Alias biopic; F14
+film,mockumentary,core,A10-11 / C4-3,ok,Film and series leaves both exist
+film,blaxploitation,core,A2-10,ok,
+film,sword and sandal,core,A7-6,ok,Alias peplum
+film,short film,core,B / B2-3,ok,40-minute line in tab key; alias on B2-3
+film,experimental film,core,A16-1 / B4-1,ok,
+tv,telenovela,core,D1-1,ok,D1 family (TV2)
+tv,dizi,core,D3-1,ok,TV10/TV14 precedence
+tv,soap opera,core,D2,ok,D2 family by industry/daypart
+tv,sitcom,core,C4-1,ok,Alias sitcom on C4-1; single-camera on C4-2
+tv,multi-camera sitcom,core,C4-1,ok,
+tv,single-camera sitcom,core,C4-2,ok,Alias single-camera sitcom
+tv,police procedural,core,C3-1 / A2-3,ok,Series and film leaves
+tv,legal drama,core,C1-3 / A14-10,ok,TV4/TV13 precedence
+tv,medical drama,core,C1-2,ok,
+tv,anthology series,core,C1-16,ok,Alias anthology series; TV14
+tv,miniseries,core,C (test text only),weak,Named only in the C family test; no stated format filter for TV (format filter D4 is stated for anime only); limited series has no home a user can find
+tv,sageuk,core,C2-2,ok,TV3/TV18
+tv,asadora,core,C2-7,ok,
+tv,makjang,core,C2-3,ok,TV18 boundary
+tv,taiga drama,core,C2-8,ok,
+tv,xianxia drama,core,C2-5,ok,Alias xianxia drama; TV15
+tv,Nordic noir,core,C3-4,ok,Alias Scandi noir; TV16
+tv,prestige drama,core,C1-12 (broad),weak,Only mentioned in TV4 as a reason not to call crime 'drama'; no alias or tag
+tv,sketch comedy,core,C4-4,ok,
+tv,BL drama,core,C2-11,ok,TV19 precedence
+anime,isekai,core,E3-1,ok,AN1 precedence
+anime,shonen,core,AN3 tag / E1-1,ok,Demographic tag on every title; E1-1 Shōnen Battle
+anime,shojo,core,AN3 tag / E5-1,ok,Demographic tag; Shōjo Romance leaf
+anime,seinen,core,AN3 tag / E1-2,ok,Demographic tag; Seinen Action
+anime,josei,core,AN3 tag / E5-6,ok,Tag; alias josei romance
+anime,mecha,core,E2-1 / E2-2,ok,E2 Mecha & Science Fiction; super vs real robot
+anime,magical girl,core,E4-1 / E4-2,ok,AN10
+anime,slice of life,core,E6-3,ok,
+anime,iyashikei,core,E6-1,ok,
+anime,OVA,core,format filter (D4),ok,Stated filter; note label 'D4' collides with leaf family D4 South Asian Serials
+anime,harem,core,E5-3,ok,Alias reverse harem
+anime,sports anime,core,E7-1,ok,AN7
+anime,idol anime,core,E6-4,ok,
+anime,kodomomuke,core,E11-1,ok,Spelled Kodomo-muke; AN6
+unscripted,reality competition,core,G1-2,ok,
+unscripted,panel show,core,G3-3,ok,
+unscripted,quiz show,core,G1-4,ok,Alias quiz show
+unscripted,late-night talk show,core,G3-2,ok,Definition names late-night
+unscripted,docusoap,core,G2-2,ok,
+unscripted,dating reality,core,G2-1,ok,
+unscripted,makeover show,core,G2-3,ok,
+unscripted,true crime docuseries,core,C8-2,ok,"Home is in C8 (documentary series), not G"
+unscripted,talent show,core,G1-1,ok,
+unscripted,survival reality,core,G1-2 / G2-2,weak,"Survivor sits in G1-2, but non-elimination survival shows (Man vs. Wild, Naked and Afraid) are not named anywhere"
+unscripted,hidden camera show,core,G2-2 (key only),weak,Only reachable through the G2 key ('arranged situations'); hidden camera / candid camera not named; Jackass in G2-2 is the nearest example
+unscripted,nature documentary series,core,C8-3,ok,
+film,zombie movie,naive,A4-6,ok,F12 keeps zombie comedies here
+film,kung fu movie,naive,A8-4,ok,Exact alias
+film,scary movie,naive,A4 (family),weak,"'Scary' appears nowhere as an alias; 'Scary Movie' is cited under A10-6 Parody & Spoof, so a search lands on the wrong leaf"
+film,chick flick,naive,A9-2 / A14-6,weak,Not named; nearest are romcom and women's film/weepie
+film,monster movie,naive,A4-14,ok,Alias monster movie; kaiju split by F29
+film,alien invasion movie,naive,A5-8,ok,
+film,christmas movie,naive,A19-2,ok,F18
+film,sports movie,naive,A14-7,ok,F19
+film,courtroom movie,naive,A14-10,ok,Alias courtroom drama
+film,gangster movie,naive,A2-2,ok,Alias mob film; yakuza split by F2
+film,Indian movie with songs,naive,A18-1 / A11-1,weak,Only 'Bollywood masala' and 'song-and-dance' in A18-1; F13 sends songful non-action Indian films by main line; no stated country filter for film and no 'Bollywood' alias alone
+film,Nigerian movie,naive,A18-2,ok,Alias Nigerian video film
+film,cowboy movie,naive,A17-1,ok,Alias cowboy film
+film,samurai movie,naive,A7-2,ok,Alias samurai film; F4
+tv,cop show,naive,C3-1,ok,Exact alias
+tv,Turkish soap,naive,D3-1,ok,Alias Turkish drama; 'Turkish soap opera' itself not an alias
+tv,Korean drama,naive,C2-1,ok,Alias Korean drama; TV18 sends Korean thrillers by genre
+tv,hospital show,naive,C1-2,ok,Alias hospital drama
+tv,lawyer show,naive,C1-3,ok,Definition: lawyers and the law
+tv,Spanish-language soap,naive,D1-1,ok,Telenovela; alias culebrón
+tv,Chinese costume drama,naive,C2-4,ok,Exact label
+tv,British crime drama,naive,C3 (family),weak,"Placed by genre in C3, but country of origin is not stated as a filter for TV (only 'Asian drama' is); D2-2 British soap could mislead"
+tv,cartoon for kids,naive,C6-4,ok,Alias kids' cartoon
+tv,adult cartoon,naive,C6-1 / C6-2,ok,Alias adult animation
+tv,sitcom with laugh track,naive,C4-1,ok,Definition names laugh track
+tv,Japanese morning drama,naive,C2-7,ok,Definition: NHK morning serial
+anime,anime for girls,naive,AN3 shōjo tag / E5-1,ok,E5-1 'written for girls'; demographic tag
+anime,giant robot anime,naive,E2-1 / E2-2,ok,Key step 4 'giant robots'
+anime,transported to another world anime,naive,E3-1,ok,Definition wording matches
+anime,cute girls doing cute things,naive,E6-2,ok,Exact label
+anime,fighting anime,naive,E1,ok,Key 'fights and powers'
+anime,sad anime,naive,E8-3 (broad),weak,No tearjerker/nakige alias; E8-3 'grief' is the only hint
+unscripted,cooking contest,naive,G1-3,ok,
+unscripted,singing competition,naive,G1-1,ok,Definition: singing contests
+unscripted,love island type show,naive,G2-1,ok,Love Island is an example
+unscripted,home renovation show,naive,G2-3 / G3-5,weak,"Grand Designs in G2-3, This Old House in G3-5; no precedence for renovation/flipping shows"
+unscripted,baking show,naive,G1-3,ok,Bake Off example; non-competitive baking → G3-5
+unscripted,prank show,naive,G2-2 (Jackass),weak,Prank/hidden-camera not named; only Jackass example
+unscripted,ghost hunting show,naive,G2-2,ok,Paranormal-investigation reality; TV13
+unscripted,wedding dress show,naive,G2-2 (key only),weak,Shopping/bridal docusoaps (Say Yes to the Dress) not named; G2-2 vs G2-3 unclear

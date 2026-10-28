@@ -229,7 +229,6 @@ mdl:771359-the-boyfriend,The Boyfriend,2024,JP,,G2-1,,high,,review
 mdl:782466-the-boyfriend-season-2,The Boyfriend Season 2,2026,JP,,G2-1,,high,BL dating reality,review
 Q4899944,Beyond Boundaries,2005,3,,G2-2,G1-2,med,,review
 Q132851376,Boksen,2025,3,,G2-2,,low,,review
-Q1087835,Candid Camera,1948,3,,G2-2,G3-1,med,hidden camera,review
 Q797907,Cops,1989,3,,G2-2,,high,,review
 Q16993042,Gogglebox,2013,5,,G2-2,,high,,review
 Q3310878,Intervention,2005,2,,G2-2,,high,,review
@@ -240,13 +239,11 @@ Q486844,MythBusters,2003,2,,G2-2,G3-5,med,science-experiment factual entertainme
 Q17104499,Naked and Afraid,2013,2,,G2-2,,high,,review
 mdl:746287-19-20,Nineteen to Twenty,2023,KR,,G2-2,G2-1,med,"coming-of-age reality, romance strand",review
 Q11888566,Poliisit,2009,2,,G2-2,,high,occupational police docusoap,review
-Q912279,Punk'd,2003,3,,G2-2,G3-1,med,hidden-camera pranks,review
 Q101141566,Stripped,2015,4,,G2-2,,med,possessions social experiment,review
 mdl:25114-terrace-house-aloha-state,Terrace House: Aloha State,2016,JP,,G2-2,G2-1,high,shared-house docusoap,review
 mdl:25689-terrace-house-boys-girls-in-the-city,Terrace House: Boys & Girls in the City,2015,JP,,G2-2,G2-1,high,shared-house docusoap,review
 mdl:26695-terrace-house-opening-new-doors,Terrace House: Opening New Doors,2017,JP,,G2-2,G2-1,high,shared-house docusoap,review
 Q2590440,The Real Housewives,2006,10,,G2-2,,high,,review
-Q7243489,What Would You Do?,2008,3,,G2-2,,high,hidden-camera social experiment,review
 Q2985293,Who Do You Think You Are?,2004,5,,G2-2,,med,genealogy factual; near C8 documentary,review
 Q1850352,Wife Swap,2003,4,,G2-2,,high,,review
 Q923377,Extreme Makeover,2002,3,,G2-3,,high,,review
@@ -259,6 +256,9 @@ Q1538095,Ramsay's Kitchen Nightmares,2004,11,,G2-3,,high,leaf example; cluster s
 Q819092,Supernanny,2004,3,,G2-3,G2-2,high,,review
 Q3234737,What Not to Wear,2003,2,,G2-3,,high,,review
 Q8037127,Worst Driver,2002,4,,G2-3,G1-2,med,driver rehabilitation with eliminations,review
+Q1087835,Candid Camera,1948,3,,G2-4,,med,hidden-camera format (TV20),override
+Q912279,Punk'd,2003,3,,G2-4,,med,hidden-camera prank format (TV20),override
+Q7243489,What Would You Do?,2008,3,,G2-4,G2-2,high,hidden-camera social experiment (TV20),override
 mdl:51647-2-days-1-night-season-4,2 Days & 1 Night Season 4,2019,KR,,G3-1,,high,,review
 mdl:690499-bts-2021-winter-package,2021 BTS Winter Package,2021,KR,,G3-1,,low,DVD/photobook content package,review
 mdl:77359-ateez-fever-road,ATEEZ Fever Road,2020,KR,,G3-1,,med,,review
@@ -277,7 +277,6 @@ mdl:728467-bts-mbti-lab,BTS MBTI Lab,2022,KR,,G3-1,G3-6,med,Run BTS! spin-off,re
 mdl:65363-b-t-s-in-the-soop,BTS in the Soop,2020,KR,,G3-1,G2-2,high,idol retreat reality,review
 mdl:710607-bts-in-the-soop-season-2,BTS in the Soop Season 2,2021,KR,,G3-1,G2-2,med,,review
 mdl:713503-bts-in-the-soop-season-2-behind-the-scene,BTS in the Soop Season 2: Behind The Scene,2021,KR,,G3-1,G2-2,med,,review
-mdl:69855-bts-in-the-soop-behind-the-scene,BTS in the Soop: Behind The Scene,2020,KR,,G3-1,,med,behind-the-scenes of In the Soop,review
 mdl:25753-bts-bon-voyage,BTS: Bon Voyage,2016,KR,,G3-1,,high,idol travel reality,review
 mdl:25754-bts-bon-voyage-2,BTS: Bon Voyage 2,2017,KR,,G3-1,,high,,review
 mdl:690491-bts-bon-voyage-2-behind-cam,BTS: Bon Voyage 2 Behind Cam,2017,KR,,G3-1,,med,behind-the-scenes of Bon Voyage,review
@@ -396,6 +395,7 @@ mdl:62341-24-365-with-blackpink,24/365 with BLACKPINK,2020,KR,,G3-6,,med,YouTube
 mdl:41517-ateez-treasure-film,Ateez Treasure Film,2019,KR,,G3-6,,low,short web reality clips,review
 Q39055175,Hot Ones,2015,4,,G3-6,G3-2,high,leaf example; cluster says game show,review
 mdl:30980-making-of-bt21,Making of BT21,2017,KR,,G3-6,,med,web making-of of character line,review
+mdl:69855-bts-in-the-soop-behind-the-scene,BTS in the Soop: Behind The Scene,2020,KR,,exclude:behind-the-scenes supplement (TV19),G3-1,med,companion of In the Soop,override
 mdl:687781-a-tale-of-thousand-stars-counting-1-to-1000-stars,A Tale of Thousand Stars: Counting 1 to 1000 Stars,2021,TH,,exclude:drama supplement,,low,making-of special of a scripted drama,review
 mdl:16947-cheese-in-the-trap-sp,Cheese in the Trap SP,2016,KR,,exclude:drama supplement,,med,making-of/recap special of a scripted drama,review
 mdl:10075-coffee-prince-special,Coffee Prince Special,2007,KR,,exclude:drama supplement,,med,making-of/recap special of a scripted drama,review

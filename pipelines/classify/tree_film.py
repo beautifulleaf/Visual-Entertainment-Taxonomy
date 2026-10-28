@@ -1459,3 +1459,33 @@ _redef("C2-11", defn="BL and GL series — romance between young men or between 
 PRECEDENCE += [
     ("TV19", "Thai and Philippine drama; versions and segments", "A Thai drama of romance, youth or revenge is Lakorn (C2-10); a Thai thriller, horror or fantasy series that its genre carries goes by genre with C2-10 as see-also. Any Asian BL or GL series is C2-11 whatever its genre or form; a straight main couple with BL side couples stays in the tradition (C2-10) with C2-11 as see-also. A Philippine broadcast serial is D6-1; a Philippine streaming series goes by genre. Uncut, director's-cut and special-edition versions, anthology segments listed as titles, and bonus or making-of specials are excluded as duplicates or supplements of their series."),
 ]
+
+# Audit fixes (blind test, coverage probes, seam audit; scale-up round 7).
+def _alias(code, extra):
+    for rows in LEAVES.values():
+        for i, l in enumerate(rows):
+            if l[0] == code:
+                rows[i] = l[:4] + ((l[4] + "; " if l[4] else "") + extra,) + l[5:]
+
+
+_alias("A4-3", "horror movie; scary movie")
+_alias("A9-2", "chick flick")
+_alias("A14-6", "chick flick (drama)")
+_alias("A18-1", "Bollywood film; Hindi film; song-and-dance film")
+_alias("C1-12", "prestige drama; miniseries; limited series")
+_alias("E8-3", "sad anime; tearjerker; nakige; utsuge")
+_alias("G2-2", "survival reality; bridal docusoap; shopping docusoap")
+_alias("G2-3", "home renovation show; house flipping")
+_redef("A4-7", defn=LEAVES["A4"][[l[0] for l in LEAVES["A4"]].index("A4-7")][3] + " Found-footage films that are not horror go by genre (<i>Chronicle</i>, <i>Cloverfield</i>).")
+_add("G2", [
+    ("G2-4", "Hidden Camera & Prank Show", "medium", "real people caught in staged situations, pranks and stunts filmed on hidden or open camera (<i>Candid Camera</i>, <i>Punk'd</i>, <i>Impractical Jokers</i>, <i>Jackass</i>).", "hidden-camera show; prank show", "G2-2 Docusoap & Social Experiment.", "Hidden camera"),
+])
+ATTEST_WIKI["G2-4"] = "Hidden camera"
+MODIFIERS += [
+    "<b>Country of origin</b> — Wikidata P495 (D8); a co-production counts in each country. A filter on every leaf of both families (\"British crime drama\" = C3 leaves filtered by GB), never a node.",
+    "<b>Critical tags</b> — prestige drama, cult film, arthouse, blockbuster: tags, not genres.",
+]
+PRECEDENCE += [
+    ("F30", "Comic police and period settings", "A comedy about police that is neither buddy-cop (A8-7) nor spoof is Comedy (A10-1), or Action Comedy (A10-9) when action set-pieces carry it. A past setting 'defines' a film (key step 8) only when the era's events or manners are its subject; a family drama or comedy merely set in the past goes by its genre with A7-4 as see-also (F24)."),
+    ("TV20", "Unscripted edges", "A hidden-camera, prank or stunt show is G2-4. A transformation story (house, body, business) is G2-3; a show that teaches the craft is G3-5. Recaps, re-edits with pop-up facts and behind-the-scenes companions of a format are excluded as supplements (TV19). A model or talent search judged on performance is G1-1; one built on living together and elimination tasks is G1-2."),
+]

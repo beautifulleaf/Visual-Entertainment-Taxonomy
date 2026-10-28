@@ -12076,7 +12076,6 @@ tt0042171,You Bet Your Life,1950–1961,US,tvSeries,G1-4,,med,"quiz show, not a 
 tt19037550,Love on the Spectrum,2022–,US,tvSeries,G2-1,,high,dating docuseries format (AU original),review
 tt5564124,60 Days In,2016–,US,tvSeries,G2-2,,high,,review
 tt0914829,Bad Girls Club,2006–,US,tvSeries,G2-2,,high,docusoap,sweep
-tt1714768,Benidorm Bastards,2010–2012,BE,tvSeries,G2-2,G3-1,med,hidden-camera pranks (as Candid Camera),sweep
 tt5020352,Better Late Than Never,2016–2018,US,tvSeries,G2-2,C8-1,med,celebrity travel reality,review
 tt2498968,Catfish: The TV Show,2012–,US,tvSeries,G2-2,G2-1,med,online-relationship investigation reality,sweep
 tt3688530,Chrisley Knows Best,2014–2023,US,tvSeries,G2-2,,high,family docusoap,review
@@ -12089,12 +12088,8 @@ tt1960255,Geordie Shore,2011–,GB,tvSeries,G2-2,,high,docusoap; Jersey Shore fo
 tt0426697,Ghost Hunters,2004–2023,US,tvSeries,G2-2,,high,paranormal-investigation reality (TV13),sweep
 tt9170584,"Gordon, Gino and Fred's Road Trip",2018–,GB,tvSeries,G2-2,C8-1,med,celebrity travel reality (TV13),sweep
 tt1497563,Hoarders,2009–,US,tvSeries,G2-2,C8-1,med,intervention reality; Intervention format is G2-2,sweep
-tt2100976,Impractical Jokers,2011–,US,tvSeries,G2-2,G1-4,med,hidden-camera challenge reality,sweep
-tt6422944,Impractical Jokers: Inside Jokes,2016–,US,tvSeries,G2-2,,med,hidden-camera clip spin-off,review
 tt0450920,Intervention,2005–,US,tvSeries,G2-2,C8-1,med,aligned with its format row in the unscripted list (sweep question),override
-tt0264263,Jackass,2000–2007,US,tvSeries,G2-2,,high,stunt reality (leaf example),sweep
 tt1563069,Jersey Shore,2009–2012,US,tvSeries,G2-2,,high,docusoap,sweep
-tt22074164,Jury Duty,2023–2026,US,tvSeries,G2-2,C4-3,med,Hidden-camera hoax with one real juror,review
 tt0384746,Kenny vs. Spenny,2002–2010,CA,tvSeries,G2-2,C4-3,med,staged competition reality comedy,sweep
 tt1821879,Kourtney and Kim Take New York,2011–2012,US,tvSeries,G2-2,,high,docusoap,sweep
 tt0426738,Laguna Beach,2004–2006,US,tvSeries,G2-2,,high,docusoap,sweep
@@ -12104,16 +12099,12 @@ tt27612322,Missing: Dead or Alive?,2023–,US,tvSeries,G2-2,C8-2,med,Observation
 tt2297757,Nathan for You,2013–2017,US,tvSeries,G2-2,C4-3,med,unscripted docu-comedy with real businesses,sweep
 tt1414349,Nitro Circus,2009–2009,US,tvSeries,G2-2,,med,stunt reality,sweep
 tt0785036,Paranormal State,2007–,US,tvSeries,G2-2,C8-1,high,paranormal-investigation reality (TV13),sweep
-tt10487072,Prank Encounters,2019–2021,US,tvSeries,G2-2,,med,hidden-camera prank reality,review
-tt0361227,Punk'd,2003–2015,US,tvSeries,G2-2,G3-1,high,hidden-camera pranks,sweep
 tt0791283,Rob & Big,2006–2008,US,tvSeries,G2-2,,high,docusoap,sweep
 tt1344970,Rob Dyrdek's Fantasy Factory,2009–,US,tvSeries,G2-2,,high,docusoap,sweep
 tt3816666,Running Wild with Bear Grylls,2014–,US,tvSeries,G2-2,,med,celebrity survival reality,sweep
 tt5435072,Scare PewDiePie,2016–2017,US,tvSeries,G2-2,C4-2,med,YouTuber horror reality series,review
-tt0339968,Scare Tactics,2003–2013,US,tvSeries,G2-2,,high,hidden-camera pranks,sweep
 tt1721666,Sister Wives,2010–,US,tvSeries,G2-2,,high,docusoap,sweep
 tt2083701,Snooki & JWOWW,2012–2015,US,tvSeries,G2-2,,high,docusoap,sweep
-tt3559912,The Carbonaro Effect,2014–,US,tvSeries,G2-2,,high,hidden-camera pranks,sweep
 tt0468424,The Girls Next Door,2005–2010,US,tvSeries,G2-2,,high,docusoap,sweep
 tt10948294,The Great Escapists,2021–2021,US,tvSeries,G2-2,C8-1,med,Unscripted survival-build show,review
 tt0489598,The Hills,2006–2010,US,tvSeries,G2-2,,high,docusoap,sweep
@@ -12128,6 +12119,15 @@ tt0389701,Wildboyz,2003–2006,US,tvSeries,G2-2,,med,stunt travel reality,sweep
 tt0388595,Extreme Makeover: Home Edition,2003–2020,US,tvSeries,G2-3,,high,home makeover,sweep
 tt0358332,Queer Eye for the Straight Guy,2003–2007,US,tvSeries,G2-3,,high,makeover format,sweep
 tt10971532,Queer Eye: We're in Japan!,2019–2019,US,tvSeries,G2-3,,high,Queer Eye special,review
+tt1714768,Benidorm Bastards,2010–2012,BE,tvSeries,G2-4,,med,hidden-camera prank show (TV20),override
+tt2100976,Impractical Jokers,2011–,US,tvSeries,G2-4,G1-4,med,hidden-camera challenge show (TV20),override
+tt0264263,Jackass,2000–2007,US,tvSeries,G2-4,,high,stunt and prank show (TV20),override
+tt22074164,Jury Duty,2023–2026,US,tvSeries,G2-4,C4-3,med,hidden-camera hoax (TV20),override
+tt10487072,Prank Encounters,2019–2021,US,tvSeries,G2-4,,med,prank show (TV20),override
+tt0361227,Punk'd,2003–2015,US,tvSeries,G2-4,,high,hidden-camera prank show (TV20),override
+tt6060214,Ramez is Playing With Fire,2016–2016,MA,tvSeries,G2-4,G3-1,med,prank show (TV20),override
+tt0339968,Scare Tactics,2003–2013,US,tvSeries,G2-4,,high,hidden-camera prank show (TV20),override
+tt3559912,The Carbonaro Effect,2014–,US,tvSeries,G2-4,,high,hidden-camera magic prank show (TV20),override
 tt2184186,A League of Their Own,2010–,GB,tvSeries,G3-1,G1-4,med,sports comedy panel game,review
 tt2033193,A Very Potter Musical,2009–2009,,tvSeries,G3-1,C4-4,med,Recorded stage musical parody,review
 tt0098740,America's Funniest Home Videos,1989–,US,tvSeries,G3-1,G1-4,med,clip show; prize incidental (as format row),sweep
@@ -12146,7 +12146,6 @@ tt8425308,Magic for Humans,2018–2020,US,tvSeries,G3-1,,med,hidden-camera magic
 tt0463827,Mock the Week,2005–2027,GB,tvSeries,G3-1,G1-4,med,topical comedy panel game,review
 tt0115286,Never Mind the Buzzcocks,1996–2025,GB,tvSeries,G3-1,G1-4,med,comedy panel game,review
 tt0380136,QI,2003–,GB,tvSeries,G3-1,G1-4,med,comedy panel game,review
-tt6060214,Ramez is Playing With Fire,2016–2016,MA,tvSeries,G3-1,G2-2,med,"Egyptian prank show, not a cross-border format",review
 tt1820166,Ridiculousness,2011–2026,US,tvSeries,G3-1,G3-2,med,hosted clip show,sweep
 tt9663964,Rob & Romesh Vs,2019–,GB,tvSeries,G3-1,C8-1,med,"comedy challenge programme, not a format",review
 tt1564698,Russell Howard's Good News,2009–2015,GB,tvSeries,G3-1,C4-6,med,topical stand-up comedy show,review
@@ -12300,6 +12299,7 @@ tt8010592,Inside Look: The Assassination of Gianni Versace - American Crime Stor
 tt6205862,Inside Look: The People v. O.J. Simpson - American Crime Story,2016–2016,,tvSeries,exclude:promotional featurette,,med,Making-of shorts,review
 tt0373571,The More You Know,1989–,US,tvSeries,"exclude:public service announcements, not a series",,high,,review
 mdl:749989-eien-no-kinou-complete-edition,Eien No Kinou: Complete Edition,2023,JP,drama,exclude:re-edit of Eien no Kinou (row 27),,med,,review
+tt6422944,Impractical Jokers: Inside Jokes,2016–,US,tvSeries,exclude:re-edit with pop-up facts (TV20),G2-4,med,supplement of Impractical Jokers,override
 mdl:697959-mouse-the-predator,Mouse: The Predator,2021,KR,drama,exclude:recap special,,med,special episodes of Mouse,review
 mdl:22145-goblin-special-every-moment-of-it-shined,Guardian Special: Every Moment of It Shined,2017,KR,drama,exclude:recap special of Guardian (Goblin),,high,not a series,review
 mdl:780144-mu-te-luv-9-temples,MuTeLuv: Love Me if You Swear,2026,TH,drama,exclude:segment of the MuTeLuv anthology,,med,story of MuTeLuv,review

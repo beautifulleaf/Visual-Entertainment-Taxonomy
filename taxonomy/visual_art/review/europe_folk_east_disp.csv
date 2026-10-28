@@ -1,0 +1,647 @@
+pool_id,disposition,note
+europe_folk:Russian (no school recorded) / manuscript illumination,route:europe_other,Old Russian manuscript illumination (C2); 108k objects
+europe_folk:lubok,leaf:L11,
+europe_folk:Russian tiled stoves (izraztsy),leaf:L30,
+europe_folk:Russian (no school recorded) / icon painting,route:europe_other,A3 Russian icon painting; 41k objects
+europe_folk:Birch-bark work (tuohityö),leaf:L97,
+europe_folk:Blueprint (resist-dye printing),leaf:L90,
+europe_folk:Khokhloma,leaf:L112,
+europe_folk:Matryoshka doll,leaf:L17,
+europe_folk:Finnish weaving (kudonta),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Finnish folk costume (kansanpuku),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Finnish costume (kansanpuku),exclude:duplicate,duplicate of Finnish folk costume row
+europe_folk:Finnish lace (pitsi),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Rushnyk,leaf:L66,
+europe_folk:Finnish embroidery (kirjonta),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:bobbin lace making,exclude:technique umbrella,generic bobbin lace (Q64407093); centres are leaves
+europe_folk:Finnish folk (general) (kansanomainen),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Gzhel ceramics,leaf:L40,
+europe_folk:Dagestani (general) / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Dymkovo toy,leaf:L20,
+europe_folk:Boyko / Lemko / Rusyn / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Palekh miniature,leaf:L113,
+europe_folk:Karelian / objects (Finna),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Mari / objects (Finna),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Finnish felt (huopa),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Mstyora miniature,leaf:L115,
+europe_folk:Fedoskino miniature,leaf:L114,
+europe_folk:Ukrainian / embroidery,leaf:L65,culture-medium bucket that is the leaf
+europe_folk:Chuvash / embroidery,leaf:L68,attested by Q16718627 (Chuvash embroidery)
+europe_folk:Polkhovsky Maidan painting,leaf:L18,
+europe_folk:Ukrainian / ceramics,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Mari / embroidery,leaf:L69,attested by Q65134380 (Mari embroidery)
+europe_folk:Russian (no school recorded) / popular prints,leaf:L11,unattributed popular prints = lubok
+europe_folk:ryijy,leaf:L49,
+europe_folk:Finnish cross stitch (ristipisto),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Old Believer icons and cast icons,route:europe_other,A3 Russian icon painting kind Old Believer; cast icons G1 seam
+europe_folk:Puukko knife craft,leaf:L48,
+europe_folk:Khanty / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Ukrainian / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Rostov enamel (finift),leaf:L45,
+europe_folk:Nevyansk icon,route:europe_other,A3 Russian icon painting kind Nevyansk (Urals Old Believer school)
+europe_folk:Khanty / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Ukrainian / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Finnish folk painting (kansanmaalaus),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Yakut (Sakha) / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Tatar / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chukchi / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chukchi walrus-ivory engraving (Uelen),leaf:L14,
+europe_folk:Khanty / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Yakut (Sakha) / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Tatar / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Mansi / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Mansi / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:pysanka,leaf:L10,
+europe_folk:Filimonovo toy,leaf:L21,
+europe_folk:Ukrainian / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Finnish crochet (virkkaus),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Kholuy miniature,leaf:L116,
+europe_folk:Tatar / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Dagestani (general) / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Khanty / birch bark / basketry,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chukchi / bone carving,leaf:L14,Chukchi ivory carving centred on Uelen
+europe_folk:Khanty / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Dagestani (general) / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Finnish woodcarving (distaffs) (rukinlapa),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Balkhar pottery,leaf:L32,
+europe_folk:Buryat / metalwork,tag:place,"culture or technique bucket, no named tradition"
+"europe_folk:Mordvin (Erzya, Moksha) / embroidery",tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Ukrainian / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Komi / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Rauma bobbin lace,leaf:L85,
+europe_folk:Tatar / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Boyko / Lemko / Rusyn / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Ukrainian / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Khanty / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Ukrainian / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Old Russian manuscript illumination,route:europe_other,C2 Old Russian manuscript illumination
+europe_folk:Gorodets painting,leaf:L3,
+europe_folk:Ukrainian / decorated eggs,leaf:L10,Ukrainian decorated eggs = pysanky
+europe_folk:Mansi / textiles,tag:place,"culture or technique bucket, no named tradition"
+"europe_folk:Mordvin (Erzya, Moksha) / costume",tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Khanty / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Dagestani (general) / painting (folk/decorative),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Belarusian / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Tatar / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Mari / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Finnish straw work (olkityö),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Cossack / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Vologda lace,leaf:L83,
+europe_folk:Nenets / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Finnish band weaving (nauhapirta),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Cossack / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Karelian embroidery,leaf:L70,
+europe_folk:Zhostovo painting,leaf:L7,
+europe_folk:Skopin pottery,leaf:L31,
+europe_folk:Nogai / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Bashkir / other,tag:place,"culture or technique bucket, no named tradition"
+"europe_folk:Mordvin (Erzya, Moksha) / other",tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chuvash / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Dagestani (general) / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Bashkir / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Udmurt / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chuvash / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chuvash / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Boyko / Lemko / Rusyn / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Estonian / objects (Finna),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Karelian / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Tatar leather mosaic (ichigi),leaf:L81,
+europe_folk:Komi / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Bogorodskoye carving,leaf:L19,
+europe_folk:Nenets / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Komi / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chukchi / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+"europe_folk:Mordvin (Erzya, Moksha) / metalwork",tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Tobolsk bone carving,leaf:L15,
+europe_folk:Nenets / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nenets / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Mansi / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Finnish knitted mittens (lapaset),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Azerbaijani / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Yakut (Sakha) / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Mansi / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Adyghe / Circassian / Kabardian / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Ukrainian / glass,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Finnish woodcarving (puukaiverrus),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Tatar / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Udmurt / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Georgian / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Cossack / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Kubachi metalwork,leaf:L43,
+europe_folk:Karelian / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Kasli iron casting,leaf:L44,
+europe_folk:Ukrainian / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Yakut (Sakha) / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Mari / lace,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Khanty / bone carving,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Cossack / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Estonian / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Karelian / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Khanty / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Adyghe / Circassian / Kabardian / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Dagestani (general) / ceramics,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Georgian / ceramics,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Yakut (Sakha) / bone carving,leaf:L16,also attests
+europe_folk:Komi / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nanai / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Mari / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Untsukul wood inlay,leaf:L107,
+europe_folk:Belarusian / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Ingrian / Izhorian / objects (Finna),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Estonian / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Azerbaijani / carpets,route:islamic,H1-4 Caucasian Carpet evidence
+europe_folk:Udmurt / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Georgian / metalwork,tag:place,"culture or technique bucket, no named tradition"
+"europe_folk:Mordvin (Erzya, Moksha) / textiles",tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Estonian / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Abramtsevo-Kudrino carving,leaf:L106,
+europe_folk:Lithuanian / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Belarusian / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Udmurt / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Altai / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Kargopol toy,leaf:L22,
+europe_folk:Mansi / bone carving,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Altai / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chuvash / lace,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Komi / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chukchi / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Mansi / objects (Finna),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Yakut (Sakha) / birch bark / basketry,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Karelian / embroidery,leaf:L70,also attests
+europe_folk:Lithuanian / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Dagestani (general) / carpets,route:islamic,H1-4 Caucasian Carpet evidence
+europe_folk:Buryat / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Latvian / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chuvash / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Cossack / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Azerbaijani / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nenets / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nenets / bone carving,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Dagestani (general) / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Evenk / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Yakut (Sakha) / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Altai / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Azerbaijani / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Belarusian / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Mari / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Buryat / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Evenk / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Lithuanian / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nenets / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Raanu (Finnish flat-weave),leaf:L50,
+europe_folk:Chukchi / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Tatar / ceramics,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Belarusian / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Ukrainian / painting (folk/decorative),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Khanty / leather,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Georgian / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Belarusian / embroidery,leaf:L67,attested by Q121290561 (Belarusian embroidery)
+europe_folk:Cossack / ceramics,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Altai / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Shemogodsk birch-bark carving,leaf:L98,
+europe_folk:Evenk / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Tuvan / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Finnish basketry (pärekori),kind:L99,technique row naming pärekori
+europe_folk:Latvian / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Komi / birch bark / basketry,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Karelian / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Yakut (Sakha) / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Krestets stitch,leaf:L71,
+europe_folk:Chukchi / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Boyko / Lemko / Rusyn / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chukchi / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Udmurt / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Northern Dvina painting,leaf:L5,
+europe_folk:Crimean Tatar / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Bashkir / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Latvian / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nanai / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Komi / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Tatar / lace,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Mansi / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Mari / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Altai / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Russian / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Bashkir / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Lithuanian / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Latvian / ceramics,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Latvian / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Udmurt / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chuvash / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Azerbaijani / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nanai / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Komi / objects (Finna),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Adyghe / Circassian / Kabardian / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Lithuanian / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nenets / leather,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Dagestani (general) / toys,tag:place,"culture or technique bucket, no named tradition"
+"europe_folk:Mordvin (Erzya, Moksha) / toys",tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Gotsatl metalwork,tag:place,Gotsatl (Dagestan) copper and silver works; label not attestable in English; see problems
+europe_folk:Adyghe / Circassian / Kabardian / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Bashkir / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Buryat / icon painting,route:himalaya_central_asia,Buryat thangka evidence (their L1)
+europe_folk:Nenets / birch bark / basketry,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Tatar / leather,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Mari / birch bark / basketry,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Cossack / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Mezen painting,leaf:L4,
+europe_folk:Dagestani (general) / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Komi / lace,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chukchi / leather,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Mansi / leather,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Georgian / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Bashkir / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Lithuanian / ceramics,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Komi / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Udmurt / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Yakut bone carving,leaf:L16,
+europe_folk:Lak / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nanai / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Yelets lace,leaf:L84,
+europe_folk:Buryat / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Belarusian / glass,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nanai / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Karelian / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Evenk / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Armenian manuscript illumination,route:europe_other,"A1/C2 Armenian manuscript painting (Cilician, Gladzor, Vaspurakan, Tatev schools excluded rows)"
+europe_folk:Lithuanian / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Cossack / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Estonian / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chuvash / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Altai / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Mari / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Koryak / bone carving,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Tatar / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Udmurt / birch bark / basketry,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Boyko / Lemko / Rusyn / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Finnish birch bark (tuohikontti),kind:L97/tuohikontti,Finnish birch-bark backpack
+europe_folk:Estonian / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Koryak / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Belarusian / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Azerbaijani / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Moldovan / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Finnish bone carving (luukaiverrus),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Evenk / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Opishnia ceramics,leaf:L33,
+europe_folk:Täkänä (double weave),leaf:L58,
+"europe_folk:Mordvin (Erzya, Moksha) / lace",tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Cossack / popular prints,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Latvian / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Crimean Tatar / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Armenian / manuscript illumination,route:europe_other,evidence for Armenian manuscript painting
+europe_folk:Tuvan / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Komi / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Hutsul / metalwork,leaf:L46,also attests
+europe_folk:Boyko / Lemko / Rusyn / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Moldovan / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Cossack / lace,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Evenk / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Tatar / birch bark / basketry,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Karelian / birch bark / basketry,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Karachay-Balkar / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Khakas / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Tuvan / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Pavlovo Posad shawl,leaf:L91,
+europe_folk:Altai / lace,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Armenian / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Udmurt / lace,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Khanty / painting (folk/decorative),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Belarusian / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Khakas / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Buryat / ceramics,tag:place,"culture or technique bucket, no named tradition"
+"europe_folk:Mordvin (Erzya, Moksha) / woodcarving / woodwork",tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Yakut (Sakha) / ceramics,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Armenian / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Azerbaijani / ceramics,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nenets / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Avar / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Karelian / lace,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Ukrainian / lace,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Georgian / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Altai / painting (folk/decorative),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chuvash / glass,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Tatar / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chechen / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Khakas / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Belarusian / ceramics,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Mansi / painting (folk/decorative),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Altai / ceramics,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Estonian / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Bashkir / painting (folk/decorative),tag:place,"culture or technique bucket, no named tradition"
+"europe_folk:Mordvin (Erzya, Moksha) / birch bark / basketry",tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Tatar / painting (folk/decorative),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Boyko / Lemko / Rusyn / lace,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Armenian / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Karelian / painting (folk/decorative),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Armenian / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Latvian / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Cossack / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Boyko / Lemko / Rusyn / leather,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Adyghe / Circassian / Kabardian / ceramics,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Adyghe / Circassian / Kabardian / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Khakas / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chuvash / birch bark / basketry,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Khanty / ceramics,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Udmurt / painting (folk/decorative),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Hutsul / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Yakut (Sakha) / leather,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Komi / painting (folk/decorative),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Russian / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nizhny Tagil tray painting,leaf:L8,
+europe_folk:Udmurt / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Russian / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Moldovan / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Azerbaijani / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Evenk / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Khakas / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nanai / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Evenk / birch bark / basketry,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Koryak / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Veps / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Estonian / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Caucasian / carpets,route:islamic,H1-4 Caucasian Carpet
+europe_folk:Ukrainian / leather,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Komi / ceramics,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Hutsul / decorated eggs,alias:L10,Hutsul pysanky; see kind Hutsul
+europe_folk:Ukrainian / icon painting,route:europe_other,evidence for icon painting in Ukraine
+europe_folk:Tuvan / leather,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Bashkir / ceramics,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Adyghe / Circassian / Kabardian / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Ural-Siberian painting,leaf:L6,
+europe_folk:Mstyora embroidery,leaf:L72,
+europe_folk:Mari / painting (folk/decorative),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Koryak / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Karachay-Balkar / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Avar / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Sami / woodcarving / woodwork,route:europe_folk_west,Sámi duodji
+europe_folk:Karelian / icon painting,route:europe_other,evidence for Russian icon painting (Karelian/Northern)
+europe_folk:Chuvash / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Kumyk / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Yakut (Sakha) / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nanai / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Russian / lace,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Ossetian / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Khanty / objects (Finna),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Azerbaijani / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Karelian / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Khanty / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Evenk / bone carving,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Altai / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Belarusian / birch bark / basketry,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Ukrainian / lacquer miniature,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chukchi / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Mansi / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Veps / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Bashkir / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Abashevo toy,leaf:L23,
+europe_folk:Belarusian / lace,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Tabasaran carpets,route:islamic,H1-4 Caucasian Carpet kind Tabasaran (Dagestan)
+"europe_folk:Mordvin (Erzya, Moksha) / painting (folk/decorative)",tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Cossack / painting (folk/decorative),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Yakut (Sakha) / carpets,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Gagauz / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Koryak / leather,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Mari / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Moldovan / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Kuksa (carved birch cup),leaf:L111,
+europe_folk:Veps / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nenets / lace,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Yakut (Sakha) / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Adyghe / Circassian / Kabardian / birch bark / basketry,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Karelian / ceramics,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Udmurt / objects (Finna),tag:place,"culture or technique bucket, no named tradition"
+"europe_folk:Mordvin (Erzya, Moksha) / ceramics",tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Hutsul / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Evenk / leather,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Buryat / painting (folk/decorative),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Udmurt / bone carving,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Lezgin / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Estonian / ceramics,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Komi / leather,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Moldovan / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Tatar / glass,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Tatar / lacquer miniature,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Koryak / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Seto / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nenets / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Tatar / carpets,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Ukrainian embroidery,leaf:L65,
+europe_folk:Veps / ceramics,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nanai / ceramics,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Lithuanian / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Khanty / lace,tag:place,"culture or technique bucket, no named tradition"
+"europe_folk:Old Believer (Pomor, Vyg) book painting",route:europe_other,kind Vyg/Pomor of Old Russian manuscript illumination
+europe_folk:Moldovan / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Belarusian / leather,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Veps / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Evenk / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Latvian / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Ossetian / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Azerbaijani carpets (Caucasian rugs),route:islamic,H1-4 Caucasian Carpet
+europe_folk:Khanty / arms,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Crimean Tatar / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Seto / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chechen / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chechen / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chuvash / ceramics,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Mari / ceramics,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Adyghe / Circassian / Kabardian / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Hutsul / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nenets / objects (Finna),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Moldovan / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Karachay-Balkar / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Tuvan / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Gagauz / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Armenian / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Kalmyk / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nogai / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chechen / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Lezgin / other,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nanai / carpets,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Lak / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Koryak / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Ossetian / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Avar / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Evenk / carpets,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Bashkir / carpets,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Kalmyk / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Buryat / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Karelian / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Boyko / Lemko / Rusyn / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nenets / painting (folk/decorative),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chukchi / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Dagestani (general) / birch bark / basketry,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Armenian / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Seto / textiles,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Moldovan / ceramics,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Estonian / lace,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Ingrian / Izhorian / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Tuvan / bone carving,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Karelian / paper-cut / prints,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Armenian / ceramics,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Altai / leather,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Komi / bone carving,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Lithuanian / bone carving,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Ukrainian / popular prints,tag:place,"culture or technique bucket, no named tradition"
+"europe_folk:Russian, St. Petersburg / metalwork",tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Veps / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Armenian / lace,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Dargin / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Veps / objects (Finna),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Romanian / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Georgian / icon painting,route:europe_other,evidence for Georgian icon painting
+europe_folk:Cossack / leather,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Bashkir / lace,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Lithuanian / painting (folk/decorative),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Russian / embroidery,tag:place,"culture or technique bucket, no named tradition"
+"europe_folk:Russian, St. Petersburg / ceramics",tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chuvash / painting (folk/decorative),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Ukrainian / carpets,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Bashkir / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Muhu embroidery,leaf:L73,
+europe_folk:Azerbaijani / glass,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Udmurt / glass,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Kalmyk / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Armenian / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nogai / costume,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Dagestani (general) / manuscript illumination,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chechen / woodcarving / woodwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Estonian / leather,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Albanian / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Dagestani (general) / bone carving,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nenets / arms,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Boyko / Lemko / Rusyn / painting (folk/decorative),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Avar / carpets,route:islamic,H1-4 Caucasian Carpet evidence
+europe_folk:Montenegrin / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Orenburg shawl,leaf:L82,
+europe_folk:Karelian / leather,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Lezgin / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Bohemian / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Veps / metalwork,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Moldovan / embroidery,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Khakas / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Nanai / leather,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Altai / decorated eggs,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Chukchi / painting (folk/decorative),tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Georgian / bone carving,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Tuvan / toys,tag:place,"culture or technique bucket, no named tradition"
+europe_folk:Petrykivka painting,leaf:L1,
+europe_folk:Novgorod school,route:europe_other,A3 Russian icon painting kind Novgorod school
+europe_folk:Himmeli,leaf:L101,
+europe_folk:khachkar,leaf:L28,
+"europe_folk:Folk art of the Matyó, embroidery of a traditional community",leaf:L74,
+europe_folk:Fabergé egg,route:europe_other,"court jewellery (G3), House of Fabergé"
+europe_folk:filigree,exclude:technique umbrella,generic filigree Q1001313
+europe_folk:Georgian calligraphy,route:europe_other,C1 Georgian script calligraphy
+europe_folk:Persian miniature,route:islamic,A1-2 Persian Miniature (Azerbaijani ICH listing)
+europe_folk:Örnek,exclude:ornament and motif tag (D6),Crimean Tatar ornament
+europe_folk:Azerbaijani rug,route:islamic,H1-4 Caucasian Carpet
+europe_folk:Lithuanian cross crafting,leaf:L29,
+europe_folk:Wooden toys of Hrvatsko Zagorje,leaf:L26,
+europe_folk:Xhubleta,kind:L93/xhubleta,bell-shaped skirt (UNESCO urgent 2022)
+europe_folk:nalbinding,exclude:technique umbrella,pan-Nordic technique
+europe_folk:Kosiv painted ceramics,leaf:L34,
+europe_folk:Za križen,exclude:ritual performance,procession
+europe_folk:folk costume of Albania,leaf:L93,
+europe_folk:Horezu ceramics,leaf:L38,
+europe_folk:Zmijanje embroidery,leaf:L75,
+europe_folk:lacemaking in Croatia,leaf:L89,
+europe_folk:żupan,exclude:garment type (P10),
+europe_folk:cross-cutting,exclude:non-art,"film editing technique, mis-gathered"
+europe_folk:Idrija lace,leaf:L88,
+europe_folk:Serbian art,exclude:umbrella term,
+europe_folk:Croatian folk costume,leaf:L94,
+europe_folk:Azerbaijani carpet weaving,route:islamic,H1-4 Caucasian Carpet (UNESCO 2010)
+europe_folk:Konjic woodcarving,leaf:L110,
+europe_folk:egg decorating,exclude:umbrella term,Q605069; see Pysanka
+europe_folk:Sukmana,exclude:garment type (P10),
+europe_folk:Erzyan national costume,leaf:L96,
+europe_folk:Dymkovo toys,alias:L20,Wikidata row
+europe_folk:gákti,route:europe_folk_west,Sámi dress (Sámi duodji there)
+europe_folk:Gasimushaghi carpet,route:islamic,H1-4 Caucasian Carpet kind Gasimushaghi (Shirvan)
+europe_folk:chiprovtsi carpet,leaf:L51,
+europe_folk:Karabakh carpet,route:islamic,H1-4 Caucasian Carpet kind Karabakh
+europe_folk:Macedonian embroidery,leaf:L76,
+europe_folk:Pag lace,kind:L89/Pag,
+europe_folk:Macedonian traditional clothing,leaf:L95,
+europe_folk:Inuit clothing,route:north_america_indigenous,Inuit dress
+europe_folk:Pirot Kilim,leaf:L52,
+europe_folk:Reshetylivka embroidery,kind:L65/Reshetylivka,white-on-white
+europe_folk:poor man statue,leaf:L27,
+europe_folk:Yavoriv toy,leaf:L24,
+europe_folk:Ottoman illumination,route:islamic,C2-2 Islamic Illumination
+europe_folk:Opishnia decorative ceramics,alias:L33,Wikidata row for same ware
+europe_folk:Zlakusa pottery making,leaf:L39,
+europe_folk:Armenian needlelace,leaf:L80,
+europe_folk:Hutsul pysanka,kind:L10/Hutsul,
+europe_folk:Krolevets handpicked weaving,kind:L66/Krolevets,woven rushnyky
+europe_folk:Samchyky decorative painting,leaf:L117,
+europe_folk:Borshchiv emroidery,kind:L65/Borshchiv,black shirts
+europe_folk:Reshetylivka carpet weaving,leaf:L56,
+europe_folk:Сопоцкинская писанка,kind:L10/Sopotskin,Belarusian pysanka of Sapotskin
+europe_folk:kots,leaf:L55,
+europe_folk:Boyko pysanka,kind:L10/Boyko,
+europe_folk:Svetomarska lace,kind:L89/Sveta Marija,
+europe_folk:Rauma lace,leaf:L85,duplicate Wikidata row; same tradition
+europe_folk:Sokal ceramics,leaf:L35,
+europe_folk:Bubnivka ceramics,leaf:L36,
+europe_folk:Naïve painting practices of Kovačica,leaf:L9,
+europe_folk:Double-stranded knitting of woolen socks,exclude:garment type (P10),
+europe_folk:weather crosses,exclude:ritual custom,
+europe_folk:blacksmithing in Gyumri,exclude:trade,forging trade
+europe_folk:serpanok weaving,leaf:L62,
+europe_folk:blacksmithing in Armenia,exclude:duplicate,same Gyumri item; trade
+europe_folk:Handmade production of Christmas tree decorations from blown glass beads,leaf:L41,
+europe_folk:Kosovo-style embroidery,leaf:L77,
+europe_folk:Horodok stitch,kind:L65/Horodok stitch,
+europe_folk:Shulal carpet weaving,route:islamic,H1-4 Caucasian Carpet kind Shulal (Armenian ICH; see problems)
+europe_folk:Obukhovychi weaving,leaf:L64,
+europe_folk:Tauric painting,leaf:L2,
+europe_folk:Paper flower making,leaf:L13,
+europe_folk:Slovak naive art painting,alias:L9,Slovak naive painters of Kovačica
+europe_folk:Rug-making in Stapar,leaf:L54,
+europe_folk:Bezdan damask,leaf:L61,
+europe_folk:Making of Sjenica-Pešter type of kilim carpets,leaf:L53,
+europe_folk:Weaving bošča aprons,exclude:garment type (P10),
+europe_folk:Flower carpets tradition for Corpus Christi processions,leaf:L118,
+"europe_folk:Straw weaving in Belarus, art, craft and skills",leaf:L102,
+europe_folk:Lithuanian sodai,kind:L101/Lithuania,Lithuanian straw mobiles (UNESCO)
+europe_folk:Valky whistle toy,leaf:L25,
+europe_folk:grave cross decoration in Rivne Polissia,exclude:ritual custom,
+europe_folk:tradition of decorating crosses of the Way of the Cross,exclude:ritual custom,
+europe_folk:tradition of making and using a wooden amulet,exclude:ritual custom,folk amulet practice
+europe_folk:artistic wood carving of Chernihiv Oblast,leaf:L109,
+europe_folk:Hutsul artistic wood carving,leaf:L108,
+europe_folk:handmade glass production,exclude:umbrella term,multinational UNESCO glass umbrella
+europe_folk:Knitting tikkuröijy sweaters from Hailuoto island,exclude:garment type (P10),
+europe_folk:making national costumes,exclude:umbrella term,Finnish costume-making in general
+europe_folk:Lace-making in Heinämaa village,leaf:L86,
+"europe_folk:Klembivka shirt ""with a flower""",kind:L65/Klembivka,
+europe_folk:Embroidery culture of the Syrian-Armenian community of Armenia,leaf:L79,
+europe_folk:vine weaving in Iza village,leaf:L104,
+"europe_folk:tradition of straw plaiting in Turiisk hromada, Volyn Oblast",leaf:L103,
+europe_folk:traditions of reed weaving in Shchitky and Pysarivka,leaf:L105,
+europe_folk:Hlyniany textile,leaf:L63,
+europe_folk:Bukovina ceremonial vinok,exclude:garment type (P10),headdress
+europe_folk:Armenian lace making,alias:L80,Armenian ICH row
+europe_folk:clubrus work tradition in Kruunupyy,leaf:L100,
+europe_folk:pozvačin,exclude:performance,wedding inviter role
+europe_folk:negliubka,kind:L67/Vetka,Vetka district weaving-embroidery (UNESCO urgent)
+"europe_folk:Drotárstvo, wire craft and art",leaf:L47,
+europe_folk:Traditional wall-carpet craftsmanship in Romania and the Republic of Moldova,leaf:L57,
+europe_folk:The art of the traditional blouse with embroidery on the shoulder (altiţă) — an element of cultural identity in Romania and the Republic of Moldova,leaf:L78,
+"europe_folk:Traditional art and symbolism of Kelaghayi, making and wearing women’s silk headscarves",leaf:L92,
+europe_folk:tradition of carpet-making in Chiprovtsi,alias:L51,UNESCO row
+europe_folk:Making of shingle baskets from pulled shingles,leaf:L99,
+europe_folk:vytsinanka,leaf:L12,
+europe_folk:traditional leather tanning,exclude:trade,
+europe_folk:Weaving of net bags,exclude:non-art,utilitarian netting
+europe_folk:Christmasvalko,exclude:ritual custom,Christmas horse figure custom
+europe_folk:Knipelēšana,leaf:L87,
+europe_folk:doubleweave colour gradient blanket weaving in Northern Vidzeme,leaf:L59,
+europe_folk:May services at wayside crosses in the Andrupene and Skaune parishes of the Dagda municipality,exclude:ritual custom,
+europe_folk:glassblowing craft skills in Līvāni,leaf:L42,
+"europe_folk:patterned, double-knit mittens in Mazsalaca",exclude:garment type (P10),
+europe_folk:Sigulda belts,leaf:L60,
+europe_folk:Oleshnia pottery,leaf:L37,
+europe_folk:metalworking traditions of the Hutsul region,leaf:L46,
