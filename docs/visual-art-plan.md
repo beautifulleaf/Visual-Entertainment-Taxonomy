@@ -122,7 +122,7 @@ Medium is a third axis alongside region and period: painting and calligraphy, sc
 - **Object traditions:** 8,895 rows of culture × classification and culture × technique. Technique comes from the Medium field (blue-and-white, celadon, sancai, stonepaste, lustreware, maki-e, ...).
 - **AIC:** adds counts for 295 cultures (by place of origin). Cleveland is skipped, because the fetched data has no culture field.
 - **Caveats:**
-  - The Met records no Period or Dynasty on Islamic Art objects, so the dynasty (Mamluk, Safavid, Timurid, Ottoman, ...) is inferred from culture plus date (`ISLAMIC_PERIODS`).
+  - The Met records no Period or Dynasty on Islamic Art objects, so the dynasty (Mamluk, Safavid, Timurid, Ottoman, ...) is inferred from culture plus date (`ISLAMIC_PERIODS`). **This is a stopgap (decided 2026-10-28).** The regional sweeps replace it with collections that record each region's own categories, and their labels override the Met-derived inference where they disagree. For the Islamic world: Smithsonian Open Access (incl. the National Museum of Asian Art), the V&A API, Harvard Art Museums, Discover Islamic Art (Museum With No Frontiers) and Cleveland's full artwork records. The same pattern applies to every region (ColBase and the National Palace Museum for East Asia, the V&A and the British Library for South Asia, ...).
   - Attic red-figure vs black-figure cannot be split: the Met CSV never records it.
 - **Pending:** the Getty AAT mapping. vocab.getty.edu returned 499/403 throughout, so re-run the script when it's back; the AAT columns are empty until then.
 
