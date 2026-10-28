@@ -234,6 +234,7 @@ DEFAULT_RULES = [
     ("Armenian: Ani / early Armenian (to 1200)", "style", "C&E Europe incl. Armenia/Georgia", "Classical Armenian", r"ani school", "", "", "", "", "", "", "", 1, "recorded style"),
     ("Armenian: Ani / early Armenian (to 1200)", "style", "C&E Europe incl. Armenia/Georgia", "Classical Armenian", "", "", "", r"armenian", "", "", "", 1200, 0, ""),
     ("Armenian: Ani / early Armenian (to 1200)", "style", "C&E Europe incl. Armenia/Georgia", "Classical Armenian", "", "", "", "", r"^ani$|bagratid|echmiadzin|etchmiadzin", "", "", 1200, 1, ""),
+    ("Armenian: Ani / early Armenian (to 1200)", "style", "C&E Europe incl. Armenia/Georgia", "Classical Armenian", "", "", "", "", "", r"matenadaran", "", 1200, 0, "holding library + date"),
     ("Armenian (later or unlocalised)", "style", "C&E Europe incl. Armenia/Georgia", "Classical Armenian", "", "", "", r"armenian", "", "", "", "", 1, ""),
     ("Armenian (later or unlocalised)", "style", "C&E Europe incl. Armenia/Georgia", "Classical Armenian", "", "", "", "", r"armenia", "", "", "", 1, ""),
     ("Armenian (later or unlocalised)", "style", "C&E Europe incl. Armenia/Georgia", "Classical Armenian", "", "", "", "", "", r"matenadaran", "", "", 1, "holding library only"),
@@ -269,9 +270,10 @@ DEFAULT_RULES = [
     ("Christian Arabic / Melkite", "style", "Near East/Syriac", "Arabic (Christian)", "", "", r"gospel|psalter|lectionary|evangel|liturg|horologion|euchologion|synaxar|menaion|kontakion", r"^arabic$", "", "", "", "", 1, "label-based; Arabic Christian texts"),
     ("Sogdian, Old Uyghur and Turfan manuscripts", "style", "Central Asia", "Sogdian, Old Uyghur, Middle Persian, Tocharian", "", "", "", r"sogdian|uyghur|uighur|tocharian|khotanese|bactrian|manichae|middle persian|parthian|old turkic|tangut|kharosthi|gandhari|saka", "", "", "", "", 1, ""),
     ("Sogdian, Old Uyghur and Turfan manuscripts", "style", "Central Asia", "various", "", "", "", "", r"turfan|khocho|qocho|bezeklik|khotan|kucha|xinjiang|tarim|kroraina|khara-khoto|bamiyan|gilgit", "", "", "", 1, ""),
+    ("Sogdian, Old Uyghur and Turfan manuscripts", "style", "Central Asia", "Sanskrit (Brahmi)", "", "", "", r"sanskrit", r"dunhuang|kucha|turfan|khotan", "", "", "", 1, "Central Asian Sanskrit fragments"),
     ("Mongolian manuscripts", "style", "Central Asia", "Classical Mongolian, Oirat", "", "", "", r"mongol|oirat|buryat|kalmyk|todo|manchu", "", "", "", "", 1, ""),
     # ---- Himalaya
-    ("Tibetan manuscripts and illustrated books", "style", "Himalaya", "Classical Tibetan", "", "", "", r"tibet", "", "", "", "", 1, ""),
+    ("Tibetan manuscripts and illustrated books", "style", "Himalaya", "Classical Tibetan", "", "", "", r"tibet", "", "", "", "", 1, "includes Dunhuang Tibetan (BnF Pelliot tibétain)"),
     ("Tibetan manuscripts and illustrated books", "style", "Himalaya", "Classical Tibetan", "", "", "", "", r"tibet|lhasa|ladakh|bhutan|sikkim|mustang|guge|tsang", "", "", "", 1, ""),
     ("Nepalese (Newar) manuscripts", "style", "Himalaya", "Sanskrit, Newar (Ranjana, Bhujimol)", "", "", "", r"newar|nepal bhasa|ranjana|bhujimol|nepali|prachalit", "", "", "", "", 1, ""),
     ("Nepalese (Newar) manuscripts", "style", "Himalaya", "Sanskrit, Newar", "", "", "", "", r"nepal|kathmandu|patan|bhaktapur", "", "", "", 1, ""),
@@ -403,6 +405,47 @@ DEFAULT_RULES = [
 ]
 RULE_FIELDS = ["tradition", "kind", "region", "script_language", "style_re", "class_re", "label_re", "lang_re",
                "origin_re", "collection_re", "year_min", "year_max", "undated_ok", "note"]
+# BnF "Archives et manuscrits" items are labelled "BnF. Département des Manuscrits. <fonds> <number>"
+# and most carry no language. The fonds names the language (or origin), so it is used as a
+# language / origin hint: (regex on the fonds, language hint, origin hint). Order matters.
+BNF_FONDS = [
+    (r"^pelliot tib", "Tibetan", "Dunhuang"), (r"^pelliot chinois", "Chinese", "Dunhuang"),
+    (r"^pelliot xixia", "Tangut", "Khara-Khoto"), (r"^pelliot sogdien", "Sogdian", "Dunhuang"),
+    (r"^pelliot koutch", "Tocharian", "Kucha"), (r"^pelliot ou", "Old Uyghur", "Dunhuang"),
+    (r"^pelliot sanscrit", "Sanskrit", "Dunhuang"), (r"^pelliot", "", "Dunhuang"),
+    (r"^(latin|nal|nouv.* lat)", "Latin", ""), (r"^(fran|naf|nouv.* fr)", "French", ""),
+    (r"^(suppl.* )?grec|^coislin", "Greek", ""), (r"^(suppl.* )?arabe", "Arabic", ""),
+    (r"^(suppl.* )?persan", "Persian", ""), (r"^(suppl.* )?turc", "Ottoman Turkish", ""),
+    (r"^h[ée]breu", "Hebrew", ""), (r"^samaritain", "Samaritan", ""), (r"^syriaque", "Syriac", ""),
+    (r"^sab[ée]en", "Mandaic", ""), (r"^assyrien", "Neo-Aramaic", ""), (r"^copte", "Coptic", ""),
+    (r"^egyptien", "Egyptian", ""), (r"^[ée]thiopien", "Ge'ez", ""), (r"^arm[ée]nien", "Armenian", ""),
+    (r"^g[ée]orgien", "Georgian", ""), (r"^slave", "Church Slavonic", ""), (r"^roumain", "Romanian", ""),
+    (r"^sanscrit", "Sanskrit", ""), (r"^pali", "Pali", ""), (r"^indien", "", "India"),
+    (r"^tib[ée]tain", "Tibetan", ""), (r"^mandchou", "Manchu", ""), (r"^chinois", "Chinese", ""),
+    (r"^smith-lesou.f japonais|^japonais", "Japanese", ""), (r"^cor[ée]en", "Korean", ""),
+    (r"^vietnamien|^annamite", "Vietnamese", ""), (r"^indochinois", "", "Indochina"),
+    (r"^malayo-polyn", "Malay", ""), (r"^mexicain", "", "Mexico"), (r"^berb[èe]re", "Berber", ""),
+    (r"^espagnol", "Spanish", ""), (r"^portugais", "Portuguese", ""), (r"^(allemand)", "German", ""),
+    (r"^anglais", "English", ""), (r"^italien", "Italian", ""), (r"^n[ée]erlandais", "Dutch", ""),
+    (r"^scandinave", "Danish", ""), (r"^celtique", "Breton", ""),
+    (r"^(clairambault|baluze|chapp[ée]e|dupuy|colbert|m[ée]langes de colbert|cinq cents|joly de fleury|moreau|"
+     r"p[ée]rigord|lorraine|languedoc|vexin|picardie|bourgogne|duchesne|touraine|champagne|br[ée]quigny|"
+     r"flandre|pi[èe]ces originales|archives ancien)", "French", "France"),
+]
+BNF_RE = re.compile(r"^BnF\. D[ée]partement des [^.]+\.\s*(.*)$")
+
+
+def bnf_hints(label):
+    m = BNF_RE.match(label or "")
+    if not m:
+        return "", ""
+    fonds = m.group(1)
+    for rx, lang, origin in BNF_FONDS:
+        if re.search(rx, fonds, re.I):
+            return lang, origin
+    return "", ""
+
+
 # Linking tradition nodes to Wikidata style items (label regexes over harvested style items).
 TRADITION_STYLE_LINKS = {
     "Insular (Hiberno-Saxon)": r"^(art of insular illumination|insular art)$",
@@ -818,6 +861,7 @@ def main():
         years = [y for y in (year_of(v) for v in d["P571"]) if y is not None]
         year = min(years) if years else None
         classes = [lab(c) for c in sorted(d["P31"])]
+        h_lang, h_origin = bnf_hints(label)
         f = {
             "styles": [lab(v) for v in d["P135"] | d["P136"] | d["P2596"]],
             "classes": classes,
@@ -826,12 +870,18 @@ def main():
             "origins": sorted(origin_labels(d["P495"] | d["P1071"] | d["P2596"])),
             "collections": [lab(v) for v in d["P195"]],
         }
+        if h_lang and not f["langs"]:
+            f["langs"].append(h_lang)
+        if h_origin and not f["origins"]:
+            f["origins"].append(h_origin)
         style, basis, genres = assign(rules, f, year)
+        if h_lang or h_origin:
+            basis += " (BnF fonds hint)"
         illum = any(ILLUMINATED_CLASS_RE.search(c) for c in classes)
         out_items.append({
             "qid": q, "label": label, "classes": "; ".join(classes), "illuminated_class": int(illum),
             "year": year if year is not None else "", "languages_scripts": "; ".join(f["langs"]),
-            "origin": "; ".join(lab(v) for v in sorted(d["P495"] | d["P1071"])),
+            "origin": "; ".join([lab(v) for v in sorted(d["P495"] | d["P1071"])] or ([h_origin] if h_origin else [])),
             "origin_resolved": "; ".join(f["origins"]), "culture": "; ".join(lab(v) for v in sorted(d["P2596"])),
             "styles_recorded": "; ".join(lab(v) for v in sorted(d["P135"] | d["P136"])),
             "creators": "; ".join(lab(v) for v in sorted(d["P170"])),

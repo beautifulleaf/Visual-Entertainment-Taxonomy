@@ -113,6 +113,11 @@ The target depth is the owner-supplied list in `seeds/visual-art/europe_1400-190
   - Cooper Hewitt (58,202), SAAM (13,783) and Hirshhorn record no culture or period, only makers.
   - No maker carries an outside ID (ULAN/Wikidata), so maker matching is a separate step.
 
+- **Himalaya and Central Asia** (`pipelines/regional/himalaya_central_asia.py`, 2026-10-28): 11,997 objects (Himalayan Art Resources 7,101, V&A 2,554, IDP via its Berlin mirror 1,398, Cleveland 651, AIC 293) in **71 traditions and schools**, plus 41 named masters.
+  - **Himalaya:** Menri and New Menri, Khyenri, Karma Gadri (Palpung), Khazi Lhazo, Ngor, Guge, Beri, Jonang, Rebkong, Gyantse, Densatil and the Tsang atelier; Nepal by period (Licchavi, Thakuri, Early and Late Malla, Shah) plus Khasa Malla and Mustang; Bhutan, Sikkim, Ladakh/Spiti; Mongolia (Zanabazar school, Buryat, Dolonnor); Sino-Tibetan imperial styles (Yongle/Xuande, Kangxi, Qianlong), Dali, Tangut, Naxi.
+  - **Silk Road:** Dunhuang, Shanshan (Miran, Niya, Loulan), Khotan, Kucha, Turfan/Uyghur, Gandhara, Swat, Hadda, Kushan, Bactria, Sogdiana.
+  - **Attribution profile:** the Himalaya is 5.4% attributed, concentrated in named ateliers (Choying Dorje 98%, Sonam Gyaltsen 96%, Khazi Lhazo 93%); Central Asia is 0%. Both are **tradition-led**, with ateliers as nodes and masters under them.
+  - Limits: IDP's main site is behind a Cloudflare challenge; 1,805 Berlin-mirror results without a find site were dropped (mostly Dunhuang material already covered as a node). 34% of HAR items have no derivable period.
 - **Islamic world** (`pipelines/regional/islamic_world.py`, 2026-10-28): 21,086 objects (V&A 16,939, Discover Islamic Art 2,283 across 60 dynasty lists, Cleveland 1,864; Harvard skipped, no API key). Outputs `islamic_{objects,dynasties,schools,makers}.csv`.
   - **53 dynasties** with objects, including ones the Met inference cannot produce: Samanid, Buyid, Tulunid, Zirid, Hammadid, Taifa, Mudejar, Injuid, Jalayirid, Turkman.
   - **Recorded vs Met-inferred dynasty:** 7,049 agree and 1,077 conflict. The conflicts show where `ISLAMIC_PERIODS` is wrong: Deccani sultanates filed as Mughal (724), fuzzy Fatimid/Ayyubid/Mamluk boundaries, an Iranian gap from 1194 to 1256 (late Seljuq, Khwarazmian), and missing western dynasties (Mudejar, Taifa, Hammadid). Recorded labels override the inference.
