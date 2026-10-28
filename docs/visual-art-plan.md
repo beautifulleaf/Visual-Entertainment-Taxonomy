@@ -106,6 +106,17 @@ The target depth is the owner-supplied list in `seeds/visual-art/europe_1400-190
   - the depth model does not select architects on its own; its architecture rows are kept only as a cross-check.
   - The style and exemplar-building harvest is queued behind the current Wikidata jobs.
 
+### 2.2 Gathering exit criterion: coverage audit (decided 2026-10-28)
+Node creation happens in the classifying stage. Gathering must hand it **evidence for every region at the level that region records**, so that no non-Western tradition drops out because it lacks artist names.
+- **Grid:** before gathering closes, build a region × period audit grid. Per cell, it counts:
+  - named artists (pool and selected);
+  - tradition, school and style records (cultures, dynasties, schools from the Met/AIC harvest and the regional sweeps);
+  - objects;
+  - distinct sources;
+  - the share of attributed objects (the attribution profile).
+- **Flags:** cells that are empty, thin relative to their art-historical weight, or resting on a single source (especially the Met alone) are flagged.
+- **Fix:** each flagged cell gets a targeted sweep before the handover to classifying.
+
 ## 2A. Unattributed traditions: antiquity, decorative arts, architecture
 
 A large part of world art has no recorded maker. *Measured* in the Met's open-access CSV (503,012 objects): **40% have no artist**, rising to 94–99% in the Greek and Roman, Egyptian, Islamic, Medieval and Ancient West Asian departments, 72% in Asian Art and 67% in European Sculpture and Decorative Arts. These traditions therefore need their **own node type and their own prominence signals**, not the artist pipeline.
