@@ -243,7 +243,7 @@ T = [
     ("Blue Pottery of Jaipur", "Jaipur blue pottery", "India", "", SA, "ceramics",
      r"jaipur blue|blue pottery of jaipur", r"blue pottery|blue glazed|blue and white (pottery|ware|tile|jar|vase)", r"jaipur|rajasthan", ""),
     ("Sanjhi", "sanjhi paper stencil", "India", "", SA, "paper-cut", r"\bsanjhi|\bsanji (stencil|paper)", "", "", ""),
-    ("Rogan art", "roghan", "India", "", SA, "textile (painted)", r"\brogan (art|paint)|\broghan", r"\brogan\b", r"kutch|nirona|india", ""),
+    ("Rogan art", "roghan", "India", "", SA, "textile (painted)", r"\brogan (art|paint)|\broghan", r"\brogan\b", r"kutch|nirona|\bindia\b", ""),
     ("Cheriyal scroll painting", "", "India", "", SA, "painting (scroll)", r"cheriyal|cherial", "", "", ""),
     ("Kavad", "kaavad", "India", "", SA, "painted wooden shrine", r"\bkaa?vad\b|\bkawad\b", "", "", ""),
     ("Chikankari", "chikan work", "India", "", SA, "embroidery", r"chikankari|chikan (work|embroid)", "", "", ""),
@@ -277,7 +277,7 @@ T = [
     ("Truck art (Pakistan)", "jingle truck", "Pakistan", "", SA, "painting (vehicle)", r"truck art|jingle truck", "", "", ""),
     ("Multani blue pottery and tiles", "kashi kari", "Pakistan", "", SA, "ceramics", r"kashi ?kari",
      r"pottery|tile|ceramic|glaze|earthenware|vase|bowl", r"\bmultan|\bhala\b|sindh", ""),
-    ("Ralli quilts", "rilli; rilly", "Pakistan; India", "Sindhi", SA, "textile (quilting)", r"ralli quilt|rilli quilt", r"\bralli|\brilli|\brilly", r"quilt|sindh|pakistan|kutch|india", ""),
+    ("Ralli quilts", "rilli; rilly", "Pakistan; India", "Sindhi", SA, "textile (quilting)", r"ralli quilt|rilli quilt", r"\bralli|\brilli|\brilly", r"quilt|sindh|pakistan|kutch|\bindia\b", ""),
     ("Ambalangoda masks", "kolam masks; sanni masks; raksha masks", "Sri Lanka", "Sinhalese", SA, "masks",
      r"ambalangoda|sanni (yakuma|mask)|raksha mask|kolam[ -]mask", r"\bmasks?\b|masker", r"sri lanka|ceylon|sinhal", "sinhalese"),
     ("Dumbara weaving", "", "Sri Lanka", "", SA, "weaving", r"\bdumbara", "", "", ""),
@@ -511,24 +511,24 @@ T = [
     ("Litema (Sotho mural)", "ditema", "Lesotho; South Africa", "Sotho", AF, "painting (mural)", r"litema|ditema", "", "", "sotho"),
     ("Asafo flags", "frankaa", "Ghana", "Fante", AF, "textile (appliqué)", r"asafo (flag|company|banner)|frankaa", r"\basafo\b", r"ghana|fante|fanti|akan|flag|banner", ""),
     ("Fon appliqué (Abomey hangings)", "Abomey appliqué", "Benin", "Fon", AF, "textile (appliqué)", r"abomey (applique|hanging|tapestr|cloth)",
-     r"applique|tapestr|banner|wall hanging", r"\bfon\b|dahomey|abomey", "fon"),
+     r"applique|tapestr|banner|wall hanging", r"\bfon (people|peoples)\b|dahomey|abomey|\bfon\b.*\bbenin\b(?! kingdom)", "fon"),
     ("Ghanaian fantasy coffins (abebuu adekai)", "figurative coffins", "Ghana", "Ga", AF, "sculpture",
      r"fantasy coffin|figurative coffin|abebuu|kane kwei|paa joe", "", "", ""),
     ("Senegalese reverse-glass painting (souwer)", "suwer; sous-verre", "Senegal", "Wolof", AF, "painting (glass)",
      r"souwer|suwer|souwere|sous ?-?verre", r"reverse (glass|painting)|painting on glass|glass painting", r"senegal|dakar|wolof", ""),
     ("Shweshwe", "isishweshwe", "South Africa", "", AF, "textile (printed)", r"shweshwe|isishweshwe", "", "", ""),
     ("Kanga and kitenge", "khanga; leso; chitenge", "Kenya; Tanzania", "Swahili", AF, "textile (printed)",
-     r"\bkhanga|kitenge|chitenge|\bleso\b", r"\bkanga\b", r"cloth|textile|wrap|print|swahili|kenya|tanzania|zanzibar", ""),
+     r"\bkhanga|kitenge|chitenge|\bleso\b", r"\bkanga\b", r"swahili|kenya|tanzania|zanzibar|dar es salaam|mombasa|east africa", ""),
     ("Ugandan barkcloth (olubugo)", "lubugo; Buganda barkcloth", "Uganda", "Ganda", AF, "barkcloth", r"olubugo|lubugo",
      r"bark ?-?cloth", r"uganda|buganda|ganda\b", "ganda"),
     ("Akan goldweights (abrammuo)", "abrammuo; mrammuo", "Ghana; Côte d'Ivoire", "Akan", AF, "metal casting",
      r"abrammuo|mrammuo|gold ?-?weight", "", "", "akan"),
     ("Yoruba beadwork (ade crowns)", "ade", "Nigeria", "Yoruba", AF, "beadwork", r"beaded crown|\bade\b(?=.*crown)",
      r"bead", r"yoruba|ekiti|efon-alaye|oyo\b", "yoruba"),
-    ("Fulani wedding blankets (khasa, arkilla)", "khasa; kaasa; arkilla kerka", "Mali; Niger", "Fulani", AF, "textile (woven)",
+    ("Fulani wedding blankets (khasa, arkilla)", "kaasa; arkilla kerka", "Mali; Niger", "Fulani", AF, "textile (woven)",
      r"arkilla|\bkaasa\b", r"\bkhasa\b|\bkerka\b|blanket|wedding", r"fulani|fulbe|peul|\bfula\b", "fulani"),
     ("Korhogo cloth (Senufo painted cloth)", "Senufo mud cloth", "Côte d'Ivoire", "Senufo", AF, "textile (painted)",
-     r"korhogo (cloth|textile|painted)", r"painted cloth|mud cloth|\bcloth\b|textile", r"korhogo|senufo|senoufo", "senufo"),
+     r"korhogo (cloth|textile|painted)", r"painted cloth|mud cloth|painted textile", r"korhogo|senufo|senoufo", "senufo"),
     ("Ndop (Cameroon Grassfields resist-dyed cloth)", "", "Cameroon", "Bamileke; Bamum", AF, "textile (resist-dyed)",
      r"\bndop\b", "", "", ""),
     ("Dida raffia textiles", "", "Côte d'Ivoire", "Dida", AF, "textile (tie-dyed raffia)", r"\bdida\b(?=.*(raffia|textile|skirt|tie))",
@@ -590,7 +590,8 @@ T = [
     ("Salvadoran La Palma painting", "Fernando Llort", "El Salvador", "", MCA, "painting", r"llort|la palma (art|paint|style)", "", "", ""),
     # ---------------------------------------------------------------- South America
     ("Arpilleras", "arpillera", "Chile; Peru", "", SAM, "textile (appliqué)", r"arpillera", "", "", ""),
-    ("Taquile textiles", "", "Peru", "Quechua", SAM, "textile (woven / knitted)", r"taquile", "", "", ""),
+    ("Taquile textiles", "", "Peru", "Quechua", SAM, "textile (woven / knitted)", r"taquile (textile|weav|knit)",
+     r"textile|weav|knit|sash|belt|chumpi|chullo|\bcap\b|hat\b|bag|chuspa|poncho|shawl", r"taquile", ""),
     ("Quinchamali pottery", "", "Chile", "", SAM, "ceramics", r"quinchamali", "", "", ""),
     ("Retablos ayacuchanos", "caja de San Marcos; Huamanga", "Peru", "", SAM, "devotional box / sculpture",
      r"caja de san marcos|san marcos box|retablo ayacuchano|ayacucho retablo|jimenez (retablo|family)",
@@ -604,8 +605,9 @@ T = [
      r"silver|jewel|pectoral|pin|textile|poncho|blanket|belt|weav|head ?band|stirrup", r"mapuche|araucan", "mapuche"),
     ("Peruvian carved gourds (mates burilados)", "mate burilado", "Peru", "", SAM, "carved gourds", r"mates? burilados?|burilado",
      r"gourd", r"peru|huancayo|cochas|andean|ayacucho|huanta|quechua", ""),
-    ("Chulucanas pottery", "", "Peru", "", SAM, "ceramics", r"chulucanas", "", "", ""),
-    ("Pucara bulls (toritos de Pucara)", "torito", "Peru", "", SAM, "ceramics", r"torito|toritos|pucara", "", "", ""),
+    ("Chulucanas pottery", "", "Peru", "", SAM, "ceramics", r"chulucanas (pottery|ceramic)",
+     r"pottery|ceramic|vessel|jar|vase|aardewerk", r"chulucanas", ""),
+    ("Pucara bulls (toritos de Pucara)", "torito", "Peru", "", SAM, "ceramics", r"toritos?\b", r"bull|stier|\btoro\b|ceramic|pottery|aardewerk", r"pucara", ""),
     ("Sarhua painted boards (tablas de Sarhua)", "", "Peru", "", SAM, "painting", r"sarhua", "", "", ""),
     ("Andean aguayo and lliclla weaving", "awayu; aguayo; lliclla; manta", "Bolivia; Peru", "Aymara; Quechua", SAM, "textile (woven)",
      r"aguayo|awayu|awayo|lliclla|llijlla|ahuayo|unku\b|chuspa|ch uspa|axsu\b|aksu\b",
@@ -613,14 +615,15 @@ T = [
      r"aymara|quechua|bolivi|andean|cuzco|cusco|potosi|chuquisaca|titicaca|charazani|chinchero|pitumarca", "aymara"),
     ("Jalq'a and Tarabuco weaving", "Jalq'a; Tarabuco; Potolo", "Bolivia", "Jalq'a; Yampara", SAM, "textile (woven)",
      r"jalq ?a\b|jalqa|tarabuco|potolo|yampara", "", "", ""),
-    ("Otavalo weaving", "", "Ecuador", "Kichwa Otavalo", SAM, "textile (woven)", r"otavalo", "", "", ""),
+    ("Otavalo weaving", "", "Ecuador", "Kichwa Otavalo", SAM, "textile (woven)", r"otavalo (weav|textile|poncho|tapestr)",
+     r"weav|textile|poncho|sash|belt|blanket|tapestr|faja|shawl", r"otavalo", ""),
     ("Toquilla straw hat (Panama hat)", "paja toquilla; Montecristi", "Ecuador", "", SAM, "straw weaving",
      r"toquilla|panama hat", r"montecristi", r"\bhat\b|straw|hoed", ""),
     ("Tigua painting", "", "Ecuador", "Kichwa", SAM, "painting", r"\btigua\b", "", "", ""),
     ("Barniz de Pasto (mopa-mopa)", "mopa-mopa", "Colombia", "", SAM, "lacquer", r"barniz de pasto|mopa ?-?mopa|barniz", "", "", ""),
     ("Literatura de cordel woodcuts", "xilogravura; cordel", "Brazil", "", SAM, "popular prints", r"cordel|xilogravura", "", "", ""),
     ("Caruaru clay figures (Mestre Vitalino)", "figureiros; Alto do Moura", "Brazil", "", SAM, "ceramics (figurines)",
-     r"vitalino|caruaru|alto do moura", "", "", ""),
+     r"vitalino|alto do moura", r"ceramic|clay|pottery|figure|figurine|aardewerk|beeld", r"caruaru", ""),
     ("Renda de bilro (Brazilian bobbin lace)", "", "Brazil", "", SAM, "lace", r"renda de bilro|\bbilro", "", "", ""),
     ("Karaja dolls (ritxoko)", "ritxoko; litjoko", "Brazil", "Karaja", SAM, "ceramics (figurines)", r"ritxoko|litjoko",
      r"doll|figure|figurine|ceramic|clay", r"karaja|caraja|iny\b", "karaja"),
@@ -632,7 +635,7 @@ T = [
     ("Gaucho silverwork (plateria criolla)", "plateria criolla", "Argentina; Uruguay; Brazil", "Gaucho", SAM, "metalwork (silver)",
      r"plateria criolla|gaucho silver|pampas silver", r"silver|spur|stirrup|mate\b|bombilla|knife|facon|belt|rastra",
      r"gaucho|argentin|uruguay|rio de la plata|pampas|rio grande do sul", "gaucho"),
-    ("Rari horsehair weaving", "crin de Rari", "Chile", "", SAM, "fibre (horsehair)", r"\brari\b|crin de|horsehair (weav|figure|miniature)",
+    ("Rari horsehair weaving", "crin de Rari", "Chile", "", SAM, "fibre (horsehair)", r"\brari\b|crin de rari",
      "", "", ""),
     # ---------------------------------------------------------------- North America
     ("Pueblo pottery", "Acoma pottery; Zuni pottery; Hopi pottery; Santa Clara pottery; San Ildefonso pottery; Cochiti pottery", "United States", "Pueblo peoples", NAM,
@@ -714,7 +717,7 @@ T = [
      r"taufschein|vorschrift|geburts.?und.?taufschein", r"fraktur", r"pennsylvania|american|ohio|virginia|maryland|ephrata|"
      r"bucks county|berks|lancaster", "pennsylvania german"),
     ("Pennsylvania German decorated redware and painted chests", "sgraffito redware; dower chest", "United States",
-     "Pennsylvania German", NAM, "ceramics / furniture", r"dower chest",
+     "Pennsylvania German", NAM, "ceramics / furniture", r"pennsylvania (german|dutch) (dower|chest|redware|sgraffito)",
      r"sgraffito|redware|slip.?decorated|dower chest|painted chest|blanket chest", r"pennsylvania (german|dutch)|berks county|lancaster county|bucks county|montgomery county|lehigh", "pennsylvania german"),
     ("Shaker crafts (oval boxes, furniture)", "", "United States", "Shaker", NAM, "furniture / woodwork",
      r"shaker (oval|box|chair|furniture|basket|rocker|rocking|cabinet|community|desk|stand|table|cloak|bonnet|sister)", "", "", "shaker"),
@@ -777,7 +780,7 @@ T = [
      "", "", "asmat"),
     ("Sepik carving and painting (Iatmul, Abelam, Kwoma)", "", "Papua New Guinea", "Iatmul; Abelam; Kwoma", OC, "woodcarving / painting",
      r"iatmul|abelam|kwoma|chambri|\byimar|sawos|karawari|kambot|\bsepik", "", "", "sepik"),
-    ("Massim carving (Trobriand, kula)", "Trobriand; kula", "Papua New Guinea", "Massim", OC, "woodcarving",
+    ("Massim carving (Trobriand, kula)", "Trobriand carving; kula canoe prow", "Papua New Guinea", "Massim", OC, "woodcarving",
      r"trobriand|kiriwina|massim|kula (canoe|prow|ring)|tabuya|lagim", "", "", "massim"),
     ("Solomon Islands shell inlay (nguzunguzu)", "nguzunguzu", "Solomon Islands", "", OC, "woodcarving (inlay)",
      r"nguzunguzu|toto isu|musumusu", r"inlay|inlaid|ingelegd|figurehead|canoe prow", r"solomon|new georgia|roviana|marovo", ""),
@@ -791,7 +794,7 @@ T = [
     ("Hawaiian featherwork (ahu ula, mahiole, kahili)", "ahu ula; mahiole; kahili", "United States (Hawaii)", "Native Hawaiian",
      OC, "featherwork", r"ahu ?ula|mahiole|kahili|lei hulu", r"feather (cloak|cape|helmet|lei|standard|image)", r"hawai", "hawaiian"),
     ("Pacific fine mats (ie toga, kiekie)", "ie toga; kiekie; fala", "Samoa; Tonga; Tuvalu", "", OC, "fibre (plaited)",
-     r"ie ?toga|ie sae|kiekie|ta ovala", r"fine mat|pandanus mat",
+     r"ie ?toga|ie sae|ta ovala", r"fine mat|pandanus mat",
      r"samoa|tonga|tuvalu|kiribati|marshall|micronesia|fiji|wallis|futuna|tokelau", ""),
 ]
 # expand to named fields
@@ -843,7 +846,9 @@ for _lab in STRONG_GUARD:
 
 # archaeological objects are not evidence for a living folk tradition
 NEGATIVE = re.compile(r"archaeolog|projectile point|bifacial|hammerstone|potsherd|\bsherds?\b|pre-?columbian|"
-                      r"precolumbian|pre-?hispanic|prehistoric")
+                      r"precolumbian|pre-?hispanic|prehistoric|ancestral pueblo|\bolmec|teotihuacan|toltec|\bmoche\b|"
+                      r"nazca|nasca|chimu|paracas|\bwari\b|\bhuari\b|chancay|vicus|recuay|cupisnique|\bmochica|"
+                      r"hohokam|mogollon|mimbres|anasazi|mississippian|hopewell|adena")
 
 
 def match_text(text):
@@ -871,11 +876,38 @@ INDIVIDUAL_P31 = {"decorative art", "ceramic art", "fiber art", "glass", "jewelr
                   "bowl", "textile", "quilt", "basket", "mask", "doll", "painting", "print", "photograph", "drawing",
                   "scale model", "model", "costume", "garment", "rug", "carpet"}
 INDIVIDUAL_DESC = re.compile(r"^(decorative artwork|jewelry by|artwork by|scale model|object highlighted|textile by|"
-                             r"ceramic by|print by|sculpture by|painting by|quilt by)|\(smithsonian|\bcollection of the\b",
-                             re.I)
+                             r"ceramic by|print by|sculpture by|painting by|quilt by)|\(smithsonian|\bcollection of the\b|"
+                             r"by unknown artist|\(\d{4}\.\d+\)|jewelry brand|\bbrand\b|\bcompany\b|"
+                             r"pancake|\bfood\b|\bdish\b|\bsnack|cuisine|\bcake\b|highlighted in|metropolitan museum|national gallery|"
+                             r"woodcut by|etching by|engraving by|anonymous painting|\bwriters\b|\bivories\b", re.I)
+INDIVIDUAL_LABEL = re.compile(r"^(portion|fragment|part|pair|set) of\b|^clay toy in the form|^untitled", re.I)
+FINE_ART_MOVEMENT = re.compile(r"modernis|avant.?garde|contemporary art|abstract|expressionis|surrealis|realism|"
+                               r"\bschool of (fine )?art|academy", re.I)
 ARCHAEO = re.compile(r"archaeolog|neolithic|j[oō]mon|haniwa|terra sigillata|style group|bronze age|iron age|"
                      r"paleolithic|palaeolithic|mesolithic|chalcolithic|pre-?columbian|prehistoric|\byayoi\b|\bkofun\b|"
-                     r"\bancient\b|1st millennium bce|bce\b", re.I)
+                     r"\bancient\b|1st millennium bce|bce\b|distribution area|ceramic trad|\bancestral\b|pre-?latte|"
+                     r"latte period|latte plainware|lapita|phoenic|carthag|amphora|amforas|\baztec|\binca\b|olmec|moche|nazca|"
+                     r"teotihuacan|toltec|maya (painting|art)\b|medieval", re.I)
+
+
+REGION_KEYWORDS = [
+    (re.compile(r"mamluk|ottoman|safavid|qajar|persia|abbasid|umayyad|fatimid|ayyubid|seljuk|timurid|bukhara|khiva|"
+                r"kokand|egypt|ilkhan|ghaznavid|samanid|zand|caliphate|sultanate of (rum|oman)"), "MENA / Central Asia"),
+    (re.compile(r"korea|goryeo|joseon|silla|baekje|japan|ryukyu|chin(a|ese)|\bhan dynasty|\btang\b|\bsong dynasty|"
+                r"\bming\b|\bqing\b|\byuan\b|\bzhou\b|\bchu\b|\bwei\b|\bjin\b|\bliao\b|mongol|manchu"), "East Asia"),
+    (re.compile(r"malacca|johor|aceh|mataram|majapahit|srivijaya|siam|burm|khmer|champa|viet|ayutthaya|sukhothai|"
+                r"lan na|brunei|sulu|bali\b|java"), "Southeast Asia"),
+    (re.compile(r"mughal|maratha|bengal|delhi|deccan|sikh|rajput|vijayanagara|chola|ceylon|kandy|india|nepal|mysore|"
+                r"hyderabad|gupta|\bpala\b|kushan"), "South Asia"),
+]
+
+
+def region_from_label(lab):
+    f = fold(lab)
+    for rx, reg in REGION_KEYWORDS:
+        if rx.search(f):
+            return reg
+    return None
 
 
 def world_countries():
@@ -905,8 +937,8 @@ def world_countries():
                 if k in cs:
                     reg = CONTINENT_REGION[k]
                     break
-        if reg == "Africa" and lab in REGION_BY_LABEL:
-            reg = REGION_BY_LABEL[lab]
+        if reg in (None, "Asia (other)", "Africa") and lab not in REGION_BY_LABEL:
+            reg = region_from_label(lab) or reg
         out[c] = (lab, reg or "unknown")
     return out
 
@@ -1031,6 +1063,10 @@ def harvest_wikidata():
             reg = REGION_BY_LABEL.get(lab)
             if not reg and ks & NON_EU_CONTINENTS and "Q46" not in ks:
                 reg = next(CONTINENT_REGION[k] for k in ("Q15", "Q18", "Q55643", "Q538", "Q3960", "Q49", "Q48") if k in ks)
+                if reg in ("Asia (other)", "Africa"):
+                    reg = region_from_label(lab) or reg
+            elif not reg and not ks and region_from_label(lab):
+                reg = region_from_label(lab)
             if reg:
                 extra_lab[r["c"]] = (lab, reg)
     allc = dict(countries)
@@ -1101,11 +1137,21 @@ def harvest_wikidata():
         if not label:
             drops["no label"] += 1
             continue
-        if not p279 and (INDIVIDUAL_DESC.search(desc) or (p31 and p31 <= INDIVIDUAL_P31)):
+        if p31 == {"motif (visual arts)"} and not p279:
+            drops["motif (modifier, not a node)"] += 1
+            continue
+        if FINE_ART_MOVEMENT.search(label) and not re.search(r"folk|craft|naive|naïve|popular", f"{label} {desc}", re.I):
+            drops["fine-art movement"] += 1
+            continue
+        if INDIVIDUAL_LABEL.search(label) or (not p279 and (INDIVIDUAL_DESC.search(desc) or (p31 and p31 <= INDIVIDUAL_P31))):
             drops["individual object (collection item)"] += 1
             continue
         if ARCHAEO.search(f"{label} | {desc} | {classes}"):
             drops["archaeological / ancient"] += 1
+            continue
+        if re.search(r"\bfood\b|\bjam\b|\bspread\b|condiment|music|melod|repertoire|dwelling|\byurt\b|calligraph",
+                     f"{label} | {desc} | {classes}", re.I):
+            drops["non-visual (food, music, dwelling) or calligraphy"] += 1
             continue
         if re.search(r"architectur|building", f"{label} {desc}", re.I) and not VISUAL_SIGNAL.search(label):
             drops["architecture"] += 1
@@ -1195,6 +1241,8 @@ def link_curated(kept, info):
             OPTIONAL { ?i wdt:P31|wdt:P279 ?c . ?c rdfs:label ?cl FILTER(lang(?cl)='en') } } GROUP BY ?l ?i ?sl""" % vals
         for r in sparql_cached(q, "patlabel"):
             cls = [c for c in r.get("cls", "").split("|") if c]
+            if LINK_BAD.search(r.get("cls", "")):
+                continue
             if cls and all(NOT_TRADITION.match(c) for c in cls):
                 continue
             if re.search(r"village|settlement|town|city|human|river|municipal|commune|island|archipelago|railway|ship|"
@@ -1206,14 +1254,48 @@ def link_curated(kept, info):
             for i in names[variants[r["l"]]]:
                 is_primary = variants[r["l"]] in (TRADITIONS[i]["label"], short_label(TRADITIONS[i]["label"]))
                 cand[i].append((is_primary, int(r["sl"]), r["i"]))
-    for i, cs in cand.items():
-        if i not in link:
-            link[i] = max(cs)[2]
-    # sitelinks / ICH / description for linked items not among the kept nodes
-    need = sorted({q for q in link.values() if q not in kept and not info.get(q, {}).get("sitelinks")})
+    # sitelinks / ICH / description / classes for candidate items not among the kept nodes
+    need = sorted({c[2] for cs in cand.values() for c in cs if c[2] not in kept and not info.get(c[2], {}).get("sitelinks")})
     if need:
         fetch_details(need, info, tags=["lab", "her", "cls"])
+    rejected = []
+    for i, cs in cand.items():
+        if i in link:
+            continue
+        for is_primary, sl, q in sorted(cs, reverse=True):
+            d = info.get(q) or {}
+            desc = " ".join(d.get("d", ()))
+            cls = " | ".join(sorted(set(d.get("p31", ())) | set(d.get("p279", ()))))
+            blob = f"{desc} | {cls}"
+            if LINK_BAD.search(blob):
+                continue
+            if not (is_primary and not desc and not cls) and not LINK_VISUAL.search(blob):
+                continue
+            link[i] = q
+            break
+        else:
+            rejected.append(TRADITIONS[i]["label"])
+    for i in [i for i in link if TRADITIONS[i]["label"] in LINK_BLOCK]:
+        del link[i]
+    print(f"  label matches rejected as non-visual / places / homonyms: {len(rejected)}", flush=True)
     return link
+
+
+LINK_BAD = re.compile(r"comune|locality|municipal|neighbo|hamlet|unincorporated|census|mahalle|epistle|bible|\bbook\b|"
+                      r"\bmaps?\b|cartograph|\bdish\b|food|dumpling|pasta|edible|dairy|\bdance|unit of|measurement|"
+                      r"fictional|instrument|chordophone|beggar|profession|kitchen|utensil|festival|holiday|religio|"
+                      r"communit|\bpeople\b|tribe|ethnic group|parroquia|settlement|village|\btown\b|\bcity\b|"
+                      r"district|administrative|division|\bhuman\b|collective|calligrapher|illustrator|occupation|"
+                      r"\bplant\b|species|taxon|cultivar|surname|given name|sweet potato|fries|deity|\bgod\b|architectural support|"
+                      r"\bcolumn\b|door|hardware", re.I)
+LINK_VISUAL = re.compile(r"art\b|arts\b|craft|textile|cloth|fabric|garment|costume|dress|weav|embroider|paint|carv|pottery|"
+                         r"ceramic|ware\b|doll|toy|mask|puppet|print|jewel|silver|metal|lacquer|dye|batik|ikat|basket|"
+                         r"quilt|rug|carpet|kilim|felt|tile|sculpt|figur|technique|ornament|decorat|motif|style|"
+                         r"headdress|bag|mat\b|tapa|bark|feather|bead|paper|stencil|appliqu|mural|scroll|weight|"
+                         r"coffin|shawl|sari|wrap|skirt|cap\b|hat\b|cross|pendant", re.I)
+# curated labels whose Wikidata namesake is a different thing (checked by hand)
+LINK_BLOCK = {"Ndop (Cameroon Grassfields resist-dyed cloth)", "American folk portraiture (limners)",
+              "Pacific fine mats (ie toga, kiekie)", "Aso oke"}
 
 
 # ------------------------------------------------------------------ 3. cached museum data
