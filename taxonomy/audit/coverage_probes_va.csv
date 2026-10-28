@@ -1,0 +1,151 @@
+set,probe,type,home,status,comment
+painting,Mughal painting,core,A1-4 Mughal Painting,ok,
+painting,Rajput painting,core,A1-7 Rajput Painting,ok,
+painting,Persian miniature,core,A1-2 Persian Miniature,ok,
+painting,Chinese ink landscape painting,core,A2 East Asian Ink & Colour Painting (A2-2 Northern Landscape Style; A2-3 Literati Painting; A2-4 Zhe; A2-5 Wu),weak,No leaf or alias for the umbrella 'Chinese landscape painting / shanshui'; split across school leaves and A2-14 Ink Wash is Japanese-only
+painting,Byzantine icon,core,A3-2 Byzantine Icons,ok,
+painting,Italian Renaissance painting,core,A5-20 Italian Renaissance Painting,ok,
+painting,Dutch Golden Age painting,core,A5-28 Dutch Golden Age Painting,ok,
+painting,Baroque painting,core,A5-25 Baroque Painting,ok,
+painting,Impressionism,core,A5-47 Impressionism,ok,
+painting,Cubism,core,A5-58 Cubism,ok,Czech Cubism architecture at K6-4
+painting,Surrealism,core,A5-66 Surrealism,ok,
+painting,Abstract Expressionism,core,A5-81 Abstract Expressionism,ok,
+painting,Pop Art,core,A5-89 Pop Art,ok,
+painting,Aboriginal bark painting,core,A6-18 Bark Painting,ok,Aliases Arnhem Land bark painting
+painting,Aboriginal dot painting,core,A5-12 Western Desert Painting,ok,alias dot painting
+painting,Ethiopian Orthodox painting,core,A3-1 Ethiopian Icon Painting; A1-15; L2-24,ok,
+painting,Tibetan thangka,core,A4-7 Thangka,ok,
+painting,Haitian painting,core,A5-79 Naive Art (broad),weak,"Haitian painting (Centre d'Art, Hyppolite, Saint-Soleil) not named anywhere; Haiti appears only in D5-75 metal art and H4-35 Drapo Vodou"
+painting,Madhubani painting,core,A6-1 Madhubani Painting,ok,
+drawing_prints,ukiyo-e,core,B2-13 Ukiyo-e,ok,
+drawing_prints,etching,core,B2 Printmaking (B2-9 Old Master Print; B2-10 Etching Revival),weak,"B2 axis says 'process, then school' but no process level or process tag exists; generic etching only in definitions"
+drawing_prints,lithography,core,B2 Printmaking (B2-11 Modern Printmaking mentions artist's lithograph),weak,"No process node/tag; lithography only in definitions (B2-6, B2-8, B2-11)"
+drawing_prints,screen printing,core,B2-11 Modern Printmaking (mentions screenprint),weak,No process node/tag; not named as label or alias
+drawing_prints,woodcut,core,B2 Printmaking (B2-9; B2-5 xilogravura; B2-11 expressionist woodcut),weak,No process node/tag; generic woodcut only in definitions
+book_calligraphy,Chinese calligraphy,core,C1-9 Chinese Calligraphy,ok,
+book_calligraphy,Islamic calligraphy,core,C1 Calligraphy (C1-1 Kufic..C1-6 Sini),weak,Islamic/Arabic calligraphy split by script; no umbrella label or alias 'Islamic calligraphy'
+book_calligraphy,illuminated manuscript,core,C2 Illuminated Manuscripts & Illumination,ok,family-level home
+book_calligraphy,Insular art (Book of Kells),core,C2-18 Insular Illumination,ok,Book of Kells named; alias Insular art
+book_calligraphy,Mesoamerican codex,core,A1-17 Borgia Group; A1-18 Mixtec Codices; A1-19 Aztec Codices; C2-16 Maya Codices,ok,Split A1/C2 by P1
+book_calligraphy,bookbinding,core,C3 Bookbinding (only C3-1 Islamic Bookbinding),weak,"European, Ethiopian (in C2-14 def), East Asian and modern fine binding have no leaf"
+sculpture,Benin bronzes,core,D5-32 Benin Bronzes,ok,
+sculpture,Nok terracotta,core,D5-30 Nok Terracottas,ok,
+sculpture,Chola bronzes,core,D5-5 Chola Bronzes,ok,
+sculpture,Gandhara Buddhist sculpture,core,D5-1 Gandharan Art,ok,
+sculpture,Inuit sculpture,core,D5-77 Inuit Sculpture,ok,
+sculpture,Maya stelae,core,D5-63 Maya Sculpture,ok,alias Maya stelae
+sculpture,Olmec colossal heads,core,D5-62 Olmec Sculpture,ok,
+sculpture,Moai (Easter Island),core,K12-5 Marae (mentions moai on ahu); D5-89 Moai Kavakava (wooden only),weak,The monumental stone moai have no sculpture leaf; only reachable via an architecture leaf; D5-89 is the small wooden figures
+sculpture,Northwest Coast totem poles,core,D5-76 Totem Poles,ok,
+sculpture,Japanese netsuke,core,D2-4 Netsuke,ok,
+sculpture,Chinese jade carving,core,D3-3 Chinese Jade,ok,
+sculpture,Land art,core,M1-6 Land Art,ok,placed in M not D
+ceramics,Song celadon,core,E3-4 Yue; E3-5 Yaozhou; E3-6 Longquan; E3-7 Ru; E3-8 Guan,ok,no umbrella 'Song celadon' but each Song ware is a leaf
+ceramics,Ming blue-and-white porcelain,core,E4-5 Chinese Blue-and-White Porcelain,ok,
+ceramics,Iznik pottery,core,E2-7 Iznik Pottery,ok,
+ceramics,Meissen porcelain,core,none (Meissen mentioned only in E4-17 Kakiemon definition),missing,"E4 has no European porcelain leaves apart from Limoges and Gzhel: Meissen, Sevres, Vienna, Chelsea, Royal Copenhagen etc. absent"
+ceramics,maiolica,core,E1-75 Maiolica,ok,
+ceramics,Delftware,core,E1-77 Delftware,ok,
+ceramics,raku,core,E1-21 Raku Ware,ok,
+ceramics,Pueblo pottery,core,E1-66 Pueblo Pottery,ok,
+ceramics,Moche portrait vessels,core,E1-47 Moche Ceramics,ok,alias Moche portrait vessels
+ceramics,Korean celadon,core,E3-13 Goryeo Celadon,ok,alias Korean celadon
+glass,stained glass,core,"F5 Stained Glass (empty, no leaves)",weak,"F5 exists in the key but holds no leaves: Gothic stained glass (Chartres, Sainte-Chapelle), Victorian, Tiffany, Islamic qamariyya all homeless"
+glass,Venetian Murano glass,core,F1-5 Venetian Glass,ok,alias Murano glass
+glass,studio glass,core,none,missing,"No modern/contemporary glass leaf (Studio Glass movement, Chihuly, Littleton); Gallé/Lalique only in I3 definitions"
+metalwork_jewellery,Limoges enamel,core,none (Limoges only as E4-21 Limoges Porcelain),missing,Limoges painted enamel and champlevé (Oeuvre de Limoges) absent; a search for Limoges lands on porcelain
+metalwork_jewellery,cloisonne,core,"none (cloisonné only in defs E1-84, G1-33, G3-4)",missing,"Chinese cloisonné (jingtailan), Japanese shippō and Byzantine cloisonné enamel have no leaf; no enamel subfamily in G"
+metalwork_jewellery,Chinese ritual bronzes,core,G1-15 Chinese Ritual Bronzes,ok,
+metalwork_jewellery,Scythian gold,core,G1-12 Animal Style,ok,alias Scythian animal style
+metalwork_jewellery,Faberge eggs,core,G3-20 Fabergé,ok,
+metalwork_jewellery,Pre-Columbian goldwork,core,G1-26..G1-30; G3-8..G3-13,ok,split across many goldwork leaves; no umbrella
+metalwork_jewellery,arms and armour,core,G2 Arms & Armour,ok,family-level
+textiles_dress,Kente cloth,core,H3-23 Kente Cloth,ok,
+textiles_dress,Navajo weaving,core,H2-10 Navajo Weaving,ok,
+textiles_dress,Persian carpets,core,H1-1 Persian Carpet,ok,
+textiles_dress,Bayeux Tapestry,core,H4 Embroidery & Needlework (no leaf),weak,Bayeux Tapestry not named; H4-43 Opus Anglicanum starts c.1200; no early medieval/Anglo-Saxon embroidery leaf
+textiles_dress,batik,core,H5-10 Indonesian Batik; H5-11 Malaysian Batik,ok,
+textiles_dress,ikat,core,H5-1; H5-12; H5-23; H5-8; H5-15,ok,
+textiles_dress,kimono,core,H5-18 Yuzen; H5-19 Katazome (mention kimono); P10 excludes garment types,weak,No Japanese dress leaf in H7; kimono is named only inside dyeing definitions
+textiles_dress,Andean textiles,core,H2-7 Andean Textiles,ok,
+textiles_dress,quilting,core,H4 leaves H4-41 Star Quilts; H4-46 Amish Quilts; H4-91 Gee's Bend; H4-13 Ralli; H4-42 Tivaevae,weak,"No umbrella quilting/patchwork leaf; British and American quilting outside these named groups (Baltimore album, Durham, Welsh) homeless"
+textiles_dress,embroidery,core,H4 Embroidery & Needlework,ok,family-level
+woodwork_lacquer,Japanese lacquer,core,I2-9 Maki-e; I2-10 Japanese Lacquerware,ok,
+woodwork_lacquer,Chinese carved lacquer,core,I2-8 Carved Lacquer,ok,
+woodwork_lacquer,marquetry,core,I1-2 Khatam; I1-10 Yosegi-zaiku; I3-4 Louis XIV Style (Boulle),weak,"European marquetry (Boulle, Dutch floral, Roentgen) has no leaf or tag; only Persian and Japanese forms named"
+photography,daguerreotype,core,J1-1 Early Photography,ok,
+photography,documentary photography,core,J1-6 Documentary Photography,ok,
+photography,photojournalism,core,J1-6 Documentary Photography,ok,alias Photojournalism
+photography,street photography,core,J1 (closest J1-5 Humanistic Photography),missing,"No street photography leaf or alias (Cartier-Bresson, Winogrand, Vivian Maier)"
+architecture,Gothic architecture,core,K4-13 Gothic Architecture,ok,
+architecture,Dravidian temple architecture,core,K7-4 Dravidian Architecture,ok,
+architecture,Islamic architecture,core,K1 Islamic Architecture,ok,family-level
+architecture,Art Nouveau,core,I3-11 Art Nouveau; K6-21 Art Nouveau Architecture,ok,
+architecture,Bauhaus,core,I3-13 Bauhaus; K6-8 Bauhaus Architecture,ok,
+architecture,Brutalism,core,K6-23 Brutalist Architecture,ok,alias Brutalism
+architecture,Chinese imperial palace architecture,core,K8-1 Chinese Architecture,ok,alias Chinese imperial architecture
+architecture,Khmer temple architecture,core,K9-1 Khmer Architecture,ok,
+architecture,Inca stonework,core,K11-4 Inca Architecture,ok,
+architecture,Sahelian mud architecture,core,K1-16 Sudano-Sahelian Architecture,ok,
+architecture,Japanese garden,core,none (K test admits gardens; only K1-15 alias Mughal gardens),missing,"No garden leaves: Japanese (karesansui, stroll), Chinese scholar gardens, Persian chahar bagh, English landscape garden, French formal garden"
+art_in_place,cave painting,core,L1-33 Franco-Cantabrian Cave Art,ok,alias Palaeolithic cave art
+art_in_place,rock art,core,L1 Rock Art,ok,family-level
+art_in_place,Roman mosaics,core,L3-7 Roman Mosaics,ok,
+art_in_place,fresco,core,L2 Wall Painting,weak,"No technique tag; Italian Renaissance and Baroque fresco (Giotto's Arena Chapel, Sistine Chapel) has no L2 leaf and sits in A5 definitions, contradicting tab-key step 2"
+art_in_place,Mexican muralism,core,L2-40 Mexican Muralism,ok,
+art_in_place,Ajanta murals,core,L2-4 Ajanta Paintings,ok,alias Ajanta murals
+art_in_place,Maori ta moko,core,L5-10 Tā Moko,ok,
+art_in_place,henna (mehndi),core,L5-3 Mehndi,ok,alias henna
+new_media,video art,core,M2-1 Video Art,ok,
+new_media,digital art,core,M2-2 New Media Art,ok,alias Digital art
+new_media,installation art,core,M1-1 Installation Art,ok,
+new_media,performance art,core,M1-8 Performance Art,ok,
+new_media,net art,core,M2-2 New Media Art,ok,alias Internet art
+new_media,NFT art,core,M2-2 New Media Art (broad),weak,NFT/crypto art not named
+new_media,generative art,core,M2-2 New Media Art (broad),weak,"generative/algorithmic/computer art (Vera Molnar, Manfred Mohr) not named"
+ceramics,Chinese vase,naive,"E3 / E4 Chinese wares (E4-5, E4-10, E3-x)",weak,No umbrella 'Chinese ceramics/porcelain' alias; user must know ware names
+textiles_dress,Persian rug,naive,H1-1 Persian Carpet,ok,alias Persian rug
+sculpture,African mask,naive,D4 Masks & Puppets (D4-12..D4-23),ok,
+sculpture,Greek statue,naive,D5-57 Ancient Greek Sculpture,ok,alias Greek sculpture
+drawing_prints,Japanese woodblock print,naive,B2-13 Ukiyo-e; B2-14; B2-15,ok,definition names Japanese woodblock prints
+woodwork_lacquer,Russian doll,naive,D5-95 Matryoshka Doll,ok,def 'Russian nesting dolls'
+painting,Mexican folk art,naive,A6-13; A6-14; D5-72; D5-73; E1-51; E1-55; C4-4,weak,"Scattered, no folk/popular-art filter to gather them"
+architecture,Gothic cathedral,naive,K4-13 Gothic Architecture,ok,
+art_in_place,graffiti,naive,L2-49 Street Art,ok,alias Graffiti art
+art_in_place,tattoo,naive,L5 Body Art,ok,family-level
+painting,oil painting,naive,A5 Easel Painting (key mentions oil),weak,"No medium/technique tag (oil, tempera, acrylic, watercolour)"
+painting,portrait,naive,none as facet; D5-60 Roman Portraiture; A5-4 Fayum,weak,No subject/genre modifier; portrait painting in general has no home
+painting,landscape painting,naive,none as facet; A2-2; A5-36; A5-35 schools,weak,No subject/genre modifier; only landscape schools
+painting,still life,naive,none,missing,No subject/genre modifier; only A6-19 Theorem Painting mentions still lifes
+painting,modern art,naive,A5-110 Modern Art,ok,alias Modernism
+painting,abstract art,naive,"A5 movement leaves (A5-62, A5-81, A5-82, A5-87...)",weak,No umbrella abstraction leaf/alias
+painting,Chinese scroll painting,naive,A2 East Asian Ink & Colour Painting,weak,scroll formats only in family key; no alias
+drawing_prints,cartoon,naive,B1-4 Illustration (alias Caricature); B1-6..B1-8 comics,weak,'cartoon' not named; comics only Franco-Belgian and manga (no American comics)
+drawing_prints,poster art,naive,B1-4 Illustration (def mentions posters),weak,"No poster leaf (Belle Epoque posters, Soviet, Polish poster school)"
+book_calligraphy,Arabic calligraphy,naive,C1-1..C1-5,weak,'Arabic calligraphy' only as alias of C1-6 Sini (Chinese Arabic) — misleading
+book_calligraphy,medieval manuscript,naive,C2 Illuminated Manuscripts & Illumination,ok,family-level
+sculpture,Buddha statue,naive,D5-1; D5-22; D5-23; D5-24; D5-11,ok,
+sculpture,totem pole,naive,D5-76 Totem Poles,ok,alias totem pole
+sculpture,wood carving,naive,D5 Figurative Sculpture / I1 Carved & Inlaid Woodwork,ok,family-level; split by image vs ornament
+ceramics,pottery,naive,E Ceramics,ok,family-level
+ceramics,Ming vase,naive,E4-5 Chinese Blue-and-White Porcelain + period tag,ok,
+ceramics,blue and white china,naive,E4-5 Chinese Blue-and-White Porcelain,ok,
+ceramics,Greek vase,naive,"E1-25..E1-31 (Black-Figure, Red-Figure...)",weak,No umbrella 'Greek vase painting/Greek pottery' leaf or alias
+glass,church windows,naive,F5 Stained Glass (empty),weak,F5 has no leaves
+glass,glass blowing,naive,F1 Blown & Moulded Glass,ok,family-level
+metalwork_jewellery,jewellery,naive,G3 Jewellery,ok,family-level
+metalwork_jewellery,samurai sword,naive,G2-3 Japanese Swords,ok,
+metalwork_jewellery,Native American turquoise jewelry,naive,G3-15 Navajo Silverwork; G3-16 Zuni Jewelry,ok,
+textiles_dress,tapestry,naive,H3-30 Flemish Tapestry; H3-31 Aubusson; H3-16 Kesi,ok,
+textiles_dress,quilt,naive,H4-41; H4-46; H4-91,weak,no umbrella quilt leaf
+textiles_dress,African fabric,naive,H3-23; H5-26..H5-30,weak,no umbrella; African wax print (Ankara/Dutch wax) missing
+textiles_dress,Scottish tartan,naive,none,missing,No Scottish/Highland textile or dress leaf
+woodwork_lacquer,antique furniture,naive,I3 Furniture & Decorative Arts Styles,ok,family-level; but Chippendale/Georgian/Queen Anne furniture absent
+woodwork_lacquer,Chinese lacquer box,naive,I2-8 Carved Lacquer,ok,
+photography,black and white photography,naive,J Photography,missing,No photographic process/format tag
+architecture,skyscraper,naive,K6-2 Chicago School,weak,skyscraper named only for Chicago School; no building-type tag
+architecture,pyramids,naive,K3-1; K10-4; K11-1,ok,
+art_in_place,street art,naive,L2-49 Street Art,ok,
+new_media,AI art,naive,M2-2 New Media Art,weak,AI-generated art not named
+new_media,pixel art,naive,M2-2 New Media Art,weak,not named
