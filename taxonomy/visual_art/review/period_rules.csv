@@ -1,0 +1,256 @@
+medium,region,birth_from,birth_to,leaf,note
+vase painting,*,-3000,-721,T154,Geometric Art
+vase painting,*,-720,-531,T155,Black-Figure Pottery
+vase painting,*,-530,2100,T156,Red-Figure Pottery; later births cannot occur; keeps the medium complete
+vase painting,*,era:antiquity,era:antiquity,T156,Red-Figure Pottery; unknown birth: matched on era
+vase painting,*,era:early,era:early,T156,Red-Figure Pottery; unknown birth: matched on era
+vase painting,*,era:late,era:late,T156,Red-Figure Pottery; unknown birth: matched on era
+vase painting,*,era:modern,era:modern,T156,Red-Figure Pottery; unknown birth: matched on era
+vase painting,*,era:contemporary,era:contemporary,T156,Red-Figure Pottery; unknown birth: matched on era
+vase painting,*,era:,era:,T156,Red-Figure Pottery; unknown birth: matched on era
+design and decorative arts,Greco-Roman & Byzantine Mediterranean,-3000,-721,T154,Geometric Art; signing potters and vase makers
+visual art (unspecified),Greco-Roman & Byzantine Mediterranean,-3000,-721,T154,Geometric Art; signing potters and vase makers
+design and decorative arts,Greco-Roman & Byzantine Mediterranean,-720,-531,T155,Black-Figure Pottery; signing potters and vase makers
+visual art (unspecified),Greco-Roman & Byzantine Mediterranean,-720,-531,T155,Black-Figure Pottery; signing potters and vase makers
+design and decorative arts,Greco-Roman & Byzantine Mediterranean,-530,329,T156,"Red-Figure Pottery; signing potters, vase makers and engravers"
+visual art (unspecified),Greco-Roman & Byzantine Mediterranean,-530,329,T156,"Red-Figure Pottery; signing potters, vase makers and engravers"
+design and decorative arts,Greco-Roman & Byzantine Mediterranean,era:antiquity,era:antiquity,T156,Red-Figure Pottery; unknown birth: matched on era
+visual art (unspecified),Greco-Roman & Byzantine Mediterranean,era:antiquity,era:antiquity,T156,Red-Figure Pottery; unknown birth: matched on era
+painting,Greco-Roman & Byzantine Mediterranean,-3000,1199,T114,Ancient Greek Painting; Greek and Hellenistic painters known from sources
+,Greco-Roman & Byzantine Mediterranean,-3000,1199,T114,Ancient Greek Painting; Greek and Hellenistic painters known from sources
+painting,Greco-Roman & Byzantine Mediterranean,era:antiquity,era:antiquity,T114,Ancient Greek Painting; unknown birth: matched on era
+,Greco-Roman & Byzantine Mediterranean,era:antiquity,era:antiquity,T114,Ancient Greek Painting; unknown birth: matched on era
+sculpture,Greco-Roman & Byzantine Mediterranean,-3000,-481,T136,Archaic Greek Sculpture
+sculpture,Greco-Roman & Byzantine Mediterranean,-480,-324,T137,Classical Greek Sculpture
+sculpture,Greco-Roman & Byzantine Mediterranean,-323,-31,T138,Hellenistic Sculpture
+sculpture,Greco-Roman & Byzantine Mediterranean,-30,1199,T139,Roman Sculpture
+sculpture,Greco-Roman & Byzantine Mediterranean,era:antiquity,era:antiquity,T137,"Classical Greek Sculpture; unknown birth, antiquity: mostly Pliny-recorded Greek sculptors"
+sculpture,China,-3000,1399,T153,Kei School; premodern East Asian sculptors; non-Kei sculptors held here until a broader leaf exists (problem)
+sculpture,*,-3000,1199,T140,Romanesque Sculpture
+sculpture,*,1200,1399,T141,Gothic Sculpture
+sculpture,*,1400,1564,T142,Renaissance Sculpture
+sculpture,*,1565,1729,T143,Baroque Sculpture; includes Rococo sculptors
+sculpture,*,1730,1809,T144,Neoclassical Sculpture
+sculpture,*,1810,1849,T145,Academic Sculpture
+sculpture,*,1850,1944,T148,Modern Sculpture
+sculpture,*,1945,2100,T149,Contemporary Sculpture
+sculpture,*,era:antiquity,era:antiquity,T139,Roman Sculpture; unknown birth: matched on era
+sculpture,*,era:early,era:early,T141,Gothic Sculpture; unknown birth: matched on era
+sculpture,*,era:late,era:late,T143,Baroque Sculpture; unknown birth: matched on era
+sculpture,*,era:modern,era:modern,T148,Modern Sculpture; unknown birth: matched on era
+sculpture,*,era:contemporary,era:contemporary,T149,Contemporary Sculpture; unknown birth: matched on era
+sculpture,*,era:,era:,T149,Contemporary Sculpture; unknown birth: matched on era
+photography,*,-3000,1849,T174,Early Photography
+photography,*,1850,1879,T175,Pictorialism
+photography,*,1880,1919,T176,Straight Photography
+photography,*,1920,1944,T179,Documentary Photography
+photography,*,1945,2100,T180,Contemporary Photography
+photography,*,era:antiquity,era:antiquity,T174,Early Photography; unknown birth: matched on era
+photography,*,era:early,era:early,T174,Early Photography; unknown birth: matched on era
+photography,*,era:late,era:late,T174,Early Photography; unknown birth: matched on era
+photography,*,era:modern,era:modern,T176,Straight Photography; unknown birth: matched on era
+photography,*,era:contemporary,era:contemporary,T180,Contemporary Photography; unknown birth: matched on era
+photography,*,era:,era:,T180,Contemporary Photography; unknown birth: matched on era
+drawing and illustration,China,-3000,2100,T122,Manga; East Asian draughtsmen; the three born <1200 are manga artists with wrong birth data
+drawing and illustration,China,era:antiquity,era:antiquity,T122,Manga; unknown birth: matched on era
+drawing and illustration,China,era:early,era:early,T122,Manga; unknown birth: matched on era
+drawing and illustration,China,era:late,era:late,T122,Manga; unknown birth: matched on era
+drawing and illustration,China,era:modern,era:modern,T122,Manga; unknown birth: matched on era
+drawing and illustration,China,era:contemporary,era:contemporary,T122,Manga; unknown birth: matched on era
+drawing and illustration,China,era:,era:,T122,Manga; unknown birth: matched on era
+drawing and illustration,*,-3000,1749,T117,Old Master Drawing
+drawing and illustration,*,1750,1849,T118,Illustration
+drawing and illustration,*,1850,1899,T119,Golden Age of Illustration
+drawing and illustration,*,1900,2100,T118,Illustration
+drawing and illustration,*,era:antiquity,era:antiquity,T117,Old Master Drawing; unknown birth: matched on era
+drawing and illustration,*,era:early,era:early,T117,Old Master Drawing; unknown birth: matched on era
+drawing and illustration,*,era:late,era:late,T117,Old Master Drawing; unknown birth: matched on era
+drawing and illustration,*,era:modern,era:modern,T118,Illustration; unknown birth: matched on era
+drawing and illustration,*,era:contemporary,era:contemporary,T118,Illustration; unknown birth: matched on era
+drawing and illustration,*,era:,era:,T118,Illustration; unknown birth: matched on era
+printmaking,China,-3000,1849,T127,Ukiyo-e
+printmaking,China,1850,1944,T129,Sōsaku-hanga; Chinese modern woodcut makers also land here (problem)
+printmaking,China,1945,2100,T126,Contemporary Printmaking
+printmaking,*,-3000,1799,T123,Old Master Print
+printmaking,*,1800,1879,T124,Etching Revival
+printmaking,*,1880,1944,T125,Modern Printmaking
+printmaking,*,1945,2100,T126,Contemporary Printmaking
+printmaking,*,era:antiquity,era:antiquity,T123,Old Master Print; unknown birth: matched on era
+printmaking,*,era:early,era:early,T123,Old Master Print; unknown birth: matched on era
+printmaking,*,era:late,era:late,T123,Old Master Print; unknown birth: matched on era
+printmaking,*,era:modern,era:modern,T125,Modern Printmaking; unknown birth: matched on era
+printmaking,*,era:contemporary,era:contemporary,T126,Contemporary Printmaking; unknown birth: matched on era
+printmaking,*,era:,era:,T126,Contemporary Printmaking; unknown birth: matched on era
+book arts,China,-3000,2100,T130,Chinese Calligraphy; Japanese calligraphers in the East Asia bucket also land here (problem)
+book arts,China,era:antiquity,era:antiquity,T130,Chinese Calligraphy; unknown birth: matched on era
+book arts,China,era:early,era:early,T130,Chinese Calligraphy; unknown birth: matched on era
+book arts,China,era:late,era:late,T130,Chinese Calligraphy; unknown birth: matched on era
+book arts,China,era:modern,era:modern,T130,Chinese Calligraphy; unknown birth: matched on era
+book arts,China,era:contemporary,era:contemporary,T130,Chinese Calligraphy; unknown birth: matched on era
+book arts,China,era:,era:,T130,Chinese Calligraphy; unknown birth: matched on era
+book arts,"Islamic world (MENA, Iran, Anatolia)",-3000,2100,C1-3,Six Pens (al-Aqlam al-Sitta); existing pilot leaf Six Pens; Persian nasta'liq masters need C1-4 by hand
+book arts,"Islamic world (MENA, Iran, Anatolia)",era:antiquity,era:antiquity,C1-3,Six Pens (al-Aqlam al-Sitta); unknown birth: matched on era
+book arts,"Islamic world (MENA, Iran, Anatolia)",era:early,era:early,C1-3,Six Pens (al-Aqlam al-Sitta); unknown birth: matched on era
+book arts,"Islamic world (MENA, Iran, Anatolia)",era:late,era:late,C1-3,Six Pens (al-Aqlam al-Sitta); unknown birth: matched on era
+book arts,"Islamic world (MENA, Iran, Anatolia)",era:modern,era:modern,C1-3,Six Pens (al-Aqlam al-Sitta); unknown birth: matched on era
+book arts,"Islamic world (MENA, Iran, Anatolia)",era:contemporary,era:contemporary,C1-3,Six Pens (al-Aqlam al-Sitta); unknown birth: matched on era
+book arts,"Islamic world (MENA, Iran, Anatolia)",era:,era:,C1-3,Six Pens (al-Aqlam al-Sitta); unknown birth: matched on era
+book arts,*,-3000,1199,T17,Romanesque Painting; Romanesque illuminators: pictures go to painting (P1)
+book arts,*,1200,1449,T134,Gothic Book Illustration
+book arts,*,1450,1849,T132,Western Calligraphy; Ottoman calligraphers filed under Western Europe need C1-3 by hand
+book arts,*,1850,2100,T133,Type Design
+book arts,*,era:antiquity,era:antiquity,T17,Romanesque Painting; unknown birth: matched on era
+book arts,*,era:early,era:early,T134,Gothic Book Illustration; unknown birth: matched on era
+book arts,*,era:late,era:late,T132,Western Calligraphy; unknown birth: matched on era
+book arts,*,era:modern,era:modern,T133,Type Design; unknown birth: matched on era
+book arts,*,era:contemporary,era:contemporary,T133,Type Design; unknown birth: matched on era
+book arts,*,era:,era:,T133,Type Design; unknown birth: matched on era
+design and decorative arts,"Islamic world (MENA, Iran, Anatolia)",era:early,era:early,E2-2,"Kashan Lustreware; unknown birth, early Islamic maker (Abu Zayd, Kashan potter): existing pilot leaf Kashan Lustreware"
+design and decorative arts,China,1850,1909,T171,Mingei; East Asian craftsmen of the Mingei generation
+design and decorative arts,*,-3000,1249,T157,Mosan Art; Romanesque goldsmiths
+design and decorative arts,*,1250,1449,T159,International Gothic (decorative arts)
+design and decorative arts,*,1450,1599,T160,Mannerism (decorative arts)
+design and decorative arts,*,1600,1674,T161,Louis XIV Style
+design and decorative arts,*,1675,1724,T162,Louis XV Style
+design and decorative arts,*,1725,1764,T163,Louis XVI Style
+design and decorative arts,*,1765,1794,T164,Empire Style
+design and decorative arts,*,1795,1819,T165,Biedermeier
+design and decorative arts,*,1820,1849,T166,Victorian Decorative Arts
+design and decorative arts,*,1850,1869,T167,Arts and Crafts Movement
+design and decorative arts,*,1870,1889,T168,Art Nouveau
+design and decorative arts,*,1890,1909,T169,Art Deco
+design and decorative arts,*,1910,1944,T172,Mid-Century Modern
+design and decorative arts,*,1945,2100,T173,Contemporary Design
+design and decorative arts,*,era:antiquity,era:antiquity,T156,Red-Figure Pottery; unknown birth: matched on era
+design and decorative arts,*,era:early,era:early,T159,International Gothic (decorative arts); unknown birth: matched on era
+design and decorative arts,*,era:late,era:late,T162,Louis XV Style; unknown birth: matched on era
+design and decorative arts,*,era:modern,era:modern,T169,Art Deco; unknown birth: matched on era
+design and decorative arts,*,era:contemporary,era:contemporary,T173,Contemporary Design; unknown birth: matched on era
+design and decorative arts,*,era:,era:,T173,Contemporary Design; unknown birth: matched on era
+architecture,*,-3000,1399,T181,Gothic Architecture
+architecture,*,1400,1599,T182,Renaissance Architecture
+architecture,*,1600,1749,T183,Baroque Architecture
+architecture,*,1750,1849,T184,Neoclassical Architecture
+architecture,*,1850,1899,T185,Art Nouveau Architecture
+architecture,*,1900,1944,T186,Modern Architecture
+architecture,*,1945,2100,T190,Contemporary Architecture
+architecture,*,era:antiquity,era:antiquity,T181,Gothic Architecture; unknown birth: matched on era
+architecture,*,era:early,era:early,T181,Gothic Architecture; unknown birth: matched on era
+architecture,*,era:late,era:late,T183,Baroque Architecture; unknown birth: matched on era
+architecture,*,era:modern,era:modern,T186,Modern Architecture; unknown birth: matched on era
+architecture,*,era:contemporary,era:contemporary,T190,Contemporary Architecture; unknown birth: matched on era
+architecture,*,era:,era:,T190,Contemporary Architecture; unknown birth: matched on era
+"installation, performance and conceptual",*,-3000,2100,T193,Installation Art
+"installation, performance and conceptual",*,era:antiquity,era:antiquity,T193,Installation Art; unknown birth: matched on era
+"installation, performance and conceptual",*,era:early,era:early,T193,Installation Art; unknown birth: matched on era
+"installation, performance and conceptual",*,era:late,era:late,T193,Installation Art; unknown birth: matched on era
+"installation, performance and conceptual",*,era:modern,era:modern,T193,Installation Art; unknown birth: matched on era
+"installation, performance and conceptual",*,era:contemporary,era:contemporary,T193,Installation Art; unknown birth: matched on era
+"installation, performance and conceptual",*,era:,era:,T193,Installation Art; unknown birth: matched on era
+"video, new media and digital",*,-3000,1944,T201,Video Art
+"video, new media and digital",*,1945,2100,T202,New Media Art
+"video, new media and digital",*,era:antiquity,era:antiquity,T201,Video Art; unknown birth: matched on era
+"video, new media and digital",*,era:early,era:early,T201,Video Art; unknown birth: matched on era
+"video, new media and digital",*,era:late,era:late,T201,Video Art; unknown birth: matched on era
+"video, new media and digital",*,era:modern,era:modern,T201,Video Art; unknown birth: matched on era
+"video, new media and digital",*,era:contemporary,era:contemporary,T202,New Media Art; unknown birth: matched on era
+"video, new media and digital",*,era:,era:,T202,New Media Art; unknown birth: matched on era
+street art and muralism,South America,-3000,1944,T191,Mexican Muralism; Latin American muralists
+street art and muralism,Mesoamerica & Caribbean,-3000,1944,T191,Mexican Muralism; Latin American muralists
+street art and muralism,*,-3000,2100,T192,Street Art; European and North American muralists born before 1945 also land here (problem)
+street art and muralism,*,era:antiquity,era:antiquity,T192,Street Art; unknown birth: matched on era
+street art and muralism,*,era:early,era:early,T192,Street Art; unknown birth: matched on era
+street art and muralism,*,era:late,era:late,T192,Street Art; unknown birth: matched on era
+street art and muralism,*,era:modern,era:modern,T192,Street Art; unknown birth: matched on era
+street art and muralism,*,era:contemporary,era:contemporary,T192,Street Art; unknown birth: matched on era
+street art and muralism,*,era:,era:,T192,Street Art; unknown birth: matched on era
+painting,"Islamic world (MENA, Iran, Anatolia)",-3000,1199,A1-1,Arab Painting; existing pilot leaf Arab Painting
+visual art (unspecified),"Islamic world (MENA, Iran, Anatolia)",-3000,1199,A1-1,Arab Painting; existing pilot leaf Arab Painting
+,"Islamic world (MENA, Iran, Anatolia)",-3000,1199,A1-1,Arab Painting; existing pilot leaf Arab Painting
+painting,"Islamic world (MENA, Iran, Anatolia)",1200,1749,A1-2,Persian Miniature; existing pilot leaf Persian Miniature; al-Wasiti needs A1-1 by hand
+visual art (unspecified),"Islamic world (MENA, Iran, Anatolia)",1200,1749,A1-2,Persian Miniature; existing pilot leaf Persian Miniature; al-Wasiti needs A1-1 by hand
+,"Islamic world (MENA, Iran, Anatolia)",1200,1749,A1-2,Persian Miniature; existing pilot leaf Persian Miniature; al-Wasiti needs A1-1 by hand
+painting,"Islamic world (MENA, Iran, Anatolia)",1750,1849,A5-1,Qajar Painting; existing pilot leaf Qajar Painting
+visual art (unspecified),"Islamic world (MENA, Iran, Anatolia)",1750,1849,A5-1,Qajar Painting; existing pilot leaf Qajar Painting
+,"Islamic world (MENA, Iran, Anatolia)",1750,1849,A5-1,Qajar Painting; existing pilot leaf Qajar Painting
+painting,"Islamic world (MENA, Iran, Anatolia)",era:early,era:early,A1-2,"Persian Miniature; unknown birth, premodern Islamic painters (Persian album masters)"
+visual art (unspecified),"Islamic world (MENA, Iran, Anatolia)",era:early,era:early,A1-2,"Persian Miniature; unknown birth, premodern Islamic painters (Persian album masters)"
+,"Islamic world (MENA, Iran, Anatolia)",era:early,era:early,A1-2,"Persian Miniature; unknown birth, premodern Islamic painters (Persian album masters)"
+painting,"Islamic world (MENA, Iran, Anatolia)",era:late,era:late,A1-2,"Persian Miniature; unknown birth, premodern Islamic painters (Persian album masters)"
+visual art (unspecified),"Islamic world (MENA, Iran, Anatolia)",era:late,era:late,A1-2,"Persian Miniature; unknown birth, premodern Islamic painters (Persian album masters)"
+,"Islamic world (MENA, Iran, Anatolia)",era:late,era:late,A1-2,"Persian Miniature; unknown birth, premodern Islamic painters (Persian album masters)"
+painting,South Asia,-3000,1849,A1-4,Mughal Painting; existing pilot leaf Mughal Painting; Rajput/Pahari by hand (South Asia slice)
+visual art (unspecified),South Asia,-3000,1849,A1-4,Mughal Painting; existing pilot leaf Mughal Painting; Rajput/Pahari by hand (South Asia slice)
+,South Asia,-3000,1849,A1-4,Mughal Painting; existing pilot leaf Mughal Painting; Rajput/Pahari by hand (South Asia slice)
+painting,South Asia,1850,1899,T111,Bengal School of Art
+visual art (unspecified),South Asia,1850,1899,T111,Bengal School of Art
+,South Asia,1850,1899,T111,Bengal School of Art
+painting,China,-3000,1199,T1,"Gongbi; court and professional painting; literati of this band (Su Shi, Mi Fu) need LIT by hand"
+visual art (unspecified),China,-3000,1199,T1,"Gongbi; court and professional painting; literati of this band (Su Shi, Mi Fu) need LIT by hand"
+,China,-3000,1199,T1,"Gongbi; court and professional painting; literati of this band (Su Shi, Mi Fu) need LIT by hand"
+painting,China,1200,1849,T3,Literati Painting; includes Japanese Zen ink and Nanga painters of the East Asia bucket (problem)
+visual art (unspecified),China,1200,1849,T3,Literati Painting; includes Japanese Zen ink and Nanga painters of the East Asia bucket (problem)
+,China,1200,1849,T3,Literati Painting; includes Japanese Zen ink and Nanga painters of the East Asia bucket (problem)
+painting,China,era:antiquity,era:antiquity,T1,Gongbi; unknown birth: matched on era
+visual art (unspecified),China,era:antiquity,era:antiquity,T1,Gongbi; unknown birth: matched on era
+,China,era:antiquity,era:antiquity,T1,Gongbi; unknown birth: matched on era
+painting,China,era:early,era:early,T3,Literati Painting; unknown birth: matched on era
+visual art (unspecified),China,era:early,era:early,T3,Literati Painting; unknown birth: matched on era
+,China,era:early,era:early,T3,Literati Painting; unknown birth: matched on era
+painting,China,era:late,era:late,T3,Literati Painting; unknown birth: matched on era
+visual art (unspecified),China,era:late,era:late,T3,Literati Painting; unknown birth: matched on era
+,China,era:late,era:late,T3,Literati Painting; unknown birth: matched on era
+painting,*,-3000,1199,T17,Romanesque Painting
+visual art (unspecified),*,-3000,1199,T17,Romanesque Painting
+,*,-3000,1199,T17,Romanesque Painting
+painting,*,1200,1339,T18,Gothic Painting
+visual art (unspecified),*,1200,1339,T18,Gothic Painting
+,*,1200,1339,T18,Gothic Painting
+painting,*,1340,1399,T20,International Gothic
+visual art (unspecified),*,1340,1399,T20,International Gothic
+,*,1340,1399,T20,International Gothic
+painting,*,1400,1499,T22,"Italian Renaissance Painting; region cannot separate Italy from the Low Countries, German lands and Iberia: ~40% are Northern/Iberian (problem)"
+visual art (unspecified),*,1400,1499,T22,"Italian Renaissance Painting; region cannot separate Italy from the Low Countries, German lands and Iberia: ~40% are Northern/Iberian (problem)"
+,*,1400,1499,T22,"Italian Renaissance Painting; region cannot separate Italy from the Low Countries, German lands and Iberia: ~40% are Northern/Iberian (problem)"
+painting,*,1500,1564,T25,Mannerism
+visual art (unspecified),*,1500,1564,T25,Mannerism
+,*,1500,1564,T25,Mannerism
+painting,*,1565,1689,T27,Baroque Painting; Dutch and Flemish painters without movement land here (problem)
+visual art (unspecified),*,1565,1689,T27,Baroque Painting; Dutch and Flemish painters without movement land here (problem)
+,*,1565,1689,T27,Baroque Painting; Dutch and Flemish painters without movement land here (problem)
+painting,*,1690,1739,T31,Rococo
+visual art (unspecified),*,1690,1739,T31,Rococo
+,*,1690,1739,T31,Rococo
+painting,*,1740,1779,T32,Neoclassicism
+visual art (unspecified),*,1740,1779,T32,Neoclassicism
+,*,1740,1779,T32,Neoclassicism
+painting,*,1780,1814,T33,Romanticism
+visual art (unspecified),*,1780,1814,T33,Romanticism
+,*,1780,1814,T33,Romanticism
+painting,*,1815,1859,T40,Academic Art
+visual art (unspecified),*,1815,1859,T40,Academic Art
+,*,1815,1859,T40,Academic Art
+painting,*,1860,1944,T112,Modern Art; Modern Art as period style (brief); East Asian ink painters of this generation land here (problem)
+visual art (unspecified),*,1860,1944,T112,Modern Art; Modern Art as period style (brief); East Asian ink painters of this generation land here (problem)
+,*,1860,1944,T112,Modern Art; Modern Art as period style (brief); East Asian ink painters of this generation land here (problem)
+painting,*,1945,2100,T113,Contemporary Art
+visual art (unspecified),*,1945,2100,T113,Contemporary Art
+,*,1945,2100,T113,Contemporary Art
+painting,*,era:antiquity,era:antiquity,T114,Ancient Greek Painting; unknown birth: matched on era
+visual art (unspecified),*,era:antiquity,era:antiquity,T114,Ancient Greek Painting; unknown birth: matched on era
+,*,era:antiquity,era:antiquity,T114,Ancient Greek Painting; unknown birth: matched on era
+painting,*,era:early,era:early,T18,Gothic Painting; unknown birth: matched on era
+visual art (unspecified),*,era:early,era:early,T18,Gothic Painting; unknown birth: matched on era
+,*,era:early,era:early,T18,Gothic Painting; unknown birth: matched on era
+painting,*,era:late,era:late,T27,Baroque Painting; unknown birth: matched on era
+visual art (unspecified),*,era:late,era:late,T27,Baroque Painting; unknown birth: matched on era
+,*,era:late,era:late,T27,Baroque Painting; unknown birth: matched on era
+painting,*,era:modern,era:modern,T112,Modern Art; unknown birth: matched on era
+visual art (unspecified),*,era:modern,era:modern,T112,Modern Art; unknown birth: matched on era
+,*,era:modern,era:modern,T112,Modern Art; unknown birth: matched on era
+painting,*,era:contemporary,era:contemporary,T113,Contemporary Art; unknown birth: matched on era
+visual art (unspecified),*,era:contemporary,era:contemporary,T113,Contemporary Art; unknown birth: matched on era
+,*,era:contemporary,era:contemporary,T113,Contemporary Art; unknown birth: matched on era
+painting,*,era:,era:,T113,Contemporary Art; unknown birth: matched on era
+visual art (unspecified),*,era:,era:,T113,Contemporary Art; unknown birth: matched on era
+,*,era:,era:,T113,Contemporary Art; unknown birth: matched on era

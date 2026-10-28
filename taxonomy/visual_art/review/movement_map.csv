@@ -1,0 +1,676 @@
+qid,label,disposition,note
+Q186030,contemporary art,tag,broad label; artists go to Contemporary Art / medium period leaf
+Q37853,Baroque,leaf:T27,Baroque Painting; merged with Baroque painting; Baroque sculptors go to Baroque Sculpture
+Q80113,Expressionism,leaf:T58,Expressionism
+Q128115,abstract art,tag,umbrella: abstract art
+Q10857409,realism,leaf:T42,Realism
+Q40415,Impressionism,leaf:T49,Impressionism
+Q164800,Symbolism,leaf:T53,Symbolism
+Q177725,abstract expressionism,leaf:T83,Abstract Expressionism
+Q42865,Orientalism,tag,subject: Orientalism
+Q39427,surrealism,leaf:T68,Surrealism
+Q37068,Romanticism,leaf:T33,Romanticism
+Q189458,academic art,leaf:T40,Academic Art
+Q134147,pop art,leaf:T91,Pop Art
+Q14378,Neoclassicism,leaf:T32,Neoclassicism
+Q34636,Art Nouveau,leaf:T168,Art Nouveau; placed in design (I3); painters keep the tag
+Q166713,Post-impressionism,leaf:T51,Post-Impressionism
+Q2642826,French Realism,leaf:T42,Realism; synonym (Realism in France)
+Q1246516,feminist art,tag,umbrella/stance: feminist art
+Q203209,conceptual art,leaf:T194,Conceptual Art
+Q42934,cubism,leaf:T60,Cubism
+Q878985,modernism,tag,umbrella: modernism
+Q184814,Pre-Raphaelite Brotherhood,leaf:T44,Pre-Raphaelite Brotherhood
+Q131808,Mannerism,leaf:T25,Mannerism
+Q122960,Rococo,leaf:T31,Rococo
+Q173782,Art Deco,leaf:T169,Art Deco; placed in design (I3)
+Q273506,School of Paris,leaf:T78,School of Paris
+Q1989975,Nihonga,leaf:T13,Nihonga
+Q4692,Renaissance,tag,period: Renaissance
+Q55995,Naturalism,leaf:T47,Naturalism
+Q108908,Fluxus,leaf:T195,Fluxus
+Q143357,Barbizon school,leaf:T37,Barbizon School
+Q382056,Pont-Aven School,leaf:T52,Pont-Aven School
+Q1332178,Sienese school,leaf:T19,Sienese School
+Q1232633,Hague School,leaf:T45,Hague School
+Q173436,Minimalism,leaf:T151,Minimalism; placed in sculpture (D5)
+Q170292,Classicism,tag,umbrella: classicism (17th-c. classicism and neoclassicism mixed)
+Q808561,Baroque painting,leaf:T27,Baroque Painting
+Q166593,Fauvism,leaf:T59,Fauvism
+Q38166,modern art,tag,broad label; Modern Art period leaf holds artists by rule
+Q843393,mail art,leaf:T196,Mail Art
+Q131221,Futurism,leaf:T61,Futurism
+Q837024,social realism,leaf:T75,Social Realism
+Q1994273,Flemish Baroque painting,leaf:T29,Flemish Baroque Painting
+Q330369,Arts and Crafts movement,leaf:T167,Arts and Crafts Movement
+Q632355,Archaic Greek sculpture,leaf:T136,Archaic Greek Sculpture; members are mostly vase painters (data noise); they go to the vase leaves with the tag
+Q1633309,Yōga,leaf:T110,Yōga
+Q200034,pointillism,leaf:T50,Neo-Impressionism; synonym (technique of Neo-Impressionism)
+Q6034,Dada,leaf:T67,Dada
+Q12742313,Tinerimea artistică,kind:T112/Tinerimea artistică,Modern Art; Romanian exhibition society
+Q281108,naïve art,leaf:T81,Naïve Art
+Q207103,Constructivism,leaf:T65,Constructivism
+Q943853,Hudson River school,leaf:T38,Hudson River School
+Q102932,avant-garde,tag,umbrella: avant-garde
+Q594150,art brut,leaf:T82,Art Brut
+Q1122677,Catalan modernism,kind:T168/Catalan modernisme,Art Nouveau; regional Art Nouveau
+Q2352880,Dutch Golden Age painting,leaf:T30,Dutch Golden Age Painting
+Q1474884,High Renaissance,kind:T22/High Renaissance,Italian Renaissance Painting; phase
+Q47783,Postmodernism,tag,umbrella: postmodernism
+Q2455000,German Renaissance,kind:T24/German Renaissance,Northern Renaissance; regional branch
+Q443153,Early Netherlandish painting,leaf:T21,Early Netherlandish Painting
+Q19709075,Fine Arts Union,kind:T112/Fine Arts Union,Modern Art; Romanian artists' association
+Q3326940,Movimento Arte Concreta,kind:T89/Movimento Arte Concreta,Concrete Art; Italian group
+Q180902,socialist realism,leaf:T76,Socialist Realism
+Q851869,pictorialism,leaf:T175,Pictorialism
+Q105679168,Official Salon of Painting and Sculpture,kind:T40/Official Salon (Romania),Academic Art; exhibition society
+Q1404472,Italian Renaissance,leaf:T22,Italian Renaissance Painting; synonym
+Q55614094,Hurufiyya movement,leaf:T108,Hurufiyya Movement
+Q829895,Harlem Renaissance,leaf:T77,Harlem Renaissance
+Q221375,Hellenistic art,leaf:T138,Hellenistic Sculpture; merged (Hellenistic art)
+Q147516,magic realism,leaf:T71,Magic Realism
+Q576913,Arte Povera,leaf:T197,Arte Povera
+Q589655,neo-expressionism,leaf:T100,Neo-Expressionism
+Q749832,hyperrealism,leaf:T98,Photorealism; merged with photorealism (gathering reference)
+Q19953536,neo-Pompeian,leaf:T41,Neo-Grec; synonym (neo-Pompeian)
+Q595448,postmodern architecture,leaf:T188,Postmodern Architecture
+Q3314961,Mingei,leaf:T171,Mingei
+Q3578530,Veronese school,kind:T22/Veronese school,Italian Renaissance Painting; city school
+Q160218,New Objectivity,leaf:T70,New Objectivity
+Q934618,Danish Golden Age,leaf:T35,Danish Golden Age
+Q680559,Düsseldorf school of painting,leaf:T36,Düsseldorf School of Painting
+Q150091,Neo-impressionism,leaf:T50,Neo-Impressionism
+Q276308,Nouveau réalisme,leaf:T93,Nouveau Réalisme
+Q11811815,New Sculpture,leaf:T146,New Sculpture
+Q182331,op art,leaf:T90,Op Art
+Q751880,Japonisme,tag,influence: Japonisme
+Q3577783,School of Brussels,kind:T120/School of Brussels,Ligne Claire; comics school
+Q273470,Marcinelle school,leaf:T121,Marcinelle School
+Q603529,Bloomsbury Group,kind:T51/Bloomsbury Group,Post-Impressionism; artist group
+Q1472236,Early Renaissance,kind:T22/Early Renaissance,Italian Renaissance Painting; phase
+Q2477787,American Impressionism,kind:T49/American Impressionism,Impressionism; national branch
+Q273495,École de Nancy,kind:T168/École de Nancy,Art Nouveau; design school
+Q466521,kinetic art,leaf:T150,Kinetic Art; placed in sculpture (D5)
+Q212611,COBRA,leaf:T87,COBRA
+Q10822316,concrete art,leaf:T89,Concrete Art
+Q724976,Ashcan School,leaf:T74,Ashcan School
+Q503708,Les Nabis,kind:T51/Les Nabis,Post-Impressionism; artist group
+Q378604,new media art,leaf:T202,New Media Art
+Q939559,photorealism,leaf:T98,Photorealism
+Q1147263,lyrical abstraction,leaf:T85,Lyrical Abstraction
+Q867769,International Gothic,leaf:T20,International Gothic
+Q2928221,Nanga,leaf:T11,Nanga
+Q191970,Suprematism,leaf:T64,Suprematism
+Q1136545,Costumbrismo,leaf:T43,Costumbrismo
+Q369418,hard-edge painting,leaf:T88,Hard-edge Painting
+Q57173928,abject art,tag,theme: abject art
+Q1054254,Informalism,leaf:T86,Informalism
+Q15838173,Regionalism,leaf:T73,Regionalism
+Q51845944,Arta română Society,kind:T112/Arta Română Society,Modern Art; Romanian exhibition society
+Q60853744,French School,tag,place label: French School
+Q124354,Bauhaus,leaf:T170,Bauhaus
+Q516316,Young British Artists,kind:T113/Young British Artists,Contemporary Art; artist group
+Q16064885,art of Classical Greece,leaf:T137,Classical Greek Sculpture; merged (art of Classical Greece)
+Q1164982,Color Field,leaf:T84,Color Field
+Q7148372,Pattern and Decoration,leaf:T97,Pattern and Decoration
+Q1578378,Precisionism,leaf:T72,Precisionism
+Q848365,primitivism,tag,umbrella: primitivism
+Q5095653,Chicago Imagists,kind:T112/Chicago Imagists,Modern Art; artist group (members born c. 1940)
+Q610877,Northern Renaissance,leaf:T24,Northern Renaissance
+Q263985,romantic nationalism,tag,umbrella: romantic nationalism
+Q2405999,fairy painting,tag,subject genre: fairy painting
+Q695830,Viennese Actionism,leaf:T199,Viennese Actionism
+Q1401605,Russian avant-garde,tag,umbrella: Russian avant-garde
+Q174988,Thirties Generation,kind:T112/Generation of the '30s,Modern Art; artistic generation
+Q1255562,Glasgow School,leaf:T57,Glasgow School
+Q4745527,American realism,kind:T42/American realism,Realism; national branch
+Q2478178,Umbrian school,kind:T22/Umbrian school,Italian Renaissance Painting; city school
+Q2394116,postminimalism,leaf:T152,Postminimalism
+Q46825,Gothic art,leaf:T18,Gothic Painting; merged (Gothic art); Gothic sculptors go to Gothic Sculpture
+Q765606,Orientalist painting,tag,subject: Orientalist painting
+Q574985,Macchiaioli,leaf:T46,Macchiaioli
+Q207445,De Stijl,leaf:T66,De Stijl
+Q993247,Európai Iskola,kind:T112/European School (Európai Iskola),Modern Art; Hungarian artist group
+Q115688756,Rationalism of Lake Como,kind:T186/Rationalism of Lake Como,Modern Architecture; members are Como abstract painters; kind of modern architecture
+Q326478,land art,leaf:T198,Land Art
+Q271834,Archaic Greece,tag,period: Archaic Greece
+Q319973,Munich school,leaf:T48,Munich School
+Q208208,Vienna Secession,kind:T168/Vienna Secession,Art Nouveau; artist group (Secession style)
+Q2487023,divisionism,kind:T50/Divisionism,Neo-Impressionism; Italian branch
+Q2268037,Neo-figurative,leaf:T99,Neo-figurative
+Q422681,Nazarene movement,leaf:T34,Nazarene Movement
+Q397469,Neo-romanticism,leaf:T80,Neo-Romanticism
+Q65939509,British black arts movement,leaf:T103,British Black Arts Movement
+Q372600,Tachisme,kind:T86/Tachisme,Informalism; French branch
+Q3079516,Kei school,leaf:T153,Kei School
+Q7971736,Washington Color School,kind:T84/Washington Color School,Color Field; regional group
+Q610687,Venetian school,leaf:T23,Venetian School
+Q3381582,humanistic photography,leaf:T178,Humanistic Photography
+Q2046861,Palaeologan Renaissance,leaf:T14,Palaeologan Renaissance
+Q11050078,Lingnan School,leaf:T7,Lingnan School
+Q213457,Beat Generation,tag,literary/cultural: Beat Generation
+Q17516,street art,leaf:T192,Street Art
+Q558276,Art & Language,kind:T194/Art & Language,Conceptual Art; artist collective
+Q3562740,Volcano school,kind:T42/Volcano School,Realism; Hawaiian landscape painters
+Q2316866,geometric abstraction,tag,umbrella: geometric abstraction
+Q994776,brutalist architecture,leaf:T187,Brutalist Architecture
+Q1786363,Tonalism,leaf:T55,Tonalism
+Q3577822,Bay Area Figurative Movement,leaf:T95,Bay Area Figurative Movement
+Q3032335,Heidelberg School,kind:T49/Heidelberg School,Impressionism; Australian Impressionism
+Q915841,vorticism,leaf:T63,Vorticism
+Q1307909,ligne claire,leaf:T120,Ligne Claire
+Q217213,action painting,kind:T83/Action painting,Abstract Expressionism; branch
+Q2141991,Norwich school of painters,leaf:T39,Norwich School of Painters
+Q154432,Biedermeier,leaf:T165,Biedermeier; placed in design (I3); painters keep the tag
+Q256922,Aestheticism,leaf:T54,Aestheticism
+Q65052354,Q65052354,kind:T112/West Lake School (西湖畫派),"Modern Art; Hangzhou modernist group (Lin Fengmian, Wu Dayu)"
+Q5509243,Funk art,leaf:T94,Funk Art
+Q935292,Neo-Dada,leaf:T92,Neo-Dada
+Q979160,Proto-Renaissance,kind:T18/Proto-Renaissance,Gothic Painting; phase
+Q519443,Orphism,leaf:T62,Orphism
+Q4920294,Black Arts Movement,leaf:T102,Black Arts Movement
+Q1159870,Luminism,leaf:T56,Luminism
+Q3577793,Dakar School,leaf:T109,Dakar School
+Q62090257,Q62090257,kind:T47/École de Concarneau,Naturalism; art colony
+Q545851,process art,kind:T152/Process art,Postminimalism; branch
+Q4745501,American modernism,tag,umbrella: American modernism
+Q858436,neorealism,kind:T75/Neorealism,Social Realism; Italian neorealismo in painting
+Q1378978,Cretan school,leaf:T15,Cretan School
+Q185905,ukiyo-e,leaf:T127,Ukiyo-e; placed in printmaking (B2)
+Q7252,feminism,"exclude:ideology, not an art movement",
+Q4774335,anti-clerical art,tag,subject: anti-clerical art
+Q617166,Russian Futurism,kind:T61/Russian Futurism,Futurism; national branch
+Q62506,Caravaggisti,leaf:T28,Caravaggisti
+Q1622217,figurative art,tag,umbrella: figurative art
+Q47942,functionalism,kind:T186/Functionalism,Modern Architecture; architectural doctrine
+Q753683,metaphysical painting,leaf:T69,Metaphysical Painting
+Q1125039,Post-romanticism,tag,period: post-romanticism
+Q768100,Lettrism,leaf:T101,Lettrism
+Q7060194,Northwest School,leaf:T96,Northwest School
+Q245188,modern architecture,leaf:T186,Modern Architecture
+Q3578343,Scuola Romana,leaf:T79,Scuola Romana
+Q847847,synthetism,kind:T52/Synthetism,Pont-Aven School; style of the school
+Q889525,cloisonnism,kind:T52/Cloisonnism,Pont-Aven School; style of the school
+Q11498107,Golden Age of Illustration,leaf:T119,Golden Age of Illustration
+Q1628039,Utrecht Caravaggism,kind:T28/Utrecht Caravaggism,Caravaggisti; regional group
+Q584084,School of Fontainebleau,leaf:T26,School of Fontainebleau
+Q51845707,Arta Society,kind:T112/Arta Society,Modern Art; Romanian exhibition society
+Q2477112,German Romanticism,kind:T33/German Romanticism,Romanticism; national branch
+Q1786545,New Vision,leaf:T177,New Vision
+Q115154832,The Castiglioni Method,kind:T172/Castiglioni brothers' method,Mid-Century Modern; design studio method
+Q1513688,Greek Revival architecture,tag,architectural style on painters; K2 revivals built elsewhere
+Q1294605,Jugendstil,leaf:T168,Art Nouveau; synonym (Jugendstil)
+Q60367157,Salon Cubism,kind:T60/Salon Cubism,Cubism; branch
+Q2096208,Pioneer Group,kind:T156/Pioneer Group,Red-Figure Pottery; vase-painter group
+Q85369440,Q85369440,kind:T120/Flemish school (École flamande),Ligne Claire; comics school
+Q7921371,Verismo,kind:T42/Verismo,Realism; Italian realism
+Q160476,German Expressionism,kind:T58/German Expressionism,Expressionism; national branch
+Q2864738,Art singulier,kind:T82/Art singulier,Art Brut; French branch
+Q6546135,Light and Space,kind:T193/Light and Space,Installation Art; Californian group (<5 members)
+Q55996,naturalism,leaf:T47,Naturalism; synonym
+Q1972942,New York School,kind:T83/New York School,Abstract Expressionism; artist group
+Q2578278,visual poetry,tag,literary: visual poetry
+Q19953535,Victorian painting,tag,period: Victorian painting
+Q938864,Mexican muralism,leaf:T191,Mexican Muralism
+Q557532,Newlyn School,kind:T47/Newlyn School,Naturalism; art colony
+Q109260,Peredvizhniki,kind:T42/Peredvizhniki,Realism; artist society
+Q5898564,Hoosier Group,kind:T49/Hoosier Group,Impressionism; regional group
+Q3321083,Mono-ha,kind:T193/Mono-ha,Installation Art; Japanese group (<5 members)
+Q28401399,Animalier school,leaf:T147,Animalier School
+Q3501275,atom style,kind:T120/Atom style,Ligne Claire; comics style
+Q3577791,Crozant School,kind:T49/Crozant School,Impressionism; painters' colony
+Q111726089,Allusive Abstractionists,kind:T83/Allusive Abstractionists,Abstract Expressionism; artist collective
+Q224885,Transavantgarde,kind:T100/Transavantgarde,Neo-Expressionism; Italian branch
+Q1886249,straight photography,leaf:T176,Straight Photography
+Q11784483,Neues Bauen,kind:T186/Neues Bauen,Modern Architecture; German branch
+Q430167,Spanish Renaissance,kind:T22/Spanish Renaissance,Italian Renaissance Painting; Italianate Iberian painting; see problem on Italy/North split
+Q4763941,Angry Penguins,kind:T112/Angry Penguins,Modern Art; Australian modernist group
+Q86533894,Q86533894,kind:T112/Escuela de Pamplona,Modern Art; regional group
+Q3577819,Rouen School,kind:T49/Rouen School,Impressionism; regional group
+Q2872628,Les Automatistes,kind:T83/Les Automatistes,Abstract Expressionism; Québec group
+Q3374328,Q3374328,kind:T112/Peintres de la réalité poétique,Modern Art; French group
+Q1935489,Scapigliatura,kind:T33/Scapigliatura,Romanticism; late-Romantic Milanese circle
+Q17089653,feminist art movement,tag,umbrella/stance: feminist art movement
+Q54111,Neoclassical architecture,leaf:T184,Neoclassical Architecture
+Q2984254,Etaples art colony,kind:T47/Étaples art colony,Naturalism; art colony
+Q1152966,Ofakim Hadashim,kind:T85/New Horizons (Ofakim Hadashim),Lyrical Abstraction; Israeli group
+Q1580216,Noucentisme,kind:T112/Noucentisme,Modern Art; Catalan movement (<5 members)
+Q845318,high-tech architecture,kind:T186/High-tech architecture,Modern Architecture; style (<5 members)
+Q463382,American Craftsman,kind:T167/American Craftsman,Arts and Crafts Movement; national branch
+Q258694,Incoherents,kind:T67/Incoherents,Dada; proto-Dada group
+Q466675,American Renaissance,kind:T40/American Renaissance,Academic Art; US academic phase
+Q57244244,Black Atlantic,tag,cultural/theoretical: Black Atlantic
+Q478742,Amsterdam School,kind:T186/Amsterdam School,Modern Architecture; architectural school
+Q3347103,neo-pop,kind:T91/Neo-pop,"Pop Art; later phase (gathering reference, merged)"
+Q842183,shin-hanga,leaf:T128,Shin-hanga
+Q17012219,neo-futurism,tag,architectural/design style (neo-futurism)
+Q966571,Byzantine Revival architecture,tag,architectural style on painters; K2 revivals built elsewhere
+Q2535546,rationalism,kind:T186/Rationalism,Modern Architecture; Italian rationalist architecture
+Q674718,intimism,kind:T51/Intimism,Post-Impressionism; Nabis branch
+Q16934127,Northern Landscape style,leaf:T2,Northern Landscape Style
+Q629602,black-figure pottery,leaf:T155,Black-Figure Pottery
+Q3088366,Romantic painting,leaf:T33,Romanticism; synonym
+Q122459524,Sanur School,kind:T116/Sanur School,Balinese Painting; Balinese school
+Q335652,parnassianism,tag,literary: Parnassianism
+Q2537632,eclecticism in art,tag,umbrella: eclecticism
+Q845421,neoplasticism,leaf:T66,De Stijl; synonym (Neoplasticism)
+Q1295040,Art Nouveau architecture,leaf:T185,Art Nouveau Architecture
+Q1338153,20th-century classical music,"exclude:music, not visual art",
+Q650466,Neue Wilde,kind:T100/Neue Wilde,"Neo-Expressionism; German branch (gathering reference, merged)"
+Q819534,Bergen school,kind:T112/Bergen school,Modern Art; regional group
+Q153946,punk subculture,"exclude:subculture, not an art movement",
+Q473743,environmental art,kind:T198/Environmental art,"Land Art; branch (gathering reference, merged)"
+Q7059995,Northwest Coast art,tag,Indigenous tradition: route to the North American Indigenous slice
+Q21015774,Laboratoire Agit'Art,kind:T113/Laboratoire Agit'Art,Contemporary Art; artist collective
+Q5963937,Saqqa-khaneh school,kind:T108/Saqqa-khaneh school,Hurufiyya Movement; Iranian branch
+Q5554487,Q5554487,tag,unlabelled item (Late Archaic vase painters); cannot attest
+Q21002895,Generation '28,kind:T112/Generation '28,Modern Art; Venezuelan generation
+Q2907232,Antropophagia,kind:T112/Antropofagia,Modern Art; Brazilian modernist current
+Q56306110,École d'Écouen,kind:T42/École d'Écouen,Realism; art colony
+Q3272569,luminism,tag,"ambiguous: luminism (Q3272569, European), not the American leaf"
+Q1940971,Molse School,kind:T42/Molse School,Realism; landscape colony
+Q5020754,California Impressionism,kind:T49/California Impressionism,Impressionism; regional branch
+Q3362516,Afrofuturism,tag,cultural: Afrofuturism
+Q6878743,Mission School,leaf:T105,Mission School
+Q1444581,Superflat,leaf:T107,Superflat
+Q3071677,Figuration narrative,kind:T91/Figuration narrative,Pop Art; French branch
+Q57206373,Black Aesthetic,tag,cultural: Black Aesthetic
+Q186363,Gothic Revival,tag,architectural style on artists; K2 revivals built elsewhere
+Q16191884,Neo-Grec,leaf:T41,Neo-Grec
+Q1536024,Tingatinga,leaf:T115,Tingatinga
+Q368002,New Figuration,kind:T99/New Figuration,Neo-figurative; branch
+Q277466,historicism,tag,umbrella: historicism
+Q3501307,Troubadour style,kind:T33/Troubadour style,Romanticism; French current
+Q941875,Rayonism,kind:T61/Rayonism,Futurism; Russian branch
+Q1569950,internet art,kind:T202/Internet art,New Media Art; branch
+Q3577743,École d'Alger,kind:T112/École d'Alger,Modern Art; regional group
+Q3357314,Florentine School,kind:T22/Florentine school,Italian Renaissance Painting; city school
+Q3117798,Group of Thirteen,kind:T112/Group of Thirteen,Modern Art; artist group
+Q2914470,Italian Renaissance painting,leaf:T22,Italian Renaissance Painting
+Q25381351,Post-cubism,kind:T60/Post-cubism,Cubism; later phase
+Q16912393,Plasticien,kind:T88/Les Plasticiens,Hard-edge Painting; Montreal group
+Q3577826,Wissant school,kind:T47/Wissant school,Naturalism; art colony
+Q1879488,Russian symbolism,kind:T53/Russian symbolism,Symbolism; national branch
+Q3505455,Belgian surrealism,kind:T68/Belgian surrealism,Surrealism; national branch
+Q9730,classical music,"exclude:music, not visual art",
+Q1351977,Stuckism,leaf:T106,Stuckism
+Q3376676,Shanghai School,leaf:T6,Shanghai School
+Q1784728,Lowbrow,leaf:T104,Lowbrow
+Q18540617,Q18540617,kind:T112/Group of Four (Grupul celor patru),Modern Art; Romanian group
+Q46158,humanism,tag,intellectual movement: humanism
+Q829298,en plein air,tag,practice: en plein air
+Q478774,purism,kind:T60/Purism,Cubism; post-cubist current
+Q3818926,Northern Mannerism,kind:T25/Northern Mannerism,Mannerism; regional branch
+Q4414064,abstract impressionism,kind:T83/Abstract impressionism,Abstract Expressionism; branch
+Q5989924,Idyllic school,kind:T47/Idyllic school,Naturalism; English group
+Q692924,Madí,kind:T89/Madí,Concrete Art; Argentine group
+Q2102557,Kapists,kind:T51/Kapists,Post-Impressionism; Polish colourists
+Q215198,verguismo,exclude:literary movement (verismo),
+Q1061960,Purismo,kind:T34/Purismo,Nazarene Movement; Italian branch
+Q43012742,Verismo,kind:T42/Verismo,Realism; duplicate item of Italian verismo
+Q1518145,sōsaku-hanga,leaf:T129,Sōsaku-hanga
+Q6991698,Neo-Baroque,tag,revival label: Neo-Baroque
+Q596594,concrete poetry,tag,literary: concrete poetry
+Q856643,Trecento,tag,period: Trecento
+Q3398908,Romantic realism,kind:T42/Romantic realism,Realism; current
+Q1464842,tenebrism,tag,technique: tenebrism
+Q5839475,Modern sculpture,leaf:T148,Modern Sculpture
+Q1148060,expressionist architecture,kind:T186/Expressionist architecture,Modern Architecture; style (<5 members)
+Q15885248,Renaissance painting,tag,period: Renaissance painting (generic)
+Q18538836,Q18538836,kind:T53/Idealist Circle (Cenaclul Idealist),Symbolism; Romanian symbolist circle
+Q107424419,English painting,tag,place label: English painting
+Q1728571,capitalist realism,kind:T91/Capitalist realism,Pop Art; German branch
+Q591229,Nagybánya art colony,kind:T47/Nagybánya art colony,Naturalism; art colony
+Q7272667,Quito School,kind:T27/Quito School,Baroque Painting; colonial school (<5 members)
+Q152778,Die Brücke,kind:T58/Die Brücke,Expressionism; artist group
+Q210115,freethought,"exclude:philosophy, not an art movement",
+Q842333,Western philosophy,"exclude:philosophy, not an art movement",
+Q7102392,orientalism in early modern France,tag,subject: Orientalism in France
+Q1391488,Figuration Libre,kind:T100/Figuration Libre,Neo-Expressionism; French branch
+Q1092461,Cinema of Transgression,exclude:film movement,
+Q193541,French New Wave,exclude:film movement,
+Q131711,kitsch,tag,aesthetic category: kitsch
+Q971480,modernist literature,exclude:literary movement,
+Q2614483,Pre-romanticism,tag,period: pre-Romanticism
+Q3484823,simultanism,kind:T62/Simultanism,Orphism; Delaunay's term
+Q7759116,"Quilts of Gees Bend, Alabama",leaf:T158,Quilts of Gee's Bend
+Q2615798,Synchromism,kind:T62/Synchromism,Orphism; American branch
+Q1086353,Section d'Or,kind:T60/Section d'Or,Cubism; artist group
+Q5839340,Q5839340,kind:T112/Bidasoa School,Modern Art; regional group
+Q9033935,Brazilian modernism,kind:T112/Brazilian modernism,Modern Art; national modernism
+Q8361,Baroque music,"exclude:music, not visual art",
+Q575691,Generation of ‘27,exclude:literary generation,
+Q28474914,Las Sinsombrero,tag,cultural group: Las Sinsombrero
+Q1805902,Laren School,kind:T45/Laren School,Hague School; offshoot
+Q478717,Amsterdam Impressionism,kind:T49/Amsterdam Impressionism,Impressionism; regional branch
+Q1081101,Les Hydropathes,exclude:literary club,
+Q10336318,neo-primitivism,kind:T61/Neo-primitivism,Futurism; Russian current
+Q1421557,light art,kind:T193/Light art,Installation Art; branch
+Q1347824,La Movida Madrileña,tag,cultural: La Movida Madrileña
+Q56378393,Q56378393,tag,revival label: Neobarroco
+Q2826174,africanism,tag,influence: Africanism
+Q213523,Quattrocento,tag,period: Quattrocento
+Q850181,Situationist International,kind:T101/Situationist International,Lettrism; successor group
+Q214127,genre painting,tag,genre: genre painting
+Q1165363,Félibrige,exclude:literary movement,
+Q631931,decorative art,tag,umbrella: decorative art
+Q133249139,Q133249139,kind:T7/Three Masters of Lingnan,Lingnan School; founders
+Q540807,Photo-Secession,kind:T175/Photo-Secession,Pictorialism; artist group
+Q1263842,Duecento,tag,period: Duecento
+Q3577825,Q3577825,kind:T112/École de Tunis,Modern Art; regional group
+Q252645,Delft school,kind:T30/Delft School,Dutch Golden Age Painting; city school
+Q1407578,School of Ferrara,kind:T22/School of Ferrara,Italian Renaissance Painting; city school
+Q53997973,Arta Association,kind:T112/Arta Association,Modern Art; Romanian exhibition society
+Q56782388,Q56782388,kind:T112/Association of Romanian Plastic Artists,Modern Art; artists' association
+Q213156,performance art,leaf:T200,Performance Art
+Q2349908,French Renaissance,kind:T24/French Renaissance,Northern Renaissance; national branch
+Q4322399,New British Sculpture,kind:T149/New British Sculpture,Contemporary Sculpture; artist group
+Q3621606,Neoclassical architecture in Russia,kind:T184/Neoclassical architecture in Russia,Neoclassical Architecture; national branch
+Q3686197,Moscow Conceptualists,kind:T194/Moscow Conceptualists,Conceptual Art; regional group
+Q6199,anarchism,exclude:political ideology,
+Q191760,theatre of the absurd,exclude:theatre movement,
+Q238255,deconstructivism,leaf:T189,Deconstructivism
+Q9091515,Universal Constructivism,kind:T65/Universal Constructivism,Constructivism; Torres-García's school
+Q6025377,Movimiento indaliano,kind:T112/Movimiento Indaliano,Modern Art; regional group
+Q17108925,London Regionalism,kind:T113/London Regionalism,Contemporary Art; Ontario group
+Q120143150,School of Avignon,kind:T24/School of Avignon,Northern Renaissance; regional school
+Q2498493,Pleinairisme,tag,practice: plein-airisme
+Q1547741,Group of Seven,kind:T112/Group of Seven,Modern Art; artist group
+Q10401752,Aemilia Ars,kind:T168/Aemilia Ars,Art Nouveau; artist collective
+Q1431020,Franco-Belgian comics,tag,"umbrella: Franco-Belgian comics (Ligne Claire, Marcinelle are leaves)"
+Q10336205,neo-concrete movement,kind:T89/Neo-concrete movement,Concrete Art; Brazilian branch
+Q55831996,Baroque art in Genoa,kind:T27/Baroque art in Genoa,Baroque Painting; regional school
+Q7066,atheism,"exclude:belief, not an art movement",
+Q2368408,artistic indianism,kind:T112/Artistic indianism,Modern Art; current
+Q61362269,Mooi Indië,tag,subject: Mooi Indië
+Q5148364,Colonial Revival Movement,tag,revival label: Colonial Revival
+Q4523373,Sixtiers,tag,cultural generation: Sixtiers
+Q466887,Belle Époque,tag,period: Belle Époque
+Q384177,Egyptian Revival architecture,tag,architectural style on painters; K2 revivals built elsewhere
+Q64334168,Late Baroque,tag,period: Late Baroque
+Q11394770,Maruyama school,leaf:T12,Maruyama–Shijō School; merged (Maruyama school)
+Q11394807,En school,kind:T153/En school,"Kei School; Heian Buddhist sculptors' lineage, held under Kei until a broader leaf exists"
+Q4775114,Antipodeans,kind:T112/Antipodeans,Modern Art; artist group
+Q830891,Inuit art,tag,Indigenous tradition: route to the North American Indigenous slice
+Q4439247,Stalinist Empire style,tag,architectural style on painters (Stalinist Empire)
+Q1702131,Art Concret,kind:T89/Art Concret group,Concrete Art; founding group
+Q57174052,art brut,leaf:T82,Art Brut; duplicate item
+Q4562834,dragestil,tag,architectural/design style (dragestil)
+Q61084999,Q61084999,kind:T112/Intim Club,Modern Art; Romanian artistic circle
+Q61085002,Q61085002,kind:T112/Cercul artistic,Modern Art; Romanian artistic circle
+Q12729599,Q12729599,kind:T112/Prolog Group,Modern Art; Romanian group
+Q12729602,Q12729602,kind:T112/Sigma Group,Modern Art; Romanian group
+Q2602891,Isabelline,tag,architectural style (Isabelline) on a sculptor
+Q840829,baroque architecture,leaf:T183,Baroque Architecture
+Q19834166,Q19834166,kind:T93/Affichistes,Nouveau Réalisme; branch
+Q763709,white ground technique,kind:T156/White-ground technique,Red-Figure Pottery; vase technique
+Q7233587,post-surrealism,kind:T68/Post-surrealism,Surrealism; American branch
+Q6235,nationalism,exclude:political ideology,
+Q5421149,experimental architecture,tag,architectural current: experimental architecture
+Q10936092,Taisho Roman,tag,period: Taishō Roman
+Q10468834,White cube gallery,"exclude:exhibition format, not a movement",
+Q36118,organic architecture,kind:T186/Organic architecture,Modern Architecture; style
+Q913340,Florentine Renaissance art,kind:T22/Florentine Renaissance art,Italian Renaissance Painting; duplicate of Florentine school
+Q5977111,Romantic literature,exclude:literary movement,
+Q156460,degenerate art,tag,political label: degenerate art
+Q55780244,School of London,kind:T112/School of London,Modern Art; artist group
+Q123305,appropriation,tag,practice: appropriation
+Q597240,New Romantic,exclude:music subculture,
+Q26689463,Etruscan school,kind:T47/Etruscan School,Naturalism; Nino Costa's circle
+Q28872661,Settecentismo,tag,revival label: Settecentismo
+Q23560495,Q23560495,kind:T49/German Impressionism,Impressionism; national branch
+Q59818567,New Objectivity,leaf:T70,New Objectivity; duplicate item
+Q99429784,Der Moderne Bund,kind:T58/Der Moderne Bund,Expressionism; Swiss group
+Q294949,ecofeminism,exclude:ideology,
+Q1573225,Hamburgische Sezession,kind:T58/Hamburg Secession,Expressionism; artist group
+Q432026,Neo-geo,kind:T113/Neo-Geo,Contemporary Art; later current
+Q8962106,Q8962106,kind:T194/Photoconceptualism,Conceptual Art; branch
+Q7356060,Rococo Revival,tag,revival label: Rococo Revival
+Q832237,environmental protection,exclude:political cause,
+Q3578589,environmentalist,exclude:political cause,
+Q2470994,Cranbrook Colony,kind:T47/Cranbrook Colony,Naturalism; art colony
+Q216053,haute couture,exclude:fashion system (Possession taxonomy),
+Q2912428,ready-to-wear,exclude:fashion system (Possession taxonomy),
+Q57395159,Q57395159,tag,Aboriginal art centre: route to the Oceania slice
+Q236122,Renaissance architecture,leaf:T182,Renaissance Architecture
+Q1425138,Mir iskusstva,kind:T53/Mir iskusstva,Symbolism; artist group
+Q5876876,Generación del 13,kind:T112/Generación del 13,Modern Art; artist collective
+Q188976,counterculture,exclude:social movement,
+Q267932,Post-structuralism,exclude:philosophy,
+Q611217,degrowth,exclude:political cause,
+Q10349903,symbolist painting,leaf:T53,Symbolism; synonym
+Q4774446,Anti-rape movement,exclude:political cause,
+Q2502293,De Vijftigers,kind:T87/De Vijftigers,COBRA; literary arm
+Q622339,Apulian vase painting,kind:T156/Apulian vase painting,Red-Figure Pottery; South Italian ware
+Q660311,Art nouveau in Milan,kind:T168/Art Nouveau in Milan,Art Nouveau; regional branch
+Q1777842,severe style,kind:T137/Severe style,Classical Greek Sculpture; phase
+Q738680,pottery of ancient Greece,tag,umbrella: pottery of ancient Greece
+Q9326077,speculative fiction,exclude:literary genre,
+Q1747618,ancient Greek art,tag,umbrella: ancient Greek art
+Q1126340,pyrrhonism,exclude:philosophy,
+Q17299972,post-internet,kind:T202/Post-internet,New Media Art; branch
+Q104010227,New Negro Movement,leaf:T77,Harlem Renaissance; synonym (New Negro Movement)
+Q6865348,minimalism,leaf:T151,Minimalism; duplicate item
+Q469913,American scene painting,kind:T73/American scene painting,Regionalism; umbrella current
+Q59104,continental philosophy,exclude:philosophy,
+Q7481907,irrationalism,exclude:philosophy,
+Q3931116,existential realism,tag,label: existential realism
+Q3118237,Grupo Montparnasse,kind:T112/Grupo Montparnasse,Modern Art; Chilean group
+Q167312,dualism,exclude:philosophy,
+Q24191572,Canadian Impressionism,kind:T49/Canadian Impressionism,Impressionism; national branch
+Q1290382,indie,exclude:music/culture label,
+Q55597157,Q55597157,kind:T37/Groupe de Marlotte,Barbizon School; colony
+Q3577704,Shijō school,leaf:T12,Maruyama–Shijō School; merged (Shijō school)
+Q22127329,Fujiwara no Takanobu school,kind:T8/Fujiwara no Takanobu school,Yamato-e; nise-e portrait lineage
+Q1362030,expressionism,leaf:T58,Expressionism; duplicate item
+Q615498,documentary photography,leaf:T179,Documentary Photography
+Q1808721,sound poetry,tag,literary: sound poetry
+Q639605,Olot school,kind:T42/Olot School,Realism; landscape school
+Q3454438,Q3454438,kind:T76/Socialist realism in France,Socialist Realism; national branch
+Q3645460,Spanish Colonial Revival architecture,tag,architectural style on painters; K2 revivals built elsewhere
+Q7937337,Mediterranean Revival architecture,tag,architectural style on painters; K2 revivals built elsewhere
+Q725377,graphic novel,tag,format: graphic novel
+Q1027879,graphics,"exclude:technique, not a movement",
+Q1153335,Escuela de Vallecas,kind:T112/Vallecas School,Modern Art; Spanish group
+Q10924220,Late Gothic,tag,period: Late Gothic
+Q6888716,Modern Indian painting,tag,umbrella: modern Indian painting
+Q1808635,Jack of Diamonds,kind:T51/Jack of Diamonds,Post-Impressionism; Russian Cézannist group
+Q96312264,Khartoum School,kind:T112/Khartoum School,Modern Art; Sudanese modernist school
+Q678649,body art,kind:T200/Body art,Performance Art; branch
+Q1400843,Cubo-Futurism,kind:T61/Cubo-Futurism,Futurism; Russian branch
+Q860372,digital art,kind:T202/Digital art,New Media Art; branch
+Q4587039,Kristiania Bohemians,kind:T47/Kristiania Bohème,Naturalism; artist circle
+Q4878086,Beaver Hall Group,kind:T112/Beaver Hall Group,Modern Art; artist collective
+Q3749980,Francesco Filippini,"exclude:a person (Francesco Filippini), not a movement",
+Q3108623,Cusco school,kind:T27/Cusco School,Baroque Painting; colonial school
+Q56000,naturalism,leaf:T47,Naturalism; synonym
+Q3473056,Q3473056,kind:T112/Sanzisme,Modern Art; French current
+Q1479489,aeropittura,kind:T61/Aeropittura,Futurism; later phase
+Q115169056,French modernism,tag,umbrella: French modernism
+Q383898,military art,tag,genre: military art
+Q1977453,second-wave feminism,exclude:political movement,
+Q2045578,political lesbianism,exclude:political movement,
+Q2914207,radical feminism,exclude:political movement,
+Q1745141,Fantastic Realism,kind:T68/Fantastic Realism,Surrealism; Vienna school
+Q726483,Skagen Painters,kind:T47/Skagen Painters,Naturalism; art colony
+Q2717088,Letterist International,kind:T101/Letterist International,Lettrism; successor group
+Q1004004,Bulgarian National Revival,tag,period: Bulgarian National Revival
+Q12292926,Samokov art school,tag,Bulgarian icon school; no Balkan post-Byzantine leaf yet (A3)
+Q4123682,icon painting of Vologda,kind:T16/Vologda icon painting,Russian Icons; regional school
+Q9097429,Zaj,kind:T195/Zaj,Fluxus; Spanish Fluxus group
+Q11362029,Sesonji-ryū,kind:T131/Sesonji-ryū,Japanese Calligraphy; court calligraphy lineage
+Q3268288,L'art pompier,leaf:T40,Academic Art; synonym (L'art pompier)
+Q2297997,Movimento Spaziale,kind:T86/Movimento Spaziale,Informalism; Fontana's Spatialism
+Q3773652,International Gothic art in Italy,leaf:T20,International Gothic; synonym
+Q1133329,Young Poland,kind:T53/Young Poland,Symbolism; national branch
+Q4957289,Brandywine School,kind:T119/Brandywine School,Golden Age of Illustration; illustrators' school
+Q252801,Kanō school,leaf:T9,Kanō School
+Q3328533,Musicalism,kind:T62/Musicalism,Orphism; current
+Q4317200,Neo-conceptual art,kind:T194/Neo-conceptual art,Conceptual Art; later phase
+Q265685,Poporanism,exclude:political/literary movement,
+Q5625829,Gândirea,exclude:literary magazine/movement,
+Q3299172,Matterism,kind:T86/Matterism,Informalism; branch
+Q3578338,Q3578338,tag,unlabelled item (Pietro Cavallini); cannot attest
+Q1503425,Metabolism,kind:T186/Metabolism,Modern Architecture; Japanese movement (<5 members)
+Q2004358,return to order,tag,period: return to order
+Q2801695,community art,tag,practice: community art
+Q11448989,Takuma school,tag,Japanese Buddhist painting lineage; member placed by rule
+Q3117694,Groupe de Roubaix,kind:T112/Groupe de Roubaix,Modern Art; artist collective
+Q3578034,École liégeoise de peinture,kind:T27/Liège school of painting,Baroque Painting; regional school
+Q700347,Berlin Secession,kind:T49/Berlin Secession,Impressionism; artist group
+Q15703416,Prague Secession,kind:T112/Prague Secession,Modern Art; artist group
+Q2394336,interactive art,kind:T202/Interactive art,New Media Art; branch
+Q557141,public art,tag,context: public art
+Q5095938,Chicano art movement,tag,umbrella: Chicano art movement
+Q2561815,bioart,kind:T202/Bioart,New Media Art; branch
+Q3577802,Mantuan School,kind:T22/Mantuan school,Italian Renaissance Painting; city school
+Q2435641,Q2435641,kind:T42/Kalmthout School,Realism; landscape colony
+Q520750,fijnschilder,kind:T30/Fijnschilders,Dutch Golden Age Painting; Leiden fine painters
+Q577852,Plateresque,tag,architectural style (Plateresque) on a sculptor
+Q5003624,memorial,"exclude:object type, not a movement",
+Q2855609,environmentalism,exclude:political cause,
+Q2121742,underground comix,tag,format: underground comix
+Q657377,Scottish Colourists,kind:T51/Scottish Colourists,Post-Impressionism; artist group
+Q1520763,art of Ottonian illumination,kind:T17/Ottonian illumination,Romanesque Painting; pre-Romanesque phase
+Q16670699,PopArt - The Videos,"exclude:a video release, not a movement",
+Q2297646,Utagawa school,kind:T127/Utagawa school,Ukiyo-e; ukiyo-e school
+Q420245,Acmeist poetry,exclude:literary movement,
+Q6352595,Kalighat painting,leaf:south_asia:L8,"Kalighat Painting, leaf made by the South Asia slice (A4)"
+Q5128310,Classical Prose Movement,exclude:literary movement,
+Q1047337,genre art,tag,genre: genre art
+Q2247333,Sestigers,exclude:literary movement,
+Q167776,Italian neorealism,exclude:film movement,
+Q38066,existentialism,exclude:philosophy,
+Q4292891,Q4292891,kind:T112/Misérabilisme,Modern Art; French current
+Q61085245,Q61085245,exclude:numismatic society,
+Q570341,Nouveau Roman,exclude:literary movement,
+Q11374434,Kyōgoku school,exclude:poetry school (waka),
+Q1962478,Post-painterly Abstraction,kind:T84/Post-painterly Abstraction,Color Field; branch
+Q3318563,postmodern art,tag,umbrella: postmodern art
+Q5674251,Q5674251,kind:T113/Anachronists (Anacronistes),Contemporary Art; Italian current
+Q6046768,Q6046768,kind:T113/Nueva figuración madrileña,Contemporary Art; Spanish group
+Q22004069,Q22004069,tag,genre: academic nude
+Q846094,Decadent movement,tag,literary/cultural: Decadent movement
+Q136505034,shinpū waka,exclude:poetry style (waka),
+Q56524314,British School,tag,place label: British School
+Q2783150,Scottish Renaissance,tag,literary/cultural: Scottish Renaissance
+Q17884,LGBTQ,exclude:identity label,
+Q2822683,fat acceptance movement,exclude:social movement,
+Q32411443,intersectional feminism,exclude:social movement,
+Q2499142,Literature of the Five Mountains,exclude:literary movement,
+Q24943716,El Convivio,tag,cultural group: El Convivio
+Q3667535,Chiarismo,kind:T112/Chiarismo,Modern Art; Lombard current
+Q633683,red-figure pottery,leaf:T156,Red-Figure Pottery
+Q128168,Counter-Reformation,tag,period: Counter-Reformation
+Q3953307,Leningrad School of Painting,kind:T76/Leningrad School,Socialist Realism; regional school
+Q16680386,Ton Fan Group,kind:T112/Ton Fan Group,Modern Art; Taiwanese group
+Q2632089,Dutch and Flemish Renaissance painting,kind:T24/Dutch and Flemish Renaissance painting,Northern Renaissance; regional branch
+Q136046,Zero,kind:T150/ZERO,Kinetic Art; artist group
+Q3099098,Four Wangs,kind:T3/Four Wangs,Literati Painting; Orthodox school
+Q3756540,Western painting,tag,umbrella: Western painting
+Q207591,Romantic music,exclude:music,
+Q7264,Marxism,exclude:political ideology,
+Q7272,socialism,exclude:political ideology,
+Q191442,anti-globalization movement,exclude:political movement,
+Q210189,anti-fascism,exclude:political movement,
+Q389647,anti-capitalism,exclude:political movement,
+Q574827,anti-Americanism,exclude:political attitude,
+Q582965,anti-racism,exclude:political movement,
+Q584548,anti-Zionism,exclude:political movement,
+Q920486,indigenous rights,exclude:political cause,
+Q1144178,anti-imperialism,exclude:political movement,
+Q1977450,Neoavanguardia,exclude:literary movement,
+Q7185455,Mahjar,exclude:literary movement,
+Q20430393,Q20430393,kind:T112/Boksánybánya art camp,Modern Art; art colony
+Q8032972,Woodland Style,tag,Indigenous tradition: route to the North American Indigenous slice
+Q48976567,Finish Fetish,kind:T151/Finish Fetish,Minimalism; Los Angeles branch
+Q21550800,Neo-Constructivism,kind:T65/Neo-Constructivism,Constructivism; later current
+Q1517921,Louis XIV style,leaf:T161,Louis XIV Style
+Q11397812,Zen'ei shashin,kind:T177/Zen'ei shashin,New Vision; Japanese avant-garde photography
+Q11503992,Shinkō shashin,kind:T177/Shinkō shashin,New Vision; Japanese New Photography
+Q1672822,Celtic Revival,tag,revival label: Celtic Revival
+Q2479493,eclectic architecture,tag,architectural style on painters (eclectic architecture)
+Q928960,Streamline Moderne,kind:T169/Streamline Moderne,Art Deco; late branch
+Q5776741,Banco de la República Art Collection,"exclude:an art collection, not a movement",
+Q830331,Etruscan art,tag,culture label: Etruscan art (ancient-world slice)
+Q27301872,Romanticism in France,kind:T33/Romanticism in France,Romanticism; national branch
+Q3117801,Le Groupe des XV,kind:T175/Le Groupe des XV,Pictorialism; French pictorialist group
+Q2300756,Dutch Baroque architecture,kind:T183/Dutch Baroque architecture,Baroque Architecture; national branch
+Q2864613,Q2864613,tag,"unlabelled item (Eulalios, Byzantine); cannot attest"
+Q10998,potato,exclude:not an art movement (potato),
+Q2566149,relational art,kind:T193/Relational art,Installation Art; branch
+Q2651403,visionary art,tag,umbrella: visionary art
+Q2350129,Atmospheric impressionism,kind:T49/Atmospheric impressionism,Impressionism; branch
+Q1268134,Beaux-Arts,tag,architectural style (Beaux-Arts) on a sculptor
+Q1153484,folk art,tag,umbrella: folk art
+Q7995249,White Rabbits,kind:T112/White Rabbits,Modern Art; artist group
+Q18127879,Marxism–Leninism–Maoism,exclude:political ideology,
+Q12539,Age of Enlightenment,tag,period: Age of Enlightenment
+Q207741,Sturm und Drang,exclude:literary movement,
+Q694408,Weimar Classicism,exclude:literary movement,
+Q5602008,Indigenismo,kind:T112/Indigenismo,Modern Art; Latin American current
+Q1413061,tropicália,tag,cultural: Tropicália
+Q643782,New German Cinema,exclude:film movement,
+Q6026719,D Grubu,kind:T112/D Group (D Grubu),Modern Art; Turkish group
+Q4969006,Bristol School,kind:T33/Bristol School,Romanticism; regional group
+Q176483,Gothic architecture,leaf:T181,Gothic Architecture
+Q574580,anti-nuclear movement,exclude:political movement,
+Q44506816,Q44506816,kind:T34/Purismo (Purismus),Nazarene Movement; duplicate of Italian Purismo
+Q1474763,Poetic realism,kind:T112/Poetic realism,Modern Art; French current
+Q878864,New Leipzig School,kind:T113/New Leipzig School,Contemporary Art; German group
+Q2111003,Salon de la Rose + Croix,kind:T53/Salon de la Rose + Croix,Symbolism; exhibition society
+Q5095936,National Chicano Moratorium Committee Against the Vietnam War,exclude:political committee,
+Q1210725,secession,tag,umbrella: secession
+Q947129,Gothic painting,leaf:T18,Gothic Painting
+Q2096963,School of Tervuren,kind:T42/School of Tervuren,Realism; landscape colony
+Q9384967,Fifth Moon Group,kind:T112/Fifth Moon Group,Modern Art; Taiwanese group
+Q7063969,Nouvelle tendance,kind:T90/Nouvelle tendance,Op Art; international network
+Q327909,Fotoform,kind:T177/Fotoform,New Vision; German group
+Q2878528,Bad Painting,kind:T100/Bad Painting,Neo-Expressionism; American current
+Q7552587,Society of Painters in Tempera,kind:T40/Society of Painters in Tempera,Academic Art; exhibition society
+Q4824756,Australian Tonalism,kind:T55/Australian Tonalism,Tonalism; national branch
+Q1338114,Spin art,tag,technique: spin art
+Q1743188,paintings in churches,"exclude:object type, not a movement",
+Q2740095,Um 1800,tag,period: Um 1800
+Q162324,International Style,kind:T186/International Style,Modern Architecture; branch
+Q2449235,transition style,tag,design period: transition style
+Q4895430,Catalan Gothic,kind:T18/Catalan Gothic,Gothic Painting; regional branch
+Q162150,abstraction,tag,umbrella: abstraction
+Q11135438,Jiangxi Poetry School,exclude:poetry school,
+Q149836,Camden Town,"exclude:a place (Camden Town), probably meant for the Camden Town Group",
+Q333625,absurdism,exclude:philosophy,
+Q1432603,alogism,kind:T60/Alogism,Cubism; Malevich's current
+Q5580124,Generation of '50 (Perú),kind:T112/Generation of '50 (Peru),Modern Art; national generation
+Q817169,Bengali Renaissance,tag,period: Bengal Renaissance
+Q891532,Bolognese school,kind:T27/Bolognese school,Baroque Painting; city school
+Q131701861,School of Chios,kind:T136/School of Chios,Archaic Greek Sculpture; workshop
+Q1142000,Southern School,leaf:T3,Literati Painting; synonym (Southern School)
+Q3577806,École de Murol,kind:T47/École de Murol,Naturalism; colony
+Q61085156,Q61085156,kind:T118/Society of Romanian Humorists,Illustration; cartoonists' society
+Q11131431,Momoyama Culture,tag,period: Momoyama culture
+Q5653011,North Group,kind:T112/North Group,Modern Art; Peruvian group
+Q3483628,Signalism,kind:T194/Signalism,Conceptual Art; Yugoslav current
+Q506858,photojournalism,kind:T179/Photojournalism,Documentary Photography; practice
+Q605789,war photography,kind:T179/War photography,Documentary Photography; practice
+Q184719,anthroposophy,exclude:esoteric doctrine,
+Q98912326,Zaria Rebels,kind:T112/Zaria Rebels,Modern Art; Nigerian art society
+Q7067781,Nuagisme,kind:T85/Nuagisme,Lyrical Abstraction; French current
+Q502163,Renaissance Revival architecture,tag,architectural style on a designer; K2 revivals built elsewhere
+Q15673106,symbolism,leaf:T53,Symbolism; duplicate item
+Q1358160,Leipzig School,kind:T76/Leipzig School,Socialist Realism; GDR realism
+Q24312,Munich Secession,kind:T49/Munich Secession,Impressionism; artist group
+Q25313019,Figurative Constructivism,kind:T65/Figurative Constructivism,Constructivism; current
+Q1054333,Centro de Arte y Comunicación,kind:T194/Centro de Arte y Comunicación,Conceptual Art; Argentine centre
+Q21044296,Potosi School,kind:T27/Potosí School,Baroque Painting; colonial school
+Q667661,literary realism,exclude:literary movement,
+Q2026876,Russian Revival architecture,tag,architectural style on painters; K2 revivals built elsewhere
+Q15941800,Ghent-Bruges school,leaf:T135,Ghent-Bruges School
+Q2009002,Brabant fauvism,kind:T59/Brabant fauvism,Fauvism; regional branch
+Q4345828,Parsuna,kind:T27/Parsuna,Baroque Painting; Russian portrait style
+Q3347056,Flemish Renaissance Revival architecture,tag,architectural style on painters; K2 revivals built elsewhere
+Q125191,photograph,exclude:object type (photograph),
+Q5640653,Neocubism,kind:T60/Neocubism,Cubism; current
+Q16303875,Q16303875,leaf:T82,Art Brut; synonym (outsider art)
+Q2344569,Bamboccianti,kind:T27/Bamboccianti,Baroque Painting; genre painters' group
+Q8778148,Bruguera school,kind:T118/Bruguera school,Illustration; Spanish comics school
+Q4752989,Ancients,kind:T33/The Ancients,Romanticism; Samuel Palmer's circle

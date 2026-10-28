@@ -1417,3 +1417,25 @@ ATTEST_WIKI.update({"G3-4": "Court show", "G3-5": "Instructional television|Cook
 PRECEDENCE += [
     ("TV14", "Streaming originals in a serial tradition; sports", "A streaming original of a closed season (8–20 episodes) from a serial-tradition country (a Netflix or BluTV Turkish series, a streaming telenovela) goes by genre in C; the broadcast weekly or daily serial is D. A remake that leaves its original's tradition goes by its own form (a 60-episode Turkish broadcast remake of <i>Doctor Foster</i> is D3-1). An anthology of crime or suspense stories is C1-16 Anthology with the genre as see-also. Live sports coverage is not a series of this tab: exclude it."),
 ]
+
+# Scale-up, round 5: seams from TV batches 23–31 and drama batches 01–04.
+_redef("C2-6", label="Idol & Modern Romance Drama", defn="Taiwanese and Chinese drama of modern romance: the idol drama of pop-idol casts from <i>Meteor Garden</i> (2001), and the modern Chinese campus, urban, workplace and fantasy romances that followed (<i>It Started with a Kiss</i>, <i>Go Go Squid!</i>, <i>Hidden Love</i>).")
+_redef("C2-5", defn="Chinese drama of martial heroes (wuxia), of immortal cultivation and celestial romance (xianxia), and of gods and demons (shenmo) (<i>The Legend of the Condor Heroes</i>, <i>The Untamed</i>, <i>Eternal Love</i>, <i>Journey to the West</i>).", aliases="wuxia drama; xianxia drama; shenmo drama")
+_redef("C2-11", label="Boys' Love & Girls' Love Drama", defn="BL and GL series — romance between young men or between young women — from Thailand, Taiwan, Japan, Korea and China (<i>SOTUS</i>, <i>2gether</i>, <i>Bad Buddy</i>, <i>Cherry Magic!</i>, <i>GAP</i>).")
+_redef("C6-2", defn="non-comedy animation for adults (<i>Invincible</i>, <i>Primal</i>, <i>Love, Death & Robots</i>, <i>Blue Eye Samurai</i>).")
+_redef("C3-3", defn="series of fictional criminals and their world (<i>The Sopranos</i>, <i>The Wire</i>, <i>Breaking Bad</i>, <i>Peaky Blinders</i>) (TV4).")
+_redef("C1-9", defn="dramatisations of real events and lives that are not crimes (<i>Chernobyl</i>, <i>The Crown</i> excepted as period, <i>The Dropout</i>, <i>WeCrashed</i>).")
+_add("C2", [
+    ("C2-12", "Main-Melody Drama", "medium", "the Chinese state-endorsed drama of revolutionary history, Party leaders and national achievement (<i>The Age of Awakening</i>, <i>Minning Town</i>, <i>Medal of the Republic</i>, <i>Mao Zedong</i>).", "zhuxuanlü; red drama", "C1-9 Docudrama Series; C1-7 War Drama Series.", "Main-melody film"),
+    ("C2-13", "Republican-Era Drama", "narrow", "Chinese drama set in the Republic of China (1912–1949): romance, spy and family sagas of Shanghai and the warlord years (<i>Winter Begonia</i>, <i>Siege in Fog</i>, <i>Romance in the Rain</i>, <i>The Disguiser</i>).", "minguo drama", "C2-4 Chinese Costume Drama; C3-5 Spy & Espionage Series.", ""),
+])
+_add("C1", [
+    ("C1-17", "Vertical Short Drama", "narrow", "serials of one- to two-minute vertical episodes made for short-drama apps, mostly melodramatic romance and revenge (ReelShort, DramaBox).", "micro-drama; vertical drama; short drama", "C1-13 Romantic Drama Series.", "Vertical drama|Microdrama"),
+])
+ATTEST_WIKI.update({"C2-12": "Main-melody film", "C2-13": "", "C1-17": "Vertical drama|Microdrama", "C2-11": "Boys' love|Yuri (genre)"})
+ATTEST_URLS["C2-13"] = "https://en.wikipedia.org/wiki/Chinese_television_drama"
+WEAK["C2-13"] = "no article under this label; attested through the Chinese television drama article"
+PRECEDENCE += [
+    ("TV15", "C-drama traditions", "A Chinese drama of the Party, the revolution or national achievement is Main-Melody Drama (C2-12) whatever its genre; one set in 1912–1949 is Republican-Era Drama (C2-13); a modern Chinese romance of any kind is C2-6. A censored danmei adaptation goes by its setting (<i>The Untamed</i> → C2-5) with C2-11 as see-also; a modern-day one is C2-11. A costume drama goes to C2-5 when martial heroes or a fantasy world carry the story, otherwise C2-4."),
+    ("TV16", "Remakes, spin-offs, rich-family serials", "A foreign remake keeps its original's leaf only when it keeps its form; it goes by its own setting when moved (a US remake of a Nordic series is C3-1, not C3-4). A spin-off that moves to another workplace goes by its own profession. A streaming or 2020s series of rich-family secrets with a closed season is C (C1-1 or C3-8) with D2-4 as see-also; the D2-4 rule of TV13 holds only for network serials of 2000–2019 and long-running streaming serials (TV12)."),
+]
