@@ -271,6 +271,30 @@ Wikidata is therefore a good **candidate pool and ID crosswalk**, but weak as a 
   - `art_occ_share` (art occupations ÷ all occupations) is needed: celebrities who also paint or design (Bowie, George W. Bush) are in the pool on occupation.
   - Wikidata currently gives Yayoi Kusama a 2026 death date. Check it before relying on `living`.
   - **Modern architects (5,167 in the pool) stay in as gathered.** Whether they are treated as artists or placed under architectural styles is decided in the classifying/clustering stage (decided 2026-10-28).
+### 3.1c Selection (measured 2026-10-28, `pipelines/contemporary_art/score.py`)
+- **11,000 artists:** 3,232 auto-included from the 21 lists, plus 7,768 picked by score within each region.
+- **Score:** within-region mid-rank percentiles of museum IDs and ULAN (0.30), market IDs (Artnet, Artsy, Artprice, MutualArt; 0.20), lists (0.20), pageviews (0.10), sitelinks (0.10) and awards (0.10), times a celebrity factor min(1, art_occ_share/0.5). Bowie, Bush and Dylan drop out; Yoko Ono stays via her Golden Lion.
+- **Cutoff:** one selection fraction for every region (0.199), counting each region's auto-includes against its share, with every non-Western region guaranteed at least its top 25%.
+- **Selected by region:**
+
+  | Region | Selected |
+  |---|---|
+  | Europe | 5,401 |
+  | North America | 2,007 |
+  | Latin America | 721 |
+  | East Asia | 574 |
+  | MENA | 541 |
+  | Sub-Saharan Africa | 307 |
+  | South Asia | 220 |
+  | Oceania | 212 |
+  | Southeast Asia | 111 |
+  | Central Asia | 16 |
+
+  Plus about 810 list-only names, most of them with no region yet.
+- **Fixes:**
+  - 104 list artists resolved to Wikidata people with no art occupation (a poet, a researcher, Franz Boas) are kept as list-only names, not under the wrong QID.
+  - Consumer categories that the metrics under-count (§3.4) get hand-curated includes in `seeds/visual-art/contemporary_manual_includes.csv`, starting with Beeple; add others as review finds them.
+
 ### 3.2 Signals and sources
 
 | Signal | Source | Access | What it captures |

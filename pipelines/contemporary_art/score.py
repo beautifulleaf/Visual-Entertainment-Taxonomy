@@ -81,6 +81,7 @@ POOL = os.path.join(INTERIM, "contemporary_pool.csv")
 VIEWS = os.path.join(INTERIM, "contemporary_pageviews.csv")
 LIST_ARTISTS = os.path.join(INTERIM, "contemporary_list_artists.csv")
 ADDITIONS = os.path.join(INTERIM, "contemporary_pool_additions.csv")
+MANUAL = os.path.join(ROOT, "seeds", "visual-art", "contemporary_manual_includes.csv")
 OUT = os.path.join(INTERIM, "contemporary_scores.csv")
 
 WEIGHTS = {"lists": 0.20, "museum": 0.25, "ulan": 0.05, "market": 0.20,
@@ -115,7 +116,8 @@ def has(df, col):
 def signals(df):
     """Raw signal columns from pool-shaped rows (pool or additions)."""
     out = pd.DataFrame(index=df.index)
-    out["lists"] = num(df.get("n_list_entries", df.get("n_lists", 0)), df.index)
+    entries = num(df.get("n_list_entries", 0), df.index)
+    out["lists"] = entries.where(entries > 0, num(df.get("n_lists", 0), df.index))  # additions lack entries
     out["museum"] = num(df.get("n_museum_ids", 0), df.index)
     out["ulan"] = has(df, "ulan_id").astype(float)
     out["market"] = sum(has(df, c).astype(float) for c in MARKET_IDS)
@@ -155,6 +157,9 @@ def load_inputs(args):
     list_only = pd.DataFrame()
     if os.path.exists(LIST_ARTISTS):
         la = pd.read_csv(LIST_ARTISTS, dtype=str, keep_default_na=False)
+        names = {q: (r["label"] or r["name"]) for q, r in zip(la.qid, la.to_dict("records")) if q}
+        blank = pool.label == ""
+        pool.loc[blank, "label"] = pool.loc[blank, "qid"].map(names).fillna("")  # pool labels can be blank
         for _, r in la.iterrows():
             reason = f"lists:{r['lists']}"
             qids = [r["qid"]] if r["qid"] else list(filter(None, r.get("member_qids", "").split("|")))
@@ -174,6 +179,24 @@ def load_inputs(args):
     if os.path.exists(ADDITIONS):
         add = pd.read_csv(ADDITIONS, dtype=str, keep_default_na=False)
         add = add[~add.qid.isin(pool_q)].drop_duplicates("qid")
+        # A list artist resolved to someone with no art occupation (a poet, a researcher,
+        # Franz Boas...) is almost certainly the wrong person: keep the list entry as a
+        # list-only name instead of the wrong QID.
+        wrong = add[pd.to_numeric(add.art_occ_share, errors="coerce").fillna(-1) == 0]
+        if len(wrong):
+            by_q = la.set_index("qid") if os.path.exists(LIST_ARTISTS) else None
+            demoted = pd.DataFrame({
+                "key": "list:" + wrong.qid.map(lambda q: by_q.norm_name.get(q, q) if by_q is not None else q),
+                "qid": "", "label": wrong.qid.map(lambda q: by_q.name.get(q, "") if by_q is not None else ""),
+                "region": wrong.region.replace("", UNKNOWN), "medium": "",
+                "auto_include": wrong.qid.map(auto_reason).fillna("lists:resolved"),
+                "source": "list_only_wrong_match", "selected": 1,
+            })
+            list_only = pd.concat([list_only, demoted], ignore_index=True)
+            for q in wrong.qid:
+                auto_reason.pop(q, None)
+            add = add[~add.qid.isin(wrong.qid)]
+            notes.append(f"{len(wrong):,} resolved list artists with no art occupation kept as list-only names (likely wrong-person matches)")
         add["source"] = "addition"
         for q, l in zip(add.qid, add.get("lists", pd.Series("", add.index))):
             auto_reason.setdefault(q, f"lists:{l}" if l else "lists:resolved")
@@ -181,6 +204,11 @@ def load_inputs(args):
         notes.append(f"pool additions: {len(add):,} resolved list artists outside the pool")
     else:
         notes.append(f"{os.path.basename(ADDITIONS)} not found: no resolved list artists outside the pool")
+    if os.path.exists(MANUAL):
+        # Hand-curated includes for consumer categories the metrics under-count (§3.4).
+        for r in pd.read_csv(MANUAL, dtype=str, keep_default_na=False).itertuples():
+            auto_reason[r.qid] = f"manual:{r.category}"
+        notes.append(f"manual includes: {os.path.basename(MANUAL)}")
     df = pd.concat(rows, ignore_index=True)
     df["region"] = df.region.replace("", UNKNOWN).fillna(UNKNOWN)
     df["auto_include"] = df.qid.map(auto_reason).fillna("")
