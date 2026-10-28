@@ -858,3 +858,9 @@ def _load_scaleup():
 _load_scaleup()
 _fam("L")["subs"].append(("L6", "Floor & Sand Painting", "Axis: tradition. Ephemeral designs drawn on the floor or ground in powder, sand or rice paste (rangoli, kolam, Navajo dry painting)."))
 _fam("L")["key"].append("6. An ephemeral design drawn on a floor or the ground in powder, sand or paste? → <b>L6</b>.")
+
+# Audit fixes (blind test, scale-up).
+PRECEDENCE += [
+    ("P14", "Culture rows", "A gathered culture row (Ewe, Mende, Asante) is a kind of the tradition that holds most of its objects when one medium tradition of that people has a leaf; otherwise it is a place tag (P12). A named carving school, provincial painting school or centre (Te Arawa, Murshidabad, Swat) is a kind of its leaf."),
+    ("P15", "Period leaves for artists", "With no attested movement, an artist goes to the period-style leaf of their medium by birth year: academic and salon art for those trained in the academies before the modern movements (born before c. 1850), Modern Art (born c. 1850–1944), Contemporary Art (born 1945 or later). The artist's own medium decides, not the medium recorded in the source when it is plainly wrong (a photographer recorded as a painter is a photographer)."),
+]

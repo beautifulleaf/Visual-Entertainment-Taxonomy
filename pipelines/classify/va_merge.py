@@ -155,7 +155,10 @@ def main():
                             "disposition": f"kind:{code}" + (f"/{k['group']}" if k.get("group") else ""), "note": k.get("basis", "")})
                 stats[sl, "kind (evidence)"] += 1
     # artists: one kind row per placed artist, under its leaf (T… tmp ids, slice:L… ids or existing codes)
+    aov = {r["qid"]: r for r in rd(os.path.join(ROOT, "seeds", "classify", "artist_overrides.csv"))}
     for a in rd(os.path.join(VA, "artist_placements.csv")):
+        if a["qid"] in aov:
+            a = dict(a, leaf=aov[a["qid"]]["leaf"], kind=aov[a["qid"]]["kind"], note=aov[a["qid"]]["note"], confidence="high")
         leaf = a["leaf"].strip()
         if leaf.startswith("exclude"):
             d = leaf

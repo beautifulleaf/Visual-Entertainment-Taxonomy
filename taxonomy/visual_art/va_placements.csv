@@ -19349,7 +19349,7 @@ artists,Q1176289,artists,David Reed,artist,North America (settler),1946,,kind:A5
 artists,Q117631155,artists,Tammy Nguyen,artist,North America (settler),1984,,kind:M2-2/Artists,
 artists,Q11763310,artists,Lucjan Mianowski,artist,Western Europe,1933,,kind:A5-110/Artists,
 artists,Q1176541,artists,David Schneuer,artist,"Islamic world (MENA, Iran, Anatolia)",1905,,kind:A5-110/Artists,
-artists,Q1176753,artists,David Stone Martin,artist,North America (settler),1913,,kind:A5-110/Artists,
+artists,Q1176753,artists,David Stone Martin,artist,North America (settler),1913,,kind:B1-4/Artists,jazz-record cover illustrator (blind test)
 artists,Q11767960,artists,Marcus Adams,artist,Western Europe,1875,,kind:J1-2/Artists,
 artists,Q117680,artists,John Brack,artist,Oceania (Pacific),1920,,kind:A5-110/Antipodeans,movement Antipodeans
 artists,Q11768426,artists,Marek Rudnicki,artist,Western Europe,1927,,kind:B1-4/Artists,
@@ -20240,7 +20240,7 @@ artists,Q125821017,artists,Müge Yılmaz,artist,"Islamic world (MENA, Iran, Anat
 artists,Q1258585,artists,Alvise Vivarini,artist,Western Europe,1440,,kind:A5-21/Artists,Venetian School; painters of the Venetian state from Giovanni Bellini's generation to Veronese's; country group: Republic of Venice
 artists,Q125902,artists,Achilles Painter,artist,Greco-Roman & Byzantine Mediterranean,-500,,kind:E1-28/Artists,art of Classical Greece
 artists,Q1259182,artists,January Suchodolski,artist,Western Europe,1797,,kind:A5-31/Artists,
-artists,Q1259209,artists,Jacques Doucet,artist,Western Europe,1853,,kind:I3-10/Artists,
+artists,Q1259209,artists,Jacques Doucet,artist,Western Europe,1853,,exclude:couturier and collector (fashion; Possession taxonomy),blind test
 artists,Q125927105,artists,Guglielmo Castelli,artist,Western Europe,1987,,kind:A5-111/Artists,
 artists,Q125937315,artists,Aziz Hazara,artist,South Asia,1992,,kind:A5-111/Artists,
 artists,Q1259684,artists,Ivan Picelj,artist,Western Europe,1924,,kind:A5-110/Artists,
@@ -21294,7 +21294,7 @@ artists,Q1374436,artists,Henry Ossawa Tanner,artist,Western Europe,1859,,kind:A5
 artists,Q1374536,artists,Raphaelle Peale,artist,Western Europe,1774,,kind:A5-30/Artists,
 artists,Q1374591,artists,François Jouffroy,artist,Western Europe,1806,,kind:D5-113/Artists,
 artists,Q1374668,artists,Manuel Tolsá,artist,Western Europe,1757,,kind:A5-30/Artists,
-artists,Q1374703,artists,Pierre Jean François Turpin,artist,Western Europe,1775,,kind:A5-30/Artists,
+artists,Q1374703,artists,Pierre Jean François Turpin,artist,Western Europe,1775,,kind:B1-4/Artists,botanical illustrator (blind test)
 artists,Q1374732,artists,Lodewijk de Vadder,artist,Western Europe,1605,,kind:A5-27/Artists,Flemish Baroque Painting; Habsburg (Southern) Netherlands; country group: Low Countries (undivided)
 artists,Q1374796,artists,Steven Meisel,artist,North America (settler),1954,,kind:J1-7/Artists,
 artists,Q1374807,artists,John Leech,artist,Western Europe,1817,,kind:B1-4/Artists,
@@ -25180,7 +25180,7 @@ artists,Q1860598,artists,Tobias Verhaecht,artist,Western Europe,1561,,kind:A5-23
 artists,Q18608391,artists,Koji Enokura,artist,China,1942,,kind:M1-1/Mono-ha,"movement Mono-ha; medium-defining movement (installation, conceptual, minimal, kinetic, media art) overrides the recorded medium"
 artists,Q18608672,artists,,artist,Western Europe,1925,,kind:A5-110/Artists,
 artists,Q18610215,artists,Edward Melcarth,artist,North America (settler),1914,,kind:A5-81/Artists,Baroque; movement abstract expressionism; other movements: Baroque
-artists,Q18610848,artists,Hicham Berrada,artist,"Islamic world (MENA, Iran, Anatolia)",1986,,kind:J1-7/Artists,
+artists,Q18610848,artists,Hicham Berrada,artist,"Islamic world (MENA, Iran, Anatolia)",1986,,kind:M2-1/Artists,video and installation artist (medium recorded as photography; blind test)
 artists,Q18612947,artists,Taslima Akhter,artist,South Asia,1974,,kind:J1-7/Artists,
 artists,Q1861382,artists,Sylvester Shchedrin,artist,Western Europe,1791,,kind:A5-31/Artists,
 artists,Q1861446,artists,Louis Royer,artist,Western Europe,1793,,kind:A5-31/Artists,Classicism
@@ -35571,7 +35571,7 @@ artists,Q3751089,artists,Luis Gordillo,artist,Western Europe,1934,,kind:A5-110/A
 artists,Q3751112,artists,Franco Angeli,artist,Western Europe,1935,,kind:A5-110/Artists,
 artists,Q3751310,artists,Kristian Gullichsen,artist,Western Europe,1932,,kind:K6-22/Artists,
 artists,Q3751647,artists,Franco Vaccari,artist,Western Europe,1936,,kind:J1-6/Artists,
-artists,Q3751683,artists,Raghunath Mohapatra,artist,South Asia,1943,,kind:A5-110/Artists,
+artists,Q3751683,artists,Raghunath Mohapatra,artist,South Asia,1943,,kind:D5-117/Artists,stone sculptor of Odisha (medium recorded as painting; blind test)
 artists,Q3751879,artists,Frank Miles,artist,Western Europe,1852,,kind:A5-38/Artists,
 artists,Q3752050,artists,Franko B,artist,Western Europe,1960,,kind:M1-1/Artists,contemporary art
 artists,Q3752061,artists,Frans Geffels,artist,Western Europe,1625,,kind:A5-25/Artists,movement Baroque
@@ -38079,7 +38079,7 @@ artists,Q4721464,artists,,artist,Oceania (Pacific),1948,,kind:A5-111/Artists,
 artists,Q4721520,artists,Alexis Rockman,artist,North America (settler),1962,,kind:A5-89/Artists,movement pop art
 artists,Q4722034,artists,Alfonso Fraile,artist,Western Europe,1930,,kind:A5-110/Artists,
 artists,Q4722175,artists,Alfred-Louis Brunet-Debaines,artist,Western Europe,1845,,kind:A5-38/Artists,
-artists,Q4722191,artists,Alfred A. Hart,artist,North America (settler),1816,,kind:A5-38/Artists,
+artists,Q4722191,artists,Alfred A. Hart,artist,North America (settler),1816,,kind:J1-1/Artists,railroad photographer of the Central Pacific (medium recorded as painting; blind test)
 artists,Q4722325,artists,Alfred Bestall,artist,Western Europe,1892,,kind:B1-5/Artists,
 artists,Q472235,artists,Hippolyte Flandrin,artist,Western Europe,1809,,kind:A5-30/Artists,movement Neoclassicism
 artists,Q472237,artists,Nikolaos Gyzis,artist,Western Europe,1842,,kind:A5-46/Artists,Impressionism; movement Munich school; other movements: Impressionism
