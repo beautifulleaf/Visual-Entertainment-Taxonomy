@@ -1528,10 +1528,16 @@ def wd_artist_works(qids):
 
 # ------------------------------------------------------------------ known-node check
 
-def known_index():
+# Concurrent sweeps that themselves read gap_sweep output: kept out of the known baseline (circular),
+# reported as overlap instead so the classifier can de-duplicate.
+CONCURRENT = ("world_folk_traditions.csv",)
+
+
+def known_index(concurrent=False):
     labelish, rawish = [], []
     files = [os.path.join(INTERIM, "unattributed_cultures.csv"), os.path.join(OUT_DIR, "smithsonian_cultures.csv")] + \
         sorted(f for f in glob.glob(os.path.join(OUT_DIR, "*_traditions.csv")) if "gap_sweep" not in f)
+    files = [f for f in files if (os.path.basename(f) in CONCURRENT) == concurrent]
     LAB = {"key", "label", "culture", "culture_group", "period", "tradition", "top_kilns_workshops", "period_en",
            "top_cultures", "parent"}
     RAWC = {"raw_labels", "top_raw_strings", "raw_strings", "period_original_examples", "top_places", "examples",
@@ -1700,7 +1706,9 @@ CRAFT_RX = re.compile(r"(?i)paint|carv|weav|embroider|textile|print|puppet|lacqu
 
 def build(objs, src_stats, qids, wd_works, wd_artists, disc, args):
     labelish, rawish = known_index()
-    log(f"known index: {len(labelish)} node labels, {len(rawish)} raw strings")
+    conc_lab, _ = known_index(concurrent=True)
+    log(f"known index: {len(labelish)} node labels, {len(rawish)} raw strings; concurrent overlap index "
+        f"{len(conc_lab)} labels ({', '.join(CONCURRENT)})")
 
     by_node = collections.defaultdict(list)
     for o in objs.values():
@@ -1861,6 +1869,7 @@ def build(objs, src_stats, qids, wd_works, wd_artists, disc, args):
         for wq, w in sorted(art_items, key=lambda x: -x[1]["sl"])[:3]:
             samples.append(f"wd:{wq} {w['label'][:60]}" + (f" @ {sorted(w['colls'])[0][:40]}" if w["colls"] else ""))
         st, km = known_status(n.get("kn"), labelish, rawish)
+        cst, ckm = known_status(n.get("kn"), conc_lab, [])
         q = qinfo or ("", "", "", "")
         return [n["area"], kind, n["key"], n["label"], n.get("parent", ""), q[0], q[1], q[2], q[3][:80], n["region"],
                 n["medium"], "; ".join(f"{g} ({v})" for g, v in groups.most_common(4)),
@@ -1876,7 +1885,7 @@ def build(objs, src_stats, qids, wd_works, wd_artists, disc, args):
                 "; ".join(a for a, _ in sorted(artists.values(), key=lambda x: -x[1])[:6]),
                 "; ".join(f"{t}: {API_HITS[t].get('vam', '')}/{API_HITS[t].get('cma', '')}" for t in n.get("api", [])
                           if t in API_HITS),
-                st, km, note]
+                st, km, ckm.split("=", 1)[-1] if cst == "known" else "", note]
 
     au_works_by_node = collections.defaultdict(dict)
     for k, arts in au_by_node.items():
@@ -2051,7 +2060,7 @@ TRAD_HEADER = ["area", "kind", "key", "label", "parent", "qid", "qid_label", "qi
                *["objects_" + s for s in SRC_COLS], "attributed", "attributed_share", "top_named_makers",
                "n_institutions", "holding_institutions", "sample_works", "wd_linked_items", "wd_works_with_evidence",
                "wd_attributed_share", "wd_collections", "wd_artists", "wd_top_artists", "api_hits_vam_cma",
-               "new_vs_known", "known_match", "note"]
+               "new_vs_known", "known_match", "overlap_concurrent_world_folk", "note"]
 OBJ_HEADER = ["area", "node", "node_label", "basis", "source", "institution", "id", "title", "date_text", "date_begin",
               "date_end", "object_group", "named_makers", "attributed", "place", "labels", "flag", "url"]
 
