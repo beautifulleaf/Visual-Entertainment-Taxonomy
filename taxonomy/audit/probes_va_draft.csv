@@ -1,0 +1,151 @@
+set,probe,type
+painting,Mughal painting,core
+painting,Rajput painting,core
+painting,Persian miniature,core
+painting,Chinese ink landscape painting,core
+painting,Byzantine icon,core
+painting,Italian Renaissance painting,core
+painting,Dutch Golden Age painting,core
+painting,Baroque painting,core
+painting,Impressionism,core
+painting,Cubism,core
+painting,Surrealism,core
+painting,Abstract Expressionism,core
+painting,Pop Art,core
+painting,Aboriginal bark painting,core
+painting,Aboriginal dot painting,core
+painting,Ethiopian Orthodox painting,core
+painting,Tibetan thangka,core
+painting,Haitian painting,core
+painting,Madhubani painting,core
+drawing_prints,ukiyo-e,core
+drawing_prints,etching,core
+drawing_prints,lithography,core
+drawing_prints,screen printing,core
+drawing_prints,woodcut,core
+book_calligraphy,Chinese calligraphy,core
+book_calligraphy,Islamic calligraphy,core
+book_calligraphy,illuminated manuscript,core
+book_calligraphy,Insular art (Book of Kells),core
+book_calligraphy,Mesoamerican codex,core
+book_calligraphy,bookbinding,core
+sculpture,Benin bronzes,core
+sculpture,Nok terracotta,core
+sculpture,Chola bronzes,core
+sculpture,Gandhara Buddhist sculpture,core
+sculpture,Inuit sculpture,core
+sculpture,Maya stelae,core
+sculpture,Olmec colossal heads,core
+sculpture,Moai (Easter Island),core
+sculpture,Northwest Coast totem poles,core
+sculpture,Japanese netsuke,core
+sculpture,Chinese jade carving,core
+sculpture,Land art,core
+ceramics,Song celadon,core
+ceramics,Ming blue-and-white porcelain,core
+ceramics,Iznik pottery,core
+ceramics,Meissen porcelain,core
+ceramics,maiolica,core
+ceramics,Delftware,core
+ceramics,raku,core
+ceramics,Pueblo pottery,core
+ceramics,Moche portrait vessels,core
+ceramics,Korean celadon,core
+glass,stained glass,core
+glass,Venetian Murano glass,core
+glass,studio glass,core
+metalwork_jewellery,Limoges enamel,core
+metalwork_jewellery,cloisonne,core
+metalwork_jewellery,Chinese ritual bronzes,core
+metalwork_jewellery,Scythian gold,core
+metalwork_jewellery,Faberge eggs,core
+metalwork_jewellery,Pre-Columbian goldwork,core
+metalwork_jewellery,arms and armour,core
+textiles_dress,Kente cloth,core
+textiles_dress,Navajo weaving,core
+textiles_dress,Persian carpets,core
+textiles_dress,Bayeux Tapestry,core
+textiles_dress,batik,core
+textiles_dress,ikat,core
+textiles_dress,kimono,core
+textiles_dress,Andean textiles,core
+textiles_dress,quilting,core
+textiles_dress,embroidery,core
+woodwork_lacquer,Japanese lacquer,core
+woodwork_lacquer,Chinese carved lacquer,core
+woodwork_lacquer,marquetry,core
+photography,daguerreotype,core
+photography,documentary photography,core
+photography,photojournalism,core
+photography,street photography,core
+architecture,Gothic architecture,core
+architecture,Dravidian temple architecture,core
+architecture,Islamic architecture,core
+architecture,Art Nouveau,core
+architecture,Bauhaus,core
+architecture,Brutalism,core
+architecture,Chinese imperial palace architecture,core
+architecture,Khmer temple architecture,core
+architecture,Inca stonework,core
+architecture,Sahelian mud architecture,core
+architecture,Japanese garden,core
+art_in_place,cave painting,core
+art_in_place,rock art,core
+art_in_place,Roman mosaics,core
+art_in_place,fresco,core
+art_in_place,Mexican muralism,core
+art_in_place,Ajanta murals,core
+art_in_place,Maori ta moko,core
+art_in_place,henna (mehndi),core
+new_media,video art,core
+new_media,digital art,core
+new_media,installation art,core
+new_media,performance art,core
+new_media,net art,core
+new_media,NFT art,core
+new_media,generative art,core
+ceramics,Chinese vase,naive
+textiles_dress,Persian rug,naive
+sculpture,African mask,naive
+sculpture,Greek statue,naive
+drawing_prints,Japanese woodblock print,naive
+woodwork_lacquer,Russian doll,naive
+painting,Mexican folk art,naive
+architecture,Gothic cathedral,naive
+art_in_place,graffiti,naive
+art_in_place,tattoo,naive
+painting,oil painting,naive
+painting,portrait,naive
+painting,landscape painting,naive
+painting,still life,naive
+painting,modern art,naive
+painting,abstract art,naive
+painting,Chinese scroll painting,naive
+drawing_prints,cartoon,naive
+drawing_prints,poster art,naive
+book_calligraphy,Arabic calligraphy,naive
+book_calligraphy,medieval manuscript,naive
+sculpture,Buddha statue,naive
+sculpture,totem pole,naive
+sculpture,wood carving,naive
+ceramics,pottery,naive
+ceramics,Ming vase,naive
+ceramics,blue and white china,naive
+ceramics,Greek vase,naive
+glass,church windows,naive
+glass,glass blowing,naive
+metalwork_jewellery,jewellery,naive
+metalwork_jewellery,samurai sword,naive
+metalwork_jewellery,Native American turquoise jewelry,naive
+textiles_dress,tapestry,naive
+textiles_dress,quilt,naive
+textiles_dress,African fabric,naive
+textiles_dress,Scottish tartan,naive
+woodwork_lacquer,antique furniture,naive
+woodwork_lacquer,Chinese lacquer box,naive
+photography,black and white photography,naive
+architecture,skyscraper,naive
+architecture,pyramids,naive
+art_in_place,street art,naive
+new_media,AI art,naive
+new_media,pixel art,naive

@@ -91,7 +91,7 @@ def main():
             code = f"{sub}-{mx[sub]}"
             codes[sl, r["tmp"].strip()] = code
             leaves.append({"code": code, "sub": sub, "label": r["label"], "breadth": r["breadth"] or "medium",
-                           "defn": r["defn"], "aliases": r["aliases"], "see": r["see"], "attest": r["attest"], "slice": sl})
+                           "defn": r["defn"], "aliases": r["aliases"], "see": r["see"], "attest": r["attest"], "slice": sl, "note": r.get("note", "")})
     bylabel = {(l["slice"], l["label"]): l for l in leaves}
     for (sl, tmp), keep in dropped.items():
         k = bylabel.get(keep)

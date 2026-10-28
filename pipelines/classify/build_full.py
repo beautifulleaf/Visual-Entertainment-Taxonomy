@@ -148,6 +148,8 @@ def va_members():
                             r["source"], maker])
         elif typ == "alias":
             alias[code].append(r["label"])
+        elif typ == "leaf" and code:
+            m[code].append([r["label"], "Gathered rows (the leaf's own evidence)", strip(r["note"]), r["source"], 0])
     for code, v in m.items():
         seen, out = set(), []
         for k in v:
@@ -167,6 +169,10 @@ def main():
     scaleup = {r["code"]: r["attest"] for r in rd(os.path.join(TAX, "visual_art", "leaves_scaleup.csv"))}
     fsrc = sources(FT)
     vsrc = sources(VA, scaleup)
+    WEAKRE = re.compile(r"weak|only (a|an|the|through|by)|no (english )?(wikipedia )?article|blog|redirect|could not|not verified|unverified|rests on", re.I)
+    for r in rd(os.path.join(TAX, "visual_art", "leaves_scaleup.csv")):
+        if r["code"] in vsrc and WEAKRE.search(r.get("note", "")) and not vsrc[r["code"]][1]:
+            vsrc[r["code"]] = (vsrc[r["code"]][0], strip(r["note"])[:220])
     ft = fams_json(FT, ftm, fsrc, {"A": "films", "B": "films", "C": "series", "D": "serials", "E": "titles", "G": "formats"})
     va = fams_json(VA, vam, vsrc, {})
     for f in va:
