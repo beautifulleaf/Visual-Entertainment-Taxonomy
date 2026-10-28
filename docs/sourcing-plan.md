@@ -70,6 +70,16 @@ Metadata comes from the TMDB API plus the daily ID exports, with Kaggle `alanvou
 
 ## 3. Scripted TV (non-anime, non-Asian-drama)
 - Spine: IMDb `tvSeries` + `tvMiniSeries`, with TMDB TV for metadata, networks and origin country.
+- *Measured (2026-10-28, `pipelines/tv/`):* 43,676 IMDb series with ≥100 votes, with episode counts; MDBList returned 38,857, 38,585 of them with an origin country. `route.py` splits them into four databases:
+
+  | Database | Series | IMDb ≥2.5k | IMDb ≥500 |
+  |---|---|---|---|
+  | Scripted TV | 32,520 | 6,342 | 14,512 |
+  | Anime | 3,139 | 583 | 1,626 |
+  | Asian drama | 3,768 | 462 | 1,641 |
+  | Unscripted | 4,249 | 254 | 1,186 |
+
+  The serial-tradition flag marks 1,102 scripted series: TR 293, IN 260, BR 170, MX 155, CO 54, AR 53 and others. The minimum is ≥30 episodes for dizi (long episodes, short seasons) and ≥100 elsewhere.
 - *Measured IMDb counts:* series ≥2.5k votes = 6,172, ≥5k = 3,909; miniseries ≥2.5k = 1,469.
 - Proposed: **IMDb ≥2.5k votes OR the regional-percentile rule OR a major award (Emmy, BAFTA, International Emmy, Peabody)**, giving about 7–9k titles. Trakt watcher counts (free API) are a secondary signal.
 - **Decided (2026-10-27): telenovelas, Turkish dizi and Indian serials stay in the scripted-TV database, without sub-databases of their own.** Anime and Asian dramas got their own databases because each has its own audience platform and metric (MAL, MDL). These traditions don't, since their audiences barely use IMDb or any rating site, so a separate database would have no spine metric. Instead:
@@ -81,7 +91,12 @@ Metadata comes from the TMDB API plus the daily ID exports, with Kaggle `alanvou
 ## 4. Anime (own database)
 - Spine: **anime-offline-database**, the weekly-updated JSON that cross-references MAL, AniList, AniDB, Kitsu and others. The original manami-project repo was archived 2026-07-04 (final release 2026-27) and continues as `cedya77/anime-offline-database` (~38k entries, week 36 2026).
 - Metric: **MAL members** via the Jikan API, cross-checked with AniList popularity (free GraphQL API, no key).
-- Proposed: MAL members ≥ ~25–50k, separately per format (TV, film, OVA/ONA), plus a per-decade percentile for pre-2000 titles.
+- **Decided (2026-10-28): MAL members ≥ 25,000.** Plus a per-decade top-up for pre-2000 titles and a per-country one for donghua, because MAL's audience skews recent (*Tetsuwan Atom*, 1963, has 15k members).
+  - *Measured:* 38,270 candidates (`pipelines/anime/`). MAL counts come from MAL's public popularity ranking, walked down to 1,000 members: 15,644 titles.
+  - MAL members ≥5k = 9,767 · ≥10k = 7,465 · **≥25k = 5,167** · ≥50k = 3,711 · ≥100k = 2,468.
+  - At ≥25k by format: TV 3,194, film 684, OVA 531, special 460, ONA 297. By decade: 1960s 1 · 1970s 17 · 1980s 66 · 1990s 204 · 2000s 994 · 2010s 2,352 · 2020s 1,500. Donghua: 73 of 736.
+  - AniList popularity is kept as a cross-check and for tags, genres and country of origin (22,598 titles found). AniList's audience is smaller and younger: only 2,649 titles reach 25k there.
+  - Jikan (the unofficial MAL API) was unreachable from the cloud container. The official MAL API needs a client ID, so it can replace the ranking walk if one is registered.
 - Include donghua (Chinese animation) here, using AniList plus Bilibili/Douban signals.
 
 ## 5. Asian live-action dramas (own database)
@@ -91,6 +106,7 @@ Metadata comes from the TMDB API plus the daily ID exports, with Kaggle `alanvou
   - Fetch only the title pages of candidates (IDs from Wikidata P3868 plus MDL search for the rest). Store only the ID, watchers, rating, rating count and episode count. Cache every page, so each title is fetched once per refresh. Refresh at most quarterly.
   - The counts stay internal, like every other audience metric (§7), and are never used to train models, per MDL's content signal.
   - If a candidate is still missing after that, Douban/TMDB carry it rather than more aggressive fetching.
+- *Measured (2026-10-28, `pipelines/asian_drama/`):* 4,589 candidates, made up of 3,768 series from the TV harvest and 821 more from Wikidata. Only 1,602 have an MDL ID on Wikidata (Wikidata's 5,371 MDL links are mostly films), so the fetcher resolves the rest through MDL search. MDL did serve normal pages to the fetcher from the cloud container.
 - Secondary signals: **Douban rating counts** for C-dramas (a better domestic signal than MDL), TMDB vote_count filtered by origin_country (KR, CN, JP, TW, TH, PH), and Naver/Nielsen Korea peak ratings.
 - Proposed: MDL watchers ≥ ~5–10k OR Douban ≥50k ratings (the threshold MDL list-makers use for 2022+ titles) OR a top domestic award (Baeksang, Golden Bird, and similar).
 
@@ -98,6 +114,10 @@ Metadata comes from the TMDB API plus the daily ID exports, with Kaggle `alanvou
 - **Unit = format**, with national adaptations as children: Idol, Got Talent, The Voice, Big Brother, Survivor, MasterChef, Bake Off, Millionaire, Family Feud, Wheel of Fortune, Deal or No Deal, Dancing with the Stars / Strictly, The Masked Singer, Love Island, The Bachelor, Dragons' Den / Shark Tank, Drag Race, Top Model, Amazing Race, Ninja Warrior, Hell's Kitchen, Come Dine with Me, Supernanny, Wife Swap, The Traitors, Married at First Sight, and others.
 - Formats sit under genre clusters: talent competition, cooking, dating, social-experiment and elimination, game show, makeover and lifestyle, docusoap and celebrity reality, survival and adventure, talk and late night.
 - Sources: Wikidata "based on" (P144) and "instance of: television format", Wikipedia franchise articles (which list adaptations by country), and IMDb/TMDB for each local version. Trade trackers (K7 Media, The Wit) are paid and optional.
+- *Measured (2026-10-28, `pipelines/unscripted/build_formats.py`):* Wikidata links a format's versions inconsistently (based on / media franchise / part of the series / derivative work), so each connected family of linked programmes is treated as one format.
+  - Rule: ≥3 versions in ≥2 countries, with no country holding more than 80% of them unless the family spans 5+. That gives **209 unscripted formats with 3,127 versions**: game show 110, reality/docusoap 57, talent competition 24, cooking 8, dating 7, talk 3.
+  - It also gives 254 scripted remake families (*Yo soy Betty, la fea*, *The Office*) for scripted TV, though a few Japanese broadcast slots still slip in through mis-tagged items.
+  - Coverage against `seeds/unscripted/formats_checklist.txt`: 33 of 35. Wife Swap and Married at First Sight are missing and need hand-adding.
 - **Non-format unscripted** (prestige docuseries, true crime, nature, stand-alone reality like *Keeping Up with the Kardashians*) is handled as individual titles under the scripted-TV thresholds.
 
 ## 7. Licensing note
