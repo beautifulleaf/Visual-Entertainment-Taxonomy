@@ -138,7 +138,8 @@ LATIN_AMERICA_NORTH = [
 EAST_ASIA = ["Q148", "Q17", "Q884", "Q423", "Q865", "Q711", "Q8646", "Q18097", "Q188712", "Q8733", "Q13426199"]
 SOUTH_ASIA = ["Q668", "Q843", "Q902", "Q854", "Q837", "Q129286", "Q889"]
 SOUTHEAST_ASIA = ["Q252", "Q928", "Q869", "Q881", "Q833", "Q334", "Q836", "Q424", "Q188161"]
-NORTH_AFRICA = ["Q79", "Q1016", "Q948", "Q262", "Q1028"]
+NORTH_AFRICA = ["Q79", "Q1016", "Q948", "Q262", "Q1028",
+                "Q124943", "Q3087763", "Q170468"]  # + Kingdom of Egypt, Republic of Egypt, United Arab Republic
 WEST_CENTRAL_ASIA = [
     "Q43", "Q794", "Q796", "Q822", "Q858", "Q851", "Q12560", "Q801", "Q810", "Q817", "Q842",
     "Q846", "Q878", "Q398", "Q805", "Q219060",                       # Middle East
@@ -171,6 +172,7 @@ for _name, _geo in MODERN_REGIONS.items():
         "countries": _geo.get("countries", []),
         "exclude_countries": _geo.get("exclude_countries", []),
         "home_continent": True,
+        "place_by_birth_death": True,
         "min_sitelinks": 3,
         "reference": None,
         "collections": GLOBAL_COLLECTIONS,

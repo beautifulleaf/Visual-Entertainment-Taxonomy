@@ -260,12 +260,21 @@ def main():
             conts = [next(h for h in HOME_CONTINENT_ORDER + conts if h in conts)]
         return set(conts)
 
+    def hit(c):
+        return c in region_countries or (c not in excluded and bool(region_continents & country_continents(c)))
+
     def in_region(claims):
+        if cfg.get("place_by_birth_death"):
+            # Secondary or honorary citizenships (Max Ernst: Cuba; Leni Riefenstahl:
+            # Sudan) put famous Europeans at the top of other regions' rankings. Use
+            # where the artist was born or died (both count: émigrés belong to both).
+            places = claims.get("birth_country", []) + claims.get("death_country", [])
+            if places:
+                return any(hit(c) for c in places)
         for key in ("P27", "birth_country", "death_country"):
             cs = claims.get(key, [])
             if cs:  # first property that has any country decides
-                return any(c in region_countries or (c not in excluded and region_continents & country_continents(c))
-                           for c in cs)
+                return any(hit(c) for c in cs)
         return None  # no country information at all
 
     lo, hi = cfg["active"]
