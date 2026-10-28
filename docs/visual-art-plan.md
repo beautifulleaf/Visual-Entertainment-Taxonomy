@@ -168,6 +168,16 @@ Getty AAT/ULAN IDs are **not required**:
 
 The AAT columns in the tradition and architecture outputs stay empty. If the taxonomy is ever published or has to interoperate with museum systems, backfill them then: the matching code exists (`build_traditions.py` without `--no-aat`), run from a machine Getty does not block.
 
+- **South/Southeast Asia, Africa, Americas/Oceania sweep** (`pipelines/regional/south_asia_africa_americas.py`; sources V&A, Cleveland, AIC and Rijksmuseum; British Museum unreachable):
+  - **South and Southeast Asia: 35,645 objects (2.8% attributed).**
+    - 58 recorded dynasties, e.g. Mughal 3,208, Company 2,583, Konbaung 299, Kushan 188, Pala 88, Angkorian 80+, Chola 46, Gupta 39, Pagan, Majapahit, Kandyan.
+    - Painting schools down to court level: Rajput 1,456 (Jaipur, Mewar, Kota, Bundi, Kishangarh...), Pahari 564 (Kangra, Guler, Chamba...), Deccani, Kalighat.
+    - Named masters under their schools: Nainsukh, Manaku, Basawan, La'l, Govardhan, Mola Ram, Chokha.
+  - **Africa: 1,557 objects** (Asante, Yoruba, Ethiopian, Kuba, Zulu...; masters such as Olowe of Ise).
+  - **Americas/Oceania: 3,732 objects** (Nasca, Moche, Maya, Chimu, Inca, Wari...; Pueblo potters 51% attributed). **Oceania has only 104.**
+  - Africa and Oceania stay thin in these sources. The Met (about 12k objects in its Africa/Oceania/Americas cultures) and the Smithsonian NMAI remain the main sources there, and a targeted Africa and Oceania sweep is running.
+  - Caveats: manuscripts count once per folio; 12k undated V&A records are not reachable through its API.
+
 ### 2.2 Gathering exit criterion: coverage audit (decided 2026-10-28)
 Node creation happens in the classifying stage. Gathering must hand it **evidence for every region at the level that region records**, so that no non-Western tradition drops out because it lacks artist names.
 - **Grid:** before gathering closes, build a region × period audit grid. Per cell, it counts:

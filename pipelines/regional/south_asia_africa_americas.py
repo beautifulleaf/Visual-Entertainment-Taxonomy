@@ -147,6 +147,14 @@ def _get(url, accept="application/json"):
                 print(f"  {e.code} {url}", file=sys.stderr)
                 return None
             print(f"  {e.code} {url} (retry {attempt + 1})", file=sys.stderr)
+            if e.code in (429, 503):
+                # back off: honour Retry-After (seconds), else a long pause; slow down for the rest of the run
+                NET[f"http_{e.code}"] += 1
+                ra = e.headers.get("Retry-After") if e.headers else None
+                wait = int(ra) if ra and ra.isdigit() else 30 * (attempt + 1)
+                DELAY[0] = max(DELAY[0], 1.0)
+                time.sleep(min(wait, 300))
+                continue
         except Exception as e:  # URLError, timeouts, resets, incomplete reads
             print(f"  {type(e).__name__}: {e} {url} (retry {attempt + 1})", file=sys.stderr)
         time.sleep(min(60, 5 * 2 ** attempt))
@@ -1691,7 +1699,9 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--skip", default="", help="comma-separated sources to skip: vam,cma,aic,rijks")
     ap.add_argument("--fetch-only", action="store_true", help="harvest into the cache, write nothing")
-    ap.add_argument("--delay", type=float, default=1.0, help="seconds between requests (default 1.0)")
+    ap.add_argument("--delay", type=float, default=1.0,
+                    help="seconds between requests (default 1.0; the V&A, Cleveland and Rijksmuseum APIs "
+                         "allow ~0.25-0.3, i.e. 3-4 req/s; run one --skip'd process per host for parallelism)")
     ap.add_argument("--rijks-max", type=int, default=1500, help="max Rijksmuseum objects to fetch")
     args = ap.parse_args()
     DELAY[0] = args.delay
