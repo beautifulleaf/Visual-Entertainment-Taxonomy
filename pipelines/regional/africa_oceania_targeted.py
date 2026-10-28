@@ -36,10 +36,12 @@ and an interrupted harvest resumes where it stopped):
   auckland  Auckland War Memorial Museum (Tamaki Paenga Hira) Linked Open Data
             SPARQL endpoint (api.aucklandmuseum.com/sparql; API v2 dropped its
             key). The Elasticsearch search route sits behind a bot challenge;
-            SPARQL is used instead, paged, a few seconds apart, with long
-            back-off when the challenge page appears. Departments (keepers)
-            Pacific, World and Ethnology, plus every object whose cultural
-            origin is Maori / Moriori / an iwi.
+            SPARQL is used instead, a few seconds apart, with long back-off when
+            the challenge page appears. Departments (keepers)
+            Pacific, World, Ethnology and Maori, plus every object whose cultural
+            origin is Maori / Moriori / an iwi. The endpoint's firewall refuses
+            ORDER BY / UNION / "||" in queries, so ids are listed per department
+            and fields fetched with simple per-field queries over id batches.
   yale      Yale LUX (lux.collections.yale.edu, Linked Art, keyless):
             Yale University Art Gallery African Art and Indo-Pacific Art
             collections, and Yale Peabody Museum Anthropology records matching
@@ -89,6 +91,7 @@ plain run (all from cache) to build the tables.
 """
 import argparse
 import collections
+import concurrent.futures
 import csv
 import gzip
 import json
@@ -96,6 +99,7 @@ import os
 import re
 import statistics
 import sys
+import threading
 import time
 import urllib.error
 import urllib.parse
@@ -129,6 +133,7 @@ SKIPPED_SOURCES = [
 # ------------------------------------------------------------------ fetching
 
 _last = [0.0]
+_lock = threading.Lock()
 DELAY = [0.34]
 NET = collections.Counter()
 
@@ -141,10 +146,11 @@ def http(url, data=None, headers=None, timeout=180, attempts=6, accept="applicat
     """GET (or POST data) -> text, or None for a permanent failure. Retries
     network errors, 429/5xx and bot-challenge pages with growing back-off."""
     for attempt in range(attempts):
-        wait = DELAY[0] - (time.time() - _last[0])
-        if wait > 0:
-            time.sleep(wait)
-        _last[0] = time.time()
+        with _lock:   # requests start at most every DELAY seconds, also across worker threads
+            wait = DELAY[0] - (time.time() - _last[0])
+            if wait > 0:
+                time.sleep(wait)
+            _last[0] = time.time()
         h = {"User-Agent": UA, "Accept": accept}
         h.update(headers or {})
         req = urllib.request.Request(url, data=data, headers=h)
@@ -299,6 +305,8 @@ EXTRA_AFRICA = saa._L([
     (r"turkana", "Turkana"), (r"gikuyu", "Kikuyu"), (r"luo", "Luo"), (r"bemba", "Bemba"), (r"tonga", "Tonga (Zambia)"),
     (r"ndengese|dengese", "Ndengese"), (r"kete", "Kete"), (r"wongo", "Wongo"), (r"tetela", "Tetela"),
     (r"sakalava|mahafaly|merina", "Malagasy"), (r"edo|bini|benin", "Edo (Benin Kingdom)"),
+    (r"luguru", "Luguru"), (r"ishan|esan", "Esan"), (r"ngoni", "Ngoni"), (r"hehe", "Hehe"),
+    (r"kirdi|mafa|matakam", "Mandara Mountains (Kirdi)"), (r"gurage", "Gurage"), (r"bijago", "Bidjogo"),
 ])
 EXTRA_AFRICA_EXCL_FOR_OCEANIA = set()
 
@@ -384,6 +392,21 @@ LITHIC = re.compile(r"(?<![a-z])(debitage|flakes?|flake tool|cores?|scrapers?|bi
                     r"manuports?|chips?|spalls?|cobble tool|retouched|fragment of stone|stone tool)(?![a-z])")
 PREHIST = re.compile(r"(?<![a-z])(acheulian|acheulean|mousterian|oldowan|paleolithic|palaeolithic|"
                      r"stone age|levallois|sangoan|lupemban|aterian|still bay|howiesons poort|wilton)(?![a-z])")
+# object types that are not visual-art evidence: tools and archaeological implements (Te Papa's
+# Taonga Maori holds ~8k adze blades, 4k fishhooks and 1k net sinkers from excavations), and
+# non-object media (sound recordings, typography portfolios, ephemera). Carved / pounamu /
+# ceremonial pieces and anything with a named maker are kept.
+TOOLS = re.compile(r"^(sinkers?|sinkers \(fishing\)|drills?|drill points?|awls?|grindstones?|files|needles?|chisels?|"
+                   r"remnants|remains|realia|lures?|fasteners?|abraders?|polishers?|hammers?|tools?|implements?|"
+                   r"pestles?|net gauges?|whetstones?|blanks?|preforms?|adzes?|adze blades?|axes \(tools\)|axe heads?|"
+                   r"projectile points?|points?|blades?|fishhooks?|fish ?hooks?|fishhook points?|hooks?|gouges?|"
+                   r"artifacts|unidentified objects?|fragments?|cutters?|knives \(tools\)|obsidian|cores)$")
+TOOL_KEEP = re.compile(r"(?i)pounamu|poutangata|ceremonial|hafted|carved|ornament|hei matau|nephrite|jade")
+NONART = re.compile(r"(?<![a-z])(sound recordings?|compact discs?|phonograph records?|audio|video ?recordings?|"
+                    r"motion pictures?|films?|dvds?|cassettes?|portfolios?|typefaces?|fonts?|ephemera|documents?|"
+                    r"letters \(correspondence\)|certificates?|tickets?|programmes?|programs \(documents\)|posters?|"
+                    r"postage stamps?|stamps?|banknotes?|coins?|medals?|badges?|installations \(visual works\)|"
+                    r"t-shirts?|specimens?|samples?)(?![a-z])")
 ISLAND_SEA = re.compile(r"(?<![a-z])(philippines|luzon|mindanao|visayas|sulu|borneo|sarawak|sabah|kalimantan|"
                         r"sumatra|java|bali|lombok|sulawesi|celebes|flores|sumba|timor|moluccas|maluku|nias|"
                         r"malaysia|malaya|indonesia|bagobo|ifugao|bontoc|kalinga|apayao|igorot|tagalog|moro|"
@@ -621,42 +644,34 @@ def harvest_tepapa():
 
 
 # ---- Auckland
+# The endpoint sits behind a web-application firewall that answers SQL-looking
+# queries with a bot challenge: ORDER BY, UNION, "||" and GROUP_CONCAT separators
+# are all refused. So: plain id lists per department, then one simple query per
+# field over batches of ids (VALUES), POSTed a few seconds apart.
 AUCK_SPARQL = "https://api.aucklandmuseum.com/sparql"
-AUCK_PAGE = 2000
-AUCK_DELAY = 6.0
+AUCK_BATCH = 800
+AUCK_DELAY = 3.0
 AUCK_PREFIX = ("PREFIX ecrm: <http://erlangen-crm.org/current/> "
                "PREFIX am: <http://collections.aucklandmuseum.com/ontology/core/> "
                "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> "
                "PREFIX dc: <http://purl.org/dc/elements/1.1/> PREFIX foaf: <http://xmlns.com/foaf/0.1/> ")
-AUCK_SLICES = {
-    "keeper_Pacific": '?s ecrm:P50_has_current_keeper/rdf:value "Pacific" .',
-    "keeper_World": '?s ecrm:P50_has_current_keeper/rdf:value "World" .',
-    "keeper_Ethnology": '?s ecrm:P50_has_current_keeper/rdf:value "Ethnology" .',
-    "keeper_Maori": '?s ecrm:P50_has_current_keeper/rdf:value "Māori" .',
-    "culture_Maori": ('?s am:culturalOrigin ?co0 . FILTER(CONTAINS(LCASE(STR(?co0)), "maori") || '
-                      'CONTAINS(LCASE(STR(?co0)), "māori") || CONTAINS(STR(?co0), "Iwi Hapu") || '
-                      'CONTAINS(LCASE(STR(?co0)), "moriori"))'),
+AUCK_KEEPERS = ["Pacific", "World", "Ethnology", "Māori"]
+AUCK_OBJ = "http://api.aucklandmuseum.com/id/humanhistory/object/"
+AUCK_FIELDS = {
+    "base": ("SELECT ?s ?title ?acc ?keeper ?desc WHERE { %s OPTIONAL { ?s dc:title ?title } "
+             "OPTIONAL { ?s am:accessionNumber ?acc } OPTIONAL { ?s ecrm:P50_has_current_keeper/rdf:value ?keeper } "
+             "OPTIONAL { ?s dc:description ?desc } }"),
+    "cult": "SELECT ?s ?cult WHERE { %s ?s am:culturalOrigin ?cult }",
+    "cls": "SELECT ?s ?cls WHERE { %s ?s am:classification/rdf:value ?cls }",
+    "place": ("SELECT ?s ?place ?parent WHERE { %s ?s ecrm:P108i_was_produced_by/ecrm:P7_took_place_at ?pn . "
+              "?pn dc:title ?place . OPTIONAL { ?pn am:childOf/dc:title ?parent } }"),
+    "time": ("SELECT ?s ?dnote ?begin ?end WHERE { %s ?s ecrm:P108i_was_produced_by/ecrm:P4_has_time_span ?ts . "
+             "OPTIONAL { ?ts ecrm:P3_has_note ?dnote } OPTIONAL { ?ts ecrm:P82a_begin_of_the_begin ?begin } "
+             "OPTIONAL { ?ts ecrm:P82b_end_of_the_end ?end } }"),
+    "maker": ("SELECT ?s ?maker ?role WHERE { %s ?s ecrm:P108i_was_produced_by/am:productionPersonAssociation ?pa . "
+              "?pa ecrm:P14_carried_out_by/foaf:name ?maker . OPTIONAL { ?pa am:primaryProductionRole ?role } }"),
 }
-AUCK_BASE = ('SELECT ?s (SAMPLE(?t) AS ?title) (SAMPLE(?acc) AS ?acc) (SAMPLE(?k) AS ?keeper) '
-             '(GROUP_CONCAT(DISTINCT ?co; separator="||") AS ?cult) (SAMPLE(?desc) AS ?desc) '
-             '(GROUP_CONCAT(DISTINCT ?cl; separator="||") AS ?cls) WHERE { '
-             '{ SELECT DISTINCT ?s WHERE { %s } ORDER BY ?s LIMIT %d OFFSET %d } '
-             'OPTIONAL { ?s dc:title ?t } OPTIONAL { ?s am:accessionNumber ?acc } '
-             'OPTIONAL { ?s ecrm:P50_has_current_keeper/rdf:value ?k } OPTIONAL { ?s am:culturalOrigin ?co } '
-             'OPTIONAL { ?s dc:description ?desc } OPTIONAL { ?s am:classification/rdf:value ?cl } } GROUP BY ?s')
-AUCK_PROD = ('SELECT ?s (GROUP_CONCAT(DISTINCT ?pl; separator="||") AS ?places) '
-             '(GROUP_CONCAT(DISTINCT ?pl2; separator="||") AS ?parents) (SAMPLE(?note) AS ?dnote) '
-             '(MIN(STR(?b)) AS ?begin) (MAX(STR(?e)) AS ?end) '
-             '(GROUP_CONCAT(DISTINCT CONCAT(STR(?pn), "@@", COALESCE(STR(?role), "")); separator="||") AS ?makers) '
-             'WHERE { { SELECT DISTINCT ?s WHERE { %s } ORDER BY ?s LIMIT %d OFFSET %d } '
-             '?s ecrm:P108i_was_produced_by ?p . '
-             'OPTIONAL { ?p ecrm:P7_took_place_at ?pn0 . ?pn0 dc:title ?pl . '
-             '           OPTIONAL { ?pn0 am:childOf/dc:title ?pl2 } } '
-             'OPTIONAL { ?p ecrm:P4_has_time_span ?ts . OPTIONAL { ?ts ecrm:P3_has_note ?note } '
-             '           OPTIONAL { ?ts ecrm:P82a_begin_of_the_begin ?b } OPTIONAL { ?ts ecrm:P82b_end_of_the_end ?e } } '
-             'OPTIONAL { ?p am:productionPersonAssociation ?pa . '
-             '           OPTIONAL { ?pa ecrm:P14_carried_out_by/foaf:name ?pn } '
-             '           OPTIONAL { ?pa am:primaryProductionRole ?role } } } GROUP BY ?s')
+MAORI_ORIGIN = re.compile(r"(?i)m[aā]ori|moriori|iwi hapu")
 
 
 def auck_query(q, path):
@@ -664,7 +679,8 @@ def auck_query(q, path):
         saved = DELAY[0]
         DELAY[0] = max(DELAY[0], AUCK_DELAY)
         try:
-            return http(AUCK_SPARQL + "?" + urllib.parse.urlencode({"query": AUCK_PREFIX + q}),
+            return http(AUCK_SPARQL, data=urllib.parse.urlencode({"query": AUCK_PREFIX + q}).encode(),
+                        headers={"Content-Type": "application/x-www-form-urlencoded"},
                         accept="application/sparql-results+json", timeout=300)
         finally:
             DELAY[0] = saved
@@ -674,58 +690,68 @@ def auck_query(q, path):
 
 def harvest_auckland():
     cache = os.path.join(RAW, "auckland")
-    objs = {}
-    for name, where in AUCK_SLICES.items():
-        off, n = 0, 0
-        while True:
-            base = auck_query(AUCK_BASE % (where, AUCK_PAGE, off), os.path.join(cache, f"{name}_base_{off:06d}.json.gz"))
-            if base is None:
-                print(f"  Auckland {name} offset {off}: failed", file=sys.stderr)
-                break
-            if not base:
-                break
-            prod = auck_query(AUCK_PROD % (where, AUCK_PAGE, off), os.path.join(cache, f"{name}_prod_{off:06d}.json.gz"))
-            pmap = {p["s"]: p for p in prod or []}
-            for b in base:
-                if not b.get("s"):
-                    continue
-                n += 1
-                o = objs.setdefault(b["s"], dict(b, slice=name))
-                o.update({k: v for k, v in pmap.get(b["s"], {}).items() if v})
-            if len(base) < AUCK_PAGE:
-                break
-            off += AUCK_PAGE
-        print(f"  Auckland {name}: {n} objects", file=sys.stderr)
+    slice_of = collections.OrderedDict()
+    for k in AUCK_KEEPERS:
+        ids = auck_query('SELECT ?s WHERE { ?s ecrm:P50_has_current_keeper/rdf:value "%s" }' % k,
+                         os.path.join(cache, f"ids_keeper_{slug(k)}.json.gz")) or []
+        for b in ids:
+            slice_of.setdefault(b["s"], "keeper:" + k)
+        print(f"  Auckland keeper {k}: {len(ids)} objects", file=sys.stderr)
+    origins = auck_query("SELECT ?s ?co WHERE { ?s am:culturalOrigin ?co }",
+                         os.path.join(cache, "ids_cultural_origin.json.gz")) or []
+    n = 0
+    for b in origins:
+        if MAORI_ORIGIN.search(b.get("co", "")) and b["s"] not in slice_of:
+            slice_of[b["s"]] = "culture:Maori"
+            n += 1
+    print(f"  Auckland Maori/Moriori/iwi cultural origin outside those departments: {n}", file=sys.stderr)
+    ids = [s for s in slice_of if s.startswith(AUCK_OBJ)]
+    vals = collections.defaultdict(lambda: collections.defaultdict(list))
+    for i in range(0, len(ids), AUCK_BATCH):
+        batch = ids[i:i + AUCK_BATCH]
+        v = "VALUES ?s { " + " ".join(f"<{s}>" for s in batch) + " }"
+        for field, q in AUCK_FIELDS.items():
+            res = auck_query(q % v, os.path.join(cache, "fields", f"{field}_{i:06d}_{len(batch)}.json.gz"))
+            if res is None:
+                print(f"  Auckland {field} batch {i}: failed", file=sys.stderr)
+                continue
+            for b in res:
+                for k2, x in b.items():
+                    if k2 != "s" and x and x not in vals[b["s"]][k2]:
+                        vals[b["s"]][k2].append(x)
+        if (i // AUCK_BATCH) % 10 == 0:
+            print(f"  Auckland: {i + len(batch)}/{len(ids)} objects read", file=sys.stderr)
     recs = []
-    for s, o in objs.items():
-        cults = [c for c in (o.get("cult") or "").split("||") if c and c.lower() != "unknown"]
-        # "Ngāti Pikiao/Ngā Iwi o Te Arawa/Iwi Hapu List/1. Aotearoa New Zealand terms" -> keep the path, readable
+    for s in ids:
+        o = vals.get(s, {})
+        sl = slice_of[s]
+        cults = [c for c in o.get("cult", []) if c.lower() != "unknown"]
         labels = "; ".join(c.replace("/", " / ") for c in cults)
         if any("Iwi Hapu" in c for c in cults) and not re.search(r"(?i)m[aā]ori", labels):
             labels += "; Māori"
         makers = []
-        for m in (o.get("makers") or "").split("||"):
-            if "@@" in m:
-                nm, role = m.split("@@", 1)
-                if nm.strip():
-                    makers.append((nm.strip(), role.strip()))
-        dnote = o.get("dnote", "")
-        b, e = iso_year(o.get("begin")), iso_year(o.get("end"))
+        mk, roles = o.get("maker", []), o.get("role", [])
+        for j, nm in enumerate(mk):
+            if nm.strip() and nm.strip().lower() != "unknown":
+                makers.append((nm.strip(), roles[j] if j < len(roles) and len(mk) == len(roles) else
+                               (roles[0] if len(roles) == 1 else "")))
+        dnote = "; ".join(x for x in o.get("dnote", []) if x.lower() != "unknown")
+        bs = [iso_year(x) for x in o.get("begin", [])]
+        es = [iso_year(x) for x in o.get("end", [])]
+        bs, es = [x for x in bs if x is not None], [x for x in es if x is not None]
+        b, e = (min(bs) if bs else None), (max(es) if es else None)
         if b is None and e is None:
             b, e = parse_date(dnote)
-        places = [p.strip("[]") for p in (o.get("places") or "").split("||") if p]
-        parents = [p.strip("[]") for p in (o.get("parents") or "").split("||") if p]
-        keeper = o.get("keeper", "")
+        places = [p.strip("[]") for p in o.get("place", []) + o.get("parent", [])]
+        keeper = (o.get("keeper") or [""])[0]
+        trusted = keeper in ("Pacific", "Māori") or sl == "culture:Maori"
         oid = s.rsplit("/", 1)[-1]
-        recs.append(rec(source="auckland", id=oid, title=o.get("title", ""),
-                        otype=(o.get("cls") or "").split("||")[0], oclass="", labels=labels,
-                        place="; ".join(places + parents), extra=(o.get("desc") or "")[:500],
-                        date_text=dnote if dnote.lower() != "unknown" else "", begin=b, end=e, makers=makers,
-                        collection=keeper, url=f"https://www.aucklandmuseum.com/collection/object/am_humanhistory-object-{oid}",
-                        sweep=o.get("slice", ""), prior="americas_oceania" if keeper in ("Pacific", "Māori") or
-                        o.get("slice") == "culture_Maori" else None,
-                        strong=keeper in ("Pacific", "Māori") or o.get("slice") == "culture_Maori",
-                        trusted=keeper in ("Pacific", "Māori") or o.get("slice") == "culture_Maori"))
+        recs.append(rec(source="auckland", id=oid, title=(o.get("title") or [""])[0],
+                        otype=(o.get("cls") or [""])[0], oclass="", labels=labels, place="; ".join(places),
+                        extra=" ".join(o.get("desc", []))[:500], date_text=dnote[:80], begin=b, end=e,
+                        makers=makers, materials="", collection=keeper,
+                        url=f"https://www.aucklandmuseum.com/collection/object/am_humanhistory-object-{oid}",
+                        sweep=sl, prior="americas_oceania" if trusted else None, strong=trusted, trusted=trusted))
     print(f"  Auckland: {len(recs)} records", file=sys.stderr)
     return recs
 
@@ -823,20 +849,29 @@ def harvest_yale(max_items):
         print(f"  Yale LUX {name}: {len(ids)} ids", file=sys.stderr)
         for i in ids:
             plan.setdefault(i, (name, prior, trusted))
-    recs = []
-    for n, (oid, (name, prior, trusted)) in enumerate(plan.items()):
-        if max_items and n >= max_items:
-            print(f"  Yale LUX: capped at {max_items} items", file=sys.stderr)
-            break
+    items = list(plan.items())[:max_items or None]
+
+    def item(oid):
         uuid = oid.rsplit("/", 1)[-1]
-        r = cached(os.path.join(RAW, "yale", "items", uuid[:2], uuid + ".json.gz"), lambda: http(oid), reduce=lux_reduce)
-        if n and n % 1000 == 0:
-            print(f"  Yale LUX: {n}/{len(plan)} items read", file=sys.stderr)
+        return cached(os.path.join(RAW, "yale", "items", uuid[:2], uuid + ".json.gz"), lambda: http(oid),
+                      reduce=lux_reduce)
+    # LUX answers in ~0.3-1 s, so a few workers keep the rate near DELAY without exceeding it
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as ex:
+        got = []
+        for n, r in enumerate(ex.map(item, [oid for oid, _ in items])):
+            got.append(r)
+            if n and n % 1000 == 0:
+                print(f"  Yale LUX: {n}/{len(items)} items read", file=sys.stderr)
+    recs = []
+    for (oid, (name, prior, trusted)), r in zip(items, got):
+        uuid = oid.rsplit("/", 1)[-1]
         if not r:
             continue
         culture = [c for cl, c in r["notes"] + r["pnotes"] if re.search(r"(?i)culture|people|ethnic", cl)]
         placen = [c for cl, c in r["pnotes"] + r["notes"] if re.search(r"(?i)place", cl)]
         creator = [c for cl, c in r["pnotes"] if re.search(r"(?i)creator", cl)]
+        period = [c for cl, c in r["notes"] if re.search(r"(?i)^period", cl)]
+        medium = [c for cl, c in r["notes"] if re.search(r"(?i)^medium", cl)]
         makers = []
         for nm, role, typ in r["makers"]:
             nm = re.sub(r"^[A-Za-z ]{2,30}:\s*", "", nm)       # "Artist: Maku of Erin (died 1915)"
@@ -854,9 +889,10 @@ def harvest_yale(max_items):
             b, e = parse_date(r["date_text"])
         title = re.sub(r"\s*\[.*$", "", r["label"]) if name.startswith("peabody") else r["label"]
         recs.append(rec(source="yale", id=acc or uuid, title=title, otype="; ".join(r["classes"][:4]),
-                        oclass="", labels="; ".join(culture + creator), place="; ".join(placen + r["places"]),
+                        oclass="", labels="; ".join(culture + creator + period),
+                        place="; ".join(placen + r["places"]),
                         extra=(r["label"] + " " + desc)[:500], date_text=r["date_text"], begin=b, end=e,
-                        makers=makers, materials="; ".join(r["mats"][:6]),
+                        makers=makers, materials="; ".join(medium[:1] + r["mats"][:6]),
                         collection="; ".join(m for m in r["members"] if "Yale" in m)[:120],
                         url=r["web"] or oid.replace("/data/", "/view/"), sweep="lux:" + name,
                         prior=prior, strong=name == "yuag_african_art", trusted=trusted))
@@ -942,11 +978,30 @@ def classify(row, labels, place, extra):
                period=period, period_source=psrc, overlap="")
 
 
+DIRECTIONS = re.compile(r"(?<![a-z])(northern|southern|eastern|western|central|north|south|east|west|coastal|"
+                        r"upper|lower|island|islands|region|province|probably|possibly)(?![a-z])")
+WESTERN_FIRM = re.compile(r"(?i)\b(inc\.?|ltd\.?|llc|corporation|new york|london|paris|and company|& co\.?|"
+                          r"entertainment|records)\b")
+
+
 def not_maker(name):
+    """Place names, culture names and placeholders that sources put in the maker field
+    ("Democratic Republic of the Congo", "Papua New Guinea, (Trobriand Islands)", "Luguru",
+    "Fulani artist made for Tuareg", "France (uncertain)")."""
     f = fold(name)
-    return (not f or saa._EXCL_RE.search(f) is not None or re.search(r"(?i)\(uncertain\)|^unknown|^various|^not recorded",
-                                                                      name) is not None
-            or match_lex(OCEANIA_LEX + AFRICA_LEX, f) and len(f.split()) <= 2 and not re.search(r"(?i) of ", name))
+    if not f or saa._EXCL_RE.search(f) or re.search(r"(?i)\(uncertain\)|^unknown|^various|^not recorded|^unidentified",
+                                                    name):
+        return True
+    if re.search(r"(?i)\bartists?\b|\bpeoples?\b|\bculture\b|\btribe\b", name) and \
+            match_lex(OCEANIA_LEX + AFRICA_LEX, f):
+        return True
+    core = fold(re.sub(r"\(.*?\)", " ", name))
+    pm = place_match(core)
+    if pm:
+        rest = DIRECTIONS.sub(" ", core.replace(fold(pm[2]), " "))
+        if not re.sub(r"[^a-z]", "", rest):
+            return True
+    return bool(match_lex(OCEANIA_LEX + AFRICA_LEX, f) and len(f.split()) <= 2 and not re.search(r"(?i) of ", name))
 
 
 def make_row(r):
@@ -967,12 +1022,19 @@ def make_row(r):
                                                          and re.search(r"(?i)stone|flint|chert|quartz|obsidian",
                                                                        r["materials"] + " " + ftitle)):
         return drop(src, "prehistoric lithic / debitage / sherd")
+    otype1 = fold(re.split(r";", r["otype"] or "")[0]).strip()
+    if NONART.search(otype1):
+        return drop(src, "non-object media (recordings, typography, ephemera, installations)")
+    if TOOLS.match(otype1) and not TOOL_KEEP.search(r["title"] + " " + r["otype"] + " " + r["materials"]) \
+            and not any(n and not not_maker(n) for n, _ in r["makers"]):
+        return drop(src, "utilitarian tool / archaeological implement")
     named, western = [], []
     for n, role in r["makers"]:
         if not n or not_maker(n) or not is_named(n, region):
             continue
-        western.append(bool(saa.WESTERN.search(n) or saa.WESTERN_TITLES.search(n)))
-        nm = clean_maker(n)
+        western.append(bool(saa.WESTERN.search(n) or saa.WESTERN_TITLES.search(n) or WESTERN_FIRM.search(n)))
+        nm = clean_maker(re.sub(r"(?i)^design invented by\s+|\s+from (the )?village of .*$|\s+\((died|born|active)[^)]*\)$",
+                                "", n.strip()))
         if nm and (nm, role) not in [(a, b_) for a, b_, _ in named]:
             named.append((nm, role, maker_kind(n)))
     row = {"source": src, "id": r["id"], "region": region,

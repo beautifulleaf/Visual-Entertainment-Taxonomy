@@ -28,8 +28,13 @@ spaced ~1 s apart; re-runs read the cache, so an interrupted run resumes):
       still too large.
       Makers come from the 〈…筆／…〉 part of the official name.
   National Palace Museum, Taipei (npm/)
-      The open-data portal (digitalarchive.npm.gov.tw/opendata): the whole
-      catalogue listed by dynasty x category (~108k objects). Listings give
+      The open-data portal (digitalarchive.npm.gov.tw/opendata). Its per-category
+      JSON dumps (odapi.npm.gov.tw/.../digitalCollection/*.json, listed on
+      data.gov.tw) reset the connection from here, so the portal's search is
+      used: category counts per dynasty for the whole catalogue (~108k objects,
+      used as catalogue counts in the traditions table), and item listings for
+      the artist-led categories 繪畫 / 法書 / 成扇 (~25k; --npm-all-categories
+      lists everything, but the portal serves only ~4 items/s). Listings give
       only the title, so painting / calligraphy / fan makers are parsed from
       the title convention "dynasty + maker + title" (明沈周廬山高 軸), using a
       lexicon of known names (Cleveland, ColBase) and a frequency rule for the
