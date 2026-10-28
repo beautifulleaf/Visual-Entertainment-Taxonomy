@@ -58,4 +58,4 @@ VE has nothing on shunga, pin-up, glamour, men's magazines or French postcards, 
 ## Published
 
 - Visual Entertainment Taxonomy: https://claude.ai/artifact/3i6kmC3zQdvQ5PL5ckrFQb, version 3 (1793215548-90b3), 2026-10-28. `artifact/full/` in this repo holds the page and all 22 data files as published.
-- Pleasure Taxonomies: https://claude.ai/artifact/N7rBgCKAyKhaBiAbqJS6Z5, version 21 (1793215515-6fe1), EP v6.4.
+- Pleasure Taxonomies: https://claude.ai/artifact/N7rBgCKAyKhaBiAbqJS6Z5, version 22 (1793215902-cdca), EP v6.4.
