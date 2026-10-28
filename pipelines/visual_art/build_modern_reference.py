@@ -47,11 +47,15 @@ import math
 import os
 import re
 import sys
+import time
 import unicodedata
+import urllib.error
+import urllib.parse
+import urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from regions import MEDIA, MODERN_REGIONS, active_span  # noqa: E402
-from wikidata import sparql, year_of  # noqa: E402
+from wikidata import UA, sparql, year_of  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 RAW = os.path.join(ROOT, "data", "raw", "wikidata", "modern_reference")
@@ -63,7 +67,8 @@ OUT = os.path.join(ROOT, "data", "interim")
 ACTIVE = (1860, 1960)
 BIRTH_RANGE = (1790, 1936)        # anyone who can be active inside ACTIVE
 INCEPTION_RANGE = (1855, 1960)
-MEDIAN_BIRTH_RANGE = (1800, 1922)
+MEDIAN_BIRTH_RANGE = (1815, 1925)   # for movements with no inception date
+MAX_ASSOCIATION = 40              # P463-only groups larger than this are professional associations
 MIN_MEMBERS = 3
 SHARE, MIN_K, MAX_K = 0.30, 3, 60
 SMALL_CAP = 25
@@ -81,8 +86,18 @@ GROUP_TYPES = ["Q4502119", "Q1400264", "Q1887220", "Q2736610", "Q1558054"]
 UMBRELLA = {
     "Q38166": "modern art", "Q186030": "contemporary art", "Q128115": "abstract art",
     "Q1414236": "modernism", "Q215592": "avant-garde", "Q1640824": "figurative art",
-    "Q2111604": "post-war art",
+    "Q2111604": "post-war art", "Q878985": "modernism", "Q102932": "avant-garde",
+    "Q47783": "postmodernism",
 }
+# P31 values that mark an organisation rather than a movement (unions, salons, academies).
+NON_MOVEMENT = {
+    "Q178790": "trade union", "Q1151067": "professional association", "Q955824": "learned society",
+    "Q4671277": "academic institution", "Q3918": "university", "Q1664720": "institute",
+    "Q48204": "voluntary association", "Q163740": "nonprofit organization", "Q2085381": "publisher",
+    "Q3152824": "cultural institution", "Q1785733": "environmental organization", "Q988108": "club",
+    "Q15911314": "association", "Q667276": "art exhibition", "Q464980": "exhibition",
+}
+WESTERN = ("europe", "north_america")
 # Collections that are model features (Met, AIC, Cleveland) or not curatorial.
 EXCLUDED_COLLECTIONS = {"Q160236", "Q239303", "Q657415", "Q768717"}
 ART_OCCUPATIONS = {o for m, occs in MEDIA.items() for o in occs}
@@ -195,6 +210,73 @@ def fetch_collections(qids):
             out[r["a"]] = [int(r["nc"]), int(r["nw"])]
         return out
     return chunked_cache("collections.json", qids, q)
+
+
+def fetch_nonwestern_candidates():
+    """Movement-type items with an English Wikipedia article: title, countries, inception."""
+    types = " ".join("wd:" + t for t in MOVEMENT_TYPES)
+    rows = cached("movement_items_enwiki.json", lambda: sparql(f"""
+        SELECT ?m ?title (GROUP_CONCAT(DISTINCT STRAFTER(STR(?c), "entity/"); separator="|") AS ?countries)
+               (MIN(?s) AS ?start) WHERE {{
+          VALUES ?t {{ {types} }} ?m wdt:P31 ?t .
+          ?art schema:about ?m ; schema:isPartOf <https://en.wikipedia.org/> ; schema:name ?title .
+          OPTIONAL {{ ?m wdt:P495|wdt:P17 ?c }} OPTIONAL {{ ?m wdt:P571|wdt:P580 ?s }}
+        }} GROUP BY ?m ?title"""))
+    return rows
+
+
+def wiki_get(params):
+    """English Wikipedia API call, paced and honouring Retry-After."""
+    url = "https://en.wikipedia.org/w/api.php?" + urllib.parse.urlencode({**params, "format": "json"})
+    for attempt in range(10):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=60) as r:
+                data = json.load(r)
+            time.sleep(1)
+            return data
+        except urllib.error.HTTPError as e:
+            wait = int(e.headers.get("Retry-After") or 0) or min(300, 10 * 2 ** attempt)
+            print(f"    Wikipedia HTTP {e.code}, retrying in {wait}s")
+            time.sleep(wait)
+        except (urllib.error.URLError, TimeoutError, ConnectionError, json.JSONDecodeError) as e:
+            print(f"    Wikipedia {e}, retrying")
+            time.sleep(min(300, 10 * 2 ** attempt))
+    raise RuntimeError("Wikipedia API failed repeatedly")
+
+
+def article_link_qids(titles):
+    """{title: [QIDs of the articles it links to]} (cached; namespace 0 only)."""
+    def q(chunk):
+        out = {}
+        for title in chunk:
+            qids, cont = [], {}
+            while True:
+                data = wiki_get({"action": "query", "titles": title, "redirects": 1, "generator": "links",
+                                 "gplnamespace": 0, "gpllimit": "max", "prop": "pageprops",
+                                 "ppprop": "wikibase_item", **cont})
+                for page in data.get("query", {}).get("pages", {}).values():
+                    q_ = page.get("pageprops", {}).get("wikibase_item")
+                    if q_:
+                        qids.append(q_)
+                if "continue" not in data:
+                    break
+                cont = {k: v for k, v in data["continue"].items()}
+            out[title] = sorted(set(qids))
+        return out
+    return chunked_cache("enwiki_links.json", titles, q)
+
+
+def filter_artists(qids):
+    """{qid: bool}: is a person with a visual-art occupation born inside BIRTH_RANGE."""
+    occ = " ".join("wd:" + o for o in sorted(ART_OCCUPATIONS))
+
+    def q(chunk):
+        values = " ".join("wd:" + a for a in chunk)
+        hits = {r["a"] for r in sparql(f"""SELECT DISTINCT ?a WHERE {{ VALUES ?a {{ {values} }}
+              ?a wdt:P569 ?b . {date_filter("b", *BIRTH_RANGE)}
+              FILTER EXISTS {{ VALUES ?o {{ {occ} }} ?a wdt:P106 ?o }} }}""")}
+        return {a: a in hits for a in chunk}
+    return chunked_cache("link_targets_artists.json", qids, q)
 
 
 def fetch_continents(countries):
@@ -325,6 +407,30 @@ def main():
 
     print("memberships")
     pairs = fetch_memberships()
+
+    # Non-Western movements are thinly linked on Wikidata (the Bengal School, the
+    # Progressive Artists' Group and the Nsukka group have no P135/P463 members), so
+    # for movements based outside Europe and North America the artists linked from
+    # the movement's English Wikipedia article count as members too, if they are
+    # visual artists from the movement's own region.
+    print("non-Western movements: Wikipedia article links")
+    cands = fetch_nonwestern_candidates()
+    ccountries = sorted({c for r in cands for c in r.get("countries", "").split("|") if re.fullmatch(r"Q\d+", c)})
+    ccont = fetch_continents(ccountries)
+    nonwestern = {}
+    for r in cands:
+        reg = modern_region({"P27": r.get("countries", "").split("|")}, ccont)
+        start = year_of(r.get("start"))
+        if reg not in WESTERN + ("unknown", "other") and (start is None or INCEPTION_RANGE[0] <= start <= INCEPTION_RANGE[1]):
+            nonwestern[r["m"]] = (r["title"], reg)
+    print(f"  {len(nonwestern)} non-Western movement items with an English article")
+    links = article_link_qids(sorted({t for t, _ in nonwestern.values()}))
+    targets = sorted({q for t, _ in nonwestern.values() for q in links.get(t, [])})
+    is_artist = filter_artists(targets)
+    link_pairs = [{"a": q, "m": m, "prop": "enwiki", "region": reg}
+                  for m, (t, reg) in nonwestern.items() for q in links.get(t, []) if is_artist.get(q)]
+    print(f"  {len(link_pairs)} artist links before the region check")
+    pairs = pairs + link_pairs
     movements = sorted({p["m"] for p in pairs})
     artists = sorted({p["a"] for p in pairs})
     print(f"  {len(pairs)} artist-movement pairs, {len(movements)} movements, {len(artists)} artists")
@@ -347,11 +453,11 @@ def main():
 
     members = collections.defaultdict(set)
     via = collections.defaultdict(set)
+    region_of = {a: modern_region(info[a], continents) for a in artists if a in info}
     for p in pairs:
-        if eligible(p["a"]):
+        if eligible(p["a"]) and (p["prop"] != "enwiki" or region_of.get(p["a"]) == p["region"]):
             members[p["m"]].add(p["a"])
             via[p["m"]].add(p["prop"])
-    region_of = {a: modern_region(info[a], continents) for a in artists if a in info}
 
     # Movement filter.
     mrows = []
@@ -369,8 +475,13 @@ def main():
             reasons.append(f"<{MIN_MEMBERS} members")
         if start is not None and not INCEPTION_RANGE[0] <= start <= INCEPTION_RANGE[1]:
             reasons.append(f"inception {start}")
-        if median_birth is not None and not MEDIAN_BIRTH_RANGE[0] <= median_birth <= MEDIAN_BIRTH_RANGE[1]:
-            reasons.append(f"median birth {median_birth}")
+        if start is None and median_birth is not None and not MEDIAN_BIRTH_RANGE[0] <= median_birth <= MEDIAN_BIRTH_RANGE[1]:
+            reasons.append(f"undated, median birth {median_birth}")
+        bad = [NON_MOVEMENT[t] for t in md.get("types", []) if t in NON_MOVEMENT]
+        if bad:
+            reasons.append("organisation: " + ", ".join(bad))
+        if via.get(m) == {"P463"} and len(mem) > MAX_ASSOCIATION:
+            reasons.append(f"association (P463 only, {len(mem)} members)")
         types = [MOVEMENT_TYPES[t] for t in md.get("types", []) if t in MOVEMENT_TYPES]
         mrows.append({
             "movement_qid": m, "movement": md.get("label") or m, "types": "|".join(types) or "subclass",
@@ -421,23 +532,33 @@ def main():
             rule = f"top {args.share:.0%}"
         mr.update({"curatorial_coverage": round(covered, 2), "quota": min(k, len(ranked)), "rule": rule})
         for i, a in enumerate(ranked[:k], 1):
-            picks[a].append(((i - 1) / k, len(ranked), m, i))
+            picks[a].append((m, i))
 
     # Deduplicate: each artist goes to the movement where it ranks best (ties -> smaller movement).
     rows = []
     for a, ps in picks.items():
-        _, _, m, rank = min(ps)
+        # Listed once, WikiArt-style: under a movement of the artist's own region if
+        # any, preferring P135 (declared movement) over group membership, then the
+        # largest movement (the major style); the other picks go to also_in.
+        def pref(p):
+            mm = p[0]
+            return (kept[mm]["region"] != region_of[a], "P135" not in via[mm] and "enwiki" not in via[mm],
+                    -kept[mm]["members"], p[1])
+        ps = sorted(ps, key=pref)
+        m, rank = ps[0]
         rec = info[a]
         rows.append({"movement": kept[m]["movement"], "movement_qid": m, "movement_region": kept[m]["region"],
                      "region": region_of[a], "name": rec["label"] or a, "qid": a, "birth": rec["birth"],
                      "death": rec["death"], "rank_in_movement": rank,
-                     "also_in": "|".join(kept[x]["movement"] for _, _, x, _ in sorted(ps)[1:]), **sig[a]})
+                     "also_in": "|".join(kept[x]["movement"] for x, _ in ps[1:]), **sig[a]})
     rows.sort(key=lambda r: (r["movement_region"], r["movement"], r["rank_in_movement"]))
 
+    picked = collections.Counter(m for ps in picks.values() for m, _ in ps)
     for mr in mrows:
-        mr["reference_artists"] = sum(1 for r in rows if r["movement_qid"] == mr["movement_qid"])
+        mr["reference_artists"] = picked.get(mr["movement_qid"], 0)
+        mr["listed_under"] = sum(1 for r in rows if r["movement_qid"] == mr["movement_qid"])
     with open(os.path.join(OUT, "modern_reference_movements.csv"), "w", newline="", encoding="utf-8") as f:
-        cols = list(mrows[0]) + ["curatorial_coverage", "quota", "rule"]
+        cols = list(mrows[0]) + ["curatorial_coverage", "quota", "rule", "listed_under"]
         w = csv.DictWriter(f, fieldnames=list(dict.fromkeys(cols)))
         w.writeheader()
         w.writerows(sorted(mrows, key=lambda r: (-r["kept"], r["region"], -r["members"])))
