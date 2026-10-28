@@ -90,6 +90,11 @@ The target depth is the owner-supplied list in `seeds/visual-art/europe_1400-190
 
 - **At the 95% target the cutoff is very low.** The bottom 5% of the reference list have almost no presence in any source (Mazzolini, Bidau, Papin score ≈ 0), so the cutoff (score 0.0049) takes about half the pool. Cross-validated, the same cutoff recovers 94.8% out of fold.
 - **Open decision:** keep 95% (22k), or take 90% (13k) and add the stragglers explicitly as reference members. Architecture is large at any cutoff, because Wikidata documents 19th-century architects densely; a per-medium cap or a higher architecture cutoff may be wanted.
+- **Decided (2026-10-28): architecture enters through buildings, not architects.** Premodern architecture is mostly not architect-based, and Wikidata's architect coverage is skewed to 19th-century municipal practice. So:
+  - the unit is the **building/monument**: Wikidata buildings and structures with style (P149), inception, country, architect (P84), heritage designation (P1435, UNESCO P757) and sitelinks, selected per region × period like the tradition nodes;
+  - **architects are included when they designed a selected building**, and are placed under it and its style;
+  - the depth model no longer selects architects on its own; its architecture rows are kept only as a cross-check.
+  - The building harvest is queued behind the current Wikidata jobs.
 
 ## 2A. Unattributed traditions: antiquity, decorative arts, architecture
 
