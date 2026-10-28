@@ -153,9 +153,9 @@ def va_members():
     for code, v in m.items():
         seen, out = set(), []
         for k in v:
-            if k[0].lower() in seen:
+            if re.sub(r"\W", "", k[0].lower()) in seen:
                 continue
-            seen.add(k[0].lower())
+            seen.add(re.sub(r"\W", "", k[0].lower()))
             out.append(k)
         m[code] = out
     return m, alias, disp
