@@ -1,0 +1,389 @@
+pool_id,slice,label,old,disposition,note
+africa_oceania_targeted:Kota,south_asia,Kota,route:africa,tag:place,gap: no leaf in destination; Kota reliquary figures (mbulu ngulu) not built in africa; nearest africa:L46 Fang Reliquary Guardians is another people
+met/aic:Kota,south_asia,Kota,route:africa,tag:place,gap: no leaf in destination; Kota reliquary figures (mbulu ngulu) not built in africa; nearest africa:L46 Fang Reliquary Guardians is another people
+in_situ:mural - Bangladesh (modern),south_asia,mural - Bangladesh (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+"met/aic:Kota, Mbete group",south_asia,"Kota, Mbete group",route:africa,tag:place,gap: no leaf in destination; Kota reliquary figures not built in africa
+"met/aic:Pakistani, Gilgit Kingdom",south_asia,"Pakistani, Gilgit Kingdom",route:himalaya_central_asia,kind:himalaya_central_asia:L12/Patola Shahi (Gilgit),one Patola Shahi sculpture; Gilgit bronzes are grouped with Kashmiri Bronzes
+in_situ:rock relief - Pakistan (undated),south_asia,rock relief - Pakistan (undated),route:himalaya_central_asia,tag:place,gap: no leaf in destination; Kargah Buddha (Gilgit) is a Buddhist rock relief; himalaya_central_asia has only petroglyph L1 leaves
+in_situ:mural - India (modern),south_asia,mural - India (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+world_folk:Naxi Dongba painting,himalaya_central_asia,Naxi Dongba painting,route:east_asia,kind:east_asia:L9/Dongba painting,painted ritual cards and scrolls of the Dongba priests: kind of Dongba Manuscripts
+himalaya_central_asia:Naxi,himalaya_central_asia,Naxi,route:east_asia,tag:place,culture label (Naxi paintings 15); evidences east_asia:L9 Dongba Manuscripts
+in_situ:rock relief - Afghanistan (undated),himalaya_central_asia,rock relief - Afghanistan (undated),route:ancient_world,kind:ancient_world:L45/Rag-i Bibi,Sasanian rock relief at Rag-i Bibi (Q2127181)
+rijks/wereldmuseum:Marind,southeast_asia,Marind,route:oceania_australia,tag:place,culture bucket; mostly drawings by missionary P. Vertenten
+"gap_sweep:Thai temple painting (phra bot banners, murals)",southeast_asia,"Thai temple painting (phra bot banners, murals)",route:artist-led,tag:place,"mixed: Marius Bauer's Orientalist studies (21, artist pass T112) and phra bot banners; no Thai banner-painting leaf (gap); murals are southeast_asia:L62"
+gap_sweep:Balinese painting (other),southeast_asia,Balinese painting (other),route:artist-led,tag:place,"European painters of Bali (Bauer, Tharle-Hughes) placed in the artist pass; Balinese painting proper is southeast_asia:L5"
+"gap_sweep:Vietnamese painting (Nguyen court, silk, Indochina school)",southeast_asia,"Vietnamese painting (Nguyen court, silk, Indochina school)",route:artist-led,tag:place,gap: Indochina school painting has no leaf (nearest southeast_asia:L6 Sơn Mài is lacquer)
+manuscripts:Chinese illustrated manuscripts and scrolls (1000+),east_asia,Chinese illustrated manuscripts and scrolls (1000+),route:artist-led,tag:place,"mixed bucket of Chinese scrolls and manuscripts; modern ink painters (Chen Shizeng, Li Keran) are placed in the artist pass"
+met/aic:Edo,east_asia,Edo,route:africa,leaf:africa:L22,"Met ""Edo"" = Edo of Benin (sculpture, metalwork, ivory): Benin court art, as the africa slice placed its Edo rows"
+gap_sweep:Japanese mingei (folk-craft) movement,east_asia,Japanese mingei (folk-craft) movement,route:artist-led,leaf:artists:T171,Mingei (Q3314961)
+manuscripts:Japanese emaki (Yamato-e),east_asia,Japanese emaki (Yamato-e),route:artist-led,kind:artists:T8/emaki,Yamato-e narrative handscrolls
+manuscripts:Emakimono (narrative handscrolls),east_asia,Emakimono (narrative handscrolls),route:artist-led,kind:artists:T8/emaki,Q1190781
+"met/aic:Chinese, Xinjiang Autonomous Region",east_asia,"Chinese, Xinjiang Autonomous Region",route:himalaya_central_asia,tag:place,place bucket: Tibetan Empire (70) and Khotan (17) metalwork; no Tibetan Empire metalwork leaf (gap)
+smithsonian:Chinantec,east_asia,Chinantec,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+rijks/wereldmuseum:Kyoto,east_asia,Kyoto,route:artist-led,tag:place,place bucket; photographs by Felice Beato and Kusakabe Kimbei evidence artists:T174 Early Photography
+rijks/wereldmuseum:Waropen,east_asia,Waropen,route:oceania_australia,tag:place,New Guinea culture bucket (mixed objects)
+met/aic:Chinese with French mounts,east_asia,Chinese with French mounts,route:europe_other,kind:europe_other:L36/mounted porcelain,Chinese porcelain with French gilt-bronze mounts
+world_folk:Japanese mingei,east_asia,Japanese mingei,route:artist-led,alias:artists:T171,Mingei
+"met/aic:British, London mounts and Chinese porcelain",east_asia,"British, London mounts and Chinese porcelain",route:europe_other,kind:europe_other:L36/mounted porcelain,Chinese porcelain with London mounts
+manuscripts:ukiyo-e,east_asia,ukiyo-e,route:artist-led,alias:artists:T127,Q185905
+"in_situ:Japanese screen and wall painting (shōhekiga, fusuma-e)",east_asia,"Japanese screen and wall painting (shōhekiga, fusuma-e)",route:artist-led,kind:artists:T9/shōhekiga,Kanō screen and wall painting; Hasegawa a seam
+in_situ:mural - Japan (modern),east_asia,mural - Japan (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mosaic - Taiwan (undated),east_asia,mosaic - Taiwan (undated),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mosaic - Japan (modern),east_asia,mosaic - Japan (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mosaic - South Korea (modern),east_asia,mosaic - South Korea (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:Modern land art (China),east_asia,Modern land art (China),route:artist-led,kind:artists:T198,Buddha's palm
+world_folk:ukiyo-e,east_asia,ukiyo-e,route:artist-led,leaf:artists:T127,Q185905
+world_folk:Nihonga,east_asia,Nihonga,route:artist-led,leaf:artists:T13,Q1989975
+world_folk:Korean painting,east_asia,Korean painting,route:artist-led,tag:place,"country label (painting in Korea, Q1187814)"
+world_folk:seal cutting,east_asia,seal cutting,route:artist-led,kind:artists:T130/seal carving (zhuanke),Q1051110; seal carving belongs with the calligraphy lineages
+world_folk:Yōga,east_asia,Yōga,route:artist-led,leaf:artists:T110,Q1633309
+world_folk:Utagawa school,east_asia,Utagawa school,route:artist-led,kind:artists:T127/Utagawa school,Q2297646
+world_folk:Regong arts,east_asia,Regong arts,route:himalaya_central_asia,leaf:himalaya_central_asia:L6,Q2306483
+world_folk:Mingei,east_asia,Mingei,route:artist-led,alias:artists:T171,Q3314961
+world_folk:Bulhwajang,east_asia,Bulhwajang,route:artist-led,tag:place,"gap: Korean Buddhist painting (bulhwa, Q123053258) has no leaf in east_asia or the artist slice"
+world_folk:Beonwajang,east_asia,Beonwajang,route:VA-K,tag:place,gap: no leaf in destination; Korean roof-tile laying (K8 East Asian architecture has no leaves yet)
+world_folk:Jewajang,east_asia,Jewajang,route:VA-K,tag:place,gap: no leaf in destination; Korean roof-tile making (K8 East Asian architecture has no leaves yet)
+world_folk:Dong Ho woodblock prints,east_asia,Dong Ho woodblock prints,route:southeast_asia,leaf:southeast_asia:L8,Đông Hồ Painting
+gap_sweep:Regong (Rebkong) art,east_asia,Regong (Rebkong) art,route:himalaya_central_asia,alias:himalaya_central_asia:L6,Q2306483
+gap_sweep:Bulhwajang,east_asia,Bulhwajang,route:artist-led,tag:place,"gap: Korean Buddhist painting (bulhwa, Q123053258) has no leaf in east_asia or the artist slice"
+gap_sweep:Jewajang,east_asia,Jewajang,route:VA-K,tag:place,gap: no leaf in destination; Korean roof-tile making (K8 East Asian architecture has no leaves yet)
+gap_sweep:Daemokjang,east_asia,Daemokjang,route:VA-K,tag:place,gap: no leaf in destination; Korean timber architecture (K8 has no leaves yet)
+smithsonian:San Ildefonso Pueblo,africa,San Ildefonso Pueblo,route:north_america_indigenous,kind:north_america_indigenous:L22/San Ildefonso,pottery c. 220 of 564 (blackware); watercolours 195 are the San Ildefonso painters (artist pass)
+"smithsonian:possibly Multiple archaeological cultures (attributed), including Ancestral Pueblo (Anasazi): Basketmaker and Ancestral Pueblo (Anasazi): Northern San Juan Traditions",africa,"possibly Multiple archaeological cultures (attributed), including Ancestral Pueblo (Anasazi): Basketmaker and Ancestral Pueblo (Anasazi): Northern San Juan Traditions",route:north_america_indigenous,tag:place,"multi-culture lot: tools 138, sandals 59; no medium dominates"
+smithsonian:probably San Pedro de Atacama Tradition (archaeological culture) (attributed),africa,probably San Pedro de Atacama Tradition (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:possibly Ancestral Pueblo (Anasazi): Northern San Juan (archaeological) (attributed),africa,possibly Ancestral Pueblo (Anasazi): Northern San Juan (archaeological) (attributed),route:north_america_indigenous,kind:north_america_indigenous:L14/Northern San Juan (Mesa Verde),pottery 353 of 405
+smithsonian:Ohkay Owingeh (San Juan Pueblo),africa,Ohkay Owingeh (San Juan Pueblo),route:north_america_indigenous,tag:place,"culture label; evidence spread (containers 71, ritual 47, painting 23)"
+smithsonian:San Carlos Apache,africa,San Carlos Apache,route:north_america_indigenous,tag:place,culture label; evidence spread across media
+"gap_sweep:Swahili coast (Kilwa, Lamu, Zanzibar) arts",africa,"Swahili coast (Kilwa, Lamu, Zanzibar) arts",route:islamic,"kind:K1-17/Swahili coast arts (doors, furniture)",Q7652972 Swahili architecture
+smithsonian:Otomí [San Pablito],africa,Otomí [San Pablito],route:mesoamerica_south_america,kind:mesoamerica_south_america:L12/San Pablito Otomí,amate paper 162 of 177 (made-for-sale)
+smithsonian:probably Ancestral Pueblo (Anasazi): Northern San Juan (archaeological) (attributed),africa,probably Ancestral Pueblo (Anasazi): Northern San Juan (archaeological) (attributed),route:north_america_indigenous,kind:north_america_indigenous:L14/Northern San Juan (Mesa Verde),pottery 47 of 70
+africa_oceania_targeted:Tuareg,africa,Tuareg,route:islamic,kind:G3-4/Tuareg,Tuareg silver jewellery (arms 31 a seam with G2-1)
+world_folk:Senegalese reverse-glass painting (souwer),africa,Senegalese reverse-glass painting (souwer),route:VA-A6,kind:europe_folk_west:L1/souwer (Senegal),"souwer, Senegalese reverse-glass painting: kind of Reverse Glass Painting (A6 leaf made by europe_folk_west)"
+americas_oceania:Pueblo: San Ildefonso,africa,Pueblo: San Ildefonso,route:north_america_indigenous,kind:north_america_indigenous:L22/San Ildefonso,ceramics 23; maker Maria Martinez
+met/aic:North African,africa,North African,route:islamic,tag:place,"region bucket (swords, lapidary)"
+"manuscripts:Nubian (Old Nubian, Greek, Coptic)",africa,"Nubian (Old Nubian, Greek, Coptic)",route:ancient_world,tag:place,gap: no leaf in destination; Old Nubian manuscripts: no leaf; samples are Qur'an folios (mis-assigned)
+world_folk:Edgefield stoneware and face jugs,africa,Edgefield stoneware and face jugs,route:VA-E3,tag:place,gap: no leaf in destination; Edgefield pottery (wiki:Edgefield pottery; Dave the Potter) has no E3 leaf; American stoneware not built
+gap_sweep:Aksumite art,africa,Aksumite art,route:ancient_world,tag:place,"gap: no leaf in destination; Aksum: no ancient_world leaf (stelae would be K3, coins excluded)"
+in_situ:mural - Tunisia (undated),africa,mural - Tunisia (undated),route:islamic,tag:place,"one mural, Skanes Palace"
+world_folk:Kebaya Labuh dan Teluk Balangga,africa,Kebaya Labuh dan Teluk Balangga,route:southeast_asia,tag:place,gap: no leaf in destination; Malay dress (Q65209942): southeast_asia has no H7 leaves
+met/aic:Islamic,ancient_world,Islamic,route:islamic,tag:period,"Met ""Islamic"" umbrella (ceramics, metalwork, glass)"
+met/aic:Islamic Period,ancient_world,Islamic Period,route:islamic,tag:period,period label
+met/aic:Greek Islands,ancient_world,Greek Islands,route:europe_folk_east,leaf:europe_folk_west:L9,"Met Greek Islands textiles (18th c.) = Greek Island Embroidery; europe_folk_east made no Greek leaf, europe_folk_west did"
+met/aic:Indus,ancient_world,Indus,route:south_asia,tag:place,"gap: no leaf in destination; Indus civilisation art not built in south_asia (seals, pottery, figurines)"
+met/aic:Early Harappan,ancient_world,Early Harappan,route:south_asia,tag:period,period label; Indus not built in south_asia
+met/aic:Sarmatian,ancient_world,Sarmatian,route:himalaya_central_asia,kind:himalaya_central_asia:L17/Sarmatian,Animal Style (steppe metalwork)
+met/aic:Migration,ancient_world,Migration,route:europe_other,leaf:europe_other:L32,Migration Period Art (met period row; metalwork 7 of 10)
+met/aic:Mature Harappan,ancient_world,Mature Harappan,route:south_asia,tag:period,period label; Indus not built in south_asia
+met/aic:East Germanic or nomadic,ancient_world,East Germanic or nomadic,route:europe_other,kind:europe_other:L32/East Germanic,Migration Period Art
+met/aic:Iberian Peninsula,ancient_world,Iberian Peninsula,route:europe_other,tag:place,Iron Age Iberian metalwork: no leaf (per europe_other report)
+"met/aic:Greek, Ionian Islands",ancient_world,"Greek, Ionian Islands",route:europe_folk_east,kind:europe_folk_west:L9/Ionian Islands,Greek Island Embroidery (europe_folk_west leaf)
+"met/aic:Greek Islands, Patmos",ancient_world,"Greek Islands, Patmos",route:europe_folk_east,kind:europe_folk_west:L9/Patmos,Greek Island Embroidery (europe_folk_west leaf)
+met/aic:Xiongnu,ancient_world,Xiongnu,route:himalaya_central_asia,kind:himalaya_central_asia:L17/Xiongnu,Animal Style (steppe metalwork)
+"met/aic:East German, Byzantine",ancient_world,"East German, Byzantine",route:europe_other,kind:europe_other:L32/East Germanic,"Migration Period Art (lapidary, c. 500)"
+"met/aic:Langobardic, Roman",ancient_world,"Langobardic, Roman",route:europe_other,kind:europe_other:L32/Lombard,Migration Period Art
+"met/aic:Ottonian, Byzantine",ancient_world,"Ottonian, Byzantine",route:europe_other,tag:period,Ottonian is not Migration Period and there is no Ottonian metalwork leaf (europe_other:L9 is Ottonian Illumination); Met dating (begin 337) is suspect
+in_situ:Modern land art (Egypt & Nubia),ancient_world,Modern land art (Egypt & Nubia),route:artist-led,kind:artists:T198,Desert Breath
+smithsonian:Sicangu Lakota (Brulé Sioux),mesoamerica_south_america,Sicangu Lakota (Brulé Sioux),route:north_america_indigenous,tag:place,culture label; evidences L52 Plains Beadwork
+in_situ:Modern land art (Mesoamerica),mesoamerica_south_america,Modern land art (Mesoamerica),route:artist-led,kind:artists:T198,Spiral Island
+gap_sweep:Talavera de la Reina ceramics,mesoamerica_south_america,Talavera de la Reina ceramics,route:europe_folk_west,leaf:europe_folk_west:L32,Q5763703
+smithsonian:probably Tumaco–La Tolita (archaeological culture) (attributed),north_america_indigenous,probably Tumaco–La Tolita (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,gap: Tumaco-La Tolita figures and gold not built
+smithsonian:possibly Multiple archaeological cultures (attributed); including Saladoid and Troumassan Troumassoid Traditions and Cayo Complex,north_america_indigenous,possibly Multiple archaeological cultures (attributed); including Saladoid and Troumassan Troumassoid Traditions and Cayo Complex,route:mesoamerica_south_america,exclude:archaeological tools,stone tools and food-gathering gear dominate (as the slice placed Mainland Caribbean)
+smithsonian:probably Chican Ostionoid (Chicoid) (archaeological culture) (attributed),north_america_indigenous,probably Chican Ostionoid (Chicoid) (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:Wixarika (Huichol),north_america_indigenous,Wixarika (Huichol),route:mesoamerica_south_america,tag:place,gap: Huichol yarn painting and beadwork (wiki:Huichol art) not built in mesoamerica_south_america
+smithsonian:possibly Multiple archaeological cultures (attributed); including Saladoid and Troumassoid Traditions and Cayo Complex,north_america_indigenous,possibly Multiple archaeological cultures (attributed); including Saladoid and Troumassoid Traditions and Cayo Complex,route:mesoamerica_south_america,exclude:archaeological tools,stone tools and food-gathering gear dominate (as the slice placed Mainland Caribbean)
+smithsonian:Guna [Guna Yala],north_america_indigenous,Guna [Guna Yala],route:mesoamerica_south_america,kind:mesoamerica_south_america:L76/Guna Yala,Guna culture row evidences Mola (as the slice placed Guna)
+smithsonian:possibly Tumaco–La Tolita (archaeological culture) (attributed),north_america_indigenous,possibly Tumaco–La Tolita (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,gap: Tumaco-La Tolita not built
+smithsonian:probably Central Andes (archaeological) (attributed),north_america_indigenous,probably Central Andes (archaeological) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:Chachilla (Cayapas),north_america_indigenous,Chachilla (Cayapas),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:probably Carchi (Nariño) (archaeological culture) (attributed),north_america_indigenous,probably Carchi (Nariño) (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,gap: Carchi/Nariño pottery (735 of 789) not built
+smithsonian:Quechua,north_america_indigenous,Quechua,route:mesoamerica_south_america,kind:mesoamerica_south_america:L70/Quechua,wool garments and headwear dominate
+smithsonian:Ngäbe (Guaymi),north_america_indigenous,Ngäbe (Guaymi),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Karajá (Caraja),north_america_indigenous,Karajá (Caraja),route:mesoamerica_south_america,tag:place,gap: Karajá ceramic figures (ritxoko) not built
+smithsonian:Guna (Kuna),north_america_indigenous,Guna (Kuna),route:mesoamerica_south_america,kind:mesoamerica_south_america:L76/Guna,Guna culture row evidences Mola
+smithsonian:possibly Chican Ostionoid (Chicoid) (archaeological culture) (attributed),north_america_indigenous,possibly Chican Ostionoid (Chicoid) (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:possibly Central Andes (archaeological) (attributed),north_america_indigenous,possibly Central Andes (archaeological) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:probably Valencioid (archaeological culture) (attributed),north_america_indigenous,probably Valencioid (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:Enxet (Lengua),north_america_indigenous,Enxet (Lengua),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:probably Ostionoid Tradition (archaeological culture) (attributed),north_america_indigenous,probably Ostionoid Tradition (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:Mískito (Mosquito),north_america_indigenous,Mískito (Mosquito),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+"smithsonian:possibly Multiple archaeological cultures (attributed), including Archaic Age (Ortoiroid) and Ostionoid Traditions",north_america_indigenous,"possibly Multiple archaeological cultures (attributed), including Archaic Age (Ortoiroid) and Ostionoid Traditions",route:mesoamerica_south_america,exclude:archaeological tools,stone tools and food-gathering gear dominate (as the slice placed Mainland Caribbean)
+smithsonian:probably Ulúa River (archaeological culture) (attributed),north_america_indigenous,probably Ulúa River (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:Akawaio (Acawai),north_america_indigenous,Akawaio (Acawai),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:probably Quechua (attributed),north_america_indigenous,probably Quechua (attributed),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Tomaráho (Tumraha),north_america_indigenous,Tomaráho (Tumraha),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Chamacoco (Zamuko),north_america_indigenous,Chamacoco (Zamuko),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Asháninka (Campa/Chuncha),north_america_indigenous,Asháninka (Campa/Chuncha),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Aymara,north_america_indigenous,Aymara,route:mesoamerica_south_america,kind:mesoamerica_south_america:L70/Aymara,"wool yarn 113, as the slice placed Aymara"
+smithsonian:probably Circumpuna Andes: Humahuaca region (archaeological) (attributed),north_america_indigenous,probably Circumpuna Andes: Humahuaca region (archaeological) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:probably Saladoid (archaeological culture) (attributed),north_america_indigenous,probably Saladoid (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:probably Elenan Ostionoid (Elenoid) (archaeological culture) (attributed),north_america_indigenous,probably Elenan Ostionoid (Elenoid) (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:probably Guerrero Nahua (attributed),north_america_indigenous,probably Guerrero Nahua (attributed),route:mesoamerica_south_america,tag:place,masks 235 of 269: no Mexican mask leaf (gap)
+smithsonian:Arawak,north_america_indigenous,Arawak,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:probably Meillacan Ostionoid (Meillacoid) (archaeological culture) (attributed),north_america_indigenous,probably Meillacan Ostionoid (Meillacoid) (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:Tapirapé (Tapirape),north_america_indigenous,Tapirapé (Tapirape),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:probably Shuar (attributed),north_america_indigenous,probably Shuar (attributed),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Nahua [Ameyaltepec],north_america_indigenous,Nahua [Ameyaltepec],route:mesoamerica_south_america,kind:mesoamerica_south_america:L12/Ameyaltepec,amate paintings 220 of 225
+smithsonian:probably Arica/Western Valleys Tradition (archaeological culture) (attributed),north_america_indigenous,probably Arica/Western Valleys Tradition (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:Chucunaque Guna (Kuna),north_america_indigenous,Chucunaque Guna (Kuna),route:mesoamerica_south_america,kind:mesoamerica_south_america:L76/Chucunaque Guna,cotton garments 214 of 218 (mola blouses)
+smithsonian:probably Selin Tradition (archaeological culture) (attributed),north_america_indigenous,probably Selin Tradition (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:Kogi (Kagaba),north_america_indigenous,Kogi (Kagaba),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Shuar/Achuar,north_america_indigenous,Shuar/Achuar,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Yagán (Yámana/Yahgan),north_america_indigenous,Yagán (Yámana/Yahgan),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Cora,north_america_indigenous,Cora,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+"smithsonian:possibly Multiple archaeological cultures (attributed); including Saladoid, Troumassan Troumassoid, and Suazan Troumassoid Traditions",north_america_indigenous,"possibly Multiple archaeological cultures (attributed); including Saladoid, Troumassan Troumassoid, and Suazan Troumassoid Traditions",route:mesoamerica_south_america,exclude:archaeological tools,stone tools and food-gathering gear dominate (as the slice placed Mainland Caribbean)
+"smithsonian:possibly Multiple archaeological cultures (attributed); including Archaic Age (Ortoiroid), Saladoid, and Mamoran Troumassoid Traditions",north_america_indigenous,"possibly Multiple archaeological cultures (attributed); including Archaic Age (Ortoiroid), Saladoid, and Mamoran Troumassoid Traditions",route:mesoamerica_south_america,exclude:archaeological tools,stone tools and food-gathering gear dominate (as the slice placed Mainland Caribbean)
+smithsonian:Lenca,north_america_indigenous,Lenca,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Borôro (Bororo),north_america_indigenous,Borôro (Bororo),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Wanka Quechua,north_america_indigenous,Wanka Quechua,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Cree [Cold Lake First Nations],north_america_indigenous,Cree [Cold Lake First Nations],route:artist-led,kind:artists:T113/Cree (Cold Lake),165 contemporary ink drawings (begin 2003): Contemporary Art period leaf
+smithsonian:Wayuu (Guajira/Goajiro),north_america_indigenous,Wayuu (Guajira/Goajiro),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+"smithsonian:possibly Multiple archaeological cultures (attributed); including Archaic Age (Ortoiroid), Saladoid, and Ostionoid Traditions",north_america_indigenous,"possibly Multiple archaeological cultures (attributed); including Archaic Age (Ortoiroid), Saladoid, and Ostionoid Traditions",route:mesoamerica_south_america,exclude:archaeological tools,stone tools and food-gathering gear dominate (as the slice placed Mainland Caribbean)
+smithsonian:Emberá (Choikoi),north_america_indigenous,Emberá (Choikoi),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:probably Ica-Chincha (archaeological culture) (attributed),north_america_indigenous,probably Ica-Chincha (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:probably Archaic Age (Ortoiroid) (archaeological culture) (attributed),north_america_indigenous,probably Archaic Age (Ortoiroid) (archaeological culture) (attributed),route:mesoamerica_south_america,exclude:archaeological tools,stone tools and food-gathering gear dominate (as the slice placed Mainland Caribbean)
+smithsonian:Yukpa (Macoa/Macoita/Yupa),north_america_indigenous,Yukpa (Macoa/Macoita/Yupa),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Warao,north_america_indigenous,Warao,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Shuar,north_america_indigenous,Shuar,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:probably Zenú (Sinú) (archaeological) (attributed),north_america_indigenous,probably Zenú (Sinú) (archaeological) (attributed),route:mesoamerica_south_america,tag:place,gap: Zenú goldwork (gold 122 of 140) not built
+smithsonian:probably Troumassoid Tradition (archaeological culture) (attributed),north_america_indigenous,probably Troumassoid Tradition (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:probably Multiple archaeological cultures (attributed); including Saladoid and Elenan Ostionoid (Elenoid),north_america_indigenous,probably Multiple archaeological cultures (attributed); including Saladoid and Elenan Ostionoid (Elenoid),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:possibly Aymara (attributed),north_america_indigenous,possibly Aymara (attributed),route:mesoamerica_south_america,kind:mesoamerica_south_america:L70/Aymara,wool yarn bags and headwear
+smithsonian:Witoto,north_america_indigenous,Witoto,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Nambikuára (Nambicuara),north_america_indigenous,Nambikuára (Nambicuara),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:possibly Quechua (attributed),north_america_indigenous,possibly Quechua (attributed),route:mesoamerica_south_america,kind:mesoamerica_south_america:L70/Quechua,wool headwear and garments
+smithsonian:Wounaan (Noanama),north_america_indigenous,Wounaan (Noanama),route:mesoamerica_south_america,tag:place,gap: Wounaan chunga-palm basketry (123 of 128) not built
+"smithsonian:probably Multiple archaeological cultures (attributed); including Archaic Age (Ortoiroid), Saladoid, and Ostionoid Traditions",north_america_indigenous,"probably Multiple archaeological cultures (attributed); including Archaic Age (Ortoiroid), Saladoid, and Ostionoid Traditions",route:mesoamerica_south_america,exclude:archaeological tools,stone tools and food-gathering gear dominate (as the slice placed Mainland Caribbean)
+smithsonian:Ka'apor,north_america_indigenous,Ka'apor,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Canelos Kichua,north_america_indigenous,Canelos Kichua,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:possibly Central Andes/South Coast (archaeological) (attributed),north_america_indigenous,possibly Central Andes/South Coast (archaeological) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+"smithsonian:possibly Multiple archaeological cultures (attributed), including Huecoid, Saladoid, and Mamoran Troumassoid Traditions",north_america_indigenous,"possibly Multiple archaeological cultures (attributed), including Huecoid, Saladoid, and Mamoran Troumassoid Traditions",route:mesoamerica_south_america,exclude:archaeological tools,stone tools and food-gathering gear dominate (as the slice placed Mainland Caribbean)
+smithsonian:Purepecha (Tarasco),north_america_indigenous,Purepecha (Tarasco),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Tukano (Tucano),north_america_indigenous,Tukano (Tucano),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Wichí (Mataco),north_america_indigenous,Wichí (Mataco),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:possibly Ostionoid Tradition (archaeological culture) (attributed),north_america_indigenous,possibly Ostionoid Tradition (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:Chorote (Choroti),north_america_indigenous,Chorote (Choroti),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+"smithsonian:possibly Multiple archaeological cultures (attributed); including Saladoid, Troumassan Troumassoid, Suazan Troumassoid Traditions and Cayo Complex",north_america_indigenous,"possibly Multiple archaeological cultures (attributed); including Saladoid, Troumassan Troumassoid, Suazan Troumassoid Traditions and Cayo Complex",route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:Ch'uta (Chuta),north_america_indigenous,Ch'uta (Chuta),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Huilliche,north_america_indigenous,Huilliche,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Pipil,north_america_indigenous,Pipil,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Yagua (Yahua),north_america_indigenous,Yagua (Yahua),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Guahibo,north_america_indigenous,Guahibo,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:probably Shuar/Achuar (attributed),north_america_indigenous,probably Shuar/Achuar (attributed),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Macushi (Macusi),north_america_indigenous,Macushi (Macusi),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:probably Purepecha (Tarasco) (attributed),north_america_indigenous,probably Purepecha (Tarasco) (attributed),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+"smithsonian:possibly Multiple archaeological cultures (attributed); including Archaic Age (Ortoiroid), Saladoid, Troumassan Troumassoid, Suazan Troumassoid Traditions and Cayo Complex",north_america_indigenous,"possibly Multiple archaeological cultures (attributed); including Archaic Age (Ortoiroid), Saladoid, Troumassan Troumassoid, Suazan Troumassoid Traditions and Cayo Complex",route:mesoamerica_south_america,exclude:archaeological tools,stone tools and food-gathering gear dominate (as the slice placed Mainland Caribbean)
+smithsonian:probably Ostionan Ostionoid (archaeological culture) (attributed),north_america_indigenous,probably Ostionan Ostionoid (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:Guerrero Nahua,north_america_indigenous,Guerrero Nahua,route:mesoamerica_south_america,kind:mesoamerica_south_america:L12/Guerrero Nahua,amate paintings 43 of 99 (masks 50 a seam: no mask leaf)
+smithsonian:probably Aymara (attributed),north_america_indigenous,probably Aymara (attributed),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Arecuna,north_america_indigenous,Arecuna,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Selk'nam (Ona),north_america_indigenous,Selk'nam (Ona),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Teribe (Terraba),north_america_indigenous,Teribe (Terraba),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Yanktonai Dakota,north_america_indigenous,Yanktonai Dakota,route:artist-led,kind:artists:T112/Yanktonai Dakota,"59 watercolours (begin 1948), Oscar Howe: Modern Art period leaf"
+"smithsonian:probably Multiple archaeological cultures (attributed); including Saladoid, Elenan Ostionoid (Elenoid), and Chican Ostionoid (Chicoid) Traditions",north_america_indigenous,"probably Multiple archaeological cultures (attributed); including Saladoid, Elenan Ostionoid (Elenoid), and Chican Ostionoid (Chicoid) Traditions",route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:Eastern Tukanoan (Tucanoan),north_america_indigenous,Eastern Tukanoan (Tucanoan),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Guana,north_america_indigenous,Guana,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Kadiwéu (Caduveo/Cadioeos/Guaicuru),north_america_indigenous,Kadiwéu (Caduveo/Cadioeos/Guaicuru),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:possibly Tierroid (archaeological culture) (attributed),north_america_indigenous,possibly Tierroid (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:Akurio (Acuria),north_america_indigenous,Akurio (Acuria),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:possibly Troumassoid Tradition (archaeological culture) (attributed),north_america_indigenous,possibly Troumassoid Tradition (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:Central America,north_america_indigenous,Central America,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Piro,north_america_indigenous,Piro,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Bribri,north_america_indigenous,Bribri,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Cofán (Cofan),north_america_indigenous,Cofán (Cofan),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:probably Highland Kichua (attributed),north_america_indigenous,probably Highland Kichua (attributed),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+"smithsonian:possibly Multiple archaeological cultures (attributed); including Archaic Age (Ortoiroid), Saladoid, and Ostionan Ostionoid Traditions",north_america_indigenous,"possibly Multiple archaeological cultures (attributed); including Archaic Age (Ortoiroid), Saladoid, and Ostionan Ostionoid Traditions",route:mesoamerica_south_america,exclude:archaeological tools,stone tools and food-gathering gear dominate (as the slice placed Mainland Caribbean)
+smithsonian:probably Central Andes/Central Coast (archaeological) (attributed),north_america_indigenous,probably Central Andes/Central Coast (archaeological) (attributed),route:mesoamerica_south_america,kind:mesoamerica_south_america:L70/Central Coast,camelid and cotton garments 31+ of 74
+smithsonian:Waiwai,north_america_indigenous,Waiwai,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Payómkawichum (Luiseño),north_america_indigenous,Payómkawichum (Luiseño),route:artist-led,kind:artists:T126/Luiseño,contemporary prints and drawings 56 of 71: Contemporary Printmaking
+smithsonian:Otomí (Otomi),north_america_indigenous,Otomí (Otomi),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:probably Pachacamac (archaeological culture) (attributed),north_america_indigenous,probably Pachacamac (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:Kalinago (Carib/Kalina) [Dominica],north_america_indigenous,Kalinago (Carib/Kalina) [Dominica],route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Saraguro,north_america_indigenous,Saraguro,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Tumaco–La Tolita (archaeological culture) (attributed),north_america_indigenous,Tumaco–La Tolita (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,gap: Tumaco-La Tolita not built
+smithsonian:Kareneri,north_america_indigenous,Kareneri,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Potawatomi [Oklahoma],north_america_indigenous,Potawatomi [Oklahoma],route:artist-led,kind:artists:T113/Potawatomi,ink drawings 32 of 63 (begin 1960): Contemporary Art period leaf
+smithsonian:Laklãnõ (Xokleng/Aweikoma),north_america_indigenous,Laklãnõ (Xokleng/Aweikoma),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Conibo,north_america_indigenous,Conibo,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Sumo,north_america_indigenous,Sumo,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Nahua,north_america_indigenous,Nahua,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:possibly Saladoid (archaeological culture) (attributed),north_america_indigenous,possibly Saladoid (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:Ticuna (Tucuna),north_america_indigenous,Ticuna (Tucuna),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Yanomamö (Yanomamo),north_america_indigenous,Yanomamö (Yanomamo),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Chácobo (Chacobo),north_america_indigenous,Chácobo (Chacobo),route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:probably Diaguita (archaeological culture) (attributed),north_america_indigenous,probably Diaguita (archaeological culture) (attributed),route:mesoamerica_south_america,tag:place,archaeological culture bucket (mis-regioned NMAI row); no named ware leaf
+smithsonian:Tehuelche,north_america_indigenous,Tehuelche,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Patamona,north_america_indigenous,Patamona,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Jicaque,north_america_indigenous,Jicaque,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+smithsonian:Machiguenga,north_america_indigenous,Machiguenga,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+in_situ:Modern land art (N. America Indigenous),north_america_indigenous,Modern land art (N. America Indigenous),route:artist-led,kind:artists:T198,"Spiral Jetty, Lightning Field, Double Negative (settler land art, mis-regioned as Indigenous)"
+in_situ:mural - United States (ancient),north_america_indigenous,mural - United States (ancient),route:ancient_world,kind:ancient_world:L54/Dura-Europos,Dura-Europos wall paintings at Yale; the leaf definition names Dura-Europos
+in_situ:mural - United States (medieval),north_america_indigenous,mural - United States (medieval),route:europe_other,kind:europe_other:L59/detached Spanish Romanesque frescoes,Spanish Romanesque frescoes in US museums
+world_folk:Bilum (PNG string bags),oceania_australia,Bilum (PNG string bags),route:southeast_asia,kind:southeast_asia:L54/bilum (Papua New Guinea),Q863375; Bilum redirects to Noken
+smithsonian:Desert Cahuilla [Torres-Martinez Reservation/Torres-Martinez Band],oceania_australia,Desert Cahuilla [Torres-Martinez Reservation/Torres-Martinez Band],route:north_america_indigenous,tag:place,culture label; evidence spread
+in_situ:Modern land art (Aboriginal Australia),oceania_australia,Modern land art (Aboriginal Australia),route:artist-led,kind:artists:T198,Marree Man
+in_situ:Modern land art (Oceania),oceania_australia,Modern land art (Oceania),route:artist-led,kind:artists:T198,Vacant lot of cabbages
+manuscripts:Gothic: French and Northern French,europe_other,Gothic: French and Northern French,route:artist-led,kind:artists:T134/French,Gothic Book Illustration
+"manuscripts:Gothic: Italian (Bologna, Florence, Siena, Lombardy)",europe_other,"Gothic: Italian (Bologna, Florence, Siena, Lombardy)",route:artist-led,kind:artists:T134/Italian,Gothic Book Illustration
+in_situ:mural - Spain (modern),europe_other,mural - Spain (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+manuscripts:Gothic: English,europe_other,Gothic: English,route:artist-led,kind:artists:T134/English,Gothic Book Illustration
+in_situ:Baroque and Rococo ceiling and quadratura painting,europe_other,Baroque and Rococo ceiling and quadratura painting,route:artist-led,kind:artists:T27/quadratura,"Baroque Painting (Pozzo, Tiepolo)"
+in_situ:mural - Germany (modern),europe_other,mural - Germany (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+manuscripts:Gothic: German and Austrian,europe_other,Gothic: German and Austrian,route:artist-led,kind:artists:T134/German,Gothic Book Illustration
+manuscripts:Bibles moralisées and illustrated Bibles,europe_other,Bibles moralisées and illustrated Bibles,route:artist-led,kind:artists:T134/Bible moralisée,Gothic Book Illustration; samples include Carolingian and Romanesque Bibles
+in_situ:mural - Czech Republic (modern),europe_other,mural - Czech Republic (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+met/aic:Hungarian,europe_other,Hungarian,route:europe_folk_east,tag:place,national folk textiles/dress place bucket
+in_situ:mural - United States (modern),europe_other,mural - United States (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+"in_situ:Italian Trecento and Renaissance fresco (Giotto, Masaccio, Michelangelo)",europe_other,"Italian Trecento and Renaissance fresco (Giotto, Masaccio, Michelangelo)",route:artist-led,kind:artists:T22/fresco,Italian Renaissance Painting; Trecento (Giotto) a seam with T18 Gothic Painting
+manuscripts:Flemish / Ghent-Bruges and Burgundian Netherlands,europe_other,Flemish / Ghent-Bruges and Burgundian Netherlands,route:artist-led,leaf:artists:T135,Ghent-Bruges School
+smithsonian:Deh Gah Got'ine (Slavey),europe_other,Deh Gah Got'ine (Slavey),route:north_america_indigenous,tag:place,culture label (Dene material culture)
+in_situ:mural - Netherlands (modern),europe_other,mural - Netherlands (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+manuscripts:Gothic: Low Countries,europe_other,Gothic: Low Countries,route:artist-led,kind:artists:T134/Low Countries,Gothic Book Illustration
+met/aic:Swedish,europe_other,Swedish,route:europe_folk_west,tag:place,national folk textiles/dress place bucket
+rijks/wereldmuseum:Colonial Insular Southeast Asian periodes and styles,europe_other,Colonial Insular Southeast Asian periodes and styles,route:southeast_asia,tag:period,period/style bucket (mixed objects)
+in_situ:mural - Austria (modern),europe_other,mural - Austria (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mosaic - Czech Republic (modern),europe_other,mosaic - Czech Republic (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mural - France (modern),europe_other,mural - France (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+"met/aic:European, Eastern",europe_other,"European, Eastern",route:europe_folk_east,tag:place,national folk textiles/dress place bucket
+in_situ:Modern land art (Western Europe),europe_other,Modern land art (Western Europe),route:artist-led,kind:artists:T198,Land Art
+met/aic:Romanian,europe_other,Romanian,route:europe_folk_east,tag:place,national folk textiles/dress place bucket
+manuscripts:Gothic: Parisian,europe_other,Gothic: Parisian,route:artist-led,kind:artists:T134/Parisian,Gothic Book Illustration (Pucelle)
+in_situ:mosaic - Germany (modern),europe_other,mosaic - Germany (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+manuscripts:Gothic: Iberian,europe_other,Gothic: Iberian,route:artist-led,kind:artists:T134/Iberian,Gothic Book Illustration
+met/aic:Czech,europe_other,Czech,route:europe_folk_east,tag:place,national folk textiles/dress place bucket
+in_situ:mural - Finland (modern),europe_other,mural - Finland (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mosaic - France (modern),europe_other,mosaic - France (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+met/aic:Albanian,europe_other,Albanian,route:europe_folk_east,tag:place,national folk textiles/dress place bucket
+met/aic:Montenegrin,europe_other,Montenegrin,route:europe_folk_east,tag:place,national folk textiles/dress place bucket
+in_situ:mural - Poland (modern),europe_other,mural - Poland (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+met/aic:Guatemalan,europe_other,Guatemalan,route:mesoamerica_south_america,tag:place,culture label (mis-regioned NMAI row); evidence spread across media
+in_situ:mural - Switzerland (modern),europe_other,mural - Switzerland (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+met/aic:Slovak,europe_other,Slovak,route:europe_folk_east,tag:place,national folk textiles/dress place bucket
+met/aic:Norwegian,europe_other,Norwegian,route:europe_folk_west,tag:place,national folk textiles/dress place bucket
+in_situ:mural - United Kingdom (modern),europe_other,mural - United Kingdom (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mosaic - Netherlands (modern),europe_other,mosaic - Netherlands (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mural - Portugal (modern),europe_other,mural - Portugal (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+americas_oceania:Native North American,europe_other,Native North American,route:north_america_indigenous,tag:place,umbrella culture label
+in_situ:mural - Canada (modern),europe_other,mural - Canada (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mural - Italy (modern),europe_other,mural - Italy (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+rijks/wereldmuseum:Native North American,europe_other,Native North American,route:north_america_indigenous,"exclude:European prints depicting Native Americans (subject, not tradition)",mostly European prints
+"met/aic:Italian, Padua",europe_other,"Italian, Padua",route:artist-led,kind:artists:T142/Paduan bronzes,Renaissance Sculpture (Riccio)
+in_situ:mosaic - Austria (modern),europe_other,mosaic - Austria (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+manuscripts:International Gothic,europe_other,International Gothic,route:artist-led,kind:artists:T134/International Gothic,"Limbourg brothers; manuscript row, so book illustration rather than T20"
+"manuscripts:Gothic: Central European (Poland, Hungary)",europe_other,"Gothic: Central European (Poland, Hungary)",route:artist-led,kind:artists:T134/Central European,Gothic Book Illustration
+in_situ:mural - Belgium (modern),europe_other,mural - Belgium (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:Lüftlmalerei (Alpine façade painting),europe_other,Lüftlmalerei (Alpine façade painting),route:europe_folk_west,tag:place,"gap: no leaf in destination; Lüftlmalerei (Q1880270, wiki:Lüftlmalerei) has no leaf in europe_folk_west"
+in_situ:mosaic - Switzerland (modern),europe_other,mosaic - Switzerland (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mosaic - Spain (modern),europe_other,mosaic - Spain (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mural - Sweden (modern),europe_other,mural - Sweden (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mosaic - United States (modern),europe_other,mosaic - United States (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:Modern land art (C&E Europe),europe_other,Modern land art (C&E Europe),route:artist-led,kind:artists:T198,Land Art
+manuscripts:Gothic: Bohemian,europe_other,Gothic: Bohemian,route:artist-led,kind:artists:T134/Bohemian,Gothic Book Illustration
+in_situ:mural - Ukraine (modern),europe_other,mural - Ukraine (modern),route:artist-led,kind:artists:T192,contemporary street murals (exemplars are street-art works)
+in_situ:mosaic - Italy (modern),europe_other,mosaic - Italy (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+"met/aic:Russian, Kholmogory",europe_other,"Russian, Kholmogory",route:europe_folk_east,tag:place,"gap: no leaf in destination; Kholmogory bone carving (chess sets) has no leaf in europe_folk_east (only Uelen, Tobolsk, Yakut)"
+in_situ:mosaic - Poland (modern),europe_other,mosaic - Poland (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mosaic - United Kingdom (modern),europe_other,mosaic - United Kingdom (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+met/aic:Bosnian,europe_other,Bosnian,route:europe_folk_east,tag:place,national folk textiles/dress place bucket
+in_situ:mural - Slovakia (modern),europe_other,mural - Slovakia (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mural - Denmark (modern),europe_other,mural - Denmark (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+"met/aic:Northern Italian, Padua",europe_other,"Northern Italian, Padua",route:artist-led,kind:artists:T142/Paduan bronzes,Renaissance Sculpture
+manuscripts:Ghent-Bruges / Flemish illumination,europe_other,Ghent-Bruges / Flemish illumination,route:artist-led,alias:artists:T135,Ghent-Bruges School
+manuscripts:Gothic (style recorded),europe_other,Gothic (style recorded),route:artist-led,leaf:artists:T134,Q1538834
+in_situ:mural - Hungary (modern),europe_other,mural - Hungary (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mosaic - Canada (modern),europe_other,mosaic - Canada (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mosaic - Belgium (modern),europe_other,mosaic - Belgium (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+"met/aic:Caucasian, Northern Dagestan",europe_other,"Caucasian, Northern Dagestan",route:islamic,kind:europe_folk_east:L43/arms,Kubachi dagger: Kubachi Silver (europe_folk_east) is the precise leaf; G2-1 the seam
+manuscripts:French Renaissance,europe_other,French Renaissance,route:artist-led,kind:europe_other:L13/French,Q2349908 on a manuscript row: Renaissance Illumination
+manuscripts:Early Netherlandish painting,europe_other,Early Netherlandish painting,route:artist-led,alias:artists:T21,Q443153 on a manuscript row
+in_situ:rock relief - Romania (ancient),europe_other,rock relief - Romania (ancient),route:artist-led,kind:artists:T149,"Statue of Decebalus (1994-2004), rock sculpture"
+in_situ:rock relief - Greece (early modern),europe_other,rock relief - Greece (early modern),route:artist-led,kind:artists:T144,"Lion of the Bavarians, Nafplio (1840s), Neoclassical Sculpture"
+in_situ:mural - Albania (modern),europe_other,mural - Albania (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mural - Belarus (modern),europe_other,mural - Belarus (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mural - Croatia (modern),europe_other,mural - Croatia (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mural - Estonia (modern),europe_other,mural - Estonia (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mural - Kosovo (modern),europe_other,mural - Kosovo (modern),route:artist-led,kind:artists:T192,contemporary street murals (exemplars are street-art works)
+in_situ:mural - Lithuania (modern),europe_other,mural - Lithuania (modern),route:artist-led,kind:artists:T192,contemporary street murals (exemplars are street-art works)
+in_situ:mural - North Macedonia (modern),europe_other,mural - North Macedonia (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mural - Serbia (modern),europe_other,mural - Serbia (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mural - Iceland (modern),europe_other,mural - Iceland (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mural - Ireland (modern),europe_other,mural - Ireland (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mural - Norway (modern),europe_other,mural - Norway (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mosaic - Albania (modern),europe_other,mosaic - Albania (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mosaic - Russia (modern),europe_other,mosaic - Russia (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mosaic - Serbia (modern),europe_other,mosaic - Serbia (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mosaic - Greece (modern),europe_other,mosaic - Greece (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mosaic - Finland (modern),europe_other,mosaic - Finland (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mosaic - Luxembourg (modern),europe_other,mosaic - Luxembourg (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mosaic - Norway (modern),europe_other,mosaic - Norway (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mosaic - Sweden (modern),europe_other,mosaic - Sweden (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+world_folk:American folk portraiture (limners),europe_other,American folk portraiture (limners),route:artist-led,kind:artists:T81/limners,"Naïve Art; limners are named painters (Ammi Phillips, Erastus Salisbury Field)"
+world_folk:manufacture of object in birch bark,europe_other,manufacture of object in birch bark,route:north_america_indigenous,tag:place,gap: no leaf in destination; Atikamekw birch-bark containers (Q116732437): north_america_indigenous has only Birchbark Biting (L50)
+in_situ:mural - Armenia (modern),europe_other,mural - Armenia (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:mosaic - Armenia (modern),europe_other,mosaic - Armenia (modern),route:artist-led,tag:place,"country bucket of modern murals/mosaics, mixed (church, civic, street); named artists placed in the artist pass"
+in_situ:Catholic tattooing in Bosnia and Herzegovina (sicanje),europe_other,Catholic tattooing in Bosnia and Herzegovina (sicanje),route:europe_folk_east,tag:place,gap: no leaf in destination; sicanje (Q3507857) has no L5 leaf in europe_folk_east
+europe_folk:Tuvan / woodcarving / woodwork,europe_folk_west,Tuvan / woodcarving / woodwork,route:europe_folk_east,tag:place,"culture or technique bucket, no named tradition (as europe_folk_east placed its sister rows)"
+europe_folk:Mansi / woodcarving / woodwork,europe_folk_west,Mansi / woodcarving / woodwork,route:europe_folk_east,tag:place,"culture or technique bucket, no named tradition (as europe_folk_east placed its sister rows)"
+europe_folk:Mansi / birch bark / basketry,europe_folk_west,Mansi / birch bark / basketry,route:europe_folk_east,tag:place,"culture bucket, as europe_folk_east placed Khanty birch bark; evidences europe_folk_east:L97 Birch-Bark Crafts"
+europe_folk:Boyko / Lemko / Rusyn / woodcarving / woodwork,europe_folk_west,Boyko / Lemko / Rusyn / woodcarving / woodwork,route:europe_folk_east,tag:place,"culture or technique bucket, no named tradition (as europe_folk_east placed its sister rows)"
+europe_folk:Altai / woodcarving / woodwork,europe_folk_west,Altai / woodcarving / woodwork,route:europe_folk_east,tag:place,"culture or technique bucket, no named tradition (as europe_folk_east placed its sister rows)"
+europe_folk:Nanai / woodcarving / woodwork,europe_folk_west,Nanai / woodcarving / woodwork,route:europe_folk_east,tag:place,"culture or technique bucket, no named tradition (as europe_folk_east placed its sister rows)"
+europe_folk:delftware,europe_folk_west,delftware,route:europe_other,leaf:europe_other:L24,Q1184151
+europe_folk:Nanai / birch bark / basketry,europe_folk_west,Nanai / birch bark / basketry,route:europe_folk_east,tag:place,"culture bucket, as europe_folk_east placed Khanty birch bark; evidences europe_folk_east:L97 Birch-Bark Crafts"
+europe_folk:Koryak / woodcarving / woodwork,europe_folk_west,Koryak / woodcarving / woodwork,route:europe_folk_east,tag:place,"culture or technique bucket, no named tradition (as europe_folk_east placed its sister rows)"
+europe_folk:Greek / ceramics,europe_folk_west,Greek / ceramics,route:ancient_world,tag:place,culture-medium bucket (AIC 452-200 BCE Greek vases); evidences ancient_world:L26 Red-Figure and L29 South Italian
+europe_folk:Hutsul / woodcarving / woodwork,europe_folk_west,Hutsul / woodcarving / woodwork,route:europe_folk_east,leaf:europe_folk_east:L108,Hutsul Wood Carving; people-medium row that is the leaf
+europe_folk:Athonite icon painting,europe_folk_west,Athonite icon painting,route:ancient_world,kind:ancient_world:L2/Athonite (post-Byzantine),post-Byzantine icons of Mount Athos; seam with Russian Athonite icons (artists:T16)
+europe_folk:Avar / woodcarving / woodwork,europe_folk_west,Avar / woodcarving / woodwork,route:europe_folk_east,tag:place,"culture or technique bucket, no named tradition (as europe_folk_east placed its sister rows)"
+europe_folk:Khakas / woodcarving / woodwork,europe_folk_west,Khakas / woodcarving / woodwork,route:europe_folk_east,tag:place,"culture or technique bucket, no named tradition (as europe_folk_east placed its sister rows)"
+europe_folk:Veps / woodcarving / woodwork,europe_folk_west,Veps / woodcarving / woodwork,route:europe_folk_east,tag:place,"culture or technique bucket, no named tradition (as europe_folk_east placed its sister rows)"
+europe_folk:Karachay-Balkar / woodcarving / woodwork,europe_folk_west,Karachay-Balkar / woodcarving / woodwork,route:europe_folk_east,tag:place,"culture or technique bucket, no named tradition (as europe_folk_east placed its sister rows)"
+europe_folk:Altai / birch bark / basketry,europe_folk_west,Altai / birch bark / basketry,route:europe_folk_east,tag:place,"culture bucket, as europe_folk_east placed Khanty birch bark; evidences europe_folk_east:L97 Birch-Bark Crafts"
+europe_folk:Tuvan / birch bark / basketry,europe_folk_west,Tuvan / birch bark / basketry,route:europe_folk_east,tag:place,"culture bucket, as europe_folk_east placed Khanty birch bark; evidences europe_folk_east:L97 Birch-Bark Crafts"
+europe_folk:Deruta maiolica,europe_folk_west,Deruta maiolica,route:europe_other,kind:europe_other:L22/Deruta,Maiolica
+europe_folk:Cretan school,europe_folk_west,Cretan school,route:ancient_world,leaf:ancient_world:L3,Cretan School; duplicate of artists:T15
+europe_folk:maiolica,europe_folk_west,maiolica,route:europe_other,leaf:europe_other:L22,Q622753
+europe_folk:dry stone walling,europe_folk_west,dry stone walling,route:VA-K,tag:place,gap: no leaf in destination; dry stone walling (Q5608878) is K12 vernacular building; K12 has no leaves yet
+europe_folk:azulejo,europe_folk_west,azulejo,route:europe_other,leaf:europe_other:L64,Q3179385
+europe_folk:black-figure pottery,europe_folk_west,black-figure pottery,route:ancient_world,leaf:ancient_world:L25,Black-Figure Pottery; duplicate of artists:T155
+europe_folk:red-figure pottery,europe_folk_west,red-figure pottery,route:ancient_world,leaf:ancient_world:L26,Red-Figure Pottery; duplicate of artists:T156
+europe_folk:Catalan modernism,europe_folk_west,Catalan modernism,route:europe_other,kind:artists:T168/Modernisme,Q1122677: Catalan Art Nouveau
+europe_folk:Viking art,europe_folk_west,Viking art,route:europe_other,leaf:europe_other:L34,Q222466
+europe_folk:Aubusson tapestry,europe_folk_west,Aubusson tapestry,route:europe_other,leaf:europe_other:L41,Q781014
+europe_folk:bilingual vase painting,europe_folk_west,bilingual vase painting,route:ancient_world,kind:ancient_world:L26/bilingual vase painting,Q861817
+europe_folk:Toyism,europe_folk_west,Toyism,route:artist-led,kind:artists:T113/Toyism,Q2362424 Dutch art movement (1990s) as a group under Contemporary Art
+europe_folk:Opus Anglicanum,europe_folk_west,Opus Anglicanum,route:europe_other,leaf:europe_other:L42,Q3884257
+europe_folk:Byzantine mosaics,europe_folk_west,Byzantine mosaics,route:ancient_world,leaf:ancient_world:L59,Q3324686
+europe_folk:Jasperware,europe_folk_west,Jasperware,route:europe_other,kind:europe_other:L26/Jasperware,Wedgwood jasper: kind of Staffordshire Pottery
+europe_folk:Daum,europe_folk_west,Daum,route:europe_other,kind:artists:T168/Daum,"Daum glassworks, Nancy (Art Nouveau glass)"
+europe_folk:Limoges porcelain,europe_folk_west,Limoges porcelain,route:europe_other,leaf:europe_other:L28,Q3398126
+europe_folk:Russian (no school recorded) / manuscript illumination,europe_folk_east,Russian (no school recorded) / manuscript illumination,route:europe_other,leaf:europe_other:L15,"Russian Illuminated Manuscripts; 108,507 objects dated modern: count likely includes non-illuminated documents"
+europe_folk:Russian (no school recorded) / icon painting,europe_folk_east,Russian (no school recorded) / icon painting,route:europe_other,leaf:artists:T16,Russian Icons
+europe_folk:Old Believer icons and cast icons,europe_folk_east,Old Believer icons and cast icons,route:europe_other,kind:artists:T16/Old Believer,Russian Icons; cast icons a seam with G1 metalwork
+europe_folk:Nevyansk icon,europe_folk_east,Nevyansk icon,route:europe_other,kind:artists:T16/Nevyansk,Russian Icons: Urals Old Believer school
+europe_folk:Old Russian manuscript illumination,europe_folk_east,Old Russian manuscript illumination,route:europe_other,leaf:europe_other:L15,Russian Illuminated Manuscripts (alias Old Russian manuscript illumination)
+europe_folk:Azerbaijani / carpets,europe_folk_east,Azerbaijani / carpets,route:islamic,kind:H1-4/Azerbaijani,Caucasian Carpet evidence
+europe_folk:Dagestani (general) / carpets,europe_folk_east,Dagestani (general) / carpets,route:islamic,kind:H1-4/Dagestan,Caucasian Carpet evidence
+europe_folk:Buryat / icon painting,europe_folk_east,Buryat / icon painting,route:himalaya_central_asia,kind:himalaya_central_asia:L1/Buryat,Buryat thangka
+europe_folk:Armenian manuscript illumination,europe_folk_east,Armenian manuscript illumination,route:europe_other,leaf:europe_other:L1,Armenian Manuscript Illumination
+europe_folk:Armenian / manuscript illumination,europe_folk_east,Armenian / manuscript illumination,route:europe_other,leaf:europe_other:L1,Armenian Manuscript Illumination; also attests
+europe_folk:Caucasian / carpets,europe_folk_east,Caucasian / carpets,route:islamic,leaf:H1-4,Caucasian Carpet
+europe_folk:Ukrainian / icon painting,europe_folk_east,Ukrainian / icon painting,route:europe_other,tag:place,icon painting in Ukraine: no leaf (per europe_other report)
+europe_folk:Sami / woodcarving / woodwork,europe_folk_east,Sami / woodcarving / woodwork,route:europe_folk_west,kind:europe_folk_west:L2/hard duodji (wood),Duodji
+europe_folk:Karelian / icon painting,europe_folk_east,Karelian / icon painting,route:europe_other,kind:artists:T16/Karelian (Northern),Russian Icons
+europe_folk:Tabasaran carpets,europe_folk_east,Tabasaran carpets,route:islamic,kind:H1-4/Tabasaran,Dagestan
+"europe_folk:Old Believer (Pomor, Vyg) book painting",europe_folk_east,"Old Believer (Pomor, Vyg) book painting",route:europe_other,kind:europe_other:L15/Vyg-Pomor,Russian Illuminated Manuscripts
+europe_folk:Azerbaijani carpets (Caucasian rugs),europe_folk_east,Azerbaijani carpets (Caucasian rugs),route:islamic,alias:H1-4,Azerbaijani carpet is a listed alias of Caucasian Carpet
+europe_folk:Georgian / icon painting,europe_folk_east,Georgian / icon painting,route:europe_other,leaf:europe_other:L2,Georgian Icon Painting
+europe_folk:Avar / carpets,europe_folk_east,Avar / carpets,route:islamic,kind:H1-4/Avar (Dagestan),Caucasian Carpet evidence
+europe_folk:Novgorod school,europe_folk_east,Novgorod school,route:europe_other,kind:artists:T16/Novgorod school,Q2876208
+europe_folk:Fabergé egg,europe_folk_east,Fabergé egg,route:europe_other,kind:europe_other:L38/Fabergé eggs,Q331225
+europe_folk:Georgian calligraphy,europe_folk_east,Georgian calligraphy,route:europe_other,leaf:europe_other:L4,Q24175
+europe_folk:Persian miniature,europe_folk_east,Persian miniature,route:islamic,alias:A1-2,Q678664 (Azerbaijani ICH listing of miniature art)
+europe_folk:Azerbaijani rug,europe_folk_east,Azerbaijani rug,route:islamic,alias:H1-4,Q186413
+europe_folk:Azerbaijani carpet weaving,europe_folk_east,Azerbaijani carpet weaving,route:islamic,alias:H1-4,Q4203998 (UNESCO 2010)
+europe_folk:gákti,europe_folk_east,gákti,route:europe_folk_west,leaf:europe_folk_west:L5,Q6979598
+europe_folk:Gasimushaghi carpet,europe_folk_east,Gasimushaghi carpet,route:islamic,kind:H1-4/Gasimushaghi (Shirvan),Q3608774
+europe_folk:Karabakh carpet,europe_folk_east,Karabakh carpet,route:islamic,kind:H1-4/Karabakh,Q5114646
+europe_folk:Inuit clothing,europe_folk_east,Inuit clothing,route:north_america_indigenous,tag:place,gap: no leaf in destination; Inuit clothing (Q25705896): no H7 leaf in north_america_indigenous
+europe_folk:Ottoman illumination,europe_folk_east,Ottoman illumination,route:islamic,kind:C2-2/Ottoman illumination (tezhip),Q16931595
+europe_folk:Shulal carpet weaving,europe_folk_east,Shulal carpet weaving,route:islamic,kind:H1-4/Shulal,Q121248685 (Armenian ICH); pile vs flatweave unconfirmed

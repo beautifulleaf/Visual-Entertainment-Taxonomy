@@ -62,18 +62,41 @@ def pilot_max():
             os.rename(SCALEUP + ".bak", SCALEUP)
 
 
+# the same tradition proposed by two slices: (dropped slice, label) → (kept slice, label)
+DUPS = {("artists", "Balinese Painting"): ("southeast_asia", "Balinese Painting"),
+        ("artists", "Ancient Greek Painting"): ("ancient_world", "Ancient Greek Painting"),
+        ("artists", "Geometric Art"): ("ancient_world", "Geometric Pottery"),
+        ("artists", "Black-Figure Pottery"): ("ancient_world", "Black-Figure Pottery"),
+        ("artists", "Red-Figure Pottery"): ("ancient_world", "Red-Figure Pottery"),
+        ("europe_folk_east", "Blaudruck"): ("europe_folk_west", "Blaudruck"),
+        ("east_asia", "Dunhuang Murals"): ("himalaya_central_asia", "Dunhuang Murals"),
+        ("artists", "Mexican Muralism"): ("mesoamerica_south_america", "Mexican Muralism"),
+        ("artists", "Tingatinga"): ("africa", "Tingatinga Painting"),
+        ("artists", "Roman Sculpture"): ("ancient_world", "Roman Sculpture"),
+        ("artists", "Cretan School"): ("ancient_world", "Cretan School")}
+
+
 def main():
     mx = pilot_max()
     codes, leaves = {}, []
+    dropped = {}
     for sl in SLICES:
         name = "artist_leaves.csv" if sl == "artists" else f"{sl}_leaves.csv"
         for r in rd(os.path.join(R, name)):
+            if (sl, r["label"].strip()) in DUPS:
+                dropped[sl, r["tmp"].strip()] = DUPS[sl, r["label"].strip()]
+                continue
             sub = r["sub"].strip()
             mx[sub] += 1
             code = f"{sub}-{mx[sub]}"
             codes[sl, r["tmp"].strip()] = code
             leaves.append({"code": code, "sub": sub, "label": r["label"], "breadth": r["breadth"] or "medium",
                            "defn": r["defn"], "aliases": r["aliases"], "see": r["see"], "attest": r["attest"], "slice": sl})
+    bylabel = {(l["slice"], l["label"]): l for l in leaves}
+    for (sl, tmp), keep in dropped.items():
+        k = bylabel.get(keep)
+        if k:
+            codes[sl, tmp] = k["code"]
     # resolve tmp ids inside 'see' text
     for l in leaves:
         l["see"] = re.sub(r"\bL(\d+)\b", lambda m: codes.get((l["slice"], "L" + m.group(1)), m.group(0)), l["see"])

@@ -1,5 +1,5 @@
 pool_id,label,disposition,note
-proposed:Andean (culture unassigned),Andean (culture unassigned),tag:place,"geographic remainder bucket (Bolivia/Ecuador/Peru sites with no culture); includes noise (שלום Q219279, Nazca Lines = geoglyphs, L1); Tiwanaku/Pumapunku/Akapana are kind Tiwanaku of L63 Pre-Inca Andean Architecture"
+proposed:Andean (culture unassigned),Andean (culture unassigned),tag:place,"geographic remainder bucket (Bolivia/Ecuador/Peru sites with no culture); includes noise (שלום Q219279, Nazca Lines = geoglyphs, L1); Tiwanaku/Pumapunku/Akapana are kind Tiwanaku of L63 Andean Architecture"
 proposed:Inca,Inca,alias:L62,candidate bucket for the leaf (Wikidata Q2004258 is the leaf row); Pachacámac is pre-Inca (Ychsma/Wari) with an Inca phase
 proposed:Chavín,Chavín,kind:L63/Cultures,Chavín de Huántar; stela/portal exemplars are sculpture (D5 Chavín Sculpture)
 "proposed:Andean regional (Recuay, Lima, Sicán, ...)","Andean regional (Recuay, Lima, Sicán, ...)",kind:L63/Cultures,"mixed bucket of minor cultures (Recuay, Lima, Sicán): kept as one kind 'regional cultures'"
@@ -16,7 +16,7 @@ proposed:Early Islamic (Umayyad / Abbasid / Tulunid),Early Islamic (Umayyad / Ab
 proposed:Iraqi Islamic (Ilkhanid / Jalayirid),Iraqi Islamic (Ilkhanid / Jalayirid),kind:K1-9/Jalayirid,
 proposed:Balinese (pura),Balinese (pura),kind:L41/Pura,
 "proposed:Bengal temple (chala / ratna, terracotta)","Bengal temple (chala / ratna, terracotta)",leaf:L7,
-proposed:Burmese Buddhist (post-Pagan),Burmese Buddhist (post-Pagan),alias:L43,post-Pagan bucket (Konbaung and later)
+proposed:Burmese Buddhist (post-Pagan),Burmese Buddhist (post-Pagan),leaf:L43,post-Pagan bucket (Konbaung and later)
 proposed:Burmese — Pagan,Burmese — Pagan,kind:L43/Pagan,
 proposed:Arakanese (Mrauk U),Arakanese (Mrauk U),kind:L43/Mrauk U,
 "proposed:Central Asian — Shaybanid / khanates (Bukhara, Khiva, Kokand)","Central Asian — Shaybanid / khanates (Bukhara, Khiva, Kokand)",kind:K1-10/Shaybanid and khanates,post-Timurid Central Asian architecture continuing the Timurid idiom
@@ -64,7 +64,7 @@ proposed:Japanese Buddhist — Kamakura (Daibutsuyō / Zenshūyō),Japanese Budd
 proposed:Japanese Buddhist — Asuka / Nara (538–794),Japanese Buddhist — Asuka / Nara (538–794),tag:period,
 proposed:Javanese / Malay mosque (tajug),Javanese / Malay mosque (tajug),alias:K1-19,
 proposed:Javanese candi — Central Java (Mataram),Javanese candi — Central Java (Mataram),kind:L40/Central Javanese,
-proposed:Javanese candi (other),Javanese candi (other),alias:L40,remainder bucket
+proposed:Javanese candi (other),Javanese candi (other),leaf:L40,remainder bucket of candi not dated to a period
 proposed:Javanese candi — East Java (Kediri / Singhasari / Majapahit),Javanese candi — East Java (Kediri / Singhasari / Majapahit),kind:L40/East Javanese,
 proposed:Sumatran candi (Srivijaya / Melayu),Sumatran candi (Srivijaya / Melayu),kind:L40/Sumatran,Sri Mariamman Temple is Tamil (false match)
 proposed:Khmer (Angkorian),Khmer (Angkorian),alias:L39,Q2480618 is the leaf row
@@ -77,7 +77,7 @@ proposed:Korean — Joseon,Korean — Joseon,tag:period,palaces of Joseon (Gyeon
 proposed:Korean Buddhist — Goryeo,Korean Buddhist — Goryeo,tag:period,
 proposed:Kushite (Napatan / Meroitic),Kushite (Napatan / Meroitic),leaf:L55,
 proposed:Lao (Lan Xang / Luang Prabang),Lao (Lan Xang / Luang Prabang),leaf:L45,
-proposed:Maghrebi earthen (ksar / kasbah),Maghrebi earthen (ksar / kasbah),kind:L57/Maghreb,"Aït Benhaddou, the M'zab ksour (Beni Isguen, Melika, Bounoura)"
+proposed:Maghrebi earthen (ksar / kasbah),Maghrebi earthen (ksar / kasbah),leaf:L57,"Aït Benhaddou, the M'zab ksour (Beni Isguen, Melika, Bounoura)"
 proposed:Marinid / Zayyanid / Hafsid,Marinid / Zayyanid / Hafsid,kind:K1-4/Marinid,Mazagan is Portuguese (false match)
 proposed:Early Islamic Maghreb (Aghlabid / Idrisid / Zirid),Early Islamic Maghreb (Aghlabid / Idrisid / Zirid),kind:K1-2/Aghlabid,Aghlabid Kairouan and Sousse; Idrisid/Zirid buildings split by date
 proposed:Almoravid / Almohad,Almoravid / Almohad,kind:K1-4/Almoravid and Almohad,
@@ -99,7 +99,7 @@ proposed:Teotihuacan,Teotihuacan,kind:L60/Teotihuacan,
 proposed:Olmec,Olmec,kind:L60/Olmec,
 proposed:Toltec,Toltec,kind:L60/Toltec,only two weak candidates (Tula itself not matched)
 proposed:Mughal,Mughal,alias:K1-15,"false match flagged in handover: 1903 Taj Mahal Palace hotel (Indo-Saracenic, K2-5)"
-proposed:Nagara — central / north India,Nagara — central / north India,alias:L1,"main bucket; Sanchi, Dhamek and Chaukhandi stupas are L8 Buddhist Architecture (false matches)"
+proposed:Nagara — central / north India,Nagara — central / north India,leaf:L1,"main bucket; Sanchi, Dhamek and Chaukhandi stupas are L8 Buddhist Architecture (false matches)"
 proposed:Nagara — Maru-Gurjara,Nagara — Maru-Gurjara,alias:L3,Q70346829 is the leaf row
 proposed:Nagara — Bhumija / Hemadpanti (Deccan),Nagara — Bhumija / Hemadpanti (Deccan),kind:L1/Bhumija and Hemadpanti,
 proposed:Stepwell (western India),Stepwell (western India),leaf:L15,
@@ -128,7 +128,7 @@ proposed:Indian rock-cut (caves),Indian rock-cut (caves),leaf:L9,
 proposed:Saharan stone (Mauritania ksour),Saharan stone (Mauritania ksour),kind:L57/Mauritanian ksour,"Ouadane, Chinguetti, Tichitt, Oualata; the Nouakchott mosques are modern (false matches)"
 proposed:Sudano-Sahelian,Sudano-Sahelian,alias:K1-16,Sudano-Sahelian is a K1 pilot leaf (K10 axis names it; kept in K1)
 proposed:Sudano-Sahelian (urban sites),Sudano-Sahelian (urban sites),kind:K1-16/Inland Niger Delta towns,Djenné-Djenno and Inland Niger Delta tells; pre-Islamic phases
-proposed:Sinhalese Buddhist (other),Sinhalese Buddhist (other),alias:L10,undated bucket
+proposed:Sinhalese Buddhist (other),Sinhalese Buddhist (other),leaf:L10,undated bucket; the leaf's main candidate set
 proposed:Sinhalese — Kandyan,Sinhalese — Kandyan,kind:L10/Kandyan,
 proposed:Sinhalese — Anuradhapura,Sinhalese — Anuradhapura,kind:L10/Anuradhapura,
 proposed:Sinhalese — Polonnaruwa,Sinhalese — Polonnaruwa,kind:L10/Polonnaruwa,
@@ -457,7 +457,7 @@ Q6164915,Java-Malay architecture,exclude:below inclusion rule (§2.3),"Java-Mala
 Q6756656,Eretz Israel style,exclude:below inclusion rule (§2.3),
 Q6960466,German-Templer architecture,exclude:below inclusion rule (§2.3),
 Q7681402,Tamil architecture,alias:L4,Tamil architecture
-Q76823526,Tradición Mito,exclude:below inclusion rule (§2.3),"Mito tradition (Kotosh), candidate kind of L63 Pre-Inca Andean Architecture"
+Q76823526,Tradición Mito,exclude:below inclusion rule (§2.3),"Mito tradition (Kotosh), candidate kind of L63 Andean Architecture"
 Q85851866,Sarumen Chaseki,exclude:below inclusion rule (§2.3),
 Q86248242,chalet paulistano,exclude:below inclusion rule (§2.3),
 Q86680388,wooden architecture in Nizhny Novgorod,exclude:below inclusion rule (§2.3),
