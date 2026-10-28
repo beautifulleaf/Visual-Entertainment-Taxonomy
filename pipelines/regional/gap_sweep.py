@@ -246,7 +246,7 @@ N(A, "col_feather", "Mexican feather mosaic (arte plumario)", R, "featherwork", 
 N(A, "col_retablo", "Retablo devotional painting (Mexico and Andes)", R, "painting (tin, panel)", (1750, 1950),
   pat=r"\bretablos?\b|lamina|painting on tin|oil on tin", ctx=r"mexic|guatemala|peru|bolivia|ecuador|colombia|latin america",
   neg=r"new mexico|nuevo mexico|ayacucho|huamanga|san marcos|cajon|spain|spanish(?!.colonial)",
-  kn=r"retablo", wd=["Retablo (Latin American folk art)", "Retablo"], api=["retablo"])
+  kn=r"retablo", wd=["Retablo (Latin American folk art)", "Mexican retablo", "Retablo (folk art)"], api=["retablo"])
 N(A, "col_exvoto", "Ex-voto painting (Latin America)", R, "painting (tin)", (1700, 1950),
   pat=r"ex-votos?|ex votos?|exvotos?|milagro painting|votive painting", ctx=LATAM, kn=r"ex-?voto",
   wd=["Ex-voto", "exvoto@es"], api=["ex-voto"])
@@ -437,7 +437,7 @@ N(A, "ea_wuqiang", "Wuqiang New Year prints (Hebei)", R, "prints", (1600, 1950),
 N(A, "ea_papercut", "Chinese paper-cutting (jianzhi)", R, "paper-cut", (1700, 2000),
   pat=r"paper-cut|paper cut|papercut|cut-paper|cut paper|jianzhi|jian zhi|剪纸|剪紙|窗花|window flower|chuang hua|chuanghua",
   ctx=CHINA + r"|剪纸|剪紙|窗花", neg=r"silhouette|scherenschnitt|polish|wycinanki|japan|mexic|papel picado",
-  kn=r"paper-?cut|jianzhi|剪纸|剪紙", wd=["Chinese paper cutting", "Paper cutting", "剪纸@zh"], api=["Chinese paper cut", "papercut China"])
+  kn=r"chinese paper|jianzhi|剪纸|剪紙|china.{0,30}paper-?cut", wd=["Chinese paper cutting", "Paper cutting", "剪纸@zh"], api=["Chinese paper cut", "papercut China"])
 N(A, "ea_suxiu", "Suzhou embroidery (Su xiu)", R, "embroidery", (1600, 2000),
   pat=r"su xiu|suxiu|蘇繡|苏绣|suzhou embroider|gu embroider|顧繡|顾绣|gu family embroider", kn=r"su ?xiu|蘇繡|苏绣|suzhou embroider",
   wd=["Suzhou embroidery", "苏绣@zh"], api=["Suzhou embroidery"])
@@ -463,12 +463,12 @@ N(A, "ea_yi", "Yi (Nuosu) lacquerware and textiles", R, "lacquer; textiles", (18
   wd=["Yi lacquerware", "Yi lacquer", "Yi people"], api=["Nuosu", "Yi lacquer"])
 N(A, "ea_dong", "Dong (Kam) textiles", R, "textiles", (1800, 2000),
   pat=r"\bdong (people|minority|nationality|ethnic|embroider|textile|jacket|baby carrier|weav)|\bkam people|侗族|侗锦|侗錦",
-  kn=r"\bdong people|侗族|kam people", wd=["Dong brocade", "Dong people", "侗锦@zh"], api=["Dong minority textile"])
+  kn=r"\bdong people|侗族|\bkam people", wd=["Dong brocade", "Dong people", "侗锦@zh"], api=["Dong minority textile"])
 N(A, "ea_bai", "Bai tie-dye (zharan, Dali)", R, "textiles (resist-dyed)", (1800, 2000),
   pat=r"zha ?ran|扎染|\bbai (people|minority|nationality|tie)|dali tie|tie-dye|tie dye|tiedye", ctx=r"yunnan|dali|\bbai\b|扎染|白族",
   kn=r"zha ?ran|扎染|bai tie|白族", wd=["Bai tie-dye", "Bai tie-dyeing technique", "白族扎染技艺@zh"], api=["Bai tie-dye", "Yunnan tie-dye"])
 N(A, "ea_zhuang", "Zhuang brocade (zhuangjin)", R, "textiles", (1800, 2000),
-  pat=r"zhuang ?jin|zhuang (brocade|textile|people|minority)|壮锦|壯錦|壮族", kn=r"zhuang",
+  pat=r"zhuang ?jin|zhuang (brocade|textile|people|minority)|壮锦|壯錦|壮族", kn=r"zhuang ?jin|zhuang (brocade|people|textile)|壮锦|壯錦|壮族",
   wd=["Zhuang brocade", "壮锦@zh"], api=["Zhuang brocade"])
 N(A, "ea_li", "Li textiles (Hainan)", R, "textiles", (1800, 2000),
   pat=r"\bli (people|minority|textile|ethnic|tribe|weav)|hainan (textile|weav|li\b)|黎锦|黎錦|黎族", kn=r"\bli people|黎锦|黎族|hainan",
@@ -487,7 +487,7 @@ N(A, "ea_minhwa", "Korean minhwa folk painting", R, "painting", (1700, 1950),
       r"character (painting|ideograph)|hojak|호작도|까치호랑이|magpie and tiger|tiger and magpie|sipjangsaeng|십장생|"
       r"ten symbols of longevity|bookshelf|scholar'?s (accoutrements|objects) (screen|painting)|ch'aekkado",
   ctx=KOREA + r"|민화|책거리|문자도|minhwa", kn=r"minhwa|민화|chaekgeori|munjado|책거리|문자도",
-  wd=["Minhwa", "Chaekgeori", "Munjado", "민화@ko"], api=["minhwa", "Korean folk painting", "chaekgeori"])
+  wd=["Minhwa", "민화@ko", "Chaekgeori", "Munjado"], api=["minhwa", "Korean folk painting", "chaekgeori"])
 N(A, "ea_bojagi", "Korean bojagi (wrapping cloths)", R, "textiles", (1700, 2000),
   pat=r"bojagi|pojagi|po-jagi|보자기|褓|jogakbo|조각보|wrapping cloth", ctx=KOREA + r"|보자기|bojagi|pojagi|조각보",
   kn=r"bojagi|pojagi|보자기|조각보", wd=["Bojagi", "Jogakbo", "조각보@ko"], api=["bojagi", "pojagi", "Korean wrapping cloth"])
@@ -617,7 +617,7 @@ N(A, "au_southeast", "Southeast Australian carved shields, clubs and possum-skin
   ctx=AU + r"|victoria|new south wales|murray", kn=r"possum-?skin|southeast australia|wiradjuri|kamilaroi|wurundjeri",
   wd=["Possum-skin cloak", "Parrying shield (Australia)"], api=["possum skin cloak", "Aboriginal shield Victoria"])
 N(A, "au_toas", "Lake Eyre toas (direction markers)", R, "sculpture (small painted)", (1900, 1910),
-  pat=r"\btoas?\b", ctx=r"lake eyre|killalpaninna|diyari|dieri|cooper creek|australia", kn=r"\btoas?\b",
+  pat=r"\btoas?\b", ctx=r"lake eyre|killalpaninna|diyari|dieri|cooper creek|australia", kn=r"\btoas\b|lake eyre",
   wd=["Toa (Lake Eyre)", "Toas"], api=["toas Lake Eyre"])
 N(A, "au_mornington", "Mornington Island (Lardil, Kaiadilt) art", R, "painting; sculpture", (1960, 2020),
   pat=r"mornington island|lardil|kaiadilt|bentinck island|gununa", kn=r"mornington island|lardil|kaiadilt",
@@ -627,7 +627,7 @@ N(A, "au_ngukurr", "Ngukurr (Roper River) painting", R, "painting (acrylic)", (1
 N(A, "au_ts_mask", "Torres Strait turtle-shell masks (krar, le-op)", R, "masks (turtle shell)", (1700, 1920),
   pat=r"\bkrar\b|le-op|\bleop\b|turtle[- ]?shell|tortoise[- ]?shell|\bmask", ctx=r"torres strait|mabuiag|mabuyag|saibai|badu|\bmoa\b|erub|"
       r"darnley|murray island|mer island|nagir|yam island|tudu|dauan|boigu|torres",
-  groups=("mask", "sculpture", "other", "ritual object"), family="au_ts", kn=r"torres strait (mask|turtle)|krar|le-?op",
+  groups=("mask", "sculpture", "other", "ritual object"), family="au_ts", kn=r"torres strait (mask|turtle)|\bkrar\b|\ble-op\b",
   wd=["Torres Strait Islander mask", "Krar (mask)", "Mawa mask"], api=["Torres Strait mask"])
 N(A, "au_ts_other", "Torres Strait Islander art (dhari, drums, carving, printmaking)", R, "various", (1700, 2020),
   pat=r"torres strait|mabuiag|mabuyag|saibai island|badu island|\bdhari\b|dari headdress|warup|\berub\b|darnley island|"
@@ -698,7 +698,7 @@ N(A, "af_ballana", "Post-Meroitic Nubia (X-Group / Ballana)", R, "metalwork; cer
   pat=r"ballana|qustul|x-group|x group|post-?meroitic|noba(dia)?\b", kn=r"ballana|x-group|post-meroitic",
   wd=["Ballana culture", "X-Group culture", "Noubadia"], api=["Ballana"])
 N(A, "af_christian_nubia", "Christian Nubia (Faras wall painting, Makuria)", R, "wall painting; ceramics", (550, 1500),
-  pat=r"\bfaras\b|makuria|nobadia|alodia|christian nubia|old nubian|dongola|qasr ibrim", date=(500, 1600), mid=True, kn=r"faras|makuria|christian nubia",
+  pat=r"\bfaras\b|makuria|nobadia|alodia|christian nubia|old nubian|dongola|qasr ibrim", date=(500, 1600), mid=True, kn=r"christian nubia|makuria|nobadia|alodia|faras (cathedral|wall|painting)",
   wd=["Faras Gallery", "Makuria", "Nubian Christian art"], api=["Faras", "Christian Nubia"])
 N(A, "af_gzim", "Great Zimbabwe (soapstone birds) and Zimbabwe culture", R, "sculpture (soapstone); architecture", (1100, 1650),
   pat=r"great zimbabwe|zimbabwe birds?|soapstone birds?|zimbabwe culture|\bkhami\b|mutapa|monomotapa|torwa",
@@ -934,7 +934,7 @@ def vam_record(rec, inst="Victoria and Albert Museum"):
     r = saa.vam_reduce_record(rec) if "systemNumber" in rec else rec
     d = (r.get("dates") or [[None, None, None]])[0]
     names = [p[0] for p in r.get("persons") or []] + [o[0] for o in r.get("orgs") or []]
-    return R_("vam", inst, r.get("id"), r.get("title"),
+    return R_("vam", inst, r.get("id"), r.get("title") or r.get("type"),
               "; ".join([s[0] for s in r.get("styles") or []] + [p[0] for p in r.get("peoples") or []] + names),
               "; ".join(p[0] for p in r.get("places") or []),
               "; ".join([r.get("type") or ""] + list(r.get("cats") or [])), r.get("mats"),
@@ -1472,13 +1472,19 @@ def wd_discovery(ich_qids):
   OPTIONAL { ?a wdt:P463|wdt:P1416|wdt:P108 ?org . OPTIONAL { ?org rdfs:label ?orgl FILTER(LANG(?orgl) = "en") } }
   OPTIONAL { ?a wdt:P135 ?mv . OPTIONAL { ?mv rdfs:label ?mvl FILTER(LANG(?mvl) = "en") } }
 } LIMIT 100000""", "au_artists")
-    D["africa_cultures"] = sparql("""SELECT ?cu ?cul ?cud ?sl (COUNT(DISTINCT ?w) AS ?works) WHERE {
+    D["africa_cultures"] = sparql("""SELECT ?cu ?cul ?cud ?sl ?c (COUNT(DISTINCT ?w) AS ?works) WHERE {
   ?cu wdt:P31 wd:Q465299 ; wdt:P17 ?c ; wikibase:sitelinks ?sl .
   ?c wdt:P30 wd:Q15 .
   OPTIONAL { ?w wdt:P2596 ?cu }
   OPTIONAL { ?cu rdfs:label ?cul FILTER(LANG(?cul) = "en") }
   OPTIONAL { ?cu schema:description ?cud FILTER(LANG(?cud) = "en") }
-} GROUP BY ?cu ?cul ?cud ?sl""", "africa_cultures")
+} GROUP BY ?cu ?cul ?cud ?sl ?c""", "africa_cultures_c")
+    D["au_centres"] = sparql("""SELECT ?x ?xl ?xd ?t ?sl WHERE {
+  VALUES ?t { wd:Q2190251 wd:Q4801240 wd:Q4034417 }
+  ?x wdt:P31 ?t ; wdt:P17 wd:Q408 ; wikibase:sitelinks ?sl .
+  OPTIONAL { ?x rdfs:label ?xl FILTER(LANG(?xl) = "en") }
+  OPTIONAL { ?x schema:description ?xd FILTER(LANG(?xd) = "en") }
+}""", "au_centres")
     allc = dict(SEA_Q, **EA_Q)
     vals = " ".join("wd:" + q for q in allc)
     D["asia_styles"] = sparql(f"""SELECT ?x ?xl ?xd ?t ?c ?sl WHERE {{
@@ -1489,24 +1495,17 @@ def wd_discovery(ich_qids):
   OPTIONAL {{ ?x rdfs:label ?xl FILTER(LANG(?xl) = "en") }}
   OPTIONAL {{ ?x schema:description ?xd FILTER(LANG(?xd) = "en") }}
 }}""", "asia_styles")
-    if ich_qids:
-        allc = dict(LATAM_Q, **SEA_Q, **EA_Q, **AU_Q)
-        vals = " ".join("wd:" + q for q in allc)
-        ichv = " ".join("wd:" + q for q in ich_qids)
-        D["ich"] = sparql(f"""SELECT ?x ?xl ?xd ?c ?sl WHERE {{
-  VALUES ?ich {{ {ichv} }}
+    # intangible-heritage status (P3259): UNESCO lists and national inventories
+    allc = dict(LATAM_Q, **SEA_Q, **EA_Q, **AU_Q, Q115="Ethiopia", Q986="Eritrea")
+    vals = " ".join("wd:" + q for q in allc)
+    D["ich"] = sparql(f"""SELECT ?x ?xl ?xn ?xd ?c ?stl ?sl WHERE {{
   VALUES ?c {{ {vals} }}
-  ?x wdt:P1435 ?ich ; wdt:P17 ?c ; wikibase:sitelinks ?sl .
+  ?x wdt:P3259 ?st ; wdt:P17 ?c ; wikibase:sitelinks ?sl .
+  OPTIONAL {{ ?st rdfs:label ?stl FILTER(LANG(?stl) = "en") }}
   OPTIONAL {{ ?x rdfs:label ?xl FILTER(LANG(?xl) = "en") }}
+  OPTIONAL {{ ?x rdfs:label ?xn FILTER(LANG(?xn) IN ("zh", "ja", "ko", "vi", "th", "id", "es", "pt", "my", "tl")) }}
   OPTIONAL {{ ?x schema:description ?xd FILTER(LANG(?xd) = "en") }}
-}}""", "ich_asia_latam_au")
-        D["ich_africa"] = sparql(f"""SELECT ?x ?xl ?xd ?c ?sl WHERE {{
-  VALUES ?ich {{ {ichv} }}
-  ?x wdt:P1435 ?ich ; wdt:P17 ?c ; wikibase:sitelinks ?sl .
-  ?c wdt:P30 wd:Q15 .
-  OPTIONAL {{ ?x rdfs:label ?xl FILTER(LANG(?xl) = "en") }}
-  OPTIONAL {{ ?x schema:description ?xd FILTER(LANG(?xd) = "en") }}
-}}""", "ich_africa")
+}}""", "ich_p3259")
     return D
 
 
@@ -1661,6 +1660,18 @@ AU_GROUP_RX = re.compile(r"(?i)aborig|torres|indigenous austral|australian indig
                          r"palawa|meriam|kaurareg|kalaw|wik\b|lardil|kaiadilt|anindilyakwa|burarra|gurindji|warumungu|"
                          r"people of (the )?(northern territory|western australia|queensland|south australia|new south wales|"
                          r"victoria|central australia|arnhem)")
+CENTRE_RX = re.compile(r"(?i)aborig|indigenous|torres|first nations|tjala|tula|mulka|arts? (and|&) (culture|crafts?)|"
+                       r"art centre|artists|weavers|potters|corporation")
+NOT_CENTRE_RX = re.compile(r"(?i)department|register|melbourne|sydney|performing|theatre|concert|council|university|"
+                           r"gallery of|museum")
+FOLK_RX = re.compile(r"(?i)folk|minhwa|chaekgeori|munjado|ethnic|minority|nianhua|new year|paper|embroider|textile|craft|"
+                     r"puppet|lacquer|tie-dye|batik|wayang|village|clay figure|votive|shadow")
+CJK_CRAFT_RX = re.compile(r"年画|剪纸|刺绣|绣|染|织|锦|漆|陶|瓷|雕|绘|画|皮影|木偶|唐卡|版画|银饰|蜡染|扎染|面具|纸|編|織|塗|焼|"
+                          r"人形|絵|칠|자수|민화|탈|매듭|공예|tranh|sơn|đúc|chạm|khắc|thêu|dệt|gốm")
+PERF_RX = re.compile(r"(?i)opera|dance|music|song|singing|festival|cuisine|food|medicine|drama|theatre|theater|ritual|"
+                     r"martial|game|tea|calendar|storytelling|epic|knowledge")
+COLONIAL_RX = re.compile(r"(?i)talavera|retablo|lacquer|barniz|maque|silver|santo|ex-?voto|imagin|carv|paint|pottery|"
+                         r"ceramic|feather|mopa")
 CRAFT_RX = re.compile(r"(?i)paint|carv|weav|embroider|textile|print|puppet|lacquer|potter|ceramic|craft|paper|cut|dye|"
                       r"mask|sculpt|\bart\b|arts\b|batik|silver|wood|calligraph|kite|figurine|ikat|brocade|inlay|"
                       r"theatre|theater|shadow|making|technique|knowledge|skills of")
@@ -1857,52 +1868,77 @@ def build(objs, src_stats, qids, wd_works, wd_artists, disc, args):
                   "kn": re.compile(re.escape(fold(label))) if label else None, "api": []}
         return node_row(pseudo, [], (q, label, sl, desc), None, kind=kind, note=note)
 
-    # art centres (workshop nodes) from artists' memberships
-    for oq, c in sorted(centres.items(), key=lambda x: -len(x[1]["members"])):
-        if oq in seed_q:
+    # art centres (workshop nodes): Wikidata arts centres / artist co-operatives in Australia with Indigenous
+    # evidence, plus organisations that Aboriginal artists are members of (P463 / P1416 / P108)
+    centre_rows = {}
+    for r in disc.get("au_centres") or []:
+        txt = r.get("xl", "") + " " + r.get("xd", "")
+        centre_rows.setdefault(r["x"], {"label": r.get("xl", r["x"]), "desc": r.get("xd", ""), "sl": r.get("sl"),
+                                        "members": set(), "indig": bool(CENTRE_RX.search(txt))})
+    for oq, c in centres.items():
+        x = centre_rows.setdefault(oq, {"label": c["label"], "desc": "", "sl": "", "members": set(), "indig": True})
+        x["members"] |= c["members"]
+    for oq, c in sorted(centre_rows.items(), key=lambda x: (-len(x[1]["members"]), x[1]["label"])):
+        if oq in seed_q or not c["indig"] or NOT_CENTRE_RX.search(c["label"] + " " + c["desc"]):
             continue
-        r = cand("aboriginal_aus", "wd_" + oq, c["label"], "Australia (Aboriginal and Torres Strait Islander)",
-                 "art centre / workshop", oq, "", "", f"{len(c['members'])} member artists: " +
-                 "; ".join(sorted(c["members"])[:6]), "art_centre")
-        rows.append(r)
-    # discovery candidates
+        rows.append(cand("aboriginal_aus", "wd_" + oq, c["label"], "Australia (Aboriginal and Torres Strait Islander)",
+                         "art centre / workshop", oq, c["sl"], c["desc"],
+                         f"{len(c['members'])} Aboriginal member artists on Wikidata" +
+                         (": " + "; ".join(sorted(c["members"])[:6]) if c["members"] else ""), "art_centre"))
+    # archaeological cultures of Africa (Egypt excluded: owned by the Egypt / unattributed jobs; Stone Age
+    # industries without objects excluded)
     for r in disc.get("africa_cultures") or []:
-        if r["cu"] in seed_q or (int(r.get("works") or 0) == 0 and int(r.get("sl") or 0) < 5):
+        works = int(r.get("works") or 0)
+        if r["cu"] in seed_q or r.get("c") == "Q79" or works == 0 or \
+                re.search(r"(?i)egypt|stone age|paleolithic|palaeolithic|lithic|industry", r.get("cud", "")):
             continue
         rows.append(cand("ancient_africa", "wd_" + r["cu"], r.get("cul", r["cu"]), "Africa (ancient and early)",
                          "archaeological culture", r["cu"], r.get("sl"), r.get("cud", ""),
-                         f"{r.get('works')} Wikidata items with P2596", "wd_archaeological_culture"))
+                         f"{works} Wikidata items with culture (P2596) = this", "wd_archaeological_culture"))
     areamap = {**{v: "southeast_asia" for v in SEA_Q.values()}, **{v: "east_asia_folk" for v in EA_Q.values()},
-               **{v: "colonial_latam" for v in LATAM_Q.values()}, "Australia": "aboriginal_aus"}
+               **{v: "colonial_latam" for v in LATAM_Q.values()}, "Australia": "aboriginal_aus",
+               "Ethiopia": "ancient_africa", "Eritrea": "ancient_africa"}
     regmap = {"southeast_asia": "Southeast Asia", "east_asia_folk": "East Asia", "colonial_latam": "Latin America",
               "aboriginal_aus": "Australia (Aboriginal and Torres Strait Islander)", "ancient_africa": "Africa"}
-    qc = {**SEA_Q, **EA_Q, **LATAM_Q, **AU_Q}
+    qc = {**SEA_Q, **EA_Q, **LATAM_Q, **AU_Q, "Q115": "Ethiopia", "Q986": "Eritrea"}
     seen = set()
     for r in disc.get("asia_styles") or []:
         if r["x"] in seed_q or r["x"] in seen:
             continue
         txt = r.get("xl", "") + " " + r.get("xd", "")
-        if not re.search(r"(?i)folk|tradition|print|paint|textile|embroider|craft|puppet|lacquer|woodblock|"
-                         r"school|ink|ethnic|minority|art", txt) or int(r.get("sl") or 0) < 2:
+        if not FOLK_RX.search(txt):
             continue
         seen.add(r["x"])
         area = areamap.get(qc.get(r["c"], ""), "")
-        rows.append(cand(area, "wd_" + r["x"], r.get("xl", r["x"]), regmap.get(area, ""), "style / movement", r["x"],
-                         r.get("sl"), r.get("xd", ""), "art movement / style / genre item (" + qc.get(r["c"], "") + ")",
+        rows.append(cand(area, "wd_" + r["x"], r.get("xl", r["x"]), regmap.get(area, ""), "style / genre", r["x"],
+                         r.get("sl"), r.get("xd", ""), "Wikidata art movement / style / genre (" + qc.get(r["c"], "") + ")",
                          "wd_style"))
-    for name in ("ich", "ich_africa"):
-        for r in disc.get(name) or []:
-            if r["x"] in seed_q or r["x"] in seen:
-                continue
-            txt = r.get("xl", "") + " " + r.get("xd", "")
-            if not CRAFT_RX.search(txt):
-                continue
-            if name == "ich_africa" and r["c"] not in ("Q115", "Q986"):   # Ethiopia, Eritrea only
-                continue
-            seen.add(r["x"])
-            area = "ancient_africa" if name == "ich_africa" else areamap.get(qc.get(r["c"], ""), "")
-            rows.append(cand(area, "wd_" + r["x"], r.get("xl", r["x"]), regmap.get(area, ""), "intangible heritage craft",
-                             r["x"], r.get("sl"), r.get("xd", ""), "UNESCO ICH Representative List item", "wd_ich"))
+    ich = collections.OrderedDict()
+    for r in disc.get("ich") or []:
+        x = ich.setdefault(r["x"], {"en": r.get("xl", ""), "native": set(), "desc": r.get("xd", ""), "c": r["c"],
+                                    "status": set(), "sl": r.get("sl")})
+        if r.get("xn"):
+            x["native"].add(r["xn"])
+        if r.get("stl"):
+            x["status"].add(r["stl"])
+    n_ich = collections.Counter()
+    for q, x in ich.items():
+        if q in seed_q:
+            continue
+        country = qc.get(x["c"], "")
+        area = areamap.get(country, "")
+        txt = x["en"] + " " + x["desc"]
+        native = " ".join(sorted(x["native"]))
+        craft = (CRAFT_RX.search(txt) or CJK_CRAFT_RX.search(native)) and not (
+            PERF_RX.search(txt) and not re.search(r"(?i)puppet|shadow|mask|paint|print|embroider|weav|carv|lacquer", txt))
+        if not craft or (area == "colonial_latam" and not COLONIAL_RX.search(txt + " " + native)):
+            continue
+        n_ich[area] += 1
+        label = x["en"] or (sorted(x["native"])[0] if x["native"] else q)
+        rows.append(cand(area, "wd_" + q, label, regmap.get(area, ""), "intangible-heritage craft", q, x["sl"],
+                         x["desc"], f"{country}; ICH status: " + "; ".join(sorted(x["status"]))[:120] +
+                         (f"; native label: {native[:60]}" if native and native != label else ""), "wd_ich"))
+    log("ICH craft candidates per area: " + ", ".join(f"{k} {v}" for k, v in n_ich.items()))
 
     write_csv(os.path.join(OUT_DIR, "gap_sweep_traditions.csv"), TRAD_HEADER, rows)
 
