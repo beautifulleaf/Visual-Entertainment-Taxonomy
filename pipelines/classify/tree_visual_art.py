@@ -892,3 +892,6 @@ MODIFIERS += [
 ]
 _fam("B")["subs"] = [(c, l, ("Axis: school and tradition; the process (woodcut, etching, lithography, screen print) is a tag." if c == "B2" else a)) for c, l, a in _fam("B")["subs"]]
 _fam("K")["subs"] += [("K13", "Gardens & Designed Landscapes", "Axis: garden tradition (Persian chahar bagh, Chinese scholar garden, Japanese garden, Italian Renaissance, French formal, English landscape).")]
+PRECEDENCE += [
+    ("P16", "Period leaves for architects, designers and photographers", "P15 applies to every medium: an architect with no attested style goes to the period architecture leaf of their birth (Neoclassical, Modern, Contemporary Architecture); a designer to the decorative-arts style of their working years (I3: Art Nouveau to Contemporary Design); a photographer to the photographic school of their working years (Pictorialism, Straight, Modernist, Documentary, Contemporary Photography). A designer or architect known first for one medium is placed by that medium."),
+]
