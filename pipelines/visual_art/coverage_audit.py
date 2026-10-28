@@ -295,6 +295,147 @@ def main():
                             "; ".join(sorted(g.sources[k]))])
     print(f"wrote {OUT}")
     print("unplaced rows per source:", dict(g.unplaced))
+    media_grid()
+
+
+# --- Region x medium -------------------------------------------------------
+# The same region can look covered on the strength of one medium (painting) while
+# its textiles or ceramics are absent; this grid counts, per region x medium, the
+# objects and the distinct culture labels (>= MIN_OBJECTS objects in that medium).
+MEDIA_OUT = os.path.join(INTERIM, "coverage_media.csv")
+MIN_OBJECTS = 3
+MEDIA = [
+    ("photography", r"photograph|negative|daguerreotype|albumen|gelatin silver"),
+    ("calligraphy & book arts", r"calligraph|manuscript|codex|codices|qur.?an|album|illuminat|book|folio|page\b|"
+                                r"scroll|sutra|document|letter|rubbing|miniature"),
+    ("prints", r"\bprint|woodblock|woodcut|etching|engraving|lithograph|ukiyo|poster|stencil"),
+    ("drawing", r"drawing|sketch|cartoon|works on paper"),
+    ("painting", r"painting|thangka|tangka|fresco|mural|icon\b|bark painting|hanging scroll|handscroll|screen|fan\b|fans"),
+    ("textiles & costume", r"textile|carpet|rug\b|kilim|embroider|lace|woven|weav|silk|linen|cotton|wool|tapestr|"
+                           r"costume|dress|garment|robe|shawl|sash|belt|hat\b|headdress|cap\b|shoe|moccasin|footwear|"
+                           r"bag\b|bags|beadwork|quillwork|kimono|sari|cloth|cushion|cover\b|trouser|batik|ikat|kente|"
+                           r"feather|fabric|sampler|quilt|accessor"),
+    ("ceramics", r"ceramic|porcelain|pottery|stoneware|earthenware|terracotta|terra cotta|faience|majolica|maiolica|"
+                 r"vase|vases|tile|bowl|dish|plate|jar|jug|ewer|cup\b|vessel|potsherd|clay|kiln|celadon|sherd"),
+    ("glass", r"\bglass|enamel"),
+    ("arms & armour", r"arms|armou?r|sword|dagger|helmet|firearm|shield|spear|weapon|blade|bow\b|arrow|archery|"
+                      r"shafted|equestrian|tsuba|sword furniture"),
+    ("masks & ritual objects", r"\bmask|ritual|reliquar|shrine|altar|fetish|power figure|ceremonial|regalia|"
+                               r"staff|amulet|charm"),
+    ("mosaics & architectural decoration", r"mosaic|architectural|ornament & architecture|capital\b|column|stucco|corbel|lintel"),
+    ("sculpture & carving", r"sculpt|statue|figure|figurine|relief|carving|carved|bust\b|netsuke|ivor|jade|stone|"
+                            r"effigy|idol|head\b|totem|stela|stele"),
+    ("jewellery & metalwork", r"jewel|ornament|necklace|earring|bracelet|pendant|bead|ring\b|gorget|brooch|"
+                              r"metal|bronze|gold|silver|copper|brass|iron|medal|plaquette|coin|seal\b|lamp"),
+    ("woodwork, furniture & lacquer", r"wood|furniture|chair|stool|chest|cabinet|table|lacquer|inro|box\b|panel|"
+                                      r"door|frame|headrest"),
+    ("basketry & fibre", r"basket|fibre|fiber|mat\b|matting|raffia|bark\b|barkcloth|tapa"),
+    ("musical instruments", r"musical|instrument|drum|aerophone|chordophone|idiophone|membranophone|flute|whistle|"
+                            r"lute|harp"),
+    ("tools & everyday", r"tool|implement|utensil|spoon|pipe|pestle|scraper|axe|celt\b|projectile|net\b|fishing"),
+]
+MEDIA = [(m, re.compile(p)) for m, p in MEDIA]
+MEDIA_NAMES = [m for m, _ in MEDIA] + ["other"]
+
+MET_DEPT_REGION = dict(MET_DEPT, **{
+    "European Paintings": "Western Europe", "European Sculpture and Decorative Arts": "Western Europe",
+    "Medieval Art": "Western Europe", "The Cloisters": "Western Europe", "Robert Lehman Collection": "Western Europe",
+})
+
+
+def medium_of(*texts):
+    f = fold(" | ".join(t for t in texts if t))
+    for m, pat in MEDIA:
+        if pat.search(f):
+            return m
+    return "other"
+
+
+class MediaGrid:
+    def __init__(self):
+        self.objects = collections.Counter()
+        self.cultures = collections.defaultdict(collections.Counter)
+        self.sources = collections.defaultdict(set)
+
+    def add(self, source, region, medium, culture):
+        if not region:
+            return
+        k = (region, medium)
+        self.objects[k] += 1
+        self.cultures[k][fold(culture) or "(unlabelled)"] += 1
+        self.sources[k].add(source)
+
+
+def media_grid():
+    csv.field_size_limit(1 << 30)
+    m = MediaGrid()
+
+    met = os.path.join(ROOT, "data", "raw", "museums", "MetObjects.csv")
+    with open(met, encoding="utf-8-sig") as f:
+        for r in csv.DictReader(f):
+            dept = r["Department"]
+            if dept in ("Modern and Contemporary Art", "Photographs", "The Libraries", "Drawings and Prints") and not r["Culture"]:
+                # Artist-led departments: medium coverage there comes from the artist passes.
+                continue
+            label = r["Culture"] or r["Country"] or r["Artist Nationality"]
+            reg = region_of(label) or MET_DEPT_REGION.get(dept)
+            if reg == "Ancient Egypt & Nubia" and dept == "Islamic Art":
+                reg = "Islamic world (MENA, Iran, Anatolia)"
+            med = medium_of(r["Classification"], r["Object Name"], r["Medium"])
+            m.add("met", reg, med, r["Culture"] or r["Country"])
+
+    sweeps = {
+        "africa_objects.csv": "Sub-Saharan Africa", "americas_oceania_objects.csv": None,
+        "south_southeast_asia_objects.csv": "South Asia", "africa_oceania_targeted_objects.csv": None,
+    }
+    for name, default in sweeps.items():
+        for r in rows(os.path.join(REG, name)):
+            label = r["culture"] or r["culture_group"] or r["place"]
+            dflt = default
+            if dflt is None:
+                dflt = "Oceania (Pacific)" if "oceania" in fold(r["subregion"] + r["region"]) and "americ" not in fold(r["subregion"]) \
+                    else ("Sub-Saharan Africa" if "africa" in fold(r["region"]) else None)
+            reg = region_of(label) or region_of(r["subregion"]) or dflt
+            med = medium_of(r["object_group"], r["object_type"], r["materials"])
+            m.add(name.split("_objects")[0], reg, med, label)
+
+    ea = {"China": "China", "Japan": "Japan", "Korea": "Korea", "Taiwan": "China"}
+    for r in rows(os.path.join(REG, "east_asia_objects.csv")):
+        ot = r["object_type"]
+        if ot in ("archaeology", "documents and historical materials", "other"):
+            ot = r["object_subtype"] or ot
+        m.add("east_asia", ea.get(r["country"]), medium_of(ot, r["title_en"]), r["period_en"])
+
+    for r in rows(os.path.join(REG, "himalaya_central_asia_objects.csv")):
+        reg = "Himalaya" if r["region_group"] == "Himalaya" else "Central Asia & Silk Road"
+        m.add("himalaya_central_asia", reg, medium_of(r["medium"], r["object_type"]), r["tradition"])
+
+    for r in rows(os.path.join(REG, "islamic_objects.csv")):
+        reg = "South Asia" if re.search(r"mughal|deccan", fold(r["dynasty"])) else "Islamic world (MENA, Iran, Anatolia)"
+        med = "calligraphy & book arts" if r["book_arts"] in ("1", "True", "yes") and "painting" not in fold(r["object_type"]) \
+            else medium_of(r["object_type"], r["materials_technique"])
+        m.add("islamic", reg, med, r["dynasty"] or r["culture_place"])
+
+    for r in rows(os.path.join(REG, "smithsonian_objects.csv")):
+        if r["unit"] in ("SAAM", "HMSG", "CHNDM"):
+            continue
+        default = {"NMAI": "North America (Indigenous)", "NMAfA": "Sub-Saharan Africa"}.get(r["unit"])
+        label = r["culture"] or r["countries"]
+        reg = region_of(label, default)
+        if r["unit"] == "NMAI" and reg in ("North America (settler)", "Western Europe", None):
+            reg = "North America (Indigenous)"
+        m.add("smithsonian", reg, medium_of(r["object_type_indexed"], r["object_type"], r["object_name"], r["medium"]), label)
+
+    with open(MEDIA_OUT, "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["region", "medium", "objects", "cultures", "n_sources", "sources", "top_cultures"])
+        for reg in REGIONS:
+            for med in MEDIA_NAMES:
+                k = (reg, med)
+                cult = {c: n for c, n in m.cultures[k].items() if n >= MIN_OBJECTS and c != "(unlabelled)"}
+                top = "; ".join(f"{c} ({n})" for c, n in sorted(cult.items(), key=lambda x: -x[1])[:8])
+                w.writerow([reg, med, m.objects[k], len(cult), len(m.sources[k]), "; ".join(sorted(m.sources[k])), top])
+    print(f"wrote {MEDIA_OUT}")
 
 
 if __name__ == "__main__":
