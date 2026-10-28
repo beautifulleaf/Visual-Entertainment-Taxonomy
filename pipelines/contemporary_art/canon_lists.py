@@ -21,8 +21,11 @@ after 1960, one row per (list, edition, entry):
                      official artist lists on labiennale.org (robots.txt asks for 60 s
                      between requests, so the first run of this source is slow).
   documenta          documenta 14 and documenta fifteen participants (English Wikipedia).
-  <biennial>         Other biennials from their participant announcements on e-flux
-                     (see EFLUX below): Sharjah, Istanbul, Gwangju, Kochi-Muziris, ...
+  <biennial>         Other biennials from their participant announcements, mostly on e-flux
+                     (see EFLUX below): Sharjah 14-17, Istanbul 18, Gwangju 15-16,
+                     Kochi-Muziris 6, São Paulo 35 (bienal.org.br) and 36, Dak'Art 15
+                     (africanscolumn.com transcription). The Asia Pacific Triennial is missing:
+                     qagoma.qld.gov.au answers 403 and e-flux only names a handful of APT11 artists.
   prize_jameel       Jameel Prize winners and shortlists, editions 2-5 (V&A article pages;
                      editions 1, 6 and 7 have no parseable V&A page).
   prize_<name>       Prize winners (and shortlists where the page has them) from English
@@ -35,7 +38,12 @@ Not used, and why:
   universes.art (Universes in Universe) and artprice.com: their robots.txt opts out of
   Anthropic's agents (anthropic-ai / Claude-Web / ClaudeBot). This script is run by an AI
   agent, so fetch() honours those rules as well as the ones for its own user agent.
-  capital.de: answers every non-browser client with 403.
+  capital.de: answers every non-browser client with 403, and the full Kunstkompass top 100
+  is not published anywhere else in the open (press coverage gives the top 10-13 only).
+
+Robustness: fetch() retries timeouts, connection errors and 429/5xx with exponential backoff;
+each source runs independently (a failing one keeps its rows from the previous output), and
+the output is checkpointed after every source. Re-runs are cheap: every cached page is reused.
 
 Every page is fetched once, one request at a time (>= 1.5 s apart per host, or the
 host's robots.txt Crawl-delay), with an identifying User-Agent, after checking
@@ -489,6 +497,17 @@ EFLUX = [
      "sep", "Participating artists:</strong>", "</p>"),
     ("gwangju_biennale", "16th (2026)", "https://www.e-flux.com/announcements/6787431/16th-gwangju-biennaleyou-must-change-your-life",
      "sep", "Participating artists", "</p>"),
+    ("sharjah_biennial", "SB16 (2025)", "https://www.e-flux.com/announcements/627545/sharjah-biennial-16-to-carry",
+     "sep", "List of participants </strong>", "*Participants presenting"),
+    ("sao_paulo_bienal", "36th (2025)", "https://www.e-flux.com/announcements/672979/36th-bienal-de-sao-paulonot-all-travellers-walk-roads-of-humanity-as-practice",
+     "sep", "The participating artists for the 36th Bienal de São Paulo are:", "Another five participants"),
+    # not e-flux: the Fundação Bienal's own full-cast announcement, one name per line
+    ("sao_paulo_bienal", "35th (2023)", "https://bienal.org.br/?p=66713",
+     "lines", "<b>Full List</b>", "The names followed by *"),
+    # Dak'Art 15 (2024) international exhibition, from AfricansColumn's transcription of the
+    # official announcement (biennaledakar.org has no static artist list); one <li> per artist
+    ("dakart", "15th (2024)", "https://africanscolumn.com/dakart-2024-unveils-theme-artist-lineup-and-curators-for-15th-african-contemporary-art-biennale/",
+     "li", "The full list of participating artists includes", "</ol>"),
 ]
 
 
@@ -519,7 +538,11 @@ def eflux_names(body, mode, start, end):
         body = body[k + len(start):] if k >= 0 else ""
     if end and end in body:
         body = body[:body.index(end)]
-    if mode == "bold":
+    if mode == "li":
+        items = [strip_html(x) for x in re.findall(r"(?s)<li[^>]*>(.*?)</li>", body)]
+    elif mode == "lines":  # one participant per line; collaborations kept whole
+        items = strip_html(body).split("\n")
+    elif mode == "bold":
         body = re.sub(r"</(strong|b)>(?:\s|&nbsp;)*<\1>", " ", body)
         runs = [strip_html(r) for r in re.findall(r"(?s)<(?:strong|b)>(.*?)</(?:strong|b)>", body)]
         items = [x for r in runs if not re.search(r"(?i)curated by|:", r) for x in split_outside_parens(r)]
@@ -528,7 +551,7 @@ def eflux_names(body, mode, start, end):
         items = [x for line in strip_html(body).split("\n") for x in split_outside_parens(line)]
     out = []
     for x in items:
-        x = clean(re.sub(r"^\s*and\s+", "", clean(x))).rstrip(".")
+        x = clean(re.sub(r"^\s*and\s+", "", clean(x))).rstrip(".* ")
         if 1 < len(x) <= 90 and not x.startswith("<") and len(x.split()) <= 12 and not re.search(r"(?i)\b(born|lives|the biennial)\b", x):
             out.append(x)
     return out
@@ -538,8 +561,9 @@ def eflux():
     rows = []
     for lst, ed, url, mode, start, end in EFLUX:
         try:
-            body = eflux_body(fetch(url))
-        except (urllib.error.HTTPError, Blocked) as e:
+            h = fetch(url)
+            body = eflux_body(h) if "e-flux.com" in url else h
+        except (urllib.error.URLError, Blocked) as e:
             print(f"  e-flux {lst} {ed}: {e}", file=sys.stderr)
             continue
         for n in eflux_names(body, mode, start, end):

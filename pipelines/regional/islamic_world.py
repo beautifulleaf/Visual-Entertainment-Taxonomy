@@ -757,7 +757,9 @@ def harvest_cma():
 #   place     for book arts only (paintings, manuscripts, album pages,
 #             calligraphy, drawings), the recorded place of production when it
 #             is one of the painting centres below, named "<dynasty> <city>"
-#             (Timurid Herat, Safavid Tabriz, ...).
+#             (Timurid Herat, Safavid Tabriz, ...); when the record has no
+#             dynasty the Met-style inferred one is used ("place, dynasty
+#             inferred").
 # Production centres (Iznik, Kashan, Herat, ...) are also kept for every object.
 
 BOOK_ARTS_RE = re.compile(r"painting|miniature|manuscript|album|folio|calligraph|qur.?an|koran|drawing|"
@@ -814,7 +816,7 @@ def tfold(s):
 
 
 NOT_BOOK_ARTS_RE = re.compile(r"wall|fresco|mural|\btiles?\b|textile|fabric|ceramic|bowl|dish|jar|vase|panel|"
-                              r"lacquer|pen.?box|qalamdan|box\b|casket|binding|cover|glass", re.I)
+                              r"lacquer|pen.?box|qalamdan|box\b|casket|binding|cover|glass|case\b|stand\b|chest", re.I)
 
 
 def is_book_arts(row):
@@ -860,6 +862,9 @@ def assign_school(row):
             school, basis = c, "place"
         elif c and dyn:
             school, basis = f"{dyn} {c}", "place"
+        elif c and row.get("met_inferred"):
+            # no recorded dynasty: name the centre with the Met-style dynasty for its date
+            school, basis = f"{row['met_inferred']} {c}", "place, dynasty inferred"
     row["school"], row["school_basis"] = school, basis
 
 
