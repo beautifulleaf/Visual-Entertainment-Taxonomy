@@ -24,8 +24,8 @@ spaced ~1 s apart; re-runs read the cache, so an interrupted run resumes):
       now online.bunka.go.jp, whose 国宝・重要文化財 list links to it).
       Every 国宝 and 重要文化財 in the fine-arts-and-crafts register (美術工芸品),
       via its CSV export. The export fails above ~2,000 rows, so queries are
-      split by art category x 国宝/重要文化財, and by the owner's prefecture when
-      still too large.
+      split by art category x 国宝/重要文化財, and, when still too large, by the
+      owner's prefecture and by era (union of both, as each misses some records).
       Makers come from the 〈…筆／…〉 part of the official name.
   National Palace Museum, Taipei (npm/)
       The open-data portal (digitalarchive.npm.gov.tw/opendata). Its per-category
@@ -209,7 +209,7 @@ NAME_ALIASES = {"雪舟等楊": "雪舟", "安藤広重": "歌川広重", "一�
                 "等伯": "長谷川等伯", "宗達": "俵屋宗達", "光琳": "尾形光琳", "乾山": "尾形乾山", "若冲": "伊藤若冲",
                 "北斎": "葛飾北斎", "広重": "歌川広重", "歌麿": "喜多川歌麿", "探幽": "狩野探幽", "永徳": "狩野永徳",
                 "大雅": "池大雅", "蕪村": "与謝蕪村", "崋山": "渡辺崋山", "仁清": "野々村仁清", "弘法大師": "空海",
-                "岩佐勝以": "岩佐又兵衛", "雪舟等揚": "雪舟", "明兆": "吉山明兆"}
+                "岩佐勝以": "岩佐又兵衛", "乾隆": "清高宗", "乾隆帝": "清高宗", "弘曆": "清高宗", "高宗": "清高宗", "雪舟等揚": "雪舟", "明兆": "吉山明兆"}
 
 
 def fold_cjk(s):
@@ -784,6 +784,9 @@ KUN = "https://kunishitei.bunka.go.jp"
 KUN_KINDS = ["絵画", "彫刻", "工芸品", "書跡・典籍", "古文書", "考古資料", "歴史資料"]
 KUN_NATIONS = ["国宝", "重要文化財"]
 KUN_MAX = 1900
+KUN_ERAS = ["縄文", "弥生", "古墳", "飛鳥", "奈良", "平安", "鎌倉", "南北朝", "室町", "安土桃山", "江戸", "明治", "大正",
+            "昭和", "平成", "五胡十六国", "隋", "唐", "五代十国", "北宋", "南宋", "元", "明", "清", "中国その他", "新羅", "高麗",
+            "李氏朝鮮", "朝鮮その他", "欧米", "その他"]
 KUN_PREFS = ["北海道", "青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県", "茨城県", "栃木県", "群馬県", "埼玉県", "千葉県",
              "東京都", "神奈川県", "新潟県", "富山県", "石川県", "福井県", "山梨県", "長野県", "岐阜県", "静岡県", "愛知県", "三重県",
              "滋賀県", "京都府", "大阪府", "兵庫県", "奈良県", "和歌山県", "鳥取県", "島根県", "岡山県", "広島県", "山口県", "徳島県",
@@ -895,20 +898,24 @@ def fetch_bunka(delay):
                 continue
             # The export refuses (HTTP 403) above ~2,000 rows, so split by the owner's prefecture,
             # which every record has (including "２県以上" and "地域を定めない").
-            got = 0
-            for pref in KUN_PREFS:
-                pk = f"{key}|{pref}"
-                n2 = get_count(pk, kind, nation, "", pref)
-                if n2 is None:
-                    missing.append(pk)
-                    continue
-                if n2 == 0:
-                    continue
-                got += n2
-                p = get_csv(pk, kind, nation, "", pref)
-                (files if p else missing).append(p or pk)
-            if got < n:
-                print(f"  kunishitei {key}: {n} records, prefecture split covers {got}", file=sys.stderr)
+            # Neither split alone is complete (owner prefecture and era are both missing on some records),
+            # so take both; load_bunka() de-duplicates on 管理対象ID.
+            for axis, values in (("pref", KUN_PREFS), ("era", KUN_ERAS)):
+                got = 0
+                for v in values:
+                    pk = f"{key}|{v}"
+                    era, pref = (v, "") if axis == "era" else ("", v)
+                    n2 = get_count(pk, kind, nation, era, pref)
+                    if n2 is None:
+                        missing.append(pk)
+                        continue
+                    if n2 == 0:
+                        continue
+                    got += n2
+                    p = get_csv(pk, kind, nation, era, pref)
+                    (files if p else missing).append(p or pk)
+                if got < n:
+                    print(f"  kunishitei {key}: {n} records, {axis} split covers {got}", file=sys.stderr)
     if missing:
         print(f"  kunishitei: {len(missing)} queries failed: {missing[:6]}", file=sys.stderr)
     return files
@@ -963,9 +970,9 @@ NPM_ARTIST_CATS = {"繪畫", "法書", "成扇"}
 NPM_PREFIXES = sorted(["六朝梁", "六朝", "五代南唐", "五代後蜀", "五代", "南唐", "北宋", "南宋", "東晉", "西晉", "晉", "唐", "宋",
                        "元", "明", "清", "金", "遼", "隋", "民國", "後梁", "北魏", "漢", "宋元", "元明", "明清"],
                       key=len, reverse=True)
-NPM_NOT_NAME = set("圖卷冊軸畫帖集冊頁幅屏書法墨跡")
+NPM_NOT_NAME = set("圖卷冊軸畫帖集冊頁幅屏書法墨跡図画")
 NPM_BAD_END = set("畫寫書臨仿摹倣墨繪行草楷題詩詞山水花鳥竹梅蘭石松雪秋春夏冬江溪雲林圖卷冊軸人物蓮荷集等御製法帖與及并合"
-                  "觀遊圖景色居堂亭閣樓溪山峰谷泉")
+                  "觀遊圖景色居堂亭閣樓溪山峰谷泉画図写臨")
 EMPEROR = re.compile(r"^[一-鿿](宗|祖|帝)")
 
 
@@ -1070,7 +1077,9 @@ def npm_parse_makers(rows, lexicon):
         rem = rem[1:] if attributed else rem
         f = fold_cjk(rem)
         r["maker"], r["attributed"] = "", attributed
-        if not f or f[0] == "人" or f.startswith(("院本", "院畫", "院", "佚名", "無款", "人畫", "人書")) or \
+        if not r["_pre"] or not f or f[0] == "人" or \
+                f.startswith(("院", "佚名", "無款", "名人", "名画", "名賢", "名家", "歴代", "集古", "宋元", "元明", "明清",
+                              "諸家", "群賢", "御製", "御筆")) or \
                 (len(f) > 1 and f[0] in "宋元明清唐" and f[1] == "人"):
             r["anonymous"] = True
             continue
@@ -1083,14 +1092,14 @@ def npm_parse_makers(rows, lexicon):
             n_prev = 0
             for L in (2, 3, 4):
                 c = f[:L]
-                if len(c) < L or len(f) == L or any(ch in NPM_NOT_NAME for ch in c):
+                if len(c) < L or len(f) == L or any(ch in NPM_NOT_NAME for ch in c + rem[:L]):
                     break
                 n = cnt[c]
                 if n < 2:
                     break
                 if L == 2:
                     best, n_prev = rem[:2], n
-                elif n >= 0.5 * n_prev and c[-1] not in NPM_BAD_END:
+                elif n >= 0.5 * n_prev and c[-1] not in NPM_BAD_END and rem[L - 1:L] not in NPM_BAD_END:
                     best, n_prev = rem[:L], n
                 else:
                     break
@@ -1155,14 +1164,11 @@ def load_npm(rows, fetcher, lexicon, n_details):
     for r in rows:
         labels = r["dyn"]
         pre = r.get("_pre") or npm_title_split(r["title"])[0]
+        # the title's dynasty prefix is the museum's own attribution; the dynasty filter matches on
+        # date ranges, so a Qing work can be listed under 明 as well
         cand = [period_of(lb, "China") for lb in labels]
-        pidx = None
-        if len(cand) == 1:
-            pidx = cand[0]
-        elif pre:
-            p2 = period_of(pre, "China")
-            pidx = p2 if p2 in cand else (cand[0] if cand else None)
-        elif cand:
+        pidx = period_of(pre, "China") if pre else None
+        if pidx is None and cand:
             pidx = cand[0]
         mk = []
         if r.get("maker"):

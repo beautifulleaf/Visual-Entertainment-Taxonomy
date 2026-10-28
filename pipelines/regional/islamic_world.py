@@ -611,11 +611,16 @@ def harvest_dia(details=True):
     for d in dyns:
         did = d["dynastyId"]
         dname = next((n["name"] for n in d["dynastyName"] if n["langId"] == "en"), str(did))
-        page, total = 1, 0
+        page, total, last, failed = 1, 0, 1, []
         while True:
             data = fetch_json(f"{DIA_API}/dynasties/{did}/objects?page={page}",
                               os.path.join(RAW, "dia", "dynasty_objects", f"d{did:03d}_p{page:03d}.json"))
             if not data:
+                # a page the server cannot render (HTTP 500) is skipped, not the rest of the list
+                if page < last:
+                    failed.append(page)
+                    page += 1
+                    continue
                 break
             for o in data.get("data", []):
                 en = next((x for x in o.get("details", []) if x.get("langId") == "en"), None)
@@ -627,10 +632,11 @@ def harvest_dia(details=True):
                     ent["dynasty_lists"].append(dname)
             meta = data.get("meta", {})
             total = meta.get("total", total)
-            if page >= meta.get("last_page", 1):
+            last = meta.get("last_page", 1)
+            if page >= last:
                 break
             page += 1
-        print(f"  DIA {dname}: {total} objects", file=sys.stderr)
+        print(f"  DIA {dname}: {total} objects" + (f" (pages {failed} failed)" if failed else ""), file=sys.stderr)
     rows = []
     n_detail = 0
     for key, ent in objs.items():
@@ -643,8 +649,8 @@ def harvest_dia(details=True):
                 f = dia_item_fields(page)
                 n_detail += 1
         recorded = f.get("Period / Dynasty") or en.get("dynasty") or "; ".join(ent["dynasty_lists"])
-        place = "; ".join(x for x in (f.get("Provenance", ""), en.get("countryName", "")) if x)
-        bases = place_bases(f.get("Provenance", "")) or place_bases(en.get("countryName", ""))
+        place = f.get("Provenance", "")   # countryName is the holding museum's country
+        bases = place_bases(f.get("Provenance", ""))
         dyn = norm_dynasties(recorded, bases) or norm_dynasties("; ".join(ent["dynasty_lists"]), bases)
         makers = []
         for lab, val in f.items():
@@ -715,7 +721,9 @@ def cma_row(r, sweep):
     return {
         "source": "cma", "id": r.get("accession_number") or str(r.get("id")),
         "title": r.get("title") or "", "object_type": r.get("type") or "",
-        "dynasty_recorded": cult, "dynasties": norm_dynasties(cult, bases),
+        "dynasty_recorded": cult,
+        # "in the style of the Buyid period" marks later imitations: recorded, not counted
+        "dynasties": [] if re.search(r"style of", cult, re.I) else norm_dynasties(cult, bases),
         "culture_place": cult, "bases": bases,
         "date_text": r.get("creation_date") or "",
         "date_begin": r.get("creation_date_earliest"), "date_end": r.get("creation_date_latest"),
