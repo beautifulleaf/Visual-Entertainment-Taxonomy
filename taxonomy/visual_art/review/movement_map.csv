@@ -142,7 +142,7 @@ Q422681,Nazarene movement,leaf:T34,Nazarene Movement
 Q397469,Neo-romanticism,leaf:T80,Neo-Romanticism
 Q65939509,British black arts movement,leaf:T103,British Black Arts Movement
 Q372600,Tachisme,kind:T86/Tachisme,Informalism; French branch
-Q3079516,Kei school,leaf:T153,Kei School
+Q3079516,Kei school,leaf:T153,Kei School; held for Japanese sculptors born 1140–1299 only
 Q7971736,Washington Color School,kind:T84/Washington Color School,Color Field; regional group
 Q610687,Venetian school,leaf:T23,Venetian School
 Q3381582,humanistic photography,leaf:T178,Humanistic Photography
@@ -389,7 +389,7 @@ Q466887,Belle Époque,tag,period: Belle Époque
 Q384177,Egyptian Revival architecture,tag,architectural style on painters; K2 revivals built elsewhere
 Q64334168,Late Baroque,tag,period: Late Baroque
 Q11394770,Maruyama school,leaf:T12,Maruyama–Shijō School; merged (Maruyama school)
-Q11394807,En school,kind:T153/En school,"Kei School; Heian Buddhist sculptors' lineage, held under Kei until a broader leaf exists"
+Q11394807,En school,kind:east_asia:L21/En school,"Japanese Buddhist Sculpture (east_asia slice); Heian–Kamakura busshi lineage of Kyoto, not Kei (Kei is Kamakura Nara busshi)"
 Q4775114,Antipodeans,kind:T112/Antipodeans,Modern Art; artist group
 Q830891,Inuit art,tag,Indigenous tradition: route to the North American Indigenous slice
 Q4439247,Stalinist Empire style,tag,architectural style on painters (Stalinist Empire)
