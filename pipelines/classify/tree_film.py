@@ -12,17 +12,16 @@ TAB = "FT"
 TAB_NAME = "Film & Television"
 
 FAMILY_KEY = [
-    "1. Is it <b>Japanese animation</b> (anime), in any format — TV series, film, OVA, ONA, special? → <b>E Anime</b>. Animation from elsewhere is placed by its format below (a feature → A, animated feature leaves).",
+    "1. Is it <b>Japanese animation</b> (anime), in any format — TV series, film, OVA, ONA, special? → <b>E Anime</b>; format is a filter (D4). Animation from elsewhere is placed by its form below (a feature → A15 Animated Feature).",
     "2. Is it an <b>unscripted format</b> licensed across countries (talent competition, dating, cooking, game show, docusoap)? → <b>G Unscripted Formats</b>.",
-    "3. Is it a <b>live-action drama series from East or Southeast Asia</b> (K-drama, C-drama, J-drama, Thai lakorn, Taiwanese and Philippine drama)? → <b>F Asian Drama</b> (owner decision 2; see open question Q3).",
-    "4. Is it a <b>long-running serial</b> in a named serial tradition — telenovela, dizi, Indian daily soap, soap opera? → <b>D Serial Drama Traditions</b>.",
-    "5. Any other <b>scripted television series or miniseries</b>? → <b>C Television Series</b>.",
-    "6. A film <b>under 40 minutes</b>? → <b>B Short Film</b>. Otherwise → <b>A Feature Film</b> (the Academy's 40-minute line).",
+    "3. Is it a <b>long-running serial</b> in a named serial tradition — telenovela, dizi, Indian daily soap, soap opera? → <b>D Serial Drama Traditions</b>.",
+    "4. Any other <b>scripted series or miniseries</b>, from anywhere — including the East and Southeast Asian drama traditions (K-drama, Chinese costume drama, asadora, taiga drama, lakorn)? → <b>C Television Series</b> (D3: Asian drama is a filter, not a family).",
+    "5. A film <b>under 40 minutes</b>? → <b>B Short Film</b>. Otherwise → <b>A Feature Film</b> (the Academy's 40-minute line).",
 ]
 
 PRECEDENCE = [
-    ("F1", "Movement before genre", "A film that a named movement's reference sources list as a member (Japanese New Wave, Italian neorealism) goes to the movement leaf; its genre is a see-also. Membership must be attested — a film is not placed in a movement because its director belongs to one."),
-    ("F2", "Named cycle before general genre", "A named national cycle with its own canon (J-horror, kaiju eiga, yakuza eiga, pink film) beats the general genre leaf (supernatural horror, monster film, gangster film, sexploitation)."),
+    ("F1", "Named cycle before movement", "A film with a home in a named genre cycle (chanbara, kaidan, J-horror, yakuza, film noir, pink film, Roman Porno, pinky violence, kaiju, tokusatsu, Taiyōzoku) goes to that cycle, even when a movement's reference sources list it as a member. A movement leaf keeps the attested members with no cycle home; every attested member carries the movement as a tag (D1)."),
+    ("F2", "Named cycle before general genre", "A named cycle with its own canon (J-horror, kaiju eiga, yakuza eiga, pink film) beats the general genre leaf (supernatural horror, monster film, gangster film, sexploitation)."),
     ("F3", "Ghosts before period", "A film whose story turns on ghosts or the supernatural is horror (kaidan eiga) even when set in the Edo period; period setting alone does not make jidaigeki win."),
     ("F4", "Swords before period", "A jidaigeki whose drama is carried by sword combat is chanbara; a period film of manners, politics or family is jidaigeki."),
     ("F5", "Giant monsters", "A film built on a giant monster (kaiju) is Kaiju Film whether or not a costumed hero appears; a costumed transforming hero with no giant monster at its centre is Tokusatsu Hero Film."),
@@ -34,11 +33,14 @@ PRECEDENCE = [
 ]
 
 MODIFIERS = [
-    "<b>Country of origin</b> — a filter (Wikidata P495 first, as in the selection rule). National cinemas are never divisions; national cycles and movements defined by what the films are (J-horror, Japanese New Wave) are leaves.",
+    "<b>Country of origin</b> — a filter (Wikidata P495 first, as in the selection rule; a co-production counts in each of its countries, D8). National cinemas are never divisions; national cycles and movements defined by what the films are (J-horror, Japanese New Wave) are leaves.",
     "<b>Decade and period of release</b> — a filter.",
     "<b>Director, studio, writer</b> — tags; studio-branded cycles are leaves only where the field names them as a genre (Nikkatsu Roman Porno).",
     "<b>Setting</b> — jidaigeki (pre-1868) or gendaigeki (contemporary) as a filter on every Japanese film; a leaf (Jidaigeki) exists only for the period drama genre.",
     "<b>Release format</b> — theatrical, V-cinema (direct-to-video), TV movie, streaming: a filter.",
+    "<b>Movement</b> — a tag on every attested member of a named movement (Japanese New Wave), including members placed in a genre cycle (D1).",
+    "<b>Format</b> — for anime: TV series, film, OVA, ONA, special (D4). For series: miniseries, limited, ongoing.",
+    "<b>Asian drama</b> — the drama database's scope (Korea, China, Japan, Taiwan, Thailand, the Philippines, Hong Kong, Singapore) as a filter on Television Series (D3).",
     "<b>Source material</b> (manga, novel, true story) — a tag.",
     "<b>Language, rating, runtime, platform</b> — tags.",
     "<b>Audience counts</b> (Letterboxd, IMDb, MAL, MDL) — kept internal (licensing); never shown.",
@@ -49,7 +51,7 @@ FAMILIES = [
      "test": "a film of 40 minutes or more made as a single work for cinema, festival, television or streaming release; not anime.",
      "key": [
          "1. Non-fiction? → <b>A13 Documentary</b>.",
-         "2. An attested member of a named film movement? → <b>A1 Movements & Schools</b> (F1).",
+         "2. Does it belong to a <b>named genre cycle</b> (the narrower leaves of A2–A12: chanbara, kaidan, J-horror, yakuza, noir, pink, Roman Porno, pinky violence, kaiju, tokusatsu, Taiyōzoku)? → skip to that leaf (F1). Otherwise, is it an <b>attested member of a named film movement</b>? → <b>A1 Movements & Schools</b>.",
          "3. Is erotic display or sexual obsession the film's reason to exist — made for the sex-film circuit, or an art-house film built on it? → <b>A12 Erotic Film</b>. A violent exploitation cycle with erotic elements (pinky violence) is not: it goes on.",
          "4. Does it aim first to frighten (ghosts, monsters, killers, gore)? → <b>A4 Horror</b> (F3).",
          "5. Is its premise speculative science — the future, technology, space, giant monsters, transforming heroes? → <b>A5 Science Fiction & Monster</b> (F5). Magic or myth? → <b>A6 Fantasy & Adventure</b>.",
@@ -78,17 +80,33 @@ FAMILIES = [
          ("A17", "Western", "Axis: setting (the American frontier and its transpositions)."),
      ]},
     {"code": "B", "label": "Short Film", "test": "a film under 40 minutes.", "key": ["Placed by the Feature Film key; short-film leaves are built at scale."], "subs": []},
-    {"code": "C", "label": "Television Series", "test": "a scripted series or miniseries made for television or streaming, outside the named serial traditions, Asian drama and anime.", "key": [], "subs": []},
+    {"code": "C", "label": "Television Series", "test": "a scripted series or miniseries made for television or streaming, anywhere, outside the named long-running serial traditions and anime.", "key": ["Placed by genre and by named drama tradition; built at scale (D3)."],
+     "subs": [("C1", "Drama Series", "Axis: subject. Built at scale."),
+              ("C2", "East & Southeast Asian Drama Traditions", "Axis: the named tradition — K-drama melodrama, Chinese costume drama (guzhuang), wuxia and xianxia drama, Japanese asadora and taiga drama, Thai lakorn. Built at scale; 'Asian drama' is a filter (D3)."),
+              ("C3", "Crime & Thriller Series", "Axis: milieu. Built at scale."),
+              ("C4", "Comedy Series", "Axis: comic form (sitcom, single-camera, sketch). Built at scale."),
+              ("C5", "Genre Series", "Axis: speculative premise (science fiction, fantasy, horror). Built at scale.")]},
     {"code": "D", "label": "Serial Drama Traditions", "test": "a long-running serial in a named serial tradition: telenovela, dizi, Indian daily soap, soap opera.", "key": [], "subs": []},
-    {"code": "E", "label": "Anime", "test": "Japanese animation in any format (TV series, film, OVA, ONA, special); donghua and Korean animation are placed here when selected through the anime database (open question Q4).", "key": [], "subs": []},
-    {"code": "F", "label": "Asian Drama", "test": "a live-action drama series from East or Southeast Asia selected through the Asian drama database.", "key": [], "subs": []},
+    {"code": "E", "label": "Anime", "test": "Japanese animation in any format (TV series, film, OVA, ONA, special); format is a filter, never a division (D4). Donghua and Korean animation selected through the anime database are placed here with their country as a filter.", "key": ["Placed by genre and demographic; built at scale (D4)."],
+     "subs": [("E1", "Action & Battle", "Axis: the fighting premise (shōnen battle, martial arts, samurai). Built at scale."),
+              ("E2", "Mecha & Science Fiction", "Axis: real-robot, super-robot, cyberpunk, space opera. Built at scale."),
+              ("E3", "Fantasy & Isekai", "Axis: the invented world. Built at scale."),
+              ("E4", "Magical Girl", "Axis: tradition. Built at scale."),
+              ("E5", "Romance & Romantic Comedy", "Axis: tone and demographic (shōjo, josei, harem). Built at scale."),
+              ("E6", "Slice of Life & Iyashikei", "Axis: setting. Built at scale."),
+              ("E7", "Sports", "Axis: sport. Built at scale."),
+              ("E8", "Drama, Psychological & Mystery", "Axis: subject. Built at scale."),
+              ("E9", "Horror", "Axis: source of fear. Built at scale."),
+              ("E10", "Comedy", "Axis: comic mode. Built at scale."),
+              ("E11", "Children's & Family", "Axis: audience. Built at scale.")]},
+    {"code": "F", "label": "Asian Drama (retired)", "test": "Retired by ruling D3: East and Southeast Asian drama series are placed in C Television Series (C2) and 'Asian drama' is a filter. The code F is not reused.", "key": [], "subs": []},
     {"code": "G", "label": "Unscripted Formats", "test": "a cross-border unscripted format (≥3 versions in ≥2 countries); its national versions are kinds.", "key": [], "subs": []},
 ]
 
 LEAVES = {
     "A1": [
         ("A1-1", "Japanese New Wave", "medium",
-         "the Nūberu bāgu: films of Ōshima, Imamura, Yoshida, Shinoda, Teshigahara, Hani and their peers (c. 1959–1975) that broke with studio humanism through politics, sexuality and formal rupture (<i>Cruel Story of Youth</i>, <i>Woman in the Dunes</i>, <i>Eros + Massacre</i>).",
+         "the Nūberu bāgu: films of Ōshima, Imamura, Yoshida, Shinoda, Teshigahara, Hani and their peers (c. 1959–1975) that broke with studio humanism through politics, sexuality and formal rupture (<i>Cruel Story of Youth</i>, <i>Woman in the Dunes</i>, <i>Death by Hanging</i>). Members with a genre-cycle home (<i>Harakiri</i>, <i>Kwaidan</i>, <i>Branded to Kill</i>) sit in that cycle and carry the movement as a tag (D1).",
          "Nūberu bāgu; Shōchiku Nouvelle Vague", "A14 Drama; A12-1 Pink Film.", "Japanese New Wave"),
     ],
     "A2": [

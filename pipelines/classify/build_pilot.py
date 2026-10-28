@@ -164,6 +164,7 @@ def japan():
     for r in rd(os.path.join(ROOT, "seeds", "classify", "film_overrides.csv")):
         out[r["tconst"]] = {"tconst": r["tconst"], "leaf": r["leaf"], "see_also": r.get("see_also", ""),
                             "key_step": r.get("key_step", ""), "note": r.get("note", ""), "by": "owner-pass"}
+    mov = {r["tconst"]: r["movement"] for r in rd(os.path.join(ROOT, "seeds", "classify", "film_movements.csv"))}
     rows = []
     for t, f in fs.items():
         o = out.get(t, {"leaf": "unplaced", "see_also": "", "key_step": "", "note": "", "by": ""})
@@ -171,7 +172,7 @@ def japan():
         d = "; ".join(v.split(":", 1)[1] for v in w.get("director", "").split("|") if v)
         rows.append({"tconst": t, "title": f["title"], "year": f["year"], "countries": f["countries"], "director": d,
                      "qid": w.get("qid", ""), "leaf": o["leaf"], "see_also": o["see_also"], "key_step": o["key_step"],
-                     "note": o["note"], "by": o["by"]})
+                     "note": o["note"], "by": o["by"], "movement": mov.get(t, "")})
     with open(os.path.join(P, "japan_placements.csv"), "w", newline="", encoding="utf-8") as f:
         wtr = csv.DictWriter(f, fieldnames=list(rows[0]))
         wtr.writeheader()
@@ -203,7 +204,7 @@ def ft_data(rows):
                         src.append(["https://en.wikipedia.org/wiki/" + hit["enwiki"].replace(" ", "_"), "Wikipedia"])
                 leaves.append({"code": l[0], "label": l[1], "breadth": l[2], "defn": l[3], "aliases": l[4], "see": l[5],
                                "src": src, "weak": "" if hit else "no Wikidata item found for this label",
-                               "kinds": [[k["title"], k["year"], k["director"], k["see_also"], k["note"], k["tconst"], k["qid"]] for k in ks],
+                               "kinds": [[k["title"], k["year"], k["director"], k["see_also"], k["note"], k["tconst"], k["qid"], k["movement"]] for k in ks],
                                "n": len(ks)})
             subs.append({"code": s, "label": lab, "axis": ax, "leaves": leaves, "n": sum(x["n"] for x in leaves)})
         fams.append({"code": fam["code"], "label": fam["label"], "test": fam["test"], "key": fam["key"], "subs": subs,

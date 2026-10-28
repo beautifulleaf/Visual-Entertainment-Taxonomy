@@ -1,0 +1,51 @@
+item_id,item,context
+0,Qajar Tehran,"52 objects; place (51); place, dynasty inferred (1)"
+1,Kerman carpet,0 objects; 8 sitelinks; wikidata
+2,Garayazi carpet,0 objects; 1 sitelinks; wikidata
+3,Tabriz rug,0 objects; 1 sitelinks; wikidata
+4,Qara Qoyunlu,1 objects
+5,Raqqa,43 objects
+6,Ottoman Baroque,6 sitelinks; 3 buildings
+7,Moorish Revival architecture in Hungary,1 sitelinks; 0 buildings
+8,Islamic book arts: Maghrebi / Andalusi (see islamic_world.py),50 manuscripts
+9,Göklen rug,0 objects; 2 sitelinks; wikidata
+10,Ottoman architecture,41 sitelinks; 1778 buildings
+11,West African Ajami / Sahelian Islamic (see islamic_world.py),3 manuscripts
+12,Afshar Khuzestan carpet,0 objects; 1 sitelinks; wikidata
+13,Mamluk architecture,17 sitelinks; 95 buildings
+14,Babar carpet,0 objects; 2 sitelinks; wikidata
+15,Bijapur,16 objects
+16,Ottoman,1509 objects
+17,Moorish Revival architecture in Bosnia and Herzegovina,3 sitelinks; 0 buildings
+18,Early Islamic,5 objects
+19,Prince Salim's atelier (Allahabad),364 objects; recorded (364)
+20,Pateh (Kerman embroidery),0 objects; 2 sitelinks; wikidata+curated
+21,Pahlavi,1 objects
+22,Sistan cream embroidery,0 objects; 1 sitelinks; wikidata
+23,Abbasid,521 objects
+24,Isfahan rug,0 objects; 9 sitelinks; wikidata
+25,Sadiqi Bek,1 objects; Safavid (1);  roles artist (1)
+26,Bandi,1 objects; Mughal (1);  roles maker (1)
+27,"Possibly, ‘Sa‘d’",1 objects; Fatimid (1);  roles artist(s) / craftsperson (1)
+28,copied by Mir ‘Abdallah Mir Ja‘far al-Husayni al-Tabrizi,1 objects; Safavid (1); Mughal (1);  roles artist(s) / craftsperson (1)
+29,The work of ‘Abd al-Wahid ibn Sulayman (as stated on the interlocking ‘teeth’ of the Qur’an stand),1 objects; Seljuq (1);  roles artist(s) / craftsperson (1)
+30,Dhanun,1 objects; Mughal (1);  roles maker (1)
+31,"Salih, Muhammad",1 objects; ;  roles maker (1)
+32,"Nand, Gwaliari",3 objects; Mughal (3);  roles maker (3)
+33,Habiballah of Sava,1 objects; Safavid (1);  roles artist(s) / craftsperson (1)
+34,Banwali Khord,3 objects; Mughal (3);  roles maker (2); artist (1)
+35,Aḥmad Mūsā,painting; 6.0 sitelinks; 
+36,Abdollah Shirazi,3 sitelinks; fl. 1557
+37,Mustafa,1 objects; Ottoman (1);  roles artist(s) / craftsperson (1)
+38,Sayyid Thabit,1 objects; Ottoman (1);  roles artist(s) / craftsperson (1)
+39,Qutb al-Din Muhammad ibn Abdallah,1 objects; Safavid (1);  roles maker (1)
+40,Tulsi Kalan,2 objects; Mughal (2);  roles maker (2)
+41,Vedat Tek,10 sitelinks; Kastamonu Governor's Office|Vedat Tek House|Hagia Sophia His
+42,Sayyid Süleyman Kasım Pasha,1 objects; Ottoman (1);  roles artist(s) / craftsperson (1)
+43,Nanha,8 objects; Mughal (8);  roles maker (5); painter (artist) (2); artist 
+44,'Ali ibn Ahmad al-Warraq,1 objects; Zirid (1); Fatimid (1);  roles artist(s) / craftsperson (1)
+45,Master ‘Iyas of Mosul,1 objects; Zangid (1);  roles artist(s) / craftsperson (1)
+46,"Yazdi, Muhammad Mahdi",1 objects; Safavid (1);  roles engraver (1)
+47,Ghulaman,1 objects; Mughal (1);  roles maker (1)
+48,Paras,3 objects; Mughal (3);  roles artist (2); made (1)
+49,Husain Ali,1 objects; Mughal (1);  roles maker (1)

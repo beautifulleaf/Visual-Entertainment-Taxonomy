@@ -1,14 +1,13 @@
 TAB KEY
-1. Is it Japanese animation (anime), in any format — TV series, film, OVA, ONA, special? → E Anime. Animation from elsewhere is placed by its format below (a feature → A, animated feature leaves).
+1. Is it Japanese animation (anime), in any format — TV series, film, OVA, ONA, special? → E Anime; format is a filter (D4). Animation from elsewhere is placed by its form below (a feature → A15 Animated Feature).
 2. Is it an unscripted format licensed across countries (talent competition, dating, cooking, game show, docusoap)? → G Unscripted Formats.
-3. Is it a live-action drama series from East or Southeast Asia (K-drama, C-drama, J-drama, Thai lakorn, Taiwanese and Philippine drama)? → F Asian Drama (owner decision 2; see open question Q3).
-4. Is it a long-running serial in a named serial tradition — telenovela, dizi, Indian daily soap, soap opera? → D Serial Drama Traditions.
-5. Any other scripted television series or miniseries? → C Television Series.
-6. A film under 40 minutes? → B Short Film. Otherwise → A Feature Film (the Academy's 40-minute line).
+3. Is it a long-running serial in a named serial tradition — telenovela, dizi, Indian daily soap, soap opera? → D Serial Drama Traditions.
+4. Any other scripted series or miniseries, from anywhere — including the East and Southeast Asian drama traditions (K-drama, Chinese costume drama, asadora, taiga drama, lakorn)? → C Television Series (D3: Asian drama is a filter, not a family).
+5. A film under 40 minutes? → B Short Film. Otherwise → A Feature Film (the Academy's 40-minute line).
 
 ## A Feature Film — test: a film of 40 minutes or more made as a single work for cinema, festival, television or streaming release; not anime.
   key: 1. Non-fiction? → A13 Documentary.
-  key: 2. An attested member of a named film movement? → A1 Movements & Schools (F1).
+  key: 2. Does it belong to a named genre cycle (the narrower leaves of A2–A12: chanbara, kaidan, J-horror, yakuza, noir, pink, Roman Porno, pinky violence, kaiju, tokusatsu, Taiyōzoku)? → skip to that leaf (F1). Otherwise, is it an attested member of a named film movement? → A1 Movements & Schools.
   key: 3. Is erotic display or sexual obsession the film's reason to exist — made for the sex-film circuit, or an art-house film built on it? → A12 Erotic Film. A violent exploitation cycle with erotic elements (pinky violence) is not: it goes on.
   key: 4. Does it aim first to frighten (ghosts, monsters, killers, gore)? → A4 Horror (F3).
   key: 5. Is its premise speculative science — the future, technology, space, giant monsters, transforming heroes? → A5 Science Fiction & Monster (F5). Magic or myth? → A6 Fantasy & Adventure.
@@ -17,7 +16,7 @@ TAB KEY
   key: 8. Fights, chases and stunts carry it? → A8 Action & Martial Arts.
   key: 9. Songs carry the story? → A11 Musical & Music. Laughter first? → A10 Comedy. A love story? → A9 Romance. Otherwise → A14 Drama (F7).
 ### A1 Movements & Schools — Axis: the named movement (membership attested in its reference sources).
-A1-1 Japanese New Wave: the Nūberu bāgu: films of Ōshima, Imamura, Yoshida, Shinoda, Teshigahara, Hani and their peers (c. 1959–1975) that broke with studio humanism through politics, sexuality and formal rupture (Cruel Story of Youth, Woman in the Dunes, Eros + Massacre). [aka Nūberu bāgu; Shōchiku Nouvelle Vague]
+A1-1 Japanese New Wave: the Nūberu bāgu: films of Ōshima, Imamura, Yoshida, Shinoda, Teshigahara, Hani and their peers (c. 1959–1975) that broke with studio humanism through politics, sexuality and formal rupture (Cruel Story of Youth, Woman in the Dunes, Death by Hanging). Members with a genre-cycle home (Harakiri, Kwaidan, Branded to Kill) sit in that cycle and carry the movement as a tag (D1). [aka Nūberu bāgu; Shōchiku Nouvelle Vague]
 ### A2 Crime — Axis: whose side the story takes and its milieu.
 A2-1 Yakuza Film: yakuza eiga: films of the Japanese gangster world, from the chivalrous ninkyō films of 1960s Toei to the documentary-style jitsuroku films (Battles Without Honor and Humanity) and the V-cinema and Kitano cycles (Sonatine). [aka yakuza eiga; ninkyō eiga; jitsuroku eiga]
 A2-2 Gangster Film: films centred on organised criminals and their rise and fall outside the named national cycles. [aka mob film]
@@ -32,7 +31,7 @@ A3-3 Survival & Death-Game Thriller: films in which characters are forced into a
 ### A4 Horror — Axis: the source of fear.
 A4-1 J-Horror: the Japanese horror cycle of the late 1990s–2000s: vengeful onryō, curses carried by media and technology, slow dread (Ring, Ju-On, Pulse, Dark Water). [aka Japanese horror; J-horror cycle]
 A4-2 Kaidan Film: kaidan eiga: ghost-story films drawn from Edo and folk tales (Ugetsu, Kwaidan, Onibaba, Kuroneko). [aka kaidan eiga; Japanese ghost story film]
-A4-3 Supernatural Horror: horror from ghosts, demons and curses outside the named Japanese cycles (House, Noroi). [aka ghost film]
+A4-3 Supernatural Horror: horror from ghosts, demons and curses outside the named Japanese cycles (House, Noroi). [aka ]
 A4-4 Body Horror: horror of the body transformed, invaded or fused with machines (Tetsuo: The Iron Man). [aka biological horror]
 A4-5 Splatter & Gore Film: horror built on graphic violence, mutilation and torture (Audition, Ichi the Killer, Tokyo Gore Police). [aka splatter film; ero guro; extreme cinema]
 A4-6 Zombie Film: horror of the walking dead (One Cut of the Dead, Versus). [aka ]
@@ -54,6 +53,7 @@ A7-1 Jidaigeki: period drama set before the Meiji Restoration in which the past 
 A7-2 Chanbara: samurai swordplay films in which sword combat carries the drama (Seven Samurai, Yojimbo, Zatoichi, 13 Assassins). [aka samurai film; swordplay film; chambara]
 A7-3 War Film: films about war and soldiers' experience of it (Fires on the Plain, The Burmese Harp, The Human Condition). [aka anti-war film]
 A7-4 Historical Drama: films whose past era defines them outside jidaigeki and war: Meiji, Taishō and Shōwa stories, real events and biopics (The Story of the Last Chrysanthemum, Sanshiro Sugata excepted as martial arts). [aka biopic; historical film]
+A7-5 Atomic Bomb Film: genbaku eiga: films about the bombings of Hiroshima and Nagasaki and the hibakusha (Children of Hiroshima, Black Rain). [aka genbaku eiga; hibakusha cinema]
 ### A8 Action & Martial Arts — Axis: the fighting tradition.
 A8-1 Martial Arts Film: films built on unarmed or weapons combat in modern or timeless settings (The Street Fighter), outside chanbara. [aka karate film]
 A8-2 Action Film: films carried by fights, chases, gunplay and stunts outside the narrower leaves (Shinobi, Alive). [aka action thriller]
@@ -81,6 +81,7 @@ A14-5 Character Study: dramas centred on one person's inner life, grief, solitud
 A14-6 Melodrama: emotionally heightened dramas of suffering and sacrifice, especially women's films (haha-mono mother films, The Life of Oharu). [aka haha-mono; women's film]
 A14-7 Sports Film: dramas built on a sport and its competition. [aka ]
 A14-8 Animal Film: live-action films centred on an animal and its bond with people (The Story of Hachikō, The Adventures of Milo and Otis). [aka dog film; animal story]
+A14-9 Taiyōzoku Film: the 'Sun Tribe' youth films of 1956 adapted from Ishihara Shintarō — affluent, amoral postwar youth (Season of the Sun, Crazed Fruit). [aka Sun Tribe films; taiyōzoku eiga]
 ### A15 Animated Feature — Axis: technique and tradition (non-anime). Built at scale.
 ### A16 Experimental & Avant-Garde — Axis: practice.
 A16-1 Experimental Film: avant-garde and underground films that work outside narrative convention (Terayama's Emperor Tomato Ketchup, Matsumoto's shorts). [aka avant-garde film; underground film]
@@ -90,19 +91,37 @@ A17-1 Western: films of the frontier gunfighter, including spaghetti and transpo
 ## B Short Film — test: a film under 40 minutes.
   key: Placed by the Feature Film key; short-film leaves are built at scale.
 
-## C Television Series — test: a scripted series or miniseries made for television or streaming, outside the named serial traditions, Asian drama and anime.
+## C Television Series — test: a scripted series or miniseries made for television or streaming, anywhere, outside the named long-running serial traditions and anime.
+  key: Placed by genre and by named drama tradition; built at scale (D3).
+### C1 Drama Series — Axis: subject. Built at scale.
+### C2 East & Southeast Asian Drama Traditions — Axis: the named tradition — K-drama melodrama, Chinese costume drama (guzhuang), wuxia and xianxia drama, Japanese asadora and taiga drama, Thai lakorn. Built at scale; 'Asian drama' is a filter (D3).
+### C3 Crime & Thriller Series — Axis: milieu. Built at scale.
+### C4 Comedy Series — Axis: comic form (sitcom, single-camera, sketch). Built at scale.
+### C5 Genre Series — Axis: speculative premise (science fiction, fantasy, horror). Built at scale.
 
 ## D Serial Drama Traditions — test: a long-running serial in a named serial tradition: telenovela, dizi, Indian daily soap, soap opera.
 
-## E Anime — test: Japanese animation in any format (TV series, film, OVA, ONA, special); donghua and Korean animation are placed here when selected through the anime database (open question Q4).
+## E Anime — test: Japanese animation in any format (TV series, film, OVA, ONA, special); format is a filter, never a division (D4). Donghua and Korean animation selected through the anime database are placed here with their country as a filter.
+  key: Placed by genre and demographic; built at scale (D4).
+### E1 Action & Battle — Axis: the fighting premise (shōnen battle, martial arts, samurai). Built at scale.
+### E2 Mecha & Science Fiction — Axis: real-robot, super-robot, cyberpunk, space opera. Built at scale.
+### E3 Fantasy & Isekai — Axis: the invented world. Built at scale.
+### E4 Magical Girl — Axis: tradition. Built at scale.
+### E5 Romance & Romantic Comedy — Axis: tone and demographic (shōjo, josei, harem). Built at scale.
+### E6 Slice of Life & Iyashikei — Axis: setting. Built at scale.
+### E7 Sports — Axis: sport. Built at scale.
+### E8 Drama, Psychological & Mystery — Axis: subject. Built at scale.
+### E9 Horror — Axis: source of fear. Built at scale.
+### E10 Comedy — Axis: comic mode. Built at scale.
+### E11 Children's & Family — Axis: audience. Built at scale.
 
-## F Asian Drama — test: a live-action drama series from East or Southeast Asia selected through the Asian drama database.
+## F Asian Drama (retired) — test: Retired by ruling D3: East and Southeast Asian drama series are placed in C Television Series (C2) and 'Asian drama' is a filter. The code F is not reused.
 
 ## G Unscripted Formats — test: a cross-border unscripted format (≥3 versions in ≥2 countries); its national versions are kinds.
 
 PRECEDENCE
-F1 Movement before genre: A film that a named movement's reference sources list as a member (Japanese New Wave, Italian neorealism) goes to the movement leaf; its genre is a see-also. Membership must be attested — a film is not placed in a movement because its director belongs to one.
-F2 Named cycle before general genre: A named national cycle with its own canon (J-horror, kaiju eiga, yakuza eiga, pink film) beats the general genre leaf (supernatural horror, monster film, gangster film, sexploitation).
+F1 Named cycle before movement: A film with a home in a named genre cycle (chanbara, kaidan, J-horror, yakuza, film noir, pink film, Roman Porno, pinky violence, kaiju, tokusatsu, Taiyōzoku) goes to that cycle, even when a movement's reference sources list it as a member. A movement leaf keeps the attested members with no cycle home; every attested member carries the movement as a tag (D1).
+F2 Named cycle before general genre: A named cycle with its own canon (J-horror, kaiju eiga, yakuza eiga, pink film) beats the general genre leaf (supernatural horror, monster film, gangster film, sexploitation).
 F3 Ghosts before period: A film whose story turns on ghosts or the supernatural is horror (kaidan eiga) even when set in the Edo period; period setting alone does not make jidaigeki win.
 F4 Swords before period: A jidaigeki whose drama is carried by sword combat is chanbara; a period film of manners, politics or family is jidaigeki.
 F5 Giant monsters: A film built on a giant monster (kaiju) is Kaiju Film whether or not a costumed hero appears; a costumed transforming hero with no giant monster at its centre is Tokusatsu Hero Film.
@@ -111,3 +130,16 @@ F7 Drama vs romance vs comedy: A love story as the main line → Romance; aimed 
 F9 Framing devices: A fantastical or science-fiction device that only frames a love story or a youth drama (a time slip, a letter from the future) does not make the film fantasy or science fiction: it is placed by the story it frames (A9, A14-3).
 F10 Leaf examples follow the key: When a film named as a leaf example would be sent elsewhere by the key, the key wins and the example is replaced; examples never override the key.
 F8 Anime: Japanese animation is always E Anime, never an animated-feature leaf, whatever list it was selected from.
+
+MODIFIERS (tags/filters, never nodes)
+Country of origin — a filter (Wikidata P495 first, as in the selection rule; a co-production counts in each of its countries, D8). National cinemas are never divisions; national cycles and movements defined by what the films are (J-horror, Japanese New Wave) are leaves.
+Decade and period of release — a filter.
+Director, studio, writer — tags; studio-branded cycles are leaves only where the field names them as a genre (Nikkatsu Roman Porno).
+Setting — jidaigeki (pre-1868) or gendaigeki (contemporary) as a filter on every Japanese film; a leaf (Jidaigeki) exists only for the period drama genre.
+Release format — theatrical, V-cinema (direct-to-video), TV movie, streaming: a filter.
+Movement — a tag on every attested member of a named movement (Japanese New Wave), including members placed in a genre cycle (D1).
+Format — for anime: TV series, film, OVA, ONA, special (D4). For series: miniseries, limited, ongoing.
+Asian drama — the drama database's scope (Korea, China, Japan, Taiwan, Thailand, the Philippines, Hong Kong, Singapore) as a filter on Television Series (D3).
+Source material (manga, novel, true story) — a tag.
+Language, rating, runtime, platform — tags.
+Audience counts (Letterboxd, IMDb, MAL, MDL) — kept internal (licensing); never shown.

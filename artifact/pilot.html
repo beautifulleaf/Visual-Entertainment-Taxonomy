@@ -95,6 +95,7 @@ details.key p{margin:5px 0}
 .films tr.hl td{background:var(--hit)}
 .tw{overflow-x:auto}
 .extra{font-size:.8rem;color:var(--muted)}
+.mtag{font-size:.68rem;letter-spacing:.04em;text-transform:uppercase;color:var(--h);border:1px solid currentColor;border-radius:4px;padding:0 4px;white-space:nowrap}
 .results{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:10px 14px}
 .results h2{font-family:var(--f-display);font-size:1.15rem;margin:0 0 6px}
 .res{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 12px;padding:6px 0;border-bottom:1px dotted var(--rule);cursor:pointer}
@@ -154,7 +155,7 @@ function vaKinds(l){
 }
 function ftKinds(l){
   if(!l.kinds.length) return '<p class="empty">No Japanese film placed here in the pilot. The leaf is needed for the full tab.</p>';
-  return `<div class="tw"><table class="films"><thead><tr><th>Year</th><th>Title</th><th>Director</th><th>See also</th><th>Note</th></tr></thead><tbody>${l.kinds.map(k=>`<tr class="${state.hl===k[0]?'hl':''}"><td class="y">${esc(k[1])}</td><td><a href="https://www.imdb.com/title/${esc(k[5])}/" target="_blank" rel="noopener">${esc(k[0])}</a></td><td>${esc(k[2])}</td><td class="code">${esc(k[3])}</td><td class="kmeta">${esc(k[4])}</td></tr>`).join('')}</tbody></table></div>`;
+  return `<div class="tw"><table class="films"><thead><tr><th>Year</th><th>Title</th><th>Director</th><th>See also</th><th>Note</th></tr></thead><tbody>${l.kinds.map(k=>`<tr class="${state.hl===k[0]?'hl':''}"><td class="y">${esc(k[1])}</td><td><a href="https://www.imdb.com/title/${esc(k[5])}/" target="_blank" rel="noopener">${esc(k[0])}</a>${k[7]?` <span class="mtag">${esc(k[7])}</span>`:''}</td><td>${esc(k[2])}</td><td class="code">${esc(k[3])}</td><td class="kmeta">${esc(k[4])}</td></tr>`).join('')}</tbody></table></div>`;
 }
 function leafHTML(t,l){
   const open=state.open.has(l.code);

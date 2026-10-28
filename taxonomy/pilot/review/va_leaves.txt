@@ -225,6 +225,7 @@ K1-15 Mughal Architecture: the architecture of the Mughal empire (1526–1857): 
 K1-16 Sudano-Sahelian Architecture: the earthen architecture of the West African Sahel: mud-brick mosques with projecting torons (Djenné, Timbuktu, Agadez). [aka Sudanese style]
 K1-17 Swahili Architecture: the coral-stone architecture of the Swahili coast (Kilwa, Lamu, Zanzibar): mosques, pillar tombs and carved doors. [aka ]
 K1-18 Chinese Islamic Architecture: mosques of China in the Chinese timber-frame idiom (Xi'an, Niujie) and the brick and tiled mosques of Xinjiang. [aka Sino-Islamic architecture]
+K1-19 Javanese Mosque Architecture: the mosques of Java and the Malay world built in the regional timber idiom with stacked pyramidal (tajug) roofs instead of domes (Demak, Kudus, Menara Kudus). [aka masjid Jawa; Indonesian vernacular mosque]
 ### K2 Historicist & National Revivals — Axis: the style revived. Built at scale; the pilot holds the revivals of Islamic styles.
 K2-1 Moorish Revival Architecture: the 19th–20th-century revival of Moorish and Islamic forms in Europe and the Americas — synagogues, theatres, baths and palaces. [aka Neo-Moorish; Islamic Revival]
 K2-2 Neo-Mudéjar: the Spanish revival of Mudéjar brick and tile (late 19th–early 20th century): bullrings, stations and schools. [aka Neomudéjar]
@@ -262,3 +263,12 @@ P7 Place is a tag: A city, production centre, country or culture label (Iznik, K
 P8 Revivals: A revival built outside the original tradition (Moorish Revival synagogues, Neo-Mamluk, the First National Architectural Movement) is a leaf in K Historicist & National Revivals, never a kind of the style it revives.
 P9 Makers: A named maker is a kind under the leaf of the tradition they worked in, linked to their school or atelier where one is recorded. A maker active in two traditions is placed where most of their recorded work sits, with a see-also to the other (Mir Sayyid Ali and Abd al-Samad: Persian schooling, Mughal atelier → Mughal Painting).
 P10 Folk and court: A folk or vernacular craft that the field names on its own (suzani, kilim, Berber jewellery) is its own leaf in the medium family; a court or urban tradition of the same medium is a separate leaf. Garment types (abaya, shemagh, ghutra) are not art traditions: they belong to the Possession Taxonomy.
+
+MODIFIERS (tags/filters, never nodes)
+Period and dynasty — a filter on every kind and leaf (Umayyad, Abbasid, Fatimid, Seljuq, Ilkhanid, Mamluk, Timurid, Safavid, Ottoman, Mughal, Qajar ...). Never a node (P6).
+Region and place — the 20-region grid of the gathering, plus production centre and country as tags (P7).
+Ornament and motif — girih (geometric strapwork), arabesque (islimi), muqarnas, saz leaves, cintamani: a tag across media, never a leaf, since one motif runs through tiles, carpets, metalwork and buildings (open question Q6).
+Holding institution and collection — evidence, never a node.
+Patron and reign — a tag (Akbar, Shah Tahmasp, Süleyman); a royal atelier is a kind only when it is a recorded workshop (Imperial Mughal atelier, the Ottoman nakkaşhane).
+Object type — bowl, ewer, tile, folio, page: an attribute of representative works, not a node. A leaf is a tradition, not an object type, except where the field treats the type as a tradition (astrolabes).
+Inscription and script on objects — an attribute; calligraphy as an art (C1) is placed by script.
