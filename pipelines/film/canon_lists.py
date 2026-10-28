@@ -29,8 +29,9 @@ source gives (original title, title before a colon) are tried next, then
 IMDb's alternative titles (title.akas, English-language regions plus original
 titles), then a +-2 year window. When the source names a director, IMDb's
 director credits (title.crew + name.basics) must confirm the match, except for
-a plain title hit, which is kept but flagged "_dir_unconfirmed". The akas, crew
-and names files are downloaded from datasets.imdbws.com on first run (~900 MB).
+a plain title hit within +-1 year (not a series), kept but flagged
+"_dir_unconfirmed". Undated entries are left unmatched. The akas, crew and
+names files are downloaded from datasets.imdbws.com on first run (~900 MB).
 
 Output: data/interim/film_canon.csv, one row per (list, film):
   list, rank_or_award, title, year, director, tconst, match_method
@@ -62,6 +63,8 @@ CACHE_DIR = os.path.join(ROOT, "data", "raw", "canon")
 IMDB_DIR = os.path.join(ROOT, "data", "raw", "imdb")
 RATINGS_PATH = os.path.join(ROOT, "data", "interim", "film_ratings.csv")
 OUT_PATH = os.path.join(ROOT, "data", "interim", "film_canon.csv")
+# Hand corrections for matches the director check cannot catch: list,title,year,tconst,note
+OVERRIDES = os.path.join(ROOT, "seeds", "film", "canon_overrides.csv")
 
 # Lower is preferred. Series types are kept because a few canon entries are
 # miniseries on IMDb (Dekalog, Berlin Alexanderplatz, Histoire(s) du cinema).
@@ -157,7 +160,7 @@ def clean(raw):
     s = re.sub(r"<br\s*/?>", " ", s)
     s = re.sub(r"<[^>]+>", "", s)
     s = html.unescape(s).replace("\xa0", " ")
-    return re.sub(r"\s+", " ", s).strip()
+    return re.sub(r"\s+", " ", s).strip().strip("[]").strip()
 
 
 def _split_top(s, sep):
@@ -267,7 +270,7 @@ def col_index(headers, *keys):
 
 
 def first_year(s):
-    m = re.search(r"\b(1[89]\d\d|20\d\d)\b", s or "")
+    m = re.search(r"(?<!\d)(1[89]\d\d|20\d\d)(?!\d)", s or "")  # also "1930s", "1961–1964"
     return int(m.group(1)) if m else None
 
 
@@ -529,7 +532,9 @@ class Imdb:
         akas, then the title cut at a colon/dash/bracket; each with year +-1, then
         all again with +-2. When the source names a director, the first stage with
         a director-confirmed hit wins ("_dir"); if no stage has one, only a plain
-        title hit is accepted ("_dir_unconfirmed")."""
+        title hit within +-1 year that is not a series is accepted ("_dir_unconfirmed")."""
+        if e["year"] is None:  # undated entries (home-movie collections etc.) are too ambiguous
+            return "", "unmatched"
         titles = [e["title"]] + e["alts"]
         extra = []
         for t in titles:
@@ -543,6 +548,8 @@ class Imdb:
                 for index, src in ((self.index, ""), (self.akas, "aka_")):
                     for i, t in enumerate(group):
                         hits = self.candidates(t, e["year"], window, index)
+                        if kind == "short_title":  # "X: Part Two" must not fall back to "X" a year earlier
+                            hits = [h for h in hits if h[2] == e["year"]]
                         if not hits:
                             continue
                         k = "alt_title" if kind == "title" and i > 0 else kind
@@ -552,7 +559,8 @@ class Imdb:
                         confirmed = [h for h in hits if src_dir & self.directors.get(h[1], set())]
                         if confirmed:
                             return confirmed[0][1], method(confirmed[0]) + "_dir"
-                        if fallback is None and kind == "title" and not src:
+                        if (fallback is None and kind == "title" and not src and window == 1
+                                and COARSE.get(self.info[hits[0][1]][0], 2) < 2):
                             fallback = (hits[0][1], method(hits[0]) + "_dir_unconfirmed")
         return fallback or ("", "unmatched")
 
@@ -578,8 +586,16 @@ def main():
 
     print("loading IMDb datasets ...")
     imdb = Imdb()
+    overrides = {}
+    if os.path.exists(OVERRIDES):
+        with open(OVERRIDES, encoding="utf-8") as f:
+            overrides = {(o["list"], o["title"], o["year"]): o["tconst"] for o in csv.DictReader(f)}
     for e in entries:
-        e["tconst"], e["match_method"] = imdb.match(e)
+        key = (e["list"], e["title"], str(e["year"]))
+        if key in overrides:
+            e["tconst"], e["match_method"] = overrides[key], "override"
+        else:
+            e["tconst"], e["match_method"] = imdb.match(e)
 
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     fields = ["list", "rank_or_award", "title", "year", "director", "tconst", "match_method"]

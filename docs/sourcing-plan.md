@@ -47,6 +47,18 @@ MDBList (mdblist.com) aggregates ratings from IMDb, TMDB, Trakt, Letterboxd, RT,
 4. **Gaps:** if MDBList lacks a Letterboxd figure for a candidate, fall back to the Letterboxd user samples (Apr 2026 / Dec 2025) as a relative signal, with a threshold calibrated on films that do have MDBList votes.
 
 Canon/curation lists: Sight and Sound 2022, TSPDT 1000 and 21st-century 1000, the Criterion Collection, national film registries, top prizes at major festivals.
+*Measured (2026-10-28, `pipelines/film/canon_lists.py`):* **3,839 distinct films** are on at least one canon list. **About 1,500 of them are not already in through Letterboxd ≥10k**: about 1,100 are candidates under 10k ratings, and about 400 are not film candidates at all (mostly shorts and titles under 500 IMDb votes).
+
+| List | Source | Entries | Matched |
+|---|---|---|---|
+| Sight and Sound 2022 critics (full 264) / directors (104) | JSON in the BFI pages | 368 | 99% |
+| TSPDT 1000 / 21st-century 1000 | theyshootpictures.com | 2,000 | 99.6% |
+| Criterion (+ Eclipse) | Wikipedia list (criterion.com returns 403) | 2,183 | 96% |
+| Palme d'Or, Golden Lion, Golden Bear | Wikipedia | 261 | 99% |
+| Oscar Best Picture / International Feature | Wikipedia | 176 | 99% |
+| US National Film Registry | Wikipedia | 925 | 96% |
+
+Matching runs locally against the IMDb datasets (title, alternative titles, year ±1–2), with director confirmation where the source names one. Hand fixes go in `seeds/film/canon_overrides.csv`. The ~150 unmatched rows are mostly non-features (box-set extras, registry home movies), plus a few real misses where IMDb's year differs by 2+ (*Aguirre*, *Partie de campagne*, *Out 1*).
 
 *Measured IMDb counts (movies):* ≥1k votes = 49,392 · ≥2.5k = 29,175 · ≥5k = 19,221 · ≥10k = 12,657.
 *Measured Letterboxd 10M-sample (films logged by ≥N of 6,519 users):* ≥20 = 41,960 · ≥50 = 23,586 · ≥100 = 15,129.
