@@ -1,26 +1,26 @@
-"""Polite MyDramaList fetcher: watchers, rating and rating count per drama.
+"""MyDramaList popularity ranking with watcher counts (sourcing-plan.md §5).
 
-Rules (sourcing-plan.md §5, decided 2026-10-27):
+Like anime (MAL), the Asian-drama candidates come from the platform's own
+ranking rather than from IMDb: MDL's "popular shows" list (20 per page, 250
+pages, so the top 5,000 by popularity, which MDL derives from watchers) is
+walked in order, then each listed drama's title page is fetched for its exact
+watchers, score, rating count and episodes, so the cutoff can be set on
+watchers. The IMDb/Wikidata candidates (build_candidates.py) become a
+cross-reference for IMDb and Wikidata IDs.
+
+Rules (decided 2026-10-27):
   - one request at a time, DELAY seconds apart (--delay, floor MIN_DELAY), identifying User-Agent;
   - on HTTP 403/429 or a Cloudflare challenge page: stop (a 404, or a 5xx that
-    repeats once, only skips that title). Never work around it
-    (no proxies, no headless browsers). Re-run later; everything is cached;
-  - fetch only candidates' title pages (plus one search page for a candidate
-    with no known MDL ID); store only ID, watchers, score, rating count, episodes;
+    repeats once, only skips that title). Never work around a block. Re-run
+    later; everything is cached in data/raw/mdl/;
+  - store only ID, title, country, type, year, watchers, score, rating count, episodes;
   - refresh at most quarterly; counts stay internal and are never used to
     train models (MDL's robots.txt content signal: ai-train=no).
 
-MDL serves a Cloudflare challenge to datacenter IPs, so this has to run from an
-ordinary connection. The page parser matches MDL's label text ("Watchers:",
-"Episodes:", "scored by N users"); run --probe first and check its output, as
-it could not be tested against live pages where it was written.
-
-Input:  data/interim/asian_drama_candidates.csv
-Output: data/interim/asian_drama_mdl.csv; raw pages cached in data/raw/mdl/
+Output: data/interim/asian_drama_mdl.csv (one row per ranked drama)
 
 Usage:
-  python3 pipelines/asian_drama/mdl_fetch.py --probe        # 3 titles, prints parsed fields
-  python3 pipelines/asian_drama/mdl_fetch.py [--limit N]    # most-voted candidates first
+  python3 pipelines/asian_drama/mdl_fetch.py [--pages 250] [--ranking-only] [--delay 1.0]
 """
 import argparse
 import csv
@@ -40,7 +40,6 @@ DELAY = 1.5
 MIN_DELAY = 1.0  # floor: one connection, never faster than 1 request/second
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-CANDIDATES = os.path.join(ROOT, "data", "interim", "asian_drama_candidates.csv")
 RAW = os.path.join(ROOT, "data", "raw", "mdl")
 OUT_PATH = os.path.join(ROOT, "data", "interim", "asian_drama_mdl.csv")
 
@@ -106,63 +105,72 @@ def parse_title(page):
     }
 
 
-def resolve(title, year):
-    """MDL ID from MDL's search: the first drama result whose year matches."""
-    page = get("/search?" + urllib.parse.urlencode({"q": title, "adv": "titles"}))
-    for m in re.finditer(r'href="/(\d+-[a-z0-9-]+)"[^>]*>(.*?)</a>(.{0,400})', page, re.S):
-        slug, _, tail = m.groups()
-        years = re.findall(r"\b(19\d\d|20\d\d)\b", text_of(tail))
-        if not year or not years or str(year) in years:
-            return slug
-    return None
+def parse_listing(page):
+    """Entries of one "popular shows" page, in MDL's popularity order."""
+    out = []
+    parts = re.split(r'id="mdl-(\d+)"', page)
+    for mdl_num, block in zip(parts[1::2], parts[2::2]):
+        slug = re.search(r'href="/(' + mdl_num + r'-[^"]+)"', block)
+        title = re.search(r'<h6 class="[^"]*title[^"]*">\s*<a[^>]*>([^<]+)</a>', block)
+        muted = re.search(r'<span class="text-muted">([^<]+)</span>', block)
+        kind = re.match(r"\s*(.+?) (Drama|Movie|TV Show|Special)\s*-\s*(\d{4})(?:,\s*(\d+) episodes?)?",
+                        html.unescape(muted.group(1))) if muted else None
+        out.append({
+            "mdl_id": slug.group(1) if slug else mdl_num,
+            "title": html.unescape(title.group(1)).strip() if title else "",
+            "country": kind.group(1) if kind else "", "type": kind.group(2) if kind else "",
+            "year": kind.group(3) if kind else "", "episodes_listed": kind.group(4) if kind else "",
+        })
+    return out
+
+
+def walk_ranking(max_pages):
+    ranked = []
+    for page_no in range(1, max_pages + 1):
+        entries = parse_listing(get(f"/shows/popular?page={page_no}"))
+        if not entries:
+            break
+        for e in entries:
+            e["popularity_rank"] = len(ranked) + 1
+            ranked.append(e)
+        if page_no % 25 == 0:
+            print(f"  ranking page {page_no}: {len(ranked)} dramas")
+    return ranked
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--probe", action="store_true")
-    ap.add_argument("--limit", type=int)
+    ap.add_argument("--pages", type=int, default=250, help="ranking pages to walk (20 per page; MDL lists 250)")
+    ap.add_argument("--ranking-only", action="store_true", help="walk the ranking, skip the title pages")
     ap.add_argument("--delay", type=float, default=DELAY, help=f"seconds between requests (min {MIN_DELAY})")
     args = ap.parse_args()
     _delay[0] = max(MIN_DELAY, args.delay)
     os.makedirs(RAW, exist_ok=True)
-    with open(CANDIDATES, encoding="utf-8") as f:
-        cands = sorted(csv.DictReader(f), key=lambda r: -int(float(r["imdb_votes"] or 0)))
-    if args.probe:
-        cands = [c for c in cands if c["mdl_id"]][:3]
-    elif args.limit:
-        cands = cands[:args.limit]
 
-    done = {}
-    if os.path.exists(OUT_PATH) and not args.probe:
-        with open(OUT_PATH, encoding="utf-8") as f:
-            done = {r["key"]: r for r in csv.DictReader(f)}
-    cols = ["key", "tconst", "mdl_id", "mdl_title", "watchers", "score", "rating_count", "episodes_mdl", "error"]
+    cols = ["popularity_rank", "mdl_id", "title", "country", "type", "year", "episodes_listed",
+            "mdl_title", "watchers", "score", "rating_count", "episodes_mdl", "error"]
+    ranked = []
     try:
-        for i, c in enumerate(cands, 1):
-            if c["key"] in done:
-                continue
-            row = {"key": c["key"], "tconst": c["tconst"], "mdl_id": c["mdl_id"]}
-            try:
-                slug = c["mdl_id"] or resolve(c["title"], c["year"])
-                row["mdl_id"] = slug or ""
-                if slug:
-                    # Wikidata stores either "12345" or "12345-slug"; both resolve on MDL.
-                    row.update(parse_title(get("/" + slug)))
-            except Missing as e:
-                row["error"] = str(e)
-            done[c["key"]] = row
-            if args.probe:
-                print(c["title"], row)
-            elif i % 50 == 0:
-                print(f"  {i}/{len(cands)}")
+        ranked = walk_ranking(args.pages)
+        print(f"MDL popularity ranking: {len(ranked)} entries")
+        if not args.ranking_only:
+            for i, row in enumerate(ranked, 1):
+                try:
+                    row.update(parse_title(get("/" + row["mdl_id"])))
+                except Missing as e:
+                    row["error"] = str(e)
+                if i % 250 == 0:
+                    print(f"  title pages: {i}/{len(ranked)}")
     except Blocked as e:
-        print(f"stopped: {e}. Everything fetched so far is cached; re-run later from an ordinary connection.")
-    if not args.probe:
-        with open(OUT_PATH, "w", newline="", encoding="utf-8") as f:
-            w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
-            w.writeheader()
-            w.writerows(done.values())
-        print(f"{len(done)} candidates processed; wrote {OUT_PATH}")
+        print(f"stopped: {e}. Everything fetched so far is cached; re-run to resume.")
+    with open(OUT_PATH, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
+        w.writeheader()
+        w.writerows(ranked)
+    watchers = [r["watchers"] for r in ranked if r.get("watchers")]
+    for th in (5_000, 10_000, 25_000, 50_000, 100_000):
+        print(f"  watchers >= {th:>7,}: {sum(v >= th for v in watchers):,}")
+    print(f"wrote {OUT_PATH}")
 
 
 if __name__ == "__main__":
