@@ -12,3 +12,6 @@ Open:
 - After batches 11–16: AN10 (frames and parodies; historical war epics to E8-4; franchise comedy extras to E10); E11-3 extended to 1962. Open: donghua urban fantasy; Type-Moon urban fantasy; aviation adventure (Porco Rosso); Korean webtoon power fantasies in E1-6.
 - TV pilot (batch 10): C8 Documentary Series added (TV7), C1-14 Erotic Drama Series, D2-2 widened to British & Irish, TV6 daily comedies/crime comedies/true events. tv_leaves.txt now includes family G so non-format talk and variety shows can go to G3.
 - batch 15: E3-6 Shenmo Animation, E8-7 Art & Experimental Anime.
+- After anime 17–24, TV 01–03: C1-15 Adventure Series; E1-8 Delinquent Anime; E1-7 covers Japanese-made xianxia. Open: card-game/toy-line franchises (Yu-Gi-Oh! E7-2 vs E11); Persona/Type-Moon urban fantasy; VR game worlds; julekalender; non-Asian BL series; Alpine crime.
+- TV 02: TV8 (what carries the story; comedy-first for fantasy sitcoms; kids' cartoons; news magazines excluded); C1-15 renamed Action & Adventure Series. Anime batches 01–25 all reviewed.
+- TV 04–09: TV9 (comedy-first genre sitcoms; domestic thrillers C3-8; continuing workplace dramas by genre; Ramadan 30-episode series D5-1), C1-16 Anthology Drama Series, C4-7 Stand-Up Comedy Special, G3-3 Panel Show. Open: comic factual/travel shows (C8 vs G); children's factual magazines; puppetry (Thunderbirds).

@@ -320,7 +320,7 @@ PRECEDENCE += [
     ("F18", "Children's and Christmas films", "A live-action film made first for children (not a family-friendly fantasy or adventure, which keep their genre) is Children's Film; a film built on Christmas is Christmas Film, before Comedy, Romance and Drama."),
     ("F19", "Road, sport and court", "A film whose structure is a journey is Road Movie, a film built on a sport and its competition is Sports Film, and a film built on a trial is Legal Drama, whether comic or dramatic, unless a named cycle claims it."),
     ("F21", "Genre films in wartime", "A war film is about the war and the soldiers' experience of it; a horror, action or thriller film that merely uses a war as its setting goes by its own genre (<i>Sisu</i> → Action Film; <i>Overlord</i> → Science Fiction Horror)."),
-    ("F22", "Narrow before broad", "When a film's defining trait is named by a narrow leaf that the key reaches only later (Crime Comedy, Action Comedy, Parody & Spoof, Black Comedy & Satire, Sports Film, Dance Film, Spy Film, Road Movie), that leaf wins over the broader sub-family reached first: <i>The Olsen Gang</i> → Crime Comedy, a Karl May spoof → Parody & Spoof, a fencing biopic → Sports Film; a war satire (<i>The Great Dictator</i>, <i>Jojo Rabbit</i>) → Black Comedy & Satire."),
+    ("F22", "Narrow before broad", "When a film's defining trait is named by a narrow leaf that the key reaches only later (Crime Comedy, Action Comedy, Parody & Spoof, Black Comedy & Satire, Sports Film, Dance Film, Spy Film, Road Movie), that leaf wins over the broader sub-family reached first: <i>The Olsen Gang</i> → Crime Comedy, a Karl May spoof → Parody & Spoof, a fencing biopic → Sports Film; a war satire (<i>The Great Dictator</i>, <i>Jojo Rabbit</i>) → Black Comedy & Satire; a spy comedy → Parody & Spoof when it mocks the genre (<i>Johnny English</i>, <i>Spy</i>), otherwise Action Comedy."),
     ("F23", "Subgenres are not cycles", "Subgenre leaves (vampire, zombie, slasher, haunted house, creature feature, found footage) are not named cycles for F1/D1: an attested movement member that is also a vampire film stays in the movement (<i>Nosferatu</i> → German Expressionism). Named cycles are the period- and industry-bound leaves (giallo, J-horror, poliziottesco, spaghetti western, Ostern, blaxploitation, erotic thriller ...); revisionist and neo-Western are subgenres; a later foreign remake or homage of a cycle film goes by its own genre, with the cycle as see-also (<i>The Grudge</i> 2019)."),
     ("F24", "Romance or costume", "An original love story in a period setting is Romantic Drama (<i>The English Patient</i>, <i>Portrait of a Lady on Fire</i>); Costume Drama takes the drama of manners and society, above all literary adaptations (Austen, James, Wharton, Forster: <i>A Room with a View</i>, <i>The Age of Innocence</i>). A period comedy goes by its comic mode."),
     ("F25", "Gimmick comedies", "A comedy whose fantastical or speculative premise only carries the gags is Comedy (<i>Groundhog Day</i>, <i>Multiplicity</i>, <i>Bedazzled</i>, <i>Ivan Vasilyevich Changes His Profession</i>), with the genre as see-also; a science-fiction action comedy is Action Comedy (<i>Men in Black</i>). A live-action/animation hybrid is Animated Feature only when animation carries most of the film (<i>Who Framed Roger Rabbit</i> yes, <i>Space Jam</i> yes, <i>Enchanted</i> no)."),
@@ -591,6 +591,9 @@ _add("A4", [
     ("A4-19", "Jiangshi Film", "narrow",
      "the Hong Kong cycle of hopping-corpse films, horror played with kung fu and comedy (<i>Mr. Vampire</i>, <i>Encounters of the Spooky Kind</i>, <i>Rigor Mortis</i>).",
      "hopping vampire film; geungsi film", "A4-16 Comedy Horror; A8-4 Kung Fu Film.", "Jiangshi fiction|jiangshi"),
+    ("A4-20", "Home Invasion Film", "narrow",
+     "horror and thrillers of a household besieged by intruders (<i>The Strangers</i>, <i>Funny Games</i>, <i>Don't Breathe</i>, <i>You're Next</i>).",
+     "home invasion thriller; siege horror", "A3-9 Suspense Thriller.", "home invasion"),
     ("A4-17", "Cannibal Film", "narrow",
      "the Italian exploitation cycle of the late 1970s–early 80s set among jungle cannibals (<i>Cannibal Holocaust</i>, <i>Cannibal Ferox</i>).",
      "cannibal boom; Italian cannibal film", "A13-8 Mondo Film.", "cannibal film"),
@@ -904,7 +907,7 @@ ATTEST_WIKI = {
 "A4-1":"Japanese horror","A4-2":"Kaidan","A4-3":"Supernatural horror film","A4-4":"Body horror","A4-5":"Splatter film","A4-6":"Zombie film",
 "A4-7":"Found footage (film technique)|Found footage film","A4-8":"Slasher film","A4-9":"Psychological horror","A4-10":"Folk horror",
 "A4-11":"Vampire film","A4-12":"Haunted house film|Haunted house","A4-13":"Gothic film|Gothic horror","A4-14":"Monster movie|Natural horror film|Creature feature",
-"A4-15":"Science fiction horror film|Science fiction horror","A4-16":"Comedy horror","A4-17":"Cannibal film","A4-19":"Jiangshi fiction|Jiangshi","A4-18":"Asian horror|Korean horror|Thai horror",
+"A4-15":"Science fiction horror film|Science fiction horror","A4-16":"Comedy horror","A4-17":"Cannibal film","A4-20":"Home invasion","A4-19":"Jiangshi fiction|Jiangshi","A4-18":"Asian horror|Korean horror|Thai horror",
 "A5-1":"Kaiju","A5-2":"Tokusatsu","A5-3":"Science fiction film","A5-4":"Cyberpunk","A5-5":"Disaster film","A5-6":"Space opera",
 "A5-7":"Dystopian film|Utopian and dystopian fiction","A5-8":"Alien invasion","A5-9":"Time travel in fiction",
 "A6-1":"Fantasy film","A6-2":"Adventure film","A6-3":"Superhero film","A6-4":"High fantasy","A6-5":"Fairy tale film|Fairy-tale fantasy","A6-6":"Swashbuckler film",
@@ -996,8 +999,11 @@ _add("E1", [
      "action series and films outside shōnen battle, seinen action and the narrower leaves — light-novel and game-based action, school battle series (<i>Absolute Duo</i>, <i>Akame ga Kill!</i> excepted as dark fantasy).",
      "", "E1-1 Shōnen Battle.", "action anime"),
     ("E1-7", "Wuxia & Xianxia Animation", "narrow",
-     "Chinese animation (donghua) of martial heroes and of immortal cultivation (<i>Soul Land</i>, <i>Battle Through the Heavens</i>, <i>Link Click</i> excepted as drama).",
+     "animation of martial heroes and of immortal cultivation, Chinese (donghua) above all, and Japanese works in the same genre, (<i>Soul Land</i>, <i>Battle Through the Heavens</i>, <i>Link Click</i> excepted as drama).",
      "cultivation donghua; xianxia animation", "C2-5 Wuxia & Xianxia Drama.", "Xianxia"),
+    ("E1-8", "Delinquent Anime", "narrow",
+     "anime of yankī delinquents and gang fights (<i>Tokyo Revengers</i>, <i>Great Teacher Onizuka</i> excepted as comedy-drama, <i>Crows</i>-type brawlers).",
+     "yankī anime; furyō anime", "E1-5 Martial Arts Anime.", "Yankī"),
     ("E1-5", "Martial Arts Anime", "narrow",
      "anime built on hand-to-hand fighting and tournaments outside shōnen battle power systems (<i>Baki</i>, <i>Kengan Ashura</i>, <i>Fist of the North Star</i>).",
      "", "E7-1 Sports Anime.", "martial arts film"),
@@ -1154,7 +1160,7 @@ _add("E12", [
      "adult anime", "E10-2 Ecchi.", "Hentai"),
 ])
 ATTEST_WIKI.update({
-    "E1-1": "Shōnen manga", "E1-2": "Seinen manga", "E1-3": "Samurai cinema", "E1-4": "Superhero fiction", "E1-5": "Martial arts film", "E1-6": "Action fiction", "E1-7": "Xianxia",
+    "E1-1": "Shōnen manga", "E1-2": "Seinen manga", "E1-3": "Samurai cinema", "E1-4": "Superhero fiction", "E1-5": "Martial arts film", "E1-6": "Action fiction", "E1-7": "Xianxia", "E1-8": "Yankī|Yankii",
     "E2-1": "Super robot", "E2-2": "Real robot", "E2-3": "Cyberpunk", "E2-4": "Space opera", "E2-5": "Science fiction",
     "E3-1": "Isekai", "E3-2": "Fantasy", "E3-3": "Dark fantasy", "E3-4": "Yōkai", "E4-1": "Magical girl", "E4-2": "Magical girl",
     "E5-1": "Shōjo manga", "E5-2": "Romantic comedy", "E5-3": "Harem (genre)", "E5-4": "Yaoi", "E5-5": "Yuri (genre)", "E5-6": "Josei manga",
@@ -1197,6 +1203,8 @@ PRECEDENCE += [
     ("TV4", "Crime before drama", "A series centred on crime, police, lawyers defending criminals or spies is C3, even when its prestige makes it 'drama' (<i>The Sopranos</i>, <i>The Wire</i>, <i>Breaking Bad</i>); a legal series about the law firm's own life is Legal Drama."),
     ("TV6", "Daily comedies, crime comedies and true events", "A daily or long-running comedy is a sitcom (C4), not a serial tradition, even with thousands of episodes (<i>Taarak Mehta Ka Ooltah Chashmah</i>). A comedy about criminals goes by laughter first (C4). A dramatised real crime is True Crime Drama (C3-7); a dramatised real event that is not a crime is Docudrama Series (C1-9)."),
     ("TV7", "Non-fiction", "A documentary series is C8; a talk, chat or variety programme that is not a cross-border format goes to G3 (variety and talk) as a programme of its own."),
+    ("TV8", "What carries the story", "A comedy whose fantastical premise only carries the gags is Comedy (C4), not Genre Series (<i>The Addams Family</i>, <i>Wonderfalls</i>); a supernatural or speculative frame on a medical, crime or family series does not make it C5 unless the frame carries the plot. A children's cartoon with an adult following stays Children's Animated Series. News magazines and current-affairs programmes are not series of this tab: exclude them."),
+    ("TV9", "Comedy first; thrillers; long-running continuing dramas", "A sitcom with a science-fiction, fantasy or horror premise is Comedy (C4) when laughter comes first (<i>Red Dwarf</i>, <i>The League of Gentlemen</i>); comic detectives stay in C3 with C4-5 as see-also. A domestic or psychological thriller miniseries is C3-8. A long-running continuing drama of a workplace (<i>Casualty</i>, <i>Holby City</i>, <i>The Bill</i>) goes by genre (C1-2, C3-1), not D. An Arab 30-episode Ramadan series is D5-1 whatever its genre."),
     ("TV5", "Franchise unity", "Spin-offs and revivals share their parent's leaf unless they change genre outright."),
 ]
 MODIFIERS += [
@@ -1217,6 +1225,8 @@ _add("C1", [
     ("C1-10", "Workplace & Professional Drama", "medium", "series built on a profession or workplace outside medicine and law (<i>The Newsroom</i>, <i>Mad Men</i> excepted as period, <i>The Bear</i>, <i>Misaeng</i>).", "workplace drama", "C1-2 Medical Drama.", "workplace drama"),
     ("C1-11", "Sports Drama Series", "narrow", "series built on a sport and its teams (<i>Friday Night Lights</i>, <i>Ted Lasso</i> excepted as comedy).", "", "A14-7 Sports Film.", "sports drama"),
     ("C1-12", "Drama Series", "broad", "dramas of character and society outside the narrower leaves (<i>The Leftovers</i>, <i>Normal People</i>, <i>The Crown</i> excepted as period).", "serial drama", "C1-1 Family Drama Series.", "drama television series|television drama"),
+    ("C1-16", "Anthology Drama Series", "medium", "series of self-contained plays or stories with changing casts (<i>Play for Today</i>, <i>Armchair Theatre</i>, <i>Inside No. 9</i> excepted as comedy, <i>The Twilight Zone</i> excepted as SF).", "single play; anthology series", "C5-1 Science Fiction Series.", "anthology series"),
+    ("C1-15", "Action & Adventure Series", "medium", "series carried by action, voyages, quests and treasure hunts, from literary adaptations to stunt-driven adventure (<i>Relic Hunter</i>, <i>Knight Rider</i>, <i>MacGyver</i>) (<i>Treasure Island</i> serials, <i>Around the World in 80 Days</i>, <i>The Adventures of Robin Hood</i>, <i>Sharpe</i> excepted as war).", "adventure serial", "A6-2 Adventure Film; A6-6 Swashbuckler.", "adventure fiction"),
     ("C1-13", "Romantic Drama Series", "medium", "series whose main line is a love story, outside the Asian drama traditions (<i>Outlander</i> excepted as fantasy, <i>Bridgerton</i>, <i>Normal People</i>).", "romance series", "C2-1 K-Drama.", "romance television"),
 ])
 _add("C2", [
@@ -1239,6 +1249,7 @@ _add("C3", [
     ("C3-4", "Nordic Noir", "narrow", "Scandinavian crime series of bleak landscapes and slow investigations (<i>The Killing</i>, <i>The Bridge</i>, <i>Wallander</i>, <i>Trapped</i>).", "Scandinavian noir; Scandi noir", "C3-1 Police Procedural Series.", "Nordic noir"),
     ("C3-5", "Spy & Espionage Series", "medium", "series of intelligence agents (<i>Mission: Impossible</i>, <i>The Americans</i>, <i>Homeland</i>, <i>Slow Horses</i>, <i>The Bureau</i>).", "spy series", "C1-4 Political Drama Series.", "spy fiction"),
     ("C3-6", "Thriller Series", "broad", "suspense series of conspiracy, survival, revenge and psychological danger (<i>24</i>, <i>Mr. Robot</i>, <i>Squid Game</i>, <i>Money Heist</i> excepted as crime).", "conspiracy thriller series", "C3-3 Crime Drama Series.", "thriller television series|thriller (genre)"),
+    ("C3-8", "Psychological & Domestic Thriller Series", "medium", "suspense miniseries of secrets, marriages and threats at home (<i>Doctor Foster</i>, <i>Liar</i>, <i>Fool Me Once</i>, <i>Big Little Lies</i>).", "domestic thriller; domestic noir", "C3-6 Thriller Series.", "domestic noir|psychological thriller"),
     ("C3-7", "True Crime Drama", "narrow", "dramatised series of real criminal cases (<i>Mindhunter</i>, <i>Dahmer</i>, <i>The Serpent</i>).", "", "C1-9 Docudrama Series.", "true crime"),
 ])
 _add("C4", [
@@ -1247,6 +1258,7 @@ _add("C4", [
     ("C4-3", "Mockumentary Sitcom", "medium", "comedy in documentary form (<i>The Office</i>, <i>Parks and Recreation</i>, <i>What We Do in the Shadows</i>, <i>Abbott Elementary</i>).", "mockumentary series", "A10-11 Mockumentary.", "mockumentary"),
     ("C4-4", "Sketch Comedy", "medium", "series of comic sketches (<i>Monty Python's Flying Circus</i>, <i>Saturday Night Live</i>, <i>Key & Peele</i>).", "sketch show", "", "sketch comedy"),
     ("C4-5", "Comedy-Drama Series", "broad", "series balancing comedy and drama (<i>M*A*S*H</i>, <i>Gilmore Girls</i>, <i>Ted Lasso</i>, <i>The Bear</i> excepted as workplace).", "dramedy", "C1-12 Drama Series.", "comedy drama"),
+    ("C4-7", "Stand-Up Comedy Special", "narrow", "recorded stand-up shows and series of them (<i>James Acaster: Repertoire</i>, <i>Nanette</i> as special).", "comedy special", "A10-12 Stand-Up Comedy Film.", "stand-up comedy"),
     ("C4-6", "Satire & Political Comedy", "narrow", "comedy that satirises politics and institutions (<i>Yes Minister</i>, <i>The Thick of It</i>, <i>Veep</i>).", "political satire", "C1-4 Political Drama Series.", "political satire"),
 ])
 _add("C5", [
@@ -1339,12 +1351,13 @@ _add("G2", [
 ])
 _add("G3", [
     ("G3-1", "Variety Show", "medium", "entertainment programmes of games, missions, music and comedy led by a fixed cast — including the Korean and Japanese real-variety shows (<i>Running Man</i>, <i>Infinite Challenge</i>, <i>2 Days & 1 Night</i>, <i>Gaki no Tsukai</i>).", "real variety; Korean variety show", "G1-1 Talent Show.", "variety show"),
+    ("G3-3", "Panel Show", "medium", "comedy panel games of a host, team captains and guests (<i>QI</i>, <i>Have I Got News for You</i>, <i>Would I Lie to You?</i>, <i>Never Mind the Buzzcocks</i>).", "panel game", "G1-4 Game Show.", "panel game"),
     ("G3-2", "Talk Show", "medium", "host-led conversation formats (<i>The Tonight Show</i> as a type, <i>Wetten, dass..?</i>, <i>Late Night</i> franchises).", "chat show", "G3-1 Variety Show.", "talk show"),
 ])
 ATTEST_WIKI.update({
     "C1-1": "Family saga|Family drama", "C1-2": "Medical drama", "C1-3": "Legal drama", "C1-4": "Political drama", "C1-5": "Teen drama",
     "C1-6": "Costume drama", "C1-7": "War film", "C1-8": "Western (genre)", "C1-9": "Docudrama", "C1-10": "Workplace comedy",
-    "C1-11": "Sports film", "C1-12": "Drama (film and television)", "C1-13": "Romance film",
+    "C1-11": "Sports film", "C1-12": "Drama (film and television)", "C1-13": "Romance film", "C1-15": "Adventure fiction",
     "C2-1": "Korean drama", "C2-2": "Sageuk", "C2-3": "Makjang", "C2-4": "Chinese historical drama|Guzhuang", "C2-5": "Xianxia|Wuxia",
     "C2-6": "Taiwanese drama|Idol drama", "C2-7": "Asadora", "C2-8": "Taiga drama", "C2-9": "Trendy drama|Japanese television drama",
     "C2-10": "Lakorn|Thai television soap opera", "C2-11": "Boys' love in Thailand|Thai boys' love", "C3-1": "Police procedural",
@@ -1359,5 +1372,5 @@ ATTEST_WIKI.update({
     "D3-2": "Turkish television drama", "D4-1": "Indian soap opera", "D4-2": "Ramayan (1987 TV series)", "D4-3": "Pakistani drama",
     "D5-1": "Ramadan series|Musalsal", "D6-1": "Teleserye", "G1-1": "Talent show", "G1-2": "Reality competition|Reality television",
     "G1-3": "Cooking show", "G1-4": "Game show", "G1-5": "Dragons' Den", "G2-1": "Dating game show|Dating show", "G2-2": "Docusoap",
-    "G2-3": "Makeover show|Makeover television", "G3-1": "Variety show", "G3-2": "Talk show",
+    "G2-3": "Makeover show|Makeover television", "G3-1": "Variety show", "G3-2": "Talk show", "G3-3": "Panel game", "C1-16": "Anthology series", "C3-8": "Domestic noir|Psychological thriller", "C4-7": "Stand-up comedy",
 })

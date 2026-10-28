@@ -171,5 +171,35 @@ def batches(only=None):
     print(f"anime {len(a)} in {na}; tv {len(tv)} + drama {len(dr)} in {nt}; unscripted {len(u)} in {nu}")
 
 
+
+def merge():
+    """Reviewed batches + overrides → taxonomy/series/{anime,tv,unscripted}_placements.csv."""
+    known = {l[0] for v in FT.LEAVES.values() for l in v}
+    ov = {r["id"]: r for r in rd(os.path.join(ROOT, "seeds", "classify", "series_overrides.csv"))}
+    for name, prefixes, ev in (("anime", ("anime",), anime_rows), ("tv", ("tv", "drama"), None), ("unscripted", ("unscripted",), unscripted_rows)):
+        inputs, out = {}, {}
+        for f in sorted(os.listdir(R)):
+            m = re.match(r"(\w+?)_(\d+)(_out)?\.csv$", f)
+            if not m or m.group(1) not in prefixes:
+                continue
+            for r in rd(os.path.join(R, f)):
+                (out if m.group(3) else inputs)[r["id"]] = r
+        rows = []
+        for i, src in inputs.items():
+            o = dict(out.get(i, {"leaf": "unplaced"}))
+            if i in ov:
+                o.update({k: ov[i][k] for k in ("leaf", "see_also", "note") if k in ov[i]}, by="override")
+            rows.append({"id": i, "title": src.get("title", ""), "year": src.get("year") or src.get("years") or src.get("first_year", ""),
+                         "country": src.get("country") or src.get("n_countries", ""), "type": src.get("type", ""),
+                         "leaf": o.get("leaf", "").strip(), "see_also": o.get("see_also", ""), "confidence": o.get("confidence", ""),
+                         "note": o.get("note", ""), "by": o.get("by", "review" if i in out else "")})
+        with open(os.path.join(OUT, f"{name}_placements.csv"), "w", newline="", encoding="utf-8") as fh:
+            w = csv.DictWriter(fh, fieldnames=list(rows[0]))
+            w.writeheader()
+            w.writerows(sorted(rows, key=lambda r: (r["leaf"], r["title"])))
+        bad = Counter(r["leaf"] for r in rows if not (r["leaf"] in known or r["leaf"].startswith(("route:", "exclude:"))))
+        print(name, len(rows), "rows;", sum(1 for r in rows if r["leaf"] == "unplaced"), "unplaced;", "unknown leaves:", bad.most_common(8))
+
+
 if __name__ == "__main__":
-    {"batches": batches}[sys.argv[1]]()
+    {"batches": batches, "merge": merge}[sys.argv[1]]()

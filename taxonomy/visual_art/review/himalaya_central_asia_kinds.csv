@@ -1,0 +1,28 @@
+tmp,kind,group,basis
+L1,Kunzig Chokyi Nangwa,maker,Lhatog / Khampagar and Kham-ri rows
+L1,Buryatia,centre,Buryat row: painting 79
+L1,Mongolia,centre,Mongolian and Zanabazar school rows: painting
+L1,Ladakh,centre,Western Himalayan row: painting 453
+L1,Bhutan,centre,Bhutanese row: painting 48
+L3,Choying Gyatso,maker,Menri row named_makers; founder of New Menri
+L3,Garu Pandita Lobzang Sherab,maker,"Menri, Eastern Tibetan and Tibetan rows; HAR mixed Menri-Khyenri"
+L3,Nubje Dola,maker,Tibetan and Menri (Tashi Lhunpo) rows
+L4,Khyentse Chenmo,maker,Khyenri row named_makers
+L5,Situ Panchen Chokyi Jungne,maker,Karma Gadri (Palpung) row: 46
+L7,Jivarama,maker,Nepal: Early Malla row named_makers (15)
+L8,Library Cave (Cave 17),centre,Dunhuang row top_places Dunhuang Mogao (Ch.)
+L10,Begram,centre,"Kushan row: Afghanistan, Begram ivories (7)"
+L14,Zanabazar,maker,Zanabazar school row named_makers
+L15,Aniko,maker,"Qing imperial (Qianlong), Central Tibetan and Tibetan rows"
+L21,Tsagaan Salaa,site,Mongolian Altai row exemplar Q7849290
+L22,Akkainar and Zhartas,site,Tamgaly / Semirechye row exemplar Q80087282
+L23,Alchi,site,Western Himalayan murals row exemplar Q2705908
+L23,Tabo,site,Western Himalayan murals row exemplar Q1112486
+L23,Shalu,site,Tibetan Buddhist wall painting row exemplar Q25681
+L24,Mogao Caves,site,Dunhuang row top_places Dunhuang Mogao
+L25,Kumtura,site,Kucha / northern Tarim row top_places
+L25,Mingoi,site,Kucha / northern Tarim row top_places
+L26,Qocho (Karakhoja),site,Uyghur row top_places
+L27,Panjikent,site,in situ row exemplar Q630805 / Q101467421
+L27,Afrasiyab,site,in situ row exemplar Q2167520
+L27,Bamiyan,site,"in situ row label (Bactrian, not Sogdian)"

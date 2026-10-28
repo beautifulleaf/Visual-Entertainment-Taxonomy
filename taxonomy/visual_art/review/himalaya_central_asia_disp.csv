@@ -1,0 +1,143 @@
+pool_id,disposition,note
+manuscripts:Tibetan manuscripts and illustrated books,exclude:script/language bucket,"mixed sample (Bhutanese thangka, Dunhuang Lotus Sutra); no book tradition named; see problems"
+himalaya_central_asia:Zanabazar school,leaf:L14,paintings counted here go to L1
+south_southeast_asia:Nepalese (Newar),tag:place,culture row; evidences L7 and L11
+himalaya_central_asia:Dunhuang,leaf:L8,portable paintings; textiles noted
+himalaya_central_asia:Tibetan,tag:place,"evidences L1, L13"
+south_southeast_asia:Tibetan,tag:place,
+himalaya_central_asia:Nepal: Shah,tag:period,
+"himalaya_central_asia:Western Himalayan (Ladakh, Spiti, Kinnaur)",tag:place,paintings evidence L1
+met/aic:Tibetan,tag:place,
+himalaya_central_asia:Nepal: Transitional (Thakuri),tag:period,paintings are Pala/Vikramashila manuscript folios: south_asia L19
+south_southeast_asia:Kashmiri,tag:place,textiles evidence H3-6
+"himalaya_central_asia:Shanshan (Miran, Niya, Loulan)",tag:place,Miran murals would sit beside L25; textiles
+south_southeast_asia:Gandhara,route:south_asia,Gandharan Art (L22)
+himalaya_central_asia:Gyantse,kind:L1/Gyantse style,HAR Gyantse style; Kumbum murals under L23
+himalaya_central_asia:Gandharan,route:south_asia,Gandharan Art (L22)
+himalaya_central_asia:Karma Gadri (Palpung),kind:L5/Palpung,Situ Panchen revival
+himalaya_central_asia:Tsang atelier,kind:L13/Tsang,workshop
+himalaya_central_asia:Qing imperial (Kangxi),kind:L15/Kangxi imperial,period label kept as recorded workshop group
+met/aic:Nepalese,tag:place,
+himalaya_central_asia:Sikkimese,tag:place,
+world_folk:Kashmir shawl,leaf:H3-6,pilot leaf
+europe_folk:Buryat / woodcarving / woodwork,tag:place,"people_medium bucket, no named tradition"
+himalaya_central_asia:Nepal: Late Malla,tag:period,
+himalaya_central_asia:Mongolian,tag:place,Lama Purevbat etc. contemporary; evidences L1
+himalaya_central_asia:Mustang,tag:place,
+himalaya_central_asia:Densatil,kind:L13/Densatil,HAR Densatil style sculpture
+himalaya_central_asia:Tibetan Monastic Period style,tag:period,
+met/aic:Gandhara,route:south_asia,Gandharan Art (L22)
+himalaya_central_asia:Khyenri,leaf:L4,
+himalaya_central_asia:Sonam Gyaltsen atelier,kind:L13/Sonam Gyaltsen atelier,named maker workshop
+himalaya_central_asia:Ming imperial (Yongle / Xuande),kind:L15/Yongle-Xuande imperial,
+himalaya_central_asia:Khotanese,tag:place,Khotanese painting fragments too few for a leaf
+smithsonian:Himalayan peoples,tag:place,"paper paintings, unlocalised"
+"met/aic:Nepalese, Kathmandu Valley",tag:place,
+himalaya_central_asia:Kucha / northern Tarim,leaf:L25,
+himalaya_central_asia:Bhutanese,tag:place,
+himalaya_central_asia:Qing imperial (Qianlong),kind:L1/Qing court,court thangkas (painting 116)
+himalaya_central_asia:Nepal: Early Malla,tag:period,maker Jivarama seeded as kind of L7
+himalaya_central_asia:Kashmiri,leaf:L12,
+himalaya_central_asia:Swat Valley,route:south_asia,"Gandharan Art (L22), kind Swat"
+himalaya_central_asia:Sino-Tibetan (China),leaf:L15,paintings to L1/Qing court
+himalaya_central_asia:Menri,leaf:L3,
+himalaya_central_asia:Pala / Indian style (in Tibet),kind:L1/Pala (Sharri) style,
+himalaya_central_asia:Newar,tag:place,"Newar work in Tibet; evidences L2, L11"
+"manuscripts:Sogdian, Old Uyghur and Turfan manuscripts",exclude:script/language bucket,
+himalaya_central_asia:Guge (Western Tibet),kind:L1/Guge style,HAR Guge/Western Tibetan style
+himalaya_central_asia:Buryat,tag:place,Buryat thangkas evidence L1
+himalaya_central_asia:Khasa Malla (western Nepal),tag:period,
+manuscripts:Mongolian manuscripts,leaf:L9,
+himalaya_central_asia:Eastern Tibetan,tag:place,
+himalaya_central_asia:Central Asian (other),tag:place,
+himalaya_central_asia:Ngor style,kind:L2/Ngor,Beri-based Sakya mandala style
+met/aic:Period of Tibetan Empire,tag:period,"70 gold/silver objects; possible leaf, see problems"
+himalaya_central_asia:Tibetan (Central),tag:place,
+met/aic:Mongolian,tag:place,arms and harness
+himalaya_central_asia:Karma Gadri,leaf:L5,
+himalaya_central_asia:Dolonnor (Inner Mongolia),kind:L15/Dolonnor,casting centre
+south_southeast_asia:Bhutanese,tag:place,
+himalaya_central_asia:Menri (Tashi Lhunpo),kind:L3/Tashi Lhunpo Menri,
+"himalaya_central_asia:Uyghur (Turfan, Qocho)",leaf:L26,
+himalaya_central_asia:Sogdian,leaf:L16,"mixed row (fragments, bowls, silver)"
+himalaya_central_asia:Khazi Lhazo style,kind:L1/Khazi Lhazo,named maker
+himalaya_central_asia:Tarim Basin (other),tag:place,
+himalaya_central_asia:Western Tibetan,tag:place,
+himalaya_central_asia:Dali Kingdom (Yunnan),tag:period,
+himalaya_central_asia:Nepalese (undated),tag:place,
+himalaya_central_asia:Jonang Dzamthang,kind:L1/Dzamthang,eastern Tibetan school
+himalaya_central_asia:Tibetan (Eastern),tag:place,
+world_folk:Suzani,leaf:H4-1,pilot leaf
+himalaya_central_asia:Trehor / Kandze (Namkha Gyan),kind:L1/Trehor (Namkha Gyan),
+"met/aic:Indian, Jammu & Kashmir",tag:place,sculpture evidences L12
+himalaya_central_asia:Choying Dorje atelier (Tenth Karmapa),kind:L5/Choying Dorje,also sculpture; see L13
+world_folk:Central Asian ikat (abrbandi),leaf:H5-1,pilot leaf
+himalaya_central_asia:Tangut (Western Xia),tag:period,Khara-Khoto paintings
+himalaya_central_asia:Himalayan (unspecified),tag:place,
+himalaya_central_asia:Lhatog / Khampagar,kind:L1/Khampa Gar,eastern Tibetan school
+"met/aic:Indian, Jammu and Kashmir",tag:place,sculpture evidences L12
+himalaya_central_asia:Kham regional (Kham-ri),kind:L1/Kham-ri,
+south_southeast_asia:Unspecified (Ladakh),tag:place,
+met/aic:Eastern Central Asia,tag:place,period of Tibetan rule metalwork
+himalaya_central_asia:Chengde (Qing),kind:L1/Qing court,
+himalaya_central_asia:Menri (New Menri),kind:L3/New Menri,Choying Gyatso
+south_southeast_asia:Unspecified (Swat),route:south_asia,Gandharan Art (L22)
+himalaya_central_asia:Beri (Balri),leaf:L2,
+himalaya_central_asia:Nepal: Licchavi,tag:period,
+himalaya_central_asia:Central Tibetan,tag:place,
+himalaya_central_asia:Rebkong (Amdo),leaf:L6,
+world_folk:Naxi Dongba painting,route:east_asia,Naxi Dongba painting (Yunnan); no attestation found here
+himalaya_central_asia:Naxi,route:east_asia,with Naxi Dongba painting
+himalaya_central_asia:Kushan,tag:period,Begram ivories evidence L10
+"in_situ:Central Asian petroglyphs (Sarmishsay, Zarautsoy, Saimaly-Tash)",tag:place,site bucket; no tradition label; see problems
+met/aic:Central Tibet,tag:place,
+himalaya_central_asia:Bactrian,tag:place,Hellenistic silver and coins
+himalaya_central_asia:Hadda (Gandharan stucco),route:south_asia,"Gandharan Art (L22), kind Hadda"
+manuscripts:Nepalese (Newar) manuscripts,route:south_asia,Palm-Leaf Manuscripts (L19)
+in_situ:Mongolian Altai petroglyphs,leaf:L21,
+in_situ:Steppe geoglyphs (Turgai),leaf:L28,
+met/aic:Central Asian,tag:place,arms
+met/aic:Eastern Tibet,tag:place,
+met/aic:Western Tibet,tag:place,
+"in_situ:Siberian and Altai rock art (Tomsk, Shishkino, Sikachi-Alyan, Kalbak-Tash)",tag:place,Siberian site bucket; see problems
+himalaya_central_asia:Aniko school (Yuan),kind:L15/Aniko (Yuan atelier),
+"met/aic:Afghan, Hadda",route:south_asia,"Gandharan Art (L22), kind Hadda"
+himalaya_central_asia:Tibetan (Western),tag:place,
+in_situ:Tamgaly / Semirechye petroglyphs,leaf:L22,
+himalaya_central_asia:Inner Mongolian,tag:place,Xiajiadian ceramics
+"in_situ:Ladakh, Karakoram and Upper Indus petroglyphs",tag:place,site bucket
+"in_situ:Sogdian and Bactrian wall painting (Panjakent, Afrasiyab, Bamiyan)",leaf:L27,Bamiyan kept as kind
+"met/aic:Eastern Tibet, Derge",tag:place,
+"met/aic:Nepalese, Deopatan",tag:place,
+"met/aic:Pakistani, Ancient region Gandhara (Swat Valley",route:south_asia,Gandharan Art (L22)
+"met/aic:Pakistani, Gandhara, Bajaur",route:south_asia,Gandharan Art (L22)
+"met/aic:Tibetan, And Bhutanese and Nepalese",tag:place,armour
+world_folk:Mithila-Janakpur ceramics and painting (Nepal),route:south_asia,Madhubani Painting (L12)
+in_situ:Kucha (Kizil) and Turfan (Bezeklik) cave murals,alias:L25,Bezeklik exemplar to L26
+"in_situ:Western Himalayan Buddhist murals (Alchi, Tabo, Guge)",kind:L23/Western Himalaya,
+"met/aic:Central Asia, Sogdia",alias:L16,one metalwork object
+"met/aic:Central Asian, Sicilian",exclude:noise,
+met/aic:Eastern Central Asia or northern China,tag:place,
+met/aic:Eastern Central Asian,tag:place,"sword, 5th c. BCE"
+"met/aic:Eastern Tibet, Riwoche monastery",tag:place,
+met/aic:Mongolian (Central,tag:place,
+met/aic:Northeast China or southeast Inner Mongolia,tag:place,metalwork evidences L17
+himalaya_central_asia:Graeco-Bactrian / Indo-Greek,exclude:coins as currency,
+in_situ:rock relief - Afghanistan (undated),route:ancient_world,Sasanian rock relief (Rag-i-Bibi)
+in_situ:Tibetan Buddhist wall painting,leaf:L23,
+in_situ:mosaic - Uzbekistan (undated),exclude:single artwork,
+world_folk:kira,exclude:garment type (P10),
+"world_folk:Kyrgyz and Kazakh felt (shyrdak, ala-kiyiz, tus kiiz)",leaf:H6-1,pilot leaf
+"world_folk:Uzbek ceramics (Rishtan, Gijduvan)",leaf:E1-13,pilot leaf
+world_folk:Khamak embroidery (Kandahar),leaf:L19,
+world_folk:Afghan war rugs,kind:H1-7/war rugs,
+world_folk:Turkmen rug,leaf:H1-5,pilot leaf
+world_folk:Afghan rug,leaf:H1-7,pilot leaf
+world_folk:ala kiyiz,kind:H6-1/ala-kiyiz,
+world_folk:ak-kalpak,exclude:garment type (P10),
+world_folk:elechek,exclude:garment type (P10),
+world_folk:Chakan,leaf:L18,
+world_folk:Traditional Turkmen carpet making art in Turkmenistan,alias:H1-5,ICH listing
+world_folk:Turkmen-style needlework art,leaf:L20,
+world_folk:ceramic arts in Uzbekistan,alias:E1-13,ICH listing
+in_situ:Nepalese and Bhutanese wall painting,kind:L23/Nepal and Bhutan,Newar murals strain the label; see problems
