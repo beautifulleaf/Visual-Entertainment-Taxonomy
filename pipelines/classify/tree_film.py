@@ -1374,3 +1374,28 @@ ATTEST_WIKI.update({
     "G1-3": "Cooking show", "G1-4": "Game show", "G1-5": "Dragons' Den", "G2-1": "Dating game show|Dating show", "G2-2": "Docusoap",
     "G2-3": "Makeover show|Makeover television", "G3-1": "Variety show", "G3-2": "Talk show", "G3-3": "Panel game", "C1-16": "Anthology series", "C3-8": "Domestic noir|Psychological thriller", "C4-7": "Stand-up comedy",
 })
+
+# Scale-up, round 3: seams from TV batches 11–14 and film batches 65–74.
+_redef("D2-3", label="Australian & New Zealand Soap Opera", defn="Australian and New Zealand serials (<i>Neighbours</i>, <i>Home and Away</i>, <i>Prisoner</i>, <i>Shortland Street</i>).")
+_redef("D2-5", defn="the continental European daily and weekly soaps and the European telenovelas outside Iberia (<i>Lindenstraße</i>, <i>Gute Zeiten, schlechte Zeiten</i>, <i>Un posto al sole</i>, <i>Inimă de țigan</i>).")
+_redef("D3-2", defn="Turkish serials set before the founding of the Republic (1923), from the Seljuk and Ottoman court epics to late-Ottoman romances (<i>Muhteşem Yüzyıl</i>, <i>Diriliş: Ertuğrul</i>, <i>Kurt Seyit ve Şura</i>).")
+_redef("D5-1", defn="the Arab serial made for the Ramadan season, Syrian, Egyptian, Gulf and North African (<i>Bab al-Hara</i>, <i>Al-Taghriba al-Filistiniya</i>, <i>Omar</i>, <i>Awled Moufida</i>).")
+_add("D4", [
+    ("D4-4", "Sri Lankan Teledrama", "narrow", "the Sinhala television serial (teledrama), from the long-running family serials to the literary adaptations (<i>Deweni Inima</i>, <i>Kopi Kade</i>).", "teledrama", "D4-1 Indian Daily Soap.", "Teledrama"),
+])
+_add("D5", [
+    ("D5-2", "Arab Drama Serial", "narrow", "Arab serials made outside the Ramadan season, including the long pan-Arab adaptations of Turkish dizi (<i>Bride of Beirut</i>, <i>Al Hayba</i> excepted as Ramadan).", "Arab television drama", "D5-1 Ramadan Musalsal; D3-1 Dizi.", "Arab television drama"),
+])
+_add("C7", [
+    ("C7-3", "Nordic Christmas Calendar", "narrow", "the Scandinavian Advent serial of 24 daily episodes broadcast 1–24 December, whatever its genre (<i>Jul i Skomakergata</i>, <i>The Julekalender</i>, <i>Sunes jul</i>, <i>Jul på Månetoppen</i>).", "julekalender; julkalender; Christmas calendar", "C7-2 Children's & Tween Series.", "Nordic Christmas calendar"),
+])
+PRECEDENCE += [
+    ("TV10", "Ramadan comedies, dizi genres, Arab serials", "TV6 wins over TV9 for Ramadan comedies: a Ramadan sitcom or sketch show is C4; only Ramadan drama is D5-1. A Turkish weekly serial in the dizi format stays D3 whatever its genre (crime, action, romantic comedy); only a case-of-the-week police show is C3-1. D3-2 is any dizi set before 1923."),
+    ("TV11", "Biography, youth and remakes", "A biographical or religious series of a pre-modern life (prophets, saints, Leonardo) is Period Drama (C1-6); a modern life is Docudrama (C1-9). Series about young adults past school age (college, aspirants, first jobs) go by genre (C1-12, C4-5), not Teen Drama. A remake of a series shares its original's leaf unless it changes genre (TV5)."),
+    ("TV12", "Streaming serials, Christmas calendars", "A streaming serial of 60 or more episodes in a named serial tradition is D; a short web series of the same subject is C. A Nordic Advent serial is C7-3 whatever its genre. A short mythological web series is C5-2 with D4-2 as see-also."),
+]
+ATTEST_WIKI.update({"C7-3": "Nordic Christmas calendar", "D4-4": "Teledrama", "D5-2": "Arab television drama", "D2-3": "Australian soap opera|Shortland Street"})
+PRECEDENCE += [
+    ("F28", "Stage recordings, specials and visual albums", "A filmed stage production goes by its stage genre (a musical → A11-1, a stand-up show → A10-12, a play → its genre). A special of a television series that is not a compilation (the <i>South Park</i> streaming specials) is placed with its series → route:FT-C; a music or variety television special is excluded as television. A visual album or long-form music video is Musical Film (A11-1) as a feature, Live-Action Short (B2-3) at 40 minutes or less."),
+    ("F29", "Creatures, homages and revenge", "Dinosaurs, giant sharks and other natural monsters are Creature Feature (A4-14) when the film aims to frighten, Science Fiction (A5-3) when it is adventure; only giant monsters of the kaiju tradition are A5-1. A recent homage to a cycle (<i>Malignant</i>, <i>MaXXXine</i>) goes by its own genre with the cycle as see-also (F23). Revenge horror stays horror (A4) when it aims to frighten; a revenge story without horror is A3-5."),
+]

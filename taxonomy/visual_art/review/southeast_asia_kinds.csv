@@ -1,0 +1,77 @@
+tmp,kind,group,basis
+L21,Angkor Wat style,style,s_se_asia Khmer row (Angkorian: Angkor Wat style 17)
+L21,pre-Angkor,phase,met pre-Angkor period row (sculpture 16)
+L21,Lopburi,regional style,"excluded row Thai, Lopburi (Khmer style)"
+L21,Phimai,centre,"excluded row Thai, Temple of Philmai"
+L22,Haripunjaya,successor school,"excluded rows Thai, Haripunjaya / Haripunjaya style"
+L22,Si Thep,centre,"excluded row Thai, Si Thep"
+L22,Nakhon Pathom,centre,"excluded row Thai, Nakhon Pathom Province (Mon-Dvaravati)"
+L15,Ki Kertiwanda,maker,named maker (151)
+L15,Ki Bekel Prawirasucitra,maker,named maker (105)
+L15,Ki Enthus Susmono,maker,named maker (49)
+L15,Marto Suwondo,maker,named maker (36)
+L15,Raden Mas Sajid,maker,named maker (wayang kulit and unrecorded-form rows)
+L18,Nang talung,sub-type,"pool row labels (nang yai, nang talung)"
+L5,I Gusti Nyoman Lempad,Pita Maha,Pita Maha QID top artists
+L5,I Nyoman Ngendon,Pita Maha,Pita Maha QID top artists
+L5,Ida Bagus Gelgel,Pita Maha,Pita Maha QID top artists
+L5,I Wayan Ayun,Pita Maha,Pita Maha QID top artists
+L5,Anak Agung Oka Bima,Pita Maha,Pita Maha QID top artists
+L1,Maung Tin Hla,maker,"named maker recorded as ""Hla, Maung Tin"" (7)"
+L1,Yatanabon Maung Su,maker,"named maker recorded as ""Yatanabon Mg Su"" (6)"
+L1,"Konbaung court workshops (Mindon, Thibaw)",workshop,named workshop in parabaik row
+L57,Hsaya Maung Htun,maker,named maker (4; also Shan row)
+L57,Maung Paw Sein,maker,named maker (2)
+L57,Hsaya Khant,maker,named maker (2; also Burmese row)
+L57,"Konbaung court workshops (Mindon, Thibaw)",workshop,named workshop in lacquer row
+L57,Bagan,centre,"row label (yun, Bagan)"
+L57,Pegu (Lower Burma),centre,"excluded rows Lower Burma / Kingdom of Pegu (lacquer, 16th c.)"
+L28,Maung Yin Maung,maker,named maker (silverwork and Burmese rows)
+L44,U Paw Hnyun,maker,named maker (1)
+L6,Đỗ Văn Thanh,maker,"named maker recorded as ""Do, Van Thanh"""
+L6,Trần Xuân Minh,maker,"named maker recorded as ""Tran, Xuan Mihn"""
+L7,Damián Domingo,maker,named maker (1)
+L7,Rafael Daniel Baboom,maker,named maker (1)
+L10,Làng Sình,centre,row label (Kim Hoang and Lang Sinh prints); provisional
+L46,batik tulis,technique,row aliases
+L46,batik cap,technique,row aliases
+L46,batik pesisir,style,row aliases
+L46,Phoa Tjong Ling,maker,Javanese row named makers
+L46,Ny Kwee Siauw Tjay,maker,Javanese row named makers
+L46,Masina Workshop,workshop,Javanese row named makers
+L46,M. Ridwan,maker,Javanese row named makers
+L46,K. R. T. Hardjonagoro Workshop,workshop,Javanese row named makers
+L48,Sumba (hinggi),centre,Sumba rows (textiles 20 / 26) and hinggi alias
+L48,Toraja,centre,met Toraja row (textiles 37)
+L48,Flores,centre,"excluded rows Indonesian, Flores (textile 8)"
+L48,Savu,centre,"excluded rows Sawu / Indonesian, Savu"
+L48,Timor,centre,"excluded Timor rows (textiles 15, 8)"
+L48,Tanimbar,centre,excluded row Tanimbarese (textiles)
+L39,palepai,sub-type,row label
+L39,tampan,sub-type,row label
+L38,Minangkabau,centre,Songket row people
+L29,Javanese,regional form,"met Javanese / Javanese, Surakarta krisses"
+L29,Balinese,regional form,"met Indonesian, Bali krisses (25)"
+L29,Madurese,regional form,"excluded rows Javanese, Madura"
+L29,Bugis (South Sulawesi),regional form,"excluded rows Indonesian, South Sulawesi krisses"
+L29,Sumbawa,regional form,excluded rows Sumbawa krisses
+L29,Sumatran,regional form,met Sumatran krisses (25)
+L29,Malay Peninsula,regional form,"met Malayan; excluded Malaysian, Johor"
+L29,Moro kalis,regional form,"met Philippine krisses (23); Maguindanao, Sulu, Tawi-Tawi rows"
+L30,Central Javanese,phase,met Central Javanese period (jewellery 324)
+L30,East Javanese,phase,met Eastern Javanese period (jewellery 56)
+L35,Ko Noi,kiln,"excluded row North Central Thailand, Ko Noi"
+L35,Pa Yang,kiln,Freer record (Ban Pa Yang kilns)
+L35,Sukhothai kilns,related ware,"excluded rows North-central Thailand, Sukhothai kilns; seam"
+L34,Buriram kilns,centre,"excluded row Thai, Buriram Province (ceramics, Angkor period)"
+L36,Hải Dương (Chu Đậu) kilns,centre,"excluded rows Vietnamese, Hai Duong Province (ceramics, c. 1500)"
+L36,Lý–Trần wares,phase,"excluded row Vietnamese, Hong River region (Ly, Tran)"
+L25,Ifugao,people,row label
+L11,Ida I Dewa Gde Catra,scribe,named illuminator in Javanese manuscripts row
+C2-4,Achmad Rifa'i,scribe,named illuminator in Islamic Nusantara row (66)
+L62,Lanna,regional style,Wat Phumin and Wat Luang Wiang Ta Mon exemplars
+L59,Leang Tedongnge,site,exemplar
+L59,Leang Bulu' Sipong 4,site,exemplar
+L60,Lubang Jeriji Saléh,site,exemplar
+L60,Niah,site,exemplar (Niah National Park)
+L61,Ananda Temple,site,exemplar

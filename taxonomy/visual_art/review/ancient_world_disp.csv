@@ -1,0 +1,263 @@
+pool_id,disposition,note
+met/aic:Egyptian,tag:place,"evidences L12, L41, L44"
+met/aic:Greek,tag:place,"evidences L14, L25, L26"
+"met/aic:Greek, Attic",tag:place,evidences L25 Black-Figure and L26 Red-Figure Pottery
+met/aic:New Kingdom,tag:period,
+met/aic:Archaic,tag:period,
+met/aic:Classical,tag:period,
+met/aic:Middle Kingdom,tag:period,
+met/aic:Roman,tag:place,"evidences L42, L11, L17"
+manuscripts:Byzantine / Greek manuscripts (undated),exclude:language bucket,mostly biblical codices as texts; illustrated items belong to L1
+gap_sweep:Napatan and Meroitic Kush,leaf:L39,row spans sculpture and jewellery too; ceramics is its gathered medium
+met/aic:Imperial,tag:period,evidences L42
+met/aic:Late Period,tag:period,
+met/aic:Cypriot,tag:place,large Cypriot vase and sculpture holdings; no attested leaf (gap)
+met/aic:Third Intermediate Period,tag:period,
+met/aic:Ptolemaic Period,tag:period,
+met/aic:Hellenistic,tag:period,
+met/aic:Coptic,tag:place,evidences L44
+"manuscripts:Byzantine, Middle (843-1204)",leaf:L1,
+met/aic:Second Intermediate Period,tag:period,
+met/aic:Etruscan,tag:place,"evidences L32, L33, L16"
+met/aic:Roman Period,tag:period,evidences L4
+met/aic:Bronze Age,tag:period,
+"manuscripts:Byzantine, Palaiologan (1204-1453)",tag:period,phase of L1
+met/aic:Iron Age,tag:period,evidences L19
+manuscripts:Post-Byzantine Greek (1453+),tag:period,phase of L1
+in_situ:rock art - Azerbaijan (undated),tag:place,country bucket; Gamigaya petroglyphs (Nakhchivan) have no leaf
+met/aic:Sasanian,tag:period,evidences L21
+met/aic:Minoan,tag:place,"evidences L34, L10"
+met/aic:Old Kingdom,tag:period,
+manuscripts:Ancient Egyptian papyri,leaf:L5,art-historical core is the illustrated funerary papyri; documentary papyri are not art
+met/aic:Predynastic Period,tag:period,
+met/aic:Early Dynastic Period,tag:period,
+met/aic:Neo-Assyrian,tag:period,"evidences L6, L7"
+in_situ:Roman wall painting (Pompeian Styles I-IV),leaf:L53,
+met/aic:Cypro-Archaic,tag:period,
+met/aic:Assyrian,tag:place,"evidences L6, L7"
+met/aic:Neolithic,tag:period,
+met/aic:Babylonian,tag:place,
+met/aic:Neo-Babylonian,tag:period,
+met/aic:Mesopotamian,tag:place,
+"met/aic:Greek, East Greek",leaf:L28,
+met/aic:Islamic,route:islamic,
+manuscripts:Coptic,exclude:language bucket,"text corpus (Nag Hammadi, Codex Tchacos); Coptic binding is a gap"
+met/aic:Lydian,tag:place,
+"met/aic:Roman, Cypriot",tag:place,
+met/aic:Geometric,tag:period,evidences L23
+met/aic:Early Minoan,tag:period,phase of L34
+met/aic:Late Republican,tag:period,evidences L11
+"met/aic:Greek, Laconian",leaf:L27,
+met/aic:Achaemenid,tag:period,evidences L20
+"met/aic:Greek, Eastern Mediterranean",leaf:L43,glass 226: core-formed vessels
+met/aic:First Intermediate Period,tag:period,
+met/aic:Bactria-Margiana Archaeological Complex,tag:place,metalwork 190; no attested leaf (gap)
+met/aic:Late Cypriot,tag:period,
+met/aic:Parthian,tag:period,
+met/aic:Italic,tag:place,
+met/aic:Chalcolithic,tag:period,
+met/aic:Early,tag:period,
+met/aic:Late Minoan,tag:period,phase of L10/L34
+met/aic:Islamic Period,route:islamic,
+"met/aic:Greek, Apulian",kind:L29/Apulian,vases 173
+"met/aic:Lydian, Sardis",tag:place,
+met/aic:Old Assyrian Trading Colony,tag:period,
+met/aic:Sumerian,tag:place,
+met/aic:Old Babylonian,tag:period,
+manuscripts:Graeco-Roman Egyptian papyri,exclude:documentary papyri,Papyrus of Ani sample belongs to L5
+"met/aic:Greek, Corinthian",leaf:L24,
+"met/aic:Greek, Boeotian",kind:L15/Boeotian,"terracottas 104; vases 39 (Boeotian vase painting, see L25)"
+met/aic:Middle Minoan,tag:period,phase of L10/L34
+met/aic:Middle Cypriot,tag:period,
+met/aic:Cypro-Geometric,tag:period,
+met/aic:Helladic,tag:period,
+"gap_sweep:Nubian A-Group, C-Group and Pan-Grave cultures",tag:place,culture bucket; no attested pottery leaf label found (gap)
+"met/aic:Greek, Tarentine",kind:L15/Tarentine,terracottas 104
+met/aic:Levantine,tag:place,
+"in_situ:Roman and late-antique wall painting (catacombs, provincial)",leaf:L54,
+met/aic:Cypro-Classical,tag:period,
+met/aic:Assyro-Babylonian,tag:place,
+met/aic:Greek Islands,route:europe_folk_east,18th-century Greek island embroidery
+"met/aic:Greek, Cypriot",tag:place,
+met/aic:Naqada,tag:period,
+met/aic:Nubian,tag:place,
+met/aic:Phoenician,tag:place,glass 41 evidences L43; ivories L7
+"met/aic:Nubian, Sudan",tag:place,
+met/aic:Old Syrian,tag:period,evidences L9
+met/aic:Corinthian,alias:L24,"period-style row, vases 85"
+met/aic:Jemdet Nasr,tag:period,evidences L9
+met/aic:Mycenaean,leaf:L35,
+met/aic:Mid-Imperial,tag:period,
+"gap_sweep:Christian Nubia (Faras wall painting, Makuria)",alias:L56,
+in_situ:Roman mosaics,leaf:L58,
+"met/aic:Greek, South Italian",leaf:L29,
+"met/aic:Roman, Gaul",tag:place,evidences L36
+met/aic:Ur,tag:period,
+met/aic:Late Roman,tag:place,
+met/aic:Mitanni,tag:period,
+met/aic:Late Uruk,tag:period,evidences L9
+"met/aic:Greek, Cretan",kind:L15/Cretan,terracottas 42
+met/aic:Early Cypriot,tag:period,
+met/aic:Aegean,tag:place,
+"met/aic:Roman, Syrian",kind:L42/Syrian,glass 60
+met/aic:Modern,tag:period,post-antique bucket
+gap_sweep:Kerma culture (Nubia),leaf:L38,
+met/aic:Dynasty,tag:period,
+met/aic:Seleucid,tag:period,
+"met/aic:Greek, Campanian",kind:L29/Campanian,vases 60
+met/aic:Ghassulian,tag:place,
+met/aic:Early Byzantine,tag:period,
+"manuscripts:Byzantine, Early (to 843)",tag:period,phase of L1 (Vienna Dioscurides)
+met/aic:Anatolian,tag:place,
+"in_situ:Roman mosaics of the East (Antioch, Zeugma)",kind:L58/Antioch and Zeugma,wiki:Antioch mosaics
+met/aic:Akkadian,tag:period,
+in_situ:Near Eastern and Anatolian rock art,tag:place,"regional bucket (Ughtasar, Trialeti)"
+met/aic:Cycladic,leaf:L13,
+met/aic:Nabataean,leaf:L40,period row; ceramics 48 of 50
+met/aic:Meroitic Period,tag:period,
+in_situ:Byzantine mosaics (other),leaf:L59,
+met/aic:Elamite,tag:place,
+"met/aic:Roman, Egyptian",kind:L42/Egyptian,glass 27; also evidences L4
+met/aic:Early Cycladic,tag:period,phase of L13
+met/aic:South Italian,tag:place,
+met/aic:Late Helladic IIIA,tag:period,
+met/aic:East Greek,alias:L28,
+met/aic:Julio-Claudian,tag:period,
+met/aic:Mid,tag:period,
+"met/aic:Helladic, Mycenaean",alias:L35,
+met/aic:Hittite,tag:place,
+met/aic:Transcaucasia,tag:place,
+met/aic:III,tag:period,
+in_situ:Sasanian and Achaemenid rock reliefs,leaf:L45,
+"met/aic:Greek, Gnathian",leaf:L30,
+met/aic:Israelite,tag:place,
+gap_sweep:Post-Meroitic Nubia (X-Group / Ballana),tag:place,culture bucket; Ballana silver crowns are a gap
+met/aic:Urartian,tag:place,
+met/aic:Indus,route:south_asia,Indus civilisation; no leaf yet in south_asia
+manuscripts:Hebrew: Second Temple scrolls (Dead Sea),exclude:language bucket,text corpus
+"met/aic:Etruscan, Etrusco-Corinthian",kind:L32/Etrusco-Corinthian,
+met/aic:Augustan,tag:period,
+"met/aic:Greek, Rhodian",tag:place,
+met/aic:Hittite Empire,tag:period,
+met/aic:Southern Mesopotamia,tag:place,
+met/aic:Isin-Larsa,tag:period,
+met/aic:Late Period (Saite),tag:period,
+met/aic:Canaanite,tag:place,
+"met/aic:Greek, Ptolemaic",tag:place,
+met/aic:Early Harappan,route:south_asia,Indus civilisation; no leaf yet in south_asia
+met/aic:Late Helladic IIIB,tag:period,
+met/aic:Middle Elamite,tag:period,
+met/aic:Ubaid,tag:period,
+met/aic:Neo-Sumerian,tag:period,
+met/aic:Kushan,route:south_asia,Gandharan Art (L22) / Art of Mathura (L23)
+met/aic:Antonine,tag:period,
+met/aic:Middle Uruk,tag:period,
+met/aic:Kassite,tag:period,
+met/aic:Phrygian,tag:place,
+"met/aic:Roman, Pompeian",tag:place,evidences L53
+met/aic:Praenestine,kind:L22/Praenestine cistae,bronzes 14
+"met/aic:Roman, Eastern Mediterranean",kind:L42/Eastern Mediterranean,glass 14
+"in_situ:Arabian rock art (Ha'il, Shuwaymis, Bir Hima, Wadi Rum)",leaf:L48,
+met/aic:Old Elamite,tag:period,
+met/aic:Severan,tag:period,
+met/aic:Trajanic,tag:period,
+"met/aic:Roman, Syro-Palestinian",kind:L42/Syro-Palestinian,glass 11
+met/aic:Southwestern Arabia,tag:place,
+met/aic:Halaf,tag:period,
+"in_situ:Middle Byzantine mosaics (Hagia Sophia, Hosios Loukas, Daphni, Nea Moni)",kind:L59/Middle Byzantine,
+met/aic:Sarmatian,route:himalaya_central_asia,steppe metalwork
+met/aic:Middle Assyrian,tag:period,
+met/aic:Migration,route:europe_other,Migration-period / early medieval metalwork
+in_situ:rock relief - Turkey (ancient),leaf:L46,"Fraktin, Hanyeri, Taşçı"
+met/aic:Northern Iran,tag:place,
+met/aic:Proto-Elamite,tag:period,
+met/aic:Hadrianic,tag:period,
+met/aic:Neo-Hittite,tag:period,
+in_situ:Early Christian and medieval mosaics of Rome,kind:L59/Rome,Early Christian and medieval Roman mosaics; seam with L58
+met/aic:Central Iran,tag:place,
+"met/aic:East Greek, Clazomenian",kind:L28/Klazomenian,wiki:Klazomenian vase painting
+met/aic:Isin-Larsa–Old Babylonian,tag:place,
+met/aic:Early Dynastic I-II,tag:period,
+met/aic:Flavian,tag:period,
+met/aic:Hacilar,tag:place,
+met/aic:C-Group,tag:period,
+met/aic:Early Antonine,tag:period,
+met/aic:early Kassite,tag:period,
+met/aic:Mature Harappan,route:south_asia,Indus civilisation; no leaf yet in south_asia
+met/aic:Republican,tag:period,
+in_situ:rock relief - Turkey (undated),tag:place,mixed periods (Kuşkayası is Achaemenid)
+"in_situ:Byzantine church painting (Greece, Anatolia)",leaf:L55,
+in_situ:Ravenna Early Christian and Byzantine mosaics,kind:L59/Ravenna,
+in_situ:Roman North African mosaics,kind:L58/North Africa,
+met/aic:East Germanic or nomadic,route:europe_other,Migration-period / early medieval metalwork
+"met/aic:Greek, Centuripe",leaf:L31,
+met/aic:Iberian Peninsula,route:europe_other,Iron Age Iberian metalwork
+met/aic:Thrace,tag:place,
+"in_situ:Umayyad mosaics (Dome of the Rock, Great Mosque of Damascus)",leaf:L3-1,existing pilot leaf Umayyad Mosaics
+"met/aic:Greek, Egyptian",tag:place,
+"met/aic:Greek, Ionian Islands",route:europe_folk_east,18th-century Greek island embroidery
+"met/aic:Greek, Melian",tag:place,Melian reliefs too few to seed
+"met/aic:North African, Carthage",tag:place,
+met/aic:Latter part of the Early Bronze Age,tag:period,
+met/aic:Graeco-Phoenician,tag:place,
+"met/aic:Greek, Argive",tag:place,
+met/aic:Late Minoan IIIB,tag:period,
+in_situ:rock art - Greece (undated),tag:place,
+in_situ:Egyptian tomb and temple painting,leaf:L49,
+in_situ:Etruscan tomb painting,leaf:L51,
+"in_situ:Norman Sicilian mosaics (Palermo, Monreale, Cefalù)",kind:L59/Norman Sicily,row exemplars include Villa Romana del Casale (L58)
+"met/aic:Byzantine, Egypt",tag:place,
+met/aic:Dilmun,tag:place,
+"met/aic:Etruscan, Italo-geometric",kind:L32/Italo-Geometric,
+"met/aic:Greek Islands, Patmos",route:europe_folk_east,18th-century Greek island embroidery
+"met/aic:Italic, Samnite",tag:place,
+met/aic:Northern Mesopotamia,tag:place,
+met/aic:Northern Syria or eastern Anatolia,tag:place,
+met/aic:Persian Gulf region or southern Iran,tag:place,
+met/aic:Early Medieval Period - Hellenistic,tag:period,
+met/aic:early Old Hittite,tag:period,
+met/aic:Hittite Old Kingdom,tag:period,
+met/aic:Middle Cycladic,tag:period,phase of L13
+manuscripts:Byzantine (style recorded),alias:L1,Rossano Gospels sample
+"in_situ:Egyptian and Nubian rock art (Eastern Desert, Wadi Hammamat, Nile cataracts)",tag:place,"regional bucket (Qurta, Cave of the Archers)"
+"in_situ:Aegean Bronze Age wall painting (Thera, Knossos)",leaf:L50,
+"in_situ:Macedonian and Thracian tomb painting (Vergina, Kazanlak, Sveshtari)",leaf:L52,
+"in_situ:Venetian Byzantine mosaics (San Marco, Torcello)",kind:L59/Venice,
+"met/aic:Etruscan, Campanian",tag:place,
+"met/aic:Greek, Peloponnesian",tag:place,
+met/aic:Ptolemaic,tag:place,
+met/aic:Syria-Levant,tag:place,
+met/aic:early Flavian,tag:period,
+met/aic:Late Helladic IIIC,tag:period,
+met/aic:Ninevite,tag:period,
+met/aic:Ubaid-Middle Gawra,tag:period,
+manuscripts:art of ancient Egypt,exclude:umbrella term,
+in_situ:Gobustan petroglyphs,leaf:L47,
+in_situ:Mount Athos and Late Byzantine Macedonian school (Panselinos),kind:L55/Macedonian school,maker Manuel Panselinos
+in_situ:Troödos painted churches (Cyprus),kind:L55/Troödos,wiki:Painted Churches in the Troodos Region
+in_situ:mosaic - Greece (undated),tag:place,
+met/aic:Xiongnu,route:himalaya_central_asia,steppe metalwork
+"met/aic:Byzantine, Spanish",tag:place,
+"met/aic:East German, Byzantine",route:europe_other,Migration-period / early medieval metalwork
+met/aic:Hurrian,tag:place,
+"met/aic:Langobardic, Roman",route:europe_other,Migration-period / early medieval metalwork
+"met/aic:Ottonian, Byzantine",route:europe_other,Migration-period / early medieval metalwork
+met/aic:Early Medieval Period - Helenistic,tag:period,
+met/aic:Late Helladic IIIA:1,tag:period,
+met/aic:Late Severan,tag:period,
+met/aic:Late Ubaid,tag:period,
+met/aic:Middle Gawra,tag:period,
+met/aic:Second Dynasty of Isin,tag:period,
+met/aic:Third Intermediate Period (including Kushite),tag:period,
+met/aic:Tiberian,tag:period,
+manuscripts:Byzantine icon painting,leaf:L2,
+in_situ:rock relief - Greece (ancient),exclude:single artwork,Lion of Kea
+in_situ:Nubian Christian wall painting (Faras),leaf:L56,
+in_situ:Cappadocian rock-cut church painting,kind:L55/Cappadocia,
+in_situ:Paestum and Lucanian tomb painting,kind:L52/Paestan and Lucanian tombs,
+in_situ:Hellenistic and Greek pebble mosaics,leaf:L57,
+in_situ:Modern land art (Egypt & Nubia),route:artist-led,Desert Breath
+manuscripts:Byzantine art,exclude:umbrella term,
+manuscripts:Coptic art,exclude:umbrella term,
+in_situ:Post-Byzantine Greek church painting (Cretan school),leaf:L3,murals of the school; kinds under L3
+in_situ:Villa Romana del Casale and Roman Sicily mosaics,kind:L58/Sicily,

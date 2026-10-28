@@ -1,0 +1,58 @@
+tmp,kind,group,basis
+L36,Plumbate ware,ware,excluded row Mesoamerican: Plumbate style (traded into the Maya area)
+L21,K'in Lakam Chahk,maker,named_makers in Maya culture row (Piedras Negras sculptor)
+L21,Jun Nat Omootz,maker,named_makers in Maya culture row
+L24,Chinesco,sub-style,"excluded row Nayarit, Chinesco"
+L23,Remojadas,sub-style,excluded row Classic Veracruz: Remojadas
+L38,Parita style,style,excluded row Gran Coclé Tradition: Parita style
+L38,El Hatillo style,style,excluded row
+L38,Cubitá style,style,excluded row
+L38,Tonosí style,style,excluded row
+L38,La Mula style,style,excluded row
+L61,Early Quimbaya,phase,excluded row
+L61,Late Quimbaya,phase,excluded row
+L62,Malagana,phase,"excluded row Calima, Malagana"
+L60,La Aguja style,style,"excluded row Tairona, La Aguja Style"
+L60,Bellavista style,style,"excluded row Tairona, Bellavista style"
+L64,Initial style (Chiriquí),style,"excluded row Chiriquí, Initial Style"
+L8,Diego Quispe Tito,maker,wd_top_artists
+L8,Marcos Zapata,maker,wd_top_artists
+L8,Basilio Santa Cruz Pumacallao,maker,top_named_makers
+L10,Miguel de Santiago,maker (painting),top_named_makers
+L10,Vicente Albán,maker (painting),wd_top_artists
+L10,Isabel de Cisneros,maker (painting),wd_top_artists (Isabel de Cisnero)
+L10,María Estefanía Dávalos y Maldonado,maker (painting),wd_top_artists
+L10,Caspicara (Manuel Chili),maker (sculpture),top_named_makers; see Estofado
+L10,Bernardo de Legarda,maker (sculpture),top_named_makers; see Estofado
+L9,Melchor Pérez de Holguín,maker,top_named_makers
+L9,Francisco de Herrera y Velarde,maker,top_named_makers
+L4,Nicolás Enríquez,maker,top_named_makers (5)
+L4,Juan Rodríguez Juárez,maker,top_named_makers
+L85,Olinalá,centre,row label
+L85,Pátzcuaro,centre,row label
+L85,Chiapa de Corzo,centre,row label
+L85,Peribán,centre,gap_sweep row label
+L30,Arrazola,centre,row aliases
+L30,San Martín Tilcajete,centre,row aliases
+L45,San Bartolo Coyotepec,centre,row aliases
+L46,bruñido,sub-type,row aliases
+L46,petatillo,sub-type,row aliases
+L46,Tlaquepaque,centre,row label
+L47,Juan Quezada,maker,row aliases
+L32,Mestre Vitalino,maker,row label
+L32,Alto do Moura,centre,row aliases
+L70,Potolo,sub-style,row aliases (Jalq'a)
+L35,Huamanga alabaster (piedra de Huamanga),sub-type,gap_sweep row label
+L48,Metepec,centre,row label
+L31,Judas figures,sub-type,row label
+L98,Palpa lines,sub-group,row label
+L99,Atacama Giant,site,row exemplars
+L99,Chug-Chug,site,row exemplars
+L91,San Bartolo,site,row label
+L91,Calakmul,site,row label
+L92,Tepantitla,site,row label
+L92,Tetitla,site,row label
+L89,Toquepala Caves,site,row exemplars
+L89,Miculla petroglyphs,site,row exemplars
+L88,Pedra Furada,site,row exemplars
+L65,Ñudzavui,group,"met row Mixtec, Ñudzavui"

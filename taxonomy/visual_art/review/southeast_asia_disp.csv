@@ -1,0 +1,230 @@
+pool_id,disposition,note
+world_folk:Wayang (shadow and rod puppets),exclude:umbrella term,"split into Wayang Kulit, Wayang Golek, Wayang Beber leaves"
+world_folk:Javanese batik (Indonesian batik),leaf:L46,
+"world_folk:Balinese woodcarving and painting (Ubud, Batuan, Mas)",leaf:L5,woodcarving share (Mas) unplaced
+met/aic:Indonesian,tag:place,jewellery share evidences Javanese Gold Jewellery
+manuscripts:Balinese lontar,leaf:L11,
+manuscripts:Indonesian manuscripts (unlocalised),exclude:unlocalised manuscript bucket,
+"met/aic:Indonesian, Java",tag:place,
+south_southeast_asia:Burmese,tag:place,makers seed Burmese Lacquerware and Burmese Silver kinds
+south_southeast_asia:Javanese,tag:place,textile share and batik makers evidence Indonesian Batik
+rijks/wereldmuseum:Culture of the Indies,tag:place,colonial Indies bucket
+"gap_sweep:Wayang kulit (shadow puppets, Java / Bali)",leaf:L15,
+"gap_sweep:Philippine weaving (pina, Yakan, Kalinga, Ifugao)",leaf:L41,QID is Inabel; mixed weaving bucket
+met/aic:Thai,tag:place,
+rijks/wereldmuseum:Central Javanese,tag:period,mostly Mieling lithographs of Borobudur
+"manuscripts:Javanese manuscripts (Old Javanese / Kawi, Javanese)",kind:L11/Old Javanese (Kawi),
+south_southeast_asia:Thai,tag:place,
+south_southeast_asia:Malay,tag:place,
+world_folk:Indonesian ikat (tenun ikat),leaf:L48,
+met/aic:Central Javanese period,tag:period,jewellery evidences Javanese Gold Jewellery
+"world_folk:Philippine pina and other weaving (Yakan, Kalinga, Ifugao, inabel)",leaf:L40,mixed weaving bucket
+world_folk:Burmese lacquer (yun),leaf:L57,
+rijks/wereldmuseum:Sumatran,tag:place,
+met/aic:Philippine,tag:place,
+"world_folk:Lampung ship cloths (tapis, tampan, palepai)",leaf:L39,"QID is tapis, which has its own leaf"
+south_southeast_asia:Khmer,tag:place,sculpture share evidences Khmer Sculpture
+"manuscripts:Islamic Nusantara manuscripts (Jawi, Pegon)",leaf:C2-4,pilot leaf Malay Manuscripts
+"gap_sweep:Burmese lacquer (yun, Bagan)",leaf:L57,
+"met/aic:Indonesian, Central Java",tag:place,
+rijks/wereldmuseum:Classical Javanese period,tag:period,
+met/aic:Vietnamese,tag:place,Bronze Age metalwork evidences Dong Son Drums
+met/aic:Eastern Javanese period,tag:period,
+met/aic:Burmese,tag:place,
+south_southeast_asia:Indonesian,tag:place,
+rijks/wereldmuseum:Aceh,tag:place,
+rijks/wereldmuseum:Batak,tag:place,
+gap_sweep:Burmese court painting,leaf:L1,
+"gap_sweep:Wayang golek (rod puppets, Sunda / Java)",leaf:L16,
+met/aic:Cambodian,tag:place,
+south_southeast_asia:Philippine,tag:place,
+world_folk:Bencharong porcelain,leaf:L37,
+gap_sweep:Bencharong porcelain,leaf:L37,
+south_southeast_asia:Sumatran,tag:place,
+rijks/wereldmuseum:Filipino,tag:place,
+rijks/wereldmuseum:Minangkabau,tag:place,
+rijks/wereldmuseum:Majapahit,tag:period,sculpture share evidences Majapahit Terracotta
+gap_sweep:Burmese parabaik manuscript painting,leaf:L1,
+rijks/wereldmuseum:Dayak,tag:place,
+met/aic:Toba Batak,tag:place,
+rijks/wereldmuseum:East Javanese,tag:place,
+south_southeast_asia:Burmese: Shan,tag:place,
+south_southeast_asia:Balinese,tag:place,
+rijks/wereldmuseum:Nias,tag:place,
+rijks/wereldmuseum:Sumba,tag:place,
+gap_sweep:Topeng masks (Java / Bali masked dance),leaf:L17,
+rijks/wereldmuseum:Marind,route:oceania_australia,New Guinea (Papua) culture per culture_path
+rijks/wereldmuseum:Tanimbar,tag:place,
+met/aic:Sumatran,tag:place,krisses evidence Kris
+rijks/wereldmuseum:Borneo,tag:place,
+met/aic:Malayan,tag:place,
+"met/aic:Vietnamese, North",tag:place,Bronze Age metalwork evidences Dong Son Drums
+rijks/wereldmuseum:Sulawesi,tag:place,
+rijks/wereldmuseum:Agam,tag:place,photographs
+world_folk:Songket,leaf:L38,
+rijks/wereldmuseum:Yogyakarta,tag:place,
+met/aic:Angkor period,tag:period,
+"met/aic:Thai, Si Satchanalai",alias:L35,Si Satchanalai ware = Sawankhalok ware
+gap_sweep:Wayang klitik / krucil (flat wooden puppets),kind:L16/wayang klitik,
+rijks/wereldmuseum:Peranakan,tag:place,
+rijks/wereldmuseum:Classical Balinese period,tag:period,
+rijks/wereldmuseum:Jakarta,tag:place,
+rijks/wereldmuseum:West Javanese,tag:place,
+"met/aic:Indonesian, Bali",tag:place,krisses evidence Kris
+rijks/wereldmuseum:Semarang,tag:place,
+gap_sweep:Burmese marionettes (yoke thé),leaf:L20,
+south_southeast_asia:Thai: Sawankhalok ware,leaf:L35,
+rijks/wereldmuseum:Moluccan,tag:place,
+met/aic:Toraja,tag:place,textiles evidence Indonesian Ikat (Toraja kind)
+south_southeast_asia:Vietnamese,tag:place,ceramics share evidences Vietnamese Ceramics
+rijks/wereldmuseum:Flores,tag:place,
+"gap_sweep:Thai temple painting (phra bot banners, murals)",route:artist-led,QID is generic Thai art; only named maker Marius Bauer (21)
+south_southeast_asia:Sulawesi,tag:place,
+met/aic:Sumba Island,tag:place,textiles evidence Indonesian Ikat (Sumba kind)
+manuscripts:Burmese parabaik and kammavaca,leaf:L13,
+"met/aic:Indonesian, Sulawesi",tag:place,
+rijks/wereldmuseum:Lampung,tag:place,
+gap_sweep:Thai gold-and-black lacquer (lai rot nam),leaf:L58,
+gap_sweep:Burmese silverwork,leaf:L28,
+rijks/wereldmuseum:Surabaya,tag:place,
+rijks/wereldmuseum:Gayo,tag:place,
+rijks/wereldmuseum:Lombok,tag:place,
+rijks/wereldmuseum:Tasikmalaya,tag:place,
+rijks/wereldmuseum:Asian,exclude:no attribution,pan-Asian bucket
+south_southeast_asia:Sumba,tag:place,textiles evidence Indonesian Ikat (Sumba kind)
+south_southeast_asia:Sumatran: Lampung,tag:place,textiles evidence Lampung Ship Cloths / Tapis
+world_folk:Malaysian batik,leaf:L47,
+rijks/wereldmuseum:Surakarta,tag:place,
+"met/aic:Thai, Ban Chiang",leaf:L31,archaeological culture known for its pottery (P13)
+south_southeast_asia:Dayak (Borneo),tag:place,
+gap_sweep:Burmese kalaga (sequined tapestries),leaf:L44,
+met/aic:Mon-Dvaravati period,tag:period,sculpture evidences Dvaravati Art
+gap_sweep:Vietnamese folk woodblock prints (other),exclude:mis-gathered,"makers are Western printers (Allen & Ginter, Charles Jacque)"
+world_folk:Burmese kalaga (sequined tapestries),leaf:L44,
+met/aic:Javanese,tag:place,
+met/aic:Sumatra,tag:place,
+gap_sweep:Balinese painting (other),route:artist-led,"makers are European painters of Bali (Bauer, Tharle-Hughes)"
+manuscripts:Bugis / Makassar (lontara),kind:C2-4/Bugis-Makassar,Islamic texts in Lontara script
+gap_sweep:Wayang (form unrecorded),exclude:umbrella term,wayang form unrecorded
+manuscripts:Thai samut khoi and Lanna manuscripts,leaf:L12,
+met/aic:pre-Angkor period,tag:period,
+world_folk:Geringsing (Tenganan double ikat),leaf:L49,
+world_folk:Kamasan painting,leaf:L3,
+"met/aic:Indonesian, East Java",tag:place,
+gap_sweep:Ifugao bulul (granary figures),leaf:L25,
+gap_sweep:Tonkin export lacquer (17th-18th c.),exclude:label not attested,no attested leaf for historic Vietnamese lacquerware; see problems
+met/aic:Southern Thailand,tag:place,
+gap_sweep:Maranao okir and sarimanok,exclude:ornament and motif tag (D6),okir is a design idiom across wood and metal
+"met/aic:Plai Bat II Temple, Thailand",kind:L21/Prakhon Chai,Prakhon Chai hoard site
+gap_sweep:Hispano-Philippine ivory santos,kind:L26/Hispano-Philippine ivory,
+manuscripts:Vietnamese (Han-Nom) manuscripts,exclude:script and language bucket,
+met/aic:Majapahit period,tag:period,
+gap_sweep:Khmer shadow theatre (sbek thom),leaf:L19,
+manuscripts:Batak pustaha,leaf:L14,
+in_situ:Thai temple murals,leaf:L62,
+"met/aic:Thai, Phetchabun Province",tag:place,
+"met/aic:Thai, Ratchaburi Province",tag:place,
+"met/aic:Vietnamese, Champa",tag:place,sculpture evidences Cham Sculpture
+gap_sweep:Balinese Kamasan (wayang-style) painting,leaf:L3,
+in_situ:Mainland and island SE Asian rock art,exclude:umbrella term,"exemplars Angono Petroglyphs, Padah-Lin, Gua Tambun each lack a leaf"
+met/aic:Hispano-Philippine,kind:L26/Hispano-Philippine ivory,
+met/aic:Pyu period,tag:period,
+gap_sweep:Batuan painting,kind:L5/Batuan,
+gap_sweep:Vietnamese lacquer painting (son mai),leaf:L6,
+"gap_sweep:Vietnamese painting (Nguyen court, silk, Indochina school)",route:artist-led,Indochina school; maker Marius Bauer
+in_situ:Borneo cave art (Sangkulirang-Mangkalihat),leaf:L60,
+in_situ:Maros-Pangkep (Sulawesi) cave art,leaf:L59,
+in_situ:Bagan temple murals,leaf:L61,
+in_situ:mural - Malaysia (undated),exclude:single artworks,modern street murals
+met/aic:Central or northeastern Thailand,tag:place,
+"met/aic:Javanese, Timorese",tag:place,
+met/aic:Southern Cambodia,tag:place,
+met/aic:Timor-Leste,tag:place,
+"met/aic:Timor-Leste, East Timor",tag:place,
+"met/aic:Vietnamese, Mekong Delta area",tag:place,
+"met/aic:Vietnamese, Sa Huynh",tag:period,"archaeological culture label, one object"
+"gap_sweep:Thai manuscript painting (samut khoi, Phra Malai)",leaf:L2,
+gap_sweep:Wayang beber (narrative scroll painting),leaf:L4,
+"gap_sweep:Thai shadow theatre (nang yai, nang talung)",leaf:L18,
+gap_sweep:Dong Ho woodblock prints,leaf:L8,
+gap_sweep:Tipos del Pais and Letras y figuras (Philippine colonial painting),leaf:L7,
+manuscripts:Philippine (Baybayin) manuscripts,exclude:script and language bucket,one document group
+"in_situ:Burmese temple murals (Konbaung, Ava, Sagaing)",kind:L61/Inwa and Konbaung murals,
+in_situ:mural - Philippines (undated),exclude:single artworks,
+in_situ:mural - Singapore (modern),exclude:single artworks,Changi murals
+in_situ:mural - Vietnam (modern),exclude:single artworks,Hanoi Ceramic Mosaic Mural
+in_situ:mosaic - Thailand (modern),exclude:single artworks,
+world_folk:T'nalak (T'boli abaca ikat),leaf:L52,
+world_folk:Hang Trong woodblock prints,leaf:L9,
+world_folk:Vietnamese lacquer painting (son mai),leaf:L6,
+world_folk:Bat Trang ceramics,kind:L36/Bát Tràng,
+"world_folk:Thai shadow puppets (nang yai, nang talung)",leaf:L18,
+world_folk:batik,leaf:L46,
+world_folk:áo dài,"exclude:garment type, not an art tradition (P10)",
+world_folk:kebaya,"exclude:garment type, not an art tradition (P10)",
+world_folk:Ikat,exclude:umbrella term,technique (Q140101); see Indonesian Ikat
+world_folk:Baro't saya,"exclude:garment type, not an art tradition (P10)",
+world_folk:noken,leaf:L54,
+world_folk:Barong Tagalog,"exclude:garment type, not an art tradition (P10)",embroidered piña shirt; see Piña
+world_folk:Roti jala,exclude:non-art,a food
+world_folk:tengkolok,"exclude:garment type, not an art tradition (P10)",
+world_folk:traditional Thai clothing,"exclude:garment type, not an art tradition (P10)",
+world_folk:Sompot,"exclude:garment type, not an art tradition (P10)",
+world_folk:Đông Hồ,leaf:L8,
+world_folk:tais,leaf:L50,
+world_folk:Pua Kumbu,leaf:L51,
+world_folk:Samping,"exclude:garment type, not an art tradition (P10)",
+world_folk:Daluang paper,leaf:L55,
+"world_folk:Orders, decorations, and medals of Malaysia",exclude:non-art,list article of state honours
+world_folk:Wolimomo,"exclude:garment type, not an art tradition (P10)",
+world_folk:bebegig,exclude:performance,ritual mask costume of a West Javanese performance; 0 objects
+world_folk:Rias Gede,"exclude:garment type, not an art tradition (P10)",
+world_folk:Manopeng,exclude:performance,"Banjar mask dance, mis-recorded as basketry; 0 objects"
+world_folk:Inter kesuma,"exclude:garment type, not an art tradition (P10)",
+world_folk:Maduaro,kind:L43/Maduaro,Lampung embroidered head shawl
+world_folk:Prasi,kind:L11/prasi,incised pictures on lontar; seam with A1 (P1)
+world_folk:Kasongan pottery,leaf:L33,
+world_folk:Songket Palembang,kind:L38/Palembang,
+world_folk:Kain Air Guci,"exclude:garment type, not an art tradition (P10)","Banjar ICH item, 0 objects"
+world_folk:sulam usus,kind:L43/sulam usus,Lampung embroidery
+world_folk:tekat,leaf:L45,
+world_folk:mahalama amongo,"exclude:garment type, not an art tradition (P10)","Gorontalo ICH item, 0 objects"
+world_folk:Kain Bebat DImpo,"exclude:garment type, not an art tradition (P10)","Bengkulu ICH item, 0 objects"
+world_folk:Kain Bulung,"exclude:garment type, not an art tradition (P10)","Bengkulu ICH item, 0 objects"
+world_folk:Kain Beragi,"exclude:garment type, not an art tradition (P10)","Bengkulu ICH item, 0 objects"
+world_folk:Kain Curak,"exclude:garment type, not an art tradition (P10)","Bengkulu ICH item, 0 objects"
+world_folk:Kain Cutar,"exclude:garment type, not an art tradition (P10)","Bengkulu ICH item, 0 objects"
+world_folk:Kain Dugan,"exclude:garment type, not an art tradition (P10)","Bengkulu ICH item, 0 objects"
+world_folk:Tapis Pesisir Barat,kind:L43/Pesisir Barat,
+world_folk:Kain Deragam,"exclude:garment type, not an art tradition (P10)","Bengkulu ICH item, 0 objects"
+world_folk:Kain Dugan Hitam,"exclude:garment type, not an art tradition (P10)","Bengkulu ICH item, 0 objects"
+world_folk:Kain Ragi Manis,"exclude:garment type, not an art tradition (P10)","Bengkulu ICH item, 0 objects"
+world_folk:Cik Siti Wan Kembang clothing,"exclude:garment type, not an art tradition (P10)",
+world_folk:Art of pottery-making of Chăm people,leaf:L32,
+world_folk:sangging kamasan Bali,leaf:L3,
+world_folk:anyaman purun Kalimantan Selatan,exclude:below inclusion,"utilitarian matting ICH entry, 0 objects"
+world_folk:Lampit Amuntai,exclude:below inclusion,"utilitarian rattan mat ICH entry, 0 objects"
+world_folk:jai,exclude:below inclusion,"utilitarian basketry ICH entry, 0 objects"
+world_folk:Naga motif weaving in Lao communities,leaf:L42,
+world_folk:telepuk,leaf:L53,
+world_folk:Malay wood carving,leaf:L56,
+world_folk:Malay textile motif,exclude:ornament and motif tag (D6),
+world_folk:Sarawak bead necklace,exclude:object type,0 objects
+world_folk:dokoh,exclude:object type,0 objects
+gap_sweep:Ubud / Pita Maha painting,kind:L5/Ubud (Pita Maha),
+gap_sweep:Hang Trong woodblock prints,leaf:L9,
+gap_sweep:Kim Hoang and Lang Sinh prints,leaf:L10,
+gap_sweep:Philippine wooden santos and colonial religious painting,leaf:L26,painting share unplaced
+gap_sweep:T'boli t'nalak (abaca ikat),leaf:L52,
+gap_sweep:Naga motif weaving in Lao communities,leaf:L42,
+gap_sweep:wau,exclude:non-art,"kite, 0 objects"
+gap_sweep:Malaysian Batik,leaf:L47,
+gap_sweep:grass puppet,exclude:below inclusion,"puppet ICH entry, 0 objects, form unidentified"
+gap_sweep:Uyeg,exclude:performance,
+gap_sweep:Maduaro,kind:L43/Maduaro,
+gap_sweep:batik,leaf:L46,
+gap_sweep:ubrug,exclude:performance,
+manuscripts:Khmer manuscripts,route:south_asia,Palm-Leaf Manuscripts (L19)
+manuscripts:Southeast Asian palm-leaf (unlocalised),route:south_asia,Palm-Leaf Manuscripts (L19)
+"in_situ:Mainland and Indonesian SE Asian tattooing (sak yant, Mentawai, Chin)",leaf:L63,Mentawai split as own leaf
+"in_situ:Philippine and Bornean tattooing (batok, Iban)",leaf:L65,

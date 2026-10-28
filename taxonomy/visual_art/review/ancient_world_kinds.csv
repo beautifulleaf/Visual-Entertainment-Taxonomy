@@ -1,0 +1,54 @@
+tmp,kind,group,basis
+L1,Macedonian Renaissance,phase,pool sample Paris Psalter; Menologion of Basil II (Middle Byzantine row)
+L1,Kokkinobaphos Master,maker,named illuminator on Middle Byzantine row (James of Kokkinobaphos)
+L1,Pantoleon,maker,named illuminator on undated Greek row (Menologion of Basil II)
+L5,Papyrus of Ani,representative,sample manuscript on Graeco-Roman Egyptian papyri row
+L6,Neo-Assyrian palace reliefs,phase,Neo-Assyrian stone 233
+L7,Phoenician style,sub-group,Phoenician row; ivory groups
+L7,North Syrian style,sub-group,Northern Syria rows (excluded)
+L9,Old Syrian glyptic,sub-group,Old Syrian row stone 89
+L9,Stamp seals,sub-type,excluded rows Stamp Seal With Cultic Scene
+L11,Graeco-Persian gems,sub-group,excluded row Graeco-Persian (7)
+L11,Etruscan and Italic scarabs,sub-group,Italic gems 33
+L11,Roman Republican gems,sub-group,Late Republican gems 189
+L12,Relief,sub-type,"Middle Kingdom relief fragment 841, relief 383"
+L12,Funerary models,sub-type,Old Kingdom model tableware/model dish
+L13,Spedos type,sub-type,Cycladic art (wiki) exemplar; Early Cycladic II
+L15,Tanagra figurines,sub-group,wiki:Tanagra figurine; Boeotian terracottas
+L15,Myrina figurines,centre,"excluded row Greek, Myrina (8)"
+L16,Bronze votive statuettes,sub-type,Etruscan bronzes 360
+L22,Faliscan,centre,"excluded rows Etruscan, Faliscan; Faliscan"
+L23,Subgeometric,phase,excluded row Sub-geometric (4)
+L24,Protocorinthian,phase,"excluded rows Protocorinthian (15), Early Protocorinthian"
+L25,Protoattic,phase,"excluded rows Greek, Protoattic; Early Protoattic"
+L25,Boeotian black-figure,sub-group,"Greek, Boeotian vases 39; wiki:Boeotian vase painting"
+L28,Wild Goat Style,sub-group,"excluded row East Greek, Wild Goat Style"
+L28,Fikellura,sub-group,"excluded rows East Greek, Fikellura; Rhodian, Fikellura"
+L28,Rhodian,centre,"excluded rows Rhodian, East Greek, Rhodian"
+L28,Chian,centre,"excluded row East Greek, Chiot"
+L29,Lucanian,fabric,"excluded row Greek, Lucanian (10)"
+L29,Paestan,fabric,"excluded row Greek, Paestan (2)"
+L29,Sicilian,fabric,"excluded row Greek, Sicilian (15)"
+L32,Caeretan hydriae,sub-group,"excluded rows Etruscan, Caeretan; Greek, Caeretan"
+L32,Genucilia plates,sub-group,"excluded row Etruscan, Genucilia (7)"
+L32,Faliscan red-figure,centre,"excluded rows Etruscan, Faliscan; Faliscan, Capena"
+L36,South Gaulish samian,centre,"excluded rows Roman, South Gaulish; Roman, Gaulish"
+L41,Scarabs,sub-type,Egyptian scarab 2473; Second Intermediate scarab 565
+L41,Amulets,sub-type,Egyptian amulet 1751; Late Period amulet 831
+L41,Ushabti,sub-type,Third Intermediate shabti 559
+L42,Rhenish glass,centre,"excluded rows Roman, Rhenish (10); Roman, Rhineland"
+L43,Phoenician glass,sub-group,Phoenician glass 41
+L45,Achaemenid rock reliefs,phase,row exemplar Behistun inscription
+L45,Qajar rock reliefs,later revival,row exemplar Fath-Ali Shah relief (Cheshmeh-Ali); see Islamic slice
+L48,Bir Hima,centre,row exemplar Bir Hima Rock Petroglyphs and Inscriptions
+L48,Wadi Rum,centre,row exemplar Wadi Rum (Jordan)
+L49,Theban tombs,centre,"excluded row Egyptian, Thebes; Tomb of Nebamun"
+L50,Akrotiri (Thera),centre,row exemplar Akrotiri
+L52,Macedonian tombs (Vergina),centre,row exemplar Tomb of Philip II
+L52,"Thracian tombs (Kazanlak, Sveshtari)",centre,row exemplars
+L53,First Style,phase,row label Pompeian Styles I-IV
+L53,Second Style,phase,row label Pompeian Styles I-IV; Villa of the Mysteries
+L53,Third Style,phase,row label Pompeian Styles I-IV
+L53,Fourth Style,phase,row label Pompeian Styles I-IV
+L54,Dura-Europos,centre,row country Syria (75)
+L57,Pebble mosaic,sub-type,row label
