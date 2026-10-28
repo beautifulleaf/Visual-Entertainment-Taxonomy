@@ -1,0 +1,101 @@
+item_id,kind,label,context
+0,tradition row,Calima,type met culture; region South America; era antiquity; objects 38; evidence: top_classifications: metalwork (33); beads (2); aerophone (2); top_periods: Yotoco period (Pre-Columbian) (1); Pre-Columbian (1); timeline_works: 5; begin_median: 100; aic_objects: 0
+1,tradition row,Igbo-Ukwu bronzes,type gap seed_node; region Sub-Saharan Africa; era early; objects 0; evidence: qid: Q1024641; qid_label: Igbo-Ukwu (place/other item); qid_description: human settlement in Nigeria; medium: metalwork (bronze); era_nominal: 800..1000
+2,tradition row,probably Lorette Huron (attributed),"type smithsonian NMAI; region North America (Indigenous); era modern; objects 79; evidence: unit: NMAI; top_object_types: Made-for-Sale items and Souvenirs (46); Containers and Vessels (12); Adornment/Jewelry (6); Clothing/Garments:; top_media: Birchbark (14); Birchbark, moosehair (14); Birchbark, moosehair, dye/dyes (11); begin_median: 1880"
+3,tradition row,"Western Himalayan Buddhist murals (Alchi, Tabo, Guge)","type in situ mural; region Himalaya; era early; objects 2; evidence: kind: mural; country: India (2); era: 10th-16th c.; n_unesco: 0; top_exemplars: Alchi Monastery (Q2705908) | Tabo Monastery, Himachal Pradesh (Q1112486)"
+4,tradition row,Limerick lace,type folk wikidata; region Western Europe; era late; objects 0; evidence: qid: Q6549279; country: Ireland; medium: lace; ich_designation: Ireland’s National Inventory of Intangible Cultural Heritage; wd_description: type of embroidered net lace; wd_classes: Irish lace | needle lace-making | textile art of an area
+5,tradition row,Sohrai and Khovar painting,type folk curated; region South Asia; era late; objects 0; evidence: country: India; medium: painting (mural); status: new
+6,tradition row,Dogon,type met culture; region Sub-Saharan Africa; era modern; objects 47; evidence: top_classifications: sculpture (26); textiles (9); wood (5); timeline_works: 1; begin_median: 1800; aic_objects: 0
+7,tradition row,"Greek, Laconian",type met culture; region Greco-Roman & Byzantine Mediterranean; era antiquity; objects 253; evidence: parent: greek; top_classifications: miscellaneous (184); vases (61); bronzes (5); top_periods: Archaic (127); Helladic (24); Geometric (5); timeline_works: 4; begin_median: -699; aic_objects: 0
+8,tradition row,"Bulgarian medieval fresco (Boyana, Ivanovo)",type in situ mural; region Central & Eastern Europe; era early; objects 3; evidence: kind: mural; country: Bulgaria (3); era: 10th-17th c.; n_unesco: 2; top_exemplars: Boyana Church (Q276553) | Rila Monastery (Q64617589) | Kremikovtsi Monastery (Q940905)
+9,tradition row,Pueblo: San Ildefonso,type culture; region Sub-Saharan Africa; era modern; objects 23; evidence: culture_group: Pueblo; top_object_groups: ceramics (23); top_periods: 20th century (17); 19th century (1); named_makers: Maria Montoya Martinez (12); Maria Martinez (4); Santana Roybal Martinez (3); Tonita Roybal (2); Tonita Martin; subregions: North America (23)
+10,tradition row,Koishiwara ware,type folk wikidata; region Japan; era late; objects 0; evidence: qid: Q11463263; country: Japan; medium: ceramics; status: new; ich_designation: Important Intangible Cultural Property of Japan; wd_description: type of Japanese pottery
+11,tradition row,tais,type folk wikidata; region Southeast Asia; era late; objects 0; evidence: qid: Q2388788; aliases: Kain Tais; country: Indonesia; Timor-Leste; people: Indonesia; medium: textiles; status: new; ich_designation: List of Intangible Cultural Heritage in Need of Urgent Safeguarding; wd_description: handwoven traditional textile in Timor-Leste – inscribed in the List of Intangible Heritage in Need of Urgent 
+12,tradition row,chiprovtsi carpet,type folk wikidata; region Central & Eastern Europe; era late; objects 0; evidence: qid: Q5101726; country: Bulgaria; medium: carpets; wd_description: style of carpet originating from northwest Bulgaria; wd_classes: kilim | rug style
+13,tradition row,Horodok stitch,type folk wikidata; region Central & Eastern Europe; era late; objects 0; evidence: qid: Q134444895; country: Ukraine; medium: embroidery; ich_designation: National Inventory of Intangible Cultural Heritage of Ukraine; wd_description: embroidery stitch technique; wd_classes: embroidery
+14,tradition row,Warli painting,type folk curated; region South Asia; era modern; objects 1; evidence: country: India; people: Warli; medium: painting; status: new
+15,tradition row,Troödos painted churches (Cyprus),type in situ mural; region Greco-Roman & Byzantine Mediterranean; era late; objects 2; evidence: qid: Q462702; kind: mural; country: Cyprus (2); era: 11th-16th c.; n_unesco: 2; top_exemplars: Painted Churches in the Troödos Region (Q462702) | Timios Stavros (Q31025023)
+16,tradition row,Bankoni terracottas,type gap seed_node; region Sub-Saharan Africa; era early; objects 9; evidence: qid: Q23199098; qid_label: Bankoni; medium: sculpture (terracotta); era_nominal: 1100..1600; top_named_makers: Bankoni (2)
+17,tradition row,Nepalese and Bhutanese wall painting,type in situ mural; region Himalaya; era early; objects 0; evidence: qid: Q7180343; kind: mural; n_unesco: 0
+18,tradition row,Orenburg shawl,type folk pattern; region Central & Eastern Europe; era contemporary; objects 53; evidence: qid: Q2029572; country: Russia; medium: textile (knitted)
+19,tradition row,"Western European, Langobardic",type met culture; region Western Europe; era early; objects 3; evidence: parent: western european; top_classifications: metalwork (2); shields (1); timeline_works: 1; begin_median: 600; aic_objects: 0
+20,tradition row,Ethiopian (Ge'ez),type manuscript style; region Sub-Saharan Africa; era late; objects 831; evidence: qid: Q16632158; script_language: Ge'ez; sample_manuscripts: Ethiopian magic scroll (Q123858054); Prayer Book: Arganonä Maryam (The Organ of Mary) (Q30080350); Ethiopian G
+21,tradition row,Payómkawichum (Luiseño),"type smithsonian NMAI; region North America (Indigenous); era contemporary; objects 71; evidence: unit: NMAI; top_object_types: Painting/Drawing/Print (56); Containers and Vessels (8); Clothing/Garments: Footwear (2); Indigenous Knowledge; top_media: Paper, ink (31); Arches paper, ink (12); Cotton canvas, oil paint (4); begin_median: 1974"
+22,tradition row,Ledger art,type folk curated; region North America (Indigenous); era early; objects 185; evidence: aliases: ledger drawing; ledger book; country: United States; people: Cheyenne; Kiowa; Lakota; Arapaho; medium: drawing; status: new
+23,tradition row,Ijele Masquerade,type folk wikidata; region Sub-Saharan Africa; era late; objects 0; evidence: qid: Q17005276; aliases: Ijele masquerade; country: Nigeria; medium: other; status: new; ich_designation: Representative List of the Intangible Cultural Heritage of Humanity; wd_description: The King of all Igbo masquerades and as such has 45 different other masquerades perform on top of it in the ol
+24,tradition row,batik,type folk wikidata; region Southeast Asia; era late; objects 0; evidence: qid: Q635427; aliases: Javanese dyeing technique; Javanese fabric; Javanese heritage cloth; bathik; royal Javanese cloth; country: Indonesia; people: Indonesia; medium: textiles; status: new; ich_designation: Representative List of the Intangible Cultural Heritage of Humanity; wd_description: Indonesian cloth dyeing technique originating from Java
+25,tradition row,Pithora painting,type folk curated; region South Asia; era late; objects 0; evidence: country: India; people: Rathwa; Bhil; medium: painting (mural); status: new
+26,tradition row,Tapatjatjaka Art & Craft,type gap art_centre; region Australia (Aboriginal); era late; objects 0; evidence: qid: Q124628704; qid_label: Tapatjatjaka Art & Craft; qid_description: Australian Art Centre; medium: art centre / workshop
+27,tradition row,carved lacquer,type folk wikidata; region China; era late; objects 0; evidence: qid: Q13410715; aliases: Diaoqi; Qidiao; country: People's Republic of China; medium: lacquer miniature; status: new; ich_designation: Beijing Municipal Intangible Cultural Heritage; wd_description: Chinese form of lacquerware
+28,tradition row,Quinkan / Laura (Cape York) rock art,type in situ rock art; region Australia (Aboriginal); era antiquity; objects 1; evidence: kind: rock art; country: Australia (1); n_unesco: 0; top_exemplars: Quinkan rock art (Q7272242)
+29,tradition row,"Istrian and Slovene Gothic frescoes (Beram, Hrastovlje)",type in situ mural; region Central & Eastern Europe; era early; objects 0; evidence: qid: Q20526399; kind: mural; era: 14th-16th c.; n_unesco: 0
+30,tradition row,pysanka,type folk wikidata; region Central & Eastern Europe; era late; objects 1719; evidence: qid: Q3233785; country: Belarus; Bosnia and Herzegovina; Bulgaria; Croatia; Czech Republic; Kosovo; Montenegro; North Macedonia; Polan; medium: decorated eggs; ich_designation: National Inventory of Intangible Cultural Heritage of Ukraine; Representative List of the Intangible Cultural ; wd_description: egg decorating tradition in Slavic countries; wd_classes: easter egg | egg decorating | tradition
+31,tradition row,Amazonian (Acre) geoglyphs,type in situ geoglyph; region South America; era early; objects 1; evidence: kind: geoglyph; country: Brazil (1); era: c. 0-1300 CE; n_unesco: 0; top_exemplars: Acre geoglyphs (Q16571176)
+32,tradition row,Pennsylvania German fraktur,type folk curated; region North America (settler); era late; objects 43; evidence: aliases: Taufschein; Vorschrift; country: United States; people: Pennsylvania German; medium: drawing / illumination; status: new
+33,tradition row,Laguna Pueblo,"type smithsonian NMAI; region North America (Indigenous); era contemporary; objects 150; evidence: unit: NMAI; top_object_types: Containers and Vessels (49); Sculpture/Carving/Figures (20); Food/Beverage Serving (16); Painting/Drawing/Prin; top_media: Pottery (69); Pottery, paint (11); Wood (9); begin_median: 1977"
+34,tradition row,Great Murals of Baja California,type in situ rock art; region North America (Indigenous); era antiquity; objects 2; evidence: kind: rock art; country: Mexico (2); era: c. 1100 BCE-1300 CE; n_unesco: 1; top_exemplars: Rock Paintings of Sierra de San Francisco (Q552005) | Sierra de Guadalupe cave paintings (Q7511646)
+35,tradition row,Umatilla,"type smithsonian NMAI; region North America (Indigenous); era modern; objects 88; evidence: unit: NMAI; top_object_types: Bags/Pouches (and parts) (37); Adornment/Jewelry (13); Pipes and Smoking (10); Containers and Vessels (5); Clo; top_media: Cornhusk (11); Hide, glass bead/beads, hide thong/babiche (10); Wood (5); begin_median: 1900"
+36,tradition row,Bilum (PNG string bags),type folk curated; region Oceania (Pacific); era modern; objects 116; evidence: qid: Q863375; aliases: bilum; string bag; country: Papua New Guinea; medium: fibre (looped bags); status: new
+37,tradition row,Maidu,"type smithsonian NMAI; region North America (Indigenous); era contemporary; objects 109; evidence: unit: NMAI; top_object_types: Containers and Vessels (60); Hunting/Fishing/Warfare (11); Painting/Drawing/Print (11); Adornment/Jewelry (9);; top_media: Willow, redbud (28); Willow, bracken fern root (11); Cotton canvas, acrylic paint (10); begin_median: 2002"
+38,tradition row,T'boli t'nalak (abaca ikat),"type gap seed_node; region Southeast Asia; era modern; objects 0; evidence: qid: Q7667730; qid_label: T'nalak; qid_description: Weaving tradition in South Cotabato, Philippines; medium: textiles; era_nominal: 1800..2000"
+39,tradition row,Finnish basketry (pärekori),type folk technique; region Central & Eastern Europe; era late; objects 388; evidence: country: Finland; medium: basketry
+40,tradition row,"Greek, South Italian",type met culture; region Greco-Roman & Byzantine Mediterranean; era antiquity; objects 79; evidence: parent: greek; top_classifications: terracottas (34); vases (21); metalwork (20); top_periods: Hellenistic (39); Classical (30); Archaic (5); timeline_works: 1; begin_median: -350; aic_objects: 0
+41,tradition row,Zulu,type culture; region Sub-Saharan Africa; era modern; objects 461; evidence: culture_group: Zulu; top_object_groups: textile (188); costume and accessories (75); arms and armour (60); ceramics (48); tool and implement (31); top_periods: 20th century (210); 19th century (99); 1st century (1); named_makers: M. Azulina Zulu (9); A. Neke (3); Unobadula (1); Triphina Gumede (South African) (1); Nestar Xaba (1); Alexina; subregions: Eastern and Southern Africa (458); Africa (unspecified) (2); Central Africa (1)
+42,tradition row,Mughal painting,type folk wikidata; region South Asia; era late; objects 0; evidence: qid: Q1049336; country: Mughal Empire; medium: painting (folk/decorative); status: known; wd_description: particular style of South Asian painting confined to miniatures
+43,tradition row,"British, Staffordshire",type met culture; region Western Europe; era late; objects 318; evidence: parent: british; top_classifications: ceramics (318); timeline_works: 0; begin_median: 1750; aic_objects: 314
+44,tradition row,Khamak embroidery (Kandahar),type folk curated; region Central Asia & Silk Road; era late; objects 0; evidence: aliases: khamak; kandahari embroidery; country: Afghanistan; people: Pashtun; medium: embroidery; status: new
+45,tradition row,Kaqchikel Maya (Cakchiquel),"type smithsonian NMAI; region Mesoamerica & Caribbean; era contemporary; objects 153; evidence: unit: NMAI; top_object_types: Clothing/Garments (67); Clothing/Garments: Headwear and Headdresses (36); Clothing/Garments: Accessories (24);; top_media: Cotton yarn (75); Cotton yarn, embroidery floss (35); Wool yarn (7); begin_median: 1975"
+46,tradition row,probably Central Andes/Central Coast (archaeological) (attributed),"type smithsonian NMAI; region North America (Indigenous); era early; objects 74; evidence: unit: NMAI; top_object_types: Clothing/Garments (31); Bags/Pouches (and parts) (12); Transportation Items (11); Clothing/Garments: Accessori; top_media: Camelid hair yarn, cotton yarn (33); Vegetal Fiber (10); Camelid hair yarn (10); begin_median: 600"
+47,tradition row,Kim Hoang and Lang Sinh prints,type gap seed_node; region Southeast Asia; era late; objects 0; evidence: qid: Q6408739; qid_label: Tranh Kim Hoàng; qid_description: genre of Vietnamese woodcut paintings; medium: prints; era_nominal: 1700..2000
+48,tradition row,Lusona,type folk wikidata; region Sub-Saharan Africa; era late; objects 0; evidence: qid: Q60742901; aliases: Sona; sona; country: Angola; people: Chokwe people; medium: other; status: new; ich_designation: Representative List of the Intangible Cultural Heritage of Humanity; wd_description: drawings and geometric figures on sand of the Lunda Cokwe and neighbouring peoples in eastern Angola
+49,tradition row,Bamana,type culture; region Sub-Saharan Africa; era modern; objects 144; evidence: culture_group: Bamana; top_object_groups: mask (37); costume and accessories (31); sculpture (23); textile (14); arms and armour (11); top_periods: 20th century (63); 19th century (29); 18th century (3); Colonial (2); named_makers: Djege Coulibaly (7); Djotene Tarawale (2); Nakunte Diarra (2); Bacho Tarawale (2); Guanese Tanawale (1); Fugan; subregions: West Africa (143); Central Africa (1)
+50,architecture style,English Baroque,Wikidata architectural style item
+51,architecture style,Rascian architecture,Wikidata architectural style item
+52,architecture style,Ek-ratna,Wikidata architectural style item
+53,architecture style,Delftse School,Wikidata architectural style item
+54,architecture style,Art Nouveau architecture,Wikidata architectural style item
+55,architecture style,châteauesque,Wikidata architectural style item
+56,architecture style,nagaya,Wikidata architectural style item
+57,architecture style,Maximilianstil,Wikidata architectural style item
+58,architecture style,neo-Mudéjar,Wikidata architectural style item
+59,architecture style,Biedermeier,Wikidata architectural style item
+60,artist,Sandra Gamarra,born 1972; medium painting; region South America; movements: 
+61,artist,Bonifazio Veronese,born 1487; medium painting; region Western Europe; movements: 
+62,artist,Peter Hansen,born 1868; medium painting; region Western Europe; movements: 
+63,artist,Julie Doucet,born 1965; medium visual art (unspecified); region North America (settler); movements: 
+64,artist,Bikki Sunazawa,born 1931; medium painting; region China; movements: 
+65,artist,Oskar Andersson,born 1877; medium drawing and illustration; region Western Europe; movements: 
+66,artist,Papa Ibra Tall,born 1935; medium painting; region Sub-Saharan Africa; movements: 
+67,artist,Renato Birolli,born 1905; medium painting; region Western Europe; movements: 
+68,artist,Luis Tristán,born 1586; medium painting; region Western Europe; movements: 
+69,artist,Hadar Jönzén,born 1885; medium painting; region Western Europe; movements: 
+70,artist,Boris Korolev,born 1885; medium sculpture; region Western Europe; movements: realism
+71,artist,Charles Joseph Hullmandel,born 1789; medium printmaking; region Western Europe; movements: 
+72,artist,Martin Guillaume Biennais,born 1764; medium design and decorative arts; region Western Europe; movements: 
+73,artist,Master of the Rimini Crucifixion,born 1350; medium sculpture; region Western Europe; movements: 
+74,artist,Peter Janssen,born 1844; medium painting; region Western Europe; movements: 
+75,artist,Henri Vidal,born 1864; medium sculpture; region Western Europe; movements: 
+76,artist,Bob Cato,born 1923; medium design and decorative arts; region North America (settler); movements: 
+77,artist,Chris Steele-Perkins,born 1947; medium photography; region Western Europe; movements: 
+78,artist,Thomas Burke,born 1749; medium printmaking; region Western Europe; movements: 
+79,artist,Giuseppe Pellizza da Volpedo,born 1868; medium painting; region Western Europe; movements: divisionism|Symbolism
+80,artist,Roy Kiyooka,born 1926; medium painting; region North America (settler); movements: 
+81,artist,Billy Name,born 1940; medium photography; region North America (settler); movements: 
+82,artist,Gedi Sibony,born 1973; medium painting; region North America (settler); movements: 
+83,artist,Šarūnas Sauka,born 1958; medium painting; region Western Europe; movements: Postmodernism
+84,artist,Vibeke Tandberg,born 1967; medium photography; region Western Europe; movements: 
+85,artist,William Finden,born 1787; medium printmaking; region Western Europe; movements: 
+86,artist,Elmer Batters,born 1919; medium photography; region North America (settler); movements: 
+87,artist,Achraf Touloub,"born 1986; medium visual art (unspecified); region Islamic world (MENA, Iran, Anatolia); movements: "
+88,artist,Hermanus Koekkoek,born 1815; medium painting; region Western Europe; movements: 
+89,artist,Pello Irazu,born 1963; medium sculpture; region Western Europe; movements: 
+90,artist,Mari Mahr,born 1941; medium photography; region South America; movements: 
+91,artist,Elaheh Mohammadi,"born 1987; medium photography; region Islamic world (MENA, Iran, Anatolia); movements: "
+92,artist,Paola Agosti,born 1947; medium photography; region Western Europe; movements: 
+93,artist,Shirana Shahbazi,"born 1974; medium street art and muralism; region Islamic world (MENA, Iran, Anatolia); movements: contemporary art"
+94,artist,Merlin Carpenter,born 1967; medium painting; region Western Europe; movements: contemporary art
+95,artist,Mehdi Moutashar,"born 1943; medium visual art (unspecified); region Islamic world (MENA, Iran, Anatolia); movements: "
+96,artist,Mary Lucier,"born 1944; medium video, new media and digital; region North America (settler); movements: "
+97,artist,Mario Bellini,born 1935; medium architecture; region Western Europe; movements: 
+98,artist,Pauline Baynes,born 1922; medium drawing and illustration; region Western Europe; movements: 
+99,artist,José Manuel Ballester,born 1960; medium painting; region Western Europe; movements: 
