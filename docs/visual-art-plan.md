@@ -194,6 +194,18 @@ The AAT columns in the tradition and architecture outputs stay empty. If the tax
   - **Thin cells for the audit:** Goguryeo, Balhae, Gaya and Korean Neolithic; Xin, Qin and Xi Xia.
   - **Unreachable:** NPM bulk dumps (connection reset; the other categories enter as counts only) and the Korea API (needs a data.go.kr key).
 
+- **Africa/Oceania targeted sweep** (`pipelines/regional/africa_oceania_targeted.py`; Mia, Penn Museum bulk CSV, Te Papa, Yale LUX capped at the 5,300 cached items):
+  - **Africa: 19,105 objects, 210 cultures** (was 1,557). **Oceania: 32,412 objects, 82 cultures** (was 104).
+  - Of the 230 culture keys, 166 were already known from the Met, the Smithsonian or the earlier sweep. About 40–50 are genuinely new nodes: Aboriginal Australian schools (Arnhem Land, Western Desert, Kimberley, Tiwi, Arrernte), Māori iwi and Moriori, East African groups (Kikuyu, Kalenjin, Karamojong, Gurage), and Micronesia.
+  - Unreachable: Auckland Museum (bot challenges, so stopped per the rules), Brooklyn (needs a key), quai Branly, NGA Australia, AGNSW (robots.txt blocks Claude).
+
+**Decided (2026-10-28): gathering scope is nodes plus evidence, not object completeness.** The taxonomy lists traditions and artists, each with the collections and databases that hold their work and a few representative works. It does not list every object. Object-level harvesting only serves to:
+1. discover nodes (traditions, schools, named makers) not yet captured;
+2. measure prominence (object counts, number of holding institutions);
+3. point to where the work lives.
+
+**A source is complete once it stops adding nodes.** After that, aggregates are enough. Applied here: the Yale harvest was stopped at 5,300 of 23,030 items, since its holdings overlap known cultures.
+
 ### 2.2 Gathering exit criterion: coverage audit (decided 2026-10-28)
 Node creation happens in the classifying stage. Gathering must hand it **evidence for every region at the level that region records**, so that no non-Western tradition drops out because it lacks artist names.
 - **Grid:** before gathering closes, build a region × period audit grid. Per cell, it counts:
