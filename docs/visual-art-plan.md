@@ -354,6 +354,13 @@ Wikidata is therefore a good **candidate pool and ID crosswalk**, but weak as a 
   - 104 list artists resolved to Wikidata people with no art occupation (a poet, a researcher, Franz Boas) are kept as list-only names, not under the wrong QID.
   - Consumer categories that the metrics under-count (§3.4) get hand-curated includes in `seeds/visual-art/contemporary_manual_includes.csv`, starting with Beeple; add others as review finds them.
 
+### 3.1d Fixes to the selection (decided 2026-10-28, in progress)
+- **Movement guarantee:** every post-1945 art movement with at least 3 pool members keeps its top members by holdings (max(3, 15% of members), capped at 15), so movements whose members are individually modest (Mono-ha, Dansaekhwa, Neo-Concretism, Political Pop, Black Arts Movement, Superflat, ...) are not reduced to one or two names.
+- **Attention route:** the top 2% of each region by pageviews are included when they are primarily artists (art_occ_share ≥ 0.5). This catches cult and popular artists that museum signals under-count (lowbrow, fantasy illustration, street art).
+- **Market-record check:** an Artnet/Artsy/Artprice/MutualArt record counts only with at least one independent signal (museum, ULAN/Tate/MoMA, list, award, 5+ sitelinks or above-median regional pageviews), against vanity and minor-auction listings.
+- **Modern cutoff:** chosen after reviewing samples of the marginal artists at 80%, 85% and 90% reference recall, so the modern pass does not drift into "everyone who painted".
+- **Pre-1400 (decided):** the era-model selection (about 1,190 of 1,500) is taken, cleaned of literati with no art holdings, vase "Groups" and "Classes" (kept as workshop evidence), and with sculpture ranked before painting.
+
 ### 3.2 Signals and sources
 
 | Signal | Source | Access | What it captures |
