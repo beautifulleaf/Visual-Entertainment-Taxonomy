@@ -2,7 +2,7 @@
 
 You place each title in one leaf of the Film & Television tab. Read the leaf file for your batch first:
 - `anime_NN.csv` → `taxonomy/series/review/anime_leaves.txt` (family E, key, leaves, AN1–AN4)
-- `tv_NN.csv` → `taxonomy/series/review/tv_leaves.txt` (families C and D, keys, leaves, TV1–TV5)
+- `tv_NN.csv` and `drama_NN.csv` → `taxonomy/series/review/tv_leaves.txt` (families C and D, keys, leaves, TV1–TV5)
 - `unscripted_NN.csv` → `taxonomy/series/review/unscripted_leaves.txt` (family G)
 
 Columns. Anime: id (MAL), title, english, type (format), year, episodes, country, is_adult, studio, genres (AniList/MAL),

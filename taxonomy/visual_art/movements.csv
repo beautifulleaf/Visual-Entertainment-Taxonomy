@@ -1,0 +1,676 @@
+qid,label,n,median_birth,media,regions,reference,types,examples
+Q186030,contemporary art,340,1958,"painting 203; sculpture 57; photography 45; installation, performance and conceptual 14","Western Europe 213; North America (settler) 71; Islamic world (MENA, Iran, Anatolia) 15",modern_pool,art movement,Cao Fei; Gillian Wearing; Chris Ofili; Cory Arcangel; Yukinori Yanagi
+Q37853,Baroque,303,1622,painting 236; sculpture 66; printmaking 1,Western Europe 302; North America (settler) 1,modern_pool,art movement|style|cultural movement,Christian Seybold; Anton Domenico Gabbiani; Giuseppe Bazzani; Guido Reni; Giovan Battista Ruoppolo
+Q80113,Expressionism,289,1889,painting 284; sculpture 4; visual art (unspecified) 1,Western Europe 254; North America (settler) 15; South America 7,modern_ref,art movement|art style,Christian Kruck; ; Rudi Bierman; Umberto Giangrandi; Allie McGhee
+Q128115,abstract art,238,1925,"painting 149; sculpture 86; street art and muralism 2; installation, performance and conceptual 1",Western Europe 170; North America (settler) 32; South America 16,modern_pool,art movement|style|art style,Christa von Schnitzler; Joost Baljeu; Rebecca H. Quaytman; Simon Starling; Gerson Fehrenbach
+Q10857409,realism,226,1854,painting 211; sculpture 15,"Western Europe 205; North America (settler) 12; Islamic world (MENA, Iran, Anatolia) 5",modern_ref,art movement|art style,Jamie Wyeth; Walton Ford; Oleg Lomakin; Simon Kozhin; Gershon Knispel
+Q40415,Impressionism,219,1862,painting 216; sculpture 2; visual art (unspecified) 1,Western Europe 203; North America (settler) 13; China 1,modern_ref,art movement|art style|painting movement,Simon Kozhin; Ivan Trush; Francisco Manuel Oller; Ioannis Altamouras; Oleksa Novakivsky
+Q164800,Symbolism,210,1864,painting 201; sculpture 6; drawing and illustration 2; photography 1,Western Europe 206; South America 2; North America (settler) 1,modern_ref,art movement|cultural movement,Mihail Chemiakin; Jann Haworth; Nikas Safronov; Jan Ciągliński; Gustavo Adolfo Bécquer
+Q177725,abstract expressionism,191,1920,painting 183; sculpture 4; visual art (unspecified) 2; printmaking 1,"North America (settler) 127; Western Europe 51; Islamic world (MENA, Iran, Anatolia) 4",modern_ref,art movement|painting movement,Luc Leestemaker; John Hultberg; Bernice Bing; McArthur Binion; Minas Avetisyan
+Q42865,Orientalism,176,1842,painting 170; photography 2; sculpture 2; design and decorative arts 2,"Western Europe 166; North America (settler) 8; Islamic world (MENA, Iran, Anatolia) 2",modern_pool,cultural movement,Muhanna Al-Dura; Francesco Beda; Vladimir Borovikovsky; Dmitri Yermakov; Henry William Pickersgill
+Q39427,surrealism,135,1909,painting 115; photography 12; drawing and illustration 3; sculpture 2,Western Europe 94; North America (settler) 17; South America 11,modern_ref,art movement|art style|cultural movement,Arghavan Khosravi; Brent Wong; ; Jacek Yerka; Herr Seele
+Q37068,Romanticism,133,1807,painting 128; sculpture 4; street art and muralism 1,Western Europe 131; South America 1; China 1,modern_pool,art movement|art style|cultural movement,Salvatore Garau; Camille Roqueplan; Henry Fuseli; Taras Shevchenko; Piotr Michałowski
+Q189458,academic art,123,1843,painting 118; sculpture 5,Western Europe 119; North America (settler) 1; Southeast Asia 1,modern_ref,art movement,François-Léon Benouville; Benjamin de Rolland; Henry Inman; Gaspare Landi; Ludovic Alleaume
+Q134147,pop art,103,1936,painting 92; sculpture 3; visual art (unspecified) 3; design and decorative arts 2,Western Europe 48; North America (settler) 44; South America 5,modern_pool,art movement,Christa Dichgans; James Rizzi; Donald Baechler; Robert Gober; Kay Kurt
+Q14378,Neoclassicism,101,1777,painting 82; sculpture 17; printmaking 1; design and decorative arts 1,Western Europe 101,modern_pool,art movement|style|art style,Adolf Ulrik Wertmüller; Marie-Guillemine Benoist; Henry Fuseli; Angelica Kauffmann; Domingos Sequeira
+Q34636,Art Nouveau,99,1865,painting 65; sculpture 22; design and decorative arts 10; printmaking 1,Western Europe 98; South America 1,modern_ref,art movement,Octavian Smigelschi; Alexei Beketov; Maria Yakunchikova; Anne Anderson; Elenore Abbott
+Q166713,Post-impressionism,98,1872,painting 98,Western Europe 92; North America (settler) 3; South America 1,modern_ref,art movement,Georges Emile Lebacq; Sonia Lewitska; Félix Vallotton; János Thorma; Fernand Piet
+Q2642826,French Realism,93,1857,painting 87; sculpture 4; photography 2,Western Europe 86; North America (settler) 5; South America 2,modern_pool,style|painting movement,Augusto Ferrer-Dalmau; Alexander Rukavishnikov; Bo Bartlett; Jean Arcelin; Gracia Barrios
+Q1246516,feminist art,86,1940,"painting 50; photography 22; sculpture 7; video, new media and digital 3","North America (settler) 47; Western Europe 30; Islamic world (MENA, Iran, Anatolia) 2",modern_pool,art movement,Fina Miralles Nobell; Lene Adler Petersen; Kim Dingle; Sarah Charlesworth; Andrea Bowers
+Q203209,conceptual art,81,1946,"painting 50; sculpture 10; photography 8; installation, performance and conceptual 5",Western Europe 39; North America (settler) 31; China 5,modern_ref,art movement,David Bainbridge; Latifa Echakhch; Terry Allen; Félix González-Torres; Jeppe Hein
+Q42934,cubism,76,1888,painting 75; visual art (unspecified) 1,Western Europe 60; North America (settler) 7; Southeast Asia 3,modern_ref,art movement|art style|painting movement,Max Jacob; André Derain; Francis Picabia; Alexander Bogomazov; Maurice de Vlaminck
+Q878985,modernism,74,1903,painting 63; sculpture 4; architecture 3; photography 2,Western Europe 44; North America (settler) 9; South America 8,modern_pool,art movement|cultural movement,Georgeta Năpăruș; Nairy Baghramian; Jeena Shin; Leonor Antunes; Adrian Ghenie
+Q184814,Pre-Raphaelite Brotherhood,73,1832,painting 70; sculpture 2; visual art (unspecified) 1,Western Europe 73,modern_pool,art movement|style|art group,Walter Deverell; Lucy Madox Brown; Alexa Wilding; Fanny Cornforth; Anna Mary Howitt
+Q131808,Mannerism,72,1535,painting 66; sculpture 6,Western Europe 72,modern_pool,art movement|style|art style|cultural movement,Giovanni Battista Caccini; Cristoforo Roncalli; Cornelis Ketel; Jacopo Ligozzi; Lambert Sustris
+Q122960,Rococo,56,1704,painting 49; sculpture 5; design and decorative arts 1; printmaking 1,Western Europe 56,modern_pool,art style,Jean-Honoré Fragonard; François Boucher; Giovanni Antonio Canal; Jean-Antoine Watteau; Giovanni Battista Tiepolo
+Q173782,Art Deco,54,1887,painting 27; sculpture 19; design and decorative arts 5; architecture 2,Western Europe 49; North America (settler) 3; South America 2,modern_ref,art movement|art style,Marcel Gaumont; Jean Dunand; Paul Follot; Miksa Róth; Claire Colinet
+Q273506,School of Paris,53,1901,painting 52; sculpture 1,Western Europe 50; China 1; South America 1,modern_ref,art movement|art group,Dikos Vizantios; André Cottavoz; Bernard Quentin; Jean-Pierre Alaux; Roger Mühl
+Q1989975,Nihonga,51,1880,painting 50; printmaking 1,China 51,modern_ref,painting movement,Ikuo Hirayama; Fukuda Kōko; Denbu Takuno; Kōgyū Mizuta; Seitō Fukuda
+Q4692,Renaissance,49,1465,painting 36; sculpture 13,Western Europe 49,modern_pool,art movement|cultural movement,Giovanni della Robbia; Giorgio Vasari; Stanisław Samostrzelnik; Tullio Lombardo; Jan Wellens de Cock
+Q55995,Naturalism,46,1852,painting 46,Western Europe 46,modern_ref,art movement|art style,John James Audubon; Prosper Marilhat; João Vaz; Édouard Joseph Dantan; Mosè Bianchi
+Q108908,Fluxus,44,1933,"painting 24; drawing and illustration 9; installation, performance and conceptual 5; visual art (unspecified) 2",Western Europe 18; North America (settler) 15; China 8,modern_ref,art movement|art group,Dick Higgins; Joe Jones; Lotty Rosenfeld; Maria Eichhorn; Yoshi Wada
+Q143357,Barbizon school,41,1823,painting 41,Western Europe 40; North America (settler) 1,modern_ref,art movement|art group,Elisabeth von Eicken; Karl Bodmer; Charles Jacque; Jean-Baptiste Camille Corot; Karl Daubigny
+Q382056,Pont-Aven School,39,1860,painting 39,Western Europe 38; North America (settler) 1,modern_pool,art movement,Paul Sébillot; Maxime Maufra; Charles Filiger; Henry Moret; Mogens Ballin
+Q1332178,Sienese school,38,1347,painting 38,Western Europe 38,,,Matteo di Giovanni; Sano di Pietro; Ventura Salimbeni; Neroccio di Bartolomeo de' Landi; Rutilio di Lorenzo Manetti
+Q1232633,Hague School,38,1837,painting 38,Western Europe 38,modern_ref,art movement|art group,Sina Mesdag-van Houten; Willem Roelofs; Matthijs Maris; Gerard Bilders; Johan Hendrik Weissenbruch
+Q173436,Minimalism,35,1937,"painting 28; sculpture 5; street art and muralism 1; installation, performance and conceptual 1",North America (settler) 27; Western Europe 5; South America 2,modern_pool,art movement,Félix González-Torres; Fred Sandback; ; Peter Halley; Jack Goldstein
+Q170292,Classicism,35,1731,painting 26; sculpture 9,Western Europe 35,modern_pool,art movement,Giovanni Battista Caccini; Giacomo Quarenghi; Józef Oleszkiewicz; Claude Lorrain; Charles Le Brun
+Q808561,Baroque painting,35,1618,painting 35,Western Europe 35,modern_pool,painting movement|style of painting,Szymon Czechowicz; Anthony van Dyck; Giuseppe Nicola Nasini; Peter Lely; Vito D'Anna
+Q166593,Fauvism,34,1879,painting 34,Western Europe 31; North America (settler) 2; China 1,modern_ref,art movement|art style,Béla Iványi-Grünwald; Georges Rouault; André Derain; Kees van Dongen; Louis Valtat
+Q38166,modern art,34,1901,painting 33; sculpture 1,"Western Europe 21; Islamic world (MENA, Iran, Anatolia) 5; North America (settler) 4",modern_pool,art movement|art style,Biruta Baumane; Vladimír Novák; Auguste Rodin; Mato Celestin Medović; Frances Hodgkins
+Q843393,mail art,34,1936,painting 21; drawing and illustration 4; sculpture 3; visual art (unspecified) 3,Western Europe 26; South America 5; North America (settler) 1,modern_pool,art movement,Dick Higgins; Dieter Hacker; J.O. Mallander; Edgardo Antonio Vigo; Ruth Wolf-Rehfeldt
+Q131221,Futurism,32,1888,painting 28; sculpture 2; photography 1; drawing and illustration 1,Western Europe 31; South America 1,modern_ref,art movement,Valentine de Saint-Point; Alexander Bogomazov; Giacomo Balla; Filippo Tommaso Marinetti; Joseph Stella
+Q837024,social realism,31,1904,painting 27; photography 3; sculpture 1,North America (settler) 16; Western Europe 11; South America 3,modern_ref,art movement,Jerome Witkin; Gustave Léonard de Jonghe; Laurits Andersen Ring; Alfred Stevens; Joaquín Sorolla
+Q1994273,Flemish Baroque painting,31,1597,painting 31,Western Europe 31,,,Lucas van Valckenborch; Thomas Willeboirts Bosschaert; Gonzales Coques; Osias Beert; Jan Brueghel the Elder
+Q330369,Arts and Crafts movement,30,1863,painting 21; design and decorative arts 7; architecture 2,Western Europe 26; North America (settler) 4,modern_ref,art movement,William Morris; Carl Larsson; Charles Rennie Mackintosh; William De Morgan; Sergey Malyutin
+Q632355,Archaic Greek sculpture,30,-550,vase painting 28; painting 2,Greco-Roman & Byzantine Mediterranean 30,,,Damophilus; Gorgasus; Kachrylion; Pronomos Painter; Lion Painter
+Q1633309,Yōga,29,1874,painting 29,China 29,modern_ref,painting movement,Masaru Nakanishi; Nagahara Kōtarō; Hiromitsu Nakazawa; Kanji Maeta; Ando Nakataro
+Q200034,pointillism,29,1860,painting 29,Western Europe 28; South America 1,modern_ref,painting movement|style of painting,Hulda Guzmán; Hans Olde; Charles Angrand; Paul Signac; Giuseppe Pellizza da Volpedo
+Q6034,Dada,29,1891,painting 26; drawing and illustration 2; photography 1,Western Europe 28; North America (settler) 1,modern_ref,art movement|art style|cultural movement,Francis Picabia; Elsa von Freytag-Loringhoven; Marsden Hartley; George Grosz; Vasile Dobrian
+Q12742313,Tinerimea artistică,29,1879,painting 24; sculpture 5,"Western Europe 28; Islamic world (MENA, Iran, Anatolia) 1",modern_ref,art movement|art group,Cecilia Cuțescu-Storck; Stefan Popescu; Constantin Brâncuși; Apcar Baltazar; Nicolae Vermont
+Q281108,naïve art,28,1896,painting 25; sculpture 2; visual art (unspecified) 1,Western Europe 21; North America (settler) 3; South America 3,modern_ref,art movement,Nino Camardo; Carmézia Emiliano; Claudine Loquen; Edward Hicks; Peter Rindisbacher
+Q207103,Constructivism,28,1894,painting 28,Western Europe 25; North America (settler) 2; South America 1,modern_ref,art movement|style,Carrie Moyer; Kazimir Malevich; Ivan Kliun; Joaquín Torres-García; Gustavs Klucis
+Q943853,Hudson River school,27,1825,painting 27,Western Europe 25; North America (settler) 2,modern_ref,art movement|art group,Harriet Cany Peale; Thomas Cole; Eliza Pratt Greatorex; Louis Rémy Mignot; Albert Bierstadt
+Q102932,avant-garde,27,1897,painting 23; sculpture 3; photography 1,"Western Europe 19; North America (settler) 2; Islamic world (MENA, Iran, Anatolia) 2",modern_pool,art movement,Uri Katzenstein; Ho-Kan; Tamar Getter; Béla Kádár; Dimitrie Paciurea
+Q594150,art brut,27,1910,painting 24; sculpture 3,Western Europe 15; North America (settler) 11; South Asia 1,modern_ref,art movement,Claudine Loquen; Judith Scott; Lonnie Holley; Purvis Young; 
+Q1122677,Catalan modernism,26,1871,painting 18; sculpture 5; architecture 2; photography 1,Western Europe 21; South America 1; North America (settler) 1,modern_ref,art style of an area,Caterina Albert; Lluïsa Vidal; Hermenegildo Anglada Camarasa; Joaquín Mir Trinxet; Miquel Utrillo
+Q2352880,Dutch Golden Age painting,26,1615,painting 26,Western Europe 26,modern_pool,painting movement,Jan van Gool; Egbert van der Poel; Roelant Savery; Frans Hals; Jan Steen
+Q1474884,High Renaissance,25,1486,painting 25,Western Europe 25,,,Antonio Vassilacchi; Antonis Mor; Baldassare Peruzzi; Jean Cousin; Giulio Clovio
+Q47783,Postmodernism,25,1939,painting 16; architecture 6; sculpture 2; street art and muralism 1,Western Europe 11; North America (settler) 8; South America 2,modern_pool,art movement|cultural movement,Mario Botta; Luis Frangella; Odili Donald Odita; Stephen McKenna; Salvatore Garau
+Q2455000,German Renaissance,24,1478,painting 22; sculpture 1; drawing and illustration 1,Western Europe 24,,,Hans von Aachen; Albrecht Altdorfer; Matthias Grünewald; Hans Baldung Grien; Lucas Cranach the Younger
+Q443153,Early Netherlandish painting,23,1430,painting 23,Western Europe 23,,,Jan van Eyck; Hans Memling; Hieronymus Bosch; Hugo van der Goes; Master of the Legend of the Magdalene
+Q19709075,Fine Arts Union,23,1880,painting 19; sculpture 4,Western Europe 23,modern_pool,art group,Cecilia Cuțescu-Storck; Stefan Popescu; Sándor Ziffer; George Demetrescu-Mirea; Gheorghe Petrașcu
+Q3326940,Movimento Arte Concreta,23,1910,painting 19; architecture 2; sculpture 2,Western Europe 22; South America 1,modern_ref,art movement,Roberto Menghi; Marco Zanuso; Gillo Dorfles; Gualtiero Galmanini; Mario Radice
+Q180902,socialist realism,21,1910,painting 17; sculpture 2; drawing and illustration 1; architecture 1,"Western Europe 19; Central Asia & Silk Road 1; Islamic world (MENA, Iran, Anatolia) 1",modern_ref,art movement|art style,Sabir Rakhimovich Adylov; Grigor Khanjyan; Giovanni De Martino; Sergey Timofeyevich Konyonkov; Wojciech Weiss
+Q851869,pictorialism,21,1866,photography 17; painting 4,Western Europe 17; North America (settler) 3; Oceania (Pacific) 1,modern_ref,art movement,Léonard Misonne; Adolph de Meyer; Guido Rey; Paul Bergon; Henry Peach Robinson
+Q105679168,Official Salon of Painting and Sculpture,20,1878,painting 16; sculpture 4,"Western Europe 19; Islamic world (MENA, Iran, Anatolia) 1",modern_pool,art movement|art group,Stefan Popescu; Constantin Brâncuși; George Demetrescu-Mirea; Gheorghe Petrașcu; Jean Alexandru Steriadi
+Q1404472,Italian Renaissance,19,1420,painting 17; sculpture 2,Western Europe 19,,,Lattanzio Gambara; Leon Battista Alberti; Andrea del Verrocchio; Domenico Ghirlandaio; Vincenzo Foppa
+Q55614094,Hurufiyya movement,19,1937,painting 18; book arts 1,"Islamic world (MENA, Iran, Anatolia) 14; Western Europe 3; Sub-Saharan Africa 2",modern_ref,art movement,eL Seed; Lalla Essaydi; Dia Azzawi; Ghada Amer; Farhad Moshiri
+Q829895,Harlem Renaissance,19,1899,painting 13; sculpture 4; photography 2,North America (settler) 16; Western Europe 2; South America 1,modern_ref,art movement|cultural movement,Carl Van Vechten; Meta Vaux Warrick Fuller; Elizabeth Catlett; Laura Wheeler Waring; Charles Alston
+Q221375,Hellenistic art,18,-200,sculpture 16; design and decorative arts 2,Greco-Roman & Byzantine Mediterranean 18,,,Sosus of Pergamon; Dioscorides of Samos; Bryaxis; Epigonus of Pergamum; Eutychides
+Q147516,magic realism,18,1900,painting 18,Western Europe 13; North America (settler) 3; South America 2,modern_ref,art movement,Lodewijk Bruckman; Franz Sedlacek; Hermann Huber; Raoul Hynckes; Dick Ket
+Q576913,Arte Povera,17,1936,painting 13; sculpture 4,Western Europe 17,modern_pool,art movement,Emilio Prini; Irina Zatulovskaya; Gilberto Zorio; Ger van Elk; Rotella
+Q589655,neo-expressionism,17,1940,painting 16; street art and muralism 1,North America (settler) 9; Western Europe 8,modern_ref,art movement|style|art style,Jean-Michel Basquiat; Anselm Kiefer; Fred Bervoets; Julian Schnabel; Hunt Slonem
+Q749832,hyperrealism,17,1939,painting 16; photography 1,Western Europe 11; North America (settler) 4; South America 1,contemp_ref,art movement (subclass),Antoni Taulé; Willem van Veldhuizen; David LaChapelle; Gottfried Helnwein; István Sándorfi
+Q19953536,neo-Pompeian,16,1840,painting 16,Western Europe 16,modern_ref,painting movement,Cesare Maccari; Jean-Léon Gérôme; John William Waterhouse; Luigi Crosio; Lawrence Alma-Tadema
+Q595448,postmodern architecture,16,1935,architecture 13; painting 2; sculpture 1,North America (settler) 9; Western Europe 6; South America 1,modern_pool,subclass,Charles Moore; Daniel Libeskind; Frank Gehry; Robert Venturi; Ricardo Bofill
+Q3314961,Mingei,16,1921,design and decorative arts 12; sculpture 1; painting 1; printmaking 1,China 16,modern_ref,art movement,Takumi Asakawa; Yoshimichi Gōda; Tappo Narui; Fujio Narui; Atsuya Hamada
+Q3578530,Veronese school,16,1498,painting 16,Western Europe 16,,,Domenico Morone; Pietro Rotari; Liberale da Verona; Giovanni Battista Zelotti; Girolamo dai Libri
+Q160218,New Objectivity,15,1893,painting 11; photography 3; sculpture 1,Western Europe 15,modern_ref,art movement|art style,Adolf Dietrich; Karl Blosfeldt; George Grosz; Josep Sala Tarragó; Gerta Overbeck
+Q934618,Danish Golden Age,15,1803,painting 13; sculpture 2,Western Europe 15,modern_pool,cultural movement,Hermann Ernst Freund; Dankvart Dreyer; Christoffer Wilhelm Eckersberg; Christen Købke; Ditlev Blunck
+Q680559,Düsseldorf school of painting,15,1825,painting 15,Western Europe 15,modern_ref,school of painting|art group,Edward Arthur Walton; Julius Roeting; Arthur Kampf; Bengt Nordenberg; Lesser Ury
+Q150091,Neo-impressionism,15,1869,painting 15,Western Europe 15,modern_ref,art movement|art style|painting movement,Jo Koster; Lucie Cousturier; Georges Seurat; Anna Boch; Henri-Edmond Cross
+Q276308,Nouveau réalisme,15,1927,painting 14; visual art (unspecified) 1,Western Europe 13;  1; North America (settler) 1,modern_ref,art movement|art group,Christo and Jeanne-Claude; Rotella; Alberto Burri; Yves Klein; David Hockney
+Q11811815,New Sculpture,15,1856,sculpture 13; painting 2,Western Europe 15,modern_ref,art movement,Edward Onslow Ford; George Frampton; Alfred Drury; Alfred Gilbert; William Goscombe John
+Q182331,op art,14,1929,painting 13; visual art (unspecified) 1,Western Europe 11; North America (settler) 2; South America 1,modern_ref,art movement,Marina Apollonio; Toni Costa; Eduardo Nery; M. C. Escher; Victor Vasarely
+Q751880,Japonisme,14,1843,painting 8; design and decorative arts 3; printmaking 2; drawing and illustration 1,Western Europe 14,modern_ref,art movement|cultural movement,Georges Ferdinand Bigot; Camille Moreau-Nélaton; Henri Guérard; Édouard Vuillard; James Tissot
+Q3577783,School of Brussels,14,1925,drawing and illustration 6; visual art (unspecified) 6; painting 2,Western Europe 14,modern_pool,art movement,François Craenhals; Dupa; Franz Drappier; Bob de Moor; Fred Funcken
+Q273470,Marcinelle school,14,1930,drawing and illustration 8; visual art (unspecified) 3; design and decorative arts 1; painting 1,Western Europe 14,modern_pool,artistic school,Will; François Walthéry; Jidéhem; Frank Pé; Olivier Grenson
+Q603529,Bloomsbury Group,14,1885,painting 13; printmaking 1,Western Europe 14,modern_ref,art movement,Thoby Stephen; Lytton Strachey; Vanessa Bell; Lady Ottoline Morrell; Roger Fry
+Q1472236,Early Renaissance,13,1397,painting 11; sculpture 2,Western Europe 13,,,Paolo Uccello; Niccolò Antonio Colantonio; Bonifacio Bembo; Donatello; Antonello da Messina
+Q2477787,American Impressionism,13,1861,painting 13,Western Europe 12; North America (settler) 1,modern_ref,painting movement,Lucy Bacon; Pedro Figari; Edward Henry Potthast; Walter Launt Palmer; Colin Campbell Cooper
+Q273495,École de Nancy,13,1863,painting 9; design and decorative arts 3; sculpture 1,Western Europe 12; China 1,modern_ref,art movement,Émile Friant; Louis Majorelle; Émile Gallé; Auguste Daum; Camille Martin
+Q466521,kinetic art,12,1928,painting 10; sculpture 2,"Western Europe 9; North America (settler) 2; Islamic world (MENA, Iran, Anatolia) 1",modern_pool,cultural movement,Jeppe Hein; Toni Costa; Jean Tinguely; Getulio Alviani; Gerhard von Graevenitz
+Q212611,COBRA,12,1922,painting 11; drawing and illustration 1,Western Europe 11; Sub-Saharan Africa 1,modern_ref,art movement|art group,Édouard Jaguer; Else Alfelt; Asger Jorn; Carl-Henning Pedersen; Karel Appel
+Q10822316,concrete art,12,1913,painting 11; sculpture 1,Western Europe 8; South America 4,modern_ref,art movement,Gottfried Honegger; Fritz Glarner; Verena Loewensberg; Regina Cassolo Bracchi; Carol Rama
+Q724976,Ashcan School,12,1870,painting 11; sculpture 1,Western Europe 10; North America (settler) 2,modern_ref,art movement|art group,Ernest Lawson; Jerome Myers; Everett Shinn; William James Glackens; Maurice Prendergast
+Q503708,Les Nabis,12,1867,painting 12,Western Europe 12,modern_ref,art movement,Félix Vallotton; Aristide Maillol; Henri Gabriel Ibels; Mogens Ballin; Édouard Vuillard
+Q378604,new media art,12,1957,"painting 7; visual art (unspecified) 2; installation, performance and conceptual 2; sculpture 1",Western Europe 8; North America (settler) 2; South America 1,modern_pool,art movement,Jaume Plensa; Aleksandar Srnec; Giny Vos; General Idea; Marnix de Nijs
+Q939559,photorealism,12,1936,painting 12,North America (settler) 11; Western Europe 1,modern_pool,art movement,Don Eddy; ; Marcus Amerman; Ron Kleemann; John Salt
+Q1147263,lyrical abstraction,11,1920,painting 11,"Western Europe 6; North America (settler) 3; Islamic world (MENA, Iran, Anatolia) 2",modern_ref,painting movement,David Diao; Pierre Wemaëre; Olivier Debré; Oton Gliha; Pierre Alechinsky
+Q867769,International Gothic,11,1365,painting 11,Western Europe 11,contemp_pool,art movement|art style|art style (subclass)|cultural movement (subclass)|style (subclass),Veit Stoss; Juan Rexach; Master of Saint Veronica; Bernat Martorell; Conrad von Soest
+Q2928221,Nanga,10,1889,painting 10,China 10,modern_ref,painting movement|style of painting,Fukuda Kōko; Denbu Takuno; Kōgyū Mizuta; Seitō Fukuda; Teruhiko Kodama
+Q191970,Suprematism,10,1889,painting 10,Western Europe 10,modern_ref,art movement|artistic school,Kazimir Malevich; Ivan Kliun; El Lissitzky; Ilya Chashnik; Lazar Khidekel
+Q1136545,Costumbrismo,10,1844,painting 10,Western Europe 9; South America 1,modern_ref,art movement,Édouard Pingret; Dionisio Fierros; José Villegas Cordero; Manuel Rodríguez de Guzmán; Mariano Barbasán Lagueruela
+Q369418,hard-edge painting,10,1917,painting 10,North America (settler) 8; Western Europe 1; South America 1,modern_ref,art movement,Neil Williams; Fritz Glarner; Carmen Herrera; Lorser Feitelson; John McLaughlin
+Q57173928,abject art,10,1953,painting 5; photography 2; sculpture 2; visual art (unspecified) 1,Western Europe 6; North America (settler) 4,modern_pool,art movement,Robert Gober; Paul McCarthy; Cindy Sherman; Sarah Lucas; Kiki Smith
+Q1054254,Informalism,10,1919,painting 10,Western Europe 10,modern_ref,art movement,Jean Dubuffet; François Stahly; Jean Fautrier; Maria Lassnig; Guillermo Silveira
+Q15838173,Regionalism,10,1896,painting 10,North America (settler) 9; Western Europe 1,modern_ref,art movement,Joseph Paul Vorst; Edna Reindel; Joseph Fleck; Osvaldo Louis Guglielmi; Grant Wood
+Q51845944,Arta română Society,10,1881,painting 8; sculpture 2,Western Europe 10,,,Jean Alexandru Steriadi; Dimitrie Paciurea; Theodor Pallady; Camil Ressu; Ion Theodorescu-Sion
+Q60853744,French School,9,1809,painting 9,Western Europe 9,modern_ref,school of painting,Benjamin de Rolland; Victor-Augustin Michel; Henri Rondel; Joseph Nicolas Jouy; Constantin Jean Marie Prevost
+Q124354,Bauhaus,9,1900,painting 5; photography 3; design and decorative arts 1,Western Europe 7; North America (settler) 2,modern_ref,art movement,Paul Klee; Wassily Kandinsky; Gertrud Arndt; Lucia Moholy; Oskar Schlemmer
+Q516316,Young British Artists,9,1965,"painting 5; sculpture 2; installation, performance and conceptual 1; photography 1",Western Europe 8; Oceania (Pacific) 1,modern_pool,art movement|art group,Douglas Gordon; Tracey Emin; Damien Hirst; Marc Quinn; Jenny Saville
+Q16064885,art of Classical Greece,9,-450,vase painting 8; sculpture 1,Greco-Roman & Byzantine Mediterranean 9,,,Achilles Painter; Loebbecke Painter; M Potter; Aison; Varrese Painter
+Q1164982,Color Field,9,1915,painting 9,North America (settler) 5; Western Europe 2; South America 1,modern_ref,art movement,Carrie Moyer; Gretchen Albrecht; Paul Klee; Friedel Dzubas; Frank Bowling
+Q7148372,Pattern and Decoration,9,1942,painting 7; sculpture 2,North America (settler) 9,modern_pool,art movement,Tina Girouard; Cynthia Carlson; Joyce Kozloff; Robert Kushner; Thomas Lanigan-Schmidt
+Q1578378,Precisionism,9,1891,painting 9,North America (settler) 8; Western Europe 1,modern_ref,art movement|painting movement,Joseph Stella; Miklos Suba; Osvaldo Louis Guglielmi; Stefan Hirsch; Francis Criss
+Q848365,primitivism,9,1898,painting 6; sculpture 2; street art and muralism 1,Western Europe 7; North America (settler) 2,modern_ref,art movement|art style,Jean-Michel Basquiat; Henri Rousseau; Paul Gauguin; Wladimir Burliuk; Henry Moore
+Q5095653,Chicago Imagists,9,1940,painting 8; drawing and illustration 1,North America (settler) 9,modern_pool,art movement|artist collective,Roger Brown; ; Sarah Anne Canright; ; Barbara Rossi
+Q610877,Northern Renaissance,8,1498,painting 8,Western Europe 8,,,Jan van Eyck; Ambrosius Holbein; Hieronymus Bosch; Hans Eworth; Pieter Brueghel the Elder
+Q263985,romantic nationalism,8,1865,painting 8,Western Europe 8,modern_ref,art style,Pekka Halonen; Eero Järnefelt; Väinö Blomstedt; Akseli Gallen-Kallela; Rihards Zariņš
+Q2405999,fairy painting,8,1813,painting 8,Western Europe 8,modern_ref,art movement,Henry Fuseli; ; William Blake; Arthur Rackham; Richard Doyle
+Q695830,Viennese Actionism,8,1938,painting 7; sculpture 1,Western Europe 7; South America 1,modern_ref,art movement,Dennis Oppenheim; Stuart Brisley; Valie Export; Arnulf Rainer; Hermann Nitsch
+Q1401605,Russian avant-garde,8,1885,painting 8,Western Europe 8,modern_ref,art movement,Kazimir Malevich; Ivan Kliun; Alexei Morgunov; Vera Ermolaeva; Aleksandra Ekster
+Q174988,Thirties Generation,8,1899,painting 8,"Western Europe 7; Islamic world (MENA, Iran, Anatolia) 1",modern_ref,art movement,Konstantinos Parthenis; Giorgos Gounaropoulos; Yannis Tsarouchis; Nikos Hadjikyriakos-Ghikas; George Bouzianis
+Q1255562,Glasgow School,8,1862,painting 8,Western Europe 8,modern_ref,art movement,Elizabeth MacNicol; Thomas Millie Dow; Joseph Crawhall; James Paterson; Ann Macbeth
+Q4745527,American realism,8,1876,painting 7; sculpture 1,Western Europe 4; North America (settler) 4,modern_ref,art movement,William James Glackens; Cecilia Beaux; Charles Herbert Woodbury; Olin Levi Warner; George Bellows
+Q2478178,Umbrian school,8,1435,painting 8,Western Europe 8,,,Fiorenzo di Lorenzo; Timoteo Viti; Melozzo da Forlì; Pietro Perugino; Benedetto Bonfigli
+Q2394116,postminimalism,8,1941,painting 5; sculpture 3,North America (settler) 6; Western Europe 2,modern_pool,art movement,Bruce Nauman; Keith Sonnier; Keith Milow; ; Richard Tuttle
+Q46825,Gothic art,8,1276,sculpture 5; painting 3,Western Europe 8,modern_pool,art movement,Carlo Crivelli; Master E. S.; Arnolfo di Cambio; Lupo di Francesco; Nicola Pisano
+Q765606,Orientalist painting,8,1834,painting 8,Western Europe 7; North America (settler) 1,modern_ref,painting movement,Charles Gleyre; Hans Makart; Édouard Riou; Arthur Melville; Jules Migonney
+Q574985,Macchiaioli,7,1838,painting 7,Western Europe 6; Oceania (Pacific) 1,modern_pool,art movement|art group,Odoardo Borrani; Giuseppe Abbati; Raffaello Sernesi; Giovanni Boldini; Niccolò Cannicci
+Q207445,De Stijl,7,1886,painting 6; architecture 1,Western Europe 5; North America (settler) 2,modern_ref,art movement|art group,Piet Mondrian; Jean Arp; Theo van Doesburg; Gerrit Rietveld; Gino Severini
+Q993247,Európai Iskola,7,1900,painting 7,Western Europe 7,modern_ref,art movement,Ödön Márffy; Dezső Korniss; Jenő Barcsay; Étienne Hajdú; József Egry
+Q115688756,Rationalism of Lake Como,7,1898,painting 6; architecture 1,Western Europe 7,modern_ref,art movement,Gianemilio Monti; Ennio Morlotti; Mario Radice; Luigi Zuccoli; Manlio Rho
+Q326478,land art,7,1935,painting 7,North America (settler) 4; Western Europe 3,modern_pool,art movement,Michael Heizer; Agnes Denes; Nils-Udo; Christo; Walter De Maria
+Q271834,Archaic Greece,7,-550,vase painting 7,Greco-Roman & Byzantine Mediterranean 7,,,Carpenter Painter; Psiax; Phintias; Euphronios; Dikaios Painter
+Q319973,Munich school,7,1846,painting 7,Western Europe 7,modern_ref,art movement,Nikiforos Lytras; Ludwig von Herterich; Hermann Kaulbach; Georgios Roilos; Nikolaos Gyzis
+Q208208,Vienna Secession,7,1870,painting 5; sculpture 2,Western Europe 7,modern_pool,art movement|art group,Gustav Gurschner; Emilie Mediz-Pelikan; Teresa Feoderovna Ries; Frederic Storck; Emil Orlík
+Q2487023,divisionism,7,1869,painting 7,Western Europe 7,modern_ref,style of painting,Giuseppe Pellizza da Volpedo; Vittore Grubicy de Dragon; Henri Matisse; Gaetano Previati; Hermann Huber
+Q2268037,Neo-figurative,7,1932,painting 5; drawing and illustration 1; sculpture 1,South America 4; Western Europe 2; North America (settler) 1,modern_pool,art movement,Gaston Orellana; Leonel Góngora; Richard MacDonald; Mario Bardi; Jorge Demirjian
+Q422681,Nazarene movement,7,1793,painting 7,Western Europe 7,modern_pool,art movement|art group,Johann Friedrich Overbeck; Ludwig Vogel; Philipp Veit; Melchior Paul von Deschwanden; Johann Michael Wittmer
+Q397469,Neo-romanticism,7,1898,painting 5; street art and muralism 1; photography 1,Western Europe 6; North America (settler) 1,modern_ref,art movement,Salvatore Garau; Justine Kurland; Christian Skredsvig; Giuseppe Palizzi; Pavel Tchelitchew
+Q65939509,British black arts movement,7,1959,"painting 6; installation, performance and conceptual 1",Western Europe 4; South Asia 1; South America 1,modern_pool,art movement,Claudette Johnson; Denzil Forrester; Donald Rodney; Keith Piper; Lubaina Himid
+Q372600,Tachisme,7,1910,painting 7,Western Europe 7,modern_ref,painting movement|style of painting,Marie Raymond; Jacques Hérold; André Lanskoy; Pierre Alechinsky; Emilio Scanavino
+Q3079516,Kei school,7,1184,sculpture 7,China 7,contemp_pool,art style|artistic school|style (subclass)|art movement (subclass)|art group (subclass),Unkei; Tankei; Kōkei; Jōkei; Kaikei
+Q7971736,Washington Color School,7,1920,painting 7,North America (settler) 7,modern_ref,art movement,Kenneth Victor Young; Willem de Looper; Leon Berkowitz; Alma Thomas; Morris Louis
+Q610687,Venetian school,7,1490,painting 7,Western Europe 7,,,Jacopo Bassano; Titian; Giovanni Battista Cima da Conegliano; Giorgione; Jacopo Tintoretto
+Q3381582,humanistic photography,6,1916,photography 5; painting 1,Western Europe 6,contemp_pool,,Chris Killip; Léon Herschtritt; Henri Cartier-Bresson; Nora Dumas; Willy Ronis
+Q2046861,Palaeologan Renaissance,6,1300,painting 6,Western Europe 6,,,Theodore Apsevdis; Nikolaos Lampoudis; Nikolaos Philanthropinos; Manuel Panselinos; Georgios Kalliergis
+Q11050078,Lingnan School,6,1907,painting 6,China 6,modern_ref,art movement|artistic school,Guanshan Yue; Lai Ming; Situ Qiao; Gao Qifeng; Gao Jianfu
+Q213457,Beat Generation,6,1926,photography 3; painting 3,North America (settler) 5; Western Europe 1,modern_pool,subclass,Jeff Nuttall; Ira Cohen; William S. Burroughs; Allen Ginsberg; Sheri Martinelli
+Q17516,street art,6,1973,street art and muralism 4; painting 2,Western Europe 4; North America (settler) 2,contemp_ref,art movement|art style (subclass)|cultural movement (subclass),Dmitry Levochkin; eL Seed; Invader; Cyril Kongo; Swoon
+Q558276,Art & Language,6,1942,painting 5; sculpture 1,Western Europe 4; Oceania (Pacific) 1; North America (settler) 1,modern_pool,artist collective|art group,David Bainbridge; Michael Baldwin; Mel Ramsden; Joseph Kosuth; Terry Atkinson
+Q3562740,Volcano school,6,1852,painting 6,Western Europe 5; Oceania (Pacific) 1,modern_ref,art movement,Constance Gordon-Cumming; Jules Tavernier; Lionel Walden; Titian Peale; D. Howard Hitchcock
+Q2316866,geometric abstraction,6,1925,painting 6,North America (settler) 3; Western Europe 2; South America 1,modern_ref,art movement,Allie McGhee; Max Bill; Fritz Glarner; Carmen Herrera; Ronald Davis
+Q994776,brutalist architecture,6,1923,architecture 3; painting 2; sculpture 1,Western Europe 5; North America (settler) 1,modern_pool,subclass,Ulrich Franzen; Juliaan Lampens; Georgi Konstantinovski; Le Corbusier; Walter Förderer
+Q1786363,Tonalism,6,1851,painting 6,Western Europe 5; Oceania (Pacific) 1,modern_ref,art movement,William Keith; Dwight William Tryon; Granville Redmond; Frederic Marlett Bell-Smith; L. Birge Harrison
+Q3577822,Bay Area Figurative Movement,6,1922,painting 6,North America (settler) 6,modern_ref,art movement,; Manuel Neri; David Park; Richard Diebenkorn; Joan Brown
+Q3032335,Heidelberg School,6,1855,painting 6,Western Europe 5; Oceania (Pacific) 1,modern_ref,art movement,Tom Roberts; Julian Ashton; Walter Withers; Arthur Streeton; Frederick McCubbin
+Q915841,vorticism,6,1887,painting 6,Western Europe 6,modern_ref,art movement,Edward Wadsworth; Jessica Dismorr; Frederick Etchells; David Bomberg; Henri Gaudier-Brzeska
+Q1307909,ligne claire,6,1922,drawing and illustration 4; architecture 1; visual art (unspecified) 1,Western Europe 5; Sub-Saharan Africa 1,modern_ref,art movement|art style,Jan Van Der Veken; Marvano; Jacques Martin; François Gianolla; Morris
+Q217213,action painting,6,1907,painting 6,"North America (settler) 4; Western Europe 1; Islamic world (MENA, Iran, Anatolia) 1",modern_ref,painting movement|style of painting,Willem de Kooning; Arshile Gorky; Franz Kline; Jackson Pollock; Janet Sobel
+Q2141991,Norwich school of painters,6,1813,painting 6,Western Europe 6,modern_pool,art movement|artist collective,Joseph Stannard; James Stark; John Crome; Eloise Harriet Stannard; Frederick Sandys
+Q154432,Biedermeier,6,1807,painting 6,Western Europe 6,modern_pool,art movement,Adalbert Stifter; Georg Friedrich Kersting; Ferdinand von Wright; Ludwig Richter; Miklós Barabás
+Q256922,Aestheticism,6,1853,painting 6,Western Europe 6,modern_ref,art movement,Albert Joseph Moore; Frederic Leighton; Isobel Lilian Gloag; Aubrey Beardsley; James McNeill Whistler
+Q65052354,Q65052354,6,1912,painting 6,China 6,modern_ref,art movement,Fang Ganmin; Wu Dayu; Wu Guanzhong; Lin Fengmian; Zao Wou-Ki
+Q5509243,Funk art,6,1930,painting 5; design and decorative arts 1,North America (settler) 6,modern_pool,art movement,; Roy De Forest; William T. Wiley; Robert H. Hudson; Edward Kienholz
+Q935292,Neo-Dada,6,1932,painting 5; photography 1,North America (settler) 3; China 2; Western Europe 1,modern_pool,art movement|style,Jacques Halbert; Ushio Shinohara; Nam June Paik; Jasper Johns; Robert Rauschenberg
+Q979160,Proto-Renaissance,6,1250,painting 3; sculpture 3,Western Europe 6,,,Grifo di Tancredi; Corso di Buono; Arnolfo di Cambio; Nicola Pisano; Lippo Memmi
+Q519443,Orphism,6,1885,painting 6,Western Europe 6,modern_ref,art movement|style of painting,František Kupka; Sonia Delaunay; Robert Delaunay; Amadeo de Souza Cardoso; Eduardo Viana
+Q4920294,Black Arts Movement,6,1932,painting 5; visual art (unspecified) 1,North America (settler) 6,modern_pool,art movement|cultural movement,Kay Brown; Jeff Donaldson; Claude Clark; Barbara Chase-Riboud; Betye Saar
+Q1159870,Luminism,6,1851,painting 6,Western Europe 6,modern_ref,art movement|school of painting|painting movement|style of painting,Anna De Weert; Ferdinand Hart Nibbrig; Alfred Thompson Bricher; Martin Johnson Heade; David Johnson
+Q3577793,Dakar School,6,1941,painting 6,Sub-Saharan Africa 5; Western Europe 1,modern_ref,art movement,El Hadj Sy; Serigne Mbaye Camara; Théodore Diouf; Iba Ndiaye; Alpha Walid Diallo
+Q62090257,Q62090257,6,1863,painting 6,Western Europe 5; Oceania (Pacific) 1,modern_ref,art movement,Alfred Guillou; Théophile Deyrolle; Alfred-Victor Fournier; Fernand Le Gout-Gérard; Henri Alphonse Barnoin
+Q545851,process art,6,1940,painting 3; sculpture 3,North America (settler) 4; Western Europe 2,modern_pool,art movement|art style,Keith Sonnier; Jan de Weryha-Wysoczański; Barry Le Va; Ulrich Rückriem; Richard Serra
+Q4745501,American modernism,6,1889,painting 6,North America (settler) 5; Western Europe 1,modern_ref,art movement|cultural movement,Abraham Walkowitz; Georgia O'Keeffe; Arthur Beecher Carles; Charles Green Shaw; Stuart Davis
+Q858436,neorealism,5,1911,painting 5,Western Europe 3; North America (settler) 1; Southeast Asia 1,modern_ref,art movement,Jack Smith; Charles Angrand; Federico Patellani; Edward Hopper; Cesar Legaspi
+Q1378978,Cretan school,5,1465,painting 5,Western Europe 5,,,Onufri; Angelos Akotantos; Michael Damaskinos; Nikolaos Lampoudis; Nikolaos Philanthropinos
+Q185905,ukiyo-e,5,1847,painting 5,China 4; Western Europe 1,modern_pool,art movement,Rin Yamashita; Kobayashi Kiyochika; Utagawa Kuniyoshi; Kōno Bairei; Paul Jacoulet
+Q7252,feminism,5,1948,painting 2; photography 2; sculpture 1,North America (settler) 2; Western Europe 1; South America 1,contemp_pool,,Pipilotti Rist; Cecilia Vicuña; Martha Rosler; Laura Aguilar; 
+Q4774335,anti-clerical art,5,1848,painting 5,Western Europe 5,,,Jehan Georges Vibert; Charles Édouard Delort; Georges Croegaert; Francesco Brunery; Jules Benoit-Lévy
+Q617166,Russian Futurism,5,1886,painting 3; drawing and illustration 2,Western Europe 5,modern_ref,art movement,Vladimir Mayakovsky; Velimir Khlebnikov; Varvara Stepanova; Aleksei Kruchenykh; David Burliuk
+Q62506,Caravaggisti,5,1593,painting 5,Western Europe 5,,,Valentin de Boulogne; Artemisia Gentileschi; Judith Leyster; Nicolas Tournier; Orazio Riminaldi
+Q1622217,figurative art,5,1923,painting 5,"Western Europe 3; Islamic world (MENA, Iran, Anatolia) 1; South America 1",contemp_pool,,Gracia Barrios; Ernst Morgenthaler; Amalia Avia; Godofredo Ortega Muñoz; Hassan El Glaoui
+Q47942,functionalism,5,1891,painting 2; architecture 2; printmaking 1,Western Europe 4; South America 1,modern_ref,subclass,Francis Jourdain; Paul Renner; Jan Wils; Bruno Mathsson; Juan O'Gormann
+Q753683,metaphysical painting,5,1888,painting 5,Western Europe 5,modern_ref,art movement|painting movement,Giorgio de Chirico; Carlo Carrà; Giorgio Morandi; Mario Sironi; Filippo De Pisis
+Q1125039,Post-romanticism,5,1818,painting 5,Western Europe 5,modern_ref,art movement,Gustavo Adolfo Bécquer; Carl Spitzweg; Luis Ricardo Falero; Ludwig Richter; Jean-François Portaels
+Q768100,Lettrism,5,1927,painting 5,Western Europe 4; South America 1,modern_ref,art movement,Roberto Altmann; Isidore Isou; Jan Kubíček; Eduard Ovčáček; Gabriel Pomerand
+Q7060194,Northwest School,5,1906,painting 5,North America (settler) 5,modern_ref,art movement,Morris Graves; Mark Tobey; George Tsutakawa; Guy Anderson; Kenneth Callahan
+Q245188,modern architecture,5,1925,architecture 2; painting 2; sculpture 1,"Western Europe 3; North America (settler) 1; Islamic world (MENA, Iran, Anatolia) 1",modern_pool,subclass,Pierre Sabatier; Richard Rogers; Le Corbusier; Rifat Chadirji; George Fred Keck
+Q3578343,Scuola Romana,5,1902,painting 5,Western Europe 5,modern_ref,art movement,Mario Mafai; Emanuele Cavalli; Antonio Cardile; Antonietta Raphaël; Roberto Melli
+Q847847,synthetism,5,1864,painting 5,Western Europe 5,modern_ref,painting movement,Charles Filiger; Émile Bernard; Paul Sérusier; Paul Gauguin; Ion Theodorescu-Sion
+Q889525,cloisonnism,5,1861,painting 5,Western Europe 5,modern_ref,art movement,Meijer de Haan; Émile Bernard; Louis Anquetin; Paul Sérusier; Paul Gauguin
+Q11498107,Golden Age of Illustration,5,1882,painting 5,Western Europe 4; North America (settler) 1,modern_ref,cultural movement,Arthur Rackham; Gustave Doré; Edmund Dulac; Harry Clarke; N. C. Wyeth
+Q1628039,Utrecht Caravaggism,5,1592,painting 5,Western Europe 5,,,Gerard van Honthorst; Abraham Bloemaert; Dirck van Baburen; Hendrick ter Brugghen; Jacob Gerritsz. Cuyp
+Q584084,School of Fontainebleau,5,1521,painting 5,Western Europe 5,,,Francesco Primaticcio; Niccolò dell'Abbate; Martin Fréminet; Toussaint Dubreuil; Antoine Caron
+Q51845707,Arta Society,5,1879,painting 4; sculpture 1,Western Europe 5,,,Cecilia Cuțescu-Storck; Gheorghe Petrașcu; Jean Alexandru Steriadi; Frederic Storck; Camil Ressu
+Q2477112,German Romanticism,4,1776,painting 3; drawing and illustration 1,Western Europe 4,,,Caspar David Friedrich; E. T. A. Hoffmann; Philipp Otto Runge; Bettina von Arnim
+Q1786545,New Vision,4,1894,photography 3; architecture 1,Western Europe 4,modern_ref,art movement,Josep Sala Tarragó; Nora Dumas; Nico de Haas; Adalberto Benítez
+Q115154832,The Castiglioni Method,4,1912,architecture 3; painting 1,Western Europe 4,modern_ref,art movement,Gae Aulenti; Giannino Castiglioni; Livio Castiglioni; Pier Giacomo Castiglioni
+Q1513688,Greek Revival architecture,4,1772,painting 4,Western Europe 4,modern_pool,subclass,William Strickland; Karl Friedrich Schinkel; Nicholas Revett; Benjamin Henry Latrobe
+Q1294605,Jugendstil,4,1868,painting 3; sculpture 1,Western Europe 3; North America (settler) 1,modern_ref,art movement,Hermann Obrist; Gustav Klimt; Erwin Puchinger; Joseph Uhl
+Q60367157,Salon Cubism,4,1882,painting 4,Western Europe 4,modern_pool,art movement,Henri Le Fauconnier; Jean Metzinger; Albert Gleizes; Alexander Archipenko
+Q2096208,Pioneer Group,4,-600,vase painting 4,Greco-Roman & Byzantine Mediterranean 4,modern_pool,art movement|art group,Phintias; Sosias Painter; Smikros; Euthymides
+Q85369440,Q85369440,4,1924,drawing and illustration 2; painting 2,Western Europe 4,modern_ref,art movement,Hec Leemans; Willy Vandersteen; Jef Nys; Marc Sleen
+Q7921371,Verismo,4,1857,painting 2; sculpture 2,Western Europe 4,modern_ref,painting movement,Giuseppe Bertini; Giovanni De Martino; Carlo Bazzi; Achille D’Orsi
+Q160476,German Expressionism,4,1906,painting 3; drawing and illustration 1,Western Europe 3; South America 1,modern_ref,subclass,Gottfried Brockmann; Heinz Kiwitz; Charlotte Lichtblau; Xul Solar
+Q2864738,Art singulier,4,1928,painting 3; sculpture 1,Western Europe 4,modern_ref,art movement,Claudine Loquen; Jean Rosset; Raymond Reynaud; René Moreu
+Q6546135,Light and Space,4,1941,painting 4,North America (settler) 4,modern_pool,art movement,Mary Corse; James Turrell; Peter Alexander; Robert Irwin
+Q55996,naturalism,4,1853,painting 3; photography 1,Western Europe 4,modern_ref,subclass,Simon Hollósy; Joaquín Sorolla; Émile Zola; August Strindberg
+Q1972942,New York School,4,1919,painting 4,North America (settler) 3; Western Europe 1,modern_ref,art group,Joe Brainard; Milton Resnick; Ruth Abrams; Grace Hartigan
+Q2578278,visual poetry,4,1933,painting 2; design and decorative arts 1; photography 1,Western Europe 4,modern_pool,art movement,Ugo Carrega; Ruth Wolf-Rehfeldt; Lamberto Pignotti; Ketty La Rocca
+Q19953535,Victorian painting,4,1847,painting 4,Western Europe 4,modern_pool,painting movement,John Atkinson Grimshaw; William Edward Frost; Henrietta Rae; John William Godward
+Q938864,Mexican muralism,4,1893,painting 4,South America 4,modern_ref,art movement,Diego Rivera; Jesús Guerrero Galván; Xavier Guerrero; Manuel Rodríguez Lozano
+Q557532,Newlyn School,4,1859,painting 4,Western Europe 4,modern_ref,art colony,Norman Garstin; Henry Scott Tuke; Harold Harvey; Frederick Hall
+Q109260,Peredvizhniki,4,1845,painting 4,Western Europe 4,modern_ref,art group,Sofia Kuvshinnikova; Mykola Murashko; Kyriak Kostandi; Alexey Bogolyubov
+Q5898564,Hoosier Group,4,1852,painting 4,Western Europe 3; North America (settler) 1,modern_ref,art movement,J. Ottis Adams; Theodore Clement Steele; William J. Forsyth; Otto Stark
+Q3321083,Mono-ha,4,1943,sculpture 2; painting 2,China 4,modern_pool,art movement,Kishio Suga; Koji Enokura; Nobuo Sekine; Susumu Koshimizu
+Q28401399,Animalier school,4,1840,sculpture 3; painting 1,Western Europe 4,modern_ref,art movement,Emile Guillemin; Alfred Barye; Jules Moigniez; Pierre-Nicolas Tourgueneff
+Q3501275,atom style,4,1951,drawing and illustration 3; painting 1,Western Europe 4,modern_pool,art movement|art style,Yves Chaland; Ever Meulen; Jan Van Der Veken; Lucien De Roeck
+Q3577791,Crozant School,4,1860,painting 4,Western Europe 4,modern_ref,art movement,Eugène Alluaud; Alfred Smith; Gustave Castan; Clémentine Ballot
+Q111726089,Allusive Abstractionists,4,1930,painting 4,North America (settler) 4,modern_pool,art movement|artist collective,Francis Piatek; ; Richard M. Loving; Miyoko Ito
+Q224885,Transavantgarde,4,1945,painting 4,Western Europe 3; South America 1,modern_pool,art movement,Nino Longobardi; Horacio Cordero de Sosa; Sandro Chia; Carol Rama
+Q1886249,straight photography,4,1890,photography 4,North America (settler) 3; Western Europe 1,modern_ref,art movement,Alfred Stieglitz; Berenice Abbott; Imogen Cunningham; Dody Weston Thompson
+Q11784483,Neues Bauen,4,1892,architecture 3; painting 1,Western Europe 3; China 1,modern_ref,subclass,Kazuyo Sejima; Francis Jourdain; Ludwig Mies van der Rohe; Alvar Aalto
+Q430167,Spanish Renaissance,4,1520,sculpture 2; painting 2,Western Europe 4,,,Andrés de Vandelvira; El Greco; Alonso Sánchez Coello; Diego Siloe
+Q4763941,Angry Penguins,4,1918,painting 4,Oceania (Pacific) 4,modern_ref,art movement,Albert Tucker; Sidney Nolan; Arthur Boyd; Joy Hester
+Q86533894,Q86533894,4,1926,painting 3; visual art (unspecified) 1,Western Europe 4,modern_ref,art movement,Pedro Salaberri Zunzarren; Isabel Baquedano; Gerardo Sacristán Torralba; José María Ascunce
+Q3577819,Rouen School,4,1864,painting 4,Western Europe 4,modern_ref,art movement,Albert Lebourg; Eugène Tirvert; Léon-Jules Lemaître; Narcisse Guilbert
+Q2872628,Les Automatistes,4,1919,painting 4,North America (settler) 4,modern_ref,art movement|art group,Fernand Leduc; Paul-Émile Borduas; Marcel Barbeau; Jean Paul Riopelle
+Q3374328,Q3374328,4,1898,painting 4,Western Europe 4,modern_ref,painting movement|art group,Jules Cavaillès; Maurice Brianchon; Raymond Legueult; Roland Oudot
+Q1935489,Scapigliatura,4,1845,painting 4,Western Europe 4,modern_ref,art movement,Tranquillo Cremona; Francesco Filippini; Vespasiano Bignami; Ezechiele Acerbi
+Q17089653,feminist art movement,4,1945,"installation, performance and conceptual 1; visual art (unspecified) 1; sculpture 1; painting 1",North America (settler) 3; South America 1,modern_pool,art movement,Dara Birnbaum; Harmony Hammond; Janine Antoni; May Stevens
+Q54111,Neoclassical architecture,4,1760,painting 3; sculpture 1,Western Europe 4,modern_pool,subclass,Samuel McIntire; Charles de Wailly; Leo von Klenze; Benjamin Henry Latrobe
+Q2984254,Etaples art colony,4,1868,painting 4,North America (settler) 2; Western Europe 2,modern_ref,art colony,Henri Le Sidaner; Max Bohm; Myron G. Barlow; Augustus Koopman
+Q1152966,Ofakim Hadashim,4,1907,painting 3; sculpture 1,"Western Europe 2; Islamic world (MENA, Iran, Anatolia) 2",modern_ref,art movement|art group,Aharon Giladi; Yitzhak Danziger; Yehiel Krize; Yohanan Simon
+Q1580216,Noucentisme,4,1899,painting 3; sculpture 1,Western Europe 4,modern_ref,cultural movement,Joaquín Torres-García; Cristino Mallo; Josep de Togores i Llach; Teresa Condeminas i Soler
+Q845318,high-tech architecture,3,1935,architecture 2; sculpture 1,Western Europe 3,modern_pool,subclass,Norman Foster; Santiago Calatrava; Frei Otto
+Q463382,American Craftsman,3,1874,design and decorative arts 2; painting 1,North America (settler) 2; Western Europe 1,modern_ref,subclass,Anders Hansen Andersen; Joseph Popelka; Anna Nott Shook
+Q258694,Incoherents,3,1854,painting 2; photography 1,Western Europe 3,modern_ref,art movement,Charles Angrand; Émile Cohl; Alphonse Allais
+Q466675,American Renaissance,3,1864,sculpture 2; painting 1,Western Europe 2; North America (settler) 1,modern_ref,art movement,Charles Marion Russell; Daniel Chester French; John A. Wilson
+Q57244244,Black Atlantic,3,1965,painting 3,North America (settler) 2; Western Europe 1,contemp_ref,cultural movement,Chris Ofili; Ellen Gallagher; Glenn Ligon
+Q478742,Amsterdam School,3,1889,architecture 2; design and decorative arts 1,Western Europe 3,modern_ref,subclass,Christiaan Bartels; Conrad Fehn; Joan van der Mey
+Q3347103,neo-pop,3,1966,painting 2; street art and muralism 1,Western Europe 2; South America 1,contemp_ref,art movement|art style (subclass)|cultural movement (subclass),Dmitry Levochkin; Romero Britto; Mr. Brainwash
+Q842183,shin-hanga,3,1883,painting 3,China 3,modern_ref,art movement|art style,Torii Kotondo; Hiroshi Yoshida; Hasui Kawase
+Q17012219,neo-futurism,3,1933,painting 2; design and decorative arts 1,Western Europe 2; North America (settler) 1,modern_pool,art movement|art style,Stefania Lotti; Luc Bestetti; Syd Mead
+Q966571,Byzantine Revival architecture,3,1882,painting 3,Western Europe 2; Oceania (Pacific) 1,modern_pool,subclass,Viktor Hartmann; Ion Theodorescu-Sion; Michael Kmit
+Q2535546,rationalism,3,1909,painting 2; architecture 1,Western Europe 3,modern_ref,subclass,Gianemilio Monti; Gualtiero Galmanini; Gio Ponti
+Q674718,intimism,3,1877,painting 3,Western Europe 3,modern_ref,art movement,Émile Berchmans; Jacques Barcat; Édouard Masson
+Q16934127,Northern Landscape style,3,855,painting 3,China 3,,,Fan Kuan; Guan Tong; Jing Hao
+Q629602,black-figure pottery,3,-600,vase painting 3,Greco-Roman & Byzantine Mediterranean 3,,,Cerameicus Painter; Sappho Painter; Painter of Athens 533
+Q3088366,Romantic painting,3,1838,painting 3,Western Europe 3,modern_ref,painting movement,Dionisio Fierros; Mariano Fortuny Marsal; Costin Petrescu
+Q122459524,Sanur School,3,1915,painting 2; drawing and illustration 1,Southeast Asia 3,modern_ref,art movement,Ida Bagus Nyoman Rai; I Soekarja; Ida Bagus Pegug
+Q335652,parnassianism,3,1838,painting 2; drawing and illustration 1,Western Europe 3,modern_ref,subclass,Léon Dierx; Théophile Gautier; Ernest d'Hervilly
+Q2537632,eclecticism in art,3,1854,painting 1; design and decorative arts 1; sculpture 1,Western Europe 2; South America 1,modern_ref,art style,Auguste Jean; Llorenç Ferrer Martí; Ernesto Tamariz
+Q845421,neoplasticism,3,1891,architecture 2; painting 1,Western Europe 3,modern_ref,art movement|style,Jan Wils; Gerrit Rietveld; Jean Gorin
+Q1295040,Art Nouveau architecture,3,1856,painting 3,Western Europe 3,modern_pool,subclass,Maximilian Messmacher; Josef Fanta; William Walcot
+Q1338153,20th-century classical music,3,1919,architecture 1; painting 1; design and decorative arts 1,Western Europe 2; North America (settler) 1,modern_pool,subclass,Iannis Xenakis; Roman Haubenstock-Ramati; John Cage
+Q650466,Neue Wilde,3,1957,painting 3,Western Europe 3,contemp_ref,art movement|art group|art style (subclass)|cultural movement (subclass),Gunter Damisch; Erik Andriesse; Rainer Fetting
+Q819534,Bergen school,3,1906,painting 3,Western Europe 3,modern_ref,art movement,Samuel Schwarz; Dirk Vis; Max van Dam
+Q153946,punk subculture,3,1947,photography 2; design and decorative arts 1,Western Europe 2; North America (settler) 1,contemp_pool,cultural movement,Vivienne Westwood; Jamie Reid; Mark Morrisroe
+Q473743,environmental art,3,1956,photography 1; painting 1; sculpture 1,North America (settler) 2; Western Europe 1,contemp_ref,art movement|art style (subclass)|cultural movement (subclass),Eve Andree Laramee; Alan Sonfist; Andy Goldsworthy
+Q7059995,Northwest Coast art,3,1955,painting 2; design and decorative arts 1,North America (settler) 2; Western Europe 1,modern_pool,art style,Beau Dick; Preston Singletary; Mungo Martin
+Q21015774,Laboratoire Agit'Art,3,1954,painting 3,Sub-Saharan Africa 3,contemp_ref,artist collective,Issa Samb; Bouna Medoune Seye; El Hadj Sy
+Q5963937,Saqqa-khaneh school,3,1937,painting 3,"Islamic world (MENA, Iran, Anatolia) 3",modern_pool,art movement,Charles Hossein Zenderoudi; Parviz Tanavoli; Massoud Arabshahi
+Q5554487,Q5554487,3,-550,vase painting 3,Greco-Roman & Byzantine Mediterranean 3,,,Hypsis; Apollodoros; Thalia Painter
+Q21002895,Generation '28,3,1906,painting 2; sculpture 1,South America 3,modern_pool,art movement,Graciela Aranis; Inés Puyó; Tótila Albert Schneider
+Q2907232,Antropophagia,3,1937,painting 3,South America 3,modern_ref,art movement|cultural movement,Antonio Dias; Lygia Clark; Hélio Oiticica
+Q56306110,École d'Écouen,3,1828,painting 3,Western Europe 3,modern_ref,art colony,August Friedrich Albert Schenck; Guillaume Seignac; Édouard Charles Hugot
+Q3272569,luminism,3,1811,painting 3,Western Europe 3,modern_pool,painting movement,Robert Salmon; William Stanley Haseltine; George Caleb Bingham
+Q1940971,Molse School,3,1864,painting 3,Western Europe 3,modern_ref,art movement,Jakob Smits; Dirk Baksteen; Charles Claessens
+Q5020754,California Impressionism,3,1880,painting 3,North America (settler) 2; Western Europe 1,modern_ref,art movement|painting movement,John Edward Walker; Jessie Arms Botke; Thomas A. McGlynn
+Q3362516,Afrofuturism,3,1972,"installation, performance and conceptual 1; painting 1; visual art (unspecified) 1",South America 1; Sub-Saharan Africa 1; North America (settler) 1,contemp_ref,cultural movement,Camille Turner; Wangechi Mutu; Lauren Halsey
+Q6878743,Mission School,3,1968,painting 3,North America (settler) 3,contemp_ref,art movement|art style (subclass)|cultural movement (subclass),Alicia McCarthy; Chris Johanson; Margaret Kilgallen
+Q1444581,Superflat,3,1962,painting 3,China 3,contemp_ref,art movement|art style (subclass)|cultural movement (subclass),Yoshitomo Nara; Takashi Murakami; Aya Takano
+Q3071677,Figuration narrative,3,1935,painting 3,Western Europe 3,modern_pool,art movement,Peter Klasen; Jacques Monory; Eduardo Arroyo
+Q57206373,Black Aesthetic,3,1932,painting 2; design and decorative arts 1,North America (settler) 3,modern_pool,art movement|cultural movement,Jeff Donaldson; Barbara Jones-Hogu; Wadsworth Jarrell
+Q186363,Gothic Revival,3,1849,sculpture 1; painting 1; design and decorative arts 1,Western Europe 3,modern_pool,subclass,Aloïs De Beule; Mary Fraser Tytler; Auguste Jean
+Q16191884,Neo-Grec,3,1824,painting 3,Western Europe 3,modern_ref,art movement,Jean-Léon Gérôme; Henri-Pierre Picou; Jean-Louis Hamon
+Q1536024,Tingatinga,3,1947,painting 3,Sub-Saharan Africa 3,contemp_ref,art movement|art style (subclass)|cultural movement (subclass),Mohamed Wasia Charinda; David Mzuguno; Omari Amonde
+Q368002,New Figuration,3,1935,painting 3,Western Europe 3,modern_pool,art movement,Chantal Montellier; Michel Macréau; Paul Rebeyrolle
+Q277466,historicism,3,1850,sculpture 2; painting 1,Western Europe 3,modern_ref,art movement|art style,Edmund von Hellmer; Giacomo Mantegazza; Constant Sévin
+Q3501307,Troubadour style,3,1791,painting 3,Western Europe 3,modern_pool,art movement|art style,Alexandre-Évariste Fragonard; Francesco Hayez; Félicie de Fauveau
+Q941875,Rayonism,3,1881,painting 3,Western Europe 3,modern_ref,art movement|style of painting,Natalia Goncharova; Aleksandr Shevchenko; Mikhail Larionov
+Q1569950,internet art,3,1970,"design and decorative arts 2; video, new media and digital 1",North America (settler) 2; Western Europe 1,contemp_ref,art movement|art style (subclass)|cultural movement (subclass),Vuk Ćosić; Amy Franceschini; Evan Roth
+Q3577743,École d'Alger,3,1891,painting 3,"Islamic world (MENA, Iran, Anatolia) 2; Western Europe 1",modern_ref,cultural movement,Hélène Marre; Sauveur Galliéro; Alfred Dabat
+Q3357314,Florentine School,3,1445,painting 2; sculpture 1,Western Europe 3,,,Jacopo da Sellaio; Sandro Botticelli; Pietro Torrigiano
+Q3117798,Group of Thirteen,3,1864,painting 3,Western Europe 3,modern_ref,art movement,Clément Brun; Claude Firmin; Lina Bill
+Q2914470,Italian Renaissance painting,3,1552,painting 2; sculpture 1,Western Europe 2; North America (settler) 1,modern_pool,painting movement|art style of an area,Properzia de' Rossi; Barbara Longhi; Eugene Savage
+Q25381351,Post-cubism,3,1916,painting 3,Western Europe 3,modern_ref,art movement,Camille Hilaire; Daniel Sénélar; Max Papart
+Q16912393,Plasticien,3,1928,painting 3,North America (settler) 3,modern_ref,art movement,Claude Tousignant; Jean-Paul Jérôme; Denis Juneau
+Q3577826,Wissant school,3,1859,painting 3,Western Europe 3,modern_ref,art movement,Georges Maroniez; Virginie Demont-Breton; Pierre Carrier-Belleuse
+Q1879488,Russian symbolism,3,1862,painting 3,Western Europe 3,modern_ref,art movement,Mikhail Nesterov; Kuzma Petrov-Vodkin; Nikolai Ge
+Q3505455,Belgian surrealism,3,1900,visual art (unspecified) 1; photography 1; painting 1,Western Europe 3,modern_ref,art movement,Marcel Lecomte; Max Servais; René Magritte
+Q9730,classical music,3,1919,"painting 2; video, new media and digital 1",Western Europe 3,contemp_pool,,Robert Cahen; Élisabeth Sophie Chéron; Michel Ciry
+Q1351977,Stuckism,3,1968,painting 3,Western Europe 3,contemp_ref,art movement|art style (subclass)|cultural movement (subclass),Charles Thomson; Elsa Dax; Wolf Howard
+Q3376676,Shanghai School,3,1844,painting 3,China 3,modern_ref,art style|art group,Ren Xun; Lu Hui; Wu Chang-shuo
+Q1784728,Lowbrow,3,1962,painting 3,North America (settler) 3,contemp_ref,art movement|art style (subclass)|cultural movement (subclass),; Shag; Marion Peck
+Q18540617,Q18540617,3,1886,painting 3,Western Europe 3,modern_ref,art group,Francisc Șirato; Ștefan Dimitrescu; Nicolae Tonitza
+Q46158,humanism,3,1522,sculpture 1; drawing and illustration 1; printmaking 1,Western Europe 3,contemp_pool,cultural movement (subclass),Adriaen de Vries; Hartmann Schedel; Dirck Volckertszoon Coornhert
+Q829298,en plein air,3,1850,painting 3,Western Europe 3,modern_ref,art movement,Francesco Filippini; Raphaël Collin; Ezechiele Acerbi
+Q478774,purism,3,1887,painting 3,Western Europe 3,modern_ref,art movement,Amédée Ozenfant; Le Corbusier; Marcelle Cahn
+Q3818926,Northern Mannerism,3,1546,painting 2; sculpture 1,Western Europe 3,,,Bartholomeus Spranger; Hans Rottenhammer; Jacob Jonghelinck
+Q4414064,abstract impressionism,3,1901,painting 2; sculpture 1,Western Europe 1; Oceania (Pacific) 1; North America (settler) 1,modern_ref,art movement,Bertram Brooker; Clyde Connell; Nancy Borlase
+Q5989924,Idyllic school,3,1842,painting 3,Western Europe 3,modern_ref,art movement,Frederick Walker; George John Pinwell; John William North
+Q692924,Madí,3,1920,painting 3,South America 3,modern_ref,art movement|art group,Rodolfo Ian Uricchio; Bolívar Gaudín; Carmelo Arden Quin
+Q2102557,Kapists,2,1873,painting 2,Western Europe 2,modern_pool,art movement,Józef Pankiewicz; Gustaw Gwozdecki
+Q215198,verguismo,2,1829,painting 1; photography 1,Western Europe 2,modern_pool,subclass,Giovanni Verga; Filippo Palizzi
+Q1061960,Purismo,2,1842,painting 2,Western Europe 2,modern_pool,cultural movement,Odoardo Borrani; Pietro Aldi
+Q43012742,Verismo,2,1846,painting 2,Western Europe 2,modern_pool,art movement,Mosè Bianchi; Giacomo Mantegazza
+Q1518145,sōsaku-hanga,2,1892,painting 2,China 2,modern_ref,art movement,Kanae Yamamoto; Shikō Munakata
+Q6991698,Neo-Baroque,2,1838,sculpture 2,Western Europe 2,,,Cyprian Godebski; Louis-Ernest Barrias
+Q596594,concrete poetry,2,1923,design and decorative arts 1; visual art (unspecified) 1,Western Europe 2,contemp_pool,,Henri Chopin; Eugen Gomringer
+Q856643,Trecento,2,1270,painting 2,Western Europe 2,,,Master of the Ashmolean Predella; Cimabue
+Q3398908,Romantic realism,2,1865,painting 2,Western Europe 2,modern_pool,art movement,János Thorma; Jan Hendrik Scheltema
+Q1464842,tenebrism,2,1608,painting 2,Western Europe 2,,,Valentin de Boulogne; Giovan Battista Langetti
+Q5839475,Modern sculpture,2,1897,sculpture 2,Western Europe 2,modern_ref,art movement,Gustavs Šķilters; Franta Belsky
+Q1148060,expressionist architecture,2,1880,architecture 1; painting 1,Western Europe 2,modern_pool,subclass,Hans Poelzig; Jan Wils
+Q15885248,Renaissance painting,2,1472,painting 2,Western Europe 2,,,Giovanni Agostino da Lodi; Michelangelo
+Q18538836,Q18538836,2,1875,painting 2,Western Europe 2,,,Elena Popea; Kimon Loghi
+Q107424419,English painting,2,1751,painting 2,Western Europe 2,,,J. M. W. Turner; Thomas Gainsborough
+Q1728571,capitalist realism,2,1903,painting 2,Western Europe 2,modern_pool,art movement,Harrison Fisher; Gerhard Richter
+Q591229,Nagybánya art colony,2,1875,painting 2,Western Europe 2,modern_ref,art colony,Simon Hollósy; Oszkár Nagy
+Q7272667,Quito School,2,1711,painting 2,Western Europe 2,,,Manuel Chili Caspicara; Bernardo de Legarda
+Q152778,Die Brücke,2,1881,painting 2,Western Europe 2,modern_ref,art movement|art group,Kees van Dongen; Frederic Fiebig
+Q210115,freethought,2,1829,painting 1; photography 1,Western Europe 2,,,John Ruskin; Émile Zola
+Q842333,Western philosophy,2,1883,photography 2,Western Europe 2,contemp_pool,,Ernst Mach; Jean Baudrillard
+Q7102392,orientalism in early modern France,2,1840,sculpture 2,Western Europe 2,,,Emile Guillemin; Alfred Barye
+Q1391488,Figuration Libre,2,1958,painting 2,Western Europe 2,contemp_pool,art movement|art style (subclass)|cultural movement (subclass),Rémi Blanchard; Hervé Di Rosa
+Q1092461,Cinema of Transgression,2,1957,photography 1; drawing and illustration 1,North America (settler) 2,contemp_pool,art movement (subclass),Richard Kern; Kembra Pfahler
+Q193541,French New Wave,2,1923,photography 2,North America (settler) 1; Western Europe 1,modern_pool,subclass,Agnès Varda; Morris Engel
+Q131711,kitsch,2,1906,painting 2,North America (settler) 1; Sub-Saharan Africa 1,modern_pool,art movement,Haddon Sundblom; Vladimir Tretchikoff
+Q971480,modernist literature,2,1882,drawing and illustration 1; painting 1,Western Europe 2,modern_pool,subclass,Andrei Bely; D. H. Lawrence
+Q2614483,Pre-romanticism,2,1752,painting 2,Western Europe 2,,,Antoine-Jean Gros; Hubert Robert
+Q3484823,simultanism,2,1885,painting 2,Western Europe 2,modern_pool,art movement,Sonia Delaunay; Robert Delaunay
+Q7759116,"Quilts of Gees Bend, Alabama",2,1947,printmaking 2,North America (settler) 2,modern_pool,art movement,Louisiana Bendolph; Mary Lee Bendolph
+Q2615798,Synchromism,2,1888,painting 2,North America (settler) 2,modern_pool,art movement,Morgan Russell; Stanton Macdonald-Wright
+Q1086353,Section d'Or,2,1881,painting 2,Western Europe 2,modern_ref,art movement|school of painting|art group,Paul Vera; Albert Gleizes
+Q5839340,Q5839340,2,1922,painting 2,Western Europe 2,modern_ref,artist collective,Elías Garralda Alzugaray; Menchu Gal
+Q9033935,Brazilian modernism,2,1913,painting 2,South America 2,modern_ref,art movement|cultural movement,Bruno Giorgi; Ida Hannemann de Campos
+Q8361,Baroque music,2,1685,painting 2,Western Europe 2,,,"Wilhelmine of Prussia, Margravine of Brandenburg-Bayreuth; Angiola Teresa Moratori Scanabecchi"
+Q575691,Generation of ‘27,2,1904,painting 2,Western Europe 2,,,Maruja Mallo; Óscar Domínguez
+Q28474914,Las Sinsombrero,2,1906,painting 2,Western Europe 2,,,Maruja Mallo; Ángeles Santos Torroella
+Q1805902,Laren School,2,1849,painting 2,Western Europe 2,modern_pool,art movement,Albert Neuhuys; Jacob Simon Hendrik Kever
+Q478717,Amsterdam Impressionism,2,1862,painting 2,Western Europe 2,modern_pool,art movement,Willem Bastiaan Tholen; Isaac Israëls
+Q1081101,Les Hydropathes,2,1847,painting 2,Western Europe 2,,,Alfred Le Petit; Alphonse Allais
+Q10336318,neo-primitivism,2,1884,painting 2,Western Europe 2,modern_pool,art movement,Olga Rozanova; Aleksandr Shevchenko
+Q1421557,light art,2,1953,painting 1; visual art (unspecified) 1,Western Europe 2,contemp_pool,,Ólafur Elíasson; Peter Struycken
+Q1347824,La Movida Madrileña,2,1955,photography 1; painting 1,Western Europe 2,contemp_pool,cultural movement|art movement (subclass),Alberto García-Alix; El Hortelano
+Q56378393,Q56378393,2,1841,sculpture 2,Western Europe 2,modern_pool,art style,Jean Antoine Injalbert; Jules Dalou
+Q2826174,africanism,2,1891,sculpture 1; painting 1,Western Europe 2,modern_pool,art movement,Anna Quinquaud; Évariste Jonchère
+Q213523,Quattrocento,2,1434,painting 2,Western Europe 2,,,Cosimo Rosselli; Cosimo Tura
+Q850181,Situationist International,2,1922,drawing and illustration 1; painting 1,Western Europe 2,contemp_pool,,Guy Debord; Asger Jorn
+Q214127,genre painting,2,1831,painting 2,Western Europe 2,,,Eduardo Zamacois y Zabala; Lilly Martin Spencer
+Q1165363,Félibrige,2,1842,photography 1; painting 1,Western Europe 2,modern_pool,subclass,Valère Bernard; Dominique Roman
+Q631931,decorative art,2,1831,design and decorative arts 1; printmaking 1,Western Europe 2,,,Marc-Louis Solon; Eugène Rousseau
+Q133249139,Q133249139,2,1884,painting 2,China 2,modern_pool,artistic school,Gao Qifeng; Gao Jianfu
+Q540807,Photo-Secession,2,1864,photography 1; painting 1,Western Europe 2,modern_ref,art movement|art group,Frank Eugene; Alfred Stieglitz
+Q1263842,Duecento,2,1233,sculpture 2,Western Europe 2,,,Arnolfo di Cambio; Nicola Pisano
+Q3577825,Q3577825,2,1904,painting 2,"Western Europe 1; Islamic world (MENA, Iran, Anatolia) 1",modern_pool,art movement,Moses Levy; Safia Farhat
+Q252645,Delft school,2,1623,painting 2,Western Europe 2,,,Carel Fabritius; Paulus Potter
+Q1407578,School of Ferrara,2,1470,painting 2,Western Europe 2,,,Dosso Dossi; Lorenzo Costa
+Q53997973,Arta Association,2,1876,painting 2,Western Europe 2,,,Gheorghe Petrașcu; Jean Alexandru Steriadi
+Q56782388,Q56782388,2,1879,painting 2,Western Europe 2,,,Gheorghe Petrașcu; Nicolae Tonitza
+Q213156,performance art,2,1930,painting 1; sculpture 1,Western Europe 2,contemp_pool,,Marina Abramović; Guglielmo Achille Cavellini
+Q2349908,French Renaissance,2,1497,painting 2,Western Europe 2,,,Jean Clouet; Pierre Lescot
+Q4322399,New British Sculpture,2,1952,sculpture 1; painting 1,Oceania (Pacific) 1; Western Europe 1,contemp_pool,art movement|art style (subclass)|cultural movement (subclass),Richard Wentworth; Julian Opie
+Q3621606,Neoclassical architecture in Russia,2,1810,painting 2,Western Europe 2,modern_pool,subclass,Alexei Beketov; Andrey Voronikhin
+Q3686197,Moscow Conceptualists,2,1952,painting 1; visual art (unspecified) 1,Western Europe 2,contemp_pool,art movement|art style (subclass)|cultural movement (subclass),Irina Nakhova; Andrey Monastyrsky
+Q6199,anarchism,2,1923,painting 2,North America (settler) 1; Western Europe 1,contemp_pool,,José Pérez Ocaña; Alice Neel
+Q191760,theatre of the absurd,2,1899,drawing and illustration 1; painting 1,Western Europe 2,,,Eugène Ionesco; Jean Cocteau
+Q238255,deconstructivism,2,1945,painting 1; architecture 1,"Islamic world (MENA, Iran, Anatolia) 1; Western Europe 1",contemp_ref,art style (subclass),Zaha Hadid; Vlado Milunić
+Q9091515,Universal Constructivism,2,1893,painting 2,Western Europe 2,,,Joaquín Torres-García; Augusto Torres
+Q6025377,Movimiento indaliano,2,1900,painting 2,Western Europe 2,modern_ref,cultural movement,Juan Cuadrado Ruiz; Jesús de Perceval
+Q17108925,London Regionalism,2,1938,painting 1; sculpture 1,North America (settler) 2,contemp_ref,art movement|art style (subclass)|cultural movement (subclass),Murray Favro; Greg Curnoe
+Q120143150,School of Avignon,2,1420,painting 2,Western Europe 2,,,Nicolas Froment; Enguerrand Quarton
+Q2498493,Pleinairisme,2,1865,painting 2,China 1; Western Europe 1,,,Luděk Marold; Kuroda Seiki
+Q1547741,Group of Seven,2,1886,painting 2,North America (settler) 1; Western Europe 1,,,Arthur Lismer; Frank Johnston
+Q10401752,Aemilia Ars,1,1882,painting 1,Western Europe 1,modern_ref,art movement|artist collective,Roberto Franzoni
+Q1431020,Franco-Belgian comics,1,1932,visual art (unspecified) 1,Western Europe 1,contemp_pool,,Christian Godard
+Q10336205,neo-concrete movement,1,1914,painting 1,South America 1,modern_ref,art movement|art group,Hércules Barsotti
+Q55831996,Baroque art in Genoa,1,1584,painting 1,Western Europe 1,,,Giovanni Andrea Ansaldo
+Q7066,atheism,1,1965,painting 1,Western Europe 1,contemp_pool,,Wolfgang Herrndorf
+Q2368408,artistic indianism,1,1919,painting 1,Western Europe 1,modern_ref,art movement|cultural movement,Hubert Booi
+Q61362269,Mooi Indië,1,1878,painting 1,Western Europe 1,,,Abdullah Suriosubroto
+Q5148364,Colonial Revival Movement,1,1866,design and decorative arts 1,North America (settler) 1,,,Anna Nott Shook
+Q4523373,Sixtiers,1,1938,painting 1,Western Europe 1,contemp_pool,,Lyubov Panchenko
+Q466887,Belle Époque,1,1857,painting 1,Western Europe 1,,,Louis Abel-Truchet
+Q384177,Egyptian Revival architecture,1,1788,painting 1,Western Europe 1,modern_pool,art style,William Strickland
+Q64334168,Late Baroque,1,1656,painting 1,Western Europe 1,,,Antonio Cifrondi
+Q11394770,Maruyama school,1,1842,painting 1,China 1,modern_pool,school of painting,Kawabata Gyokushō
+Q11394807,En school,1,1010,sculpture 1,China 1,,,Chōsei
+Q4775114,Antipodeans,1,1920,painting 1,Oceania (Pacific) 1,modern_ref,art group,John Brack
+Q830891,Inuit art,1,1927,sculpture 1,North America (settler) 1,contemp_pool,,Kenojuak Ashevak
+Q4439247,Stalinist Empire style,1,1901,painting 1,Western Europe 1,modern_pool,subclass,Dmitry Chechulin
+Q1702131,Art Concret,1,1908,painting 1,Western Europe 1,modern_pool,art group,Max Bill
+Q57174052,art brut,1,1886,painting 1,Western Europe 1,modern_pool,art movement,Aloïse Corbaz
+Q4562834,dragestil,1,1846,painting 1,Western Europe 1,modern_pool,subclass,Lars Kinsarvik
+Q61084999,Q61084999,1,1854,sculpture 1,Western Europe 1,,,Carol Storck
+Q61085002,Q61085002,1,1854,sculpture 1,Western Europe 1,,,Carol Storck
+Q12729599,Q12729599,1,1936,painting 1,Western Europe 1,contemp_pool,,Constantin Flondor
+Q12729602,Q12729602,1,1936,painting 1,Western Europe 1,contemp_pool,,Constantin Flondor
+Q2602891,Isabelline,1,1500,sculpture 1,Western Europe 1,,,Gil de Siloé
+Q840829,baroque architecture,1,1961,painting 1,South America 1,modern_pool,subclass,Vik Muniz
+Q19834166,Q19834166,1,1918,painting 1,Western Europe 1,modern_pool,art movement|art group,Rotella
+Q763709,white ground technique,1,-550,vase painting 1,Greco-Roman & Byzantine Mediterranean 1,,,Sappho Painter
+Q7233587,post-surrealism,1,1908,painting 1,North America (settler) 1,modern_pool,art movement,Helen Lundeberg
+Q6235,nationalism,1,1904,painting 1,South America 1,contemp_pool,,Ernesto Tamariz
+Q5421149,experimental architecture,1,1940,painting 1,North America (settler) 1,contemp_pool,cultural movement|art style (subclass),Lebbeus Woods
+Q10936092,Taisho Roman,1,1884,painting 1,China 1,modern_pool,cultural movement,Yumeji Takehisa
+Q10468834,White cube gallery,1,1974,sculpture 1,Western Europe 1,contemp_pool,cultural movement,Jeppe Hein
+Q36118,organic architecture,1,1891,architecture 1,Western Europe 1,modern_pool,subclass,Jan Wils
+Q913340,Florentine Renaissance art,1,1418,painting 1,Western Europe 1,,,Neri di Bicci
+Q5977111,Romantic literature,1,1776,painting 1,Western Europe 1,,,E. T. A. Hoffmann
+Q156460,degenerate art,1,1867,painting 1,Western Europe 1,modern_pool,art movement,Emil Nolde
+Q55780244,School of London,1,1922,painting 1,Western Europe 1,modern_pool,art movement|artist collective,Lucian Freud
+Q123305,appropriation,1,1934,painting 1,Western Europe 1,contemp_pool,,Guy Peellaert
+Q597240,New Romantic,1,1941,photography 1,Western Europe 1,contemp_pool,art movement|art style (subclass)|cultural movement (subclass),Vivienne Westwood
+Q26689463,Etruscan school,1,1830,painting 1,Western Europe 1,modern_ref,artist collective,Frederic Leighton
+Q28872661,Settecentismo,1,1823,painting 1,Western Europe 1,modern_pool,art movement|cultural movement,Vincenzo Petrocelli
+Q23560495,Q23560495,1,1888,painting 1,Western Europe 1,modern_pool,art movement,Hermann Huber
+Q59818567,New Objectivity,1,1888,painting 1,Western Europe 1,,,Hermann Huber
+Q99429784,Der Moderne Bund,1,1888,painting 1,Western Europe 1,modern_pool,art movement|art group,Hermann Huber
+Q294949,ecofeminism,1,1948,painting 1,South America 1,contemp_pool,,Cecilia Vicuña
+Q1573225,Hamburgische Sezession,1,1862,painting 1,Western Europe 1,modern_pool,art style,Alma del Banco
+Q432026,Neo-geo,1,1953,painting 1,North America (settler) 1,contemp_pool,art movement|art style (subclass)|cultural movement (subclass),Peter Halley
+Q8962106,Q8962106,1,1942,photography 1,South America 1,contemp_pool,,Fernell Franco
+Q7356060,Rococo Revival,1,1805,painting 1,Western Europe 1,modern_pool,art movement,Franz Xaver Winterhalter
+Q832237,environmental protection,1,1953,street art and muralism 1,Western Europe 1,contemp_pool,,Salvatore Garau
+Q3578589,environmentalist,1,1953,street art and muralism 1,Western Europe 1,contemp_pool,,Salvatore Garau
+Q2470994,Cranbrook Colony,1,1817,painting 1,Western Europe 1,modern_pool,art movement|artist collective,John Callcott Horsley
+Q216053,haute couture,1,1936,painting 1,Western Europe 1,contemp_pool,,Yves Saint Laurent
+Q2912428,ready-to-wear,1,1936,painting 1,Western Europe 1,contemp_pool,,Yves Saint Laurent
+Q57395159,Q57395159,1,1936,painting 1,Oceania (Pacific) 1,contemp_pool,art movement|art style (subclass)|cultural movement (subclass),Lena Nyadbi
+Q236122,Renaissance architecture,1,1532,sculpture 1,Western Europe 1,,,Giacomo della Porta
+Q1425138,Mir iskusstva,1,1837,painting 1,Western Europe 1,modern_pool,art movement,Alexandra Makovskaya
+Q5876876,Generación del 13,1,1889,painting 1,South America 1,modern_ref,artist collective,Laureano Ladrón de Guevara
+Q188976,counterculture,1,1899,painting 1,North America (settler) 1,,,Lil Picard
+Q267932,Post-structuralism,1,1929,photography 1,Western Europe 1,contemp_pool,,Jean Baudrillard
+Q611217,degrowth,1,1929,photography 1,Western Europe 1,contemp_pool,,Jean Baudrillard
+Q10349903,symbolist painting,1,1857,painting 1,Western Europe 1,modern_pool,painting movement,Darío de Regoyos
+Q4774446,Anti-rape movement,1,1992,"installation, performance and conceptual 1",North America (settler) 1,contemp_pool,,Emma Sulkowicz
+Q2502293,De Vijftigers,1,1928,drawing and illustration 1,Western Europe 1,modern_pool,subclass,Simon Vinkenoog
+Q622339,Apulian vase painting,1,-400,vase painting 1,Greco-Roman & Byzantine Mediterranean 1,,,Lucera Painter
+Q660311,Art nouveau in Milan,1,1881,painting 1,Western Europe 1,modern_pool,art style of an area,Giuseppe Amisani
+Q1777842,severe style,1,-500,vase painting 1,Greco-Roman & Byzantine Mediterranean 1,,,M Potter
+Q738680,pottery of ancient Greece,1,-600,vase painting 1,Greco-Roman & Byzantine Mediterranean 1,,,Painter of the Aachen horsehead
+Q9326077,speculative fiction,1,1889,painting 1,Western Europe 1,contemp_pool,,Nicolas Eekman
+Q1747618,ancient Greek art,1,-500,sculpture 1,Greco-Roman & Byzantine Mediterranean 1,,,Myron
+Q1126340,pyrrhonism,1,-360,painting 1,Greco-Roman & Byzantine Mediterranean 1,,,Pyrrho
+Q17299972,post-internet,1,1984,"installation, performance and conceptual 1",Western Europe 1,contemp_pool,art movement|art style (subclass)|cultural movement (subclass),Katja Novitskova
+Q104010227,New Negro Movement,1,1895,painting 1,North America (settler) 1,,,Allan Randall Freelon
+Q6865348,minimalism,1,1939,painting 1,North America (settler) 1,contemp_pool,art movement|art style|art style (subclass)|cultural movement (subclass)|style (subclass),Larry Bell
+Q469913,American scene painting,1,1882,painting 1,North America (settler) 1,modern_pool,art movement,Edward Hopper
+Q59104,continental philosophy,1,1897,drawing and illustration 1,Western Europe 1,contemp_pool,,Georges Bataille
+Q7481907,irrationalism,1,1897,drawing and illustration 1,Western Europe 1,,,Georges Bataille
+Q3931116,existential realism,1,1922,painting 1,Western Europe 1,modern_pool,painting movement,Mario Bardi
+Q3118237,Grupo Montparnasse,1,1906,painting 1,South America 1,modern_ref,art movement|artist collective,Inés Puyó
+Q167312,dualism,1,1934,painting 1,Sub-Saharan Africa 1,contemp_pool,,Erhabor Emokpae
+Q24191572,Canadian Impressionism,1,1898,painting 1,North America (settler) 1,,,Robert Pilot
+Q1290382,indie,1,1947,design and decorative arts 1,Western Europe 1,contemp_pool,cultural movement (subclass),Jamie Reid
+Q55597157,Q55597157,1,1826,painting 1,Western Europe 1,modern_pool,art movement,Alexandre René Veron
+Q3577704,Shijō school,1,1847,painting 1,China 1,modern_ref,art movement|school of painting,Morikawa Sobun
+Q22127329,Fujiwara no Takanobu school,1,1142,painting 1,China 1,,,Fujiwara no Takanobu
+Q1362030,expressionism,1,1880,painting 1,Western Europe 1,modern_pool,subclass,Ernst Ludwig Kirchner
+Q615498,documentary photography,1,1953,photography 1,North America (settler) 1,contemp_pool,,Nan Goldin
+Q1808721,sound poetry,1,1922,visual art (unspecified) 1,Western Europe 1,contemp_pool,,Henri Chopin
+Q639605,Olot school,1,1926,painting 1,Western Europe 1,modern_pool,painting movement,Elías Garralda Alzugaray
+Q3454438,Q3454438,1,1904,photography 1,North America (settler) 1,,,Margaret Bourke-White
+Q3645460,Spanish Colonial Revival architecture,1,1876,painting 1,Western Europe 1,modern_pool,subclass,George Washington Smith
+Q7937337,Mediterranean Revival architecture,1,1876,painting 1,Western Europe 1,modern_pool,subclass,George Washington Smith
+Q725377,graphic novel,1,1969,drawing and illustration 1,Western Europe 1,contemp_pool,,Paco Roca
+Q1027879,graphics,1,1921,painting 1,Western Europe 1,contemp_pool,,Mikayil Abdullayev
+Q1153335,Escuela de Vallecas,1,1902,painting 1,Western Europe 1,modern_pool,art movement,Maruja Mallo
+Q10924220,Late Gothic,1,1420,painting 1,Western Europe 1,,,Bonifacio Bembo
+Q6888716,Modern Indian painting,1,1880,painting 1,Western Europe 1,modern_ref,art movement,Samuel Fyzee-Rahamin
+Q1808635,Jack of Diamonds,1,1876,painting 1,Western Europe 1,modern_ref,art group,Pyotr Konchalovsky
+Q96312264,Khartoum School,1,1930,painting 1,Sub-Saharan Africa 1,modern_pool,art movement,Ibrahim El-Salahi
+Q678649,body art,1,1939,painting 1,Western Europe 1,contemp_pool,,Gina Pane
+Q1400843,Cubo-Futurism,1,1886,painting 1,Western Europe 1,modern_pool,art movement,Olga Rozanova
+Q860372,digital art,1,1939,painting 1,Western Europe 1,contemp_pool,,Peter Struycken
+Q4587039,Kristiania Bohemians,1,1860,painting 1,Western Europe 1,modern_pool,art movement,Oda Krohg
+Q4878086,Beaver Hall Group,1,1896,painting 1,North America (settler) 1,modern_ref,artist collective,Prudence Heward
+Q3749980,Francesco Filippini,1,1869,painting 1,Western Europe 1,,,Alfredo Müller
+Q3108623,Cusco school,1,1611,painting 1,Western Europe 1,contemp_pool,art movement|art style (subclass)|cultural movement (subclass),Diego Quispe Tito
+Q56000,naturalism,1,1857,painting 1,Western Europe 1,,,Aluísio Azevedo
+Q3473056,Q3473056,1,1922,painting 1,Western Europe 1,modern_pool,art movement,André Cottavoz
+Q1479489,aeropittura,1,1915,painting 1,Western Europe 1,modern_pool,painting movement,Olga Biglieri
+Q115169056,French modernism,1,1871,painting 1,Western Europe 1,modern_pool,art movement,Emily Carr
+Q383898,military art,1,1838,painting 1,Western Europe 1,,,Étienne-Prosper Berne-Bellecour
+Q1977453,second-wave feminism,1,1934,painting 1,North America (settler) 1,contemp_pool,,Kate Millett
+Q2045578,political lesbianism,1,1934,painting 1,North America (settler) 1,contemp_pool,,Kate Millett
+Q2914207,radical feminism,1,1934,painting 1,North America (settler) 1,contemp_pool,,Kate Millett
+Q1745141,Fantastic Realism,1,1927,painting 1,Western Europe 1,modern_pool,art movement|cultural movement,Claude Verlinde
+Q726483,Skagen Painters,1,1851,painting 1,Western Europe 1,modern_ref,art colony,Carl Locher
+Q2717088,Letterist International,1,1931,drawing and illustration 1,Western Europe 1,modern_pool,cultural movement,Guy Debord
+Q1004004,Bulgarian National Revival,1,1810,painting 1,Western Europe 1,,,Zahari Zograf
+Q12292926,Samokov art school,1,1810,painting 1,Western Europe 1,modern_pool,art movement,Zahari Zograf
+Q4123682,icon painting of Vologda,1,1363,painting 1,Western Europe 1,,,Denis de Glouchitsa
+Q9097429,Zaj,1,1937,photography 1,Western Europe 1,contemp_pool,artist collective,Esther Ferrer
+Q11362029,Sesonji-ryū,1,972,book arts 1,China 1,,,Fujiwara no Yukinari
+Q3268288,L'art pompier,1,1823,painting 1,Western Europe 1,modern_pool,art movement,Alexandre Cabanel
+Q2297997,Movimento Spaziale,1,1899,painting 1,Western Europe 1,modern_pool,art movement,Lucio Fontana
+Q3773652,International Gothic art in Italy,1,1370,painting 1,Western Europe 1,,,Gentile da Fabriano
+Q1133329,Young Poland,1,1869,painting 1,Western Europe 1,modern_pool,art movement|cultural movement,Stanisław Wyspiański
+Q4957289,Brandywine School,1,1884,painting 1,North America (settler) 1,modern_pool,art colony|art style,Harvey Dunn
+Q252801,Kanō school,1,1835,painting 1,China 1,modern_pool,art movement|school of painting,Hashimoto Gahō
+Q3328533,Musicalism,1,1883,painting 1,Western Europe 1,modern_pool,art movement,Henry Valensi
+Q4317200,Neo-conceptual art,1,1951,drawing and illustration 1,North America (settler) 1,contemp_pool,art movement|art style (subclass)|cultural movement (subclass),Mark Lombardi
+Q265685,Poporanism,1,1882,painting 1,Western Europe 1,,,Ion Theodorescu-Sion
+Q5625829,Gândirea,1,1882,painting 1,Western Europe 1,,,Ion Theodorescu-Sion
+Q3299172,Matterism,1,1926,painting 1,Western Europe 1,modern_pool,art movement,Paul Rebeyrolle
+Q3578338,Q3578338,1,1240,painting 1,Western Europe 1,,,Pietro Cavallini
+Q1503425,Metabolism,1,1931,architecture 1,China 1,modern_pool,subclass,Arata Isozaki
+Q2004358,return to order,1,1886,painting 1,Western Europe 1,modern_pool,art movement,Jean Despujols
+Q2801695,community art,1,1856,painting 1,Western Europe 1,,,Hendrik Petrus Berlage
+Q11448989,Takuma school,1,1288,painting 1,China 1,,,Kaō
+Q3117694,Groupe de Roubaix,1,1923,painting 1,Western Europe 1,modern_pool,artist collective,Eugène Dodeigne
+Q3578034,École liégeoise de peinture,1,1614,painting 1,Western Europe 1,,,Bertholet Flémal
+Q700347,Berlin Secession,1,1883,painting 1,Western Europe 1,modern_ref,art movement|art group,Paul Kleinschmidt
+Q15703416,Prague Secession,1,1886,painting 1,Western Europe 1,modern_pool,art group,Anton Kolig
+Q2394336,interactive art,1,1971,painting 1,Western Europe 1,contemp_pool,art movement|art style (subclass)|cultural movement (subclass),Juan Garaizabal
+Q557141,public art,1,1940,sculpture 1,North America (settler) 1,contemp_pool,,Luis Jiménez
+Q5095938,Chicano art movement,1,1940,sculpture 1,North America (settler) 1,contemp_pool,art movement|art style (subclass)|cultural movement (subclass),Luis Jiménez
+Q2561815,bioart,1,1962,painting 1,South America 1,contemp_pool,,Eduardo Kac
+Q3577802,Mantuan School,1,1504,painting 1,Western Europe 1,,,Francesco Primaticcio
+Q2435641,Q2435641,1,1840,painting 1,Western Europe 1,modern_pool,art movement|artist collective,Théodore Baron
+Q520750,fijnschilder,1,1613,painting 1,Western Europe 1,,,Gerrit Dou
+Q577852,Plateresque,1,1488,sculpture 1,Western Europe 1,,,Alonso de Covarrubias
+Q5003624,memorial,1,1944,painting 1,Western Europe 1,contemp_pool,,Francesc Abad
+Q2855609,environmentalism,1,1906,painting 1,Western Europe 1,contemp_pool,,Robert Hainard
+Q2121742,underground comix,1,1943,painting 1,North America (settler) 1,contemp_pool,,
+Q657377,Scottish Colourists,1,1883,painting 1,Western Europe 1,modern_ref,art group,Francis Cadell
+Q1520763,art of Ottonian illumination,1,950,book arts 1,Western Europe 1,,,Adalpertus
+Q16670699,PopArt - The Videos,1,1962,painting 1,China 1,contemp_pool,,Takashi Murakami
+Q2297646,Utagawa school,1,1807,painting 1,China 1,modern_ref,artistic school,Utagawa Sadahide
+Q420245,Acmeist poetry,1,1877,painting 1,Western Europe 1,modern_pool,subclass,Maximilian Voloshin
+Q6352595,Kalighat painting,1,1887,painting 1,South Asia 1,modern_pool,art movement|art style,Jamini Roy
+Q5128310,Classical Prose Movement,1,1037,painting 1,China 1,,,Su Shi
+Q1047337,genre art,1,1828,painting 1,Western Europe 1,,,Antonio Rotta
+Q2247333,Sestigers,1,1939,painting 1,Western Europe 1,contemp_pool,art movement|art style (subclass)|cultural movement (subclass),Breyten Breytenbach
+Q167776,Italian neorealism,1,1927,painting 1,Western Europe 1,modern_pool,subclass,Bruno Caruso
+Q38066,existentialism,1,1928,painting 1,Western Europe 1,modern_pool,cultural movement,Bernard Buffet
+Q4292891,Q4292891,1,1928,painting 1,Western Europe 1,modern_pool,art movement,Bernard Buffet
+Q61085245,Q61085245,1,1872,sculpture 1,Western Europe 1,,,Frederic Storck
+Q570341,Nouveau Roman,1,1906,drawing and illustration 1,Western Europe 1,modern_pool,subclass,Samuel Beckett
+Q11374434,Kyōgoku school,1,1265,book arts 1,China 1,,,Fushimi
+Q1962478,Post-painterly Abstraction,1,1936,painting 1,North America (settler) 1,contemp_pool,painting movement|art movement (subclass),Frank Stella
+Q3318563,postmodern art,1,1948,painting 1,Western Europe 1,contemp_pool,art style|style (subclass),Guillermo Pérez Villalta
+Q5674251,Q5674251,1,1948,painting 1,Western Europe 1,contemp_pool,,Guillermo Pérez Villalta
+Q6046768,Q6046768,1,1948,painting 1,Western Europe 1,contemp_pool,,Guillermo Pérez Villalta
+Q22004069,Q22004069,1,1850,painting 1,Western Europe 1,,,Raphaël Collin
+Q846094,Decadent movement,1,1833,painting 1,Western Europe 1,modern_pool,art movement,Félicien Rops
+Q136505034,shinpū waka,1,1162,book arts 1,China 1,,,Fujiwara no Teika
+Q56524314,British School,1,1820,painting 1,Western Europe 1,modern_pool,artistic school,James Sant
+Q2783150,Scottish Renaissance,1,1854,design and decorative arts 1,Western Europe 1,modern_pool,art movement,Patrick Geddes
+Q17884,LGBTQ,1,1959,photography 1,North America (settler) 1,contemp_pool,,Laura Aguilar
+Q2822683,fat acceptance movement,1,1959,photography 1,North America (settler) 1,contemp_pool,,Laura Aguilar
+Q32411443,intersectional feminism,1,1959,photography 1,North America (settler) 1,contemp_pool,,Laura Aguilar
+Q2499142,Literature of the Five Mountains,1,1275,book arts 1,China 1,,,Musō Soseki
+Q24943716,El Convivio,1,1919,painting 1,Western Europe 1,,,Menchu Gal
+Q3667535,Chiarismo,1,1898,painting 1,Western Europe 1,modern_pool,art movement,Umberto Lilloni
+Q633683,red-figure pottery,1,-450,vase painting 1,Greco-Roman & Byzantine Mediterranean 1,,,Amycus Painter
+Q128168,Counter-Reformation,1,1571,painting 1,Western Europe 1,,,Caravaggio
+Q3953307,Leningrad School of Painting,1,1879,painting 1,Western Europe 1,contemp_pool,,Alexander Lubimov
+Q16680386,Ton Fan Group,1,1932,painting 1,China 1,modern_pool,art movement,Ho-Kan
+Q2632089,Dutch and Flemish Renaissance painting,1,1525,painting 1,Western Europe 1,,,Pieter Brueghel the Elder
+Q136046,Zero,1,1928,painting 1,Western Europe 1,modern_ref,art movement|artist collective|art group,Otto Piene
+Q3099098,Four Wangs,1,1851,painting 1,China 1,modern_pool,art style,Lu Hui
+Q3756540,Western painting,1,1688,painting 1,Western Europe 1,,,Giuseppe Castiglione
+Q207591,Romantic music,1,1809,painting 1,Western Europe 1,modern_pool,subclass,Felix Mendelssohn
+Q7264,Marxism,1,1968,painting 1,South America 1,contemp_pool,,Carlos Latuff
+Q7272,socialism,1,1968,painting 1,South America 1,contemp_pool,,Carlos Latuff
+Q191442,anti-globalization movement,1,1968,painting 1,South America 1,contemp_pool,,Carlos Latuff
+Q210189,anti-fascism,1,1968,painting 1,South America 1,contemp_pool,,Carlos Latuff
+Q389647,anti-capitalism,1,1968,painting 1,South America 1,contemp_pool,,Carlos Latuff
+Q574827,anti-Americanism,1,1968,painting 1,South America 1,contemp_pool,,Carlos Latuff
+Q582965,anti-racism,1,1968,painting 1,South America 1,contemp_pool,,Carlos Latuff
+Q584548,anti-Zionism,1,1968,painting 1,South America 1,contemp_pool,,Carlos Latuff
+Q920486,indigenous rights,1,1968,painting 1,South America 1,contemp_pool,,Carlos Latuff
+Q1144178,anti-imperialism,1,1968,painting 1,South America 1,contemp_pool,,Carlos Latuff
+Q1977450,Neoavanguardia,1,1935,painting 1,Western Europe 1,modern_pool,subclass,Nanni Balestrini
+Q7185455,Mahjar,1,1883,painting 1,"Islamic world (MENA, Iran, Anatolia) 1",modern_pool,subclass,Kahlil Gibran
+Q20430393,Q20430393,1,1900,painting 1,Western Europe 1,,,Aurel Ciupe
+Q8032972,Woodland Style,1,1944,painting 1,North America (settler) 1,contemp_pool,,Benjamin Chee Chee
+Q48976567,Finish Fetish,1,1934,painting 1,North America (settler) 1,contemp_pool,,Billy Al Bengston
+Q21550800,Neo-Constructivism,1,1953,painting 1,Western Europe 1,contemp_pool,art movement|art style (subclass)|cultural movement (subclass),Brian Clarke
+Q1517921,Louis XIV style,1,1640,sculpture 1,Western Europe 1,,,Antoine Coysevox
+Q11397812,Zen'ei shashin,1,1914,photography 1,China 1,modern_ref,art movement,Kansuke Yamamoto
+Q11503992,Shinkō shashin,1,1914,photography 1,China 1,modern_ref,art movement,Kansuke Yamamoto
+Q1672822,Celtic Revival,1,1866,design and decorative arts 1,Western Europe 1,modern_pool,art movement,Lily Yeats
+Q2479493,eclectic architecture,1,1842,painting 1,Western Europe 1,modern_pool,subclass,Maximilian Messmacher
+Q928960,Streamline Moderne,1,1894,painting 1,North America (settler) 1,modern_pool,art movement,Donald Deskey
+Q5776741,Banco de la República Art Collection,1,1924,sculpture 1,Western Europe 1,contemp_pool,,Anthony Caro
+Q830331,Etruscan art,1,-600,sculpture 1,Greco-Roman & Byzantine Mediterranean 1,,,Vulca
+Q27301872,Romanticism in France,1,1802,drawing and illustration 1,Western Europe 1,modern_pool,cultural movement,Victor Hugo
+Q3117801,Le Groupe des XV,1,1910,photography 1,Western Europe 1,,,Willy Ronis
+Q2300756,Dutch Baroque architecture,1,1596,painting 1,Western Europe 1,,,Jacob van Campen
+Q2864613,Q2864613,1,1101,painting 1,Western Europe 1,,,Eulalios
+Q10998,potato,1,1848,painting 1,Western Europe 1,,,Jules Bastien-Lepage
+Q2566149,relational art,1,1961,"installation, performance and conceptual 1",Western Europe 1,contemp_pool,art movement|art style (subclass)|cultural movement (subclass),Carsten Höller
+Q2651403,visionary art,1,1911,painting 1,North America (settler) 1,,,Forrest Bess
+Q2350129,Atmospheric impressionism,1,1845,painting 1,Western Europe 1,modern_pool,art movement,Tina Blau
+Q1268134,Beaux-Arts,1,1857,sculpture 1,Western Europe 1,modern_pool,art style,Giuseppe Moretti
+Q1153484,folk art,1,1781,painting 1,Western Europe 1,,,Hannah Cohoon
+Q7995249,White Rabbits,1,1872,painting 1,Western Europe 1,,,Helen Farnsworth Mears
+Q18127879,Marxism–Leninism–Maoism,1,1893,book arts 1,China 1,,,Mao Zedong
+Q12539,Age of Enlightenment,1,1749,painting 1,Western Europe 1,,,Johann Wolfgang von Goethe
+Q207741,Sturm und Drang,1,1749,painting 1,Western Europe 1,,,Johann Wolfgang von Goethe
+Q694408,Weimar Classicism,1,1749,painting 1,Western Europe 1,,,Johann Wolfgang von Goethe
+Q5602008,Indigenismo,1,1883,painting 1,South America 1,modern_pool,art movement,Julia Codesido
+Q1413061,tropicália,1,1937,painting 1,South America 1,contemp_pool,cultural movement,Hélio Oiticica
+Q643782,New German Cinema,1,1932,"video, new media and digital 1",Western Europe 1,contemp_pool,art movement (subclass),Alexander Kluge
+Q6026719,D Grubu,1,1899,painting 1,"Islamic world (MENA, Iran, Anatolia) 1",modern_ref,artist collective,Cemal Tollu
+Q4969006,Bristol School,1,1800,painting 1,Western Europe 1,modern_pool,art group,James Baker Pyne
+Q176483,Gothic architecture,1,1330,sculpture 1,Western Europe 1,modern_pool,subclass,Peter Parler
+Q574580,anti-nuclear movement,1,1945,painting 1,North America (settler) 1,contemp_pool,,Patrick Nagatani
+Q44506816,Q44506816,1,1836,painting 1,Western Europe 1,modern_pool,art movement,Eduardo Rosales
+Q1474763,Poetic realism,1,1927,painting 1,Western Europe 1,modern_pool,art movement,Jesús Carles de Vilallonga Rosell
+Q878864,New Leipzig School,1,1960,painting 1,Western Europe 1,contemp_pool,art movement|art style (subclass)|cultural movement (subclass),Neo Rauch
+Q2111003,Salon de la Rose + Croix,1,1869,painting 1,Western Europe 1,,,Pierre Amédée Marcel-Béronneau
+Q5095936,National Chicano Moratorium Committee Against the Vietnam War,1,1946,street art and muralism 1,South America 1,contemp_pool,,Judy Baca
+Q1210725,secession,1,1868,painting 1,Western Europe 1,,,Albin Egger-Lienz
+Q947129,Gothic painting,1,1350,painting 1,Western Europe 1,,,Piero di Puccio
+Q2096963,School of Tervuren,1,1854,painting 1,Western Europe 1,modern_ref,artist collective|art group,Franz Courtens
+Q9384967,Fifth Moon Group,1,1932,painting 1,China 1,modern_ref,art movement|artist collective,Liu Guosong
+Q7063969,Nouvelle tendance,1,1926,painting 1,Western Europe 1,modern_pool,art movement,François Morellet
+Q327909,Fotoform,1,1915,photography 1,Western Europe 1,modern_pool,artist collective,Otto Steinert
+Q2878528,Bad Painting,1,1961,painting 1,Western Europe 1,contemp_pool,art movement|painting movement|art style (subclass)|cultural movement (subclass)|art movement (subclass),
+Q7552587,Society of Painters in Tempera,1,1857,painting 1,Western Europe 1,,,Mary Sargant Florence
+Q4824756,Australian Tonalism,1,1875,painting 1,Western Europe 1,modern_ref,art movement,Max Meldrum
+Q1338114,Spin art,1,1934,painting 1,Western Europe 1,modern_pool,art movement,Alfons (Alphons) Schilling
+Q1743188,paintings in churches,1,1811,painting 1,Western Europe 1,,,Melchior Paul von Deschwanden
+Q2740095,Um 1800,1,1869,painting 1,Western Europe 1,modern_pool,subclass,Paul Schultze-Naumburg
+Q162324,International Style,1,1930,painting 1,"Islamic world (MENA, Iran, Anatolia) 1",modern_pool,subclass,Dani Karavan
+Q2449235,transition style,1,1734,design and decorative arts 1,Western Europe 1,,,Jean Henri Riesener
+Q4895430,Catalan Gothic,1,1445,painting 1,Western Europe 1,,,Jaume Huguet
+Q162150,abstraction,1,1882,painting 1,Western Europe 1,,,Auguste Herbin
+Q11135438,Jiangxi Poetry School,1,1045,painting 1,China 1,,,Huang Tingjian
+Q149836,Camden Town,1,1878,painting 1,Western Europe 1,,,Charles Ginner
+Q333625,absurdism,1,1886,drawing and illustration 1,Western Europe 1,,,Aleksei Kruchenykh
+Q1432603,alogism,1,1886,drawing and illustration 1,Western Europe 1,,,Aleksei Kruchenykh
+Q5580124,Generation of '50 (Perú),1,1924,visual art (unspecified) 1,South America 1,contemp_pool,art movement (subclass),Jorge Eduardo Eielson
+Q817169,Bengali Renaissance,1,1861,painting 1,Western Europe 1,,,Rabindranath Tagore
+Q891532,Bolognese school,1,1585,painting 1,Western Europe 1,,,Sisto Badalocchio
+Q131701861,School of Chios,1,-600,sculpture 1,Greco-Roman & Byzantine Mediterranean 1,,,Archermus
+Q1142000,Southern School,1,1301,painting 1,China 1,,,Ni Zan
+Q3577806,École de Murol,1,1861,painting 1,Western Europe 1,modern_pool,school of painting|art group,Armand Point
+Q61085156,Q61085156,1,1886,painting 1,Western Europe 1,,,Nicolae Tonitza
+Q11131431,Momoyama Culture,1,1883,painting 1,China 1,,,Rosanjin
+Q5653011,North Group,1,1937,painting 1,South America 1,modern_pool,cultural movement,Gerardo Chávez
+Q3483628,Signalism,1,1940,drawing and illustration 1,South America 1,contemp_pool,art movement|art style (subclass)|cultural movement (subclass)|art movement (subclass),Guillermo Deisler
+Q506858,photojournalism,1,1910,photography 1,Western Europe 1,,,Gerda Taro
+Q605789,war photography,1,1910,photography 1,Western Europe 1,,,Gerda Taro
+Q184719,anthroposophy,1,1861,painting 1,Western Europe 1,,,Rudolf Steiner
+Q98912326,Zaria Rebels,1,1934,visual art (unspecified) 1,Sub-Saharan Africa 1,modern_ref,art movement,Yusuf Grillo
+Q7067781,Nuagisme,1,1920,painting 1,Western Europe 1,modern_pool,art movement,Jean Messagier
+Q502163,Renaissance Revival architecture,1,1829,design and decorative arts 1,Western Europe 1,modern_pool,subclass,Auguste Jean
+Q15673106,symbolism,1,1874,painting 1,Western Europe 1,modern_pool,subclass,José María Eguren
+Q1358160,Leipzig School,1,1927,painting 1,Western Europe 1,modern_pool,school of painting,Wolfgang Mattheuer
+Q24312,Munich Secession,1,1848,painting 1,Western Europe 1,modern_pool,art movement|art group,Bruno Piglhein
+Q25313019,Figurative Constructivism,1,1894,painting 1,Western Europe 1,,,Franz Wilhelm Seiwert
+Q1054333,Centro de Arte y Comunicación,1,1937,painting 1,South America 1,contemp_pool,art movement|art style (subclass)|cultural movement (subclass),Luis Fernando Benedit
+Q21044296,Potosi School,1,1660,painting 1,Western Europe 1,,,Melchor Pérez de Holguín
+Q667661,literary realism,1,1822,photography 1,Western Europe 1,modern_pool,subclass,Maxime Du Camp
+Q2026876,Russian Revival architecture,1,1834,painting 1,Western Europe 1,modern_pool,subclass,Viktor Hartmann
+Q15941800,Ghent-Bruges school,1,1483,painting 1,Western Europe 1,,,Simon Bening
+Q2009002,Brabant fauvism,1,1882,painting 1,Western Europe 1,modern_pool,art movement,Rik Wouters
+Q4345828,Parsuna,1,1729,painting 1,Western Europe 1,,,Ivan Argunov
+Q3347056,Flemish Renaissance Revival architecture,1,1815,painting 1,Western Europe 1,modern_pool,subclass,Jan August Hendrik Leys
+Q125191,photograph,1,1952,photography 1,Western Europe 1,contemp_pool,,Martin Parr
+Q5640653,Neocubism,1,1882,painting 1,Western Europe 1,modern_pool,art movement,Daniel Vázquez Díaz
+Q16303875,Q16303875,1,1937,sculpture 1,Western Europe 1,contemp_pool,,Jean Rosset
+Q2344569,Bamboccianti,1,1599,painting 1,Western Europe 1,,,Jan Miel
+Q8778148,Bruguera school,1,1936,drawing and illustration 1,Western Europe 1,modern_pool,style,Francisco Ibáñez Talavera
+Q4752989,Ancients,1,1805,painting 1,Western Europe 1,modern_pool,art group,Samuel Palmer

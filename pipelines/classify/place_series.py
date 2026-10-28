@@ -153,7 +153,7 @@ def write(name, rows, cols, size=BATCH):
     return n
 
 
-def batches():
+def batches(only=None):
     os.makedirs(R, exist_ok=True)
     open(os.path.join(R, "anime_leaves.txt"), "w").write(leaves_text(("E",)))
     open(os.path.join(R, "tv_leaves.txt"), "w").write(leaves_text(("C", "D")))
@@ -162,9 +162,10 @@ def batches():
     na = write("anime", a, ["id", "title", "english", "type", "year", "episodes", "country", "is_adult", "studio", "genres", "top_tags", "tags", "film_tconst"])
     tv = tv_rows()
     dr = drama_rows({r["id"] for r in tv})
-    tvall = sorted(tv, key=lambda r: (r["country"] or "ZZ", r["years"])) + sorted(dr, key=lambda r: (r["country"], r["years"]))
-    nt = write("tv", tvall, ["id", "title", "native_title", "type", "years", "episodes", "country", "language", "network", "serial_flag",
-                             "imdb_genres", "tmdb_genres", "wd_genre", "keywords", "overview", "source"])
+    cols = ["id", "title", "native_title", "type", "years", "episodes", "country", "language", "network", "serial_flag",
+            "imdb_genres", "tmdb_genres", "wd_genre", "keywords", "overview", "source"]
+    nt = write("tv", sorted(tv, key=lambda r: (r["country"] or "ZZ", r["years"])), cols)
+    nt += write("drama", sorted(dr, key=lambda r: (r["country"], r["years"])), cols)
     u = unscripted_rows()
     nu = write("unscripted", u, ["id", "title", "cluster", "n_versions", "n_countries", "first_year", "source"])
     print(f"anime {len(a)} in {na}; tv {len(tv)} + drama {len(dr)} in {nt}; unscripted {len(u)} in {nu}")

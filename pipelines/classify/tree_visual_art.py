@@ -788,3 +788,62 @@ WEAK = {"K1-19": "attested through its buildings (Demak, Kudus); no item for the
         "I1-3": "English sources describe the technique; the Turkish term sedefkârlık is the attested name"}
 # Wikidata matches that must not be used (false matches found in review).
 BAD_QID = {"Q1189512", "Q12660335", "Q5834342", "Q1176707", "Q136386177", "Q183562"}
+
+
+# --------------------------------------------------------------------------
+# Scale-up (2026-10-28): sub-families the world's media need beyond the pilot,
+# and the scale-up leaves, which live in a data file because each region's
+# review proposes them: taxonomy/visual_art/leaves_scaleup.csv
+# (code, sub, label, breadth, defn, aliases, see, attest, slice). `attest` is a
+# Wikidata QID, an English Wikipedia title ("wiki:Title"), or a source URL.
+
+def _fam(code):
+    return next(f for f in FAMILIES if f["code"] == code)
+
+
+_fam("D")["subs"].append(("D6", "Ritual Objects & Regalia", "Axis: tradition. Carved or assembled objects made for ritual, office and power that are neither masks nor figures (staffs, reliquaries, altars, ceremonial weapons of office)."))
+_fam("H")["subs"] += [
+    ("H8", "Basketry, Barkcloth & Fibre Arts", "Axis: tradition. Coiled, twined and plaited basketry, matting and barkcloth (tapa)."),
+    ("H9", "Beadwork, Quillwork & Featherwork", "Axis: tradition."),
+]
+_fam("H")["key"].append("8. Basketry, matting or barkcloth? → <b>H8</b>. Beadwork, porcupine quillwork or featherwork as the work? → <b>H9</b>.")
+_fam("I")["subs"].append(("I4", "Musical Instruments", "Axis: tradition. Instruments studied as decorated objects, whatever their material."))
+_fam("I")["key"].append("4. A musical instrument? → <b>I4</b>.")
+_fam("D")["key"].append("6. An object of ritual or office (staff, reliquary, altar, regalia) that is not a mask or a figure? → <b>D6</b>.")
+_fam("K")["subs"] += [
+    ("K3", "Ancient Mediterranean & Near Eastern Architecture", "Axis: the civilisation's style (Egyptian, Mesopotamian, Greek orders, Roman)."),
+    ("K4", "Medieval European Architecture", "Axis: period style (Byzantine, Romanesque, Gothic and their regional schools)."),
+    ("K5", "Early Modern European & Colonial Architecture", "Axis: period style (Renaissance, Baroque, Rococo, Neoclassicism, Palladianism) and its colonial forms."),
+    ("K6", "Modern & Contemporary Architecture", "Axis: movement (Art Nouveau, Modernism, Art Deco, Brutalism, Postmodernism, Deconstructivism)."),
+    ("K7", "South Asian Architecture", "Axis: temple and building tradition (Nagara, Dravidian, Vesara, Buddhist, Indo-Islamic outside K1)."),
+    ("K8", "East Asian Architecture", "Axis: building tradition (Chinese, Japanese, Korean)."),
+    ("K9", "Southeast Asian Architecture", "Axis: building tradition (Khmer, Javanese, Burmese, Thai, Cham)."),
+    ("K10", "African Architecture", "Axis: building tradition (Sudano-Sahelian, Ethiopian rock-hewn, Great Zimbabwe, Swahili)."),
+    ("K11", "Indigenous American Architecture", "Axis: building tradition (Maya, Mesoamerican, Andean, Pueblo, Eastern Woodlands)."),
+    ("K12", "Vernacular & Oceanic Architecture", "Axis: building tradition (named vernacular styles, Pacific meeting houses)."),
+]
+_fam("K")["key"] = [
+    "1. A revival built outside the tradition it revives? → <b>K2</b> (P8).",
+    "2. A style of the Islamic world? → <b>K1</b>.",
+    "3. Otherwise the style's own tradition: ancient Mediterranean and Near East → K3; medieval Europe → K4; Europe and its colonies 1400–1850 → K5; modern and contemporary movements → K6; South Asia → K7; East Asia → K8; Southeast Asia → K9; Africa → K10; the Indigenous Americas → K11; named vernacular and Oceanic traditions → K12.",
+]
+PRECEDENCE += [
+    ("P11", "Period style before region", "In artist-led cells a painter, sculptor or printmaker goes to the movement or school their work is attested in; with no attested movement, to the period-style leaf of their medium (Baroque Painting, Romantic Painting ...), never to a country."),
+    ("P12", "Tradition per medium", "A culture is never a leaf by itself: its leaves are its traditions in each medium (Yoruba sculpture, Yoruba beadwork), so one culture can hold several leaves across families. A culture known for one medium only gets one leaf there."),
+    ("P13", "Archaeological cultures", "An archaeological culture known for one dominant medium (Nok terracottas, Jōmon pottery) is a leaf in that medium; its other finds are kinds or see-also, not separate leaves, unless the field names them."),
+]
+
+
+def _load_scaleup():
+    import csv as _csv
+    import os as _os
+    p = _os.path.join(_os.path.dirname(__file__), "..", "..", "taxonomy", "visual_art", "leaves_scaleup.csv")
+    if not _os.path.exists(p):
+        return
+    for r in _csv.DictReader(open(p, encoding="utf-8")):
+        LEAVES.setdefault(r["sub"], []).append((r["code"], r["label"], r["breadth"], r["defn"], r["aliases"], r["see"], r["attest"]))
+
+
+_load_scaleup()
+_fam("L")["subs"].append(("L6", "Floor & Sand Painting", "Axis: tradition. Ephemeral designs drawn on the floor or ground in powder, sand or rice paste (rangoli, kolam, Navajo dry painting)."))
+_fam("L")["key"].append("6. An ephemeral design drawn on a floor or the ground in powder, sand or paste? → <b>L6</b>.")

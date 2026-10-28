@@ -1,0 +1,76 @@
+tmp,kind,group,basis
+L1,Kishangarh,school,excluded row Rajput: Kishangarh (painting 16)
+L1,Nathdwara,school,excluded row Rajput: Nathdwara; maker Ghasiram
+L1,Bundelkhand,school,excluded row
+L1,Sirohi,school,excluded row
+L1,Raghogarh,school,excluded row
+L1,Deogarh,school,"excluded row; makers Chokha, Kushala"
+L1,Isarda,school,excluded row
+L1,Sawar,school,excluded row
+L1,Alwar,school,excluded row
+L1,Chokha,Mewar/Deogarh,"named maker (Mewar row, Deogarh row)"
+L1,Nasiruddin,Mewar,named maker
+L1,Mewar Stipple Master,Mewar,named maker
+L1,Jiva,Mewar,named maker
+L1,Jugarsi,Mewar,named maker
+L1,Ruknuddin,Bikaner,named maker
+L1,Ustad Murad,Bikaner,named maker
+L1,Nathu,Bikaner,named maker
+L1,Sahib Ram,Jaipur,named maker
+L1,Chhajju Lal,Jaipur,named maker
+L1,Amar Das Bhatti,Marwar,named maker
+L1,Dana Bhatti,Marwar,named maker
+L1,Ghasiram,Nathdwara,named maker (Ghasiram Hardev Sharma)
+L2,Mankot,school,excluded row
+L2,Jasrota,school,excluded row; Nainsukh
+L2,Arki,school,excluded row
+L2,Nainsukh,Guler/Jasrota,"named maker (Guler, Jammu, Jasrota rows)"
+L2,Manaku,Guler,named maker
+L2,Fattu,Guler-Kangra,named maker
+L2,Purkhu,Kangra,named maker
+L2,Sanju,,named maker
+L2,Mola Ram,Garhwal,named maker
+L2,Mangat Ram,Garhwal,named maker
+L2,Mangnu,Chamba,named maker
+L2,Kripal of Nurpur,Nurpur,named illuminator
+L2,Master of the court of Mandi,Mandi,named maker
+A1-4,La'l,Imperial Mughal atelier,named maker
+A1-4,Kesav Kalan,Imperial Mughal atelier,named maker
+A1-4,Basawan,Imperial Mughal atelier,named maker
+A1-4,Miskina,Imperial Mughal atelier,named maker
+A1-4,Manohar,Imperial Mughal atelier,named maker
+A1-4,Govardhan,Imperial Mughal atelier,named maker
+A1-4,Faizullah,Awadh,named maker (Fayzullah)
+A1-4,Dip Chand,Murshidabad,named maker
+A1-5,Bijapur,school,excluded row Deccani: Bijapur (painting 12)
+A1-5,Rahim Deccani,,named maker
+A1-6,Shiva Lal,Patna,named maker
+A1-6,Mazhar Ali Khan,Delhi,named maker
+A1-6,Bahadur Lal II,Patna,named maker
+A1-6,Brahmin Sadanand,,named maker
+L8,Gobinda Chandra Roy,,named maker
+L8,Kali Charan Ghosh,,named maker
+L8,Kanai Lal Ghosh,,named maker
+L8,Nibaran Chandra Ghosh,,named maker
+L12,Baua Devi,,named maker
+L12,Santosh Kumar Das,,named maker
+L12,Chano Devi,,named maker
+L12,Arhulya Devi,,named maker
+L12,Gopal Saha,,named maker
+L7,Jadupatua,Santal,alias list Q12428675
+L6,Raghurajpur,centre,alias list
+L21,Togalu gombeyata,Karnataka,row label
+L42,Machilipatnam (Pedana),block-printed,alias list; excluded row Pedana kalamkari Q16934557
+L42,Srikalahasti,pen-drawn,alias list; excluded row Q22281001
+L36,Bagh,sub-type,alias list
+L38,Nakshi kantha,sub-type,alias list
+L46,Patan patola,centre,alias list
+L25,Kurkihar,centre,"excluded row Indian, Kurkihar (Pala)"
+L25,Nalanda,centre,excluded rows Nalanda (Pala)
+L53,Central Indian rock shelters,sub-group,"row label (Pancmukhi, Mukhadri)"
+L62,Kolam,sub-type,row label
+L62,Kalamezhuthu,sub-type,row label
+L63,Naga tattooing,Northeast,row label
+L63,Apatani tattooing,Northeast,row label
+L54,John Griffiths,Griffiths copies,named maker (Ajanta row)
+G1-6,Loodoo Lall,Bidar,named maker
