@@ -59,7 +59,15 @@ The target depth is the owner-supplied list in `seeds/visual-art/europe_1400-190
    Medium is the third cell axis: features are percentiles within medium × period. The reference list is painting movements, so the model is **fitted on the painting cells plus every reference artist** (Bernini, Canova and Piranesi count as positives), and then scores every medium with the same coefficients and cutoff. Famous sculptors and architects aren't on a painting list, so treating them as negatives would teach the model the wrong thing.
 2. Features: sitelinks, pageviews, number of open-access museums holding work, number of Heilbrunn Timeline works, ULAN record, WikiArt ID, and Art UK / RKD / national-database IDs.
 3. Fit a simple, interpretable model (logistic regression) predicting reference membership. Pick the score cutoff that recovers about 95% of the reference, which matches "if in doubt, include".
-4. Apply the same model to every other region × period cell. Features are percentile-normalised within the cell, so thinner Wikipedia coverage elsewhere doesn't empty those cells.
+4. **Decided (2026-10-28): each region × period cell has an attribution profile, and it decides the main node type.** The profile is measured as the share of attributed objects in the museum data (Met, regional sweeps), not assumed.
+   - **Tradition-led cells:** Persian and Islamic book painting, Mughal and Rajput painting, Byzantine icons, medieval Europe, most of Africa, Oceania and the pre-Columbian Americas.
+     - The primary nodes are schools, styles and workshops (Timurid Herat, Safavid Tabriz, the Mughal atelier, Mewar, Kangra/Pahari, Deccani, ...), selected with the tradition metric (§2A), not the artist model.
+     - Named masters (Behzad, Reza Abbasi, Basawan, Nainsukh) hang under their school and come in with it.
+     - Landmark works can be nodes in their own right where they define a tradition (the *Shahnameh* of Shah Tahmasp, the *Hamzanama*, the *Book of Kells*).
+   - **Artist-led cells:** Europe from about 1400, Chinese literati painting, ukiyo-e and Rinpa, colonial and modern Latin America. The artist model applies here, with schools and movements as the grouping above the artists.
+   - **Mixed cells** use both.
+   So the step below, applying the artist model to other cells, applies only to artist-led and mixed cells:
+   Apply the same model to every other region × period cell. Features are percentile-normalised within the cell, so thinner Wikipedia coverage elsewhere doesn't empty those cells.
    **Decided (2026-10-27): harvest candidates once, take the evidence per region × era.** Wikidata is global, so the candidate fetch is done once worldwide and cached. Each region's config (`pipelines/visual_art/regions.py`) then names its own evidence:
    - **who counts as an artist:** painters for Europe; ink painters, calligraphers and ukiyo-e print designers for East Asia; miniaturists, illuminators and calligraphers for the Islamic world;
    - **which collections are decisive:** the Met, AIC and Cleveland as an encyclopedic baseline everywhere, plus specialists such as ColBase, the National Palace Museum and the National Museum of Asian Art for East Asia, or the V&A and the British Library for South Asia;
