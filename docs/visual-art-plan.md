@@ -155,6 +155,9 @@ The target depth is the owner-supplied list in `seeds/visual-art/europe_1400-190
   The Europe model's recall on this list is measured, and the model is refit if needed (`build_modern_reference.py`). The candidate list is reviewed before it goes into `seeds/visual-art/`.
 - **Overlaps:** artists active 1860–1900 are also in the Europe 1400–1900 pass, and those born 1920–1940 are also in the contemporary pool. Selections are unioned by QID.
 - **Runner:** `pipelines/visual_art/run_modern.sh`.
+- **First run (2026-10-28):** 15,320 selected across the nine regions, before deduplication. The missing names are now in: Picasso, Magritte, Henry Moore, Duchamp, Kahlo, Rivera, Pollock, Rothko, O'Keeffe, Xu Beihong, Sadequain, M. F. Husain, Affandi, Siqueiros. Two fixes followed:
+  - **Region assignment.** Wikidata lists imperial and transcontinental states on every continent they reached: France in South America and Oceania, the German Empire in Africa and Oceania, the Ottoman Empire in Africa. That put Gorky and Gibran into Sub-Saharan Africa and Max Ernst into Latin America. Modern regions now give each country a single home continent (`regions.HOME_CONTINENT_ORDER`). Explicit country lists still win.
+  - **Incidental artists.** Writers, politicians and filmmakers with one art occupation, such as W. E. B. Du Bois, scored highly in thin regions. Every pool now carries `art_occ_share`, and selection multiplies the score by min(1, share/0.5) for non-reference artists, as for contemporary art. Tagore and other significant painter-writers can still pass on attention. The Europe 1400–1900 selection is re-run with the same factor; its coefficients are unchanged.
 
 ### 2.5 Getty vocabularies: dropped from this project (decided 2026-10-28)
 Getty AAT/ULAN IDs are **not required**:

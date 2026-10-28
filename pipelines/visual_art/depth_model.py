@@ -111,6 +111,7 @@ def load_features(region):
         rows.append({
             "qid": q, "label": p["label"], "birth": p["birth"], "period": p["period"], "medium": p["medium"],
             "in_pool_rule": int(p["in_pool_rule"]), "is_reference": int(p["is_reference"]),
+            "art_occ_share": p.get("art_occ_share", ""),
             "sitelinks": num(p["sitelinks"]),
             "pageviews": num(v.get("pageviews")),
             "museum_objects": sum(objects),
@@ -171,14 +172,22 @@ def select(rows, scores, cutoff, cfg):
     above the cutoff, except media the region excludes from model selection
     (architecture enters through its styles and buildings, not through this model)."""
     excluded = set(cfg.get("model_excluded_media", []))
-    return np.array([bool(r["is_reference"]) or (bool(r["in_pool_rule"]) and s >= cutoff and r["medium"] not in excluded)
+    return np.array([bool(r["is_reference"]) or (bool(r["in_pool_rule"]) and s * art_factor(r) >= cutoff
+                                                  and r["medium"] not in excluded)
                      for r, s in zip(rows, scores)], dtype=bool)
+
+
+def art_factor(row, full_share=0.5):
+    """Down-weight people for whom art is a minor occupation (same rule as contemporary
+    art: min(1, art_occ_share / 0.5)); unknown share counts as 1."""
+    share = row.get("art_occ_share")
+    return 1.0 if share in (None, "") else min(1.0, float(share) / full_share)
 
 
 def write_scores(region, rows, scores, cutoff):
     sel = select(rows, scores, cutoff, REGIONS[region])
     out = os.path.join(DATA, f"scores_{region}.csv")
-    cols = ["qid", "label", "birth", "medium", "cell", "in_pool_rule", "is_reference", "score", "selected"] + FEATURES
+    cols = ["qid", "label", "birth", "medium", "cell", "in_pool_rule", "is_reference", "art_occ_share", "score", "selected"] + FEATURES
     with open(out, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
         w.writeheader()

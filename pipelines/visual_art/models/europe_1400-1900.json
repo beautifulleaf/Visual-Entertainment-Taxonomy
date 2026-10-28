@@ -11,18 +11,18 @@
  ],
  "feature_transform": "within-cell mid-rank percentile",
  "coef": [
-  0.938586,
-  5.399404,
+  0.938596,
+  5.39935,
   0.0,
-  0.395839,
-  1.983282,
-  0.263187,
-  1.347716
+  0.395966,
+  1.983237,
+  0.263057,
+  1.347624
  ],
- "intercept": -10.134425,
+ "intercept": -10.134303,
  "recall_target": 0.9,
- "cutoff": 0.022243,
+ "cutoff": 0.022244,
  "n_artists": 41453,
  "n_reference": 889,
- "n_selected": 10543
+ "n_selected": 9973
 }

@@ -126,6 +126,10 @@ REGIONS = {
     # },
 }
 
+# A multi-continent country's home continent is the first of these it lists
+# (used by regions with "home_continent": True).
+HOME_CONTINENT_ORDER = [EUROPE, NORTH_AMERICA, SOUTH_AMERICA, AFRICA, OCEANIA, INSULAR_OCEANIA, AUSTRALIA, ASIA]
+
 # Country groups for regions that cut across continents (QIDs verified by label).
 LATIN_AMERICA_NORTH = [
     "Q96", "Q774", "Q242", "Q783", "Q792", "Q811", "Q800", "Q804",  # Mexico, Central America
@@ -166,6 +170,7 @@ for _name, _geo in MODERN_REGIONS.items():
         "continents": _geo.get("continents", []),
         "countries": _geo.get("countries", []),
         "exclude_countries": _geo.get("exclude_countries", []),
+        "home_continent": True,
         "min_sitelinks": 3,
         "reference": None,
         "collections": GLOBAL_COLLECTIONS,

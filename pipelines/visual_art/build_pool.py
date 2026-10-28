@@ -30,13 +30,14 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from reference import load_reference  # noqa: E402
-from regions import GLOBAL_IDS, MEDIA, REGIONS, active_span, period_of  # noqa: E402
+from regions import GLOBAL_IDS, HOME_CONTINENT_ORDER, MEDIA, REGIONS, active_span, period_of  # noqa: E402
 from wikidata import sparql, year_of  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 RAW = os.path.join(ROOT, "data", "raw", "wikidata", "pool")
 OUT_DIR = os.path.join(ROOT, "data", "interim", "visual_art")
 
+ART_OCCUPATIONS = {o for occs in MEDIA.values() for o in occs} | {"Q483501"}  # + "artist"
 # Union over all regions, so one cached fetch serves every pass.
 AUTHORITY_IDS = sorted({p for cfg in REGIONS.values() for p in cfg["authority_ids"]})
 FACT_PROPS = ["P27", "P136", "P135"] + list(GLOBAL_IDS) + AUTHORITY_IDS
@@ -249,11 +250,21 @@ def main():
     region_continents, region_countries = set(cfg["continents"]), set(cfg["countries"])
     excluded = set(cfg.get("exclude_countries", []))
 
+    def country_continents(c):
+        conts = continents.get(c, [])
+        if cfg.get("home_continent") and len(conts) > 1:
+            # Imperial and transcontinental states list every continent they reached
+            # (France: South America, Oceania; German Empire: Africa, Oceania), which
+            # put French and German artists into Latin America, Oceania and Africa.
+            # Use one home continent instead.
+            conts = [next(h for h in HOME_CONTINENT_ORDER + conts if h in conts)]
+        return set(conts)
+
     def in_region(claims):
         for key in ("P27", "birth_country", "death_country"):
             cs = claims.get(key, [])
             if cs:  # first property that has any country decides
-                return any(c in region_countries or (c not in excluded and region_continents & set(continents.get(c, [])))
+                return any(c in region_countries or (c not in excluded and region_continents & country_continents(c))
                            for c in cs)
         return None  # no country information at all
 
@@ -283,6 +294,10 @@ def main():
         media = [m for m in cfg["media"] if set(MEDIA[m]) & set(occupations.get(q, []))]
         row["medium"] = media[0] if media else "visual art (unspecified)"
         row["media"] = "|".join(media)
+        # Share of the person's occupations that are art occupations; depth_model
+        # down-weights people for whom art is incidental (writers, politicians...).
+        occ = set(occupations.get(q, []))
+        row["art_occ_share"] = round(len(occ & ART_OCCUPATIONS) / len(occ), 3) if occ else ""
         for pid, name in GLOBAL_IDS.items():
             row[f"{name}_id"] = (claims.get(pid) or [""])[0]
         # Which authority IDs the artist has; depth_model.py counts the region's own.
