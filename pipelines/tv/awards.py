@@ -178,8 +178,13 @@ def wikitext(lang, title, offline=False):
 
 def resolve_redirects(lang, titles):
     """{title: target} for titles that are redirects (MediaWiki API, 50 per call)."""
-    out = {}
-    titles = sorted(titles)
+    cache_path = os.path.join(RAW, f"redirects_{lang}.json")
+    cache = {}
+    if os.path.exists(cache_path):
+        with open(cache_path, encoding="utf-8") as f:
+            cache = json.load(f)
+    out = {t: cache[t] for t in titles if cache.get(t)}
+    titles = sorted(t for t in titles if t not in cache)
     for i in range(0, len(titles), 50):
         url = f"https://{lang}.wikipedia.org/w/api.php?" + urllib.parse.urlencode({
             "action": "query", "titles": "|".join(titles[i:i + 50]), "redirects": 1, "format": "json"})
@@ -193,6 +198,9 @@ def resolve_redirects(lang, titles):
                 out[t] = red[n]
             elif n != t:
                 out[t] = n
+            cache[t] = out.get(t, "")
+        with open(cache_path, "w", encoding="utf-8") as f:
+            json.dump(cache, f, ensure_ascii=False, indent=0)
     return out
 
 
@@ -312,6 +320,8 @@ def parse_table(text, winners_only=False, title_cell="first"):
     out = []
     for heading_year, rows in tables(clean(text)):
         year = heading_year
+        # Gold/silver tables (Magnolia foreign series) list winners only.
+        all_won = any(c[2] == "!" and "Golden Award" in c[1] for _, cells in rows for c in cells)
         for row_attrs, cells in rows:
             if not cells:
                 continue
@@ -333,7 +343,7 @@ def parse_table(text, winners_only=False, title_cell="first"):
             if not found:
                 continue
             blob = (row_attrs + " " + " ".join(a + " " + c for a, c, _ in cells)).lower()
-            won = 1 if winners_only or any(k in blob for k in WIN_MARKERS) else 0
+            won = 1 if winners_only or all_won or any(k in blob for k in WIN_MARKERS) else 0
             out.append((year, won, found[0], found[1]))
     return out
 
@@ -462,18 +472,20 @@ def wikidata_awards():
     for award, category, qids, _, _ in AWARDS:
         for q in qids:
             by_qid[q] = (award, category)
-    q = """SELECT ?root ?item ?kind ?work ?t WHERE {
-      VALUES ?root { %s }
-      ?cat wdt:P279* ?root .
-      { ?item p:P166 ?st . ?st ps:P166 ?cat . BIND("won" AS ?kind) }
-      UNION { ?item p:P1411 ?st . ?st ps:P1411 ?cat . BIND("nom" AS ?kind) }
-      OPTIONAL { ?st pq:P1686 ?work }
-      OPTIONAL { ?st pq:P585 ?t }
-    }""" % " ".join("wd:" + x for x in by_qid)
+    cats = {}
+    for r in sparql("SELECT ?root ?cat WHERE { VALUES ?root { %s } ?cat wdt:P279* ?root . }"
+                    % " ".join("wd:" + x for x in by_qid)):
+        cats.setdefault(r["cat"], r["root"])
     out = []
-    for r in sparql(q):
-        award, category = by_qid[r["root"]]
-        out.append((award, category, year_of(r.get("t")), 1 if r["kind"] == "won" else 0, r.get("work") or r["item"]))
+    for cat, root in sorted(cats.items()):
+        award, category = by_qid[root]
+        for r in sparql("""SELECT ?item ?kind ?work ?t WHERE {
+              { ?item p:P166 ?st . ?st ps:P166 wd:%s . BIND("won" AS ?kind) }
+              UNION { ?item p:P1411 ?st . ?st ps:P1411 wd:%s . BIND("nom" AS ?kind) }
+              OPTIONAL { ?st pq:P1686 ?work }
+              OPTIONAL { ?st pq:P585 ?t } }""" % (cat, cat)):
+            out.append((award, category, year_of(r.get("t")), 1 if r["kind"] == "won" else 0,
+                        r.get("work") or r["item"]))
     return out
 
 
