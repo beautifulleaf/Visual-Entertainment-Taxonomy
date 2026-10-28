@@ -94,18 +94,18 @@ def build(census):
 <h3>Census</h3>
 <p>Film &amp; Television leaves with no title in this release: {', '.join(ft['empty_leaves']) or 'none'} (Pink Film and Roman Porno: the selection has no pink-circuit or Nikkatsu titles; Korean New Wave: its one candidate keeps its neo-noir leaf and carries the movement tag). Visual Art leaves with no kind yet: {len(va['empty_leaves'])} — attested traditions whose sub-types and makers are not in the gathered evidence. Leaves whose attestation is still weak carry a yellow note on their card: {len(va['weak'])} in Visual Art, {len(ft['weak'])} in Film &amp; Television.</p>
 
-<h2 id="r-rulings">Rulings needed</h2>
-<div class="q"><b class="id">R1</b> <b>New Hollywood against genre cycles.</b> Under D1 a genre cycle beats a movement. Is the Hollywood blockbuster or horror classic of an attested New Hollywood director (<i>Jaws</i>, <i>The Exorcist</i>) a cycle member or a movement member? The release keeps the genre leaf and tags the movement.</div>
-<div class="q"><b class="id">R2</b> <b>The inclusion rule and European folk art.</b> Dala horse, rosemaling, Quimper faience, santons, Erzgebirge carving, Fair Isle and others fall below §2.3 (fewer than 50 objects in the gathered evidence) and have no leaf; the lists are in <code>taxonomy/visual_art/review/gapsweep_europe_below_rule.csv</code> and <code>probefix_below_rule.csv</code> (31 items, among them Gobelins and Beauvais tapestry, which fail only because the Met files its tapestries under "French textiles" without the manufactory, Nottingham alabaster, tartan and Shaker furniture). An exception for attested folk traditions, or leave them out?</div>
-<div class="q"><b class="id">R3</b> <b>Medieval illumination.</b> Western illumination sits in Book Arts (C2) and partly in the artist cells (Gothic Book Illustration, Ghent-Bruges); Byzantine and Armenian illumination sit in Painting (A1) by P1. One home for medieval illumination?</div>
-<div class="q"><b class="id">R4</b> <b>North American settler folk art</b> (Amish quilts, fraktur, decoys, weathervanes, hooked rugs, tramp art) was built in the Europe slice because the pool filed it there. Keep it with European folk, or a North American folk sub-family?</div>
-<div class="q"><b class="id">R5</b> <b>Intangible-heritage rows with no objects.</b> Kept as leaves where they name a craft (telepuk, tekat, Daluang), excluded where they name garments, mats or performances. Confirm the line.</div>
-<div class="q"><b class="id">R6</b> <b>Artist fallbacks.</b> 26,555 artists are placed by a medium × region × birth-period rule; Modern Art (8,065) and Contemporary Art (3,394) are the largest leaves. Accept period-style leaves as the home for artists with no attested movement, or split modern and contemporary art further (by country or medium)?</div>
-<div class="q"><b class="id">R7</b> <b>Movement against medium.</b> About 190 artists of conceptual, Fluxus, mail art, minimal and kinetic movements are placed under their movement (installation, new media, sculpture) rather than their recorded medium. Confirm.</div>
-<div class="q"><b class="id">R8</b> <b>Scope edges.</b> Fashion designers (Possession taxonomy?), comics (manga, ligne claire: a comics tab?), filmed stage productions (placed by stage genre, F28), vertical micro-dramas (a leaf, C1-17), BL and GL as one leaf (C2-11).</div>
-<div class="q"><b class="id">R9</b> <b>Animated television specials over 40 minutes</b> (<i>Rudolph the Red-Nosed Reindeer</i>, 47 min) stay in Animated Feature; the special leaf (B1-5) takes 40 minutes or less. Keep the 40-minute line for specials?</div>
-<div class="q"><b class="id">R10</b> <b>Weak attestations.</b> The yellow notes on the leaf cards list labels resting on a museum page, a blog or a broader article. Accept them for this release, or hold those leaves until a better source is found?</div>
-
+<h2 id="r-rulings">Decisions taken (2026-10-28)</h2>
+<p>You left these calls to me. They are applied in this release and recorded here so they can be reversed later.</p>
+<div class="q"><b class="id">R1</b> <b>New Hollywood against genre cycles.</b> D1 holds: a Hollywood blockbuster or horror classic by an attested New Hollywood director (<i>Jaws</i>, <i>The Exorcist</i>) keeps its genre leaf and carries the movement as a tag. The movement leaf keeps its members with no genre home.</div>
+<div class="q"><b class="id">R2</b> <b>The inclusion rule.</b> §2.3 stands. One exception: a tradition that fails only because the source does not record it (not because the objects are absent) is admitted. On that ground Gobelins Tapestry and Beauvais Tapestry are leaves. The other 29 below-rule traditions (Dala horse, rosemaling, Quimper, santons, Erzgebirge, Fair Isle, Nottingham alabaster, tartan, Shaker furniture …) stay out and are listed in <code>taxonomy/visual_art/review/gapsweep_europe_below_rule.csv</code> and <code>probefix_below_rule.csv</code> for a later evidence pass.</div>
+<div class="q"><b class="id">R3</b> <b>Medieval illumination.</b> Stays split by P1: the illustrated book as a book (Western illumination schools) is Book Arts C2; a manuscript painting tradition named as painting (Byzantine, Armenian, Persian, Mughal) is Painting A1. The Gothic and Ghent-Bruges artist cells keep their illuminators.</div>
+<div class="q"><b class="id">R4</b> <b>North American settler folk art</b> (Amish quilts, fraktur, decoys, weathervanes, hooked rugs, tramp art) stays as leaves in its media; settler and colonial origin is a filter (P7), not a sub-family.</div>
+<div class="q"><b class="id">R5</b> <b>Intangible-heritage rows with no objects.</b> The line stands: a named craft tradition is a leaf when attested (telepuk, tekat, Daluang); a garment, mat type or performance is excluded (P10).</div>
+<div class="q"><b class="id">R6</b> <b>Artist fallbacks.</b> Period-style leaves are the home for artists with no attested movement (P15, P16). Splitting Modern Art and Contemporary Art further by country is left to the next artist pass.</div>
+<div class="q"><b class="id">R7</b> <b>Movement against medium.</b> Conceptual, Fluxus, mail art, minimal and kinetic artists follow their movement (installation, new media, sculpture), since those movements define the medium.</div>
+<div class="q"><b class="id">R8</b> <b>Scope edges.</b> Fashion designers belong to the Possession taxonomy: those found so far are excluded (Chanel, Doucet), and the rest are left to the next artist pass; manga, Franco-Belgian and American comics stay in Drawings &amp; Prints until a comics tab exists; filmed stage productions go by stage genre (F28); vertical micro-dramas keep their leaf (C1-17); BL and GL share one leaf (C2-11).</div>
+<div class="q"><b class="id">R9</b> <b>Animated television specials.</b> The 40-minute line holds; longer specials (<i>Rudolph the Red-Nosed Reindeer</i>) are animated features with B1-5 as see-also.</div>
+<div class="q"><b class="id">R10</b> <b>Weak attestations.</b> Accepted for this release; the yellow notes stay on the cards until a better source is found.</div>
 <h2 id="r-open">Your open items</h2>
 <ul>
 <li><b>Black Rain</b> (Imamura, 1989) is added to the film selection and placed in Atomic Bomb Film. The Japan 1980s top-up took films that were all above the main bar, so it added nothing below it; other near misses there: <i>Godzilla 1985</i>, <i>Sweet Home</i>, <i>Mermaid Legend</i>.</li>
@@ -119,7 +119,7 @@ def build(census):
 
 <h2 id="r-next">Next</h2>
 <ol>
-<li>Your rulings R1–R10, then the sweeps they imply.</li>
+<li>An evidence pass for the 29 below-rule traditions (R2) and a lace sweep (Binche, Valenciennes).</li>
 <li>Kinds for the Visual Art leaves that have none (sub-types and makers from the object records).</li>
 <li>A second artist pass for the low-confidence period placements, by country and medium.</li>
 <li>The frozen release: codes fixed, append-only from then on.</li>
