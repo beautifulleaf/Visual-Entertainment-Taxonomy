@@ -178,7 +178,7 @@ SEEDS = {
             "Palace of Fine Arts", "Mirogoj Cemetery", "Rila Monastery", "Kremikovtsi Monastery", "Saviour Church on Nereditsa",
             "Wat Pho", "Shwedagon Pagoda", "Lalibela", "Church of Debra Berhan Selassie", "Tomb of the Diver",
             "Tomb of Philip ΙΙ", "Sveshtari", "Ostrog monastery", "Mileševa", "Hosios Loukas",
-            "Mystras", "Monastery of Saint John the Theologian"],
+            "Mystras", "Monastery of Saint John the Theologian", "Litema"],
     MOSAIC: ["Basilica of San Vitale", "Mausoleum of Galla Placidia", "Early Christian Monuments of Ravenna",
              "Basilica of Sant'Apollinare Nuovo", "Hagia Sophia", "Dome of the Rock", "Umayyad Mosque",
              "Saint Sophia Cathedral", "Saint Michael's Golden-Domed Monastery", "Cappella Palatina",
@@ -197,7 +197,7 @@ SEEDS = {
            "Hawaii tattoo", "kakau", "moko kauae", "Berber tattoo", "henna", "uli", "Kalinga tattoo",
            "Mentawai tattoo", "Chin tattoo", "godna", "Nuba scarification", "sailor tattoos", "Olympic tattoo",
            "Prison tattooing", "American traditional tattoo", "tattooing in China", "tattooing in India",
-           "tattooing in Myanmar", "tattoos in Palau", "rajah", "tebori", "Litema"],
+           "tattooing in Myanmar", "tattoos in Palau", "rajah", "tebori"],
 }
 
 # ---------------------------------------------------------------- world regions
@@ -570,12 +570,12 @@ RULES = [
     R("MU33", "Lao and Cambodian temple murals", MURAL, "SE Asia", "", iso=S("LA KH"), before=1950, undated_ok=True),
     R("MU34", "Indonesian and Vietnamese wall painting", MURAL, "SE Asia", "", iso=S("ID VN MY PH"), before=1900),
     # --- Egypt & Nubia, Aegean, Etruria, Rome
+    R("MU42", "Nubian Christian wall painting (Faras)", MURAL, "Egypt & Nubia", "8th-14th c.", iso=S("SD SS EG"),
+      text=r"faras|nubia|dongola|pachoras|abdallah|sonqi|banganarti"),
     R("MU40", "Egyptian tomb and temple painting", MURAL, "Egypt & Nubia", "c. 3100 BCE-4th c. CE", iso=S("EG"),
       before=400, undated_ok=True, notext=r"coptic|monaster|church|christian|mosque|cairo"),
     R("MU41", "Coptic monastic wall painting (Bawit, Red Monastery)", MURAL, "Egypt & Nubia", "4th-13th c.", iso=S("EG"),
       text=r"coptic|monaster|church|christian|anba|bawit|saqqara|red monastery|white monastery|deir"),
-    R("MU42", "Nubian Christian wall painting (Faras)", MURAL, "Egypt & Nubia", "8th-14th c.", iso=S("SD SS EG"),
-      text=r"faras|nubia|dongola|pachoras|abdallah|sonqi|banganarti"),
     R("MU43", "Aegean Bronze Age wall painting (Thera, Knossos)", MURAL, "Greco-Roman/Byzantine", "c. 1700-1200 BCE",
       iso=S("GR"), text=r"thera|akrotiri|santorini|knossos|minoan|crete|mycen|pylos|tiryns|amnisos|agia triada",
       before=-1000, undated_ok=True, wd="Wall Paintings of Thera"),
@@ -729,6 +729,8 @@ RULES = [
     R("BA16", "Aboriginal Australian body painting", BODY, "Aboriginal Australia", "", text=r"aborigin|australia|yolngu|tiwi"),
     R("BA17", "Western sailor, prison and modern tattooing", BODY, "Western Europe", "18th c. onward (modern)",
       text=r"sailor|prison|olympic|american traditional|old school|neo-traditional|western|tribal|criminal|biker|military"),
+    R("BA19", "Catholic tattooing in Bosnia and Herzegovina (sicanje)", BODY, "C&E Europe", "",
+      text=r"christian tattooing|bosnia|sicanje|stećak|croat"),
     R("BA18", "Body painting traditions (general)", BODY, None, "", text=r"body paint|face ?paint"),
 ]
 
@@ -1204,7 +1206,10 @@ def main():
         else:
             cname = c["countries"].split("|")[0] if c["countries"] else "no country"
             kname = "rock relief" if c.get("relief") else c["kind"]
-            c["tradition"] = f"{kname} - {cname} ({era_bucket(c['year'])})" if c["kind"] != BODY else f"{c['label']} (body art)"
+            if c["kind"] == BODY:  # generic / anatomical / commercial tattoo items: one pooled row, not nodes
+                c["tradition"], c["region"] = "Body art - unassigned Wikidata items (generic, anatomical, modern)", "unassigned"
+                continue
+            c["tradition"] = f"{kname} - {cname} ({era_bucket(c['year'])})"
             c["region"] = default_region(iso0, c["year"], c["kind"], c["lon"]) or "unknown"
 
     # ---- site-level exemplars (works roll up to their location)
@@ -1288,6 +1293,20 @@ def main():
             "sources": "Wikidata classes/P2079/P136" + ("; UNESCO WHS" if any(s["is_whs"] or s["part_whs"] for s in ss) else "")
                        + ("; seed labels" if any(s["site_qid"] in seed_q for s in ss) else ""),
         })
+    # rules whose Wikidata tradition item exists but no site was assigned: still a candidate node
+    have = set(by_trad)
+    for r in RULES:
+        t = r["tradition"]
+        if r["region"] and r.get("wd") in rule_wd and t not in have and BODY not in r["kinds"]:
+            have.add(t)
+            x = rule_wd[r["wd"]]
+            trows.append({
+                "label": t, "qid": x, "qid_label": lab(x), "kind": sorted(r["kinds"], key=KINDS.index)[0],
+                "region": r["region"], "country": "", "era": r["era"], "year_min": "", "year_max": "", "n_sites": 0,
+                "n_unesco": 0, "n_heritage": 0, "n_works": 0, "n_museum_works": 0, "sum_sitelinks": meta.get(x, (0,))[0],
+                "top_exemplars": "", "wikidata_items_linked": f"{lab(x)} ({x})", "node_source": "rule",
+                "rules": r["id"], "sources": "Wikidata tradition item (no sites matched)",
+            })
     # body-art traditions (Wikidata items only): grouped by rule, each item listed
     by_btrad = collections.defaultdict(list)
     for b in body:
@@ -1295,15 +1314,17 @@ def main():
     for t, bs in by_btrad.items():
         bs.sort(key=lambda b: -b["sitelinks"])
         r = rule_by_trad.get(t)
-        q_ = trad_qid.get(t, "") or (bs[0]["qid"] if not r else "")
+        pooled = t.startswith("Body art - unassigned")
+        q_ = trad_qid.get(t, "")
         trows.append({
             "label": t, "qid": q_, "qid_label": lab(q_) if q_ else "", "kind": BODY, "region": bs[0]["region"],
             "country": "|".join(sorted({c for b in bs for c in b["countries"].split("|") if c}))[:200],
             "era": r["era"] if r else "", "year_min": "", "year_max": "", "n_sites": 0, "n_unesco": 0, "n_heritage": 0,
             "n_works": 0, "n_museum_works": 0, "sum_sitelinks": sum(b["sitelinks"] for b in bs),
-            "top_exemplars": " | ".join(f"{b['label']} ({b['qid']}, sl {b['sitelinks']})" for b in bs[:args.per_tradition]),
+            "top_exemplars": " | ".join(f"{b['label']} ({b['qid']}, sl {b['sitelinks']})" for b in bs[:args.per_tradition])
+                             + (f" | ... {len(bs)} items" if pooled else ""),
             "wikidata_items_linked": "|".join(f"{b['label']} ({b['qid']})" for b in bs[:8]),
-            "node_source": "rule" if r else "wikidata item", "rules": r["id"] if r else "",
+            "node_source": "rule" if r else "unassigned pool" if pooled else "wikidata item", "rules": r["id"] if r else "",
             "sources": "Wikidata items (tattoo / body art / scarification / mehndi classes, seed labels)",
         })
     # Wikidata in-situ tradition items not already the qid of a node: listed for classifying
@@ -1368,7 +1389,7 @@ def main():
         cov[t["region"]][t["kind"] + " nodes"] += 1
         cov[t["region"]][t["kind"] + " sites"] += t["n_sites"]
         cov[t["region"]]["unesco"] += t["n_unesco"]
-        if t["node_source"] == "rule" or t["kind"] == BODY:
+        if t["node_source"] == "rule":
             cov[t["region"]]["named nodes"] += 1
     crow = []
     for reg in REGIONS + EXTRA_REGIONS + sorted(set(cov) - set(REGIONS) - set(EXTRA_REGIONS)):
