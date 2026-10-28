@@ -797,6 +797,8 @@ SAFAVID_REIGNS = ["Shah Ismail", "Shah Tahmasp", "Shah Abbas", "Shah Safi", "Sha
 
 EXPLICIT_SCHOOLS = [  # (regex on folded text, school); first match wins
     (r"company (school|style|painting|painter)|(^|[|;] ?)company( ?[|;]|$)", "Company school"),
+    (r"(made )?for prince salim|prince salim.{0,20}(workshop|atelier)|allahabad.{0,40}salim",
+     "Prince Salim's atelier (Allahabad)"),
     (r"mughal court|imperial (mughal )?(workshop|atelier|studio|library|kitabkhana)|"
      r"mughal (imperial|royal) (workshop|atelier|studio)|court of (babur|humayun|akbar|jahangir|shah jahan|aurangzeb)",
      "Imperial Mughal atelier"),
