@@ -73,7 +73,8 @@ DUPS = {("artists", "Balinese Painting"): ("southeast_asia", "Balinese Painting"
         ("artists", "Mexican Muralism"): ("mesoamerica_south_america", "Mexican Muralism"),
         ("artists", "Tingatinga"): ("africa", "Tingatinga Painting"),
         ("artists", "Roman Sculpture"): ("ancient_world", "Roman Sculpture"),
-        ("artists", "Cretan School"): ("ancient_world", "Cretan School")}
+        ("artists", "Cretan School"): ("ancient_world", "Cretan School"),
+        ("probefix", "Tiffany Glass"): ("gapsweep_europe", "Tiffany Glass")}
 
 
 def main():

@@ -1,7 +1,8 @@
 tmp,kind,group,basis
 L1,Newspaper comic strips,format,wiki:Comic strip
 L1,Underground comix,movement,wiki:Underground comix
-L1,Superhero comic books,genre,"field term; Kirby, Ditko, Kane, Shuster, Romita, Jim Lee in artist_placements"
+L1,Superhero comics,genre,"wiki:Superhero comics; Ditko, Kane, Shuster, Romita, Jim Lee in artist_placements"
+L1,Golden Age of Comic Books,phase,wiki:Golden Age of Comic Books
 L1,Winsor McCay,makers,artist_placements Q207960
 L1,George Herriman,makers,artist_placements Q453440
 L1,Will Eisner,makers,artist_placements Q309850
@@ -39,6 +40,7 @@ L6,Lindau Gospels,representative covers,wiki:Treasure binding
 L6,Codex Aureus of St. Emmeram,representative covers,wiki:Treasure binding
 L7,Grolier bindings,Renaissance,wiki:Jean Grolier de Servières (Grolier binding redirects here)
 L7,Girdle book,late Gothic,wiki:Girdle book
+L7,Embroidered binding,sub-type,wiki:Embroidered binding
 L7,Doves Bindery,Arts and Crafts,T. J. Cobden-Sanderson in artist_placements
 L7,Art Deco bindings,20th century,Pierre Legrain in artist_placements; Met Watson fine-bindings collections
 L8,Hoa Hakananai'a,representative works,wiki:Moai

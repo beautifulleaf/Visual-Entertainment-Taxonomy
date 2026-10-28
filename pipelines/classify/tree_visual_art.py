@@ -895,3 +895,20 @@ _fam("K")["subs"] += [("K13", "Gardens & Designed Landscapes", "Axis: garden tra
 PRECEDENCE += [
     ("P16", "Period leaves for architects, designers and photographers", "P15 applies to every medium: an architect with no attested style goes to the period architecture leaf of their birth (Neoclassical, Modern, Contemporary Architecture); a designer to the decorative-arts style of their working years (I3: Art Nouveau to Contemporary Design); a photographer to the photographic school of their working years (Pictorialism, Straight, Modernist, Documentary, Contemporary Photography). A designer or architect known first for one medium is placed by that medium."),
 ]
+
+
+def _unalias(code, terms):
+    drop = {t.lower() for t in terms}
+    for rows in LEAVES.values():
+        for i, l in enumerate(rows):
+            if l[0] == code:
+                kept = [a for a in l[4].split(";") if a.strip().lower() not in drop]
+                rows[i] = l[:4] + (";".join(kept),) + l[5:]
+
+
+# The probe-fix leaves took these names over from broader leaves.
+_unalias("J1-5", ["street photography"])
+_unalias("J1-6", ["Photojournalism"])
+_unalias("K1-15", ["Mughal gardens"])
+_unalias("M2-2", ["Internet art", "generative art", "computer art", "AI art"])
+_unalias("H5-30", ["kitenge"])
