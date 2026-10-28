@@ -656,7 +656,8 @@ def harvest_dia(details=True):
         for lab, val in f.items():
             if re.match(r"(Artist|Calligrapher|Architect|Master|Maker|Painter|Craftsman|Workshop)", lab) and val:
                 for n in re.split(r";| and (?=[A-Z])", val):
-                    n = n.strip(" .,")
+                    n = re.sub(r"^(calligraphers?|illuminators?|painters?|artists?|makers?|binders?)\s*:\s*", "",
+                               n.strip(" .,"), flags=re.I).strip(" .,")
                     if n and not PLACEHOLDER_MAKER.match(n) and len(n) < 120:
                         makers.append((n, re.sub(r"\(s\)$", "", lab.lower())))
 
@@ -880,6 +881,13 @@ def assign_school(row):
         elif c and row.get("met_inferred"):
             # no recorded dynasty: name the centre with the Met-style dynasty for its date
             school, basis = f"{row['met_inferred']} {c}", "place, dynasty inferred"
+    # a school named in the record ("Isfahan school (?)", "Shiraz school") names the centre
+    if not school or basis != "recorded":
+        m = re.search(r"\b([a-z]+) (school|workshop|atelier)\b", text)
+        named = centres(m.group(1)) if m else []
+        if named:
+            d = dyn or row.get("met_inferred") or ""
+            school, basis = (f"{d} {named[0]}".strip()), "recorded"
     row["school"], row["school_basis"] = school, basis
 
 
@@ -898,6 +906,17 @@ def met_counts():
 
 def top(counter, n=6):
     return "; ".join(f"{k} ({v})" for k, v in counter.most_common(n) if k)
+
+
+SCHOOL_AS_MAKER = re.compile(r"\b(school|workshop|atelier|kitabkhana)\b", re.I)
+
+
+def split_school_makers(row):
+    """Maker fields sometimes hold a school ("Isfahan school (?)"): move it to the school text."""
+    schools = [n for n, _ in row["makers"] if SCHOOL_AS_MAKER.search(n)]
+    if schools:
+        row["makers"] = [(n, r) for n, r in row["makers"] if not SCHOOL_AS_MAKER.search(n)]
+        row["school_text"] = " | ".join([row.get("school_text", "")] + schools)
 
 
 def check(row):
@@ -935,6 +954,7 @@ COMPARABLE = [name for _, _, _, name in ISLAMIC_PERIODS]
 def write_outputs(rows):
     os.makedirs(OUT_DIR, exist_ok=True)
     for r in rows:
+        split_school_makers(r)
         check(r)
         assign_school(r)
     rows.sort(key=lambda r: (r["source"], r["dynasties"][0] if r["dynasties"] else "~", r["date_begin"] or 0))
