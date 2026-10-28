@@ -387,7 +387,8 @@ def parse_record(d, unit):
     countries = []
     for g in ix.get("geoLocation", []) or []:
         if isinstance(g, dict):
-            v = (g.get("L2") or {}).get("content")
+            v = g.get("L2")
+            v = v.get("content") if isinstance(v, dict) else v
             if v:
                 countries.append(v)
     rec["countries"] = "; ".join(uniq(countries))
