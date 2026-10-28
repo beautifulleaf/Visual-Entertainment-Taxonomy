@@ -271,6 +271,318 @@ def extract_rijks(limit=None):
     return final
 
 
+# ------------------------------------------------------------ place lexicon
+# country label (as build_traditions' DEMONYM / culture_keys understand it) -> region
+COUNTRY_REGION = {
+    "China": "east_asia", "Japan": "east_asia", "Korea": "east_asia", "Taiwan": "east_asia",
+    "Tibet": "himalaya_central_asia", "Nepal": "himalaya_central_asia", "Central Asia": "himalaya_central_asia",
+    "Mongolia": "east_asia",
+    "India": "south_asia", "Sri Lanka": "south_asia", "Pakistan": "south_asia", "Bangladesh": "south_asia",
+    "Afghanistan": "west_asia_islamic",
+    "Indonesia": "southeast_asia", "Thailand": "southeast_asia", "Cambodia": "southeast_asia",
+    "Vietnam": "southeast_asia", "Laos": "southeast_asia", "Burma": "southeast_asia", "Malaysia": "southeast_asia",
+    "Philippines": "southeast_asia", "Singapore": "southeast_asia", "Timor-Leste": "southeast_asia",
+    "Iran": "west_asia_islamic", "Turkey": "west_asia_islamic", "Syria": "west_asia_islamic",
+    "Iraq": "west_asia_islamic", "Egypt": "africa_north", "Arabia": "west_asia_islamic",
+    "Caucasus": "west_asia_islamic", "Armenia": "west_asia_islamic", "Kurdistan": "west_asia_islamic",
+    "Palestine": "west_asia_islamic", "Lebanon": "west_asia_islamic", "Yemen": "west_asia_islamic",
+    "Morocco": "africa_north", "Algeria": "africa_north", "Tunisia": "africa_north", "Libya": "africa_north",
+    "South Africa": "africa", "Kenya": "africa", "Congo": "africa", "Benin": "africa", "Ghana": "africa",
+    "Nigeria": "africa", "Mali": "africa", "Mozambique": "africa", "Ethiopia": "africa", "Africa": "africa",
+    "Suriname": "americas", "Caribbean": "americas", "Curacao": "americas", "Brazil": "americas",
+    "Mexico": "americas", "Peru": "americas", "Paraguay": "americas", "Argentina": "americas",
+    "Guatemala": "americas", "Colombia": "americas", "Venezuela": "americas", "Guyana": "americas",
+    "United States": "americas_settler", "Canada": "americas_settler",
+    "Papua New Guinea": "oceania", "New Guinea": "oceania", "New Zealand": "oceania", "Australia": "oceania",
+    "Fiji": "oceania", "Oceania": "oceania",
+}
+# Rijksmuseum production place (folded) -> country label; Dutch and English spellings
+_PC = {
+    "China": "china kanton canton jingdezhen dehua shantou swatow zuid-china jiangsu yangzhou taizhou changzhou "
+             "huai'an shanghai yantai henan shanxi kansu ordos-gebied juluxian ningh-sia peking beijing "
+             "nanking nanjing fujian guangdong zhejiang shandong yixing longquan cizhou",
+    "Japan": "japan arita seto satsuma kyoto tokyo edo mino kutani hirado karatsu shigaraki bizen takatori hagi "
+             "iga tamba nagoya fukui nagasaki deshima agano nakamura yokohama osaka kakiemon imari nikko",
+    "Korea": "korea",
+    "Indonesia": "indonesia indonesie dutch east indies, the nederlands oost-indie indonesian archipelago indie "
+                 "java west-java oost-java midden-java batavia jakarta jogjakarta yogyakarta surabaya malang "
+                 "buitenzorg bogor semarang salatiga tegal rembang grissee madura trawulan majapahit lombok bali "
+                 "sumatra noord-sumatra zuid-sumatra oost-sumatra atjeh aceh padang brastagi medan bangka muntok "
+                 "borneo kalimantan celebes sulawesi noord-celebes south celebes molukken zuid-molukken "
+                 "noord-molukken centraal-molukken ambon aru-eilanden timor flores savoe soemba sumba tlogosari "
+                 "anyar candi sewu candi merak candi plaosan lampong jatiroto belawan bindjai langkat weltevreden "
+                 "tandjong priok palembang makassar ternate banda",
+    "India": "india voor-indie deccan golkonda golconda coromandelkust kashmir surat gujarat jaipur rajasthan "
+             "kangra bikaner bundi mewar kotah kota mandi orissa centraal-india noord-india zuid-india "
+             "noordwest-india noordoost-india tamil nadu bengalen bengal murshidabad shorapur sirohi jammu pahari "
+             "chamba guler bilaspur udaipur mankot lucknow kishangar kishangarh jodhpur mathura vizagapatnam "
+             "karnataka kerala delhi agra ahmedabad benares masulipatnam pulicat negapatnam",
+    "Pakistan": "gandhara sindh lahore",
+    "Sri Lanka": "sri lanka ceylon colombo kandy galle ja-ela hulftsdorp jaffna",
+    "Iran": "iran persia perzie kashan nishapur hamadan midden-perzie ferahan kirman noordwest-perzie "
+            "zuid-perzie shiraz isfahan gorgan sari amol garrus senneh serabend sultanabad karadagh west-perzie "
+            "zuidwest-perzie oost-perzie noord-perzie gamron khurasan",
+    "Afghanistan": "afghanistan herat",
+    "Turkey": "turkije turkey klein-azie istanboel istanbul constantinopel iznik kula ghiordes ladik bergama "
+              "konya kirsehir broussa ushak usak mudjur melas yuruk kemerihisar sivrihisar centraal-klein-azie "
+              "oost-klein-azie zuidoost klein-azie kutahya",
+    "Caucasus": "kaukasus shirvan kazak karabakh kuba dagestan talish khila kabistan gendje oost-kaukasus",
+    "Armenia": "talin armenie",
+    "Kurdistan": "koerdistan",
+    "Central Asia": "centraal-azie turkestan oost-turkestan zuid-turkestan samarqand samarkand beshir turkmenie "
+                    "beludshistan bukhara",
+    "Syria": "syrie raqqa damascus",
+    "Egypt": "egypte cairo caiiro gizeh luxor",
+    "Arabia": "arabie",
+    "Palestine": "palestina jeruzalem",
+    "Thailand": "thailand siam sawankhalok ban chiang ayuthia khmer dvaravati",
+    "Cambodia": "cambodja",
+    "Vietnam": "vietnam tonkin noord-vietnam annam",
+    "Laos": "laos",
+    "Burma": "birma burma",
+    "Malaysia": "malaysia sarawak malakka",
+    "Singapore": "singapore",
+    "Tibet": "tibet kham centraal-tibet",
+    "Nepal": "nepal",
+    "Bangladesh": "bangladesh",
+    "Morocco": "marokko",
+    "Algeria": "algerije biskra",
+    "Tunisia": "tunesie tunis",
+    "South Africa": "zuid-afrika kaapprovincie kaapstad cape of good hope mpumalanga pretoria",
+    "Kenya": "kenia",
+    "Congo": "congo",
+    "Benin": "benin",
+    "Ghana": "elmina goudkust ghana",
+    "Mozambique": "mozambique",
+    "Mali": "mali",
+    "Africa": "afrika",
+    "Suriname": "suriname paramaribo",
+    "Curacao": "curacao",
+    "Caribbean": "nederlandse antillen saba sint eustatius bonaire aruba sint maarten west-indie",
+    "Brazil": "brasil brazilie",
+    "Mexico": "mexico",
+    "Peru": "zuid-peru peru lima",
+    "Paraguay": "paraguay",
+    "Argentina": "buenos aires",
+    "Venezuela": "venezuela",
+    "United States": "haida",
+    "New Guinea": "nieuw-guinea",
+    "New Zealand": "new zealand",
+    "Fiji": "fiji",
+}
+PLACE_COUNTRY = {}
+# multi-word names are listed with their words joined by single spaces; resolve greedily below
+_MULTI = {"dutch east indies, the", "nederlands oost-indie", "indonesian archipelago", "west-java", "candi sewu",
+          "candi merak", "candi plaosan", "south celebes", "aru-eilanden", "bindjai langkat", "tandjong priok",
+          "sri lanka", "tamil nadu", "cape of good hope", "nederlandse antillen", "sint eustatius", "sint maarten",
+          "buenos aires", "new zealand", "ban chiang", "zuidoost klein-azie", "klein-azie"}
+# Dutch exonyms -> English, for sub-level labels
+PLACE_EN = {"istanboel": "Istanbul", "constantinopel": "Istanbul", "kanton": "Canton", "golkonda": "Golconda",
+            "coromandelkust": "Coromandel Coast", "bengalen": "Bengal", "jogjakarta": "Yogyakarta",
+            "batavia": "Jakarta", "atjeh": "Aceh", "soemba": "Sumba", "savoe": "Savu", "celebes": "Sulawesi",
+            "molukken": "Maluku", "aru-eilanden": "Aru Islands", "cambodja": "Cambodia", "birma": "Burma",
+            "broussa": "Bursa", "ushak": "Usak", "kaapstad": "Cape Town", "kaapprovincie": "Cape Province",
+            "samarqand": "Samarkand", "caiiro": "Cairo", "gizeh": "Giza", "edo": "Edo (Tokyo)",
+            "kishangar": "Kishangarh", "kotah": "Kota", "ayuthia": "Ayutthaya", "noord-celebes": "North Sulawesi",
+            "south celebes": "South Sulawesi", "west-java": "West Java", "oost-java": "East Java",
+            "midden-java": "Central Java", "noord-sumatra": "North Sumatra", "zuid-sumatra": "South Sumatra",
+            "oost-sumatra": "East Sumatra", "zuid-molukken": "South Maluku", "noord-molukken": "North Maluku",
+            "centraal-molukken": "Central Maluku", "oost-turkestan": "East Turkestan"}
+for _c, _names in _PC.items():
+    s = " " + _names + " "
+    for m in sorted(_MULTI, key=len, reverse=True):
+        if " " + m + " " in s:
+            PLACE_COUNTRY[m] = _c
+            s = s.replace(" " + m + " ", " ")
+    for w in s.split():
+        PLACE_COUNTRY.setdefault(w, _c)
+# names that are the country itself (no sub-level key)
+COUNTRY_SELF = {"china", "japan", "korea", "indonesia", "indonesie", "dutch east indies, the", "nederlands oost-indie",
+                "indonesian archipelago", "indie", "india", "voor-indie", "sri lanka", "ceylon", "iran", "persia",
+                "perzie", "afghanistan", "turkije", "turkey", "kaukasus", "koerdistan", "centraal-azie", "syrie",
+                "egypte", "arabie", "palestina", "thailand", "siam", "cambodja", "vietnam", "laos", "birma", "burma",
+                "malaysia", "singapore", "klein-azie", "turkestan", "zuidoost klein-azie", "tibet", "nepal", "bangladesh", "marokko", "algerije", "tunesie",
+                "zuid-afrika", "kenia", "congo", "benin", "mozambique", "mali", "afrika", "suriname", "curacao",
+                "nederlandse antillen", "west-indie", "brasil", "brazilie", "mexico", "paraguay", "venezuela",
+                "nieuw-guinea", "new zealand", "fiji", "armenie", "ghana"}
+# compass / generic regional prefixes give no sub-level key
+GENERIC_SUB = re.compile(r"^(noord|zuid|oost|west|midden|centraal|noordwest|noordoost|zuidwest|zuidoost)-(?!java|sumatra|celebes|molukken|turkestan)"
+                         r"|^(south|north|east|west|central) ")
+# European textile, lace and folk-costume centres kept from Europe (country label for the key)
+EURO_CENTRES = {
+    "brussels": "Belgium", "mechelen": "Belgium", "binche": "Belgium", "ieper": "Belgium", "geraardsbergen": "Belgium",
+    "kortrijk": "Belgium", "lierre": "Belgium", "lier": "Belgium", "turnhout": "Belgium", "oudenaarde": "Belgium",
+    "burano": "Italy", "venice": "Italy", "pellestrina": "Italy", "abruzzi": "Italy", "genua": "Italy",
+    "alencon": "France", "argentan": "France", "bayeux": "France", "calais": "France", "chantilly": "France",
+    "valenciennes": "France", "le puy": "France", "le puy-en-velay": "France", "lyon": "France", "caen": "France",
+    "honiton": "England", "buckingham": "England", "nottingham": "England", "norwich": "England",
+    "paisley": "Scotland", "limerick": "Ireland", "carrickmacross": "Ireland",
+    "sankt gallen": "Switzerland", "plauen": "Germany", "krefeld": "Germany", "tonderen": "Denmark",
+    "vadstena": "Sweden", "dalarna": "Sweden",
+    "haarlem": "Netherlands", "hindeloopen": "Netherlands", "marken": "Netherlands", "volendam": "Netherlands",
+    "zaanstreek": "Netherlands", "friesland": "Netherlands", "schiermonnikoog": "Netherlands",
+    "walcheren": "Netherlands", "zeeland": "Netherlands", "scheveningen": "Netherlands", "west-friesland": "Netherlands",
+    "staphorst": "Netherlands", "spakenburg": "Netherlands", "urk": "Netherlands", "axel": "Netherlands",
+}
+EUROPE_WORDS = re.compile(r"europ|netherlands|nederland|holland|france|frankrijk|germany|duitsland|italy|italie|"
+                          r"england|engeland|britain|belgium|belgie|spain|spanje|portugal|switzerland|zwitserland|"
+                          r"austria|oostenrijk|vlaanderen|bohemen|ierland|scandinav|denemarken|zweden|russia")
+
+TEXTILE_RE = re.compile(r"lace|kant\b|kantwerk|kleding|clothing|costume|kostuum|textile|weefsel|damast|damask|"
+                        r"japon|muts|kraag|borduur|embroider|needle|merklap|sampler|servet|tafellaken|sjaal|"
+                        r"schort|hemd|kous|tapijt|rug\b|carpet|tapestry|wandtapijt|quilt|deken|streekdracht|"
+                        r"klederdracht|streeksieraad|oorijzer|folk|volkskunst|batik|ikat|sarong|kain|pha\b")
+RIJKS_DROP_CLASSES = {"prints", "foto's", "Frederik Muller Historieplaten", "fotografisch geïllustreerde boeken",
+                      "ex librissen", "Van Gelder", "volksprenten", "ornamentprenten", "boeken", "topografie",
+                      "Atlas Ottens", "Oranjeportretten", "Indische albums", "costume and fashion prints",
+                      "foto-opdrachten", "affiches", "Document Nederland", "opticaprenten", "documenten en objecten",
+                      "documenten", "autografen", "archief Bonger", "Engelse spotprenten",
+                      "munten, penningen en draagtekens"}
+RIJKS_DROP_TYPES = re.compile(r"photo|foto|stereograph|carte-de-visite|ex libris|album|bladzijde|kaart\b|map\b|"
+                              r"medal|penning|jeton|coin|munt|book\b|boek|letter|document|poster|affiche|postzegel|"
+                              r"titel|omslag|magazine|negatie|glasdia|reproductie|prentbriefkaart|enquete|"
+                              r"nieuwjaarswens|kalenderblad|plattegrond|text sheet")
+# prints, drawings and paintings are kept only where the painting / print tradition is native
+NATIVE_PICTORIAL = {"China", "Japan", "Korea", "India", "Pakistan", "Iran", "Turkey", "Tibet", "Nepal",
+                    "Indonesia", "Thailand", "Burma", "Sri Lanka", "Central Asia", "Afghanistan", "Syria", "Egypt"}
+# named makers of pictorial works elsewhere are mostly European visitors (sketchbooks of
+# Istanbul, Luxor, Batavia); in East Asia they are the native print and painting masters
+NAMED_PICTORIAL_OK = {"China", "Japan", "Korea"}
+PICTORIAL_RE = re.compile(r"print|prent|drawing|tekening|painting|schilderij|aquarel|surimono|miniatu|kalligrafie|"
+                          r"album|schetsboek")
+ANON = re.compile(r"^(anonymous|anoniem|unknown|onbekend)", re.I)
+
+OBJECT_GROUPS = [
+    ("textile", r"textile|weefsel|damast|damask|batik|ikat|sarong|kain|tapestry|tapijt|rug\b|carpet|quilt|"
+                r"servet|tafellaken|deken|cloth|doek|kleed|lap\b|sjaal|shawl|kant\b|lace|borduur|embroider"),
+    ("costume and accessories", r"kleding|clothing|costume|kostuum|japon|muts|kraag|hemd|kous|schort|jas\b|"
+                                r"rok\b|hat\b|hoed|headdress|hoofddeksel|sandaal|schoen|shoe|belt|gordel|fan\b|waaier|"
+                                r"streekdracht|klederdracht|kimono|obi\b"),
+    ("jewellery and ornament", r"jewel|sieraad|ring\b|brooch|broche|necklace|halsketting|armband|bracelet|"
+                               r"oorijzer|earring|oorbel|pendant|hanger|kralen|bead"),
+    ("arms and armour", r"kris|keris|sword|zwaard|dagger|dolk|klewang|spear|speer|lans|shield|schild|armour|"
+                        r"harnas|gun|geweer|pistol|pistool|bow\b|boog|arrow|pijl|helmet|helm|wapen|weapon"),
+    ("mask", r"mask|masker"),
+    ("musical instrument", r"musical instrument|muziekinstrument|drum|trom|gong|gamelan|fluit|flute|rebab|"
+                           r"angklung|wind instrument|string instrument"),
+    ("ceramics", r"ceram|keramiek|porcelain|porselein|pot\b|vase|vaas|bowl|kom\b|dish|schotel|plate|bord\b|jar\b|"
+                 r"kan\b|cup\b|kop\b|teapot|theepot|tile|tegel|earthenware|aardewerk|stoneware|steengoed|bottle|"
+                 r"fles|scherf|sherd|kendi|celadon|kraak|tureen|dekselpot"),
+    ("metalwork", r"bronze|brons|brass|messing|silver|zilver|gold\b|goud|copper|koper|iron\b|ijzer|metal|"
+                  r"tin\b|candlestick|kandelaar|bell\b|bel\b|lamp"),
+    ("lacquer", r"lacquer|lak\b|lakwerk|maki-e|inro|netsuke"),
+    ("sculpture and carving", r"sculpt|beeld|figure|figuur|statue|carving|snijwerk|relief|ivory|ivoor|wood|hout|"
+                              r"stone|steen|ancestor|voorouder|amulet"),
+    ("furniture and woodwork", r"furniture|meubel|chair|stoel|table|tafel|cabinet|kast|chest|kist|box\b|doos|"
+                               r"screen|scherm|bed\b"),
+    ("basketry", r"basket|mand\b|vlechtwerk|matting|mat\b"),
+    ("painting", r"painting|schilderij|thangka|tangka|scroll|rol\b|miniatu|wayang beber"),
+    ("print", r"print|prent|surimono|woodcut|houtsnede"),
+    ("drawing", r"drawing|tekening|aquarel|sketch|schets"),
+    ("puppetry and theatre", r"wayang|puppet|pop\b|marionet|theatre|theater"),
+    ("glass", r"glass|glas\b"),
+    ("model", r"model\b|miniatuur"),
+    ("tool and implement", r"tool|gereedschap|implement|spoon|lepel|knife|mes\b|comb|kam\b|pipe|pijp|"
+                           r"container|bag\b|tas\b|paddle|peddel|boat|boot|prauw"),
+]
+OBJECT_GROUPS = [(g, re.compile(r"(?<![a-z])(?:" + p + ")")) for g, p in OBJECT_GROUPS]
+
+
+def object_group(*texts):
+    t = " ".join(x for x in texts if x).lower()
+    for g, rx in OBJECT_GROUPS:
+        if rx.search(t):
+            return g
+    return "other"
+
+
+def rijks_place_country(place):
+    f = fold(place)
+    if f in PLACE_COUNTRY:
+        return PLACE_COUNTRY[f], f not in COUNTRY_SELF
+    return None, False
+
+
+def rijks_rows(stats):
+    path = extract_rijks()
+    rows = []
+    for line in gzip.open(path, "rt", encoding="utf-8"):
+        r = json.loads(line)
+        stats["rijks_records"] += 1
+        places = r.get("places") or []
+        if not places:
+            stats["rijks_drop:no production place"] += 1
+            continue
+        classes = set(r.get("classes") or [])
+        types = [t for t in (r.get("types") or []) if t]
+        ttxt = " ".join(types).lower()
+        country, sub_place = None, None
+        for p in places:
+            c, is_sub = rijks_place_country(p)
+            if c:
+                country = country or c
+                if is_sub and not GENERIC_SUB.search(fold(p)) and sub_place is None and c == country:
+                    sub_place = p
+        euro_centre = None
+        if not country:
+            for p in places:
+                if fold(p) in EURO_CENTRES:
+                    euro_centre = p
+                    break
+        pictorial = bool(PICTORIAL_RE.search(ttxt)) or bool(classes & {"prints", "drawings", "paintings"})
+        if classes & RIJKS_DROP_CLASSES - {"prints"} or RIJKS_DROP_TYPES.search(ttxt):
+            if not (country in NATIVE_PICTORIAL and pictorial and not classes & {"foto's"}
+                    and not re.search(r"photo|foto|book|boek|magazine|kaart|album", ttxt)):
+                stats["rijks_drop:photo / print / document / coin"] += 1
+                continue
+        if "prints" in classes and not (country in NATIVE_PICTORIAL):
+            stats["rijks_drop:photo / print / document / coin"] += 1
+            continue
+        makers = [m.split("|") for m in r.get("makers") or []]
+        named = [m[0] for m in makers if m and m[0] and not ANON.search(m[0])]
+        if country:
+            if COUNTRY_REGION.get(country) == "americas_settler":
+                stats["rijks_drop:settler country without Indigenous evidence"] += 1
+                continue
+            if pictorial and named and country not in NAMED_PICTORIAL_OK:
+                stats["rijks_drop:pictorial work by named (Western) maker"] += 1
+                continue
+            sub = PLACE_EN.get(fold(sub_place), sub_place) if sub_place else None
+            label_raw = f"{country}, {sub}" if sub else country
+            culture_from = "production place"
+        elif euro_centre and TEXTILE_RE.search(ttxt + " " + " ".join(classes).lower()):
+            country = EURO_CENTRES[fold(euro_centre)]
+            label_raw = f"{country}, {euro_centre}"
+            culture_from = "production place (European textile / costume centre)"
+        else:
+            stats["rijks_drop:Europe / unresolved place"] += 1
+            continue
+        keys = culture_keys(label_raw)
+        if not keys:
+            stats["rijks_drop:no culture key"] += 1
+            continue
+        region = COUNTRY_REGION.get(country, "europe")
+        rows.append({
+            "source": "rijks", "id": r.get("objno") or r.get("rid"), "title": (r.get("title") or "")[:200],
+            "culture_keys": "; ".join(k for k, _ in keys), "culture_label": "; ".join(l for _, l in keys),
+            "culture_from": culture_from, "place": "; ".join(dict.fromkeys(places)), "country": country,
+            "region": region, "object_type": "; ".join(dict.fromkeys(types))[:120],
+            "object_group": object_group(ttxt, " ".join(classes), r.get("title") or "", " ".join(r.get("mats") or [])),
+            "period": "; ".join(dict.fromkeys(r.get("periods") or [])), "date_begin": _year(r.get("begin")),
+            "date_end": _year(r.get("end")), "maker": "; ".join(dict.fromkeys(named))[:200],
+            "attributed": int(bool(named)), "materials": "; ".join(r.get("mats") or [])[:150],
+            "institution": SOURCE_INST["rijks"],
+            "url": (r.get("url") or "").replace("http://hdl.handle.net", "https://hdl.handle.net"),
+        })
+    stats["rijks_kept"] = len(rows)
+    return rows
+
+
+def _year(s):
+    m = re.match(r"\s*(-?\d{1,4})", str(s or ""))
+    return int(m.group(1)) if m else ""
+
+
 # ========================================================================= NMVW
 
 HDL = "<https://hdl.handle.net/20.500.11840/"

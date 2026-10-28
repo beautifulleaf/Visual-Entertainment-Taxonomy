@@ -470,7 +470,7 @@ def run_query(query, retries=4):
                 "Content-Type": "application/x-www-form-urlencoded"})
             try:
                 with urllib.request.urlopen(req, timeout=300) as r:
-                    data = json.loads(r.read().decode("utf-8"))
+                    data = json.loads(r.read().decode("utf-8"), strict=False)
                 break
             except urllib.error.HTTPError as e:
                 msg = e.read()[:160]
