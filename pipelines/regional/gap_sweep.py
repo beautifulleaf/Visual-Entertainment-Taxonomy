@@ -167,7 +167,7 @@ PHIL = r"philippin|filipin|luzon|mindanao|visayas|manila|ifugao|cordillera"
 CHINA = r"china|chinese|qing|ming dynasty|\bmin guo|republic period|guizhou|yunnan|guangxi|hunan|sichuan|hainan"
 KOREA = r"korea|joseon|choson|chosun|goryeo|조선|한국"
 JAPAN = r"japan|edo period|meiji|日本|江戸|明治"
-ETH = r"ethiop|abyssin|ge'?ez|amhar|gondar|tigray|tigrinya|lalibela|eritre"
+ETH = r"ethiop|abyssin|ge'ez|\bgeez\b|amhar|gondar|tigray|tigrinya|lalibela|eritre"
 NIGERIA = r"nigeria|yoruba|edo\b|benin city|kingdom of benin|niger river|lower niger"
 
 NODES = []
@@ -763,16 +763,22 @@ def _prefixes(items):
     return cur if "" not in cur else None
 
 
+# nodes whose (required) context regex is more selective than their pattern
+PRE_CTX = {"col_retablo", "col_santero", "col_biombo", "sea_thai_ms", "sea_thai_lacquer", "sea_wayang_kulit",
+           "sea_burma_lacquer", "sea_burma_puppet", "sea_parabaik", "sea_viet_print", "sea_sonmai", "sea_ph_santos",
+           "sea_thai_nang", "sea_sbek", "ea_nianhua", "ea_papercut", "ea_minhwa", "ea_hahoe", "ea_ema",
+           "ea_japan_folk_textile", "au_ts_mask", "af_eth_icon", "af_eth_ms", "af_eth_scroll", "af_eth_cross"}
 TOKPRE = collections.defaultdict(set)   # length -> token prefixes
 SUBSTR = set()
 for _n in NODES:
-    for _p in ([_n["pat"]] if _n["pat"] else []) + ([_n["inf"][0]] if _n["inf"] else []):
+    _src = [_n["ctx"]] if _n["key"] in PRE_CTX else [_n["pat"]] if _n["pat"] else []
+    for _p in _src + ([_n["inf"][0]] if _n["inf"] else []):
         _pre = _prefixes(list(_P.parse(_p.pattern)))
         if not _pre:
             raise SystemExit(f"unanchorable pattern in {_n['key']}: {_p.pattern[:80]}")
         for _a in _pre:
             _lead = re.match(r"[a-z0-9]*", _a).group()
-            if len(_lead) >= 3:
+            if len(_lead) >= 3 and _lead == _a:
                 TOKPRE[len(_lead)].add(_lead)
             elif len(_a) >= 3 or re.match(r"[^\x00-\x7f]", _a):
                 SUBSTR.add(_a)

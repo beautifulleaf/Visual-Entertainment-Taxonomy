@@ -207,6 +207,8 @@ DEFAULT_RULES = [
     ("Mesoamerican codices, colonial", "style", "Mesoamerica", "Nahuatl, Spanish, pictography", "", "", r"c[oó]d(ex|ice)|lienzo|mapa de|tira de", r"nahuatl|mixtec|maya|zapotec|otom|purépecha|tarascan", "", "", 1521, "", 1, ""),
     ("Mesoamerican codices, colonial", "style", "Mesoamerica", "Nahuatl, Spanish, pictography", "", "", r"c[oó]d(ex|ice)|lienzo|mapa de|tira de", "", r"mexico|new spain|aztec|mixtec|oaxaca|guatemala|maya|tlaxcala|yucat", "", 1521, "", 1, ""),
     ("Aztec / Nahua codices (pre-conquest)", "style", "Mesoamerica", "Nahuatl pictography", "", r"mesoamerican codex", "", "", "", "", "", 1520, 1, ""),
+    ("Mexican / New Spain manuscripts (unlocalised)", "style", "Mesoamerica", "Nahuatl, Spanish", "", "", "", r"nahuatl|mixtec|zapotec|otomi|maya|purépecha", "", "", "", "", 1, ""),
+    ("Mexican / New Spain manuscripts (unlocalised)", "style", "Mesoamerica", "Nahuatl, Spanish", "", "", "", "", r"mexico|new spain|guatemala|yucat|oaxaca", "", "", "", 1, "includes BnF fonds Mexicain"),
     ("Andean colonial manuscripts", "style", "South America", "Spanish, Quechua, Aymara", "", "", "", r"quechua|aymara|puquina|mapudungun", "", "", "", "", 1, ""),
     ("Andean colonial manuscripts", "style", "South America", "Spanish, Quechua, Aymara", "", "", "", "", r"peru|bolivia|ecuador|viceroyalty of peru|new granada|colombia|chile|argentina|venezuela|r[ií]o de la plata|inca", "", "", "", 1, ""),
     ("Brazilian / Portuguese American manuscripts", "style", "South America", "Portuguese, Tupi", "", "", "", "", r"brazil", "", "", "", 1, ""),
@@ -296,6 +298,7 @@ DEFAULT_RULES = [
     ("Hindi / Rajasthani / Marathi / Gujarati manuscripts", "style", "South Asia", "Hindi, Rajasthani, Marathi, Gujarati (Devanagari)", "", "", "", r"hindi|braj|awadhi|rajasthani|marwari|marathi|gujarati|modi|devanagari|nepali", "", "", "", "", 1, ""),
     ("Sanskrit manuscripts (unlocalised)", "style", "South Asia", "Sanskrit", "", "", "", r"sanskrit|vedic|pali", "", "", "", "", 1, "Pali may be Southeast Asian"),
     ("South Asian palm-leaf (unlocalised)", "style", "South Asia", "various", "", r"palm-leaf", "", "", r"india|bharat", "", "", "", 1, ""),
+    ("South Asian manuscripts (unlocalised)", "style", "South Asia", "various", "", "", "", "", r"^india$|bharat|british raj|mughal india", "", "", "", 1, ""),
     # ---- Southeast Asia
     ("Islamic Nusantara manuscripts (Jawi, Pegon)", "style", "SE Asia", "Malay (Jawi), Javanese (Pegon), Acehnese", "", "", "", r"jawi|pegon|malay|acehnese|minangkabau|banjar", "", "", "", "", 1, "overlaps Islamic world"),
     ("Balinese lontar", "style", "SE Asia", "Balinese, Kawi (Balinese script)", "", r"geguritan|kakawin|kidung|pupuh|gedong kirtya", "", "", "", "", "", "", 1, ""),
@@ -979,7 +982,6 @@ def main():
         note = "; ".join(sorted(ri["note"]))
         if "islamic_world" in note and islamic_note:
             note += f"; {islamic_note}"
-        expected_hit = any(e.lower() in name.lower() for e in EXPECTED)
         trad_rows.append({
             "label": name, "qid": qid, "kind": ri["kind"], "region": ri["region"], "script_language": ri["script"],
             "era_rule": f"{rmin}-{rmax}" if (rmin != "" or rmax != "") else "",
@@ -993,9 +995,17 @@ def main():
             "sample_manuscripts": "; ".join(f"{it['label'] or '?'} ({it['qid']})" for it in samples),
             "sources": "Wikidata" + (f"; {islamic_note}" if "islamic_world" in note and islamic_note else ""),
             "covered_elsewhere": "islamic_world.py" if "islamic_world" in note else "",
-            "gap": "GAP" if expected_hit and len(its) < GAP_MIN else "",
+            "gap": "",
             "note": note,
         })
+    # Gap check per expected tradition key: summed over the nodes whose label contains it.
+    expected_cov = {}
+    for e in EXPECTED:
+        hits = [r for r in trad_rows if e.lower() in r["label"].lower()]
+        expected_cov[e] = (sum(r["n_manuscripts"] for r in hits), hits)
+        if expected_cov[e][0] < GAP_MIN:
+            for r in hits:
+                r["gap"] = "GAP"
     linked = {q for r in trad_rows for q in r["qid"].split()}
     for q, s in sorted(styles.items(), key=lambda kv: -kv[1]["sitelinks"]):
         if q in linked:
@@ -1014,7 +1024,8 @@ def main():
     for reg in REGIONS:
         its = [it for it in out_items if it["region"] == reg]
         trs = [r for r in trad_rows if r["region"] == reg and r["kind"] == "style"]
-        gaps = [r["label"] for r in trs if r["gap"]]
+        gaps = [f"{e} ({n})" for e, (n, hits) in expected_cov.items()
+                if n < GAP_MIN and hits and hits[0]["region"] == reg]
         reg_rows.append({
             "region": reg, "n_traditions": len(trs), "n_traditions_with_items": sum(1 for r in trs if r["n_manuscripts"]),
             "n_manuscripts": len(its), "n_illuminated": sum(it["illuminated_class"] for it in its),
@@ -1053,6 +1064,7 @@ def main():
     for r in reg_rows:
         print(f"  {r['region']:36} {r['n_traditions_with_items']:>4} {r['n_manuscripts']:>7} {r['n_illuminated']:>6} "
               f"{r['n_sitelinked']:>6} {r['n_illuminators']:>6}  {r['flag']} {r['gaps']}")
+    print("  expected traditions:", "; ".join(f"{e} {n}" for e, (n, _) in expected_cov.items()))
     ua = collections.Counter(l for it in unassigned for l in (it["languages_scripts"].split("; ") if it["languages_scripts"] else ["(no language)"]))
     print("  unassigned by language:", "; ".join(f"{k} {v}" for k, v in ua.most_common(15)))
 
