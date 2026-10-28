@@ -223,6 +223,7 @@ Node creation happens in the classifying stage. Gathering must hand it **evidenc
   - the share of attributed objects (the attribution profile).
 - **Flags:** cells that are empty, thin relative to their art-historical weight, or resting on a single source (especially the Met alone) are flagged.
 - **Fix:** each flagged cell gets a targeted sweep before the handover to classifying.
+- **Media inside a cell:** the grid is also split by medium (painting, sculpture, textiles and costume, ceramics, metalwork, woodwork, book arts, ...), so that a region is not counted as covered on the strength of its painting alone. This applies to Europe too: folk and vernacular traditions outside the Renaissance–Baroque–Rococo and academic line (embroidery and lace, folk painting such as rosemaling and lubok, regional icon schools, folk ceramics, woodcarving, costume) are tradition nodes in their own right and get their own sweep (`pipelines/regional/europe_folk.py`: Wikidata including UNESCO intangible-heritage crafts, Goskatalog, Finna, and the cached Met/AIC/V&A/Cleveland data).
 
 ### 2.3 Inclusion cutoffs (decided 2026-10-28)
 - **Historical artists, artist-led cells:** the depth-model score at 90% reference recall, plus every reference artist (§2.1). Other regions reuse the fitted cutoff (`depth_model.py apply`).
