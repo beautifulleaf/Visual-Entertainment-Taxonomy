@@ -25,8 +25,39 @@ import os
 import sys
 
 import numpy as np
-from sklearn.linear_model import LogisticRegression
+from scipy.optimize import minimize
 from sklearn.model_selection import StratifiedKFold
+
+
+class NonNegativeLogit:
+    """L2-regularised logistic regression with every coefficient >= 0.
+
+    Each feature is a "more is more prominent" signal, so none may count against
+    an artist; unconstrained fits let correlated features cancel (sitelinks and
+    pageviews took opposite signs)."""
+
+    def __init__(self, l2=1.0):
+        self.l2 = l2
+
+    def fit(self, X, y):
+        n, k = X.shape
+
+        def loss(w):
+            z = X @ w[:k] + w[k]
+            # mean log-loss, numerically stable, plus L2 on the coefficients only
+            ll = np.mean(np.logaddexp(0, z) - y * z) + self.l2 * w[:k] @ w[:k] / (2 * n)
+            p = 1 / (1 + np.exp(-z))
+            g = np.append(X.T @ (p - y) / n + self.l2 * w[:k] / n, np.mean(p - y))
+            return ll, g
+
+        res = minimize(loss, np.zeros(k + 1), jac=True, method="L-BFGS-B",
+                       bounds=[(0, None)] * k + [(None, None)])
+        self.coef_, self.intercept_ = res.x[None, :k], res.x[k:]
+        return self
+
+    def predict_proba(self, X):
+        p = 1 / (1 + np.exp(-(X @ self.coef_[0] + self.intercept_[0])))
+        return np.column_stack([1 - p, p])
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from reference import load_reference  # noqa: E402
@@ -41,8 +72,11 @@ MODELS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models")
 # coefficients apply to a region whose decisive collections are different.
 FEATURES = [
     "sitelinks", "pageviews", "museum_objects", "n_museums", "met_timeline_works",
-    "has_ulan", "has_wikiart", "n_regional_ids",
+    "has_ulan", "n_regional_ids",
 ]
+# Not a feature: has_wikiart. The reference lists are WikiArt's movement lists,
+# so a WikiArt ID nearly restates the label (it took a +14.8 coefficient and the
+# model selected almost no sculptors or architects, WikiArt being painting-centric).
 MIN_CELL = 50  # cells smaller than this are merged with the following period
 
 
@@ -109,7 +143,8 @@ def assign_cells(rows):
                 groups.append([])
             groups[-1].append(pd)
         if len(groups) > 1 and sum(sizes[x] for x in groups[-1]) < MIN_CELL:
-            groups[-2] += groups.pop()  # a small tail joins the previous cell
+            tail = groups.pop()
+            groups[-1] += tail  # a small tail joins the previous cell
         cell_of = {pd: f"{g[0]}-{g[-1] + PERIOD_BUCKET - 1}" for g in groups for pd in g}
         for r in rs:
             r["cell"] = f"{medium} {cell_of[int(r['period'])]}" if r["period"] else f"{medium} undated"
@@ -163,11 +198,11 @@ def fit(region, recall):
     y = np.array([r["is_reference"] for r in rows])
     # The reference list covers painting only, so unlisted artists in other media
     # are not negatives: train on the training media plus every reference artist.
-    train = np.array([r["medium"] in cfg["train_media"] or r["is_reference"] for r in rows])
+    train = np.array([r["medium"] in cfg["train_media"] or bool(r["is_reference"]) for r in rows], dtype=bool)
     print(f"{region}: {len(rows)} artists ({sum(r['in_pool_rule'] for r in rows)} by the pool rule), {y.sum()} reference positives; "
           f"training on {train.sum()} ({', '.join(cfg['train_media'])} + reference)")
 
-    model = LogisticRegression(C=1.0, max_iter=2000).fit(X[train], y[train])
+    model = NonNegativeLogit().fit(X[train], y[train])
     scores = model.predict_proba(X)[:, 1]
     cutoff = float(np.quantile(scores[y == 1], 1 - recall))
 
@@ -175,9 +210,10 @@ def fit(region, recall):
     oof = np.zeros(len(y))
     Xt, yt, ti = X[train], y[train], np.flatnonzero(train)
     for tr, te in StratifiedKFold(5, shuffle=True, random_state=0).split(Xt, yt):
-        oof[ti[te]] = LogisticRegression(C=1.0, max_iter=2000).fit(Xt[tr], yt[tr]).predict_proba(Xt[te])[:, 1]
+        oof[ti[te]] = NonNegativeLogit().fit(Xt[tr], yt[tr]).predict_proba(Xt[te])[:, 1]
     oof_cut = float(np.quantile(oof[y == 1], 1 - recall))
     in_rule = np.array([r["in_pool_rule"] for r in rows]) == 1
+    assert train.dtype == bool and in_rule.dtype == bool
 
     selected = (scores >= cutoff) & (in_rule | (y == 1))
     print("\ncoefficients (features are within-cell percentiles, 0-1):")

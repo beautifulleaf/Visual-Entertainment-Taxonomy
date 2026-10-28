@@ -1,0 +1,28 @@
+{
+ "fitted_on": "europe_1400-1900",
+ "features": [
+  "sitelinks",
+  "pageviews",
+  "museum_objects",
+  "n_museums",
+  "met_timeline_works",
+  "has_ulan",
+  "n_regional_ids"
+ ],
+ "feature_transform": "within-cell mid-rank percentile",
+ "coef": [
+  0.938586,
+  5.399404,
+  0.0,
+  0.395839,
+  1.983282,
+  0.263187,
+  1.347716
+ ],
+ "intercept": -10.134425,
+ "recall_target": 0.95,
+ "cutoff": 0.004881,
+ "n_artists": 41453,
+ "n_reference": 889,
+ "n_selected": 22431
+}

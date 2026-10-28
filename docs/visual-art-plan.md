@@ -68,6 +68,29 @@ The target depth is the owner-supplied list in `seeds/visual-art/europe_1400-190
    The model sees only abstract features built from these (`museum_objects`, `n_museums`, `n_regional_ids`, plus sitelinks, pageviews, Timeline works, ULAN and WikiArt). So the coefficients fitted on Europe carry over while the sources behind each feature change by region.
 5. Validate per region with further reference lists added to `seeds/visual-art/` (e.g. Chinese painting by dynasty, Ukiyo-e, Mughal/Rajput, Persian miniature, Latin American colonial), each in the same "Movement: names" format.
 
+**First fit (2026-10-28), Europe 1400–1900, all media** (`pipelines/visual_art/depth_model.py`; coefficients in `pipelines/visual_art/models/europe_1400-1900.json`):
+- **Data:**
+  - Pool: 41,413 artists by the pool rule: painting 24,426, architecture 8,218, sculpture 3,868, photography 2,103, printmaking 1,156, drawing 773, design 638, book arts 154.
+  - Positives: 889 reference artists. 20 others on the list were active only after 1900 and are left out.
+  - Pageviews: September 2026 dump. Holdings: Met 7,331 artists, AIC 2,761, Cleveland 1,945; Met Timeline 1,094.
+- **Two corrections were needed:**
+  - **`has_wikiart` is excluded.** The reference lists are WikiArt's movement lists, so the ID leaked the label: it took a +14.8 coefficient, and the model picked almost no sculptors or architects.
+  - **Coefficients are constrained to be ≥ 0.** Unconstrained, sitelinks and pageviews took opposite signs.
+- **Coefficients** (all features are within-cell percentiles): pageviews +5.40 · Met Timeline works +1.98 · regional authority IDs +1.35 · sitelinks +0.94 · number of museums +0.40 · ULAN +0.26 · museum objects 0.00.
+- **Top non-reference picks:** Impressionists and Post-Impressionists (the reference stops at Realism), Rodin, Saint-Gaudens, Frank Lloyd Wright, William Morris, Lalique, Pugin, Stieglitz, Mucha.
+- **Recall vs. size:**
+
+| Reference recall | Selected | Painting | Sculpture | Architecture | Printmaking | Photography | Drawing | Design | Book arts |
+|---|---|---|---|---|---|---|---|---|---|
+| 70% | 4,296 | 2,689 | 409 | 774 | 94 | 208 | 56 | 53 | 9 |
+| 80% | 6,876 | 4,182 | 664 | 1,267 | 177 | 340 | 117 | 95 | 26 |
+| 85% | 9,412 | 5,687 | 885 | 1,770 | 269 | 456 | 166 | 133 | 33 |
+| 90% | 12,971 | 7,723 | 1,195 | 2,518 | 364 | 662 | 247 | 197 | 44 |
+| **95%** | **22,434** | 13,199 | 2,104 | 4,450 | 640 | 1,133 | 430 | 347 | 85 |
+
+- **At the 95% target the cutoff is very low.** The bottom 5% of the reference list have almost no presence in any source (Mazzolini, Bidau, Papin score ≈ 0), so the cutoff (score 0.0049) takes about half the pool. Cross-validated, the same cutoff recovers 94.8% out of fold.
+- **Open decision:** keep 95% (22k), or take 90% (13k) and add the stragglers explicitly as reference members. Architecture is large at any cutoff, because Wikidata documents 19th-century architects densely; a per-medium cap or a higher architecture cutoff may be wanted.
+
 ## 2A. Unattributed traditions: antiquity, decorative arts, architecture
 
 A large part of world art has no recorded maker. *Measured* in the Met's open-access CSV (503,012 objects): **40% have no artist**, rising to 94–99% in the Greek and Roman, Egyptian, Islamic, Medieval and Ancient West Asian departments, 72% in Asian Art and 67% in European Sculpture and Decorative Arts. These traditions therefore need their **own node type and their own prominence signals**, not the artist pipeline.
