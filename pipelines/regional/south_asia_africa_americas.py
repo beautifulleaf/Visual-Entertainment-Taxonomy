@@ -93,7 +93,12 @@ AIC_DIR = os.path.join(ROOT, "data", "raw", "museums", "aic", "artic-api-data", 
 UA = "VisualEntertainmentTaxonomy/0.1 (research; contact via repository)"
 
 sys.path.insert(0, os.path.join(ROOT, "pipelines", "unattributed"))
-from build_traditions import fold, tidy  # noqa: E402
+from build_traditions import fold as _bt_fold, tidy  # noqa: E402
+
+
+def fold(s):
+    """build_traditions.fold, but Unicode dashes become hyphens first ("Lobi–style" -> "lobi-style")."""
+    return _bt_fold(re.sub(r"[\u2010-\u2015\u2212]", "-", s or ""))
 
 VAM_API = "https://api.vam.ac.uk/v2/objects/search"
 VAM_OBJECT_URL = "https://collections.vam.ac.uk/item/{}/"
@@ -296,8 +301,11 @@ PLACES = {
 }
 
 # Regions owned by other jobs (Islamic world, ancient Mediterranean/Egypt, East Asia).
-EXCLUDE_PLACES = ["egypt", "morocco", "algeria", "tunisia", "libya", "iran", "persia", "iraq", "syria",
-                  "turkey", "afghanistan", "china", "japan", "korea", "mongolia", "uzbekistan"]
+EXCLUDE_PLACES = ["north africa", "coptic", "egypt", "morocco", "algeria", "tunisia", "libya", "iran", "persia", "iraq", "syria",
+                  "turkey", "afghanistan", "china", "japan", "korea", "mongolia", "uzbekistan",
+                  "iranian", "persian", "qajar", "safavid", "timurid", "ottoman", "chinese", "japanese", "ming",
+                  "qing", "longquan", "isfahan", "europe", "european", "england", "english", "london", "france",
+                  "french", "netherlands", "dutch", "germany", "italy"]
 
 # settler/colonial countries: keep only with an Indigenous culture term (or pre-1550 in Latin America)
 SETTLER = {"united states", "usa", "canada", "australia", "new zealand", "south africa", "north america",
@@ -346,6 +354,12 @@ def place_match(text):
     return best[0][:3]
 
 
+BROAD_PLACES = {"west africa", "western africa", "central africa", "east africa", "eastern africa", "southern africa",
+                "eastern and southern africa", "sahel", "northern africa and the sahel", "north america",
+                "south america", "central america", "mesoamerica", "southeast asia", "south east asia", "oceania",
+                "pacific", "pacific islands", "south pacific", "himalayas", "himalaya", "caribbean", "andes"}
+
+
 @functools.lru_cache(maxsize=200000)
 def excluded_place(text):
     """True when an out-of-scope place (Egypt, Iran, China, ...) is named before any region place."""
@@ -353,7 +367,9 @@ def excluded_place(text):
     m = _EXCL_RE.search(t)
     if not m:
         return False
-    first_region = min((rx.search(t).start() for rx, *_ in _PLACE_RE if rx.search(t)), default=None)
+    first_region = min((rx.search(t).start() for rx, n, _, sub in _PLACE_RE
+                        if n not in BROAD_PLACES and not sub.endswith("(unspecified)") and rx.search(t)),
+                       default=None)
     return first_region is None or m.start() < first_region
 
 
@@ -1168,7 +1184,7 @@ def decide_region(source, prior, strong_prior, place_text, label_text, extra_tex
     if not strong_prior and excluded_place(place_text):
         DROPPED[(source, "out-of-scope place first")] += 1
         return None
-    if strong_prior and prior == "africa" and excluded_place(place_text):
+    if strong_prior and (prior == "africa" or pm is None) and excluded_place(place_text + "; " + label_text):
         DROPPED[(source, "out-of-scope place first")] += 1
         return None
     if strong_prior:
@@ -1192,7 +1208,7 @@ def decide_region(source, prior, strong_prior, place_text, label_text, extra_tex
     return region, pm
 
 
-def classify(row, label_text, place_text, extra_text):
+def classify(row, label_text, place_text, extra_text, agent=None):
     lex_c, lex_p = REGION_LEX[row["region"]]
     lt, pt, et = fold(label_text), fold(place_text), fold(extra_text)
     culture = match_ordered(lex_c, lt)
@@ -1203,6 +1219,11 @@ def classify(row, label_text, place_text, extra_text):
     if not culture:
         culture = match_ordered(lex_c, et)
         src = "description"
+    if not culture and agent:
+        # the source's own culture name for the record (AIC culture agents such as
+        # "Baatonu (Bariba)", "Salinar"; Cleveland "Lobi-style maker")
+        culture = agent
+        src = "label (source culture name)"
     if not culture:
         pm = row["_pm"]
         culture = f"Unspecified ({FALLBACK_NAME.get(pm[2], pm[2].title())})" if pm else "Unspecified"
@@ -1222,13 +1243,18 @@ def classify(row, label_text, place_text, extra_text):
                overlap=OVERLAP.get(culture) or OVERLAP.get(culture.split(":")[0]) or OVERLAP.get(period, ""))
 
 
+WESTERN = re.compile(r"\((English|British|American|French|Dutch|German|Scottish|Irish|Italian|Austrian|Swiss|"
+                     r"Danish|Belgian|Swedish|Canadian|Australian|Spanish|Portuguese|Russian|Finnish|Norwegian)\b")
+
+
 def make_row(source, rid, region, pm, title, otype, oclass, labels, place_text, extra, date_text, begin, end,
-             makers, materials, institution, collection, url, sweep):
+             makers, materials, institution, collection, url, sweep, agent=None):
     if begin is not None and end is not None and begin > end:
         begin, end = end, begin
-    named = []
+    named, western = [], []
     for n, role in makers:
         if is_named(n, region):
+            western.append(bool(WESTERN.search(n)) or (source == "vam" and bool(re.match(r"^[A-Z][\w'-]+, [A-Z]", n))))
             nm = clean_maker(n.split(" (")[0]) if "(" in n else clean_maker(n)
             if nm and (nm, role) not in [(a, b) for a, b, _ in named]:
                 named.append((nm, role, maker_kind(n)))
@@ -1236,12 +1262,13 @@ def make_row(source, rid, region, pm, title, otype, oclass, labels, place_text, 
            "place": pm[2].title() if pm else "", "_pm": pm, "title": tidy(title)[:200],
            "object_type": tidy(otype)[:80], "object_group": object_group(otype, oclass, title, materials),
            "labels": tidy(labels)[:300], "date_text": tidy(date_text)[:80], "date_begin": begin, "date_end": end,
-           "makers": named, "attributed": bool(named), "materials": tidy(materials)[:200],
+           "makers": named, "attributed": bool(named),
+           "western_makers": bool(western) and all(western), "materials": tidy(materials)[:200],
            "institution": institution, "collection": collection, "url": url, "sweep": sweep}
     if row["object_group"] == "photograph":
         DROPPED[(source, "photograph")] += 1
         return None
-    classify(row, labels, place_text, extra)
+    classify(row, labels, place_text, extra, agent)
     return row
 
 
@@ -1300,16 +1327,30 @@ def rows_cma(items):
         for c in r.get("creators") or []:
             desc = c.get("description") or ""
             makers.append((desc, c.get("role") or ""))
+        m_style = re.search(r"(?i)([A-Z][\w'-]+)[-–]style maker", cult)
         _add(out, make_row("cma", r.get("accession_number") or str(r.get("id")), region, pm, r.get("title") or "",
                             r.get("type") or "", "", cult, cult, extra, r.get("creation_date") or "", b, e, makers,
                             r.get("technique") or "", SOURCE_INST["cma"], r.get("department") or "",
-                            r.get("url") or "", sweep))
+                            r.get("url") or "", sweep, agent=m_style.group(1) if m_style else None))
     return out
 
 
 AIC_OUT_DEPTS = {"Applied Arts of Europe", "Painting and Sculpture of Europe", "Architecture and Design",
                  "Contemporary Art", "Modern Art", "Modern and Contemporary Art", "Arts of Greece, Rome, and Byzantium",
                  "Prints and Drawings"}
+
+
+def agent_culture(name, named):
+    """A culture-agent name usable as the culture label, or None."""
+    n = tidy(re.sub(r"\(.*?\)", " ", name or ""))
+    if named or not n or PLACEHOLDER.search(n) or len(n) > 40 or re.search(r"\d", n):
+        return None
+    pm = place_match(n)
+    if pm and fold(pm[2]) == fold(n):
+        return None
+    if fold(n) in {"islamic", "archaic", "unknown", "african", "american", "indian", "asian"}:
+        return None
+    return n
 
 
 def rows_aic(items):
@@ -1341,7 +1382,7 @@ def rows_aic(items):
                             r.get("artwork_type_title") or "", r.get("classification_title") or "", labels,
                             place_text, extra, r.get("date_display") or "", b, e, makers,
                             r.get("medium_display") or "", SOURCE_INST["aic"], dept,
-                            f"https://www.artic.edu/artworks/{r['id']}", "dump"))
+                            f"https://www.artic.edu/artworks/{r['id']}", "dump", agent=agent_culture(artist, named)))
     return out
 
 
@@ -1393,7 +1434,7 @@ def write_region(region, rows):
     rows.sort(key=lambda r: (r["culture"], r["period"], r["source"], r["date_begin"] or 0))
     ocols = ["source", "id", "title", "region", "subregion", "place", "culture", "culture_group", "culture_source",
              "period", "period_source", "object_group", "object_type", "labels_recorded", "date_text",
-             "date_begin", "date_end", "makers", "attributed", "materials", "institution", "collection",
+             "date_begin", "date_end", "makers", "attributed", "western_makers_only", "materials", "institution", "collection",
              "overlap", "sweep", "url"]
     write_csv(os.path.join(OUT_DIR, f"{region}_objects.csv"), ocols, [[
         r["source"], r["id"], r["title"], r["region"], r["subregion"], r["place"], r["culture"], r["culture_group"],
@@ -1401,11 +1442,12 @@ def write_region(region, rows):
         r["date_text"], "" if r["date_begin"] is None else r["date_begin"],
         "" if r["date_end"] is None else r["date_end"],
         "; ".join(f"{n} ({role})" if role else n for n, role, _ in r["makers"]), int(r["attributed"]),
+        int(r["western_makers"]),
         r["materials"], r["institution"], r["collection"], r["overlap"], r["sweep"], r["url"]] for r in rows])
 
     # ---- traditions
     def blank():
-        return {"src": collections.Counter(), "att": 0, "begins": [], "ends": [], "mids": [],
+        return {"src": collections.Counter(), "att": 0, "att_loc": 0, "begins": [], "ends": [], "mids": [],
                 "types": collections.Counter(), "raw": collections.Counter(), "makers": collections.Counter(),
                 "subs": collections.Counter(), "periods": collections.Counter(), "cultures": collections.Counter(),
                 "csrc": collections.Counter(), "ex": [], "overlap": ""}
@@ -1423,6 +1465,7 @@ def write_region(region, rows):
             a = agg[k]
             a["src"][r["source"]] += 1
             a["att"] += r["attributed"]
+            a["att_loc"] += r["attributed"] and not r["western_makers"]
             if r["date_begin"] is not None:
                 a["begins"].append(r["date_begin"])
             if r["date_end"] is not None:
@@ -1442,7 +1485,7 @@ def write_region(region, rows):
                 a["ex"].append(f"{r['source']}:{r['id']}")
     tcols = ["kind", "key", "culture", "culture_group", "period", "object_group", "objects"] + \
             [f"objects_{s}" for s in SOURCES] + \
-            ["n_sources", "attributed", "attributed_share", "date_begin_min", "date_end_max", "mid_p10",
+            ["n_sources", "attributed", "attributed_share", "attributed_local_share", "date_begin_min", "date_end_max", "mid_p10",
              "mid_median", "mid_p90", "top_object_groups", "top_periods", "top_cultures", "subregions",
              "culture_from", "named_makers", "raw_labels", "overlap", "example_ids"]
     trows = []
@@ -1455,6 +1498,7 @@ def write_region(region, rows):
         trows.append([kind, key, cult, cult.split(":")[0].strip() if cult else "", per, typ, n] +
                      [a["src"][s] for s in SOURCES] +
                      [sum(1 for s in SOURCES if a["src"][s]), a["att"], round(a["att"] / n, 3),
+                      round(a["att_loc"] / n, 3),
                       min(a["begins"]) if a["begins"] else "", max(a["ends"]) if a["ends"] else "",
                       _q(mids, 0.1), round(statistics.median(mids)) if mids else "", _q(mids, 0.9),
                       top(a["types"]), top(a["periods"]) if kind in ("culture", "culture_group", "culture_type") else "",
@@ -1526,8 +1570,9 @@ def build(raw):
             if not sr:
                 continue
             n = len(sr)
+            loc = sum(r["attributed"] and not r["western_makers"] for r in sr)
             summary.append([region, src, n, sum(r["attributed"] for r in sr),
-                            round(sum(r["attributed"] for r in sr) / n, 3),
+                            round(sum(r["attributed"] for r in sr) / n, 3), loc, round(loc / n, 3),
                             round(sum(1 for r in sr if r["culture_source"] in ("label", "place")) / n, 3),
                             round(sum(1 for r in sr if not r["culture_source"].startswith("fallback")) / n, 3),
                             round(sum(1 for r in sr if r["period_source"] in ("recorded", "description")) / n, 3),
@@ -1538,7 +1583,8 @@ def build(raw):
         print(f"{region}: {len(rr)} objects, {len({r['culture'] for r in rr})} cultures, "
               f"{len(mk)} named makers, attributed {sum(r['attributed'] for r in rr)}", file=sys.stderr)
     write_csv(os.path.join(OUT_DIR, "south_asia_africa_americas_sources.csv"),
-              ["region", "source", "objects", "attributed", "attributed_share", "culture_specific_share",
+              ["region", "source", "objects", "attributed", "attributed_share", "attributed_local",
+               "attributed_local_share", "culture_specific_share",
                "culture_any_share", "period_recorded_share", "dated_share", "cultures", "periods", "named_makers",
                "overlap_islamic_world"], summary)
     write_csv(os.path.join(OUT_DIR, "south_asia_africa_americas_dropped.csv"), ["source", "reason", "records"],
