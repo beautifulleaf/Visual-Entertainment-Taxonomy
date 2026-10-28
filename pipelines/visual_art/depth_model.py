@@ -166,24 +166,35 @@ def percentile_matrix(rows):
     return X
 
 
+def select(rows, scores, cutoff, cfg):
+    """Decided rule (2026-10-28): every reference artist, plus pool-rule artists at or
+    above the cutoff, except media the region excludes from model selection
+    (architecture enters through its styles and buildings, not through this model)."""
+    excluded = set(cfg.get("model_excluded_media", []))
+    return np.array([bool(r["is_reference"]) or (bool(r["in_pool_rule"]) and s >= cutoff and r["medium"] not in excluded)
+                     for r, s in zip(rows, scores)], dtype=bool)
+
+
 def write_scores(region, rows, scores, cutoff):
+    sel = select(rows, scores, cutoff, REGIONS[region])
     out = os.path.join(DATA, f"scores_{region}.csv")
     cols = ["qid", "label", "birth", "medium", "cell", "in_pool_rule", "is_reference", "score", "selected"] + FEATURES
     with open(out, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
         w.writeheader()
-        for r, s in sorted(zip(rows, scores), key=lambda t: -t[1]):
-            w.writerow({**r, "score": round(float(s), 5), "selected": int(s >= cutoff)})
+        for r, s, chosen in sorted(zip(rows, scores, sel), key=lambda t: -t[1]):
+            w.writerow({**r, "score": round(float(s), 5), "selected": int(chosen)})
     return out
 
 
-def report_cells(rows, scores, cutoff):
+def report_cells(rows, scores, cutoff, cfg):
+    chosen = select(rows, scores, cutoff, cfg)
     for key, title in (("medium", "medium"), ("cell", "cell")):
         print(f"\n{title:42} {'pool':>6} {'ref':>5} {'selected':>8} {'ref recovered':>13}")
         for group in sorted({r[key] for r in rows}):
             idx = [i for i, r in enumerate(rows) if r[key] == group]
             ref = [i for i in idx if rows[i]["is_reference"]]
-            sel = sum(1 for i in idx if scores[i] >= cutoff and (rows[i]["in_pool_rule"] or rows[i]["is_reference"]))
+            sel = int(chosen[idx].sum())
             rec = sum(1 for i in ref if scores[i] >= cutoff)
             print(f"{group:42} {len(idx):>6} {len(ref):>5} {sel:>8} {rec:>6}/{len(ref):<6}")
 
@@ -215,7 +226,7 @@ def fit(region, recall):
     in_rule = np.array([r["in_pool_rule"] for r in rows]) == 1
     assert train.dtype == bool and in_rule.dtype == bool
 
-    selected = (scores >= cutoff) & (in_rule | (y == 1))
+    selected = select(rows, scores, cutoff, cfg)
     print("\ncoefficients (features are within-cell percentiles, 0-1):")
     for f, c in sorted(zip(FEATURES, model.coef_[0]), key=lambda t: -abs(t[1])):
         print(f"  {f:20} {c:+.2f}")
@@ -225,7 +236,7 @@ def fit(region, recall):
     print(f"  pool-rule artists at or above the cutoff: {int((in_rule & (scores >= cutoff)).sum())}")
     print(f"  cross-validated (training media only): cutoff {oof_cut:.4f} recovers {recall:.0%} out-of-fold and selects "
           f"{int(((oof >= oof_cut) & train & (in_rule | (y == 1))).sum())}; the fitted cutoff recovers {(oof[y == 1] >= cutoff).mean():.1%} out-of-fold")
-    report_cells(rows, scores, cutoff)
+    report_cells(rows, scores, cutoff, cfg)
 
     ref_rows = load_reference(cfg)
     by_q = {r["qid"]: s for r, s in zip(rows, scores)}
@@ -263,8 +274,8 @@ def apply(region, model_name):
     scores = 1 / (1 + np.exp(-(X @ np.array(m["coef"]) + m["intercept"])))
     in_rule = np.array([r["in_pool_rule"] for r in rows]) == 1
     print(f"{region}: {len(rows)} artists; model {model_name}, cutoff {m['cutoff']}")
-    print(f"selects {int((in_rule & (scores >= m['cutoff'])).sum())} artists")
-    report_cells(rows, scores, m["cutoff"])
+    print(f"selects {int(select(rows, scores, m['cutoff'], REGIONS[region]).sum())} artists")
+    report_cells(rows, scores, m["cutoff"], REGIONS[region])
     print(f"wrote {write_scores(region, rows, scores, m['cutoff'])}")
 
 
@@ -273,7 +284,8 @@ def main():
     sub = ap.add_subparsers(dest="cmd", required=True)
     f = sub.add_parser("fit")
     f.add_argument("--region", required=True, choices=sorted(REGIONS))
-    f.add_argument("--recall", type=float, default=0.95)
+    # Decided 2026-10-28: 90% recall, with the whole reference list included regardless.
+    f.add_argument("--recall", type=float, default=0.90)
     a = sub.add_parser("apply")
     a.add_argument("--region", required=True, choices=sorted(REGIONS))
     a.add_argument("--model", required=True)

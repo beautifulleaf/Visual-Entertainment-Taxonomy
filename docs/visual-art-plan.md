@@ -89,12 +89,14 @@ The target depth is the owner-supplied list in `seeds/visual-art/europe_1400-190
 | **95%** | **22,434** | 13,199 | 2,104 | 4,450 | 640 | 1,133 | 430 | 347 | 85 |
 
 - **At the 95% target the cutoff is very low.** The bottom 5% of the reference list have almost no presence in any source (Mazzolini, Bidau, Papin score ≈ 0), so the cutoff (score 0.0049) takes about half the pool. Cross-validated, the same cutoff recovers 94.8% out of fold.
-- **Open decision:** keep 95% (22k), or take 90% (13k) and add the stragglers explicitly as reference members. Architecture is large at any cutoff, because Wikidata documents 19th-century architects densely; a per-medium cap or a higher architecture cutoff may be wanted.
-- **Decided (2026-10-28): architecture enters through buildings, not architects.** Premodern architecture is mostly not architect-based, and Wikidata's architect coverage is skewed to 19th-century municipal practice. So:
-  - the unit is the **building/monument**: Wikidata buildings and structures with style (P149), inception, country, architect (P84), heritage designation (P1435, UNESCO P757) and sitelinks, selected per region × period like the tradition nodes;
-  - **architects are included when they designed a selected building**, and are placed under it and its style;
-  - the depth model no longer selects architects on its own; its architecture rows are kept only as a cross-check.
-  - The building harvest is queued behind the current Wikidata jobs.
+- **Decided (2026-10-28): cutoff at 90% reference recall, with the whole reference list included regardless of score, and architecture excluded from model selection (see below).** That selects **10,543 artists** for Europe 1400–1900: painting 7,806 · sculpture 1,196 · photography 662 · printmaking 367 · drawing 247 · design 197 · book arts 44 · unspecified 23 · architecture 1 (its reference entry). The 95% option was rejected: its extra ~9,400 artists are mostly the Wikipedia long tail (3–8 language editions, ~50–140 page views a month), and this region calibrates every other, so it would inflate them all. The rule is `depth_model.select()`; the default `--recall` is 0.90.
+- *Earlier options considered:* keep 95% (22k), or take 90% (13k) and add the stragglers explicitly as reference members. Architecture is large at any cutoff, because Wikidata documents 19th-century architects densely; a per-medium cap or a higher architecture cutoff may be wanted.
+- **Decided (2026-10-28): architecture is organised by *style*, not by architect.** Premodern architecture is mostly not architect-based, and Wikidata's architect coverage is skewed to 19th-century municipal practice. So:
+  - the node is the **architectural style** (Romanesque, Gothic, Mughal, Khmer, Nara-period temple, Brutalism, ...) in its region × period cell, with Getty AAT style terms as IDs. Inclusion uses the tradition-node metric (§2A: curatorial presence, sitelinks, pageviews, number of heritage-listed exemplars);
+  - **buildings are the style's representative works**: 3–10 per style, chosen by architectural style (P149) and ranked by heritage designation (UNESCO P757, P1435) and sitelinks;
+  - **named architects hang under the style**, attached via the buildings they designed (P84);
+  - the depth model does not select architects on its own; its architecture rows are kept only as a cross-check.
+  - The style and exemplar-building harvest is queued behind the current Wikidata jobs.
 
 ## 2A. Unattributed traditions: antiquity, decorative arts, architecture
 

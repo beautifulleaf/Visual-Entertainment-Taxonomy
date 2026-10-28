@@ -20,9 +20,9 @@
   1.347716
  ],
  "intercept": -10.134425,
- "recall_target": 0.95,
- "cutoff": 0.004881,
+ "recall_target": 0.9,
+ "cutoff": 0.022243,
  "n_artists": 41453,
  "n_reference": 889,
- "n_selected": 22431
+ "n_selected": 10543
 }

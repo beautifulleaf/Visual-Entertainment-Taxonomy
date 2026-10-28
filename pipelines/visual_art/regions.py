@@ -76,6 +76,9 @@ REGIONS = {
         # painting cells (plus reference artists from any medium) and applied to
         # every medium with within-cell percentiles.
         "train_media": ["painting"],
+        # Architecture is organised by style, with buildings as exemplars and
+        # architects attached through them; the model does not select architects.
+        "model_excluded_media": ["architecture"],
         "continents": [EUROPE, NORTH_AMERICA, SOUTH_AMERICA, OCEANIA, INSULAR_OCEANIA, AUSTRALIA],
         # Colonial states outside those continents.
         "countries": [
