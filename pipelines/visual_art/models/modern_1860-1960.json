@@ -22,27 +22,27 @@
  "feature_transform": "within-cell mid-rank percentile (per region)",
  "coef": [
   0.0,
-  1.223041,
+  1.200612,
   0.0,
-  1.396843,
-  2.37864,
-  0.604201,
-  2.025007
+  1.402134,
+  2.35166,
+  0.512357,
+  2.091948
  ],
- "intercept": -6.988318,
+ "intercept": -6.978474,
  "cutoff": null,
  "cutoff_status": "under review (modern_cutoff_review.csv); candidates by out-of-fold recall",
  "candidate_cutoffs": {
-  "0.90": 0.019388,
-  "0.85": 0.026994,
-  "0.80": 0.038058
+  "0.90": 0.019161,
+  "0.85": 0.026424,
+  "0.80": 0.036483
  },
  "selected_at_candidates": {
-  "0.90": 32390,
-  "0.85": 26653,
-  "0.80": 21206
+  "0.90": 32151,
+  "0.85": 26605,
+  "0.80": 21477
  },
  "reference": "data/interim/modern_reference_candidate.csv",
- "n_artists": 59949,
- "n_reference": 2047
+ "n_artists": 59900,
+ "n_reference": 1998
 }
