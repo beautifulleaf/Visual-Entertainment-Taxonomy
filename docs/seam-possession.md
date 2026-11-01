@@ -175,3 +175,7 @@ The page's lede now counts the families instead of saying 13.
 1. **Region-named vernacular leaves.** K12-8/9/12/13/14/15/17 group house types under a country (British, German, Spanish ... Vernacular Architecture), where VE elsewhere makes single house types leaves.
 2. **Comics publishers** went with the Literary hand-off, although VE holds comics (VA-B1-3, B1-9); they are publishers, not artists, so nothing moves unless the owner says so.
 3. **Fixes the passes noticed, not made**: the Lalique glass kind sits under I3-12 Biedermeier; Seto Ware (E3-15) holds Mino-kiln kinds now that Mino Ware has its own leaf; C4-1 Ebru covers only Ottoman and Iranian marbling; H1-11 Ryijy is Finnish only, though Swedish and Norwegian rya point to it.
+
+## Published
+
+- Visual Entertainment Taxonomy: https://claude.ai/artifact/3i6kmC3zQdvQ5PL5ckrFQb, version 4 (1793569636-302f), 2026-11-01, with S2 and the owner follow-up. `artifact/full/` in this repo holds the page and all 23 data files as published (`m-va-N.json` is new).
