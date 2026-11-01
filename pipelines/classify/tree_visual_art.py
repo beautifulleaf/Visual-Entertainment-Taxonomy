@@ -912,3 +912,21 @@ _unalias("J1-6", ["Photojournalism"])
 _unalias("K1-15", ["Mughal gardens"])
 _unalias("M2-2", ["Internet art", "generative art", "computer art", "AI art"])
 _unalias("H5-30", ["kitenge"])
+
+
+# Seam ruling S2 with the Possession taxonomy (owner, 2026-10-31/2026-11-01; pipelines/classify/seam_possession.py):
+# precedence S2 and the See-also back-links to the products Possession files, from taxonomy/seams/possession_handover.csv.
+def _possession_seam():
+    import seam_possession as _sp
+    rows = _sp.rd(_sp.HANDOVER)
+    if not rows:
+        return
+    PRECEDENCE.append(_sp.S2)
+    links = _sp.backlinks(rows)
+    for rows_ in LEAVES.values():
+        for i, l in enumerate(rows_):
+            if l[0] in links:
+                rows_[i] = l[:5] + (_sp.see_with_links(l[5], links[l[0]]),) + l[6:]
+
+
+_possession_seam()
