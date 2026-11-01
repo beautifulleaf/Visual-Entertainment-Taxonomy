@@ -48,6 +48,85 @@ S2 = ("S2", "Seam with Possession",
       "Brands, sellers and product versions are never kinds here; artists and works taken out of Possession's art "
       "category are placed by P11 and P15.")
 
+# Owner follow-up rulings on S2 (2026-11-01): (1) a sub-family of its own for the plant and floral arts; (2) a leather
+# sub-family; (3) leaves named after an object become finder rows (Clocks and Watches and Cutlery give way to their named
+# schools); (5) a Design section for the museum design collections, structure only, gathered later.
+NEW_SUBS = {
+    "K": [("K14", "Plant & Floral Arts", "Axis: tradition. Living plants and cut flowers shaped and arranged as works to "
+           "be looked at: trees and landscapes in containers (bonsai, penjing, saikei, hòn non bộ) and flower "
+           "arrangement (ikebana).")],
+    "H": [("H10", "Leatherwork", "Axis: tradition. Leather tooled, carved, stamped, embroidered or appliquéd where the "
+           "decorated leather is the work (Western saddle carving, Moroccan leather, jutti). Leather mosaic sewn as a "
+           "textile stays H4; bindings are C3; shadow puppets D4.")],
+}
+FAMILY_TEXT = {
+    "K": (" The plant and floral arts of the garden traditions (bonsai, penjing, ikebana) are K14.",
+          "4. A living plant shaped in a container, or a flower arrangement, made as a work (bonsai, penjing, ikebana)? "
+          "→ <b>K14</b>."),
+    "H": (" Decorated leather is H10.",
+          "10. Decorated leather (tooled, carved, stamped, embroidered or appliquéd) where the leather is the work? → "
+          "<b>H10</b>."),
+}
+DESIGN = {
+    "code": "N", "label": "Design",
+    "test": "an object or graphic designed for serial production and held as a landmark of its field by a design "
+            "collection or a major design award (a chair, a lamp, an appliance, a poster), placed by the design "
+            "movement or school that canonised it; the designed object is the kind, with designer, maker, year and "
+            "holding collection.",
+    "key": ["1. Furniture or a light fitting designed for serial production? → <b>N1</b>.",
+            "2. A product, appliance, tool, vessel or vehicle designed for industry? → <b>N2</b>.",
+            "3. A poster, identity, information graphic or book jacket designed for print? → <b>N3</b>. A typeface is "
+            "C1-12; a poster made and studied as a print is B2 (P17)."],
+    "subs": [("N1", "Furniture & Lighting Design", "Axis: design movement or school. Not gathered yet: the collections "
+              "are listed in the report (Design section)."),
+             ("N2", "Product & Industrial Design", "Axis: design movement or school. Not gathered yet."),
+             ("N3", "Graphic Design", "Axis: design movement or school. Not gathered yet.")],
+}
+DESIGN_SOURCES = ("MoMA (Architecture and Design), the V&A, Cooper Hewitt, the Design Museum (London), the Vitra Design "
+                  "Museum, Die Neue Sammlung, the ADI Design Museum (Compasso d'Oro) and Red Dot Best of the Best")
+FAMILY_KEY_DESIGN = ("Is it a <b>design for serial production</b> held as a landmark of design (a chair, lamp, appliance "
+                     "or poster in a design collection)? → <b>N Design</b> (P17).")
+FAMILY_KEY_PLANT = "Living plant and floral arts (bonsai, ikebana) are K14."
+P17 = ("P17", "Design and the decorative arts",
+       "N holds designs for serial production by the design movement or school that canonised them, the designed "
+       "object being the kind. I3 keeps the period styles of furniture and the decorative arts with their designers "
+       "and makers; a designer stays a kind of I3 while N is being gathered. A poster made and studied as a print is "
+       "B2, a typeface C1-12, and studio crafts made by hand (studio pottery, studio glass) stay with their material.")
+FIXES = [("T158 Quilts of Gee's Bend", "H4-93 Quilts of Gee's Bend"), ("H4-91 Quilts of Gee's Bend", "H4-93 Quilts of Gee's Bend")]
+
+
+def structure(fams, family_key, precedence, as_tuples):
+    """Add K14, H10 and family N, their key lines, and P17 to a family list (published dicts or the source module's).
+    Idempotent. as_tuples: sub-families are (code, label, axis) tuples (sources) instead of dicts (published)."""
+    by = {f["code"]: f for f in fams}
+    for fc, subs in NEW_SUBS.items():
+        f = by[fc]
+        have = {(s[0] if as_tuples else s["code"]) for s in f["subs"]}
+        for code, label, axis in subs:
+            if code not in have:
+                f["subs"].append((code, label, axis) if as_tuples else
+                                 {"code": code, "label": label, "axis": axis, "leaves": [], "n": 0})
+        test_add, key_add = FAMILY_TEXT[fc]
+        if test_add.strip() not in f["test"]:
+            f["test"] = f["test"].rstrip() + test_add
+        if key_add not in f["key"]:
+            f["key"].append(key_add)
+    if "N" not in by:
+        n = {k: (list(v) if isinstance(v, list) else v) for k, v in DESIGN.items()}
+        if not as_tuples:
+            n["subs"] = [{"code": c, "label": l, "axis": a, "leaves": [], "n": 0} for c, l, a in DESIGN["subs"]]
+            n.update(n=0, nleaves=0, unit="items")
+        fams.append(n)
+    for i, k in enumerate(family_key):
+        if k.startswith("1.") and FAMILY_KEY_PLANT not in k:
+            family_key[i] = k.rstrip() + " " + FAMILY_KEY_PLANT
+        if k.startswith("3.") and "N Design" not in k:
+            family_key[i] = k.rstrip() + " " + FAMILY_KEY_DESIGN
+        if k.startswith("8.") and "decorated leather" not in k:
+            family_key[i] = k.replace("felted textiles, dress)", "felted textiles, dress, decorated leather)")
+    if not any(p[0] == "P17" for p in precedence):
+        precedence.append(P17 if as_tuples else list(P17))
+
 
 def norm(s):
     s = unicodedata.normalize("NFKD", re.sub(r"<[^>]+>", "", s or "")).encode("ascii", "ignore").decode().lower()
@@ -115,6 +194,9 @@ def sources(rows, leaves):
     for nl in leaves:
         if nl["code"] not in have:
             su.append({k: nl.get(k, "") for k in su[0].keys()})
+    for r in su:
+        for a, b in FIXES:
+            r["see"] = r["see"].replace(a, b)
     wr(SCALEUP, su)
     pl = [r for r in rd(PLACEMENTS) if r["slice"] != SLICE]
     for r in rows:
@@ -138,9 +220,10 @@ def sources(rows, leaves):
 # ---------------------------------------------------------------- published
 def published(rows, leaves):
     T = jload("tree.json")
+    structure(T["va"]["fams"], T["va"]["familyKey"], T["va"]["precedence"], False)
     F = jload("find.json")
     fams = {f["code"]: f for f in T["va"]["fams"]}
-    M = {c: jload(f"m-va-{c}.json") for c in fams}
+    M = {c: (jload(f"m-va-{c}.json") if os.path.exists(os.path.join(OUT, f"m-va-{c}.json")) else {}) for c in fams}
     L = {}
     for f in T["va"]["fams"]:
         for sb in f["subs"]:
@@ -208,6 +291,12 @@ def published(rows, leaves):
     if not any(p[0] == "S2" for p in T["va"]["precedence"]):
         T["va"]["precedence"].append(list(S2))
     c = T["census"]["va"]
+    for f in T["va"]["fams"]:
+        for sb in f["subs"]:
+            for l in sb["leaves"]:
+                for a, b in FIXES:
+                    l["see"] = l["see"].replace(a, b)
+    c["families_built"] = sum(1 for f in T["va"]["fams"] if f["nleaves"])
     c["leaves"] = sum(f["nleaves"] for f in T["va"]["fams"])
     c["kinds"] = sum(f["n"] for f in T["va"]["fams"])
     c["empty_leaves"] = [l["code"] for f in T["va"]["fams"] for s in f["subs"] for l in s["leaves"] if l["n"] == 0]
@@ -222,6 +311,11 @@ def published(rows, leaves):
     for code, m in M.items():
         jsave(f"m-va-{code}.json", m)
     jsave("find.json", F)
+    page = os.path.join(OUT, "..", "index.html")
+    html = open(page, encoding="utf-8").read()
+    html2 = html.replace("of the 13 families", "of the ${T.fams.length} families")
+    if html2 != html:
+        open(page, "w", encoding="utf-8").write(html2)
     print("published:", dict(acts), "| added", dict(added), "| new leaves", len(leaves), "| VA leaves", c["leaves"],
           "kinds", c["kinds"])
 
@@ -241,6 +335,13 @@ def report(rows, leaves, acts):
             f"and technique names routed to their leaf), and {len(dec)} were declined as not visual art.</p>"
             + (f"<p>New leaves: {nl}.</p>" if leaves else "")
             + (f"<p>Declined: {'; '.join(r['possession_name'] + ' (' + r['reason'] + ')' for r in dec)}.</p>" if dec else "")
+            + "<p>Owner follow-up (November 2026): the plant and floral arts have their own sub-family, K14; decorated "
+            "leather has H10; leaves named after an object became finder rows (Clocks and Watches and Cutlery gave way to "
+            "their named schools: Jura, Black Forest, London, Glashütte, Comtoise, Mora, Vienna and Connecticut clockmaking, "
+            "wadokei; Solingen, Thiers and Sheffield cutlery); and a <b>Design</b> family, N, is set up for the landmark "
+            "designs held by the design collections, structure only: N1 Furniture &amp; Lighting Design, N2 Product &amp; "
+            "Industrial Design, N3 Graphic Design, with precedence P17 against I3. It will be gathered from " + DESIGN_SOURCES
+            + "; a design enters when a fetched page shows it held by such a collection or given such an award.</p>"
             + "<p>A leaf whose tradition makes things Possession files names those products under <i>See also</i> "
             "(precedence S2). The row-by-row record is <code>taxonomy/seams/possession_handover.csv</code>; the decision "
             "record is <code>docs/seam-possession.md</code>.</p>")

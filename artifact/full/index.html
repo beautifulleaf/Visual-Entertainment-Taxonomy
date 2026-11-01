@@ -190,7 +190,7 @@ function leafHTML(t,l,unit){
 function renderTree(t){
   setHue(t); const T=D[t.toLowerCase()]; const c=D.census[t.toLowerCase()];
   let out = t==='VA'
-   ? `<p class="lede">Visual Art is divided by what the work is (its medium), never by region or period. This release holds ${c.leaves.toLocaleString()} leaves in ${c.families_built} of the 13 families, with ${c.kinds.toLocaleString()} entries under them: schools, centres, sub-types, makers, architects, artists and the gathered rows that attest each tradition. Dynasties, periods, places and cultures are filters, not nodes.</p>`
+   ? `<p class="lede">Visual Art is divided by what the work is (its medium), never by region or period. This release holds ${c.leaves.toLocaleString()} leaves in ${c.families_built} of the ${T.fams.length} families, with ${c.kinds.toLocaleString()} entries under them: schools, centres, sub-types, makers, architects, artists and the gathered rows that attest each tradition. Dynasties, periods, places and cultures are filters, not nodes.</p>`
    : `<p class="lede">Film &amp; Television is divided by form (feature, short, series, serial tradition, anime, unscripted format), then by genre, cycle, movement and tradition. This release places ${c.placed.toLocaleString()} selected titles in ${c.leaves} leaves. Country, decade, format and platform are filters.</p>`;
   let ix=`<h3>${t==='VA'?'Visual Art':'Film & Television'}</h3><ol>`;
   for(const f of T.fams){

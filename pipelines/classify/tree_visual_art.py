@@ -915,12 +915,13 @@ _unalias("H5-30", ["kitenge"])
 
 
 # Seam ruling S2 with the Possession taxonomy (owner, 2026-10-31/2026-11-01; pipelines/classify/seam_possession.py):
-# precedence S2 and the See-also back-links to the products Possession files, from taxonomy/seams/possession_handover.csv.
+# the new sub-families and Design family, precedence S2 and the See-also back-links to the products Possession files, from taxonomy/seams/possession_handover.csv.
 def _possession_seam():
     import seam_possession as _sp
     rows = _sp.rd(_sp.HANDOVER)
     if not rows:
         return
+    _sp.structure(FAMILIES, FAMILY_KEY, PRECEDENCE, True)  # K14, H10, family N and P17 (owner follow-up)
     PRECEDENCE.append(_sp.S2)
     links = _sp.backlinks(rows)
     for rows_ in LEAVES.values():
