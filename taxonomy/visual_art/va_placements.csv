@@ -49641,3 +49641,590 @@ artists,list:zou xunjing,artists,ZOU Xunjing,artist,,,,kind:A5-111/Artists,
 artists,list:zozimo bulbul,artists,Zózimo Bulbul,artist,South America,,,kind:A5-111/Artists,
 artists,list:zumvi arquivo afro fotografico,artists,Zumví Arquivo Afro Fotográfico,artist,,,,kind:A5-111/Artists,
 seam_ep,evidence:seam_ep:Shunga,evidence,Shunga,kind from evidence,Japan,traditional,,kind:B2-17/sub-type,https://www.ngv.vic.gov.au/essay/interpreting-shunga-scroll-sex-and-desire-between-women-in-edos-floating-world/; https://hyperallergic.com/240689/intricate-beautiful-raunchy-japan-embraces-its-ancient-erotic-print-tradition/
+seam_possession,possession:P0003,possession,Cowboy boots,possession craft tradition,"Texas, Oklahoma and Kansas, United States",,,kind:H7-21/sub-type,"Pull-on cattle-country boots of Texas, Oklahoma and Kansas (1860s on), with decorative stitched shafts, inlay and tooling · owned as Classic western boot (Possession A2) · https://en.wikipedia.org/wiki/Cowboy_boot"
+seam_possession,possession:P0008,possession,Punjabi jutti,possession craft tradition,"Punjab, India and Pakistan",,,leaf:H4-107, · owned as Jutti (Possession A2) · https://en.wikipedia.org/wiki/Jutti
+seam_possession,possession:P0009,possession,Babouche,possession craft tradition,Morocco,,,kind:H4-108/sub-type,"Heel-less pointed or rounded leather slippers of Morocco, plain or embroidered in silk and metal thread (Fez, Marrakech) · owned as Babouche (Possession A2) · https://el-fenn.com/the-story-of-babouche/"
+seam_possession,possession:P0014,possession,Torre del Greco shell and coral carving,possession craft tradition,"Torre del Greco, Campania, Italy",,,leaf:D2-17, · owned as Cameo (Possession A3) · https://en.wikipedia.org/wiki/Torre_del_Greco
+seam_possession,possession:P0015,possession,Mourning jewellery,possession craft tradition,Britain,,,kind:G3-21/sub-type,"memorial jewellery with plaited hair, black enamel and jet, 17th–19th c., at its height in Britain after 1861 · owned as Mourning locket (Possession A3) · https://en.wikipedia.org/wiki/Mourning_jewelry"
+seam_possession,possession:P0016,possession,Navajo silversmithing,possession craft tradition,"Navajo Nation, south-western United States",,,alias:G3-15,
+seam_possession,possession:P0017,possession,Kanzashi,possession craft tradition,Japan,,,leaf:G3-28, · owned as Kogai (Possession A3) · https://en.wikipedia.org/wiki/Kanzashi
+seam_possession,possession:P0018,possession,Kundan,possession craft tradition,"Rajasthan and Gujarat, India",,,alias:G3-2,
+seam_possession,possession:P0020,possession,Jadau,possession craft tradition,North India; Rajasthan,,,alias:G3-2,
+seam_possession,possession:P0021,possession,Meenakari,possession craft tradition,"Iran; India (Rajasthan, Gujarat)",,,alias:G3-2,
+seam_possession,possession:P0022,possession,Temple jewellery of Nagercoil,possession craft tradition,"Nagercoil, Kanniyakumari district, Tamil Nadu",,,leaf:G3-22, · owned as Jhumka (Possession A3) · https://en.wikipedia.org/wiki/Temple_Jewellery_of_Nagercoil
+seam_possession,possession:P0023,possession,Thewa,possession craft tradition,"Pratapgarh district, Rajasthan",,,leaf:G3-23, · owned as Jewellery (Possession A3) · https://en.wikipedia.org/wiki/Thewa
+seam_possession,possession:P0024,possession,Tarakasi,possession craft tradition,"Cuttack, Odisha",,,leaf:G3-24, · owned as Anklet (Possession A3) · https://en.wikipedia.org/wiki/Tarakasi
+seam_possession,possession:P0025,possession,Zuni inlay and clusterwork,possession craft tradition,"Zuni Pueblo, New Mexico, United States",,,alias:G3-16,
+seam_possession,possession:P0026,possession,Hopi overlay,possession craft tradition,"Hopi Reservation, Arizona, United States",,,leaf:G3-25, · owned as Squash blossom necklace (Possession A3) · https://musnaz.org/?p=96381
+seam_possession,possession:P0027,possession,Tuareg silver casting,possession craft tradition,"Aïr, Niger (Kel Aïr, Kel Geress)",,,alias:G3-4,
+seam_possession,possession:P0028,possession,Kabyle enamelled silver,possession craft tradition,"Kabylie, Algeria; Amazigh North Africa",,,alias:G3-4,
+seam_possession,possession:P0029,possession,Ethiopian Orthodox crosses,possession craft tradition,Ethiopia,,,alias:G1-19,
+seam_possession,possession:P0030,possession,Māori pounamu carving,possession craft tradition,New Zealand (South Island stone),,,alias:D3-9,
+seam_possession,possession:P0031,possession,Galway Claddagh making,possession craft tradition,"Claddagh, Galway, Ireland",,,leaf:G3-26, · owned as Crowned Claddagh (Possession A3) · https://en.wikipedia.org/wiki/Claddagh_ring
+seam_possession,possession:P0032,possession,Chinese jade carving,possession craft tradition,China,,,alias:D3-3,
+seam_possession,possession:P0033,possession,Taxco silver,possession craft tradition,"Taxco, Guerrero, Mexico",,,leaf:G3-27, · owned as Silver jewellery (Possession A3) · https://en.wikipedia.org/wiki/Taxco
+seam_possession,possession:P0034,possession,Scandinavian Modern,possession craft tradition,Denmark and Scandinavia,,,kind:I3-19,"Nordic modernist design c. 1930–1970, in silver led by Georg Jensen's Copenhagen smithy (Koppel, Bernadotte, Torun) · owned as Brooch (Possession A3) · https://en.wikipedia.org/wiki/Georg_Jensen"
+seam_possession,possession:P0037,possession,Chinese oil-paper umbrella,possession craft tradition,"China, Taiwan, Thailand",,,leaf:C4-7, · owned as Parasol (Possession A4) · https://en.wikipedia.org/wiki/Oil-paper_umbrella
+seam_possession,possession:P0038,possession,Wagasa,possession craft tradition,Japan,,,kind:C4-7,"Japanese bamboo-and-washi umbrellas (janome-gasa, bangasa), from the Edo period, derived from the Chinese oil-paper umbrella · owned as Parasol (Possession A4) · https://en.wikipedia.org/wiki/Wagasa"
+seam_possession,possession:P0039,possession,Pathein umbrella,possession craft tradition,"Pathein, Ayeyarwady Region, Myanmar",,,kind:C4-7,"Hand-made painted cotton and paper parasols of Pathein, Ayeyarwady Region, Myanmar, from the late Konbaung court · owned as Parasol (Possession A4) · https://en.wikipedia.org/wiki/Pathein_hti"
+seam_possession,possession:P0040,possession,Kyō-sensu,possession craft tradition,"Kyoto, Japan (Kyoto, Uji, Kameoka, Nantan)",,,kind:C4-8,"Kyoto folding fans of bamboo ribs and painted paper or silk, a designated Japanese traditional craft · owned as Sensu (Possession A4) · https://kougeihin.jp/en/craft/1411/"
+seam_possession,possession:P0041,possession,Kyō uchiwa,possession craft tradition,"Kyoto City and Nantan, Japan",,,kind:C4-8,"Kyoto flat fans with separately inserted ribs and handle, historically painted by court painters · owned as Uchiwa (Possession A4) · https://www.ibasen.co.jp/en/pages/2304_uchiwa_tradition"
+seam_possession,possession:P0042,possession,Marugame uchiwa,possession craft tradition,"Marugame, Kagawa, Japan",,,kind:C4-8,"Flat bamboo fans of Marugame, Kagawa, from the Edo period; one of Japan's three great uchiwa · owned as Uchiwa (Possession A4) · https://www.kensanpin.org/en/product/craft/1006/"
+seam_possession,possession:P0043,possession,Bōshū uchiwa,possession craft tradition,"Tateyama and Minamibōsō, Chiba, Japan",,,kind:C4-8,Chiba flat fans with a round bamboo handle and lattice 'window' of thread-bound ribs; one of Japan's three great uchiwa · owned as Uchiwa (Possession A4) · https://kogeijapan.com/locale/en_US/boshuuchiwa/
+seam_possession,possession:P0044,possession,Valencian fan making,possession craft tradition,"Valencia and l'Horta, incl. Aldaia, Spain",,,leaf:C4-8, · owned as Spanish abanico (Possession A4) · https://www.craftheritage.world/technique/valencia-fan-making-spain
+seam_possession,possession:P0045,possession,Hangzhou fans,possession craft tradition,"Hangzhou, Zhejiang, China",,,kind:C4-8,"Hangzhou folding fans, best known for persimmon-oiled black paper fans painted in gold, from the Southern Song · owned as Hangzhou black paper fan (Possession A4) · https://baike.baidu.com/en/item/Fan%20Making%20Craft%20(Wangxingji%20Fan)/658068"
+seam_possession,possession:P0046,possession,Wayuu mochila,possession craft tradition,"Guajira Peninsula, Colombia and Venezuela",,,leaf:H8-40, · owned as Wayuu mochila (Possession A4) · https://en.wikipedia.org/wiki/Wayuu_people
+seam_possession,possession:P0047,possession,Bilum looping,possession craft tradition,Papua New Guinea; also western New Guinea and the Solomon Islands,,,alias:H8-2,
+seam_possession,possession:P0048,possession,Kiondo weaving,possession craft tradition,Kenya,,,leaf:H8-41, · owned as Kiondo (Possession A4) · https://en.wikipedia.org/wiki/Kiondo
+seam_possession,possession:P0049,possession,Swiss and French Jura watchmaking,possession craft tradition,"Jura arc, Switzerland and France",,,leaf:G1-50,"mechanical watchmaking and art mechanics (automata, music boxes) of the Franco-Swiss Jura arc and Geneva, 17th c.–present; UNESCO 2020 · owned as mechanical watches (Possession A5) · https://www.bak.admin.ch/en/craftsmanship-of-mechanical-watchmaking-and-art-mechanics"
+seam_possession,possession:P0050,possession,Black Forest clocks,possession craft tradition,"Black Forest, Germany",,,kind:G1-50/Regional schools,"cottage and factory clocks of Triberg and Furtwangen, mid-17th c.–present, with painted shield dials and carved cuckoo-clock cases · owned as cuckoo clock (Possession A5) · https://www.v-ds.org/?lang=en"
+seam_possession,possession:P0051,possession,English clockmaking (London school),possession craft tradition,"London, England",,,kind:G1-50/Regional schools,"London clocks of c. 1660–1800 (Knibb, Tompion, Quare): ebony and marquetry longcase and bracket clocks, engraved backplates · owned as lantern clock (Possession A5) · https://en.wikipedia.org/wiki/Joseph_Knibb"
+seam_possession,possession:P0052,possession,Glashütte watchmaking,possession craft tradition,"Glashütte, Saxony, Germany",,,kind:G1-50/Regional schools,"Saxon watchmaking of Glashütte from A. Lange's 1845 workshop, with three-quarter plates and hand-engraved balance cocks · owned as Lange 1 (Possession A5) · https://en.wikipedia.org/wiki/A._Lange_%26_S%C3%B6hne"
+seam_possession,possession:P0053,possession,Comtoise clocks,possession craft tradition,"Franche-Comté (Morbier, Morez), France",,,kind:G1-50/Regional schools,"provincial French longcase clocks of Franche-Comté (Morbier, Morez), 1680–c. 1910, with embossed brass lyre pendulums and painted cases · owned as Comtoise longcase (Possession A5) · https://en.wikipedia.org/wiki/Longcase_clock"
+seam_possession,possession:P0054,possession,Mora clocks,possession craft tradition,"Mora, Dalarna, Sweden",,,kind:G1-50/Regional schools,"Swedish longcase clocks of Mora in Dalarna, late 18th–19th c., cottage movements in painted, waisted pine cases · owned as Mora clock (Possession A5) · https://en.wikipedia.org/wiki/Mora_clock"
+seam_possession,possession:P0055,possession,Wadokei,possession craft tradition,Japan,,,kind:G1-50/Regional schools,"Japanese clocks of the Edo period showing unequal temporal hours: pillar, pillow and bracket clocks in lacquered and engraved cases · owned as pillar clock (Possession A5) · https://en.wikipedia.org/wiki/Japanese_clock"
+seam_possession,possession:P0056,possession,Vienna regulators,possession craft tradition,"Vienna, Austria and German-speaking lands",,,kind:G1-50/Regional schools,"weight-driven precision wall clocks of Vienna, c. 1780–1930, in glazed Biedermeier and later historicist cases · owned as Vienna regulator (Possession A5) · https://schifferbooks.com/products/vienna-regulator-clocks"
+seam_possession,possession:P0057,possession,Connecticut clocks,possession craft tradition,"Connecticut, United States",,,kind:G1-50/Regional schools,mass-produced shelf clocks of Connecticut from Eli Terry (c. 1814): pillar-and-scroll and OG cases with reverse-painted glass tablets · owned as pillar and scroll shelf clock (Possession A5) · https://en.wikipedia.org/wiki/Eli_Terry
+seam_possession,possession:P0060,possession,Skep making,possession craft tradition,"Northern and western Europe, British Isles",,,leaf:H8-42, · owned as Skep (Possession B10) · https://en.wikipedia.org/wiki/Skep
+seam_possession,possession:P0062,possession,Vaquero saddlery,possession craft tradition,"Iberia, New Spain (Mexico), south-west United States",,,leaf:H7-21, · owned as Western saddle (Possession B10) · https://en.wikipedia.org/wiki/Vaquero
+seam_possession,possession:P0063,possession,Buckaroo gear,possession craft tradition,"California and the Great Basin, United States",,,kind:H7-21/Regional schools,"Californio vaquero gear kept in use by Great Basin buckaroos (19th century on): rawhide bosalitos, spade bits, braided reatas · owned as Bosalito (Possession B10) · https://en.wikipedia.org/wiki/Vaquero"
+seam_possession,possession:P0064,possession,Paniolo saddlery,possession craft tradition,Hawaii,,,kind:H7-21/Regional schools,"Hawaiian ranching gear from 1832, after Mexican vaqueros, with its own noho lio saddle · owned as Noho lio (Possession B10) · https://en.wikipedia.org/wiki/Vaquero"
+seam_possession,possession:P0066,possession,Sheridan style,possession craft tradition,"Sheridan, Wyoming, United States",,,kind:H7-21/Regional schools,"Floral leather-carving style of saddles and tack from Sheridan, Wyoming (20th century), with dense wild-rose scrollwork · owned as Western saddle (Possession B10) · https://en.wikipedia.org/wiki/Sheridan,_Wyoming"
+seam_possession,possession:P0068,possession,Moroccan leatherwork,possession craft tradition,"Morocco (Fez, Marrakech)",,,leaf:H4-108, · owned as Moroccan leather pouf (Possession B1) · https://www.moroccancorridor.com/pages/moroccan-leather-poufs-guide
+seam_possession,possession:P0069,possession,Shaker furniture,possession craft tradition,"United States (New England, New York, Kentucky)",,,leaf:I3-22, · owned as Shaker rocker (Possession B1) · https://en.wikipedia.org/wiki/Shaker_furniture
+seam_possession,possession:P0070,possession,Windsor chairmaking,possession craft tradition,"England (Buckinghamshire, High Wycombe); America (Philadelphia)",,,leaf:I3-23, · owned as Windsor chair (Possession B1) · https://en.wikipedia.org/wiki/Windsor_chair
+seam_possession,possession:P0071,possession,Ming and Qing hardwood furniture,possession craft tradition,China,,,leaf:I3-24, · owned as Ming painting table (Possession B1) · https://en.wikipedia.org/wiki/Chinese_furniture
+seam_possession,possession:P0072,possession,Damascene mother-of-pearl inlay,possession craft tradition,"Damascus, Syria",,,kind:I1-3/Centres,"Furniture and boxes of Damascus inlaid with mother-of-pearl, bone and wood, recorded from the 1890s and revived in the 20th century · owned as side tables (Possession B1) · https://craftsofsyria.uvic.ca/damascus-makers-of-inlaid-furniture/"
+seam_possession,possession:P0073,possession,Essaouira thuya marquetry,possession craft tradition,"Essaouira, Morocco",,,leaf:I1-24, · owned as serving trays (Possession B1) · https://finewoodworking.com/2008/02/25/the-marquetry-artists-of-essaouira
+seam_possession,possession:P0074,possession,Kashmir walnut wood carving,possession craft tradition,"Jammu and Kashmir, India",,,leaf:I1-25, · owned as tables (Possession B1) · https://en.wikipedia.org/wiki/Kashmir_walnut_wood_carving
+seam_possession,possession:P0075,possession,Jepara wood carving,possession craft tradition,"Jepara, Central Java, Indonesia",,,leaf:I1-26, · owned as carved furniture (Possession B1) · https://www.thejakartapost.com/news/2009/06/15/jepara-administration-patents-99-wood-carving-motifs
+seam_possession,possession:P0077,possession,Tansu,possession craft tradition,Japan,,,leaf:I3-25, · owned as Isho-dansu (Possession B1) · https://en.wikipedia.org/wiki/Tansu
+seam_possession,possession:P0078,possession,Korean bandaji,possession craft tradition,Korea,,,leaf:I3-26, · owned as Ganghwa bandaji (Possession B1) · https://koreanantiquefurniture.com/gyeonggi-do-bandaji-경기도-반닫이
+seam_possession,possession:P0079,possession,Biedermeier,possession craft tradition,"German Confederation and Austria (Vienna), Scandinavia",,,alias:I3-12,
+seam_possession,possession:P0080,possession,Gustavian style,possession craft tradition,Sweden and Finland,,,kind:I3-10,"Swedish neoclassical furniture and interiors of c. 1770-1810 under Gustav III, often painted pine in pale colours · owned as Chest of drawers (Possession B1) · https://en.wikipedia.org/wiki/Gustavian_style"
+seam_possession,possession:P0081,possession,Cassone painting,possession craft tradition,"Italy (Florence, Siena)",,,kind:A5-20,"Painted panels of Italian marriage chests, Florence and Siena, 15th-16th century (Apollonio di Giovanni workshop) · owned as Cassone (Possession B1) · https://en.wikipedia.org/wiki/Cassone"
+seam_possession,possession:P0082,possession,Boulle marquetry,possession craft tradition,France,,,alias:I1-23,
+seam_possession,possession:P0083,possession,Mashrabiya woodwork,possession craft tradition,"Mashriq (Egypt, Iraq, Levant, Hejaz); also Tunisia, Malta",,,alias:I1-1,
+seam_possession,possession:P0084,possession,Persian carpet weaving,possession craft tradition,Iran,,,alias:H1-1,
+seam_possession,possession:P0085,possession,Caucasian rug weaving,possession craft tradition,Caucasus,,,alias:H1-4,
+seam_possession,possession:P0086,possession,Anatolian carpet weaving,possession craft tradition,Anatolia (Turkey),,,alias:H1-2,
+seam_possession,possession:P0087,possession,Turkmen rug weaving,possession craft tradition,Turkmenistan and neighbouring Central Asia,,,alias:H1-5,
+seam_possession,possession:P0088,possession,Baluch weaving,possession craft tradition,"Sistan and Baluchestan, Khorasan, Nimroz",,,alias:H1-6,
+seam_possession,possession:P0089,possession,Afghan carpet weaving,possession craft tradition,Afghanistan,,,alias:H1-7,
+seam_possession,possession:P0090,possession,Chinese rug weaving,possession craft tradition,China,,,leaf:H1-12, · owned as Chinese rug (Possession B2) · https://rugsonnet.com/?p=137832
+seam_possession,possession:P0091,possession,Tibetan rug weaving,possession craft tradition,Tibet; exile workshops in Nepal and India,,,leaf:H1-13, · owned as Tibetan rug (Possession B2) · https://en.wikipedia.org/wiki/Tibetan_rug
+seam_possession,possession:P0092,possession,Mughal and Indian carpet weaving,possession craft tradition,India,,,alias:H1-8,
+seam_possession,possession:P0094,possession,Moroccan Berber rug weaving,possession craft tradition,"Morocco (Middle and High Atlas, central plains)",,,alias:H1-9,
+seam_possession,possession:P0095,possession,French court carpet (Savonnerie),possession craft tradition,"Paris, France",,,leaf:H1-14, · owned as Savonnerie carpet (Possession B2) · https://en.wikipedia.org/wiki/Savonnerie_manufactory
+seam_possession,possession:P0097,possession,Scandinavian rya,possession craft tradition,"Sweden, Norway, Finland",,,alias:H1-11,
+seam_possession,possession:P0098,possession,Anatolian & Caucasian kilim weaving,possession craft tradition,"Anatolia, Persia, Caucasus",,,alias:H2-1,
+seam_possession,possession:P0099,possession,Balkan kilim (Pirot & Chiprovtsi),possession craft tradition,"Serbia, Bulgaria",,,alias:H2-17,
+seam_possession,possession:P0100,possession,Navajo weaving,possession craft tradition,"Navajo Nation, south-western United States",,,alias:H2-10,
+seam_possession,possession:P0101,possession,Kyrgyz felt carpets (ala kiyiz & shyrdak),possession craft tradition,Kyrgyzstan,,,alias:H6-1,
+seam_possession,possession:P0102,possession,Kantha,possession craft tradition,"Bengal (Bangladesh, West Bengal), Odisha, Tripura",,,alias:H4-11,
+seam_possession,possession:P0103,possession,Gee's Bend quilting,possession craft tradition,"Gee's Bend (Boykin), Wilcox County, Alabama",,,alias:H4-93,
+seam_possession,possession:P0104,possession,Amish quilting,possession craft tradition,"Lancaster County, Pennsylvania, and other Amish settlements",,,alias:H4-46,
+seam_possession,possession:P0105,possession,North Country and Welsh wholecloth quilts,possession craft tradition,"County Durham, Northumberland, South Wales, Scottish Borders",,,kind:H4-92/regional,"Wholecloth quilts of County Durham, Northumberland and South Wales whose design is in marked quilting, later 19th c.–1930s · owned as North Country wholecloth quilt (Possession B2) · https://quiltmuseum.org.uk/collections/heritage/triple-x-quilt.html"
+seam_possession,possession:P0106,possession,Hawaiian quilting,possession craft tradition,Hawaii,,,alias:H4-92,
+seam_possession,possession:P0107,possession,Ralli quilting,possession craft tradition,"Sindh, Balochistan, Bahawalpur, Rajasthan, Kutch",,,alias:H4-13,
+seam_possession,possession:P0108,possession,Sashiko,possession craft tradition,Japan (incl. Aomori kogin-zashi),,,alias:H4-27,
+seam_possession,possession:P0109,possession,Welsh tapestry weaving,possession craft tradition,Wales,,,leaf:H3-54, · owned as Welsh tapestry blanket (Possession B2) · https://en.wikipedia.org/wiki/Trefriw_Woollen_Mills
+seam_possession,possession:P0110,possession,Hudson's Bay point blanket,possession craft tradition,England (woven) · Canada (sold),,,kind:H3-55/sub-type,English-woven wool trade blanket with stripes and point marks sold by the Hudson's Bay Company in Canada from 1779 · owned as Hudson's Bay point blanket (Possession B2) · https://en.wikipedia.org/wiki/Hudson's_Bay_point_blanket
+seam_possession,possession:P0111,possession,Native American trade blanket,possession craft tradition,"United States (Pacific Northwest, Southwest)",,,leaf:H3-55, · owned as Pendleton trade blanket (Possession B2) · https://en.wikipedia.org/wiki/Pendleton_Woolen_Mills
+seam_possession,possession:P0112,possession,Saltillo sarape weaving,possession craft tradition,"Mexico (Saltillo, Coahuila; Tlaxcala)",,,alias:H2-9,
+seam_possession,possession:P0113,possession,Andean manta weaving,possession craft tradition,Andes (Cusco region),,,alias:H2-7,
+seam_possession,possession:P0115,possession,Peshtemal weaving,possession craft tradition,Turkey (historically Antioch),,,leaf:H3-56, · owned as Flat-woven towel (Possession B2) · https://en.wikipedia.org/wiki/Peshtemal
+seam_possession,possession:P0116,possession,Bojagi,possession craft tradition,Korea,,,alias:H4-26,
+seam_possession,possession:P0117,possession,Irish linen,possession craft tradition,Ireland and Northern Ireland,,,leaf:H3-57, · owned as Tablecloth (Possession B2) · https://en.wikipedia.org/wiki/Irish_linen
+seam_possession,possession:P0118,possession,Basque linen,possession craft tradition,"Basque Country and Béarn, France",,,leaf:H3-58, · owned as Tablecloth (Possession B2) · https://francetoday.com/culture/made_in_france/striped-basque/
+seam_possession,possession:P0119,possession,Rajasthani hand block printing (Bagru and Sanganer),possession craft tradition,"Bagru and Sanganer, near Jaipur, Rajasthan, India",,,leaf:H5-40, · owned as Tablecloth (Possession B2) · https://en.wikipedia.org/wiki/Bagru_print
+seam_possession,possession:P0120,possession,Provençal indiennes,possession craft tradition,"Marseille and Provence, France",,,leaf:H5-41, · owned as Tablecloth (Possession B2) · https://www.souleiado.com/en/our-history
+seam_possession,possession:P0121,possession,Suzani,possession craft tradition,Central Asia and Iran,,,alias:H4-1,
+seam_possession,possession:P0123,possession,Toile de Jouy,possession craft tradition,France,,,kind:H5-41/workshop,"Copperplate- and roller-printed cottons of single-colour scenes from Oberkampf's manufactory at Jouy-en-Josas, 1760–1843 · owned as Printed & embroidered furnishing textile (Possession B2) · https://en.wikipedia.org/wiki/Toile_de_Jouy"
+seam_possession,possession:P0124,possession,Gifu chōchin,possession craft tradition,"Gifu Prefecture, Japan",,,kind:C4-9,"Painted lanterns of thin Mino washi on fine bamboo frames, Gifu Prefecture; a designated traditional craft since 1995 · owned as Ouchi lantern (Possession B3) · https://kougeihin.jp/en/craft/1409/"
+seam_possession,possession:P0125,possession,Tiffany-style leaded glass,possession craft tradition,"New York, USA (copied worldwide)",,,alias:F5-3,
+seam_possession,possession:P0126,possession,Murano glass,possession craft tradition,"Murano, Venetian lagoon, Italy",,,alias:F1-5,
+seam_possession,possession:P0127,possession,Bohemian crystal,possession craft tradition,"Bohemia and Silesia, Czech Republic",,,alias:F2-2,
+seam_possession,possession:P0128,possession,Japanese chōchin lantern making,possession craft tradition,"Japan (Gifu, Odawara, Mito)",,,leaf:C4-9, · owned as Gifu chōchin (Possession B3) · https://en.wikipedia.org/wiki/Gifu_lanterns
+seam_possession,possession:P0129,possession,Turkish mosaic lamp making,possession craft tradition,Turkey,,,leaf:F1-11, · owned as Turkish mosaic lamp (Possession B3) · https://kraftstories.com/blogs/turkish-mosaic-lamp/the-rich-history-of-turkish-lamps-craftsmanship-and-culture
+seam_possession,possession:P0130,possession,Moroccan pierced brass lanterns,possession craft tradition,Morocco,,,leaf:G1-51, · owned as Moroccan pierced brass lantern (Possession B3) · https://www.1stdibs.com/buy/moroccan-brass-lanterns
+seam_possession,possession:P0131,possession,Murano glass,possession craft tradition,"Murano, Venice, Italy",,,alias:F1-5,
+seam_possession,possession:P0132,possession,Bohemian glass,possession craft tradition,"Bohemia and Silesia, Czech Republic",,,alias:F2-2,
+seam_possession,possession:P0133,possession,French art glass (Lalique),possession craft tradition,France,,,alias:I3-12,
+seam_possession,possession:P0134,possession,Swedish art glass,possession craft tradition,"Småland, Sweden ('Kingdom of Crystal')",,,leaf:F1-12, · owned as Vase (Possession B4) · https://theglassmuseum.com/orrefors.htm
+seam_possession,possession:P0135,possession,Delftware,possession craft tradition,Delft and other Dutch towns,,,alias:E1-77,
+seam_possession,possession:P0136,possession,Iznik pottery,possession craft tradition,"İznik, Anatolia",,,alias:E2-7,
+seam_possession,possession:P0137,possession,Meissen porcelain,possession craft tradition,"Meissen, Saxony",,,alias:E4-23,
+seam_possession,possession:P0138,possession,Lauscha glass ornaments,possession craft tradition,"Lauscha, Thuringia, Germany (and Neustadt bei Coburg, Bavaria)",,,leaf:F1-13, · owned as Tree ornament (Possession B4) · https://en.wikipedia.org/wiki/Christmas_ornament
+seam_possession,possession:P0139,possession,Erzgebirge woodcraft,possession craft tradition,"Ore Mountains, Saxony, Germany",,,leaf:D5-129, · owned as Nutcracker figure (Possession B4) · https://en.wikipedia.org/wiki/Seiffen
+seam_possession,possession:P0140,possession,Kokeshi,possession craft tradition,"Tōhoku, Japan",,,alias:D5-26,
+seam_possession,possession:P0141,possession,Dalecarlian horse,possession craft tradition,"Dalarna, Sweden",,,leaf:D5-130, · owned as Dala horse (Possession B4) · https://en.wikipedia.org/wiki/Dala_horse
+seam_possession,possession:P0142,possession,Matryoshka,possession craft tradition,Russia,,,alias:D5-95,
+seam_possession,possession:P0143,possession,Hina-ningyō,possession craft tradition,Japan,,,alias:D5-25,
+seam_possession,possession:P0144,possession,Takasaki daruma,possession craft tradition,"Takasaki, Gunma, Japan",,,kind:D5-25/centre,"Papier-mâché daruma dolls of Takasaki, Gunma, painted red, made from the charm moulds of Shōrinzan Daruma-ji · owned as Daruma (Possession B4) · https://en.wikipedia.org/wiki/Daruma_doll"
+seam_possession,possession:P0145,possession,Piñata,possession craft tradition,Mexico,,,kind:D5-73/sub-type,"Decorated papier-mâché or clay-pot figures filled with sweets and broken at Las Posadas and fiestas, Mexico, traced to Acolman · owned as Seven-pointed star piñata (Possession B4) · https://en.wikipedia.org/wiki/Piñata"
+seam_possession,possession:P0146,possession,Thuringian garden gnomes,possession craft tradition,"Gräfenroda, Thuringia, Germany",,,leaf:D5-124, · owned as Garden gnome (Possession B4) · https://fromplacetoplace.travel/germany/thuringia/thuringian-forest/garden-gnomes-from-thuringia/
+seam_possession,possession:P0147,possession,Edo fūrin,possession craft tradition,"Tokyo, Japan",,,leaf:F1-14, · owned as Fūrin (Possession B4) · https://edo-fuurin.com/en/about
+seam_possession,possession:P0148,possession,Nanbu tekki,possession craft tradition,"Iwate Prefecture, Japan (Morioka, Oshu)",,,leaf:G1-52, · owned as Fūrin (Possession B4) · https://japan-guide.com/e/e5055.html
+seam_possession,possession:P0149,possession,Chinese paper cutting,possession craft tradition,"China (Yu county, Hebei; Foshan, Guangdong)",,,alias:C4-3,
+seam_possession,possession:P0150,possession,Nambu ironware,possession craft tradition,"Morioka and Mizusawa (Oshu), Iwate prefecture, Japan",,,alias:G1-52,
+seam_possession,possession:P0152,possession,Iga ware (Iga-yaki),possession craft tradition,"Iga, Mie, Japan",,,alias:E3-20,
+seam_possession,possession:P0153,possession,Banko ware (Banko-yaki),possession craft tradition,"Yokkaichi, Mie, Japan",,,leaf:E3-33, · owned as Donabe (Possession B5) · https://en.wikipedia.org/wiki/Banko_ware
+seam_possession,possession:P0154,possession,Solingen cutlery,possession craft tradition,"Solingen, North Rhine-Westphalia, Germany",,,leaf:G1-53,"blades of the Klingenstadt Solingen, medieval–present: etched sword blades, then knives, scissors and razors · owned as Chef's knife (Possession B5) · https://en.wikipedia.org/wiki/Solingen"
+seam_possession,possession:P0155,possession,Thiers cutlery,possession craft tradition,"Thiers, Puy-de-Dôme, Auvergne, France",,,kind:G1-53/Centres,"cutlery of Thiers on the Durolle, documented from the 13th c., France's main knife centre (Sabatier, Laguiole makers) · owned as Chef's knife (Possession B5) · https://en.wikipedia.org/wiki/Thiers,_Puy-de-D%C3%B4me"
+seam_possession,possession:P0156,possession,Sakai uchihamono,possession craft tradition,"Sakai, Osaka Prefecture, Japan",,,leaf:G1-54,"hand-forged, clay-quenched single-bevel knives of Sakai, Osaka, from the 16th c.; designated traditional craft · owned as Yanagiba (Possession B5) · https://kougeihin.jp/en/craft/0710/"
+seam_possession,possession:P0157,possession,Seki cutlery,possession craft tradition,"Seki, Gifu Prefecture, Japan",,,kind:G1-54/Centres,"cutlery of Seki in Gifu, heir to the Mino sword smiths since the 13th c., now Japan's largest knife centre · owned as Gyuto (Possession B5) · https://japanesechefsknife.com/pages/about-seki-our-location-and-japanese-knife-capital"
+seam_possession,possession:P0158,possession,Echizen uchihamono,possession craft tradition,"Echizen (Takefu), Fukui Prefecture, Japan",,,kind:G1-54/Centres,"forged blades of Takefu, Fukui, from c. 1337 (Chiyozuru Kuniyasu); designated traditional craft · owned as Gyuto (Possession B5) · https://info.pref.fukui.lg.jp/tisan/monosato/en/uchihamono.html"
+seam_possession,possession:P0159,possession,Tosa uchihamono,possession craft tradition,"Kōchi Prefecture (Tosa), Shikoku, Japan",,,kind:G1-54/Centres,"free-forged axes, sickles and kurouchi knives of Kōchi (Tosa), Edo period–present; designated traditional craft · owned as Nakiri (Possession B5) · https://japanshopping.org/special/special_feature/detail/tosautchi"
+seam_possession,possession:P0161,possession,Banshu Miki uchihamono,possession craft tradition,"Miki, Hyōgo Prefecture, Japan",,,kind:G1-54/Centres,"forged carpentry blades of Miki, Hyōgo (saws, chisels, planes, higonokami), Edo period–present; designated 1996 · owned as Gyuto (Possession B5) · https://seidoknives.com/blogs/knife-guides/regions-of-japanese-knife-making"
+seam_possession,possession:P0165,possession,Yixing zisha ware,possession craft tradition,"Yixing, Jiangsu, China",,,alias:E3-12,
+seam_possession,possession:P0166,possession,Tokoname ware,possession craft tradition,"Tokoname, Aichi, Japan",,,alias:E3-22,
+seam_possession,possession:P0167,possession,Raku ware,possession craft tradition,"Kyoto, Japan",,,alias:E1-21,
+seam_possession,possession:P0168,possession,Hagi ware,possession craft tradition,"Hagi, Yamaguchi, Japan",,,alias:E3-25,
+seam_possession,possession:P0169,possession,Karatsu ware,possession craft tradition,"Karatsu, Saga, Japan",,,alias:E3-24,
+seam_possession,possession:P0170,possession,Shino ware,possession craft tradition,"Mino (Gifu), Japan",,,alias:E3-16,
+seam_possession,possession:P0172,possession,Tula samovars,possession craft tradition,"Tula, Russia",,,leaf:G1-55, · owned as Samovar (Possession B5) · https://en.wikipedia.org/wiki/Samovar
+seam_possession,possession:P0173,possession,"Arita ware (incl. Imari, Kakiemon, Nabeshima)",possession craft tradition,"Hizen, Kyūshū, Japan",,,alias:E4-16,
+seam_possession,possession:P0174,possession,Hasami ware,possession craft tradition,"Hasami, Nagasaki, Japan",,,leaf:E4-27, · owned as everyday bowls and plates (Possession B5) · https://en.wikipedia.org/wiki/Hasami_ware
+seam_possession,possession:P0175,possession,Mino ware,possession craft tradition,"Gifu Prefecture, Japan",,,leaf:E3-34, · owned as Shino (Possession B5) · https://en.wikipedia.org/wiki/Mino_ware
+seam_possession,possession:P0176,possession,Delftware,possession craft tradition,Netherlands,,,alias:E1-77,
+seam_possession,possession:P0177,possession,Limoges porcelain,possession craft tradition,"Haute-Vienne, France",,,alias:E4-21,
+seam_possession,possession:P0179,possession,Talavera of Puebla and Tlaxcala,possession craft tradition,"Puebla and Tlaxcala, Mexico",,,alias:E1-51,
+seam_possession,possession:P0180,possession,Old Sheffield Plate,possession craft tradition,"Sheffield, Yorkshire, England",,,kind:G1-45,"silver fused on copper, rolled and raised in Sheffield and Birmingham c. 1743–1840s, imitating English silver plate · owned as Cutlery set (Possession B5) · https://en.wikipedia.org/wiki/Old_Sheffield_Plate"
+seam_possession,possession:P0181,possession,Christofle,possession craft tradition,"Paris and Saint-Denis, France",,,kind:I3-16/Artists,"Paris silversmiths and electroplaters (from 1830), French licensees of electroplating in 1842; Art Deco services · owned as Cutlery set (Possession B5) · https://en.wikipedia.org/wiki/Christofle"
+seam_possession,possession:P0182,possession,Wakasa-nuri,possession craft tradition,"Obama, Fukui Prefecture, Japan",,,kind:I2-10/centre,"Lacquerware of Obama, Fukui, from the Edo period: layers over shell, pine-needle and eggshell inlay ground back to reveal pattern · owned as Chopsticks (Possession B5) · https://en.wikipedia.org/wiki/Chopsticks"
+seam_possession,possession:P0185,possession,Edo kiriko,possession craft tradition,"Tokyo (Edo), Japan",,,leaf:F2-3, · owned as Tumbler (Possession B5) · https://en.wikipedia.org/wiki/Edo_kiriko
+seam_possession,possession:P0186,possession,Bohemian glass,possession craft tradition,"Bohemia and Silesia, Czech Republic",,,alias:F2-2,
+seam_possession,possession:P0187,possession,Laguiole knife,possession craft tradition,"Laguiole and Thiers, Massif Central, France",,,kind:G1-53/sub-type,"slip-joint pocket knife from Laguiole (1829), made in Laguiole and Thiers, with forged bee and chased backspring · owned as Laguiole sommelier knife (Possession B5) · https://en.wikipedia.org/wiki/Laguiole_knife"
+seam_possession,possession:P0188,possession,Onggi (Korean earthenware),possession craft tradition,Korea,,,alias:E1-23,
+seam_possession,possession:P0189,possession,Magewappa,possession craft tradition,"Ōdate, Akita Prefecture, Japan",,,leaf:I1-27, · owned as Bento box (Possession B5) · https://en.wikipedia.org/wiki/Magewappa
+seam_possession,possession:P0190,possession,Banshu Miki forged blades,possession craft tradition,"Miki City, Hyōgo, Japan",,,alias:G1-54,
+seam_possession,possession:P0196,possession,Sheffield cutlery,possession craft tradition,"Sheffield, England",,,kind:G1-53/Centres,"cutlery of Sheffield under the Cutlers' Company of Hallamshire (1624), with crucible steel (1740s) and pearl and ivory handles · owned as Barlow knife (Possession C1) · https://en.wikipedia.org/wiki/Sheffield"
+seam_possession,possession:P0200,possession,Echigo Sanjo uchihamono,possession craft tradition,"Sanjo, Niigata, Japan",,,kind:G1-54/Centres,"forged knives, chisels and axes of Sanjo, Niigata, from medieval sickles; designated traditional craft 2009 · owned as kitchen knives (Possession C2) · https://kougeihin.jp/en/craft/0706/"
+seam_possession,possession:P0203,possession,Tokoname ware,possession craft tradition,"Tokoname, Aichi, Japan",,,alias:E3-22,
+seam_possession,possession:P0204,possession,Yixing zisha pottery,possession craft tradition,"Yixing, Jiangsu, China",,,alias:E3-12,
+seam_possession,possession:P0205,possession,Impruneta terracotta,possession craft tradition,"Impruneta, Tuscany, Italy",,,leaf:E1-95, · owned as Impruneta citrus pot (Possession C2) · https://www.visittuscany.com/en/crafts/terracotta-of-impruneta/
+seam_possession,possession:P0206,possession,Thrapsano pottery,possession craft tradition,"Thrapsano, Crete, Greece",,,leaf:E1-96, · owned as Cretan pithos (Possession C2) · https://en.wikipedia.org/wiki/Thrapsano
+seam_possession,possession:P0211,possession,Japanese calligraphy (shodō),possession craft tradition,Japan,,,alias:C1-10,
+seam_possession,possession:P0212,possession,Shibori,possession craft tradition,Japan,,,alias:H5-22,
+seam_possession,possession:P0213,possession,Batik,possession craft tradition,"Java, Indonesia",,,alias:H5-10,
+seam_possession,possession:P0214,possession,Adire,possession craft tradition,South-western Nigeria (Yoruba),,,alias:H5-27,
+seam_possession,possession:P0215,possession,Bandhani,possession craft tradition,"Gujarat and Rajasthan, India",,,alias:H5-6,
+seam_possession,possession:P0216,possession,Sashiko and boro,possession craft tradition,Japan,,,alias:H4-27,
+seam_possession,possession:P0217,possession,Crewelwork (Jacobean embroidery),possession craft tradition,England,,,leaf:H4-104, · owned as Bed curtains (Possession C4) · https://en.wikipedia.org/wiki/Jacobean_embroidery
+seam_possession,possession:P0218,possession,Hardanger embroidery,possession craft tradition,"Hardanger, Norway",,,alias:H4-49,
+seam_possession,possession:P0219,possession,Kantha,possession craft tradition,Bengal (Bangladesh and eastern India),,,alias:H4-11,
+seam_possession,possession:P0220,possession,Paper marbling (ebru and suminagashi),possession craft tradition,"Japan, Persia and Turkey, Europe",,,alias:C4-1,
+seam_possession,possession:P0221,possession,Kintsugi,possession craft tradition,Japan,,,alias:I2-14,
+seam_possession,possession:P0223,possession,Murano lampwork,possession craft tradition,"Venice, Italy",,,alias:F1-6,
+seam_possession,possession:P0224,possession,Roman and Byzantine mosaic,possession craft tradition,Mediterranean,,,alias:L3-7,
+seam_possession,possession:P0225,possession,Sheridan-style leather carving,possession craft tradition,"Sheridan, Wyoming, United States",,,kind:H7-21,"Floral leather carving of wild roses in circular scrolls, developed by Sheridan, Wyoming saddle makers, 20th century · owned as Leather stamping tool (Possession C4) · https://tandyleather.com/blogs/leathercraft-library/sheridan-style-carving"
+seam_possession,possession:P0226,possession,Nantucket lightship baskets,possession craft tradition,"Nantucket, United States",,,leaf:H8-43," · owned as Basketry cane, reed and splint (Possession C4) · https://nha.org/history-online/nantucket-lightship-baskets/"
+seam_possession,possession:P0227,possession,Shaker tape seating,possession craft tradition,"New England, United States",,,kind:I3-22/sub-type,"Chair seats woven in checkerboard patterns of coloured cotton tape on Shaker slat-back chairs, 19th century · owned as Chair-seating cord and tape (Possession C4) · https://shakermuseum.us/object?id=658"
+seam_possession,possession:P0228,possession,Ikebana,possession craft tradition,Japan,,,leaf:K13-11, · owned as Kenzan (pin frog) (Possession C4) · https://bloomist.com/blogs/journal/the-flower-frog-what-it-is-how-to-arrange-with-one
+seam_possession,possession:P0229,possession,Maki-e,possession craft tradition,Japan,,,alias:I2-9,
+seam_possession,possession:P0232,possession,Copperplate,possession craft tradition,"England, spreading to Europe and North America",,,kind:C1-11,"English roundhand script of the 18th-century writing masters, engraved in copybooks and written with a pointed pen · owned as Oblique pen holder (Possession C5) · https://en.wikipedia.org/wiki/Copperplate_script"
+seam_possession,possession:P0233,possession,Spencerian script,possession craft tradition,United States,,,kind:C1-11,"American ornamental and business hand devised by Platt Rogers Spencer, c. 1840–1920 · owned as Oblique pen holder (Possession C5) · https://en.wikipedia.org/wiki/Spencerian_script"
+seam_possession,possession:P0234,possession,Japanese glass pen,possession craft tradition,"Tokyo, Japan",,,kind:F1-14/sub-type,"Lampworked glass dip pens with a twisted grooved nib, devised in Tokyo in 1902 by the wind-bell maker Sasaki Sadajirō · owned as Sasaki glass pen (Possession C5) · https://shop.japanhouselondon.uk/producers/sase-kogyosho/"
+seam_possession,possession:P0237,possession,Duan inkstone carving,possession craft tradition,"Zhaoqing, Guangdong, China",,,leaf:D3-11, · owned as Duan inkstone (Possession C5) · https://en.wikipedia.org/wiki/Inkstone
+seam_possession,possession:P0238,possession,She inkstone,possession craft tradition,"She County, Anhui and Wuyuan, Jiangxi, China",,,kind:D3-11,"Black slate inkstones of She County (Anhui) and Wuyuan (Jiangxi) with gold-like markings, from the Tang · owned as She inkstone (Possession C5) · https://en.wikipedia.org/wiki/Inkstone"
+seam_possession,possession:P0243,possession,Amehata suzuri,possession craft tradition,"Amehata, Yamanashi, Japan",,,kind:D3-11,"Inkstones carved from Amehata River slate, Yamanashi, Japan, from the Edo period · owned as Amehata suzuri (Possession C5) · https://www.yamanashi-kankou.jp/english/discover/amehata-suzuri-no-sato-kenshoan.html"
+seam_possession,possession:P0244,possession,Hanji,possession craft tradition,Korea,,,leaf:C4-13, · owned as Hanji (Possession C5) · https://en.wikipedia.org/wiki/Korean_paper
+seam_possession,possession:P0246,possession,Chinese seal engraving,possession craft tradition,China,,,alias:C1-9,
+seam_possession,possession:P0253,possession,Victorian encaustic tile,possession craft tradition,England,,,leaf:E1-97, · owned as Encaustic tile (Possession C8) · https://en.wikipedia.org/wiki/Encaustic_tile
+seam_possession,possession:P0254,possession,Zellige,possession craft tradition,"Morocco, Algeria, al-Andalus",,,alias:L3-2,
+seam_possession,possession:P0255,possession,Delftware,possession craft tradition,Netherlands,,,alias:E1-77,
+seam_possession,possession:P0256,possession,Azulejo,possession craft tradition,Portugal and Spain,,,alias:L3-9,
+seam_possession,possession:P0257,possession,Talavera,possession craft tradition,"Puebla and Tlaxcala, Mexico; Talavera de la Reina, Spain",,,alias:E1-81,
+seam_possession,possession:P0260,possession,Karesansui (Japanese dry garden),possession craft tradition,Japan (Kyoto),,,alias:K13-4,
+seam_possession,possession:P0261,possession,Kokeshi,possession craft tradition,"Tōhoku, Japan",,,alias:D5-26,
+seam_possession,possession:P0262,possession,Hina-ningyō,possession craft tradition,Japan,,,alias:D5-25,
+seam_possession,possession:P0263,possession,Matryoshka,possession craft tradition,Russia,,,alias:D5-95,
+seam_possession,possession:P0264,possession,Punch and Judy,possession craft tradition,England,,,leaf:D4-28, · owned as Puppet (Possession E1) · https://en.wikipedia.org/wiki/Punch_and_Judy
+seam_possession,possession:P0265,possession,Czech marionette puppetry,possession craft tradition,Bohemia (Czech lands),,,leaf:D4-29, · owned as Puppet (Possession E1) · https://unima.idu.cz/en/history-of-czech-puppetry/
+seam_possession,possession:P0266,possession,Bunraku,possession craft tradition,"Osaka, Japan",,,alias:D4-10,
+seam_possession,possession:P0267,possession,Wayang kulit,possession craft tradition,"Java and Bali, Indonesia",,,alias:D4-3,
+seam_possession,possession:P0268,possession,Thanjavur dolls,possession craft tradition,"Thanjavur, Tamil Nadu, India",,,leaf:D5-128, · owned as Bobblehead (Possession E1) · https://en.wikipedia.org/wiki/Bobblehead
+seam_possession,possession:P0269,possession,Staunton chessmen making,possession craft tradition,England (London),,,leaf:I1-28, · owned as Staunton (Possession E1) · https://en.wikipedia.org/wiki/Staunton_chess_set
+seam_possession,possession:P0270,possession,Norse walrus-ivory chessmen,possession craft tradition,"Norway (Trondheim), Scandinavia",,,leaf:D2-18, · owned as Lewis chessmen (Possession E1) · https://en.wikipedia.org/wiki/Lewis_chessmen
+seam_possession,possession:P0272,possession,Tendo shogi koma,possession craft tradition,"Tendo and Murayama, Yamagata, Japan",,,leaf:I1-29, · owned as Tendo koma (Possession E1) · https://kogeijapan.com/locale/en_US/tendoshogikoma/
+seam_possession,possession:P0276,possession,Hanafuda making,possession craft tradition,Japan,,,leaf:B2-20, · owned as Nintendo hanafuda (Possession E1) · https://en.wikipedia.org/wiki/Hanafuda
+seam_possession,possession:P0277,possession,Industrie und Glück tarock,possession craft tradition,"Vienna, Austria",,,kind:B2-20/sub-type,"Viennese French-suited tarock pattern with genre-scene trumps, 19th century to present, stencil-coloured then chromolithographed · owned as Industrie und Glück tarock (Possession E1) · https://www.wopc.co.uk/austria/tarok/"
+seam_possession,possession:P0278,possession,Hakone yosegi puzzle box (himitsu-bako),possession craft tradition,"Hakone, Japan",,,alias:I1-10,
+seam_possession,possession:P0281,possession,Mexican piñata,possession craft tradition,Mexico (Acolman),,,alias:D5-73,
+seam_possession,possession:P0285,possession,American decoy carving,possession craft tradition,United States (Atlantic coast),,,alias:D5-92,
+seam_possession,possession:P0289,possession,Spanish guitar making,possession craft tradition,"Spain (Seville, Almería, Madrid)",,,leaf:I4-2, · owned as Torres pattern (Possession E3) · https://en.wikipedia.org/wiki/Antonio_de_Torres_Jurado
+seam_possession,possession:P0292,possession,Mandinka djembe,possession craft tradition,"West Africa (Guinea, Mali, Burkina Faso, Ivory Coast, Senegal, Gambia)",,,leaf:I4-3, · owned as Djembe (Possession E3) · https://en.wikipedia.org/wiki/Djembe
+seam_possession,possession:P0296,possession,Shona mbira,possession craft tradition,Zimbabwe and Malawi,,,leaf:I4-4, · owned as Kalimba and mbira (Possession E3) · https://en.wikipedia.org/wiki/Mbira
+seam_possession,possession:P0299,possession,Cremonese violin making,possession craft tradition,"Cremona, Italy",,,leaf:I4-5, · owned as Violin (Possession E3) · https://ich.unesco.org/en/RL/traditional-violin-craftsmanship-in-cremona-00719
+seam_possession,possession:P0300,possession,Mittenwald violin making,possession craft tradition,"Mittenwald, Bavaria, Germany",,,kind:I4-5/Centres,"Bavarian school of violin, viola and cello making founded by Matthias Klotz, mid-17th century to present · owned as Violin (Possession E3) · https://en.wikipedia.org/wiki/Mittenwald"
+seam_possession,possession:P0301,possession,Mirecourt lutherie,possession craft tradition,"Mirecourt, Lorraine, France",,,kind:I4-5/Centres,"French centre of violin and bow making in Lorraine, c. 1602 to present (Vuillaume family) · owned as Violin (Possession E3) · https://en.wikipedia.org/wiki/Mirecourt"
+seam_possession,possession:P0302,possession,Vogtland (Musikwinkel) instrument making,possession craft tradition,"Vogtland, Saxony, Germany",,,kind:I4-5/Centres,"Instrument making of Markneukirchen and the Saxon Vogtland, founded by Bohemian exiles in the 17th century · owned as Violin (Possession E3) · https://en.wikipedia.org/wiki/Markneukirchen"
+seam_possession,possession:P0303,possession,Miraj instrument making,possession craft tradition,"Miraj, Maharashtra, India",,,leaf:I4-6, · owned as Miraj tanpura (Possession E3) · https://en.wikipedia.org/wiki/Tanpura
+seam_possession,possession:P0304,possession,Thanjavur veena making,possession craft tradition,"Thanjavur, Tamil Nadu, India",,,leaf:I4-7, · owned as Saraswati veena (Possession E3) · https://en.wikipedia.org/wiki/Saraswati_veena
+seam_possession,possession:P0305,possession,Gaelic wire-strung harp,possession craft tradition,Ireland and Scotland,,,leaf:I4-8, · owned as Wire-strung clàrsach (Possession E3) · https://en.wikipedia.org/wiki/Celtic_harp
+seam_possession,possession:P0306,possession,Welsh triple harp,possession craft tradition,Wales,,,kind:I4-8/sub-type,"Three-row chromatic harp of Wales (telyn deires), 18th-19th century · owned as Welsh triple harp (Possession E3) · https://en.wikipedia.org/wiki/Celtic_harp"
+seam_possession,possession:P0307,possession,Hungarian cimbalom,possession craft tradition,"Hungary, Slovakia, Romania, Moldova, Ukraine, Belarus",,,leaf:I4-9, · owned as Concert cimbalom (Possession E3) · https://en.wikipedia.org/wiki/Cimbalom
+seam_possession,possession:P0308,possession,Persian and Iraqi santur,possession craft tradition,"Iran, Iraq, India",,,leaf:I4-10, · owned as Persian santur (Possession E3) · https://en.wikipedia.org/wiki/Santur
+seam_possession,possession:P0309,possession,Appalachian dulcimer making,possession craft tradition,Appalachian United States,,,leaf:I4-11, · owned as Kentucky mountain dulcimer (Possession E3) · https://en.wikipedia.org/wiki/Appalachian_dulcimer
+seam_possession,possession:P0310,possession,Finnish kantele,possession craft tradition,Finland and Karelia,,,leaf:I4-12, · owned as Five-string kantele (Possession E3) · https://en.wikipedia.org/wiki/Kantele
+seam_possession,possession:P0311,possession,Japanese koto,possession craft tradition,Japan,,,leaf:I4-13, · owned as 13-string koto (Possession E3) · https://en.wikipedia.org/wiki/Koto_(instrument)
+seam_possession,possession:P0312,possession,Chinese guzheng schools,possession craft tradition,China,,,leaf:I4-14, · owned as 21-string guzheng (Possession E3) · https://en.wikipedia.org/wiki/Guzheng
+seam_possession,possession:P0313,possession,Erhu making,possession craft tradition,China,,,leaf:I4-15, · owned as Erhu (Possession E3) · https://en.wikipedia.org/wiki/Erhu
+seam_possession,possession:P0314,possession,Sikh bowed strings,possession craft tradition,"Punjab, north India",,,leaf:I4-16, · owned as Taus (Possession E3) · https://en.wikipedia.org/wiki/Taus_(instrument)
+seam_possession,possession:P0315,possession,Hindustani sarangi,possession craft tradition,"North India, Pakistan, Nepal",,,leaf:I4-17, · owned as Hindustani sarangi (Possession E3) · https://en.wikipedia.org/wiki/Sarangi
+seam_possession,possession:P0316,possession,Hardanger fiddle,possession craft tradition,Southwest Norway,,,leaf:I4-18, · owned as Hardingfele (Possession E3) · https://en.wikipedia.org/wiki/Hardanger_fiddle
+seam_possession,possession:P0317,possession,Uppland nyckelharpa,possession craft tradition,"Uppland, Sweden",,,leaf:I4-19, · owned as Chromatic nyckelharpa (Possession E3) · https://en.wikipedia.org/wiki/Nyckelharpa
+seam_possession,possession:P0318,possession,Castelfidardo accordion making,possession craft tradition,"Castelfidardo, Marche, Italy",,,leaf:I4-20, · owned as Piano accordion (Possession E3) · https://www.museodellafisarmonica.it/en?p=1539
+seam_possession,possession:P0319,possession,Bandoneon (Carlsfeld),possession craft tradition,"Carlsfeld, Saxony, Germany",,,kind:I4-20/Centres,"Concertinas and bandoneons of Carlsfeld, Saxony: Zimmermann and the Alfred Arnold factory's tango bandoneons · owned as Bandoneon (Possession E3) · https://concertinamusic.com/alfred-arnold/"
+seam_possession,possession:P0320,possession,Uilleann piping,possession craft tradition,Ireland,,,leaf:I4-21, · owned as Uilleann pipes (Possession E3) · https://en.wikipedia.org/wiki/Uilleann_pipes
+seam_possession,possession:P0321,possession,Great Highland bagpipe,possession craft tradition,Scotland,,,kind:I4-21/sub-type,"Scottish mouth-blown bagpipe with three drones, c. 1400 to present, often silver- and ivory-mounted · owned as Great Highland bagpipe (Possession E3) · https://en.wikipedia.org/wiki/Great_Highland_bagpipe"
+seam_possession,possession:P0322,possession,Gagaku instrument making,possession craft tradition,Japan,,,leaf:I4-22, · owned as Hichiriki (Possession E3) · https://en.wikipedia.org/wiki/Hichiriki
+seam_possession,possession:P0323,possession,Swiss music-box making,possession craft tradition,"Geneva and Sainte-Croix, Switzerland",,,leaf:I4-23, · owned as Swiss cylinder music box (Possession E3) · https://en.wikipedia.org/wiki/Music_box
+seam_possession,possession:P0324,possession,Dutch street organ,possession craft tradition,Netherlands,,,kind:I4-23/sub-type,"Large book-music street organs of the Netherlands with carved, painted façades and figures, late 18th century on · owned as Street barrel organ (Possession E3) · https://en.wikipedia.org/wiki/Street_organ"
+seam_possession,possession:P0325,possession,Yamato tradition,possession craft tradition,Yamato Province (Nara),,,kind:G2-3,"oldest of the five sword traditions (gokaden), Nara, from the Heian period; Senjuin and Tegai schools · owned as Tachi (Possession E4) · https://en.wikipedia.org/wiki/Japanese_sword"
+seam_possession,possession:P0326,possession,Yamashiro tradition,possession craft tradition,Yamashiro Province (Kyoto),,,kind:G2-3,"Kyoto sword tradition of the gokaden from the late 10th c., begun by Sanjō Munechika; Awataguchi, Rai schools · owned as Tachi (Possession E4) · https://en.wikipedia.org/wiki/Japanese_sword"
+seam_possession,possession:P0327,possession,Bizen tradition,possession craft tradition,Bizen Province (Okayama),,,kind:G2-3,"Bizen (Okayama) sword tradition of the gokaden, from Ko-Bizen to the Osafune school · owned as Tachi (Possession E4) · https://en.wikipedia.org/wiki/Japanese_sword"
+seam_possession,possession:P0328,possession,Sōshū tradition,possession craft tradition,Sagami Province (Kanagawa),,,kind:G2-3,"Sagami (Kamakura) sword tradition of the gokaden from the late 13th c., made famous by Masamune · owned as Katana (Possession E4) · https://en.wikipedia.org/wiki/Japanese_sword"
+seam_possession,possession:P0329,possession,Mino tradition,possession craft tradition,Mino Province (Gifu),,,kind:G2-3,"Mino (Seki, Gifu) sword tradition of the gokaden from the mid-Kamakura period; Kanemoto, Kanesada · owned as Katana (Possession E4) · https://en.wikipedia.org/wiki/Japanese_sword"
+seam_possession,possession:P0330,possession,Wootz crucible steel,possession craft tradition,Southern India and Sri Lanka,,,alias:G2-1,
+seam_possession,possession:P0331,possession,Longquan sword-making,possession craft tradition,"Longquan, Zhejiang, China",,,leaf:G2-7, · owned as Jian (Possession E4) · https://regional.chinadaily.com.cn/ezhejiang/2016-08/12/c_55752.htm
+seam_possession,possession:P0332,possession,Indonesian kris,possession craft tradition,Indonesia (from Java across South-East Asia),,,alias:G2-2,
+seam_possession,possession:P0333,possession,Nepali khukuri smithing,possession craft tradition,Nepal,,,leaf:G2-8, · owned as Kukri (Possession E4) · https://en.wikipedia.org/wiki/Kukri
+seam_possession,possession:P0334,possession,Miyakonojō bamboo bow-making,possession craft tradition,"Miyakonojō, Miyazaki, Japan",,,leaf:G2-9,"laminated bamboo bows of Miyakonojō, Miyazaki, Edo period–present, about 90% of Japanese bows; designated traditional craft · owned as Yumi (Possession E4) · https://www.fun-japan.jp/en/articles/14031"
+seam_possession,possession:P0335,possession,Korean gakgung bow-making,possession craft tradition,Korea,,,leaf:G2-10, · owned as Horse bow (Possession E4) · https://en.wikipedia.org/wiki/Gakgung
+seam_possession,possession:P0336,possession,Ottoman composite bows,possession craft tradition,"Anatolia, Ottoman lands",,,kind:G2-1,"reflexed horn-wood-sinew bows of the Ottoman court, lacquered and gilded, with flight archery; UNESCO 2019 · owned as Horse bow (Possession E4) · https://en.wikipedia.org/wiki/Turkish_archery"
+seam_possession,possession:P0337,possession,German Gothic armouring,possession craft tradition,"Holy Roman Empire (Augsburg, Nuremberg, Landshut, Innsbruck)",,,leaf:G2-11, · owned as Plate armour harness (Possession E4) · https://en.wikipedia.org/wiki/Maximilian_armour
+seam_possession,possession:P0338,possession,Japanese armour-making,possession craft tradition,Japan,,,leaf:G2-12, · owned as Japanese armour (Possession E4) · https://en.wikipedia.org/wiki/Japanese_armour
+seam_possession,possession:P0339,possession,English barometer making,possession craft tradition,England (London),,,leaf:G1-56,"London stick and wheel barometers of the late 18th–19th c. in veneered and carved cases with silvered dials, many by Italian makers · owned as Stick barometer (Possession E6) · https://en.wikipedia.org/wiki/Barometer"
+seam_possession,possession:P0340,possession,Islamic astrolabe making,possession craft tradition,Islamic world and India,,,alias:G1-8,
+seam_possession,possession:P0341,possession,European astrolabes,possession craft tradition,Western Europe,,,kind:G1-56/sub-type,"Latin astrolabes of engraved brass from c. 1000 to the 17th c., after Gerbert of Aurillac; Gualterus Arsenius, Georg Hartmann · owned as Planispheric astrolabe (Possession E6) · https://en.wikipedia.org/wiki/Astrolabe"
+seam_possession,possession:P0342,possession,London instrument trade,possession craft tradition,England (London),,,kind:G1-56/Centres,"18th-c. London instrument makers around Hatton Garden and the Strand: Dollond, Ramsden, Culpeper-type microscopes · owned as Achromatic refractor (Possession E6) · https://en.wikipedia.org/wiki/Dollond_%26_Aitchison"
+seam_possession,possession:P0343,possession,Private press movement,possession craft tradition,"England, then Germany and the United States",,,kind:C1-12,"Arts and Crafts revival of hand-printed books with designed types, from Morris's Kelmscott Press (1891) to Doves and Cranach · owned as Private press book (Possession F1) · https://en.wikipedia.org/wiki/Private_press"
+seam_possession,possession:P0344,possession,Western fine bookbinding,possession craft tradition,Europe,,,alias:C3-3,
+seam_possession,possession:P0345,possession,Paper marbling (ebru and suminagashi),possession craft tradition,"Japan; Iran, Central Asia, Ottoman Empire, Mughal India; later Europe",,,alias:C4-1,
+seam_possession,possession:P0347,possession,Islamic manuscript and binding,possession craft tradition,"Iran, Ottoman Empire, Arab world",,,alias:C3-1,
+seam_possession,possession:P0348,possession,Ethiopian manuscript tradition,possession craft tradition,Ethiopia,,,alias:C2-14,
+seam_possession,possession:P0349,possession,Wahon,possession craft tradition,Japan,,,kind:C3-4,"Japanese book forms, from scrolls and folding books to pouch-bound fukuro-toji books printed from woodblocks · owned as Japanese thread-bound book (Possession F1) · https://en.wikipedia.org/wiki/Wasōbon"
+seam_possession,possession:P0350,possession,Chinese thread binding,possession craft tradition,"China, Korea, Japan, Vietnam",,,leaf:C3-4, · owned as Chinese thread-bound book (Possession F1) · https://en.wikipedia.org/wiki/Traditional_Chinese_bookbinding
+seam_possession,possession:P0351,possession,Palm-leaf manuscript tradition,possession craft tradition,South and Southeast Asia,,,alias:C2-5,
+seam_possession,possession:P0352,possession,Dutch and Flemish cartography,possession craft tradition,Antwerp and Amsterdam,,,kind:B2-13,"Engraved maps and atlases of Antwerp and Amsterdam, c. 1570–1670: Ortelius, Mercator, Blaeu, Hondius · owned as Antique atlas (Possession F1) · https://oshermaps.org/?p=486"
+seam_possession,possession:P0353,possession,Japanese woodblock maps,possession craft tradition,Japan,,,kind:B2-17/sub-type,"Commercial woodblock maps of Japan and its provinces, Edo period, from Ishikawa Ryūsen's decorative Ryūsen-zu · owned as Antique map (Possession F1) · https://en.wikipedia.org/wiki/Ry%C5%ABsen-zu"
+seam_possession,possession:P0354,possession,Chinese literati painting,possession craft tradition,China,,,alias:A2-3,
+seam_possession,possession:P0355,possession,Kanō school,possession craft tradition,Japan,,,alias:A2-9,
+seam_possession,possession:P0356,possession,Rinpa,possession craft tradition,Japan,,,alias:A2-10,
+seam_possession,possession:P0357,possession,Minhwa,possession craft tradition,Korea,,,alias:A6-11,
+seam_possession,possession:P0358,possession,Sơn mài,possession craft tradition,Vietnam,,,alias:A5-3,
+seam_possession,possession:P0359,possession,Persian miniature painting,possession craft tradition,Iran and Persianate courts,,,alias:A1-2,
+seam_possession,possession:P0360,possession,Mughal painting,possession craft tradition,North India,,,alias:A1-4,
+seam_possession,possession:P0361,possession,Rajasthani painting,possession craft tradition,"Rajasthan, India",,,alias:A1-7,
+seam_possession,possession:P0362,possession,Pahari painting,possession craft tradition,"Himalayan hill states, India",,,alias:A1-8,
+seam_possession,possession:P0363,possession,Deccani painting,possession craft tradition,"Deccan, India",,,alias:A1-5,
+seam_possession,possession:P0364,possession,Senegalese souwère,possession craft tradition,Senegal,,,alias:A6-20,
+seam_possession,possession:P0366,possession,Thangka painting,possession craft tradition,"Tibet, Nepal, Bhutan, Mongolia, Himalaya",,,alias:A4-7,
+seam_possession,possession:P0367,possession,Western Desert painting,possession craft tradition,"Central and Western Desert, Australia",,,alias:A5-12,
+seam_possession,possession:P0368,possession,Arnhem Land bark painting,possession craft tradition,"Arnhem Land and Top End, Australia",,,alias:A6-18,
+seam_possession,possession:P0369,possession,Mithila painting,possession craft tradition,"Mithila, Bihar (India) and Nepal",,,alias:A6-1,
+seam_possession,possession:P0370,possession,Pattachitra,possession craft tradition,"Odisha and West Bengal, India",,,alias:A4-1,
+seam_possession,possession:P0371,possession,Warli painting,possession craft tradition,"Northern Sahyadri, Maharashtra",,,alias:A6-2,
+seam_possession,possession:P0372,possession,Kalighat painting,possession craft tradition,"Kolkata, West Bengal",,,alias:A4-3,
+seam_possession,possession:P0373,possession,Tingatinga,possession craft tradition,"Dar es Salaam, Tanzania",,,alias:A6-12,
+seam_possession,possession:P0374,possession,Mexican votive painting,possession craft tradition,Mexico,,,alias:A6-13,
+seam_possession,possession:P0375,possession,Chinese New Year prints,possession craft tradition,"China (Tianjin, Shandong, Suzhou, Hebei, Shaanxi, Sichuan)",,,alias:B2-4,
+seam_possession,possession:P0376,possession,Ukiyo-e,possession craft tradition,"Japan (Edo, now Tokyo)",,,alias:B2-17,
+seam_possession,possession:P0377,possession,Benin brass casting,possession craft tradition,"Kingdom of Benin (Edo State, Nigeria)",,,alias:D5-32,
+seam_possession,possession:P0378,possession,French animalier bronze,possession craft tradition,France (Paris),,,alias:D5-117,
+seam_possession,possession:P0379,possession,Inuit stone carving,possession craft tradition,Canadian Arctic (Kinngait/Cape Dorset and other communities),,,alias:D5-77,
+seam_possession,possession:P0380,possession,Volterra alabaster,possession craft tradition,"Volterra, Tuscany, Italy",,,leaf:D5-125, · owned as Volterra alabaster carving (Possession F2) · https://visittuscany.com/en/crafts/volterra-alabaster
+seam_possession,possession:P0381,possession,Brienz woodcarving,possession craft tradition,"Brienz, Bernese Oberland, Switzerland",,,leaf:D5-131, · owned as Brienz 'Black Forest' carving (Possession F2) · https://www.bada.org/features/makers-series-black-forest-carvings
+seam_possession,possession:P0382,possession,Netsuke carving,possession craft tradition,"Japan (Kyoto, Osaka, Edo and provinces)",,,alias:D2-4,
+seam_possession,possession:P0383,possession,Dan masks,possession craft tradition,"Liberia, Côte d'Ivoire",,,alias:D4-18,
+seam_possession,possession:P0384,possession,Gelede,possession craft tradition,"Yorubaland, Nigeria and Benin",,,alias:D4-16,
+seam_possession,possession:P0385,possession,Fang reliquary tradition,possession craft tradition,"Gabon, Equatorial Guinea, Cameroon",,,alias:D6-3,
+seam_possession,possession:P0386,possession,Kongo nkisi,possession craft tradition,Congo region,,,alias:D6-2,
+seam_possession,possession:P0387,possession,Ere ibeji,possession craft tradition,Yorubaland,,,kind:D5-42,"Yoruba carved wooden figures commemorating deceased twins, cared for by the mother, 19th–20th century · owned as Yoruba ere ibeji (Possession F2) · https://en.wikipedia.org/wiki/Ibeji"
+seam_possession,possession:P0388,possession,Māori pounamu carving,possession craft tradition,New Zealand,,,alias:D3-9,
+seam_possession,possession:P0389,possession,Asmat carving,possession craft tradition,"South-west New Guinea, Indonesia",,,alias:D5-84,
+seam_possession,possession:P0390,possession,Olmec,possession craft tradition,Mexican Gulf coast,,,alias:D5-62,
+seam_possession,possession:P0391,possession,West Mexico shaft-tomb ceramics,possession craft tradition,"Colima, Jalisco, Nayarit",,,alias:D5-66,
+seam_possession,possession:P0392,possession,Moche pottery,possession craft tradition,North coast of Peru,,,alias:E1-47,
+seam_possession,possession:P0393,possession,Mingei,possession craft tradition,Japan,,,alias:I3-18,
+seam_possession,possession:P0394,possession,Raku,possession craft tradition,"Kyoto, Japan",,,alias:E1-21,
+seam_possession,possession:P0395,possession,Bizen,possession craft tradition,"Okayama, Japan",,,alias:E3-18,
+seam_possession,possession:P0396,possession,Jingdezhen porcelain,possession craft tradition,"Jingdezhen, Jiangxi, China",,,alias:E4-10,
+seam_possession,possession:P0397,possession,Korean celadon,possession craft tradition,Korea,,,alias:E3-13,
+seam_possession,possession:P0398,possession,Murano glass,possession craft tradition,"Murano, Venice, Italy",,,alias:F1-5,
+seam_possession,possession:P0400,possession,American Studio Glass movement,possession craft tradition,United States,,,alias:F1-10,
+seam_possession,possession:P0402,possession,Suzhou embroidery,possession craft tradition,"Suzhou, Jiangsu, China",,,alias:H4-20,
+seam_possession,possession:P0403,possession,English stumpwork,possession craft tradition,England,,,leaf:H4-105, · owned as Stumpwork picture (Possession F2) · https://en.wikipedia.org/wiki/Stumpwork
+seam_possession,possession:P0404,possession,Berlin wool work,possession craft tradition,"Germany, Britain, United States",,,leaf:H4-106, · owned as Berlin wool work picture (Possession F2) · https://en.wikipedia.org/wiki/Berlin_wool_work
+seam_possession,possession:P0405,possession,Gee's Bend quilting,possession craft tradition,"Gee's Bend, Alabama",,,alias:H4-93,
+seam_possession,possession:P0406,possession,Guna molas,possession craft tradition,Panama,,,alias:H4-33,
+seam_possession,possession:P0407,possession,Chilean arpilleras,possession craft tradition,Chile,,,alias:H4-34,
+seam_possession,possession:P0408,possession,Hmong paj ntaub,possession craft tradition,"Laos, Thailand, Hmong diaspora",,,alias:H4-28,
+seam_possession,possession:P0409,possession,Chinese seal carving schools,possession craft tradition,China,,,alias:C1-9,
+seam_possession,possession:P0410,possession,Ottoman calligraphy,possession craft tradition,Ottoman Empire,,,alias:C1-3,
+seam_possession,possession:P0411,possession,Korean seoye,possession craft tradition,Korea,,,leaf:C1-13, · owned as Korean calligraphy (seoye) (Possession F2) · https://en.wikipedia.org/wiki/Korean_calligraphy
+seam_possession,possession:P0412,possession,Japanese shodō,possession craft tradition,Japan,,,alias:C1-10,
+seam_possession,possession:P0413,possession,Jianzhi,possession craft tradition,China,,,alias:C4-3,
+seam_possession,possession:P0414,possession,Scherenschnitte,possession craft tradition,"Switzerland, Germany, Pennsylvania",,,leaf:C4-10, · owned as Scherenschnitte (Possession F2) · https://en.wikipedia.org/wiki/Scherenschnitte
+seam_possession,possession:P0415,possession,Kirie,possession craft tradition,Japan,,,leaf:C4-11, · owned as Kirie (Possession F2) · https://en.wikipedia.org/wiki/Papercutting
+seam_possession,possession:P0416,possession,Wycinanki,possession craft tradition,"Poland, Ukraine, Belarus",,,leaf:C4-12, · owned as Wycinanki (Possession F2) · https://en.wikipedia.org/wiki/Papercutting
+seam_possession,possession:P0417,possession,Papel picado,possession craft tradition,Mexico,,,alias:C4-4,
+seam_possession,possession:P0418,possession,Vatican micromosaic,possession craft tradition,"Rome, Italy",,,leaf:F1-15, · owned as Micromosaic (Possession F2) · https://en.wikipedia.org/wiki/Micromosaic
+seam_possession,possession:P0419,possession,Nihonga,possession craft tradition,Japan,,,alias:A2-13,
+seam_possession,possession:P0421,possession,Cretan School icon painting,possession craft tradition,Crete under Venetian rule,,,alias:A3-3,
+seam_possession,possession:P0422,possession,Val Gardena woodcarving,possession craft tradition,"Val Gardena, South Tyrol",,,leaf:D5-132, · owned as devotional statues (Possession F4) · https://en.wikipedia.org/wiki/Val_Gardena
+seam_possession,possession:P0423,possession,Neapolitan presepe,possession craft tradition,"Naples, Italy",,,alias:D5-91,
+seam_possession,possession:P0424,possession,Santos (Hispanic saint carving),possession craft tradition,"Spain, Mexico, Philippines, Puerto Rico, New Mexico",,,alias:D5-71,
+seam_possession,possession:P0425,possession,Bezalel School,possession craft tradition,Jerusalem,,,leaf:I3-21, · owned as Hanukkah lamps (Possession F4) · https://en.wikipedia.org/wiki/Bezalel_Academy_of_Arts_and_Design
+seam_possession,possession:P0427,possession,Swamimalai bronze icons,possession craft tradition,"Swamimalai, Thanjavur, Tamil Nadu",,,kind:D5-5/Centres,"lost-wax bronze icons cast at Swamimalai, Thanjavur, by descendants of Chola temple sculptors; GI 2008–09 · owned as Nataraja (Possession F4) · https://en.wikipedia.org/wiki/Swamimalai_Bronze_Icons"
+seam_possession,possession:P0428,possession,Nachiarkoil lamps,possession craft tradition,"Nachiarkoil, Tamil Nadu",,,leaf:G1-57, · owned as kuthuvilakku (Possession F4) · https://en.wikipedia.org/wiki/Nachiarkoil_lamp
+seam_possession,possession:P0429,possession,Hikone butsudan,possession craft tradition,"Hikone, Shiga",,,leaf:D6-12, · owned as butsudan (Possession F4) · https://kogeijapan.com/locale/en_US/hikonebutsudan/
+seam_possession,possession:P0430,possession,Nagoya butsudan,possession craft tradition,"Nagoya, Aichi",,,kind:D6-12/Centres,"Altars of Nagoya with raised platforms, nail-free joinery and roiro lacquer (designated 1976) · owned as butsudan (Possession F4) · https://kogeijapan.com/locale/en_US/nagoyabutsudan/"
+seam_possession,possession:P0431,possession,Kyō butsudan,possession craft tradition,Kyoto,,,kind:D6-12/Centres,Kyoto altars with polished roiro lacquer and hand-applied gold leaf (designated 1976) · owned as butsudan (Possession F4) · https://kogeijapan.com/locale/en_US/kyobutsudan/
+seam_possession,possession:P0432,possession,Kanazawa butsudan,possession craft tradition,"Kanazawa, Ishikawa",,,kind:D6-12/Centres,Kanazawa altars with maki-e and hakubori gold-leaf carving (designated 1976) · owned as butsudan (Possession F4) · https://kogeijapan.com/locale/en_US/kanazawabutsudan/
+seam_possession,possession:P0433,possession,Yamagata butsudan,possession craft tradition,Yamagata,,,kind:D6-12/Centres,"Tōhoku altars of Yamagata finished by repeated urushi lacquering, carving and gilding · owned as butsudan (Possession F4) · https://kogeijapan.com/locale/en_US/yamagatabutsudan/"
+seam_possession,possession:P0434,possession,Thangka painting,possession craft tradition,"Tibet, Nepal, Bhutan",,,alias:A4-7,
+seam_possession,possession:P0435,possession,Newar metal casting,possession craft tradition,"Kathmandu Valley, Nepal (Patan)",,,alias:D5-9,
+seam_possession,possession:P0437,possession,Idar-Oberstein agate cutting,possession craft tradition,"Idar-Oberstein, Rhineland-Palatinate, Germany",,,leaf:D3-12, · owned as Agate and chalcedony (Possession F6) · https://en.wikipedia.org/wiki/Idar-Oberstein
+seam_possession,possession:P0438,possession,Chinese jade carving,possession craft tradition,China,,,alias:D3-3,
+seam_possession,possession:P0439,possession,Victorian taxidermy,possession craft tradition,Britain,,,leaf:D5-126, · owned as cased bird (Possession F6) · https://en.wikipedia.org/wiki/History_of_taxidermy
+seam_possession,possession:P0440,possession,Indian trophy taxidermy,possession craft tradition,"Mysore and Bangalore, India",,,kind:D5-126/Studios,"Colonial-era trophy mounts of tiger and leopard by Mysore and Bangalore studios (Van Ingen & Van Ingen), 1890s–1990s · owned as tiger full mount (Possession F6) · https://en.wikipedia.org/wiki/Van_Ingen_&_Van_Ingen"
+seam_possession,possession:P0450,possession,Romani wagon building and painting,possession craft tradition,Britain,,,leaf:I1-30, · owned as Reading wagon (Possession G1) · https://en.wikipedia.org/wiki/Vardo_(Romani_wagon)
+seam_possession,possession:P0451,possession,Wealden hall house,possession craft tradition,"South-east England (Kent, Sussex)",,,leaf:K12-8,"Timber-framed open-hall house with jettied end bays, Kent and Sussex, 14th–16th century · owned as Farmhouse (Possession G2) · https://en.wikipedia.org/wiki/Wealden_hall_house"
+seam_possession,possession:P0452,possession,Cruck framing,possession craft tradition,England and Wales,,,kind:K12-8/Construction traditions,"Framing with paired curved timbers rising from ground to ridge, England and Wales, from c. 13th century · owned as Farmhouse (Possession G2) · https://en.wikipedia.org/wiki/Cruck"
+seam_possession,possession:P0453,possession,Hebridean blackhouse,possession craft tradition,"Hebrides, Scottish Highlands, Ireland",,,kind:K12-8/Building types,"Low double-walled drystone house with turf and thatch roof and central hearth, Hebrides and Highlands, 18th–20th century · owned as Cottage (Possession G2) · https://en.wikipedia.org/wiki/Blackhouse"
+seam_possession,possession:P0454,possession,West Country cob,possession craft tradition,"Devon, Cornwall; East Anglia (clay lump)",,,kind:K12-8/Construction traditions,"Mass earth walling of subsoil, water and straw in Devon and Cornwall, with East Anglian clay lump, from c. 1600 · owned as Cottage (Possession G2) · https://en.wikipedia.org/wiki/Cob_(material)"
+seam_possession,possession:P0455,possession,Low German hall house,possession craft tradition,"North Germany, eastern Netherlands",,,kind:K12-9/Building types,"Timber-framed hall farmhouse (Niederdeutsches Hallenhaus) for people, animals and crops, north Germany and east Netherlands, 13th–19th c · owned as Farmhouse (Possession G2) · https://en.wikipedia.org/wiki/Low_German_house"
+seam_possession,possession:P0456,possession,German Fachwerk,possession craft tradition,"Germany, Alsace",,,leaf:K12-9,"Exposed timber framing with infill (half-timbering), Germany and Alsace, from the 14th century · owned as Farmhouse (Possession G2) · https://en.wikipedia.org/wiki/Timber_framing"
+seam_possession,possession:P0457,possession,Black Forest house,possession craft tradition,"Black Forest, south-west Germany",,,kind:K12-9/Building types,"Farmhouse (Schwarzwaldhaus) with living, work and stall under one great hipped roof, south-west Germany, from 16th century · owned as Farmhouse (Possession G2) · https://en.wikipedia.org/wiki/Black_Forest_house"
+seam_possession,possession:P0458,possession,Umgebinde,possession craft tradition,"Upper Lusatia, Silesia, North Bohemia",,,kind:K12-9/Building types,"House whose log room is carried inside a separate timber support frame, Upper Lusatia, Silesia and North Bohemia, from 13th century · owned as Farmhouse (Possession G2) · https://en.wikipedia.org/wiki/Upper_Lusatian_house"
+seam_possession,possession:P0459,possession,Albanian kulla,possession craft tradition,"Kosovo (Dukagjin), Albania",,,leaf:K12-10, · owned as Castle & tower house (Possession G2) · https://en.wikipedia.org/wiki/Architecture_of_Kosovo
+seam_possession,possession:P0460,possession,Vainakh tower building,possession craft tradition,"Chechnya, Ingushetia",,,leaf:K12-11, · owned as Castle & tower house (Possession G2) · https://en.wikipedia.org/wiki/Chechen_tower_architecture
+seam_possession,possession:P0461,possession,Catalan masia,possession craft tradition,"Catalonia, Valencia, Aragon, Provence",,,leaf:K12-12,"Free-standing farmhouse at the centre of a family estate, Catalonia, Valencia and Aragon, medieval onwards · owned as Farmhouse (Possession G2) · https://en.wikipedia.org/wiki/Masia"
+seam_possession,possession:P0462,possession,Apulian trulli,possession craft tradition,Apulia (Itria Valley),,,leaf:K12-13,"Dry-stone hut with corbelled conical roof, Itria Valley, Apulia, peak 19th century (Alberobello) · owned as Cottage (Possession G2) · https://en.wikipedia.org/wiki/Trullo"
+seam_possession,possession:P0463,possession,Dammuso,possession craft tradition,"Pantelleria, Lampedusa",,,kind:K12-13/Building types,"Volcanic-stone house with domed rain-catching roof, Pantelleria and Lampedusa, from c. 10th century · owned as Cottage (Possession G2) · https://en.wikipedia.org/wiki/Dammuso"
+seam_possession,possession:P0464,possession,Riad,possession craft tradition,"Maghreb, al-Andalus",,,kind:K1-4,"Inward-looking courtyard house round a garden with fountain, Morocco and al-Andalus, from the 12th century · owned as Courtyard house (Possession G2) · https://en.wikipedia.org/wiki/Riad_(architecture)"
+seam_possession,possession:P0465,possession,New England Cape and saltbox,possession craft tradition,New England,,,alias:K5-15,
+seam_possession,possession:P0466,possession,Pueblo adobe,possession craft tradition,US Southwest,,,alias:K11-6,
+seam_possession,possession:P0467,possession,Shotgun house,possession craft tradition,US South,,,leaf:K12-14,"Narrow one-room-wide house with rooms in line front to back, US South, c. 1865–1920s · owned as Cottage (Possession G2) · https://en.wikipedia.org/wiki/Shotgun_house"
+seam_possession,possession:P0468,possession,Beijing siheyuan,possession craft tradition,Northern China,,,alias:K8-2,
+seam_possession,possession:P0470,possession,Kyoto machiya,possession craft tradition,"Japan, chiefly Kyoto",,,alias:K8-15,
+seam_possession,possession:P0471,possession,Japanese minka,possession craft tradition,Japan,,,alias:K8-15,
+seam_possession,possession:P0472,possession,Korean hanok,possession craft tradition,Korean Peninsula,,,alias:K8-21,
+seam_possession,possession:P0473,possession,Malay timber house,possession craft tradition,"Malay Peninsula, Sumatra, Borneo",,,leaf:K9-14, · owned as Detached house (Possession G2) · https://en.wikipedia.org/wiki/Malay_houses
+seam_possession,possession:P0474,possession,Haveli building,possession craft tradition,"North India, Pakistan",,,leaf:K7-18, · owned as Courtyard house (Possession G2) · https://en.wikipedia.org/wiki/Haveli
+seam_possession,possession:P0476,possession,Finnish log-house building,possession craft tradition,"Finland (Karstula, eastern Finland)",,,leaf:K12-15,"Notched-log house building of Finland, a traditional craft industrialised into prefabricated log kits from 1958 · owned as log home kit (Possession G2) · https://en.wikipedia.org/wiki/Honkarakenne"
+seam_possession,possession:P0477,possession,Kashmiri houseboat building,possession craft tradition,"Dal and Nageen lakes, Srinagar, Jammu and Kashmir",,,leaf:K7-19, · owned as Dal Lake houseboat (Possession G2) · https://en.wikipedia.org/wiki/Dal_Lake
+seam_possession,possession:P0478,possession,Yaodong,possession craft tradition,"Loess Plateau, northern China (Gansu, Shaanxi, Shanxi, Henan, Ningxia)",,,alias:K8-3,
+seam_possession,possession:P0479,possession,Longhouse,possession craft tradition,British Isles,,,kind:K12-8/Building types,"Long one-room-deep house with people and animals under one roof, entered by a cross-passage, Dartmoor and Wales, pre-1600 · owned as Farmhouse (Possession G2) · https://en.wikipedia.org/wiki/Longhouse"
+seam_possession,possession:P0480,possession,Bastle house,possession craft tradition,British Isles,,,kind:K12-8/Building types,"Fortified farmhouse with thick walls and living quarters over a byre, Anglo-Scottish border, 16th–early 17th century · owned as Farmhouse (Possession G2) · https://en.wikipedia.org/wiki/Bastle_house"
+seam_possession,possession:P0481,possession,Back-to-back house,possession craft tradition,British Isles,,,kind:K12-8/Building types,"Terraced house sharing walls on three sides, door and windows at the front only, industrial England, late 1700s–early 1900s · owned as Terraced house (Possession G2) · https://en.wikipedia.org/wiki/Back-to-back_house"
+seam_possession,possession:P0482,possession,Geestharden house,possession craft tradition,Continental Europe,,,kind:K12-9/Building types,"North German longhouse of the Geest uplands with living and working areas under one roof, Schleswig-Holstein · owned as Farmhouse (Possession G2) · https://en.wikipedia.org/wiki/Geestharden_house"
+seam_possession,possession:P0483,possession,Uthland-Frisian house,possession craft tradition,Continental Europe,,,kind:K12-9/Building types,"Frisian variant of the Geestharden house with stall and living area under one roof, North Frisia · owned as Farmhouse (Possession G2) · https://en.wikipedia.org/wiki/Uthland-Frisian_house"
+seam_possession,possession:P0484,possession,Frutighaus,possession craft tradition,Continental Europe,,,leaf:K12-16,"Farmhouse type of the Frutigland and Kander valley, Bernese Oberland, from the 15th century · owned as Farmhouse (Possession G2) · https://de.wikipedia.org/wiki/Frutighaus"
+seam_possession,possession:P0485,possession,Longère,possession craft tradition,Continental Europe,,,leaf:K12-17,"Long, narrow single-storey longhouse of farmers and artisans, Brittany and Normandy · owned as Farmhouse (Possession G2) · https://en.wikipedia.org/wiki/Long%C3%A8re"
+seam_possession,possession:P0487,possession,Nordic log house,possession craft tradition,Continental Europe,,,leaf:K12-15,"House or farm building of notched solid logs, Norway and Sweden, medieval to 19th century · owned as Farmhouse (Possession G2) · https://en.wikipedia.org/wiki/Log_building"
+seam_possession,possession:P0489,possession,Casona,possession craft tradition,Mediterranean and Iberia,,,kind:K12-12/Building types,"Stone manor house of La Montaña (Cantabria), a grander casa montañesa, 16th–18th century · owned as Farmhouse (Possession G2) · https://en.wikipedia.org/wiki/Casa_monta%C3%B1esa"
+seam_possession,possession:P0490,possession,Casa torre,possession craft tradition,Mediterranean and Iberia,,,kind:K12-12/Building types,"Medieval stone tower house of northern Spain, Navarre and the Basque Country, from the 8th century · owned as Castle & tower house (Possession G2) · https://en.wikipedia.org/wiki/Tower_house"
+seam_possession,possession:P0491,possession,Cycladic house,possession craft tradition,Mediterranean and Iberia,,,leaf:K12-18, · owned as Cottage (Possession G2) · https://en.wikipedia.org/wiki/Modern_Greek_architecture
+seam_possession,possession:P0492,possession,Connected farm,possession craft tradition,Americas,,,kind:K12-14/Building types,"Farm with house, kitchen, barn and outbuildings joined into one structure, New England, 17th–19th century · owned as Farmhouse (Possession G2) · https://en.wikipedia.org/wiki/Connected_farm"
+seam_possession,possession:P0493,possession,I-house,possession craft tradition,Americas,,,kind:K12-14/Building types,"Two-storey, one-room-deep side-gabled house, US, colonial era to mid-1800s · owned as Farmhouse (Possession G2) · https://en.wikipedia.org/wiki/I-house"
+seam_possession,possession:P0494,possession,Upright and wing,possession craft tradition,Americas,,,kind:K12-14/Building types,"Folk house of a two-storey gabled upright with a one-storey wing, US Midwest and Northeast, c. 1830–1890 · owned as Farmhouse (Possession G2) · https://en.wikipedia.org/wiki/Upright_and_Wing"
+seam_possession,possession:P0495,possession,Charleston single house,possession craft tradition,Americas,,,kind:K12-14/Building types,"One-room-wide house with its narrow end to the street and side piazzas, Charleston, from the mid-1700s · owned as Townhouse (Possession G2) · https://en.wikipedia.org/wiki/Charleston_single_house"
+seam_possession,possession:P0496,possession,Creole cottage,possession craft tradition,Americas,,,kind:K5-19/Building types,"Gulf Coast house with full front gallery and high gabled roof, Louisiana and Gulf Coast, c. 1790–1840 · owned as Cottage (Possession G2) · https://en.wikipedia.org/wiki/Creole_cottage"
+seam_possession,possession:P0498,possession,Chattel house,possession craft tradition,Americas,,,leaf:K12-19, · owned as Cottage (Possession G2) · https://en.wikipedia.org/wiki/Chattel_house
+seam_possession,possession:P0499,possession,Shophouse,possession craft tradition,Asia and Middle East,,,alias:K9-13,
+seam_possession,possession:P0500,possession,Assam-type house,possession craft tradition,Asia and Middle East,,,leaf:K7-20, · owned as Detached house (Possession G2) · https://en.wikipedia.org/wiki/Assam-type_architecture
+seam_possession,possession:P0501,possession,Palladian,possession craft tradition,,,,alias:K5-9,
+seam_possession,possession:P0502,possession,Georgian,possession craft tradition,,,,alias:K5-10,
+seam_possession,possession:P0503,possession,Neoclassical,possession craft tradition,,,,alias:K5-24,
+seam_possession,possession:P0504,possession,Federal,possession craft tradition,,,,alias:K5-12,
+seam_possession,possession:P0505,possession,Regency,possession craft tradition,,,,alias:K5-10,
+seam_possession,possession:P0506,possession,Greek Revival,possession craft tradition,,,,alias:K2-14,
+seam_possession,possession:P0507,possession,Beaux-Arts,possession craft tradition,,,,alias:K2-16,
+seam_possession,possession:P0508,possession,Gothic Revival,possession craft tradition,,,,alias:K2-6,
+seam_possession,possession:P0509,possession,Italianate,possession craft tradition,,,,alias:K2-11,
+seam_possession,possession:P0510,possession,Second Empire,possession craft tradition,,,,alias:K2-12,
+seam_possession,possession:P0511,possession,Romanesque Revival,possession craft tradition,,,,alias:K2-8,
+seam_possession,possession:P0513,possession,Queen Anne,possession craft tradition,,,,alias:K2-19,
+seam_possession,possession:P0514,possession,Shingle style,possession craft tradition,,,,alias:K2-20,
+seam_possession,possession:P0515,possession,Edwardian,possession craft tradition,,,,alias:K2-13,
+seam_possession,possession:P0516,possession,Arts and Crafts,possession craft tradition,,,,alias:K6-1,
+seam_possession,possession:P0517,possession,Tudor Revival,possession craft tradition,,,,alias:K2-7,
+seam_possession,possession:P0518,possession,Art Nouveau,possession craft tradition,,,,alias:K6-21,
+seam_possession,possession:P0519,possession,Craftsman,possession craft tradition,,,,alias:K6-1,
+seam_possession,possession:P0520,possession,Prairie School,possession craft tradition,,,,alias:K6-3,
+seam_possession,possession:P0521,possession,Spanish Colonial Revival,possession craft tradition,,,,alias:K2-22,
+seam_possession,possession:P0522,possession,Art Deco,possession craft tradition,,,,alias:K6-7,
+seam_possession,possession:P0523,possession,Bauhaus & International Style,possession craft tradition,,,,alias:K6-9,
+seam_possession,possession:P0524,possession,Mid-century modern,possession craft tradition,,,,alias:K6-18,
+seam_possession,possession:P0525,possession,Brutalist,possession craft tradition,,,,alias:K6-23,
+seam_possession,possession:P0526,possession,Postmodern,possession craft tradition,,,,alias:K6-24,
+seam_possession,possession:P0528,possession,American Colonial,possession craft tradition,,,,alias:K5-15,
+seam_possession,possession:P0529,possession,French Colonial,possession craft tradition,,,,alias:K5-19,
+seam_possession,possession:P0530,possession,Cape Dutch,possession craft tradition,,,,alias:K5-21,
+seam_possession,possession:P0531,possession,Dutch Colonial Revival,possession craft tradition,,,,alias:K2-21,
+seam_possession,possession:P0532,possession,Colonial Revival,possession craft tradition,,,,alias:K2-21,
+seam_possession,possession:P0533,possession,Queenslander,possession craft tradition,,,,leaf:K12-20, · owned as Detached house (Possession G2) · https://en.wikipedia.org/wiki/Queenslander_(architecture)
+seam_possession,possession:P0534,possession,Federation,possession craft tradition,,,,alias:K2-33,
+seam_possession,possession:P0535,possession,New Zealand villa,possession craft tradition,,,,kind:K2-18/Sub-styles,"Ornate timber suburban house with central hall, sash and bay windows, New Zealand, 1870s–1910s · owned as Detached house (Possession G2) · https://teara.govt.nz/en/housing/print"
+seam_possession,possession:P0536,possession,Kachelofen (German and Austrian tiled stove),possession craft tradition,"Germany, Austria",,,leaf:E1-98, · owned as Masonry heater (Possession G3) · https://en.wikipedia.org/wiki/Masonry_heater
+seam_possession,possession:P0537,possession,Kakelugn,possession craft tradition,"Sweden, Finland",,,kind:E1-98/Regional schools,"Swedish tall tiled stove made efficient by Cronstedt and Wrede (1767), its faience tiles from Rörstrand and Marieberg · owned as Masonry heater (Possession G3) · https://en.wikipedia.org/wiki/Masonry_heater"
+seam_possession,possession:P0542,possession,Solingen blade-making,possession craft tradition,"Solingen, Germany",,,alias:G1-53,
+seam_possession,possession:P0547,possession,Egyptian hand-blown perfume glass,possession craft tradition,Egypt (Cairo),,,leaf:F1-16, · owned as Attar bottle (Possession H4) · https://egyptianimports.com/blogs/news/the-timeless-beauty-of-hand-blown-egyptian-glass-perfume-bottles
+seam_possession,possession:P0549,possession,Danish freehand,possession craft tradition,Denmark (Copenhagen),,,leaf:I1-31, · owned as Freehand pipe (Possession J10) · https://pipedia.org/wiki/Jess_Chonowitsch
+seam_possession,possession:P0550,possession,Eskişehir meerschaum carving,possession craft tradition,Turkey (Eskişehir),,,leaf:D5-127, · owned as Meerschaum pipe (Possession J10) · https://en.wikipedia.org/wiki/Eski%C5%9Fehir_Meerschaum_Museum
+seam_possession,possession:P0551,possession,Japanese kiseru,possession craft tradition,Japan,,,leaf:G1-58, · owned as Kiseru (Possession J10) · https://en.wikipedia.org/wiki/Kiseru
+seam_possession,possession:P0552,possession,Chinese snuff bottles,possession craft tradition,"China (Beijing, Guangzhou)",,,alias:D3-4,
+seam_possession,possession:P0555,possession,Aran knitting,possession clothing tradition,"Aran Islands, Co Galway, Ireland",,,leaf:H4-94, · owned as Aran jumper (Possession A1) · https://en.wikipedia.org/wiki/Aran_jumper
+seam_possession,possession:P0556,possession,Guernsey and gansey knitting,possession clothing tradition,Channel Islands and British fishing coasts,,,leaf:H4-95, · owned as Guernsey (gansey) (Possession A1) · https://en.wikipedia.org/wiki/Guernsey_(clothing)
+seam_possession,possession:P0557,possession,Fair Isle and Shetland knitting,possession clothing tradition,"Fair Isle and Shetland, Scotland",,,leaf:H4-96, · owned as Fair Isle jumper (Possession A1) · https://en.wikipedia.org/wiki/Fair_Isle_(knitting)
+seam_possession,possession:P0558,possession,Icelandic lopapeysa knitting,possession clothing tradition,Iceland,,,leaf:H4-97, · owned as Lopapeysa (Possession A1) · https://en.wikipedia.org/wiki/Lopapeysa
+seam_possession,possession:P0559,possession,Norwegian colourwork knitting,possession clothing tradition,"Norway (Setesdal, Fana, Selbu)",,,leaf:H4-98, · owned as Norwegian sweater (Possession A1) · https://en.wikipedia.org/wiki/Norwegian_knitting
+seam_possession,possession:P0560,possession,Cowichan knitting,possession clothing tradition,"Cowichan Valley, Vancouver Island, Canada",,,leaf:H4-99, · owned as Cowichan sweater (Possession A1) · https://en.wikipedia.org/wiki/Cowichan_knitting
+seam_possession,possession:P0563,possession,Basotho blanket,possession clothing tradition,Lesotho and South Africa,,,leaf:H7-13, · owned as Seanamarena (Possession A1) · https://en.wikipedia.org/wiki/Basotho_blanket
+seam_possession,possession:P0568,possession,Yokosuka sukajan embroidery,possession clothing tradition,"Yokosuka, Kiryū and Ashikaga, Japan",,,leaf:H4-100, · owned as Souvenir jacket (Possession A1) · https://en.wikipedia.org/wiki/Sukajan
+seam_possession,possession:P0569,possession,Savile Row bespoke tailoring,possession clothing tradition,"London, England",,,leaf:H7-14, · owned as Business suit (Possession A1) · https://en.wikipedia.org/wiki/Savile_Row_tailoring
+seam_possession,possession:P0570,possession,Neapolitan tailoring,possession clothing tradition,"Naples, Italy",,,leaf:H7-15, · owned as Business suit (Possession A1) · https://en.wikipedia.org/wiki/Neapolitan_tailoring
+seam_possession,possession:P0571,possession,Ecuadorian toquilla straw hat weaving,possession clothing tradition,Ecuador (coast and Azuay),,,alias:H8-11,
+seam_possession,possession:P0573,possession,Donegal Tweed,possession clothing tradition,"County Donegal, Ireland",,,kind:H3-52/Centres,"Flecked woollen tweed of County Donegal, Ireland, handwoven and later machine-woven, with coloured neps spun in · owned as Flat cap (Possession A1) · https://en.wikipedia.org/wiki/Donegal_tweed"
+seam_possession,possession:P0575,possession,Chullo knitting,possession clothing tradition,"Andes (Peru, Bolivia)",,,kind:H2-7/sub-type,"Quechua and Aymara hand-knitted earflap hats in camelid and sheep wool with colourwork bands, Peru and Bolivia · owned as Chullo (Possession A1) · https://en.wikipedia.org/wiki/Chullo"
+seam_possession,possession:P0576,possession,Kashmir shawl weaving,possession clothing tradition,"Kashmir, India",,,alias:H3-6,
+seam_possession,possession:P0577,possession,Orenburg down knitting,possession clothing tradition,"Orenburg region, Russia",,,alias:H4-83,
+seam_possession,possession:P0578,possession,Mantón de Manila,possession clothing tradition,"Canton and Macau; Seville, Spain",,,kind:H4-23,"Embroidered silk shawls made in Canton for export via Manila from the 18th century, later made in Spain and worn with flamenco dress · owned as Manila shawl (Possession A1) · https://en.wikipedia.org/wiki/Manila_shawl"
+seam_possession,possession:P0579,possession,Selbu Knitting,possession clothing tradition,"Selbu, Trøndelag, Norway",,,kind:H4-98/Centres,"Two-colour stranded mittens and gloves of Selbu in Trøndelag, Norway, with the eight-petalled Selbu rose, from the 1850s · owned as Selbu mitten (Possession A1) · https://en.wikipedia.org/wiki/Selbu_mittens"
+seam_possession,possession:P0581,possession,Western trophy-buckle silversmithing,possession clothing tradition,"American West (Montana, Texas, California)",,,leaf:G1-59, · owned as Rodeo trophy buckle (Possession A1) · https://journalofantiques.com/digital-publications/joac-magazine/features/belt-buckle-collecting/
+seam_possession,possession:P0582,possession,Banarasi brocade weaving,possession clothing tradition,"Varanasi, Uttar Pradesh, India",,,alias:H3-7,
+seam_possession,possession:P0583,possession,Kanchipuram silk weaving,possession clothing tradition,"Kanchipuram, Tamil Nadu, India",,,alias:H3-9,
+seam_possession,possession:P0584,possession,Paithani weaving,possession clothing tradition,"Paithan and Yeola, Maharashtra, India",,,alias:H3-10,
+seam_possession,possession:P0585,possession,Patola double ikat,possession clothing tradition,"Patan, Gujarat, India",,,alias:H5-8,
+seam_possession,possession:P0586,possession,Pochampally Ikat,possession clothing tradition,"Bhoodan Pochampally, Telangana, India",,,kind:H5-39/Centres,"Geometric warp, weft and double ikat in silk and cotton of Bhoodan Pochampally, Telangana, with the telia rumal · owned as Pochampally ikat sari (Possession A1) · https://en.wikipedia.org/wiki/Pochampally_sari"
+seam_possession,possession:P0587,possession,Jamdani weaving,possession clothing tradition,"Dhaka and Narayanganj, Bangladesh; Bengal",,,alias:H3-8,
+seam_possession,possession:P0588,possession,Chanderi weaving,possession clothing tradition,"Chanderi, Madhya Pradesh, India",,,leaf:H3-41, · owned as Chanderi sari (Possession A1) · https://en.wikipedia.org/wiki/Chanderi_sari
+seam_possession,possession:P0589,possession,Maheshwari weaving,possession clothing tradition,"Maheshwar, Madhya Pradesh, India",,,leaf:H3-42, · owned as Maheshwari sari (Possession A1) · https://en.wikipedia.org/wiki/Maheshwari_Saree
+seam_possession,possession:P0590,possession,Mangalagiri handloom,possession clothing tradition,"Mangalagiri, Andhra Pradesh, India",,,leaf:H3-43, · owned as Mangalgiri sari (Possession A1) · https://en.wikipedia.org/wiki/Mangalagiri_sarees_and_fabrics
+seam_possession,possession:P0591,possession,Sambalpuri Bandha,possession clothing tradition,"Sambalpur, Bargarh, Balangir, Boudh and Sonepur, Odisha, India",,,kind:H5-39/Centres,"Tie-dyed warp and weft ikat of western Odisha (Sambalpur, Bargarh, Sonepur) with shankha, chakra and phula motifs · owned as Sambalpuri sari (Possession A1) · https://en.wikipedia.org/wiki/Sambalpuri_sari"
+seam_possession,possession:P0592,possession,Leheriya tie-dye,possession clothing tradition,"Jaipur and Jodhpur, Rajasthan, India",,,alias:H5-7,
+seam_possession,possession:P0593,possession,Bandhani tie-dye,possession clothing tradition,"Kutch and Saurashtra, Gujarat; Rajasthan, India",,,alias:H5-6,
+seam_possession,possession:P0594,possession,Tangaliya weaving,possession clothing tradition,"Surendranagar, Saurashtra, Gujarat, India",,,leaf:H3-44, · owned as Tangaliya sari (Possession A1) · https://en.wikipedia.org/wiki/Tangaliya_Shawl
+seam_possession,possession:P0595,possession,Uppada Jamdani,possession clothing tradition,"Uppada and Tatiparthi, Kakinada district, Andhra Pradesh, India",,,kind:H3-8/Centres,"Silk saris woven in the jamdani supplementary-weft technique at Uppada, Andhra Pradesh, from the 1980s · owned as Uppada sari (Possession A1) · https://en.wikipedia.org/wiki/Uppada_Jamdani_sari"
+seam_possession,possession:P0596,possession,Kasavu weaving,possession clothing tradition,"Balaramapuram and Kerala, India",,,leaf:H3-45, · owned as Kasavu sari (Possession A1) · https://en.wikipedia.org/wiki/Kasavu
+seam_possession,possession:P0597,possession,Kota Doria weaving,possession clothing tradition,"Kaithun, Kota, Rajasthan, India",,,leaf:H3-46, · owned as Kota Doria sari (Possession A1) · https://gaatha.org/Craft-of-India/kota-doria-kaithun-handloom/
+seam_possession,possession:P0598,possession,Chikankari,possession clothing tradition,"Lucknow, Uttar Pradesh, India",,,alias:H4-10,
+seam_possession,possession:P0599,possession,Phulkari,possession clothing tradition,Punjab (India and Pakistan),,,alias:H4-9,
+seam_possession,possession:P0600,possession,Nishijin-ori,possession clothing tradition,"Nishijin, Kamigyō-ku, Kyoto, Japan",,,leaf:H3-47, · owned as Fukuro obi (Possession A1) · https://en.wikipedia.org/wiki/Nishijin-ori
+seam_possession,possession:P0603,possession,Ōshima tsumugi,possession clothing tradition,"Amami Ōshima and Kagoshima Prefecture, Japan",,,kind:H5-23/centre,"Kasuri silk of Amami Ōshima, tie-woven and dyed black with techigi bark and iron-rich mud · owned as Tsumugi (Possession A1) · https://en.wikipedia.org/wiki/Ōshima_tsumugi"
+seam_possession,possession:P0604,possession,Yūki tsumugi,possession clothing tradition,"Yūki (Ibaraki) and Oyama (Tochigi), Japan",,,kind:H5-23/centre,"Hand-spun floss-silk kasuri plain weave of Yūki and Oyama, woven on the backstrap loom (UNESCO 2010) · owned as Tsumugi (Possession A1) · https://en.wikipedia.org/wiki/Yūki-tsumugi"
+seam_possession,possession:P0605,possession,Hong Kong and Shanghai qipao tailoring,possession clothing tradition,"Shanghai, Beijing and Hong Kong",,,leaf:H7-16, · owned as Qipao (Possession A1) · https://www.tatlerasia.com/style/fashion/best-cheongsams-qipaos-in-hong-kong
+seam_possession,possession:P0606,possession,Lumban embroidery,possession clothing tradition,"Lumban, Laguna, Philippines",,,kind:H3-13,"Hand embroidery (calado) of piña and jusi barong tagalog and linens in Lumban, Laguna, the Philippines · owned as Barong Tagalog (Possession A1) · https://www.heritagebarong.com/pages/about-heritage-barong"
+seam_possession,possession:P0607,possession,Acheik silk weaving,possession clothing tradition,"Amarapura, Myanmar",,,leaf:H3-48, · owned as Sarong & wrap cloth (Possession A1) · https://en.wikipedia.org/wiki/Longyi
+seam_possession,possession:P0608,possession,Khmer silk weaving,possession clothing tradition,Cambodia,,,leaf:H5-37, · owned as Sarong & wrap cloth (Possession A1) · https://en.wikipedia.org/wiki/Sampot
+seam_possession,possession:P0609,possession,Lao and Tai sinh weaving,possession clothing tradition,Laos; northern and north-eastern Thailand,,,alias:H3-15,
+seam_possession,possession:P0610,possession,Peranakan nyonya kebaya embroidery,possession clothing tradition,"Malaysia, Singapore, Indonesia",,,leaf:H4-101, · owned as Kebaya (Possession A1) · https://en.wikipedia.org/wiki/Kebaya
+seam_possession,possession:P0611,possession,Moroccan caftan,possession clothing tradition,Morocco,,,leaf:H7-17, · owned as Moroccan caftan (Possession A1) · https://en.wikipedia.org/wiki/Kaftan
+seam_possession,possession:P0612,possession,Tlemcen wedding costume,possession clothing tradition,"Tlemcen, Oran, Mostaganem, Algeria",,,leaf:H7-18, · owned as Chedda of Tlemcen (Possession A1) · https://en.wikipedia.org/wiki/Chedda_of_Tlemcen
+seam_possession,possession:P0613,possession,Algerian majboud embroidery,possession clothing tradition,"Algiers, Algeria",,,leaf:H4-102, · owned as Karakou (Possession A1) · https://en.wikipedia.org/wiki/Karakou
+seam_possession,possession:P0614,possession,Uzbek ikat (abrbandi),possession clothing tradition,"Bukhara, Samarkand, Margilan and other Uzbek centres",,,alias:H5-1,
+seam_possession,possession:P0615,possession,Aso oke narrow-strip weaving,possession clothing tradition,"Yoruba, south-western Nigeria (Oyo origin)",,,alias:H3-24,
+seam_possession,possession:P0616,possession,Hausa robe embroidery,possession clothing tradition,"Kano and Zaria, northern Nigeria",,,leaf:H4-103, · owned as Babban riga (Possession A1) · https://collections.bowers.org/objects/146441/robe-babban-riga
+seam_possession,possession:P0617,possession,Shemma weaving,possession clothing tradition,"Amhara highlands and Shiro Meda, Addis Ababa, Ethiopia",,,leaf:H3-49, · owned as Habesha kemis (Possession A1) · https://en.wikipedia.org/wiki/Habesha_kemis
+seam_possession,possession:P0618,possession,Alpine Tracht,possession clothing tradition,"Bavaria, Austria, South Tyrol, Switzerland",,,alias:H7-7,
+seam_possession,possession:P0619,possession,Highland dress & tartan,possession clothing tradition,Scottish Highlands,,,leaf:H7-19, · owned as Kilt (Possession A1) · https://en.wikipedia.org/wiki/Scottish_Register_of_Tartans
+seam_possession,possession:P0620,possession,Hardanger embroidery,possession clothing tradition,"Hardanger, Vestland, Norway",,,alias:H4-49,
+seam_possession,possession:P0621,possession,Ukrainian embroidery,possession clothing tradition,Ukraine,,,alias:H4-66,
+seam_possession,possession:P0622,possession,Duodji,possession clothing tradition,"Sápmi (Norway, Sweden, Finland, Kola)",,,alias:D2-13,
+seam_possession,possession:P0623,possession,Saltillo sarape weaving,possession clothing tradition,"Saltillo, Coahuila, Mexico",,,alias:H2-9,
+seam_possession,possession:P0624,possession,Chiapas Maya backstrap weaving,possession clothing tradition,"Highland Chiapas, Mexico",,,alias:H3-28,
+seam_possession,possession:P0625,possession,Oaxaca indigenous textiles,possession clothing tradition,"Oaxaca, Mexico",,,leaf:H3-50, · owned as Oaxaca huipil (Possession A1) · https://en.wikipedia.org/wiki/Textiles_of_Oaxaca
+seam_possession,possession:P0626,possession,Panamanian pollera making,possession clothing tradition,"Azuero Peninsula, Panama",,,leaf:H7-20, · owned as Pollera de gala (Possession A1) · https://en.wikipedia.org/wiki/Pollera
+seam_possession,possession:P0629,possession,Asante kente weaving,possession clothing tradition,"Ashanti Region, Ghana",,,alias:H3-23,
+seam_possession,possession:P0630,possession,Ewe kente weaving,possession clothing tradition,South-eastern Ghana and Togo,,,alias:H3-23,
+seam_possession,possession:P0631,possession,African wax printing,possession clothing tradition,Netherlands and West Africa,,,alias:H5-36,
+seam_possession,possession:P0632,possession,Indonesian batik,possession clothing tradition,Java and other Indonesian islands,,,alias:H5-10,
+seam_possession,possession:P0633,possession,Shweshwe printing,possession clothing tradition,South Africa and Lesotho,,,leaf:H5-38, · owned as Three Cats (Possession A1) · https://www.dagama.co.za/three-cats-original-shweshwe-the-original-still-the-best/
+seam_possession,possession:P0634,possession,Bogolan mud-dyeing,possession clothing tradition,Mali,,,alias:H5-26,
+seam_possession,possession:P0635,possession,Yoruba adire,possession clothing tradition,South-western Nigeria,,,alias:H5-27,
+seam_possession,possession:P0636,possession,Yoruba aso-oke weaving,possession clothing tradition,"Yorubaland (Nigeria, Benin, Togo)",,,alias:H3-24,
+seam_possession,possession:P0637,possession,Central Asian ikat,possession clothing tradition,"Uzbekistan, Tajikistan, Xinjiang",,,alias:H5-1,
+seam_possession,possession:P0638,possession,Indian ikat,possession clothing tradition,"Gujarat, Telangana, Odisha",,,leaf:H5-39, · owned as Patola (Possession A1) · https://en.wikipedia.org/wiki/Ikat
+seam_possession,possession:P0639,possession,Songket weaving,possession clothing tradition,"Sumatra, Malay Peninsula, Brunei, Bali, Lombok",,,alias:H3-11,
+seam_possession,possession:P0640,possession,Scottish tartan weaving,possession clothing tradition,Scotland,,,leaf:H3-51, · owned as Government (Black Watch) (Possession A1) · https://en.wikipedia.org/wiki/Scottish_Register_of_Tartans
+seam_possession,possession:P0641,possession,Harris tweed weaving,possession clothing tradition,"Outer Hebrides, Scotland",,,leaf:H3-52, · owned as Harris tweed (Possession A1) · https://en.wikipedia.org/wiki/Harris_tweed
+seam_possession,possession:P0643,possession,Faso Dan Fani weaving,possession clothing tradition,Burkina Faso,,,leaf:H3-53, · owned as Faso Dan Fani (Possession A1) · https://fr.wikipedia.org/wiki/Faso_Dan_Fani
+seam_possession,possession:P0644,possession,Pacific tapa making,possession clothing tradition,"Tonga, Samoa, Fiji, Hawaii and wider Pacific",,,alias:H8-24,
+seam_possession,possession:P0653,possession,Japanese bonsai,possession garden & flower tradition,Japan,,,leaf:K13-8, · owned as Juniper bonsai (Possession C3) · https://en.wikipedia.org/wiki/Bonsai
+seam_possession,possession:P0654,possession,Chinese penjing,possession garden & flower tradition,"China (Lingnan, Shanghai, Yangzhou, Suzhou, Sichuan schools)",,,leaf:K13-9, · owned as Tropical bonsai (Possession C3) · https://en.wikipedia.org/wiki/Penjing
+seam_possession,possession:P0655,possession,Hòn non bộ,possession garden & flower tradition,Vietnam,,,leaf:K13-10, · https://en.wikipedia.org/wiki/Hòn_non_bộ
+seam_possession,possession:P0656,possession,Saikei,possession garden & flower tradition,Japan,,,kind:K13-8/sub-type,"Planted tray landscape of young trees, rocks and ground cover, Japan, founded by Toshio Kawamoto after 1945 · https://en.wikipedia.org/wiki/Saikei"
+seam_possession,possession:P0657,possession,Kokedama,possession garden & flower tradition,Japan,,,kind:K13-8/sub-type,"Moss-ball planting without a pot, Japan, from nearai and kusamono practice · owned as Kokedama (Possession C3) · https://en.wikipedia.org/wiki/Kokedama"
+seam_possession,possession:P0658,possession,Ikebana,possession garden & flower tradition,Japan,,,leaf:K13-11, · owned as rikka (Possession C3) · https://www.nippon.com/en/japan-glances/jg00086/
+seam_possession,possession:P0684,possession,Ed Drew,artist,,,,kind:J1-13/Artists,American tintype photographer (b. 1970s) of Air Force pilots in Afghanistan
+seam_possession,possession:P0699,possession,Glen Alps,artist,,,,kind:B2-15/Artists,"American printmaker (1914–1996), Seattle; pioneer of the collagraph"
+seam_possession,possession:P0700,possession,Gora M'Bengue,artist,,,,kind:A6-20/souwer (Senegal),"Senegalese reverse-glass (souwer) painter, 20th century"
+seam_possession,possession:P0701,possession,Gustavsberg,artist,,,,kind:E4-26/Swedish factory,"Swedish porcelain and ceramics manufactory near Stockholm, founded 1825; Parian figures, later studio ware"
+seam_possession,possession:P0702,possession,Hasegawa Tōhaku,artist,,,,kind:A2-9/Artists,"Japanese painter (1539–1610), founder of the Hasegawa school, rival of the Kanō: Pine Trees screens"
+seam_possession,possession:P0712,possession,Hill & Adamson,artist,,,,kind:J1-7/Artists,"Scottish calotype studio of David Octavius Hill and Robert Adamson, Edinburgh, 1843–1847"
+seam_possession,possession:P0725,possession,Josef Müller-Brockmann,artist,,,,kind:B2-9/Artists,"Swiss graphic designer (1914–1996), leader of the Swiss poster school: Der Film, Beethoven posters"
+seam_possession,possession:P0727,possession,Kaapa Tjampitjinpa,artist,,,,kind:A5-12/Papunya Tula Artists,"Anmatyerre painter (c. 1920–1989), early Papunya Tula artist of the Western Desert movement"
+seam_possession,possession:P0729,possession,Kanō Eitoku,artist,,,,kind:A2-9/Artists,"Japanese painter (1543–1590), Kanō school master of monumental gold-ground screens and fusuma"
+seam_possession,possession:P0730,possession,Kanō Sanraku,artist,,,,kind:A2-9/Artists,"Japanese painter (1559–1635), Eitoku's pupil and adopted heir, Kanō school screens and fusuma"
+seam_possession,possession:P0731,possession,Katsushika Hokusai,artist,,,,kind:B2-17/Artists,"Japanese ukiyo-e artist (1760–1849): Thirty-six Views of Mount Fuji, The Great Wave"
+seam_possession,possession:P0733,possession,Kitagawa Utamaro,artist,,,,kind:B2-17/Artists,"Japanese ukiyo-e artist (c. 1753–1806), known for bijin-ga portraits of beauties"
+seam_possession,possession:P0743,possession,Nihal Chand,artist,,,,kind:A1-7/Kishangarh,"Painter (c. 1710–1782) of the Kishangarh court, creator of the Bani Thani Radha portrait"
+seam_possession,possession:P0745,possession,Ogata Kōrin,artist,,,,kind:A2-10/Artists,"Japanese painter and designer (1658–1716), Rinpa master: Red and White Plum Blossoms, Irises"
+seam_possession,possession:P0746,possession,Osuitok Ipeelee,artist,,,,kind:D5-77/Artists,"Inuit sculptor (1923–2005) of Kinngait (Cape Dorset), carver in stone and antler"
+seam_possession,possession:P0759,possession,Sakai Hōitsu,artist,,,,kind:A2-10/Artists,Japanese painter (1761–1828) who revived the Rinpa school in Edo: Summer and Autumn Grasses
+seam_possession,possession:P0760,possession,Sharaku,artist,,,,kind:B2-17/Artists,"Japanese ukiyo-e artist active 1794–1795, known for kabuki actor portraits"
+seam_possession,possession:P0763,possession,Sita Devi,artist,,,,kind:A6-1,"Mithila (Madhubani) painter of Bihar (1914–2005), among the women who moved the art from wall to paper"
+seam_possession,possession:P0764,possession,Southworth & Hawes,artist,,,,kind:J1-7/Artists,"Boston daguerreotype studio of Albert Sands Southworth and Josiah Johnson Hawes, 1843–1863"
+seam_possession,possession:P0766,possession,Tawaraya Sōtatsu,artist,,,,kind:A2-10/Artists,"Japanese painter (active c. 1600–1640), co-founder of the Rinpa school: Wind God and Thunder God"
+seam_possession,possession:P0770,possession,Utagawa Hiroshige,artist,,,,kind:B2-17/Artists,"Japanese ukiyo-e artist (1797–1858): Fifty-three Stations of the Tōkaidō, One Hundred Famous Views of Edo"
+seam_possession,possession:P0772,possession,Victoria Will,artist,,,,kind:J1-13/Artists,"American photographer (b. 1950s) of tintype portraits, among them the Sundance series"
+seam_possession,possession:P0776,possession,Wu Changshuo,artist,,,,kind:A2-6/Artists,"Chinese painter, calligrapher and seal carver (1844–1927) of Shanghai; bold flower paintings"
+seam_possession,possession:P0976,possession,Geringsing,possession named cloth,,,,alias:H5-13,
+seam_possession,possession:P0977,possession,Kasuri,possession named cloth,,,,alias:H5-23,
+seam_possession,possession:P0978,possession,Atlas (etles),possession named cloth,,,,alias:H5-1,
+seam_possession,possession:P0979,possession,Adras,possession named cloth,,,,alias:H5-1,
+seam_possession,possession:P0986,possession,Geringsing,possession named cloth,,,,alias:H5-13,
+seam_possession,possession:P0987,possession,Kasuri,possession named cloth,,,,alias:H5-23,
+seam_possession,possession:P0988,possession,Atlas (etles),possession named cloth,,,,alias:H5-1,
+seam_possession,possession:P0989,possession,Adras,possession named cloth,,,,alias:H5-1,
+seam_possession,possession:P0992,possession,Geringsing,possession named cloth,,,,alias:H5-13,
+seam_possession,possession:P0993,possession,Kasuri,possession named cloth,,,,alias:H5-23,
+seam_possession,possession:P0994,possession,Atlas (etles),possession named cloth,,,,alias:H5-1,
+seam_possession,possession:P0995,possession,Adras,possession named cloth,,,,alias:H5-1,
+seam_possession,possession:P0997,possession,Chūsen,possession named cloth,,,,kind:H5-19,"Pour-dyeing of yukata cotton through stencilled paste resist on folded cloth, from Meiji Osaka and Hamamatsu · owned as Yukata (Possession A1)"
+seam_possession,possession:P0998,possession,Nagaita chūgata,possession named cloth,,,,kind:H5-19,"Indigo stencil dyeing on long boards with paste applied to both faces, for yukata (Important Intangible Cultural Property) · owned as Yukata (Possession A1)"
+seam_possession,possession:P0999,possession,Palembang songket,possession named cloth,,,,alias:H3-11,
+seam_possession,possession:P1000,possession,Pandai Sikek songket,possession named cloth,,,,alias:H3-11,
+seam_possession,possession:P1001,possession,Silungkang songket,possession named cloth,,,,alias:H3-11,
+seam_possession,possession:P1002,possession,Songket Terengganu,possession named cloth,,,,kind:H3-11/centre,Gold-thread songket woven in Terengganu on the east coast of the Malay Peninsula · owned as Baju kurung & baju Melayu (Possession A1)
+seam_possession,possession:P1003,possession,Ulos (Batak),possession named cloth,,,,kind:H5-12/centre,"Ceremonial warp-faced and warp-ikat cloths of the Batak of North Sumatra, given at rites of passage · owned as Baju kurung & baju Melayu (Possession A1)"
+seam_possession,possession:P1009,possession,Malaysian batik,possession named cloth,,,,alias:H5-11,
+seam_possession,possession:P1015,possession,Malaysian batik,possession named cloth,,,,alias:H5-11,
+seam_possession,possession:P1021,possession,Malaysian batik,possession named cloth,,,,alias:H5-11,
+seam_possession,possession:P1022,possession,Palembang songket,possession named cloth,,,,alias:H3-11,
+seam_possession,possession:P1023,possession,Pandai Sikek songket,possession named cloth,,,,alias:H3-11,
+seam_possession,possession:P1024,possession,Silungkang songket,possession named cloth,,,,alias:H3-11,
+seam_possession,possession:P1025,possession,Terengganu songket,possession named cloth,,,,alias:H3-11,
+seam_possession,possession:P1026,possession,Ulos,possession named cloth,,,,alias:H5-12,
+seam_possession,possession:P1028,possession,Geringsing,possession named cloth,,,,alias:H5-13,
+seam_possession,possession:P1029,possession,Kasuri,possession named cloth,,,,alias:H5-23,
+seam_possession,possession:P1030,possession,Atlas (etles),possession named cloth,,,,alias:H5-1,
+seam_possession,possession:P1031,possession,Adras,possession named cloth,,,,alias:H5-1,
+seam_possession,possession:P1033,possession,Ngatu,possession named cloth,,,,alias:H8-24,
+seam_possession,possession:P1034,possession,Siapo,possession named cloth,,,,alias:H8-24,
+seam_possession,possession:P1035,possession,Masi,possession named cloth,,,,alias:H8-24,
+seam_possession,possession:P1036,possession,Kapa,possession named cloth,,,,alias:H8-24,
+seam_possession,possession:P1037,possession,Adire,possession named cloth,,,,alias:H5-27,
+seam_possession,possession:P1038,possession,Aso oke,possession named cloth,,,,alias:H3-24,
+seam_possession,possession:P1039,possession,Real wax print,possession named cloth,,,,alias:H5-36,
+seam_possession,possession:P1041,possession,Asante kente,possession named cloth,,,,alias:H3-23,
+seam_possession,possession:P1042,possession,Ewe kente,possession named cloth,,,,alias:H3-23,
+seam_possession,possession:P1044,possession,Real wax print,possession named cloth,,,,alias:H5-36,
+seam_possession,possession:P1046,possession,Asante kente,possession named cloth,,,,alias:H3-23,
+seam_possession,possession:P1047,possession,Ewe kente,possession named cloth,,,,alias:H3-23,
+seam_possession,possession:P1049,possession,Real wax print,possession named cloth,,,,alias:H5-36,
+seam_possession,possession:P1058,possession,Harris Tweed,possession named cloth,,,,kind:H3-52/Centres,"Handwoven island tweed of the Outer Hebrides, woven at the weavers' homes and protected by the Harris Tweed Act 1993 · owned as Kilt (Possession A1)"

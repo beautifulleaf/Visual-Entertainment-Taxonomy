@@ -96,6 +96,8 @@ def see_with_links(see, items, cap=8):
         return see
     more = len(items) - cap
     tail = "; ".join(items[:cap]) + (f"; and {more} more" if more > 0 else "")
+    if see and not see.endswith((".", "!", "?")):
+        see += "."
     return (see + " " if see else "") + "Possession taxonomy: " + tail + "."
 
 
