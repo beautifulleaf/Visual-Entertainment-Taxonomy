@@ -1,0 +1,347 @@
+list_id,list_title,kind,url,n_entries,notes
+tspdt_starting_list,"Greatest Films Starting List (all films ranked, 2026 edition)",canon,https://theyshootpictures.com/gf1000_startinglist_table2.php,26551,"Full table (gf1000_startinglist_table.php links to _table2.php, one server-rendered page); genre/colour/full country joined from resources/StartingList.xls"
+tspdt_21st_starting_list,"21st Century Starting List (all films ranked, 2026 edition)",canon,https://theyshootpictures.com/21stcentury_startinglist_table2.php,13420,Full table (21stcentury_startinglist_table.php links to _table2.php); genre/colour/full country from resources/StartingList_21stCentury.xls
+tspdt_1000,"The 1,000 Greatest Films (2026 edition)",canon,https://theyshootpictures.com/gf1000_all1000films_table.php,1000,genre/colour from resources/1000GreatestFilms.xls
+tspdt_21st_century_1000,"The 21st Century's 1,000 Most Acclaimed Films (2026 edition)",canon,https://theyshootpictures.com/21stcentury_allfilms_table.php,1000,genre/colour from resources/21stCenturyFilms.xls
+tspdt_gf_ex1000,"Ex-1,000 Greatest Films (former place-getters)",other,https://theyshootpictures.com/gf1000_all1000films_ex1000.htm,569,"Unranked: films in earlier editions of the 1,000 GF but not the current one"
+tspdt_21st_ex1000,"21st Century Ex-1,000 (former place-getters)",other,https://theyshootpictures.com/21stcentury_extop1000.htm,631,Unranked: films in earlier 21st-century editions but not the current one
+tspdt_noir1000,"1,000 Noir Films",genre,https://theyshootpictures.com/noir1000.htm,1000,Unranked; from resources/Noir-Films.xlsx (Noir1000=Yes); same films as noir1000a-z / by title/director/year/country pages
+tspdt_more_noir,More Noir(ish) Films,genre,https://theyshootpictures.com/morenoir.htm,843,Unranked; from resources/Noir-Films.xlsx (Noir1000 blank); page says 842 films
+tspdt_poll_2026,"The 2026 TSPDT Poll (readers' favourite films, all films receiving votes)",poll,https://theyshootpictures.com/2026poll.htm,10900,From resources/2026_tspdt_poll_all_films.xlsx sheet '2026 poll'; pages 2026poll_top250 / _998-251 show the top 998
+tspdt_poll_2021,"2021 TSPDT Poll: 1,005 Film Favourites (all films receiving votes)",poll,https://theyshootpictures.com/2021poll.htm,5945,From resources/TSPDT-2021-Poll---All-Films.xlsx; ranks tie
+bss_a_list,"Beyond the Sight & Sound Canon: The A-List (1,030 films)",poll,https://theyshootpictures.com/beyondtheSScanon_A-List.htm,1030,Films with >=3 critics' votes and none in S&S 2022; from resources/BtheSSCanon_Master-List.xlsx
+bss_b_list,Beyond the Sight & Sound Canon: B-List (2022 releases),poll,https://theyshootpictures.com/beyondtheSScanon.htm,12,From resources/BtheSSCanon_Master-List.xlsx sheet B-List
+bss_2plus_votes,Beyond the Sight & Sound Canon: films with 2 votes,poll,https://theyshootpictures.com/beyondtheSScanon.htm,5736,From resources/BtheSSCanon_Master-List.xlsx sheet '2+ Votes'
+bss_orphans,Beyond the Sight & Sound Canon: orphans (single-vote films),poll,https://theyshootpictures.com/beyondtheSScanon.htm,7783,From resources/BtheSSCanon_Master-List.xlsx sheet Orphans
+bss_ballot_davide_abbatescianni,Beyond the S&S Canon ballot: Davide Abbatescianni,critic,https://theyshootpictures.com/beyondtheSScanon_criticsA.htm,24,"Film critic / Italy; chronological, unranked"
+bss_ballot_tim_abele,Beyond the S&S Canon ballot: Tim Abele,critic,https://theyshootpictures.com/beyondtheSScanon_criticsA.htm,31,"Film critic, scholar / Germany; chronological, unranked"
+bss_ballot_gulnara_abikeyeva,Beyond the S&S Canon ballot: Gulnara Abikeyeva,critic,https://theyshootpictures.com/beyondtheSScanon_criticsA.htm,45,"TV journalist, professor / Kazakhstan /; chronological, unranked"
+bss_ballot_luigi_abiusi,Beyond the S&S Canon ballot: Luigi Abiusi,critic,https://theyshootpictures.com/beyondtheSScanon_criticsA.htm,40,"Film critic / Italy; chronological, unranked"
+bss_ballot_jugu_abraham,Beyond the S&S Canon ballot: Jugu Abraham,critic,https://theyshootpictures.com/beyondtheSScanon_criticsA.htm,98,"Film critic / India; chronological, unranked"
+bss_ballot_simon_abrams,Beyond the S&S Canon ballot: Simon Abrams,critic,https://theyshootpictures.com/beyondtheSScanon_criticsA.htm,39,"Film critic / United States; chronological, unranked"
+bss_ballot_omnia_adel,Beyond the S&S Canon ballot: Omnia Adel,critic,https://theyshootpictures.com/beyondtheSScanon_criticsA.htm,100,"Film critic / Egypt; chronological, unranked"
+bss_ballot_alonso_aguilar,Beyond the S&S Canon ballot: Alonso Aguilar,critic,https://theyshootpictures.com/beyondtheSScanon_criticsA.htm,100,"Film critic / Costa Rica; chronological, unranked"
+bss_ballot_antti_alanen,Beyond the S&S Canon ballot: Antti Alanen,critic,https://theyshootpictures.com/beyondtheSScanon_criticsA.htm,115,"Film programmer / Finland /; chronological, unranked"
+bss_ballot_marco_albanese,Beyond the S&S Canon ballot: Marco Albanese,critic,https://theyshootpictures.com/beyondtheSScanon_criticsA.htm,82,"Film critic / Italy; chronological, unranked"
+bss_ballot_cem_altinsaray,Beyond the S&S Canon ballot: Cem Altinsaray,critic,https://theyshootpictures.com/beyondtheSScanon_criticsA.htm,60,"Film critic / Turkey; chronological, unranked"
+bss_ballot_cl_udio_alves,Beyond the S&S Canon ballot: Cláudio Alves,critic,https://theyshootpictures.com/beyondtheSScanon_criticsA.htm,97,"Film critic / Portugal; chronological, unranked"
+bss_ballot_jeffrey_m_anderson,Beyond the S&S Canon ballot: Jeffrey M. Anderson,critic,https://theyshootpictures.com/beyondtheSScanon_criticsA.htm,101,"Film critic / United States; chronological, unranked"
+bss_ballot_bruno_andrade,Beyond the S&S Canon ballot: Bruno Andrade,critic,https://theyshootpictures.com/beyondtheSScanon_criticsA.htm,100,"Film critic, editor / Brazil; chronological, unranked"
+bss_ballot_anders_annikas,Beyond the S&S Canon ballot: Anders Annikas,critic,https://theyshootpictures.com/beyondtheSScanon_criticsA.htm,81,"Editor, programmer / Sweden; chronological, unranked"
+bss_ballot_michael_atkinson,Beyond the S&S Canon ballot: Michael Atkinson,critic,https://theyshootpictures.com/beyondtheSScanon_criticsA.htm,102,"Film critic / United States /; chronological, unranked"
+bss_ballot_eddie_averill,Beyond the S&S Canon ballot: Eddie Averill,critic,https://theyshootpictures.com/beyondtheSScanon_criticsA.htm,10,"Podcaster, set dresser / United States /; chronological, unranked"
+bss_ballot_guillermo_balmori,Beyond the S&S Canon ballot: Guillermo Balmori,critic,https://theyshootpictures.com/beyondtheSScanon_criticsB.htm,70,"Author, film historian / Spain; chronological, unranked"
+bss_ballot_l_baltar,Beyond the S&S Canon ballot: Lé Baltar,critic,https://theyshootpictures.com/beyondtheSScanon_criticsB.htm,38,"Film critic / Philippines; chronological, unranked"
+bss_ballot_gabriele_barrera,Beyond the S&S Canon ballot: Gabriele Barrera,critic,https://theyshootpictures.com/beyondtheSScanon_criticsB.htm,10,"Film critic, teacher / Italy; chronological, unranked"
+bss_ballot_ruth_barton,Beyond the S&S Canon ballot: Ruth Barton,critic,https://theyshootpictures.com/beyondtheSScanon_criticsB.htm,10,"Professor / Ireland /; chronological, unranked"
+bss_ballot_david_bax,Beyond the S&S Canon ballot: David Bax,critic,https://theyshootpictures.com/beyondtheSScanon_criticsB.htm,84,"Film critic / United States; chronological, unranked"
+bss_ballot_ricardo_bedoya,Beyond the S&S Canon ballot: Ricardo Bedoya,critic,https://theyshootpictures.com/beyondtheSScanon_criticsB.htm,100,"Film critic / Peru; chronological, unranked"
+bss_ballot_andreas_beilharz,Beyond the S&S Canon ballot: Andreas Beilharz,critic,https://theyshootpictures.com/beyondtheSScanon_criticsB.htm,99,"Programmer / Germany /; chronological, unranked"
+bss_ballot_melanie_bell,Beyond the S&S Canon ballot: Melanie Bell,critic,https://theyshootpictures.com/beyondtheSScanon_criticsB.htm,17,"Professor / United Kingdom; chronological, unranked"
+bss_ballot_william_bibbiani,Beyond the S&S Canon ballot: William Bibbiani,critic,https://theyshootpictures.com/beyondtheSScanon_criticsB.htm,100,"Film critic / United States; chronological, unranked"
+bss_ballot_michael_bo,Beyond the S&S Canon ballot: Michael Bo,critic,https://theyshootpictures.com/beyondtheSScanon_criticsB.htm,44,"Film critic / Denmark; chronological, unranked"
+bss_ballot_andrea_bosco,Beyond the S&S Canon ballot: Andrea Bosco,critic,https://theyshootpictures.com/beyondtheSScanon_criticsB.htm,100,"Film critic / Italy; chronological, unranked"
+bss_ballot_nandana_bose,Beyond the S&S Canon ballot: Nandana Bose,critic,https://theyshootpictures.com/beyondtheSScanon_criticsB.htm,7,"Film scholar, educator / India /; chronological, unranked"
+bss_ballot_mark_bould,Beyond the S&S Canon ballot: Mark Bould,critic,https://theyshootpictures.com/beyondtheSScanon_criticsB.htm,100,"Professor / United Kingdom; chronological, unranked"
+bss_ballot_tara_brady,Beyond the S&S Canon ballot: Tara Brady,critic,https://theyshootpictures.com/beyondtheSScanon_criticsB.htm,40,"Film critic / Ireland /; chronological, unranked"
+bss_ballot_thomas_brandlmeier,Beyond the S&S Canon ballot: Thomas Brandlmeier,critic,https://theyshootpictures.com/beyondtheSScanon_criticsB.htm,115,"Film scholar / Germany; chronological, unranked"
+bss_ballot_alex_brannan,Beyond the S&S Canon ballot: Alex Brannan,critic,https://theyshootpictures.com/beyondtheSScanon_criticsB.htm,100,"Film critic / United States; chronological, unranked"
+bss_ballot_lvaro_bretal,Beyond the S&S Canon ballot: Álvaro Bretal,critic,https://theyshootpictures.com/beyondtheSScanon_criticsB.htm,64,"Film critic, editor, teacher / Argentina; chronological, unranked"
+bss_ballot_chris_broodryk,Beyond the S&S Canon ballot: Chris Broodryk,critic,https://theyshootpictures.com/beyondtheSScanon_criticsB.htm,78,"Professor / South Africa; chronological, unranked"
+bss_ballot_jos_carlos_cabrejo,Beyond the S&S Canon ballot: José Carlos Cabrejo,critic,https://theyshootpictures.com/beyondtheSScanon_criticsC.htm,100,"Film critic, editor / Peru; chronological, unranked"
+bss_ballot_david_cairns,Beyond the S&S Canon ballot: David Cairns,critic,https://theyshootpictures.com/beyondtheSScanon_criticsC.htm,3,"Film director, critic / United Kingdom /; chronological, unranked"
+bss_ballot_forrest_cardamenis,Beyond the S&S Canon ballot: Forrest Cardamenis,critic,https://theyshootpictures.com/beyondtheSScanon_criticsC.htm,32,"Freelance critic / United States /; chronological, unranked"
+bss_ballot_per_juul_carlsen,Beyond the S&S Canon ballot: Per Juul Carlsen,critic,https://theyshootpictures.com/beyondtheSScanon_criticsC.htm,3,"Radio-TV host, film critic / Denmark /; chronological, unranked"
+bss_ballot_nicol_s_carrasco,Beyond the S&S Canon ballot: Nicolás Carrasco,critic,https://theyshootpictures.com/beyondtheSScanon_criticsC.htm,100,"Film critic, programmer, producer / Peru; chronological, unranked"
+bss_ballot_massimo_causo,Beyond the S&S Canon ballot: Massimo Causo,critic,https://theyshootpictures.com/beyondtheSScanon_criticsC.htm,101,"Film critic, programmer / Italy /; chronological, unranked"
+bss_ballot_ciara_chambers,Beyond the S&S Canon ballot: Ciara Chambers,critic,https://theyshootpictures.com/beyondtheSScanon_criticsC.htm,23,"Lecturer, author / Ireland; chronological, unranked"
+bss_ballot_andrea_chase,Beyond the S&S Canon ballot: Andrea Chase,critic,https://theyshootpictures.com/beyondtheSScanon_criticsC.htm,5,"Film critic / United States; chronological, unranked"
+bss_ballot_roberto_chiesi,Beyond the S&S Canon ballot: Roberto Chiesi,critic,https://theyshootpictures.com/beyondtheSScanon_criticsC.htm,100,"Film critic / Italy; chronological, unranked"
+bss_ballot_erik_childress,Beyond the S&S Canon ballot: Erik Childress,critic,https://theyshootpictures.com/beyondtheSScanon_criticsC.htm,85,"Film critic / United States; chronological, unranked"
+bss_ballot_daryl_chin,Beyond the S&S Canon ballot: Daryl Chin,critic,https://theyshootpictures.com/beyondtheSScanon_criticsC.htm,16,"Film critic, producer / United States; chronological, unranked"
+bss_ballot_peter_claus,Beyond the S&S Canon ballot: Peter Claus,critic,https://theyshootpictures.com/beyondtheSScanon_criticsC.htm,2,"Film critic / Germany; chronological, unranked"
+bss_ballot_rich_cline,Beyond the S&S Canon ballot: Rich Cline,critic,https://theyshootpictures.com/beyondtheSScanon_criticsC.htm,62,"Chair of the London Film Critics' Circle / United Kingdom /; chronological, unranked"
+bss_ballot_steve_collins,Beyond the S&S Canon ballot: Steve Collins,critic,https://theyshootpictures.com/beyondtheSScanon_criticsC.htm,15,"Professor, filmmaker / United States; chronological, unranked"
+bss_ballot_philip_concannon,Beyond the S&S Canon ballot: Philip Concannon,critic,https://theyshootpictures.com/beyondtheSScanon_criticsC.htm,93,"Critic / United Kingdom /; chronological, unranked"
+bss_ballot_jes_s_cort_s,Beyond the S&S Canon ballot: Jesús Cortés,critic,https://theyshootpictures.com/beyondtheSScanon_criticsC.htm,102,"Film critic / Spain /; chronological, unranked"
+bss_ballot_roberto_cotta,Beyond the S&S Canon ballot: Roberto Cotta,critic,https://theyshootpictures.com/beyondtheSScanon_criticsC.htm,7,"Film critic, professor / Brazil; chronological, unranked"
+bss_ballot_andrei_cretulescu,Beyond the S&S Canon ballot: Andrei Cretulescu,critic,https://theyshootpictures.com/beyondtheSScanon_criticsC.htm,29,"Film critic, producer / Romania; chronological, unranked"
+bss_ballot_codruta_cretulescu,Beyond the S&S Canon ballot: Codruta Cretulescu,critic,https://theyshootpictures.com/beyondtheSScanon_criticsC.htm,50,"Film critic, producer / Romania; chronological, unranked"
+bss_ballot_ron_cruz,Beyond the S&S Canon ballot: Ron Cruz,critic,https://theyshootpictures.com/beyondtheSScanon_criticsC.htm,98,"Film critic / Philippines; chronological, unranked"
+bss_ballot_robert_cumbow,Beyond the S&S Canon ballot: Robert Cumbow,critic,https://theyshootpictures.com/beyondtheSScanon_criticsC.htm,34,"Author / United States; chronological, unranked"
+bss_ballot_mike_d_angelo,Beyond the S&S Canon ballot: Mike D'Angelo,critic,https://theyshootpictures.com/beyondtheSScanon_criticsD.htm,100,"Film critic / United States /; chronological, unranked"
+bss_ballot_adrian_danks,Beyond the S&S Canon ballot: Adrian Danks,critic,https://theyshootpictures.com/beyondtheSScanon_criticsD.htm,99,"Associate professor, curator / Australia /; chronological, unranked"
+bss_ballot_louis_jean_decazes,Beyond the S&S Canon ballot: Louis-Jean Decazes,critic,https://theyshootpictures.com/beyondtheSScanon_criticsD.htm,102,"Programmer / Canada; chronological, unranked"
+bss_ballot_maria_delgado,Beyond the S&S Canon ballot: Maria Delgado,critic,https://theyshootpictures.com/beyondtheSScanon_criticsD.htm,18,"Academic, critic / United Kingdom /; chronological, unranked"
+bss_ballot_j_r_me_d_estais,Beyond the S&S Canon ballot: Jérôme d'Estais,critic,https://theyshootpictures.com/beyondtheSScanon_criticsD.htm,89,"Film critic, author / France; chronological, unranked"
+bss_ballot_tim_dirks,Beyond the S&S Canon ballot: Tim Dirks,critic,https://theyshootpictures.com/beyondtheSScanon_criticsD.htm,54,"Film critic / United States; chronological, unranked"
+bss_ballot_thomas_doherty,Beyond the S&S Canon ballot: Thomas Doherty,critic,https://theyshootpictures.com/beyondtheSScanon_criticsD.htm,4,"Professor / United States /; chronological, unranked"
+bss_ballot_daniel_dom_nguez,Beyond the S&S Canon ballot: Daniel Domínguez,critic,https://theyshootpictures.com/beyondtheSScanon_criticsD.htm,100,"Film critic / Panama; chronological, unranked"
+bss_ballot_jos_andr_s_dulce,Beyond the S&S Canon ballot: José Andrés Dulce,critic,https://theyshootpictures.com/beyondtheSScanon_criticsD.htm,102,"Film critic, author / Spain; chronological, unranked"
+bss_ballot_elena_dulgheru,Beyond the S&S Canon ballot: Elena Dulgheru,critic,https://theyshootpictures.com/beyondtheSScanon_criticsD.htm,11,"Film critic / Romania; chronological, unranked"
+bss_ballot_dana_duma,Beyond the S&S Canon ballot: Dana Duma,critic,https://theyshootpictures.com/beyondtheSScanon_criticsD.htm,11,"Film critic / Romania; chronological, unranked"
+bss_ballot_juliette_duret,Beyond the S&S Canon ballot: Juliette Duret,critic,https://theyshootpictures.com/beyondtheSScanon_criticsD.htm,2,"Film curator / Belgium; chronological, unranked"
+bss_ballot_ray_edmonson,Beyond the S&S Canon ballot: Ray Edmonson,critic,https://theyshootpictures.com/beyondtheSScanon_criticsE-F.htm,5,"Curator / Australia; chronological, unranked"
+bss_ballot_leen_engelen,Beyond the S&S Canon ballot: Leen Engelen,critic,https://theyshootpictures.com/beyondtheSScanon_criticsE-F.htm,2,"Film and media historian / Belgium; chronological, unranked"
+bss_ballot_paul_enicola,Beyond the S&S Canon ballot: Paul Enicola,critic,https://theyshootpictures.com/beyondtheSScanon_criticsE-F.htm,50,"Film critic / Philippines; chronological, unranked"
+bss_ballot_steve_erickson,Beyond the S&S Canon ballot: Steve Erickson,critic,https://theyshootpictures.com/beyondtheSScanon_criticsE-F.htm,100,"Film critic / United States; chronological, unranked"
+bss_ballot_joseph_fahim,Beyond the S&S Canon ballot: Joseph Fahim,critic,https://theyshootpictures.com/beyondtheSScanon_criticsE-F.htm,95,"Film critic, programmer / Egypt /; chronological, unranked"
+bss_ballot_nicola_falcinella,Beyond the S&S Canon ballot: Nicola Falcinella,critic,https://theyshootpictures.com/beyondtheSScanon_criticsE-F.htm,100,"Film critic, programmer / Italy; chronological, unranked"
+bss_ballot_gian_luca_farinelli,Beyond the S&S Canon ballot: Gian Luca Farinelli,critic,https://theyshootpictures.com/beyondtheSScanon_criticsE-F.htm,35,"Director - Fondazione Cinetica di Bologna / Italy /; chronological, unranked"
+bss_ballot_marilyn_ferdinand,Beyond the S&S Canon ballot: Marilyn Ferdinand,critic,https://theyshootpictures.com/beyondtheSScanon_criticsE-F.htm,98,"Film critic / United States; chronological, unranked"
+bss_ballot_adriana_fern_ndez,Beyond the S&S Canon ballot: Adriana Fernández,critic,https://theyshootpictures.com/beyondtheSScanon_criticsE-F.htm,21,"Film critic / Mexico; chronological, unranked"
+bss_ballot_lukas_foerster,Beyond the S&S Canon ballot: Lukas Foerster,critic,https://theyshootpictures.com/beyondtheSScanon_criticsE-F.htm,100,"Writer / Germany /; chronological, unranked"
+bss_ballot_ignasi_franch,Beyond the S&S Canon ballot: Ignasi Franch,critic,https://theyshootpictures.com/beyondtheSScanon_criticsE-F.htm,20,"Film critic / Spain; chronological, unranked"
+bss_ballot_david_francis,Beyond the S&S Canon ballot: David Francis,critic,https://theyshootpictures.com/beyondtheSScanon_criticsE-F.htm,16,"Film archivist / United Kingdom; chronological, unranked"
+bss_ballot_giampiero_frasca,Beyond the S&S Canon ballot: Giampiero Frasca,critic,https://theyshootpictures.com/beyondtheSScanon_criticsE-F.htm,45,"Film critic / Italy; chronological, unranked"
+bss_ballot_cynthia_fuchs,Beyond the S&S Canon ballot: Cynthia Fuchs,critic,https://theyshootpictures.com/beyondtheSScanon_criticsE-F.htm,38,"Professor / United States; chronological, unranked"
+bss_ballot_kosuke_fujiki,Beyond the S&S Canon ballot: Kosuke Fujiki,critic,https://theyshootpictures.com/beyondtheSScanon_criticsE-F.htm,100,"Programmer / Japan; chronological, unranked"
+bss_ballot_soham_gadre,Beyond the S&S Canon ballot: Soham Gadre,critic,https://theyshootpictures.com/beyondtheSScanon_criticsG.htm,22,"Film critic / United States /; chronological, unranked"
+bss_ballot_santiago_gallego,Beyond the S&S Canon ballot: Santiago Gallego,critic,https://theyshootpictures.com/beyondtheSScanon_criticsG.htm,101,"Critic / Spain /; chronological, unranked"
+bss_ballot_jes_s_garc_a_c_vico,Beyond the S&S Canon ballot: Jesús García Cívico,critic,https://theyshootpictures.com/beyondtheSScanon_criticsG.htm,9,"Film critic / Spain; chronological, unranked"
+bss_ballot_bill_georgaris,Beyond the S&S Canon ballot: Bill Georgaris,critic,https://theyshootpictures.com/beyondtheSScanon_criticsG.htm,100,"Poll host / Australia /; chronological, unranked"
+bss_ballot_martin_gignac,Beyond the S&S Canon ballot: Martin Gignac,critic,https://theyshootpictures.com/beyondtheSScanon_criticsG.htm,14,"Film critic / Canada; chronological, unranked"
+bss_ballot_sean_gilman,Beyond the S&S Canon ballot: Sean Gilman,critic,https://theyshootpictures.com/beyondtheSScanon_criticsG.htm,97,"Critic / United States /; chronological, unranked"
+bss_ballot_valentina_giraldo_s_nchez,Beyond the S&S Canon ballot: Valentina Giraldo Sánchez,critic,https://theyshootpictures.com/beyondtheSScanon_criticsG.htm,6,"Film critic, curator / Colombia; chronological, unranked"
+bss_ballot_beat_glur,Beyond the S&S Canon ballot: Beat Glur,critic,https://theyshootpictures.com/beyondtheSScanon_criticsG.htm,1,"Film critic / Switzerland; chronological, unranked"
+bss_ballot_arlin_golden,Beyond the S&S Canon ballot: Arlin Golden,critic,https://theyshootpictures.com/beyondtheSScanon_criticsG.htm,97,"Podcaster, Director & programmer - Drunken Film Fest Oakland / United States /; chronological, unranked"
+bss_ballot_a_j_goldmann,Beyond the S&S Canon ballot: A.J. Goldmann,critic,https://theyshootpictures.com/beyondtheSScanon_criticsG.htm,73,"Arts journalist, writer, photographer / Germany; chronological, unranked"
+bss_ballot_hugo_gomes,Beyond the S&S Canon ballot: Hugo Gomes,critic,https://theyshootpictures.com/beyondtheSScanon_criticsG.htm,92,"Film critic / Portugal; chronological, unranked"
+bss_ballot_ngel_gonz_lez,Beyond the S&S Canon ballot: Ángel González,critic,https://theyshootpictures.com/beyondtheSScanon_criticsG.htm,100,"Poll host / Spain; chronological, unranked"
+bss_ballot_jan_g_ransson,Beyond the S&S Canon ballot: Jan Göransson,critic,https://theyshootpictures.com/beyondtheSScanon_criticsG.htm,17,"Head of Press - Swedish Film Institute / Sweden /; chronological, unranked"
+bss_ballot_karola_gramann,Beyond the S&S Canon ballot: Karola Gramann,critic,https://theyshootpictures.com/beyondtheSScanon_criticsG.htm,4,"Film curator, programmer / Germany; chronological, unranked"
+bss_ballot_lucas_granero,Beyond the S&S Canon ballot: Lucas Granero,critic,https://theyshootpictures.com/beyondtheSScanon_criticsG.htm,82,"Film critic / Argentina /; chronological, unranked"
+bss_ballot_rafael_grillo,Beyond the S&S Canon ballot: Rafael Grillo,critic,https://theyshootpictures.com/beyondtheSScanon_criticsG.htm,8,"Film critic, writer, editor / Cuba; chronological, unranked"
+bss_ballot_aijaz_gul,Beyond the S&S Canon ballot: Aijaz Gul,critic,https://theyshootpictures.com/beyondtheSScanon_criticsG.htm,31,"Film critic / Pakistan; chronological, unranked"
+bss_ballot_winfried_g_nther,Beyond the S&S Canon ballot: Winfried Günther,critic,https://theyshootpictures.com/beyondtheSScanon_criticsG.htm,61,"Film critic, programmer / Germany; chronological, unranked"
+bss_ballot_selin_g_rel,Beyond the S&S Canon ballot: Selin Gürel,critic,https://theyshootpictures.com/beyondtheSScanon_criticsG.htm,99,"Film critic / Turkey; chronological, unranked"
+bss_ballot_christiane_habich,Beyond the S&S Canon ballot: Christiane Habich,critic,https://theyshootpictures.com/beyondtheSScanon_criticsH.htm,55,"Film historian / Germany; chronological, unranked"
+bss_ballot_marc_hairapetian,Beyond the S&S Canon ballot: Marc Hairapetian,critic,https://theyshootpictures.com/beyondtheSScanon_criticsH.htm,100,"Film critic / Germany; chronological, unranked"
+bss_ballot_julian_hanich,Beyond the S&S Canon ballot: Julian Hanich,critic,https://theyshootpictures.com/beyondtheSScanon_criticsH.htm,29,"Associate professor, film critic / Netherlands /; chronological, unranked"
+bss_ballot_claudia_hauter,Beyond the S&S Canon ballot: Claudia Hauter,critic,https://theyshootpictures.com/beyondtheSScanon_criticsH.htm,12,"Film critic, writer / South Africa; chronological, unranked"
+bss_ballot_vinzenz_hediger,Beyond the S&S Canon ballot: Vinzenz Hediger,critic,https://theyshootpictures.com/beyondtheSScanon_criticsH.htm,71,"Professor / Germany /; chronological, unranked"
+bss_ballot_alex_heeney,Beyond the S&S Canon ballot: Alex Heeney,critic,https://theyshootpictures.com/beyondtheSScanon_criticsH.htm,102,"Film critic / Canada; chronological, unranked"
+bss_ballot_eric_henderson,Beyond the S&S Canon ballot: Eric Henderson,critic,https://theyshootpictures.com/beyondtheSScanon_criticsH.htm,79,"Critic / United States /; chronological, unranked"
+bss_ballot_david_heslin,Beyond the S&S Canon ballot: David Heslin,critic,https://theyshootpictures.com/beyondtheSScanon_criticsH.htm,100,"Editor / Australia /; chronological, unranked"
+bss_ballot_kyoko_hirano,Beyond the S&S Canon ballot: Kyoko Hirano,critic,https://theyshootpictures.com/beyondtheSScanon_criticsH.htm,38,"Film historian / Japan; chronological, unranked"
+bss_ballot_sven_hollebeke,Beyond the S&S Canon ballot: Sven Hollebeke,critic,https://theyshootpictures.com/beyondtheSScanon_criticsH.htm,28,"Film critic / Belgium; chronological, unranked"
+bss_ballot_hong_joon_kim,Beyond the S&S Canon ballot: Hong-Joon Kim,critic,https://theyshootpictures.com/beyondtheSScanon_criticsH.htm,17,"Curator, professor, author, filmmaker / South Korea; chronological, unranked"
+bss_ballot_rasha_hosny,Beyond the S&S Canon ballot: Rasha Hosny,critic,https://theyshootpictures.com/beyondtheSScanon_criticsH.htm,15,"Film critic, programmer, script editor, producer / Egypt; chronological, unranked"
+bss_ballot_peter_howell,Beyond the S&S Canon ballot: Peter Howell,critic,https://theyshootpictures.com/beyondtheSScanon_criticsH.htm,9,"Movie critic / Canada /; chronological, unranked"
+bss_ballot_brian_hu,Beyond the S&S Canon ballot: Brian Hu,critic,https://theyshootpictures.com/beyondtheSScanon_criticsH.htm,11,"Associate professor, Artistic director - San Diego Asian Film Festival / United States /; chronological, unranked"
+bss_ballot_thomas_hunziker,Beyond the S&S Canon ballot: Thomas Hunziker,critic,https://theyshootpictures.com/beyondtheSScanon_criticsH.htm,30,"Film critic / Switzerland; chronological, unranked"
+bss_ballot_reza_husseini,Beyond the S&S Canon ballot: Reza Husseini,critic,https://theyshootpictures.com/beyondtheSScanon_criticsH.htm,100,"Film critic / Iran; chronological, unranked"
+bss_ballot_stanislas_ide,Beyond the S&S Canon ballot: Stanislas Ide,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,100,"Film journalist / Belgium; chronological, unranked"
+bss_ballot_alexander_jacoby,Beyond the S&S Canon ballot: Alexander Jacoby,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,20,"Scholar, programmer, author / United Kingdom; chronological, unranked"
+bss_ballot_marijana_jakovljevi,Beyond the S&S Canon ballot: Marijana Jakovljević,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,49,"Film critic / Croatia; chronological, unranked"
+bss_ballot_richard_t_jameson,Beyond the S&S Canon ballot: Richard T. Jameson,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,100,"Film critic / United States; chronological, unranked"
+bss_ballot_maryann_johanson,Beyond the S&S Canon ballot: MaryAnn Johanson,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,34,"Film critic / United States; chronological, unranked"
+bss_ballot_amirata_joolaee,Beyond the S&S Canon ballot: Amirata Joolaee,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,10,"Film critic / Iran; chronological, unranked"
+bss_ballot_fernando_e_juan_lima,Beyond the S&S Canon ballot: Fernando E. Juan Lima,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,100,"Film critic / Argentina; chronological, unranked"
+bss_ballot_till_kadritzke,Beyond the S&S Canon ballot: Till Kadritzke,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,24,"Film critic / Germany; chronological, unranked"
+bss_ballot_theodore_karamanolis,Beyond the S&S Canon ballot: Theodore Karamanolis,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,84,"Film curator, programmer / Greece; chronological, unranked"
+bss_ballot_laurence_kardish,Beyond the S&S Canon ballot: Laurence Kardish,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,53,"Film curator / United States; chronological, unranked"
+bss_ballot_tonu_karjatse,Beyond the S&S Canon ballot: Tonu Karjatse,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,27,"Film critic / Estonia; chronological, unranked"
+bss_ballot_jennie_kermode,Beyond the S&S Canon ballot: Jennie Kermode,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,81,"Content director / United Kingdom /; chronological, unranked"
+bss_ballot_arash_khoshkhou,Beyond the S&S Canon ballot: Arash Khoshkhou,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,12,"Film critic / Iran; chronological, unranked"
+bss_ballot_j_rgen_kiontke,Beyond the S&S Canon ballot: Jürgen Kiontke,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,18,"Film critic / Germany; chronological, unranked"
+bss_ballot_piotr_kletowski,Beyond the S&S Canon ballot: Piotr Kletowski,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,142,"Film critic, author / Poland; chronological, unranked"
+bss_ballot_gertrud_koch,Beyond the S&S Canon ballot: Gertrud Koch,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,8,"Professor / Germany; chronological, unranked"
+bss_ballot_brian_koller,Beyond the S&S Canon ballot: Brian Koller,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,100,"Film critic / United States; chronological, unranked"
+bss_ballot_daniel_kothenschulte,Beyond the S&S Canon ballot: Daniel Kothenschulte,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,69,"Film critic, author / Germany /; chronological, unranked"
+bss_ballot_panos_kotzathanasis,Beyond the S&S Canon ballot: Panos Kotzathanasis,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,10,"Film critic / Greece; chronological, unranked"
+bss_ballot_alicia_kozma,Beyond the S&S Canon ballot: Alicia Kozma,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,18,"Professor, programmer / United States; chronological, unranked"
+bss_ballot_gary_m_kramer,Beyond the S&S Canon ballot: Gary M. Kramer,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,24,"Film critic, writer / United States; chronological, unranked"
+bss_ballot_peter_kramer,Beyond the S&S Canon ballot: Peter Kramer,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,100,"Film studies researcher & teacher / United Kingdom; chronological, unranked"
+bss_ballot_peter_kremski,Beyond the S&S Canon ballot: Peter Kremski,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,29,"Film critic / Germany; chronological, unranked"
+bss_ballot_jan_k_ipa,Beyond the S&S Canon ballot: Jan Křipač,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,29,"Film critic / Czech Republic; chronological, unranked"
+bss_ballot_sergey_v_kudryavtsev,Beyond the S&S Canon ballot: Sergey V. Kudryavtsev,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,98,"Film critic / Russia; chronological, unranked"
+bss_ballot_blagoja_kunovski,Beyond the S&S Canon ballot: Blagoja Kunovski,critic,https://theyshootpictures.com/beyondtheSScanon_criticsI-K.htm,4,"Film critic / North Macedonia /; chronological, unranked"
+bss_ballot_skilty_labastilla,Beyond the S&S Canon ballot: Skilty Labastilla,critic,https://theyshootpictures.com/beyondtheSScanon_criticsL.htm,93,"Film critic / Philippines; chronological, unranked"
+bss_ballot_peter_labuza,Beyond the S&S Canon ballot: Peter Labuza,critic,https://theyshootpictures.com/beyondtheSScanon_criticsL.htm,49,"Researcher - International Cinematographers Guild / United States /; chronological, unranked"
+bss_ballot_jim_laczkowski,Beyond the S&S Canon ballot: Jim Laczkowski,critic,https://theyshootpictures.com/beyondtheSScanon_criticsL.htm,95,"Film critic / United States; chronological, unranked"
+bss_ballot_shubhajit_lahiri,Beyond the S&S Canon ballot: Shubhajit Lahiri,critic,https://theyshootpictures.com/beyondtheSScanon_criticsL.htm,100,"Film critic / India; chronological, unranked"
+bss_ballot_nicol_latayan,Beyond the S&S Canon ballot: Nicol Latayan,critic,https://theyshootpictures.com/beyondtheSScanon_criticsL.htm,96,"Film critic / Philippines; chronological, unranked"
+bss_ballot_lee_hyunjae,Beyond the S&S Canon ballot: Lee Hyunjae,critic,https://theyshootpictures.com/beyondtheSScanon_criticsL.htm,34,"Film critic, researcher / South Korea; chronological, unranked"
+bss_ballot_ofer_liebergall,Beyond the S&S Canon ballot: Ofer Liebergall,critic,https://theyshootpictures.com/beyondtheSScanon_criticsL.htm,100,"Film critic / Israel; chronological, unranked"
+bss_ballot_kristian_lin,Beyond the S&S Canon ballot: Kristian Lin,critic,https://theyshootpictures.com/beyondtheSScanon_criticsL.htm,100,"Film critic / United States; chronological, unranked"
+bss_ballot_sebastian_lindvall,Beyond the S&S Canon ballot: Sebastian Lindvall,critic,https://theyshootpictures.com/beyondtheSScanon_criticsL.htm,10,"Curator, film critic / Sweden /; chronological, unranked"
+bss_ballot_stephen_locke,Beyond the S&S Canon ballot: Stephen Locke,critic,https://theyshootpictures.com/beyondtheSScanon_criticsL.htm,4,"Film critic / Germany; chronological, unranked"
+bss_ballot_enoe_lopes_pontes,Beyond the S&S Canon ballot: Enoe Lopes Pontes,critic,https://theyshootpictures.com/beyondtheSScanon_criticsL.htm,28,"Film critic / Brazil; chronological, unranked"
+bss_ballot_gregory_lukow,Beyond the S&S Canon ballot: Gregory Lukow,critic,https://theyshootpictures.com/beyondtheSScanon_criticsL.htm,20,"Film curator / United States; chronological, unranked"
+bss_ballot_john_mackay,Beyond the S&S Canon ballot: John MacKay,critic,https://theyshootpictures.com/beyondtheSScanon_criticsM.htm,4,"Professor / United States; chronological, unranked"
+bss_ballot_tony_macklin,Beyond the S&S Canon ballot: Tony Macklin,critic,https://theyshootpictures.com/beyondtheSScanon_criticsM.htm,15,"Film critic / United States; chronological, unranked"
+bss_ballot_willow_catelyn_maclay,Beyond the S&S Canon ballot: Willow Catelyn Maclay,critic,https://theyshootpictures.com/beyondtheSScanon_criticsM.htm,70,"Film critic / Canada /; chronological, unranked"
+bss_ballot_let_cia_magalh_es,Beyond the S&S Canon ballot: Letícia Magalhães,critic,https://theyshootpictures.com/beyondtheSScanon_criticsM.htm,9,"Film critic, historian / Brazil; chronological, unranked"
+bss_ballot_lukasz_mankowski,Beyond the S&S Canon ballot: Lukasz Mankowski,critic,https://theyshootpictures.com/beyondtheSScanon_criticsM.htm,33,"Film critic, programmer, academic / Poland /; chronological, unranked"
+bss_ballot_miguel_mar_as,Beyond the S&S Canon ballot: Miguel Marías,critic,https://theyshootpictures.com/beyondtheSScanon_criticsM.htm,35,"Film critic / Spain; chronological, unranked"
+bss_ballot_elli_mastorou,Beyond the S&S Canon ballot: Elli Mastorou,critic,https://theyshootpictures.com/beyondtheSScanon_criticsM.htm,3,"Film critic / Belgium; chronological, unranked"
+bss_ballot_michael_mcdonnell,Beyond the S&S Canon ballot: Michael McDonnell,critic,https://theyshootpictures.com/beyondtheSScanon_criticsM.htm,101,"Programmer / New Zealand; chronological, unranked"
+bss_ballot_joseph_mcelhaney,Beyond the S&S Canon ballot: Joseph McElhaney,critic,https://theyshootpictures.com/beyondtheSScanon_criticsM.htm,100,"Author / United States; chronological, unranked"
+bss_ballot_paolo_mereghetti,Beyond the S&S Canon ballot: Paolo Mereghetti,critic,https://theyshootpictures.com/beyondtheSScanon_criticsM.htm,21,"Critic / Italy /; chronological, unranked"
+bss_ballot_david_n_meyer,Beyond the S&S Canon ballot: David N. Meyer,critic,https://theyshootpictures.com/beyondtheSScanon_criticsM.htm,100,"Author, film critic / United States; chronological, unranked"
+bss_ballot_hind_mezaina,Beyond the S&S Canon ballot: Hind Mezaina,critic,https://theyshootpictures.com/beyondtheSScanon_criticsM.htm,19,"Film curator-programmer, writer / United Arab Emirates /; chronological, unranked"
+bss_ballot_simon_miraudo,Beyond the S&S Canon ballot: Simon Miraudo,critic,https://theyshootpictures.com/beyondtheSScanon_criticsM.htm,23,"Film critic, author / Australia; chronological, unranked"
+bss_ballot_jared_mobarak,Beyond the S&S Canon ballot: Jared Mobarak,critic,https://theyshootpictures.com/beyondtheSScanon_criticsM.htm,90,"Film critic / United States; chronological, unranked"
+bss_ballot_olaf_m_ller,Beyond the S&S Canon ballot: Olaf Möller,critic,https://theyshootpictures.com/beyondtheSScanon_criticsM.htm,101,"Critic, programmer / Germany /; chronological, unranked"
+bss_ballot_missy_molloy,Beyond the S&S Canon ballot: Missy Molloy,critic,https://theyshootpictures.com/beyondtheSScanon_criticsM.htm,1,"Lecturer / New Zealand; chronological, unranked"
+bss_ballot_claire_monk,Beyond the S&S Canon ballot: Claire Monk,critic,https://theyshootpictures.com/beyondtheSScanon_criticsM.htm,100,"Professor / United Kingdom /; chronological, unranked"
+bss_ballot_sergio_moreira,Beyond the S&S Canon ballot: Sergio Moreira,critic,https://theyshootpictures.com/beyondtheSScanon_criticsM.htm,70,"Film critic / Uruguay; chronological, unranked"
+bss_ballot_michel_mourlet,Beyond the S&S Canon ballot: Michel Mourlet,critic,https://theyshootpictures.com/beyondtheSScanon_criticsM.htm,43,"Film critic / France; chronological, unranked"
+bss_ballot_p_ter_muszatics,Beyond the S&S Canon ballot: Péter Muszatics,critic,https://theyshootpictures.com/beyondtheSScanon_criticsM.htm,9,"Curator / Hungary /; chronological, unranked"
+bss_ballot_lucia_nagib,Beyond the S&S Canon ballot: Lucia Nagib,critic,https://theyshootpictures.com/beyondtheSScanon_criticsN-O.htm,39,"Professor / United Kingdom /; chronological, unranked"
+bss_ballot_rachid_naim,Beyond the S&S Canon ballot: Rachid Naim,critic,https://theyshootpictures.com/beyondtheSScanon_criticsN-O.htm,22,"Film critic / Morocco; chronological, unranked"
+bss_ballot_mario_naito,Beyond the S&S Canon ballot: Mario Naito,critic,https://theyshootpictures.com/beyondtheSScanon_criticsN-O.htm,96,"Film critic / Cuba; chronological, unranked"
+bss_ballot_nam_dong_chul,Beyond the S&S Canon ballot: Nam Dong-chul,critic,https://theyshootpictures.com/beyondtheSScanon_criticsN-O.htm,7,"Programmer / South Korea; chronological, unranked"
+bss_ballot_nguy_n_l,Beyond the S&S Canon ballot: Nguyên Lê,critic,https://theyshootpictures.com/beyondtheSScanon_criticsN-O.htm,8,"Film critic / Vietnam; chronological, unranked"
+bss_ballot_bill_nichols,Beyond the S&S Canon ballot: Bill Nichols,critic,https://theyshootpictures.com/beyondtheSScanon_criticsN-O.htm,1,"Author, professor / United States /; chronological, unranked"
+bss_ballot_will_noah,Beyond the S&S Canon ballot: Will Noah,critic,https://theyshootpictures.com/beyondtheSScanon_criticsN-O.htm,56,"Channel editor / United Kingdom /; chronological, unranked"
+bss_ballot_marius_nobach,Beyond the S&S Canon ballot: Marius Nobach,critic,https://theyshootpictures.com/beyondtheSScanon_criticsN-O.htm,32,"Film critic / Germany; chronological, unranked"
+bss_ballot_markus_nornes,Beyond the S&S Canon ballot: Markus Nornes,critic,https://theyshootpictures.com/beyondtheSScanon_criticsN-O.htm,12,"Professor / United States /; chronological, unranked"
+bss_ballot_kasandra_o_connell,Beyond the S&S Canon ballot: Kasandra O'Connell,critic,https://theyshootpictures.com/beyondtheSScanon_criticsN-O.htm,34,"Film archivist / Ireland; chronological, unranked"
+bss_ballot_hisashi_okajima,Beyond the S&S Canon ballot: Hisashi Okajima,critic,https://theyshootpictures.com/beyondtheSScanon_criticsN-O.htm,93,"Film historian / Japan; chronological, unranked"
+bss_ballot_alan_o_leary,Beyond the S&S Canon ballot: Alan O'Leary,critic,https://theyshootpictures.com/beyondtheSScanon_criticsN-O.htm,8,"Professor / Denmark; chronological, unranked"
+bss_ballot_mercedes_orden,Beyond the S&S Canon ballot: Mercedes Orden,critic,https://theyshootpictures.com/beyondtheSScanon_criticsN-O.htm,100,"Film critic, editor / Argentina; chronological, unranked"
+bss_ballot_grazia_paganelli,Beyond the S&S Canon ballot: Grazia Paganelli,critic,https://theyshootpictures.com/beyondtheSScanon_criticsP-Q.htm,27,"Head of programmer / Italy /; chronological, unranked"
+bss_ballot_theo_panayides,Beyond the S&S Canon ballot: Theo Panayides,critic,https://theyshootpictures.com/beyondtheSScanon_criticsP-Q.htm,101,"Film critic / Cyprus; chronological, unranked"
+bss_ballot_anna_m_pasetti,Beyond the S&S Canon ballot: Anna M. Pasetti,critic,https://theyshootpictures.com/beyondtheSScanon_criticsP-Q.htm,100,"Film critic / Italy; chronological, unranked"
+bss_ballot_cristiana_patern,Beyond the S&S Canon ballot: Cristiana Paternò,critic,https://theyshootpictures.com/beyondtheSScanon_criticsP-Q.htm,43,"Cinema critic / Italy /; chronological, unranked"
+bss_ballot_jurica_pavicic,Beyond the S&S Canon ballot: Jurica Pavicic,critic,https://theyshootpictures.com/beyondtheSScanon_criticsP-Q.htm,10,"Film critic / Croatia; chronological, unranked"
+bss_ballot_ruben_peralta_rigaud,Beyond the S&S Canon ballot: Ruben Peralta Rigaud,critic,https://theyshootpictures.com/beyondtheSScanon_criticsP-Q.htm,29,"Film critic / Dominican Republic; chronological, unranked"
+bss_ballot_olivier_p_re,Beyond the S&S Canon ballot: Olivier Père,critic,https://theyshootpictures.com/beyondtheSScanon_criticsP-Q.htm,76,"General director - ARTE France Cinema / France /; chronological, unranked"
+bss_ballot_alberto_pezzotta,Beyond the S&S Canon ballot: Alberto Pezzotta,critic,https://theyshootpictures.com/beyondtheSScanon_criticsP-Q.htm,2,"Film historian, critic / Italy /; chronological, unranked"
+bss_ballot_bo_ko_picula,Beyond the S&S Canon ballot: Boško Picula,critic,https://theyshootpictures.com/beyondtheSScanon_criticsP-Q.htm,54,"Film critic, professor / Croatia; chronological, unranked"
+bss_ballot_marco_pistoia,Beyond the S&S Canon ballot: Marco Pistoia,critic,https://theyshootpictures.com/beyondtheSScanon_criticsP-Q.htm,65,"Film historian / Italy; chronological, unranked"
+bss_ballot_maximilien_luc_proctor,Beyond the S&S Canon ballot: Maximilien Luc Proctor,critic,https://theyshootpictures.com/beyondtheSScanon_criticsP-Q.htm,7,"Filmmaker, critic / United States /; chronological, unranked"
+bss_ballot_jos_quental,Beyond the S&S Canon ballot: José Quental,critic,https://theyshootpictures.com/beyondtheSScanon_criticsP-Q.htm,10,"Film Coordinator at the Cinematheque of the Museum of Modern Art in Rio de Janeiro / Brazil /; chronological, unranked"
+bss_ballot_giampiero_raganelli,Beyond the S&S Canon ballot: Giampiero Raganelli,critic,https://theyshootpictures.com/beyondtheSScanon_criticsR.htm,100,"Film critic / Italy; chronological, unranked"
+bss_ballot_m_k_raghavendra,Beyond the S&S Canon ballot: M.K. Raghavendra,critic,https://theyshootpictures.com/beyondtheSScanon_criticsR.htm,95,"Film critic, scholar, researcher / India; chronological, unranked"
+bss_ballot_aina_randrianatoandro,Beyond the S&S Canon ballot: Aina Randrianatoandro,critic,https://theyshootpictures.com/beyondtheSScanon_criticsR.htm,17,"Film critic / Madagascar; chronological, unranked"
+bss_ballot_baradwaj_rangan,Beyond the S&S Canon ballot: Baradwaj Rangan,critic,https://theyshootpictures.com/beyondtheSScanon_criticsR.htm,1,"Film critic, editor-in-chief / India /; chronological, unranked"
+bss_ballot_jordan_raup,Beyond the S&S Canon ballot: Jordan Raup,critic,https://theyshootpictures.com/beyondtheSScanon_criticsR.htm,24,"Film critic / United States; chronological, unranked"
+bss_ballot_kriss_ravetto_biagioli,Beyond the S&S Canon ballot: Kriss Ravetto-Biagioli,critic,https://theyshootpictures.com/beyondtheSScanon_criticsR.htm,15,"Professor / United States; chronological, unranked"
+bss_ballot_elina_reitere,Beyond the S&S Canon ballot: Elina Reitere,critic,https://theyshootpictures.com/beyondtheSScanon_criticsR.htm,53,"Film critic, scholar / Latvia; chronological, unranked"
+bss_ballot_carlos_reviriego,Beyond the S&S Canon ballot: Carlos Reviriego,critic,https://theyshootpictures.com/beyondtheSScanon_criticsR.htm,32,"Programming director, film critic / Spain /; chronological, unranked"
+bss_ballot_maziar_rezai,Beyond the S&S Canon ballot: Maziar Rezai,critic,https://theyshootpictures.com/beyondtheSScanon_criticsR.htm,10,"Film critic / Iran; chronological, unranked"
+bss_ballot_esteve_riambau,Beyond the S&S Canon ballot: Esteve Riambau,critic,https://theyshootpictures.com/beyondtheSScanon_criticsR.htm,58,"Director Filmoteca de Catalunya / Spain /; chronological, unranked"
+bss_ballot_peter_rist,Beyond the S&S Canon ballot: Peter Rist,critic,https://theyshootpictures.com/beyondtheSScanon_criticsR.htm,97,"Professor / Canada; chronological, unranked"
+bss_ballot_s_rgio_rizzo,Beyond the S&S Canon ballot: Sérgio Rizzo,critic,https://theyshootpictures.com/beyondtheSScanon_criticsR.htm,57,"Film critic / Brazil; chronological, unranked"
+bss_ballot_nathaniel_rogers,Beyond the S&S Canon ballot: Nathaniel Rogers,critic,https://theyshootpictures.com/beyondtheSScanon_criticsR.htm,99,"Film critic, editor / United States; chronological, unranked"
+bss_ballot_piyush_roy,Beyond the S&S Canon ballot: Piyush Roy,critic,https://theyshootpictures.com/beyondtheSScanon_criticsR.htm,38,"Film critic, author, academic / India; chronological, unranked"
+bss_ballot_linda_haverty_rugg,Beyond the S&S Canon ballot: Linda Haverty Rugg,critic,https://theyshootpictures.com/beyondtheSScanon_criticsR.htm,1,"Professor / United States; chronological, unranked"
+bss_ballot_steve_rybin,Beyond the S&S Canon ballot: Steve Rybin,critic,https://theyshootpictures.com/beyondtheSScanon_criticsR.htm,100,"Film scholar, author / United States; chronological, unranked"
+bss_ballot_tobias_ryd_n_sj_strand,Beyond the S&S Canon ballot: Tobias Rydén Sjöstrand,critic,https://theyshootpictures.com/beyondtheSScanon_criticsR.htm,39,"Film critic, filmmaker / Sweden /; chronological, unranked"
+bss_ballot_tettyo_saito,Beyond the S&S Canon ballot: Tettyo Saito,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,99,"Film critic / Japan; chronological, unranked"
+bss_ballot_dan_sallitt,Beyond the S&S Canon ballot: Dan Sallitt,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,71,"Freelance critic, filmmaker / United States /; chronological, unranked"
+bss_ballot_ren_scateni,Beyond the S&S Canon ballot: Ren Scateni,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,19,"Writer, curator / United Kingdom /; chronological, unranked"
+bss_ballot_christopher_schobert,Beyond the S&S Canon ballot: Christopher Schobert,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,27,"Film critic / United States; chronological, unranked"
+bss_ballot_william_schwartz,Beyond the S&S Canon ballot: William Schwartz,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,9,"Film critic / United States; chronological, unranked"
+bss_ballot_giuseppe_sedia,Beyond the S&S Canon ballot: Giuseppe Sedia,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,12,"Film critic / Italy; chronological, unranked"
+bss_ballot_seung_hoon_jeong,Beyond the S&S Canon ballot: Seung-hoon Jeong,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,4,"Professor, film critic / South Korea; chronological, unranked"
+bss_ballot_don_shanahan,Beyond the S&S Canon ballot: Don Shanahan,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,48,"Film critic / United States; chronological, unranked"
+bss_ballot_jason_shawhan,Beyond the S&S Canon ballot: Jason Shawhan,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,70,"Film critic, programmer / United States; chronological, unranked"
+bss_ballot_ahmed_shawky,Beyond the S&S Canon ballot: Ahmed Shawky,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,49,"Film critic / Egypt; chronological, unranked"
+bss_ballot_peter_shepotinnik,Beyond the S&S Canon ballot: Peter Shepotinnik,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,66,"Film critic, programmer, TV host, filmmaker / Russia; chronological, unranked"
+bss_ballot_yael_shuv,Beyond the S&S Canon ballot: Yael Shuv,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,26,"Film critic / Israel /; chronological, unranked"
+bss_ballot_amir_hossein_siadat,Beyond the S&S Canon ballot: Amir Hossein Siadat,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,16,"Film researcher, critic, curator / Iran; chronological, unranked"
+bss_ballot_renato_silveira,Beyond the S&S Canon ballot: Renato Silveira,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,100,"Film critic / Brazil; chronological, unranked"
+bss_ballot_warren_sin,Beyond the S&S Canon ballot: Warren Sin,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,99,"Programmer / Singapore; chronological, unranked"
+bss_ballot_anthony_slide,Beyond the S&S Canon ballot: Anthony Slide,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,7,"Author / United Kingdom; chronological, unranked"
+bss_ballot_will_sloan,Beyond the S&S Canon ballot: Will Sloan,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,27,"Critic / Canada /; chronological, unranked"
+bss_ballot_alison_smith,Beyond the S&S Canon ballot: Alison Smith,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,99,"Lecturer, author / United Kingdom; chronological, unranked"
+bss_ballot_jose_sol_s,Beyond the S&S Canon ballot: Jose Solís,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,51,"Film critic / Honduras; chronological, unranked"
+bss_ballot_karina_sol_rzano,Beyond the S&S Canon ballot: Karina Solórzano,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,28,"Film critic, programmer / Mexico; chronological, unranked"
+bss_ballot_simone_soranna,Beyond the S&S Canon ballot: Simone Soranna,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,8,"Film critic / Italy; chronological, unranked"
+bss_ballot_philipp_stadelmaier,Beyond the S&S Canon ballot: Philipp Stadelmaier,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,100,"Film critic / Germany; chronological, unranked"
+bss_ballot_jan_stor,Beyond the S&S Canon ballot: Jan Storø,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,38,"Film critic / Norway; chronological, unranked"
+bss_ballot_iain_stott,Beyond the S&S Canon ballot: Iain Stott,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,100,"Film critic, blogger / United Kingdom; chronological, unranked"
+bss_ballot_dan_sullivan,Beyond the S&S Canon ballot: Dan Sullivan,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,1,"Programmer / United States; chronological, unranked"
+bss_ballot_ryan_swen,Beyond the S&S Canon ballot: Ryan Swen,critic,https://theyshootpictures.com/beyondtheSScanon_criticsS.htm,100,"Critic / United States /; chronological, unranked"
+bss_ballot_jason_tan_liwag,Beyond the S&S Canon ballot: Jason Tan Liwag,critic,https://theyshootpictures.com/beyondtheSScanon_criticsT-V.htm,26,"Film critic, programmer, lecturer / Philippines; chronological, unranked"
+bss_ballot_umur_tas,Beyond the S&S Canon ballot: Umur Tas,critic,https://theyshootpictures.com/beyondtheSScanon_criticsT-V.htm,16,"Film critic / Turkey; chronological, unranked"
+bss_ballot_r_diger_tomczak,Beyond the S&S Canon ballot: Rüdiger Tomczak,critic,https://theyshootpictures.com/beyondtheSScanon_criticsT-V.htm,58,"Film critic / Germany; chronological, unranked"
+bss_ballot_gary_tooze,Beyond the S&S Canon ballot: Gary Tooze,critic,https://theyshootpictures.com/beyondtheSScanon_criticsT-V.htm,26,"Editor / Canada; chronological, unranked"
+bss_ballot_alejandra_trelles,Beyond the S&S Canon ballot: Alejandra Trelles,critic,https://theyshootpictures.com/beyondtheSScanon_criticsT-V.htm,34,"Film critic, programmer / Uruguay; chronological, unranked"
+bss_ballot_johnathan_tsuria,Beyond the S&S Canon ballot: Johnathan Tsuria,critic,https://theyshootpictures.com/beyondtheSScanon_criticsT-V.htm,100,"Film critic / Israel; chronological, unranked"
+bss_ballot_andy_tudor,Beyond the S&S Canon ballot: Andy Tudor,critic,https://theyshootpictures.com/beyondtheSScanon_criticsT-V.htm,40,"Professor emeritus / United Kingdom; chronological, unranked"
+bss_ballot_j_m_tyree,Beyond the S&S Canon ballot: J.M. Tyree,critic,https://theyshootpictures.com/beyondtheSScanon_criticsT-V.htm,69,"Professor / United States /; chronological, unranked"
+bss_ballot_chalida_uabumrungjit,Beyond the S&S Canon ballot: Chalida Uabumrungjit,critic,https://theyshootpictures.com/beyondtheSScanon_criticsT-V.htm,39,"Director / Thailand /; chronological, unranked"
+bss_ballot_sultan_usuvaliev,Beyond the S&S Canon ballot: Sultan Usuvaliev,critic,https://theyshootpictures.com/beyondtheSScanon_criticsT-V.htm,10,"Film scholar, director / Kyrgyzstan; chronological, unranked"
+bss_ballot_koen_van_daele,Beyond the S&S Canon ballot: Koen van Daele,critic,https://theyshootpictures.com/beyondtheSScanon_criticsT-V.htm,24,"Programmer, Curator / Slovenia /; chronological, unranked"
+bss_ballot_sjoerd_van_wijk,Beyond the S&S Canon ballot: Sjoerd van Wijk,critic,https://theyshootpictures.com/beyondtheSScanon_criticsT-V.htm,60,"Film critic / Netherlands; chronological, unranked"
+bss_ballot_teresa_vena,Beyond the S&S Canon ballot: Teresa Vena,critic,https://theyshootpictures.com/beyondtheSScanon_criticsT-V.htm,26,"Film critic / Switzerland; chronological, unranked"
+bss_ballot_noel_vera,Beyond the S&S Canon ballot: Noel Vera,critic,https://theyshootpictures.com/beyondtheSScanon_criticsT-V.htm,91,"Film critic / Philippines /; chronological, unranked"
+bss_ballot_camila_vieira,Beyond the S&S Canon ballot: Camila Vieira,critic,https://theyshootpictures.com/beyondtheSScanon_criticsT-V.htm,14,"Film curator, programmer / Brazil; chronological, unranked"
+bss_ballot_ter_z_vincze,Beyond the S&S Canon ballot: Teréz Vincze,critic,https://theyshootpictures.com/beyondtheSScanon_criticsT-V.htm,13,"Film critic, professor / Hungary; chronological, unranked"
+bss_ballot_juan_carlos_vizca_no,Beyond the S&S Canon ballot: Juan Carlos Vizcaíno,critic,https://theyshootpictures.com/beyondtheSScanon_criticsT-V.htm,100,"Film critic / Spain; chronological, unranked"
+bss_ballot_cynthia_walk,Beyond the S&S Canon ballot: Cynthia Walk,critic,https://theyshootpictures.com/beyondtheSScanon_criticsW-Z.htm,6,"Film scholar / United States; chronological, unranked"
+bss_ballot_k_f_watanabe,Beyond the S&S Canon ballot: K.F. Watanabe,critic,https://theyshootpictures.com/beyondtheSScanon_criticsW-Z.htm,15,"Director of Theatrical & Home Video Distribution - Grasshopper Film / Japan /; chronological, unranked"
+bss_ballot_jacob_wendt_jensen,Beyond the S&S Canon ballot: Jacob Wendt Jensen,critic,https://theyshootpictures.com/beyondtheSScanon_criticsW-Z.htm,95,"Film critic / Denmark; chronological, unranked"
+bss_ballot_sam_wigley,Beyond the S&S Canon ballot: Sam Wigley,critic,https://theyshootpictures.com/beyondtheSScanon_criticsW-Z.htm,99,"Editor / United Kingdom /; chronological, unranked"
+bss_ballot_ren_wolf,Beyond the S&S Canon ballot: René Wolf,critic,https://theyshootpictures.com/beyondtheSScanon_criticsW-Z.htm,100,"Senior programmer, head of acquisitions / Netherlands /; chronological, unranked"
+bss_ballot_thilo_wydra,Beyond the S&S Canon ballot: Thilo Wydra,critic,https://theyshootpictures.com/beyondtheSScanon_criticsW-Z.htm,7,"Film critic, author / Germany; chronological, unranked"
+bss_ballot_xiaoning_lu,Beyond the S&S Canon ballot: Xiaoning Lu,critic,https://theyshootpictures.com/beyondtheSScanon_criticsW-Z.htm,9,"Reader, author / China; chronological, unranked"
+bss_ballot_xie_jianhau,Beyond the S&S Canon ballot: Xie Jianhau,critic,https://theyshootpictures.com/beyondtheSScanon_criticsW-Z.htm,82,"Professor / China; chronological, unranked"
+bss_ballot_tynan_yanaga,Beyond the S&S Canon ballot: Tynan Yanaga,critic,https://theyshootpictures.com/beyondtheSScanon_criticsW-Z.htm,100,"Film critic / United States; chronological, unranked"
+bss_ballot_neil_young,Beyond the S&S Canon ballot: Neil Young,critic,https://theyshootpictures.com/beyondtheSScanon_criticsW-Z.htm,52,"Freelance film critic-journalist, Film festival worker / United Kingdom /; chronological, unranked"
+bss_ballot_yu_tao,Beyond the S&S Canon ballot: Yu Tao,critic,https://theyshootpictures.com/beyondtheSScanon_criticsW-Z.htm,94,"Professor / China; chronological, unranked"
+bss_ballot_zhang_ling,Beyond the S&S Canon ballot: Zhang Ling,critic,https://theyshootpictures.com/beyondtheSScanon_criticsW-Z.htm,100,"Assistant professor / China /; chronological, unranked"
+tspdt_recommendations,TSPDT's Film Recommendations,other,https://theyshootpictures.com/tspdtrecommendations.htm,3100,"Unranked, alphabetical; IMDb links on page"
+tspdt_gf_top250_directors,"The 1,000 Greatest Films: Top 250 Directors",director,https://theyshootpictures.com/gf1000_top250directors.htm,0,Ranks directors only (with counts of films); no film titles listed
+tspdt_21st_top100_directors,21st Century: Top 100 Directors,director,https://theyshootpictures.com/21stcentury_top100directors.htm,0,Ranks directors only; no film titles listed
+tspdt_noir_key_directors,50 Key Noir Directors,director,https://theyshootpictures.com/50keynoirdirectors.htm,0,50 directors; no film titles
+tspdt_director_filmographies,"Director pages: Selected Filmography (2,325 pages in sitemap.xml)",director,https://theyshootpictures.com/directors.htm,0,Not fetched: filmographies load by script from a Google Sheet (direct sheet download was refused by the session's permission policy); static HTML holds no film list
+tspdt_gf1000_all_selections,"1,000 Greatest Films: all critics' selections (153,893 rows)",critic,https://theyshootpictures.com/resources/1000GFAllSelectionsCritics.xlsx,0,Not expanded: per-critic citations restricted to films already in tspdt_1000
+tspdt_listed_by,Listed By (Rosenbaum / Scorsese ballots),other,https://theyshootpictures.com/listedby.htm,0,Names ballots only; films flagged only on director pages
+view:gf1000,view/alias of tspdt_1000,other,https://theyshootpictures.com/gf1000.htm,0,Same films as tspdt_1000; not duplicated in entries.csv
+view:gf1000_alpha,view/alias of tspdt_1000,other,https://theyshootpictures.com/gf1000_alpha.htm,0,Same films as tspdt_1000; not duplicated in entries.csv
+view:gf1000_rank1-1000,view/alias of tspdt_1000,other,https://theyshootpictures.com/gf1000_rank1-1000.htm,0,Same films as tspdt_1000; not duplicated in entries.csv
+view:gf1000_rank1000-1,view/alias of tspdt_1000,other,https://theyshootpictures.com/gf1000_rank1000-1.htm,0,Same films as tspdt_1000; not duplicated in entries.csv
+view:gf1000_year,view/alias of tspdt_1000,other,https://theyshootpictures.com/gf1000_year.htm,0,Same films as tspdt_1000; not duplicated in entries.csv
+view:gf1000_all1000films,view/alias of tspdt_1000,other,https://theyshootpictures.com/gf1000_all1000films.htm,0,Same films as tspdt_1000; not duplicated in entries.csv
+view:gf1000_all1000films_rankinghistory,view/alias of tspdt_1000,other,https://theyshootpictures.com/gf1000_all1000films_rankinghistory.htm,0,Same films as tspdt_1000; not duplicated in entries.csv
+view:gf1000_all1000films_alternativetitles,view/alias of tspdt_1000,other,https://theyshootpictures.com/gf1000_all1000films_alternativetitles.htm,0,Same films as tspdt_1000; not duplicated in entries.csv
+view:21stcentury,view/alias of tspdt_21st_century_1000,other,https://theyshootpictures.com/21stcentury.htm,0,Same films as tspdt_21st_century_1000; not duplicated in entries.csv
+view:21stcentury_films1000-251,view/alias of tspdt_21st_century_1000,other,https://theyshootpictures.com/21stcentury_films1000-251.htm,0,Same films as tspdt_21st_century_1000; not duplicated in entries.csv
+view:21stcentury_t250_alpha,view/alias of tspdt_21st_century_1000,other,https://theyshootpictures.com/21stcentury_t250_alpha.htm,0,Same films as tspdt_21st_century_1000; not duplicated in entries.csv
+view:21stcentury_t250_250-1,view/alias of tspdt_21st_century_1000,other,https://theyshootpictures.com/21stcentury_t250_250-1.htm,0,Same films as tspdt_21st_century_1000; not duplicated in entries.csv
+view:21stcentury_t250_rank1-250,view/alias of tspdt_21st_century_1000,other,https://theyshootpictures.com/21stcentury_t250_rank1-250.htm,0,Same films as tspdt_21st_century_1000; not duplicated in entries.csv
+view:21stcentury_t250_year,view/alias of tspdt_21st_century_1000,other,https://theyshootpictures.com/21stcentury_t250_year.htm,0,Same films as tspdt_21st_century_1000; not duplicated in entries.csv
+view:21stcentury_rankinghistory,view/alias of tspdt_21st_century_1000,other,https://theyshootpictures.com/21stcentury_rankinghistory.htm,0,Same films as tspdt_21st_century_1000; not duplicated in entries.csv
+view:21stcentury_alternativetitles,view/alias of tspdt_21st_century_1000,other,https://theyshootpictures.com/21stcentury_alternativetitles.htm,0,Same films as tspdt_21st_century_1000; not duplicated in entries.csv
+view:gf1000_startinglist_table,view/alias of tspdt_starting_list,other,https://theyshootpictures.com/gf1000_startinglist_table.php,0,Same films as tspdt_starting_list; not duplicated in entries.csv
+view:21stcentury_startinglist_table,view/alias of tspdt_21st_starting_list,other,https://theyshootpictures.com/21stcentury_startinglist_table.php,0,Same films as tspdt_21st_starting_list; not duplicated in entries.csv
+view:noir1000a,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000a.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000b,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000b.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000c,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000c.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000d,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000d.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000e,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000e.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000f,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000f.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000g,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000g.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000h,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000h.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000i,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000i.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000j,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000j.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000k,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000k.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000l,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000l.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000m,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000m.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000n,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000n.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000o,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000o.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000p,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000p.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000q,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000q.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000r,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000r.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000s,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000s.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000t,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000t.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000u,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000u.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000v,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000v.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000w,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000w.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000y,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000y.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000z,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000z.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000title,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000title.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000director,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000director.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000year,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000year.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000country,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000country.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:noir1000updates,view/alias of tspdt_noir1000,other,https://theyshootpictures.com/noir1000updates.htm,0,Same films as tspdt_noir1000; not duplicated in entries.csv
+view:2026poll_top250,view/alias of tspdt_poll_2026,other,https://theyshootpictures.com/2026poll_top250.htm,0,Same films as tspdt_poll_2026; not duplicated in entries.csv
+view:2026poll_998-251,view/alias of tspdt_poll_2026,other,https://theyshootpictures.com/2026poll_998-251.htm,0,Same films as tspdt_poll_2026; not duplicated in entries.csv
+view:polls,view/alias of tspdt_poll_2026,other,https://theyshootpictures.com/polls.htm,0,Same films as tspdt_poll_2026; not duplicated in entries.csv
+view:beyondtheSScanon,view/alias of bss_a_list,other,https://theyshootpictures.com/beyondtheSScanon.htm,0,Same films as bss_a_list; not duplicated in entries.csv
