@@ -1,0 +1,4002 @@
+{
+ "label": "Avant-Garde Short",
+ "defn": "A short of the first and postwar avant-garde built on dream, ritual, rhythm or the plastic image rather than story: Dada and cinéma pur, surrealist, trance and psychodrama, mythopoeic and underground films (Ballet Mécanique, Un Chien andalou, Meshes of the Afternoon, Scorpio Rising). Lyrical, landscape, structural, found-footage and video works have their own leaves.",
+ "axis": "by avant-garde movement in historical order: Dada and cinéma pur, surrealism, the trance film, the mythopoeic and underground film, then later dream shorts",
+ "secs": [
+  "Dada & Cinéma Pur",
+  "Surrealist Film",
+  "Trance Film & Psychodrama",
+  "Mythopoeic & Underground Film",
+  "Later Surrealist & Dream Shorts"
+ ],
+ "new_leaves": [
+  {
+   "key": "NEW1",
+   "label": "Lyrical Film",
+   "breadth": "Personal, first-person avant-garde shorts in the Brakhage line: the camera as the maker's eye, body and memory.",
+   "defn": "An avant-garde short in which the camera renders the filmmaker's own seeing, body, household or devotion, with handheld, rhythmic or painted imagery and no story (Anticipation of the Night, Window Water Baby Moving, Fuses, Notebook, Pneuma). A film observing a place goes to Landscape Film.",
+   "aliases": "film-poem; personal film; first-person film",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Experimental_film",
+     "Wikipedia"
+    ]
+   ],
+   "axis": "by era, with Stan Brakhage's large body of work as its own section",
+   "secs": [
+    "Early Lyric & Film-Poems (to 1959)",
+    "The Films of Stan Brakhage",
+    "Lyrical Film 1960–1979",
+    "Lyrical Film 1980–1999",
+    "Lyrical Film since 2000"
+   ]
+  },
+  {
+   "key": "NEW2",
+   "label": "Landscape Film",
+   "breadth": "Avant-garde shorts devoted to place: cities, land, water, weather and light observed through the camera.",
+   "defn": "An avant-garde short whose subject is a place — a city, a stretch of land or water, the weather or light over time — observed rather than narrated (Fog Line, New York Portrait, Study of a River, Altiplano, Night Without Distance).",
+   "aliases": "landscape cinema; experimental landscape film",
+   "src": [
+    [
+     "https://www.jstor.org/stable/10.13110/discourse.42.1-2.0173",
+     "Discourse (JSTOR)"
+    ]
+   ],
+   "axis": "by kind of place and method: city films, structural and durational landscapes, then land, water and light by era",
+   "secs": [
+    "City Films & Street Portraits",
+    "Structural & Durational Landscapes",
+    "Land, Water & Light to 1999",
+    "Land, Water & Light 2000–2015",
+    "Land, Water & Light since 2016"
+   ]
+  },
+  {
+   "key": "NEW3",
+   "label": "Structural Film",
+   "breadth": "Avant-garde shorts whose shape is set by a predetermined system or by the film material itself.",
+   "defn": "An avant-garde short whose form is a predetermined structure or an exposure of the film material and apparatus — fixed frame, flicker, loop printing, rephotography, metric montage (Arnulf Rainer, The Flicker, Serene Velocity, Zorns Lemma, Berlin Horse).",
+   "aliases": "structural-materialist film; metric film; flicker film",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Structural_film",
+     "Wikipedia"
+    ]
+   ],
+   "axis": "by school: Austrian formal film, Warhol, American structural film, British and European structural-materialist film, Owen Land's parodies, then contemporary analog work",
+   "secs": [
+    "Austrian Formal Film",
+    "Warhol Screen Tests & Durational Films",
+    "American Structural Film",
+    "British & European Structural-Materialist Film",
+    "Owen Land & Structural Parody",
+    "Contemporary Structural & Analog Film (1985–)"
+   ]
+  },
+  {
+   "key": "NEW4",
+   "label": "Found-Footage Film",
+   "breadth": "Avant-garde shorts made by re-editing, reprinting or manipulating footage shot by others.",
+   "defn": "An avant-garde short assembled from appropriated footage — newsreels, Hollywood films, home movies, archives — re-edited, optically reprinted or physically altered (Rose Hobart, A Movie, Free Fall, Passage à l'acte, Outer Space).",
+   "aliases": "collage film; appropriation film; compilation (avant-garde)",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Found_footage_(appropriation)",
+     "Wikipedia"
+    ]
+   ],
+   "axis": "by era",
+   "secs": [
+    "Cornell & Early Collage (to 1959)",
+    "Collage Film 1960–1979",
+    "Found Footage 1980–1999",
+    "Found Footage 2000–2014",
+    "Found Footage since 2015"
+   ]
+  },
+  {
+   "key": "NEW5",
+   "label": "Video Art & Expanded Cinema",
+   "breadth": "Artists' video, gallery moving-image works and expanded-cinema pieces.",
+   "defn": "A short moving-image artwork made on video or for the gallery, or an expanded-cinema piece that works with projection, performance or installation (Vertical Roll, Global Groove, Line Describing a Cone, Semiotics of the Kitchen, How Not to Be Seen).",
+   "aliases": "artists' video; artists' moving image; gallery film",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Video_art",
+     "Wikipedia"
+    ]
+   ],
+   "axis": "by era",
+   "secs": [
+    "Early Video & Expanded Cinema (to 1979)",
+    "Video Art of the 1980s–90s",
+    "Gallery Moving Image 2000–2012",
+    "Contemporary Moving-Image Art (2013–)"
+   ]
+  }
+ ],
+ "assign": {
+  "tt0124148": [
+   "self",
+   3
+  ],
+  "tt0038885": [
+   "self",
+   3
+  ],
+  "tt0040578": [
+   "self",
+   3
+  ],
+  "tt0041771": [
+   "self",
+   3
+  ],
+  "tt0042872": [
+   "self",
+   3
+  ],
+  "tt0124199": [
+   "self",
+   3
+  ],
+  "tspdt:reflections-on-black-1955": [
+   "NEW1",
+   2
+  ],
+  "tspdt:flesh-of-morning-1956": [
+   "NEW1",
+   2
+  ],
+  "tspdt:whiteye-1957": [
+   "NEW1",
+   2
+  ],
+  "tspdt:loving-1957": [
+   "NEW1",
+   2
+  ],
+  "tspdt:daybreak-1957": [
+   "NEW1",
+   2
+  ],
+  "tt0213453": [
+   "NEW1",
+   2
+  ],
+  "tspdt:sirius-remembered-1959": [
+   "NEW1",
+   2
+  ],
+  "tspdt:thigh-line-lyre-triangular-1961": [
+   "NEW1",
+   2
+  ],
+  "tspdt:window-water-baby-moving-1962": [
+   "NEW1",
+   2
+  ],
+  "tspdt:blue-moses-1962": [
+   "NEW1",
+   2
+  ],
+  "tspdt:songs-1-14-1964": [
+   "NEW1",
+   2
+  ],
+  "tspdt:the-art-of-vision-1965": [
+   "NEW1",
+   2
+  ],
+  "tt0059369": [
+   "self",
+   4
+  ],
+  "tspdt:fire-of-waters-1965": [
+   "NEW1",
+   2
+  ],
+  "tspdt:vein-1965": [
+   "NEW1",
+   2
+  ],
+  "tspdt:pasht-1965": [
+   "NEW1",
+   2
+  ],
+  "tspdt:blood-s-tone-1965": [
+   "NEW1",
+   2
+  ],
+  "tspdt:songs-15-22-1965": [
+   "NEW1",
+   2
+  ],
+  "tspdt:23rd-psalm-branch-part-i-1967": [
+   "NEW1",
+   2
+  ],
+  "tspdt:songs-24-27-1967": [
+   "NEW1",
+   2
+  ],
+  "tspdt:scenes-from-under-childhood-1967": [
+   "NEW1",
+   2
+  ],
+  "tspdt:lovemaking-1968": [
+   "NEW1",
+   2
+  ],
+  "tspdt:the-horseman-the-woman-and-the-moth-1968": [
+   "NEW1",
+   2
+  ],
+  "tspdt:songs-28-30-1968": [
+   "NEW1",
+   2
+  ],
+  "tt0064493": [
+   "self",
+   4
+  ],
+  "tspdt:sexual-meditation-no-1-motel-1970": [
+   "NEW1",
+   2
+  ],
+  "tspdt:the-animals-of-eden-and-after-1970": [
+   "NEW1",
+   2
+  ],
+  "tspdt:the-weir-falcon-saga-1970": [
+   "NEW1",
+   2
+  ],
+  "tspdt:hapax-legomena-iii-critical-mass-1971": [
+   "NEW3",
+   3
+  ],
+  "tspdt:hapax-legomena-iv-travelling-matte-1971": [
+   "NEW3",
+   3
+  ],
+  "tspdt:angels-1971": [
+   "NEW1",
+   2
+  ],
+  "tspdt:western-history-1971": [
+   "NEW1",
+   2
+  ],
+  "tspdt:door-1971": [
+   "NEW1",
+   2
+  ],
+  "tspdt:the-shores-of-phos-a-fable-1971": [
+   "NEW1",
+   2
+  ],
+  "tspdt:eyes-1971": [
+   "NEW1",
+   2
+  ],
+  "tspdt:sexual-meditation-room-with-view-1971": [
+   "NEW1",
+   2
+  ],
+  "tspdt:deus-ex-1971": [
+   "NEW1",
+   2
+  ],
+  "tspdt:the-peaceable-kingdom-1971": [
+   "NEW1",
+   2
+  ],
+  "tspdt:hapax-legomena-ii-poetic-justice-1972": [
+   "NEW3",
+   3
+  ],
+  "tspdt:hapax-legomena-v-ordinary-matter-1972": [
+   "NEW3",
+   3
+  ],
+  "tspdt:hapax-legomena-vii-special-effects-1972": [
+   "NEW3",
+   3
+  ],
+  "tspdt:hapax-legomena-vi-remote-control-1972": [
+   "NEW3",
+   3
+  ],
+  "tt0069507": [
+   "NEW1",
+   2
+  ],
+  "tspdt:the-riddle-of-lumen-1972": [
+   "NEW1",
+   2
+  ],
+  "tspdt:sincerity-i-1973": [
+   "NEW1",
+   2
+  ],
+  "tspdt:the-text-of-light-1974": [
+   "NEW1",
+   2
+  ],
+  "tspdt:straits-of-magellan-drafts-and-fragments-1974": [
+   "NEW3",
+   3
+  ],
+  "tspdt:23rd-psalm-branch-part-ii-1978": [
+   "NEW1",
+   2
+  ],
+  "tspdt:thriller-1979": [
+   "self",
+   4
+  ],
+  "tspdt:arabic-series-1980": [
+   "NEW1",
+   2
+  ],
+  "tt0082437": [
+   "NEW1",
+   2
+  ],
+  "tspdt:egyptian-series-1984": [
+   "NEW1",
+   2
+  ],
+  "tspdt:the-loom-1986": [
+   "NEW1",
+   2
+  ],
+  "tspdt:visions-in-meditation-4-d-h-lawrence-1989": [
+   "NEW1",
+   2
+  ],
+  "tspdt:passage-through-a-ritual-1990": [
+   "NEW1",
+   2
+  ],
+  "tspdt:a-child-s-garden-and-the-serious-sea-1991": [
+   "NEW1",
+   2
+  ],
+  "tspdt:the-chartres-series-1994": [
+   "NEW1",
+   2
+  ],
+  "tspdt:i-1995": [
+   "NEW1",
+   2
+  ],
+  "tspdt:commingled-containers-1997": [
+   "NEW1",
+   2
+  ],
+  "tspdt:reel-three-1998": [
+   "NEW1",
+   2
+  ],
+  "tspdt:the-lion-and-the-zebra-make-god-s-raw-je-1999": [
+   "NEW1",
+   2
+  ],
+  "tspdt:the-god-of-day-had-gone-down-upon-him-2000": [
+   "NEW1",
+   2
+  ],
+  "tspdt:persian-series-2001": [
+   "NEW1",
+   2
+  ],
+  "tspdt:panels-for-the-walls-of-heaven-2002": [
+   "NEW1",
+   2
+  ],
+  "tspdt:micro-garden-2002": [
+   "NEW1",
+   2
+  ],
+  "tt0014406": [
+   "self",
+   1
+  ],
+  "tt0014694": [
+   "self",
+   1
+  ],
+  "tt0014872": [
+   "self",
+   1
+  ],
+  "tspdt:jeux-des-reflets-et-de-la-vitesse-1925": [
+   "self",
+   1
+  ],
+  "tt0125073": [
+   "self",
+   1
+  ],
+  "tt0123380": [
+   "self",
+   1
+  ],
+  "tspdt:combat-de-boxe-1927": [
+   "self",
+   1
+  ],
+  "tspdt:the-march-of-the-machines-1927": [
+   "self",
+   1
+  ],
+  "tspdt:themes-and-variations-1928": [
+   "self",
+   1
+  ],
+  "tspdt:inflation-1928": [
+   "self",
+   1
+  ],
+  "tspdt:record-957-1928": [
+   "self",
+   1
+  ],
+  "tspdt:les-nuits-electriques-1928": [
+   "self",
+   1
+  ],
+  "tt0192102": [
+   "self",
+   1
+  ],
+  "tt0145923": [
+   "self",
+   1
+  ],
+  "tspdt:arabesque-1929": [
+   "self",
+   1
+  ],
+  "tspdt:zweigroschenzauber-1929": [
+   "self",
+   1
+  ],
+  "tspdt:alles-dreht-sich-alles-bewegt-sich-1929": [
+   "self",
+   1
+  ],
+  "tspdt:lightplay-black-white-gray-1930": [
+   "self",
+   1
+  ],
+  "tspdt:wochenende-1930": [
+   "self",
+   1
+  ],
+  "tt0176204": [
+   "self",
+   1
+  ],
+  "tspdt:pasifik-231-1931": [
+   "self",
+   1
+  ],
+  "tspdt:pacific-231-1949": [
+   "self",
+   1
+  ],
+  "tspdt:color-1955": [
+   "self",
+   1
+  ],
+  "tspdt:mosaic-in-trust-1955": [
+   "self",
+   1
+  ],
+  "tspdt:symphonie-mecanique-1956": [
+   "self",
+   1
+  ],
+  "tspdt:buffalo-bill-in-27-forms-1957": [
+   "self",
+   1
+  ],
+  "tspdt:impulses-1959": [
+   "self",
+   1
+  ],
+  "tspdt:kineettisia-kuvia-1962": [
+   "self",
+   1
+  ],
+  "tspdt:passacaglia-y-fuga-1975": [
+   "self",
+   1
+  ],
+  "tt0131461": [
+   "self",
+   2
+  ],
+  "tt0146367": [
+   "self",
+   2
+  ],
+  "tt0017775": [
+   "self",
+   2
+  ],
+  "tt0020530": [
+   "self",
+   2
+  ],
+  "tspdt:la-perle-1929": [
+   "self",
+   2
+  ],
+  "tspdt:lot-in-sodom-1930": [
+   "self",
+   2
+  ],
+  "tspdt:the-adventures-of-a-good-citizen-1937": [
+   "self",
+   2
+  ],
+  "tt0036154": [
+   "self",
+   3
+  ],
+  "tspdt:geography-of-the-body-1943": [
+   "self",
+   3
+  ],
+  "tt0036618": [
+   "self",
+   3
+  ],
+  "tspdt:the-potted-psalm-1946": [
+   "self",
+   3
+  ],
+  "tt0039383": [
+   "self",
+   3
+  ],
+  "tspdt:psyche-1948": [
+   "self",
+   3
+  ],
+  "tspdt:the-petrified-dog-1948": [
+   "self",
+   3
+  ],
+  "tspdt:mother-s-day-1948": [
+   "self",
+   3
+  ],
+  "tt0279918": [
+   "self",
+   3
+  ],
+  "tspdt:mr-frenhofer-and-the-minotaur-1949": [
+   "self",
+   3
+  ],
+  "tspdt:swain-1950": [
+   "self",
+   3
+  ],
+  "tspdt:four-in-the-afternoon-1951": [
+   "self",
+   3
+  ],
+  "tspdt:la-villa-santo-sospir-1952": [
+   "self",
+   3
+  ],
+  "tspdt:bells-of-atlantis-1952": [
+   "self",
+   3
+  ],
+  "tt0045719": [
+   "self",
+   3
+  ],
+  "tspdt:the-end-1953": [
+   "self",
+   3
+  ],
+  "tspdt:the-pleasure-garden-1953": [
+   "self",
+   3
+  ],
+  "tt0047114": [
+   "self",
+   3
+  ],
+  "tt0295386": [
+   "self",
+   3
+  ],
+  "tspdt:the-wormwood-star-1956": [
+   "self",
+   3
+  ],
+  "tspdt:mister-e-1960": [
+   "self",
+   4
+  ],
+  "tspdt:thanatopsis-1962": [
+   "self",
+   4
+  ],
+  "tspdt:sun-stop-1962": [
+   "self",
+   4
+  ],
+  "tspdt:pat-s-birthday-1962": [
+   "self",
+   4
+  ],
+  "tspdt:tootsies-in-autumn-1963": [
+   "self",
+   4
+  ],
+  "tspdt:pussy-on-a-hot-tin-roof-1963": [
+   "self",
+   4
+  ],
+  "tspdt:christmas-on-earth-1963": [
+   "self",
+   4
+  ],
+  "tt0138329": [
+   "self",
+   4
+  ],
+  "tt0058555": [
+   "self",
+   4
+  ],
+  "tspdt:alone-1964": [
+   "self",
+   4
+  ],
+  "tspdt:chumlum-1964": [
+   "self",
+   4
+  ],
+  "tspdt:the-secret-formula-1965": [
+   "self",
+   4
+  ],
+  "tt0060511": [
+   "self",
+   4
+  ],
+  "tspdt:relativity-1966": [
+   "self",
+   4
+  ],
+  "tt0061402": [
+   "self",
+   4
+  ],
+  "tspdt:film-ou-visa-de-censure-numero-x-1967": [
+   "self",
+   4
+  ],
+  "tt0376821": [
+   "self",
+   4
+  ],
+  "tspdt:chinese-firedrill-1968": [
+   "self",
+   4
+  ],
+  "tspdt:the-bed-1968": [
+   "self",
+   4
+  ],
+  "tspdt:rat-life-and-diet-in-north-america-1968": [
+   "self",
+   4
+  ],
+  "tt0063833": [
+   "self",
+   4
+  ],
+  "tspdt:neurasia-1969": [
+   "self",
+   4
+  ],
+  "tspdt:visual-training-1969": [
+   "self",
+   4
+  ],
+  "tspdt:anamnesis-1969": [
+   "self",
+   4
+  ],
+  "tspdt:le-jouet-criminel-1969": [
+   "self",
+   4
+  ],
+  "tspdt:nuptiae-1969": [
+   "self",
+   4
+  ],
+  "tspdt:this-is-it-1970": [
+   "self",
+   4
+  ],
+  "tspdt:living-1971": [
+   "self",
+   4
+  ],
+  "tspdt:the-golden-positions-1971": [
+   "self",
+   4
+  ],
+  "tt0066468": [
+   "self",
+   4
+  ],
+  "tt0043084": [
+   "self",
+   4
+  ],
+  "tspdt:audition-1973": [
+   "self",
+   4
+  ],
+  "tspdt:alma-no-olho-1973": [
+   "self",
+   4
+  ],
+  "tt0066019": [
+   "self",
+   4
+  ],
+  "tspdt:testament-1974": [
+   "self",
+   4
+  ],
+  "tspdt:gerdy-the-wicked-witch-1976": [
+   "self",
+   4
+  ],
+  "tspdt:execution-a-story-of-mary-1979": [
+   "self",
+   4
+  ],
+  "tspdt:eternity-1982": [
+   "self",
+   5
+  ],
+  "tspdt:draw-the-line-of-flight-1984": [
+   "self",
+   5
+  ],
+  "tspdt:super-8-girl-games-1984": [
+   "self",
+   5
+  ],
+  "tspdt:lesorub-1985": [
+   "self",
+   5
+  ],
+  "tspdt:klipperty-klopp-1986": [
+   "self",
+   5
+  ],
+  "tt0125016": [
+   "self",
+   5
+  ],
+  "tspdt:faszinierendes-puppenhaus-1987": [
+   "self",
+   5
+  ],
+  "tspdt:damned-if-you-don-t-1987": [
+   "self",
+   5
+  ],
+  "tspdt:the-deadman-1987": [
+   "self",
+   5
+  ],
+  "tspdt:k-1989": [
+   "self",
+   5
+  ],
+  "tspdt:seuls-1989": [
+   "self",
+   5
+  ],
+  "tspdt:the-beach-1992": [
+   "self",
+   5
+  ],
+  "tspdt:before-need-redressed-1994": [
+   "self",
+   5
+  ],
+  "tt0321782": [
+   "self",
+   5
+  ],
+  "tt6039802": [
+   "self",
+   5
+  ],
+  "tt0321780": [
+   "self",
+   5
+  ],
+  "tt0260948": [
+   "self",
+   5
+  ],
+  "tspdt:mysterium-noctis-2004": [
+   "self",
+   5
+  ],
+  "tt3367188": [
+   "self",
+   5
+  ],
+  "tspdt:kramasha-2007": [
+   "self",
+   5
+  ],
+  "tt2850834": [
+   "self",
+   5
+  ],
+  "tspdt:head-and-hands-my-black-angel-2013": [
+   "self",
+   5
+  ],
+  "tt4926904": [
+   "self",
+   5
+  ],
+  "tt6217698": [
+   "self",
+   5
+  ],
+  "tspdt:the-spider-and-the-bee-2020": [
+   "self",
+   5
+  ],
+  "tt0312476": [
+   "NEW2",
+   1
+  ],
+  "tspdt:walking-from-munich-to-berlin-1927": [
+   "NEW2",
+   1
+  ],
+  "tspdt:aimless-walk-1930": [
+   "NEW2",
+   1
+  ],
+  "tspdt:autumn-fire-1930": [
+   "NEW1",
+   1
+  ],
+  "tspdt:portrait-of-a-young-man-in-three-movemen-1931": [
+   "NEW1",
+   1
+  ],
+  "tspdt:sausalito-1948": [
+   "NEW2",
+   1
+  ],
+  "tspdt:images-pour-debussy-1951": [
+   "NEW1",
+   1
+  ],
+  "tt2002765": [
+   "NEW1",
+   1
+  ],
+  "tt0046904": [
+   "NEW1",
+   2
+  ],
+  "tt0278151": [
+   "NEW1",
+   2
+  ],
+  "tspdt:aguaespejo-granadino-1955": [
+   "NEW2",
+   3
+  ],
+  "tspdt:centuries-of-june-1955": [
+   "NEW1",
+   2
+  ],
+  "tt1161419": [
+   "NEW1",
+   1
+  ],
+  "tspdt:nymphlight-1957": [
+   "NEW1",
+   1
+  ],
+  "tspdt:bridges-go-round-1958": [
+   "NEW2",
+   1
+  ],
+  "tt0277617": [
+   "NEW1",
+   2
+  ],
+  "tt0278145": [
+   "NEW1",
+   2
+  ],
+  "tt0138941": [
+   "NEW1",
+   2
+  ],
+  "tspdt:scotch-hop-1959": [
+   "NEW1",
+   1
+  ],
+  "tspdt:little-stabs-at-happiness-1959": [
+   "self",
+   3
+  ],
+  "tt0233534": [
+   "NEW1",
+   2
+  ],
+  "tt0130709": [
+   "NEW2",
+   3
+  ],
+  "tspdt:acarino-galaico-de-barro-1961": [
+   "NEW2",
+   3
+  ],
+  "tspdt:arabesque-for-kenneth-anger-1961": [
+   "NEW1",
+   3
+  ],
+  "tspdt:eye-music-in-red-major-1961": [
+   "NEW1",
+   3
+  ],
+  "tspdt:moonplay-1962": [
+   "NEW1",
+   3
+  ],
+  "tspdt:scotch-tape-1962": [
+   "self",
+   4
+  ],
+  "tt0057324": [
+   "NEW1",
+   2
+  ],
+  "tspdt:notebook-1963": [
+   "NEW1",
+   3
+  ],
+  "tspdt:to-parsifal-1963": [
+   "NEW1",
+   3
+  ],
+  "tspdt:where-i-am-is-here-1964": [
+   "NEW2",
+   3
+  ],
+  "tspdt:mass-for-the-dakota-sioux-1964": [
+   "NEW1",
+   3
+  ],
+  "tspdt:go-go-go-1964": [
+   "NEW1",
+   3
+  ],
+  "tspdt:chinese-checkers-1964": [
+   "NEW1",
+   3
+  ],
+  "tspdt:water-sark-1965": [
+   "NEW1",
+   3
+  ],
+  "tspdt:andy-warhol-1965": [
+   "NEW1",
+   3
+  ],
+  "tt0060220": [
+   "NEW2",
+   1
+  ],
+  "tspdt:ming-green-1966": [
+   "NEW1",
+   3
+  ],
+  "tt0205731": [
+   "NEW1",
+   3
+  ],
+  "tt0059146": [
+   "NEW1",
+   3
+  ],
+  "tspdt:notes-on-the-circus-1966": [
+   "NEW1",
+   3
+  ],
+  "tspdt:lights-1966": [
+   "NEW1",
+   3
+  ],
+  "tspdt:valentin-de-las-sierras-1967": [
+   "NEW2",
+   3
+  ],
+  "tspdt:looking-for-mushrooms-1967": [
+   "NEW1",
+   3
+  ],
+  "tspdt:cat-food-1967": [
+   "NEW1",
+   3
+  ],
+  "tspdt:fuses-1967": [
+   "NEW1",
+   3
+  ],
+  "tspdt:remembrance-a-portrait-study-1967": [
+   "NEW1",
+   3
+  ],
+  "tspdt:the-white-rose-1967": [
+   "NEW1",
+   3
+  ],
+  "tspdt:blue-mountain-1967": [
+   "NEW1",
+   3
+  ],
+  "tspdt:san-francisco-1968": [
+   "NEW2",
+   1
+  ],
+  "tt0468815": [
+   "NEW1",
+   3
+  ],
+  "tt0383641": [
+   "NEW1",
+   3
+  ],
+  "tspdt:the-canaries-1969": [
+   "NEW1",
+   3
+  ],
+  "tt0213831": [
+   "NEW1",
+   2
+  ],
+  "tspdt:a-matter-of-baobab-with-one-growth-1970": [
+   "NEW1",
+   3
+  ],
+  "tspdt:film-with-three-dancers-1971": [
+   "NEW1",
+   3
+  ],
+  "tspdt:customs-and-immigration-1971": [
+   "NEW2",
+   1
+  ],
+  "tspdt:a-journey-to-avebury-1971": [
+   "NEW2",
+   3
+  ],
+  "tspdt:plumb-line-1971": [
+   "NEW1",
+   3
+  ],
+  "tspdt:orange-1971": [
+   "NEW1",
+   3
+  ],
+  "tt0278649": [
+   "NEW1",
+   2
+  ],
+  "tt0140788": [
+   "NEW1",
+   2
+  ],
+  "tspdt:down-hear-1972": [
+   "NEW1",
+   3
+  ],
+  "tspdt:take-off-1972": [
+   "NEW1",
+   3
+  ],
+  "tspdt:blonde-barbarei-1972": [
+   "NEW1",
+   3
+  ],
+  "tspdt:high-kukus-1973": [
+   "NEW1",
+   3
+  ],
+  "tspdt:moon-s-pool-1973": [
+   "NEW1",
+   3
+  ],
+  "tt0278737": [
+   "NEW1",
+   2
+  ],
+  "tt0278740": [
+   "NEW1",
+   2
+  ],
+  "tspdt:dyketactics-1974": [
+   "NEW1",
+   3
+  ],
+  "tspdt:ruskin-1974": [
+   "NEW2",
+   3
+  ],
+  "tspdt:aerial-1974": [
+   "NEW2",
+   3
+  ],
+  "tspdt:colour-poems-1974": [
+   "NEW1",
+   3
+  ],
+  "tspdt:workshop-1975": [
+   "NEW1",
+   3
+  ],
+  "tspdt:variaciones-sobre-una-granada-1975": [
+   "NEW2",
+   3
+  ],
+  "tt0278411": [
+   "NEW1",
+   2
+  ],
+  "tspdt:notes-of-an-early-fall-1976": [
+   "NEW2",
+   3
+  ],
+  "tspdt:place-of-work-1976": [
+   "NEW2",
+   3
+  ],
+  "tspdt:superdyke-meets-madame-x-1976": [
+   "NEW1",
+   3
+  ],
+  "tspdt:elasticity-1976": [
+   "NEW1",
+   3
+  ],
+  "tspdt:aspiraciones-1976": [
+   "NEW1",
+   3
+  ],
+  "tspdt:tailpiece-1976": [
+   "NEW1",
+   3
+  ],
+  "tt0278417": [
+   "NEW1",
+   2
+  ],
+  "tspdt:wild-night-in-el-reno-1977": [
+   "NEW2",
+   3
+  ],
+  "tspdt:ofrenda-1978": [
+   "NEW1",
+   3
+  ],
+  "tspdt:double-strength-1978": [
+   "NEW1",
+   3
+  ],
+  "tspdt:new-york-portrait-chapter-i-1979": [
+   "NEW2",
+   1
+  ],
+  "tspdt:ephemerality-1979": [
+   "NEW1",
+   3
+  ],
+  "tt0279055": [
+   "NEW1",
+   2
+  ],
+  "tspdt:amor-1980": [
+   "NEW1",
+   4
+  ],
+  "tspdt:sync-touch-1981": [
+   "NEW1",
+   4
+  ],
+  "tspdt:gently-down-the-stream-1981": [
+   "NEW1",
+   4
+  ],
+  "tspdt:new-york-portrait-chapter-ii-1981": [
+   "NEW2",
+   1
+  ],
+  "tt0279492": [
+   "NEW1",
+   2
+  ],
+  "tspdt:five-year-diary-reel-22-a-short-affair-a-1982": [
+   "NEW1",
+   4
+  ],
+  "tspdt:la-escena-circular-1982": [
+   "NEW1",
+   4
+  ],
+  "tspdt:warrah-1982": [
+   "NEW2",
+   3
+  ],
+  "tspdt:bent-time-1983": [
+   "NEW1",
+   4
+  ],
+  "tspdt:l-eau-de-la-seine-1983": [
+   "NEW2",
+   1
+  ],
+  "tspdt:pneuma-1983": [
+   "NEW1",
+   4
+  ],
+  "tspdt:mutable-fire-1984": [
+   "NEW2",
+   3
+  ],
+  "tspdt:a-and-b-in-ontario-1984": [
+   "NEW1",
+   4
+  ],
+  "tspdt:work-done-1984": [
+   "NEW1",
+   4
+  ],
+  "tspdt:loads-1985": [
+   "NEW1",
+   4
+  ],
+  "tspdt:by-the-lake-1986": [
+   "NEW1",
+   4
+  ],
+  "tspdt:dancers-buildings-and-people-in-the-stre-1986": [
+   "NEW2",
+   1
+  ],
+  "tspdt:apologies-1986": [
+   "NEW1",
+   4
+  ],
+  "tt0277784": [
+   "NEW1",
+   2
+  ],
+  "tspdt:alaya-1987": [
+   "NEW1",
+   4
+  ],
+  "tt0180752": [
+   "NEW1",
+   2
+  ],
+  "tt0095950": [
+   "NEW1",
+   2
+  ],
+  "tspdt:the-poet-s-veil-1988": [
+   "NEW1",
+   4
+  ],
+  "tt0280185": [
+   "NEW1",
+   2
+  ],
+  "tt0280186": [
+   "NEW1",
+   2
+  ],
+  "tspdt:friendly-witness-1989": [
+   "NEW1",
+   4
+  ],
+  "tt0099668": [
+   "NEW1",
+   2
+  ],
+  "tt0281353": [
+   "NEW1",
+   2
+  ],
+  "tspdt:new-york-portrait-chapter-iii-1990": [
+   "NEW2",
+   1
+  ],
+  "tt0280574": [
+   "NEW1",
+   2
+  ],
+  "tt0101699": [
+   "NEW1",
+   2
+  ],
+  "tspdt:first-comes-love-1991": [
+   "NEW1",
+   4
+  ],
+  "tspdt:elegy-1991": [
+   "NEW1",
+   4
+  ],
+  "tt0280499": [
+   "NEW1",
+   2
+  ],
+  "tspdt:zefiro-torna-or-scenes-from-the-life-of--1992": [
+   "NEW1",
+   4
+  ],
+  "tt0281228": [
+   "NEW1",
+   2
+  ],
+  "tt0281236": [
+   "NEW1",
+   2
+  ],
+  "tt0109283": [
+   "NEW1",
+   2
+  ],
+  "tt0280911": [
+   "NEW1",
+   2
+  ],
+  "tspdt:bleu-1994": [
+   "NEW1",
+   4
+  ],
+  "tspdt:five-year-diary-reel-80-emily-died-may-1-1994": [
+   "NEW1",
+   4
+  ],
+  "tt0113370": [
+   "NEW1",
+   2
+  ],
+  "tspdt:bouquets-1-10-1995": [
+   "NEW1",
+   4
+  ],
+  "tspdt:woman-with-flowers-1995": [
+   "NEW1",
+   4
+  ],
+  "tspdt:a-depression-in-the-bay-of-bengal-1996": [
+   "NEW2",
+   1
+  ],
+  "tspdt:looking-for-mushrooms-1996": [
+   "NEW1",
+   4
+  ],
+  "tspdt:triste-1996": [
+   "NEW1",
+   4
+  ],
+  "tspdt:vertical-air-1996": [
+   "NEW2",
+   3
+  ],
+  "tt0162675": [
+   "NEW2",
+   3
+  ],
+  "tt0281701": [
+   "NEW1",
+   2
+  ],
+  "tt0282269": [
+   "NEW1",
+   2
+  ],
+  "tt0225002": [
+   "NEW1",
+   2
+  ],
+  "tspdt:variations-1998": [
+   "NEW1",
+   4
+  ],
+  "tspdt:garden-pieces-1998": [
+   "NEW1",
+   4
+  ],
+  "tt0281055": [
+   "NEW1",
+   2
+  ],
+  "tt0277657": [
+   "NEW1",
+   2
+  ],
+  "tspdt:life-expectancy-1999": [
+   "NEW1",
+   4
+  ],
+  "tspdt:rumi-1999": [
+   "NEW1",
+   4
+  ],
+  "tspdt:this-side-of-paradise-1999": [
+   "NEW1",
+   4
+  ],
+  "tspdt:arbor-vitae-2000": [
+   "NEW1",
+   5
+  ],
+  "tspdt:guided-by-voices-2000": [
+   "NEW1",
+   5
+  ],
+  "tt0279202": [
+   "NEW1",
+   2
+  ],
+  "tspdt:the-ground-2001": [
+   "NEW1",
+   5
+  ],
+  "tspdt:elvis-2001": [
+   "NEW1",
+   5
+  ],
+  "tspdt:looking-at-the-sea-2001": [
+   "NEW2",
+   4
+  ],
+  "tspdt:confessions-of-a-sociopath-2001": [
+   "NEW1",
+   5
+  ],
+  "tspdt:early-monthly-segments-2002": [
+   "NEW1",
+   5
+  ],
+  "tspdt:seasons-2002": [
+   "NEW1",
+   2
+  ],
+  "tspdt:the-hedge-theater-2002": [
+   "NEW1",
+   5
+  ],
+  "tspdt:the-visitation-2002": [
+   "NEW1",
+   5
+  ],
+  "tspdt:toccata-2002": [
+   "NEW1",
+   5
+  ],
+  "tt0367553": [
+   "NEW1",
+   2
+  ],
+  "tt0380263": [
+   "NEW1",
+   2
+  ],
+  "tspdt:skagafjordur-2004": [
+   "NEW2",
+   4
+  ],
+  "tspdt:le-barometre-2004": [
+   "NEW2",
+   4
+  ],
+  "tspdt:essex-street-market-2004": [
+   "NEW2",
+   1
+  ],
+  "tspdt:threnody-2004": [
+   "NEW1",
+   5
+  ],
+  "tspdt:el-aleph-2005": [
+   "NEW1",
+   5
+  ],
+  "tspdt:song-and-solitude-2006": [
+   "NEW1",
+   5
+  ],
+  "tspdt:kolkata-2006": [
+   "NEW2",
+   1
+  ],
+  "tspdt:the-anthem-2006": [
+   "NEW5",
+   3
+  ],
+  "tspdt:gletscher-2006": [
+   "NEW2",
+   4
+  ],
+  "tspdt:true-to-life-2006": [
+   "NEW1",
+   5
+  ],
+  "tspdt:footnotes-to-a-house-of-love-2007": [
+   "NEW2",
+   4
+  ],
+  "tspdt:l-arriere-saison-2007": [
+   "NEW2",
+   4
+  ],
+  "tspdt:pitcher-of-colored-light-2007": [
+   "NEW1",
+   5
+  ],
+  "tspdt:observando-el-cielo-2007": [
+   "NEW2",
+   4
+  ],
+  "tt1157689": [
+   "NEW2",
+   1
+  ],
+  "tspdt:black-and-white-trypps-number-three-2007": [
+   "NEW1",
+   5
+  ],
+  "tspdt:kalendar-2008": [
+   "NEW2",
+   4
+  ],
+  "tspdt:ah-liberty-2008": [
+   "NEW2",
+   4
+  ],
+  "tspdt:waterfront-follies-2008": [
+   "NEW2",
+   1
+  ],
+  "tspdt:sarabande-2008": [
+   "NEW1",
+   5
+  ],
+  "tspdt:winter-2008": [
+   "NEW1",
+   5
+  ],
+  "tspdt:a-horse-is-not-a-metaphor-2009": [
+   "NEW1",
+   5
+  ],
+  "tspdt:compline-2009": [
+   "NEW1",
+   5
+  ],
+  "tspdt:o-quam-tristis-2009": [
+   "NEW2",
+   4
+  ],
+  "tspdt:still-in-cosmos-2009": [
+   "NEW3",
+   6
+  ],
+  "tspdt:trees-of-syntax-axis-of-leaves-2009": [
+   "NEW1",
+   5
+  ],
+  "tt1480648": [
+   "NEW5",
+   3
+  ],
+  "tspdt:cry-when-it-happens-2010": [
+   "NEW2",
+   4
+  ],
+  "tspdt:aubade-2010": [
+   "NEW1",
+   5
+  ],
+  "tspdt:this-quality-2010": [
+   "NEW2",
+   4
+  ],
+  "tspdt:the-futurist-2010": [
+   "NEW2",
+   1
+  ],
+  "tspdt:words-of-mercury-2011": [
+   "NEW1",
+   5
+  ],
+  "tspdt:all-the-lines-flow-out-2011": [
+   "NEW2",
+   4
+  ],
+  "tspdt:ein-jahr-2011": [
+   "NEW2",
+   4
+  ],
+  "tspdt:american-colour-2011": [
+   "NEW2",
+   4
+  ],
+  "tspdt:one-half-of-august-2011": [
+   "NEW2",
+   4
+  ],
+  "tspdt:august-and-after-2012": [
+   "NEW1",
+   5
+  ],
+  "tspdt:in-the-stone-house-2012": [
+   "NEW1",
+   5
+  ],
+  "tspdt:three-minute-hells-2012": [
+   "NEW2",
+   4
+  ],
+  "tspdt:april-2012": [
+   "NEW1",
+   5
+  ],
+  "tspdt:los-animales-2012": [
+   "NEW2",
+   4
+  ],
+  "tt1866919": [
+   "NEW1",
+   5
+  ],
+  "tspdt:listening-to-the-space-in-my-room-2013": [
+   "NEW1",
+   5
+  ],
+  "tspdt:to-be-here-2013": [
+   "NEW1",
+   5
+  ],
+  "tspdt:nightwalk-2013": [
+   "NEW2",
+   4
+  ],
+  "tspdt:instants-2013": [
+   "NEW1",
+   5
+  ],
+  "tspdt:brouillard-passage-14-2014": [
+   "NEW2",
+   4
+  ],
+  "tspdt:things-2014": [
+   "NEW2",
+   4
+  ],
+  "tspdt:night-without-distance-2015": [
+   "NEW2",
+   4
+  ],
+  "tspdt:herbst-2015": [
+   "NEW2",
+   4
+  ],
+  "tspdt:vacio-a-2016": [
+   "NEW2",
+   5
+  ],
+  "tspdt:engram-of-returning-2016": [
+   "NEW1",
+   5
+  ],
+  "tspdt:hinterlands-2016": [
+   "NEW2",
+   5
+  ],
+  "tspdt:konfiguration-schwarz-und-weiss-2017": [
+   "NEW2",
+   5
+  ],
+  "tspdt:tartarughe-d-acqua-2017": [
+   "NEW2",
+   5
+  ],
+  "tspdt:fantasy-sentences-2017": [
+   "NEW2",
+   5
+  ],
+  "tspdt:why-are-you-angry-2017": [
+   "NEW2",
+   5
+  ],
+  "tspdt:shape-of-a-surface-2017": [
+   "NEW1",
+   5
+  ],
+  "tspdt:on-generation-and-corruption-2017": [
+   "NEW3",
+   6
+  ],
+  "tspdt:fluid-frontiers-2017": [
+   "NEW2",
+   1
+  ],
+  "tspdt:mues-2017": [
+   "NEW2",
+   5
+  ],
+  "tspdt:colophon-for-the-arboretum-cycle-2018": [
+   "NEW1",
+   5
+  ],
+  "tspdt:between-relating-and-use-2018": [
+   "NEW1",
+   5
+  ],
+  "tspdt:wolves-from-above-2018": [
+   "NEW2",
+   5
+  ],
+  "tspdt:dark-holler-2018": [
+   "NEW2",
+   5
+  ],
+  "tspdt:the-loom-2018": [
+   "NEW2",
+   5
+  ],
+  "tspdt:the-eddies-2018": [
+   "NEW2",
+   5
+  ],
+  "tspdt:towards-the-sun-2018": [
+   "NEW2",
+   5
+  ],
+  "tspdt:3-peonies-2018": [
+   "NEW2",
+   5
+  ],
+  "tt9108382": [
+   "NEW2",
+   5
+  ],
+  "tspdt:sec-rouge-2018": [
+   "NEW2",
+   5
+  ],
+  "tspdt:ada-kaleh-2018": [
+   "NEW2",
+   5
+  ],
+  "tspdt:bearing-2018": [
+   "NEW2",
+   5
+  ],
+  "tspdt:dogs-moon-river-and-baudelaire-2019": [
+   "NEW2",
+   5
+  ],
+  "tspdt:myst-2019": [
+   "NEW1",
+   5
+  ],
+  "tspdt:lore-2019": [
+   "NEW2",
+   5
+  ],
+  "tspdt:ceniza-verde-2020": [
+   "NEW2",
+   5
+  ],
+  "tspdt:glimpses-from-a-visit-to-orkney-in-summe-2020": [
+   "NEW1",
+   5
+  ],
+  "tspdt:the-backside-of-god-2020": [
+   "NEW2",
+   5
+  ],
+  "tspdt:poilean-2020": [
+   "NEW1",
+   5
+  ],
+  "tspdt:while-cursed-by-specters-2020": [
+   "NEW2",
+   5
+  ],
+  "tspdt:happy-valley-2020": [
+   "NEW2",
+   1
+  ],
+  "tspdt:la-chichigua-2020": [
+   "NEW2",
+   5
+  ],
+  "tspdt:dissociative-amnesia-2020": [
+   "NEW2",
+   5
+  ],
+  "tspdt:atmospheric-arrivals-2021": [
+   "NEW2",
+   5
+  ],
+  "tspdt:earthearthearth-2021": [
+   "NEW1",
+   5
+  ],
+  "tspdt:a-dog-you-are-2021": [
+   "NEW2",
+   5
+  ],
+  "tspdt:das-rad-2021": [
+   "NEW2",
+   5
+  ],
+  "tspdt:el-cuervo-la-fosa-y-la-yegua-2021": [
+   "NEW2",
+   5
+  ],
+  "tspdt:the-lights-are-on-no-one-s-home-2021": [
+   "NEW2",
+   5
+  ],
+  "tspdt:las-picapedreras-2021": [
+   "NEW2",
+   5
+  ],
+  "tspdt:magic-castle-is-here-now-2021": [
+   "NEW2",
+   5
+  ],
+  "tspdt:upwards-tide-2021": [
+   "NEW2",
+   5
+  ],
+  "tspdt:deborah-stratman-to-nancy-holt-for-the-t-2021": [
+   "NEW2",
+   5
+  ],
+  "tspdt:luto-2021": [
+   "NEW2",
+   5
+  ],
+  "tspdt:notes-for-a-deja-vu-2021": [
+   "NEW2",
+   5
+  ],
+  "tspdt:winds-of-chanduy-2021": [
+   "NEW2",
+   5
+  ],
+  "tspdt:the-dunes-said-2021": [
+   "NEW2",
+   5
+  ],
+  "tspdt:the-sower-of-stars-2022": [
+   "NEW2",
+   5
+  ],
+  "tspdt:moon-that-cracks-over-the-darkness-of-my-2022": [
+   "NEW2",
+   5
+  ],
+  "tspdt:capsules-portraits-3-2022": [
+   "NEW2",
+   5
+  ],
+  "tspdt:a-day-is-a-day-2022": [
+   "NEW2",
+   5
+  ],
+  "tspdt:darkness-darkness-burning-bright-2022": [
+   "NEW2",
+   5
+  ],
+  "tspdt:snow-crystals-2022": [
+   "NEW2",
+   5
+  ],
+  "tspdt:body-legato-2022": [
+   "NEW2",
+   5
+  ],
+  "tspdt:crow-2022": [
+   "NEW2",
+   5
+  ],
+  "tspdt:before-dark-2022": [
+   "NEW2",
+   5
+  ],
+  "tspdt:anti-cosmos-2022": [
+   "NEW3",
+   6
+  ],
+  "tspdt:autumn-days-2022": [
+   "NEW2",
+   5
+  ],
+  "tspdt:bodies-of-water-2023": [
+   "NEW2",
+   5
+  ],
+  "tspdt:slow-shift-2023": [
+   "NEW2",
+   5
+  ],
+  "tspdt:east-2023": [
+   "NEW2",
+   1
+  ],
+  "tspdt:carroll-gardens-2023": [
+   "NEW2",
+   1
+  ],
+  "tspdt:passing-time-2023": [
+   "NEW2",
+   5
+  ],
+  "tspdt:the-off-season-2023": [
+   "NEW2",
+   5
+  ],
+  "tspdt:and-how-miserable-is-the-home-of-evil-2023": [
+   "NEW2",
+   5
+  ],
+  "tspdt:coyote-2023": [
+   "NEW2",
+   5
+  ],
+  "tspdt:ou-sont-tous-mes-amants-2023": [
+   "NEW1",
+   5
+  ],
+  "tspdt:surrounded-by-colors-we-could-no-longer--2023": [
+   "NEW2",
+   5
+  ],
+  "tspdt:bloom-2023": [
+   "NEW2",
+   5
+  ],
+  "tspdt:archipelago-of-earthen-bones-to-bunya-2024": [
+   "NEW2",
+   5
+  ],
+  "tspdt:history-is-written-at-night-2024": [
+   "NEW2",
+   5
+  ],
+  "tspdt:dreams-reveal-a-weightless-world-2024": [
+   "NEW1",
+   5
+  ],
+  "tspdt:daphne-was-a-torso-ending-in-leaves-2024": [
+   "NEW2",
+   5
+  ],
+  "tspdt:aliados-2024": [
+   "NEW2",
+   5
+  ],
+  "tspdt:flamme-dans-leau-2024": [
+   "NEW2",
+   5
+  ],
+  "tspdt:careless-passage-2024": [
+   "NEW1",
+   5
+  ],
+  "tspdt:a-ladder-2025": [
+   "NEW2",
+   5
+  ],
+  "tspdt:a-departure-2025": [
+   "NEW2",
+   5
+  ],
+  "tspdt:momentum-2025": [
+   "NEW2",
+   5
+  ],
+  "tspdt:the-ruins-of-seyssuels-castle-2025": [
+   "NEW2",
+   5
+  ],
+  "tspdt:tuktuit-caribou-2025": [
+   "NEW2",
+   5
+  ],
+  "tspdt:site-watch-2025": [
+   "NEW2",
+   1
+  ],
+  "tspdt:quisiera-no-sentir-todo-este-ruido-2025": [
+   "NEW2",
+   5
+  ],
+  "tspdt:celestine-florida-storm-2025": [
+   "NEW2",
+   5
+  ],
+  "tspdt:estuary-tidal-ebb-2025": [
+   "NEW2",
+   5
+  ],
+  "tt0377330": [
+   "NEW3",
+   1
+  ],
+  "tspdt:filmblok-0-1-2-1957": [
+   "NEW3",
+   1
+  ],
+  "tt0378717": [
+   "NEW3",
+   1
+  ],
+  "tt0377390": [
+   "NEW3",
+   1
+  ],
+  "tspdt:3-60-baume-im-herbst-1960": [
+   "NEW3",
+   1
+  ],
+  "tspdt:haircut-1963": [
+   "NEW3",
+   2
+  ],
+  "tspdt:fleming-faloon-1963": [
+   "NEW3",
+   5
+  ],
+  "tspdt:7-64-leda-and-the-swan-1964": [
+   "NEW3",
+   1
+  ],
+  "tspdt:the-13-most-beautiful-women-1964": [
+   "NEW3",
+   2
+  ],
+  "tt0130515": [
+   "NEW3",
+   2
+  ],
+  "tspdt:13-most-beautiful-songs-for-andy-warhol--1964": [
+   "NEW3",
+   2
+  ],
+  "tspdt:screen-tests-1964": [
+   "NEW3",
+   2
+  ],
+  "tt0281313": [
+   "NEW3",
+   2
+  ],
+  "tspdt:screen-test-1-1965": [
+   "NEW3",
+   2
+  ],
+  "tspdt:screen-test-2-1965": [
+   "NEW3",
+   2
+  ],
+  "tt2186945": [
+   "NEW3",
+   3
+  ],
+  "tt2187045": [
+   "NEW3",
+   3
+  ],
+  "tspdt:screen-test-4-1966": [
+   "NEW3",
+   2
+  ],
+  "tspdt:hand-film-1966": [
+   "NEW3",
+   3
+  ],
+  "tspdt:the-flicker-1966": [
+   "NEW3",
+   3
+  ],
+  "tspdt:screen-test-3-1966": [
+   "NEW3",
+   2
+  ],
+  "tspdt:film-in-which-there-appear-edge-letterin-1966": [
+   "NEW3",
+   5
+  ],
+  "tspdt:screen-test-st80-marcel-duchamp-1966": [
+   "NEW3",
+   2
+  ],
+  "tspdt:yes-no-maybe-maybenot-1967": [
+   "NEW3",
+   4
+  ],
+  "tspdt:sausalito-1967": [
+   "NEW3",
+   2
+  ],
+  "tspdt:15-67-tv-1967": [
+   "NEW3",
+   1
+  ],
+  "tspdt:bardo-follies-1967": [
+   "NEW3",
+   5
+  ],
+  "tt0130854": [
+   "NEW3",
+   3
+  ],
+  "tt0131042": [
+   "NEW3",
+   3
+  ],
+  "tspdt:rohfilm-1968": [
+   "NEW3",
+   4
+  ],
+  "tspdt:razor-blades-1968": [
+   "NEW3",
+   3
+  ],
+  "tspdt:nothing-1968": [
+   "NEW3",
+   1
+  ],
+  "tspdt:the-film-that-rises-to-the-surface-of-cl-1968": [
+   "NEW3",
+   5
+  ],
+  "tspdt:n-o-t-h-i-n-g-1968": [
+   "NEW3",
+   3
+  ],
+  "tspdt:wait-1968": [
+   "NEW3",
+   3
+  ],
+  "tspdt:moment-1968": [
+   "NEW3",
+   4
+  ],
+  "tt0130537": [
+   "NEW3",
+   3
+  ],
+  "tt0130817": [
+   "NEW3",
+   3
+  ],
+  "tspdt:t-o-u-c-h-i-n-g-1969": [
+   "NEW3",
+   3
+  ],
+  "tspdt:transfer-of-modulation-1969": [
+   "NEW3",
+   4
+  ],
+  "tspdt:spot-the-microdot-1969": [
+   "NEW3",
+   4
+  ],
+  "tspdt:clouds-1969": [
+   "NEW3",
+   4
+  ],
+  "tspdt:reverberation-1969": [
+   "NEW3",
+   3
+  ],
+  "tspdt:institutional-quality-1969": [
+   "NEW3",
+   5
+  ],
+  "tspdt:one-second-in-montreal-1969": [
+   "NEW3",
+   3
+  ],
+  "tspdt:vertical-1969": [
+   "NEW3",
+   4
+  ],
+  "tt0159727": [
+   "NEW3",
+   3
+  ],
+  "tspdt:berlin-horse-1970": [
+   "NEW3",
+   4
+  ],
+  "tspdt:fog-line-1970": [
+   "NEW2",
+   2
+  ],
+  "tt0355817": [
+   "NEW3",
+   3
+  ],
+  "tspdt:remeadial-reading-comprehension-1970": [
+   "NEW3",
+   5
+  ],
+  "tt0130585": [
+   "NEW3",
+   3
+  ],
+  "tt0130908": [
+   "NEW3",
+   3
+  ],
+  "tspdt:film-no-1-1971": [
+   "NEW3",
+   4
+  ],
+  "tspdt:bleu-shut-1971": [
+   "NEW3",
+   3
+  ],
+  "tspdt:what-s-wrong-with-this-picture-1971": [
+   "NEW3",
+   5
+  ],
+  "tspdt:hand-grenade-1971": [
+   "NEW3",
+   4
+  ],
+  "tspdt:s-tream-s-s-ection-s-ection-s-s-ectioned-1971": [
+   "NEW3",
+   3
+  ],
+  "tspdt:dresden-dynamo-1971": [
+   "NEW3",
+   4
+  ],
+  "tspdt:near-the-big-chakra-1971": [
+   "NEW3",
+   3
+  ],
+  "tt0068354": [
+   "NEW3",
+   4
+  ],
+  "tt0130948": [
+   "NEW3",
+   3
+  ],
+  "tspdt:2-45-1972": [
+   "NEW2",
+   2
+  ],
+  "tspdt:wind-vane-1972": [
+   "NEW2",
+   2
+  ],
+  "tspdt:river-yar-1972": [
+   "NEW2",
+   2
+  ],
+  "tspdt:thank-you-jesus-for-the-eternal-present-1973": [
+   "NEW3",
+   5
+  ],
+  "tspdt:film-print-1973": [
+   "NEW3",
+   4
+  ],
+  "tt2187201": [
+   "NEW3",
+   3
+  ],
+  "tspdt:structural-studies-1974": [
+   "NEW3",
+   4
+  ],
+  "tspdt:canadian-pacific-1974": [
+   "NEW2",
+   1
+  ],
+  "tspdt:brick-wall-1974": [
+   "NEW3",
+   3
+  ],
+  "tspdt:fsc-no-1-1974": [
+   "NEW3",
+   4
+  ],
+  "tspdt:eureka-1974": [
+   "NEW3",
+   3
+  ],
+  "tspdt:after-lumiere-l-arroseur-arrose-1974": [
+   "NEW3",
+   4
+  ],
+  "tspdt:color-sound-frames-1974": [
+   "NEW3",
+   3
+  ],
+  "tt2186827": [
+   "NEW3",
+   3
+  ],
+  "tspdt:31-75-asylum-1975": [
+   "NEW3",
+   1
+  ],
+  "tspdt:condition-of-illusion-1975": [
+   "NEW3",
+   4
+  ],
+  "tspdt:the-united-states-of-america-1975": [
+   "NEW3",
+   3
+  ],
+  "tspdt:wide-angle-saxon-1975": [
+   "NEW3",
+   5
+  ],
+  "tspdt:canadian-pacific-ii-1975": [
+   "NEW2",
+   1
+  ],
+  "tspdt:short-film-series-1975": [
+   "NEW3",
+   4
+  ],
+  "tspdt:materialfilme-1976": [
+   "NEW3",
+   4
+  ],
+  "tspdt:epileptic-seizure-comparison-1976": [
+   "NEW3",
+   3
+  ],
+  "tt0125118": [
+   "NEW3",
+   4
+  ],
+  "tspdt:breakfast-table-top-dolly-1976": [
+   "NEW3",
+   3
+  ],
+  "tspdt:33-yo-yo-tricks-1976": [
+   "NEW3",
+   3
+  ],
+  "tspdt:table-1976": [
+   "NEW3",
+   3
+  ],
+  "tt2187107": [
+   "NEW3",
+   3
+  ],
+  "tspdt:chromaticite-i-1977": [
+   "NEW3",
+   4
+  ],
+  "tspdt:untitled-1977": [
+   "NEW3",
+   3
+  ],
+  "tspdt:on-the-marriage-broker-joke-as-cited-by--1977": [
+   "NEW3",
+   5
+  ],
+  "tspdt:declarative-mode-1977": [
+   "NEW3",
+   3
+  ],
+  "tspdt:hoddle-street-suite-1977": [
+   "NEW3",
+   3
+  ],
+  "tspdt:incontinence-1978": [
+   "NEW3",
+   3
+  ],
+  "tspdt:interieur-interiors-to-a-k-1978": [
+   "NEW3",
+   3
+  ],
+  "tspdt:37-78-tree-again-1978": [
+   "NEW3",
+   1
+  ],
+  "tt0075386": [
+   "NEW3",
+   4
+  ],
+  "tspdt:diploteratology-1978": [
+   "NEW3",
+   5
+  ],
+  "tt2186791": [
+   "NEW3",
+   3
+  ],
+  "tt0078473": [
+   "NEW3",
+   4
+  ],
+  "tt0083112": [
+   "NEW3",
+   3
+  ],
+  "tspdt:messages-1981": [
+   "NEW3",
+   4
+  ],
+  "tspdt:les-tournesols-1982": [
+   "NEW2",
+   2
+  ],
+  "tspdt:hotel-cartograph-1982": [
+   "NEW3",
+   3
+  ],
+  "tspdt:standard-gauge-1984": [
+   "NEW3",
+   3
+  ],
+  "tspdt:the-box-theory-1984": [
+   "NEW3",
+   5
+  ],
+  "tspdt:downside-up-1985": [
+   "NEW3",
+   6
+  ],
+  "tspdt:seated-figures-1988": [
+   "NEW3",
+   6
+  ],
+  "tspdt:see-you-later-1990": [
+   "NEW3",
+   6
+  ],
+  "tspdt:a-year-along-the-abandoned-road-1991": [
+   "NEW2",
+   2
+  ],
+  "tspdt:meni-1994": [
+   "NEW3",
+   6
+  ],
+  "tt0111339": [
+   "NEW3",
+   6
+  ],
+  "tspdt:blight-1996": [
+   "NEW3",
+   6
+  ],
+  "tspdt:assumption-1997": [
+   "NEW3",
+   6
+  ],
+  "tspdt:one-1998": [
+   "NEW3",
+   6
+  ],
+  "tspdt:l-envers-1998": [
+   "NEW3",
+   6
+  ],
+  "tspdt:i-am-the-one-to-decide-your-one-second-2001": [
+   "NEW3",
+   6
+  ],
+  "tspdt:voiliers-et-coquelicots-2002": [
+   "NEW2",
+   2
+  ],
+  "tspdt:st-ignatius-church-exposure-lenten-light-2004": [
+   "NEW3",
+   6
+  ],
+  "tspdt:market-street-2005": [
+   "NEW2",
+   1
+  ],
+  "tspdt:sshtoorrty-2005": [
+   "NEW3",
+   6
+  ],
+  "tspdt:what-the-water-said-nos-4-6-2007": [
+   "NEW3",
+   6
+  ],
+  "tspdt:on-the-marriage-broker-joke-as-cited-by--2009": [
+   "NEW3",
+   5
+  ],
+  "tspdt:generator-2011": [
+   "NEW3",
+   6
+  ],
+  "tt2225782": [
+   "NEW3",
+   6
+  ],
+  "tt1846444": [
+   "NEW3",
+   6
+  ],
+  "tspdt:dot-matrix-2013": [
+   "NEW3",
+   6
+  ],
+  "tspdt:spectrum-reverse-spectrum-2014": [
+   "NEW3",
+   6
+  ],
+  "tspdt:a-commuter-s-life-what-a-life-2014": [
+   "NEW3",
+   6
+  ],
+  "tspdt:sound-of-a-million-insects-light-of-a-th-2015": [
+   "NEW2",
+   2
+  ],
+  "tspdt:ash-01-2016": [
+   "NEW2",
+   2
+  ],
+  "tspdt:atlantic35-2016": [
+   "NEW2",
+   2
+  ],
+  "tspdt:ten-mornings-ten-evenings-and-one-horizo-2016": [
+   "NEW2",
+   2
+  ],
+  "tspdt:at-the-horizon-2017": [
+   "NEW2",
+   2
+  ],
+  "tspdt:more-than-everything-2018": [
+   "NEW3",
+   6
+  ],
+  "tspdt:two-moons-2018": [
+   "NEW2",
+   2
+  ],
+  "tspdt:postdigital-flipbook-2019": [
+   "NEW3",
+   6
+  ],
+  "tspdt:study-for-a-battle-2019": [
+   "NEW3",
+   6
+  ],
+  "tt7976972": [
+   "NEW2",
+   2
+  ],
+  "tspdt:his-her-2019": [
+   "NEW3",
+   6
+  ],
+  "tspdt:193-octillion-2020": [
+   "NEW3",
+   6
+  ],
+  "tspdt:further-radical-2020": [
+   "NEW3",
+   6
+  ],
+  "tspdt:a-proposal-to-project-in-scope-2020": [
+   "NEW3",
+   6
+  ],
+  "tspdt:double-phase-2020": [
+   "NEW3",
+   6
+  ],
+  "tspdt:oscillation-2020": [
+   "NEW3",
+   6
+  ],
+  "tspdt:twice-2020": [
+   "NEW3",
+   6
+  ],
+  "tt3975918": [
+   "NEW3",
+   6
+  ],
+  "tspdt:eventide-2022": [
+   "NEW2",
+   2
+  ],
+  "tspdt:the-analogy-of-space-2022": [
+   "NEW3",
+   6
+  ],
+  "tspdt:infinite-column-2022": [
+   "NEW3",
+   6
+  ],
+  "tt13515090": [
+   "NEW3",
+   6
+  ],
+  "tspdt:laberint-sequences-2023": [
+   "NEW3",
+   6
+  ],
+  "tspdt:vibrant-matter-2024": [
+   "NEW3",
+   6
+  ],
+  "tspdt:x-ray-eros-2025": [
+   "NEW3",
+   6
+  ],
+  "tspdt:interactions-24-becky-and-mike-2025": [
+   "NEW3",
+   6
+  ],
+  "tspdt:rojo-zalia-blau-2025": [
+   "NEW3",
+   6
+  ],
+  "tt0138758": [
+   "NEW4",
+   1
+  ],
+  "tspdt:jack-s-dream-1938": [
+   "NEW4",
+   1
+  ],
+  "tspdt:midnight-party-1938": [
+   "NEW4",
+   1
+  ],
+  "tspdt:cotillion-1938": [
+   "NEW4",
+   1
+  ],
+  "tspdt:the-children-s-party-1938": [
+   "NEW4",
+   1
+  ],
+  "tspdt:gnir-rednow-1955": [
+   "NEW4",
+   1
+  ],
+  "tspdt:aviary-1955": [
+   "NEW4",
+   1
+  ],
+  "tspdt:fable-for-fountains-1957": [
+   "NEW4",
+   1
+  ],
+  "tspdt:angel-1957": [
+   "NEW4",
+   1
+  ],
+  "tt0051952": [
+   "NEW4",
+   1
+  ],
+  "tt0130581": [
+   "NEW4",
+   2
+  ],
+  "tspdt:towers-open-fire-1963": [
+   "NEW4",
+   2
+  ],
+  "tspdt:breath-death-1964": [
+   "NEW4",
+   2
+  ],
+  "tspdt:free-fall-1964": [
+   "NEW4",
+   2
+  ],
+  "tspdt:number-14-late-superimpositions-1964": [
+   "NEW4",
+   2
+  ],
+  "tt0222664": [
+   "NEW4",
+   2
+  ],
+  "tspdt:la-verifica-incerta-1965": [
+   "NEW4",
+   2
+  ],
+  "tspdt:schmeerguntz-1965": [
+   "NEW4",
+   2
+  ],
+  "tspdt:a-trip-down-memory-lane-1965": [
+   "NEW4",
+   2
+  ],
+  "tspdt:wols-1965": [
+   "NEW4",
+   2
+  ],
+  "tspdt:oh-dem-watermelons-1965": [
+   "NEW4",
+   2
+  ],
+  "tt0376293": [
+   "NEW4",
+   2
+  ],
+  "tspdt:breakaway-1966": [
+   "NEW4",
+   2
+  ],
+  "tspdt:the-cut-ups-1966": [
+   "NEW4",
+   2
+  ],
+  "tt0130976": [
+   "NEW4",
+   2
+  ],
+  "tspdt:marvo-movie-1967": [
+   "NEW4",
+   2
+  ],
+  "tspdt:handtinting-1967": [
+   "NEW4",
+   2
+  ],
+  "tspdt:-1967": [
+   "NEW4",
+   2
+  ],
+  "tspdt:great-society-1967": [
+   "NEW4",
+   2
+  ],
+  "tspdt:castle-two-1968": [
+   "NEW4",
+   2
+  ],
+  "tspdt:cut-off-movie-1969": [
+   "NEW4",
+   2
+  ],
+  "tspdt:runs-good-1971": [
+   "NEW4",
+   2
+  ],
+  "tspdt:easy-out-1972": [
+   "NEW4",
+   2
+  ],
+  "tspdt:variations-on-a-cellophane-wrapper-1972": [
+   "NEW4",
+   2
+  ],
+  "tspdt:white-dust-1972": [
+   "NEW4",
+   2
+  ],
+  "tspdt:the-politics-of-perception-1973": [
+   "NEW4",
+   2
+  ],
+  "tspdt:marilyn-times-five-1973": [
+   "NEW4",
+   2
+  ],
+  "tspdt:watching-for-the-queen-1973": [
+   "NEW4",
+   2
+  ],
+  "tspdt:saugus-series-1974": [
+   "NEW4",
+   2
+  ],
+  "tspdt:associations-1975": [
+   "NEW4",
+   2
+  ],
+  "tspdt:ein-drittes-reich-1975": [
+   "NEW4",
+   2
+  ],
+  "tspdt:crossroads-1976": [
+   "NEW4",
+   2
+  ],
+  "tspdt:take-the-5-10-to-dreamland-1976": [
+   "NEW4",
+   2
+  ],
+  "tspdt:valse-triste-1977": [
+   "NEW4",
+   2
+  ],
+  "tspdt:light-reading-1978": [
+   "NEW4",
+   2
+  ],
+  "tspdt:mongoloid-1978": [
+   "NEW4",
+   2
+  ],
+  "tt0141625": [
+   "NEW4",
+   3
+  ],
+  "tt0082017": [
+   "NEW4",
+   3
+  ],
+  "tspdt:sxxx80-1980": [
+   "NEW4",
+   3
+  ],
+  "tspdt:deutschland-spiegel-1980": [
+   "NEW4",
+   3
+  ],
+  "tspdt:mr-suzuki-comes-to-australia-1981": [
+   "NEW4",
+   3
+  ],
+  "tspdt:adynata-1983": [
+   "NEW4",
+   3
+  ],
+  "tspdt:imagining-october-1984": [
+   "NEW4",
+   3
+  ],
+  "tspdt:peggy-and-fred-in-hell-the-prologue-1984": [
+   "NEW4",
+   3
+  ],
+  "tspdt:stadt-in-flammen-1984": [
+   "NEW4",
+   3
+  ],
+  "tt0156770": [
+   "NEW4",
+   3
+  ],
+  "tt0091787": [
+   "NEW4",
+   3
+  ],
+  "tspdt:perfect-film-1986": [
+   "NEW4",
+   3
+  ],
+  "tspdt:bang-1986": [
+   "NEW4",
+   3
+  ],
+  "tspdt:c-mon-babe-1986": [
+   "NEW4",
+   3
+  ],
+  "tspdt:a-western-1987": [
+   "NEW4",
+   3
+  ],
+  "tspdt:warm-broth-1988": [
+   "NEW4",
+   3
+  ],
+  "tspdt:gelosi-e-tranquilli-1988": [
+   "NEW4",
+   3
+  ],
+  "tspdt:biopotentials-1988": [
+   "NEW4",
+   3
+  ],
+  "tspdt:primary-photobiological-processes-1988": [
+   "NEW4",
+   3
+  ],
+  "tspdt:sodom-1989": [
+   "NEW4",
+   3
+  ],
+  "tspdt:remains-to-be-seen-1989": [
+   "NEW4",
+   3
+  ],
+  "tspdt:1001-films-1989": [
+   "NEW4",
+   3
+  ],
+  "tspdt:self-organization-of-biological-systems-1989": [
+   "NEW4",
+   3
+  ],
+  "tspdt:sanctus-1990": [
+   "NEW4",
+   3
+  ],
+  "tspdt:home-stories-1990": [
+   "NEW4",
+   3
+  ],
+  "tspdt:posledniy-son-anatoliya-vasilievicha-1990": [
+   "NEW4",
+   3
+  ],
+  "tspdt:lady-lazarus-1991": [
+   "NEW4",
+   3
+  ],
+  "tspdt:the-illustrated-auschwitz-1992": [
+   "NEW4",
+   3
+  ],
+  "tspdt:chronicles-of-a-lying-spirit-by-kelly-ga-1992": [
+   "NEW4",
+   3
+  ],
+  "tspdt:passage-a-l-acte-1993": [
+   "NEW4",
+   3
+  ],
+  "tspdt:the-color-of-love-1994": [
+   "NEW4",
+   3
+  ],
+  "tspdt:the-smell-of-burning-ants-1994": [
+   "NEW4",
+   3
+  ],
+  "tspdt:frank-s-cock-1994": [
+   "NEW4",
+   3
+  ],
+  "tspdt:the-exquisite-hour-1994": [
+   "NEW4",
+   3
+  ],
+  "tspdt:passeio-com-johnny-guitar-1996": [
+   "NEW4",
+   3
+  ],
+  "tspdt:hardwood-process-1996": [
+   "NEW4",
+   3
+  ],
+  "tspdt:disorient-express-1996": [
+   "NEW4",
+   3
+  ],
+  "tspdt:diana-s-mirror-1996": [
+   "NEW4",
+   3
+  ],
+  "tspdt:mariage-blanc-1996": [
+   "NEW4",
+   3
+  ],
+  "tspdt:horizontal-boundaries-1997": [
+   "NEW4",
+   3
+  ],
+  "tspdt:retrospectoscope-1997": [
+   "NEW4",
+   3
+  ],
+  "tspdt:circle-s-short-circuit-1998": [
+   "NEW4",
+   3
+  ],
+  "tspdt:shulie-1998": [
+   "NEW4",
+   3
+  ],
+  "tt0157304": [
+   "NEW4",
+   3
+  ],
+  "tspdt:hauling-toto-big-1998": [
+   "NEW4",
+   3
+  ],
+  "tt0219964": [
+   "NEW4",
+   3
+  ],
+  "tt0156299": [
+   "NEW4",
+   3
+  ],
+  "tspdt:fiorucci-made-me-hardcore-1999": [
+   "NEW4",
+   3
+  ],
+  "tspdt:removed-1999": [
+   "NEW4",
+   3
+  ],
+  "tspdt:frammenti-elletrici-n-1-4-2001": [
+   "NEW4",
+   4
+  ],
+  "tt0303331": [
+   "NEW4",
+   4
+  ],
+  "tt0876492": [
+   "NEW4",
+   4
+  ],
+  "tspdt:racine-1-2002": [
+   "NEW4",
+   4
+  ],
+  "tspdt:psalm-iii-night-of-the-meek-2002": [
+   "NEW4",
+   4
+  ],
+  "tspdt:dichtung-und-wahrheit-2003": [
+   "NEW4",
+   4
+  ],
+  "tspdt:-2003": [
+   "NEW4",
+   4
+  ],
+  "tspdt:reckless-eyeballing-2004": [
+   "NEW4",
+   4
+  ],
+  "tspdt:the-great-art-of-knowing-2004": [
+   "NEW4",
+   4
+  ],
+  "tspdt:mountaineer-spinning-2004": [
+   "NEW4",
+   4
+  ],
+  "tt0493428": [
+   "NEW4",
+   4
+  ],
+  "tspdt:general-returns-from-once-place-to-anoth-2006": [
+   "NEW4",
+   4
+  ],
+  "tspdt:porviroscopio-2006": [
+   "NEW4",
+   4
+  ],
+  "tspdt:capitalism-child-labor-2006": [
+   "NEW4",
+   4
+  ],
+  "tspdt:three-screen-ray-2006": [
+   "NEW4",
+   4
+  ],
+  "tspdt:even-if-she-had-been-a-criminal-2006": [
+   "NEW4",
+   4
+  ],
+  "tspdt:capitalism-slavery-2007": [
+   "NEW4",
+   4
+  ],
+  "tspdt:200000-fantomes-2007": [
+   "NEW4",
+   4
+  ],
+  "tspdt:mosaik-mecanique-2008": [
+   "NEW4",
+   4
+  ],
+  "tspdt:odipus-monument-test-01-2008": [
+   "NEW4",
+   4
+  ],
+  "tspdt:shelly-winters-2010": [
+   "NEW4",
+   4
+  ],
+  "tspdt:wild-strike-genesis-2010": [
+   "NEW4",
+   4
+  ],
+  "tspdt:lost-things-2010": [
+   "NEW4",
+   4
+  ],
+  "tspdt:arcana-2011": [
+   "NEW4",
+   4
+  ],
+  "tspdt:circle-in-the-sand-2012": [
+   "NEW4",
+   4
+  ],
+  "tspdt:orpheus-outtakes-2012": [
+   "NEW4",
+   4
+  ],
+  "tspdt:creme-21-2013": [
+   "NEW4",
+   4
+  ],
+  "tspdt:what-places-of-heaven-what-planets-direc-2013": [
+   "NEW4",
+   4
+  ],
+  "tspdt:zabriskie-point-redacted-2013": [
+   "NEW4",
+   4
+  ],
+  "tspdt:the-realist-2013": [
+   "NEW4",
+   4
+  ],
+  "tspdt:the-emblazaned-apparition-2013": [
+   "NEW4",
+   4
+  ],
+  "tspdt:i-wasn-t-there-2014": [
+   "NEW4",
+   4
+  ],
+  "tspdt:the-dent-2014": [
+   "NEW4",
+   4
+  ],
+  "tspdt:the-dragon-is-the-frame-2014": [
+   "NEW4",
+   4
+  ],
+  "tspdt:sem-titulo-1-dance-of-leitfossil-2014": [
+   "NEW4",
+   4
+  ],
+  "tspdt:beyond-zero-1914-1918-2014": [
+   "NEW4",
+   4
+  ],
+  "tspdt:my-bby-8l3w-2014": [
+   "NEW4",
+   4
+  ],
+  "tspdt:dream-english-kid-1964-1999-ad-2015": [
+   "NEW4",
+   5
+  ],
+  "tspdt:the-exquisite-corpus-2015": [
+   "NEW4",
+   5
+  ],
+  "tspdt:psychic-driving-2015": [
+   "NEW4",
+   5
+  ],
+  "tt7778656": [
+   "NEW4",
+   5
+  ],
+  "tspdt:answer-print-2016": [
+   "NEW4",
+   5
+  ],
+  "tspdt:an-ecstatic-experience-2016": [
+   "NEW4",
+   5
+  ],
+  "tspdt:rebirth-is-necessary-2017": [
+   "NEW4",
+   5
+  ],
+  "tspdt:onward-lossless-follows-2017": [
+   "NEW4",
+   5
+  ],
+  "tspdt:delphi-falls-2017": [
+   "NEW4",
+   5
+  ],
+  "tspdt:watching-the-detectives-2017": [
+   "NEW4",
+   5
+  ],
+  "tspdt:armageddon-2-2017": [
+   "NEW4",
+   5
+  ],
+  "tspdt:music-is-my-mistress-2017": [
+   "NEW4",
+   5
+  ],
+  "tspdt:the-white-album-2018": [
+   "NEW4",
+   5
+  ],
+  "tspdt:life-after-love-2018": [
+   "NEW4",
+   5
+  ],
+  "tspdt:sojourner-2018": [
+   "NEW4",
+   5
+  ],
+  "tspdt:vever-for-barbara-2019": [
+   "NEW4",
+   5
+  ],
+  "tspdt:mad-mieter-2019": [
+   "NEW4",
+   5
+  ],
+  "tspdt:the-giverny-suite-2019": [
+   "NEW4",
+   5
+  ],
+  "tspdt:pelourinho-they-don-t-really-care-about--2019": [
+   "NEW4",
+   5
+  ],
+  "tspdt:covid-messages-2020": [
+   "NEW4",
+   5
+  ],
+  "tspdt:brazil-is-thee-haiti-is-t-here-2020": [
+   "NEW4",
+   5
+  ],
+  "tspdt:maat-means-land-2020": [
+   "NEW4",
+   5
+  ],
+  "tspdt:labor-of-love-2020": [
+   "NEW4",
+   5
+  ],
+  "tspdt:psychic-meat-2020": [
+   "NEW4",
+   5
+  ],
+  "tt12472252": [
+   "NEW4",
+   5
+  ],
+  "tspdt:tremendous-cream-2020": [
+   "NEW4",
+   5
+  ],
+  "tspdt:movie-that-invites-pausing-2020": [
+   "NEW4",
+   5
+  ],
+  "tspdt:trampa-de-luz-2021": [
+   "NEW4",
+   5
+  ],
+  "tspdt:to-pick-a-flower-2021": [
+   "NEW4",
+   5
+  ],
+  "tspdt:bodies-in-dissent-2021": [
+   "NEW4",
+   5
+  ],
+  "tspdt:the-canyon-2021": [
+   "NEW4",
+   5
+  ],
+  "tspdt:polycephaly-in-d-2021": [
+   "NEW4",
+   5
+  ],
+  "tspdt:train-again-2021": [
+   "NEW4",
+   5
+  ],
+  "tspdt:tierra-en-trance-2022": [
+   "NEW4",
+   5
+  ],
+  "tspdt:3some-collage-2022": [
+   "NEW4",
+   5
+  ],
+  "tspdt:f1ghting-looks-different-2-me-now-2022": [
+   "NEW4",
+   5
+  ],
+  "tspdt:singing-in-oblivion-2022": [
+   "NEW4",
+   5
+  ],
+  "tspdt:instant-life-2022": [
+   "NEW4",
+   5
+  ],
+  "tspdt:house-of-victories-2022": [
+   "NEW4",
+   5
+  ],
+  "tspdt:example-35-2022": [
+   "NEW4",
+   5
+  ],
+  "tspdt:nazarbazi-2022": [
+   "NEW4",
+   5
+  ],
+  "tspdt:the-human-torch-2022": [
+   "NEW4",
+   5
+  ],
+  "tspdt:quiet-as-it-s-kept-2023": [
+   "NEW4",
+   5
+  ],
+  "tspdt:writhing-city-2023": [
+   "NEW4",
+   5
+  ],
+  "tspdt:the-angel-of-forms-2023": [
+   "NEW4",
+   5
+  ],
+  "tspdt:mast-del-2023": [
+   "NEW4",
+   5
+  ],
+  "tspdt:i-am-propaganda-2023": [
+   "NEW4",
+   5
+  ],
+  "tspdt:teocalli-2024": [
+   "NEW4",
+   5
+  ],
+  "tspdt:being-john-smith-2024": [
+   "NEW4",
+   5
+  ],
+  "tspdt:razeh-del-2024": [
+   "NEW4",
+   5
+  ],
+  "tspdt:speaking-in-tongues-take-one-2024": [
+   "NEW4",
+   5
+  ],
+  "tspdt:digital-devil-saga-2024": [
+   "NEW4",
+   5
+  ],
+  "tspdt:hymn-of-the-plague-2024": [
+   "NEW4",
+   5
+  ],
+  "tspdt:wedlock-tradwife-2025": [
+   "NEW4",
+   5
+  ],
+  "tspdt:outer-and-inner-space-1966": [
+   "NEW5",
+   1
+  ],
+  "tt0277931": [
+   "NEW5",
+   1
+  ],
+  "tspdt:for-my-crushed-right-eye-1968": [
+   "NEW5",
+   1
+  ],
+  "tspdt:black-tv-1968": [
+   "NEW5",
+   1
+  ],
+  "tt0272199": [
+   "NEW5",
+   1
+  ],
+  "tspdt:spiral-jetty-1970": [
+   "NEW5",
+   1
+  ],
+  "tspdt:katzi-1970": [
+   "NEW5",
+   1
+  ],
+  "tspdt:fly-1970": [
+   "NEW5",
+   1
+  ],
+  "tspdt:manopsychotisches-ballett-1970": [
+   "NEW5",
+   1
+  ],
+  "tspdt:horror-film-1-1971": [
+   "NEW5",
+   1
+  ],
+  "tspdt:vertical-roll-1972": [
+   "NEW5",
+   1
+  ],
+  "tspdt:selected-works-reel-4-1972": [
+   "NEW5",
+   1
+  ],
+  "tspdt:consumer-art-1972": [
+   "NEW5",
+   1
+  ],
+  "tspdt:line-describing-a-cone-1973": [
+   "NEW5",
+   1
+  ],
+  "tspdt:reel-time-1973": [
+   "NEW5",
+   1
+  ],
+  "tspdt:global-groove-1973": [
+   "NEW5",
+   1
+  ],
+  "tspdt:mann-frau-animal-1973": [
+   "NEW5",
+   1
+  ],
+  "tspdt:three-transitions-1973": [
+   "NEW5",
+   1
+  ],
+  "tspdt:tv-buddha-installation-1974": [
+   "NEW5",
+   1
+  ],
+  "tt1095169": [
+   "NEW5",
+   1
+  ],
+  "tspdt:light-music-1975": [
+   "NEW5",
+   1
+  ],
+  "tspdt:mouth-to-mouth-1975": [
+   "NEW5",
+   1
+  ],
+  "tspdt:eat-me-1975": [
+   "NEW5",
+   1
+  ],
+  "tspdt:semiotics-of-the-kitchen-1975": [
+   "NEW5",
+   1
+  ],
+  "tspdt:man-with-mirror-1976": [
+   "NEW5",
+   1
+  ],
+  "tspdt:after-cease-to-exist-1977": [
+   "NEW5",
+   1
+  ],
+  "tspdt:technology-transformation-wonder-woman-1978": [
+   "NEW5",
+   1
+  ],
+  "tspdt:manless-1981": [
+   "NEW5",
+   2
+  ],
+  "tspdt:the-man-who-could-not-see-far-enough-1981": [
+   "NEW5",
+   2
+  ],
+  "tt7275680": [
+   "NEW5",
+   2
+  ],
+  "tspdt:home-improvements-1985": [
+   "NEW5",
+   2
+  ],
+  "tspdt:golfball-ode-to-ibm-1985": [
+   "NEW5",
+   2
+  ],
+  "tspdt:joan-does-dynasty-1986": [
+   "NEW5",
+   2
+  ],
+  "tt0094300": [
+   "NEW5",
+   2
+  ],
+  "tspdt:steps-1987": [
+   "NEW5",
+   2
+  ],
+  "tspdt:weather-diary-3-1988": [
+   "NEW5",
+   2
+  ],
+  "tspdt:measures-of-distance-1988": [
+   "NEW5",
+   2
+  ],
+  "tspdt:a-cold-draft-1988": [
+   "NEW5",
+   2
+  ],
+  "tspdt:puissance-de-la-parole-1988": [
+   "NEW5",
+   2
+  ],
+  "tspdt:pedagogue-1988": [
+   "NEW5",
+   2
+  ],
+  "tspdt:incidence-of-catastrophe-1988": [
+   "NEW5",
+   2
+  ],
+  "tspdt:pickle-surprise-1989": [
+   "NEW5",
+   2
+  ],
+  "tspdt:if-every-girl-had-a-diary-1990": [
+   "NEW5",
+   2
+  ],
+  "tspdt:jollies-1990": [
+   "NEW5",
+   2
+  ],
+  "tt0136710": [
+   "NEW5",
+   2
+  ],
+  "tspdt:a-place-called-lovely-1991": [
+   "NEW5",
+   2
+  ],
+  "tspdt:it-wasn-t-love-1992": [
+   "NEW5",
+   2
+  ],
+  "tspdt:nantes-triptych-1992": [
+   "NEW5",
+   2
+  ],
+  "tspdt:martina-s-playhouse-1993": [
+   "NEW5",
+   2
+  ],
+  "tspdt:phat-free-1995": [
+   "NEW5",
+   2
+  ],
+  "tspdt:tribology-1996": [
+   "NEW5",
+   2
+  ],
+  "tspdt:talent-show-installation-1996": [
+   "NEW5",
+   2
+  ],
+  "tspdt:2-into-1-1997": [
+   "NEW5",
+   2
+  ],
+  "tspdt:exodus-1997": [
+   "NEW5",
+   2
+  ],
+  "tspdt:deadpan-1997": [
+   "NEW5",
+   2
+  ],
+  "tspdt:my-levitating-butt-1997": [
+   "NEW5",
+   2
+  ],
+  "tspdt:ever-is-over-all-1997": [
+   "NEW5",
+   2
+  ],
+  "tspdt:the-white-to-be-angry-1999": [
+   "NEW5",
+   2
+  ],
+  "tspdt:rapture-1999": [
+   "NEW5",
+   2
+  ],
+  "tspdt:consolation-service-2000": [
+   "NEW5",
+   3
+  ],
+  "tspdt:la-tombola-2001": [
+   "NEW5",
+   3
+  ],
+  "tspdt:girls-tricky-2001": [
+   "NEW5",
+   3
+  ],
+  "tspdt:anti-dialectic-2001": [
+   "NEW5",
+   3
+  ],
+  "tspdt:carib-s-leap-2002": [
+   "NEW5",
+   3
+  ],
+  "tspdt:doctor-schizo-e-mister-phrenic-2002": [
+   "NEW5",
+   3
+  ],
+  "tt6548178": [
+   "NEW5",
+   3
+  ],
+  "tspdt:textism-2003": [
+   "NEW5",
+   3
+  ],
+  "tspdt:the-scissors-2003": [
+   "NEW5",
+   3
+  ],
+  "tspdt:man-road-river-2004": [
+   "NEW5",
+   3
+  ],
+  "tspdt:motion-report-2004": [
+   "NEW5",
+   3
+  ],
+  "tspdt:stories-are-propaganda-2005": [
+   "NEW5",
+   3
+  ],
+  "tspdt:a-family-finds-entertainment-2005": [
+   "NEW5",
+   3
+  ],
+  "tspdt:what-i-m-looking-for-2005": [
+   "NEW5",
+   3
+  ],
+  "tspdt:in-memoriam-for-mark-lapore-series-2005": [
+   "NEW5",
+   3
+  ],
+  "tspdt:whose-utopia-2006": [
+   "NEW5",
+   3
+  ],
+  "tspdt:sick-film-2006": [
+   "NEW5",
+   3
+  ],
+  "tspdt:a-journey-that-wasn-t-2006": [
+   "NEW5",
+   3
+  ],
+  "tspdt:visitors-2006": [
+   "NEW5",
+   3
+  ],
+  "tspdt:rehearsals-for-retirement-2007": [
+   "NEW5",
+   3
+  ],
+  "tspdt:systems-of-nature-installation-2007": [
+   "NEW5",
+   3
+  ],
+  "tspdt:stealing-beauty-2007": [
+   "NEW5",
+   3
+  ],
+  "tspdt:suicidal-variations-2007": [
+   "NEW5",
+   3
+  ],
+  "tspdt:cheese-2008": [
+   "NEW5",
+   3
+  ],
+  "tspdt:mary-koszmary-2008": [
+   "NEW5",
+   3
+  ],
+  "tspdt:green-dolphin-2008": [
+   "NEW5",
+   3
+  ],
+  "tspdt:emerald-2008": [
+   "NEW5",
+   3
+  ],
+  "tspdt:phantoms-of-nabua-2009": [
+   "NEW5",
+   3
+  ],
+  "tspdt:dystopia-files-2009": [
+   "NEW5",
+   3
+  ],
+  "tspdt:evolution-megaplex-2010": [
+   "NEW5",
+   3
+  ],
+  "tspdt:tse-2010": [
+   "NEW5",
+   3
+  ],
+  "tspdt:tomorrow-everything-will-be-alright-2010": [
+   "NEW5",
+   3
+  ],
+  "tt8164278": [
+   "NEW5",
+   3
+  ],
+  "tspdt:evil-27-selma-2011": [
+   "NEW5",
+   3
+  ],
+  "tspdt:seeking-the-monkey-king-2011": [
+   "NEW5",
+   3
+  ],
+  "tspdt:artefacts-2011": [
+   "NEW5",
+   3
+  ],
+  "tspdt:5-000-feet-is-the-best-2011": [
+   "NEW5",
+   3
+  ],
+  "tspdt:the-pips-2011": [
+   "NEW5",
+   3
+  ],
+  "tspdt:ziehen-2012": [
+   "NEW5",
+   3
+  ],
+  "tspdt:the-woolworths-choir-of-1979-2012": [
+   "NEW5",
+   3
+  ],
+  "tspdt:between-the-waves-2012": [
+   "NEW5",
+   3
+  ],
+  "tspdt:us-dead-talk-love-installation-2012": [
+   "NEW5",
+   3
+  ],
+  "tspdt:how-not-to-be-seen-2013": [
+   "NEW5",
+   4
+  ],
+  "tspdt:colterrain-2013": [
+   "NEW5",
+   4
+  ],
+  "tspdt:article-left-by-the-departed-installatio-2013": [
+   "NEW5",
+   4
+  ],
+  "tspdt:untitled-human-mask-2014": [
+   "NEW5",
+   4
+  ],
+  "tspdt:duty-free-art-2015": [
+   "NEW5",
+   4
+  ],
+  "tt4008758": [
+   "NEW5",
+   4
+  ],
+  "tspdt:soft-crash-2016": [
+   "NEW5",
+   4
+  ],
+  "tspdt:from-source-to-poem-2016": [
+   "NEW5",
+   4
+  ],
+  "tspdt:not-even-nothing-can-be-free-of-ghosts-2016": [
+   "NEW5",
+   4
+  ],
+  "tspdt:the-dust-channel-2016": [
+   "NEW5",
+   4
+  ],
+  "tspdt:rubber-coated-steel-2017": [
+   "NEW5",
+   4
+  ],
+  "tspdt:spite-your-face-2017": [
+   "NEW5",
+   4
+  ],
+  "tspdt:liminals-2017": [
+   "NEW5",
+   4
+  ],
+  "tspdt:love-before-bond-2017": [
+   "NEW5",
+   4
+  ],
+  "tspdt:party-on-the-caps-2018": [
+   "NEW5",
+   4
+  ],
+  "tspdt:consensual-healing-2018": [
+   "NEW5",
+   4
+  ],
+  "tspdt:all-voices-are-mine-2018": [
+   "NEW5",
+   4
+  ],
+  "tspdt:no-history-in-a-room-filled-with-people--2018": [
+   "NEW5",
+   4
+  ],
+  "tspdt:fi-dem-ii-2019": [
+   "NEW5",
+   4
+  ],
+  "tspdt:the-morrissey-problem-2019": [
+   "NEW5",
+   4
+  ],
+  "tspdt:dark-trees-2019": [
+   "NEW5",
+   4
+  ],
+  "tspdt:it-has-to-be-lived-once-and-dreamed-twic-2019": [
+   "NEW5",
+   4
+  ],
+  "tspdt:you-were-an-amazement-on-the-day-you-wer-2019": [
+   "NEW5",
+   4
+  ],
+  "tspdt:z-z-zz-1-mod-2-1-lavender-town-syndrome--2020": [
+   "NEW5",
+   4
+  ],
+  "tspdt:graeae-a-stationed-idea-2020": [
+   "NEW5",
+   4
+  ],
+  "tspdt:shape-of-things-the-installation-2021": [
+   "NEW5",
+   4
+  ],
+  "tspdt:glass-life-2021": [
+   "NEW5",
+   4
+  ],
+  "tspdt:an-art-historian-s-recipe-2021": [
+   "NEW5",
+   4
+  ],
+  "tspdt:la-quinta-del-sordo-2021": [
+   "NEW5",
+   4
+  ],
+  "tspdt:li-f-v-e-2021": [
+   "NEW5",
+   4
+  ],
+  "tspdt:lagareh-the-last-born-2022": [
+   "NEW5",
+   4
+  ],
+  "tspdt:bombay-tilts-down-installation-2022": [
+   "NEW5",
+   4
+  ],
+  "tspdt:abattoir-u-s-a-2023": [
+   "NEW5",
+   4
+  ],
+  "tspdt:reality-or-not-2023": [
+   "NEW5",
+   4
+  ],
+  "tspdt:para-la-coca-installation-2023": [
+   "NEW5",
+   4
+  ],
+  "tspdt:abgad-hawaz-2024": [
+   "NEW5",
+   4
+  ],
+  "tspdt:morning-circle-2025": [
+   "NEW5",
+   4
+  ],
+  "tspdt:felt-2025": [
+   "NEW5",
+   4
+  ],
+  "tspdt:toward-a-fundamental-theory-of-physics-2025": [
+   "NEW5",
+   4
+  ]
+ },
+ "moves": []
+}
