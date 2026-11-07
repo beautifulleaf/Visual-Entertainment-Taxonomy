@@ -62,3 +62,11 @@ The rest go to EP under their makers:
 | *Pam & Tommy Lee: Stolen Honeymoon* (1995) | **Excluded from both taxonomies.** The tape was stolen and distributed without consent (B2). Drop it from the TSPDT carry. |
 
 **Totals:** 5 VE (3 decided here, plus the 2 already decided), 30 EP, 1 excluded, making 36. VE keeps Finder rows "pornographic film", "porno chic", "gay adult film" and "Japanese AV", all pointing to EP II-K-1.
+
+## Owner decisions on the open items (2026-11-07): "Those stay pleasure, apply that"
+- *Sex Garage* (Fred Halsted) and *Bijou* (Wakefield Poole): EP, under their makers.
+- *Forced Entry*: EP, listed under its director (Lizzy Borden) at maker level.
+- *Chaudes adolescentes*: EP under its director, Gérard Kikoïne; the title is not named in any gloss (cast ages not confirmable; B1).
+- Painted pin-up (Vargas, Petty, Elvgren): stays EP (II-K-11 print and pin-up trade); not moved to VE.
+- Tom of Finland: EP (physique-magazine first publication; unclear-case rule).
+- The handover is applied to the Pleasure Taxonomies as decision D22 (B16 amended), on branch claude/s4-visual-media of beautifulleaf/pleasure-taxonomy.
