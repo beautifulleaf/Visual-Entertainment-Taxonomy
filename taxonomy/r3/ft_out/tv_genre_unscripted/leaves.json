@@ -1,0 +1,1144 @@
+{
+ "subs": [
+  {
+   "code": "B9",
+   "label": "Speculative Series",
+   "axis": "Axis: by speculative premise — science-fiction premises first (space, aliens, time, technology, society's end), then costumed heroes, then fantasy worlds, then the supernatural among us, then horror; comic and anthology forms at the edges of each run.",
+   "leaves": [
+    {
+     "code": "B9-1",
+     "label": "Space Opera",
+     "breadth": "broad",
+     "defn": "A series whose drama plays out among starships, space stations and interplanetary polities (<i>Star Trek</i>, <i>Babylon 5</i>, <i>The Expanse</i>, <i>The Mandalorian</i>). Earth-bound alien drama goes to B9-2; a comic space series to B9-11.",
+     "aliases": "space western; military science fiction",
+     "see": "B9-2 Alien Invasion; B9-11 Comic Science Fiction",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Space_opera",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Space_Western",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by franchise first, then by mode: Star Trek, Star Wars, Stargate, Battlestar Galactica and military space opera, space westerns and adventure operas, exploration and colony dramas",
+     "secs": [
+      "Star Trek",
+      "Star Wars",
+      "Stargate",
+      "Battlestar Galactica & Military Space Opera",
+      "Space Westerns & Adventure Operas",
+      "Space Exploration & Colony Dramas"
+     ]
+    },
+    {
+     "code": "B9-2",
+     "label": "Alien Invasion",
+     "breadth": "medium",
+     "defn": "A series whose engine is extraterrestrials arriving on Earth — as conquerors, hidden infiltrators, first contacts or neighbours (<i>V</i>, <i>Falling Skies</i>, <i>3 Body Problem</i>, <i>Roswell</i>). Star-faring drama goes to B9-1.",
+     "aliases": "first contact; alien abduction",
+     "see": "B9-1 Space Opera; B9-22 Occult Detective Fiction",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Alien_invasion",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/First_contact_(science_fiction)",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the shape of the contact: open invasion, hidden conspiracy, first contact, aliens living among us",
+     "secs": [
+      "Invasion & Occupation",
+      "Hidden Aliens & Government Conspiracy",
+      "First Contact",
+      "Aliens Among Us"
+     ]
+    },
+    {
+     "code": "B9-3",
+     "label": "Time Travel",
+     "breadth": "medium",
+     "defn": "A series whose premise is movement through time — travellers, slips, rewrites or loops (<i>Doctor Who</i>, <i>Quantum Leap</i>, <i>12 Monkeys</i>, <i>JIN</i>). Time-slip romance with rebirth goes to B9-19.",
+     "aliases": "time slip (taimu surippu); time loop",
+     "see": "B9-19 Magic Realism; B9-4 Mystery Box",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Time_travel_in_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Time_loop",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by what the traveller does with time: roams it, changes it, slips into the past, repeats a day",
+     "secs": [
+      "Time-Travel Adventure",
+      "Changing-the-Past Thrillers",
+      "Time Slip",
+      "Time Loop"
+     ]
+    },
+    {
+     "code": "B9-4",
+     "label": "Mystery Box",
+     "breadth": "medium",
+     "defn": "A serial built on a withheld central enigma that the audience decodes over seasons — an island, a vanished flight, a town no one can leave (<i>Lost</i>, <i>Dark</i>, <i>Manifest</i>, <i>The OA</i>). If the enigma is solved weekly by investigators, B9-22.",
+     "aliases": "puzzle-box series; high-concept serial",
+     "see": "B9-3 Time Travel; B7 Crime & Thriller Series",
+     "src": [
+      [
+       "https://www.ted.com/talks/j_j_abrams_the_mystery_box",
+       "Reference"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Lost_(TV_series)",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B9-5",
+     "label": "Techno-thriller",
+     "breadth": "medium",
+     "defn": "A science-fiction thriller whose threat is a near-present technology or experiment — clones, enhancements, fringe science (<i>Orphan Black</i>, <i>Fringe</i>, <i>Limitless</i>, <i>Kyle XY</i>). Machines that think go to B9-6; costumed powers to B9-12.",
+     "aliases": "biopunk; fringe science",
+     "see": "B9-6 Artificial Intelligence in Fiction; B9-12 Superhero Fiction",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Techno-thriller",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the technology at stake: genetics and cloning, human enhancement, fringe science and conspiracy",
+     "secs": [
+      "Genetic Engineering & Clones",
+      "Enhanced Humans & Human Experiments",
+      "Fringe Science & Corporate Conspiracy"
+     ]
+    },
+    {
+     "code": "B9-6",
+     "label": "Artificial Intelligence in Fiction",
+     "breadth": "medium",
+     "defn": "A series whose premise is a thinking machine or a simulated world — androids, AI, virtual reality, cyberpunk cities (<i>Westworld</i>, <i>Humans</i>, <i>Altered Carbon</i>, <i>Memories of the Alhambra</i>).",
+     "aliases": "android; cyberpunk; virtual reality",
+     "see": "B9-5 Techno-thriller; B9-7 Dystopian Fiction",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Artificial_intelligence_in_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Cyberpunk",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by where the artificial mind lives: robot bodies, simulated worlds, cyberpunk society",
+     "secs": [
+      "Androids & Robots",
+      "Virtual Reality & Simulation",
+      "Cyberpunk"
+     ]
+    },
+    {
+     "code": "B9-7",
+     "label": "Dystopian Fiction",
+     "breadth": "medium",
+     "defn": "A series set in an oppressive engineered society, or a contest that society stages for survival (<i>The Handmaid's Tale</i>, <i>3%</i>, <i>Severance</i>, <i>Alice in Borderland</i>). A world after a catastrophe goes to B9-9.",
+     "aliases": "death game (desu gēmu)",
+     "see": "B9-9 Apocalyptic & Post-Apocalyptic Fiction; B9-8 Alternate History",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Dystopia",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Death_game",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by what oppresses: the state, technology or the corporation, a selection or survival game",
+     "secs": [
+      "Totalitarian Dystopia",
+      "Technological & Corporate Dystopia",
+      "Survival Games & Selection Dystopia"
+     ]
+    },
+    {
+     "code": "B9-8",
+     "label": "Alternate History",
+     "breadth": "narrow",
+     "defn": "A series set in a history that diverged at a known point (<i>The Man in the High Castle</i>, <i>For All Mankind</i>, <i>SS-GB</i>). A traveller who changes history goes to B9-3.",
+     "aliases": "allohistory",
+     "see": "B9-3 Time Travel; B9-7 Dystopian Fiction",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Alternate_history",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B9-9",
+     "label": "Apocalyptic and Post-Apocalyptic Fiction",
+     "breadth": "medium",
+     "defn": "A series about the end of civilisation — the plague, collapse or impact, or the world that survives it (<i>Station Eleven</i>, <i>Jericho</i>, <i>The 100</i>, <i>Fallout</i>). Zombie apocalypses go to B9-28.",
+     "aliases": "post-apocalyptic; disaster series",
+     "see": "B9-28 Zombie Apocalypse; B9-7 Dystopian Fiction",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Apocalyptic_and_post-apocalyptic_fiction",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the stage of the end: pandemic and extinction, wasteland after collapse, catastrophe still coming",
+     "secs": [
+      "Pandemic & Extinction",
+      "Wasteland & Collapse",
+      "Impending Catastrophe"
+     ]
+    },
+    {
+     "code": "B9-10",
+     "label": "Anthology Series",
+     "breadth": "medium",
+     "defn": "A science-fiction or fantasy series telling a self-contained story with new characters each episode (<i>The Twilight Zone</i>, <i>Black Mirror</i>, <i>The Outer Limits</i>, <i>Amazing Stories</i>). Horror anthologies go to B9-26.",
+     "aliases": "science fiction anthology",
+     "see": "B9-26 Horror Anthology",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Anthology_series",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/The_Twilight_Zone",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B9-11",
+     "label": "Comic Science Fiction & Comic Fantasy",
+     "breadth": "narrow",
+     "defn": "A series that plays a science-fiction or fantasy premise chiefly for laughs (<i>Red Dwarf</i>, <i>The Hitchhiker's Guide to the Galaxy</i>, <i>Good Omens</i>, <i>The Watch</i>). A sitcom with a light fantastic touch stays in B8.",
+     "aliases": "",
+     "see": "B8 Comedy Series; B9-1 Space Opera",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Comic_science_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Comic_fantasy",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the premise mocked: science fiction, then fantasy",
+     "secs": [
+      "Comic Science Fiction",
+      "Comic Fantasy"
+     ]
+    },
+    {
+     "code": "B9-12",
+     "label": "Superhero Fiction",
+     "breadth": "broad",
+     "defn": "A series about costumed or superpowered heroes and their villains (<i>Smallville</i>, <i>Daredevil</i>, <i>The Boys</i>, <i>Moving</i>). Japanese henshin heroes go to B9-13.",
+     "aliases": "superhero television; Arrowverse; MCU",
+     "see": "B9-13 Tokusatsu; B9-5 Techno-thriller",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Superhero_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Arrowverse",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by source and tradition: DC Comics, Marvel Comics, creator-owned and original heroes, ensemble superpower dramas, Asian superhero series",
+     "secs": [
+      "DC Comics",
+      "Marvel Comics",
+      "Creator-Owned & Original Superheroes",
+      "Superpowered-People Dramas",
+      "Asian Superhero & Martial-Arts Power Series"
+     ]
+    },
+    {
+     "code": "B9-13",
+     "label": "Tokusatsu",
+     "breadth": "medium",
+     "defn": "A Japanese special-effects hero series built on transformation (henshin), suit actors and miniature monsters, and its adaptations (<i>Kamen Rider</i>, <i>Himitsu Sentai Goranger</i>, <i>Ultraman</i>, <i>Power Rangers</i>).",
+     "aliases": "henshin hero; kyodai hero",
+     "see": "B9-12 Superhero Fiction; C1 Action & Battle Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Tokusatsu",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Super_Sentai",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Kamen_Rider",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Ultra_Series",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by franchise: Super Sentai, Kamen Rider, Ultra Series, Metal Heroes and other henshin heroes, Power Rangers adaptations last",
+     "secs": [
+      "Super Sentai",
+      "Kamen Rider",
+      "Ultra Series",
+      "Metal Heroes & Other Henshin Heroes",
+      "Power Rangers"
+     ]
+    },
+    {
+     "code": "B9-14",
+     "label": "High Fantasy",
+     "breadth": "medium",
+     "defn": "A series set wholly in an invented secondary world of magic, kingdoms and quests (<i>Game of Thrones</i>, <i>The Wheel of Time</i>, <i>The Witcher</i>, <i>Alchemy of Souls</i>). Myth and legend retold go to B9-15.",
+     "aliases": "epic fantasy; sword and sorcery",
+     "see": "B9-15 Mythic Fiction; B4 Chinese-Language Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/High_fantasy",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Sword_and_sorcery",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by world-building scale: epic invented worlds, East Asian invented worlds, sword-and-sorcery adventure",
+     "secs": [
+      "Epic Invented-World Fantasy",
+      "East Asian Invented-World Fantasy",
+      "Sword-and-Sorcery & Adventure Fantasy"
+     ]
+    },
+    {
+     "code": "B9-15",
+     "label": "Mythic Fiction",
+     "breadth": "medium",
+     "defn": "A series that retells myth, legend or epic, or brings old gods into the modern world (<i>Hercules: The Legendary Journeys</i>, <i>Merlin</i>, <i>Alif Laila</i>, <i>American Gods</i>).",
+     "aliases": "sword-and-sandal; Arthurian fiction",
+     "see": "B9-14 High Fantasy; B9-16 Fairy Tale & Portal Fantasy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Mythic_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Sword-and-sandal",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the mythology drawn on: Greco-Roman, Arthurian and European, Arabian and Asian epics, gods in the modern world",
+     "secs": [
+      "Greco-Roman Sword-and-Sandal",
+      "Arthurian & European Legend",
+      "Arabian Nights & Asian Epics",
+      "Gods in the Modern World"
+     ]
+    },
+    {
+     "code": "B9-16",
+     "label": "Fairy Tale & Portal Fantasy",
+     "breadth": "medium",
+     "defn": "A series that retells fairy tales or sends its characters through a door into a magical land (<i>Once Upon a Time</i>, <i>The 10th Kingdom</i>, <i>His Dark Materials</i>, <i>A Series of Unfortunate Events</i>).",
+     "aliases": "",
+     "see": "B10 Children's Series; B9-14 High Fantasy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Fairy_tale",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Portal_fantasy",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the frame: fairy-tale retelling, portal or parallel world, children's literary fantasy",
+     "secs": [
+      "Fairy-Tale Retellings",
+      "Portal & Parallel-World Fantasy",
+      "Children's Literary Fantasy"
+     ]
+    },
+    {
+     "code": "B9-17",
+     "label": "Historical Fantasy",
+     "breadth": "narrow",
+     "defn": "A period series in which magic or the uncanny is woven into recognisable history (<i>Jonathan Strange & Mr Norrell</i>, <i>The Nevers</i>, <i>Carnival Row</i>).",
+     "aliases": "gaslamp fantasy",
+     "see": "A8 Historical & Period Film; B9-18 Urban Fantasy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Historical_fantasy",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B9-18",
+     "label": "Urban Fantasy",
+     "breadth": "medium",
+     "defn": "A series in which witches, shapeshifters, fae, angels or demons live hidden in the present-day world (<i>Charmed</i>, <i>Lost Girl</i>, <i>The Magicians</i>, <i>Preacher</i>). Teen-centred versions go to B9-21; investigators of the uncanny to B9-22.",
+     "aliases": "contemporary fantasy",
+     "see": "B9-21 Supernatural Teen Drama; B9-22 Occult Detective Fiction",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Urban_fantasy",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Contemporary_fantasy",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the hidden beings: witches, shapeshifters and fae, hidden magical worlds, angels, demons and immortals",
+     "secs": [
+      "Witches & Covens",
+      "Werewolves, Shapeshifters & Fae",
+      "Hidden Magical Worlds",
+      "Angels, Demons & Immortals"
+     ]
+    },
+    {
+     "code": "B9-19",
+     "label": "Magic Realism",
+     "breadth": "medium",
+     "defn": "A realist drama with one impossible premise taken matter-of-factly — a body swap, a second life, a grim reaper at work (<i>Reborn Rich</i>, <i>Dead Like Me</i>, <i>Mystic Pop-up Bar</i>, <i>Wonderfalls</i>). Fully supernatural worlds go to B9-18.",
+     "aliases": "body swap; regression (hoegwi); fantasy drama",
+     "see": "B9-20 Paranormal Romance; B2 Korean Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Magic_realism",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Body_swap",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the impossible premise: body swap, rebirth and second life, afterlife and fate, other magic-realist dramas",
+     "secs": [
+      "Body Swap & Possession",
+      "Rebirth & Second Life",
+      "Afterlife, Grim Reapers & Fate",
+      "Magic-Realist Dramas & Thrillers"
+     ]
+    },
+    {
+     "code": "B9-20",
+     "label": "Paranormal Romance",
+     "breadth": "medium",
+     "defn": "A romance whose lover is supernatural — a gumiho, ghost, angel or beast (<i>Tale of the Nine-Tailed</i>, <i>Bring It On, Ghost</i>, <i>A Discovery of Witches</i>). Vampire romance goes to B9-23.",
+     "aliases": "fantasy romance",
+     "see": "B9-23 Vampire Fiction; A13 Romance",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Paranormal_romance",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by tradition: Korean fantasy romance, Chinese and Japanese supernatural romance, Western paranormal romance",
+     "secs": [
+      "Korean Fantasy Romance",
+      "Chinese & Japanese Supernatural Romance",
+      "Western Paranormal Romance"
+     ]
+    },
+    {
+     "code": "B9-21",
+     "label": "Supernatural Teen Drama",
+     "breadth": "medium",
+     "defn": "A teen drama in which adolescents fight, love or become monsters (<i>Buffy the Vampire Slayer</i>, <i>The Vampire Diaries</i>, <i>Teen Wolf</i>, <i>Stranger Things</i>).",
+     "aliases": "teen supernatural",
+     "see": "B9-18 Urban Fantasy; B9-23 Vampire Fiction",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Teen_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Buffy_the_Vampire_Slayer",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the teens' role: slayers, witches, vampire and werewolf romances, teen horror mysteries",
+     "secs": [
+      "Slayers & Monster-Fighting Teens",
+      "Teen Witches & Magic",
+      "Teen Vampires & Werewolves",
+      "Teen Horror Mysteries"
+     ]
+    },
+    {
+     "code": "B9-22",
+     "label": "Occult Detective Fiction",
+     "breadth": "medium",
+     "defn": "A series of cases solved by investigators of the paranormal — agents, psychics, hunters (<i>The X-Files</i>, <i>Supernatural</i>, <i>Medium</i>, <i>Grimm</i>). A serial enigma with no case-of-the-week goes to B9-4.",
+     "aliases": "supernatural procedural; paranormal investigator",
+     "see": "B9-4 Mystery Box; B7 Crime & Thriller Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Occult_detective_fiction",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the investigator: paranormal agents, psychics and mediums, monster hunters and exorcists, supernatural cops and consultants",
+     "secs": [
+      "Paranormal Investigators",
+      "Psychics & Mediums",
+      "Monster Hunters & Exorcists",
+      "Supernatural Cops & Consultants"
+     ]
+    },
+    {
+     "code": "B9-23",
+     "label": "Vampire Fiction",
+     "breadth": "medium",
+     "defn": "A series centred on vampires (<i>Dracula</i>, <i>True Blood</i>, <i>The Strain</i>, <i>Angel</i>). Teen vampire romance goes to B9-21.",
+     "aliases": "",
+     "see": "B9-21 Supernatural Teen Drama; B9-20 Paranormal Romance",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Vampire_fiction",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the vampire's role: Gothic monster, plague, lover and society, detective or hero",
+     "secs": [
+      "Gothic Vampires & Dracula",
+      "Vampire Plague & Apocalypse",
+      "Vampire Romance & Society",
+      "Vampire Detectives & Heroes"
+     ]
+    },
+    {
+     "code": "B9-24",
+     "label": "Ghost Story",
+     "breadth": "medium",
+     "defn": "A horror series driven by the dead returning to haunt a place, a family or an object (<i>The Haunting of Hill House</i>, <i>Ju-On: Origins</i>, <i>Rose Red</i>, <i>Archive 81</i>).",
+     "aliases": "haunted house; J-horror; analog horror",
+     "see": "B9-25 Supernatural Horror; B9-19 Magic Realism",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Ghost_story",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Haunted_house",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/J-horror",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by what is haunted: houses and Gothic settings, Asian ghost horror, cursed media",
+     "secs": [
+      "Haunted Houses & Gothic Ghost Stories",
+      "Asian Ghost Horror",
+      "Cursed Media & Analog Horror"
+     ]
+    },
+    {
+     "code": "B9-25",
+     "label": "Supernatural Horror",
+     "breadth": "medium",
+     "defn": "A horror series whose threat is demonic, occult or cosmic (<i>The Exorcist</i>, <i>Midnight Mass</i>, <i>Lovecraft Country</i>, <i>Penny Dreadful</i>). Ghosts go to B9-24; vampires to B9-23.",
+     "aliases": "folk horror; religious horror; cosmic horror",
+     "see": "B9-24 Ghost Story; B9-26 Horror Anthology",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Supernatural_horror_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Folk_horror",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Lovecraftian_horror",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the evil's source: demons and religion, cults and folk ritual, the cosmic, Gothic literature",
+     "secs": [
+      "Demonic Possession & Religious Horror",
+      "Cults, Witches & Folk Horror",
+      "Cosmic & Lovecraftian Horror",
+      "Gothic & Literary Horror"
+     ]
+    },
+    {
+     "code": "B9-26",
+     "label": "Horror Anthology",
+     "breadth": "medium",
+     "defn": "A horror series with new stories by episode or by season (<i>Tales from the Crypt</i>, <i>American Horror Story</i>, <i>Masters of Horror</i>).",
+     "aliases": "",
+     "see": "B9-10 Anthology Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Horror_anthology",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by format: hosted classic anthologies, season-long anthologies, episodic modern anthologies",
+     "secs": [
+      "Hosted Classic Anthologies",
+      "Season-Long Anthologies",
+      "Episodic Modern Anthologies"
+     ]
+    },
+    {
+     "code": "B9-27",
+     "label": "Slasher",
+     "breadth": "narrow",
+     "defn": "A horror series in which a killer stalks and picks off a group one by one (<i>Scream: The TV Series</i>, <i>Harper's Island</i>, <i>Chucky</i>).",
+     "aliases": "",
+     "see": "B9-30 Psychological Horror; B7 Crime & Thriller Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Slasher_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B9-28",
+     "label": "Zombie Apocalypse",
+     "breadth": "medium",
+     "defn": "A series about survival among the risen or infected dead (<i>The Walking Dead</i>, <i>All of Us Are Dead</i>, <i>The Last of Us</i>). Non-zombie collapse goes to B9-9.",
+     "aliases": "",
+     "see": "B9-9 Apocalyptic & Post-Apocalyptic Fiction",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Zombie_apocalypse",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by franchise and tradition: The Walking Dead franchise, other zombie survival, East Asian zombie series",
+     "secs": [
+      "The Walking Dead Franchise",
+      "Zombie Survival",
+      "East Asian Zombie Series"
+     ]
+    },
+    {
+     "code": "B9-29",
+     "label": "Creature Feature",
+     "breadth": "medium",
+     "defn": "A series whose threat or wonder is a monster or prehistoric beast (<i>Primeval</i>, <i>Tremors</i>, <i>Sweet Home</i>, <i>Parasyte: The Grey</i>).",
+     "aliases": "monster horror; lost world; kaiju",
+     "see": "B9-13 Tokusatsu; B9-28 Zombie Apocalypse",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Monster_movie",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Lost_world_(genre)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Body_horror",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the creature: dinosaurs and lost worlds, giant monsters and sea creatures, monster-siege survival, body horror and parasites",
+     "secs": [
+      "Dinosaurs & Lost Worlds",
+      "Giant Monsters & Sea Creatures",
+      "Monster-Siege Survival",
+      "Body Horror & Parasites"
+     ]
+    },
+    {
+     "code": "B9-30",
+     "label": "Psychological Horror",
+     "breadth": "narrow",
+     "defn": "A horror series whose terror is in minds and violence rather than the supernatural (<i>Hannibal</i>, <i>Servant</i>, <i>Yellowjackets</i>).",
+     "aliases": "",
+     "see": "B9-27 Slasher; B7 Crime & Thriller Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Psychological_horror",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B9-31",
+     "label": "Comedy Horror",
+     "breadth": "narrow",
+     "defn": "A horror series played for laughs (<i>Ash vs Evil Dead</i>, <i>The Baby</i>, <i>Post Mortem: No One Dies in Skarnes</i>).",
+     "aliases": "horror comedy",
+     "see": "B8 Comedy Series; B9-11 Comic Science Fiction & Comic Fantasy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Comedy_horror",
+       "Wikipedia"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "code": "B13",
+   "label": "Competition Formats",
+   "axis": "Axis: by what contestants are judged on — performance first (talent, singing, idol debut), then survival in a social game, then a craft, then knowledge, luck or play.",
+   "leaves": [
+    {
+     "code": "B13-1",
+     "label": "Talent Show",
+     "breadth": "medium",
+     "defn": "A competition in which acts perform before judges or the public (<i>Got Talent</i>, <i>Strictly Come Dancing</i>, <i>RuPaul's Drag Race</i>). Singing-only contests go to B13-2.",
+     "aliases": "",
+     "see": "B13-2 Singing Competition",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Talent_show",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the act: open variety talent, dance, celebrity performance, comedy, magic and novelty",
+     "secs": [
+      "Variety Talent Shows",
+      "Dance Competitions",
+      "Celebrity Performance Contests",
+      "Comedy, Magic & Novelty Talent"
+     ]
+    },
+    {
+     "code": "B13-2",
+     "label": "Singing Competition",
+     "breadth": "narrow",
+     "defn": "A competition among singers decided by judges or votes (<i>The Voice</i>, <i>Pop Idol</i>, <i>The X Factor</i>, <i>Star Academy</i>). Idol-group debut shows go to B13-3.",
+     "aliases": "music competition",
+     "see": "B13-3 Idol Survival Show",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Singing_competition",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Idols_(franchise)",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B13-3",
+     "label": "Idol Survival Show",
+     "breadth": "narrow",
+     "defn": "A competition in which trainees vie for places in a debuting pop group, or groups battle for rank (<i>Produce 101</i>, <i>Girls Planet 999</i>, <i>Queendom</i>, <i>I-LAND</i>).",
+     "aliases": "survival audition program",
+     "see": "B13-2 Singing Competition; B15-2 Real Variety",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Produce_101",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/K-pop",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B13-4",
+     "label": "Reality Competition",
+     "breadth": "broad",
+     "defn": "An unscripted contest in which players live, travel or endure under rules and are eliminated until one wins (<i>Survivor</i>, <i>Big Brother</i>, <i>The Amazing Race</i>, <i>Physical: 100</i>).",
+     "aliases": "elimination reality; business reality",
+     "see": "B14-1 Dating Show; B13-6 Game Show",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Reality_competition",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Survivor_(franchise)",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the contest's engine: live-in social elimination, races, physical challenges, strategy games, skill and business contests, comedy endurance",
+     "secs": [
+      "Live-In Social Elimination",
+      "Races & Expeditions",
+      "Physical & Stunt Challenges",
+      "Strategy Game Reality",
+      "Skill, Lifestyle & Business Contests",
+      "Comedy Endurance"
+     ]
+    },
+    {
+     "code": "B13-5",
+     "label": "Cooking Competition",
+     "breadth": "narrow",
+     "defn": "A contest among cooks or bakers (<i>MasterChef</i>, <i>The Great British Bake Off</i>, <i>Iron Chef</i>, <i>Culinary Class Wars</i>). How-to cookery goes to B14-8.",
+     "aliases": "baking competition",
+     "see": "B14-8 Instructional Television",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Cooking_show",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/MasterChef",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B13-6",
+     "label": "Game Show",
+     "breadth": "broad",
+     "defn": "A studio programme in which contestants play a game for prizes (<i>Who Wants to Be a Millionaire?</i>, <i>The Price Is Right</i>, <i>Family Feud</i>, <i>Taskmaster</i>). Comedy panel shows go to B15-4.",
+     "aliases": "quiz show; panel game",
+     "see": "B15-4 Panel Show; B13-4 Reality Competition",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Game_show",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Quiz_show",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Panel_game",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the game played: quiz, words and puzzles, panel and guessing, chance and pricing, physical, music, comedy",
+     "secs": [
+      "Quiz Shows",
+      "Word & Puzzle Games",
+      "Panel & Guessing Games",
+      "Chance & Pricing Games",
+      "Physical & Obstacle Games",
+      "Music Game Shows",
+      "Comedy Game Shows"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "B14",
+   "label": "Factual Entertainment Formats",
+   "axis": "Axis: by the real situation the camera arranges — courtship, everyday lives, an experiment, a transformation, a trick, a ghost hunt, a journey, a lesson, a ruling.",
+   "leaves": [
+    {
+     "code": "B14-1",
+     "label": "Dating Show",
+     "breadth": "medium",
+     "defn": "A programme that sets up real people to date, pair or marry (<i>The Bachelor</i>, <i>Love Is Blind</i>, <i>Single's Inferno</i>, <i>Taken Out</i>).",
+     "aliases": "dating reality",
+     "see": "B13-4 Reality Competition; B5 Boys' Love & Girls' Love Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Dating_show",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by format: studio dating games, dating reality, same-sex dating reality",
+     "secs": [
+      "Dating Game Shows",
+      "Dating Reality",
+      "Same-Sex Dating Reality"
+     ]
+    },
+    {
+     "code": "B14-2",
+     "label": "Docusoap",
+     "breadth": "medium",
+     "defn": "An observational series following real people's lives as ongoing serial drama (<i>The Osbournes</i>, <i>Jersey Shore</i>, <i>Terrace House</i>, <i>Cops</i>).",
+     "aliases": "structured reality; occupational reality",
+     "see": "B11 Documentary Series; B14-3 Social Experiment",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Docusoap",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Structured-reality",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by whose lives are followed: celebrities and families, ensembles in structured reality, people at work",
+     "secs": [
+      "Celebrity & Family Docusoaps",
+      "Ensemble Docusoaps & Structured Reality",
+      "Occupational Reality"
+     ]
+    },
+    {
+     "code": "B14-3",
+     "label": "Social Experiment",
+     "breadth": "narrow",
+     "defn": "A factual format that places people in a contrived situation to see how they cope (<i>Wife Swap</i>, <i>Undercover Boss</i>, <i>60 Days In</i>, <i>The Rehearsal</i>).",
+     "aliases": "",
+     "see": "B14-2 Docusoap; B13-4 Reality Competition",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Social_experiment",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Wife_Swap",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B14-4",
+     "label": "Makeover Show",
+     "breadth": "narrow",
+     "defn": "A format that transforms a person, home or business before the camera (<i>Queer Eye</i>, <i>Extreme Makeover: Home Edition</i>, <i>Supernanny</i>, <i>Ramsay's Kitchen Nightmares</i>).",
+     "aliases": "",
+     "see": "B14-3 Social Experiment",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Makeover_show",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Queer_Eye",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by what is made over: the person, the property, the troubled life or business",
+     "secs": [
+      "Personal & Style Makeovers",
+      "Home & Property Makeovers",
+      "Intervention & Rescue"
+     ]
+    },
+    {
+     "code": "B14-5",
+     "label": "Hidden Camera",
+     "breadth": "narrow",
+     "defn": "A programme that films unwitting people reacting to staged pranks, or stunts staged for the camera (<i>Candid Camera</i>, <i>Punk'd</i>, <i>Impractical Jokers</i>, <i>Jackass</i>).",
+     "aliases": "prank show; stunt show",
+     "see": "B14-3 Social Experiment; B15-1 Variety Show",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Hidden_camera",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Practical_joke",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B14-6",
+     "label": "Paranormal Television",
+     "breadth": "narrow",
+     "defn": "A factual series investigating hauntings and the unexplained (<i>Ghost Hunters</i>, <i>Paranormal State</i>). Scripted ghost hunters go to B9-22.",
+     "aliases": "ghost-hunting reality",
+     "see": "B9-22 Occult Detective Fiction",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Paranormal_television",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B14-7",
+     "label": "Travel Documentary",
+     "breadth": "narrow",
+     "defn": "A presenter-led entertainment series built on a journey or road trip (<i>Top Gear</i>, <i>The Grand Tour</i>, <i>Running Wild with Bear Grylls</i>, <i>Conan O'Brien Must Go</i>).",
+     "aliases": "motoring entertainment; travelogue",
+     "see": "B11 Documentary Series; B15-2 Real Variety",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Travel_documentary",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Top_Gear",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B14-8",
+     "label": "Instructional Television",
+     "breadth": "narrow",
+     "defn": "A how-to or explainer programme that teaches a skill or tests ideas (<i>The Joy of Painting</i>, <i>Good Eats</i>, <i>MythBusters</i>, <i>Antiques Roadshow</i>).",
+     "aliases": "cooking show; lifestyle programme",
+     "see": "B13-5 Cooking Competition; B10 Children's Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Instructional_television",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Cooking_show",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B14-9",
+     "label": "Court Show",
+     "breadth": "narrow",
+     "defn": "A programme in which a television judge arbitrates real small-claims disputes (<i>Judge Judy</i>, <i>Judy Justice</i>).",
+     "aliases": "",
+     "see": "B14-3 Social Experiment",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Court_show",
+       "Wikipedia"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "code": "B15",
+   "label": "Variety & Talk Formats",
+   "axis": "Axis: by what the host-led show presents — a revue of acts, cast members at play, conversation, comedy panels, clips, a single performance broadcast.",
+   "leaves": [
+    {
+     "code": "B15-1",
+     "label": "Variety Show",
+     "breadth": "medium",
+     "defn": "A hosted revue of comedy, music and novelty acts (<i>The Ed Sullivan Show</i>, <i>The Red Skelton Show</i>, <i>The Flip Wilson Show</i>, <i>Wetten, dass..?</i>). Korean cast-based variety goes to B15-2.",
+     "aliases": "",
+     "see": "B15-2 Real Variety; B15-6 Television Special",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Variety_show",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B15-2",
+     "label": "Real Variety",
+     "breadth": "medium",
+     "defn": "A Korean-style variety programme in which a fixed celebrity cast plays missions, travels, runs a business or is observed living (<i>Running Man</i>, <i>New Journey to the West</i>, <i>I Live Alone</i>, <i>Run BTS!</i>).",
+     "aliases": "real variety (rieol beoraieti); idol variety",
+     "see": "B15-1 Variety Show; B13-3 Idol Survival Show",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Korean_variety_show",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Running_Man_(TV_series)",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by what the cast does: missions and games, being observed, travel and hospitality, idol-group content",
+     "secs": [
+      "Challenge & Game Variety",
+      "Observational Variety",
+      "Travel & Hospitality Variety",
+      "Idol Reality & Variety"
+     ]
+    },
+    {
+     "code": "B15-3",
+     "label": "Talk Show",
+     "breadth": "broad",
+     "defn": "A host-led programme of conversation with guests or audience (<i>The Tonight Show Starring Johnny Carson</i>, <i>The Daily Show</i>, <i>The Ellen DeGeneres Show</i>, <i>The Graham Norton Show</i>).",
+     "aliases": "late-night talk show; chat show",
+     "see": "B15-4 Panel Show",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Talk_show",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Late-night_talk_show",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by slot and voice: late-night, satirical news, daytime and tabloid, celebrity chat",
+     "secs": [
+      "Late-Night Talk Shows",
+      "Satirical News Shows",
+      "Daytime & Tabloid Talk",
+      "Celebrity Chat & Comedy Talk"
+     ]
+    },
+    {
+     "code": "B15-4",
+     "label": "Panel Show",
+     "breadth": "narrow",
+     "defn": "A comedy programme in which a panel of comedians plays a loose quiz or improvisation game (<i>Have I Got News for You</i>, <i>QI</i>, <i>Whose Line Is It Anyway?</i>). Prize-driven games go to B13-6.",
+     "aliases": "comedy panel game; improv comedy",
+     "see": "B13-6 Game Show; B15-3 Talk Show",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Panel_show",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the game: topical news quiz, comedy panel game, improvisation",
+     "secs": [
+      "Topical News Quizzes",
+      "Comedy Panel Games",
+      "Improvisational Comedy Formats"
+     ]
+    },
+    {
+     "code": "B15-5",
+     "label": "Clip Show",
+     "breadth": "narrow",
+     "defn": "A hosted programme built from home videos or viral clips (<i>America's Funniest Home Videos</i>, <i>Ridiculousness</i>, <i>Tosh.0</i>).",
+     "aliases": "",
+     "see": "B15-1 Variety Show",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Clip_show",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B15-6",
+     "label": "Television Special",
+     "breadth": "narrow",
+     "defn": "A broadcast of a single performance — concert, opera, stage relay or stand-up set (<i>MTV Unplugged</i>, <i>Austin City Limits</i>, <i>Great Performances</i>, <i>James Acaster: Repertoire</i>).",
+     "aliases": "concert broadcast; stand-up special",
+     "see": "A14 Musical & Dance Film; B15-1 Variety Show",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Television_special",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Stand-up_comedy",
+       "Wikipedia"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}
