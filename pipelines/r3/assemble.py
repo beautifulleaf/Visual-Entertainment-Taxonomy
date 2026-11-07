@@ -190,6 +190,16 @@ def build_ft(src, tree, partial, report):
     for b, o in outs.items():
         for s in o["L"]["subs"]:
             subs[s["code"]] = s
+    # country of origin for the page filters (owner: era, country, director as fundamentals)
+    I = os.path.join(ROOT, "data", "interim"); CC = {}
+    for r in csv.DictReader(open(os.path.join(I, "film_selected.csv"))): CC[r["key"]] = r["countries"].replace(";", "|").replace(",", "|")
+    for r in csv.DictReader(open(os.path.join(I, "tv_selected.csv"))): CC.setdefault(r["tconst"], r["country"])
+    for r in csv.DictReader(open(os.path.join(I, "anime_selected.csv"))): CC.setdefault(r["mal_id"], r["country"])
+    for r in csv.DictReader(open(os.path.join(I, "asian_drama_selected.csv"))): CC.setdefault("mdl:" + r["mdl_id"], r["country"])
+    def cc(idv, who, kind):
+        if idv in CC and CC[idv]: return CC[idv]
+        w = (who or "").strip()
+        return w if kind != "film" and re.fullmatch(r"[A-Z]{2}(\|[A-Z]{2})*", w) else ""
     OV = {r["id"]: r for r in csv.DictReader(open(os.path.join(R3, "overrides.csv")))}
     b16_ids = {a["id"] for o in outs.values() for a in o["AD"] if a["id"]}
     web_extra = []
@@ -207,12 +217,12 @@ def build_ft(src, tree, partial, report):
             if a.get("route", "").strip():
                 routed.append((a, r)); continue
             rows[a["leaf"]].append([r["title"], r["year"], r["who"], a.get("see_also", "").strip(), (a.get("note") or "").strip(),
-                                    r["id"], r["movement_tag"], r["kind"], a.get("sec", "").strip()])
+                                    r["id"], r["movement_tag"], r["kind"], a.get("sec", "").strip(), cc(r["id"], r["who"], r["kind"])])
             old2new[r["old_leaf"]][a["leaf"]] += 1
         for i, a in enumerate(o["AD"], 1):
             idv = a["id"].strip() or f"r3:{a['leaf']}-{i}"
             rows[a["leaf"]].append([a["title"], a["year"], a.get("who", ""), a.get("see_also", "").strip(), a.get("note", "").strip(),
-                                    idv, "", "tv", a.get("sec", "").strip()])
+                                    idv, "", "tv", a.get("sec", "").strip(), cc(idv, a.get("who", ""), "tv")])
     # routed titles: the leaf of the target sub-family that took most titles of the same old leaf, else its largest leaf
     for a, r in routed:
         tgt = a["route"].strip().split("-")[0]
@@ -222,7 +232,7 @@ def build_ft(src, tree, partial, report):
         if not cand:
             cand = [(len(rows[l["code"]]), l["code"]) for l in subs[tgt]["leaves"]]
         lf = max(cand)[1]
-        rows[lf].append([r["title"], r["year"], r["who"], "", (a.get("note") or "routed").strip(), r["id"], r["movement_tag"], r["kind"], ""])
+        rows[lf].append([r["title"], r["year"], r["who"], "", (a.get("note") or "routed").strip(), r["id"], r["movement_tag"], r["kind"], "", cc(r["id"], r["who"], r["kind"])])
         old2new[r["old_leaf"]][lf] += 1
     report["ft_routed"] = len(routed); report["ft_web_override"] = len(web_extra)
     if web_extra:

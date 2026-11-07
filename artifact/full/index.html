@@ -83,6 +83,9 @@ details.key p{margin:5px 0}
 .leaf-foot{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:auto}
 .copy-btn{border:0;background:none;color:var(--muted);cursor:pointer;padding:2px 0;font-size:.85rem;font-weight:500;margin-left:auto;margin-right:14px}
 .copy-btn:hover{color:var(--h)}
+.fbar{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;margin:0 0 14px;font-size:.85rem}
+.fbar select,.fbar input{font:inherit;padding:3px 6px;border:1px solid var(--rule);border-radius:6px;background:var(--surface);color:var(--ink);max-width:100%}
+.fbar .clr{border:0;background:none;color:var(--h);cursor:pointer}
 .kaxis{font-size:.8rem;color:var(--muted);font-style:italic;margin:2px 0 8px}
 .fsec{margin:10px 0 2px;font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--h)}
 .open-btn{border:0;background:none;color:var(--h);cursor:pointer;padding:2px 0;font-size:.85rem;font-weight:500}
@@ -137,7 +140,7 @@ details.key p{margin:5px 0}
 <script>
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const norm=s=>String(s||'').toLowerCase().normalize('NFKD').replace(/[̀-ͯʻʿʾ'’]/g,'');
-let D=null, FIND=null, MEM={}, state={tab:'VA',open:new Set(),hl:null,all:new Set()};
+let D=null, FIND=null, MEM={}, state={tab:'VA',open:new Set(),hl:null,all:new Set(),f:{c:'',d:'',dir:''}};
 try{const t=localStorage.getItem('vet-full-tab'); if(t) state.tab=t;}catch(e){}
 const TABS=[['VA','Visual Art'],['FT','Film & Television'],['KEY','How to place'],['REPORT','Report']];
 const SHOW=300;
@@ -176,6 +179,22 @@ function vaKinds(l,rows){
   return (l.axis?`<p class="kaxis">Sections: ${esc(l.axis)}</p>`:'')+order.map(g=>`<div class="kgrp"><h5>${esc(g)} · ${groups[g].length}</h5><ul>${groups[g].slice(0,lim).map(k=>`<li class="${state.hl===k[0]?'hl':''}"><span class="kn">${esc(k[0])}</span>${k[2]?` <span class="kmeta">— ${esc(k[2])}</span>`:''}</li>`).join('')}</ul>${more(l.code,groups[g].length)}</div>`).join('')
    +(l.alias_rows&&l.alias_rows.length?`<p class="extra"><b>Also gathered as</b> ${l.alias_rows.map(esc).join(' · ')}</p>`:'');
 }
+const CN=(()=>{try{return new Intl.DisplayNames(['en'],{type:'region'})}catch(e){return null}})();
+const cname=c=>{try{return (CN&&CN.of(c))||c}catch(e){return c}};
+function fOn(){const f=state.f;return !!(f.c||f.d||f.dir)}
+function decOf(y){const m=/(\d{4})/.exec(String(y));return m?String(Math.floor(+m[1]/10)*10)+'s':''}
+function fMatch(k){const f=state.f;
+  if(f.c&&!String(k[9]||'').split('|').includes(f.c)) return false;
+  if(f.d&&decOf(k[1])!==f.d) return false;
+  if(f.dir&&!norm(k[2]).includes(norm(f.dir))) return false; return true}
+function ftAll(){return Promise.all(D.ft.fams.map(f=>members('FT',f.code+'1-1')))}
+function ftFilterBar(){ if(!ftAll._facets){ const cc={},dd={};
+    for(const f of D.ft.fams){const M=MEM['FT-'+f.code]||{}; for(const rs of Object.values(M)) for(const k of rs){for(const c of String(k[9]||'').split('|')) if(c) cc[c]=(cc[c]||0)+1; const d=decOf(k[1]); if(d) dd[d]=(dd[d]||0)+1}}
+    ftAll._facets={cc,dd}; }
+  const {cc,dd}=ftAll._facets, f=state.f;
+  const co=Object.entries(cc).sort((a,b)=>b[1]-a[1]).map(([c,n])=>`<option value="${c}"${f.c===c?' selected':''}>${esc(cname(c))} (${n.toLocaleString()})</option>`).join('');
+  const de=Object.keys(dd).sort().map(d=>`<option value="${d}"${f.d===d?' selected':''}>${d} (${dd[d].toLocaleString()})</option>`).join('');
+  return `<div class="fbar" role="search" aria-label="Filter titles"><label>Country <select data-f="c"><option value="">all</option>${co}</select></label><label>Decade <select data-f="d"><option value="">all</option>${de}</select></label><label>Director / country text <input data-f="dir" type="search" value="${esc(f.dir)}" placeholder="e.g. Ozu"></label>${fOn()?'<button class="clr" data-f="clear">Clear filters</button>':''}</div>`; }
 function ftSections(l,rows){ /* [[label,rows]] in section order; rows without a section last */
   if(!(l.secs&&l.secs.length)) return [['',rows]];
   const g=l.secs.map(x=>[x,[]]), rest=[];
@@ -184,21 +203,24 @@ function ftSections(l,rows){ /* [[label,rows]] in section order; rows without a 
 }
 function ftRow(k){return `<tr class="${state.hl===k[0]?'hl':''}"><td class="y">${esc(String(k[1]).slice(0,9))}</td><td>${idLink(k[5],k[0])}${k[6]?` <span class="mtag">${esc(k[6])}</span>`:''}${k[7]&&k[7]!=='film'?` <span class="kindtag">${esc(k[7])}</span>`:''}</td><td>${esc(k[2])}</td><td class="code">${esc(k[3])}</td><td class="kmeta">${esc(k[4])}</td></tr>`}
 function ftKinds(l,rows){
+  if(fOn()) rows=rows.filter(fMatch);
   if(!rows.length) return '<p class="empty">No title is placed here in this release. The leaf is attested and kept for completeness.</p>';
   let left=state.all.has(l.code)?1e9:SHOW, body='';
   for(const [lab,rs] of ftSections(l,rows)){ if(left<=0) break; const sl=rs.slice(0,left); left-=sl.length;
     body+=(lab?`<tr><td colspan="5"><h5 class="fsec">${esc(lab)} · ${rs.length}</h5></td></tr>`:'')+sl.map(ftRow).join(''); }
   return `${l.axis?`<p class="kaxis">Sections: ${esc(l.axis)}</p>`:''}<div class="tw"><table class="films"><thead><tr><th>Year</th><th>Title</th><th>Director / country</th><th>See also</th><th>Note</th></tr></thead><tbody>${body}</tbody></table></div>${more(l.code,rows.length)}`;
 }
+function fCount(l){const rs=(MEM['FT-'+famOf(l.code)]||{})[l.code]||[]; return rs.filter(fMatch).length}
 function leafHTML(t,l,unit){
   const open=state.open.has(l.code); const id=t+'-'+l.code;
+  const fc=(t==='FT'&&fOn())?fCount(l):null; if(fc===0) return '';
   const rows=open?((MEM[t+'-'+famOf(l.code)]||{})[l.code]||[]):[];
   return `<article class="leaf${open?' open':''}" id="${id}">
    <div class="leaf-top"><h4><span class="code">${l.code}</span>${esc(l.label)}</h4><span class="badge b-${l.breadth}">${l.breadth}</span></div>
    <p class="defn">${l.defn}</p>
    ${l.aliases?`<p class="aka"><b>Aliases</b> ${esc(l.aliases)}</p>`:''}${l.see?`<p class="aka"><b>See also</b> ${esc(l.see)}</p>`:''}
    ${srcHTML(l.src)}${l.catalogues&&l.catalogues.length?`<p class="aka viewall"><b>View all</b> ${l.catalogues.map(([u,lab,w])=>`<a href="${esc(u)}" target="_blank" rel="noopener" title="${esc(w)}">${esc(lab)}</a>${w?` <span class="kmeta">(${esc(w)})</span>`:''}`).join(' · ')}</p>`:''}${l.weak?`<span class="weak">Attestation to confirm: ${esc(l.weak)}</span>`:''}
-   <div class="leaf-foot"><span class="count">${l.n.toLocaleString()} ${t==='FT'?unit:(l.n===1?'kind':'kinds')}</span>${l.n?`<button class="copy-btn" data-leaf="${l.code}" title="Copy this leaf's ${t==='FT'?'titles':'kinds'} as text">Copy</button>`:''}${l.n?`<button class="open-btn" data-leaf="${l.code}" aria-expanded="${open}">${open?'Close':(t==='FT'?'Show titles':'Show kinds')}</button>`:''}</div>
+   <div class="leaf-foot"><span class="count">${fc!==null?fc.toLocaleString()+' of ':''}${l.n.toLocaleString()} ${t==='FT'?unit:(l.n===1?'kind':'kinds')}</span>${l.n?`<button class="copy-btn" data-leaf="${l.code}" title="Copy this leaf's ${t==='FT'?'titles':'kinds'} as text">Copy</button>`:''}${l.n?`<button class="open-btn" data-leaf="${l.code}" aria-expanded="${open}">${open?'Close':(t==='FT'?'Show titles':'Show kinds')}</button>`:''}</div>
    ${open?`<div class="kinds">${t==='FT'?ftKinds(l,rows):vaKinds(l,rows)}</div>`:''}</article>`;
 }
 function renderTree(t){
@@ -206,13 +228,15 @@ function renderTree(t){
   let out = t==='VA'
    ? `<p class="lede">Visual Art is divided by what the work is (its medium), never by region or period. This release holds ${c.leaves.toLocaleString()} leaves in ${c.families_built} of the ${T.fams.length} families, with ${c.kinds.toLocaleString()} entries under them: schools, centres, sub-types, makers, architects, artists and the gathered rows that attest each tradition. Dynasties, periods, places and cultures are filters, not nodes.</p>`
    : `<p class="lede">Film &amp; Television is divided by form (film, television, animation), then by genre, cycle, movement, tradition and format; large leaves are divided into sections along a stated axis. This release places ${c.placed.toLocaleString()} selected titles in ${c.leaves} leaves. Country, decade, format and platform are filters.</p>`;
+  if(t==='FT'){ if(!D.ft.fams.every(f=>MEM['FT-'+f.code])){ out+='<p class="lede">Loading the title lists for the filters…</p>'; ftAll().then(render).catch(()=>{}); } else out+=ftFilterBar(); }
   let ix=`<h3>${t==='VA'?'Visual Art':'Film & Television'}</h3><ol>`;
   for(const f of T.fams){
     ix+=`<li><a href="#${t}-${f.code}" class="${f.nleaves?'':'dim'}"><span>${f.code} ${esc(f.label)}</span><span class="n">${f.nleaves?f.n.toLocaleString():''}</span></a></li>`;
     let subs='';
     for(const s of f.subs){
+      const lh=s.leaves.map(l=>leafHTML(t,l,f.unit)).join(''); if(t==='FT'&&fOn()&&!lh) continue;
       subs+=`<section class="sub" id="${t}-${s.code}"><div class="sub-h"><span class="code">${s.code}</span><h3>${esc(s.label)}</h3>${s.leaves.length?`<span class="count">${s.leaves.length} leaves · ${s.n.toLocaleString()}</span>`:''}</div><p class="axis">${esc(s.axis)}</p>
-        ${s.leaves.length?`<div class="leaves">${s.leaves.map(l=>leafHTML(t,l,f.unit)).join('')}</div>`:'<p class="later">No leaf in this release; nothing gathered falls here yet.</p>'}</section>`;
+        ${s.leaves.length?`<div class="leaves">${lh}</div>`:'<p class="later">No leaf in this release; nothing gathered falls here yet.</p>'}</section>`;
     }
     out+=`<section class="fam" id="${t}-${f.code}"><div class="fam-h"><span class="code">${t}-${f.code}</span><h2>${esc(f.label)}</h2>${f.nleaves?`<span class="count">${f.nleaves} leaves · ${f.n.toLocaleString()} ${t==='FT'?f.unit:'kinds'}</span>`:''}</div>
       <p class="test">Membership test: ${esc(f.test)}</p>
@@ -285,10 +309,13 @@ main.addEventListener('click',e=>{
       if(ok) done('Copied'); else copyText(leafText(t,c)).then(()=>done('Copied'),()=>done('Copy failed')); }
     else { cb.textContent='Loading…'; members(t,c).then(()=>{ cb.textContent='Click again to copy'; }, ()=>done('Copy failed')); }
     return; }
+  const fx=e.target.closest('[data-f="clear"]'); if(fx){state.f={c:'',d:'',dir:''}; render(); return;}
   const a=e.target.closest('.more'); if(a){state.all.add(a.dataset.all); render(); return;}
   const b=e.target.closest('.open-btn'); if(b){const c=b.dataset.leaf; if(state.open.has(c)){state.open.delete(c);render();const el=document.getElementById(state.tab+'-'+c); if(el) el.scrollIntoView({block:'nearest'})} else openLeaf(state.tab,c,false); return;}
   const r=e.target.closest('.res'); if(r) go(r);
 });
+main.addEventListener('change',e=>{const x=e.target.closest('[data-f]'); if(x&&x.tagName==='SELECT'){state.f[x.dataset.f]=x.value; render();}});
+let ftm; main.addEventListener('input',e=>{const x=e.target.closest('input[data-f]'); if(x){clearTimeout(ftm); ftm=setTimeout(()=>{state.f[x.dataset.f]=x.value; render(); const i=main.querySelector('input[data-f="dir"]'); if(i){i.focus(); i.setSelectionRange(i.value.length,i.value.length)}},250)}});
 main.addEventListener('keydown',e=>{if(e.key==='Enter'){const r=e.target.closest('.res'); if(r) go(r);}});
 function go(r){if(!r.dataset.leaf) return; state.tab=r.dataset.t; state.hl=r.dataset.name; state.all.add(r.dataset.leaf); q.value=''; openLeaf(r.dataset.t,r.dataset.leaf,true);}
 let tmr; q.addEventListener('input',()=>{clearTimeout(tmr);tmr=setTimeout(render,180)});
