@@ -1,0 +1,14 @@
+# R3 collections cross-reference: label mapping pass
+
+Owner's decision: for Visual Art traditions not centred on named artists, **where the works can be seen is the primary organisation** (with movements, schools and sub-types): central databases first, then the institutions that hold the tradition, each with a direct link — not lists of individual objects. To build that, every gathered museum record (1.24 million, normalised in `objects_norm.csv.gz`) must be tied to a leaf. We map **labels, not objects**: each key is (source file, the source's own tradition label, medium family) with its object count, holding institutions and a sample title.
+
+Input: `taxonomy/r3/collections/in_<batch>.csv` — file, label, family (VA family letter guessed from the object type: A painting, B prints/drawings, C book arts, D sculpture, E ceramics, F glass, G metalwork/arms/jewellery, H textiles/dress, I woodwork/lacquer/furniture/instruments, J photography; `?` unknown), objects, institutions, top_institutions, sample_title, seed (an older disposition: leaf:/kind:/tag:/exclude:/alias: with an old code; a hint only). Leaves: `taxonomy/r3/collections/va_leaves.tsv` (code, label, family, sub-family, size, definition, aliases).
+
+For each key decide ONE of:
+- a **leaf code**: the tradition leaf these objects belong to, in the medium family of the objects (Iznik + E → the Iznik ware leaf; Safavid + H → the Safavid textile/carpet leaf that fits; Safavid + C → Persian painting (Safavid) etc.). If the family guess is wrong (a "?" or a mis-typed record), choose the leaf by the label and sample title. Prefer the most specific leaf that still holds the whole key.
+- `general:<family>` — the label is only a country, region or broad culture with no single tradition in that medium ("Chinese" + E across all periods, "Indian" + H): these objects still count for the family's collections overview, but no leaf.
+- `missing:<attested tradition name>` — the label names a real tradition, school, ware or centre in that medium that has **no leaf** (e.g. a regional pottery or textile tradition); give its established English name. These become candidate new leaves.
+- `exclude:<reason>` — not visual art of this taxonomy (natural history, archaeology fragments without tradition, documents, tools, photographs of objects, ethnographic everyday objects with no art tradition), or noise.
+Use your knowledge of the traditions; work fast and consistently; never invent leaves. ~1,500–4,000 keys: write in chunks with Python, scripts and scratch under taxonomy/r3/collections/work_<batch>/ (delete scratch at the end).
+
+Output: `taxonomy/r3/collections/out_<batch>.csv` with header `file,label,family,map,note` — one row per input key (map as above; note ≤ 8 words, optional). Run `python3 pipelines/r3/collections_validate.py <batch>` until it exits 0. No git, no other files. Final reply ≤ 8 lines: counts by outcome, the most frequent missing traditions, doubts.
