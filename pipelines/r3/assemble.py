@@ -312,6 +312,15 @@ def apply_resize(subs, rows, report):
                 tgt = key2.get(a[0], code); k[8] = str(a[1]) if a[1] else ""
                 if tgt == code: keep.append(k)
                 else: rows[tgt].append(k); st["moved_to_new"] += 1
+            bylabel = {}
+            for s2 in subs.values():
+                for l2 in s2["leaves"]: bylabel.setdefault(l2["label"].strip().lower(), l2["code"])
+            for idv, lab, why in o.get("moves", []):
+                tgt = bylabel.get(str(lab).strip().lower())
+                k = next((x for x in keep if x[5] == idv), None)
+                if tgt and k and tgt != code:
+                    keep.remove(k); k[8] = ""; k[4] = (why or k[4])[:80]; rows[tgt].append(k); st["moved_out"] += 1
+                elif k: st["move_unresolved"] += 1
             rows[code] = keep; st["leaves"] += 1
     report["resize"] = dict(st)
 
