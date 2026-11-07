@@ -1,0 +1,823 @@
+{
+ "leaves": {
+  "D5-52": {
+   "kinds": [
+    [
+     "Ibol emblems",
+     "Sub-types",
+     "each king carved with his personal emblem",
+     "r3 https://en.wikipedia.org/wiki/Ndop_(Kuba)",
+     0
+    ],
+    [
+     "Nyim (Kuba kings)",
+     "Sub-types",
+     "portraits of successive rulers, 18th–19th century",
+     "r3 https://en.wikipedia.org/wiki/Ndop_(Kuba)",
+     0
+    ]
+   ]
+  },
+  "E1-15": {
+   "kinds": [
+    [
+     "Water jars",
+     "Sub-types",
+     "Cham household pottery",
+     "r3 https://ich.unesco.org/en/USL/art-of-pottery-making-of-cham-people-01574",
+     0
+    ],
+    [
+     "Cooking pots",
+     "Sub-types",
+     "Cham household pottery",
+     "r3 https://ich.unesco.org/en/USL/art-of-pottery-making-of-cham-people-01574",
+     0
+    ]
+   ]
+  },
+  "E1-16": {
+   "kinds": [
+    [
+     "Votive animal figures",
+     "Sub-types",
+     "small modelled animals",
+     "r3 https://collections.vam.ac.uk/search/?q=Kasongan",
+     0
+    ],
+    [
+     "Decorated jars",
+     "Sub-types",
+     "large decorated jars",
+     "r3 https://collections.vam.ac.uk/search/?q=Kasongan",
+     0
+    ],
+    [
+     "Kasongan",
+     "Centres & workshops",
+     "village near Yogyakarta",
+     "r3 https://collections.vam.ac.uk/search/?q=Kasongan",
+     0
+    ]
+   ]
+  },
+  "E1-59": {
+   "kinds": [
+    [
+     "Awajún women potters",
+     "Sub-types",
+     "pottery made with its knowledge and ritual (UNESCO 2021)",
+     "r3 https://ich.unesco.org/en/RL/pottery-related-values-knowledge-lore-and-practices-of-the-awajun-people-01557",
+     0
+    ]
+   ]
+  },
+  "E1-78": {
+   "kinds": [
+    [
+     "Salts",
+     "Sub-types",
+     "inlaid lead-glazed salts",
+     "r3 https://en.wikipedia.org/wiki/Saint-Porchaire_ware",
+     0
+    ],
+    [
+     "Ewers",
+     "Sub-types",
+     "inlaid ewers",
+     "r3 https://en.wikipedia.org/wiki/Saint-Porchaire_ware",
+     0
+    ],
+    [
+     "Candlesticks",
+     "Sub-types",
+     "inlaid candlesticks",
+     "r3 https://en.wikipedia.org/wiki/Saint-Porchaire_ware",
+     0
+    ]
+   ]
+  },
+  "E1-91": {
+   "kinds": [
+    [
+     "Floral painted earthenware",
+     "Sub-types",
+     "dense floral ornament",
+     "r3 https://collections.vam.ac.uk/search/?q=Bubnivka",
+     0
+    ],
+    [
+     "Bubnivka",
+     "Centres & workshops",
+     "Vinnytsia Oblast, Ukraine",
+     "r3 https://collections.vam.ac.uk/search/?q=Bubnivka",
+     0
+    ]
+   ]
+  },
+  "E1-92": {
+   "kinds": [
+    [
+     "Oleshnia",
+     "Centres & workshops",
+     "Chernihiv Oblast, Ukraine",
+     "r3 https://collections.vam.ac.uk/search/?q=Oleshnia",
+     0
+    ]
+   ]
+  },
+  "E4-11": {
+   "kinds": [
+    [
+     "Panelled-border dishes",
+     "Sub-types",
+     "the classic Kraak plate",
+     "r3 https://asia.si.edu/explore-art-culture/collections/search/?edan_q=kraak+porcelain",
+     0
+    ],
+    [
+     "Klapmuts bowls",
+     "Sub-types",
+     "wide-rimmed Kraak bowls",
+     "r3 https://asia.si.edu/explore-art-culture/collections/search/?edan_q=kraak+porcelain",
+     0
+    ],
+    [
+     "Jingdezhen",
+     "Centres & workshops",
+     "the kilns that made it",
+     "r3 https://asia.si.edu/explore-art-culture/collections/search/?edan_q=kraak+porcelain",
+     0
+    ]
+   ]
+  },
+  "H2-16": {
+   "kinds": [
+    [
+     "Raanu coverlets",
+     "Sub-types",
+     "weft-faced striped coverlets",
+     "r3 https://en.wikipedia.org/wiki/Raanu",
+     0
+    ],
+    [
+     "Raanu wall hangings",
+     "Sub-types",
+     "geometric wall hangings",
+     "r3 https://en.wikipedia.org/wiki/Raanu",
+     0
+    ]
+   ]
+  },
+  "H3-17": {
+   "kinds": [
+    [
+     "Zhuang brocade",
+     "Sub-types",
+     "weft-patterned cotton and silk",
+     "r3 https://www.metmuseum.org/art/collection/search?q=Zhuang+brocade",
+     0
+    ],
+    [
+     "Guangxi",
+     "Centres & workshops",
+     "the Zhuang homeland",
+     "r3 https://www.metmuseum.org/art/collection/search?q=Zhuang+brocade",
+     0
+    ]
+   ]
+  },
+  "H3-19": {
+   "kinds": [
+    [
+     "Hanaori",
+     "Sub-types",
+     "figured float weave",
+     "r3 https://www.metmuseum.org/art/collection/search?q=Shuri+textile",
+     0
+    ],
+    [
+     "Rōton-ori",
+     "Sub-types",
+     "figured gauze-like weave",
+     "r3 https://www.metmuseum.org/art/collection/search?q=Shuri+textile",
+     0
+    ],
+    [
+     "Kasuri silks",
+     "Sub-types",
+     "ikat silks of the court",
+     "r3 https://www.metmuseum.org/art/collection/search?q=Shuri+textile",
+     0
+    ]
+   ]
+  },
+  "H3-22": {
+   "kinds": [
+    [
+     "Hansan ramie",
+     "Sub-types",
+     "fine ramie for summer hanbok",
+     "r3 https://www.metmuseum.org/art/collection/search?q=Hansan+mosi",
+     0
+    ],
+    [
+     "Hansan",
+     "Centres & workshops",
+     "South Chungcheong",
+     "r3 https://www.metmuseum.org/art/collection/search?q=Hansan+mosi",
+     0
+    ]
+   ]
+  },
+  "H3-26": {
+   "kinds": [
+    [
+     "Baule weaving",
+     "Sub-types",
+     "strip-woven cloth",
+     "r3 https://www.metmuseum.org/art/collection/search?q=Ivory+Coast+textile",
+     0
+    ],
+    [
+     "Senufo weaving",
+     "Sub-types",
+     "strip-woven cloth",
+     "r3 https://www.metmuseum.org/art/collection/search?q=Ivory+Coast+textile",
+     0
+    ],
+    [
+     "Dioula weaving",
+     "Sub-types",
+     "strip-woven cloth",
+     "r3 https://www.metmuseum.org/art/collection/search?q=Ivory+Coast+textile",
+     0
+    ],
+    [
+     "Dan weaving",
+     "Sub-types",
+     "strip-woven cloth",
+     "r3 https://www.metmuseum.org/art/collection/search?q=Ivory+Coast+textile",
+     0
+    ]
+   ]
+  },
+  "H3-32": {
+   "kinds": [
+    [
+     "Täkänä coverlets",
+     "Sub-types",
+     "reversible double-weave coverlets",
+     "r3 https://shop.finlandiafoundation.org/products/the-kuksa-carving-a-wooden-cup-oct-2024-copy",
+     0
+    ],
+    [
+     "Täkänä hangings",
+     "Sub-types",
+     "two-colour hangings",
+     "r3 https://shop.finlandiafoundation.org/products/the-kuksa-carving-a-wooden-cup-oct-2024-copy",
+     0
+    ]
+   ]
+  },
+  "H3-33": {
+   "kinds": [
+    [
+     "Colour-gradient blankets",
+     "Sub-types",
+     "double-weave blankets of Northern Vidzeme",
+     "r3 https://www.europeana.eu/en/search?query=Vidzeme+blanket",
+     0
+    ]
+   ]
+  },
+  "H3-38": {
+   "kinds": [
+    [
+     "Obukhovychi",
+     "Centres & workshops",
+     "Kyiv Oblast, Ukraine",
+     "r3 https://www.europeana.eu/en/search?query=Obukhovychi",
+     0
+    ]
+   ]
+  },
+  "H4-14": {
+   "kinds": [
+    [
+     "Chakan dresses",
+     "Sub-types",
+     "embroidered dresses",
+     "r3 https://www.metmuseum.org/art/collection/search?q=chakan",
+     0
+    ],
+    [
+     "Chakan wall hangings",
+     "Sub-types",
+     "embroidered hangings",
+     "r3 https://www.metmuseum.org/art/collection/search?q=chakan",
+     0
+    ]
+   ]
+  },
+  "H4-19": {
+   "kinds": [
+    [
+     "Cushions",
+     "Sub-types",
+     "raised gold-thread work",
+     "r3 https://www.metmuseum.org/art/collection/search?q=tekat",
+     0
+    ],
+    [
+     "Betel covers",
+     "Sub-types",
+     "raised gold-thread work",
+     "r3 https://www.metmuseum.org/art/collection/search?q=tekat",
+     0
+    ],
+    [
+     "Wedding furnishings",
+     "Sub-types",
+     "raised gold-thread work",
+     "r3 https://www.metmuseum.org/art/collection/search?q=tekat",
+     0
+    ]
+   ]
+  },
+  "H4-43": {
+   "kinds": [
+    [
+     "Syon Cope",
+     "Sub-types",
+     "English medieval embroidery",
+     "r3 https://en.wikipedia.org/wiki/Opus_Anglicanum",
+     0
+    ],
+    [
+     "Butler-Bowdon Cope",
+     "Sub-types",
+     "English medieval embroidery",
+     "r3 https://en.wikipedia.org/wiki/Opus_Anglicanum",
+     0
+    ],
+    [
+     "Steeple Aston Cope",
+     "Sub-types",
+     "English medieval embroidery",
+     "r3 https://en.wikipedia.org/wiki/Opus_Anglicanum",
+     0
+    ]
+   ]
+  },
+  "H4-52": {
+   "kinds": [
+    [
+     "Household linens",
+     "Sub-types",
+     "cross-stitch work",
+     "r3 https://www.europeana.eu/en/search?query=Gloria+do+Ribatejo",
+     0
+    ],
+    [
+     "Local dress",
+     "Sub-types",
+     "cross-stitch work",
+     "r3 https://www.europeana.eu/en/search?query=Gloria+do+Ribatejo",
+     0
+    ],
+    [
+     "Glória do Ribatejo",
+     "Centres & workshops",
+     "Salvaterra de Magos",
+     "r3 https://www.europeana.eu/en/search?query=Gloria+do+Ribatejo",
+     0
+    ]
+   ]
+  },
+  "H4-58": {
+   "kinds": [
+    [
+     "Belts",
+     "Sub-types",
+     "quill-embroidered leather",
+     "r3 https://www.europeana.eu/en/search?query=quill+embroidery",
+     0
+    ],
+    [
+     "Braces",
+     "Sub-types",
+     "quill-embroidered leather",
+     "r3 https://www.europeana.eu/en/search?query=quill+embroidery",
+     0
+    ],
+    [
+     "Sarntal",
+     "Centres & workshops",
+     "South Tyrol",
+     "r3 https://www.europeana.eu/en/search?query=quill+embroidery",
+     0
+    ]
+   ]
+  },
+  "H4-76": {
+   "kinds": [
+    [
+     "Women's dress",
+     "Sub-types",
+     "dark-blue wool embroidery",
+     "r3 https://en.wikipedia.org/wiki/Zmijanje_embroidery",
+     0
+    ],
+    [
+     "Household linen",
+     "Sub-types",
+     "dark-blue wool embroidery",
+     "r3 https://en.wikipedia.org/wiki/Zmijanje_embroidery",
+     0
+    ],
+    [
+     "Zmijanje",
+     "Centres & workshops",
+     "villages near Banja Luka",
+     "r3 https://en.wikipedia.org/wiki/Zmijanje_embroidery",
+     0
+    ]
+   ]
+  },
+  "H4-77": {
+   "kinds": [
+    [
+     "Women's shirts and sleeves",
+     "Sub-types",
+     "red, black and gold geometric motifs",
+     "r3 https://en.wikipedia.org/wiki/Macedonian_embroidery",
+     0
+    ]
+   ]
+  },
+  "H4-78": {
+   "kinds": [
+    [
+     "Kosovo-style embroidery",
+     "Sub-types",
+     "Serbian embroidery in the Kosovo style",
+     "r3 https://www.europeana.eu/en/search?query=Kosovo+embroidery",
+     0
+    ]
+   ]
+  },
+  "H4-81": {
+   "kinds": [
+    [
+     "Collars",
+     "Sub-types",
+     "knotted needle lace",
+     "r3 https://www.europeana.eu/en/search?query=Armenian+lace",
+     0
+    ],
+    [
+     "Covers",
+     "Sub-types",
+     "knotted needle lace",
+     "r3 https://www.europeana.eu/en/search?query=Armenian+lace",
+     0
+    ]
+   ]
+  },
+  "H4-87": {
+   "kinds": [
+    [
+     "Heinämaa",
+     "Centres & workshops",
+     "Finnish lace village",
+     "r3 https://www.europeana.eu/en/search?query=Hein%C3%A4maa",
+     0
+    ]
+   ]
+  },
+  "H4-88": {
+   "kinds": [
+    [
+     "Latvian bobbin lace",
+     "Sub-types",
+     "knipelēšana",
+     "r3 https://www.europeana.eu/en/search?query=Latvian+lace",
+     0
+    ]
+   ]
+  },
+  "H5-17": {
+   "kinds": [
+    [
+     "Court dress",
+     "Sub-types",
+     "gold-leaf stamped cloth",
+     "r3 https://www.metmuseum.org/art/collection/search?q=telepuk",
+     0
+    ],
+    [
+     "Wedding dress",
+     "Sub-types",
+     "gold-leaf stamped cloth",
+     "r3 https://www.metmuseum.org/art/collection/search?q=telepuk",
+     0
+    ]
+   ]
+  },
+  "H5-25": {
+   "kinds": [
+    [
+     "Royal dress",
+     "Sub-types",
+     "gold-leaf stamped silk",
+     "r3 https://www.metmuseum.org/art/collection/search?q=geumbak",
+     0
+    ],
+    [
+     "Bridal dress",
+     "Sub-types",
+     "gold-leaf stamped silk",
+     "r3 https://www.metmuseum.org/art/collection/search?q=geumbak",
+     0
+    ],
+    [
+     "Geumbakjang",
+     "Sub-types",
+     "designated masters",
+     "r3 https://www.metmuseum.org/art/collection/search?q=geumbak",
+     0
+    ]
+   ]
+  },
+  "H7-3": {
+   "kinds": [
+    [
+     "Lake Condah and Maiden's Punt cloaks",
+     "Sub-types",
+     "surviving historic cloaks",
+     "r3 https://www.britishmuseum.org/collection/search?keyword=possum-skin+cloak",
+     0
+    ],
+    [
+     "Revival cloaks",
+     "Sub-types",
+     "cloaks made since the revival",
+     "r3 https://www.britishmuseum.org/collection/search?keyword=possum-skin+cloak",
+     0
+    ]
+   ]
+  },
+  "H7-10": {
+   "kinds": [
+    [
+     "Embroidered women's shirts",
+     "Sub-types",
+     "regional folk costume",
+     "r3 https://www.europeana.eu/en/search?query=Macedonian+costume",
+     0
+    ],
+    [
+     "Sleeveless coats",
+     "Sub-types",
+     "regional folk costume",
+     "r3 https://www.europeana.eu/en/search?query=Macedonian+costume",
+     0
+    ]
+   ]
+  },
+  "H8-1": {
+   "kinds": [
+    [
+     "Hana-fibre mats",
+     "Sub-types",
+     "woven by the kinnara community",
+     "r3 https://ich.unesco.org/en/RL/traditional-craftsmanship-of-making-dumbara-rat-kalla-01693",
+     0
+    ],
+    [
+     "Dumbara valley",
+     "Centres & workshops",
+     "Sri Lanka",
+     "r3 https://ich.unesco.org/en/RL/traditional-craftsmanship-of-making-dumbara-rat-kalla-01693",
+     0
+    ]
+   ]
+  },
+  "H8-3": {
+   "kinds": [
+    [
+     "Ponorogo",
+     "Centres & workshops",
+     "Java",
+     "r3 https://www.metmuseum.org/art/collection/search?q=daluang",
+     0
+    ],
+    [
+     "Garut",
+     "Centres & workshops",
+     "Java",
+     "r3 https://www.metmuseum.org/art/collection/search?q=daluang",
+     0
+    ],
+    [
+     "Wayang beber scrolls",
+     "Sub-types",
+     "painted on daluang",
+     "r3 https://www.metmuseum.org/art/collection/search?q=daluang",
+     0
+    ]
+   ]
+  },
+  "H8-6": {
+   "kinds": [
+    [
+     "Chaesang boxes",
+     "Sub-types",
+     "dyed bamboo-strip boxes",
+     "r3 https://www.metmuseum.org/art/collection/search?q=chaesang",
+     0
+    ],
+    [
+     "Chaesangjang",
+     "Sub-types",
+     "designated masters",
+     "r3 https://www.metmuseum.org/art/collection/search?q=chaesang",
+     0
+    ]
+   ]
+  },
+  "H8-8": {
+   "kinds": [
+    [
+     "Mutuba barkcloth",
+     "Sub-types",
+     "beaten from the inner bark of the mutuba fig",
+     "r3 https://www.metmuseum.org/art/collection/search?q=Uganda+barkcloth",
+     0
+    ],
+    [
+     "Royal and funerary cloth",
+     "Sub-types",
+     "Baganda use",
+     "r3 https://www.metmuseum.org/art/collection/search?q=Uganda+barkcloth",
+     0
+    ]
+   ]
+  },
+  "H8-27": {
+   "kinds": [
+    [
+     "House lashing",
+     "Sub-types",
+     "sennit binding of house beams",
+     "r3 https://www.historiskmuseum.no/english/exhibitions/exhibitions-archive/the-value-of-x/lalava",
+     0
+    ],
+    [
+     "Canoe lashing",
+     "Sub-types",
+     "sennit binding of canoe hulls",
+     "r3 https://www.historiskmuseum.no/english/exhibitions/exhibitions-archive/the-value-of-x/lalava",
+     0
+    ]
+   ]
+  },
+  "H8-30": {
+   "kinds": [
+    [
+     "Spruce-bast baskets",
+     "Sub-types",
+     "Swedish plaited baskets",
+     "r3 https://www.europeana.eu/en/search?query=bastabinne",
+     0
+    ]
+   ]
+  },
+  "H8-33": {
+   "kinds": [
+    [
+     "Shingle baskets",
+     "Sub-types",
+     "plaited from pulled wood shingles",
+     "r3 https://www.europeana.eu/en/search?query=p%C3%A4rekori",
+     0
+    ]
+   ]
+  },
+  "H8-36": {
+   "kinds": [
+    [
+     "Paŭki (straw spiders)",
+     "Sub-types",
+     "ritual straw hangings",
+     "r3 https://www.europeana.eu/en/search?query=Belarus+straw",
+     0
+    ],
+    [
+     "Straw figures",
+     "Sub-types",
+     "ritual and decorative figures",
+     "r3 https://www.europeana.eu/en/search?query=Belarus+straw",
+     0
+    ],
+    [
+     "Straw boxes and baskets",
+     "Sub-types",
+     "decorative objects",
+     "r3 https://www.europeana.eu/en/search?query=Belarus+straw",
+     0
+    ]
+   ]
+  },
+  "H8-38": {
+   "kinds": [
+    [
+     "Willow-vine baskets",
+     "Sub-types",
+     "Iza weaving",
+     "r3 https://www.europeana.eu/en/search?query=Iza",
+     0
+    ],
+    [
+     "Willow-vine furniture",
+     "Sub-types",
+     "Iza weaving",
+     "r3 https://www.europeana.eu/en/search?query=Iza",
+     0
+    ],
+    [
+     "Iza",
+     "Centres & workshops",
+     "Zakarpattia, Ukraine",
+     "r3 https://www.europeana.eu/en/search?query=Iza",
+     0
+    ]
+   ]
+  },
+  "H8-39": {
+   "kinds": [
+    [
+     "Shchitky",
+     "Centres & workshops",
+     "Vinnytsia Oblast, Ukraine",
+     "r3 https://www.europeana.eu/en/search?query=Shchitky",
+     0
+    ],
+    [
+     "Pysarivka",
+     "Centres & workshops",
+     "Vinnytsia Oblast, Ukraine",
+     "r3 https://www.europeana.eu/en/search?query=Shchitky",
+     0
+    ]
+   ]
+  },
+  "H9-8": {
+   "kinds": [
+    [
+     "Hiawatha Belt",
+     "Sub-types",
+     "Haudenosaunee wampum belt",
+     "r3 https://en.wikipedia.org/wiki/Wampum",
+     0
+    ],
+    [
+     "Two Row Wampum",
+     "Sub-types",
+     "Haudenosaunee wampum belt",
+     "r3 https://en.wikipedia.org/wiki/Wampum",
+     0
+    ]
+   ]
+  },
+  "K7-16": {
+   "kinds": [
+    [
+     "Harmandir Sahib",
+     "Sub-types",
+     "Amritsar",
+     "r3 https://en.wikipedia.org/wiki/Sikh_architecture",
+     0
+    ],
+    [
+     "Takht Sri Patna Sahib",
+     "Sub-types",
+     "Patna",
+     "r3 https://en.wikipedia.org/wiki/Sikh_architecture",
+     0
+    ],
+    [
+     "Gurdwara Baba Atal",
+     "Sub-types",
+     "Amritsar",
+     "r3 https://en.wikipedia.org/wiki/Sikh_architecture",
+     0
+    ]
+   ]
+  }
+ },
+ "new_leaves": [],
+ "moves_out": [],
+ "dropped": []
+}

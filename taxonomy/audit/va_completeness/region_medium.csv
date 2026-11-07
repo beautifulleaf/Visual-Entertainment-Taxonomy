@@ -67,8 +67,8 @@ D,Sculpture & Carving,Ancient Near East,4,4862,50
 D,Sculpture & Carving,"Islamic world (MENA, Iran, Anatolia)",9,7447,19
 D,Sculpture & Carving,Central Asia & Silk Road,1,1248,17
 D,Sculpture & Carving,Himalaya,5,2698,51
-D,Sculpture & Carving,South Asia,12,2850,78
-D,Sculpture & Carving,Southeast Asia,13,8754,55
+D,Sculpture & Carving,South Asia,13,2850,78
+D,Sculpture & Carving,Southeast Asia,15,8754,55
 D,Sculpture & Carving,China,9,9636,28
 D,Sculpture & Carving,Japan,11,10529,29
 D,Sculpture & Carving,Korea,2,237,11
@@ -79,7 +79,7 @@ D,Sculpture & Carving,Mesoamerica & Caribbean,13,4540,40
 D,Sculpture & Carving,South America,8,626,19
 D,Sculpture & Carving,Oceania (Pacific),10,6213,65
 D,Sculpture & Carving,Australia (Aboriginal),4,362,8
-E,Ceramics,Western Europe,22,82168,260
+E,Ceramics,Western Europe,24,82168,260
 E,Ceramics,Central & Eastern Europe,12,1498,83
 E,Ceramics,Greco-Roman & Byzantine Mediterranean,16,3672,85
 E,Ceramics,Ancient Egypt & Nubia,5,4028,10
@@ -121,9 +121,9 @@ F,Glass,Oceania (Pacific),0,59,0
 F,Glass,Australia (Aboriginal),0,0,0
 G,"Metalwork, Arms & Jewellery",Western Europe,25,14137,173
 G,"Metalwork, Arms & Jewellery",Central & Eastern Europe,7,2200,143
-G,"Metalwork, Arms & Jewellery",Greco-Roman & Byzantine Mediterranean,7,4220,55
+G,"Metalwork, Arms & Jewellery",Greco-Roman & Byzantine Mediterranean,9,4220,55
 G,"Metalwork, Arms & Jewellery",Ancient Egypt & Nubia,1,2480,6
-G,"Metalwork, Arms & Jewellery",Ancient Near East,4,1438,42
+G,"Metalwork, Arms & Jewellery",Ancient Near East,5,1438,42
 G,"Metalwork, Arms & Jewellery","Islamic world (MENA, Iran, Anatolia)",12,24314,58
 G,"Metalwork, Arms & Jewellery",Central Asia & Silk Road,2,1209,10
 G,"Metalwork, Arms & Jewellery",Himalaya,2,1900,29
@@ -139,7 +139,7 @@ G,"Metalwork, Arms & Jewellery",Mesoamerica & Caribbean,4,2370,24
 G,"Metalwork, Arms & Jewellery",South America,13,7047,38
 G,"Metalwork, Arms & Jewellery",Oceania (Pacific),2,13866,107
 G,"Metalwork, Arms & Jewellery",Australia (Aboriginal),1,594,8
-H,"Textiles, Carpets & Dress",Western Europe,58,37372,574
+H,"Textiles, Carpets & Dress",Western Europe,60,37372,574
 H,"Textiles, Carpets & Dress",Central & Eastern Europe,54,7956,602
 H,"Textiles, Carpets & Dress",Greco-Roman & Byzantine Mediterranean,3,5,23
 H,"Textiles, Carpets & Dress",Ancient Egypt & Nubia,2,5,4
@@ -177,7 +177,7 @@ I,"Woodwork, Lacquer & Furniture",North America (Indigenous),2,6585,22
 I,"Woodwork, Lacquer & Furniture",North America (settler),2,258,1
 I,"Woodwork, Lacquer & Furniture",Mesoamerica & Caribbean,1,1464,7
 I,"Woodwork, Lacquer & Furniture",South America,2,3725,9
-I,"Woodwork, Lacquer & Furniture",Oceania (Pacific),2,6939,35
+I,"Woodwork, Lacquer & Furniture",Oceania (Pacific),3,6939,35
 I,"Woodwork, Lacquer & Furniture",Australia (Aboriginal),0,107,0
 J,Photography,Western Europe,5,2450,0
 J,Photography,Central & Eastern Europe,0,25,0

@@ -1,6 +1,6 @@
 # Structure audit
 
-Computed from the published data: FT 950 leaves (604 sectioned), VA 1795 leaves. Flags in `flags.csv`.
+Computed from the published data: FT 950 leaves (604 sectioned), VA 1807 leaves. Flags in `flags.csv`.
 
 | Check | Finding | High | Medium | Low |
 |---|---|---:|---:|---:|
@@ -80,31 +80,31 @@ S2: 0 titles fall outside the dates of their era section.
 | VA | D2 Ivory & Bone Carving | 3 | 0 | 0 | 15 |
 | VA | D3 Hardstone, Rock Crystal & Jade Carving | 3 | 0 | 0 | 10 |
 | VA | D4 Masks & Puppets | 0 | 1 | 0 | 32 |
-| VA | D5 Figurative Sculpture | 28 | 7 | 3 | 99 |
+| VA | D5 Figurative Sculpture | 28 | 7 | 3 | 103 |
 | VA | D6 Ritual Objects & Regalia | 0 | 0 | 0 | 13 |
-| VA | E1 Earthenware | 136 | 0 | 0 | 6 |
+| VA | E1 Earthenware | 142 | 0 | 0 | 12 |
 | VA | E2 Fritware (Stonepaste) | 15 | 0 | 0 | 1 |
 | VA | E3 Stoneware | 34 | 0 | 0 | 0 |
-| VA | E4 Porcelain | 26 | 0 | 0 | 0 |
+| VA | E4 Porcelain | 27 | 0 | 0 | 0 |
 | VA | F1 Blown & Moulded Glass | 0 | 0 | 2 | 17 |
 | VA | F2 Cut & Carved Glass | 1 | 0 | 0 | 3 |
 | VA | F3 Enamelled & Gilded Glass | 0 | 0 | 0 | 1 |
 | VA | F4 Lustre-Painted Glass | 0 | 0 | 0 | 1 |
 | VA | F5 Stained Glass | 1 | 0 | 0 | 2 |
-| VA | G1 Metalwork | 14 | 0 | 0 | 59 |
+| VA | G1 Metalwork | 14 | 0 | 0 | 62 |
 | VA | G2 Arms & Armour | 3 | 0 | 0 | 11 |
 | VA | G3 Jewellery | 5 | 0 | 0 | 28 |
 | VA | H1 Pile Carpets & Rugs | 5 | 0 | 0 | 9 |
-| VA | H2 Flatweaves | 5 | 0 | 0 | 20 |
-| VA | H3 Woven Silks & Figured Textiles | 7 | 0 | 0 | 48 |
-| VA | H4 Embroidery & Needlework | 13 | 0 | 1 | 85 |
-| VA | H5 Dyed & Printed Textiles | 10 | 0 | 0 | 29 |
+| VA | H2 Flatweaves | 5 | 0 | 0 | 21 |
+| VA | H3 Woven Silks & Figured Textiles | 8 | 0 | 0 | 55 |
+| VA | H4 Embroidery & Needlework | 13 | 0 | 1 | 97 |
+| VA | H5 Dyed & Printed Textiles | 10 | 0 | 0 | 31 |
 | VA | H6 Felt | 0 | 0 | 0 | 1 |
-| VA | H7 Dress & Costume | 2 | 2 | 0 | 17 |
-| VA | H8 Basketry, Barkcloth & Fibre Arts | 6 | 0 | 0 | 33 |
-| VA | H9 Beadwork, Quillwork & Featherwork | 3 | 0 | 0 | 12 |
+| VA | H7 Dress & Costume | 2 | 2 | 0 | 19 |
+| VA | H8 Basketry, Barkcloth & Fibre Arts | 6 | 0 | 0 | 43 |
+| VA | H9 Beadwork, Quillwork & Featherwork | 3 | 0 | 0 | 13 |
 | VA | H10 Leatherwork | 1 | 0 | 0 | 2 |
-| VA | I1 Carved & Inlaid Woodwork | 0 | 0 | 0 | 32 |
+| VA | I1 Carved & Inlaid Woodwork | 0 | 0 | 0 | 33 |
 | VA | I2 Lacquer | 3 | 1 | 0 | 18 |
 | VA | I3 Furniture & Decorative Arts Styles | 4 | 12 | 0 | 8 |
 | VA | I4 Musical Instruments | 1 | 0 | 0 | 22 |
@@ -115,7 +115,7 @@ S2: 0 titles fall outside the dates of their era section.
 | VA | K4 Medieval European Architecture | 13 | 0 | 0 | 0 |
 | VA | K5 Early Modern European & Colonial Architecture | 4 | 20 | 0 | 0 |
 | VA | K6 Modern & Contemporary Architecture | 3 | 23 | 0 | 0 |
-| VA | K7 South Asian Architecture | 2 | 15 | 0 | 2 |
+| VA | K7 South Asian Architecture | 2 | 16 | 0 | 2 |
 | VA | K8 East Asian Architecture | 18 | 0 | 0 | 3 |
 | VA | K9 Southeast Asian Architecture | 11 | 0 | 0 | 3 |
 | VA | K10 African Architecture | 0 | 6 | 0 | 1 |
@@ -140,8 +140,8 @@ S2: 0 titles fall outside the dates of their era section.
 | Tab | Sub-family | Leaves | Entries | Gini | Largest leaf |
 |---|---|---:|---:|---:|---:|
 | VA | A5 Easel Painting | 145 | 19,245 | 0.83 | 31% |
-| VA | D5 Figurative Sculpture | 138 | 4,267 | 0.81 | 38% |
-| VA | H7 Dress & Costume | 23 | 291 | 0.70 | 60% |
+| VA | D5 Figurative Sculpture | 141 | 4,279 | 0.81 | 38% |
+| VA | H7 Dress & Costume | 23 | 295 | 0.68 | 59% |
 | VA | J1 Photographic Schools & Movements | 18 | 3,110 | 0.68 | 29% |
 | VA | K8 East Asian Architecture | 21 | 528 | 0.68 | 29% |
 | VA | K5 Early Modern European & Colonial Architecture | 24 | 1,285 | 0.68 | 33% |
@@ -152,5 +152,5 @@ S2: 0 titles fall outside the dates of their era section.
 | VA | K4 Medieval European Architecture | 13 | 684 | 0.65 | 46% |
 | VA | L1 Rock Art | 42 | 584 | 0.62 | 19% |
 | VA | K9 Southeast Asian Architecture | 14 | 197 | 0.60 | 36% |
-| VA | H8 Basketry, Barkcloth & Fibre Arts | 49 | 192 | 0.58 | 14% |
 | VA | M1 Installation, Conceptual & Performance Art | 9 | 524 | 0.58 | 51% |
+| VA | K6 Modern & Contemporary Architecture | 26 | 2,227 | 0.57 | 35% |

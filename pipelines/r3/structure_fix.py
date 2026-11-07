@@ -515,10 +515,19 @@ def apply(tree, MV, MF, report):
     for c, name, new in DECISIONS["va_qualify"]:
         for r in MV.get(c, []):
             if fold(r[0]) == fold(name): r[0] = new; st["va_entries_qualified"] += 1
+    SEARCH = "https://en.wikipedia.org/w/index.php?search="
+    NOSRC = {"E2-13": "Qallaline tiles", "I1-5": "Islamic woodwork", "I2-3": "Edirnekari lacquer", "K1-19": "Javanese mosque architecture"}
     for f in tree["va"]["fams"]:
         for s in f["subs"]:
             for l in s["leaves"]:
-                if l["code"] in MV: l["n"] = len(MV[l["code"]])
+                if l["code"] in MV:
+                    l["n"] = len(MV[l["code"]])
+                    have = {r[1] for r in MV[l["code"]]}
+                    secs = l.get("secs")
+                    if isinstance(secs, list) and any(x not in have for x in secs):  # sections emptied by the drops above
+                        l["secs"] = [x for x in secs if x in have]; st["va_empty_sections_dropped"] += 1
+                if not l.get("src") and l["code"] in NOSRC:  # never sourced: a Wikipedia search, the pipeline's fallback
+                    l["src"] = [[SEARCH + NOSRC[l["code"]].replace(" ", "+"), "Wikipedia search"]]; st["va_sources_added"] += 1
             s["n"] = sum(int(l.get("n") or 0) for l in s["leaves"])
         f["n"] = sum(s["n"] for s in f["subs"])
     cv = tree.get("census", {}).get("va")

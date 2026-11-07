@@ -538,6 +538,9 @@ D5-135,Bahía Figurines,South America,-500,500,rule
 D5-136,Kushite Sculpture,Ancient Egypt & Nubia,-750,350,rule
 D5-137,Ancient Cypriot Sculpture,Western Europe,-323,-31,rule
 D5-138,Classical Javanese Sculpture,Southeast Asia,700,1500,rule
+D5-139,Shunga Sculpture,South Asia,-200,0,rule
+D5-140,Batak Sculpture,Southeast Asia,,,rule
+D5-141,Dayak Sculpture,Southeast Asia,,,rule
 D6-1,Kaavad,South Asia,,,rule
 D6-2,Minkisi,Sub-Saharan Africa,1800,1900,objects
 D6-3,Fang Reliquary Guardians,Sub-Saharan Africa,,,rule
@@ -702,6 +705,9 @@ E1-148,Sepik Pottery,Oceania (Pacific),,,rule
 E1-149,Samarra Ware,Ancient Near East,-6200,-5700,rule
 E1-150,Halaf Pottery,Ancient Near East,-6100,-5100,rule
 E1-151,Ubaid Pottery,Ancient Near East,-5500,-3700,rule
+E1-152,Triana Pottery,Western Europe,,,rule
+E1-153,Sesklo Pottery,Western Europe,-6000,-5000,rule
+E1-154,Harappan Pottery,,-3300,-1300,rule
 E2-1,Seljuk Pottery,"Islamic world (MENA, Iran, Anatolia)",1000,1300,rule
 E2-2,Kashan Lustreware,"Islamic world (MENA, Iran, Anatolia)",1100,1400,rule
 E2-3,Mina'i Ware,"Islamic world (MENA, Iran, Anatolia)",1100,1300,override
@@ -880,6 +886,9 @@ G1-70,Etruscan Bronzes,Greco-Roman & Byzantine Mediterranean,-800,0,rule
 G1-71,Roman Metalwork,Greco-Roman & Byzantine Mediterranean,,,rule
 G1-72,Ancient Greek Bronzes,Greco-Roman & Byzantine Mediterranean,-323,-31,rule+mediterranean
 G1-73,Vicús Metalwork,South America,-200,600,rule
+G1-74,Bactria–Margiana Metalwork,Ancient Near East,-2300,-1700,rule
+G1-75,Laconian Lead Votives,Greco-Roman & Byzantine Mediterranean,-700,-400,rule
+G1-76,Villanovan Bronzes,Greco-Roman & Byzantine Mediterranean,-900,-700,rule
 G2-1,Islamic Arms and Armour,"Islamic world (MENA, Iran, Anatolia)",1250,1922,rule
 G2-2,Kris,Southeast Asia,,,rule
 G2-3,Japanese Swords,Japan,794,1813,entries
@@ -1029,6 +1038,7 @@ H3-59,Linen Damask,Western Europe,1500,1600,rule
 H3-60,Mughal Textiles,South Asia,1500,1800,rule
 H3-61,Byzantine Silk,Greco-Roman & Byzantine Mediterranean,300,1453,rule
 H3-62,Bhutanese Textiles,Himalaya,,,rule
+H3-63,Lyon Silk,Western Europe,1500,1900,rule
 H4-1,Suzani,Central Asia & Silk Road,1350,1850,objects
 H4-2,Ottoman Embroidery,"Islamic world (MENA, Iran, Anatolia)",1299,1922,rule
 H4-3,Palestinian Embroidery,"Islamic world (MENA, Iran, Anatolia)",1880,1930,objects
@@ -1139,6 +1149,7 @@ H4-107,Kutch Embroidery,South Asia,,,rule
 H4-108,Valenciennes Lace,Western Europe,1600,1700,rule
 H4-109,Needlework Samplers,North America (settler),1500,1600,rule
 H4-110,Button Blankets,North America (Indigenous),,,rule
+H4-111,Chantilly Lace,Western Europe,1600,1700,rule
 H5-1,Central Asian Ikat,Central Asia & Silk Road,1865,1870,objects
 H5-2,Qalamkar,"Islamic world (MENA, Iran, Anatolia)",,,rule
 H5-3,Indian Chintz,South Asia,1600,1800,rule
@@ -1304,6 +1315,7 @@ I1-29,Vardo,Western Europe,1870,1870,rule
 I1-30,Danish Freehand Pipes,Western Europe,1950,1959,rule
 I1-31,Northwest Coast Woodcarving,North America (Indigenous),1873,2006,entries
 I1-32,Kuba Woodcarving,Sub-Saharan Africa,,,rule
+I1-33,Polynesian Clubs,Oceania (Pacific),,,rule
 I2-1,Persian Lacquer,"Islamic world (MENA, Iran, Anatolia)",1370,1925,rule
 I2-2,Kashmiri Papier-Mâché,Himalaya,,,rule
 I2-3,Edirnekâri,"Islamic world (MENA, Iran, Anatolia)",1600,1900,rule

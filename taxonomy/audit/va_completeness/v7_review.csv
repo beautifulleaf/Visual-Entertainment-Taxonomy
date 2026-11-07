@@ -1,0 +1,37 @@
+probe,decision,reason
+still life,facet,a subject; served by the finder and leaf definitions, not a tradition leaf
+oil painting,facet,a technique across many leaves of A5 Easel Painting
+black and white photography,facet,a photographic process across J1 movements
+lithography,facet,a print process; B2 Printmaking tags the process (its axis says so)
+screen printing,facet,a print process; B2 Printmaking tags the process
+woodcut,facet,a print process; B2 Printmaking tags the process
+etching,facet,a print process; B2 Printmaking tags the process
+cartoon,covered,B1 comics and illustration leaves (Illustration alias caricature)
+skyscraper,facet,a building type across K6 movements (Chicago School onward)
+pyramids,facet,a building type in K3-1 K10-4 K11-1
+Buddha statue,facet,a subject across D5 Buddhist sculpture leaves
+Bayeux Tapestry,single work,a single work (Anglo-Saxon embroidery) is a kind of a leaf, not a leaf; see H4-43 Opus Anglicanum
+church windows,covered,F5 Stained Glass
+African fabric,umbrella,covered by the named African textile leaves in H3 and H5; no umbrella leaf by rule
+Mexican folk art,umbrella,covered by the named Mexican leaves (A6 D5 E1 C4); no umbrella leaf by rule
+antique furniture,covered,I3 Furniture & Decorative Arts Styles
+tattoo,covered,L5 Body Art
+Chinese ink landscape painting,covered,A2 East Asian Ink & Colour Painting (A2-2 Northern Landscape Style and others)
+Chinese scroll painting,covered,A2 East Asian Ink & Colour Painting
+portrait,facet,a subject; no subject facet nodes by rule
+landscape painting,facet,a subject; landscape schools are leaves (A2-2 A5 schools)
+abstract art,facet,covered by named A5 movements
+quilt,covered,H4 quilt leaves
+quilting,covered,H4 quilt leaves
+fresco,facet,a technique within L2 Wall Painting
+NFT art,covered,M2 Video & New Media Art
+pixel art,covered,M2 Video & New Media Art
+marquetry,facet,a technique within I1 and I3 leaves
+poster art,covered,B2 Poster Art
+Arabic calligraphy,covered,C1 calligraphy leaves (Kufic to Sini)
+Greek vase,covered,E1 Greek vase leaves
+Chinese vase,covered,E3 and E4 Chinese wares
+kimono,covered,H7-12 Kimono
+Moai (Easter Island),covered,D5-106 Moai
+Haitian painting,covered,A6-31 and A5-79
+cloisonne,covered,G1-47 Chinese Cloisonné and G1-48 Japanese Cloisonné (accent)

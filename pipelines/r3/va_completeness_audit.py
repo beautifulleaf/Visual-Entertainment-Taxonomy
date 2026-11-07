@@ -320,15 +320,25 @@ def main():
 
     # ---- V7 probes ---------------------------------------------------------
     probes = list(csv.DictReader(open(os.path.join(ROOT, "taxonomy/audit/coverage_probes_va.csv"))))
+    subcodes = {s["code"] for f in tree["fams"] for s in f["subs"]} | {f["code"] for f in tree["fams"]}
+    rv7 = os.path.join(OUT, "v7_review.csv")
+    v7rev = {r["probe"] for r in csv.DictReader(open(rv7))} if os.path.exists(rv7) else set()
+    def home_ok(home):
+        codes = re.findall(r"\b([A-N]\d{0,2}(?:-\d{1,3})?)\b", home or "")
+        return any(c in leaves or c in subcodes for c in codes)
     for p in probes:
         st = (p.get("status") or "").strip()
         home = (p.get("home") or "").strip()
         code = home.split(" ")[0] if home else ""
+        if p["probe"] in v7rev:
+            continue
         if st in ("weak", "missing"):
             now = leaf_for(p["probe"])
+            if now:  # the probe has a leaf now: resolved since the probe list was written
+                continue
             flag("V7", "medium" if st == "missing" else "low", p["probe"], f"probe {st} at audit time",
                  f"home then: {home or '-'}; leaf names matching now: {', '.join(now[:4]) or 'none'}; {p.get('comment','')[:80]}")
-        elif st == "ok" and code and code not in leaves:
+        elif st == "ok" and code and code not in leaves and not home_ok(home) and not leaf_for(p["probe"]):
             flag("V7", "medium", p["probe"], "probe home no longer exists", home)
 
     # ---- V8 region x medium coverage -------------------------------------

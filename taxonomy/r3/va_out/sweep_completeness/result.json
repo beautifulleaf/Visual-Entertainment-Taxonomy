@@ -1604,8 +1604,23 @@
      "Samarra pottery in the British Museum"
     ]
    ],
-   "axis": "holding institutions",
-   "kinds": [],
+   "axis": "sub-types, then holding institutions",
+   "kinds": [
+    [
+     "Whirl-motif bowls",
+     "Sub-types",
+     "bowls painted with whirling women, birds, fish and scorpions",
+     "r3 https://en.wikipedia.org/wiki/Samarra_culture",
+     0
+    ],
+    [
+     "Geometric banded ware",
+     "Sub-types",
+     "buff ware with dark geometric bands",
+     "r3 https://en.wikipedia.org/wiki/Samarra_culture",
+     0
+    ]
+   ],
    "collections_from": []
   },
   {
@@ -1634,8 +1649,23 @@
      "Halaf pottery in the British Museum"
     ]
    ],
-   "axis": "holding institutions",
-   "kinds": [],
+   "axis": "sub-types, then holding institutions",
+   "kinds": [
+    [
+     "Polychrome bowls",
+     "Sub-types",
+     "thin-walled bowls painted in red, black and white",
+     "r3 https://en.wikipedia.org/wiki/Halaf_culture",
+     0
+    ],
+    [
+     "Bucranium motif",
+     "Sub-types",
+     "bull's-head decoration",
+     "r3 https://en.wikipedia.org/wiki/Halaf_culture",
+     0
+    ]
+   ],
    "collections_from": []
   },
   {
@@ -1659,8 +1689,593 @@
      "Ubaid pottery in the British Museum"
     ]
    ],
-   "axis": "holding institutions",
-   "kinds": [],
+   "axis": "sub-types, then holding institutions",
+   "kinds": [
+    [
+     "Painted buff ware",
+     "Sub-types",
+     "greenish-buff ware with dark geometric painting",
+     "r3 https://en.wikipedia.org/wiki/Ubaid_period",
+     0
+    ],
+    [
+     "Slow-wheel ware",
+     "Sub-types",
+     "later Ubaid pottery made on the tournette",
+     "r3 https://en.wikipedia.org/wiki/Ubaid_period",
+     0
+    ]
+   ],
+   "collections_from": []
+  },
+  {
+   "key": "BMACMT",
+   "sub": "G1",
+   "label": "Bactria–Margiana Metalwork",
+   "breadth": "narrow",
+   "defn": "Metalwork of the Bronze Age Oxus civilisation (Bactria–Margiana Archaeological Complex, c. 2300–1700 BCE) of southern Central Asia: cast copper-alloy shaft-hole axes and pins with animal and demon finials, compartmented seals and animal figurines, beside the composite chlorite figures of 'Bactrian princesses'.",
+   "aliases": "BMAC metalwork; Oxus civilisation bronzes",
+   "see": "G1-23 Achaemenid Metalwork; D3-5 Cylinder Seals",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Bactria–Margiana_Archaeological_Complex",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Bactria-Margiana",
+     "The Met collection search: Bactria-Margiana",
+     "Bactria–Margiana objects in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "sub-types, then holding institutions",
+   "kinds": [
+    [
+     "Shaft-hole axes",
+     "Sub-types",
+     "ceremonial axes with animal and demon heads",
+     "r3 https://en.wikipedia.org/wiki/Bactria–Margiana_Archaeological_Complex",
+     0
+    ],
+    [
+     "Compartmented seals",
+     "Sub-types",
+     "cast metal stamp seals",
+     "r3 https://en.wikipedia.org/wiki/Bactria–Margiana_Archaeological_Complex",
+     0
+    ],
+    [
+     "Animal figurines",
+     "Sub-types",
+     "cast camels and other animals",
+     "r3 https://en.wikipedia.org/wiki/Bactria–Margiana_Archaeological_Complex",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Bactria-Margiana Metalwork"
+   ]
+  },
+  {
+   "key": "LACLEA",
+   "sub": "G1",
+   "label": "Laconian Lead Votives",
+   "breadth": "narrow",
+   "defn": "Small cast lead figurines dedicated by the tens of thousands at the sanctuary of Artemis Orthia and other shrines of Sparta (7th–5th century BCE): warriors, women, deities including a winged goddess, musicians, dancers and horsemen.",
+   "aliases": "Laconian lead figurines; Spartan lead votives",
+   "see": "E1-29 Laconian Vase Painting; D5-58 Greek Terracotta Figurines",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Sanctuary_of_Artemis_Orthia",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Laconian+lead",
+     "The Met collection search: Laconian lead",
+     "Laconian lead figurines in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "sub-types, then holding institutions",
+   "kinds": [
+    [
+     "Warriors",
+     "Sub-types",
+     "the most common type",
+     "r3 https://en.wikipedia.org/wiki/Sanctuary_of_Artemis_Orthia",
+     0
+    ],
+    [
+     "Winged goddess",
+     "Sub-types",
+     "possibly Artemis Orthia",
+     "r3 https://en.wikipedia.org/wiki/Sanctuary_of_Artemis_Orthia",
+     0
+    ],
+    [
+     "Musicians and dancers",
+     "Sub-types",
+     "flute, lyre and cymbal players",
+     "r3 https://en.wikipedia.org/wiki/Sanctuary_of_Artemis_Orthia",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Laconian Lead Figurines"
+   ]
+  },
+  {
+   "key": "VILBRZ",
+   "sub": "G1",
+   "label": "Villanovan Bronzes",
+   "breadth": "narrow",
+   "defn": "Bronze work of the Villanovan culture of Iron Age Italy (c. 900–700 BCE), the forerunner of the Etruscans: crested helmets, hut-shaped and biconical cinerary urns in bronze, fibulae, razors and belts with incised geometric ornament.",
+   "aliases": "Italic bronzes; Early Iron Age Italian bronzes",
+   "see": "G1-70 Etruscan Bronzes; D5-59 Etruscan Sculpture",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Villanovan_culture",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Villanovan",
+     "The Met collection search: Villanovan",
+     "Villanovan objects in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "sub-types, then holding institutions",
+   "kinds": [
+    [
+     "Crested helmets",
+     "Sub-types",
+     "hammered bronze helmets",
+     "r3 https://en.wikipedia.org/wiki/Villanovan_culture",
+     0
+    ],
+    [
+     "Fibulae and razors",
+     "Sub-types",
+     "personal bronzes from cremation graves",
+     "r3 https://en.wikipedia.org/wiki/Villanovan_culture",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Italic Bronzes"
+   ]
+  },
+  {
+   "key": "SHUSCU",
+   "sub": "D5",
+   "label": "Shunga Sculpture",
+   "breadth": "narrow",
+   "defn": "Sculpture of the Shunga period in north and central India (2nd–1st century BCE), more indigenous in style than the imperial Mauryan: yakshas and yakshis, the railing reliefs of the stupa at Bharhut, and terracotta plaques of couples and royal families, notably from West Bengal (Chandraketugarh).",
+   "aliases": "Sunga art; Shunga terracottas",
+   "see": "D5-2 Art of Mathura; K7-8 Buddhist Architecture",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Shunga_Empire",
+     "Wikipedia (art)"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Shunga",
+     "The Met collection search: Shunga",
+     "Shunga objects in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "sub-types, then holding institutions",
+   "kinds": [
+    [
+     "Yakshas and yakshis",
+     "Sub-types",
+     "nature-spirit figures",
+     "r3 https://en.wikipedia.org/wiki/Shunga_Empire",
+     0
+    ],
+    [
+     "Bharhut railing reliefs",
+     "Sub-types",
+     "carved stupa railing",
+     "r3 https://en.wikipedia.org/wiki/Shunga_Empire",
+     0
+    ],
+    [
+     "Terracotta plaques",
+     "Sub-types",
+     "couples and royal families",
+     "r3 https://en.wikipedia.org/wiki/Shunga_Empire",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Shunga Art"
+   ]
+  },
+  {
+   "key": "BATSCU",
+   "sub": "D5",
+   "label": "Batak Sculpture",
+   "breadth": "narrow",
+   "defn": "Wood and stone sculpture of the Batak of North Sumatra: the sigale-gale funeral puppet, singa heads on houses and sarcophagi, ancestor figures and the carved finials of priests' staffs.",
+   "aliases": "Toba Batak carving; sigale-gale",
+   "see": "K9-10 Batak Architecture; C2-9 Pustaha",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Sigalegale",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Indonesian_art",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Batak",
+     "The Met collection search: Batak",
+     "Batak objects in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "sub-types, then holding institutions",
+   "kinds": [
+    [
+     "Sigale-gale",
+     "Sub-types",
+     "life-size wooden funeral puppet",
+     "r3 https://en.wikipedia.org/wiki/Sigalegale",
+     0
+    ],
+    [
+     "Ancestor figures",
+     "Sub-types",
+     "wood and stone figures",
+     "r3 https://en.wikipedia.org/wiki/Indonesian_art",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Batak Sculpture"
+   ]
+  },
+  {
+   "key": "DAYSCU",
+   "sub": "D5",
+   "label": "Dayak Sculpture",
+   "breadth": "narrow",
+   "defn": "Wood carving of the Dayak peoples of Borneo: guardian and ancestor figures set before houses and graves, carved masks such as the hudoq of the Bahau and Modang, and ornamented burial structures.",
+   "aliases": "hampatong; Dayak carving",
+   "see": "D4 Masks & Puppets",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Indonesian_art",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Dayak",
+     "The Met collection search: Dayak",
+     "Dayak objects in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "sub-types, then holding institutions",
+   "kinds": [
+    [
+     "Guardian figures",
+     "Sub-types",
+     "figures before houses and graves",
+     "r3 https://en.wikipedia.org/wiki/Indonesian_art",
+     0
+    ],
+    [
+     "Hudoq masks",
+     "Sub-types",
+     "masks of the hudoq dance",
+     "r3 https://en.wikipedia.org/wiki/Indonesian_art",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Dayak Sculpture"
+   ]
+  },
+  {
+   "key": "CHALAC",
+   "sub": "H4",
+   "label": "Chantilly Lace",
+   "breadth": "narrow",
+   "defn": "Handmade bobbin lace named after Chantilly in France, from the 17th century: above all black silk lace with floral patterns shaded by half-stitch and whole-stitch fillings, for shawls, scarves and mantillas, revived under Napoleon I and later made at Bayeux and Caen.",
+   "aliases": "Point de Chantilly; black silk lace",
+   "see": "H4-53 Alençon Lace; H4-44 Bucks Point Lace",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Chantilly_lace",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Chantilly+lace",
+     "The Met collection search: Chantilly lace",
+     "Chantilly lace in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "sub-types, then holding institutions",
+   "kinds": [
+    [
+     "Black silk lace",
+     "Sub-types",
+     "the best-known Chantilly",
+     "r3 https://en.wikipedia.org/wiki/Chantilly_lace",
+     0
+    ],
+    [
+     "Shawls and mantillas",
+     "Sub-types",
+     "large Chantilly pieces",
+     "r3 https://en.wikipedia.org/wiki/Chantilly_lace",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Chantilly Lace"
+   ]
+  },
+  {
+   "key": "LYOSLK",
+   "sub": "H3",
+   "label": "Lyon Silk",
+   "breadth": "medium",
+   "defn": "The figured silks of Lyon, France's silk capital from the 16th century: brocades, damasks and velvets for dress and furnishing designed by pattern draughtsmen, woven by the canuts of the Croix-Rousse, from the 19th century on Jacquard looms.",
+   "aliases": "soieries lyonnaises; Lyonnais silk",
+   "see": "H3 Woven Silks & Figured Textiles",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Silk_industry_in_Lyon",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Canut",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.vam.ac.uk/search/?q=Lyon+silk",
+     "V&A collection search: Lyon silk",
+     "Lyon silks in the Victoria and Albert Museum"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Lyon+silk",
+     "The Met collection search: Lyon silk",
+     "Lyon silks in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "sub-types and phases, then holding institutions",
+   "kinds": [
+    [
+     "Brocades and damasks",
+     "Sub-types",
+     "figured dress and furnishing silks",
+     "r3 https://en.wikipedia.org/wiki/Silk_industry_in_Lyon",
+     0
+    ],
+    [
+     "Canuts of the Croix-Rousse",
+     "Centres & workshops",
+     "the weavers' district",
+     "r3 https://en.wikipedia.org/wiki/Canut",
+     0
+    ],
+    [
+     "Jacquard weaving",
+     "Schools & phases",
+     "from the early 19th century",
+     "r3 https://en.wikipedia.org/wiki/Silk_industry_in_Lyon",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Lyon Silk"
+   ]
+  },
+  {
+   "key": "TRIPOT",
+   "sub": "E1",
+   "label": "Triana Pottery",
+   "breadth": "narrow",
+   "defn": "The tin-glazed pottery and tiles of Triana, the potters' quarter of Seville across the Guadalquivir: cuerda seca and cuenca (arista) tiles and later painted azulejos and maiolica, the tile industry that clad Seville's buildings.",
+   "aliases": "Seville pottery; Sevillian azulejos",
+   "see": "L3 Mosaic & Tile Revetment; E1-81 Talavera de la Reina Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Triana,_Seville",
+     "Wikipedia (pottery and tile industry)"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.vam.ac.uk/search/?q=Seville+tile",
+     "V&A collection search: Seville tiles",
+     "Seville tiles and pottery in the Victoria and Albert Museum"
+    ]
+   ],
+   "axis": "sub-types, then holding institutions",
+   "kinds": [
+    [
+     "Azulejos",
+     "Sub-types",
+     "painted and moulded tiles",
+     "r3 https://en.wikipedia.org/wiki/Triana,_Seville",
+     0
+    ],
+    [
+     "Triana",
+     "Centres & workshops",
+     "Seville",
+     "r3 https://en.wikipedia.org/wiki/Triana,_Seville",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Seville Pottery"
+   ]
+  },
+  {
+   "key": "SESPOT",
+   "sub": "E1",
+   "label": "Sesklo Pottery",
+   "breadth": "narrow",
+   "defn": "The painted pottery of the Neolithic Sesklo culture of Thessaly (7th–6th millennium BCE), among the earliest in Europe: red-on-white wares with geometric designs turning to flame motifs late in the culture, followed by the Dimini wares.",
+   "aliases": "Thessalian Neolithic pottery; Sesklo ware",
+   "see": "E1-25 Geometric Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Late_Neolithic",
+     "Wikipedia (Sesklo culture)"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Sesklo",
+     "British Museum collection search: Sesklo",
+     "Thessalian Neolithic pottery in the British Museum"
+    ]
+   ],
+   "axis": "sub-types, then holding institutions",
+   "kinds": [
+    [
+     "Sesklo red-on-white ware",
+     "Sub-types",
+     "geometric painted ware",
+     "r3 https://en.wikipedia.org/wiki/Late_Neolithic",
+     0
+    ],
+    [
+     "Flame-motif ware",
+     "Schools & phases",
+     "late Sesklo",
+     "r3 https://en.wikipedia.org/wiki/Late_Neolithic",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Thessalian Neolithic Pottery"
+   ]
+  },
+  {
+   "key": "HARPOT",
+   "sub": "E1",
+   "label": "Harappan Pottery",
+   "breadth": "narrow",
+   "defn": "The wheel-made pottery of the Indus Valley Civilisation (c. 3300–1300 BCE): fine red ware painted in black with intersecting circles, pipal leaves and fish-scale patterns, large storage jars, dishes-on-stand and perforated jars.",
+   "aliases": "Indus pottery; black-on-red ware",
+   "see": "K7-17 Harappan Architecture",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Pottery_in_the_Indian_subcontinent",
+     "Wikipedia (Indus Valley Civilisation)"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Harappan",
+     "The Met collection search: Harappan",
+     "Harappan objects in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "sub-types, then holding institutions",
+   "kinds": [
+    [
+     "Black-on-red painted ware",
+     "Sub-types",
+     "fine red ware painted in black",
+     "r3 https://en.wikipedia.org/wiki/Pottery_in_the_Indian_subcontinent",
+     0
+    ],
+    [
+     "Dish-on-stand",
+     "Sub-types",
+     "characteristic Harappan form",
+     "r3 https://en.wikipedia.org/wiki/Pottery_in_the_Indian_subcontinent",
+     0
+    ],
+    [
+     "Perforated jars",
+     "Sub-types",
+     "characteristic Harappan form",
+     "r3 https://en.wikipedia.org/wiki/Pottery_in_the_Indian_subcontinent",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Harappan Pottery"
+   ]
+  },
+  {
+   "key": "POLCLB",
+   "sub": "I1",
+   "label": "Polynesian Clubs",
+   "breadth": "narrow",
+   "defn": "The carved hardwood, bone and stone clubs of Polynesia beyond Fiji (I1-15): the Marquesan u'u with its carved head, the Māori long clubs (taiaha, tewhatewha, pouwhenua) and short clubs (patu, wahaika, kotiate), and the clubs of Tonga and Samoa.",
+   "aliases": "u'u; taiaha; patu; Māori weapons",
+   "see": "I1-15 Fijian Clubs; D3-9 Hei-tiki",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/U'u",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Taiaha",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Patu",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.tepapa.govt.nz/search/taiaha",
+     "Te Papa collections search: taiaha",
+     "Māori clubs at Te Papa"
+    ],
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Polynesian+club",
+     "British Museum collection search: Polynesian club",
+     "Polynesian clubs in the British Museum"
+    ]
+   ],
+   "axis": "island groups, then holding institutions",
+   "kinds": [
+    [
+     "U'u",
+     "Sub-types",
+     "Marquesan war club",
+     "r3 https://en.wikipedia.org/wiki/U'u",
+     0
+    ],
+    [
+     "Taiaha",
+     "Sub-types",
+     "Māori long club",
+     "r3 https://en.wikipedia.org/wiki/Taiaha",
+     0
+    ],
+    [
+     "Patu",
+     "Sub-types",
+     "Māori short club of wood, bone or stone",
+     "r3 https://en.wikipedia.org/wiki/Patu",
+     0
+    ]
+   ],
    "collections_from": []
   }
  ],

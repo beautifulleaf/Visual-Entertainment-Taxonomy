@@ -198,6 +198,18 @@
   "E1-149",
   "E1-150",
   "E1-151",
+  "G1-74",
+  "G1-75",
+  "G1-76",
+  "D5-139",
+  "D5-140",
+  "D5-141",
+  "H4-111",
+  "H3-63",
+  "E1-152",
+  "E1-153",
+  "E1-154",
+  "I1-33",
   "H7-23"
  ],
  "va_moved": 3224,
@@ -217,8 +229,8 @@
  "collections": {
   "work_rows_removed": 22666,
   "old_collections_rows": 3075,
-  "leaves": 1526,
-  "institution_rows": 2659,
+  "leaves": 1538,
+  "institution_rows": 2670,
   "artist_leaf_work_rows_removed": 294,
   "sites_kept": 5527
  },
@@ -546,6 +558,8 @@
   "merged_codes_in_text": 24,
   "va_entries_dropped": 14,
   "va_entries_qualified": 17,
+  "va_empty_sections_dropped": 4,
+  "va_sources_added": 4,
   "see_code_dropped": 54,
   "see_relinked": 460,
   "see_to_entry": 2,
@@ -682,8 +696,8 @@
  },
  "structure_fixes": {},
  "va_facets": {
-  "leaves": 1795,
-  "undated": 424
+  "leaves": 1807,
+  "undated": 428
  },
  "links": {
   "corrected": 7,
