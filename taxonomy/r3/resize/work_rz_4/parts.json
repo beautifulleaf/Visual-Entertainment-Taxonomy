@@ -5185,5 +5185,1245 @@
    ]
   },
   "moves": []
+ },
+ "A16-9": {
+  "label": "Slice of Life",
+  "defn": "A drama with no plot engine beyond a settled daily life observed — routines, rituals, small encounters and the passing days of people at home in their place (Paterson, Perfect Days, Café Lumière, The Scent of Green Papaya). A life adrift goes to the Drifter Film; a crisis of meaning to A16-8; a journey to A16-36.",
+  "axis": "by national and regional tradition, as festival everyday cinema is grouped: East Asia first (the Japanese, Korean, Chinese and Taiwanese quotidian film), then Western Europe, Eastern Europe and Central Asia, North America, Latin America, and the rest of the world last",
+  "secs": [
+   "East Asia",
+   "Western Europe",
+   "Eastern Europe, the Caucasus & Central Asia",
+   "North America",
+   "Latin America",
+   "Middle East, Africa, South & Southeast Asia, Oceania"
+  ],
+  "new_leaves": [
+   {
+    "key": "NEW1",
+    "label": "Drifter Film",
+    "breadth": "dramas of loners and drifters without settled place or purpose",
+    "defn": "A drama of observed days whose protagonist is adrift — a loner, wanderer or young person between jobs, homes and attachments, followed without a plot engine (Wanda, Wendy and Lucy, Naked, Millennium Mambo, Morvern Callar, Old Joy). Test: the life is unsettled and the drift is the subject; a journey with a destination goes to A16-36, a settled daily routine stays in A16-9.",
+    "aliases": "drifter drama; loner film",
+    "src": [
+     [
+      "https://en.wikipedia.org/wiki/Drifter_(person)",
+      "Wikipedia"
+     ]
+    ],
+    "axis": "by national and regional tradition: East Asia first, then Western Europe, Eastern Europe and Central Asia, North America, Latin America, and the rest of the world last",
+    "secs": [
+     "East Asia",
+     "Western Europe",
+     "Eastern Europe, the Caucasus & Central Asia",
+     "North America",
+     "Latin America",
+     "Middle East, Africa, South & Southeast Asia, Oceania"
+    ]
+   }
+  ],
+  "assign": {
+   "tt0036695": [
+    "self",
+    2
+   ],
+   "tspdt:the-good-love-1963": [
+    "self",
+    2
+   ],
+   "tt0057831": [
+    "self",
+    4
+   ],
+   "tspdt:skuki-radi-1967": [
+    "self",
+    3
+   ],
+   "tspdt:strannye-lyudi-1970": [
+    "self",
+    3
+   ],
+   "tspdt:james-ou-pas-1970": [
+    "self",
+    2
+   ],
+   "tt0070007": [
+    "self",
+    2
+   ],
+   "tspdt:chubby-1972": [
+    "self",
+    6
+   ],
+   "tspdt:the-true-nature-of-bernadette-1972": [
+    "self",
+    4
+   ],
+   "tt0124046": [
+    "self",
+    3
+   ],
+   "tspdt:langsamer-sommer-1976": [
+    "self",
+    2
+   ],
+   "tspdt:rush-it-1976": [
+    "self",
+    4
+   ],
+   "tspdt:l-eau-chaude-l-eau-frette-1976": [
+    "self",
+    4
+   ],
+   "tspdt:getting-to-know-the-big-wide-world-1978": [
+    "self",
+    3
+   ],
+   "tspdt:frente-al-mar-1978": [
+    "self",
+    2
+   ],
+   "tspdt:sado-1978": [
+    "self",
+    1
+   ],
+   "tspdt:keiko-1979": [
+    "self",
+    1
+   ],
+   "tspdt:martin-et-lea-1979": [
+    "self",
+    2
+   ],
+   "tspdt:personal-problems-1980": [
+    "self",
+    4
+   ],
+   "tt0203911": [
+    "self",
+    2
+   ],
+   "tspdt:l-homme-fragile-1981": [
+    "self",
+    2
+   ],
+   "tspdt:dreams-come-true-1982": [
+    "self",
+    6
+   ],
+   "tt0084047": [
+    "self",
+    6
+   ],
+   "tspdt:turnaround-1983": [
+    "self",
+    6
+   ],
+   "tspdt:desiree-1984": [
+    "self",
+    2
+   ],
+   "tspdt:an-unwritten-letter-1985": [
+    "self",
+    3
+   ],
+   "tspdt:bintang-kejora-1986": [
+    "self",
+    6
+   ],
+   "tt0171828": [
+    "self",
+    3
+   ],
+   "tspdt:faubourg-st-martin-1986": [
+    "self",
+    2
+   ],
+   "tspdt:signal-seven-1986": [
+    "self",
+    4
+   ],
+   "tt0090570": [
+    "self",
+    4
+   ],
+   "tspdt:path-1987": [
+    "self",
+    6
+   ],
+   "tspdt:rembrandt-laughing-1988": [
+    "self",
+    4
+   ],
+   "tspdt:beijing-watermelon-1989": [
+    "self",
+    1
+   ],
+   "tspdt:prikosnoveniye-1989": [
+    "self",
+    3
+   ],
+   "tspdt:beijing-ni-zao-1990": [
+    "self",
+    1
+   ],
+   "tspdt:promeny-pritelkyne-evy-1990": [
+    "self",
+    3
+   ],
+   "tspdt:paucity-of-flying-dreams-1990": [
+    "self",
+    1
+   ],
+   "tt0102993": [
+    "self",
+    4
+   ],
+   "tspdt:blagoslovennaya-bukhara-1991": [
+    "self",
+    3
+   ],
+   "tt0103943": [
+    "self",
+    2
+   ],
+   "tspdt:un-ete-sans-histoires-1992": [
+    "self",
+    2
+   ],
+   "tspdt:ulybka-1992": [
+    "self",
+    3
+   ],
+   "tt0107617": [
+    "self",
+    6
+   ],
+   "tspdt:two-moons-1993": [
+    "self",
+    3
+   ],
+   "tspdt:the-age-of-possibilities-1995": [
+    "self",
+    2
+   ],
+   "tt0113057": [
+    "self",
+    2
+   ],
+   "tspdt:circuit-carole-1995": [
+    "self",
+    2
+   ],
+   "tspdt:elle-1995": [
+    "self",
+    2
+   ],
+   "tt0118098": [
+    "self",
+    2
+   ],
+   "tspdt:nemuru-otoko-1996": [
+    "self",
+    1
+   ],
+   "tt0118818": [
+    "self",
+    2
+   ],
+   "tt0156906": [
+    "self",
+    1
+   ],
+   "tt0167925": [
+    "self",
+    2
+   ],
+   "tspdt:voiz-1998": [
+    "self",
+    3
+   ],
+   "tt0358249": [
+    "self",
+    5
+   ],
+   "tspdt:one-week-2000": [
+    "self",
+    1
+   ],
+   "tt0510964": [
+    "self",
+    1
+   ],
+   "tspdt:roof-to-roof-2001": [
+    "self",
+    4
+   ],
+   "tspdt:seaside-2002": [
+    "self",
+    2
+   ],
+   "tt0388474": [
+    "self",
+    1
+   ],
+   "tspdt:pitons-2003": [
+    "self",
+    3
+   ],
+   "tspdt:little-eden-2003": [
+    "self",
+    4
+   ],
+   "tt0412596": [
+    "self",
+    1
+   ],
+   "tspdt:le-bonheur-c-est-une-chanson-triste-2004": [
+    "self",
+    4
+   ],
+   "tspdt:the-black-and-white-milk-cow-2004": [
+    "self",
+    1
+   ],
+   "tspdt:the-crying-wind-2004": [
+    "self",
+    1
+   ],
+   "tspdt:umoregi-2005": [
+    "self",
+    1
+   ],
+   "tspdt:little-bits-of-light-2005": [
+    "self",
+    6
+   ],
+   "tspdt:octobre-2006": [
+    "self",
+    2
+   ],
+   "tspdt:hamilton-2006": [
+    "self",
+    4
+   ],
+   "tt0459116": [
+    "self",
+    2
+   ],
+   "tspdt:nothing-personal-2007": [
+    "self",
+    3
+   ],
+   "tspdt:mid-afternoon-barks-2007": [
+    "self",
+    1
+   ],
+   "tspdt:nur-kein-mitleid-2007": [
+    "self",
+    2
+   ],
+   "tt1069238": [
+    "self",
+    1
+   ],
+   "tt1017428": [
+    "self",
+    6
+   ],
+   "tt1233499": [
+    "self",
+    1
+   ],
+   "tspdt:perfect-life-2008": [
+    "self",
+    1
+   ],
+   "tt1444324": [
+    "self",
+    4
+   ],
+   "tspdt:poosteh-2009": [
+    "self",
+    6
+   ],
+   "tspdt:they-all-lie-2009": [
+    "self",
+    5
+   ],
+   "tspdt:a-crowd-of-three-2009": [
+    "self",
+    1
+   ],
+   "tt1294161": [
+    "self",
+    4
+   ],
+   "tt1646975": [
+    "self",
+    2
+   ],
+   "tspdt:winter-vacation-2010": [
+    "self",
+    1
+   ],
+   "tspdt:what-i-love-the-most-2010": [
+    "self",
+    5
+   ],
+   "tt1728200": [
+    "self",
+    3
+   ],
+   "tt2043879": [
+    "self",
+    5
+   ],
+   "tt2268732": [
+    "self",
+    2
+   ],
+   "tt2417540": [
+    "self",
+    6
+   ],
+   "tspdt:wild-and-precious-2012": [
+    "self",
+    2
+   ],
+   "tt1989712": [
+    "self",
+    1
+   ],
+   "tspdt:breakfast-with-curtis-2012": [
+    "self",
+    4
+   ],
+   "tspdt:life-just-is-2012": [
+    "self",
+    2
+   ],
+   "tt1734433": [
+    "self",
+    6
+   ],
+   "tspdt:bad-communication-2013": [
+    "self",
+    1
+   ],
+   "tspdt:zero-thousand-li-under-the-clouds-and-mo-2013": [
+    "self",
+    1
+   ],
+   "tt3474600": [
+    "self",
+    1
+   ],
+   "tt3591984": [
+    "self",
+    3
+   ],
+   "tspdt:under-gottsunda-2014": [
+    "self",
+    2
+   ],
+   "tspdt:mercuriales-2014": [
+    "self",
+    2
+   ],
+   "tspdt:dot-2-dot-2014": [
+    "self",
+    1
+   ],
+   "tt3660370": [
+    "self",
+    2
+   ],
+   "tt3509796": [
+    "self",
+    6
+   ],
+   "tspdt:easy-fault-2015": [
+    "self",
+    3
+   ],
+   "tspdt:tired-moonlight-2015": [
+    "self",
+    4
+   ],
+   "tspdt:the-ocean-of-helena-lee-2015": [
+    "self",
+    4
+   ],
+   "tt5918074": [
+    "self",
+    6
+   ],
+   "tt5247022": [
+    "self",
+    4
+   ],
+   "tt5288646": [
+    "self",
+    5
+   ],
+   "tspdt:everything-else-2016": [
+    "self",
+    5
+   ],
+   "tspdt:las-calles-2016": [
+    "self",
+    5
+   ],
+   "tspdt:kekszakallu-2016": [
+    "self",
+    5
+   ],
+   "tt5990474": [
+    "self",
+    4
+   ],
+   "tt3127022": [
+    "self",
+    2
+   ],
+   "tspdt:abrira-la-tierra-se-2017": [
+    "self",
+    2
+   ],
+   "tt6083230": [
+    "self",
+    1
+   ],
+   "tspdt:classical-period-2018": [
+    "self",
+    4
+   ],
+   "tspdt:la-paris-2018": [
+    "self",
+    6
+   ],
+   "tspdt:my-calendar-girl-2018": [
+    "self",
+    5
+   ],
+   "tspdt:obake-2019": [
+    "self",
+    1
+   ],
+   "tt9318280": [
+    "self",
+    4
+   ],
+   "tt11697690": [
+    "self",
+    1
+   ],
+   "tspdt:orpheus-2020": [
+    "self",
+    3
+   ],
+   "tspdt:andjust-2020": [
+    "self",
+    2
+   ],
+   "tspdt:lovers-rock-2020": [
+    "self",
+    2
+   ],
+   "tspdt:living-in-your-sky-2020": [
+    "self",
+    1
+   ],
+   "tspdt:stars-await-us-2020": [
+    "self",
+    1
+   ],
+   "tt17336922": [
+    "self",
+    3
+   ],
+   "tt14035108": [
+    "self",
+    1
+   ],
+   "tt13648184": [
+    "self",
+    5
+   ],
+   "tspdt:haruhara-san-s-recorder-2021": [
+    "self",
+    1
+   ],
+   "tspdt:i-comete-2021": [
+    "self",
+    2
+   ],
+   "tspdt:bearded-vulture-2021": [
+    "self",
+    6
+   ],
+   "tt14641542": [
+    "self",
+    2
+   ],
+   "tt13846402": [
+    "self",
+    2
+   ],
+   "tspdt:there-is-a-stone-2022": [
+    "self",
+    1
+   ],
+   "tspdt:under-a-powerful-sun-2022": [
+    "self",
+    5
+   ],
+   "tspdt:the-lump-in-my-heart-2022": [
+    "self",
+    1
+   ],
+   "tspdt:remembering-every-night-2022": [
+    "self",
+    1
+   ],
+   "tspdt:happer-s-comet-2022": [
+    "self",
+    4
+   ],
+   "tspdt:at-the-lock-in-wip-2022": [
+    "self",
+    6
+   ],
+   "tt21825858": [
+    "self",
+    1
+   ],
+   "tt27503384": [
+    "self",
+    1
+   ],
+   "tt27531109": [
+    "self",
+    2
+   ],
+   "tspdt:mr-junjun-2023": [
+    "self",
+    1
+   ],
+   "tt28143091": [
+    "self",
+    2
+   ],
+   "tt27541074": [
+    "self",
+    1
+   ],
+   "tspdt:boi-2023": [
+    "self",
+    2
+   ],
+   "tspdt:marianne-2023": [
+    "self",
+    2
+   ],
+   "tspdt:across-2023": [
+    "self",
+    2
+   ],
+   "tt32880592": [
+    "self",
+    1
+   ],
+   "tt30810792": [
+    "self",
+    2
+   ],
+   "tt13109862": [
+    "self",
+    4
+   ],
+   "tt26758372": [
+    "self",
+    6
+   ],
+   "tspdt:la-limace-et-l-escargot-2024": [
+    "self",
+    2
+   ],
+   "tspdt:worlds-apart-2024": [
+    "self",
+    1
+   ],
+   "tspdt:dobla-la-esquina-el-volcan-2024": [
+    "self",
+    2
+   ],
+   "tspdt:she-taught-me-serendipity-2024": [
+    "self",
+    1
+   ],
+   "tspdt:mad-bills-to-pay-or-destiny-dile-que-no--2024": [
+    "self",
+    4
+   ],
+   "tspdt:zhar-ptitsa-2024": [
+    "self",
+    3
+   ],
+   "tt33402908": [
+    "self",
+    5
+   ],
+   "tt35705184": [
+    "self",
+    2
+   ],
+   "tspdt:asi-chegou-a-noite-2025": [
+    "self",
+    2
+   ],
+   "tspdt:december-2025": [
+    "self",
+    5
+   ],
+   "tspdt:frosted-window-2025": [
+    "self",
+    1
+   ],
+   "tspdt:the-scout-2025": [
+    "self",
+    4
+   ],
+   "tt27811632": [
+    "self",
+    2
+   ],
+   "tt0426900": [
+    "NEW1",
+    1
+   ],
+   "tt0050458": [
+    "NEW1",
+    2
+   ],
+   "tt0056854": [
+    "NEW1",
+    2
+   ],
+   "tspdt:stranded-1965": [
+    "NEW1",
+    4
+   ],
+   "tt0059325": [
+    "NEW1",
+    3
+   ],
+   "tt0060872": [
+    "NEW1",
+    2
+   ],
+   "tspdt:the-ernie-game-1967": [
+    "NEW1",
+    4
+   ],
+   "tt0063718": [
+    "NEW1",
+    5
+   ],
+   "tt0062529": [
+    "NEW1",
+    3
+   ],
+   "tspdt:o-quarto-1968": [
+    "NEW1",
+    5
+   ],
+   "tt0064679": [
+    "NEW1",
+    4
+   ],
+   "tt0067961": [
+    "NEW1",
+    4
+   ],
+   "tspdt:bar-salon-1974": [
+    "NEW1",
+    4
+   ],
+   "tt0076293": [
+    "NEW1",
+    4
+   ],
+   "tspdt:little-valentino-1979": [
+    "NEW1",
+    3
+   ],
+   "tt0083151": [
+    "NEW1",
+    3
+   ],
+   "tt0082275": [
+    "NEW1",
+    2
+   ],
+   "tt0088861": [
+    "NEW1",
+    2
+   ],
+   "tspdt:last-night-at-the-alamo-1983": [
+    "NEW1",
+    4
+   ],
+   "tspdt:karkalou-1984": [
+    "NEW1",
+    2
+   ],
+   "tspdt:ad-sof-halaylah-1985": [
+    "NEW1",
+    6
+   ],
+   "tspdt:angels-of-the-night-1987": [
+    "NEW1",
+    5
+   ],
+   "tspdt:robinson-no-niwa-1987": [
+    "NEW1",
+    1
+   ],
+   "tt0095385": [
+    "NEW1",
+    4
+   ],
+   "tt0097951": [
+    "NEW1",
+    5
+   ],
+   "tspdt:vlyublyonnaya-rybka-tv-1989": [
+    "NEW1",
+    3
+   ],
+   "tt0104587": [
+    "NEW1",
+    3
+   ],
+   "tt0103132": [
+    "NEW1",
+    3
+   ],
+   "tt0107653": [
+    "NEW1",
+    2
+   ],
+   "tspdt:fate-1994": [
+    "NEW1",
+    2
+   ],
+   "tt0116300": [
+    "NEW1",
+    3
+   ],
+   "tt0125522": [
+    "NEW1",
+    4
+   ],
+   "tt0185605": [
+    "NEW1",
+    6
+   ],
+   "tt0187590": [
+    "NEW1",
+    6
+   ],
+   "tspdt:love-will-tear-us-apart-1999": [
+    "NEW1",
+    1
+   ],
+   "tt0251191": [
+    "NEW1",
+    2
+   ],
+   "tt0283283": [
+    "NEW1",
+    1
+   ],
+   "tspdt:la-fe-del-volcan-2001": [
+    "NEW1",
+    5
+   ],
+   "tt0300214": [
+    "NEW1",
+    2
+   ],
+   "tt0308363": [
+    "NEW1",
+    6
+   ],
+   "tspdt:turning-gate-2002": [
+    "NEW1",
+    1
+   ],
+   "tspdt:ana-and-the-others-2003": [
+    "NEW1",
+    5
+   ],
+   "tspdt:sunset-motel-2003": [
+    "NEW1",
+    2
+   ],
+   "tspdt:welcome-to-destination-shanghai-2003": [
+    "NEW1",
+    1
+   ],
+   "tspdt:chain-2004": [
+    "NEW1",
+    4
+   ],
+   "tspdt:illumination-2004": [
+    "NEW1",
+    2
+   ],
+   "tspdt:les-etats-nordiques-2005": [
+    "NEW1",
+    4
+   ],
+   "tt0417658": [
+    "NEW1",
+    2
+   ],
+   "tt0841175": [
+    "NEW1",
+    2
+   ],
+   "tt0468526": [
+    "NEW1",
+    4
+   ],
+   "tt0963792": [
+    "NEW1",
+    6
+   ],
+   "tspdt:atlal-tv-2006": [
+    "NEW1",
+    2
+   ],
+   "tt0462242": [
+    "NEW1",
+    5
+   ],
+   "tt1059921": [
+    "NEW1",
+    5
+   ],
+   "tt0878674": [
+    "NEW1",
+    2
+   ],
+   "tspdt:el-pejesapo-2007": [
+    "NEW1",
+    5
+   ],
+   "tspdt:novia-errante-una-2007": [
+    "NEW1",
+    5
+   ],
+   "tt1077094": [
+    "NEW1",
+    1
+   ],
+   "tt1152850": [
+    "NEW1",
+    4
+   ],
+   "tspdt:wellness-2008": [
+    "NEW1",
+    4
+   ],
+   "tspdt:gabbla-2008": [
+    "NEW1",
+    6
+   ],
+   "tspdt:parque-via-2008": [
+    "NEW1",
+    5
+   ],
+   "tspdt:frontier-blues-2009": [
+    "NEW1",
+    6
+   ],
+   "tt1426370": [
+    "NEW1",
+    6
+   ],
+   "tspdt:tale-in-the-darkness-2009": [
+    "NEW1",
+    3
+   ],
+   "tt1500761": [
+    "NEW1",
+    5
+   ],
+   "tspdt:jean-gentil-2010": [
+    "NEW1",
+    5
+   ],
+   "tspdt:in-the-open-2011": [
+    "NEW1",
+    5
+   ],
+   "tspdt:francine-2012": [
+    "NEW1",
+    4
+   ],
+   "tspdt:pursuit-of-loneliness-2012": [
+    "NEW1",
+    4
+   ],
+   "tt2120088": [
+    "NEW1",
+    2
+   ],
+   "tt2395417": [
+    "NEW1",
+    2
+   ],
+   "tspdt:i-got-lost-a-week-ago-2012": [
+    "NEW1",
+    5
+   ],
+   "tspdt:postcards-from-the-zoo-2012": [
+    "NEW1",
+    6
+   ],
+   "tt2554270": [
+    "NEW1",
+    4
+   ],
+   "tspdt:the-comedian-2012": [
+    "NEW1",
+    2
+   ],
+   "tspdt:accession-2012": [
+    "NEW1",
+    1
+   ],
+   "tt1798291": [
+    "NEW1",
+    4
+   ],
+   "tspdt:september-2013": [
+    "NEW1",
+    2
+   ],
+   "tspdt:mouton-2013": [
+    "NEW1",
+    2
+   ],
+   "tt2382396": [
+    "NEW1",
+    4
+   ],
+   "tspdt:maru-2014": [
+    "NEW1",
+    1
+   ],
+   "tt4614560": [
+    "NEW1",
+    6
+   ],
+   "tspdt:tharlo-2015": [
+    "NEW1",
+    1
+   ],
+   "tspdt:things-of-the-aimless-wanderer-2015": [
+    "NEW1",
+    2
+   ],
+   "tt4671274": [
+    "NEW1",
+    1
+   ],
+   "tt4613272": [
+    "NEW1",
+    1
+   ],
+   "tt4899406": [
+    "NEW1",
+    5
+   ],
+   "tspdt:panke-2016": [
+    "NEW1",
+    5
+   ],
+   "tt5467554": [
+    "NEW1",
+    2
+   ],
+   "tt5598160": [
+    "NEW1",
+    2
+   ],
+   "tspdt:drift-2017": [
+    "NEW1",
+    2
+   ],
+   "tt6835498": [
+    "NEW1",
+    3
+   ],
+   "tt8185182": [
+    "NEW1",
+    1
+   ],
+   "tt8191502": [
+    "NEW1",
+    1
+   ],
+   "tt6515458": [
+    "NEW1",
+    1
+   ],
+   "tt4353250": [
+    "NEW1",
+    4
+   ],
+   "tt8343886": [
+    "NEW1",
+    2
+   ],
+   "tspdt:murmur-2019": [
+    "NEW1",
+    4
+   ],
+   "tt10244760": [
+    "NEW1",
+    2
+   ],
+   "tspdt:hellhole-2019": [
+    "NEW1",
+    2
+   ],
+   "tt9628568": [
+    "NEW1",
+    1
+   ],
+   "tspdt:the-calming-2020": [
+    "NEW1",
+    1
+   ],
+   "tspdt:fevrier-2020": [
+    "NEW1",
+    3
+   ],
+   "tt11090306": [
+    "NEW1",
+    5
+   ],
+   "tt11268864": [
+    "NEW1",
+    3
+   ],
+   "tt16751922": [
+    "NEW1",
+    3
+   ],
+   "tspdt:traveling-light-2021": [
+    "NEW1",
+    4
+   ],
+   "tspdt:outside-noise-2021": [
+    "NEW1",
+    2
+   ],
+   "tt15131926": [
+    "NEW1",
+    5
+   ],
+   "tspdt:amancay-2022": [
+    "NEW1",
+    5
+   ],
+   "tspdt:haar-2023": [
+    "NEW1",
+    2
+   ],
+   "tt26448954": [
+    "NEW1",
+    2
+   ],
+   "tspdt:camping-du-lac-2023": [
+    "NEW1",
+    2
+   ],
+   "tt31015344": [
+    "NEW1",
+    1
+   ],
+   "tt26342791": [
+    "NEW1",
+    2
+   ],
+   "tt28131427": [
+    "NEW1",
+    1
+   ],
+   "tt27958252": [
+    "NEW1",
+    1
+   ],
+   "tspdt:cuando-las-nubes-esconden-la-sombra-2024": [
+    "NEW1",
+    5
+   ],
+   "tspdt:the-pleasure-is-mine-2024": [
+    "NEW1",
+    5
+   ],
+   "tspdt:esper-s-light-2024": [
+    "NEW1",
+    1
+   ],
+   "tspdt:la-parra-2024": [
+    "NEW1",
+    2
+   ],
+   "tt30519830": [
+    "NEW1",
+    2
+   ],
+   "tt15289522": [
+    "NEW1",
+    3
+   ],
+   "tspdt:vida-de-acera-2025": [
+    "NEW1",
+    2
+   ],
+   "tspdt:bury-us-in-a-lone-desert-2025": [
+    "NEW1",
+    6
+   ],
+   "tspdt:turtle-chasing-turtle-2025": [
+    "NEW1",
+    5
+   ],
+   "tspdt:la-noche-esta-marchandose-ya-2025": [
+    "NEW1",
+    5
+   ],
+   "tt35437028": [
+    "NEW1",
+    3
+   ],
+   "tspdt:the-souffleur-2025": [
+    "NEW1",
+    2
+   ],
+   "tspdt:in-spe-1994": [
+    "self",
+    3
+   ]
+  },
+  "moves": []
  }
 }
