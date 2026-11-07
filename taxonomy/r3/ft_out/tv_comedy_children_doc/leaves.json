@@ -1,0 +1,960 @@
+{
+ "subs": [
+  {
+   "code": "B8",
+   "label": "Comedy Series",
+   "axis": "Axis: by comic engine and form: the domestic and workplace sitcom first, then friends, romance, youth and place, character and embarrassment, documentary and absurd forms, sketch, satire and parody, music and sport, the fantastic genres, crime and darkness; comedy-drama and tragicomedy last",
+   "leaves": [
+    {
+     "code": "B8-1",
+     "label": "Family Sitcom",
+     "breadth": "broad",
+     "defn": "A studio (multi-camera, audience or laugh-track) sitcom whose comic engine is the family household: parents, children and relatives colliding at home (<i>Father Knows Best</i>, <i>All in the Family</i>, <i>The Cosby Show</i>, <i>Everybody Loves Raymond</i>). A single-camera family comedy goes to B8-2; a family comedy-drama goes to B8-24.",
+     "aliases": "domestic sitcom; family sitcom; multi-camera family sitcom",
+     "see": "B8-2 Single-Camera Family Comedy; B8-24 Comedy-Drama; B10-4 Teen Sitcom",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Family_sitcom",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Multiple-camera_setup",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the family at the centre: the classic nuclear household first, then class, community, family shape and generations; period nostalgia last",
+     "secs": [
+      "Nuclear Suburban Families",
+      "Working-Class Families",
+      "Black Family Sitcoms",
+      "Single-Parent, Blended & Surrogate Families",
+      "Married Couples & In-Laws",
+      "Immigrant & Ethnic Family Sitcoms",
+      "Joint-Family & Multigenerational Sitcoms",
+      "Period Nostalgia Family Sitcoms"
+     ]
+    },
+    {
+     "code": "B8-2",
+     "label": "Single-Camera Family Comedy",
+     "breadth": "broad",
+     "defn": "A family sitcom shot single-camera without audience or laugh track, playing family life with filmic cutaways, narration or deadpan (<i>Malcolm in the Middle</i>, <i>The Middle</i>, <i>Friday Night Dinner</i>, <i>Fresh Off the Boat</i>). A studio family sitcom goes to B8-1; a family mockumentary such as <i>Modern Family</i> goes to B8-11.",
+     "aliases": "single-camera sitcom (family); family comedy",
+     "see": "B8-1 Family Sitcom; B8-11 Mockumentary; B8-24 Comedy-Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Single-camera_setup",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Family_sitcom",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the family at the centre: the nuclear household first, then class, family shape and generations; period nostalgia last",
+     "secs": [
+      "Nuclear & Suburban Families",
+      "Working-Class Families",
+      "Single-Parent, Blended & Surrogate Families",
+      "Married Couples & New Parents",
+      "Immigrant & Ethnic Families",
+      "Joint-Family & Multigenerational Comedies",
+      "Period Nostalgia Family Comedies"
+     ]
+    },
+    {
+     "code": "B8-3",
+     "label": "Workplace Comedy",
+     "breadth": "broad",
+     "defn": "A comedy series whose comic engine is a workplace and its colleagues, the job supplying the situation and the hierarchy the conflict (<i>The Mary Tyler Moore Show</i>, <i>Cheers</i>, <i>The IT Crowd</i>, <i>Superstore</i>). A workplace mockumentary goes to B8-11; a military unit to B8-4; a political office to B8-15.",
+     "aliases": "workplace sitcom; office comedy",
+     "see": "B8-4 Military Comedy; B8-11 Mockumentary; B8-15 Political Satire",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Workplace_comedy",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the workplace: office first, then media, service trades, public service, hospitals, schools; the church last",
+     "secs": [
+      "Office & Corporate Comedies",
+      "Newsroom, Broadcasting & Showbiz Comedies",
+      "Shops, Bars, Hotels & Service Trades",
+      "Police, Fire, Courts & Public Service",
+      "Hospital & Clinic Comedies",
+      "School & College Staffroom Comedies",
+      "Church & Clergy Comedies"
+     ]
+    },
+    {
+     "code": "B8-4",
+     "label": "Military Comedy",
+     "breadth": "medium",
+     "defn": "A comedy series set in an army unit, camp or wartime posting, its humour drawn from rank, drill and the absurdities of war (<i>Dad's Army</i>, <i>Hogan's Heroes</i>, <i>M*A*S*H</i>, <i>Bluestone 42</i>). A satire of the military establishment as policy goes to B8-15.",
+     "aliases": "service comedy; military sitcom",
+     "see": "B8-3 Workplace Comedy; A9 War Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Military_comedy",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B8-5",
+     "label": "Hangout Sitcom",
+     "breadth": "broad",
+     "defn": "A comedy series whose engine is a group of friends, flatmates or neighbours simply spending time together, plot subordinate to banter (<i>Seinfeld</i>, <i>Friends</i>, <i>How I Met Your Mother</i>, <i>The Golden Girls</i>). A group defined by a job goes to B8-3; one built around a romance to B8-6.",
+     "aliases": "friends sitcom; ensemble sitcom; hangout comedy",
+     "see": "B8-3 Workplace Comedy; B8-6 Romantic Comedy Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Sitcom",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Ensemble_cast",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the bond: friend groups first, then shared homes and odd couples, slacker gangs; older friends last",
+     "secs": [
+      "Friend-Group Sitcoms",
+      "Roommate, Neighbour & Odd-Couple Sitcoms",
+      "Slacker & Bro Comedies",
+      "Older Friends & Retirement Comedies"
+     ]
+    },
+    {
+     "code": "B8-6",
+     "label": "Romantic Comedy Series",
+     "breadth": "broad",
+     "defn": "A comedy series whose engine is a couple or the search for love: courtship, cohabitation, dating and break-ups (<i>Mad About You</i>, <i>Catastrophe</i>, <i>The Mindy Project</i>, <i>Nobody Wants This</i>). A marriage played as family life goes to B8-1/B8-2; a romance-led drama to B1.",
+     "aliases": "romcom series; relationship comedy",
+     "see": "B8-1 Family Sitcom; B8-5 Hangout Sitcom; A13 Romance",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Romantic_comedy",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the stage of love: established couples first, then dating and singles; anthologies of love stories last",
+     "secs": [
+      "Couple Comedies",
+      "Dating & Singles Comedies",
+      "Romantic Comedy Anthologies"
+     ]
+    },
+    {
+     "code": "B8-7",
+     "label": "Teen Comedy",
+     "breadth": "medium",
+     "defn": "A comedy series about adolescents or students made for a general or adult audience, built on school, sex and growing up (<i>The Inbetweeners</i>, <i>Derry Girls</i>, <i>PEN15</i>, <i>Community</i>). A teen sitcom made for children's networks goes to B10-4.",
+     "aliases": "high-school comedy; college comedy; coming-of-age comedy",
+     "see": "B10-4 Teen Sitcom; B10-5 Teen Drama; B8-24 Comedy-Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Teen_comedy",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Coming-of-age_story",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the institution: high school first, college and university second",
+     "secs": [
+      "High-School Comedies",
+      "College & University Comedies"
+     ]
+    },
+    {
+     "code": "B8-8",
+     "label": "Rural Comedy",
+     "breadth": "medium",
+     "defn": "A comedy series whose engine is country or small-town life, often with the rube-versus-city contrast (<i>The Andy Griffith Show</i>, <i>Green Acres</i>, <i>Corner Gas</i>, <i>Letterkenny</i>). A small-town comedy-drama goes to B8-24.",
+     "aliases": "rural sitcom; rube sitcom; village comedy",
+     "see": "B8-24 Comedy-Drama; B8-1 Family Sitcom",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Rural_purge",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Fish_out_of_water",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B8-9",
+     "label": "Character Comedy",
+     "breadth": "medium",
+     "defn": "A comedy series built on one grotesque, deluded or hapless central character whose flaw drives every plot (<i>Fawlty Towers</i>, <i>Keeping Up Appearances</i>, <i>Mr. Bean</i>, <i>One Foot in the Grave</i>). Where the comedy is the audience's embarrassment rather than the character, see B8-10.",
+     "aliases": "character-led sitcom",
+     "see": "B8-10 Cringe Comedy; B8-13 Sketch Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Character_comedy",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the flaw: the pompous and aspirational first, then the hapless and accident-prone; losers, schemers and grumps last",
+     "secs": [
+      "Pompous & Aspirational Characters",
+      "Hapless & Accident-Prone Characters",
+      "Losers, Schemers & Grumps"
+     ]
+    },
+    {
+     "code": "B8-10",
+     "label": "Cringe Comedy",
+     "breadth": "medium",
+     "defn": "A comedy series whose engine is social embarrassment, the awkward pause and the faux pas, often with the star playing a version of himself (<i>Curb Your Enthusiasm</i>, <i>Peep Show</i>, <i>Extras</i>, <i>I'm Alan Partridge</i>). A documentary-style cringe comedy goes to B8-11.",
+     "aliases": "comedy of embarrassment; cringe humor",
+     "see": "B8-11 Mockumentary; B8-9 Character Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Cringe_comedy",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B8-11",
+     "label": "Mockumentary",
+     "breadth": "medium",
+     "defn": "A scripted comedy series shot as if it were a documentary or reality show, with talking heads and camera awareness (<i>The Office</i>, <i>Parks and Recreation</i>, <i>Summer Heights High</i>, <i>What We Do in the Shadows</i>).",
+     "aliases": "mock documentary; docu-comedy",
+     "see": "B8-3 Workplace Comedy; B8-16 Parody Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Mockumentary",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the documentary subject: the workplace first, then a character or celebrity, a pastiche of documentary and reality TV; family and community last",
+     "secs": [
+      "Workplace Mockumentaries",
+      "Character & Celebrity Mockumentaries",
+      "Documentary & Reality-TV Pastiches",
+      "Family & Community Mockumentaries"
+     ]
+    },
+    {
+     "code": "B8-12",
+     "label": "Surreal & Absurdist Comedy",
+     "breadth": "medium",
+     "defn": "A narrative comedy series whose engine is the illogical, dreamlike or anti-comic, breaking realism rather than embarrassing anyone (<i>The Young Ones</i>, <i>The Mighty Boosh</i>, <i>Get a Life</i>, <i>Joe Pera Talks With You</i>). A surreal sketch show goes to B8-13.",
+     "aliases": "absurdist comedy; alternative comedy; anti-comedy",
+     "see": "B8-13 Sketch Comedy; B8-19 Fantasy Sitcom",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Surreal_humour",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Alternative_comedy",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the break with realism: British alternative comedy first, then absurdist narrative comedy; anti-comedy last",
+     "secs": [
+      "Alternative Comedy",
+      "Absurdist Narrative Comedies",
+      "Anti-Comedy"
+     ]
+    },
+    {
+     "code": "B8-13",
+     "label": "Sketch Comedy",
+     "breadth": "broad",
+     "defn": "A comedy series made of short unrelated sketches, with recurring characters but no running plot (<i>Monty Python's Flying Circus</i>, <i>Saturday Night Live</i>, <i>The Fast Show</i>, <i>Key & Peele</i>). A sketch series for children goes to B10-3.",
+     "aliases": "sketch show; variety sketch",
+     "see": "B8-12 Surreal & Absurdist Comedy; B15 Variety & Talk Formats; B10-3 Children's Sketch & Puppet Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Sketch_comedy",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the format: the variety-sketch show first, then live ensembles, troupes, character showcases, star vehicles, topical satire; prank, puppet and riffing shows last",
+     "secs": [
+      "Variety-Sketch Shows",
+      "Live Ensemble Sketch Shows",
+      "Troupe & Alternative Sketch Shows",
+      "Character Sketch Shows",
+      "Star-Vehicle Sketch Shows",
+      "Topical & Satirical Sketch Shows",
+      "Prank, Puppet & Riffing Shows"
+     ]
+    },
+    {
+     "code": "B8-14",
+     "label": "Ramadan Comedy",
+     "breadth": "narrow",
+     "defn": "An Arabic-language comedy series made for the Ramadan prime-time season, typically thirty episodes, often social satire (<i>Maraya</i>, <i>Tash ma Tash</i>, <i>Choufli Hal</i>, <i>El Kebeer Awi</i>). Ramadan drama goes to B12.",
+     "aliases": "Ramadan series (comedy); musalsal comedy",
+     "see": "B12 Serial Drama Traditions; B8-15 Political Satire",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Ramadan_series",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Musalsal",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B8-15",
+     "label": "Political Satire",
+     "breadth": "medium",
+     "defn": "A comedy series that ridicules power: governments, politicians, news media, bureaucracy, monarchy or the rich (<i>Yes Minister</i>, <i>The Thick of It</i>, <i>Veep</i>, <i>Brass Eye</i>).",
+     "aliases": "satirical comedy; news satire",
+     "see": "B8-16 Parody Series; B8-13 Sketch Comedy; B15 Variety & Talk Formats",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Political_satire",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/News_satire",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the target: government first, then the news media, bureaucracy and corporations, monarchy and history; society at large last",
+     "secs": [
+      "Government & Politics Satires",
+      "News Satire & Satirical Journalism",
+      "Bureaucratic & Corporate Satire",
+      "Royal & Period Satire",
+      "Social Satire"
+     ]
+    },
+    {
+     "code": "B8-16",
+     "label": "Parody Series",
+     "breadth": "medium",
+     "defn": "A comedy series that imitates and mocks a specific genre or programme (<i>Police Squad!</i>, <i>Sledge Hammer!</i>, <i>Childrens Hospital</i>, <i>Garth Marenghi's Darkplace</i>). A documentary-form parody goes to B8-11.",
+     "aliases": "spoof series",
+     "see": "B8-11 Mockumentary; B8-15 Political Satire",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Parody",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Spoof",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the genre mocked: cop shows first, then spy, action and superhero, fantasy and horror, soaps and melodrama; film and media spoofs last",
+     "secs": [
+      "Cop-Show & Crime Parodies",
+      "Spy, Action & Superhero Parodies",
+      "Fantasy, Horror & Science Fiction Parodies",
+      "Soap, Telenovela & Melodrama Parodies",
+      "Film, TV & Media Spoofs"
+     ]
+    },
+    {
+     "code": "B8-17",
+     "label": "Musical Comedy Series",
+     "breadth": "narrow",
+     "defn": "A comedy series in which characters perform songs as part of the story (<i>Flight of the Conchords</i>, <i>Glee</i>, <i>Crazy Ex-Girlfriend</i>, <i>Schmigadoon!</i>).",
+     "aliases": "musical sitcom; musical dramedy",
+     "see": "A14 Musical & Dance Film; B8-24 Comedy-Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Musical_comedy",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B8-18",
+     "label": "Sports Comedy",
+     "breadth": "narrow",
+     "defn": "A comedy series set around a team, athlete or sport, built on competition and locker-room egos (<i>Coach</i>, <i>Eastbound & Down</i>, <i>Ted Lasso</i>, <i>Shoresy</i>).",
+     "aliases": "sports sitcom",
+     "see": "B8-3 Workplace Comedy; B11-7 Sports Documentary Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Sports_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B8-19",
+     "label": "Fantasy Sitcom",
+     "breadth": "medium",
+     "defn": "A comedy series whose premise is a magical, supernatural or impossible element placed in everyday life (<i>Bewitched</i>, <i>ALF</i>, <i>3rd Rock from the Sun</i>, <i>The Good Place</i>). Spaceships and future worlds go to B8-20; ghosts and monsters played for scares to B8-21.",
+     "aliases": "magicom; fantastic sitcom",
+     "see": "B8-20 Science Fiction Comedy; B8-21 Horror Comedy; B9 Speculative Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Fantasy_sitcom",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Body_swap",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the impossible element: magic and supernatural beings first, then aliens, robots and creatures, afterlife and high-concept premises; body-swap and time-slip last",
+     "secs": [
+      "Magic & Supernatural Beings",
+      "Aliens, Robots & Creatures",
+      "Afterlife & High-Concept Premises",
+      "Body-Swap & Time-Slip Comedies"
+     ]
+    },
+    {
+     "code": "B8-20",
+     "label": "Science Fiction Comedy",
+     "breadth": "narrow",
+     "defn": "A comedy series set in space, the future or a technological world (<i>Hyperdrive</i>, <i>Avenue 5</i>, <i>Upload</i>, <i>The Last Man on Earth</i>).",
+     "aliases": "comic science fiction; sci-fi sitcom",
+     "see": "B8-19 Fantasy Sitcom; B9 Speculative Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Science_fiction_comedy",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B8-21",
+     "label": "Horror Comedy",
+     "breadth": "narrow",
+     "defn": "A comedy series built on horror premises (ghosts, vampires, zombies, slashers) played for laughs (<i>Santa Clarita Diet</i>, <i>Ghosts</i>, <i>Scream Queens</i>, <i>Stan Against Evil</i>).",
+     "aliases": "comedy horror series",
+     "see": "B8-19 Fantasy Sitcom; B9 Speculative Series; A4 Horror",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Comedy_horror",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B8-22",
+     "label": "Crime Comedy",
+     "breadth": "medium",
+     "defn": "A comedy series whose engine is crime: criminals, cons, heists, comic cops or murder mysteries played for laughs (<i>Porridge</i>, <i>Weeds</i>, <i>Los simuladores</i>, <i>The Afterparty</i>). A parody of cop shows goes to B8-16; a crime drama to B7.",
+     "aliases": "caper comedy; comic crime",
+     "see": "B7 Crime & Thriller Series; B8-23 Black Comedy; B8-16 Parody Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Crime_comedy",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the side of the law: criminals, cons and heists first, then comic detectives and police; comic murder mysteries last",
+     "secs": [
+      "Criminal, Con & Heist Comedies",
+      "Comic Detectives & Police",
+      "Comic Murder Mysteries"
+     ]
+    },
+    {
+     "code": "B8-23",
+     "label": "Black Comedy",
+     "breadth": "medium",
+     "defn": "A comedy series that finds humour in death, cruelty, despair or taboo, inviting laughter at the dreadful (<i>Nighty Night</i>, <i>Inside No. 9</i>, <i>Barry</i>, <i>Dead to Me</i>).",
+     "aliases": "dark comedy",
+     "see": "B8-22 Crime Comedy; B8-25 Tragicomedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Black_comedy",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B8-24",
+     "label": "Comedy-Drama",
+     "breadth": "broad",
+     "defn": "A series that balances comedy with dramatic stakes and serialized character arcs, usually single-camera and hour or half-hour (<i>Northern Exposure</i>, <i>Gilmore Girls</i>, <i>Sex and the City</i>, <i>Atlanta</i>). Comedy built on illness, grief or crisis goes to B8-25; a drama with light touches to B1.",
+     "aliases": "dramedy",
+     "see": "B8-25 Tragicomedy; B1 Drama Series; B8-6 Romantic Comedy Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Comedy_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Dramedy",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the subject: family first, then small towns, professions, workplaces and the arts, women's ensembles, the comedian's own life; anthologies last",
+     "secs": [
+      "Family Dramedies",
+      "Small-Town & Community Dramedies",
+      "Medical, Legal & Teaching Dramedies",
+      "Workplace, Showbiz & Arts Dramedies",
+      "Women's Ensemble & Single-Life Dramedies",
+      "Semi-Autobiographical Comedian Series",
+      "Anthology & Vignette Dramedies"
+     ]
+    },
+    {
+     "code": "B8-25",
+     "label": "Tragicomedy",
+     "breadth": "medium",
+     "defn": "A comedy-drama whose comedy is wrung from a wound: terminal illness, bereavement, addiction, mental illness or midlife collapse (<i>The Big C</i>, <i>After Life</i>, <i>Kidding</i>, <i>Mom</i>).",
+     "aliases": "sadcom; tragicomic series",
+     "see": "B8-24 Comedy-Drama; B8-23 Black Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Tragicomedy",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the wound: illness and dying first, then grief, addiction and mental health; divorce and midlife crisis last",
+     "secs": [
+      "Illness & Dying",
+      "Grief & Bereavement",
+      "Addiction & Recovery",
+      "Mental Health",
+      "Divorce & Midlife Crisis"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "B10",
+   "label": "Children's Series",
+   "axis": "Axis: by age and mode: preschool first, then educational, sketch, sitcom and drama for older children, realistic and fantastic adventure; the seasonal Christmas calendar last",
+   "leaves": [
+    {
+     "code": "B10-1",
+     "label": "Preschool Television",
+     "breadth": "medium",
+     "defn": "A live-action or puppet series made for children under about six, teaching through song, repetition and play (<i>Sesame Street</i>, <i>Mister Rogers' Neighborhood</i>, <i>Teletubbies</i>, <i>Blue's Clues</i>). Animated preschool series go to C13.",
+     "aliases": "preschool series; puppet show",
+     "see": "B10-2 Educational Children's Series; C13 Animated Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Children%27s_television_series",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Puppetry",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B10-2",
+     "label": "Educational Children's Series",
+     "breadth": "narrow",
+     "defn": "A school-age children's series whose purpose is teaching reading, science or history, often with a presenter (<i>The Electric Company</i>, <i>Reading Rainbow</i>, <i>Bill Nye the Science Guy</i>, <i>Blue Peter</i>).",
+     "aliases": "edutainment; children's magazine programme",
+     "see": "B10-1 Preschool Television; B10-3 Children's Sketch & Puppet Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Educational_television",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B10-3",
+     "label": "Children's Sketch & Puppet Comedy",
+     "breadth": "narrow",
+     "defn": "A comedy series for children made of sketches, puppet routines or variety segments rather than a single story (<i>You Can't Do That on Television</i>, <i>All That</i>, <i>Pee-wee's Playhouse</i>, <i>31 Minutes</i>).",
+     "aliases": "kids' sketch comedy",
+     "see": "B8-13 Sketch Comedy; B10-1 Preschool Television",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Sketch_comedy",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Children%27s_television_series",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B10-4",
+     "label": "Teen Sitcom",
+     "breadth": "broad",
+     "defn": "A sitcom made for children's networks about tweens and teens at school, at home or in showbusiness (<i>Saved by the Bell</i>, <i>Lizzie McGuire</i>, <i>Hannah Montana</i>, <i>iCarly</i>). A teen comedy for adults goes to B8-7.",
+     "aliases": "tween sitcom; kidcom; Disney Channel / Nickelodeon sitcom",
+     "see": "B8-7 Teen Comedy; B10-5 Teen Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Teen_sitcom",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the premise: school and everyday life first, then family and siblings, showbusiness and double lives, magic and superpowers; hotels and camps last",
+     "secs": [
+      "School & Everyday-Life Sitcoms",
+      "Family & Sibling Sitcoms",
+      "Showbiz & Double-Life Sitcoms",
+      "Magic & Superpower Sitcoms",
+      "Hotel, Camp & Boarding Sitcoms"
+     ]
+    },
+    {
+     "code": "B10-5",
+     "label": "Teen Drama",
+     "breadth": "narrow",
+     "defn": "A serialized live-action drama or dramedy made for children's networks about teens: sport, dance, friendship and growing up (<i>Andi Mack</i>, <i>The Next Step</i>, <i>Free Rein</i>, <i>Geek Girl</i>). Teen drama for adults goes to B1.",
+     "aliases": "tween drama; children's drama",
+     "see": "B10-4 Teen Sitcom; B1 Drama Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Teen_drama",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B10-6",
+     "label": "Children's Adventure Series",
+     "breadth": "medium",
+     "defn": "A live-action children's series of realistic adventure: animal companions, literary classics and kid-gang mysteries (<i>Lassie</i>, <i>Pippi Longstocking</i>, <i>Emil of Lönneberga</i>, <i>De Zevensprong</i>). Magic and science fiction go to B10-7.",
+     "aliases": "children's serial; family adventure series",
+     "see": "B10-7 Children's Fantasy Series; A17 Children's & Family Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Children%27s_television_series",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Adventure_fiction",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the source of adventure: an animal companion first, then a literary classic; kid-gang and detective adventures last",
+     "secs": [
+      "Animal Companion Series",
+      "Children's Literature Adaptations",
+      "Kid-Gang & Detective Adventures"
+     ]
+    },
+    {
+     "code": "B10-7",
+     "label": "Children's Fantasy Series",
+     "breadth": "medium",
+     "defn": "A live-action children's series built on magic, the supernatural, science fiction or horror (<i>Arabela</i>, <i>Round the Twist</i>, <i>The Worst Witch</i>, <i>Goosebumps</i>).",
+     "aliases": "children's fantasy; kids' horror anthology",
+     "see": "B10-6 Children's Adventure Series; B9 Speculative Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Fantasy_television",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Supernatural_fiction",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the impossible element: fairy-tale magic in everyday life first, then magic schools and supernatural teens, science fiction and superheroes; horror anthologies last",
+     "secs": [
+      "Fairy-Tale & Everyday-Magic Series",
+      "Magic School, Mermaid & Supernatural-Teen Series",
+      "Science Fiction, Time-Travel & Superhero Series",
+      "Children's Horror Anthologies"
+     ]
+    },
+    {
+     "code": "B10-8",
+     "label": "Christmas Calendar",
+     "breadth": "narrow",
+     "defn": "A Nordic television serial of 24 episodes broadcast daily from 1 to 24 December (<i>Jul i Skomakergata</i>, <i>Nissebanden</i>, <i>Sunes jul</i>); adult parodies of the form (<i>The Julekalender</i>) stay here.",
+     "aliases": "julekalender; julkalender",
+     "see": "B10-7 Children's Fantasy Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Christmas_calendar",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Julkalendern",
+       "Wikipedia"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "code": "B11",
+   "label": "Documentary Series",
+   "axis": "Axis: by subject: the natural world and science first, then history and war, lives, music, sport and the arts, travel and food, investigation; true crime and the paranormal last",
+   "leaves": [
+    {
+     "code": "B11-1",
+     "label": "Nature Documentary Series",
+     "breadth": "medium",
+     "defn": "A documentary series about animals, plants and ecosystems, including reconstructions of prehistoric life (<i>Life on Earth</i>, <i>Planet Earth</i>, <i>Blue Planet II</i>, <i>Walking with Dinosaurs</i>).",
+     "aliases": "wildlife documentary; natural history series",
+     "see": "B11-2 Science Documentary Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Nature_documentary",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Wildlife_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by approach: the landmark global series first, then the Attenborough \"Life\" surveys, regional portraits, presenter-led wildlife; prehistoric reconstructions last",
+     "secs": [
+      "Landmark Natural-History Series",
+      "The Attenborough \"Life\" Surveys",
+      "Regional Natural-History Series",
+      "Presenter-Led Wildlife Series",
+      "Prehistoric Life Reconstructions"
+     ]
+    },
+    {
+     "code": "B11-2",
+     "label": "Science Documentary Series",
+     "breadth": "medium",
+     "defn": "A documentary series explaining science, space, the body or how things work (<i>Cosmos: A Personal Voyage</i>, <i>NOVA</i>, <i>How the Universe Works</i>, <i>Explained</i>).",
+     "aliases": "popular science series; explainer series",
+     "see": "B11-1 Nature Documentary Series; B10-2 Educational Children's Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Popular_science",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Television_documentary",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by subject: the cosmos first, then general science strands; explainer and pop-science formats last",
+     "secs": [
+      "Cosmos & Space",
+      "General-Science Strands",
+      "Explainer & Pop-Science Series"
+     ]
+    },
+    {
+     "code": "B11-3",
+     "label": "History Documentary Series",
+     "breadth": "medium",
+     "defn": "A documentary series narrating past events, eras or peoples (other than war), from archive narration to docudrama (<i>American Experience</i>, <i>Prohibition</i>, <i>The Century of the Self</i>, <i>Mayday</i>). War history goes to B11-4.",
+     "aliases": "historical documentary; docudrama series",
+     "see": "B11-4 War Documentary Series; A8 Historical & Period Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Documentary_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Docudrama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by method: narrative national history first, then social and cultural history, docudrama hybrids, essay and polemic; disaster and event retrospectives last",
+     "secs": [
+      "Narrative National Histories",
+      "Social & Cultural History",
+      "Docudrama Hybrids",
+      "Essay & Polemical History",
+      "Disaster & Event Retrospectives"
+     ]
+    },
+    {
+     "code": "B11-4",
+     "label": "War Documentary Series",
+     "breadth": "medium",
+     "defn": "A documentary series about a war or the military history of an era (<i>The World at War</i>, <i>The Civil War</i>, <i>The Vietnam War</i>, <i>Apocalypse: The Second World War</i>).",
+     "aliases": "military history series",
+     "see": "B11-3 History Documentary Series; A9 War Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Military_history",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Documentary_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B11-5",
+     "label": "Biographical Documentary Series",
+     "breadth": "medium",
+     "defn": "A documentary series portraying the life of a person (other than athletes and musicians) through archive and interview (<i>Biography</i>, <i>The Roosevelts</i>, <i>Arnold</i>, <i>Harry & Meghan</i>). Athletes go to B11-7; musicians to B11-6.",
+     "aliases": "celebrity docuseries; biography strand",
+     "see": "B11-6 Music Documentary Series; B11-7 Sports Documentary Series; A11 Biographical Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Biography_(TV_program)",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by subject: entertainers first, then politicians, royals and business figures; artists and writers last",
+     "secs": [
+      "Entertainers & Celebrities",
+      "Politicians, Royals & Business Figures",
+      "Artists & Writers"
+     ]
+    },
+    {
+     "code": "B11-6",
+     "label": "Music Documentary Series",
+     "breadth": "narrow",
+     "defn": "A documentary series about musicians, genres or music scenes (<i>The Beatles Anthology</i>, <i>Jazz</i>, <i>Hip Hop Evolution</i>, <i>The Beatles: Get Back</i>).",
+     "aliases": "rockumentary; music docuseries",
+     "see": "B11-5 Biographical Documentary Series; A14 Musical & Dance Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Rockumentary",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Concert_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B11-7",
+     "label": "Sports Documentary Series",
+     "breadth": "medium",
+     "defn": "A documentary series about athletes, teams or sporting events (<i>30 for 30</i>, <i>The Last Dance</i>, <i>Formula 1: Drive to Survive</i>, <i>Last Chance U</i>). Live sport goes to B16.",
+     "aliases": "sports docuseries; all-access series",
+     "see": "B16 Live Event & Sports Television; B11-5 Biographical Documentary Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Sports_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Docuseries",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by time: all-access season followed as it happens first; retrospectives and athlete portraits last",
+     "secs": [
+      "All-Access Season Docuseries",
+      "Retrospectives & Athlete Portraits"
+     ]
+    },
+    {
+     "code": "B11-8",
+     "label": "Arts & Pop-Culture Documentary Series",
+     "breadth": "medium",
+     "defn": "A documentary series about art, design, film, television, toys or pop culture, including making-of series (<i>Civilisation</i>, <i>The Story of Film: An Odyssey</i>, <i>The Toys That Made Us</i>, <i>LIGHT & MAGIC</i>).",
+     "aliases": "arts documentary; making-of series",
+     "see": "B11-5 Biographical Documentary Series; B11-6 Music Documentary Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Making-of",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Television_documentary",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B11-9",
+     "label": "Travel & Food Documentary Series",
+     "breadth": "medium",
+     "defn": "A non-competitive documentary series following a presenter through places or cuisines (<i>Michael Palin: Around the World in 80 Days</i>, <i>An Idiot Abroad</i>, <i>Chef's Table</i>, <i>Street Food: Asia</i>). Cooking competitions go to B13.",
+     "aliases": "travelogue; food documentary",
+     "see": "B13 Competition Formats; B14 Factual Entertainment Formats",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Travel_documentary",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Travelogue",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by approach: classic travelogues first, then comic and celebrity travelogues; food and culinary documentary last",
+     "secs": [
+      "Travelogues",
+      "Comic & Celebrity Travelogues",
+      "Food & Culinary Documentary"
+     ]
+    },
+    {
+     "code": "B11-10",
+     "label": "Investigative & Observational Documentary Series",
+     "breadth": "medium",
+     "defn": "A documentary series exposing wrongdoing or observing an institution or community from inside, and the anthology strands that carry such films (<i>Dirty Money</i>, <i>Rotten</i>, <i>Hopkins</i>, <i>POV</i>). Criminal cases go to B11-11.",
+     "aliases": "exposé series; fly-on-the-wall documentary; documentary strand",
+     "see": "B11-11 True Crime Docuseries; B14 Factual Entertainment Formats",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Investigative_journalism",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Observational_documentary",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by method: investigative exposé first, then observational access; anthology strands last",
+     "secs": [
+      "Investigative Exposés",
+      "Observational Docuseries",
+      "Documentary Strands & Anthologies"
+     ]
+    },
+    {
+     "code": "B11-11",
+     "label": "True Crime Docuseries",
+     "breadth": "broad",
+     "defn": "A documentary series reconstructing a real crime, investigation or trial (<i>Making a Murderer</i>, <i>The Jinx</i>, <i>Tiger King</i>, <i>Forensic Files</i>). A dramatized true-crime series goes to B7.",
+     "aliases": "true-crime documentary",
+     "see": "B11-10 Investigative & Observational Documentary Series; B7 Crime & Thriller Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/True_crime",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the crime: the single murder case first, then serial killers, wrongful conviction and trials, cults and abuse, fraud and cons, organised crime and terror; case-of-the-week strands last",
+     "secs": [
+      "Single-Case Murder & Disappearance",
+      "Serial-Killer Docuseries",
+      "Wrongful Conviction & Trial Docuseries",
+      "Cults, Abuse & Celebrity Scandal",
+      "Fraud, Scams & Heists",
+      "Organised Crime, Terror & Manhunts",
+      "Case-of-the-Week & Reenactment Strands"
+     ]
+    },
+    {
+     "code": "B11-12",
+     "label": "Paranormal & Pseudo-Documentary Series",
+     "breadth": "narrow",
+     "defn": "A series in documentary form about hauntings, aliens or lost civilisations, presenting fringe claims as investigation (<i>Ancient Aliens</i>, <i>Paranormal Witness</i>, <i>Ancient Apocalypse</i>).",
+     "aliases": "paranormal television; pseudo-documentary",
+     "see": "B11-3 History Documentary Series; B14 Factual Entertainment Formats",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Paranormal_television",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Pseudo-documentary",
+       "Wikipedia"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}
