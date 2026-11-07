@@ -32,7 +32,7 @@ Of the general-only objects, 18,256 sit under labels reviewed and kept general (
 | V5 | 0 | 0 | 1 |
 | V6 | 0 | 0 | 508 |
 
-V4: 385 named missing traditions in the mapping, 162 now carried by a leaf name, 223 open. V6: 116 rows in leftover per-object works lists.
+V4: 385 named missing traditions in the mapping, 162 now carried by a leaf name, 223 open. V6: 114 rows in leftover per-object works lists.
 
 ## V8 Region × medium: leaves (museum records)
 
@@ -53,8 +53,8 @@ Each cell: leaves in the tree, then gathered museum records in thousands. A dash
 | China | 10 (19k) | 2 (2k) | 5 (11k) | 9 (10k) | 25 (44k) | 1 | 7 (10k) | 12 (2k) | 6 (3k) | – | 12 | 2 |
 | Japan | 13 (23k) | 5 (39k) | 4 (35k) | 11 (11k) | 22 (29k) | 2 | 9 (43k) | 15 (19k) | 12 (11k) | 1 | 14 | 4 |
 | Korea | 5 (5k) | – | 3 (2k) | 2 | 8 (3k) | – | 5 (2k) | 7 (1k) | 4 | – | 2 | 3 |
-| Sub-Saharan Africa | 11 (1k) | – | 3 (1k) | 53 (4k) | 4 (9k) | 1 (1k) | 3 (17k) | 27 (16k) | 3 (9k) | 1 | 7 | 9 |
-| North America (Indigenous) | 6 (4k) | 2 (1k) | – | 8 (7k) | 16 (23k) | **– (1k)** | 4 (10k) | 32 (23k) | 2 (7k) | – | 3 | 8 |
+| Sub-Saharan Africa | 11 (1k) | – | 3 (1k) | 55 (4k) | 4 (9k) | 1 (1k) | 3 (17k) | 27 (16k) | 3 (9k) | 1 | 7 | 9 |
+| North America (Indigenous) | 6 (4k) | 2 (1k) | – | 9 (7k) | 16 (23k) | **– (1k)** | 4 (10k) | 32 (23k) | 2 (7k) | – | 3 | 8 |
 | North America (settler) | 25 | 2 (1k) | 1 | 7 | 2 (1k) | 1 | 2 (1k) | 6 (13k) | 2 | 5 | 14 | 2 |
 | Mesoamerica & Caribbean | 7 (1k) | 1 | 2 | 14 (5k) | 26 (19k) | – | 4 (2k) | 13 (5k) | 1 (1k) | – | 5 | 5 |
 | South America | 12 (2k) | 1 | – | 8 (1k) | 29 (15k) | – | 13 (7k) | 16 (13k) | 3 (4k) | – | 4 | 11 |

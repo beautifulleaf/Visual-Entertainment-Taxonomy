@@ -1,6 +1,6 @@
 # Structure audit
 
-Computed from the published data: FT 950 leaves (604 sectioned), VA 1874 leaves. Flags in `flags.csv`.
+Computed from the published data: FT 950 leaves (604 sectioned), VA 1877 leaves. Flags in `flags.csv`.
 
 | Check | Finding | High | Medium | Low |
 |---|---|---:|---:|---:|
@@ -78,9 +78,9 @@ S2: 0 titles fall outside the dates of their era section.
 | VA | C4 Paper Arts | 2 | 3 | 0 | 8 |
 | VA | D1 Architectural Carving & Stucco | 0 | 0 | 0 | 4 |
 | VA | D2 Ivory & Bone Carving | 3 | 0 | 0 | 15 |
-| VA | D3 Hardstone, Rock Crystal & Jade Carving | 4 | 0 | 0 | 10 |
-| VA | D4 Masks & Puppets | 0 | 1 | 0 | 39 |
-| VA | D5 Figurative Sculpture | 29 | 7 | 3 | 108 |
+| VA | D3 Hardstone, Rock Crystal & Jade Carving | 5 | 0 | 0 | 10 |
+| VA | D4 Masks & Puppets | 1 | 1 | 0 | 39 |
+| VA | D5 Figurative Sculpture | 30 | 7 | 3 | 108 |
 | VA | D6 Ritual Objects & Regalia | 0 | 0 | 0 | 13 |
 | VA | E1 Earthenware | 148 | 0 | 0 | 14 |
 | VA | E2 Fritware (Stonepaste) | 15 | 0 | 0 | 1 |
@@ -140,11 +140,11 @@ S2: 0 titles fall outside the dates of their era section.
 | Tab | Sub-family | Leaves | Entries | Gini | Largest leaf |
 |---|---|---:|---:|---:|---:|
 | VA | A5 Easel Painting | 158 | 19,300 | 0.84 | 31% |
-| VA | D5 Figurative Sculpture | 148 | 4,400 | 0.81 | 37% |
+| VA | D5 Figurative Sculpture | 149 | 4,419 | 0.80 | 37% |
 | VA | J1 Photographic Schools & Movements | 20 | 3,115 | 0.71 | 29% |
 | VA | M1 Installation, Conceptual & Performance Art | 13 | 534 | 0.68 | 50% |
 | VA | H7 Dress & Costume | 23 | 295 | 0.68 | 59% |
-| VA | I3 Furniture & Decorative Arts Styles | 25 | 964 | 0.68 | 22% |
+| VA | I3 Furniture & Decorative Arts Styles | 25 | 965 | 0.68 | 22% |
 | VA | K8 East Asian Architecture | 21 | 534 | 0.68 | 28% |
 | VA | K5 Early Modern European & Colonial Architecture | 24 | 1,301 | 0.67 | 33% |
 | VA | K4 Medieval European Architecture | 14 | 691 | 0.67 | 46% |

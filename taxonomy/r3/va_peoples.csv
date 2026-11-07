@@ -1,5 +1,49 @@
 aat_id,name,leaf,objects,how,aat_group
 300020093,Classical,E1-28,28015,held,
+300262877,Babungo,D5-148,0,subgroup,Cameroon Grassfields
+300265346,Moghamo,D5-148,0,subgroup,Cameroon Grassfields
+300263936,Chipeta,D4-42,0,subgroup,Chewa
+300016129,Babanki,D5-148,0,subgroup,Cameroon Grassfields
+300262787,Bafoussam,D5-148,0,subgroup,Bamileke
+300263709,Babanki-Tungo,D5-148,0,subgroup,Cameroon Grassfields
+300100463,Bagam,D5-148,0,subgroup,Bamileke
+300100351,Bamenjo,D5-148,0,subgroup,Bamileke
+300264066,Bandjoun,D5-148,0,subgroup,Bamileke
+300265340,Meta,D5-148,0,subgroup,Cameroon Grassfields
+300016144,Batie,D5-148,0,subgroup,Bamileke
+300264861,Ntem,D5-148,0,subgroup,Cameroon Grassfields
+300265283,Mende-Nkwe,D5-148,0,subgroup,Cameroon Grassfields
+300262737,Widekum,D5-148,0,subgroup,Cameroon Grassfields
+300262781,Wute,D5-148,0,subgroup,Cameroon Grassfields
+300262782,Oku,D5-148,0,subgroup,Cameroon Grassfields
+300343795,Kel Tadele,G3-4,0,decided,Kel Ferwan
+300264433,Kel Tademaket,G3-4,0,decided,Kel Ataram
+300264430,Kel Ewey,G3-4,0,decided,Kel Ayr
+300343735,Antessar,G3-4,0,decided,Tuareg
+300016637,Llano,D3-16,0,decided,Western North American Paleo-Indian
+300016642,Plainview,D3-16,0,decided,Plano
+300016643,Meserve,D3-16,0,decided,Plainview
+300264432,Kel Ataram,G3-4,0,decided,Iwellemmeden
+300343796,Kel Fadey,G3-4,0,decided,Kel Ayr
+300102205,Nyanja,D4-42,0,decided,Maravi
+300262503,Nyasa,D4-42,0,decided,Nyanja
+300265333,Ineslemen,G3-4,0,decided,Tuareg
+300016644,Midland,D3-16,0,decided,Plainview
+300016648,Angostura,D3-16,0,decided,Parallel-flaked
+300264434,Kel Dinnik,G3-4,0,decided,Iwellemmeden
+300016645,Milnesand,D3-16,0,decided,Plainview
+300016655,Dalton,D3-16,0,decided,Eastern North American Paleo-Indian
+300264295,Iwellemmeden,G3-4,0,decided,Tuareg
+300016656,Hardaway,D3-16,0,decided,Eastern North American Paleo-Indian
+300264293,Kel Adrar,G3-4,0,decided,Tuareg
+300016658,Reagen,D3-16,0,decided,Eastern North American Paleo-Indian
+300264298,Kel Ahaggar,G3-4,0,decided,Tuareg
+300016659,Suwannee,D3-16,0,decided,Eastern North American Paleo-Indian
+300264296,Kel Ajjer,G3-4,0,decided,Tuareg
+300264297,Kel Ayr,G3-4,0,decided,Tuareg
+300264294,Kel Geres,G3-4,0,decided,Tuareg
+300264292,Udalen,G3-4,0,decided,Tuareg
+300374864,Hollywood Regency,I3-16,0,decided,modern North American
 300262861,Binji,I1-32,1,decided,Smithsonian Open Access objects
 300017446,Chugach,D2-9,53,decided,Smithsonian Open Access objects
 300460424,Ódami,D4-33,12,decided,Smithsonian Open Access objects

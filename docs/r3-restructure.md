@@ -204,3 +204,24 @@ Maiemir goes to Animal Style. Not made leaves:
 **Fixes:**
 - Region facets corrected: Scandinavian Modern (was Islamic world), High-tech Architecture (was China), Petroglyphs of the Mongolian Altai (was Himalaya), Harappan Pottery (had none).
 - The inheritance rule now treats "Ancient …" AAT headings as broad. They had attached 15 ancient West, East and Central African terms to the new strip-weaving leaf.
+
+## Stone tools in scope; dedicated sources for what remains (v20)
+
+The owner admitted stone tools to the scope of visual art. **Paleo-Indian Fluted Points** (D3) takes the 18 Paleo-Indian point types (Clovis, Folsom, Plano, Dalton, Scottsbluff and others). Sources: Folsom tradition on Wikipedia (the fluting has no use "except for its aesthetic appeal"), Archaeology Southwest, Crow Canyon. Three open AAT clusters had a dedicated source and got leaves or entries (`va_out/sweep_ref5`):
+- **Nyau Masks** (Gule Wamkulu; UNESCO 2005, British Museum EMKP): Chewa groups only. Tumbuka, Phoka and Kunda stay open; AAT files them under Maravi, but the source doesn't name them.
+- **Vigango** (Cultural Survival / Udvardy): only the six Mijikenda groups the source names as carvers. Digo, Duruma and Rabai stay open.
+- **Tuareg** groups → Berber Jewellery (museum labels: silver and leatherwork by the smith caste).
+
+Also settled: seven hyphenated-American nationalities misfiled as peoples (now facets), and Hollywood Regency (→ Art Deco, decorative arts).
+
+`pipelines/r3/ref_register.py` writes the **open register** (`taxonomy/audit/reference/open_register.csv` and `.md`). It holds the 722 terms that still have no home: peoples, archaeological phases and held traditions. Each row gives the term's AAT cluster, what was searched (the gathered records; the Smithsonian for peoples), the dedicated source for its cluster, and whether that source answered from this environment. The largest clusters:
+
+| Cluster | Terms | Dedicated source |
+|---|---:|---|
+| North American archaeology | about 100 | tDAR, state archaeological surveys, Handbook of North American Indians |
+| West Africa (other) | about 90 | musée du quai Branly; IFAN Dakar |
+| Nigeria Middle Belt and North-East | about 75 | *Central Nigeria Unmasked* (Fowler 2011), Arnold Rubin archive |
+| Lowland South America | about 50 | ISA *Povos Indígenas no Brasil*, Museu do Índio, Museo del Barro |
+| Congo basin | about 45 | AfricaMuseum Tervuren |
+
+A term leaves the register when its cluster's source shows a visual tradition for it.

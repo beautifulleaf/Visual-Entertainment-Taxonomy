@@ -295,7 +295,7 @@ aat_id,name,decision,leaves,note,records
 300387730,Egyptian Islamic,facet,,read on its Getty scope note,0
 300412090,Aramaean,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300387373,Venetian Colonial,facet,,read on its Getty scope note,0
-300343795,Kel Tadele,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300343795,Kel Tadele,entry,G3-4,Tuareg sub-group; silver and leatherwork,0
 300457704,Anishininew,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300448850,Ibero-Roman,entry,D5-61,read on its Getty scope note,0
 300266196,Bench,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
@@ -305,7 +305,7 @@ aat_id,name,decision,leaves,note,records
 300265302,Zul,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300262905,Hananwa,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300262729,Kgalagadi,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
-300264433,Kel Tademaket,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300264433,Kel Tademaket,entry,G3-4,Tuareg sub-group; silver and leatherwork,0
 300264774,Curvilinear style,recorded,,read on its Getty scope note,0
 300264436,Ait Hadiddou,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300264576,Ait Youssi,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
@@ -316,7 +316,7 @@ aat_id,name,decision,leaves,note,records
 300265334,Azza,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300263958,Digil,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300343732,Irreganaten,entry,G3-4,read on its Getty scope note,0
-300264430,Kel Ewey,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300264430,Kel Ewey,entry,G3-4,Tuareg sub-group; silver and leatherwork,0
 300264300,Ghrib,people,,people with no gathered records,0
 300263499,Bailundu,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300263153,Anufo,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
@@ -348,7 +348,7 @@ aat_id,name,decision,leaves,note,records
 300256909,Violet Style,entry,L2-28,read on its Getty scope note,0
 300263493,Kansyore,recorded,,read on its Getty scope note,0
 300263052,Day,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
-300193270,Mexican American,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300193270,Mexican American,facet,,hyphenated-American nationality,0
 300197404,Chila,entry,H1-4,read on its Getty scope note,0
 300245290,Chiadma,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300245452,Indo-Feraghan,entry,H3-60,AAT parent-placed,0
@@ -365,7 +365,7 @@ aat_id,name,decision,leaves,note,records
 300180700,Amstel,entry,E4-26,AAT note-placed,0
 300020580,Gallo-Roman,entry,D5-61,read on its Getty scope note,0
 300263936,Chipeta,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
-300262867,Kunda,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300262867,Kunda,people,,not among the groups the source names for this tradition,0
 300019155,Jayavarman II,facet,,nationality,0
 300417407,Nanyang Style,entry,A5-154,new leaf (va_out/sweep_ref2),0
 300444995,Angevin,facet,,nationality,0
@@ -403,7 +403,7 @@ aat_id,name,decision,leaves,note,records
 300107284,black-mouthed,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300020499,Etruscan pottery styles,facet,,grouping,0
 300107362,brittle,entry,E1-38,read on its Getty scope note,0
-300100894,Chonyi,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300100894,Chonyi,entry,D5-149,Mijikenda (va_out/sweep_ref5),0
 300264728,Gamo,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300263507,Msalala,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300263531,Dabida,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
@@ -485,7 +485,7 @@ aat_id,name,decision,leaves,note,records
 300017952,Achagua,recorded,,Smithsonian objects are utilitarian or ethnographic; no named visual tradition found,3
 300017962,Abipón,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300460417,Haush,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
-300263270,Afro-Creole,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300263270,Afro-Creole,facet,,hyphenated-American nationality,0
 300444894,American Benedictine,recorded,,read on its Getty scope note,0
 300456659,Chu,facet,,polity,0
 300106458,Bai Miao,entry,A2-3,read on its Getty scope note,0
@@ -545,12 +545,12 @@ aat_id,name,decision,leaves,note,records
 300265357,Mbandieru,recorded,,Smithsonian objects are utilitarian or ethnographic; no named visual tradition found,44
 300263170,Kung,recorded,,Smithsonian objects are utilitarian or ethnographic; no named visual tradition found,65
 300264709,Mahria,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
-300343735,Antessar,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
-300016637,Llano,archaeology,,archaeological culture or phase with no gathered records,0
-300016638,Clovis,archaeology,,archaeological culture or phase with no gathered records,0
-300016642,Plainview,archaeology,,archaeological culture or phase with no gathered records,0
-300016643,Meserve,archaeology,,archaeological culture or phase with no gathered records,0
-300016647,Agate Basin,archaeology,,archaeological culture or phase with no gathered records,0
+300343735,Antessar,entry,G3-4,Tuareg sub-group; silver and leatherwork,0
+300016637,Llano,entry,D3-16,Paleo-Indian point type (va_out/sweep_ref5),0
+300016638,Clovis,entry,D3-16,Paleo-Indian point type (va_out/sweep_ref5),0
+300016642,Plainview,entry,D3-16,Paleo-Indian point type (va_out/sweep_ref5),0
+300016643,Meserve,entry,D3-16,Paleo-Indian point type (va_out/sweep_ref5),0
+300016647,Agate Basin,entry,D3-16,Paleo-Indian point type (va_out/sweep_ref5),0
 300016666,Desert Tradition,archaeology,,archaeological culture or phase with no gathered records,0
 300265354,Akposo,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300016025,Tofinu,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
@@ -631,8 +631,8 @@ aat_id,name,decision,leaves,note,records
 300263777,Nabdam,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300343401,Daju,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300263911,Daza,recorded,,Smithsonian objects are utilitarian or ethnographic; no named visual tradition found,1
-300264432,Kel Ataram,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
-300343796,Kel Fadey,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300264432,Kel Ataram,entry,G3-4,Tuareg sub-group; silver and leatherwork,0
+300343796,Kel Fadey,entry,G3-4,Tuareg sub-group; silver and leatherwork,0
 300264428,Lemba,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300016379,Mbanza,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300263912,LoWiili,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
@@ -663,7 +663,7 @@ aat_id,name,decision,leaves,note,records
 300245311,Chichaoua,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300449026,Tejano,facet,,read on its Getty scope note,0
 300107453,Romano-British,entry,D5-61,read on its Getty scope note,0
-300102205,Nyanja,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300102205,Nyanja,entry,D4-42,Chewa/Maravi (va_out/sweep_ref5),0
 300022107,Abstract Impressionist,entry,A5-81,read on its Getty scope note,0
 300018577,Japanese decorative arts styles,facet,,grouping,0
 300021439,Decadent Movement,entry,A5-51,read on its Getty scope note,0
@@ -698,10 +698,10 @@ aat_id,name,decision,leaves,note,records
 300107355,ancient Italian pottery styles,facet,,grouping,0
 300107361,Roman pottery styles,facet,,grouping,0
 300457720,indoamericano,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
-300016490,Digo,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300016490,Digo,people,,not among the groups the source names for this tradition,0
 300264453,Kafa,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300262677,Logooli,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
-300262503,Nyasa,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300262503,Nyasa,entry,D4-42,Chewa/Maravi (va_out/sweep_ref5),0
 300387102,Nose art,recorded,,read on its Getty scope note,0
 300249198,apartheid,out,,ideology or religion,0
 300265613,Anglo-Japanese,entry,A5-158,new leaf (va_out/sweep_ref2),0
@@ -772,12 +772,12 @@ aat_id,name,decision,leaves,note,records
 300264993,Ravens,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300265472,Brulé,entry,H9-6,read on its Getty scope note,0
 300017675,Waco,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
-300265333,Ineslemen,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
-300016640,Folsom,archaeology,,archaeological culture or phase with no gathered records,0
-300016646,Parallel-flaked,archaeology,,archaeological culture or phase with no gathered records,0
-300016644,Midland,archaeology,,archaeological culture or phase with no gathered records,0
-300016648,Angostura,archaeology,,archaeological culture or phase with no gathered records,0
-300016654,Cumberland Fluted,archaeology,,archaeological culture or phase with no gathered records,0
+300265333,Ineslemen,entry,G3-4,Tuareg sub-group; silver and leatherwork,0
+300016640,Folsom,entry,D3-16,Paleo-Indian point type (va_out/sweep_ref5),0
+300016646,Parallel-flaked,entry,D3-16,Paleo-Indian point type (va_out/sweep_ref5),0
+300016644,Midland,entry,D3-16,Paleo-Indian point type (va_out/sweep_ref5),0
+300016648,Angostura,entry,D3-16,Paleo-Indian point type (va_out/sweep_ref5),0
+300016654,Cumberland Fluted,entry,D3-16,Paleo-Indian point type (va_out/sweep_ref5),0
 300016668,Old Cordilleran,archaeology,,archaeological culture or phase with no gathered records,0
 300016744,Pre-Columbian Maritime area styles,facet,,grouping,0
 300016741,Ipiutak,archaeology,,archaeological culture or phase with no gathered records,0
@@ -862,7 +862,7 @@ aat_id,name,decision,leaves,note,records
 300443177,Taiz,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300457724,M'Chigeeng First Nation,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300445002,Firuzanid,facet,,read on its Getty scope note,0
-300264434,Kel Dinnik,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300264434,Kel Dinnik,entry,G3-4,Tuareg sub-group; silver and leatherwork,0
 300343768,Kel Ferwan,entry,G3-4,read on its Getty scope note,0
 300016561,Lovedu,recorded,,Smithsonian objects are utilitarian or ethnographic; no named visual tradition found,1
 300260726,Tawana,recorded,,Smithsonian objects are utilitarian or ethnographic; no named visual tradition found,9
@@ -894,7 +894,7 @@ aat_id,name,decision,leaves,note,records
 300379363,Romano-German,entry,D5-61,read on its Getty scope note,0
 300410340,Afrofuturist,entry,M2-6,new leaf (va_out/sweep_ref2),0
 300015708,Mombasa,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
-300263050,Phoka,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300263050,Phoka,people,,not among the groups the source names for this tradition,0
 300018579,Japanese painting styles,facet,,grouping,0
 300017385,Draconian,archaeology,,archaeological culture or phase with no gathered records,0
 300387718,Alsatian,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
@@ -924,7 +924,7 @@ aat_id,name,decision,leaves,note,records
 300020014,Choga Mami Transitional,entry,E1-149,read on its Getty scope note,0
 300386013,Colonial Canadian,entry,K5-19,read on its Getty scope note,0
 300120015,Estridentismo,recorded,,"named tradition, attestation not confirmed (held)",0
-300100898,Duruma,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300100898,Duruma,people,,not among the groups the source names for this tradition,0
 300262684,Samia,recorded,,Smithsonian objects are utilitarian or ethnographic; no named visual tradition found,1
 300102460,Koniag,entry,D2-9 H8-14,Smithsonian Open Access objects,149
 300248161,colossal orders,entry,K5-22,read on its Getty scope note,0
@@ -996,10 +996,10 @@ aat_id,name,decision,leaves,note,records
 300262504,Sarwa,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300264579,Tunjur,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300343769,Itesan,entry,G3-4,read on its Getty scope note,0
-300016641,Plano,archaeology,,archaeological culture or phase with no gathered records,0
-300016645,Milnesand,archaeology,,archaeological culture or phase with no gathered records,0
-300016649,Cody,archaeology,,archaeological culture or phase with no gathered records,0
-300016655,Dalton,archaeology,,archaeological culture or phase with no gathered records,0
+300016641,Plano,entry,D3-16,Paleo-Indian point type (va_out/sweep_ref5),0
+300016645,Milnesand,entry,D3-16,Paleo-Indian point type (va_out/sweep_ref5),0
+300016649,Cody,entry,D3-16,Paleo-Indian point type (va_out/sweep_ref5),0
+300016655,Dalton,entry,D3-16,Paleo-Indian point type (va_out/sweep_ref5),0
 300016733,Sarqaq,archaeology,,archaeological culture or phase with no gathered records,0
 300016740,Norton,archaeology,,archaeological culture or phase with no gathered records,0
 300016748,Denbigh,archaeology,,archaeological culture or phase with no gathered records,0
@@ -1085,8 +1085,8 @@ aat_id,name,decision,leaves,note,records
 300263939,Tswa,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300264584,Ngwato,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300265377,Tannekwe,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
-300264295,Iwellemmeden,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
-300016656,Hardaway,archaeology,,archaeological culture or phase with no gathered records,0
+300264295,Iwellemmeden,entry,G3-4,Tuareg sub-group; silver and leatherwork,0
+300016656,Hardaway,entry,D3-16,Paleo-Indian point type (va_out/sweep_ref5),0
 300016735,Thule,archaeology,,archaeological culture or phase with no gathered records,0
 300016738,Palisades,archaeology,,archaeological culture or phase with no gathered records,0
 300016746,Kobuk,archaeology,,archaeological culture or phase with no gathered records,0
@@ -1167,7 +1167,7 @@ aat_id,name,decision,leaves,note,records
 300458735,Guamanian,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300055520,conservatism,out,,ideology or religion,0
 300404774,French order,entry,K5-23,read on its Getty scope note,0
-300100902,Giriama,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300100902,Giriama,entry,D5-149,Mijikenda (va_out/sweep_ref5),0
 300264045,Tiriki,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300101038,Sumbwa,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300102471,Saint Lawrence Island Eskimo,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
@@ -1243,9 +1243,9 @@ aat_id,name,decision,leaves,note,records
 300016900,Pinto Basin,archaeology,,archaeological culture or phase with no gathered records,0
 300016908,Stselax,archaeology,,archaeological culture or phase with no gathered records,0
 300016942,Reserve Mogollon,archaeology,,archaeological culture or phase with no gathered records,0
-300264293,Kel Adrar,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
-300016651,Scottsbluff,archaeology,,archaeological culture or phase with no gathered records,0
-300016658,Reagen,archaeology,,archaeological culture or phase with no gathered records,0
+300264293,Kel Adrar,entry,G3-4,Tuareg sub-group; silver and leatherwork,0
+300016651,Scottsbluff,entry,D3-16,Paleo-Indian point type (va_out/sweep_ref5),0
+300016658,Reagen,entry,D3-16,Paleo-Indian point type (va_out/sweep_ref5),0
 300016742,Western Thule,archaeology,,archaeological culture or phase with no gathered records,0
 300016832,Pre-Columbian Ohio Valley styles,facet,,grouping,0
 300016780,Goodall,archaeology,,archaeological culture or phase with no gathered records,0
@@ -1308,12 +1308,12 @@ aat_id,name,decision,leaves,note,records
 300020166,Euboean,entry,E1-25,read on its Getty scope note,0
 300107048,yellow-slipped,recorded,,read on its Getty scope note,0
 300107092,Ephyraean,entry,E1-37,read on its Getty scope note,0
-300100874,Jibana,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300100874,Jibana,entry,D5-149,Mijikenda (va_out/sweep_ref5),0
 300385984,Calabrian,facet,,nationality,0
 300451684,Cordoban,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300387411,Capodimonte ware,entry,E4-25,AAT note-placed,0
 300404596,Arte nucleare,recorded,,"named tradition, attestation not confirmed (held)",0
-300262747,Tumbuka,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300262747,Tumbuka,people,,not among the groups the source names for this tradition,0
 300443149,Druze,out,,ideology or religion,0
 300245048,Uzbek textile styles,facet,,grouping,0
 300259458,Urewe,recorded,,read on its Getty scope note,0
@@ -1344,8 +1344,8 @@ aat_id,name,decision,leaves,note,records
 300016920,Pre-Columbian Southwestern North American styles,facet,,grouping,0
 300380377,Numic,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300016940,San Francisco Mogollon,archaeology,,archaeological culture or phase with no gathered records,0
-300264298,Kel Ahaggar,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
-300016659,Suwannee,archaeology,,archaeological culture or phase with no gathered records,0
+300264298,Kel Ahaggar,entry,G3-4,Tuareg sub-group; silver and leatherwork,0
+300016659,Suwannee,entry,D3-16,Paleo-Indian point type (va_out/sweep_ref5),0
 300016750,Old Bering Sea,archaeology,,archaeological culture or phase with no gathered records,0
 300016849,Pre-Columbian Ozark Plateau styles,facet,,grouping,0
 300016782,Moccasin Bluff,archaeology,,archaeological culture or phase with no gathered records,0
@@ -1389,7 +1389,7 @@ aat_id,name,decision,leaves,note,records
 300020234,Creto-Mycenaean,archaeology,,archaeological culture or phase with no gathered records,0
 300107068,Megarian,entry,E1-38,read on its Getty scope note,0
 300107094,Matt-painted,entry,E1-37,read on its Getty scope note,0
-300100877,Kambe,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300100877,Kambe,entry,D5-149,Mijikenda (va_out/sweep_ref5),0
 300017460,Yuit,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300107657,Khabur,entry,E1-159,new leaf (va_out/sweep_ref2),0
 300107794,Mehmeh Red-on-Red,recorded,,read on its Getty scope note,0
@@ -1435,7 +1435,7 @@ aat_id,name,decision,leaves,note,records
 300016863,Fort Walton,archaeology,,archaeological culture or phase with no gathered records,0
 300016881,Kincaid,archaeology,,archaeological culture or phase with no gathered records,0
 300016941,Three Circle Mogollon,archaeology,,archaeological culture or phase with no gathered records,0
-300264296,Kel Ajjer,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300264296,Kel Ajjer,entry,G3-4,Tuareg sub-group; silver and leatherwork,0
 300016756,Punuk,archaeology,,archaeological culture or phase with no gathered records,0
 300016854,Pre-Columbian Southeastern North American styles,facet,,grouping,0
 300016783,Norton-Hopewell,archaeology,,archaeological culture or phase with no gathered records,0
@@ -1471,7 +1471,7 @@ aat_id,name,decision,leaves,note,records
 300020106,Aegean architecture styles,facet,,grouping,0
 300107070,West Slope,entry,E1-32,read on its Getty scope note,0
 300107099,Minyan,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
-300182848,Kauma,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300182848,Kauma,entry,D5-149,Mijikenda (va_out/sweep_ref5),0
 300244097,Hereke,entry,H1-2,read on its Getty scope note,0
 300262991,Dagari,recorded,,Smithsonian objects are utilitarian or ethnographic; no named visual tradition found,1
 300015989,Attie,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
@@ -1484,7 +1484,7 @@ aat_id,name,decision,leaves,note,records
 300016826,Meadowood,archaeology,,archaeological culture or phase with no gathered records,0
 300016882,Maples Mills,archaeology,,archaeological culture or phase with no gathered records,0
 300016952,Pre-Columbian Pueblo styles,facet,,grouping,0
-300264297,Kel Ayr,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300264297,Kel Ayr,entry,G3-4,Tuareg sub-group; silver and leatherwork,0
 300016308,Songo,recorded,,Smithsonian objects are utilitarian or ethnographic; no named visual tradition found,27
 300016401,Kasingo,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300265283,Mende-Nkwe,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
@@ -1512,7 +1512,7 @@ aat_id,name,decision,leaves,note,records
 300020219,Praxitelean,entry,D5-108,read on its Getty scope note,0
 300055963,Gnosticism,out,,ideology or religion,0
 300020105,Aegean pottery styles,facet,,grouping,0
-300100911,Rabai,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300100911,Rabai,people,,not among the groups the source names for this tradition,0
 300417412,Tokyo Pop,recorded,,read on its Getty scope note,0
 300458962,Magars,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300107132,Phi Mai,entry,K9-1,read on its Getty scope note,0
@@ -1553,7 +1553,7 @@ aat_id,name,decision,leaves,note,records
 300107974,Monongahela,archaeology,,archaeological culture or phase with no gathered records,0
 300016866,Lauderdale,archaeology,,archaeological culture or phase with no gathered records,0
 300016883,Morton,archaeology,,archaeological culture or phase with no gathered records,0
-300264294,Kel Geres,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300264294,Kel Geres,entry,G3-4,Tuareg sub-group; silver and leatherwork,0
 300016785,Osceola,archaeology,,archaeological culture or phase with no gathered records,0
 300016278,Yanzi,recorded,,Smithsonian objects are utilitarian or ethnographic; no named visual tradition found,28
 300016363,Mwanza,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
@@ -1578,7 +1578,7 @@ aat_id,name,decision,leaves,note,records
 300107146,Pyrgos,entry,E1-36,AAT parent-placed,0
 300107448,Etrusco-Italic,entry,D5-59,read on its Getty scope note,0
 300107032,Aegean sculpture styles,facet,,grouping,0
-300100916,Ribe,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300100916,Ribe,entry,D5-149,Mijikenda (va_out/sweep_ref5),0
 300443553,bioart,entry,M2-7,new leaf (va_out/sweep_ref2),0
 300443476,Hejaz,facet,,read on its Getty scope note,0
 300193715,Kayseri,entry,H1-2,read on its Getty scope note,0
@@ -1593,7 +1593,7 @@ aat_id,name,decision,leaves,note,records
 300016829,Owasco,archaeology,,archaeological culture or phase with no gathered records,0
 300016867,Macon Plateau,archaeology,,archaeological culture or phase with no gathered records,0
 300387676,San Dieguito,recorded,,Smithsonian objects are utilitarian or ethnographic; no named visual tradition found,12
-300264292,Udalen,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300264292,Udalen,entry,G3-4,Tuareg sub-group; silver and leatherwork,0
 300016367,Nsapo,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300265295,Kwame,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300263955,Nso,entry,D5-148,Smithsonian Open Access objects,1
@@ -1689,7 +1689,7 @@ aat_id,name,decision,leaves,note,records
 300106550,Shufu,facet,,polity,0
 300110281,Kose School,entry,A2-8,read on its Getty scope note,0
 300460410,Khitan,facet,,read on its Getty scope note,0
-300448908,German-American,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300448908,German-American,facet,,hyphenated-American nationality,0
 300017932,Yunca,recorded,,Smithsonian objects are utilitarian or ethnographic; no named visual tradition found,23
 300017973,Mocoví,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300018030,Timbú,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
@@ -1789,7 +1789,7 @@ aat_id,name,decision,leaves,note,records
 300386867,Semitic,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300106507,Su-Song,entry,A2-3,read on its Getty scope note,0
 300404720,Xianbei,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
-300374864,Hollywood Regency,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300374864,Hollywood Regency,entry,I3-16,"1930s Hollywood interior design, Art Deco period",0
 300017897,Ipuriná,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300438504,Meherrin,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300391310,Milling Stone Horizon,archaeology,,archaeological culture or phase with no gathered records,0
@@ -1808,7 +1808,7 @@ aat_id,name,decision,leaves,note,records
 300386034,Jorwe,entry,E1-161,empty region x era cell filled (va_out/sweep_ref3),0
 300114476,Ryokuyo,recorded,,read on its Getty scope note,0
 300113550,Nara-e,out,,ideology or religion,0
-300448910,Irish-American,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300448910,Irish-American,facet,,hyphenated-American nationality,0
 300017899,Kuikuru,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300055516,totalitarianism,out,,ideology or religion,0
 300458952,Mizo,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
@@ -1819,7 +1819,7 @@ aat_id,name,decision,leaves,note,records
 300019736,Urartian,facet,,nationality,0
 300444977,Kalachuri,facet,,polity,0
 300114474,Sanage,entry,E3-35,new leaf (va_out/sweep_ref2),0
-300448909,Italian-American,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300448909,Italian-American,facet,,hyphenated-American nationality,0
 300018000,Urabá,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300263021,Katab,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300262536,Marghi,recorded,,Smithsonian objects are utilitarian or ethnographic; no named visual tradition found,2
@@ -1899,12 +1899,12 @@ aat_id,name,decision,leaves,note,records
 300386493,Piedmontese,facet,,nationality,0
 300015884,Moba,recorded,,Smithsonian objects are utilitarian or ethnographic; no named visual tradition found,6
 300440783,Maharashtrian,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
-300386515,Romanian-American,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300386515,Romanian-American,facet,,hyphenated-American nationality,0
 300265296,Ningawa,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300262561,Pabir,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
 300386141,Pisan,facet,,nationality,0
 300122717,Unanimist,out,,read on its Getty scope note,0
-300386516,Russian-American,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0
+300386516,Russian-American,facet,,hyphenated-American nationality,0
 300444327,Spanish-Italian Romanesque Revival,entry,K2-8,read on its Getty scope note,0
 300017908,Mura,recorded,,Smithsonian objects are utilitarian or ethnographic; no named visual tradition found,1
 300438502,Sappony,people,,people with no gathered records; none in the Smithsonian anthropology collections either,0

@@ -386,6 +386,7 @@ D3-12,Idar-Oberstein Agate Cutting,South America,1400,1500,rule
 D3-13,Sasanian Seals,Ancient Near East,224,651,rule
 D3-14,Rai Stones,Oceania (Pacific),1000,2026,override
 D3-15,Dilmun Seals,Ancient Near East,-2050,-1650,override
+D3-16,Paleo-Indian Fluted Points,North America (Indigenous),-11500,-8000,override
 D4-1,Karagöz Shadow Puppets,"Islamic world (MENA, Iran, Anatolia)",1299,1922,rule
 D4-2,Tholu Bommalata,South Asia,,,rule
 D4-3,Wayang Kulit,Southeast Asia,2008,2008,rule
@@ -427,6 +428,7 @@ D4-38,Niger Delta Water-Spirit Masks,Sub-Saharan Africa,1800,2026,override
 D4-39,Cross River Skin-Covered Headdresses,Sub-Saharan Africa,1800,1960,override
 D4-40,Urhobo Masks and Sculpture,Sub-Saharan Africa,1800,2026,override
 D4-41,Yaka and Suku Masks,Sub-Saharan Africa,1800,2026,override
+D4-42,Nyau Masks,Sub-Saharan Africa,1800,2026,override
 D5-1,Gandharan Art,Central Asia & Silk Road,-100,500,rule
 D5-2,Art of Mathura,South Asia,-200,1200,rule
 D5-3,Amaravati Art,South Asia,,,rule
@@ -575,6 +577,7 @@ D5-145,Austral Islands Carving,Oceania (Pacific),1700,1850,override
 D5-146,Huastec Sculpture,Mesoamerica & Caribbean,900,1521,rule
 D5-147,Okunev Stelae,Central Asia & Silk Road,-2500,-1800,override
 D5-148,Cameroon Grassfields Sculpture,Sub-Saharan Africa,1800,2026,override
+D5-149,Vigango,Sub-Saharan Africa,1800,2026,override
 D6-1,Kaavad,South Asia,,,rule
 D6-2,Minkisi,Sub-Saharan Africa,1800,1900,objects
 D6-3,Fang Reliquary Guardians,Sub-Saharan Africa,,,rule
