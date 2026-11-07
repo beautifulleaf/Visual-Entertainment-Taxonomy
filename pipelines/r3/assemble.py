@@ -239,12 +239,13 @@ def apply_startlist(subs, rows, report):
     if not os.path.exists(os.path.join(O, "decided.csv")): return
     leafobj = {l["code"]: l for s in subs.values() for l in s["leaves"]}
     placed = {k[5] for rs in rows.values() for k in rs}
-    info = {}
-    for f in glob.glob(os.path.join(O, "in_*.csv")) + [os.path.join(O, "decided.csv")]:
-        for r in csv.DictReader(open(f)): info[r["id"]] = r
+    info = collections.defaultdict(list)  # per batch: id -> input rows (a few id-less films share an id)
+    for f in glob.glob(os.path.join(O, "in_*.csv")):
+        for r in csv.DictReader(open(f)): info[(os.path.basename(f)[3:-4], r["id"])].append(r)
     st = collections.Counter(); outs = []
     def add(r, leaf, sec, note):
-        if r["id"] in placed: st["dup"] += 1; return
+        key = r["id"] if r["id"].startswith("tt") else (r["id"], r["title"], r["who"])
+        if key in placed or (r["id"].startswith("tt") and r["id"] in placed): st["dup"] += 1; return
         L = leafobj[leaf]; sec = (sec or "").strip()
         if sec.startswith("new:"):
             lab = sec[4:].strip(); L.setdefault("secs", [])
@@ -254,7 +255,7 @@ def apply_startlist(subs, rows, report):
         country = (r.get("country") or "")
         rows[leaf].append([r["title"], r["year"], r["who"], "", (note or "").strip(), r["id"] if r["id"].startswith("tt") else "",
                            "", kind, sec if (L.get("secs") and sec) else "", country])
-        placed.add(r["id"]); st["placed"] += 1
+        placed.add(key); st["placed"] += 1
     for r in csv.DictReader(open(os.path.join(O, "decided.csv"))):
         if r["leaf"] in leafobj: add(r, r["leaf"], "", "")
     for f in sorted(glob.glob(os.path.join(O, "out_*.csv"))):
@@ -268,11 +269,11 @@ def apply_startlist(subs, rows, report):
                      see=nl.get("see", ""), src=nl.get("src", []), weak="", secs=list(nl.get("secs") or []), axis=nl.get("axis", ""))
             sub["leaves"].append(L); leafobj[code] = L; key2code[nl["key"]] = code; st["new_leaf"] += 1
         for a in csv.DictReader(open(f)):
-            r = info.get(a["id"]); lf = key2code.get(a["leaf"].strip(), a["leaf"].strip())
-            if not r: continue
-            if lf == "out": outs.append([r["title"], a.get("note", "")]); st["out"] += 1; continue
-            if lf in leafobj: add(r, lf, a.get("sec", ""), a.get("note", ""))
-            else: st["bad_leaf"] += 1
+            lf = key2code.get(a["leaf"].strip(), a["leaf"].strip())
+            for r in info.get((b, a["id"]), []):
+                if lf == "out": outs.append([r["title"], a.get("note", "")]); st["out"] += 1; continue
+                if lf in leafobj: add(r, lf, a.get("sec", ""), a.get("note", ""))
+                else: st["bad_leaf"] += 1
     report["startlist"] = dict(st); report["startlist_out"] = outs[:200]
 
 
