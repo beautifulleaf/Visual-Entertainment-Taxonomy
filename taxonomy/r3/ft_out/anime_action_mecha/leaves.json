@@ -502,7 +502,7 @@
      "code": "C2-6",
      "label": "Space Opera Anime",
      "breadth": "broad",
-     "defn": "Science fiction set among starships and planets, whose scale is interstellar war, piracy or roaming adventure (<i>Ginga Eiyuu Densetsu</i>, <i>Uchuu Senkan Yamato</i>, <i>Cowboy Bebop</i>, <i>Uchuu Kaizoku Captain Herlock</i>). Space mecha go to C2-1/C2-2.",
+     "defn": "Science fiction set among starships and planets, whose scale is interstellar war, piracy or roaming adventure (<i>Ginga Eiyuu Densetsu</i>, <i>Uchuu Senkan Yamato</i>, <i>Cowboy Bebop</i>, <i>Uchuu Kaizoku Captain Herlock</i>). Space mecha go to C2-1/C2-2. Grounded spaceflight drama (<i>Planetes</i>, <i>Ouritsu Uchuugun: Honneamise no Tsubasa</i>) sits in the last section.",
      "aliases": "uchū SF",
      "see": "C2-2 Real Robot; C2-7 Military Science Fiction Anime",
      "src": [
@@ -513,14 +513,18 @@
       [
        "https://en.wikipedia.org/wiki/Space_Western",
        "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Hard_science_fiction",
+       "Wikipedia"
       ]
      ],
-     "axis": "by the voyage: galactic war epics first, then space pirates and wanderers, space westerns and bounty hunters, space adventure and survival",
+     "axis": "by the voyage: galactic war epics first, then space pirates and wanderers, space westerns and bounty hunters, adventure, survival and grounded spaceflight last",
      "secs": [
       "Galactic War Epics",
       "Space Pirates & Wanderers",
       "Space Westerns & Bounty Hunters",
-      "Space Adventure & Survival"
+      "Space Adventure, Survival & Spaceflight"
      ]
     },
     {
@@ -671,20 +675,6 @@
     },
     {
      "code": "C2-15",
-     "label": "Hard Science Fiction Anime",
-     "breadth": "narrow",
-     "defn": "Science fiction grounded in plausible physics and engineering, usually of spaceflight and work in orbit (<i>Planetes</i>, <i>Ouritsu Uchuugun: Honneamise no Tsubasa</i>, <i>Chikyuugai Shounen Shoujo</i>).",
-     "aliases": "",
-     "see": "C2-6 Space Opera Anime",
-     "src": [
-      [
-       "https://en.wikipedia.org/wiki/Hard_science_fiction",
-       "Wikipedia"
-      ]
-     ]
-    },
-    {
-     "code": "C2-16",
      "label": "Steampunk Anime",
      "breadth": "narrow",
      "defn": "Science fiction of an alternate steam-age technology, airships and clockwork (<i>Steamboy</i>, <i>Fushigi no Umi no Nadia</i>, <i>Sakura Taisen</i>, <i>Clockwork Planet</i>).",
@@ -698,7 +688,7 @@
      ]
     },
     {
-     "code": "C2-17",
+     "code": "C2-16",
      "label": "Science Fiction Anthology Film",
      "breadth": "narrow",
      "defn": "An omnibus of short SF films by several directors under one title (<i>Memories</i>, <i>Robot Carnival</i>, <i>Manie-Manie: Meikyuu Monogatari</i>, <i>Genius Party</i>).",
