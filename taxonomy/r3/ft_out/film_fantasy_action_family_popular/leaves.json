@@ -1,0 +1,1241 @@
+{
+ "subs": [
+  {
+   "code": "A6",
+   "label": "Fantasy & Adventure",
+   "axis": "Axis: by the source of the wonder or the quest: invented and magical worlds first, then myth and fairy tale, then the superhero franchises, then terrestrial adventure from the swashbuckler to the expedition.",
+   "leaves": [
+    {
+     "label": "High Fantasy",
+     "breadth": "medium",
+     "defn": "A feature set wholly in an invented secondary world with its own peoples, history and magic, built around an epic quest or war (<i>The Lord of the Rings: The Fellowship of the Ring</i>, <i>Willow</i>, <i>The Dark Crystal</i>, <i>Wicked</i>). A pulp-barbarian hero of muscle and steel goes to A6-2; a child who crosses into the world from ours goes to A6-4.",
+     "aliases": "epic fantasy",
+     "see": "A6-2 Sword and Sorcery; A6-4 Portal Fantasy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/High_fantasy",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A6-1"
+    },
+    {
+     "label": "Sword and Sorcery",
+     "breadth": "narrow",
+     "defn": "A fantasy adventure of a lone warrior or mercenary band fighting sorcerers and monsters in a barbaric pre-modern world, with personal rather than world-saving stakes (<i>Conan the Barbarian</i>, <i>The Beastmaster</i>, <i>Deathstalker</i>, <i>Red Sonja</i>). An epic secondary-world war goes to A6-1.",
+     "aliases": "heroic fantasy; barbarian film",
+     "see": "A6-1 High Fantasy; A6-3 Arthurian Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Sword_and_sorcery",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A6-2"
+    },
+    {
+     "label": "Arthurian Film",
+     "breadth": "narrow",
+     "defn": "A film retelling the Matter of Britain: King Arthur, the Round Table, Camelot, the Grail or its knights, in any register from epic to parody (<i>Excalibur</i>, <i>Perceval le Gallois</i>, <i>The Green Knight</i>, <i>Kaamelott: First Installment</i>). Robin Hood and other outlaw legends go to A6-18.",
+     "aliases": "Matter of Britain film",
+     "see": "A6-1 High Fantasy; A6-18 Swashbuckler; A8 Historical & Period Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Matter_of_Britain",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/List_of_works_based_on_Arthurian_legends",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A6-3"
+    },
+    {
+     "label": "Portal Fantasy",
+     "breadth": "medium",
+     "defn": "A fantasy in which a protagonist from our world crosses through a door, book, dream, game or screen into another realm and must find the way back (<i>The Wizard of Oz</i>, <i>Labyrinth</i>, <i>The Chronicles of Narnia: The Lion, the Witch and the Wardrobe</i>, <i>Pleasantville</i>). A film set wholly in the other world goes to A6-1.",
+     "aliases": "portal-quest fantasy; crossover fantasy",
+     "see": "A6-1 High Fantasy; A17-1 Children's Fantasy Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Portal_fantasy",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A6-4"
+    },
+    {
+     "label": "Dark Fantasy",
+     "breadth": "medium",
+     "defn": "A fantasy whose wonders are menacing and whose tone is grim, cruel or uncanny, without being built to frighten in the manner of horror (<i>Pan's Labyrinth</i>, <i>The City of Lost Children</i>, <i>Tideland</i>, <i>Border</i>). A dark retelling of a named fairy tale goes to A6-12; a film built for fear goes to A4.",
+     "aliases": "",
+     "see": "A6-12 Fairy-Tale Film; A4 Horror",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Dark_fantasy",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A6-5"
+    },
+    {
+     "label": "Contemporary Fantasy",
+     "breadth": "narrow",
+     "defn": "A fantasy in which a hidden society of wizards, demigods or magical beings exists alongside the modern world and a young hero is initiated into it, usually through a school or secret order (<i>Harry Potter and the Sorcerer's Stone</i>, <i>Fantastic Beasts and Where to Find Them</i>, <i>Percy Jackson &amp; the Olympians: The Lightning Thief</i>, <i>Miss Peregrine's Home for Peculiar Children</i>). Adult supernatural action in a modern city goes to A6-7.",
+     "aliases": "wizarding fantasy; low fantasy",
+     "see": "A6-7 Urban Fantasy; A17-1 Children's Fantasy Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Contemporary_fantasy",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Wizarding_World",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A6-6"
+    },
+    {
+     "label": "Urban Fantasy",
+     "breadth": "medium",
+     "defn": "A fantasy action film in which vampires, immortals, demons, witches or sorcerers wage hidden wars in a present-day city (<i>Night Watch</i>, <i>Highlander</i>, <i>Big Trouble in Little China</i>, <i>Bright</i>). A youth-initiation story of a hidden wizarding school goes to A6-6; a film built to frighten goes to A4.",
+     "aliases": "supernatural action",
+     "see": "A6-6 Contemporary Fantasy; A4 Horror; B9 Speculative Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Urban_fantasy",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A6-7"
+    },
+    {
+     "label": "Romantic Fantasy",
+     "breadth": "narrow",
+     "defn": "A fantasy whose central engine is a love story across a supernatural barrier: immortality, a curse, an angel, a djinn or an enchanted village (<i>Ladyhawke</i>, <i>Brigadoon</i>, <i>Winter's Tale</i>, <i>Three Thousand Years of Longing</i>). A fairy-tale romance retold from a named tale goes to A6-12; a romance with only a light magical device goes to A13.",
+     "aliases": "fantasy romance; paranormal romance",
+     "see": "A6-12 Fairy-Tale Film; A13 Romance",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Romantic_fantasy",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A6-8"
+    },
+    {
+     "label": "Fantasy Comedy",
+     "breadth": "medium",
+     "defn": "A comedy whose engine is a single magical premise dropped into ordinary life: a body swap, a ghost, a genie, a witch or an enchanted object (<i>Big</i>, <i>Heaven Can Wait</i>, <i>The Witches of Eastwick</i>, <i>Night at the Museum: Battle of the Smithsonian</i>). Magic told with deadpan seriousness goes to A6-10; a comedy aimed chiefly at children goes to A17-1.",
+     "aliases": "comic fantasy",
+     "see": "A6-10 Magical Realism; A12 Comedy; A17-1 Children's Fantasy Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Fantasy_comedy",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the magical device: body swap and age change, ghost and afterlife, angels, devils and genies, witches, then enchanted objects, creatures and tall tales",
+     "secs": [
+      "Body-Swap & Age-Change Comedy",
+      "Ghost & Afterlife Comedy",
+      "Angels, Devils & Genies",
+      "Witch Comedy",
+      "Enchanted Object, Creature & Tall-Tale Comedy"
+     ],
+     "code": "A6-9"
+    },
+    {
+     "label": "Magical Realism",
+     "breadth": "medium",
+     "defn": "A film that treats the marvellous as an unremarked part of an otherwise realistic world, or stages the afterlife and heavenly messengers with the same matter-of-factness (<i>Dona Flor and Her Two Husbands</i>, <i>Big Fish</i>, <i>Wings of Desire</i>, <i>After Life</i>). A comedy built on a magic gimmick goes to A6-9.",
+     "aliases": "magic realism; realismo mágico",
+     "see": "A6-9 Fantasy Comedy; A16 Drama; A20 Experimental & Avant-Garde",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Magic_realism",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by where the marvellous enters: the everyday world first, then the afterlife and angels",
+     "secs": [
+      "Marvellous in the Everyday",
+      "Afterlife & Heavenly Messengers"
+     ],
+     "code": "A6-10"
+    },
+    {
+     "label": "Mythological Fantasy",
+     "breadth": "broad",
+     "defn": "A fantasy that dramatises a named mythology, epic, religious cosmology or folk legend, with gods, demigods, demons and heroes of that tradition (<i>Jason and the Argonauts</i>, <i>Journey to the West: Conquering the Demons</i>, <i>Yeelen</i>, <i>The Seventh Seal</i>). A fairy tale goes to A6-12; a historical epic without gods goes to A8.",
+     "aliases": "myth film; mythological film",
+     "see": "A6-12 Fairy-Tale Film; A8 Historical & Period Film; A18-4 Pan-Indian Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Mythic_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Sword-and-sandal",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Hindu_mythological_films",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by mythic tradition: classical and peplum myth first, then Indian and East Asian myth, folk legend from elsewhere, and last heaven, hell and the devil",
+     "secs": [
+      "Classical Myth & Peplum Fantasy",
+      "Indian & East Asian Mythological Fantasy (shenmo, puranic)",
+      "Folk Legend & World Mythology",
+      "Heaven, Hell & the Devil"
+     ],
+     "code": "A6-11"
+    },
+    {
+     "label": "Fairy-Tale Film",
+     "breadth": "broad",
+     "defn": "A film that adapts, retells or parodies a named fairy tale or literary tale (Grimm, Perrault, Andersen, Arabian Nights, Collodi) or invents one in its form (<i>Beauty and the Beast</i> 1946, <i>The Singing Ringing Tree</i>, <i>Snow White and the Huntsman</i>, <i>The Princess Bride</i>). A myth or epic goes to A6-11.",
+     "aliases": "Märchenfilm; pohádka; skazka",
+     "see": "A6-11 Mythological Fantasy; A17-1 Children's Fantasy Film; C12 Animated Feature",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Fairy_tale",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/DEFA",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Fairy_tale_parody",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by treatment of the tale: European studio fairy-tale films first, then auteur and poetic versions, Hollywood live-action versions and remakes, revisionist and dark retellings, and last romances and parodies",
+     "secs": [
+      "European Fairy-Tale Film (Märchenfilm & pohádka)",
+      "Auteur & Poetic Fairy Tales",
+      "Hollywood Live-Action Fairy Tales & Remakes",
+      "Revisionist & Dark Retellings",
+      "Fairy-Tale Romance & Parody"
+     ],
+     "code": "A6-12"
+    },
+    {
+     "label": "Marvel Cinematic Universe",
+     "breadth": "narrow",
+     "defn": "A feature produced by Marvel Studios as part of its shared continuity of Marvel Comics heroes (<i>Iron Man</i>, <i>The Avengers</i>, <i>Black Panther</i>, <i>Thunderbolts*</i>). Marvel characters filmed by other studios outside that continuity go to A6-15.",
+     "aliases": "MCU",
+     "see": "A6-15 Marvel Comics Film outside the MCU; B9 Speculative Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by saga of the shared continuity: the Infinity Saga, then the Multiverse Saga",
+     "secs": [
+      "The Infinity Saga (Phases One–Three)",
+      "The Multiverse Saga (Phases Four–Six)"
+     ],
+     "code": "A6-13"
+    },
+    {
+     "label": "DC Comics Film",
+     "breadth": "narrow",
+     "defn": "A live-action feature adapting DC Comics characters, in any of the studio's successive continuities (<i>Superman</i> 1978, <i>Batman</i> 1989, <i>The Dark Knight</i>, <i>Wonder Woman</i>). Deconstructions such as <i>Watchmen</i> go to A6-17.",
+     "aliases": "DCEU; DCU",
+     "see": "A6-13 Marvel Cinematic Universe; A6-17 Superhero Parody & Deconstruction",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/List_of_films_based_on_DC_Comics_publications",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/DC_Extended_Universe",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/DC_Universe_(franchise)",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by continuity: the Superman series, the Batman series, the DC Extended Universe, then other DC adaptations and the DC Universe",
+     "secs": [
+      "Superman Film Series",
+      "Batman Film Series",
+      "DC Extended Universe",
+      "Other DC Adaptations & the DC Universe"
+     ],
+     "code": "A6-14"
+    },
+    {
+     "label": "Marvel Comics Film outside the MCU",
+     "breadth": "narrow",
+     "defn": "A live-action feature adapting Marvel Comics characters made by a licensee studio outside the Marvel Studios continuity (<i>X-Men</i>, <i>Spider-Man</i> 2002, <i>Blade</i>, <i>Venom</i>). A Marvel Studios feature goes to A6-13.",
+     "aliases": "Fox Marvel films; Sony's Spider-Man Universe",
+     "see": "A6-13 Marvel Cinematic Universe",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/List_of_films_based_on_Marvel_Comics_publications",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/X-Men_(film_series)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Sony%27s_Spider-Man_Universe",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by licensed franchise: X-Men, Spider-Man and its Sony spin-offs, then other licensed Marvel films",
+     "secs": [
+      "X-Men Film Series",
+      "Spider-Man & Sony's Spider-Man Universe",
+      "Other Licensed Marvel Films"
+     ],
+     "code": "A6-15"
+    },
+    {
+     "label": "Standalone Superhero Film",
+     "breadth": "broad",
+     "defn": "A superhero film outside the Marvel and DC franchises: a pulp or comic-strip avenger, an independent-comics or manga hero, a hero created for the screen, or a national industry's own superhero (<i>The Rocketeer</i>, <i>Hellboy</i>, <i>Darkman</i>, <i>Krrish</i>). Parody and deconstruction go to A6-17.",
+     "aliases": "",
+     "see": "A6-17 Superhero Parody & Deconstruction; A5 Science Fiction",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Superhero_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Superhero_fiction",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the hero's origin: pulp and comic-strip heroes first, then independent-comics and manga adaptations, screen-original heroes, children's superhero comedies, and superhero cinema outside Hollywood",
+     "secs": [
+      "Pulp & Comic-Strip Heroes",
+      "Independent-Comics & Manga Adaptations",
+      "Screen-Original Superheroes",
+      "Children's Superhero Comedy",
+      "Superhero Cinema outside Hollywood"
+     ],
+     "code": "A6-16"
+    },
+    {
+     "label": "Superhero Parody & Deconstruction",
+     "breadth": "narrow",
+     "defn": "A film that mocks the superhero form or takes its premise apart: what powers, costumes and vigilantism would really mean (<i>Watchmen</i>, <i>Kick-Ass</i>, <i>Unbreakable</i>, <i>Mystery Men</i>). A straight franchise entry with jokes goes to its franchise leaf.",
+     "aliases": "superhero satire; revisionist superhero",
+     "see": "A6-14 DC Comics Film; A6-16 Standalone Superhero Film; A12 Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Superhero_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Parody_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Eastrail_177_Trilogy",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A6-17"
+    },
+    {
+     "label": "Swashbuckler",
+     "breadth": "medium",
+     "defn": "A costume adventure of sword-fighting heroes, outlaws and avengers in a pre-modern Europe or its colonies, built on duels, rescues and daring escapes (<i>The Adventures of Robin Hood</i>, <i>The Mark of Zorro</i>, <i>The Three Musketeers</i> 1973, <i>Scaramouche</i>). Sea-rovers go to A6-19.",
+     "aliases": "cape-and-sword film; cloak and sword; film de cape et d'épée",
+     "see": "A6-19 Pirate Film; A8 Historical & Period Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Swashbuckler",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Cloak_and_dagger",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/The_Three_Musketeers_in_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Robin_Hood_in_popular_culture",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A6-18"
+    },
+    {
+     "label": "Pirate Film",
+     "breadth": "narrow",
+     "defn": "An adventure of pirates, buccaneers or smugglers at sea or on their islands, often with buried treasure (<i>Captain Blood</i>, <i>Treasure Island</i> 1950, <i>Cutthroat Island</i>, <i>Pirates of the Caribbean: The Curse of the Black Pearl</i>). Land-bound duellists go to A6-18.",
+     "aliases": "buccaneer film",
+     "see": "A6-18 Swashbuckler; A6-23 Nautical Adventure",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Pirate_film",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A6-19"
+    },
+    {
+     "label": "Treasure-Hunt Adventure",
+     "breadth": "medium",
+     "defn": "A pulp adventure in which an archaeologist, prospector or rogue follows clues, maps and traps to a lost artefact or hoard (<i>Raiders of the Lost Ark</i>, <i>Romancing the Stone</i>, <i>National Treasure</i>, <i>The Mummy</i> 1999). A whole hidden world of survivals goes to A6-21; a video-game hero such as Lara Croft goes to A7-16.",
+     "aliases": "archaeological adventure; pulp adventure",
+     "see": "A6-21 Lost World; A6-22 Jungle Adventure; A7-16 Video Game Adaptation",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Adventure_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Treasure_hunting",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A6-20"
+    },
+    {
+     "label": "Lost World",
+     "breadth": "narrow",
+     "defn": "An adventure in which explorers find a hidden land where prehistoric creatures, vanished peoples or a utopia survive (<i>Journey to the Center of the Earth</i> 1959, <i>Lost Horizon</i>, <i>Congo</i>, <i>Baby: Secret of the Lost Legend</i>). An artefact hunt goes to A6-20.",
+     "aliases": "lost-race film",
+     "see": "A6-20 Treasure-Hunt Adventure; A5 Science Fiction",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Lost_world",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A6-21"
+    },
+    {
+     "label": "Jungle Adventure",
+     "breadth": "medium",
+     "defn": "An adventure set in jungle, savannah or colonial frontier, built on the hero's survival among wild animals, rivers and peoples, including Tarzan, Mowgli and the imperial adventure of the British Empire film (<i>Tarzan and His Mate</i>, <i>Gunga Din</i>, <i>The African Queen</i>, <i>Jungle Cruise</i>). A hunt for a single artefact goes to A6-20.",
+     "aliases": "jungle film; safari film; imperial adventure film; Empire film",
+     "see": "A6-20 Treasure-Hunt Adventure; A6-21 Lost World",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Tarzan_in_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Adventure_film",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A6-22"
+    },
+    {
+     "label": "Nautical Adventure",
+     "breadth": "narrow",
+     "defn": "An adventure at sea or on a desert island in which the ocean, a whale, a raft or a wreck is the antagonist, including the Robinsonade (<i>Moby Dick</i>, <i>Kon-Tiki</i>, <i>Life of Pi</i>, <i>Swiss Family Robinson</i>). Pirates go to A6-19; naval combat goes to A9.",
+     "aliases": "sea story; castaway film; Robinsonade",
+     "see": "A6-19 Pirate Film; A9 War Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Nautical_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Robinsonade",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A6-23"
+    },
+    {
+     "label": "Prehistoric Fiction",
+     "breadth": "narrow",
+     "defn": "An adventure set among early humans in the Stone Age, built on the struggle for fire, food and survival (<i>Quest for Fire</i>, <i>10,000 BC</i>, <i>Alpha</i>).",
+     "aliases": "caveman film",
+     "see": "A6-21 Lost World; A6-11 Mythological Fantasy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Prehistoric_fiction",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A6-24"
+    },
+    {
+     "label": "Expedition Adventure",
+     "breadth": "narrow",
+     "defn": "An adventure of a journey or expedition against distance and nature, by balloon, plane, horse or on foot, in the tradition of the voyages extraordinaires (<i>Around the World in 80 Days</i> 1956, <i>The Aeronauts</i>, <i>Hidalgo</i>, <i>Letter Never Sent</i>). A voyage at sea goes to A6-23.",
+     "aliases": "voyage extraordinaire; journey film",
+     "see": "A6-23 Nautical Adventure; A16 Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Voyages_extraordinaires",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Survival_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Mountain_film",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A6-25"
+    }
+   ]
+  },
+  {
+   "code": "A7",
+   "label": "Action & Martial Arts",
+   "axis": "Axis: by the action engine: Hollywood action scenarios first, then the gun and assassin cycles, then the martial-arts traditions (Hong Kong and Chinese first), then the buddy cop, adaptation and exploitation hybrids.",
+   "leaves": [
+    {
+     "label": "Action-Hero Film",
+     "breadth": "medium",
+     "defn": "An action film built around a single indestructible hero who takes on an army, a gang or a town alone, from silent stunt serials to the muscle cinema of the 1980s and its ensemble revivals (<i>Commando</i>, <i>Rambo: First Blood Part II</i>, <i>Road House</i>, <i>The Expendables</i>). A hero trapped in one besieged place goes to A7-2; a revenge mission goes to A7-3.",
+     "aliases": "one-man army film; muscle cinema",
+     "see": "A7-2 Die Hard Scenario; A7-3 Vigilante Film; A7-4 Military Action Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Action_hero",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Action_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the hero's situation: silent stunt and serial action, one-man army, fugitive and drifter heroes, then ensemble and legacy action",
+     "secs": [
+      "Silent Stunt & Serial Action",
+      "One-Man Army",
+      "Fugitive, Drifter & Street-Level Action",
+      "Ensemble & Legacy Action"
+     ],
+     "code": "A7-1"
+    },
+    {
+     "label": "Die Hard Scenario",
+     "breadth": "medium",
+     "defn": "An action thriller in which a lone hero is trapped in one sealed location (a tower, plane, ship, train, school or White House) taken by terrorists or criminals (<i>Die Hard</i>, <i>Speed</i>, <i>Under Siege</i>, <i>Olympus Has Fallen</i>). A hero who roams freely goes to A7-1; a pure hostage-negotiation thriller goes to A3.",
+     "aliases": "Die Hard on a…; siege action",
+     "see": "A7-1 Action-Hero Film; A3 Thriller & Mystery",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Die_Hard",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Action_thriller",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A7-2"
+    },
+    {
+     "label": "Vigilante Film",
+     "breadth": "medium",
+     "defn": "An action film in which a wronged individual takes the law into their own hands to punish criminals or rescue a kidnapped relative (<i>Taken</i>, <i>The Equalizer</i>, <i>Nobody</i>, <i>The Man from Nowhere</i>). A professional killer for hire goes to A7-6.",
+     "aliases": "revenge action; rescue thriller",
+     "see": "A7-6 Hitman Film; A2 Crime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Vigilante_film",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A7-3"
+    },
+    {
+     "label": "Military Action Film",
+     "breadth": "medium",
+     "defn": "An action film of special forces, commandos, fighter pilots or tactical units on missions, rescues and counter-terror strikes outside a declared war narrative (<i>Missing in Action</i>, <i>Top Gun</i>, <i>Extraction</i>, <i>Kandahar</i>). A film about a historical war goes to A9.",
+     "aliases": "commando film; special-forces film",
+     "see": "A9 War Film; A7-1 Action-Hero Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Military_action",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Action_film",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A7-4"
+    },
+    {
+     "label": "Car Chase Film",
+     "breadth": "narrow",
+     "defn": "An action film whose set pieces are vehicle chases, street races, getaways and stunt driving (<i>The Fast and the Furious</i>, <i>The Transporter</i>, <i>Wheelman</i>, <i>Premium Rush</i>). A heist plot without the driving goes to A2.",
+     "aliases": "street-racing film; car-chase film",
+     "see": "A2 Crime; A7-1 Action-Hero Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Car_chase",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Street_racing",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A7-5"
+    },
+    {
+     "label": "Hitman Film",
+     "breadth": "medium",
+     "defn": "An action film centred on a professional contract killer or assassin, the job, the code and the double-cross (<i>Léon: The Professional</i>, <i>The Mechanic</i>, <i>Assassins</i>, <i>Polar</i>). A woman assassin film in the girls-with-guns mould goes to A7-7; a stylised gun-ballet killer goes to A7-8.",
+     "aliases": "contract-killer film; assassin film",
+     "see": "A7-7 Girls with Guns; A7-8 Gun Fu; A2 Crime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Contract_killing",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Hitman",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A7-6"
+    },
+    {
+     "label": "Girls with Guns",
+     "breadth": "narrow",
+     "defn": "An action film whose fighting hero is a woman or girl (assassin, cop, avenger or princess), the cycle named in Hong Kong and global since (<i>Yes, Madam!</i>, <i>La Femme Nikita</i>, <i>The Villainess</i>, <i>Kill Boksoon</i>). A male professional killer goes to A7-6.",
+     "aliases": "female action hero film",
+     "see": "A7-6 Hitman Film; A7-10 Hong Kong Action Cinema",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Girls_with_guns",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A7-7"
+    },
+    {
+     "label": "Gun Fu",
+     "breadth": "narrow",
+     "defn": "An action film whose gunfights are choreographed like martial arts: close-quarter shooting, acrobatics and a fight ballet (<i>John Wick</i>, <i>Desperado</i>, <i>Shoot 'Em Up</i>, <i>Crank</i>). The Hong Kong source tradition goes to A7-9.",
+     "aliases": "bullet ballet",
+     "see": "A7-9 Heroic Bloodshed; A7-6 Hitman Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Gun_fu",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A7-8"
+    },
+    {
+     "label": "Heroic Bloodshed",
+     "breadth": "narrow",
+     "defn": "The Hong Kong gangster-action cycle of brotherhood, loyalty and operatic gunplay launched by John Woo, and its direct successors (<i>A Better Tomorrow</i>, <i>The Killer</i>, <i>Hard Boiled</i>, <i>Exiled</i>). Its stylised global offspring go to A7-8.",
+     "aliases": "",
+     "see": "A7-8 Gun Fu; A7-10 Hong Kong Action Cinema",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Heroic_bloodshed",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A7-9"
+    },
+    {
+     "label": "Hong Kong Action Cinema",
+     "breadth": "narrow",
+     "defn": "A modern-dress Hong Kong action film of stunt-driven police, adventure and crime set pieces (<i>Police Story</i>, <i>Project A</i>, <i>Wheels on Meals</i>, <i>Twilight of the Warriors: Walled In</i>). Period kung fu goes to A7-11; swordplay to A7-12; gangster gunplay to A7-9.",
+     "aliases": "",
+     "see": "A7-9 Heroic Bloodshed; A7-11 Kung Fu Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Hong_Kong_action_cinema",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A7-10"
+    },
+    {
+     "label": "Kung Fu Film",
+     "breadth": "medium",
+     "defn": "A martial arts film of Chinese unarmed and weapon styles, usually set in the late imperial or Republican past, built on training, schools and revenge (<i>Enter the Dragon</i>, <i>The 36th Chamber of Shaolin</i>, <i>Drunken Master</i>, <i>Ip Man</i>). Swordsmen of the jianghu go to A7-12.",
+     "aliases": "gongfu pian; chop-socky",
+     "see": "A7-12 Wuxia; A7-10 Hong Kong Action Cinema",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Kung_fu_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by cycle: Bruce Lee films, Shaw Brothers and Shaolin films, kung fu comedy, then folk-hero kung fu (Wong Fei-hung, Huo Yuanjia, Ip Man)",
+     "secs": [
+      "Bruce Lee Films",
+      "Shaw Brothers & Shaolin Films",
+      "Kung Fu Comedy",
+      "Folk-Hero Kung Fu (Wong Fei-hung, Ip Man)"
+     ],
+     "code": "A7-11"
+    },
+    {
+     "label": "Wuxia",
+     "breadth": "narrow",
+     "defn": "A Chinese martial-chivalry film of wandering swordsmen and swordswomen in the jianghu underworld, with lightness-skill and codes of honour (<i>Come Drink with Me</i>, <i>A Touch of Zen</i>, <i>Crouching Tiger, Hidden Dragon</i>, <i>Hero</i>). Hand-to-hand kung fu goes to A7-11.",
+     "aliases": "wuxia pian; martial chivalry",
+     "see": "A7-11 Kung Fu Film; B4 Chinese-Language Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Wuxia_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Wuxia",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A7-12"
+    },
+    {
+     "label": "Martial Arts Film",
+     "breadth": "medium",
+     "defn": "A martial arts film of Japanese, Korean, Southeast Asian or Western fighting styles (judo, karate, kickboxing, muay thai, silat) built on training, tournaments and hand-to-hand set pieces (<i>The Karate Kid</i>, <i>Bloodsport</i>, <i>Ong-Bak: The Thai Warrior</i>, <i>The Raid: Redemption</i>). Chinese kung fu goes to A7-11; ninjas to A7-14.",
+     "aliases": "",
+     "see": "A7-11 Kung Fu Film; A7-14 Ninja Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Martial_arts_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Muay_Thai",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Pencak_silat",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by fighting tradition: Japanese budō, the karate-dojo film, tournament and fight-circuit films, martial-arts star vehicles, Thai, Indonesian, then other Asian martial arts cinema",
+     "secs": [
+      "Japanese Budō Film",
+      "Karate Kid & Dojo Film",
+      "Tournament & Fight-Circuit Film",
+      "Martial-Arts Star Vehicles",
+      "Muay Thai & Thai Action",
+      "Silat & Indonesian Action",
+      "Other Asian Martial Arts Cinema"
+     ],
+     "code": "A7-13"
+    },
+    {
+     "label": "Ninja Film",
+     "breadth": "narrow",
+     "defn": "A martial arts film whose fighters are ninja, from the 1980s ninja boom to its revivals (<i>Ninja III: The Domination</i>, <i>American Ninja</i>, <i>Ninja Assassin</i>, <i>Snake Eyes</i>).",
+     "aliases": "ninja boom",
+     "see": "A7-13 Martial Arts Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Ninja_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Ninja_in_popular_culture",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A7-14"
+    },
+    {
+     "label": "Buddy Cop Film",
+     "breadth": "medium",
+     "defn": "An action film or action comedy built on two mismatched police partners (or a cop and an unlikely partner) forced to work a case together (<i>48 Hrs.</i>, <i>Lethal Weapon</i>, <i>Rush Hour</i>, <i>Hot Fuzz</i>). A comedy without police work goes to A12.",
+     "aliases": "buddy cop; cop buddy film",
+     "see": "A12 Comedy; A2 Crime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Buddy_cop_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by register: straight mismatched-partner action, comedy and spoof, then buddy-cop films beyond Hollywood",
+     "secs": [
+      "Mismatched-Partner Action",
+      "Buddy-Cop Comedy & Spoof",
+      "Buddy-Cop Film beyond Hollywood"
+     ],
+     "code": "A7-15"
+    },
+    {
+     "label": "Video Game Adaptation",
+     "breadth": "medium",
+     "defn": "A live-action feature adapted from a video game franchise, whatever its genre (<i>Mortal Kombat</i>, <i>Lara Croft: Tomb Raider</i>, <i>Warcraft</i>, <i>A Minecraft Movie</i>). A film merely set inside a game goes to its genre.",
+     "aliases": "video game film",
+     "see": "A6-1 High Fantasy; A6-20 Treasure-Hunt Adventure; A17 Children's & Family Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Video_game_adaptation",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/List_of_films_based_on_video_games",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A7-16"
+    },
+    {
+     "label": "Exploitation Action Film",
+     "breadth": "narrow",
+     "defn": "A low-budget action film sold on excess (gore, nudity, absurd stunts), from grindhouse and direct-to-video cult items to deliberate grindhouse homages (<i>Samurai Cop</i>, <i>Hard Ticket to Hawaii</i>, <i>Riki-Oh: The Story of Ricky</i>, <i>Hobo with a Shotgun</i>).",
+     "aliases": "grindhouse action; action B movie",
+     "see": "A7-3 Vigilante Film; A18-9 Wakaliwood",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Exploitation_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/B_movie",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A7-17"
+    }
+   ]
+  },
+  {
+   "code": "A17",
+   "label": "Children's & Family Film",
+   "axis": "Axis: by the family-film engine: fantasy and animals first, then children's adventure, drama and comedy, then the teen television film, then the Christmas film by mode.",
+   "leaves": [
+    {
+     "label": "Children's Fantasy Film",
+     "breadth": "medium",
+     "defn": "A fantasy made first for children, in which magic, a magical nanny, a creature friend or a spooky night enters a child's world (<i>Mary Poppins</i>, <i>Willy Wonka &amp; the Chocolate Factory</i>, <i>Pete's Dragon</i>, <i>The Witches</i>). A wizarding-school saga goes to A6-6; a Disney Channel television film to A17-6.",
+     "aliases": "family fantasy",
+     "see": "A6-4 Portal Fantasy; A6-6 Contemporary Fantasy; A17-6 Disney Channel Original Movie",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Children%27s_fantasy",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Children%27s_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the magic's form: musical and magical-nanny fantasy, storybook adaptations, creature and magic-friend fantasy, then Halloween and spooky fantasy",
+     "secs": [
+      "Musical & Magical-Nanny Fantasy",
+      "Storybook & Roald Dahl Adaptations",
+      "Creature & Magic-Friend Fantasy",
+      "Halloween & Spooky Family Fantasy"
+     ],
+     "code": "A17-1"
+    },
+    {
+     "label": "Animal Adventure Film",
+     "breadth": "medium",
+     "defn": "A family film whose hero is an animal: a dog, horse, whale or talking creature, live or computer-generated (<i>Homeward Bound: The Incredible Journey</i>, <i>Babe</i>, <i>Free Willy</i>, <i>Paddington</i>). An animated feature goes to C12.",
+     "aliases": "animal film; dog film; talking-animal film",
+     "see": "C12 Animated Feature; A17-5 Family Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Family_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Animal_actor",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the animal: dog films, talking-animal and CGI-hybrid films, then wild-animal and horse stories",
+     "secs": [
+      "Dog Films",
+      "Talking-Animal & CGI-Hybrid Films",
+      "Wild-Animal & Horse Stories"
+     ],
+     "code": "A17-2"
+    },
+    {
+     "label": "Children's Adventure Film",
+     "breadth": "narrow",
+     "defn": "A family adventure in which a gang of children or a child hero goes treasure-hunting, on the run, or undercover as a kid spy (<i>The Goonies</i>, <i>Holes</i>, <i>Spy Kids: Armageddon</i>, <i>Agent Cody Banks</i>). A child alone at home at Christmas goes to A17-9.",
+     "aliases": "kids' adventure; kid-spy film",
+     "see": "A6-20 Treasure-Hunt Adventure; A17-5 Family Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Children%27s_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the children's mission: gang and treasure adventures, then kid spies and kid capers",
+     "secs": [
+      "Gang & Treasure Adventures",
+      "Kid Spies & Kid Capers"
+     ],
+     "code": "A17-3"
+    },
+    {
+     "label": "Children's Drama",
+     "breadth": "medium",
+     "defn": "A serious film for and about children: a classic children's novel or a contemporary story of a child facing illness, difference, grief or loneliness (<i>The Secret Garden</i> 1993, <i>A Little Princess</i>, <i>Like Stars on Earth</i>, <i>Wonder</i>). A coming-of-age drama for adults goes to A16.",
+     "aliases": "children's film",
+     "see": "A16 Drama; A17-5 Family Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Children%27s_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Children%27s_literature",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by source: classic children's novels first, then contemporary and world children's dramas",
+     "secs": [
+      "Classic Children's Novel Adaptations",
+      "Contemporary & World Children's Drama"
+     ],
+     "code": "A17-4"
+    },
+    {
+     "label": "Family Comedy",
+     "breadth": "medium",
+     "defn": "A comedy made for the whole family whose engine is a child's mischief, school life, a parent's mishaps or a cartoon brought to the screen (<i>Diary of a Wimpy Kid</i>, <i>Dennis the Menace</i>, <i>The Game Plan</i>, <i>The Muppets Take Manhattan</i>). A comedy built on magic goes to A6-9 or A17-1; a comedy for adults to A12.",
+     "aliases": "kids' comedy",
+     "see": "A12 Comedy; A17-1 Children's Fantasy Film; A17-6 Disney Channel Original Movie",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Family_comedy",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Family_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the comic source: kid-lit and school comedies, kid-in-charge mischief, family-man comedies, live-action cartoon, comic and puppet films, then television, toy and web spin-offs",
+     "secs": [
+      "Kid-Lit & School Comedies",
+      "Kid-in-Charge & Slapstick Mischief",
+      "Family-Man Comedies",
+      "Live-Action Cartoon, Comic & Puppet Films",
+      "Television, Toy & Web Spin-off Films"
+     ],
+     "code": "A17-5"
+    },
+    {
+     "label": "Disney Channel Original Movie",
+     "breadth": "narrow",
+     "defn": "A made-for-television feature of the Disney Channel tradition for tweens and teens: musicals, magic-and-monster comedies and school or sports stories (<i>High School Musical</i>, <i>Halloweentown</i>, <i>Descendants</i>, <i>Cadet Kelly</i>). A theatrical family comedy goes to A17-5.",
+     "aliases": "DCOM",
+     "see": "A17-5 Family Comedy; A14 Musical & Dance Film; B10 Children's Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Disney_Channel_Original_Movie",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Teen_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the engine: tween musicals, magic and monster comedies, then tween comedy and sports films",
+     "secs": [
+      "Tween Musicals",
+      "Magic & Monster DCOMs",
+      "Tween Comedy & Sports DCOMs"
+     ],
+     "code": "A17-6"
+    },
+    {
+     "label": "Christmas Carol Adaptation",
+     "breadth": "narrow",
+     "defn": "A film adapting Dickens's <i>A Christmas Carol</i>: a miser visited by ghosts of Christmas past, present and future, straight or updated (<i>A Christmas Carol</i> 1951, <i>Scrooge</i>, <i>Scrooged</i>, <i>The Muppet Christmas Carol</i>).",
+     "aliases": "Scrooge film",
+     "see": "A17-8 Christmas Fantasy Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Adaptations_of_A_Christmas_Carol",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Christmas_film",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A17-7"
+    },
+    {
+     "label": "Christmas Fantasy Film",
+     "breadth": "medium",
+     "defn": "A Christmas film whose engine is the holiday's magic: Santa Claus and his workshop, an angel or Christmas miracle, or Santa turned action hero (<i>Miracle on 34th Street</i>, <i>It's a Wonderful Life</i>, <i>Elf</i>, <i>The Santa Clause</i>). Dickens's ghosts go to A17-7.",
+     "aliases": "Santa Claus film; Christmas miracle film",
+     "see": "A17-7 Christmas Carol Adaptation; A6-9 Fantasy Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Christmas_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Santa_Claus_in_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the holiday magic: Santa Claus films, angels and Christmas miracles, then Christmas action and horror",
+     "secs": [
+      "Santa Claus Films",
+      "Angels & Christmas Miracles",
+      "Christmas Action & Horror"
+     ],
+     "code": "A17-8"
+    },
+    {
+     "label": "Christmas Family Comedy",
+     "breadth": "medium",
+     "defn": "A comedy whose engine is the Christmas season itself: a child left home alone, the family gathering, the office party, the pageant (<i>Home Alone</i>, <i>A Christmas Story</i>, <i>National Lampoon's Christmas Vacation</i>, <i>Bad Santa</i>). A Christmas love story goes to A17-10.",
+     "aliases": "Christmas comedy; holiday comedy",
+     "see": "A17-10 Christmas Romantic Comedy; A12 Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Christmas_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Holiday_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the Christmas set-up: kids at Christmas, family gatherings, adult and raunchy comedy, specials and musical revues, then Christmas comedy beyond Hollywood",
+     "secs": [
+      "Kids at Christmas & Home Alone",
+      "Family-Gathering Christmas Comedy",
+      "Adult & Raunchy Christmas Comedy",
+      "Christmas Specials & Musical Revues",
+      "Christmas Comedy beyond Hollywood"
+     ],
+     "code": "A17-9"
+    },
+    {
+     "label": "Christmas Romantic Comedy",
+     "breadth": "medium",
+     "defn": "A romantic comedy timed to and powered by the Christmas season: a holiday meet-cute, a fake date home for Christmas, a snowed-in prince (<i>The Shop Around the Corner</i>, <i>The Holiday</i>, <i>A Christmas Prince</i>, <i>Happiest Season</i>). A non-seasonal rom-com goes to A13.",
+     "aliases": "holiday rom-com; Christmas movie",
+     "see": "A13 Romance; A17-9 Christmas Family Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Christmas_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Romantic_comedy",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Hallmark_Channel",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the romance: classic Hollywood Christmas romance, royal and fairy-tale Christmas romance, then the contemporary holiday rom-com",
+     "secs": [
+      "Classic Hollywood Christmas Romance",
+      "Royal & Fairy-Tale Christmas Romance",
+      "Contemporary Holiday Rom-Com"
+     ],
+     "code": "A17-10"
+    }
+   ]
+  },
+  {
+   "code": "A18",
+   "label": "Popular Cinema Modes",
+   "axis": "Axis: by popular industry and its named mode: Indian masala by language industry first, then the other South Asian, African and Turkish popular cinemas.",
+   "leaves": [
+    {
+     "label": "Bollywood Masala",
+     "breadth": "medium",
+     "defn": "A Hindi popular film in the masala mode: action, romance, comedy, family melodrama and song-and-dance combined around a star (<i>Sholay</i>, <i>Dilwale Dulhania Le Jayenge</i>, <i>Dabangg</i>, <i>Jawan</i>). A big-budget multilingual South Indian release goes to A18-4.",
+     "aliases": "Hindi masala film",
+     "see": "A18-4 Pan-Indian Film; A13 Romance; A14 Musical & Dance Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Masala_(film_genre)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Hindi_cinema",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by era and register: the 1970s angry-young-man masala, the romantic and family spectacle of the 1990s–2000s, then the star action masala of the 2010s",
+     "secs": [
+      "Classic 1970s Masala",
+      "Romantic & Family Spectacle",
+      "Star Action Masala"
+     ],
+     "code": "A18-1"
+    },
+    {
+     "label": "Tamil Masala",
+     "breadth": "medium",
+     "defn": "A Tamil-language popular film in the masala mode built around a mass hero, punch dialogues, songs and social messages (<i>Baasha</i>, <i>Sivaji</i>, <i>Ghilli</i>, <i>Vikram</i>). A pan-Indian multilingual epic goes to A18-4.",
+     "aliases": "Kollywood mass film",
+     "see": "A18-3 Telugu Masala; A18-4 Pan-Indian Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Masala_(film_genre)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Tamil_cinema",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Lokesh_Cinematic_Universe",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by star and maker: superstar vehicles, Vijay and Ajith mass films, Shankar's vigilante spectacles, the Lokesh Cinematic Universe, then new Tamil mass cinema",
+     "secs": [
+      "Superstar Vehicles (Rajinikanth)",
+      "Vijay & Ajith Mass Films",
+      "Shankar Vigilante Spectacles",
+      "Lokesh Cinematic Universe",
+      "New Tamil Mass Cinema"
+     ],
+     "code": "A18-2"
+    },
+    {
+     "label": "Telugu Masala",
+     "breadth": "narrow",
+     "defn": "A Telugu-language popular film in the masala mode: a mass hero, family sentiment, comedy and action set pieces (<i>Pokiri</i>, <i>Magadheera</i>, <i>Ala Vaikunthapurramuloo</i>, <i>Dasara</i>). A pan-Indian multilingual epic goes to A18-4.",
+     "aliases": "Tollywood mass film",
+     "see": "A18-2 Tamil Masala; A18-4 Pan-Indian Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Masala_(film_genre)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Telugu_cinema",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A18-3"
+    },
+    {
+     "label": "Pan-Indian Film",
+     "breadth": "narrow",
+     "defn": "A South Indian big-budget spectacle made and released simultaneously in several Indian languages for a national market (<i>Baahubali: The Beginning</i>, <i>K.G.F: Chapter 1</i>, <i>RRR</i>, <i>Pushpa: The Rise - Part 1</i>).",
+     "aliases": "pan-India film",
+     "see": "A18-1 Bollywood Masala; A18-3 Telugu Masala; A6-11 Mythological Fantasy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Pan-Indian_film",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A18-4"
+    },
+    {
+     "label": "Malayalam Mass Film",
+     "breadth": "narrow",
+     "defn": "A Malayalam-language star action film in the mass mode, from political-gangster sagas to ensemble fight films (<i>Lucifer</i>, <i>King of Kotha</i>, <i>RDX: Robert Dony Xavier</i>, <i>Rifle Club</i>).",
+     "aliases": "Mollywood mass film",
+     "see": "A18-2 Tamil Masala; A18-4 Pan-Indian Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Malayalam_cinema",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Masala_(film_genre)",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A18-5"
+    },
+    {
+     "label": "Dhallywood & Lollywood Masala",
+     "breadth": "narrow",
+     "defn": "A masala film from the Bengali, Bangladeshi, Pakistani or Sri Lankan popular industries (<i>Toofan</i>, <i>Taandob</i>, <i>The Legend of Maula Jatt</i>, <i>Teefa In Trouble</i>).",
+     "aliases": "Bangladeshi masala; Pakistani masala",
+     "see": "A18-1 Bollywood Masala",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Dhallywood",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Lollywood",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Masala_(film_genre)",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A18-6"
+    },
+    {
+     "label": "Nollywood",
+     "breadth": "narrow",
+     "defn": "A Nigerian popular feature of the Lagos-centred industry, from video-era melodrama to New Nollywood comedies and crime films (<i>Osuofia in London</i>, <i>The Wedding Party</i>, <i>King of Boys</i>, <i>The Black Book</i>).",
+     "aliases": "New Nollywood",
+     "see": "A18-9 Wakaliwood; A6-11 Mythological Fantasy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Nollywood",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A18-7"
+    },
+    {
+     "label": "Yeşilçam",
+     "breadth": "narrow",
+     "defn": "A Turkish popular film of the Istanbul studio era (c. 1950–1990): melodramas, school comedies and historical adventures (<i>The Chaos Class</i>, <i>Tosun Pasha</i>, <i>My Dear Brother</i>, <i>The Girl with the Red Scarf</i>).",
+     "aliases": "Turkish popular cinema",
+     "see": "A6-9 Fantasy Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Yeşilçam",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Turkish_cinema",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A18-8"
+    },
+    {
+     "label": "Wakaliwood",
+     "breadth": "narrow",
+     "defn": "An ultra-low-budget action film from Wakaliga, Kampala, made by Ramon Film Productions with homemade effects and a live 'video joker' narration (<i>Who Killed Captain Alex?</i>, <i>Bad Black</i>, <i>Crazy World</i>).",
+     "aliases": "Ugandan action film",
+     "see": "A7-17 Exploitation Action Film; A18-7 Nollywood",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Wakaliwood",
+       "Wikipedia"
+      ]
+     ],
+     "code": "A18-9"
+    }
+   ]
+  }
+ ]
+}

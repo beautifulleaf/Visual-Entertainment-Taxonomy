@@ -121,7 +121,7 @@
      "code": "B7-6",
      "label": "Nordic Noir",
      "breadth": "medium",
-     "defn": "Scandinavian and Nordic crime drama in the bleak, socially critical register named for the cycle that followed <i>The Killing</i> and <i>The Bridge</i>: slow serialised investigations, damaged detectives, wintry landscapes (<i>Wallander</i>, <i>Trapped</i>, <i>The Chestnut Man</i>). Remakes and imitations set elsewhere stay with B7-1 or B7-8.",
+     "defn": "Scandinavian and Nordic crime drama in the bleak, socially critical register named for the cycle that followed <i>The Killing</i> and <i>The Bridge</i>: slow serialised investigations, damaged detectives, wintry landscapes (<i>Wallander</i>, <i>Trapped</i>, <i>Deadwind</i>). Remakes and imitations set elsewhere stay with B7-1 or B7-8.",
      "aliases": "Scandinavian noir; Scandi noir",
      "see": "B7-7 Tartan Noir; B7-5 Country Noir",
      "src": [
@@ -174,7 +174,7 @@
      "code": "B7-9",
      "label": "Detective Drama",
      "breadth": "broad",
-     "defn": "A series built around a single named detective of literary pedigree, police or private, who solves a self-contained case each story through deduction and character (<i>Agatha Christie's Poirot</i>, <i>Inspector Morse</i>, <i>Sherlock</i>, <i>Galileo</i>). A squad procedural goes to B7-1; a cosy village mystery to B7-11; a period-set detective to B7-12.",
+     "defn": "A series built around a single named star detective, police or private and often of literary pedigree, who solves a self-contained case each story through deduction and character (<i>Agatha Christie's Poirot</i>, <i>Inspector Morse</i>, <i>Sherlock</i>, <i>Kindaichi Shonen no Jikenbo</i>). A squad procedural goes to B7-1; a cosy village mystery to B7-11; a period-set detective to B7-12.",
      "aliases": "great detective; honkaku mystery (suiri dorama)",
      "see": "B7-11 Cozy Mystery; B7-12 Historical Mystery; B7-13 Amateur Sleuth",
      "src": [
@@ -187,11 +187,11 @@
        "Wikipedia"
       ]
      ],
-     "axis": "by the detective's lineage: Sherlock Holmes and Holmesian geniuses, Golden Age sleuths, the novelists' police inspectors, then puzzle-mystery (honkaku) series",
+     "axis": "by the detective's lineage: Sherlock Holmes and Holmesian geniuses, Golden Age sleuths, star police inspectors, then puzzle-mystery (honkaku) series",
      "secs": [
       "Sherlock Holmes & Holmesian Geniuses",
       "Golden Age Sleuths",
-      "Novelists' Police Inspectors",
+      "Star Police Inspectors",
       "Puzzle Mysteries (Honkaku)"
      ]
     },
@@ -272,7 +272,7 @@
      "code": "B7-14",
      "label": "Private Eye",
      "breadth": "medium",
-     "defn": "A series following a licensed private investigator or agency taking clients' cases, from hardboiled loners to glamorous agency teams (<i>The Rockford Files</i>, <i>Magnum, P.I.</i>, <i>Strike</i>, <i>Veronica Mars</i>).",
+     "defn": "A series following a licensed private investigator or agency taking clients' cases, from hardboiled loners to glamorous agency teams (<i>The Rockford Files</i>, <i>Magnum, P.I.</i>, <i>Strike</i>, <i>Jack Irish</i>).",
      "aliases": "private investigator; PI show; hardboiled",
      "see": "B7-13 Amateur Sleuth; B7-19 Neo-Noir",
      "src": [
@@ -419,7 +419,7 @@
      "code": "B7-20",
      "label": "Prison Drama",
      "breadth": "narrow",
-     "defn": "A series set inside a prison, where incarceration, inmate hierarchies and escape are the engine (<i>Oz</i>, <i>Wentworth</i>, <i>Prison Break</i>, <i>Locked Up</i>).",
+     "defn": "A series set inside a prison, where incarceration, inmate hierarchies and escape are the engine (<i>Oz</i>, <i>Wentworth</i>, <i>El marginal</i>, <i>Locked Up</i>).",
      "aliases": "prison series",
      "see": "B7-27 Action Thriller",
      "src": [
@@ -540,7 +540,7 @@
      "code": "B7-26",
      "label": "Revenge & Vigilante Thriller",
      "breadth": "medium",
-     "defn": "A thriller whose engine is justice taken outside the law: a wronged person's long revenge or a vigilante crew punishing those the system lets go (<i>The Glory</i>, <i>Taxi Driver</i>, <i>The Equalizer</i>, <i>Vigilante</i>).",
+     "defn": "A thriller whose engine is justice taken outside the law: a wronged person's long revenge or a vigilante crew punishing those the system lets go (<i>The Glory</i>, <i>Taxi Driver</i>, <i>Revenge of Others</i>, <i>Vigilante</i>).",
      "aliases": "revenge drama (fukushu-mono; boksu-geuk)",
      "see": "B7-27 Action Thriller; B2 Korean Drama",
      "src": [
@@ -626,7 +626,7 @@
      "code": "B7-30",
      "label": "Conspiracy Thriller",
      "breadth": "medium",
-     "defn": "A thriller in which an ordinary person or a small group uncovers a hidden plot by corporations, cults or shadow powers (<i>Rubicon</i>, <i>Utopia</i>, <i>The Capture</i>, <i>Hunters</i>).",
+     "defn": "A thriller in which an ordinary person or a small group uncovers a hidden plot by corporations, cults or shadow powers (<i>Rubicon</i>, <i>Utopia</i>, <i>Edge of Darkness</i>, <i>Hunters</i>).",
      "aliases": "paranoid thriller",
      "see": "B7-29 Political Thriller; B7-31 Techno-Thriller",
      "src": [
