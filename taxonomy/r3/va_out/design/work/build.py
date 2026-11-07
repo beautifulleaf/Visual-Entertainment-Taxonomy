@@ -175,5 +175,6 @@ for nl in out["new_leaves"]:
             seen[x[0]]=nl["key"]
         keep.append(x)
     nl["kinds"]=keep
+import fix; fix.apply(out)
 json.dump(out,open(os.path.join(W,"..","result.json"),"w"),ensure_ascii=False,indent=1)
 print({nl["key"]:len(nl["kinds"]) for nl in out["new_leaves"]}, {c:len(v["kinds"]) for c,v in out["leaves"].items()}, len(out["moves_out"]))

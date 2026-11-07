@@ -35,13 +35,6 @@
      0
     ],
     [
-     "Book of Antidotes of Pseudo-Galen (Kitab al-Diryaq)",
-     "Sub-types",
-     "illustrated pharmacological treatise, Jazira copies 1199 (BnF) and c. 1250 (Vienna)",
-     "r3 https://en.wikipedia.org/wiki/Book_of_Antidotes_of_Pseudo-Galen",
-     0
-    ],
-    [
      "Book of Knowledge of Ingenious Mechanical Devices (al-Jazari)",
      "Sub-types",
      "al-Jazari's 1206 treatise on automata, illustrated copies Syria and Egypt 13th–14th c.",
@@ -163,56 +156,56 @@
     [
      "Bibliothèque nationale de France",
      "Collections",
-     "3113 manuscripts in the gathered records",
+     "3113 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Bibliothèque+nationale+de+France",
      0
     ],
     [
      "University of Pennsylvania",
      "Collections",
-     "139 manuscripts in the gathered records",
+     "139 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=University+of+Pennsylvania",
      0
     ],
     [
      "Harvard University",
      "Collections",
-     "121 manuscripts in the gathered records",
+     "121 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Harvard+University",
      0
     ],
     [
      "Rare Book and Manuscript Library (Columbia University)",
      "Collections",
-     "94 manuscripts in the gathered records",
+     "94 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Rare+Book+and+Manuscript+Library+(Columbia+University)",
      0
     ],
     [
      "Free Library of Philadelphia",
      "Collections",
-     "31 manuscripts in the gathered records",
+     "31 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Free+Library+of+Philadelphia",
      0
     ],
     [
      "Berlin Papyrus Collection",
      "Collections",
-     "20 manuscripts in the gathered records",
+     "20 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Berlin+Papyrus+Collection",
      0
     ],
     [
      "Bodleian Library",
      "Collections",
-     "9 manuscripts in the gathered records",
+     "9 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Bodleian+Library",
      0
     ],
     [
      "University of California, Riverside",
      "Collections",
-     "9 manuscripts in the gathered records",
+     "9 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=University+of+California,+Riverside",
      0
     ],
@@ -341,24 +334,10 @@
      0
     ],
     [
-     "Kitab fi Ma 'rifat al-Hiyal al-Handasiya",
-     "Ilkhanid manuscripts (Tabriz, Baghdad, Maragha)",
-     "1264; Topkapı Palace Museum Library",
-     "r3 https://www.wikidata.org/wiki/Q96972269",
-     0
-    ],
-    [
      "Manafi' al-Hayawan",
      "Ilkhanid manuscripts (Tabriz, Baghdad, Maragha)",
      "Ilkhanate, 1290; The Morgan Library & Museum",
      "r3 https://www.wikidata.org/wiki/Q124448555",
-     0
-    ],
-    [
-     "Kalīla wa Dimna, translated by Ibn al-MuqaffaʿʿAbd Allâh (-756)",
-     "Ilkhanid manuscripts (Tabriz, Baghdad, Maragha)",
-     "Syria, c. 1300; Manuscript department of the National Library of France",
-     "r3 https://www.wikidata.org/wiki/Q123945862",
      0
     ],
     [
@@ -418,13 +397,6 @@
      0
     ],
     [
-     "Maqamat of al-Hariri - Vienna ÖNB AF9",
-     "Ilkhanid manuscripts (Tabriz, Baghdad, Maragha)",
-     "1334; Austrian National Library",
-     "r3 https://www.wikidata.org/wiki/Q15965344",
-     0
-    ],
-    [
      "Folio from a Mu'nis al-ahrar fi daqa'iq al-ash'ar (The Free Man's Companion to the Subtleties of Poems) of Jajarmi",
      "Ilkhanid manuscripts (Tabriz, Baghdad, Maragha)",
      "Isfahan, 1340; Metropolitan Museum of Art",
@@ -450,13 +422,6 @@
      "Timurid Herat manuscripts",
      "c. 1400; Golestan Palace Library",
      "r3 https://www.wikidata.org/wiki/Q5959450",
-     0
-    ],
-    [
-     "Shaqāʾiq al-utrunj fī raqāʾiq al-ghunj",
-     "Timurid Herat manuscripts",
-     "c. 1400",
-     "r3 https://www.wikidata.org/wiki/Q56290047",
      0
     ],
     [
@@ -492,13 +457,6 @@
      "Timurid Herat manuscripts",
      "Herat, 1431; Metropolitan Museum of Art",
      "r3 https://www.wikidata.org/wiki/Q109670454",
-     0
-    ],
-    [
-     "Shahnameh manuscript RVI 961-966, 974, 1876-1887",
-     "Timurid Herat manuscripts",
-     "1437; Museum Rietberg",
-     "r3 https://www.wikidata.org/wiki/Q64666117",
      0
     ],
     [
@@ -544,27 +502,6 @@
      0
     ],
     [
-     "\"The Concourse of the Birds\", Folio 11r from a Mantiq al-tair (Language of the Birds)",
-     "Timurid Herat manuscripts",
-     "Safavid Iran, c. 1600; Metropolitan Museum of Art",
-     "r3 https://www.wikidata.org/wiki/Q29385176",
-     0
-    ],
-    [
-     "Mantiq al-Tayr (Language of the Birds)",
-     "Timurid Herat manuscripts",
-     "Safavid Iran, c. 1600; Metropolitan Museum of Art",
-     "r3 https://www.wikidata.org/wiki/Q116273750",
-     0
-    ],
-    [
-     "Kitāb ṣuwar al-kawākib al-ṯābita",
-     "Timurid Samarkand manuscripts",
-     "Timurid Empire, 1430; Manuscript department of the National Library of France",
-     "r3 https://www.wikidata.org/wiki/Q124041496",
-     0
-    ],
-    [
      "Anthology of Sultan Iskandar (CGM LA 161)",
      "Timurid Shiraz manuscripts",
      "Timurid Empire, 1410; Calouste Gulbenkian Museum",
@@ -597,13 +534,6 @@
      "Safavid Tabriz manuscripts",
      "the 258-painting royal Shahnama, Tabriz; folios dispersed (Met, Aga Khan Museum...)",
      "r3 https://en.wikipedia.org/wiki/Shahnameh_of_Shah_Tahmasp",
-     0
-    ],
-    [
-     "Khamsa of Nizami (British Library, Or. 2265)",
-     "Safavid Tabriz manuscripts",
-     "Tabriz, 1539–43, for Shah Tahmasp; paintings by Sultan Muhammad, Aqa Mirak, Mir Sayyid Ali; British Library",
-     "r3 https://en.wikipedia.org/wiki/Khamsa_of_Nizami_(British_Library,_Or._2265)",
      0
     ],
     [
@@ -733,6 +663,20 @@
      0
     ],
     [
+     "\"The Concourse of the Birds\", Folio 11r from a Mantiq al-tair (Language of the Birds)",
+     "Safavid Isfahan manuscripts",
+     "Safavid Iran, c. 1600; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q29385176",
+     0
+    ],
+    [
+     "Mantiq al-Tayr (Language of the Birds)",
+     "Safavid Isfahan manuscripts",
+     "Safavid Iran, c. 1600; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q116273750",
+     0
+    ],
+    [
      "Shahnama Walters Ms. W.602",
      "Safavid Isfahan manuscripts",
      "1617; Walters Art Museum",
@@ -782,73 +726,10 @@
      0
     ],
     [
-     "Golshan Album",
-     "Safavid Isfahan manuscripts",
-     "c. 1700; Fogg Museum; San Diego Museum of Art",
-     "r3 https://www.wikidata.org/wiki/Q5948124",
-     0
-    ],
-    [
      "Shahnama Walters Ms. W.603",
      "Afsharid, Zand and Qajar manuscripts",
      "Iran, c. 1750; Walters Art Museum",
      "r3 https://www.wikidata.org/wiki/Q64616610",
-     0
-    ],
-    [
-     "Lady Coote Album",
-     "Afsharid, Zand and Qajar manuscripts",
-     "1780; Fine Arts Museums of San Francisco; San Diego Museum of Art",
-     "r3 https://www.wikidata.org/wiki/Q141492085",
-     0
-    ],
-    [
-     "St. Petersburg Album",
-     "Afsharid, Zand and Qajar manuscripts",
-     "Afsharid Iran, c. 1800; Fogg Museum; Art and History Collection",
-     "r3 https://www.wikidata.org/wiki/Q111628414",
-     0
-    ],
-    [
-     "David 86/2003",
-     "Undated Persian manuscripts",
-     "Umayyad Caliphate, c. 700; David Collection",
-     "r3 https://www.wikidata.org/wiki/Q121758388",
-     0
-    ],
-    [
-     "Book of the Fixed Stars",
-     "Undated Persian manuscripts",
-     "1009; Bodleian Library",
-     "r3 https://www.wikidata.org/wiki/Q54224977",
-     0
-    ],
-    [
-     "Kitâb al-Diryâq - BNF Arabe2964",
-     "Undated Persian manuscripts",
-     "1198; Bibliothèque nationale de France",
-     "r3 https://www.wikidata.org/wiki/Q15965524",
-     0
-    ],
-    [
-     "Kitab al-Baytarah",
-     "Undated Persian manuscripts",
-     "1210; Topkapı Palace Museum Library",
-     "r3 https://www.wikidata.org/wiki/Q96947531",
-     0
-    ],
-    [
-     "De materia medica",
-     "Undated Persian manuscripts",
-     "1229; Topkapı Palace Museum Library",
-     "r3 https://www.wikidata.org/wiki/Q16628945",
-     0
-    ],
-    [
-     "Maqamat of al-Hariri",
-     "Undated Persian manuscripts",
-     "1237; Bibliothèque nationale de France",
-     "r3 https://www.wikidata.org/wiki/Q16641327",
      0
     ],
     [
@@ -859,20 +740,6 @@
      0
     ],
     [
-     "Book of Wonders",
-     "Undated Persian manuscripts",
-     "Bodleian Library",
-     "r3 https://www.wikidata.org/wiki/Q4943103",
-     0
-    ],
-    [
-     "Hadith Bayad wa Riyad",
-     "Undated Persian manuscripts",
-     "Vatican Library",
-     "r3 https://www.wikidata.org/wiki/Q3472545",
-     0
-    ],
-    [
      "The Free Man's Companion to the Niceties of Poems",
      "Undated Persian manuscripts",
      "",
@@ -880,24 +747,10 @@
      0
     ],
     [
-     "Zahr al-Bustan fi Dawlat Bani Ziyan",
-     "Undated Persian manuscripts",
-     "John Rylands Library",
-     "r3 https://www.wikidata.org/wiki/Q132559952",
-     0
-    ],
-    [
      "Khayr al-Bayān",
      "Undated Persian manuscripts",
      "",
      "r3 https://www.wikidata.org/wiki/Q94630644",
-     0
-    ],
-    [
-     "Risālat al-Ṣūfī fī al-kawākib",
-     "Undated Persian manuscripts",
-     "",
-     "r3 https://www.wikidata.org/wiki/Q124326625",
      0
     ],
     [
@@ -910,99 +763,92 @@
     [
      "Bibliothèque nationale de France",
      "Collections",
-     "2665 manuscripts in the gathered records",
+     "2665 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Bibliothèque+nationale+de+France",
      0
     ],
     [
      "Free Library of Philadelphia",
      "Collections",
-     "227 manuscripts in the gathered records",
+     "227 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Free+Library+of+Philadelphia",
      0
     ],
     [
      "Cleveland Museum of Art",
      "Collections",
-     "120 manuscripts in the gathered records",
+     "120 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art",
      0
     ],
     [
      "Rare Book and Manuscript Library (Columbia University)",
      "Collections",
-     "76 manuscripts in the gathered records",
+     "76 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Rare+Book+and+Manuscript+Library+(Columbia+University)",
      0
     ],
     [
      "Ashmolean Museum",
      "Collections",
-     "57 manuscripts in the gathered records",
+     "57 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Ashmolean+Museum",
      0
     ],
     [
      "University of California, Berkeley",
      "Collections",
-     "41 manuscripts in the gathered records",
+     "41 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=University+of+California,+Berkeley",
      0
     ],
     [
      "Victoria Memorial",
      "Collections",
-     "40 manuscripts in the gathered records",
+     "40 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+Memorial",
-     0
-    ],
-    [
-     "University of Pennsylvania",
-     "Collections",
-     "25 manuscripts in the gathered records",
-     "r3 https://www.wikidata.org/wiki/Special:Search?search=University+of+Pennsylvania",
-     0
-    ],
-    [
-     "Metropolitan Museum of Art",
-     "Collections",
-     "24 manuscripts in the gathered records",
-     "r3 https://www.wikidata.org/wiki/Special:Search?search=Metropolitan+Museum+of+Art",
-     0
-    ],
-    [
-     "Chester Beatty Library",
-     "Collections",
-     "17 manuscripts in the gathered records",
-     "r3 https://www.wikidata.org/wiki/Special:Search?search=Chester+Beatty+Library",
      0
     ],
     [
      "Aga Khan Museum",
      "Collections",
-     "17 manuscripts in the gathered records",
+     "27 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Aga+Khan+Museum",
+     0
+    ],
+    [
+     "Chester Beatty Library",
+     "Collections",
+     "26 manuscripts of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Chester+Beatty+Library",
+     0
+    ],
+    [
+     "Metropolitan Museum of Art",
+     "Collections",
+     "25 manuscripts of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Metropolitan+Museum+of+Art",
+     0
+    ],
+    [
+     "University of Pennsylvania",
+     "Collections",
+     "25 manuscripts of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=University+of+Pennsylvania",
      0
     ],
     [
      "Bodleian Library",
      "Collections",
-     "16 manuscripts in the gathered records",
+     "16 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Bodleian+Library",
      0
     ],
     [
      "David Collection",
      "Collections",
-     "14 manuscripts in the gathered records",
+     "14 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=David+Collection",
-     0
-    ],
-    [
-     "The Aga Khan Museum",
-     "Collections",
-     "10 manuscripts in the gathered records",
-     "r3 https://www.wikidata.org/wiki/Special:Search?search=The+Aga+Khan+Museum",
      0
     ],
     [
@@ -1253,13 +1099,6 @@
    ],
    "kinds": [
     [
-     "Şahname-i Selim Han",
-     "Schools & phases",
-     "illustrated dynastic history (1581), Topkapı Palace Library",
-     "r3 https://en.wikipedia.org/wiki/Şehname-i_Selim_Han",
-     0
-    ],
-    [
      "Ottoman court atelier (nakkaşhane)",
      "Centres & workshops",
      "the palace painting studio of Istanbul, 15th–18th century",
@@ -1323,13 +1162,6 @@
      0
     ],
     [
-     "Beyan-ı Menazil",
-     "Manuscripts of Mehmed II to Süleyman (to 1566)",
-     "Matrakçı Nasuh's topographical account of the Iraq campaign, 1537; Istanbul University Library",
-     "r3 https://en.wikipedia.org/wiki/Beyan-ı_Menazil",
-     0
-    ],
-    [
      "Süleymanname",
      "Manuscripts of Mehmed II to Süleyman (to 1566)",
      "Arifi's history of Süleyman, 1558, Topkapı Palace Library",
@@ -1353,56 +1185,56 @@
     [
      "Bibliothèque nationale de France",
      "Collections",
-     "410 manuscripts in the gathered records",
+     "410 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Bibliothèque+nationale+de+France",
      0
     ],
     [
      "Rare Book and Manuscript Library (Columbia University)",
      "Collections",
-     "49 manuscripts in the gathered records",
+     "49 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Rare+Book+and+Manuscript+Library+(Columbia+University)",
      0
     ],
     [
      "University of Pennsylvania",
      "Collections",
-     "21 manuscripts in the gathered records",
+     "21 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=University+of+Pennsylvania",
      0
     ],
     [
      "Free Library of Philadelphia",
      "Collections",
-     "19 manuscripts in the gathered records",
+     "19 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Free+Library+of+Philadelphia",
      0
     ],
     [
      "Sharjah Museum of Islamic Civilisation",
      "Collections",
-     "8 manuscripts in the gathered records",
+     "8 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Sharjah+Museum+of+Islamic+Civilisation",
      0
     ],
     [
      "Museum of Turkish and Islamic Arts",
      "Collections",
-     "7 manuscripts in the gathered records",
+     "7 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Museum+of+Turkish+and+Islamic+Arts",
      0
     ],
     [
      "Vassar College",
      "Collections",
-     "6 manuscripts in the gathered records",
+     "6 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Vassar+College",
      0
     ],
     [
      "Victoria and Albert Museum",
      "Collections",
-     "6 manuscripts in the gathered records",
+     "6 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
      0
     ],
@@ -1570,13 +1402,6 @@
      0
     ],
     [
-     "Nujum al-Ulum (Stars of the Sciences)",
-     "Bijapur manuscripts and album paintings",
-     "Bijapur, 1570; Chester Beatty Library, Dublin",
-     "r3 https://en.wikipedia.org/wiki/Nujum_al-Ulum",
-     0
-    ],
-    [
      "Stars of the Sciences",
      "Bijapur manuscripts and album paintings",
      "Vijayapura, 1570; Chester Beatty Library",
@@ -1614,28 +1439,28 @@
     [
      "Victoria and Albert Museum",
      "Collections",
-     "1435 objects in the gathered records",
+     "1435 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
      0
     ],
     [
      "Cleveland Museum of Art",
      "Collections",
-     "49 objects in the gathered records",
+     "49 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art",
      0
     ],
     [
      "Art Institute of Chicago",
      "Collections",
-     "5 objects in the gathered records",
+     "5 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Art+Institute+of+Chicago",
      0
     ],
     [
      "Rijksmuseum",
      "Collections",
-     "4 objects in the gathered records",
+     "4 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Rijksmuseum",
      0
     ],
@@ -1708,13 +1533,6 @@
      0
     ],
     [
-     "Patna school",
-     "Centres & workshops",
-     "Company painting of Patna and Arrah, c. 1770–1900, Sewak Ram to Shiva Lal",
-     "r3 https://en.wikipedia.org/wiki/Patna_School",
-     0
-    ],
-    [
      "Murshidabad",
      "Centres & workshops",
      "Bengal Nawabi court centre where Company painting began, c. 1760s–80s",
@@ -1731,14 +1549,14 @@
     [
      "Victoria and Albert Museum",
      "Collections",
-     "2978 objects in the gathered records",
+     "2978 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
      0
     ],
     [
      "Cleveland Museum of Art",
      "Collections",
-     "9 objects in the gathered records",
+     "9 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art",
      0
     ],
@@ -1796,27 +1614,6 @@
      "Makers",
      "Company-period painter",
      "evidence",
-     1
-    ],
-    [
-     "Shaikh Zain al-Din",
-     "Makers",
-     "Patna-born painter of the Impey natural-history album, Calcutta, fl. 1770s–80s",
-     "r3 https://en.wikipedia.org/wiki/Shaikh_Zain_al-Din",
-     1
-    ],
-    [
-     "Sita Ram",
-     "Makers",
-     "painter for Lord Hastings' tour of 1814–15, Bengal",
-     "r3 https://en.wikipedia.org/wiki/Sita_Ram_(artist)",
-     1
-    ],
-    [
-     "Sewak Ram",
-     "Makers",
-     "early Patna Company painter, c. 1770–1830",
-     "r3 https://en.wikipedia.org/wiki/Sewak_Ram",
      1
     ]
    ],
@@ -1955,37 +1752,30 @@
      0
     ],
     [
-     "Jaipur (Amber) school",
-     "Schools & phases",
-     "Kachhwaha court of Amber and Jaipur, 17th–19th century",
-     "r3 https://en.wikipedia.org/wiki/Jaipur_painting",
-     0
-    ],
-    [
      "Victoria and Albert Museum",
      "Collections",
-     "607 objects in the gathered records",
+     "607 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
      0
     ],
     [
      "Cleveland Museum of Art",
      "Collections",
-     "153 objects in the gathered records",
+     "153 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art",
      0
     ],
     [
      "Art Institute of Chicago",
      "Collections",
-     "67 objects in the gathered records",
+     "67 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Art+Institute+of+Chicago",
      0
     ],
     [
      "Rijksmuseum",
      "Collections",
-     "5 objects in the gathered records",
+     "5 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Rijksmuseum",
      0
     ],
@@ -2234,21 +2024,21 @@
     [
      "Victoria and Albert Museum",
      "Collections",
-     "449 objects in the gathered records",
+     "449 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
      0
     ],
     [
      "Cleveland Museum of Art",
      "Collections",
-     "120 objects in the gathered records",
+     "120 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art",
      0
     ],
     [
      "Rijksmuseum",
      "Collections",
-     "8 objects in the gathered records",
+     "8 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Rijksmuseum",
      0
     ],
@@ -2320,20 +2110,6 @@
      "Makers",
      "anonymous Mandi master, early 18th century",
      "evidence",
-     1
-    ],
-    [
-     "Pandit Seu",
-     "Makers",
-     "Guler painter (c. 1680–1740), father of Manaku and Nainsukh",
-     "r3 https://en.wikipedia.org/wiki/Pandit_Seu",
-     1
-    ],
-    [
-     "Devidasa",
-     "Makers",
-     "Nurpur painter of the 1694 Basohli Rasamanjari",
-     "r3 https://en.wikipedia.org/wiki/Devidasa",
      1
     ]
    ],
@@ -2449,7 +2225,7 @@
     [
      "Victoria and Albert Museum",
      "Collections",
-     "281 objects in the gathered records",
+     "281 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
      0
     ]
@@ -2495,14 +2271,14 @@
     [
      "Victoria and Albert Museum",
      "Collections",
-     "71 objects in the gathered records",
+     "71 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
      0
     ],
     [
      "Cleveland Museum of Art",
      "Collections",
-     "1 object in the gathered records",
+     "1 object of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art",
      0
     ],
@@ -2511,13 +2287,6 @@
      "Makers",
      "Kangra painter who also worked for Sikh patrons",
      "r3 https://en.wikipedia.org/wiki/Purkhu",
-     1
-    ],
-    [
-     "Kapur Singh",
-     "Makers",
-     "Amritsar painter of Punjabi trades and portraits, mid-19th century",
-     "r3 https://en.wikipedia.org/wiki/Kapur_Singh_(painter)",
      1
     ],
     [
@@ -2540,11 +2309,6 @@
   "A1-11": {
    "axis": "Styles (Sattriya, Ahom court Garhgaya, Darrang), then named manuscripts known from the literature (the gathered rows are noise), then painters; collections ranked by gathered Assam objects.",
    "catalogues": [
-    [
-     "https://en.wikipedia.org/wiki/Assamese_painting",
-     "Wikipedia: Assamese painting",
-     "survey of manuscript painting in Assam"
-    ],
     [
      "https://museumsofindia.gov.in/",
      "Museums of India",
@@ -2581,16 +2345,9 @@
      0
     ],
     [
-     "Chitra Bhagavata",
-     "Named manuscripts",
-     "illustrated Bhagavata Purana (Book X), 16th century, Barpeta Satra",
-     "r3 https://en.wikipedia.org/wiki/Chitra_Bhagavata",
-     0
-    ],
-    [
      "Victoria and Albert Museum",
      "Collections",
-     "96 objects in the gathered records",
+     "96 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
      0
     ],
@@ -2652,35 +2409,35 @@
     [
      "Victoria and Albert Museum",
      "Collections",
-     "181 objects in the gathered records",
+     "181 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
      0
     ],
     [
      "Cleveland Museum of Art",
      "Collections",
-     "35 objects in the gathered records",
+     "35 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art",
      0
     ],
     [
      "Penn Museum",
      "Collections",
-     "22 objects in the gathered records",
+     "22 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Penn+Museum",
      0
     ],
     [
-     "The Metropolitan Museum of Art",
+     "Metropolitan Museum of Art",
      "Collections",
-     "3 objects in the gathered records",
-     "r3 https://www.wikidata.org/wiki/Special:Search?search=The+Metropolitan+Museum+of+Art",
+     "3 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Metropolitan+Museum+of+Art",
      0
     ],
     [
      "Art Institute of Chicago",
      "Collections",
-     "2 objects in the gathered records",
+     "2 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Art+Institute+of+Chicago",
      0
     ],
@@ -2731,13 +2488,6 @@
      0
     ],
     [
-     "Traiphum manuscripts",
-     "Sub-types",
-     "illustrated Buddhist cosmologies (Three Worlds), Ayutthaya and Thonburi",
-     "r3 https://en.wikipedia.org/wiki/Traiphum_Phra_Ruang",
-     0
-    ],
-    [
      "Samut khoi",
      "Sub-types",
      "folding books of khoi-bark paper, white or blackened",
@@ -2754,7 +2504,7 @@
     [
      "Penn Museum",
      "Collections",
-     "1 object in the gathered records",
+     "1 object of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Penn+Museum",
      0
     ]
@@ -2790,13 +2540,6 @@
      "Sub-types",
      "Nara-ehon tales painted as handscrolls",
      "r3 https://en.wikipedia.org/wiki/Emakimono",
-     0
-    ],
-    [
-     "Bunshō sōshi",
-     "Named works",
-     "otogi-zōshi tale of a salt-maker's rise, often illustrated as Nara-ehon",
-     "r3 https://en.wikipedia.org/wiki/Bunshō_sōshi",
      0
     ],
     [
@@ -2858,56 +2601,56 @@
     [
      "Bibliothèque nationale de France",
      "Collections",
-     "536 manuscripts in the gathered records",
+     "536 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Bibliothèque+nationale+de+France",
      0
     ],
     [
      "Cabinet Library",
      "Collections",
-     "29 manuscripts in the gathered records",
+     "29 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Cabinet+Library",
      0
     ],
     [
      "Tokyo National Museum",
      "Collections",
-     "27 manuscripts in the gathered records",
+     "27 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Tokyo+National+Museum",
      0
     ],
     [
      "Kyoto National Museum",
      "Collections",
-     "17 manuscripts in the gathered records",
+     "17 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Kyoto+National+Museum",
      0
     ],
     [
      "Tenri Central Library",
      "Collections",
-     "5 manuscripts in the gathered records",
+     "5 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Tenri+Central+Library",
      0
     ],
     [
      "Tōyō Bunko",
      "Collections",
-     "5 manuscripts in the gathered records",
+     "5 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Tōyō+Bunko",
      0
     ],
     [
      "Nara National Museum",
      "Collections",
-     "5 manuscripts in the gathered records",
+     "5 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Nara+National+Museum",
      0
     ],
     [
      "University of Pennsylvania",
      "Collections",
-     "5 manuscripts in the gathered records",
+     "5 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=University+of+Pennsylvania",
      0
     ]
@@ -2937,27 +2680,6 @@
    ],
    "kinds": [
     [
-     "Miracles of Mary (Te'amire Maryam)",
-     "Sub-types",
-     "Marian miracle books, the most richly illustrated Gondarine genre",
-     "r3 https://en.wikipedia.org/wiki/Miracles_of_Mary",
-     0
-    ],
-    [
-     "First Gondarine style",
-     "Schools & phases",
-     "court painting of Gondar, c. 1630–1730",
-     "r3 https://en.wikipedia.org/wiki/Gondarine_art",
-     0
-    ],
-    [
-     "Second Gondarine style",
-     "Schools & phases",
-     "18th-century Gondar painting with richer colour and Western prints as models",
-     "r3 https://en.wikipedia.org/wiki/Gondarine_art",
-     0
-    ],
-    [
      "Garima Gospels",
      "Early Ethiopian manuscripts (Aksumite to 15th century)",
      "Aksumite Gospels, c. 390–660, the oldest illustrated Christian books; Abba Garima Monastery",
@@ -2981,65 +2703,58 @@
     [
      "Bibliothèque nationale de France",
      "Collections",
-     "956 manuscripts in the gathered records",
+     "956 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Bibliothèque+nationale+de+France",
      0
     ],
     [
      "British Library",
      "Collections",
-     "33 manuscripts in the gathered records",
+     "33 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=British+Library",
      0
     ],
     [
      "Penn Museum",
      "Collections",
-     "9 manuscripts in the gathered records",
+     "9 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Penn+Museum",
+     0
+    ],
+    [
+     "Metropolitan Museum of Art",
+     "Collections",
+     "6 manuscripts of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Metropolitan+Museum+of+Art",
      0
     ],
     [
      "Geneva Ethnography Museum",
      "Collections",
-     "4 manuscripts in the gathered records",
+     "4 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Geneva+Ethnography+Museum",
-     0
-    ],
-    [
-     "The Metropolitan Museum of Art",
-     "Collections",
-     "4 manuscripts in the gathered records",
-     "r3 https://www.wikidata.org/wiki/Special:Search?search=The+Metropolitan+Museum+of+Art",
      0
     ],
     [
      "Victoria and Albert Museum",
      "Collections",
-     "4 manuscripts in the gathered records",
+     "4 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
      0
     ],
     [
      "University of Dayton",
      "Collections",
-     "3 manuscripts in the gathered records",
+     "3 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=University+of+Dayton",
      0
     ],
     [
      "Wellesley College",
      "Collections",
-     "3 manuscripts in the gathered records",
+     "3 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Wellesley+College",
      0
-    ],
-    [
-     "Fere Seyon",
-     "Makers",
-     "15th-century painter at the court of Zara Yaqob, Marian icons and manuscripts",
-     "r3 https://en.wikipedia.org/wiki/Fre_Seyon",
-     1
     ]
    ],
    "alias_rows": [
@@ -3340,42 +3055,42 @@
     [
      "Bibliothèque nationale de France",
      "Collections",
-     "5 manuscripts in the gathered records",
+     "5 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Bibliothèque+nationale+de+France",
      0
     ],
     [
      "Vatican Library",
      "Collections",
-     "4 manuscripts in the gathered records",
+     "4 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Vatican+Library",
      0
     ],
     [
      "British Library",
      "Collections",
-     "3 manuscripts in the gathered records",
+     "3 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=British+Library",
      0
     ],
     [
      "Bodleian Library",
      "Collections",
-     "3 manuscripts in the gathered records",
+     "3 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Bodleian+Library",
      0
     ],
     [
      "Austrian National Library",
      "Collections",
-     "2 manuscripts in the gathered records",
+     "2 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Austrian+National+Library",
      0
     ],
     [
      "Chester Beatty Library",
      "Collections",
-     "2 manuscripts in the gathered records",
+     "2 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Chester+Beatty+Library",
      0
     ],
@@ -3463,21 +3178,21 @@
     [
      "Vatican Library",
      "Collections",
-     "2 manuscripts in the gathered records",
+     "2 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Vatican+Library",
      0
     ],
     [
      "Bodleian Library",
      "Collections",
-     "1 manuscript in the gathered records",
+     "1 manuscript of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Bodleian+Library",
      0
     ],
     [
      "Library of the University of Bologna",
      "Collections",
-     "1 manuscript in the gathered records",
+     "1 manuscript of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Library+of+the+University+of+Bologna",
      0
     ]
@@ -3567,21 +3282,21 @@
     [
      "British Library",
      "Collections",
-     "1 manuscript in the gathered records",
+     "1 manuscript of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=British+Library",
      0
     ],
     [
      "Bodleian Library",
      "Collections",
-     "1 manuscript in the gathered records",
+     "1 manuscript of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Bodleian+Library",
      0
     ],
     [
      "British Museum",
      "Collections",
-     "1 manuscript in the gathered records",
+     "1 manuscript of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=British+Museum",
      0
     ]
@@ -3610,13 +3325,6 @@
     ]
    ],
    "kinds": [
-    [
-     "Tlacuilo",
-     "Sub-types",
-     "the Nahua painter-scribe who made the codices",
-     "r3 https://en.wikipedia.org/wiki/Tlacuilo",
-     0
-    ],
     [
      "Codex Borbonicus",
      "Ritual and calendrical codices",
@@ -3767,35 +3475,35 @@
     [
      "Bibliothèque nationale de France",
      "Collections",
-     "381 manuscripts in the gathered records",
+     "381 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Bibliothèque+nationale+de+France",
      0
     ],
     [
      "Newberry Library",
      "Collections",
-     "20 manuscripts in the gathered records",
+     "20 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Newberry+Library",
      0
     ],
     [
      "Vatican Library",
      "Collections",
-     "2 manuscripts in the gathered records",
+     "2 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Vatican+Library",
      0
     ],
     [
      "University of Pennsylvania",
      "Collections",
-     "2 manuscripts in the gathered records",
+     "2 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=University+of+Pennsylvania",
      0
     ],
     [
      "Cervantine Library",
      "Collections",
-     "2 manuscripts in the gathered records",
+     "2 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Cervantine+Library",
      0
     ]
@@ -3879,13 +3587,6 @@
      "Schools & phases",
      "Lesser Armenia (Sebastia region) painting",
      "manuscripts",
-     0
-    ],
-    [
-     "Etchmiadzin Gospels",
-     "Early Armenian manuscripts (to 1200)",
-     "989, with 6th-century ivory covers; Matenadaran, Yerevan",
-     "r3 https://en.wikipedia.org/wiki/Etchmiadzin_Gospels",
      0
     ],
     [
@@ -3975,56 +3676,56 @@
     [
      "Matenadaran",
      "Collections",
-     "1183 manuscripts in the gathered records",
+     "1183 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Matenadaran",
      0
     ],
     [
      "Bibliothèque nationale de France",
      "Collections",
-     "350 manuscripts in the gathered records",
+     "350 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Bibliothèque+nationale+de+France",
      0
     ],
     [
      "Nasser D. Khalili Collection of Islamic Art",
      "Collections",
-     "12 manuscripts in the gathered records",
+     "12 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Nasser+D.+Khalili+Collection+of+Islamic+Art",
      0
     ],
     [
      "Harvard University",
      "Collections",
-     "7 manuscripts in the gathered records",
+     "7 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Harvard+University",
      0
     ],
     [
-     "The Morgan Library & Museum",
+     "Morgan Library & Museum",
      "Collections",
-     "3 manuscripts in the gathered records",
-     "r3 https://www.wikidata.org/wiki/Special:Search?search=The+Morgan+Library+&+Museum",
+     "3 manuscripts of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Morgan+Library+&+Museum",
      0
     ],
     [
      "Free Library of Philadelphia",
      "Collections",
-     "3 manuscripts in the gathered records",
+     "3 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Free+Library+of+Philadelphia",
      0
     ],
     [
      "Chester Beatty Library",
      "Collections",
-     "3 manuscripts in the gathered records",
+     "3 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Chester+Beatty+Library",
      0
     ],
     [
      "Vassar College",
      "Collections",
-     "3 manuscripts in the gathered records",
+     "3 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Vassar+College",
      0
     ],
@@ -4071,13 +3772,6 @@
      1
     ],
     [
-     "T'oros Taronatsi",
-     "Makers",
-     "Gladzor painter, fl. 1307–46",
-     "r3 https://en.wikipedia.org/wiki/T'oros_Taronatsi",
-     1
-    ],
-    [
      "Grigor Tatevatsi",
      "Makers",
      "Tatev theologian and painter (1346–1409)",
@@ -4091,80 +3785,300 @@
    ]
   },
   "A2-2": {
-   "axis": "",
-   "catalogues": [],
-   "kinds": [
+   "axis": "Generations: Five Dynasties founders, then the Northern Song masters; works by date (artist-led leaf).",
+   "catalogues": [
     [
-     "Fan Kuan",
-     "Makers",
-     "painting · Northern Song dynasty, Song dynasty · b. 956",
-     "artists",
-     1
+     "https://digitalarchive.npm.gov.tw/",
+     "National Palace Museum Open Data",
+     "digital archive of the National Palace Museum, Taipei"
     ],
     [
+     "https://www.metmuseum.org/art/collection/search?q=Northern+Song+landscape",
+     "The Met collection search: Northern Song landscape",
+     "all Met objects matching 'Northern Song landscape'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Shan_shui",
+     "Wikipedia: Shan shui",
+     "Chinese landscape painting with its masters"
+    ]
+   ],
+   "kinds": [
+    [
      "Guan Tong",
-     "Makers",
+     "Five Dynasties founders",
      "painting · China · b. 850",
      "artists",
      1
     ],
     [
      "Jing Hao",
-     "Makers",
+     "Five Dynasties founders",
      "painting · Later Liang dynasty, Tang dynasty · b. 855",
      "artists",
      1
+    ],
+    [
+     "Fan Kuan",
+     "Northern Song masters",
+     "painting · Northern Song dynasty, Song dynasty · b. 956",
+     "artists",
+     1
+    ],
+    [
+     "Li Cheng",
+     "Northern Song masters",
+     "landscape painter (919–967), master of wintry forests",
+     "r3 https://en.wikipedia.org/wiki/Li_Cheng_(painter)",
+     1
+    ],
+    [
+     "Guo Xi",
+     "Northern Song masters",
+     "court landscape painter (c. 1020–1090), author of Lofty Message of Forests and Streams",
+     "r3 https://en.wikipedia.org/wiki/Guo_Xi",
+     1
+    ],
+    [
+     "Xu Daoning",
+     "Northern Song masters",
+     "landscape painter (c. 970–1051/52) in the Li Cheng manner",
+     "r3 https://en.wikipedia.org/wiki/Xu_Daoning",
+     1
+    ],
+    [
+     "Early Spring (Guo Xi, 1072)",
+     "Monumental landscapes",
+     "hanging scroll, ink and colour on silk; National Palace Museum, Taipei",
+     "r3 https://en.wikipedia.org/wiki/Early_Spring_(painting)",
+     0
     ]
    ],
    "alias_rows": []
   },
   "A2-4": {
-   "axis": "",
-   "catalogues": [],
-   "kinds": [],
+   "axis": "Generations: Hangzhou founders, the Jiangxia school of Wu Wei, late Zhe painters (artist-led leaf).",
+   "catalogues": [
+    [
+     "https://digitalarchive.npm.gov.tw/",
+     "National Palace Museum Open Data",
+     "digital archive of the National Palace Museum, Taipei"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Zhe+school",
+     "The Met collection search: Zhe school",
+     "all Met objects matching 'Zhe school'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Zhe_school",
+     "Wikipedia: Zhe school",
+     "the school and its painters"
+    ]
+   ],
+   "kinds": [
+    [
+     "Dai Jin",
+     "Hangzhou founders",
+     "founder of the Zhe school (1388–1462), Ming court painter",
+     "r3 https://en.wikipedia.org/wiki/Dai_Jin",
+     1
+    ],
+    [
+     "Li Zai",
+     "Hangzhou founders",
+     "Ming court landscape painter (d. 1431) in the Ma–Xia and Guo Xi manners",
+     "r3 https://en.wikipedia.org/wiki/Li_Zai",
+     1
+    ],
+    [
+     "Wang E",
+     "Hangzhou founders",
+     "court painter in the Ma Yuan manner (c. 1462–1541)",
+     "r3 https://en.wikipedia.org/wiki/Wang_E",
+     1
+    ],
+    [
+     "Wu Wei",
+     "Jiangxia school",
+     "Ming painter (1459–1508) of Jiangxia, founder of the Jiangxia school",
+     "r3 https://en.wikipedia.org/wiki/Wu_Wei_(painter)",
+     1
+    ],
+    [
+     "Zhang Lu",
+     "Jiangxia school",
+     "follower of Wu Wei (c. 1490–1563)",
+     "r3 https://en.wikipedia.org/wiki/Zhang_Lu_(painter)",
+     1
+    ],
+    [
+     "Lan Ying",
+     "Late Zhe painters",
+     "Hangzhou painter (1585–c. 1664), last major Zhe master",
+     "r3 https://en.wikipedia.org/wiki/Lan_Ying",
+     1
+    ]
+   ],
    "alias_rows": []
   },
   "A2-5": {
-   "axis": "",
-   "catalogues": [],
-   "kinds": [],
+   "axis": "Generations: the Four Masters of the Ming, then the Wen family and Suzhou followers (artist-led leaf).",
+   "catalogues": [
+    [
+     "https://digitalarchive.npm.gov.tw/",
+     "National Palace Museum Open Data",
+     "digital archive of the National Palace Museum, Taipei"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Wu+school",
+     "The Met collection search: Wu school",
+     "all Met objects matching 'Wu school'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Wu_School",
+     "Wikipedia: Wu School",
+     "the school and its painters"
+    ]
+   ],
+   "kinds": [
+    [
+     "Shen Zhou",
+     "Four Masters of the Ming",
+     "Suzhou literati founder of the Wu school (1427–1509)",
+     "r3 https://en.wikipedia.org/wiki/Shen_Zhou",
+     1
+    ],
+    [
+     "Wen Zhengming",
+     "Four Masters of the Ming",
+     "Suzhou painter-calligrapher (1470–1559), pupil of Shen Zhou",
+     "r3 https://en.wikipedia.org/wiki/Wen_Zhengming",
+     1
+    ],
+    [
+     "Tang Yin",
+     "Four Masters of the Ming",
+     "Suzhou painter-poet (1470–1524)",
+     "r3 https://en.wikipedia.org/wiki/Tang_Yin",
+     1
+    ],
+    [
+     "Qiu Ying",
+     "Four Masters of the Ming",
+     "Suzhou professional painter (c. 1494–1552)",
+     "r3 https://en.wikipedia.org/wiki/Qiu_Ying",
+     1
+    ],
+    [
+     "Wen Jia",
+     "Wen family and Suzhou followers",
+     "son of Wen Zhengming (1501–1583)",
+     "r3 https://en.wikipedia.org/wiki/Wen_Jia",
+     1
+    ],
+    [
+     "Wen Boren",
+     "Wen family and Suzhou followers",
+     "nephew of Wen Zhengming (1502–1575)",
+     "r3 https://en.wikipedia.org/wiki/Wen_Boren",
+     1
+    ],
+    [
+     "Chen Chun",
+     "Wen family and Suzhou followers",
+     "flower painter and pupil of Wen Zhengming (1483–1544)",
+     "r3 https://en.wikipedia.org/wiki/Chen_Chun",
+     1
+    ],
+    [
+     "Lu Zhi",
+     "Wen family and Suzhou followers",
+     "Suzhou landscapist (1496–1576)",
+     "r3 https://en.wikipedia.org/wiki/Lu_Zhi_(painter)",
+     1
+    ],
+    [
+     "Qian Gu",
+     "Wen family and Suzhou followers",
+     "Suzhou painter (1508–c. 1578), pupil of Wen Zhengming",
+     "r3 https://en.wikipedia.org/wiki/Qian_Gu",
+     1
+    ]
+   ],
    "alias_rows": []
   },
   "A2-6": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Circles: the early Shanghai masters, the Four Rens, the later Wu Changshuo circle (artist-led leaf).",
+   "catalogues": [
+    [
+     "https://digitalarchive.npm.gov.tw/",
+     "National Palace Museum Open Data",
+     "digital archive of the National Palace Museum, Taipei"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Shanghai+school",
+     "The Met collection search: Shanghai school",
+     "all Met objects matching 'Shanghai school'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Shanghai_School",
+     "Wikipedia: Shanghai School",
+     "the school and its painters"
+    ]
+   ],
    "kinds": [
     [
+     "Zhao Zhiqian",
+     "Early Shanghai masters",
+     "painter, calligrapher and seal carver (1829–1884)",
+     "r3 https://en.wikipedia.org/wiki/Zhao_Zhiqian",
+     1
+    ],
+    [
+     "Xugu",
+     "Early Shanghai masters",
+     "Buddhist monk painter (1823–1896)",
+     "r3 https://en.wikipedia.org/wiki/Xugu",
+     1
+    ],
+    [
      "Ren Bonian",
-     "Makers",
+     "Four Rens",
      "painting · China · b. 1840",
      "artists",
      1
     ],
     [
      "Ren Xun",
-     "Makers",
+     "Four Rens",
      "painting · China · b. 1835",
      "artists",
      1
     ],
     [
+     "Ren Xiong",
+     "Four Rens",
+     "eldest of the Four Rens (1823–1857)",
+     "r3 https://en.wikipedia.org/wiki/Ren_Xiong",
+     1
+    ],
+    [
      "Wu Chang-shuo",
-     "Makers",
-     "painting · China · b. 1844",
+     "Wu Changshuo circle",
+     "variant romanisation of Wu Changshuo (1844–1927)",
      "artists",
      1
     ],
     [
      "Wang Zhen",
-     "Makers",
-     "painting · China · b. 1867",
+     "Wu Changshuo circle",
+     "Wang Yiting (1867–1938), Shanghai painter and patron, Wu Changshuo's friend",
      "artists",
      1
     ],
     [
      "Wu Changshuo",
-     "Makers",
+     "Wu Changshuo circle",
      "Chinese painter, calligrapher and seal carver (1844–1927) of Shanghai; bold flower paintings",
      "possession",
      1
@@ -4173,61 +4087,79 @@
    "alias_rows": []
   },
   "A2-7": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Generations: the three founders, then their pupils of the second generation (artist-led leaf).",
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Lingnan",
+     "The Met collection search: Lingnan",
+     "all Met objects matching 'Lingnan'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Lingnan_School",
+     "Wikipedia: Lingnan School",
+     "the school and its painters"
+    ]
+   ],
    "kinds": [
     [
-     "Guanshan Yue",
-     "Makers",
-     "painting · China · b. 1912",
-     "artists",
-     1
-    ],
-    [
-     "Li Xiongcai",
-     "Makers",
-     "painting · China · b. 1910",
-     "artists",
-     1
-    ],
-    [
-     "Lai Ming",
-     "Makers",
-     "painting · b. 1929",
-     "artists",
-     1
-    ],
-    [
-     "Situ Qiao",
-     "Makers",
-     "painting · China · b. 1902",
-     "artists",
-     1
-    ],
-    [
      "Gao Qifeng",
-     "Makers",
+     "Founders",
      "painting · China · b. 1889",
      "artists",
      1
     ],
     [
      "Gao Jianfu",
-     "Makers",
+     "Founders",
      "painting · China · b. 1879",
      "artists",
      1
     ],
     [
+     "Chen Shuren",
+     "Founders",
+     "co-founder of the Lingnan school (1884–1948)",
+     "r3 https://en.wikipedia.org/wiki/Chen_Shuren",
+     1
+    ],
+    [
+     "Guanshan Yue",
+     "Second generation",
+     "painting · China · b. 1912",
+     "artists",
+     1
+    ],
+    [
+     "Li Xiongcai",
+     "Second generation",
+     "painting · China · b. 1910",
+     "artists",
+     1
+    ],
+    [
+     "Lai Ming",
+     "Second generation",
+     "painting · b. 1929",
+     "artists",
+     1
+    ],
+    [
+     "Situ Qiao",
+     "Second generation",
+     "painting · China · b. 1902",
+     "artists",
+     1
+    ],
+    [
      "Chao Shao-an",
-     "Makers",
+     "Second generation",
      "painting · China, Yuan dynasty, Song dynasty · b. 1905",
      "artists",
      1
     ],
     [
      "Yang Shan Shen",
-     "Makers",
+     "British Hong Kong",
      "painting · British Hong Kong, China · b. 1913",
      "artists",
      1
@@ -4236,21 +4168,765 @@
    "alias_rows": []
   },
   "A2-8": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Schools (court e-dokoro, Tosa, Fukko Yamato-e revival); works: every gathered emaki with sitelinks ≥ 1, by period; then collections and painters by date.",
+   "catalogues": [
+    [
+     "https://bunka.nii.ac.jp/",
+     "Cultural Heritage Online (Japan)",
+     "Japan's national database of designated cultural properties"
+    ],
+    [
+     "https://colbase.nich.go.jp/",
+     "ColBase",
+     "integrated collections database of Japan's four national museums"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Emakimono",
+     "Wikipedia: Emakimono",
+     "the handscroll form with a list of principal emaki"
+    ]
+   ],
    "kinds": [
     [
-     "Japanese emaki (Yamato-e)",
-     "Sub-types",
-     "emaki: Yamato-e painting by Tosa and court painters (A2)",
-     "manuscripts",
+     "Tosa school",
+     "Schools & phases",
+     "hereditary court painters of yamato-e, 14th–19th century",
+     "r3 https://en.wikipedia.org/wiki/Tosa_school",
      0
     ],
     [
-     "Emakimono (narrative handscrolls)",
-     "Sub-types",
-     "emaki: Yamato-e painting by Tosa and court painters (A2)",
-     "manuscripts",
+     "Illustrated Sutra of Cause and Effect",
+     "Heian emaki (to 1185)",
+     "c. 700",
+     "r3 https://www.wikidata.org/wiki/Q3511802",
+     0
+    ],
+    [
+     "Genji Monogatari Emaki",
+     "Heian emaki (to 1185)",
+     "c. 1100",
+     "r3 https://www.wikidata.org/wiki/Q3131044",
+     0
+    ],
+    [
+     "Hungry Ghosts Scroll",
+     "Heian emaki (to 1185)",
+     "c. 1100; Kyoto National Museum",
+     "r3 https://www.wikidata.org/wiki/Q3443328",
+     0
+    ],
+    [
+     "Kegon gojūgo-sho emaki",
+     "Heian emaki (to 1185)",
+     "c. 1100; Tōdai-ji Temple; Tokyo National Museum",
+     "r3 https://www.wikidata.org/wiki/Q3194660",
+     0
+    ],
+    [
+     "東大寺蔵華厳五十五所絵巻",
+     "Heian emaki (to 1185)",
+     "Japan, c. 1100; Tōdai-ji Temple; Tokyo National Museum",
+     "r3 https://www.wikidata.org/wiki/Q131438915",
+     0
+    ],
+    [
+     "Chōjū-jinbutsu-giga",
+     "Heian emaki (to 1185)",
+     "Japan, c. 1150; Tokyo National Museum; Kyoto National Museum",
+     "r3 https://www.wikidata.org/wiki/Q736832",
+     0
+    ],
+    [
+     "Kokawa-dera Engi Emaki",
+     "Heian emaki (to 1185)",
+     "Japan, c. 1150; Kyoto National Museum",
+     "r3 https://www.wikidata.org/wiki/Q595722",
+     0
+    ],
+    [
+     "Ban Dainagon Ekotoba",
+     "Kamakura emaki (1185–1333)",
+     "Japan, c. 1200; Idemitsu Museum of Arts",
+     "r3 https://www.wikidata.org/wiki/Q952153",
+     0
+    ],
+    [
+     "Shigisan Engi Emaki",
+     "Kamakura emaki (1185–1333)",
+     "Japan, c. 1200; Chōgosonshi-ji Temple",
+     "r3 https://www.wikidata.org/wiki/Q3443333",
+     0
+    ],
+    [
+     "Kibi Daijin Nittō Emaki",
+     "Kamakura emaki (1185–1333)",
+     "c. 1200; Museum of Fine Arts Boston",
+     "r3 https://www.wikidata.org/wiki/Q11412641",
+     0
+    ],
+    [
+     "Nezame Monogatari Emaki",
+     "Kamakura emaki (1185–1333)",
+     "Japan, c. 1200; Museum Yamato Bunkakan",
+     "r3 https://www.wikidata.org/wiki/Q51685293",
+     0
+    ],
+    [
+     "Yamai no Sōshi",
+     "Kamakura emaki (1185–1333)",
+     "c. 1200",
+     "r3 https://www.wikidata.org/wiki/Q3443326",
+     0
+    ],
+    [
+     "Nenjū Gyōji Emaki",
+     "Kamakura emaki (1185–1333)",
+     "c. 1200",
+     "r3 https://www.wikidata.org/wiki/Q17635666",
+     0
+    ],
+    [
+     "Kitano Tenjin Engi Emaki",
+     "Kamakura emaki (1185–1333)",
+     "1219; Kitano Tenmangū",
+     "r3 https://www.wikidata.org/wiki/Q3197562",
+     0
+    ],
+    [
+     "Tsuchigumo Sōshi",
+     "Kamakura emaki (1185–1333)",
+     "c. 1250; Tokyo National Museum",
+     "r3 https://www.wikidata.org/wiki/Q22123525",
+     0
+    ],
+    [
+     "Heiji Monogatari Emaki",
+     "Kamakura emaki (1185–1333)",
+     "Japan, 1275; Museum of Fine Arts Boston",
+     "r3 https://www.wikidata.org/wiki/Q3443335",
+     0
+    ],
+    [
+     "Illustrated Tale of the Heiji Civil War ： Scroll of the Imperial Visit to Rokuhara",
+     "Kamakura emaki (1185–1333)",
+     "Japan, 1275; Tokyo National Museum",
+     "r3 https://www.wikidata.org/wiki/Q28803791",
+     0
+    ],
+    [
+     "Illustrated Legends of the Kitano Tenjin Shrine (Kitano Tenjin engi emaki)",
+     "Kamakura emaki (1185–1333)",
+     "Japan, 1283; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q29383344",
+     0
+    ],
+    [
+     "Mōko Shūrai Ekotoba",
+     "Kamakura emaki (1185–1333)",
+     "Japan, 1293; Museum of the Imperial Collections",
+     "r3 https://www.wikidata.org/wiki/Q3087790",
+     0
+    ],
+    [
+     "Illustrated Biography of Shinran",
+     "Kamakura emaki (1185–1333)",
+     "1295",
+     "r3 https://www.wikidata.org/wiki/Q11521063",
+     0
+    ],
+    [
+     "Scroll of poetry contest on celebrated places of Ise",
+     "Kamakura emaki (1185–1333)",
+     "1295; Jingu Museum",
+     "r3 https://www.wikidata.org/wiki/Q114345672",
+     0
+    ],
+    [
+     "Tengu Zoshi Emaki",
+     "Kamakura emaki (1185–1333)",
+     "1296; Tokyo National Museum; Nezu Museum",
+     "r3 https://www.wikidata.org/wiki/Q52132828",
+     0
+    ],
+    [
+     "Tōseiden Emaki",
+     "Kamakura emaki (1185–1333)",
+     "1298",
+     "r3 https://www.wikidata.org/wiki/Q113162945",
+     0
+    ],
+    [
+     "Ippen Shōnin Eden",
+     "Kamakura emaki (1185–1333)",
+     "1299; Shōjōkō-ji Temple; Tokyo National Museum",
+     "r3 https://www.wikidata.org/wiki/Q2904124",
+     0
+    ],
+    [
+     "清浄光寺本一遍聖絵",
+     "Kamakura emaki (1185–1333)",
+     "Japan, 1299; Shōjōkō-ji Temple; Tokyo National Museum",
+     "r3 https://www.wikidata.org/wiki/Q136759815",
+     0
+    ],
+    [
+     "Illustrated Biography of Priest Ippen, Vol. 7",
+     "Kamakura emaki (1185–1333)",
+     "Japan, 1299; Tokyo National Museum",
+     "r3 https://www.wikidata.org/wiki/Q28803785",
+     0
+    ],
+    [
+     "Murasaki Shikibu Nikki Emaki",
+     "Kamakura emaki (1185–1333)",
+     "c. 1300",
+     "r3 https://www.wikidata.org/wiki/Q3443334",
+     0
+    ],
+    [
+     "Sumiyoshi Monogatari Emaki",
+     "Kamakura emaki (1185–1333)",
+     "c. 1300; Tokyo National Museum; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q52204034",
+     0
+    ],
+    [
+     "Kegon Engi Emaki",
+     "Kamakura emaki (1185–1333)",
+     "Japan, c. 1300; Kyoto National Museum",
+     "r3 https://www.wikidata.org/wiki/Q3443330",
+     0
+    ],
+    [
+     "Obusuma Saburō Ekotoba",
+     "Kamakura emaki (1185–1333)",
+     "c. 1300; Tokyo National Museum",
+     "r3 https://www.wikidata.org/wiki/Q22118229",
+     0
+    ],
+    [
+     "Zuijin Teiki Emaki",
+     "Kamakura emaki (1185–1333)",
+     "Japan, c. 1300; Okura Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q50439427",
+     0
+    ],
+    [
+     "Jūni Innen Emaki",
+     "Kamakura emaki (1185–1333)",
+     "c. 1300; Nezu Museum",
+     "r3 https://www.wikidata.org/wiki/Q54640546",
+     0
+    ],
+    [
+     "Saigyō Monogatari Emaki",
+     "Kamakura emaki (1185–1333)",
+     "c. 1300; Tokugawa Art Museum",
+     "r3 https://www.wikidata.org/wiki/Q3461598",
+     0
+    ],
+    [
+     "Shogunzuka emaki",
+     "Kamakura emaki (1185–1333)",
+     "c. 1300",
+     "r3 https://www.wikidata.org/wiki/Q100315317",
+     0
+    ],
+    [
+     "Imperial Visitation for the Ceremonial Horserace of 1024",
+     "Kamakura emaki (1185–1333)",
+     "c. 1300; Kubosō Memorial Museum of Arts; Seikadō Bunko Library",
+     "r3 https://www.wikidata.org/wiki/Q106614535",
+     0
+    ],
+    [
+     "Satake Version of the Thirty-six Immortal Poets",
+     "Kamakura emaki (1185–1333)",
+     "c. 1300; Museum Yamato Bunkakan",
+     "r3 https://www.wikidata.org/wiki/Q11383400",
+     0
+    ],
+    [
+     "Night Attack on the Sanjô Palace, from the Illustrated Scrolls of the Events of the Heiji Era (Heiji monogatari emaki)",
+     "Kamakura emaki (1185–1333)",
+     "Japan, c. 1300; Museum of Fine Arts Boston",
+     "r3 https://www.wikidata.org/wiki/Q126673828",
+     0
+    ],
+    [
+     "Kasuga Gongen Genki E",
+     "Kamakura emaki (1185–1333)",
+     "1309; Museum of the Imperial Collections",
+     "r3 https://www.wikidata.org/wiki/Q6374869",
+     0
+    ],
+    [
+     "Daisen-ji Engi",
+     "Kamakura emaki (1185–1333)",
+     "1320",
+     "r3 https://www.wikidata.org/wiki/Q11434609",
+     0
+    ],
+    [
+     "Tenshi Sekkan Miei",
+     "Muromachi emaki (1333–1573)",
+     "1340; Museum of the Imperial Collections",
+     "r3 https://www.wikidata.org/wiki/Q11442519",
+     0
+    ],
+    [
+     "Scroll of The Latter Three Years' War",
+     "Muromachi emaki (1333–1573)",
+     "Japan, 1347; Tokyo National Museum",
+     "r3 https://www.wikidata.org/wiki/Q3594051",
+     0
+    ],
+    [
+     "Suwa Daimyōjin Ekotoba",
+     "Muromachi emaki (1333–1573)",
+     "1356",
+     "r3 https://www.wikidata.org/wiki/Q11631818",
+     0
+    ],
+    [
+     "Kōmyō-shingon Kudoku Emaki",
+     "Muromachi emaki (1333–1573)",
+     "1398; Myōō-in Temple",
+     "r3 https://www.wikidata.org/wiki/Q11388442",
+     0
+    ],
+    [
+     "Makura no Sōshi Ekotoba",
+     "Muromachi emaki (1333–1573)",
+     "c. 1400",
+     "r3 https://www.wikidata.org/wiki/Q11532759",
+     0
+    ],
+    [
+     "The Story of a Painter",
+     "Muromachi emaki (1333–1573)",
+     "c. 1400; Museum of the Imperial Collections",
+     "r3 https://www.wikidata.org/wiki/Q11606852",
+     0
+    ],
+    [
+     "Hōyaki Amida Engi",
+     "Muromachi emaki (1333–1573)",
+     "c. 1400; Kamakura Museum of National Treasures",
+     "r3 https://www.wikidata.org/wiki/Q131553041",
+     0
+    ],
+    [
+     "Picture Scroll of the Former Nine Years War",
+     "Muromachi emaki (1333–1573)",
+     "c. 1400; Tokyo National Museum",
+     "r3 https://www.wikidata.org/wiki/Q30942298",
+     0
+    ],
+    [
+     "Genjō Sanzō-e",
+     "Muromachi emaki (1333–1573)",
+     "Japan, c. 1400; Fujita Art Museum",
+     "r3 https://www.wikidata.org/wiki/Q53752209",
+     0
+    ],
+    [
+     "Tōhoku-in Shokunin Uta-awase Emaki",
+     "Muromachi emaki (1333–1573)",
+     "c. 1400; Tokyo National Museum",
+     "r3 https://www.wikidata.org/wiki/Q54562940",
+     0
+    ],
+    [
+     "Chion-in-bon Hōnen Shōnin Gyōjō Ezu",
+     "Muromachi emaki (1333–1573)",
+     "Japan, c. 1400",
+     "r3 https://www.wikidata.org/wiki/Q107046863",
+     0
+    ],
+    [
+     "Jingū Kōgō Engi Emaki",
+     "Muromachi emaki (1333–1573)",
+     "1433; Konda Hachimangū",
+     "r3 https://www.wikidata.org/wiki/Q11588780",
+     0
+    ],
+    [
+     "Landscape of the Four Seasons",
+     "Muromachi emaki (1333–1573)",
+     "Japan, 1486; Mōri Museum",
+     "r3 https://www.wikidata.org/wiki/Q42192051",
+     0
+    ],
+    [
+     "Seikō-ji Engi Emaki",
+     "Muromachi emaki (1333–1573)",
+     "1487; Tokyo National Museum",
+     "r3 https://www.wikidata.org/wiki/Q52241903",
+     0
+    ],
+    [
+     "Sanjūni-ban Shokunin Uta-awase",
+     "Muromachi emaki (1333–1573)",
+     "1494",
+     "r3 https://www.wikidata.org/wiki/Q11354492",
+     0
+    ],
+    [
+     "Ishiyamadera engi emaki",
+     "Muromachi emaki (1333–1573)",
+     "1497; Ishiyama-dera Temple",
+     "r3 https://www.wikidata.org/wiki/Q11585528",
+     0
+    ],
+    [
+     "Yūki Kassen Ekotoba",
+     "Muromachi emaki (1333–1573)",
+     "c. 1500; National Museum of Japanese History",
+     "r3 https://www.wikidata.org/wiki/Q3574305",
+     0
+    ],
+    [
+     "Shichijūichi-ban Shokunin Uta-awase",
+     "Muromachi emaki (1333–1573)",
+     "c. 1500",
+     "r3 https://www.wikidata.org/wiki/Q11353413",
+     0
+    ],
+    [
+     "Kiyomizu-dera Engi Emaki",
+     "Muromachi emaki (1333–1573)",
+     "1517; Tokyo National Museum",
+     "r3 https://www.wikidata.org/wiki/Q51844091",
+     0
+    ],
+    [
+     "Litany to Holy Communion and Meditation",
+     "Muromachi emaki (1333–1573)",
+     "Japan, 1520; Miki Sawada Memorial Museum",
+     "r3 https://www.wikidata.org/wiki/Q114705046",
+     0
+    ],
+    [
+     "Kuwanomidera Engi Emaki",
+     "Muromachi emaki (1333–1573)",
+     "1532; Kuwanomi-dera Temple",
+     "r3 https://www.wikidata.org/wiki/Q84590788",
+     0
+    ],
+    [
+     "Shuhanron Emaki",
+     "Edo emaki and later copies",
+     "c. 1600; Tokyo National Museum",
+     "r3 https://www.wikidata.org/wiki/Q15623976",
+     0
+    ],
+    [
+     "Dōjō-ji Engi Emaki",
+     "Edo emaki and later copies",
+     "c. 1600; Dōjō-ji Temple",
+     "r3 https://www.wikidata.org/wiki/Q17177313",
+     0
+    ],
+    [
+     "He-gassen",
+     "Edo emaki and later copies",
+     "1603; Waseda University Library",
+     "r3 https://www.wikidata.org/wiki/Q866925",
+     0
+    ],
+    [
+     "Nagauta song",
+     "Edo emaki and later copies",
+     "Tokugawa shogunate, 1640; Chester Beatty Library",
+     "r3 https://www.wikidata.org/wiki/Q17214552",
+     0
+    ],
+    [
+     "Waxwings, Cherry Blossoms, and Bamboo",
+     "Edo emaki and later copies",
+     "Japan, 1674; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q78664918",
+     0
+    ],
+    [
+     "Urashima",
+     "Edo emaki and later copies",
+     "Japan, c. 1700; Bodleian Library",
+     "r3 https://www.wikidata.org/wiki/Q54226016",
+     0
+    ],
+    [
+     "Hyakkai Zukan",
+     "Edo emaki and later copies",
+     "1737; Fukuoka City Museum",
+     "r3 https://www.wikidata.org/wiki/Q3031582",
+     0
+    ],
+    [
+     "Buson yōkai emaki",
+     "Edo emaki and later copies",
+     "Kenshō-ji Temple, c. 1750",
+     "r3 https://www.wikidata.org/wiki/Q11622009",
+     0
+    ],
+    [
+     "Shijō dōjō e-kotoba Hachi no ge",
+     "Edo emaki and later copies",
+     "Japan, 1801; Musée Cernuschi",
+     "r3 https://www.wikidata.org/wiki/Q97596479",
+     0
+    ],
+    [
+     "The Saltmaker's Story",
+     "Edo emaki and later copies",
+     "Japan, 1886; Cleveland Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q60472093",
+     0
+    ],
+    [
+     "Kidai Shōran",
+     "Edo emaki and later copies",
+     "c. 1900; Museum of Asian Art",
+     "r3 https://www.wikidata.org/wiki/Q11567805",
+     0
+    ],
+    [
+     "Kaikidan Ekotoba",
+     "Edo emaki and later copies",
+     "c. 1900; Fukuoka City Museum",
+     "r3 https://www.wikidata.org/wiki/Q11491671",
+     0
+    ],
+    [
+     "Metempsychosis",
+     "Edo emaki and later copies",
+     "1923; The National Museum of Modern Art",
+     "r3 https://www.wikidata.org/wiki/Q25217972",
+     0
+    ],
+    [
+     "Hyakki Yagyō Emaki",
+     "Emaki, undated",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q11580887",
+     0
+    ],
+    [
+     "Tosa Obake Zōshi",
+     "Emaki, undated",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q11422992",
+     0
+    ],
+    [
+     "Bakemono no e",
+     "Emaki, undated",
+     "Japan; L. Tom Perry Special Collections",
+     "r3 https://www.wikidata.org/wiki/Q60760614",
+     0
+    ],
+    [
+     "Hell Scroll",
+     "Emaki, undated",
+     "Japan; Tokyo National Museum",
+     "r3 https://www.wikidata.org/wiki/Q16939154",
+     0
+    ],
+    [
+     "Three portraits in Jingo-ji",
+     "Emaki, undated",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q96097091",
+     0
+    ],
+    [
+     "Bakemono-tsukushi-emaki",
+     "Emaki, undated",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q11400679",
+     0
+    ],
+    [
+     "Kaiki Chōjū Zukan",
+     "Emaki, undated",
+     "Seijo University Library",
+     "r3 https://www.wikidata.org/wiki/Q11491673",
+     0
+    ],
+    [
+     "Haseo-zōshi",
+     "Emaki, undated",
+     "Eisei Bunko Museum",
+     "r3 https://www.wikidata.org/wiki/Q11654070",
+     0
+    ],
+    [
+     "Taima Mandala engi",
+     "Emaki, undated",
+     "Japan",
+     "r3 https://www.wikidata.org/wiki/Q17639719",
+     0
+    ],
+    [
+     "Bakemono Emaki",
+     "Emaki, undated",
+     "Miyoshi Mononoke Museum",
+     "r3 https://www.wikidata.org/wiki/Q22123231",
+     0
+    ],
+    [
+     "Yūzū nenbutsu engi",
+     "Emaki, undated",
+     "Eikan-dō Zenrin-ji Temple; Tokyo National Museum",
+     "r3 https://www.wikidata.org/wiki/Q24899892",
+     0
+    ],
+    [
+     "化物草紙",
+     "Emaki, undated",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q28687689",
+     0
+    ],
+    [
+     "Tenjin no Honji",
+     "Emaki, undated",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q55634920",
+     0
+    ],
+    [
+     "大山寺縁起",
+     "Emaki, undated",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q97184205",
+     0
+    ],
+    [
+     "Jōkyū-bon",
+     "Emaki, undated",
+     "Japan",
+     "r3 https://www.wikidata.org/wiki/Q107046845",
+     0
+    ],
+    [
+     "京都国立博物館本病草紙",
+     "Emaki, undated",
+     "Japan; Kyoto National Museum",
+     "r3 https://www.wikidata.org/wiki/Q107046880",
+     0
+    ],
+    [
+     "曹源寺本餓鬼草紙",
+     "Emaki, undated",
+     "Japan; Kyoto National Museum",
+     "r3 https://www.wikidata.org/wiki/Q107046882",
+     0
+    ],
+    [
+     "Sanno Miraculous Chronicles",
+     "Emaki, undated",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q109363131",
+     0
+    ],
+    [
+     "Hyakki Yagyō Zu",
+     "Emaki, undated",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q139806094",
+     0
+    ],
+    [
+     "Disowned Goblin",
+     "Emaki, undated",
+     "Fukuoka Art Museum",
+     "r3 https://www.wikidata.org/wiki/Q11400099",
+     0
+    ],
+    [
+     "小柴垣草紙",
+     "Emaki, undated",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q11461997",
+     0
+    ],
+    [
+     "袋法師絵詞",
+     "Emaki, undated",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q11626543",
+     0
+    ],
+    [
+     "Tsukumogami Emaki",
+     "Emaki, undated",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q22122963",
+     0
+    ],
+    [
+     "Rouleaux illustrés du Dit de Hōgen",
+     "Emaki, undated",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q50377226",
+     0
+    ],
+    [
+     "Vanderbilt Museum of Art",
+     "Collections",
+     "49 manuscripts of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Vanderbilt+Museum+of+Art",
+     0
+    ],
+    [
+     "Tokyo National Museum",
+     "Collections",
+     "22 manuscripts of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Tokyo+National+Museum",
+     0
+    ],
+    [
+     "Kyoto National Museum",
+     "Collections",
+     "8 manuscripts of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Kyoto+National+Museum",
+     0
+    ],
+    [
+     "Museum of the Imperial Collections",
+     "Collections",
+     "4 manuscripts of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Museum+of+the+Imperial+Collections",
+     0
+    ],
+    [
+     "Museum of Fine Arts Boston",
+     "Collections",
+     "3 manuscripts of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Museum+of+Fine+Arts+Boston",
+     0
+    ],
+    [
+     "Nara National Museum",
+     "Collections",
+     "3 manuscripts of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Nara+National+Museum",
+     0
+    ],
+    [
+     "Metropolitan Museum of Art",
+     "Collections",
+     "3 manuscripts of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Metropolitan+Museum+of+Art",
+     0
+    ],
+    [
+     "Nezu Museum",
+     "Collections",
+     "3 manuscripts of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Nezu+Museum",
      0
     ],
     [
@@ -4301,13 +4977,51 @@
      "painting · Japan · b. 1086",
      "artists",
      1
+    ],
+    [
+     "Tosa Mitsunobu",
+     "Makers",
+     "head of the court painting bureau (1434–1525)",
+     "r3 https://en.wikipedia.org/wiki/Tosa_Mitsunobu",
+     1
+    ],
+    [
+     "Tosa Mitsuoki",
+     "Makers",
+     "restored the Tosa school at court (1617–1691)",
+     "r3 https://en.wikipedia.org/wiki/Tosa_Mitsuoki",
+     1
     ]
    ],
-   "alias_rows": []
+   "alias_rows": [
+    "Japanese emaki (Yamato-e)",
+    "Emakimono (narrative handscrolls)"
+   ]
   },
   "A2-9": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Generations: founders, Momoyama masters, Edo Kanō (oku-eshi houses), Meiji heirs; the rival Hasegawa school and Kanō-trained outliers last.",
+   "catalogues": [
+    [
+     "https://colbase.nich.go.jp/",
+     "ColBase",
+     "integrated collections database of Japan's four national museums"
+    ],
+    [
+     "https://bunka.nii.ac.jp/",
+     "Cultural Heritage Online (Japan)",
+     "Japan's national database of designated cultural properties"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Kano+school",
+     "The Met collection search: Kano school",
+     "all Met objects matching 'Kano school'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Kanō_school",
+     "Wikipedia: Kanō school",
+     "the school, its houses and painters"
+    ]
+   ],
    "kinds": [
     [
      "Japanese screen and wall painting (shōhekiga, fusuma-e)",
@@ -4317,218 +5031,383 @@
      0
     ],
     [
-     "Shimooka Renjō",
-     "Makers",
-     "trained in the Kanō school before turning to photography · b. 1823",
-     "artists",
+     "Kanō Masanobu",
+     "Founders",
+     "founder of the school (1434–1530), shogunal painter",
+     "r3 https://en.wikipedia.org/wiki/Kanō_Masanobu",
      1
     ],
     [
-     "Kanō Hōgai",
-     "Makers",
-     "painting · Japan · b. 1828",
-     "artists",
-     1
-    ],
-    [
-     "Hashimoto Gahō",
-     "Makers",
-     "painting · Japan · b. 1835 · also Nihonga",
-     "artists",
-     1
-    ],
-    [
-     "Hasegawa Tōhaku",
-     "Makers",
-     "Japanese painter (1539–1610), founder of the Hasegawa school, rival of the Kanō: Pine Trees screens",
-     "possession",
+     "Kanō Motonobu",
+     "Founders",
+     "consolidated the school's style (1476–1559)",
+     "r3 https://en.wikipedia.org/wiki/Kanō_Motonobu",
      1
     ],
     [
      "Kanō Eitoku",
-     "Makers",
+     "Momoyama masters",
      "Japanese painter (1543–1590), Kanō school master of monumental gold-ground screens and fusuma",
      "possession",
      1
     ],
     [
      "Kanō Sanraku",
-     "Makers",
+     "Momoyama masters",
      "Japanese painter (1559–1635), Eitoku's pupil and adopted heir, Kanō school screens and fusuma",
      "possession",
+     1
+    ],
+    [
+     "Kanō Sansetsu",
+     "Kyō-Kanō",
+     "Kyoto branch heir of Sanraku (1590–1651)",
+     "r3 https://en.wikipedia.org/wiki/Kanō_Sansetsu",
+     1
+    ],
+    [
+     "Kanō Tan'yū",
+     "Edo Kanō",
+     "head of the Kajibashi house, shogunal painter (1602–1674)",
+     "r3 https://en.wikipedia.org/wiki/Kanō_Tan'yū",
+     1
+    ],
+    [
+     "Kanō Naonobu",
+     "Edo Kanō",
+     "founder of the Kobikichō house (1607–1650)",
+     "r3 https://en.wikipedia.org/wiki/Kanō_Naonobu",
+     1
+    ],
+    [
+     "Kanō Tsunenobu",
+     "Edo Kanō",
+     "head of the Kobikichō house (1636–1713)",
+     "r3 https://en.wikipedia.org/wiki/Kanō_Tsunenobu",
+     1
+    ],
+    [
+     "Kanō Hōgai",
+     "Meiji heirs",
+     "painting · Japan · b. 1828",
+     "artists",
+     1
+    ],
+    [
+     "Hashimoto Gahō",
+     "Meiji heirs",
+     "painting · Japan · b. 1835 · also Nihonga",
+     "artists",
+     1
+    ],
+    [
+     "Hasegawa Tōhaku",
+     "Hasegawa school (rival)",
+     "Japanese painter (1539–1610), founder of the Hasegawa school, rival of the Kanō: Pine Trees screens",
+     "possession",
+     1
+    ],
+    [
+     "Shimooka Renjō",
+     "Kanō-trained outliers",
+     "Kanō-trained painter (1823–1914) who became a pioneer photographer in Yokohama",
+     "artists",
      1
     ]
    ],
    "alias_rows": []
   },
   "A2-10": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Phases: Kyoto founders, Genroku Rinpa, Edo Rinpa, modern Rinpa (artist-led leaf).",
+   "catalogues": [
+    [
+     "https://colbase.nich.go.jp/",
+     "ColBase",
+     "integrated collections database of Japan's four national museums"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Rinpa",
+     "The Met collection search: Rinpa",
+     "all Met objects matching 'Rinpa'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Rinpa_school",
+     "Wikipedia: Rinpa school",
+     "the school and its painters"
+    ]
+   ],
    "kinds": [
     [
-     "Kamisaka Sekka",
-     "Makers",
-     "Kamisaka Sekka, the last major Rinpa designer-painter · b. 1866",
-     "artists",
+     "Tawaraya Sōtatsu",
+     "Kyoto founders",
+     "Japanese painter (active c. 1600–1640), co-founder of the Rinpa school: Wind God and Thunder God",
+     "possession",
+     1
+    ],
+    [
+     "Hon'ami Kōetsu",
+     "Kyoto founders",
+     "calligrapher, potter and lacquer designer (1558–1637), co-founder",
+     "r3 https://en.wikipedia.org/wiki/Hon'ami_Kōetsu",
      1
     ],
     [
      "Ogata Kōrin",
-     "Makers",
+     "Genroku Rinpa",
      "Japanese painter and designer (1658–1716), Rinpa master: Red and White Plum Blossoms, Irises",
      "possession",
      1
     ],
     [
+     "Ogata Kenzan",
+     "Genroku Rinpa",
+     "potter and painter (1663–1743), Kōrin's brother",
+     "r3 https://en.wikipedia.org/wiki/Ogata_Kenzan",
+     1
+    ],
+    [
+     "Watanabe Shikō",
+     "Genroku Rinpa",
+     "painter in Kōrin's manner (1683–1755)",
+     "r3 https://en.wikipedia.org/wiki/Watanabe_Shikō",
+     1
+    ],
+    [
      "Sakai Hōitsu",
-     "Makers",
+     "Edo Rinpa",
      "Japanese painter (1761–1828) who revived the Rinpa school in Edo: Summer and Autumn Grasses",
      "possession",
      1
     ],
     [
-     "Tawaraya Sōtatsu",
-     "Makers",
-     "Japanese painter (active c. 1600–1640), co-founder of the Rinpa school: Wind God and Thunder God",
-     "possession",
+     "Suzuki Kiitsu",
+     "Edo Rinpa",
+     "Hōitsu's leading pupil (1796–1858)",
+     "r3 https://en.wikipedia.org/wiki/Suzuki_Kiitsu",
+     1
+    ],
+    [
+     "Kamisaka Sekka",
+     "Modern Rinpa",
+     "Kamisaka Sekka, the last major Rinpa designer-painter · b. 1866",
+     "artists",
      1
     ]
    ],
    "alias_rows": []
   },
   "A2-11": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Generations: founders, the mid-Edo masters, later Edo nanga, Meiji–Taishō nanga (artist-led leaf).",
+   "catalogues": [
+    [
+     "https://colbase.nich.go.jp/",
+     "ColBase",
+     "integrated collections database of Japan's four national museums"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Nanga",
+     "The Met collection search: Nanga",
+     "all Met objects matching 'Nanga'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Nanga_(Japanese_painting)",
+     "Wikipedia: Nanga (Japanese painting)",
+     "the school and its painters"
+    ]
+   ],
    "kinds": [
     [
+     "Gion Nankai",
+     "Founders",
+     "Confucian scholar-painter (1676–1751), pioneer of nanga",
+     "r3 https://en.wikipedia.org/wiki/Gion_Nankai",
+     1
+    ],
+    [
+     "Sakaki Hyakusen",
+     "Founders",
+     "Kyoto pioneer of literati painting (1698–1753)",
+     "r3 https://en.wikipedia.org/wiki/Sakaki_Hyakusen",
+     1
+    ],
+    [
+     "Yanagisawa Kien",
+     "Founders",
+     "samurai literatus (1703–1758)",
+     "r3 https://en.wikipedia.org/wiki/Yanagisawa_Kien",
+     1
+    ],
+    [
+     "Ike no Taiga",
+     "Mid-Edo masters",
+     "Kyoto master (1723–1776)",
+     "r3 https://en.wikipedia.org/wiki/Ike_no_Taiga",
+     1
+    ],
+    [
+     "Yosa Buson",
+     "Mid-Edo masters",
+     "haiku poet and painter (1716–1784)",
+     "r3 https://en.wikipedia.org/wiki/Yosa_Buson",
+     1
+    ],
+    [
+     "Fujimoto Tesseki",
+     "Later Edo nanga",
+     "painting · Japan · b. 1816",
+     "artists",
+     1
+    ],
+    [
+     "Ōtagaki Rengetsu",
+     "Later Edo nanga",
+     "painting · Japan · b. 1791",
+     "artists",
+     1
+    ],
+    [
+     "Uragami Gyokudō",
+     "Later Edo nanga",
+     "qin player and painter (1745–1820)",
+     "r3 https://en.wikipedia.org/wiki/Uragami_Gyokudō",
+     1
+    ],
+    [
+     "Tanomura Chikuden",
+     "Later Edo nanga",
+     "Bungo painter and theorist (1777–1835)",
+     "r3 https://en.wikipedia.org/wiki/Tanomura_Chikuden",
+     1
+    ],
+    [
+     "Tani Bunchō",
+     "Later Edo nanga",
+     "Edo eclectic master (1763–1841)",
+     "r3 https://en.wikipedia.org/wiki/Tani_Bunchō",
+     1
+    ],
+    [
+     "Watanabe Kazan",
+     "Later Edo nanga",
+     "samurai painter and scholar (1793–1841)",
+     "r3 https://en.wikipedia.org/wiki/Watanabe_Kazan",
+     1
+    ],
+    [
      "Fukuda Kōko",
-     "Makers",
+     "Meiji–Taishō nanga",
      "painting · Japan · b. 1883 · also Nihonga",
      "artists",
      1
     ],
     [
      "Denbu Takuno",
-     "Makers",
+     "Meiji–Taishō nanga",
      "painting · Japan · b. 1895 · also Nihonga",
      "artists",
      1
     ],
     [
      "Kōgyū Mizuta",
-     "Makers",
+     "Meiji–Taishō nanga",
      "painting · Japan · b. 1897 · also Nihonga",
      "artists",
      1
     ],
     [
      "Seitō Fukuda",
-     "Makers",
+     "Meiji–Taishō nanga",
      "painting · Japan · b. 1896 · also Nihonga",
      "artists",
      1
     ],
     [
      "Teruhiko Kodama",
-     "Makers",
+     "Meiji–Taishō nanga",
      "painting · Japan · b. 1898 · also Nihonga",
      "artists",
      1
     ],
     [
      "Rakudo Kawaguchi",
-     "Makers",
+     "Meiji–Taishō nanga",
      "painting · Japan · b. 1898 · also Nihonga",
      "artists",
      1
     ],
     [
      "Yoshitsugu Haizan",
-     "Makers",
+     "Meiji–Taishō nanga",
      "painting · Japan · b. 1846",
      "artists",
      1
     ],
     [
      "Seiko Okuhara",
-     "Makers",
+     "Meiji–Taishō nanga",
      "painting · Japan · b. 1837",
      "artists",
      1
     ],
     [
      "Matsumoto Fūko",
-     "Makers",
+     "Meiji–Taishō nanga",
      "painting · Japan · b. 1840",
      "artists",
      1
     ],
     [
      "Katei Taki",
-     "Makers",
+     "Meiji–Taishō nanga",
      "painting · Japan · b. 1830",
      "artists",
      1
     ],
     [
      "Tanomura Chokunyū",
-     "Makers",
+     "Meiji–Taishō nanga",
      "painting · Japan · b. 1814",
      "artists",
      1
     ],
     [
-     "Fujimoto Tesseki",
-     "Makers",
-     "painting · Japan · b. 1816",
-     "artists",
-     1
-    ],
-    [
      "Atomi Kakei",
-     "Makers",
+     "Meiji–Taishō nanga",
      "painting · Japan · b. 1840",
      "artists",
      1
     ],
     [
      "Noguchi Shōhin",
-     "Makers",
+     "Meiji–Taishō nanga",
      "painting · Japan · b. 1847",
      "artists",
      1
     ],
     [
      "Noguchi Yūkoku",
-     "Makers",
+     "Meiji–Taishō nanga",
      "painting · Japan · b. 1825",
      "artists",
      1
     ],
     [
      "Tomioka Tessai",
-     "Makers",
+     "Meiji–Taishō nanga",
      "painting · Japan · b. 1837",
      "artists",
      1
     ],
     [
      "Shikō Imamura",
-     "Makers",
+     "Meiji–Taishō nanga",
      "painting · Japan · b. 1880",
      "artists",
      1
     ],
     [
-     "Ōtagaki Rengetsu",
-     "Makers",
-     "painting · Japan · b. 1791",
-     "artists",
-     1
-    ],
-    [
      "Hakuryu",
-     "Makers",
+     "Meiji–Taishō nanga",
      "painting · Japan · b. 1833",
      "artists",
      1
@@ -4537,134 +5416,317 @@
    "alias_rows": []
   },
   "A2-12": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Branches: Maruyama school founders, Shijō school, then the Meiji–Taishō Kyoto heirs (artist-led leaf).",
+   "catalogues": [
+    [
+     "https://colbase.nich.go.jp/",
+     "ColBase",
+     "integrated collections database of Japan's four national museums"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Shijo+school",
+     "The Met collection search: Shijo school",
+     "all Met objects matching 'Shijo school'"
+    ]
+   ],
    "kinds": [
     [
-     "Imao Keinen",
-     "Makers",
-     "painting · Japan · b. 1845",
-     "artists",
+     "Maruyama Ōkyo",
+     "Maruyama school",
+     "founder of the school (1733–1795)",
+     "r3 https://en.wikipedia.org/wiki/Maruyama_Ōkyo",
      1
     ],
     [
-     "Yamamoto Shunkyo",
-     "Makers",
-     "painting · Japan · b. 1872",
-     "artists",
+     "Nagasawa Rosetsu",
+     "Maruyama school",
+     "Ōkyo's most individual pupil (1754–1799)",
+     "r3 https://en.wikipedia.org/wiki/Nagasawa_Rosetsu",
      1
     ],
     [
-     "Kawabata Gyokushō",
-     "Makers",
-     "painting · Japan · b. 1842",
-     "artists",
+     "Mori Sosen",
+     "Maruyama school",
+     "animal painter, famed for monkeys (1747–1821)",
+     "r3 https://en.wikipedia.org/wiki/Mori_Sosen",
      1
     ],
     [
      "Suzuki Hyakunen",
-     "Makers",
+     "Shijō school",
      "Shijō-school painter · b. 1825",
      "artists",
      1
     ],
     [
      "Morikawa Sobun",
-     "Makers",
+     "Shijō school",
      "painting · Japan · b. 1847",
      "artists",
      1
     ],
     [
      "Shibata Zeshin",
-     "Makers",
+     "Shijō school",
      "painting · Japan · b. 1807",
      "artists",
      1
     ],
     [
      "Mochizuki Gyokusen",
-     "Makers",
+     "Shijō school",
      "painting · Japan · b. 1834",
      "artists",
      1
     ],
     [
      "Hōen",
-     "Makers",
+     "Shijō school",
      "Shijō-school painter (Nishiyama Hōen) · b. 1804",
      "artists",
      1
     ],
     [
+     "Matsumura Goshun",
+     "Shijō school",
+     "founder of the Shijō school (1752–1811)",
+     "r3 https://en.wikipedia.org/wiki/Matsumura_Goshun",
+     1
+    ],
+    [
+     "Matsumura Keibun",
+     "Shijō school",
+     "Goshun's brother (1779–1843)",
+     "r3 https://en.wikipedia.org/wiki/Matsumura_Keibun",
+     1
+    ],
+    [
+     "Imao Keinen",
+     "Meiji–Taishō Kyoto heirs",
+     "painting · Japan · b. 1845",
+     "artists",
+     1
+    ],
+    [
+     "Yamamoto Shunkyo",
+     "Meiji–Taishō Kyoto heirs",
+     "painting · Japan · b. 1872",
+     "artists",
+     1
+    ],
+    [
+     "Kawabata Gyokushō",
+     "Meiji–Taishō Kyoto heirs",
+     "painting · Japan · b. 1842",
+     "artists",
+     1
+    ],
+    [
      "Tsuji Kakō",
-     "Makers",
+     "Meiji–Taishō Kyoto heirs",
      "painting · Japan · b. 1870",
      "artists",
      1
     ],
     [
      "Kubota Beisen",
-     "Makers",
+     "Meiji–Taishō Kyoto heirs",
      "painting · Japan · b. 1852",
      "artists",
+     1
+    ],
+    [
+     "Takeuchi Seihō",
+     "Meiji–Taishō Kyoto heirs",
+     "Kyoto nihonga master trained in the Shijō line (1864–1942)",
+     "r3 https://en.wikipedia.org/wiki/Takeuchi_Seihō",
      1
     ]
    ],
    "alias_rows": []
   },
   "A2-14": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Generations: early Zen ink painters, the Shōkoku-ji school, Sesshū and his followers, the Ami painters (artist-led leaf).",
+   "catalogues": [
+    [
+     "https://colbase.nich.go.jp/",
+     "ColBase",
+     "integrated collections database of Japan's four national museums"
+    ],
+    [
+     "https://bunka.nii.ac.jp/",
+     "Cultural Heritage Online (Japan)",
+     "Japan's national database of designated cultural properties"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Muromachi+ink",
+     "The Met collection search: Muromachi ink",
+     "all Met objects matching 'Muromachi ink'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Ink_wash_painting",
+     "Wikipedia: Ink wash painting",
+     "the tradition with its masters"
+    ]
+   ],
    "kinds": [
     [
      "Bompō",
-     "Makers",
+     "Early Zen ink painters",
      "painting · Japan · b. 1348",
      "artists",
      1
     ],
     [
      "Kaō",
-     "Makers",
+     "Early Zen ink painters",
      "Takuma school; early Zen ink painter (Kaō Ninga) · b. 1288",
      "artists",
      1
     ],
     [
      "Mokuan Reien",
-     "Makers",
+     "Early Zen ink painters",
      "painting · Japan · b. 1300",
      "artists",
      1
     ],
     [
      "Tokusai",
-     "Makers",
+     "Early Zen ink painters",
      "painting · Japan · b. 1350",
      "artists",
+     1
+    ],
+    [
+     "Josetsu",
+     "Shōkoku-ji school",
+     "Zen monk painter of Catching a Catfish with a Gourd (c. 1413), Taizō-in",
+     "r3 https://en.wikipedia.org/wiki/Josetsu",
+     1
+    ],
+    [
+     "Tenshō Shūbun",
+     "Shōkoku-ji school",
+     "monk painter and shogunal artist (d. c. 1450)",
+     "r3 https://en.wikipedia.org/wiki/Tenshō_Shūbun",
+     1
+    ],
+    [
+     "Sesshū Tōyō",
+     "Sesshū and followers",
+     "master of Japanese ink painting (1420–1506)",
+     "r3 https://en.wikipedia.org/wiki/Sesshū_Tōyō",
+     1
+    ],
+    [
+     "Sōami",
+     "Ami school",
+     "shogunal connoisseur-painter (d. 1525)",
+     "r3 https://en.wikipedia.org/wiki/Sōami",
+     1
+    ],
+    [
+     "Nōami",
+     "Ami school",
+     "shogunal connoisseur-painter (1397–1471)",
+     "r3 https://en.wikipedia.org/wiki/Nōami",
      1
     ]
    ],
    "alias_rows": []
   },
   "A3-1": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Phases (early Solomonic, First and Second Gondarine), then workshops and named painters; collections ranked by gathered Ethiopian icon objects.",
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Ethiopian+icon",
+     "The Met collection search: Ethiopian icon",
+     "all Met objects matching 'Ethiopian icon'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Ethiopian_art",
+     "Wikipedia: Ethiopian art",
+     "survey with icon painting"
+    ]
+   ],
    "kinds": [
     [
      "First Gondarine style",
-     "Sub-types",
-     "",
+     "Schools & phases",
+     "court style of Gondar, c. 1630–1730",
      "evidence",
      0
     ],
     [
      "Wäldä Maryam workshop",
      "Centres & workshops",
-     "",
+     "18th-century Gondarine painter's workshop of diptychs and triptychs",
      "evidence",
      0
+    ],
+    [
+     "Penn Museum",
+     "Collections",
+     "49 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Penn+Museum",
+     0
+    ],
+    [
+     "Smithsonian National Museum of African Art",
+     "Collections",
+     "15 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Smithsonian+National+Museum+of+African+Art",
+     0
+    ],
+    [
+     "Victoria and Albert Museum",
+     "Collections",
+     "10 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
+     0
+    ],
+    [
+     "Metropolitan Museum of Art",
+     "Collections",
+     "6 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Metropolitan+Museum+of+Art",
+     0
+    ],
+    [
+     "Cleveland Museum of Art",
+     "Collections",
+     "5 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art",
+     0
+    ],
+    [
+     "Yale University (LUX)",
+     "Collections",
+     "4 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Yale+University+(LUX)",
+     0
+    ],
+    [
+     "Art Institute of Chicago",
+     "Collections",
+     "2 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Art+Institute+of+Chicago",
+     0
+    ],
+    [
+     "Minneapolis Institute of Art",
+     "Collections",
+     "2 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Minneapolis+Institute+of+Art",
+     0
+    ],
+    [
+     "Nicolò Brancaleon",
+     "Makers",
+     "Venetian painter working in Ethiopia c. 1480–1520",
+     "r3 https://en.wikipedia.org/wiki/Nicolò_Brancaleon",
+     1
     ]
    ],
    "alias_rows": [
@@ -4672,14 +5734,72 @@
    ]
   },
   "A3-2": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Sub-types (encaustic, tempera, mosaic icons; iconographic types), then centres and named icons by date; collections.",
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Byzantine+icon",
+     "The Met collection search: Byzantine icon",
+     "all Met objects matching 'Byzantine icon'"
+    ],
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=icon+Byzantine",
+     "British Museum collection search: icon Byzantine",
+     "all British Museum objects matching 'icon Byzantine'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Icon",
+     "Wikipedia: Icon",
+     "history of icons with principal Byzantine examples"
+    ]
+   ],
    "kinds": [
     [
-     "Athonite icon painting",
+     "Encaustic icons",
      "Sub-types",
-     "",
+     "wax-pigment panels of the 6th–7th century, preserved at Sinai",
+     "r3 https://en.wikipedia.org/wiki/Encaustic_painting",
+     0
+    ],
+    [
+     "Mosaic icons",
+     "Sub-types",
+     "portable micromosaic icons of the Palaiologan period",
+     "r3 https://en.wikipedia.org/wiki/Byzantine_mosaics",
+     0
+    ],
+    [
+     "Hodegetria",
+     "Sub-types",
+     "the Virgin pointing to the Christ Child, the defining Marian type",
+     "r3 https://en.wikipedia.org/wiki/Hodegetria",
+     0
+    ],
+    [
+     "Athonite icon painting",
+     "Centres & workshops",
+     "icon painting of the Mount Athos monasteries, Byzantine and post-Byzantine",
      "europe_folk",
+     0
+    ],
+    [
+     "Saint Catherine's Monastery",
+     "Centres & workshops",
+     "Sinai monastery holding the largest group of early icons",
+     "r3 https://en.wikipedia.org/wiki/Saint_Catherine's_Monastery",
+     0
+    ],
+    [
+     "Christ Pantocrator (Sinai)",
+     "Named icons",
+     "encaustic, 6th century; Saint Catherine's Monastery, Sinai",
+     "r3 https://en.wikipedia.org/wiki/Christ_Pantocrator_(Sinai)",
+     0
+    ],
+    [
+     "Theotokos of Vladimir",
+     "Named icons",
+     "Constantinople, c. 1130; Tretyakov Gallery, Moscow",
+     "r3 https://en.wikipedia.org/wiki/Theotokos_of_Vladimir",
      0
     ]
    ],
@@ -4688,63 +5808,121 @@
    ]
   },
   "A3-3": {
-   "axis": "",
-   "catalogues": [],
-   "kinds": [
+   "axis": "Generations: 15th-century founders, 16th-century masters, 17th-century and Ionian transition; Cretan-trained painters abroad last.",
+   "catalogues": [
     [
-     "Nikolaos Lampoudis",
-     "Makers",
-     "painting · Greece · also Palaeologan Renaissance",
-     "artists",
-     1
+     "https://www.benaki.org/",
+     "Benaki Museum",
+     "largest collection of Cretan school icons"
     ],
     [
+     "https://www.metmuseum.org/art/collection/search?q=Cretan+icon",
+     "The Met collection search: Cretan icon",
+     "all Met objects matching 'Cretan icon'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Cretan_School",
+     "Wikipedia: Cretan School",
+     "the school with a list of painters"
+    ]
+   ],
+   "kinds": [
+    [
      "Nikolaos Philanthropinos",
-     "Makers",
+     "15th-century founders",
      "painting · Byzantine Empire, Italy · b. 1380 · also Palaeologan Renaissance, Italian Renaissance",
      "artists",
      1
     ],
     [
+     "Angelos Akotantos",
+     "15th-century founders",
+     "painting · Byzantine Empire · b. 1400",
+     "artists",
+     1
+    ],
+    [
+     "Andreas Ritzos",
+     "15th-century founders",
+     "Candia master (c. 1421–1492)",
+     "r3 https://en.wikipedia.org/wiki/Andreas_Ritzos",
+     1
+    ],
+    [
+     "Andreas Pavias",
+     "15th-century founders",
+     "Candia painter (c. 1440–1504)",
+     "r3 https://en.wikipedia.org/wiki/Andreas_Pavias",
+     1
+    ],
+    [
      "Theophanes the Cretan",
-     "Makers",
+     "16th-century masters",
      "painting · Byzantine Empire · b. 1490",
      "artists",
      1
     ],
     [
+     "Michael Damaskinos",
+     "16th-century masters",
+     "painting · Greece · b. 1530",
+     "artists",
+     1
+    ],
+    [
+     "Georgios Klontzas",
+     "16th-century masters",
+     "Candia painter and miniaturist (1535–1608)",
+     "r3 https://en.wikipedia.org/wiki/Georgios_Klontzas",
+     1
+    ],
+    [
+     "Nikolaos Lampoudis",
+     "17th century and Ionian transition",
+     "painting · Greece · also Palaeologan Renaissance",
+     "artists",
+     1
+    ],
+    [
+     "Theodore Poulakis",
+     "17th century and Ionian transition",
+     "painting · Greece · b. 1622",
+     "artists",
+     1
+    ],
+    [
+     "Emmanuel Tzanes",
+     "17th century and Ionian transition",
+     "Cretan painter in Venice (1610–1690)",
+     "r3 https://en.wikipedia.org/wiki/Emmanuel_Tzanes",
+     1
+    ],
+    [
+     "Emmanuel Lambardos",
+     "17th century and Ionian transition",
+     "Cretan icon painter (c. 1567–after 1631)",
+     "r3 https://en.wikipedia.org/wiki/Emmanuel_Lambardos",
+     1
+    ],
+    [
      "Onufri",
-     "Makers",
+     "Cretan-trained painters abroad",
      "painting · Albania, Greece · b. 1550",
      "artists",
      1
     ],
     [
      "Belisario Corenzio",
-     "Makers",
+     "Cretan-trained painters abroad",
      "painting · Greece · b. 1558",
      "artists",
      1
     ],
     [
-     "Angelos Akotantos",
-     "Makers",
-     "painting · Byzantine Empire · b. 1400",
-     "artists",
-     1
-    ],
-    [
-     "Michael Damaskinos",
-     "Makers",
-     "painting · Greece · b. 1530",
-     "artists",
-     1
-    ],
-    [
-     "Theodore Poulakis",
-     "Makers",
-     "painting · Greece · b. 1622",
-     "artists",
+     "El Greco",
+     "Cretan-trained painters abroad",
+     "Domenikos Theotokopoulos (1541–1614), trained as a Cretan icon painter",
+     "r3 https://en.wikipedia.org/wiki/El_Greco",
      1
     ]
    ],
@@ -4754,192 +5932,509 @@
    ]
   },
   "A3-4": {
-   "axis": "",
-   "catalogues": [],
-   "kinds": [],
+   "axis": "Sub-types (painted panels, chased-silver revetments), then centres and named icons by date; collections.",
+   "catalogues": [
+    [
+     "https://museum.ge/",
+     "Georgian National Museum",
+     "national collections incl. the treasury of medieval icons"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Georgian_art",
+     "Wikipedia: Georgian art",
+     "survey including icon painting"
+    ]
+   ],
+   "kinds": [
+    [
+     "Repoussé revetment icons",
+     "Sub-types",
+     "icons sheathed in chased silver-gilt, the Georgian speciality",
+     "r3 https://en.wikipedia.org/wiki/Georgian_art",
+     0
+    ],
+    [
+     "Svaneti",
+     "Centres & workshops",
+     "highland region preserving medieval icons in village churches (Mestia museum)",
+     "r3 https://en.wikipedia.org/wiki/Svaneti",
+     0
+    ],
+    [
+     "Khakhuli triptych",
+     "Named icons",
+     "enamel and chased icon, 10th–12th century; Georgian National Museum, Tbilisi",
+     "r3 https://en.wikipedia.org/wiki/Khakhuli_triptych",
+     0
+    ],
+    [
+     "Anchiskhati icon",
+     "Named icons",
+     "6th-century icon of the Saviour with 12th-century revetment by Beka Opizari",
+     "r3 https://en.wikipedia.org/wiki/Anchiskhati_Basilica",
+     0
+    ],
+    [
+     "Федеральное государственное бюджетное учреждение культуры \"Государственный исторический музей\"",
+     "Collections",
+     "9 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Федеральное+государственное+бюджетное+учреждение+культуры+\"Государственный+истор",
+     0
+    ],
+    [
+     "Федеральное государственное бюджетное учреждение культуры \"Государственный Эрмитаж\"",
+     "Collections",
+     "5 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Федеральное+государственное+бюджетное+учреждение+культуры+\"Государственный+Эрмит",
+     0
+    ],
+    [
+     "Государственное бюджетное учреждение культуры города Москвы \"Государственный культурный центр-музей В.С. Высоц",
+     "Collections",
+     "4 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Государственное+бюджетное+учреждение+культуры+города+Москвы+\"Государственный+кул",
+     0
+    ],
+    [
+     "Федеральное государственное бюджетное учреждение культуры \"Саратовский государственный художественный музей им",
+     "Collections",
+     "3 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Федеральное+государственное+бюджетное+учреждение+культуры+\"Саратовский+государст",
+     0
+    ],
+    [
+     "Государственное бюджетное учреждение культуры Архангельской области \"Сольвычегодский историко-художественный м",
+     "Collections",
+     "3 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Государственное+бюджетное+учреждение+культуры+Архангельской+области+\"Сольвычегод",
+     0
+    ]
+   ],
    "alias_rows": [
     "Georgian / icon painting"
    ]
   },
   "A3-5": {
-   "axis": "",
-   "catalogues": [],
-   "kinds": [
+   "axis": "Workshops: Thessaloniki and Macedonian painters, Constantinople, painters in Rus' (artist-led leaf).",
+   "catalogues": [
     [
-     "Theodore Apsevdis",
-     "Makers",
-     "painting · Byzantine Empire · b. 1150",
-     "artists",
-     1
+     "https://www.metmuseum.org/art/collection/search?q=Palaiologan",
+     "The Met collection search: Palaiologan",
+     "all Met objects matching 'Palaiologan'"
     ],
     [
+     "https://en.wikipedia.org/wiki/Palaeologan_Renaissance",
+     "Wikipedia: Palaeologan Renaissance",
+     "the period with its works and painters"
+    ]
+   ],
+   "kinds": [
+    [
      "Manuel Panselinos",
-     "Makers",
+     "Thessaloniki and Macedonian workshops",
      "painting · Byzantine Empire · b. 1300",
      "artists",
      1
     ],
     [
      "Georgios Kalliergis",
-     "Makers",
+     "Thessaloniki and Macedonian workshops",
      "painting · Byzantine Empire · b. 1300",
      "artists",
      1
     ],
     [
+     "Michael Astrapas",
+     "Thessaloniki and Macedonian workshops",
+     "painter of Serbian and Macedonian churches, fl. 1294–1317",
+     "r3 https://en.wikipedia.org/wiki/Michael_Astrapas_and_Eutychios",
+     1
+    ],
+    [
+     "Theophanes the Greek",
+     "Painters in Rus'",
+     "Constantinople-trained painter in Novgorod and Moscow (c. 1340–c. 1410)",
+     "r3 https://en.wikipedia.org/wiki/Theophanes_the_Greek",
+     1
+    ],
+    [
+     "Theodore Apsevdis",
+     "Cyprus",
+     "painting · Byzantine Empire · b. 1150",
+     "artists",
+     1
+    ],
+    [
      "Ioannis Pagomenos",
-     "Makers",
+     "Crete",
      "painting · Kingdom of Candia · b. 1285",
      "artists",
      1
+    ],
+    [
+     "Chora Church",
+     "Works",
+     "mosaics and frescoes of 1315–21, Constantinople",
+     "r3 https://en.wikipedia.org/wiki/Chora_Church",
+     0
     ]
    ],
    "alias_rows": []
   },
   "A3-6": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Schools in order (Novgorod, Pskov, Moscow, Vologda, Stroganov, Armoury Chamber, Old Believer and Urals), then painters by school; secular Petrine painters wrongly gathered here last.",
+   "catalogues": [
+    [
+     "https://goskatalog.ru/portal/",
+     "Goskatalog",
+     "State Catalogue of the Museum Fund of the Russian Federation"
+    ],
+    [
+     "https://www.tretyakovgallery.ru/en/collection/",
+     "Tretyakov Gallery collection",
+     "the main collection of Old Russian icons"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Russian_icons",
+     "Wikipedia: Russian icons",
+     "survey of schools and masters"
+    ]
+   ],
    "kinds": [
-    [
-     "Old Believer icons and cast icons",
-     "Sub-types",
-     "A3 Russian icon painting kind Old Believer; cast icons G1 seam; cast icons a seam with G1 metalwork",
-     "europe_folk",
-     0
-    ],
-    [
-     "Nevyansk icon",
-     "Sub-types",
-     "A3 Russian icon painting kind Nevyansk (Urals Old Believer school)",
-     "europe_folk",
-     0
-    ],
-    [
-     "Karelian / icon painting",
-     "Sub-types",
-     "",
-     "europe_folk",
-     0
-    ],
     [
      "Novgorod school",
      "Schools & phases",
-     "",
+     "bold red-ground icons of Novgorod, 12th–16th century",
      "evidence",
      0
     ],
     [
      "Old Believer icons",
      "Schools & phases",
-     "cast icons a G1 seam",
+     "icons of the Old Believers after the 1666 schism",
      "evidence",
      0
     ],
     [
      "Nevyansk icons",
      "Schools & phases",
-     "",
+     "Urals Old Believer school of Nevyansk, 18th–19th century",
      "evidence",
      0
     ],
     [
      "Karelian / Northern icons",
      "Schools & phases",
-     "",
+     "icons of Karelia and the Russian North",
      "evidence",
      0
     ],
     [
-     "Simon Ushakov",
-     "Makers",
-     "painting · Russia · b. 1626",
-     "artists",
-     1
-    ],
-    [
-     "Denis de Glouchitsa",
-     "Makers",
-     "painting · Grand Principality of Moscow · b. 1363",
-     "artists",
-     1
-    ],
-    [
-     "Ivan Nikitich Nikitin",
-     "Makers",
-     "painting · Russia · b. 1680",
-     "artists",
-     1
-    ],
-    [
-     "Dorothea Maria Graff",
-     "Makers",
-     "painting · Germany, Netherlands, Russia · b. 1678",
-     "artists",
-     1
-    ],
-    [
-     "Ivan Vishnyakov",
-     "Makers",
-     "painting · Russia · b. 1699",
-     "artists",
-     1
-    ],
-    [
-     "Alexey Zubov",
-     "Makers",
-     "painting · Russia · b. 1682",
-     "artists",
-     1
+     "Stroganov school",
+     "Schools & phases",
+     "miniature-like icons for the Stroganov family, c. 1600",
+     "r3 https://en.wikipedia.org/wiki/Stroganov_school",
+     0
     ],
     [
      "Abraham of Smolensk",
-     "Makers",
+     "Pre-Mongol and Smolensk",
      "painting · Russia · b. 1172",
      "artists",
      1
     ],
     [
-     "Ivan Zarudny",
-     "Makers",
-     "painting · Russia, Cossack Hetmanate · b. 1670",
-     "artists",
-     1
-    ],
-    [
      "Andrei Rublev",
-     "Makers",
+     "Moscow school",
      "painting · Grand Principality of Moscow · b. 1360",
      "artists",
      1
     ],
     [
      "Daniel Chorny",
-     "Makers",
+     "Moscow school",
      "painting · Grand Principality of Moscow · b. 1360",
      "artists",
      1
     ],
     [
      "Dionisius",
-     "Makers",
+     "Moscow school",
      "painting · Grand Principality of Moscow · b. 1444",
      "artists",
      1
+    ],
+    [
+     "Prokhor of Gorodets",
+     "Moscow school",
+     "painter with Theophanes and Rublev in the Annunciation Cathedral, 1405",
+     "r3 https://en.wikipedia.org/wiki/Prokhor_of_Gorodets",
+     1
+    ],
+    [
+     "Denis de Glouchitsa",
+     "Vologda school",
+     "painting · Grand Principality of Moscow · b. 1363",
+     "artists",
+     1
+    ],
+    [
+     "Simon Ushakov",
+     "Armoury Chamber",
+     "painting · Russia · b. 1626",
+     "artists",
+     1
+    ],
+    [
+     "Trinity (Andrei Rublev, 1410s)",
+     "Works",
+     "Tretyakov Gallery, Moscow",
+     "r3 https://en.wikipedia.org/wiki/Trinity_(Andrei_Rublev)",
+     0
+    ],
+    [
+     "Ivan Nikitich Nikitin",
+     "Petrine-era painters",
+     "Petrine portrait painter (c. 1680–1742), not an icon painter",
+     "artists",
+     1
+    ],
+    [
+     "Dorothea Maria Graff",
+     "Petrine-era painters",
+     "German botanical painter in St Petersburg (1678–1743), daughter of Maria Sibylla Merian",
+     "artists",
+     1
+    ],
+    [
+     "Ivan Vishnyakov",
+     "Petrine-era painters",
+     "18th-century St Petersburg painter (1699–1761)",
+     "artists",
+     1
+    ],
+    [
+     "Alexey Zubov",
+     "Petrine-era painters",
+     "Petrine engraver (1682–1751)",
+     "artists",
+     1
+    ],
+    [
+     "Ivan Zarudny",
+     "Petrine-era painters",
+     "architect and iconostasis designer (d. 1727)",
+     "artists",
+     1
+    ],
+    [
+     "Федеральное государственное бюджетное учреждение культуры \"Государственный исторический музей\"",
+     "Collections",
+     "53 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Федеральное+государственное+бюджетное+учреждение+культуры+\"Государственный+истор",
+     0
+    ],
+    [
+     "Федеральное государственное бюджетное учреждение культуры \"Российский этнографический музей\"",
+     "Collections",
+     "43 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Федеральное+государственное+бюджетное+учреждение+культуры+\"Российский+этнографич",
+     0
+    ],
+    [
+     "Государственное автономное учреждение культуры Свердловской области \"Невьянский государственный историко-архит",
+     "Collections",
+     "38 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Государственное+автономное+учреждение+культуры+Свердловской+области+\"Невьянский+",
+     0
+    ],
+    [
+     "Федеральное государственное бюджетное учреждение культуры \"Государственный историко-архитектурный и этнографич",
+     "Collections",
+     "34 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Федеральное+государственное+бюджетное+учреждение+культуры+\"Государственный+истор",
+     0
+    ],
+    [
+     "Государственное бюджетное учреждение Республики Саха (Якутия) \"Оленекский историко-этнографический музей народ",
+     "Collections",
+     "18 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Государственное+бюджетное+учреждение+Республики+Саха+(Якутия)+\"Оленекский+истори",
+     0
+    ],
+    [
+     "Федеральное государственное бюджетное учреждение культуры \"Государственный музей искусства народов Востока\"",
+     "Collections",
+     "16 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Федеральное+государственное+бюджетное+учреждение+культуры+\"Государственный+музей",
+     0
+    ],
+    [
+     "Областное государственное бюджетное учреждение культуры \"Смоленский государственный музей-заповедник\"",
+     "Collections",
+     "15 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Областное+государственное+бюджетное+учреждение+культуры+\"Смоленский+государствен",
+     0
+    ],
+    [
+     "Муниципальное бюджетное учреждение культуры \"Бежаницкий историко-культурный центр Философовых\"",
+     "Collections",
+     "14 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Муниципальное+бюджетное+учреждение+культуры+\"Бежаницкий+историко-культурный+цент",
+     0
+    ],
+    [
+     "Государственное бюджетное учреждение культуры Астраханской области \"Астраханский государственный объединенный ",
+     "Collections",
+     "13 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Государственное+бюджетное+учреждение+культуры+Астраханской+области+\"Астраханский",
+     0
+    ],
+    [
+     "Федеральное государственное бюджетное учреждение культуры \"Государственный Владимиро-Суздальский историко-архи",
+     "Collections",
+     "13 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Федеральное+государственное+бюджетное+учреждение+культуры+\"Государственный+Влади",
+     0
+    ],
+    [
+     "Нефтеюганское городское муниципальное автономное учреждение культуры \"Историко-художественный музейный комплек",
+     "Collections",
+     "12 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Нефтеюганское+городское+муниципальное+автономное+учреждение+культуры+\"Историко-х",
+     0
+    ],
+    [
+     "Областное государственное бюджетное учреждение культуры \"Государственный исторический музей Южного Урала\"",
+     "Collections",
+     "11 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Областное+государственное+бюджетное+учреждение+культуры+\"Государственный+историч",
+     0
+    ],
+    [
+     "Государственное бюджетное учреждение культуры Архангельской области \"Сольвычегодский историко-художественный м",
+     "Collections",
+     "10 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Государственное+бюджетное+учреждение+культуры+Архангельской+области+\"Сольвычегод",
+     0
+    ],
+    [
+     "Петропавловский районный краеведческий музей муниципального бюджетного учреждения культуры \"Многофункциональны",
+     "Collections",
+     "10 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Петропавловский+районный+краеведческий+музей+муниципального+бюджетного+учреждени",
+     0
+    ],
+    [
+     "Краевое государственное бюджетное учреждение \"Алтайский государственный краеведческий музей\"",
+     "Collections",
+     "10 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Краевое+государственное+бюджетное+учреждение+\"Алтайский+государственный+краеведч",
+     0
+    ],
+    [
+     "Бюджетное учреждение Ханты-Мансийского автономного округа - Югры \"Музей Природы и Человека\"",
+     "Collections",
+     "10 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Бюджетное+учреждение+Ханты-Мансийского+автономного+округа+-+Югры+\"Музей+Природы+",
+     0
+    ],
+    [
+     "Областное государственное бюджетное учреждение культуры \"Национальный музей Усть-Ордынского Бурятского округа\"",
+     "Collections",
+     "10 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Областное+государственное+бюджетное+учреждение+культуры+\"Национальный+музей+Усть",
+     0
     ]
    ],
    "alias_rows": [
-    "Russian (no school recorded) / icon painting"
+    "Russian (no school recorded) / icon painting",
+    "Old Believer icons and cast icons",
+    "Nevyansk icon",
+    "Karelian / icon painting"
    ]
   },
   "A4-1": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Sub-types (pata on cloth, palm-leaf engraving, ganjifa), then centres and painters; collections ranked by gathered Odisha pata objects.",
+   "catalogues": [
+    [
+     "https://museumsofindia.gov.in/",
+     "Museums of India",
+     "national portal of Indian museum collections"
+    ],
+    [
+     "https://collections.vam.ac.uk/search/?q=Orissa+painting",
+     "V&A Collections search: Orissa painting",
+     "all V&A objects matching 'Orissa painting'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Pattachitra",
+     "Wikipedia: Pattachitra",
+     "the tradition, centres and painters"
+    ]
+   ],
    "kinds": [
+    [
+     "Talapatra chitra",
+     "Sub-types",
+     "pictures incised on palm leaf and inked, Odisha",
+     "r3 https://en.wikipedia.org/wiki/Palm-leaf_manuscript",
+     0
+    ],
+    [
+     "Ganjifa (Odisha)",
+     "Sub-types",
+     "round painted playing cards of the Puri chitrakars",
+     "r3 https://en.wikipedia.org/wiki/Ganjifa",
+     0
+    ],
+    [
+     "Jagannath",
+     "Sub-types",
+     "the Jagannath triad, the principal subject of Puri pata",
+     "r3 https://en.wikipedia.org/wiki/Jagannath",
+     0
+    ],
     [
      "Raghurajpur",
      "Centres & workshops",
-     "",
+     "chitrakar heritage village near Puri, centre of pattachitra",
      "evidence",
+     0
+    ],
+    [
+     "Puri",
+     "Centres & workshops",
+     "temple town of Jagannath, market for pata paintings",
+     "r3 https://en.wikipedia.org/wiki/Puri",
+     0
+    ],
+    [
+     "Metropolitan Museum of Art",
+     "Collections",
+     "15 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Metropolitan+Museum+of+Art",
+     0
+    ],
+    [
+     "Victoria and Albert Museum",
+     "Collections",
+     "14 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
+     0
+    ],
+    [
+     "Art Institute of Chicago",
+     "Collections",
+     "9 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Art+Institute+of+Chicago",
+     0
+    ],
+    [
+     "Cleveland Museum of Art",
+     "Collections",
+     "6 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art",
      0
     ]
    ],
@@ -4948,14 +6443,53 @@
    ]
   },
   "A4-2": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Sub-types (narrative jorano scrolls, chauko square pats, Santal jadupatua), then centres and patua painters; collections.",
+   "catalogues": [
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=patua",
+     "British Museum collection search: patua",
+     "all British Museum objects matching 'patua'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Patua",
+     "Wikipedia: Patua",
+     "the patua community and their scroll painting"
+    ]
+   ],
    "kinds": [
     [
      "Jadupatua",
      "Sub-types",
-     "",
+     "Santal 'magic' pats of the death-ritual painters",
      "evidence",
+     0
+    ],
+    [
+     "Pater gaan",
+     "Sub-types",
+     "the song performed while unrolling the scroll",
+     "r3 https://en.wikipedia.org/wiki/Patua",
+     0
+    ],
+    [
+     "Kalighat pat",
+     "Sub-types",
+     "urban off-shoot sold at the Kalighat temple, Calcutta",
+     "r3 https://en.wikipedia.org/wiki/Kalighat_painting",
+     0
+    ],
+    [
+     "Naya (Pingla)",
+     "Centres & workshops",
+     "Medinipur village of patua painters, the main living centre",
+     "r3 https://en.wikipedia.org/wiki/Pingla",
+     0
+    ],
+    [
+     "Victoria and Albert Museum",
+     "Collections",
+     "20 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
      0
     ]
    ],
@@ -4964,41 +6498,99 @@
    ]
   },
   "A4-3": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Painter families of the Kalighat bazaar by date, then the modern heir Jamini Roy; collections ranked by gathered Kalighat objects (V&A first).",
+   "catalogues": [
+    [
+     "https://collections.vam.ac.uk/search/?q=Kalighat",
+     "V&A Collections search: Kalighat",
+     "all V&A objects matching 'Kalighat'"
+    ],
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Kalighat",
+     "British Museum collection search: Kalighat",
+     "all British Museum objects matching 'Kalighat'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Kalighat_painting",
+     "Wikipedia: Kalighat painting",
+     "the school and its painters"
+    ]
+   ],
    "kinds": [
     [
-     "Gobinda Chandra Roy",
+     "Babu satire",
      "Sub-types",
-     "",
-     "evidence",
+     "Kalighat satires of the Calcutta babu and courtesans",
+     "r3 https://en.wikipedia.org/wiki/Kalighat_painting",
      0
+    ],
+    [
+     "Kalighat Kali Temple",
+     "Centres & workshops",
+     "Calcutta temple whose bazaar gave the school its name",
+     "r3 https://en.wikipedia.org/wiki/Kalighat_Kali_Temple",
+     0
+    ],
+    [
+     "Victoria and Albert Museum",
+     "Collections",
+     "642 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
+     0
+    ],
+    [
+     "Cleveland Museum of Art",
+     "Collections",
+     "144 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art",
+     0
+    ],
+    [
+     "Art Institute of Chicago",
+     "Collections",
+     "6 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Art+Institute+of+Chicago",
+     0
+    ],
+    [
+     "Metropolitan Museum of Art",
+     "Collections",
+     "5 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Metropolitan+Museum+of+Art",
+     0
+    ],
+    [
+     "Gobinda Chandra Roy",
+     "Makers",
+     "Kalighat patua painter, late 19th century",
+     "evidence",
+     1
     ],
     [
      "Kali Charan Ghosh",
-     "Sub-types",
-     "",
+     "Makers",
+     "Kalighat patua painter, early 20th century",
      "evidence",
-     0
+     1
     ],
     [
      "Kanai Lal Ghosh",
-     "Sub-types",
-     "",
+     "Makers",
+     "Kalighat patua painter, early 20th century",
      "evidence",
-     0
+     1
     ],
     [
      "Nibaran Chandra Ghosh",
-     "Sub-types",
-     "",
+     "Makers",
+     "Kalighat patua painter, early 20th century",
      "evidence",
-     0
+     1
     ],
     [
      "Jamini Roy",
      "Makers",
-     "painting · India · b. 1887 · also Catalan modernism",
+     "Bengali modernist (1887–1972) who adapted the Kalighat idiom",
      "artists",
      1
     ]
@@ -5008,158 +6600,592 @@
    ]
   },
   "A4-4": {
-   "axis": "",
-   "catalogues": [],
-   "kinds": [],
+   "axis": "Sub-types by festival and subject, then the Nathdwara centre and painters; collections.",
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=pichhavai",
+     "The Met collection search: pichhavai",
+     "all Met objects matching 'pichhavai'"
+    ],
+    [
+     "https://collections.vam.ac.uk/search/?q=pichhavai",
+     "V&A Collections search: pichhavai",
+     "all V&A objects matching 'pichhavai'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Pichhwai",
+     "Wikipedia: Pichhwai",
+     "the tradition and its subjects"
+    ]
+   ],
+   "kinds": [
+    [
+     "Shrinathji",
+     "Sub-types",
+     "the image of child Krishna behind which pichwais hang",
+     "r3 https://en.wikipedia.org/wiki/Shrinathji",
+     0
+    ],
+    [
+     "Sharad Purnima pichwai",
+     "Sub-types",
+     "autumn full-moon pichwai of the raas dance",
+     "r3 https://en.wikipedia.org/wiki/Pichwai",
+     0
+    ],
+    [
+     "Nathdwara",
+     "Centres & workshops",
+     "temple town of Shrinathji in Rajasthan, home of the pichwai painters",
+     "r3 https://en.wikipedia.org/wiki/Nathdwara",
+     0
+    ],
+    [
+     "Art Institute of Chicago",
+     "Collections",
+     "13 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Art+Institute+of+Chicago",
+     0
+    ],
+    [
+     "Cleveland Museum of Art",
+     "Collections",
+     "4 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art",
+     0
+    ],
+    [
+     "Victoria and Albert Museum",
+     "Collections",
+     "4 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
+     0
+    ]
+   ],
    "alias_rows": [
     "Pichwai"
    ]
   },
   "A4-5": {
-   "axis": "",
-   "catalogues": [],
-   "kinds": [],
+   "axis": "Sub-types (pachedi cloth, chandarvo canopy), then the Ahmedabad centre and makers; collections.",
+   "catalogues": [
+    [
+     "https://collections.vam.ac.uk/search/?q=Mata+ni+pachedi",
+     "V&A Collections search: Mata ni pachedi",
+     "all V&A objects matching 'Mata ni pachedi'"
+    ]
+   ],
+   "kinds": [
+    [
+     "Kalamkari",
+     "Sub-types",
+     "related hand-painted and block-printed cotton of South India",
+     "r3 https://en.wikipedia.org/wiki/Kalamkari",
+     0
+    ],
+    [
+     "Ahmedabad",
+     "Centres & workshops",
+     "Vaghri (Chitara) workshops along the Sabarmati",
+     "r3 https://en.wikipedia.org/wiki/Ahmedabad",
+     0
+    ]
+   ],
    "alias_rows": [
     "Mata ni pachedi"
    ]
   },
   "A4-6": {
-   "axis": "",
-   "catalogues": [],
-   "kinds": [],
+   "axis": "Sub-types by narrative (Puranas of the caste storytellers), then the Cheriyal centre and painters; collections.",
+   "catalogues": [
+    [
+     "https://en.wikipedia.org/wiki/Cheriyal_scroll_painting",
+     "Wikipedia: Cheriyal scroll painting",
+     "the tradition and its narratives"
+    ],
+    [
+     "https://museumsofindia.gov.in/",
+     "Museums of India",
+     "national portal of Indian museum collections"
+    ]
+   ],
+   "kinds": [
+    [
+     "Nakashi",
+     "Sub-types",
+     "the painter community and its painted masks and dolls",
+     "r3 https://en.wikipedia.org/wiki/Cheriyal_scroll_painting",
+     0
+    ],
+    [
+     "Markandeya Purana scrolls",
+     "Sub-types",
+     "scrolls of the weavers' storytellers",
+     "r3 https://en.wikipedia.org/wiki/Cheriyal_scroll_painting",
+     0
+    ],
+    [
+     "Cheriyal",
+     "Centres & workshops",
+     "village in Siddipet district, Telangana, home of the Nakashi painters",
+     "r3 https://en.wikipedia.org/wiki/Cheriyal",
+     0
+    ],
+    [
+     "Art Institute of Chicago",
+     "Collections",
+     "1 object of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Art+Institute+of+Chicago",
+     0
+    ]
+   ],
    "alias_rows": [
     "Cheriyal scroll painting"
    ]
   },
   "A4-7": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Painting styles in historical order (Pala-derived, Beri, Gyantse, Menri, Khyenri, Karma Gadri, eastern Tibetan schools, Qing court), then regional centres; collections ranked by gathered Himalayan painting objects.",
+   "catalogues": [
+    [
+     "https://www.himalayanart.org/",
+     "Himalayan Art Resources",
+     "over 60,000 images of Himalayan and Tibetan art, indexed by tradition and painting style"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=thangka",
+     "The Met collection search: thangka",
+     "all Met objects matching 'thangka'"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=thangka",
+     "Smithsonian Collections Search: thangka",
+     "Smithsonian objects (incl. Freer|Sackler) matching 'thangka'"
+    ],
+    [
+     "https://rubinmuseum.org/collection",
+     "Rubin Museum of Art collection",
+     "Himalayan paintings and sculpture"
+    ]
+   ],
    "kinds": [
     [
-     "Gyantse",
+     "Appliqué thangka (goku)",
      "Sub-types",
-     "HAR Gyantse style",
+     "giant silk appliqué thangkas displayed at festivals",
+     "r3 https://en.wikipedia.org/wiki/Thangka",
+     0
+    ],
+    [
+     "Mandala thangka",
+     "Sub-types",
+     "painted mandalas for meditation and initiation",
+     "r3 https://en.wikipedia.org/wiki/Mandala",
+     0
+    ],
+    [
+     "Gyantse style",
+     "Schools & phases",
+     "15th-century Tsang style of the Gyantse Kumbum",
      "himalaya_central_asia",
      0
     ],
     [
-     "Qing imperial (Qianlong)",
-     "Sub-types",
-     "court thangkas (painting 116)",
+     "Qing imperial (Qianlong) style",
+     "Schools & phases",
+     "court thangkas of the Qianlong workshops, Beijing",
      "himalaya_central_asia",
      0
     ],
     [
-     "Pala / Indian style (in Tibet)",
-     "Sub-types",
-     "",
+     "Pala (Sharri) style",
+     "Schools & phases",
+     "early Tibetan painting after Pala Bengal models, 11th–13th century",
      "himalaya_central_asia",
      0
     ],
     [
-     "Guge (Western Tibet)",
-     "Sub-types",
-     "HAR Guge/Western Tibetan style",
+     "Guge style",
+     "Schools & phases",
+     "Western Tibetan style of the Guge kingdom, 15th–16th century",
      "himalaya_central_asia",
      0
     ],
     [
      "Khazi Lhazo style",
-     "Sub-types",
-     "",
+     "Schools & phases",
+     "Tibetan regional painting style",
      "himalaya_central_asia",
      0
     ],
     [
      "Jonang Dzamthang",
-     "Sub-types",
-     "eastern Tibetan school",
+     "Schools & phases",
+     "eastern Tibetan Jonang painting of Dzamthang",
      "himalaya_central_asia",
      0
     ],
     [
      "Trehor / Kandze (Namkha Gyan)",
-     "Sub-types",
-     "",
+     "Schools & phases",
+     "Kandze school of Namkha Gyan, Kham",
      "himalaya_central_asia",
      0
     ],
     [
      "Lhatog / Khampagar",
-     "Sub-types",
-     "eastern Tibetan school",
+     "Schools & phases",
+     "eastern Tibetan school of Khampagar monastery",
      "himalaya_central_asia",
      0
     ],
     [
      "Kham regional (Kham-ri)",
-     "Sub-types",
-     "",
+     "Schools & phases",
+     "Kham regional painting",
      "himalaya_central_asia",
      0
     ],
     [
-     "Chengde (Qing)",
-     "Sub-types",
-     "",
+     "Chengde style",
+     "Schools & phases",
+     "Qing court style of the Chengde temples",
      "himalaya_central_asia",
      0
     ],
     [
-     "Buryat / icon painting",
-     "Sub-types",
-     "",
-     "europe_folk",
+     "Menri",
+     "Schools & phases",
+     "see leaf Menri: central Tibetan style of Menla Döndrub",
+     "r3 https://en.wikipedia.org/wiki/Menri",
      0
     ],
     [
      "Buryatia",
      "Centres & workshops",
-     "",
+     "Buryat thangka painting, Russia",
      "evidence",
      0
     ],
     [
      "Mongolia",
      "Centres & workshops",
-     "",
+     "Mongolian thangka of the Zanabazar school and later",
      "evidence",
      0
     ],
     [
      "Ladakh",
      "Centres & workshops",
-     "",
+     "Ladakhi monastic painting",
      "evidence",
      0
     ],
     [
      "Bhutan",
      "Centres & workshops",
-     "",
+     "Bhutanese thangka and appliqué",
      "evidence",
+     0
+    ],
+    [
+     "Private",
+     "Collections",
+     "1943 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Private",
+     0
+    ],
+    [
+     "Zanabazar Museum of Fine Arts",
+     "Collections",
+     "860 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Zanabazar+Museum+of+Fine+Arts",
+     0
+    ],
+    [
+     "Rubin Museum of Art",
+     "Collections",
+     "499 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Rubin+Museum+of+Art",
+     0
+    ],
+    [
+     "Cleveland Museum of Art (Indian and Southeast Asian Art)",
+     "Collections",
+     "432 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art+(Indian+and+Southeast+Asian+Art)",
+     0
+    ],
+    [
+     "British Museum",
+     "Collections",
+     "430 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=British+Museum",
+     0
+    ],
+    [
+     "Buryat Historical Museum",
+     "Collections",
+     "74 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Buryat+Historical+Museum",
+     0
+    ],
+    [
+     "Art Institute of Chicago",
+     "Collections",
+     "63 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Art+Institute+of+Chicago",
+     0
+    ],
+    [
+     "British Library",
+     "Collections",
+     "61 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=British+Library",
+     0
+    ],
+    [
+     "Museum of Asian Art",
+     "Collections",
+     "53 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Museum+of+Asian+Art",
+     0
+    ],
+    [
+     "Hahn Cultural Foundation",
+     "Collections",
+     "50 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Hahn+Cultural+Foundation",
+     0
+    ],
+    [
+     "U. of Michigan Museum of Anthropology",
+     "Collections",
+     "46 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=U.+of+Michigan+Museum+of+Anthropology",
+     0
+    ],
+    [
+     "Newark Museum",
+     "Collections",
+     "46 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Newark+Museum",
+     0
+    ],
+    [
+     "Shelley & Donald Rubin",
+     "Collections",
+     "43 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Shelley+&+Donald+Rubin",
+     0
+    ],
+    [
+     "Tibet House Museum, New Delhi",
+     "Collections",
+     "26 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Tibet+House+Museum,+New+Delhi",
+     0
+    ],
+    [
+     "Victoria and Albert Museum (SSEA)",
+     "Collections",
+     "25 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum+(SSEA)",
+     0
+    ],
+    [
+     "Museum der Kulturen, Basel",
+     "Collections",
+     "23 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Museum+der+Kulturen,+Basel",
+     0
+    ],
+    [
+     "John and Berthe Ford",
+     "Collections",
+     "21 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=John+and+Berthe+Ford",
+     0
+    ],
+    [
+     "American Museum of Natural History",
+     "Collections",
+     "21 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=American+Museum+of+Natural+History",
+     0
+    ],
+    [
+     "Garuda Virtual Museum",
+     "Collections",
+     "18 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Garuda+Virtual+Museum",
+     0
+    ],
+    [
+     "John & Karina Stewart",
+     "Collections",
+     "17 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=John+&+Karina+Stewart",
+     0
+    ],
+    [
+     "Los Angeles County Museum of Art",
+     "Collections",
+     "16 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Los+Angeles+County+Museum+of+Art",
+     0
+    ],
+    [
+     "Robert and Lois Baylis",
+     "Collections",
+     "16 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Robert+and+Lois+Baylis",
+     0
+    ],
+    [
+     "Cleveland Museum of Art",
+     "Collections",
+     "13 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art",
+     0
+    ],
+    [
+     "Metropolitan Museum of Art",
+     "Collections",
+     "12 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Metropolitan+Museum+of+Art",
+     0
+    ],
+    [
+     "Freer Gallery of Art, Smithsonian Institution, Washington, D.C.",
+     "Collections",
+     "12 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Freer+Gallery+of+Art,+Smithsonian+Institution,+Washington,+D.C.",
+     0
+    ],
+    [
+     "Museum of Fine Arts, Boston",
+     "Collections",
+     "11 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Museum+of+Fine+Arts,+Boston",
+     0
+    ],
+    [
+     "Philadelphia Museum of Art",
+     "Collections",
+     "10 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Philadelphia+Museum+of+Art",
+     0
+    ],
+    [
+     "Royal Ontario Museum",
+     "Collections",
+     "10 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Royal+Ontario+Museum",
      0
     ],
     [
      "Kunzig Chokyi Nangwa",
      "Makers",
-     "",
+     "Khampagar abbot-painter (1768–1822)",
      "evidence",
      1
     ]
    ],
-   "alias_rows": []
+   "alias_rows": [
+    "Buryat / icon painting"
+   ]
   },
   "A4-8": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Phases (13th–15th-century Beri, Ngor mandala style), then centres; collections ranked by gathered Beri and Ngor objects.",
+   "catalogues": [
+    [
+     "https://www.himalayanart.org/",
+     "Himalayan Art Resources",
+     "over 60,000 images of Himalayan and Tibetan art, indexed by tradition and painting style"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Thangka",
+     "Wikipedia: Thangka",
+     "survey including the Beri style"
+    ]
+   ],
    "kinds": [
     [
      "Ngor style",
-     "Sub-types",
-     "Beri-based Sakya mandala style",
+     "Schools & phases",
+     "Beri-based mandala painting of Ngor Ewam Chöden (Sakya), 15th–16th century",
      "himalaya_central_asia",
      0
+    ],
+    [
+     "Sakya Monastery",
+     "Centres & workshops",
+     "seat of the Sakya school, chief early patron of Newar-style painting",
+     "r3 https://en.wikipedia.org/wiki/Sakya_Monastery",
+     0
+    ],
+    [
+     "Shalu Monastery",
+     "Centres & workshops",
+     "murals and thangkas in Beri style, 14th century",
+     "r3 https://en.wikipedia.org/wiki/Shalu_Monastery",
+     0
+    ],
+    [
+     "Rubin Museum of Art",
+     "Collections",
+     "64 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Rubin+Museum+of+Art",
+     0
+    ],
+    [
+     "Private",
+     "Collections",
+     "13 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Private",
+     0
+    ],
+    [
+     "Philadelphia Museum of Art",
+     "Collections",
+     "3 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Philadelphia+Museum+of+Art",
+     0
+    ],
+    [
+     "Cleveland Museum of Art (Indian and Southeast Asian Art)",
+     "Collections",
+     "2 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art+(Indian+and+Southeast+Asian+Art)",
+     0
+    ],
+    [
+     "Shelley & Donald Rubin",
+     "Collections",
+     "2 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Shelley+&+Donald+Rubin",
+     0
+    ],
+    [
+     "Museum of Fine Arts, Boston",
+     "Collections",
+     "2 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Museum+of+Fine+Arts,+Boston",
+     0
+    ],
+    [
+     "American Museum of Natural History",
+     "Collections",
+     "2 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=American+Museum+of+Natural+History",
+     0
+    ],
+    [
+     "Anige",
+     "Makers",
+     "Nepalese artist at the Yuan court (1245–1306) who spread the Newar idiom",
+     "r3 https://en.wikipedia.org/wiki/Araniko",
+     1
     ]
    ],
    "alias_rows": [
@@ -5167,41 +7193,103 @@
    ]
   },
   "A4-9": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Phases (Old Menri, Tashi Lhunpo Menri, New Menri), then founders and masters by date; collections.",
+   "catalogues": [
+    [
+     "https://www.himalayanart.org/",
+     "Himalayan Art Resources",
+     "over 60,000 images of Himalayan and Tibetan art, indexed by tradition and painting style"
+    ]
+   ],
    "kinds": [
     [
-     "Menri (Tashi Lhunpo)",
-     "Sub-types",
-     "",
+     "Tashi Lhunpo Menri",
+     "Schools & phases",
+     "Menri as practised at the Panchen Lama's seat, Shigatse",
      "himalaya_central_asia",
      0
     ],
     [
-     "Menri (New Menri)",
-     "Sub-types",
-     "Choying Gyatso",
+     "New Menri (Menri Sarma)",
+     "Schools & phases",
+     "17th-century reform of Choying Gyatso",
      "himalaya_central_asia",
+     0
+    ],
+    [
+     "Private",
+     "Collections",
+     "85 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Private",
+     0
+    ],
+    [
+     "Rubin Museum of Art",
+     "Collections",
+     "68 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Rubin+Museum+of+Art",
+     0
+    ],
+    [
+     "Hahn Cultural Foundation",
+     "Collections",
+     "7 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Hahn+Cultural+Foundation",
+     0
+    ],
+    [
+     "Shelley & Donald Rubin",
+     "Collections",
+     "6 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Shelley+&+Donald+Rubin",
+     0
+    ],
+    [
+     "Museum of Fine Arts, Boston",
+     "Collections",
+     "4 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Museum+of+Fine+Arts,+Boston",
+     0
+    ],
+    [
+     "John & Karina Stewart",
+     "Collections",
+     "2 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=John+&+Karina+Stewart",
+     0
+    ],
+    [
+     "Rainy Jin & Johnny Bai",
+     "Collections",
+     "2 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Rainy+Jin+&+Johnny+Bai",
+     0
+    ],
+    [
+     "American Museum of Natural History",
+     "Collections",
+     "2 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=American+Museum+of+Natural+History",
      0
     ],
     [
      "Choying Gyatso",
      "Makers",
-     "founder of New Menri",
+     "founder of New Menri, painter to the Fifth Dalai Lama (fl. 1640s–60s)",
      "evidence",
      1
     ],
     [
      "Garu Pandita Lobzang Sherab",
      "Makers",
-     "HAR mixed Menri-Khyenri",
+     "Menri painter-scholar",
      "evidence",
      1
     ],
     [
      "Nubje Dola",
      "Makers",
-     "",
+     "Menri painter",
      "evidence",
      1
     ]
@@ -5211,13 +7299,87 @@
    ]
   },
   "A4-10": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Founder and followers by date; collections ranked by gathered Khyenri objects.",
+   "catalogues": [
+    [
+     "https://www.himalayanart.org/",
+     "Himalayan Art Resources",
+     "over 60,000 images of Himalayan and Tibetan art, indexed by tradition and painting style"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Thangka",
+     "Wikipedia: Thangka",
+     "survey including the Khyenri style"
+    ]
+   ],
    "kinds": [
+    [
+     "Wrathful deity painting",
+     "Sub-types",
+     "Khyenri speciality of protector and wrathful deities",
+     "r3 https://en.wikipedia.org/wiki/Dharmapala",
+     0
+    ],
+    [
+     "Private",
+     "Collections",
+     "139 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Private",
+     0
+    ],
+    [
+     "Rubin Museum of Art",
+     "Collections",
+     "18 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Rubin+Museum+of+Art",
+     0
+    ],
+    [
+     "John and Berthe Ford",
+     "Collections",
+     "8 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=John+and+Berthe+Ford",
+     0
+    ],
+    [
+     "Shelley & Donald Rubin",
+     "Collections",
+     "5 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Shelley+&+Donald+Rubin",
+     0
+    ],
+    [
+     "Museum der Kulturen, Basel",
+     "Collections",
+     "4 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Museum+der+Kulturen,+Basel",
+     0
+    ],
+    [
+     "U. of Michigan Museum of Anthropology",
+     "Collections",
+     "3 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=U.+of+Michigan+Museum+of+Anthropology",
+     0
+    ],
+    [
+     "National Gallery in Prague",
+     "Collections",
+     "3 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=National+Gallery+in+Prague",
+     0
+    ],
+    [
+     "Hahn Cultural Foundation",
+     "Collections",
+     "3 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Hahn+Cultural+Foundation",
+     0
+    ],
     [
      "Khyentse Chenmo",
      "Makers",
-     "",
+     "Khyentse Chenmo of Gongkar Chöde, founder of the style (15th century)",
      "evidence",
      1
     ]
@@ -5227,28 +7389,97 @@
    ]
   },
   "A4-11": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Phases (Namkha Tashi foundation, Choying Dorje, Palpung revival), then painters by date; collections.",
+   "catalogues": [
+    [
+     "https://www.himalayanart.org/",
+     "Himalayan Art Resources",
+     "over 60,000 images of Himalayan and Tibetan art, indexed by tradition and painting style"
+    ]
+   ],
    "kinds": [
     [
-     "Karma Gadri (Palpung)",
-     "Sub-types",
-     "Situ Panchen revival",
+     "Palpung revival",
+     "Schools & phases",
+     "18th-century revival by Situ Panchen at Palpung",
      "himalaya_central_asia",
      0
     ],
     [
      "Choying Dorje atelier (Tenth Karmapa)",
-     "Sub-types",
-     "also sculpture",
+     "Centres & workshops",
+     "painting and sculpture of the Tenth Karmapa (1604–1674)",
      "himalaya_central_asia",
+     0
+    ],
+    [
+     "Private",
+     "Collections",
+     "254 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Private",
+     0
+    ],
+    [
+     "Rubin Museum of Art",
+     "Collections",
+     "100 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Rubin+Museum+of+Art",
+     0
+    ],
+    [
+     "Hahn Cultural Foundation",
+     "Collections",
+     "18 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Hahn+Cultural+Foundation",
+     0
+    ],
+    [
+     "Shelley & Donald Rubin",
+     "Collections",
+     "12 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Shelley+&+Donald+Rubin",
+     0
+    ],
+    [
+     "Museum der Kulturen, Basel",
+     "Collections",
+     "10 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Museum+der+Kulturen,+Basel",
+     0
+    ],
+    [
+     "Ashmolean Museum of Art and Archaeology",
+     "Collections",
+     "8 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Ashmolean+Museum+of+Art+and+Archaeology",
+     0
+    ],
+    [
+     "John & Karina Stewart",
+     "Collections",
+     "5 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=John+&+Karina+Stewart",
+     0
+    ],
+    [
+     "Navin Kumar",
+     "Collections",
+     "4 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Navin+Kumar",
      0
     ],
     [
      "Situ Panchen Chokyi Jungne",
      "Makers",
-     "",
+     "Eighth Tai Situpa (1700–1774), painter and reviver of Karma Gadri",
      "evidence",
+     1
+    ],
+    [
+     "Choying Dorje",
+     "Makers",
+     "Tenth Karmapa (1604–1674), painter and sculptor",
+     "r3 https://en.wikipedia.org/wiki/Choying_Dorje,_10th_Karmapa",
      1
     ]
    ],
@@ -5257,22 +7488,162 @@
    ]
   },
   "A4-12": {
-   "axis": "",
-   "catalogues": [],
-   "kinds": [],
+   "axis": "Sub-types (thangka, mural, appliqué, sculpture), then villages and painters; collections.",
+   "catalogues": [
+    [
+     "https://www.himalayanart.org/",
+     "Himalayan Art Resources",
+     "over 60,000 images of Himalayan and Tibetan art, indexed by tradition and painting style"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Regong_arts",
+     "Wikipedia: Regong arts",
+     "UNESCO-listed Regong arts"
+    ]
+   ],
+   "kinds": [
+    [
+     "Wutun",
+     "Centres & workshops",
+     "Wutun (Sengeshong) villages, chief Rebkong painting centre",
+     "r3 https://en.wikipedia.org/wiki/Wutun",
+     0
+    ],
+    [
+     "Rongwo Monastery",
+     "Centres & workshops",
+     "principal monastery of Rebkong",
+     "r3 https://en.wikipedia.org/wiki/Rongwo_Monastery",
+     0
+    ],
+    [
+     "Private",
+     "Collections",
+     "20 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Private",
+     0
+    ],
+    [
+     "Shampa Rabten",
+     "Makers",
+     "Rebkong painter, recognised master of Regong arts",
+     "r3 https://en.wikipedia.org/wiki/Regong_arts",
+     1
+    ]
+   ],
    "alias_rows": [
     "Rebkong (Amdo)",
     "Regong arts"
    ]
   },
   "A4-13": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Phases (Early Malla, Late Malla, Shah), then painters by date; collections ranked by gathered Newar painting objects.",
+   "catalogues": [
+    [
+     "https://www.himalayanart.org/",
+     "Himalayan Art Resources",
+     "over 60,000 images of Himalayan and Tibetan art, indexed by tradition and painting style"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=paubha",
+     "The Met collection search: paubha",
+     "all Met objects matching 'paubha'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Paubha",
+     "Wikipedia: Paubha",
+     "the tradition"
+    ]
+   ],
    "kinds": [
+    [
+     "Vasudhara mandala",
+     "Sub-types",
+     "mandala of the goddess of abundance, a common donor commission",
+     "r3 https://en.wikipedia.org/wiki/Vasudhara",
+     0
+    ],
+    [
+     "Early Malla paubha",
+     "Schools & phases",
+     "13th–15th-century Newar painting with flat red grounds",
+     "r3 https://en.wikipedia.org/wiki/Malla_(Nepal)",
+     0
+    ],
+    [
+     "Late Malla paubha",
+     "Schools & phases",
+     "16th–18th-century painting of the three Malla kingdoms",
+     "r3 https://en.wikipedia.org/wiki/Malla_(Nepal)",
+     0
+    ],
+    [
+     "Kathmandu Valley",
+     "Centres & workshops",
+     "Patan, Bhaktapur and Kathmandu painter (chitrakar) workshops",
+     "r3 https://en.wikipedia.org/wiki/Kathmandu_Valley",
+     0
+    ],
+    [
+     "Cleveland Museum of Art (Indian and Southeast Asian Art)",
+     "Collections",
+     "415 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art+(Indian+and+Southeast+Asian+Art)",
+     0
+    ],
+    [
+     "Private",
+     "Collections",
+     "43 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Private",
+     0
+    ],
+    [
+     "Victoria and Albert Museum (SSEA)",
+     "Collections",
+     "33 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum+(SSEA)",
+     0
+    ],
+    [
+     "Rubin Museum of Art",
+     "Collections",
+     "32 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Rubin+Museum+of+Art",
+     0
+    ],
+    [
+     "Art Institute of Chicago",
+     "Collections",
+     "19 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Art+Institute+of+Chicago",
+     0
+    ],
+    [
+     "Los Angeles County Museum of Art",
+     "Collections",
+     "4 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Los+Angeles+County+Museum+of+Art",
+     0
+    ],
+    [
+     "Philadelphia Museum of Art",
+     "Collections",
+     "3 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Philadelphia+Museum+of+Art",
+     0
+    ],
+    [
+     "San Diego Museum of Art",
+     "Collections",
+     "3 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=San+Diego+Museum+of+Art",
+     0
+    ],
     [
      "Jivarama",
      "Makers",
-     "",
+     "Newar painter, Early Malla period",
      "evidence",
      1
     ]
@@ -5280,14 +7651,107 @@
    "alias_rows": []
   },
   "A4-14": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Sub-types (banners, silk paintings, paper sketches), then the Library Cave and collections ranked by gathered Dunhuang objects.",
+   "catalogues": [
+    [
+     "https://idp.bl.uk/",
+     "International Dunhuang Programme",
+     "digitised manuscripts and paintings from Dunhuang and the Silk Road"
+    ],
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Dunhuang",
+     "British Museum collection search: Dunhuang",
+     "all British Museum objects matching 'Dunhuang'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Mogao_Caves",
+     "Wikipedia: Mogao Caves",
+     "the site and its Library Cave"
+    ]
+   ],
    "kinds": [
+    [
+     "Dunhuang banners",
+     "Sub-types",
+     "silk banners of bodhisattvas with headpieces and streamers",
+     "r3 https://en.wikipedia.org/wiki/Dunhuang_manuscripts",
+     0
+    ],
+    [
+     "Paradise of Bhaishajyaguru",
+     "Sub-types",
+     "large Pure Land paintings on silk, 8th–9th century, British Museum",
+     "r3 https://en.wikipedia.org/wiki/Bhaiṣajyaguru",
+     0
+    ],
     [
      "Library Cave (Cave 17)",
      "Centres & workshops",
-     "",
+     "Mogao cave sealed c. 1000, opened 1900, source of the portable paintings",
      "evidence",
+     0
+    ],
+    [
+     "Aurel Stein",
+     "Collectors",
+     "removed thousands of paintings in 1907 (British Museum, V&A, National Museum New Delhi)",
+     "r3 https://en.wikipedia.org/wiki/Aurel_Stein",
+     0
+    ],
+    [
+     "Paul Pelliot",
+     "Collectors",
+     "acquired the Musée Guimet group in 1908",
+     "r3 https://en.wikipedia.org/wiki/Paul_Pelliot",
+     0
+    ],
+    [
+     "British Museum",
+     "Collections",
+     "478 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=British+Museum",
+     0
+    ],
+    [
+     "V&A",
+     "Collections",
+     "292 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=V&A",
+     0
+    ],
+    [
+     "Victoria and Albert Museum (EAS)",
+     "Collections",
+     "228 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum+(EAS)",
+     0
+    ],
+    [
+     "British Library",
+     "Collections",
+     "100 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=British+Library",
+     0
+    ],
+    [
+     "Academia Sinica",
+     "Collections",
+     "2 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Academia+Sinica",
+     0
+    ],
+    [
+     "Freer Gallery of Art, Smithsonian Institute",
+     "Collections",
+     "2 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Freer+Gallery+of+Art,+Smithsonian+Institute",
+     0
+    ],
+    [
+     "State Hermitage",
+     "Collections",
+     "2 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=State+Hermitage",
      0
     ]
    ],
@@ -5296,9 +7760,38 @@
    ]
   },
   "A4-15": {
-   "axis": "",
+   "axis": "Sub-types (ider-ider, langse, calendar paintings), then the Kamasan centre and painters by date; collections.",
    "catalogues": [],
-   "kinds": [],
+   "kinds": [
+    [
+     "Art Institute of Chicago",
+     "Collections",
+     "10 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Art+Institute+of+Chicago",
+     0
+    ],
+    [
+     "Tropenmuseum",
+     "Collections",
+     "5 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Tropenmuseum",
+     0
+    ],
+    [
+     "Museum Volkenkunde",
+     "Collections",
+     "4 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Museum+Volkenkunde",
+     0
+    ],
+    [
+     "Yale University (LUX)",
+     "Collections",
+     "2 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Yale+University+(LUX)",
+     0
+    ]
+   ],
    "alias_rows": [
     "Kamasan painting",
     "Balinese Kamasan (wayang-style) painting",
@@ -5306,21 +7799,125 @@
    ]
   },
   "A4-16": {
-   "axis": "",
-   "catalogues": [],
-   "kinds": [],
+   "axis": "Sub-types (Panji cycle scrolls), then the surviving village sets (Pacitan, Gunung Kidul); collections.",
+   "catalogues": [
+    [
+     "https://en.wikipedia.org/wiki/Wayang_beber",
+     "Wikipedia: Wayang beber",
+     "the tradition and surviving sets"
+    ]
+   ],
+   "kinds": [
+    [
+     "Wayang beber Pacitan",
+     "Works",
+     "set of six scrolls kept in Karang Talun, Pacitan",
+     "r3 https://en.wikipedia.org/wiki/Wayang_beber",
+     0
+    ],
+    [
+     "Wayang beber Wonosari",
+     "Works",
+     "set kept in Gelaran, Gunung Kidul",
+     "r3 https://en.wikipedia.org/wiki/Wayang_beber",
+     0
+    ],
+    [
+     "Victoria and Albert Museum",
+     "Collections",
+     "1 object of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
+     0
+    ]
+   ],
    "alias_rows": [
     "Wayang beber (narrative scroll painting)"
    ]
   },
   "A4-17": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Sub-types by protective figure, then makers (däbtära); works: every gathered Ethiopian scroll with sitelinks ≥ 1; collections.",
+   "catalogues": [
+    [
+     "https://www.vhmml.org/readingRoom/",
+     "vHMML Reading Room",
+     "Hill Museum & Manuscript Library digitised manuscripts (Ethiopia, Mali, Middle East, Armenia...)"
+    ]
+   ],
    "kinds": [
+    [
+     "Ethiopian magic scroll",
+     "Named Ethiopian scrolls",
+     "Ethiopia; Manuscript department of the National Library of France",
+     "r3 https://www.wikidata.org/wiki/Q123858054",
+     0
+    ],
+    [
+     "protective scroll",
+     "Named Ethiopian scrolls",
+     "Ethiopia; Geneva Ethnography Museum",
+     "r3 https://www.wikidata.org/wiki/Q139256168",
+     0
+    ],
+    [
+     "protective scroll: prayer for the dead",
+     "Named Ethiopian scrolls",
+     "Ethiopia; Geneva Ethnography Museum",
+     "r3 https://www.wikidata.org/wiki/Q139256237",
+     0
+    ],
+    [
+     "handwritten liturgical scroll",
+     "Named Ethiopian scrolls",
+     "Ethiopia; Geneva Ethnography Museum",
+     "r3 https://www.wikidata.org/wiki/Q139256382",
+     0
+    ],
+    [
+     "Penn Museum",
+     "Collections",
+     "24 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Penn+Museum",
+     0
+    ],
+    [
+     "Metropolitan Museum of Art",
+     "Collections",
+     "11 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Metropolitan+Museum+of+Art",
+     0
+    ],
+    [
+     "Yale University (LUX)",
+     "Collections",
+     "7 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Yale+University+(LUX)",
+     0
+    ],
+    [
+     "Geneva Ethnography Museum",
+     "Collections",
+     "4 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Geneva+Ethnography+Museum",
+     0
+    ],
+    [
+     "Cleveland Museum of Art",
+     "Collections",
+     "2 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art",
+     0
+    ],
+    [
+     "Victoria and Albert Museum",
+     "Collections",
+     "2 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
+     0
+    ],
     [
      "Northern Highlands däbtära",
      "Makers",
-     "",
+     "church-trained scholar-painters of the northern highlands who make the scrolls",
      "evidence",
      1
     ]
@@ -5330,9 +7927,70 @@
    ]
   },
   "A4-18": {
-   "axis": "",
-   "catalogues": [],
-   "kinds": [],
+   "axis": "Sub-types (men's figurative robes, women's geometric robes, parfleche, winter counts), then peoples and named painters; collections ranked by gathered Plains painted-hide objects.",
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=painted+hide+robe",
+     "Smithsonian Collections Search: painted hide robe",
+     "Smithsonian objects (incl. Freer|Sackler) matching 'painted hide robe'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Plains_hide_painting",
+     "Wikipedia: Plains hide painting",
+     "the tradition"
+    ]
+   ],
+   "kinds": [
+    [
+     "Winter count",
+     "Sub-types",
+     "pictographic calendars painted on hide, one image per year",
+     "r3 https://en.wikipedia.org/wiki/Winter_count",
+     0
+    ],
+    [
+     "Parfleche",
+     "Sub-types",
+     "painted rawhide containers with women's geometric designs",
+     "r3 https://en.wikipedia.org/wiki/Parfleche",
+     0
+    ],
+    [
+     "Box-and-border robe",
+     "Sub-types",
+     "women's geometric robe design",
+     "r3 https://en.wikipedia.org/wiki/Buffalo_robe",
+     0
+    ],
+    [
+     "Lakota",
+     "Peoples",
+     "Lakota painted robes, tipis and winter counts",
+     "r3 https://en.wikipedia.org/wiki/Lakota_people",
+     0
+    ],
+    [
+     "Mandan",
+     "Peoples",
+     "Mandan painted robes, e.g. the Mató-Tópe robe",
+     "r3 https://en.wikipedia.org/wiki/Mandan",
+     0
+    ],
+    [
+     "National Museum of the American Indian, Washington",
+     "Collections",
+     "1125 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=National+Museum+of+the+American+Indian,+Washington",
+     0
+    ],
+    [
+     "Mato Tope",
+     "Makers",
+     "Mandan chief and painter (c. 1784–1837)",
+     "r3 https://en.wikipedia.org/wiki/Mato_Tope",
+     1
+    ]
+   ],
    "alias_rows": []
   },
   "A5-1": {

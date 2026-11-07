@@ -246,6 +246,40 @@ def coll_rows(counter, what="objects", n=8, minc=10):
     return rows
 
 
+# ---------------------------------------------------------------- wiki check
+WCACHE = os.path.join(HERE, "_wikicache.json")
+WC = json.load(open(WCACHE)) if os.path.exists(WCACHE) else {}
+
+
+def wiki_check(titles):
+    import urllib.request, urllib.parse, time
+    todo = [t for t in set(titles) if t not in WC]
+    for i in range(0, len(todo), 50):
+        chunk = todo[i:i + 50]
+        q = urllib.parse.urlencode({"action": "query", "titles": "|".join(chunk), "format": "json", "redirects": 1})
+        import subprocess
+        for attempt in range(6):
+            out = subprocess.run(["curl", "-sS", "-m", "60", "-A", "VisualEntertainmentTaxonomy/0.1 (research; contact via repo)", "https://en.wikipedia.org/w/api.php?" + q], capture_output=True, text=True).stdout
+            try:
+                d = json.loads(out)["query"]
+                break
+            except Exception:
+                time.sleep(5 * (attempt + 1))
+        else:
+            raise SystemExit("wiki api failed")
+        norm = {n["from"]: n["to"] for n in d.get("normalized", [])}
+        red = {n["from"]: n["to"] for n in d.get("redirects", [])}
+        exist = {p["title"] for p in d["pages"].values() if "missing" not in p and "invalid" not in p}
+        for t in chunk:
+            t2 = norm.get(t, t)
+            t3 = red.get(t2, t2)
+            WC[t] = t3 in exist
+        time.sleep(0.5)
+    json.dump(WC, open(WCACHE, "w"), ensure_ascii=False, indent=0)
+
+
+MISSING = []
+
 # ---------------------------------------------------------------- per leaf
 def build_leaf(l):
     code, label = l["code"], l["label"]
@@ -315,6 +349,12 @@ def build_leaf(l):
         nm, g, gl, url = a[:4]
         im = a[4] if len(a) > 4 else (1 if (g in ("Makers",) or g in cfg.get("maker_groups", ()) or g.endswith(("painters", "artists", "printmakers", "calligraphers", "illuminators", "designers")) or (cfg.get("artist_led") and g not in ("Sub-types", "Schools & phases", "Centres & workshops", "Collections") and not cfg.get("nonmaker_add"))) else 0)
         if not url.startswith("http"):
+            if WC.get(url) is False:
+                MISSING.append((code, nm, url))
+                if cfg.get("wiki_fallback"):
+                    url = cfg["wiki_fallback"]
+                else:
+                    continue
             url = WIKI + url.replace(" ", "_")
         kinds.append([nm, g, gl[:140], "r3 " + url, im])
     # works
@@ -366,12 +406,21 @@ def build_leaf(l):
 
 
 def main():
+    titles = [a[3] for c in CFG.values() for a in c.get("add", []) if not a[3].startswith("http")]
+    titles += [c["wiki_fallback"] for c in CFG.values() if c.get("wiki_fallback") and not c["wiki_fallback"].startswith("http")]
+    titles += [u[0].split("/wiki/")[1].replace("_", " ") for c in CFG.values() for u in c.get("cat", []) if "en.wikipedia.org/wiki/" in u[0]]
+    wiki_check(titles)
     res = {"leaves": {}, "new_leaves": [], "moves_out": [], "dropped": []}
     for l in INP:
         leaf, dr, mv = build_leaf(l)
         res["leaves"][l["code"]] = leaf
         res["dropped"] += dr
         res["moves_out"] += mv
+    badcat = [(c, u[0]) for c, v in res["leaves"].items() for u in v["catalogues"] if "en.wikipedia.org/wiki/" in u[0] and WC.get(u[0].split("/wiki/")[1].replace("_", " ")) is False]
+    for c, u in badcat:
+        res["leaves"][c]["catalogues"] = [x for x in res["leaves"][c]["catalogues"] if x[0] != u]
+    open(os.path.join(HERE, "_missing.txt"), "w").write("\n".join(map(str, MISSING + badcat)))
+    print("missing wiki:", len(MISSING), "bad catalogue wiki:", len(badcat))
     json.dump(res, open(os.path.join(HERE, "result.json"), "w"), ensure_ascii=False, indent=1)
     print("leaves", len(res["leaves"]), "kinds", sum(len(v["kinds"]) for v in res["leaves"].values()),
           "moves", len(res["moves_out"]), "dropped", len(res["dropped"]))

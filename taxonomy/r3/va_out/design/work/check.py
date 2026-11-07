@@ -14,6 +14,7 @@ for i in range(0,len(titles),50):
         time.sleep(4+a*5); t=subprocess.run(["curl","-s","-A","TaxonomyCheck/1.0 (research)",u],capture_output=True,text=True).stdout
         if t.startswith("{"): break
     r=json.loads(t)
+    for x in r["query"].get("redirects",[]): print("REDIR",x["from"],"->",x["to"])
     for p in r["query"]["pages"].values():
         if "missing" in p or "invalid" in p: bad.append(p.get("title"))
 print(len(titles),"bad:",bad)

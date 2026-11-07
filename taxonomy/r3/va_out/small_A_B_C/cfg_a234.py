@@ -205,7 +205,7 @@ CFG = {
              ("Christ Pantocrator (Sinai)", "Named icons", "encaustic, 6th century; Saint Catherine's Monastery, Sinai", "Christ Pantocrator (Sinai)"),
              ("Theotokos of Vladimir", "Named icons", "Constantinople, c. 1130; Tretyakov Gallery, Moscow", "Theotokos of Vladimir"),
              ("Triumph of Orthodoxy (icon)", "Named icons", "Constantinople, c. 1400; British Museum, London", "Triumph of Orthodoxy (icon)"),
-             ("Virgin of Vladimir", "Named icons", "see Theotokos of Vladimir", "Theotokos of Vladimir")],
+],
         drop={},
         cat=[met("Byzantine icon"), bm("icon Byzantine"), wp("Icon", "history of icons with principal Byzantine examples")],
     ),
