@@ -6610,6 +6610,13 @@
      0
     ],
     [
+     "Chitrakar",
+     "Sub-types",
+     "the painter caste name of the patuas",
+     "r3 https://en.wikipedia.org/wiki/Chitrakar",
+     0
+    ],
+    [
      "Naya (Pingla)",
      "Centres & workshops",
      "Medinipur village of patua painters, the main living centre",
@@ -6804,9 +6811,26 @@
      "https://collections.vam.ac.uk/search/?q=Mata+ni+pachedi",
      "V&A Collections search: Mata ni pachedi",
      "all V&A objects matching 'Mata ni pachedi'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Mata_Ni_Pachedi",
+     "Wikipedia: Mata Ni Pachedi",
+     "the tradition"
+    ],
+    [
+     "https://collections.vam.ac.uk/search/?q=Mata+ni+pachedi",
+     "V&A Collections search: Mata ni pachedi",
+     "all V&A objects matching 'Mata ni pachedi'"
     ]
    ],
    "kinds": [
+    [
+     "Mata no chandarvo",
+     "Sub-types",
+     "canopy form of the Mother Goddess cloth",
+     "r3 https://en.wikipedia.org/wiki/Mata_Ni_Pachedi",
+     0
+    ],
     [
      "Kalamkari",
      "Sub-types",
@@ -6868,6 +6892,13 @@
      "1 object of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Art+Institute+of+Chicago",
      0
+    ],
+    [
+     "Nakashi painters",
+     "Makers",
+     "the Nakashi community of Cheriyal",
+     "r3 https://en.wikipedia.org/wiki/Cheriyal_scroll_painting",
+     1
     ]
    ],
    "alias_rows": [
@@ -7030,13 +7061,6 @@
      "Centres & workshops",
      "Bhutanese thangka and appliqué",
      "evidence",
-     0
-    ],
-    [
-     "Private",
-     "Collections",
-     "1943 objects of the tradition in the gathered records",
-     "r3 https://www.wikidata.org/wiki/Special:Search?search=Private",
      0
     ],
     [
@@ -7284,13 +7308,6 @@
      0
     ],
     [
-     "Private",
-     "Collections",
-     "13 objects of the tradition in the gathered records",
-     "r3 https://www.wikidata.org/wiki/Special:Search?search=Private",
-     0
-    ],
-    [
      "Philadelphia Museum of Art",
      "Collections",
      "3 objects of the tradition in the gathered records",
@@ -7362,13 +7379,6 @@
      0
     ],
     [
-     "Private",
-     "Collections",
-     "85 objects of the tradition in the gathered records",
-     "r3 https://www.wikidata.org/wiki/Special:Search?search=Private",
-     0
-    ],
-    [
      "Rubin Museum of Art",
      "Collections",
      "68 objects of the tradition in the gathered records",
@@ -7415,6 +7425,13 @@
      "Collections",
      "2 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=American+Museum+of+Natural+History",
+     0
+    ],
+    [
+     "Museum der Kulturen, Basel",
+     "Collections",
+     "2 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Museum+der+Kulturen,+Basel",
      0
     ],
     [
@@ -7480,13 +7497,6 @@
      0
     ],
     [
-     "Private",
-     "Collections",
-     "139 objects of the tradition in the gathered records",
-     "r3 https://www.wikidata.org/wiki/Special:Search?search=Private",
-     0
-    ],
-    [
      "Rubin Museum of Art",
      "Collections",
      "18 objects of the tradition in the gathered records",
@@ -7536,6 +7546,13 @@
      0
     ],
     [
+     "Moke Mokotoff",
+     "Collections",
+     "2 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Moke+Mokotoff",
+     0
+    ],
+    [
      "Khyentse Chenmo",
      "Makers",
      "Khyentse Chenmo of Gongkar Chöde, founder of the style (15th century)",
@@ -7569,13 +7586,6 @@
      "Centres & workshops",
      "painting and sculpture of the Tenth Karmapa (1604–1674)",
      "himalaya_central_asia",
-     0
-    ],
-    [
-     "Private",
-     "Collections",
-     "254 objects of the tradition in the gathered records",
-     "r3 https://www.wikidata.org/wiki/Special:Search?search=Private",
      0
     ],
     [
@@ -7628,6 +7638,13 @@
      0
     ],
     [
+     "Los Angeles County Museum of Art",
+     "Collections",
+     "3 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Los+Angeles+County+Museum+of+Art",
+     0
+    ],
+    [
      "Situ Panchen Chokyi Jungne",
      "Makers",
      "Eighth Tai Situpa (1700–1774), painter and reviver of Karma Gadri",
@@ -7673,13 +7690,6 @@
      "Centres & workshops",
      "principal monastery of Rebkong",
      "r3 https://en.wikipedia.org/wiki/Rongwo_Monastery",
-     0
-    ],
-    [
-     "Private",
-     "Collections",
-     "20 objects of the tradition in the gathered records",
-     "r3 https://www.wikidata.org/wiki/Special:Search?search=Private",
      0
     ],
     [
@@ -7751,13 +7761,6 @@
      0
     ],
     [
-     "Private",
-     "Collections",
-     "43 objects of the tradition in the gathered records",
-     "r3 https://www.wikidata.org/wiki/Special:Search?search=Private",
-     0
-    ],
-    [
      "Victoria and Albert Museum (SSEA)",
      "Collections",
      "33 objects of the tradition in the gathered records",
@@ -7797,6 +7800,13 @@
      "Collections",
      "3 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=San+Diego+Museum+of+Art",
+     0
+    ],
+    [
+     "Cleveland Museum of Art",
+     "Collections",
+     "2 objects of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art",
      0
     ],
     [
@@ -8784,10 +8794,24 @@
      0
     ],
     [
+     "Nanban art",
+     "Sub-types",
+     "Japanese namban lacquer, the model for shell inlay",
+     "r3 https://en.wikipedia.org/wiki/Nanban_art",
+     0
+    ],
+    [
      "Conquest of Mexico enconchados",
      "Works",
      "series of the Conquest, 1698; Museo de América, Madrid",
      "r3 https://en.wikipedia.org/wiki/Enconchado",
+     0
+    ],
+    [
+     "Museo de América",
+     "Collections",
+     "Madrid museum holding the Conquest of Mexico enconchados",
+     "r3 https://en.wikipedia.org/wiki/Museo_de_América",
      0
     ]
    ],
@@ -8820,10 +8844,24 @@
      0
     ],
     [
+     "Folding screen",
+     "Sub-types",
+     "the screen form adopted from Japan",
+     "r3 https://en.wikipedia.org/wiki/Folding_screen",
+     0
+    ],
+    [
      "Conquest of Mexico screen",
      "Works",
      "Conquest and city-view screen, late 17th century; Museo Franz Mayer, Mexico City",
      "r3 https://en.wikipedia.org/wiki/Biombo",
+     0
+    ],
+    [
+     "Franz Mayer Museum",
+     "Collections",
+     "Mexico City museum with major biombos",
+     "r3 https://en.wikipedia.org/wiki/Franz_Mayer_Museum",
      0
     ]
    ],
@@ -17023,7 +17061,13 @@
   },
   "A5-77": {
    "axis": "The Via Cavour founders, then the second Roman generation",
-   "catalogues": [],
+   "catalogues": [
+    [
+     "https://lagallerianazionale.com/en/",
+     "La Galleria Nazionale, Rome",
+     "national collection of Italian modern art incl. the Scuola Romana"
+    ]
+   ],
    "kinds": [
     [
      "Mario Mafai",
@@ -20785,8 +20829,35 @@
   },
   "A6-3": {
    "axis": "Sub-types and styles first, then centres, makers by date, and named works with holding museum; collections ranked by gathered objects.",
-   "catalogues": [],
+   "catalogues": [
+    [
+     "https://en.wikipedia.org/wiki/Jangarh_Singh_Shyam",
+     "Wikipedia: Jangarh Singh Shyam",
+     "the founder of Pardhan Gond painting"
+    ]
+   ],
    "kinds": [
+    [
+     "Jangarh kalam",
+     "Sub-types",
+     "the Pardhan Gond style named after Jangarh Singh Shyam",
+     "r3 https://en.wikipedia.org/wiki/Jangarh_Singh_Shyam",
+     0
+    ],
+    [
+     "Patangarh",
+     "Centres & workshops",
+     "Dindori village of the Pardhan Gond painters",
+     "r3 https://en.wikipedia.org/wiki/Jangarh_Singh_Shyam",
+     0
+    ],
+    [
+     "Bharat Bhavan",
+     "Centres & workshops",
+     "Bhopal arts centre where Jangarh Singh Shyam began painting (1981)",
+     "r3 https://en.wikipedia.org/wiki/Bharat_Bhavan",
+     0
+    ],
     [
      "Jangarh Singh Shyam",
      "Makers",
@@ -20983,6 +21054,13 @@
      "Sub-types",
      "tin panels with film stars, animals and city views",
      "r3 https://en.wikipedia.org/wiki/Rickshaw_art",
+     0
+    ],
+    [
+     "Cycle rickshaw",
+     "Sub-types",
+     "the vehicle whose panels and hoods are painted",
+     "r3 https://en.wikipedia.org/wiki/Cycle_rickshaw",
      0
     ],
     [
@@ -21322,7 +21400,18 @@
   },
   "A6-13": {
    "axis": "Sub-types (retablo santos on tin, ex-votos), then centres and painters; collections.",
-   "catalogues": [],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=retablo",
+     "Smithsonian Collections Search: retablo",
+     "Smithsonian objects (incl. Freer|Sackler) matching 'retablo'"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=retablo",
+     "The Met collection search: retablo",
+     "all Met objects matching 'retablo'"
+    ]
+   ],
    "kinds": [
     [
      "Ex-voto painting (Latin America)",
@@ -21470,8 +21559,35 @@
   },
   "A6-15": {
    "axis": "Sub-types and styles first, then centres, makers by date, and named works with holding museum; collections ranked by gathered objects.",
-   "catalogues": [],
+   "catalogues": [
+    [
+     "https://en.wikipedia.org/wiki/Sarhua_District",
+     "Wikipedia: Sarhua District",
+     "the district of the painted boards"
+    ]
+   ],
    "kinds": [
+    [
+     "Sarhua",
+     "Centres & workshops",
+     "Ayacucho village of the painted boards",
+     "r3 https://en.wikipedia.org/wiki/Sarhua_District",
+     0
+    ],
+    [
+     "Ayacucho Region",
+     "Centres & workshops",
+     "Andean region of Sarhua and the retablo makers",
+     "r3 https://en.wikipedia.org/wiki/Ayacucho_Region",
+     0
+    ],
+    [
+     "Piraq Causa",
+     "Works",
+     "1980s board series on violence in Ayacucho by the Sarhua painters",
+     "r3 https://en.wikipedia.org/wiki/Sarhua_District",
+     0
+    ],
     [
      "Primitivo Evanán Poma",
      "Makers",
@@ -21486,14 +21602,48 @@
   },
   "A6-16": {
    "axis": "Sub-types and styles first, then centres, makers by date, and named works with holding museum; collections ranked by gathered objects.",
-   "catalogues": [],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Tigua",
+     "Smithsonian Collections Search: Tigua",
+     "Smithsonian objects (incl. Freer|Sackler) matching 'Tigua'"
+    ]
+   ],
    "kinds": [
+    [
+     "Painted drums",
+     "Sub-types",
+     "decorated festival drums, the origin of the sheepskin paintings",
+     "r3 https://collections.si.edu/search/results.htm?q=Tigua",
+     0
+    ],
+    [
+     "Tigua",
+     "Centres & workshops",
+     "Kichwa community in Cotopaxi province, Ecuador",
+     "r3 https://collections.si.edu/search/results.htm?q=Tigua",
+     0
+    ],
+    [
+     "Cotopaxi Province",
+     "Centres & workshops",
+     "Ecuadorian province of the Tigua communities",
+     "r3 https://en.wikipedia.org/wiki/Cotopaxi_Province",
+     0
+    ],
     [
      "Smithsonian National Museum of the American Indian",
      "Collections",
      "20 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Smithsonian+National+Museum+of+the+American+Indian",
      0
+    ],
+    [
+     "Julio Toaquiza",
+     "Makers",
+     "founder of Tigua painting (b. 1952)",
+     "r3 https://collections.si.edu/search/results.htm?q=Tigua",
+     1
     ]
    ],
    "alias_rows": [
@@ -21515,6 +21665,13 @@
      "Sub-types",
      "decoration of Buenos Aires buses, the classic support",
      "r3 https://en.wikipedia.org/wiki/Fileteado",
+     0
+    ],
+    [
+     "Buenos Aires",
+     "Centres & workshops",
+     "city of the fileteadores, UNESCO 2015",
+     "r3 https://en.wikipedia.org/wiki/Buenos_Aires",
      0
     ],
     [
@@ -21766,6 +21923,13 @@
      0
     ],
     [
+     "Stencil",
+     "Sub-types",
+     "the cut theorems used to build up the image",
+     "r3 https://en.wikipedia.org/wiki/Stencil",
+     0
+    ],
+    [
      "Metropolitan Museum of Art",
      "Collections",
      "2 objects of the tradition in the gathered records",
@@ -21862,6 +22026,13 @@
      0
     ],
     [
+     "Dnipropetrovsk Oblast",
+     "Centres & workshops",
+     "region of Petrykivka village",
+     "r3 https://en.wikipedia.org/wiki/Dnipropetrovsk_Oblast",
+     0
+    ],
+    [
      "Kateryna Bilokur",
      "Makers",
      "Ukrainian folk painter linked to the tradition (1900–1961)",
@@ -21880,9 +22051,21 @@
      "https://en.wikipedia.org/wiki/Petrykivka_painting",
      "Wikipedia: Petrykivka painting",
      "related Ukrainian decorative painting"
+    ],
+    [
+     "https://uk.wikipedia.org/wiki/Таврійський_розпис",
+     "Wikipedia (uk): Таврійський розпис",
+     "the tradition"
     ]
    ],
    "kinds": [
+    [
+     "Tauric painting (uk)",
+     "Sub-types",
+     "Таврійський розпис, national intangible heritage of Ukraine",
+     "r3 https://uk.wikipedia.org/wiki/Таврійський_розпис",
+     0
+    ],
     [
      "Mykolaiv Oblast",
      "Centres & workshops",
@@ -21907,6 +22090,16 @@
      "https://en.wikipedia.org/wiki/Gorodets_painting",
      "Wikipedia: Gorodets painting",
      "the tradition"
+    ],
+    [
+     "https://goskatalog.ru/portal/",
+     "Goskatalog",
+     "State Catalogue of the Museum Fund of the Russian Federation"
+    ],
+    [
+     "https://ru.wikipedia.org/wiki/Городецкая_роспись",
+     "Wikipedia (ru): Городецкая роспись",
+     "the tradition"
     ]
    ],
    "kinds": [
@@ -21915,6 +22108,13 @@
      "Sub-types",
      "painted boards of spinning distaffs, the original support",
      "r3 https://en.wikipedia.org/wiki/Gorodets_painting",
+     0
+    ],
+    [
+     "Distaff",
+     "Sub-types",
+     "spinning distaff whose base board carried the paintings",
+     "r3 https://en.wikipedia.org/wiki/Distaff",
      0
     ],
     [
@@ -21943,9 +22143,40 @@
      "https://goskatalog.ru/portal/",
      "Goskatalog",
      "State Catalogue of the Museum Fund of the Russian Federation"
+    ],
+    [
+     "https://ru.wikipedia.org/wiki/Мезенская_роспись",
+     "Wikipedia (ru): Мезенская роспись",
+     "the tradition and its centres"
+    ],
+    [
+     "https://goskatalog.ru/portal/",
+     "Goskatalog",
+     "State Catalogue of the Museum Fund of the Russian Federation"
     ]
    ],
    "kinds": [
+    [
+     "Mezen distaffs",
+     "Sub-types",
+     "distaffs with rows of horses and deer in red and black",
+     "r3 https://ru.wikipedia.org/wiki/Мезенская_роспись",
+     0
+    ],
+    [
+     "Palashchelye",
+     "Centres & workshops",
+     "Mezen village whose Aksenov family workshops defined the style",
+     "r3 https://ru.wikipedia.org/wiki/Мезенская_роспись",
+     0
+    ],
+    [
+     "Mezen River",
+     "Centres & workshops",
+     "lower Mezen villages of the painters",
+     "r3 https://en.wikipedia.org/wiki/Mezen_River",
+     0
+    ],
     [
      "Государственное бюджетное учреждение культуры Архангельской области \"Архангельский краеведческий музей\"",
      "Collections",
@@ -21986,6 +22217,11 @@
      "https://goskatalog.ru/portal/",
      "Goskatalog",
      "State Catalogue of the Museum Fund of the Russian Federation"
+    ],
+    [
+     "https://goskatalog.ru/portal/",
+     "Goskatalog",
+     "State Catalogue of the Museum Fund of the Russian Federation"
     ]
    ],
    "kinds": [
@@ -22001,6 +22237,20 @@
      "Schools & phases",
      "Borok style of the Northern Dvina, gold and green on white",
      "evidence",
+     0
+    ],
+    [
+     "Puchuga painting",
+     "Schools & phases",
+     "Puchuga village style of the Northern Dvina",
+     "r3 https://en.wikipedia.org/wiki/Northern_Dvina",
+     0
+    ],
+    [
+     "Rakul painting",
+     "Schools & phases",
+     "Rakula village style",
+     "r3 https://en.wikipedia.org/wiki/Northern_Dvina",
      0
     ],
     [
@@ -22148,6 +22398,13 @@
      "Centres & workshops",
      "Vishnyakov brothers' tray workshop founded 1825",
      "r3 https://en.wikipedia.org/wiki/Zhostovo_painting",
+     0
+    ],
+    [
+     "Mytishchi",
+     "Centres & workshops",
+     "district near Moscow where Zhostovo lies",
+     "r3 https://en.wikipedia.org/wiki/Mytishchi",
      0
     ]
    ],
@@ -23919,6 +24176,13 @@
      0
     ],
     [
+     "Hanoi",
+     "Centres & workshops",
+     "old quarter of Hanoi",
+     "r3 https://en.wikipedia.org/wiki/Hanoi",
+     0
+    ],
+    [
      "Lê Đình Nghiên",
      "Makers",
      "last master of the tradition",
@@ -23932,13 +24196,33 @@
   },
   "B2-3": {
    "axis": "Sub-types by subject, then the villages; collections.",
-   "catalogues": [],
+   "catalogues": [
+    [
+     "https://en.wikipedia.org/wiki/Kim_Hoàng_painting",
+     "Wikipedia: Kim Hoàng painting",
+     "the tradition"
+    ]
+   ],
    "kinds": [
+    [
+     "Tết pigs and roosters",
+     "Sub-types",
+     "auspicious animal prints on red paper",
+     "r3 https://en.wikipedia.org/wiki/Kim_Hoàng_painting",
+     0
+    ],
     [
      "Làng Sình",
      "Centres & workshops",
      "Huế village of related woodblock prints for worship",
      "evidence",
+     0
+    ],
+    [
+     "Kim Hoàng village",
+     "Centres & workshops",
+     "Hoài Đức, west of Hanoi",
+     "r3 https://en.wikipedia.org/wiki/Kim_Hoàng_painting",
      0
     ]
    ],
@@ -24059,8 +24343,21 @@
   },
   "B2-5": {
    "axis": "Printmakers by generation (Caruaru and Bezerros), then sub-types; collections.",
-   "catalogues": [],
+   "catalogues": [
+    [
+     "https://en.wikipedia.org/wiki/Cordel_literature",
+     "Wikipedia: Cordel literature",
+     "the chapbook tradition and its woodcuts"
+    ]
+   ],
    "kinds": [
+    [
+     "Xilogravura",
+     "Sub-types",
+     "the woodcut technique of the cordel covers",
+     "r3 https://en.wikipedia.org/wiki/Cordel_literature",
+     0
+    ],
     [
      "Bezerros",
      "Centres & workshops",
@@ -24074,6 +24371,13 @@
      "26 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Wereldmuseum+(NMVW)",
      0
+    ],
+    [
+     "J. Borges",
+     "Makers",
+     "Bezerros woodcut master (1935–2024)",
+     "r3 https://en.wikipedia.org/wiki/José_Francisco_Borges",
+     1
     ],
     [
      "Gilvan Samico",
@@ -26719,6 +27023,20 @@
      "Qur'ans copied by Hui Muslims in China",
      "r3 https://en.wikipedia.org/wiki/Islam_in_China",
      0
+    ],
+    [
+     "Hui people",
+     "Sub-types",
+     "Chinese-speaking Muslims whose calligraphy this is",
+     "r3 https://en.wikipedia.org/wiki/Hui_people",
+     0
+    ],
+    [
+     "Arabic calligraphy",
+     "Sub-types",
+     "the wider Arabic tradition",
+     "r3 https://en.wikipedia.org/wiki/Arabic_calligraphy",
+     0
     ]
    ],
    "alias_rows": []
@@ -26753,6 +27071,13 @@
      "Urgent Safeguarding list 2013",
      "r3 https://en.wikipedia.org/wiki/Mongolian_calligraphy",
      0
+    ],
+    [
+     "Zanabazar",
+     "Makers",
+     "creator of the Soyombo script (1635–1723)",
+     "r3 https://en.wikipedia.org/wiki/Zanabazar",
+     1
     ]
    ],
    "alias_rows": [
@@ -29305,9 +29630,40 @@
      "https://collections.vam.ac.uk/search/?q=kammavaca",
      "V&A Collections search: kammavaca",
      "all V&A objects matching 'kammavaca'"
+    ],
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=kammavaca",
+     "British Museum collection search: kammavaca",
+     "all British Museum objects matching 'kammavaca'"
+    ],
+    [
+     "https://collections.vam.ac.uk/search/?q=kammavaca",
+     "V&A Collections search: kammavaca",
+     "all V&A objects matching 'kammavaca'"
     ]
    ],
    "kinds": [
+    [
+     "Gilt-lacquer palm-leaf kammavaca",
+     "Sub-types",
+     "tamarind-seed script in lacquer on gilt palm leaf",
+     "r3 https://www.britishmuseum.org/collection/search?keyword=kammavaca",
+     0
+    ],
+    [
+     "Cloth kammavaca",
+     "Sub-types",
+     "lacquered cloth leaves, often from monks' robes",
+     "r3 https://www.britishmuseum.org/collection/search?keyword=kammavaca",
+     0
+    ],
+    [
+     "Metal kammavaca",
+     "Sub-types",
+     "copper or brass leaves, for royal donations",
+     "r3 https://www.britishmuseum.org/collection/search?keyword=kammavaca",
+     0
+    ],
     [
      "Cleveland Museum of Art",
      "Collections",
@@ -29480,6 +29836,20 @@
     ]
    ],
    "kinds": [
+    [
+     "Joseon court ceremonies",
+     "Sub-types",
+     "royal weddings, funerals and processions recorded in uigwe",
+     "r3 https://en.wikipedia.org/wiki/Joseon",
+     0
+    ],
+    [
+     "Oegyujanggak",
+     "Centres & workshops",
+     "Ganghwa royal library looted in 1866; uigwe returned from France 2011",
+     "r3 https://en.wikipedia.org/wiki/Uigwe",
+     0
+    ],
     [
      "Kyujanggak",
      "Centres & workshops",
@@ -29743,13 +30113,6 @@
      0
     ],
     [
-     "Private",
-     "Collections",
-     "14 objects of the tradition in the gathered records",
-     "r3 https://www.wikidata.org/wiki/Special:Search?search=Private",
-     0
-    ],
-    [
      "Shelley & Donald Rubin",
      "Collections",
      "2 objects of the tradition in the gathered records",
@@ -29761,6 +30124,13 @@
      "Collections",
      "2 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Rubin+Museum+of+Art",
+     0
+    ],
+    [
+     "Smithsonian National Museum of the American Indian",
+     "Collections",
+     "1 object of the tradition in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Smithsonian+National+Museum+of+the+American+Indian",
      0
     ],
     [
@@ -30529,6 +30899,13 @@
     ]
    ],
    "kinds": [
+    [
+     "Merovingian script",
+     "Sub-types",
+     "the Merovingian minuscule hands",
+     "r3 https://en.wikipedia.org/wiki/Merovingian_script",
+     0
+    ],
     [
      "Corbie Abbey",
      "Centres & workshops",
@@ -33798,7 +34175,18 @@
   },
   "C3-4": {
    "axis": "Sub-types by book form (scroll, concertina, butterfly, wrapped-back, thread binding), then centres; collections.",
-   "catalogues": [],
+   "catalogues": [
+    [
+     "https://en.wikipedia.org/wiki/Wasōbon",
+     "Wikipedia: Wasōbon",
+     "Japanese book forms"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Japanese_books",
+     "Wikipedia: Japanese books",
+     "history of the Japanese book"
+    ]
+   ],
    "kinds": [
     [
      "Wahon",
@@ -33815,10 +34203,24 @@
      0
     ],
     [
+     "Butterfly binding",
+     "Sub-types",
+     "Song-dynasty binding of folded leaves pasted at the fold",
+     "r3 https://en.wikipedia.org/wiki/Bookbinding",
+     0
+    ],
+    [
      "Concertina binding",
      "Sub-types",
      "accordion-folded sutra books",
      "r3 https://en.wikipedia.org/wiki/Concertina_book",
+     0
+    ],
+    [
+     "Fukuro-toji",
+     "Sub-types",
+     "Japanese pouch binding stitched through the spine",
+     "r3 https://en.wikipedia.org/wiki/Wasōbon",
      0
     ]
    ],
@@ -33906,6 +34308,13 @@
      "Sub-types",
      "paper stencils of Krishna lila laid with coloured powder",
      "r3 https://en.wikipedia.org/wiki/Sanjhi",
+     0
+    ],
+    [
+     "Rangoli",
+     "Sub-types",
+     "related floor designs in coloured powder",
+     "r3 https://en.wikipedia.org/wiki/Rangoli",
      0
     ],
     [
@@ -34009,6 +34418,20 @@
      0
     ],
     [
+     "Tissue paper",
+     "Sub-types",
+     "papel de china, the usual material",
+     "r3 https://en.wikipedia.org/wiki/Tissue_paper",
+     0
+    ],
+    [
+     "Mexican folk art",
+     "Sub-types",
+     "the wider tradition of Mexican crafts",
+     "r3 https://en.wikipedia.org/wiki/Mexican_handcrafts_and_folk_art",
+     0
+    ],
+    [
      "San Salvador Huixcolotla",
      "Centres & workshops",
      "Puebla town, centre of papel picado",
@@ -34022,8 +34445,21 @@
   },
   "C4-5": {
    "axis": "Sub-types and makers; collections.",
-   "catalogues": [],
+   "catalogues": [
+    [
+     "https://www.europeana.eu/en/search?query=vycinanka",
+     "Europeana: vycinanka",
+     "European museum and library records matching 'vycinanka'"
+    ]
+   ],
    "kinds": [
+    [
+     "Vytsinanka (UNESCO)",
+     "Sub-types",
+     "Belarusian paper cutting inscribed 2024",
+     "r3 https://www.europeana.eu/en/search?query=vycinanka",
+     0
+    ],
     [
      "Wycinanki",
      "Sub-types",
@@ -34050,6 +34486,13 @@
      "Crepe-paper flowers",
      "Sub-types",
      "flowers for processions and feast-day decoration",
+     "r3 https://en.wikipedia.org/wiki/Paper_flower",
+     0
+    ],
+    [
+     "Paper flower",
+     "Sub-types",
+     "paper flower making worldwide",
      "r3 https://en.wikipedia.org/wiki/Paper_flower",
      0
     ],
@@ -34484,6 +34927,11 @@
   [
    "A1-15",
    "Garima Gospels",
+   "duplicate of another row"
+  ],
+  [
+   "A4-1",
+   "Raghurajpur",
    "duplicate of another row"
   ],
   [
