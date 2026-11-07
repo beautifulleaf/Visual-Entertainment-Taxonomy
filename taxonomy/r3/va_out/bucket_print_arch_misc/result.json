@@ -24534,6853 +24534,5836 @@
 "alias_rows": []
 },
 "B1-5": {
-"axis": "provisional",
+"axis": "by sub-type of illustration (caricature, magazine, scientific, topographical, children's books, cartoons, fantasy, graphic design), then national comics traditions not covered by their own leaves; within each group by birth; comics artists of the Franco-Belgian, American, Marcinelle and manga traditions, poster artists and gallery artists moved to their own leaves",
+"catalogues": [
+[
+"https://www.loc.gov/pictures/collection/cai/",
+"Library of Congress: Cabinet of American Illustration",
+"original drawings by American illustrators, c. 1880–1940"
+],
+[
+"https://www.cartoons.ac.uk/",
+"British Cartoon Archive (University of Kent)",
+"over 200,000 British cartoons and caricatures, searchable by artist"
+],
+[
+"https://www.britishmuseum.org/collection/search?keyword=caricature",
+"British Museum collection: caricature",
+"the BM's satirical prints and drawings (Gillray, Rowlandson, Cruikshank)"
+],
+[
+"https://www.illustrationhistory.org/",
+"Norman Rockwell Museum: Illustration History",
+"biographies and works of illustrators across periods and genres"
+]
+],
 "kinds": [
 [
-"Graham Gore",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Pauline Baynes",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Eric Fraser",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Angus McBride",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Fritz Kredel",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Carl Snoilsky",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Carmine Infantino",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Chaval",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Guadalupe Maravilla",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"עמנואל גרבובצקי",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Christian Rossi",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Édouard Jaguer",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Claude Serre",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Berthold Wolpe",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Félix Kassowitz",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Katalin Ladik",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Clément Moreau",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Yuki Kodama",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sam Cox",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Dave Sim",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"David Langdon",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Marek Rudnicki",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mieczysław Piotrowski",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Erkki Tanttu",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hans Ticha",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sulamith Wülfing",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Antonio Arias Bernal",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Dick Sprang",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Magnus",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Cioma Schönhaus",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Dik Browne",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Zep",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Anna Park",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"John Obadiah Westwood",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Don Martin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Eric Stanton",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Georges Pichard",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Marie Marcks",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Antun Motika",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Dušan Vukotić",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Pierre Mercure",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Tom Hood",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Petra Štefanková",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Lucy Cousins",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Eddie Campbell",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Édouard Aidans",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Alain Dodier",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jacky Tsai",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Simms Taback",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Tony Rafty",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jul' Maroh",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jerry Robinson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gilbert Shelton",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"(unnamed)",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Kasing Lung",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"François Boucq",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Erich Mönch",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ernest d'Hervilly",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Alex Toth",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Emmanuel Larcenet",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Marc Brandenburg",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jost Hochuli",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"John Leech",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jean-Claude Mézières",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Herblock",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Alberto Breccia",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gunnar Wennerberg",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Allan Ahlberg",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mary Bauermeister",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Florence Cestac",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Norman Hetherington",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Franz Eggenschwiler",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Friedel Stern",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Roger Duvoisin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gerhard Kettner",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Heinz Kiwitz",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Agus Djaya",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Georges Zipélius",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gerald Rose",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Wesley Dennis",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Heide Fasnacht",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Thomas Kilpper",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Philippe Fix",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"John Alan Maxwell",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mischa Richter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mary Ellen Edwards",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Predrag Koraksić Corax",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Heinrich Schlitt",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Tom Keogh",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Herbert Leupin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Elaine Lustig Cohen",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Herbert W. Kapitzki",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Leonid Vladimirski",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Amy Cutler",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jacques Prévert",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Iwona Chmielewska",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"William Makepeace Thackeray",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jacques Faizant",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Zbigniew Lengren",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jean-Louis Mourier",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Piem",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Georg Bötticher",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"José Luis Munuera",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Joséphine de Beauharnais",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jörg Schmeisser",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Glen Rounds",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Christophe Blain",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Michael Riedel",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Michel Manzi",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Svend Otto S.",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Henrik Tikkanen",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ulf Löfgren",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Liliane Funcken",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Zoran Janjetov",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Anthony Colbert",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Barbara Yelin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Simon Vinkenoog",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Alfred Wainwright",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"True Williams",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jiang Feng",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Marie Olfers",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mark Dion",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"René Goscinny",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gilda Mantilla",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Claire Barclay",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Birgit Skiöld",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Araya Rasdjarmrearnsook",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sam Lewitt",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sol Eytinge Jr.",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Kim Jung Gi",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Nedeljko Dragić",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Fritzi Harmsen van Beek",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Elena del Rivero",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sibylle Riquetti de Mirabeau",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Marion Fayolle",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Susan Te Kahurangi King",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jacolby Satterwhite",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Larry Lieber",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Bengt Böckman",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ala Younis",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Joe Eula",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Parviz Shapour",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Paul Gillon",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Doaa el-Adl",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"George Tuska",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hans Bradtke",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Paul Girardet",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Paul Hadol",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Peter Connolly",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Philippe Berthet",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ali Dilem",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Siné",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Rinus Van de Velde",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Serge Ernst",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Reinhard Kleist",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Richard Haas",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Heinrich Hoffmann",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Robert Lips",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Judith Kerr",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Robert Trossin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Rolf Münzner",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Russ Heath",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ruth Krauss",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hans G. Kresse",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Paul Driessen",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Zoltán Huszárik",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Carol Voges",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Patrice Pellerin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Eve Aschheim",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sam Middleton",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Stan Drake",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Raymond Briggs",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Tam Van Tran",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Nahid Hagigat",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Princess Clémentine, Princess of Koháry",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Terry Jennings",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sarah Churchill",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Don Rosa",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Thomas Locher",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Paco Roca",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ton Smits",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Trisha Donnelly",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Willem de Ridder",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ernest Nister",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Stig Claesson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Judith Vanistendael",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Vera Williams",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mance Post",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Paul Jamin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Wiktoria Goryńska",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Infanta Antónia of Portugal",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Juanjo Guarnido",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Willie Rushton",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jason",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"François Levaillant",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Anita Lobel",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gray Morrow",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Diana Ross",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Alexander Anderson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"John Frederick Miller",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jean Adamson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Bernard Heidsieck",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Frans Piët",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Émile Bravo",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ernesto Caivano",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Enrique Herreros",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Marcel Marlier",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Karel Zeman",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Adam Dant",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Adrien Dubouché",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"André Chéret",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Asaf Hanuka",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Augusta Innes Withers",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Aurel",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sadie Barnette",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Adolfo Nadal Walcot",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Rébecca Dautremer",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Kate Charlesworth",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jacky Fleming",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Eric Hill",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Aimée de Jongh",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Tula Lotay",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Alona Frankel",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Rutu Modan",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Béatrice Tillier",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Bédu",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Catherine Meurisse",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Charles Barsotti",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jonathan Shapiro",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Guy Debord",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Coby Whitmore",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Frank Hamilton Taylor",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Coyote",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Dick Ayers",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Didier Graffet",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Dominique Goblet",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ed Emshwiller",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Pere Calders",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Eva Koťátková",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Fabrice Tarrin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Fernando Bryce",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"John Bolton",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Francis Carruthers Gould",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gabrielle Vincent",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gébé",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Eugène Pottier",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Helen Oxenbury",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Henri Meyer",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Henry Bradbury",
-"Artists",
-"",
-"artists",
-1
-],
-[
 "Henry Bunbury",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hervé Tullet",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hamid Nada",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Igor Kordej",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Isabelle Dethan",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jacques-Armand Cardon",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jan van Haasteren",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jean-Yves Ferri",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Quino",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Johann Friedrich Anthing",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Johnny Craig",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Bob Peak",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Lina Buffolente",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Forges",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Darrell K. Sweet",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Kariel Gardosh",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Luz",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Marc Wasterlain",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Edgar Valter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mangesh Tendulkar",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Martin Kersels",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Michael Atchison",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Monique Watteau",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Nicolas de Crécy",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Nicole Claveloux",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Boris Grinsson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jakob Martin Strid",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Pierre Kroll",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Pierre Probst",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ralph Meyer",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Renaud",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"René Hausman",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Zbigniew Rychlicki",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Riad Sattouf",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Robert Lassalvy",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Roser Capdevila",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ana Miralles",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jean-Pierre Gibrat",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"W. S. Gilbert",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Roger Hargreaves",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Murphy Anderson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"R. K. Laxman",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ranan Lurie",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Tiburce Oger",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Bertil Almqvist",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jaap Vegter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Alfredo Alcala",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Zeina Abirached",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Aurelius Battaglia",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Per Åhlin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Heinz Valk",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Edmund Valtman",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Giorgio Forattini",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Grazia Varisco",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Norman Bridwell",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hervé Barulea",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Peter van Straaten",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Elspeth Lamb",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Walter Molino",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Zerocalcare",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ali Farzat",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ramón Esono",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Andrey Bilzho",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jim Isermann",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Julia Mangold",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gerardo Pita",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Paul Noble",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mamiya Oki",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Kagiso Patrick Mautloa",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Björn Landström",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Frank Springer",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Tasha Tudor",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Kitty Crowther",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Philip Henry Gosse",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"William Swainson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Nikolay Alexandrovich Stepanov",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Dave Gibbons",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Valery Traugot",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ingrid Vang Nyman",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Alvin Colt",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Victor Chizhikov",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Quentin Blake",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Tomie dePaola",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Melinda Gebbie",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Blexbolex",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Eugène Ionesco",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Al Parker",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Helen Binyon",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Angelo Torres",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Anne Chu",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Anya Gallaccio",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Pascal Pia",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Austin Briggs",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Banks Violette",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Basil Gogos",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Fred Martin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Tony Ross",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hédi Fried",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Bruce Jensen",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Liv Strömquist",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ronald Searle",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Rosmarie Tissi",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Carlos Ezquerra",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Romano Scarpa",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jacques Tardi",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"William Gell",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mitacq",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Charles H. Bennett",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Igort",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"James William Edmund Doyle",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"André Juillard",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"David Hunter Strother",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Edward Ellerker Williams",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Lena Anderson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Deanna Petherbridge",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Maurice Gilliams",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Favell Lee Mortimer",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Donald Evans",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"E. Simms Campbell",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Edward FitzGerald",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ebenezer Landells",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ed Koren",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Edgar Arceneaux",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Victor Hugo",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Angelo Agostini",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Elizabeth Orton Jones",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ester Partegàs",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Evaline Ness",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ezra Jack Keats",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Pénélope Bagieu",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"John Severin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Felicitas Kuhn",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Felix Partz",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Finn Graff",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Frank Bellew",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gahan Wilson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ann Craven",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gray Foy",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ciprian Mureşan",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Emre Hüner",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Floyd Gottfredson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Aya Ben Ron",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gabi Klasmer",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"George Woodbridge",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Joëlle Tuerlinckx",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Zainab Fasiki",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Max Morise",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Graeme Base",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Nidhal Chamekh",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Folke Dahlberg",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hannes Bok",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Annie Pootoogook",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Marc Davis",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Henry Ford",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Henry Howe",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Bettina von Arnim",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Henry Louis Stephens",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Anthony Browne",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jean-David Morvan",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Carlos Garaycochea",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ernesto Deira",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mazan",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Horatio Gordon Robley",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jean-Claude Denis",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Pedro de Oraá",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jean Bosc",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hansje van Halem",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"John Vernon Lord",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Noel Sickles",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Eric Carle",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Isaac Robert Cruikshank",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jack Roth",
-"Artists",
-"",
+"Georgian and Regency caricature",
+"b. 1750, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
 "James Akin",
-"Artists",
-"",
+"Georgian and Regency caricature",
+"b. 1773, United States, drawing and illustration",
 "artists",
 1
 ],
 [
-"Jan Pieńkowski",
-"Artists",
-"",
+"Isaac Robert Cruikshank",
+"Georgian and Regency caricature",
+"b. 1789, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"Jerry Pinkney",
-"Artists",
-"",
+"Nikolay Alexandrovich Stepanov",
+"Georgian and Regency caricature",
+"b. 1807, Russia and the Soviet Union, drawing and illustration",
 "artists",
 1
 ],
 [
-"Gauri Bhanja",
-"Artists",
-"",
+"Ebenezer Landells",
+"Victorian magazine illustration (Punch, Illustrated London News)",
+"b. 1808, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"Galinka Ehrenfest",
-"Artists",
-"",
+"William Makepeace Thackeray",
+"Victorian magazine illustration (Punch, Illustrated London News)",
+"b. 1811, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"Alex Varenne",
-"Artists",
-"",
+"John Leech",
+"Victorian magazine illustration (Punch, Illustrated London News)",
+"b. 1817, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"Lilli Carré",
-"Artists",
-"",
+"James William Edmund Doyle",
+"Victorian magazine illustration (Punch, Illustrated London News)",
+"b. 1822, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"John Preston Neale",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"John Schoenherr",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"John van Hamersveld",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Joseph Low",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ding Yi",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Antony Maitland",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Karen Finley",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Kembra Pfahler",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Kenneth Paul Block",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sara Pichelli",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Krishen Khanna",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"José Damasceno",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Abel Rodríguez",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Anna Haifisch",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Émilie Gleason",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mairi Hedderwick",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Marc Simont",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mary Eliza Haweis",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Melton Prior",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Michael Foreman",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Michel Kichka",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Picha",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Wolf Erlbruch",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Derib",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Narayan Debnath",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Nicholas Garland",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gotlib",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Palmer Cox",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Andreas",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jean-Marc Reiser",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Philippe Liégeois",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Olivia Plender",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Tsai Chih-chung",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Oronzo Vito Gasparo",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Osbert Lancaster",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Otte Wallish",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Guillermo Mordillo",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Chris Riddell",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Pablo Marcos",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"René Follet",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Plantu",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Caza",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Virgil Finlay",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Prideaux John Selby",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Peter Fingesten",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Peter Firmin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Daniel Hulet",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Dino Attanasio",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mary-Anne Paulzzze Lavoisier",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Guido Crepax",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sal Buscema",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"David Beauchard",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Richard Scarry",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mike Sekowsky",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Joe Simon",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ray Lowry",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Rory Pilgrim",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"C. C. Beck",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Robert Fawcett",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Robert Gillmor",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Robert Whitman",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Roger Hane",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ronnie del Carmen",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Roy Doty",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Roz Chast",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Rufus Fairchild Zogbaum",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Russell Crotty",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Countess Róża Potocka",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Copi",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Elisabeth Schumacher",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Seth Tobocman",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Siegfried Woldhek",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gerard Hoffnung",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sophie Podolski",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Stephen Longstreet",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Susan Shaw",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Paul Heyse",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sybil Wettasinghe",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Syd Hoff",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Terry Denton",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Napoleon III",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Napoleon II",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gloria Ortiz-Hernández",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ione Robinson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Leopold Strobl",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Philipp Rupprecht",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Tom Feelings",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Max Eyth",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Toyin Ojih Odutola",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sergio Toppi",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Balázs Balázs-Piri",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Val Biro",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Victor Ambrus",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Virginia Frances Sterrett",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Paolo Bacilieri",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Winifred Milius Lubell",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Yukine Honami",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Zeev",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Aloísio Sergio Magalhães",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Nanne Meyer",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Garth Williams",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ida Bagus Pegug",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Felix Philipp Kanitz",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Bill Mauldin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gerhard Haderer",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Franz Xaver Reimspiess",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Anke Feuchtenberger",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Paul Flora",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Posy Simmonds",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Bjorn Dahlem",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Blutch",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Nagano",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Christoph Meckel",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Dave Cockrum",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Brecht Evens",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Josse Goffin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Horst von Möllendorff",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Turhan Selçuk",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Martin Lodewijk",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Fabien Vehlmann",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"John Burningham",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Erich Sokol",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Philippe Francq",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Tony Schumacher",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ken Bald",
-"Artists",
-"",
+"Charles H. Bennett",
+"Victorian magazine illustration (Punch, Illustrated London News)",
+"b. 1829, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
 "George du Maurier",
-"Artists",
-"",
+"Victorian magazine illustration (Punch, Illustrated London News)",
+"b. 1834, France, drawing and illustration",
 "artists",
 1
 ],
 [
-"Sergio Aragonés",
-"Artists",
-"",
+"Tom Hood",
+"Victorian magazine illustration (Punch, Illustrated London News)",
+"b. 1835, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"Hannes Hegen",
-"Artists",
-"",
+"Paul Hadol",
+"Victorian magazine illustration (Punch, Illustrated London News)",
+"b. 1835, France, drawing and illustration",
+"artists",
+1
+],
+[
+"W. S. Gilbert",
+"Victorian magazine illustration (Punch, Illustrated London News)",
+"b. 1836, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Mary Ellen Edwards",
+"Victorian magazine illustration (Punch, Illustrated London News)",
+"b. 1838, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Henri Meyer",
+"Victorian magazine illustration (Punch, Illustrated London News)",
+"b. 1841, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Angelo Agostini",
+"Victorian magazine illustration (Punch, Illustrated London News)",
+"b. 1843, Brazil, drawing and illustration",
+"artists",
+1
+],
+[
+"Francis Carruthers Gould",
+"Victorian magazine illustration (Punch, Illustrated London News)",
+"b. 1844, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Melton Prior",
+"Victorian magazine illustration (Punch, Illustrated London News)",
+"b. 1845, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Georg Bötticher",
+"Victorian magazine illustration (Punch, Illustrated London News)",
+"b. 1849, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Alexander Anderson",
+"American wood-engraving era illustration (Harper's, Leslie's)",
+"b. 1775, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"David Hunter Strother",
+"American wood-engraving era illustration (Harper's, Leslie's)",
+"b. 1816, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Henry Louis Stephens",
+"American wood-engraving era illustration (Harper's, Leslie's)",
+"b. 1824, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Frank Bellew",
+"American wood-engraving era illustration (Harper's, Leslie's)",
+"b. 1828, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Sol Eytinge Jr.",
+"American wood-engraving era illustration (Harper's, Leslie's)",
+"b. 1833, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"True Williams",
+"American wood-engraving era illustration (Harper's, Leslie's)",
+"b. 1839, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Palmer Cox",
+"American wood-engraving era illustration (Harper's, Leslie's)",
+"b. 1840, Canada, drawing and illustration",
+"artists",
+1
+],
+[
+"Frank Hamilton Taylor",
+"American wood-engraving era illustration (Harper's, Leslie's)",
+"b. 1846, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Rufus Fairchild Zogbaum",
+"American wood-engraving era illustration (Harper's, Leslie's)",
+"b. 1849, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"François Levaillant",
+"Natural-history and scientific illustration",
+"b. 1753, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Mary-Anne Paulzzze Lavoisier",
+"Natural-history and scientific illustration",
+"b. 1758, France, drawing and illustration",
+"artists",
+1
+],
+[
+"John Frederick Miller",
+"Natural-history and scientific illustration",
+"b. 1759, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Prideaux John Selby",
+"Natural-history and scientific illustration",
+"b. 1788, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"William Swainson",
+"Natural-history and scientific illustration",
+"b. 1789, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Augusta Innes Withers",
+"Natural-history and scientific illustration",
+"b. 1793, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"John Obadiah Westwood",
+"Natural-history and scientific illustration",
+"b. 1805, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Philip Henry Gosse",
+"Natural-history and scientific illustration",
+"b. 1810, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Henry Bradbury",
+"Natural-history and scientific illustration",
+"b. 1831, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Robert Gillmor",
+"Natural-history and scientific illustration",
+"b. 1936, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Abel Rodríguez",
+"Natural-history and scientific illustration",
+"b. 1944, Colombia, drawing and illustration",
+"artists",
+1
+],
+[
+"William Gell",
+"Topographical, travel and expedition draughtsmen",
+"b. 1777, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"John Preston Neale",
+"Topographical, travel and expedition draughtsmen",
+"b. 1780, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
 "Louis Maurice Adolphe Linant de Bellefonds",
-"Artists",
-"",
+"Topographical, travel and expedition draughtsmen",
+"b. 1798, France, drawing and illustration",
 "artists",
 1
 ],
 [
-"Nicola Salerno",
-"Artists",
-"",
+"Graham Gore",
+"Topographical, travel and expedition draughtsmen",
+"b. 1807, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"Marcel Odenbach",
-"Artists",
-"",
+"Felix Philipp Kanitz",
+"Topographical, travel and expedition draughtsmen",
+"b. 1829, Austria, drawing and illustration",
 "artists",
 1
 ],
 [
-"José Luis Salinas",
-"Artists",
-"",
+"Max Eyth",
+"Topographical, travel and expedition draughtsmen",
+"b. 1836, Germany, drawing and illustration",
 "artists",
 1
 ],
 [
-"Don Lawrence",
-"Artists",
-"",
+"Horatio Gordon Robley",
+"Topographical, travel and expedition draughtsmen",
+"b. 1840, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"Bernard Hislaire",
-"Artists",
-"",
+"Alfred Wainwright",
+"Topographical, travel and expedition draughtsmen",
+"b. 1907, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"Francisco Ibáñez Talavera",
-"Bruguera school",
-"",
+"Paul Girardet",
+"Historical, military and reconstruction illustration",
+"b. 1821, France, drawing and illustration",
 "artists",
 1
 ],
 [
-"Edward Gorey",
-"Artists",
-"",
+"Björn Landström",
+"Historical, military and reconstruction illustration",
+"b. 1917, Finland, drawing and illustration",
 "artists",
 1
 ],
 [
-"Hermann Huppen",
-"Artists",
-"",
+"Liliane Funcken",
+"Historical, military and reconstruction illustration",
+"b. 1927, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"Angus McBride",
+"Historical, military and reconstruction illustration",
+"b. 1931, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Peter Connolly",
+"Historical, military and reconstruction illustration",
+"b. 1935, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Victor Ambrus",
+"Historical, military and reconstruction illustration",
+"b. 1935, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Philipp Rupprecht",
+"Editorial and political cartoonists",
+"b. 1900, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Horst von Möllendorff",
+"Editorial and political cartoonists",
+"b. 1906, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Herblock",
+"Editorial and political cartoonists",
+"b. 1909, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Antonio Arias Bernal",
+"Editorial and political cartoonists",
+"b. 1913, Mexico, drawing and illustration",
+"artists",
+1
+],
+[
+"David Langdon",
+"Editorial and political cartoonists",
+"b. 1914, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Edmund Valtman",
+"Editorial and political cartoonists",
+"b. 1914, Estonia, drawing and illustration",
+"artists",
+1
+],
+[
+"Tony Rafty",
+"Editorial and political cartoonists",
+"b. 1915, Australia, drawing and illustration",
+"artists",
+1
+],
+[
+"Friedel Stern",
+"Editorial and political cartoonists",
+"b. 1917, Israel, drawing and illustration",
+"artists",
+1
+],
+[
+"Jacques Faizant",
+"Editorial and political cartoonists",
+"b. 1918, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Zbigniew Lengren",
+"Editorial and political cartoonists",
+"b. 1919, Poland, drawing and illustration",
+"artists",
+1
+],
+[
+"Kariel Gardosh",
+"Editorial and political cartoonists",
+"b. 1921, Hungary, drawing and illustration",
+"artists",
+1
+],
+[
+"Bill Mauldin",
+"Editorial and political cartoonists",
+"b. 1921, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Marie Marcks",
+"Editorial and political cartoonists",
+"b. 1922, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Turhan Selçuk",
+"Editorial and political cartoonists",
+"b. 1922, Turkey, drawing and illustration",
+"artists",
+1
+],
+[
+"Piem",
+"Editorial and political cartoonists",
+"b. 1923, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Zeev",
+"Editorial and political cartoonists",
+"b. 1923, Israel, drawing and illustration",
+"artists",
+1
+],
+[
+"Parviz Shapour",
+"Editorial and political cartoonists",
+"b. 1924, Iran, drawing and illustration",
+"artists",
+1
+],
+[
+"R. K. Laxman",
+"Editorial and political cartoonists",
+"b. 1924, India, drawing and illustration",
+"artists",
+1
+],
+[
+"Siné",
+"Editorial and political cartoonists",
+"b. 1928, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Giorgio Forattini",
+"Editorial and political cartoonists",
+"b. 1931, Italy, drawing and illustration",
+"artists",
+1
+],
+[
+"Ranan Lurie",
+"Editorial and political cartoonists",
+"b. 1932, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Predrag Koraksić Corax",
+"Editorial and political cartoonists",
+"b. 1933, Yugoslavia and successor states, drawing and illustration",
+"artists",
+1
+],
+[
+"Michael Atchison",
+"Editorial and political cartoonists",
+"b. 1933, Australia, drawing and illustration",
+"artists",
+1
+],
+[
+"Mangesh Tendulkar",
+"Editorial and political cartoonists",
+"b. 1934, India, drawing and illustration",
+"artists",
+1
+],
+[
+"Nicholas Garland",
+"Editorial and political cartoonists",
+"b. 1935, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Jacques-Armand Cardon",
+"Editorial and political cartoonists",
+"b. 1936, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Heinz Valk",
+"Editorial and political cartoonists",
+"b. 1936, Russia and the Soviet Union, drawing and illustration",
+"artists",
+1
+],
+[
+"Finn Graff",
+"Editorial and political cartoonists",
+"b. 1938, Norway, drawing and illustration",
+"artists",
+1
+],
+[
+"Forges",
+"Editorial and political cartoonists",
+"b. 1942, Spain, drawing and illustration",
+"artists",
+1
+],
+[
+"Ali Farzat",
+"Editorial and political cartoonists",
+"b. 1951, Syria, drawing and illustration",
+"artists",
+1
+],
+[
+"Plantu",
+"Editorial and political cartoonists",
+"b. 1951, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Gerhard Haderer",
+"Editorial and political cartoonists",
+"b. 1951, Austria, drawing and illustration",
+"artists",
+1
+],
+[
+"Andrey Bilzho",
+"Editorial and political cartoonists",
+"b. 1953, Russia and the Soviet Union, drawing and illustration",
+"artists",
+1
+],
+[
+"Michel Kichka",
+"Editorial and political cartoonists",
+"b. 1954, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"Jonathan Shapiro",
+"Editorial and political cartoonists",
+"b. 1958, South Africa, drawing and illustration",
+"artists",
+1
+],
+[
+"Pierre Kroll",
+"Editorial and political cartoonists",
+"b. 1958, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"Ali Dilem",
+"Editorial and political cartoonists",
+"b. 1967, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Luz",
+"Editorial and political cartoonists",
+"b. 1972, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Ramón Esono",
+"Editorial and political cartoonists",
+"b. 1977, Equatorial Guinea, drawing and illustration",
+"artists",
+1
+],
+[
+"Doaa el-Adl",
+"Editorial and political cartoonists",
+"b. 1979, Egypt, drawing and illustration",
+"artists",
+1
+],
+[
+"Aurel",
+"Editorial and political cartoonists",
+"b. 1980, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Enrique Herreros",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1903, Spain, drawing and illustration",
+"artists",
+1
+],
+[
+"E. Simms Campbell",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1906, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Félix Kassowitz",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1907, Hungary, drawing and illustration",
+"artists",
+1
+],
+[
+"Osbert Lancaster",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1908, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Mischa Richter",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1910, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Syd Hoff",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1912, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Chaval",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1914, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Ronald Searle",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1920, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Ton Smits",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1921, Netherlands, drawing and illustration",
+"artists",
+1
+],
+[
+"Roy Doty",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1922, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Paul Flora",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1922, South Tyrol, drawing and illustration",
+"artists",
+1
+],
+[
+"Henrik Tikkanen",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1924, Finland, drawing and illustration",
+"artists",
+1
+],
+[
+"Jean Bosc",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1924, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Gerard Hoffnung",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1925, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Carlos Garaycochea",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1928, Argentina, drawing and illustration",
+"artists",
+1
+],
+[
+"Gébé",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1929, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Franz Eggenschwiler",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1930, Switzerland, drawing and illustration",
+"artists",
+1
+],
+[
+"Gahan Wilson",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1930, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Jaap Vegter",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1932, Netherlands, drawing and illustration",
+"artists",
+1
+],
+[
+"Guillermo Mordillo",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1932, Argentina, drawing and illustration",
+"artists",
+1
+],
+[
+"Charles Barsotti",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1933, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Erich Sokol",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1933, Austria, drawing and illustration",
+"artists",
+1
+],
+[
+"Peter van Straaten",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1935, Netherlands, drawing and illustration",
+"artists",
+1
+],
+[
+"Ed Koren",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1935, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Willie Rushton",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1937, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Balázs Balázs-Piri",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1937, Hungary, drawing and illustration",
+"artists",
+1
+],
+[
+"Claude Serre",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1938, France, drawing and illustration",
 "artists",
 1
 ],
 [
 "Hans Georg Rauch",
-"Artists",
-"",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1939, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Jean-Marc Reiser",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1941, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Ray Lowry",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1944, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Roz Chast",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1954, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Jacky Fleming",
+"Gag and magazine cartoonists (The New Yorker, Punch, Esquire)",
+"b. 1955, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Favell Lee Mortimer",
+"Children's book illustration: Britain and Ireland",
+"b. 1802, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Helen Binyon",
+"Children's book illustration: Britain and Ireland",
+"b. 1904, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Diana Ross",
+"Children's book illustration: Britain and Ireland",
+"b. 1910, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Val Biro",
+"Children's book illustration: Britain and Ireland",
+"b. 1921, Hungary, drawing and illustration",
+"artists",
+1
+],
+[
+"Pauline Baynes",
+"Children's book illustration: Britain and Ireland",
+"b. 1922, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Judith Kerr",
+"Children's book illustration: Britain and Ireland",
+"b. 1923, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Eric Hill",
+"Children's book illustration: Britain and Ireland",
+"b. 1927, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Jean Adamson",
+"Children's book illustration: Britain and Ireland",
+"b. 1928, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Peter Firmin",
+"Children's book illustration: Britain and Ireland",
+"b. 1928, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Susan Shaw",
+"Children's book illustration: Britain and Ireland",
+"b. 1929, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Quentin Blake",
+"Children's book illustration: Britain and Ireland",
+"b. 1932, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Anthony Colbert",
+"Children's book illustration: Britain and Ireland",
+"b. 1934, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Raymond Briggs",
+"Children's book illustration: Britain and Ireland",
+"b. 1934, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Gerald Rose",
+"Children's book illustration: Britain and Ireland",
+"b. 1935, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Roger Hargreaves",
+"Children's book illustration: Britain and Ireland",
+"b. 1935, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Antony Maitland",
+"Children's book illustration: Britain and Ireland",
+"b. 1935, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Jan Pieńkowski",
+"Children's book illustration: Britain and Ireland",
+"b. 1936, Poland, drawing and illustration",
+"artists",
+1
+],
+[
+"John Burningham",
+"Children's book illustration: Britain and Ireland",
+"b. 1936, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Allan Ahlberg",
+"Children's book illustration: Britain and Ireland",
+"b. 1938, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Helen Oxenbury",
+"Children's book illustration: Britain and Ireland",
+"b. 1938, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Tony Ross",
+"Children's book illustration: Britain and Ireland",
+"b. 1938, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Michael Foreman",
+"Children's book illustration: Britain and Ireland",
+"b. 1938, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"John Vernon Lord",
+"Children's book illustration: Britain and Ireland",
+"b. 1939, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Mairi Hedderwick",
+"Children's book illustration: Britain and Ireland",
+"b. 1939, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Anthony Browne",
+"Children's book illustration: Britain and Ireland",
+"b. 1946, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Graeme Base",
+"Children's book illustration: Britain and Ireland",
+"b. 1958, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Chris Riddell",
+"Children's book illustration: Britain and Ireland",
+"b. 1962, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Lucy Cousins",
+"Children's book illustration: Britain and Ireland",
+"b. 1964, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Kitty Crowther",
+"Children's book illustration: Britain and Ireland",
+"b. 1970, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Roger Duvoisin",
+"Children's book illustration: North America",
+"b. 1900, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Virginia Frances Sterrett",
+"Children's book illustration: North America",
+"b. 1900, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Ruth Krauss",
+"Children's book illustration: North America",
+"b. 1901, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Wesley Dennis",
+"Children's book illustration: North America",
+"b. 1903, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Glen Rounds",
+"Children's book illustration: North America",
+"b. 1906, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Aurelius Battaglia",
+"Children's book illustration: North America",
+"b. 1910, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Elizabeth Orton Jones",
+"Children's book illustration: North America",
+"b. 1910, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Evaline Ness",
+"Children's book illustration: North America",
+"b. 1911, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Joseph Low",
+"Children's book illustration: North America",
+"b. 1911, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Garth Williams",
+"Children's book illustration: North America",
+"b. 1912, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Winifred Milius Lubell",
+"Children's book illustration: North America",
+"b. 1914, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Tasha Tudor",
+"Children's book illustration: North America",
+"b. 1915, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Marc Simont",
+"Children's book illustration: North America",
+"b. 1915, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Ezra Jack Keats",
+"Children's book illustration: North America",
+"b. 1916, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Richard Scarry",
+"Children's book illustration: North America",
+"b. 1919, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Edward Gorey",
+"Children's book illustration: North America",
+"b. 1925, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Vera Williams",
+"Children's book illustration: North America",
+"b. 1927, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Norman Bridwell",
+"Children's book illustration: North America",
+"b. 1928, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Eric Carle",
+"Children's book illustration: North America",
+"b. 1929, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Simms Taback",
+"Children's book illustration: North America",
+"b. 1932, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Tom Feelings",
+"Children's book illustration: North America",
+"b. 1933, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Anita Lobel",
+"Children's book illustration: North America",
+"b. 1934, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Tomie dePaola",
+"Children's book illustration: North America",
+"b. 1934, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Jerry Pinkney",
+"Children's book illustration: North America",
+"b. 1939, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Heinrich Hoffmann",
+"Children's book illustration: continental Europe and beyond",
+"b. 1809, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Marie Olfers",
+"Children's book illustration: continental Europe and beyond",
+"b. 1826, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Ernest Nister",
+"Children's book illustration: continental Europe and beyond",
+"b. 1842, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Tony Schumacher",
+"Children's book illustration: continental Europe and beyond",
+"b. 1848, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Sulamith Wülfing",
+"Children's book illustration: continental Europe and beyond",
+"b. 1901, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Wiktoria Goryńska",
+"Children's book illustration: continental Europe and beyond",
+"b. 1902, Poland, drawing and illustration",
+"artists",
+1
+],
+[
+"Bertil Almqvist",
+"Children's book illustration: continental Europe and beyond",
+"b. 1902, Sweden, drawing and illustration",
+"artists",
+1
+],
+[
+"Erkki Tanttu",
+"Children's book illustration: continental Europe and beyond",
+"b. 1907, Finland, drawing and illustration",
+"artists",
+1
+],
+[
+"Galinka Ehrenfest",
+"Children's book illustration: continental Europe and beyond",
+"b. 1910, Netherlands, drawing and illustration",
+"artists",
+1
+],
+[
+"Folke Dahlberg",
+"Children's book illustration: continental Europe and beyond",
+"b. 1912, Sweden, drawing and illustration",
+"artists",
+1
+],
+[
+"Pierre Probst",
+"Children's book illustration: continental Europe and beyond",
+"b. 1913, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Svend Otto S.",
+"Children's book illustration: continental Europe and beyond",
+"b. 1916, Denmark, drawing and illustration",
+"artists",
+1
+],
+[
+"Ingrid Vang Nyman",
+"Children's book illustration: continental Europe and beyond",
+"b. 1916, Denmark, drawing and illustration",
+"artists",
+1
+],
+[
+"Leonid Vladimirski",
+"Children's book illustration: continental Europe and beyond",
+"b. 1920, Russia and the Soviet Union, drawing and illustration",
+"artists",
+1
+],
+[
+"Zbigniew Rychlicki",
+"Children's book illustration: continental Europe and beyond",
+"b. 1922, Poland, drawing and illustration",
+"artists",
+1
+],
+[
+"Mance Post",
+"Children's book illustration: continental Europe and beyond",
+"b. 1925, Netherlands, drawing and illustration",
+"artists",
+1
+],
+[
+"Felicitas Kuhn",
+"Children's book illustration: continental Europe and beyond",
+"b. 1926, Austria, drawing and illustration",
+"artists",
+1
+],
+[
+"Fritzi Harmsen van Beek",
+"Children's book illustration: continental Europe and beyond",
+"b. 1927, Netherlands, drawing and illustration",
+"artists",
+1
+],
+[
+"Sybil Wettasinghe",
+"Children's book illustration: continental Europe and beyond",
+"b. 1927, Sri Lanka, drawing and illustration",
+"artists",
+1
+],
+[
+"Gerhard Kettner",
+"Children's book illustration: continental Europe and beyond",
+"b. 1928, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Gabrielle Vincent",
+"Children's book illustration: continental Europe and beyond",
+"b. 1928, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"Marcel Marlier",
+"Children's book illustration: continental Europe and beyond",
+"b. 1930, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"Ulf Löfgren",
+"Children's book illustration: continental Europe and beyond",
+"b. 1931, Sweden, drawing and illustration",
+"artists",
+1
+],
+[
+"Per Åhlin",
+"Children's book illustration: continental Europe and beyond",
+"b. 1931, Sweden, drawing and illustration",
+"artists",
+1
+],
+[
+"Victor Chizhikov",
+"Children's book illustration: continental Europe and beyond",
+"b. 1935, Russia and the Soviet Union, drawing and illustration",
+"artists",
+1
+],
+[
+"Bengt Böckman",
+"Children's book illustration: continental Europe and beyond",
+"b. 1936, Sweden, drawing and illustration",
+"artists",
+1
+],
+[
+"Valery Traugot",
+"Children's book illustration: continental Europe and beyond",
+"b. 1936, Russia and the Soviet Union, drawing and illustration",
+"artists",
+1
+],
+[
+"Philippe Fix",
+"Children's book illustration: continental Europe and beyond",
+"b. 1937, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Alona Frankel",
+"Children's book illustration: continental Europe and beyond",
+"b. 1937, Poland, drawing and illustration",
+"artists",
+1
+],
+[
+"Josse Goffin",
+"Children's book illustration: continental Europe and beyond",
+"b. 1938, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"Roser Capdevila",
+"Children's book illustration: continental Europe and beyond",
+"b. 1939, Spain, drawing and illustration",
+"artists",
+1
+],
+[
+"Lena Anderson",
+"Children's book illustration: continental Europe and beyond",
+"b. 1939, Sweden, drawing and illustration",
+"artists",
+1
+],
+[
+"Hans Ticha",
+"Children's book illustration: continental Europe and beyond",
+"b. 1940, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Nicole Claveloux",
+"Children's book illustration: continental Europe and beyond",
+"b. 1940, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Wolf Erlbruch",
+"Children's book illustration: continental Europe and beyond",
+"b. 1948, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Terry Denton",
+"Children's book illustration: continental Europe and beyond",
+"b. 1950, Australia, drawing and illustration",
+"artists",
+1
+],
+[
+"Hervé Tullet",
+"Children's book illustration: continental Europe and beyond",
+"b. 1958, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Iwona Chmielewska",
+"Children's book illustration: continental Europe and beyond",
+"b. 1960, Poland, drawing and illustration",
+"artists",
+1
+],
+[
+"Blexbolex",
+"Children's book illustration: continental Europe and beyond",
+"b. 1966, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Rébecca Dautremer",
+"Children's book illustration: continental Europe and beyond",
+"b. 1971, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Jakob Martin Strid",
+"Children's book illustration: continental Europe and beyond",
+"b. 1972, Denmark, drawing and illustration",
+"artists",
+1
+],
+[
+"Marion Fayolle",
+"Children's book illustration: continental Europe and beyond",
+"b. 1988, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Robert Trossin",
+"Book illustration and decoration",
+"b. 1820, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Fritz Kredel",
+"Book illustration and decoration",
+"b. 1900, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Eric Fraser",
+"Book illustration and decoration",
+"b. 1902, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"John Alan Maxwell",
+"Book illustration and decoration",
+"b. 1904, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Elisabeth Schumacher",
+"Book illustration and decoration",
+"b. 1904, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Erich Mönch",
+"Book illustration and decoration",
+"b. 1905, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Robert Lips",
+"Book illustration and decoration",
+"b. 1912, Switzerland, drawing and illustration",
+"artists",
+1
+],
+[
+"Agus Djaya",
+"Book illustration and decoration",
+"b. 1913, Indonesia, drawing and illustration",
+"artists",
+1
+],
+[
+"Gray Foy",
+"Book illustration and decoration",
+"b. 1922, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Christoph Meckel",
+"Book illustration and decoration",
+"b. 1935, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Nanne Meyer",
+"Book illustration and decoration",
+"b. 1953, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Kasing Lung",
+"Book illustration and decoration",
+"b. 1972, British Hong Kong, drawing and illustration",
+"artists",
+1
+],
+[
+"Oronzo Vito Gasparo",
+"American magazine and advertising illustration",
+"b. 1903, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Robert Fawcett",
+"American magazine and advertising illustration",
+"b. 1903, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Al Parker",
+"American magazine and advertising illustration",
+"b. 1906, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Stephen Longstreet",
+"American magazine and advertising illustration",
+"b. 1907, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Austin Briggs",
+"American magazine and advertising illustration",
+"b. 1908, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Ione Robinson",
+"American magazine and advertising illustration",
+"b. 1910, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Coby Whitmore",
+"American magazine and advertising illustration",
+"b. 1913, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Peter Fingesten",
+"American magazine and advertising illustration",
+"b. 1916, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Bob Peak",
+"American magazine and advertising illustration",
+"b. 1927, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Roger Hane",
+"American magazine and advertising illustration",
+"b. 1939, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Alvin Colt",
+"Fashion illustration",
+"b. 1916, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Tom Keogh",
+"Fashion illustration",
+"b. 1922, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Kenneth Paul Block",
+"Fashion illustration",
+"b. 1924, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Joe Eula",
+"Fashion illustration",
+"b. 1925, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Hannes Bok",
+"Fantasy, science-fiction and pulp illustration",
+"b. 1914, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Virgil Finlay",
+"Fantasy, science-fiction and pulp illustration",
+"b. 1914, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Ed Emshwiller",
+"Fantasy, science-fiction and pulp illustration",
+"b. 1925, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Basil Gogos",
+"Fantasy, science-fiction and pulp illustration",
+"b. 1929, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Darrell K. Sweet",
+"Fantasy, science-fiction and pulp illustration",
+"b. 1934, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"John Schoenherr",
+"Fantasy, science-fiction and pulp illustration",
+"b. 1935, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Didier Graffet",
+"Fantasy, science-fiction and pulp illustration",
+"b. 1970, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Kim Jung Gi",
+"Fantasy, science-fiction and pulp illustration",
+"b. 1975, South Korea, drawing and illustration",
+"artists",
+1
+],
+[
+"Franz Xaver Reimspiess",
+"Graphic designers and typographers",
+"b. 1900, Austria, drawing and illustration",
+"artists",
+1
+],
+[
+"Berthold Wolpe",
+"Graphic designers and typographers",
+"b. 1905, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Otte Wallish",
+"Graphic designers and typographers",
+"b. 1906, Israel, drawing and illustration",
+"artists",
+1
+],
+[
+"Herbert W. Kapitzki",
+"Graphic designers and typographers",
+"b. 1925, Poland, drawing and illustration",
+"artists",
+1
+],
+[
+"Elaine Lustig Cohen",
+"Graphic designers and typographers",
+"b. 1927, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Aloísio Sergio Magalhães",
+"Graphic designers and typographers",
+"b. 1927, Brazil, drawing and illustration",
+"artists",
+1
+],
+[
+"Jost Hochuli",
+"Graphic designers and typographers",
+"b. 1933, Switzerland, drawing and illustration",
+"artists",
+1
+],
+[
+"Rosmarie Tissi",
+"Graphic designers and typographers",
+"b. 1937, Switzerland, drawing and illustration",
+"artists",
+1
+],
+[
+"Siegfried Woldhek",
+"Graphic designers and typographers",
+"b. 1951, Netherlands, drawing and illustration",
+"artists",
+1
+],
+[
+"Hansje van Halem",
+"Graphic designers and typographers",
+"b. 1978, Netherlands, drawing and illustration",
+"artists",
+1
+],
+[
+"Karel Zeman",
+"Animation artists and puppet-film makers",
+"b. 1910, Czech lands, drawing and illustration",
+"artists",
+1
+],
+[
+"Marc Davis",
+"Animation artists and puppet-film makers",
+"b. 1913, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Norman Hetherington",
+"Animation artists and puppet-film makers",
+"b. 1921, Australia, drawing and illustration",
+"artists",
+1
+],
+[
+"Dušan Vukotić",
+"Animation artists and puppet-film makers",
+"b. 1927, Yugoslavia and successor states, drawing and illustration",
+"artists",
+1
+],
+[
+"Zoltán Huszárik",
+"Animation artists and puppet-film makers",
+"b. 1931, Hungary, drawing and illustration",
+"artists",
+1
+],
+[
+"Nedeljko Dragić",
+"Animation artists and puppet-film makers",
+"b. 1936, Yugoslavia and successor states, drawing and illustration",
+"artists",
+1
+],
+[
+"Paul Driessen",
+"Animation artists and puppet-film makers",
+"b. 1940, Netherlands, drawing and illustration",
+"artists",
+1
+],
+[
+"Picha",
+"Animation artists and puppet-film makers",
+"b. 1942, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"Ronnie del Carmen",
+"Animation artists and puppet-film makers",
+"b. 1959, Philippines, drawing and illustration",
+"artists",
+1
+],
+[
+"Don Lawrence",
+"British comics",
+"b. 1928, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Posy Simmonds",
+"British comics",
+"b. 1945, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Carlos Ezquerra",
+"British comics",
+"b. 1947, Spain, drawing and illustration",
+"artists",
+1
+],
+[
+"Dave Gibbons",
+"British comics",
+"b. 1949, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Kate Charlesworth",
+"British comics",
+"b. 1950, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"John Bolton",
+"British comics",
+"b. 1951, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Eddie Campbell",
+"British comics",
+"b. 1955, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Tula Lotay",
+"British comics",
+"b. 1975, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Nicola Salerno",
+"Italian comics (fumetti)",
+"b. 1910, Italy, drawing and illustration",
+"artists",
+1
+],
+[
+"Walter Molino",
+"Italian comics (fumetti)",
+"b. 1915, Italy, drawing and illustration",
+"artists",
+1
+],
+[
+"Lina Buffolente",
+"Italian comics (fumetti)",
+"b. 1924, Italy, drawing and illustration",
+"artists",
+1
+],
+[
+"Romano Scarpa",
+"Italian comics (fumetti)",
+"b. 1927, Italy, drawing and illustration",
+"artists",
+1
+],
+[
+"Sergio Toppi",
+"Italian comics (fumetti)",
+"b. 1932, Italy, drawing and illustration",
+"artists",
+1
+],
+[
+"Guido Crepax",
+"Italian comics (fumetti)",
+"b. 1933, Italy, drawing and illustration",
+"artists",
+1
+],
+[
+"Magnus",
+"Italian comics (fumetti)",
+"b. 1939, Italy, drawing and illustration",
+"artists",
+1
+],
+[
+"Igort",
+"Italian comics (fumetti)",
+"b. 1958, Italy, drawing and illustration",
+"artists",
+1
+],
+[
+"Paolo Bacilieri",
+"Italian comics (fumetti)",
+"b. 1965, Italy, drawing and illustration",
+"artists",
+1
+],
+[
+"Zerocalcare",
+"Italian comics (fumetti)",
+"b. 1983, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Sara Pichelli",
+"Italian comics (fumetti)",
+"b. 1983, Italy, drawing and illustration",
+"artists",
+1
+],
+[
+"Francisco Ibáñez Talavera",
+"Spanish comics (historieta and the Bruguera school)",
+"b. 1936, Spain, drawing and illustration",
+"artists",
+1
+],
+[
+"Ana Miralles",
+"Spanish comics (historieta and the Bruguera school)",
+"b. 1959, Spain, drawing and illustration",
+"artists",
+1
+],
+[
+"Juanjo Guarnido",
+"Spanish comics (historieta and the Bruguera school)",
+"b. 1967, Spain, drawing and illustration",
+"artists",
+1
+],
+[
+"Paco Roca",
+"Spanish comics (historieta and the Bruguera school)",
+"b. 1969, Spain, drawing and illustration",
+"artists",
+1
+],
+[
+"José Luis Munuera",
+"Spanish comics (historieta and the Bruguera school)",
+"b. 1972, Spain, drawing and illustration",
+"artists",
+1
+],
+[
+"José Luis Salinas",
+"Argentine historieta and humour",
+"b. 1908, Argentina, drawing and illustration",
+"artists",
+1
+],
+[
+"Alberto Breccia",
+"Argentine historieta and humour",
+"b. 1919, Argentina, drawing and illustration",
+"artists",
+1
+],
+[
+"Quino",
+"Argentine historieta and humour",
+"b. 1932, Spain, drawing and illustration",
+"artists",
+1
+],
+[
+"Sergio Aragonés",
+"Argentine historieta and humour",
+"b. 1937, Spain, drawing and illustration",
+"artists",
+1
+],
+[
+"Copi",
+"Argentine historieta and humour",
+"b. 1939, Argentina, drawing and illustration",
+"artists",
+1
+],
+[
+"Frans Piët",
+"Dutch comics",
+"b. 1905, Netherlands, drawing and illustration",
+"artists",
+1
+],
+[
+"Hans G. Kresse",
+"Dutch comics",
+"b. 1921, Netherlands, drawing and illustration",
+"artists",
+1
+],
+[
+"Carol Voges",
+"Dutch comics",
+"b. 1925, Netherlands, drawing and illustration",
+"artists",
+1
+],
+[
+"Jan van Haasteren",
+"Dutch comics",
+"b. 1936, Netherlands, drawing and illustration",
+"artists",
+1
+],
+[
+"Martin Lodewijk",
+"Dutch comics",
+"b. 1939, Netherlands, drawing and illustration",
+"artists",
+1
+],
+[
+"Aimée de Jongh",
+"Dutch comics",
+"b. 1988, Netherlands, drawing and illustration",
+"artists",
+1
+],
+[
+"Hamid Nada",
+"Asian comics and cartooning (manhua, Indian comics)",
+"b. 1924, Egypt, drawing and illustration",
+"artists",
+1
+],
+[
+"Narayan Debnath",
+"Asian comics and cartooning (manhua, Indian comics)",
+"b. 1925, India, drawing and illustration",
+"artists",
+1
+],
+[
+"Tsai Chih-chung",
+"Asian comics and cartooning (manhua, Indian comics)",
+"b. 1948, Taiwan, drawing and illustration",
+"artists",
+1
+],
+[
+"Andreas",
+"Graphic novels and alternative comics",
+"b. 1951, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Igor Kordej",
+"Graphic novels and alternative comics",
+"b. 1957, Yugoslavia and successor states, drawing and illustration",
+"artists",
+1
+],
+[
+"Seth Tobocman",
+"Graphic novels and alternative comics",
+"b. 1958, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Zoran Janjetov",
+"Graphic novels and alternative comics",
+"b. 1961, Yugoslavia and successor states, drawing and illustration",
+"artists",
+1
+],
+[
+"Anke Feuchtenberger",
+"Graphic novels and alternative comics",
+"b. 1963, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Jason",
+"Graphic novels and alternative comics",
+"b. 1965, Norway, drawing and illustration",
+"artists",
+1
+],
+[
+"Rutu Modan",
+"Graphic novels and alternative comics",
+"b. 1966, Israel, drawing and illustration",
+"artists",
+1
+],
+[
+"Reinhard Kleist",
+"Graphic novels and alternative comics",
+"b. 1970, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Asaf Hanuka",
+"Graphic novels and alternative comics",
+"b. 1974, Israel, drawing and illustration",
+"artists",
+1
+],
+[
+"Barbara Yelin",
+"Graphic novels and alternative comics",
+"b. 1977, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Liv Strömquist",
+"Graphic novels and alternative comics",
+"b. 1978, Sweden, drawing and illustration",
+"artists",
+1
+],
+[
+"Zeina Abirached",
+"Graphic novels and alternative comics",
+"b. 1981, Lebanon, drawing and illustration",
+"artists",
+1
+],
+[
+"Lilli Carré",
+"Graphic novels and alternative comics",
+"b. 1983, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Anna Haifisch",
+"Graphic novels and alternative comics",
+"b. 1986, Germany, drawing and illustration",
 "artists",
 1
 ],
 [
 "Nino Bulling",
-"Artists",
-"",
+"Graphic novels and alternative comics",
+"b. 1986, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Zainab Fasiki",
+"Graphic novels and alternative comics",
+"b. 1994, Morocco, drawing and illustration",
+"artists",
+1
+],
+[
+"Johann Friedrich Anthing",
+"Writers, scholars and amateurs who drew",
+"b. 1753, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Joséphine de Beauharnais",
+"Writers, scholars and amateurs who drew",
+"b. 1763, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Countess Róża Potocka",
+"Writers, scholars and amateurs who drew",
+"b. 1780, Poland, drawing and illustration",
+"artists",
+1
+],
+[
+"Edward Ellerker Williams",
+"Writers, scholars and amateurs who drew",
+"b. 1793, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Georges Zipélius",
+"Writers, scholars and amateurs who drew",
+"b. 1808, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Napoleon III",
+"Writers, scholars and amateurs who drew",
+"b. 1808, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Edward FitzGerald",
+"Writers, scholars and amateurs who drew",
+"b. 1809, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Napoleon II",
+"Writers, scholars and amateurs who drew",
+"b. 1811, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Eugène Pottier",
+"Writers, scholars and amateurs who drew",
+"b. 1816, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Henry Howe",
+"Writers, scholars and amateurs who drew",
+"b. 1816, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Gunnar Wennerberg",
+"Writers, scholars and amateurs who drew",
+"b. 1817, Sweden, drawing and illustration",
+"artists",
+1
+],
+[
+"Princess Clémentine, Princess of Koháry",
+"Writers, scholars and amateurs who drew",
+"b. 1817, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Adrien Dubouché",
+"Writers, scholars and amateurs who drew",
+"b. 1818, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Henry Ford",
+"Writers, scholars and amateurs who drew",
+"b. 1828, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Paul Heyse",
+"Writers, scholars and amateurs who drew",
+"b. 1830, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Ernest d'Hervilly",
+"Writers, scholars and amateurs who drew",
+"b. 1839, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Carl Snoilsky",
+"Writers, scholars and amateurs who drew",
+"b. 1841, Sweden, drawing and illustration",
+"artists",
+1
+],
+[
+"Infanta Antónia of Portugal",
+"Writers, scholars and amateurs who drew",
+"b. 1845, Portugal, drawing and illustration",
+"artists",
+1
+],
+[
+"Mary Eliza Haweis",
+"Writers, scholars and amateurs who drew",
+"b. 1848, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Michel Manzi",
+"Writers, scholars and amateurs who drew",
+"b. 1849, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Sibylle Riquetti de Mirabeau",
+"Writers, scholars and amateurs who drew",
+"b. 1849, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Jacques Prévert",
+"Writers, scholars and amateurs who drew",
+"b. 1900, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Maurice Gilliams",
+"Writers, scholars and amateurs who drew",
+"b. 1900, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"Max Morise",
+"Writers, scholars and amateurs who drew",
+"b. 1900, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Pascal Pia",
+"Writers, scholars and amateurs who drew",
+"b. 1903, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Eugène Ionesco",
+"Writers, scholars and amateurs who drew",
+"b. 1909, Romania, drawing and illustration",
+"artists",
+1
+],
+[
+"Paul Jamin",
+"Writers, scholars and amateurs who drew",
+"b. 1911, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"Pere Calders",
+"Writers, scholars and amateurs who drew",
+"b. 1912, Spain, drawing and illustration",
+"artists",
+1
+],
+[
+"Sarah Churchill",
+"Writers, scholars and amateurs who drew",
+"b. 1914, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Hans Bradtke",
+"Writers, scholars and amateurs who drew",
+"b. 1920, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Cioma Schönhaus",
+"Writers, scholars and amateurs who drew",
+"b. 1922, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Édouard Jaguer",
+"Writers, scholars and amateurs who drew",
+"b. 1924, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Hédi Fried",
+"Writers, scholars and amateurs who drew",
+"b. 1924, Kingdom of Romania, drawing and illustration",
+"artists",
+1
+],
+[
+"Hannes Hegen",
+"Writers, scholars and amateurs who drew",
+"b. 1925, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Pierre Mercure",
+"Writers, scholars and amateurs who drew",
+"b. 1927, Canada, drawing and illustration",
+"artists",
+1
+],
+[
+"Simon Vinkenoog",
+"Writers, scholars and amateurs who drew",
+"b. 1928, Netherlands, drawing and illustration",
+"artists",
+1
+],
+[
+"Stig Claesson",
+"Writers, scholars and amateurs who drew",
+"b. 1928, Sweden, drawing and illustration",
+"artists",
+1
+],
+[
+"Bernard Heidsieck",
+"Writers, scholars and amateurs who drew",
+"b. 1928, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Guy Debord",
+"Writers, scholars and amateurs who drew",
+"b. 1931, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Willem de Ridder",
+"Writers, scholars and amateurs who drew",
+"b. 1939, Netherlands, drawing and illustration",
+"artists",
+1
+],
+[
+"Leopold Strobl",
+"Austria",
+"b. 1960, Austria, drawing and illustration",
+"artists",
+1
+],
+[
+"Edgar Valter",
+"Estonia",
+"b. 1929, Estonia, drawing and illustration",
+"artists",
+1
+],
+[
+"Marek Rudnicki",
+"France",
+"b. 1927, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Heinrich Schlitt",
+"Germany",
+"b. 1849, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Mieczysław Piotrowski",
+"Poland",
+"b. 1910, Poland, drawing and illustration",
+"artists",
+1
+],
+[
+"עמנואל גרבובצקי",
+"Russia and the Soviet Union",
+"b. 1912, Russia and the Soviet Union, drawing and illustration",
 "artists",
 1
 ]
 ]
 },
 "B1-6": {
-"axis": "provisional",
+"axis": "canonical masters first, then by national school and venue (British book illustration, Punch, American Brandywine-era magazines, political cartoon weeklies, early comic strips, French and German satirical press, Scandinavian, Russian); within each by birth",
+"catalogues": [
+[
+"https://www.loc.gov/pictures/collection/cai/",
+"Library of Congress: Cabinet of American Illustration",
+"original drawings by American Golden Age illustrators"
+],
+[
+"https://www.delart.org/collections/",
+"Delaware Art Museum collection",
+"the largest holding of Howard Pyle and Brandywine School illustration"
+],
+[
+"https://collections.vam.ac.uk/search/?q=illustration",
+"V&A collections: illustration",
+"British book illustration drawings and prints"
+],
+[
+"https://www.illustrationhistory.org/",
+"Norman Rockwell Museum: Illustration History",
+"illustrators of the Golden Age with their works"
+]
+],
 "kinds": [
 [
-"Karl August Hindrey",
-"Artists",
-"",
-"artists",
+"Walter Crane",
+"Canonical Golden Age illustrators",
+"English illustrator of toy books and Arts and Crafts book design, 1845–1915",
+"r3 https://en.wikipedia.org/wiki/Walter_Crane",
 1
 ],
 [
-"Stuart Carvalhais",
-"Artists",
-"",
-"artists",
+"Randolph Caldecott",
+"Canonical Golden Age illustrators",
+"English picture-book illustrator, 1846–1886; namesake of the Caldecott Medal",
+"r3 https://en.wikipedia.org/wiki/Randolph_Caldecott",
 1
 ],
 [
-"Chéri Hérouard",
-"Artists",
-"",
-"artists",
+"Kate Greenaway",
+"Canonical Golden Age illustrators",
+"English children's illustrator, 1846–1901; namesake of the Greenaway Medal",
+"r3 https://en.wikipedia.org/wiki/Kate_Greenaway",
 1
 ],
 [
-"Hugo Gerard Ströhl",
-"Artists",
-"",
-"artists",
+"Aubrey Beardsley",
+"Canonical Golden Age illustrators",
+"English black-and-white illustrator of Salome and The Yellow Book, 1872–1898",
+"r3 https://en.wikipedia.org/wiki/Aubrey_Beardsley",
 1
 ],
 [
-"Клемм Катерина Пилипівна",
-"Artists",
-"",
-"artists",
+"Arthur Rackham",
+"Canonical Golden Age illustrators",
+"English illustrator of Peter Pan and the Ring, 1867–1939",
+"r3 https://en.wikipedia.org/wiki/Arthur_Rackham",
 1
 ],
 [
-"Robert Lawson",
-"Artists",
-"",
-"artists",
+"Edmund Dulac",
+"Canonical Golden Age illustrators",
+"French-British illustrator of the Arabian Nights and Andersen, 1882–1953",
+"r3 https://en.wikipedia.org/wiki/Edmund_Dulac",
 1
 ],
 [
-"Karel Fleischmann",
-"Artists",
-"",
-"artists",
+"Kay Nielsen",
+"Canonical Golden Age illustrators",
+"Danish illustrator of East of the Sun and West of the Moon, 1886–1957",
+"r3 https://en.wikipedia.org/wiki/Kay_Nielsen",
 1
 ],
 [
-"James Thurber",
-"Artists",
-"",
-"artists",
+"Harry Clarke",
+"Canonical Golden Age illustrators",
+"Irish stained-glass artist and illustrator of Poe and Andersen, 1889–1931",
+"r3 https://en.wikipedia.org/wiki/Harry_Clarke",
 1
 ],
 [
-"Mary Emily Eaton",
-"Artists",
-"",
-"artists",
+"Howard Pyle",
+"Canonical Golden Age illustrators",
+"American illustrator and teacher, founder of the Brandywine School, 1853–1911",
+"r3 https://en.wikipedia.org/wiki/Howard_Pyle",
 1
 ],
 [
-"Edward Tennyson Reed",
-"Artists",
-"",
-"artists",
+"N. C. Wyeth",
+"Canonical Golden Age illustrators",
+"American illustrator of Treasure Island, Pyle's pupil, 1882–1945",
+"r3 https://en.wikipedia.org/wiki/N._C._Wyeth",
 1
 ],
 [
-"Else Wenz-Vie͏̈tor",
-"Artists",
-"",
-"artists",
+"Jessie Willcox Smith",
+"Canonical Golden Age illustrators",
+"American illustrator of children's books, Pyle's pupil, 1863–1935",
+"r3 https://en.wikipedia.org/wiki/Jessie_Willcox_Smith",
 1
 ],
 [
-"Aleksey Remizov",
-"Artists",
-"",
-"artists",
+"Maxfield Parrish",
+"Canonical Golden Age illustrators",
+"American illustrator and painter, 1870–1966",
+"r3 https://en.wikipedia.org/wiki/Maxfield_Parrish",
 1
 ],
 [
-"Erich Schilling",
-"Artists",
-"",
-"artists",
+"Charles Dana Gibson",
+"Canonical Golden Age illustrators",
+"American illustrator, creator of the Gibson Girl, 1867–1944",
+"r3 https://en.wikipedia.org/wiki/Charles_Dana_Gibson",
 1
 ],
 [
-"John Held, Jr.",
-"Artists",
-"",
-"artists",
+"J. C. Leyendecker",
+"Canonical Golden Age illustrators",
+"American magazine-cover and advertising illustrator, 1874–1951",
+"r3 https://en.wikipedia.org/wiki/J._C._Leyendecker",
 1
 ],
 [
-"Rata Langa",
-"Artists",
-"",
-"artists",
+"Ivan Bilibin",
+"Canonical Golden Age illustrators",
+"Russian illustrator of folk tales, World of Art circle, 1876–1942",
+"r3 https://en.wikipedia.org/wiki/Ivan_Bilibin",
 1
 ],
 [
-"William Wallace Denslow",
-"Artists",
-"",
-"artists",
+"Elsa Beskow",
+"Canonical Golden Age illustrators",
+"Swedish picture-book author and illustrator, 1874–1953",
+"r3 https://en.wikipedia.org/wiki/Elsa_Beskow",
 1
 ],
 [
-"Arthur Sapeck",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Tony Sarg",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Kurt Wiese",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sibylle von Olfers",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Julius Mendes Price",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gertrud Caspari",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Georges Méliès",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Maud Humphrey",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"William Haselden",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Harold Nelson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Joseph Clement Coll",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Norman Pett",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Alastair",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hans Schließmann",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hans Stocker",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Power O'Malley",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gelett Burgess",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gennaro Favai",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Helen Stratton",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Maginel Wright Enright",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Grace Drayton",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Homer Davenport",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"James Charles Castle",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Manuel Tovar Siles",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ragnvald Blix",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Rudolf Petersson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"John Gilroy",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Charlotte Harding",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Benjamin Rabier",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jean Baptiste Guth",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sarah Stilwell Weber",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Christoph Bernoulli",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Katherine Sturges Dodge",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Johan Bull",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Louis Dalrymple",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Georges Bataille",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Eusebi Güell i López",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Phyllis Gardner",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mabel Dearmer",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jan Feith",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Bruno Grimschitz",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"George Timothy Tobin",
-"Artists",
-"",
-"artists",
+"John Bauer",
+"Canonical Golden Age illustrators",
+"Swedish illustrator of Among Gnomes and Trolls, 1882–1918",
+"r3 https://en.wikipedia.org/wiki/John_Bauer_(illustrator)",
 1
 ],
 [
 "Walter Paget",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Florence Scovel Shinn",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Max Elskamp",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Miklós Bánffy",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Cor van Gogh",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Otho Cushing",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Edwin George Lutz",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Alain Saint-Ogan",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Alfred Frueh",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"André Galland",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Laurence Housman",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Victor Gillam",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Udo Keppler",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Garrett Price",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Emilio Freixas",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Frank Godwin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Frank Reynolds",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Frederic Villiers",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gus Bofa",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"H. M. Bateman",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Henri-Paul Deyveaux-Gassier",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Henrique Alvim Corrêa",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jean Sennep",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Kate Seredy",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"John Hargrave",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Louis Forton",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Luigi Bertelli",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Helen Bannerman",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mary Tourtel",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Maurice Radiguet",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"May Gibbs",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"(unnamed)",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Phil May",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Velimir Khlebnikov",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Étienne Le Rallic",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Antonio Rubino",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Maria Pawlikowska-Jasnorzewska",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Oskar Andersson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Cornelia Cederberg",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Giuseppe Scalarini",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Edith Holden",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Henryk Minkiewicz",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Signe Hammarsten-Jansson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Nikolay Radlov",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Princess Henriette of Belgium",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ricardo Rendón",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Oliver Onions",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"John R. Neill",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Frederick Burr Opper",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Alfred Bestall",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Alfred Garth Jones",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"David Low",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Art Young",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Basil Temple Blackwood",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Juan Picasso González",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Vera Nilsson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Charles Livingston Bull",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Charles M. Relyea",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Charles Robinson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jacques Touchet",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Clare Leighton",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Isaac Walton Taber",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"André Warnot",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Helen Jacobs",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Donald McGill",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Dorothy P. Lathrop",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Dorothy Wall",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Edmund Franklin Ward",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Edmund Hort New",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Edward Detmold",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Fanny Cory",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Frank C. Papé",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Franklin Booth",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Frederic Dorr Steele",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Frederick Gordon Crosby",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Frederick Richardson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gene Carr",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"George E. Studdy",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"George Morrow",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gluyas Williams",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"H. G. Peter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Harold Robert Millar",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Harrison Cady",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Harry Everett Townsend",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Harry Furniss",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Helen Sewell",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Henry Mayer",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ernest Louis, Grand Duke of Hesse and by Rhine",
-"Artists",
-"",
+"Victorian and Edwardian book illustration (Britain)",
+"b. 1862, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
 "W. T. Horton",
-"Artists",
-"",
+"Victorian and Edwardian book illustration (Britain)",
+"b. 1864, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"Edwin Megargee",
-"Artists",
-"",
+"Laurence Housman",
+"Victorian and Edwardian book illustration (Britain)",
+"b. 1865, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"Robert Minor",
-"Artists",
-"",
+"Helen Stratton",
+"Victorian and Edwardian book illustration (Britain)",
+"b. 1867, India, drawing and illustration",
 "artists",
 1
 ],
 [
-"Hans Norsbo",
-"Artists",
-"",
+"Harold Robert Millar",
+"Victorian and Edwardian book illustration (Britain)",
+"b. 1869, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"Joaquín Xaudaró",
-"Artists",
-"",
+"Charles Robinson",
+"Victorian and Edwardian book illustration (Britain)",
+"b. 1870, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"Max Jakob Friedländer",
-"Artists",
-"",
+"Harold Nelson",
+"Victorian and Edwardian book illustration (Britain)",
+"b. 1871, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"Paul Scheerbart",
-"Artists",
-"",
+"Edith Holden",
+"Victorian and Edwardian book illustration (Britain)",
+"b. 1871, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"John Wolcott Adams",
-"Artists",
-"",
+"Edmund Hort New",
+"Victorian and Edwardian book illustration (Britain)",
+"b. 1871, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"E. W. Kemble",
-"Artists",
-"",
+"Mabel Dearmer",
+"Victorian and Edwardian book illustration (Britain)",
+"b. 1872, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"Jean de Brunhoff",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Kathleen Hale",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Lydia Gibson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mabel Lucie Attwell",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mary Petty",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ludwig Sütterlin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Milo Winter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Noel Rooke",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Caran d'Ache",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Oliver Herford",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Paul Martin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Peter Newell",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Aleksei Kruchenykh",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ralph Barton",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Rea Irvin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Reginald Knowles",
-"Artists",
-"",
+"Alfred Garth Jones",
+"Victorian and Edwardian book illustration (Britain)",
+"b. 1872, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
 "William Heath Robinson",
-"Artists",
-"",
+"Victorian and Edwardian book illustration (Britain)",
+"b. 1872, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"Robert Edmond Jones",
-"Artists",
-"",
+"Mary Emily Eaton",
+"Victorian and Edwardian book illustration (Britain)",
+"b. 1873, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"Jac P. Thijsse",
-"Artists",
-"",
+"Frank C. Papé",
+"Victorian and Edwardian book illustration (Britain)",
+"b. 1878, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"Stan Cross",
-"Artists",
-"",
+"Reginald Knowles",
+"Victorian and Edwardian book illustration (Britain)",
+"b. 1879, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"Heinrich Mann",
-"Artists",
-"",
+"Noel Rooke",
+"Victorian and Edwardian book illustration (Britain)",
+"b. 1881, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"T. S. Sullivant",
-"Artists",
-"",
+"Edward Detmold",
+"Victorian and Edwardian book illustration (Britain)",
+"b. 1883, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"Tad Dorgan",
-"Artists",
-"",
+"Phyllis Gardner",
+"Victorian and Edwardian book illustration (Britain)",
+"b. 1890, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"William Allen Rogers",
-"Artists",
-"",
+"Clare Leighton",
+"Victorian and Edwardian book illustration (Britain)",
+"b. 1898, United Kingdom, drawing and illustration",
 "artists",
 1
 ],
 [
-"William Charles McNulty",
-"Artists",
-"",
+"Helen Bannerman",
+"British children's illustration and comic annuals",
+"b. 1862, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Oliver Herford",
+"British children's illustration and comic annuals",
+"b. 1863, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Basil Temple Blackwood",
+"British children's illustration and comic annuals",
+"b. 1870, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Mary Tourtel",
+"British children's illustration and comic annuals",
+"b. 1874, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"George E. Studdy",
+"British children's illustration and comic annuals",
+"b. 1878, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Mabel Lucie Attwell",
+"British children's illustration and comic annuals",
+"b. 1879, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Helen Jacobs",
+"British children's illustration and comic annuals",
+"b. 1888, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Alfred Bestall",
+"British children's illustration and comic annuals",
+"b. 1892, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Kathleen Hale",
+"British children's illustration and comic annuals",
+"b. 1898, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Harry Furniss",
+"Punch, press caricature and British comic art",
+"b. 1854, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Julius Mendes Price",
+"Punch, press caricature and British comic art",
+"b. 1857, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Victor Gillam",
+"Punch, press caricature and British comic art",
+"b. 1858, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Edward Tennyson Reed",
+"Punch, press caricature and British comic art",
+"b. 1860, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Phil May",
+"Punch, press caricature and British comic art",
+"b. 1864, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"George Morrow",
+"Punch, press caricature and British comic art",
+"b. 1869, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"William Haselden",
+"Punch, press caricature and British comic art",
+"b. 1872, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Oliver Onions",
+"Punch, press caricature and British comic art",
+"b. 1873, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Donald McGill",
+"Punch, press caricature and British comic art",
+"b. 1875, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Frank Reynolds",
+"Punch, press caricature and British comic art",
+"b. 1876, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Power O'Malley",
+"Punch, press caricature and British comic art",
+"b. 1877, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Frederick Gordon Crosby",
+"Punch, press caricature and British comic art",
+"b. 1885, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"H. M. Bateman",
+"Punch, press caricature and British comic art",
+"b. 1887, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Norman Pett",
+"Punch, press caricature and British comic art",
+"b. 1891, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"David Low",
+"Punch, press caricature and British comic art",
+"b. 1891, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"John Hargrave",
+"Punch, press caricature and British comic art",
+"b. 1894, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"John Gilroy",
+"Punch, press caricature and British comic art",
+"b. 1898, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Frederic Villiers",
+"Special artists and war illustrators",
+"b. 1851, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Paul Martin",
+"Special artists and war illustrators",
+"b. 1864, France, photography",
 "artists",
 1
 ],
 [
 "William Hamilton Gibson",
-"Artists",
-"",
+"American book and magazine illustration (Brandywine era)",
+"b. 1850, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"William Allen Rogers",
+"American book and magazine illustration (Brandywine era)",
+"b. 1854, United States, drawing and illustration",
 "artists",
 1
 ],
 [
 "William Ladd Taylor",
-"Artists",
-"",
+"American book and magazine illustration (Brandywine era)",
+"b. 1854, United States, drawing and illustration",
 "artists",
 1
 ],
 [
-"Conrado Walter Massaguer",
-"Artists",
-"",
+"Isaac Walton Taber",
+"American book and magazine illustration (Brandywine era)",
+"b. 1857, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Frederick Richardson",
+"American book and magazine illustration (Brandywine era)",
+"b. 1862, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Peter Newell",
+"American book and magazine illustration (Brandywine era)",
+"b. 1862, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Charles M. Relyea",
+"American book and magazine illustration (Brandywine era)",
+"b. 1863, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Maud Humphrey",
+"American book and magazine illustration (Brandywine era)",
+"b. 1868, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Edwin George Lutz",
+"American book and magazine illustration (Brandywine era)",
+"b. 1868, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Florence Scovel Shinn",
+"American book and magazine illustration (Brandywine era)",
+"b. 1871, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Charlotte Harding",
+"American book and magazine illustration (Brandywine era)",
+"b. 1873, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Frederic Dorr Steele",
+"American book and magazine illustration (Brandywine era)",
+"b. 1873, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Charles Livingston Bull",
+"American book and magazine illustration (Brandywine era)",
+"b. 1874, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Franklin Booth",
+"American book and magazine illustration (Brandywine era)",
+"b. 1874, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"John Wolcott Adams",
+"American book and magazine illustration (Brandywine era)",
+"b. 1874, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Sarah Stilwell Weber",
+"American book and magazine illustration (Brandywine era)",
+"b. 1878, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Harry Everett Townsend",
+"American book and magazine illustration (Brandywine era)",
+"b. 1879, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"H. G. Peter",
+"American book and magazine illustration (Brandywine era)",
+"b. 1880, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Joseph Clement Coll",
+"American book and magazine illustration (Brandywine era)",
+"b. 1881, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Maginel Wright Enright",
+"American book and magazine illustration (Brandywine era)",
+"b. 1881, United States, drawing and illustration",
 "artists",
 1
 ],
 [
 "Edward Mason Eggleston",
-"Artists",
-"",
+"American book and magazine illustration (Brandywine era)",
+"b. 1882, United States, drawing and illustration",
 "artists",
 1
 ],
 [
-"Emma Hauck",
-"Artists",
-"",
+"Edwin Megargee",
+"American book and magazine illustration (Brandywine era)",
+"b. 1883, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Milo Winter",
+"American book and magazine illustration (Brandywine era)",
+"b. 1888, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Frank Godwin",
+"American book and magazine illustration (Brandywine era)",
+"b. 1889, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Katherine Sturges Dodge",
+"American book and magazine illustration (Brandywine era)",
+"b. 1890, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Edmund Franklin Ward",
+"American book and magazine illustration (Brandywine era)",
+"b. 1892, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"James Charles Castle",
+"American book and magazine illustration (Brandywine era)",
+"b. 1899, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"William Wallace Denslow",
+"American children's books and the Oz illustrators",
+"b. 1856, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Gelett Burgess",
+"American children's books and the Oz illustrators",
+"b. 1866, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Grace Drayton",
+"American children's books and the Oz illustrators",
+"b. 1877, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"John R. Neill",
+"American children's books and the Oz illustrators",
+"b. 1877, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Fanny Cory",
+"American children's books and the Oz illustrators",
+"b. 1877, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Harrison Cady",
+"American children's books and the Oz illustrators",
+"b. 1877, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Tony Sarg",
+"American children's books and the Oz illustrators",
+"b. 1882, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Kurt Wiese",
+"American children's books and the Oz illustrators",
+"b. 1887, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Dorothy P. Lathrop",
+"American children's books and the Oz illustrators",
+"b. 1891, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Robert Lawson",
+"American children's books and the Oz illustrators",
+"b. 1892, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Helen Sewell",
+"American children's books and the Oz illustrators",
+"b. 1896, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Kate Seredy",
+"American children's books and the Oz illustrators",
+"b. 1899, Hungary, drawing and illustration",
+"artists",
+1
+],
+[
+"T. S. Sullivant",
+"American political cartoonists (Puck, Judge, The Masses)",
+"b. 1854, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Frederick Burr Opper",
+"American political cartoonists (Puck, Judge, The Masses)",
+"b. 1857, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"E. W. Kemble",
+"American political cartoonists (Puck, Judge, The Masses)",
+"b. 1861, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Louis Dalrymple",
+"American political cartoonists (Puck, Judge, The Masses)",
+"b. 1866, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Art Young",
+"American political cartoonists (Puck, Judge, The Masses)",
+"b. 1866, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Homer Davenport",
+"American political cartoonists (Puck, Judge, The Masses)",
+"b. 1867, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Henry Mayer",
+"American political cartoonists (Puck, Judge, The Masses)",
+"b. 1868, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Udo Keppler",
+"American political cartoonists (Puck, Judge, The Masses)",
+"b. 1872, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Robert Minor",
+"American political cartoonists (Puck, Judge, The Masses)",
+"b. 1884, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"William Charles McNulty",
+"American political cartoonists (Puck, Judge, The Masses)",
+"b. 1884, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Lydia Gibson",
+"American political cartoonists (Puck, Judge, The Masses)",
+"b. 1891, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"George Timothy Tobin",
+"Early American comic strips",
+"b. 1864, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Tad Dorgan",
+"Early American comic strips",
+"b. 1877, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Gene Carr",
+"Early American comic strips",
+"b. 1881, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Otho Cushing",
+"Jazz Age magazine artists (Vanity Fair, The New Yorker, Life)",
+"b. 1871, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Alfred Frueh",
+"Jazz Age magazine artists (Vanity Fair, The New Yorker, Life)",
+"b. 1880, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Rea Irvin",
+"Jazz Age magazine artists (Vanity Fair, The New Yorker, Life)",
+"b. 1881, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Gluyas Williams",
+"Jazz Age magazine artists (Vanity Fair, The New Yorker, Life)",
+"b. 1888, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"John Held, Jr.",
+"Jazz Age magazine artists (Vanity Fair, The New Yorker, Life)",
+"b. 1889, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Ralph Barton",
+"Jazz Age magazine artists (Vanity Fair, The New Yorker, Life)",
+"b. 1891, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"James Thurber",
+"Jazz Age magazine artists (Vanity Fair, The New Yorker, Life)",
+"b. 1894, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Garrett Price",
+"Jazz Age magazine artists (Vanity Fair, The New Yorker, Life)",
+"b. 1896, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Mary Petty",
+"Jazz Age magazine artists (Vanity Fair, The New Yorker, Life)",
+"b. 1899, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Arthur Sapeck",
+"French illustration and press drawing (Le Rire, L'Assiette au beurre)",
+"b. 1854, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Jean Baptiste Guth",
+"French illustration and press drawing (Le Rire, L'Assiette au beurre)",
+"b. 1855, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Caran d'Ache",
+"French illustration and press drawing (Le Rire, L'Assiette au beurre)",
+"b. 1858, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Georges Méliès",
+"French illustration and press drawing (Le Rire, L'Assiette au beurre)",
+"b. 1861, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Benjamin Rabier",
+"French illustration and press drawing (Le Rire, L'Assiette au beurre)",
+"b. 1864, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Maurice Radiguet",
+"French illustration and press drawing (Le Rire, L'Assiette au beurre)",
+"b. 1866, France, drawing and illustration",
 "artists",
 1
 ],
 [
 "André Rouveyre",
-"Artists",
-"",
+"French illustration and press drawing (Le Rire, L'Assiette au beurre)",
+"b. 1879, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Chéri Hérouard",
+"French illustration and press drawing (Le Rire, L'Assiette au beurre)",
+"b. 1881, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Gus Bofa",
+"French illustration and press drawing (Le Rire, L'Assiette au beurre)",
+"b. 1883, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Henri-Paul Deyveaux-Gassier",
+"French illustration and press drawing (Le Rire, L'Assiette au beurre)",
+"b. 1883, France, drawing and illustration",
+"artists",
+1
+],
+[
+"André Warnot",
+"French illustration and press drawing (Le Rire, L'Assiette au beurre)",
+"b. 1885, France, drawing and illustration",
+"artists",
+1
+],
+[
+"André Galland",
+"French illustration and press drawing (Le Rire, L'Assiette au beurre)",
+"b. 1886, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Jacques Touchet",
+"French illustration and press drawing (Le Rire, L'Assiette au beurre)",
+"b. 1887, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Jean Sennep",
+"French illustration and press drawing (Le Rire, L'Assiette au beurre)",
+"b. 1894, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Louis Forton",
+"French children's books and early bande dessinée",
+"b. 1879, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Étienne Le Rallic",
+"French children's books and early bande dessinée",
+"b. 1891, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Alain Saint-Ogan",
+"French children's books and early bande dessinée",
+"b. 1895, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Jean de Brunhoff",
+"French children's books and early bande dessinée",
+"b. 1899, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Hugo Gerard Ströhl",
+"German and Austrian illustration (Simplicissimus, Jugend)",
+"b. 1851, Austria, drawing and illustration",
+"artists",
+1
+],
+[
+"Hans Schließmann",
+"German and Austrian illustration (Simplicissimus, Jugend)",
+"b. 1852, Austria, drawing and illustration",
+"artists",
+1
+],
+[
+"Ludwig Sütterlin",
+"German and Austrian illustration (Simplicissimus, Jugend)",
+"b. 1865, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Gertrud Caspari",
+"German and Austrian illustration (Simplicissimus, Jugend)",
+"b. 1873, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Sibylle von Olfers",
+"German and Austrian illustration (Simplicissimus, Jugend)",
+"b. 1881, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Else Wenz-Vie͏̈tor",
+"German and Austrian illustration (Simplicissimus, Jugend)",
+"b. 1882, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Erich Schilling",
+"German and Austrian illustration (Simplicissimus, Jugend)",
+"b. 1885, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Alastair",
+"German and Austrian illustration (Simplicissimus, Jugend)",
+"b. 1887, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Bruno Grimschitz",
+"German and Austrian illustration (Simplicissimus, Jugend)",
+"b. 1892, Austria, drawing and illustration",
+"artists",
+1
+],
+[
+"Luigi Bertelli",
+"Italian illustration (Corriere dei Piccoli)",
+"b. 1860, Italy, drawing and illustration",
+"artists",
+1
+],
+[
+"Rata Langa",
+"Italian illustration (Corriere dei Piccoli)",
+"b. 1865, Italy, drawing and illustration",
+"artists",
+1
+],
+[
+"Giuseppe Scalarini",
+"Italian illustration (Corriere dei Piccoli)",
+"b. 1873, Italy, drawing and illustration",
+"artists",
+1
+],
+[
+"Gennaro Favai",
+"Italian illustration (Corriere dei Piccoli)",
+"b. 1879, Italy, drawing and illustration",
+"artists",
+1
+],
+[
+"Antonio Rubino",
+"Italian illustration (Corriere dei Piccoli)",
+"b. 1880, Italy, drawing and illustration",
+"artists",
+1
+],
+[
+"Cornelia Cederberg",
+"Scandinavian illustration",
+"b. 1854, Sweden, drawing and illustration",
+"artists",
+1
+],
+[
+"Karl August Hindrey",
+"Scandinavian illustration",
+"b. 1875, Estonia, drawing and illustration",
+"artists",
+1
+],
+[
+"Oskar Andersson",
+"Scandinavian illustration",
+"b. 1877, Sweden, drawing and illustration",
+"artists",
+1
+],
+[
+"Ragnvald Blix",
+"Scandinavian illustration",
+"b. 1882, Norway, drawing and illustration",
+"artists",
+1
+],
+[
+"Signe Hammarsten-Jansson",
+"Scandinavian illustration",
+"b. 1882, Finland, drawing and illustration",
+"artists",
+1
+],
+[
+"Vera Nilsson",
+"Scandinavian illustration",
+"b. 1888, Sweden, drawing and illustration",
+"artists",
+1
+],
+[
+"Johan Bull",
+"Scandinavian illustration",
+"b. 1893, Norway, drawing and illustration",
+"artists",
+1
+],
+[
+"Rudolf Petersson",
+"Scandinavian illustration",
+"b. 1896, Sweden, drawing and illustration",
+"artists",
+1
+],
+[
+"Hans Norsbo",
+"Scandinavian illustration",
+"b. 1897, Sweden, drawing and illustration",
+"artists",
+1
+],
+[
+"Aleksey Remizov",
+"Russian illustration and Futurist books",
+"b. 1877, Russia and the Soviet Union, drawing and illustration",
+"artists",
+1
+],
+[
+"Клемм Катерина Пилипівна",
+"Russian illustration and Futurist books",
+"b. 1884, Russia and the Soviet Union, drawing and illustration",
+"artists",
+1
+],
+[
+"Velimir Khlebnikov",
+"Russian illustration and Futurist books",
+"b. 1885, Russia and the Soviet Union, drawing and illustration",
+"artists",
+1
+],
+[
+"Aleksei Kruchenykh",
+"Russian illustration and Futurist books",
+"b. 1886, Russia and the Soviet Union, drawing and illustration",
+"artists",
+1
+],
+[
+"Nikolay Radlov",
+"Russian illustration and Futurist books",
+"b. 1889, Russia and the Soviet Union, drawing and illustration",
+"artists",
+1
+],
+[
+"May Gibbs",
+"Australian illustration",
+"b. 1877, Australia, drawing and illustration",
+"artists",
+1
+],
+[
+"Stan Cross",
+"Australian illustration",
+"b. 1888, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Dorothy Wall",
+"Australian illustration",
+"b. 1894, Australia, drawing and illustration",
+"artists",
+1
+],
+[
+"Juan Picasso González",
+"Spanish, Portuguese and Latin American illustration",
+"b. 1857, Spain, drawing and illustration",
+"artists",
+1
+],
+[
+"Joaquín Xaudaró",
+"Spanish, Portuguese and Latin American illustration",
+"b. 1872, Spain, drawing and illustration",
+"artists",
+1
+],
+[
+"Manuel Tovar Siles",
+"Spanish, Portuguese and Latin American illustration",
+"b. 1875, Spain, drawing and illustration",
+"artists",
+1
+],
+[
+"Henrique Alvim Corrêa",
+"Spanish, Portuguese and Latin American illustration",
+"b. 1876, Brazil, drawing and illustration",
+"artists",
+1
+],
+[
+"Stuart Carvalhais",
+"Spanish, Portuguese and Latin American illustration",
+"b. 1888, Portugal, drawing and illustration",
+"artists",
+1
+],
+[
+"Conrado Walter Massaguer",
+"Spanish, Portuguese and Latin American illustration",
+"b. 1889, Cuba, drawing and illustration",
+"artists",
+1
+],
+[
+"Ricardo Rendón",
+"Spanish, Portuguese and Latin American illustration",
+"b. 1894, Colombia, drawing and illustration",
+"artists",
+1
+],
+[
+"Emilio Freixas",
+"Spanish, Portuguese and Latin American illustration",
+"b. 1899, Spain, drawing and illustration",
+"artists",
+1
+],
+[
+"Max Elskamp",
+"Writers, designers and amateurs who drew",
+"b. 1862, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"Paul Scheerbart",
+"Writers, designers and amateurs who drew",
+"b. 1863, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Jac P. Thijsse",
+"Writers, designers and amateurs who drew",
+"b. 1865, Netherlands, drawing and illustration",
+"artists",
+1
+],
+[
+"Cor van Gogh",
+"Writers, designers and amateurs who drew",
+"b. 1867, Netherlands, drawing and illustration",
+"artists",
+1
+],
+[
+"Max Jakob Friedländer",
+"Writers, designers and amateurs who drew",
+"b. 1867, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Ernest Louis, Grand Duke of Hesse and by Rhine",
+"Writers, designers and amateurs who drew",
+"b. 1868, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Princess Henriette of Belgium",
+"Writers, designers and amateurs who drew",
+"b. 1870, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"Heinrich Mann",
+"Writers, designers and amateurs who drew",
+"b. 1871, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Miklós Bánffy",
+"Writers, designers and amateurs who drew",
+"b. 1873, Romania, drawing and illustration",
+"artists",
+1
+],
+[
+"Jan Feith",
+"Writers, designers and amateurs who drew",
+"b. 1874, Netherlands, drawing and illustration",
+"artists",
+1
+],
+[
+"Eusebi Güell i López",
+"Writers, designers and amateurs who drew",
+"b. 1877, Spain, drawing and illustration",
+"artists",
+1
+],
+[
+"Henryk Minkiewicz",
+"Writers, designers and amateurs who drew",
+"b. 1880, Poland, drawing and illustration",
+"artists",
+1
+],
+[
+"Robert Edmond Jones",
+"Writers, designers and amateurs who drew",
+"b. 1887, United States, drawing and illustration",
+"artists",
+1
+],
+[
+"Maria Pawlikowska-Jasnorzewska",
+"Writers, designers and amateurs who drew",
+"b. 1891, Poland, drawing and illustration",
+"artists",
+1
+],
+[
+"Hans Stocker",
+"Writers, designers and amateurs who drew",
+"b. 1896, Switzerland, drawing and illustration",
+"artists",
+1
+],
+[
+"Karel Fleischmann",
+"Writers, designers and amateurs who drew",
+"b. 1897, Czech lands, drawing and illustration",
+"artists",
+1
+],
+[
+"Christoph Bernoulli",
+"Writers, designers and amateurs who drew",
+"b. 1897, Switzerland, drawing and illustration",
+"artists",
+1
+],
+[
+"Georges Bataille",
+"Writers, designers and amateurs who drew",
+"b. 1897, France, drawing and illustration",
 "artists",
 1
 ]
 ]
 },
 "B2-14": {
-"axis": "provisional",
+"axis": "the revival's painter-etchers first, then the trade around them (printers and publishers, critics and cataloguers), then the reproductive engravers, wood engravers and lithographers of the same decades whom the gathered data placed here; within each by birth",
+"defn": "The re-emergence of etching as an original art c. 1850–1930 in France, Britain and the United States, launched by Cadart's Société des Aquafortistes (1862) and Haden's Royal Society of Painter-Etchers (1880): <i>Whistler's Thames Set</i>, <i>Méryon's Eaux-fortes sur Paris</i>, <i>Seymour Haden's landscapes</i>.",
+"catalogues": [
+[
+"https://www.britishmuseum.org/collection/search?keyword=etching%20revival",
+"British Museum collection: etching revival",
+"the BM's holdings of revival etchings"
+],
+[
+"https://www.metmuseum.org/art/collection/search?q=etching%20revival",
+"The Met collection: etching revival",
+"Met prints of the revival (Whistler, Haden, Méryon)"
+],
+[
+"https://www.whistleretchings.org/",
+"Whistler Etchings Project (Glasgow)",
+"catalogue raisonné of all of Whistler's etchings"
+],
+[
+"https://re-society.org/",
+"Royal Society of Painter-Printmakers",
+"the society Haden founded in 1880 and its history"
+]
+],
 "kinds": [
 [
-"Charles Blanc",
-"Artists",
-"",
-"artists",
+"Charles Meryon",
+"Painter-etchers of the revival",
+"French etcher of the Eaux-fortes sur Paris, 1821–1868",
+"r3 https://en.wikipedia.org/wiki/Charles_Meryon",
 1
 ],
 [
-"Louis Jacoby",
-"Artists",
-"",
-"artists",
+"Félix Bracquemond",
+"Painter-etchers of the revival",
+"French etcher and founder member of the Société des Aquafortistes, 1833–1914",
+"r3 https://en.wikipedia.org/wiki/Félix_Bracquemond",
 1
 ],
 [
-"Adolph Friedländer",
-"Artists",
-"",
-"artists",
+"Charles-François Daubigny",
+"Painter-etchers of the revival",
+"French Barbizon painter and etcher, 1817–1878",
+"r3 https://en.wikipedia.org/wiki/Charles-François_Daubigny",
 1
 ],
 [
-"Walter Hood Fitch",
-"Artists",
-"",
-"artists",
+"Alphonse Legros",
+"Painter-etchers of the revival",
+"French-born etcher, Slade professor in London, 1837–1911",
+"r3 https://en.wikipedia.org/wiki/Alphonse_Legros",
 1
 ],
 [
-"Gustav Pauli",
-"Artists",
-"",
-"artists",
+"Félix Buhot",
+"Painter-etchers of the revival",
+"French etcher of Paris and London scenes, 1847–1898",
+"r3 https://en.wikipedia.org/wiki/Félix_Buhot",
 1
 ],
 [
-"Julius Bien",
-"Artists",
-"",
-"artists",
+"James McNeill Whistler",
+"Painter-etchers of the revival",
+"American etcher of the Thames Set and Venice Sets, 1834–1903",
+"r3 https://en.wikipedia.org/wiki/James_McNeill_Whistler",
 1
 ],
 [
-"Eduard Mandel",
-"Artists",
-"",
-"artists",
+"Frank Short",
+"Painter-etchers of the revival",
+"English etcher and mezzotinter, 1857–1945",
+"r3 https://en.wikipedia.org/wiki/Frank_Short",
 1
 ],
 [
-"Henri Boutet",
-"Artists",
-"",
-"artists",
+"Muirhead Bone",
+"Painter-etchers of the revival",
+"Scottish etcher and drypoint artist, 1876–1953",
+"r3 https://en.wikipedia.org/wiki/Muirhead_Bone",
 1
 ],
 [
-"Charles Henry Jeens",
-"Artists",
-"",
-"artists",
+"D. Y. Cameron",
+"Painter-etchers of the revival",
+"Scottish etcher of architecture and landscape, 1865–1945",
+"r3 https://en.wikipedia.org/wiki/David_Young_Cameron",
 1
 ],
 [
-"Edmund Edel",
-"Artists",
-"",
-"artists",
+"James McBey",
+"Painter-etchers of the revival",
+"Scottish etcher, 1883–1959",
+"r3 https://en.wikipedia.org/wiki/James_McBey",
 1
 ],
 [
-"Samuel Cousins",
-"Artists",
-"",
-"artists",
+"Joseph Pennell",
+"Painter-etchers of the revival",
+"American etcher and lithographer, 1857–1926",
+"r3 https://en.wikipedia.org/wiki/Joseph_Pennell",
 1
 ],
 [
-"Edward Tracy Turnerelli",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Charles Barbant",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Pierre Gusman",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Tony Beltrand",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Manuel Manilla",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Auguste Delâtre",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Émile Jean Sulpis",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Auguste Roedel",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Aglaüs Bouvenne",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gustav Kruell",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Charles George Lewis",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Charles-Michel Geoffroy",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Joseph Swain",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Johann Leonhard Raab",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"George Allen",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"John Henry Le Keux",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Edmond Andre Rocher",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Achille-Louis Martinet",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Alfred Taiée",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gustave Janet",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Walter Montieth Aikman",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Henry Linton",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"William Griggs",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jean-Baptiste Danguin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Saro Cucinotta",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Auguste Danse",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Elizabeth Campbell Fisher Clay",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Frank Leslie",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Louis van Houtte",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Nelly Bodenheim",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Victor de Stuers",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"August Weger",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Alfred Cadart",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Joseph Lemercier",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Llewellynn Jewitt",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gustave Le Rouge",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Tommaso Aloysio Juvara",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Eugen Eduard Schäffer",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Wilhelm Hecht",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Wilhelm Heuer",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Alfred Concanen",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Émile Théodore Therond",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Malo-Renault",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Abraham Jacobus Wendel",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Aleksei Aleksandrovich Radakov",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Alphonse François",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Bert Nienhuis",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"François-Eugène-Augustin Bridoux",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Achille Jacquet",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Achille Ouvré",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Alexandre Manceau",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Auguste Clot",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Auguste III Blanchard",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Charles Baude",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Edmond Ramus",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Louis Prang",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Firmin Gillot",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"François Pannemaker",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Horace de Viel-Castel",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"John Sartain",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Philippe Burty",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Pierre Gustave Staal",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Frank Mason Robinson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Helen Hyde",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Charles Edward Barber",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"William Holl",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Fyodor Iordan",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Louis Alexander Fagan",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Rodolphe Bresdin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gabrielle-Marie Niel",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Doris Raab",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Andrew Varick Stout Anthony",
-"Artists",
-"",
-"artists",
+"Anders Zorn",
+"Painter-etchers of the revival",
+"Swedish painter-etcher, 1860–1920",
+"r3 https://en.wikipedia.org/wiki/Anders_Zorn",
 1
 ],
 [
 "Amédée de Noé",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Edwin Davis French",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Emma Zorn",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Thomas Sturge Moore",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Charles Swain",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gaetano Dura",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Carl Johan Billmark",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"F. H. Townsend",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"F. L. Griggs",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Paul Renner",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"George Baxter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"George Samuel Measom",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Wilhelm Tempel",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Henry Wolf",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Henry Havard",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Caroline Amelia Powell",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"James Merritt Ives",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"James Tibbits Willmore",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"John Chester Buttre",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"John Cousen",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"John Henry Bufford",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"John Henry Walker",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Charles Clérice",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Joseph Bouchardy",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Nathaniel Currier",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Loÿs Delteil",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Marc-Louis Solon",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Margaret Flockton",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mary Louise McLaughlin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mary Nimmo Moran",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mason Jackson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Patrick H. Reason",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Henry Bataille",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Charles Albert Waltner",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Auguste Brouet",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Marie Firmin Bocourt",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Thomas Oldham Barlow",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Alfred Jarry",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"William Luson Thomas",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Niels Christian Kierkegaard",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Eusebi Planas i Franquesa",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Alfred Guesdon",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Anna Botsford Comstock",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Charles Francis Hall",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Giuseppe Barberis",
-"Artists",
-"",
+"Painter-etchers",
+"b. 1818, France, printmaking",
 "artists",
 1
 ],
 [
 "Francis Seymour Haden",
-"Artists",
-"",
+"Painter-etchers",
+"b. 1818, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Charles-Michel Geoffroy",
+"Painter-etchers",
+"b. 1819, France, printmaking",
+"artists",
+1
+],
+[
+"Rodolphe Bresdin",
+"Painter-etchers",
+"b. 1822, France, printmaking",
+"artists",
+1
+],
+[
+"Manuel Manilla",
+"Painter-etchers",
+"b. 1830, Mexico, printmaking",
+"artists",
+1
+],
+[
+"Mary Nimmo Moran",
+"Painter-etchers",
+"b. 1842, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Henry Wolf",
+"Painter-etchers",
+"b. 1852, France, printmaking",
+"artists",
+1
+],
+[
+"Emma Zorn",
+"Painter-etchers",
+"b. 1860, Sweden, printmaking",
+"artists",
+1
+],
+[
+"Edmund Edel",
+"Painter-etchers",
+"b. 1863, Germany, printmaking",
+"artists",
+1
+],
+[
+"Helen Hyde",
+"Painter-etchers",
+"b. 1868, United States, printmaking",
+"artists",
+1
+],
+[
+"Malo-Renault",
+"Painter-etchers",
+"b. 1870, France, printmaking",
+"artists",
+1
+],
+[
+"Thomas Sturge Moore",
+"Painter-etchers",
+"b. 1870, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Elizabeth Campbell Fisher Clay",
+"Painter-etchers",
+"b. 1871, United States, printmaking",
+"artists",
+1
+],
+[
+"Achille Ouvré",
+"Painter-etchers",
+"b. 1872, France, printmaking",
+"artists",
+1
+],
+[
+"Auguste Brouet",
+"Painter-etchers",
+"b. 1872, France, printmaking",
+"artists",
+1
+],
+[
+"Edmond Andre Rocher",
+"Painter-etchers",
+"b. 1873, France, printmaking",
+"artists",
+1
+],
+[
+"Bert Nienhuis",
+"Painter-etchers",
+"b. 1873, Netherlands, printmaking",
+"artists",
+1
+],
+[
+"Nelly Bodenheim",
+"Painter-etchers",
+"b. 1874, Netherlands, printmaking",
+"artists",
+1
+],
+[
+"F. L. Griggs",
+"Painter-etchers",
+"b. 1876, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Aleksei Aleksandrovich Radakov",
+"Painter-etchers",
+"b. 1877, Russia and the Soviet Union, printmaking",
+"artists",
+1
+],
+[
+"Joseph Lemercier",
+"Printers, publishers and dealers (Société des Aquafortistes)",
+"b. 1803, France, printmaking",
+"artists",
+1
+],
+[
+"Auguste Delâtre",
+"Printers, publishers and dealers (Société des Aquafortistes)",
+"b. 1822, France, printmaking",
+"artists",
+1
+],
+[
+"Edmond Ramus",
+"Printers, publishers and dealers (Société des Aquafortistes)",
+"b. 1822, France, printmaking",
+"artists",
+1
+],
+[
+"Alfred Cadart",
+"Printers, publishers and dealers (Société des Aquafortistes)",
+"b. 1828, France, printmaking",
+"artists",
+1
+],
+[
+"Adolph Friedländer",
+"Printers, publishers and dealers (Société des Aquafortistes)",
+"b. 1851, Germany, printmaking",
+"artists",
+1
+],
+[
+"Auguste Clot",
+"Printers, publishers and dealers (Société des Aquafortistes)",
+"b. 1858, France, printmaking",
+"artists",
+1
+],
+[
+"Pierre Gusman",
+"Printers, publishers and dealers (Société des Aquafortistes)",
+"b. 1862, France, printmaking",
+"artists",
+1
+],
+[
+"Horace de Viel-Castel",
+"Critics, collectors and cataloguers",
+"b. 1802, France, printmaking",
+"artists",
+1
+],
+[
+"Charles Blanc",
+"Critics, collectors and cataloguers",
+"b. 1813, France, printmaking",
+"artists",
+1
+],
+[
+"Llewellynn Jewitt",
+"Critics, collectors and cataloguers",
+"b. 1816, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Philippe Burty",
+"Critics, collectors and cataloguers",
+"b. 1830, France, printmaking",
+"artists",
+1
+],
+[
+"Henry Havard",
+"Critics, collectors and cataloguers",
+"b. 1838, France, printmaking",
+"artists",
+1
+],
+[
+"Victor de Stuers",
+"Critics, collectors and cataloguers",
+"b. 1843, Netherlands, printmaking",
+"artists",
+1
+],
+[
+"Louis Alexander Fagan",
+"Critics, collectors and cataloguers",
+"b. 1845, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Gustav Pauli",
+"Critics, collectors and cataloguers",
+"b. 1866, Germany, printmaking",
+"artists",
+1
+],
+[
+"Loÿs Delteil",
+"Critics, collectors and cataloguers",
+"b. 1869, France, printmaking",
+"artists",
+1
+],
+[
+"Fyodor Iordan",
+"Reproductive line and mezzotint engravers",
+"b. 1800, Russia and the Soviet Union, printmaking",
+"artists",
+1
+],
+[
+"James Tibbits Willmore",
+"Reproductive line and mezzotint engravers",
+"b. 1800, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Samuel Cousins",
+"Reproductive line and mezzotint engravers",
+"b. 1801, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Eugen Eduard Schäffer",
+"Reproductive line and mezzotint engravers",
+"b. 1802, Germany, printmaking",
+"artists",
+1
+],
+[
+"Carl Johan Billmark",
+"Reproductive line and mezzotint engravers",
+"b. 1804, Sweden, printmaking",
+"artists",
+1
+],
+[
+"John Cousen",
+"Reproductive line and mezzotint engravers",
+"b. 1804, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Gaetano Dura",
+"Reproductive line and mezzotint engravers",
+"b. 1805, Italy, printmaking",
+"artists",
+1
+],
+[
+"Achille-Louis Martinet",
+"Reproductive line and mezzotint engravers",
+"b. 1806, France, printmaking",
+"artists",
+1
+],
+[
+"William Holl",
+"Reproductive line and mezzotint engravers",
+"b. 1807, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Charles George Lewis",
+"Reproductive line and mezzotint engravers",
+"b. 1808, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"John Sartain",
+"Reproductive line and mezzotint engravers",
+"b. 1808, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Tommaso Aloysio Juvara",
+"Reproductive line and mezzotint engravers",
+"b. 1809, Italy, printmaking",
+"artists",
+1
+],
+[
+"Eduard Mandel",
+"Reproductive line and mezzotint engravers",
+"b. 1810, Germany, printmaking",
+"artists",
+1
+],
+[
+"John Henry Le Keux",
+"Reproductive line and mezzotint engravers",
+"b. 1812, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"François-Eugène-Augustin Bridoux",
+"Reproductive line and mezzotint engravers",
+"b. 1813, France, printmaking",
+"artists",
+1
+],
+[
+"Alphonse François",
+"Reproductive line and mezzotint engravers",
+"b. 1814, France, printmaking",
+"artists",
+1
+],
+[
+"Patrick H. Reason",
+"Reproductive line and mezzotint engravers",
+"b. 1816, United States, printmaking",
+"artists",
+1
+],
+[
+"Auguste III Blanchard",
+"Reproductive line and mezzotint engravers",
+"b. 1819, France, printmaking",
+"artists",
+1
+],
+[
+"John Chester Buttre",
+"Reproductive line and mezzotint engravers",
+"b. 1821, United States, printmaking",
+"artists",
+1
+],
+[
+"August Weger",
+"Reproductive line and mezzotint engravers",
+"b. 1823, Germany, printmaking",
+"artists",
+1
+],
+[
+"Thomas Oldham Barlow",
+"Reproductive line and mezzotint engravers",
+"b. 1824, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Johann Leonhard Raab",
+"Reproductive line and mezzotint engravers",
+"b. 1825, Germany, printmaking",
+"artists",
+1
+],
+[
+"Charles Henry Jeens",
+"Reproductive line and mezzotint engravers",
+"b. 1827, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Louis Jacoby",
+"Reproductive line and mezzotint engravers",
+"b. 1828, Germany, printmaking",
+"artists",
+1
+],
+[
+"Saro Cucinotta",
+"Reproductive line and mezzotint engravers",
+"b. 1830, Italy, printmaking",
+"artists",
+1
+],
+[
+"Charles Edward Barber",
+"Reproductive line and mezzotint engravers",
+"b. 1840, United States, printmaking",
+"artists",
+1
+],
+[
+"Giuseppe Barberis",
+"Reproductive line and mezzotint engravers",
+"b. 1840, Italy, printmaking",
+"artists",
+1
+],
+[
+"Gustav Kruell",
+"Reproductive line and mezzotint engravers",
+"b. 1843, United States, printmaking",
+"artists",
+1
+],
+[
+"Wilhelm Hecht",
+"Reproductive line and mezzotint engravers",
+"b. 1843, Germany, printmaking",
+"artists",
+1
+],
+[
+"Achille Jacquet",
+"Reproductive line and mezzotint engravers",
+"b. 1846, France, printmaking",
+"artists",
+1
+],
+[
+"Charles Albert Waltner",
+"Reproductive line and mezzotint engravers",
+"b. 1846, France, printmaking",
+"artists",
+1
+],
+[
+"Doris Raab",
+"Reproductive line and mezzotint engravers",
+"b. 1851, Germany, printmaking",
+"artists",
+1
+],
+[
+"Edwin Davis French",
+"Reproductive line and mezzotint engravers",
+"b. 1851, United States, printmaking",
+"artists",
+1
+],
+[
+"Charles Swain",
+"Wood engravers of the illustrated press",
+"b. 1801, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Henry Linton",
+"Wood engravers of the illustrated press",
+"b. 1815, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Alexandre Manceau",
+"Wood engravers of the illustrated press",
+"b. 1817, France, printmaking",
+"artists",
+1
+],
+[
+"George Samuel Measom",
+"Wood engravers of the illustrated press",
+"b. 1818, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Firmin Gillot",
+"Wood engravers of the illustrated press",
+"b. 1819, France, printmaking",
+"artists",
+1
+],
+[
+"Mason Jackson",
+"Wood engravers of the illustrated press",
+"b. 1819, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Joseph Swain",
+"Wood engravers of the illustrated press",
+"b. 1820, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Frank Leslie",
+"Wood engravers of the illustrated press",
+"b. 1821, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"François Pannemaker",
+"Wood engravers of the illustrated press",
+"b. 1822, Belgium, printmaking",
+"artists",
+1
+],
+[
+"Jean-Baptiste Danguin",
+"Wood engravers of the illustrated press",
+"b. 1823, France, printmaking",
+"artists",
+1
+],
+[
+"Abraham Jacobus Wendel",
+"Wood engravers of the illustrated press",
+"b. 1826, Netherlands, printmaking",
+"artists",
+1
+],
+[
+"Gustave Janet",
+"Wood engravers of the illustrated press",
+"b. 1829, France, printmaking",
+"artists",
+1
+],
+[
+"Auguste Danse",
+"Wood engravers of the illustrated press",
+"b. 1829, Belgium, printmaking",
+"artists",
+1
+],
+[
+"William Luson Thomas",
+"Wood engravers of the illustrated press",
+"b. 1830, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Andrew Varick Stout Anthony",
+"Wood engravers of the illustrated press",
+"b. 1835, United States, printmaking",
+"artists",
+1
+],
+[
+"Charles Barbant",
+"Wood engravers of the illustrated press",
+"b. 1844, France, printmaking",
+"artists",
+1
+],
+[
+"Tony Beltrand",
+"Wood engravers of the illustrated press",
+"b. 1847, France, printmaking",
 "artists",
 1
 ],
 [
 "Hugo Kaeseberg",
-"Artists",
-"",
+"Wood engravers of the illustrated press",
+"b. 1847, Germany, printmaking",
+"artists",
+1
+],
+[
+"Henri Boutet",
+"Wood engravers of the illustrated press",
+"b. 1851, France, printmaking",
+"artists",
+1
+],
+[
+"Charles Baude",
+"Wood engravers of the illustrated press",
+"b. 1853, France, printmaking",
+"artists",
+1
+],
+[
+"Émile Jean Sulpis",
+"Wood engravers of the illustrated press",
+"b. 1856, France, printmaking",
+"artists",
+1
+],
+[
+"George Baxter",
+"Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
+"b. 1804, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Alfred Guesdon",
+"Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
+"b. 1808, France, printmaking",
+"artists",
+1
+],
+[
+"John Henry Bufford",
+"Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
+"b. 1810, United States, printmaking",
+"artists",
+1
+],
+[
+"Edward Tracy Turnerelli",
+"Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
+"b. 1813, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Wilhelm Heuer",
+"Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
+"b. 1813, Germany, printmaking",
+"artists",
+1
+],
+[
+"Nathaniel Currier",
+"Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
+"b. 1813, United States, printmaking",
+"artists",
+1
+],
+[
+"Pierre Gustave Staal",
+"Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
+"b. 1817, France, printmaking",
+"artists",
+1
+],
+[
+"Alfred Taiée",
+"Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
+"b. 1820, France, printmaking",
+"artists",
+1
+],
+[
+"Émile Théodore Therond",
+"Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
+"b. 1821, France, printmaking",
+"artists",
+1
+],
+[
+"Wilhelm Tempel",
+"Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
+"b. 1821, Germany, printmaking",
+"artists",
+1
+],
+[
+"Louis Prang",
+"Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
+"b. 1824, United States, printmaking",
+"artists",
+1
+],
+[
+"James Merritt Ives",
+"Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
+"b. 1824, United States, printmaking",
+"artists",
+1
+],
+[
+"Julius Bien",
+"Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
+"b. 1826, United States, printmaking",
+"artists",
+1
+],
+[
+"Eusebi Planas i Franquesa",
+"Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
+"b. 1833, Spain, printmaking",
+"artists",
+1
+],
+[
+"Alfred Concanen",
+"Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
+"b. 1835, printmaking",
+"artists",
+1
+],
+[
+"Frank Mason Robinson",
+"Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
+"b. 1845, United States, printmaking",
+"artists",
+1
+],
+[
+"Charles Clérice",
+"Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
+"b. 1855, Argentina, printmaking",
+"artists",
+1
+],
+[
+"Niels Christian Kierkegaard",
+"Botanical and scientific illustrators",
+"b. 1806, Denmark, printmaking",
+"artists",
+1
+],
+[
+"Louis van Houtte",
+"Botanical and scientific illustrators",
+"b. 1810, Belgium, printmaking",
+"artists",
+1
+],
+[
+"Walter Hood Fitch",
+"Botanical and scientific illustrators",
+"b. 1817, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Marie Firmin Bocourt",
+"Botanical and scientific illustrators",
+"b. 1819, France, printmaking",
+"artists",
+1
+],
+[
+"George Allen",
+"Botanical and scientific illustrators",
+"b. 1832, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"William Griggs",
+"Botanical and scientific illustrators",
+"b. 1832, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Caroline Amelia Powell",
+"Botanical and scientific illustrators",
+"b. 1852, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Anna Botsford Comstock",
+"Botanical and scientific illustrators",
+"b. 1854, United States, printmaking",
+"artists",
+1
+],
+[
+"Margaret Flockton",
+"Botanical and scientific illustrators",
+"b. 1861, Australia, printmaking",
+"artists",
+1
+],
+[
+"Joseph Bouchardy",
+"Writers, designers and amateurs",
+"b. 1810, France, printmaking",
+"artists",
+1
+],
+[
+"Charles Francis Hall",
+"Writers, designers and amateurs",
+"b. 1821, United States, printmaking",
+"artists",
+1
+],
+[
+"Aglaüs Bouvenne",
+"Writers, designers and amateurs",
+"b. 1829, France, printmaking",
+"artists",
+1
+],
+[
+"Gabrielle-Marie Niel",
+"Writers, designers and amateurs",
+"b. 1831, France, printmaking",
+"artists",
+1
+],
+[
+"John Henry Walker",
+"Writers, designers and amateurs",
+"b. 1831, Canada, printmaking",
+"artists",
+1
+],
+[
+"Marc-Louis Solon",
+"Writers, designers and amateurs",
+"b. 1835, France, printmaking",
+"artists",
+1
+],
+[
+"Mary Louise McLaughlin",
+"Writers, designers and amateurs",
+"b. 1847, United States, printmaking",
+"artists",
+1
+],
+[
+"Walter Montieth Aikman",
+"Writers, designers and amateurs",
+"b. 1857, United States, printmaking",
+"artists",
+1
+],
+[
+"Auguste Roedel",
+"Writers, designers and amateurs",
+"b. 1859, France, printmaking",
+"artists",
+1
+],
+[
+"Gustave Le Rouge",
+"Writers, designers and amateurs",
+"b. 1867, France, printmaking",
+"artists",
+1
+],
+[
+"F. H. Townsend",
+"Writers, designers and amateurs",
+"b. 1868, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Henry Bataille",
+"Writers, designers and amateurs",
+"b. 1872, France, printmaking",
+"artists",
+1
+],
+[
+"Alfred Jarry",
+"Writers, designers and amateurs",
+"b. 1873, France, printmaking",
+"artists",
+1
+],
+[
+"Paul Renner",
+"Writers, designers and amateurs",
+"b. 1878, Germany, printmaking",
 "artists",
 1
 ]
 ]
 },
 "B2-15": {
-"axis": "provisional",
+"axis": "canonical masters first, then by movement and technique (Expressionist and social woodcut, British wood-engraving revival, Grosvenor School linocut, American printmakers, master printers and workshops, livre d'artiste), then regional movements; within each by birth",
+"catalogues": [
+[
+"https://www.moma.org/collection/?q=print",
+"MoMA collection",
+"MoMA's department of drawings and prints, searchable by artist and technique"
+],
+[
+"https://www.britishmuseum.org/collection/search?keyword=woodcut&dateFrom=1900",
+"British Museum collection: 20th-century woodcuts",
+"modern prints in the BM"
+],
+[
+"https://www.tamarind.unm.edu/",
+"Tamarind Institute",
+"the lithography workshop and its archive of editions"
+],
+[
+"https://www.nga.gov/collection-search-result.html?artobj_classification=print",
+"National Gallery of Art: prints",
+"the NGA's print collection, searchable by artist"
+]
+],
 "kinds": [
 [
-"Julio Plaza",
-"Artists",
-"",
-"artists",
+"Käthe Kollwitz",
+"Canonical modern printmakers",
+"German printmaker of the War and Peasants' War cycles, 1867–1945",
+"r3 https://en.wikipedia.org/wiki/Käthe_Kollwitz",
 1
 ],
 [
-"Renina Katz",
-"Artists",
-"",
-"artists",
+"Ernst Ludwig Kirchner",
+"Canonical modern printmakers",
+"German Expressionist (Die Brücke) woodcut artist, 1880–1938",
+"r3 https://en.wikipedia.org/wiki/Ernst_Ludwig_Kirchner",
 1
 ],
 [
-"Alena Kučerová",
-"Artists",
-"",
-"artists",
+"Frans Masereel",
+"Canonical modern printmakers",
+"Belgian woodcut novelist (Passionate Journey), 1889–1972",
+"r3 https://en.wikipedia.org/wiki/Frans_Masereel",
 1
 ],
 [
-"Shiou-Ping Liao",
-"Artists",
-"",
-"artists",
+"Lynd Ward",
+"Canonical modern printmakers",
+"American wood-engraved novels (Gods' Man), 1905–1985",
+"r3 https://en.wikipedia.org/wiki/Lynd_Ward",
 1
 ],
 [
-"Outi Heiskanen",
-"Artists",
-"",
-"artists",
+"M. C. Escher",
+"Canonical modern printmakers",
+"Dutch graphic artist of tessellations and impossible spaces, 1898–1972",
+"r3 https://en.wikipedia.org/wiki/M._C._Escher",
 1
 ],
 [
-"Ian Hugo",
-"Artists",
-"",
-"artists",
+"Claude Flight",
+"Canonical modern printmakers",
+"English linocut artist, teacher at the Grosvenor School, 1881–1955",
+"r3 https://en.wikipedia.org/wiki/Claude_Flight",
 1
 ],
 [
-"Anastasios Alevizos",
-"Artists",
-"",
-"artists",
+"Sybil Andrews",
+"Canonical modern printmakers",
+"English-Canadian Grosvenor School linocut artist, 1898–1992",
+"r3 https://en.wikipedia.org/wiki/Sybil_Andrews",
 1
 ],
 [
-"Pierre Restany",
-"Artists",
-"",
-"artists",
+"Stanley William Hayter",
+"Canonical modern printmakers",
+"English engraver, founder of Atelier 17, 1901–1988",
+"r3 https://en.wikipedia.org/wiki/Stanley_William_Hayter",
 1
 ],
 [
-"Ádám Würtz",
-"Artists",
-"",
+"Lu Xun",
+"Canonical modern printmakers",
+"Chinese writer who launched the Modern Woodcut Movement in 1931, 1881–1936",
+"r3 https://en.wikipedia.org/wiki/Lu_Xun",
+1
+],
+[
+"Leopoldo Méndez",
+"Canonical modern printmakers",
+"Mexican printmaker of the Taller de Gráfica Popular, 1902–1969",
+"r3 https://en.wikipedia.org/wiki/Leopoldo_Méndez",
+1
+],
+[
+"June Wayne",
+"Canonical modern printmakers",
+"American lithographer, founder of the Tamarind Lithography Workshop, 1918–2011",
+"r3 https://en.wikipedia.org/wiki/June_Wayne",
+1
+],
+[
+"Sofiya Nalepinska-Boychuk",
+"Expressionist and social woodcut",
+"b. 1884, Russia and the Soviet Union, printmaking",
 "artists",
 1
 ],
 [
 "Karl Bickel",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"John R. Sinnock",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hanna Nagel",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ethel Spowers",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ce Roser",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Vera Frenkel",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Florencia de Amesti",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jessie Traill",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Kazimierz Mann",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"John Muafangejo",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ed Bereal",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Phyllis Barron",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mariam A. Aleem",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Irene Aronson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Donald Saff",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Azaria Mbatha",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Tadeusz Lapinski",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Rie Cramer",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Francisco Copello",
-"Artists",
-"",
+"Expressionist and social woodcut",
+"b. 1886, Switzerland, printmaking",
 "artists",
 1
 ],
 [
 "Fritz Eichenberg",
-"Artists",
-"",
+"Expressionist and social woodcut",
+"b. 1901, Germany, printmaking",
 "artists",
 1
 ],
 [
-"Garo Antreasian",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Oswaldo Goeldi",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Aldo Crommelynck",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"André Édouard Marty",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mary Lee Bendolph",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Robert Mallary",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Cécile Reims",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Fernand Mourlot",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jean Widmer",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Julien Levy",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Maximilien Vox",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Marc Saint-Saëns",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Philippe Mohlitz",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Yves Beaujard",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Terry Riley",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Luigi Servolini",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Irwin Hollander",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sofiya Nalepinska-Boychuk",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Palle Nielsen",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jean Bruller",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Pitseolak Ashoona",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Barry Moser",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Chittaprosad Bhattacharya",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Valentin le Campion",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Claire Van Vliet",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Clarence William Anderson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ruth Chaney",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Dagny Hald",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gwen Raverat",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Eileen Soper",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Lynton Richards Kistler",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"George Worsley Adamson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Noel Sheridan",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hannah Weiner",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Harald Damsleth",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Charles Cajori",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Nedo Mion Ferrario",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Irving Amen",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jackson Mac Low",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jan Marcin Szancer",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Lars Fredrikson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jessie Oonark",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Barry Cleavin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Joan Hassall",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ansei Uchima",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Malcolm Osborne",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Martin Lewis",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Monica Poole",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mukul Dey",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Czesław Słania",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Peter Milton",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Peter Opsvik",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Thorbjørn Egner",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Reynolds Stone",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Roi Partridge",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sante Graziani",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Shirley Hughes",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Thomas Handforth",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Warrington Colescott",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Betty Dodson",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Andrzej Heidrich",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Szymon Kobyliński",
-"Artists",
-"",
+"Clément Moreau",
+"Expressionist and social woodcut",
+"b. 1903, Germany, drawing and illustration",
 "artists",
 1
 ],
 [
 "Vjačeslav Vasʹkovsʹkyj",
-"Artists",
-"",
+"Expressionist and social woodcut",
+"b. 1904, Ukraine, printmaking",
+"artists",
+1
+],
+[
+"Hanna Nagel",
+"Expressionist and social woodcut",
+"b. 1907, Germany, printmaking",
+"artists",
+1
+],
+[
+"Heinz Kiwitz",
+"Expressionist and social woodcut",
+"b. 1910, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Malcolm Osborne",
+"British wood-engraving revival",
+"b. 1880, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Gwen Raverat",
+"British wood-engraving revival",
+"b. 1885, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Phyllis Barron",
+"British wood-engraving revival",
+"b. 1890, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Eileen Soper",
+"British wood-engraving revival",
+"b. 1905, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Joan Hassall",
+"British wood-engraving revival",
+"b. 1906, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Reynolds Stone",
+"British wood-engraving revival",
+"b. 1909, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"George Worsley Adamson",
+"British wood-engraving revival",
+"b. 1913, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Monica Poole",
+"British wood-engraving revival",
+"b. 1921, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Jessie Traill",
+"Grosvenor School and colour linocut",
+"b. 1881, Australia, printmaking",
+"artists",
+1
+],
+[
+"Ethel Spowers",
+"Grosvenor School and colour linocut",
+"b. 1890, Australia, printmaking",
+"artists",
+1
+],
+[
+"Martin Lewis",
+"American printmakers (etching and lithography)",
+"b. 1881, United States, printmaking",
+"artists",
+1
+],
+[
+"John R. Sinnock",
+"American printmakers (etching and lithography)",
+"b. 1888, United States, printmaking",
+"artists",
+1
+],
+[
+"Roi Partridge",
+"American printmakers (etching and lithography)",
+"b. 1888, United States, printmaking",
+"artists",
+1
+],
+[
+"Clarence William Anderson",
+"American printmakers (etching and lithography)",
+"b. 1891, United States, printmaking",
+"artists",
+1
+],
+[
+"Lynton Richards Kistler",
+"American printmakers (etching and lithography)",
+"b. 1897, United States, printmaking",
+"artists",
+1
+],
+[
+"Thomas Handforth",
+"American printmakers (etching and lithography)",
+"b. 1897, United States, printmaking",
+"artists",
+1
+],
+[
+"Ian Hugo",
+"American printmakers (etching and lithography)",
+"b. 1898, United States, printmaking",
+"artists",
+1
+],
+[
+"Ruth Chaney",
+"American printmakers (etching and lithography)",
+"b. 1908, United States, printmaking",
+"artists",
+1
+],
+[
+"Robert Mallary",
+"American printmakers (etching and lithography)",
+"b. 1917, United States, printmaking",
+"artists",
+1
+],
+[
+"Irene Aronson",
+"American printmakers (etching and lithography)",
+"b. 1918, Germany, printmaking",
+"artists",
+1
+],
+[
+"Irving Amen",
+"American printmakers (etching and lithography)",
+"b. 1918, United States, printmaking",
+"artists",
+1
+],
+[
+"Sante Graziani",
+"American printmakers (etching and lithography)",
+"b. 1920, United States, printmaking",
+"artists",
+1
+],
+[
+"Charles Cajori",
+"American printmakers (etching and lithography)",
+"b. 1921, United States, printmaking",
+"artists",
+1
+],
+[
+"Ansei Uchima",
+"American printmakers (etching and lithography)",
+"b. 1921, United States, printmaking",
+"artists",
+1
+],
+[
+"Warrington Colescott",
+"American printmakers (etching and lithography)",
+"b. 1921, United States, printmaking",
+"artists",
+1
+],
+[
+"Tadeusz Lapinski",
+"American printmakers (etching and lithography)",
+"b. 1928, United States, printmaking",
+"artists",
+1
+],
+[
+"Ce Roser",
+"American printmakers (etching and lithography)",
+"b. 1930, United States, printmaking",
+"artists",
+1
+],
+[
+"Peter Milton",
+"American printmakers (etching and lithography)",
+"b. 1930, United States, printmaking",
+"artists",
+1
+],
+[
+"Barry Moser",
+"American printmakers (etching and lithography)",
+"b. 1940, United States, printmaking",
 "artists",
 1
 ],
 [
 "Glen Alps",
-"Artists",
+"American printmakers (etching and lithography)",
 "",
 "possession",
+1
+],
+[
+"Fernand Mourlot",
+"Print workshops and master printers (Mourlot, Crommelynck, Tamarind)",
+"b. 1895, France, printmaking",
+"artists",
+1
+],
+[
+"Julien Levy",
+"Print workshops and master printers (Mourlot, Crommelynck, Tamarind)",
+"b. 1906, United States, printmaking",
+"artists",
+1
+],
+[
+"Garo Antreasian",
+"Print workshops and master printers (Mourlot, Crommelynck, Tamarind)",
+"b. 1922, United States, printmaking",
+"artists",
+1
+],
+[
+"Irwin Hollander",
+"Print workshops and master printers (Mourlot, Crommelynck, Tamarind)",
+"b. 1927, United States, printmaking",
+"artists",
+1
+],
+[
+"Pierre Restany",
+"Print workshops and master printers (Mourlot, Crommelynck, Tamarind)",
+"b. 1930, France, printmaking",
+"artists",
+1
+],
+[
+"Aldo Crommelynck",
+"Print workshops and master printers (Mourlot, Crommelynck, Tamarind)",
+"b. 1931, France, printmaking",
+"artists",
+1
+],
+[
+"Claire Van Vliet",
+"Print workshops and master printers (Mourlot, Crommelynck, Tamarind)",
+"b. 1933, Canada, printmaking",
+"artists",
+1
+],
+[
+"Donald Saff",
+"Print workshops and master printers (Mourlot, Crommelynck, Tamarind)",
+"b. 1937, United States, printmaking",
+"artists",
+1
+],
+[
+"André Édouard Marty",
+"French book illustration and engraving (livre d'artiste)",
+"b. 1882, France, printmaking",
+"artists",
+1
+],
+[
+"Maximilien Vox",
+"French book illustration and engraving (livre d'artiste)",
+"b. 1894, France, printmaking",
+"artists",
+1
+],
+[
+"Jean Bruller",
+"French book illustration and engraving (livre d'artiste)",
+"b. 1902, France, printmaking",
+"artists",
+1
+],
+[
+"Marc Saint-Saëns",
+"French book illustration and engraving (livre d'artiste)",
+"b. 1903, France, printmaking",
+"artists",
+1
+],
+[
+"Valentin le Campion",
+"French book illustration and engraving (livre d'artiste)",
+"b. 1903, France, printmaking",
+"artists",
+1
+],
+[
+"Cécile Reims",
+"French book illustration and engraving (livre d'artiste)",
+"b. 1927, France, printmaking",
+"artists",
+1
+],
+[
+"Jean Widmer",
+"French book illustration and engraving (livre d'artiste)",
+"b. 1929, France, printmaking",
+"artists",
+1
+],
+[
+"Yves Beaujard",
+"French book illustration and engraving (livre d'artiste)",
+"b. 1939, France, printmaking",
+"artists",
+1
+],
+[
+"Philippe Mohlitz",
+"French book illustration and engraving (livre d'artiste)",
+"b. 1941, France, printmaking",
+"artists",
+1
+],
+[
+"Jiang Feng",
+"Chinese Modern Woodcut Movement",
+"b. 1910, People's Republic of China, drawing and illustration",
+"artists",
+1
+],
+[
+"Mukul Dey",
+"Bengal and Indian printmaking",
+"b. 1895, India, printmaking",
+"artists",
+1
+],
+[
+"Chittaprosad Bhattacharya",
+"Bengal and Indian printmaking",
+"b. 1915, India, printmaking",
+"artists",
+1
+],
+[
+"Azaria Mbatha",
+"Rorke's Drift and African printmaking",
+"b. 1941, South Africa, printmaking",
+"artists",
+1
+],
+[
+"John Muafangejo",
+"Rorke's Drift and African printmaking",
+"b. 1943, Namibia, printmaking",
+"artists",
+1
+],
+[
+"Oswaldo Goeldi",
+"Latin American printmaking",
+"b. 1895, Brazil, printmaking",
+"artists",
+1
+],
+[
+"Renina Katz",
+"Latin American printmaking",
+"b. 1925, Brazil, printmaking",
+"artists",
+1
+],
+[
+"Florencia de Amesti",
+"Latin American printmaking",
+"b. 1925, Chile, printmaking",
+"artists",
+1
+],
+[
+"Julio Plaza",
+"Latin American printmaking",
+"b. 1938, Brazil, printmaking",
+"artists",
+1
+],
+[
+"Francisco Copello",
+"Latin American printmaking",
+"b. 1938, Chile, printmaking",
+"artists",
+1
+],
+[
+"Jan Marcin Szancer",
+"Central and Eastern European graphic art",
+"b. 1902, Poland, printmaking",
+"artists",
+1
+],
+[
+"Kazimierz Mann",
+"Central and Eastern European graphic art",
+"b. 1910, Poland, printmaking",
+"artists",
+1
+],
+[
+"Czesław Słania",
+"Central and Eastern European graphic art",
+"b. 1921, Sweden, printmaking",
+"artists",
+1
+],
+[
+"Ádám Würtz",
+"Central and Eastern European graphic art",
+"b. 1927, Hungary, printmaking",
+"artists",
+1
+],
+[
+"Szymon Kobyliński",
+"Central and Eastern European graphic art",
+"b. 1927, Poland, printmaking",
+"artists",
+1
+],
+[
+"Andrzej Heidrich",
+"Central and Eastern European graphic art",
+"b. 1928, Poland, printmaking",
+"artists",
+1
+],
+[
+"Alena Kučerová",
+"Central and Eastern European graphic art",
+"b. 1935, Czech lands, printmaking",
+"artists",
+1
+],
+[
+"Rie Cramer",
+"Nordic printmaking and illustration",
+"b. 1887, Netherlands, printmaking",
+"artists",
+1
+],
+[
+"Harald Damsleth",
+"Nordic printmaking and illustration",
+"b. 1906, Norway, printmaking",
+"artists",
+1
+],
+[
+"Thorbjørn Egner",
+"Nordic printmaking and illustration",
+"b. 1912, Norway, printmaking",
+"artists",
+1
+],
+[
+"Palle Nielsen",
+"Nordic printmaking and illustration",
+"b. 1920, Denmark, printmaking",
+"artists",
+1
+],
+[
+"Lars Fredrikson",
+"Nordic printmaking and illustration",
+"b. 1926, Sweden, printmaking",
+"artists",
+1
+],
+[
+"Dagny Hald",
+"Nordic printmaking and illustration",
+"b. 1936, Norway, printmaking",
+"artists",
+1
+],
+[
+"Outi Heiskanen",
+"Nordic printmaking and illustration",
+"b. 1937, Finland, printmaking",
+"artists",
+1
+],
+[
+"Luigi Servolini",
+"Italian xylography",
+"b. 1906, Italy, printmaking",
+"artists",
+1
+],
+[
+"Nedo Mion Ferrario",
+"Italian xylography",
+"b. 1926, Italy, printmaking",
+"artists",
+1
+],
+[
+"Anastasios Alevizos",
+"Postwar print artists",
+"b. 1914, Greece, printmaking",
+"artists",
+1
+],
+[
+"Birgit Skiöld",
+"Postwar print artists",
+"b. 1923, United Kingdom, drawing and illustration",
+"artists",
+1
+],
+[
+"Shirley Hughes",
+"Postwar print artists",
+"b. 1927, United Kingdom, printmaking",
+"artists",
+1
+],
+[
+"Mariam A. Aleem",
+"Postwar print artists",
+"b. 1930, Egypt, printmaking",
+"artists",
+1
+],
+[
+"Shiou-Ping Liao",
+"Postwar print artists",
+"b. 1936, Japan, printmaking",
+"artists",
+1
+],
+[
+"Barry Cleavin",
+"Postwar print artists",
+"b. 1939, New Zealand, printmaking",
+"artists",
+1
+],
+[
+"Jörg Schmeisser",
+"Postwar print artists",
+"b. 1942, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Rolf Münzner",
+"Postwar print artists",
+"b. 1942, Germany, drawing and illustration",
+"artists",
+1
+],
+[
+"Jackson Mac Low",
+"Writers, performers and designers",
+"b. 1922, United States, printmaking",
+"artists",
+1
+],
+[
+"Hannah Weiner",
+"Writers, performers and designers",
+"b. 1928, United States, printmaking",
+"artists",
 1
 ]
 ]
@@ -35903,7 +34886,449 @@
 ]
 }
 },
-"new_leaves": [],
+"new_leaves": [
+{
+"key": "NEW1",
+"sub": "B1",
+"label": "Franco-Belgian Comics",
+"breadth": "broad",
+"defn": "The album-format bande dessinée of France, Belgium and Switzerland from the 1930s on, built around the weeklies Tintin, Spirou and Pilote and later the adult magazines and independent presses: <i>Hergé's Tintin</i>, <i>Goscinny and Uderzo's Astérix</i>, <i>Tardi's Adèle Blanc-Sec</i>, <i>Blain's Isaac le pirate</i>. Ligne Claire and the Marcinelle School are its two named schools with their own leaves.",
+"aliases": "bande dessinée; BD; Franco-Belgian comics",
+"see": "B1-7; B1-8",
+"src": [
+[
+"https://en.wikipedia.org/wiki/Franco-Belgian_comics",
+"Wikipedia"
+]
+],
+"catalogues": [
+[
+"https://www.bedetheque.com/",
+"Bedetheque",
+"near-complete database of every Franco-Belgian album, series and author"
+],
+[
+"https://www.citebd.org/",
+"Cité internationale de la bande dessinée et de l'image (Angoulême)",
+"museum and collection of original BD art and albums"
+],
+[
+"https://www.comicscenter.net/",
+"Belgian Comic Strip Center (Brussels)",
+"the national museum of Belgian comics and its archive"
+]
+],
+"axis": "by magazine generation: Tintin and Spirou weeklies, Pilote, the adult magazines of the 1970s–80s, realist album series, then the nouvelle bande dessinée; within each by birth",
+"kinds": [
+[
+"Georges Pichard",
+"Journal de Tintin and Spirou generation (1946–1970s)",
+"b. 1920, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Dino Attanasio",
+"Journal de Tintin and Spirou generation (1946–1970s)",
+"b. 1925, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"Paul Gillon",
+"Journal de Tintin and Spirou generation (1946–1970s)",
+"b. 1926, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Monique Watteau",
+"Journal de Tintin and Spirou generation (1946–1970s)",
+"b. 1929, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Édouard Aidans",
+"Journal de Tintin and Spirou generation (1946–1970s)",
+"b. 1930, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"René Follet",
+"Journal de Tintin and Spirou generation (1946–1970s)",
+"b. 1931, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"Renaud",
+"Journal de Tintin and Spirou generation (1946–1970s)",
+"b. 1936, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"René Hausman",
+"Journal de Tintin and Spirou generation (1946–1970s)",
+"b. 1936, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"Hermann Huppen",
+"Journal de Tintin and Spirou generation (1946–1970s)",
+"b. 1938, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"Derib",
+"Journal de Tintin and Spirou generation (1946–1970s)",
+"b. 1944, Switzerland, drawing and illustration",
+"artists",
+1
+],
+[
+"René Goscinny",
+"Pilote generation (1959–1970s)",
+"b. 1926, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Robert Lassalvy",
+"Pilote generation (1959–1970s)",
+"b. 1932, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Gotlib",
+"Pilote generation (1959–1970s)",
+"b. 1934, France, drawing and illustration",
+"artists",
+1
+],
+[
+"André Chéret",
+"Pilote generation (1959–1970s)",
+"b. 1937, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Jean-Claude Mézières",
+"Pilote generation (1959–1970s)",
+"b. 1938, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Florence Cestac",
+"Pilote generation (1959–1970s)",
+"b. 1949, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Alex Varenne",
+"Adult bande dessinée of the 1970s–80s (Métal hurlant, Fluide glacial, À suivre)",
+"b. 1939, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Caza",
+"Adult bande dessinée of the 1970s–80s (Métal hurlant, Fluide glacial, À suivre)",
+"b. 1941, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Daniel Hulet",
+"Adult bande dessinée of the 1970s–80s (Métal hurlant, Fluide glacial, À suivre)",
+"b. 1945, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"Jacques Tardi",
+"Adult bande dessinée of the 1970s–80s (Métal hurlant, Fluide glacial, À suivre)",
+"b. 1946, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Hervé Barulea",
+"Adult bande dessinée of the 1970s–80s (Métal hurlant, Fluide glacial, À suivre)",
+"b. 1947, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Philippe Liégeois",
+"Adult bande dessinée of the 1970s–80s (Métal hurlant, Fluide glacial, À suivre)",
+"b. 1947, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"Jean-Claude Denis",
+"Adult bande dessinée of the 1970s–80s (Métal hurlant, Fluide glacial, À suivre)",
+"b. 1951, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Serge Ernst",
+"Adult bande dessinée of the 1970s–80s (Métal hurlant, Fluide glacial, À suivre)",
+"b. 1954, France, drawing and illustration",
+"artists",
+1
+],
+[
+"François Boucq",
+"Adult bande dessinée of the 1970s–80s (Métal hurlant, Fluide glacial, À suivre)",
+"b. 1955, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Coyote",
+"Adult bande dessinée of the 1970s–80s (Métal hurlant, Fluide glacial, À suivre)",
+"b. 1962, France, drawing and illustration",
+"artists",
+1
+],
+[
+"André Juillard",
+"Realist album series (1980s–2000s)",
+"b. 1948, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Christian Rossi",
+"Realist album series (1980s–2000s)",
+"b. 1954, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Jean-Pierre Gibrat",
+"Realist album series (1980s–2000s)",
+"b. 1954, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Alain Dodier",
+"Realist album series (1980s–2000s)",
+"b. 1955, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Patrice Pellerin",
+"Realist album series (1980s–2000s)",
+"b. 1955, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Philippe Berthet",
+"Realist album series (1980s–2000s)",
+"b. 1956, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Bernard Hislaire",
+"Realist album series (1980s–2000s)",
+"b. 1957, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"Jean-Yves Ferri",
+"Realist album series (1980s–2000s)",
+"b. 1959, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Philippe Francq",
+"Realist album series (1980s–2000s)",
+"b. 1961, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"Jean-Louis Mourier",
+"Realist album series (1980s–2000s)",
+"b. 1962, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Zep",
+"Realist album series (1980s–2000s)",
+"b. 1967, Switzerland, drawing and illustration",
+"artists",
+1
+],
+[
+"Isabelle Dethan",
+"Realist album series (1980s–2000s)",
+"b. 1967, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Tiburce Oger",
+"Realist album series (1980s–2000s)",
+"b. 1967, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Mazan",
+"Realist album series (1980s–2000s)",
+"b. 1968, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Jean-David Morvan",
+"Realist album series (1980s–2000s)",
+"b. 1969, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Ralph Meyer",
+"Realist album series (1980s–2000s)",
+"b. 1971, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Béatrice Tillier",
+"Realist album series (1980s–2000s)",
+"b. 1972, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Fabien Vehlmann",
+"Realist album series (1980s–2000s)",
+"b. 1972, France, drawing and illustration",
+"artists",
+1
+],
+[
+"David Beauchard",
+"Nouvelle bande dessinée (L'Association and after)",
+"b. 1959, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Émile Bravo",
+"Nouvelle bande dessinée (L'Association and after)",
+"b. 1964, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Nicolas de Crécy",
+"Nouvelle bande dessinée (L'Association and after)",
+"b. 1966, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Dominique Goblet",
+"Nouvelle bande dessinée (L'Association and after)",
+"b. 1967, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"Blutch",
+"Nouvelle bande dessinée (L'Association and after)",
+"b. 1967, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Emmanuel Larcenet",
+"Nouvelle bande dessinée (L'Association and after)",
+"b. 1969, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Christophe Blain",
+"Nouvelle bande dessinée (L'Association and after)",
+"b. 1970, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Judith Vanistendael",
+"Nouvelle bande dessinée (L'Association and after)",
+"b. 1974, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"Riad Sattouf",
+"Nouvelle bande dessinée (L'Association and after)",
+"b. 1978, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Catherine Meurisse",
+"Nouvelle bande dessinée (L'Association and after)",
+"b. 1980, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Pénélope Bagieu",
+"Nouvelle bande dessinée (L'Association and after)",
+"b. 1982, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Jul' Maroh",
+"Nouvelle bande dessinée (L'Association and after)",
+"b. 1985, France, drawing and illustration",
+"artists",
+1
+],
+[
+"Brecht Evens",
+"Nouvelle bande dessinée (L'Association and after)",
+"b. 1986, Belgium, drawing and illustration",
+"artists",
+1
+],
+[
+"Émilie Gleason",
+"Nouvelle bande dessinée (L'Association and after)",
+"b. 1992, France, drawing and illustration",
+"artists",
+1
+]
+]
+}
+],
 "moves_out": [
 [
 "Michael Hopkins",
@@ -36444,6 +35869,706 @@
 "Robert Adam",
 "K6-26",
 "K6-20"
+],
+[
+"Carmine Infantino",
+"B1-5",
+"B1-3"
+],
+[
+"Guadalupe Maravilla",
+"B1-5",
+"A5-111"
+],
+[
+"Katalin Ladik",
+"B1-5",
+"M1-8"
+],
+[
+"Yuki Kodama",
+"B1-5",
+"B1-9"
+],
+[
+"Sam Cox",
+"B1-5",
+"A5-111"
+],
+[
+"Dave Sim",
+"B1-5",
+"B1-3"
+],
+[
+"Dick Sprang",
+"B1-5",
+"B1-3"
+],
+[
+"Dik Browne",
+"B1-5",
+"B1-3"
+],
+[
+"Anna Park",
+"B1-5",
+"A5-111"
+],
+[
+"Don Martin",
+"B1-5",
+"B1-3"
+],
+[
+"Eric Stanton",
+"B1-5",
+"B1-3"
+],
+[
+"Antun Motika",
+"B1-5",
+"A5-110"
+],
+[
+"Petra Štefanková",
+"B1-5",
+"A5-111"
+],
+[
+"Jacky Tsai",
+"B1-5",
+"A5-111"
+],
+[
+"Jerry Robinson",
+"B1-5",
+"B1-3"
+],
+[
+"Gilbert Shelton",
+"B1-5",
+"B1-3"
+],
+[
+"",
+"B1-5",
+"A5-111"
+],
+[
+"Alex Toth",
+"B1-5",
+"B1-3"
+],
+[
+"Marc Brandenburg",
+"B1-5",
+"A5-111"
+],
+[
+"Mary Bauermeister",
+"B1-5",
+"M1-3"
+],
+[
+"Heide Fasnacht",
+"B1-5",
+"A5-111"
+],
+[
+"Thomas Kilpper",
+"B1-5",
+"A5-111"
+],
+[
+"Herbert Leupin",
+"B1-5",
+"B2-9"
+],
+[
+"Amy Cutler",
+"B1-5",
+"A5-111"
+],
+[
+"Michael Riedel",
+"B1-5",
+"A5-111"
+],
+[
+"Mark Dion",
+"B1-5",
+"A5-111"
+],
+[
+"Gilda Mantilla",
+"B1-5",
+"A5-111"
+],
+[
+"Claire Barclay",
+"B1-5",
+"A5-111"
+],
+[
+"Araya Rasdjarmrearnsook",
+"B1-5",
+"A5-111"
+],
+[
+"Sam Lewitt",
+"B1-5",
+"A5-111"
+],
+[
+"Elena del Rivero",
+"B1-5",
+"A5-111"
+],
+[
+"Susan Te Kahurangi King",
+"B1-5",
+"A5-80"
+],
+[
+"Jacolby Satterwhite",
+"B1-5",
+"A5-111"
+],
+[
+"Larry Lieber",
+"B1-5",
+"B1-3"
+],
+[
+"Ala Younis",
+"B1-5",
+"A5-111"
+],
+[
+"George Tuska",
+"B1-5",
+"B1-3"
+],
+[
+"Rinus Van de Velde",
+"B1-5",
+"A5-111"
+],
+[
+"Richard Haas",
+"B1-5",
+"A5-111"
+],
+[
+"Russ Heath",
+"B1-5",
+"B1-3"
+],
+[
+"Eve Aschheim",
+"B1-5",
+"A5-111"
+],
+[
+"Sam Middleton",
+"B1-5",
+"A5-111"
+],
+[
+"Stan Drake",
+"B1-5",
+"B1-3"
+],
+[
+"Tam Van Tran",
+"B1-5",
+"A5-111"
+],
+[
+"Nahid Hagigat",
+"B1-5",
+"A5-111"
+],
+[
+"Terry Jennings",
+"B1-5",
+"M1-3"
+],
+[
+"Don Rosa",
+"B1-5",
+"B1-3"
+],
+[
+"Thomas Locher",
+"B1-5",
+"A5-111"
+],
+[
+"Trisha Donnelly",
+"B1-5",
+"A5-111"
+],
+[
+"Gray Morrow",
+"B1-5",
+"B1-3"
+],
+[
+"Ernesto Caivano",
+"B1-5",
+"A5-111"
+],
+[
+"Adam Dant",
+"B1-5",
+"A5-111"
+],
+[
+"Sadie Barnette",
+"B1-5",
+"A5-111"
+],
+[
+"Adolfo Nadal Walcot",
+"B1-5",
+"A5-111"
+],
+[
+"Bédu",
+"B1-5",
+"B1-8"
+],
+[
+"Dick Ayers",
+"B1-5",
+"B1-3"
+],
+[
+"Eva Koťátková",
+"B1-5",
+"A5-111"
+],
+[
+"Fabrice Tarrin",
+"B1-5",
+"B1-8"
+],
+[
+"Fernando Bryce",
+"B1-5",
+"A5-111"
+],
+[
+"Johnny Craig",
+"B1-5",
+"B1-3"
+],
+[
+"Marc Wasterlain",
+"B1-5",
+"B1-8"
+],
+[
+"Martin Kersels",
+"B1-5",
+"A5-111"
+],
+[
+"Boris Grinsson",
+"B1-5",
+"B2-9"
+],
+[
+"Murphy Anderson",
+"B1-5",
+"B1-3"
+],
+[
+"Alfredo Alcala",
+"B1-5",
+"B1-3"
+],
+[
+"Grazia Varisco",
+"B1-5",
+"D5-120"
+],
+[
+"Elspeth Lamb",
+"B1-5",
+"A5-111"
+],
+[
+"Jim Isermann",
+"B1-5",
+"A5-111"
+],
+[
+"Julia Mangold",
+"B1-5",
+"A5-111"
+],
+[
+"Gerardo Pita",
+"B1-5",
+"A5-111"
+],
+[
+"Paul Noble",
+"B1-5",
+"A5-111"
+],
+[
+"Mamiya Oki",
+"B1-5",
+"B1-9"
+],
+[
+"Kagiso Patrick Mautloa",
+"B1-5",
+"A5-111"
+],
+[
+"Frank Springer",
+"B1-5",
+"B1-3"
+],
+[
+"Melinda Gebbie",
+"B1-5",
+"B1-3"
+],
+[
+"Angelo Torres",
+"B1-5",
+"B1-3"
+],
+[
+"Anne Chu",
+"B1-5",
+"A5-111"
+],
+[
+"Anya Gallaccio",
+"B1-5",
+"A5-111"
+],
+[
+"Banks Violette",
+"B1-5",
+"A5-111"
+],
+[
+"Fred Martin",
+"B1-5",
+"A5-111"
+],
+[
+"Bruce Jensen",
+"B1-5",
+"A5-111"
+],
+[
+"Mitacq",
+"B1-5",
+"B1-8"
+],
+[
+"Deanna Petherbridge",
+"B1-5",
+"A5-111"
+],
+[
+"Donald Evans",
+"B1-5",
+"A5-111"
+],
+[
+"Edgar Arceneaux",
+"B1-5",
+"A5-111"
+],
+[
+"Victor Hugo",
+"B1-5",
+"A5-111"
+],
+[
+"Ester Partegàs",
+"B1-5",
+"A5-111"
+],
+[
+"John Severin",
+"B1-5",
+"B1-3"
+],
+[
+"Felix Partz",
+"B1-5",
+"M1-2"
+],
+[
+"Ann Craven",
+"B1-5",
+"A5-111"
+],
+[
+"Ciprian Mureşan",
+"B1-5",
+"A5-111"
+],
+[
+"Emre Hüner",
+"B1-5",
+"A5-111"
+],
+[
+"Floyd Gottfredson",
+"B1-5",
+"B1-3"
+],
+[
+"Aya Ben Ron",
+"B1-5",
+"A5-111"
+],
+[
+"Gabi Klasmer",
+"B1-5",
+"A5-111"
+],
+[
+"George Woodbridge",
+"B1-5",
+"B1-3"
+],
+[
+"Joëlle Tuerlinckx",
+"B1-5",
+"A5-111"
+],
+[
+"Nidhal Chamekh",
+"B1-5",
+"A5-111"
+],
+[
+"Annie Pootoogook",
+"B1-5",
+"B2-6"
+],
+[
+"Bettina von Arnim",
+"B1-5",
+"A5-111"
+],
+[
+"Ernesto Deira",
+"B1-5",
+"A5-110"
+],
+[
+"Pedro de Oraá",
+"B1-5",
+"A5-110"
+],
+[
+"Noel Sickles",
+"B1-5",
+"B1-3"
+],
+[
+"Jack Roth",
+"B1-5",
+"A5-111"
+],
+[
+"Gauri Bhanja",
+"B1-5",
+"A5-109"
+],
+[
+"John van Hamersveld",
+"B1-5",
+"B2-9"
+],
+[
+"Ding Yi",
+"B1-5",
+"A5-111"
+],
+[
+"Karen Finley",
+"B1-5",
+"M1-8"
+],
+[
+"Kembra Pfahler",
+"B1-5",
+"M1-8"
+],
+[
+"Krishen Khanna",
+"B1-5",
+"A5-110"
+],
+[
+"José Damasceno",
+"B1-5",
+"A5-111"
+],
+[
+"Olivia Plender",
+"B1-5",
+"A5-111"
+],
+[
+"Pablo Marcos",
+"B1-5",
+"B1-3"
+],
+[
+"Sal Buscema",
+"B1-5",
+"B1-3"
+],
+[
+"Mike Sekowsky",
+"B1-5",
+"B1-3"
+],
+[
+"Joe Simon",
+"B1-5",
+"B1-3"
+],
+[
+"Rory Pilgrim",
+"B1-5",
+"A5-111"
+],
+[
+"C. C. Beck",
+"B1-5",
+"B1-3"
+],
+[
+"Robert Whitman",
+"B1-5",
+"M1-8"
+],
+[
+"Russell Crotty",
+"B1-5",
+"A5-111"
+],
+[
+"Sophie Podolski",
+"B1-5",
+"A5-111"
+],
+[
+"Gloria Ortiz-Hernández",
+"B1-5",
+"A5-111"
+],
+[
+"Toyin Ojih Odutola",
+"B1-5",
+"A5-111"
+],
+[
+"Yukine Honami",
+"B1-5",
+"B1-9"
+],
+[
+"Ida Bagus Pegug",
+"B1-5",
+"A5-2"
+],
+[
+"Bjorn Dahlem",
+"B1-5",
+"A5-111"
+],
+[
+"Nagano",
+"B1-5",
+"B1-9"
+],
+[
+"Dave Cockrum",
+"B1-5",
+"B1-3"
+],
+[
+"Ken Bald",
+"B1-5",
+"B1-3"
+],
+[
+"Marcel Odenbach",
+"B1-5",
+"A5-111"
+],
+[
+"",
+"B1-6",
+"A5-111"
+],
+[
+"Emma Hauck",
+"B1-6",
+"A5-80"
+],
+[
+"Vera Frenkel",
+"B2-15",
+"A5-111"
+],
+[
+"Ed Bereal",
+"B2-15",
+"A5-111"
+],
+[
+"Mary Lee Bendolph",
+"B2-15",
+"H4-93"
+],
+[
+"Terry Riley",
+"B2-15",
+"M1-3"
+],
+[
+"Pitseolak Ashoona",
+"B2-15",
+"B2-6"
+],
+[
+"Noel Sheridan",
+"B2-15",
+"A5-111"
+],
+[
+"Jessie Oonark",
+"B2-15",
+"B2-6"
+],
+[
+"Peter Opsvik",
+"B2-15",
+"I3-19"
+],
+[
+"Betty Dodson",
+"B2-15",
+"A5-111"
 ]
 ],
 "dropped": [
@@ -36516,6 +36641,16 @@
 "C2-29",
 "Gothic (style recorded)",
 "the leaf's own style label restated (evidence row), not a kind"
+],
+[
+"B1-5",
+"(nameless row)",
+"empty name in the input; routed through moves_out only to satisfy the maker check, please discard"
+],
+[
+"B1-6",
+"(nameless row)",
+"empty name in the input; routed through moves_out only to satisfy the maker check, please discard"
 ]
 ]
 }

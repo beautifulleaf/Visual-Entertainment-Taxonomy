@@ -11,3 +11,6 @@ To do at assembly:
 - Coverage step (owner: "make sure all existing subgenres are represented"): waits for the TSPDT harvest (taxonomy/r3/tspdt/), then 3 passes (film / television / animation) per taxonomy/r3/BRIEF_COVERAGE.md, using taxonomy/r3/imdb_interests.tsv (IMDb's 243 genre interests), AllMovie genre pages, Wikipedia genre lists and TSPDT lists.
 - Done VA: bucket_contemporary (5 new leaves, 234 moved), bucket_modsculpture_photo (4 new photography leaves, 307 moved).
 - Follow-up after design + small_H: move fashion designers left in country groups (Westwood, McQueen, Yamamoto, Lagerfeld ...) to the couture/fashion leaves; Scandinavian designers (Wirkkala, Sarpaneva) to N Design leaves.
+- Done VA: bucket_modern_world (10 new leaves, 405 moved).
+- Merge fixes at assembly: duplicate artists "M'hamed Issiakhem" = "Mohammed Issiakhem (1928-1985)"; "Kamala Ibrahim Ishag" = "Kamala Ibrahim Ishaq" (Crystalist); new leaves with the same label across passes merge by label (Gutai, Feminist art); check Margaret Mellis and Joseph Uhl (Western European, left in a "Europe" group).
+- Verify all `catalogues` URLs (passes picked many from memory).

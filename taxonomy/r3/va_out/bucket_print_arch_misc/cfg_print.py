@@ -68,14 +68,14 @@ B15_CONTEMP = ['Rinus Van de Velde', 'Joëlle Tuerlinckx', 'Sophie Podolski', 'J
     'Olivia Plender', 'Rory Pilgrim', 'Sam Cox', 'Claire Barclay', 'Elspeth Lamb', 'Deanna Petherbridge', 'Marcel Odenbach', 'Thomas Kilpper', 'Thomas Locher', 'Marc Brandenburg', 'Julia Mangold', 'Michael Riedel',
     'Bjorn Dahlem', 'Bettina von Arnim', 'Richard Haas', 'Donald Evans', 'Heide Fasnacht', 'Jim Isermann', 'Russell Crotty', 'Eve Aschheim', 'Anne Chu', 'Martin Kersels', 'Mark Dion', 'Bruce Jensen', 'Tam Van Tran',
     'Ann Craven', 'Edgar Arceneaux', 'Banks Violette', 'Amy Cutler', 'Trisha Donnelly', 'Sam Lewitt', 'Sadie Barnette', 'Jacolby Satterwhite', 'Guadalupe Maravilla', 'Ernesto Caivano', 'Ester Partegàs',
-    'Elena del Rivero', 'Victor Hugo', 'Fred Martin', 'Sam Middleton', 'Jack Roth', 'Gabi Klasmer', 'Aya Ben Ron', 'Nahid Hagigat', 'Anna Park', 'Gerardo Pita', 'Doaa el-Adl_']
+    'Elena del Rivero', 'Victor Hugo', 'Fred Martin', 'Sam Middleton', 'Jack Roth', 'Gabi Klasmer', 'Aya Ben Ron', 'Nahid Hagigat', 'Anna Park', 'Gerardo Pita']
 for n in B15_CONTEMP:
     B15_MOVES[n] = 'A5-111'
 B15_TO_B215 = ['Jiang Feng', 'Birgit Skiöld', 'Jörg Schmeisser', 'Rolf Münzner', 'Heinz Kiwitz', 'Clément Moreau']
 
 # Franco-Belgian comics: new leaf
 FB_GROUPS = [
-    ('Journal de Tintin and Spirou generation (1946–1970s)', ['Dino Attanasio', 'Paul Cuvelier_', 'Liliane Funcken_', 'Édouard Aidans', 'René Follet', 'Paul Gillon', 'Georges Pichard', 'Monique Watteau', 'Derib', 'Hermann Huppen', 'René Hausman', 'Renaud']),
+    ('Journal de Tintin and Spirou generation (1946–1970s)', ['Dino Attanasio', 'Édouard Aidans', 'René Follet', 'Paul Gillon', 'Georges Pichard', 'Monique Watteau', 'Derib', 'Hermann Huppen', 'René Hausman', 'Renaud']),
     ('Pilote generation (1959–1970s)', ['René Goscinny', 'Gotlib', 'Jean-Claude Mézières', 'André Chéret', 'Robert Lassalvy', 'Florence Cestac']),
     ('Adult bande dessinée of the 1970s–80s (Métal hurlant, Fluide glacial, À suivre)', ['Caza', 'Alex Varenne', 'Jacques Tardi', 'Hervé Barulea', 'Daniel Hulet', 'Philippe Liégeois', 'Jean-Claude Denis', 'François Boucq', 'Serge Ernst', 'Coyote']),
     ('Realist album series (1980s–2000s)', ['André Juillard', 'Christian Rossi', 'Jean-Pierre Gibrat', 'Alain Dodier', 'Patrice Pellerin', 'Philippe Berthet', 'Bernard Hislaire', 'Philippe Francq', 'Jean-Louis Mourier',
@@ -98,9 +98,9 @@ B16_GROUPS = [
     ('American children\'s books and the Oz illustrators', ['William Wallace Denslow', 'John R. Neill', 'Gelett Burgess', 'Fanny Cory', 'Grace Drayton', 'Harrison Cady', 'Tony Sarg', 'Dorothy P. Lathrop', 'Robert Lawson',
         'Helen Sewell', 'Kate Seredy', 'Kurt Wiese']),
     ('American political cartoonists (Puck, Judge, The Masses)', ['Frederick Burr Opper', 'T. S. Sullivant', 'E. W. Kemble', 'Louis Dalrymple', 'Homer Davenport', 'Udo Keppler', 'Art Young', 'Robert Minor',
-        'William Charles McNulty', 'Lydia Gibson', 'Henry Mayer', 'Edwin... _']),
-    ('Early American comic strips', ['George Timothy Tobin', 'Tad Dorgan', 'Gene Carr', 'Stan Cross']),
-    ('Jazz Age magazine artists (Vanity Fair, The New Yorker, Life)', ['Otho Cushing', 'Alfred Frueh', 'Rea Irvin', 'John Held, Jr.', 'Gluyas Williams', 'Ralph Barton', 'James Thurber', 'Garrett Price', 'Mary Petty', 'Robert Edmond Jones']),
+        'William Charles McNulty', 'Lydia Gibson', 'Henry Mayer']),
+    ('Early American comic strips', ['George Timothy Tobin', 'Tad Dorgan', 'Gene Carr']),
+    ('Jazz Age magazine artists (Vanity Fair, The New Yorker, Life)', ['Otho Cushing', 'Alfred Frueh', 'Rea Irvin', 'John Held, Jr.', 'Gluyas Williams', 'Ralph Barton', 'James Thurber', 'Garrett Price', 'Mary Petty']),
     ('French illustration and press drawing (Le Rire, L\'Assiette au beurre)', ['Arthur Sapeck', 'Jean Baptiste Guth', 'Caran d\'Ache', 'Benjamin Rabier', 'Maurice Radiguet', 'André Rouveyre', 'Chéri Hérouard', 'Gus Bofa',
         'Henri-Paul Deyveaux-Gassier', 'André Warnot', 'André Galland', 'Jacques Touchet', 'Jean Sennep', 'Georges Méliès']),
     ('French children\'s books and early bande dessinée', ['Louis Forton', 'Étienne Le Rallic', 'Alain Saint-Ogan', 'Jean de Brunhoff']),
@@ -108,10 +108,10 @@ B16_GROUPS = [
     ('Italian illustration (Corriere dei Piccoli)', ['Luigi Bertelli', 'Rata Langa', 'Giuseppe Scalarini', 'Gennaro Favai', 'Antonio Rubino']),
     ('Scandinavian illustration', ['Cornelia Cederberg', 'Oskar Andersson', 'Ragnvald Blix', 'Signe Hammarsten-Jansson', 'Vera Nilsson', 'Johan Bull', 'Rudolf Petersson', 'Hans Norsbo', 'Karl August Hindrey']),
     ('Russian illustration and Futurist books', ['Aleksey Remizov', 'Клемм Катерина Пилипівна', 'Velimir Khlebnikov', 'Aleksei Kruchenykh', 'Nikolay Radlov']),
-    ('Australian illustration', ['May Gibbs', 'Dorothy Wall']),
+    ('Australian illustration', ['May Gibbs', 'Dorothy Wall', 'Stan Cross']),
     ('Spanish, Portuguese and Latin American illustration', ['Juan Picasso González', 'Joaquín Xaudaró', 'Manuel Tovar Siles', 'Henrique Alvim Corrêa', 'Stuart Carvalhais', 'Conrado Walter Massaguer', 'Ricardo Rendón', 'Emilio Freixas']),
-    ('Writers, scholars and amateurs who drew', ['Max Elskamp', 'Paul Scheerbart', 'Jac P. Thijsse', 'Max Jakob Friedländer', 'Ernest Louis, Grand Duke of Hesse and by Rhine', 'Princess Henriette of Belgium', 'Heinrich Mann',
-        'Miklós Bánffy', 'Cor van Gogh', 'Jan Feith', 'Eusebi Güell i López', 'Georges Bataille', 'Maria Pawlikowska-Jasnorzewska', 'Emma Hauck', 'Christoph Bernoulli', 'Hans Stocker', 'Henryk Minkiewicz', 'Karel Fleischmann']),
+    ('Writers, designers and amateurs who drew', ['Max Elskamp', 'Paul Scheerbart', 'Jac P. Thijsse', 'Max Jakob Friedländer', 'Ernest Louis, Grand Duke of Hesse and by Rhine', 'Princess Henriette of Belgium', 'Heinrich Mann',
+        'Miklós Bánffy', 'Cor van Gogh', 'Jan Feith', 'Eusebi Güell i López', 'Georges Bataille', 'Maria Pawlikowska-Jasnorzewska', 'Emma Hauck', 'Christoph Bernoulli', 'Hans Stocker', 'Henryk Minkiewicz', 'Karel Fleischmann', 'Robert Edmond Jones']),
 ]
 B16_MOVES = {'Emma Hauck': 'A5-80'}
 B16_ADD = [
@@ -185,7 +185,7 @@ B215_GROUPS = [
     ('Postwar print artists', ['Birgit Skiöld', 'Jörg Schmeisser', 'Rolf Münzner', 'Shiou-Ping Liao', 'Barry Cleavin', 'Mariam A. Aleem', 'Anastasios Alevizos', 'Noel Sheridan', 'Vera Frenkel', 'Shirley Hughes']),
     ('Writers, performers and designers', ['Jackson Mac Low', 'Hannah Weiner', 'Betty Dodson', 'Terry Riley', 'Ed Bereal', 'Peter Opsvik', 'Mary Lee Bendolph']),
 ]
-B215_MOVES = {'Pitseolak Ashoona': 'B2-6', 'Jessie Oonark': 'B2-6', 'Mary Lee Bendolph': 'H?', 'Peter Opsvik': 'I3-19', 'Terry Riley': 'M1-3', 'Betty Dodson': 'A5-111', 'Ed Bereal': 'A5-111', 'Vera Frenkel': 'A5-111', 'Noel Sheridan': 'A5-111'}
+B215_MOVES = {'Pitseolak Ashoona': 'B2-6', 'Jessie Oonark': 'B2-6', 'Mary Lee Bendolph': 'H4-93', 'Peter Opsvik': 'I3-19', 'Terry Riley': 'M1-3', 'Betty Dodson': 'A5-111', 'Ed Bereal': 'A5-111', 'Vera Frenkel': 'A5-111', 'Noel Sheridan': 'A5-111'}
 B215_ADD = [
     ('Käthe Kollwitz', 'German printmaker of the War and Peasants\' War cycles, 1867–1945', 'Käthe Kollwitz'),
     ('Ernst Ludwig Kirchner', 'German Expressionist (Die Brücke) woodcut artist, 1880–1938', 'Ernst Ludwig Kirchner'),
@@ -199,3 +199,74 @@ B215_ADD = [
     ('Leopoldo Méndez', 'Mexican printmaker of the Taller de Gráfica Popular, 1902–1969', 'Leopoldo Méndez'),
     ('June Wayne', 'American lithographer, founder of the Tamarind Lithography Workshop, 1918–2011', 'June Wayne'),
 ]
+
+
+def leaf_without(code, names):
+    l = dict(LEAVES[code]); l['rows'] = [r for r in LEAVES[code]['rows'] if r[0] not in names]; return l
+
+def rows_named(code, names):
+    l = dict(LEAVES[code]); l['rows'] = [r for r in LEAVES[code]['rows'] if r[0] in names]; return l
+
+def build(out):
+    fbnames = set(n for _, ns in FB_GROUPS for n in ns)
+    # B1-5
+    l = leaf_without('B1-5', fbnames | set(B15_TO_B215))
+    kinds = assign(l, B15_GROUPS, B15_MOVES)
+    out['leaves']['B1-5'] = dict(
+        axis='by sub-type of illustration (caricature, magazine, scientific, topographical, children\'s books, cartoons, fantasy, graphic design), then national comics traditions not covered by their own leaves; within each group by birth; comics artists of the Franco-Belgian, American, Marcinelle and manga traditions, poster artists and gallery artists moved to their own leaves',
+        catalogues=[['https://www.loc.gov/pictures/collection/cai/', 'Library of Congress: Cabinet of American Illustration', 'original drawings by American illustrators, c. 1880–1940'],
+                    ['https://www.cartoons.ac.uk/', 'British Cartoon Archive (University of Kent)', 'over 200,000 British cartoons and caricatures, searchable by artist'],
+                    ['https://www.britishmuseum.org/collection/search?keyword=caricature', 'British Museum collection: caricature', 'the BM\'s satirical prints and drawings (Gillray, Rowlandson, Cruikshank)'],
+                    ['https://www.illustrationhistory.org/', 'Norman Rockwell Museum: Illustration History', 'biographies and works of illustrators across periods and genres']],
+        kinds=kinds)
+    # Franco-Belgian comics new leaf
+    fl = rows_named('B1-5', fbnames)
+    fk = assign(fl, FB_GROUPS, {}, glosses={})
+    out['new_leaves'].append(dict(key='NEW1', sub='B1', label='Franco-Belgian Comics', breadth='broad',
+        defn='The album-format bande dessinée of France, Belgium and Switzerland from the 1930s on, built around the weeklies Tintin, Spirou and Pilote and later the adult magazines and independent presses: <i>Hergé\'s Tintin</i>, <i>Goscinny and Uderzo\'s Astérix</i>, <i>Tardi\'s Adèle Blanc-Sec</i>, <i>Blain\'s Isaac le pirate</i>. Ligne Claire and the Marcinelle School are its two named schools with their own leaves.',
+        aliases='bande dessinée; BD; Franco-Belgian comics', see='B1-7; B1-8',
+        src=[[wp('Franco-Belgian comics'), 'Wikipedia']],
+        catalogues=[['https://www.bedetheque.com/', 'Bedetheque', 'near-complete database of every Franco-Belgian album, series and author'],
+                    ['https://www.citebd.org/', 'Cité internationale de la bande dessinée et de l\'image (Angoulême)', 'museum and collection of original BD art and albums'],
+                    ['https://www.comicscenter.net/', 'Belgian Comic Strip Center (Brussels)', 'the national museum of Belgian comics and its archive']],
+        axis='by magazine generation: Tintin and Spirou weeklies, Pilote, the adult magazines of the 1970s–80s, realist album series, then the nouvelle bande dessinée; within each by birth',
+        kinds=fk))
+    # B1-6
+    k = assign(LEAVES['B1-6'], B16_GROUPS, B16_MOVES)
+    add(k, 'Canonical Golden Age illustrators', [(n, g, wp(u)) for n, g, u in B16_ADD], 1)
+    can = [x for x in k if x[1] == 'Canonical Golden Age illustrators']
+    k = can + [x for x in k if x[1] != 'Canonical Golden Age illustrators']
+    out['leaves']['B1-6'] = dict(
+        axis='canonical masters first, then by national school and venue (British book illustration, Punch, American Brandywine-era magazines, political cartoon weeklies, early comic strips, French and German satirical press, Scandinavian, Russian); within each by birth',
+        catalogues=[['https://www.loc.gov/pictures/collection/cai/', 'Library of Congress: Cabinet of American Illustration', 'original drawings by American Golden Age illustrators'],
+                    ['https://www.delart.org/collections/', 'Delaware Art Museum collection', 'the largest holding of Howard Pyle and Brandywine School illustration'],
+                    ['https://collections.vam.ac.uk/search/?q=illustration', 'V&A collections: illustration', 'British book illustration drawings and prints'],
+                    ['https://www.illustrationhistory.org/', 'Norman Rockwell Museum: Illustration History', 'illustrators of the Golden Age with their works']],
+        kinds=k)
+    # B2-14
+    k = assign(LEAVES['B2-14'], B214_GROUPS, B214_MOVES)
+    add(k, 'Painter-etchers of the revival', [(n, g, wp(u)) for n, g, u in B214_ADD], 1)
+    can = [x for x in k if x[1] == 'Painter-etchers of the revival']
+    k = can + [x for x in k if x[1] != 'Painter-etchers of the revival']
+    out['leaves']['B2-14'] = dict(
+        axis='the revival\'s painter-etchers first, then the trade around them (printers and publishers, critics and cataloguers), then the reproductive engravers, wood engravers and lithographers of the same decades whom the gathered data placed here; within each by birth',
+        defn='The re-emergence of etching as an original art c. 1850–1930 in France, Britain and the United States, launched by Cadart\'s Société des Aquafortistes (1862) and Haden\'s Royal Society of Painter-Etchers (1880): <i>Whistler\'s Thames Set</i>, <i>Méryon\'s Eaux-fortes sur Paris</i>, <i>Seymour Haden\'s landscapes</i>.',
+        catalogues=[['https://www.britishmuseum.org/collection/search?keyword=etching%20revival', 'British Museum collection: etching revival', 'the BM\'s holdings of revival etchings'],
+                    ['https://www.metmuseum.org/art/collection/search?q=etching%20revival', 'The Met collection: etching revival', 'Met prints of the revival (Whistler, Haden, Méryon)'],
+                    ['https://www.whistleretchings.org/', 'Whistler Etchings Project (Glasgow)', 'catalogue raisonné of all of Whistler\'s etchings'],
+                    ['https://re-society.org/', 'Royal Society of Painter-Printmakers', 'the society Haden founded in 1880 and its history']],
+        kinds=k)
+    # B2-15
+    extra = [r for r in LEAVES['B1-5']['rows'] if r[0] in B15_TO_B215]
+    l = dict(LEAVES['B2-15']); l['rows'] = LEAVES['B2-15']['rows'] + extra
+    k = assign(l, B215_GROUPS, B215_MOVES)
+    add(k, 'Canonical modern printmakers', [(n, g, wp(u)) for n, g, u in B215_ADD], 1)
+    can = [x for x in k if x[1] == 'Canonical modern printmakers']
+    k = can + [x for x in k if x[1] != 'Canonical modern printmakers']
+    out['leaves']['B2-15'] = dict(
+        axis='canonical masters first, then by movement and technique (Expressionist and social woodcut, British wood-engraving revival, Grosvenor School linocut, American printmakers, master printers and workshops, livre d\'artiste), then regional movements; within each by birth',
+        catalogues=[['https://www.moma.org/collection/?q=print', 'MoMA collection', 'MoMA\'s department of drawings and prints, searchable by artist and technique'],
+                    ['https://www.britishmuseum.org/collection/search?keyword=woodcut&dateFrom=1900', 'British Museum collection: 20th-century woodcuts', 'modern prints in the BM'],
+                    ['https://www.tamarind.unm.edu/', 'Tamarind Institute', 'the lithography workshop and its archive of editions'],
+                    ['https://www.nga.gov/collection-search-result.html?artobj_classification=print', 'National Gallery of Art: prints', 'the NGA\'s print collection, searchable by artist']],
+        kinds=k)

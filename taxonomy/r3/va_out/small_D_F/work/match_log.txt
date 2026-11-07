@@ -63,3 +63,10 @@ D4-29 0 {} |
 D5-1 1250 {'ssea': np.int64(573), 'him': np.int64(470), 'wx': np.int64(201), 'africa': np.int64(3), 'smith': np.int64(2), 'isl': np.int64(1)} | Victoria and Albert Museum=496, Victoria and Albert Museum (SS=338, Tropenmuseum=133, Art Institute of Chicago=82
 D5-2 193 {'ssea': np.int64(109), 'wx': np.int64(83), 'smith': np.int64(1)} | Victoria and Albert Museum=57, Museum Volkenkunde=48, Cleveland Museum of Art=38, Wereldmuseum Rotterdam=27
 D5-3 25 {'ssea': np.int64(21), 'wx': np.int64(3), 'smith': np.int64(1)} | Victoria and Albert Museum=9, Art Institute of Chicago=6, Cleveland Museum of Art=5, Tropenmuseum=2
+D5-4 224 {'ssea': np.int64(172), 'him': np.int64(26), 'wx': np.int64(23), 'smith': np.int64(3)} | Victoria and Albert Museum=116, Art Institute of Chicago=26, Cleveland Museum of Art=26, Private=19
+D5-5 46 {'ssea': np.int64(45), 'smith': np.int64(1)} | Victoria and Albert Museum=23, Cleveland Museum of Art=17, Art Institute of Chicago=5, NMAA=1
+D5-6 219 {'wx': np.int64(218), 'wfolk': np.int64(1)} | Tropenmuseum=216, Museum Volkenkunde=2, Victoria and Albert Museum=1
+D5-7 6 {'ssea': np.int64(4), 'isl': np.int64(1), 'wx': np.int64(1)} | Victoria and Albert Museum=5, Museum Volkenkunde=1
+D5-8 36 {'wfolk': np.int64(18), 'wx': np.int64(17), 'ssea': np.int64(1)} | Tropenmuseum=34, Victoria and Albert Museum=2
+D5-9 1532 {'him': np.int64(865), 'ssea': np.int64(344), 'wx': np.int64(262), 'east': np.int64(25), 'smith': np.int64(24), 'isl': np.int64(12)} | Private=356, Victoria and Albert Museum=267, Victoria and Albert Museum (SS=253, Museum Volkenkunde=152
+D5-10 173 {'him': np.int64(120), 'ssea': np.int64(43), 'wx': np.int64(9), 'isl': np.int64(1)} | Private=59, Cleveland Museum of Art=23, Cleveland Museum of Art (India=19, Victoria and Albert Museum=15
