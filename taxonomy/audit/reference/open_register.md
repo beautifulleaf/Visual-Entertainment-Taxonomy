@@ -1,14 +1,14 @@
 # Open register: AAT terms with no home after every pass
 
-722 terms: 585 people, 130 archaeology, 7 held tradition.
+726 terms: 93 people, 550 related, 76 archaeology, 7 held tradition. 'related' terms sit in a regional leaf as 'Related peoples & phases (Getty AAT)', a fallback, not coverage.
 Every term was searched in the 1.24M gathered museum records; peoples also in the Smithsonian anthropology collections.
 A term leaves this register when its cluster's source shows a visual tradition for it.
 
 | Cluster | Terms | Dedicated source | From here |
 |---|---:|---|---|
-| North American archaeology | 103 | tDAR (Digital Archaeological Record); state archaeological surveys; Smithsonian Handbook of North American Indians | not tested; Smithsonian API sparse for phases |
+| North American archaeology | 104 | tDAR (Digital Archaeological Record); state archaeological surveys; Smithsonian Handbook of North American Indians | not tested; Smithsonian API sparse for phases |
 | West Africa (other) | 91 | Musée du quai Branly; Musée Théodore Monod (IFAN), Dakar | reachable (quai Branly) |
-| other | 74 |  |  |
+| other | 76 |  |  |
 | Nigeria Middle Belt and North-East | 74 | Berns, Fardon & Kasfir, Central Nigeria Unmasked: Arts of the Benue River Valley (Fowler Museum 2011) and the Arnold Rubin archive, Fowler Museum | catalogue not online; Fowler pages reachable |
 | Lowland South America | 53 | Instituto Socioambiental, Povos Indígenas no Brasil (per-people pages with arts sections); Museu do Índio; Museo del Barro, Asunción (Chaco) | ISA list PDF reachable; people pages intermittent |
 | Native North America | 47 | National Museum of the American Indian (Smithsonian API, done); Handbook of North American Indians | API done |
@@ -24,6 +24,6 @@ A term leaves this register when its cluster's source shows a visual tradition f
 | Siberia and the steppe | 11 | Kunstkamera (Peter the Great Museum of Anthropology and Ethnography); State Hermitage | Kunstkamera did not answer |
 | Côte d'Ivoire lagoon peoples | 11 | Musée du quai Branly collections; Smithsonian National Museum of African Art | reachable |
 | South Asia | 10 | Indira Gandhi Rashtriya Manav Sangrahalaya (National Museum of Mankind), Bhopal | not tested |
-| Ancient Italy | 9 | British Museum and Met essays; Villa Giulia | Met throttled; BM refused |
+| Ancient Italy | 10 | British Museum and Met essays; Villa Giulia | Met throttled; BM refused |
 | Southeast Asia | 7 | Vietnam Museum of Ethnology; Museum Volkenkunde (Wereldmuseum) Leiden | Wereldmuseum redirects |
 | Aboriginal Australia | 7 | ANKA and Desart art-centre directories (language groups per art centre); AIATSIS AustLang | ANKA, Desart reachable; AIATSIS refused |

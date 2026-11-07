@@ -52,17 +52,17 @@ def main():
     out = []
     for r in csv.DictReader(open(os.path.join(OUT, "aat_crosswalk.csv"))):
         held = r["coverage"] == "recorded" and "held" in D.get(r["id"], {}).get("note", "")
-        if r["coverage"] not in ("people", "archaeology") and not held: continue
+        if r["coverage"] not in ("people", "archaeology", "related") and not held: continue
         ch = " | ".join(anc(r["id"]))
         cl, src, reach = next(((c, s, ok) for rx, c, s, ok in SOURCES if re.search(rx, ch + " " + r["label"])), ("other", "", ""))
-        out.append(dict(aat_id=r["id"], label=r["label"], status="held tradition" if held else r["coverage"], region=r["region"], cluster=cl,
+        out.append(dict(aat_id=r["id"], label=r["label"], status="held tradition" if held else ("related (fallback home: " + r["leaves"] + ")" if r["coverage"] == "related" else r["coverage"]), region=r["region"], cluster=cl,
                         aat_parent=(anc(r["id"]) or [""])[0], searched="gathered records" + ("; Smithsonian anthropology" if r["id"] in SI else ""),
                         dedicated_source=src, reachable=reach))
     with open(os.path.join(OUT, "open_register.csv"), "w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=list(out[0].keys())); w.writeheader(); w.writerows(out)
     c = collections.Counter((o["cluster"], o["dedicated_source"], o["reachable"]) for o in out)
     L = ["# Open register: AAT terms with no home after every pass", "",
-         f"{len(out)} terms: " + ", ".join(f"{v} {k}" for k, v in collections.Counter(o['status'] for o in out).items()) + ".",
+         f"{len(out)} terms: " + ", ".join(f"{v} {k}" for k, v in collections.Counter(o['status'].split(' (')[0] for o in out).items()) + ". 'related' terms sit in a regional leaf as 'Related peoples & phases (Getty AAT)', a fallback, not coverage.",
          "Every term was searched in the 1.24M gathered museum records; peoples also in the Smithsonian anthropology collections.",
          "A term leaves this register when its cluster's source shows a visual tradition for it.", "",
          "| Cluster | Terms | Dedicated source | From here |", "|---|---:|---|---|"]

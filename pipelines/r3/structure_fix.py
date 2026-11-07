@@ -540,6 +540,13 @@ def apply(tree, MV, MF, report):
             nobj = int(r["objects"] or 0)
             # a style, school or ware placed from its Getty scope note (no gathered records) is not a people
             grp = "Peoples & cultures" if (nobj or how != "decided") else "Schools & phases"
+            if how == "related":   # fallback home: not a maker of this leaf's tradition, a neighbour in Getty AAT
+                grp_of, basis = (r["aat_group"].split("|") + [""])[:2]
+                note = (f"no work of its own documented; Getty AAT files it under {grp_of}, "
+                        + {"siblings": "whose other members sit in this leaf", "cousins": "whose neighbouring groups sit in this leaf",
+                           "cluster": "the region's leaf for that cluster"}.get(basis, ""))
+                rows_.append([r["name"], "Related peoples & phases (Getty AAT)", note, "r3 http://vocab.getty.edu/page/aat/" + r["aat_id"], 0])
+                st["va_peoples_added"] += 1; continue
             note = (f"grouped by Getty AAT under {r['aat_group']}" if how == "inherited" else
                     f"sub-group of {r['aat_group']} (Getty AAT); no source treats it as a style of its own" if how == "subgroup" else
                     f"Getty AAT, under {r['aat_group']}" if not nobj else
@@ -552,7 +559,7 @@ def apply(tree, MV, MF, report):
             for s_ in f["subs"]:
                 for l in s_["leaves"]:
                     rs_ = MV.get(l["code"], [])
-                    for g_ in ("Schools & phases", "Peoples & cultures"):
+                    for g_ in ("Schools & phases", "Peoples & cultures", "Related peoples & phases (Getty AAT)"):
                         if any(x[1] == g_ for x in rs_) and isinstance(l.get("secs"), list) and l["secs"] and g_ not in l["secs"]:
                             l["secs"].append(g_)
                     l["n"] = len(rs_)

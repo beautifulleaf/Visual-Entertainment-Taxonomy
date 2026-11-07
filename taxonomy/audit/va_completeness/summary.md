@@ -40,11 +40,11 @@ Each cell: leaves in the tree, then gathered museum records in thousands. A dash
 
 | Region | A | B | C | D | E | F | G | H | I | J | K | L |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Western Europe | 81 | 8 (1k) | 14 (64k) | 26 (6k) | 24 (82k) | 6 (6k) | 25 (14k) | 60 (37k) | 28 (1k) | 6 (2k) | 56 | 18 |
+| Western Europe | 81 | 8 (1k) | 14 (64k) | 26 (6k) | 24 (82k) | 6 (6k) | 25 (14k) | 60 (37k) | 28 (1k) | 6 (2k) | 56 | 19 |
 | Central & Eastern Europe | 24 (2k) | 3 | 5 | 18 (2k) | 12 (1k) | 4 | 7 (2k) | 54 (8k) | 12 (2k) | – | 19 | 7 |
 | Greco-Roman & Byzantine Mediterranean | 5 (7k) | – | 1 (1k) | 13 (4k) | 16 (4k) | 3 (8k) | 9 (4k) | 3 | – | – | 10 | 9 |
 | Ancient Egypt & Nubia | – | – | 1 | 3 (1k) | 5 (4k) | 1 | 1 (2k) | 2 | – | – | 2 | 2 |
-| Ancient Near East | – | – | 1 | 5 (5k) | 9 (1k) | 1 | 5 (1k) | 1 | – | – | 6 | 4 |
+| Ancient Near East | – | – | 1 | 5 (5k) | 9 (1k) | 1 | 5 (1k) | 1 | – | – | 6 | 3 |
 | Islamic world (MENA, Iran, Anatolia) | 6 (6k) | 2 (1k) | 9 (6k) | 9 (7k) | 25 (57k) | 7 (3k) | 12 (24k) | 29 (14k) | 11 (2k) | – | 22 | 9 |
 | Central Asia & Silk Road | 1 (1k) | – | 1 (3k) | 2 (1k) | 1 | – | 3 (1k) | 9 (3k) | – | – | 1 | 6 |
 | Himalaya | 8 (5k) | – | 3 (3k) | 5 (3k) | **–** | – | 2 (2k) | 3 (2k) | 2 | – | 4 | 2 |

@@ -28,6 +28,8 @@ Each reference term gets the strongest coverage the tree gives it:
   people     a people or ethnic group with no gathered records and no covered AAT parent (ref_notes.py): a gap in the
              sources, not in the tree
   archaeology  an archaeological culture, phase or type site with no gathered records (ref_notes.py)
+  related    no home of its own; listed in a regional leaf as "Related peoples & phases (Getty AAT)" by ref_related.py
+             (siblings, cousins or cluster). Not counted as covered.
   uncovered  none of these; most have no gathered records: the gap is in the sources, not the tree
 AAT terms are mapped to the project's 20 regions (va_facets / coverage grid) from the term and its ancestors in the AAT
 hierarchy; the AAT type (culture, period, style...) is read from the label's qualifier. The uncovered backlog is ranked:
@@ -86,7 +88,7 @@ def main():
             for v in {fold(n), base(n)}:
                 if v: leafname[v].add(c)
         for r in rows.get(c, []):
-            if r[1] != "Holding institutions":
+            if r[1] not in ("Holding institutions", "Related peoples & phases (Getty AAT)"):   # a fallback home is not coverage
                 for v in {fold(r[0]), base(r[0])}:
                     if v: entryname[v].add(c)
         text[c] = " " + fold(" ".join([l["label"], l.get("aliases") or "", re.sub(r"<[^>]+>", " ", l.get("defn") or "")])) + " "
@@ -137,6 +139,7 @@ def main():
             out.append(x["label"]); x = byid.get(x["parent"])
         return out
     arows = []
+    FACS = {r["code"]: r for r in csv.DictReader(open(os.path.join(ROOT, "taxonomy/r3/va_facets.csv")))}
     for a in A:
         if a["guide"] or not a["label"]: continue
         p = path(a)
@@ -158,11 +161,22 @@ def main():
             for q in re.findall(r"\(([^)]*)\)", a["label"]):
                 qn = fold(re.sub(r"\b(culture|style|styles|period|or|and|of|the|general)\b", " ", q))
                 if qn and qn in leafname: how, codes = "variant", sorted(leafname[qn])[:3]; break
+        # era guard for variants: an ancient or pre-contact term is never a variant of a leaf that begins in a later age
+        # ("Riverton" is not a Hudson River School variant, "Sicani" not Sicán Pottery, "Ancient German" not Gothic armour)
+        old_t = re.search(r"\bancient|pre-columbian|prehistoric|neolithic|bronze age|iron age|paleo|archaic", (" ".join(p) + " " + a["label"]).lower())
+        americas = re.search(r"pre-columbian|native american|the americas", " ".join(p).lower())
+        def era_ok(lc):
+            st = FACS.get(lc, {}).get("start")
+            if not (old_t and st not in (None, "")): return True
+            return int(st) < (1500 if americas else 500)
+        if how == "variant":
+            codes = [c for c in codes if era_ok(c)]
+            if not codes: how = "uncovered"
         if how == "uncovered":
             stems = {w[:5] for w in base(a["label"]).split() if len(w) >= 5 and w not in GENERIC}
             if stems:
                 for lc, ln in leafstems.items():
-                    if stems <= ln[0] and leaves[lc].get("region") == reg:
+                    if stems <= ln[0] and leaves[lc].get("region") == reg and era_ok(lc):
                         how, codes = "variant", [lc]; break
         ev = max([labmass.get(n, 0) for n in names] + [0])
         kind = kind_of(a["label"])
@@ -250,6 +264,12 @@ def main():
             how = "subgroup" if r["coverage"] == "people" else "decided"
             r["coverage"], r["leaves"] = "decided", c["leaves"]
             for l in c["leaves"].split(): peoples.append([r["id"], nm, l, 0, how, c["note"].replace("sub-group of ", "").replace("under ", "")])
+    RELATED = {}
+    for r_ in csv.DictReader(open(os.path.join(ROOT, "taxonomy/r3/va_peoples.csv"))):
+        if r_.get("how") == "related": RELATED.setdefault(r_["aat_id"], []).append(r_["leaf"])
+    for r in arows:
+        if r["id"] in RELATED and r["coverage"] in ("people", "archaeology", "uncovered"):
+            r["coverage"], r["leaves"] = "related", " ".join(RELATED[r["id"]])
     with open(os.path.join(OUT, "aat_crosswalk.csv"), "w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=list(arows[0].keys())); w.writeheader(); w.writerows(arows)
 
@@ -258,7 +278,7 @@ def main():
     if os.path.exists(pp):
         have = {(r[0], r[2]) for r in peoples}
         for r in csv.DictReader(open(pp)):
-            if (r["aat_id"], r["leaf"]) not in have and r.get("how") != "placed":
+            if (r["aat_id"], r["leaf"]) not in have and r.get("how") not in ("placed",):
                 peoples.append([r["aat_id"], r["name"], r["leaf"], r["objects"], r.get("how") or "held", r.get("aat_group") or ""])
     with open(pp, "w", newline="") as fh:
         w = csv.writer(fh); w.writerow(["aat_id", "name", "leaf", "objects", "how", "aat_group"]); w.writerows(peoples)
@@ -301,10 +321,10 @@ def main():
          "**uncovered**. Mentioned is weak coverage: the tree knows the name but gives it no place of its own.", "",
          f"Overall: {pct(sum(byreg.values(), collections.Counter())):.0%} of in-scope AAT terms are covered (leaf, entry, mention, variant, held or facet); "
          f"{pct(sum(byreg.values(), collections.Counter()), ('leaf', 'entry')):.0%} have a leaf or entry.", "",
-         "## By region", "", "| Region | Terms | Leaf | Entry | Mentioned | Variant | Held | Inherited | Decided | Facet | Out of scope | Recorded | People, no records | Archaeology, no records | Uncovered | of which with records | Covered |", "|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|"]
+         "## By region", "", "| Region | Terms | Leaf | Entry | Mentioned | Variant | Held | Inherited | Decided | Facet | Out of scope | Recorded | People, no records | Archaeology, no records | Related (fallback) | Uncovered | of which with records | Covered |", "|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|"]
     for reg, c in sorted(byreg.items(), key=lambda x: -sum(x[1].values())):
         ev = sum(1 for r in arows if r["region"] == reg and r["coverage"] == "uncovered" and r["records"])
-        L.append(f"| {reg} | {sum(c.values())} | {c['leaf']} | {c['entry']} | {c['mentioned']} | {c['variant']} | {c['held']} | {c['inherited']} | {c['decided']} | {c['facet']} | {c['out']} | {c['recorded']} | {c['people']} | {c['archaeology']} | {c['uncovered']} | {ev} | {pct(c):.0%} |")
+        L.append(f"| {reg} | {sum(c.values())} | {c['leaf']} | {c['entry']} | {c['mentioned']} | {c['variant']} | {c['held']} | {c['inherited']} | {c['decided']} | {c['facet']} | {c['out']} | {c['recorded']} | {c['people']} | {c['archaeology']} | {c['related']} | {c['uncovered']} | {ev} | {pct(c):.0%} |")
     L += ["", "## By kind of term", "", "| Kind | Terms | Leaf | Entry | Mentioned | Variant | Held | Facet | Out of scope | Uncovered | Covered |", "|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|"]
     for k, c in sorted(bykind.items(), key=lambda x: rank[x[0]]):
         L.append(f"| {k} | {sum(c.values())} | {c['leaf']} | {c['entry']} | {c['mentioned']} | {c['variant']} | {c['held']} | {c['facet']} | {c['out']} | {c['uncovered']} | {pct(c):.0%} |")

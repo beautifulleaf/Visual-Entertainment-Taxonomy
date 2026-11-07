@@ -1592,7 +1592,7 @@ K6-27,Metabolism,Japan,1960,1972,rule
 K7-1,Nagara Architecture,South Asia,600,1500,entries
 K7-2,Kalinga Architecture,South Asia,600,1300,rule
 K7-3,Maru-Gurjara Architecture,South Asia,1000,1300,rule
-K7-4,Dravidian Architecture,South Asia,600,1646,entries
+K7-4,Dravidian Architecture,South Asia,550,1646,entries
 K7-5,Vesara,South Asia,600,1200,entries
 K7-6,Kerala Architecture,South Asia,,,rule
 K7-7,Bengal Temple Architecture,South Asia,1500,1900,rule
@@ -1724,7 +1724,7 @@ L1-31,Panaramitee Style,Oceania (Pacific),,,rule
 L1-32,Māori Rock Art,Oceania (Pacific),,,rule
 L1-33,Franco-Cantabrian Cave Art,Western Europe,,,rule
 L1-34,Côa Valley and Siega Verde Rock Art,Western Europe,,,rule
-L1-35,Levantine Rock Art,Ancient Near East,-8000,-3500,rule
+L1-35,Levantine Rock Art,Western Europe,-8000,-3500,override
 L1-36,Iberian Schematic Art,Western Europe,-5000,-1000,override
 L1-37,Cup and Ring Marks,Western Europe,,,rule
 L1-38,Rock Carvings in Tanum,Western Europe,-1700,-500,rule

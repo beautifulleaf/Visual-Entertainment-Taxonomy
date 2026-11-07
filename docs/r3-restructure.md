@@ -225,3 +225,26 @@ Also settled: seven hyphenated-American nationalities misfiled as peoples (now f
 | Congo basin | about 45 | AfricaMuseum Tervuren |
 
 A term leaves the register when its cluster's source shows a visual tradition for it.
+
+## Fallback homes for the open terms; era guard on variants (v21)
+
+The owner asked that terms which can't be placed still appear under existing regional leaves. `pipelines/r3/ref_related.py` lists each one in a regional leaf, in its own group, **"Related peoples & phases (Getty AAT)"**. The note says the term has no documented work of its own and why it sits in that leaf. The host leaf is chosen in order:
+1. **Siblings:** the leaf where most of its Getty AAT siblings already sit. Only leaf, entry, decided or held placements count.
+2. **Cousins:** the same, one level up. At least two cousins are needed.
+3. **Cluster:** a hand map from the AAT cluster to the region's leaf. Examples:
+   - Mississippi Valley phases → Mississippian Pottery;
+   - Tagar phases → Animal Style;
+   - Ancient Italic peoples → Etruscan Sculpture.
+
+Every host must pass an era guard. An ancient, pre-contact or archaeological term goes only to a dated leaf that begins before 500, or before 1500 in the Americas. A living people goes only to a leaf that lasts past 1600. Five hosts were read and vetoed because the siblings in them had been placed on thin grounds: Aksumite Architecture, Kutch Embroidery, Mapuche Silverwork, Barniz de Pasto and Tobolsk Bone Carving. National headings and two art movements misfiled as peoples get no host.
+
+550 terms got a fallback home. The crosswalk counts them as **related**, not as covered: rows in the group are excluded from entry matching, so coverage stays at 83%. They also stay in the open register (`open_register.csv`), with their cluster's dedicated source. 176 terms have no host at all.
+
+Reading the sibling placements exposed **anachronistic variants** from the first crosswalk:
+- Riverton → Hudson River School;
+- Sicani → Sicán Pottery;
+- Ancient German → German Gothic Armour.
+
+The variant rule now carries the same era guard, and the 11 terms it released were decided. Levantine Rock Art (eastern Spain) was tagged Near East; it is corrected by an override.
+
+The museum passes recommended in v20 could not run. The musée du quai Branly collection site is a single-page application with no public API; reaching its data would mean reverse-engineering a private proxy, which was not done. The AfricaMuseum Tervuren collection site does not answer from this environment. Both remain named in the register as the sources to check.

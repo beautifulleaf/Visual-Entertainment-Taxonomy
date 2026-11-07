@@ -139,8 +139,8 @@ S2: 0 titles fall outside the dates of their era section.
 
 | Tab | Sub-family | Leaves | Entries | Gini | Largest leaf |
 |---|---|---:|---:|---:|---:|
-| VA | A5 Easel Painting | 158 | 19,300 | 0.84 | 31% |
-| VA | D5 Figurative Sculpture | 149 | 4,419 | 0.80 | 37% |
+| VA | A5 Easel Painting | 158 | 19,306 | 0.84 | 31% |
+| VA | D5 Figurative Sculpture | 149 | 4,550 | 0.80 | 36% |
 | VA | J1 Photographic Schools & Movements | 20 | 3,115 | 0.71 | 29% |
 | VA | M1 Installation, Conceptual & Performance Art | 13 | 534 | 0.68 | 50% |
 | VA | H7 Dress & Costume | 23 | 295 | 0.68 | 59% |
@@ -148,9 +148,9 @@ S2: 0 titles fall outside the dates of their era section.
 | VA | K8 East Asian Architecture | 21 | 534 | 0.68 | 28% |
 | VA | K5 Early Modern European & Colonial Architecture | 24 | 1,301 | 0.67 | 33% |
 | VA | K4 Medieval European Architecture | 14 | 691 | 0.67 | 46% |
-| VA | B1 Drawing | 10 | 1,396 | 0.67 | 56% |
+| VA | B1 Drawing | 10 | 1,397 | 0.67 | 56% |
 | VA | B2 Printmaking | 22 | 940 | 0.66 | 26% |
-| VA | L2 Wall Painting | 52 | 788 | 0.65 | 22% |
+| VA | L2 Wall Painting | 52 | 789 | 0.65 | 22% |
 | VA | K9 Southeast Asian Architecture | 15 | 203 | 0.63 | 37% |
-| VA | L1 Rock Art | 43 | 585 | 0.62 | 19% |
+| VA | L1 Rock Art | 43 | 588 | 0.62 | 19% |
 | VA | M2 Video & New Media Art | 7 | 228 | 0.61 | 59% |

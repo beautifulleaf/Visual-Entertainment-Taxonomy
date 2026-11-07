@@ -1,5 +1,8 @@
 aat_id,name,leaf,objects,how,aat_group
 300020093,Classical,E1-28,28015,held,
+300016936,Alma plain,E1-133,0,decided,Alma
+300107391,ancient Italian wall painting styles,L2-30,0,decided,Ancient Italian
+300391511,Venetic,G1-70,0,decided,Ancient Italian
 300262877,Babungo,D5-148,0,subgroup,Cameroon Grassfields
 300265346,Moghamo,D5-148,0,subgroup,Cameroon Grassfields
 300263936,Chipeta,D4-42,0,subgroup,Chewa
@@ -834,3 +837,553 @@ aat_id,name,leaf,objects,how,aat_group
 300017585,Kickapoo,G3-18,108,held,
 300017666,Omaha,G3-18,15,held,
 300017714,Quapaw,G3-18,31,held,
+300457704,Anishininew,H2-12,0,related,First Nations (culture)|siblings
+300266196,Bench,H9-2,0,related,Gimira|cluster
+300265302,Zul,D5-142,0,related,Geji|cousins
+300262905,Hananwa,H9-1,0,related,Northern Sotho (culture or style)|cluster
+300262729,Kgalagadi,H9-1,0,related,Southern Sotho|cluster
+300264436,Ait Hadiddou,G3-4,0,related,High Atlas styles|siblings
+300264576,Ait Youssi,H1-9,0,related,Tamazight|siblings
+300264435,Ait Atta,H1-9,0,related,Shluh|siblings
+300263768,Gurensi,D4-34,0,related,Frafra|cousins
+300016587,Baggara,D5-38,0,related,Darfur region styles|cluster
+300265334,Azza,D5-38,0,related,Teda (culture or style)|cluster
+300263958,Digil,H9-2,0,related,Sab|cluster
+300263499,Bailundu,D6-2,0,related,Ovimbundu|cousins
+300263153,Anufo,D5-48,0,related,Central Ghana styles|siblings
+300264002,Ndiki,D5-148,0,related,Banen (culture or style)|cluster
+300264738,Darasa,H9-2,0,related,Sidamo|cluster
+300263754,Dakpa,D5-38,0,related,Banda (culture or style)|cluster
+300263438,Birifor,D4-34,0,related,Dagari|cousins
+300263396,Ataka,D5-142,0,related,Katab|cousins
+300264077,Hurutshe,H9-1,0,related,Kwena|cluster
+300264075,Lalia,I1-32,0,related,Mongo region styles|cousins
+300263662,Bugakwe,H9-1,0,related,Sarwa|cluster
+300264440,Beng,G1-20,0,related,Central Côte d'Ivoire styles|cousins
+300016015,Adangme,D5-54,0,related,Ga-Adangme|siblings
+300262896,Mbugwe,H9-2,0,related,Rangi|cluster
+300263963,Mboi,D5-142,0,related,Yungur|cousins
+300262490,Bumali,D6-3,0,related,"Sanga (Equatorial Guinea, northern Gabon and southern Cameroon)|cousins"
+300262948,Luimbe,D4-15,0,related,Ngangela|siblings
+300263052,Day,D5-38,0,related,Sara|cluster
+300245290,Chiadma,G3-4,0,related,Marrakech|cluster
+300244142,Afshar,H1-1,0,related,South Persian textile styles after the Mongols|siblings
+300262867,Kunda,D4-42,0,related,Maravi|siblings
+300111952,Guacamayo,E1-45,0,related,Pre-Columbian Panamanian pottery styles|siblings
+300107529,Belbasi,L1-43,0,related,Anatolian Paleolithic|cluster
+300017384,Belén,E1-121,0,related,Diaguita pottery styles|cluster
+300264728,Gamo,H9-2,0,related,Ometo|cluster
+300263507,Msalala,H9-2,0,related,Sumbwa (culture or style)|cluster
+300263531,Dabida,H9-2,0,related,Teita|cousins
+300262876,Kimbu,H9-2,0,related,Nyamwezi|cluster
+300102585,Katladlit,D2-9,0,related,Native Greenlandic|cousins
+300021931,Chuuk Island,D3-14,0,related,Caroline Islands|siblings
+300021948,Mangaian,H8-24,0,related,Cook Islands|cluster
+300106982,Early Orientalizing,E1-26,0,related,Orientalizing|cluster
+300018780,Kamenny Log phase,G1-12,0,related,Karasuk|cluster
+300018784,Biysk phase,G1-12,0,related,Bol'shaia Rechka|cluster
+300018796,Bainov phase,G1-12,0,related,Tagar|cluster
+300445533,Chalcatl,D4-33,0,related,Native Central Mexican styles|cousins
+300017794,Tlahuica,D4-33,0,related,Nahua (style or culture)|cluster
+300017863,Dorasque,D4-33,0,related,Native Central American styles|cluster
+300017861,Cueva-Cuna,D4-33,0,related,Kuna (culture or style)|cluster
+300017962,Abipón,H2-7,0,related,Native Chaco styles|siblings
+300460417,Haush,A4-19,0,related,Ona|cluster
+300265510,Nomtipom,H8-13,0,related,Wintu (culture or style)|cousins
+300017529,California Yuman,H8-13,0,related,Baja Californian Native American styles|siblings
+300017536,Guaicura,H8-13,0,related,Guaicurian|cousins
+300017540,Borjeño,H8-13,0,related,Peninsula Yuman|cousins
+300017674,Tawakoni,H9-6,0,related,Wichita (culture or style)|cousins
+300191137,Acolapissa,H8-21,0,related,Southeastern Native American|siblings
+300016796,Baumer,E1-70,0,related,Pre-Columbian Central Mississippi Valley styles|cluster
+300016806,Fulton Caddo,E1-70,0,related,Caddo|cluster
+300016856,Appalachee,E1-139,0,related,Pre-Columbian Southeastern North American styles|cluster
+300016875,Baehr Hopewell,E1-70,0,related,Pre-Columbian Upper Mississippi Valley styles|cousins
+300016924,Sulphur Spring Cochise,E1-61,0,related,Cochise|cluster
+300016949,Cerbat,E1-61,0,related,Patayan|cluster
+300016453,Gato,H9-2,0,related,Konso|cluster
+300263959,Hawiye,H9-2,0,related,Somali (culture or style)|cluster
+300016497,Bajun,K1-17,0,related,Swahili (culture or style)|cluster
+300265309,Kutu,K1-17,0,related,Zaramo|cluster
+300262849,Chuka,H9-2,0,related,Meru (culture or style)|cousins
+300263663,Hlengwe,I4-4,0,related,Tsonga (Eastern Zambian)|cousins
+300263022,Plateau Tonga,H8-17,0,related,Tonga|cluster
+300265380,Ndlambe,H9-1,0,related,Xhosa (culture or style)|cousins
+300264215,Birwa,H9-1,0,related,Tswana (culture or style)|cluster
+300264709,Mahria,D5-38,0,related,Baggara|cluster
+300265354,Akposo,H3-23,0,related,Ewe cultures|siblings
+300016025,Tofinu,D6-4,0,related,Gun (Ewe culture)|cousins
+300265276,Ibeno,D4-38,0,related,Niger Delta region|siblings
+300016063,Ebira,D4-17,0,related,Igbo region|siblings
+300016072,Abua,D4-39,0,related,Cross River|siblings
+300263783,Gbagyi,D5-142,0,related,Gwari|cousins
+300262929,Wukari,D5-142,0,related,Jukun (culture or style)|cousins
+300263708,Koro Ache,D5-142,0,related,Koro (Niger-Congo style)|cousins
+300263137,Basa-Nge,D5-142,0,related,Nupe|cousins
+300263930,Mbembe,D5-142,0,related,Tigong|cousins
+300264027,Bile,D5-142,0,related,Adamawa-Eastern branch styles|siblings
+300016118,Angas,D5-142,0,related,Chad subfamily Afroasiatic language groups|siblings
+300016157,Bafia,D4-18,0,related,southern coastal Cameroon styles|siblings
+300264055,Wovea,D5-148,0,related,Kpe (culture or style)|cluster
+300263159,Bane,D6-3,0,related,Beti|siblings
+300262686,Unga,D6-2,0,related,Bembe (Kongo)|cousins
+300016254,Fumu,D4-22,0,related,Kwango-Kwilu (culture or style)|siblings
+300016315,Kele,I1-32,0,related,Kuba Folk Style|siblings
+300263015,Hamba,I1-32,0,related,Nkutshu (Nkutshu)|cluster
+300264061,Tumbwe,D5-50,0,related,Holoholo|cousins
+300016374,Gobu,I1-32,0,related,Northwest Democratic Republic of Congo styles|cluster
+300263776,Kwange,I1-32,0,related,Northeast Democratic Republic of Congo styles|cluster
+300016397,Amba,D5-51,0,related,Maniema (culture or style)|siblings
+300263138,Kanembu,D5-38,0,related,Kanuri (culture or style)|cluster
+300263801,Jakhanke,D4-13,0,related,Soninke (culture or style)|cousins
+300264067,Zaose,D4-34,0,related,Mossi|cousins
+300263774,Hwela,D4-13,0,related,Ligbi|cousins
+300016026,Lamba,D4-34,0,related,Kabre|cousins
+300265499,Biyobe,D4-34,0,related,Tamberma|cousins
+300015889,Adarawa,D4-34,0,related,Western Sudanese fringe-dwelling peoples|cousins
+300264464,Adamawa Fulbe,H3-64,0,related,Fulbe (culture or style)|siblings
+300263392,Abakwariga,H3-64,0,related,Hausa (culture or style)|cluster
+300265398,Karon,H3-64,0,related,Jola|cousins
+300263994,Niominka,H3-64,0,related,Serer|cousins
+300264857,Krim,D4-18,0,related,Sherbro (Mande)|cousins
+300015962,De,D4-18,0,related,Kwa-speaking peoples styles|siblings
+300015979,Sapo,D4-18,0,related,Wee (culture or style)|cousins
+300018015,Tupí,H9-14,0,related,Tupí-Guaraní|cousins
+300264575,Beni M'Guild,H1-9,0,related,Tamazight|siblings
+300263777,Nabdam,D4-34,0,related,Frafra|cousins
+300343401,Daju,D5-38,0,related,Darfur region styles|cluster
+300264428,Lemba,H9-1,0,related,Northern Sotho (culture or style)|cluster
+300016379,Mbanza,D5-38,0,related,Banda (culture or style)|cluster
+300263912,LoWiili,D4-34,0,related,Dagari|cousins
+300263469,Kagoro,D5-142,0,related,Katab|cousins
+300263973,Huambo,D6-2,0,related,Ovimbundu|cousins
+300015874,Basari,D4-34,0,related,Gur|siblings
+300263778,Gagu,D4-19,0,related,peripheral Mande styles|siblings
+300265291,Burji,H9-2,0,related,Oromo (culture or style)|cluster
+300016375,Bolia,I1-32,0,related,Mongo|cluster
+300262574,Bassari,H3-64,0,related,Tenda (culture or style)|cousins
+300264582,Dime,H9-2,0,related,Sidamo|cluster
+300263049,Abidji,G1-20,0,related,Lagoon people|cousins
+300393155,Mbaï,D5-38,0,related,Sara|cluster
+300245311,Chichaoua,G3-4,0,related,Marrakech|cluster
+300134118,Chilean Diaguite,E1-121,0,related,Diaguita pottery styles|cluster
+300016490,Digo,K1-17,0,related,Mijikenda (culture or style)|cluster
+300264453,Kafa,H9-2,0,related,Ometo|cluster
+300262677,Logooli,D5-50,0,related,Luyia (culture or style)|siblings
+300021919,Banks Islands,I4-1,0,related,Vanuatu|siblings
+300107526,Anatolian Paleolithic,L1-43,0,related,Anatolian (culture or style)|cluster
+300106984,Developed Orientalizing,E1-26,0,related,Orientalizing|cluster
+300018786,Berëzovsk phase,G1-12,0,related,Bol'shaia Rechka|cluster
+300018797,Podgornoe phase,G1-12,0,related,Tagar|cluster
+300017678,Coeur d'Alène,H8-17,0,related,Plateau Native American|siblings
+300017748,Rio Grande Pueblo,H8-18,0,related,Pueblo (Native American style)|cousins
+300460425,O'dam,D4-33,0,related,Tepehuan (culture or style)|siblings
+300017785,Chichimec,D4-33,0,related,Native Central Mexican styles|cousins
+300017800,Chatino,D4-33,0,related,Native Southern Mexican styles|siblings
+300186772,Totolapan,H3-28,0,related,Tzotzil|cousins
+300017862,San Blas,D4-33,0,related,Kuna (culture or style)|cluster
+300017920,Atsahuaca,H2-7,0,related,Native Central Andean styles|siblings
+300104923,Andoque,H2-7,0,related,<Native Coastal Ecuadorian and Colombian styles>|cluster
+300018020,Chaná,L5-14,0,related,<Native Pampean and Fuegian styles>|siblings
+300017464,Beothuk,H9-12,0,related,Eastern Subarctic Native American styles|siblings
+300017537,Huchiti,H8-13,0,related,Guaicurian|cousins
+300017541,Ignacieño,H8-13,0,related,Peninsula Yuman|cousins
+300264993,Ravens,H8-44,0,related,Haida (culture or style)|cousins
+300017675,Waco,H9-6,0,related,Wichita (culture or style)|cousins
+300016797,Baytown,E1-70,0,related,Pre-Columbian Central Mississippi Valley styles|cluster
+300016808,Coles Creek,E1-70,0,related,Pre-Columbian Lower Mississippi Valley styles|siblings
+300016807,Gibson Caddo,E1-70,0,related,Caddo|cluster
+300016876,Faulkner,E1-70,0,related,Pre-Columbian Upper Mississippi Valley styles|cluster
+300016923,Cochise,E1-61,0,related,Pre-Columbian Southwestern North American styles|cluster
+300016925,Chiricahua Cochise,E1-61,0,related,Cochise|cluster
+300016950,Cohonina,E1-61,0,related,Patayan|cluster
+300262500,Alago,D5-142,0,related,Benue-Congo|siblings
+300263763,Dibo,D5-142,0,related,Nupe|cousins
+300016119,Bachama,D5-142,0,related,Chad subfamily Afroasiatic language groups|siblings
+300265634,Ndumu,H3-46,0,related,Kota (Kota-Mbete region style)|cousins
+300016295,Luchazi,D5-49,0,related,Chokwe-Lunda|siblings
+300263910,Lobala,I1-32,0,related,Northwest Democratic Republic of Congo styles|cluster
+300263400,Bangubangu,D5-51,0,related,Maniema (culture or style)|siblings
+300263957,Sab,H9-2,0,related,Somali (culture or style)|cluster
+300262845,Hadimu,K1-17,0,related,Swahili (culture or style)|cluster
+300263089,Tharaka,H9-2,0,related,Meru (culture or style)|cousins
+300262496,Kawendi,I4-4,0,related,Bemba (Southern African style)|cousins
+300263935,Ronga,I4-4,0,related,Tsonga (Eastern Zambian)|cousins
+300263024,Soli,H9-1,0,related,Tonga|cluster
+300264427,Southern Sotho,H9-1,0,related,Sotho (culture or style)|cluster
+300263053,Kwena,H9-1,0,related,Tswana (culture or style)|cluster
+300263504,Naron,H9-1,0,related,San (Khoisan-speaking peoples styles)|cluster
+300262880,Rizekat,D5-38,0,related,Baggara|cluster
+300262763,Dendi,D4-34,0,related,Western Sudanese fringe-dwelling peoples|cousins
+300263785,Gobir,H3-64,0,related,Hausa (culture or style)|cluster
+300264084,Buduma,H3-64,0,related,Lake Chad (culture or style)|siblings
+300015912,Banyun,H3-64,0,related,West Atlantic styles|siblings
+300263029,Etulo,D4-18,0,related,Kwa-speaking peoples styles|siblings
+300082849,Tien,D4-18,0,related,Wee (culture or style)|cousins
+300016008,Aowin,D5-32,0,related,Anyi|siblings
+300297856,Bé,H3-23,0,related,Ewe cultures|siblings
+300016029,Shai,D5-48,0,related,Adangme|cluster
+300459769,Joseon ceramics,E3-14,0,related,Korean ceramic styles|siblings
+300457724,M'Chigeeng First Nation,H2-12,0,related,First Nations (culture)|siblings
+300265364,Yemma,H9-2,0,related,Omotic (culture or style)|cluster
+300015984,Brong,D5-48,0,related,Central Ghana styles|siblings
+300263813,Khassonke,D4-13,0,related,core Mande styles|siblings
+300264583,Zaer,H1-9,0,related,Tamazight|siblings
+300262557,Bedik,H3-64,0,related,Tenda (culture or style)|cousins
+300263966,Mbwela,D4-15,0,related,Ngangela|siblings
+300263087,Abure,G1-20,0,related,Lagoon people|cousins
+300262785,Nar,D5-38,0,related,Sara|cluster
+300245313,Rehamna,G3-4,0,related,Marrakech|cluster
+300263050,Phoka,D4-42,0,related,Maravi|siblings
+300017385,Draconian,E1-121,0,related,Diaguita pottery styles|cluster
+300387718,Alsatian,H3-30,0,related,European regions|siblings
+300458937,Brao,H4-28,0,related,Southeast Asian|cluster
+300107527,Kemerian,L1-43,0,related,Anatolian Paleolithic|cluster
+300100898,Duruma,K1-17,0,related,Mijikenda (culture or style)|cluster
+300021920,Malekulan,I4-1,0,related,Vanuatu|siblings
+300107501,Choiseul,D5-85,0,related,Solomon Islands|cluster
+300021953,Gambier Islands,D5-89,0,related,Polynesian|siblings
+300458791,Boonwurrung,A5-13,0,related,Australian Aboriginal (culture and style)|siblings
+300106986,Late Orientalizing,E1-26,0,related,Orientalizing|cluster
+300018798,Saragash phase,G1-12,0,related,Tagar|cluster
+300017535,Guaicurian,H8-13,0,related,Baja Californian Native American styles|siblings
+300017538,Pericú,H8-13,0,related,Guaicurian|cousins
+300017584,Illinois,D6-7,0,related,<Great Lake and Central Woodland Native American>|cousins
+300017647,Sutaio,B1-2,0,related,Cheyenne (culture or style)|siblings
+300435663,Wahpetowan,H9-6,0,related,Sioux|siblings
+300438523,Avoyel,H8-21,0,related,Southeastern Native American|siblings
+300017855,Zinacantec,H3-28,0,related,Tzotzil|cousins
+300017876,Ciboney,D4-33,0,related,Native Caribbean styles|cousins
+300017938,Comechingón,H2-7,0,related,Native South Andean styles|cluster
+300017956,Chaima,H9-14,0,related,Native South American Caribbean Coast styles|siblings
+300017983,Barbacoa,H2-7,0,related,<Native Coastal Ecuadorian and Colombian styles>|cluster
+300260723,Toka,H9-1,0,related,Tonga|cluster
+300263168,Malete,H9-1,0,related,Tswana (culture or style)|cluster
+300262504,Sarwa,H9-1,0,related,San (Khoisan-speaking peoples styles)|cluster
+300264579,Tunjur,D5-38,0,related,Baggara|cluster
+300016809,Issaquena,E1-70,0,related,Pre-Columbian Lower Mississippi Valley styles|cluster
+300016857,Candy Creek,E1-71,0,related,Pre-Columbian Southeastern North American styles|siblings
+300016927,Fremont,E1-61,0,related,Pre-Columbian Southwestern North American styles|cluster
+300016926,San Pedro Cochise,E1-61,0,related,Cochise|cluster
+300016951,Sinagua,E1-61,0,related,Patayan|cluster
+300262475,Bulahay,H3-64,0,related,Lake Chad (culture or style)|siblings
+300264216,Biafada,H3-64,0,related,West Atlantic styles|siblings
+300015930,Nalu,D4-36,0,related,Simo (culture or style)|siblings
+300262739,Gbi,D4-18,0,related,Kru-speaking peoples styles|siblings
+300262537,Sanwi,D5-32,0,related,Anyi|siblings
+300016038,Igbomina,D5-42,0,related,Yoruba fine arts styles|siblings
+300263028,Obolo,D4-38,0,related,Niger Delta region|siblings
+300265290,Efut,D4-39,0,related,Ibibio|cousins
+300263027,Anaguta,D5-142,0,related,Benue-Congo|siblings
+300263150,Kakanda,D5-142,0,related,Nupe|cousins
+300263136,Bata,D5-142,0,related,Chad subfamily Afroasiatic language groups|siblings
+300263710,Banen,D4-18,0,related,southern coastal Cameroon styles|siblings
+300262969,Eton,D6-3,0,related,Beti|siblings
+300016203,Wumu,H3-46,0,related,Kota (Kota-Mbete region style)|cousins
+300016350,Jiji,D5-50,0,related,Luba region styles|siblings
+300016377,Loi,I1-32,0,related,Northwest Democratic Republic of Congo styles|cluster
+300016498,Pemba,K1-17,0,related,Swahili (culture or style)|cluster
+300266338,Lomotwa,I4-4,0,related,Bemba (Southern African style)|cousins
+300015890,Fulbe,D4-34,0,related,Western Sudanese fringe-dwelling peoples|cousins
+300263812,Kebbi,H3-64,0,related,Hausa (culture or style)|cluster
+300020255,Qadan,E1-40,0,related,Nubian (culture or style)|siblings
+300264468,Toroobe,H3-64,0,related,Fulbe (culture or style)|siblings
+300264281,Maguzawa,H3-64,0,related,Hausa (culture or style)|cluster
+300265570,Tyapi,D4-36,0,related,Simo (culture or style)|siblings
+300435287,Kuya,D4-18,0,related,Kwa-speaking peoples styles|siblings
+300262757,Sefwi,D5-32,0,related,Anyi|siblings
+300016039,Ijebu,D5-42,0,related,Yoruba fine arts styles|siblings
+300016080,Eket,D4-39,0,related,Ibibio|cousins
+300263043,Gade,D5-142,0,related,Niger-Congo language groups styles|cluster
+300263978,Aten,D5-142,0,related,Benue-Congo|siblings
+300016264,Kwese,D4-22,0,related,Kwango-Kwilu (culture or style)|siblings
+300262512,Minungo,D5-49,0,related,Mbundu (northern Angolan style)|siblings
+300262674,Kalundwe,D5-50,0,related,Luba region styles|siblings
+300016400,Boyo,D5-51,0,related,Maniema (culture or style)|siblings
+300137452,Rufijic,K1-17,0,related,Swahili (culture or style)|cluster
+300263939,Tswa,I4-4,0,related,Tsonga (Eastern Zambian)|cousins
+300264584,Ngwato,H9-1,0,related,Tswana (culture or style)|cluster
+300265377,Tannekwe,H9-1,0,related,San (Khoisan-speaking peoples styles)|cluster
+300016800,Obion,E1-70,0,related,Pre-Columbian Central Mississippi Valley styles|cluster
+300016810,Marksville,E1-70,0,related,Pre-Columbian Lower Mississippi Valley styles|cluster
+300016858,Copena,E1-139,0,related,Pre-Columbian Southeastern North American styles|cluster
+300016878,Havana Hopewellian,E1-70,0,related,Pre-Columbian Upper Mississippi Valley styles|cousins
+300017539,Peninsula Yuman,H8-13,0,related,Baja Californian Native American styles|siblings
+300017533,Nakipa,H8-13,0,related,California Yuman|siblings
+300017544,Conestoga,H8-46,0,related,<Eastern Woodland and Eastern Great Lake Native American>|siblings
+300438535,Tsleil-Waututh,H8-44,0,related,Salish (Northwest Coast Native American style)|siblings
+300017802,Chocho,D4-33,0,related,Native Southern Mexican styles|siblings
+300017877,Guanahatabey,D4-33,0,related,Native Caribbean styles|cousins
+300017885,Caquetío,H9-14,0,related,Native Amazonian|siblings
+300017924,Masco,H2-7,0,related,Native Central Andean styles|siblings
+300017942,Huarpe,H2-7,0,related,Native South Andean styles|cluster
+300017957,Jirajara,H9-14,0,related,Native South American Caribbean Coast styles|siblings
+300017984,Calamari,H2-7,0,related,<Native Coastal Ecuadorian and Colombian styles>|cluster
+300018007,Camacan,H9-14,0,related,Native Eastern Brazilian styles|siblings
+300018022,Chono,L5-14,0,related,<Native Pampean and Fuegian styles>|siblings
+300018799,Tes phase,G1-12,0,related,Tagar|cluster
+300458789,Kuku Yalanji,A5-13,0,related,Australian Aboriginal (culture and style)|siblings
+300021918,Oba,I4-1,0,related,Vanuatu|siblings
+300121663,Malaita,D5-85,0,related,Solomon Islands|cluster
+300458735,Guamanian,K12-3,0,related,Micronesian (culture or style)|siblings
+300264045,Tiriki,D5-50,0,related,Luyia (culture or style)|siblings
+300101038,Sumbwa,H9-2,0,related,Nyamwezi|cluster
+300102471,Saint Lawrence Island Eskimo,D2-9,0,related,Alaskan Native styles|siblings
+300263996,Ngambay,D5-38,0,related,Sara|cluster
+300137440,Gabbra,H9-2,0,related,Oromo (culture or style)|cluster
+300263161,Kala,I1-32,0,related,Mongo|cluster
+300015922,Koniagui,H3-64,0,related,Tenda (culture or style)|cousins
+300266188,Gimira,H9-2,0,related,Sidamo|cluster
+300264279,Aizi,G1-20,0,related,Lagoon people|cousins
+300263805,Kamantan,D5-142,0,related,Katab|cousins
+300264014,Sele,D6-2,0,related,Ovimbundu|cousins
+300262584,Denkyira,D5-48,0,related,Central Ghana styles|siblings
+300015870,Ligbi,D4-13,0,related,core Mande styles|siblings
+300015940,Gbundi,D4-19,0,related,peripheral Mande styles|siblings
+300263940,Tekna,H1-9,0,related,Shluh|siblings
+300016161,Kossi,D4-18,0,related,southern coastal Cameroon styles|siblings
+300263903,Kyedye,D5-142,0,related,Nupe|cousins
+300262802,Duru,D5-142,0,related,Adamawa-Eastern branch styles|siblings
+300259267,Igede,D4-17,0,related,Igbo region|siblings
+300262662,Yungur,D5-142,0,related,Niger-Congo language groups styles|cluster
+300264580,Mawri,H3-64,0,related,Hausa (culture or style)|cluster
+300262749,Gamergu,H3-64,0,related,Lake Chad (culture or style)|siblings
+300016879,Hidden Valley,E1-70,0,related,Pre-Columbian Upper Mississippi Valley styles|cluster
+300263668,Ntwane,H9-1,0,related,Tswana (culture or style)|cluster
+300016306,Ndembu,D5-49,0,related,Mbundu (northern Angolan style)|siblings
+300016351,Kanyok,D5-50,0,related,Luba region styles|siblings
+300016390,Sango,I1-32,0,related,Northwest Democratic Republic of Congo styles|cluster
+300263314,Enya,D5-51,0,related,Maniema (culture or style)|siblings
+300017985,Cara,H2-7,0,related,<Native Coastal Ecuadorian and Colombian styles>|cluster
+300018008,Central Ge,H9-14,0,related,Native Eastern Brazilian styles|siblings
+300018023,Colastiné,L5-14,0,related,<Native Pampean and Fuegian styles>|siblings
+300017778,Tepecano,D4-33,0,related,Native Northwestern Mexican styles|cousins
+300017546,Erie,D6-7,0,related,<Eastern Woodland and Eastern Great Lake Native American>|cousins
+300017570,Lemhi,H8-47,0,related,Great Basin Native American|siblings
+300458774,Mutti Mutti,A5-13,0,related,Australian Aboriginal (culture and style)|siblings
+300386570,Ancient Umbrian,D5-59,0,related,Ancient Italian|cluster
+300262747,Tumbuka,D4-42,0,related,Maravi|siblings
+300395493,Guji,H9-2,0,related,Oromo (culture or style)|cluster
+300262539,Krachi,D5-48,0,related,Central Ghana styles|siblings
+300263967,Morwa,D5-142,0,related,Katab|cousins
+300262713,Nzadi,D6-2,0,related,Lower Kasai|cousins
+300100965,Ometo,H9-2,0,related,Sidamo|cluster
+300015992,Ajukru,G1-20,0,related,Lagoon people|cousins
+300265310,Kutu,I1-32,0,related,Mongo|cluster
+300457786,Stz'uminus First Nation,H2-12,0,related,First Nations (culture)|siblings
+300100273,Mbembe,D4-39,0,related,Cross River|siblings
+300265387,Tendgha,D4-34,0,related,Western Sudanese fringe-dwelling peoples|cousins
+300264073,Zamfara,H3-64,0,related,Hausa (culture or style)|cluster
+300016802,Tchula,E1-70,0,related,Pre-Columbian Central Mississippi Valley styles|cluster
+300016880,Jersey Bluff,E1-70,0,related,Pre-Columbian Upper Mississippi Valley styles|cluster
+300380377,Numic,E1-61,0,related,Pre-Columbian Southwestern North American styles|cluster
+300263670,Tlhaping,H9-1,0,related,Tswana (culture or style)|cluster
+300265285,Ndombe,D5-49,0,related,Mbundu (northern Angolan style)|siblings
+300262675,Kaonde,D5-50,0,related,Luba region styles|siblings
+300016391,Sengele,I1-32,0,related,Northwest Democratic Republic of Congo styles|cluster
+300016163,Kpe,D4-18,0,related,southern coastal Cameroon styles|siblings
+300265277,Chibak,D5-142,0,related,Chad subfamily Afroasiatic language groups|siblings
+300015920,Felup,H3-64,0,related,West Atlantic styles|siblings
+300265371,Nyabwa,D4-18,0,related,Kru-speaking peoples styles|siblings
+300016023,Gun,H3-23,0,related,Ewe cultures|siblings
+300017945,Lipe,H2-7,0,related,Native South Andean styles|cluster
+300017959,Timote,H9-14,0,related,Native South American Caribbean Coast styles|siblings
+300017967,Chané,H2-7,0,related,Native Chaco styles|siblings
+300018009,Guaitacá,H9-14,0,related,Native Eastern Brazilian styles|siblings
+300018024,Corondá,L5-14,0,related,<Native Pampean and Fuegian styles>|siblings
+300458707,Chalon,H8-13,0,related,Californian Native American|siblings
+300021927,San Cristobal,D5-85,0,related,Solomon Islands|cluster
+300020234,Creto-Mycenaean,E1-30,0,related,Aegean styles|siblings
+300017460,Yuit,D2-9,0,related,Alaskan Native styles|siblings
+300264005,Nchumuru,D5-48,0,related,Central Ghana styles|siblings
+300264007,Shako,H9-2,0,related,Sidamo|cluster
+300015994,Alagya,G1-20,0,related,Lagoon people|cousins
+300262762,Samo,D4-13,0,related,core Mande styles|siblings
+300263199,Shinji,D5-49,0,related,Mbundu (northern Angolan style)|siblings
+300263792,Hunde,D5-51,0,related,Maniema (culture or style)|siblings
+300263761,Buji,D5-142,0,related,Benue-Congo|siblings
+300263712,Daba,D5-142,0,related,Chad subfamily Afroasiatic language groups|siblings
+300312156,Sikon,D4-18,0,related,Kru-speaking peoples styles|siblings
+300017946,Lule,H2-7,0,related,Native South Andean styles|cluster
+300018011,Patashó,H9-14,0,related,Native Eastern Brazilian styles|siblings
+300018025,Mbeguá,L5-14,0,related,<Native Pampean and Fuegian styles>|siblings
+300017888,Catukina,H9-14,0,related,Native Amazonian|siblings
+300017927,Puná,H2-7,0,related,Native Central Andean styles|siblings
+300016814,Plaquemine,E1-70,0,related,Pre-Columbian Lower Mississippi Valley styles|cluster
+300016863,Fort Walton,E1-139,0,related,Pre-Columbian Southeastern North American styles|cluster
+300016881,Kincaid,E1-70,0,related,Pre-Columbian Upper Mississippi Valley styles|cluster
+300016783,Norton-Hopewell,E1-70,0,related,Pre-Columbian Great Lakes styles|siblings
+300263671,Tlokwa,H9-1,0,related,Tswana (culture or style)|cluster
+300021922,Santa Cruz Islands,D5-85,0,related,Solomon Islands|cluster
+300312335,Elymian,D5-59,0,related,Ancient Italian|cluster
+300015989,Attie,G1-20,0,related,Lagoon people|cousins
+300263026,Macha,H9-2,0,related,Oromo (culture or style)|cluster
+300016882,Maples Mills,E1-70,0,related,Pre-Columbian Upper Mississippi Valley styles|cluster
+300016401,Kasingo,D5-51,0,related,Maniema (culture or style)|siblings
+300016166,Lundu,D4-18,0,related,southern coastal Cameroon styles|siblings
+300017808,Izcatec,D4-33,0,related,Native Southern Mexican styles|siblings
+300017847,Rabinal,H3-28,0,related,Maya (culture or style)|siblings
+300460404,Cawahib,H9-14,0,related,Native Amazonian|siblings
+300120047,Tikopia,D5-85,0,related,Solomon Islands|cluster
+300100911,Rabai,K1-17,0,related,Mijikenda (culture or style)|cluster
+300264057,Wassalunke,D4-13,0,related,core Mande styles|siblings
+300262736,Dagomba,D4-34,0,related,Gur|siblings
+300262858,Avikam,G1-20,0,related,Lagoon people|cousins
+300265297,Orma,H9-2,0,related,Oromo (culture or style)|cluster
+300263956,Mbo,D4-18,0,related,southern coastal Cameroon styles|siblings
+300265388,Eggon,D5-142,0,related,Benue-Congo|siblings
+300378931,Longuda,D5-142,0,related,Adamawa-Eastern branch styles|siblings
+300263784,Glavda,D5-142,0,related,Chad subfamily Afroasiatic language groups|siblings
+300262792,Kasanga,H3-64,0,related,West Atlantic styles|siblings
+300016083,Oron,D4-39,0,related,Cross River|siblings
+300017929,Tepqui,H2-7,0,related,Native Central Andean styles|siblings
+300017870,Nicarao,D4-33,0,related,Native Central American styles|cluster
+300017791,Pame,D4-33,0,related,Native Central Mexican styles|cousins
+300016816,Tchefuncte,E1-70,0,related,Pre-Columbian Lower Mississippi Valley styles|cluster
+300016866,Lauderdale,E1-139,0,related,Pre-Columbian Southeastern North American styles|cluster
+300016883,Morton,E1-70,0,related,Pre-Columbian Upper Mississippi Valley styles|cluster
+300016363,Mwanza,D5-50,0,related,Luba region styles|siblings
+300264779,Warlpiri,A6-18,0,related,Australian Aboriginal (culture and style)|siblings
+300264081,Degha,D4-34,0,related,Gur|siblings
+300137439,Eotile,G1-20,0,related,Lagoon people|cousins
+300264068,Tulama,H9-2,0,related,Oromo (culture or style)|cluster
+300016817,Troyville,E1-70,0,related,Pre-Columbian Lower Mississippi Valley styles|cluster
+300016867,Macon Plateau,E1-139,0,related,Pre-Columbian Southeastern North American styles|cluster
+300016367,Nsapo,D5-50,0,related,Luba region styles|siblings
+300265295,Kwame,D5-51,0,related,Maniema (culture or style)|siblings
+300263964,Mboko,D4-18,0,related,southern coastal Cameroon styles|siblings
+300265301,Geji,D5-142,0,related,Benue-Congo|siblings
+300016121,Goemai,D5-142,0,related,Chad subfamily Afroasiatic language groups|siblings
+300262542,Yako,D4-39,0,related,Cross River|siblings
+300264858,Kera,H3-64,0,related,Lake Chad (culture or style)|siblings
+300458792,Wemba Wemba,A5-13,0,related,Australian Aboriginal (culture and style)|siblings
+300017930,Tumbez,H2-7,0,related,Native Central Andean styles|siblings
+300017949,Sanaviron,H2-7,0,related,Native South Andean styles|cluster
+300017971,Matará,H2-7,0,related,Native Chaco styles|siblings
+300018014,Timbira,H9-14,0,related,Native Eastern Brazilian styles|siblings
+300018028,Querandí,L5-14,0,related,<Native Pampean and Fuegian styles>|siblings
+300017898,Chicham,H9-14,0,related,Native Amazonian|siblings
+300438501,Coharie,H8-21,0,related,Southeastern Native American|siblings
+300263072,Gwa,G1-20,0,related,Lagoon people|cousins
+300016414,Yela,I1-32,0,related,Mongo|cluster
+300261009,Landogo,D4-19,0,related,peripheral Mande styles|siblings
+300016167,Seke,D4-18,0,related,southern coastal Cameroon styles|siblings
+300262477,Mundang,D5-142,0,related,Adamawa-Eastern branch styles|siblings
+300263775,Lebu,H3-64,0,related,West Atlantic styles|siblings
+300015905,Kotoko,H3-64,0,related,Lake Chad (culture or style)|siblings
+300393248,Wurundjeri,A5-13,0,related,Australian Aboriginal (culture and style)|siblings
+300017950,Tonocoté,H2-7,0,related,Native South Andean styles|cluster
+300017972,Mbayá,H2-7,0,related,Native Chaco styles|siblings
+300460426,Tupí-Guaraní,H9-14,0,related,Native Eastern Brazilian styles|siblings
+300263752,Falafala,D4-34,0,related,Gur|siblings
+300263901,Krobu,G1-20,0,related,Lagoon people|cousins
+300015998,Kyaman,G1-20,0,related,Lagoon people|cousins
+300017973,Mocoví,H2-7,0,related,Native Chaco styles|siblings
+300018030,Timbú,L5-14,0,related,<Native Pampean and Fuegian styles>|siblings
+300017812,Popoluca,D4-33,0,related,Native Southern Mexican styles|siblings
+300445587,Tlatelolcatl,D4-33,0,related,Native Central Mexican styles|cousins
+300263085,Irigwe,D5-142,0,related,Benue-Congo|siblings
+300265300,Guruntum-Mbaaru,D5-142,0,related,Chad subfamily Afroasiatic language groups|siblings
+300262784,Laka,H3-64,0,related,Lake Chad (culture or style)|siblings
+300018929,Yadava,K7-4,0,related,Post-Gupta|siblings
+300018017,Tupinikin,H9-14,0,related,Native Eastern Brazilian styles|siblings
+300017858,Uspantec,H3-28,0,related,Maya (culture or style)|siblings
+300017507,Halchidhoma,H8-13,0,related,Californian Native American|siblings
+300016411,Metoko,D5-51,0,related,Maniema (culture or style)|siblings
+300016094,Jaba,D5-142,0,related,Benue-Congo|siblings
+300016123,Gwandara,D5-142,0,related,Chad subfamily Afroasiatic language groups|siblings
+300458790,Yorta Yorta,A5-13,0,related,Australian Aboriginal (culture and style)|siblings
+300017976,Pilagá,H2-7,0,related,Native Chaco styles|siblings
+300017814,Tequislatec,D4-33,0,related,Native Southern Mexican styles|siblings
+300017894,Encabellado,H9-14,0,related,Native Amazonian|siblings
+300017694,Sanpoil,H8-17,0,related,Plateau Native American|siblings
+300265511,Peepeekisis,H9-12,0,related,Western Subarctic Native American styles|siblings
+300262756,Yeke,D5-50,0,related,Luba region styles|siblings
+300263020,Nyindu,D5-51,0,related,Maniema (culture or style)|siblings
+300016096,Jarawa,D5-142,0,related,Benue-Congo|siblings
+300263928,Mankanya,H3-64,0,related,West Atlantic styles|siblings
+300263924,Maba,H3-64,0,related,Lake Chad (culture or style)|siblings
+300458941,Khmu,H4-28,0,related,Southeast Asian|cluster
+300017609,Kalapuya,H8-44,0,related,Northwest Coast Native American|siblings
+300016413,Pere,D5-51,0,related,Maniema (culture or style)|siblings
+300016098,Jibu,D5-142,0,related,Benue-Congo|siblings
+300264276,Hona,D5-142,0,related,Chad subfamily Afroasiatic language groups|siblings
+300261041,Neyo,H3-64,0,related,West Atlantic styles|siblings
+300017978,Zamuco,H2-7,0,related,Native Chaco styles|siblings
+300263664,Kapsiki,D5-142,0,related,Chad subfamily Afroasiatic language groups|siblings
+300378889,Oinca,H3-64,0,related,West Atlantic styles|siblings
+300015906,Mandara,H3-64,0,related,Lake Chad (culture or style)|siblings
+300386389,Ligurian,D5-59,0,related,Ancient Italian|cluster
+300015882,Kabre,D4-34,0,related,Gur|siblings
+300404720,Xianbei,D5-29,0,related,Chinese (culture or style)|siblings
+300017897,Ipuriná,H9-14,0,related,Native Amazonian|siblings
+300438504,Meherrin,H8-21,0,related,Southeastern Native American|siblings
+300391310,Milling Stone Horizon,D4-24,0,related,Californian Native American|cousins
+300016100,Kaleri,D5-142,0,related,Benue-Congo|siblings
+300265555,Kariya,D5-142,0,related,Chad subfamily Afroasiatic language groups|siblings
+300265625,Marba,H3-64,0,related,Lake Chad (culture or style)|siblings
+300391516,Picene,D5-59,0,related,Ancient Italian|cluster
+300262927,Kilinga,D4-34,0,related,Gur|siblings
+300262533,Kamberi,D5-142,0,related,Benue-Congo|siblings
+300262810,Kofyar,D5-142,0,related,Chad subfamily Afroasiatic language groups|siblings
+300017899,Kuikuru,H9-14,0,related,Native Amazonian|siblings
+300458952,Mizo,H4-28,0,related,Southeast Asian|cluster
+300391490,Rinaldone,D5-59,0,related,Ancient Italian|cluster
+300015883,Konkomba,D4-34,0,related,Gur|siblings
+300018000,Urabá,H2-7,0,related,<Native Coastal Ecuadorian and Colombian styles>|cluster
+300263021,Katab,D5-142,0,related,Benue-Congo|siblings
+300263497,Matakam,H3-64,0,related,Lake Chad (culture or style)|siblings
+300435660,Otoe-Missouria,H9-6,0,related,Plains Indian|siblings
+300015886,Kotokoli,D4-34,0,related,Gur|siblings
+300017496,Tsetsaut,H9-12,0,related,Western Subarctic Native American styles|siblings
+300263965,Mbula,D5-142,0,related,Chad subfamily Afroasiatic language groups|siblings
+300262555,Tenda,H3-64,0,related,West Atlantic styles|siblings
+300263088,Mbum,H3-64,0,related,Lake Chad (culture or style)|siblings
+300438509,Nottoway,H8-21,0,related,Southeastern Native American|siblings
+300016111,Kutep,D5-142,0,related,Benue-Congo|siblings
+300458951,Muong,H4-28,0,related,Southeast Asian|cluster
+300308016,Sabine,D5-59,0,related,Ancient Italian|cluster
+300262513,Wan,D4-19,0,related,peripheral Mande styles|siblings
+300260662,Mada,D5-142,0,related,Benue-Congo|siblings
+300016124,Montol,D5-142,0,related,Chad subfamily Afroasiatic language groups|siblings
+300257697,Samnite,D5-59,0,related,Ancient Italian|cluster
+300017904,Manao,H9-14,0,related,Native Amazonian|siblings
+300438524,Ofo,H8-21,0,related,Southeastern Native American|siblings
+300264443,Mupun,D5-142,0,related,Chad subfamily Afroasiatic language groups|siblings
+300259476,Shuwa,H3-64,0,related,Lake Chad (culture or style)|siblings
+300262930,Musgu,D5-142,0,related,Chad subfamily Afroasiatic language groups|siblings
+300262801,Tuburi,H3-64,0,related,Lake Chad (culture or style)|siblings
+300312336,Siculi,D5-59,0,related,Ancient Italian|cluster
+300015861,Minianka,D4-34,0,related,Gur|siblings
+300017514,Salinan,H8-13,0,related,Californian Native American|siblings
+300263975,Ngwoi,D5-142,0,related,Benue-Congo|siblings
+300264442,Mwaghavul,D5-142,0,related,Chad subfamily Afroasiatic language groups|siblings
+300458949,Pa-O,H4-28,0,related,Southeast Asian|cluster
+300265296,Ningawa,D5-142,0,related,Benue-Congo|siblings
+300262561,Pabir,D5-142,0,related,Chad subfamily Afroasiatic language groups|siblings
+300438502,Sappony,H8-21,0,related,Southeastern Native American|siblings
+300263991,Nungu,D5-142,0,related,Benue-Congo|siblings
+300264013,Ron,D5-142,0,related,Chad subfamily Afroasiatic language groups|siblings
+300457697,Tsnungwe,H8-13,0,related,Californian Native American|siblings
+300391522,Volscan,D5-59,0,related,Ancient Italian|cluster
+300262924,Naudeba,D4-34,0,related,Gur|siblings
+300458700,Sinixt,H8-44,0,related,Northwest Coast Native American|siblings
+300264277,Tera,D5-142,0,related,Chad subfamily Afroasiatic language groups|siblings
+300265344,Reshe,D5-142,0,related,Benue-Congo|siblings
+300458963,Rakhine,H4-28,0,related,Southeast Asian|cluster
+300137448,Nioniosse,D4-34,0,related,Gur|siblings
+300016106,Rukuba,D5-142,0,related,Benue-Congo|siblings
+300017910,Shipaya,H9-14,0,related,Native Amazonian|siblings
+300264441,Nyende,D4-34,0,related,Gur|siblings
+300017624,Siuslaw,H8-44,0,related,Northwest Coast Native American|siblings
+300262760,Yergum,D5-142,0,related,Chad subfamily Afroasiatic language groups|siblings
+300016107,Tigong,D5-142,0,related,Benue-Congo|siblings
+300017912,Sinabo,H9-14,0,related,Native Amazonian|siblings
+300017626,Skagit,H8-44,0,related,Northwest Coast Native American|siblings
+300264437,Taneka,D4-34,0,related,Gur|siblings
+300017627,Snuqualmi,H8-44,0,related,Northwest Coast Native American|siblings
+300264059,Wala,D4-34,0,related,Gur|siblings
+300438503,Waccamaw Siouan,H8-21,0,related,Southeastern Native American|siblings
+300262898,Woaba,D4-34,0,related,Gur|siblings
+300458940,Wa,H4-28,0,related,Southeast Asian|cluster
+300017917,Xingú,H9-14,0,related,Native Amazonian|siblings
