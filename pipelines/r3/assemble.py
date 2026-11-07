@@ -63,8 +63,12 @@ def build_va(src, tree, M, find_old, report):
             for k in ("axis", "defn", "catalogues"):
                 if v.get(k): m[k] = v[k]
             m["alias_rows"] += v.get("alias_rows", [])
+    junk = 0
     for code, rows in replaced.items():
-        M[code] = rows
+        keep = [r for r in rows if str(r[0]).strip() and r[1] != "Unverified list entries"]
+        junk += len(rows) - len(keep)
+        M[code] = keep
+    report["va_junk_rows_dropped"] = junk
     # new leaves: merge by (sub, label) across passes, codes appended per sub-family
     newl = collections.OrderedDict()
     for p, R in results.items():
@@ -93,6 +97,7 @@ def build_va(src, tree, M, find_old, report):
     moved = 0
     for p, R in results.items():
         for name, frm, to in R.get("moves_out", []):
+            if not str(name).strip(): continue  # nameless input rows are junk
             r = inrows.get((frm, name))
             if not r or to not in leafobj:
                 report.setdefault("va_bad_moves", []).append([name, frm, to]); continue

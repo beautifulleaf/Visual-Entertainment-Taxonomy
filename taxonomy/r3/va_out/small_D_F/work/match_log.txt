@@ -59,3 +59,7 @@ D4-25 160 {'smith': np.int64(110), 'wfolk': np.int64(50)} | NMAI=110, Smithsonia
 D4-26 30 {'wfolk': np.int64(15), 'aot': np.int64(7), 'gap': np.int64(7), 'wx': np.int64(1)} | Museum of New Zealand Te Papa =11, The Metropolitan Museum of Art=9, Penn Museum=8, Museum Volkenkunde=2
 D4-27 20 {'wx': np.int64(19), 'wfolk': np.int64(1)} | Tropenmuseum=11, Museum Volkenkunde=7, Wereldmuseum Rotterdam=1, Art Institute of Chicago=1
 D4-28 2 {'smith': np.int64(2)} | CHNDM=2
+D4-29 0 {} | 
+D5-1 1250 {'ssea': np.int64(573), 'him': np.int64(470), 'wx': np.int64(201), 'africa': np.int64(3), 'smith': np.int64(2), 'isl': np.int64(1)} | Victoria and Albert Museum=496, Victoria and Albert Museum (SS=338, Tropenmuseum=133, Art Institute of Chicago=82
+D5-2 193 {'ssea': np.int64(109), 'wx': np.int64(83), 'smith': np.int64(1)} | Victoria and Albert Museum=57, Museum Volkenkunde=48, Cleveland Museum of Art=38, Wereldmuseum Rotterdam=27
+D5-3 25 {'ssea': np.int64(21), 'wx': np.int64(3), 'smith': np.int64(1)} | Victoria and Albert Museum=9, Art Institute of Chicago=6, Cleveland Museum of Art=5, Tropenmuseum=2
