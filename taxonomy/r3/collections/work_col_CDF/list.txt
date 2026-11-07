@@ -1,0 +1,2012 @@
+0|manusc|Western European manuscripts (undated)|C|37771|Cantar de Mio Cid|exclude:language bucket
+1|east_a|Japan · Edo|C|14174|Chinese Verses on Eleven Views from the |
+2|manusc|Western European manuscripts, Gothic (unlocalised, 1201-1450|C|6988|Codex Gigas|tag:period
+3|manusc|Western European manuscripts, early modern (1600+)|C|6384|De Vlaamse Leeuw|exclude:language bucket
+4|world_|Indonesian|D|5246|Reliëf met een voorsteling van twee monn|tag:place
+5|east_a|Japan ·|C|4977|四十二章経跋文|
+6|manusc|Byzantine / Greek manuscripts (undated)|C|4481|Codex Sinaiticus|exclude:language bucket
+7|manusc|Sanskrit manuscripts (unlocalised)|C|4174|Tattvartha Sutra|exclude:language bucket
+8|world_|Indonesian|F|3854|Kikker|tag:place
+9|manusc|Islamic book arts: Arabic (see islamic_world.py)|C|3726|Samarkand Kufic Quran|
+10|manusc|Hebrew manuscripts (unlocalised)|C|3696|Leningrad Codex|leaf:C2-26
+11|smiths|Native Americans|D|3661|Figure (Image withheld, pending review)|
+12|manusc|Western European manuscripts, late medieval/Renaissance (unl|C|3490|Book of Soyga|tag:period
+13|manusc|Islamic book arts: Persianate (see islamic_world.py)|C|3426|Shahnameh of Shah Tahmasp|
+14|east_a|China · Qing|C|3327|聯|
+15|manusc|Dunhuang and early Chinese manuscripts (to 1000)|C|3122|Codex Falkensteinensis|leaf:C2-10
+16|manusc|Tibetan manuscripts and illustrated books|C|2323|Lotus Sutra Or.8210/S.155|exclude:script/language bucket
+17|smiths|possibly Multiple archaeological cultures (attributed), incl|D|2160|Vessel fragment|exclude:below inclusion rule (§2.3)
+18|africa|Maori|D|1888|Figure,Cast|tag:place
+19|world_|Chinese|D|1878|Vogel|tag:place
+20|east_a|Japan · Heian|D|1640|Masks of the Twelve Devas|
+21|manusc|Armenian (later or unlocalised)|C|1556|Matenadaran MS 7117|leaf:A1-20
+22|manusc|Byzantine, Middle (843-1204)|C|1517|Codex Ephraemi Rescriptus|leaf:A1-16
+23|east_a|China · Ming|C|1359|詩冊|
+24|east_a|Korea · Joseon|C|1222|高麗再雕版大方等無想経|
+25|east_a|Japan · Kamakura|C|1175|Sutra of Forty-two Chapters|
+26|manusc|Byzantine, Palaiologan (1204-1453)|C|1174|Lectionary 1|tag:period
+27|east_a|Japan · Heian|C|1171|Fragment of the Mikura Edition of Kookim|
+28|smiths|possibly Multiple archaeological cultures (attributed), incl|D|1161|Abrader/Grinding stone|exclude:mixed archaeological bucket
+29|manusc|Romanesque|C|1130|Domesday Book|leaf:C2-24
+30|manusc|Post-Byzantine Greek (1453+)|C|1099|Minuscule 2427|tag:period
+31|manusc|Balinese lontar|C|1091|Nagarakretagama|leaf:C2-6
+32|manusc|Indonesian manuscripts (unlocalised)|C|1083|Naskah Proklamasi|exclude:unlocalised manuscript bucket
+33|smiths|possibly Multiple archaeological cultures (attributed); incl|D|1056|Axe head|exclude:archaeological tools
+34|smiths|probably Late Archaic Tradition (archaeological culture) (at|D|1048|Bannerstone part/fragment (throwing stic|exclude:archaeological tools
+35|manusc|French late Gothic and Renaissance (Fouquet, Bourdichon)|C|1017|Grandes Heures of Anne of Brittany|kind:C2-25/French
+36|manusc|Chinese illustrated manuscripts and scrolls (1000+)|C|1010|Boxer Protocol|tag:place
+37|east_a|Japan · Kamakura|D|965|Seated Jizo Bosatsu (Kstigarbha Bodhisat|
+38|manusc|Western European manuscripts, early medieval (unlocalised, t|C|917|Codex Aureus of Lorsch|tag:period
+39|islami|Mughal|C|904|Calligraphy of a Pious Invocation in Rhy|tag:period
+40|islami|Mughal · Imperial Mughal atelier|C|892|Persian calligraphy framed by an ornamen|
+41|smiths|probably A:shiwi (Zuni) (archaeological) (attributed)|D|885|Abrader/Grinding stone (Image withheld, |kind:E1-66/Zuni
+42|manusc|Italian Renaissance illumination|C|879|Farnese Hours|leaf:C2-25
+43|manusc|Japanese manuscripts and Nara-ehon|C|836|Haboku sansui|leaf:A1-14
+44|manusc|Ethiopian (Ge'ez)|C|831|Ethiopian magic scroll|leaf:C2-14
+45|manusc|Gothic: French and Northern French|C|820|Ingeborg Psalter|kind:C2-29/French
+46|world_|Japanese|D|817|Mannenfiguur in grijs speksteen, een vog|tag:place
+47|smiths|Sioux|F|763|Bridle|tag:place
+48|smiths|Iñupiaq [Nuwukmiut/Point Barrow]|D|753|Harpoon rest|tag:place
+49|manusc|Gothic: Italian (Bologna, Florence, Siena, Lombardy)|C|753|Anjou Bible|kind:C2-29/Italian
+50|manusc|Ancient Egyptian papyri|C|740|The so-called “Turin King List”, with a |leaf:C2-15
+51|south_|Mughal|C|734|Portrait of a kneeling holy man, from th|tag:period
+52|smiths|possibly Multiple archaeological cultures (attributed); incl|D|697|Hammerstone|exclude:archaeological tools
+53|east_a|China · Republic|C|646|Couplet in Seven-Character Meter, in Sta|
+54|world_|Ghanaian|F|618|BEENDECORATIE VAN GLASKRALEN|exclude:below inclusion rule (§2.3)
+55|smiths|possibly Woodland Tradition (archaeological culture) (attrib|D|614|Net weight/Netsinker|exclude:archaeological tools
+56|world_|South African|F|609|HOOFDBAND BESTAANDE UIT GLASKRALEN|exclude:below inclusion rule (§2.3)
+57|manusc|Javanese manuscripts (Old Javanese / Kawi, Javanese)|C|609|Pararaton|kind:C2-6/Old Javanese (Kawi)
+58|islami|Deccani sultanates · Deccani (Golconda)|C|577|A prince riding a composite elephant|
+59|manusc|Islamic book arts: Ottoman (see islamic_world.py)|C|566|The Book of Felicity|
+60|smiths|Egyptians|F|560|Bead of irregular form; longitudinal bor|exclude:below inclusion rule (§2.3)
+61|east_a|China · Yuan|C|550|聴濤声三字|
+62|smiths|Apsáalooke (Crow/Absaroke)|F|523|Shoulder bag/Bandolier bag|tag:place
+63|world_|Suriname|F|500|Vermoedelijk originele glasplaat van dio|
+64|manusc|Gothic: English|C|480|Holkham Bible|kind:C2-29/English
+65|smiths|probably Central/Middle Mississippian (archaeological cultur|D|476|Hammerstone (Image withheld, pending rev|tag:period
+66|east_a|Japan · Edo|D|463|Hannya with Curved Horns No Mask|
+67|east_a|China · Qing|D|459|Kannon Bosatsu（Seated Avalokitesvara）|
+68|world_|Chinese|C|453|Rolschildering|tag:place
+69|smiths|possibly Multiple archaeological cultures (attributed), incl|D|421|Fishing line sinker or net weight/sinker|exclude:mixed archaeological bucket
+70|east_a|Japan · Meiji|C|411|Namu Amida Butsu (&quot;I Take Refuge in|
+71|manusc|Hebrew: Italian|C|410|Rothschild Miscellany|kind:C2-26/Italian
+72|manusc|Mexican / New Spain manuscripts (unlocalised)|C|408|Crónica Mexicayotl|exclude:text bucket (alphabetic Nahuatl/Spanish chronicles)
+73|manusc|German / Austrian late Gothic and Renaissance|C|400|Naturstudien|tag:place
+74|east_a|Japan · Muromachi|C|384|Three Poems on a Summer&#39;s Day by Shi|
+75|east_a|China · Song|C|368|維摩居士像|
+76|islami|Mughal · Prince Salim's atelier (Allahabad)|C|364|Illuminated opening page (folio 1 verso)|
+77|islami|Company · Company school|C|363|A male member of William Fullerton's hou|
+78|east_a|Japan · Nara|C|351|Fragment from the Kawachi Edition of Kon|
+79|smiths|Iñupiaq|D|339|Harpoon rest depicting two polar bears|tag:place
+80|east_a|Japan ·|D|338|Lions|
+81|smiths|Assiniboine (Stoney)|F|337|Knife sheath (No image available)|tag:place
+82|world_|Indonesian|C|331|MINIATUUR VAN EEN OVALE SCHAAL|tag:place
+83|world_|Indian|D|324|Hemelnimf|tag:place
+84|south_|Indian|C|312|Page from a Jaina Manuscript|tag:place
+85|manusc|Old Rus' and Muscovite|C|304|Codex Basilensis A. N. III. 12|leaf:C2-27
+86|smiths|A:shiwi (Zuni)|D|303|Fetish figure|tag:place
+87|smiths|Kiowa|F|303|Moccasins|tag:place
+88|world_|Mexican|D|301|DOORBOORD STEENTJE IN DE VORM VAN EEN HO|tag:place
+89|smiths|possibly Late Archaic or Early Woodland Tradition (archaeolo|D|300|Maul/Hammer head|exclude:archaeological tools
+90|smiths|Iñupiaq [Tikiġaq/Point Hope]|D|300|Scraper|tag:place
+91|world_|Indian|F|297|Tabakskom van een waterpijp|tag:place
+92|south_|Gandhara|D|291|Head|kind:D5-1
+93|gap_sw|Wayang kulit (shadow puppets, Java / Bali)|D|289|Shadow Puppet (Wayang Kulit)|leaf:D4-3
+94|smiths|possibly Maya (archaeological culture) (attributed)|D|287|Wall fragment/part (Image withheld, pend|kind:D3-8/Maya
+95|smiths|Mohawk [Kahnawake]|F|283|Wallpocket|kind:H9-7/Kahnawake (Mohawk)
+96|south_|Indian|D|280|Cover|tag:place
+97|manusc|Coptic|C|279|Gospel of Philip|exclude:language bucket
+98|smiths|Anishinaabe (Chippewa/Ojibwa)|F|278|Hair tie|tag:place
+99|manusc|Gothic: German and Austrian|C|277|Bellifortis|kind:C2-29/German
+100|smiths|Lakota (Teton/Western Sioux)|F|270|Dance wand/baton|tag:place
+101|smiths|probably Multiple archaeological cultures (attributed), incl|D|270|Axe head (Image withheld, pending review|exclude:mixed archaeological bucket
+102|world_|Thai|D|270|Stempel|tag:place
+103|world_|Malian|D|270|GEVLOCHTEN HOOFDBEDEKKING MET FRANJE, BE|exclude:below inclusion rule (§2.3)
+104|east_a|Japan · Nanbokuchō|C|264|Exemplary Calligraphy of Teachings by As|
+105|world_|Canadian|D|259|GIPSAFGIETSEL VAN EEN 24-JARIGE INUIT-MA|exclude:below inclusion rule (§2.3)
+106|world_|Greenland|D|259|DERTIEN AFSLAGEN|
+107|manusc|Islamic Nusantara manuscripts (Jawi, Pegon)|C|258|Hikayat Amir Hamzah|leaf:C2-4
+108|smiths|Non-Indian (archaeological); probably used by the Cayuga|F|257|Bead/beads|exclude:mis-regioned NMAI row (Non-Indian = non-Native American)
+109|world_|Indian|C|256|Miniatuur met een voorstelling van een v|tag:place
+110|smiths|probably Iñupiaq (attributed)|D|253|Lamp|tag:place
+111|world_|Chinese|F|253|Kraal|tag:place
+112|smiths|Pikuni Blackfeet (Piegan)|F|250|Man's leggings|tag:place
+113|east_a|China · Southern Song|C|245|論語集註草稿残稿|
+114|east_a|China · Tang|C|244|千福寺多宝塔感応碑（宋拓）|
+115|himala|Gandharan|D|242|Four-Armed Seated God Ganesha|kind:D5-1
+116|world_|Japanese|C|234|Rolschildering|tag:place
+117|world_|Indonesian, Bali|F|233|Beeld van een godin|tag:place
+118|smiths|Non-Indian|F|232|Bead/beads|exclude:mis-regioned NMAI row (Non-Indian = non-Native American)
+119|south_|Western Indian (Jain)|C|230|Kalpasutra|leaf:A1-9
+120|smiths|Niitsitapii (Blackfoot/Blackfeet)|F|230|Blanket strip|tag:place
+121|world_|Democratic Republic of the Congo|D|228|IVOREN LEPEL|exclude:below inclusion rule (§2.3)
+122|world_|Japanese|F|227|Toilettafel van zwart lak met bloemtakke|tag:place
+123|smiths|possibly Multiple archaeological cultures (attributed), incl|D|224|Pointed object (Image withheld, pending |exclude:mixed archaeological bucket
+124|smiths|probably Multiple archaeological cultures (attributed), incl|D|222|Axe head (Image withheld, pending review|exclude:mixed archaeological bucket
+125|smiths|Middle Easterners|F|218|Bead, with inwardly rounded bore|
+126|smiths|Ute|F|218|Man's leggings|tag:place
+127|smiths|Guna [Guna Yala]|F|217|Necklace|kind:H4-33/Guna Yala
+128|smiths|Plains Cree (Prairie Cree)|F|216|Pad saddle|tag:place
+129|africa|Unspecified (Africa)|F|214|Necklace|exclude:no attribution
+130|smiths|Tsitsistas/Suhtai (Cheyenne)|F|213|Cradleboard cover|tag:place
+131|smiths|probably Chican Ostionoid (Chicoid) (archaeological culture)|D|213|Sculpture|tag:place
+132|east_a|Japan · Momoyama|C|208|Letter by Priest Dosho of Shoko-in Templ|
+133|manusc|Iberian late Gothic and Renaissance|C|208|Cançoner musical de Barcelona|tag:place
+134|world_|Kenyan|F|206|HOUTEN TABAKSPOT MET DEKSEL|exclude:below inclusion rule (§2.3)
+135|manusc|South Asian manuscripts (unlocalised)|C|206|Stars of the Sciences|exclude:umbrella bucket
+136|south_|Deccani|C|205|Kanphata yogini met haar volgelingen|tag:place
+137|world_|United States of America|D|205|SCHIJF VERSTEEND HOUT|
+138|smiths|possibly Tumaco–La Tolita (archaeological culture) (attribut|D|204|Grooved object (Image withheld, pending |tag:place
+139|smiths|Guna (Kuna)|F|203|Figure|kind:H4-33/Guna
+140|smiths|Non-Indian (archaeological); probably used by Native people |F|202|Bead/beads (Image withheld, pending revi|exclude:mis-regioned NMAI row (Non-Indian = non-Native American)
+141|smiths|Tlingit|F|202|Necklace with pendant|tag:place
+142|smiths|Non-Indian (archaeological); probably used by the Seneca|F|202|Bead/beads (Image withheld)|exclude:mis-regioned NMAI row (Non-Indian = non-Native American)
+143|smiths|probably Thule Tradition (archaeological culture) (attribute|D|199|Vessel fragment|exclude:archaeological tools
+144|manusc|Central and Eastern European manuscripts|C|197|Letter of Majesty|exclude:language bucket
+145|manusc|Hebrew: Oriental (Mizrahi, Persian, Egyptian)|C|194|Afghan Geniza|
+146|smiths|probably Multiple archaeological cultures (attributed), incl|D|193|Worked stone (Image withheld, pending re|exclude:mixed archaeological bucket
+147|smiths|possibly Multiple archaeological cultures (attributed), incl|D|193|Abrader|exclude:archaeological tools
+148|east_a|Korea ·|C|188|미남궁 서첩(탁본)|
+149|smiths|probably Archaic Tradition (archaeological culture) (attribu|D|188|Bannerstone (throwing stick/atlatl weigh|exclude:archaeological tools
+150|smiths|possibly Late Woodland Tradition (archaeological culture) (a|D|188|Pipe (unfinished)|exclude:archaeological tools
+151|smiths|Niuam (Comanche)|F|187|Sash/Belt|tag:place
+152|east_a|China · Shang|D|186|Ceremonial Dagger-Axe with Animal Masks |
+153|manusc|Ethiopian (Ge'ez), Gondarine and later|C|186|Scroll Amulet (CBL W 941)|tag:period
+154|south_|Sri Lankan|C|180|Cover of a Palm-Leaf Manuscript|tag:place
+155|world_|Costa Rican|D|180|KRAAL IN TANDVORM|tag:place
+156|smiths|Meskwaki (Fox)|F|179|Hair wrapper and tie|tag:place
+157|smiths|possibly Multiple archaeological cultures (attributed), incl|D|176|Axe head|exclude:below inclusion rule (§2.3)
+158|smiths|Tuscarora|F|176|Coat/jacket cuffs|kind:H9-7/Tuscarora
+159|world_|Papua New Guinean|D|176|MASKER VAN BESCHILDERDE KLEI OP ROTAN VL|exclude:below inclusion rule (§2.3)
+160|east_a|China · Tang|D|173|Buddhist Triad|
+161|east_a|Japan · Muromachi|D|171|Tsurimanako No Mask|
+162|smiths|Non-Indian (archaeological)|F|169|Bead/beads (Image withheld, pending revi|exclude:mis-regioned NMAI row (Non-Indian = non-Native American)
+163|smiths|possibly Multiple archaeological cultures (attributed), incl|D|169|Axe head (Image withheld, pending review|exclude:mixed archaeological bucket
+164|smiths|probably Woodland Tradition (archaeological culture) (attrib|D|167|Pipe fragment|kind:D6-7/Woodland stone pipes
+165|smiths|possibly Zapotec or Mixteca (Mixtec) (archaeological culture|D|167|Figure (Image withheld, pending review)|tag:place
+166|smiths|Otomí [San Pablito]|D|167|Cutout figure|kind:A6-14/San Pablito Otomí
+167|smiths|Inunaina (Arapaho)|F|166|Guncase|tag:place
+168|world_|United States of America|F|164|RODE KAARS VOOR SANTA BARBARA IN EEN GLA|
+169|manusc|Syriac|C|164|Rabbula Gospels|
+170|smiths|Dakota (Eastern Sioux)|F|163|Moccasin part/fragment|tag:place
+171|world_|Democratic Republic of the Congo|F|162|HOUTEN ZETEL GEDRAGEN DOOR EEN ZITTENDE |exclude:below inclusion rule (§2.3)
+172|east_a|Japan · Nara|D|161|Garuda Gigaku Mask|
+173|east_a|China · Eastern Zhou|D|161|Sakyamuni Preaching: A Votive Stele|
+174|smiths|possibly Chican Ostionoid (Chicoid) (archaeological culture)|D|160|Axe head fragment|tag:place
+175|smiths|Ho-Chunk (Hoocąk/Winnebago)|F|160|Man's shirt|tag:place
+176|smiths|Oglala Lakota (Oglala Sioux)|F|160|Awl case|tag:place
+177|manusc|Flemish / Ghent-Bruges and Burgundian Netherlands|C|159|Black Hours, Morgan Library|leaf:C2-30
+178|manusc|Hebrew: Ashkenazi|C|158|Birds' Head Haggadah|kind:C2-26/Ashkenazi
+179|manusc|Japanese emaki (Yamato-e)|C|155|Chōjū-jinbutsu-giga|kind:A2-8/emaki
+180|smiths|Wixarika (Huichol)|F|154|Altar accessory|tag:place
+181|south_|Javanese|D|153|Puppet, masked dancer|tag:place
+182|manusc|Graeco-Roman Egyptian papyri|C|153|Papyrus of Ani|exclude:documentary papyri
+183|east_a|Japan · Asuka|D|152|Standing Kannon Bosatsu (Sk. Avalokiteśv|
+184|east_a|Japan · c. 1615-1867|C|152|Ehon yuki no ada uchi|
+185|smiths|Siberian Yupik [St. Lawrence Island]|D|152|Arrow point|tag:place
+186|manusc|English late medieval|C|152|Bannatyne Manuscript|tag:place
+187|smiths|probably South Appalachian Mississippian (archaeological cul|D|151|Chunkee stone/Discoidal (Image withheld,|tag:period
+188|world_|Papua New Guinean|F|151|HALSSNOER VAN KRALEN EN TANDEN|exclude:below inclusion rule (§2.3)
+189|gap_sw|Napatan and Meroitic Kush|D|146|Statuette of Re-Horakhty|leaf:E1-41
+190|world_|Suriname|D|146|MET SNIJWERK VERSIERDE KOKOSNOOT|
+191|islami|Iran|C|142|Illuminated folio (recto) from a Gulista|
+192|smiths|Pomo|C|142|Miniature basket|tag:place
+193|manusc|Hebrew: Sephardi|C|142|Sarajevo Haggadah|kind:C2-26/Sephardi
+194|islami|Spain|C|139|Manuscript cutting|
+195|smiths|Northern Tsitsistas/Suhtai (Cheyenne)|F|139|Sash/Belt|tag:place
+196|smiths|Oklahoma Shawnee|F|138|Moccasins|tag:place
+197|smiths|possibly Caddoan (archaeological) (attributed)|D|137|Unidentifiable item (Image withheld, pen|exclude:archaeological tools
+198|smiths|Seminole|F|135|Sash/Belt|tag:place
+199|world_|Nigerian|F|133|HOUTEN BEELD VOORSTELLEND EEN MANNELIJKE|exclude:below inclusion rule (§2.3)
+200|gap_sw|Wayang golek (rod puppets, Sunda / Java)|D|132|Puppet|leaf:D4-4
+201|east_a|China · Six Dynasties|C|130|Stone Rubbing of the Yuquan Edition of L|
+202|smiths|possibly Central/Middle Mississippian (archaeological cultur|D|130|Hammerstone (Image withheld, pending rev|tag:period
+203|world_|European|F|130|REPRODUCTIEBEDRIJF TOPOGRAFISCHE DIENST|tag:place
+204|manusc|Hebrew: Yemenite|C|130|KTIV990000401830205171|
+205|smiths|Iñupiaq [Kinugumiut/Kingegan/Cape Prince of Wales]|D|129|Hunting float plug|tag:place
+206|manusc|Gothic: Low Countries|C|129|Hosea and Gomer in an Embrace|kind:C2-29/Low Countries
+207|east_a|China · Six Dynasties|D|128|Bodhisattva|
+208|east_a|Japan · Shōwa|C|128|Chinese Poem in Seven Characters and Fou|
+209|smiths|possibly Veracruz/Gulf Coast (archaeological culture) (attri|D|127|Figure (Image withheld, pending review)|tag:place
+210|world_|Mexican|F|124|KALEBASSCHAAL, AAN DE BINNENKANT VERSIER|tag:place
+211|smiths|possibly Multiple archaeological cultures (attributed); incl|D|123|Axe head|exclude:archaeological tools
+212|smiths|Sac and Fox (Sauk & Fox)|F|123|Moccasins|tag:place
+213|world_|Dutch|F|123|WANDSCHILDERING H. PAULIDES.|tag:place
+214|east_a|Japan · 8世紀|D|122|Seated Yakushi Nyorai (Sk. Bhaiṣajyaguru|
+215|smiths|Seneca|F|120|Moccasins|tag:place
+216|world_|Brazil|D|120|Stokwaaier, met ovaal blad van roze/rode|exclude:below inclusion rule (§2.3)
+217|south_|Company school|C|119|Ten incarnations of Vishnu|leaf:A1-6
+218|smiths|probably Plains Cree (Prairie Cree) (attributed)|F|119|Man's leggings|tag:place
+219|smiths|possibly Central Mexico/Valley of Mexico (archaeological cul|D|118|Figure part/fragment (Image withheld, pe|tag:place
+220|smiths|Winnebago (Ho-chunk/Hoocąk) [Nebraska]|F|118|Moccasins|tag:place
+221|smiths|possibly Multiple archaeological cultures (attributed), incl|D|117|Fishing line sinker or net weight/sinker|exclude:mixed archaeological bucket
+222|world_|Malian|F|114|HALSSIERAAD MET KRALEN|exclude:below inclusion rule (§2.3)
+223|smiths|possibly Late Archaic Tradition (archaeological culture) (at|D|112|Knife blade|exclude:archaeological tools
+224|east_a|China · Qing|F|109|Faceted Bottle|
+225|smiths|Niimíipuu (Nez Perce)|F|109|Moccasins|kind:H8-16/Nez Perce
+226|south_|Unspecified|D|108|Torso|exclude:no attribution
+227|himala|Zanabazar school|D|108|Vajrasattva (Buddhist Deity) - White (so|leaf:D5-12
+228|smiths|probably Multiple archaeological cultures (attributed), incl|D|108|Hammerstone (Image withheld, pending rev|exclude:mixed archaeological bucket
+229|smiths|Tahltan|F|108|Gambling set|tag:place
+230|manusc|Sogdian, Old Uyghur and Turfan manuscripts|C|107|Tshurpu Scroll|exclude:script/language bucket
+231|manusc|Korean: Joseon manuscripts and uigwe|C|107|Gyuwon Sahwa|leaf:C2-11
+232|east_a|China · Ming|D|105|Standing Heavenly Deity|
+233|gap_sw|Ainu textiles and carving (attush, ruunpe, ikupasuy)|C|105|Yorokonbu hiiki no Ezo oshi|alias:H4-29
+234|smiths|Southern Tsitsistas/Suhtai (Cheyenne)|F|105|Moccasins|tag:place
+235|africa|Dan|C|104|Two-Sided Miniature Mask|leaf:D4-18
+236|smiths|Osage|F|104|Man's turban|tag:place
+237|smiths|Sicangu Lakota (Brulé Sioux)|F|104|Moccasins|tag:place
+238|smiths|probably Lakota (Teton/Western Sioux) (attributed)|F|103|Belt bag|tag:place
+239|smiths|probably Tuscarora (attributed)|F|103|Hat/cap part/fragment|kind:H9-7/Tuscarora
+240|smiths|Chinese|D|100|Slab in low relief from mortuary chamber|exclude:below inclusion rule (§2.3)
+241|africa|Unspecified (East Africa)|F|98|Cluster|tag:place
+242|world_|Plains beadwork and quillwork|F|97|Quillwork hatchment of Dering coat of ar|
+243|smiths|Shoshone|F|97|Awl and case|tag:place
+244|smiths|Mi'kmaq (Micmac)|F|96|Woman's hood|tag:place
+245|smiths|probably Multiple archaeological cultures (attributed); incl|D|96|Figure|tag:place
+246|gap_sw|Burmese parabaik manuscript painting|C|95|Manuscript of Excerpts from Buddhist Tex|leaf:A1-12
+247|smiths|probably Multiple archaeological cultures (attributed), incl|D|94|Cone-shaped object (Image withheld, pend|exclude:mixed archaeological bucket
+248|smiths|Hupa|D|93|Smoking tube/Pipe and bag|kind:H8-13/Hupa
+249|world_|Turkish|D|93|DEKSEL VAN HOUTEN KOFFIEDOOS|
+250|smiths|probably Plains (attributed)|F|92|Blanket strip|tag:place
+251|smiths|possibly Multiple archaeological cultures (attributed), incl|D|92|Perforated object (Image withheld, pendi|tag:place
+252|world_|Turkish|F|92|Mannenvest of bolero van lichtgroen lake|
+253|world_|Egyptian|F|92|Hedwig Glass|tag:place
+254|world_|Majapahit|D|92|Afgietsel van een terracotta figuurtje|
+255|smiths|possibly Multiple archaeological cultures (attributed), incl|D|91|Abrader (Image withheld, pending review)|exclude:mixed archaeological bucket
+256|smiths|Caddo|F|91|Blanket strip|tag:place
+257|africa|Unspecified (Senegal)|F|90|Bracelet|tag:place
+258|east_a|Japan · Meiji|D|90|The Ryūtōki Demon (Copy)|
+259|world_|Iranian|F|90|Sprinkler van blauw glas|
+260|east_a|Korea · Unified Silla|D|89|Standing Buddha|
+261|islami|Mughal · Lucknow (Awadh)|C|89|Calligraphy (verso)|
+262|smiths|possibly Yup'ik (Yupik) or Iñupiaq (attributed)|D|88|Fishing net with weights|tag:place
+263|world_|Libya|D|88|RONDE DOORBOORDE STEEN|
+264|manusc|Mongolian manuscripts|C|88|BnF. Département des Manuscrits. Mandcho|leaf:C1-7
+265|east_a|China · Western Zhou|D|86|Goose|
+266|world_|Nigerian|D|86|DEEL VAN EEN BEWERKTE OLIFANTSSLAGTAND|exclude:below inclusion rule (§2.3)
+267|smiths|Mushuaunnuat (Barren Ground Naskapi)|F|85|Man's moccasins|tag:place
+268|world_|Peruvian|D|85|STENEN BEELD IN DE VORM VAN EEN DIER|tag:place
+269|world_|Tanzania|F|85|TIEN PRE-HISTORISCHE KRALEN|exclude:below inclusion rule (§2.3)
+270|south_|Burmese|C|84|Manuscript of Excerpts from Buddhist Tex|tag:place
+271|smiths|Liangzhu culture, ca. 3300-ca. 2250 BCE|D|84|Disk (<em>bi</em> 璧)|
+272|africa|Melanesian|D|81|Beater|tag:place
+273|south_|Nepalese (Newar)|D|81|Vishnu as Narayana|tag:place
+274|smiths|Buddhists|D|81|Buddha|
+275|smiths|Sioux|D|81|War club|tag:place
+276|smiths|probably Hohokam Tradition (archaeological culture) (attribu|D|81|Spherical/ball-shaped object (Image with|leaf:E1-63
+277|smiths|probably Tunumiit [East Greenland] (archaeological) (attribu|D|81|Worked ivory|exclude:archaeological tools
+278|south_|Mathura|D|80|Sculpture|leaf:D5-2
+279|east_a|Japan · Nanbokuchō|D|80|"Bugaku" Mask: "Saisōrō"|
+280|world_|Inuit stone and ivory carving|D|80|Water Bird|
+281|himala|Tsang atelier|D|80|Teacher (Lama) - Teacher|kind:D5-11/Tsang
+282|islami|Deccani sultanates · Deccani|C|80|Rustam Takes Aim at Ashkabus, from a Sha|
+283|smiths|Ihanktonwan Dakota (Yankton Sioux)|F|80|Gauntlet/Cuff|tag:place
+284|smiths|probably Ancestral Pueblo (Anasazi): Virgin (archaeological)|D|79|Slab part/fragment (Image withheld, pend|exclude:archaeological tools
+285|world_|Zimbabwe|D|79|MAGISCHE STEEN, PREHISTORISCH VOORWERP|
+286|smiths|Non-Indian (archaeological); probably used by the Susquehann|F|78|Bead/beads|exclude:mis-regioned NMAI row (Non-Indian = non-Native American)
+287|world_|Brazil|F|78|HOUTEN KNOTS MET HANDVAT VOORZIEN VAN VL|exclude:below inclusion rule (§2.3)
+288|south_|Indian|F|77|Ear ornament|tag:place
+289|gap_sw|Topeng masks (Java / Bali masked dance)|D|77|Mask (Topeng)|leaf:D4-5
+290|smiths|Innu [Nutashkuan]|F|77|Ammunition/cap bag|tag:place
+291|south_|Khmer|D|76|Lintel with Garuda|tag:place
+292|smiths|Potawatomi [Prairie Band, Kansas]|F|76|Shoulder bag/Bandolier bag|tag:place
+293|world_|Angola|F|76|BIERFLES OMHULD MET VLECHTWERK|
+294|south_|Odisha|C|75|Manuscript|tag:place
+295|east_a|Korea · Goryeo|C|75|Chapter on the Practices and Vows of Sam|
+296|smiths|Menominee (Menomini)|F|75|Garters/Legbands|tag:place
+297|smiths|possibly Multiple archaeological cultures (attributed), incl|D|75|Fishing line sinker or net weight/sinker|exclude:mixed archaeological bucket
+298|world_|Greenland|F|75|SNOER MET GLAZEN KRALEN|
+299|smiths|Europeans|F|74|Bead, egg-shaped, with chamfered sides. |kind:F1-3
+300|smiths|Dene (Northern Athabascan)|F|74|Man's tunic|tag:place
+301|smiths|Cree|F|74|Moccasins|tag:place
+302|smiths|Kickapoo [Oklahoma]|F|74|Hair ornament|tag:place
+303|smiths|probably Tumaco–La Tolita (archaeological culture) (attribut|D|74|Axe head (Image withheld, pending review|tag:place
+304|world_|Thai|F|74|DRIE HALSKETTINGEN VAN GLASKRALEN|tag:place
+305|world_|Niger|F|74|ZILVEREN HANGER MET ROOD GLAS|
+306|manusc|Gothic: Parisian|C|74|Montpellier Codex|kind:C2-29/Parisian
+307|manusc|Hebrew: French / Provençal|C|74|The National Library of France Paris Fra|kind:C2-26/French and Provençal
+308|east_a|Korea · Japanese colonial period|C|73|안중근 휘호 황금백만냥 불여일교자|
+309|world_|Yoruba beadwork (ade crowns)|F|73|Adéńlá (big crown)|
+310|world_|Zulu beadwork|F|73|Umutsha (belt)|
+311|himala|Swat Valley|D|73|Bracket with Two Musicians|kind:D5-1/Swat
+312|smiths|probably Ostionoid Tradition (archaeological culture) (attri|D|73|Figure|tag:place
+313|smiths|Yup'ik (Yupik)|D|73|Bow/sinew tightener|tag:place
+314|world_|Cameroon|F|73|VLIEGENWAAIER|exclude:below inclusion rule (§2.3)
+315|manusc|Hindi / Rajasthani / Marathi / Gujarati manuscripts|C|73|Joga Pradīpikā|exclude:language bucket
+316|south_|Thai|D|72|Crowned Head|tag:place
+317|smiths|possibly Mogollon Tradition (archaeological culture) (attrib|D|72|Axe head (Image withheld, pending review|tag:period
+318|gap_sw|Benin court art, early period (before 1700)|D|71|Commemorative Head|leaf:D5-32
+319|himala|Tibetan|D|71|Buddhist God Mahakala|tag:place
+320|south_|Rajput: Jaipur (Amber)|D|70|Figure|kind:A1-7/Jaipur
+321|smiths|possibly Northern Mesoamerica (archaeological) (attributed)|D|70|Figure (Image withheld, pending review)|tag:place
+322|smiths|Ponca|F|70|Moccasins|tag:place
+323|smiths|Haida|D|70|Scratching stone|tag:place
+324|smiths|Kainai Blackfoot (Kainah/Blood)|F|70|Blanket strip part/fragment|tag:place
+325|world_|Burkina Faso|F|70|KLOKJES VAN MESSING|exclude:below inclusion rule (§2.3)
+326|smiths|Iowa|F|69|Fan (No image available)|tag:place
+327|world_|Pakistani|D|69|GIPSAFGIETSEL VAN EEN ZEGEL UIT DE INDUS|tag:place
+328|world_|Ethiopian|F|69|DANSSCHORT MET KRALENVERSIERING VOOR MEI|tag:place
+329|world_|Cameroon|D|69|FIGUUR VAN WAS MET HOOFD AAN BEIDE UITEI|exclude:below inclusion rule (§2.3)
+330|manusc|Samaritan|C|69|BnF. Département des Manuscrits. Samarit|
+331|smiths|probably Aztec (archaeological culture) (attributed)|D|68|Figure (Image withheld, pending review)|tag:place
+332|smiths|Native Americans|C|68|Poncho model/miniature (Image withheld, |
+333|smiths|Non-Indian (archaeological); probably used by the Montauk|F|68|Bead/beads|exclude:mis-regioned NMAI row (Non-Indian = non-Native American)
+334|world_|Ecuadoran|D|68|STENEN HOOFD VAN EEN BEELD|kind:A5-11
+335|east_a|China · Neolithic|D|67|Amulet in the Form of a Seated Figure wi|
+336|smiths|Seneca [Cattaraugus]|F|67|Man's hat|tag:place
+337|smiths|Northern Inunaina (Arapaho)|F|67|Woman's dress|tag:place
+338|smiths|Iglulingmiut Inuit (Iglulirmiut)|D|67|Crochet hook|tag:place
+339|smiths|probably Tairona (archaeological culture) (attributed)|D|67|Stone (Image withheld, pending review)|tag:place
+340|smiths|probably Archaic Age (Ortoiroid) (archaeological culture) (a|D|67|Hammerstone/Grinding stone|exclude:archaeological tools
+341|manusc|Gothic: Iberian|C|67|Hebrew Bible|kind:C2-29/Iberian
+342|smiths|Hunkpapa Lakota (Hunkpapa Sioux)|F|66|Rattle (Image withheld)|tag:place
+343|world_|Canadian|F|66|POP VAN EEN VROUW MET ZEEMLEREN KLEDING |exclude:below inclusion rule (§2.3)
+344|africa|New Caledonia (Kanak)|D|65|Sling Stone|tag:place
+345|east_a|China · Han|D|65|Square Tile with Fret Pattern Design|
+346|smiths|possibly Multiple archaeological cultures (attributed), incl|D|65|Axe head|exclude:mixed archaeological bucket
+347|smiths|possibly Multiple archaeological cultures (attributed), incl|D|65|Pointed object fragment (Image withheld,|exclude:mixed archaeological bucket
+348|smiths|Tlingit|D|64|Adze blade|tag:place
+349|smiths|Potawatomi|F|63|Shoulder bag/Bandolier bag|tag:place
+350|smiths|Yup'ik [Bristol Bay]|D|63|Needle case|tag:place
+351|east_a|China ·|C|62|Calligraphy, After Poet Su Dongpo|
+352|smiths|probably Ancestral Pueblo (Anasazi): Chaco (archaeological) |D|62|Vessel lid/cover (Image withheld, pendin|kind:E1-61/Chaco
+353|smiths|possibly Glades (archaeological culture) (attributed)|D|62|Fishing line sinker or net weight/sinker|tag:period
+354|smiths|Northern Shoshone|F|62|Child's moccasins|tag:place
+355|world_|Sri Lankan|D|62|Fragment van een haarkam|tag:place
+356|smiths|Enxet (Lengua)|F|61|Ear ornament|tag:place
+357|world_|Syrian|F|61|GLAZEN RING|
+358|gap_sw|Burmese lacquer (yun, Bagan)|C|60|Manuscript of Excerpts from Buddhist Tex|leaf:I2-6
+359|smiths|Chiricahua Apache|F|60|Awl case|tag:place
+360|smiths|Modoc|F|60|Basket|kind:H8-13/Modoc
+361|smiths|Kalaallit [Greenland]|D|60|Lamp|tag:place
+362|world_|Burmese|D|60|BEELDEN EN PALEN BIJ DE INGANG VAN EEN P|tag:place
+363|smiths|Diné (Navajo)|F|59|Finger ring|tag:place
+364|smiths|Baffinland Inuit [Kingarmiut/Sikosuilarmiut]|D|59|Harpoon head and case with line|tag:place
+365|smiths|Netsilingmiut Inuit (Netsilik) [Aivilingmiut/Aivilirmiut/Aiv|D|59|Harpoon rest/support|tag:place
+366|smiths|Bering Strait Iñupiaq [King Island]|D|59|Figure|tag:place
+367|manusc|Byzantine, Early (to 843)|C|59|Codex Alexandrinus|tag:period
+368|east_a|Japan · Taishō|C|58|宋版纂図互註尚書 題跋草稿|
+369|gap_sw|Quito School (Escuela quitena)|D|58|High priest|leaf:A5-11
+370|smiths|possibly Multiple archaeological cultures (attributed), incl|D|58|Flake/debitage (Image withheld, pending |tag:period
+371|smiths|possibly Multiple archaeological cultures (attributed), incl|D|58|Hoe blade (Image withheld, pending revie|exclude:mixed archaeological bucket
+372|world_|Angola|D|58|BEWERKTE OLIFANTSTAND MET UITGESNEDEN ME|
+373|south_|South Indian|D|57|Seven-Hooded Snake (Naga)|tag:place
+374|east_a|Japan · Momoyama|D|57|Noh Mask: &quot;Akobujō&quot;|
+375|smiths|Apache|F|57|Boy's leggings|tag:place
+376|smiths|Bush or Western Woods Cree|F|57|Sash/Belt|tag:place
+377|smiths|Oklahoma Delaware|F|57|Figure (Image withheld)|tag:place
+378|manusc|Anglo-Saxon (Winchester school)|C|57|Exeter book|leaf:C2-22
+379|islami|ISLAM|F|56|Bottle|
+380|smiths|possibly South Appalachian Mississippian (archaeological cul|D|56|Disc-shaped object (Image withheld, pend|tag:period
+381|himala|Densatil|D|55|Deity|kind:D5-11/Densatil
+382|smiths|Non-Indian (archaeological); probably used by the Chonnonton|F|55|Bead/beads (Image withheld)|exclude:mis-regioned NMAI row (Non-Indian = non-Native American)
+383|east_a|Japan · 12世紀|C|54|Hoke-kyō (Saddharma-puṇḍarīka sūtra), Vo|
+384|east_a|Japan · 8世紀|C|54|Konkōmyōsaishōō-kyō (Suvarṇaprabhāsottam|
+385|world_|Maasai beadwork|F|54|Necklace|
+386|islami|Ottoman|C|54|Bookbinding for a Qur'an|
+387|smiths|possibly Southern California: Late Period (archaeological cu|D|54|Shaft straightener/smoother (Image withh|exclude:archaeological tools
+388|smiths|Paiute|F|54|Octopus bag|tag:place
+389|smiths|Yakama (Yakima)|F|54|Mnemonic device/record (Image withheld)|tag:place
+390|smiths|possibly Multiple archaeological cultures (attributed), incl|D|54|Axe head (Image withheld, pending review|exclude:mixed archaeological bucket
+391|world_|Indonesian, Java|F|54|Masker|tag:place
+392|manusc|Aramaic (Jewish and Christian)|C|54|Aramaic Enoch Scroll|
+393|gap_sw|Nok terracottas|D|53|Head|leaf:D5-30
+394|himala|Nepal: Shah|D|53|Tara (Buddhist Deity) - Green|tag:period
+395|smiths|Siberian Yupik [Kokuluk, St. Lawrence Island]|D|53|Crampons|tag:place
+396|smiths|probably Northern Mesoamerica (attributed)|C|53|Miniature plate|tag:place
+397|south_|Pakistan (Indus / NW)|D|52|Head|tag:place
+398|east_a|Japan · c. 18th/19th century|C|52|Taitokai kabuki suikoden|
+399|himala|Western Himalayan (Ladakh, Spiti, Kinnaur)|D|52|Any Category - Any Central Figure|tag:place
+400|smiths|Iroquois|F|52|Man's coat/jacket collar|tag:place
+401|smiths|Lake Superior Chippewa|F|52|Medicine bag for Midewiwin rituals (Imag|tag:place
+402|islami|Qajar · Qajar Tehran|C|51|Manuscript of Gulshan-i Raz (The Rose Ga|
+403|smiths|Akawaio (Acawai)|F|51|Sash/Belt|tag:place
+404|smiths|possibly Multiple archaeological cultures (attributed), incl|D|51|Shaft straightener/smoother (Image withh|exclude:mixed archaeological bucket
+405|smiths|possibly Casas Grandes Tradition (archaeological culture) (a|D|51|Polishing stone|tag:period
+406|smiths|probably Maya (archaeological culture) (attributed)|D|50|Chipped "eccentric" (Image withheld, pen|leaf:E1-43
+407|smiths|San Carlos Apache|F|50|Girl's dress|tag:place
+408|smiths|probably Fort Ancient (archaeological culture) (attributed)|D|50|Chunkee stone/Discoidal (Image withheld,|tag:period
+409|world_|Pakistani|F|50|BESCHILDERDE EN VERGULDE GLAZEN ARMBAND|tag:place
+410|manusc|Islamic book arts: Maghrebi / Andalusi (see islamic_world.py|C|50|Nurse's Qur'an|
+411|manusc|Ottonian|C|50|Gospels of Otto III|leaf:C2-21
+412|east_a|Japan · 13～14世紀|D|49|Standing Namubutsu Taishi (Prince Shōtok|
+413|himala|Gyantse|D|49|Bodhisattva - (unidentified male)|kind:A4-7/Gyantse style
+414|smiths|possibly Multiple archaeological cultures (attributed); incl|D|49|Axe head|exclude:archaeological tools
+415|world_|Bangladeshi|D|49|Durga Killing the Buffalo Demon|tag:place
+416|world_|Dutch|D|49|GEKLEURDE HOUTSNEDE, VOORSTELLENDE EEN E|tag:place
+417|manusc|Georgian|C|49|Vani Gospels|tag:place
+418|smiths|possibly Multiple archaeological cultures (attributed); incl|D|48|Abrader/Grinding stone|exclude:archaeological tools
+419|smiths|possibly Multiple archaeological cultures (attributed), incl|D|48|Axe head (Image withheld, pending review|exclude:mixed archaeological bucket
+420|smiths|probably Plains Village Tradition: Numakiki (Mandan) (archae|D|48|Flake/debitage|exclude:archaeological tools
+421|manusc|Jain manuscripts (Western Indian style)|C|48|Agama (Jainism)|alias:A1-9
+422|south_|Bengal|D|47|Relief|tag:place
+423|east_a|Japan · 現代時代・19世紀|C|47|楷書陶弘景語|
+424|east_a|Japan · 19th century|C|47|Ehon kotoshi no hana|
+425|world_|Great Lakes beadwork and ribbonwork|F|47|Shoulder bag|
+426|gap_sw|Bura (Asinda-Sikka) terracottas|D|47|Grave Marker|leaf:D5-36
+427|islami|Mamluk|F|47|Beaker|
+428|smiths|Penobscot|F|47|Female doll|tag:place
+429|smiths|Mississippi Choctaw|F|47|Hat/Cap|kind:H8-21/Choctaw
+430|world_|Guatemalan|D|47|STENEN HOOFD VAN EEN BEELD.|tag:place
+431|world_|Iranian|C|47|KORAN MET ILLUMINATIES IN GOUD EN LAKWER|
+432|world_|Ivory Coast|F|47|SNOER GEKLEURDE, MILLE FLEURS, GLASKRALE|
+433|manusc|Carolingian|C|47|Lay of Hildebrand|leaf:C2-20
+434|africa|Unspecified (Western Australia)|D|46|Grinding Stone (uncertain)|tag:place
+435|south_|Burmese|D|46|Seated crowned buddha|tag:place
+436|smiths|possibly Multiple archaeological cultures (attributed), incl|D|46|Cone-shaped object (Image withheld, pend|exclude:mixed archaeological bucket
+437|smiths|Oto|F|46|Hat/cap (No image available)|tag:place
+438|smiths|possibly Multiple archaeological cultures (attributed), incl|D|46|Abrader|exclude:archaeological tools
+439|smiths|Non-Indian; probably used by the Tlingit|F|46|Bead/beads|exclude:below inclusion rule (§2.3)
+440|world_|Tanzania|D|46|HOUTEN STOP VAN HOUTEN KRUIDKOKER|exclude:below inclusion rule (§2.3)
+441|world_|Moroccan|F|46|HOED VAN DE WATERDRAGER, VERSIERD MET SP|
+442|south_|Bihar|D|45|Portable Buddhist Temple|tag:place
+443|smiths|probably Northeast (archaeological) (attributed)|D|45|Pipe (unfinished)|kind:D6-7/Northeastern stone pipes
+444|smiths|probably Central Mexico/Valley of Mexico (archaeological cul|D|45|Abrader (Image withheld, pending review)|tag:place
+445|smiths|Wichita|F|45|Shinney/Shinny stick and double ball|tag:place
+446|africa|Sherbro|D|44|Charm|tag:place
+447|south_|Unspecified|C|44|Painting|exclude:no attribution
+448|east_a|Japan · 15～16世紀|D|44|懸仏断片(小銅仏)134点|
+449|smiths|probably Northern Mesoamerica (archaeological) (attributed)|D|44|Figure (Image withheld, pending review)|tag:place
+450|smiths|Iñupiaq [Nuwukmiut/Point Barrow]|F|44|Charm/Amulet|tag:place
+451|smiths|Non-Indian (archaeological); probably used by the Lenape (De|F|44|Bead/beads|exclude:mis-regioned NMAI row (Non-Indian = non-Native American)
+452|smiths|Onondaga|F|44|Bag|tag:place
+453|smiths|Non-Indian; possibly used by Northwest Coast peoples|F|44|Bead/beads|exclude:below inclusion rule (§2.3)
+454|smiths|possibly Mainland Caribbean (attributed)|D|44|Worked stone (Image withheld, pending re|exclude:archaeological tools (stone woodworking tools)
+455|world_|Kenyan|D|44|KALEBAS MET HOUTEN STOP|exclude:below inclusion rule (§2.3)
+456|manusc|South Slavic (Serbian, Bulgarian)|C|44|Miroslav Gospel|tag:place
+457|manusc|Japanese illustrated sutras|C|44|Heike Nōkyō|leaf:C2-12
+458|east_a|Japan · 16～17世紀|D|43|Ring|
+459|islami|Mamluk|C|43|Qur'an Manuscript Folio|
+460|islami|Mughal · Murshidabad|C|43|Emperor Jahangir|
+461|smiths|probably Inka (Inca) (archaeological) (attributed)|D|43|Vessel (Image withheld, pending review)|tag:place
+462|smiths|Non-Indian|D|43|Squeeze of Petroglyph|exclude:mis-regioned NMAI row (Non-Indian = non-Native American)
+463|smiths|Plains Ojibwa (Bungi)|F|43|Pipebag|tag:place
+464|smiths|possibly Southern California: Early Period (archaeological c|D|43|Crescent-shaped object (Image withheld, |tag:period
+465|smiths|A:shiwi (Zuni)|F|43|Bead/Beads (Image withheld)|tag:place
+466|world_|Solomon Islands|F|43|VISHAAK VAN SCHELP EN SCHILDPAD VOOR DE |alias:D5-87
+467|east_a|China · Northern Song|C|42|資政殿学士戸部侍郎 范文正公神道碑并序（拓本）|
+468|smiths|White Mountain Apache|F|42|Necklace with tweezers|tag:place
+469|smiths|Mohawk|F|42|Handbag/purse|tag:place
+470|smiths|possibly Archaic Tradition (archaeological culture) (attribu|D|42|Fishing line sinker or net weight/sinker|exclude:archaeological tools
+471|east_a|China · Eastern Han|C|41|Stele of a Eulogy for Kong Miao|
+472|europe|people:khanty:bone_carving|D|41|Элемент упряжи оленя|
+473|europe|people:georgian:bone_carving|D|41|Рог для грузинского вина "Канци".|
+474|world_|Madhubani painting|D|41|Radha and Krishna on a Swing in Brindava|leaf:A6-1
+475|islami|Mughal Empire|C|41|Yudhisthira|
+476|smiths|probably A:shiwi (Zuni) (archaeological) (attributed)|C|41|Miniature bowl (Image withheld, pending |kind:E1-66/Zuni
+477|smiths|Salish (Flathead)|F|41|Man's leggings|tag:place
+478|smiths|possibly Multiple archaeological cultures (attributed); incl|D|41|Figure|exclude:archaeological tools
+479|smiths|possibly Puebla-Tlaxcala (archaeological) (attributed)|D|41|Figure (Image withheld, pending review)|tag:place
+480|world_|Peruvian|F|41|RONDE BORSTPLAAT, SIERAAD VOOR VROUWEN|tag:place
+481|africa|Unspecified (Australia)|D|40|Churinga|tag:place
+482|europe|people:belarusian:glass|F|40|Ваза "ХII съезд профсоюзов". Подарок ХII|
+483|europe|people:azerbaijani:glass|F|40|Ваза для печенья подарок И.В.Сталину из |
+484|europe|people:tatar:glass|F|40|Пластина с портретом Ф.Дзержинского - по|
+485|europe|people:estonian:glass|F|40|Ваза для цветов с текстом : "Taallinna k|
+486|europe|people:chukchi:bone_carving|D|40|Поделка из рога лося "Пеликен"|
+487|europe|people:chuvash:glass|F|40|Ваза.|
+488|europe|people:cossack:glass|F|40|Предмет быта "Подстаканник алюминиевый"|
+489|europe|people:ukrainian:glass|F|40|Сосуд бесцветного стекла в форме медведя|
+490|europe|people:nenets:bone_carving|D|40|Головка курительной трубки|
+491|europe|people:yakut_sakha:bone_carving|D|40|Головка курительной трубки|
+492|europe|people:ukrainian:lacquer_miniature|C|40|Панно деревянное «Портрет С.А.Есенина»|
+493|europe|people:boyko_lemko_rusyn:lacquer_miniature|C|40|деталь игрового костюма. Фуражка из комп|
+494|europe|people:belarusian:manuscript_illumination|C|40|Грампластинка «Песня о 28 Армии»|
+495|europe|people:mansi:bone_carving|D|40|Элемент оленьей упряжи.|
+496|europe|people:udmurt:glass|F|40|Бутылка|
+497|europe|people:cossack:lacquer_miniature|C|40|Шкатулка « Сказка о золотом петушке»|
+498|europe|people:khanty:glass|F|40|Фонарь переносной керосиновый|
+499|europe|people:cossack:manuscript_illumination|C|40|Выписка из описания приходских церквей.|
+500|europe|people:moldovan:manuscript_illumination|C|40|Письмо - заявление в ЦК КП Молдавской СС|
+501|europe|people:tatar:lacquer_miniature|C|40|Шкатулка "ПЛЕНЕНИЕ ИГОРЯ"|
+502|europe|people:karelian:manuscript_illumination|C|40|Удостоверение к  знаку "Ветеран Карельск|
+503|europe|people:ukrainian:manuscript_illumination|C|40|Полотенце льняное, украшенное вышивкой (|
+504|europe|people:komi:bone_carving|D|40|Аркан|
+505|europe|people:dagestani_general:bone_carving|D|40|Брошь "Павлин"|
+506|europe|people:evenk:bone_carving|D|40|Стрела с костяным наконечником.|
+507|europe|people:koryak:bone_carving|D|40|Корзинка из морской травы с костяным ушк|
+508|europe|people:roma:manuscript_illumination|C|40|Пуант (из пары) с подписями учеников Г.И|
+509|europe|people:sami:bone_carving|D|40|Картина. Саамский мотив. Художник Валент|
+510|europe|people:nanai:manuscript_illumination|C|40|Прорисовка орнамента. Нанайцы.|
+511|europe|people:udmurt:bone_carving|D|40|Костыль|
+512|europe|people:tuvan:bone_carving|D|40|Лук - тувинский композитный, сложнососта|
+513|europe|people:adyghe_circassian_kabardian:manuscript_illumination|C|40|Рисунок кружевной ученицы школы кружевни|
+514|europe|people:mari:manuscript_illumination|C|40|Рукопись|
+515|europe|people:boyko_lemko_rusyn:manuscript_illumination|C|40|Образец продукции артелей "Кожвалмехсоюз|
+516|europe|people:bashkir:manuscript_illumination|C|40|Картина световая №2.  Мастерская С.А. Ба|
+517|europe|people:yakut_sakha:manuscript_illumination|C|40|Вымпел "Турнир по художественной гимнаст|
+518|europe|people:khanty:manuscript_illumination|C|40|Знамя Победы, с именными подписями участ|
+519|europe|people:mansi:manuscript_illumination|C|40|Знамя Победы, с именными подписями участ|
+520|europe|people:komi:manuscript_illumination|C|40|Сувенир "Сувенир юбилейный. Хрустальный |
+521|europe|people:lithuanian:bone_carving|D|40|Костяшка|
+522|europe|people:armenian:manuscript_illumination|C|40|Панно с перегородчатой эмалью «Крылатый |
+523|europe|people:lithuanian:manuscript_illumination|C|40|Книга. Житие Преподобного Варлаама Важск|
+524|europe|people:altai:manuscript_illumination|C|40|Веретено|
+525|europe|people:nenets:manuscript_illumination|C|40|Спортивная лента "Чемпион округа. Первен|
+526|europe|people:estonian:manuscript_illumination|C|40|Игрушка. Кукла-мальчик, из комплекта «Ку|
+527|europe|people:chuvash:manuscript_illumination|C|40|Письмо В. Лебединец с воспоминаниями о к|
+528|europe|people:tatar:manuscript_illumination|C|40|Тетрадь для черновых записей Туешевой З.|
+529|europe|people:georgian:manuscript_illumination|C|40|Банка из-под плиточного грузинского чая.|
+530|europe|people:udmurt:manuscript_illumination|C|40|Браслет.|
+531|europe|people:russian_no_school_recorded:manuscript_illumination|C|40|пром. графика. Развёртка пачки из-под си|
+532|europe|people:dagestani_general:manuscript_illumination|C|40|Гуляйбат из селения Чаях. Цикла "Дагеста|
+533|europe|people:evenk:manuscript_illumination|C|40|Фактория на Тунгуске.|
+534|europe|people:buryat:manuscript_illumination|C|40|Обложка набора фотооткрыток "Дорога муже|
+535|europe|people:azerbaijani:manuscript_illumination|C|40|Набор открыток «Баку».|
+536|europe|people:latvian:manuscript_illumination|C|40|пром. графика. Этикетка на лицевую сторо|
+537|europe|people:chukchi:manuscript_illumination|C|40|Акварель - селение у подножия гор - «Хат|
+538|europe|people:mordvin_erzya_moksha:manuscript_illumination|C|40|Жил поп всласть|
+539|islami|ISLAM; ISLAMIC|F|40|Cup|
+540|smiths|Seneca [Tonawanda]|F|40|Woman's leggings|tag:place
+541|smiths|Bering Strait Iñupiaq [Diomedes]|D|40|Fishing line sinker|tag:place
+542|smiths|Wahpetonwan Dakota (Wahpeton Sioux)|F|40|Medicine bag and contents for Midewiwin |tag:place
+543|smiths|possibly Multiple archaeological cultures (attributed), incl|D|40|Perforated object (Image withheld, pendi|exclude:mixed archaeological bucket
+544|smiths|probably Inuit (archaeological) (attributed)|D|40|Arrow point|exclude:archaeological tools
+545|smiths|Southern Plains|F|40|Fan (No image available)|exclude:below inclusion rule (§2.3)
+546|world_|Afghan|F|40|SPIRAALVORMIG GEDRAAIDE MESSINGEN HALSSI|
+547|world_|Australia|D|40|VECHTSCHILD IN BRUIN EN LICHTGEEL MET IN|
+548|world_|Edo, Benin Kingdom|F|40|HOUTEN KRACHTBEELD VAN EEN VROUW MET OPG|leaf:D5-32
+549|africa|Herero|F|39|Necklace|tag:place
+550|europe|people:buryat:bone_carving|D|39|Ган - дан.|
+551|islami|Fatimid|F|39|Bottle|
+552|smiths|Umatilla|F|39|Saddle bag|kind:H8-16/Umatilla
+553|smiths|possibly Multiple archaeological cultures (attributed), incl|D|39|Cone-shaped object|exclude:mixed archaeological bucket
+554|smiths|possibly Multiple archaeological cultures (attributed), incl|D|39|Grooved object (Image withheld, pending |exclude:mixed archaeological bucket
+555|smiths|Northwest Coast|F|39|Necklace|tag:place
+556|world_|Yemeni|F|39|GLAZEN ZWARTSELFLES|
+557|world_|Ecuadoran|F|39|SIERSPELD MET GROEN STEENTJE|kind:A5-11
+558|world_|Mughal|C|39|Miniatuur|tag:period
+559|manusc|Burmese parabaik and kammavaca|C|39|Kammavacha: Buddhist Ordination Text|leaf:C2-8
+560|manusc|Late Antique and Early Christian|C|39|Codex Argenteus|leaf:C2-17
+561|east_a|Japan · 13～15世紀|D|38|千体地蔵菩薩立像|
+562|europe|people:adyghe_circassian_kabardian:bone_carving|D|38|Кусок кости. Кабардинцы|
+563|world_|Haudenosaunee raised beadwork|F|38|Pouch|
+564|smiths|Bannock|F|38|Powder horn and ammunition/cap bag|tag:place
+565|smiths|Siksika Blackfoot|F|38|Blanket strip part/fragment|tag:place
+566|smiths|possibly Deptford (archaeological culture) (attributed)|D|38|Worked stone (Image withheld, pending re|exclude:archaeological tools
+567|smiths|Inuit [Cape Dorset/Kinngait]|D|38|Bird|leaf:B2-6
+568|world_|Nepalese|D|38|Kalksteenpoeder om figuren te strooien v|tag:place
+569|east_a|Korea · Post-1945 (Korea)|C|37|오세창 필 박종문물|
+570|europe|wd:Q1799758|C|37|Руслан и Людмила.|
+571|europe|people:mordvin_erzya_moksha:glass|F|37|Фляжка стеклянная с крышкой|
+572|europe|people:kalmyk:manuscript_illumination|C|37|Обложка набора открыток "Наш Ильич".|
+573|world_|Mexican dance masks|D|37|Face Mask|
+574|gap_sw|Burmese lacquer (yun, Bagan)|D|37|Seated Buddha|leaf:I2-6
+575|smiths|Sisitonwan Dakota (Sisseton Sioux)|F|37|Hair ornament|tag:place
+576|smiths|Numakiki (Mandan)|F|37|Porcupine quills and bag|tag:place
+577|smiths|possibly Maritime Archaic Tradition (archaeological culture)|D|37|Fishing line sinker or net weight/sinker|exclude:below inclusion rule (§2.3)
+578|smiths|Ngäbe (Guaymi)|F|37|Ornament|tag:place
+579|smiths|Alibamu|F|37|Sash/Belt|kind:H8-21/Alabama
+580|africa|Zulu|F|36|Apron|leaf:H9-1
+581|east_a|Korea · Joseon|D|36|如来立像|
+582|europe|wd:Q1268796|C|36|Шкатулка. Портрет П.И.Чайковского|
+583|europe|people:moldovan:glass|F|36|Бутылка|
+584|europe|people:latvian:glass|F|36|Флакон из-под  духов "Соло"|
+585|world_|Wayang (shadow and rod puppets)|D|36|Puppet (Wayang Klitik) of Barongan|exclude:umbrella term
+586|gap_sw|Wayang klitik / krucil (flat wooden puppets)|D|36|Puppet|kind:D4-4/wayang klitik
+587|smiths|Tsuu T'ina (Sarcee)|F|36|Saddle bag|tag:place
+588|smiths|Kwakwaka'wakw (Kwakiutl)|D|36|Pestle|tag:place
+589|smiths|Tuscarora|D|36|Flying head sculpture|kind:H9-7/Tuscarora
+590|world_|Ivory Coast|D|36|KATOENEN MASKER, ONDERDEEL VAN DANSKOSTU|
+591|europe|people:karelian:bone_carving|D|35|Карандаш. Личная вещь А.О.Карелина.|
+592|europe|people:altai:glass|F|35|Чаша стеклянная для исследований|
+593|europe|people:tuvan:manuscript_illumination|C|35|Открытка фотографическая видовая  "Москв|
+594|world_|Burmese lacquer (yun)|C|35|Manuscript of Excerpts from Buddhist Tex|leaf:I2-6
+595|himala|Tibetan Monastic Period style|D|35|Bodhisattva|tag:period
+596|smiths|probably Apsáalooke (Crow/Absaroke) (attributed)|F|35|Drum (Image withheld)|tag:place
+597|smiths|possibly Multiple archaeological cultures (attributed), incl|D|35|Axe head (Image withheld, pending review|exclude:mixed archaeological bucket
+598|smiths|Shuar/Achuar|F|35|Necklace|tag:place
+599|smiths|Karuk (Karok)|F|35|Clothing/garment ornament (Image withhel|tag:place
+600|smiths|possibly Multiple archaeological cultures (attributed), incl|D|35|Perforated object (Image withheld, pendi|exclude:mixed archaeological bucket
+601|smiths|possibly Multiple archaeological cultures (attributed), incl|D|35|Axe head (Image withheld, pending review|exclude:mixed archaeological bucket
+602|smiths|possibly Multiple archaeological cultures (attributed); incl|D|35|Abrader/Grinding stone|tag:place
+603|smiths|Kaw (Kansa)|F|35|Quirt|tag:place
+604|south_|Unspecified (Rajasthan)|D|34|Overdoor panel|tag:place
+605|east_a|Japan · Reproduction of a 17th-19th century original|C|34|Tôkaidô meisho ki|
+606|europe|people:dagestani_general:glass|F|34|Поставец|
+607|europe|people:roma:lacquer_miniature|C|34|Грампластинка. Цыганские народные песни.|
+608|smiths|Unangax̂ (Aleut)|D|34|Maskette|tag:place
+609|smiths|East or Woods Cree|F|34|Knife sheath|tag:place
+610|smiths|Chippewa/Ojibwa|F|34|Moccasins|tag:place
+611|smiths|possibly Multiple archaeological cultures (attributed), incl|D|34|Drill (Image withheld, pending review)|exclude:below inclusion rule (§2.3)
+612|africa|Yoruba|F|33|Sword (Udamalore) and Sheath (Ewu)|leaf:D5-42
+613|south_|Bengal|C|33|Vishnu|tag:place
+614|south_|Tibetan|D|33|Goddess White Tara with Kneeling Donor a|tag:place
+615|south_|Unspecified|F|33|Toilet glass|exclude:no attribution
+616|europe|people:karelian:glass|F|33|Буфет деревянный, с элементами декора.|
+617|himala|Kashmiri|D|33|Four-Armed Standing God Vishnu with Pers|leaf:D5-10
+618|islami|Abbasid|F|33|Bowl with Incised Inscription|
+619|islami|Deccani sultanates · Deccani (Hyderabad)|C|33|A princess with attendants on a terrace|
+620|islami|company · Company school|C|33|The Imambara, Lucknow|
+621|smiths|Copper Inuit [Ahagmiut/Coronation Gulf]|D|33|Lamp model/toy|tag:place
+622|smiths|Iñupiaq|F|33|Basket with cover|tag:place
+623|smiths|Odawa (Ottawa)|F|33|Hairbrush|tag:place
+624|smiths|probably Adena (archaeological culture) (attributed)|D|33|Cone-shaped object (Image withheld, pend|tag:period
+625|smiths|probably Southeast (archaeological) (attributed)|D|33|Pipe fragment (Image withheld, pending r|kind:D6-7/Southeastern stone pipes
+626|smiths|probably Southern Plains (attributed)|F|33|Awl case|tag:place
+627|smiths|Seneca [Allegany]|F|33|Female doll|tag:place
+628|smiths|probably Shuar (attributed)|F|33|Ear ornament|tag:place
+629|smiths|probably Valencioid (archaeological culture) (attributed)|D|33|Vessel lid/cover (Image withheld, pendin|tag:place
+630|manusc|Croatian Glagolitic|C|33|The Law Code of Vinodol|exclude:language bucket
+631|manusc|Borgia group codices|C|33|Codex Laudianus|leaf:A1-17
+632|manusc|Mixtec codices|C|33|Codex Zouche-Nuttall|leaf:A1-18
+633|south_|Odisha|D|32|Trikala Bhairava|tag:place
+634|europe|pattern:old_russian_manuscript_illumination|C|32|Линейка, для разлиновки бумаги в рукопис|
+635|smiths|possibly Multiple archaeological cultures (attributed), incl|D|32|Axe head (Image withheld, pending review|exclude:mixed archaeological bucket
+636|smiths|possibly Multiple archaeological cultures (attributed); incl|D|32|Axe head|exclude:archaeological tools
+637|smiths|Mohegan|F|32|Bag|tag:place
+638|smiths|probably Inuvialuit [Mackenzie Delta] (attributed)|D|32|Lamp|tag:place
+639|smiths|probably Sioux (attributed)|F|32|Moccasins|tag:place
+640|smiths|Coushatta (Koasati)|F|32|Man's hair ornament|kind:H8-21/Koasati
+641|smiths|possibly Iñupiaq (attributed)|D|32|Toggle|tag:place
+642|south_|Unspecified (Rajasthan)|F|31|Pendant|tag:place
+643|east_a|Korea ·|D|31|Square Pedestal|
+644|east_a|Korea · Three Kingdoms (Korea)|D|31|如来坐像|
+645|east_a|Japan · 18th/19th century|C|31|Tamakushige Ishidōmaru monogatari|
+646|europe|pattern:chukchi_walrus_ivory_engraving_uelen|D|31|Скульптурная композиция "Откол оленей".|
+647|europe|people:yakut_sakha:glass|F|31|Картина объемная "Чульманская ГРЭС "Якут|
+648|smiths|Southern Inunaina (Arapaho)|F|31|Moccasin part/fragment|tag:place
+649|smiths|probably Chumash (archaeological) (attributed)|D|31|Whetstone (Image withheld, pending revie|tag:period
+650|smiths|Piro|F|31|Nose ornament/Nose ring|tag:place
+651|smiths|probably Meillacan Ostionoid (Meillacoid) (archaeological cu|D|31|Worked stone|tag:place
+652|world_|Nias|F|31|STAANDE STEEN MET PHALEM VOOR EEN WONING|
+653|world_|Sierra Leone|D|31|STENEN ZITTENDE MANNENFIGUUR, VRUCHTBAAR|
+654|manusc|Mandaic|C|31|Diwan Abatur|
+655|manusc|Mozarabic / Visigothic|C|31|Valcavado Beatus|leaf:C2-23
+656|africa|Yoruba|F|30|Sculpture|leaf:D5-42
+657|south_|Tibetan|C|30|Twelve scrolls|tag:place
+658|europe|people:mari:glass|F|30|Бутылка|
+659|europe|people:mansi:glass|F|30|Макет природа: озеро-птицы. Из комплекта|
+660|europe|people:basque:manuscript_illumination|C|30|Ф.Докучаев-Басков "Каргополь", издательс|
+661|europe|people:ossetian:manuscript_illumination|C|30|Конверт почтовый маркированный художеств|
+662|islami|Mughal · Mughal Delhi|C|30|Fraser Album Artist: <i>The Bullock-Draw|
+663|smiths|probably Oglala Lakota (Oglala Sioux) (attributed)|F|30|Ball|exclude:below inclusion rule (§2.3)
+664|smiths|Inughuit [Cape York]|D|30|Lamp|tag:place
+665|smiths|Labrador Inuit|D|30|Hair comb|tag:place
+666|smiths|Mískito (Mosquito)|F|30|Figure|tag:place
+667|smiths|Gwich'in (Kutchin) [Yukon River, Alaska]|F|30|Guncase|tag:place
+668|smiths|probably Tunumiit [East Greenland] (archaeological) (attribu|C|30|Bow model/miniature|exclude:archaeological tools
+669|smiths|Eastern Band of Cherokee|C|30|Miniature vessel|tag:place
+670|smiths|K'apovi (Santa Clara Pueblo)|C|30|Miniature moccasins|kind:E1-69/Santa Clara
+671|world_|Sri Lankan|F|30|Singalees mes of Piha-kaetta met schede|tag:place
+672|world_|Egyptian|D|30|BOVENSTUK VAN EEN HOUTEN DEUROMLIJSTING|tag:place
+673|world_|Turkish|C|30|AARDEWERKEN BORD MET DE NAAM VAN KALIEF |
+674|manusc|Rajput / Pahari illustrated manuscripts|C|30|Kekawin Ramayana|alias:A1-7
+675|americ|Classic Veracruz|D|29|Tripod metate|leaf:D5-65
+676|south_|Burmese|F|29|Sculpture|tag:place
+677|south_|Sri Lankan|D|29|Fragment|tag:place
+678|gap_sw|Guatemalan colonial sculpture and painting (Antigua)|D|29|Calvary|kind:D5-69/Antigua Guatemala
+679|himala|Khasa Malla (western Nepal)|D|29|Avalokiteshvara (Bodhisattva & Buddhist |tag:period
+680|islami|Nasrid|D|29|Relief|
+681|smiths|Non-Indian (archaeological); possibly used by Native people |F|29|Bead/beads (Image withheld, pending revi|exclude:mis-regioned NMAI row (Non-Indian = non-Native American)
+682|smiths|Denésoliné (Chipewyan)|F|29|Sash/Belt|tag:place
+683|smiths|Quapaw|F|29|Hair ornament|tag:place
+684|smiths|Warm Springs|F|29|Moccasins|tag:place
+685|smiths|Hupa|F|29|Woman's apron (Image withheld)|kind:H8-13/Hupa
+686|smiths|probably Multiple archaeological cultures (attributed), incl|D|29|Axe head (Image withheld, pending review|exclude:mixed archaeological bucket
+687|smiths|probably Minnesota Chippewa (attributed)|F|29|Man's leggings|exclude:below inclusion rule (§2.3)
+688|smiths|possibly Multiple archaeological cultures (attributed), incl|D|29|Biface/Chopper (Image withheld, pending |exclude:below inclusion rule (§2.3)
+689|smiths|Pomo|F|29|Basket|tag:place
+690|smiths|Quechua|D|29|Figure|kind:H2-7/Quechua
+691|smiths|Asháninka (Campa/Chuncha)|F|29|Man's collar|tag:place
+692|smiths|Swampy Cree|F|29|Male doll|tag:place
+693|smiths|Mushuaunnuat [Utshimassit/Davis Inlet]|F|29|Bag for ammunition|tag:place
+694|smiths|Mississippi Choctaw|C|29|Miniature basket|kind:H8-21/Choctaw
+695|smiths|Tohono O'odham (Papago)|C|29|Miniature basket|kind:H8-19/Tohono O'odham
+696|world_|Burmese|F|29|HOUTEN ORNAMENT VAN EEN KLOOSTERPOORT, V|tag:place
+697|world_|Burkina Faso|D|29|STUKKEN KAMELEON GEBRUIKT ALS AMULET|exclude:below inclusion rule (§2.3)
+698|africa|Unspecified (DR Congo)|D|28|Carving,Doll (uncertain)|tag:place
+699|africa|New Guinea|D|28|Figure|tag:place
+700|south_|South Indian|F|28|Bangle|tag:place
+701|south_|Unspecified (Himachal Pradesh)|F|28|Nose ring|tag:place
+702|east_a|Japan · 17th/18th century|C|28|Ehon ama no saiwai|
+703|europe|wd:Q1799759|C|28|Дмитриев Н.Г. Шкатулка "Песнь о Ермаке"|
+704|gap_sw|Ethiopian processional and hand crosses|D|28|Mäsqälä qǝddase (liturgical cross)|leaf:G1-19
+705|smiths|Deh Gah Got'ine (Slavey)|F|28|Guncase|tag:place
+706|smiths|probably Late Archaic or Woodland Tradition (archaeological |D|28|Axe head (Image withheld, pending review|exclude:below inclusion rule (§2.3)
+707|smiths|Nuxalk (Bellacoola)|D|28|Mortar|tag:place
+708|smiths|Karuk (Karok)|D|28|Headband (Image withheld)|tag:place
+709|smiths|Quechua|F|28|Figure|kind:H2-7/Quechua
+710|smiths|probably Iroquois (attributed)|F|28|Watch bag/pocket|tag:place
+711|smiths|probably Non-Indian (attributed)|C|28|Miniature vessel|exclude:mis-regioned NMAI row (Non-Indian = non-Native American)
+712|smiths|probably Ute (attributed)|F|28|Man's shirt|exclude:below inclusion rule (§2.3)
+713|smiths|probably Multiple archaeological cultures (attributed); incl|D|28|Fishing line sinker or net weight/sinker|exclude:archaeological tools
+714|smiths|Shipibo|F|28|Bracelet|leaf:E1-50
+715|world_|Tunisian|F|28|HALSSIERAAD MET KRAALVERSIERING|
+716|world_|Iranian|D|28|IVOREN SIGARETTENDOOS|
+717|east_a|Japan · 12世紀|D|27|Seated Amida Nyorai (Sk. Amitābha)|
+718|east_a|Korea · Goryeo|D|27|如来坐像|
+719|world_|Karagoz shadow puppets|D|27|Karagöz|
+720|gap_sw|Sapi stone figures (nomoli, pomdo) and Sapi-Portuguese ivori|D|27|Seated Figure|leaf:D2-6
+721|smiths|Minnesota Chippewa|F|27|Bag|tag:place
+722|smiths|Mapuche|F|27|Necklace|leaf:G3-14
+723|smiths|probably Casas Grandes Tradition (archaeological culture) (a|D|27|Axe head/Votive axe|leaf:E1-65
+724|smiths|possibly Plains (attributed)|F|27|Ear ornament|tag:place
+725|smiths|Kadiwéu (Caduveo/Cadioeos/Guaicuru)|F|27|Smoking tube/Pipe|tag:place
+726|smiths|Lower Tanana|F|27|Choker necklace|exclude:below inclusion rule (§2.3)
+727|smiths|Cup'ik [Chevak]|F|27|My Love, Miss Liberty|exclude:below inclusion rule (§2.3)
+728|smiths|Siberian Yupik [Savoogna, St. Lawrence Island]|D|27|Figure|exclude:below inclusion rule (§2.3)
+729|world_|South African|D|27|KALEBAS MET UITGESNEDEN FIGUREN, VERMOED|exclude:below inclusion rule (§2.3)
+730|world_|Bolivian|D|27|BEELD VOORSTELLENDE TIO (OOM), DE DUIVEL|tag:place
+731|manusc|Hebrew: Second Temple scrolls (Dead Sea)|C|27|4Q120|exclude:language bucket
+732|manusc|Insular (Hiberno-Saxon)|C|27|Book of Kells|leaf:C2-18
+733|south_|Gujarat|F|26|"Salwar": Woman's Trousers|tag:place
+734|south_|Western Indian (Jain)|D|26|Pilaster|leaf:A1-9
+735|east_a|Japan · Meiji–Shōwa (modern)|C|26|서화첩|
+736|europe|people:khakas:manuscript_illumination|C|26|Вышивка детская "Ветка с голубыми цветам|
+737|world_|Gaucho silverwork (plateria criolla)|C|26|Nevada, Plaza Independencia, Mendoza, Ar|kind:G1-31/platería criolla (Río de la Plata)
+738|himala|Mongolian|D|26|Tara (Buddhist Deity) - Green|tag:place
+739|smiths|Diné (Navajo)|D|26|Knife (Image withheld)|tag:place
+740|smiths|A'aninin (Gros Ventre)|F|26|Garters/Legbands|tag:place
+741|smiths|possibly Western Archaic (attributed)|D|26|Abrader (Image withheld, pending review)|exclude:archaeological tools
+742|smiths|possibly Ancestral Pueblo (Anasazi): Virgin or Paiute (archa|D|26|Figure part/fragment (Image withheld, pe|exclude:archaeological tools
+743|smiths|possibly Central California: Late Period (archaeological cul|D|26|Shaft straightener/smoother (Image withh|tag:period
+744|smiths|Eastern Band of Cherokee|F|26|Earrings|tag:place
+745|smiths|probably Iñupiaq (attributed)|F|26|Pipe|tag:place
+746|smiths|Yup'ik [Norton Sound]|D|26|Bag handle|tag:place
+747|smiths|Sicangu Lakota [Rosebud Sioux]|F|26|Doll's cap/hat|exclude:below inclusion rule (§2.3)
+748|manusc|Central and Eastern European manuscripts (1500+)|C|26|Ciołek's Missal|tag:place
+749|manusc|Assamese (Sanchipat) and Bengali manuscripts|C|26|Brahman Roman Catholic Sangbad|leaf:A1-11
+750|africa|Hawaiian|D|25|Sling Stone (uncertain)|tag:place
+751|east_a|China · Sui|D|25|Buddhist Stele Dated Kaihuang 10 (Sui Dy|
+752|east_a|Japan · Shōwa|D|25|The Deva Kichijōten (Copy)|
+753|world_|Ledger art|C|25|Sketchbook of Figure Studies|leaf:B1-2
+754|world_|Maori pounamu (greenstone) and hei-tiki|D|25|Mere pounamu (hand club)|
+755|himala|Tibetan|C|25|Manuscript Cover with Enshrined Sakyamun|tag:place
+756|islami|Mughal · Mughal Murshidabad|C|25|Painting|
+757|smiths|Southeast Asians|F|25|Glass fragment|
+758|smiths|Tomaráho (Tumraha)|F|25|Necklace|tag:place
+759|smiths|possibly Multiple archaeological cultures (attributed), incl|D|25|Axe head (Image withheld, pending review|exclude:below inclusion rule (§2.3)
+760|smiths|possibly Multiple archaeological cultures (attributed), incl|D|25|Fishing line sinker or net weight/sinker|exclude:mixed archaeological bucket
+761|smiths|Yup'ik [Nelson Island]|D|25|Harpoon foreshaft|tag:place
+762|smiths|Non-Indian|C|25|Bow model/miniature|exclude:mis-regioned NMAI row (Non-Indian = non-Native American)
+763|world_|Libya|F|25|HOUTEN KOKER VOOR OGENZWART|
+764|south_|Bihar|F|24|Cover (closure)|tag:place
+765|europe|people:lithuanian:glass|F|24|Стеклоплитка марблитовая|
+766|europe|people:tatar:bone_carving|D|24|Игла  для плетения сетей. Татары.|
+767|world_|Xhosa beadwork|F|24|Umbhaco wrap skirt|
+768|gap_sw|Burmese marionettes (yoke thé)|D|24|Puppet|leaf:D4-8
+769|islami|Abbasid|C|24|Folio from a Qur'an|
+770|islami|Ottoman · Ottoman Istanbul|C|24|Dragon in foliage with lion and phoenix |
+771|islami|Qajar|F|24|Decanter (one of a set of three)|
+772|smiths|Muslims|F|24|Fragment of a vessel|
+773|smiths|Sahnish (Arikara)|F|24|Hairbrush and case|tag:place
+774|smiths|Tlingit|C|24|Copper model/miniature|tag:place
+775|smiths|Mescalero Apache|F|24|Girl's shirt/poncho|tag:place
+776|smiths|probably Hopi Pueblo (archaeological) (attributed)|D|24|Fetish figure (Image withheld, pending r|kind:E1-68/Sikyátki
+777|smiths|possibly Multiple archaeological cultures (attributed), incl|D|24|Hand maul/hammer (Image withheld, pendin|exclude:mixed archaeological bucket
+778|smiths|possibly Fort Ancient (archaeological culture) (attributed)|D|24|Disc-shaped object (Image withheld, pend|tag:period
+779|smiths|Oklahoma Seminole|F|24|Necklace|tag:place
+780|manusc|Andean colonial manuscripts|C|24|Huarochirí Manuscript|exclude:text bucket (Huarochirí; Guaman Poma drawings noted in problems)
+781|east_a|Japan · Heisei|C|23|臨楚★陵君鑑銘|
+782|east_a|Japan · Reproduction of an 18th century original|C|23|Hinoshita kaisan meijin soroe|
+783|europe|pattern:georgian_manuscript_illumination|C|23|Комплект открыток. "Грузинские рукописи"|
+784|europe|people:georgian:glass|F|23|Стеклянный сосуд. Бутылка, ëмкость - 0,5|
+785|world_|Metis floral beadwork and octopus bags|F|23|Panel Bag|
+786|world_|Amate bark-paper painting|D|23|Cutout figure|leaf:A6-14
+787|himala|Sino-Tibetan (China)|D|23|Vajrabhairava (Buddhist Deity) - Solitar|leaf:D5-13
+788|smiths|Mojave (Mohave)|F|23|Headdress|tag:place
+789|smiths|Quechan (Yuma/Cuchan)|F|23|Cane/Walking stick|tag:place
+790|smiths|Iñupiaq [Kinugumiut/Kingegan/Cape Prince of Wales]|F|23|Earrings|tag:place
+791|smiths|Omaha|F|23|Baby's moccasins|tag:place
+792|smiths|Quinault|F|23|Necklace|tag:place
+793|smiths|possibly Multiple archaeological cultures (attributed), incl|D|23|Axe head (Image withheld, pending review|exclude:below inclusion rule (§2.3)
+794|smiths|Turtle Mountain Chippewa|F|23|Bag|exclude:below inclusion rule (§2.3)
+795|smiths|Oneida|F|23|Sash/Belt|tag:place
+796|smiths|Arawak|F|23|Baby belt/sling|tag:place
+797|smiths|Shuar|F|23|Ear ornament|tag:place
+798|smiths|Diné (Navajo)|C|23|Miniature vessel|tag:place
+799|smiths|possibly Sioux (attributed)|F|23|Bracelet|exclude:below inclusion rule (§2.3)
+800|smiths|Iñupiaq [Kikiktagrukmiut/Kikiktagruk/Kotzebue]|D|23|Seal figure|tag:place
+801|smiths|Non-Indian; probably used by Native people of Alaska|F|23|Bead/beads|exclude:below inclusion rule (§2.3)
+802|smiths|Non-Indian (archaeological); probably used by the Wampanoag|F|23|Bead/beads|exclude:below inclusion rule (§2.3)
+803|world_|Dayak|F|23|EEN DAJAK DOET DE WAPENDANS ONDER BEGELE|exclude:below inclusion rule (§2.3)
+804|world_|Surinamese|F|23|DE HOOUTOPSLAG, HORENDE BIJ DE TIMMERLOO|
+805|world_|Surinamese, Creole|F|23|STADSGEZICHT VAN MOENGO|
+806|manusc|Maya codices|C|23|Dresden Codex|leaf:C2-16
+807|manusc|International Gothic|C|23|Très Riches Heures du duc de Berry|kind:C2-29/International Gothic
+808|americ|Olmec|D|22|Mask|tag:place
+809|east_a|Japan · 14世紀|C|22|Handwriting of the priest Musō Soseki|
+810|east_a|China · Sui|C|22|龍蔵寺碑|
+811|east_a|Korea · Post-1945 (Korea)|F|22|Rediscovery of Poems|
+812|east_a|Japan · 18th century|C|22|Ehon yachiyogusa|
+813|europe|people:ukrainian:bone_carving|D|22|Средняя часть складня|
+814|world_|Dayak carving and beadwork|F|22|Container|
+815|world_|Ndebele beadwork|F|22|Nguba (women's marriage blanket)|
+816|gap_sw|Inland Niger Delta (Djenne-jeno) terracottas|D|22|Fragment of a Kneeling Figure|leaf:D5-35
+817|gap_sw|New Spain polychrome sculpture (estofado)|D|22|Calvary|leaf:D5-69
+818|himala|Nepal: Late Malla|C|22|Hindu Manuscript Cover with Ganesha, Bra|tag:period
+819|islami|Kashmiri · Kashmir|C|22|Painting|
+820|smiths|probably Cayuga (archaeological) (attributed)|D|22|Maskette (Image withheld)|tag:period
+821|smiths|Yup'ik (Yupik)|F|22|Moccasins|tag:place
+822|smiths|Klikitat|F|22|Bag|kind:H8-17/Klickitat
+823|smiths|Makah|D|22|Fishing line sinker|tag:place
+824|smiths|probably Late Woodland Tradition (archaeological culture) (a|D|22|Disc-shaped object|exclude:archaeological tools
+825|smiths|Gwich'in (Kutchin)|F|22|Sash/Belt|tag:place
+826|smiths|Siberian Yupik [Gambell, St. Lawrence Island]|D|22|Figure|exclude:below inclusion rule (§2.3)
+827|world_|Curaçao|D|22|STEEN, VERMOEDELIJK EEN AFGESLETEN WRIJF|
+828|world_|Papua cultures|F|22|JONGE MAN TIJDENS DE CURSUS HOUTBEWERKIN|
+829|africa|Unspecified (Kenya)|F|21|Bell|tag:place
+830|east_a|China ·|D|21|Standing Acolytes|
+831|east_a|Japan · n.d.|C|21|Ehon Tekagami|
+832|gap_sw|Sokoto terracottas|D|21|Pair of Figures|kind:D5-30/Sokoto
+833|islami|Safavid|C|21|Calligraphy from a Ghazal of Badr al-Din|
+834|islami|Spain|D|21|Architecture angle moulding|
+835|smiths|possibly Central Andes (archaeological) (attributed)|D|21|Axe head (Image withheld, pending review|tag:place
+836|smiths|probably Niitsitapii (Blackfoot/Blackfeet) (attributed)|F|21|Man's leggings|exclude:below inclusion rule (§2.3)
+837|smiths|probably Lytton Nlaka'pamux (Upper Thompson River Salish) (a|D|21|Stone|exclude:below inclusion rule (§2.3)
+838|smiths|Seneca [Oklahoma]|F|21|Moccasins|tag:place
+839|smiths|probably Northern Plains (attributed)|F|21|Horse mask|exclude:below inclusion rule (§2.3)
+840|smiths|probably Teotihuacán (archaeological culture) (attributed)|D|21|Chipped "eccentric" (Image withheld, pen|leaf:E1-44
+841|smiths|probably Tsitsistas/Suhtai (Cheyenne) (attributed)|F|21|Moccasins|exclude:below inclusion rule (§2.3)
+842|smiths|possibly Adena (archaeological culture) (attributed)|D|21|Smoking tube/Pipe (Image withheld, pendi|exclude:below inclusion rule (§2.3)
+843|smiths|possibly Thule Tradition (archaeological culture) (attribute|D|21|Knife blade part/fragment|exclude:archaeological tools
+844|smiths|possibly St. Johns I (archaeological culture) (attributed)|D|21|Fishing line sinker or net weight/sinker|tag:period
+845|smiths|possibly South Appalachian Mississippian: St. Johns II (arch|D|21|Polishing stone (Image withheld, pending|tag:period
+846|smiths|Kalaallit [Upernavik, Greenland]|D|21|Harpoon foreshaft|tag:place
+847|smiths|Northern Mesoamerica|C|21|Miniature vessel (Image withheld, pendin|tag:place
+848|world_|Nepalese|F|21|GLAZEN POTJE MET PLASTIC SCHROEFDOP MET |tag:place
+849|africa|Edo (Benin Kingdom)|D|20|Tusk|leaf:D5-32
+850|africa|Fang|F|20|Necklace|leaf:D6-3
+851|africa|Unspecified (DR Congo)|F|20|Sword|tag:place
+852|africa|Society Islands (Tahiti)|D|20|Food Pounder|tag:place
+853|south_|Kashmiri|D|20|Durga Destroying the Buffalo Demon|tag:place
+854|south_|Kashmiri|C|20|Four-armed Maitreya|tag:place
+855|east_a|China · Western Han|D|20|Model of a Granary Tower|
+856|east_a|Korea · Korean Empire|C|20|안중근 의사 유묵-「일일부독서구중생형극」|
+857|east_a|China · Middle Zhou|D|20|Pendant with insect|
+858|europe|people:dagestani_general:lacquer_miniature|C|20|Мерка для зерна|
+859|world_|Kalighat painting|C|20|Hanuman with Rama and Lakshmana on his s|leaf:A4-3
+860|world_|Senegalese reverse-glass painting (souwer)|F|20|ACHTERGLASSCHILDERING VOORSTELLENDE DE R|kind:A6-20/souwer (Senegal)
+861|gap_sw|Ethiopian illuminated manuscripts|C|20|Bound Manuscript: The Miracles of Mary (|leaf:A1-15
+862|islami|Safavid · Safavid Shiraz|C|20|A scene of the life of Alexander from th|
+863|smiths|Kuskwogmiut Yup'ik|D|20|Toggle|tag:place
+864|smiths|Non-Indian (archaeological); probably used by Iroquoian peop|F|20|Bead/beads (Image withheld)|exclude:below inclusion rule (§2.3)
+865|smiths|Kewa (Santo Domingo Pueblo)|D|20|Maul/Hammer head|kind:E1-66/Santo Domingo (Kewa)
+866|smiths|probably Plateau (attributed)|F|20|Cradleboard model/toy|exclude:below inclusion rule (§2.3)
+867|smiths|possibly Ancestral Pueblo (Anasazi): Virgin (archaeological)|D|20|Flake/debitage (Image withheld, pending |tag:period
+868|smiths|Tunumiit [East Greenland] [Ammassalik]|D|20|Bag|tag:place
+869|world_|Borneo|F|20|EEN MAN ZIT VLAKBIJ DE INGANG VAN EEN DR|exclude:below inclusion rule (§2.3)
+870|world_|Aruba|D|20|STEENFRAGMENT|
+871|world_|Chile|D|20|LAMA FIGUUR|exclude:below inclusion rule (§2.3)
+872|world_|Haïti|D|20|BETONNEN BEELD VOORSTELLEND STATUE D'IND|
+873|manusc|Bugis / Makassar (lontara)|C|20|[Gedicht op de vissen = Poem dedicated t|kind:C2-4/Bugis-Makassar
+874|africa|Toma|C|19|Miniature Mask (Maa Go)|tag:place
+875|africa|Unspecified (Liberia)|C|19|Miniature Mask (Maa Go)|tag:place
+876|africa|Maori: other iwi|D|19|Mahe (sinker)|tag:place
+877|americ|Maya|D|19|Ornament|tag:place
+878|south_|Mughal|F|19|Mirror|tag:period
+879|south_|Nepalese (Newar)|F|19|Ceremonial Collar Necklace (Suta or Konc|tag:place
+880|east_a|China · Song|D|19|諸尊仏龕|
+881|east_a|Japan · Taishō|D|19|Seated Prince Shotoku|
+882|europe|pattern:tobolsk_bone_carving|D|19|Курительная трубка|
+883|europe|people:nanai:glass|F|19|Амулет для лечения. Нанайцы|
+884|europe|people:aromanian:manuscript_illumination|C|19|Рисунок "Люльки".|
+885|islami|Mughal|D|19|Chair Legs and Panel|tag:period
+886|islami|Egypt|F|19|Fragment|
+887|islami|Agra|D|19|Agra Colonnade|
+888|smiths|Iñupiaq [Nuwukmiut/Point Barrow]|C|19|Miniature bowl|tag:place
+889|smiths|probably Assiniboine (Stoney) (attributed)|F|19|Bag|exclude:below inclusion rule (§2.3)
+890|smiths|probably Ancestral Pueblo (Anasazi): Cibola (archaeological)|D|19|Club head (Image withheld, pending revie|kind:E1-61/Cibola White Ware
+891|smiths|Mistassini Cree|F|19|Ammunition/cap bag|tag:place
+892|smiths|Oklahoma Modoc|F|19|Basket|tag:place
+893|smiths|probably Dakota (Eastern Sioux) (attributed)|F|19|Man's vest|tag:place
+894|smiths|Akimel O'odham (Pima)|F|19|Necklace|kind:H8-19/Akimel O'odham
+895|smiths|possibly Plains Archaic Tradition (archaeological culture) (|D|19|Axe head|exclude:archaeological tools
+896|smiths|Lakota (Teton/Western Sioux)|D|19|Letter opener|tag:place
+897|smiths|Kutzadika'a (Mono Paiute)|F|19|Basket baby-carrier|kind:H8-13/Mono (Kutzadika'a)
+898|smiths|Non-Indian (archaeological); probably used by the Chumash|F|19|Bead/beads (Image withheld, pending revi|exclude:below inclusion rule (§2.3)
+899|smiths|Carib [Suriname]|F|19|Necklace|tag:place
+900|smiths|Minneconjou Lakota (Minniconjou Sioux)|F|19|Headdress|exclude:below inclusion rule (§2.3)
+901|smiths|Unangax̂ (Aleut)|C|19|Spear model/miniature part/fragment|tag:place
+902|smiths|Non-Indian (archaeological); probably used by Wabanaki peopl|F|19|Bead/beads|exclude:below inclusion rule (§2.3)
+903|world_|Paraguay|F|19|ARMBAND VAN KRALEN|
+904|world_|Uganda|F|19|LEREN SCHAAMSCHORT MET KRALEN EN ZADENVE|
+905|world_|New Zealand|D|19|MAORI HOUTSNIJWERK; SPIRAALMOTIEF, OOSTK|exclude:below inclusion rule (§2.3)
+906|manusc|Armenian: Ani / early Armenian (to 1200)|C|19|Skevra Evangeliary|kind:A1-20/Early Armenian
+907|manusc|Gothic: Central European (Poland, Hungary)|C|19|Banderia Prutenorum|kind:C2-29/Central European
+908|africa|Bassa|C|18|Miniature Mask (Maa Go)|tag:place
+909|africa|Maasai|F|18|Headdress|leaf:H9-2
+910|africa|Unspecified (South Africa)|F|18|Hair Pin|tag:place
+911|africa|Yoruba|D|18|Baton|leaf:D5-42
+912|africa|Melanesian|F|18|Spear|tag:place
+913|africa|Solomon Islands|D|18|Whetstone (uncertain)|tag:place
+914|africa|Vanuatu|D|18|Figure|tag:place
+915|americ|Mezcala|D|18|Mask|exclude:below inclusion rule (§2.3)
+916|south_|Rajput: Ajmer|D|18|Architectural fragment|tag:place
+917|south_|Unspecified (Swat)|D|18|Relief|kind:D5-1
+918|europe|people:armenian:glass|F|18|Пластина зеркальная с портретом И.В.Стал|
+919|europe|people:boyko_lemko_rusyn:glass|F|18|Маслобойка|
+920|himala|Dolonnor (Inner Mongolia)|D|18|Amitayus Buddha - Amitayus|kind:D5-13/Dolonnor
+921|islami|Safavid · Safavid Isfahan|C|18|Persian Verses (verso)|
+922|islami|Ottoman|F|18|Spoon|
+923|islami|ISLAM|D|18|of a toad or tortoise|
+924|smiths|Longshan culture, ca. 3000-ca. 1700 BCE|D|18|Straight chisel (<em>gui</em>圭) with fac|
+925|smiths|Non-Indian (archaeological); probably used by the A:shiwi (Z|F|18|Pendant (Image withheld, pending review)|exclude:mis-regioned NMAI row (Non-Indian = non-Native American)
+926|smiths|Nisga'a (Niska)|D|18|Mortar|tag:place
+927|smiths|possibly Central Mexico/Valley of Mexico (archaeological cul|C|18|Miniature bowl (Image withheld, pending |tag:place
+928|smiths|possibly Hohokam Tradition (archaeological culture) (attribu|D|18|Shaft straightener/smoother (Image withh|leaf:E1-63
+929|smiths|probably Kalaallit [Greenland] (archaeological) (attributed)|D|18|Harpoon end blade|exclude:archaeological tools
+930|smiths|Non-Indian (archaeological); possibly used by Native people |F|18|Bead/beads (Image withheld, pending revi|exclude:below inclusion rule (§2.3)
+931|smiths|Wahpetonwan Dakota (Wahpeton Sioux)|D|18|Shaman's equipment (Image withheld)|tag:place
+932|smiths|possibly Ostionoid Tradition (archaeological culture) (attri|D|18|Figure|tag:place
+933|smiths|Nunivagmiut Cu'pig (Cup'ik) [Nunivak Island]|D|18|Wound pin/plug|tag:place
+934|smiths|possibly Multiple archaeological cultures (attributed), incl|D|18|Abrader/Grinding stone (Image withheld, |exclude:mixed archaeological bucket
+935|smiths|Munsee Delaware|F|18|Moccasins|exclude:below inclusion rule (§2.3)
+936|smiths|Innu [Ekuanitshit/Mingan]|F|18|Woman's hat|tag:place
+937|smiths|possibly Mainland Caribbean (archaeological culture) (attrib|D|18|Axe head (Image withheld, pending review|exclude:below inclusion rule (§2.3)
+938|world_|Sumatran|F|18|ECHTPAAR, BEIDEN HADJI'S|tag:place
+939|world_|Indonesian; European|F|18|AFDELINGSVERGADERING TE TASIKMALAJA|
+940|world_|Liberia|F|18|MASKER GEBRUIKT BIJ INITIATIERITUEEL VAN|exclude:below inclusion rule (§2.3)
+941|world_|Waropen|F|18|KRALEN DANSSCHORT|
+942|world_|Guatemalan|F|18|KRALENKETTING, ONDERDEEL VAN EEN VROUWEN|tag:place
+943|world_|Malaysian|C|18|GEBATIKTE LAP KATOEN IN PAPIEREN HOUDER,|exclude:below inclusion rule (§2.3)
+944|world_|Haïti|F|18|RAMMELAAR VAN KALEBAS|
+945|manusc|Mesoamerican codices, colonial|C|18|Codex Mendoza|kind:A1-19/colonial codices
+946|manusc|South Indian palm-leaf (Tamil, Malayalam, Telugu, Kannada)|C|18|Pondicherry Copper Plate|kind:C2-5/South Indian
+947|africa|Karamojong|D|17|Toy,Figurine|tag:place
+948|africa|Aboriginal Australian: Kimberley|F|17|Spearhead|tag:place
+949|africa|Fijian|D|17|Tattooing Needle Head|leaf:I1-15
+950|south_|Balinese|C|17|Scroll painting|tag:place
+951|east_a|China · Northern Song|D|17|Seated Bodhisattva Guanyin (Avalokiteśva|
+952|east_a|Japan · 17～19世紀|D|17|Noh Mask|
+953|east_a|Japan · 12～13世紀|C|17|Daihannya-kyō (Mahāprajñāpāramitā sūtra)|
+954|east_a|Japan · 1901|C|17|Shôfû hanakagami|
+955|europe|people:nanai:bone_carving|D|17|Наконечник для лыжной палки. Нанайцы.|
+956|europe|people:nenets:glass|F|17|Игольница.|
+957|europe|people:altai:bone_carving|D|17|Рога для боеприпасов /порох, дробь, капс|
+958|europe|people:komi:glass|F|17| Кружка и подставка для кружки "Государс|
+959|europe|people:sami:manuscript_illumination|C|17|"I think God should have painted everybo|
+960|gap_sw|Ethiopian traditional arts (other)|D|17|Selecha|exclude:umbrella bucket
+961|gap_sw|Ethiopian healing (protective) scrolls|C|17|Tälsäm or yä bərana kətab (healing scrol|leaf:A4-17
+962|gap_sw|Western Arnhem Land bark painting (Kunwinjku, Oenpelli)|D|17|Maraian, eight jumping figures|kind:A6-18/Western Arnhem Land (Kunwinjku)
+963|islami|Qajar|C|17|Mirror Stand|
+964|islami|Umayyad|D|17|Section of a marble frieze|
+965|smiths|Probably Late Archaic or Early Woodland Tradition (archaeolo|D|17|Vessel fragment (Image withheld, pending|exclude:below inclusion rule (§2.3)
+966|smiths|Non-Indian (archaeological); possibly used by the Pocomtuc (|F|17|Bead/beads|exclude:below inclusion rule (§2.3)
+967|smiths|probably Inunaina (Arapaho) (attributed)|F|17|Belt bag|exclude:below inclusion rule (§2.3)
+968|smiths|Haida|C|17|Miniature bowl|tag:place
+969|smiths|probably Mixteca (Mixtec) (archaeological culture) (attribut|D|17|Figure (Image withheld, pending review)|leaf:G3-13
+970|smiths|Eastern Shoshone|F|17|Necklace|tag:place
+971|smiths|possibly Iñupiaq or Yup'ik (Yupik) (attributed)|D|17|Figure|exclude:below inclusion rule (§2.3)
+972|smiths|Non-Indian; probably used by the Iñupiaq|F|17|Bead/beads|exclude:below inclusion rule (§2.3)
+973|smiths|Apsáalooke (Crow/Absaroke)|D|17|Rock medicine bundle (Image withheld)|tag:place
+974|smiths|Iroquois [Six Nations of the Grand River, Brantford, Ontario|F|17|Moccasins|exclude:below inclusion rule (§2.3)
+975|smiths|Tsimshian (Ts’msyen)|D|17|Tobacco mortar|tag:place
+976|smiths|probably Mescalero Apache (attributed)|F|17|Awl case|exclude:below inclusion rule (§2.3)
+977|smiths|Yurok|D|17|Tobacco board|tag:place
+978|smiths|Innu [Unamenshipit/La Romaine]|F|17|Bag|exclude:below inclusion rule (§2.3)
+979|smiths|Aymara|F|17|Coca bag|kind:H2-7/Aymara
+980|smiths|Carib [Guyana]|F|17|Necklace|tag:place
+981|smiths|Eastern Band of Cherokee|D|17|Pipe|tag:place
+982|smiths|possibly Manasota (archaeological culture) (attributed)|D|17|Disc-shaped object (Image withheld, pend|exclude:archaeological tools
+983|world_|Indonesian, Java|D|17|Hemelnimf|tag:place
+984|world_|Sulawesi|F|17|EEN JONGE MAN EN VROUW DANSEN HET FIGUUR|exclude:below inclusion rule (§2.3)
+985|world_|Batak, Karo|F|17|DANS DOOR KAROVROUWEN|
+986|world_|Arabian|F|17|BIDSNOER MET ZWARTE KRALEN|
+987|world_|Colombian|D|17|WRIJFSTEEN VAN ZACHTE WITTE STEEN|tag:place
+988|world_|Malaysian|F|17|INSTRUMENT VOOR HET VERVORMEN VAN DE SCH|exclude:below inclusion rule (§2.3)
+989|world_|Algerian|C|17|[ONBEKEND]|
+990|manusc|Thai samut khoi and Lanna manuscripts|C|17|Treatise on Cats|leaf:C2-7
+991|africa|Yaka|D|16|Hair Pin|tag:place
+992|south_|Mughal|D|16|Salver|tag:period
+993|east_a|China · People's Republic|C|16|行書七言絶句軸|
+994|east_a|Japan · 1848|C|16|Ehon teikin ôrai|
+995|europe|people:cossack:bone_carving|D|16|Веник-махавка. Веник-махавка из утиных к|
+996|europe|people:karachay_balkar:manuscript_illumination|C|16|Открытка поздравительная с Новым годом Ф|
+997|world_|Inuit prints (Kinngait / Cape Dorset, Baker Lake)|D|16|Seal Hunt|
+998|himala|Nepal: Early Malla|D|16|God Vishnu's Mount, Garuda, Kneeling wit|tag:period
+999|himala|Nepal: Transitional (Thakuri)|D|16|God Vishnu with Goddess Lakshmi and His |tag:period
+1000|islami|Islam|F|16|Bottle|
+1001|islami|Lucknow · Lucknow (Awadh)|C|16|Painting|
+1002|smiths|possibly Middle Woodland Tradition (archaeological culture) |D|16|Pipe fragment|exclude:archaeological tools
+1003|smiths|Baffinland Inuit|D|16|Hair comb|tag:place
+1004|smiths|possibly Oneota (archaeological culture) (attributed)|D|16|Disc-shaped object|tag:period
+1005|smiths|possibly Multiple archaeological cultures (attributed), incl|D|16|Worked stone (Image withheld, pending re|exclude:mixed archaeological bucket
+1006|smiths|Warm Springs|D|16|Pestle fragment|tag:place
+1007|smiths|probably Iñupiaq (archaeological) (attributed)|D|16|Worked animal tusk|exclude:archaeological tools
+1008|smiths|possibly Multiple archaeological cultures (attributed), incl|D|16|Perforated object (Image withheld, pendi|exclude:below inclusion rule (§2.3)
+1009|smiths|Chamacoco (Zamuko)|F|16|Hair ornament|tag:place
+1010|smiths|Hopi Pueblo|D|16|Mask part/fragment (Image withheld)|tag:place
+1011|smiths|possibly Multiple archaeological cultures (attributed), incl|D|16|Drill (Image withheld, pending review)|exclude:mixed archaeological bucket
+1012|smiths|Iñupiaq|C|16|Knife model/miniature|tag:place
+1013|smiths|Niuam (Comanche)|D|16|War club|tag:place
+1014|smiths|Akimel O'odham (Pima)|C|16|Miniature basket|kind:H8-19/Akimel O'odham
+1015|smiths|Plains|F|16|Moccasins|tag:place
+1016|smiths|possibly South Appalachian Mississippian: Etowah (archaeolog|D|16|Chunkee stone/Discoidal (Image withheld,|exclude:below inclusion rule (§2.3)
+1017|smiths|Nunamiut Iñupiaq [Anaktuvuk Pass, Alaska]|D|16|Mask|exclude:below inclusion rule (§2.3)
+1018|smiths|Acoma Pueblo|C|16|Miniature vessel|leaf:E1-67
+1019|smiths|Inuit [Pannirtuq/Pangnirtung]|D|16|Woman and Children|exclude:below inclusion rule (§2.3)
+1020|smiths|Hopi-Tewa|C|16|Miniature vessel|kind:E1-68/Hopi-Tewa
+1021|world_|Zambia|F|16|STEELPAN MET DEKSEL (B) VAN GEËMAILLEERD|
+1022|world_|Togo|F|16|KRALENKETTING VAN BLAUW EN RODE GLASKRAL|
+1023|world_|Namibia|F|16|Tas|exclude:below inclusion rule (§2.3)
+1024|manusc|Ethiopian (Ge'ez), early (to 1500)|C|16|Garima Gospels|tag:period
+1025|africa|Cook Islands|D|15|Ceremonial Adze Blade|tag:place
+1026|americ|Aztec (Mexica)|D|15|Coyote Head|tag:place
+1027|americ|Teotihuacan|D|15|Standing Male Figure|tag:place
+1028|south_|Gujarat|C|15|Krishna Embracing Radha|tag:place
+1029|south_|Javanese|C|15|Page from Ramayana|tag:place
+1030|south_|Unspecified (Kutch)|F|15|Dress|tag:place
+1031|east_a|China · 18～19世紀|D|15|金剛手菩薩立像|
+1032|east_a|Japan · 14～15世紀|D|15|Seated Jūichimen Kannon (Sk. Ekādaśamukh|
+1033|east_a|Japan · 17～18世紀|D|15|懸仏断片(小銅仏)134点|
+1034|east_a|China · Unknown|D|15|Coupe|
+1035|east_a|Japan · 1802|C|15|Môkyô wakan zatsuga|
+1036|europe|people:karelian:lacquer_miniature|C|15|Табакерка. Личная вещь А.О.Карелина.|
+1037|europe|people:chuvash:lacquer_miniature|C|15|Шкатулка "В союзе едином с русским народ|
+1038|europe|people:azerbaijani:bone_carving|D|15|Рамка настольная. Подарок от мастеров Аз|
+1039|world_|Kuba raffia cloth (Kasai velvet)|F|15|Mpaan (female titleholder’s headdress)|leaf:H4-30
+1040|gap_sw|Tellem (Bandiagara) sculpture and textiles|D|15|Female Figure|kind:D5-43/Tellem
+1041|islami|Timurid · Timurid Shiraz|C|15|Preface (verso) from a double-page front|
+1042|islami|Spain; Italy|C|15|Manuscript cutting|
+1043|smiths|Kuskwogmiut Yup'ik|F|15|Bag|tag:place
+1044|smiths|Non-Indian (archaeological); possibly used by Iroquoian peop|F|15|Bead/beads|exclude:below inclusion rule (§2.3)
+1045|smiths|Plains Apache (Naisha/Kiowa Apache)|F|15|Baby's legging moccasins|tag:place
+1046|smiths|Kwakwaka'wakw (Kwakiutl)|F|15|Man's dance kilt/apron|tag:place
+1047|smiths|probably Western Apache (attributed)|F|15|Awl case|kind:H8-18/Western Apache
+1048|smiths|Oglala Lakota (Oglala Sioux)|D|15|Bison figure (Image withheld)|tag:place
+1049|smiths|probably Inuvialuit [Mackenzie Delta] (archaeological) (attr|D|15|Harpoon end blade|exclude:archaeological tools
+1050|smiths|Mohawk [Akwesasne]|F|15|Moccasins|tag:place
+1051|smiths|Jicarilla Apache|F|15|Man's shirt|exclude:below inclusion rule (§2.3)
+1052|smiths|Sioux|C|15|Miniature moccasins|tag:place
+1053|smiths|Nahua|C|15|Miniature basket hat|tag:place
+1054|smiths|Netsilingmiut Inuit (Netsilik)|D|15|Lamp wick trimmer|tag:place
+1055|smiths|possibly Hopewell (archaeological culture) (attributed)|D|15|Boatstone (throwing stick/atlatl weight)|exclude:below inclusion rule (§2.3)
+1056|smiths|Kiowa|D|15|Work surface/lap stone|tag:place
+1057|smiths|possibly Veracruz/Gulf Coast (archaeological culture) (attri|C|15|Miniature vessel (Image withheld, pendin|tag:place
+1058|smiths|Non-Indian (archaeological); probably used by Iroquoian peop|F|15|Bead/beads|exclude:below inclusion rule (§2.3)
+1059|smiths|Inuit|D|15|Figural group|exclude:below inclusion rule (§2.3)
+1060|smiths|Waiwai|F|15|Ear ornament|tag:place
+1061|smiths|probably Minnesota Chippewa [White Earth, Minnesota] (attrib|F|15|Sash/Belt|exclude:below inclusion rule (§2.3)
+1062|smiths|Passamaquoddy|C|15|Miniature basket|kind:H8-22/Passamaquoddy
+1063|smiths|Sallirmiut Inuit (Sagdlimiut)|D|15|Snow knife|tag:place
+1064|world_|Australia|F|15|SPEERPUNT|
+1065|world_|Philippine|F|15|HALSSNOER GEREGEN UIT KRALEN VAN GLAS, S|tag:place
+1066|manusc|Bamum and other African scripts|C|15|BnF. Département des Manuscrits. Berbère|exclude:script bucket
+1067|africa|Unspecified (Niger)|D|14|Figure|tag:place
+1068|africa|Marquesan|D|14|Breadfruit Pounder|leaf:D5-88
+1069|africa|Unspecified (Western Australia)|F|14|Spearhead|tag:place
+1070|east_a|Japan · 現代 21世紀|C|14|“Yamakata ni” (in the mountains)|
+1071|east_a|Korea · Baekje|D|14|묘지석(왕비)/매지권(왕)|
+1072|europe|people:chukchi:glass|F|14|Убор головной. Чукчи|
+1073|gap_sw|Japanese mingei (folk-craft) movement|C|14|Mountain God (Yamagami), from the series|leaf:I3-18
+1074|gap_sw|Otsu-e (Otsu folk painting)|C|14|Otsu-e of a Blind Man (Zato)|leaf:A6-9
+1075|islami|Deccani sultanates · Deccani (Bijapur)|C|14|Bijan killing the wild boars of Irman, f|
+1076|smiths|Non-Indian; probably used by the Tonawanda Seneca|F|14|Bead/beads|exclude:below inclusion rule (§2.3)
+1077|smiths|Ohkay Owingeh (San Juan Pueblo)|D|14|Ritual equipment (Image withheld)|tag:place
+1078|smiths|possibly Western Apache (attributed)|F|14|Awl case|exclude:below inclusion rule (§2.3)
+1079|smiths|possibly Southeast (archaeological) (attributed)|D|14|Dipper/Ladle (Image withheld, pending re|kind:D6-7/Southeastern stone pipes
+1080|smiths|possibly Mescalero Apache (attributed)|F|14|Boots/High moccasins|exclude:below inclusion rule (§2.3)
+1081|smiths|Non-Indian (archaeological); probably used by the Innu|F|14|Bead/beads|exclude:below inclusion rule (§2.3)
+1082|smiths|probably Bush or Western Woods Cree (attributed)|F|14|Gauntlet gloves|exclude:below inclusion rule (§2.3)
+1083|smiths|probably Ancestral Pueblo (Anasazi): Basketmaker Tradition (|D|14|Whetstone (Image withheld, pending revie|exclude:archaeological tools
+1084|smiths|Hopi Pueblo|C|14|Miniature vessel|tag:place
+1085|smiths|Minitari (Hidatsa)|F|14|Rattle (Image withheld)|tag:place
+1086|smiths|Comcaac (Seri)|D|14|Hammerstone/Grinding stone|tag:place
+1087|smiths|Taos Pueblo|D|14|Unidentifiable item|kind:E1-66/Taos
+1088|smiths|Ihanktonwan Dakota (Yankton Sioux)|D|14|Pipe (unfinished)|tag:place
+1089|smiths|Chaticks Si Chaticks (Pawnee)|F|14|Knife sheath|tag:place
+1090|smiths|probably Ancestral Pueblo (Anasazi): Rio Grande (archaeologi|D|14|Worked stone (Image withheld, pending re|kind:E1-61/Rio Grande
+1091|smiths|Pipil|F|14|Necklace with cross pendant|tag:place
+1092|smiths|Karajá (Caraja)|C|14|Canoe paddle model/miniature|tag:place
+1093|smiths|Witoto|F|14|Choker necklace|tag:place
+1094|smiths|Unangax̂ (Aleut)|F|14|Basket-covered bottle|tag:place
+1095|smiths|Cochiti Pueblo|D|14|Figure (Image withheld)|kind:D5-80/Cochiti
+1096|smiths|possibly Adena or Hopewell Tradition (attributed)|D|14|Axe blade/spud (Image withheld, pending |tag:period
+1097|smiths|probably Diaguita (archaeological culture) (attributed)|D|14|Bola/Boleadora ball/stone (Image withhel|tag:place
+1098|smiths|possibly Archaic Age (Ortoiroid) (archaeological culture) (a|D|14|Axe head|exclude:below inclusion rule (§2.3)
+1099|smiths|Potawatomi [Oklahoma]|F|14|Brooch/Pin|kind:A5-111/Potawatomi
+1100|smiths|Oneida [New York]|F|14|Moccasins|exclude:below inclusion rule (§2.3)
+1101|smiths|Inuit [Pelly Bay/Arviliqjuaq]|D|14|Spirits|exclude:below inclusion rule (§2.3)
+1102|smiths|Inuit [Arviat]|D|14|Hunter and Walrus|exclude:below inclusion rule (§2.3)
+1103|smiths|Inuit [Payne Bay/Bellin/Kangirsuk]|D|14|Wrapped Figure|exclude:below inclusion rule (§2.3)
+1104|smiths|Arecuna|F|14|Woman's apron|tag:place
+1105|smiths|Gwich'in (Kutchin) [Peel and Porcupine Rivers, Yukon Territo|F|14|Moccasins|tag:place
+1106|world_|Ghanaian|D|14|STEEN TE GEBRUIKEN ALS SMEERSEL OM BABIE|exclude:below inclusion rule (§2.3)
+1107|world_|Sudanese|F|14|GEVLOCHTEN KATOENEN VLIEGENWAAIER|exclude:below inclusion rule (§2.3)
+1108|world_|Afghan|D|14|BOEDDHA|
+1109|africa|Grasslands|F|13|Woman's Apron|exclude:below inclusion rule (§2.3)
+1110|africa|Kalenjin|F|13|Tobacco Case|tag:place
+1111|africa|New Britain|D|13|Mask|tag:place
+1112|east_a|Japan · 現代時代・19世紀|D|13|面|
+1113|east_a|Japan · 1800|C|13|Dō-ningyō karada no karakuri|
+1114|east_a|Japan · c. 17th-19th century|C|13|Butsuzo Zushu|
+1115|europe|people:lithuanian:lacquer_miniature|C|13|"Унтер-офицер Лейб-гвардии Литовского по|
+1116|europe|people:adyghe_circassian_kabardian:glass|F|13|Сувенир|
+1117|world_|Native American basketry (California, Southwest, Plateau, Wa|C|13|Miniature Lidded Basket|
+1118|world_|Amazigh (Berber) silver jewellery and enamel|F|13|Treasure Necklace|
+1119|gap_sw|Katsina terracottas|D|13|Janus Figure|kind:D5-30/Katsina Ala
+1120|gap_sw|Koma (Komaland) terracottas|D|13|Priest Figure|leaf:D5-37
+1121|himala|Sonam Gyaltsen atelier|D|13|Chakrasamvara (Buddhist Deity) - Sahaja |kind:D5-11/Sonam Gyaltsen atelier
+1122|himala|Himalayan (unspecified)|D|13|Ritual Object|tag:place
+1123|himala|Nepal: Late Malla|D|13|Door Jamb Column with Kubera, Acala, and|tag:period
+1124|islami|Seljuq|C|13|Double-Sided Leaf from a Qur'an|
+1125|islami|Timurid|C|13|Text Page, Persian Prose (Recto); Khar (|
+1126|islami|Umayyad (Spain)|D|13|Column Capital|
+1127|islami|Syria|F|13|Bottle|
+1128|islami|Egypt|C|13|Bookbinding|
+1129|islami|Islamic|F|13|Bottle|tag:period
+1130|islami|Hyderabad · Deccani (Hyderabad)|C|13|Azam Shah|
+1131|smiths|probably Manteño-Huancavilca (archaeological culture) (attri|D|13|Figure|tag:place
+1132|smiths|Northern Amazonia|F|13|Woman's apron|tag:place
+1133|smiths|Ktunaxa (Kootenai) [Lower Kootenay Band, Creston, BC]|F|13|Charm/Amulet|tag:place
+1134|smiths|Chilkat Tlingit|F|13|Charm bag|tag:place
+1135|smiths|Saulteaux|F|13|Pipebag|tag:place
+1136|smiths|Potawatomi [Forest County, Wisconsin]|F|13|Moccasins|exclude:below inclusion rule (§2.3)
+1137|smiths|K'iche' Maya (Quiché)|F|13|Necklace|kind:H3-28/K'iche'
+1138|smiths|possibly Mogollon Tradition: Jornada (archaeological culture|D|13|Hammerstone (Image withheld, pending rev|exclude:archaeological tools
+1139|smiths|probably Poverty Point (archaeological culture) (attributed)|D|13|Boatstone (throwing stick/atlatl weight)|exclude:below inclusion rule (§2.3)
+1140|smiths|Atorai|F|13|Girl's apron|exclude:below inclusion rule (§2.3)
+1141|smiths|probably Caddoan (archaeological) (attributed)|D|13|Hammerstone (Image withheld, pending rev|kind:E1-70/Caddo
+1142|smiths|Chibcha|D|13|Throwing stick/Atlatl hook|exclude:below inclusion rule (§2.3)
+1143|world_|Moroccan|C|13|MODEL VAN EEN HOUTEN HAK|
+1144|world_|Senegal|F|13|Masker|exclude:below inclusion rule (§2.3)
+1145|africa|Arbore|F|12|Necklace|tag:place
+1146|africa|Ethiopian|C|12|Amulet,Scroll|tag:place
+1147|africa|San|F|12|Cosmetic Container|tag:place
+1148|africa|Unspecified (Nigeria)|D|12|Head|tag:place
+1149|africa|Unspecified (Zambia)|F|12|Belt|tag:place
+1150|africa|Niue|D|12|Maka (throwing stone)|tag:place
+1151|africa|Unspecified (Oceania)|C|12|Miniature,Knife|exclude:no attribution
+1152|americ|Native North American|D|12|Metate|tag:place
+1153|south_|Gujarat|D|12|Relief panel|tag:place
+1154|south_|Malay|D|12|Shadow puppet|tag:place
+1155|south_|Unspecified (Agra)|D|12|Architecture|tag:place
+1156|east_a|Japan · 1803|C|12|Settan kigû|
+1157|europe|people:georgian:lacquer_miniature|C|12|Комплект фигурок 15-ти национальностей. |
+1158|europe|people:lak:bone_carving|D|12|Газырь. Лакцы|
+1159|world_|Scrimshaw|D|12|Scrimshaw|leaf:D2-12
+1160|world_|Torres Strait Islander art (dhari, masks, printmaking)|D|12|Mask (Le Op)|leaf:D4-26
+1161|world_|Peruvian carved gourds (mates burilados)|F|12|Choker necklace|leaf:I1-13
+1162|himala|Ming imperial (Yongle / Xuande)|D|12|Chakrasamvara (Buddhist Deity)|kind:D5-13/Yongle-Xuande imperial
+1163|islami|Mughal|F|12|Hookah Base|tag:period
+1164|islami|Fatimid|D|12|Fragment of a monumental inscription fro|
+1165|islami|Egypt|D|12|Tombstone|
+1166|islami|Islamic Spain|D|12|Architecture|
+1167|islami|Murshidabad|D|12|Chess piece|
+1168|smiths|Makah|F|12|Nose ornament/Nose ring|tag:place
+1169|smiths|possibly Cayuga (archaeological) (attributed)|D|12|Scraper|exclude:archaeological tools
+1170|smiths|possibly South Appalachian Mississippian: Lamar (archaeologi|D|12|Axe head (Image withheld, pending review|kind:E1-70/Lamar
+1171|smiths|probably Tsuu T'ina (Sarcee) (attributed)|F|12|Saddle bag|exclude:below inclusion rule (§2.3)
+1172|smiths|possibly Plains Village Tradition (archaeological culture) (|D|12|Hoe blade|exclude:archaeological tools
+1173|smiths|Possibly Multiple archaeological cultures (attributed), incl|D|12|Pitted object (Image withheld, pending r|exclude:mixed archaeological bucket
+1174|smiths|possibly Adena or Hopewell (archaeological culture) (attribu|D|12|Cone-shaped object (Image withheld, pend|exclude:below inclusion rule (§2.3)
+1175|smiths|Montagnais Innu|F|12|Bag|tag:place
+1176|smiths|probably Apache (attributed)|F|12|Doll's cradleboard|exclude:below inclusion rule (§2.3)
+1177|smiths|probably Northwestern Amazonia (attributed)|F|12|Ornament|tag:place
+1178|smiths|probably Great Lakes (attributed)|F|12|Sash/Belt|tag:place
+1179|smiths|Karajá (Caraja)|D|12|Figure|tag:place
+1180|smiths|probably Non-Indian (attributed)|F|12|Handbag/Purse|exclude:mis-regioned NMAI row (Non-Indian = non-Native American)
+1181|smiths|probably Labrador Inuit (archaeological) (attributed)|D|12|Lamp|exclude:archaeological tools
+1182|smiths|probably Plains Ojibwa (Bungi) (attributed)|F|12|Saddle blanket|exclude:below inclusion rule (§2.3)
+1183|smiths|Pomo|D|12|Mortar|tag:place
+1184|smiths|possibly Early Woodland Tradition (archaeological culture) (|D|12|Cache blade/Implement blank|exclude:archaeological tools
+1185|smiths|Lenape (Delaware)|F|12|Watch bag/pocket|tag:place
+1186|smiths|Macushi (Macusi)|F|12|Club|tag:place
+1187|smiths|Washoe (Washo)|F|12|Necklace|kind:H8-13/Washoe
+1188|smiths|probably Turtle Mountain Chippewa (attributed)|F|12|Moccasins|exclude:below inclusion rule (§2.3)
+1189|smiths|probably Ancestral Pueblo (Anasazi): Kayenta (archaeological|D|12|Hammerstone (Image withheld, pending rev|kind:E1-61/Kayenta
+1190|smiths|probably Hopewell (archaeological culture) (attributed)|D|12|Shaft straightener/smoother (Image withh|tag:period
+1191|smiths|Innu [Pakuashipi/Saint-Augustin]|F|12|Man's half-leggings|tag:place
+1192|smiths|probably Iñupiaq (attributed)|C|12|Drag model/miniature|tag:place
+1193|smiths|probably Quechua (attributed)|D|12|House model|tag:place
+1194|smiths|Inuit [Baker Lake/Qamani’tuaq]|D|12|Shaman|kind:B2-6/Baker Lake (Qamani'tuaq)
+1195|smiths|Inuit [Spence Bay/Taloyoak]|D|12|Spirit Group|exclude:below inclusion rule (§2.3)
+1196|smiths|possibly A:shiwi (Zuni) (archaeological) (attributed)|D|12|Hammerstone (Image withheld, pending rev|exclude:below inclusion rule (§2.3)
+1197|smiths|Patamona|F|12|Woman's apron|tag:place
+1198|smiths|possibly Multiple archaeological cultures (attributed), incl|D|12|Hammerstone/Grinding stone (Image withhe|exclude:below inclusion rule (§2.3)
+1199|world_|Batak|F|12|BATAKS SPELLETJE|exclude:below inclusion rule (§2.3)
+1200|world_|Moroccan|D|12|ADOBE-STEEN VAN KLEI EN STRO|
+1201|world_|Yemeni|D|12|GESLEPEN STEEN|
+1202|world_|Liberia|D|12|IVOREN KROKODIL|exclude:below inclusion rule (§2.3)
+1203|world_|Honduras|D|12|PLATTE STEEN WAARIN FIGUREN ZIJN UITGEHO|tag:place
+1204|world_|Bhutanese|D|12|TOP VAN DRAAGBAAR ALTAAR MET RELIEFFIGUR|exclude:below inclusion rule (§2.3)
+1205|africa|Kamba|F|11|Skirt|tag:place
+1206|africa|Kongo|F|11|Sculpture|leaf:D6-2
+1207|africa|Kongo|D|11|Tusk|leaf:D6-2
+1208|africa|Unspecified (Ghana)|F|11|Bead|tag:place
+1209|africa|Moriori|D|11|Patu muka (flax fibre pounder)|tag:place
+1210|africa|Samoan|F|11|Comb (Hair - grooming tool)|tag:place
+1211|africa|Solomon Islands|F|11|Arm Band|tag:place
+1212|south_|Rajput: Jaipur (Amber)|C|11|Miniature|kind:A1-7/Jaipur
+1213|east_a|Japan · 現代時代・20世紀|C|11|弘法大師将来目録左筆臨本|
+1214|east_a|China · Five Dynasties|C|11|瑜伽師地論巻第十三|
+1215|east_a|Korea · 시대미상|C|11|간찰|
+1216|east_a|China · Warring States|D|11|Cranes and Serpents|
+1217|east_a|Japan · 1831|C|11|Yakusha fûzoku sangoku-shi|
+1218|east_a|Japan · 1836|C|11|Katsushika Shin Hinagata|
+1219|east_a|Japan · 1823|C|11|Tobae fude byoshi|
+1220|east_a|Japan · c. 1836|C|11|Tôshisen Ehon|
+1221|east_a|Japan · 1881|C|11|Iroha biki mon cho|
+1222|east_a|Japan · 17th century|C|11|Eiri Genji kumogakure no maki|
+1223|europe|pattern:serbian_manuscript_illumination|C|11|Экслибрис. "Ця книга Мирослава Мороза"|
+1224|europe|pattern:kholmogory_bone_carving|D|11|Шахматная фигура "Слон"|
+1225|europe|people:hutsul:glass|F|11|Бусы. Украинцы: гуцулы|
+1226|europe|people:buryat:glass|F|11|Четки ламаистские (ламаи́зм — направлени|
+1227|europe|people:chechen:manuscript_illumination|C|11|Марка почтовая. 60-летие автономных сове|
+1228|europe|people:koryak:manuscript_illumination|C|11|Письмо открытое, г. Кунгур, Пермской губ|
+1229|world_|Patua scroll painting (Bengal pat)|C|11|Scroll painting|leaf:A4-2
+1230|world_|Zuni fetishes and inlay jewellery|D|11|Fetish figure|
+1231|gap_sw|Ifugao bulul (granary figures)|D|11|Rice Deity (Bulul)|leaf:D5-18
+1232|himala|Hadda (Gandharan stucco)|D|11|Seated Buddha|kind:D5-1/Hadda
+1233|islami|Ilkhanid|C|11|"Benefits of the Parts of Vultures" (Fro|
+1234|islami|Mughal empire|D|11|Firearm accessory|
+1235|islami|Lahore · Mughal Lahore|C|11|Painting|
+1236|smiths|Himalayan peoples|C|11|The Ramayana (Tales of Rama; The Freer R|tag:place
+1237|smiths|probably Chiricahua Apache (attributed)|F|11|Man's hat/cap (Image withheld)|tag:place
+1238|smiths|Niantic|F|11|Belt bag|exclude:below inclusion rule (§2.3)
+1239|smiths|probably Olmec (archaeological culture) (attributed)|D|11|Maskette|exclude:below inclusion rule (§2.3)
+1240|smiths|Inuit [Ungava/Ungavamiut]|D|11|Whip|exclude:below inclusion rule (§2.3)
+1241|smiths|Innu [Lac Saint Jean]|F|11|Garters/Legbands|tag:place
+1242|smiths|possibly Sandusky (archaeological culture) (attributed)|D|11|Chisel (Image withheld, pending review)|tag:period
+1243|smiths|Northern Paiute [Walker River]|F|11|Basket baby-carrier|tag:place
+1244|smiths|Iñupiaq [Tikiġaq/Point Hope]|F|11|Labret/Lip plug|tag:place
+1245|smiths|probably Jicarilla Apache (attributed)|F|11|Moccasins|exclude:below inclusion rule (§2.3)
+1246|smiths|Kaska Dena|F|11|Man's coat/jacket|exclude:below inclusion rule (§2.3)
+1247|smiths|Acoma Pueblo|D|11|Ritual equipment (Image withheld)|leaf:E1-67
+1248|smiths|Cayuga [Six Nations of the Grand River, Brantford, Ontario]|F|11|Moccasins|tag:place
+1249|smiths|probably Shuar/Achuar (attributed)|F|11|Necklace|tag:place
+1250|smiths|Apsáalooke (Crow/Absaroke)|C|11|Bag model/miniature|tag:place
+1251|smiths|Oglala Lakota [Pine Ridge]|F|11|Man's pants|tag:place
+1252|smiths|Wendat (Huron)|F|11|Knife sheath|tag:place
+1253|smiths|possibly Mixteca (Mixtec) (archaeological culture) (attribut|D|11|Axe head (Image withheld, pending review|kind:D3-8/Mixtec
+1254|smiths|probably Maritime Archaic Tradition (archaeological culture)|D|11|Knife blade|exclude:below inclusion rule (§2.3)
+1255|smiths|Gwawa'enux Kwakwaka'wakw (Gosqeunox/Guauaenok)|D|11|Hammer|exclude:below inclusion rule (§2.3)
+1256|smiths|Karajá (Caraja)|F|11|Woman's apron|tag:place
+1257|smiths|possibly Aymara (attributed)|F|11|Charm/Amulet|kind:H2-7/Aymara
+1258|smiths|Northern Paiute [Pyramid Lake]|F|11|Ornament|tag:place
+1259|smiths|Wapichana (Wapishana)|F|11|Woman's apron|exclude:below inclusion rule (§2.3)
+1260|smiths|Tolowa|D|11|Pestle|tag:place
+1261|smiths|possibly Shoshone (archaeological) (attributed)|D|11|Worked stone (Image withheld, pending re|exclude:archaeological tools
+1262|smiths|Tunumiit [East Greenland] [Ammassalik]|F|11|Woman's collar|tag:place
+1263|smiths|Hunkpapa Lakota (Hunkpapa Sioux)|D|11|Tomahawk/Axe|tag:place
+1264|smiths|possibly Multiple archaeological cultures (attributed), incl|D|11|Disc-shaped object (Image withheld, pend|exclude:below inclusion rule (§2.3)
+1265|smiths|Oneida [Wisconsin]|F|11|Moccasins|exclude:below inclusion rule (§2.3)
+1266|smiths|possibly Iñupiaq (archaeological) (attributed)|D|11|Arrow point|exclude:below inclusion rule (§2.3)
+1267|smiths|Northern Mesoamerica|D|11|Maskette (Image withheld, pending review|tag:place
+1268|smiths|Yoreme (Mayo)|F|11|Sash/Belt|tag:place
+1269|smiths|probably Seneca (archaeological) (attributed)|D|11|Abrader (Image withheld)|tag:period
+1270|smiths|possibly Mogollon Tradition: Mimbres (archaeological culture|C|11|Miniature bowl (Image withheld, pending |leaf:E1-62
+1271|smiths|North America|F|11|Headband|tag:place
+1272|smiths|Cu'pig (Cup'ik) [Mekoryuk, Nunivak Island]|D|11|Figure|exclude:below inclusion rule (§2.3)
+1273|smiths|Inuit [Repulse Bay/Naujaat]|D|11|Head|exclude:below inclusion rule (§2.3)
+1274|smiths|Inuit [Gjoa Haven/Uqsuqtuuq]|D|11|Man Harpooning Fish|exclude:below inclusion rule (§2.3)
+1275|world_|Dayak|D|11|GIPSEN BEELD VAN EEN OP MONDHARMONIKA SP|exclude:below inclusion rule (§2.3)
+1276|world_|Botswana|F|11|ZILVEREN RING MET TUGHRA-INSCRIPTIE|
+1277|world_|Fiji|D|11|POTVISTAND|exclude:below inclusion rule (§2.3)
+1278|manusc|Nepalese (Newar) manuscripts|C|11|Seven Leaves from a Manuscript of the Ga|kind:C2-5
+1279|africa|Kongo|F|10|Male Figure (Nkisi Nkondi)|leaf:D6-2
+1280|africa|Ethiopian|F|10|Belt|tag:place
+1281|africa|Unspecified (Ghana)|C|10|Kan Me HWE Nhoma a Edi Kan|tag:place
+1282|africa|Massim|F|10|Kula Valuable Fragment|leaf:D5-86
+1283|africa|Polynesian|D|10|Sinker fragment|tag:place
+1284|americ|Mixtec|D|10|Head in Bird's Beak|tag:place
+1285|south_|Deccani|F|10|Nose ring|tag:place
+1286|south_|Sri Lankan: Kandyan|D|10|King and Queen|tag:period
+1287|south_|Tibetan|F|10|Figure|tag:place
+1288|east_a|Japan · 16世紀|C|10|Hoke-kyō (Saddharma-puṇḍarīka sūtra), Vo|
+1289|east_a|Korea · Silla|F|10|鳳首形琉璃製甁|
+1290|east_a|Japan · 1752|C|10|A Collection of Paintings of Our Country|
+1291|east_a|Japan · 1813|C|10|Hokusai gakyô|
+1292|east_a|Japan · 1832|C|10|Shibai saiken sanbasō|
+1293|east_a|Japan · 1820|C|10|Sankyô dôyu|
+1294|east_a|Japan · 1798|C|10|Ehon nori no suehiro|
+1295|east_a|Japan · Heisei|D|10|Ring of the Heart (Kanshin)|
+1296|east_a|Japan · 1817|C|10|Oson gafu Hôitsu shônin gafu , Banshô so|
+1297|europe|pattern:old_believer_pomor_vyg_book_painting|C|10|Книга. «Канон Роману Сладкопевцу». Старо|
+1298|europe|people:koryak:glass|F|10|Малахай мужской корякский, сшитый из кам|
+1299|europe|people:basque:glass|F|10|Ваза для фруктов.|
+1300|world_|Mexican cartoneria (Judas figures)|D|10|Figure|leaf:D5-73
+1301|gap_sw|Owo art|D|10|Tapper (Iroke Ifa)|kind:D2-5/Owo
+1302|himala|Tarim Basin (other)|D|10|The Stein Collection|tag:place
+1303|islami|Mamluk · Mamluk Cairo|C|10|Leaf from a Qur'an|
+1304|islami|Safavid · Safavid Tabriz|C|10|Illuminated Folio from a Gulistan (Rose |
+1305|islami|Seljuq|D|10|Inscribed Tombstone of Shaikh al-Husain |
+1306|islami|Timurid · Timurid Herat|C|10|The Story of Hushang (recto),  Illustrat|
+1307|islami|Hammadid|D|10|Funerary stele of Mukhlef ibn ‘Uthman|
+1308|islami|Mamluk|D|10|Inscribed limestone panel|
+1309|islami|Isfahan · Safavid Isfahan|C|10|Page|
+1310|islami|Kashmir · Kashmir|C|10|Painting|
+1311|islami|Murshidabad · Murshidabad|C|10|Painting|
+1312|smiths|Muslims|D|10|Jar (fragment)|
+1313|smiths|Chinese|F|10|Dish|exclude:below inclusion rule (§2.3)
+1314|smiths|Nuu-chah-nulth (Nootka)|D|10|Mask|tag:place
+1315|smiths|Taos Pueblo|F|10|Man's shirt|kind:E1-66/Taos
+1316|smiths|Lytton Nlaka'pamux (Upper Thompson River Salish)|D|10|Worked stone|tag:place
+1317|smiths|Peoria|F|10|Man's leggings|exclude:below inclusion rule (§2.3)
+1318|smiths|probably Mohawk (attributed)|F|10|Man's coat/jacket collar and cuffs|exclude:below inclusion rule (§2.3)
+1319|smiths|probably Chippewa/Ojibwa (attributed)|F|10|Shoulder bag/Bandolier bag|exclude:below inclusion rule (§2.3)
+1320|smiths|possibly Ancestral Pueblo (Anasazi): Cibola (archaeological)|C|10|Miniature bowl (Image withheld, pending |kind:E1-61/Cibola White Ware
+1321|smiths|probably Niuam (Comanche) (attributed)|F|10|Moccasins|exclude:below inclusion rule (§2.3)
+1322|smiths|probably Oklahoma Delaware (attributed)|F|10|Moccasins|exclude:below inclusion rule (§2.3)
+1323|smiths|Non-Indian (archaeological); probably used by Powhatan peopl|F|10|Bead/beads|exclude:below inclusion rule (§2.3)
+1324|smiths|Kalaallit [Greenland]|C|10|Hide dressing board model/miniature|tag:place
+1325|smiths|possibly Apsáalooke (Crow/Absaroke) (attributed)|F|10|Clothing/garment part/fragment|exclude:below inclusion rule (§2.3)
+1326|smiths|probably Anishinaabe (Chippewa/Ojibwa) (attributed)|F|10|Shoulder bag/Bandolier bag|exclude:below inclusion rule (§2.3)
+1327|smiths|Naskapi Innu|F|10|Bag|tag:place
+1328|smiths|Sahnish (Arikara)|D|10|Hammer|tag:place
+1329|smiths|Mi'kmaq (Micmac)|C|10|Portfolio/Envelope case|tag:place
+1330|smiths|possibly Multiple archaeological cultures (attributed), incl|D|10|Abrader (Image withheld, pending review)|exclude:below inclusion rule (§2.3)
+1331|smiths|possibly Apache (attributed)|F|10|Hat/cap (Image withheld)|exclude:below inclusion rule (§2.3)
+1332|smiths|Carib [Suriname]|C|10|Miniature vessel|tag:place
+1333|smiths|Miami|F|10|Man's leggings|tag:place
+1334|smiths|probably Lorette Huron (attributed)|F|10|Moccasin part/fragment|kind:H4-40/Wendake (Lorette)
+1335|smiths|Southern Ute|F|10|Child's moccasins|exclude:below inclusion rule (§2.3)
+1336|smiths|Nuu-chah-nulth (Nootka)|F|10|Shoulder bag/Bandolier bag|tag:place
+1337|smiths|probably Inughuit [Cape York] (archaeological) (attributed)|D|10|Needle case part/fragment (Image withhel|exclude:archaeological tools
+1338|smiths|possibly Safety Harbor (archaeological culture) (attributed)|D|10|Net weight/Netsinker (Image withheld, pe|exclude:archaeological tools
+1339|smiths|probably Cree (attributed)|F|10|Bag|exclude:below inclusion rule (§2.3)
+1340|smiths|probably Chimú (archaeological culture) (attributed)|C|10|Funeral procession casket model/miniatur|leaf:E1-49
+1341|smiths|Non-Indian (archaeological); probably used by the Onondaga|F|10|Button|exclude:below inclusion rule (§2.3)
+1342|smiths|possibly Multiple archaeological cultures (attributed), incl|D|10|Net weight/Netsinker (Image withheld, pe|exclude:below inclusion rule (§2.3)
+1343|smiths|probably Ancestral Pueblo (Anasazi): Northern San Juan (arch|D|10|Flake/debitage (Image withheld, pending |kind:E1-61/Northern San Juan (Mesa Verde)
+1344|smiths|Non-Indian (archaeological); probably used by Native people |F|10|Bead/beads|exclude:below inclusion rule (§2.3)
+1345|smiths|possibly Niitsitapii (Blackfoot/Blackfeet) (attributed)|F|10|Armband|exclude:below inclusion rule (§2.3)
+1346|smiths|Hopi [Second Mesa]|C|10|Miniature basket|kind:H8-20/Second Mesa
+1347|smiths|Desert Cahuilla [Torres-Martinez Reservation/Torres-Martinez|D|10|Arrow shaft straightener|tag:place
+1348|world_|Algerian|F|10|Algerijnse sabel met schede van Cornelis|
+1349|world_|European|D|10|HOUTEN BRUG OVER DE RIVIER SERUWAI IN DE|tag:place
+1350|world_|Yogyakarta|F|10|WATERKASTEEL TE DJOGJA|
+1351|world_|Aceh|F|10|PREHISTORISCHE KNOTS|
+1352|world_|Republic of the Congo|F|10|KRALEN GORDEL|
+1353|world_|Bolivian|F|10|LEREN MANNENHOED IN DE VORM VAN EEN OUDE|tag:place
+1354|world_|Argentina|F|10|HOUTEN HUIDENSCHRAPER MET GLAZEN PUNT|
+1355|world_|Marind|F|10|MAN VAN DE MARINDSTAM MET HAARVERLENGSEL|
+1356|world_|Maroon|F|10|BAKKEN VAN CASSAVEKOEKEN|
+1357|world_|Burundi|F|10|HOUTEN ORAKEL VOORZIEN VAN KRALEN, HAAR |
+1358|manusc|Nubian (Old Nubian, Greek, Coptic)|C|10|Single Folio from a Large Qur'an|tag:place
+1359|africa|Kuba|F|9|Hat (Kalyeem)|leaf:H4-30
+1360|africa|Zulu|F|9|Neckpiece|leaf:H9-1
+1361|africa|Lega|D|9|Sculpture|leaf:D5-51
+1362|africa|Unspecified (Sudan)|F|9|Ornament|tag:place
+1363|south_|Deccani|D|9|Walking Elephant|tag:place
+1364|south_|Mon-Dvaravati|D|9|Dharmachakra 'Wheel of Law'|exclude:below inclusion rule (§2.3)
+1365|south_|Nepalese (Newar)|C|9|Hindu Manuscript Cover with Two Disciple|tag:place
+1366|south_|Unspecified (Bombay)|D|9|Mask|tag:place
+1367|east_a|Japan · Kofun|D|9|夾紵断片|
+1368|east_a|Korea · Silla|D|9|銅造如来立像|
+1369|east_a|Korea · Unified Silla|F|9|유리 구슬|
+1370|east_a|Japan · 1799|C|9|Gahô hiketsu|
+1371|east_a|Japan · 1899|C|9|Hana no kake|
+1372|east_a|Japan · 1905|C|9|Hinagoromo Hinaishô|
+1373|east_a|Japan · 1682|C|9|Teitoku Kyoka Shu|
+1374|east_a|Japan · 1815|C|9|Chikudô gafu|
+1375|east_a|Japan · 1824|C|9|Kihô gafu|
+1376|east_a|Japan · 1903|C|9|Chikudô iboku|
+1377|east_a|Japan · 1804|C|9|Ehon Edo nishiki|
+1378|europe|people:udmurt:lacquer_miniature|C|9|Шкатулка. "Серый волк"|
+1379|europe|culture:norwegian:bone_carving|D|9|Hardanger Fiddle|
+1380|world_|Bencharong porcelain|C|9|Lai Nam Thong (Gold-Washed) Ware, Miniat|leaf:E4-1
+1381|world_|Kutch embroidery (Rabari, Ahir, Banni)|F|9|"Salwar": Woman's Trousers|
+1382|world_|Huichol yarn and bead art (nierika)|F|9|Altar accessory|
+1383|world_|Ifugao bulul (granary figures)|D|9|Bulul (male rice deity figure)|
+1384|gap_sw|Bankoni terracottas|D|9|Equestrian and Four Figures|kind:D5-35/Bankoni
+1385|himala|Nepalese (undated)|D|9|Chandika (Indian Goddess)|tag:place
+1386|himala|Choying Dorje atelier (Tenth Karmapa)|D|9|Avalokiteshvara (Bodhisattva & Buddhist |kind:A4-11/Choying Dorje
+1387|islami|Safavid · Safavid Qazvin|C|9|Camel and Groom; Single Page Illustratio|
+1388|islami|Iran|F|9|Bottle|
+1389|islami|Ottoman|D|9|Funerary stele|
+1390|islami|Lahore; Amritsar; Punjab Plain · Mughal Lahore|C|9|Painting|
+1391|smiths|Non-Indian (archaeological); probably used by the Cherokee|F|9|Bead/beads (Image withheld, pending revi|exclude:below inclusion rule (§2.3)
+1392|smiths|probably Huastec (Huasteca) (archaeological culture) (attrib|D|9|Figure (Image withheld, pending review)|exclude:below inclusion rule (§2.3)
+1393|smiths|probably Oneida (attributed)|F|9|Handbag/purse|exclude:below inclusion rule (§2.3)
+1394|smiths|Non-Indian (archaeological); possibly used by Maya people|F|9|Bead/beads (Image withheld, pending revi|exclude:below inclusion rule (§2.3)
+1395|smiths|possibly Quimbaya (archaeological culture) (attributed)|D|9|Worked stone (Image withheld, pending re|kind:G3-9/ceramics
+1396|smiths|Choctaw|F|9|Bag|kind:H8-21/Choctaw
+1397|smiths|possibly Zapotec or Mixteca (Mixtec) (archaeological culture|C|9|Miniature vessel (Image withheld, pendin|tag:place
+1398|smiths|Non-Indian (archaeological); probably used by Native people |F|9|Bead/beads (Image withheld, pending revi|exclude:below inclusion rule (§2.3)
+1399|smiths|probably Northern Ute (attributed)|F|9|Moccasins|exclude:below inclusion rule (§2.3)
+1400|smiths|Kootenai (Kutenai)|F|9|Charm/Amulet (Image withheld)|exclude:below inclusion rule (§2.3)
+1401|smiths|Non-Indian (archaeological); probably used by Native peoples|F|9|Bead/beads|exclude:below inclusion rule (§2.3)
+1402|smiths|Haida|F|9|Man's dance kilt/apron|tag:place
+1403|smiths|Northern Ute|F|9|Ammunition/cap bag|exclude:below inclusion rule (§2.3)
+1404|smiths|possibly Ute (attributed)|F|9|Belt bag|exclude:below inclusion rule (§2.3)
+1405|smiths|possibly Multiple archaeological cultures (attributed), incl|D|9|Axe head (Image withheld, pending review|exclude:below inclusion rule (§2.3)
+1406|smiths|possibly Sinagua (archaeological culture) (attributed)|D|9|Vessel lid/cover (Image withheld, pendin|exclude:below inclusion rule (§2.3)
+1407|smiths|Lorette Huron|F|9|Gauntlet/Cuff (No image available)|kind:H4-40/Wendake (Lorette)
+1408|smiths|Guna (Kuna)|C|9|Miniature vessel|kind:H4-33/Guna
+1409|smiths|Klamath|F|9|Woman's hat|kind:H8-13/Klamath
+1410|smiths|Innu [Ungava]|F|9|Game-carrying string/tie|tag:place
+1411|smiths|probably Kiowa (attributed)|F|9|Belt bag|exclude:below inclusion rule (§2.3)
+1412|smiths|possibly Weeden Island (archaeological culture) (attributed)|D|9|Polishing stone (Image withheld, pending|leaf:E1-72
+1413|smiths|Tehuelche|D|9|Bola/Boleadora|tag:place
+1414|smiths|probably Deptford (archaeological culture) (attributed)|D|9|Worked stone (Image withheld, pending re|tag:period
+1415|smiths|Kwakwaka'wakw (Kwakiutl)|C|9|Copper model/miniature|tag:place
+1416|smiths|probably Multiple archaeological cultures (attributed); incl|D|9|Chisel|tag:place
+1417|smiths|Non-Indian (archaeological); probably used by the Oneida or |F|9|Bottle part/fragment|exclude:below inclusion rule (§2.3)
+1418|smiths|Maidu|F|9|Necklace (Image withheld)|kind:H8-13/Maidu
+1419|smiths|probably Southern Tsitsistas/Suhtai (Cheyenne) (attributed)|F|9|Tipi liner|exclude:below inclusion rule (§2.3)
+1420|smiths|Pikuni (Piegan) [Blackfeet Nation, Browning, Montana]|F|9|Dragonfly pendant|exclude:below inclusion rule (§2.3)
+1421|smiths|Emberá (Choikoi)|F|9|Headband|tag:place
+1422|smiths|Inuit [Povungnituk/Puvirnituq]|D|9|Figure|exclude:below inclusion rule (§2.3)
+1423|smiths|possibly Yup'ik (Yupik) or Iñupiaq (attributed)|F|9|Tobacco container|tag:place
+1424|smiths|Skidi Chaticks Si Chaticks (Skidi Pawnee/Skiri Pawnee)|F|9|Pipebag|exclude:below inclusion rule (§2.3)
+1425|smiths|possibly Multiple archaeological cultures (attributed); incl|D|9|Concretion|exclude:below inclusion rule (§2.3)
+1426|smiths|possibly Mississippian Tradition (archaeological culture) (a|D|9|Pipe (unfinished) (Image withheld, pendi|exclude:below inclusion rule (§2.3)
+1427|smiths|possibly Aymara (attributed)|C|9|Miniature hat|kind:H2-7/Aymara
+1428|smiths|Inuvialuit [Mackenzie Delta]|D|9|A Little Closer|exclude:below inclusion rule (§2.3)
+1429|smiths|Klamath|D|9|Grooved object|kind:H8-13/Klamath
+1430|world_|Chinese, Canton|D|9|Onderdeel van een grote ivoren stapeldoo|
+1431|world_|Suriname|C|9|Mattheus Sigismundis Schuster (1757-1826|
+1432|world_|Togo|D|9|LEREN AMULETTAS|
+1433|world_|Colombian|F|9|HALSKETTING MET TANDEN ALS KRALEN|tag:place
+1434|world_|Venezuela|F|9|KRALENSCHORT MET KRALENBAND VOOR VROUWEN|
+1435|world_|Madagascar|D|9|STEEN BEHOREND BIJ DE HOUTEN BEWEEGBARE |exclude:below inclusion rule (§2.3)
+1436|world_|Colonial Insular Southeast Asian periodes and styles|F|9|TWEE HOUTEN DEUREN|
+1437|world_|Swedish|C|9|MODEL VAN EEN HUIS|tag:place
+1438|manusc|Armenian: Vaspurakan school|C|9|Ավետարան (5067)|kind:A1-20/Vaspurakan school
+1439|manusc|Gothic: Bohemian|C|9|Psalter of Hanuš from Kolovrat|kind:C2-29/Bohemian
+1440|africa|Kuba|F|8|Mirror|leaf:H4-30
+1441|africa|Sapi (Afro-Portuguese)|D|8|Head|exclude:below inclusion rule (§2.3)
+1442|africa|Unspecified (Sierra Leone)|D|8|Sculpture|tag:place
+1443|africa|Aboriginal Australian: Wardaman|D|8|Grinding Stone|tag:place
+1444|africa|Maori|F|8|Glass beads, bone, and two metal buttons|tag:place
+1445|africa|Maori: Te Arawa|D|8|Mahe (sinker)|kind:D5-81/Te Arawa
+1446|africa|New Caledonia (Kanak)|F|8|Beads|tag:place
+1447|africa|Sepik: Abelam|D|8|Mask|alias:D5-85
+1448|americ|Unspecified (California)|F|8|Gambling Dice|kind:H8-13
+1449|south_|Awadh (Lucknow)|F|8|Domestic|kind:A1-4/Awadh
+1450|south_|Murshidabad|D|8|Figure|kind:A1-4/Murshidabad
+1451|south_|Mysore|D|8|Sculpture|tag:place
+1452|south_|Rajput: Marwar (Jodhpur)|D|8|Figure|kind:A1-7/Marwar
+1453|east_a|China · Five Dynasties|D|8|Head of Bodhisattva|
+1454|east_a|Korea · Silla|C|8|智異山華厳寺石経残石拓本|
+1455|east_a|Japan · 現代 20世紀|C|8|鉄樹開華|
+1456|east_a|Japan · 1852|C|8|Yakusha mitate gojûsan-tsugi|
+1457|east_a|Japan · 1765|C|8|Genji ikebana ki|
+1458|east_a|Japan · 1811|C|8|Sankatsu gushi akane no irozashi|
+1459|east_a|Japan · Date unknown|C|8|Nichiren Ichidaiki|
+1460|east_a|Japan · 1850|C|8|Ehon Kôkyô|
+1461|east_a|Japan · 1809|C|8|Rinroku gokan Henshi gafu|
+1462|east_a|Japan · 1856|C|8|Kyôka Edo meisho zue|
+1463|east_a|Japan · 1884|C|8|Bairei hyakuchô gafu zokuhen|
+1464|east_a|Japan · 1786
+Tenmei 6|C|8|Jabara-mon hara no hakachō|
+1465|east_a|Japan · 1928 (reproduction)|C|8|Keisei hyôban ki|
+1466|east_a|Japan · 1819|C|8|Hôrai san|
+1467|east_a|Japan · 1920 (reproduction)|C|8|Taiso shigen zatsuji|
+1468|east_a|Japan · 1834|C|8|Kyôka tegoto no hana|
+1469|east_a|Japan · 1894|C|8|Kôrin hyakuzu|
+1470|europe|pattern:yakut_bone_carving|D|8|Гребень  "Якутск".|
+1471|europe|people:altai:lacquer_miniature|C|8|герб Советского района|
+1472|europe|people:mari:bone_carving|D|8|Волынка марийская (шувыр).|
+1473|europe|people:bashkir:glass|F|8|Сувенир" Венок дружбы".|
+1474|europe|people:belarusian:bone_carving|D|8|Фигура шахматная - пешка белых (скульпту|
+1475|europe|pattern:birch_bark_work_tuohityo|D|8|Parade Saddle|
+1476|world_|Native American basketry (California, Southwest, Plateau, Wa|F|8|Cap|
+1477|world_|Tanjore painting|F|8|Yashoda with Baby Krishna in Lap|leaf:A6-4
+1478|world_|Andean aguayo and lliclla weaving|F|8|Shawl pin|
+1479|world_|Haida argillite carving|D|8|Carving of a canoe filled with oarsmen|
+1480|himala|Kushan|D|8|Chair Leg|tag:period
+1481|himala|Khotanese|D|8|artefact 1907,1111.55|tag:place
+1482|islami|Deccani sultanates; Mughal|D|8|Panel from a Box|
+1483|islami|Safavid · Safavid Herat|C|8|Qur'an Manuscript Folio (Recto); Illumin|
+1484|islami|Al Busaid|C|8|Jewelled Box and Manuscript ( Kitab al-A|
+1485|islami|Safavid|D|8|Bottle with depictions of dance and musi|
+1486|islami|ISLAMIC|F|8|Scent bottle|tag:period
+1487|islami|Delhi|F|8|Huqqa mouthpiece|
+1488|islami|British School; Orientalism|C|8|Picturesque Scenery in the Holy Land and|
+1489|smiths|Chinese|C|8|Fan mounted as an album leaf|exclude:below inclusion rule (§2.3)
+1490|smiths|Nisga'a (Niska)|F|8|Spoon|tag:place
+1491|smiths|probably Late Archaic or Early Woodland Tradition (archaeolo|D|8|Vessel fragment (Image withheld, pending|exclude:below inclusion rule (§2.3)
+1492|smiths|Muscogee (Creek)|F|8|Shoulder bag/Bandolier bag|exclude:below inclusion rule (§2.3)
+1493|smiths|probably Northern Tsitsistas/Suhtai (Cheyenne) (attributed)|F|8|Baby carrier/Moss bag|exclude:below inclusion rule (§2.3)
+1494|smiths|probably Penobscot (attributed)|F|8|Man's coat/jacket collar and cuffs|exclude:below inclusion rule (§2.3)
+1495|smiths|possibly Multiple archaeological cultures (attributed), incl|D|8|Maul/Hammer head|exclude:below inclusion rule (§2.3)
+1496|smiths|Pikuni Blackfeet (Piegan)|D|8|Concretion (Image withheld)|tag:place
+1497|smiths|Non-Indian (archaeological); probably used by the Calusa|F|8|Bead/beads (Image withheld, pending revi|exclude:below inclusion rule (§2.3)
+1498|smiths|probably Circumpuna Andes: Humahuaca region (archaeological)|D|8|Hammerstone/Grinding stone (Image withhe|tag:place
+1499|smiths|possibly Multiple archaeological cultures (attributed), incl|D|8|Polishing stone (Image withheld, pending|exclude:below inclusion rule (§2.3)
+1500|smiths|probably Seneca (attributed)|F|8|Watch bag/pocket|exclude:below inclusion rule (§2.3)
+1501|smiths|possibly Cuicatec or Zapotec (archaeological culture) (attri|D|8|Spherical/ball-shaped object (Image with|tag:place
+1502|smiths|Selk'nam (Ona)|F|8|Arrow|tag:place
+1503|smiths|Innu [Michikamau]|F|8|Leggings|tag:place
+1504|smiths|probably Inuit (attributed)|D|8|Sled model|exclude:below inclusion rule (§2.3)
+1505|smiths|Non-Indian (archaeological); possibly used by the Plains Vil|F|8|Bead/beads|exclude:below inclusion rule (§2.3)
+1506|smiths|Non-Indian (archaeological); possibly used by Native people |F|8|Bead/beads|exclude:below inclusion rule (§2.3)
+1507|smiths|Mississauga|F|8|Moccasins|exclude:below inclusion rule (§2.3)
+1508|smiths|possibly Southern Plains (attributed)|F|8|Belt bag|exclude:below inclusion rule (§2.3)
+1509|smiths|Possibly Late Archaic or Early Woodland Tradition (archaeolo|D|8|Vessel fragment (Image withheld, pending|exclude:archaeological tools
+1510|smiths|probably Thule Tradition (archaeological culture) (attribute|C|8|Miniature or toy harpoon head|exclude:archaeological tools
+1511|smiths|Probably Adena or Hopewell (archaeological culture) (attribu|D|8|Tabular object (Image withheld, pending |exclude:below inclusion rule (§2.3)
+1512|smiths|probably Middle Woodland or Late Woodland Tradition (archaeo|D|8|Hammer (Image withheld, pending review)|exclude:below inclusion rule (§2.3)
+1513|smiths|possibly Multiple archaeological cultures (attributed), incl|D|8|Figure|exclude:below inclusion rule (§2.3)
+1514|smiths|Saulteaux [Berens River, Manitoba]|F|8|Pipebag|tag:place
+1515|smiths|Tunumiit [East Greenland] [Ammassalik]|C|8|Spear model/miniature part/fragment|tag:place
+1516|smiths|Non-Indian (archaeological); probably used by the Kalaallit |F|8|Bead/beads|exclude:below inclusion rule (§2.3)
+1517|smiths|Michigan Chippewa|F|8|Doll with cradle/cradleboard|exclude:below inclusion rule (§2.3)
+1518|smiths|probably Iroquoian (archaeological) (attributed)|D|8|Pipe|tag:period
+1519|smiths|Lakandon Maya (Lacandon)|D|8|Arrow|tag:place
+1520|smiths|Gitxsan (Gitksan)|F|8|Man's dance kilt/apron|tag:place
+1521|smiths|Ahtna (Ahtena)|F|8|Knife and sheath|exclude:below inclusion rule (§2.3)
+1522|smiths|possibly Multiple archaeological cultures (attributed), incl|D|8|Chisel (Image withheld, pending review)|exclude:below inclusion rule (§2.3)
+1523|smiths|Upper Taku River Kaska (Takutine)|F|8|Guncase|exclude:below inclusion rule (§2.3)
+1524|smiths|Tohono O'odham (Papago)|D|8|Arrow|kind:H8-19/Tohono O'odham
+1525|smiths|Inuit [Port Harrison/Inukjuak]|D|8|Figural group|exclude:below inclusion rule (§2.3)
+1526|smiths|Tapirapé (Tapirape)|F|8|Chest ornament/Pectoral|tag:place
+1527|smiths|probably K'iche' Maya (Quiché) (attributed)|C|8|Mask model/miniature|kind:H3-28/K'iche'
+1528|smiths|Miccosukee Seminole (Mikasuki)|F|8|Necklace and bracelet (No image availabl|tag:place
+1529|smiths|Sauk|F|8|James K Polk peace medal (dated 1845) an|exclude:below inclusion rule (§2.3)
+1530|smiths|Chachilla (Cayapas)|C|8|Burden basket/Pack basket model/miniatur|tag:place
+1531|smiths|probably Guerrero Nahua (attributed)|D|8|Mask|tag:place
+1532|smiths|probably Minnesota Chippewa [Red Lake, Minnesota] (attribute|F|8|Dance accessory|exclude:below inclusion rule (§2.3)
+1533|smiths|Zapotec|C|8|Miniature vessel|tag:place
+1534|smiths|probably Northern Paiute (attributed)|F|8|Bottle|exclude:below inclusion rule (§2.3)
+1535|smiths|probably Valencioid (archaeological culture) (attributed)|C|8|Miniature vessel (Image withheld, pendin|tag:place
+1536|smiths|Cahuilla [Morongo Band of Mission Indians]|D|8|Arrow shaft straightener|exclude:below inclusion rule (§2.3)
+1537|smiths|probably Copper Inuit (attributed)|D|8|Figure|tag:place
+1538|world_|Flores|F|8|DANSERESSEN UIT FLORES|exclude:below inclusion rule (§2.3)
+1539|world_|French|F|8|SUIKER DIORAMA MET SCHILDER ELAND (KOL. |tag:place
+1540|world_|European; Indonesian|F|8|ZIEKENVERBLIJF IN ATJEH|
+1541|world_|Mentawai|F|8|EEN VROUW VAN DE MENTAWEI-EILANDEN IN KL|
+1542|world_|Malaysian|D|8|GIPSAFGIETSEL VAN EEN STENEN WERKTUIG|exclude:below inclusion rule (§2.3)
+1543|world_|Curaçao|F|8|KATOENEN POP MET  KLEDERDRACHT VAN CURAÇ|
+1544|world_|Egyptian|C|8|PRENT MET RELIGIEUZE SPREUK|tag:place
+1545|world_|Philippine|D|8|HEILIGENBEELD|tag:place
+1546|world_|Lowland native Surinamese|F|8|BEWERKEN EN OPSLAAN VAN GEKAPT HOUT|
+1547|world_|Fiji|F|8|WERPKNOTS|exclude:below inclusion rule (§2.3)
+1548|world_|Southwest, Pueblo|D|8|BUSTE VAN INDIAANSE MAN: JOSÉ DOMINGO CH|
+1549|world_|Algerian|D|8|'GEBRANDE STEEN'|
+1550|manusc|Kashmiri birch-bark and Sharada manuscripts|C|8|Bakhshali manuscript|exclude:script/text bucket, no art tradition named
+1551|manusc|Mosan / Romanesque|C|8|Hortus deliciarum|kind:C2-24/Mosan
+1552|africa|Maasai|F|7|Ornament (Surutia)|exclude:below inclusion rule (§2.3)
+1553|africa|Mandara Mountains (Kirdi)|F|7|Skirt|exclude:below inclusion rule (§2.3)
+1554|africa|Nok|D|7|King Head|leaf:D5-30
+1555|africa|Oromo|F|7|Necklace|tag:place
+1556|africa|Unspecified (Ghana)|D|7|Carving|tag:place
+1557|africa|Admiralty Islands|F|7|Spear|tag:place
+1558|africa|Maori|C|7|Tewhatewha pounamu|tag:place
+1559|south_|Awadh (Lucknow)|C|7|Vrouwen voor een linga-altaar (Bhairavi |kind:A1-4/Awadh
+1560|south_|Thanjavur (Tanjore)|D|7|Figure|tag:place
+1561|south_|Unspecified (Madhya Pradesh)|F|7|Plaque|tag:place
+1562|east_a|China · Yuan|D|7|Seated Kannon Bosatsu (Avalokitesvara Bo|
+1563|east_a|Japan · 20世紀|D|7|Full-moon shaped &#39;heart&#39; and lot|
+1564|east_a|China · Jin|C|7|Seal|
+1565|east_a|Japan · 1797|C|7|Chōjū ryakugashiki|
+1566|east_a|Japan · 1891|C|7|Kogei zukan|
+1567|east_a|Japan · 1775|C|7|Oyafune taihei ki|
+1568|east_a|Japan · 1851|C|7|Taisho Hinagata Daizen|
+1569|east_a|Japan · 1930 (reproduction)|C|7|Yakusha meibutsu yatsushi sugata|
+1570|east_a|Japan · 1810|C|7|Kasen kashô|
+1571|east_a|Japan · 1890|C|7|Hôbun gafu|
+1572|east_a|Japan · 1814|C|7|Suiseki gafu|
+1573|east_a|Japan · 1790|C|7|Mizukage ni|
+1574|east_a|Japan · 1778|C|7|Gunchô gaei|
+1575|east_a|Japan · 1829|C|7|Glorious Features of Plants and Trees|
+1576|europe|pattern:vetka_icon|C|7|Карточка почтовая  "Москва. Цветковская |
+1577|europe|people:mordvin_erzya_moksha:lacquer_miniature|C|7|Пудреница  "Мордовские напевы"|
+1578|europe|people:adyghe_circassian_kabardian:lacquer_miniature|C|7|Шкатулка. Доватор.|
+1579|europe|people:avar:bone_carving|D|7|Набор газырей к черкеске. Аварцы|
+1580|europe|people:seto:glass|F|7|Головная повязка. Эстонцы; эстонцы: сету|
+1581|europe|people:lak:manuscript_illumination|C|7|Конверт почтовый художественный «Базарны|
+1582|europe|people:ingush:manuscript_illumination|C|7|Марка почтовая. 60-летие автономных сове|
+1583|world_|Pennsylvania German fraktur|C|7|Manuscript Sampler|leaf:C2-28
+1584|world_|Philippine pina and other weaving (Yakan, Kalinga, Ifugao, i|F|7|Sipattal (chest ornament)|leaf:H3-13
+1585|world_|Mapuche silverwork and weaving|F|7|Necklace|
+1586|gap_sw|Torres Strait turtle-shell masks (krar, le-op)|D|7|Mask (Le Op)|alias:D4-26
+1587|gap_sw|Ethiopian traditional arts (other)|C|7|Prayer book with case (mahdar)|exclude:umbrella bucket
+1588|himala|Dunhuang|D|7|artefact 1928,1022.26|leaf:A4-14
+1589|himala|Tibetan|F|7|Necklace|tag:place
+1590|islami|Abbasid · Abbasid Baghdad|C|7|Text page from a Materia Medica of Diosc|
+1591|islami|Aghlabid; Abbasid|C|7|Qur'an Manuscript Folio (recto); left si|
+1592|islami|Ilkhanid · Ilkhanid Baghdad|C|7|Episodes from the Reigns of Khusrau Parv|
+1593|islami|Ayyubid|F|7|Perfume Sprinkler|
+1594|islami|Siculo-Norman|D|7|Very large column shaft with Arabic insc|
+1595|islami|Mughal · Imperial Mughal atelier|D|7|Bracket|
+1596|islami|Delhi · Mughal Delhi|C|7|Drawing|
+1597|islami|Deccan|C|7|Rustam and Bizhan |tag:place
+1598|islami|Turkey|C|7|Untitled|
+1599|smiths|Erlitou culture, ca. 2000-1600 BCE|D|7|Dagger-axe (<em>ge</em> 戈), fragment rew|
+1600|smiths|possibly Ancestral Pueblo (Anasazi): Northern San Juan (arch|D|7|Axe head (Image withheld, pending review|kind:E1-61/Northern San Juan (Mesa Verde)
+1601|smiths|probably White Mountain Apache (attributed)|F|7|Choker necklace|exclude:below inclusion rule (§2.3)
+1602|smiths|Non-Indian (archaeological); probably used by Native peoples|F|7|Bead/beads|exclude:below inclusion rule (§2.3)
+1603|smiths|probably Northern Mesoamerica (attributed)|D|7|Hoe blade (Image withheld, pending revie|tag:place
+1604|smiths|Oklahoma Muscogee (Creek)|F|7|Sash/Belt|tag:place
+1605|smiths|possibly Multiple archaeological cultures (attributed), incl|D|7|Chisel part/fragment|exclude:below inclusion rule (§2.3)
+1606|smiths|Haisla [Kitamaat]|D|7|Maul/Hammer head|tag:place
+1607|smiths|probably Sac and Fox (Sauk & Fox) (attributed)|F|7|Baby's moccasins|exclude:below inclusion rule (§2.3)
+1608|smiths|probably Muscogee (Creek) (attributed)|F|7|Choker necklace|exclude:below inclusion rule (§2.3)
+1609|smiths|probably Yup'ik (Yupik) (attributed)|D|7|Hunting float plug|tag:place
+1610|smiths|probably Tumaco–La Tolita (archaeological culture) (attribut|C|7|Miniature vessel (Image withheld, pendin|tag:place
+1611|smiths|Astakiwi|F|7|Sash/Belt|exclude:below inclusion rule (§2.3)
+1612|smiths|Yagán (Yámana/Yahgan)|C|7|Harpoon model/miniature|tag:place
+1613|smiths|probably Highland Maya (attributed)|C|7|Miniature vessel|tag:place
+1614|smiths|probably Niimíipuu (Nez Perce) (attributed)|F|7|Bag|exclude:below inclusion rule (§2.3)
+1615|smiths|probably Chaticks Si Chaticks (Pawnee) (archaeological) (att|D|7|Shaft straightener/smoother|exclude:below inclusion rule (§2.3)
+1616|smiths|Guna [Guna Yala]|D|7|Arrow|kind:H4-33/Guna Yala
+1617|smiths|possibly Late Northwest Coast Tradition (archaeological cult|D|7|Adze blade|exclude:below inclusion rule (§2.3)
+1618|smiths|Siberian Yupik [St. Lawrence Island]|C|7|Miniature cup and saucer|tag:place
+1619|smiths|Seneca [Six Nations of the Grand River, Brantford, Ontario]|F|7|Man's leggings|exclude:below inclusion rule (§2.3)
+1620|smiths|probably Owens Valley Paiute (attributed)|F|7|Woman's collar|exclude:below inclusion rule (§2.3)
+1621|smiths|probably Wari (Huari) (archaeological culture) (attributed)|D|7|Spatula (Image withheld, pending review)|tag:place
+1622|smiths|Yurok|F|7|Baby's necklace|tag:place
+1623|smiths|probably Thule Tradition: Punuk Stage (archaeological cultur|D|7|Harpoon head|exclude:below inclusion rule (§2.3)
+1624|smiths|Sumo|F|7|Necklace|tag:place
+1625|smiths|Tawahka|F|7|Bracelet|exclude:below inclusion rule (§2.3)
+1626|smiths|Wuikinuxv (Oweekeno)|D|7|Hammer|exclude:below inclusion rule (§2.3)
+1627|smiths|Northern Paiute [Pyramid Lake]|D|7|Mortar|tag:place
+1628|smiths|Northern Paiute|F|7|Cradleboard model/toy|tag:place
+1629|smiths|possibly Northeast (archaeological) (attributed)|D|7|Chipped "eccentric"|exclude:below inclusion rule (§2.3)
+1630|smiths|Wanka Quechua|D|7|Mask|tag:place
+1631|smiths|possibly Paiute (archaeological) (attributed)|D|7|Incised object fragment (Image withheld,|tag:period
+1632|smiths|probably Pikuni Blackfeet (Piegan) (attributed)|F|7|Man's shirt|exclude:below inclusion rule (§2.3)
+1633|smiths|Western Shoshone|F|7|Boy's shirt|exclude:below inclusion rule (§2.3)
+1634|smiths|possibly Multiple archaeological cultures (attributed), incl|D|7|Pointed object (Image withheld, pending |exclude:below inclusion rule (§2.3)
+1635|smiths|possibly Southwest (attributed)|F|7|Quiver and bowcase|tag:place
+1636|smiths|probably Munsee Delaware (attributed)|F|7|Handbag/Purse|exclude:below inclusion rule (§2.3)
+1637|smiths|possibly Multiple archaeological cultures (attributed), incl|D|7|Maul/Hammer head (Image withheld, pendin|exclude:below inclusion rule (§2.3)
+1638|smiths|probably Potawatomi [Oklahoma] (attributed)|F|7|Sash/Belt|exclude:below inclusion rule (§2.3)
+1639|smiths|Maliseet (Malecite)|F|7|Man's coat/jacket|exclude:below inclusion rule (§2.3)
+1640|smiths|Eastern Shawnee [Quapaw Agency, Oklahoma]|F|7|Moccasin part/fragment|exclude:below inclusion rule (§2.3)
+1641|smiths|Non-Indian (archaeological); probably used by Iroquois peopl|F|7|Bead/beads (Image withheld)|exclude:below inclusion rule (§2.3)
+1642|smiths|Tsitsistas/Suhtai (Cheyenne)|D|7|Dance club|tag:place
+1643|smiths|possibly Non-Indian (attributed)|F|7|Powder horn and ammunition/cap bag|exclude:mis-regioned NMAI row (Non-Indian = non-Native American)
+1644|smiths|Yup'ik [Bristol Bay]|F|7|Drag|tag:place
+1645|smiths|Innu [Sept-Îles]|F|7|Bag|tag:place
+1646|smiths|Aymara|C|7|Miniature vessel|kind:H2-7/Aymara
+1647|smiths|San Ildefonso Pueblo|C|7|Miniature vessel|kind:E1-69/San Ildefonso
+1648|smiths|Penobscot|C|7|Bookmark|tag:place
+1649|smiths|possibly Multiple archaeological cultures (attributed), incl|D|7|Flake tool/Worked flake|exclude:below inclusion rule (§2.3)
+1650|smiths|probably Plains Village Tradition (archaeological culture) (|D|7|Scraper|exclude:below inclusion rule (§2.3)
+1651|smiths|Plateau|F|7|Woman's leggings|exclude:below inclusion rule (§2.3)
+1652|smiths|Yanktonai Dakota|F|7|Female doll|kind:A5-110/Yanktonai Dakota
+1653|smiths|Great Lakes|F|7|Sash/Belt|tag:place
+1654|smiths|probably Dakota (Eastern Sioux) (attributed)|C|7|Miniature canoe|tag:place
+1655|smiths|Cayuga [Six Nations of the Grand River, Brantford, Ontario]|D|7|Sculpture (No image available)|tag:place
+1656|smiths|Canelos Kichua|F|7|Headdress|tag:place
+1657|smiths|Caribou Inuit [Padliqmiut]|D|7|Hide scraper|exclude:below inclusion rule (§2.3)
+1658|smiths|possibly Natchez (archaeological) (attributed)|D|7|Disc-shaped object (Image withheld, pend|exclude:below inclusion rule (§2.3)
+1659|smiths|Campo Band of Kumeyaay|D|7|Mortar used to prepare jimson weed for b|tag:place
+1660|world_|Chinese, Canton|F|7|Toiletstel|
+1661|world_|Buru|F|7|BEHENDIGHEIDSSPEL TE BOEROE|
+1662|world_|Timor|F|7|DANSER UIT TJAMPLONG|exclude:below inclusion rule (§2.3)
+1663|world_|Sumba|F|7|TWEE MANNEN DANSEN DE ZAIWO MET ZWAARD E|exclude:below inclusion rule (§2.3)
+1664|world_|Lampung|F|7|DANSMEISJES VAN LAMPONG TE MENGGALA|
+1665|world_|Toraja|F|7|DANSERS, BEGELEID DOOR FLUITEN, OP DE MA|tag:place
+1666|world_|Indonesian, Java; European|F|7|LYCEUM TE BATAVIA|
+1667|world_|German|D|7|AFGIETSEL VAN EEN BEELD VAN MANJUSRI|tag:place
+1668|world_|Vanuatu|D|7|MAGISCHE STEEN|exclude:below inclusion rule (§2.3)
+1669|world_|Chile|F|7|KRALENSNOER|exclude:below inclusion rule (§2.3)
+1670|world_|Panamanian|D|7|PLATTE RONDE STEEN GRAFVONDST|tag:place
+1671|world_|Zambia|D|7|EEN POP VAN GEDROOGDE KLEI, SPEELGOED GE|
+1672|world_|Republic of the Congo|D|7|GEVLOCHTEN MASKER MET VEZELBAARD|
+1673|world_|Malawi|F|7|Kralenketting|
+1674|world_|Burundi|D|7|SNOER MET AMULETTEN|
+1675|world_|Iraqi|D|7|GRAFSTEEN MET ARABISCHE INSCRIPTIE|
+1676|world_|Vili|D|7|BEWERKTE NIJLPAARDTAND MET UITGESNEDEN F|exclude:below inclusion rule (§2.3)
+1677|manusc|Odia palm-leaf|C|7|Gita Govinda|kind:C2-5/Odia
+1678|africa|Lega|D|6|Standing female figure|exclude:below inclusion rule (§2.3)
+1679|africa|Ndebele|F|6|Child Figure (Umndwana or Umtwana wa Mad|exclude:below inclusion rule (§2.3)
+1680|africa|Luba|D|6|Whistle|leaf:D5-50
+1681|africa|Unspecified (Niger)|F|6|Necklace|tag:place
+1682|africa|Unspecified (Tanzania)|F|6|Necklace|tag:place
+1683|africa|Unspecified (Zambia)|D|6|Whistle|tag:place
+1684|africa|New Guinea|F|6|Arm Ring,Kula Valuable|tag:place
+1685|africa|New Guinea Highlands|D|6|Mask|tag:place
+1686|africa|Samoan|D|6|Sinker|tag:place
+1687|africa|Unspecified (Bismarck Archipelago)|F|6|Necklace|tag:place
+1688|africa|Unspecified (Pacific Islands)|C|6|Canoe Paddle (uncertain),Spear (uncertai|exclude:no attribution
+1689|americ|Guerrero|D|6|Offering Group: Plaque with Frontal and |exclude:below inclusion rule (§2.3)
+1690|americ|Inca|D|6|Weight Representing a Llama|tag:place
+1691|americ|Pre-Columbian (unspecified)|D|6|Head|exclude:umbrella term (Pre-Columbian unspecified)
+1692|south_|Thai|F|6|Shell|tag:place
+1693|south_|Unspecified (Uttar Pradesh)|F|6|Torque|tag:place
+1694|east_a|Japan · 11～12世紀|D|6|Standing Tamonten (Sk. Vaiśravaṇa)|
+1695|east_a|Japan · 近代|D|6|墓守〈朝倉文夫作／石膏原型〉|
+1696|east_a|Japan · 1793|C|6|Toshi sen Ehon|
+1697|east_a|Japan · 1889|C|6|Ogataryū hyakuzu|
+1698|east_a|Japan · 1779|C|6|Kanga shinan|
+1699|east_a|Japan · 1812|C|6|Koshu gafu|
+1700|east_a|Japan · 1808
+Bunkwa 5|C|6|San Shichi zenden nanka no yume|
+1701|east_a|Japan · 1795|C|6|Ehon Edo no mizu|
+1702|east_a|Japan · 1789|C|6|Tsugiho no hana|
+1703|east_a|Japan · 1735|C|6|Tsukiyama Niwa Tsukuri Den Tsukiyama Tei|
+1704|east_a|Japan · 1806|C|6|Sakura|
+1705|east_a|Japan · 1818|C|6|Kōrin gashiki|
+1706|east_a|Japan · Reproduction of a 17th/18th century original|C|6|Haikai ichijidai jiguchi|
+1707|east_a|Japan · 1914|C|6|Nihon fuzoku zue|
+1708|east_a|Japan · 1826|C|6|Kōrin gafu|
+1709|east_a|Japan · 1837|C|6|Inrô fu|
+1710|east_a|Japan · 1828|C|6|Ehon fukushû senjô no matsu|
+1711|east_a|Japan · 1902|C|6|Bijutsu zuan gaho|
+1712|europe|people:buryat:lacquer_miniature|C|6|Потфея|
+1713|europe|people:avar:glass|F|6|Бутылка из бледно-зеленого стекла.|
+1714|europe|people:ingrian_izhorian:glass|F|6|Графин. Из "Дерижорного сервиза № 77". П|
+1715|europe|people:yakut_sakha:lacquer_miniature|C|6|Шкатулка палехская с лаковой миниатюрой |
+1716|europe|people:karachay_balkar:bone_carving|D|6|Печать. Карачаевцы|
+1717|europe|culture:russian_kholmogory:bone_carving|D|6|Chessmen (32)|
+1718|world_|Navajo weaving|C|6|A New Juvenile Drawing Book, Containing |
+1719|world_|Northwest Coast carving (totem poles, masks, bentwood boxes)|D|6|Ivory Frog|
+1720|world_|Shona stone sculpture|D|6|Skeletal Bird Man|
+1721|world_|Karaja dolls (ritxoko)|D|6|Figure|
+1722|gap_sw|Tiwi art (pukumani poles, ochre painting)|D|6|Stone Zoomorphic Figure|leaf:D6-8
+1723|gap_sw|Warmun / East Kimberley (Gija) painting|D|6|Rubbing Stone|kind:A5-13/Warmun
+1724|gap_sw|New Mexican santero tradition (retablos and bultos)|D|6|Our Lady of Sorrows: santo de bulto|kind:D5-71/New Mexican santero tradition
+1725|himala|Karma Gadri (Palpung)|D|6|Teacher (Lama) - Marpa Chokyi Lodro|kind:A4-11/Palpung
+1726|himala|Nepal: Licchavi|D|6|Kumara, the Youthful God of War on his P|tag:period
+1727|himala|Dali Kingdom (Yunnan)|D|6|Avalokiteshvara (Bodhisattva & Buddhist |tag:period
+1728|islami|Ilkhanid · Ilkhanid Tabriz|C|6|Bahram Gur Arrives at the House of a Mer|
+1729|islami|Iran|D|6|Seated Figure holding a Vase or Flask|
+1730|islami|Almoravid and Almohad|D|6|Prismatic stele of Ibrahim|
+1731|islami|Egypt; Syria|C|6|Detached lower cover of a binding|
+1732|islami|Deccan; Mughal Empire|C|6|Painting|
+1733|islami|Morocco|F|6|Necklace|
+1734|smiths|possibly Multiple archaeological cultures (attributed), incl|D|6|Axe head fragment (Image withheld, pendi|exclude:below inclusion rule (§2.3)
+1735|smiths|White Mountain Apache|D|6|Arrow shaft straightener|tag:place
+1736|smiths|Copper Inuit [Ahagmiut/Coronation Gulf]|C|6|Ice scoop model/miniature|tag:place
+1737|smiths|Akimel O'odham (Pima)|D|6|Arrow|kind:H8-19/Akimel O'odham
+1738|smiths|Kaigani Haida|F|6|Man's dance kilt/apron|exclude:below inclusion rule (§2.3)
+1739|smiths|probably Cree Metis (attributed)|F|6|Bag|exclude:below inclusion rule (§2.3)
+1740|smiths|Inunaina (Arapaho)|C|6|Pipebag model/miniature|tag:place
+1741|smiths|Yakama (Yakima)|D|6|Hammer|tag:place
+1742|smiths|Shawnee|F|6|Shoulder bag/Bandolier bag|exclude:below inclusion rule (§2.3)
+1743|smiths|Wishram|F|6|Sash/Belt|exclude:below inclusion rule (§2.3)
+1744|smiths|possibly Late Pre-Contact Tradition (archaeological culture)|D|6|Grinding stone (Image withheld, pending |exclude:below inclusion rule (§2.3)
+1745|smiths|possibly Multiple archaeological cultures (attributed), incl|D|6|Mortar (Image withheld, pending review)|exclude:below inclusion rule (§2.3)
+1746|smiths|Nambikuára (Nambicuara)|F|6|Necklace|tag:place
+1747|smiths|possibly Sihasapa Lakota (Blackfoot Sioux) (attributed)|F|6|Umbilical amulet (Image withheld)|exclude:below inclusion rule (§2.3)
+1748|smiths|Yoreme (Mayo)|D|6|Game piece|tag:place
+1749|smiths|Hopi Pueblo|F|6|Moccasins|tag:place
+1750|smiths|Heiltsuk (Bella Bella)|D|6|Shaman's figure (Image withheld)|tag:place
+1751|smiths|Tukano (Tucano)|F|6|Woman's apron|tag:place
+1752|smiths|probably Siberian Yupik (archaeological) (attributed)|D|6|Bola/Boleadora ball/stone|exclude:below inclusion rule (§2.3)
+1753|smiths|probably Central Plains (attributed)|F|6|Umbilical amulet|exclude:below inclusion rule (§2.3)
+1754|smiths|probably Emberá (Choikoi) (attributed)|F|6|Sash/Belt|exclude:below inclusion rule (§2.3)
+1755|smiths|Mi'kmaq (Micmac)|D|6|Male figure|tag:place
+1756|smiths|possibly Jicarilla Apache (attributed)|F|6|Ration ticket/card case|exclude:below inclusion rule (§2.3)
+1757|smiths|Chilkat Tlingit|D|6|Shaman's crown (Image withheld)|tag:place
+1758|smiths|Passamaquoddy|F|6|Sash/Belt|kind:H8-22/Passamaquoddy
+1759|smiths|probably Mi'kmaq (Micmac) (attributed)|F|6|Headband|exclude:below inclusion rule (§2.3)
+1760|smiths|possibly Bannock (attributed)|F|6|Cradleboard model/toy|tag:place
+1761|smiths|Mískito (Mosquito)|C|6|Canoe paddle model/miniature|tag:place
+1762|smiths|Minnesota Chippewa [White Earth, Minnesota]|F|6|Loom and unfinished weaving|exclude:below inclusion rule (§2.3)
+1763|smiths|Yagán (Yámana/Yahgan)|D|6|Abrader|tag:place
+1764|smiths|Quechua|C|6|Miniature hat|kind:H2-7/Quechua
+1765|smiths|possibly Tutchone (attributed)|F|6|Tunic|exclude:below inclusion rule (§2.3)
+1766|smiths|Non-Indian (archaeological); probably used by Native people |F|6|Bead/beads (Image withheld, pending revi|exclude:below inclusion rule (§2.3)
+1767|smiths|probably Arica/Western Valleys Tradition (archaeological cul|D|6|Fishing line sinker (Image withheld, pen|tag:place
+1768|smiths|Tlingit [Kake]|F|6|Octopus bag|exclude:below inclusion rule (§2.3)
+1769|smiths|Ohkay Owingeh (San Juan Pueblo)|F|6|Necklace|tag:place
+1770|smiths|Algonquin [Golden Lake/Pikwàkanagàn First Nation]|F|6|Woman's leggings|tag:place
+1771|smiths|Baffinland Inuit [Kingarmiut/Sikosuilarmiut]|F|6|Parka|tag:place
+1772|smiths|Colla|F|6|Bag|exclude:below inclusion rule (§2.3)
+1773|smiths|probably Dene (Northern Athabascan) (attributed)|F|6|Gauntlet gloves|exclude:below inclusion rule (§2.3)
+1774|smiths|probably Gwich'in (Kutchin) (attributed)|F|6|Mittens|exclude:below inclusion rule (§2.3)
+1775|smiths|probably Central/Middle Mississippian (archaeological cultur|C|6|Miniature bowl (Image withheld, pending |tag:period
+1776|smiths|Penobscot|D|6|Mask (Image withheld)|tag:place
+1777|smiths|possibly Multiple archaeological cultures (attributed), incl|D|6|Net weight/Netsinker|exclude:mixed archaeological bucket
+1778|smiths|Wyandotte [Oklahoma]|F|6|Male doll|tag:place
+1779|smiths|Non-Indian (archaeological); probably used by the Tunumiit [|F|6|Bottle part/fragment|exclude:below inclusion rule (§2.3)
+1780|smiths|possibly Saqqaq/Pre-Dorset Tradition or Dorset Tradition (ar|D|6|Scraper|exclude:below inclusion rule (§2.3)
+1781|smiths|probably Kalaallit [Greenland] (archaeological) (attributed)|C|6|Spear model/miniature part/fragment|exclude:archaeological tools
+1782|smiths|probably Plateau (archaeological) (attributed)|D|6|Smoking tube/Pipe|tag:period
+1783|smiths|Tsawout|C|6|Spear model/miniature|tag:place
+1784|smiths|probably Prairie (attributed)|F|6|Woman's leggings|exclude:below inclusion rule (§2.3)
+1785|smiths|possibly Dakota (Eastern Sioux) (attributed)|F|6|Bag|exclude:below inclusion rule (§2.3)
+1786|smiths|possibly Inunaina (Arapaho) (attributed)|F|6|Moccasins|exclude:below inclusion rule (§2.3)
+1787|smiths|Minnesota Chippewa [Leech Lake, Minnesota]|F|6|Ear ornament|exclude:below inclusion rule (§2.3)
+1788|smiths|Kiowa|C|6|Book of ledger drawings|tag:place
+1789|smiths|probably Southern California: Early Period (archaeological c|D|6|Disc-shaped object (Image withheld, pend|exclude:below inclusion rule (§2.3)
+1790|smiths|probably Non-Indian (archaeological) (attributed)|D|6|Unidentifiable item|exclude:mis-regioned NMAI row (Non-Indian = non-Native American)
+1791|smiths|possibly Yup'ik (Yupik) (attributed)|D|6|Crampons|exclude:below inclusion rule (§2.3)
+1792|smiths|Tzotzil Maya|C|6|Miniature basket|kind:H3-28/Tzotzil
+1793|smiths|Tsimshian (Ts’msyen)|F|6|Figure (Image withheld)|tag:place
+1794|smiths|Caribou Inuit [Karnermiut/Qaermiut]|F|6|Parka|exclude:below inclusion rule (§2.3)
+1795|smiths|Chachilla (Cayapas)|F|6|Necklace|tag:place
+1796|smiths|Tonkawa|F|6|Man's turban|exclude:below inclusion rule (§2.3)
+1797|smiths|Kickapoo|F|6|Woman's hair ornament|exclude:below inclusion rule (§2.3)
+1798|smiths|probably Purepecha (Tarasco) (attributed)|C|6|Miniature vessel|tag:place
+1799|smiths|probably Zapotec (attributed)|C|6|Miniature vessel|tag:place
+1800|smiths|Non-Indian (archaeological); probably used by the Tunica|F|6|Bead/beads|exclude:below inclusion rule (§2.3)
+1801|smiths|probably Quechua (attributed)|C|6|Miniature canoe|tag:place
+1802|smiths|Kikapu (Mexican Kickapoo)|F|6|Bag|exclude:below inclusion rule (§2.3)
+1803|smiths|Mohawk|D|6|Maiden With Long Hair|tag:place
+1804|smiths|possibly Non-Indian (attributed)|D|6|Billiken figure|exclude:mis-regioned NMAI row (Non-Indian = non-Native American)
+1805|smiths|Tlingit [Hoonah]|D|6|Beaver and frog figure|tag:place
+1806|smiths|Yakutat Tlingit|D|6|Raven figure|tag:place
+1807|smiths|Hunkpapa Lakota [Standing Rock]|F|6|Rattle|exclude:below inclusion rule (§2.3)
+1808|smiths|probably Western Apache (attributed)|C|6|Burden basket/Pack basket model/miniatur|kind:H8-18/Western Apache
+1809|smiths|probably Dakota (Eastern Sioux) (attributed)|D|6|Figure|tag:place
+1810|smiths|Inuit [Arctic Bay/Ikpiarjuk]|D|6|Hunter|exclude:below inclusion rule (§2.3)
+1811|smiths|Inuit [Sugluk/Salluit]|D|6|Hunter Carving Seal|exclude:below inclusion rule (§2.3)
+1812|smiths|Inuit [Iglulik/Igloolik]|D|6|Child|exclude:below inclusion rule (§2.3)
+1813|smiths|probably Yup'ik (Yupik) (attributed)|C|6|Miniature basket with cover|tag:place
+1814|smiths|possibly Multiple archaeological cultures (attributed); incl|F|6|Hourglass-shaped object|exclude:archaeological tools
+1815|smiths|probably Saladoid (archaeological culture) (attributed)|D|6|Abrader|tag:place
+1816|smiths|possibly Tocuyanoid Tradition (archaeological culture) (attr|D|6|Polishing stone (Image withheld, pending|exclude:below inclusion rule (§2.3)
+1817|smiths|Copper Inuit|D|6|Drag|exclude:below inclusion rule (§2.3)
+1818|smiths|Netsilingmiut Inuit (Netsilik) [Aivilingmiut/Aivilirmiut/Aiv|C|6|Spear model/miniature part/fragment|tag:place
+1819|smiths|Asians|D|6|Votive Stele of Prince Lo-an|
+1820|world_|Central Javanese|D|6|OMGEVALLEN BEELD VAN SHIVA ALS MAHADEVA |
+1821|world_|Minangkabau|F|6|TWEE MINANGKABAUSE BRUIDEN|
+1822|world_|Halmahera|F|6|VOLKSVERMAAK TE HALMAHERA|
+1823|world_|Batak, Toba|F|6|TWEE GROTE MARIONETTEN MET DAARACHTER EE|
+1824|world_|Ethiopian|D|6|KOKERVORMIGE MELKFLES VAN GIRAFFENLEER M|tag:place
+1825|world_|Sierra Leone|F|6|HALSKETTING VAN GEREGEN GLASKRALEN AAN R|
+1826|world_|Iraqi|C|6|KORANPAGINA IN KUFI SCHRIFT|
+1827|world_|Kayan|F|6|PORTRET VAN EEN DAYAK MAN MET SCHILD EN |
+1828|world_|European; Sumatran|F|6|GOUD- EN ZILVERADER IN DE SALIDAMIJN, WE|
+1829|world_|Central African Republic|F|6|Vruchtbaarheidsbeeld|
+1830|world_|Madagascar|F|6|Ceintuur|exclude:below inclusion rule (§2.3)
+1831|world_|Lesotho|F|6|OORBEL|
+1832|world_|Central African Republic|D|6|Steen|
+1833|world_|Uzbek|F|6|Katoenen muts met geborduurde versiering|
+1834|world_|Bhutanese|C|6|Hangrolschildering|exclude:below inclusion rule (§2.3)
+1835|world_|French|C|6|KALLIGRAFIE|tag:place
+1836|manusc|Vietnamese (Han-Nom) manuscripts|C|6|BnF. Département des Manuscrits. Vietnam|exclude:script and language bucket
+1837|manusc|Brazilian / Portuguese American manuscripts|C|6|Esmeraldo de Situ Orbis|exclude:text bucket
+1838|manusc|Sinhalese palm-leaf|C|6|Atthakatha|kind:C2-5/Sinhalese
+1839|africa|Luba|F|5|Female figure with bowl|leaf:D5-50
+1840|africa|Unspecified (DR Congo)|F|5|Sandals (mitalawanda / mitawanda) or Clo|tag:place
+1841|africa|Xhosa|F|5|Neckpiece (Umphalaza)|exclude:below inclusion rule (§2.3)
+1842|africa|Akan: Asante|F|5|Fetish|leaf:G1-20
+1843|africa|Dan|F|5|Mask|leaf:D4-18
+1844|africa|Fang|D|5|Tusk|leaf:D6-3
+1845|africa|Luba|F|5|Necklace|leaf:D5-50
+1846|africa|Oromo|D|5|Pounder|tag:place
+1847|africa|Sherbro|F|5|Rattle Part|tag:place
+1848|africa|Somali|F|5|Sheath|tag:place
+1849|africa|Unspecified (Djibouti)|F|5|Lid|tag:place
+1850|africa|Unspecified (Kenya)|D|5|Game Piece|tag:place
+1851|africa|Unspecified (Republic of the Congo)|D|5|Figurine|tag:place
+1852|africa|Unspecified (South Africa)|D|5|Antelope Head,Antelope Horns|tag:place
+1853|africa|Chuuk|D|5|Sling Stone|tag:place
+1854|africa|Samoan|C|5|Hymn Book (O pese ma vi`iga i le Atua)|tag:place
+1855|africa|Yap|F|5|Dance Stick|tag:place
+1856|americ|Cheyenne|F|5|Saddle Blanket|exclude:below inclusion rule (§2.3)
+1857|americ|West Mexico: Colima|D|5|Seated figure|kind:D5-66/Colima
+1858|south_|Bharhut|D|5|Double-Faced Crossbar from a Railing|exclude:below inclusion rule (§2.3)
+1859|south_|Pakistan (Indus / NW)|C|5|Bookcover|tag:place
+1860|south_|Sikh (Punjab)|D|5|Tripod stand|tag:place
+1861|south_|Thai|C|5|Manuscript|tag:place
+1862|south_|Unspecified (Multan)|C|5|Portrait miniature and frame|tag:place
+1863|east_a|Japan · 高麗時代・14世紀|C|5|Funbetsukudoku (Discriminating Merits) C|
+1864|east_a|Japan · 14世紀|D|5|Seated Sōgyōshin (Shinto Deity in the Gu|
+1865|east_a|China · 時代不詳|C|5|名人尺牘　冊　張天錫書詩|
+1866|east_a|Japan · 1849|C|5|Seiki shunjô|
+1867|east_a|Japan · 1683|C|5|Kokon rikka daizen Saishiki zu iri|
+1868|east_a|Japan · 1845|C|5|Kanrin gafu|
+1869|east_a|Japan · 1788|C|5|Ni Ichi Tensaku|
+1870|east_a|Japan · 1900|C|5|Kodai Moyô Shikizuko|
+1871|east_a|Japan · 1879|C|5|Chikuden gafu|
+1872|east_a|Japan · 1771|C|5|Kingyoku gafu|
+1873|east_a|Japan · 1807
+Bunkwa 4|C|5|Yuriwaka nozuye no taka|
+1874|east_a|Japan · 1923 (reproduction)|C|5|Tenwa chôkyû shiki asobi|
+1875|east_a|Japan · 1880|C|5|Gahô sentei|
+1876|east_a|Japan · 1919 (reproduction)|C|5|Tsunagimasu mimasu tsunagi|
+1877|east_a|Japan · 1835|C|5|Ginga soshi|
+1878|east_a|Japan · 1786|C|5|Shinpan zen zen taiheiki|
+1879|east_a|Japan · 1720|C|5|Bushi kun|
+1880|east_a|Japan · Reproduction of an 18th/19th century original|C|5|Jinkôki no yurai sango jûgo chô, Muna sa|
+1881|east_a|Japan · 1833|C|5|Biko Somokuzu (Record of Plants to Stave|
+1882|east_a|Japan · 1892|C|5|Banshoku zukô|
+1883|east_a|Japan · 1861|C|5|Yodogawa ryôgan ichiran|
+1884|east_a|Japan · 1933 (reproduction)|C|5|Heianjyô miyako sadame|
+1885|europe|wd:Q1536788|C|5|Карточка почтовая. Carnaval de la Habana|
+1886|europe|pattern:bulgarian_manuscript_illumination|C|5|Фототипия. Таб.363. №721 - 724. Четыре с|
+1887|europe|people:evenk:glass|F|5|Чехол для бубна. Эвенки|
+1888|europe|people:armenian:bone_carving|D|5|Скульптура И.В.Сталина на постаменте|
+1889|europe|people:ossetian:bone_carving|D|5|Кость. Осетины|
+1890|europe|people:chuvash:bone_carving|D|5|Ничинка (кере) - часть ткацкого станка; |
+1891|europe|people:veps:bone_carving|D|5|Челюсть щуки. Вепсы|
+1892|europe|people:basque:lacquer_miniature|C|5|Ложка.|
+1893|europe|people:lezgin:manuscript_illumination|C|5|Зарисовка. А.В.Лопухов и В.А.Иванова, та|
+1894|world_|Burmese lacquer (yun)|F|5|Sculpture|leaf:I2-6
+1895|world_|Kamba (Akamba) carving|F|5|Skirt|
+1896|world_|Naxi Dongba painting|D|5|Any Category - Any Central Figure|kind:C2-13/Dongba painting
+1897|world_|Mexican dance masks|F|5|Mask|
+1898|world_|Seminole patchwork|F|5|Man's shirt part/fragment|
+1899|gap_sw|Eastern Arnhem Land (Yolngu) bark painting (Yirrkala, Galiwi|D|5|Figure|kind:A6-18/Eastern Arnhem Land (Yolŋu)
+1900|gap_sw|Ema (votive plaques)|C|5|厳島扁額縮本《厳島絵馬鑑；初篇》|leaf:A6-10
+1901|himala|Qing imperial (Kangxi)|D|5|Shakyamuni Buddha|kind:D5-13/Kangxi imperial
+1902|himala|Nepal: Shah|F|5|Votive Plaque with God Vishnu|tag:period
+1903|islami|Mamluk · Mamluk Damascus|C|5|Peacock-shaped Hand Washing Device (rect|
+1904|islami|Ayyubid|D|5|Column capital|
+1905|islami|Umayyad|C|5|Floor painting|
+1906|islami|Deccani sultanates · Deccani sultanates Delhi|C|5|Devagiri Ragini|
+1907|islami|Turkey|D|5|Kohl pot|
+1908|islami|Turkey|F|5|Hookah|
+1909|smiths|Kuskwogmiut Yup'ik|C|5|Spade/Shovel model/miniature|tag:place
+1910|smiths|probably Thule Tradition: Old Bering Sea Stage (archaeologic|D|5|Harpoon socket|exclude:below inclusion rule (§2.3)
+1911|smiths|probably San Pedro de Atacama Tradition (archaeological cult|D|5|Spade bit/blade (Image withheld, pending|tag:place
+1912|smiths|probably Veracruz/Gulf Coast (archaeological culture) (attri|D|5|Yoke (ball-game accessory) (Image withhe|tag:place
+1913|smiths|Kootenai (Kutenai) [Idaho]|F|5|Cradleboard|exclude:below inclusion rule (§2.3)
+1914|smiths|Kaibab Paiute|F|5|Gauntlet gloves (No image available)|exclude:below inclusion rule (§2.3)
+1915|smiths|possibly Ancestral Pueblo (Anasazi): Rio Grande (archaeologi|D|5|Axe head (Image withheld, pending review|exclude:below inclusion rule (§2.3)
+1916|smiths|Northern Tsitsistas/Suhtai (Cheyenne)|D|5|Dance club|tag:place
+1917|smiths|Non-Indian (archaeological); probably used by Native people |F|5|Bead/beads (Image withheld, pending revi|exclude:below inclusion rule (§2.3)
+1918|smiths|Sugpiaq (Alutiiq)|D|5|Lamp|exclude:below inclusion rule (§2.3)
+1919|smiths|probably Shoshone (attributed)|F|5|Woman's dress|exclude:below inclusion rule (§2.3)
+1920|smiths|possibly Multiple archaeological cultures (attributed), incl|D|5|Hammerstone|exclude:below inclusion rule (§2.3)
+1921|smiths|possibly Multiple archaeological cultures (attributed), incl|D|5|Pick|exclude:below inclusion rule (§2.3)
+1922|smiths|possibly Multiple archaeological cultures (attributed), incl|D|5|Smoking tube/Pipe (unfinished) (Image wi|exclude:below inclusion rule (§2.3)
+1923|smiths|probably Netsilingmiut Inuit (Netsilik) [Aivilingmiut/Aivili|F|5|Woman's hair stick and wrapper|exclude:below inclusion rule (§2.3)
+1924|smiths|Tuscarora [Six Nations of the Grand River, Brantford, Ontari|F|5|Handbag/purse|exclude:below inclusion rule (§2.3)
+1925|smiths|Siberian Yupik|D|5|Harpoon head|exclude:below inclusion rule (§2.3)
+1926|smiths|Pueblo|F|5|Ankle band/ornament|tag:place
+1927|smiths|Lakota (Teton/Western Sioux)|C|5|Shield and cover model/miniature|tag:place
+1928|smiths|possibly Thule Tradition: Punuk Stage (archaeological cultur|D|5|Harpoon counterweight part/fragment|exclude:below inclusion rule (§2.3)
+1929|smiths|probably Tlingit (attributed)|D|5|Pestle|tag:place
+1930|smiths|probably Western Archaic (attributed)|D|5|Polishing stone (Image withheld, pending|exclude:archaeological tools
+1931|smiths|probably Multiple archaeological cultures (attributed); incl|D|5|Figure|exclude:below inclusion rule (§2.3)
+1932|smiths|Bering Strait Iñupiaq [King Island]|F|5|Necklace|tag:place
+1933|smiths|Meskwaki (Fox) [Tama, Iowa]|F|5|Woman's skirt|exclude:below inclusion rule (§2.3)
+1934|smiths|Selk'nam (Ona)|D|5|Abrader|tag:place
+1935|smiths|Innu [Ungava]|C|5|Axe model/miniature|tag:place
+1936|smiths|probably Yup'ik (Yupik) (attributed)|F|5|Box with cover (No image available)|tag:place
+1937|smiths|probably South Appalachian Mississippian: Pensacola (archaeo|D|5|Whetstone (Image withheld, pending revie|exclude:below inclusion rule (§2.3)
+1938|smiths|probably Yup'ik (Yupik) (archaeological) (attributed)|D|5|Harpoon head|exclude:below inclusion rule (§2.3)
+1939|smiths|Ontario Ojibwe|F|5|Moccasins|tag:place
+1940|smiths|K'apovi (Santa Clara Pueblo)|D|5|Fetish figure|kind:E1-69/Santa Clara
+1941|smiths|probably Coast Salish (attributed)|F|5|Basket|tag:place
+1942|smiths|probably Chimú (archaeological culture) (attributed)|D|5|Club head (Image withheld, pending revie|leaf:E1-49
+1943|smiths|Ye'kuana (Makiritare/Mayagone)|F|5|Woman's apron|exclude:below inclusion rule (§2.3)
+1944|smiths|possibly Ancestral Pueblo (Anasazi): Northern San Juan (arch|C|5|Miniature vessel (Image withheld, pendin|kind:E1-61/Northern San Juan (Mesa Verde)
+1945|smiths|probably Chancay (archaeological culture) (attributed)|D|5|Figure (Image withheld, pending review)|leaf:H3-29
+1946|smiths|Cayuse|F|5|Guncase|exclude:below inclusion rule (§2.3)
+1947|smiths|possibly Copena (archaeological culture) (attributed)|D|5|Worked stone (Image withheld, pending re|exclude:below inclusion rule (§2.3)
+1948|smiths|Yakutat Tlingit|F|5|Wallpocket|tag:place
+1949|smiths|Mistassini Cree|D|5|Whetstone case|tag:place
+1950|smiths|probably South Appalachian Mississippian: Irene (archaeologi|D|5|Abrader (Image withheld, pending review)|exclude:below inclusion rule (§2.3)
+1951|smiths|possibly Dorset Tradition (archaeological culture) (attribut|D|5|Whetstone|exclude:below inclusion rule (§2.3)
+1952|smiths|possibly Guerrero Nahua (attributed)|D|5|Mask|exclude:below inclusion rule (§2.3)
+1953|smiths|possibly Plains Cree (Prairie Cree) (attributed)|F|5|Knife sheath|exclude:below inclusion rule (§2.3)
+1954|smiths|Euchee (Yuchi)|F|5|Charm to promote sleep|exclude:below inclusion rule (§2.3)
+1955|smiths|Cayuga|F|5|Garters/Legbands|exclude:below inclusion rule (§2.3)
+1956|smiths|probably Yup'ik [Norton Sound] (attributed)|D|5|Crampons|exclude:below inclusion rule (§2.3)
+1957|smiths|Seminole|D|5|Turtle figure|tag:place
+1958|smiths|Shinnecock|F|5|Bag|exclude:below inclusion rule (§2.3)
+1959|smiths|possibly Northern Tsitsistas/Suhtai (Cheyenne) (attributed)|F|5|Headdress|exclude:below inclusion rule (§2.3)
+1960|smiths|possibly Kiowa (attributed)|F|5|Blanket strip|exclude:below inclusion rule (§2.3)
+1961|smiths|Cofán (Cofan)|F|5|Necklace|tag:place
+1962|smiths|probably Caddo (attributed)|F|5|Mescal beans and bag|exclude:below inclusion rule (§2.3)
+1963|smiths|probably Ica-Chincha (archaeological culture) (attributed)|C|5|Poncho model/miniature (Image withheld, |tag:place
+1964|smiths|Northwest Coast|D|5|Scratching stone|tag:place
+1965|smiths|probably Gran Coclé Tradition: Conté style (archaeological c|D|5|Tapir figure|kind:E1-45/Conté style
+1966|smiths|Chachilla (Cayapas)|D|5|Scale and accessories|tag:place
+1967|smiths|probably Central/Middle Mississippian or Cherokee (archaeolo|D|5|Abrader (Image withheld, pending review)|exclude:below inclusion rule (§2.3)
+1968|smiths|probably Paiute (attributed)|F|5|Cane/Walking stick|exclude:below inclusion rule (§2.3)
+1969|smiths|Saraguro|F|5|Earrings|tag:place
+1970|smiths|Mohawk [Six Nations of the Grand River, Brantford, Ontario]|D|5|Sculpture (No image available)|exclude:below inclusion rule (§2.3)
+1971|smiths|Minnesota Chippewa [Bois Forte/Nett Lake, Minnesota]|F|5|Hat/cap|exclude:below inclusion rule (§2.3)
+1972|smiths|Siberian Yupik [St. Lawrence Island]|F|5|Doll|tag:place
+1973|smiths|probably Diné (Navajo) (attributed)|F|5|Palhik 'Mana (Butterfly Maiden) kachina|leaf:G3-15
+1974|smiths|Ho-Chunk (Hoocąk) [Wisconsin]|F|5|Belt buckle|tag:place
+1975|smiths|probably Tohono O'odham (Papago) (attributed)|C|5|Miniature basket with cover|exclude:below inclusion rule (§2.3)
+1976|smiths|Inuit [Broughton Island/Qikiqtarjuaq]|D|5|Figure|exclude:below inclusion rule (§2.3)
+1977|smiths|Inuit [Rankin Inlet/Kangiqliniq]|D|5|Sea Spirit and Inuk|exclude:below inclusion rule (§2.3)
+1978|smiths|probably Lakota (Teton/Western Sioux) (attributed)|C|5|War club model/miniature|tag:place
+1979|smiths|Siberian Yupik [Gambell, St. Lawrence Island]|F|5|Wall hanging|exclude:below inclusion rule (§2.3)
+1980|smiths|Oklahoma Choctaw|F|5|Woman's dress and accessories|exclude:below inclusion rule (§2.3)
+1981|smiths|Chickasaw|F|5|Hatband|tag:place
+1982|smiths|possibly Multiple archaeological cultures (attributed); incl|D|5|Abrader|exclude:below inclusion rule (§2.3)
+1983|smiths|possibly Shenks Ferry (archaeological culture) (attributed)|D|5|Disc-shaped object|exclude:below inclusion rule (§2.3)
+1984|smiths|possibly Northern California: Late Period (archaeological cu|D|5|Handle (Image withheld, pending review)|exclude:below inclusion rule (§2.3)
+1985|smiths|probably Venezuelan Neoindian Tradition (archaeological cult|D|5|Figure (unfinished) (Image withheld, pen|exclude:below inclusion rule (§2.3)
+1986|smiths|Non-Indian (archaeological); probably used by Native people |F|5|Bead/beads|exclude:below inclusion rule (§2.3)
+1987|smiths|Indians of North America; Native Americans|C|5|Portrait of Jahangir|
+1988|smiths|Indians of North America; Native Americans|D|5|The Last of the Tribes|
+1989|world_|Japanese, Kyoto|C|5|Tijger|exclude:below inclusion rule (§2.3)
+1990|world_|Surakarta|F|5|GAREBEG-OPTOCHT TE SOLO|
+1991|world_|Pasemah|F|5|STENEN BEELD BIJ TINGGI HARI, OMGEVING P|
+1992|world_|Palembang|F|5|STENEN BEELD VAN O.A. OLIFANT UIT LEMATA|
+1993|world_|East Javanese|D|5|STENEN BEELDEN, WAARONDER DAT VAN DE STI|
+1994|world_|Nigerian|C|5|MODEL VAN EEN HOUTEN SCHAAL MET DEKSEL E|exclude:below inclusion rule (§2.3)
+1995|world_|Uganda|D|5|IVOREN OORSIERAAD|
+1996|world_|Singapore|F|5|PANTOFFEL|
+1997|world_|Yaqay|F|5|EEN JAKAIPRAUW OP DE DIGUL, ÉÉN VAN DE Z|
+1998|world_|Argentina|D|5|BEELD VAN DE MET GRAAN INGEZAAIDE PAMPA'|
+1999|world_|Indonesian, Java; European|D|5|JAVAANSE ARBEIDERS OP EEN STEENWINNINGST|
+2000|world_|Indo-Surinamese|F|5|HINDOESTAANS GEZIN BIJ EEN HOUTEN WONING|
+2001|world_|Gabon|F|5|KRAAL, GEBRUIKT ALS AMULET|exclude:below inclusion rule (§2.3)
+2002|world_|Gabon|D|5|Beeld|exclude:below inclusion rule (§2.3)
+2003|world_|Greek|D|5|GEDENKSTEEN MET TEKST IN OSMAANS TURKS|tag:place
+2004|world_|Venezuela|D|5|STENEN KOGEL OM TE WRIJVEN|
+2005|world_|Paraguay|D|5|VRUCHTBAARHEIDSSYMBOOL|
+2006|world_|Arabian|C|5|PRENT MET GEKALLIGRAFEERDE GELOOFSBELIJD|
+2007|manusc|Armenian: New Julfa / diaspora|C|5|Armenian Gospel Book (CBL Arm 578)|kind:A1-20/New Julfa
+2008|manusc|Batak pustaha|C|5|Great Pustaha|leaf:C2-9
