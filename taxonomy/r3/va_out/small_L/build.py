@@ -137,6 +137,7 @@ def clean_existing(code, r):
     if g.startswith("Gathered rows"): return ("alias", None)
     return None
 
+RELOC = {}
 def main():
     res = {"leaves": {}, "new_leaves": NEW_LEAVES, "moves_out": MOVES, "dropped": []}
     report = []
@@ -153,6 +154,8 @@ def main():
             v = clean_existing(code, r)
             if r[4] == 1 or r[1] in ("Artists", "Architects", "Makers"):
                 if v and v[0] == "move": continue  # handled in MOVES
+                if v and v[0] == "reloc":
+                    RELOC.setdefault(v[1], []).append([r[0], v[2], v[3], r[3], 1]); continue
                 grp, gl = (v if v and v[0] not in ("drop", "alias", "dup") else (None, None))
                 keep.append([r[0], grp or "Makers", gl if gl is not None else re.sub(r";?\s*now T\d+.*$", "", r[2]), r[3], 1])
                 continue
@@ -169,8 +172,7 @@ def main():
                 res["dropped"].append([code, r[0], "duplicate of the same site in the rule-based catalogue"])
             else:
                 keep.append([v[2] if len(v) > 2 and v[2] else r[0], v[0], v[1], r[3], 0])
-        add = ex.get("kinds", [])
-        # assemble in section order: Sub-types, Schools & phases, Centres & workshops, (extra pre groups), works, Collections, Makers
+        add = ex.get("kinds", []) + RELOC.get(code, [])
         pre_groups = ex.get("pre", ["Sub-types", "Schools & phases", "Centres & workshops"])
         allk = keep + add
         names = set()
@@ -180,19 +182,26 @@ def main():
             names.add(k[0].lower()); final.append(k)
         for g in pre_groups:
             for k in allk:
+                if k[1] == g and k[4] == 0: push(k)
+        kn = [k for k in ex.get("knowledge_sites", []) if k[0].lower() not in site_names]
+        site_pool = kinds + kn + [k for k in allk if k[1] not in pre_groups and k[4] == 0 and k[1] != "Collections"]
+        gorder = (spec or {}).get("group_order") or []
+        seen_g = []
+        for k in site_pool:
+            if k[1] not in seen_g: seen_g.append(k[1])
+        ordered_groups = [g for g in gorder if g in seen_g] + [g for g in seen_g if g not in gorder]
+        for g in ordered_groups:
+            for k in site_pool:
                 if k[1] == g: push(k)
-        kn = ex.get("knowledge_sites", [])
-        # knowledge sites go into their section; merged with data sites by group order
-        site_kinds = [k for k in kinds if k[0].lower() not in {x[0].lower() for x in final}]
-        for k in site_kinds + [k for k in kn if k[0].lower() not in site_names]:
-            push(k)
-        for k in allk:
-            if k[1] not in pre_groups and k[1] not in ("Makers",) and k[4] == 0 and k[1] != "Collections": push(k)
         for k in coll: push(k)
         for k in allk:
             if k[1] == "Collections" and k[4] == 0: push(k)
+        mgroups = []
         for k in allk:
-            if k[4] == 1: push(k)
+            if k[4] == 1 and k[1] not in mgroups: mgroups.append(k[1])
+        for g in mgroups:
+            for k in allk:
+                if k[4] == 1 and k[1] == g: push(k)
         axis = ex.get("axis", "")
         if spec and spec.get("bodyart"):
             axis = (axis + " " if axis else "") + "Sub-types include every gathered Wikidata item of the practice (sitelinks >= 1)."

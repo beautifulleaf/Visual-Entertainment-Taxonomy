@@ -6,7 +6,7 @@ ROOT = os.path.abspath(os.path.join(OUT, "..", "..", "..", ".."))
 inp = json.load(open(os.path.join(ROOT, "taxonomy/r3/va_in/bucket_named_movements.json")))["leaves"]
 CODES = {l["code"] for l in inp}
 
-A, META, MOVES, DROPS, GLOSS, EXTRA, FALLBACK, ALIAS, REGROUP = {}, {}, {}, {}, {}, {}, {}, {}, {}
+A, META, MOVES, DROPS, GLOSS, EXTRA, FALLBACK, ALIAS, REGROUP, GROUP_OF = {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
 for f in sorted(glob.glob(os.path.join(HERE, "a_*.py"))):
     spec = importlib.util.spec_from_file_location(os.path.basename(f)[:-3], f)
     m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
@@ -14,7 +14,7 @@ for f in sorted(glob.glob(os.path.join(HERE, "a_*.py"))):
     MOVES.update(getattr(m, "MOVES", {})); DROPS.update(getattr(m, "DROPS", {}))
     GLOSS.update(getattr(m, "GLOSS", {})); EXTRA.update(getattr(m, "EXTRA", {}))
     FALLBACK.update(getattr(m, "FALLBACK", {})); ALIAS.update(getattr(m, "ALIAS", {}))
-    REGROUP.update(getattr(m, "REGROUP", {}))
+    REGROUP.update(getattr(m, "REGROUP", {})); GROUP_OF.update(getattr(m, "GROUP_OF", {}))
 
 CMAP = [  # substring -> country label (first match on the first listed country)
  ("Habsburg Netherlands", "Flanders"), ("Southern Netherlands", "Flanders"), ("Spanish Netherlands", "Flanders"), ("Austrian Netherlands", "Flanders"),
@@ -112,7 +112,7 @@ def main():
                 else:
                     res["moves_out"].append([name, code, tgt])
                 continue
-            g = lookup.get(name)
+            g = GROUP_OF.get(key) or lookup.get(name)
             if not g:
                 g = REGROUP.get((code, g0)) or (FALLBACK[code](name, ev, g0) if code in FALLBACK else None) or (country(ev.get("countries")) if ev else (g0 or "Other"))
                 unassigned[code].append((name, g, ev.get("birth", ""), ev.get("countries", "")))
