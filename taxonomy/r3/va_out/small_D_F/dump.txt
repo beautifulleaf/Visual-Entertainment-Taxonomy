@@ -1,0 +1,886 @@
+{"code": "D1-1", "family": "Sculpture & Carving", "sub": "D1", "sub_label": "Architectural Carving & Stucco", "label": "Samarra Stucco", "defn": "the carved and moulded stucco of the Abbasid capital Samarra (9th century) in its three styles, of which the third, the bevelled style, carried abstract ornament across the early Islamic world.", "aliases": "bevelled style; Samarra styles A\u2013C", "see": "K1-2 Abbasid Architecture.", "n": 0, "alias_rows": [], "rows": []}
+## D1-1 | Architectural Carving & Stucco | Samarra Stucco | the carved and moulded stucco of the Abbasid capital Samarra (9th century) in its three styles, of which the third, the bevelled style, carried abstra | al: bevelled style; Samarra styles A–C | n 0 | ar 0
+## D1-2 | Architectural Carving & Stucco | Nasrid Stucco (Yesería) | the carved and painted stucco of Nasrid Granada and the Mudéjar workshops (Alhambra wall panels, muqarnas). | al: yesería; Alhambra stucco | n 0 | ar 0
+## D1-3 | Architectural Carving & Stucco | Assyrian Palace Reliefs | Carved gypsum orthostat reliefs from Neo-Assyrian palaces, 9th–7th century BC, with lamassu gateway figures: <i>Ashurnasirpal II at Nimrud</i>, <i>Sen | al: Assyrian sculpture;Neo-Assyrian reliefs | n 1 | ar 0
+    Neo-Assyrian palace reliefs | phase | Neo-Assyrian stone 233 | evidence | 0
+## D2-1 | Ivory & Bone Carving | Andalusian Ivories | carved ivory boxes and pyxides of the Umayyad caliphal workshops of Córdoba and Madinat al-Zahra and of the taifa courts (10th–11th century). | al: Caliphal ivories; ivories of al-Andalus | n 1 | ar 1
+    'Abd al-Rahman ibn Zayyan |  | Palencia ivory chest; canonical | islamic_makers | 1
+## D2-2 | Ivory & Bone Carving | Siculo-Arabic Ivories | painted and gilded ivory caskets made in Norman Sicily and southern Italy (12th–13th century) in an Arabic decorative idiom. | al: Siculo-Arabic ivory caskets | n 0 | ar 0
+## D2-3 | Ivory & Bone Carving | Begram Ivories | Carved ivory and bone plaques and furniture fittings of the 1st–2nd century found in the Kushan treasure at Begram (Kapisa) in Afghanistan, in an Indi | al: Begram hoard ivories | n 1 | ar 0
+    Begram | centre | Kushan row: Afghanistan, Begram ivories (7) | evidence | 0
+## D2-4 | Ivory & Bone Carving | Netsuke | Miniature toggles carved in ivory, wood and other materials to secure hanging containers to the kimono sash, Edo to Meiji period, with named carvers a | al:  | n 1 | ar 1
+    Meiji netsuke | phase | Meiji period row netsuke 678 (evidence of phase only) | evidence | 0
+## D2-5 | Ivory & Bone Carving | Benin Ivories | Ivory carved for the Oba of Benin by the Igbesanmwan guild and in neighbouring Owo, 15th–19th century: <i>pendant masks of the Iyoba Idia</i>, <i>carv | al: Benin ivory carving;Edo ivories | n 2 | ar 2
+    Owo art | Owo | Owo ivory and terracotta; Obamadesara | gap_sweep | 0
+    Obamadesara | maker | row Owo art | evidence | 0
+## D2-6 | Ivory & Bone Carving | Afro-Portuguese Ivories | Ivories carved by Sapi (Sierra Leone), Edo (Benin) and Kongo carvers for Portuguese patrons in the 15th–16th century: <i>salt cellars</i>, <i>side-blo | al: Sapi-Portuguese ivories;Luso-African ivories | n 2 | ar 0
+    Sapi stone figures (nomoli, pomdo) and Sapi-Portuguese ivori | Gathered rows (the leaf's own evidence) | also attests Nomoli | gap_sweep | 0
+    Sapi-Portuguese | sub-group | rows Sapi stone figures and Sapi-Portuguese ivories; excluded row Sapi (Afro-Portuguese) | evidence | 0
+## D2-7 | Ivory & Bone Carving | Nimrud Ivories | Carved, gilded and inlaid ivory plaques and figures of the 9th–7th century BC found at the Assyrian capital Nimrud, made in Assyrian, Phoenician and N | al: Phoenician ivories;Levantine ivories | n 2 | ar 0
+    Phoenician style | sub-group | Phoenician row; ivory groups | evidence | 0
+    North Syrian style | sub-group | Northern Syria rows (excluded) | evidence | 0
+## D2-8 | Ivory & Bone Carving | Byzantine Ivories | Ivory carving of the Byzantine empire, 5th–12th century: <i>consular diptychs</i>, <i>Barberini Ivory</i>, <i>Romanos group icons</i>, <i>Veroli Caske | al:  | n 0 | ar 0
+## D2-9 | Ivory & Bone Carving | Alaska Native Ivory Carving | Carving and engraving of walrus ivory and bone by the Iñupiat, Yupik and St Lawrence Island peoples of the Bering Strait, from ancient engraved huntin | al: walrus ivory carving;Bering Strait ivory carving;Eskimo ivor | n 2 | ar 0
+    St Lawrence Island | centre | Siberian Yupik [St. Lawrence Island] rows | evidence | 0
+    King Island | centre | Bering Strait Iñupiaq [King Island] row | evidence | 0
+## D2-10 | Ivory & Bone Carving | Mississippian Shell Gorgets | Engraved discs of marine-shell worn at the neck in the Mississippian Southeast (c. 1000–1600), cut with Southeastern Ceremonial Complex imagery: <i>Sp | al: shell gorget;engraved shell | n 0 | ar 0
+## D2-11 | Ivory & Bone Carving | Gothic Ivories | Elephant-ivory carving of Gothic Europe, c. 1200–1530, led by Parisian workshops: <i>devotional diptychs and polyptychs</i>, <i>statuettes of the Virg | al: Gothic ivory sculpture | n 0 | ar 0
+## D2-12 | Ivory & Bone Carving | Scrimshaw | Engraving and carving on whale teeth, whalebone and walrus ivory by sailors of the whaling fleets, 18th–19th century: <i>engraved sperm-whale teeth</i | al:  | n 1 | ar 0
+    Scrimshaw | Gathered rows (the leaf's own evidence) | QID Q2261659 | world_folk | 0
+## D2-13 | Ivory & Bone Carving | Duodji | The handicraft of the Sámi of Norway, Sweden, Finland and the Kola peninsula, divided into hard duodji (antler, bone and wood) and soft duodji (leathe | al: Sámi duodji;Sami handicraft;garraduodji;dipmaduodji | n 7 | ar 0
+    Sámi duodji | Gathered rows (the leaf's own evidence) |  | europe_folk | 0
+    Sami / bone carving | hard duodji (antler and bone) |  | europe_folk | 0
+    Sami / textiles | soft duodji (textiles) |  | europe_folk | 0
+    Sami / metalwork | pewter-thread and silver work |  | europe_folk | 0
+    Sami / leather | soft duodji (leather) |  | europe_folk | 0
+    Kola Sámi (Lovozero) | sub-group | Sami rows: Lovozero, Murmansk oblast is the top production place in Goskatalog records | evidence | 0
+    Sami / woodcarving / woodwork | hard duodji (wood) | Sámi duodji; route resolved: Duodji | europe_folk | 0
+## D2-14 | Ivory & Bone Carving | Uelen Bone Carving | Engraving and carving of walrus ivory by Chukchi and Yupik carvers at Uelen in Chukotka, institutionalised as a workshop in 1931: <i>engraved walrus t | al: Chukchi walrus-ivory engraving;Chukotka bone carving | n 2 | ar 0
+    Chukchi walrus-ivory engraving (Uelen) | Gathered rows (the leaf's own evidence) |  | europe_folk | 0
+    Chukchi / bone carving | Gathered rows (the leaf's own evidence) | Chukchi ivory carving centred on Uelen | europe_folk | 0
+## D2-15 | Ivory & Bone Carving | Tobolsk Bone Carving | Bone and mammoth-ivory carving of Tobolsk in western Siberia from the 18th century, with small sculptures of northern life (reindeer sleds, hunters);  | al: Tobolsk carved bone | n 1 | ar 0
+    Tobolsk bone carving | Gathered rows (the leaf's own evidence) |  | europe_folk | 0
+## D2-16 | Ivory & Bone Carving | Yakut Bone Carving | Mammoth-ivory carving of the Sakha (Yakutia), from 19th-century combs and caskets to Soviet-era sculptural compositions combined with silver and leath | al: Yakut ivory carving;Sakha mammoth-ivory carving | n 2 | ar 0
+    Yakut (Sakha) / bone carving | Gathered rows (the leaf's own evidence) | also attests | europe_folk | 0
+    Yakut bone carving | Gathered rows (the leaf's own evidence) |  | europe_folk | 0
+## D2-17 | Ivory & Bone Carving | Torre del Greco Shell and Coral Carving | the carving of shell cameos and Mediterranean coral at Torre del Greco near Naples from the 17th century, cut with the bulino scraper: <i>sardonyx-she | al: Torre del Greco cameos; shell cameo carving; Neapolitan cora | n 1 | ar 0
+    Torre del Greco shell and coral carving | Gathered rows (the leaf's own evidence) |  · owned as Cameo (Possession A3) · https://en.wikipedia.org/wiki/Torre_del_Greco | possession | 0
+## D2-18 | Ivory & Bone Carving | Romanesque Ivories | walrus-ivory, whalebone and elephant-ivory carving of northern Europe, 11th-12th century, from English and Scandinavian (Trondheim) workshops: <i>Lewi | al: Romanesque ivory carving; Norse walrus-ivory carving | n 1 | ar 0
+    Norse walrus-ivory chessmen | Gathered rows (the leaf's own evidence) |  · owned as Lewis chessmen (Possession E1) · https://en.wikipedia.org/wiki/Lewis_chessmen | possession | 0
+## D3-1 | Hardstone, Rock Crystal & Jade Carving | Fatimid Rock Crystal | vessels and objects carved from rock crystal in Fatimid Egypt (10th–11th century), above all the ewers with relief decoration later mounted in Europea | al: Fatimid rock crystal ewers | n 0 | ar 0
+## D3-2 | Hardstone, Rock Crystal & Jade Carving | Mughal Jade | jade and hardstone vessels carved for the Timurid and Mughal courts, culminating in Shah Jahan's wine cup (1657). | al: Mughal hardstone carving | n 1 | ar 0
+    Sa'ida-ye Gilani |  | Jahangir's jade cup maker, court goldsmith | islamic_makers | 1
+## D3-3 | Hardstone, Rock Crystal & Jade Carving | Chinese Jade | Nephrite and later jadeite carved in China from the Neolithic to the Qing: ritual <i>bi</i> discs and <i>cong</i> tubes of Hongshan and Liangzhu, Shan | al: Chinese jade carving;yu | n 0 | ar 0
+## D3-4 | Hardstone, Rock Crystal & Jade Carving | Chinese Snuff Bottles | Small stoppered bottles made at the Qing court and in China's workshops (late 17th–20th century) in hardstone, glass, porcelain, enamel and lacquer, i | al: snuff bottles | n 0 | ar 0
+## D3-5 | Hardstone, Rock Crystal & Jade Carving | Cylinder Seals | Engraved stone cylinders rolled on clay to leave a continuous image, the glyptic art of Mesopotamia, Iran, Syria and Anatolia from the Uruk period to  | al: glyptic art;Mesopotamian seals | n 2 | ar 0
+    Old Syrian glyptic | sub-group | Old Syrian row stone 89 | evidence | 0
+    Stamp seals | sub-type | excluded rows Stamp Seal With Cultic Scene | evidence | 0
+## D3-6 | Hardstone, Rock Crystal & Jade Carving | Minoan Seals | Engraved sealstones of hardstone, bone and gold made on Bronze Age Crete and adopted on the Mycenaean mainland, 3rd–2nd millennium BC: <i>lentoid and  | al: Aegean seals;Minoan sealstones | n 0 | ar 0
+## D3-7 | Hardstone, Rock Crystal & Jade Carving | Engraved Gems | Intaglios and cameos cut in hardstone in the Greek, Etruscan and Roman world, 6th century BC – 4th century AD: <i>Graeco-Persian gems</i>, <i>Etruscan | al: glyptics;intaglios;cameos | n 3 | ar 0
+    Graeco-Persian gems | sub-group | excluded row Graeco-Persian (7) | evidence | 0
+    Etruscan and Italic scarabs | sub-group | Italic gems 33 | evidence | 0
+    Roman Republican gems | sub-group | Late Republican gems 189 | evidence | 0
+## D3-8 | Hardstone, Rock Crystal & Jade Carving | Mesoamerican Jade | Jadeite and greenstone carved by the peoples of Mesoamerica and Costa Rica from the Olmec to the Aztec, as masks, figures, celts, earspools and pendan | al: Mesoamerican greenstone | n 3 | ar 0
+    possibly Maya (archaeological culture) (attributed) | Maya | stone/adornment majority | smithsonian | 0
+    possibly Mixteca (Mixtec) (archaeological culture) (attribut | Mixtec | stone ornaments | smithsonian | 0
+    Maya (Mexico | Maya |  | met/aic | 0
+## D3-9 | Hardstone, Rock Crystal & Jade Carving | Hei-tiki | Māori ornaments carved from pounamu (New Zealand nephrite and bowenite) with stone tools, worn as heirlooms (taonga): <i>hei-tiki human figure pendant | al: pounamu carving;tiki | n 1 | ar 1
+    Maori: Ngai Tahu | Ngāi Tahu | jewellery 25; Ngāi Tahu are the pounamu iwi | africa_oceania_targeted | 0
+## D3-10 | Hardstone, Rock Crystal & Jade Carving | Pietra Dura | Pictorial inlay of cut and fitted coloured hardstones (commesso), developed in the grand-ducal workshops of Florence from 1588 and practised in Rome,  | al: pietre dure;commesso;Florentine mosaic | n 3 | ar 0
+    Florentine commesso (Galleria dei Lavori) | centre | Met "Italian / lapidary work" 95; wiki:Commesso | evidence | 0
+    Milan | centre | Met "Italian, Milan / lapidary work" 6, 1 Timeline work | evidence | 0
+    Rome | centre | Met "Italian, Rome / lapidary work" 4 | evidence | 0
+## D3-11 | Hardstone, Rock Crystal & Jade Carving | Inkstone Carving | the carving of inkstones from fine-grained stone, graded by quarry and decorated in relief with landscapes, dragons and inscriptions, collected as sch | al: inkstone; yan; suzuri; Duan inkstone; Duanyan | n 3 | ar 0
+    Duan inkstone carving | Gathered rows (the leaf's own evidence) |  · owned as Duan inkstone (Possession C5) · https://en.wikipedia.org/wiki/Inkstone | possession | 0
+    She inkstone |  | Black slate inkstones of She County (Anhui) and Wuyuan (Jiangxi) with gold-like markings,  | possession | 0
+    Amehata suzuri |  | Inkstones carved from Amehata River slate, Yamanashi, Japan, from the Edo period · owned a | possession | 0
+## D3-12 | Hardstone, Rock Crystal & Jade Carving | Idar-Oberstein Agate Cutting | the cutting, carving and engraving of agate, jasper and gemstones at Idar-Oberstein on the Nahe from the 15th century, later on Brazilian agate: <i>ca | al: Idar-Oberstein gem cutting | n 1 | ar 0
+    Idar-Oberstein agate cutting | Gathered rows (the leaf's own evidence) |  · owned as Agate and chalcedony (Possession F6) · https://en.wikipedia.org/wiki/Idar-Ober | possession | 0
+## D4-1 | Masks & Puppets | Karagöz Shadow Puppets | the translucent painted leather puppets of the Ottoman shadow theatre of Karagöz and Hacivat. | al: Karagöz and Hacivat; hayal-i zıll | n 0 | ar 0
+## D4-2 | Masks & Puppets | Tholu Bommalata | Shadow-puppet theatre of Andhra Pradesh and Karnataka with large translucent painted-leather figures: <i>Ramayana Ravana puppets</i>, <i>togalu gombey | al: leather puppets;Tolu bommalata | n 2 | ar 0
+    Shadow puppetry of South India (tholu bommalata, togalu gomb | Gathered rows (the leaf's own evidence) |  | world_folk | 0
+    Togalu gombeyata | Karnataka | row label | evidence | 0
+## D4-3 | Masks & Puppets | Wayang Kulit | The flat, pierced and painted buffalo-hide shadow puppets of Java and Bali (UNESCO 2003/2008), cut by named craftsmen: <i>Arjuna and Bima figures</i>, | al: wayang purwa;shadow puppets | n 6 | ar 0
+    Wayang kulit (shadow puppets, Java / Bali) | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+    Ki Kertiwanda | maker | named maker (151) | evidence | 0
+    Ki Bekel Prawirasucitra | maker | named maker (105) | evidence | 0
+    Ki Enthus Susmono | maker | named maker (49) | evidence | 0
+    Marto Suwondo | maker | named maker (36) | evidence | 0
+    Raden Mas Sajid | maker | named maker (wayang kulit and unrecorded-form rows) | evidence | 0
+## D4-4 | Masks & Puppets | Wayang Golek | Carved and painted wooden rod puppets of Sunda and Java, with the flat wooden wayang klitik of East Java: <i>Sundanese Ramayana and Mahabharata sets</ | al: wayang golek purwa;wayang menak | n 2 | ar 0
+    Wayang golek (rod puppets, Sunda / Java) | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+    Wayang klitik / krucil (flat wooden puppets) | wayang klitik |  | gap_sweep | 0
+## D4-5 | Masks & Puppets | Topeng | Carved and painted wooden masks of Javanese and Balinese masked dance-drama: <i>Panji masks of Cirebon and Malang</i>, <i>Balinese topeng pajegan sets | al: wayang topeng;topeng masks | n 1 | ar 0
+    Topeng masks (Java / Bali masked dance) | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+## D4-6 | Masks & Puppets | Nang Yai | Large perforated hide panels of the Thai court shadow theatre, each a whole scene from the Ramakien, with the small jointed puppets of southern nang t | al: Thai shadow puppets | n 3 | ar 0
+    Thai shadow theatre (nang yai, nang talung) | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+    Thai shadow puppets (nang yai, nang talung) | Gathered rows (the leaf's own evidence) |  | world_folk | 0
+    Nang talung | sub-type | pool row labels (nang yai, nang talung) | evidence | 0
+## D4-7 | Masks & Puppets | Sbek Thom | Large cut-hide panels of the Khmer shadow theatre (UNESCO 2005) performed with the Reamker. | al: Khmer shadow theatre | n 1 | ar 0
+    Khmer shadow theatre (sbek thom) | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+## D4-8 | Masks & Puppets | Yoke Thé | The carved, painted and costumed string marionettes of the Burmese court theatre: <i>zawgyi alchemist</i>, <i>nat and princess figures</i>. | al: Burmese marionettes;yoke thay | n 1 | ar 0
+    Burmese marionettes (yoke thé) | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+## D4-9 | Masks & Puppets | Chinese Shadow Puppetry | Translucent puppets cut from leather or paper and painted, used in shadow theatre across China (UNESCO 2011), with regional styles: <i>Shaanxi</i>, <i | al: piyingxi;Chinese shadow puppets | n 1 | ar 0
+    Chinese shadow puppets (piyingxi) | Gathered rows (the leaf's own evidence) |  | world_folk | 0
+## D4-10 | Masks & Puppets | Bunraku | The puppets of the Japanese ningyō jōruri theatre, carved and painted wooden heads (kashira) with mechanisms and costumed bodies worked by three puppe | al: ningyō jōruri | n 2 | ar 0
+    Bunraku | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+    Hachioji Kuruma Ningyo | Hachiōji kuruma ningyō |  | gap_sweep | 0
+## D4-11 | Masks & Puppets | Korean Masks | Carved wooden and gourd masks of Korean mask-dance drama (talchum) and village rites, by regional tradition: <i>Hahoe and Byeongsan masks (National Tr | al: tal;talchum masks | n 13 | ar 1
+    Korean folk masks (Hahoe tal) | Hahoe | Hahoetal masks (National Treasure) | gap_sweep | 0
+    Goseong ogwangdae | Goseong ogwangdae | regional mask-dance drama: its mask set is the kind | gap_sweep | 0
+    Dongnae Yaryu | Dongnae yaryu | regional mask-dance drama: its mask set is the kind | gap_sweep | 0
+    Gangnyeong Talchum | Gangnyeong talchum | regional mask-dance drama: its mask set is the kind | gap_sweep | 0
+    Eunyul talchum | Eunyul talchum | regional mask-dance drama: its mask set is the kind | gap_sweep | 0
+    Suyeong Yaryu | Suyeong yaryu | regional mask-dance drama: its mask set is the kind | gap_sweep | 0
+    Songpasandaenori | Songpa sandae nori | regional mask-dance drama: its mask set is the kind | gap_sweep | 0
+    Tongyeong ogwandae | Tongyeong ogwangdae | regional mask-dance drama: its mask set is the kind | gap_sweep | 0
+    Yangju byeolsandae nori | Yangju byeolsandae nori | regional mask-dance drama: its mask set is the kind | gap_sweep | 0
+    Bukcheong sajanoreum | Bukcheong saja noreum | regional mask-dance drama: its mask set is the kind | gap_sweep | 0
+    Gasan Ogwangdae | Gasan ogwangdae | regional mask-dance drama: its mask set is the kind | gap_sweep | 0
+    Baltal | Baltal | regional mask-dance drama: its mask set is the kind | gap_sweep | 0
+    Bongsan Talchum | Bongsan talchum | regional mask-dance drama: its mask set is the kind | gap_sweep | 0
+## D4-12 | Masks & Puppets | Dogon Masks | Masks of the Dogon Awa society danced at the dama funerary rites and the Sigi, carved in wood with rectangular faces and superstructures: <i>kanaga</i | al: imina | n 0 | ar 0
+## D4-13 | Masks & Puppets | Chiwara | Antelope crest headdresses of the Bamana Ciwara association, danced in pairs at planting and harvest, in vertical, horizontal and abstract regional st | al: Ci wara;Tyiwara | n 1 | ar 0
+    Bamana | Gathered rows (the leaf's own evidence) | mask 14 dominant | africa | 0
+## D4-14 | Masks & Puppets | Senufo Masks | Masks and helmet masks of the Senufo Poro and Tyekpa societies of northern Côte d'Ivoire, Mali and Burkina Faso: <i>kpeliye'e face masks</i>, <i>kpony | al: Poro masks | n 2 | ar 0
+    Senufo | Gathered rows (the leaf's own evidence) | mask 9 dominant; maker Nyaamadyo Koné | africa | 0
+    Nyaamadyo Koné | maker | row Senufo (africa) | evidence | 0
+## D4-15 | Masks & Puppets | Chokwe Masks | Masks of the Chokwe of Angola, Zambia and the DR Congo danced at mukanda initiation and festivals: <i>mwana pwo (young woman) masks</i>, <i>cihongo ma | al: Pwo masks;mwana pwo | n 1 | ar 0
+    Chokwe | Gathered rows (the leaf's own evidence) | mask 6 dominant | africa | 0
+## D4-16 | Masks & Puppets | Gelede | Masks of the Yoruba (Ketu, Egbado, Anago) Gelede society, danced in pairs to honour the mothers: <i>helmet masks with carved superstructures</i>, <i>E | al: Gẹlẹdẹ | n 0 | ar 0
+## D4-17 | Masks & Puppets | Igbo Masks | Masks and masquerades of the Igbo of south-eastern Nigeria, by village and society: <i>agbogho mmuo maiden-spirit masks</i>, <i>Ijele towering masquer | al: mmanwu | n 5 | ar 0
+    Igbo | Gathered rows (the leaf's own evidence) |  | africa_oceania_targeted | 0
+    Ijele Masquerade | Ijele |  | world_folk | 0
+    Agaba masquerade | Agaba |  | world_folk | 0
+    Afikpo | sub-group | excluded rows Igbo, Afikpo group; Afikpo-Igbo | evidence | 0
+    Izzi | sub-group | excluded row Izzi-Igbo | evidence | 0
+## D4-18 | Masks & Puppets | Dan Masks | Wooden face masks of the Dan (Gio, Yacouba) of Liberia and Côte d'Ivoire, with polished oval faces, slit or round eyes and named spirit roles: <i>dean | al: Yacouba masks;Gio masks | n 3 | ar 0
+    Dan | Gathered rows (the leaf's own evidence) |  | africa_oceania_targeted | 0
+    Son of Nuopie | maker | row Dan | evidence | 0
+    Ldamie of Gaple | maker | row Dan | evidence | 0
+## D4-19 | Masks & Puppets | Sowei Masks | Black helmet masks of the women's Sande society of the Mende, Vai, Temne and Gola of Sierra Leone and Liberia, with neck rings and elaborate coiffures | al: sowo;Sande masks;Bundu masks | n 3 | ar 0
+    Mende | Gathered rows (the leaf's own evidence) |  | africa_oceania_targeted | 0
+    Sogande family workshop | workshop | row Mende | evidence | 0
+    Nguabu Master | maker | row Mende | evidence | 0
+## D4-20 | Masks & Puppets | Kuba Masks | The royal masks of the Kuba kingdom, danced as a trio of founding figures: <i>mwaash aMbooy</i>, <i>ngady amwaash</i>, <i>bwoom</i>. | al: Kuba masquerade | n 0 | ar 0
+## D4-21 | Masks & Puppets | Kifwebe | Striated masks of the Songye and Luba bwadi bwa kifwebe society: <i>male crested kifwebe</i>, <i>female white kifwebe</i>. | al: Kifwebe masks | n 0 | ar 0
+## D4-22 | Masks & Puppets | Pende Masks | Masks of the Central and Kwilu Pende of the DR Congo, danced at mbuya village masquerades and chiefs' rites, with their ivory miniatures: <i>mbuya cha | al: mbuya | n 1 | ar 0
+    Pende | Gathered rows (the leaf's own evidence) |  | africa_oceania_targeted | 0
+## D4-23 | Masks & Puppets | Punu Masks | The white-faced okuyi masks of the Punu and Lumbo of southern Gabon, danced on stilts: <i>okuyi maiden masks</i>. | al: Punu-Lumbo masks;okuyi | n 1 | ar 0
+    Punu | Gathered rows (the leaf's own evidence) |  | met/aic | 0
+## D4-24 | Masks & Puppets | Northwest Coast Masks | Carved and painted wooden masks of the Northwest Coast peoples, danced at winter ceremonials and potlatches: <i>Kwakwaka'wakw transformation masks</i> | al: transformation mask | n 0 | ar 0
+## D4-25 | Masks & Puppets | Yup'ik Masks | Shamanic dance masks of driftwood, feathers and paint carved by the Yup'ik and Cup'ik of south-western Alaska, made in pairs and destroyed after use,  | al: Cup'ik masks;kegginaquq | n 0 | ar 0
+## D4-26 | Masks & Puppets | Torres Strait Turtle-Shell Masks | Masks of the Torres Strait Islands built from heated and stitched turtle-shell plates, worn in initiation, funerary and increase ceremonies, with comp | al: krar;le op;Torres Strait masks | n 4 | ar 1
+    Torres Strait Islander art (dhari, masks, printmaking) | Gathered rows (the leaf's own evidence) | dhari seeded as kind; printmaking is L5 | world_folk | 0
+    dhari | sub-type | rows Torres Strait Islander art (dhari) | evidence | 0
+    krar | sub-type | row Torres Strait turtle-shell masks | evidence | 0
+    le op | sub-type | row Torres Strait turtle-shell masks | evidence | 0
+## D4-27 | Masks & Puppets | Processional Giants | Huge carried effigies of giants, animals and dragons, built of wicker, wood and papier-mâché and paraded at town festivals of the Low Countries, north | al: gegants;reuzen;géants;gigantes | n 2 | ar 0
+    giant Jas de Keistamper | Gathered rows (the leaf's own evidence) | attests Processional Giants; Jas de Keistamper is also seeded as a kind | europe_folk | 0
+    Jas de Keistamper (Boxtel) | giant | row giant Jas de Keistamper | evidence | 0
+## D4-28 | Masks & Puppets | Punch and Judy | carved and painted glove puppets of the English street and seaside show descended from the Neapolitan Pulcinella, from 1662: <i>Punch, Judy, the Croco | al: Punch and Judy puppets; Mr Punch | n 1 | ar 0
+    Punch and Judy | Gathered rows (the leaf's own evidence) |  · owned as Puppet (Possession E1) · https://en.wikipedia.org/wiki/Punch_and_Judy | possession | 0
+## D4-29 | Masks & Puppets | Czech Marionettes | string marionettes of the travelling family theatres of Bohemia from the late 18th century, carved by village church sculptors (UNESCO 2016 with Slova | al: Czech puppetry; Czech marionette puppetry | n 1 | ar 0
+    Czech marionette puppetry | Gathered rows (the leaf's own evidence) |  · owned as Puppet (Possession E1) · https://unima.idu.cz/en/history-of-czech-puppetry/ | possession | 0
+## D5-1 | Figurative Sculpture | Gandharan Art | Buddhist sculpture of Gandhara (Peshawar valley, Swat, Taxila), 1st century BCE–5th century CE, in schist and stucco with Hellenistic drapery: <i>stan | al: Greco-Buddhist art;Gandhara art | n 9 | ar 0
+    Gandhara |  | Gandharan Art (L22) | south_southeast_asia | 0
+    Gandharan |  | Gandharan Art (L22) | himalaya_central_asia | 0
+    Swat Valley | Swat | Gandharan Art (L22), kind Swat | himalaya_central_asia | 0
+    Unspecified (Swat) |  | Gandharan Art (L22) | south_southeast_asia | 0
+    Hadda (Gandharan stucco) | Hadda | Gandharan Art (L22), kind Hadda | himalaya_central_asia | 0
+    Afghan, Hadda | Hadda | Gandharan Art (L22), kind Hadda | met/aic | 0
+    Pakistani, Ancient region Gandhara (Swat Valley |  | Gandharan Art (L22) | met/aic | 0
+    Pakistani, Gandhara, Bajaur |  | Gandharan Art (L22) | met/aic | 0
+    Kushan |  | Gandharan Art (L22) / Art of Mathura (L23) | met/aic | 0
+## D5-2 | Figurative Sculpture | Art of Mathura | The school of red-sandstone sculpture of Mathura (2nd century BCE–12th century), at its height under the Kushans and Guptas: <i>Katra Buddha</i>, <i>y | al: Mathura school;Mathura art | n 1 | ar 0
+    Mathura | Gathered rows (the leaf's own evidence) | field names the Mathura school | south_southeast_asia | 0
+## D5-3 | Figurative Sculpture | Amaravati Art | The Andhra school of limestone relief sculpture of the Krishna valley under the Satavahanas and Ikshvakus: <i>Amaravati stupa drum slabs</i>, <i>Nagar | al: Andhra school;Vengi school | n 1 | ar 0
+    Indian, Andhra Pradesh | Ikshvaku | Ikshvaku/Satavahana sculpture | met/aic | 0
+## D5-4 | Figurative Sculpture | Pala Art | The stone and bronze Buddhist and Hindu sculpture of Bengal and Bihar under the Palas and Senas (8th–12th century), in black basalt and eight-metal al | al: Pala-Sena art;Eastern Indian art | n 2 | ar 0
+    Kurkihar | centre | excluded row Indian, Kurkihar (Pala) | evidence | 0
+    Nalanda | centre | excluded rows Nalanda (Pala) | evidence | 0
+## D5-5 | Figurative Sculpture | Chola Bronzes | Lost-wax bronze images cast in the Chola kingdom of Tamil Nadu (c. 850–1280) for temple processions: <i>Shiva Nataraja</i>, <i>Somaskanda</i>, <i>Parv | al: South Indian bronzes | n 1 | ar 0
+    Swamimalai bronze icons | Centres | lost-wax bronze icons cast at Swamimalai, Thanjavur, by descendants of Chola temple sculpt | possession | 0
+## D5-6 | Figurative Sculpture | Dhokra | Lost-wax brass casting of tribal smiths of central and eastern India (Bastar, Bengal, Odisha) with wax-thread surfaces: <i>Bastar horse and elephant f | al: dokra;Bastar bronze | n 1 | ar 0
+    Dhokra | Gathered rows (the leaf's own evidence) |  | world_folk | 0
+## D5-7 | Figurative Sculpture | Bankura Horse | Stylised terracotta votive horses of Panchmura in Bankura, West Bengal, offered at village shrines. | al: Panchmura horse | n 1 | ar 0
+    Bankura horse | Gathered rows (the leaf's own evidence) |  | world_folk | 0
+## D5-8 | Figurative Sculpture | Molela Terracotta | Hand-modelled terracotta votive plaques of Molela in Rajasthan, made for shrines of Dharmaraja and Devnarayan. | al: Molela clay work | n 1 | ar 0
+    Molela terracotta plaques | Gathered rows (the leaf's own evidence) |  | world_folk | 0
+## D5-9 | Figurative Sculpture | Nepalese Sculpture | The metal, stone and wood sculpture of the Newars of the Kathmandu Valley from the Licchavi period on, above all gilt-copper images cast by lost wax a | al: Newar sculpture;Newar metal sculpture;Nepalese bronzes | n 0 | ar 1
+## D5-10 | Figurative Sculpture | Kashmiri Bronzes | Buddhist and Hindu images cast in brass with silver and copper inlay in Kashmir (6th–12th century), largely preserved in Tibetan monasteries, the sour | al: Kashmir bronzes;Kashmiri metal sculpture;Kache style | n 2 | ar 0
+    Pakistani, Gilgit Kingdom | Patola Shahi (Gilgit) | route resolved: one Patola Shahi sculpture; Gilgit bronzes are grouped with Kashmiri Bronz | met/aic | 0
+    Kashmiri | Gathered rows (the leaf's own evidence) |  | himalaya_central_asia | 0
+## D5-11 | Figurative Sculpture | Tibetan Buddhist Sculpture | Images cast in gilt copper and brass, or modelled in clay and stucco, for Tibetan monasteries from the 11th century on, in Indian, Newar and Chinese-d | al: Tibetan bronzes;Tibetan sculpture | n 3 | ar 0
+    Tsang atelier | Tsang | workshop | himalaya_central_asia | 0
+    Densatil | Densatil | HAR Densatil style sculpture | himalaya_central_asia | 0
+    Sonam Gyaltsen atelier | Sonam Gyaltsen atelier | named maker workshop | himalaya_central_asia | 0
+## D5-12 | Figurative Sculpture | Zanabazar School | The gilt-bronze sculpture of the first Jebtsundamba Khutukhtu Zanabazar (1635–1723) and his workshop at Tövkhön, in a Nepalese-derived style, and its  | al: Zanabazar style | n 2 | ar 0
+    Zanabazar school | Gathered rows (the leaf's own evidence) | paintings counted here go to L1 | himalaya_central_asia | 0
+    Zanabazar | maker | Zanabazar school row named_makers | evidence | 0
+## D5-13 | Figurative Sculpture | Sino-Tibetan Sculpture | Tibetan Buddhist images made in Chinese imperial and northern workshops for Tibetan and Mongol patrons, from the Yuan atelier of Aniko through the Yon | al: Sino-Tibetan bronzes;Yongle bronzes | n 6 | ar 0
+    Qing imperial (Kangxi) | Kangxi imperial | period label kept as recorded workshop group | himalaya_central_asia | 0
+    Ming imperial (Yongle / Xuande) | Yongle-Xuande imperial |  | himalaya_central_asia | 0
+    Sino-Tibetan (China) | Gathered rows (the leaf's own evidence) | paintings to L1/Qing court | himalaya_central_asia | 0
+    Dolonnor (Inner Mongolia) | Dolonnor | casting centre | himalaya_central_asia | 0
+    Aniko school (Yuan) | Aniko (Yuan atelier) |  | himalaya_central_asia | 0
+    Aniko | maker | Qing imperial (Qianlong), Central Tibetan and Tibetan rows | evidence | 0
+## D5-14 | Figurative Sculpture | Khmer Sculpture | The stone and bronze sculpture of Cambodia and the Khmer lands from the pre-Angkor kingdoms to the Bayon (6th–13th century), in its successive temple  | al: Khmer art;Angkorian sculpture | n 5 | ar 0
+    Plai Bat II Temple, Thailand | Prakhon Chai | Prakhon Chai hoard site | met/aic | 0
+    Angkor Wat style | style | s_se_asia Khmer row (Angkorian: Angkor Wat style 17) | evidence | 0
+    pre-Angkor | phase | met pre-Angkor period row (sculpture 16) | evidence | 0
+    Lopburi | regional style | excluded row Thai, Lopburi (Khmer style) | evidence | 0
+    Phimai | centre | excluded row Thai, Temple of Philmai | evidence | 0
+## D5-15 | Figurative Sculpture | Dvaravati Art | The Buddhist sculpture of the Mon kingdoms of central Thailand (6th–11th century), in stone, bronze, terracotta and stucco: <i>standing Buddhas with d | al: Mon-Dvaravati art | n 3 | ar 0
+    Haripunjaya | successor school | excluded rows Thai, Haripunjaya / Haripunjaya style | evidence | 0
+    Si Thep | centre | excluded row Thai, Si Thep | evidence | 0
+    Nakhon Pathom | centre | excluded row Thai, Nakhon Pathom Province (Mon-Dvaravati) | evidence | 0
+## D5-16 | Figurative Sculpture | Cham Sculpture | The sandstone and bronze sculpture of the Cham kingdoms of central Vietnam (7th–15th century): <i>Mỹ Sơn E1 pedestal</i>, <i>Đồng Dương Buddha and dva | al: Art of Champa;Champa sculpture | n 0 | ar 0
+## D5-17 | Figurative Sculpture | Majapahit Terracotta | Earthenware figurines, heads, reliefs and models from Trowulan and other East Javanese sites of the Majapahit era (13th–15th century): <i>portrait hea | al: Trowulan terracottas | n 0 | ar 0
+## D5-18 | Figurative Sculpture | Bulul | Carved wooden granary guardian figures of the Ifugao of northern Luzon, seated or standing, made in pairs. | al: bul-ul;bulol | n 2 | ar 0
+    Ifugao bulul (granary figures) | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+    Ifugao | people | row label | evidence | 0
+## D5-19 | Figurative Sculpture | Philippine Santos | Carved and polychromed wooden and ivory devotional images made in the Spanish Philippines from the late 16th century, many for export to Mexico and Sp | al: santo;Hispano-Philippine ivories | n 3 | ar 0
+    Hispano-Philippine ivory santos | Hispano-Philippine ivory |  | gap_sweep | 0
+    Hispano-Philippine | Hispano-Philippine ivory |  | met/aic | 0
+    Philippine wooden santos and colonial religious painting | Gathered rows (the leaf's own evidence) | painting share unplaced | gap_sweep | 0
+## D5-20 | Figurative Sculpture | Haniwa | Unglazed terracotta cylinders and figures set on and around Kofun-period burial mounds in Japan (3rd–6th century): <i>warriors in armour</i>, <i>horse | al:  | n 0 | ar 0
+## D5-21 | Figurative Sculpture | Mingqi | Figures and models made to furnish Chinese tombs, from Han pottery houses and attendants to Tang lead-glazed camels, horses and tomb guardians: <i>san | al: Chinese tomb figures;tomb pottery;Tang dynasty tomb figures | n 1 | ar 0
+    Zhenmushou (tomb guardians) | type | excluded rows Tomb guardian Q24834891; zhenmushou of Han, Chu and Tang style | evidence | 0
+## D5-22 | Figurative Sculpture | Chinese Buddhist Sculpture | Buddhist images in China in stone, bronze, wood and clay from the 4th century, in cave temples and for altars: <i>Yungang</i> and <i>Longmen</i> caves | al:  | n 5 | ar 0
+    rock relief - People's Republic of China (medieval) | rock-cut | Rongxian Giant Buddha | in_situ | 0
+    rock relief - People's Republic of China (undated) | cave temples | Bingling Temple | in_situ | 0
+    Xiangtangshan | cave temples | excluded rows Chinese, Northern/Southern Xiangtangshan | evidence | 0
+    Dazu Rock Carvings | rock-cut | exemplar in row Southern Chinese rock art (Q651278) | evidence | 0
+    Chen Heqing | Artists | Song Chinese caster who recast the Tōdai-ji Great Buddha | artists | 1
+## D5-23 | Figurative Sculpture | Korean Buddhist Sculpture | Buddhist images of the Three Kingdoms, Unified Silla, Goryeo and Joseon in gilt bronze, stone and wood: <i>pensive bodhisattvas</i>, <i>Seokguram</i>, | al:  | n 3 | ar 1
+    rock relief - South Korea (undated) | rock-cut | Seosan rock-carved triad | in_situ | 0
+    Mokjogakjang | wood (mokjogak) | Mokjogakjang: wooden Buddhist sculpture | world_folk | 0
+    Kim Daeseong | Artists | Silla minister credited with Seokguram and Bulguksa | artists | 1
+## D5-24 | Figurative Sculpture | Japanese Buddhist Sculpture | Buddhist images of Japan in bronze, lacquer and wood from the Asuka period onward, made by workshop lineages of sculptors (busshi): <i>Tori school Sha | al: busshi;Japanese Buddhist sculpture | n 5 | ar 0
+    Chōsei | En school | movement En school | artists | 1
+    Tori Busshi | Artists | Japanese Buddhist Sculpture (east_asia slice); pre-Kamakura busshi are not Kei; country gr | artists | 1
+    Inson | Artists | Japanese Buddhist Sculpture (east_asia slice); pre-Kamakura busshi are not Kei; country gr | artists | 1
+    Myoen | En school | En-school busshi (Myōen), not Kei | artists | 1
+    Jōchō | Artists | Japanese Buddhist Sculpture (east_asia slice); pre-Kamakura busshi are not Kei; country gr | artists | 1
+## D5-25 | Figurative Sculpture | Japanese Dolls (Ningyō) | Japanese dolls and folk toys of clay, wood, papier-mâché and fabric, made in named regional centres: <i>Hakata</i> and <i>Fushimi</i> clay dolls, <i>K | al: ningyō;kyōdo gangu | n 7 | ar 1
+    Japanese folk toys (kyodo gangu, hariko, Fushimi dolls) | kyōdo gangu | folk toys incl. hariko and Fushimi dolls | world_folk | 0
+    Hakata ningyō | centre | excluded row Q3782485 | evidence | 0
+    Kyō-ningyō | centre | excluded row Q108568106 | evidence | 0
+    Iwatsuki dolls | centre | excluded row Q24871923 | evidence | 0
+    Suruga hina dolls | centre | excluded row Q96473405 | evidence | 0
+    Tsutsumi dolls | centre | excluded row 堤人形 Q114403216 | evidence | 0
+    Takasaki daruma | centre | Papier-mâché daruma dolls of Takasaki, Gunma, painted red, made from the charm moulds of S | possession | 0
+## D5-26 | Figurative Sculpture | Kokeshi | Lathe-turned and painted wooden dolls of the Tōhoku hot-spring towns (from the 19th century), in named lineages: <i>Naruko</i>, <i>Tōgatta</i>, <i>Tsu | al:  | n 1 | ar 0
+    Kokeshi | Gathered rows (the leaf's own evidence) |  | world_folk | 0
+## D5-27 | Figurative Sculpture | Huishan Clay Figurines | Painted clay figurines from Huishan near Wuxi in Jiangsu (Ming to the present): <i>A-fu</i> plump children, opera figures (shouniezi). | al: Wuxi clay figurines;Huishan niren | n 1 | ar 1
+    Huishan clay figurine | Gathered rows (the leaf's own evidence) |  | world_folk | 0
+## D5-28 | Figurative Sculpture | Clay Figure Zhang | The painted clay figure sculpture of the Zhang family workshop of Tianjin, founded by Zhang Mingshan (1826–1906): genre figures and opera characters m | al: Niren Zhang | n 1 | ar 0
+    Clay Figure Zhang | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+## D5-29 | Figurative Sculpture | Tu'er Ye | Clay figures of the Moon Rabbit dressed as a warrior or official, made in Beijing for the Mid-Autumn Festival since the Ming. | al: Lord Rabbit;Rabbit God | n 1 | ar 0
+    Tu'er Ye | Gathered rows (the leaf's own evidence) |  | world_folk | 0
+## D5-30 | Figurative Sculpture | Nok Terracottas | Terracotta sculpture of the Nok culture of central Nigeria (c. 900 BCE–300 CE), hollow-built figures and heads with triangular pierced eyes and elabor | al: Nok sculpture | n 4 | ar 0
+    Nok terracottas | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+    Nok | Gathered rows (the leaf's own evidence) |  | africa_oceania_targeted | 0
+    Sokoto terracottas | Sokoto | Sokoto terracottas, related style | gap_sweep | 0
+    Katsina terracottas | Katsina Ala |  | gap_sweep | 0
+## D5-31 | Figurative Sculpture | Ife Art | The classical sculpture of Ile-Ife (c. 1000–1450) in copper alloy and terracotta: naturalistic heads and figures of rulers and court: <i>Wunmonije hea | al: Ife bronzes;Ife terracottas;Ife heads | n 1 | ar 0
+    Ife (Ile-Ife) classical art | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+## D5-32 | Figurative Sculpture | Benin Bronzes | Cast brass of the Edo court of Benin, 13th–19th century, by the Igun Eronmwon guild: <i>palace plaques</i>, <i>commemorative heads for royal altars</i | al: Benin brass casting;Benin court art | n 5 | ar 0
+    Edo | Gathered rows (the leaf's own evidence) | Met "Edo" culture is the Edo people of Benin (sculpture, metalwork, ivory; child row Edo,  | met/aic | 0
+    Edo (Benin Kingdom) | Gathered rows (the leaf's own evidence) |  | africa_oceania_targeted | 0
+    Benin court art, early period (before 1700) | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+    Master of the Heraldic Ship | maker | row Benin court art, early period | evidence | 0
+    Issac O. Edokpolo | maker | row Edo (Benin Kingdom) | evidence | 0
+## D5-33 | Figurative Sculpture | Lower Niger Bronze Industry | Fagg's name for copper-alloy castings of the 14th–16th centuries from the lower Niger that fit neither Ife nor Benin, among them the Tsoede bronzes of | al: Tsoede bronzes | n 2 | ar 0
+    Tsoede bronzes (Tada, Jebba) and Lower Niger Bronze Industry | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+    Tsoede bronzes (Tada, Jebba) | sub-group | row Tsoede bronzes | evidence | 0
+## D5-34 | Figurative Sculpture | Esie Soapstone Figures | Over a thousand soapstone figures of seated men and women (c. 12th–15th century) found at Esie in Yoruba-speaking Kwara State, the largest corpus of s | al: Esie stone images;ere Esie | n 1 | ar 0
+    Esie soapstone figures | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+## D5-35 | Figurative Sculpture | Djenné Terracottas | Terracotta sculpture of the Inland Niger Delta (c. 1100–1600), from Djenné-Djeno and neighbouring sites: <i>kneeling and seated figures</i>, <i>figure | al: Inland Niger Delta terracottas;Jenne terracottas;Middle Nige | n 4 | ar 1
+    Inland Niger Delta (Djenne-jeno) terracottas | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+    Inland Niger Delta (Djenne) | Gathered rows (the leaf's own evidence) |  | africa_oceania_targeted | 0
+    Bankoni terracottas | Bankoni |  | gap_sweep | 0
+    Jenne | sub-group | excluded row Jenne | evidence | 0
+## D5-36 | Figurative Sculpture | Bura Terracottas | Funerary terracottas of the Bura culture of Niger and Burkina Faso (c. 200–1100): <i>cylindrical heads on jar burials</i>, <i>equestrian figures</i>. | al: Bura-Asinda-Sikka | n 1 | ar 0
+    Bura (Asinda-Sikka) terracottas | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+## D5-37 | Figurative Sculpture | Koma Terracottas | Terracotta figures and heads from burial mounds of Komaland in northern Ghana (c. 1100–1700), many heavily looted: <i>stylised heads</i>, <i>equestria | al: Komaland terracottas | n 1 | ar 0
+    Koma (Komaland) terracottas | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+## D5-38 | Figurative Sculpture | Sao Terracottas | Terracotta and copper-alloy sculpture of the Sao civilisation south of Lake Chad (c. 500–1600): <i>human and animal heads</i>, <i>funerary jars</i>. | al: Sao art | n 1 | ar 0
+    Sao culture (Lake Chad) | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+## D5-39 | Figurative Sculpture | Lydenburg Heads | Seven hollow terracotta heads of the Early Iron Age (c. 500 CE) from Lydenburg in Mpumalanga, the earliest known sculpture of southern Africa. | al:  | n 1 | ar 0
+    Lydenburg heads | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+## D5-40 | Figurative Sculpture | Nomoli | Small stone figures (soapstone, steatite) of the Sapi peoples of Sierra Leone and Guinea (c. 1400–1600), found in fields by later Mende and Kissi farm | al: nomoli figurines;pomdo | n 1 | ar 0
+    Pomdo | sub-type | row Sapi stone figures (nomoli, pomdo) | evidence | 0
+## D5-41 | Figurative Sculpture | Zimbabwe Birds | The eight soapstone birds on columns from Great Zimbabwe (c. 13th–15th century). | al: Great Zimbabwe soapstone birds | n 1 | ar 0
+    Great Zimbabwe (soapstone birds) and Zimbabwe culture | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+## D5-42 | Figurative Sculpture | Yoruba Sculpture | Wood sculpture of the Yoruba of Nigeria and Benin, carved by named masters and workshops for shrines, palaces and divination: <i>ere ibeji twin figure | al: Yoruba carving | n 15 | ar 0
+    Yoruba | Gathered rows (the leaf's own evidence) |  | africa_oceania_targeted | 0
+    Yoruba, Ijebu group | Ijebu | Ijebu brass | met/aic | 0
+    Olowe of Ise | maker | row Yoruba (africa) | evidence | 0
+    Areogun of Osi-Ilorin | maker | row Yoruba | evidence | 0
+    Thomas Ona Odulate | maker | row Yoruba | evidence | 0
+    Akíyọdé of Abẹ́òkúta | maker | row Yoruba | evidence | 0
+    Maku of Erin | maker | row Yoruba | evidence | 0
+    Abogunde of Ede | maker | row Yoruba (africa) | evidence | 0
+    Duga of Mẹkọ | maker | row Yoruba (africa) | evidence | 0
+    Onyide Adugbologe | maker | row Yoruba (africa) | evidence | 0
+    Fakeye workshop | workshop | row Yoruba (africa): Fakeye School | evidence | 0
+    Agbonbiofe Adeshina | maker | row Unspecified (West Africa) | evidence | 0
+    Oyo | sub-group | excluded row Oyo-Yoruba | evidence | 0
+    Ekiti | sub-group | excluded row Ekiti-Yoruba | evidence | 0
+    Ere ibeji |  | Yoruba carved wooden figures commemorating deceased twins, cared for by the mother, 19th–2 | possession | 0
+## D5-43 | Figurative Sculpture | Dogon Sculpture | Wood sculpture of the Dogon of the Bandiagara escarpment, Mali, with the earlier Tellem figures: <i>primordial couples</i>, <i>figures with raised arm | al: Dogon art | n 4 | ar 1
+    Dogon | Gathered rows (the leaf's own evidence) |  | africa_oceania_targeted | 0
+    Tellem (Bandiagara) sculpture and textiles | Tellem |  | gap_sweep | 0
+    Yessa Kelepipi | maker | row Dogon | evidence | 0
+    Aly Kassogue | maker | row Dogon | evidence | 0
+## D5-44 | Figurative Sculpture | Bamana Sculpture | Wood and iron sculpture of the Bamana (Bambara) of Mali, carved by numu blacksmiths: <i>jonyeleni and gwan maternity figures</i>, <i>boli power object | al: Bambara sculpture | n 1 | ar 0
+    Bamana | Gathered rows (the leaf's own evidence) | makers Djege Coulibaly, Nakunte Diarra are bogolan artists (kinds of Bògòlanfini) | africa_oceania_targeted | 0
+## D5-45 | Figurative Sculpture | Senufo Sculpture | Wood sculpture of the Senufo of Côte d'Ivoire, Mali and Burkina Faso by carver groups (kulebele, fonombele): <i>pombia (child of Poro) figures</i>, <i | al: Senufo art | n 3 | ar 0
+    Senufo | Gathered rows (the leaf's own evidence) |  | met/aic | 0
+    Senufo, Tyebara group | Tyebara |  | met/aic | 0
+    Jimini | sub-group | excluded row Jimini-Senufo | evidence | 0
+## D5-46 | Figurative Sculpture | Baule Sculpture | Wood sculpture of the Baule of Côte d'Ivoire, polished and finely detailed: <i>blolo bla and blolo bian spirit-spouse figures</i>, <i>asie usu nature- | al: Baoulé sculpture | n 3 | ar 0
+    Baule | Gathered rows (the leaf's own evidence) |  | africa_oceania_targeted | 0
+    Totokro Master | maker | row Baule (africa) | evidence | 0
+    Nguessan Salé | maker | row Baule | evidence | 0
+## D5-47 | Figurative Sculpture | Lobi Sculpture | Wood figures of the Lobi of Burkina Faso, Ghana and Côte d'Ivoire made for thil shrines: <i>bateba figures in gesture</i>, <i>heads on posts</i>. | al: bateba | n 2 | ar 0
+    Lobi | Gathered rows (the leaf's own evidence) |  | africa_oceania_targeted | 0
+    Sikire Kambire | maker | row Lobi | evidence | 0
+## D5-48 | Figurative Sculpture | Akan Sculpture | Wood and terracotta sculpture of the Akan (Asante, Fante, Anyi) of Ghana and Côte d'Ivoire: <i>akuaba fertility figures</i>, <i>mma terracotta memoria | al: Asante sculpture | n 4 | ar 0
+    Asante | Gathered rows (the leaf's own evidence) |  | met/aic | 0
+    Akan, Anyi group | Anyi |  | met/aic | 0
+    Osei Bonsu | maker | row Akan: Asante | evidence | 0
+    Fante | sub-group | excluded rows Akan: Fante, Fante-Akan | evidence | 0
+## D5-49 | Figurative Sculpture | Chokwe Sculpture | Court sculpture of the Chokwe of Angola and the DR Congo, 19th century: <i>Chibinda Ilunga hunter-hero figures</i>, <i>mwanangana chiefs' figures</i>, | al: Cokwe sculpture | n 1 | ar 0
+    Chokwe | Gathered rows (the leaf's own evidence) |  | africa_oceania_targeted | 0
+## D5-50 | Figurative Sculpture | Luba Sculpture | Court sculpture of the Luba of the south-eastern DR Congo: <i>caryatid stools</i>, <i>bowl bearers</i>, <i>headrests</i>, <i>lukasa memory boards</i>, | al: Luba art | n 3 | ar 0
+    Luba | Gathered rows (the leaf's own evidence) |  | africa_oceania_targeted | 0
+    Tabwa | Tabwa |  | met/aic | 0
+    Hemba | sub-group | excluded rows Hemba | evidence | 0
+## D5-51 | Figurative Sculpture | Lega Sculpture | Ivory, bone and wood figures and masks owned by grades of the Lega bwami association, eastern DR Congo: <i>iginga figurines</i>, <i>lukwakongo masks</ | al: bwami art | n 1 | ar 0
+    Lega | Gathered rows (the leaf's own evidence) |  | africa_oceania_targeted | 0
+## D5-52 | Figurative Sculpture | Ndop | Commemorative portrait figures of the Kuba kings (nyim), each carved with his emblem (ibol), 18th–19th century. | al: Kuba king figures | n 0 | ar 0
+## D5-53 | Figurative Sculpture | Makonde Sculpture | Carving of the Makonde of Tanzania and Mozambique: lipiko helmet masks and figures, and from the 1950s the ebony sculpture of Dar es Salaam: <i>mapiko | al: Makonde art | n 1 | ar 0
+    Makonde art | Gathered rows (the leaf's own evidence) |  | world_folk | 0
+## D5-54 | Figurative Sculpture | Fantasy Coffins | Figurative coffins carved by Ga carpenters in Teshie and Nungua near Accra since the 1950s, shaped after the deceased's trade or emblem: <i>fish, coco | al: abebuu adekai;figurative coffins | n 1 | ar 0
+    Ghanaian fantasy coffins (abebuu adekai) | Gathered rows (the leaf's own evidence) |  | world_folk | 0
+## D5-55 | Figurative Sculpture | Ancient Egyptian Sculpture | Statuary and relief of pharaonic Egypt in stone, wood and metal, from the Old Kingdom to the Ptolemies: <i>Menkaure triad</i>, <i>Middle Kingdom block | al: Egyptian statuary;Egyptian relief | n 2 | ar 0
+    Relief | sub-type | Middle Kingdom relief fragment 841, relief 383 | evidence | 0
+    Funerary models | sub-type | Old Kingdom model tableware/model dish | evidence | 0
+## D5-56 | Figurative Sculpture | Cycladic Figures | Marble figures, mostly folded-arm female figures, made in the Cyclades in the Early Bronze Age, 3rd millennium BC: <i>Spedos and Dokathismata types</i | al: Cycladic idols;Cycladic figurines | n 2 | ar 0
+    Cycladic | Gathered rows (the leaf's own evidence) |  | met/aic | 0
+    Spedos type | sub-type | Cycladic art (wiki) exemplar; Early Cycladic II | evidence | 0
+## D5-57 | Figurative Sculpture | Ancient Greek Sculpture | Stone and bronze sculpture of the Greek world from the Archaic to the Hellenistic period: <i>kouroi and korai</i>, <i>Parthenon marbles</i>, <i>Riace  | al: Greek sculpture | n 0 | ar 0
+## D5-58 | Figurative Sculpture | Greek Terracotta Figurines | Mould-made and painted clay figurines of the Greek world, votive and decorative, Archaic to Hellenistic: <i>Tanagra figurines</i>, <i>Tarentine votive | al: Tanagra figurines | n 5 | ar 0
+    Greek, Boeotian | Boeotian | terracottas 104; vases 39 (Boeotian vase painting, see L25) | met/aic | 0
+    Greek, Tarentine | Tarentine | terracottas 104 | met/aic | 0
+    Greek, Cretan | Cretan | terracottas 42 | met/aic | 0
+    Tanagra figurines | sub-group | wiki:Tanagra figurine; Boeotian terracottas | evidence | 0
+    Myrina figurines | centre | excluded row Greek, Myrina (8) | evidence | 0
+## D5-59 | Figurative Sculpture | Etruscan Sculpture | Sculpture of Etruria in terracotta, bronze, stone and alabaster, 7th–1st century BC: <i>Sarcophagus of the Spouses</i>, <i>Apollo of Veii</i>, <i>Chim | al: Etruscan bronzes | n 1 | ar 0
+    Bronze votive statuettes | sub-type | Etruscan bronzes 360 | evidence | 0
+## D5-60 | Figurative Sculpture | Roman Portraiture | Portrait sculpture of ancient Rome in marble and bronze, from veristic Republican heads to imperial portraits: <i>Patrician Torlonia</i>, <i>Augustus  | al: Roman portrait sculpture | n 0 | ar 0
+## D5-61 | Figurative Sculpture | Roman Sculpture | Roman sculpture other than portraits: historical relief, ideal statuary and copies after Greek works, and carved sarcophagi: <i>Ara Pacis</i>, <i>Traj | al:  | n 2 | ar 0
+    Menodorus of Athens | Artists |  | artists | 1
+    Anthemius of Tralles | Artists |  | artists | 1
+## D5-62 | Figurative Sculpture | Olmec Sculpture | The stone sculpture of the Olmec of the Gulf Coast, c. 1500–400 BCE, from monumental basalt carving to small greenstone figures and ceramic hollow bab | al: Olmec art | n 1 | ar 0
+    Olmec | Gathered rows (the leaf's own evidence) | stone 37, sculpture 15 | met/aic | 0
+## D5-63 | Figurative Sculpture | Maya Sculpture | The carved stone and stucco sculpture of the Classic and Postclassic Maya: dated stelae, altars, lintels and panels with rulers and glyphic texts: <i> | al: Maya stelae | n 3 | ar 0
+    Maya | Gathered rows (the leaf's own evidence) | stone 60, sculpture 18 | met/aic | 0
+    K'in Lakam Chahk | maker | named_makers in Maya culture row (Piedras Negras sculptor) | evidence | 0
+    Jun Nat Omootz | maker | named_makers in Maya culture row | evidence | 0
+## D5-64 | Figurative Sculpture | Aztec Sculpture | The stone sculpture of the Mexica of Tenochtitlan, 14th–16th century, from colossal cult images and calendrical monuments to small household deities:  | al: Mexica sculpture | n 1 | ar 0
+    Aztec | Gathered rows (the leaf's own evidence) | sculpture 51 | met/aic | 0
+## D5-65 | Figurative Sculpture | Classic Veracruz Sculpture | The sculpture of the Classic-period Gulf Coast (c. 100–1000 CE): carved stone ballgame yokes, hachas and palmas with scrollwork, and hollow ceramic fi | al: Classic Veracruz art | n 2 | ar 1
+    Classic Veracruz | Gathered rows (the leaf's own evidence) | sculpture 54 | americas_oceania | 0
+    Remojadas | sub-style | excluded row Classic Veracruz: Remojadas | evidence | 0
+## D5-66 | Figurative Sculpture | West Mexican Shaft-Tomb Figures | Hollow and solid ceramic figures and village tableaux placed in shaft tombs of Jalisco, Nayarit and Colima, c. 300 BCE–400 CE: <i>Colima dogs</i>, <i> | al: shaft tomb tradition;West Mexico ceramics | n 6 | ar 1
+    Colima | Colima |  | met/aic | 0
+    West Mexico: Colima | Colima |  | americas_oceania | 0
+    West Mexico: Nayarit | Nayarit |  | americas_oceania | 0
+    Nayarit | Nayarit |  | met/aic | 0
+    Jalisco | Jalisco |  | met/aic | 0
+    Chinesco | sub-style | excluded row Nayarit, Chinesco | evidence | 0
+## D5-67 | Figurative Sculpture | Chavín Sculpture | The carved granite of Chavín de Huántar and the Chavín horizon, c. 900–200 BCE, with fanged composite deities in contour-rivalry: <i>Lanzón</i>, <i>Ra | al: Chavín art | n 2 | ar 0
+    probably Chavín or Cupisnique (archaeological culture) (attr | Cupisnique ceramics |  | smithsonian | 0
+    Chavin | goldwork | metalwork 19 | americas_oceania | 0
+## D5-68 | Figurative Sculpture | Valdivia Figurines | Small fired-clay female figures of the Valdivia culture of coastal Ecuador (c. 3500–1500 BCE), among the earliest ceramics of the Americas: <i>Venus o | al: Venus of Valdivia | n 1 | ar 0
+    Valdivia | Gathered rows (the leaf's own evidence) | sculpture 16 | met/aic | 0
+## D5-69 | Figurative Sculpture | Estofado | Polychrome wooden sculpture of Spain and Spanish America in which gilded surfaces are painted and scratched to imitate brocade, the technique of vicer | al: estofado sculpture;imaginería | n 2 | ar 0
+    Guatemalan colonial sculpture and painting (Antigua) | Antigua Guatemala |  | gap_sweep | 0
+    New Spain polychrome sculpture (estofado) | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+## D5-70 | Figurative Sculpture | Brazilian Baroque | The sculpture and church decoration of colonial Brazil, 17th–early 19th century, culminating in the Rococo of Minas Gerais: <i>Aleijadinho's soapstone | al: Barroco mineiro;Mineiro Baroque;Baroque in Brazil | n 1 | ar 0
+    Brazilian Baroque (Barroco mineiro, Bahia) | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+## D5-71 | Figurative Sculpture | Santos | Carved and painted devotional images of saints made by santeros in the Hispanic Caribbean and New Mexico: bultos in the round and painted retablo pane | al: santo;bulto;santos de palo | n 3 | ar 1
+    New Mexican santos (retablos and bultos) | New Mexican santero tradition |  | world_folk | 0
+    New Mexican santero tradition (retablos and bultos) | New Mexican santero tradition |  | gap_sweep | 0
+    Puerto Rican santos de palo | Puerto Rican santos de palo |  | world_folk | 0
+## D5-72 | Figurative Sculpture | Alebrije | Brightly painted fantastic creatures, first made in papier-mâché by Pedro Linares in Mexico City and from the 1980s carved in copal wood by Zapotec ca | al: alebrijes;Oaxacan wood carving | n 3 | ar 0
+    Alebrijes and Oaxacan wood carving | Gathered rows (the leaf's own evidence) |  | world_folk | 0
+    Arrazola | centre | row aliases | evidence | 0
+    San Martín Tilcajete | centre | row aliases | evidence | 0
+## D5-73 | Figurative Sculpture | Cartonería | Mexican papier-mâché sculpture for festivals: Judas figures burned on Holy Saturday, skeletons for the Day of the Dead and mojigangas: <i>Judas figure | al: cartonería;Judas figures | n 3 | ar 1
+    Mexican cartoneria (Judas figures) | Gathered rows (the leaf's own evidence) |  | world_folk | 0
+    Judas figures | sub-type | row label | evidence | 0
+    Piñata | sub-type | Decorated papier-mâché or clay-pot figures filled with sweets and broken at Las Posadas an | possession | 0
+## D5-74 | Figurative Sculpture | Caruaru Clay Figures | Small painted clay figures of north-eastern rural life made at Alto do Moura, Caruaru (Pernambuco), after Mestre Vitalino: <i>bands of zabumba players | al: bonecos de barro;figureiros | n 3 | ar 0
+    Caruaru clay figures (Mestre Vitalino) | Gathered rows (the leaf's own evidence) |  | world_folk | 0
+    Mestre Vitalino | maker | row label | evidence | 0
+    Alto do Moura | centre | row aliases | evidence | 0
+## D5-75 | Figurative Sculpture | Haitian Metal Art | Sculpture cut and hammered from flattened oil drums by the smiths of Croix-des-Bouquets after Georges Liautaud: <i>vodou lwa figures</i>, <i>trees of  | al: fer découpé;Haitian steel drum art | n 1 | ar 0
+    Haitian metal art (Croix-des-Bouquets) | Gathered rows (the leaf's own evidence) |  | world_folk | 0
+## D5-76 | Figurative Sculpture | Totem Poles | Monumental carved cedar poles of the Northwest Coast in formline style — memorial, mortuary, house-frontal and welcome poles carrying crests: <i>Haida | al: totem pole;crest pole | n 0 | ar 0
+## D5-77 | Figurative Sculpture | Inuit Sculpture | Figurative carving of the Canadian and Greenlandic Inuit in soapstone, serpentine, ivory and bone, above all the stone sculpture made for sale through | al: Inuit carving;soapstone carving | n 2 | ar 1
+    Inuit | Gathered rows (the leaf's own evidence) | sculpture 58, bone/ivory 22 of 92 | met/aic | 0
+    Osuitok Ipeelee | Artists | Inuit sculptor (1923–2005) of Kinngait (Cape Dorset), carver in stone and antler | possession | 1
+## D5-78 | Figurative Sculpture | Kachina Dolls | Carved and painted cottonwood-root figures of the katsinam given to Hopi (and Zuni) children at ceremonies, from flat cradle dolls to the action figur | al: katsina dolls;katsina figures;tihu | n 0 | ar 0
+## D5-79 | Figurative Sculpture | Zuni Fetishes | Small carved stone, shell and antler animal figures of Zuni Pueblo, made for ritual and since the 20th century for collectors, often with inlaid eyes  | al: Zuni carvings | n 0 | ar 0
+## D5-80 | Figurative Sculpture | Storyteller Figures | Painted clay figures of a seated storyteller covered with listening children, created by Helen Cordero at Cochiti Pueblo in 1964 and taken up across t | al: storyteller dolls;storyteller pottery | n 1 | ar 0
+    Cochiti Pueblo | Cochiti | figures 69 and pottery 113 of 251 | smithsonian | 0
+## D5-81 | Figurative Sculpture | Whakairo | Māori wood carving: the carved figures, panels, gateways and canoe prows of meeting houses (wharenui), storehouses and canoes, cut in regional and tri | al: Māori carving;whakairo rākau | n 11 | ar 1
+    Maori: Te Arawa | Te Arawa | Ngāti Tarawhai carvers Tene Waitere, Neke Kapua, Wero Taroi, Anaha Te Rahui | africa_oceania_targeted | 0
+    Maori: Tuhoe | Tūhoe | sculpture 21 | africa_oceania_targeted | 0
+    Maori | Gathered rows (the leaf's own evidence) | wood 11, sculpture 5 | met/aic | 0
+    Maori: Ngati Porou | Ngāti Porou | Pineamine Taiapa | africa_oceania_targeted | 0
+    Thomas Heberley | maker | row Maori (33) | evidence | 0
+    Jacob Heberley | maker | row Maori: other iwi (19) | evidence | 0
+    Anaha Te Rahui | maker | rows Maori (28), Maori: Tainui | evidence | 0
+    Tene Waitere | maker | row Maori: Te Arawa (5) | evidence | 0
+    Neke Kapua | maker | row Maori: Te Arawa (4) | evidence | 0
+    Wero Taroi | maker | row Maori: Te Arawa (3) | evidence | 0
+    Pineamine Taiapa | maker | row Maori: Ngati Porou (2) | evidence | 0
+## D5-82 | Figurative Sculpture | Malagan | The carved and painted funerary sculpture of northern New Ireland, made for malagan memorial ceremonies and discarded after display: openwork friezes, | al: malanggan;malangan | n 1 | ar 1
+    New Ireland | Gathered rows (the leaf's own evidence) | mask 38, sculpture 26 | africa_oceania_targeted | 0
+## D5-83 | Figurative Sculpture | Uli | The massive hermaphroditic ancestor figures of central New Ireland (Mandak and Barak), displayed in the long ceremonies of skull reburial: <i>uli figu | al: uli figures | n 1 | ar 1
+    Central New Ireland | Central New Ireland | uli region | met/aic | 0
+## D5-84 | Figurative Sculpture | Asmat Woodcarving | The wood carving of the Asmat of south-west New Guinea (Papua, Indonesia), carvers (wowipits) working in the tradition of the culture hero Fumeripits: | al: Asmat carving;Asmat art | n 2 | ar 2
+    Asmat | Gathered rows (the leaf's own evidence) | wood 261, sculpture 100 | met/aic | 0
+    bisj poles | sub-type | row Asmat (met/aic wood/sculpture); wiki:Bisj Pole | evidence | 0
+## D5-85 | Figurative Sculpture | Sepik Carving | The figure sculpture, masks and ceremonial-house carving of the peoples of the Sepik River basin of Papua New Guinea: <i>Iatmul orator's stools and an | al: Sepik art;Sepik style | n 4 | ar 2
+    Sepik | Gathered rows (the leaf's own evidence) | sculpture 63; jewellery and arms dominate | africa_oceania_targeted | 0
+    Iatmul | Iatmul |  | met/aic | 0
+    Abelam | Abelam |  | met/aic | 0
+    Sawos | sub-group | row Sepik: Sawos | evidence | 0
+## D5-86 | Figurative Sculpture | Massim Carving | The curvilinear carving of the Massim region (Milne Bay, PNG), above all the Trobriand Islands, in hardwood incised and filled with lime: <i>tabuya an | al: Massim style;Trobriand carving | n 1 | ar 0
+    Massim | Gathered rows (the leaf's own evidence) |  | africa_oceania_targeted | 0
+## D5-87 | Figurative Sculpture | Nguzu Nguzu | The blackened wood canoe-prow figureheads of New Georgia in the western Solomon Islands, inlaid with nautilus shell, the emblem of the Solomon Islands | al: nguzunguzu;toto isu;Solomon Islands shell inlay | n 1 | ar 1
+    Solomon Islands shell inlay (nguzunguzu) | Gathered rows (the leaf's own evidence) |  | world_folk | 0
+## D5-88 | Figurative Sculpture | Marquesan Carving | The carving of the Marquesas Islands (Te Henua ʻEnana) in wood, bone and stone, dense with the eye-and-face (mata) motifs shared with Marquesan tattoo | al: Enata carving | n 1 | ar 2
+    Marquesan | Gathered rows (the leaf's own evidence) |  | africa_oceania_targeted | 0
+## D5-89 | Figurative Sculpture | Moai Kavakava | The small wooden figures of Rapa Nui (Easter Island) carved in toromiro, emaciated male ancestor images worn at feasts, with their companion carvings: | al: Rapa Nui wood carving | n 2 | ar 1
+    Rapa Nui | Gathered rows (the leaf's own evidence) | sculpture 16; Benedicto Tuki seeded as maker | africa_oceania_targeted | 0
+    Benedicto Tuki | maker | row Rapa Nui (2) | evidence | 0
+## D5-90 | Figurative Sculpture | Aurukun Sculpture | The ochre-painted softwood sculpture of the Wik and Kugu peoples of Aurukun on Cape York, made for ceremony and since the 1990s through the art centre | al: Wik sculpture;Aurukun camp dogs | n 2 | ar 0
+    Aurukun (Wik) sculpture | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+    Wik & Kugu Aurukun Art Centre | Wik & Kugu Art Centre |  | gap_sweep | 0
+## D5-91 | Figurative Sculpture | Neapolitan Nativity Scene | Elaborate crèches of 18th-century Naples, with articulated figures of terracotta heads on tow bodies, dressed in silk, set among angels, Magi's retinu | al: presepe napoletano;Neapolitan crib;Neapolitan crèche | n 1 | ar 1
+    Italian, Naples | Gathered rows (the leaf's own evidence) | crèche 218 | met/aic | 0
+## D5-92 | Figurative Sculpture | Wildfowl Decoys | Carved and painted wooden decoys of ducks, geese and shorebirds made by North American hunters and carvers, 19th–20th century, collected as folk sculp | al: decoys | n 1 | ar 1
+    American decoys | Gathered rows (the leaf's own evidence) |  | world_folk | 0
+## D5-93 | Figurative Sculpture | Weathervanes | American weathervanes of carved wood and moulded sheet copper, 18th–19th century, and the related whirligigs, collected as folk sculpture: <i>Ames and | al: weathervanes and whirligigs | n 2 | ar 0
+    American weathervanes and whirligigs | Gathered rows (the leaf's own evidence) |  | world_folk | 0
+    Whirligigs | sub-type | pool row label | evidence | 0
+## D5-94 | Figurative Sculpture | Estremoz Clay Figures | Small modelled and painted clay figures of Estremoz in the Alentejo, made since the 17th century, first for nativity scenes and then of saints and rur | al: Bonecos de Estremoz;figurado de barro de Estremoz | n 1 | ar 0
+    Estremoz clay figures | Gathered rows (the leaf's own evidence) |  | europe_folk | 0
+## D5-95 | Figurative Sculpture | Matryoshka Doll | Russian nesting dolls of turned and painted lime wood, first made at the Abramtsevo circle in 1890 (Malyutin, Zvyozdochkin) and then in Sergiev Posad, | al: matryoshka;nesting doll;babushka doll | n 1 | ar 0
+    Matryoshka doll | Gathered rows (the leaf's own evidence) |  | europe_folk | 0
+## D5-96 | Figurative Sculpture | Polkhovsky Maidan | Turned and brightly painted wooden toys and matryoshkas of Polkhovsky Maidan (Nizhny Novgorod region), with large aniline-coloured flowers over ink ou | al: Polkhov-Maidan painting | n 1 | ar 0
+    Polkhovsky Maidan painting | Gathered rows (the leaf's own evidence) |  | europe_folk | 0
+## D5-97 | Figurative Sculpture | Bogorodskoye Carving | Carved lime-wood toys and figures of the village of Bogorodskoye near Sergiev Posad, often with moving parts: <i>the Blacksmiths (bear and peasant)</i | al: Bogorodskoe carving;Bogorodsk wood carving | n 1 | ar 0
+    Bogorodskoye carving | Gathered rows (the leaf's own evidence) |  | europe_folk | 0
+## D5-98 | Figurative Sculpture | Dymkovo Toys | Moulded, whitewashed and brightly painted clay figures of the Dymkovo settlement near Vyatka (Kirov): <i>ladies in crinolines</i>, <i>turkeys</i>, <i> | al: Dymkovo toy;Vyatka toy | n 1 | ar 1
+    Dymkovo toy | Gathered rows (the leaf's own evidence) |  | europe_folk | 0
+## D5-99 | Figurative Sculpture | Filimonovo Toys | Clay whistles and figures of Filimonovo (Tula region) with elongated bodies painted in stripes of red, green and yellow. | al: Filimonovo toy | n 1 | ar 0
+    Filimonovo toy | Gathered rows (the leaf's own evidence) |  | europe_folk | 0
+## D5-100 | Figurative Sculpture | Kargopol Toys | Clay figures of the Kargopol district (Arkhangelsk region), squat and painted in earth colours: <i>Polkan</i>, <i>bereginya</i>, peasant figures (Babk | al: Kargopol toy | n 1 | ar 0
+    Kargopol toy | Gathered rows (the leaf's own evidence) |  | europe_folk | 0
+## D5-101 | Figurative Sculpture | Abashevo Toys | Clay whistles of Abashevo (Penza region) shaped as goats, deer and rams with long necks and horns, glazed or painted. | al: Abashevo toy | n 1 | ar 0
+    Abashevo toy | Gathered rows (the leaf's own evidence) |  | europe_folk | 0
+## D5-102 | Figurative Sculpture | Yavoriv Toy | Turned and painted wooden toys of Yavoriv in Lviv Oblast (Ukraine): carts, horses and rattles painted in red, green and black. | al: Yavoriv wooden toy | n 1 | ar 0
+    Yavoriv toy | Gathered rows (the leaf's own evidence) |  | europe_folk | 0
+## D5-103 | Figurative Sculpture | Valky Whistle Toy | Small ceramic whistle toys of the town of Valky (Kharkiv Oblast, Ukraine). | al: Valky clay whistle | n 1 | ar 0
+    Valky whistle toy | Gathered rows (the leaf's own evidence) |  | europe_folk | 0
+## D5-104 | Figurative Sculpture | Wooden Toys of Hrvatsko Zagorje | Hand-carved and painted willow and lime-wood toys of Hrvatsko Zagorje (Croatia), sold at pilgrimage fairs (UNESCO 2009). | al: Croatian wooden toys | n 1 | ar 0
+    Wooden toys of Hrvatsko Zagorje | Gathered rows (the leaf's own evidence) |  | europe_folk | 0
+## D5-105 | Figurative Sculpture | Pauper Statues | Carved and painted wooden figures of beggars holding alms boxes placed outside Lutheran churches in Finland and Sweden, 18th–19th century. | al: vaivaisukko;poor man statue | n 1 | ar 0
+    poor man statue | Gathered rows (the leaf's own evidence) |  | europe_folk | 0
+## D5-106 | Figurative Sculpture | Moai | The monolithic statues of Rapa Nui (Easter Island), c. 1250–1500, carved from Rano Raraku tuff and set on ceremonial ahu platforms with red scoria puk | al: moai statues;Easter Island heads;Rapa Nui stone statues | n 2 | ar 0
+    Hoa Hakananai'a | representative works | wiki:Moai | evidence | 0
+    Rano Raraku quarry moai | centre | wiki:Moai | evidence | 0
+## D5-107 | Figurative Sculpture | Archaic Greek Sculpture | Greek sculpture c. 650–480 BC: kouroi, korai and temple pediments: <i>the New York Kouros</i>, <i>the Peplos Kore</i>, <i>the Aegina pediments</i>. | al:  | n 58 | ar 0
+    Menaechmus of Naupactus | Artists |  | artists | 1
+    Critius | Artists |  | artists | 1
+    Nicodamus of Maenalus | Artists |  | artists | 1
+    Patrocles of Sicyon | Artists |  | artists | 1
+    Soides | Artists |  | artists | 1
+    Eutelidas of Argos | Artists |  | artists | 1
+    Micon | Artists |  | artists | 1
+    Callon of Elis | Artists |  | artists | 1
+    Theokosmos | Artists |  | artists | 1
+    Onaithos | Artists |  | artists | 1
+    Dameas of Kroton | Artists |  | artists | 1
+    Dipoenus | Artists |  | artists | 1
+    Byzes of Naxos | Artists |  | artists | 1
+    Canachus the Younger | Artists |  | artists | 1
+    Pythagoras | Artists |  | artists | 1
+    Mirmecide | Artists |  | artists | 1
+    Synnoon | Artists |  | artists | 1
+    Callon of Aegina | Artists |  | artists | 1
+    Canachus | Artists |  | artists | 1
+    Phidias | Artists |  | artists | 1
+    Athenis | Artists |  | artists | 1
+    Rhoecus | Artists |  | artists | 1
+    Myron | Artists | ancient Greek art | artists | 1
+    Polykleitos | Artists |  | artists | 1
+    Sophroniscus | Artists |  | artists | 1
+    Endoeus | Artists |  | artists | 1
+    Polymedes of Argos | Artists |  | artists | 1
+    Leukarion | Artists |  | artists | 1
+    Bathycles of Magnesia | Artists |  | artists | 1
+    Amphicrates | Artists |  | artists | 1
+    Theodorus of Samos | Artists |  | artists | 1
+    Styppax | Artists |  | artists | 1
+    Clearchus of Rhegium | Artists |  | artists | 1
+    Cephisodotus the Elder | Artists |  | artists | 1
+    Agoracritus | Artists |  | artists | 1
+    Smilis | Artists |  | artists | 1
+    Alypus | Artists |  | artists | 1
+    Ageladas | Artists |  | artists | 1
+    Anaxagoras of Aegina | Artists |  | artists | 1
+    Alcamenes | Artists |  | artists | 1
+    Geneleós | Artists |  | artists | 1
+    Demetrius of Alopece | Artists |  | artists | 1
+    Vulca | Artists | Etruscan art | artists | 1
+    Glaucus of Chios | Artists |  | artists | 1
+    Paeonius | Artists |  | artists | 1
+    Antenor | Artists |  | artists | 1
+    Callimachus | Artists |  | artists | 1
+    Naukydes of Argos | Artists |  | artists | 1
+    Onatas | Artists |  | artists | 1
+    Phradmon | Artists |  | artists | 1
+    Argius | Artists |  | artists | 1
+    Aristion of Paros | Artists |  | artists | 1
+    Aristokles | Artists |  | artists | 1
+    Aristocles of Cydonia | Artists |  | artists | 1
+    Aristokles of Sikyon | Artists |  | artists | 1
+    Archermus | School of Chios | movement School of Chios | artists | 1
+    Ascarus of Thebes | Artists |  | artists | 1
+    Asopodorus | Artists |  | artists | 1
+## D5-108 | Figurative Sculpture | Classical Greek Sculpture | Greek sculpture c. 480–323 BC from the Severe Style to Praxiteles and Lysippos: <i>the Riace bronzes</i>, <i>the Parthenon marbles</i>, <i>Polykleitos | al: Severe style | n 40 | ar 0
+    Praxiteles | Artists |  | artists | 1
+    Daetondas of Sicyon | Artists |  | artists | 1
+    Pantias | Artists |  | artists | 1
+    Aristonidas | Artists |  | artists | 1
+    Boedas | Artists |  | artists | 1
+    Callistratus | Artists |  | artists | 1
+    Callicles of Megara | Artists |  | artists | 1
+    Daippus | Artists |  | artists | 1
+    Doryclidas | Artists |  | artists | 1
+    Euthycrates | Artists |  | artists | 1
+    Olympiosthenes | Artists |  | artists | 1
+    Timocles of Athens | Artists |  | artists | 1
+    Nesiotes | Artists |  | artists | 1
+    Silanion | Artists |  | artists | 1
+    Timotheos | Artists |  | artists | 1
+    Polykleitos the Younger | Artists |  | artists | 1
+    Satyros of Paros | Artists |  | artists | 1
+    Aristander of Paros | Artists |  | artists | 1
+    Hippias | Artists |  | artists | 1
+    Menelaus | Artists |  | artists | 1
+    Lysippos | Artists |  | artists | 1
+    Artemon | Artists |  | artists | 1
+    Timarchus | Artists |  | artists | 1
+    Scopas | Artists |  | artists | 1
+    Leochares | Artists |  | artists | 1
+    Zenodorus | Artists |  | artists | 1
+    Euainetos | Artists |  | artists | 1
+    Amphion of Knossos | Artists |  | artists | 1
+    Apelleas | Artists |  | artists | 1
+    Strongylion | Artists |  | artists | 1
+    Acestor | Artists |  | artists | 1
+    Cresilas | Artists |  | artists | 1
+    Piston | Artists |  | artists | 1
+    Cleon of Sicyon | Artists |  | artists | 1
+    Apollodorus | Artists |  | artists | 1
+    Aristocles | Artists |  | artists | 1
+    Alxenor | Artists |  | artists | 1
+    Cephisodotus the Younger | Artists |  | artists | 1
+    Bupalus | Artists |  | artists | 1
+    Calamis | Artists | movement art of Classical Greece | artists | 1
+## D5-109 | Figurative Sculpture | Hellenistic Sculpture | Greek sculpture 323–31 BC, theatrical and realistic: <i>the Pergamon Altar</i>, <i>the Winged Victory of Samothrace</i>, <i>the Laocoön</i>. | al: Hellenistic art | n 34 | ar 0
+    Agasias of Ephesus | Artists |  | artists | 1
+    Niceratus | Artists |  | artists | 1
+    Bryaxis | Artists | movement Hellenistic art | artists | 1
+    Dionysicles of Miletus | Artists |  | artists | 1
+    Epigonus of Pergamum | Artists | movement Hellenistic art | artists | 1
+    Eutychides | Artists | movement Hellenistic art | artists | 1
+    Aristeas of Megalopolis | Artists |  | artists | 1
+    Cantharus | Artists |  | artists | 1
+    Phyromachos | Artists |  | artists | 1
+    Cleomenes | Artists | movement Hellenistic art | artists | 1
+    Xenokrates of Sicyon | Artists | movement Hellenistic art | artists | 1
+    Athanadoros | Artists | movement Hellenistic art | artists | 1
+    Pasiteles | Artists | movement Hellenistic art | artists | 1
+    Zeuxis | Artists |  | artists | 1
+    Polydoros | Artists |  | artists | 1
+    Sosicles | Artists | movement Hellenistic art | artists | 1
+    Alexandros of Antioch | Artists | movement Hellenistic art | artists | 1
+    Pythokritos | Artists |  | artists | 1
+    Stephanus | Artists |  | artists | 1
+    Antiochus | Artists |  | artists | 1
+    Agasias | Artists |  | artists | 1
+    Chares of Lindos | Artists | movement Hellenistic art | artists | 1
+    Aegineta | Artists |  | artists | 1
+    Antigonus of Carystus | Artists |  | artists | 1
+    Herophon | Artists |  | artists | 1
+    Apollonius of Athens | Artists |  | artists | 1
+    Apollonius of Tralles | Artists | movement Hellenistic art | artists | 1
+    Menecrates | Artists | movement Hellenistic art | artists | 1
+    Glycon of Athens | Artists |  | artists | 1
+    Archelaus of Priene | Artists | movement Hellenistic art | artists | 1
+    Boethus | Artists | movement Hellenistic art | artists | 1
+    Euphranor | Artists |  | artists | 1
+    Aristeas of Aphrodisias | Artists | movement Hellenistic art | artists | 1
+    Agesander of Rhodes | Artists | movement Hellenistic art | artists | 1
+## D5-110 | Figurative Sculpture | Romanesque Sculpture | Carved portals, capitals and church furnishings of the 11th–12th centuries: <i>Gislebertus's Last Judgement at Autun</i>, <i>Wiligelmo's Modena relief | al:  | n 19 | ar 0
+    Wiligelmo | Artists |  | artists | 1
+    Nicholas of Verdun | Artists |  | artists | 1
+    Master Byzantios | Artists |  | artists | 1
+    Master Hugo | Artists |  | artists | 1
+    Ramon de Bianya | Artists |  | artists | 1
+    Bernard Gilduin | Artists |  | artists | 1
+    Biduino | Artists |  | artists | 1
+    Master Mateo | Artists |  | artists | 1
+    Majestatis | Artists |  | artists | 1
+    Master Sigraf | Artists |  | artists | 1
+    Niccolò | Artists |  | artists | 1
+    Oderisio da Benevento | Artists |  | artists | 1
+    Horder | Artists |  | artists | 1
+    Benedetto Antelami | Artists |  | artists | 1
+    Anselmo da Campione | Artists |  | artists | 1
+    Hegvald | Artists |  | artists | 1
+    Renier de Huy | Artists |  | artists | 1
+    Gislebertus | Artists |  | artists | 1
+    Bonanno Pisano | Artists |  | artists | 1
+## D5-116 | Figurative Sculpture | New Sculpture | The British movement (1880s–1910s) of naturalistic, symbolist bronze sculpture: <i>Leighton's Athlete Wrestling with a Python</i>, <i>Gilbert's Eros</ | al:  | n 13 | ar 0
+    Alfred Drury | Artists | movement New Sculpture | artists | 1
+    Alfred Gilbert | Artists | movement New Sculpture | artists | 1
+    William Goscombe John | Artists | movement New Sculpture | artists | 1
+    F. W. Pomeroy | Artists | movement New Sculpture | artists | 1
+    Hamo Thornycroft | Artists | movement New Sculpture | artists | 1
+    Abastenia St. Leger Eberle | Artists | Ashcan School|French Realism; movement New Sculpture | artists | 1
+    Albert Toft | Artists | movement New Sculpture | artists | 1
+    Andrea Carlo Lucchesi | Artists | movement New Sculpture | artists | 1
+    Edouard Lanteri | Artists | movement New Sculpture | artists | 1
+    Jules Dalou | Artists | French Realism|Q56378393; movement New Sculpture | artists | 1
+    Gilbert Bayes | Artists | movement New Sculpture | artists | 1
+    Henry Alfred Pegram | Artists | movement New Sculpture | artists | 1
+    Harry Bates | Artists | movement New Sculpture | artists | 1
+## D5-117 | Figurative Sculpture | Animalier School | 19th-century French sculpture of animals in small bronzes: <i>Barye's Lion Crushing a Serpent</i>, <i>Mêne's hunting groups</i>. | al: Animaliers | n 4 | ar 1
+    Emile Guillemin | Artists | orientalism in early modern France; movement Animalier school | artists | 1
+    Alfred Barye | Artists | orientalism in early modern France; movement Animalier school | artists | 1
+    Jules Moigniez | Artists | movement Animalier school | artists | 1
+    Raghunath Mohapatra | Artists | stone sculptor of Odisha (medium recorded as painting; blind test) | artists | 1
+## D5-120 | Figurative Sculpture | Kinetic Art | Sculpture that moves or appears to move, from Calder's mobiles to the ZERO group: <i>Calder's Lobster Trap and Fish Tail</i>, <i>Tinguely's Homage to  | al:  | n 8 | ar 0
+    Jeppe Hein | Artists | abstract art|conceptual art; movement kinetic art | artists | 1
+    Alexander Calder | Artists | modern art; movement kinetic art; medium-defining movement (installation, conceptual, mini | artists | 1
+    Yaacov Agam | Artists | movement kinetic art; medium-defining movement (installation, conceptual, minimal, kinetic | artists | 1
+    Lin Emery | Artists | movement kinetic art | artists | 1
+    Otto Piene | ZERO | movement Zero; medium-defining movement (installation, conceptual, minimal, kinetic, media | artists | 1
+    Jesús Rafael Soto | Artists | movement kinetic art; medium-defining movement (installation, conceptual, minimal, kinetic | artists | 1
+    Gerhard von Graevenitz | Artists | movement kinetic art; medium-defining movement (installation, conceptual, minimal, kinetic | artists | 1
+    Eusebio Sempere | Artists | movement kinetic art; medium-defining movement (installation, conceptual, minimal, kinetic | artists | 1
+## D5-121 | Figurative Sculpture | Minimalism | American sculpture of the 1960s of industrial, serial, geometric units: <i>Judd's Untitled stacks</i>, <i>Carl Andre's Equivalent VIII</i>, <i>Dan Fla | al: Minimal art;ABC art | n 25 | ar 0
+    Charlotte Posenenske | Artists | movement Minimalism; medium-defining movement (installation, conceptual, minimal, kinetic, | artists | 1
+    Félix González-Torres | Artists | conceptual art; movement Minimalism; other movements: conceptual art; medium-defining move | artists | 1
+    Fred Sandback | Artists | movement Minimalism; medium-defining movement (installation, conceptual, minimal, kinetic, | artists | 1
+     | Artists | movement Minimalism; medium-defining movement (installation, conceptual, minimal, kinetic, | artists | 1
+    Jack Goldstein | Artists | movement Minimalism; medium-defining movement (installation, conceptual, minimal, kinetic, | artists | 1
+    Sol LeWitt | Artists | conceptual art; movement Minimalism; other movements: conceptual art; medium-defining move | artists | 1
+    Jo Baer | Artists | movement Minimalism; medium-defining movement (installation, conceptual, minimal, kinetic, | artists | 1
+    Charles Hinman | Artists | movement Minimalism; medium-defining movement (installation, conceptual, minimal, kinetic, | artists | 1
+    Larry Bell | Artists | movement minimalism; medium-defining movement (installation, conceptual, minimal, kinetic, | artists | 1
+    Didier Vermeiren | Artists | conceptual art; movement Minimalism | artists | 1
+    Imi Knoebel | Artists | movement Minimalism; medium-defining movement (installation, conceptual, minimal, kinetic, | artists | 1
+    Donald Judd | Artists | movement Minimalism; medium-defining movement (installation, conceptual, minimal, kinetic, | artists | 1
+    Eliseo Mattiacci | Artists | Arte Povera; movement Minimalism | artists | 1
+    Carl Andre | Artists | movement Minimalism; medium-defining movement (installation, conceptual, minimal, kinetic, | artists | 1
+    Nahum Tevet | Artists | movement Minimalism | artists | 1
+    Brice Marden | Artists | movement Minimalism; medium-defining movement (installation, conceptual, minimal, kinetic, | artists | 1
+    Betty Beaumont | Artists | movement Minimalism | artists | 1
+    Dan Flavin | Artists | movement Minimalism; medium-defining movement (installation, conceptual, minimal, kinetic, | artists | 1
+    Craig Kauffman | Artists | movement Minimalism; medium-defining movement (installation, conceptual, minimal, kinetic, | artists | 1
+    Faye HeavyShield | Artists | movement Minimalism | artists | 1
+    Tony Smith | Artists | abstract art; movement Minimalism; medium-defining movement (installation, conceptual, min | artists | 1
+    Anne Truitt | Artists | movement Minimalism; medium-defining movement (installation, conceptual, minimal, kinetic, | artists | 1
+    Robert Mangold | Artists | movement Minimalism; medium-defining movement (installation, conceptual, minimal, kinetic, | artists | 1
+    Bill Bollinger | Artists | movement Minimalism | artists | 1
+    John McCracken | Artists | movement Minimalism; medium-defining movement (installation, conceptual, minimal, kinetic, | artists | 1
+## D5-122 | Figurative Sculpture | Postminimalism | Sculpture after Minimalism (late 1960s) of process, materials and the body: <i>Eva Hesse's Contingent</i>, <i>Serra's Splash Piece</i>. | al: Process art | n 12 | ar 0
+    Bruce Nauman | Artists | conceptual art; movement postminimalism | artists | 1
+    Eva Hesse | Artists | movement postminimalism; medium-defining movement (installation, conceptual, minimal, kine | artists | 1
+    Richard Serra | Process art | Minimalism; movement process art; other movements: Minimalism; medium-defining movement (i | artists | 1
+    Keith Sonnier | Process art | postminimalism; movement process art; other movements: postminimalism; medium-defining mov | artists | 1
+    Keith Milow | Artists | abstract art|contemporary art; movement postminimalism; medium-defining movement (installa | artists | 1
+    Jan de Weryha-Wysoczański | Process art | movement process art | artists | 1
+    Nancy Graves | Artists | movement postminimalism; medium-defining movement (installation, conceptual, minimal, kine | artists | 1
+    Ulrich Rückriem | Process art | movement process art | artists | 1
+    Jackie Ferrara | Artists | movement postminimalism | artists | 1
+     | Artists | movement postminimalism | artists | 1
+    Barry Le Va | Process art | movement process art | artists | 1
+    Richard Tuttle | Artists | movement postminimalism; medium-defining movement (installation, conceptual, minimal, kine | artists | 1
+## D5-123 | Figurative Sculpture | Kei School | The Japanese Buddhist sculptors' lineage of Unkei and Kaikei (Kamakura period), realistic in joined-wood technique: <i>the Tōdai-ji Niō</i>, <i>Unkei' | al:  | n 8 | ar 0
+    Monkan-bō Kōshin | Artists | Kei School; Japanese sculptors of the Kamakura generation; country group: Japan | artists | 1
+    Unkei | Artists | movement Kei school | artists | 1
+    Tankei | Artists | movement Kei school | artists | 1
+    Kōkei | Artists | movement Kei school | artists | 1
+    Jōkei | Artists | movement Kei school | artists | 1
+    Kaikei | Artists | movement Kei school | artists | 1
+    Kōen | Artists | movement Kei school | artists | 1
+    Kōshō | Artists | movement Kei school | artists | 1
+## D5-124 | Figurative Sculpture | Garden Gnomes | moulded and hand-painted terracotta garden figures of bearded dwarfs made in Gräfenroda, Thuringia, from the 1870s by Philipp Griebel and others, late | al: Gartenzwerge; Thuringian garden gnomes; Gräfenroda gnomes | n 1 | ar 0
+    Thuringian garden gnomes | Gathered rows (the leaf's own evidence) |  · owned as Garden gnome (Possession B4) · https://fromplacetoplace.travel/germany/thuring | possession | 0
+## D5-125 | Figurative Sculpture | Volterra Alabaster Carving | the carving and turning of local alabaster at Volterra in Tuscany, revived in the 18th century after the Etruscan urns, in vases, busts, figures and o | al: alabastro di Volterra | n 1 | ar 0
+    Volterra alabaster | Gathered rows (the leaf's own evidence) |  · owned as Volterra alabaster carving (Possession F2) · https://visittuscany.com/en/craft | possession | 0
+## D5-126 | Figurative Sculpture | Taxidermy | mounted animal skins made as displays to be looked at, from the glass-case birds and domes of the Victorian parlour to the anthropomorphic tableaux of | al: Victorian taxidermy; anthropomorphic taxidermy | n 2 | ar 0
+    Victorian taxidermy | Gathered rows (the leaf's own evidence) |  · owned as cased bird (Possession F6) · https://en.wikipedia.org/wiki/History_of_taxiderm | possession | 0
+    Indian trophy taxidermy | Studios | Colonial-era trophy mounts of tiger and leopard by Mysore and Bangalore studios (Van Ingen | possession | 0
+## D5-127 | Figurative Sculpture | Meerschaum Carving | the carving of sepiolite (meerschaum) into figural and ornamented pipe bowls and objects, from 18th-century Vienna to the Eskişehir workshops of Turke | al: lületaşı; meerschaum pipes; sepiolite carving | n 1 | ar 0
+    Eskişehir meerschaum carving | Gathered rows (the leaf's own evidence) |  · owned as Meerschaum pipe (Possession J10) · https://en.wikipedia.org/wiki/Eski%C5%9Fehi | possession | 0
+## D5-128 | Figurative Sculpture | Thanjavur Dolls | moulded and painted clay and papier-mâché dolls of Thanjavur in Tamil Nadu, notably the thalaiyatti bommai with a balanced nodding head, displayed in  | al: Thanjavur thalaiyatti bommai; Tanjore dolls; Thanjavur danci | n 1 | ar 0
+    Thanjavur dolls | Gathered rows (the leaf's own evidence) |  · owned as Bobblehead (Possession E1) · https://en.wikipedia.org/wiki/Bobblehead | possession | 0
+## D5-129 | Figurative Sculpture | Erzgebirge Folk Art | turned, ring-turned and carved painted wooden figures and Christmas pieces of the Ore Mountains around Seiffen since the late 17th century: <i>nutcrac | al: Erzgebirgische Volkskunst; Seiffen wooden toys; Reifendrehen | n 1 | ar 0
+    Erzgebirge woodcraft | Gathered rows (the leaf's own evidence) |  · owned as Nutcracker figure (Possession B4) · https://en.wikipedia.org/wiki/Seiffen | possession | 0
+## D5-130 | Figurative Sculpture | Dala Horse | carved pine horses of Dalarna painted in kurbits style, made in Nusnäs since the 19th century and a Swedish emblem since 1939. | al: Dalecarlian horse; dalahäst | n 1 | ar 0
+    Dalecarlian horse | Gathered rows (the leaf's own evidence) |  · owned as Dala horse (Possession B4) · https://en.wikipedia.org/wiki/Dala_horse | possession | 0
+## D5-131 | Figurative Sculpture | Brienz Woodcarving | carving of Brienz in the Bernese Oberland after 1816, sold as 'Black Forest' carving: <i>bears, chamois and Alpine animals, hall stands, clocks</i>. | al: Black Forest carving; Swiss woodcarving | n 1 | ar 0
+    Brienz woodcarving | Gathered rows (the leaf's own evidence) |  · owned as Brienz 'Black Forest' carving (Possession F2) · https://www.bada.org/features/ | possession | 0
+## D5-132 | Figurative Sculpture | Val Gardena Woodcarving | carving of the Val Gardena (Gröden) in South Tyrol since the 17th century, exporting painted and gilded saints, altars, nativity figures and toys. | al: Gröden carving; Grödner Schnitzerei | n 1 | ar 0
+    Val Gardena woodcarving | Gathered rows (the leaf's own evidence) |  · owned as devotional statues (Possession F4) · https://en.wikipedia.org/wiki/Val_Gardena | possession | 0
+## D6-1 | Ritual Objects & Regalia | Kaavad | Portable painted wooden shrines of Bassi in Rajasthan whose hinged panels are opened by kaavadiya storytellers: <i>Ram and Krishna kaavads</i>. | al: kavad;kavad shrine | n 1 | ar 0
+    Kavad | Gathered rows (the leaf's own evidence) |  | world_folk | 0
+## D6-2 | Ritual Objects & Regalia | Minkisi | Power objects of the Kongo peoples, figures and containers charged with medicines by a nganga; Songye and Teke power figures are kinds: <i>nkondi nail | al: nkisi;nkondi;power figures | n 14 | ar 2
+    Kongo | Gathered rows (the leaf's own evidence) |  | africa_oceania_targeted | 0
+    Teke | Teke | Teke power figures (butti); Master of Mayama | africa_oceania_targeted | 0
+    Songye | Songye | Songye mankishi; Beniki Master, Master of Lusambo | africa_oceania_targeted | 0
+    Yombe-Kongo | Yombe |  | met/aic | 0
+    Kongo, Kakongo group | Kakongo |  | met/aic | 0
+    Kongo, Vili group | Vili |  | met/aic | 0
+    Nkondi | sub-type | Nkisi article; Kongo rows | evidence | 0
+    Master of the Kneeling Female Figure with Vessel | maker | row Kongo | evidence | 0
+    Chief Voania of Muba | maker | row Kongo | evidence | 0
+    Woyo | sub-group | excluded row Woyo-Kongo | evidence | 0
+    Bembe | sub-group | excluded row Kongo, Bembe group | evidence | 0
+    Beniki Master | maker | row Songye (Songye kind) | evidence | 0
+    Master of Lusambo | maker | row Songye | evidence | 0
+    Master of Mayama | maker | row Teke | evidence | 0
+## D6-3 | Ritual Objects & Regalia | Fang Reliquary Guardians | Wooden figures and heads set on bark boxes of ancestral relics by the Fang of Gabon, Cameroon and Equatorial Guinea: <i>eyema byeri figures</i>, <i>by | al: byeri;bieri;eyema byeri | n 3 | ar 1
+    Fang | Gathered rows (the leaf's own evidence) |  | africa_oceania_targeted | 0
+    Betsi-Fang | Betsi |  | met/aic | 0
+    Okak-Fang | Okak |  | met/aic | 0
+## D6-4 | Ritual Objects & Regalia | Asen | Iron and brass memorial altars of the Fon of Benin (Abomey, Ouidah): a staff topped by a cone with cut-out figures and emblems commemorating the dead. | al: asen altars | n 4 | ar 1
+    Fon | Gathered rows (the leaf's own evidence) | Fon metalwork | met/aic | 0
+    Fon (Dahomey) | Gathered rows (the leaf's own evidence) |  | africa_oceania_targeted | 0
+    Azidji of Abomey | maker | row Fon (Dahomey) | evidence | 0
+    Fon Master of the Long-Horned Ram | maker | row Fon (Dahomey) | evidence | 0
+## D6-5 | Ritual Objects & Regalia | Taíno Zemís | Sculptural objects of the Taíno of the Greater Antilles that housed deities and ancestral spirits, in stone, wood, shell and cotton, with the ritual s | al: cemí;zemi | n 1 | ar 0
+    Taíno | Gathered rows (the leaf's own evidence) | stone 23, sculpture 9 | met/aic | 0
+## D6-6 | Ritual Objects & Regalia | Peruvian Retablo | Portable box altars of Ayacucho (Huamanga) filled with painted plaster and potato-paste figures, from the cajón de San Marcos to scenes of village lif | al: retablo ayacuchano;cajón de San Marcos | n 2 | ar 1
+    Retablos ayacuchanos | Gathered rows (the leaf's own evidence) |  | world_folk | 0
+    Huamanga alabaster (piedra de Huamanga) | sub-type | gap_sweep row label | evidence | 0
+## D6-7 | Ritual Objects & Regalia | Ceremonial Pipes | Carved stone pipes of Native North America made for ceremony and diplomacy: <i>Hopewell platform pipes</i>, <i>Adena tubular pipes</i>, <i>Mississippi | al: catlinite pipes;pipestone pipes;effigy pipes | n 6 | ar 0
+    probably Woodland Tradition (archaeological culture) (attrib | Woodland stone pipes | pipes 254 of 413 | smithsonian | 0
+    probably Northeast (archaeological) (attributed) | Northeastern stone pipes | pipes 297 of 310 | smithsonian | 0
+    probably Southeast (archaeological) (attributed) | Southeastern stone pipes | pipes 207 of 214 | smithsonian | 0
+    possibly Southeast (archaeological) (attributed) | Southeastern stone pipes | pipes 65 of 79 | smithsonian | 0
+    Catlinite pipes | sub-type | catlinite in Oglala, Yankton, Wahpeton, Dakota rows | evidence | 0
+    Hopewell platform pipes | sub-type | probably Hopewell row: pipes 27 | evidence | 0
+## D6-8 | Ritual Objects & Regalia | Pukumani Poles | The carved and ochre-painted ironwood grave posts (tutini) of the Tiwi Islands, erected round the grave at the Pukumani mourning ceremony and crowned  | al: tutini;pukamani poles;Tiwi carving | n 3 | ar 1
+    Tiwi art (pukumani poles, ochre painting) | Gathered rows (the leaf's own evidence) | Munupi Arts seeded as kind; Tiwi painters artist-led | gap_sweep | 0
+    Ngaruwanajirri Inc. | Ngaruwanajirri | Tiwi, Wurrumiyanga | gap_sweep | 0
+    Munupi Arts | art centre | row Tiwi art (qid Q111370236) | evidence | 0
+## D6-9 | Ritual Objects & Regalia | Toas | Small painted direction-markers of gypsum, wood and found materials made by the Diyari and neighbouring peoples of the Lake Eyre basin about 1904, lef | al: toa | n 1 | ar 0
+    Lake Eyre toas (direction markers) | Gathered rows (the leaf's own evidence) |  | gap_sweep | 0
+## D6-10 | Ritual Objects & Regalia | Khachkar | Armenian carved memorial stones bearing a cross over a rosette or sun disc, surrounded by lace-like interlace, from the 9th century (Noratus, Julfa):  | al: cross-stone;khachkars | n 1 | ar 0
+    khachkar | Gathered rows (the leaf's own evidence) |  | europe_folk | 0
+## D6-11 | Ritual Objects & Regalia | Lithuanian Cross Crafting | Lithuanian making of wooden crosses, roofed poles and shrines with carved figures of saints (rūpintojėlis), set at roadsides and farms (UNESCO 2008). | al: Lithuanian cross-crafting;kryždirbystė | n 1 | ar 0
+    Lithuanian cross crafting | Gathered rows (the leaf's own evidence) |  | europe_folk | 0
+## D6-12 | Ritual Objects & Regalia | Butsudan | Japanese household Buddhist altars of lacquered and gilded wood with carving, metalwork and maki-e, in designated regional centres: <i>Hikone, Kyō, Na | al: Buddhist altar; Hikone butsudan | n 5 | ar 0
+    Hikone butsudan | Gathered rows (the leaf's own evidence) |  · owned as butsudan (Possession F4) · https://kogeijapan.com/locale/en_US/hikonebutsudan/ | possession | 0
+    Nagoya butsudan | Centres | Altars of Nagoya with raised platforms, nail-free joinery and roiro lacquer (designated 19 | possession | 0
+    Kyō butsudan | Centres | Kyoto altars with polished roiro lacquer and hand-applied gold leaf (designated 1976) · ow | possession | 0
+    Kanazawa butsudan | Centres | Kanazawa altars with maki-e and hakubori gold-leaf carving (designated 1976) · owned as bu | possession | 0
+    Yamagata butsudan | Centres | Tōhoku altars of Yamagata finished by repeated urushi lacquering, carving and gilding · ow | possession | 0
+## F1-1 | Blown & Moulded Glass | Beykoz Glass | Ottoman glass of the Beykoz and Istanbul workshops (late 18th–19th century), above all the çeşm-i bülbül ('nightingale's eye') ware with spiral white  | al: çeşm-i bülbül | n 0 | ar 0
+## F1-2 | Blown & Moulded Glass | Syrian Glassblowing | the free-blown glass of the Damascus and Hebron workshops, inscribed by UNESCO in 2023 as a heritage in need of urgent safeguarding. | al: Damascus glass; Hebron glass | n 1 | ar 0
+    Mordecai | Hebron | Hebron glassmaker; uncertain | islamic_makers | 1
+## F1-3 | Blown & Moulded Glass | Roman Glass | Blown, mould-blown, cast and cut glass of the Roman empire, 1st century BC – 5th century AD, made in Syria, Italy, Egypt and the Rhineland: <i>Ennion' | al:  | n 6 | ar 0
+    Roman, Syrian | Syrian | glass 60 | met/aic | 0
+    Roman, Egyptian | Egyptian | glass 27; also evidences L4 | met/aic | 0
+    Roman, Eastern Mediterranean | Eastern Mediterranean | glass 14 | met/aic | 0
+    Roman, Syro-Palestinian | Syro-Palestinian | glass 11 | met/aic | 0
+    Rhenish glass | centre | excluded rows Roman, Rhenish (10); Roman, Rhineland | evidence | 0
+    Europeans |  | glass jewellery, begin c. AD 250: Roman Glass (L42) | smithsonian | 0
+## F1-4 | Blown & Moulded Glass | Hellenistic Glass | Core-formed, cast and mosaic glass of the Greek world and the Eastern Mediterranean, 6th–1st century BC: <i>core-formed alabastra and amphoriskoi</i>, | al: core-formed glass;Eastern Mediterranean glass | n 2 | ar 0
+    Greek, Eastern Mediterranean | Gathered rows (the leaf's own evidence) | glass 226: core-formed vessels | met/aic | 0
+    Phoenician glass | sub-group | Phoenician glass 41 | evidence | 0
+## F1-5 | Blown & Moulded Glass | Venetian Glass | The glass of Venice and Murano from the 15th century: clear cristallo, enamelled and gilded wares, filigrana (latticino), ice glass and chandeliers: < | al: Murano glass;façon de Venise | n 1 | ar 0
+    Italian, Murano | Gathered rows (the leaf's own evidence) | Murano glass redirects to Venetian glass | met/aic | 0
+## F1-6 | Blown & Moulded Glass | Art of Glass Beads | Venetian and French lampwork and drawn glass beadmaking (perle veneziane), inscribed by UNESCO in 2020 for Italy and France. | al: perle di vetro;perle veneziane;Murano beads | n 1 | ar 1
+    The art of glass beads | Gathered rows (the leaf's own evidence) |  | europe_folk | 0
+## F1-7 | Blown & Moulded Glass | Czech Blown Glass Bead Christmas Decorations | Christmas tree ornaments made by hand from blown glass beads in the Poniklá region of the Czech Republic, silvered, coloured and threaded (UNESCO 2020 | al: Rautis decorations;handmade production of Christmas tree dec | n 1 | ar 0
+    Handmade production of Christmas tree decorations from blown | Gathered rows (the leaf's own evidence) |  | europe_folk | 0
+## F1-8 | Blown & Moulded Glass | Līvāni Glassblowing | The glassblowing craft of Līvāni in Latvia, centre of Latvian glassmaking since 1887. | al: glassblowing craft skills in Līvāni | n 1 | ar 0
+    glassblowing craft skills in Līvāni | Gathered rows (the leaf's own evidence) |  | europe_folk | 0
+## F1-9 | Blown & Moulded Glass | Art Nouveau Glass | Art glass of c. 1885–1915 in Art Nouveau forms and colours: the cameo, acid-etched and marquetry glass of the École de Nancy and the iridescent blown  | al: Art Nouveau glass art;École de Nancy glass;art glass | n 7 | ar 0
+    École de Nancy | school | wiki:École de Nancy | evidence | 0
+    Émile Gallé | makers | artist_placements Q275085 | evidence | 0
+    Daum | makers | Auguste Daum Q2871142 and Antonin Daum Q18545999 in artist_placements | evidence | 0
+    Antonin Daum | Artists | Art Nouveau glassmaker (École de Nancy); now T167 (period, design and decorative arts) | artists | 1
+    Auguste Daum | Artists | Art Nouveau glassmaker (École de Nancy); now T168 (movement, design and decorative arts) | artists | 1
+    Charles Schneider | Artists | Art Nouveau|École de Nancy; Art Nouveau glassmaker (École de Nancy); now T169 (movement, d | artists | 1
+    Henri Bergé | Artists | Art Nouveau|École de Nancy; Art Nouveau glassmaker (École de Nancy); now T112 (period, pai | artists | 1
+## F1-10 | Blown & Moulded Glass | Studio Glass | The movement of artists making glass in their own studios, begun at Harvey Littleton and Dominick Labino's Toledo workshops (1962) and spread through  | al: Studio Glass movement;studio art glass;contemporary glass ar | n 23 | ar 1
+    Toledo Workshops (1962) | phase | wiki:Studio glass | evidence | 0
+    Pilchuck Glass School | centre | wiki:Studio glass | evidence | 0
+    Czech glass sculpture | centre | Stanislav Libenský and Jaroslava Brychtová in artist_placements | evidence | 0
+    Harvey Littleton | makers | artist_placements Q15488059 | evidence | 0
+    Lino Tagliapietra | makers | artist_placements Q6554691 | evidence | 0
+    Jaroslava Brychtová | Artists | studio glass artist; now T112 (period, painting) | artists | 1
+    Stanislav Libenský | Artists | studio glass artist; now T112 (period, painting) | artists | 1
+    Erwin Eisch | Artists | studio glass artist; now T112 (period, painting) | artists | 1
+    Toots Zynsky | Artists | studio glass artist; now T180 (period, photography) | artists | 1
+    Bertil Vallien | Artists | studio glass artist; now T148 (period, sculpture) | artists | 1
+    Silvia Levenson | Artists | studio glass artist; now T173 (period, design and decorative arts) | artists | 1
+    Dan Dailey | Artists | studio glass artist; now T149 (period, sculpture) | artists | 1
+    Ginny Ruffner | Artists | studio glass artist; now T173 (period, design and decorative arts) | artists | 1
+    Ann Wolff | Artists | studio glass artist; now T112 (period, painting) | artists | 1
+    Howard Ben Tré | Artists | studio glass artist; now T149 (period, sculpture) | artists | 1
+    Josiah McElheny | Artists | studio glass artist; now T149 (period, sculpture) | artists | 1
+    Karen LaMonte | Artists | studio glass artist; now T149 (period, sculpture) | artists | 1
+    Klaus Moje | Artists | studio glass artist; now T172 (period, design and decorative arts) | artists | 1
+    Kyohei Fujita | Artists | studio glass artist; now T172 (period, design and decorative arts) | artists | 1
+    Marvin Lipofsky | Artists | studio glass artist; now T172 (period, design and decorative arts) | artists | 1
+    Preston Singletary | Artists | Northwest Coast art; studio glass artist; now T173 (period, design and decorative arts) | artists | 1
+    Richard Marquis | Artists | studio glass artist; now T173 (period, design and decorative arts) | artists | 1
+    William Morris | Artists | studio glass artist; now T173 (period, design and decorative arts) | artists | 1
+## F1-11 | Blown & Moulded Glass | Turkish Mosaic Lamp | the Turkish craft of covering blown-glass lamp globes with small hand-cut pieces of coloured glass and beads set in grout, made in Istanbul and Cappad | al: Turkish mosaic lamps; Ottoman mosaic lamps | n 1 | ar 0
+    Turkish mosaic lamp making | Gathered rows (the leaf's own evidence) |  · owned as Turkish mosaic lamp (Possession B3) · https://kraftstories.com/blogs/turkish-m | possession | 0
+## F1-12 | Blown & Moulded Glass | Swedish Art Glass | the art glass of the Småland glassworks from the 1910s, where artists such as Simon Gate, Edward Hald, Edvin Öhrström and Vicke Lindstrand designed fo | al: Orrefors glass; Kosta glass; Kingdom of Crystal; Swedish Mod | n 1 | ar 0
+    Swedish art glass | Gathered rows (the leaf's own evidence) |  · owned as Vase (Possession B4) · https://theglassmuseum.com/orrefors.htm | possession | 0
+## F1-13 | Blown & Moulded Glass | Lauscha Glass | the lamp-blown and mould-blown glass of Lauscha in Thuringia (from the 16th century), silvered inside and hand-painted, where the glass Christmas baub | al: Lauschaer Glas; Lauscha glass ornaments; Thuringian glass Ch | n 1 | ar 0
+    Lauscha glass ornaments | Gathered rows (the leaf's own evidence) |  · owned as Tree ornament (Possession B4) · https://en.wikipedia.org/wiki/Christmas_orname | possession | 0
+## F1-14 | Blown & Moulded Glass | Edo Glass | the hand-blown and lampworked glass of Tokyo from the late Edo period, a designated traditional craft (Edo garasu): <i>inside-painted Edo fūrin wind b | al: Edo garasu; Edo fūrin; Tokyo glass | n 2 | ar 0
+    Edo fūrin | Gathered rows (the leaf's own evidence) |  · owned as Fūrin (Possession B4) · https://edo-fuurin.com/en/about | possession | 0
+    Japanese glass pen | sub-type | Lampworked glass dip pens with a twisted grooved nib, devised in Tokyo in 1902 by the wind | possession | 0
+## F1-15 | Blown & Moulded Glass | Roman Micromosaic | pictures and jewellery made of minute pulled-glass (smalti filati) tesserae in Rome from the late 18th century, led by the Vatican Mosaic Studio and s | al: micromosaic; mosaico minuto; Vatican micromosaic | n 1 | ar 0
+    Vatican micromosaic | Gathered rows (the leaf's own evidence) |  · owned as Micromosaic (Possession F2) · https://en.wikipedia.org/wiki/Micromosaic | possession | 0
+## F1-16 | Blown & Moulded Glass | Egyptian Hand-Blown Glass | the free-blown glass of Cairo's workshops, including recycled Muski glass and the decorative bottles of the Khan el-Khalili perfume trade: <i>perfume- | al: Muski glass; Cairo blown glass | n 1 | ar 0
+    Egyptian hand-blown perfume glass | Gathered rows (the leaf's own evidence) |  · owned as Attar bottle (Possession H4) · https://egyptianimports.com/blogs/news/the-time | possession | 0
+## F2-1 | Cut & Carved Glass | Islamic Cut Glass | glass decorated by wheel-cutting and relief-carving in Iran, Iraq and Egypt (9th–11th century), from facet-cut bowls to relief-cut cameo glass and the | al: relief-cut glass; Hedwig glasses | n 0 | ar 0
+## F2-2 | Cut & Carved Glass | Bohemian Glass | Glass of Bohemia from the late 17th century, potash-lime crystal decorated by wheel-engraving and cutting, later with coloured and cased glass: <i>eng | al: Bohemian crystal | n 1 | ar 0
+    Bohemian | Gathered rows (the leaf's own evidence) | glass 177 | met/aic | 0
+## F2-3 | Cut & Carved Glass | Edo Kiriko | the cut glass of Tokyo founded by Kagaya Kyūbei in 1834, clear or colour-cased glass wheel-cut in fine geometric patterns (yarai, kiku-tsunagi, nanako | al: Edo-kiriko; Tokyo cut glass | n 1 | ar 0
+    Edo kiriko | Gathered rows (the leaf's own evidence) |  · owned as Tumbler (Possession B5) · https://en.wikipedia.org/wiki/Edo_kiriko | possession | 0
+## F3-1 | Enamelled & Gilded Glass | Mamluk Enamelled Glass | enamelled and gilded glass of Ayyubid and Mamluk Syria and Egypt (13th–14th century): mosque lamps, beakers and bottles with blazons and inscriptions. | al: Ayyubid-Mamluk enamelled glass; mosque lamps | n 0 | ar 0
+## F4-1 | Lustre-Painted Glass | Islamic Lustre-Painted Glass | glass stained with metallic lustre in Egypt, Syria and Iraq (8th–11th century), the predecessor of lustre pottery. | al: lustre-stained glass | n 0 | ar 0
+## F5-1 | Stained Glass | Medieval Stained Glass | Coloured pot-metal glass painted with vitreous paint (and from c. 1300 silver stain) and leaded into windows for the churches of Latin Europe, c. 1100 | al: Gothic stained glass;Romanesque stained glass;vitrail | n 5 | ar 0
+    Romanesque stained glass | phase | wiki:Medieval stained glass | evidence | 0
+    Gothic stained glass | phase | Met "French / glass" 455, median 1400 | evidence | 0
+    English Gothic stained glass | school | wiki:English Gothic stained glass windows | evidence | 0
+    Ebreichsdorf glazing | workshop/centre | Met "Austrian / glass" 78 (Cloisters, 1390) | evidence | 0
+    Peter Hemmel von Andlau (Strassburger Werkstattgemeinschaft) | workshop | Met essay Stained Glass in Medieval Europe | evidence | 0
+## F5-2 | Stained Glass | Painted Glass Roundels | Small panes of colourless glass painted in vitreous paint and silver stain, set into domestic and cloister windows in the Low Countries, northern Fran | al: stained-glass roundels;silver-stain roundels;Lowlands rounde | n 2 | ar 0
+    South Netherlandish roundels | centre | Met "South Netherlandish / glass" 75 | evidence | 0
+    Circle of the Master of the Amsterdam Cabinet | designer group | Met essay Stained Glass in Medieval Europe (roundel 469853) | evidence | 0
+## F5-3 | Stained Glass | Tiffany Glass | The opalescent and iridescent glass of Louis Comfort Tiffany's studios in New York (1878-1933) and the American opalescent window movement he shared w | al: American opalescent glass;opalescent stained glass;Favrile g | n 8 | ar 1
+    Tiffany Studios (Tiffany Glass and Decorating Company) | workshop | Cooper Hewitt 17 + 40 (L. C. Tiffany) + Met 703 (Q312950); currently T40 | evidence | 0
+    Favrile glass | sub-type (blown) | wiki:Favrile glass; Cooper Hewitt Favrile vessels | evidence | 0
+    John La Farge | opalescent window maker | Met 50 objects, 1 Timeline work (Q3120087); Cooper Hewitt 17 window designs; currently T40 | evidence | 0
+    Francis Lathrop | window designer | Cooper Hewitt 20 window designs (Q5481685) | evidence | 0
+    Alice Cordelia Morse | Tiffany designer | Cooper Hewitt 54 window designs; Met 62 objects, 17 Timeline works (Q4725795); currently T | evidence | 0
+    Agnes Northrop | Tiffany designer | Met 21 objects, 1 Timeline work (Q102156729); currently T167 | evidence | 0
+    Clara Driscoll | Tiffany designer | Cooper Hewitt 1 | evidence | 0
+    Louis Comfort Tiffany | Makers | Art Nouveau; glass designer (gap sweep) | artists | 1

@@ -230,7 +230,10 @@ rows = []
 for i, r in enumerate(inp):
     k, see, note = A[i]
     if not note:
-        note = r["note"] if len(r["note"].split()) <= 12 else ""
+        import re
+        n = r["note"]
+        bad = re.search(r"\b(F\d+|[A-E]\d+-\d+)\b|example|attested|British New Wave|Christmas", n)
+        note = n if (len(n.split()) <= 12 and not bad) else ""
     if k.startswith("ROUTE:"):
         rows.append([r["id"], "", "", "", note, k[6:]]); continue
     key, _, sec = k.partition(".")
