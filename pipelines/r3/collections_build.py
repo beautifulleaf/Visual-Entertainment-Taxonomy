@@ -43,7 +43,11 @@ def link(inst, q):
         if re.search(rx, inst or ""): return t.replace("{q}", urllib.parse.quote(q))
     return ""
 
+STOP = {"art", "ware", "wares", "pottery", "painting", "sculpture", "of", "the", "and", "school", "style", "work", "works", "ceramics", "textiles"}
+def words(t): return {w for w in re.findall(r"[a-zà-ÿ]+", (t or "").lower()) if len(w) > 2 and w not in STOP}
+
 def main():
+    leaves = {r["code"]: r for r in csv.DictReader(open(os.path.join(O, "va_leaves.tsv")), delimiter="\t")}
     M = {}
     for f in glob_outs():
         for r in csv.DictReader(open(f)): M[(r["file"], r["label"], r["family"])] = r["map"].strip()
@@ -59,12 +63,17 @@ def main():
             cell = LI[m][r["institution"] or "(institution not recorded)"]; cell[0] += 1; cell[1][r["label"]] += 1
     for r in csv.DictReader(open(os.path.join(O, "in_col_met.csv"))):  # Met/AIC culture counts
         m = M.get((r["file"], r["label"], r["family"]), "")
-        if not m or ":" in m: continue
+        if not m or ":" in m or m not in leaves: continue
+        L = leaves[m]
+        if len(words(r["label"])) < 2 and "," not in r["label"]: continue  # bare culture or period ("Egyptian", "Roman")
+        if not (words(r["label"]) & (words(L["label"]) | words(L["aliases"]) | words(L["defn"][:160]))):
+            continue  # Met guard: a broad culture label ("Egyptian", "American", "Archaic") does not count for one leaf
         n = int(r["objects"]); LI[m]["The Metropolitan Museum of Art"][0] += n; LI[m]["The Metropolitan Museum of Art"][1][r["label"]] += n
     out = {}
     for leaf, insts in LI.items():
         rows = sorted(insts.items(), key=lambda x: -x[1][0])
-        out[leaf] = [[i, c[0], link(i, c[1].most_common(1)[0][0])] for i, c in rows if c[0] >= 3][:25]
+        q = leaves[leaf]["label"] if leaf in leaves else c0(rows)
+        out[leaf] = [[i, c[0], link(i, q)] for i, c in rows if c[0] >= 3][:25]
     json.dump(out, open(os.path.join(O, "leaf_institutions.json"), "w"), ensure_ascii=False, indent=0)
     json.dump(general, open(os.path.join(O, "family_general.json"), "w"), indent=1)
     with open(os.path.join(O, "missing_traditions.csv"), "w", newline="") as fo:
@@ -72,6 +81,8 @@ def main():
         for (t, fam), (n, ic) in sorted(missing.items(), key=lambda x: -x[1][0]):
             w.writerow([t, fam, n, len(ic), "; ".join(f"{i} ({c})" for i, c in ic.most_common(4))])
     print("leaves with holdings", len(out), "| missing traditions", len(missing), "| general by family", dict(general))
+
+def c0(rows): return rows[0][1][1].most_common(1)[0][0] if rows else ""
 
 def glob_outs():
     import glob
