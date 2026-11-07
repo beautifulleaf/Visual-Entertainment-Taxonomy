@@ -3,9 +3,7 @@
   "bucket_contemporary",
   "bucket_modern_west",
   "bucket_modern_world",
-  "bucket_named_movements",
   "design",
-  "small_A_B_C",
   "small_D_F",
   "small_E",
   "small_G_I_J_M",
@@ -14,67 +12,9 @@
   "small_L"
  ],
  "va_new_leaves": [],
- "va_moved": 0,
+ "va_moved": 8,
  "va_leaves_removed": [],
- "ft_blocks_missing": [
-  "film_comedy",
-  "film_horror_scifi",
-  "tv_comedy_children_doc"
- ],
- "ft_bad_routes": [
-  [
-   "tt0361530",
-   "A12"
-  ],
-  [
-   "tt0493430",
-   "A12"
-  ],
-  [
-   "tt1117523",
-   "A12"
-  ],
-  [
-   "tt1116184",
-   "A12"
-  ],
-  [
-   "tt1753968",
-   "A12"
-  ],
-  [
-   "tt18258584",
-   "A12"
-  ],
-  [
-   "tt11466222",
-   "A12"
-  ],
-  [
-   "tt0107978",
-   "A5"
-  ],
-  [
-   "tt2072230",
-   "A5"
-  ],
-  [
-   "tt2467372",
-   "B8"
-  ],
-  [
-   "tt3597790",
-   "B8"
-  ],
-  [
-   "tt1255913",
-   "B8"
-  ],
-  [
-   "Q2985293",
-   "B11"
-  ]
- ],
- "ft_routed": 38,
+ "ft_blocks_missing": [],
+ "ft_routed": 66,
  "ft_web_override": 29
 }

@@ -250,7 +250,7 @@
      "code": "A12-14",
      "label": "Political Satire",
      "breadth": "broad",
-     "defn": "A comedy whose target is political power: rulers, regimes, campaigns, wars and churches (<i>The Great Dictator</i>, <i>Dr. Strangelove</i>, <i>The Death of Stalin</i>, <i>Wag the Dog</i>, <i>Life of Brian</i> goes to parody). Satire of class, lifestyle or media goes to A12-15 Social Satire / [[media]].",
+     "defn": "A comedy whose target is political power: rulers, regimes, campaigns, wars and churches (<i>The Great Dictator</i>, <i>Dr. Strangelove</i>, <i>The Death of Stalin</i>, <i>Wag the Dog</i>, <i>Dogma</i>). Biblical or historical burlesque goes to A12-23 Parody & Spoof. Satire of class, lifestyle or media goes to A12-15 / A12-16 Media & Show-Business Satire.",
      "aliases": "satire of power; war satire; religious satire",
      "see": "A12-15 Social Satire; A12-16 Media & Show-Business Satire; A9 War Film",
      "src": [
@@ -322,7 +322,7 @@
      "code": "A12-17",
      "label": "Black Comedy",
      "breadth": "broad",
-     "defn": "A comedy that extracts laughter from death, murder, cruelty, taboo and misfortune, without a political or social target as its main point (<i>Arsenic and Old Lace</i>, <i>Harold and Maude</i>, <i>Happiness</i>, <i>Wild Tales</i>, <i>The Banshees of Inisherin</i>). Satire of institutions goes to A12-14 Political Satire / [[soc]]; crime plots played for laughs to the crime-comedy leaves.",
+     "defn": "A comedy that extracts laughter from death, murder, cruelty, taboo and misfortune, without a political or social target as its main point (<i>Arsenic and Old Lace</i>, <i>Harold and Maude</i>, <i>Happiness</i>, <i>Wild Tales</i>, <i>The Banshees of Inisherin</i>). Satire of institutions goes to A12-14 / A12-15 Social Satire; crime plots played for laughs to the crime-comedy leaves.",
      "aliases": "dark comedy; gallows humour",
      "see": "A12-14 Political Satire; A12-45 Crime-Gone-Wrong Comedy; A12-19 Surreal & Absurdist Comedy",
      "src": [
@@ -784,12 +784,6 @@
        "https://en.wikipedia.org/wiki/Gross-out_film",
        "Wikipedia"
       ]
-     ],
-     "axis": "by register: classic innuendo comedy, contemporary frank sex comedy, gross-out",
-     "secs": [
-      "Classic Sex Comedy",
-      "Contemporary Sex Comedy",
-      "Gross-Out Comedy"
      ]
     },
     {

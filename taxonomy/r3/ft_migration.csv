@@ -167,35 +167,177 @@ A3-9,Suspense Thriller,A2-5,Hitman Film,1
 A3-9,Suspense Thriller,A2-6,Drug Film,1
 A3-9,Suspense Thriller,A2-22,Social Problem Film,1
 A3-9,Suspense Thriller,A3-10,Revenge Thriller,1
-A4-1,J-Horror,,no titles,0
-A4-2,Kaidan Film,,no titles,0
-A4-3,Supernatural Horror,,no titles,0
-A4-4,Body Horror,,no titles,0
-A4-5,Splatter & Gore Film,,no titles,0
-A4-6,Zombie Film,,no titles,0
-A4-7,Found-Footage Horror,,no titles,0
-A4-8,Slasher Film,,no titles,0
-A4-9,Psychological Horror,,no titles,0
-A4-10,Folk Horror,,no titles,0
-A4-11,Vampire Film,,no titles,0
-A4-12,Haunted House Film,,no titles,0
-A4-13,Gothic Horror,,no titles,0
-A4-14,Creature Feature & Natural Horror,,no titles,0
-A4-15,Science Fiction Horror,,no titles,0
-A4-16,Comedy Horror,,no titles,0
-A4-17,Cannibal Film,,no titles,0
-A4-18,Asian Horror,,no titles,0
-A4-19,Jiangshi Film,,no titles,0
-A4-20,Home Invasion Film,,no titles,0
-A5-1,Kaiju Film,,no titles,0
-A5-2,Tokusatsu Hero Film,,no titles,0
-A5-3,Science Fiction Film,,no titles,0
-A5-4,Cyberpunk,,no titles,0
-A5-5,Disaster & Post-Apocalyptic Film,,no titles,0
-A5-6,Space Opera & Space Adventure,,no titles,0
-A5-7,Dystopian Film,,no titles,0
-A5-8,Alien Invasion & First Contact,,no titles,0
-A5-9,Time Travel Film,,no titles,0
+A4-1,J-Horror,A4-9,J-Horror,13
+A4-2,Kaidan Film,A4-10,Kaidan Film,5
+A4-3,Supernatural Horror,A4-1,Ghost Film,83
+A4-3,Supernatural Horror,A4-5,Satanic Film,82
+A4-3,Supernatural Horror,A4-3,Curse Film,60
+A4-3,Supernatural Horror,A4-4,Possession & Exorcism Film,44
+A4-3,Supernatural Horror,A4-7,Witchcraft Horror,32
+A4-3,Supernatural Horror,A4-36,Anthology Horror,18
+A4-3,Supernatural Horror,A4-9,J-Horror,16
+A4-3,Supernatural Horror,A4-20,Killer Toy Film,15
+A4-3,Supernatural Horror,A4-25,Psychological Horror,15
+A4-3,Supernatural Horror,A4-6,Religious Horror,12
+A4-3,Supernatural Horror,A4-2,Haunted House Film,11
+A4-3,Supernatural Horror,A4-19,Creature Feature,10
+A4-3,Supernatural Horror,A4-24,Lovecraftian Horror,8
+A4-3,Supernatural Horror,A4-8,Folk Horror,7
+A4-3,Supernatural Horror,A4-18,Zombie Film,6
+A4-3,Supernatural Horror,A5-17,Psionics,4
+A4-3,Supernatural Horror,A4-30,Holiday Horror,4
+A4-3,Supernatural Horror,A4-13,Indonesian Horror,3
+A4-3,Supernatural Horror,A4-11,Korean Horror,3
+A4-3,Supernatural Horror,A4-35,Found-Footage Horror,2
+A4-3,Supernatural Horror,A4-17,Werewolf & Shapeshifter Film,1
+A4-3,Supernatural Horror,A4-38,Comedy Horror,1
+A4-3,Supernatural Horror,A4-22,Science Fiction Horror,1
+A4-3,Supernatural Horror,A4-34,Cannibal Film,1
+A4-3,Supernatural Horror,A4-12,Thai Horror,1
+A4-3,Supernatural Horror,A4-15,Gothic Horror,1
+A4-3,Supernatural Horror,A4-23,Body Horror,1
+A4-4,Body Horror,A4-23,Body Horror,41
+A4-4,Body Horror,A4-32,New French Extremity,1
+A4-4,Body Horror,A4-34,Cannibal Film,1
+A4-5,Splatter & Gore Film,A4-31,Splatter Film,28
+A4-5,Splatter & Gore Film,A4-33,Torture Porn,21
+A4-5,Splatter & Gore Film,A4-29,Backwoods Horror,3
+A4-5,Splatter & Gore Film,A4-32,New French Extremity,2
+A4-5,Splatter & Gore Film,A4-23,Body Horror,2
+A4-5,Splatter & Gore Film,A4-36,Anthology Horror,2
+A4-5,Splatter & Gore Film,A4-34,Cannibal Film,2
+A4-5,Splatter & Gore Film,A4-37,Splatstick,1
+A4-5,Splatter & Gore Film,A4-25,Psychological Horror,1
+A4-5,Splatter & Gore Film,A4-5,Satanic Film,1
+A4-5,Splatter & Gore Film,A4-28,Slasher Film,1
+A4-6,Zombie Film,A4-18,Zombie Film,108
+A4-6,Zombie Film,A4-37,Splatstick,1
+A4-7,Found-Footage Horror,A4-35,Found-Footage Horror,95
+A4-8,Slasher Film,A4-28,Slasher Film,194
+A4-8,Slasher Film,A4-29,Backwoods Horror,39
+A4-8,Slasher Film,A4-30,Holiday Horror,23
+A4-8,Slasher Film,A4-20,Killer Toy Film,10
+A4-8,Slasher Film,A4-3,Curse Film,3
+A4-8,Slasher Film,A3-21,Spy Film,2
+A4-8,Slasher Film,A4-26,Psycho-Biddy,1
+A4-8,Slasher Film,A4-34,Cannibal Film,1
+A4-8,Slasher Film,A4-32,New French Extremity,1
+A4-8,Slasher Film,A4-5,Satanic Film,1
+A4-8,Slasher Film,A4-22,Science Fiction Horror,1
+A4-8,Slasher Film,A4-31,Splatter Film,1
+A4-8,Slasher Film,A4-36,Anthology Horror,1
+A4-8,Slasher Film,A4-38,Comedy Horror,1
+A4-8,Slasher Film,A4-25,Psychological Horror,1
+A4-8,Slasher Film,A4-8,Folk Horror,1
+A4-8,Slasher Film,A4-21,Natural Horror,1
+A4-9,Psychological Horror,A4-25,Psychological Horror,117
+A4-9,Psychological Horror,A4-26,Psycho-Biddy,4
+A4-9,Psychological Horror,A4-6,Religious Horror,3
+A4-9,Psychological Horror,A4-5,Satanic Film,1
+A4-9,Psychological Horror,A4-11,Korean Horror,1
+A4-9,Psychological Horror,A4-28,Slasher Film,1
+A4-9,Psychological Horror,A4-24,Lovecraftian Horror,1
+A4-9,Psychological Horror,A4-29,Backwoods Horror,1
+A4-9,Psychological Horror,A4-27,Home Invasion Film,1
+A4-10,Folk Horror,A4-8,Folk Horror,54
+A4-10,Folk Horror,A4-34,Cannibal Film,1
+A4-11,Vampire Film,A4-16,Vampire Film,105
+A4-11,Vampire Film,A4-35,Found-Footage Horror,1
+A4-12,Haunted House Film,A4-2,Haunted House Film,65
+A4-12,Haunted House Film,A4-38,Comedy Horror,5
+A4-12,Haunted House Film,A4-9,J-Horror,2
+A4-12,Haunted House Film,A4-3,Curse Film,1
+A4-12,Haunted House Film,A4-20,Killer Toy Film,1
+A4-13,Gothic Horror,A4-15,Gothic Horror,63
+A4-13,Gothic Horror,A4-38,Comedy Horror,1
+A4-14,Creature Feature & Natural Horror,A4-21,Natural Horror,80
+A4-14,Creature Feature & Natural Horror,A4-19,Creature Feature,55
+A4-14,Creature Feature & Natural Horror,A4-17,Werewolf & Shapeshifter Film,27
+A4-14,Creature Feature & Natural Horror,A4-22,Science Fiction Horror,3
+A4-14,Creature Feature & Natural Horror,A4-24,Lovecraftian Horror,2
+A4-14,Creature Feature & Natural Horror,A4-25,Psychological Horror,1
+A4-14,Creature Feature & Natural Horror,A4-38,Comedy Horror,1
+A4-15,Science Fiction Horror,A4-22,Science Fiction Horror,119
+A4-15,Science Fiction Horror,A4-24,Lovecraftian Horror,6
+A4-15,Science Fiction Horror,A5-17,Psionics,3
+A4-15,Science Fiction Horror,A5-5,First Contact & Alien Visitor,3
+A4-15,Science Fiction Horror,A5-3,Military Science Fiction,1
+A4-15,Science Fiction Horror,A4-25,Psychological Horror,1
+A4-16,Comedy Horror,A4-38,Comedy Horror,129
+A4-16,Comedy Horror,A4-37,Splatstick,14
+A4-16,Comedy Horror,A4-30,Holiday Horror,5
+A4-16,Comedy Horror,A4-36,Anthology Horror,2
+A4-16,Comedy Horror,A4-19,Creature Feature,2
+A4-16,Comedy Horror,A4-17,Werewolf & Shapeshifter Film,2
+A4-16,Comedy Horror,A4-20,Killer Toy Film,2
+A4-16,Comedy Horror,A4-28,Slasher Film,1
+A4-16,Comedy Horror,A4-23,Body Horror,1
+A4-16,Comedy Horror,A4-7,Witchcraft Horror,1
+A4-16,Comedy Horror,A4-34,Cannibal Film,1
+A4-16,Comedy Horror,A4-3,Curse Film,1
+A4-16,Comedy Horror,A4-25,Psychological Horror,1
+A4-17,Cannibal Film,A4-34,Cannibal Film,3
+A4-18,Asian Horror,A4-13,Indonesian Horror,14
+A4-18,Asian Horror,A4-11,Korean Horror,8
+A4-18,Asian Horror,A4-12,Thai Horror,7
+A4-18,Asian Horror,A4-1,Ghost Film,3
+A4-18,Asian Horror,A4-36,Anthology Horror,1
+A4-19,Jiangshi Film,A4-14,Jiangshi Film,1
+A4-20,Home Invasion Film,A4-27,Home Invasion Film,33
+A4-20,Home Invasion Film,A4-32,New French Extremity,2
+A4-20,Home Invasion Film,A4-33,Torture Porn,1
+A5-1,Kaiju Film,A5-6,Kaiju,61
+A5-1,Kaiju Film,A5-14,Lost World,1
+A5-1,Kaiju Film,A5-7,Tokusatsu,1
+A5-2,Tokusatsu Hero Film,A5-7,Tokusatsu,5
+A5-3,Science Fiction Film,A5-12,Artificial Intelligence & Robots,44
+A5-3,Science Fiction Film,A5-1,Hard Science Fiction,29
+A5-3,Science Fiction Film,A5-21,Soft Science Fiction,25
+A5-3,Science Fiction Film,A5-13,Biopunk,20
+A5-3,Science Fiction Film,A5-10,Simulated Reality,17
+A5-3,Science Fiction Film,A5-17,Psionics,14
+A5-3,Science Fiction Film,A5-16,Size-Change Film,8
+A5-3,Science Fiction Film,A5-14,Lost World,8
+A5-3,Science Fiction Film,A5-5,First Contact & Alien Visitor,7
+A5-3,Science Fiction Film,A5-9,Parallel Universe Film,7
+A5-3,Science Fiction Film,A5-15,Scientific Romance,6
+A5-3,Science Fiction Film,A5-22,Science Fiction Comedy,6
+A5-3,Science Fiction Film,A5-3,Military Science Fiction,5
+A5-3,Science Fiction Film,A5-8,Time Travel Film,5
+A5-3,Science Fiction Film,A5-18,Dystopian Film,4
+A5-3,Science Fiction Film,A5-19,Post-Apocalyptic Film,3
+A5-3,Science Fiction Film,A4-22,Science Fiction Horror,3
+A5-3,Science Fiction Film,A5-2,Space Opera,3
+A5-3,Science Fiction Film,A17-5,Family Comedy,3
+A5-3,Science Fiction Film,A5-20,Disaster Film,1
+A5-3,Science Fiction Film,A4-21,Natural Horror,1
+A5-3,Science Fiction Film,A5-4,Alien Invasion,1
+A5-4,Cyberpunk,A5-11,Cyberpunk,31
+A5-4,Cyberpunk,A5-10,Simulated Reality,3
+A5-5,Disaster & Post-Apocalyptic Film,A5-19,Post-Apocalyptic Film,68
+A5-5,Disaster & Post-Apocalyptic Film,A5-20,Disaster Film,53
+A5-5,Disaster & Post-Apocalyptic Film,A5-12,Artificial Intelligence & Robots,3
+A5-5,Disaster & Post-Apocalyptic Film,A5-1,Hard Science Fiction,1
+A5-5,Disaster & Post-Apocalyptic Film,A5-18,Dystopian Film,1
+A5-5,Disaster & Post-Apocalyptic Film,A4-21,Natural Horror,1
+A5-6,Space Opera & Space Adventure,A5-2,Space Opera,57
+A5-6,Space Opera & Space Adventure,A5-3,Military Science Fiction,1
+A5-6,Space Opera & Space Adventure,A5-22,Science Fiction Comedy,1
+A5-7,Dystopian Film,A5-18,Dystopian Film,83
+A5-7,Dystopian Film,A5-19,Post-Apocalyptic Film,4
+A5-7,Dystopian Film,A5-13,Biopunk,2
+A5-7,Dystopian Film,A5-12,Artificial Intelligence & Robots,1
+A5-7,Dystopian Film,A5-21,Soft Science Fiction,1
+A5-8,Alien Invasion & First Contact,A5-4,Alien Invasion,27
+A5-8,Alien Invasion & First Contact,A5-5,First Contact & Alien Visitor,26
+A5-8,Alien Invasion & First Contact,A5-22,Science Fiction Comedy,9
+A5-8,Alien Invasion & First Contact,A5-3,Military Science Fiction,5
+A5-8,Alien Invasion & First Contact,A5-12,Artificial Intelligence & Robots,3
+A5-9,Time Travel Film,A5-8,Time Travel Film,68
+A5-9,Time Travel Film,A5-12,Artificial Intelligence & Robots,3
+A5-9,Time Travel Film,A5-15,Scientific Romance,1
+A5-9,Time Travel Film,A5-19,Post-Apocalyptic Film,1
+A5-9,Time Travel Film,A5-2,Space Opera,1
 A6-1,Fantasy Film,A6-9,Fantasy Comedy,41
 A6-1,Fantasy Film,A6-11,Mythological Fantasy,39
 A6-1,Fantasy Film,A17-1,Children's Fantasy Film,39
@@ -242,6 +384,7 @@ A6-3,Superhero Film,A6-13,Marvel Cinematic Universe,41
 A6-3,Superhero Film,A6-14,DC Comics Film,39
 A6-3,Superhero Film,A6-17,Superhero Parody & Deconstruction,20
 A6-3,Superhero Film,A3-21,Spy Film,3
+A6-3,Superhero Film,A5-18,Dystopian Film,2
 A6-3,Superhero Film,A8-11,Political Drama,2
 A6-3,Superhero Film,A6-1,High Fantasy,1
 A6-3,Superhero Film,A6-7,Urban Fantasy,1
@@ -401,19 +544,185 @@ A9-2,Romantic Comedy,A13-1,Star-Crossed Romance,4
 A9-2,Romantic Comedy,A13-11,Pink Neorealism,1
 A9-2,Romantic Comedy,A13-7,Period Romance,1
 A9-2,Romantic Comedy,A17-5,Family Comedy,1
-A10-1,Comedy Film,,no titles,0
-A10-2,Comedy-Drama,,no titles,0
-A10-3,Black Comedy & Satire,,no titles,0
-A10-4,Screwball Comedy,,no titles,0
-A10-5,Slapstick Comedy,,no titles,0
-A10-6,Parody & Spoof,,no titles,0
-A10-7,Teen & Sex Comedy,,no titles,0
-A10-8,Commedia all'italiana,,no titles,0
-A10-9,Action Comedy,,no titles,0
-A10-10,Crime Comedy,,no titles,0
-A10-11,Mockumentary,,no titles,0
-A10-12,Stand-Up Comedy Film,,no titles,0
-A10-13,Bourekas Film,,no titles,0
+A10-1,Comedy Film,A12-2,Comedian Comedy,87
+A10-1,Comedy Film,A12-35,Family Comedy,68
+A10-1,Comedy Film,A12-27,Fish-out-of-Water Comedy,48
+A10-1,Comedy Film,A12-28,Fantasy Comedy,47
+A10-1,Comedy Film,A12-30,Buddy Comedy,46
+A10-1,Comedy Film,A12-7,Farce,44
+A10-1,Comedy Film,A12-32,Workplace Comedy,41
+A10-1,Comedy Film,A12-31,Road & Vacation Comedy,27
+A10-1,Comedy Film,A12-37,Teen Comedy,17
+A10-1,Comedy Film,A12-36,Wedding Comedy,16
+A10-1,Comedy Film,A12-41,Stoner Film,15
+A10-1,Comedy Film,A12-54,Midlife Crisis Comedy,14
+A10-1,Comedy Film,A12-19,Surreal & Absurdist Comedy,13
+A10-1,Comedy Film,A12-29,Science Fiction Comedy,12
+A10-1,Comedy Film,A12-57,Slice-of-Life Comedy-Drama,11
+A10-1,Comedy Film,A12-33,Military Comedy,11
+A10-1,Comedy Film,A12-47,Cop Comedy,11
+A10-1,Comedy Film,A12-42,Slacker Comedy,9
+A10-1,Comedy Film,A12-25,Sketch Film,8
+A10-1,Comedy Film,A12-23,Parody & Spoof,7
+A10-1,Comedy Film,A12-6,Comedy of Manners,6
+A10-1,Comedy Film,A12-14,Political Satire,6
+A10-1,Comedy Film,A12-58,LGBTQ Comedy,6
+A10-1,Comedy Film,A12-15,Social Satire,5
+A10-1,Comedy Film,A12-8,Picaresque Comedy,5
+A10-1,Comedy Film,A12-34,Sports Comedy,5
+A10-1,Comedy Film,A12-39,College & Fraternity Comedy,5
+A10-1,Comedy Film,A12-1,Silent Clown Comedy,4
+A10-1,Comedy Film,A12-40,Sex Comedy,4
+A10-1,Comedy Film,A12-43,Caper Comedy,4
+A10-1,Comedy Film,A12-3,Slapstick,4
+A10-1,Comedy Film,A12-11,Comédia à portuguesa,3
+A10-1,Comedy Film,A12-16,Media & Show-Business Satire,3
+A10-1,Comedy Film,A12-22,Cringe Comedy,3
+A10-1,Comedy Film,A12-45,Crime-Gone-Wrong Comedy,2
+A10-1,Comedy Film,A12-21,Quirky Indie Comedy,2
+A10-1,Comedy Film,A12-56,Ensemble Comedy-Drama,2
+A10-1,Comedy Film,A12-4,Screwball Comedy,1
+A10-1,Comedy Film,A12-51,Coming-of-Age Comedy-Drama,1
+A10-1,Comedy Film,A12-46,Comedy Mystery,1
+A10-1,Comedy Film,A12-13,Mo lei tau,1
+A10-1,Comedy Film,A12-24,Mockumentary,1
+A10-1,Comedy Film,A12-17,Black Comedy,1
+A10-1,Comedy Film,A12-52,Family Comedy-Drama,1
+A10-1,Comedy Film,A13-5,Relationship Drama,1
+A10-1,Comedy Film,B8-3,Workplace Comedy,1
+A10-2,Comedy-Drama,A12-52,Family Comedy-Drama,69
+A10-2,Comedy-Drama,A12-32,Workplace Comedy,68
+A10-2,Comedy-Drama,A12-51,Coming-of-Age Comedy-Drama,67
+A10-2,Comedy-Drama,A12-57,Slice-of-Life Comedy-Drama,40
+A10-2,Comedy-Drama,A12-54,Midlife Crisis Comedy,37
+A10-2,Comedy-Drama,A12-6,Comedy of Manners,35
+A10-2,Comedy-Drama,A12-56,Ensemble Comedy-Drama,28
+A10-2,Comedy-Drama,A12-55,Tragicomedy,28
+A10-2,Comedy-Drama,A12-30,Buddy Comedy,24
+A10-2,Comedy-Drama,A12-27,Fish-out-of-Water Comedy,22
+A10-2,Comedy-Drama,A12-53,Marital Comedy-Drama,20
+A10-2,Comedy-Drama,A12-35,Family Comedy,17
+A10-2,Comedy-Drama,A12-20,Deadpan Comedy,17
+A10-2,Comedy-Drama,A12-58,LGBTQ Comedy,17
+A10-2,Comedy-Drama,A13-5,Relationship Drama,17
+A10-2,Comedy-Drama,A12-7,Farce,14
+A10-2,Comedy-Drama,A12-15,Social Satire,14
+A10-2,Comedy-Drama,A12-21,Quirky Indie Comedy,13
+A10-2,Comedy-Drama,A12-19,Surreal & Absurdist Comedy,12
+A10-2,Comedy-Drama,A12-25,Sketch Film,10
+A10-2,Comedy-Drama,A12-36,Wedding Comedy,9
+A10-2,Comedy-Drama,A12-42,Slacker Comedy,9
+A10-2,Comedy-Drama,A12-17,Black Comedy,8
+A10-2,Comedy-Drama,A12-31,Road & Vacation Comedy,8
+A10-2,Comedy-Drama,A12-28,Fantasy Comedy,7
+A10-2,Comedy-Drama,A12-14,Political Satire,6
+A10-2,Comedy-Drama,A12-1,Silent Clown Comedy,5
+A10-2,Comedy-Drama,A12-34,Sports Comedy,5
+A10-2,Comedy-Drama,A12-2,Comedian Comedy,5
+A10-2,Comedy-Drama,A12-40,Sex Comedy,5
+A10-2,Comedy-Drama,A12-33,Military Comedy,4
+A10-2,Comedy-Drama,A12-22,Cringe Comedy,4
+A10-2,Comedy-Drama,A12-4,Screwball Comedy,3
+A10-2,Comedy-Drama,A12-16,Media & Show-Business Satire,3
+A10-2,Comedy-Drama,A12-8,Picaresque Comedy,3
+A10-2,Comedy-Drama,A12-43,Caper Comedy,3
+A10-2,Comedy-Drama,A12-37,Teen Comedy,3
+A10-2,Comedy-Drama,A16-19,Social Realism,3
+A10-2,Comedy-Drama,A12-44,Gangster Comedy,2
+A10-2,Comedy-Drama,A12-39,College & Fraternity Comedy,1
+A10-2,Comedy-Drama,A12-26,Stand-Up Comedy Film,1
+A10-2,Comedy-Drama,A12-29,Science Fiction Comedy,1
+A10-2,Comedy-Drama,A12-45,Crime-Gone-Wrong Comedy,1
+A10-3,Black Comedy & Satire,A12-17,Black Comedy,133
+A10-3,Black Comedy & Satire,A12-14,Political Satire,90
+A10-3,Black Comedy & Satire,A12-15,Social Satire,60
+A10-3,Black Comedy & Satire,A12-16,Media & Show-Business Satire,39
+A10-3,Black Comedy & Satire,A12-19,Surreal & Absurdist Comedy,35
+A10-3,Black Comedy & Satire,A12-18,Camp & Trash Comedy,8
+A10-3,Black Comedy & Satire,A12-7,Farce,6
+A10-3,Black Comedy & Satire,A12-20,Deadpan Comedy,5
+A10-3,Black Comedy & Satire,A12-32,Workplace Comedy,4
+A10-3,Black Comedy & Satire,A12-6,Comedy of Manners,2
+A10-3,Black Comedy & Satire,A12-25,Sketch Film,2
+A10-3,Black Comedy & Satire,A12-28,Fantasy Comedy,2
+A10-3,Black Comedy & Satire,A12-23,Parody & Spoof,2
+A10-3,Black Comedy & Satire,A12-57,Slice-of-Life Comedy-Drama,2
+A10-3,Black Comedy & Satire,A12-8,Picaresque Comedy,2
+A10-3,Black Comedy & Satire,A12-9,Ealing Comedy,1
+A10-3,Black Comedy & Satire,A12-42,Slacker Comedy,1
+A10-3,Black Comedy & Satire,A12-41,Stoner Film,1
+A10-3,Black Comedy & Satire,A12-33,Military Comedy,1
+A10-3,Black Comedy & Satire,A12-58,LGBTQ Comedy,1
+A10-3,Black Comedy & Satire,A12-50,Spy Comedy,1
+A10-3,Black Comedy & Satire,A12-2,Comedian Comedy,1
+A10-3,Black Comedy & Satire,A12-22,Cringe Comedy,1
+A10-3,Black Comedy & Satire,A12-51,Coming-of-Age Comedy-Drama,1
+A10-3,Black Comedy & Satire,A12-43,Caper Comedy,1
+A10-3,Black Comedy & Satire,A12-36,Wedding Comedy,1
+A10-4,Screwball Comedy,A12-4,Screwball Comedy,14
+A10-4,Screwball Comedy,A12-5,Comedy of Remarriage,5
+A10-5,Slapstick Comedy,A12-3,Slapstick,26
+A10-5,Slapstick Comedy,A12-1,Silent Clown Comedy,15
+A10-5,Slapstick Comedy,A12-2,Comedian Comedy,9
+A10-5,Slapstick Comedy,A12-29,Science Fiction Comedy,1
+A10-5,Slapstick Comedy,A12-33,Military Comedy,1
+A10-5,Slapstick Comedy,A12-27,Fish-out-of-Water Comedy,1
+A10-6,Parody & Spoof,A12-23,Parody & Spoof,107
+A10-6,Parody & Spoof,A12-50,Spy Comedy,22
+A10-6,Parody & Spoof,A12-35,Family Comedy,3
+A10-6,Parody & Spoof,A12-25,Sketch Film,2
+A10-6,Parody & Spoof,A12-29,Science Fiction Comedy,2
+A10-6,Parody & Spoof,A12-18,Camp & Trash Comedy,2
+A10-6,Parody & Spoof,A12-16,Media & Show-Business Satire,2
+A10-6,Parody & Spoof,A12-1,Silent Clown Comedy,1
+A10-6,Parody & Spoof,A12-46,Comedy Mystery,1
+A10-6,Parody & Spoof,A12-42,Slacker Comedy,1
+A10-7,Teen & Sex Comedy,A12-37,Teen Comedy,88
+A10-7,Teen & Sex Comedy,A12-38,Teen Sex Comedy,29
+A10-7,Teen & Sex Comedy,A12-39,College & Fraternity Comedy,12
+A10-7,Teen & Sex Comedy,A12-40,Sex Comedy,10
+A10-7,Teen & Sex Comedy,A12-32,Workplace Comedy,4
+A10-7,Teen & Sex Comedy,A12-28,Fantasy Comedy,3
+A10-7,Teen & Sex Comedy,A12-31,Road & Vacation Comedy,3
+A10-7,Teen & Sex Comedy,A12-2,Comedian Comedy,2
+A10-7,Teen & Sex Comedy,A12-36,Wedding Comedy,2
+A10-7,Teen & Sex Comedy,A12-30,Buddy Comedy,1
+A10-7,Teen & Sex Comedy,A12-21,Quirky Indie Comedy,1
+A10-7,Teen & Sex Comedy,A12-7,Farce,1
+A10-7,Teen & Sex Comedy,A12-41,Stoner Film,1
+A10-7,Teen & Sex Comedy,A12-51,Coming-of-Age Comedy-Drama,1
+A10-8,Commedia all'italiana,A12-10,Commedia all'italiana,18
+A10-9,Action Comedy,A12-49,Action Comedy,88
+A10-9,Action Comedy,A12-48,Buddy Cop Film,34
+A10-9,Action Comedy,A12-50,Spy Comedy,14
+A10-9,Action Comedy,A12-2,Comedian Comedy,4
+A10-9,Action Comedy,A12-1,Silent Clown Comedy,1
+A10-9,Action Comedy,A12-13,Mo lei tau,1
+A10-9,Action Comedy,A12-35,Family Comedy,1
+A10-9,Action Comedy,A12-41,Stoner Film,1
+A10-9,Action Comedy,A12-47,Cop Comedy,1
+A10-9,Action Comedy,A12-17,Black Comedy,1
+A10-9,Action Comedy,A12-43,Caper Comedy,1
+A10-10,Crime Comedy,A12-43,Caper Comedy,66
+A10-10,Crime Comedy,A12-44,Gangster Comedy,55
+A10-10,Crime Comedy,A12-45,Crime-Gone-Wrong Comedy,52
+A10-10,Crime Comedy,A12-46,Comedy Mystery,19
+A10-10,Crime Comedy,A12-47,Cop Comedy,11
+A10-10,Crime Comedy,A12-2,Comedian Comedy,4
+A10-10,Crime Comedy,A12-9,Ealing Comedy,3
+A10-10,Crime Comedy,A12-3,Slapstick,3
+A10-10,Crime Comedy,A12-30,Buddy Comedy,3
+A10-10,Crime Comedy,A12-41,Stoner Film,2
+A10-10,Crime Comedy,A12-7,Farce,2
+A10-10,Crime Comedy,A12-23,Parody & Spoof,2
+A10-10,Crime Comedy,A12-35,Family Comedy,1
+A10-10,Crime Comedy,A12-17,Black Comedy,1
+A10-10,Crime Comedy,A12-57,Slice-of-Life Comedy-Drama,1
+A10-10,Crime Comedy,A12-42,Slacker Comedy,1
+A10-11,Mockumentary,A12-24,Mockumentary,32
+A10-11,Mockumentary,A12-19,Surreal & Absurdist Comedy,1
+A10-12,Stand-Up Comedy Film,A12-26,Stand-Up Comedy Film,53
+A10-13,Bourekas Film,A12-12,Bourekas Film,2
 A11-1,Musical & Music Film,A14-1,Book Musical,117
 A11-1,Musical & Music Film,A14-13,Music Film,90
 A11-1,Musical & Music Film,A14-4,Backstage Musical,21
@@ -454,6 +763,7 @@ A13-1,Documentary Film,A19-5,Diary Film,13
 A13-1,Documentary Film,A19-21,Travelogue Film,9
 A13-1,Documentary Film,A19-4,Essay Film,7
 A13-1,Documentary Film,A19-11,True Crime Documentary,7
+A13-1,Documentary Film,A12-17,Black Comedy,7
 A13-1,Documentary Film,A19-2,Ethnographic Film,6
 A13-1,Documentary Film,A19-23,Nature Documentary,6
 A13-1,Documentary Film,A19-8,Propaganda Film,5
@@ -840,6 +1150,7 @@ C3-1,Police Procedural Series,B7-10,Inverted Detective Story,2
 C3-1,Police Procedural Series,B7-26,Revenge & Vigilante Thriller,2
 C3-1,Police Procedural Series,B7-23,Psychological Thriller,2
 C3-1,Police Procedural Series,B7-17,Narco Series,2
+C3-1,Police Procedural Series,B8-3,Workplace Comedy,2
 C3-1,Police Procedural Series,B7-27,Action Thriller,1
 C3-1,Police Procedural Series,B7-6,Nordic Noir,1
 C3-1,Police Procedural Series,B7-29,Political Thriller,1
@@ -859,6 +1170,7 @@ C3-2,Detective Series,B7-28,Espionage,2
 C3-2,Detective Series,B7-18,Heist & Caper,1
 C3-2,Detective Series,B7-7,Tartan Noir,1
 C3-2,Detective Series,B7-22,Serial-Killer Thriller,1
+C3-2,Detective Series,B8-3,Workplace Comedy,1
 C3-3,Crime Drama Series,B7-16,Gangster Drama,128
 C3-3,Crime Drama Series,B7-19,Neo-Noir,86
 C3-3,Crime Drama Series,B7-18,Heist & Caper,52
@@ -916,12 +1228,76 @@ C3-8,Psychological & Domestic Thriller Series,B7-26,Revenge & Vigilante Thriller
 C3-8,Psychological & Domestic Thriller Series,B7-22,Serial-Killer Thriller,1
 C3-8,Psychological & Domestic Thriller Series,B7-8,Whodunit,1
 C3-8,Psychological & Domestic Thriller Series,B7-15,Legal Thriller,1
-C4-1,Multi-Camera Sitcom,,no titles,0
-C4-2,Single-Camera Comedy,,no titles,0
-C4-3,Mockumentary Sitcom,,no titles,0
-C4-4,Sketch Comedy,,no titles,0
-C4-5,Comedy-Drama Series,,no titles,0
-C4-6,Satire & Political Comedy,,no titles,0
+C4-1,Multi-Camera Sitcom,B8-1,Family Sitcom,143
+C4-1,Multi-Camera Sitcom,B8-3,Workplace Comedy,70
+C4-1,Multi-Camera Sitcom,B8-5,Hangout Sitcom,68
+C4-1,Multi-Camera Sitcom,B8-6,Romantic Comedy Series,24
+C4-1,Multi-Camera Sitcom,B8-9,Character Comedy,19
+C4-1,Multi-Camera Sitcom,B8-19,Fantasy Sitcom,18
+C4-1,Multi-Camera Sitcom,B8-4,Military Comedy,8
+C4-1,Multi-Camera Sitcom,B8-8,Rural Comedy,6
+C4-1,Multi-Camera Sitcom,B8-7,Teen Comedy,6
+C4-1,Multi-Camera Sitcom,B8-15,Political Satire,6
+C4-1,Multi-Camera Sitcom,B8-12,Surreal & Absurdist Comedy,5
+C4-1,Multi-Camera Sitcom,B8-16,Parody Series,4
+C4-1,Multi-Camera Sitcom,B8-18,Sports Comedy,3
+C4-1,Multi-Camera Sitcom,B8-22,Crime Comedy,2
+C4-1,Multi-Camera Sitcom,B8-14,Ramadan Comedy,2
+C4-1,Multi-Camera Sitcom,B8-10,Cringe Comedy,1
+C4-1,Multi-Camera Sitcom,B8-23,Black Comedy,1
+C4-1,Multi-Camera Sitcom,B8-25,Tragicomedy,1
+C4-1,Multi-Camera Sitcom,B8-21,Horror Comedy,1
+C4-1,Multi-Camera Sitcom,B8-20,Science Fiction Comedy,1
+C4-2,Single-Camera Comedy,B8-3,Workplace Comedy,108
+C4-2,Single-Camera Comedy,B8-2,Single-Camera Family Comedy,82
+C4-2,Single-Camera Comedy,B8-6,Romantic Comedy Series,57
+C4-2,Single-Camera Comedy,B8-5,Hangout Sitcom,50
+C4-2,Single-Camera Comedy,B8-7,Teen Comedy,41
+C4-2,Single-Camera Comedy,B8-16,Parody Series,39
+C4-2,Single-Camera Comedy,B8-22,Crime Comedy,35
+C4-2,Single-Camera Comedy,B8-9,Character Comedy,33
+C4-2,Single-Camera Comedy,B8-12,Surreal & Absurdist Comedy,27
+C4-2,Single-Camera Comedy,B8-24,Comedy-Drama,25
+C4-2,Single-Camera Comedy,B8-10,Cringe Comedy,24
+C4-2,Single-Camera Comedy,B8-19,Fantasy Sitcom,22
+C4-2,Single-Camera Comedy,B8-23,Black Comedy,17
+C4-2,Single-Camera Comedy,B8-8,Rural Comedy,16
+C4-2,Single-Camera Comedy,B8-21,Horror Comedy,15
+C4-2,Single-Camera Comedy,B8-17,Musical Comedy Series,11
+C4-2,Single-Camera Comedy,B8-20,Science Fiction Comedy,11
+C4-2,Single-Camera Comedy,B8-15,Political Satire,9
+C4-2,Single-Camera Comedy,B8-18,Sports Comedy,8
+C4-2,Single-Camera Comedy,B8-25,Tragicomedy,7
+C4-2,Single-Camera Comedy,B8-4,Military Comedy,5
+C4-2,Single-Camera Comedy,B8-14,Ramadan Comedy,5
+C4-2,Single-Camera Comedy,B10-7,Children's Fantasy Series,2
+C4-2,Single-Camera Comedy,B8-13,Sketch Comedy,1
+C4-3,Mockumentary Sitcom,B8-11,Mockumentary,56
+C4-3,Mockumentary Sitcom,B8-16,Parody Series,1
+C4-4,Sketch Comedy,B8-13,Sketch Comedy,103
+C4-4,Sketch Comedy,B8-14,Ramadan Comedy,2
+C4-5,Comedy-Drama Series,B8-24,Comedy-Drama,163
+C4-5,Comedy-Drama Series,B8-6,Romantic Comedy Series,37
+C4-5,Comedy-Drama Series,B8-19,Fantasy Sitcom,31
+C4-5,Comedy-Drama Series,B8-22,Crime Comedy,30
+C4-5,Comedy-Drama Series,B8-25,Tragicomedy,28
+C4-5,Comedy-Drama Series,B8-2,Single-Camera Family Comedy,22
+C4-5,Comedy-Drama Series,B8-7,Teen Comedy,18
+C4-5,Comedy-Drama Series,B8-23,Black Comedy,17
+C4-5,Comedy-Drama Series,B8-3,Workplace Comedy,15
+C4-5,Comedy-Drama Series,B8-17,Musical Comedy Series,8
+C4-5,Comedy-Drama Series,B8-18,Sports Comedy,7
+C4-5,Comedy-Drama Series,B8-14,Ramadan Comedy,6
+C4-5,Comedy-Drama Series,B8-4,Military Comedy,4
+C4-5,Comedy-Drama Series,B8-16,Parody Series,4
+C4-5,Comedy-Drama Series,B8-8,Rural Comedy,4
+C4-5,Comedy-Drama Series,B8-12,Surreal & Absurdist Comedy,3
+C4-5,Comedy-Drama Series,B8-20,Science Fiction Comedy,3
+C4-5,Comedy-Drama Series,B8-9,Character Comedy,2
+C4-5,Comedy-Drama Series,B8-15,Political Satire,2
+C4-5,Comedy-Drama Series,B8-21,Horror Comedy,1
+C4-6,Satire & Political Comedy,B8-15,Political Satire,49
+C4-6,Satire & Political Comedy,B8-14,Ramadan Comedy,1
 C4-7,Stand-Up Comedy Special,B16-28,Stand-Up Comedy Specials,2
 C5-1,Science Fiction Series,B9-1,Space Opera,81
 C5-1,Science Fiction Series,B9-3,Time Travel,63
@@ -1018,12 +1394,29 @@ C6-4,Children's Animated Series,C13-12,Toy-Based Animated Series,6
 C6-4,Children's Animated Series,C13-6,The Disney Afternoon,4
 C6-4,Children's Animated Series,C13-11,Superhero Animated Series,2
 C6-4,Children's Animated Series,C10-9,Harem Anime,1
-C7-1,Preschool Series,,no titles,0
-C7-2,Children's & Tween Series,,no titles,0
-C7-3,Nordic Christmas Calendar,,no titles,0
-C8-1,Documentary Series,,no titles,0
-C8-2,True Crime Docuseries,,no titles,0
-C8-3,Nature Documentary Series,,no titles,0
+C7-1,Preschool Series,B10-1,Preschool Television,23
+C7-2,Children's & Tween Series,B10-4,Teen Sitcom,62
+C7-2,Children's & Tween Series,B10-7,Children's Fantasy Series,42
+C7-2,Children's & Tween Series,B10-6,Children's Adventure Series,25
+C7-2,Children's & Tween Series,B10-5,Teen Drama,13
+C7-2,Children's & Tween Series,B10-3,Children's Sketch & Puppet Comedy,11
+C7-2,Children's & Tween Series,B10-2,Educational Children's Series,7
+C7-3,Nordic Christmas Calendar,B10-8,Christmas Calendar,10
+C8-1,Documentary Series,B11-3,History Documentary Series,42
+C8-1,Documentary Series,B11-7,Sports Documentary Series,40
+C8-1,Documentary Series,B11-2,Science Documentary Series,33
+C8-1,Documentary Series,B11-4,War Documentary Series,28
+C8-1,Documentary Series,B11-10,Investigative & Observational Documentary Series,28
+C8-1,Documentary Series,B11-8,Arts & Pop-Culture Documentary Series,23
+C8-1,Documentary Series,B11-5,Biographical Documentary Series,22
+C8-1,Documentary Series,B11-9,Travel & Food Documentary Series,21
+C8-1,Documentary Series,B11-6,Music Documentary Series,20
+C8-1,Documentary Series,B11-11,True Crime Docuseries,20
+C8-1,Documentary Series,B11-12,Paranormal & Pseudo-Documentary Series,7
+C8-1,Documentary Series,B11-1,Nature Documentary Series,2
+C8-1,Documentary Series,B14-1,Dating Show,1
+C8-2,True Crime Docuseries,B11-11,True Crime Docuseries,147
+C8-3,Nature Documentary Series,B11-1,Nature Documentary Series,41
 D1-1,Telenovela,B12-1,Telenovela,53
 D1-2,Brazilian Novela,B12-2,Brazilian Telenovela,13
 D1-3,Narconovela,B12-3,Narconovela,5
@@ -1371,6 +1764,7 @@ G2-2,Docusoap & Social Experiment,B14-5,Hidden Camera,3
 G2-2,Docusoap & Social Experiment,B14-4,Makeover Show,3
 G2-2,Docusoap & Social Experiment,B14-8,Instructional Television,1
 G2-2,Docusoap & Social Experiment,B14-1,Dating Show,1
+G2-2,Docusoap & Social Experiment,B11-11,True Crime Docuseries,1
 G2-3,Makeover Show,B14-4,Makeover Show,13
 G2-4,Hidden Camera & Prank Show,B14-5,Hidden Camera,12
 G3-1,Variety Show,B15-2,Real Variety,114

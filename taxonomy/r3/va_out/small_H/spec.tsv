@@ -1,0 +1,318 @@
+H1-2	ushak|uşak|holbein carpet|lotto carpet|ghiordes|gördes|bergama|konya carpet|ladik|kula (rug|carpet|prayer)|milas|anatolian.{0,30}(rug|carpet)|turkish.{0,30}(rug|carpet)|(rug|carpet).{0,30}(anatolia|turkey)|^turkish$|^anatolian$|hereke|yürük|yuruk	rug|carpet|tapis|tapijt|pile|knot
+H1-3	mamluk.{0,40}(rug|carpet)|(rug|carpet).{0,40}mamluk|cairene (rug|carpet)|^mamluk$	rug|carpet|pile|knot
+H1-4	caucasian|kazak|karabagh|karabakh|shirvan|kuba (rug|carpet)|dragon carpet|azerbaijan|dagestan|tabasaran|avar|gendje|ganja|talish|derbend|lezgi	rug|carpet|tapis|tapijt|pile|knot
+H1-5	turkmen|turkoman|tekke|yomut|yomud|salor|saryk|ersari|beshir|göklen|chodor|bukhara rug	rug|carpet|pile|knot|torba|chuval|asmalyk|ensi|trapping|bag|tent band|khalyk
+H1-6	baluch|baluchi|belouch|beluch	rug|carpet|pile|knot|bag|prayer
+H1-7	afghan (war )?rug|war rug|chobi|afghan carpet|(rug|carpet).{0,20}afghanistan	rug|carpet
+H1-8	mughal.{0,40}(rug|carpet)|(rug|carpet).{0,40}mughal|indo-persian (rug|carpet)|indo-isfahan|lahore carpet|girdlers	rug|carpet|pile|knot
+H1-9	beni ouarain|beni ourain|azilal|boucherouite|moroccan (rug|carpet)|berber (rug|carpet)|amazigh \(berber\) rugs|zemmour|zaiane|glaoua|rabat (rug|carpet)	rug|carpet|weav|kilim|tapis|blanket
+H1-10	freest|fischerteppich
+H1-11	ryijy|rya\b|ryor\b
+H1-12	ningxia|baotou|peking (rug|carpet)|tianjin (rug|carpet)|nichols|pillar (rug|carpet)|chinese (rug|carpet)|(rug|carpet).{0,15}china	rug|carpet|pile|knot
+H1-13	tibetan (rug|carpet)|khaden|khaden|tiger rug|wangden|(rug|carpet).{0,20}tibet	rug|carpet|pile|knot|saddle
+H1-14	savonnerie
+H2-1	kilim|kelim|gelim|gilim|mergoum|persian tribal kilims|anatolian kilim|cicim|jajim|zili
+H2-2	soumak|sumak|soumac
+H2-3	al sadu|sadu weav|bedouin weav|al sadu \(bedouin
+H2-4	\binka\b|\binca\b|tocapu|tokapu|cumbi	textil|tunic|uncu|unku|weav|tapestr|cloth|bag|mantle|garment|camelid
+H2-5	\bwari\b|\bhuari\b	textil|tunic|weav|tapestr|cloth|hat|garment|camelid|mantle
+H2-6	colonial andean tapestry|tapiz|tapices|colonial uncu|inca and spanish|viceroyalty of peru	textil|tunic|uncu|weav|tapestr|cloth|cover|carpet|mantle
+H2-7	aymara|quechua|jalq'a|jalqa|tarabuco|otavalo|potolo|andean aguayo|aguayo|lliclla|chullo|chumpi	textil|weav|cloth|bag|mantle|belt|sash|hat|cap|poncho|garment|wool|camelid|shawl|blanket|skirt|chuspa
+H2-8	taquile
+H2-9	saltillo|sarape|serape
+H2-10	navajo|navaho|\bdiné\b|\bdine\b	textil|rug|blanket|weav|serape|manta|dress|saddle|sash|wool
+H2-11	chilkat|ravenstail|naaxein
+H2-12	coast salish.{0,30}(blanket|weav)|salish (blanket|weav)|(blanket|weav).{0,30}salish|musqueam|cowichan blanket	blanket|weav|textil|robe
+H2-13	chimay|rio grande (blanket|weav|textile)
+H2-14	maori weaving|korowai|kaitaka|piupiu|tāniko|taniko|whāriki|whariki|kākahu|kakahu|\bkete\b|harakeke|muka|kahu kur
+H2-15	ceinture fléchée|fléché|arrow sash|assomption sash
+H2-16	raanu
+H2-17	chiprovtsi|chiprovci
+H2-18	pirot	kilim|ćilim|rug|carpet|weav
+H2-19	sjenica|pešter|pester	kilim|carpet|rug|weav
+H2-20	stapar
+H2-21	\bkots\b|kotsy|lizhnyk|ukrainian kilim
+H2-22	reshetyl	carpet|kilim|rug
+H2-23	scoarț|scoart|wall-carpet craftsmanship|moldovan.{0,20}carpet|romanian.{0,20}carpet|carpet.{0,20}(romania|moldov)
+H3-1	tiraz|ţirāz
+H3-2	safavid	textil|silk|velvet|lampas|brocade|satin|weav|fragment|cover|cloth|sash
+H3-3	ottoman|bursa|kemha|çatma|catma	textil|silk|velvet|lampas|brocade|kemha|weav|fragment|kaftan|caftan|cover|cushion|yastık
+H3-4	nasrid|alhambra silk|hispano-islamic silk|almer[ií]a	textil|silk|weav|fragment|lampas|cloth|banner|curtain
+H3-5	termeh|terma\b|yazd brocade
+H3-6	kashmir shawl|kani shawl|pashmina|(shawl).{0,40}kashmir|kashmir.{0,40}(shawl|textile|fragment)
+H3-7	banaras|benares|varanasi|kinkhab|kincob|banarasi	textil|brocade|sari|silk|cloth|kinkhab|weav|fragment|scarf|dupatta|odhni
+H3-8	jamdani|dhaka muslin|dacca muslin
+H3-9	kanchipuram|kanjeevaram|kancheepuram
+H3-10	paithani|paithan|yeola	sari|textil|silk|weav|cloth|border|pallu
+H3-11	songket
+H3-12	ship cloth|palepai|tampan|lampung ship
+H3-13	\bpiña\b|\bpina\b(?! colada)|pineapple fib|piña cloth|nipis|philippine pina
+H3-14	inabel|binakol|abel iloko|\bilocos\b	textil|blanket|weav|cloth|cover
+H3-15	naga motif|lao weaving|sinh\b|pha biang|pha sin|(textil|skirt|cloth|weav).{0,30}\blao(s|tian)?\b
+H3-16	\bkesi\b|k'o-ssu|kossu|緙絲|刻絲|silk tapestry
+H3-17	zhuang brocade|zhuangjin|壮锦|壯錦
+H3-18	\bli textile|\bhlai\b|li people|hainan	textil|skirt|weav|cloth|jacket|brocade|tube|cover
+H3-19	shuri.{0,10}(ori|weav)|hanaori|hana-ori|rōton|roton|traditional shuri weaving|ryukyuan weaving
+H3-20	bashōfu|bashofu|basho-fu|banana.fib|芭蕉布
+H3-21	echigo|ojiya|越後上布|小千谷
+H3-22	hansan|\bmosi\b
+H3-23	kente|kente cloth|nwentoma|\bewe\b.{0,30}(cloth|textile|weav)|asante.{0,30}(cloth|textile|kente)
+H3-24	aso.oke|sanyan|alaari|\betu\b
+H3-25	akwete
+H3-26	ivorian loincloth|loincloth weaving in côte|baule.{0,30}(cloth|textile|weav)|senufo.{0,30}(cloth|textile|weav)|dioula.{0,30}(cloth|textile)
+H3-27	coptic|late antique egypt|byzantine egypt|egypt.{0,30}(late antique|byzantine)	textil|tunic|tapestr|weav|fragment|roundel|clavus|band|cloth|curtain|hanging|linen|wool|sock|panel|square
+H3-28	maya|k'iche'|kaqchikel|tzotzil|tz'utuhil|q'eqchi|chamula|quiché|cakchiquel|tzeltal|ixil|mam maya|huipil	textil|huipil|weav|cloth|skirt|sash|belt|tzute|blouse|headcloth|garment|shawl|corte|bag|perraje
+H3-29	chancay	textil|weav|cloth|doll|gauze|tunic|garment|fragment|bag|mantle|panel|cotton|camelid
+H3-30	brussels|tournai|arras|oudenaarde|audenarde|enghien|south netherlandish|flemish|southern netherlands	tapestr|tapisserie|wandtapijt
+H3-31	aubusson|felletin
+H3-32	täkänä|takana double|finn-pick
+H3-33	vidzeme|doubleweave colour gradient
+H3-34	sigulda
+H3-35	bezdan
+H3-36	serpanok
+H3-37	hlyniany|hliniany|glinyany
+H3-38	obukhovych
+H3-39	gobelins|gobelin manufactory|manufacture des gobelins|manufacture royale des gobelins
+H3-40	beauvais	tapestr|tapisserie|cover|chair|sofa|settee|textil|panel|fire screen|weav
+H3-41	chanderi
+H3-42	maheshwar
+H3-43	mangalagiri|mangalgiri
+H3-44	tangaliya|tangalia|dana weav
+H3-45	kasavu|balaramapuram|set-mundu|mundum neriyathum
+H3-46	kota doria|kota masuria|kaithun
+H3-47	nishijin|西陣
+H3-48	acheik|luntaya|lun-taya|lun taya|amarapura
+H3-49	shemma|netela|tibeb|tilet|habesha kemis|gabi\b
+H3-50	oaxaca|amuzgo|xochistlahuaca|mixtec|zapotec|mazatec|chinantec|trique|triqui	textil|huipil|weav|cloth|skirt|sash|rebozo|blouse|shawl|garment|blanket|rug|tapete
+H3-51	tartan|plaid\b|breacan
+H3-52	\btweed|harris tweed|donegal
+H3-53	faso dan fani
+H3-54	welsh tapestry|carthen|trefriw|melin tregwynt|welsh blanket|welsh double
+H3-55	trade blanket|point blanket|pendleton|hudson's bay blanket|chief joseph blanket|beacon blanket
+H3-56	peshtemal|peştamal|pestamal|hammam towel|bath wrap|buldan
+H3-57	irish linen|lisburn|banbridge|ulster linen|irish damask|(damask|linen).{0,30}(belfast|ireland|irish)
+H3-58	basque linen|linge basque|toile basque|mante à bœufs|mante a boeufs
+H4-1	suzani|susani|nurata|shakhrisabz|shahrisabz
+H4-2	ottoman.{0,40}embroid|embroid.{0,40}ottoman|turkish.{0,30}embroid|embroid.{0,30}turk|ottoman.{0,30}(towel|napkin|yaglik|uçkur|bohça|bohcha)|^ottoman$|^turkish$	embroid|towel|napkin|cover|bohça|bohcha|uçkur|sash|kerchief|handkerchief|yaglik|yağlık
+H4-3	palestin|tatreez|bethlehem|ramallah|hebron|beit dajan|thob	embroid|dress|thob|jacket|textil|veil|headdress|garment|cushion|panel|cap|shatweh|robe
+H4-4	pateh|pate\b|kerman embroid|sermeh
+H4-5	rasht|rashti|resht	embroid|cover|appliqu|panel|textil|felt|hanging|saddle|cloth
+H4-6	\boya\b|turkish oya|needle lace edging
+H4-7	khayamiya|khayamia|tentmaker|tent panel|tent-maker|sharia al-khayamiya
+H4-8	baloch|baluch|balochi|baluchi|sistan	embroid|dress|cuff|panel|textil|pocket|yoke|tunic|cap
+H4-9	phulkari|bagh\b|chope
+H4-10	chikan|chikankari|lucknow.{0,30}(embroid|muslin)|(embroid).{0,30}lucknow
+H4-11	kantha|nakshi
+H4-12	sujani|sujni|sujini|bhusura
+H4-13	ralli|rilli|rilly
+H4-14	chakan
+H4-15	khamak
+H4-16	turkmen.{0,30}(embroid|needlework|robe|chyrpy|chirpy|kurta|dress|coat|cap|headdress)|chyrpy|chirpy|turkmen-style needlework
+H4-17	\btapis\b|kain tapis|maduaro|sulam usus|tapis pesisir|lampung.{0,30}(skirt|sarong|sarung)
+H4-18	kalaga|shwe chi doe|shwe-chi-doe
+H4-19	tekat
+H4-20	suzhou embroid|su xiu|su embroid|苏绣|蘇繡
+H4-21	xiang xiu|hunan embroid|xiang embroid|湘绣|湘繡
+H4-22	shu xiu|sichuan embroid|shu embroid|蜀绣|蜀繡
+H4-23	yue xiu|guangxiu|cantonese embroid|canton.{0,20}embroid|chaozhou embroid|chaoshan embroid|mantón de manila|manila shawl|粤绣|粵繡|广绣
+H4-24	gu embroid|gu xiu|han ximeng|顧繡|顾绣
+H4-25	jasu|jasujang|hyungbae|hyungb|korean.{0,30}embroid|embroid.{0,30}(korea|joseon)|자수
+H4-26	bojagi|pojagi|jogakbo|chogakpo|bojagi \(wrapping|wrapping cloth.{0,20}korea|korean bojagi|보자기
+H4-27	sashiko|kogin|boro\b|hishizashi|sashiko, kogin
+H4-28	\bmiao\b|\bhmong\b|paj ntaub|苗族	textil|embroid|skirt|batik|jacket|baby carrier|cloth|apron|collar|story|garment|sleeve|panel|hat|costume|dress|collar|silver
+H4-29	\bainu\b|attus|attush|ruunpe|chikarkarpe|kaparamip|アイヌ	textil|robe|attus|attush|ruunpe|garment|coat|cloth|apron|headband|kimono|dress|embroid|costume|leggings|kaparamip|chikarkarpe|tekunpe|matanpushi
+H4-30	\bkuba\b|shoowa|bushoong|bushong|ngeende|kasai velvet|ncak	textil|raffia|cloth|skirt|panel|velvet|ncak|mapel|tray|overskirt|wrapper|fibre|fiber
+H4-31	asafo|frankaa|fante flag|fante.{0,20}flag
+H4-32	paracas	textil|mantle|weav|embroid|cloth|fragment|border|garment|tunic|poncho|turban|camelid|textile|skirt|bag
+H4-33	\bmola\b|\bmolas\b|\bguna\b|\bkuna\b|guna yala|san blas|chucunaque	blouse|mola|textil|cloth|panel|garment|cotton|appliqu
+H4-34	arpillera
+H4-35	vodou flag|drapo|vodou.{0,20}flag|vodou.{0,20}(banner|sequin)|myrlande constant|haitian vodou flags
+H4-36	ñandutí|nanduti|ñanduti|itauguá|itaugua
+H4-37	divina pastora|renda irlandesa
+H4-38	seminole|miccosukee	textil|skirt|jacket|shirt|patchwork|cape|dress|garment|apron|cotton|vest|blouse
+H4-39	ribbonwork|ribbon work|ribbon appliqu|ribbon-appliqu|great lakes beadwork and ribbonwork
+H4-40	moosehair|moose hair|moose-hair|lorette huron|wendake|wendat|huron-wendat
+H4-41	star quilt|lone star quilt|morning star quilt|wičháȟpi
+H4-42	tivaevae|tivaivai|tīfaifai|tifaifai
+H4-43	opus anglicanum|syon cope|butler-bowdon|english medieval embroid|(embroid|orphrey|cope|chasuble|vestment).{0,60}(england|english)[^,]{0,10}.{0,30}1[234]\d\d
+H4-44	buckinghamshire|bucks point|\bbucks\b	lace|bobbin
+H4-45	bedfordshire	lace|bobbin
+H4-46	amish	quilt|textil|cover|doll|bonnet|cushion|rug
+H4-47	hooked rug|rug hooking|grenfell|hooked (mat|carpet)|hooked.{0,10}rug
+H4-48	greek island|ionian islands|patmos|cyclades|dodecanese|naxos|rhodes|skyros|crete|cretan|epirus|astypalaia|kos\b|karpathos|chios|janina|ioannina|greek_crete|greek_rhodes|greek_ionian_islands|greek_cyclades|greek_astypalaia	embroid|textil|cover|valance|pillow|cushion|bed tent|sperveri|skirt|hem|panel|cloth|border|curtain
+H4-49	hardanger	embroid|apron|cloth|cover|textil|lace|whitework|sampler|towel|runner|doily|napkin
+H4-50	mountmellick
+H4-51	arraiolos
+H4-52	glória do ribatejo|gloria do ribatejo
+H4-53	alençon|alencon|point d'alen
+H4-54	burano
+H4-55	lefkara|lefkaritika|lefkaritiko
+H4-56	brussels|point d'angleterre|bruxelles|brabant	lace|bobbin|needle|kant|dentelle|lappet|flounce|cravat|jabot|collar|veil|border|fan leaf
+H4-57	mechlin|malines|mechelen	lace|bobbin|kant|dentelle|lappet|flounce|border|ruffle|cap
+H4-58	quill embroid|federkiel|sarntal|ranzen
+H4-59	honiton
+H4-60	le puy|dentelle du puy|puy-en-velay|cluny lace
+H4-61	maltese lace|bizzilla|\bmalta\b|\bgozo\b	lace|bobbin|collar|stole|shawl|kant|dentelle
+H4-62	headford
+H4-63	carrickmacross
+H4-64	limerick	lace|net|veil|collar|flounce|shawl|stole|fichu|bertha|tambour
+H4-65	irish crochet|clones|crochet.{0,30}ireland|ireland.{0,30}crochet|irish lace crochet
+H4-66	ukrain	embroid|vyshyv|shirt|towel|rushnyk|textil|blouse|sorochka|needlework
+H4-67	rushnyk|rushnyky|ruchnik|рушник|krolevets|кролевец
+H4-68	belarus|byelorussia|negliubka|nyagliubka|kapyl	embroid|towel|shirt|textil|apron|cloth|ruchnik|rushnik
+H4-69	chuvash	embroid|headdress|shirt|towel|textil|cloth|tukhya|khushpu|masmak|sarpan|surpan
+H4-70	\bmari\b|cheremis	embroid|headdress|shirt|towel|textil|cloth|shurka|shymaksh|sorochka|costume
+H4-71	karelia	embroid|towel|shirt|textil|cloth|apron|lace|sampler
+H4-72	krestets|krestsy|крестецк|vednovo
+H4-73	mstyora|mstera|мстёр|мстер	embroid|cloth|handkerchief|textil|towel|napkin|collar|batiste|linen
+H4-74	\bmuhu\b
+H4-75	matyó|matyo|mezőkövesd|mezokovesd|mezökövesd|hungarian_matyo|hungarian_mezokovesd
+H4-76	zmijanje
+H4-77	macedonia	embroid|shirt|sleeve|textil|cloth|towel|apron|costume|dress|chemise|kosula
+H4-78	kosovo-style|kosovo style
+H4-79	altiț|altit|\bie\b|romanian blouse|romanian.{0,20}(blouse|shirt|chemise)|(blouse|shirt|chemise).{0,20}romani
+H4-80	syrian-armenian|marash embroid|maraş embroid|aintab embroid|antep embroid
+H4-81	armenian needlelace|armenian lace|bebilla|armenian:lace|people:armenian:lace
+H4-82	tatar leather mosaic|ichigi|chitek|kayuly|tatar_leather_mosaic|people:tatar:leather
+H4-83	orenburg
+H4-84	vologda	lace|kruzhev|кружев|collar|napkin|cloth|runner|doily|scarf|border|insertion
+H4-85	yelets|elets|елец|елецк	lace|кружев|collar|napkin|cloth|runner|scarf|border
+H4-86	rauma
+H4-87	heinämaa
+H4-88	knipel|latvian.{0,20}bobbin lace|people:latvian:lace
+H4-89	idrija|idrijska
+H4-90	\bpag\b lace|pag lace|paška|lepoglava|svetomarsk|sveta marija|hvar.{0,20}lace|aloe.{0,10}lace|lacemaking in croatia|croatian:lace|dalmatian:lace|croatian.{0,20}lace
+H4-91	venetian|venice|point de venise|punto in aria|reticella|gros point|rose point|punto venezia|punto a groppo|burato|italian_venice	lace|needle|collar|flounce|border|cravat|jabot|cuff|kant|dentelle|cover|fragment|bertha|insertion|band
+H4-92	\bquilt|patchwork|crazy quilt|album quilt|log cabin|whole-cloth|wholecloth|broderie perse|trapunto|counterpane
+H4-93	gee's bend|gees bend|boykin|bendolph|pettway|mooney	quilt|textil|cloth|cover
+H4-94	\baran\b	sweater|jumper|knit|jersey|pullover|cardigan|stitch|wool
+H4-95	gansey|guernsey	sweater|jumper|knit|jersey|pullover|frock|wool
+H4-96	fair isle|shetland	knit|sweater|jumper|jersey|pullover|cardigan|hat|cap|glove|mitten|stocking|scarf|tam|beret|shawl|wool|lace
+H4-97	lopapeysa|lopi|icelandic sweater|icelandic.{0,20}(knit|sweater)
+H4-98	lusekofte|setesdal|fanakofte|selbu|norwegian.{0,20}(knit|sweater|cardigan|mitten)|marius genser
+H4-99	cowichan	sweater|knit|jumper|cardigan|vest|toque|hat|wool
+H4-100	sukajan|yokosuka jumper|souvenir jacket|スカジャン
+H4-101	nyonya|peranakan|kebaya|straits chinese	kebaya|embroid|blouse|textil|sarong|cloth|beadwork|slipper|shoe|collar
+H4-102	majboud|mejboud|medjboud|karakou|algerian.{0,30}embroid|embroid.{0,30}(algeria|algiers)|algiers.{0,30}(embroid|scarf|textile|kerchief|sash|cover)
+H4-103	hausa	robe|riga|embroid|gown|textil|cloth|garment|tunic|trouser|cap
+H4-104	crewel|jacobean embroid
+H4-105	stumpwork|raised work|raised embroidery|embosted
+H4-106	berlin wool|berlin work|berlin woolwork|berlin pattern
+H5-1	ikat|abrband|abrbandi|adras|atlas silk|etles|central asian ikat|bukhara.{0,30}(robe|chapan|khalat|coat)|uzbek.{0,30}(robe|chapan|khalat|coat|ikat|hanging|textile)	uzbek|bukhar|samarkand|ferg|central asia|tajik|turkestan|abrband|khalat|chapan|adras|central asian ikat
+H5-2	qalamkar|ghalamkar|qalamkari.{0,30}(iran|persia|isfahan)|isfahan.{0,30}(print|cotton|textile|cloth)|persian qalamkar
+H5-3	chintz|palampore|coromandel|\bindian, export\b|kalamkari	textil|cloth|cover|hanging|palampore|chintz|panel|fragment|dress|curtain|bedcover|cotton|jacket|coverlet|quilt
+H5-4	kalamkari|machilipatnam|masulipatam|srikalahasti|kalahasti|pedana
+H5-5	ajrakh|ajrak
+H5-6	bandhani|bandhej|bandhana|gharchola|bandhni
+H5-7	leheriya|lahariya|laheriya|leheria
+H5-8	patola|patolu|patan.{0,20}(ikat|sari)
+H5-9	rogan|roghan|nirona
+H5-10	batik|javanese batik|kain panjang|sarung.{0,20}(java|jawa)|pesisir	java|jawa|indonesi|batik|yogya|solo|surakarta|pekalongan|lasem|cirebon|madura|dutch east indies|indonesian
+H5-11	malaysian batik|batik.{0,30}(malaysia|kelantan|terengganu)|(malaysia|kelantan|terengganu).{0,30}batik
+H5-12	ikat|tenun|hinggi|ulos|sumba|savu|sawu|timor|tanimbar|toraja|flores|kain kebat|indonesian ikat	ikat|tenun|hinggi|ulos|textil|cloth|weav|sarong|skirt|shawl|blanket|shroud|tube|lau|kain
+H5-13	geringsing|gringsing|tenganan
+H5-14	\btais\b|timor-leste|east timor|timorese	textil|cloth|weav|tais|skirt|sarong|scarf|ikat
+H5-15	pua kumbu|pua\b|iban	textil|blanket|cloth|weav|ikat|skirt|jacket|pua|kain|bidang
+H5-16	t'nalak|tnalak|tinalak|t'boli|tboli
+H5-17	telepuk
+H5-18	yūzen|yuzen|友禅
+H5-19	katagami|katazome|ise-katagami|stencil.{0,10}(dye|dyed)|型紙|型染
+H5-20	bingata|紅型
+H5-21	tsutsugaki|筒描
+H5-22	shibori|tsujigahana|kanoko|arimatsu|narumi|絞|辻が花
+H5-23	kasuri|絣|kurume|iyo|bingo|miyako jofu|hirose|tsumugi|紬
+H5-24	bai tie-dye|zharan|扎染|dali tie|zhoucheng
+H5-25	geumbak|금박
+H5-26	bogolan|bògòlan|bogolanfini|mud cloth|mudcloth|mud-dyed|basilan
+H5-27	adire|adirẹ|eleko|oniko|alabere
+H5-28	adinkra
+H5-29	\bndop\b|ndop \(cameroon
+H5-30	kanga|khanga|kitenge|leso\b
+H5-31	rebozo
+H5-32	blaudruck|blueprint|blue-dyeing|modrotisk|kékfestés|kekfestes|modrotlač|modrotlac|indigo hand block|blauwdruk
+H5-33	staphorst
+H5-34	pavlovo posad|павлово
+H5-35	kelaghayi|kalagai|kəlağayı|kelagayi
+H5-36	vlisco|dutch wax|wax print|waxprint|real wax|ankara|hollandais|wax-print|gelegenheidsdoek|commemorative cloth
+H5-37	cambodian ikat|\bhol\b|sampot|pidan|khmer.{0,30}(silk|textil|weav)|cambodia.{0,30}(silk|textil|skirt|cloth|weav)
+H5-38	shweshwe|isishweshwe|three cats|da gama
+H5-39	pochampal|telia rumal|sambalpur|bandha|orissa ikat|odisha ikat|indian ikat|(ikat).{0,30}(india|andhra|orissa|odisha|telangana|hyderabad)
+H5-40	bagru|sanganer|dabu|chhipa|(block[- ]print).{0,40}(jaipur|rajasthan)|(jaipur|rajasthan).{0,40}(block[- ]print)
+H5-41	indienne|toile de jouy|jouy|oberkampf|souleiado|provençal print|nantes.{0,20}(print|cotton)|mulhouse.{0,20}(print|cotton)
+H6-1	shyrdak|shirdak|ala-kiyiz|ala kiyiz|tus kiiz|tus kiyiz|syrmak|kyrgyz.{0,30}felt|kazakh.{0,30}felt|felt.{0,30}(kyrgyz|kazakh)
+H7-1	palestin|bethlehem|ramallah|hebron|beit dajan|thob	dress|thob|jacket|veil|headdress|garment|cap|shatweh|robe|coat|costume
+H7-2	ottoman	kaftan|caftan|robe|garment|coat|dress|entari|costume|turban|jacket|trousers|shalvar|cuppe
+H7-3	possum.skin|possum cloak|possum-skin
+H7-4	gákti|gakti|sami.{0,20}(costume|dress|tunic|kolt|kofte)|sámi.{0,20}(costume|dress|tunic)|people:sami:costume
+H7-5	\bbunad
+H7-6	folkdräkt|sockendräkt|bygdedräkt|swedish.{0,20}(folk costume|folk dress)|swedish:costume|swedish_folk_costume
+H7-7	tracht|dirndl|bregenzerwald|juppe|walser|gailtal|radhaube|lederhose
+H7-8	xhubleta|fustanell|albania	costume|dress|xhubleta|fustanel|jacket|vest|skirt|apron|garment|xhurdi|xhamadan|shirt|belt|sock|çorape|corape
+H7-9	croatia|croatian	costume|dress|apron|shirt|skirt|vest|garment|blouse|headdress
+H7-10	macedonia	costume|dress|vest|coat|garment|jacket|sleeveless|skirt|apron|headdress|belt
+H7-11	erzya|erzyan|mordvin|mordva|mordovia|mordvin_erzya_moksha	costume|dress|shirt|panar|pulai|headdress|apron|garment
+H7-12	kosode|furisode|uchikake|katabira|jinbaori|haori|karaori|surihaku|kimono|小袖|振袖|打掛|帷子|陣羽織|羽織|唐織|摺箔
+H7-13	basotho blanket|seanamarena|kobo\b|lesotho.{0,30}blanket
+H7-14	savile row|henry poole|huntsman|gieves|anderson & sheppard|norton & sons|h\. huntsman
+H7-15	neapolitan tailor|sartoria napoletana|kiton|rubinacci|attolini
+H7-16	qipao|cheongsam|chi-pao|旗袍|长衫
+H7-17	moroccan caftan|takchita|moroccan kaftan|kaftan.{0,30}moroc|caftan.{0,30}moroc|(morocco|moroccan|fez|rabat).{0,30}(caftan|kaftan)
+H7-18	tlemcen|chedda
+H7-19	highland dress|\bkilt\b|sporran|belted plaid|feileadh|philabeg|trews
+H7-20	pollera
+H8-1	dumbara
+H8-2	noken|bilum
+H8-3	daluang|dluwang|deluwang|gedog paper
+H8-4	kumihimo|組紐|kumi-himo
+H8-5	maedeup|maedup|매듭|norigae
+H8-6	chaesang|채상
+H8-7	wancho|hwamunseok|화문석|sedge.{0,20}mat
+H8-8	ugandan barkcloth|olubugo|barkcloth making in uganda|(bark ?cloth).{0,30}(uganda|baganda|buganda)|(uganda|baganda|buganda).{0,30}(bark ?cloth)
+H8-9	mbuti|ituri	barkcloth|bark cloth|loincloth|cloth|textil|painting|pongo
+H8-10	agaseke|peace basket|rwanda.{0,30}basket|basket.{0,30}rwanda|^rwanda$	basket|lid|container|fibre|fiber
+H8-11	panama hat|toquilla|montecristi|jipijapa
+H8-12	\bpomo\b	basket|feather|tray|bowl|container|fibre|fiber|twined|coiled
+H8-13	hupa|kumeyaay|diegue|klamath|yokuts|modoc|cahuilla|maidu|mono paiute|kutzadika|washoe|washo\b|chemehuevi|shasta|yurok|karuk|karok|mono lake|wintu|miwok|chumash|panamint|tubatulabal|california	basket|hat|tray|bowl|container|coiled|twined|fiber|fibre|cap
+H8-14	spruce.root|tlingit.{0,30}basket|haida.{0,30}(basket|hat)|basket.{0,30}(tlingit|haida)	basket|hat|container|root
+H8-15	unangan|aleut|attu	basket|wallet|container|grass|twined|mat
+H8-16	cornhusk|corn husk|nez perce|niimíipuu|yakama|yakima|umatilla|wasco|wishxam|cayuse|warm springs	bag|wallet|twined|cornhusk|hemp|basket|hat
+H8-17	klikitat|klickitat|nlaka'pamux|thompson|interior salish|lillooet|st'at'imc|imbricated	basket|container|coiled|cradle|root|imbricat
+H8-18	apache|jicarilla|mescalero|chiricahua|san carlos	basket|olla|tray|jar|burden|tus|water bottle|coiled|twined
+H8-19	pima|akimel|o'odham|papago|tohono	basket|tray|bowl|olla|container|coiled|plaque|horsehair|kiaha
+H8-20	hopi|second mesa|third mesa|oraibi	basket|plaque|tray|yucca|wicker|sifter|bowl|coiled|wicker
+H8-21	rivercane|river cane|cherokee|choctaw|chitimacha|koasati|coushatta|alibamu|alabama	basket|cane|mat|sifter|container|double.weave|split
+H8-22	passamaquoddy|penobscot|maliseet|wolastoqiyik|mi'kmaq|micmac|mi'kmaw|abenaki|wabanaki	basket|splint|sweetgrass|ash|container|box|hamper
+H8-23	birchbark biting|birch bark biting|bitten birch|mazinibaganjigan|angelique merasty|birchbark bitings
+H8-24	tapa|siapo|ngatu|\bmasi\b|kapa\b|hiapo|barkcloth|bark cloth|bark-cloth|omie|maisin|nioge|fijian masi|samoan siapo|tongan ngatu|polynesian tapa
+H8-25	ie toga|'ie tōga|ʻie tōga|fine mat|kiekie|ta'ovala|taovala|pacific fine mats
+H8-26	aboriginal fibre|tjanpi|ghost net|dilly bag|dillybag|bicornual|pandanus.{0,20}(basket|weav|mat|bag)|aboriginal.{0,30}(basket|fibre|string bag|weav)
+H8-27	lalava|sennit|magimagi
+H8-28	sweetgrass basket|gullah|sea grass basket|mount pleasant.{0,20}basket
+H8-29	mayun
+H8-30	bastabinne|bast basket|spruce.bast
+H8-31	birch.bark|birchbark|beresta|tuohi|tuohikontti|tuesok|туес|берест|birch_bark_work|basketry$
+H8-32	shemogod|шемогод|шемогодск
+H8-33	pärekori|parekori|shingle basket|pulled shingles
+H8-34	kruunupyy|kronoby|clubrus|clubrush
+H8-35	himmeli|sodai|straw mobile|straw mobiles
+H8-36	straw weaving in belarus|belarus.{0,30}straw|straw.{0,30}belarus
+H8-37	turiisk|turiysk
+H8-38	\biza\b|vine weaving in iza
+H8-39	shchitky|pysarivka
+H8-40	wayuu|mochila|guajira|goajira
+H8-41	kiondo|ciondo|kikuyu.{0,20}basket|kamba.{0,20}basket
+H8-42	\bskep\b|straw beehive|bee skep
+H8-43	lightship basket|nantucket	basket
+H9-1	\bzulu\b	bead|necklace|apron|belt|cape|collar|headband|panel|isigolwane|ucu|anklet|bracelet|waistband|ornament
+H9-2	maasai|masai	bead|necklace|collar|earring|headdress|ornament|belt|bracelet|anklet|cape|jewel
+H9-3	yoruba	bead|crown|ade|diviner|bag|staff|panel|veil|ifa
+H9-4	feather mosaic|arte plumario|plumería|featherwork.{0,30}(mexic|aztec|new spain)|(mexic|aztec|new spain).{0,30}feather|amanteca|mexican feather mosaic
+H9-5	quillwork|quilled|porcupine quill|quill embroid
+H9-6	lakota|sioux|crow\b|apsáalooke|blackfeet|blackfoot|cheyenne|arapaho|kiowa|comanche|assiniboine|nakota|dakota|shoshone|nez perce|plains	bead|moccasin|vest|bag|pouch|cradle|dress|shirt|legging|saddle|bandolier|pipe bag|strike|belt|cuff|awl
+H9-7	raised beadwork|whimsy|whimsies|mohawk|kahnawake|akwesasne|tuscarora|seneca|haudenosaunee|iroquois	bead|pincushion|whimsy|purse|bag|frame|cap|sampler|mat|bead
+H9-8	wampum
+H9-9	hawaiian featherwork|ahu ula|ʻahu ʻula|mahiole|kahili|kāhili|feather cloak.{0,30}hawai|hawai.{0,30}feather|lei hulu|feather god|akua hulu manu
+H9-10	kahu huruhuru|kahu kiwi|kahu kura|kahu kereru|kahu kākā|feather cloak.{0,30}(maori|māori|new zealand)|(maori|māori).{0,30}feather cloak
+H10-1	jutti|mojari|khussa|juti\b
+H10-2	vaquero|western saddle|cowboy|charro|paniolo|sheridan style|buckaroo	saddle|boot|chaps|spur|holster|belt|bridle|leather|rawhide|reata|riata|tack|quirt|holster|cuff|gauntlet
+H10-3	fez.{0,30}leather|leather.{0,30}(morocco|fez|marrakech)|moroccan leather|babouche|morocco leather|(morocco|moroccan).{0,30}(pouf|slipper|cushion|bag|saddle|wallet|binding|leather|purse)

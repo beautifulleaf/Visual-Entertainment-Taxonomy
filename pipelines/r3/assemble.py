@@ -100,6 +100,8 @@ def build_va(src, tree, M, find_old, report):
             M.setdefault(to, []).append(r); moved += 1
     report["va_moved"] = moved
     # leaf metadata, sections, counts
+    orig_n = {code: l["n"] for code, (f, s, l) in leafobj.items()}
+    moved_from = {frm for R in results.values() for _, frm, _ in R.get("moves_out", [])}
     for code, (f, s, l) in leafobj.items():
         m = meta.get(code, {})
         for k in ("axis", "defn", "catalogues"):
@@ -117,7 +119,8 @@ def build_va(src, tree, M, find_old, report):
         for s in f["subs"]:
             keep = []
             for l in s["leaves"]:
-                if (l["code"] in replaced and l["n"] == 0) or "retired" in l["label"].lower():
+                emptied = l["code"] in replaced and l["n"] == 0 and orig_n.get(l["code"], 0) > 0 and l["code"] in moved_from
+                if emptied or "retired" in l["label"].lower():
                     gone.append([l["code"], l["label"]])
                 else:
                     keep.append(l)

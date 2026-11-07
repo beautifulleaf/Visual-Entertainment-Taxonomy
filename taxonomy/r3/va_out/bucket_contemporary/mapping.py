@@ -1,0 +1,130 @@
+# Assignments for bucket_contemporary. name -> target
+# target: existing leaf code outside the pass (moves_out), an in-pass code (row goes to that leaf),
+# or NEW:<key> for a new leaf; optional group via (target, group)
+
+def L(s):
+    return [x.strip() for x in s.split(';') if x.strip()]
+
+OUT = {}
+def put(target, names, group=None):
+    for n in L(names):
+        OUT[n] = (target, group)
+
+# ---- new leaves ----
+put('NEW:YBA', "Damien Hirst; Tracey Emin; Sarah Lucas; Marc Quinn; Angus Fairhurst; Michael Landy; Gary Hume; Fiona Rae; Ian Davenport; Glenn Brown; Simon Patterson", 'Goldsmiths circle and Freeze (1988)')
+put('NEW:YBA', "Rachel Whiteread; Gillian Wearing; Jake and Dinos Chapman; Jake Chapman; Dinos Chapman; Chris Ofili; Jenny Saville; Gavin Turk; Marcus Harvey; Mark Wallinger; Ron Mueck; Mark Francis; Richard Billingham; Keith Coventry; Alessandro Raho; Jason Martin", 'Saatchi and Sensation (1997) generation')
+put('NEW:YBA', "Douglas Gordon; Christine Borland; Tacita Dean; Fiona Banner; Adam Chodzko; Darren Almond; Jane and Louise Wilson", 'Turner Prize and film/video wing')
+
+put('NEW:NBS', "Tony Cragg; Bill Woodrow; Richard Deacon; Richard Wentworth; Antony Gormley; Anish Kapoor; Alison Wilding; Shirazeh Houshiary; Edward Allington; Stephen Cox; Julian Opie; Jean-Luc Vilmouth", 'Lisson Gallery generation (1980s)')
+
+put('NEW:PIC', "Troy Brauntuch; Sherrie Levine; Robert Longo; David Salle; Matt Mullican; James Welling", 'Artists Space Pictures show and CalArts circle')
+put('NEW:PIC', "Barbara Kruger; Richard Prince; Dara Birnbaum; Nancy Dwyer; Jimmy De Sana", 'New York appropriation circle')
+
+put('NEW:REL', "Rirkrit Tiravanija; Liam Gillick; Carsten Höller; Pierre Huyghe; Dominique Gonzalez-Foerster; Angela Bulloch; Jorge Pardo; Tobias Rehberger", 'Artists named in Relational Aesthetics (1998)')
+
+put('NEW:FBC', "Gilles Chaillet; Ever Meulen; Philippe Delaby; Jean-Luc Masbou; Hec Leemans; Jan Bosschaert", 'Belgian publishers and the Brussels-Marcinelle tradition')
+put('NEW:FBC', "Achdé; Yoann; Kamagurka; Philippe Geluck", 'Humour series and gag strips')
+put('NEW:FBC', "François Bourgeon; Max Cabanes; Enki Bilal; Jacques de Loustal; Jean-Marc Rochette; Alexis; Charles Berbérian; Jean-Louis Tripp; Olivier Ledroit; Frederik Peeters", 'Adult and auteur bande dessinée')
+put('NEW:FBC', "Marjane Satrapi; Guy Delisle", "L'Association and the graphic memoir")
+
+# ---- existing leaves outside the pass ----
+put('A5-98', "Hans Peter Adamski; Walter Dahn; Jiří Georg Dokoupil; Gerhard Naschberger; Helmut Middendorf; Salomé; Bernd Zimmer; Elvira Bach; Luciano Castelli; Martin Disler; Siegfried Anzinger; Erwin Bohatsch; Herbert Brandl; Mimmo Paladino; Enzo Cucchi; Francesco Clemente; Nicola De Maria; Robert Combas; Eric Fischl; Susan Rothenberg; Rick Prol; Wlodzimierz PAWLAK; Paweł Kowalewski")
+put('A5-104', "Billy Childish")
+put('A5-101', "Sonia Boyce; BLK Art Group")
+put('A5-102', "Mark Ryden")
+put('A5-103', "Barry McGee; Clare Rojas")
+put('A5-105', "Chiho Aoshima")
+put('A5-95', "Thomas Lanigan-Schmidt")
+put('A5-96', "Yigal Ozeri; Roberto Bernardi; Ben Johnson")
+put('A5-106', "Syed Sadequain; Ali Omar Ermes")
+put('A5-13', "Lin Onus; Richard Bell; Gordon Bennett; Gordon Hookey; Brook Andrew; Megan Cope; Archie Moore; d harding; Daniel Boyd; Yvonne Koolmatrie; Marlene Gilson")
+put('A5-80', "Luboš Plný")
+put('A6-3', "Jangarh Singh Shyam; Durga Bai Vyam")
+put('A6-31', "Celestin Faustin")
+put('A5-110', "Mahmoud SaÏd; Faik Hassan; Anwar Jelal Shemza; Ben Enwonwu")
+# misfiled pre-modern artists
+put('A1-2', "Mahmud Muzahhib; Habiballah Savaji")
+put('A5-20', "Pseudo-Pier Francesco Fiorentino")
+put('A5-29', "Filippo Falciatore")
+put('B2-13', "Orazio Scarabelli; Master L. Cz.; Master of the Small Landscapes")
+put('D5-112', "Vincenzo Onofri")
+put('A5-18', "Alvaro Pirez d'Evora")
+put('A5-112', "Master of Palanquinos")
+put('A5-22', "Meynnart Wewyck")
+put('A5-28', "Catharina van Knibbergen")
+put('A5-25', "Étienne Allegrain")
+put('D5-113', "Charles Hoyau")
+put('A5-30', "Mikhail Shibanov")
+put('A5-31', "Charles Martin Powell")
+put('B2-9', "J. & W. Beggarstaff; Grapus")
+put('B2-12', "Jan Sawka; Piotr Młodożeniec; Stasys Eidrigevičius")
+put('B2-6', "Germaine Arnaktauyok; Shuvinai Ashoona")
+put('D5-77', "David Ruben Piqtoukun; Abraham Anghik Ruben")
+put('B1-7', "Peter van Dongen")
+put('B1-9', "Jiro Taniguchi; Toshio Maeda; Yoshito Usui; Hitoshi Iwaaki; Ken Akamatsu")
+put('B1-3', "Eduardo Risso; Barry Windsor-Smith; Howard Chaykin; Peter Bagge; Cathy Guisewite; Jeff MacNelly; Eric Drooker; James Romberger")
+put('B1-5', "Joaquín Salvador Lavado, alias Quino; Godfrey Mwampembwa, alias Gado; Liniers; Lisbeth Zwerger; Axel Scheffler; Claude Ponti; Benjamin Lacombe; Manfred Deix; Charb; Tignous; Carlos Latuff; Julie Doucet; Milo Manara; Lorenzo Mattotti; Yoshitaka Amano; Hajime Sorayama; Alan Lee; Brian Froud; Chris Achilleos; John Higgins; David Lloyd; Bryan Talbot; Patrick Nagel; Julie Bell; Donato Giancola; Peter Sís; Eva Eriksson; Szarlota Pawel; Tadeusz Baranowski")
+put('J1-6', "Bernd and Hilla Becher")
+put('J1-13', "Robert Mapplethorpe; Robert MAPPLETHOPRE; Yasumasa Morimura; Abelardo Morell; Mário Cravo Neto; Miguel Rio Branco; Luis González Palma; Zwelethu Mthethwa; Dayanita Singh; Boris Smelov; Sergey Bratkov; Uta Barth; Loretta Lux; Thomas Demand; Vera Lutter; Patrick Nagatani; Catherine Wagner; Mark Ruwedel; Pablo Delano; Gavin Hipkins; Teun Hocks; Ruud van Empel; Lidwien van de Ven; Simcha Shirman; Kelechi Amadi-Obi; Mame-Diarra Niang; Laia Abril; Shirana Shahbazi; François Hers")
+put('J1-12', "Susan Meiselas; Lu Guang")
+put('J1-3', "Reza Deghati")
+put('M1-6', "Richard Long; Hamish Fulton; Chris Drury; David Nash; Roger Ackling; Alice Aycock; Lita Albuquerque; Danae Stratou; Nancy & SMITHSON, Robert Holt")
+put('M1-5', "Giuseppe Penone")
+put('M1-8', "Chris Burden; Tehching Hsieh; Laurie Anderson; Stelarc; Franko B; ORLAN; Tania Bruguera; Regina José Galindo; Oleg Kulik; Anatoly Osmolovsky; Roi Vaara; Nikhil Chopra; Melati Suryodarmo; William Pope.L; Tino Sehgal; Coco Fusco; Carlos Martiel; Jelili Atiku; Amanda Heng; Kate Gilmore; Pippa Bacca")
+put('M2-4', "Bill Viola; Gary Hill; Beryl Korot; Charles Atlas; Tony Oursler; Steina Vasulka; Tamara Krikorian; Robert Cahen; Pola Weiss Álvarez; Cecelia Condit; Ellen Pau; Dalibor Martinis; Klaus vom Bruch; Judith Barry")
+put('M2-2', "ubermorgen.com; Young-Hae Chang Heavy Industries")
+put('M2-1', "Tyler HOBBS; Kjetil GOLID; Dmitri CHERNIAK; LARVA LABS")
+put('M2-3', "AI-DA")
+put('D5-120', "Theo Jansen")
+put('K6-25', "Zaha Hadid")
+put('K6-19', "Ian Ritchie")
+put('K6-26', "Will Alsop; Santiago Calatrava; Thomas Heatherwick; Alberto Kalach; Smiljan Radic; Alexander Brodsky")
+put('I3-20', "Marc Newson; Marcel Wanders; Studio Swine; Tobi Wong; Arik Levy; Stefan Lindfors; Jiří Pelcl; Javier Mariscal; Bruno Ninaber van Eyben; Paula Scher; Samuel Ross")
+
+# ---- within the pass (row goes to that leaf, named group) ----
+put('M1-2', "Terry Atkinson; David Bainbridge; Michael Baldwin; Mel Ramsden; Ian Burn; Joseph Kosuth; Art & Language", 'Art & Language')
+put('M1-2', "Ilya & Emilia Kabakov; Andrey Monastyrsky; Irina Nakhova; Elena Elagina; Konstantin Zvezdochetov; Valeri Gerlovin; Rimma Gerlovina; Yuri Leiderman; Svetlana Kopystiansky; Vyacheslav Akhunov", 'Moscow Conceptualists')
+put('M1-2', "Rodney Graham; Ken Lum; Fernell Franco", 'Photoconceptualism')
+put('M1-2', "Luis Fernando Benedit", 'Centro de Arte y Comunicación (Grupo de los Trece)')
+put('M1-2', "Mark Lombardi", 'Neo-conceptual art')
+put('M1-2', "General Idea; Jorge Zontal", 'General Idea')
+put('M1-2', "IRWIN", 'Neue Slowenische Kunst')
+put('M1-2', "Mladen Stilinović; Sanja Iveković; Braco Dimitrijević; Gorgona Group", 'New Art Practice (Yugoslavia)')
+put('M1-1', "Robert Irwin; Peter Alexander; James Turrell; Mary Corse", 'Light and Space')
+put('M1-1', "Koji Enokura; Nobuo Sekine; Kishio Suga; Susumu Koshimizu; Noriyuki Haraguchi", 'Mono-ha')
+put('M1-1', "Gutai group; Minoru Onoda; Sadaharu Horio", 'Gutai Art Association')
+put('M1-1', "Ólafur Elíasson", 'Light art')
+put('M2-5', "Experiments in Art and Technology; Studio Azzurro; teamLab; Cory Arcangel", None)
+put('L2-51', "A1one; Faith47; Dare; DONDI; RETNA; John Fekner; Blek le Rat", None)
+
+# named groups kept in the leaf where the row already is
+GROUP = {}
+def grp(g, names):
+    for n in L(names): GROUP[n] = g
+grp('Neo-Geo', "Peter Halley; Ashley Bickerton; Meyer Vaisman; Philip Taaffe; Ross Bleckner")
+grp("Laboratoire Agit'Art", "Issa Samb; Bouna Medoune Seye")
+grp('New Leipzig School', "Neo Rauch; Christoph Ruckhäberle; Matthias Weischer; Tilo Baumgartel; Rosa Loy; Michael Triegel")
+grp('New Glasgow Boys', "Steven Campbell; Ken Currie; Peter Howson; Adrian Wiszniewski; Stephen Conroy")
+grp('Nuova Scuola Romana (Pastificio Cerere)', "Bruno Ceccobelli; Giuseppe Gallo; Nunzio Di Stefano; Domenico Bianchi")
+grp('Nueva Figuración Madrileña and La Movida', "Carlos Alcolea; Chema Cobo; Guillermo Pérez Villalta; El Hortelano; Ouka Leele")
+grp('Neomexicanismo', "Julio Galán; Nahum B. Zenil; Adolfo Patiño")
+grp('Stars Art Group', "Huang Rui; Wang Keping; Ai Weiwei; Li Shuang")
+grp("'85 New Wave groups", "Huang Yong Ping; Zhang Peili; Geng Jianyi; Zhang Xiaogang; MAO Xuhui; Wang Guangyi; Chen Shaoxiong; Gu Wenda; Xu Bing")
+grp('Scar Art and Sichuan Rustic Realism', "Luo Zhongli; He Duoling; Cheng Conglin; Zhou Chunya; Chen Danqing")
+grp('Cynical Realism', "Fang Lijun; Yue Minjun")
+grp('Beijing East Village', "Zhang Huan; Ma Liuming")
+grp('New Literati Painting', "Zhu Xinjian; Li Jin; Xu Lele")
+grp('Congolese popular painting (Kinshasa)', "Chéri Samba; Moké; Cheik Ledy; Tshibumba Kanda Matulu")
+grp('Ukrainian New Wave', "Oleg Tistol; Alexander Roitburd; Oleksandr Hnylytsky; Oleg Holosiy")
+grp('New Academy of Fine Arts (St Petersburg)', "Timur Novikov; Georgy Guryanov; Olga Tobreluts; Vlad Mamyshev Monroe")
+grp('Sots Art', "Alexander Melamid")
+grp('Sámi artists (Máze Group and after)', "Máze Group; Hans Ragnar Mathisen; Hans Ragnar Mathisen/Keviselie; Synnøve Persen; Máret Ánne Sara; Outi Pieski; Joar Nango with the Girjegumpi crew")
+grp('Lahore neo-miniature (National College of Arts)', "Aisha Khalid; Nusra Latif Qureshi; Shahzia Sikander; Khadim Ali")
+grp('Contemporary Māori art', "Shane Cotton; Brett Graham; Michael Parekōwhai; Lisa Reihana; Shona Rapira Davies; Saffronn Te Ratana; Lonnie Hutchinson; Nikau Hindin; Terri Te Tau; Ana Iti; Mata Aho Collective; Kahurangiariki Smith")
+grp('First Nations and Inuit artists (Canada)', "Robert Houle; Jane Ash Poitras; Rebecca Belmore; Kent Monkman; Brian Jungen; Sonny Assu; Duane Linklater; Nadia Myre; Bonnie Devine; Shelley Niro; Kimowan Metchewais; Beau Dick; Michael Nicoll Yahgulanaas; Richard Hunt; Gabrielle L'Hirondelle Hill; Caroline Monnet")
+grp('Native American artists (United States)', "T. C. Cannon; Earl Biss; Rick Bartow; James Lavadour; Edgar Heap of Birds; Emmi Whitehorse; Brad Kahlhamer; Tony Abeyta; Melanie Yazzie; Steven Yazzie; Jeffrey Gibson; Dyani White Hawk; Cannupa Hanska Luger; Natalie Ball; Wendy Red Star; Roxanne Swentzell; Rose B. Simpson; Marilou Schultz; Raven Chacon; Raven Chacon with Iggor Cavalera & Laima Leyton; Postcommodity; Sky Hopinka; Frohawk Two Feathers")
+grp('Chicano art movement', "Judithe Hernández; Gronk; Carmen Lomas Garza; Judy Baca; Enrique Chagoya; Alma Lopez")
+grp('Feminist art movement (1970s founders)', "Hannah Wilke; Faith Wilding; Adrian Piper; Mónica Mayer; Birgit Jürgenssen; Eugènia Balcells; Eulàlia Grau; Julie Rrap; Ana Mendieta; Pacita Abad; Kim Dingle; Andrea Bowers; Andrea Fraser; Janine Antoni; Sokari Douglas Camp; Rose Finn-Kelcey; Cosey Fanni Tutti")
+grp('Yanomami and Amazonian Indigenous artists', "Aida Harika Yanomami, Edmar Tokorino Yanomami & Roseane Yariana Yanomami; André Taniki Yanomami; Joseca Mokahesi Yanomami; Morzaniel Ɨramari; Sheroanawe Hakihiiwe; Jaider Esbell; Denilson Baniwa; Mahku - Huni Kuin Artists Movement; Santiago Yahuarcani; Rember Yahuarcani; Gabriel Gentil Tukano; Aislan Pankararu")
+grp('Toyism', "")
+JUNK = set(L("date=20 October 2022}}; No award; O B; LY; NIKKI; mandla; Al-53167; Buenos Aires; CREATIVE TIME SUMMIT; E-FLUX JOURNAL; So Crates"))
