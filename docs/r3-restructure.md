@@ -52,4 +52,5 @@ Also the 21st Century Starting List (https://theyshootpictures.com/21stcentury_s
   - VA: 14 entries noted in a sibling leaf removed, 17 shared terms qualified by culture; see references cleaned of pass names and relinked by label (both tabs).
   - Left as is: 3 one-title sections that are attested cycles, the Naschy section of Fantaterror (actor-auteur), 16 uneven sub-families (they reflect real tradition sizes).
   - Copy button: the leaf's code and label, then one line per group or section, names comma-separated.
+  - Published as **version 8** (1794021245-c666).
 
