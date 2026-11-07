@@ -63,9 +63,28 @@ def strip_poss(g):
 def maker_gloss(r):
     ev = r[5] if len(r) > 5 and isinstance(r[5], dict) else {}
     parts = []
-    if ev.get('birth'): parts.append('born ' + str(ev['birth'])[:4])
-    if ev.get('countries'): parts.append('active in ' + ev['countries'].replace('|', ', '))
-    return '; '.join(parts)
+    b = str(ev.get('birth') or '').strip()
+    if re.match(r'^-?\d+', b):
+        y = int(re.match(r'^-?\d+', b).group(0))
+        parts.append(f'born c. {-y} BC' if y < 0 else f'born {y}')
+    if ev.get('countries'):
+        cs = []
+        for x in re.split(r'[|,]\s*', ev['countries']):
+            x = x.strip()
+            x = {'United Kingdom of Great Britain and Ireland': 'United Kingdom', 'Kingdom of Great Britain': 'United Kingdom',
+                 'Classical Athens': 'Athens', 'Ionian League': 'Ionia'}.get(x, x)
+            if x and x not in cs: cs.append(x)
+        if cs: parts.append('active in ' + ', '.join(cs[:3]))
+    return '; '.join(parts)[:140]
+
+def yearkey(x):
+    g = x[2]
+    m = re.search(r'born c\. (\d+) BC', g)
+    if m: return -int(m.group(1))
+    m = re.search(r'(?:born |^)c?\.?\s*(\d{3,4})', g)
+    if m: return int(m.group(1))
+    m = re.search(r'\b(\d{3,4})\b', g)
+    return int(m.group(1)) if m else 9999
 
 def clean_gloss(g, src):
     g = g or ''
@@ -341,7 +360,7 @@ for c in CODES:
         nsrc = src
         if src.startswith('possession') and purl: nsrc = 'possession ' + purl
         elif src.startswith('possession'): nsrc = 'possession'
-        kinds.append([name, ng, gl[:200], nsrc, 1 if isM else 0])
+        kinds.append([name, ng, gl[:140], nsrc, 1 if isM else 0])
     # empty-name maker rows
     for r in L['rows']:
         if r[0] == '' and (r[4] or r[1] == 'Artists'):
@@ -349,7 +368,7 @@ for c in CODES:
     for a in k['add']:
         g, n, gl, s, m = a
         if g == 'Works': g = 'Named works'
-        kinds.append([n, g, gl[:200], 'r3 ' + wurl(s), int(m)])
+        kinds.append([n, g, gl[:140], 'r3 ' + wurl(s), int(m)])
         report['added'] += 1
     # computed works and collections
     lw = set(w for w in re.findall(r"[a-zà-ÿ']+", (L['label'] + ' ' + (L['aliases'] or '')).lower()) if len(w) > 2)
@@ -360,7 +379,10 @@ for c in CODES:
     report['works'] += len(works); report['coll'] += len(coll)
     # order
     idx = {id(x): i for i, x in enumerate(kinds)}
-    kinds.sort(key=lambda x: (grank(x[1], Gorder), idx[id(x)]))
+    gm = collections.defaultdict(list)
+    for x in kinds: gm[x[1]].append(x)
+    allmk = {g: all(y[4] for y in v) for g, v in gm.items()}
+    kinds.sort(key=lambda x: (grank(x[1], Gorder), yearkey(x) if allmk[x[1]] else 0, idx[id(x)]))
     gseq = []
     for x in kinds:
         g = 'Titled objects (by object type)' if x[1].startswith('Titled objects') else x[1]
@@ -377,6 +399,55 @@ for c in CODES:
     entry = {'axis': axis, 'catalogues': [[x[0], x[1], x[2]] for x in k['cats']], 'kinds': kinds, 'alias_rows': aliases}
     if k['defn']: entry['defn'] = k['defn']
     out['leaves'][c] = entry
+
+
+# ---------------- Wikipedia existence fallback ----------------
+import urllib.parse
+MAN = {'Mask of Pakal': 'Palenque', 'Kunz Axe': 'Olmecs', 'Adda Seal': 'Cylinder seal', 'Auldjo Jug': 'Cameo glass',
+ 'Shaka Triad (Hōryū-ji)': 'Hōryū-ji', 'Ashura (Kōfuku-ji)': 'Kōfuku-ji', 'Nandaimon (Tōdai-ji)': 'Tōdai-ji',
+ 'Pensive Bodhisattva (National Treasure No. 83)': 'Korean Buddhist sculpture', 'Verdun Altar': 'Nicholas of Verdun',
+ 'Pórtico da Gloria': 'Santiago de Compostela Cathedral', "Baptismal font in St Bartholomew's Church": 'Renier de Huy',
+ 'Great East Window': 'York Minster', 'John Thornton (glazier)': 'York Minster', 'Duho': 'Taíno', 'Zlan': 'Dan people',
+ 'Kavad': 'Chittorgarh district', 'Sbek thom': 'Khmer shadow theatre', 'Tsoede bronzes': 'Lower Niger Bronze Industries',
+ 'Djenné-Djeno': 'Djenné', 'Koma Land': 'Koma people', 'Nomoli': 'Sherbro people', 'José Rafael Aragón': 'Santero',
+ 'Pedro Antonio Fresquís': 'Santero', 'Patrocinio Barela': 'Santero', 'Byeri': 'Fang people', 'Japanese glass': 'Edo kiriko',
+ 'Gothic ivory': 'Ivory carving', 'Siculo-Arabic ivories': 'Ivory carving',
+ 'Polkhovsky Maidan': 'https://goskatalog.ru/portal/', 'Bogorodskoye carving': 'https://goskatalog.ru/portal/',
+ 'Abashevo toy': 'https://goskatalog.ru/portal/', 'Vaivaisukko': 'https://fi.wikipedia.org/wiki/Vaivaisukko',
+ 'Mwana Pwo': 'Chokwe people', 'Sowei mask': 'Sande society', 'Mapiko': 'Makonde people', 'Hamatsa': "Kwakwaka'wakw",
+ 'Loetz': 'Art Nouveau glass art', 'Benin Ivory Mask': 'Benin Bronzes', 'Old Bering Sea culture': 'Old Bering Sea',
+ 'Okvik': 'Old Bering Sea', 'Punuk culture': 'Old Bering Sea', 'Cham sculpture': 'Art of Champa', 'Venus of Valdivia': 'Valdivia culture',
+ 'Moser (glass)': 'Moser (glass company)'}
+def wtitle(u):
+    m = re.match(r'https://en\.wikipedia\.org/wiki/(.+)$', u)
+    return urllib.parse.unquote(m.group(1)).replace('_', ' ') if m else None
+def wexists(t):
+    v = WIKICHK.get(t)
+    return True if v is None else v['exists']
+for c, e in out['leaves'].items():
+    good = collections.Counter()
+    for x in e['kinds']:
+        if x[3].startswith('r3 '):
+            t = wtitle(x[3][3:])
+            if t and wexists(t) and t not in MAN: good[t] += 1
+    fb = good.most_common(1)[0][0] if good else None
+    for x in e['kinds']:
+        if not x[3].startswith('r3 '): continue
+        t = wtitle(x[3][3:])
+        if not t: continue
+        if t in MAN:
+            rep = MAN[t]; x[3] = 'r3 ' + (rep if rep.startswith('http') else wurl(rep))
+        elif not wexists(t):
+            if fb: x[3] = 'r3 ' + wurl(fb)
+            else: print('WARN no fallback', c, t)
+    cats = []
+    for cat in e['catalogues']:
+        t = wtitle(cat[0])
+        if t and not wexists(t):
+            if t in MAN and not MAN[t].startswith('http'): cat = [wurl(MAN[t]), 'Wikipedia: ' + MAN[t], cat[2]]
+            else: print('drop catalogue', c, cat[0]); continue
+        cats.append(cat)
+    e['catalogues'] = cats
 
 json.dump(out, open(OUT, 'w'), ensure_ascii=False, indent=0)
 print(dict(report))

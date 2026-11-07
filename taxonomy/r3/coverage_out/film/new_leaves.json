@@ -141,6 +141,21 @@
   ]
  },
  {
+  "key": "NEW_A6_BERG",
+  "sub": "A6",
+  "label": "Bergfilm (Mountain Film)",
+  "breadth": "national genre",
+  "defn": "The German mountain film of the 1920s–30s (Arnold Fanck, Leni Riefenstahl, Luis Trenker): real Alpine climbing and skiing photographed on location, elemental storms and avalanches, romantic rivalry and heroic summits (<i>The Holy Mountain</i>, <i>The White Hell of Pitz Palu</i>, <i>The Blue Light</i>).",
+  "aliases": "mountain film",
+  "see": "A19-22 Mountaineering & Expedition Film",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Mountain_film",
+    "Wikipedia"
+   ]
+  ]
+ },
+ {
   "key": "NEW_A7_LUCHA",
   "sub": "A7",
   "label": "Lucha Film",
@@ -186,6 +201,100 @@
   ]
  },
  {
+  "key": "NEW_A12_SEXY",
+  "sub": "A12",
+  "label": "Commedia sexy all'italiana",
+  "breadth": "national cycle",
+  "defn": "The Italian erotic comedy cycle of c. 1970–1985: schoolteachers, nurses, policewomen and maids (Edwige Fenech, Gloria Guida, Lino Banfi, Alvaro Vitali) in bawdy, voyeuristic farces descended from the commedia all'italiana and the decamerotici (<i>Malizia</i>, <i>L'insegnante</i>).",
+  "aliases": "Italian sex comedy",
+  "see": "A12-10 Commedia all'italiana; A12-40 Sex Comedy",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Commedia_sexy_all%27italiana",
+    "Wikipedia"
+   ]
+  ]
+ },
+ {
+  "key": "NEW_A12_CARRYON",
+  "sub": "A12",
+  "label": "Carry On Film",
+  "breadth": "national cycle",
+  "defn": "The British Carry On series (Peter Rogers and Gerald Thomas, 1958–1978, revived 1992): seaside-postcard innuendo, a stock company (Sid James, Kenneth Williams, Hattie Jacques, Barbara Windsor) and genre and institution parodies (<i>Carry On Nurse</i>, <i>Carry On Up the Khyber</i>).",
+  "aliases": "Carry On series",
+  "see": "A12-7 Farce; A12-9 Ealing Comedy",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Carry_On_(franchise)",
+    "Wikipedia"
+   ]
+  ]
+ },
+ {
+  "key": "NEW_A12_CHANCHADA",
+  "sub": "A12",
+  "label": "Chanchada",
+  "breadth": "national cycle",
+  "defn": "The Brazilian popular musical comedy of the 1930s–1950s, above all Atlântida's carnival films with Oscarito and Grande Otelo: samba numbers, burlesque and parodies of Hollywood (<i>Carnaval Atlântida</i>, <i>Nem Sansão Nem Dalila</i>). Its erotic successor is A15-6 Pornochanchada.",
+  "aliases": "",
+  "see": "A15-6 Pornochanchada",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Chanchada",
+    "Wikipedia"
+   ]
+  ]
+ },
+ {
+  "key": "NEW_A13_TELEFONI",
+  "sub": "A13",
+  "label": "Telefoni Bianchi",
+  "breadth": "national cycle",
+  "defn": "The Italian sentimental and sophisticated comedies of c. 1932–1943 ('white telephone' films), set among department stores, hotels and Art Deco apartments, after Hollywood and Hungarian models (Mario Camerini, Vittorio De Sica, Mario Soldati): <i>What Scoundrels Men Are!</i>, <i>Il signor Max</i>.",
+  "aliases": "white telephone films",
+  "see": "A13-11 Pink Neorealism",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Telefoni_Bianchi",
+    "Wikipedia"
+   ]
+  ]
+ },
+ {
+  "key": "NEW_A14_RANCHERA",
+  "sub": "A14",
+  "label": "Comedia Ranchera",
+  "breadth": "national genre",
+  "defn": "The Mexican ranch musical of the Golden Age (1936–1950s): singing charros (Tito Guízar, Jorge Negrete, Pedro Infante), haciendas, serenades, cockfights and rival suitors (<i>Allá en el Rancho Grande</i>, <i>¡Ay Jalisco, no te rajes!</i>, <i>Dos tipos de cuidado</i>).",
+  "aliases": "ranchera film; charro film",
+  "see": "A14-12 Rumberas Film; A10-5 Musical Western",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Golden_Age_of_Mexican_Cinema",
+    "Wikipedia"
+   ],
+   [
+    "https://en.wikipedia.org/wiki/All%C3%A1_en_el_Rancho_Grande",
+    "Wikipedia"
+   ]
+  ]
+ },
+ {
+  "key": "NEW_A14_HUANGMEI",
+  "sub": "A14",
+  "label": "Huangmei Opera Film",
+  "breadth": "national genre",
+  "defn": "The sung costume romance in Huangmei-opera style, launched in Hong Kong by Li Han-hsiang at Shaw Brothers (1958–1960s) after the mainland <i>Heavenly Match</i>: legendary lovers, cross-dressing heroines, palace and garden sets (<i>The Kingdom and the Beauty</i>, <i>The Love Eterne</i>).",
+  "aliases": "huangmei diao film",
+  "see": "A14-5 Opera Film & Sung-Through Musical",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Huangmei_opera",
+    "Wikipedia"
+   ]
+  ]
+ },
+ {
   "key": "NEW_A15_CAT3",
   "sub": "A15",
   "label": "Hong Kong Category III Film",
@@ -203,6 +312,111 @@
   "secs": [
    "Erotic Category III",
    "True-Crime & Shock Category III"
+  ]
+ },
+ {
+  "key": "NEW_A16_PRECODE",
+  "sub": "A16",
+  "label": "Pre-Code Hollywood Film",
+  "breadth": "era cycle",
+  "defn": "The Hollywood dramas of c. 1929–1934, between the coming of sound and strict enforcement of the Production Code, that treated sex, adultery, prostitution, crime and Depression misery with a frankness later forbidden (<i>Baby Face</i>, <i>Red-Headed Woman</i>, <i>Heroes for Sale</i>). Pre-Code gangster, horror and musical films stay in their genres.",
+  "aliases": "pre-Code",
+  "see": "A2-1 Gangster Film (Classical Gangster Cycle)",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Pre-Code_Hollywood",
+    "Wikipedia"
+   ]
+  ],
+  "axis": "the era's own cycles",
+  "secs": [
+   "Fallen Women & Kept Women",
+   "Gold Diggers & Working Girls",
+   "Social-Conscience & Forgotten-Man Films"
+  ]
+ },
+ {
+  "key": "NEW_A16_BRATPACK",
+  "sub": "A16",
+  "label": "Brat Pack Film",
+  "breadth": "era cycle",
+  "defn": "The mid-1980s American youth films starring the 'Brat Pack' (Emilio Estevez, Molly Ringwald, Judd Nelson, Ally Sheedy, Andrew McCarthy, Rob Lowe, Demi Moore, Anthony Michael Hall), above all John Hughes's teen films and Joel Schumacher's post-college ensemble (<i>The Breakfast Club</i>, <i>St. Elmo's Fire</i>).",
+  "aliases": "",
+  "see": "A16-14 Teen Film; A12-37 Teen Comedy",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Brat_Pack_(actors)",
+    "Wikipedia"
+   ]
+  ]
+ },
+ {
+  "key": "NEW_A16_HEIMAT",
+  "sub": "A16",
+  "label": "Heimatfilm",
+  "breadth": "national genre",
+  "defn": "The German and Austrian homeland film, dominant c. 1947–1960s: Alpine, Black Forest and heath landscapes, foresters, dirndls, folk song and reconciled village communities (<i>Black Forest Girl</i>, <i>Grün ist die Heide</i>), and the critical Neuer or Anti-Heimatfilm of the late 1960s–70s that inverted it.",
+  "aliases": "homeland film",
+  "see": "",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Heimatfilm",
+    "Wikipedia"
+   ]
+  ],
+  "axis": "phase",
+  "secs": [
+   "Classic Heimatfilm (1947–1960s)",
+   "Anti-Heimatfilm (1968–1970s)"
+  ]
+ },
+ {
+  "key": "NEW_A16_RUBBLE",
+  "sub": "A16",
+  "label": "Rubble Film (Trümmerfilm)",
+  "breadth": "era cycle",
+  "defn": "The German films of 1946–1949 shot among the bombed ruins, about guilt, returning soldiers, black markets and survival in the immediate post-war (<i>The Murderers Are Among Us</i>, <i>In Those Days</i>).",
+  "aliases": "Trümmerfilm",
+  "see": "A1-5 Italian Neorealism",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Rubble_film",
+    "Wikipedia"
+   ]
+  ]
+ },
+ {
+  "key": "NEW_A18_OZPLOIT",
+  "sub": "A18",
+  "label": "Ozploitation",
+  "breadth": "national cycle",
+  "defn": "The Australian low-budget exploitation boom of c. 1971–1990 under the 10BA tax concession: ocker sex comedies, bikie films, outback horror, kung-fu and car-crash action (<i>Stone</i>, <i>Alvin Purple</i>, <i>Patrick</i>, <i>Turkey Shoot</i>, <i>Dead End Drive-In</i>).",
+  "aliases": "Australian exploitation film",
+  "see": "A1-23 Australian New Wave; A10-10 Meat Pie Western",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Ozploitation",
+    "Wikipedia"
+   ]
+  ]
+ },
+ {
+  "key": "NEW_A20_LETTRIST",
+  "sub": "A20",
+  "label": "Lettrist & Situationist Cinema",
+  "breadth": "movement",
+  "defn": "The Paris avant-garde of Isidore Isou's Lettrists (1951–1952) and Guy Debord's Situationist International: 'discrepant' and anti-films that separate sound from image, scratch and blank the film strip, and détourn found images against the spectacle (<i>Venom and Eternity</i>, <i>Howlings in Favour of de Sade</i>, <i>The Society of the Spectacle</i>).",
+  "aliases": "Lettrist film; discrepant cinema",
+  "see": "A19-4 Essay Film; A20-4 Found-Footage Film",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Lettrism",
+    "Wikipedia"
+   ],
+   [
+    "https://en.wikipedia.org/wiki/Situationist_International",
+    "Wikipedia"
+   ]
   ]
  }
 ]

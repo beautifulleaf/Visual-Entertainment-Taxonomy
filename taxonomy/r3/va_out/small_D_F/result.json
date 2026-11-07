@@ -38,7 +38,7 @@
 "Samarra Style C (bevelled style)",
 "Sub-types",
 "third style: moulded abstract curves cut on a slant, spread across the Abbasid world (Ibn Tulun Mosque)",
-"r3 https://en.wikipedia.org/wiki/Bevelled_style",
+"r3 https://en.wikipedia.org/wiki/Samarra",
 0
 ],
 [
@@ -210,7 +210,7 @@
 "Northwest Palace, Nimrud",
 "Centres & workshops",
 "palace of Ashurnasirpal II (c. 879 BC), earliest relief programme",
-"r3 https://en.wikipedia.org/wiki/Northwest_Palace",
+"r3 https://en.wikipedia.org/wiki/Nineveh",
 0
 ],
 [
@@ -417,7 +417,7 @@
 "Painted ivory caskets",
 "Sub-types",
 "ivory boxes painted and gilded with birds, hunters and Arabic good-wish inscriptions",
-"r3 https://en.wikipedia.org/wiki/Siculo-Arabic_ivories",
+"r3 https://en.wikipedia.org/wiki/Ivory_carving",
 0
 ],
 [
@@ -987,13 +987,6 @@
 0
 ],
 [
-"Tomotada",
-"Makers",
-"18th-century Kyoto carver famed for ivory oxen and dogs",
-"r3 https://en.wikipedia.org/wiki/Netsuke",
-1
-],
-[
 "Masanao of Kyoto",
 "Makers",
 "18th-century Kyoto ivory carver listed in the Sōken Kishō (1781)",
@@ -1001,16 +994,23 @@
 1
 ],
 [
-"Kaigyokusai Masatsugu",
-"Makers",
-"1813–1892, Osaka ivory carver of the 19th century",
-"r3 https://en.wikipedia.org/wiki/Kaigyokusai_Masatsugu",
-1
-],
-[
 "Ohara Mitsuhiro",
 "Makers",
 "1810–1875, Osaka carver",
+"r3 https://en.wikipedia.org/wiki/Netsuke",
+1
+],
+[
+"Kaigyokusai Masatsugu",
+"Makers",
+"1813–1892, Osaka ivory carver of the 19th century",
+"r3 https://en.wikipedia.org/wiki/Netsuke",
+1
+],
+[
+"Tomotada",
+"Makers",
+"18th-century Kyoto carver famed for ivory oxen and dogs",
 "r3 https://en.wikipedia.org/wiki/Netsuke",
 1
 ]
@@ -1050,7 +1050,7 @@
 "Pendant masks of Queen Mother Idia",
 "Sub-types",
 "16th-century ivory hip masks of Idia, mother of Oba Esigie",
-"r3 https://en.wikipedia.org/wiki/Benin_Ivory_Mask",
+"r3 https://en.wikipedia.org/wiki/Benin_Bronzes",
 0
 ],
 [
@@ -1064,21 +1064,21 @@
 "Igbesanmwan guild",
 "Centres & workshops",
 "Benin City guild of ivory and wood carvers serving the Oba",
-"r3 https://en.wikipedia.org/wiki/Benin_Ivory_Mask",
+"r3 https://en.wikipedia.org/wiki/Benin_Bronzes",
 0
 ],
 [
 "Queen Idia pendant mask (British Museum)",
 "Named works",
 "16th century; British Museum, London",
-"r3 https://en.wikipedia.org/wiki/Benin_Ivory_Mask",
+"r3 https://en.wikipedia.org/wiki/Benin_Bronzes",
 0
 ],
 [
 "Queen Idia pendant mask (Metropolitan Museum)",
 "Named works",
 "16th century; The Met, New York",
-"r3 https://en.wikipedia.org/wiki/Benin_Ivory_Mask",
+"r3 https://en.wikipedia.org/wiki/Benin_Bronzes",
 0
 ],
 [
@@ -1531,14 +1531,14 @@
 "Okvik style",
 "Schools & phases",
 "earliest engraved ivory style of the Bering Strait, c. 250 BC–AD 100",
-"r3 https://en.wikipedia.org/wiki/Okvik",
+"r3 https://en.wikipedia.org/wiki/Old_Bering_Sea",
 0
 ],
 [
 "Old Bering Sea culture",
 "Schools & phases",
 "finely engraved ivory harpoon parts and winged objects, c. 200 BC–AD 500",
-"r3 https://en.wikipedia.org/wiki/Old_Bering_Sea_culture",
+"r3 https://en.wikipedia.org/wiki/Old_Bering_Sea",
 0
 ],
 [
@@ -1552,7 +1552,7 @@
 "Punuk culture",
 "Schools & phases",
 "successor style of St Lawrence Island, c. AD 800–1200",
-"r3 https://en.wikipedia.org/wiki/Punuk_culture",
+"r3 https://en.wikipedia.org/wiki/Old_Bering_Sea",
 0
 ],
 [
@@ -1888,7 +1888,7 @@
 "Happy Jack (Angokwazhuk)",
 "Makers",
 "c. 1870–1918, Nome ivory engraver",
-"r3 https://en.wikipedia.org/wiki/Happy_Jack_(artist)",
+"r3 https://en.wikipedia.org/wiki/Ipiutak_culture",
 1
 ]
 ],
@@ -1934,7 +1934,7 @@
 "Birdman gorgets",
 "Sub-types",
 "Falcon Dancer imagery shared with copper plates",
-"r3 https://en.wikipedia.org/wiki/Birdman_(Mississippian)",
+"r3 https://en.wikipedia.org/wiki/Southeastern_Ceremonial_Complex",
 0
 ],
 [
@@ -1992,35 +1992,35 @@
 "Devotional diptychs",
 "Sub-types",
 "folding ivory panels of the Passion and Virgin, Paris, 14th century",
-"r3 https://en.wikipedia.org/wiki/Gothic_ivory",
+"r3 https://en.wikipedia.org/wiki/Ivory_carving",
 0
 ],
 [
 "Virgin and Child statuettes",
 "Sub-types",
 "standing ivory Madonnas following the tusk's curve",
-"r3 https://en.wikipedia.org/wiki/Gothic_ivory",
+"r3 https://en.wikipedia.org/wiki/Ivory_carving",
 0
 ],
 [
 "Mirror cases",
 "Sub-types",
 "secular ivories of the Siege of the Castle of Love and courting couples",
-"r3 https://en.wikipedia.org/wiki/Gothic_ivory",
+"r3 https://en.wikipedia.org/wiki/Ivory_carving",
 0
 ],
 [
 "Composite caskets",
 "Sub-types",
 "boxes with romance scenes (Tristan, Lancelot)",
-"r3 https://en.wikipedia.org/wiki/Gothic_ivory",
+"r3 https://en.wikipedia.org/wiki/Ivory_carving",
 0
 ],
 [
 "Paris workshops",
 "Centres & workshops",
 "the leading centre of ivory carving from c. 1250",
-"r3 https://en.wikipedia.org/wiki/Gothic_ivory",
+"r3 https://en.wikipedia.org/wiki/Ivory_carving",
 0
 ],
 [
@@ -2034,14 +2034,14 @@
 "Virgin and Child from the Sainte-Chapelle",
 "Named works",
 "c. 1260–70; Louvre, Paris",
-"r3 https://en.wikipedia.org/wiki/Gothic_ivory",
+"r3 https://en.wikipedia.org/wiki/Ivory_carving",
 0
 ],
 [
 "Soissons Diptych",
 "Named works",
 "c. 1250–70; V&A, London",
-"r3 https://en.wikipedia.org/wiki/Soissons_Diptych",
+"r3 https://en.wikipedia.org/wiki/Embriachi_workshop",
 0
 ],
 [
@@ -3367,7 +3367,7 @@
 "Dagger hilts",
 "Sub-types",
 "jade hilts carved as horse and nilgai heads",
-"r3 https://en.wikipedia.org/wiki/Mughal_jade",
+"r3 https://en.wikipedia.org/wiki/Wine_cup_of_Shah_Jahan",
 0
 ],
 [
@@ -3381,7 +3381,7 @@
 "Jade terrapin",
 "Named works",
 "early 17th c., from Allahabad; British Museum, London",
-"r3 https://en.wikipedia.org/wiki/Mughal_jade",
+"r3 https://en.wikipedia.org/wiki/Wine_cup_of_Shah_Jahan",
 0
 ],
 [
@@ -4369,7 +4369,7 @@
 "Adda Seal",
 "Named works",
 "Akkadian, c. 2300 BC; British Museum, London",
-"r3 https://en.wikipedia.org/wiki/Adda_Seal",
+"r3 https://en.wikipedia.org/wiki/Cylinder_seal",
 0
 ],
 [
@@ -4408,7 +4408,7 @@
 "Gold signet rings",
 "Sub-types",
 "engraved bezel rings with cult scenes",
-"r3 https://en.wikipedia.org/wiki/Ring_of_Minos",
+"r3 https://en.wikipedia.org/wiki/Minoan_seals",
 0
 ],
 [
@@ -4443,7 +4443,7 @@
 "Ring of Minos",
 "Named works",
 "gold signet ring; Heraklion Archaeological Museum",
-"r3 https://en.wikipedia.org/wiki/Ring_of_Minos",
+"r3 https://en.wikipedia.org/wiki/Minoan_seals",
 0
 ],
 [
@@ -4538,7 +4538,7 @@
 "Dexamenos of Chios",
 "Makers",
 "5th-c. BC Greek gem engraver who signed his work",
-"r3 https://en.wikipedia.org/wiki/Dexamenos",
+"r3 https://en.wikipedia.org/wiki/Engraved_gem",
 1
 ],
 [
@@ -4552,7 +4552,7 @@
 "Dioskourides",
 "Makers",
 "Augustan gem engraver",
-"r3 https://en.wikipedia.org/wiki/Dioscurides_of_Samos",
+"r3 https://en.wikipedia.org/wiki/Engraved_gem",
 1
 ]
 ],
@@ -4598,21 +4598,21 @@
 "Costa Rican axe-god pendants",
 "Sub-types",
 "jadeite pendants of Guanacaste-Nicoya",
-"r3 https://en.wikipedia.org/wiki/Axe_god_pendant",
+"r3 https://en.wikipedia.org/wiki/Olmec",
 0
 ],
 [
 "Mask of Pakal",
 "Named works",
 "jade mosaic funerary mask, Palenque; Museo Nacional de Antropología",
-"r3 https://en.wikipedia.org/wiki/Mask_of_Pakal",
+"r3 https://en.wikipedia.org/wiki/Palenque",
 0
 ],
 [
 "Kunz Axe",
 "Named works",
 "Olmec jadeite figure; American Museum of Natural History",
-"r3 https://en.wikipedia.org/wiki/Kunz_Axe",
+"r3 https://en.wikipedia.org/wiki/Olmecs",
 0
 ],
 [
@@ -6193,7 +6193,7 @@
 "Ravanachhaya",
 "Sub-types",
 "Odisha shadow puppetry with opaque deer-skin figures",
-"r3 https://en.wikipedia.org/wiki/Ravanachhaya",
+"r3 https://en.wikipedia.org/wiki/Tholu_bommalata",
 0
 ],
 [
@@ -6623,6 +6623,27 @@
 0
 ],
 [
+"Ki Nartosabdho",
+"Makers",
+"1925–1985, Central Javanese dalang",
+"r3 https://en.wikipedia.org/wiki/Wayang_kulit",
+1
+],
+[
+"Ki Manteb Soedharsono",
+"Makers",
+"1948–2021, Javanese dalang",
+"r3 https://en.wikipedia.org/wiki/Manteb_Soedharsono",
+1
+],
+[
+"Ki Enthus Susmono",
+"Makers",
+"1966–2018, Tegal dalang and puppet innovator",
+"evidence",
+1
+],
+[
 "Ki Kertiwanda",
 "Makers",
 "wayang kulit maker named on many museum puppets",
@@ -6633,13 +6654,6 @@
 "Ki Bekel Prawirasucitra",
 "Makers",
 "wayang kulit maker named on museum puppets",
-"evidence",
-1
-],
-[
-"Ki Enthus Susmono",
-"Makers",
-"1966–2018, Tegal dalang and puppet innovator",
 "evidence",
 1
 ],
@@ -6655,20 +6669,6 @@
 "Makers",
 "Surakarta wayang kulit maker and writer",
 "evidence",
-1
-],
-[
-"Ki Nartosabdho",
-"Makers",
-"1925–1985, Central Javanese dalang",
-"r3 https://en.wikipedia.org/wiki/Ki_Nartosabdho",
-1
-],
-[
-"Ki Manteb Soedharsono",
-"Makers",
-"1948–2021, Javanese dalang",
-"r3 https://en.wikipedia.org/wiki/Manteb_Soedharsono",
 1
 ]
 ],
@@ -7083,7 +7083,7 @@
 "Wayang topeng",
 "Sub-types",
 "the Javanese masked dance-drama of the Panji cycle",
-"r3 https://en.wikipedia.org/wiki/Wayang_topeng",
+"r3 https://en.wikipedia.org/wiki/Topeng_dance",
 0
 ],
 [
@@ -7518,14 +7518,14 @@
 "Sbek touch",
 "Sub-types",
 "the small-puppet Khmer shadow theatre",
-"r3 https://en.wikipedia.org/wiki/Sbek_thom",
+"r3 https://en.wikipedia.org/wiki/Khmer_shadow_theatre",
 0
 ],
 [
 "Siem Reap",
 "Centres & workshops",
 "centre of sbek thom troupes and puppet makers",
-"r3 https://en.wikipedia.org/wiki/Sbek_thom",
+"r3 https://en.wikipedia.org/wiki/Khmer_shadow_theatre",
 0
 ]
 ],
@@ -7991,7 +7991,7 @@
 "Awaji ningyō jōruri",
 "Centres & workshops",
 "the Awaji Island puppet tradition",
-"r3 https://en.wikipedia.org/wiki/Awaji_Puppet_Theater",
+"r3 https://en.wikipedia.org/wiki/Bunraku",
 0
 ],
 [
@@ -8723,7 +8723,7 @@
 "Mwana pwo",
 "Sub-types",
 "young woman mask danced by men",
-"r3 https://en.wikipedia.org/wiki/Mwana_Pwo",
+"r3 https://en.wikipedia.org/wiki/Chokwe_people",
 0
 ],
 [
@@ -8744,7 +8744,7 @@
 "Mukanda",
 "Centres & workshops",
 "boys' initiation at which the masks appear",
-"r3 https://en.wikipedia.org/wiki/Mukanda",
+"r3 https://en.wikipedia.org/wiki/Chokwe_people",
 0
 ],
 [
@@ -9405,6 +9405,13 @@
 0
 ],
 [
+"Zlan of Belewale",
+"Makers",
+"c. 1880s–1960s, celebrated Dan carver",
+"r3 https://en.wikipedia.org/wiki/Dan_people",
+1
+],
+[
 "Son of Nuopie",
 "Makers",
 "Dan carver named in museum records",
@@ -9416,13 +9423,6 @@
 "Makers",
 "Dan carver named in museum records",
 "evidence",
-1
-],
-[
-"Zlan of Belewale",
-"Makers",
-"c. 1880s–1960s, celebrated Dan carver",
-"r3 https://en.wikipedia.org/wiki/Zlan",
 1
 ]
 ],
@@ -9444,7 +9444,7 @@
 "Sowei (sowo) mask",
 "Sub-types",
 "black helmet mask of the Sande society",
-"r3 https://en.wikipedia.org/wiki/Sowei_mask",
+"r3 https://en.wikipedia.org/wiki/Sande_society",
 0
 ],
 [
@@ -9613,7 +9613,7 @@
 "Mwaash aMbooy",
 "Sub-types",
 "royal mask of the founder Woot",
-"r3 https://en.wikipedia.org/wiki/Mwaash_aMbooy",
+"r3 https://en.wikipedia.org/wiki/Kuba_Kingdom",
 0
 ],
 [
@@ -9627,7 +9627,7 @@
 "Bwoom",
 "Sub-types",
 "mask of the commoner or prince",
-"r3 https://en.wikipedia.org/wiki/Bwoom",
+"r3 https://en.wikipedia.org/wiki/Kuba_Kingdom",
 0
 ],
 [
@@ -10092,7 +10092,7 @@
 "Hamatsa masks",
 "Sub-types",
 "cannibal-bird masks of the Kwakwaka'wakw winter ceremonial",
-"r3 https://en.wikipedia.org/wiki/Hamatsa",
+"r3 https://en.wikipedia.org/wiki/Kwakwaka'wakw",
 0
 ],
 [
@@ -10631,7 +10631,7 @@
 "Ommegang giants of Mechelen",
 "Named giants",
 "Mechelen giants (Op-Signoorke)",
-"r3 https://en.wikipedia.org/wiki/Ommegang_of_Mechelen",
+"r3 https://en.wikipedia.org/wiki/Gegants",
 0
 ]
 ],
@@ -12198,7 +12198,7 @@
 "Sivapuram Nataraja",
 "Named works",
 "10th–11th c.; Sivapuram temple, Tamil Nadu (repatriated)",
-"r3 https://en.wikipedia.org/wiki/Sivapuram_Nataraja",
+"r3 https://en.wikipedia.org/wiki/Nataraja",
 0
 ],
 [
@@ -12759,7 +12759,7 @@
 "Molela",
 "Centres & workshops",
 "village near Nathdwara, Rajsamand district, Rajasthan",
-"r3 https://en.wikipedia.org/wiki/Molela",
+"r3 https://en.wikipedia.org/wiki/Devnarayan",
 0
 ],
 [
@@ -15383,7 +15383,7 @@
 "Tháp Mắm style",
 "Schools & phases",
 "11th–13th-century Binh Dinh style",
-"r3 https://en.wikipedia.org/wiki/Cham_sculpture",
+"r3 https://en.wikipedia.org/wiki/Art_of_Champa",
 0
 ],
 [
@@ -16125,7 +16125,7 @@
 "Mozu-Furuichi Kofun Group",
 "Centres & workshops",
 "UNESCO 2019 mound group in Osaka",
-"r3 https://en.wikipedia.org/wiki/Mozu-Furuichi_kofungun",
+"r3 https://en.wikipedia.org/wiki/Haniwa",
 0
 ],
 [
@@ -17329,7 +17329,7 @@
 "Gilt-bronze Maitreya in Meditation (National Treasure 83)",
 "Named works",
 "7th c.; National Museum of Korea, Seoul",
-"r3 https://en.wikipedia.org/wiki/Pensive_Bodhisattva_(National_Treasure_No._83)",
+"r3 https://en.wikipedia.org/wiki/Korean_Buddhist_sculpture",
 0
 ],
 [
@@ -17688,7 +17688,7 @@
 ]
 },
 "D5-24": {
-"axis": "Sections in order: Centres & workshops · En school · Tori school · In school · Jōchō line (Heian) · Named works · Titled objects (by object type) · Collections (canonical and core entries first within each section). Titled museum objects: every object in the gathered museum files for this tradition whose title carries a proper or native name or a named subject beyond the generic object word and the culture name (one per title, museum page required), the 40 earliest-dated (1709 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
+"axis": "Sections in order: Centres & workshops · En school · Jōchō line (Heian) · In school · Tori school · Named works · Titled objects (by object type) · Collections (canonical and core entries first within each section). Titled museum objects: every object in the gathered museum files for this tradition whose title carries a proper or native name or a named subject beyond the generic object word and the culture name (one per title, museum page required), the 40 earliest-dated (1709 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
 "catalogues": [
 [
 "https://colbase.nich.go.jp/",
@@ -17724,9 +17724,9 @@
 1
 ],
 [
-"Tori Busshi",
-"Tori school",
-"fl. early 7th c., Asuka sculptor of the Hōryū-ji Shaka Triad",
+"Jōchō",
+"Jōchō line (Heian)",
+"d. 1057, sculptor of the Byōdō-in Amida, perfected yosegi joined-wood",
 "artists",
 1
 ],
@@ -17745,9 +17745,9 @@
 1
 ],
 [
-"Jōchō",
-"Jōchō line (Heian)",
-"d. 1057, sculptor of the Byōdō-in Amida, perfected yosegi joined-wood",
+"Tori Busshi",
+"Tori school",
+"fl. early 7th c., Asuka sculptor of the Hōryū-ji Shaka Triad",
 "artists",
 1
 ],
@@ -17755,7 +17755,7 @@
 "Shaka Triad (Tori Busshi, 623)",
 "Named works",
 "gilt bronze; Hōryū-ji, Nara, National Treasure",
-"r3 https://en.wikipedia.org/wiki/Shaka_Triad_(Hōryū-ji)",
+"r3 https://en.wikipedia.org/wiki/Hōryū-ji",
 0
 ],
 [
@@ -17769,7 +17769,7 @@
 "Ashura (Kōfuku-ji)",
 "Named works",
 "734, dry lacquer; Kōfuku-ji, Nara, National Treasure",
-"r3 https://en.wikipedia.org/wiki/Ashura_(Kōfuku-ji)",
+"r3 https://en.wikipedia.org/wiki/Kōfuku-ji",
 0
 ],
 [
@@ -18263,14 +18263,14 @@
 "Gosho ningyō",
 "Sub-types",
 "chubby white-gesso palace dolls",
-"r3 https://en.wikipedia.org/wiki/Gosho_ningyō",
+"r3 https://en.wikipedia.org/wiki/Hinamatsuri",
 0
 ],
 [
 "Ichimatsu dolls",
 "Sub-types",
 "jointed child dolls",
-"r3 https://en.wikipedia.org/wiki/Ichimatsu_doll",
+"r3 https://en.wikipedia.org/wiki/Hinamatsuri",
 0
 ],
 [
@@ -18319,7 +18319,7 @@
 "Fushimi ningyō",
 "Centres & workshops",
 "Kyoto clay dolls of Fushimi Inari",
-"r3 https://en.wikipedia.org/wiki/Fushimi_ningyō",
+"r3 https://en.wikipedia.org/wiki/Hinamatsuri",
 0
 ],
 [
@@ -18900,14 +18900,14 @@
 "National Museum, Jos",
 "Centres & workshops",
 "museum holding the first Nok finds",
-"r3 https://en.wikipedia.org/wiki/National_Museum,_Jos",
+"r3 https://en.wikipedia.org/wiki/Nok_culture",
 0
 ],
 [
 "Jemaa Head",
 "Named works",
 "Nok terracotta head; National Museum, Lagos",
-"r3 https://en.wikipedia.org/wiki/Jemaa_head",
+"r3 https://en.wikipedia.org/wiki/Nok_culture",
 0
 ],
 [
@@ -19468,7 +19468,7 @@
 "Seated figure from Tada",
 "Named works",
 "copper, 13th–14th c.; National Commission for Museums, Nigeria",
-"r3 https://en.wikipedia.org/wiki/Tsoede_bronzes",
+"r3 https://en.wikipedia.org/wiki/Lower_Niger_Bronze_Industries",
 0
 ],
 [
@@ -19610,7 +19610,7 @@
 "Djenné-Djeno",
 "Centres & workshops",
 "tell site near Djenné (UNESCO 1988)",
-"r3 https://en.wikipedia.org/wiki/Djenné-Djeno",
+"r3 https://en.wikipedia.org/wiki/Djenné",
 0
 ],
 [
@@ -19824,7 +19824,7 @@
 "Komaland",
 "Centres & workshops",
 "upper Volta region of northern Ghana",
-"r3 https://en.wikipedia.org/wiki/Koma_Land",
+"r3 https://en.wikipedia.org/wiki/Koma_people",
 0
 ],
 [
@@ -19946,7 +19946,7 @@
 "Nomoli",
 "Sub-types",
 "Mende term for the figures dug up in fields",
-"r3 https://en.wikipedia.org/wiki/Nomoli",
+"r3 https://en.wikipedia.org/wiki/Sherbro_people",
 0
 ],
 [
@@ -20468,6 +20468,13 @@
 1
 ],
 [
+"Lamidi Olonade Fakeye",
+"Makers",
+"1928–2009, Ila-Orangun carver",
+"r3 https://en.wikipedia.org/wiki/Lamidi_Olonade_Fakeye",
+1
+],
+[
 "Akíyọdé of Abẹ́òkúta",
 "Makers",
 "Abeokuta carver",
@@ -20507,13 +20514,6 @@
 "Makers",
 "Efon-Alaaye carver",
 "evidence",
-1
-],
-[
-"Lamidi Olonade Fakeye",
-"Makers",
-"1928–2009, Ila-Orangun carver",
-"r3 https://en.wikipedia.org/wiki/Lamidi_Olonade_Fakeye",
 1
 ]
 ],
@@ -20782,7 +20782,7 @@
 "Boli",
 "Sub-types",
 "power objects of the Kono and Komo",
-"r3 https://en.wikipedia.org/wiki/Boli_(object)",
+"r3 https://en.wikipedia.org/wiki/Bamana_people",
 0
 ],
 [
@@ -22244,7 +22244,7 @@
 "Buli Master",
 "Makers",
 "19th-century Luba (Hemba) carver of caryatid stools",
-"r3 https://en.wikipedia.org/wiki/Buli_Master",
+"r3 https://en.wikipedia.org/wiki/Lukasa",
 1
 ]
 ],
@@ -22280,7 +22280,7 @@
 "Bwami association",
 "Centres & workshops",
 "the Lega graded association",
-"r3 https://en.wikipedia.org/wiki/Bwami",
+"r3 https://en.wikipedia.org/wiki/Lega_people",
 0
 ],
 [
@@ -22448,7 +22448,7 @@
 "Mapiko (lipiko) masks",
 "Sub-types",
 "helmet masks of the initiation dances",
-"r3 https://en.wikipedia.org/wiki/Mapiko",
+"r3 https://en.wikipedia.org/wiki/Makonde_people",
 0
 ],
 [
@@ -22686,7 +22686,7 @@
 "Statue of Khafre Enthroned",
 "Named works",
 "Old Kingdom; Egyptian Museum, Cairo",
-"r3 https://en.wikipedia.org/wiki/Statue_of_Khafre_Enthroned",
+"r3 https://en.wikipedia.org/wiki/Block_statue",
 0
 ],
 [
@@ -23375,7 +23375,7 @@
 [
 "Vulca",
 "Makers",
-"born -600; active in Etruria",
+"born c. 600 BC; active in Etruria",
 "artists",
 1
 ],
@@ -23499,7 +23499,7 @@
 "Fonseca Bust",
 "Named works",
 "early 2nd c.; Capitoline Museums, Rome",
-"r3 https://en.wikipedia.org/wiki/Fonseca_Bust",
+"r3 https://en.wikipedia.org/wiki/Augustus_of_Prima_Porta",
 0
 ]
 ],
@@ -23538,7 +23538,7 @@
 "Copies after Greek works",
 "Sub-types",
 "marble copies of Greek bronzes",
-"r3 https://en.wikipedia.org/wiki/Roman_copies_of_Greek_sculpture",
+"r3 https://en.wikipedia.org/wiki/Roman_sculpture",
 0
 ],
 [
@@ -23802,7 +23802,7 @@
 "Piedras Negras Panel 3",
 "Named works",
 "AD 782; Museo Nacional de Arqueología, Guatemala City",
-"r3 https://en.wikipedia.org/wiki/Piedras_Negras_Panel_3",
+"r3 https://en.wikipedia.org/wiki/Copán",
 0
 ],
 [
@@ -24004,7 +24004,7 @@
 "Coyolxāuhqui Stone",
 "Named works",
 "c. 1473; Museo del Templo Mayor, Mexico City",
-"r3 https://en.wikipedia.org/wiki/Coyolxāuhqui_Stone",
+"r3 https://en.wikipedia.org/wiki/Templo_Mayor",
 0
 ],
 [
@@ -24774,7 +24774,7 @@
 "Colima dogs",
 "Sub-types",
 "fat techichi dog vessels",
-"r3 https://en.wikipedia.org/wiki/Colima_dog",
+"r3 https://en.wikipedia.org/wiki/Teuchitlan_tradition",
 0
 ],
 [
@@ -25315,7 +25315,7 @@
 "Venus of Valdivia",
 "Sub-types",
 "stone and clay female figurines",
-"r3 https://en.wikipedia.org/wiki/Venus_of_Valdivia",
+"r3 https://en.wikipedia.org/wiki/Valdivia_culture",
 0
 ],
 [
@@ -25847,7 +25847,7 @@
 "Barroco mineiro",
 "Schools & phases",
 "Rococo of Minas Gerais",
-"r3 https://en.wikipedia.org/wiki/Barroco_mineiro",
+"r3 https://en.wikipedia.org/wiki/Ouro_Preto",
 0
 ],
 [
@@ -26109,24 +26109,24 @@
 0
 ],
 [
-"José Rafael Aragón",
-"Makers",
-"c. 1796–1862, New Mexican santero",
-"r3 https://en.wikipedia.org/wiki/José_Rafael_Aragón",
-1
-],
-[
 "Pedro Antonio Fresquís",
 "Makers",
 "1749–1831, New Mexican santero",
-"r3 https://en.wikipedia.org/wiki/Pedro_Antonio_Fresquís",
+"r3 https://en.wikipedia.org/wiki/Santero",
+1
+],
+[
+"José Rafael Aragón",
+"Makers",
+"c. 1796–1862, New Mexican santero",
+"r3 https://en.wikipedia.org/wiki/Santero",
 1
 ],
 [
 "Patrocinio Barela",
 "Makers",
 "1900–1964, New Mexican carver",
-"r3 https://en.wikipedia.org/wiki/Patrocinio_Barela",
+"r3 https://en.wikipedia.org/wiki/Santero",
 1
 ]
 ],
@@ -26804,7 +26804,7 @@
 "Georges Liautaud",
 "Makers",
 "1899–1991, founder of the cut-drum art",
-"r3 https://en.wikipedia.org/wiki/Georges_Liautaud",
+"r3 https://en.wikipedia.org/wiki/Croix-des-Bouquets",
 1
 ],
 [
@@ -26970,6 +26970,13 @@
 0
 ],
 [
+"Charles Edenshaw",
+"Makers",
+"c. 1839–1920, Haida carver",
+"r3 https://en.wikipedia.org/wiki/Charles_Edenshaw",
+1
+],
+[
 "Mungo Martin",
 "Makers",
 "1879–1962, Kwakwaka'wakw carver",
@@ -26981,13 +26988,6 @@
 "Makers",
 "1920–1998, Haida artist",
 "r3 https://en.wikipedia.org/wiki/Bill_Reid",
-1
-],
-[
-"Charles Edenshaw",
-"Makers",
-"c. 1839–1920, Haida carver",
-"r3 https://en.wikipedia.org/wiki/Charles_Edenshaw",
 1
 ]
 ],
@@ -27893,7 +27893,7 @@
 "Te Hau ki Tūranga",
 "Named works",
 "1842 meeting house; Te Papa, Wellington",
-"r3 https://en.wikipedia.org/wiki/Te_Hau_ki_Tūranga",
+"r3 https://en.wikipedia.org/wiki/New_Zealand_Māori_Arts_and_Crafts_Institute",
 0
 ],
 [
@@ -27907,7 +27907,7 @@
 "Mataatua wharenui",
 "Named works",
 "1875 meeting house, Whakatāne",
-"r3 https://en.wikipedia.org/wiki/Mataatua_wharenui",
+"r3 https://en.wikipedia.org/wiki/New_Zealand_Māori_Arts_and_Crafts_Institute",
 0
 ],
 [
@@ -28247,16 +28247,9 @@
 0
 ],
 [
-"Thomas Heberley",
+"Wero Taroi",
 "Makers",
-"1878–1937, Wellington carver",
-"evidence",
-1
-],
-[
-"Jacob Heberley",
-"Makers",
-"1849–1906, Wellington carver",
+"c. 1810–1880, Ngāti Tarawhai carver",
 "evidence",
 1
 ],
@@ -28268,13 +28261,6 @@
 1
 ],
 [
-"Tene Waitere",
-"Makers",
-"1853–1931, Ngāti Tarawhai carver",
-"evidence",
-1
-],
-[
 "Neke Kapua",
 "Makers",
 "c. 1840s–1925, Ngāti Tarawhai carver",
@@ -28282,9 +28268,23 @@
 1
 ],
 [
-"Wero Taroi",
+"Jacob Heberley",
 "Makers",
-"c. 1810–1880, Ngāti Tarawhai carver",
+"1849–1906, Wellington carver",
+"evidence",
+1
+],
+[
+"Tene Waitere",
+"Makers",
+"1853–1931, Ngāti Tarawhai carver",
+"evidence",
+1
+],
+[
+"Thomas Heberley",
+"Makers",
+"1878–1937, Wellington carver",
 "evidence",
 1
 ],
@@ -29802,7 +29802,7 @@
 "U'u clubs",
 "Sub-types",
 "carved ironwood war clubs",
-"r3 https://en.wikipedia.org/wiki/Uu_(club)",
+"r3 https://en.wikipedia.org/wiki/Tiki",
 0
 ],
 [
@@ -30182,7 +30182,7 @@
 "Rei miro",
 "Sub-types",
 "crescent breast ornaments",
-"r3 https://en.wikipedia.org/wiki/Rei_miro",
+"r3 https://en.wikipedia.org/wiki/Moai_kavakava",
 0
 ],
 [
@@ -31032,7 +31032,7 @@
 "Primavera figure",
 "Sub-types",
 "the spring figure, emblem of the craft",
-"r3 https://en.wikipedia.org/wiki/Estremoz_clay_figures",
+"r3 https://en.wikipedia.org/wiki/Estremoz",
 0
 ],
 [
@@ -31408,17 +31408,17 @@
 0
 ],
 [
-"Vasily Zvyozdochkin",
-"Makers",
-"1876–1956, turner of the first matryoshka",
-"r3 https://en.wikipedia.org/wiki/Matryoshka_doll",
-1
-],
-[
 "Sergey Malyutin",
 "Makers",
 "1859–1937, painter who designed the first matryoshka",
 "r3 https://en.wikipedia.org/wiki/Sergey_Malyutin",
+1
+],
+[
+"Vasily Zvyozdochkin",
+"Makers",
+"1876–1956, turner of the first matryoshka",
+"r3 https://en.wikipedia.org/wiki/Matryoshka_doll",
 1
 ]
 ],
@@ -31440,7 +31440,7 @@
 "Polkhovsky Maidan",
 "Centres & workshops",
 "village in Nizhny Novgorod oblast",
-"r3 https://en.wikipedia.org/wiki/Polkhovsky_Maidan",
+"r3 https://goskatalog.ru/portal/",
 0
 ],
 [
@@ -31574,14 +31574,14 @@
 "The Blacksmiths toy",
 "Sub-types",
 "bear and peasant hammering on a moving slat",
-"r3 https://en.wikipedia.org/wiki/Bogorodskoye_carving",
+"r3 https://goskatalog.ru/portal/",
 0
 ],
 [
 "Bogorodskoye",
 "Centres & workshops",
 "village near Sergiev Posad",
-"r3 https://en.wikipedia.org/wiki/Bogorodskoye_carving",
+"r3 https://goskatalog.ru/portal/",
 0
 ],
 [
@@ -32580,7 +32580,7 @@
 "Abashevo",
 "Centres & workshops",
 "Penza oblast village",
-"r3 https://en.wikipedia.org/wiki/Abashevo_toy",
+"r3 https://goskatalog.ru/portal/",
 0
 ],
 [
@@ -32819,8 +32819,8 @@
 "axis": "Sections in order: Sub-types · Named works (canonical and core entries first within each section)",
 "catalogues": [
 [
-"https://en.wikipedia.org/wiki/Vaivaisukko",
-"Wikipedia: Vaivaisukko",
+"https://fi.wikipedia.org/wiki/Vaivaisukko",
+"Finnish Wikipedia: Vaivaisukko",
 "the pauper statues of Finland and Sweden"
 ]
 ],
@@ -32829,21 +32829,21 @@
 "Vaivaisukko",
 "Sub-types",
 "Finnish pauper statue",
-"r3 https://en.wikipedia.org/wiki/Vaivaisukko",
+"r3 https://fi.wikipedia.org/wiki/Vaivaisukko",
 0
 ],
 [
 "Fattiggubbe",
 "Sub-types",
 "Swedish pauper statue",
-"r3 https://en.wikipedia.org/wiki/Vaivaisukko",
+"r3 https://fi.wikipedia.org/wiki/Vaivaisukko",
 0
 ],
 [
 "Vaivaisukko of Ylihärmä church",
 "Named works",
 "Ostrobothnia, Finland",
-"r3 https://en.wikipedia.org/wiki/Vaivaisukko",
+"r3 https://fi.wikipedia.org/wiki/Vaivaisukko",
 0
 ]
 ],
@@ -32893,14 +32893,14 @@
 "Moai Hava",
 "Named works",
 "basalt moai; British Museum, London",
-"r3 https://en.wikipedia.org/wiki/Moai_Hava",
+"r3 https://en.wikipedia.org/wiki/Pukao",
 0
 ],
 [
 "Paro (moai)",
 "Named works",
 "the largest erected moai",
-"r3 https://en.wikipedia.org/wiki/Paro_(moai)",
+"r3 https://en.wikipedia.org/wiki/Pukao",
 0
 ],
 [
@@ -32948,23 +32948,23 @@
 "Archaic sculpture in New York"
 ],
 [
-"https://en.wikipedia.org/wiki/List_of_ancient_Greek_sculptors",
-"Wikipedia: List of ancient Greek sculptors",
-"named sculptors with dates"
+"https://en.wikipedia.org/wiki/Ancient_Greek_sculpture",
+"Wikipedia: Ancient Greek sculpture",
+"overview with the named sculptors and works by period"
 ]
 ],
 "kinds": [
 [
 "Dipoenus",
 "Daedalic and Cretan masters",
-"born -650; active in Greece",
+"born c. 650 BC; active in Greece",
 "artists",
 1
 ],
 [
 "Aristocles of Cydonia",
 "Daedalic and Cretan masters",
-"born -600; active in Greece",
+"born c. 600 BC; active in Greece",
 "artists",
 1
 ],
@@ -32978,42 +32978,42 @@
 [
 "Rhoecus",
 "Samian school",
-"born -700; active in Greece",
-"artists",
-1
-],
-[
-"Theodorus of Samos",
-"Samian school",
-"born -550; active in Greece",
+"born c. 700 BC; active in Greece",
 "artists",
 1
 ],
 [
 "Geneleós",
 "Samian school",
-"born -600; active in Samos",
+"born c. 600 BC; active in Samos",
 "artists",
 1
 ],
 [
-"Athenis",
-"Chian school",
-"born -700; active in Greece",
+"Theodorus of Samos",
+"Samian school",
+"born c. 550 BC; active in Greece",
 "artists",
 1
 ],
 [
 "Glaucus of Chios",
 "Chian school",
-"born -800; active in Greece",
+"born c. 800 BC; active in Greece",
+"artists",
+1
+],
+[
+"Athenis",
+"Chian school",
+"born c. 700 BC; active in Greece",
 "artists",
 1
 ],
 [
 "Archermus",
 "Chian school",
-"born -600; active in Ionian League",
+"born c. 600 BC; active in Ionia",
 "artists",
 1
 ],
@@ -33025,170 +33025,170 @@
 1
 ],
 [
-"Endoeus",
-"Attic masters",
-"born -550",
-"artists",
-1
-],
-[
 "Amphicrates",
 "Attic masters",
-"born -600; active in Greece, Classical Athens",
+"born c. 600 BC; active in Greece, Athens",
 "artists",
 1
 ],
 [
 "Antenor",
 "Attic masters",
-"born -600; active in Classical Athens",
-"artists",
-1
-],
-[
-"Aristion of Paros",
-"Attic masters",
-"born -550; active in Greece",
+"born c. 600 BC; active in Athens",
 "artists",
 1
 ],
 [
 "Aristokles",
 "Attic masters",
-"born -600; active in Greece",
+"born c. 600 BC; active in Greece",
+"artists",
+1
+],
+[
+"Endoeus",
+"Attic masters",
+"born c. 550 BC",
+"artists",
+1
+],
+[
+"Aristion of Paros",
+"Attic masters",
+"born c. 550 BC; active in Greece",
 "artists",
 1
 ],
 [
 "Eutelidas of Argos",
 "Peloponnesian schools (Argos and Sicyon)",
-"born -600",
+"born c. 600 BC",
 "artists",
 1
 ],
 [
 "Canachus",
 "Peloponnesian schools (Argos and Sicyon)",
-"born -600; active in Greece",
-"artists",
-1
-],
-[
-"Polymedes of Argos",
-"Peloponnesian schools (Argos and Sicyon)",
-"born -550; active in Greece",
+"born c. 600 BC; active in Greece",
 "artists",
 1
 ],
 [
 "Ageladas",
 "Peloponnesian schools (Argos and Sicyon)",
-"born -600; active in Greece",
+"born c. 600 BC; active in Greece",
 "artists",
 1
 ],
 [
 "Aristokles of Sikyon",
 "Peloponnesian schools (Argos and Sicyon)",
-"born -600; active in Greece",
+"born c. 600 BC; active in Greece",
 "artists",
 1
 ],
 [
-"Synnoon",
-"Aeginetan school",
-"born -500; active in Aegina",
+"Polymedes of Argos",
+"Peloponnesian schools (Argos and Sicyon)",
+"born c. 550 BC; active in Greece",
 "artists",
 1
 ],
 [
 "Callon of Aegina",
 "Aeginetan school",
-"born -600; active in Aegina",
+"born c. 600 BC; active in Aegina",
 "artists",
 1
 ],
 [
 "Smilis",
 "Aeginetan school",
-"born -550; active in Greece",
+"born c. 550 BC; active in Greece",
 "artists",
 1
 ],
 [
-"Menaechmus of Naupactus",
-"Island and western Greek masters",
-"born -500; active in Greece",
-"artists",
-1
-],
-[
-"Nicodamus of Maenalus",
-"Island and western Greek masters",
-"born -500; active in Greece",
-"artists",
-1
-],
-[
-"Soides",
-"Island and western Greek masters",
-"born -500; active in Greece",
-"artists",
-1
-],
-[
-"Onaithos",
-"Island and western Greek masters",
-"born -500",
+"Synnoon",
+"Aeginetan school",
+"born c. 500 BC; active in Aegina",
 "artists",
 1
 ],
 [
 "Dameas of Kroton",
 "Island and western Greek masters",
-"born -600",
+"born c. 600 BC",
 "artists",
 1
 ],
 [
 "Byzes of Naxos",
 "Island and western Greek masters",
-"born -600",
-"artists",
-1
-],
-[
-"Mirmecide",
-"Island and western Greek masters",
-"born -500; active in Classical Athens",
+"born c. 600 BC",
 "artists",
 1
 ],
 [
 "Leukarion",
 "Island and western Greek masters",
-"born -600",
+"born c. 600 BC",
 "artists",
 1
 ],
 [
 "Bathycles of Magnesia",
 "Island and western Greek masters",
-"born -600; active in Turkey",
+"born c. 600 BC; active in Turkey",
 "artists",
 1
 ],
 [
 "Clearchus of Rhegium",
 "Island and western Greek masters",
-"born -550",
+"born c. 550 BC",
+"artists",
+1
+],
+[
+"Menaechmus of Naupactus",
+"Island and western Greek masters",
+"born c. 500 BC; active in Greece",
+"artists",
+1
+],
+[
+"Nicodamus of Maenalus",
+"Island and western Greek masters",
+"born c. 500 BC; active in Greece",
+"artists",
+1
+],
+[
+"Soides",
+"Island and western Greek masters",
+"born c. 500 BC; active in Greece",
+"artists",
+1
+],
+[
+"Onaithos",
+"Island and western Greek masters",
+"born c. 500 BC",
+"artists",
+1
+],
+[
+"Mirmecide",
+"Island and western Greek masters",
+"born c. 500 BC; active in Athens",
 "artists",
 1
 ],
 [
 "Ascarus of Thebes",
 "Island and western Greek masters",
-"born -500",
+"born c. 500 BC",
 "artists",
 1
 ],
@@ -33274,156 +33274,212 @@
 ],
 "kinds": [
 [
-"Nesiotes",
-"Severe style",
-"born -450; active in Classical Athens",
-"artists",
-1
-],
-[
-"Calamis",
-"Severe style",
-"born -500; active in Greece",
-"artists",
-1
-],
-[
 "Critius",
 "Severe style",
-"born -600; active in Classical Athens",
-"artists",
-1
-],
-[
-"Micon",
-"Severe style",
-"born -500; active in Classical Athens",
-"artists",
-1
-],
-[
-"Callon of Elis",
-"Severe style",
-"born -500; active in Greece",
-"artists",
-1
-],
-[
-"Pythagoras",
-"Severe style",
-"born -500; active in Greece",
-"artists",
-1
-],
-[
-"Anaxagoras of Aegina",
-"Severe style",
-"born -500",
+"born c. 600 BC; active in Athens",
 "artists",
 1
 ],
 [
 "Onatas",
 "Severe style",
-"born -550; active in Greece",
+"born c. 550 BC; active in Greece",
 "artists",
 1
 ],
 [
-"Callicles of Megara",
-"Pheidias and Periclean Athens",
-"born -400",
+"Calamis",
+"Severe style",
+"born c. 500 BC; active in Greece",
 "artists",
 1
 ],
 [
-"Strongylion",
-"Pheidias and Periclean Athens",
-"born -450",
+"Micon",
+"Severe style",
+"born c. 500 BC; active in Athens",
 "artists",
 1
 ],
 [
-"Cresilas",
-"Pheidias and Periclean Athens",
-"born -479; active in Greece",
+"Callon of Elis",
+"Severe style",
+"born c. 500 BC; active in Greece",
+"artists",
+1
+],
+[
+"Pythagoras",
+"Severe style",
+"born c. 500 BC; active in Greece",
+"artists",
+1
+],
+[
+"Anaxagoras of Aegina",
+"Severe style",
+"born c. 500 BC",
+"artists",
+1
+],
+[
+"Nesiotes",
+"Severe style",
+"born c. 450 BC; active in Athens",
 "artists",
 1
 ],
 [
 "Theokosmos",
 "Pheidias and Periclean Athens",
-"born -500; active in Megara",
-"artists",
-1
-],
-[
-"Phidias",
-"Pheidias and Periclean Athens",
-"born -499; active in Classical Athens",
+"born c. 500 BC; active in Megara",
 "artists",
 1
 ],
 [
 "Myron",
 "Pheidias and Periclean Athens",
-"born -500; active in Classical Athens",
+"born c. 500 BC; active in Athens",
 "artists",
 1
 ],
 [
 "Sophroniscus",
 "Pheidias and Periclean Athens",
-"born -500; active in Classical Athens",
+"born c. 500 BC; active in Athens",
 "artists",
 1
 ],
 [
 "Styppax",
 "Pheidias and Periclean Athens",
-"born -500",
+"born c. 500 BC",
 "artists",
 1
 ],
 [
 "Agoracritus",
 "Pheidias and Periclean Athens",
-"born -500; active in Greece",
+"born c. 500 BC; active in Greece",
 "artists",
 1
 ],
 [
 "Alcamenes",
 "Pheidias and Periclean Athens",
-"born -500; active in Classical Athens",
+"born c. 500 BC; active in Athens",
 "artists",
 1
 ],
 [
 "Paeonius",
 "Pheidias and Periclean Athens",
-"born -500; active in Greece",
+"born c. 500 BC; active in Greece",
 "artists",
 1
 ],
 [
 "Callimachus",
 "Pheidias and Periclean Athens",
-"born -500; active in Classical Athens",
+"born c. 500 BC; active in Athens",
+"artists",
+1
+],
+[
+"Phidias",
+"Pheidias and Periclean Athens",
+"born c. 499 BC; active in Athens",
+"artists",
+1
+],
+[
+"Cresilas",
+"Pheidias and Periclean Athens",
+"born c. 479 BC; active in Greece",
+"artists",
+1
+],
+[
+"Strongylion",
+"Pheidias and Periclean Athens",
+"born c. 450 BC",
+"artists",
+1
+],
+[
+"Callicles of Megara",
+"Pheidias and Periclean Athens",
+"born c. 400 BC",
+"artists",
+1
+],
+[
+"Patrocles of Sicyon",
+"Argive-Sicyonian (Polykleitan) school",
+"born c. 500 BC; active in Greece",
+"artists",
+1
+],
+[
+"Canachus the Younger",
+"Argive-Sicyonian (Polykleitan) school",
+"born c. 500 BC; active in Greece",
+"artists",
+1
+],
+[
+"Alypus",
+"Argive-Sicyonian (Polykleitan) school",
+"born c. 500 BC; active in Greece",
+"artists",
+1
+],
+[
+"Naukydes of Argos",
+"Argive-Sicyonian (Polykleitan) school",
+"born c. 500 BC; active in Greece",
+"artists",
+1
+],
+[
+"Phradmon",
+"Argive-Sicyonian (Polykleitan) school",
+"born c. 500 BC; active in Greece",
+"artists",
+1
+],
+[
+"Argius",
+"Argive-Sicyonian (Polykleitan) school",
+"born c. 500 BC",
+"artists",
+1
+],
+[
+"Asopodorus",
+"Argive-Sicyonian (Polykleitan) school",
+"born c. 500 BC",
+"artists",
+1
+],
+[
+"Polykleitos",
+"Argive-Sicyonian (Polykleitan) school",
+"born c. 489 BC; active in Greece",
 "artists",
 1
 ],
 [
 "Daetondas of Sicyon",
 "Argive-Sicyonian (Polykleitan) school",
-"born -400",
+"born c. 400 BC",
 "artists",
 1
 ],
 [
 "Polykleitos the Younger",
 "Argive-Sicyonian (Polykleitan) school",
-"born -400; active in Greece",
+"born c. 400 BC; active in Greece",
 "artists",
 1
 ],
@@ -33435,72 +33491,135 @@
 1
 ],
 [
-"Patrocles of Sicyon",
-"Argive-Sicyonian (Polykleitan) school",
-"born -500; active in Greece",
-"artists",
-1
-],
-[
-"Canachus the Younger",
-"Argive-Sicyonian (Polykleitan) school",
-"born -500; active in Greece",
-"artists",
-1
-],
-[
-"Polykleitos",
-"Argive-Sicyonian (Polykleitan) school",
-"born -489; active in Greece",
-"artists",
-1
-],
-[
-"Alypus",
-"Argive-Sicyonian (Polykleitan) school",
-"born -500; active in Greece",
-"artists",
-1
-],
-[
-"Naukydes of Argos",
-"Argive-Sicyonian (Polykleitan) school",
-"born -500; active in Greece",
-"artists",
-1
-],
-[
-"Phradmon",
-"Argive-Sicyonian (Polykleitan) school",
-"born -500; active in Greece",
-"artists",
-1
-],
-[
-"Argius",
-"Argive-Sicyonian (Polykleitan) school",
-"born -500",
-"artists",
-1
-],
-[
-"Asopodorus",
-"Argive-Sicyonian (Polykleitan) school",
-"born -500",
-"artists",
-1
-],
-[
-"Praxiteles",
+"Apollodorus",
 "Late Classical (4th century)",
-"born -394; active in Classical Athens",
+"born c. 500 BC; active in Athens",
+"artists",
+1
+],
+[
+"Cephisodotus the Elder",
+"Late Classical (4th century)",
+"born c. 500 BC; active in Athens",
+"artists",
+1
+],
+[
+"Demetrius of Alopece",
+"Late Classical (4th century)",
+"born c. 500 BC; active in Athens",
+"artists",
+1
+],
+[
+"Amphion of Knossos",
+"Late Classical (4th century)",
+"born c. 450 BC; active in Greece",
+"artists",
+1
+],
+[
+"Apelleas",
+"Late Classical (4th century)",
+"born c. 450 BC",
 "artists",
 1
 ],
 [
 "Pantias",
 "Late Classical (4th century)",
-"born -400; active in Greece",
+"born c. 400 BC; active in Greece",
+"artists",
+1
+],
+[
+"Silanion",
+"Late Classical (4th century)",
+"born c. 400 BC; active in Athens",
+"artists",
+1
+],
+[
+"Timotheos",
+"Late Classical (4th century)",
+"born c. 400 BC; active in Peloponnesian League",
+"artists",
+1
+],
+[
+"Satyros of Paros",
+"Late Classical (4th century)",
+"born c. 400 BC; active in Greece",
+"artists",
+1
+],
+[
+"Hippias",
+"Late Classical (4th century)",
+"born c. 400 BC",
+"artists",
+1
+],
+[
+"Timarchus",
+"Late Classical (4th century)",
+"born c. 400 BC; active in Athens",
+"artists",
+1
+],
+[
+"Leochares",
+"Late Classical (4th century)",
+"born c. 400 BC; active in Athens",
+"artists",
+1
+],
+[
+"Acestor",
+"Late Classical (4th century)",
+"born c. 400 BC",
+"artists",
+1
+],
+[
+"Cephisodotus the Younger",
+"Late Classical (4th century)",
+"born c. 400 BC; active in Athens",
+"artists",
+1
+],
+[
+"Praxiteles",
+"Late Classical (4th century)",
+"born c. 394 BC; active in Athens",
+"artists",
+1
+],
+[
+"Scopas",
+"Late Classical (4th century)",
+"born c. 394 BC; active in Greece",
+"artists",
+1
+],
+[
+"Lysippos",
+"Late Classical (4th century)",
+"born c. 389 BC; active in Sicyon",
+"artists",
+1
+],
+[
+"Piston",
+"Late Classical (4th century)",
+"born c. 350 BC",
+"artists",
+1
+],
+[
+"Euphranor",
+"Late Classical (4th century)",
+"born c. 301 BC; active in Athens",
 "artists",
 1
 ],
@@ -33519,44 +33638,9 @@
 1
 ],
 [
-"Silanion",
-"Late Classical (4th century)",
-"born -400; active in Classical Athens",
-"artists",
-1
-],
-[
-"Timotheos",
-"Late Classical (4th century)",
-"born -400; active in Peloponnesian League",
-"artists",
-1
-],
-[
-"Satyros of Paros",
-"Late Classical (4th century)",
-"born -400; active in Greece",
-"artists",
-1
-],
-[
 "Aristander of Paros",
 "Late Classical (4th century)",
 "",
-"artists",
-1
-],
-[
-"Hippias",
-"Late Classical (4th century)",
-"born -400",
-"artists",
-1
-],
-[
-"Lysippos",
-"Late Classical (4th century)",
-"born -389; active in Sicyon",
 "artists",
 1
 ],
@@ -33568,62 +33652,6 @@
 1
 ],
 [
-"Timarchus",
-"Late Classical (4th century)",
-"born -400; active in Classical Athens",
-"artists",
-1
-],
-[
-"Scopas",
-"Late Classical (4th century)",
-"born -394; active in Greece",
-"artists",
-1
-],
-[
-"Leochares",
-"Late Classical (4th century)",
-"born -400; active in Classical Athens",
-"artists",
-1
-],
-[
-"Amphion of Knossos",
-"Late Classical (4th century)",
-"born -450; active in Greece",
-"artists",
-1
-],
-[
-"Apelleas",
-"Late Classical (4th century)",
-"born -450",
-"artists",
-1
-],
-[
-"Acestor",
-"Late Classical (4th century)",
-"born -400",
-"artists",
-1
-],
-[
-"Piston",
-"Late Classical (4th century)",
-"born -350",
-"artists",
-1
-],
-[
-"Apollodorus",
-"Late Classical (4th century)",
-"born -500; active in Classical Athens",
-"artists",
-1
-],
-[
 "Aristocles",
 "Late Classical (4th century)",
 "",
@@ -33631,37 +33659,9 @@
 1
 ],
 [
-"Cephisodotus the Younger",
-"Late Classical (4th century)",
-"born -400; active in Classical Athens",
-"artists",
-1
-],
-[
-"Cephisodotus the Elder",
-"Late Classical (4th century)",
-"born -500; active in Classical Athens",
-"artists",
-1
-],
-[
-"Demetrius of Alopece",
-"Late Classical (4th century)",
-"born -500; active in Classical Athens",
-"artists",
-1
-],
-[
-"Euphranor",
-"Late Classical (4th century)",
-"born -301; active in Classical Athens",
-"artists",
-1
-],
-[
 "Euainetos",
 "Gem and coin engravers",
-"born -450",
+"born c. 450 BC",
 "artists",
 1
 ],
@@ -33749,126 +33749,126 @@
 [
 "Bryaxis",
 "Lysippan school and early Hellenistic",
-"born -400; active in Classical Athens",
+"born c. 400 BC; active in Athens",
 "artists",
 1
 ],
 [
 "Eutychides",
 "Lysippan school and early Hellenistic",
-"born -400; active in Greece",
-"artists",
-1
-],
-[
-"Cantharus",
-"Lysippan school and early Hellenistic",
-"born -300",
-"artists",
-1
-],
-[
-"Xenokrates of Sicyon",
-"Lysippan school and early Hellenistic",
-"born -250",
+"born c. 400 BC; active in Greece",
 "artists",
 1
 ],
 [
 "Chares of Lindos",
 "Lysippan school and early Hellenistic",
-"born -400; active in Greece",
+"born c. 400 BC; active in Greece",
 "artists",
 1
 ],
 [
 "Boedas",
 "Lysippan school and early Hellenistic",
-"born -400",
+"born c. 400 BC",
 "artists",
 1
 ],
 [
 "Daippus",
 "Lysippan school and early Hellenistic",
-"born -350",
+"born c. 350 BC",
 "artists",
 1
 ],
 [
 "Euthycrates",
 "Lysippan school and early Hellenistic",
-"born -350; active in Greece",
+"born c. 350 BC; active in Greece",
 "artists",
 1
 ],
 [
-"Niceratus",
-"Pergamene school",
-"born -250; active in Classical Athens",
+"Cantharus",
+"Lysippan school and early Hellenistic",
+"born c. 300 BC",
 "artists",
 1
 ],
 [
-"Epigonus of Pergamum",
-"Pergamene school",
-"born -250; active in Greece",
-"artists",
-1
-],
-[
-"Phyromachos",
-"Pergamene school",
-"born -250; active in Classical Athens",
+"Xenokrates of Sicyon",
+"Lysippan school and early Hellenistic",
+"born c. 250 BC",
 "artists",
 1
 ],
 [
 "Antigonus of Carystus",
 "Pergamene school",
-"born -294; active in Greece",
+"born c. 294 BC; active in Greece",
 "artists",
 1
 ],
 [
-"Athanadoros",
-"Rhodian school",
-"born -100; active in Rhodes",
+"Niceratus",
+"Pergamene school",
+"born c. 250 BC; active in Athens",
+"artists",
+1
+],
+[
+"Epigonus of Pergamum",
+"Pergamene school",
+"born c. 250 BC; active in Greece",
+"artists",
+1
+],
+[
+"Phyromachos",
+"Pergamene school",
+"born c. 250 BC; active in Athens",
 "artists",
 1
 ],
 [
 "Polydoros",
 "Rhodian school",
-"born -200; active in Rhodes",
-"artists",
-1
-],
-[
-"Pythokritos",
-"Rhodian school",
-"born -150; active in Greece",
+"born c. 200 BC; active in Rhodes",
 "artists",
 1
 ],
 [
 "Apollonius of Tralles",
 "Rhodian school",
-"born -200; active in Turkey",
+"born c. 200 BC; active in Turkey",
+"artists",
+1
+],
+[
+"Pythokritos",
+"Rhodian school",
+"born c. 150 BC; active in Greece",
 "artists",
 1
 ],
 [
 "Menecrates",
 "Rhodian school",
-"born -150; active in Greece",
+"born c. 150 BC; active in Greece",
+"artists",
+1
+],
+[
+"Athanadoros",
+"Rhodian school",
+"born c. 100 BC; active in Rhodes",
 "artists",
 1
 ],
 [
 "Agesander of Rhodes",
 "Rhodian school",
-"born -50; active in Rhodes",
+"born c. 50 BC; active in Rhodes",
 "artists",
 1
 ],
@@ -33880,37 +33880,107 @@
 1
 ],
 [
-"Agasias of Ephesus",
-"Neo-Attic and late Hellenistic",
-"born -50; active in Byzantine Empire, Ottoman Empire, Roman Republic, Kingdom of Pergamon, Roman Empire, Ptolemaic Kingdom, Seljuk Empire, Achaemenid Empire, Turkey, Seleucid Empire",
-"artists",
-1
-],
-[
 "Dionysicles of Miletus",
 "Neo-Attic and late Hellenistic",
-"born -300",
+"born c. 300 BC",
 "artists",
 1
 ],
 [
-"Aristeas of Megalopolis",
+"Boethus",
 "Neo-Attic and late Hellenistic",
-"born -150; active in Greece",
+"born c. 300 BC; active in Kingdom of Pergamon",
 "artists",
 1
 ],
 [
-"Cleomenes",
+"Aegineta",
 "Neo-Attic and late Hellenistic",
-"born -100",
+"born c. 250 BC; active in Greece",
 "artists",
 1
 ],
 [
 "Pasiteles",
 "Neo-Attic and late Hellenistic",
-"born -200; active in Ancient Rome",
+"born c. 200 BC; active in Ancient Rome",
+"artists",
+1
+],
+[
+"Alexandros of Antioch",
+"Neo-Attic and late Hellenistic",
+"born c. 200 BC; active in Turkey",
+"artists",
+1
+],
+[
+"Agasias",
+"Neo-Attic and late Hellenistic",
+"born c. 200 BC; active in Byzantine Empire, Ottoman Empire, Roman Republic",
+"artists",
+1
+],
+[
+"Aristeas of Megalopolis",
+"Neo-Attic and late Hellenistic",
+"born c. 150 BC; active in Greece",
+"artists",
+1
+],
+[
+"Archelaus of Priene",
+"Neo-Attic and late Hellenistic",
+"born c. 150 BC; active in Turkey",
+"artists",
+1
+],
+[
+"Cleomenes",
+"Neo-Attic and late Hellenistic",
+"born c. 100 BC",
+"artists",
+1
+],
+[
+"Stephanus",
+"Neo-Attic and late Hellenistic",
+"born c. 100 BC",
+"artists",
+1
+],
+[
+"Antiochus",
+"Neo-Attic and late Hellenistic",
+"born c. 100 BC; active in Greece",
+"artists",
+1
+],
+[
+"Herophon",
+"Neo-Attic and late Hellenistic",
+"born c. 100 BC",
+"artists",
+1
+],
+[
+"Apollonius of Athens",
+"Neo-Attic and late Hellenistic",
+"born c. 100 BC; active in Greece",
+"artists",
+1
+],
+[
+"Glycon of Athens",
+"Neo-Attic and late Hellenistic",
+"born c. 100 BC; active in Greece",
+"artists",
+1
+],
+[
+"Agasias of Ephesus",
+"Neo-Attic and late Hellenistic",
+"born c. 50 BC; active in Byzantine Empire, Ottoman Empire, Roman Republic",
 "artists",
 1
 ],
@@ -33922,79 +33992,9 @@
 1
 ],
 [
-"Alexandros of Antioch",
-"Neo-Attic and late Hellenistic",
-"born -200; active in Turkey",
-"artists",
-1
-],
-[
-"Stephanus",
-"Neo-Attic and late Hellenistic",
-"born -100",
-"artists",
-1
-],
-[
-"Antiochus",
-"Neo-Attic and late Hellenistic",
-"born -100; active in Greece",
-"artists",
-1
-],
-[
-"Agasias",
-"Neo-Attic and late Hellenistic",
-"born -200; active in Byzantine Empire, Ottoman Empire, Roman Republic, Kingdom of Pergamon, Roman Empire, Ptolemaic Kingdom, Seljuk Empire, Achaemenid Empire, Turkey, Seleucid Empire",
-"artists",
-1
-],
-[
-"Aegineta",
-"Neo-Attic and late Hellenistic",
-"born -250; active in Greece",
-"artists",
-1
-],
-[
-"Herophon",
-"Neo-Attic and late Hellenistic",
-"born -100",
-"artists",
-1
-],
-[
-"Apollonius of Athens",
-"Neo-Attic and late Hellenistic",
-"born -100; active in Greece",
-"artists",
-1
-],
-[
-"Glycon of Athens",
-"Neo-Attic and late Hellenistic",
-"born -100; active in Greece",
-"artists",
-1
-],
-[
-"Archelaus of Priene",
-"Neo-Attic and late Hellenistic",
-"born -150; active in Turkey",
-"artists",
-1
-],
-[
-"Boethus",
-"Neo-Attic and late Hellenistic",
-"born -300; active in Kingdom of Pergamon",
-"artists",
-1
-],
-[
 "Timocles of Athens",
 "Neo-Attic and late Hellenistic",
-"active in Classical Athens",
+"active in Athens",
 "artists",
 1
 ],
@@ -34008,7 +34008,7 @@
 [
 "Zeuxis",
 "Painters and other named artists",
-"born -200",
+"born c. 200 BC",
 "artists",
 1
 ],
@@ -34108,16 +34108,16 @@
 1
 ],
 [
-"Wiligelmo",
+"Oderisio da Benevento",
 "Italy",
-"born 1100; active in March of Tuscany",
+"born 1090; active in Papal States",
 "artists",
 1
 ],
 [
-"Biduino",
+"Wiligelmo",
 "Italy",
-"born 1150; active in Italy",
+"born 1100; active in March of Tuscany",
 "artists",
 1
 ],
@@ -34129,9 +34129,16 @@
 1
 ],
 [
-"Oderisio da Benevento",
+"Anselmo da Campione",
 "Italy",
-"born 1090; active in Papal States",
+"born 1130; active in Italy",
+"artists",
+1
+],
+[
+"Biduino",
+"Italy",
+"born 1150; active in Italy",
 "artists",
 1
 ],
@@ -34143,23 +34150,9 @@
 1
 ],
 [
-"Anselmo da Campione",
-"Italy",
-"born 1130; active in Italy",
-"artists",
-1
-],
-[
 "Bonanno Pisano",
 "Italy",
 "born 1150; active in Italy",
-"artists",
-1
-],
-[
-"Ramon de Bianya",
-"Spain and Catalonia",
-"born 1150; active in Kingdom of Majorca",
 "artists",
 1
 ],
@@ -34171,9 +34164,9 @@
 1
 ],
 [
-"Nicholas of Verdun",
-"Mosan metalwork",
-"born 1130; active in Duchy of Lorraine",
+"Ramon de Bianya",
+"Spain and Catalonia",
+"born 1150; active in Kingdom of Majorca",
 "artists",
 1
 ],
@@ -34185,9 +34178,23 @@
 1
 ],
 [
+"Nicholas of Verdun",
+"Mosan metalwork",
+"born 1130; active in Duchy of Lorraine",
+"artists",
+1
+],
+[
 "Master Hugo",
 "England",
 "born 1050; active in United Kingdom",
+"artists",
+1
+],
+[
+"Horder",
+"Gotland and Scandinavian font masters",
+"born 1101; active in Kingdom of Denmark",
 "artists",
 1
 ],
@@ -34209,13 +34216,6 @@
 "Master Sigraf",
 "Gotland and Scandinavian font masters",
 "born 1150; active in Sweden",
-"artists",
-1
-],
-[
-"Horder",
-"Gotland and Scandinavian font masters",
-"born 1101; active in Kingdom of Denmark",
 "artists",
 1
 ],
@@ -34258,21 +34258,21 @@
 "Pórtico da Gloria",
 "Named works",
 "1188 (Master Mateo); Santiago de Compostela Cathedral",
-"r3 https://en.wikipedia.org/wiki/Pórtico_da_Gloria",
+"r3 https://en.wikipedia.org/wiki/Santiago_de_Compostela_Cathedral",
 0
 ],
 [
 "Baptismal font of St Bartholomew's, Liège",
 "Named works",
 "1107–18 (Renier de Huy)",
-"r3 https://en.wikipedia.org/wiki/Baptismal_font_in_St_Bartholomew's_Church",
+"r3 https://en.wikipedia.org/wiki/Renier_de_Huy",
 0
 ],
 [
 "Klosterneuburg Altar",
 "Named works",
 "1181 (Nicholas of Verdun); Klosterneuburg Monastery",
-"r3 https://en.wikipedia.org/wiki/Verdun_Altar",
+"r3 https://en.wikipedia.org/wiki/Nicholas_of_Verdun",
 0
 ],
 [
@@ -34301,17 +34301,10 @@
 ],
 "kinds": [
 [
-"Alfred Gilbert",
+"Frederic Leighton",
 "British New Sculptors (first generation)",
-"born 1854; active in United Kingdom, United Kingdom of Great Britain and Ireland",
-"artists",
-1
-],
-[
-"Hamo Thornycroft",
-"British New Sculptors (first generation)",
-"born 1850; active in United Kingdom of Great Britain and Ireland",
-"artists",
+"1830–1896, painter whose Athlete Wrestling with a Python (1877) launched the movement",
+"r3 https://en.wikipedia.org/wiki/Frederic_Leighton",
 1
 ],
 [
@@ -34322,65 +34315,51 @@
 1
 ],
 [
-"Harry Bates",
+"Hamo Thornycroft",
 "British New Sculptors (first generation)",
-"born 1850; active in United Kingdom of Great Britain and Ireland",
+"born 1850; active in United Kingdom",
 "artists",
 1
 ],
 [
-"Frederic Leighton",
+"Harry Bates",
 "British New Sculptors (first generation)",
-"1830–1896, painter whose Athlete Wrestling with a Python (1877) launched the movement",
-"r3 https://en.wikipedia.org/wiki/Frederic_Leighton",
+"born 1850; active in United Kingdom",
+"artists",
+1
+],
+[
+"Alfred Gilbert",
+"British New Sculptors (first generation)",
+"born 1854; active in United Kingdom",
+"artists",
 1
 ],
 [
 "Alfred Drury",
 "British New Sculptors (second generation)",
-"born 1856; active in United Kingdom, United Kingdom of Great Britain and Ireland",
-"artists",
-1
-],
-[
-"William Goscombe John",
-"British New Sculptors (second generation)",
-"born 1860; active in United Kingdom, United Kingdom of Great Britain and Ireland",
+"born 1856; active in United Kingdom",
 "artists",
 1
 ],
 [
 "F. W. Pomeroy",
 "British New Sculptors (second generation)",
-"born 1856; active in United Kingdom of Great Britain and Ireland",
-"artists",
-1
-],
-[
-"Albert Toft",
-"British New Sculptors (second generation)",
-"born 1862; active in United Kingdom, United Kingdom of Great Britain and Ireland",
+"born 1856; active in United Kingdom",
 "artists",
 1
 ],
 [
 "Andrea Carlo Lucchesi",
 "British New Sculptors (second generation)",
-"born 1859; active in United Kingdom of Great Britain and Ireland",
+"born 1859; active in United Kingdom",
 "artists",
 1
 ],
 [
-"Gilbert Bayes",
+"William Goscombe John",
 "British New Sculptors (second generation)",
-"born 1872; active in United Kingdom",
-"artists",
-1
-],
-[
-"Henry Alfred Pegram",
-"British New Sculptors (second generation)",
-"born 1862; active in United Kingdom, United Kingdom of Great Britain and Ireland",
+"born 1860; active in United Kingdom",
 "artists",
 1
 ],
@@ -34392,10 +34371,31 @@
 1
 ],
 [
+"Albert Toft",
+"British New Sculptors (second generation)",
+"born 1862; active in United Kingdom",
+"artists",
+1
+],
+[
+"Henry Alfred Pegram",
+"British New Sculptors (second generation)",
+"born 1862; active in United Kingdom",
+"artists",
+1
+],
+[
 "Bertram Mackennal",
 "British New Sculptors (second generation)",
 "1863–1931, Australian-born sculptor",
 "r3 https://en.wikipedia.org/wiki/Bertram_Mackennal",
+1
+],
+[
+"Gilbert Bayes",
+"British New Sculptors (second generation)",
+"born 1872; active in United Kingdom",
+"artists",
 1
 ],
 [
@@ -34424,27 +34424,6 @@
 ],
 "kinds": [
 [
-"Emile Guillemin",
-"Founders",
-"born 1841; active in France",
-"artists",
-1
-],
-[
-"Alfred Barye",
-"Founders",
-"born 1839; active in France",
-"artists",
-1
-],
-[
-"Jules Moigniez",
-"Founders",
-"born 1835; active in France",
-"artists",
-1
-],
-[
 "Antoine-Louis Barye",
 "Founders",
 "1795–1875, leading animalier, Lion Crushing a Serpent (1832)",
@@ -34466,6 +34445,27 @@
 1
 ],
 [
+"Jules Moigniez",
+"Founders",
+"born 1835; active in France",
+"artists",
+1
+],
+[
+"Alfred Barye",
+"Founders",
+"born 1839; active in France",
+"artists",
+1
+],
+[
+"Emile Guillemin",
+"Founders",
+"born 1841; active in France",
+"artists",
+1
+],
+[
 "Auguste Cain",
 "Second generation",
 "1821–1894, Mêne's son-in-law",
@@ -34480,6 +34480,13 @@
 1
 ],
 [
+"François Pompon",
+"Later animaliers",
+"1855–1933, sculptor of the White Bear",
+"r3 https://en.wikipedia.org/wiki/François_Pompon",
+1
+],
+[
 "Georges Gardet",
 "Second generation",
 "1863–1939, sculptor of big cats",
@@ -34491,13 +34498,6 @@
 "Later animaliers",
 "1884–1916, Italian animal sculptor",
 "r3 https://en.wikipedia.org/wiki/Rembrandt_Bugatti",
-1
-],
-[
-"François Pompon",
-"Later animaliers",
-"1855–1933, sculptor of the White Bear",
-"r3 https://en.wikipedia.org/wiki/François_Pompon",
 1
 ]
 ],
@@ -34521,20 +34521,6 @@
 ],
 "kinds": [
 [
-"Alexander Calder",
-"Mobiles and early kinetic art",
-"born 1898; active in United States",
-"artists",
-1
-],
-[
-"Lin Emery",
-"Mobiles and early kinetic art",
-"born 1928; active in United States",
-"artists",
-1
-],
-[
 "Naum Gabo",
 "Mobiles and early kinetic art",
 "1890–1977, Kinetic Construction (1919–20)",
@@ -34549,9 +34535,16 @@
 1
 ],
 [
-"Yaacov Agam",
-"Paris op-kinetic circle",
-"born 1928; active in France, Israel",
+"Alexander Calder",
+"Mobiles and early kinetic art",
+"born 1898; active in United States",
+"artists",
+1
+],
+[
+"Lin Emery",
+"Mobiles and early kinetic art",
+"born 1928; active in United States",
 "artists",
 1
 ],
@@ -34563,16 +34556,23 @@
 1
 ],
 [
-"Gerhard von Graevenitz",
+"Eusebio Sempere",
 "Paris op-kinetic circle",
-"born 1934; active in Germany",
+"born 1923; active in Spain",
 "artists",
 1
 ],
 [
-"Eusebio Sempere",
+"Carlos Cruz-Diez",
 "Paris op-kinetic circle",
-"born 1923; active in Spain",
+"1923–2019, Venezuelan kinetic artist",
+"r3 https://en.wikipedia.org/wiki/Carlos_Cruz-Diez",
+1
+],
+[
+"Yaacov Agam",
+"Paris op-kinetic circle",
+"born 1928; active in France, Israel",
 "artists",
 1
 ],
@@ -34584,10 +34584,10 @@
 1
 ],
 [
-"Carlos Cruz-Diez",
+"Gerhard von Graevenitz",
 "Paris op-kinetic circle",
-"1923–2019, Venezuelan kinetic artist",
-"r3 https://en.wikipedia.org/wiki/Carlos_Cruz-Diez",
+"born 1934; active in Germany",
+"artists",
 1
 ],
 [
@@ -34598,13 +34598,6 @@
 1
 ],
 [
-"Heinz Mack",
-"ZERO",
-"b. 1931, ZERO co-founder",
-"r3 https://en.wikipedia.org/wiki/Heinz_Mack",
-1
-],
-[
 "Günther Uecker",
 "ZERO",
 "1930–2025, ZERO member",
@@ -34612,10 +34605,10 @@
 1
 ],
 [
-"Jeppe Hein",
-"Later kinetic art",
-"born 1974; active in Kingdom of Denmark",
-"artists",
+"Heinz Mack",
+"ZERO",
+"b. 1931, ZERO co-founder",
+"r3 https://en.wikipedia.org/wiki/Heinz_Mack",
 1
 ],
 [
@@ -34626,10 +34619,10 @@
 1
 ],
 [
-"Jean Tinguely",
-"Nouveau Réalisme machines",
-"1925–1991, Homage to New York (1960)",
-"r3 https://en.wikipedia.org/wiki/Jean_Tinguely",
+"Jeppe Hein",
+"Later kinetic art",
+"born 1974; active in Kingdom of Denmark",
+"artists",
 1
 ],
 [
@@ -34637,6 +34630,13 @@
 "Nouveau Réalisme machines",
 "1922–2005, Belgian kinetic sculptor",
 "r3 https://en.wikipedia.org/wiki/Pol_Bury",
+1
+],
+[
+"Jean Tinguely",
+"Nouveau Réalisme machines",
+"1925–1991, Homage to New York (1960)",
+"r3 https://en.wikipedia.org/wiki/Jean_Tinguely",
 1
 ],
 [
@@ -34670,9 +34670,23 @@
 ],
 "kinds": [
 [
-"Fred Sandback",
+"Tony Smith",
 "New York Minimalists (core)",
-"born 1943; active in United States",
+"born 1912; active in United States",
+"artists",
+1
+],
+[
+"Ronald Bladen",
+"New York Minimalists (core)",
+"1918–1988, Primary Structures exhibitor",
+"r3 https://en.wikipedia.org/wiki/Ronald_Bladen",
+1
+],
+[
+"Anne Truitt",
+"New York Minimalists (core)",
+"born 1921; active in United States",
 "artists",
 1
 ],
@@ -34691,10 +34705,10 @@
 1
 ],
 [
-"Carl Andre",
+"Robert Morris",
 "New York Minimalists (core)",
-"born 1935; active in United States",
-"artists",
+"1931–2018, sculptor and theorist of Minimalism",
+"r3 https://en.wikipedia.org/wiki/Robert_Morris_(artist)",
 1
 ],
 [
@@ -34705,16 +34719,9 @@
 1
 ],
 [
-"Tony Smith",
+"Carl Andre",
 "New York Minimalists (core)",
-"born 1912; active in United States",
-"artists",
-1
-],
-[
-"Anne Truitt",
-"New York Minimalists (core)",
-"born 1921; active in United States",
+"born 1935; active in United States",
 "artists",
 1
 ],
@@ -34726,17 +34733,17 @@
 1
 ],
 [
-"Robert Morris",
+"Fred Sandback",
 "New York Minimalists (core)",
-"1931–2018, sculptor and theorist of Minimalism",
-"r3 https://en.wikipedia.org/wiki/Robert_Morris_(artist)",
+"born 1943; active in United States",
+"artists",
 1
 ],
 [
-"Ronald Bladen",
-"New York Minimalists (core)",
-"1918–1988, Primary Structures exhibitor",
-"r3 https://en.wikipedia.org/wiki/Ronald_Bladen",
+"Agnes Martin",
+"Minimal painting",
+"1912–2004, grid painter",
+"r3 https://en.wikipedia.org/wiki/Agnes_Martin",
 1
 ],
 [
@@ -34754,10 +34761,10 @@
 1
 ],
 [
-"Brice Marden",
+"Frank Stella",
 "Minimal painting",
-"born 1938; active in United States",
-"artists",
+"1936–2024, Black Paintings",
+"r3 https://en.wikipedia.org/wiki/Frank_Stella",
 1
 ],
 [
@@ -34768,24 +34775,17 @@
 1
 ],
 [
-"Agnes Martin",
+"Brice Marden",
 "Minimal painting",
-"1912–2004, grid painter",
-"r3 https://en.wikipedia.org/wiki/Agnes_Martin",
-1
-],
-[
-"Frank Stella",
-"Minimal painting",
-"1936–2024, Black Paintings",
-"r3 https://en.wikipedia.org/wiki/Frank_Stella",
-1
-],
-[
-"Larry Bell",
-"Los Angeles Light and Space / Finish Fetish",
-"born 1939; active in United States",
+"born 1938; active in United States",
 "artists",
+1
+],
+[
+"Robert Irwin",
+"Los Angeles Light and Space / Finish Fetish",
+"1928–2023, Light and Space artist",
+"r3 https://en.wikipedia.org/wiki/Robert_Irwin_(artist)",
 1
 ],
 [
@@ -34803,23 +34803,16 @@
 1
 ],
 [
-"Robert Irwin",
+"Larry Bell",
 "Los Angeles Light and Space / Finish Fetish",
-"1928–2023, Light and Space artist",
-"r3 https://en.wikipedia.org/wiki/Robert_Irwin_(artist)",
+"born 1939; active in United States",
+"artists",
 1
 ],
 [
 "Charlotte Posenenske",
 "European minimal art",
 "born 1930; active in Germany",
-"artists",
-1
-],
-[
-"Didier Vermeiren",
-"European minimal art",
-"born 1951; active in Belgium",
 "artists",
 1
 ],
@@ -34845,9 +34838,9 @@
 1
 ],
 [
-"Félix González-Torres",
-"Later and related artists",
-"born 1957; active in Cuba, United States",
+"Didier Vermeiren",
+"European minimal art",
+"born 1951; active in Belgium",
 "artists",
 1
 ],
@@ -34871,6 +34864,13 @@
 "born 1953; active in Canada",
 "artists",
 1
+],
+[
+"Félix González-Torres",
+"Later and related artists",
+"born 1957; active in Cuba, United States",
+"artists",
+1
 ]
 ],
 "alias_rows": []
@@ -34891,6 +34891,20 @@
 ],
 "kinds": [
 [
+"Ulrich Rückriem",
+"Process art (Anti-Form)",
+"born 1938; active in Germany",
+"artists",
+1
+],
+[
+"Robert Smithson",
+"Process art (Anti-Form)",
+"1938–1973, earthworks and process pieces",
+"r3 https://en.wikipedia.org/wiki/Robert_Smithson",
+1
+],
+[
 "Richard Serra",
 "Process art (Anti-Form)",
 "born 1939; active in United States",
@@ -34905,31 +34919,10 @@
 1
 ],
 [
-"Jan de Weryha-Wysoczański",
-"Process art (Anti-Form)",
-"born 1950; active in Germany, Poland",
-"artists",
-1
-],
-[
-"Ulrich Rückriem",
-"Process art (Anti-Form)",
-"born 1938; active in Germany",
-"artists",
-1
-],
-[
 "Barry Le Va",
 "Process art (Anti-Form)",
 "born 1941; active in United States",
 "artists",
-1
-],
-[
-"Robert Smithson",
-"Process art (Anti-Form)",
-"1938–1973, earthworks and process pieces",
-"r3 https://en.wikipedia.org/wiki/Robert_Smithson",
 1
 ],
 [
@@ -34940,9 +34933,16 @@
 1
 ],
 [
-"Bruce Nauman",
+"Jan de Weryha-Wysoczański",
+"Process art (Anti-Form)",
+"born 1950; active in Germany, Poland",
+"artists",
+1
+],
+[
+"Jackie Ferrara",
 "Postminimalism (New York)",
-"born 1941; active in United States",
+"born 1929; active in United States",
 "artists",
 1
 ],
@@ -34954,13 +34954,6 @@
 1
 ],
 [
-"Keith Milow",
-"Postminimalism (New York)",
-"born 1945; active in United Kingdom",
-"artists",
-1
-],
-[
 "Nancy Graves",
 "Postminimalism (New York)",
 "born 1939; active in United States",
@@ -34968,9 +34961,9 @@
 1
 ],
 [
-"Jackie Ferrara",
+"Bruce Nauman",
 "Postminimalism (New York)",
-"born 1929; active in United States",
+"born 1941; active in United States",
 "artists",
 1
 ],
@@ -34986,6 +34979,13 @@
 "Postminimalism (New York)",
 "b. 1941, small cast figures",
 "r3 https://en.wikipedia.org/wiki/Joel_Shapiro",
+1
+],
+[
+"Keith Milow",
+"Postminimalism (New York)",
+"born 1945; active in United Kingdom",
+"artists",
 1
 ]
 ],
@@ -35023,13 +35023,6 @@
 1
 ],
 [
-"Monkan-bō Kōshin",
-"Unkei's sons and later Kei",
-"born 1278; active in Japan",
-"artists",
-1
-],
-[
 "Tankei",
 "Unkei's sons and later Kei",
 "born 1173; active in Japan",
@@ -35051,13 +35044,6 @@
 1
 ],
 [
-"Kōshō",
-"Unkei's sons and later Kei",
-"born 1250; active in Japan",
-"artists",
-1
-],
-[
 "Kōben",
 "Unkei's sons and later Kei",
 "fl. 1215, Unkei's son, Tentōki and Ryūtōki (Kōfuku-ji)",
@@ -35065,10 +35051,24 @@
 1
 ],
 [
+"Kōshō",
+"Unkei's sons and later Kei",
+"born 1250; active in Japan",
+"artists",
+1
+],
+[
+"Monkan-bō Kōshin",
+"Unkei's sons and later Kei",
+"born 1278; active in Japan",
+"artists",
+1
+],
+[
 "Niō of the Great South Gate, Tōdai-ji",
 "Named works",
 "1203 (Unkei, Kaikei and assistants); Nara, National Treasure",
-"r3 https://en.wikipedia.org/wiki/Nandaimon_(Tōdai-ji)",
+"r3 https://en.wikipedia.org/wiki/Tōdai-ji",
 0
 ],
 [
@@ -35440,7 +35440,7 @@
 "Nutcracker",
 "Sub-types",
 "soldier and king nutcrackers",
-"r3 https://en.wikipedia.org/wiki/Nutcracker_(device)",
+"r3 https://en.wikipedia.org/wiki/Seiffen",
 0
 ],
 [
@@ -35674,28 +35674,28 @@
 "Kaavadiya storytellers",
 "Sub-types",
 "Bhat bards who recite with the shrine",
-"r3 https://en.wikipedia.org/wiki/Kavad",
+"r3 https://en.wikipedia.org/wiki/Chittorgarh_district",
 0
 ],
 [
 "Ram kaavad",
 "Sub-types",
 "shrine of Rama's story",
-"r3 https://en.wikipedia.org/wiki/Kavad",
+"r3 https://en.wikipedia.org/wiki/Chittorgarh_district",
 0
 ],
 [
 "Krishna kaavad",
 "Sub-types",
 "shrine of Krishna's story",
-"r3 https://en.wikipedia.org/wiki/Kavad",
+"r3 https://en.wikipedia.org/wiki/Chittorgarh_district",
 0
 ],
 [
 "Bassi, Chittorgarh",
 "Centres & workshops",
 "Rajasthan village of the kaavad makers",
-"r3 https://en.wikipedia.org/wiki/Kavad",
+"r3 https://en.wikipedia.org/wiki/Chittorgarh_district",
 0
 ]
 ],
@@ -35921,14 +35921,14 @@
 "Eyema byeri",
 "Sub-types",
 "full figure guardian",
-"r3 https://en.wikipedia.org/wiki/Byeri",
+"r3 https://en.wikipedia.org/wiki/Fang_people",
 0
 ],
 [
 "Nlo byeri",
 "Sub-types",
 "head guardian",
-"r3 https://en.wikipedia.org/wiki/Byeri",
+"r3 https://en.wikipedia.org/wiki/Fang_people",
 0
 ],
 [
@@ -36087,7 +36087,7 @@
 "Duhos",
 "Sub-types",
 "ceremonial seats",
-"r3 https://en.wikipedia.org/wiki/Duho",
+"r3 https://en.wikipedia.org/wiki/Taíno",
 0
 ],
 [
@@ -36158,7 +36158,7 @@
 "Joaquín López Antay",
 "Makers",
 "1897–1981, Ayacucho retablista",
-"r3 https://en.wikipedia.org/wiki/Joaquín_López_Antay",
+"r3 https://en.wikipedia.org/wiki/Retablo",
 1
 ]
 ],
@@ -36357,7 +36357,7 @@
 "Jilamara Arts and Crafts",
 "Centres & workshops",
 "Milikapiti art centre",
-"r3 https://en.wikipedia.org/wiki/Jilamara_Arts_and_Crafts",
+"r3 https://en.wikipedia.org/wiki/Tiwi_Islands",
 0
 ],
 [
@@ -36940,14 +36940,14 @@
 "Çeşm-i bülbül",
 "Sub-types",
 "'nightingale's eye' glass with spiral white and coloured threads",
-"r3 https://en.wikipedia.org/wiki/Çeşm-i_bülbül",
+"r3 https://en.wikipedia.org/wiki/Beykoz",
 0
 ],
 [
 "Beykoz opaline and gilded glass",
 "Sub-types",
 "milk-glass and gilded wares, 19th century",
-"r3 https://en.wikipedia.org/wiki/Beykoz_ware",
+"r3 https://en.wikipedia.org/wiki/Beykoz",
 0
 ],
 [
@@ -37193,7 +37193,7 @@
 "Auldjo Jug",
 "Named works",
 "1st c., cameo glass; British Museum, London",
-"r3 https://en.wikipedia.org/wiki/Auldjo_Jug",
+"r3 https://en.wikipedia.org/wiki/Cameo_glass",
 0
 ],
 [
@@ -37248,14 +37248,14 @@
 "Core-formed vessels",
 "Sub-types",
 "alabastra, amphoriskoi and oinochoai formed on a core",
-"r3 https://en.wikipedia.org/wiki/Core-formed_glass",
+"r3 https://en.wikipedia.org/wiki/Hellenistic_glass",
 0
 ],
 [
 "Mosaic glass",
 "Sub-types",
 "fused canes of coloured glass, Hellenistic bowls",
-"r3 https://en.wikipedia.org/wiki/Mosaic_glass",
+"r3 https://en.wikipedia.org/wiki/Hellenistic_glass",
 0
 ],
 [
@@ -37308,7 +37308,7 @@
 "Filigrana (latticino)",
 "Sub-types",
 "glass with embedded white cane threads",
-"r3 https://en.wikipedia.org/wiki/Filigree_glass",
+"r3 https://en.wikipedia.org/wiki/Angelo_Barovier",
 0
 ],
 [
@@ -37375,17 +37375,17 @@
 1
 ],
 [
+"Napoleone Martinuzzi",
+"Makers",
+"1892–1977, designer for Venini",
+"r3 https://en.wikipedia.org/wiki/Angelo_Barovier",
+1
+],
+[
 "Carlo Scarpa",
 "Makers",
 "1906–1978, designer for Venini",
 "r3 https://en.wikipedia.org/wiki/Carlo_Scarpa",
-1
-],
-[
-"Napoleone Martinuzzi",
-"Makers",
-"1892–1977, designer for Venini",
-"r3 https://en.wikipedia.org/wiki/Napoleone_Martinuzzi",
 1
 ]
 ],
@@ -37801,21 +37801,14 @@
 "Loetz",
 "Bohemian and Austrian Art Nouveau glass",
 "Klostermühle glassworks of Johann Loetz Witwe, iridescent Phänomen glass",
-"r3 https://en.wikipedia.org/wiki/Loetz",
+"r3 https://en.wikipedia.org/wiki/Art_Nouveau_glass_art",
 0
 ],
 [
 "Max Ritter von Spaun",
 "Bohemian and Austrian Art Nouveau glass",
 "1856–1909, owner of Loetz",
-"r3 https://en.wikipedia.org/wiki/Loetz",
-1
-],
-[
-"René Lalique",
-"Paris",
-"1860–1945, jeweller and glassmaker",
-"r3 https://en.wikipedia.org/wiki/René_Lalique",
+"r3 https://en.wikipedia.org/wiki/Art_Nouveau_glass_art",
 1
 ],
 [
@@ -37823,6 +37816,13 @@
 "Paris",
 "1827–1890, pioneer of art glass",
 "r3 https://en.wikipedia.org/wiki/Eugène_Rousseau",
+1
+],
+[
+"René Lalique",
+"Paris",
+"1860–1945, jeweller and glassmaker",
+"r3 https://en.wikipedia.org/wiki/René_Lalique",
 1
 ]
 ],
@@ -37937,7 +37937,7 @@
 [
 "William Morris",
 "Pilchuck and the Pacific Northwest",
-"born 1834; active in United Kingdom, United Kingdom of Great Britain and Ireland",
+"born 1834; active in United Kingdom",
 "artists",
 1
 ],
@@ -37970,6 +37970,13 @@
 1
 ],
 [
+"Erwin Eisch",
+"European studio glass",
+"born 1927; active in Germany",
+"artists",
+1
+],
+[
 "Lino Tagliapietra",
 "European studio glass",
 "b. 1934, Murano master who taught at Pilchuck",
@@ -37977,9 +37984,9 @@
 1
 ],
 [
-"Erwin Eisch",
+"Ann Wolff",
 "European studio glass",
-"born 1927; active in Germany",
+"born 1937; active in Sweden",
 "artists",
 1
 ],
@@ -37998,9 +38005,9 @@
 1
 ],
 [
-"Ann Wolff",
-"European studio glass",
-"born 1937; active in Sweden",
+"Kyohei Fujita",
+"Australia and Japan",
+"born 1921; active in Japan, Empire of Japan",
 "artists",
 1
 ],
@@ -38008,13 +38015,6 @@
 "Klaus Moje",
 "Australia and Japan",
 "born 1936; active in Germany, Australia",
-"artists",
-1
-],
-[
-"Kyohei Fujita",
-"Australia and Japan",
-"born 1921; active in Japan, Empire of Japan",
 "artists",
 1
 ]
@@ -38027,9 +38027,9 @@
 "axis": "Sections in order: Sub-types · Centres & workshops (canonical and core entries first within each section)",
 "catalogues": [
 [
-"https://en.wikipedia.org/wiki/Mosaic_lamp",
-"Wikipedia: Mosaic lamp",
-"Turkish mosaic lamps"
+"https://www.europeana.eu/en/search?query=mosaic%20lamp",
+"Europeana search: mosaic lamp",
+"European museum records of mosaic lamps"
 ]
 ],
 "kinds": [
@@ -38044,7 +38044,7 @@
 "Hanging mosaic lamps",
 "Sub-types",
 "multi-globe hanging lamps",
-"r3 https://en.wikipedia.org/wiki/Mosaic_lamp",
+"r3 https://en.wikipedia.org/wiki/Grand_Bazaar,_Istanbul",
 0
 ],
 [
@@ -38134,7 +38134,7 @@
 "Ingeborg Lundin",
 "Makers",
 "1921–1992, Orrefors designer of the Apple vase",
-"r3 https://en.wikipedia.org/wiki/Ingeborg_Lundin",
+"r3 https://en.wikipedia.org/wiki/Orrefors",
 1
 ]
 ],
@@ -38216,7 +38216,7 @@
 "Bīdoro and poppen",
 "Sub-types",
 "early Edo blown glass and the poppen toy",
-"r3 https://en.wikipedia.org/wiki/Japanese_glass",
+"r3 https://en.wikipedia.org/wiki/Edo_kiriko",
 0
 ],
 [
@@ -38467,7 +38467,7 @@
 "Studio del Mosaico Vaticano",
 "Centres & workshops",
 "Vatican Mosaic Studio, founded 1727",
-"r3 https://en.wikipedia.org/wiki/Vatican_Mosaic_Studio",
+"r3 https://en.wikipedia.org/wiki/Micromosaic",
 0
 ],
 [
@@ -38515,7 +38515,7 @@
 "Muski glass",
 "Sub-types",
 "recycled blown glass of Cairo",
-"r3 https://en.wikipedia.org/wiki/Muski_glass",
+"r3 https://en.wikipedia.org/wiki/Khan_el-Khalili",
 0
 ],
 [
@@ -38649,7 +38649,7 @@
 "Hyalith and lithyalin",
 "Sub-types",
 "opaque coloured glasses of the 1820s",
-"r3 https://en.wikipedia.org/wiki/Hyalith",
+"r3 https://en.wikipedia.org/wiki/Bohemian_glass",
 0
 ],
 [
@@ -38670,7 +38670,7 @@
 "Moser",
 "Centres & workshops",
 "Karlovy Vary glassworks founded 1857",
-"r3 https://en.wikipedia.org/wiki/Moser_(glass)",
+"r3 https://en.wikipedia.org/wiki/Moser_(glass_company)",
 0
 ],
 [
@@ -38768,14 +38768,14 @@
 "Friedrich Egermann",
 "Makers",
 "1777–1864, inventor of lithyalin",
-"r3 https://en.wikipedia.org/wiki/Friedrich_Egermann",
+"r3 https://en.wikipedia.org/wiki/Bohemian_glass",
 1
 ],
 [
 "Dominik Biman",
 "Makers",
 "1800–1857, glass engraver",
-"r3 https://en.wikipedia.org/wiki/Dominik_Biman",
+"r3 https://en.wikipedia.org/wiki/Bohemian_glass",
 1
 ]
 ],
@@ -39032,7 +39032,7 @@
 "Enamelled beakers",
 "Sub-types",
 "tall beakers with figures and inscriptions",
-"r3 https://en.wikipedia.org/wiki/Mamluk_glass",
+"r3 https://en.wikipedia.org/wiki/Mosque_lamp",
 0
 ],
 [
@@ -39355,7 +39355,7 @@
 "Great East Window, York Minster",
 "Named works",
 "1405–08 (John Thornton)",
-"r3 https://en.wikipedia.org/wiki/Great_East_Window",
+"r3 https://en.wikipedia.org/wiki/York_Minster",
 0
 ],
 [
@@ -39516,7 +39516,7 @@
 "John Thornton",
 "Makers",
 "fl. 1405–33, glazier of the York Great East Window",
-"r3 https://en.wikipedia.org/wiki/John_Thornton_(glazier)",
+"r3 https://en.wikipedia.org/wiki/York_Minster",
 1
 ]
 ],
@@ -39633,16 +39633,16 @@
 1
 ],
 [
-"Francis Lathrop",
+"Louis Comfort Tiffany",
 "Makers",
-"1849–1909, window designer",
-"evidence",
+"1848–1933, founder of Tiffany Studios",
+"artists",
 1
 ],
 [
-"Alice Cordelia Morse",
+"Francis Lathrop",
 "Makers",
-"1863–1961, Tiffany designer",
+"1849–1909, window designer",
 "evidence",
 1
 ],
@@ -39661,10 +39661,10 @@
 1
 ],
 [
-"Louis Comfort Tiffany",
+"Alice Cordelia Morse",
 "Makers",
-"1848–1933, founder of Tiffany Studios",
-"artists",
+"1863–1961, Tiffany designer",
+"evidence",
 1
 ]
 ],

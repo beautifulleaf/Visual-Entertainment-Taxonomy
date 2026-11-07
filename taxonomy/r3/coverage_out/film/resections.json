@@ -457,6 +457,35 @@
    "tt0069725": 1
   }
  },
+ "A12-4": {
+  "axis": "studio-era phase (the field dates the cycle 1934 to the early 1940s)",
+  "secs": [
+   "Classic Hollywood Screwball (1933–1945)",
+   "European Screwball of the 1930s",
+   "Late Studio-Era Screwball (1946–1960s)",
+   "Neo-Screwball (1970–)"
+  ],
+  "assign": {
+   "tt0024240": 1,
+   "tt0025316": 1,
+   "tt0025919": 1,
+   "tt0027996": 1,
+   "tt0028010": 1,
+   "tt0030066": 2,
+   "tt0030993": 1,
+   "tt0029947": 1,
+   "tt0030241": 1,
+   "tt0167144": 2,
+   "tt0031647": 1,
+   "tt0033373": 1,
+   "tt0033804": 1,
+   "tt0035169": 1,
+   "tt0037077": 1,
+   "tt0040919": 3,
+   "tt0044916": 3,
+   "tt0110074": 4
+  }
+ },
  "A15-4": {
   "axis": "named exploitation cycle",
   "secs": [
@@ -488,6 +517,117 @@
    "tt0071359": 2,
    "tt0072752": 2,
    "tt0109593": 3
+  }
+ },
+ "A18-1": {
+  "axis": "era (the field's own periodisation of Hindi masala)",
+  "secs": [
+   "Angry Young Man Era (1973–1980s)",
+   "Romantic & Family Spectacle (1990s–2000s)",
+   "Star Action Masala (1995–)"
+  ],
+  "assign": {
+   "tt0072860": 1,
+   "tt0073707": 1,
+   "tt0113526": 3,
+   "tt0110076": 2,
+   "tt0112870": 2,
+   "tt0172684": 2,
+   "tt0216817": 2,
+   "tt0213890": 2,
+   "tt0248126": 2,
+   "tt0347304": 2,
+   "tt0254481": 2,
+   "tt1024943": 2,
+   "tt3863552": 2,
+   "tt4535650": 2,
+   "tt0211934": 3,
+   "tt0347473": 3,
+   "tt0461936": 3,
+   "tt1620719": 3,
+   "tt1729637": 3,
+   "tt1285241": 3,
+   "tt1708532": 3,
+   "tt1948150": 3,
+   "tt1849718": 3,
+   "tt2077833": 3,
+   "tt2112124": 3,
+   "tt2905838": 3,
+   "tt2372222": 3,
+   "tt2762334": 2,
+   "tt3405236": 3,
+   "tt7212726": 3,
+   "tt9531772": 3,
+   "tt13751694": 3,
+   "tt15354916": 3,
+   "tt11976134": 3,
+   "tt13818368": 3
+  }
+ },
+ "A18-7": {
+  "axis": "era of the Nigerian industry",
+  "secs": [
+   "Home-Video Era (1992–2000s)",
+   "New Nollywood (2009–)"
+  ],
+  "assign": {
+   "tt0906000": 1,
+   "tt0493828": 1,
+   "tt1542960": 2,
+   "tt3206616": 2,
+   "tt2385126": 2,
+   "tt5978822": 2,
+   "tt6685776": 2,
+   "tt9652322": 2,
+   "tt8329618": 2,
+   "tt7707314": 2,
+   "tt9725830": 2,
+   "tt11481312": 2,
+   "tt12423052": 2,
+   "tt15565704": 2,
+   "tt19704612": 2,
+   "tt24083908": 2,
+   "tt33540966": 2
+  }
+ },
+ "A18-8": {
+  "axis": "popular genre cycle of the Yeşilçam studio era",
+  "secs": [
+   "Yeşilçam Melodrama",
+   "Yeşilçam Comedy (Eğilmez, Sunal)",
+   "Historical Adventure (Malkoçoğlu, Tarkan, Kara Murat)",
+   "Turksploitation Remakes"
+  ],
+  "assign": {
+   "tt0200588": 4,
+   "tt0252084": 1,
+   "tt0392396": 3,
+   "tt0267351": 2,
+   "tt0252487": 2,
+   "tt0252488": 2,
+   "tt0252490": 2,
+   "tt0253779": 2,
+   "tt0253828": 2,
+   "tt0252489": 2,
+   "tt0263975": 1,
+   "tt0253997": 2,
+   "tt0765833": 1
+  }
+ },
+ "A19-8": {
+  "axis": "state / political tradition",
+  "secs": [
+   "Nazi Propaganda Film",
+   "Soviet Agitprop Documentary",
+   "American New Deal & Wartime Propaganda",
+   "Popular Front & Anti-Fascist Documentary"
+  ],
+  "assign": {
+   "tt0025913": 1,
+   "tt0031160": 3,
+   "tt0035209": 3,
+   "tt0036152": 3,
+   "tt0139491": 3
   }
  }
 }

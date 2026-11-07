@@ -103,10 +103,11 @@ TYPES = [("Carpets and rugs", r"\b(rugs?|carpets?|kilims?|mats?|gelims?|soumak)\
          ("Hangings and covers", r"\b(hangings?|covers?|curtains?|cushions?|pillows?|quilts?|coverlets?|bedcover|bedspread|tablecloth|towels?|napkins?|banners?|flags?|screens?|tapestr(y|ies)|valance|palampore|panels?|frontal|altar)\b"),
          ("Bags, baskets and containers", r"\b(bags?|baskets?|box(es)?|pouch|purse|containers?|trays?|jars?|bowls?|ollas?|plaque|wallet)\b"),
          ("Fragments and samples", r"\b(fragments?|samples?|borders?|bands?|swatch|strip)\b")]
+NOTWORK = r"\b(aan het|die een|batiksters|kinderen|groep|portret|gezicht|foto|photograph|view of|vrouwen|mannen|werknemers|plaat op karton)\b|image withheld"
 def otype(t):
     for g, rx in TYPES:
         if re.search(rx, t, re.I): return g
-    return "Other titled objects"
+    return "Other objects"
 
 CITY = {"The Metropolitan Museum of Art": "New York", "Metropolitan Museum of Art": "New York", "Victoria and Albert Museum": "London", "British Museum": "London",
  "The British Museum": "London", "Cleveland Museum of Art": "Cleveland", "Art Institute of Chicago": "Chicago", "Cooper Hewitt, Smithsonian Design Museum": "New York",
@@ -131,6 +132,24 @@ def nicetitle(t):
     t = re.sub(r"\s+", " ", t).strip().rstrip(".")
     if t.isupper(): t = t.capitalize()
     return t[:110]
+
+
+CER = r"\b(jar|cup|bowl|dish|tile|ewer|plate|bottle|tankard|lamp|basin|vase|cover and)\b"
+PHOTO = r"view|cliff|canyon|ruins|valley|\brock\b|synagog|landscape"
+POST = {"H1-9": (None, r"vrouw|kind"), "H1-11": (None, r"wajang|indonesian"), "H1-12": (None, r"werknemers|fabriek"),
+ "H2-2": (r"soumak|sumak", None), "H2-3": (r"sadu", None), "H2-9": (None, r"constitution|huipil"), "H2-15": (r"fl[eé]ch|arrow|assomption", None),
+ "H2-21": (None, r"кукла"), "H3-2": (None, CER), "H3-3": (None, CER), "H3-4": (None, CER), "H4-2": (None, CER), "H3-15": (None, r"hmong"),
+ "H3-21": (r"ojiya|echigo[- ]?j|越後上布|小千谷|chijimi", None), "H3-22": (r"mosi", None), "H3-47": (None, r"rooftop"),
+ "H3-51": (r"tartan|plaid", r"блюдо|girl|boy|portrait"), "H3-52": (r"tweed", None), "H4-3": (None, PHOTO), "H7-1": (None, PHOTO),
+ "H4-4": (r"pateh|sermeh", None), "H4-8": (r"\bbaloch|\bbaluch|\bsistan", None), "H4-11": (r"\bkantha|nakshi", None),
+ "H4-25": (r"자수|embroid|jasu|rank badge|hyungbae|screen", r"shiva|devi"), "H4-26": (r"bojagi|pojagi|wrapping cloth|보자기", r"청자|celadon|뚜껑|매병"),
+ "H4-35": (r"vodou|\bdrapo\b|haiti", None), "H4-71": (None, r"берёз|берез|кресло"), "H4-82": (r"ичиг|ichigi|сапог|кауш|чувяк|туфл|обув|boot|slipper|кожа", None),
+ "H4-85": (r"кружев|lace", None), "H4-92": (None, r"tivaevae"), "H4-98": (r"knit|sweater|mitten|lusekofte|selbu", None),
+ "H4-101": (None, r"speld|sieraad|vrouwen"), "H5-14": (None, r"rabat-joie|voyons"), "H5-24": (r"zharan|tie-dye|扎染", None),
+ "H5-37": (r"khmer|cambod|sampot|pidan", None), "H7-3": (r"cloak|possum", None), "H7-6": (None, r"astrolog"), "H7-7": (None, r"bethlehem"),
+ "H8-11": (r"panama|toquilla", None), "H8-19": (r"basket|tray|plaque|kiaha|horsehair", None), "H8-20": (r"basket|plaque|tray|sifter|wicker|yucca", None),
+ "H8-24": (None, r"aambeeld"), "H8-26": (None, r"\bjar\b|olla"), "H8-41": (r"kiondo", None), "H9-3": (None, r"huichol|wixarika"),
+ "H9-5": (None, r"kòmòkun|kònòkun"), "H9-6": (None, r"bead/beads"), "H9-7": (None, r"bead/beads|image withheld"), "H2-7": (None, r"shawl pin")}
 
 # ---------- catalogues ----------
 def cats(code, k, label, sub):
@@ -217,14 +236,21 @@ for l in INP:
         kinds.append([name, g, gl, "r3 " + u, 1 if is_m else 0]); REPORT["added"] += 1
     # computed works + collections
     objs = OBJ.get(code, {})
+    if code in POST:
+        kp, dp = POST[code]
+        objs = {u: v for u, v in objs.items() if (kp is None or re.search(kp, v[0] + " " + v[4], re.I)) and (dp is None or not re.search(dp, v[0] + " " + v[4], re.I))}
     leafwords = set(re.findall(r"[a-z]+", (label + " " + (k["q"] or "")).lower()))
     inst = collections.Counter(); firsturl = {}
     for u, (t, d, ins, f, cu) in objs.items():
         if ins:
             inst[ins] += 1; firsturl.setdefault(ins, u)
     cand = []
+    WG = None
+    if code in ("H3-30", "H3-31", "H3-39", "H3-40"): WG = label + " pieces"
+    elif label.endswith(" Lace") or code in ("H4-6", "H4-36", "H4-81", "H4-88", "H4-90", "H4-91"): WG = label + " pieces"
+    elif sub == "H8" or code == "H8-2": WG = None
     for u, (t, d, ins, f, cu) in objs.items():
-        if t and ins and titled(t, leafwords):
+        if t and ins and titled(t, leafwords) and not re.search(NOTWORK, t, re.I):
             cand.append((yr(d) if yr(d) is not None else 99999, nicetitle(t), d, ins, u))
     cand.sort()
     seen = set(); works = []
@@ -236,7 +262,7 @@ for l in INP:
     for t, d, ins, u, y in works:
         ds = str(d) if d and y != 99999 else ""
         nm = "%s (%s)" % (t, ds) if ds else t
-        kinds.append([nm, otype(t), ("%s%s" % (where(ins), ", " + ds if ds else ""))[:140], "r3 " + u, 0]); REPORT["works"] += 1
+        kinds.append([nm, WG or otype(t), ("%s%s" % (where(ins), ", " + ds if ds else ""))[:140], "r3 " + u, 0]); REPORT["works"] += 1
     coll = [(n, c) for c, n in inst.most_common() if n >= 10] or [(n, c) for c, n in inst.most_common(8)]
     for n, c in coll:
         kinds.append([c, "Collections", "%s — %d objects in the gathered records" % (where(c), n), "r3 " + firsturl[c], 0]); REPORT["collections"] += 1
@@ -246,8 +272,15 @@ for l in INP:
         if g in ORDER: return (ORDER.index(g), 0)
         if g == "Collections": return (90, 0)
         if g == "Makers": return (95, 0)
-        if g in [x[0] for x in TYPES] + ["Other titled objects"]: return (50, [x[0] for x in TYPES].index(g) if g != "Other titled objects" else 9)
+        if g in [x[0] for x in TYPES] + ["Other objects"]: return (50, [x[0] for x in TYPES].index(g) if g != "Other objects" else 9)
+        if g.endswith(" pieces"): return (50, 0)
         return (40, 0)
+    seenk = set(); dd = []
+    for r in kinds:
+        key = (r[0].lower(), r[1])
+        if key in seenk and not r[4]: continue
+        seenk.add(key); dd.append(r)
+    kinds = dd
     kinds.sort(key=gk)  # stable: keeps row order within group
     gs = []
     for r in kinds:

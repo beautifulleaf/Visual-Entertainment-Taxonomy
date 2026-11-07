@@ -34,3 +34,18 @@ A6-24 | | The Clan of the Cave Bear | 1986 | Michael Chapman | tt0090848
 A6-24 | | Ao: The Last Hunter | 2010 | Jacques Malaterre | tt1526578
 A6-24 | | Iceman | 2017 | Felix Randau | tt5907748
 """
+NEW = [
+ {"key": "NEW_A6_BERG", "sub": "A6", "label": "Bergfilm (Mountain Film)", "breadth": "national genre",
+  "defn": "The German mountain film of the 1920s–30s (Arnold Fanck, Leni Riefenstahl, Luis Trenker): real Alpine climbing and skiing photographed on location, elemental storms and avalanches, romantic rivalry and heroic summits (<i>The Holy Mountain</i>, <i>The White Hell of Pitz Palu</i>, <i>The Blue Light</i>).",
+  "aliases": "mountain film", "see": "A19-22 Mountaineering & Expedition Film", "src": [["https://en.wikipedia.org/wiki/Mountain_film", "Wikipedia"]]},
+]
+ITEMS += """
+NEW_A6_BERG | | The Holy Mountain | 1926 | Arnold Fanck | tt0016953
+NEW_A6_BERG | | The Great Leap | 1927 | Arnold Fanck | -
+NEW_A6_BERG | | The White Hell of Pitz Palu | 1929 | Arnold Fanck; G. W. Pabst | tt0020570
+NEW_A6_BERG | | Storm over Mont Blanc | 1930 | Arnold Fanck | -
+NEW_A6_BERG | | The White Ecstasy | 1931 | Arnold Fanck | -
+NEW_A6_BERG | | The Blue Light | 1932 | Leni Riefenstahl; Béla Balázs | tt0022694
+NEW_A6_BERG | | The Rebel | 1932 | Luis Trenker; Curtis Bernhardt | -
+NEW_A6_BERG | | S.O.S. Eisberg | 1933 | Arnold Fanck | -
+"""
