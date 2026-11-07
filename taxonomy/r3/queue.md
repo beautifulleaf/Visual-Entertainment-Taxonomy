@@ -29,3 +29,4 @@ To do at assembly:
 - Assembly fixes: Ne Zha (2019) and Ne Zha 2 placed twice (MAL id and IMDb id) — keep one; Harem has leaves in both C5-5 and C10-9 — merge into one; move Tower (2016) and The Missing Picture (2013) from A19 to the new Animated Documentary leaf; Princess Iron Fan (1941) added without id.
 - Done VA: design (N Design: 34 leaves — 12 furniture & lighting, 9 product & industrial, 13 graphic; ~355 designed objects; 239 designers moved into N).
 - Assembly decisions: merge I3-17 Bauhaus (1 row) into the new Bauhaus Design leaf; ~120 fashion designers left in I3-19/I3-20 → a Fashion Design leaf under H7 Dress & Costume (check what small_H built; with the fashion designers from the photo pass); B2-11 Soviet Poster vs Constructivist Graphic Design: keep both, see-also.
+- Done VA: small_G_I_J_M (3,863 kinds from 872; 1,888 works-catalogue rows, 428 Collections rows, 483 View-all links; 53 leaves still ≤ 4 kinds; Pierre Gole in I1-23 and I3-8 — one home).
