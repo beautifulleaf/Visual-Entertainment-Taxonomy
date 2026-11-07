@@ -513,6 +513,7 @@
   "country_unmapped": 2,
   "ids_split": 3,
   "duplicate_rows_dropped": 1,
+  "leaves_moved": 4,
   "two_homes_resolved": 4,
   "leaves_merged": 12,
   "leaves_renamed": 8,
@@ -532,12 +533,38 @@
   "merged_codes_in_text": 24,
   "va_entries_dropped": 14,
   "va_entries_qualified": 17,
-  "see_code_dropped": 44,
+  "see_code_dropped": 54,
   "see_relinked": 452,
   "see_to_entry": 2,
-  "see_dropped": 1
+  "see_dropped": 1,
+  "finder_titles_repointed": 21,
+  "finder_dead_codes": 0
+ },
+ "structure_fix_codes": {
+  "A15-2": "A3-9",
+  "A17-5": "A12-35",
+  "A6-9": "A12-28",
+  "A7-6": "A2-5",
+  "A2-20": "A16-25",
+  "A6-8": "A13-23",
+  "A12-29": "A5-22",
+  "A12-40": "A13-13",
+  "B7-31": "B9-5",
+  "B10-5": "B1-7",
+  "C9-3": "C1-7",
+  "A12-36": "A13-20",
+  "A1-46": "A18-11",
+  "A1-40": "A21-27",
+  "A1-45": "A21-28",
+  "A1-17": "A20-11"
  },
  "structure_fix_log": {
+  "moved": [
+   "A1-46 Golden Age of Hindi Cinema \u2192 A18-11 (Popular Cinema Modes)",
+   "A1-40 Free Cinema \u2192 A21-27 (Short Film)",
+   "A1-45 Cinema of Transgression \u2192 A21-28 (Short Film)",
+   "A1-17 Cinema Marginal \u2192 A20-11 (Experimental & Avant-Garde)"
+  ],
   "one home": [
    "Carlos: made as a three-part television serial; B7-21 keeps it",
    "Cartesius: Rossellini's television film in two parts; B1-27 keeps it",
@@ -583,7 +610,6 @@
    "A1-12 Czechoslovak New Wave: by country of production (3 sections)",
    "A1-15 New German Cinema: by filmmaker (9 sections)",
    "A1-16 Cinema Novo: by filmmaker (6 sections)",
-   "A1-17 Cinema Marginal: by filmmaker (5 sections)",
    "A1-24 Second Golden Age of Philippine Cinema: by filmmaker (7 sections)",
    "A1-26 Iranian New Wave: by filmmaker (9 sections)",
    "A2-5 Hitman Film: by era of release (3 sections)",
@@ -637,7 +663,8 @@
    "A21-8 Comedy Short Film: by era of release (4 sections)",
    "A21-9 Horror Short Film: by era of release (3 sections)",
    "A21-10 Science Fiction & Fantasy Short Film: by era of release (2 sections)",
-   "C14-4 Abstract Animation: by era of release (5 sections)"
+   "C14-4 Abstract Animation: by era of release (5 sections)",
+   "A20-11 Cinema Marginal: by era of release (3 sections)"
   ]
  },
  "structure_fixes": {},

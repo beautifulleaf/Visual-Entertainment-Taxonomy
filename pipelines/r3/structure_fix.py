@@ -87,6 +87,19 @@ DECISIONS = {
     ],
     "ft_text": [("A13-12", "defn", "A farcical screwball goes to A13-10.", "A farcical screwball goes to A12-4."),
                 ("B15-1", "see", "; B15-6 Television Special", "")],
+    # A1 movements defined by a genre or form leave A1 (owner, 2026-11-07: "most of these movements are in a certain
+    # genre"; measured: 42 of 46 are mostly drama, 4 are not). (leaf, target sub-family, insert after leaf or "first"/"last")
+    "ft_move_leaf": [("A1-46", "A18", "first"),    # Golden Age of Hindi Cinema: 96% musical; the forerunner of masala
+                     ("A1-40", "A21", "A21-2"),    # Free Cinema: documentary shorts, beside the nonfiction short forms
+                     ("A1-45", "A21", "last"),     # Cinema of Transgression: underground shorts, with the avant-garde shorts
+                     ("A1-17", "A20", "A20-2")],   # Cinema Marginal: Brazilian underground features, beside Underground Film
+    "ft_sub_rename": {"A1": ("Art-Cinema Movements",
+        "Axis: by named art-cinema movement or school, in rough order of emergence; Slow Cinema, a transnational style, last. "
+        "These movements are mainly drama; a movement defined by another genre or form sits in that sub-family "
+        "(popular musical cinema A18, underground features A20, documentary and underground shorts A21).")},
+    "ft_precedence": [["F32", "Art-cinema movement before drama genre",
+        "A film of a named art-cinema movement (A1) goes to the movement before its drama genre, unless F1 or F2 sends it "
+        "to a named cycle. A movement defined by another genre or form is a leaf of that sub-family, not of A1."]],
     # sections by explicit decision where no rule fits: leaf -> (axis, [(section, [titles])], other section)
     "ft_sections": {
         "A12-1": ("by clown, the four great silent clowns first in order of their first feature; other clowns and comedies last",
@@ -275,6 +288,37 @@ def apply(tree, MV, MF, report):
                 seen[r[5]] = (fold(r[0]), names(r[2]), c)
             keep.append(r)
         MF[ft_leaves[c][0]["code"]][c] = keep
+    # A1 redistribution: move leaves between sub-families (new code in the target; old code mapped)
+    moved_codes = {}
+    subs_by = {s_["code"]: (f, s_) for f in tree["ft"]["fams"] for s_ in f["subs"]}
+    for c, to, where in DECISIONS["ft_move_leaf"]:
+        if c not in ft_leaves or to not in subs_by: continue
+        f0, s0, l = ft_leaves[c]; f1, s1 = subs_by[to]
+        nc = f"{to}-{max(int(x['code'].split('-')[1]) for x in s1['leaves']) + 1}"
+        s0["leaves"].remove(l)
+        pos = 0 if where == "first" else len(s1["leaves"]) if where == "last" else \
+            next((i + 1 for i, x in enumerate(s1["leaves"]) if x["code"] == where), len(s1["leaves"]))
+        s1["leaves"].insert(pos, l)
+        MF[f1["code"]][nc] = MF[f0["code"]].pop(c); l["code"] = nc
+        del ft_leaves[c]; ft_leaves[nc] = (f1, s1, l); moved_codes[c] = nc
+        st["leaves_moved"] += 1; log["moved"].append(f"{c} {l['label']} → {nc} ({s1['label']})")
+    for sc, (lab, axis) in DECISIONS["ft_sub_rename"].items():
+        if sc in subs_by:
+            f, s_ = subs_by[sc]; old_lab = s_["label"]; s_["label"] = lab; s_["axis"] = axis
+            f["key"] = [k.replace(f"<b>{sc} {old_lab}</b>", f"<b>{sc} {lab}</b>").split(" — ")[0] + " — " + axis.replace("Axis: ", "")
+                        if k.startswith(f"<b>{sc} ") else k for k in f["key"]]
+    have = {p[0] for p in tree["ft"].get("precedence", [])}
+    for p in DECISIONS["ft_precedence"]:
+        if p[0] not in have: tree["ft"].setdefault("precedence", []).append(p)
+    if moved_codes:
+        rxm = re.compile(r"\b(" + "|".join(re.escape(k) for k in moved_codes) + r")\b")
+        for c, (f, s_, l) in ft_leaves.items():
+            for fld in ("defn", "see"):
+                if l.get(fld) and rxm.search(l[fld]): l[fld] = rxm.sub(lambda m: moved_codes[m.group(1)], l[fld])
+        for fam in MF.values():  # finder rows and see-also columns of titles
+            for rs_ in fam.values():
+                for r in rs_:
+                    if r[3] and rxm.search(str(r[3])): r[3] = rxm.sub(lambda m: moved_codes[m.group(1)], str(r[3]))
     # 1 one home
     for tid, c, why in DECISIONS["ft_remove"]:
         if c in ft_leaves:
@@ -443,9 +487,11 @@ def apply(tree, MV, MF, report):
         c["leaves"] = len(ft_leaves); c["placed"] = sum(len(rows(x)) for x in ft_leaves)
     # migration: merged codes point at their new home
     mp = os.path.join(R3, "ft_migration.csv")
-    if merged and os.path.exists(mp):
+    if (merged or moved_codes) and os.path.exists(mp):
         rr = list(csv.DictReader(open(mp)))
         for r in rr:
+            if r["new_code"] in moved_codes:
+                r["new_code"] = moved_codes[r["new_code"]]
             if r["new_code"] in merged:
                 to = merged[r["new_code"]]; r["new_code"] = to; r["new_label"] = ft_leaves[to][2]["label"]
         with open(mp, "w", newline="") as fo:
@@ -518,4 +564,5 @@ def apply(tree, MV, MF, report):
             new = "; ".join(dict.fromkeys(out)) + (sep + tail if sep else "")
             if new != see: l["see"] = new
     report["structure_fix"] = dict(st)
+    report["structure_fix_codes"] = {**merged, **moved_codes}
     report["structure_fix_log"] = {k: v for k, v in log.items()}

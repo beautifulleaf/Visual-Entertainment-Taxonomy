@@ -53,4 +53,5 @@ Also the 21st Century Starting List (https://theyshootpictures.com/21stcentury_s
   - Left as is: 3 one-title sections that are attested cycles, the Naschy section of Fantaterror (actor-auteur), 16 uneven sub-families (they reflect real tradition sizes).
   - Copy button: the leaf's code and label, then one line per group or section, names comma-separated.
   - Published as **version 8** (1794021245-c666).
+- 2026-11-07: owner: "film's A1 leaves should be redistributed properly, most of these movements are in a certain genre". Measured against the TSPDT genre of each member: 42 of the 46 movements are mostly drama (usually 80–100%); 4 are not. Owner chose to move those 4 and keep the rest: A1-46 Golden Age of Hindi Cinema → A18-11 (popular musical cinema), A1-40 Free Cinema → A21-27 and A1-45 Cinema of Transgression → A21-28 (shorts), A1-17 Cinema Marginal → A20-11 (underground features). A1 is renamed **Art-Cinema Movements**, with precedence F32 (a film of a named art-cinema movement goes there before its drama genre, after F1/F2 cycles). Finder rows now follow merged and moved codes. Published as version 9.
 

@@ -14,7 +14,7 @@ S2: 0 titles fall outside the dates of their era section.
 
 | Tab | Sub-family | era | country/region | auteur/school | form/theme |
 |---|---|---:|---:|---:|---:|
-| FT | A1 Movements & Schools | 1 | 2 | 7 | 1 |
+| FT | A1 Art-Cinema Movements | 1 | 2 | 6 | 1 |
 | FT | A2 Crime | 7 | 2 | 0 | 7 |
 | FT | A3 Thriller & Mystery | 4 | 1 | 0 | 11 |
 | FT | A4 Horror | 8 | 1 | 1 | 17 |
@@ -33,7 +33,7 @@ S2: 0 titles fall outside the dates of their era section.
 | FT | A17 Children's & Family Film | 0 | 0 | 0 | 8 |
 | FT | A18 Popular Cinema Modes | 3 | 0 | 0 | 1 |
 | FT | A19 Documentary | 16 | 3 | 3 | 16 |
-| FT | A20 Experimental & Avant-Garde | 6 | 1 | 0 | 0 |
+| FT | A20 Experimental & Avant-Garde | 7 | 1 | 0 | 0 |
 | FT | A21 Short Film | 17 | 1 | 2 | 4 |
 | FT | B1 Drama Series | 5 | 1 | 2 | 14 |
 | FT | B2 Korean Drama | 1 | 1 | 1 | 5 |

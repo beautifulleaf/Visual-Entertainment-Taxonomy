@@ -752,6 +752,19 @@ def main():
     find_va = build_va(src, tree, MV, find_old, report)
     MF, find_ft = build_ft(src, tree, a.partial, report)
     import structure_fix; structure_fix.apply(tree, MV, MF, report)
+    # finder rows follow the structure fixes: merged / moved leaf codes, and titles that changed leaf
+    cmap = report.get("structure_fix_codes", {})
+    where = collections.defaultdict(set)
+    for fam in MF.values():
+        for code, rs in fam.items():
+            for r in rs: where[r[0]].add(code)
+    live = {l["code"] for f in tree["ft"]["fams"] for s in f["subs"] for l in s["leaves"]}
+    for e in find_ft:
+        if e[1] != "FT" or not e[2]: continue
+        e[2] = cmap.get(e[2], e[2])
+        if e[3] != "leaf" and e[2] not in where.get(e[0], {e[2]}) and len(where.get(e[0], ())) == 1:
+            e[2] = next(iter(where[e[0]])); report.setdefault("structure_fix", {})["finder_titles_repointed"] = report["structure_fix"].get("finder_titles_repointed", 0) + 1
+    report.setdefault("structure_fix", {})["finder_dead_codes"] = sum(1 for e in find_ft if e[1] == "FT" and e[2] and e[2] not in live)
     fix_structure(tree, MV, MF, report)
     fix_links(tree, report)
     rp = os.path.join(R3, "report_r3.html")
