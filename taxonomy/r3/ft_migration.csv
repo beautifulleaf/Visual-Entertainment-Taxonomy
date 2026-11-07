@@ -138,7 +138,7 @@ A3-6,Political & Conspiracy Thriller,A3-21,Spy Film,1
 A3-6,Political & Conspiracy Thriller,A2-17,Nordic Noir,1
 A3-6,Political & Conspiracy Thriller,A3-17,Wrong-Man Thriller,1
 A3-7,Spy Film,A3-21,Spy Film,143
-A3-7,Spy Film,A3-22,Spy Comedy,24
+A3-7,Spy Film,A3-22,,24
 A3-7,Spy Film,A3-17,Wrong-Man Thriller,3
 A3-7,Spy Film,A3-18,Conspiracy Thriller,2
 A3-8,Giallo,A3-5,Giallo,25
@@ -287,7 +287,7 @@ A4-20,Home Invasion Film,A4-27,Home Invasion Film,33
 A4-20,Home Invasion Film,A4-32,New French Extremity,2
 A4-20,Home Invasion Film,A4-33,Torture Porn,1
 A5-1,Kaiju Film,A5-6,Kaiju,61
-A5-1,Kaiju Film,A5-14,Lost World,1
+A5-1,Kaiju Film,A5-14,,1
 A5-1,Kaiju Film,A5-7,Tokusatsu,1
 A5-2,Tokusatsu Hero Film,A5-7,Tokusatsu,5
 A5-3,Science Fiction Film,A5-12,Artificial Intelligence & Robots,44
@@ -297,7 +297,7 @@ A5-3,Science Fiction Film,A5-13,Biopunk,20
 A5-3,Science Fiction Film,A5-10,Simulated Reality,17
 A5-3,Science Fiction Film,A5-17,Psionics,14
 A5-3,Science Fiction Film,A5-16,Size-Change Film,8
-A5-3,Science Fiction Film,A5-14,Lost World,8
+A5-3,Science Fiction Film,A5-14,,8
 A5-3,Science Fiction Film,A5-5,First Contact & Alien Visitor,7
 A5-3,Science Fiction Film,A5-9,Parallel Universe Film,7
 A5-3,Science Fiction Film,A5-15,Scientific Romance,6
@@ -537,7 +537,7 @@ A9-2,Romantic Comedy,A13-18,Cinderella Story,34
 A9-2,Romantic Comedy,A13-17,Friends to Lovers,33
 A9-2,Romantic Comedy,A13-15,Enemies to Lovers,27
 A9-2,Romantic Comedy,A13-19,Workplace Romantic Comedy,22
-A9-2,Romantic Comedy,A13-10,Screwball Comedy,17
+A9-2,Romantic Comedy,A13-10,,17
 A9-2,Romantic Comedy,A13-9,LGBTQ+ Romance,15
 A9-2,Romantic Comedy,A13-21,Holiday Romantic Comedy,5
 A9-2,Romantic Comedy,A13-1,Star-Crossed Romance,4
@@ -1251,7 +1251,7 @@ C4-1,Multi-Camera Sitcom,B8-20,Science Fiction Comedy,1
 C4-2,Single-Camera Comedy,B8-3,Workplace Comedy,108
 C4-2,Single-Camera Comedy,B8-2,Single-Camera Family Comedy,82
 C4-2,Single-Camera Comedy,B8-6,Romantic Comedy Series,57
-C4-2,Single-Camera Comedy,B8-5,Hangout Sitcom,50
+C4-2,Single-Camera Comedy,B8-5,Hangout Sitcom,49
 C4-2,Single-Camera Comedy,B8-7,Teen Comedy,41
 C4-2,Single-Camera Comedy,B8-16,Parody Series,39
 C4-2,Single-Camera Comedy,B8-22,Crime Comedy,35
@@ -1393,7 +1393,7 @@ C6-4,Children's Animated Series,C13-13,Action-Adventure Animated Series,9
 C6-4,Children's Animated Series,C13-12,Toy-Based Animated Series,6
 C6-4,Children's Animated Series,C13-6,The Disney Afternoon,4
 C6-4,Children's Animated Series,C13-11,Superhero Animated Series,2
-C6-4,Children's Animated Series,C10-9,Harem Anime,1
+C6-4,Children's Animated Series,C10-9,Harem Comedy,1
 C7-1,Preschool Series,B10-1,Preschool Television,23
 C7-2,Children's & Tween Series,B10-4,Teen Sitcom,62
 C7-2,Children's & Tween Series,B10-7,Children's Fantasy Series,42
@@ -1705,7 +1705,7 @@ E10-1,Gag & Parody Anime,C11-5,Early Japanese Animation,1
 E10-1,Gag & Parody Anime,C7-4,Volleyball Anime,1
 E10-1,Gag & Parody Anime,C9-6,Comedy Horror Anime,1
 E10-1,Gag & Parody Anime,C12-5,Computer-Animated Family Film,1
-E10-2,Ecchi,C10-9,Harem Anime,118
+E10-2,Ecchi,C10-9,Harem Comedy,118
 E10-2,Ecchi,C10-10,Ecchi Anime,99
 E10-2,Ecchi,C10-2,Parody Anime,4
 E10-2,Ecchi,C6-8,Workplace Anime (Oshigoto),3

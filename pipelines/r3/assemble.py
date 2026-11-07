@@ -117,11 +117,71 @@ def build_va(src, tree, M, find_old, report):
         order = list(dict.fromkeys(r[1] for r in rows))
         if code in replaced or code in added: l["secs"] = order
         l["n"] = len(rows)
+    fx = json.load(open(os.path.join(R3, "fixes.json")))
+    for old, new in fx.get("va_rename", {}).items():
+        for rs in M.values():
+            for r in rs:
+                if r[0] == old: r[0] = new
+    for m in fx.get("va_merge", []):
+        if m["from"] in M and m["to"] in leafobj:
+            M.setdefault(m["to"], []).extend(M.pop(m["from"])); replaced[m["to"]] = M[m["to"]]
+            f0, s0, l0 = leafobj[m["from"]]; s0["leaves"].remove(l0); del leafobj[m["from"]]
+            report.setdefault("va_fix_merged", []).append([m["from"], m["to"]])
+    for nl in fx.get("va_new_leaves", []):
+        sub = subobj[nl["sub"]]; code = f"{nl['sub']}-{max(int(l['code'].split('-')[1]) for l in sub['leaves']) + 1}"
+        kinds = []
+        for frm, prefix in nl.get("take_groups", []):
+            keep = []
+            for r in M.get(frm, []):
+                if r[1].startswith(prefix):
+                    r = list(r); r[1] = r[1].replace(prefix, "").strip().capitalize() or "Designers"; r[1] = r[1][0].upper() + r[1][1:]; kinds.append(r)
+                else:
+                    keep.append(r)
+            M[frm] = keep
+        order = ["France", "Italy", "United kingdom", "United states", "Japan", "Other countries"]
+        kinds.sort(key=lambda r: order.index(r[1]) if r[1] in order else 99)
+        for r in kinds: r[1] = {"United kingdom": "United Kingdom", "United states": "United States", "Other countries": "Other countries"}.get(r[1], r[1])
+        leaf = dict(code=code, label=nl["label"], breadth=nl["breadth"], defn=nl["defn"], aliases=nl["aliases"], see=nl["see"],
+                    src=nl["src"], weak="", n=0, alias_rows=[], new="R3", axis=nl["axis"], catalogues=nl["catalogues"])
+        sub["leaves"].append(leaf); M[code] = kinds; leafobj[code] = (None, sub, leaf); replaced[code] = kinds; added.append(code)
+        report.setdefault("va_fix_new_leaves", []).append([code, nl["label"], len(kinds)])
+    # one home per maker: primary = the leaf where the row came from the gathered data (not an "r3" addition),
+    # else the first named-school leaf seen; other leaves keep a cross-reference row (not a maker)
+    seen_in = collections.defaultdict(list)
+    for code in list(M):
+        uniq, keys = [], set()
+        for r in M[code]:
+            key = (r[0], r[1], r[4])
+            if r[4] and (r[0], r[4]) in keys: continue
+            keys.add((r[0], r[4])); uniq.append(r)
+            if r[4]: seen_in[r[0]].append(code)
+        M[code] = uniq
+    xref = 0
+    label_of = {c: o[2]["label"] for c, o in leafobj.items()}
+    for name, codes in seen_in.items():
+        if len(codes) < 2: continue
+        def rank(c):
+            r = next(x for x in M[c] if x[0] == name and x[4])
+            return (str(r[3]).startswith("r3"), c in ("A5-110", "A5-111", "A5-38", "D5-118", "D5-119"), codes.index(c))
+        prim = min(codes, key=rank)
+        for c in codes:
+            if c == prim: continue
+            for r in M[c]:
+                if r[0] == name and r[4]:
+                    r[2] = (f"→ primary home {prim} {label_of.get(prim, '')}" + (f" · {r[2]}" if r[2] else ""))[:200]
+                    r[4] = 0; xref += 1
+    report["va_maker_xrefs"] = xref
     # owner, 2026-11-07: "Remove retired leaves". A leaf emptied by R3 (its kinds moved to other leaves
     # or to N Design) is dropped from the page, not marked retired; the record is va_migration.csv.
     gone = []
     for f in tree["va"]["fams"]:
         for s in f["subs"]:
+            for l in s["leaves"]:  # final recount after fixes and the one-home rule
+                rows_ = M.get(l["code"], []); l["n"] = len(rows_)
+                if l["code"] in replaced or l["code"] in added:
+                    order = list(dict.fromkeys(r[1] for r in rows_))
+                    if l.get("secs"): order = [g for g in l["secs"] if g in order] + [g for g in order if g not in l["secs"]]
+                    l["secs"] = order
             keep = []
             for l in s["leaves"]:
                 emptied = l["code"] in replaced and l["n"] == 0 and orig_n.get(l["code"], 0) > 0 and l["code"] in moved_from
@@ -181,7 +241,7 @@ def apply_coverage(subs, rows, cc, report):
     where = {}
     for lf, rs in rows.items():
         for k in rs: where[k[5]] = lf
-    stats = collections.Counter(); pending_resections = []
+    stats = collections.Counter(); pending_resections = []; origin = {}
     for d in sorted(glob.glob(os.path.join(R3, "coverage_out", "*"))):
         part = os.path.basename(d); key2code = {}
         f = os.path.join(d, "new_leaves.json")
@@ -207,14 +267,14 @@ def apply_coverage(subs, rows, cc, report):
         for r in (csv.DictReader(open(f)) if os.path.exists(f) else []):
             if r["leaf"] in leafobj: secidx(r["leaf"], r["label"]); stats["new_section"] += 1
         f = os.path.join(d, "resections.json")
-        if os.path.exists(f): pending_resections.append(json.load(open(f)))
+        if os.path.exists(f): pending_resections.append((part, json.load(open(f))))
         f = os.path.join(d, "moves.csv")
         for r in (csv.DictReader(open(f)) if os.path.exists(f) else []):
             to = tgt(r["to"]); frm = where.get(r["id"])
             if not to or to not in leafobj or not frm: stats["move_skipped"] += 1; continue
             k = next(x for x in rows[frm] if x[5] == r["id"]); rows[frm].remove(k)
             k[8] = secidx(to, r.get("sec")); k[4] = (r.get("note") or k[4]).strip()
-            rows[to].append(k); where[r["id"]] = to; stats["moved"] += 1
+            rows[to].append(k); where[r["id"]] = to; origin[r["id"]] = part; stats["moved"] += 1
         f = os.path.join(d, "adds.csv")
         for i, r in enumerate(csv.DictReader(open(f)) if os.path.exists(f) else [], 1):
             to = tgt(r["to"])
@@ -223,15 +283,30 @@ def apply_coverage(subs, rows, cc, report):
             if idv in where: stats["add_dup"] += 1; continue
             rows[to].append([r["title"], r["year"], r.get("who", ""), "", r.get("note", "").strip(), idv, "", r.get("kind", "film"),
                              secidx(to, r.get("sec")), cc(idv, r.get("who", ""), r.get("kind", "film"))])
-            where[idv] = to; stats["added"] += 1
+            where[idv] = to; origin[idv] = part; stats["added"] += 1
     # re-sectioning last, after every part's moves and adds; titles a scheme does not list go to "Unsectioned"
-    for R in pending_resections:
+    for rpart, R in pending_resections:
         for code, v in R.items():
             if code not in leafobj: continue
-            leafobj[code]["secs"] = v["secs"]; leafobj[code]["axis"] = v.get("axis", leafobj[code].get("axis", ""))
+            old = list(leafobj[code].get("secs") or [])
+            leafobj[code]["secs"] = list(v["secs"]); leafobj[code]["axis"] = v.get("axis", leafobj[code].get("axis", ""))
             for k in rows.get(code, []):
-                k[8] = str(v["assign"].get(k[5], ""))
-                if not k[8]: stats["resection_unlisted"] += 1
+                if k[5] in v["assign"]:
+                    k[8] = str(v["assign"][k[5]]); continue
+                if origin.get(k[5]) == rpart and k[8].isdigit() and 0 < int(k[8]) <= len(v["secs"]):
+                    stats["resection_own_rows"] += 1; continue  # numbered against this pass's own new scheme
+                # not listed by the scheme (added later): keep its section by label, else a named last section
+                lab = old[int(k[8]) - 1] if k[8].isdigit() and 0 < int(k[8]) <= len(old) else ""
+                if lab and lab in leafobj[code]["secs"]:
+                    k[8] = str(leafobj[code]["secs"].index(lab) + 1); stats["resection_kept_by_label"] += 1
+                else:
+                    if lab and lab not in leafobj[code]["secs"]:
+                        leafobj[code]["secs"].append(lab); k[8] = str(len(leafobj[code]["secs"]))
+                    else:
+                        tail = "Added in the coverage pass"
+                        if tail not in leafobj[code]["secs"]: leafobj[code]["secs"].append(tail)
+                        k[8] = str(leafobj[code]["secs"].index(tail) + 1)
+                    stats["resection_unlisted"] += 1
             stats["resectioned"] += 1
     report["coverage"] = dict(stats)
 
@@ -331,6 +406,38 @@ def build_ft(src, tree, partial, report):
             F["key"].append(f"<b>{sc} {s['label']}</b> — {s['axis'].replace('Axis:', '').strip()}")
         F["n"] = sum(s["n"] for s in F["subs"]); F["nleaves"] = sum(len(s["leaves"]) for s in F["subs"])
         fams.append(F)
+    fx = json.load(open(os.path.join(R3, "fixes.json")))
+    L = {l["code"]: (F, sub, l) for F in fams for sub in F["subs"] for l in sub["leaves"]}
+    merged = {}
+    for m in fx.get("ft_merge", []):
+        if m["from"] not in L or m["to"] not in L: report.setdefault("fix_skipped", []).append(m); continue
+        _, fsub, fl = L[m["from"]]; _, tsub, tl = L[m["to"]]
+        moved = rows.pop(m["from"], [])
+        if tl.get("secs"):
+            if m["section"] not in tl["secs"]: tl["secs"].append(m["section"])
+            for k in moved: k[8] = str(tl["secs"].index(m["section"]) + 1)
+        else:
+            for k in moved: k[8] = ""
+        rows[m["to"]].extend(moved); tl["n"] = len(rows[m["to"]])
+        fsub["leaves"].remove(fl); merged[m["from"]] = m["to"]; leafmap[m["from"]] = m["to"]
+    for code, lab in fx.get("ft_relabel", {}).items():
+        if code in L: L[code][2]["label"] = lab
+    where = {k[5]: lf for lf, rs in rows.items() for k in rs}
+    for idv, to in fx.get("ft_move", []):
+        frm = where.get(idv)
+        if frm and to in L and frm != to:
+            k = next(x for x in rows[frm] if x[5] == idv); rows[frm].remove(k); k[8] = ""; rows[to].append(k)
+    for F in fams:
+        for sub in F["subs"]:
+            for l in sub["leaves"]:
+                l["n"] = len(rows.get(l["code"], []))
+                for a2, b2 in merged.items(): l["see"] = l.get("see", "").replace(a2, b2)
+            sub["n"] = sum(l["n"] for l in sub["leaves"])
+        F["n"] = sum(sub["n"] for sub in F["subs"]); F["nleaves"] = sum(len(sub["leaves"]) for sub in F["subs"])
+    for rs in rows.values():
+        for k in rs:
+            for a2, b2 in merged.items(): k[3] = k[3].replace(a2, b2)
+    report["ft_fixes"] = {"merged": merged, "relabelled": fx.get("ft_relabel", {}), "moved": len(fx.get("ft_move", []))}
     ft = tree["ft"]
     prec = []
     for p in ft["precedence"]:
@@ -356,9 +463,11 @@ def build_ft(src, tree, partial, report):
                 w.writerow([o, old_label[o], "", "retired" if "retired" in old_label[o] or o in ("G3-6", "C1-17") else "no titles", 0]); continue
             for nc, n in old2new[o].most_common():
                 w.writerow([o, old_label[o], nc, newlab.get(nc, ""), n])
-    M = collections.defaultdict(dict)
+    M = collections.defaultdict(dict); live = {l["code"] for f in fams for s in f["subs"] for l in s["leaves"]}
+    orphan = sum(len(rs) for lf, rs in rows.items() if lf not in live)
+    if orphan: report["ft_orphan_rows"] = orphan
     for lf, rs in rows.items():
-        M[lf.split("-")[0][0]][lf] = rs
+        if lf in live: M[lf.split("-")[0][0]][lf] = rs
     find = []
     for f in fams:
         for s in f["subs"]:

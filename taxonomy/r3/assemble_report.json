@@ -74,18 +74,45 @@
   "N3-10",
   "N3-11",
   "N3-12",
-  "N3-13"
+  "N3-13",
+  "H7-21"
  ],
- "va_moved": 3214,
+ "va_moved": 3224,
+ "va_fix_merged": [
+  [
+   "I3-17",
+   "N1-3"
+  ]
+ ],
+ "va_fix_new_leaves": [
+  [
+   "H7-21",
+   "Haute Couture & Fashion Design",
+   174
+  ]
+ ],
+ "va_maker_xrefs": 710,
  "va_leaves_removed": [],
  "ft_blocks_missing": [],
  "ft_routed": 66,
- "ft_web_override": 29,
+ "ft_web_override": 30,
  "coverage": {
-  "new_leaf": 17,
-  "new_section": 10,
-  "resectioned": 12,
-  "moved": 75,
-  "added": 905
+  "new_leaf": 36,
+  "new_section": 14,
+  "moved": 107,
+  "added": 1563,
+  "resectioned": 34,
+  "resection_own_rows": 407
+ },
+ "ft_fixes": {
+  "merged": {
+   "A13-10": "A12-4",
+   "A3-22": "A12-50",
+   "A5-14": "A6-21"
+  },
+  "relabelled": {
+   "C10-9": "Harem Comedy"
+  },
+  "moved": 2
  }
 }

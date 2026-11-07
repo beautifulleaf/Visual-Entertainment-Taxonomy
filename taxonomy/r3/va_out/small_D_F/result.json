@@ -7501,7 +7501,7 @@
 "axis": "Sections in order: Sub-types · Centres & workshops (canonical and core entries first within each section)",
 "catalogues": [
 [
-"https://ich.unesco.org/en/RL/sbek-thom-khmer-shadow-theatre-00110",
+"https://ich.unesco.org/en/RL/sbek-thom-khmer-shadow-theatre-00108",
 "UNESCO intangible heritage: Sbek Thom",
 "the inscribed Khmer shadow theatre"
 ]
@@ -7960,7 +7960,7 @@
 "axis": "Sections in order: Sub-types · Centres & workshops · Titled objects (by object type) · Collections · Makers (canonical and core entries first within each section). Titled museum objects: every object in the gathered museum files for this tradition whose title carries a proper or native name or a named subject beyond the generic object word and the culture name (one per title, museum page required), the 40 earliest-dated (6 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
 "catalogues": [
 [
-"https://ich.unesco.org/en/RL/ningyo-johruri-bunraku-puppet-theatre-00076",
+"https://ich.unesco.org/en/RL/ningyo-johruri-bunraku-puppet-theatre-00064",
 "UNESCO intangible heritage: Ningyo Johruri Bunraku",
 "the inscribed puppet theatre (2008)"
 ]
@@ -8101,7 +8101,7 @@
 "axis": "Sections in order: Sub-types · Titled objects (by object type) · Collections (canonical and core entries first within each section). Titled museum objects: every object in the gathered museum files for this tradition whose title carries a proper or native name or a named subject beyond the generic object word and the culture name (one per title, museum page required), the 40 earliest-dated (4 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
 "catalogues": [
 [
-"https://ich.unesco.org/en/RL/talchum-mask-dance-drama-in-the-republic-of-korea-01665",
+"https://ich.unesco.org/en/RL/talchum-mask-dance-drama-in-the-republic-of-korea-01742",
 "UNESCO intangible heritage: Talchum",
 "Korean mask-dance drama (2022)"
 ],
@@ -8817,7 +8817,7 @@
 "Gelede masks in New York"
 ],
 [
-"https://ich.unesco.org/en/RL/the-oral-heritage-of-gelede-00002",
+"https://ich.unesco.org/en/RL/oral-heritage-of-gelede-00002",
 "UNESCO intangible heritage: Oral heritage of Gelede",
 "the inscribed festival (2008)"
 ]
@@ -10073,11 +10073,6 @@
 "https://collections.si.edu/search/results.htm?q=mask+Kwakwaka%27wakw",
 "Smithsonian collections search: Kwakwaka'wakw mask",
 "NMAI masks"
-],
-[
-"https://collections.moa.ubc.ca/",
-"Museum of Anthropology at UBC collections",
-"Northwest Coast masks in Vancouver"
 ]
 ],
 "kinds": [
@@ -24764,7 +24759,7 @@
 "West Mexican figures in New York"
 ],
 [
-"https://www.lacma.org/art/collection",
+"https://collections.lacma.org/",
 "LACMA collection",
 "the Proctor Stafford collection of West Mexican ceramics"
 ]
@@ -32783,7 +32778,7 @@
 "axis": "Sections in order: Sub-types · Centres & workshops (canonical and core entries first within each section)",
 "catalogues": [
 [
-"https://ich.unesco.org/en/RL/traditional-manufacturing-of-childrens-wooden-toys-in-hrvatsko-zagorje-00243",
+"https://ich.unesco.org/en/RL/traditional-manufacturing-of-childrens-wooden-toys-in-hrvatsko-zagorje-00233",
 "UNESCO intangible heritage: wooden toys of Hrvatsko Zagorje",
 "inscribed 2009"
 ]
@@ -34882,11 +34877,6 @@
 "https://www.moma.org/collection/terms/post-minimalism",
 "MoMA: Post-Minimalism",
 "collection term with works"
-],
-[
-"https://www.tate.org.uk/art/art-terms/p/post-minimalism",
-"Tate: Post-minimalism",
-"art term with works in the Tate collection"
 ]
 ],
 "kinds": [
@@ -35106,9 +35096,9 @@
 "axis": "Sections in order: Sub-types · Centres & workshops · Named works · Makers (canonical and core entries first within each section)",
 "catalogues": [
 [
-"https://www.zwergenpark.com/",
-"Zwergen-Park Trusetal",
-"garden gnome museum and park, Thuringia"
+"https://www.europeana.eu/en/search?query=Gartenzwerg",
+"Europeana search: Gartenzwerg",
+"European museum records of garden gnomes"
 ]
 ],
 "kinds": [
@@ -36491,7 +36481,7 @@
 "axis": "Sections in order: Sub-types · Centres & workshops (canonical and core entries first within each section)",
 "catalogues": [
 [
-"https://ich.unesco.org/en/RL/cross-crafting-and-its-symbolism-00092",
+"https://ich.unesco.org/en/RL/cross-crafting-and-its-symbolism-00013",
 "UNESCO intangible heritage: Cross-crafting and its symbolism",
 "inscribed 2008"
 ]
@@ -37048,8 +37038,8 @@
 "axis": "Sections in order: Centres & workshops · Collections · Makers (canonical and core entries first within each section). Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
 "catalogues": [
 [
-"https://ich.unesco.org/en/USL/traditional-glassblowing-in-syria-01994",
-"UNESCO intangible heritage: traditional glassblowing in Syria",
+"https://ich.unesco.org/en/USL/traditional-syrian-glassblowing-01956",
+"UNESCO intangible heritage: Traditional Syrian glassblowing",
 "urgent safeguarding list (2023)"
 ]
 ],
@@ -37397,7 +37387,7 @@
 "axis": "Sections in order: Sub-types · Centres & workshops · Collections (canonical and core entries first within each section). Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
 "catalogues": [
 [
-"https://ich.unesco.org/en/RL/art-of-glass-beads-01591",
+"https://ich.unesco.org/en/RL/the-art-of-glass-beads-01591",
 "UNESCO intangible heritage: Art of glass beads",
 "inscribed 2020 for Italy and France"
 ]
@@ -37468,6 +37458,11 @@
 "F1-7": {
 "axis": "Sections in order: Sub-types · Centres & workshops (canonical and core entries first within each section)",
 "catalogues": [
+[
+"https://ich.unesco.org/en/RL/handmade-production-of-christmas-tree-decorations-from-blown-glass-beads-01559",
+"UNESCO intangible heritage: Christmas tree decorations from blown glass beads",
+"inscribed 2020 (Czechia)"
+],
 [
 "https://www.europeana.eu/en/search?query=Ponikl%C3%A1",
 "Europeana search: Poniklá",

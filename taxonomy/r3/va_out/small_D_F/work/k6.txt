@@ -83,7 +83,7 @@ cat: https://www.metmuseum.org/art/collection/search?q=Veracruz | Met collection
 
 @D5-66
 cat: https://www.metmuseum.org/art/collection/search?q=Colima | Met collection search: Colima | West Mexican figures in New York
-cat: https://www.lacma.org/art/collection | LACMA collection | the Proctor Stafford collection of West Mexican ceramics
+cat: https://collections.lacma.org/ | LACMA collection | the Proctor Stafford collection of West Mexican ceramics
 
 @D5-68
 cat: https://collections.si.edu/search/results.htm?q=Valdivia | Smithsonian collections search: Valdivia | Valdivia figurines
@@ -260,6 +260,7 @@ cat: https://en.wikipedia.org/wiki/Toas | Wikipedia: Toas | the Lake Eyre direct
 cat: https://colbase.nich.go.jp/ | ColBase (Japan's National Museums) | zushi and household shrines in the national museums
 
 @F1-7
+cat: https://ich.unesco.org/en/RL/handmade-production-of-christmas-tree-decorations-from-blown-glass-beads-01559 | UNESCO intangible heritage: Christmas tree decorations from blown glass beads | inscribed 2020 (Czechia)
 cat: https://www.europeana.eu/en/search?query=Ponikl%C3%A1 | Europeana search: Poniklá | European museum records of the decorations
 + Sub-types | Blown-bead ornaments | ornaments threaded from silvered blown glass beads | Poniklá | 0
 
@@ -289,3 +290,6 @@ cat: https://collections.vam.ac.uk/search/?q=glass%20Cairo | V&A collection sear
 cat: https://colbase.nich.go.jp/ | ColBase (Japan's National Museums) | kiriko cut glass in the Tokyo National Museum
 
 @F5-2
+
+@D5-124
+cat: https://www.europeana.eu/en/search?query=Gartenzwerg | Europeana search: Gartenzwerg | European museum records of garden gnomes
