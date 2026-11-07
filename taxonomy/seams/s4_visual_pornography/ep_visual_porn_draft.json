@@ -6,7 +6,7 @@
   "Kinds here are named makers and platforms (directors, studios, photographers, publishers, magazines, artists, labels, platforms, communities), filed as maker sub-kinds under the existing era/ecosystem children (axis tag: maker). Channel and segment sub-kinds already in EP stay; makers do not replace them.",
   "Titles appear only as examples inside glosses (amended B16).",
   "Codes are append-only: new children take the next free number (II-K-9.1, II-K-9.2 are new; retired II-K-1.1, II-K-1.2, II-K-11.1 stay retired). New sub-kinds have no codes, as in EP.",
-  "Attestation (EP CLAUDE.md): a kind needs two fetched pages on different sites. NOTHING here has been fetched: Wikipedia URLs were checked to exist via the API; IAFD/IMDb links are search pages; official-site links are homepages. Every kind must be fetched and confirmed before it is applied; 'one site' kinds need a second source.",
+  "Attestation (EP CLAUDE.md, B16/A1): a kind needs fetched pages on two different sites; a maker filed as a sub-kind inside an attested kind needs one. Every maker here carries two candidate sources where possible so that it can also stand as a kind. NOTHING here has been fetched: Wikipedia URLs were checked to exist via the API; IAFD/IMDb links are search pages; official-site links are homepages. Every kind must be fetched and confirmed before it is applied; 'one site' kinds need a second source.",
   "Exclusions (B1, B2): nothing depicting minors; nothing made or shared without consent; makers known primarily for illegal content are left out (see excluded)."
  ],
  "ordering": "Sections run by era and ecosystem; kinds within a section by affinity (founders and canon first, then successors), not alphabetically.",

@@ -2660,5 +2660,2530 @@
    ]
   },
   "moves": []
+ },
+ "A19-5": {
+  "label": "Diary Film",
+  "defn": "A first-person documentary whose subject is the filmmaker's own life as it is lived and recorded — the film diary, the home movie, the video or digital self-portrait, the chronicle of illness, exile or confinement (Reminiscences of a Journey to Lithuania, Sherman's March, Tarnation, Dear Diary, This Is Not a Film). A film that turns the camera on the filmmaker's parents, siblings or family history goes to the Family Documentary.",
+  "axis": "by the diary's form and occasion: home movies first, the New American Cinema film diary and the essayistic life-diary, auteurs' diaries and self-portraits, then diaries of illness, exile and political confinement, and the video and digital diary last",
+  "secs": [
+   "Home Movies",
+   "Film Diaries of the New American Cinema & After",
+   "Auteur Diaries & Self-Portraits",
+   "Illness, Grief & the Body",
+   "Exile & Displacement",
+   "Political & Wartime Diaries",
+   "Video & Digital Diaries"
+  ],
+  "new_leaves": [
+   {
+    "key": "NEW1",
+    "label": "Family Documentary (Domestic Ethnography)",
+    "breadth": "first-person documentaries about the filmmaker's own family",
+    "defn": "A first-person documentary in which the filmmaker turns the camera on their own family — a parent, grandparent, sibling or child, or a family secret and history — and the film is about them rather than the filmmaker's own days (Sink or Swim, Nobody's Business, Stories We Tell, Dick Johnson Is Dead, The Flat, No Home Movie). Test: the family member or family past is the subject; the filmmaker's own life chronicled stays in the Diary Film.",
+    "aliases": "domestic ethnography; family portrait documentary; autobiographical family documentary",
+    "src": [
+     [
+      "https://en.wikipedia.org/wiki/Documentary_film",
+      "Wikipedia"
+     ]
+    ],
+    "axis": "by whom the camera turns to: parents and grandparents first, then siblings, children and the household, and family secrets and histories last",
+    "secs": [
+     "Parents & Grandparents",
+     "Siblings, Children & the Household",
+     "Family Secrets & Histories"
+    ]
+   }
+  ],
+  "assign": {
+   "tt0038180": [
+    "self",
+    1
+   ],
+   "tspdt:topaz-1945": [
+    "self",
+    1
+   ],
+   "tspdt:cab-calloway-home-movies-1948": [
+    "self",
+    1
+   ],
+   "tt0196499": [
+    "self",
+    2
+   ],
+   "tspdt:kodak-ghost-poems-part-1-the-adventures--1968": [
+    "self",
+    2
+   ],
+   "tspdt:film-portrait-1970": [
+    "self",
+    2
+   ],
+   "tspdt:conversations-in-vermont-1971": [
+    "self",
+    2
+   ],
+   "tt0068585": [
+    "self",
+    2
+   ],
+   "tt0069172": [
+    "self",
+    2
+   ],
+   "tspdt:the-lacey-rituals-1973": [
+    "self",
+    1
+   ],
+   "tt0233809": [
+    "self",
+    3
+   ],
+   "tspdt:nana-mom-and-me-1975": [
+    "NEW1",
+    1
+   ],
+   "tt7784178": [
+    "self",
+    3
+   ],
+   "tt0209110": [
+    "self",
+    2
+   ],
+   "tspdt:kitch-s-last-meal-1976": [
+    "self",
+    2
+   ],
+   "tspdt:misconception-1977": [
+    "self",
+    2
+   ],
+   "tspdt:charmed-particles-1978": [
+    "self",
+    2
+   ],
+   "tt0078850": [
+    "NEW1",
+    2
+   ],
+   "tspdt:my-survival-as-an-aboriginal-1979": [
+    "self",
+    5
+   ],
+   "tspdt:emigration-1979": [
+    "self",
+    5
+   ],
+   "tspdt:paradise-not-yet-lost-or-oona-s-third-ye-1980": [
+    "self",
+    2
+   ],
+   "tspdt:diaries-1971-1976-1981": [
+    "self",
+    2
+   ],
+   "tspdt:five-year-diary-1981": [
+    "self",
+    1
+   ],
+   "tt0179546": [
+    "self",
+    3
+   ],
+   "tspdt:unfinished-diary-1983": [
+    "self",
+    5
+   ],
+   "tspdt:the-declic-years-1984": [
+    "self",
+    3
+   ],
+   "tspdt:in-this-life-s-body-1984": [
+    "self",
+    2
+   ],
+   "tspdt:the-ties-that-bind-1985": [
+    "NEW1",
+    1
+   ],
+   "tt0091943": [
+    "self",
+    2
+   ],
+   "tspdt:he-stands-in-the-desert-counting-the-sec-1986": [
+    "self",
+    2
+   ],
+   "tspdt:weather-diary-1-1986": [
+    "self",
+    7
+   ],
+   "tspdt:the-mexican-tapes-1986": [
+    "self",
+    2
+   ],
+   "tspdt:memoires-d-un-juif-tropical-1986": [
+    "self",
+    5
+   ],
+   "tspdt:weather-diary-2-1987": [
+    "self",
+    7
+   ],
+   "tspdt:the-paper-bridge-1987": [
+    "self",
+    5
+   ],
+   "tt0093295": [
+    "self",
+    3
+   ],
+   "tspdt:weather-diary-4-1988": [
+    "self",
+    7
+   ],
+   "tspdt:passing-through-torn-formations-1988": [
+    "self",
+    2
+   ],
+   "tspdt:weather-diary-5-1989": [
+    "self",
+    7
+   ],
+   "tspdt:a-spy-in-the-house-that-ruth-built-1989": [
+    "self",
+    3
+   ],
+   "tt0100624": [
+    "NEW1",
+    1
+   ],
+   "tspdt:el-encargo-del-cazador-1990": [
+    "self",
+    3
+   ],
+   "tspdt:weather-diary-6-1990": [
+    "self",
+    7
+   ],
+   "tspdt:a-la-recherche-du-lieu-de-ma-naissance-1990": [
+    "self",
+    5
+   ],
+   "tspdt:kyoto-my-mother-s-place-tv-1991": [
+    "NEW1",
+    1
+   ],
+   "tspdt:intimate-stranger-1991": [
+    "NEW1",
+    1
+   ],
+   "tspdt:finding-christa-1991": [
+    "NEW1",
+    2
+   ],
+   "tspdt:babel-a-letter-to-my-friends-left-behind-1991": [
+    "self",
+    5
+   ],
+   "tspdt:thank-you-and-good-night-1991": [
+    "NEW1",
+    1
+   ],
+   "tspdt:berlin-10-90-1991": [
+    "self",
+    6
+   ],
+   "tspdt:modesty-and-shame-1992": [
+    "self",
+    4
+   ],
+   "tspdt:teenage-diaries-in-bed-with-chris-needha-1992": [
+    "self",
+    7
+   ],
+   "tspdt:in-search-of-our-fathers-1992": [
+    "NEW1",
+    1
+   ],
+   "tt0109382": [
+    "self",
+    3
+   ],
+   "tspdt:time-indefinite-1993": [
+    "self",
+    2
+   ],
+   "tspdt:diary-in-exile-1993": [
+    "self",
+    5
+   ],
+   "tspdt:memories-and-confessions-1993": [
+    "self",
+    3
+   ],
+   "tt0108138": [
+    "self",
+    4
+   ],
+   "tspdt:lettre-pour-l-1993": [
+    "self",
+    3
+   ],
+   "tt0110173": [
+    "self",
+    3
+   ],
+   "tspdt:why-is-yellow-the-middle-of-the-rainbow-1994": [
+    "self",
+    3
+   ],
+   "tspdt:trying-to-kiss-the-moon-1994": [
+    "self",
+    4
+   ],
+   "tspdt:glitterbug-1994": [
+    "self",
+    1
+   ],
+   "tspdt:fast-trip-long-drop-1994": [
+    "self",
+    4
+   ],
+   "tspdt:baby-i-will-make-you-sweat-1995": [
+    "self",
+    3
+   ],
+   "tspdt:zelfbeklag-1995": [
+    "self",
+    7
+   ],
+   "tspdt:video-fool-for-love-1995": [
+    "self",
+    7
+   ],
+   "tspdt:no-sex-last-night-1996": [
+    "self",
+    3
+   ],
+   "tspdt:chantal-akerman-par-chantal-akerman-tv-1996": [
+    "self",
+    3
+   ],
+   "tt0117196": [
+    "NEW1",
+    1
+   ],
+   "tspdt:i-was-a-jewish-sex-worker-1996": [
+    "self",
+    3
+   ],
+   "tspdt:tender-fictions-1996": [
+    "self",
+    2
+   ],
+   "tspdt:pain-is-1997": [
+    "self",
+    4
+   ],
+   "tspdt:in-my-father-s-house-1997": [
+    "NEW1",
+    1
+   ],
+   "tt0176104": [
+    "self",
+    5
+   ],
+   "tspdt:laatste-woorden-1998": [
+    "NEW1",
+    2
+   ],
+   "tspdt:moment-of-impact-1998": [
+    "NEW1",
+    1
+   ],
+   "tt0262240": [
+    "self",
+    2
+   ],
+   "tspdt:the-long-holiday-2000": [
+    "self",
+    4
+   ],
+   "tspdt:aqui-se-construye-o-ya-no-existe-el-luga-2000": [
+    "self",
+    3
+   ],
+   "tspdt:first-person-plural-2000": [
+    "NEW1",
+    2
+   ],
+   "tspdt:a-little-family-conversation-2000": [
+    "NEW1",
+    3
+   ],
+   "tspdt:always-a-bridesmaid-2000": [
+    "self",
+    3
+   ],
+   "tspdt:the-alcohol-years-2000": [
+    "self",
+    4
+   ],
+   "tspdt:un-passeport-hongrois-2001": [
+    "NEW1",
+    3
+   ],
+   "tspdt:family-2001": [
+    "NEW1",
+    3
+   ],
+   "tspdt:sky-wind-fire-water-earth-2001": [
+    "self",
+    7
+   ],
+   "tspdt:the-sweetest-sound-2001": [
+    "self",
+    3
+   ],
+   "tspdt:in-the-bathtub-of-the-world-2001": [
+    "self",
+    3
+   ],
+   "tt0310683": [
+    "self",
+    6
+   ],
+   "tspdt:fatherless-2002": [
+    "NEW1",
+    1
+   ],
+   "tspdt:the-odds-of-recovery-2002": [
+    "self",
+    4
+   ],
+   "tspdt:33-2002": [
+    "self",
+    3
+   ],
+   "tspdt:for-one-more-hour-with-you-2002": [
+    "NEW1",
+    1
+   ],
+   "tt0390538": [
+    "self",
+    7
+   ],
+   "tt0373175": [
+    "NEW1",
+    1
+   ],
+   "tspdt:gunnar-goes-comfortable-2003": [
+    "self",
+    3
+   ],
+   "tt0440395": [
+    "self",
+    3
+   ],
+   "tspdt:refugee-2003": [
+    "self",
+    5
+   ],
+   "tspdt:the-same-river-twice-2003": [
+    "self",
+    2
+   ],
+   "tspdt:mein-leben-teil-2-tv-2003": [
+    "NEW1",
+    1
+   ],
+   "tt0372806": [
+    "self",
+    2
+   ],
+   "tt0417737": [
+    "self",
+    4
+   ],
+   "tspdt:histoire-d-un-secret-2003": [
+    "NEW1",
+    1
+   ],
+   "tt0388996": [
+    "NEW1",
+    3
+   ],
+   "tspdt:une-fenetre-ouverte-2005": [
+    "self",
+    4
+   ],
+   "tspdt:stranded-in-canton-2005": [
+    "self",
+    5
+   ],
+   "tspdt:the-sugar-curtain-2005": [
+    "self",
+    5
+   ],
+   "tspdt:the-grace-lee-project-2005": [
+    "self",
+    3
+   ],
+   "tt0468442": [
+    "NEW1",
+    1
+   ],
+   "tspdt:le-filmeur-2005": [
+    "self",
+    3
+   ],
+   "tspdt:i-for-india-2005": [
+    "NEW1",
+    1
+   ],
+   "tspdt:mas-alla-del-espejo-2006": [
+    "self",
+    4
+   ],
+   "tspdt:citadel-2006": [
+    "self",
+    3
+   ],
+   "tspdt:dear-pyongyang-2006": [
+    "NEW1",
+    1
+   ],
+   "tspdt:running-stumbled-2006": [
+    "NEW1",
+    1
+   ],
+   "tt0492502": [
+    "self",
+    4
+   ],
+   "tspdt:in-the-wake-of-a-deadad-2006": [
+    "NEW1",
+    1
+   ],
+   "tt1002543": [
+    "NEW1",
+    3
+   ],
+   "tspdt:365-day-project-exhibition-2007": [
+    "self",
+    2
+   ],
+   "tspdt:de-son-appartement-2007": [
+    "self",
+    3
+   ],
+   "tt0889615": [
+    "NEW1",
+    3
+   ],
+   "tspdt:moving-midway-2007": [
+    "NEW1",
+    3
+   ],
+   "tt1038904": [
+    "self",
+    6
+   ],
+   "tspdt:10-4-2007": [
+    "self",
+    4
+   ],
+   "tspdt:salata-baladi-2007": [
+    "NEW1",
+    1
+   ],
+   "tspdt:hotel-diaries-2007": [
+    "self",
+    6
+   ],
+   "tt1129435": [
+    "self",
+    3
+   ],
+   "tspdt:lithuania-and-the-collapse-of-the-ussr-2008": [
+    "self",
+    2
+   ],
+   "tspdt:the-betrayal-nerakhoon-2008": [
+    "NEW1",
+    3
+   ],
+   "tspdt:the-windmill-movie-2008": [
+    "self",
+    3
+   ],
+   "tspdt:patria-mia-nomad-direction-2008": [
+    "self",
+    5
+   ],
+   "tspdt:phyllis-and-harold-2008": [
+    "NEW1",
+    1
+   ],
+   "tt1295068": [
+    "NEW1",
+    2
+   ],
+   "tspdt:years-when-i-was-a-child-outside-2008": [
+    "self",
+    3
+   ],
+   "tspdt:the-edge-of-dreaming-2009": [
+    "self",
+    4
+   ],
+   "tspdt:the-children-of-the-commune-2009": [
+    "NEW1",
+    3
+   ],
+   "tspdt:familystrip-2009": [
+    "NEW1",
+    1
+   ],
+   "tspdt:letter-to-a-child-2009": [
+    "self",
+    3
+   ],
+   "tspdt:in-camera-2009": [
+    "self",
+    3
+   ],
+   "tspdt:irene-2009": [
+    "self",
+    4
+   ],
+   "tspdt:perestroika-2009": [
+    "self",
+    3
+   ],
+   "tspdt:shed-your-tears-and-walk-away-2009": [
+    "self",
+    3
+   ],
+   "tspdt:dreaming-film-2010": [
+    "self",
+    3
+   ],
+   "tspdt:wistful-wilderness-2010": [
+    "self",
+    3
+   ],
+   "tspdt:diario-de-uma-busca-2010": [
+    "NEW1",
+    1
+   ],
+   "tt1667905": [
+    "self",
+    6
+   ],
+   "tspdt:sleepless-nights-stories-2011": [
+    "self",
+    2
+   ],
+   "tspdt:this-our-still-life-2011": [
+    "self",
+    1
+   ],
+   "tspdt:correspondencia-jonas-mekas-j-l-guerin-2011": [
+    "self",
+    2
+   ],
+   "tspdt:tape-2011": [
+    "self",
+    7
+   ],
+   "tt1922551": [
+    "self",
+    7
+   ],
+   "tspdt:traveling-light-2011": [
+    "self",
+    7
+   ],
+   "tt1556690": [
+    "self",
+    3
+   ],
+   "tspdt:photographic-memory-2011": [
+    "self",
+    2
+   ],
+   "tspdt:papirosen-2011": [
+    "NEW1",
+    3
+   ],
+   "tt2071620": [
+    "NEW1",
+    3
+   ],
+   "tt2366450": [
+    "NEW1",
+    2
+   ],
+   "tspdt:out-takes-from-the-life-of-a-happy-man-2012": [
+    "self",
+    2
+   ],
+   "tspdt:el-otro-dia-2012": [
+    "self",
+    3
+   ],
+   "tspdt:first-cousin-once-removed-2012": [
+    "NEW1",
+    2
+   ],
+   "tspdt:once-i-entered-a-garden-2012": [
+    "self",
+    6
+   ],
+   "tspdt:chiri-2012": [
+    "NEW1",
+    1
+   ],
+   "tspdt:flashback-memories-3d-2012": [
+    "self",
+    4
+   ],
+   "tt2233762": [
+    "self",
+    5
+   ],
+   "tspdt:mapa-2012": [
+    "self",
+    3
+   ],
+   "tspdt:the-sheik-and-i-2012": [
+    "self",
+    3
+   ],
+   "tspdt:sibila-2012": [
+    "NEW1",
+    2
+   ],
+   "tt2475154": [
+    "NEW1",
+    2
+   ],
+   "tt2741956": [
+    "NEW1",
+    1
+   ],
+   "tspdt:belleville-baby-2013": [
+    "self",
+    3
+   ],
+   "tspdt:i-hate-myself-2013": [
+    "self",
+    7
+   ],
+   "tspdt:your-day-is-my-night-2013": [
+    "self",
+    3
+   ],
+   "tt3102356": [
+    "self",
+    4
+   ],
+   "tspdt:carta-a-un-padre-2013": [
+    "NEW1",
+    1
+   ],
+   "tt3211518": [
+    "self",
+    3
+   ],
+   "tt3905024": [
+    "self",
+    3
+   ],
+   "tspdt:the-silences-2014": [
+    "self",
+    3
+   ],
+   "tspdt:life-may-be-2014": [
+    "self",
+    5
+   ],
+   "tt3904176": [
+    "NEW1",
+    3
+   ],
+   "tt2555302": [
+    "self",
+    4
+   ],
+   "tt1262990": [
+    "self",
+    3
+   ],
+   "tt4935446": [
+    "self",
+    4
+   ],
+   "tt4937126": [
+    "self",
+    4
+   ],
+   "tspdt:twilight-of-a-life-2015": [
+    "NEW1",
+    1
+   ],
+   "tspdt:327-cuadernos-2015": [
+    "self",
+    3
+   ],
+   "tt5537018": [
+    "self",
+    6
+   ],
+   "tspdt:on-football-2015": [
+    "NEW1",
+    1
+   ],
+   "tspdt:das-leben-drehen-wie-mein-vater-versucht-2015": [
+    "NEW1",
+    1
+   ],
+   "tt4881016": [
+    "NEW1",
+    1
+   ],
+   "tt5375040": [
+    "self",
+    3
+   ],
+   "tspdt:memories-of-a-penitent-heart-2016": [
+    "NEW1",
+    2
+   ],
+   "tspdt:como-me-da-la-gana-ii-2016": [
+    "self",
+    3
+   ],
+   "tspdt:memory-exercises-2016": [
+    "NEW1",
+    3
+   ],
+   "tt5116402": [
+    "NEW1",
+    1
+   ],
+   "tt5473902": [
+    "NEW1",
+    2
+   ],
+   "tspdt:four-springs-2017": [
+    "NEW1",
+    1
+   ],
+   "tt7115920": [
+    "NEW1",
+    1
+   ],
+   "tt6483258": [
+    "NEW1",
+    2
+   ],
+   "tt6777248": [
+    "self",
+    6
+   ],
+   "tspdt:el-silencio-es-un-cuerpo-que-cae-2017": [
+    "NEW1",
+    1
+   ],
+   "tspdt:trouble-with-dad-the-tv-2017": [
+    "NEW1",
+    1
+   ],
+   "tspdt:i-used-to-sleep-on-the-rooftop-2017": [
+    "self",
+    5
+   ],
+   "tt3268850": [
+    "self",
+    4
+   ],
+   "tt7476236": [
+    "self",
+    3
+   ],
+   "tt7472352": [
+    "self",
+    3
+   ],
+   "tt9135014": [
+    "NEW1",
+    1
+   ],
+   "tt9113772": [
+    "NEW1",
+    1
+   ],
+   "tt7689926": [
+    "NEW1",
+    2
+   ],
+   "tspdt:the-image-you-missed-2018": [
+    "NEW1",
+    1
+   ],
+   "tspdt:self-portrait-sphinx-in-47-km-2018": [
+    "self",
+    7
+   ],
+   "tspdt:the-feeling-of-being-watched-2018": [
+    "self",
+    6
+   ],
+   "tt8790662": [
+    "self",
+    6
+   ],
+   "tspdt:i-diari-di-angela-noi-due-cineasti-2018": [
+    "self",
+    3
+   ],
+   "tspdt:a-deal-with-the-universe-2018": [
+    "self",
+    4
+   ],
+   "tt43684922": [
+    "self",
+    3
+   ],
+   "tt9680914": [
+    "self",
+    3
+   ],
+   "tt10018386": [
+    "NEW1",
+    1
+   ],
+   "tspdt:self-portrait-window-in-47km-2019": [
+    "self",
+    7
+   ],
+   "tspdt:no-data-plan-2019": [
+    "self",
+    5
+   ],
+   "tspdt:heimat-is-a-space-in-time-2019": [
+    "NEW1",
+    3
+   ],
+   "tspdt:everything-that-is-forgotten-in-an-insta-2019": [
+    "self",
+    3
+   ],
+   "tt8750702": [
+    "NEW1",
+    2
+   ],
+   "tt11383174": [
+    "self",
+    5
+   ],
+   "tspdt:living-and-knowing-you-re-alive-2019": [
+    "self",
+    3
+   ],
+   "tspdt:the-hidden-fountain-2019": [
+    "self",
+    3
+   ],
+   "tt8923500": [
+    "self",
+    5
+   ],
+   "tspdt:a-moon-for-my-father-2019": [
+    "NEW1",
+    1
+   ],
+   "tt6772524": [
+    "NEW1",
+    1
+   ],
+   "tspdt:i-never-climbed-the-provincia-2019": [
+    "self",
+    3
+   ],
+   "tspdt:night-shot-2019": [
+    "self",
+    4
+   ],
+   "tt11394180": [
+    "NEW1",
+    1
+   ],
+   "tt13359582": [
+    "NEW1",
+    2
+   ],
+   "tspdt:purple-sea-2020": [
+    "self",
+    5
+   ],
+   "tspdt:esquirlas-2020": [
+    "NEW1",
+    1
+   ],
+   "tt9028522": [
+    "self",
+    7
+   ],
+   "tspdt:generations-2020": [
+    "NEW1",
+    1
+   ],
+   "tspdt:une-histoire-de-cheveux-siberie-2020": [
+    "self",
+    3
+   ],
+   "tspdt:mon-amour-2020": [
+    "NEW1",
+    3
+   ],
+   "tspdt:my-dear-spies-2020": [
+    "NEW1",
+    3
+   ],
+   "tspdt:film-about-a-father-who-2020": [
+    "NEW1",
+    1
+   ],
+   "tspdt:with-love-volume-one-1987-1996-2020": [
+    "self",
+    3
+   ],
+   "tt11625100": [
+    "NEW1",
+    3
+   ],
+   "tspdt:a-river-runs-turns-erases-replaces-2021": [
+    "self",
+    6
+   ],
+   "tt15705752": [
+    "NEW1",
+    2
+   ],
+   "tspdt:with-love-3-2021": [
+    "self",
+    3
+   ],
+   "tspdt:charm-circle-2021": [
+    "NEW1",
+    2
+   ],
+   "tspdt:beba-2021": [
+    "self",
+    3
+   ],
+   "tt12544762": [
+    "NEW1",
+    2
+   ],
+   "tspdt:self-portrait-fairy-tale-in-47km-2021": [
+    "self",
+    7
+   ],
+   "tspdt:all-about-my-sisters-2021": [
+    "NEW1",
+    2
+   ],
+   "tspdt:north-by-current-2021": [
+    "NEW1",
+    2
+   ],
+   "tspdt:918-nights-2021": [
+    "self",
+    6
+   ],
+   "tspdt:shared-resources-2021": [
+    "NEW1",
+    1
+   ],
+   "tspdt:penelope-my-love-2021": [
+    "NEW1",
+    2
+   ],
+   "tspdt:much-ado-about-dying-2022": [
+    "NEW1",
+    2
+   ],
+   "tspdt:amitie-l-2022": [
+    "self",
+    3
+   ],
+   "tspdt:last-flight-home-2022": [
+    "NEW1",
+    1
+   ],
+   "tt12915238": [
+    "NEW1",
+    3
+   ],
+   "tspdt:sam-now-2022": [
+    "NEW1",
+    2
+   ],
+   "tspdt:blue-bag-life-2022": [
+    "self",
+    3
+   ],
+   "tspdt:after-sherman-2022": [
+    "NEW1",
+    3
+   ],
+   "tspdt:malintzin-17-2022": [
+    "self",
+    1
+   ],
+   "tspdt:girl-talk-2022": [
+    "self",
+    3
+   ],
+   "tspdt:ardenza-2022": [
+    "self",
+    3
+   ],
+   "tspdt:i-didn-t-see-you-there-2022": [
+    "self",
+    4
+   ],
+   "tspdt:the-super-8-years-2022": [
+    "self",
+    1
+   ],
+   "tspdt:tales-of-the-purple-house-2022": [
+    "self",
+    6
+   ],
+   "tspdt:jet-lag-2022": [
+    "NEW1",
+    1
+   ],
+   "tspdt:liquor-store-dreams-2022": [
+    "NEW1",
+    1
+   ],
+   "tspdt:a-hawk-as-big-as-a-horse-2022": [
+    "self",
+    3
+   ],
+   "tt9619234": [
+    "NEW1",
+    1
+   ],
+   "tt15307068": [
+    "NEW1",
+    3
+   ],
+   "tspdt:self-portrait-47-km-2020-2023": [
+    "self",
+    7
+   ],
+   "tspdt:three-promises-2023": [
+    "NEW1",
+    1
+   ],
+   "tspdt:you-were-my-first-boyfriend-2023": [
+    "self",
+    3
+   ],
+   "tt30517192": [
+    "NEW1",
+    1
+   ],
+   "tspdt:flipside-2023": [
+    "self",
+    3
+   ],
+   "tspdt:milisuthando-2023": [
+    "self",
+    3
+   ],
+   "tspdt:your-fat-friend-2023": [
+    "self",
+    4
+   ],
+   "tspdt:nowhere-near-2023": [
+    "self",
+    5
+   ],
+   "tspdt:the-taste-of-mango-2023": [
+    "NEW1",
+    1
+   ],
+   "tspdt:le-vrai-du-faux-2023": [
+    "self",
+    3
+   ],
+   "tspdt:q-2023": [
+    "NEW1",
+    1
+   ],
+   "tspdt:zinzindurrunkarratz-2023": [
+    "NEW1",
+    1
+   ],
+   "tt30227076": [
+    "self",
+    6
+   ],
+   "tt22857256": [
+    "NEW1",
+    1
+   ],
+   "tt27989261": [
+    "self",
+    3
+   ],
+   "tspdt:instead-of-trees-2024": [
+    "self",
+    3
+   ],
+   "tspdt:bajo-una-lluvia-ajena-2024": [
+    "self",
+    5
+   ],
+   "tspdt:a-want-in-her-2024": [
+    "NEW1",
+    1
+   ],
+   "tspdt:une-famille-2024": [
+    "NEW1",
+    2
+   ],
+   "tspdt:motherboard-2024": [
+    "NEW1",
+    1
+   ],
+   "tspdt:trans-memoria-2024": [
+    "self",
+    4
+   ],
+   "tspdt:the-secret-world-2024": [
+    "self",
+    3
+   ],
+   "tt36464353": [
+    "NEW1",
+    1
+   ],
+   "tspdt:remake-2025": [
+    "self",
+    2
+   ],
+   "tspdt:cartas-a-mis-padres-muertos-2025": [
+    "NEW1",
+    1
+   ],
+   "tt34885279": [
+    "NEW1",
+    3
+   ],
+   "tspdt:evidence-2025": [
+    "NEW1",
+    1
+   ],
+   "tspdt:the-gas-station-attendant-2025": [
+    "NEW1",
+    1
+   ],
+   "tspdt:past-is-present-2025": [
+    "self",
+    3
+   ],
+   "tspdt:avenida-saenz-1073-2025": [
+    "self",
+    3
+   ],
+   "tt36598711": [
+    "self",
+    6
+   ],
+   "tt37538502": [
+    "self",
+    6
+   ],
+   "tt14417122": [
+    "NEW1",
+    3
+   ],
+   "tspdt:the-bend-in-the-river-2025": [
+    "self",
+    2
+   ],
+   "tspdt:michtav-ledavid-2025": [
+    "self",
+    6
+   ],
+   "tt17890638": [
+    "self",
+    7
+   ],
+   "tspdt:director-s-diary-2025": [
+    "self",
+    3
+   ],
+   "tspdt:my-father-and-qaddafi-2025": [
+    "NEW1",
+    1
+   ]
+  },
+  "moves": []
+ },
+ "A16-6": {
+  "label": "Melodrama",
+  "defn": "A drama in the melodramatic mode — heightened emotion, sacrifice and fate carried by music and mise-en-scène — whose sacrifice is made for a child or a family, or to illness (Stella Dallas, Imitation of Life, Written on the Wind, Dark Victory, All About My Mother). The melodrama of the fallen, desiring or self-sacrificing woman in love goes to the Woman's Film; realist family dramas to A16-3 to A16-5.",
+  "axis": "by the sacrifice at the core: maternal sacrifice first, then the family melodrama, the illness tearjerker, and Sirk's non-melodrama studio pictures last",
+  "secs": [
+   "Maternal Melodrama",
+   "Family Melodrama",
+   "Illness Tearjerkers",
+   "Sirk's Comedies, Westerns & War Pictures"
+  ],
+  "new_leaves": [
+   {
+    "key": "NEW1",
+    "label": "Woman's Film",
+    "breadth": "melodramas of the fallen, desiring or self-sacrificing woman, across national studio traditions",
+    "defn": "A melodrama centred on a woman's desire, fall or sacrifice in love, marriage or work, made for and around a female star or a woman's point of view (The Cheat, Pandora's Box, Back Street, All That Heaven Allows, When a Woman Ascends the Stairs, Far from Heaven). Test: the heroine's own passion or fall is the engine; sacrifice for a child or a family stays in A16-6.",
+    "aliases": "woman's picture; women's film; fallen-woman melodrama; josei eiga",
+    "src": [
+     [
+      "https://en.wikipedia.org/wiki/Woman%27s_film",
+      "Wikipedia"
+     ]
+    ],
+    "axis": "by era and national studio tradition: the silent vamp and fallen woman first, then the Hollywood woman's film, the European, Japanese, Chinese-Korean-Indian and Latin American traditions, and the modern revisionist woman's film last",
+    "secs": [
+     "Silent Vamps & Fallen Women (to 1929)",
+     "Hollywood Woman's Film",
+     "European Woman's Film",
+     "Japanese Women's Films",
+     "Chinese, Korean & Indian Women's Melodrama",
+     "Latin American Melodrama",
+     "Modern & Revisionist Woman's Film (1970– )"
+    ]
+   }
+  ],
+  "assign": {
+   "tspdt:girl-from-stormy-croft-1917": [
+    "self",
+    1
+   ],
+   "tspdt:the-woman-suffers-1918": [
+    "self",
+    1
+   ],
+   "tt0010598": [
+    "self",
+    1
+   ],
+   "tt0011317": [
+    "self",
+    1
+   ],
+   "tspdt:stella-dallas-1925": [
+    "self",
+    1
+   ],
+   "tspdt:la-grazia-1929": [
+    "self",
+    1
+   ],
+   "tspdt:la-canzone-dell-amore-1930": [
+    "self",
+    1
+   ],
+   "tspdt:love-and-duty-1931": [
+    "self",
+    1
+   ],
+   "tt0023261": [
+    "self",
+    1
+   ],
+   "tspdt:spring-shower-1932": [
+    "self",
+    1
+   ],
+   "tt0024214": [
+    "self",
+    1
+   ],
+   "tt0024793": [
+    "self",
+    1
+   ],
+   "tspdt:broken-dreams-1933": [
+    "self",
+    1
+   ],
+   "tt0025301": [
+    "self",
+    1
+   ],
+   "tt0195256": [
+    "self",
+    1
+   ],
+   "tspdt:mazurka-1935": [
+    "self",
+    1
+   ],
+   "tt0029608": [
+    "self",
+    1
+   ],
+   "tt0028737": [
+    "self",
+    1
+   ],
+   "tspdt:cimu-qu-1937": [
+    "self",
+    1
+   ],
+   "tspdt:yan-zhi-lei-1938": [
+    "self",
+    1
+   ],
+   "tt0032093": [
+    "self",
+    1
+   ],
+   "tt0031750": [
+    "self",
+    1
+   ],
+   "tspdt:puerta-cerrada-1939": [
+    "self",
+    1
+   ],
+   "tspdt:aurat-1940": [
+    "self",
+    1
+   ],
+   "tspdt:die-goldene-stadt-1942": [
+    "self",
+    1
+   ],
+   "tspdt:le-voile-bleu-1942": [
+    "self",
+    1
+   ],
+   "tt0038675": [
+    "self",
+    1
+   ],
+   "tspdt:her-sister-s-secret-1946": [
+    "self",
+    1
+   ],
+   "tspdt:a-public-prosecutor-and-a-teacher-1948": [
+    "self",
+    1
+   ],
+   "tspdt:a-mother-s-love-1950": [
+    "self",
+    1
+   ],
+   "tspdt:sisa-1951": [
+    "self",
+    1
+   ],
+   "tt0043532": [
+    "self",
+    1
+   ],
+   "tspdt:a-japanese-tragedy-1953": [
+    "self",
+    1
+   ],
+   "tt0047832": [
+    "self",
+    1
+   ],
+   "tspdt:rose-bernd-1957": [
+    "self",
+    1
+   ],
+   "tt0050188": [
+    "self",
+    1
+   ],
+   "tt0052918": [
+    "self",
+    1
+   ],
+   "tspdt:motherhood-1960": [
+    "self",
+    1
+   ],
+   "tspdt:my-mother-and-her-guest-1961": [
+    "self",
+    1
+   ],
+   "tt1464735": [
+    "self",
+    1
+   ],
+   "tspdt:the-body-confession-1964": [
+    "self",
+    1
+   ],
+   "tspdt:the-pregnant-maiden-1968": [
+    "self",
+    1
+   ],
+   "tspdt:story-of-a-mother-1973": [
+    "self",
+    1
+   ],
+   "tt0103030": [
+    "self",
+    1
+   ],
+   "tspdt:madonna-and-child-1996": [
+    "self",
+    1
+   ],
+   "tt0185125": [
+    "self",
+    1
+   ],
+   "tspdt:sisa-1999": [
+    "self",
+    1
+   ],
+   "tt4326444": [
+    "self",
+    1
+   ],
+   "tt2547584": [
+    "self",
+    1
+   ],
+   "tt12618926": [
+    "self",
+    1
+   ],
+   "tt26596953": [
+    "self",
+    1
+   ],
+   "tt29243069": [
+    "self",
+    1
+   ],
+   "tspdt:the-strange-bird-1911": [
+    "NEW1",
+    1
+   ],
+   "tspdt:sylvi-1913": [
+    "NEW1",
+    1
+   ],
+   "tt0004681": [
+    "NEW1",
+    1
+   ],
+   "tspdt:child-of-the-big-city-1914": [
+    "NEW1",
+    1
+   ],
+   "tspdt:love-everlasting-1914": [
+    "NEW1",
+    1
+   ],
+   "tt0005339": [
+    "NEW1",
+    1
+   ],
+   "tt0005078": [
+    "NEW1",
+    1
+   ],
+   "tspdt:poetic-justice-of-omar-khan-1915": [
+    "NEW1",
+    1
+   ],
+   "tspdt:the-white-roses-1916": [
+    "NEW1",
+    1
+   ],
+   "tspdt:victory-of-love-1916": [
+    "NEW1",
+    1
+   ],
+   "tspdt:tigre-reale-1916": [
+    "NEW1",
+    1
+   ],
+   "tspdt:blue-jeans-1917": [
+    "NEW1",
+    1
+   ],
+   "tt0009652": [
+    "NEW1",
+    1
+   ],
+   "tspdt:el-panuelo-de-clarita-1919": [
+    "NEW1",
+    1
+   ],
+   "tspdt:das-ewige-ratsel-1919": [
+    "NEW1",
+    1
+   ],
+   "tspdt:masterman-1920": [
+    "NEW1",
+    1
+   ],
+   "tspdt:l-ordannance-1921": [
+    "NEW1",
+    1
+   ],
+   "tspdt:anna-liisa-1922": [
+    "NEW1",
+    1
+   ],
+   "tspdt:the-white-rose-1923": [
+    "NEW1",
+    1
+   ],
+   "tspdt:kokyo-1923": [
+    "NEW1",
+    1
+   ],
+   "tspdt:three-women-1924": [
+    "NEW1",
+    1
+   ],
+   "tt0016005": [
+    "NEW1",
+    1
+   ],
+   "tspdt:girl-in-tails-1926": [
+    "NEW1",
+    1
+   ],
+   "tspdt:a-paper-doll-s-whisper-of-spring-1926": [
+    "NEW1",
+    1
+   ],
+   "tspdt:die-strecke-1927": [
+    "NEW1",
+    1
+   ],
+   "tt0019429": [
+    "NEW1",
+    1
+   ],
+   "tspdt:the-last-night-1928": [
+    "NEW1",
+    1
+   ],
+   "tt0019344": [
+    "NEW1",
+    1
+   ],
+   "tt0018737": [
+    "NEW1",
+    1
+   ],
+   "tspdt:human-clay-1929": [
+    "NEW1",
+    1
+   ],
+   "tspdt:the-wonderful-lies-of-nina-petrovna-1929": [
+    "NEW1",
+    1
+   ],
+   "tt0020298": [
+    "NEW1",
+    1
+   ],
+   "tspdt:linda-1929": [
+    "NEW1",
+    1
+   ],
+   "tt0019850": [
+    "NEW1",
+    3
+   ],
+   "tt0020697": [
+    "NEW1",
+    3
+   ],
+   "tspdt:prix-de-beaute-1930": [
+    "NEW1",
+    3
+   ],
+   "tspdt:eikan-namida-ari-1931": [
+    "NEW1",
+    4
+   ],
+   "tspdt:hanabi-1931": [
+    "NEW1",
+    4
+   ],
+   "tspdt:mulher-1931": [
+    "NEW1",
+    6
+   ],
+   "tspdt:seven-seas-virginity-chapter-1931": [
+    "NEW1",
+    4
+   ],
+   "tspdt:seven-seas-frigidity-chapter-1932": [
+    "NEW1",
+    4
+   ],
+   "tspdt:byakuya-no-kyoen-1932": [
+    "NEW1",
+    4
+   ],
+   "tspdt:spring-in-the-south-1932": [
+    "NEW1",
+    5
+   ],
+   "tt0024049": [
+    "NEW1",
+    6
+   ],
+   "tt0160535": [
+    "NEW1",
+    4
+   ],
+   "tt0024641": [
+    "NEW1",
+    4
+   ],
+   "tspdt:shima-no-musume-1933": [
+    "NEW1",
+    4
+   ],
+   "tt0025791": [
+    "NEW1",
+    3
+   ],
+   "tt0137187": [
+    "NEW1",
+    3
+   ],
+   "tt0025062": [
+    "NEW1",
+    6
+   ],
+   "tspdt:the-woman-of-the-port-1934": [
+    "NEW1",
+    6
+   ],
+   "tspdt:muteki-1934": [
+    "NEW1",
+    4
+   ],
+   "tspdt:the-downfall-of-osen-1934": [
+    "NEW1",
+    4
+   ],
+   "tspdt:baccara-1935": [
+    "NEW1",
+    3
+   ],
+   "tspdt:sweet-dream-1936": [
+    "NEW1",
+    5
+   ],
+   "tspdt:man-spricht-uber-jacqueline-1937": [
+    "NEW1",
+    3
+   ],
+   "tt0030413": [
+    "NEW1",
+    2
+   ],
+   "tspdt:flowers-have-fallen-1938": [
+    "NEW1",
+    4
+   ],
+   "tspdt:walking-down-broadway-1938": [
+    "NEW1",
+    2
+   ],
+   "tt0032156": [
+    "NEW1",
+    4
+   ],
+   "tt0031544": [
+    "NEW1",
+    3
+   ],
+   "tt0031894": [
+    "NEW1",
+    3
+   ],
+   "tspdt:mukashi-no-uta-1939": [
+    "NEW1",
+    4
+   ],
+   "tspdt:warm-current-1939": [
+    "NEW1",
+    4
+   ],
+   "tspdt:junjo-nijuso-1939": [
+    "NEW1",
+    4
+   ],
+   "tt0032655": [
+    "NEW1",
+    3
+   ],
+   "tt0033677": [
+    "NEW1",
+    2
+   ],
+   "tspdt:marie-martine-1943": [
+    "NEW1",
+    3
+   ],
+   "tspdt:el-escandalo-1943": [
+    "NEW1",
+    3
+   ],
+   "tt0037094": [
+    "NEW1",
+    2
+   ],
+   "tspdt:the-way-you-wanted-me-1944": [
+    "NEW1",
+    3
+   ],
+   "tt0037035": [
+    "NEW1",
+    3
+   ],
+   "tt0038924": [
+    "NEW1",
+    3
+   ],
+   "tspdt:louisa-1946": [
+    "NEW1",
+    3
+   ],
+   "tspdt:goodbye-darling-1946": [
+    "NEW1",
+    3
+   ],
+   "tspdt:dirty-gertie-from-harlem-u-s-a-1946": [
+    "NEW1",
+    2
+   ],
+   "tspdt:god-bless-you-1948": [
+    "NEW1",
+    6
+   ],
+   "tspdt:may-god-forgive-me-1948": [
+    "NEW1",
+    6
+   ],
+   "tspdt:la-vie-en-rose-1948": [
+    "NEW1",
+    3
+   ],
+   "tspdt:tempesta-su-parigi-1948": [
+    "NEW1",
+    3
+   ],
+   "tt0041232": [
+    "NEW1",
+    3
+   ],
+   "tspdt:fascinacion-1949": [
+    "NEW1",
+    6
+   ],
+   "tspdt:mademoiselle-de-la-ferte-1949": [
+    "NEW1",
+    3
+   ],
+   "tt0040221": [
+    "NEW1",
+    2
+   ],
+   "tt0046447": [
+    "NEW1",
+    3
+   ],
+   "tspdt:dona-diabla-1950": [
+    "NEW1",
+    6
+   ],
+   "tt0043155": [
+    "NEW1",
+    4
+   ],
+   "tt0042677": [
+    "NEW1",
+    2
+   ],
+   "tspdt:the-flower-girl-1951": [
+    "NEW1",
+    5
+   ],
+   "tt0043892": [
+    "NEW1",
+    4
+   ],
+   "tspdt:cielo-negro-1951": [
+    "NEW1",
+    3
+   ],
+   "tt0043287": [
+    "NEW1",
+    3
+   ],
+   "tspdt:blood-stained-azaleas-1951": [
+    "NEW1",
+    5
+   ],
+   "tspdt:itsuwareru-seiso-1951": [
+    "NEW1",
+    4
+   ],
+   "tt0045109": [
+    "NEW1",
+    2
+   ],
+   "tspdt:girl-with-the-whip-1952": [
+    "NEW1",
+    3
+   ],
+   "tt0045557": [
+    "NEW1",
+    2
+   ],
+   "tspdt:traviata-53-1953": [
+    "NEW1",
+    3
+   ],
+   "tt0047680": [
+    "NEW1",
+    2
+   ],
+   "tspdt:autumn-1954": [
+    "NEW1",
+    5
+   ],
+   "tspdt:la-donna-del-fiume-1954": [
+    "NEW1",
+    3
+   ],
+   "tspdt:l-ombra-1954": [
+    "NEW1",
+    3
+   ],
+   "tspdt:a-free-woman-1954": [
+    "NEW1",
+    3
+   ],
+   "tt0047811": [
+    "NEW1",
+    2
+   ],
+   "tt0049419": [
+    "NEW1",
+    3
+   ],
+   "tt0048538": [
+    "NEW1",
+    2
+   ],
+   "tspdt:mimangin-1955": [
+    "NEW1",
+    5
+   ],
+   "tt0048967": [
+    "NEW1",
+    2
+   ],
+   "tt0051055": [
+    "NEW1",
+    2
+   ],
+   "tspdt:the-sorrowful-lute-1957": [
+    "NEW1",
+    5
+   ],
+   "tspdt:the-glass-tower-1957": [
+    "NEW1",
+    3
+   ],
+   "tspdt:northern-elegy-1957": [
+    "NEW1",
+    4
+   ],
+   "tspdt:way-of-the-body-1959": [
+    "NEW1",
+    5
+   ],
+   "tspdt:the-chair-1959": [
+    "NEW1",
+    5
+   ],
+   "tt0054144": [
+    "NEW1",
+    4
+   ],
+   "tspdt:forever-yours-1960": [
+    "NEW1",
+    5
+   ],
+   "tt0054653": [
+    "NEW1",
+    2
+   ],
+   "tspdt:tres-vecas-ana-1961": [
+    "NEW1",
+    6
+   ],
+   "tt0056436": [
+    "NEW1",
+    5
+   ],
+   "tspdt:sunset-on-the-river-1962": [
+    "NEW1",
+    5
+   ],
+   "tspdt:suryamukhi-1963": [
+    "NEW1",
+    5
+   ],
+   "tt0061089": [
+    "NEW1",
+    2
+   ],
+   "tt0062430": [
+    "NEW1",
+    2
+   ],
+   "tspdt:the-way-home-1967": [
+    "NEW1",
+    5
+   ],
+   "tspdt:the-arch-1968": [
+    "NEW1",
+    5
+   ],
+   "tspdt:anna-child-of-the-daffodils-1975": [
+    "NEW1",
+    7
+   ],
+   "tspdt:rainy-season-1979": [
+    "NEW1",
+    5
+   ],
+   "tspdt:idi-kathakaadu-1979": [
+    "NEW1",
+    5
+   ],
+   "tspdt:ru-yi-1982": [
+    "NEW1",
+    5
+   ],
+   "tspdt:qiu-tian-li-de-chuan-tian-1985": [
+    "NEW1",
+    5
+   ],
+   "tspdt:daengbyeot-1985": [
+    "NEW1",
+    5
+   ],
+   "tspdt:sagara-jalaya-madi-handuwa-oba-handa-1988": [
+    "NEW1",
+    5
+   ],
+   "tspdt:neverending-memory-1988": [
+    "NEW1",
+    5
+   ],
+   "tt0106709": [
+    "NEW1",
+    7
+   ],
+   "tt0113083": [
+    "NEW1",
+    7
+   ],
+   "tt0115751": [
+    "NEW1",
+    7
+   ],
+   "tspdt:secrets-of-madonna-1997": [
+    "NEW1",
+    7
+   ],
+   "tt0297884": [
+    "NEW1",
+    7
+   ],
+   "tspdt:parizod-2012": [
+    "NEW1",
+    5
+   ],
+   "tspdt:an-evening-song-for-three-voices-2023": [
+    "NEW1",
+    7
+   ],
+   "tspdt:sperduti-nel-buio-1914": [
+    "self",
+    2
+   ],
+   "tt0212633": [
+    "self",
+    2
+   ],
+   "tt0008004": [
+    "self",
+    2
+   ],
+   "tspdt:down-home-1920": [
+    "self",
+    2
+   ],
+   "tt0013118": [
+    "self",
+    2
+   ],
+   "tt0014972": [
+    "self",
+    2
+   ],
+   "tspdt:the-signal-tower-1924": [
+    "self",
+    2
+   ],
+   "tt0016006": [
+    "self",
+    2
+   ],
+   "tt0017423": [
+    "self",
+    2
+   ],
+   "tt0139641": [
+    "self",
+    2
+   ],
+   "tspdt:o-vale-dos-martirios-1927": [
+    "self",
+    2
+   ],
+   "tspdt:sangue-mineiro-1929": [
+    "self",
+    2
+   ],
+   "tspdt:rapt-1934": [
+    "self",
+    2
+   ],
+   "tspdt:ya-sui-qian-1937": [
+    "self",
+    2
+   ],
+   "tt0030743": [
+    "self",
+    2
+   ],
+   "tspdt:baghban-1938": [
+    "self",
+    2
+   ],
+   "tspdt:der-postmeister-1940": [
+    "self",
+    2
+   ],
+   "tspdt:the-way-of-all-flesh-1940": [
+    "self",
+    2
+   ],
+   "tt0039668": [
+    "self",
+    2
+   ],
+   "tspdt:la-malquerida-1949": [
+    "self",
+    2
+   ],
+   "tt0043018": [
+    "self",
+    2
+   ],
+   "tspdt:parents-hearts-1955": [
+    "self",
+    2
+   ],
+   "tt0049966": [
+    "self",
+    2
+   ],
+   "tt0160811": [
+    "self",
+    2
+   ],
+   "tt0051955": [
+    "self",
+    2
+   ],
+   "tt0231477": [
+    "self",
+    2
+   ],
+   "tt0053917": [
+    "self",
+    2
+   ],
+   "tspdt:the-great-devotion-1960": [
+    "self",
+    2
+   ],
+   "tt0056657": [
+    "self",
+    2
+   ],
+   "tspdt:aathma-bandhuvu-1962": [
+    "self",
+    2
+   ],
+   "tt0193493": [
+    "self",
+    2
+   ],
+   "tt0069389": [
+    "self",
+    2
+   ],
+   "tt0074168": [
+    "self",
+    2
+   ],
+   "tspdt:o-casamento-1976": [
+    "self",
+    2
+   ],
+   "tt0076886": [
+    "self",
+    2
+   ],
+   "tspdt:main-tulsi-tere-aangan-ki-1978": [
+    "self",
+    2
+   ],
+   "tt0083636": [
+    "self",
+    2
+   ],
+   "tt0090109": [
+    "self",
+    2
+   ],
+   "tt0101921": [
+    "self",
+    2
+   ],
+   "tt0118819": [
+    "self",
+    2
+   ],
+   "tspdt:qabyo-2-2003": [
+    "self",
+    2
+   ],
+   "tspdt:the-dead-girl-s-feast-2008": [
+    "self",
+    2
+   ],
+   "tt5989218": [
+    "self",
+    2
+   ],
+   "tt6390668": [
+    "self",
+    2
+   ],
+   "tt10431500": [
+    "self",
+    2
+   ],
+   "tt0186650": [
+    "self",
+    3
+   ],
+   "tt0022958": [
+    "self",
+    3
+   ],
+   "tt0031210": [
+    "self",
+    3
+   ],
+   "tt0039004": [
+    "self",
+    3
+   ],
+   "tt0047203": [
+    "self",
+    3
+   ],
+   "tt0259248": [
+    "self",
+    3
+   ],
+   "tt0066763": [
+    "self",
+    3
+   ],
+   "tt0094715": [
+    "self",
+    3
+   ],
+   "tt0003637": [
+    "NEW1",
+    1
+   ],
+   "tspdt:the-diary-of-a-lost-woman-1918": [
+    "NEW1",
+    1
+   ],
+   "tspdt:looping-the-loop-1928": [
+    "NEW1",
+    1
+   ],
+   "tspdt:treno-popolare-1933": [
+    "self",
+    2
+   ],
+   "tt0027138": [
+    "self",
+    2
+   ],
+   "tspdt:five-men-in-the-circus-1935": [
+    "self",
+    2
+   ],
+   "tspdt:the-actress-and-the-poet-1935": [
+    "NEW1",
+    4
+   ],
+   "tspdt:the-girl-in-the-rumour-1935": [
+    "self",
+    2
+   ],
+   "tspdt:three-sisters-with-maiden-hearts-1935": [
+    "NEW1",
+    4
+   ],
+   "tspdt:final-accord-1936": [
+    "self",
+    1
+   ],
+   "tt0029819": [
+    "NEW1",
+    3
+   ],
+   "tt0028974": [
+    "NEW1",
+    3
+   ],
+   "tspdt:tsuruhachi-tsurujiro-1938": [
+    "NEW1",
+    4
+   ],
+   "tspdt:letter-of-introduction-1938": [
+    "self",
+    2
+   ],
+   "tspdt:magokoro-1939": [
+    "self",
+    2
+   ],
+   "tt0034946": [
+    "self",
+    2
+   ],
+   "tspdt:the-song-lantern-1943": [
+    "NEW1",
+    4
+   ],
+   "tt0037325": [
+    "NEW1",
+    2
+   ],
+   "tspdt:the-abandoned-1945": [
+    "self",
+    1
+   ],
+   "tt0038908": [
+    "self",
+    4
+   ],
+   "tspdt:la-fumeria-d-oppio-1947": [
+    "NEW1",
+    3
+   ],
+   "tspdt:spring-awakens-1947": [
+    "self",
+    2
+   ],
+   "tt0040798": [
+    "self",
+    4
+   ],
+   "tt0041871": [
+    "self",
+    4
+   ],
+   "tt0043801": [
+    "NEW1",
+    4
+   ],
+   "tspdt:nobody-s-children-1951": [
+    "self",
+    1
+   ],
+   "tspdt:weekend-with-father-1951": [
+    "self",
+    4
+   ],
+   "tt0044745": [
+    "self",
+    2
+   ],
+   "tt0044986": [
+    "self",
+    1
+   ],
+   "tspdt:meet-me-at-the-fair-1952": [
+    "self",
+    4
+   ],
+   "tt0044970": [
+    "self",
+    4
+   ],
+   "tt0043873": [
+    "self",
+    4
+   ],
+   "tspdt:the-ship-of-condemned-women-1953": [
+    "NEW1",
+    3
+   ],
+   "tspdt:wife-1953": [
+    "NEW1",
+    4
+   ],
+   "tt0045492": [
+    "self",
+    2
+   ],
+   "tspdt:take-me-to-town-1953": [
+    "self",
+    4
+   ],
+   "tt0045507": [
+    "self",
+    2
+   ],
+   "tt0046750": [
+    "NEW1",
+    4
+   ],
+   "tt0047682": [
+    "self",
+    2
+   ],
+   "tt0047490": [
+    "self",
+    4
+   ],
+   "tt0047562": [
+    "self",
+    4
+   ],
+   "tt0047919": [
+    "self",
+    4
+   ],
+   "tt0049843": [
+    "self",
+    2
+   ],
+   "tt0049537": [
+    "NEW1",
+    4
+   ],
+   "tspdt:sudden-rain-1956": [
+    "NEW1",
+    4
+   ],
+   "tt0050544": [
+    "NEW1",
+    2
+   ],
+   "tt0050171": [
+    "self",
+    4
+   ],
+   "tt0050839": [
+    "self",
+    2
+   ],
+   "tt0052296": [
+    "self",
+    4
+   ],
+   "tspdt:iwashigumo-1958": [
+    "self",
+    2
+   ],
+   "tspdt:anzukko-1958": [
+    "NEW1",
+    4
+   ],
+   "tspdt:the-approach-of-autumn-1960": [
+    "self",
+    2
+   ],
+   "tspdt:drifting-1962": [
+    "NEW1",
+    4
+   ],
+   "tt0058349": [
+    "NEW1",
+    4
+   ],
+   "tspdt:my-love-1964": [
+    "NEW1",
+    3
+   ],
+   "tt0061971": [
+    "NEW1",
+    4
+   ]
+  },
+  "moves": []
  }
 }
