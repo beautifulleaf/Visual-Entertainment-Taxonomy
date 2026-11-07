@@ -304,9 +304,9 @@ L("K11-7", ("Mound Builder earthworks", ["N:Mississippian / mound builders"]))
 
 # ---------------- K12 Oceania & vernacular ----------------
 L("K12-5", ("Marae", ["I:marae"]), ("Rapa Nui ahu", ["N:Rapa Nui (ahu / moai)"]), ("Tongan langi and trilithon", ["N:Tongan megalithic (langi / trilithon)"]))
-L("K12-6", ("Saudeleur megalithic sites", ["N:Nan Madol (Saudeleur megalithic)"]))
+L("K12-6", ("Saudeleur megalithic sites", ["N:Nan Madol (Saudeleur megalithic)"]), black=["Leluh"])
 L("K12-7", ("Churches of Chiloé", ["W:Chilotan architecture"]))
-L("K12-8", ("British vernacular buildings", ["W:Cotswold architecture"]))
+L("K12-8", ("British vernacular buildings", ["W:Cotswold architecture"], country("United Kingdom")))
 L("K12-9", ("Fachwerk houses in Germany", ["W:timber-framed house", "W:Fachwerkarchitektur", "W:half-timbering", "W:timber framing"], country("Germany")))
 L("K12-11", ("Vainakh towers", ["W:Ingush architecture"]))
 L("K12-14", ("I-houses", ["W:I-house"]), ("Gablefront houses", ["W:gablefront house"]), ("Shotgun houses", ["W:shotgun house"]), ("Dogtrot, single-pen and hall-and-parlor houses", ["W:dogtrot house", "W:Single pen and double pen architecture", "W:hall and parlor house"]),

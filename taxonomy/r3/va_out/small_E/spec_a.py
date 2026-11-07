@@ -196,7 +196,7 @@ S("E1-37", pat=[r"mycenae|helladic"], kw="Mycenaean", prof=GRK, met=["Mycenaean"
         ("Close Style", "Sub-types", "densely decorated LH IIIC ware of the Argolid", "Mycenaean pottery", 0),
         ("Warrior Vase", "W", "LH IIIC krater with a file of soldiers, c. 1200 BC; National Archaeological Museum, Athens", "Warrior Vase", 0)],
   ov={"Mycenaean": "alias"})
-S("E1-38", pat=[r"sigillata|samian|arretine|arezzo|graufesenque|lezoux|rheinzabern|red slip"], excl=r"east greek|archaic", kw="terra sigillata", prof="europe",
+S("E1-38", pat=[r"sigillata|samian ware|arretine|arezzo|graufesenque|lezoux|rheinzabern"], excl=r"east greek|archaic|maya|mexic|peru|india", kw="terra sigillata", prof="europe",
   rows=[("Arretine ware", "Centres & workshops", "the first Italian sigillata, Arezzo, c. 30 BC–AD 30", "Arretine ware", 0),
         ("La Graufesenque", "Centres & workshops", "southern Gaulish production centre, 1st c. AD", "La Graufesenque", 0),
         ("Lezoux", "Centres & workshops", "central Gaulish production centre, 2nd c. AD", "Lezoux", 0),
@@ -209,7 +209,7 @@ S("E1-40", pat=[r"\bkerma\b"], node=r"Kerma culture", kw="Kerma", prof="americas
   rows=[("Black-topped red ware", "Sub-types", "polished red vessels with a black rim band from reduction firing", "Kerma culture", 0),
         ("Kerma", "Centres & workshops", "capital of the kingdom of Kerma in Upper Nubia, c. 2500–1500 BC", "Kerma", 0)],
   ov={"Kerma culture (Nubia)": "alias"})
-S("E1-41", pat=[r"meroitic|mero[eë]"], node=r"Napatan and Meroitic", kw="Meroitic", prof="americas_off",
+S("E1-41", pat=[r"meroitic|mero[eë]"], node=r"Napatan and Meroitic", mindate=-300, kw="Meroitic", prof="americas_off",
   rows=[("Meroë", "Centres & workshops", "royal city of Kush and source of its fine painted ware; UNESCO World Heritage Site", "Meroë", 0),
         ("Faras", "Centres & workshops", "Lower Nubian site whose cemeteries yielded much Meroitic painted pottery", "Faras", 0)],
   ov={"Napatan and Meroitic Kush": "alias"})

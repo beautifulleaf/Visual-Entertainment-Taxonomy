@@ -113,7 +113,7 @@ K['G1-19'] = dict(cats=[bm('Ethiopian cross'), met('Ethiopian cross'), ['https:/
 K['G1-20'] = dict(cats=[bm('Akan gold weight'), met('Akan goldweight'), ['https://www.penn.museum/collections/', 'Penn Museum collections', 'large holdings of Asante goldweights']],
   add=[('Geometric goldweights', SUB, 'abstract weights of the early period (c. 1400–1700)', 'Akan_goldweights', 0),
        ('Figurative goldweights', SUB, 'proverb weights of people, animals and objects (c. 1700–1900)', 'Akan_goldweights', 0),
-       ('Akan_goldweights', SUB, 'cast brass vessels for gold dust and shrine use', 'Akan_goldweights', 0),
+       ('Kuduo', SUB, 'cast brass vessels for gold dust and shrine use', 'Akan_goldweights', 0),
        ('Forowa', SUB, 'sheet-brass boxes for shea butter', 'Akan_goldweights', 0),
        ('Gold-dust boxes and spoons (sanaa)', SUB, 'equipment of the goldweighing kit', 'Akan_goldweights', 0)])
 K['G1-21'] = dict(cats=[['https://en.wikipedia.org/wiki/Igbo-Ukwu', 'Igbo-Ukwu (Wikipedia)', 'the three excavated sites and their finds'], bm('Igbo-Ukwu')],
@@ -364,7 +364,7 @@ K['G1-65'] = dict(cats=[['https://www.mhs.ox.ac.uk/epact/', 'Epact: Scientific I
 K['G1-66'] = dict(cats=[['https://en.wikipedia.org/wiki/Nachiarkoil_lamp', 'Nachiarkoil lamp (Wikipedia)', 'the GI-registered craft']],
   add=[('Kuthuvilakku', SUB, 'tall standing oil lamp with multiple wicks', 'Kuthuvilakku', 0),
        ('Annapakshi lamp', SUB, 'lamp crowned by a swan', 'Nachiarkoil_lamp', 0),
-       ('Nachiarkoil_lamp', CEN, 'village near Kumbakonam, Tamil Nadu', 'Nachiarkoil_lamp', 0)])
+       ('Nachiarkoil', CEN, 'village near Kumbakonam, Tamil Nadu', 'Nachiarkoil_lamp', 0)])
 K['G1-67'] = dict(cats=[['https://nationalcowboymuseum.org/', 'National Cowboy & Western Heritage Museum', 'Western silver and saddlery']],
   add=[('Trophy buckles', SUB, 'engraved silver rodeo prize buckles', 'Belt_buckle', 0),
        ('Spurs and bits', SUB, 'silver-overlaid horse gear', 'Spur', 0),
@@ -394,7 +394,7 @@ K['G2-3'] = dict(cats=[['https://colbase.nich.go.jp/', 'ColBase (National Instit
        ('Juzumaru Tsunetsugu', 'Tenka-Goken (five great swords)', 'tachi by Aoe Tsunetsugu, Kamakura; Important Cultural Property; Hontsu-ji, Amagasaki', 'Tenka-Goken', 0)])
 K['G2-4'] = dict(cats=[['https://colbase.nich.go.jp/', 'ColBase (National Institutes for Cultural Heritage, Japan)', 'sword fittings in the national museums'], met('tsuba'), bm('tsuba')],
   add=[('Tsuba', SUB, 'sword guard', 'Tsuba', 0), ('Menuki', SUB, 'hilt ornaments under the binding', 'Menuki', 0),
-       ('Tsuba', SUB, 'handle of the utility knife carried in the scabbard', 'Tsuba', 0),
+       ('Kozuka', SUB, 'handle of the utility knife carried in the scabbard', 'Tsuba', 0),
        ('Gotō school', SCH, 'shogunal fittings makers founded by Gotō Yūjō (1440–1512)', 'Tsuba', 0),
        ('Umetada school', SCH, 'Kyoto school of fittings and blades, Momoyama period', 'Tsuba', 0),
        ('Nara school', SCH, 'Edo machibori school of carved fittings', 'Tsuba', 0),
@@ -432,7 +432,7 @@ K['G2-11'] = dict(cats=[met('Gothic armor'), ARM[0], ['https://www.khm.at/en/vis
        ('Konrad Seusenhofer', MAK, 'Innsbruck court armourer, d. 1517', 'Konrad_Seusenhofer', 1)])
 K['G2-12'] = dict(cats=[['https://colbase.nich.go.jp/', 'ColBase (National Institutes for Cultural Heritage, Japan)', 'armour in the national museums'], ['https://bunka.nii.ac.jp/', 'Cultural Heritage Online (bunka.nii.ac.jp)', 'designated armours'], met('Japanese armor')],
   add=[('Ō-yoroi', SUB, 'great box-shaped armour of mounted archers, Heian–Kamakura', 'Ō-yoroi', 0), ('Dō-maru', SUB, 'wrap-around armour fastened at the side', 'Dō-maru', 0),
-       ('Japanese_armour', SUB, 'armour opening at the back', 'Japanese_armour', 0), ('Tōsei gusoku', SUB, 'plate armour of the Sengoku and Edo periods', 'Japanese_armour', 0),
+       ('Haramaki', SUB, 'armour opening at the back', 'Japanese_armour', 0), ('Tōsei gusoku', SUB, 'plate armour of the Sengoku and Edo periods', 'Japanese_armour', 0),
        ('Myōchin school', SCH, 'armourers’ school of iron helmets and masks', 'Japanese_armour', 0), ('Saotome school', SCH, 'Edo-period helmet makers', 'Japanese_armour', 0)])
 K['G3-1'] = dict(cats=[met('Fatimid gold'), vam('Fatimid'), ['https://www.davidmus.dk/en', 'The David Collection, Copenhagen', 'Islamic jewellery']],
   add=[('Filigree crescent earrings', SUB, 'hollow gold crescents of filigree and granulation', 'Fatimid_art', 0), ('Cairo', CEN, 'Fatimid capital (969–1171)', 'Cairo', 0)])
@@ -495,7 +495,7 @@ K['G3-20'] = dict(cats=[['https://www.fabergemuseum.ru/en', 'Fabergé Museum, St
 K['G3-21'] = dict(cats=[vam('hair jewellery'), met('hairwork')],
   add=[('Vamhus', CEN, 'Dalarna village whose women travelled Europe making hair jewellery', 'Vamhus', 0), ('Hair pictures', SUB, 'memorial pictures worked from hair', 'Mourning_jewelry', 0)])
 K['G3-22'] = dict(cats=[vam('temple jewellery'), ['https://en.wikipedia.org/wiki/Temple_Jewellery_of_Nagercoil', 'Temple Jewellery of Nagercoil (Wikipedia)', 'the GI-registered craft']],
-  add=[('Nagercoil', CEN, 'Kanyakumari town, main centre of temple jewellery', 'Nagercoil', 0), ('Temple_Jewellery_of_Nagercoil', SUB, 'bell-shaped earring', 'Temple_Jewellery_of_Nagercoil', 0), ('Vanki', SUB, 'V-shaped armlet', 'Temple_Jewellery_of_Nagercoil', 0)])
+  add=[('Nagercoil', CEN, 'Kanyakumari town, main centre of temple jewellery', 'Nagercoil', 0), ('Jhumka', SUB, 'bell-shaped earring', 'Temple_Jewellery_of_Nagercoil', 0), ('Vanki', SUB, 'V-shaped armlet', 'Temple_Jewellery_of_Nagercoil', 0)])
 K['G3-23'] = dict(cats=[vam('thewa')],
   add=[('Pratapgarh', CEN, 'Rajasthan town, home of thewa', 'Pratapgarh,_Rajasthan', 0), ('Raj Soni family', MAK, 'hereditary Pratapgarh thewa makers since the 18th c.', 'Thewa', 1)])
 K['G3-24'] = dict(cats=[vam('Cuttack filigree')], add=[('Cuttack', CEN, 'Odisha city of silver filigree', 'Cuttack', 0), ('Durga Puja mekhas', SUB, 'filigree backdrops for Durga Puja images', 'Tarakasi', 0)])
@@ -576,3 +576,8 @@ OV = {
  'G3-20': {'Imperial Easter eggs': (SUB, 'the 50 eggs made for Alexander III and Nicholas II, 1885–1916'), 'Fabergé egg': ('DROP', 'duplicate of Imperial Easter eggs')},
  'G3-21': {'Mourning jewellery': (SUB, None)},
 }
+
+K['G3-7'] = dict(cats=[['https://www.emuseum.go.kr/', 'e-Museum (National Museums of Korea)', 'collections of Korea’s national museums']],
+  add=[('Eunjangdo', SUB, 'silver ornamental knife worn on the hanbok', 'Eunjangdo', 0), ('Paedo', SUB, 'knife hung from the belt or coat string', 'Eunjangdo', 0),
+       ('Gwangyang', CEN, 'South Jeolla city known for eunjangdo making', 'Gwangyang', 0)])
+K['G1-62']['add'].append(('Musée de la Coutellerie, Thiers', CEN, 'cutlery museum in the old town of Thiers', 'Thiers,_Puy-de-Dôme', 0))

@@ -52,7 +52,7 @@ def norm(r, src):
                 unesco_site=r["unesco_site"], tier=r["tier"], inception=r["inception"])
 
 def passes(b, t):
-    if NONLATIN.search(b["label"]) or re.fullmatch(r"Q\d+", b["label"]) or not b["label"].strip():
+    if NONLATIN.search(b["label"]) or re.fullmatch(r"Q\d+", b["label"]) or not b["label"].strip() or b["label"] == b["label"].lower():
         return False
     if t == 1:
         return b["sl"] >= 1 or b["her"]
@@ -149,9 +149,27 @@ def build(code, threshold=None):
 
 if __name__ == "__main__":
     res = {}
+    WDX = json.load(open(os.path.join(os.path.dirname(__file__), "wd_extra.json"))) if os.path.exists(os.path.join(os.path.dirname(__file__), "wd_extra.json")) else {}
     for code in S:
         r = build(code)
+        if code in WDX:
+            have = {b["qid"] for _, i in r["sections"] for b in i}
+            for lab, items in WDX[code]:
+                add = []
+                for x in items:
+                    if x["qid"] in have or not (x["sl"] >= 1 or x["her"]) or NONLATIN.search(x["label"]) or x["label"] == x["label"].lower() or re.fullmatch(r"Q\d+", x["label"]): continue
+                    have.add(x["qid"])
+                    add.append(dict(qid=x["qid"], label=x["label"], sl=x["sl"], unesco=x["unesco"], her=bool(x["her"]), herlabel=x["her"], place=x["place"] if x["place"] != x["country"] else "",
+                                    country=x["country"], continent="", region="", year=x["year"], typ="", cls="", unesco_site="", tier="unesco_site" if x["unesco"] else "", inception=""))
+                add.sort(key=lambda b: (b["year"] is None, b["year"] or 0, -b["sl"], b["label"]))
+                for k, (l2, i2) in enumerate(r["sections"]):
+                    if l2 == lab:
+                        r["sections"][k] = (l2, i2 + add); break
+                else:
+                    if add: r["sections"].append((lab, add))
+                r["total"] = sum(len(i) for _, i in r["sections"]); r.setdefault("wd", True)
+                if r["t"] is None: r["t"] = 1
         res[code] = r
         print(code, "t=", r["t"], "total", r["total"], "|", "; ".join(f"{l} {len(i)}" for l, i in r["sections"])[:400])
-    json.dump({c: dict(t=r["t"], total=r["total"], sections=[(l, [dict(qid=b["qid"], label=b["label"], gloss=gloss(b), year=b["year"], sl=b["sl"], country=b["country"]) for b in i]) for l, i in r["sections"]]) for c, r in res.items()},
+    json.dump({c: dict(t=r["t"], total=r["total"], wd=bool(r.get("wd")), sections=[(l, [dict(qid=b["qid"], label=b["label"], gloss=gloss(b), year=b["year"], sl=b["sl"], country=b["country"]) for b in i]) for l, i in r["sections"]]) for c, r in res.items()},
               open(os.path.join(os.path.dirname(__file__), "catalog.json"), "w"), ensure_ascii=False, indent=0)

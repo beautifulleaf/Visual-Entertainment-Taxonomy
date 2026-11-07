@@ -53,7 +53,7 @@ MACHINE = re.compile(r"(movement |other movements|country group|P1066|P106\b|now
                      r"Gathered rows|makers_\d|canonical|wiki:|\bQ\d{3,}|named maker|named illuminator|pilot leaf|seeded|blind test|"
                      r"in evidence|alias list|\brow\b|rows\b|routed |pool sample|sample manuscript|\(\d+\)$|school art-name|dup of|"
                      r"Possession|^\s*uncertain\s*$|see-also|their L\d|kind under|kinds under|\bL\d+\b|\bT\d{2,3}\b|\b[A-M]\d+-\d+\b|"
-                     r"label not attested|mis-linked|noise|cleaned name|role unclear|islamic_world|evidence)", re.I)
+                     r"label not attested|mis-linked|noise|cleaned name|role unclear|islamic_world|evidence|Wikidata|\bP\d+\b|belongs to|if built|artist-led|route |gathered|L\d\b)", re.I)
 
 
 def norm_ctry(s):

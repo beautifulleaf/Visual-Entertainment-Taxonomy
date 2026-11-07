@@ -24,3 +24,4 @@ To do at assembly:
 - Assembly: merge same-label new leaves (Orientalism ×2, Franco-Belgian comics ×2, possibly Gutai, Feminist art, Mir iskusstva, Vienna Secession, Young Poland, Nagybánya); dedupe makers placed in two leaves (Krøyer, Nikolai Ge, Vasnetsov, Halonen ...): keep the named-school leaf over a residual bucket.
 - Check judgement calls: Saliger and Padua in Nazi art; Epstein in Modern Sculpture (not Vorticism); Buren in BMPT section.
 - Done VA: small_L (Art in Place: 3,010 kinds, 2,424 rule-based sites; 31 leaves still ≤ 4 kinds, ~20 leaves from knowledge only; some sources are Wikipedia search URLs — replace in the link check).
+- Done: small_K (Architecture: 13,766 kinds), FT coverage television (6 new leaves, 238 adds; News leaf dropped at assembly — news out of scope). Owner's call noted: sitcom eras (British sitcom eras, US network-era sitcoms) not sectioned, since that would re-sort the comedy leaves.

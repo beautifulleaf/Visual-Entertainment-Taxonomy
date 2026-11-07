@@ -1,0 +1,256 @@
+@F1-1
+axis: sub-types first, then centres, then titled works (rule below), then Collections
+cat: https://www.cmog.org/collection | Corning Museum of Glass collection | the world's largest glass collection
+cat: https://collections.vam.ac.uk/search/?q=Beykoz | V&A collection search: Beykoz | Beykoz glass in London
++ Sub-types | Çeşm-i bülbül | 'nightingale's eye' glass with spiral white and coloured threads | Çeşm-i_bülbül | 0
++ Sub-types | Beykoz opaline and gilded glass | milk-glass and gilded wares, 19th century | Beykoz_ware | 0
++ Centres & workshops | Beykoz | Bosphorus district of the Ottoman glass and porcelain works | Beykoz | 0
++ Centres & workshops | Paşabahçe | Istanbul glassworks founded 1934, heir to the tradition | Paşabahçe | 0
+
+@F1-2
+axis: centres first, then makers, then titled works (rule below), then Collections
+cat: https://ich.unesco.org/en/USL/traditional-glassblowing-in-syria-01994 | UNESCO intangible heritage: traditional glassblowing in Syria | urgent safeguarding list (2023)
+= Mordecai | Makers | Hebron glassmaker named in records (attribution uncertain) | islamic_makers
++ Centres & workshops | Damascus | Old City workshops of free-blown blue and green glass | Damascus | 0
++ Centres & workshops | Hebron | glassblowing centre of the West Bank | Hebron | 0
++ Centres & workshops | Al-Hamwi family workshop, Damascus | last family glassblowing workshop of Damascus | Damascus | 0
+
+@F1-3
+axis: sub-types first, then centres and regional groups, then makers, then named works, then titled works (rule below), then Collections
+cat: https://www.cmog.org/collection | Corning Museum of Glass collection | Roman glass at Corning
+cat: https://www.britishmuseum.org/collection/search?keyword=Roman%20glass | British Museum collection search: Roman glass | Roman glass in London
+cat: https://www.metmuseum.org/art/collection/search?q=Roman%20glass | Met collection search: Roman glass | Roman glass in New York
+= Roman, Syrian | Centres & workshops | Syro-Palestinian coast workshops, home of glassblowing | met/aic
+= Roman, Egyptian | Centres & workshops | Alexandrian and Egyptian workshops | met/aic
+= Roman, Eastern Mediterranean | Centres & workshops | eastern Mediterranean workshops | met/aic
+= Roman, Syro-Palestinian | Centres & workshops | Syro-Palestinian workshops | met/aic
+= Rhenish glass | Centres & workshops | Rhineland glass of Cologne, 2nd–4th century | evidence
+- Europeans | Smithsonian culture label for glass beads, not a kind of Roman glass
++ Sub-types | Mould-blown glass | vessels blown into decorated moulds (Ennion) | Roman_glass | 0
++ Sub-types | Cameo glass | cased glass carved through the white layer | Cameo_glass | 0
++ Sub-types | Cage cups (diatreta) | openwork vessels undercut from thick blanks | Cage_cup | 0
++ Sub-types | Gold-glass | gold leaf sandwiched in glass, catacomb medallions | Gold_glass | 0
++ Makers | Ennion | 1st-c. AD Sidonian glassblower who signed mould-blown cups | Ennion | 1
++ Named works | Portland Vase | c. AD 1–25, cameo glass; British Museum, London | Portland_Vase | 0
++ Named works | Lycurgus Cup | 4th c., dichroic cage cup; British Museum, London | Lycurgus_Cup | 0
++ Named works | Auldjo Jug | 1st c., cameo glass; British Museum, London | Auldjo_Jug | 0
+
+@F1-4
+axis: sub-types first, then titled works (rule below), then Collections
+cat: https://www.cmog.org/collection | Corning Museum of Glass collection | pre-Roman glass at Corning
+cat: https://www.metmuseum.org/art/collection/search?q=core-formed%20glass | Met collection search: core-formed glass | core-formed vessels in New York
+- Greek, Eastern Mediterranean | museum culture label restating the leaf
+= Phoenician glass | Sub-types | Phoenician core-formed and bead glass | evidence
++ Sub-types | Core-formed vessels | alabastra, amphoriskoi and oinochoai formed on a core | Core-formed_glass | 0
++ Sub-types | Mosaic glass | fused canes of coloured glass, Hellenistic bowls | Mosaic_glass | 0
++ Sub-types | Cast and cut bowls | Hellenistic colourless and gold-band bowls | Hellenistic_glass | 0
++ Sub-types | Gold-band glass | onyx-like layered glass with gold leaf | Hellenistic_glass | 0
+
+@F1-5
+axis: sub-types (techniques) first, then centres and firms, then makers by date, then named works, then titled works (rule below), then Collections
+cat: https://www.cmog.org/collection | Corning Museum of Glass collection | Venetian glass at Corning
+cat: https://museovetro.visitmuve.it/en/home/ | Museo del Vetro, Murano | the Murano glass museum
+cat: https://collections.vam.ac.uk/search/?q=Venetian%20glass | V&A collection search: Venetian glass | Venetian glass in London
+- Italian, Murano | museum culture label restating the leaf
++ Sub-types | Cristallo | clear soda glass devised by Angelo Barovier | Cristallo | 0
++ Sub-types | Filigrana (latticino) | glass with embedded white cane threads | Filigree_glass | 0
++ Sub-types | Ice glass | crackled surface glass | Venetian_glass | 0
++ Sub-types | Murrine | mosaic cane glass | Murrine | 0
++ Sub-types | Façon de Venise | Venetian-style glass made outside Venice | Façon_de_Venise | 0
++ Centres & workshops | Murano | Venetian island of the glassmakers since 1291 | Murano | 0
++ Centres & workshops | Venini | Murano firm founded 1921 | Venini | 0
++ Centres & workshops | Barovier & Toso | Murano firm of the Barovier family | Barovier_&_Toso | 0
++ Makers | Angelo Barovier | c. 1405–1460, inventor of cristallo | Angelo_Barovier | 1
++ Makers | Carlo Scarpa | 1906–1978, designer for Venini | Carlo_Scarpa | 1
++ Makers | Napoleone Martinuzzi | 1892–1977, designer for Venini | Napoleone_Martinuzzi | 1
++ Named works | Barovier Wedding Cup | c. 1470–80; Museo del Vetro, Murano | Angelo_Barovier | 0
+
+@F1-6
+axis: sub-types first, then centres, then titled works (rule below), then Collections
+cat: https://ich.unesco.org/en/RL/art-of-glass-beads-01591 | UNESCO intangible heritage: Art of glass beads | inscribed 2020 for Italy and France
+- The art of glass beads | museum label restating the leaf
+a Murano lampwork
++ Sub-types | Lampwork beads (perle a lume) | beads wound at the flame | Lampwork | 0
++ Sub-types | Drawn beads (conterie) | seed beads cut from drawn tube | Seed_bead | 0
++ Sub-types | Chevron beads (rosetta) | multi-layer star beads | Chevron_bead | 0
++ Sub-types | Trade beads | Venetian beads exported to Africa and the Americas | Trade_beads | 0
++ Centres & workshops | Murano | Venetian glassmaking island | Murano | 0
+
+@F1-7
+axis: sub-types first, then centres, then Collections
+- Handmade production of Christmas tree decorations from blown | museum label restating the leaf
++ Centres & workshops | Poniklá | Krkonoše village of the Rautis workshop | Poniklá | 0
++ Centres & workshops | Rautis | Poniklá firm making blown-bead decorations | Poniklá | 0
+
+@F1-8
+axis: centres first, then Collections
+- glassblowing craft skills in Līvāni | museum label restating the leaf
++ Centres & workshops | Līvāni Glass Factory | Latvian glassworks founded 1887 | Līvāni | 0
++ Centres & workshops | Latgale Crafts and Glass Centre, Līvāni | museum of Līvāni glass | Līvāni | 0
+
+@F1-9
+axis: makers and firms by school (École de Nancy, Bohemian and Austrian Art Nouveau glass, Paris), then titled works, then Collections
+cat: https://www.ecole-de-nancy.com/ | Musée de l'École de Nancy | the Nancy collection of Gallé and Daum
+cat: https://www.cmog.org/collection | Corning Museum of Glass collection | Art Nouveau glass at Corning
+= École de Nancy | École de Nancy | Nancy alliance of decorative artists founded by Gallé in 1901 | evidence
+= Émile Gallé | École de Nancy | 1846–1904, founder of the École de Nancy and master of cameo glass | evidence
+= Daum | École de Nancy | Nancy glassworks of the Daum brothers | evidence
+G École de Nancy | Antonin Daum; Auguste Daum; Henri Bergé; Charles Schneider
++ Bohemian and Austrian Art Nouveau glass | Loetz | Klostermühle glassworks of Johann Loetz Witwe, iridescent Phänomen glass | Loetz | 0
++ Bohemian and Austrian Art Nouveau glass | Max Ritter von Spaun | 1856–1909, owner of Loetz | Loetz | 1
++ École de Nancy | Muller Frères | Lunéville glassworks of the Muller brothers | Muller_Frères | 0
++ Paris | René Lalique | 1860–1945, jeweller and glassmaker | René_Lalique | 1
++ Paris | Eugène Rousseau | 1827–1890, pioneer of art glass | Eugène_Rousseau | 1
+
+@F1-10
+axis: artists by school: American Studio Glass (Toledo and Wisconsin founders), Pilchuck and the Pacific Northwest, Czech glass sculpture, European studio glass, Australia and Japan
+cat: https://www.cmog.org/collection | Corning Museum of Glass collection | contemporary glass at Corning
+cat: https://www.pilchuck.org/ | Pilchuck Glass School | the school founded by Chihuly and others in 1971
+= Toledo Workshops (1962) | American Studio Glass (Toledo and Wisconsin founders) | Littleton and Labino's 1962 workshops at the Toledo Museum of Art | evidence
+= Harvey Littleton | American Studio Glass (Toledo and Wisconsin founders) | 1922–2013, founder of the Studio Glass movement | evidence
+= Pilchuck Glass School | Pilchuck and the Pacific Northwest | school near Stanwood, Washington, founded 1971 | evidence
+= Czech glass sculpture | Czech glass sculpture | cast glass sculpture of Libenský and Brychtová | evidence
+= Lino Tagliapietra | European studio glass | b. 1934, Murano master who taught at Pilchuck | evidence
+a American Studio Glass movement
+G American Studio Glass (Toledo and Wisconsin founders) | Marvin Lipofsky; Dan Dailey; Howard Ben Tré; Toots Zynsky; Josiah McElheny; Karen LaMonte
+G Pilchuck and the Pacific Northwest | William Morris; Ginny Ruffner; Richard Marquis; Preston Singletary
+G Czech glass sculpture | Stanislav Libenský; Jaroslava Brychtová
+G European studio glass | Erwin Eisch; Ann Wolff; Bertil Vallien; Silvia Levenson
+G Australia and Japan | Klaus Moje; Kyohei Fujita
++ American Studio Glass (Toledo and Wisconsin founders) | Dominick Labino | 1910–1987, glass chemist of the Toledo workshops | Dominick_Labino | 1
++ Pilchuck and the Pacific Northwest | Dale Chihuly | b. 1941, co-founder of Pilchuck | Dale_Chihuly | 1
+
+@F1-11
+axis: centres first, then Collections
+= Turkish mosaic lamp making | Sub-types | mosaic-glass lamp globes · Possession: Turkish mosaic lamp (B3) | possession https://kraftstories.com/blogs/turkish-mosaic-lamps
++ Centres & workshops | Grand Bazaar, Istanbul | market of the mosaic lamp workshops | Grand_Bazaar,_Istanbul | 0
++ Centres & workshops | Cappadocia | region of mosaic lamp workshops | Cappadocia | 0
+
+@F1-12
+axis: glassworks (centres) first, then designers by date, then Collections
+= Swedish art glass | Sub-types | Småland art glass · Possession: Vase (B4) | possession https://theglassmuseum.com/orrefors.htm
++ Centres & workshops | Orrefors | Småland glassworks founded 1898 | Orrefors | 0
++ Centres & workshops | Kosta Glasbruk | Småland glassworks founded 1742 | Kosta_Glasbruk | 0
++ Centres & workshops | The Glass Factory, Boda | museum of Swedish glass | Boda_glasbruk | 0
++ Makers | Simon Gate | 1883–1945, Orrefors designer of Graal glass | Simon_Gate | 1
++ Makers | Edward Hald | 1883–1980, Orrefors designer | Edward_Hald | 1
++ Makers | Vicke Lindstrand | 1904–1983, Orrefors and Kosta designer | Vicke_Lindstrand | 1
++ Makers | Edvin Öhrström | 1906–1994, inventor of Ariel glass | Edvin_Öhrström | 1
++ Makers | Ingeborg Lundin | 1921–1992, Orrefors designer of the Apple vase | Ingeborg_Lundin | 1
+
+@F1-13
+axis: centres and makers first, then Collections
+= Lauscha glass ornaments | Sub-types | blown glass baubles · Possession: Tree ornament (B4) | possession https://en.wikipedia.org/wiki/Christmas_ornament
++ Sub-types | Glass Christmas baubles | silvered blown ornaments, from 1847 | Christmas_ornament | 0
++ Sub-types | Glass eyes | doll and prosthetic glass eyes, a Lauscha speciality | Lauscha | 0
++ Centres & workshops | Lauscha | Thuringian glass town | Lauscha | 0
++ Centres & workshops | Museum für Glaskunst Lauscha | Lauscha glass museum | Lauscha | 0
+
+@F1-14
+axis: sub-types first, then titled works (rule below), then Collections
+= Edo fūrin | Sub-types | inside-painted glass wind bells · Possession: Fūrin (B4) | possession https://edo-fuurin.com/en/about
+= Japanese glass pen | Sub-types | lampworked glass dip pens, Tokyo 1902 | possession
++ Sub-types | Bīdoro and poppen | early Edo blown glass and the poppen toy | Japanese_glass | 0
+
+@F1-15
+axis: centres first, then makers, then Collections
+= Vatican micromosaic | Centres & workshops | the Vatican Mosaic Studio · Possession: Micromosaic (F2) | possession https://en.wikipedia.org/wiki/Micromosaic
++ Centres & workshops | Studio del Mosaico Vaticano | Vatican Mosaic Studio, founded 1727 | Vatican_Mosaic_Studio | 0
++ Makers | Giacomo Raffaelli | 1753–1836, pioneer of micromosaic | Giacomo_Raffaelli | 1
++ Makers | Michelangelo Barberi | 1787–1867, Roman micromosaicist | Micromosaic | 1
++ Sub-types | Micromosaic jewellery | brooches and plaques for the Grand Tour | Micromosaic | 0
+
+@F1-16
+axis: centres first, then titled works (rule below), then Collections
+= Egyptian hand-blown perfume glass | Sub-types | blown perfume bottles of the Khan el-Khalili trade · Possession: Attar bottle (H4) | possession https://egyptianimports.com/blogs/news/
++ Centres & workshops | Khan el-Khalili | Cairo bazaar of the perfume-bottle trade | Khan_el-Khalili | 0
++ Sub-types | Muski glass | recycled blown glass of Cairo | Muski_glass | 0
+
+@F2-1
+axis: sub-types first, then titled works (rule below), then Collections
+cat: https://www.cmog.org/collection | Corning Museum of Glass collection | Islamic cut glass at Corning
+cat: https://collections.vam.ac.uk/search/?q=cut%20glass%20Iran | V&A collection search: Islamic cut glass | cut glass in London
++ Sub-types | Facet-cut bowls | wheel-cut honeycomb bowls of Iran | Islamic_glass | 0
++ Sub-types | Relief-cut glass | glass cut back to leave raised designs | Islamic_glass | 0
++ Sub-types | Hedwig glasses | relief-cut beakers in European treasuries | Hedwig_glass | 0
++ Named works | Corning Ewer | 10th c., cameo glass; Corning Museum of Glass | Islamic_glass | 0
++ Named works | Hedwig glass (Rijksmuseum) | 12th c.; Rijksmuseum, Amsterdam | Hedwig_glass | 0
+
+@F2-2
+axis: sub-types first, then centres, then makers by date, then titled works (rule below), then Collections
+cat: https://www.cmog.org/collection | Corning Museum of Glass collection | Bohemian glass at Corning
+cat: https://www.upm.cz/en/ | Museum of Decorative Arts in Prague | the Czech national glass collection
+- Bohemian | museum culture label restating the leaf
++ Sub-types | Wheel-engraved crystal | potash-lime crystal engraved on the wheel | Bohemian_glass | 0
++ Sub-types | Hyalith and lithyalin | opaque coloured glasses of the 1820s | Hyalith | 0
++ Sub-types | Zwischengoldglas | double-walled gold-leaf glass | Zwischengoldglas | 0
++ Centres & workshops | Nový Bor (Haida) | glass town of northern Bohemia | Nový_Bor | 0
++ Centres & workshops | Moser | Karlovy Vary glassworks founded 1857 | Moser_(glass) | 0
++ Makers | Friedrich Egermann | 1777–1864, inventor of lithyalin | Friedrich_Egermann | 1
++ Makers | Dominik Biman | 1800–1857, glass engraver | Dominik_Biman | 1
+
+@F2-3
+axis: sub-types first, then makers, then titled works (rule below), then Collections
+= Edo kiriko | Sub-types | Tokyo cut glass · Possession: Tumbler (B5) | possession https://en.wikipedia.org/wiki/Edo_kiriko
++ Sub-types | Satsuma kiriko | thick-cased cut glass of Kagoshima | Satsuma_kiriko | 0
++ Makers | Kagaya Kyūbei | Edo glass merchant who began kiriko cutting in 1834 | Edo_kiriko | 1
+
+@F3-1
+axis: sub-types first, then titled works (rule below), then Collections
+cat: https://www.cmog.org/collection | Corning Museum of Glass collection | Mamluk glass at Corning
+cat: https://www.metmuseum.org/art/collection/search?q=Mamluk%20glass | Met collection search: Mamluk glass | enamelled glass in New York
++ Sub-types | Mosque lamps | enamelled lamps with Qur'anic light verse | Mosque_lamp | 0
++ Sub-types | Enamelled beakers | tall beakers with figures and inscriptions | Mamluk_glass | 0
++ Named works | Luck of Edenhall | 13th c.; V&A, London | Luck_of_Edenhall | 0
++ Named works | Mosque lamp of Sultan Hasan | 14th c.; Museum of Islamic Art, Cairo | Mosque-Madrasa_of_Sultan_Hassan | 0
+
+@F4-1
+axis: sub-types first, then titled works (rule below), then Collections
+cat: https://www.cmog.org/collection | Corning Museum of Glass collection | lustre-stained glass at Corning
++ Sub-types | Lustre-stained bowls and beakers | glass stained with silver and copper pigments | Lustre_(mineralogy) | 0
++ Centres & workshops | Fustat | Old Cairo, find-spot of lustre-painted glass | Fustat | 0
++ Named works | Lustre-painted bowl from Fustat (Corning) | 8th–9th c.; Corning Museum of Glass | Islamic_glass | 0
+
+@F5-1
+axis: phases first, then schools, then centres and workshops, then named windows, then Collections
+cat: https://www.cvma.ac.uk/ | Corpus Vitrearum Medii Aevi Great Britain | the British medieval stained glass corpus
+cat: https://corpusvitrearum.de/ | Corpus Vitrearum Deutschland | the German medieval stained glass corpus
+cat: https://www.metmuseum.org/art/collection/search?q=stained%20glass | Met collection search: stained glass | stained glass in New York (Cloisters)
+= Romanesque stained glass | Schools & phases | 12th-century windows (Augsburg Prophets, Saint-Denis) | evidence
+= Gothic stained glass | Schools & phases | 13th–15th-century Gothic windows | evidence
+= English Gothic stained glass | Schools & phases | English medieval windows | evidence
+= Ebreichsdorf glazing | Centres & workshops | Ebreichsdorf castle chapel glass (Cloisters) | evidence
+= Peter Hemmel von Andlau (Strassburger Werkstattgemeinschaft) | Centres & workshops | Strasbourg workshop cooperative, 1477–81 | evidence
++ Centres & workshops | Chartres Cathedral | 176 windows of the 12th–13th century (UNESCO) | Chartres_Cathedral | 0
++ Centres & workshops | Sainte-Chapelle | Paris chapel of 1248 | Sainte-Chapelle | 0
++ Centres & workshops | Canterbury Cathedral | 12th–13th-century windows | Canterbury_Cathedral | 0
++ Centres & workshops | York Minster | largest medieval glass in England | York_Minster | 0
++ Named works | Augsburg Cathedral prophet windows | c. 1100; Augsburg | Augsburg_Cathedral | 0
++ Named works | Great East Window, York Minster | 1405–08 (John Thornton) | Great_East_Window | 0
++ Makers | John Thornton | fl. 1405–33, glazier of the York Great East Window | John_Thornton_(glazier) | 1
+
+@F5-2
+axis: centres first, then designers and workshops, then Collections
+cat: https://www.cvma.ac.uk/ | Corpus Vitrearum Medii Aevi Great Britain | includes Netherlandish roundels in British collections
+cat: https://www.metmuseum.org/art/collection/search?q=roundel | Met collection search: roundel | roundels in New York
+= South Netherlandish roundels | Centres & workshops | Antwerp and Leuven roundel production | evidence
+= Circle of the Master of the Amsterdam Cabinet | Centres & workshops | designer group for roundels | evidence
++ Makers | Dirk Vellert | c. 1480–1547, Antwerp roundel designer | Dirk_Vellert | 1
++ Makers | Pieter Coecke van Aelst | 1502–1550, designer of roundel series | Pieter_Coecke_van_Aelst | 1
+
+@F5-3
+axis: studios and sub-types first, then designers and makers, then named works, then Collections
+cat: https://www.morsemuseum.org/ | Charles Hosmer Morse Museum of American Art | the largest Tiffany collection
+cat: https://www.metmuseum.org/art/collection/search?q=Tiffany%20Studios | Met collection search: Tiffany Studios | Tiffany glass in New York
+= Tiffany Studios (Tiffany Glass and Decorating Company) | Centres & workshops | New York studios of Louis Comfort Tiffany, 1878–1933 | evidence
+= Favrile glass | Sub-types | iridescent blown art glass patented 1894 | evidence
+= John La Farge | Makers | 1835–1910, inventor of opalescent window glass | evidence
+= Francis Lathrop | Makers | 1849–1909, window designer | evidence
+= Alice Cordelia Morse | Makers | 1863–1961, Tiffany designer | evidence
+= Agnes Northrop | Makers | 1857–1953, Tiffany landscape window designer | evidence
+= Clara Driscoll | Makers | 1861–1944, head of the Women's Glass Cutting Department, Dragonfly lamp | evidence
+= Louis Comfort Tiffany | Makers | 1848–1933, founder of Tiffany Studios | artists
+a Tiffany-style leaded glass
++ Sub-types | Tiffany lamps | leaded-glass shade lamps | Tiffany_lamp | 0
++ Named works | Dream Garden | 1916 mosaic (Tiffany after Maxfield Parrish); Curtis Center, Philadelphia | Dream_Garden | 0
++ Named works | Tiffany Chapel | 1893 chapel; Morse Museum, Winter Park | Tiffany_Chapel | 0

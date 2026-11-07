@@ -1,0 +1,35 @@
+{
+ "A15-4": {
+  "axis": "named exploitation cycle",
+  "secs": [
+   "Sex-Hygiene Roadshow Film",
+   "Nudie-Cuties & Roughies",
+   "Russ Meyer",
+   "Nunsploitation",
+   "Naziploitation",
+   "Women-in-Prison Film"
+  ],
+  "assign": {
+   "tt0040603": 1,
+   "tt0059170": 3,
+   "tt0065466": 3,
+   "tt0068522": 4,
+   "tt0076112": 6
+  }
+ },
+ "A15-3": {
+  "axis": "school / national tradition",
+  "secs": [
+   "Emmanuelle & French Softcore",
+   "European Erotic Auteurs (Franco, Borowczyk, Metzger)",
+   "American Softcore"
+  ],
+  "assign": {
+   "tt0064789": 2,
+   "tt0066380": 2,
+   "tt0071359": 2,
+   "tt0072752": 2,
+   "tt0109593": 3
+  }
+ }
+}

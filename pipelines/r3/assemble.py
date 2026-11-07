@@ -172,6 +172,65 @@ def remap_text(s, leafmap):
     return re.sub(r"\b[ABCDEG]\d{1,2}(?:-\d{1,3})?\b", sub, s)
 
 
+DROP_COVERAGE_LEAVES = {"news & current affairs"}  # news is not entertainment (B16 decision)
+
+
+def apply_coverage(subs, rows, cc, report):
+    """Apply taxonomy/r3/coverage_out/<part>/: new leaves, new sections, re-sectioning, moves, adds."""
+    leafobj = {l["code"]: l for s in subs.values() for l in s["leaves"]}
+    where = {}
+    for lf, rs in rows.items():
+        for k in rs: where[k[5]] = lf
+    stats = collections.Counter()
+    for d in sorted(glob.glob(os.path.join(R3, "coverage_out", "*"))):
+        part = os.path.basename(d); key2code = {}
+        f = os.path.join(d, "new_leaves.json")
+        for nl in (json.load(open(f)) if os.path.exists(f) else []):
+            if nl["label"].strip().lower() in DROP_COVERAGE_LEAVES:
+                key2code[nl["key"]] = None; stats["dropped_leaf"] += 1; continue
+            s = subs.get(nl["sub"])
+            if not s: report.setdefault("cov_bad_sub", []).append([part, nl["sub"]]); continue
+            n = max(int(l["code"].split("-")[1]) for l in s["leaves"]) + 1 if s["leaves"] else 1
+            code = f"{nl['sub']}-{n}"
+            L = dict(code=code, label=nl["label"], breadth=nl.get("breadth", "medium"), defn=nl["defn"], aliases=nl.get("aliases", ""),
+                     see=nl.get("see", ""), src=nl.get("src", []), weak="", secs=list(nl.get("secs") or []), axis=nl.get("axis", ""))
+            s["leaves"].append(L); leafobj[code] = L; key2code[nl["key"]] = code; stats["new_leaf"] += 1
+        def tgt(t): return key2code.get(t, t) if t in key2code else t
+        def secidx(code, sec):
+            L = leafobj[code]; sec = (sec or "").strip()
+            if not sec: return ""
+            if sec.isdigit(): return sec
+            L.setdefault("secs", [])
+            if sec not in L["secs"]: L["secs"].append(sec)
+            return str(L["secs"].index(sec) + 1)
+        f = os.path.join(d, "new_sections.csv")
+        for r in (csv.DictReader(open(f)) if os.path.exists(f) else []):
+            if r["leaf"] in leafobj: secidx(r["leaf"], r["label"]); stats["new_section"] += 1
+        f = os.path.join(d, "resections.json")
+        for code, v in (json.load(open(f)).items() if os.path.exists(f) else []):
+            if code not in leafobj: continue
+            leafobj[code]["secs"] = v["secs"]; leafobj[code]["axis"] = v.get("axis", leafobj[code].get("axis", ""))
+            for k in rows.get(code, []): k[8] = str(v["assign"].get(k[5], k[8] if k[8] and int(k[8]) <= len(v["secs"]) else ""))
+            stats["resectioned"] += 1
+        f = os.path.join(d, "moves.csv")
+        for r in (csv.DictReader(open(f)) if os.path.exists(f) else []):
+            to = tgt(r["to"]); frm = where.get(r["id"])
+            if not to or to not in leafobj or not frm: stats["move_skipped"] += 1; continue
+            k = next(x for x in rows[frm] if x[5] == r["id"]); rows[frm].remove(k)
+            k[8] = secidx(to, r.get("sec")); k[4] = (r.get("note") or k[4]).strip()
+            rows[to].append(k); where[r["id"]] = to; stats["moved"] += 1
+        f = os.path.join(d, "adds.csv")
+        for i, r in enumerate(csv.DictReader(open(f)) if os.path.exists(f) else [], 1):
+            to = tgt(r["to"])
+            if not to or to not in leafobj: stats["add_skipped"] += 1; continue
+            idv = r["id"].strip() or f"r3:{part}-{i}"
+            if idv in where: stats["add_dup"] += 1; continue
+            rows[to].append([r["title"], r["year"], r.get("who", ""), "", r.get("note", "").strip(), idv, "", r.get("kind", "film"),
+                             secidx(to, r.get("sec")), cc(idv, r.get("who", ""), r.get("kind", "film"))])
+            where[idv] = to; stats["added"] += 1
+    report["coverage"] = dict(stats)
+
+
 def build_ft(src, tree, partial, report):
     blocks = json.load(open(os.path.join(R3, "ft_blocks.json")))
     ins = {}; outs = {}
@@ -235,6 +294,7 @@ def build_ft(src, tree, partial, report):
         rows[lf].append([r["title"], r["year"], r["who"], "", (a.get("note") or "routed").strip(), r["id"], r["movement_tag"], r["kind"], "", cc(r["id"], r["who"], r["kind"])])
         old2new[r["old_leaf"]][lf] += 1
     report["ft_routed"] = len(routed); report["ft_web_override"] = len(web_extra)
+    apply_coverage(subs, rows, cc, report)
     if web_extra:
         with open(os.path.join(R3, "web_series_removed.csv"), "a", newline="") as fo:
             w = csv.DictWriter(fo, fieldnames=["id", "title", "year", "who", "old_leaf", "reason"])

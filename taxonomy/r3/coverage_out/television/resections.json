@@ -1,0 +1,93 @@
+{
+ "B1-1": {
+  "axis": "era of the prestige-TV cycle",
+  "secs": [
+   "Third Golden Age: Cable Prestige (1999–2012)",
+   "Peak TV & Streaming Era (2013–)"
+  ],
+  "assign": {
+   "tt0248654": 1,
+   "tt0421030": 1,
+   "tt0804503": 1,
+   "tt2183404": 2,
+   "tt2699128": 2,
+   "tt4270492": 2,
+   "tt9612102": 2
+  }
+ },
+ "B15-1": {
+  "axis": "era",
+  "secs": [
+   "Golden Age Variety (1948–1960)",
+   "Network Variety Hours (1961–1979)",
+   "Post-Network & International Variety (1980–)"
+  ],
+  "assign": {
+   "tt0040053": 1,
+   "tt0043224": 1,
+   "tt0048899": 1,
+   "tt0054522": 2,
+   "tt0056748": 2,
+   "tt0065294": 2,
+   "Q666799": 3,
+   "tt0090515": 3,
+   "tt12060448": 3,
+   "tt0103363": 3,
+   "tt0202741": 3,
+   "tt0461622": 3,
+   "tt8425308": 3,
+   "tt9663964": 3
+  }
+ },
+ "B14-8": {
+  "axis": "subject taught",
+  "secs": [
+   "Cooking Shows",
+   "Art, Craft & Hobby Instruction",
+   "Know-How, Science & Collecting"
+  ],
+  "assign": {
+   "Q3052933": 3,
+   "tt0383795": 2,
+   "tt0313033": 2,
+   "tt0344651": 1,
+   "Q486844": 3,
+   "tt8772088": 1,
+   "tt8773080": 2,
+   "tt10359446": 1
+  }
+ },
+ "B14-7": {
+  "axis": "premise",
+  "secs": [
+   "Motoring & Road-Trip Shows",
+   "Comic & Celebrity Travel Shows",
+   "Survival & Wilderness Shows"
+  ],
+  "assign": {
+   "tt1628033": 1,
+   "tt0389701": 2,
+   "tt1248967": 1,
+   "tt9620768": 3,
+   "tt3816666": 3,
+   "tt5020352": 2,
+   "tt5712554": 1,
+   "tt9170584": 2,
+   "tt27790101": 2
+  }
+ },
+ "B14-6": {
+  "axis": "premise",
+  "secs": [
+   "Ghost-Hunting Investigations",
+   "Mediums & Psychics",
+   "Cryptid & Monster Hunts"
+  ],
+  "assign": {
+   "tt0426697": 1,
+   "tt0785036": 1,
+   "tt5435072": 1,
+   "tt10589968": 3
+  }
+ }
+}

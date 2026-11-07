@@ -1,0 +1,112 @@
+[
+ {
+  "key": "NEW_A1_FREE",
+  "sub": "A1",
+  "label": "Free Cinema",
+  "breadth": "movement",
+  "defn": "The British documentary movement of 1956–1959 (Lindsay Anderson, Karel Reisz, Tony Richardson, Lorenza Mazzetti) whose six National Film Theatre programmes showed unscripted, personal films of working-class leisure and labour (<i>O Dreamland</i>, <i>Every Day Except Christmas</i>). Its directors went on to the British New Wave (A1-10).",
+  "aliases": "",
+  "see": "A1-10 British New Wave",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Free_Cinema",
+    "Wikipedia"
+   ]
+  ]
+ },
+ {
+  "key": "NEW_A1_UKRPOET",
+  "sub": "A1",
+  "label": "Ukrainian Poetic Cinema",
+  "breadth": "movement",
+  "defn": "The Kyiv (Dovzhenko Studio) school of the mid-1960s to late 1970s — Parajanov, Ilyenko, Osyka, Ivchenko, Mykolaichuk — making folkloric, painterly, ritual-saturated films of Ukrainian village and legend (<i>Shadows of Forgotten Ancestors</i>, <i>The White Bird Marked with Black</i>).",
+  "aliases": "Ukrainian poetic school",
+  "see": "A1-3 Soviet Montage",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Ukrainian_poetic_cinema",
+    "Wikipedia"
+   ]
+  ]
+ },
+ {
+  "key": "NEW_A1_KORNW",
+  "sub": "A1",
+  "label": "Korean New Wave",
+  "breadth": "movement",
+  "defn": "The South Korean art cinema of c. 1987–1996 (Park Kwang-su, Jang Sun-woo, Lee Myung-se, Park Jong-won) that, after democratisation, turned realist and modernist means on division, labour and the Gwangju massacre (<i>Chilsu and Mansu</i>, <i>A Petal</i>, <i>A Single Spark</i>); it precedes the commercial Korean Wave of the 2000s.",
+  "aliases": "",
+  "see": "A3-10 Revenge Thriller (Korean Revenge Thriller)",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Cinema_of_South_Korea",
+    "Wikipedia"
+   ]
+  ]
+ },
+ {
+  "key": "NEW_A1_THAINW",
+  "sub": "A1",
+  "label": "Thai New Wave",
+  "breadth": "movement",
+  "defn": "The revival of Thai cinema from 1997 by directors from advertising and music video — Pen-Ek Ratanaruang, Nonzee Nimibutr, Wisit Sasanatieng, the Pang brothers — mixing pastiche, colour stylisation and genre (<i>Tears of the Black Tiger</i>, <i>6ixtynin9</i>, <i>Monrak Transistor</i>).",
+  "aliases": "",
+  "see": "A4-12 Thai Horror",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Cinema_of_Thailand#The_Thai_New_Wave",
+    "Wikipedia"
+   ]
+  ]
+ },
+ {
+  "key": "NEW_A1_NCM",
+  "sub": "A1",
+  "label": "Nuevo Cine Mexicano",
+  "breadth": "movement",
+  "defn": "The 1990s–2000s renewal of Mexican cinema (Arturo Ripstein's late films, María Novaro, Jorge Fons, Alfonso Cuarón, Alejandro González Iñárritu, Antonio Serrano) after the IMCINE reforms: urban, frank, internationally co-produced films (<i>Danzón</i>, <i>Midaq Alley</i>, <i>Y tu mamá también</i>).",
+  "aliases": "New Mexican Cinema",
+  "see": "",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Nuevo_Cine_Mexicano",
+    "Wikipedia"
+   ]
+  ]
+ },
+ {
+  "key": "NEW_A1_TRANSG",
+  "sub": "A1",
+  "label": "Cinema of Transgression",
+  "breadth": "movement",
+  "defn": "Nick Zedd's 1985 name for the New York Lower East Side Super-8 underground (Zedd, Richard Kern, Lydia Lunch, Tessa Hughes-Freeland) of deliberately shocking, punk, sexually and violently taboo films (<i>Fingered</i>, <i>They Eat Scum</i>).",
+  "aliases": "",
+  "see": "A1-22 No Wave Cinema; A20-2 Underground Film",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Cinema_of_Transgression",
+    "Wikipedia"
+   ]
+  ]
+ },
+ {
+  "key": "NEW_A15_CAT3",
+  "sub": "A15",
+  "label": "Hong Kong Category III Film",
+  "breadth": "cycle",
+  "defn": "A Hong Kong film of the adults-only Category III rating cycle (1988 onward, peaking in the early 1990s): sex-and-violence exploitation, erotic costume romps (<i>Sex and Zen</i>) and lurid true-crime shockers (<i>The Untold Story</i>, <i>Ebola Syndrome</i>). Defined by the named Hong Kong cycle rather than one plot type.",
+  "aliases": "Cat III; Category III",
+  "see": "A4 Horror; A7-10 Hong Kong Action Cinema",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Category_III_film",
+    "Wikipedia"
+   ]
+  ],
+  "axis": "strand of the cycle",
+  "secs": [
+   "Erotic Category III",
+   "True-Crime & Shock Category III"
+  ]
+ }
+]

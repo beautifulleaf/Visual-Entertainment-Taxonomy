@@ -105,6 +105,21 @@ def otype(t):
         if re.search(rx, t, re.I): return g
     return "Other titled objects"
 
+CITY = {"The Metropolitan Museum of Art": "New York", "Metropolitan Museum of Art": "New York", "Victoria and Albert Museum": "London", "British Museum": "London",
+ "The British Museum": "London", "Cleveland Museum of Art": "Cleveland", "Art Institute of Chicago": "Chicago", "Cooper Hewitt, Smithsonian Design Museum": "New York",
+ "Rijksmuseum": "Amsterdam", "Tropenmuseum": "Amsterdam", "Museum Volkenkunde": "Leiden", "Wereldmuseum Rotterdam": "Rotterdam", "Afrika Museum": "Berg en Dal",
+ "Tokyo National Museum": "Tokyo", "Kyoto National Museum": "Kyoto", "Nara National Museum": "Nara", "Kyushu National Museum": "Dazaifu",
+ "National Palace Museum, Taipei": "", "National Museum of the American Indian": "Washington", "National Museum of American History": "Washington",
+ "National Museum of Natural History": "Washington", "National Museum of African Art": "Washington", "National Museum of Asian Art": "Washington",
+ "Smithsonian American Art Museum": "Washington", "Los Angeles County Museum of Art": "Los Angeles", "Brooklyn Museum": "New York",
+ "Museum of Fine Arts, Boston": "Boston", "Harvard Art Museums": "Cambridge, Mass.", "Yale University Art Gallery": "New Haven",
+ "Philadelphia Museum of Art": "Philadelphia", "Minneapolis Institute of Art": "Minneapolis", "National Gallery of Art": "Washington",
+ "Walters Art Museum": "Baltimore", "Princeton University Art Museum": "Princeton", "Museum of New Zealand Te Papa Tongarewa": "Wellington",
+ "Musée du quai Branly": "Paris", "Statens museum for Kunst": "Copenhagen", "Nationalmuseum": "Stockholm", "Finnish Heritage Agency": "Helsinki"}
+def where(ins):
+    c = CITY.get(ins, "")
+    return ins + (", " + c if c and c not in ins else "")
+
 def yr(d):
     m = re.search(r"-?\d{3,4}", str(d))
     return int(m.group()) if m else None
@@ -218,10 +233,10 @@ for l in INP:
     for t, d, ins, u, y in works:
         ds = str(d) if d and y != 99999 else ""
         nm = "%s (%s)" % (t, ds) if ds else t
-        kinds.append([nm, otype(t), ("%s%s" % (ins, ", " + ds if ds else ""))[:140], "r3 " + u, 0]); REPORT["works"] += 1
+        kinds.append([nm, otype(t), ("%s%s" % (where(ins), ", " + ds if ds else ""))[:140], "r3 " + u, 0]); REPORT["works"] += 1
     coll = [(n, c) for c, n in inst.most_common() if n >= 10] or [(n, c) for c, n in inst.most_common(8)]
     for n, c in coll:
-        kinds.append([c, "Collections", "%d objects in the gathered records" % n, "r3 " + firsturl[c], 0]); REPORT["collections"] += 1
+        kinds.append([c, "Collections", "%s — %d objects in the gathered records" % (where(c), n), "r3 " + firsturl[c], 0]); REPORT["collections"] += 1
     # order groups
     def gk(r):
         g = r[1]

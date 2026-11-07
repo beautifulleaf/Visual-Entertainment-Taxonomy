@@ -6,6 +6,7 @@ sys.path.insert(0, HERE)
 from spec_lib import SPEC
 import spec_a, spec_b, spec_c  # noqa
 from insts import INST
+from wikifix import FIX
 
 CAP = 50
 inp = json.load(open(os.path.join(ROOT, "taxonomy/r3/va_in/small_E.json")))["leaves"]
@@ -35,9 +36,9 @@ def prep(r):
     return (r, node, ct + " | " + r[1])
 def match(spec, x):
     r, node, text = x
-    if spec["src"] and r[0] not in spec["src"]: return False
+    if spec["src"] and r[0] not in spec["src"] and not (r[0] == "smithsonian" and "smithsonian_chndm" in spec["src"] and r[4].startswith("Cooper")): return False
     ok = False
-    if spec["node"] and node and re.search(spec["node"], node, re.I): ok = True
+    if spec["node"] and node and re.search(spec["node"], node, re.I) and (spec.get("mindate") is None or (r[3] is not None and r[3] >= spec["mindate"])): ok = True
     if not ok:
         for alt in spec["pat"]:
             alts = (alt,) if isinstance(alt, str) else alt
@@ -75,7 +76,7 @@ def descriptive(t, extra):
     rest = [x for x in toks if x not in GEN and x not in extra and len(x) > 2 and not x.isdigit()]
     return len(rest) >= 1
 
-TYPES = [("Tiles and architectural ceramics", r"\btiles?\b|panel|revetment|mihrab|frieze|plaque|brick|eave|finial|ridge|stove|kachel|изразец|изразц|mosque|palace|pyramid"),
+TYPES = [("Tiles and architectural ceramics", r"\btiles?\b|\bpanel|revetment|mihrab|frieze|plaque|\bbrick|\beaves?\b|finial|stove|kachel|изразец|изразц|mosque|palace|pyramid"),
          ("Dishes and plates", r"\bdish|plate|platter|charger|saucer|tray|basin|\bsara\b|блюд|тарел"),
          ("Bowls and cups", r"\bbowl|\bcup|beaker|goblet|chalice|tea ?bowl|chawan|kylix|skyphos|kantharos|mug|tankard|чаш|кружк|стакан|cups\b|wan\b"),
          ("Jars, vases and bottles", r"\bjar|vase|bottle|flask|amphora|krater|hydria|pithos|urn|albarello|pot\b|tsubo|stamnos|pelike|lekythos|aryballos|olpe|pyxis|alabastron|pilgrim|кувшин|горш|ваз|бутыл|корчаг|крынк"),
@@ -83,8 +84,9 @@ TYPES = [("Tiles and architectural ceramics", r"\btiles?\b|panel|revetment|mihra
          ("Figures and models", r"figure|figurine|statuette|sculpture|effigy|model|toy|whistle|head\b|lion|horse|bull|dog|camel|guardian|dogū|haniwa|vessel in the form|игрушк|фигур|свистул"),
          ]
 WORK_GROUPS = [t[0] for t in TYPES] + ["Other works"]
+TORDER = [TYPES[i] for i in (4, 2, 1, 3, 5, 0)]
 def wtype(name):
-    for g, p in TYPES:
+    for g, p in TORDER:
         if re.search(p, name, re.I): return g
     return "Other works"
 
@@ -140,7 +142,9 @@ def inst_info(name):
 
 def fmt_date(r):
     dt = (r[7] or "").strip()
-    if dt and not CJK.search(dt) and len(dt) < 50: return dt
+    if dt and not CJK.search(dt) and len(dt) < 50:
+        if r[0] == "east_asia" and re.fullmatch(r"[A-Z][a-zōū\-]+( to [A-Z][a-zōū\-]+)?", dt): dt += " period"
+        return dt
     if r[3] is None: return ""
     y = r[3]
     return f"c. {-y} BC" if y < 0 else f"c. {y}"
@@ -178,6 +182,9 @@ for l in inp:
         kinds.append([nn, ng, gl, s2, mk2])
     for (nn, ng, gl, w, mk) in sp["rows"]:
         if nn in seen: continue
+        if w in FIX:
+            if FIX[w] is None: report.append(f"DROPPED UNVERIFIED {code} {nn}"); continue
+            w = FIX[w]
         seen.add(nn)
         kinds.append([nn, wtype(nn) if ng == "W" else ng, gl, wurl(w), mk])
     # gathered objects
@@ -191,6 +198,7 @@ for l in inp:
     cands, tseen = [], set()
     for r in sorted(ms, key=lambda r: (r[3] is None, r[3] if r[3] is not None else 0, r[1])):
         t = clean_title(r[1])
+        if r[0] == "world_extra" and r[4] != "Rijksmuseum": continue     # NMVW records carry Dutch-only titles
         if not descriptive(t, extra): continue
         if t.lower() in tseen or t in seen: continue
         tseen.add(t.lower()); cands.append((t, r))
@@ -218,7 +226,7 @@ for l in inp:
             url = next((r[5] for r in ms if inst_info(r[4])[0] == en), None)
             report.append(f"NO INST URL {en}")
         note = " (incl. Met culture-label counts)" if en == "The Metropolitan Museum of Art" and metn else ""
-        gl = (city + " — " if city else "") + f"{n} objects in the gathered records{note}"
+        gl = (city + " — " if city else "") + f"{n} object{'s' if n != 1 else ''} in the gathered records{note}"
         if url: kinds.append([en, "Collections", gl, "r3 " + url, 0])
     # order
     kinds.sort(key=lambda k: ORDER.index(k[1]) if k[1] in ORDER else 2.5)

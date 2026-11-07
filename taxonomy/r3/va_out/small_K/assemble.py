@@ -62,10 +62,16 @@ def clean_poss(g, src):
     m = re.search(r"\s*·\s*(https?://\S+)", g)
     if m: url = m.group(1); g = g.replace(m.group(0), "")
     m = re.search(r"owned as (.+?) \(Possession (\w+)\)", g)
-    if m: g = re.sub(r"\s*·?\s*owned as .+? \(Possession \w+\)", "", g).strip(" ·") + f" · Possession: {m.group(1)} ({m.group(2)})"
+    trailer = ""
+    if m:
+        trailer = f" · Possession: {m.group(1)} ({m.group(2)})"
+        g = re.sub(r"\s*·?\s*owned as .+? \(Possession \w+\)", "", g).strip(" ·")
     g = g.strip(" ·")
+    room = 140 - len(trailer)
+    if len(g) > room:
+        g = g[:room - 1].rsplit(" ", 1)[0].rstrip(",;") + "…"
     if url and "http" not in src: src = f"{src} {url}"
-    return g[:140], src
+    return (g + trailer).strip(" ·"), src
 
 def is_maker(r): return bool(r[4]) or r[1] in ("Architects", "Makers", "Artists", "makers")
 SUBGROUPS = ("Sub-styles", "Sub-types", "Centres & workshops")
@@ -106,6 +112,8 @@ for l in inp:
         if r[3].startswith("architecture") and r[0].lower() in (l["label"].lower(), l["label"].lower().replace(" architecture", "")):
             if r[0] not in aliases: aliases.append(r[0])
             continue
+        if r[0] == "Ethiopian Islamic (Harar)":
+            out["dropped"].append([code, r[0], "not Sudano-Sahelian: Harar's buildings are Ethiopian Islamic architecture, so they are not listed here"]); continue
         out["dropped"].append([code, r[0], "style or bucket label of the gathered data, duplicated by a named sub-style row or by the catalogue sections"])
     # catalogue sections
     cat = CAT.get(code, {"sections": []})
@@ -117,7 +125,10 @@ for l in inp:
             nm = b["label"]
             if nm.lower() in names_present: continue
             if seen_lab[nm] > 1: nm = f"{nm} ({b['country']})" if b["country"] else nm
-            works.append([nm, lab, b["gloss"], f"r3 https://www.wikidata.org/wiki/{b['qid']}", 0])
+            gl = b["gloss"]
+            if not code.startswith(("K3", "K4")):
+                gl = re.sub(r", ([1-9]|1\d|2[01])(?= ·|$)", lambda m: f", {m.group(1)}{'st' if m.group(1) in ('1','21') else 'nd' if m.group(1)=='2' else 'rd' if m.group(1)=='3' else 'th'} century", gl)
+            works.append([nm, lab, gl, f"r3 https://www.wikidata.org/wiki/{b['qid']}", 0])
     # knowledge rows that fall into a catalogue-section name go right after that section; others after all sections
     order = {"Sub-styles": 0, "Sub-types": 1, "Centres & workshops": 2}
     sub.sort(key=lambda r: order[r[1]])

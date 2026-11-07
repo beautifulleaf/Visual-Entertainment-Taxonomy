@@ -35,7 +35,7 @@ S("E1-65", pat=[r"casas grandes|paquim[eé]|ramos polychrome"], excl=r"mata orti
         ("Paquimé", "Centres & workshops", "the Medio-period town in Chihuahua; UNESCO World Heritage Site", "Paquimé", 0)],
   ov={"probably Casas Grandes Tradition (archaeological culture) (attributed)": "alias"})
 S("E1-66", pat=[r"\bpueblo\b|\bzuni\b|a:shiwi|\bkewa\b|santo domingo|\btaos\b|\bjemez\b|\blaguna\b|\bzia\b|\bisleta\b|tesuque|cochiti|ohkay|pojoaque|nambe|picuris|hawikku|san felipe"], node=r"Pueblo pottery",
-  excl=r"ancestral|anasazi|acoma|\bhopi|ildefonso|santa clara|k.apovi|mimbres|mogollon|hohokam|basketmaker|casas grandes", kw="Pueblo pottery", prof=AM,
+  excl=r"ancestral|anasazi|acoma|\bhopi|ildefonso|santa clara|k.apovi|mimbres|mogollon|hohokam|basketmaker|casas grandes|(?<!new )mexico|guatemala|peru|classic period|maya|spain|spanish", src=("smithsonian", "americas_oceania", "world_folk", "gap_sweep"), kw="Pueblo pottery", prof=AM,
   rows=[("Cochiti Pueblo", "Centres & workshops", "Keresan pueblo, home of the storyteller figure", "Cochiti Pueblo, New Mexico", 0),
         ("Storyteller figures", "Sub-types", "seated clay figures covered with children, Cochiti, from 1964", "Helen Cordero", 0),
         ("Helen Cordero", "Makers", "Cochiti potter who created the storyteller figure, 1915–1994", "Helen Cordero", 1)],

@@ -34,8 +34,7 @@ add("K1-9", ("Azari style", SS, "Pirnia's Azari style of Persian architecture, I
 add("K1-10", ("Shaybanid and khanate architecture", SS, "Post-Timurid Central Asia (Bukhara, Khiva, Kokand), 16th–19th century, continuing the Timurid idiom", "Central Asian — Shaybanid / khanates (Bukhara, Khiva, Kokand)"),
      ("Samarkand", CE, "Timur's capital: Registan, Gur-e-Amir, Bibi-Khanym Mosque, Shah-i-Zinda · UNESCO", W + "Samarkand"),
      ("Herat", CE, "Timurid capital under Shah Rukh: Musalla complex and Gawhar Shad mausoleum", W + "Herat"))
-add("K1-11", ("Isfahani style", SS, "Pirnia's Isfahani style of Persian architecture, Safavid to Qajar period", "Isfahani style"),
-     ("Naqsh-e Jahan Square", CE, "Safavid royal square, Isfahan, 1598–1629: Shah Mosque, Sheikh Lotfollah, Ali Qapu · UNESCO", W + "Naqsh-e_Jahan_Square"))
+add("K1-11", ("Naqsh-e Jahan Square", CE, "Safavid royal square, Isfahan, 1598–1629: Shah Mosque, Sheikh Lotfollah, Ali Qapu · UNESCO", W + "Naqsh-e_Jahan_Square"))
 add("K1-12", ("Early Ottoman architecture", SS, "Bursa and Edirne phase, 1299–1453: Green Mosque, Bursa; Üç Şerefeli Mosque", "early Ottoman architecture"),
      ("Classical Ottoman architecture", SS, "Domed mosques of Sinan and his school, c. 1500–1700: Süleymaniye, Selimiye", "classical Ottoman architecture"),
      ("Ottoman Baroque", SS, "18th-century Istanbul style with Baroque curves: Nuruosmaniye Mosque", "Ottoman Baroque"),
@@ -512,8 +511,7 @@ add("K12-15",
 add("K12-16", ("Ballenberg", CE, "Swiss Open-Air Museum of rural buildings, Brienz, Bern", W + "Ballenberg"))
 add("K12-17", ("Longère", ST, "Long, narrow single-storey longhouse of farmers and artisans, Brittany and Normandy", "Longère"),
      ("Borie", ST, "Dry-stone hut of Provence (Village des Bories, Gordes)", W + "Borie"))
-add("K12-18", ("Oia, Greece", CE, "Cave and whitewashed houses of Santorini", W + "Oia,_Greece"),
-     ("Panagia Paraportiani", "Cycladic buildings", "Whitewashed church complex, Mykonos, 15th–17th century", W + "Church_of_Panagia_Paraportiani"))
+add("K12-18", ("Oia, Greece", CE, "Cave and whitewashed houses of Santorini", W + "Oia,_Greece"))
 add("K12-19", ("George Washington House (Barbados)", CE, "18th-century plantation house in Bridgetown, setting of chattel-house villages", W + "George_Washington_House_(Barbados)"))
 add("K12-20", ("Miegunyah", "Queenslanders", "Queenslander house, Bowen Hills, Brisbane, 1886; museum", W + "Miegunyah"),
      ("Newstead House", "Queenslanders", "Oldest surviving residence in Brisbane, 1846; verandahed house museum", W + "Newstead_House,_Brisbane"))
@@ -609,3 +607,50 @@ add("K14-4", ("Ikenobō", "Schools", "Oldest school, Rokkaku-dō, Kyoto, from th
      ("Moribana", ST, "Piled-up style in a shallow container", W + "Ikebana"),
      ("Nageire", ST, "Thrown-in style in a tall vase", W + "Ikebana"),
      ("Sōfū Teshigahara", "Makers", "Founder of the Sōgetsu school (1900–1979)", W + "S%C5%8Df%C5%AB_Teshigahara"))
+
+# second round (titles verified against enwiki sitelinks on Wikidata)
+add("K1-11", ("Isfahani style", SS, "Pirnia's Isfahani style of Persian architecture, Safavid to Qajar period", W + "Isfahani_style"))
+add("K7-19", ("Srinagar", CE, "Capital of Kashmir; houseboats moored on Dal and Nigeen lakes and the Jhelum", W + "Srinagar"),
+     ("Jhelum River", CE, "River through Srinagar lined with older doonga and houseboat moorings", W + "Jhelum_River"))
+add("K7-20", ("Guwahati", CE, "Assam's chief city, with surviving Assam-type houses", W + "Guwahati"))
+add("K8-3", ("Liangjiahe", CE, "Yaodong village, Yanchuan County, Shaanxi, where Xi Jinping lived 1969–75", W + "Liangjiahe"),
+    ("Sanmenxia", CE, "Henan city of sunken-courtyard (dikengyuan) yaodong villages", W + "Sanmenxia"))
+add("K8-9", ("Shikumen Open House Museum", "Shikumen neighbourhoods and buildings", "Furnished 1920s shikumen house museum, Xintiandi, Shanghai", W + "Shikumen_Open_House_Museum"))
+add("K9-10", ("Siwaluh Jabu", ST, "Karo Batak longhouse for eight families", W + "Siwaluh_Jabu"))
+add("K9-11", ("Torogan", ST, "Maranao royal house on stilts, Lanao, related Filipino stilt-house tradition", W + "Torogan"))
+add("K9-13", ("Shophouse", ST, "Two-storey shop-house with five-foot way, the basic Sino-Portuguese building", W + "Shophouse"),
+     ("George Town, Penang", CE, "Straits port with Sino-Portuguese shophouses · UNESCO (Melaka and George Town)", W + "George_Town,_Penang"),
+     ("Malacca City", CE, "Straits port with Peranakan shophouses · UNESCO (Melaka and George Town)", W + "Malacca_City"),
+     ("Phuket Old Town", CE, "Sino-Portuguese shophouses of Thalang and Dibuk roads, Phuket, Thailand", W + "Phuket_Old_Town"),
+     ("Cheong Fatt Tze Mansion", "Sino-Portuguese buildings", "Blue Mansion, courtyard house of a Hakka magnate, George Town, Penang, 1904", W + "Cheong_Fatt_Tze_Mansion"),
+     ("Baba House", "Sino-Portuguese buildings", "Peranakan terrace house of the 1890s, Neil Road, Singapore; museum", W + "Baba_House"))
+add("K9-14", ("Istana Jahar", "Malay houses and palaces", "Timber-and-brick royal palace, Kota Bharu, Kelantan, 1887; museum", W + "Istana_Jahar"),
+     ("Kampung Morten", CE, "Malay village of traditional timber houses, Malacca City", W + "Kampung_Morten"))
+add("K10-7", ("Ancient Kano City Walls", "Hausa palaces and mosques", "Earthen city walls and gates of Kano, Nigeria, from the 11th century", W + "Ancient_Kano_City_Walls"),
+     ("Kurmi Market", "Hausa palaces and mosques", "Market of Kano, Nigeria, founded in the 15th century", W + "Kurmi_Market"))
+add("K12-2", ("Samoa", CE, "Islands where the fale is still the main village building", W + "Samoa"),
+     ("Falekaupule", ST, "Tuvaluan meeting house, the counterpart of the fale fono", W + "Falekaupule"))
+add("K12-3", ("Tarawa", CE, "Kiribati atoll and capital, with village and parliament maneaba", W + "Tarawa"),
+     ("Falekaupule", ST, "Tuvaluan meeting house, the Polynesian counterpart of the maneaba", W + "Falekaupule"))
+add("K12-4", ("Abelam people", SS, "Abelam style: Sepik people who build painted tambaran houses with towering gables, Maprik area", W + "Abelam_people"),
+     ("Iatmul people", SS, "Iatmul style: middle Sepik people whose men's houses (ngego) are carved spirit houses", W + "Iatmul_people"))
+add("K12-6", ("Pohnpei", CE, "Island of the Saudeleur state, Nan Madol on its eastern reef", W + "Pohnpei"),
+     ("Saudeleur dynasty", SS, "Centralised dynasty of Pohnpei, c. 1100–1628, builders of Nan Madol", W + "Saudeleur_dynasty"))
+add("K12-10", ("Architecture of Albania", SS, "Albanian architecture, incl. the stone kulla tower houses", W + "Architecture_of_Albania"),
+     ("Junik", CE, "Kosovo village with a dense group of kulla tower houses", W + "Junik"),
+     ("Deçan", CE, "Kosovo town with kulla houses of the Dukagjini plain", W + "Deçan"),
+     ("Gjakova", CE, "Kosovo town with kulla houses and an Ottoman bazaar", W + "Gjakova"))
+add("K12-11", ("Ingush towers", SS, "Battle and residential towers of Ingushetia", W + "Ingush_towers"),
+     ("Khamkhi", "Vainakh towers", "Tower village, Dzheyrakhsky District, Ingushetia", W + "Khamkhi"),
+     ("Targim", "Vainakh towers", "Tower settlement, Dzheyrakhsky District, Ingushetia", W + "Targim"),
+     ("Itum-Kale", CE, "Chechen mountain district of medieval tower settlements", W + "Itum-Kale"))
+add("K12-16", ("Chalet", ST, "Alpine timber house with low pitched roof and broad eaves", W + "Chalet"),
+     ("Bernese Oberland", CE, "Region of large timbered farmhouses (Frutighaus, Simmental house)", W + "Bernese_Oberland"),
+     ("Appenzell", CE, "Region of Appenzell houses with joined house and barn", W + "Appenzell"))
+add("K12-17", ("Colombage", ST, "French timber framing (half-timbering), Normandy, Alsace, Champagne", W + "Colombage"),
+     ("Village des Bories", CE, "Restored dry-stone hamlet, Gordes, Vaucluse", W + "Village_des_Bories"),
+     ("Écomusée d'Alsace", CE, "Open-air museum of Alsatian timber-framed houses, Ungersheim", W + "%C3%89comus%C3%A9e_d%27Alsace"))
+add("K12-19", ("Barbados", CE, "Island of the chattel house, built on rented plantation land after emancipation", W + "Barbados"))
+add("K14-3", ("Saikei", ST, "Japanese planted tray landscape, kin to hòn non bộ", W + "Saikei"))
+add("K12-5", ("Rapa Nui ahu", SS, "Stone platforms carrying moai, Easter Island, c. 1250–1600 · UNESCO (Rapa Nui)", "Rapa Nui (ahu / moai)"),
+     ("Tongan langi and trilithon", SS, "Royal terraced tombs (langi) and the Haʻamonga trilithon, Tongatapu", "Tongan megalithic (langi / trilithon)"))

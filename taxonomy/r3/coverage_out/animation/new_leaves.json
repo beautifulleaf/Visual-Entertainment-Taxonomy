@@ -1,0 +1,93 @@
+[
+ {
+  "key": "NEW1",
+  "sub": "C12",
+  "label": "Animated Documentary",
+  "breadth": "genre",
+  "defn": "A non-fiction film told wholly or chiefly through animation: reconstructed memory, testimony or reportage drawn, painted or modelled instead of filmed (<i>Waltz with Bashir</i>, <i>Flee</i>, <i>Ryan</i>, <i>The Sinking of the Lusitania</i>). Live-action documentaries with animated inserts stay in A19.",
+  "aliases": "animadoc; animated non-fiction",
+  "see": "A19",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Animated_documentary",
+    "Wikipedia"
+   ]
+  ]
+ },
+ {
+  "key": "NEW2",
+  "sub": "C7",
+  "label": "Spokon (Sports-Guts Anime)",
+  "breadth": "cycle",
+  "defn": "The Shōwa-era <i>supōtsu konjō</i> ('sports guts') cycle launched by Ikki Kajiwara's <i>Kyojin no Hoshi</i>: a sports series of brutal training, self-sacrifice and fighting spirit, chiefly 1968–1980s (<i>Kyojin no Hoshi</i>, <i>Attack No.1</i>, <i>Ashita no Joe</i>, <i>Ace wo Nerae!</i>, <i>Tiger Mask</i>). Later sports anime go to their sport (C7).",
+  "aliases": "supokon; sports konjō",
+  "see": "C7-1; C7-6",
+  "src": [
+   [
+    "https://www.wikidata.org/wiki/Q2281511",
+    "Wikidata"
+   ],
+   [
+    "https://it.wikipedia.org/wiki/Spokon",
+    "Wikipedia (it)"
+   ],
+   [
+    "https://en.wikipedia.org/wiki/Sports_anime_and_manga",
+    "Wikipedia"
+   ]
+  ]
+ },
+ {
+  "key": "NEW3",
+  "sub": "C10",
+  "label": "Gender-Bender Anime",
+  "breadth": "genre",
+  "defn": "A comedy or romance whose engine is a character's change or concealment of sex: magical sex change and body transformation, or crossdressing (josō) passing (<i>Ranma ½</i>, <i>Stop!! Hibari-kun!</i>, <i>Kämpfer</i>, <i>Princess Princess</i>, <i>Oniichan wa Oshimai!</i>). Serious drama of gender identity goes to C8-7; body-swap romance to C5.",
+  "aliases": "seitenkan; josō; MAL 'Crossdressing', 'Magical Sex Shift'",
+  "see": "C10-8; C8-7",
+  "axis": "device",
+  "secs": [
+   "Sex-Change & Transformation Comedies",
+   "Crossdressing (Josō) Comedies"
+  ],
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Gender_bender",
+    "Wikipedia"
+   ],
+   [
+    "https://myanimelist.net/anime/genre/81/Magical_Sex_Shift",
+    "MyAnimeList"
+   ],
+   [
+    "https://myanimelist.net/anime/genre/44/Crossdressing",
+    "MyAnimeList"
+   ]
+  ]
+ },
+ {
+  "key": "NEW4",
+  "sub": "C14",
+  "label": "Soviet Animation",
+  "breadth": "national tradition",
+  "defn": "The state-studio animation of the USSR, above all Soyuzmultfilm (Moscow) with Kievnauchfilm, Uzbekfilm and Ekran: fairy-tale features and shorts, satirical and modernist art shorts and the children's classics of its 'Golden Collection' (<i>The Snow Queen</i>, <i>Film, Film, Film</i>, <i>Winnie-the-Pooh</i>, <i>Hedgehog in the Fog</i>, <i>Three from Prostokvashino</i>). Soviet TV serials go to C13-14; Estonian and post-Soviet auteur shorts to C14-5.",
+  "aliases": "Soyuzmultfilm; multfilm",
+  "see": "C13-14; C14-5",
+  "axis": "era",
+  "secs": [
+   "Socialist-Realist Fairy Tales (1936–1960)",
+   "The Aesthetic Switch (1961–1968)",
+   "Golden Collection Classics (1969–1991)"
+  ],
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/History_of_Russian_animation",
+    "Wikipedia"
+   ],
+   [
+    "https://en.wikipedia.org/wiki/Soyuzmultfilm",
+    "Wikipedia"
+   ]
+  ]
+ }
+]

@@ -11,7 +11,7 @@ for r in A:
 for r in csv.DictReader(open(os.path.join(ROOT, "data/interim/architecture_styles.csv"))):
     STYLEQ.setdefault(r["label"], r["qid"])
 BAD = set()
-p = os.path.join(HERE, "checklists.out")
+p = os.path.join(HERE, "checklists.out")  # optional: list of missing Wikipedia titles
 if os.path.exists(p):
     for line in open(p):
         if line.startswith("MISSING"): BAD = set(eval(line[len("MISSING "):]))
@@ -49,17 +49,17 @@ PARKS = ["https://www.parksandgardens.org/", "Parks & Gardens UK", "database of 
 WHL = ["https://whc.unesco.org/en/list/", "UNESCO World Heritage List", "all inscribed World Heritage properties"]
 
 ISL = [ARCHNET, IAH, DIA]
-IND = [ASI, wp("List of Monuments of National Importance in India", "every centrally protected monument of India, by state")]
+IND = [ASI, wp("Monuments of National Importance", "India's centrally protected monuments, with state-by-state lists")]
 JAP = [JPDB, JPCH]
-CHN = [wp("Major Historical and Cultural Site Protected at the National Level", "China's national list of protected monuments, by batch and province")]
+CHN = []
 USA = [NRHP, SAH]
 
 EXTRA = {
- "K1-1": [unesco("Umayyad")], "K1-2": [unesco("Samarra")], "K1-3": [unesco("Historic Cairo", "Historic Cairo, the Fatimid city")],
+ "K1-1": [unesco("Umayyad")], "K1-2": [unesco("Samarra")], "K1-3": [wp("Islamic Cairo", "the historic Islamic city of Cairo, with its Fatimid and Mamluk monuments · UNESCO"), wp("List of mosques in Cairo", "every historic mosque of Cairo by period")],
  "K1-4": [unesco("Alhambra", "Alhambra, Generalife and Albayzín, Granada"), unesco("Medina")], "K1-5": [unesco("Mudejar", "Mudéjar Architecture of Aragon")],
- "K1-6": [unesco("Seljuk")], "K1-7": [unesco("Seljuk")], "K1-8": [unesco("Historic Cairo", "Historic Cairo, the Mamluk city")],
+ "K1-6": [unesco("Seljuk")], "K1-7": [unesco("Seljuk")], "K1-8": [wp("Islamic Cairo", "the historic Islamic city of Cairo, with its Mamluk monuments · UNESCO"), wp("List of mosques in Cairo", "every historic mosque of Cairo by period")],
  "K1-9": [unesco("Soltaniyeh")], "K1-10": [unesco("Samarkand"), unesco("Bukhara")], "K1-11": [unesco("Isfahan")],
- "K1-12": [wp("List of mosques in Istanbul", "the mosques of Istanbul, Ottoman and later"), wp("List of works by Mimar Sinan", "every building attributed to Mimar Sinan"), unesco("Ottoman")],
+ "K1-12": [wp("List of mosques in Istanbul", "the mosques of Istanbul, Ottoman and later"), unesco("Ottoman")],
  "K1-13": [unesco("Golestan")], "K1-14": IND + [unesco("Qutb")], "K1-15": IND + [unesco("Mughal")],
  "K1-16": [unesco("Djenné"), unesco("Timbuktu")], "K1-17": [unesco("Kilwa"), unesco("Lamu")],
  "K1-18": CHN + [wp("List of mosques in China", "mosques of China by province")], "K1-19": [wp("List of mosques in Indonesia", "mosques of Indonesia")],
@@ -79,19 +79,19 @@ EXTRA = {
  "K5-17": [unesco("Potosí")], "K5-18": [unesco("Ouro Preto"), unesco("Salvador de Bahia")], "K5-19": USA, "K5-20": [RIJKS], "K5-21": [],
  "K6-1": [HE] + USA, "K6-2": USA, "K6-3": USA + [wp("List of Frank Lloyd Wright works", "every built and unbuilt work of Frank Lloyd Wright")], "K6-4": [ARCHINFORM],
  "K6-5": [ARCHINFORM], "K6-6": [ARCHINFORM], "K6-7": [wp("List of Art Deco architecture", "Art Deco buildings worldwide, by country"), ARCHINFORM],
- "K6-8": [wp("Bauhaus and its sites in Weimar, Dessau and Bernau", "the UNESCO Bauhaus sites"), DOCOMOMO, ARCHINFORM], "K6-9": [DOCOMOMO, ARCHINFORM, wp("White City (Tel Aviv)", "Tel Aviv's 4,000 International Style buildings · UNESCO")],
+ "K6-8": [wp("Bauhaus and its Sites in Weimar, Dessau and Bernau", "the UNESCO Bauhaus sites"), DOCOMOMO, ARCHINFORM], "K6-9": [DOCOMOMO, ARCHINFORM, wp("White City, Tel Aviv", "Tel Aviv's 4,000 International Style buildings · UNESCO")],
  "K6-10": [DOCOMOMO, ARCHINFORM], "K6-11": [ARCHINFORM], "K6-12": [RIJKS, ARCHINFORM], "K6-13": [ARCHINFORM], "K6-14": USA + [ARCHINFORM], "K6-16": [ARCHINFORM], "K6-17": [ARCHINFORM],
  "K6-18": [DOCOMOMO] + USA, "K6-19": [ARCHINFORM], "K6-20": [ARCHINFORM], "K6-23": [wp("List of brutalist structures", "Brutalist buildings worldwide, by country"), DOCOMOMO, ARCHINFORM], "K6-24": [ARCHINFORM], "K6-25": [ARCHINFORM],
  "K7-1": IND + [unesco("Khajuraho")], "K7-2": IND + [unesco("Konark")], "K7-3": IND + [unesco("Champaner")], "K7-4": IND + [unesco("Chola")], "K7-5": IND + [unesco("Hoysala")],
- "K7-6": IND, "K7-7": IND, "K7-8": IND + [unesco("Buddhist")], "K7-9": IND + [unesco("Caves")], "K7-10": [unesco("Sri Lanka")], "K7-11": [unesco("Kathmandu")],
- "K7-12": [wp("List of Tibetan monasteries", "Tibetan Buddhist monasteries by region"), unesco("Lhasa")], "K7-13": [unesco("Bhutan")], "K7-14": IND + [unesco("Hill Forts of Rajasthan"), unesco("Maratha")],
+ "K7-6": IND + [wp("List of Hindu temples in Kerala", "Hindu temples of Kerala by district")], "K7-7": IND, "K7-8": IND + [unesco("Buddhist")], "K7-9": IND + [unesco("Caves")], "K7-10": [unesco("Sri Lanka")], "K7-11": [unesco("Kathmandu")],
+ "K7-12": [wp("List of Tibetan monasteries", "Tibetan Buddhist monasteries by region"), unesco("Lhasa")], "K7-13": [unesco("Bhutan")], "K7-14": IND + [wp("Hill Forts of Rajasthan", "the six UNESCO hill forts of Rajasthan"), unesco("Maratha")],
  "K7-15": IND + [unesco("Rani-ki-Vav")], "K7-16": [wp("List of gurdwaras", "gurdwaras worldwide, by country")], "K7-17": [unesco("Mohenjo"), unesco("Dholavira")],
  "K7-18": [], "K7-19": [], "K7-20": [],
  "K8-1": CHN + [unesco("China")], "K8-2": CHN, "K8-3": CHN, "K8-4": CHN + [unesco("Tulou")], "K8-5": CHN + [unesco("Xidi")], "K8-6": CHN + [unesco("Kaiping")], "K8-7": [], "K8-8": CHN, "K8-9": CHN,
- "K8-10": JAP + [wp("List of National Treasures of Japan (shrines)", "every shrine building designated a National Treasure"), wp("List of Shinto shrines", "Shinto shrines by prefecture")],
+ "K8-10": JAP + [wp("List of National Treasures of Japan (shrines)", "every shrine building designated a National Treasure"), wp("List of Shinto shrines in Japan", "Shinto shrines by prefecture")],
  "K8-11": JAP + [wp("List of National Treasures of Japan (temples)", "every temple building designated a National Treasure")],
- "K8-12": JAP, "K8-13": JAP + [wp("List of National Treasures of Japan (residences)", "residences designated National Treasures")], "K8-14": JAP, "K8-15": JAP, "K8-16": JAP + [wp("List of castles in Japan", "every Japanese castle by prefecture"), wp("Japan's Top 100 Castles", "the Japan Castle Foundation's 100 fine castles")],
- "K8-17": JAP + [unesco("Mozu-Furuichi")], "K8-18": JAP + [unesco("Ryukyu")], "K8-19": JAP, "K8-20": [KR, wp("List of National Treasures of South Korea", "every designated National Treasure of South Korea")], "K8-21": [KR, unesco("Historic Villages of Korea")],
+ "K8-12": JAP, "K8-13": JAP + [wp("List of National Treasures of Japan (residences)", "residences designated National Treasures")], "K8-14": JAP, "K8-15": JAP, "K8-16": JAP + [wp("List of castles in Japan", "every Japanese castle by prefecture"), wp("100 Fine Castles of Japan", "the Japan Castle Foundation's list of 100 fine castles")],
+ "K8-17": JAP + [unesco("Mozu-Furuichi")], "K8-18": JAP + [unesco("Ryukyu")], "K8-19": JAP, "K8-20": [KR, wp("National Treasure (South Korea)", "South Korea's National Treasures, with the full numbered list")], "K8-21": [KR, unesco("Historic Villages of Korea")],
  "K9-1": [unesco("Angkor")], "K9-2": [unesco("Borobudur"), unesco("Prambanan")], "K9-3": [unesco("Bali")], "K9-4": [], "K9-5": [unesco("Bagan")], "K9-6": [unesco("Ayutthaya"), unesco("Sukhothai")],
  "K9-7": [unesco("Luang Prabang")], "K9-8": [unesco("My Son")], "K9-9": [unesco("Hue")], "K9-10": [], "K9-11": [], "K9-12": [unesco("Vigan")], "K9-13": [unesco("Melaka")], "K9-14": [],
  "K10-1": [unesco("Aksum")], "K10-2": [unesco("Lalibela")], "K10-3": [unesco("Fasil Ghebbi")], "K10-4": [unesco("Meroe"), unesco("Gebel Barkal")], "K10-5": [unesco("Zimbabwe")],
@@ -104,8 +104,8 @@ EXTRA = {
  "K12-15": [unesco("Røros"), unesco("Petäjävesi")], "K12-17": [POP], "K12-18": [], "K12-20": [],
  "K13-1": [unesco("The Persian Garden", "the nine gardens of the UNESCO 'Persian Garden' property"), ARCHNET], "K13-2": [ARCHNET, unesco("Shalamar")],
  "K13-3": [wp("Classical Gardens of Suzhou", "the nine UNESCO scholar gardens of Suzhou"), unesco("Classical Gardens of Suzhou")],
- "K13-4": JAP + [wp("Places of Scenic Beauty of Japan", "gardens and landscapes designated Places of Scenic Beauty")], "K13-5": [unesco("Medici Villas and Gardens"), PARKS],
- "K13-6": [POP, wp("Jardin remarquable", "France's label of notable gardens")], "K13-7": [PARKS, HE],
+ "K13-4": JAP + [wp("Place of Scenic Beauty", "Japan's designated gardens and landscapes, with lists by prefecture"), wp("Special Place of Scenic Beauty", "the gardens and landscapes of the highest designation")], "K13-5": [unesco("Medici Villas and Gardens"), PARKS],
+ "K13-6": [POP], "K13-7": [PARKS, HE],
  "K14-1": [["https://www.bonsai-nbf.org/", "National Bonsai Foundation", "collection of the National Bonsai & Penjing Museum, US National Arboretum"]],
  "K14-2": [["https://www.bonsai-nbf.org/", "National Bonsai Foundation", "includes the Chinese penjing pavilion of the US National Arboretum"]],
  "K14-3": [], "K14-4": [["https://www.ikebanahq.org/", "Ikebana International", "worldwide federation of ikebana schools and chapters"], ["https://www.ikenobo.jp/english/", "Ikenobō", "the oldest ikebana school, Kyoto"]],
@@ -141,9 +141,11 @@ def AXIS_NOTE(code, leaf, cat, kinds):
     fam = code.split("-")[0]
     if cat.get("total"):
         t = cat.get("t") or 1
-        rule = ("every gathered building of the style with a Wikipedia article or a UNESCO/national heritage listing" if t == 1 else
-                f"every gathered building of the style with at least {t} Wikipedia articles or a UNESCO listing (rule tightened from 'any article or heritage listing', which gives over 400)")
-        rule += " (named in Latin, Greek or Cyrillic script)"
+        noun = "garden" if fam == "K13" else "building or site"
+        rule = (f"every gathered {noun} of the tradition with a Wikipedia article or a UNESCO/national heritage listing" if t == 1 else
+                f"every gathered {noun} of the tradition with at least {t} Wikipedia articles or a UNESCO listing (rule tightened from 'any article or heritage listing', which gives over 400)")
+        if cat.get("wd"): rule += ", gathered from the architecture CSVs plus a Wikidata sweep of instances or parts of the type"
+        rule += " (proper-named, in Latin, Greek or Cyrillic script)"
         short = [re.sub(r":.*$", "", g) for g in secs]
         short = list(dict.fromkeys(short))
         s = f"{lead}works: {rule}, in sections by {AXW.get(fam, 'sub-style')} ({'; '.join(short[:8])}{' ...' if len(short) > 8 else ''}), each in date order"

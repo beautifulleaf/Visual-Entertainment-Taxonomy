@@ -2,6 +2,7 @@
 "K1-1": {
 "t": 1,
 "total": 20,
+"wd": false,
 "sections": [
 [
 "Umayyad mosques, palaces and desert castles",
@@ -178,6 +179,7 @@
 "K1-2": {
 "t": 1,
 "total": 32,
+"wd": false,
 "sections": [
 [
 "Abbasid buildings (Iraq, Iran, Egypt)",
@@ -450,6 +452,7 @@
 "K1-3": {
 "t": 1,
 "total": 16,
+"wd": false,
 "sections": [
 [
 "Fatimid buildings",
@@ -589,6 +592,7 @@
 "K1-4": {
 "t": 1,
 "total": 121,
+"wd": false,
 "sections": [
 [
 "Caliphal Córdoba (Umayyads of al-Andalus)",
@@ -1608,6 +1612,7 @@
 "K1-5": {
 "t": 1,
 "total": 44,
+"wd": false,
 "sections": [
 [
 "Mudéjar of Aragon (UNESCO group)",
@@ -1976,6 +1981,7 @@
 "K1-6": {
 "t": 1,
 "total": 260,
+"wd": false,
 "sections": [
 [
 "Great Seljuk buildings (Iran, Central Asia)",
@@ -4092,6 +4098,7 @@
 "K1-7": {
 "t": 1,
 "total": 54,
+"wd": false,
 "sections": [
 [
 "Anatolian Seljuk and beylik buildings",
@@ -4535,6 +4542,7 @@
 "K1-8": {
 "t": 1,
 "total": 83,
+"wd": false,
 "sections": [
 [
 "Ayyubid buildings (precursor)",
@@ -5220,6 +5228,7 @@
 "K1-9": {
 "t": 1,
 "total": 48,
+"wd": false,
 "sections": [
 [
 "Ilkhanid buildings",
@@ -5625,6 +5634,7 @@
 "K1-10": {
 "t": 1,
 "total": 152,
+"wd": false,
 "sections": [
 [
 "Timurid buildings",
@@ -6872,6 +6882,7 @@
 "K1-11": {
 "t": 1,
 "total": 85,
+"wd": false,
 "sections": [
 [
 "Safavid buildings",
@@ -7568,6 +7579,7 @@
 "K1-12": {
 "t": 1,
 "total": 324,
+"wd": false,
 "sections": [
 [
 "Ottoman buildings in Anatolia and the Balkans: 14th century",
@@ -10231,6 +10243,7 @@
 "K1-13": {
 "t": 1,
 "total": 52,
+"wd": false,
 "sections": [
 [
 "Afsharid buildings",
@@ -10668,6 +10681,7 @@
 "K1-14": {
 "t": 1,
 "total": 104,
+"wd": false,
 "sections": [
 [
 "Delhi Sultanate buildings",
@@ -11531,6 +11545,7 @@
 "K1-15": {
 "t": 1,
 "total": 168,
+"wd": false,
 "sections": [
 [
 "Mughal buildings: India",
@@ -12901,6 +12916,7 @@
 "K1-16": {
 "t": 1,
 "total": 69,
+"wd": false,
 "sections": [
 [
 "Sudano-Sahelian mosques and buildings",
@@ -13469,6 +13485,7 @@
 "K1-17": {
 "t": 1,
 "total": 23,
+"wd": false,
 "sections": [
 [
 "Swahili coast buildings and towns",
@@ -13663,7 +13680,8 @@
 },
 "K1-18": {
 "t": 1,
-"total": 193,
+"total": 192,
+"wd": false,
 "sections": [
 [
 "Chinese Islamic mosques and tombs: Beijing",
@@ -15131,14 +15149,6 @@
 "country": "People's Republic of China"
 },
 {
-"qid": "Q1425141",
-"label": "women's mosque",
-"gloss": "Mosque, People's Republic of China",
-"year": null,
-"sl": 13,
-"country": "People's Republic of China"
-},
-{
 "qid": "Q2089630",
 "label": "Phoenix Mosque",
 "gloss": "Mosque, Hangzhou, People's Republic of China · Major Historical and Cultural Site Protected at the National Level",
@@ -15289,6 +15299,7 @@
 "K1-19": {
 "t": 1,
 "total": 85,
+"wd": false,
 "sections": [
 [
 "Javanese and Malay tajug-roofed mosques",
@@ -15980,6 +15991,7 @@
 "K2-1": {
 "t": 1,
 "total": 19,
+"wd": false,
 "sections": [
 [
 "Moorish Revival buildings",
@@ -16148,6 +16160,7 @@
 "K2-2": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "Neo-Mudéjar buildings",
@@ -16279,6 +16292,7 @@
 "K2-3": {
 "t": 1,
 "total": 6,
+"wd": false,
 "sections": [
 [
 "Neo-Mamluk buildings",
@@ -16338,6 +16352,7 @@
 "K2-4": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "First National Architectural Movement buildings",
@@ -16469,6 +16484,7 @@
 "K2-5": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "Indo-Saracenic buildings",
@@ -16600,6 +16616,7 @@
 "K2-7": {
 "t": 1,
 "total": 41,
+"wd": false,
 "sections": [
 [
 "Tudor Revival buildings",
@@ -16949,6 +16966,7 @@
 "K2-8": {
 "t": 1,
 "total": 56,
+"wd": false,
 "sections": [
 [
 "Rundbogenstil buildings",
@@ -17423,6 +17441,7 @@
 "K2-9": {
 "t": 1,
 "total": 45,
+"wd": false,
 "sections": [
 [
 "Neo-Byzantine buildings",
@@ -17804,6 +17823,7 @@
 "K2-11": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "Italianate buildings",
@@ -17935,6 +17955,7 @@
 "K2-12": {
 "t": 1,
 "total": 46,
+"wd": false,
 "sections": [
 [
 "Second Empire buildings in France",
@@ -18328,7 +18349,8 @@
 },
 "K2-13": {
 "t": 1,
-"total": 68,
+"total": 67,
+"wd": false,
 "sections": [
 [
 "Neo-Baroque buildings",
@@ -18744,14 +18766,6 @@
 "country": "Russia"
 },
 {
-"qid": "Q117883373",
-"label": "litý kovový kříž s kovanými doplňky",
-"gloss": "Grave cross, Czech Republic, 1883 · cultural monument of the Czech Republic",
-"year": 1883,
-"sl": 1,
-"country": "Czech Republic"
-},
-{
 "qid": "Q1886105",
 "label": "Sager House",
 "gloss": "Residenz, Sweden, 1894 · governmental listed building complex",
@@ -18894,6 +18908,7 @@
 "K2-14": {
 "t": 1,
 "total": 34,
+"wd": false,
 "sections": [
 [
 "Greek Revival buildings",
@@ -19192,6 +19207,7 @@
 "K2-15": {
 "t": 1,
 "total": 17,
+"wd": false,
 "sections": [
 [
 "Egyptian Revival buildings",
@@ -19339,6 +19355,7 @@
 "K2-16": {
 "t": 1,
 "total": 32,
+"wd": false,
 "sections": [
 [
 "Beaux-Arts buildings",
@@ -19616,6 +19633,7 @@
 "K2-18": {
 "t": 1,
 "total": 73,
+"wd": false,
 "sections": [
 [
 "Victorian buildings (Britain and Empire)",
@@ -20241,6 +20259,7 @@
 "K2-19": {
 "t": 1,
 "total": 56,
+"wd": false,
 "sections": [
 [
 "Queen Anne Revival in Britain",
@@ -20710,6 +20729,7 @@
 "K2-20": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "Shingle style buildings",
@@ -20841,6 +20861,7 @@
 "K2-21": {
 "t": 1,
 "total": 45,
+"wd": false,
 "sections": [
 [
 "Colonial Revival buildings",
@@ -21222,6 +21243,7 @@
 "K2-22": {
 "t": 1,
 "total": 40,
+"wd": false,
 "sections": [
 [
 "Spanish Colonial Revival buildings",
@@ -21563,6 +21585,7 @@
 "K2-23": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "Mission Revival buildings",
@@ -21694,6 +21717,7 @@
 "K2-24": {
 "t": 1,
 "total": 33,
+"wd": false,
 "sections": [
 [
 "Pueblo Revival buildings",
@@ -21984,6 +22008,7 @@
 "K2-25": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "Mayan Revival buildings",
@@ -22115,6 +22140,7 @@
 "K2-26": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "Neo-Manueline buildings",
@@ -22246,6 +22272,7 @@
 "K2-27": {
 "t": 1,
 "total": 45,
+"wd": false,
 "sections": [
 [
 "Russian Revival buildings",
@@ -22627,6 +22654,7 @@
 "K2-28": {
 "t": 1,
 "total": 28,
+"wd": false,
 "sections": [
 [
 "Neoclassical Revival buildings",
@@ -22867,6 +22895,7 @@
 "K2-29": {
 "t": 1,
 "total": 16,
+"wd": false,
 "sections": [
 [
 "Romanian Revival buildings",
@@ -23006,6 +23035,7 @@
 "K2-30": {
 "t": 1,
 "total": 62,
+"wd": false,
 "sections": [
 [
 "National Romantic buildings (Nordic countries)",
@@ -23528,6 +23558,7 @@
 "K2-31": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "Zakopane Style buildings",
@@ -23659,6 +23690,7 @@
 "K2-32": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "Swiss chalet style buildings",
@@ -23790,6 +23822,7 @@
 "K2-33": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "Federation buildings",
@@ -23921,6 +23954,7 @@
 "K2-34": {
 "t": 1,
 "total": 53,
+"wd": false,
 "sections": [
 [
 "National Park Service rustic",
@@ -24376,6 +24410,7 @@
 "K3-1": {
 "t": 1,
 "total": 14,
+"wd": false,
 "sections": [
 [
 "Ancient Egyptian temples, tombs and pyramids",
@@ -24499,6 +24534,7 @@
 "K3-2": {
 "t": 1,
 "total": 3,
+"wd": false,
 "sections": [
 [
 "Elamite buildings",
@@ -24534,6 +24570,7 @@
 "K3-3": {
 "t": 1,
 "total": 18,
+"wd": false,
 "sections": [
 [
 "Median buildings (precursor)",
@@ -24694,6 +24731,7 @@
 "K3-4": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "Parthian buildings",
@@ -24825,6 +24863,7 @@
 "K3-5": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "Sasanian buildings",
@@ -24956,6 +24995,7 @@
 "K3-6": {
 "t": 1,
 "total": 1,
+"wd": false,
 "sections": [
 [
 "Minoan palaces and sites",
@@ -24975,6 +25015,7 @@
 "K3-7": {
 "t": 1,
 "total": 2,
+"wd": false,
 "sections": [
 [
 "Mycenaean citadels and tombs",
@@ -25002,6 +25043,7 @@
 "K3-8": {
 "t": 1,
 "total": 54,
+"wd": false,
 "sections": [
 [
 "Archaic and Classical Greek buildings",
@@ -25450,6 +25492,7 @@
 "K3-9": {
 "t": 1,
 "total": 2,
+"wd": false,
 "sections": [
 [
 "Etruscan buildings and tombs",
@@ -25477,6 +25520,7 @@
 "K3-10": {
 "t": 1,
 "total": 25,
+"wd": false,
 "sections": [
 [
 "Roman buildings",
@@ -25688,11 +25732,13 @@
 "K3-11": {
 "t": null,
 "total": 0,
+"wd": false,
 "sections": []
 },
 "K4-1": {
 "t": 1,
 "total": 30,
+"wd": false,
 "sections": [
 [
 "Early Christian basilicas, baptisteries and catacombs",
@@ -25944,6 +25990,7 @@
 "K4-2": {
 "t": 1,
 "total": 43,
+"wd": false,
 "sections": [
 [
 "Byzantine churches and buildings",
@@ -26304,6 +26351,7 @@
 "K4-3": {
 "t": 1,
 "total": 19,
+"wd": false,
 "sections": [
 [
 "Raška school",
@@ -26477,6 +26525,7 @@
 "K4-4": {
 "t": 1,
 "total": 43,
+"wd": false,
 "sections": [
 [
 "Kievan Rus' churches",
@@ -26852,6 +26901,7 @@
 "K4-5": {
 "t": 1,
 "total": 30,
+"wd": false,
 "sections": [
 [
 "Armenian churches and monasteries",
@@ -27103,6 +27153,7 @@
 "K4-6": {
 "t": 1,
 "total": 10,
+"wd": false,
 "sections": [
 [
 "Georgian churches and monasteries",
@@ -27194,6 +27245,7 @@
 "K4-7": {
 "t": 1,
 "total": 101,
+"wd": false,
 "sections": [
 [
 "Visigothic buildings",
@@ -28043,6 +28095,7 @@
 "K4-8": {
 "t": 1,
 "total": 16,
+"wd": false,
 "sections": [
 [
 "Carolingian buildings",
@@ -28182,6 +28235,7 @@
 "K4-9": {
 "t": 1,
 "total": 7,
+"wd": false,
 "sections": [
 [
 "Ottonian buildings",
@@ -28249,6 +28303,7 @@
 "K4-10": {
 "t": 1,
 "total": 212,
+"wd": false,
 "sections": [
 [
 "First Romanesque (Lombard band)",
@@ -30036,6 +30091,7 @@
 "K4-11": {
 "t": 1,
 "total": 27,
+"wd": false,
 "sections": [
 [
 "Arab-Norman buildings of Palermo, Cefalù and Monreale",
@@ -30262,7 +30318,8 @@
 },
 "K4-12": {
 "t": 1,
-"total": 1,
+"total": 9,
+"wd": true,
 "sections": [
 [
 "Moldavian churches and monasteries",
@@ -30276,12 +30333,82 @@
 "country": "Ukraine"
 }
 ]
+],
+[
+"Painted churches and monasteries of Moldavia",
+[
+{
+"qid": "Q1048112",
+"label": "Humor Monastery",
+"gloss": "Suceava County, Romania, 1401 · UNESCO World Heritage Site",
+"year": 1401,
+"sl": 17,
+"country": "Romania"
+},
+{
+"qid": "Q1075172",
+"label": "Moldovița Monastery",
+"gloss": "Vatra Moldoviței, Romania, 1532 · UNESCO World Heritage Site",
+"year": 1532,
+"sl": 19,
+"country": "Romania"
+},
+{
+"qid": "Q611070",
+"label": "Sucevița Monastery",
+"gloss": "Sucevița, Romania, 1581 · UNESCO World Heritage Site",
+"year": 1581,
+"sl": 20,
+"country": "Romania"
+},
+{
+"qid": "Q384463",
+"label": "Voroneț Monastery",
+"gloss": "Gura Humorului, Romania · UNESCO World Heritage Site",
+"year": null,
+"sl": 27,
+"country": "Romania"
+},
+{
+"qid": "Q684811",
+"label": "Arbore Church",
+"gloss": "Arbore, Romania · UNESCO World Heritage Site",
+"year": null,
+"sl": 11,
+"country": "Romania"
+},
+{
+"qid": "Q833416",
+"label": "Probota Monastery",
+"gloss": "Dolhasca, Romania · UNESCO World Heritage Site",
+"year": null,
+"sl": 11,
+"country": "Romania"
+},
+{
+"qid": "Q1243513",
+"label": "Church of the Holy Cross",
+"gloss": "Pătrăuți, Romania · UNESCO World Heritage Site",
+"year": null,
+"sl": 10,
+"country": "Romania"
+},
+{
+"qid": "Q717842",
+"label": "Saint John the New Monastery",
+"gloss": "Suceava, Romania · UNESCO World Heritage Site",
+"year": null,
+"sl": 9,
+"country": "Romania"
+}
+]
 ]
 ]
 },
 "K5-1": {
 "t": 1,
 "total": 30,
+"wd": false,
 "sections": [
 [
 "Tudor buildings",
@@ -30538,6 +30665,7 @@
 "K5-2": {
 "t": 1,
 "total": 16,
+"wd": false,
 "sections": [
 [
 "Plateresque buildings",
@@ -30677,6 +30805,7 @@
 "K5-3": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "Manueline buildings",
@@ -30808,6 +30937,7 @@
 "K5-4": {
 "t": 1,
 "total": 17,
+"wd": false,
 "sections": [
 [
 "Herrerian buildings",
@@ -30960,6 +31090,7 @@
 "K5-5": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "Churrigueresque buildings",
@@ -31091,6 +31222,7 @@
 "K5-6": {
 "t": 1,
 "total": 65,
+"wd": false,
 "sections": [
 [
 "Régence buildings",
@@ -31642,6 +31774,7 @@
 "K5-7": {
 "t": 1,
 "total": 41,
+"wd": false,
 "sections": [
 [
 "Uzorochye churches and palaces",
@@ -31991,6 +32124,7 @@
 "K5-8": {
 "t": 1,
 "total": 16,
+"wd": false,
 "sections": [
 [
 "Brâncovenesc churches, monasteries and palaces",
@@ -32130,6 +32264,7 @@
 "K5-9": {
 "t": 1,
 "total": 17,
+"wd": false,
 "sections": [
 [
 "Palladian and Neo-Palladian buildings",
@@ -32282,6 +32417,7 @@
 "K5-10": {
 "t": 1,
 "total": 33,
+"wd": false,
 "sections": [
 [
 "Georgian buildings",
@@ -32567,6 +32703,7 @@
 "K5-11": {
 "t": 1,
 "total": 24,
+"wd": false,
 "sections": [
 [
 "Empire style buildings",
@@ -32775,6 +32912,7 @@
 "K5-12": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "Federal style buildings",
@@ -32906,6 +33044,7 @@
 "K5-13": {
 "t": 1,
 "total": 5,
+"wd": false,
 "sections": [
 [
 "Pombaline buildings (Lisbon)",
@@ -32957,6 +33096,7 @@
 "K5-14": {
 "t": 1,
 "total": 21,
+"wd": false,
 "sections": [
 [
 "Bulgarian Revival churches, houses and schools",
@@ -33140,7 +33280,8 @@
 },
 "K5-15": {
 "t": 1,
-"total": 60,
+"total": 59,
+"wd": false,
 "sections": [
 [
 "First Period (New England)",
@@ -33357,14 +33498,6 @@
 "year": null,
 "sl": 1,
 "country": "United States"
-},
-{
-"qid": "Q113953887",
-"label": "grange",
-"gloss": "Barn, Canada · recognized heritage immovable",
-"year": null,
-"sl": 0,
-"country": "Canada"
 }
 ]
 ],
@@ -33652,6 +33785,7 @@
 "K5-16": {
 "t": 1,
 "total": 69,
+"wd": false,
 "sections": [
 [
 "Spanish colonial buildings",
@@ -34235,6 +34369,7 @@
 "K5-17": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "Andean Baroque churches",
@@ -34366,6 +34501,7 @@
 "K5-18": {
 "t": 1,
 "total": 22,
+"wd": false,
 "sections": [
 [
 "Portuguese colonial buildings",
@@ -34558,6 +34694,7 @@
 "K5-19": {
 "t": 1,
 "total": 33,
+"wd": false,
 "sections": [
 [
 "French colonial buildings",
@@ -34843,6 +34980,7 @@
 "K5-20": {
 "t": 1,
 "total": 25,
+"wd": false,
 "sections": [
 [
 "New Netherland (Dutch colonial America)",
@@ -35064,6 +35202,7 @@
 "K5-21": {
 "t": 1,
 "total": 6,
+"wd": false,
 "sections": [
 [
 "Cape Dutch homesteads and buildings",
@@ -35123,6 +35262,7 @@
 "K6-1": {
 "t": 1,
 "total": 58,
+"wd": false,
 "sections": [
 [
 "Arts and Crafts houses and buildings",
@@ -35618,6 +35758,7 @@
 "K6-2": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "Chicago School buildings",
@@ -35749,6 +35890,7 @@
 "K6-3": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "Prairie School buildings",
@@ -35879,7 +36021,8 @@
 },
 "K6-4": {
 "t": 1,
-"total": 30,
+"total": 29,
+"wd": false,
 "sections": [
 [
 "Czech Cubist buildings",
@@ -36082,14 +36225,6 @@
 "country": "Czech Republic"
 },
 {
-"qid": "Q112106036",
-"label": "evanjelický kostol",
-"gloss": "Church building, Slovakia, 1926 · cultural heritage of Slovakia",
-"year": 1926,
-"sl": 1,
-"country": "Slovakia"
-},
-{
 "qid": "Q38149302",
 "label": "Gočárovy domky",
 "gloss": "Museum, Czech Republic · cultural monument of the Czech Republic",
@@ -36135,7 +36270,8 @@
 },
 "K6-5": {
 "t": 1,
-"total": 64,
+"total": 63,
+"wd": false,
 "sections": [
 [
 "Expressionist buildings (Germany and elsewhere)",
@@ -36511,14 +36647,6 @@
 "country": "Netherlands"
 },
 {
-"qid": "Q2272973",
-"label": "water tower",
-"gloss": "Water tower, Netherlands, 1916 · Rijksmonument",
-"year": 1916,
-"sl": 3,
-"country": "Netherlands"
-},
-{
 "qid": "Q1616115",
 "label": "Het Schip",
 "gloss": "Housing estate, Netherlands, 1917 · Rijksmonument",
@@ -36679,6 +36807,7 @@
 "K6-6": {
 "t": 1,
 "total": 51,
+"wd": false,
 "sections": [
 [
 "Futurist buildings and projects",
@@ -37108,6 +37237,7 @@
 "K6-7": {
 "t": 1,
 "total": 107,
+"wd": false,
 "sections": [
 [
 "Art Deco buildings",
@@ -37990,6 +38120,7 @@
 "K6-8": {
 "t": 1,
 "total": 25,
+"wd": false,
 "sections": [
 [
 "Bauhaus buildings",
@@ -38201,6 +38332,7 @@
 "K6-9": {
 "t": 1,
 "total": 21,
+"wd": false,
 "sections": [
 [
 "International Style buildings",
@@ -38385,6 +38517,7 @@
 "K6-10": {
 "t": 1,
 "total": 38,
+"wd": false,
 "sections": [
 [
 "Constructivist buildings",
@@ -38705,6 +38838,7 @@
 "K6-11": {
 "t": 1,
 "total": 74,
+"wd": false,
 "sections": [
 [
 "Reform architecture buildings",
@@ -39328,6 +39462,7 @@
 "K6-12": {
 "t": 1,
 "total": 44,
+"wd": false,
 "sections": [
 [
 "Traditionalist School buildings",
@@ -39701,6 +39836,7 @@
 "K6-13": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "Nordic Classicism buildings",
@@ -39832,6 +39968,7 @@
 "K6-14": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "Stripped Classicism buildings",
@@ -39963,6 +40100,7 @@
 "K6-16": {
 "t": 1,
 "total": 48,
+"wd": false,
 "sections": [
 [
 "Novecento buildings",
@@ -40368,6 +40506,7 @@
 "K6-17": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "Nazi buildings",
@@ -40499,6 +40638,7 @@
 "K6-18": {
 "t": 1,
 "total": 42,
+"wd": false,
 "sections": [
 [
 "Mid-century modern buildings",
@@ -40861,6 +41001,7 @@
 "K6-19": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "High-tech buildings",
@@ -40992,6 +41133,7 @@
 "K6-20": {
 "t": 1,
 "total": 35,
+"wd": false,
 "sections": [
 [
 "New Classical buildings",
@@ -41283,6 +41425,7 @@
 "K6-23": {
 "t": 1,
 "total": 17,
+"wd": false,
 "sections": [
 [
 "Brutalist buildings",
@@ -41435,6 +41578,7 @@
 "K6-24": {
 "t": 1,
 "total": 36,
+"wd": false,
 "sections": [
 [
 "Postmodern buildings",
@@ -41739,6 +41883,7 @@
 "K6-25": {
 "t": 1,
 "total": 15,
+"wd": false,
 "sections": [
 [
 "Deconstructivist buildings",
@@ -41870,6 +42015,7 @@
 "K7-1": {
 "t": 3,
 "total": 260,
+"wd": false,
 "sections": [
 [
 "Nagara temples of central and north India: Uttar Pradesh",
@@ -44021,6 +44167,7 @@
 "K7-2": {
 "t": 1,
 "total": 118,
+"wd": false,
 "sections": [
 [
 "Kalinga (Odishan) temples",
@@ -44981,6 +45128,7 @@
 "K7-3": {
 "t": 1,
 "total": 170,
+"wd": false,
 "sections": [
 [
 "Maru-Gurjara temples: Gujarat",
@@ -46362,6 +46510,7 @@
 "K7-4": {
 "t": 5,
 "total": 283,
+"wd": false,
 "sections": [
 [
 "Pallava temples",
@@ -48672,6 +48821,7 @@
 "K7-5": {
 "t": 1,
 "total": 79,
+"wd": false,
 "sections": [
 [
 "Badami Chalukya temples",
@@ -49325,6 +49475,7 @@
 "K7-6": {
 "t": 3,
 "total": 317,
+"wd": false,
 "sections": [
 [
 "Kerala temples: Thrissur district",
@@ -51937,6 +52088,7 @@
 "K7-7": {
 "t": 1,
 "total": 166,
+"wd": false,
 "sections": [
 [
 "At-chala temples",
@@ -53321,6 +53473,7 @@
 "K7-8": {
 "t": 1,
 "total": 87,
+"wd": false,
 "sections": [
 [
 "Early Buddhist stupas, viharas and chaityas (Maurya to Pala)",
@@ -54033,6 +54186,7 @@
 "K7-9": {
 "t": 1,
 "total": 12,
+"wd": false,
 "sections": [
 [
 "Rock-cut caves and temples",
@@ -54140,6 +54294,7 @@
 "K7-10": {
 "t": 1,
 "total": 92,
+"wd": false,
 "sections": [
 [
 "Anuradhapura period",
@@ -54932,6 +55087,7 @@
 "K7-11": {
 "t": 1,
 "total": 151,
+"wd": false,
 "sections": [
 [
 "Newar temples, stupas and palaces (Kathmandu valley)",
@@ -56151,6 +56307,7 @@
 "K7-12": {
 "t": 3,
 "total": 177,
+"wd": false,
 "sections": [
 [
 "Tibetan Buddhist monasteries and temples: Tibet Autonomous Region",
@@ -57608,6 +57765,7 @@
 "K7-13": {
 "t": 1,
 "total": 60,
+"wd": false,
 "sections": [
 [
 "Bhutanese dzongs",
@@ -58099,6 +58257,7 @@
 "K7-14": {
 "t": 1,
 "total": 290,
+"wd": false,
 "sections": [
 [
 "Rajput forts and palaces: fort",
@@ -60444,7 +60603,8 @@
 },
 "K7-15": {
 "t": 1,
-"total": 112,
+"total": 116,
+"wd": true,
 "sections": [
 [
 "Stepwells: Gujarat",
@@ -61366,12 +61526,50 @@
 "country": "India"
 }
 ]
+],
+[
+"Stepwells",
+[
+{
+"qid": "Q2570737",
+"label": "Sun Temple",
+"gloss": "Becharaji Taluka, India, 1026 · Tentative World Heritage Site",
+"year": 1026,
+"sl": 19,
+"country": "India"
+},
+{
+"qid": "Q16251479",
+"label": "Bai Harir Stepwell",
+"gloss": "Ahmedabad Municipal Corporation, India, 1499 · Monument of National Importance",
+"year": 1499,
+"sl": 7,
+"country": "India"
+},
+{
+"qid": "Q98360045",
+"label": "Baoli on the north side of Agra road below Hakim's Bath",
+"gloss": "Agra district, India · Monument of National Importance",
+"year": null,
+"sl": 0,
+"country": "India"
+},
+{
+"qid": "Q98360529",
+"label": "Octagonal Baoli",
+"gloss": "Agra district, India · Monument of National Importance",
+"year": null,
+"sl": 0,
+"country": "India"
+}
+]
 ]
 ]
 },
 "K7-16": {
 "t": 1,
 "total": 8,
+"wd": false,
 "sections": [
 [
 "Gurdwaras and Sikh buildings",
@@ -61447,6 +61645,7 @@
 "K7-17": {
 "t": 1,
 "total": 6,
+"wd": false,
 "sections": [
 [
 "Harappan cities and sites",
@@ -61504,23 +61703,209 @@
 ]
 },
 "K7-18": {
-"t": null,
-"total": 0,
-"sections": []
+"t": 1,
+"total": 22,
+"wd": true,
+"sections": [
+[
+"Havelis",
+[
+{
+"qid": "Q15816551",
+"label": "Ghalib ki Haveli",
+"gloss": "Delhi, India, 1800",
+"year": 1800,
+"sl": 6,
+"country": "India"
+},
+{
+"qid": "Q97119546",
+"label": "Salim Singh ki Haveli",
+"gloss": "Jaisalmer, India, 1815 · State Protected Monument",
+"year": 1815,
+"sl": 1,
+"country": "India"
+},
+{
+"qid": "Q110831260",
+"label": "Patwon ki Haveli",
+"gloss": "Jaisalmer, India, 1830",
+"year": 1830,
+"sl": 1,
+"country": "India"
+},
+{
+"qid": "Q63343148",
+"label": "Vithalbhai Haveli",
+"gloss": "Vaso Taluka, India, 1872 · Monument of National Importance",
+"year": 1872,
+"sl": 3,
+"country": "India"
+},
+{
+"qid": "Q2786019",
+"label": "Kirti Mandir, Porbandar",
+"gloss": "Porbandar Taluka, India · Monument of National Importance",
+"year": null,
+"sl": 6,
+"country": "India"
+},
+{
+"qid": "Q4842076",
+"label": "Bagore-ki-Haveli",
+"gloss": "Udaipur, India",
+"year": null,
+"sl": 4,
+"country": "India"
+},
+{
+"qid": "Q6480055",
+"label": "Lal Haveli",
+"gloss": "Pakistan",
+"year": null,
+"sl": 4,
+"country": "Pakistan"
+},
+{
+"qid": "Q18602590",
+"label": "Gaekwad Haveli",
+"gloss": "Ahmedabad, India",
+"year": null,
+"sl": 3,
+"country": "India"
+},
+{
+"qid": "Q97101189",
+"label": "Kothi of Raibhagat",
+"gloss": "Mandla district, India · State Protected Monument",
+"year": null,
+"sl": 1,
+"country": "India"
+},
+{
+"qid": "Q97119547",
+"label": "Nathmal ki Haveli",
+"gloss": "Jaisalmer, India · State Protected Monument",
+"year": null,
+"sl": 1,
+"country": "India"
+},
+{
+"qid": "Q97119545",
+"label": "Patwa Haveli-3013",
+"gloss": "Jaisalmer, India · State Protected Monument",
+"year": null,
+"sl": 1,
+"country": "India"
+},
+{
+"qid": "Q97119541",
+"label": "Patwa Haveli-3017",
+"gloss": "Jaisalmer, India · State Protected Monument",
+"year": null,
+"sl": 1,
+"country": "India"
+},
+{
+"qid": "Q97119542",
+"label": "Patwa Haveli-3126",
+"gloss": "Jaisalmer, India · State Protected Monument",
+"year": null,
+"sl": 1,
+"country": "India"
+},
+{
+"qid": "Q97119543",
+"label": "Patwa Haveli-3127",
+"gloss": "Jaisalmer, India · State Protected Monument",
+"year": null,
+"sl": 1,
+"country": "India"
+},
+{
+"qid": "Q97119544",
+"label": "Patwa Haveli-3127 B",
+"gloss": "Jaisalmer, India · State Protected Monument",
+"year": null,
+"sl": 1,
+"country": "India"
+},
+{
+"qid": "Q97119540",
+"label": "Patwa Haveli-3128",
+"gloss": "Jaisalmer, India · State Protected Monument",
+"year": null,
+"sl": 1,
+"country": "India"
+},
+{
+"qid": "Q97119539",
+"label": "Patwa Haveli-3129",
+"gloss": "Jaisalmer, India · State Protected Monument",
+"year": null,
+"sl": 1,
+"country": "India"
+},
+{
+"qid": "Q109252523",
+"label": "Purohit Ji Ki Haveli",
+"gloss": "Alwar district, India",
+"year": null,
+"sl": 1,
+"country": "India"
+},
+{
+"qid": "Q140835534",
+"label": "Bairathi Haveli near Jain Temple",
+"gloss": "Jaipur district, India · State Protected Monument",
+"year": null,
+"sl": 0,
+"country": "India"
+},
+{
+"qid": "Q97119469",
+"label": "Haveli of Late Shri Kesari Singh Barahath",
+"gloss": "Bhilwara district, India · State Protected Monument",
+"year": null,
+"sl": 0,
+"country": "India"
+},
+{
+"qid": "Q140835311",
+"label": "Natanion ki Haveli",
+"gloss": "Jaipur district, India · State Protected Monument",
+"year": null,
+"sl": 0,
+"country": "India"
+},
+{
+"qid": "Q140835561",
+"label": "Two Chhabara Havelies, Bangali Pada",
+"gloss": "Jaipur district, India · State Protected Monument",
+"year": null,
+"sl": 0,
+"country": "India"
+}
+]
+]
+]
 },
 "K7-19": {
 "t": null,
 "total": 0,
+"wd": false,
 "sections": []
 },
 "K7-20": {
 "t": null,
 "total": 0,
+"wd": false,
 "sections": []
 },
 "K8-1": {
 "t": 5,
 "total": 261,
+"wd": false,
 "sections": [
 [
 "Pre-Tang buildings (to 617)",
@@ -63675,6 +64060,7 @@
 "K8-2": {
 "t": 1,
 "total": 8,
+"wd": false,
 "sections": [
 [
 "Siheyuan",
@@ -63755,21 +64141,25 @@
 "K8-3": {
 "t": null,
 "total": 0,
+"wd": false,
 "sections": []
 },
 "K8-6": {
 "t": null,
 "total": 0,
+"wd": false,
 "sections": []
 },
 "K8-9": {
 "t": null,
 "total": 0,
+"wd": false,
 "sections": []
 },
 "K8-4": {
 "t": 1,
-"total": 10,
+"total": 26,
+"wd": true,
 "sections": [
 [
 "Tulou and walled villages",
@@ -63853,6 +64243,134 @@
 "year": null,
 "sl": 0,
 "country": "People's Republic of China"
+},
+{
+"qid": "Q17007490",
+"label": "Tai'an Lou",
+"gloss": "Dabu County, People's Republic of China, 1764 · Major Historical and Cultural Site Protected at the National Level",
+"year": 1764,
+"sl": 2,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q19852393",
+"label": "Hakka Round House",
+"gloss": "Xiaoyi Village, Taiwan, 2014",
+"year": 2014,
+"sl": 4,
+"country": "Taiwan"
+},
+{
+"qid": "Q11076331",
+"label": "Chengqi Tulou",
+"gloss": "Gaotou Township (Longyan City), People's Republic of China",
+"year": null,
+"sl": 2,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q15911739",
+"label": "Daoyunlou",
+"gloss": "Raoping County, People's Republic of China · Major Historical and Cultural Site Protected at the National Level",
+"year": null,
+"sl": 2,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q48926512",
+"label": "Dongsheng Wei",
+"gloss": "Zhengang Township, People's Republic of China · Major Historical and Cultural Site Protected at the National Level",
+"year": null,
+"sl": 2,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q10894001",
+"label": "Guanxi Xinwei",
+"gloss": "Guanxi Town, People's Republic of China · Major Historical and Cultural Site Protected at the National Level",
+"year": null,
+"sl": 2,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q17029213",
+"label": "Taishun Tulou",
+"gloss": "Taishun County, People's Republic of China · Major Historical and Cultural Site Protected at the National Level",
+"year": null,
+"sl": 2,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q17010196",
+"label": "Yanyi Wei",
+"gloss": "Yangcun Town, People's Republic of China · Major Historical and Cultural Site Protected at the National Level",
+"year": null,
+"sl": 2,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q109348722",
+"label": "Yuzaitan Wei",
+"gloss": "Liren Town, People's Republic of China",
+"year": null,
+"sl": 2,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q109377435",
+"label": "Zhenchenglou",
+"gloss": "Hongkeng, People's Republic of China",
+"year": null,
+"sl": 2,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q133311158",
+"label": "Eryi Lou",
+"gloss": "Hua'an County, People's Republic of China · Major Historical and Cultural Site Protected at the National Level",
+"year": null,
+"sl": 1,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q139989152",
+"label": "Hakka Cultural Center of West Borneo",
+"gloss": "Sungai Raya, Indonesia",
+"year": null,
+"sl": 1,
+"country": "Indonesia"
+},
+{
+"qid": "Q17001699",
+"label": "Hua'e Tulou",
+"gloss": "Dabu County, People's Republic of China · Major Historical and Cultural Site Protected at the National Level",
+"year": null,
+"sl": 1,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q137361908",
+"label": "Penggao Wei",
+"gloss": "Guanxi Town, People's Republic of China",
+"year": null,
+"sl": 1,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q137361298",
+"label": "Weiting Wei",
+"gloss": "Zhengang Township, People's Republic of China",
+"year": null,
+"sl": 1,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q137360950",
+"label": "Xichang Wei",
+"gloss": "Guanxi Town, People's Republic of China",
+"year": null,
+"sl": 1,
+"country": "People's Republic of China"
 }
 ]
 ]
@@ -63861,6 +64379,7 @@
 "K8-5": {
 "t": 1,
 "total": 10,
+"wd": false,
 "sections": [
 [
 "Hui-style villages, houses and halls",
@@ -63951,7 +64470,8 @@
 },
 "K8-7": {
 "t": 1,
-"total": 297,
+"total": 296,
+"wd": false,
 "sections": [
 [
 "Taiwanese (Minnan) temples: Taiwan",
@@ -64920,14 +65440,6 @@
 "qid": "Q11084042",
 "label": "Zhulian Temple (Hsinchu City)",
 "gloss": "Temple, Republic of China, Taiwan · county-level monument",
-"year": null,
-"sl": 2,
-"country": "Taiwan"
-},
-{
-"qid": "Q110580632",
-"label": "tiau tag cunˊ liongˇ biˊ bagˋ gungˊ",
-"gloss": "Temple, Republic of China, Taiwan · Historic Building of Taiwan",
 "year": null,
 "sl": 2,
 "country": "Taiwan"
@@ -66379,6 +66891,7 @@
 "K8-8": {
 "t": 1,
 "total": 9,
+"wd": false,
 "sections": [
 [
 "Sichuanese buildings",
@@ -66462,6 +66975,7 @@
 "K8-10": {
 "t": 5,
 "total": 284,
+"wd": false,
 "sections": [
 [
 "Shinmei-zukuri shrines",
@@ -68829,7 +69343,8 @@
 },
 "K8-11": {
 "t": 8,
-"total": 236,
+"total": 235,
+"wd": false,
 "sections": [
 [
 "Asuka and Nara temples (538–794)",
@@ -70547,14 +71062,6 @@
 "country": "Japan"
 },
 {
-"qid": "Q1363585",
-"label": "shōrō",
-"gloss": "Japan",
-"year": null,
-"sl": 11,
-"country": "Japan"
-},
-{
 "qid": "Q3012126",
 "label": "Dainichi-ji Temple",
 "gloss": "Temple, Awa Province, Japan",
@@ -70768,7 +71275,8 @@
 },
 "K8-12": {
 "t": 1,
-"total": 15,
+"total": 9,
+"wd": false,
 "sections": [
 [
 "Shinden-zukuri palaces and halls",
@@ -70798,30 +71306,6 @@
 "country": "Brazil"
 },
 {
-"qid": "Q1740803",
-"label": "kichō",
-"gloss": "Building",
-"year": null,
-"sl": 7,
-"country": ""
-},
-{
-"qid": "Q1514291",
-"label": "kabeshiro",
-"gloss": "Building",
-"year": null,
-"sl": 3,
-"country": ""
-},
-{
-"qid": "Q24864597",
-"label": "shitomi",
-"gloss": "Building",
-"year": null,
-"sl": 3,
-"country": ""
-},
-{
 "qid": "Q11523859",
 "label": "Higashi Sanjō-dono",
 "gloss": "Mansion, Japan",
@@ -70836,14 +71320,6 @@
 "year": null,
 "sl": 2,
 "country": "Japan"
-},
-{
-"qid": "Q11481283",
-"label": "chōdai",
-"gloss": "Building",
-"year": null,
-"sl": 2,
-"country": ""
 },
 {
 "qid": "Q126391445",
@@ -70876,22 +71352,6 @@
 "year": null,
 "sl": 1,
 "country": "Japan"
-},
-{
-"qid": "Q127504825",
-"label": "itakarado",
-"gloss": "Architectural element",
-"year": null,
-"sl": 1,
-"country": ""
-},
-{
-"qid": "Q11481381",
-"label": "tsune no gosho",
-"gloss": "Building",
-"year": null,
-"sl": 1,
-"country": ""
 }
 ]
 ]
@@ -70899,7 +71359,8 @@
 },
 "K8-13": {
 "t": 1,
-"total": 16,
+"total": 7,
+"wd": false,
 "sections": [
 [
 "Shuden-zukuri halls",
@@ -70942,14 +71403,6 @@
 "country": "Japan"
 },
 {
-"qid": "Q3482442",
-"label": "shoin",
-"gloss": "Building",
-"year": null,
-"sl": 9,
-"country": ""
-},
-{
 "qid": "Q21652486",
 "label": "Imanishi Shoin",
 "gloss": "Shoin, Japan · Important Cultural Property of Japan",
@@ -70966,76 +71419,12 @@
 "country": "Japan"
 },
 {
-"qid": "Q11626541",
-"label": "fukurodana",
-"gloss": "Building",
-"year": null,
-"sl": 2,
-"country": ""
-},
-{
 "qid": "Q107020570",
 "label": "Kanchi-in Kyakuden",
 "gloss": "Historic house, Japan · National Treasure of Japan",
 "year": null,
 "sl": 1,
 "country": "Japan"
-},
-{
-"qid": "Q131394080",
-"label": "garden gate",
-"gloss": "Building",
-"year": null,
-"sl": 1,
-"country": ""
-},
-{
-"qid": "Q131175708",
-"label": "hira-shoin",
-"gloss": "Architectural element",
-"year": null,
-"sl": 1,
-"country": ""
-},
-{
-"qid": "Q131373010",
-"label": "otoshigake",
-"gloss": "Wooden structure",
-"year": null,
-"sl": 1,
-"country": ""
-},
-{
-"qid": "Q115054340",
-"label": "round window",
-"gloss": "Building",
-"year": null,
-"sl": 1,
-"country": ""
-},
-{
-"qid": "Q131562120",
-"label": "shoinniwa",
-"gloss": "Building",
-"year": null,
-"sl": 1,
-"country": ""
-},
-{
-"qid": "Q131359649",
-"label": "tokobashira",
-"gloss": "Building",
-"year": null,
-"sl": 1,
-"country": ""
-},
-{
-"qid": "Q131190350",
-"label": "tsuke-shoin",
-"gloss": "Building",
-"year": null,
-"sl": 1,
-"country": ""
 }
 ]
 ]
@@ -71043,7 +71432,8 @@
 },
 "K8-14": {
 "t": 1,
-"total": 44,
+"total": 29,
+"wd": false,
 "sections": [
 [
 "Sukiya-zukuri villas and residences",
@@ -71171,131 +71561,6 @@
 ]
 ],
 [
-"Chashitsu (tea houses)",
-[
-{
-"qid": "Q402729",
-"label": "roji",
-"gloss": "Type of garden",
-"year": null,
-"sl": 15,
-"country": ""
-},
-{
-"qid": "Q9335037",
-"label": "tomeishi",
-"gloss": "Built structure",
-"year": null,
-"sl": 3,
-"country": ""
-},
-{
-"qid": "Q11626541",
-"label": "fukurodana",
-"gloss": "Building",
-"year": null,
-"sl": 2,
-"country": ""
-},
-{
-"qid": "Q131394109",
-"label": "chūmon",
-"gloss": "Building",
-"year": null,
-"sl": 1,
-"country": ""
-},
-{
-"qid": "Q131394080",
-"label": "garden gate",
-"gloss": "Building",
-"year": null,
-"sl": 1,
-"country": ""
-},
-{
-"qid": "Q131554092",
-"label": "koshibari",
-"gloss": "Architectural element",
-"year": null,
-"sl": 1,
-"country": ""
-},
-{
-"qid": "Q124357369",
-"label": "koshikake machiai",
-"gloss": "Building",
-"year": null,
-"sl": 1,
-"country": ""
-},
-{
-"qid": "Q131552636",
-"label": "machiai",
-"gloss": "Building",
-"year": null,
-"sl": 1,
-"country": ""
-},
-{
-"qid": "Q131577743",
-"label": "ochitenjō",
-"gloss": "Architectural element",
-"year": null,
-"sl": 1,
-"country": ""
-},
-{
-"qid": "Q131577002",
-"label": "oribemado",
-"gloss": "Architectural element",
-"year": null,
-"sl": 1,
-"country": ""
-},
-{
-"qid": "Q131373010",
-"label": "otoshigake",
-"gloss": "Wooden structure",
-"year": null,
-"sl": 1,
-"country": ""
-},
-{
-"qid": "Q115054340",
-"label": "round window",
-"gloss": "Building",
-"year": null,
-"sl": 1,
-"country": ""
-},
-{
-"qid": "Q131566798",
-"label": "sanban-ishi",
-"gloss": "Building",
-"year": null,
-"sl": 1,
-"country": ""
-},
-{
-"qid": "Q131582251",
-"label": "sudarebaritenjō",
-"gloss": "Architectural element",
-"year": null,
-"sl": 1,
-"country": ""
-},
-{
-"qid": "Q131359649",
-"label": "tokobashira",
-"gloss": "Building",
-"year": null,
-"sl": 1,
-"country": ""
-}
-]
-],
-[
 "Modern Japanese-style (kindai wafū) buildings",
 [
 {
@@ -71416,7 +71681,8 @@
 },
 "K8-15": {
 "t": 1,
-"total": 53,
+"total": 50,
+"wd": false,
 "sections": [
 [
 "Nōka farmhouses",
@@ -71470,27 +71736,11 @@
 "country": "Japan"
 },
 {
-"qid": "Q17222820",
-"label": "machiya",
-"gloss": "Architectural style, Japan",
-"year": null,
-"sl": 20,
-"country": "Japan"
-},
-{
 "qid": "Q11379620",
 "label": "Ine-ura",
 "gloss": "Architectural ensemble, Japan · Important Preservation District for a Group of Traditional Buildings",
 "year": null,
 "sl": 4,
-"country": "Japan"
-},
-{
-"qid": "Q11411321",
-"label": "kominka",
-"gloss": "Japan",
-"year": null,
-"sl": 3,
 "country": "Japan"
 },
 {
@@ -71532,14 +71782,6 @@
 "year": null,
 "sl": 1,
 "country": "Japan"
-},
-{
-"qid": "Q131359649",
-"label": "tokobashira",
-"gloss": "Building",
-"year": null,
-"sl": 1,
-"country": ""
 }
 ]
 ],
@@ -71882,6 +72124,7 @@
 "K8-16": {
 "t": 5,
 "total": 241,
+"wd": false,
 "sections": [
 [
 "Japanese castles: Chūbu",
@@ -73856,6 +74099,7 @@
 "K8-17": {
 "t": 5,
 "total": 80,
+"wd": false,
 "sections": [
 [
 "Keyhole-shaped kofun (zenpō-kōen-fun)",
@@ -74532,6 +74776,7 @@
 "K8-18": {
 "t": 1,
 "total": 6,
+"wd": false,
 "sections": [
 [
 "Ryukyuan gusuku, palaces and tombs",
@@ -74591,6 +74836,7 @@
 "K8-19": {
 "t": 1,
 "total": 30,
+"wd": false,
 "sections": [
 [
 "Giyōfū buildings",
@@ -74847,6 +75093,7 @@
 "K8-20": {
 "t": 1,
 "total": 301,
+"wd": false,
 "sections": [
 [
 "Three Kingdoms and Unified Silla temples",
@@ -77324,13 +77571,197 @@
 ]
 },
 "K8-21": {
-"t": null,
-"total": 0,
-"sections": []
+"t": 1,
+"total": 22,
+"wd": true,
+"sections": [
+[
+"Hanok villages and houses",
+[
+{
+"qid": "Q12583799",
+"label": "Gyeongungung Palace Yangijae",
+"gloss": "Seoul, South Korea, 1905 · Registered Cultural Property of the Republic of Korea",
+"year": 1905,
+"sl": 2,
+"country": "South Korea"
+},
+{
+"qid": "Q61091444",
+"label": "Taean Dongmun-ri Modern Hanok",
+"gloss": "Taean County, South Korea, 1930 · Registered Cultural Property of the Republic of Korea",
+"year": 1930,
+"sl": 1,
+"country": "South Korea"
+},
+{
+"qid": "Q12589626",
+"label": "Naju Dorae Village Old House",
+"gloss": "South Korea, 1936 · Q83432895",
+"year": 1936,
+"sl": 1,
+"country": "South Korea"
+},
+{
+"qid": "Q17564545",
+"label": "Donamjang House",
+"gloss": "Seongbuk District, South Korea, 1939 · Registered Cultural Property of the Republic of Korea",
+"year": 1939,
+"sl": 1,
+"country": "South Korea"
+},
+{
+"qid": "Q7286703",
+"label": "Rakkojae",
+"gloss": "Gye-dong, South Korea, 2003",
+"year": 2003,
+"sl": 3,
+"country": "South Korea"
+},
+{
+"qid": "Q5623292",
+"label": "Gwangajeong",
+"gloss": "North Gyeongsang, South Korea · Treasure of the Republic of Korea",
+"year": null,
+"sl": 4,
+"country": "South Korea"
+},
+{
+"qid": "Q13420245",
+"label": "Andong Imcheonggak",
+"gloss": "North Gyeongsang, South Korea · Treasure of the Republic of Korea",
+"year": null,
+"sl": 2,
+"country": "South Korea"
+},
+{
+"qid": "Q16096281",
+"label": "Dongchundang",
+"gloss": "Daejeon, South Korea · Treasure of the Republic of Korea",
+"year": null,
+"sl": 2,
+"country": "South Korea"
+},
+{
+"qid": "Q12584964",
+"label": "Gwanhun-dong Min family house",
+"gloss": "Jung District, South Korea · list of Folk Cultural Heritage of Seoul",
+"year": null,
+"sl": 2,
+"country": "South Korea"
+},
+{
+"qid": "Q12616307",
+"label": "Haepungbuwongun Yoon Taek-yeong's residence",
+"gloss": "Jung District, South Korea · list of Folk Cultural Heritage of Seoul",
+"year": null,
+"sl": 2,
+"country": "South Korea"
+},
+{
+"qid": "Q12622577",
+"label": "Hahoe Chunghyodang",
+"gloss": "North Gyeongsang, South Korea · Treasure of the Republic of Korea",
+"year": null,
+"sl": 2,
+"country": "South Korea"
+},
+{
+"qid": "Q23995052",
+"label": "Kim Byeongho's House",
+"gloss": "Gyeonggi Province, South Korea · Folk Cultural Heritage of Gyeonggi-do",
+"year": null,
+"sl": 2,
+"country": "South Korea"
+},
+{
+"qid": "Q16093913",
+"label": "Mucheomdang",
+"gloss": "North Gyeongsang, South Korea · Treasure of the Republic of Korea",
+"year": null,
+"sl": 2,
+"country": "South Korea"
+},
+{
+"qid": "Q27953746",
+"label": "Okin-dong Yoon House",
+"gloss": "South Korea · list of Folk Cultural Heritage of Seoul",
+"year": null,
+"sl": 2,
+"country": "South Korea"
+},
+{
+"qid": "Q12600354",
+"label": "Owijang Kim Chun-yeong's house",
+"gloss": "Jung District, South Korea · list of Folk Cultural Heritage of Seoul",
+"year": null,
+"sl": 2,
+"country": "South Korea"
+},
+{
+"qid": "Q19939403",
+"label": "Unjoru",
+"gloss": "South Jeolla, South Korea · National Folklore Cultural Heritage",
+"year": null,
+"sl": 2,
+"country": "South Korea"
+},
+{
+"qid": "Q24539336",
+"label": "Yi Sangbeom's House and Atelier in Nuha-dong, Seoul",
+"gloss": "Seoul, South Korea · Registered Cultural Property of the Republic of Korea",
+"year": null,
+"sl": 2,
+"country": "South Korea"
+},
+{
+"qid": "Q18380670",
+"label": "Galcheon-dong Thatched Magpie Hole House",
+"gloss": "North Gyeongsang, South Korea · National Folklore Cultural Heritage",
+"year": null,
+"sl": 1,
+"country": "South Korea"
+},
+{
+"qid": "Q65236401",
+"label": "Jehojeong Historic House, Gokseong",
+"gloss": "South Jeolla, South Korea · Q16177294",
+"year": null,
+"sl": 1,
+"country": "South Korea"
+},
+{
+"qid": "Q19598860",
+"label": "Main space of Heungcheonsa Temple, Seoul",
+"gloss": "Seoul, South Korea · Registered Cultural Property of the Republic of Korea",
+"year": null,
+"sl": 1,
+"country": "South Korea"
+},
+{
+"qid": "Q19000226",
+"label": "Seoul Changnyeongwigung Jaesa",
+"gloss": "Seoul, South Korea · Registered Cultural Property of the Republic of Korea",
+"year": null,
+"sl": 1,
+"country": "South Korea"
+},
+{
+"qid": "Q28700896",
+"label": "Song Yongeok's house",
+"gloss": "Daejeon, South Korea · list of Cultural Heritage properties of Daejeon Metropolitan City",
+"year": null,
+"sl": 1,
+"country": "South Korea"
+}
+]
+]
+]
 },
 "K9-1": {
 "t": 1,
 "total": 137,
+"wd": false,
 "sections": [
 [
 "Pre-Angkorian temples",
@@ -78473,6 +78904,7 @@
 "K9-2": {
 "t": 1,
 "total": 134,
+"wd": false,
 "sections": [
 [
 "Central Javanese candi (Mataram)",
@@ -79570,7 +80002,8 @@
 },
 "K9-3": {
 "t": 1,
-"total": 112,
+"total": 111,
+"wd": false,
 "sections": [
 [
 "Balinese pura (temples)",
@@ -80464,30 +80897,19 @@
 "country": "Indonesia"
 }
 ]
-],
-[
-"Balinese buildings, other",
-[
-{
-"qid": "Q11124955",
-"label": "candi bentar",
-"gloss": "Building",
-"year": null,
-"sl": 12,
-"country": ""
-}
-]
 ]
 ]
 },
 "K9-4": {
 "t": null,
 "total": 0,
+"wd": false,
 "sections": []
 },
 "K9-5": {
 "t": 1,
 "total": 105,
+"wd": false,
 "sections": [
 [
 "Pagan temples and stupas",
@@ -81364,6 +81786,7 @@
 "K9-6": {
 "t": 3,
 "total": 188,
+"wd": false,
 "sections": [
 [
 "Sukhothai",
@@ -82914,6 +83337,7 @@
 "K9-7": {
 "t": 1,
 "total": 47,
+"wd": false,
 "sections": [
 [
 "Lao temples and stupas",
@@ -83301,6 +83725,7 @@
 "K9-8": {
 "t": 1,
 "total": 39,
+"wd": false,
 "sections": [
 [
 "Cham temple towers",
@@ -83624,6 +84049,7 @@
 "K9-9": {
 "t": 1,
 "total": 59,
+"wd": false,
 "sections": [
 [
 "Vietnamese Buddhist pagodas",
@@ -84112,16 +84538,19 @@
 "K9-10": {
 "t": null,
 "total": 0,
+"wd": false,
 "sections": []
 },
 "K9-11": {
 "t": null,
 "total": 0,
+"wd": false,
 "sections": []
 },
 "K9-12": {
 "t": 1,
 "total": 11,
+"wd": false,
 "sections": [
 [
 "Bahay na bato houses",
@@ -84221,6 +84650,7 @@
 "K9-13": {
 "t": 1,
 "total": 1,
+"wd": false,
 "sections": [
 [
 "Sino-Portuguese buildings",
@@ -84240,6 +84670,7 @@
 "K9-14": {
 "t": 1,
 "total": 3,
+"wd": false,
 "sections": [
 [
 "Malay houses and palaces",
@@ -84275,6 +84706,7 @@
 "K10-1": {
 "t": 1,
 "total": 1,
+"wd": false,
 "sections": [
 [
 "Aksumite sites",
@@ -84294,6 +84726,7 @@
 "K10-2": {
 "t": 1,
 "total": 30,
+"wd": false,
 "sections": [
 [
 "Rock-hewn churches",
@@ -84545,6 +84978,7 @@
 "K10-3": {
 "t": 1,
 "total": 8,
+"wd": false,
 "sections": [
 [
 "Gondarine castles and churches",
@@ -84620,6 +85054,7 @@
 "K10-4": {
 "t": 1,
 "total": 61,
+"wd": false,
 "sections": [
 [
 "Kushite pyramids, temples and towns",
@@ -85119,6 +85554,7 @@
 "K10-5": {
 "t": 1,
 "total": 18,
+"wd": false,
 "sections": [
 [
 "Zimbabwe culture dry-stone sites",
@@ -85274,6 +85710,7 @@
 "K10-6": {
 "t": 1,
 "total": 201,
+"wd": false,
 "sections": [
 [
 "Maghrebi ksour and kasbahs: Morocco",
@@ -86913,11 +87350,13 @@
 "K10-7": {
 "t": null,
 "total": 0,
+"wd": false,
 "sections": []
 },
 "K11-1": {
 "t": 1,
-"total": 316,
+"total": 315,
+"wd": false,
 "sections": [
 [
 "Southern lowland Maya (Petén, Usumacinta, Belize): Guatemala",
@@ -89174,14 +89613,6 @@
 "country": "Quintana Roo"
 },
 {
-"qid": "Q113197",
-"label": "culuba",
-"gloss": "Archaeological site, Yucatán, Mexico",
-"year": null,
-"sl": 9,
-"country": "Mexico"
-},
-{
 "qid": "Q839010",
 "label": "Танка",
 "gloss": "Archaeological site, Quintana Roo, Mexico",
@@ -89497,6 +89928,7 @@
 "K11-2": {
 "t": 1,
 "total": 146,
+"wd": false,
 "sections": [
 [
 "Olmec sites",
@@ -90716,6 +91148,7 @@
 "K11-3": {
 "t": 1,
 "total": 5,
+"wd": false,
 "sections": [
 [
 "Aztec sites",
@@ -90766,7 +91199,8 @@
 },
 "K11-4": {
 "t": 1,
-"total": 122,
+"total": 121,
+"wd": false,
 "sections": [
 [
 "Inca sites",
@@ -91716,14 +92150,6 @@
 "country": "Peru"
 },
 {
-"qid": "Q139134998",
-"label": "kusikallanka",
-"gloss": "Archaeological site, Cusco Department, Peru",
-"year": null,
-"sl": 1,
-"country": "Peru"
-},
-{
 "qid": "Q139071197",
 "label": "Ñustapacana",
 "gloss": "Archaeological site, Cusco Department, Peru",
@@ -91754,6 +92180,7 @@
 "K11-5": {
 "t": 1,
 "total": 228,
+"wd": false,
 "sections": [
 [
 "Caral / Norte Chico",
@@ -93679,6 +94106,7 @@
 "K11-6": {
 "t": 1,
 "total": 255,
+"wd": false,
 "sections": [
 [
 "Ancestral Puebloan great houses, cliff dwellings and pueblos: New Mexico",
@@ -95750,6 +96178,7 @@
 "K11-7": {
 "t": 1,
 "total": 25,
+"wd": false,
 "sections": [
 [
 "Mound Builder earthworks",
@@ -95960,7 +96389,8 @@
 },
 "K12-5": {
 "t": 1,
-"total": 7,
+"total": 98,
+"wd": true,
 "sections": [
 [
 "Marae",
@@ -95972,6 +96402,742 @@
 "year": null,
 "sl": 15,
 "country": "France"
+},
+{
+"qid": "Q141979452",
+"label": "Waiwhetū Marae",
+"gloss": "Wellington Region, New Zealand, 1960",
+"year": 1960,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q122713371",
+"label": "Piritahi Marae",
+"gloss": "Auckland Region, New Zealand, 1976",
+"year": 1976,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q116228469",
+"label": "Hoani Waititi Marae",
+"gloss": "Auckland Region, New Zealand, 1980",
+"year": 1980,
+"sl": 2,
+"country": "New Zealand"
+},
+{
+"qid": "Q119081276",
+"label": "Te Herenga Waka Marae",
+"gloss": "Wellington City, New Zealand, 1980",
+"year": 1980,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q117833709",
+"label": "Awataha Marae",
+"gloss": "Auckland Region, New Zealand, 1986",
+"year": 1986,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q25659258",
+"label": "Waipapa Marae",
+"gloss": "Auckland Region, New Zealand, 1988",
+"year": 1988,
+"sl": 2,
+"country": "New Zealand"
+},
+{
+"qid": "Q137669411",
+"label": "Takahanga",
+"gloss": "Kaikōura District, New Zealand, 1992 · Heritage New Zealand Category 2 historic place listing",
+"year": 1992,
+"sl": 4,
+"country": "New Zealand"
+},
+{
+"qid": "Q121270002",
+"label": "Ngā Wai-o-Horotiu Marae",
+"gloss": "Auckland Region, New Zealand, 1997",
+"year": 1997,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q141112343",
+"label": "Te Taua Moana O Aotearoa Marae",
+"gloss": "Auckland Region, New Zealand, 2000",
+"year": 2000,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q140967902",
+"label": "Pukemokimoki Marae",
+"gloss": "Hawke's Bay Region, New Zealand, 2007",
+"year": 2007,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q106857458",
+"label": "Te Wheke",
+"gloss": "Christchurch City, New Zealand, 2010",
+"year": 2010,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q28181103",
+"label": "Mangahanea Marae",
+"gloss": "Gisborne District, New Zealand",
+"year": null,
+"sl": 3,
+"country": "New Zealand"
+},
+{
+"qid": "Q6749445",
+"label": "Maniaiti Marae",
+"gloss": "New Zealand",
+"year": null,
+"sl": 2,
+"country": "New Zealand"
+},
+{
+"qid": "Q25659256",
+"label": "Murihiku Marae",
+"gloss": "New Zealand",
+"year": null,
+"sl": 2,
+"country": "New Zealand"
+},
+{
+"qid": "Q128304568",
+"label": "Ngā Hau e Whā National Marae",
+"gloss": "Christchurch City, New Zealand",
+"year": null,
+"sl": 2,
+"country": "New Zealand"
+},
+{
+"qid": "Q136483013",
+"label": "Rehua Marae",
+"gloss": "Christchurch City, New Zealand",
+"year": null,
+"sl": 2,
+"country": "New Zealand"
+},
+{
+"qid": "Q87737717",
+"label": "Rongomaraeroa",
+"gloss": "Wellington City, New Zealand",
+"year": null,
+"sl": 2,
+"country": "New Zealand"
+},
+{
+"qid": "Q7684851",
+"label": "Tapu Te Ranga Marae",
+"gloss": "Wellington City, New Zealand",
+"year": null,
+"sl": 2,
+"country": "New Zealand"
+},
+{
+"qid": "Q7690897",
+"label": "Te Papaiouru Marae",
+"gloss": "Bay of Plenty Region, New Zealand",
+"year": null,
+"sl": 2,
+"country": "New Zealand"
+},
+{
+"qid": "Q110876142",
+"label": "Te Puea Memorial Marae",
+"gloss": "Auckland Region, New Zealand",
+"year": null,
+"sl": 2,
+"country": "New Zealand"
+},
+{
+"qid": "Q25659273",
+"label": "Te Tauraka Waka a Māui marae",
+"gloss": "Westland District, New Zealand",
+"year": null,
+"sl": 2,
+"country": "New Zealand"
+},
+{
+"qid": "Q7862772",
+"label": "Turangawaewae",
+"gloss": "Ngāruawāhia, New Zealand",
+"year": null,
+"sl": 2,
+"country": "New Zealand"
+},
+{
+"qid": "Q32117307",
+"label": "Anaura Marae",
+"gloss": "Gisborne District, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32118567",
+"label": "Aotearoa Marae",
+"gloss": "Waikato Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q108002135",
+"label": "Arahura Marae",
+"gloss": "Westland District, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32123791",
+"label": "Awhakauaeroa Marae",
+"gloss": "Manawatū-Whanganui Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q61437875",
+"label": "Faanui",
+"gloss": "Bora-Bora, France",
+"year": null,
+"sl": 1,
+"country": "France"
+},
+{
+"qid": "Q32214752",
+"label": "Hakatere Marae",
+"gloss": "Ashburton District, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32221746",
+"label": "Hinepare Marae",
+"gloss": "Gisborne District, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32221770",
+"label": "Hinerupe Marae",
+"gloss": "Gisborne District, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32221933",
+"label": "Hirangi Marae",
+"gloss": "Taupō District, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32224063",
+"label": "Horahora Marae",
+"gloss": "Waikato Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32225822",
+"label": "Hukanui Marae",
+"gloss": "Waikato Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32227446",
+"label": "Ihupuku Marae",
+"gloss": "South Taranaki District, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32230921",
+"label": "Kaia Te Mata Marae",
+"gloss": "Matamata-Piako District, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32231051",
+"label": "Kaiaua Marae",
+"gloss": "Waikato Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32232618",
+"label": "Kaiwaha Marae",
+"gloss": "Northland Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32232645",
+"label": "Kaiwaka Marae",
+"gloss": "Gisborne District, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32234499",
+"label": "Karetu Marae",
+"gloss": "Northland Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32234569",
+"label": "Kariaka Marae",
+"gloss": "Gisborne District, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32236727",
+"label": "Kiekie Marae",
+"gloss": "Gisborne District, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32238914",
+"label": "Kokohuia Marae",
+"gloss": "Northland Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32240143",
+"label": "Korohe Marae",
+"gloss": "Taupō District, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32240265",
+"label": "Korongata Marae",
+"gloss": "Hawke's Bay Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32240443",
+"label": "Kotahitanga Marae",
+"gloss": "Northland Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32251211",
+"label": "Mahitamariki Marae",
+"gloss": "Taranaki Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32251458",
+"label": "Mahuri Marae",
+"gloss": "Northland Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32262735",
+"label": "Mangaraama Marae",
+"gloss": "Waikato Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32263409",
+"label": "Mangaroa Hauora Marae",
+"gloss": "Hawke's Bay Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q16908625",
+"label": "Mangatautari marae",
+"gloss": "New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32265300",
+"label": "Mangatoatoa Marae",
+"gloss": "Waikato Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32267583",
+"label": "Maniaroa Marae",
+"gloss": "Waikato Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32268303",
+"label": "Manutahi Marae",
+"gloss": "Taranaki Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q140756903",
+"label": "Marae Mahaiatea",
+"gloss": "Papara, France",
+"year": null,
+"sl": 1,
+"country": "France"
+},
+{
+"qid": "Q32269083",
+"label": "Maraenui Marae",
+"gloss": "Ōpōtiki District, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32271457",
+"label": "Matahiwi Marae",
+"gloss": "Hawke's Bay Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32272351",
+"label": "Matarae Pa",
+"gloss": "Waikato Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32273564",
+"label": "Matiti Marae",
+"gloss": "Waikato Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32274450",
+"label": "Maurea Marae",
+"gloss": "Waikato Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32280355",
+"label": "Mohinui Marae",
+"gloss": "Northland Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32280441",
+"label": "Mokai Marae",
+"gloss": "Waikato Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32282369",
+"label": "Moria Marae",
+"gloss": "Northland Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32283022",
+"label": "Motiti Marae",
+"gloss": "Waikato Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32283624",
+"label": "Motuiti Marae",
+"gloss": "Manawatū-Whanganui Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q25660577",
+"label": "Mātaikōtare (Waiōhewa) Marae",
+"gloss": "Bay of Plenty Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32280523",
+"label": "Mōkau Marae",
+"gloss": "Northland Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32295292",
+"label": "Nga Tau E Rua Marae",
+"gloss": "Waikato Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32295527",
+"label": "Ngahutoitoi Marae",
+"gloss": "Hauraki District, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32296697",
+"label": "Ngaroto Marae",
+"gloss": "Waikato Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32297302",
+"label": "Ngatitoro Marae",
+"gloss": "Northland Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32297905",
+"label": "Ngawha Marae",
+"gloss": "Northland Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32302348",
+"label": "Ohako Marae",
+"gloss": "Gisborne District, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32306847",
+"label": "Omanaia Marae",
+"gloss": "Far North District, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q120768945",
+"label": "Parewahawaha Marae",
+"gloss": "Manawatū-Whanganui Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q140198454",
+"label": "Pipitea Marae",
+"gloss": "Wellington City, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32218241",
+"label": "Rongomai Marae",
+"gloss": "Taupō District, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q118393866",
+"label": "Ruaka Marae",
+"gloss": "Manawatū-Whanganui Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q7378896",
+"label": "Rukumoana Marae",
+"gloss": "New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32222604",
+"label": "Te Hokowhitu a Tū ki te Rāhui Marae",
+"gloss": "Bay of Plenty Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q139569335",
+"label": "Te Pā o Moki marae",
+"gloss": "Selwyn District, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q7690994",
+"label": "Te Tomairangi Marae",
+"gloss": "New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q136750161",
+"label": "Te Āwhina Marae",
+"gloss": "Tasman District, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q139620021",
+"label": "Tikapa Marae",
+"gloss": "Gisborne District, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q25659275",
+"label": "Waihī Marae",
+"gloss": "New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q140250631",
+"label": "Whakatū Marae",
+"gloss": "Nelson City, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q134880007",
+"label": "Ārai Te Uru Marae",
+"gloss": "Wakari, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32303477",
+"label": "Ōhinewaiapu Marae",
+"gloss": "Gisborne District, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q32307713",
+"label": "Ōmuriwaka Marae",
+"gloss": "Whakatāne District, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q81612425",
+"label": "Ōnuku Marae",
+"gloss": "Christchurch City, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q118959408",
+"label": "Ōrākei Marae",
+"gloss": "Auckland Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q79309369",
+"label": "Kauhanganui",
+"gloss": "Matamata-Piako District, New Zealand · Heritage New Zealand Category 1 historic place listing",
+"year": null,
+"sl": 0,
+"country": "New Zealand"
+},
+{
+"qid": "Q79348994",
+"label": "Pāpāwai Marae",
+"gloss": "Wellington Region, New Zealand · Wāhi Tūpuna",
+"year": null,
+"sl": 0,
+"country": "New Zealand"
 }
 ]
 ],
@@ -95984,14 +97150,6 @@
 "gloss": "Isla de Pascua Province, Chile, 1935 · UNESCO World Heritage Site",
 "year": 1935,
 "sl": 39,
-"country": "Chile"
-},
-{
-"qid": "Q20350",
-"label": "moai",
-"gloss": "Archaeological site, Valparaíso Region, Chile",
-"year": null,
-"sl": 78,
 "country": "Chile"
 },
 {
@@ -96037,7 +97195,8 @@
 },
 "K12-6": {
 "t": 1,
-"total": 2,
+"total": 1,
+"wd": true,
 "sections": [
 [
 "Saudeleur megalithic sites",
@@ -96049,14 +97208,6 @@
 "year": null,
 "sl": 53,
 "country": "Federated States of Micronesia"
-},
-{
-"qid": "Q17366581",
-"label": "Leluh",
-"gloss": "Archaeological site, Kosrae State, Federated States of Micronesia · National Register of Historic Places listed place",
-"year": null,
-"sl": 9,
-"country": "Federated States of Micronesia"
 }
 ]
 ]
@@ -96064,7 +97215,8 @@
 },
 "K12-7": {
 "t": 1,
-"total": 1,
+"total": 17,
+"wd": true,
 "sections": [
 [
 "Churches of Chiloé",
@@ -96076,6 +97228,134 @@
 "year": null,
 "sl": 33,
 "country": "Chile"
+},
+{
+"qid": "Q501072",
+"label": "Church of Santa María de Loreto",
+"gloss": "Quinchao, Chile · UNESCO World Heritage Site",
+"year": null,
+"sl": 11,
+"country": "Chile"
+},
+{
+"qid": "Q501103",
+"label": "Church of San Francisco",
+"gloss": "Castro, Chile · UNESCO World Heritage Site",
+"year": null,
+"sl": 10,
+"country": "Chile"
+},
+{
+"qid": "Q501110",
+"label": "Church of Tenaún",
+"gloss": "Dalcahue, Chile · UNESCO World Heritage Site",
+"year": null,
+"sl": 9,
+"country": "Chile"
+},
+{
+"qid": "Q501097",
+"label": "Church of Caguach",
+"gloss": "Quinchao, Chile · UNESCO World Heritage Site",
+"year": null,
+"sl": 8,
+"country": "Chile"
+},
+{
+"qid": "Q500764",
+"label": "Church of Chelín",
+"gloss": "Castro, Chile · UNESCO World Heritage Site",
+"year": null,
+"sl": 8,
+"country": "Chile"
+},
+{
+"qid": "Q500215",
+"label": "Church of Chonchi",
+"gloss": "Chonchi, Chile · UNESCO World Heritage Site",
+"year": null,
+"sl": 8,
+"country": "Chile"
+},
+{
+"qid": "Q500226",
+"label": "Church of Colo",
+"gloss": "Quemchi, Chile · UNESCO World Heritage Site",
+"year": null,
+"sl": 8,
+"country": "Chile"
+},
+{
+"qid": "Q500796",
+"label": "Church of Our Lady of Sorrows",
+"gloss": "Dalcahue, Chile · UNESCO World Heritage Site",
+"year": null,
+"sl": 8,
+"country": "Chile"
+},
+{
+"qid": "Q500718",
+"label": "Church of Quinchao",
+"gloss": "Quinchao, Chile · UNESCO World Heritage Site",
+"year": null,
+"sl": 8,
+"country": "Chile"
+},
+{
+"qid": "Q2065592",
+"label": "Church of San Juan Bautista",
+"gloss": "Dalcahue, Chile · UNESCO World Heritage Site",
+"year": null,
+"sl": 8,
+"country": "Chile"
+},
+{
+"qid": "Q500720",
+"label": "Church of Vilupulli",
+"gloss": "Chonchi, Chile · UNESCO World Heritage Site",
+"year": null,
+"sl": 8,
+"country": "Chile"
+},
+{
+"qid": "Q501433",
+"label": "Church of Aldachildo",
+"gloss": "Puqueldón, Chile · UNESCO World Heritage Site",
+"year": null,
+"sl": 7,
+"country": "Chile"
+},
+{
+"qid": "Q501093",
+"label": "Church of Detif",
+"gloss": "Puqueldón, Chile · UNESCO World Heritage Site",
+"year": null,
+"sl": 7,
+"country": "Chile"
+},
+{
+"qid": "Q501126",
+"label": "Church of Ichuac",
+"gloss": "Puqueldón, Chile · UNESCO World Heritage Site",
+"year": null,
+"sl": 7,
+"country": "Chile"
+},
+{
+"qid": "Q500808",
+"label": "Church of Rilán",
+"gloss": "Castro, Chile · UNESCO World Heritage Site",
+"year": null,
+"sl": 7,
+"country": "Chile"
+},
+{
+"qid": "Q501153",
+"label": "Church of Nercón",
+"gloss": "Castro, Chile · UNESCO World Heritage Site",
+"year": null,
+"sl": 6,
+"country": "Chile"
 }
 ]
 ]
@@ -96083,26 +97363,14 @@
 },
 "K12-8": {
 "t": 1,
-"total": 1,
-"sections": [
-[
-"British vernacular buildings",
-[
-{
-"qid": "Q134479369",
-"label": "Rynwood",
-"gloss": "Building, United States, 1927",
-"year": 1927,
-"sl": 1,
-"country": "United States"
-}
-]
-]
-]
+"total": 0,
+"wd": false,
+"sections": []
 },
 "K12-9": {
 "t": 1,
 "total": 18,
+"wd": false,
 "sections": [
 [
 "Fachwerk houses in Germany",
@@ -96257,26 +97525,14 @@
 },
 "K12-11": {
 "t": 1,
-"total": 1,
-"sections": [
-[
-"Vainakh towers",
-[
-{
-"qid": "Q16675806",
-"label": "9 towers",
-"gloss": "Organization, Russia, 1996 · local cultural heritage site in Russia",
-"year": 1996,
-"sl": 6,
-"country": "Russia"
-}
-]
-]
-]
+"total": 0,
+"wd": false,
+"sections": []
 },
 "K12-14": {
 "t": 1,
 "total": 32,
+"wd": false,
 "sections": [
 [
 "I-houses",
@@ -96569,6 +97825,7 @@
 "K12-17": {
 "t": 1,
 "total": 1,
+"wd": false,
 "sections": [
 [
 "French vernacular buildings",
@@ -96588,6 +97845,7 @@
 "K12-18": {
 "t": 1,
 "total": 2,
+"wd": false,
 "sections": [
 [
 "Cycladic buildings",
@@ -96614,7 +97872,8 @@
 },
 "K12-12": {
 "t": 1,
-"total": 13,
+"total": 32,
+"wd": true,
 "sections": [
 [
 "Hórreos",
@@ -96722,6 +97981,158 @@
 "year": null,
 "sl": 1,
 "country": "Spain"
+},
+{
+"qid": "Q20492359",
+"label": "Casa Elizondo",
+"gloss": "Hiriberri/Villanueva de Aezkoa, Spain · bien de interés cultural",
+"year": null,
+"sl": 3,
+"country": "Spain"
+},
+{
+"qid": "Q96095428",
+"label": "Casa Etxeberri",
+"gloss": "Aria, Spain · bien de interés cultural",
+"year": null,
+"sl": 3,
+"country": "Spain"
+},
+{
+"qid": "Q20492769",
+"label": "Casa Jabat",
+"gloss": "Orbara, Spain · bien de interés cultural",
+"year": null,
+"sl": 3,
+"country": "Spain"
+},
+{
+"qid": "Q20492144",
+"label": "Casa Jauki",
+"gloss": "Hiriberri/Villanueva de Aezkoa, Spain · bien de interés cultural",
+"year": null,
+"sl": 3,
+"country": "Spain"
+},
+{
+"qid": "Q20492277",
+"label": "Casa Larrañeta",
+"gloss": "Orbaizeta, Spain · bien de interés cultural",
+"year": null,
+"sl": 3,
+"country": "Spain"
+},
+{
+"qid": "Q20492376",
+"label": "Casa Maisterra",
+"gloss": "Garaioa, Spain · bien de interés cultural",
+"year": null,
+"sl": 3,
+"country": "Spain"
+},
+{
+"qid": "Q20492401",
+"label": "Casa Masamiguel",
+"gloss": "Garralda, Spain · bien de interés cultural",
+"year": null,
+"sl": 3,
+"country": "Spain"
+},
+{
+"qid": "Q20492575",
+"label": "Casa Portal",
+"gloss": "Hiriberri/Villanueva de Aezkoa, Spain · bien de interés cultural",
+"year": null,
+"sl": 3,
+"country": "Spain"
+},
+{
+"qid": "Q20492589",
+"label": "Casa Reca",
+"gloss": "Hiriberri/Villanueva de Aezkoa, Spain · bien de interés cultural",
+"year": null,
+"sl": 3,
+"country": "Spain"
+},
+{
+"qid": "Q20492453",
+"label": "Etxegarai house",
+"gloss": "Orbaizeta, Spain · bien de interés cultural",
+"year": null,
+"sl": 3,
+"country": "Spain"
+},
+{
+"qid": "Q20492374",
+"label": "Hórreo de Erdozáin",
+"gloss": "Lónguida – Longida, Spain · bien de interés cultural",
+"year": null,
+"sl": 3,
+"country": "Spain"
+},
+{
+"qid": "Q20492354",
+"label": "Lusarreta",
+"gloss": "Arce/Artzi, Spain · bien de interés cultural",
+"year": null,
+"sl": 3,
+"country": "Spain"
+},
+{
+"qid": "Q20492299",
+"label": "Agirre baserriko garaia",
+"gloss": "Bergara, Spain · Basque government heritage site",
+"year": null,
+"sl": 2,
+"country": "Spain"
+},
+{
+"qid": "Q96095379",
+"label": "Casa Apat",
+"gloss": "Aria, Spain",
+"year": null,
+"sl": 2,
+"country": "Spain"
+},
+{
+"qid": "Q20492773",
+"label": "Casa Jamar",
+"gloss": "Aria, Spain · bien de interés cultural",
+"year": null,
+"sl": 2,
+"country": "Spain"
+},
+{
+"qid": "Q98551715",
+"label": "Hórreo do Toural",
+"gloss": "Q25509612, Spain",
+"year": null,
+"sl": 2,
+"country": "Spain"
+},
+{
+"qid": "Q20045832",
+"label": "Hórreos de Nerva",
+"gloss": "Building",
+"year": null,
+"sl": 2,
+"country": ""
+},
+{
+"qid": "Q20492028",
+"label": "Ibarguren granary",
+"gloss": "Spain",
+"year": null,
+"sl": 1,
+"country": "Spain"
+},
+{
+"qid": "Q66815389",
+"label": "Alto dos Canastros",
+"gloss": "Vreia de Jales, Portugal · Immovable Cultural Heritage of Municipal Interest",
+"year": null,
+"sl": 0,
+"country": "Portugal"
 }
 ]
 ]
@@ -96729,7 +98140,8 @@
 },
 "K12-13": {
 "t": 1,
-"total": 2,
+"total": 3,
+"wd": true,
 "sections": [
 [
 "Trulli",
@@ -96749,59 +98161,139 @@
 "year": null,
 "sl": 1,
 "country": "Italy"
+},
+{
+"qid": "Q89419738",
+"label": "Vineyard house (Deidesheim)",
+"gloss": "Deidesheim, Germany",
+"year": null,
+"sl": 2,
+"country": "Germany"
 }
 ]
 ]
 ]
 },
 "K12-1": {
-"t": null,
-"total": 0,
-"sections": []
+"t": 1,
+"total": 7,
+"wd": true,
+"sections": [
+[
+"Wharenui (meeting houses)",
+[
+{
+"qid": "Q123310193",
+"label": "Mataatua Wharenui",
+"gloss": "Whakatāne District, New Zealand, 1875 · Wāhi Tūpuna",
+"year": 1875,
+"sl": 0,
+"country": "New Zealand"
+},
+{
+"qid": "Q79307788",
+"label": "Te Awa i Manukau",
+"gloss": "Bay of Plenty Region, New Zealand, 1925 · Wāhi Tūpuna",
+"year": 1925,
+"sl": 0,
+"country": "New Zealand"
+},
+{
+"qid": "Q24705972",
+"label": "Te Hau-ki-Tūranga",
+"gloss": "New Zealand",
+"year": null,
+"sl": 2,
+"country": "New Zealand"
+},
+{
+"qid": "Q135683779",
+"label": "Tamatekapua",
+"gloss": "Bay of Plenty Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q137714940",
+"label": "Taumata o Kupe",
+"gloss": "Auckland Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q97039797",
+"label": "Te Aronui-a-Rua",
+"gloss": "Bay of Plenty Region, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q124675446",
+"label": "Te Whare Rūnanga",
+"gloss": "Far North District, New Zealand",
+"year": null,
+"sl": 1,
+"country": "New Zealand"
+}
+]
+]
+]
 },
 "K12-2": {
 "t": null,
 "total": 0,
+"wd": false,
 "sections": []
 },
 "K12-3": {
 "t": null,
 "total": 0,
+"wd": false,
 "sections": []
 },
 "K12-4": {
 "t": null,
 "total": 0,
+"wd": false,
 "sections": []
 },
 "K12-10": {
 "t": null,
 "total": 0,
+"wd": false,
 "sections": []
 },
 "K12-15": {
 "t": null,
 "total": 0,
+"wd": false,
 "sections": []
 },
 "K12-16": {
 "t": null,
 "total": 0,
+"wd": false,
 "sections": []
 },
 "K12-19": {
 "t": null,
 "total": 0,
+"wd": false,
 "sections": []
 },
 "K12-20": {
 "t": null,
 "total": 0,
+"wd": false,
 "sections": []
 },
 "K13-1": {
 "t": 1,
-"total": 8,
+"total": 61,
+"wd": true,
 "sections": [
 [
 "Persian gardens",
@@ -96869,6 +98361,430 @@
 "year": null,
 "sl": 3,
 "country": "Iran"
+},
+{
+"qid": "Q140912968",
+"label": "Emadiyeh Garden",
+"gloss": "Dorudfaraman Rural District, Iran, 1851",
+"year": 1851,
+"sl": 1,
+"country": "Iran"
+},
+{
+"qid": "Q210171",
+"label": "Qavam Garden",
+"gloss": "Shiraz County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 14,
+"country": "Iran"
+},
+{
+"qid": "Q383254",
+"label": "Afifabad Garden",
+"gloss": "Shiraz County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 11,
+"country": "Iran"
+},
+{
+"qid": "Q4810167",
+"label": "El-Goli",
+"gloss": "Tabriz County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 10,
+"country": "Iran"
+},
+{
+"qid": "Q3944244",
+"label": "Ferdows Garden",
+"gloss": "District 1, Iran · Iranian National Heritage",
+"year": null,
+"sl": 10,
+"country": "Iran"
+},
+{
+"qid": "Q746410",
+"label": "Chaharbagh",
+"gloss": "Isfahan, Iran · Iranian National Heritage",
+"year": null,
+"sl": 8,
+"country": "Iran"
+},
+{
+"qid": "Q5921914",
+"label": "Belqeys Spring Garden",
+"gloss": "Kohgiluyeh and Boyer-Ahmad Province, Iran · Iranian National Heritage",
+"year": null,
+"sl": 6,
+"country": "Iran"
+},
+{
+"qid": "Q16321260",
+"label": "Isfahan Flower Garden",
+"gloss": "Isfahan, Iran",
+"year": null,
+"sl": 6,
+"country": "Iran"
+},
+{
+"qid": "Q63185984",
+"label": "Iranian Art Museum Garden",
+"gloss": "District 1, Iran",
+"year": null,
+"sl": 5,
+"country": "Iran"
+},
+{
+"qid": "Q10296973",
+"label": "Gholhak Garden",
+"gloss": "District 3, Iran · Iranian National Heritage",
+"year": null,
+"sl": 4,
+"country": "Iran"
+},
+{
+"qid": "Q5954079",
+"label": "Golshan Garden (Tabas)",
+"gloss": "Tabas County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 4,
+"country": "Iran"
+},
+{
+"qid": "Q5954424",
+"label": "Nazar Garden",
+"gloss": "Kazerun, Iran",
+"year": null,
+"sl": 4,
+"country": "Iran"
+},
+{
+"qid": "Q5912051",
+"label": "Delgosha Garden",
+"gloss": "Shiraz County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 3,
+"country": "Iran"
+},
+{
+"qid": "Q5918594",
+"label": "Gheytarieh Park",
+"gloss": "District 1, Iran",
+"year": null,
+"sl": 3,
+"country": "Iran"
+},
+{
+"qid": "Q5895375",
+"label": "Rahimabad Garden",
+"gloss": "Birjand County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 3,
+"country": "Iran"
+},
+{
+"qid": "Q5916979",
+"label": "Sa'adat Abad Garden (Qazvin)",
+"gloss": "Qazvin Province, Iran · Iranian National Heritage",
+"year": null,
+"sl": 3,
+"country": "Iran"
+},
+{
+"qid": "Q5951041",
+"label": "Showkatabad Garden",
+"gloss": "Birjand County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 3,
+"country": "Iran"
+},
+{
+"qid": "Q5671788",
+"label": "Beyramabad Garden",
+"gloss": "Kerman, Iran · Iranian National Heritage",
+"year": null,
+"sl": 2,
+"country": "Iran"
+},
+{
+"qid": "Q26954704",
+"label": "Bolbol Garden (Isfahan)",
+"gloss": "District 3, Iran",
+"year": null,
+"sl": 2,
+"country": "Iran"
+},
+{
+"qid": "Q5863730",
+"label": "Harandi Garden",
+"gloss": "Kerman, Iran · Iranian National Heritage",
+"year": null,
+"sl": 2,
+"country": "Iran"
+},
+{
+"qid": "Q5934190",
+"label": "Hezar Jarib Garden",
+"gloss": "Isfahan County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 2,
+"country": "Iran"
+},
+{
+"qid": "Q5948685",
+"label": "Jahan Nama Garden",
+"gloss": "Shiraz County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 2,
+"country": "Iran"
+},
+{
+"qid": "Q5726471",
+"label": "Jannat garden",
+"gloss": "Shiraz, Iran",
+"year": null,
+"sl": 2,
+"country": "Iran"
+},
+{
+"qid": "Q29886396",
+"label": "Moayyer Garden",
+"gloss": "District 12, Iran",
+"year": null,
+"sl": 2,
+"country": "Iran"
+},
+{
+"qid": "Q5891776",
+"label": "Moshir Garden",
+"gloss": "Yazd County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 2,
+"country": "Iran"
+},
+{
+"qid": "Q5902482",
+"label": "Mostowfi Garden",
+"gloss": "District 3, Iran · Iranian National Heritage",
+"year": null,
+"sl": 2,
+"country": "Iran"
+},
+{
+"qid": "Q5881688",
+"label": "Nain Mosalla Garden",
+"gloss": "Nain County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 2,
+"country": "Iran"
+},
+{
+"qid": "Q5916320",
+"label": "Nazar Garden (Shiraz)",
+"gloss": "Shiraz County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 2,
+"country": "Iran"
+},
+{
+"qid": "Q5953871",
+"label": "Pahlavanpur Garden",
+"gloss": "Mehriz County, Iran · UNESCO World Heritage Site",
+"year": null,
+"sl": 2,
+"country": "Iran"
+},
+{
+"qid": "Q5891756",
+"label": "Sadri Garden",
+"gloss": "Taft County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 2,
+"country": "Iran"
+},
+{
+"qid": "Q5903188",
+"label": "Salami Garden",
+"gloss": "Khaf County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 2,
+"country": "Iran"
+},
+{
+"qid": "Q28713996",
+"label": "Shah Garden",
+"gloss": "District 11, Iran",
+"year": null,
+"sl": 2,
+"country": "Iran"
+},
+{
+"qid": "Q5701723",
+"label": "Throne Garden (Shiraz)",
+"gloss": "Shiraz County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 2,
+"country": "Iran"
+},
+{
+"qid": "Q113387321",
+"label": "Abbasabad Garden (Natanz County)",
+"gloss": "Barzrud Rural District, Iran · Iranian National Heritage",
+"year": null,
+"sl": 1,
+"country": "Iran"
+},
+{
+"qid": "Q26954600",
+"label": "Ansari Garden",
+"gloss": "District 4, Iran",
+"year": null,
+"sl": 1,
+"country": "Iran"
+},
+{
+"qid": "Q105136101",
+"label": "Chehel Sotun Garden",
+"gloss": "District 3, Iran · UNESCO World Heritage Site",
+"year": null,
+"sl": 1,
+"country": "Iran"
+},
+{
+"qid": "Q108937851",
+"label": "Cheshmeh-Ali Garden",
+"gloss": "Damghan County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 1,
+"country": "Iran"
+},
+{
+"qid": "Q117471162",
+"label": "Eshratabad Garden",
+"gloss": "District 7, Iran · Iranian National Heritage",
+"year": null,
+"sl": 1,
+"country": "Iran"
+},
+{
+"qid": "Q5896115",
+"label": "Farhang Garden",
+"gloss": "Taft County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 1,
+"country": "Iran"
+},
+{
+"qid": "Q113925588",
+"label": "Hojjatabad Vazir Garden",
+"gloss": "Ashkezar County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 1,
+"country": "Iran"
+},
+{
+"qid": "Q5897024",
+"label": "Khaleseh Garden",
+"gloss": "Bampur County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 1,
+"country": "Iran"
+},
+{
+"qid": "Q107172173",
+"label": "Khoshnevis Garden",
+"gloss": "Mehriz County, Iran",
+"year": null,
+"sl": 1,
+"country": "Iran"
+},
+{
+"qid": "Q5940666",
+"label": "Khuni Garden",
+"gloss": "District 7, Iran · Iranian National Heritage",
+"year": null,
+"sl": 1,
+"country": "Iran"
+},
+{
+"qid": "Q5886622",
+"label": "Moshir Garden (Rahimabad)",
+"gloss": "Yazd County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 1,
+"country": "Iran"
+},
+{
+"qid": "Q5885394",
+"label": "Neshat Garden (Lar)",
+"gloss": "Larestan County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 1,
+"country": "Iran"
+},
+{
+"qid": "Q6534644",
+"label": "Neshat Garden (Taqiabad)",
+"gloss": "Firuzeh County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 1,
+"country": "Iran"
+},
+{
+"qid": "Q131982238",
+"label": "North Garden (Tabriz)",
+"gloss": "Tabriz, Iran",
+"year": null,
+"sl": 1,
+"country": "Iran"
+},
+{
+"qid": "Q131260754",
+"label": "Qasr-e Qajar Garden",
+"gloss": "District 7, Iran",
+"year": null,
+"sl": 1,
+"country": "Iran"
+},
+{
+"qid": "Q112962231",
+"label": "Sa'adat Abad Garden (Isfahan)",
+"gloss": "District 6, Iran",
+"year": null,
+"sl": 1,
+"country": "Iran"
+},
+{
+"qid": "Q5918185",
+"label": "Sadri Garden (Feyzabad)",
+"gloss": "Taft County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 1,
+"country": "Iran"
+},
+{
+"qid": "Q6541111",
+"label": "Sadri Garden (Mohammadabad)",
+"gloss": "Taft County, Iran · Iranian National Heritage",
+"year": null,
+"sl": 1,
+"country": "Iran"
+},
+{
+"qid": "Q117943139",
+"label": "Shiraz Flower Garden",
+"gloss": "Shiraz, Iran",
+"year": null,
+"sl": 1,
+"country": "Iran"
+},
+{
+"qid": "Q42657401",
+"label": "Sedq Garden",
+"gloss": "Yazd Province, Iran · Iranian National Heritage",
+"year": null,
+"sl": 0,
+"country": "Iran"
 }
 ]
 ]
@@ -96876,7 +98792,8 @@
 },
 "K13-3": {
 "t": 1,
-"total": 10,
+"total": 65,
+"wd": true,
 "sections": [
 [
 "Chinese gardens",
@@ -96960,6 +98877,446 @@
 "year": null,
 "sl": 7,
 "country": "People's Republic of China"
+},
+{
+"qid": "Q133650",
+"label": "Beihai Park",
+"gloss": "Shichahai Subdistrict, People's Republic of China, 1150 · Major Historical and Cultural Site Protected at the National Level",
+"year": 1150,
+"sl": 30,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q2066117",
+"label": "Tian Yi Ge",
+"gloss": "Ningbo, People's Republic of China, 1560 · Major Historical and Cultural Site Protected at the National Level",
+"year": 1560,
+"sl": 15,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q6550027",
+"label": "Lin Family Mansion and Garden",
+"gloss": "Banqiao District, Taiwan, 1847 · country-level monument",
+"year": 1847,
+"sl": 6,
+"country": "Taiwan"
+},
+{
+"qid": "Q141266193",
+"label": "Tian Garden",
+"gloss": "Changsha County, People's Republic of China, 1854",
+"year": 1854,
+"sl": 1,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q4569614",
+"label": "Lou Lim Ioc Garden",
+"gloss": "São Lázaro, People's Republic of China, 1906",
+"year": 1906,
+"sl": 7,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q882377",
+"label": "Botanischer Garten der Ruhr-Universität Bochum",
+"gloss": "Bochum, Germany, 1968",
+"year": 1968,
+"sl": 4,
+"country": "Germany"
+},
+{
+"qid": "Q5100456",
+"label": "Chinese Garden, Singapore",
+"gloss": "Jurong East, Singapore, 1975",
+"year": 1975,
+"sl": 10,
+"country": "Singapore"
+},
+{
+"qid": "Q741730",
+"label": "Dr. Sun Yat-Sen Classical Chinese Garden",
+"gloss": "Vancouver, Canada, 1986",
+"year": 1986,
+"sl": 7,
+"country": "Canada"
+},
+{
+"qid": "Q1068032",
+"label": "Chinese Garden of Friendship",
+"gloss": "New South Wales, Australia, 1988",
+"year": 1988,
+"sl": 12,
+"country": "Australia"
+},
+{
+"qid": "Q11267872",
+"label": "Japan and China Friendship Garden",
+"gloss": "Gifu, Japan, 1989",
+"year": 1989,
+"sl": 4,
+"country": "Japan"
+},
+{
+"qid": "Q134517056",
+"label": "Osmanthus Garden",
+"gloss": "Hawke's Bay Region, New Zealand, 1989",
+"year": 1989,
+"sl": 1,
+"country": "New Zealand"
+},
+{
+"qid": "Q4404490",
+"label": "China garden (St.Petersburg)",
+"gloss": "Saint Petersburg, Russia, 2003",
+"year": 2003,
+"sl": 3,
+"country": "Russia"
+},
+{
+"qid": "Q197889",
+"label": "Zhongnanhai",
+"gloss": "Xichang'anjie Subdistrict, People's Republic of China · Major Historical and Cultural Site Protected at the National Level",
+"year": null,
+"sl": 39,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q907894",
+"label": "Old Summer Palace",
+"gloss": "Qinglongqiao Subdistrict, Qing dynasty · Major Historical and Cultural Site Protected at the National Level",
+"year": null,
+"sl": 35,
+"country": "Qing dynasty"
+},
+{
+"qid": "Q1328025",
+"label": "Yu Garden",
+"gloss": "Huangpu District, People's Republic of China · Major Historical and Cultural Site Protected at the National Level",
+"year": null,
+"sl": 30,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q1494610",
+"label": "Jichang Garden",
+"gloss": "Wuxi, People's Republic of China · Major Historical and Cultural Site Protected at the National Level",
+"year": null,
+"sl": 9,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q688113",
+"label": "Chinese Garden",
+"gloss": "Zurich, Switzerland",
+"year": null,
+"sl": 7,
+"country": "Switzerland"
+},
+{
+"qid": "Q6660022",
+"label": "Liyuan",
+"gloss": "Jiangsu, People's Republic of China",
+"year": null,
+"sl": 7,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q3531719",
+"label": "Nan Lian Garden",
+"gloss": "Wong Tai Sin District, People's Republic of China",
+"year": null,
+"sl": 7,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q5507745",
+"label": "Fukushūen",
+"gloss": "Naha, Japan",
+"year": null,
+"sl": 6,
+"country": "Japan"
+},
+{
+"qid": "Q6482809",
+"label": "Lan Su Chinese Garden",
+"gloss": "Portland, United States",
+"year": null,
+"sl": 6,
+"country": "United States"
+},
+{
+"qid": "Q4811052",
+"label": "Astor Court",
+"gloss": "Manhattan, United States",
+"year": null,
+"sl": 5,
+"country": "United States"
+},
+{
+"qid": "Q3277018",
+"label": "Geyuan",
+"gloss": "Hanjiang District, People's Republic of China · Major Historical and Cultural Site Protected at the National Level",
+"year": null,
+"sl": 5,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q5375437",
+"label": "Enchō-en",
+"gloss": "Yurihama, Japan",
+"year": null,
+"sl": 4,
+"country": "Japan"
+},
+{
+"qid": "Q5622827",
+"label": "Guyi Garden",
+"gloss": "Jiading, People's Republic of China · Shanghai Cultural Relics Protection Unit",
+"year": null,
+"sl": 4,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q10886081",
+"label": "He Garden",
+"gloss": "Guangling District, People's Republic of China · Major Historical and Cultural Site Protected at the National Level",
+"year": null,
+"sl": 4,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q6398538",
+"label": "Keyuan",
+"gloss": "Dongguan, People's Republic of China · Major Historical and Cultural Site Protected at the National Level",
+"year": null,
+"sl": 4,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q10960400",
+"label": "Lesser Lotus Manor",
+"gloss": "Nanxun District, People's Republic of China · Major Historical and Cultural Site Protected at the National Level",
+"year": null,
+"sl": 4,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q7267962",
+"label": "Qiuxia Garden",
+"gloss": "Shanghai, People's Republic of China",
+"year": null,
+"sl": 4,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q7504511",
+"label": "Shuangxi Park and Chinese Garden",
+"gloss": "Shilin District, Taiwan",
+"year": null,
+"sl": 4,
+"country": "Taiwan"
+},
+{
+"qid": "Q11072109",
+"label": "Xu Garden",
+"gloss": "People's Republic of China",
+"year": null,
+"sl": 4,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q8075048",
+"label": "Zuibaichi",
+"gloss": "Songjiang, People's Republic of China",
+"year": null,
+"sl": 4,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q18119207",
+"label": "Bussière Garden",
+"gloss": "Beianhe Community, People's Republic of China",
+"year": null,
+"sl": 3,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q5100460",
+"label": "Chinese Garden of Serenity",
+"gloss": "Malta",
+"year": null,
+"sl": 3,
+"country": "Malta"
+},
+{
+"qid": "Q1494604",
+"label": "Duojingyuan",
+"gloss": "Mannheim, Germany",
+"year": null,
+"sl": 3,
+"country": "Germany"
+},
+{
+"qid": "Q141681670",
+"label": "Tu Villa",
+"gloss": "Shangqiu",
+"year": null,
+"sl": 3,
+"country": ""
+},
+{
+"qid": "Q21051870",
+"label": "Xiaojinshan",
+"gloss": "Yangzhou, People's Republic of China",
+"year": null,
+"sl": 3,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q21051876",
+"label": "Xu Garden",
+"gloss": "Yangzhou, People's Republic of China",
+"year": null,
+"sl": 3,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q8053962",
+"label": "Yiyuan Garden",
+"gloss": "Jiangsu, People's Republic of China",
+"year": null,
+"sl": 3,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q116754828",
+"label": "Changchunyuan",
+"gloss": "Building",
+"year": null,
+"sl": 2,
+"country": ""
+},
+{
+"qid": "Q11642673",
+"label": "Chengde Mountain Resort",
+"gloss": "People's Republic of China",
+"year": null,
+"sl": 2,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q1494606",
+"label": "Chinese Garden",
+"gloss": "Marzahn-Hellersdorf, Germany",
+"year": null,
+"sl": 2,
+"country": "Germany"
+},
+{
+"qid": "Q115943915",
+"label": "Chinese Garden, Santiago de Chile",
+"gloss": "Santiago, Chile",
+"year": null,
+"sl": 2,
+"country": "Chile"
+},
+{
+"qid": "Q5314967",
+"label": "Dunedin Chinese Garden",
+"gloss": "Dunedin City, New Zealand",
+"year": null,
+"sl": 2,
+"country": "New Zealand"
+},
+{
+"qid": "Q67936094",
+"label": "Ke Yuan",
+"gloss": "Suzhou, People's Republic of China · Suzhou protected cultural heritage",
+"year": null,
+"sl": 2,
+"country": "People's Republic of China"
+},
+{
+"qid": "Q116754832",
+"label": "Qichunyuan",
+"gloss": "Building",
+"year": null,
+"sl": 2,
+"country": ""
+},
+{
+"qid": "Q7442073",
+"label": "Seattle Chinese Garden",
+"gloss": "Washington, United States",
+"year": null,
+"sl": 2,
+"country": "United States"
+},
+{
+"qid": "Q110646609",
+"label": "Tenju-en",
+"gloss": "Chūō-ku, Japan",
+"year": null,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q7753799",
+"label": "The New York Chinese Scholar's Garden",
+"gloss": "United States",
+"year": null,
+"sl": 2,
+"country": "United States"
+},
+{
+"qid": "Q124089135",
+"label": "Chinese Garden",
+"gloss": "Montreal, Canada",
+"year": null,
+"sl": 1,
+"country": "Canada"
+},
+{
+"qid": "Q107020847",
+"label": "Chinese garden",
+"gloss": "Rotterdam, Netherlands",
+"year": null,
+"sl": 1,
+"country": "Netherlands"
+},
+{
+"qid": "Q141168468",
+"label": "Chinese garden in Weißensee (Thuringia)",
+"gloss": "Weißensee, Germany",
+"year": null,
+"sl": 1,
+"country": "Germany"
+},
+{
+"qid": "Q124364187",
+"label": "Chrissy Gollan Park",
+"gloss": "New South Wales, Australia",
+"year": null,
+"sl": 1,
+"country": "Australia"
+},
+{
+"qid": "Q98399616",
+"label": "Het Verborgen Rijk van Ming",
+"gloss": "Haren, Netherlands",
+"year": null,
+"sl": 1,
+"country": "Netherlands"
+},
+{
+"qid": "Q116754820",
+"label": "Yuanmingyuan",
+"gloss": "Building",
+"year": null,
+"sl": 1,
+"country": ""
 }
 ]
 ]
@@ -96967,7 +99324,8 @@
 },
 "K13-4": {
 "t": 1,
-"total": 11,
+"total": 145,
+"wd": true,
 "sections": [
 [
 "Japanese gardens",
@@ -97059,6 +99417,1078 @@
 "year": null,
 "sl": 1,
 "country": "Japan"
+},
+{
+"qid": "Q66385445",
+"label": "Taishō-en",
+"gloss": "Numazu, Japan, 1574 · Registered Monument of Japan",
+"year": 1574,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q11644462",
+"label": "Sanbō-in Garden",
+"gloss": "Fushimi-ku, Japan, 1624 · Place of Scenic Beauty",
+"year": 1624,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q11532219",
+"label": "Shōkadō",
+"gloss": "Yawata, Japan, 1637 · Place of Scenic Beauty",
+"year": 1637,
+"sl": 3,
+"country": "Japan"
+},
+{
+"qid": "Q795048",
+"label": "Shōsei Garden",
+"gloss": "Shimogyō-ku, Japan, 1653 · Place of Scenic Beauty",
+"year": 1653,
+"sl": 6,
+"country": "Japan"
+},
+{
+"qid": "Q1033333",
+"label": "Hamarikyu Gardens",
+"gloss": "Hamarikyū-Teien, Japan, 1660 · Place of Scenic Beauty",
+"year": 1660,
+"sl": 19,
+"country": "Japan"
+},
+{
+"qid": "Q4404495",
+"label": "Chinzan-sō Garden",
+"gloss": "Sekiguchi, Japan, 1877 · Registered Tangible Cultural Property of Japan",
+"year": 1877,
+"sl": 8,
+"country": "Japan"
+},
+{
+"qid": "Q4388146",
+"label": "Kiyosumi Garden",
+"gloss": "Kiyosumi, Japan, 1880 · Place of Scenic Beauty",
+"year": 1880,
+"sl": 11,
+"country": "Japan"
+},
+{
+"qid": "Q3270367",
+"label": "Japanese Tea Garden",
+"gloss": "San Francisco, United States, 1894",
+"year": 1894,
+"sl": 10,
+"country": "United States"
+},
+{
+"qid": "Q4249885",
+"label": "Sankei-en",
+"gloss": "Honmoku-Sannotani, Japan, 1906 · Important Cultural Property of Japan",
+"year": 1906,
+"sl": 14,
+"country": "Japan"
+},
+{
+"qid": "Q108757337",
+"label": "Cowden Japanese-Style Garden",
+"gloss": "Dollar, United Kingdom, 1908 · Inventory Garden and Designed Landscape",
+"year": 1908,
+"sl": 2,
+"country": "United Kingdom"
+},
+{
+"qid": "Q11796752",
+"label": "Japanese Garden in Wrocław",
+"gloss": "Wrocław, Poland, 1909",
+"year": 1909,
+"sl": 10,
+"country": "Poland"
+},
+{
+"qid": "Q1360424",
+"label": "Brooklyn Botanic Garden",
+"gloss": "Brooklyn, United States, 1910",
+"year": 1910,
+"sl": 21,
+"country": "United States"
+},
+{
+"qid": "Q7446577",
+"label": "Seibi-en",
+"gloss": "Hirakawa, Japan, 1911 · Place of Scenic Beauty",
+"year": 1911,
+"sl": 5,
+"country": "Japan"
+},
+{
+"qid": "Q890625",
+"label": "Hakone Gardens",
+"gloss": "Saratoga, United States, 1917 · National Register of Historic Places listed place",
+"year": 1917,
+"sl": 4,
+"country": "United States"
+},
+{
+"qid": "Q20404979",
+"label": "Japanese Garden",
+"gloss": "Helwan, Egypt, 1919",
+"year": 1919,
+"sl": 6,
+"country": "Egypt"
+},
+{
+"qid": "Q23825091",
+"label": "Yoshiki-en",
+"gloss": "Nara, Japan, 1919",
+"year": 1919,
+"sl": 4,
+"country": "Japan"
+},
+{
+"qid": "Q11624898",
+"label": "Fujita Memorial Japanese Garden",
+"gloss": "Hirosaki, Japan, 1919",
+"year": 1919,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q6441303",
+"label": "Kubota Garden",
+"gloss": "Seattle, United States, 1927",
+"year": 1927,
+"sl": 3,
+"country": "United States"
+},
+{
+"qid": "Q604930",
+"label": "Japanese Gardens",
+"gloss": "Buenos Aires, Argentina, 1967",
+"year": 1967,
+"sl": 12,
+"country": "Argentina"
+},
+{
+"qid": "Q7035157",
+"label": "Nikka Yuko Japanese Garden",
+"gloss": "Lethbridge, Canada, 1967",
+"year": 1967,
+"sl": 3,
+"country": "Canada"
+},
+{
+"qid": "Q131407110",
+"label": "Japanese Garden, Belén de Escobar",
+"gloss": "Escobar Partido, Argentina, 1969",
+"year": 1969,
+"sl": 7,
+"country": "Argentina"
+},
+{
+"qid": "Q917672",
+"label": "Brisbane Botanic Gardens, Mount Coot-tha",
+"gloss": "City of Brisbane, Australia, 1970",
+"year": 1970,
+"sl": 7,
+"country": "Australia"
+},
+{
+"qid": "Q4819256",
+"label": "Auburn Botanical Gardens",
+"gloss": "New South Wales, Australia, 1977",
+"year": 1977,
+"sl": 9,
+"country": "Australia"
+},
+{
+"qid": "Q5954531",
+"label": "Morikami Museum and Japanese Gardens",
+"gloss": "Florida, United States, 1977",
+"year": 1977,
+"sl": 8,
+"country": "United States"
+},
+{
+"qid": "Q139527118",
+"label": "Japanese garden in Moscow",
+"gloss": "Ostankinsky District, Russia, 1978",
+"year": 1978,
+"sl": 13,
+"country": "Russia"
+},
+{
+"qid": "Q12150109",
+"label": "Shōtō-en",
+"gloss": "Kure, Japan, 1978",
+"year": 1978,
+"sl": 3,
+"country": "Japan"
+},
+{
+"qid": "Q122446054",
+"label": "City of Takasaki Japanese Garden",
+"gloss": "Santo André, Brazil, 1978 · COMDEPHAAPASA Good Class",
+"year": 1978,
+"sl": 0,
+"country": "Brazil"
+},
+{
+"qid": "Q21037197",
+"label": "Japanese garden",
+"gloss": "Bonn, Germany, 1979",
+"year": 1979,
+"sl": 5,
+"country": "Germany"
+},
+{
+"qid": "Q6158175",
+"label": "Japanese Gardens",
+"gloss": "Hayward, 1980",
+"year": 1980,
+"sl": 2,
+"country": ""
+},
+{
+"qid": "Q11415939",
+"label": "Kōyama Garden",
+"gloss": "Kōyama, Japan, 1980",
+"year": 1980,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q3004879",
+"label": "Japanese garden of Hasselt",
+"gloss": "Hasselt, Belgium, 1992",
+"year": 1992,
+"sl": 9,
+"country": "Belgium"
+},
+{
+"qid": "Q6426700",
+"label": "Kōko-en",
+"gloss": "Himeji, Japan, 1992",
+"year": 1992,
+"sl": 5,
+"country": "Japan"
+},
+{
+"qid": "Q8060776",
+"label": "Yuko-En on the Elkhorn",
+"gloss": "Kentucky, United States, 2000",
+"year": 2000,
+"sl": 3,
+"country": "United States"
+},
+{
+"qid": "Q5926711",
+"label": "Japanese Garden",
+"gloss": "Municipality C, Uruguay, 2001",
+"year": 2001,
+"sl": 7,
+"country": "Uruguay"
+},
+{
+"qid": "Q113607601",
+"label": "Jardin japonais du musée Guimet",
+"gloss": "16th arrondissement of Paris, France, 2001",
+"year": 2001,
+"sl": 1,
+"country": "France"
+},
+{
+"qid": "Q105337526",
+"label": "Japanese garden of Tunis",
+"gloss": "Tunis, Tunisia, 2006",
+"year": 2006,
+"sl": 3,
+"country": "Tunisia"
+},
+{
+"qid": "Q46995835",
+"label": "Shōfū-en",
+"gloss": "Hirao, Japan, 2006",
+"year": 2006,
+"sl": 3,
+"country": "Japan"
+},
+{
+"qid": "Q21015398",
+"label": "Shiki no Niwa",
+"gloss": "Nara, Japan, 2006",
+"year": 2006,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q139821337",
+"label": "Botanical Garden of V.L. Komarov Botanical Institute (Saint Petersburg) - Japanese garden",
+"gloss": "Saint Petersburg, Russia, 2010",
+"year": 2010,
+"sl": 5,
+"country": "Russia"
+},
+{
+"qid": "Q117290047",
+"label": "Takao Komagino Garden",
+"gloss": "Hachiōji-shi, Japan, 2012",
+"year": 2012,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q115206008",
+"label": "Japanese Garden in Baku",
+"gloss": "Xətai raion, Azerbaijan, 2015",
+"year": 2015,
+"sl": 2,
+"country": "Azerbaijan"
+},
+{
+"qid": "Q114587385",
+"label": "Japanese Garden in the Silesian Park",
+"gloss": "Chorzów, Poland, 2021",
+"year": 2021,
+"sl": 6,
+"country": "Poland"
+},
+{
+"qid": "Q126402927",
+"label": "Japanese garden (Park Galitskogo)",
+"gloss": "Krasnodar, Russia, 2023",
+"year": 2023,
+"sl": 1,
+"country": "Russia"
+},
+{
+"qid": "Q2195976",
+"label": "Portland Japanese Garden",
+"gloss": "Multnomah County, United States",
+"year": null,
+"sl": 11,
+"country": "United States"
+},
+{
+"qid": "Q1156038",
+"label": "Three Great Gardens of Japan",
+"gloss": "Japan",
+"year": null,
+"sl": 10,
+"country": "Japan"
+},
+{
+"qid": "Q11590468",
+"label": "Shinsen-en",
+"gloss": "Nakagyō Ward, Japan · Historic Site of Japan",
+"year": null,
+"sl": 9,
+"country": "Japan"
+},
+{
+"qid": "Q1425474",
+"label": "Botanical garden of Upper Brittany",
+"gloss": "Le Châtellier, France",
+"year": null,
+"sl": 8,
+"country": "France"
+},
+{
+"qid": "Q139580369",
+"label": "Île de Versailles Japanese Garden",
+"gloss": "Nantes, France",
+"year": null,
+"sl": 8,
+"country": "France"
+},
+{
+"qid": "Q26972766",
+"label": "Garden of the UNESCO Headquarters",
+"gloss": "7th arrondissement of Paris, France · remarkable front garden",
+"year": null,
+"sl": 6,
+"country": "France"
+},
+{
+"qid": "Q5214910",
+"label": "Japanese House and Garden",
+"gloss": "Pennsylvania, United States",
+"year": null,
+"sl": 6,
+"country": "United States"
+},
+{
+"qid": "Q19587431",
+"label": "Jardín Japonés de Santiago",
+"gloss": "Santiago, Chile",
+"year": null,
+"sl": 6,
+"country": "Chile"
+},
+{
+"qid": "Q14918218",
+"label": "Dijon Japanese garden",
+"gloss": "Dijon, France",
+"year": null,
+"sl": 5,
+"country": "France"
+},
+{
+"qid": "Q139579360",
+"label": "Japanese Garden in the Jevremovac Botanical Garden",
+"gloss": "Stari Grad City Municipality, Serbia",
+"year": null,
+"sl": 5,
+"country": "Serbia"
+},
+{
+"qid": "Q876793",
+"label": "Japanischer Garten, Kaiserslautern",
+"gloss": "Rhineland-Palatinate, Germany",
+"year": null,
+"sl": 5,
+"country": "Germany"
+},
+{
+"qid": "Q4754109",
+"label": "Anderson Japanese Gardens",
+"gloss": "Rockford, United States",
+"year": null,
+"sl": 4,
+"country": "United States"
+},
+{
+"qid": "Q633365",
+"label": "Japanese Friendship Garden",
+"gloss": "San Jose, United States",
+"year": null,
+"sl": 4,
+"country": "United States"
+},
+{
+"qid": "Q7339220",
+"label": "Japanese Friendship Garden",
+"gloss": "Arizona, United States",
+"year": null,
+"sl": 4,
+"country": "United States"
+},
+{
+"qid": "Q19892152",
+"label": "Japanese Garden, Chandigarh",
+"gloss": "Chandigarh, India",
+"year": null,
+"sl": 4,
+"country": "India"
+},
+{
+"qid": "Q59384090",
+"label": "Japanse Tuin",
+"gloss": "Ostend, Belgium",
+"year": null,
+"sl": 4,
+"country": "Belgium"
+},
+{
+"qid": "Q6120820",
+"label": "Seiwa-en",
+"gloss": "Missouri, United States",
+"year": null,
+"sl": 4,
+"country": "United States"
+},
+{
+"qid": "Q768376",
+"label": "The Japanese Garden",
+"gloss": "Los Angeles, United States",
+"year": null,
+"sl": 4,
+"country": "United States"
+},
+{
+"qid": "Q8075068",
+"label": "Zuiraku-en",
+"gloss": "Hirosaki, Japan · Place of Scenic Beauty",
+"year": null,
+"sl": 4,
+"country": "Japan"
+},
+{
+"qid": "Q796229",
+"label": "Earl Burns Miller Japanese Garden",
+"gloss": "California, United States",
+"year": null,
+"sl": 3,
+"country": "United States"
+},
+{
+"qid": "Q11511086",
+"label": "Former Ikeda Family Gardens",
+"gloss": "Daisen, Japan · Place of Scenic Beauty",
+"year": null,
+"sl": 3,
+"country": "Japan"
+},
+{
+"qid": "Q5472394",
+"label": "Fort Worth Japanese Garden",
+"gloss": "Texas, United States",
+"year": null,
+"sl": 3,
+"country": "United States"
+},
+{
+"qid": "Q11558532",
+"label": "Fugetsurō",
+"gloss": "Japan",
+"year": null,
+"sl": 3,
+"country": "Japan"
+},
+{
+"qid": "Q11482303",
+"label": "Kyūseki Teien",
+"gloss": "Nara, Japan · Place of Scenic Beauty",
+"year": null,
+"sl": 3,
+"country": "Japan"
+},
+{
+"qid": "Q28502770",
+"label": "Masayoshi Ōhira Park",
+"gloss": "Coyoacán, Mexico",
+"year": null,
+"sl": 3,
+"country": "Mexico"
+},
+{
+"qid": "Q6631424",
+"label": "Mogusaen Garden",
+"gloss": "Mogusa, Japan",
+"year": null,
+"sl": 3,
+"country": "Japan"
+},
+{
+"qid": "Q6949280",
+"label": "Mytoi",
+"gloss": "Massachusetts, United States",
+"year": null,
+"sl": 3,
+"country": "United States"
+},
+{
+"qid": "Q7442119",
+"label": "Seattle Japanese Garden",
+"gloss": "Madison Park, United States",
+"year": null,
+"sl": 3,
+"country": "United States"
+},
+{
+"qid": "Q11577586",
+"label": "Yūshi-en",
+"gloss": "Matsue, Japan",
+"year": null,
+"sl": 3,
+"country": "Japan"
+},
+{
+"qid": "Q11648238",
+"label": "Chōkō-en",
+"gloss": "Nishi-ku, Japan",
+"year": null,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q107176530",
+"label": "Eugene J. de Sabla, Jr., Teahouse and Tea Garden",
+"gloss": "San Mateo, United States · National Register of Historic Places listed place",
+"year": null,
+"sl": 2,
+"country": "United States"
+},
+{
+"qid": "Q11394857",
+"label": "Garden of Engaku-ji",
+"gloss": "Yamanouchi, Japan · Place of Scenic Beauty",
+"year": null,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q11579925",
+"label": "Hakusasonsō",
+"gloss": "Sakyō-ku, Japan · Place of Scenic Beauty",
+"year": null,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q11465584",
+"label": "Isome-shi Garden",
+"gloss": "Otsu, Japan · Place of Scenic Beauty",
+"year": null,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q6158173",
+"label": "Japanese Friendship Garden",
+"gloss": "United States",
+"year": null,
+"sl": 2,
+"country": "United States"
+},
+{
+"qid": "Q1494608",
+"label": "Japanese Garden",
+"gloss": "Marzahn-Hellersdorf, Germany",
+"year": null,
+"sl": 2,
+"country": "Germany"
+},
+{
+"qid": "Q63975544",
+"label": "Japanese Garden",
+"gloss": "Houston, United States",
+"year": null,
+"sl": 2,
+"country": "United States"
+},
+{
+"qid": "Q107926121",
+"label": "Japanese Garden Oberlaa",
+"gloss": "Favoriten, Austria",
+"year": null,
+"sl": 2,
+"country": "Austria"
+},
+{
+"qid": "Q54321962",
+"label": "Japanese garden",
+"gloss": "Interlaken, Switzerland",
+"year": null,
+"sl": 2,
+"country": "Switzerland"
+},
+{
+"qid": "Q1348762",
+"label": "Japanischer Garten Leverkusen",
+"gloss": "Leverkusen, Germany",
+"year": null,
+"sl": 2,
+"country": "Germany"
+},
+{
+"qid": "Q30738366",
+"label": "Jardin Japonais",
+"gloss": "Aix-les-Bains, France",
+"year": null,
+"sl": 2,
+"country": "France"
+},
+{
+"qid": "Q136162934",
+"label": "Jōzan-en",
+"gloss": "Anjō, Japan",
+"year": null,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q11632094",
+"label": "Moroto garden",
+"gloss": "Kuwana, Japan",
+"year": null,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q5926708",
+"label": "Nishinomiya Tsutakawa Japanese Garden",
+"gloss": "Spokane, United States",
+"year": null,
+"sl": 2,
+"country": "United States"
+},
+{
+"qid": "Q1998504",
+"label": "Nordpark Düsseldorf",
+"gloss": "Düsseldorf, Germany · architectural heritage monument in North Rhine-Westphalia",
+"year": null,
+"sl": 2,
+"country": "Germany"
+},
+{
+"qid": "Q55522257",
+"label": "Ogawa Family Sesshū Garden",
+"gloss": "Gōtsu-shi, Japan · Prefectural Place of Scenic Beauty",
+"year": null,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q7413336",
+"label": "San Antonio Japanese Tea Garden",
+"gloss": "Q975, United States · National Register of Historic Places listed place",
+"year": null,
+"sl": 2,
+"country": "United States"
+},
+{
+"qid": "Q28685536",
+"label": "Seikei-en",
+"gloss": "Kumagaya, Japan",
+"year": null,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q11419826",
+"label": "Shitennō-ji Honbō Garden",
+"gloss": "Shitennōji, Japan · Important Cultural Property of Japan",
+"year": null,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q11611178",
+"label": "Shūen-tei",
+"gloss": "Tatsuno, Japan",
+"year": null,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q131198556",
+"label": "Spring Garden Shimeiso",
+"gloss": "Shimabara, Japan",
+"year": null,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q11577115",
+"label": "Tabuchi Garden",
+"gloss": "Akō-shi, Japan",
+"year": null,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q108380468",
+"label": "Takanashi Gardens",
+"gloss": "Noda, Japan · Place of Scenic Beauty",
+"year": null,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q11671937",
+"label": "Takasegawa Nijōen",
+"gloss": "Nakagyō Ward, Japan",
+"year": null,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q11669419",
+"label": "Takayama Chikurin-en",
+"gloss": "Takayamachō, Japan",
+"year": null,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q110646609",
+"label": "Tenju-en",
+"gloss": "Chūō-ku, Japan",
+"year": null,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q11528003",
+"label": "Tōko-en",
+"gloss": "Naka-ku, Japan",
+"year": null,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q138605592",
+"label": "Uraku-en",
+"gloss": "Inuyama, Japan",
+"year": null,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q140407631",
+"label": "Adachi Museum Gardens",
+"gloss": "Yasugi, Japan",
+"year": null,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q140317555",
+"label": "Daisen Park Japanese Garden",
+"gloss": "Sakai-ku, Japan",
+"year": null,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q11575907",
+"label": "Denchū-en",
+"gloss": "Ibara, Japan",
+"year": null,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q140309557",
+"label": "Former Nakanishi Residence Garden",
+"gloss": "Suita, Japan · Registered Monument of Japan",
+"year": null,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q140313288",
+"label": "Gyokuseninmaru Garden",
+"gloss": "Kanazawa, Japan",
+"year": null,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q16972767",
+"label": "Hannah Carter Japanese Garden",
+"gloss": "Los Angeles, United States",
+"year": null,
+"sl": 1,
+"country": "United States"
+},
+{
+"qid": "Q139494028",
+"label": "Heijō Palace Tōin Garden",
+"gloss": "Nara, Japan · Special Place of Scenic Beauty",
+"year": null,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q97193200",
+"label": "Hikosan gardens",
+"gloss": "Soeda, Japan · Place of Scenic Beauty",
+"year": null,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q121323098",
+"label": "Isamu Taniguchi Japanese Garden",
+"gloss": "Austin, United States",
+"year": null,
+"sl": 1,
+"country": "United States"
+},
+{
+"qid": "Q97365553",
+"label": "Japanese Garden",
+"gloss": "Building",
+"year": null,
+"sl": 1,
+"country": ""
+},
+{
+"qid": "Q22060051",
+"label": "Jo Ryo En Japanese Garden",
+"gloss": "Northfield, United States",
+"year": null,
+"sl": 1,
+"country": "United States"
+},
+{
+"qid": "Q109594506",
+"label": "Kaitokukan Garden",
+"gloss": "Bunkyō-ku, Japan · Place of Scenic Beauty",
+"year": null,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q111285346",
+"label": "Kasugai Gardens",
+"gloss": "Kelowna, Canada",
+"year": null,
+"sl": 1,
+"country": "Canada"
+},
+{
+"qid": "Q11511024",
+"label": "Kyū Ōokaji teien",
+"gloss": "Toyooka, Japan",
+"year": null,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q140363451",
+"label": "Maebashi Park Japanese Garden",
+"gloss": "Maebashi, Japan",
+"year": null,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q11446871",
+"label": "Myōkoku-ji Garden",
+"gloss": "Hososhima, Japan · Place of Scenic Beauty",
+"year": null,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q140313579",
+"label": "Mōri Residence Garden",
+"gloss": "Hōfu-shi, Japan · Place of Scenic Beauty",
+"year": null,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q17211659",
+"label": "Old Fujita House Garden",
+"gloss": "Amijimachō, Japan",
+"year": null,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q140288962",
+"label": "Rakusui-en, Jōnan-gū",
+"gloss": "Fushimi-ku, Japan",
+"year": null,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q86922451",
+"label": "Recanto Japonês",
+"gloss": "Poços de Caldas, Brazil · PMPC Good Class",
+"year": null,
+"sl": 1,
+"country": "Brazil"
+},
+{
+"qid": "Q140329303",
+"label": "Sankei-en",
+"gloss": "Mihara, Japan",
+"year": null,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q140532068",
+"label": "Seiryū-en",
+"gloss": "Nakagyō Ward, Japan",
+"year": null,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q140523752",
+"label": "Shōfū-en",
+"gloss": "Nishikyō Ward, Japan",
+"year": null,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q140327341",
+"label": "Shōun Sansō",
+"gloss": "Kashiwazaki, Japan",
+"year": null,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q140314791",
+"label": "Shūheki-en",
+"gloss": "Sakyō-ku, Japan",
+"year": null,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q140328869",
+"label": "Tamazato Garden",
+"gloss": "Tamazato-chō, Japan · Place of Scenic Beauty",
+"year": null,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q11634545",
+"label": "Teikan-en",
+"gloss": "Kashiwazaki, Japan",
+"year": null,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q7981683",
+"label": "Wells Japanese Garden",
+"gloss": "South Carolina, United States · National Register of Historic Places listed place",
+"year": null,
+"sl": 1,
+"country": "United States"
+},
+{
+"qid": "Q141399202",
+"label": "Yakushi-no-izumi Garden",
+"gloss": "Azusawa, Japan",
+"year": null,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q140363346",
+"label": "Kitabatake Gardens",
+"gloss": "Tsu, Japan · Place of Scenic Beauty",
+"year": null,
+"sl": 0,
+"country": "Japan"
+},
+{
+"qid": "Q140407922",
+"label": "Matsudaya Hotel Garden",
+"gloss": "Yamaguchi, Japan · Registered Monument of Japan",
+"year": null,
+"sl": 0,
+"country": "Japan"
+},
+{
+"qid": "Q140484296",
+"label": "Sōraiken Garden",
+"gloss": "Onomichi, Japan · Municipal Place of Scenic Beauty",
+"year": null,
+"sl": 0,
+"country": "Japan"
+},
+{
+"qid": "Q140364038",
+"label": "Tandō-shi teien",
+"gloss": "Hirosaki, Japan · Registered Monument of Japan",
+"year": null,
+"sl": 0,
+"country": "Japan"
 }
 ]
 ]
@@ -97066,7 +100496,8 @@
 },
 "K13-6": {
 "t": 1,
-"total": 2,
+"total": 38,
+"wd": true,
 "sections": [
 [
 "French formal gardens",
@@ -97086,6 +100517,294 @@
 "year": null,
 "sl": 29,
 "country": "United Kingdom"
+},
+{
+"qid": "Q10632060",
+"label": "Piperska murens trädgård",
+"gloss": "Stockholm Municipality, Sweden, 1700",
+"year": 1700,
+"sl": 1,
+"country": "Sweden"
+},
+{
+"qid": "Q111359532",
+"label": "The Giardino Barbarigo at Valsanzibio",
+"gloss": ", 1700",
+"year": 1700,
+"sl": 1,
+"country": ""
+},
+{
+"qid": "Q60852574",
+"label": "Sovereign Garden",
+"gloss": "Petrozavodsk, Russia, 1720 · regional cultural heritage site in Russia",
+"year": 1720,
+"sl": 2,
+"country": "Russia"
+},
+{
+"qid": "Q117323007",
+"label": "Dutch Garden",
+"gloss": "Potsdam, Germany, 1766",
+"year": 1766,
+"sl": 2,
+"country": "Germany"
+},
+{
+"qid": "Q9165953",
+"label": "Garden of Prussian royal castle in Wrocław",
+"gloss": "Wrocław, Poland, 1800 · immovable monument in Poland",
+"year": 1800,
+"sl": 2,
+"country": "Poland"
+},
+{
+"qid": "Q131418827",
+"label": "Lichtenwalde Castle Park",
+"gloss": "Niederwiesa, Germany, 1800 · heritage monument in Saxony",
+"year": 1800,
+"sl": 1,
+"country": "Germany"
+},
+{
+"qid": "Q124691808",
+"label": "Parterre Garden of Smolny Institute",
+"gloss": "Tsentralny District, Russia, 1810 · federal cultural heritage site in Russia",
+"year": 1810,
+"sl": 1,
+"country": "Russia"
+},
+{
+"qid": "Q2066962",
+"label": "Zugdidi Botanical Garden",
+"gloss": "Zugdidi, Georgia, 1840 · cultural heritage in Georgia",
+"year": 1840,
+"sl": 7,
+"country": "Georgia"
+},
+{
+"qid": "Q25446998",
+"label": "Poltava Korpusniy garden",
+"gloss": "Poltava Oblast, Ukraine, 1840",
+"year": 1840,
+"sl": 3,
+"country": "Ukraine"
+},
+{
+"qid": "Q19908952",
+"label": "Demidovsky Garden Square",
+"gloss": "Yaroslavl, Russia, 1885 · regional cultural heritage site in Russia",
+"year": 1885,
+"sl": 2,
+"country": "Russia"
+},
+{
+"qid": "Q117320027",
+"label": "Vasileostrovets Garden",
+"gloss": "Vasileostrovsky District, Russia, 1891 · regional cultural heritage site in Russia",
+"year": 1891,
+"sl": 1,
+"country": "Russia"
+},
+{
+"qid": "Q4169268",
+"label": "Dubki Park",
+"gloss": "Nizhny Novgorod, Russia, 1950",
+"year": 1950,
+"sl": 4,
+"country": "Russia"
+},
+{
+"qid": "Q4345306",
+"label": "Faldzinsky Park",
+"gloss": "Nova Kakhovka, Ukraine, 1950",
+"year": 1950,
+"sl": 3,
+"country": "Ukraine"
+},
+{
+"qid": "Q126402927",
+"label": "Japanese garden (Park Galitskogo)",
+"gloss": "Krasnodar, Russia, 2023",
+"year": 2023,
+"sl": 1,
+"country": "Russia"
+},
+{
+"qid": "Q143265",
+"label": "Augarten",
+"gloss": "Leopoldstadt, Austria · Listed objects in Austria",
+"year": null,
+"sl": 15,
+"country": "Austria"
+},
+{
+"qid": "Q314123",
+"label": "Schloss Belvedere",
+"gloss": "Weimar, Germany · Kulturdenkmal",
+"year": null,
+"sl": 12,
+"country": "Germany"
+},
+{
+"qid": "Q1341420",
+"label": "Vrtba Garden",
+"gloss": "Prague, Czech Republic · part of cultural heritage site in the Czech Republic",
+"year": null,
+"sl": 8,
+"country": "Czech Republic"
+},
+{
+"qid": "Q268492",
+"label": "Schlosspark Nymphenburg",
+"gloss": "Neuhausen-Nymphenburg, Germany · architectural heritage monument in Bavaria",
+"year": null,
+"sl": 7,
+"country": "Germany"
+},
+{
+"qid": "Q808553",
+"label": "Barockgarten Großsedlitz",
+"gloss": "Heidenau, Germany · heritage monument in Saxony",
+"year": null,
+"sl": 6,
+"country": "Germany"
+},
+{
+"qid": "Q876855",
+"label": "Rosengarten Bamberg",
+"gloss": "Bamberg, Germany",
+"year": null,
+"sl": 6,
+"country": "Germany"
+},
+{
+"qid": "Q19799735",
+"label": "parc of Sceaux",
+"gloss": "Sceaux, France · remarkable garden of France",
+"year": null,
+"sl": 6,
+"country": "France"
+},
+{
+"qid": "Q1623080",
+"label": "Hofgarten",
+"gloss": "Düsseldorf, Germany · architectural heritage monument in North Rhine-Westphalia",
+"year": null,
+"sl": 5,
+"country": "Germany"
+},
+{
+"qid": "Q250852",
+"label": "Mirabellgarten",
+"gloss": "Salzburg, Austria · Park or garden according to § 1 Abs. 12 DMSG",
+"year": null,
+"sl": 5,
+"country": "Austria"
+},
+{
+"qid": "Q1767505",
+"label": "Magdalenengarten",
+"gloss": "Hildesheim, Germany",
+"year": null,
+"sl": 4,
+"country": "Germany"
+},
+{
+"qid": "Q3058445",
+"label": "Esplanade",
+"gloss": "Metz, France",
+"year": null,
+"sl": 3,
+"country": "France"
+},
+{
+"qid": "Q1416462",
+"label": "Großer Garten",
+"gloss": "Herrenhausen-Stöcken, Germany · architectural heritage monument in Lower Saxony",
+"year": null,
+"sl": 3,
+"country": "Germany"
+},
+{
+"qid": "Q16272935",
+"label": "Park Aloye pole in Chelyabinsk",
+"gloss": "Chelyabinsk, Russia · tentative cultural heritage site in Russia",
+"year": null,
+"sl": 3,
+"country": "Russia"
+},
+{
+"qid": "Q2244470",
+"label": "Schlossgarten Erlangen",
+"gloss": "Erlangen, Germany · former architectural heritage monument in Bavaria",
+"year": null,
+"sl": 3,
+"country": "Germany"
+},
+{
+"qid": "Q808555",
+"label": "Barockgarten Sankt Ulrich",
+"gloss": "Mücheln, Germany · heritage monument in Saxony-Anhalt",
+"year": null,
+"sl": 2,
+"country": "Germany"
+},
+{
+"qid": "Q109319125",
+"label": "Barockgarten Zabeltitz",
+"gloss": "Großenhain, Germany",
+"year": null,
+"sl": 2,
+"country": "Germany"
+},
+{
+"qid": "Q1623081",
+"label": "Hofgarten",
+"gloss": "Eichstätt, Germany · architectural heritage monument in Bavaria",
+"year": null,
+"sl": 2,
+"country": "Germany"
+},
+{
+"qid": "Q1736957",
+"label": "Katz’scher Garten",
+"gloss": "Gernsbach, Germany · Kulturdenkmal",
+"year": null,
+"sl": 2,
+"country": "Germany"
+},
+{
+"qid": "Q15116996",
+"label": "Kleinbosischer Garten",
+"gloss": "Leipzig, Germany",
+"year": null,
+"sl": 2,
+"country": "Germany"
+},
+{
+"qid": "Q126432163",
+"label": "French garden (Park Galitskogo)",
+"gloss": "Krasnodar, Russia",
+"year": null,
+"sl": 1,
+"country": "Russia"
+},
+{
+"qid": "Q63246945",
+"label": "Gardens of Pazo Quiñones de León",
+"gloss": "Vigo, Spain",
+"year": null,
+"sl": 1,
+"country": "Spain"
+},
+{
+"qid": "Q98493981",
+"label": "Hauszeichen",
+"gloss": "Eibelstadt, Germany · architectural heritage monument in Bavaria",
+"year": null,
+"sl": 1,
+"country": "Germany"
 }
 ]
 ]
@@ -97093,7 +100812,8 @@
 },
 "K13-7": {
 "t": 1,
-"total": 7,
+"total": 91,
+"wd": true,
 "sections": [
 [
 "English landscape gardens",
@@ -97153,39 +100873,809 @@
 "year": null,
 "sl": 9,
 "country": "Germany"
+},
+{
+"qid": "Q132200638",
+"label": "Post station of the von Hinüber family",
+"gloss": "Mitte, Germany, 1641",
+"year": 1641,
+"sl": 2,
+"country": "Germany"
+},
+{
+"qid": "Q45850344",
+"label": "Alūksne Manor Park",
+"gloss": "Alūksne, Latvia, 1701 · National architectural monument of Latvia",
+"year": 1701,
+"sl": 2,
+"country": "Latvia"
+},
+{
+"qid": "Q123169846",
+"label": "Demidovsky park (Dacha of Ebsworth \"Litania\")",
+"gloss": "Krasnoselsky District, Russia, 1710 · regional cultural heritage site in Russia",
+"year": 1710,
+"sl": 2,
+"country": "Russia"
+},
+{
+"qid": "Q21177377",
+"label": "Schlossgarten Karlsruhe",
+"gloss": "Karlsruhe, Germany, 1715 · Kulturdenkmal",
+"year": 1715,
+"sl": 4,
+"country": "Germany"
+},
+{
+"qid": "Q1074877",
+"label": "Chiswick House",
+"gloss": "London Borough of Hounslow, United Kingdom, 1725 · scheduled monument",
+"year": 1725,
+"sl": 15,
+"country": "United Kingdom"
+},
+{
+"qid": "Q1404222",
+"label": "Felsengarten Sanspareil",
+"gloss": "Wonsees, Germany, 1744 · architectural heritage monument in Bavaria",
+"year": 1744,
+"sl": 4,
+"country": "Germany"
+},
+{
+"qid": "Q2743722",
+"label": "Prior Park Landscape Garden",
+"gloss": "Bath and North East Somerset, United Kingdom, 1750 · Grade I listed park and garden",
+"year": 1750,
+"sl": 6,
+"country": "United Kingdom"
+},
+{
+"qid": "Q108060779",
+"label": "Alter Schlosspark Wrisbergholzen",
+"gloss": "Sibbesse, Germany, 1750 · Kulturdenkmal",
+"year": 1750,
+"sl": 1,
+"country": "Germany"
+},
+{
+"qid": "Q2052611",
+"label": "Parc Jean-Jacques Rousseau",
+"gloss": "Ermenonville, France, 1765 · monument historique inscrit",
+"year": 1765,
+"sl": 4,
+"country": "France"
+},
+{
+"qid": "Q2052562",
+"label": "Landschaftspark",
+"gloss": "Aschaffenburg, Germany, 1782 · architectural heritage monument in Bavaria",
+"year": 1782,
+"sl": 5,
+"country": "Germany"
+},
+{
+"qid": "Q769873",
+"label": "Angolkert",
+"gloss": "Tata, Hungary, 1783",
+"year": 1783,
+"sl": 2,
+"country": "Hungary"
+},
+{
+"qid": "Q653726",
+"label": "Haga park",
+"gloss": "Solna Municipality, Sweden, 1797 · governmental listed building complex",
+"year": 1797,
+"sl": 12,
+"country": "Sweden"
+},
+{
+"qid": "Q69901686",
+"label": "Garden of Palais Rastede",
+"gloss": "Rastede, Germany, 1800",
+"year": 1800,
+"sl": 1,
+"country": "Germany"
+},
+{
+"qid": "Q1271305",
+"label": "Dörnbergpark",
+"gloss": "Regensburg, Germany, 1804 · architectural heritage monument in Bavaria",
+"year": 1804,
+"sl": 2,
+"country": "Germany"
+},
+{
+"qid": "Q2753218",
+"label": "Shuvalovsky Park",
+"gloss": "Pargolovo, Russia, 1820 · federal cultural heritage site in Russia",
+"year": 1820,
+"sl": 6,
+"country": "Russia"
+},
+{
+"qid": "Q1414059",
+"label": "parc Monceau",
+"gloss": "Quartier de l'Europe, France, 1852 · classified historical monument",
+"year": 1852,
+"sl": 38,
+"country": "France"
+},
+{
+"qid": "Q116687616",
+"label": "Jardin d'horticulture de Chartres",
+"gloss": "Chartres, France, 1856",
+"year": 1856,
+"sl": 2,
+"country": "France"
+},
+{
+"qid": "Q10478622",
+"label": "Döbelns park",
+"gloss": "Umeå Municipality, Sweden, 1865",
+"year": 1865,
+"sl": 29,
+"country": "Sweden"
+},
+{
+"qid": "Q16508356",
+"label": "Jardin du parc",
+"gloss": "Vitré, France, 1867",
+"year": 1867,
+"sl": 2,
+"country": "France"
+},
+{
+"qid": "Q59032",
+"label": "Kungsparken",
+"gloss": "Malmö Municipality, Sweden, 1872",
+"year": 1872,
+"sl": 4,
+"country": "Sweden"
+},
+{
+"qid": "Q1538929",
+"label": "parc Montsouris",
+"gloss": "14th arrondissement of Paris, France, 1875",
+"year": 1875,
+"sl": 23,
+"country": "France"
+},
+{
+"qid": "Q1289838",
+"label": "Wallanlagen",
+"gloss": "Würzburg, Germany, 1878 · architectural heritage monument in Bavaria",
+"year": 1878,
+"sl": 3,
+"country": "Germany"
+},
+{
+"qid": "Q1520916",
+"label": "Höchster Stadtpark",
+"gloss": "Frankfurt, Germany, 1895 · cultural heritage monument in Hesse",
+"year": 1895,
+"sl": 2,
+"country": "Germany"
+},
+{
+"qid": "Q1729705",
+"label": "Karl-Bittel-Park",
+"gloss": "Worms, Germany, 1896 · Kulturdenkmal",
+"year": 1896,
+"sl": 3,
+"country": "Germany"
+},
+{
+"qid": "Q4063074",
+"label": "Vorontsovsky park",
+"gloss": "Autonomous Republic of Crimea, Ukraine, 1923",
+"year": 1923,
+"sl": 3,
+"country": "Ukraine"
+},
+{
+"qid": "Q112184236",
+"label": "English garden",
+"gloss": "Bezirk Mitte, Germany, 1952",
+"year": 1952,
+"sl": 2,
+"country": "Germany"
+},
+{
+"qid": "Q12144115",
+"label": "Prydniprovskyi Park, Kremenchuk",
+"gloss": "Kremenchuk, Ukraine, 1959",
+"year": 1959,
+"sl": 4,
+"country": "Ukraine"
+},
+{
+"qid": "Q12172873",
+"label": "Yuvileinyi Park, Kremenchuk",
+"gloss": "Kremenchuk, Ukraine, 1967",
+"year": 1967,
+"sl": 3,
+"country": "Ukraine"
+},
+{
+"qid": "Q140480015",
+"label": "TG Rose Garden",
+"gloss": "Dazaifu, Japan, 1998",
+"year": 1998,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q1071076",
+"label": "Garden of Ninfa",
+"gloss": "Cisterna di Latina, Italy, 2000 · natural monument",
+"year": 2000,
+"sl": 12,
+"country": "Italy"
+},
+{
+"qid": "Q125989221",
+"label": "Miyama English Garden",
+"gloss": "Tamano, Japan, 2000",
+"year": 2000,
+"sl": 1,
+"country": "Japan"
+},
+{
+"qid": "Q7707985",
+"label": "Mitino landscape park",
+"gloss": "Moscow, Russia, 2003",
+"year": 2003,
+"sl": 2,
+"country": "Russia"
+},
+{
+"qid": "Q27497539",
+"label": "Zilim Landscape Nature Park",
+"gloss": "Russia, 2005",
+"year": 2005,
+"sl": 7,
+"country": "Russia"
+},
+{
+"qid": "Q1006778",
+"label": "Gardens of the Károlyi Mansion, Füzérradvány",
+"gloss": "Borsod-Abaúj-Zemplén County, Hungary, 2007",
+"year": 2007,
+"sl": 2,
+"country": "Hungary"
+},
+{
+"qid": "Q301338",
+"label": "Stourhead",
+"gloss": "Stourton with Gasper, United Kingdom · Grade I listed park and garden",
+"year": null,
+"sl": 16,
+"country": "United Kingdom"
+},
+{
+"qid": "Q380298",
+"label": "Laxenburg castles",
+"gloss": "Laxenburg, Austria · Listed objects in Austria",
+"year": null,
+"sl": 14,
+"country": "Austria"
+},
+{
+"qid": "Q3162435",
+"label": "Alexander Garden",
+"gloss": "Saint Petersburg, Russia · federal cultural heritage site in Russia",
+"year": null,
+"sl": 12,
+"country": "Russia"
+},
+{
+"qid": "Q314123",
+"label": "Schloss Belvedere",
+"gloss": "Weimar, Germany · Kulturdenkmal",
+"year": null,
+"sl": 12,
+"country": "Germany"
+},
+{
+"qid": "Q1637097",
+"label": "Humlegården",
+"gloss": "Stockholm Municipality, Sweden",
+"year": null,
+"sl": 10,
+"country": "Sweden"
+},
+{
+"qid": "Q1095337",
+"label": "Claremont",
+"gloss": "Elmbridge, United Kingdom · Grade I listed building",
+"year": null,
+"sl": 9,
+"country": "United Kingdom"
+},
+{
+"qid": "Q1725605",
+"label": "Ettersburg Castle and Park",
+"gloss": "Ettersburg, Germany · Kulturdenkmal",
+"year": null,
+"sl": 8,
+"country": "Germany"
+},
+{
+"qid": "Q268492",
+"label": "Schlosspark Nymphenburg",
+"gloss": "Neuhausen-Nymphenburg, Germany · architectural heritage monument in Bavaria",
+"year": null,
+"sl": 7,
+"country": "Germany"
+},
+{
+"qid": "Q882827",
+"label": "Rosenstein Park",
+"gloss": "Stuttgart, Germany",
+"year": null,
+"sl": 6,
+"country": "Germany"
+},
+{
+"qid": "Q4883909",
+"label": "Bellevue park",
+"gloss": "Stockholm Municipality, Sweden",
+"year": null,
+"sl": 5,
+"country": "Sweden"
+},
+{
+"qid": "Q1349970",
+"label": "Cave Birseck hermitage, Palaeolithic residential cave / cult place / neolithic burial",
+"gloss": "Arlesheim, Switzerland · class A Swiss cultural property of national significance",
+"year": null,
+"sl": 5,
+"country": "Switzerland"
+},
+{
+"qid": "Q1270698",
+"label": "Désert de Retz",
+"gloss": "Chambourcy, France · remarkable garden of France",
+"year": null,
+"sl": 5,
+"country": "France"
+},
+{
+"qid": "Q1623080",
+"label": "Hofgarten",
+"gloss": "Düsseldorf, Germany · architectural heritage monument in North Rhine-Westphalia",
+"year": null,
+"sl": 5,
+"country": "Germany"
+},
+{
+"qid": "Q46404",
+"label": "Painshill",
+"gloss": "Elmbridge, United Kingdom · Grade I listed park and garden",
+"year": null,
+"sl": 5,
+"country": "United Kingdom"
+},
+{
+"qid": "Q2244648",
+"label": "Schlosspark Gotha",
+"gloss": "Germany · Kulturdenkmal",
+"year": null,
+"sl": 5,
+"country": "Germany"
+},
+{
+"qid": "Q225403",
+"label": "Botanischer Garten Rombergpark",
+"gloss": "Dortmund, Germany · architectural heritage monument in North Rhine-Westphalia",
+"year": null,
+"sl": 4,
+"country": "Germany"
+},
+{
+"qid": "Q881773",
+"label": "Branitz park",
+"gloss": "Cottbus, Germany · architectural heritage monument",
+"year": null,
+"sl": 4,
+"country": "Germany"
+},
+{
+"qid": "Q3162626",
+"label": "Cognac Public Garden",
+"gloss": "Cognac, France · monument historique inscrit",
+"year": null,
+"sl": 4,
+"country": "France"
+},
+{
+"qid": "Q1508723",
+"label": "Georgengarten",
+"gloss": "Nord, Germany · architectural heritage monument",
+"year": null,
+"sl": 4,
+"country": "Germany"
+},
+{
+"qid": "Q2244471",
+"label": "Schlossgarten Oldenburg",
+"gloss": "Oldenburg, Germany",
+"year": null,
+"sl": 4,
+"country": "Germany"
+},
+{
+"qid": "Q1342736",
+"label": "Englischer Garden Meiningen",
+"gloss": "Meiningen, Germany · Heritage monument in Thuringia",
+"year": null,
+"sl": 3,
+"country": "Germany"
+},
+{
+"qid": "Q16559252",
+"label": "Giardino Jacquard",
+"gloss": "Schio, Italy · Italian national heritage",
+"year": null,
+"sl": 3,
+"country": "Italy"
+},
+{
+"qid": "Q1623079",
+"label": "Hofgarten Coburg",
+"gloss": "Coburg, Germany · architectural heritage monument in Bavaria",
+"year": null,
+"sl": 3,
+"country": "Germany"
+},
+{
+"qid": "Q21875133",
+"label": "Laxenburg Castle Park",
+"gloss": "Laxenburg, Austria · Park or garden according to § 1 Abs. 12 DMSG",
+"year": null,
+"sl": 3,
+"country": "Austria"
+},
+{
+"qid": "Q28040309",
+"label": "Monceau-sur-Sambre park",
+"gloss": "Q81046, Belgium",
+"year": null,
+"sl": 3,
+"country": "Belgium"
+},
+{
+"qid": "Q20669821",
+"label": "Osseghem Park",
+"gloss": "Laeken, Belgium · protected monument",
+"year": null,
+"sl": 3,
+"country": "Belgium"
+},
+{
+"qid": "Q2557511",
+"label": "Welfengarten",
+"gloss": "Nord, Germany",
+"year": null,
+"sl": 3,
+"country": "Germany"
+},
+{
+"qid": "Q18337252",
+"label": "Barakura English Garden",
+"gloss": "Chino, Japan",
+"year": null,
+"sl": 2,
+"country": "Japan"
+},
+{
+"qid": "Q118387422",
+"label": "Casino Gardens",
+"gloss": "Sint-Niklaas, Belgium",
+"year": null,
+"sl": 2,
+"country": "Belgium"
+},
+{
+"qid": "Q15780530",
+"label": "English park",
+"gloss": "Stockholm Municipality, Sweden",
+"year": null,
+"sl": 2,
+"country": "Sweden"
+},
+{
+"qid": "Q1357060",
+"label": "Ernst-Ehrlicher-Park",
+"gloss": "Hildesheim, Germany",
+"year": null,
+"sl": 2,
+"country": "Germany"
+},
+{
+"qid": "Q1623081",
+"label": "Hofgarten",
+"gloss": "Eichstätt, Germany · architectural heritage monument in Bavaria",
+"year": null,
+"sl": 2,
+"country": "Germany"
+},
+{
+"qid": "Q1739362",
+"label": "Landschaftspark Althaldensleben-Hundisburg",
+"gloss": "Haldensleben, Germany · Kulturdenkmal",
+"year": null,
+"sl": 2,
+"country": "Germany"
+},
+{
+"qid": "Q6526146",
+"label": "Leonardslee",
+"gloss": "Lower Beeding, United Kingdom · Grade I listed park and garden",
+"year": null,
+"sl": 2,
+"country": "United Kingdom"
+},
+{
+"qid": "Q14912918",
+"label": "Maximiliansplatz",
+"gloss": "Maxvorstadt, Germany · architectural heritage monument in Bavaria",
+"year": null,
+"sl": 2,
+"country": "Germany"
+},
+{
+"qid": "Q9218922",
+"label": "Müschpark",
+"gloss": "Aachen, Germany · architectural heritage monument in North Rhine-Westphalia",
+"year": null,
+"sl": 2,
+"country": "Germany"
+},
+{
+"qid": "Q2047302",
+"label": "Palaisgarten by Peter Joseph Lenné in Detmold",
+"gloss": "Detmold, Germany · architectural heritage monument in North Rhine-Westphalia",
+"year": null,
+"sl": 2,
+"country": "Germany"
+},
+{
+"qid": "Q111517631",
+"label": "Parc de la Roseraie du Val-de-Marne",
+"gloss": "L'Haÿ-les-Roses, France",
+"year": null,
+"sl": 2,
+"country": "France"
+},
+{
+"qid": "Q2325137",
+"label": "Staatspark Furstenlager",
+"gloss": "Bensheim, Germany · cultural heritage monument in Hesse",
+"year": null,
+"sl": 2,
+"country": "Germany"
+},
+{
+"qid": "Q1452125",
+"label": "Von-Halfern-Park",
+"gloss": "Aachen-Mitte, Germany · Kulturdenkmal",
+"year": null,
+"sl": 2,
+"country": "Germany"
+},
+{
+"qid": "Q5094215",
+"label": "Chetwynd Park",
+"gloss": "Chetwynd, United Kingdom · Grade II listed park and garden",
+"year": null,
+"sl": 1,
+"country": "United Kingdom"
+},
+{
+"qid": "Q54291165",
+"label": "Colombipark",
+"gloss": "Freiburg im Breisgau, Germany",
+"year": null,
+"sl": 1,
+"country": "Germany"
+},
+{
+"qid": "Q138784027",
+"label": "De Casino",
+"gloss": "Sint-Niklaas, Belgium",
+"year": null,
+"sl": 1,
+"country": "Belgium"
+},
+{
+"qid": "Q99675530",
+"label": "Elizabethan Gardens",
+"gloss": "Dare County, United States",
+"year": null,
+"sl": 1,
+"country": "United States"
+},
+{
+"qid": "Q63246945",
+"label": "Gardens of Pazo Quiñones de León",
+"gloss": "Vigo, Spain",
+"year": null,
+"sl": 1,
+"country": "Spain"
+},
+{
+"qid": "Q107377508",
+"label": "Parc Mauresque",
+"gloss": "Arcachon, France",
+"year": null,
+"sl": 1,
+"country": "France"
+},
+{
+"qid": "Q114968074",
+"label": "Park in Znamenskoye-Rayok",
+"gloss": "Q16023039, Russia · tentative cultural heritage site in Russia",
+"year": null,
+"sl": 1,
+"country": "Russia"
+},
+{
+"qid": "Q109658904",
+"label": "Schwangau spa park",
+"gloss": "Schwangau, Germany",
+"year": null,
+"sl": 1,
+"country": "Germany"
+},
+{
+"qid": "Q7658788",
+"label": "Swinton Estate",
+"gloss": "Swinton with Warthermarske, United Kingdom",
+"year": null,
+"sl": 1,
+"country": "United Kingdom"
+},
+{
+"qid": "Q125748658",
+"label": "park of Villa Olmo",
+"gloss": "Como, Italy",
+"year": null,
+"sl": 1,
+"country": "Italy"
 }
 ]
 ]
 ]
 },
 "K13-2": {
-"t": null,
-"total": 0,
-"sections": []
+"t": 1,
+"total": 2,
+"wd": true,
+"sections": [
+[
+"Mughal gardens",
+[
+{
+"qid": "Q7368825",
+"label": "Roshanara Bagh",
+"gloss": "Delhi, India",
+"year": null,
+"sl": 8,
+"country": "India"
+},
+{
+"qid": "Q107366356",
+"label": "Shalimar Bagh Delhi",
+"gloss": "North West Delhi district, India",
+"year": null,
+"sl": 2,
+"country": "India"
+}
+]
+]
+]
 },
 "K13-5": {
-"t": null,
-"total": 0,
-"sections": []
+"t": 1,
+"total": 8,
+"wd": true,
+"sections": [
+[
+"Italian Renaissance gardens",
+[
+{
+"qid": "Q733389",
+"label": "Villa Medicea of Poggio a Caiano",
+"gloss": "Poggio a Caiano, Italy, 1480 · UNESCO World Heritage Site",
+"year": 1480,
+"sl": 13,
+"country": "Italy"
+},
+{
+"qid": "Q746063",
+"label": "Villa d'Este",
+"gloss": "Tivoli, Italy · UNESCO World Heritage Site",
+"year": null,
+"sl": 47,
+"country": "Italy"
+},
+{
+"qid": "Q2084394",
+"label": "Villa Godi",
+"gloss": "Lugo di Vicenza, Italy · UNESCO World Heritage Site",
+"year": null,
+"sl": 20,
+"country": "Italy"
+},
+{
+"qid": "Q2165810",
+"label": "Villa Lante",
+"gloss": "Viterbo, Italy · Italian national heritage",
+"year": null,
+"sl": 14,
+"country": "Italy"
+},
+{
+"qid": "Q1416462",
+"label": "Großer Garten",
+"gloss": "Herrenhausen-Stöcken, Germany · architectural heritage monument in Lower Saxony",
+"year": null,
+"sl": 3,
+"country": "Germany"
+},
+{
+"qid": "Q76860005",
+"label": "Italy Park",
+"gloss": "Higashi-Shinbashi, Japan",
+"year": null,
+"sl": 3,
+"country": "Japan"
+},
+{
+"qid": "Q140129806",
+"label": "Italian Renaissance Garden",
+"gloss": "Marzahn-Hellersdorf, Germany",
+"year": null,
+"sl": 1,
+"country": "Germany"
+},
+{
+"qid": "Q112245867",
+"label": "Miramare Castle gardens",
+"gloss": "Trieste, Italy",
+"year": null,
+"sl": 1,
+"country": "Italy"
+}
+]
+]
+]
 },
 "K14-1": {
 "t": null,
 "total": 0,
+"wd": false,
 "sections": []
 },
 "K14-2": {
 "t": null,
 "total": 0,
+"wd": false,
 "sections": []
 },
 "K14-3": {
 "t": null,
 "total": 0,
+"wd": false,
 "sections": []
 },
 "K14-4": {
 "t": null,
 "total": 0,
+"wd": false,
 "sections": []
 }
 }

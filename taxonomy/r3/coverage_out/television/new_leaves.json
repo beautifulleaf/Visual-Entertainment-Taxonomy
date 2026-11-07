@@ -1,0 +1,155 @@
+[
+ {
+  "key": "NEW_GOLDEN",
+  "sub": "B1",
+  "label": "Golden Age Anthology Drama",
+  "breadth": "cycle (US, 1947–1961)",
+  "defn": "A sponsor-titled American anthology drama of the first Golden Age of Television (c. 1947–1961): a new self-contained teleplay each week, broadcast live from New York or Hollywood (Kraft Television Theatre, Studio One, The Philco Television Playhouse, Playhouse 90) or, later in the decade, filmed in Hollywood (General Electric Theater, Schlitz Playhouse). Later anthologies stay in B1-29 Anthology Drama.",
+  "aliases": "live anthology drama; Golden Age of Television",
+  "see": "B1-29",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Golden_Age_of_Television",
+    "Wikipedia"
+   ],
+   [
+    "https://en.wikipedia.org/wiki/Anthology_series",
+    "Wikipedia"
+   ]
+  ],
+  "axis": "production mode",
+  "secs": [
+   "Live Anthologies",
+   "Filmed Anthologies"
+  ]
+ },
+ {
+  "key": "NEW_BIZ",
+  "sub": "B14",
+  "label": "Business Reality Television",
+  "breadth": "genre",
+  "defn": "Factual entertainment built around running or financing a business: entrepreneurs pitching to investors, experts rescuing failing restaurants, bars and hotels, bosses going undercover, and dealers trading, pawning and buying at auction (Dragons' Den, Kitchen Nightmares, Bar Rescue, Undercover Boss, Pawn Stars).",
+  "aliases": "business reality TV",
+  "see": "B13-4; B14-2",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Reality_television#Business_improvement",
+    "Wikipedia (Reality television: Business improvement)"
+   ],
+   [
+    "taxonomy/r3/imdb_interests.tsv",
+    "IMDb interest: Business Reality TV"
+   ]
+  ],
+  "axis": "premise",
+  "secs": [
+   "Pitch & Investment Shows",
+   "Business Rescue & Turnaround Shows",
+   "Undercover Boss Shows",
+   "Pawn, Picking & Auction Shows"
+  ]
+ },
+ {
+  "key": "NEW_PROP",
+  "sub": "B14",
+  "label": "Property & Home Improvement Television",
+  "breadth": "genre",
+  "defn": "Lifestyle television about buying, selling, building and renovating homes: house-hunting and relocation shows, renovation and flipping shows, self-build and design series, and luxury real-estate docusoaps (Location, Location, Location, House Hunters, Grand Designs, Fixer Upper, Selling Sunset). One-off makeovers of a home as a gift stay in B14-4 Makeover Show.",
+  "aliases": "property television; home improvement television; HGTV-style renovation shows",
+  "see": "B14-4",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Reality_television#Renovation",
+    "Wikipedia (Reality television: Renovation)"
+   ],
+   [
+    "taxonomy/r3/imdb_interests.tsv",
+    "IMDb interest: Home Improvement"
+   ]
+  ],
+  "axis": "premise",
+  "secs": [
+   "House-Hunting & Relocation",
+   "Renovation, Flipping & DIY",
+   "Self-Build & Design",
+   "Real-Estate Agents & Luxury Listings"
+  ]
+ },
+ {
+  "key": "NEW_CRIME",
+  "sub": "B14",
+  "label": "Crime & Law-Enforcement Reality",
+  "breadth": "genre",
+  "defn": "Reality television that follows police, border, custody and prison officers, bounty hunters and investigators at work, filmed on ride-alongs, in custody suites and in stings (Cops, Live PD, Border Security, 24 Hours in Police Custody, Dog the Bounty Hunter). Documentary investigations of past cases go to B11-11 True Crime Docuseries.",
+  "aliases": "crime reality TV; police reality; first-responder reality",
+  "see": "B11-11; B14-9",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Reality_television#First_responder_reality_style",
+    "Wikipedia (Reality television: Professional activities / first responder reality)"
+   ],
+   [
+    "taxonomy/r3/imdb_interests.tsv",
+    "IMDb interest: Crime Reality TV"
+   ]
+  ],
+  "axis": "setting",
+  "secs": [
+   "Ride-Along & Patrol Reality",
+   "Border, Custody & Prison Reality",
+   "Investigation & Sting Reality",
+   "Bounty Hunting & Manhunts"
+  ]
+ },
+ {
+  "key": "NEW_NEWS",
+  "sub": "B11",
+  "label": "News & Current Affairs Programmes",
+  "breadth": "genre",
+  "defn": "Regularly scheduled journalism programmes: investigative newsmagazines and current-affairs strands, political interview and debate programmes, breakfast television, evening newscasts, cable news and opinion shows, and tabloid and entertainment news magazines (60 Minutes, Panorama, Meet the Press, Today, PBS NewsHour, Entertainment Tonight).",
+  "aliases": "newsmagazine; current affairs; breakfast television",
+  "see": "B11-10; B15-3",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Newsmagazine",
+    "Wikipedia"
+   ],
+   [
+    "https://en.wikipedia.org/wiki/Current_affairs_(news_format)",
+    "Wikipedia"
+   ],
+   [
+    "https://en.wikipedia.org/wiki/Breakfast_television",
+    "Wikipedia"
+   ],
+   [
+    "taxonomy/r3/imdb_interests.tsv",
+    "IMDb interest: News"
+   ]
+  ],
+  "axis": "programme form",
+  "secs": [
+   "Newsmagazines & Investigative Current Affairs",
+   "Political Interview & Debate Programmes",
+   "Breakfast & Morning Television",
+   "Evening Newscasts",
+   "Cable News & Opinion Shows",
+   "Tabloid & Entertainment News"
+  ]
+ },
+ {
+  "key": "NEW_SINETRON",
+  "sub": "B12",
+  "label": "Sinetron",
+  "breadth": "national tradition (Indonesia)",
+  "defn": "The Indonesian television serial (sinema elektronik): long-running daily or weekly family, romance, religious and comedy serials of the private networks RCTI, SCTV and Indosiar (Si Doel Anak Sekolahan, Para Pencari Tuhan, Ikatan Cinta).",
+  "aliases": "sinema elektronik",
+  "see": "B12-4",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Sinetron",
+    "Wikipedia"
+   ]
+  ]
+ }
+]

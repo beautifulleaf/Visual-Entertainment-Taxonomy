@@ -1,7 +1,7 @@
 # Spec part C: E3 (stoneware) and E4 (porcelain)
 from spec_lib import S
 JP = r"japan|日本|江戸|室町|鎌倉|桃山|安土|明治|平安|momoyama|\bedo\b|muromachi|kamakura|meiji|heian|nanbokucho"
-CN = r"china|chinese|中国|宋|元|明|清|唐|五代|\bsong\b|\byuan\b|\bming\b|\bqing\b|\btang\b|northern song|southern song|jin dynasty"
+CN = r"\bchina\b|\bchinese\b|中国|宋|元|明|清|唐|五代|\bsong\b|\byuan\b|\bming\b|\bqing\b|\btang\b|northern song|southern song|jin dynasty"
 S("E3-1", pat=[(r"khmer|angkor|buriram", r"ceram|stoneware|glaz|pott|jar|jarlet|vessel")], kw="Khmer ceramics", prof="seasia",
   rows=[("Phnom Kulen kilns", "Centres & workshops", "kilns near Angkor making pale green-glazed ware, 9th–11th c.", "Phnom Kulen", 0),
         ("Brown-glazed ware", "Sub-types", "iron-brown glazed jars and zoomorphic vessels, 11th–13th c.", "Khmer ceramics", 0)],
@@ -175,7 +175,7 @@ S("E4-5", pat=[(r"青花|blue.and.white|underglaze blue|染付|cobalt", CN)], ex
 S("E4-6", pat=[r"鬥彩|闘彩|鬭彩|doucai|tou-?ts.ai|chicken cup"], kw="doucai", prof="china", zh="鬥彩",
   rows=[("Chenghua doucai", "Schools & phases", "the classic doucai of the Chenghua reign, 1465–1487", "Chenghua Emperor", 0)],
   ov={"Chicken cups": ("Chicken cups", "Sub-types", "small Chenghua doucai wine cups with hens and chicks")})
-S("E4-7", pat=[(r"五彩|wucai|wu-?ts.ai", r"明|ming|万暦|萬暦|嘉靖|wanli|jiajing|china|中国")], excl=r"康熙|kangxi|famille|日本|japan|伊万里", kw="wucai", prof="china", zh="五彩",
+S("E4-7", pat=[(r"五彩|wucai|wu-?ts.ai", r"明|\bming\b|万暦|萬暦|嘉靖|wanli|jiajing|\bchina\b|中国")], excl=r"康熙|kangxi|famille|日本|japan|伊万里", kw="wucai", prof="china", zh="五彩",
   rows=[("Jiajing wucai", "Schools & phases", "imperial wucai of the Jiajing reign, 1522–1566", "Wucai", 0),
         ("Wanli wucai", "Schools & phases", "dense imperial wucai of the Wanli reign, 1573–1620", "Wucai", 0)])
 S("E4-8", pat=[r"famille verte|康熙五彩|famille noire|famille jaune"], kw="famille verte", prof="china", zh="康熙 五彩",
@@ -199,7 +199,7 @@ S("E4-11", pat=[r"kraak|芙蓉手|carrack"], kw="kraak porcelain", prof="china",
 S("E4-12", pat=[r"swatow|zhangzhou|漳州|呉須赤絵|呉須染付|gosu"], kw="Swatow", prof="china", zh="漳州窯",
   rows=[("Pinghe kilns", "Centres & workshops", "Zhangzhou kiln sites in Pinghe county, Fujian", "Swatow ware", 0),
         ("Gosu-akae", "Sub-types", "Zhangzhou red-and-green enamelled ware prized in Japan", "Swatow ware", 0)])
-S("E4-13", pat=[(r"export|chine de commande|armorial|canton|rose medallion|rose mandarin|jesuit", r"china|chinese|中国|canton|jingdezhen")], kw="Chinese export porcelain", prof="china", zh="外銷",
+S("E4-13", pat=[(r"export|chine de commande|armorial|canton|rose medallion|rose mandarin|jesuit", r"\bchina\b|\bchinese\b|中国|canton|jingdezhen")], src=("east_asia", "world_extra", "smithsonian_chndm", "islamic", "world_folk", "europe_folk"), excl=r"national museum of the american indian", kw="Chinese export porcelain", prof="china", zh="外銷",
   met=["Chinese, Export"],
   rows=[("Nanking Cargo", "W", "porcelain from the Geldermalsen, sunk 1752, sold at Christie's 1986", "Nanking Cargo", 0)],
   ov={"Chinese, Export": "alias",
