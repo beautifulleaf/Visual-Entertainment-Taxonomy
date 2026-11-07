@@ -7,7 +7,7 @@ To do at assembly:
 - remap old FT codes left in notes and see-also;
 - check pass-made labels flagged as weakly attested and list them in the report;
 - review: Korean/Chinese weekend family serials in B1 Family Drama (may belong in B2/B4); "Desperation Crime Drama" section; Romantic Comedy-Drama leaf.
-- Wikipedia API rate-limited this connection (2026-11-07): rerun `pipelines/r3/check_wiki.py` after the passes finish.
+- Link check (owner: the per-link API check was inefficient): Wikipedia links checked offline against the one-file title dump (pipelines/r3/check_wiki.py); "View all" links checked once per URL template (domain + path pattern), one-offs individually.
 - Coverage step (owner: "make sure all existing subgenres are represented"): waits for the TSPDT harvest (taxonomy/r3/tspdt/), then 3 passes (film / television / animation) per taxonomy/r3/BRIEF_COVERAGE.md, using taxonomy/r3/imdb_interests.tsv (IMDb's 243 genre interests), AllMovie genre pages, Wikipedia genre lists and TSPDT lists.
 - Done VA: bucket_contemporary (5 new leaves, 234 moved), bucket_modsculpture_photo (4 new photography leaves, 307 moved).
 - Follow-up after design + small_H: move fashion designers left in country groups (Westwood, McQueen, Yamamoto, Lagerfeld ...) to the couture/fashion leaves; Scandinavian designers (Wirkkala, Sarpaneva) to N Design leaves.
