@@ -32,6 +32,8 @@ Regina Five
 Woodlands School and Indian Group of Seven
 Atlantic realism
 Canada
+Escuela Mexicana de Pintura
+Oaxacan School (Mexico)
 Mexico
 Guatemala
 El Salvador
@@ -52,10 +54,12 @@ Bolivia, Ecuador and Paraguay
 Generación del 13 (Chile)
 Grupo Montparnasse and Generation of '28 (Chile)
 Chile
+Grupo de París (Argentina)
 Otra Figuración (Argentina)
 Argentina
 Planismo (Uruguay)
 Uruguay
+Grupo Rex and Nova Objetividade Brasileira
 Brazil
 Hi-Red Center and Japanese anti-art (1960s)
 Japan
@@ -98,6 +102,7 @@ Iraq
 Syria, Jordan and the Gulf
 Lebanon
 Palestine
+Eretz-Israeli style (1920s Tel Aviv)
 New Horizons (Israel)
 Israel
 Egypt

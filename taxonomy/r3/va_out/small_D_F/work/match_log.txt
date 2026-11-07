@@ -54,3 +54,8 @@ D4-20 31 {'aot': np.int64(18), 'wfolk': np.int64(8), 'africa': np.int64(5)} | Ar
 D4-21 6 {'aot': np.int64(5), 'africa': np.int64(1)} | Minneapolis Institute of Art=4, Cleveland Museum of Art=1, Yale University (LUX)=1
 D4-22 27 {'aot': np.int64(19), 'africa': np.int64(7), 'smith': np.int64(1)} | Penn Museum=8, Minneapolis Institute of Art=6, Yale University (LUX)=5, Art Institute of Chicago=4
 D4-23 47 {'wx': np.int64(25), 'aot': np.int64(20), 'africa': np.int64(2)} | Penn Museum=16, Afrika Museum=12, Tropenmuseum=8, Minneapolis Institute of Art=2
+D4-24 574 {'smith': np.int64(542), 'wfolk': np.int64(30), 'amoc': np.int64(2)} | NMAI=542, The Metropolitan Museum of Art=16, Smithsonian National Museum of=8, Cleveland Museum of Art=4
+D4-25 160 {'smith': np.int64(110), 'wfolk': np.int64(50)} | NMAI=110, Smithsonian National Museum of=40, The Metropolitan Museum of Art=10
+D4-26 30 {'wfolk': np.int64(15), 'aot': np.int64(7), 'gap': np.int64(7), 'wx': np.int64(1)} | Museum of New Zealand Te Papa =11, The Metropolitan Museum of Art=9, Penn Museum=8, Museum Volkenkunde=2
+D4-27 20 {'wx': np.int64(19), 'wfolk': np.int64(1)} | Tropenmuseum=11, Museum Volkenkunde=7, Wereldmuseum Rotterdam=1, Art Institute of Chicago=1
+D4-28 2 {'smith': np.int64(2)} | CHNDM=2
