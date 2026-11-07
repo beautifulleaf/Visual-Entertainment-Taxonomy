@@ -536,7 +536,10 @@ def apply(tree, MV, MF, report):
         for r in csv.DictReader(open(pp)):
             rows_ = MV.get(r["leaf"])
             if rows_ is None or any(fold(x[0]) == fold(r["name"]) for x in rows_): continue
-            rows_.append([r["name"], "Peoples & cultures", f"{int(r['objects']):,} objects of this people in the gathered records",
+            how = r.get("how") or "held"
+            note = (f"grouped by Getty AAT under {r['aat_group']}" if how == "inherited" else
+                    f"{int(r['objects'] or 0):,} objects in the gathered records" + (f"; Getty AAT: {r['aat_group']}" if r.get("aat_group") else ""))
+            rows_.append([r["name"], "Peoples & cultures", note,
                           "r3 http://vocab.getty.edu/page/aat/" + r["aat_id"], 0])
             st["va_peoples_added"] += 1
         for f in tree["va"]["fams"]:

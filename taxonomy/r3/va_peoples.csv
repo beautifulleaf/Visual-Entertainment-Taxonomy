@@ -1,2 +1,222 @@
-aat_id,name,leaf,objects
-300020093,Classical,E1-28,28015
+aat_id,name,leaf,objects,how,aat_group
+300020093,Classical,E1-28,28015,held,
+300444978,Kartli,K5-10,0,inherited,Georgian (West Asian style)
+300114379,Edo-e,B2-17,0,inherited,Ukiyo-e
+300264818,Ink-bamboo,A2-3,0,inherited,Wen ren
+300444290,Dutch Renaissance Revival,K2-10,0,inherited,Renaissance Revival
+300133798,Analytical Cubist,A5-58,0,inherited,Cubist
+300410313,Abstract Surrealist,A5-66,0,inherited,Surrealist
+300122745,Rosicrucian,A5-51,0,inherited,Symbolist
+300264803,Maori sculpture styles,D5-81,0,inherited,Maori (culture or style)
+300019107,Funan,K9-1,0,inherited,Pre-Angkorean
+300459763,inhwa bungcheong,E3-14,0,inherited,buncheong (ceramic style)
+300019027,Ajmer,K1-15,0,inherited,Provincial Mughal
+300018205,Italian Villa Style,K2-11,0,inherited,Italianate (architectural style)
+300017277,Paracas Cavernas,H4-32,0,inherited,Paracas
+300134111,Baffin Island Inuit,D5-77,0,inherited,Inuit (Canadian Arctic Native style)
+300016503,Arusha,H9-2,0,inherited,Maasai (culture or style)
+300016559,Bhaca,H9-1,0,inherited,Zulu (culture or style)
+300016011,Yohure,D5-46,0,inherited,Baule (culture)
+300016020,Adja,D6-4,0,inherited,Fon (culture or style)
+300263394,Akoko,D5-42,0,inherited,Yoruba (culture or style)
+300016067,Achi,D4-17,0,inherited,"Igbo (Southern Nigerian style, culture)"
+300016175,Beti,D6-3,0,inherited,Fang (culture or style)
+300016312,Kuba Court Style,H4-30,0,inherited,Kuba (Democratic Republic of Congo style)
+300263160,Kalebwe,D6-2,0,inherited,Songye
+300015850,Bozo,D4-13,0,inherited,Bamana
+300015850,Bozo,D5-44,0,inherited,Bamana
+300263764,Dorosie,D5-47,0,inherited,Lobi
+300015937,Tura,D4-18,0,inherited,Dan (Mande style)
+300265351,Ahouan,G1-20,0,inherited,Akan (culture or style)
+300386450,Semelai,C2-4,0,inherited,Malayan
+300118112,Angkorean styles,K9-1,0,inherited,Angkorean
+300120355,Compagnie des Indes,E4-13,0,inherited,Chinese export (ceramics style)
+300114373,Hishigawa School,B2-17,0,inherited,Ukiyo-e
+300443478,Rondo-Cubist,A5-58,0,inherited,Cubist
+300459765,guiyal buncheong,E3-14,0,inherited,buncheong (ceramic style)
+300019001,Bilaspur,A1-8,0,inherited,Pahari (style)
+300019109,Chen-la,K9-1,0,inherited,Pre-Angkorean
+300134115,Caribou Inuit,D5-77,0,inherited,Inuit (Canadian Arctic Native style)
+300016201,Ngumba,D6-3,0,inherited,Fang (culture or style)
+300016246,Bwende,D6-2,0,inherited,Kongo (culture or style)
+300016314,Kuba Folk Style,H4-30,0,inherited,Kuba (Democratic Republic of Congo style)
+300264455,Central Luba,D5-50,0,inherited,Luba (culture or style)
+300264729,Nyuswa,H9-1,0,inherited,Zulu (culture or style)
+300264438,Somono,D4-13,0,inherited,Bamana
+300264438,Somono,D5-44,0,inherited,Bamana
+300262894,Gouin,D4-14,0,inherited,Senufo (culture or style)
+300262894,Gouin,D5-45,0,inherited,Senufo (culture or style)
+300016021,Aizo,D6-4,0,inherited,Fon (culture or style)
+300264280,Awori,D5-42,0,inherited,Yoruba (culture or style)
+300114368,Hokusai School,B2-17,0,inherited,Ukiyo-e
+300444305,French Renaissance Revival,K2-10,0,inherited,Renaissance Revival
+300021499,Synthetic Cubist,A5-58,0,inherited,Cubist
+300459766,deombeong buncheong,E3-14,0,inherited,buncheong (ceramic style)
+300263449,Central Ghana styles,G1-20,0,inherited,Akan (culture or style)
+300262560,Mahi,D6-4,0,inherited,Fon (culture or style)
+300263711,Bunu,D5-42,0,inherited,Yoruba (culture or style)
+300262541,Ntumu,D6-3,0,inherited,Fang (culture or style)
+300016247,Dondo,D6-2,0,inherited,Kongo (culture or style)
+300016327,Luntu,H4-30,0,inherited,Kuba (Democratic Republic of Congo style)
+300264456,Eastern Luba,D5-50,0,inherited,Luba (culture or style)
+300015869,Kulango,D4-14,0,inherited,Senufo (culture or style)
+300015869,Kulango,D5-45,0,inherited,Senufo (culture or style)
+300015988,Coastal Akan,G1-20,0,inherited,Akan (culture or style)
+300265303,Ijesha,D5-42,0,inherited,Yoruba (culture or style)
+300263804,Kakongo,D6-2,0,inherited,Kongo (culture or style)
+300016328,Lwalu,H4-30,0,inherited,Kuba (Democratic Republic of Congo style)
+300264457,Western Luba,D5-50,0,inherited,Luba (culture or style)
+300459767,Gyeryongsan,E3-14,0,inherited,buncheong (ceramic style)
+300019005,Garhwal,A1-8,0,inherited,Pahari (style)
+300114349,Kaigetsudo School,B2-17,0,inherited,Ukiyo-e
+300263923,Lula,D6-2,0,inherited,Kongo (culture or style)
+300262789,Ekpeye,D4-17,0,inherited,"Igbo (Southern Nigerian style, culture)"
+300016330,Mbagani,H4-30,0,inherited,Kuba (Democratic Republic of Congo style)
+300102550,Labrador Inuit,D5-77,0,inherited,Inuit (Canadian Arctic Native style)
+300021926,New Georgia Island,D5-87,0,inherited,Solomon Islands
+300018655,Katsukawa School,B2-17,0,inherited,Ukiyo-e
+300262900,Tusyan,D4-14,0,inherited,Senufo (culture or style)
+300262900,Tusyan,D5-45,0,inherited,Senufo (culture or style)
+300264074,Yagba,D5-42,0,inherited,Yoruba (culture or style)
+300017458,Netsilik Inuit,D5-77,0,inherited,Inuit (Canadian Arctic Native style)
+300114364,Kitagawa School,B2-17,0,inherited,Ukiyo-e
+300016232,Mbata,D6-2,0,inherited,Kongo (culture or style)
+300016032,Yoruba architectural styles,D5-42,0,inherited,Yoruba (culture or style)
+300016070,Udi,D4-17,0,inherited,"Igbo (Southern Nigerian style, culture)"
+300265652,Ungava,D5-77,0,inherited,Inuit (Canadian Arctic Native style)
+300018656,Kitao School,B2-17,0,inherited,Ukiyo-e
+300016343,Yaelima,H4-30,0,inherited,Kuba (Democratic Republic of Congo style)
+300016233,Mpangu,D6-2,0,inherited,Kongo (culture or style)
+300265330,Western Igbo,D4-17,0,inherited,"Igbo (Southern Nigerian style, culture)"
+300019013,Kulu,A1-8,0,inherited,Pahari (style)
+300102572,Western Arctic Inuit,D5-77,0,inherited,Inuit (Canadian Arctic Native style)
+300458807,Muzan-e,B2-17,0,inherited,Ukiyo-e
+300016234,Mpemba,D6-2,0,inherited,Kongo (culture or style)
+300019015,Mandi,A1-8,0,inherited,Pahari (style)
+300264003,Ndibu,D6-2,0,inherited,Kongo (culture or style)
+300138823,Suzuki School,B2-17,0,inherited,Ukiyo-e
+300019017,Nurpur,A1-8,0,inherited,Pahari (style)
+300458813,Yakusha-e,B2-17,0,inherited,Ukiyo-e
+300016236,Solongo,D6-2,0,inherited,Kongo (culture or style)
+300016235,Sonyo,D6-2,0,inherited,Kongo (culture or style)
+300114356,Yokohama-e,B2-17,0,inherited,Ukiyo-e
+300016237,Sundi,D6-2,0,inherited,Kongo (culture or style)
+300016238,Vili,D6-2,0,inherited,Kongo (culture or style)
+300016240,Yombe,D6-2,0,inherited,Kongo (culture or style)
+300263103,Zombo,D6-2,0,inherited,Kongo (culture or style)
+300265490,Nambé,E1-66,28,held,
+300017755,Ohkay Owingeh,E1-66,201,held,
+300017922,Cañari,H2-7,21,held,
+300120071,Cañar,H2-7,21,held,
+300017830,Cakchiquel,H3-28,180,held,
+300017824,Yucatec,H3-28,15,held,
+300017840,Lacandón,H3-28,24,held,
+300107953,Guatemalan,H3-28,544,held,
+300017842,Pokomam,H3-28,28,held,
+300017846,Quiché,H3-28,355,held,
+300017856,Tzutujil,H3-28,87,held,
+300386537,South Netherlandish,H3-30,170,held,
+300017585,Kickapoo,H4-39,90,held,
+300016915,Nebraska,H4-39,57,held,
+300017659,Iowa,H4-39,48,held,
+300017592,Sauk,H4-39,11,held,
+300017660,Kaw,H4-39,58,held,
+300017668,Otoe,H4-39,45,held,
+300017714,Quapaw,H4-39,44,held,
+300262943,Aka,H8-9,37,held,
+300262937,Baka,H8-9,37,held,
+300017500,Achomawi,H8-13,19,held,
+300460406,Cochimi,H8-13,10,held,
+300017735,Cocopa,H8-13,14,held,
+300017682,Klamath,H8-13,142,held,
+300017573,Panamint,H8-13,35,held,
+300017687,Modoc,H8-13,154,held,
+300265487,Maidu,H8-13,71,held,
+300457700,Pit River,H8-13,19,held,
+300017516,Shasta,H8-13,48,held,
+300017519,Tübatulabal,H8-13,11,held,
+300017630,Tolowa,H8-13,46,held,
+300265494,Kalispel,H8-16,22,held,
+300017701,Wishram,H8-16,16,held,
+300458754,Warm Springs,H8-16,39,held,
+300265507,Wasco,H8-16,34,held,
+300017475,Chilcotin,H8-17,14,held,
+300017683,Klikitat,H8-17,133,held,
+300017686,St'át'imc,H8-17,29,held,
+300017725,Chiricahua Apache,H8-18,58,held,
+300386779,White Mountain Apache,H8-18,85,held,
+300265503,San Carlos Apache,H8-18,64,held,
+300017662,Kiowa Apache,H8-18,11,held,
+300017767,Yavapai,H8-18,12,held,
+300017704,Atakapa,H8-21,19,held,
+300435662,Houma,H8-21,15,held,
+300017469,Saulteaux,H9-5,51,held,
+300017565,Bannock,H9-6,48,held,
+300265477,Yanktonai,H9-6,19,held,
+300265473,Rosebud Sioux,H9-6,26,held,
+300017635,Arikara,H9-6,67,held,
+300017643,Piegan,H9-6,340,held,
+300017653,Santee,H9-6,227,held,
+300103375,Assiniboine,H9-6,424,held,
+300265470,Oglala,H9-6,220,held,
+300017648,Comanche,H9-6,284,held,
+300017684,Kutenai,H9-6,29,held,
+300017469,Saulteaux,H9-6,21,held,
+300017639,Gros Ventre,H9-6,59,held,
+300017658,Hidatsa,H9-6,28,held,
+300017579,Ute,H9-6,267,held,
+300017659,Iowa,H9-6,69,held,
+300017660,Kaw,H9-6,70,held,
+300017662,Kiowa Apache,H9-6,15,held,
+300017666,Omaha,H9-6,41,held,
+300017668,Otoe,H9-6,46,held,
+300017669,Pawnee,H9-6,30,held,
+300017489,Tsuut'ina,H9-6,54,held,
+300017671,Plains Cree,H9-6,322,held,
+300017672,Plains Ojibwa,H9-6,82,held,
+300017670,Ponca,H9-6,85,held,
+300457780,Stoney Nakoda,H9-6,443,held,
+300017673,Wichita,H9-6,83,held,
+300017549,Cayuga,H9-7,16,held,
+300017551,Oneida,H9-7,81,held,
+300017552,Onondaga,H9-7,78,held,
+300069942,Assyro-Babylonian,D3-5,327,held,
+300260694,Bassa,D4-18,18,held,
+300263016,Basa,D4-18,18,held,
+300015949,Loma,D4-18,19,held,
+300266840,Pakistani,D5-1,64,held,
+300385968,Bangladeshi,D5-4,38,held,
+300015953,Sherbro,D5-40,44,held,
+300387727,Asia Minor,D5-58,44,held,
+300020543,Augustan,D5-61,24,held,
+300020545,Julio-Claudian,D5-61,32,held,
+300102531,Iglulik,D5-77,12,held,
+300444402,Dahomey,D6-4,50,held,
+300265494,Kalispel,D6-7,14,held,
+300017966,Chamacoco,D6-7,10,held,
+300265470,Oglala,D6-7,56,held,
+300017970,Lengua,D6-7,48,held,
+300020545,Julio-Claudian,F1-3,96,held,
+300262964,Punic,F1-4,51,held,
+300391484,Carthaginian,F1-4,51,held,
+300386470,North Netherlandish,F5-2,21,held,
+300386537,South Netherlandish,F5-2,123,held,
+300102531,Iglulik,B2-6,10,held,
+300018559,Nambokucho,C1-10,264,held,
+300451569,Telugu,C2-5,18,held,
+300019029,Bikaner,A1-7,12,held,
+300018846,Sikkimese,A4-7,245,held,
+300016760,Alutiiq,A5-111,15,held,
+300265473,Rosebud Sioux,A5-111,10,held,
+300265508,Colville,A5-111,30,held,
+300017511,Miwok,A5-111,10,held,
+300017669,Pawnee,A5-111,21,held,
+300438593,Suquamish,A5-111,11,held,
+300021866,Yolngu,A6-18,63,held,
+300016595,Tuareg,G3-4,55,held,
+300386487,Panamanian,G3-12,38,held,
+300017549,Cayuga,G3-18,13,held,
+300017552,Onondaga,G3-18,39,held,
+300017585,Kickapoo,G3-18,108,held,
+300017666,Omaha,G3-18,15,held,
+300017714,Quapaw,G3-18,31,held,

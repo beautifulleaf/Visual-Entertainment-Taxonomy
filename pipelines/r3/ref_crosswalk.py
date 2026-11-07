@@ -18,9 +18,11 @@ Each reference term gets the strongest coverage the tree gives it:
   variant    a regional or phase variant of a leaf: the term's qualifier names the leaf ("Arte Nova (Portuguese Art
              Nouveau)") or its words, stemmed, are a leaf's label words within the same region ("Analytical Cubist")
   out        a religion, denomination or religious order (AAT files them here): belief systems, not visual traditions
-  facet      a period, dynasty or modern nationality: served by the period and region facets (the tree has leaves in
+  inherited  Getty's own grouping places it: its direct AAT parent, a named tradition rather than a broad grouping, is covered (leaf,
+             variant or held) by a leaf of the same region, and an ancient term never goes to a leaf starting after 500
+  facet      a period, dynasty, modern nationality, or AAT regional or state designation: served by the period and region facets (the tree has leaves in
              that region), not a tradition
-  uncovered  none of these
+  uncovered  none of these; most have no gathered records: the gap is in the sources, not the tree
 AAT terms are mapped to the project's 20 regions (va_facets / coverage grid) from the term and its ancestors in the AAT
 hierarchy; the AAT type (culture, period, style...) is read from the label's qualifier. The uncovered backlog is ranked:
 styles, schools and movements first, then by the gathered museum records whose labels carry the name.
@@ -166,18 +168,67 @@ def main():
             if topl and kind not in ("period", "dynasty") and not PERIODS.search(" ".join(p[:2])):
                 how, codes = "held", [c for c, _ in topl]
                 for c, n in topl:
-                    peoples.append([a["id"], re.sub(r"\s*\([^)]*\)", "", a["label"]).strip(), c, n])
+                    peoples.append([a["id"], re.sub(r"\s*\([^)]*\)", "", a["label"]).strip(), c, n, "held", ""])
             elif PERIODS.search(a["label"] + " " + " ".join(p[1:3])) or kind in ("period", "dynasty"):
                 how = "facet"; kind = "period"
             elif REGWORDS.search(" ".join(p[1:3])) and "(" not in a["label"]:
                 how = "facet"; kind = "nationality"
         arows.append(dict(id=a["id"], label=a["label"], kind=kind, region=reg, top=top.replace("<", "").replace(">", ""),
                           path=" > ".join(reversed(p[1:5])), coverage=how, leaves=" ".join(codes), records=ev))
+    # ---- second pass: facet designations, inheritance through the AAT hierarchy, placement by records ----------
+    X = {r["id"]: r for r in arows}
+    kids = collections.defaultdict(list)
+    for a in A: kids[a["parent"]].append(a["id"])
+    FAC = {r["code"]: r for r in csv.DictReader(open(os.path.join(ROOT, "taxonomy/r3/va_facets.csv")))}
+    def strong(i, reg):
+        x = X.get(i)
+        if not (x and x["coverage"] in ("leaf", "variant", "held") and x["leaves"]): return []
+        return [l for l in x["leaves"].split() if FAC.get(l, {}).get("region") == reg]
+    fam_of = collections.defaultdict(collections.Counter)  # name -> families of its culture-only records
+    for f in glob.glob(os.path.join(ROOT, "taxonomy/r3/collections/out_col_*.csv")):
+        b = f.split("out_col_")[1][:-4]
+        inn = {(r["file"], r["label"], r["family"]): int(r["objects"] or 0) for r in csv.DictReader(open(os.path.join(ROOT, f"taxonomy/r3/collections/in_col_{b}.csv")))}
+        for r in csv.DictReader(open(f)):
+            fam = r["map"].split(":", 1)[1] if r["map"].startswith("general:") else (r["family"] if r["map"].startswith("missing:") else None)
+            if fam and fam in "ABCDEFGHIJ":
+                for w in set(re.split(r"[,;|·/()\[\]]+", r["label"])):
+                    w = fold(w)
+                    if w: fam_of[w][fam] += inn.get((r["file"], r["label"], r["family"]), 0)
+    for r in arows:
+        if r["coverage"] != "uncovered": continue
+        a = byid[r["id"]]; pth = path(a); low = " > ".join(pth[1:4]).lower()
+        if re.search(r"regional styles|regional designation|modern u\.s\. state|american regions|national designation|<[^>]*regions>", low) or "(of modern" in r["label"]:
+            r["coverage"], r["kind"] = "facet", "nationality"; continue
+        reg = r["region"]; par = a["parent"]
+        ancient = re.search(r"ancient|pre-columbian|early western|prehistoric|neolithic|bronze age|iron age", (r["path"] + " " + r["label"]).lower())
+        # only the direct parent counts, and only when it is a named tradition rather than a broad grouping: a vote of
+        # covered siblings sent members of "Japanese painting styles" to Yamato-e and "Southeast Asian" to Khmer Architecture
+        broad = re.search(r"^<|styles$|styles and movements|^(early|late|middle) |southeast asian|north american", byid[par]["label"].lower()) if par in byid else True
+        c = collections.Counter() if broad else collections.Counter({l: 3 for l in strong(par, reg)})
+        living = "(culture" in byid.get(par, {}).get("label", "") and not ancient   # a people under a culture heading: not into a leaf that closed before 1600
+        cand = [l for l, _ in c.most_common(2) if not (ancient and FAC[l]["start"] and int(FAC[l]["start"]) >= 500)
+                and not (living and FAC[l]["end"] and int(FAC[l]["end"]) < 1600)]
+        if re.match(r"modern\b", r["label"], re.I) or r["label"].startswith("Nanyang"): cand = []   # facet / 20th-c. movement without a leaf
+        nm = re.sub(r"\s*\([^)]*\)", "", r["label"]).strip()
+        if cand:
+            r["coverage"], r["leaves"] = "inherited", " ".join(cand)
+            for l in cand: peoples.append([r["id"], nm, l, 0, "inherited", byid[par]["label"]])
+            continue
+        # (placement by the medium of a people's records and word overlap with its AAT cluster was tried and dropped:
+        # it sent Amazonian peoples to Nasca Textiles and Ewe to Kanga; peoples with records but no inherited home
+        # stay in the backlog for a decision)
     with open(os.path.join(OUT, "aat_crosswalk.csv"), "w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=list(arows[0].keys())); w.writeheader(); w.writerows(arows)
 
-    with open(os.path.join(ROOT, "taxonomy/r3/va_peoples.csv"), "w", newline="") as fh:
-        w = csv.writer(fh); w.writerow(["aat_id", "name", "leaf", "objects"]); w.writerows(peoples)
+    # cumulative: placements applied in earlier runs are now entries in the tree and must stay in the file
+    pp = os.path.join(ROOT, "taxonomy/r3/va_peoples.csv")
+    if os.path.exists(pp):
+        have = {(r[0], r[2]) for r in peoples}
+        for r in csv.DictReader(open(pp)):
+            if (r["aat_id"], r["leaf"]) not in have and r.get("how") != "placed":
+                peoples.append([r["aat_id"], r["name"], r["leaf"], r["objects"], r.get("how") or "held", r.get("aat_group") or ""])
+    with open(pp, "w", newline="") as fh:
+        w = csv.writer(fh); w.writerow(["aat_id", "name", "leaf", "objects", "how", "aat_group"]); w.writerows(peoples)
 
     # ---- UNESCO -------------------------------------------------------------
     U = json.load(open(os.path.join(REF, "unesco_crafts.json")))
@@ -209,7 +260,7 @@ def main():
     byreg = collections.defaultdict(collections.Counter); bykind = collections.defaultdict(collections.Counter)
     for r in arows:
         byreg[r["region"]][r["coverage"]] += 1; bykind[r["kind"]][r["coverage"]] += 1
-    def pct(c, keys=("leaf", "entry", "mentioned", "variant", "held", "facet")): return sum(c[k] for k in keys) / max(1, sum(c.values()) - c["out"])
+    def pct(c, keys=("leaf", "entry", "mentioned", "variant", "held", "inherited", "placed", "facet")): return sum(c[k] for k in keys) / max(1, sum(c.values()) - c["out"])
     L = ["# Visual Art against independent references", "",
          f"Getty AAT Styles and Periods: {len(arows):,} named cultures, periods, dynasties, styles, schools and movements "
          f"(generic and geological terms left out). UNESCO: {len(urows)} Intangible Cultural Heritage elements naming a visual craft.", "",
@@ -217,9 +268,10 @@ def main():
          "**uncovered**. Mentioned is weak coverage: the tree knows the name but gives it no place of its own.", "",
          f"Overall: {pct(sum(byreg.values(), collections.Counter())):.0%} of in-scope AAT terms are covered (leaf, entry, mention, variant, held or facet); "
          f"{pct(sum(byreg.values(), collections.Counter()), ('leaf', 'entry')):.0%} have a leaf or entry.", "",
-         "## By region", "", "| Region | Terms | Leaf | Entry | Mentioned | Variant | Held | Facet | Out of scope | Uncovered | Covered |", "|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|"]
+         "## By region", "", "| Region | Terms | Leaf | Entry | Mentioned | Variant | Held | Inherited | Placed | Facet | Out of scope | Uncovered | of which with records | Covered |", "|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|"]
     for reg, c in sorted(byreg.items(), key=lambda x: -sum(x[1].values())):
-        L.append(f"| {reg} | {sum(c.values())} | {c['leaf']} | {c['entry']} | {c['mentioned']} | {c['variant']} | {c['held']} | {c['facet']} | {c['out']} | {c['uncovered']} | {pct(c):.0%} |")
+        ev = sum(1 for r in arows if r["region"] == reg and r["coverage"] == "uncovered" and r["records"])
+        L.append(f"| {reg} | {sum(c.values())} | {c['leaf']} | {c['entry']} | {c['mentioned']} | {c['variant']} | {c['held']} | {c['inherited']} | {c['placed']} | {c['facet']} | {c['out']} | {c['uncovered']} | {ev} | {pct(c):.0%} |")
     L += ["", "## By kind of term", "", "| Kind | Terms | Leaf | Entry | Mentioned | Variant | Held | Facet | Out of scope | Uncovered | Covered |", "|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|"]
     for k, c in sorted(bykind.items(), key=lambda x: rank[x[0]]):
         L.append(f"| {k} | {sum(c.values())} | {c['leaf']} | {c['entry']} | {c['mentioned']} | {c['variant']} | {c['held']} | {c['facet']} | {c['out']} | {c['uncovered']} | {pct(c):.0%} |")
