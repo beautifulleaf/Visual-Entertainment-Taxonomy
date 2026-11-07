@@ -4,44 +4,44 @@ Getty AAT Styles and Periods: 5,990 named cultures, periods, dynasties, styles, 
 
 Coverage: **leaf** (a leaf bears the name), **entry** (an entry inside a leaf bears it), **mentioned** (a definition names it), **uncovered**. Mentioned is weak coverage: the tree knows the name but gives it no place of its own.
 
-Overall: 81% of in-scope AAT terms are covered (leaf, entry, mention, variant, held or facet); 28% have a leaf or entry.
+Overall: 82% of in-scope AAT terms are covered (leaf, entry, mention, variant, held or facet); 29% have a leaf or entry.
 
 ## By region
 
 | Region | Terms | Leaf | Entry | Mentioned | Variant | Held | Inherited | Decided | Facet | Out of scope | Recorded | People, no records | Archaeology, no records | Uncovered | of which with records | Covered |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Sub-Saharan Africa | 1341 | 54 | 187 | 182 | 19 | 0 | 0 | 0 | 393 | 4 | 37 | 462 | 3 | 0 | 0 | 62% |
+| Sub-Saharan Africa | 1341 | 54 | 210 | 185 | 19 | 0 | 0 | 0 | 393 | 4 | 80 | 393 | 3 | 0 | 0 | 64% |
 | Western Europe | 823 | 146 | 142 | 174 | 36 | 1 | 0 | 0 | 284 | 7 | 9 | 20 | 4 | 0 | 0 | 96% |
-| Islamic world (MENA, Iran, Anatolia) | 503 | 16 | 75 | 88 | 10 | 0 | 0 | 0 | 268 | 14 | 7 | 21 | 4 | 0 | 0 | 93% |
-| North America (settler) | 433 | 29 | 60 | 66 | 9 | 0 | 0 | 0 | 139 | 9 | 14 | 15 | 92 | 0 | 0 | 71% |
-| North America (Indigenous) | 430 | 16 | 208 | 79 | 6 | 0 | 0 | 0 | 17 | 0 | 11 | 69 | 24 | 0 | 0 | 76% |
-| Transnational | 396 | 59 | 38 | 51 | 4 | 0 | 0 | 0 | 61 | 146 | 16 | 21 | 0 | 0 | 0 | 85% |
-| Mesoamerica & Caribbean | 249 | 13 | 36 | 46 | 10 | 0 | 0 | 0 | 101 | 3 | 8 | 31 | 1 | 0 | 0 | 84% |
-| South America | 240 | 13 | 35 | 44 | 11 | 0 | 0 | 0 | 46 | 1 | 22 | 65 | 3 | 0 | 0 | 62% |
+| Islamic world (MENA, Iran, Anatolia) | 503 | 16 | 78 | 92 | 10 | 0 | 0 | 0 | 268 | 14 | 6 | 18 | 1 | 0 | 0 | 95% |
+| North America (settler) | 433 | 29 | 66 | 66 | 9 | 0 | 0 | 0 | 139 | 9 | 15 | 8 | 92 | 0 | 0 | 73% |
+| North America (Indigenous) | 430 | 16 | 221 | 79 | 6 | 0 | 0 | 0 | 17 | 0 | 17 | 50 | 24 | 0 | 0 | 79% |
+| Transnational | 396 | 59 | 38 | 51 | 4 | 0 | 0 | 0 | 63 | 146 | 21 | 14 | 0 | 0 | 0 | 86% |
+| Mesoamerica & Caribbean | 249 | 13 | 45 | 46 | 10 | 0 | 0 | 0 | 102 | 3 | 10 | 19 | 1 | 0 | 0 | 88% |
+| South America | 240 | 13 | 38 | 44 | 11 | 0 | 0 | 0 | 46 | 1 | 30 | 54 | 3 | 0 | 0 | 64% |
 | China | 236 | 13 | 35 | 63 | 7 | 0 | 0 | 0 | 110 | 4 | 3 | 1 | 0 | 0 | 0 | 98% |
-| Japan | 196 | 30 | 68 | 47 | 5 | 0 | 0 | 0 | 18 | 11 | 7 | 9 | 1 | 0 | 0 | 91% |
-| South Asia | 188 | 13 | 41 | 58 | 9 | 0 | 0 | 0 | 44 | 2 | 5 | 14 | 2 | 0 | 0 | 89% |
-| Ancient Near East | 186 | 3 | 26 | 42 | 5 | 0 | 0 | 0 | 69 | 3 | 20 | 11 | 7 | 0 | 0 | 79% |
+| Japan | 196 | 30 | 69 | 47 | 5 | 0 | 0 | 0 | 19 | 11 | 9 | 5 | 1 | 0 | 0 | 92% |
+| South Asia | 188 | 13 | 41 | 59 | 9 | 0 | 0 | 0 | 45 | 2 | 8 | 10 | 1 | 0 | 0 | 90% |
+| Ancient Near East | 186 | 3 | 26 | 44 | 5 | 0 | 0 | 0 | 70 | 3 | 19 | 10 | 6 | 0 | 0 | 81% |
 | Greco-Roman & Byzantine Mediterranean | 171 | 22 | 52 | 55 | 9 | 0 | 0 | 0 | 24 | 5 | 3 | 0 | 1 | 0 | 0 | 98% |
-| Oceania (Pacific) | 151 | 15 | 17 | 32 | 6 | 0 | 0 | 0 | 59 | 0 | 1 | 21 | 0 | 0 | 0 | 85% |
+| Oceania (Pacific) | 151 | 15 | 17 | 32 | 6 | 0 | 0 | 0 | 59 | 0 | 2 | 20 | 0 | 0 | 0 | 85% |
 | Southeast Asia | 151 | 12 | 35 | 45 | 7 | 0 | 0 | 0 | 52 | 0 | 0 | 0 | 0 | 0 | 0 | 100% |
-| Central & Eastern Europe | 106 | 11 | 7 | 40 | 2 | 0 | 0 | 0 | 13 | 3 | 1 | 13 | 16 | 0 | 0 | 71% |
-| Central Asia & Silk Road | 57 | 2 | 16 | 13 | 0 | 0 | 0 | 0 | 25 | 0 | 0 | 0 | 1 | 0 | 0 | 98% |
+| Central & Eastern Europe | 106 | 11 | 10 | 44 | 2 | 0 | 0 | 0 | 13 | 3 | 6 | 8 | 9 | 0 | 0 | 78% |
+| Central Asia & Silk Road | 57 | 2 | 16 | 14 | 0 | 0 | 0 | 0 | 25 | 0 | 0 | 0 | 0 | 0 | 0 | 100% |
 | Korea | 54 | 5 | 23 | 13 | 3 | 0 | 0 | 0 | 9 | 0 | 0 | 1 | 0 | 0 | 0 | 98% |
 | Himalaya | 43 | 3 | 11 | 11 | 2 | 0 | 0 | 0 | 10 | 5 | 0 | 0 | 1 | 0 | 0 | 97% |
 | Ancient Egypt & Nubia | 19 | 0 | 8 | 5 | 2 | 0 | 0 | 0 | 2 | 1 | 0 | 0 | 1 | 0 | 0 | 94% |
-| Australia (Aboriginal) | 17 | 1 | 3 | 9 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 2 | 0 | 0 | 0 | 88% |
+| Australia (Aboriginal) | 17 | 1 | 3 | 9 | 0 | 0 | 0 | 0 | 2 | 0 | 1 | 1 | 0 | 0 | 0 | 88% |
 
 ## By kind of term
 
 | Kind | Terms | Leaf | Entry | Mentioned | Variant | Held | Facet | Out of scope | Uncovered | Covered |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | movement | 11 | 9 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 100% |
-| style | 916 | 103 | 268 | 326 | 18 | 0 | 0 | 0 | 0 | 78% |
-| culture | 62 | 6 | 7 | 32 | 1 | 0 | 0 | 1 | 0 | 75% |
-| other | 3218 | 352 | 843 | 785 | 136 | 1 | 0 | 216 | 0 | 71% |
+| style | 913 | 103 | 285 | 329 | 18 | 0 | 0 | 0 | 0 | 81% |
+| culture | 62 | 6 | 8 | 32 | 1 | 0 | 0 | 1 | 0 | 77% |
+| other | 3215 | 352 | 886 | 797 | 136 | 1 | 0 | 216 | 0 | 72% |
 | period | 850 | 6 | 5 | 18 | 7 | 0 | 813 | 1 | 0 | 100% |
-| nationality | 933 | 0 | 0 | 0 | 0 | 0 | 933 | 0 | 0 | 100% |
+| nationality | 939 | 0 | 0 | 0 | 0 | 0 | 939 | 0 | 0 | 100% |
 
 ## UNESCO crafts: 66 named by a leaf, 74 mentioned, 8 uncovered (of 148)
 

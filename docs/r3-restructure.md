@@ -168,3 +168,39 @@ Every AAT Styles & Periods term now has a disposition: 0 uncovered. 80% of in-sc
    - Jorwe.
 
 **Finding: the rules close 35 of 975, not most.** The subgroup rule assumed AAT nests peoples under named peoples. For Africa and the Americas it nests them under language families instead (Benue-Congo, Chadic, Gur, "Native Amazonian"). That leaves 776 peoples with no covered named parent. Settling them needs a style-area reference (Sieber and Roy; Iowa *Art & Life in Africa*, which was unreachable from this environment) or object records fetched by culture name from museum APIs. 126 archaeological terms fall in populated region × era cells. They are reported, not counted as covered, because the 20-region grid is too coarse to place a phase. AAT also tags the South Siberian cultures as Central & Eastern Europe.
+
+## Smithsonian lookup and the empty archaeological cells (v19)
+
+**Smithsonian Open Access.** `pipelines/r3/ref_si_fetch.py` searched the Smithsonian's anthropology collections (Natural History Anthropology, National Museum of African Art, National Museum of the American Indian) for each of the 773 open peoples. A record counts only if its culture field carries the name. The API key is an api.data.gov key held by the session proxy; the raw results are in `data/reference/si_peoples.json` (gitignored). 141 peoples have matched objects. They were decided on their object types and titles:
+- **58 entries in existing leaves.** Examples:
+  - Tzotzil, Tzeltal, Kekchi, Ixil and Mopan huipiles → Maya Textiles;
+  - Montagnais → Naskapi Painted Coats;
+  - Koniag and Chugach → Alaska Native Ivory Carving;
+  - Haisla and Sitka → Northwest Coast Masks and Woodcarving;
+  - Bini → Benin Bronzes;
+  - Ga → Fantasy Coffins;
+  - Lur → Luristan Bronzes;
+  - Chontal, Tlapanec and Popoloca dance masks → Mexican Masks.
+- **Two new leaves**, attested by Britannica and a museum exhibition (`va_out/sweep_ref4`):
+  - West African Strip Weaving: Fula, Gonja, Mamprusi, Jola, Kuranko and others;
+  - Cameroon Grassfields Sculpture: Bafut, Nso, Mankon, Tikar, Wum.
+- **7 facets** and **76 recorded**: utilitarian objects (weapons, tools, pipes) with no named visual tradition. Konso waga memorial figures are held, because no source was confirmed from this environment.
+
+The other 635 peoples have no objects in these collections either.
+
+**Empty region × era cells.** Seven leaves fill them (`va_out/sweep_ref3`):
+- Okunev Stelae;
+- Karasuk Bronzes;
+- Pazyryk Felts and Carvings (takes Bashadar and Shibe);
+- Dilmun Seals;
+- Jorwe Ware;
+- Kura–Araxes Pottery;
+- Beldibi Cave Art.
+
+Maiemir goes to Animal Style. Not made leaves:
+- the 18 North American Paleo-Indian point types, a stone-tool typology that no source treats as a visual tradition;
+- Afanasievo, for which no art source was found.
+
+**Fixes:**
+- Region facets corrected: Scandinavian Modern (was Islamic world), High-tech Architecture (was China), Petroglyphs of the Mongolian Altai (was Himalaya), Harappan Pottery (had none).
+- The inheritance rule now treats "Ancient …" AAT headings as broad. They had attached 15 ancient West, East and Central African terms to the new strip-weaving leaf.

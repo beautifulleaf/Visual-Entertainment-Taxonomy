@@ -1,6 +1,6 @@
 # Structure audit
 
-Computed from the published data: FT 950 leaves (604 sectioned), VA 1865 leaves. Flags in `flags.csv`.
+Computed from the published data: FT 950 leaves (604 sectioned), VA 1874 leaves. Flags in `flags.csv`.
 
 | Check | Finding | High | Medium | Low |
 |---|---|---:|---:|---:|
@@ -78,11 +78,11 @@ S2: 0 titles fall outside the dates of their era section.
 | VA | C4 Paper Arts | 2 | 3 | 0 | 8 |
 | VA | D1 Architectural Carving & Stucco | 0 | 0 | 0 | 4 |
 | VA | D2 Ivory & Bone Carving | 3 | 0 | 0 | 15 |
-| VA | D3 Hardstone, Rock Crystal & Jade Carving | 3 | 0 | 0 | 10 |
+| VA | D3 Hardstone, Rock Crystal & Jade Carving | 4 | 0 | 0 | 10 |
 | VA | D4 Masks & Puppets | 0 | 1 | 0 | 39 |
-| VA | D5 Figurative Sculpture | 28 | 7 | 3 | 107 |
+| VA | D5 Figurative Sculpture | 29 | 7 | 3 | 108 |
 | VA | D6 Ritual Objects & Regalia | 0 | 0 | 0 | 13 |
-| VA | E1 Earthenware | 146 | 0 | 0 | 14 |
+| VA | E1 Earthenware | 148 | 0 | 0 | 14 |
 | VA | E2 Fritware (Stonepaste) | 15 | 0 | 0 | 1 |
 | VA | E3 Stoneware | 35 | 0 | 0 | 0 |
 | VA | E4 Porcelain | 27 | 0 | 0 | 0 |
@@ -91,15 +91,15 @@ S2: 0 titles fall outside the dates of their era section.
 | VA | F3 Enamelled & Gilded Glass | 0 | 0 | 0 | 1 |
 | VA | F4 Lustre-Painted Glass | 0 | 0 | 0 | 1 |
 | VA | F5 Stained Glass | 1 | 0 | 0 | 2 |
-| VA | G1 Metalwork | 14 | 0 | 0 | 62 |
+| VA | G1 Metalwork | 15 | 0 | 0 | 62 |
 | VA | G2 Arms & Armour | 3 | 0 | 0 | 11 |
 | VA | G3 Jewellery | 5 | 0 | 0 | 28 |
 | VA | H1 Pile Carpets & Rugs | 5 | 0 | 0 | 9 |
 | VA | H2 Flatweaves | 5 | 0 | 0 | 21 |
-| VA | H3 Woven Silks & Figured Textiles | 8 | 0 | 0 | 55 |
+| VA | H3 Woven Silks & Figured Textiles | 8 | 0 | 0 | 56 |
 | VA | H4 Embroidery & Needlework | 13 | 0 | 1 | 97 |
 | VA | H5 Dyed & Printed Textiles | 10 | 0 | 0 | 31 |
-| VA | H6 Felt | 0 | 0 | 0 | 1 |
+| VA | H6 Felt | 1 | 0 | 0 | 1 |
 | VA | H7 Dress & Costume | 2 | 2 | 0 | 19 |
 | VA | H8 Basketry, Barkcloth & Fibre Arts | 6 | 0 | 0 | 44 |
 | VA | H9 Beadwork, Quillwork & Featherwork | 3 | 0 | 0 | 13 |
@@ -123,7 +123,7 @@ S2: 0 titles fall outside the dates of their era section.
 | VA | K12 Vernacular & Oceanic Architecture | 0 | 10 | 0 | 10 |
 | VA | K13 Gardens & Designed Landscapes | 0 | 7 | 0 | 0 |
 | VA | K14 Plant & Floral Arts | 0 | 0 | 0 | 4 |
-| VA | L1 Rock Art | 38 | 3 | 0 | 1 |
+| VA | L1 Rock Art | 39 | 3 | 0 | 1 |
 | VA | L2 Wall Painting | 38 | 1 | 0 | 13 |
 | VA | L3 Mosaic & Tile Revetment | 0 | 11 | 0 | 1 |
 | VA | L4 Geoglyphs | 0 | 7 | 0 | 1 |
@@ -140,7 +140,7 @@ S2: 0 titles fall outside the dates of their era section.
 | Tab | Sub-family | Leaves | Entries | Gini | Largest leaf |
 |---|---|---:|---:|---:|---:|
 | VA | A5 Easel Painting | 158 | 19,300 | 0.84 | 31% |
-| VA | D5 Figurative Sculpture | 146 | 4,389 | 0.81 | 37% |
+| VA | D5 Figurative Sculpture | 148 | 4,400 | 0.81 | 37% |
 | VA | J1 Photographic Schools & Movements | 20 | 3,115 | 0.71 | 29% |
 | VA | M1 Installation, Conceptual & Performance Art | 13 | 534 | 0.68 | 50% |
 | VA | H7 Dress & Costume | 23 | 295 | 0.68 | 59% |
@@ -148,9 +148,9 @@ S2: 0 titles fall outside the dates of their era section.
 | VA | K8 East Asian Architecture | 21 | 534 | 0.68 | 28% |
 | VA | K5 Early Modern European & Colonial Architecture | 24 | 1,301 | 0.67 | 33% |
 | VA | K4 Medieval European Architecture | 14 | 691 | 0.67 | 46% |
-| VA | B1 Drawing | 10 | 1,395 | 0.67 | 56% |
+| VA | B1 Drawing | 10 | 1,396 | 0.67 | 56% |
 | VA | B2 Printmaking | 22 | 940 | 0.66 | 26% |
 | VA | L2 Wall Painting | 52 | 788 | 0.65 | 22% |
 | VA | K9 Southeast Asian Architecture | 15 | 203 | 0.63 | 37% |
-| VA | L1 Rock Art | 42 | 584 | 0.62 | 19% |
+| VA | L1 Rock Art | 43 | 585 | 0.62 | 19% |
 | VA | M2 Video & New Media Art | 7 | 228 | 0.61 | 59% |

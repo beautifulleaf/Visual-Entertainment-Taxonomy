@@ -543,6 +543,7 @@ def apply(tree, MV, MF, report):
             note = (f"grouped by Getty AAT under {r['aat_group']}" if how == "inherited" else
                     f"sub-group of {r['aat_group']} (Getty AAT); no source treats it as a style of its own" if how == "subgroup" else
                     f"Getty AAT, under {r['aat_group']}" if not nobj else
+                    f"{nobj:,} objects in the Smithsonian anthropology collections" if "Smithsonian" in (r.get("aat_group") or "") else
                     f"{nobj:,} objects in the gathered records" + (f"; Getty AAT: {r['aat_group']}" if r.get("aat_group") else ""))
             rows_.append([r["name"], grp, note,
                           "r3 http://vocab.getty.edu/page/aat/" + r["aat_id"], 0])

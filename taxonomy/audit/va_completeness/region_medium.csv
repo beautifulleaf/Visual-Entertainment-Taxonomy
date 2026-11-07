@@ -63,16 +63,16 @@ D,Sculpture & Carving,Western Europe,26,5665,75
 D,Sculpture & Carving,Central & Eastern Europe,18,1858,118
 D,Sculpture & Carving,Greco-Roman & Byzantine Mediterranean,13,4084,14
 D,Sculpture & Carving,Ancient Egypt & Nubia,3,589,3
-D,Sculpture & Carving,Ancient Near East,4,4862,50
+D,Sculpture & Carving,Ancient Near East,5,4862,50
 D,Sculpture & Carving,"Islamic world (MENA, Iran, Anatolia)",9,7447,19
-D,Sculpture & Carving,Central Asia & Silk Road,1,1248,17
+D,Sculpture & Carving,Central Asia & Silk Road,2,1248,17
 D,Sculpture & Carving,Himalaya,5,2698,51
 D,Sculpture & Carving,South Asia,13,2850,78
 D,Sculpture & Carving,Southeast Asia,15,8754,55
 D,Sculpture & Carving,China,9,9636,28
 D,Sculpture & Carving,Japan,11,10529,29
 D,Sculpture & Carving,Korea,2,237,11
-D,Sculpture & Carving,Sub-Saharan Africa,52,4353,196
+D,Sculpture & Carving,Sub-Saharan Africa,53,4353,196
 D,Sculpture & Carving,North America (Indigenous),8,6920,9
 D,Sculpture & Carving,North America (settler),7,349,20
 D,Sculpture & Carving,Mesoamerica & Caribbean,14,4540,40
@@ -83,11 +83,11 @@ E,Ceramics,Western Europe,24,82168,260
 E,Ceramics,Central & Eastern Europe,12,1498,83
 E,Ceramics,Greco-Roman & Byzantine Mediterranean,16,3672,85
 E,Ceramics,Ancient Egypt & Nubia,5,4028,10
-E,Ceramics,Ancient Near East,8,918,34
+E,Ceramics,Ancient Near East,9,918,34
 E,Ceramics,"Islamic world (MENA, Iran, Anatolia)",25,56859,33
 E,Ceramics,Central Asia & Silk Road,1,231,4
 E,Ceramics,Himalaya,0,359,6
-E,Ceramics,South Asia,3,2383,35
+E,Ceramics,South Asia,5,2383,35
 E,Ceramics,Southeast Asia,7,3026,33
 E,Ceramics,China,25,44126,109
 E,Ceramics,Japan,22,29367,77
@@ -125,7 +125,7 @@ G,"Metalwork, Arms & Jewellery",Greco-Roman & Byzantine Mediterranean,9,4220,55
 G,"Metalwork, Arms & Jewellery",Ancient Egypt & Nubia,1,2480,6
 G,"Metalwork, Arms & Jewellery",Ancient Near East,5,1438,42
 G,"Metalwork, Arms & Jewellery","Islamic world (MENA, Iran, Anatolia)",12,24314,58
-G,"Metalwork, Arms & Jewellery",Central Asia & Silk Road,2,1209,10
+G,"Metalwork, Arms & Jewellery",Central Asia & Silk Road,3,1209,10
 G,"Metalwork, Arms & Jewellery",Himalaya,2,1900,29
 G,"Metalwork, Arms & Jewellery",South Asia,7,9607,98
 G,"Metalwork, Arms & Jewellery",Southeast Asia,3,52576,46
@@ -145,14 +145,14 @@ H,"Textiles, Carpets & Dress",Greco-Roman & Byzantine Mediterranean,3,5,23
 H,"Textiles, Carpets & Dress",Ancient Egypt & Nubia,2,5,4
 H,"Textiles, Carpets & Dress",Ancient Near East,1,40,2
 H,"Textiles, Carpets & Dress","Islamic world (MENA, Iran, Anatolia)",29,14190,205
-H,"Textiles, Carpets & Dress",Central Asia & Silk Road,8,2512,30
+H,"Textiles, Carpets & Dress",Central Asia & Silk Road,9,2512,30
 H,"Textiles, Carpets & Dress",Himalaya,3,1699,21
 H,"Textiles, Carpets & Dress",South Asia,30,12250,96
 H,"Textiles, Carpets & Dress",Southeast Asia,20,53775,129
 H,"Textiles, Carpets & Dress",China,12,1530,97
 H,"Textiles, Carpets & Dress",Japan,15,19466,51
 H,"Textiles, Carpets & Dress",Korea,7,561,17
-H,"Textiles, Carpets & Dress",Sub-Saharan Africa,26,16485,166
+H,"Textiles, Carpets & Dress",Sub-Saharan Africa,27,16485,166
 H,"Textiles, Carpets & Dress",North America (Indigenous),32,23038,24
 H,"Textiles, Carpets & Dress",North America (settler),6,13079,32
 H,"Textiles, Carpets & Dress",Mesoamerica & Caribbean,13,5253,30
@@ -209,7 +209,7 @@ K,Architecture,Central Asia & Silk Road,1,0,3
 K,Architecture,Himalaya,4,0,4
 K,Architecture,South Asia,18,0,57
 K,Architecture,Southeast Asia,15,0,27
-K,Architecture,China,13,0,18
+K,Architecture,China,12,0,18
 K,Architecture,Japan,14,0,53
 K,Architecture,Korea,2,0,4
 K,Architecture,Sub-Saharan Africa,7,0,14
@@ -223,10 +223,10 @@ L,Art in Place,Western Europe,18,0,103
 L,Art in Place,Central & Eastern Europe,7,0,63
 L,Art in Place,Greco-Roman & Byzantine Mediterranean,9,0,26
 L,Art in Place,Ancient Egypt & Nubia,2,0,5
-L,Art in Place,Ancient Near East,3,0,10
+L,Art in Place,Ancient Near East,4,0,10
 L,Art in Place,"Islamic world (MENA, Iran, Anatolia)",9,0,22
-L,Art in Place,Central Asia & Silk Road,5,0,10
-L,Art in Place,Himalaya,3,0,7
+L,Art in Place,Central Asia & Silk Road,6,0,10
+L,Art in Place,Himalaya,2,0,7
 L,Art in Place,South Asia,13,0,40
 L,Art in Place,Southeast Asia,7,0,16
 L,Art in Place,China,2,0,11

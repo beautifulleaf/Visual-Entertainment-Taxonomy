@@ -210,7 +210,7 @@ def main():
         ancient = re.search(r"ancient|pre-columbian|early western|prehistoric|neolithic|bronze age|iron age", (r["path"] + " " + r["label"]).lower())
         # only the direct parent counts, and only when it is a named tradition rather than a broad grouping: a vote of
         # covered siblings sent members of "Japanese painting styles" to Yamato-e and "Southeast Asian" to Khmer Architecture
-        broad = re.search(r"^<|styles$|styles and movements|^(early|late|middle) |southeast asian|north american", byid[par]["label"].lower()) if par in byid else True
+        broad = re.search(r"^<|styles$|styles and movements|^(early|late|middle|ancient) |southeast asian|north american", byid[par]["label"].lower()) if par in byid else True
         c = collections.Counter() if broad else collections.Counter({l: 3 for l in strong(par, reg)})
         living = "(culture" in byid.get(par, {}).get("label", "") and not ancient   # a people under a culture heading: not into a leaf that closed before 1600
         cand = [l for l, _ in c.most_common(2) if not (ancient and FAC[l]["start"] and int(FAC[l]["start"]) >= 500)
