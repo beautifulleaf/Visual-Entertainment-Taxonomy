@@ -1,0 +1,1058 @@
+{
+ "subs": [
+  {
+   "code": "A8",
+   "label": "Historical & Period Film",
+   "axis": "Axis: by the representational mode of the past: epic spectacle by era first, then national period traditions, literary costume film, and last the reconstruction of real political, social and documented events.",
+   "leaves": [
+    {
+     "code": "A8-1",
+     "label": "Historical Epic",
+     "breadth": "broad",
+     "defn": "A large-scale, long-form spectacle that sweeps a nation, dynasty or family through decades of real history, with the historical upheaval itself as the subject (<i>Intolerance</i>, <i>Gone with the Wind</i>, <i>1900</i>, <i>Ponniyin Selvan: Part I</i>). Ancient Mediterranean spectacles go to A8-2; epics built around a battle campaign go to A9-1.",
+     "aliases": "epic film, period epic",
+     "see": "A8-2 Sword-and-Sandal Film; A9-1 War Epic",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Epic_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Historical_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by setting, foundation sagas first, ancient and pre-contact worlds last",
+     "secs": [
+      "Foundation & National Sagas",
+      "Multigenerational & Revolutionary Sagas",
+      "South & East Asian Historical Epics",
+      "Pre-Contact & Ancient-World Epics"
+     ]
+    },
+    {
+     "code": "A8-2",
+     "label": "Sword-and-Sandal Film",
+     "breadth": "medium",
+     "defn": "A spectacle set in Greco-Roman or biblical antiquity, built on gladiators, legions, mythic heroes or Old Testament stories (<i>Ben-Hur</i>, <i>Spartacus</i>, <i>The Ten Commandments</i>, <i>300</i>). Lives of Jesus and the saints go to A11-4 Religious Biopic.",
+     "aliases": "peplum, biblical epic",
+     "see": "A11-4 Religious Biopic; A6 Fantasy & Adventure",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Sword-and-sandal",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Biblical_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by source world: Old and New Testament, Rome, Greek myth",
+     "secs": [
+      "Biblical Epics",
+      "Roman Epics",
+      "Greek Myth & Heroic Antiquity"
+     ]
+    },
+    {
+     "code": "A8-3",
+     "label": "Medieval Film",
+     "breadth": "medium",
+     "defn": "A film set in the European or Near Eastern Middle Ages whose world of knights, sagas, crusades and feudal law is the subject rather than a single battle campaign (<i>The Northman</i>, <i>The Last Duel</i>, <i>Flesh+Blood</i>, <i>Arn: The Knight Templar</i>). Battle-centred medieval epics go to A9-1.",
+     "aliases": "Viking film, Arthurian film",
+     "see": "A9-1 War Epic; A6 Fantasy & Adventure",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Middle_Ages_in_popular_culture",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Historical_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A8-4",
+     "label": "Royal Court Drama",
+     "breadth": "narrow",
+     "defn": "A period drama of intrigue inside a royal or imperial court, where succession, favour and palace politics drive the story and no single royal life is traced (<i>The Lion in Winter</i>, <i>Queen Margot</i>, <i>Curse of the Golden Flower</i>, <i>The King's Warden</i>). A film tracing a monarch's life goes to A11-1 Royal Biopic.",
+     "aliases": "palace drama, sageuk (court)",
+     "see": "A11-1 Royal Biopic; B4 Chinese-Language Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Costume_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Sageuk",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A8-5",
+     "label": "Jidaigeki",
+     "breadth": "medium",
+     "defn": "A Japanese period drama set before the Meiji Restoration in which manners, clan duty and social hierarchy, not sword combat, carry the story (<i>Sansho the Bailiff</i>, <i>Rashomon</i>, <i>Ran</i>, <i>The Twilight Samurai</i>). A film driven by swordplay goes to A8-6 Chanbara.",
+     "aliases": "jidai-geki, period drama",
+     "see": "A8-6 Chanbara",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Jidaigeki",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A8-6",
+     "label": "Chanbara",
+     "breadth": "medium",
+     "defn": "A Japanese swordplay film in which sword combat by samurai or ronin is the engine of the drama (<i>Yojimbo</i>, <i>Seven Samurai</i>, <i>The Tale of Zatoichi</i>, <i>13 Assassins</i>). Swordless period dramas go to A8-5 Jidaigeki.",
+     "aliases": "samurai film, ken-geki",
+     "see": "A8-5 Jidaigeki; A7 Action & Martial Arts",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Chanbara",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Samurai_cinema",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by series and era: classic ronin films, the Zatoichi series, the Lone Wolf and Cub revenge cycle, modern revival",
+     "secs": [
+      "Classic Ronin & Samurai Swordplay",
+      "Zatoichi Series",
+      "Lone Wolf and Cub & Revenge Manga Films",
+      "Modern Chanbara Revival"
+     ]
+    },
+    {
+     "code": "A8-7",
+     "label": "Colonial & Slavery Film",
+     "breadth": "medium",
+     "defn": "A period film whose subject is chattel slavery or colonial rule and resistance to it, told from the plantation, the mission or the colony (<i>Burn!</i>, <i>The Last Supper</i>, <i>12 Years a Slave</i>, <i>The Camp at Thiaroye</i>). Battle-centred colonial wars go to A9-1.",
+     "aliases": "anti-colonial film, slavery film",
+     "see": "A9-1 War Epic; A1 Movements & Schools (Third Cinema)",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/List_of_films_featuring_slavery",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Third_Cinema",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by system: slavery and abolition first, colonial rule and revolt second",
+     "secs": [
+      "Slavery & Abolition",
+      "Colonial Rule & Anti-Colonial Revolt"
+     ]
+    },
+    {
+     "code": "A8-8",
+     "label": "Heritage Film",
+     "breadth": "medium",
+     "defn": "A British (or British-set) period film of gentility, country houses and pre-war manners, usually from a classic English novel, valued for its nostalgic re-creation of the national past (<i>A Room with a View</i>, <i>Pride & Prejudice</i>, <i>Howards End</i>, <i>Downton Abbey</i>). Continental and American literary costume films go to A8-9.",
+     "aliases": "Merchant Ivory film, bonnet drama",
+     "see": "A8-9 Costume Drama; A13 Romance",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Heritage_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Merchant_Ivory_Productions",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by literary period: Austen first, then Georgian and Victorian novels, Edwardian, and the interwar country house",
+     "secs": [
+      "Austen Adaptations",
+      "Georgian & Victorian Novel Adaptations",
+      "Edwardian & Merchant Ivory Films",
+      "Interwar Country-House Films"
+     ]
+    },
+    {
+     "code": "A8-9",
+     "label": "Costume Drama",
+     "breadth": "broad",
+     "defn": "A period drama, usually adapted from a classic novel or play, whose dress, manners and social codes of a past society are the dramatic material (<i>Les Misérables</i>, <i>The Leopard</i>, <i>Anna Karenina</i>, <i>Portrait of a Lady on Fire</i>). British gentility films go to A8-8 Heritage Film.",
+     "aliases": "period drama, period piece",
+     "see": "A8-8 Heritage Film; A13 Romance",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Costume_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Period_piece",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by literary tradition of the source, original screenplays and twentieth-century pieces last",
+     "secs": [
+      "French Novel Adaptations",
+      "Russian, Baltic & Central European",
+      "Southern European & Latin",
+      "Scandinavian & Nordic",
+      "American Gilded & Jazz Age",
+      "Original Period Romances",
+      "Twentieth-Century Period Pieces"
+     ]
+    },
+    {
+     "code": "A8-10",
+     "label": "Shakespeare Film",
+     "breadth": "narrow",
+     "defn": "A screen adaptation of a Shakespeare play, in period or transposed dress, with the play's text and structure carrying it (<i>Hamlet</i>, <i>Chimes at Midnight</i>, <i>Henry V</i>, <i>The Tragedy of Macbeth</i>). Free transpositions into another culture such as <i>Throne of Blood</i> stay with their tradition.",
+     "aliases": "Shakespeare on screen",
+     "see": "A8-9 Costume Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Shakespeare_on_screen",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A8-11",
+     "label": "Political Drama",
+     "breadth": "broad",
+     "defn": "A period drama of private lives under a named political regime, where dictatorship, purge, occupation or revolution is the pressure that shapes the story (<i>Mephisto</i>, <i>Burnt by the Sun</i>, <i>No</i>, <i>A Taxi Driver</i>). Dramatised single events go to A8-13 Docudrama; lives of politicians go to A11-2.",
+     "aliases": "historical political drama",
+     "see": "A8-13 Docudrama; A11-2 Political Biopic",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Political_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by regime: fascism first, Stalinism, Latin American juntas, other twentieth-century histories, earlier revolutions last",
+     "secs": [
+      "Fascist & Nazi Era",
+      "Stalinist & Soviet-Bloc Era",
+      "Latin American Dictatorships",
+      "Other Twentieth-Century Political Histories",
+      "Nineteenth-Century Revolutions & Repression"
+     ]
+    },
+    {
+     "code": "A8-12",
+     "label": "Social Problem Film",
+     "breadth": "broad",
+     "defn": "A period drama that dramatises a social injustice of its era, such as labour, emigration, women's rights, race, sexuality or persecution, through fictional representative lives (<i>Germinal</i>, <i>Vera Drake</i>, <i>The Help</i>, <i>The Crucible</i>). Real activists' lives go to A11-2.",
+     "aliases": "social realism (period)",
+     "see": "A16 Drama; A11-2 Political Biopic",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Social_problem_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the social question: labour first, then emigration, women, race, queer history, religious persecution last",
+     "secs": [
+      "Labour, Poverty & Rural Life",
+      "Emigration & Immigration",
+      "Women's Lives & Reproductive Rights",
+      "Race & Civil Rights",
+      "Queer History",
+      "Witch Trials & Religious Persecution"
+     ]
+    },
+    {
+     "code": "A8-13",
+     "label": "Docudrama",
+     "breadth": "broad",
+     "defn": "A dramatised reconstruction of one documented real event, crisis or case, where the event rather than a person's life is the subject (<i>A Night to Remember</i>, <i>Apollo 13</i>, <i>United 93</i>, <i>The Post</i>). A film tracing a person's life goes to A11.",
+     "aliases": "based on a true story, drama-documentary",
+     "see": "A11 Biographical Film; A19 Documentary",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Docudrama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the kind of event: disasters and expeditions, political crises, massacres and terror, legal cases, journalism, humanitarian crises",
+     "secs": [
+      "Disasters, Rescues & Expeditions",
+      "Political Crises & Scandals",
+      "Massacres, Riots & Terror",
+      "Legal Cases & Miscarriages of Justice",
+      "Journalism & Whistleblowing",
+      "Humanitarian Crises & Genocide"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "A9",
+   "label": "War Film",
+   "axis": "Axis: by war in chronological order (pre-modern battles to the War on Terror), then by mode (aftermath, anti-war).",
+   "leaves": [
+    {
+     "code": "A9-1",
+     "label": "War Epic",
+     "breadth": "medium",
+     "defn": "A large-scale battle spectacle of a pre-twentieth-century war or an early-twentieth-century revolution, with the campaign as the narrative spine (<i>Alexander Nevsky</i>, <i>Braveheart</i>, <i>Zulu</i>, <i>Glory</i>). WWI and later go to their own leaves.",
+     "aliases": "battle epic, historical war film",
+     "see": "A8-1 Historical Epic; A8-3 Medieval Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/War_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Epic_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by era: ancient and medieval, early modern and colonial, American wars, twentieth-century revolutions and civil wars",
+     "secs": [
+      "Ancient & Medieval Battles",
+      "Early Modern, Napoleonic & Colonial Wars",
+      "American Revolution & Civil War",
+      "Revolutions & Civil Wars of the Early 20th Century"
+     ]
+    },
+    {
+     "code": "A9-2",
+     "label": "World War I Film",
+     "breadth": "medium",
+     "defn": "A film of the First World War, its trenches, air war and immediate aftermath (<i>All Quiet on the Western Front</i>, <i>Paths of Glory</i>, <i>Gallipoli</i>, <i>1917</i>).",
+     "aliases": "Great War film",
+     "see": "A9-14 Anti-War Film; A9-13 Returning Veteran Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/List_of_World_War_I_films",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A9-3",
+     "label": "World War II Combat Film",
+     "breadth": "broad",
+     "defn": "A combat film of the Second World War in Europe and the Mediterranean, centred on soldiers, aircrews or sailors in action (<i>Saving Private Ryan</i>, <i>Das Boot</i>, <i>The Guns of Navarone</i>, <i>Come and See</i> is A9-5). Pacific theatre goes to A9-4.",
+     "aliases": "combat film, men-on-a-mission film",
+     "see": "A9-4 Pacific War Film; A9-5 Partisan & Resistance Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/List_of_World_War_II_films",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by front and mode: Western Front, air and sea, commando missions, Eastern Front, Nordic fronts",
+     "secs": [
+      "Western Front & Mediterranean",
+      "Air & Naval War",
+      "Commando & Men-on-a-Mission Films",
+      "Eastern Front",
+      "Nordic & Baltic Fronts"
+     ]
+    },
+    {
+     "code": "A9-4",
+     "label": "Pacific War Film",
+     "breadth": "medium",
+     "defn": "A film of the Pacific and Asian theatres of the Second World War, including the Second Sino-Japanese War (<i>The Burmese Harp</i>, <i>The Human Condition</i>, <i>Letters from Iwo Jima</i>, <i>The Thin Red Line</i>). POW camps go to A9-7.",
+     "aliases": "Asia-Pacific War film",
+     "see": "A9-7 Prisoner-of-War Film; A9-9 Atomic Bomb Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Pacific_War",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/List_of_World_War_II_films",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A9-5",
+     "label": "Partisan & Resistance Film",
+     "breadth": "medium",
+     "defn": "A film of irregular fighters and resistance networks against occupation in the Second World War, with the Yugoslav partisan film as its named canon (<i>The Battle of Neretva</i>, <i>Walter Defends Sarajevo</i>, <i>The Ascent</i>, <i>Army of Shadows</i>). Old leaf Partisan Film merged here with resistance films.",
+     "aliases": "partizanski film, Resistance film",
+     "see": "A9-3 World War II Combat Film; A9-6 Holocaust Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Partisan_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by region: the Yugoslav cycle first, Soviet and East European partisans, Western European resistance",
+     "secs": [
+      "Yugoslav Partisan Film",
+      "Soviet & East European Partisans",
+      "Western European Resistance"
+     ]
+    },
+    {
+     "code": "A9-6",
+     "label": "Holocaust Film",
+     "breadth": "medium",
+     "defn": "A fiction film of the Nazi persecution and murder of European Jews: camps, ghettos, deportations, hiding and the reckoning afterwards (<i>Schindler's List</i>, <i>The Pianist</i>, <i>Son of Saul</i>, <i>The Zone of Interest</i>).",
+     "aliases": "Shoah film",
+     "see": "A9-5 Partisan & Resistance Film; A19 Documentary",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/List_of_Holocaust_films",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the site of persecution: camps, ghettos and round-ups, hiding and rescue, perpetrators and aftermath",
+     "secs": [
+      "Camps",
+      "Ghettos, Round-Ups & Deportation",
+      "Hiding, Rescue & Survival",
+      "Perpetrators & Aftermath"
+     ]
+    },
+    {
+     "code": "A9-7",
+     "label": "Prisoner-of-War Film",
+     "breadth": "narrow",
+     "defn": "A war film set among captured soldiers in a POW camp, built on survival, collaboration or escape (<i>Stalag 17</i>, <i>The Great Escape</i>, <i>The Bridge on the River Kwai</i>, <i>Rescue Dawn</i>).",
+     "aliases": "POW film, escape film",
+     "see": "A9-3 World War II Combat Film; A2 Crime (prison film)",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Prisoner_of_war",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A9-8",
+     "label": "Home Front Film",
+     "breadth": "medium",
+     "defn": "A war film centred on civilians, families and children living through a war away from or overrun by the front (<i>Mrs. Miniver</i>, <i>Forbidden Games</i>, <i>Two Women</i>, <i>Empire of the Sun</i>).",
+     "aliases": "civilian war film",
+     "see": "A9-13 Returning Veteran Film; A16 Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Home_front",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by war and viewpoint: world-war home fronts, children in war, civilians in later wars",
+     "secs": [
+      "World-War Home Fronts",
+      "Children in War",
+      "Civilians in Later Wars"
+     ]
+    },
+    {
+     "code": "A9-9",
+     "label": "Atomic Bomb Film",
+     "breadth": "narrow",
+     "defn": "A Japanese film of the atomic bombings and the hibakusha who survived them (<i>Black Rain</i>).",
+     "aliases": "genbaku eiga, hibakusha film",
+     "see": "A9-4 Pacific War Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Hibakusha",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A9-10",
+     "label": "Vietnam War Film",
+     "breadth": "medium",
+     "defn": "A film of the Vietnam War, American or Vietnamese, in combat or in its training camps (<i>Platoon</i>, <i>Full Metal Jacket</i>, <i>Wild Field</i>, <i>Da 5 Bloods</i>). Veterans' homecoming goes to A9-13.",
+     "aliases": "",
+     "see": "A9-13 Returning Veteran Film; A9-14 Anti-War Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/List_of_Vietnam_War_films",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A9-11",
+     "label": "Modern War Film",
+     "breadth": "broad",
+     "defn": "A film of a post-1945 war other than Vietnam and the War on Terror: Korea, decolonisation, the Balkans, the Middle East, insurgencies and Ukraine (<i>Tae Guk Gi</i>, <i>No Man's Land</i>, <i>Lebanon</i>, <i>Beasts of No Nation</i>).",
+     "aliases": "contemporary war film",
+     "see": "A9-12 War on Terror Film; A9-10 Vietnam War Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/War_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by conflict, roughly chronological: Korea and the Cold War, African wars, Balkans and Caucasus, Middle East, insurgencies, Ukraine, Afghanistan and South Asia",
+     "secs": [
+      "Korean War & Cold War",
+      "Decolonisation & African Wars",
+      "Balkan & Caucasus Wars",
+      "Middle Eastern Wars",
+      "Insurgencies, Civil Wars & the Troubles",
+      "Russo-Ukrainian War",
+      "Soviet–Afghan & South Asian Wars"
+     ]
+    },
+    {
+     "code": "A9-12",
+     "label": "War on Terror Film",
+     "breadth": "medium",
+     "defn": "A film of the Gulf, Iraq and Afghanistan wars and counter-terror operations after 1990, often built on a single real mission (<i>The Hurt Locker</i>, <i>Black Hawk Down</i>, <i>Jarhead</i>, <i>Warfare</i>).",
+     "aliases": "Iraq War film, Afghanistan War film",
+     "see": "A9-11 Modern War Film; A3 Thriller & Mystery",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/War_on_terror",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A9-13",
+     "label": "Returning Veteran Film",
+     "breadth": "narrow",
+     "defn": "A film of a war's aftermath for those who fought or occupied: homecoming, trauma, mine-clearing and reckoning (<i>The Best Years of Our Lives</i>, <i>Birdy</i>, <i>Land of Mine</i>, <i>Beanpole</i>). Weakly attested label; the field also says homecoming film.",
+     "aliases": "homecoming film, postwar film",
+     "see": "A9-8 Home Front Film; A16 Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/The_Best_Years_of_Our_Lives",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Combat_stress_reaction",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A9-14",
+     "label": "Anti-War Film",
+     "breadth": "medium",
+     "defn": "A film whose primary mode is protest against war itself, by allegory or by satire, rather than depiction of one campaign (<i>Johnny Got His Gun</i>, <i>Shame</i>, <i>Three Kings</i>, <i>Jojo Rabbit</i>).",
+     "aliases": "war satire",
+     "see": "A12 Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/List_of_anti-war_films",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by mode: allegory and protest, satire and comedy",
+     "secs": [
+      "Allegory & Protest",
+      "War Satire & Comedy"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "A10",
+   "label": "Western",
+   "axis": "Axis: by the western's historical cycle and its transpositions: silent and classical forms first, then revisionist and European cycles, transposed and contemporary westerns last.",
+   "leaves": [
+    {
+     "code": "A10-1",
+     "label": "Silent Western",
+     "breadth": "narrow",
+     "defn": "A western of the silent era, from William S. Hart to John Ford's first epics (<i>Hell's Hinges</i>, <i>The Iron Horse</i>, <i>The Wind</i>).",
+     "aliases": "",
+     "see": "A10-2 Classical Western",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Western_(genre)",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A10-2",
+     "label": "Classical Western",
+     "breadth": "broad",
+     "defn": "A Hollywood sound western of the studio era and its later classical survivors, built on the frontier code of lawmen, cattlemen, cavalry and gunfighters (<i>Stagecoach</i>, <i>The Searchers</i>, <i>Rio Bravo</i>, <i>Winchester '73</i>). Westerns that interrogate the myth go to A10-6.",
+     "aliases": "Golden-age western",
+     "see": "A10-6 Revisionist Western",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Western_(genre)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Classical_Hollywood_cinema",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by story type: cavalry and epic, lawman and town-tamer, range and homestead, psychological revenge, Mexico-border mercenaries",
+     "secs": [
+      "Cavalry & Epic Westerns",
+      "Lawman & Town-Tamer Westerns",
+      "Range, Ranch & Homestead Westerns",
+      "Psychological & Revenge Westerns",
+      "Mexico-Border & Mercenary Westerns"
+     ]
+    },
+    {
+     "code": "A10-3",
+     "label": "Singing Cowboy Western",
+     "breadth": "narrow",
+     "defn": "A B-western musical vehicle for a singing cowboy star (<i>Under Western Stars</i>, <i>Melody Ranch</i>).",
+     "aliases": "horse opera",
+     "see": "A10-5 Musical Western",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Singing_cowboy",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A10-4",
+     "label": "Comedy Western",
+     "breadth": "medium",
+     "defn": "A western played for comedy or parody of the frontier code (<i>Go West</i>, <i>Destry Rides Again</i>, <i>Cat Ballou</i>, <i>Shanghai Noon</i>).",
+     "aliases": "western comedy",
+     "see": "A12 Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Comedy_Western",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A10-5",
+     "label": "Musical Western",
+     "breadth": "narrow",
+     "defn": "A stage or screen musical set on the frontier (<i>Calamity Jane</i>, <i>Oklahoma!</i>, <i>Seven Brides for Seven Brothers</i>).",
+     "aliases": "western musical",
+     "see": "A14 Musical & Dance Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Western_(genre)",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A10-6",
+     "label": "Revisionist Western",
+     "breadth": "broad",
+     "defn": "A western that questions the frontier myth, its violence, heroes, racial and gender order (<i>The Wild Bunch</i>, <i>McCabe & Mrs. Miller</i>, <i>Unforgiven</i>, <i>Meek's Cutoff</i>).",
+     "aliases": "anti-western, post-western",
+     "see": "A10-2 Classical Western; A10-7 Acid Western",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Revisionist_Western",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by what is revised: the myth itself, the outlaw, race and Native America, frontier women and settlers",
+     "secs": [
+      "Anti-Myth & Elegiac Westerns",
+      "Outlaw Demythologised",
+      "Native American, Black & Frontier Violence",
+      "Frontier Women, Settlers & Survival"
+     ]
+    },
+    {
+     "code": "A10-7",
+     "label": "Acid Western",
+     "breadth": "narrow",
+     "defn": "A countercultural, hallucinatory western of the late 1960s and its descendants (<i>The Shooting</i>, <i>El Topo</i>, <i>Dead Man</i>).",
+     "aliases": "",
+     "see": "A10-6 Revisionist Western",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Acid_Western",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A10-8",
+     "label": "Spaghetti Western",
+     "breadth": "medium",
+     "defn": "An Italian-produced western of the 1960s–70s cycle, with its operatic violence and its Trinity comic offshoot (<i>A Fistful of Dollars</i>, <i>Django</i>, <i>The Great Silence</i>, <i>They Call Me Trinity</i>).",
+     "aliases": "Italian western, Euro-western",
+     "see": "A10-9 Ostern",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Spaghetti_Western",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A10-9",
+     "label": "Ostern",
+     "breadth": "narrow",
+     "defn": "An Eastern Bloc western, East German Indianerfilm or Soviet \"red western\" (<i>The Sons of Great Bear</i>, <i>Apaches</i>, <i>Nobody Wanted to Die</i>).",
+     "aliases": "red western, Indianerfilm",
+     "see": "A10-8 Spaghetti Western",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Ostern",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A10-10",
+     "label": "Meat Pie Western",
+     "breadth": "narrow",
+     "defn": "An Australian western of bushrangers and the outback frontier (<i>The Story of the Kelly Gang</i>, <i>Ned Kelly</i>, <i>The Proposition</i>).",
+     "aliases": "bushranger film, Australian western",
+     "see": "A10-6 Revisionist Western",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Meat_pie_Western",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A10-11",
+     "label": "Transnational Western",
+     "breadth": "medium",
+     "defn": "A western whose codes are transposed to another nation's landscape and history, from Manchuria to Patagonia (<i>The Good, the Bad, the Weird</i>, <i>Marlina the Murderer in Four Acts</i>, <i>The Settlers</i>, <i>Bacurau</i>). Italian and Eastern Bloc cycles have their own leaves. Weakly attested umbrella label.",
+     "aliases": "kimchi western, satay western, eastern",
+     "see": "A10-8 Spaghetti Western; A10-12 Neo-Western",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Western_(genre)",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A10-12",
+     "label": "Neo-Western",
+     "breadth": "medium",
+     "defn": "A film set in the contemporary American West in which the western's codes of land, law and violence persist (<i>Hud</i>, <i>No Country for Old Men</i>, <i>Hell or High Water</i>, <i>Wind River</i>).",
+     "aliases": "contemporary western, modern western",
+     "see": "A2 Crime; A10-11 Transnational Western",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Neo-Western",
+       "Wikipedia"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "code": "A11",
+   "label": "Biographical Film",
+   "axis": "Axis: by the field in which the subject is known: power (royals, politics, war, religion), discovery (exploration, science, business), the arts (visual, literary, music, show business), sport, crime, and private lives last.",
+   "leaves": [
+    {
+     "code": "A11-1",
+     "label": "Royal Biopic",
+     "breadth": "medium",
+     "defn": "A film tracing the life or reign of a monarch, consort or royal favourite (<i>The Private Life of Henry VIII</i>, <i>Sissi</i>, <i>The King's Speech</i>, <i>Spencer</i>). Court intrigue without a single life goes to A8-4.",
+     "aliases": "monarch film",
+     "see": "A8-4 Royal Court Drama; A11-2 Political Biopic",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Biographical_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by dynasty and region: England to the Stuarts, Britain from the Georgians, continental courts, Asian rulers",
+     "secs": [
+      "English Monarchs to the Stuarts",
+      "Georgian to Windsor Britain",
+      "Continental European Courts",
+      "Asian & Central Asian Rulers"
+     ]
+    },
+    {
+     "code": "A11-2",
+     "label": "Political Biopic",
+     "breadth": "broad",
+     "defn": "A film tracing the life or career of a statesman, revolutionary, activist or dissident (<i>Gandhi</i>, <i>Malcolm X</i>, <i>Lincoln</i>, <i>Milk</i>). A single political crisis goes to A8-13 Docudrama.",
+     "aliases": "political biography",
+     "see": "A8-11 Political Drama; A8-13 Docudrama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Biographical_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Political_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by role: rulers and statesmen, revolutionaries, civil-rights activists, journalists and whistleblowers",
+     "secs": [
+      "Heads of State & Statesmen",
+      "Revolutionaries & National Liberators",
+      "Civil-Rights Leaders & Activists",
+      "Journalists, Whistleblowers & Dissidents"
+     ]
+    },
+    {
+     "code": "A11-3",
+     "label": "Military Biopic",
+     "breadth": "narrow",
+     "defn": "A film tracing the life of a soldier, general or war hero, where the person rather than one battle is the subject (<i>Sergeant York</i>, <i>Lawrence of Arabia</i>, <i>El Cid</i>, <i>Napoleon</i>). Battle-centred true stories go to A9.",
+     "aliases": "",
+     "see": "A9 War Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Biographical_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/War_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A11-4",
+     "label": "Religious Biopic",
+     "breadth": "medium",
+     "defn": "A film of the life of Jesus, a prophet, saint, reformer or religious leader (<i>The Gospel According to St. Matthew</i>, <i>The Passion of the Christ</i>, <i>Kundun</i>, <i>The Message</i>). Old Testament spectacles go to A8-2.",
+     "aliases": "hagiopic, Jesus film, Christian film",
+     "see": "A8-2 Sword-and-Sandal Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Biblical_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Christian_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A11-5",
+     "label": "Explorer & Adventurer Biopic",
+     "breadth": "narrow",
+     "defn": "A film of an explorer, mountaineer or solitary adventurer, where the journey into the unknown is the life (<i>Dersu Uzala</i>, <i>Into the Wild</i>, <i>The Lost City of Z</i>, <i>Tenzing</i>).",
+     "aliases": "mountain film",
+     "see": "A11-12 Sports Biopic; A6 Fantasy & Adventure",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Biographical_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Mountain_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A11-6",
+     "label": "Science & Medicine Biopic",
+     "breadth": "medium",
+     "defn": "A film of a scientist, physician, inventor or astronaut, built on the discovery and its cost (<i>A Beautiful Mind</i>, <i>The Imitation Game</i>, <i>Oppenheimer</i>, <i>First Man</i>).",
+     "aliases": "scientist biopic",
+     "see": "A11-7 Business Biopic",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Biographical_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by field: science and mathematics, medicine, invention and engineering, space flight",
+     "secs": [
+      "Scientists, Mathematicians & Thinkers",
+      "Physicians & Medical Pioneers",
+      "Inventors, Engineers & Architects",
+      "Space Flight"
+     ]
+    },
+    {
+     "code": "A11-7",
+     "label": "Business Biopic",
+     "breadth": "medium",
+     "defn": "A film of an entrepreneur, tycoon or company founding, built on the rise and the deal (<i>The Social Network</i>, <i>The Aviator</i>, <i>The Founder</i>, <i>BlackBerry</i>). Fraudsters go to A11-13.",
+     "aliases": "corporate biopic, founder film",
+     "see": "A11-13 Crime Biopic",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Biographical_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A11-8",
+     "label": "Artist Biopic",
+     "breadth": "medium",
+     "defn": "A film of a painter, sculptor, photographer, fashion designer or dancer, built around the making of the work (<i>Rembrandt</i>, <i>Frida</i>, <i>Mr. Turner</i>, <i>Saint Laurent</i>).",
+     "aliases": "painter biopic",
+     "see": "A11-9 Writer Biopic",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Biographical_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by medium: painting, photography, fashion and dance",
+     "secs": [
+      "Painters & Sculptors",
+      "Photographers",
+      "Fashion, Modelling & Dance"
+     ]
+    },
+    {
+     "code": "A11-9",
+     "label": "Writer Biopic",
+     "breadth": "medium",
+     "defn": "A film of a novelist, poet, playwright or thinker, built around the writing and the life that fed it (<i>Becoming Jane</i>, <i>Capote</i>, <i>Bright Star</i>, <i>Tolkien</i>). Adaptations of a writer's own memoir of ordinary life go to A11-14.",
+     "aliases": "literary biopic",
+     "see": "A11-14 Autobiographical & Memoir Film; A11-8 Artist Biopic",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Biographical_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by literary era, children's authors last",
+     "secs": [
+      "Pre-Modern & Romantic-Era Writers",
+      "Nineteenth-Century Writers",
+      "Twentieth-Century Writers & Thinkers",
+      "Children's & Fantasy Authors"
+     ]
+    },
+    {
+     "code": "A11-10",
+     "label": "Musical Biopic",
+     "breadth": "broad",
+     "defn": "A film of a composer, singer, band or performer, with the music performed as part of the story (<i>Amadeus</i>, <i>Ray</i>, <i>Walk the Line</i>, <i>Bohemian Rhapsody</i>).",
+     "aliases": "music biopic, rock biopic",
+     "see": "A14 Musical & Dance Film; A11-11 Show Business Biopic",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Biographical_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Musical_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by musical tradition: classical, jazz and soul, rock and pop, country and folk, hip hop, chanson and world popular music",
+     "secs": [
+      "Classical Composers & Performers",
+      "Jazz, Blues, Soul & R&B",
+      "Rock & Pop",
+      "Country & Folk",
+      "Hip Hop",
+      "Chanson, Latin & World Popular Music"
+     ]
+    },
+    {
+     "code": "A11-11",
+     "label": "Show Business Biopic",
+     "breadth": "medium",
+     "defn": "A film of a stage, film or television entertainer, filmmaker or impresario, built on the business of performing (<i>Chaplin</i>, <i>Ed Wood</i>, <i>Judy</i>, <i>Man on the Moon</i>).",
+     "aliases": "Hollywood biopic",
+     "see": "A11-10 Musical Biopic",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Biographical_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by stage: theatre and vaudeville, Hollywood, television and comedy, world film industries",
+     "secs": [
+      "Stage, Vaudeville & Circus",
+      "Hollywood Stars & Filmmakers",
+      "Television & Comedy",
+      "World Film Industries"
+     ]
+    },
+    {
+     "code": "A11-12",
+     "label": "Sports Biopic",
+     "breadth": "medium",
+     "defn": "A film of an athlete, coach or team, built on a career rather than a single match (<i>Ali</i>, <i>Foxcatcher</i>, <i>I, Tonya</i>, <i>The Iron Claw</i>).",
+     "aliases": "sports biography",
+     "see": "A11-5 Explorer & Adventurer Biopic",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Sports_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Biographical_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by sport: combat sports, team sports, individual and endurance sports",
+     "secs": [
+      "Boxing, Wrestling & Combat Sports",
+      "Team Sports",
+      "Individual & Endurance Sports"
+     ]
+    },
+    {
+     "code": "A11-13",
+     "label": "Crime Biopic",
+     "breadth": "broad",
+     "defn": "A film of a real gangster, outlaw, swindler, killer or militant, built on the criminal career (<i>GoodFellas</i>, <i>Catch Me If You Can</i>, <i>Monster</i>, <i>Carlos</i>).",
+     "aliases": "true crime film, gangster biopic",
+     "see": "A2 Crime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/True_crime",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Biographical_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by kind of crime: organised crime, robbery and fraud, murder cases, political violence",
+     "secs": [
+      "Gangsters & Drug Lords",
+      "Outlaws, Robbers & Con Artists",
+      "Killers & True-Crime Cases",
+      "Terrorists & Armed Militants"
+     ]
+    },
+    {
+     "code": "A11-14",
+     "label": "Autobiographical & Memoir Film",
+     "breadth": "broad",
+     "defn": "A film adapted from a memoir or tracing the true life of a private person, known for what they lived through rather than a public field (<i>My Left Foot</i>, <i>Angela's Ashes</i>, <i>Girl, Interrupted</i>, <i>Lion</i>). Weakly attested umbrella label.",
+     "aliases": "memoir adaptation, true-life drama",
+     "see": "A16 Drama; A11-9 Writer Biopic",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Biographical_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Memoir",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the life experience: family and self-discovery, addiction and mental illness, illness and disability, trauma and survival, teachers, couples",
+     "secs": [
+      "Childhood, Family & Self-Discovery",
+      "Addiction & Mental Illness",
+      "Illness & Disability",
+      "Trauma, Abuse & Survival",
+      "Teachers & Mentors",
+      "Couples & Love Stories"
+     ]
+    }
+   ]
+  }
+ ]
+}
