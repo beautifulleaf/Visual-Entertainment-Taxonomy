@@ -1,0 +1,879 @@
+{
+ "subs": [
+  {
+   "code": "B1",
+   "label": "Drama Series",
+   "axis": "Axis: by the dramatic premise that drives the series, from home and the self (prestige, family, everyday life, social realism, identity, youth, romance) through the professions and institutions (medicine, law, politics, work, music, sport, the military) to history and genre (war, Western, historical, costume, heritage, period, adventure, disaster), then the real and the formal (docudrama, biography, literary adaptation, anthology).",
+   "leaves": [
+    {
+     "code": "B1-1",
+     "label": "Prestige Drama",
+     "breadth": "narrow",
+     "defn": "A long-arc auteur drama whose engine is a morally compromised protagonist or a family/institution observed with novelistic ambition, made under the post-2000 cable \"quality TV\" banner (<i>Mad Men</i>, <i>Six Feet Under</i>, <i>Billions</i>, <i>The Leftovers</i>). A prestige crime saga goes to B7; a prestige family-business saga with succession at its centre goes to B1-3.",
+     "aliases": "quality television; antihero drama",
+     "see": "B1-3 Family Drama; B7 Crime & Thriller Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Golden_Age_of_Television_(2000s–present)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Antihero",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B1-2",
+     "label": "Family Saga",
+     "breadth": "medium",
+     "defn": "A serial that follows one family (or a few linked families) across generations or decades, so that historical time is the plot (<i>Roots</i>, <i>Heimat</i>, <i>Pachinko</i>, <i>When Life Gives You Tangerines</i>). A family drama set in one present moment goes to B1-3; a dynasty soap of wealth and scheming goes to B12-5.",
+     "aliases": "generational saga; multi-generational drama",
+     "see": "B1-3 Family Drama; B1-22 Period Drama; B12-5 Prime-Time Soap Opera",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Family_saga",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B1-3",
+     "label": "Family Drama",
+     "breadth": "broad",
+     "defn": "A series whose engine is the everyday bonds, conflicts and crises of one household or kin group in roughly its own present (<i>Parenthood</i>, <i>This Is Us</i>, <i>The Waltons</i>, <i>Succession</i>). A family followed across generations goes to B1-2; a family-revenge melodrama of the prime-time kind goes to B12-5.",
+     "aliases": "domestic drama; family drama series; weekend drama (jumal deurama)",
+     "see": "B1-2 Family Saga; B12-5 Prime-Time Soap Opera; B2 Korean Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Family_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Domestic_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Korean_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by what the family drama turns on, ensemble household first, then setting, wealth and marriage, the long broadcast family serial last",
+     "secs": [
+      "Ensemble Family Dramas",
+      "Small-Town & Rural Family Dramas",
+      "Wealthy-Family & Succession Dramas",
+      "Marriage & Divorce Dramas",
+      "Weekend & Daily Family Serials"
+     ]
+    },
+    {
+     "code": "B1-4",
+     "label": "Slice-of-Life Drama",
+     "breadth": "medium",
+     "defn": "A low-plot drama of ordinary lives, friendships and recoveries in which the texture of daily living, not an event, carries the series (<i>thirtysomething</i>, <i>My Mister</i>, <i>Ode to Joy</i>, <i>Dear My Friends</i>). Social-problem realism goes to B1-5; a romance-driven series goes to B1-9.",
+     "aliases": "healing drama (hilling deurama); urban drama (dushi ju); ensemble drama",
+     "see": "B1-5 Social Realist Drama; B1-9 Romantic Drama; C6 Slice of Life & Iyashikei Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Slice_of_life",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by whose daily life is observed: friends and young adults, the wounded and healing, women in the city, then older people and whole communities",
+     "secs": [
+      "Friendship & Young-Adult Ensembles",
+      "Healing Dramas",
+      "Urban Women's Dramas",
+      "Later-Life & Community Dramas"
+     ]
+    },
+    {
+     "code": "B1-5",
+     "label": "Social Realist Drama",
+     "breadth": "medium",
+     "defn": "A drama that renders a social condition (class, work, abuse, faith, migration) with documentary-leaning realism and makes that condition the subject (<i>Boys from the Blackstuff</i>, <i>This Is England '86</i>, <i>I May Destroy You</i>, <i>Unorthodox</i>). A dramatisation of a real public case goes to B1-26.",
+     "aliases": "kitchen sink realism; social problem drama; issue drama",
+     "see": "B1-4 Slice-of-Life Drama; B1-26 Docudrama; B1-29 Anthology Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Social_realism",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Kitchen_sink_realism",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the social condition examined: working-class and community life, personal trauma and social issues, faith communities, migrants last",
+     "secs": [
+      "Working-Class & Community Realism",
+      "Trauma & Social-Issue Dramas",
+      "Faith & Religious-Community Dramas",
+      "Migrant & Stateless Dramas"
+     ]
+    },
+    {
+     "code": "B1-6",
+     "label": "LGBTQ Drama",
+     "breadth": "medium",
+     "defn": "A series whose central lives, community and conflicts are those of gay, lesbian, bisexual or trans characters (<i>Queer as Folk</i>, <i>The L Word</i>, <i>POSE</i>, <i>It's a Sin</i>). A teen coming-out romance stays in B1-7; East and Southeast Asian BL/GL series go to B5.",
+     "aliases": "queer television; gay drama; lesbian drama",
+     "see": "B5 Boys' Love & Girls' Love Drama; B1-7 Teen Drama; B1-9 Romantic Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Queer_cinema",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Queer_as_Folk",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B1-7",
+     "label": "Teen Drama",
+     "breadth": "broad",
+     "defn": "A drama centred on adolescents of secondary-school age and their school, friendships, first loves and coming of age (<i>Beverly Hills, 90210</i>, <i>Degrassi</i>, <i>Skins</i>, <i>Euphoria</i>). College and exam-coaching students go to B1-8; children's series for under-twelves go to B10.",
+     "aliases": "high-school drama; teen soap; school drama (hakgyo deurama); seishun drama",
+     "see": "B1-8 Campus Drama; B10 Children's Series; B5 Boys' Love & Girls' Love Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Teen_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Coming-of-age_story",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the teen engine: the glossy teen soap first, then issue drama, the school and its teachers, performing-arts schools, school violence, teen romance last",
+     "secs": [
+      "Teen Soaps",
+      "Teen Social-Issue Dramas",
+      "School & Teacher Dramas",
+      "Performing-Arts School Dramas",
+      "School-Violence & Delinquent Dramas",
+      "Teen Romance Dramas"
+     ]
+    },
+    {
+     "code": "B1-8",
+     "label": "Campus Drama",
+     "breadth": "narrow",
+     "defn": "A drama of university students or exam aspirants in which the college or coaching institution is the world of the series (<i>Felicity</i>, <i>Kota Factory</i>, <i>Aspirants</i>, <i>Hellcats</i>). Secondary-school life goes to B1-7.",
+     "aliases": "college drama; university drama; coaching-centre drama",
+     "see": "B1-7 Teen Drama; B1-4 Slice-of-Life Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Campus_novel",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B1-9",
+     "label": "Romantic Drama",
+     "breadth": "broad",
+     "defn": "A series whose main engine is a love story or the course of a relationship, played for feeling rather than laughs (<i>Normal People</i>, <i>Virgin River</i>, <i>The Affair</i>, <i>Little Birds</i>). A romantic comedy series goes to B8; a period romance in costume goes to B1-20; erotic film goes to A15.",
+     "aliases": "romance series; love story; erotic drama",
+     "see": "B1-20 Costume Drama; B8 Comedy Series; A15 Erotic Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Romance_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the romantic engine: contemporary love story first, literary and young-adult romance, small-town romance, then the affair and the frankly erotic last",
+     "secs": [
+      "Contemporary Romantic Dramas",
+      "Literary & Young-Adult Romance",
+      "Small-Town Romance",
+      "Affair & Infidelity Dramas",
+      "Erotic Drama Series"
+     ]
+    },
+    {
+     "code": "B1-10",
+     "label": "Medical Drama",
+     "breadth": "medium",
+     "defn": "A series set among doctors, nurses and patients in which treating illness and the life of the hospital or practice drive the episodes (<i>ER</i>, <i>Grey's Anatomy</i>, <i>House</i>, <i>Doctor X</i>). A medical-crime investigation goes to B7.",
+     "aliases": "hospital drama; iryō drama",
+     "see": "B1-13 Workplace Drama; B7 Crime & Thriller Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Medical_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by where the medicine happens and who practises it: the hospital ensemble first, star doctors, emergency medicine, country doctors, nurses and allied staff, period medicine last",
+     "secs": [
+      "Hospital Ensemble Dramas",
+      "Star-Doctor Dramas",
+      "Emergency & Trauma Medicine",
+      "Country, Island & Travelling Doctors",
+      "Nurses, Midwives & Allied Professions",
+      "Period Medical Dramas"
+     ]
+    },
+    {
+     "code": "B1-11",
+     "label": "Legal Drama",
+     "breadth": "medium",
+     "defn": "A series in which lawyers, prosecutors, judges or juries and their cases are the engine (<i>L.A. Law</i>, <i>The Good Wife</i>, <i>Suits</i>, <i>Extraordinary Attorney Woo</i>). A police procedural goes to B7; a courtroom docudrama goes to B1-26.",
+     "aliases": "courtroom drama; lawyer drama; hōtei drama",
+     "see": "B7 Crime & Thriller Series; B1-26 Docudrama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Legal_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Legal_thriller",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by which side of the law carries the series: the firm, the defence case, the prosecutor, the bench and jury, then comic and thriller treatments",
+     "secs": [
+      "Law-Firm Dramas",
+      "Defence & Courtroom-Case Dramas",
+      "Prosecutor Dramas",
+      "Judge, Court & Jury Dramas",
+      "Legal Dramedies",
+      "Legal Thrillers"
+     ]
+    },
+    {
+     "code": "B1-12",
+     "label": "Political Drama",
+     "breadth": "medium",
+     "defn": "A series about the getting and use of political power by presidents, ministers, legislators and their staffs (<i>The West Wing</i>, <i>Borgen</i>, <i>House of Cards</i>, <i>The Diplomat</i>). An espionage thriller goes to B7; a dramatised real scandal goes to B1-26.",
+     "aliases": "political thriller; government drama",
+     "see": "B1-26 Docudrama; B7 Crime & Thriller Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Political_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Political_thriller",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the seat of power: head of state and executive first, parliament and party, city and campaign politics, diplomacy and the security state last",
+     "secs": [
+      "Executive & Head-of-State Dramas",
+      "Parliamentary & Party Dramas",
+      "City & Campaign Politics",
+      "Diplomatic & Security-State Dramas"
+     ]
+    },
+    {
+     "code": "B1-13",
+     "label": "Workplace Drama",
+     "breadth": "broad",
+     "defn": "A series whose engine is the work and rivalries of one non-medical, non-legal profession or company (<i>The Newsroom</i>, <i>Chicago Fire</i>, <i>Misaeng: Incomplete Life</i>, <i>The Bear</i>). Hospitals go to B1-10, law to B1-11, the military to B1-16; a workplace sitcom goes to B8.",
+     "aliases": "professional drama; office drama (opisu deurama); procedural drama",
+     "see": "B1-10 Medical Drama; B1-11 Legal Drama; B8 Comedy Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Procedural_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Workplace_comedy",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the trade: newsrooms and media, first responders, offices and business, kitchens and hotels and trades, show business, then the caring professions",
+     "secs": [
+      "Newsroom & Media Dramas",
+      "First-Responder Dramas",
+      "Office & Business Dramas",
+      "Kitchen, Hotel & Trade Dramas",
+      "Show-Business Dramas",
+      "Therapy & Caring-Profession Dramas"
+     ]
+    },
+    {
+     "code": "B1-14",
+     "label": "Musical Drama Series",
+     "breadth": "narrow",
+     "defn": "A drama whose world is the making of music or dance performance, with performances carrying story and feeling (<i>Nashville</i>, <i>Smash</i>, <i>Daisy Jones &amp; the Six</i>, <i>The Singing Detective</i>). A performing-arts high school goes to B1-7; a music competition show goes to B13.",
+     "aliases": "backstage musical; music drama; music-industry drama",
+     "see": "B1-7 Teen Drama; A14 Musical & Dance Film; B13 Competition Formats",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Backstage_musical",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B1-15",
+     "label": "Sports Drama",
+     "breadth": "medium",
+     "defn": "A series in which training for and competing in a sport or game is the spine of the story (<i>Friday Night Lights</i>, <i>Cobra Kai</i>, <i>Racket Boys</i>, <i>Hikaru no Go</i>). Sports anime goes to C7; live sport goes to B16.",
+     "aliases": "sports series",
+     "see": "C7 Sports & Game Anime; B16 Live Event & Sports Television",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Sports_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the kind of contest: team sports first, combat sports, individual and racing sports, mind sports and esports last",
+     "secs": [
+      "Team-Sport Dramas",
+      "Combat-Sport Dramas",
+      "Individual & Racing-Sport Dramas",
+      "Mind-Sport & Esports Dramas"
+     ]
+    },
+    {
+     "code": "B1-16",
+     "label": "Military Drama",
+     "breadth": "narrow",
+     "defn": "A series about serving soldiers, sailors or special forces and their units in peacetime or present-day deployments, where service life is the engine (<i>SEAL Team</i>, <i>The Unit</i>, <i>Sea Patrol</i>, <i>D.P.</i>). A historical war goes to B1-17.",
+     "aliases": "military series; armed-forces drama",
+     "see": "B1-17 War Drama; B1-13 Workplace Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Military_fiction",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B1-17",
+     "label": "War Drama",
+     "breadth": "medium",
+     "defn": "A series set inside a historical war, on the front or behind it, in which the war itself drives the story (<i>Band of Brothers</i>, <i>Das Boot</i>, <i>Generation War</i>, <i>Tour of Duty</i>). Present-day service life goes to B1-16; war film goes to A9.",
+     "aliases": "war series; partisan drama",
+     "see": "B1-16 Military Drama; A9 War Film; B1-22 Period Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Drama_(film_and_television)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Partisan_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the war, the Second World War first, then earlier wars, partisan and resistance cycles, later wars, home fronts and war nursing last",
+     "secs": [
+      "Second World War Dramas",
+      "First World War & Earlier Wars",
+      "Partisan & Resistance Dramas",
+      "Post-1945 & Modern Wars",
+      "Home-Front & War-Nursing Dramas"
+     ]
+    },
+    {
+     "code": "B1-18",
+     "label": "Television Western",
+     "breadth": "medium",
+     "defn": "A series set on the American (or a comparable) frontier whose codes of gun, horse, land and law shape the story (<i>Gunsmoke</i>, <i>Bonanza</i>, <i>Deadwood</i>, <i>Yellowstone</i>). Western film goes to A10.",
+     "aliases": "TV western; horse opera; neo-western",
+     "see": "A10 Western; B1-2 Family Saga",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Westerns_on_television",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Contemporary_Western",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by kind of Western: the classic episodic Western first, frontier and pioneer drama, epic miniseries, the revisionist Western, the neo-Western last",
+     "secs": [
+      "Classic Episodic Westerns",
+      "Frontier & Pioneer Dramas",
+      "Western Miniseries & Epics",
+      "Revisionist Westerns",
+      "Neo-Westerns"
+     ]
+    },
+    {
+     "code": "B1-19",
+     "label": "Historical Drama",
+     "breadth": "broad",
+     "defn": "A series that dramatises the great events and rulers of a pre-twentieth-century age, its wars, courts and faiths (<i>I, Claudius</i>, <i>The Tudors</i>, <i>Vikings</i>, <i>The Crown</i>). Ottoman historical dizi go to B12-6; Chinese and Korean court drama go to B4 and B2; a novel adaptation in period dress goes to B1-20.",
+     "aliases": "historical epic; costume epic; sword-and-sandal",
+     "see": "B1-20 Costume Drama; B12-6 Dizi; B4 Chinese-Language Drama; B2 Korean Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Historical_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Sword-and-sandal",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by age and power: the ancient world first, biblical and religious epics, medieval and Renaissance, royal courts, colonial and slavery-era America, national and imperial epics last",
+     "secs": [
+      "Ancient-World & Sword-and-Sandal Epics",
+      "Biblical & Religious Epics",
+      "Medieval & Renaissance Dramas",
+      "Royal-Court Dramas",
+      "Colonial, Revolutionary & Slavery-Era Dramas",
+      "National & Imperial Epics"
+     ]
+    },
+    {
+     "code": "B1-20",
+     "label": "Costume Drama",
+     "breadth": "medium",
+     "defn": "A series adapted from (or modelled on) a pre-1900 novel, whose period manners, marriages and class are the drama (<i>Pride and Prejudice</i>, <i>Bleak House</i>, <i>Anne of Green Gables</i>, <i>Bridgerton</i>). Real rulers and battles go to B1-19; Edwardian country-house and shop sagas go to B1-21.",
+     "aliases": "classic serial; period adaptation; bonnet drama",
+     "see": "B1-19 Historical Drama; B1-21 Heritage Drama; B1-9 Romantic Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Historical_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Literary_adaptation",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by literary source, Austen and the Regency first, the Victorian novel, continental classics, gothic and sensation fiction, classic girls' and school stories, then original costume romance",
+     "secs": [
+      "Austen & Regency Dramas",
+      "Victorian Novel Adaptations",
+      "Continental Classic Adaptations",
+      "Gothic & Sensation Dramas",
+      "Classic Girls' & School Stories",
+      "Costume Romances"
+     ]
+    },
+    {
+     "code": "B1-21",
+     "label": "Heritage Drama",
+     "breadth": "narrow",
+     "defn": "A series that lovingly recreates late-Victorian to interwar British (and kindred) society through a great house, shop or village and the classes inside it (<i>Upstairs, Downstairs</i>, <i>Downton Abbey</i>, <i>Mr Selfridge</i>, <i>The Jewel in the Crown</i>). Novel adaptations of the 19th century go to B1-20.",
+     "aliases": "heritage television; upstairs-downstairs drama",
+     "see": "B1-20 Costume Drama; B1-22 Period Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Heritage_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the institution that holds the classes together: the country house, the shop or hotel, the village, then empire and Raj",
+     "secs": [
+      "Country-House Dramas",
+      "Shop, Hotel & Enterprise Dramas",
+      "Rural & Village Heritage Dramas",
+      "Empire & Raj Dramas"
+     ]
+    },
+    {
+     "code": "B1-22",
+     "label": "Period Drama",
+     "breadth": "medium",
+     "defn": "A series set in a recent past of the twentieth century (roughly 1918–1999) whose era, its manners and its changes are the drama (<i>Mad Men</i>-era <i>Pan Am</i>, <i>The Queen's Gambit</i>, <i>Cable Girls</i>, <i>Blossoms Shanghai</i>). A series set within a war goes to B1-17; a multi-generation chronicle goes to B1-2.",
+     "aliases": "period piece; era drama (niandai ju); nostalgia drama",
+     "see": "B1-2 Family Saga; B1-17 War Drama; B1-21 Heritage Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Historical_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by decade, earliest first: interwar, the 1940s, the postwar and 1950s, the 1960s–70s, the 1980s–90s",
+     "secs": [
+      "Interwar Dramas",
+      "1940s Dramas",
+      "Postwar & 1950s Dramas",
+      "1960s & 1970s Dramas",
+      "1980s & 1990s Dramas"
+     ]
+    },
+    {
+     "code": "B1-23",
+     "label": "Swashbuckler",
+     "breadth": "narrow",
+     "defn": "An episodic or serial adventure of swordplay, outlaw heroes, musketeers and pirates in a romanticised past (<i>The Adventures of Robin Hood</i>, <i>Zorro</i>, <i>The Musketeers</i>, <i>Black Sails</i>). Grounded medieval epics go to B1-19; martial-arts adventure goes to A7.",
+     "aliases": "swashbuckler series; cloak-and-sword (cappa e spada)",
+     "see": "B1-19 Historical Drama; B1-24 Action-Adventure; A6 Fantasy & Adventure",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Swashbuckler",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Swashbuckler_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B1-24",
+     "label": "Action-Adventure",
+     "breadth": "medium",
+     "defn": "A series built on quests, voyages, treasure hunts or a weekly hero-in-action format (<i>Knight Rider</i>, <i>MacGyver</i>, <i>The Lost Tomb</i>, <i>Michael Strogoff</i>). Swordplay romances go to B1-23; spy and crime action go to B7; superpowered heroes go to B9.",
+     "aliases": "action series; adventure series",
+     "see": "B1-23 Swashbuckler; B7 Crime & Thriller Series; B9 Speculative Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Action_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Adventure_fiction",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the adventure engine: literary adventure and voyages first, treasure hunts and tomb raiding, the weekly action hero, martial arts and street fighting last",
+     "secs": [
+      "Literary Adventure & Voyages",
+      "Treasure-Hunt & Tomb-Raiding Adventures",
+      "Action-Hero Series",
+      "Martial-Arts & Street-Fighting Series"
+     ]
+    },
+    {
+     "code": "B1-25",
+     "label": "Disaster Miniseries",
+     "breadth": "narrow",
+     "defn": "A miniseries whose story is an earthquake, eruption, impact or shipwreck and the struggle to survive it (<i>10.5</i>, <i>Category 7: The End of the World</i>, <i>La Palma</i>, <i>Titanic</i>). A dramatisation of a specific real disaster told as public record goes to B1-26.",
+     "aliases": "disaster series",
+     "see": "B1-26 Docudrama; A5 Science Fiction",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Disaster_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B1-26",
+     "label": "Docudrama",
+     "breadth": "medium",
+     "defn": "A drama that reconstructs a real event, case or institution with documentary fidelity, often naming the real people (<i>Chernobyl</i>, <i>When They See Us</i>, <i>Mr Bates vs The Post Office</i>, <i>Dopesick</i>). A dramatised life story goes to B1-27; a documentary series goes to B11.",
+     "aliases": "dramatised documentary; based-on-true-events drama",
+     "see": "B1-27 Biographical Miniseries; B11 Documentary Series; B7 Crime & Thriller Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Docudrama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the kind of real event: reenactment-led docudrama first, disasters, political scandal, injustice cases, terror and siege, corporate and public-health scandal, exploration and science last",
+     "secs": [
+      "Reenactment Docudramas",
+      "Disaster & Catastrophe Docudramas",
+      "Political & Public-Scandal Docudramas",
+      "Injustice & Social-Case Docudramas",
+      "Terror, War & Siege Docudramas",
+      "Corporate & Public-Health Scandals",
+      "Exploration, Science & Space Docudramas"
+     ]
+    },
+    {
+     "code": "B1-27",
+     "label": "Biographical Miniseries",
+     "breadth": "medium",
+     "defn": "A miniseries or series that tells the life (or a defining stretch of it) of a real modern person (<i>Fosse/Verdon</i>, <i>Elvis</i>, <i>Genius</i>, <i>The Kennedys</i>). A pre-modern ruler goes to B1-19; biographical film goes to A11.",
+     "aliases": "biopic series; biographical drama",
+     "see": "A11 Biographical Film; B1-26 Docudrama; B1-19 Historical Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Biographical_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Miniseries",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the sphere of the life: politics and royalty first, musicians, show business and fashion, sport, then science, enterprise and faith",
+     "secs": [
+      "Political & Royal Lives",
+      "Music Biopics",
+      "Show-Business & Fashion Lives",
+      "Sports Lives",
+      "Science, Enterprise & Faith Lives"
+     ]
+    },
+    {
+     "code": "B1-28",
+     "label": "Literary Adaptation",
+     "breadth": "medium",
+     "defn": "A limited series adapted from a modern literary novel or story, set in its author's present, where the book's voice shapes the drama (<i>Olive Kitteridge</i>, <i>My Brilliant Friend</i>, <i>Patrick Melrose</i>, <i>The Slap</i>). Pre-1900 novels go to B1-20; a literary romance goes to B1-9.",
+     "aliases": "limited series; literary miniseries; prestige adaptation",
+     "see": "B1-20 Costume Drama; B1-9 Romantic Drama; B1-1 Prestige Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Literary_adaptation",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Miniseries",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B1-29",
+     "label": "Anthology Drama",
+     "breadth": "medium",
+     "defn": "A series of self-contained plays or stories with new casts and stories per episode or season (<i>Play for Today</i>, <i>Playhouse 90</i>, <i>Alfred Hitchcock Presents</i>, <i>Modern Love</i>). Horror anthologies of the uncanny go to B9 when the supernatural is the engine.",
+     "aliases": "anthology series; single play; omnibus drama",
+     "see": "B9 Speculative Series; B7 Crime & Thriller Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Anthology_series",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Television_play",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the anthology unit: the live and single play first, suspense and crime tales, omnibus and linked-story series, then the themed modern anthology",
+     "secs": [
+      "Live & Single-Play Anthologies",
+      "Suspense & Crime Anthologies",
+      "Omnibus & Linked-Story Anthologies",
+      "Themed Modern Anthologies"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "B12",
+   "label": "Serial Drama Traditions",
+   "axis": "Axis: by the named national or regional long-form serial tradition, Latin American telenovela first, then the Anglo-European soap opera, the Turkish dizi, South Asian serials, the Arabic musalsal, the Philippine teleserye last.",
+   "leaves": [
+    {
+     "code": "B12-1",
+     "label": "Telenovela",
+     "breadth": "broad",
+     "defn": "A closed-ended Latin American (or Latin-modelled) melodrama serial of one central love story told over months of daily episodes (<i>Los ricos también lloran</i>, <i>María la del Barrio</i>, <i>Yo soy Betty, la fea</i>, <i>Rebelde</i>). Brazilian novelas go to B12-2; narco serials go to B12-3.",
+     "aliases": "novela; culebrón; telenovela juvenil",
+     "see": "B12-2 Brazilian Telenovela; B12-3 Narconovela; B12-12 Teleserye",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Telenovela",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by production tradition, the Mexican Televisa melodrama first, then South American, Colombian and US Hispanic schools, the youth telenovela, telenovelas made outside Latin America last",
+     "secs": [
+      "Mexican Telenovelas",
+      "Venezuelan & South American Telenovelas",
+      "Colombian & US Hispanic Telenovelas",
+      "Youth Telenovelas",
+      "Telenovelas Outside Latin America"
+     ]
+    },
+    {
+     "code": "B12-2",
+     "label": "Brazilian Telenovela",
+     "breadth": "narrow",
+     "defn": "A Brazilian novela, typically a Globo prime-time serial with large ensembles and social themes alongside the central romance (<i>Roque Santeiro</i>, <i>Vale Tudo</i>, <i>The Clone</i>). Spanish-language telenovelas go to B12-1.",
+     "aliases": "novela; novela das nove",
+     "see": "B12-1 Telenovela",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Brazilian_telenovela",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B12-3",
+     "label": "Narconovela",
+     "breadth": "narrow",
+     "defn": "A telenovela-format serial built around drug traffickers, cartels and the women around them (<i>El Cartel</i>, <i>Pablo Escobar: The Drug Lord</i>, <i>La Reina del Sur</i>). A narco crime series made in a non-telenovela format goes to B7.",
+     "aliases": "narco-telenovela; narcoserie",
+     "see": "B12-1 Telenovela; B7 Crime & Thriller Series",
+     "src": [
+      [
+       "https://es.wikipedia.org/wiki/Narconovela",
+       "Wikipedia (es)"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Telenovela",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B12-4",
+     "label": "Soap Opera",
+     "breadth": "medium",
+     "defn": "An open-ended continuing drama broadcast daily or several times a week, with interwoven storylines in a fixed community that can run for decades (<i>Coronation Street</i>, <i>Days of Our Lives</i>, <i>Neighbours</i>, <i>Gute Zeiten, schlechte Zeiten</i>). A weekly prime-time serial of glamour and wealth goes to B12-5.",
+     "aliases": "continuing drama; daytime soap; daily soap",
+     "see": "B12-5 Prime-Time Soap Opera; B12-7 Indian Television Soap Opera",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Soap_opera",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/British_soap_opera",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by broadcasting tradition: American daytime soaps first, British and Irish continuing drama, Australian and New Zealand soaps, European daily soaps last",
+     "secs": [
+      "American Daytime Soaps",
+      "British & Irish Continuing Dramas",
+      "Australian & New Zealand Soaps",
+      "European Daily Soaps"
+     ]
+    },
+    {
+     "code": "B12-5",
+     "label": "Prime-Time Soap Opera",
+     "breadth": "narrow",
+     "defn": "A weekly evening serial of wealth, glamour, family feuds and revenge, with cliffhangers in place of closure (<i>Dallas</i>, <i>Dynasty</i>, <i>Melrose Place</i>, <i>Desperate Housewives</i>). A daily continuing soap goes to B12-4.",
+     "aliases": "supersoap; nighttime soap",
+     "see": "B12-4 Soap Opera; B1-3 Family Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Soap_opera",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Dallas_(1978_TV_series)",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B12-6",
+     "label": "Dizi",
+     "breadth": "broad",
+     "defn": "A Turkish television serial, typically of long weekly episodes, from the romance melodrama to Ottoman epics (<i>What is Fatmagul's Fault?</i>, <i>Ezel</i>, <i>Erkenci Kuş</i>, <i>The Magnificent Century</i>). A Turkish streaming miniseries outside the broadcast form goes to its genre leaf in B1.",
+     "aliases": "Turkish drama; Türk dizisi",
+     "see": "B12-11 Musalsal; B1-19 Historical Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Dizi",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Turkish_television_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by dizi genre: the melodrama first, the romantic-comedy dizi, crime, revenge and action dizi, family dizi, teen dizi, the Ottoman historical dizi last",
+     "secs": [
+      "Melodrama Dizi",
+      "Romantic-Comedy Dizi",
+      "Crime, Revenge & Action Dizi",
+      "Family Dizi",
+      "Teen Dizi",
+      "Ottoman Historical Dizi"
+     ]
+    },
+    {
+     "code": "B12-7",
+     "label": "Indian Television Soap Opera",
+     "breadth": "medium",
+     "defn": "A Hindi (or other Indian-language) daily serial of joint-family conflict, marriage and the saas-bahu (mother-in-law and daughter-in-law) axis (<i>Kyunki Saas Bhi Kabhi Bahu Thi</i>, <i>Yeh Rishta Kya Kehlata Hai</i>, <i>Anupamaa</i>). Mythological serials go to B12-8.",
+     "aliases": "saas-bahu serial; daily soap",
+     "see": "B12-8 Mythological Serial; B12-9 Pakistani Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Indian_soap_opera",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B12-8",
+     "label": "Mythological Serial",
+     "breadth": "narrow",
+     "defn": "An Indian television serial retelling Hindu epics and Puranic stories of gods and heroes (<i>Ramayan</i>, <i>Mahabharat</i>, <i>Devon Ke Dev...Mahadev</i>). Biblical and Islamic epics go to B1-19.",
+     "aliases": "Indian mythological series",
+     "see": "B12-7 Indian Television Soap Opera; B1-19 Historical Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Ramayan_(1987_TV_series)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Mythological_fiction",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B12-9",
+     "label": "Pakistani Drama",
+     "breadth": "narrow",
+     "defn": "A Pakistani Urdu drama serial, typically a closed 20–30 episode story of love, marriage and family duty (<i>Humsafar</i>, <i>Zindagi Gulzar Hai</i>, <i>Meray Paas Tum Ho</i>). Indian daily soaps go to B12-7.",
+     "aliases": "Urdu drama serial",
+     "see": "B12-7 Indian Television Soap Opera",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Pakistani_drama",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B12-10",
+     "label": "Sri Lankan Teledrama",
+     "breadth": "narrow",
+     "defn": "A Sinhala-language teledrama, the daily or weekly serial of Sri Lankan television (<i>Deweni Inima</i>, <i>Koombiyo</i>). Kept small as the attested national tradition.",
+     "aliases": "teledrama; Sinhala teledrama",
+     "see": "B12-7 Indian Television Soap Opera",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Teledrama",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B12-11",
+     "label": "Musalsal",
+     "breadth": "medium",
+     "defn": "An Arabic television serial, classically a 30-episode drama made for the Ramadan season (<i>Bab Al-Hara</i>, <i>Omar</i>, <i>Al Hayba</i>, <i>Raafat Al Haggan</i>). Turkish serials go to B12-6.",
+     "aliases": "Ramadan series; mosalsal",
+     "see": "B12-6 Dizi; B1-19 Historical Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Musalsal",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Ramadan_series",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by musalsal genre: the historical and religious epic first, the social and family serial, crime, spy and thriller serials last",
+     "secs": [
+      "Historical Musalsal",
+      "Social & Family Musalsal",
+      "Crime, Spy & Thriller Musalsal"
+     ]
+    },
+    {
+     "code": "B12-12",
+     "label": "Teleserye",
+     "breadth": "narrow",
+     "defn": "A Philippine prime-time television serial in the telenovela mould, from romance to fantasy (<i>Marimar</i>, <i>Pangako Sa 'Yo</i>, <i>On the Wings of Love</i>). Latin American telenovelas go to B12-1.",
+     "aliases": "teleserye; teledrama (Philippines)",
+     "see": "B12-1 Telenovela; B1-9 Romantic Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Teleserye",
+       "Wikipedia"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}
