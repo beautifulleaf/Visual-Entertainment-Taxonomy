@@ -13,7 +13,7 @@ def main(p):
     L = out.get("leaves", {})
     for c in codes - set(L): hard.append(f"leaf {c} missing from output")
     for c in set(L) - codes: hard.append(f"leaf {c} is not in this pass")
-    makers_in = collections.Counter(r[0] for l in inp for r in l["rows"] if is_maker(r))
+    makers_in = collections.Counter(r[0] for l in inp for r in l["rows"] if is_maker(r) and str(r[0]).strip())  # blank-name rows are junk
     makers_out = collections.Counter()
     def check_rows(where, rows, axis):
         groups = collections.Counter()
