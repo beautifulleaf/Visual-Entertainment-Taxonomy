@@ -140,7 +140,7 @@ S2: 0 titles fall outside the dates of their era section.
 | Tab | Sub-family | Leaves | Entries | Gini | Largest leaf |
 |---|---|---:|---:|---:|---:|
 | VA | A5 Easel Painting | 158 | 19,300 | 0.84 | 31% |
-| VA | D5 Figurative Sculpture | 146 | 4,387 | 0.81 | 37% |
+| VA | D5 Figurative Sculpture | 146 | 4,389 | 0.81 | 37% |
 | VA | J1 Photographic Schools & Movements | 20 | 3,115 | 0.71 | 29% |
 | VA | M1 Installation, Conceptual & Performance Art | 13 | 534 | 0.68 | 50% |
 | VA | H7 Dress & Costume | 23 | 295 | 0.68 | 59% |

@@ -1665,7 +1665,7 @@ K12-14,American Vernacular Architecture,North America (settler),1810,1900,entrie
 K12-15,Nordic Log Architecture,Central & Eastern Europe,1763,1900,entries
 K12-16,Swiss Farmhouse Architecture,Western Europe,,,rule
 K12-17,French Vernacular Architecture,Western Europe,,,rule
-K12-18,Cycladic Architecture,Greco-Roman & Byzantine Mediterranean,,,rule
+K12-18,Cycladic Architecture,Greco-Roman & Byzantine Mediterranean,-3200,-2000,entries
 K12-19,Chattel House,Mesoamerica & Caribbean,,,rule
 K12-20,Queenslander,North America (settler),1840,1849,override
 K13-1,Persian Garden,Ancient Near East,-550,1925,rule

@@ -142,3 +142,29 @@ The 452 art terms became:
   - Estridentismo, Palissy ware, Scarlet Ware, Sialk pottery, Syro-Phoenician ivories, Arte Nucleare, Neo-Tantric art, Universal Constructivism.
 
 Every AAT Styles & Periods term now has a disposition: 0 uncovered. 80% of in-scope terms are covered (leaf, entry, mention, variant, held or facet), up from 54% at the start of the reference crosswalk. The 801 peoples and 172 archaeological terms without gathered records are the measured gap in the sources. California Indian Basketry was tagged South Asia (from "Indian"); it is corrected by an override.
+
+## Closing the remaining gaps by rule (v18)
+
+`pipelines/r3/ref_close.py` applies three rules to the 975 peoples and archaeological terms that have no gathered records:
+
+1. **Named-ancestor rule.** If the nearest AAT ancestor that is a named culture (not a language family, region or national heading) is the label or an alias of a leaf in the same region, the term takes that leaf. 21 terms:
+   - Mogollon phases → Mogollon and Mimbres Pottery;
+   - Coast Salish nations → Coast Salish Weaving and Basketry;
+   - Villanovan phases → Villanovan Bronzes;
+   - Cycladic groups → Cycladic Figures;
+   - Machang and Qijia → Yangshao Painted Pottery;
+   - Shona groups → Mbira;
+   - Mbuti groups → Mbuti Barkcloth.
+2. **Subgroup default.** A people absent from all 1.24M gathered records takes the home of its covered parent people. 14 terms:
+   - Coastal Akan groups → Akan Goldweights;
+   - Gurunsi groups → Masks of Burkina Faso;
+   - Bakor → Cross River Skin-Covered Headdresses.
+3. **Region × era test** for archaeological phases, which have no dates in AAT. The era is read from the scope note, or from the ancestors (Paleo-Indian, Archaic, Woodland, Bronze Age and so on). A populated cell does not count as coverage. An empty cell is a real gap. 28 terms fall in empty cells, which reduce to six gaps:
+   - North American Paleo-Indian, 12,000–8,000 BCE (18 projectile-point types);
+   - the South Siberian Bronze and Iron Age: Afanasievo, Okunev, Karasuk, Maiemir, Bashadar, Shibe;
+   - Kura-Araxes;
+   - Dilmun;
+   - Beldibi;
+   - Jorwe.
+
+**Finding: the rules close 35 of 975, not most.** The subgroup rule assumed AAT nests peoples under named peoples. For Africa and the Americas it nests them under language families instead (Benue-Congo, Chadic, Gur, "Native Amazonian"). That leaves 776 peoples with no covered named parent. Settling them needs a style-area reference (Sieber and Roy; Iowa *Art & Life in Africa*, which was unreachable from this environment) or object records fetched by culture name from museum APIs. 126 archaeological terms fall in populated region × era cells. They are reported, not counted as covered, because the 20-region grid is too coarse to place a phase. AAT also tags the South Siberian cultures as Central & Eastern Europe.

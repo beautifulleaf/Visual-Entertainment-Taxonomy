@@ -1,5 +1,51 @@
 aat_id,name,leaf,objects,how,aat_group
 300020093,Classical,E1-28,28015,held,
+300264300,Ghrib,G3-3,0,subgroup,Bedouin
+300264300,Ghrib,H2-3,0,subgroup,Bedouin
+300263393,Ahanta,G1-20,0,subgroup,Coastal Akan
+300107459,Arnoaldi,G1-76,0,decided,Villanovan
+300016931,Chiricahua stage Mogollon,E1-62,0,decided,Mogollon
+300016931,Chiricahua stage Mogollon,E1-133,0,decided,Mogollon
+300263041,Duma,I4-4,0,subgroup,Shona
+300265352,Bakor,D4-39,0,subgroup,Ejagham
+300262545,Kassena,D4-34,0,subgroup,Gurunsi
+300263990,Adanse,G1-20,0,subgroup,Coastal Akan
+300262941,Basua,H8-9,0,subgroup,Mbuti
+300107457,Benacci,G1-76,0,decided,Villanovan
+300457763,Penelakut,H2-12,0,subgroup,Coast Salish
+300457763,Penelakut,H8-44,0,subgroup,Coast Salish
+300016939,Georgetown Mogollon,E1-62,0,decided,Mogollon
+300016939,Georgetown Mogollon,E1-133,0,decided,Mogollon
+300263082,Gova,I4-4,0,subgroup,Shona
+300263773,Lela,D4-34,0,subgroup,Gurunsi
+300264278,Agona,G1-20,0,subgroup,Coastal Akan
+300263017,Efe,H8-9,0,subgroup,Mbuti
+300264902,Machang,E1-17,0,decided,Yangshao
+300457753,Semiahmoo,H2-12,0,subgroup,Coast Salish
+300457753,Semiahmoo,H8-44,0,subgroup,Coast Salish
+300016001,Akyem,G1-20,0,subgroup,Coastal Akan
+300015863,Nunuma,D4-34,0,subgroup,Gurunsi
+300262790,Efutu,G1-20,0,subgroup,Coastal Akan
+300263106,Ndau,I4-4,0,subgroup,Shona
+300458748,Squaxin Island,H2-12,0,subgroup,Coast Salish
+300458748,Squaxin Island,H8-44,0,subgroup,Coast Salish
+300265648,Qijia,E1-17,0,decided,Yangshao
+300015866,Sisala,D4-34,0,subgroup,Gurunsi
+300016942,Reserve Mogollon,E1-62,0,decided,Mogollon
+300016942,Reserve Mogollon,E1-133,0,decided,Mogollon
+300263669,Tawara,I4-4,0,subgroup,Shona
+300262540,Vagala,D4-34,0,subgroup,Gurunsi
+300016940,San Francisco Mogollon,E1-62,0,decided,Mogollon
+300016940,San Francisco Mogollon,E1-133,0,decided,Mogollon
+300262759,Nzema,G1-20,0,subgroup,Coastal Akan
+300016941,Three Circle Mogollon,E1-62,0,decided,Mogollon
+300016941,Three Circle Mogollon,E1-133,0,decided,Mogollon
+300106939,Amorgos group,D5-56,0,decided,Cycladic
+300106939,Amorgos group,K12-18,0,decided,Cycladic
+300263452,Twifo,G1-20,0,subgroup,Coastal Akan
+300106945,Lefkandi I,D5-56,0,decided,Cycladic
+300106945,Lefkandi I,K12-18,0,decided,Cycladic
+300263460,Wasa,G1-20,0,subgroup,Coastal Akan
 300459687,Goryeo ceramics,E3-13,0,decided,Korean ceramic styles
 300459753,Seo-ri,E3-13,0,decided,central-western region (ceramic style)
 300459770,Joseon celadon,E3-14,0,decided,Joseon ceramics (ceramic style)

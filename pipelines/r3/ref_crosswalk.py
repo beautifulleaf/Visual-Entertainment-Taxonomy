@@ -239,6 +239,17 @@ def main():
         # (placement by the medium of a people's records and word overlap with its AAT cluster was tried and dropped:
         # it sent Amazonian peoples to Nasca Textiles and Ewe to Kanga; peoples with records but no inherited home
         # stay in the backlog for a decision)
+    # closing rules (ref_close.py): a people sub-group takes its covered parent's leaf; a phase or people under a named
+    # culture that is a leaf of its region takes that leaf. Applied to terms still sorted people/archaeology.
+    cp = os.path.join(OUT, "close.csv")
+    if os.path.exists(cp):
+        for c in csv.DictReader(open(cp)):
+            r = X.get(c["aat_id"])
+            if not r or r["coverage"] not in ("people", "archaeology") or c["rule"] not in ("subgroup", "ancestor-named"): continue
+            nm = re.sub(r"\s*\([^)]*\)", "", r["label"]).strip()
+            how = "subgroup" if r["coverage"] == "people" else "decided"
+            r["coverage"], r["leaves"] = "decided", c["leaves"]
+            for l in c["leaves"].split(): peoples.append([r["id"], nm, l, 0, how, c["note"].replace("sub-group of ", "").replace("under ", "")])
     with open(os.path.join(OUT, "aat_crosswalk.csv"), "w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=list(arows[0].keys())); w.writeheader(); w.writerows(arows)
 

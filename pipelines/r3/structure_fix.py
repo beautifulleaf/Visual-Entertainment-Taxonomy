@@ -541,6 +541,7 @@ def apply(tree, MV, MF, report):
             # a style, school or ware placed from its Getty scope note (no gathered records) is not a people
             grp = "Peoples & cultures" if (nobj or how != "decided") else "Schools & phases"
             note = (f"grouped by Getty AAT under {r['aat_group']}" if how == "inherited" else
+                    f"sub-group of {r['aat_group']} (Getty AAT); no source treats it as a style of its own" if how == "subgroup" else
                     f"Getty AAT, under {r['aat_group']}" if not nobj else
                     f"{nobj:,} objects in the gathered records" + (f"; Getty AAT: {r['aat_group']}" if r.get("aat_group") else ""))
             rows_.append([r["name"], grp, note,
