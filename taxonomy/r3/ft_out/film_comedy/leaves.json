@@ -29,7 +29,7 @@
      "breadth": "broad",
      "defn": "A film built as a vehicle for a comedian's or comedy team's established persona, where the routines of the performer matter more than the plot (<i>Duck Soup</i>, <i>The Bank Dick</i>, <i>The Gendarme of Saint-Tropez</i>, <i>Wayne's World</i>, <i>Billy Madison</i>). If the film has a stronger premise engine (body swap, heist, parody) it goes there; a silent clown film goes to A12-1 Silent Clown Comedy.",
      "aliases": "comedian vehicle; comedy team film; double act (Steve Seidman's 'comedian comedy')",
-     "see": "A12-1 Silent Clown Comedy; A12-3 Slapstick; A12-22 Parody & Spoof",
+     "see": "A12-1 Silent Clown Comedy; A12-3 Slapstick; A12-23 Parody & Spoof",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Double_act",
@@ -162,9 +162,9 @@
      "code": "A12-8",
      "label": "Picaresque Comedy",
      "breadth": "narrow",
-     "defn": "A comedy that follows a roguish or innocent hero through an episodic string of adventures across a society, often a period or literary one (<i>Tom Jones</i>, <i>The Decameron</i>, <i>A Dog's Will</i>, <i>Forrest Gump</i>, <i>Poor Things</i>). A settled ensemble portrait goes to A12-56 Slice-of-Life Comedy-Drama.",
+     "defn": "A comedy that follows a roguish or innocent hero through an episodic string of adventures across a society, often a period or literary one (<i>Tom Jones</i>, <i>The Decameron</i>, <i>A Dog's Will</i>, <i>Forrest Gump</i>, <i>Poor Things</i>). A settled ensemble portrait goes to A12-57 Slice-of-Life Comedy-Drama.",
      "aliases": "picaresque",
-     "see": "A8 Historical & Period Film; A12-56 Slice-of-Life",
+     "see": "A8 Historical & Period Film; A12-57 Slice-of-Life",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Picaresque_novel",
@@ -182,7 +182,7 @@
      "breadth": "narrow",
      "defn": "A comedy from the post-war Ealing Studios cycle (1947–57) of ironic, understated British comedies about little people and institutions (<i>Kind Hearts and Coronets</i>, <i>The Lavender Hill Mob</i>, <i>The Ladykillers</i>).",
      "aliases": "Ealing comedies",
-     "see": "A12-42 Caper Comedy; A12-15 Social Satire",
+     "see": "A12-43 Caper Comedy; A12-15 Social Satire",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Ealing_comedies",
@@ -224,7 +224,7 @@
      "breadth": "narrow",
      "defn": "An Israeli popular comedy of the 1960s–70s cycle built on Ashkenazi–Mizrahi ethnic stereotypes and mix-ups (<i>Sallah Shabati</i>, <i>Snooker</i>).",
      "aliases": "bourekas",
-     "see": "A12-26 Fish-out-of-Water Comedy",
+     "see": "A12-27 Fish-out-of-Water Comedy",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Bourekas_film",
@@ -236,9 +236,9 @@
      "code": "A12-13",
      "label": "Mo lei tau",
      "breadth": "narrow",
-     "defn": "Hong Kong nonsense comedy of Stephen Chow's type, mixing absurd non-sequitur, pop-culture spoof and cartoon violence (<i>The God of Cookery</i>, <i>Kung Fu Hustle</i>). A Hong Kong martial-arts action comedy goes to A12-48 Action Comedy.",
+     "defn": "Hong Kong nonsense comedy of Stephen Chow's type, mixing absurd non-sequitur, pop-culture spoof and cartoon violence (<i>The God of Cookery</i>, <i>Kung Fu Hustle</i>). A Hong Kong martial-arts action comedy goes to A12-49 Action Comedy.",
      "aliases": "mo lei tau; nonsense comedy",
-     "see": "A12-48 Action Comedy; A12-18 Surreal & Absurdist Comedy",
+     "see": "A12-49 Action Comedy; A12-19 Surreal & Absurdist Comedy",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Mo_lei_tau",
@@ -297,9 +297,9 @@
      "code": "A12-16",
      "label": "Media & Show-Business Satire",
      "breadth": "medium",
-     "defn": "A satire whose target is the image industries: Hollywood, television news, celebrity and influencer culture, fashion and the art market (<i>The Player</i>, <i>Network</i>, <i>The King of Comedy</i>, <i>Ingrid Goes West</i>, <i>Official Competition</i>). A non-satirical backstage comedy goes to A12-31 Workplace Comedy; a fake documentary to A12-23 Mockumentary.",
+     "defn": "A satire whose target is the image industries: Hollywood, television news, celebrity and influencer culture, fashion and the art market (<i>The Player</i>, <i>Network</i>, <i>The King of Comedy</i>, <i>Ingrid Goes West</i>, <i>Official Competition</i>). A non-satirical backstage comedy goes to A12-32 Workplace Comedy; a fake documentary to A12-24 Mockumentary.",
      "aliases": "Hollywood satire; media satire",
-     "see": "A12-31 Workplace Comedy; A12-23 Mockumentary; A12-15 Social Satire",
+     "see": "A12-32 Workplace Comedy; A12-24 Mockumentary; A12-15 Social Satire",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Satire",
@@ -323,39 +323,48 @@
      "label": "Black Comedy",
      "breadth": "broad",
      "defn": "A comedy that extracts laughter from death, murder, cruelty, taboo and misfortune, without a political or social target as its main point (<i>Arsenic and Old Lace</i>, <i>Harold and Maude</i>, <i>Happiness</i>, <i>Wild Tales</i>, <i>The Banshees of Inisherin</i>). Satire of institutions goes to A12-14 Political Satire / [[soc]]; crime plots played for laughs to the crime-comedy leaves.",
-     "aliases": "dark comedy; gallows humour; camp and trash comedy",
-     "see": "A12-14 Political Satire; A12-44 Crime-Gone-Wrong Comedy; A12-18 Surreal & Absurdist Comedy",
+     "aliases": "dark comedy; gallows humour",
+     "see": "A12-14 Political Satire; A12-45 Crime-Gone-Wrong Comedy; A12-19 Surreal & Absurdist Comedy",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Black_comedy",
        "Wikipedia"
-      ],
-      [
-       "https://en.wikipedia.org/wiki/Camp_%28style%29",
-       "Wikipedia"
-      ],
-      [
-       "https://en.wikipedia.org/wiki/Trash_film",
-       "Wikipedia"
       ]
      ],
-     "axis": "by what the darkness feeds on: death and corpses, murder, misanthropy and taboo, revenge and feuds, escalating nightmare; camp and trash last",
+     "axis": "by what the darkness feeds on: death and corpses, murder, misanthropy and taboo, revenge and feuds, escalating nightmare",
      "secs": [
       "Death & Funeral Comedy",
       "Murder Comedy",
       "Misanthropic & Taboo Comedy",
       "Revenge & Feud Comedy",
-      "Escalating-Nightmare Comedy",
-      "Camp & Trash Comedy"
+      "Escalating-Nightmare Comedy"
      ]
     },
     {
      "code": "A12-18",
+     "label": "Camp & Trash Comedy",
+     "breadth": "narrow",
+     "defn": "A deliberately tasteless, low-budget comedy of outrageous excess, drag and bad taste celebrated as style — the John Waters line and its kin (<i>Pink Flamingos</i>, <i>Female Trouble</i>, <i>Polyester</i>, <i>Pepi, Luci, Bom</i>). Black comedy without the trash aesthetic goes to A12-17 Black Comedy.",
+     "aliases": "trash cinema; camp; bad-taste comedy",
+     "see": "A12-17 Black Comedy; A12-23 Parody & Spoof",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Trash_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Camp_%28style%29",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A12-19",
      "label": "Surreal & Absurdist Comedy",
      "breadth": "medium",
-     "defn": "A comedy built on illogic: absurd premises played straight, dream logic, magical-realist fable or self-reflexive play with the film itself (<i>Deerskin</i>, <i>Songs from the Second Floor</i>, <i>Arizona Dream</i>, <i>Adaptation.</i>). Minimalist straight-faced comedy goes to A12-19 Deadpan.",
+     "defn": "A comedy built on illogic: absurd premises played straight, dream logic, magical-realist fable or self-reflexive play with the film itself (<i>Deerskin</i>, <i>Songs from the Second Floor</i>, <i>Arizona Dream</i>, <i>Adaptation.</i>). Minimalist straight-faced comedy goes to A12-20 Deadpan.",
      "aliases": "absurdist comedy; surreal humour; metafictional comedy; anti-comedy",
-     "see": "A12-19 Deadpan Comedy; A12-13 Mo lei tau; A20 Experimental & Avant-Garde",
+     "see": "A12-20 Deadpan Comedy; A12-13 Mo lei tau; A20 Experimental & Avant-Garde",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Surreal_humour",
@@ -378,12 +387,12 @@
      ]
     },
     {
-     "code": "A12-19",
+     "code": "A12-20",
      "label": "Deadpan Comedy",
      "breadth": "narrow",
-     "defn": "A minimalist comedy of expressionless performance, static framing and laconic timing (<i>Drifting Clouds</i>, <i>Mystery Train</i>, <i>Divine Intervention</i>, <i>Whisky</i>). Whimsical, designed indie quirk goes to A12-20 Quirky Indie Comedy.",
+     "defn": "A minimalist comedy of expressionless performance, static framing and laconic timing (<i>Drifting Clouds</i>, <i>Mystery Train</i>, <i>Divine Intervention</i>, <i>Whisky</i>). Whimsical, designed indie quirk goes to A12-21 Quirky Indie Comedy.",
      "aliases": "laconic comedy; Kaurismäki-style comedy",
-     "see": "A12-20 Quirky Indie Comedy; A12-18 Surreal & Absurdist Comedy",
+     "see": "A12-21 Quirky Indie Comedy; A12-19 Surreal & Absurdist Comedy",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Deadpan",
@@ -392,12 +401,12 @@
      ]
     },
     {
-     "code": "A12-20",
+     "code": "A12-21",
      "label": "Quirky Indie Comedy",
      "breadth": "narrow",
      "defn": "An American-indie comedy of whimsical eccentrics, handmade design and wry melancholy, the 'quirky' sensibility of the 2000s (<i>Napoleon Dynamite</i>, <i>Moonrise Kingdom</i>, <i>Lars and the Real Girl</i>, <i>Safety Not Guaranteed</i>).",
      "aliases": "quirky; indie quirk",
-     "see": "A12-19 Deadpan Comedy; A12-50 Coming-of-Age Comedy-Drama",
+     "see": "A12-20 Deadpan Comedy; A12-51 Coming-of-Age Comedy-Drama",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Quirky",
@@ -410,12 +419,12 @@
      ]
     },
     {
-     "code": "A12-21",
+     "code": "A12-22",
      "label": "Cringe Comedy",
      "breadth": "narrow",
      "defn": "A comedy whose laughter comes from social embarrassment and excruciating awkwardness sustained past comfort (<i>The Foot Fist Way</i>, <i>Shiva Baby</i>, <i>Young Adult</i>, <i>Friendship</i>).",
      "aliases": "comedy of embarrassment",
-     "see": "A12-23 Mockumentary; A12-17 Black Comedy",
+     "see": "A12-24 Mockumentary; A12-17 Black Comedy",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Cringe_comedy",
@@ -424,12 +433,12 @@
      ]
     },
     {
-     "code": "A12-22",
+     "code": "A12-23",
      "label": "Parody & Spoof",
      "breadth": "broad",
-     "defn": "A comedy that imitates the conventions of a genre, a specific film or franchise, a historical epic or a public persona in order to mock them (<i>Airplane!</i>, <i>Young Frankenstein</i>, <i>Scary Movie</i>, <i>Monty Python and the Holy Grail</i>, <i>Zoolander</i>). Spy spoofs go to A12-49 Spy Comedy; fake documentaries to A12-23 Mockumentary.",
+     "defn": "A comedy that imitates the conventions of a genre, a specific film or franchise, a historical epic or a public persona in order to mock them (<i>Airplane!</i>, <i>Young Frankenstein</i>, <i>Scary Movie</i>, <i>Monty Python and the Holy Grail</i>, <i>Zoolander</i>). Spy spoofs go to A12-50 Spy Comedy; fake documentaries to A12-24 Mockumentary.",
      "aliases": "spoof; burlesque; send-up",
-     "see": "A12-49 Spy Comedy; A12-23 Mockumentary; A12-16 Media & Show-Business Satire",
+     "see": "A12-50 Spy Comedy; A12-24 Mockumentary; A12-16 Media & Show-Business Satire",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Parody_film",
@@ -450,12 +459,12 @@
      ]
     },
     {
-     "code": "A12-23",
+     "code": "A12-24",
      "label": "Mockumentary",
      "breadth": "narrow",
      "defn": "A fiction comedy formatted as a documentary, or a staged 'real' encounter with a fictional character (<i>This Is Spinal Tap</i>, <i>Best in Show</i>, <i>Borat</i>, <i>Zelig</i>).",
      "aliases": "mock documentary; docufiction comedy",
-     "see": "A12-22 Parody & Spoof; A19 Documentary",
+     "see": "A12-23 Parody & Spoof; A19 Documentary",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Mockumentary",
@@ -464,12 +473,12 @@
      ]
     },
     {
-     "code": "A12-24",
+     "code": "A12-25",
      "label": "Sketch Film",
      "breadth": "narrow",
      "defn": "A comedy made of separate sketches or self-contained episodes, by one troupe or several directors (<i>Monty Python's And Now for Something Completely Different</i>, <i>The Kentucky Fried Movie</i>, <i>Coffee and Cigarettes</i>, <i>Movie 43</i>, <i>Le Plaisir</i>).",
      "aliases": "film à sketches; comedy anthology film; omnibus",
-     "see": "A12-22 Parody & Spoof; A21 Short Film",
+     "see": "A12-23 Parody & Spoof; A21 Short Film",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Anthology_film",
@@ -482,7 +491,7 @@
      ]
     },
     {
-     "code": "A12-25",
+     "code": "A12-26",
      "label": "Stand-Up Comedy Film",
      "breadth": "medium",
      "defn": "A recorded performance of stand-up or solo comic monologue, released theatrically, on television or streaming (<i>Richard Pryor: Live in Concert</i>, <i>Eddie Murphy: Raw</i>, <i>Hannah Gadsby: Nanette</i>, <i>Bo Burnham: Inside</i>).",
@@ -507,12 +516,12 @@
      ]
     },
     {
-     "code": "A12-26",
+     "code": "A12-27",
      "label": "Fish-out-of-Water Comedy",
      "breadth": "broad",
-     "defn": "A comedy whose engine is a character transplanted into a world whose codes they do not know: country and city, nation and culture, or class (<i>Crocodile Dundee</i>, <i>Welcome to the Sticks</i>, <i>Trading Places</i>, <i>Legally Blonde</i>, <i>Local Hero</i>). A transplant by magic goes to A12-27 Fantasy Comedy.",
+     "defn": "A comedy whose engine is a character transplanted into a world whose codes they do not know: country and city, nation and culture, or class (<i>Crocodile Dundee</i>, <i>Welcome to the Sticks</i>, <i>Trading Places</i>, <i>Legally Blonde</i>, <i>Local Hero</i>). A transplant by magic goes to A12-28 Fantasy Comedy.",
      "aliases": "culture-clash comedy; immigrant comedy; rags-to-riches comedy",
-     "see": "A12-12 Bourekas Film; A12-27 Fantasy Comedy",
+     "see": "A12-12 Bourekas Film; A12-28 Fantasy Comedy",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Fish_out_of_water",
@@ -527,12 +536,12 @@
      ]
     },
     {
-     "code": "A12-27",
+     "code": "A12-28",
      "label": "Fantasy Comedy",
      "breadth": "broad",
-     "defn": "A comedy built on a single supernatural or magical premise whose consequences drive the gags (<i>Groundhog Day</i>, <i>Freaky Friday</i>, <i>Liar Liar</i>, <i>Blithe Spirit</i>, <i>Doctor Dolittle</i>). A technological premise goes to A12-28 Science Fiction Comedy; fantasy adventure to A6.",
+     "defn": "A comedy built on a single supernatural or magical premise whose consequences drive the gags (<i>Groundhog Day</i>, <i>Freaky Friday</i>, <i>Liar Liar</i>, <i>Blithe Spirit</i>, <i>Doctor Dolittle</i>). A technological premise goes to A12-29 Science Fiction Comedy; fantasy adventure to A6.",
      "aliases": "body-swap comedy; high-concept comedy; time-loop comedy; ghost comedy",
-     "see": "A12-28 Science Fiction Comedy; A6 Fantasy & Adventure",
+     "see": "A12-29 Science Fiction Comedy; A6 Fantasy & Adventure",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Fantasy_comedy",
@@ -553,12 +562,12 @@
      ]
     },
     {
-     "code": "A12-28",
+     "code": "A12-29",
      "label": "Science Fiction Comedy",
      "breadth": "narrow",
-     "defn": "A comedy built on a science-fiction premise (aliens, clones, inventions, apocalypse) whose consequences drive the gags rather than action (<i>Coneheads</i>, <i>Multiplicity</i>, <i>Sleeper</i>, <i>Paul</i>, <i>This Is the End</i>). Sci-fi action comedies go to A12-48 Action Comedy.",
+     "defn": "A comedy built on a science-fiction premise (aliens, clones, inventions, apocalypse) whose consequences drive the gags rather than action (<i>Coneheads</i>, <i>Multiplicity</i>, <i>Sleeper</i>, <i>Paul</i>, <i>This Is the End</i>). Sci-fi action comedies go to A12-49 Action Comedy.",
      "aliases": "sci-fi comedy",
-     "see": "A12-27 Fantasy Comedy; A12-48 Action Comedy; A5 Science Fiction",
+     "see": "A12-28 Fantasy Comedy; A12-49 Action Comedy; A5 Science Fiction",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Science_fiction_comedy",
@@ -567,12 +576,12 @@
      ]
     },
     {
-     "code": "A12-29",
+     "code": "A12-30",
      "label": "Buddy Comedy",
      "breadth": "broad",
-     "defn": "A comedy whose engine is a pair or small group of friends or ill-matched partners and their friction (<i>The Odd Couple</i>, <i>Twins</i>, <i>I Love You, Man</i>, <i>Romy and Michele's High School Reunion</i>, <i>The Hangover</i>). A buddy pair of cops goes to A12-47 Buddy Cop Film.",
+     "defn": "A comedy whose engine is a pair or small group of friends or ill-matched partners and their friction (<i>The Odd Couple</i>, <i>Twins</i>, <i>I Love You, Man</i>, <i>Romy and Michele's High School Reunion</i>, <i>The Hangover</i>). A buddy pair of cops goes to A12-48 Buddy Cop Film.",
      "aliases": "odd-couple comedy; bromance; female buddy comedy; bachelor-party comedy",
-     "see": "A12-47 Buddy Cop Film; A12-30 Road & Vacation Comedy",
+     "see": "A12-48 Buddy Cop Film; A12-31 Road & Vacation Comedy",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Buddy_film",
@@ -588,12 +597,12 @@
      ]
     },
     {
-     "code": "A12-30",
+     "code": "A12-31",
      "label": "Road & Vacation Comedy",
      "breadth": "medium",
      "defn": "A comedy structured by a journey or a holiday away from home, its gags arising from the trip itself (<i>National Lampoon's European Vacation</i>, <i>French Fried Vacation</i>, <i>Flirting with Disaster</i>, <i>Kikujiro</i>).",
      "aliases": "road comedy; vacation comedy; holiday comedy",
-     "see": "A12-29 Buddy Comedy; A12-34 Family Comedy",
+     "see": "A12-30 Buddy Comedy; A12-35 Family Comedy",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Road_movie",
@@ -607,12 +616,12 @@
      ]
     },
     {
-     "code": "A12-31",
+     "code": "A12-32",
      "label": "Workplace Comedy",
      "breadth": "broad",
-     "defn": "A comedy set in and driven by a workplace and its hierarchy, routines and colleagues (<i>9 to 5</i>, <i>Office Space</i>, <i>Waiting...</i>, <i>Broadcast News</i>, <i>Day for Night</i>). Satire of the corporation as such goes to A12-15 Social Satire; the military to A12-32 Military Comedy.",
+     "defn": "A comedy set in and driven by a workplace and its hierarchy, routines and colleagues (<i>9 to 5</i>, <i>Office Space</i>, <i>Waiting...</i>, <i>Broadcast News</i>, <i>Day for Night</i>). Satire of the corporation as such goes to A12-15 Social Satire; the military to A12-33 Military Comedy.",
      "aliases": "office comedy; backstage comedy; school comedy (teachers)",
-     "see": "A12-15 Social Satire; A12-16 Media & Show-Business Satire; A12-32 Military Comedy",
+     "see": "A12-15 Social Satire; A12-16 Media & Show-Business Satire; A12-33 Military Comedy",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Workplace_comedy",
@@ -634,7 +643,7 @@
      ]
     },
     {
-     "code": "A12-32",
+     "code": "A12-33",
      "label": "Military Comedy",
      "breadth": "narrow",
      "defn": "A comedy of soldiers and military institutions: barracks and boot-camp service comedy, or farce set amid war (<i>Stripes</i>, <i>Private Benjamin</i>, <i>Sgt. Bilko</i>, <i>La Grande Vadrouille</i>). Satire of war itself goes to A12-14 Political Satire.",
@@ -652,12 +661,12 @@
      ]
     },
     {
-     "code": "A12-33",
+     "code": "A12-34",
      "label": "Sports Comedy",
      "breadth": "narrow",
      "defn": "A comedy built on a sport or competition and the underdog struggle to win it (<i>Caddyshack</i>, <i>Beerfest</i>, <i>The Big Year</i>, <i>The Cup</i>).",
      "aliases": "sports comedy",
-     "see": "A12-29 Buddy Comedy",
+     "see": "A12-30 Buddy Comedy",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Sports_film",
@@ -666,12 +675,12 @@
      ]
     },
     {
-     "code": "A12-34",
+     "code": "A12-35",
      "label": "Family Comedy",
      "breadth": "broad",
-     "defn": "A comedy whose engine is family life itself: parenting chaos, troublesome kids, in-laws, family gatherings and homes (<i>Mr. Mom</i>, <i>Cheaper by the Dozen</i>, <i>Meet the Parents</i>, <i>Problem Child</i>, <i>The Flintstones</i>). Family comedy-drama goes to A12-51 Family Comedy-Drama; children's films to A17.",
+     "defn": "A comedy whose engine is family life itself: parenting chaos, troublesome kids, in-laws, family gatherings and homes (<i>Mr. Mom</i>, <i>Cheaper by the Dozen</i>, <i>Meet the Parents</i>, <i>Problem Child</i>, <i>The Flintstones</i>). Family comedy-drama goes to A12-52 Family Comedy-Drama; children's films to A17.",
      "aliases": "domestic comedy; in-law comedy; live-action cartoon",
-     "see": "A12-51 Family Comedy-Drama; A17 Children's & Family Film",
+     "see": "A12-52 Family Comedy-Drama; A17 Children's & Family Film",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Family_comedy",
@@ -693,12 +702,12 @@
      ]
     },
     {
-     "code": "A12-35",
+     "code": "A12-36",
      "label": "Wedding Comedy",
      "breadth": "narrow",
      "defn": "A comedy organised around a wedding and its preparations, guests and disasters (<i>Father of the Bride</i>, <i>Bridesmaids</i>, <i>Monsoon Wedding</i>, <i>The Wedding Ringer</i>). A comedy whose aim is the couple's love goes to A13.",
      "aliases": "wedding film",
-     "see": "A13 Romance; A12-34 Family Comedy",
+     "see": "A13 Romance; A12-35 Family Comedy",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Wedding_film",
@@ -707,12 +716,12 @@
      ]
     },
     {
-     "code": "A12-36",
+     "code": "A12-37",
      "label": "Teen Comedy",
      "breadth": "broad",
-     "defn": "A comedy of adolescent social life: high-school hierarchies, school pranks, summer camp and the one wild night (<i>Ferris Bueller's Day Off</i>, <i>Clueless</i>, <i>Mean Girls</i>, <i>Superbad</i>). Teenage sexual initiation goes to A12-37 Teen Sex Comedy; reflective adolescence to A12-50 Coming-of-Age Comedy-Drama.",
+     "defn": "A comedy of adolescent social life: high-school hierarchies, school pranks, summer camp and the one wild night (<i>Ferris Bueller's Day Off</i>, <i>Clueless</i>, <i>Mean Girls</i>, <i>Superbad</i>). Teenage sexual initiation goes to A12-38 Teen Sex Comedy; reflective adolescence to A12-51 Coming-of-Age Comedy-Drama.",
      "aliases": "teen movie; high-school comedy; party movie",
-     "see": "A12-37 Teen Sex Comedy; A12-50 Coming-of-Age Comedy-Drama; A17 Children's & Family Film",
+     "see": "A12-38 Teen Sex Comedy; A12-51 Coming-of-Age Comedy-Drama; A17 Children's & Family Film",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Teen_film",
@@ -728,12 +737,12 @@
      ]
     },
     {
-     "code": "A12-37",
+     "code": "A12-38",
      "label": "Teen Sex Comedy",
      "breadth": "narrow",
      "defn": "A teen comedy whose plot is the quest to lose virginity or to score (<i>Porky's</i>, <i>Lemon Popsicle</i>, <i>American Pie</i>, <i>Blockers</i>).",
      "aliases": "teen sex comedy",
-     "see": "A12-36 Teen Comedy; A12-39 Sex Comedy",
+     "see": "A12-37 Teen Comedy; A12-40 Sex Comedy",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Teen_sex_comedy",
@@ -742,12 +751,12 @@
      ]
     },
     {
-     "code": "A12-38",
+     "code": "A12-39",
      "label": "College & Fraternity Comedy",
      "breadth": "narrow",
      "defn": "A comedy of campus life, fraternities and anarchic students versus the dean (<i>National Lampoon's Animal House</i>, <i>Revenge of the Nerds</i>, <i>Old School</i>, <i>Neighbors</i>).",
      "aliases": "campus comedy; frat comedy",
-     "see": "A12-36 Teen Comedy",
+     "see": "A12-37 Teen Comedy",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Teen_film",
@@ -760,12 +769,12 @@
      ]
     },
     {
-     "code": "A12-39",
+     "code": "A12-40",
      "label": "Sex Comedy",
      "breadth": "medium",
-     "defn": "An adult comedy whose engine is sexual desire, temptation and frankness, including its gross-out extreme (<i>The Seven Year Itch</i>, <i>The 40-Year-Old Virgin</i>, <i>Deuce Bigalow: Male Gigolo</i>, <i>No Hard Feelings</i>). Teenagers' quest goes to A12-37 Teen Sex Comedy; adultery mechanics to A12-7 Farce.",
+     "defn": "An adult comedy whose engine is sexual desire, temptation and frankness, including its gross-out extreme (<i>The Seven Year Itch</i>, <i>The 40-Year-Old Virgin</i>, <i>Deuce Bigalow: Male Gigolo</i>, <i>No Hard Feelings</i>). Teenagers' quest goes to A12-38 Teen Sex Comedy; adultery mechanics to A12-7 Farce.",
      "aliases": "sex comedy; gross-out comedy; raunch comedy",
-     "see": "A12-37 Teen Sex Comedy; A12-7 Farce",
+     "see": "A12-38 Teen Sex Comedy; A12-7 Farce",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Sex_comedy",
@@ -784,12 +793,12 @@
      ]
     },
     {
-     "code": "A12-40",
+     "code": "A12-41",
      "label": "Stoner Film",
      "breadth": "narrow",
      "defn": "A comedy built around cannabis or other drug use and the stoned perspective (<i>Up in Smoke</i>, <i>Dude, Where's My Car?</i>, <i>Harold & Kumar</i>, <i>Pineapple Express</i>).",
      "aliases": "stoner comedy",
-     "see": "A12-41 Slacker Comedy",
+     "see": "A12-42 Slacker Comedy",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Stoner_film",
@@ -798,12 +807,12 @@
      ]
     },
     {
-     "code": "A12-41",
+     "code": "A12-42",
      "label": "Slacker Comedy",
      "breadth": "narrow",
      "defn": "A comedy of aimless young adults hanging out, talking and avoiding work, including the low-budget mumblecore strand (<i>Slacker</i>, <i>Clerks</i>, <i>Mallrats</i>, <i>Withnail and I</i>).",
      "aliases": "hangout film; slacker film; mumblecore",
-     "see": "A12-40 Stoner Film; A12-50 Coming-of-Age Comedy-Drama",
+     "see": "A12-41 Stoner Film; A12-51 Coming-of-Age Comedy-Drama",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Slacker",
@@ -816,12 +825,12 @@
      ]
     },
     {
-     "code": "A12-42",
+     "code": "A12-43",
      "label": "Caper Comedy",
      "breadth": "medium",
-     "defn": "A comedy organised around a planned theft, swindle or escape, the plan and its unravelling being the engine (<i>A Fish Called Wanda</i>, <i>The Sting</i>, <i>Dirty Rotten Scoundrels</i>, <i>Stir Crazy</i>). Amateurs stumbling into crime go to A12-44 Crime-Gone-Wrong Comedy.",
+     "defn": "A comedy organised around a planned theft, swindle or escape, the plan and its unravelling being the engine (<i>A Fish Called Wanda</i>, <i>The Sting</i>, <i>Dirty Rotten Scoundrels</i>, <i>Stir Crazy</i>). Amateurs stumbling into crime go to A12-45 Crime-Gone-Wrong Comedy.",
      "aliases": "heist comedy; con-artist comedy; prison comedy",
-     "see": "A12-44 Crime-Gone-Wrong Comedy; A2 Crime",
+     "see": "A12-45 Crime-Gone-Wrong Comedy; A2 Crime",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Caper_story",
@@ -840,12 +849,12 @@
      ]
     },
     {
-     "code": "A12-43",
+     "code": "A12-44",
      "label": "Gangster Comedy",
      "breadth": "medium",
-     "defn": "A comedy set among professional criminals — the mob, gangland crews and hitmen (<i>Analyze This</i>, <i>Lock, Stock and Two Smoking Barrels</i>, <i>Snatch</i>, <i>In Bruges</i>). Civilians drawn into crime go to A12-44 Crime-Gone-Wrong Comedy; hitman action vehicles to A12-48 Action Comedy.",
+     "defn": "A comedy set among professional criminals — the mob, gangland crews and hitmen (<i>Analyze This</i>, <i>Lock, Stock and Two Smoking Barrels</i>, <i>Snatch</i>, <i>In Bruges</i>). Civilians drawn into crime go to A12-45 Crime-Gone-Wrong Comedy; hitman action vehicles to A12-49 Action Comedy.",
      "aliases": "mob comedy; mafia comedy; hitman comedy",
-     "see": "A12-44 Crime-Gone-Wrong Comedy; A2 Crime",
+     "see": "A12-45 Crime-Gone-Wrong Comedy; A2 Crime",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Gangster_film",
@@ -864,26 +873,33 @@
      ]
     },
     {
-     "code": "A12-44",
+     "code": "A12-45",
      "label": "Crime-Gone-Wrong Comedy",
      "breadth": "medium",
-     "defn": "A crime comedy in which ordinary people botch a kidnapping, robbery, killing or cover-up, the escalating mess being the engine (<i>Ruthless People</i>, <i>Raising Arizona</i>, <i>Horrible Bosses</i>, <i>Delhi Belly</i>). Planned professional jobs go to A12-42 Caper Comedy.",
+     "defn": "A crime comedy in which ordinary people botch a kidnapping, robbery, killing or cover-up, the escalating mess being the engine (<i>Ruthless People</i>, <i>Raising Arizona</i>, <i>Horrible Bosses</i>, <i>Delhi Belly</i>). Planned professional jobs go to A12-43 Caper Comedy.",
      "aliases": "botched-crime comedy; crime comedy",
-     "see": "A12-42 Caper Comedy; A12-17 Black Comedy; A2 Crime",
+     "see": "A12-43 Caper Comedy; A12-17 Black Comedy; A2 Crime",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Crime_comedy",
        "Wikipedia"
       ]
+     ],
+     "axis": "by how the civilians fall into crime: a kidnapping, a get-rich scheme, a body to hide, being caught up by chance",
+     "secs": [
+      "Kidnapping & Hostage Comedy",
+      "Get-Rich-Quick Crime Comedy",
+      "Body & Cover-Up Comedy",
+      "Wrong-Place Civilians"
      ]
     },
     {
-     "code": "A12-45",
+     "code": "A12-46",
      "label": "Comedy Mystery",
      "breadth": "narrow",
      "defn": "A comic whodunit or detective comedy in which a mystery is investigated for laughs (<i>Clue</i>, <i>Fletch</i>, <i>The Big Lebowski</i>, <i>See How They Run</i>).",
      "aliases": "comic whodunit; detective comedy",
-     "see": "A3 Thriller & Mystery; A12-46 Cop Comedy",
+     "see": "A3 Thriller & Mystery; A12-47 Cop Comedy",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Comedy_mystery",
@@ -896,12 +912,12 @@
      ]
     },
     {
-     "code": "A12-46",
+     "code": "A12-47",
      "label": "Cop Comedy",
      "breadth": "narrow",
      "defn": "A comedy of bungling police, cadets and security guards as an institution, without the action-buddy formula (<i>Police Academy</i>, <i>Super Troopers</i>, <i>Torrente</i>, <i>Paul Blart: Mall Cop</i>).",
      "aliases": "police comedy",
-     "see": "A12-47 Buddy Cop Film; A12-31 Workplace Comedy",
+     "see": "A12-48 Buddy Cop Film; A12-32 Workplace Comedy",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Crime_comedy",
@@ -914,12 +930,12 @@
      ]
     },
     {
-     "code": "A12-47",
+     "code": "A12-48",
      "label": "Buddy Cop Film",
      "breadth": "narrow",
      "defn": "An action comedy pairing two mismatched partners, at least one a cop, on a case (<i>Beverly Hills Cop</i>, <i>Taxi</i>, <i>The Nice Guys</i>, <i>Let's Be Cops</i>).",
      "aliases": "buddy cop",
-     "see": "A12-48 Action Comedy; A7 Action & Martial Arts",
+     "see": "A12-49 Action Comedy; A7 Action & Martial Arts",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Buddy_cop_film",
@@ -928,12 +944,12 @@
      ]
     },
     {
-     "code": "A12-48",
+     "code": "A12-49",
      "label": "Action Comedy",
      "breadth": "broad",
-     "defn": "A comedy whose set pieces are action — chases, fights, shoot-outs, martial arts or sci-fi spectacle — played for laughs (<i>Armour of God</i>, <i>Men in Black</i>, <i>The Hitman's Bodyguard</i>, <i>The Lost City</i>). Cop pairs go to A12-47 Buddy Cop Film; spies to A12-49 Spy Comedy.",
+     "defn": "A comedy whose set pieces are action — chases, fights, shoot-outs, martial arts or sci-fi spectacle — played for laughs (<i>Armour of God</i>, <i>Men in Black</i>, <i>The Hitman's Bodyguard</i>, <i>The Lost City</i>). Cop pairs go to A12-48 Buddy Cop Film; spies to A12-50 Spy Comedy.",
      "aliases": "action comedy",
-     "see": "A12-47 Buddy Cop Film; A12-49 Spy Comedy; A7 Action & Martial Arts",
+     "see": "A12-48 Buddy Cop Film; A12-50 Spy Comedy; A7 Action & Martial Arts",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Action_comedy",
@@ -949,12 +965,12 @@
      ]
     },
     {
-     "code": "A12-49",
+     "code": "A12-50",
      "label": "Spy Comedy",
      "breadth": "medium",
      "defn": "A comedy built on espionage, either spoofing the spy genre or using spy action for comedy (<i>Austin Powers</i>, <i>OSS 117</i>, <i>Johnny English</i>, <i>Charlie's Angels</i>, <i>The Spy Who Dumped Me</i>).",
      "aliases": "spy spoof; spy parody",
-     "see": "A12-22 Parody & Spoof; A12-48 Action Comedy; A3 Thriller & Mystery",
+     "see": "A12-23 Parody & Spoof; A12-49 Action Comedy; A3 Thriller & Mystery",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Spy_comedy",
@@ -972,12 +988,12 @@
      ]
     },
     {
-     "code": "A12-50",
+     "code": "A12-51",
      "label": "Coming-of-Age Comedy-Drama",
      "breadth": "broad",
-     "defn": "A comedy-drama about growing up, from childhood through the first steps of adulthood (<i>Amarcord</i>, <i>Juno</i>, <i>Frances Ha</i>, <i>Boy</i>, <i>Ghost World</i>). Purely comic teen films go to A12-36 Teen Comedy.",
+     "defn": "A comedy-drama about growing up, from childhood through the first steps of adulthood (<i>Amarcord</i>, <i>Juno</i>, <i>Frances Ha</i>, <i>Boy</i>, <i>Ghost World</i>). Purely comic teen films go to A12-37 Teen Comedy.",
      "aliases": "coming-of-age dramedy; quarter-life comedy",
-     "see": "A12-36 Teen Comedy; A16 Drama",
+     "see": "A12-37 Teen Comedy; A16 Drama",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Coming-of-age_story",
@@ -996,12 +1012,12 @@
      ]
     },
     {
-     "code": "A12-51",
+     "code": "A12-52",
      "label": "Family Comedy-Drama",
      "breadth": "broad",
-     "defn": "A comedy-drama of a family's tensions and attachments, usually dysfunctional (<i>The Royal Tenenbaums</i>, <i>Parenthood</i>, <i>The Farewell</i>, <i>This Is Where I Leave You</i>). Comic family chaos goes to A12-34 Family Comedy.",
+     "defn": "A comedy-drama of a family's tensions and attachments, usually dysfunctional (<i>The Royal Tenenbaums</i>, <i>Parenthood</i>, <i>The Farewell</i>, <i>This Is Where I Leave You</i>). Comic family chaos goes to A12-35 Family Comedy.",
      "aliases": "family dramedy; dysfunctional-family comedy",
-     "see": "A12-34 Family Comedy; A16 Drama",
+     "see": "A12-35 Family Comedy; A16 Drama",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Comedy-drama",
@@ -1021,7 +1037,7 @@
      ]
     },
     {
-     "code": "A12-52",
+     "code": "A12-53",
      "label": "Marital Comedy-Drama",
      "breadth": "narrow",
      "defn": "A comedy-drama of a marriage under strain — affairs, divorce, therapy, the long haul (<i>Bob & Carol & Ted & Alice</i>, <i>Heartburn</i>, <i>This Is 40</i>, <i>Hope Springs</i>). Courtship goes to A13; remarriage plots to A12-5 Comedy of Remarriage.",
@@ -1035,12 +1051,12 @@
      ]
     },
     {
-     "code": "A12-53",
+     "code": "A12-54",
      "label": "Midlife Crisis Comedy",
      "breadth": "medium",
      "defn": "A comedy or comedy-drama about middle and later life: the midlife crisis, retirement, ageing and late awakening (<i>City Slickers</i>, <i>Sideways</i>, <i>About Schmidt</i>, <i>Grumpy Old Men</i>, <i>The Best Exotic Marigold Hotel</i>).",
      "aliases": "midlife comedy; senior comedy",
-     "see": "A12-52 Marital Comedy-Drama; A12-54 Tragicomedy",
+     "see": "A12-53 Marital Comedy-Drama; A12-55 Tragicomedy",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Midlife_crisis",
@@ -1058,7 +1074,7 @@
      ]
     },
     {
-     "code": "A12-54",
+     "code": "A12-55",
      "label": "Tragicomedy",
      "breadth": "medium",
      "defn": "A comedy-drama facing illness, grief, addiction or death, whose humour coexists with real loss (<i>Steel Magnolias</i>, <i>50/50</i>, <i>The Barbarian Invasions</i>, <i>The Bucket List</i>).",
@@ -1072,12 +1088,12 @@
      ]
     },
     {
-     "code": "A12-55",
+     "code": "A12-56",
      "label": "Ensemble Comedy-Drama",
      "breadth": "medium",
      "defn": "A comedy-drama of a group of friends or a community whose interlocking stories carry the film, including the reunion film and the community underdog comedy (<i>The Big Chill</i>, <i>Diner</i>, <i>Short Cuts</i>, <i>The Full Monty</i>, <i>Calendar Girls</i>).",
      "aliases": "reunion film; feel-good community comedy",
-     "see": "A12-29 Buddy Comedy; A12-56 Slice-of-Life",
+     "see": "A12-30 Buddy Comedy; A12-57 Slice-of-Life",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Ensemble_film",
@@ -1095,12 +1111,12 @@
      ]
     },
     {
-     "code": "A12-56",
+     "code": "A12-57",
      "label": "Slice-of-Life Comedy-Drama",
      "breadth": "medium",
      "defn": "A gently comic comedy-drama observing everyday life in a neighbourhood, town or creative milieu, with little plot engine (<i>Marius</i>, <i>Smoke</i>, <i>Happy-Go-Lucky</i>, <i>Cutting It Short</i>, <i>The Horse's Mouth</i>).",
      "aliases": "slice of life; village comedy",
-     "see": "A12-55 Ensemble Comedy-Drama; A16 Drama",
+     "see": "A12-56 Ensemble Comedy-Drama; A16 Drama",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Slice_of_life",
@@ -1115,12 +1131,12 @@
      ]
     },
     {
-     "code": "A12-57",
+     "code": "A12-58",
      "label": "LGBTQ Comedy",
      "breadth": "narrow",
      "defn": "A comedy or comedy-drama whose premise is queer identity — coming out, drag, queer family or a gay wedding (<i>The Wedding Banquet</i>, <i>But I'm a Cheerleader</i>, <i>Breakfast on Pluto</i>, <i>Loose Cannons</i>). Cross-dressing as disguise goes to A12-7 Farce.",
      "aliases": "queer comedy; coming-out comedy",
-     "see": "A12-7 Farce; A12-50 Coming-of-Age Comedy-Drama",
+     "see": "A12-7 Farce; A12-51 Coming-of-Age Comedy-Drama",
      "src": [
       [
        "https://en.wikipedia.org/wiki/Queer_cinema",

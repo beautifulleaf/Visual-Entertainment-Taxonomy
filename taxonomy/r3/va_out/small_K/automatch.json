@@ -1,0 +1,1796 @@
+{
+"K1-1": {
+"label": "Umayyad Architecture",
+"W": [
+"Umayyad architecture",
+"Umayyad art"
+],
+"N": [
+"Early Islamic (Umayyad / Abbasid / Tulunid)"
+]
+},
+"K1-2": {
+"label": "Abbasid Architecture",
+"W": [
+"Abbasid architecture"
+],
+"N": [
+"Early Islamic (Umayyad / Abbasid / Tulunid)",
+"Early Islamic Maghreb (Aghlabid / Idrisid / Zirid)"
+]
+},
+"K1-3": {
+"label": "Fatimid Architecture",
+"W": [
+"Fatimid architecture"
+],
+"N": [
+"Fatimid"
+]
+},
+"K1-4": {
+"label": "Moorish Architecture",
+"W": [
+"Moorish architecture",
+"Art of Al-Andalus",
+"Nasrid architecture",
+"Moorish style",
+"art of the Umayyads of Cordoba",
+"art of Almoravides and Almohades",
+"Taifa art",
+"Almohad architecture",
+"Marinid architecture"
+],
+"N": [
+"Early Islamic Maghreb (Aghlabid / Idrisid / Zirid)",
+"Marinid / Zayyanid / Hafsid",
+"Almoravid / Almohad",
+"Alaouite",
+"Saadian"
+]
+},
+"K1-5": {
+"label": "Mudéjar Architecture",
+"W": [
+"Mudéjar architecture",
+"Mudéjar style",
+"Mudéjar architecture of Aragon"
+],
+"N": []
+},
+"K1-6": {
+"label": "Seljuk Architecture",
+"W": [
+"Seljuk architecture",
+"Razi style",
+"Khwarazmian architecture"
+],
+"N": [
+"Persian — Seljuk / Khwarazmian",
+"Azerbaijani (Shirvan–Absheron)",
+"Persian — early Islamic (Samanid / Buyid / Ghaznavid)"
+]
+},
+"K1-7": {
+"label": "Anatolian Seljuk Architecture",
+"W": [
+"Anatolian Seljuk architecture"
+],
+"N": [
+"Anatolian Seljuk / Beylik"
+]
+},
+"K1-8": {
+"label": "Mamluk Architecture",
+"W": [
+"Mamluk architecture",
+"Ayyubid architecture"
+],
+"N": [
+"Mamluk",
+"Ayyubid"
+]
+},
+"K1-9": {
+"label": "Ilkhanid Architecture",
+"W": [
+"Ilkhanid architecture",
+"Azari style"
+],
+"N": [
+"Iraqi Islamic (Ilkhanid / Jalayirid)",
+"Persian — Ilkhanid / Muzaffarid"
+]
+},
+"K1-10": {
+"label": "Timurid Architecture",
+"W": [
+"Timurid architecture",
+"Timurid art"
+],
+"N": [
+"Timurid",
+"Central Asian — Shaybanid / khanates (Bukhara, Khiva, Kokand)"
+]
+},
+"K1-11": {
+"label": "Safavid Architecture",
+"W": [
+"Safavid architecture",
+"Isfahani style"
+],
+"N": [
+"Persian — Safavid"
+]
+},
+"K1-12": {
+"label": "Ottoman Architecture",
+"W": [
+"Ottoman architecture",
+"Ottoman Baroque",
+"Ottoman architecture in Egypt"
+],
+"N": [
+"Ottoman",
+"Ottoman (Arab provinces)"
+]
+},
+"K1-13": {
+"label": "Qajar Architecture",
+"W": [
+"Qajar architecture",
+"Zand architecture",
+"Afsharid architecture"
+],
+"N": [
+"Persian — Qajar"
+]
+},
+"K1-14": {
+"label": "Indo-Islamic Architecture",
+"W": [
+"Indo-Islamic architecture",
+"Tughlaq architecture style"
+],
+"N": [
+"Indo-Islamic (Delhi Sultanate)",
+"Gujarat Sultanate",
+"Deccan Sultanates (Bahmani / Qutb Shahi / Adil Shahi)",
+"Bengal Sultanate"
+]
+},
+"K1-15": {
+"label": "Mughal Architecture",
+"W": [
+"Mughal architecture"
+],
+"N": [
+"Mughal"
+]
+},
+"K1-16": {
+"label": "Sudano-Sahelian Architecture",
+"W": [
+"Sudano-Sahelian architecture"
+],
+"N": [
+"Sudano-Sahelian",
+"Ethiopian Islamic (Harar)",
+"Sudano-Sahelian (urban sites)"
+]
+},
+"K1-17": {
+"label": "Swahili Architecture",
+"W": [
+"Swahili architecture"
+],
+"N": [
+"Swahili coast (coral stone)"
+]
+},
+"K1-18": {
+"label": "Chinese Islamic Architecture",
+"W": [],
+"N": [
+"Chinese Islamic"
+]
+},
+"K1-19": {
+"label": "Javanese Mosque Architecture",
+"W": [
+"Mosque architecture in Indonesia"
+],
+"N": [
+"Javanese / Malay mosque (tajug)"
+]
+},
+"K2-1": {
+"label": "Moorish Revival Architecture",
+"W": [
+"Moorish Revival architecture",
+"Heliopolis style"
+],
+"N": []
+},
+"K2-2": {
+"label": "Neo-Mudéjar",
+"W": [
+"neo-Mudéjar"
+],
+"N": []
+},
+"K2-3": {
+"label": "Neo-Mamluk Architecture",
+"W": [
+"Neo-Mamluk architecture"
+],
+"N": []
+},
+"K2-4": {
+"label": "First National Architectural Movement",
+"W": [
+"First national architectural movement"
+],
+"N": []
+},
+"K2-5": {
+"label": "Indo-Saracenic Architecture",
+"W": [
+"Indo-Saracenic architecture"
+],
+"N": []
+},
+"K2-7": {
+"label": "Tudor Revival Architecture",
+"W": [
+"Tudor Revival architecture",
+"Jacobethan",
+"English Cottage architecture"
+],
+"N": []
+},
+"K2-8": {
+"label": "Romanesque Revival Architecture",
+"W": [
+"Romanesque Revival architecture",
+"Norman Revival architecture",
+"Rundbogenstil",
+"Bristol Byzantine",
+"Richardsonian Romanesque"
+],
+"N": []
+},
+"K2-9": {
+"label": "Neo-Byzantine Architecture",
+"W": [
+"Byzantine Revival architecture",
+"Serbo-Byzantine style (modern architecture)",
+"Neo-Byzantine architecture in the Russian Empire"
+],
+"N": []
+},
+"K2-11": {
+"label": "Italianate Architecture",
+"W": [
+"Italianate architecture"
+],
+"N": []
+},
+"K2-12": {
+"label": "Second Empire Style",
+"W": [
+"Second Empire style",
+"Second Empire architecture in the United States and Canada",
+"Second Empire architecture in Europe",
+"Haussmannian architecture"
+],
+"N": []
+},
+"K2-13": {
+"label": "Baroque Revival Architecture",
+"W": [
+"Rococo Revival architecture",
+"Edwardian architecture",
+"baroque revival",
+"Rococo Revival"
+],
+"N": []
+},
+"K2-14": {
+"label": "Greek Revival Architecture",
+"W": [
+"Greek Revival architecture",
+"neo-pompeian style",
+"Antebellum architecture",
+"Neo-Grec"
+],
+"N": []
+},
+"K2-15": {
+"label": "Egyptian Revival Architecture",
+"W": [
+"Egyptian Revival architecture"
+],
+"N": []
+},
+"K2-16": {
+"label": "Beaux-Arts Architecture",
+"W": [
+"Beaux-Arts",
+"City Beautiful movement",
+"American Renaissance"
+],
+"N": []
+},
+"K2-18": {
+"label": "Victorian Architecture",
+"W": [
+"Victorian architecture",
+"Gingerbread house",
+"Stick style",
+"Folk Victorian",
+"Late Victorian Plain",
+"Victorian Free Classical"
+],
+"N": []
+},
+"K2-19": {
+"label": "Queen Anne Style Architecture",
+"W": [
+"Queen Anne style architecture in the United States",
+"Queen Anne Revival architecture",
+"Eastlake üslubu",
+"Queen Anne style",
+"Eastlake Movement"
+],
+"N": []
+},
+"K2-20": {
+"label": "Shingle Style Architecture",
+"W": [
+"Shingle style architecture"
+],
+"N": []
+},
+"K2-21": {
+"label": "Colonial Revival Architecture",
+"W": [
+"Colonial Revival architecture",
+"Dutch Colonial Revival architecture",
+"Georgian Revival architecture"
+],
+"N": []
+},
+"K2-22": {
+"label": "Spanish Colonial Revival Architecture",
+"W": [
+"Spanish Colonial Revival architecture",
+"Mediterranean Revival architecture",
+"Spanish Eclectic architecture"
+],
+"N": []
+},
+"K2-23": {
+"label": "Mission Revival Architecture",
+"W": [
+"Mission Revival architecture"
+],
+"N": []
+},
+"K2-24": {
+"label": "Pueblo Revival Architecture",
+"W": [
+"Pueblo Revival Style architecture",
+"Territorial architecture",
+"Pueblo Deco architecture",
+"Territorial Revival architecture"
+],
+"N": []
+},
+"K2-25": {
+"label": "Mayan Revival Architecture",
+"W": [
+"Mayan Revival architecture"
+],
+"N": []
+},
+"K2-26": {
+"label": "Neo-Manueline",
+"W": [
+"Neo-Manueline"
+],
+"N": []
+},
+"K2-27": {
+"label": "Russian Revival Architecture",
+"W": [
+"Russian Revival architecture",
+"brick style",
+"Russian-Byzantine architecture"
+],
+"N": []
+},
+"K2-28": {
+"label": "Russian Neoclassical Revival",
+"W": [
+"Russian Neoclassical Revival",
+"Retrospectivist architecture"
+],
+"N": []
+},
+"K2-29": {
+"label": "Romanian Revival Architecture",
+"W": [
+"Romanian Revival architecture"
+],
+"N": []
+},
+"K2-30": {
+"label": "National Romantic Style",
+"W": [
+"national Romantic style",
+"romantic nationalism",
+"dragestil",
+"Northern modern",
+"national style",
+"styl dworkowy"
+],
+"N": []
+},
+"K2-31": {
+"label": "Zakopane Style",
+"W": [
+"Zakopane Style architecture"
+],
+"N": []
+},
+"K2-32": {
+"label": "Swiss Chalet Style",
+"W": [
+"Swiss chalet style"
+],
+"N": []
+},
+"K2-33": {
+"label": "Federation Architecture",
+"W": [
+"Federation architecture"
+],
+"N": []
+},
+"K2-34": {
+"label": "Rustic Architecture",
+"W": [
+"rustic architecture",
+"National Park Service rustic",
+"Adirondack Architecture",
+"WPA Rustic",
+"Forest Service rustic"
+],
+"N": []
+},
+"K3-1": {
+"label": "Ancient Egyptian Architecture",
+"W": [
+"ancient Egyptian architecture"
+],
+"N": []
+},
+"K3-2": {
+"label": "Architecture of Mesopotamia",
+"W": [
+"Elamite architecture"
+],
+"N": []
+},
+"K3-3": {
+"label": "Achaemenid Architecture",
+"W": [
+"Achaemenid architecture",
+"Median architecture"
+],
+"N": []
+},
+"K3-4": {
+"label": "Parthian Architecture",
+"W": [
+"Parthian architecture"
+],
+"N": []
+},
+"K3-5": {
+"label": "Sasanian Architecture",
+"W": [
+"Sasanian architecture"
+],
+"N": []
+},
+"K3-6": {
+"label": "Minoan Architecture",
+"W": [],
+"N": []
+},
+"K3-7": {
+"label": "Mycenaean Architecture",
+"W": [
+"Cyclopean masonry"
+],
+"N": []
+},
+"K3-8": {
+"label": "Ancient Greek Architecture",
+"W": [
+"ancient Greek architecture",
+"Ionic order",
+"Doric order",
+"Corinthian order",
+"peripteral",
+"amphiprostyle",
+"tetrastyle",
+"Hellenistic architecture"
+],
+"N": []
+},
+"K3-9": {
+"label": "Etruscan Architecture",
+"W": [
+"Etruscan architecture"
+],
+"N": []
+},
+"K3-10": {
+"label": "Ancient Roman Architecture",
+"W": [
+"ancient Roman architecture",
+"Tuscan order",
+"Composite order",
+"tetrapylon"
+],
+"N": []
+},
+"K3-11": {
+"label": "Nabataean Architecture",
+"W": [],
+"N": []
+},
+"K4-1": {
+"label": "Early Christian Architecture",
+"W": [
+"Early Christian architecture",
+"early Christian art"
+],
+"N": []
+},
+"K4-2": {
+"label": "Byzantine Architecture",
+"W": [
+"Byzantine architecture",
+"Byzantine art",
+"cross-in-square"
+],
+"N": []
+},
+"K4-3": {
+"label": "Serbo-Byzantine Architecture",
+"W": [
+"Serbo-Byzantine architecture",
+"Rascian architecture",
+"Morava architectural school"
+],
+"N": []
+},
+"K4-4": {
+"label": "Architecture of Kievan Rus'",
+"W": [
+"Architecture of Kievan Rus'",
+"architectural school of Hrodna",
+"Vladimir-Suzdal school (art)",
+"Pskov architectural style",
+"Architectural school of Polock",
+"Russian Romanesque"
+],
+"N": []
+},
+"K4-5": {
+"label": "Armenian Architecture",
+"W": [
+"Armenian architecture",
+"Armenian church architecture"
+],
+"N": []
+},
+"K4-6": {
+"label": "Architecture of Georgia",
+"W": [
+"architecture of Georgia"
+],
+"N": []
+},
+"K4-7": {
+"label": "Pre-Romanesque Architecture",
+"W": [
+"Pre-Romanesque architecture",
+"pre-Romanesque art",
+"Anglo-Saxon art",
+"Mozarabic art",
+"Visigothic art",
+"Merovingian art",
+"Anglo-Saxon architecture",
+"Asturian architecture",
+"Lombard architecture",
+"Repoblación art and architecture",
+"Visigothic architecture",
+"Mozarabic architecture"
+],
+"N": []
+},
+"K4-8": {
+"label": "Carolingian Architecture",
+"W": [
+"Carolingian architecture"
+],
+"N": []
+},
+"K4-9": {
+"label": "Ottonian Architecture",
+"W": [
+"Ottonian architecture",
+"Ottonian art"
+],
+"N": []
+},
+"K4-10": {
+"label": "Romanesque Architecture",
+"W": [
+"Romanesque architecture",
+"Romanesque art",
+"Norman architecture",
+"Proto-Renaissance",
+"First Romanesque",
+"Cistercian architecture",
+"romanesque arte in Pisa",
+"Romanesque architecture in Sardinia",
+"Romanesque art in Catalonia",
+"Romanesque art in Apulia",
+"Brick Romanesque Architecture",
+"Romanesque art of Provence"
+],
+"N": []
+},
+"K4-11": {
+"label": "Arab-Norman Architecture",
+"W": [
+"Norman-Arab-Byzantine culture",
+"Norman architecture of Sicily"
+],
+"N": []
+},
+"K4-12": {
+"label": "Moldavian Style",
+"W": [],
+"N": []
+},
+"K5-1": {
+"label": "Tudor Architecture",
+"W": [
+"Tudor architecture",
+"Elizabethan architecture"
+],
+"N": []
+},
+"K5-2": {
+"label": "Plateresque",
+"W": [
+"Plateresque"
+],
+"N": []
+},
+"K5-3": {
+"label": "Manueline",
+"W": [
+"Manueline"
+],
+"N": []
+},
+"K5-4": {
+"label": "Herrerian Style",
+"W": [
+"Herrerian"
+],
+"N": []
+},
+"K5-5": {
+"label": "Churrigueresque",
+"W": [
+"Churrigueresque"
+],
+"N": []
+},
+"K5-6": {
+"label": "Rococo Architecture",
+"W": [
+"Rococo architecture",
+"Rococo",
+"Louis Quinze",
+"chinoiserie",
+"Frederician Rococo",
+"Regence style"
+],
+"N": []
+},
+"K5-7": {
+"label": "Uzorochye",
+"W": [
+"Uzorochye",
+"tented-roof church",
+"Yaroslavl school"
+],
+"N": []
+},
+"K5-8": {
+"label": "Brâncovenesc Style",
+"W": [
+"Brâncovenesc style",
+"Brâncovenesc art"
+],
+"N": []
+},
+"K5-9": {
+"label": "Palladian Architecture",
+"W": [
+"Palladian architecture",
+"Jeffersonian architecture"
+],
+"N": []
+},
+"K5-10": {
+"label": "Georgian Architecture",
+"W": [
+"Georgian architecture",
+"Regency architecture"
+],
+"N": []
+},
+"K5-11": {
+"label": "Empire Style",
+"W": [
+"Empire style",
+"Russian Empire style"
+],
+"N": []
+},
+"K5-12": {
+"label": "Federal Architecture",
+"W": [
+"Federal architecture"
+],
+"N": []
+},
+"K5-13": {
+"label": "Pombaline Style",
+"W": [
+"Pombaline style"
+],
+"N": []
+},
+"K5-14": {
+"label": "Architecture of the Bulgarian Revival",
+"W": [
+"Bulgarian National Revival",
+"The Architecture of the Bulgarian Revival",
+"Жеравненска къща"
+],
+"N": []
+},
+"K5-15": {
+"label": "American Colonial Architecture",
+"W": [
+"American colonial architecture",
+"saltbox",
+"Cape Cod",
+"First Period",
+"Tidewater architecture"
+],
+"N": []
+},
+"K5-16": {
+"label": "Spanish Colonial Architecture",
+"W": [
+"Spanish Colonial architecture",
+"Spanish Colonial style",
+"Hispanic baroque",
+"New Spanish Baroque",
+"Monterey Colonial architecture",
+"Earthquake Baroque"
+],
+"N": []
+},
+"K5-17": {
+"label": "Andean Baroque",
+"W": [
+"Andean Baroque"
+],
+"N": []
+},
+"K5-18": {
+"label": "Portuguese Colonial Architecture",
+"W": [
+"Portuguese colonial architecture",
+"colonial architecture of Brazil",
+"Brazilian baroque"
+],
+"N": []
+},
+"K5-19": {
+"label": "French Colonial Architecture",
+"W": [
+"French Colonial",
+"Creole case",
+"Creole architecture in the United States"
+],
+"N": []
+},
+"K5-20": {
+"label": "Dutch Colonial Architecture",
+"W": [
+"Dutch colonial architecture"
+],
+"N": []
+},
+"K5-21": {
+"label": "Cape Dutch Architecture",
+"W": [
+"Cape Dutch architecture"
+],
+"N": []
+},
+"K6-1": {
+"label": "Arts and Crafts Architecture",
+"W": [
+"Arts and Crafts movement",
+"cottage style",
+"cottage",
+"English mansion style in the Netherlands",
+"American Craftsman",
+"California bungalow"
+],
+"N": []
+},
+"K6-2": {
+"label": "Chicago School",
+"W": [
+"Chicago School"
+],
+"N": []
+},
+"K6-3": {
+"label": "Prairie School",
+"W": [
+"Prairie School architecture"
+],
+"N": []
+},
+"K6-4": {
+"label": "Czech Cubism",
+"W": [
+"cubism",
+"Rondocubism"
+],
+"N": []
+},
+"K6-5": {
+"label": "Expressionist Architecture",
+"W": [
+"expressionist architecture",
+"Expressionism",
+"Amsterdam School",
+"Brick Expressionism",
+"Dudok-trant",
+"dombellotisme"
+],
+"N": []
+},
+"K6-6": {
+"label": "Futurist Architecture",
+"W": [
+"futurist architecture",
+"Googie",
+"neo-futurism"
+],
+"N": []
+},
+"K6-7": {
+"label": "Art Deco Architecture",
+"W": [
+"Art Deco architecture",
+"Art Deco",
+"Moderne architecture",
+"Streamline Moderne architecture",
+"Streamline Moderne",
+"PWA Moderne"
+],
+"N": []
+},
+"K6-8": {
+"label": "Bauhaus Architecture",
+"W": [
+"Bauhaus"
+],
+"N": []
+},
+"K6-9": {
+"label": "International Style",
+"W": [
+"International Style"
+],
+"N": []
+},
+"K6-10": {
+"label": "Constructivist Architecture",
+"W": [
+"constructivist architecture",
+"Constructivism"
+],
+"N": []
+},
+"K6-11": {
+"label": "Reform Architecture",
+"W": [
+"Reform Architecture",
+"Heimatschutz architecture",
+"Heimatstil",
+"Um 1800",
+"Gruppenbau"
+],
+"N": []
+},
+"K6-12": {
+"label": "Traditionalist School",
+"W": [
+"Traditionalist School",
+"Bossche School",
+"Delftse School"
+],
+"N": []
+},
+"K6-13": {
+"label": "Nordic Classicism",
+"W": [
+"Nordic Classicism"
+],
+"N": []
+},
+"K6-14": {
+"label": "Stripped Classicism",
+"W": [
+"Stripped Classicism"
+],
+"N": []
+},
+"K6-16": {
+"label": "Fascist Architecture",
+"W": [
+"Stile Littorio",
+"architecture of the Fascist period",
+"Novecento Italiano",
+"monumentalism in architecture"
+],
+"N": []
+},
+"K6-17": {
+"label": "Nazi Architecture",
+"W": [
+"Nazi architecture"
+],
+"N": []
+},
+"K6-18": {
+"label": "Mid-Century Modern Architecture",
+"W": [
+"mid-century modern",
+"Sarasota School of Architecture",
+"Northwest Regional style",
+"Miami Modern architecture"
+],
+"N": []
+},
+"K6-19": {
+"label": "High-tech Architecture",
+"W": [
+"high-tech architecture"
+],
+"N": []
+},
+"K6-20": {
+"label": "New Classical Architecture",
+"W": [
+"New Classical architecture",
+"Neoclassicalism",
+"Neo-Historism"
+],
+"N": []
+},
+"K6-23": {
+"label": "Brutalist Architecture",
+"W": [
+"brutalist architecture"
+],
+"N": []
+},
+"K6-24": {
+"label": "Postmodern Architecture",
+"W": [
+"postmodern architecture",
+"Postmodernism",
+"New Urbanism"
+],
+"N": []
+},
+"K6-25": {
+"label": "Deconstructivism",
+"W": [
+"deconstructivism"
+],
+"N": []
+},
+"K7-1": {
+"label": "Nagara Architecture",
+"W": [],
+"N": [
+"Nagara — central / north India",
+"Nagara — Bhumija / Hemadpanti (Deccan)",
+"Nagara — Himalayan (Himachal / Uttarakhand)",
+"Assamese / Ahom temple",
+"Kashmiri (Karkota / Utpala)",
+"Nagara — Chandela (Khajuraho)"
+]
+},
+"K7-2": {
+"label": "Kalinga Architecture",
+"W": [
+"Kalinga architecture",
+"Deul"
+],
+"N": [
+"Nagara — Kalinga (Odisha)"
+]
+},
+"K7-3": {
+"label": "Maru-Gurjara Architecture",
+"W": [
+"Māru-Gurjara architecture"
+],
+"N": [
+"Nagara — Maru-Gurjara"
+]
+},
+"K7-4": {
+"label": "Dravidian Architecture",
+"W": [
+"Dravidian architecture",
+"Tamil architecture",
+"Kakatiya architecture"
+],
+"N": [
+"Dravidian (undated)",
+"Sri Lankan Dravidian (kovil)",
+"Dravidian — Vijayanagara",
+"Dravidian — Pallava",
+"Dravidian — Chola",
+"Kakatiya"
+]
+},
+"K7-5": {
+"label": "Vesara",
+"W": [
+"Hoysala architecture",
+"Badami Chalukya architecture"
+],
+"N": [
+"Hoysala",
+"Western Chalukya (Kalyani)",
+"Badami Chalukya"
+]
+},
+"K7-6": {
+"label": "Kerala Architecture",
+"W": [
+"architecture of Kerala"
+],
+"N": [
+"Kerala temple architecture"
+]
+},
+"K7-7": {
+"label": "Bengal Temple Architecture",
+"W": [
+"Do-chala",
+"Char-chala",
+"At-chala",
+"Ek-ratna",
+"Pancharatna",
+"Jor-bangla",
+"Navaratna",
+"Panchabimsati-ratna",
+"dalan"
+],
+"N": [
+"Bengal temple (chala / ratna, terracotta)"
+]
+},
+"K7-8": {
+"label": "Buddhist Architecture",
+"W": [
+"Buddhist architecture"
+],
+"N": [
+"Early Buddhist (Maurya – Gupta – Pala)",
+"Gandharan Buddhist"
+]
+},
+"K7-9": {
+"label": "Indian Rock-cut Architecture",
+"W": [
+"rock-cut architecture in India"
+],
+"N": [
+"Indian rock-cut (caves)"
+]
+},
+"K7-10": {
+"label": "Sinhalese Architecture",
+"W": [],
+"N": [
+"Sinhalese Buddhist (other)",
+"Sinhalese — Kandyan",
+"Sinhalese — Anuradhapura",
+"Sinhalese — Polonnaruwa"
+]
+},
+"K7-11": {
+"label": "Newar Architecture",
+"W": [
+"Newa architecture"
+],
+"N": [
+"Newar (Kathmandu valley)"
+]
+},
+"K7-12": {
+"label": "Tibetan Buddhist Architecture",
+"W": [
+"Tibetan Buddhist architecture"
+],
+"N": [
+"Tibetan Buddhist"
+]
+},
+"K7-13": {
+"label": "Dzong Architecture",
+"W": [
+"dzong"
+],
+"N": [
+"Bhutanese dzong"
+]
+},
+"K7-14": {
+"label": "Rajput Architecture",
+"W": [
+"Rajasthani architecture style"
+],
+"N": [
+"Deccan hill and sea forts (Maratha era)",
+"Rajput (forts and palaces)"
+]
+},
+"K7-15": {
+"label": "Stepwell",
+"W": [],
+"N": [
+"Stepwell (western India)"
+]
+},
+"K7-16": {
+"label": "Sikh Architecture",
+"W": [
+"Sikh architecture"
+],
+"N": []
+},
+"K7-17": {
+"label": "Harappan Architecture",
+"W": [],
+"N": [
+"Harappan (Indus)"
+]
+},
+"K7-18": {
+"label": "Haveli",
+"W": [],
+"N": []
+},
+"K7-19": {
+"label": "Kashmiri Houseboat",
+"W": [],
+"N": []
+},
+"K7-20": {
+"label": "Assam-type House",
+"W": [],
+"N": []
+},
+"K8-1": {
+"label": "Chinese Architecture",
+"W": [
+"Chinese architecture",
+"paifang",
+"Chinese Palaces"
+],
+"N": [
+"Chinese temple (undated)"
+]
+},
+"K8-2": {
+"label": "Siheyuan",
+"W": [
+"siheyuan",
+"sanheyuan"
+],
+"N": []
+},
+"K8-3": {
+"label": "Yaodong",
+"W": [],
+"N": []
+},
+"K8-4": {
+"label": "Hakka Walled Village",
+"W": [],
+"N": []
+},
+"K8-5": {
+"label": "Hui-style Architecture",
+"W": [
+"Hui-style architecture"
+],
+"N": []
+},
+"K8-6": {
+"label": "Lingnan Architecture",
+"W": [],
+"N": []
+},
+"K8-7": {
+"label": "Hokkien Architecture",
+"W": [],
+"N": [
+"Taiwanese (Minnan) temple"
+]
+},
+"K8-8": {
+"label": "Sichuanese Architecture",
+"W": [
+"Sichuanese architecture"
+],
+"N": []
+},
+"K8-9": {
+"label": "Shikumen",
+"W": [],
+"N": []
+},
+"K8-10": {
+"label": "Shinto Shrine Architecture",
+"W": [
+"nagare-zukuri",
+"Ishi-no-ma-zukuri",
+"Shinmei-zukuri",
+"Sumiyoshi-zukuri",
+"Taisha-zukuri",
+"Kasuga-zukuri",
+"Hachiman-zukuri",
+"Sengen-zukuri"
+],
+"N": [
+"Shinto shrine"
+]
+},
+"K8-11": {
+"label": "Japanese Buddhist Architecture",
+"W": [
+"Japanese Buddhist architecture",
+"azekura-zukuri",
+"rōmon",
+"Daibutsuyō",
+"さやと",
+"Setchūyō",
+"Wayō",
+"kakezukuri"
+],
+"N": [
+"Japanese Buddhist (undated)"
+]
+},
+"K8-12": {
+"label": "Shinden-zukuri",
+"W": [
+"Shinden-zukuri"
+],
+"N": []
+},
+"K8-13": {
+"label": "Shoin-zukuri",
+"W": [
+"shoin-zukuri"
+],
+"N": []
+},
+"K8-14": {
+"label": "Sukiya-zukuri",
+"W": [
+"sukiya-zukuri",
+"chashitsu",
+"modern Japanese-style architecture"
+],
+"N": []
+},
+"K8-15": {
+"label": "Minka",
+"W": [
+"minka",
+"machiya",
+"gasshō-zukuri",
+"magariya",
+"dozō"
+],
+"N": []
+},
+"K8-16": {
+"label": "Japanese Castle Architecture",
+"W": [
+"Japanese castle architecture"
+],
+"N": [
+"Japanese castle"
+]
+},
+"K8-17": {
+"label": "Kofun",
+"W": [
+"zenpō-kōen-fun",
+"square kofun",
+"round-topped burial mound",
+"octagonal kofun",
+"Zenpō-kōhō-fun",
+"scallop-shaped kofun"
+],
+"N": [
+"Kofun (mounded tombs)"
+]
+},
+"K8-18": {
+"label": "Ryukyuan Architecture",
+"W": [
+"Ryukyuan architecture",
+"hahubaka"
+],
+"N": []
+},
+"K8-19": {
+"label": "Giyōfū Architecture",
+"W": [
+"Giyōfū architecture",
+"Japanese-Western Eclectic Architecture"
+],
+"N": []
+},
+"K8-20": {
+"label": "Korean Architecture",
+"W": [
+"Korean architecture"
+],
+"N": [
+"Korean Buddhist (undated)"
+]
+},
+"K8-21": {
+"label": "Hanok",
+"W": [],
+"N": []
+},
+"K9-1": {
+"label": "Khmer Architecture",
+"W": [
+"Khmer architecture"
+],
+"N": [
+"Khmer (Angkorian)",
+"Khmer (Angkorian, provincial)",
+"Cambodian Buddhist (post-Angkor)",
+"Pre-Angkorian Khmer"
+]
+},
+"K9-2": {
+"label": "Candi Architecture",
+"W": [],
+"N": [
+"Javanese candi — Central Java (Mataram)",
+"Javanese candi (other)",
+"Javanese candi — East Java (Kediri / Singhasari / Majapahit)",
+"Sumatran candi (Srivijaya / Melayu)"
+]
+},
+"K9-3": {
+"label": "Balinese Architecture",
+"W": [
+"Balinese architecture"
+],
+"N": [
+"Balinese (pura)"
+]
+},
+"K9-4": {
+"label": "Javanese Traditional House",
+"W": [],
+"N": []
+},
+"K9-5": {
+"label": "Burmese Architecture",
+"W": [],
+"N": [
+"Burmese Buddhist (post-Pagan)",
+"Burmese — Pagan",
+"Arakanese (Mrauk U)"
+]
+},
+"K9-6": {
+"label": "Thai Architecture",
+"W": [
+"Thai architecture",
+"architecture of Thailand"
+],
+"N": [
+"Thai — Lanna",
+"Thai — Ayutthaya",
+"Thai — Sukhothai",
+"Thai — Rattanakosin"
+]
+},
+"K9-7": {
+"label": "Lao Architecture",
+"W": [],
+"N": [
+"Lao (Lan Xang / Luang Prabang)"
+]
+},
+"K9-8": {
+"label": "Cham Architecture",
+"W": [],
+"N": [
+"Cham"
+]
+},
+"K9-9": {
+"label": "Vietnamese Architecture",
+"W": [
+"Vietnamese architecture"
+],
+"N": [
+"Vietnamese Buddhist (Lý – Nguyễn)"
+]
+},
+"K9-10": {
+"label": "Batak Architecture",
+"W": [],
+"N": []
+},
+"K9-11": {
+"label": "Bahay Kubo",
+"W": [],
+"N": []
+},
+"K9-12": {
+"label": "Bahay na Bato",
+"W": [
+"bahay na bato"
+],
+"N": []
+},
+"K9-13": {
+"label": "Sino-Portuguese Architecture",
+"W": [
+"Sino-Portuguese architecture"
+],
+"N": []
+},
+"K9-14": {
+"label": "Malay Traditional House",
+"W": [],
+"N": []
+},
+"K10-1": {
+"label": "Aksumite Architecture",
+"W": [],
+"N": [
+"Aksumite"
+]
+},
+"K10-2": {
+"label": "Ethiopian Rock-hewn Churches",
+"W": [],
+"N": [
+"Ethiopian rock-hewn churches"
+]
+},
+"K10-3": {
+"label": "Gondarine Architecture",
+"W": [],
+"N": [
+"Gondarine (Ethiopia)"
+]
+},
+"K10-4": {
+"label": "Nubian Pyramids",
+"W": [],
+"N": [
+"Kushite (Napatan / Meroitic)"
+]
+},
+"K10-5": {
+"label": "Great Zimbabwe",
+"W": [],
+"N": [
+"Zimbabwe culture (dry-stone)"
+]
+},
+"K10-6": {
+"label": "Ksar",
+"W": [],
+"N": [
+"Maghrebi earthen (ksar / kasbah)",
+"Saharan stone (Mauritania ksour)"
+]
+},
+"K10-7": {
+"label": "Hausa Architecture",
+"W": [],
+"N": []
+},
+"K11-1": {
+"label": "Maya Architecture",
+"W": [
+"Maya architecture"
+],
+"N": [
+"Maya (unlocated)",
+"Maya — southern lowlands (Petén / Usumacinta / Belize)",
+"Maya — Puuc",
+"Maya — Río Bec",
+"Maya — Chenes"
+]
+},
+"K11-2": {
+"label": "Mesoamerican Architecture",
+"W": [
+"Mesoamerican architecture"
+],
+"N": [
+"Mesoamerican (central / western Mexico, unassigned)",
+"Zapotec / Mixtec (Oaxaca)",
+"Classic Veracruz / Totonac",
+"Teotihuacan",
+"Olmec",
+"Toltec"
+]
+},
+"K11-3": {
+"label": "Aztec Architecture",
+"W": [],
+"N": [
+"Aztec"
+]
+},
+"K11-4": {
+"label": "Inca Architecture",
+"W": [
+"Inca architecture"
+],
+"N": [
+"Inca"
+]
+},
+"K11-5": {
+"label": "Andean Architecture",
+"W": [],
+"N": [
+"Chavín",
+"Andean regional (Recuay, Lima, Sicán, ...)",
+"Chachapoya",
+"Moche",
+"Wari",
+"Chimú",
+"Caral / Norte Chico"
+]
+},
+"K11-6": {
+"label": "Ancestral Puebloan Architecture",
+"W": [
+"Pueblo architecture"
+],
+"N": [
+"Ancestral Puebloan"
+]
+},
+"K11-7": {
+"label": "Mound Builders",
+"W": [],
+"N": [
+"Mississippian / mound builders"
+]
+},
+"K12-1": {
+"label": "Wharenui",
+"W": [],
+"N": []
+},
+"K12-2": {
+"label": "Fale",
+"W": [],
+"N": []
+},
+"K12-3": {
+"label": "Maneaba",
+"W": [],
+"N": []
+},
+"K12-4": {
+"label": "Haus Tambaran",
+"W": [],
+"N": []
+},
+"K12-5": {
+"label": "Marae",
+"W": [],
+"N": [
+"Rapa Nui (ahu / moai)",
+"Tongan megalithic (langi / trilithon)"
+]
+},
+"K12-6": {
+"label": "Nan Madol",
+"W": [],
+"N": [
+"Nan Madol (Saudeleur megalithic)"
+]
+},
+"K12-7": {
+"label": "Chilotan Architecture",
+"W": [
+"Chilotan architecture"
+],
+"N": []
+},
+"K12-8": {
+"label": "British Vernacular Architecture",
+"W": [],
+"N": []
+},
+"K12-9": {
+"label": "German Vernacular Architecture",
+"W": [],
+"N": []
+},
+"K12-10": {
+"label": "Kulla",
+"W": [],
+"N": []
+},
+"K12-11": {
+"label": "Vainakh Tower Architecture",
+"W": [],
+"N": []
+},
+"K12-12": {
+"label": "Spanish Vernacular Architecture",
+"W": [],
+"N": []
+},
+"K12-13": {
+"label": "Italian Vernacular Architecture",
+"W": [],
+"N": []
+},
+"K12-14": {
+"label": "American Vernacular Architecture",
+"W": [],
+"N": []
+},
+"K12-15": {
+"label": "Nordic Log Architecture",
+"W": [],
+"N": []
+},
+"K12-16": {
+"label": "Swiss Farmhouse Architecture",
+"W": [],
+"N": []
+},
+"K12-17": {
+"label": "French Vernacular Architecture",
+"W": [],
+"N": []
+},
+"K12-18": {
+"label": "Cycladic Architecture",
+"W": [
+"Cycladic architecture"
+],
+"N": []
+},
+"K12-19": {
+"label": "Chattel House",
+"W": [],
+"N": []
+},
+"K12-20": {
+"label": "Queenslander",
+"W": [],
+"N": []
+},
+"K13-1": {
+"label": "Persian Garden",
+"W": [],
+"N": []
+},
+"K13-2": {
+"label": "Mughal Garden",
+"W": [],
+"N": []
+},
+"K13-3": {
+"label": "Chinese Garden",
+"W": [],
+"N": []
+},
+"K13-4": {
+"label": "Japanese Garden",
+"W": [],
+"N": []
+},
+"K13-5": {
+"label": "Italian Renaissance Garden",
+"W": [],
+"N": []
+},
+"K13-6": {
+"label": "French Formal Garden",
+"W": [],
+"N": []
+},
+"K13-7": {
+"label": "English Landscape Garden",
+"W": [],
+"N": []
+},
+"K14-1": {
+"label": "Bonsai",
+"W": [],
+"N": []
+},
+"K14-2": {
+"label": "Penjing",
+"W": [],
+"N": []
+},
+"K14-3": {
+"label": "Hòn Non Bộ",
+"W": [],
+"N": []
+},
+"K14-4": {
+"label": "Ikebana",
+"W": [],
+"N": []
+}
+}
