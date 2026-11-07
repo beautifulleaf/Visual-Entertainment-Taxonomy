@@ -1,0 +1,1212 @@
+{
+ "subs": [
+  {
+   "code": "A4",
+   "label": "Horror",
+   "axis": "Axis: by the source of fear: the dead and the damned, national schools of the supernatural, classic and natural monsters, science and the body, the mind, human killers, gore, then the forms (found footage, anthology) and comedy last.",
+   "leaves": [
+    {
+     "code": "A4-1",
+     "label": "Ghost Film",
+     "breadth": "broad",
+     "defn": "A horror film whose threat is the spirit of a dead person acting on the living, outside a single haunted dwelling (<i>The Phantom Carriage</i>, <i>The Sixth Sense</i>, <i>Mama</i>, <i>The Devil's Backbone</i>). A ghost bound to one house goes to the Haunted House Film; a Japanese onryō to J-Horror.",
+     "aliases": "ghost story",
+     "see": "A4-2 Haunted House Film; A4-9 J-Horror; A4-3 Curse Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Ghost_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by how the dead reach the living: literary apparition, vengeful spirit, the medium who sees them, the place they are bound to",
+     "secs": [
+      "Classic, Literary & Fairy-Tale Ghost Stories",
+      "Vengeful Spirits & Bogeys",
+      "Ghost-Seers, Mediums & Séances",
+      "Ghost Ships, Battlefields & Place-Bound Spirits"
+     ]
+    },
+    {
+     "code": "A4-2",
+     "label": "Haunted House Film",
+     "breadth": "medium",
+     "defn": "A horror film whose threat is a dwelling or building itself, haunted by presences that menace whoever lives in or visits it (<i>The Haunting</i>, <i>Poltergeist</i>, <i>The Conjuring</i>, <i>The Shining</i>). A house haunted by a single cursed Japanese spirit goes to A4-9 J-Horror.",
+     "aliases": "haunted house movie, poltergeist film",
+     "see": "A4-1 Ghost Film; A4-4 Possession & Exorcism Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Haunted_house",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by who confronts the house: literary classic, besieged family, professional investigators, the institution, the grieving modern household",
+     "secs": [
+      "Classic Haunted House Films",
+      "Family Hauntings & Poltergeists",
+      "Paranormal Investigators & Demonologists",
+      "Haunted Hotels, Schools & Institutions",
+      "Grief, Guilt & Social Hauntings"
+     ]
+    },
+    {
+     "code": "A4-3",
+     "label": "Curse Film",
+     "breadth": "medium",
+     "defn": "A horror film whose engine is a curse or rule-bound supernatural pursuit that is laid, summoned or passed on, so that knowing the rules is survival (<i>It Follows</i>, <i>Candyman</i>, <i>Ouija</i>, <i>Final Destination</i>). The Japanese curse cycle (<i>Ringu</i>) goes to A4-9 J-Horror.",
+     "aliases": "urban-legend horror, viral curse film",
+     "see": "A4-9 J-Horror; A4-1 Ghost Film; A4-20 Killer Toy Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Curse",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Urban_legend",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by how the curse is caught: laid and passed on, summoned by saying or believing a legend, carried by an object or game, death's own design",
+     "secs": [
+      "Curses Laid & Passed On",
+      "Urban Legends & Summoned Entities",
+      "Cursed Objects, Games & Apps",
+      "Death's-Design Films"
+     ]
+    },
+    {
+     "code": "A4-4",
+     "label": "Possession & Exorcism Film",
+     "breadth": "medium",
+     "defn": "A horror film whose threat is a demon or spirit inhabiting a human body, usually met by an exorcism (<i>The Exorcist III</i>, <i>The Rite</i>, <i>The Possession</i>, <i>Under the Shadow</i>). A demon that besieges a house rather than a body goes to A4-2 or A4-5.",
+     "aliases": "exorcism film",
+     "see": "A4-5 Satanic Film; A4-6 Religious Horror",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Demonic_possession",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the rite and tradition: the Exorcist cycle, Catholic exorcist procedurals, the possessed child or woman at home, jinn, dybbuk and other non-Christian possession",
+     "secs": [
+      "The Exorcist Cycle",
+      "Exorcist Procedurals & Priest Films",
+      "Domestic & Child Possession",
+      "Jinn, Dybbuk & Non-Christian Possession"
+     ]
+    },
+    {
+     "code": "A4-5",
+     "label": "Satanic Film",
+     "breadth": "broad",
+     "defn": "A horror film whose source of fear is Satan, his worshippers or the demonic hosts of Hell (<i>The Omen</i>, <i>The Devil Rides Out</i>, <i>Hereditary</i>, <i>Hellraiser</i>, <i>The Evil Dead</i>). A single possessed body goes to A4-4; nuns and convents to A4-6.",
+     "aliases": "occult film, demonic horror",
+     "see": "A4-4 Possession & Exorcism Film; A4-7 Witchcraft Horror",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Satanic_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the form evil takes: the Antichrist child, the cult, the Devil in person, a demonic outbreak, Hell's otherworld, angels at war",
+     "secs": [
+      "Antichrist & Devil's-Child Films",
+      "Satanic Cults & Covens",
+      "The Devil Incarnate & Faustian Bargains",
+      "Demonic Outbreaks & Deadites",
+      "Hell, Cenobites & Otherworld Demons",
+      "Angels & Apocalyptic Prophecy"
+     ]
+    },
+    {
+     "code": "A4-6",
+     "label": "Religious Horror",
+     "breadth": "narrow",
+     "defn": "A horror film whose fear grows from faith itself: convents, saints, zealotry and sacred ritual (<i>The Nun</i>, <i>Saint Maud</i>, <i>Immaculate</i>, <i>Alucarda</i>). Exorcism plots go to A4-4; Satanist cults to A4-5.",
+     "aliases": "nunsploitation, convent horror",
+     "see": "A4-4 Possession & Exorcism Film; A4-5 Satanic Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Religious_horror",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Nunsploitation",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A4-7",
+     "label": "Witchcraft Horror",
+     "breadth": "medium",
+     "defn": "A horror film whose threat is a witch, a coven or a practitioner of black magic (<i>Suspiria</i>, <i>The Craft</i>, <i>The Lords of Salem</i>, <i>The Boxer's Omen</i>). Rural pagan communities go to A4-8 Folk Horror.",
+     "aliases": "witch film, black magic film",
+     "see": "A4-8 Folk Horror; A4-5 Satanic Film; A4-13 Indonesian Horror",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Witchcraft",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the craft: the witch and coven, then sorcery and black magic rituals",
+     "secs": [
+      "Witches & Covens",
+      "Black Magic, Sorcery & Ritual"
+     ]
+    },
+    {
+     "code": "A4-8",
+     "label": "Folk Horror",
+     "breadth": "medium",
+     "defn": "A horror film whose dread comes from a rural landscape, its old beliefs and the community that keeps them (<i>The Wicker Man</i>, <i>Witchfinder General</i>, <i>Midsommar</i>, <i>The Witch</i>). A witch in a modern city goes to A4-7.",
+     "aliases": "",
+     "see": "A4-7 Witchcraft Horror; A4-29 Backwoods Horror",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Folk_horror",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by where the old ways survive: British and Irish countryside, the pagan community, the wilderness, folk traditions elsewhere",
+     "secs": [
+      "British & Irish Folk Horror",
+      "Pagan Cults & Harvest Communities",
+      "Forest & Wilderness Folklore",
+      "World Folk Horror"
+     ]
+    },
+    {
+     "code": "A4-9",
+     "label": "J-Horror",
+     "breadth": "medium",
+     "defn": "The Japanese horror wave from the late 1990s, built on vengeful onryō, technology as a channel for the dead and urban isolation, plus its Hollywood remakes (<i>Ringu</i>, <i>Ju-on: The Grudge</i>, <i>Pulse</i>, <i>The Ring</i>). Pre-modern Japanese ghost tales go to A4-10 Kaidan Film.",
+     "aliases": "Japanese horror",
+     "see": "A4-10 Kaidan Film; A4-3 Curse Film; C9 Horror Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Japanese_horror",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by strand: the onryō curse cycle, techno-urban dread, then the Hollywood remakes of Asian horror",
+     "secs": [
+      "Onryō & Curse Cycle",
+      "Techno-Urban Dread",
+      "Hollywood Remakes of Asian Horror"
+     ]
+    },
+    {
+     "code": "A4-10",
+     "label": "Kaidan Film",
+     "breadth": "narrow",
+     "defn": "A Japanese film of a pre-modern ghost or supernatural tale in the kaidan tradition (<i>Ugetsu</i>, <i>Kwaidan</i>, <i>Onibaba</i>, <i>Kuroneko</i>).",
+     "aliases": "kaidan eiga",
+     "see": "A4-9 J-Horror; A8 Historical & Period Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Kaidan",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A4-11",
+     "label": "Korean Horror",
+     "breadth": "narrow",
+     "defn": "A South Korean supernatural horror film drawing on shamanism, han and family guilt (<i>A Tale of Two Sisters</i>, <i>The Wailing</i>, <i>Exhuma</i>, <i>Gonjiam: Haunted Asylum</i>). Korean zombie films go to A4-18.",
+     "aliases": "K-horror",
+     "see": "A4-9 J-Horror; A4-4 Possession & Exorcism Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Korean_horror",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A4-12",
+     "label": "Thai Horror",
+     "breadth": "narrow",
+     "defn": "A Thai supernatural horror film built on phi spirits, Buddhist karma and village belief (<i>Nang Nak</i>, <i>Shutter</i>, <i>The Medium</i>, <i>Death Whisperer</i>). Thai horror-comedy goes to A4-38.",
+     "aliases": "",
+     "see": "A4-13 Indonesian Horror; A4-9 J-Horror",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Thai_horror",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A4-13",
+     "label": "Indonesian Horror",
+     "breadth": "narrow",
+     "defn": "An Indonesian supernatural horror film drawn from local folklore, black magic (ilmu hitam) and Islamic belief, from the Suzzanna era to the 2010s revival (<i>Satan's Slaves</i>, <i>Impetigore</i>, <i>Mystics in Bali</i>, <i>KKN di Desa Penari</i>).",
+     "aliases": "film horor Indonesia",
+     "see": "A4-7 Witchcraft Horror; A4-12 Thai Horror",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Indonesian_horror",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A4-14",
+     "label": "Jiangshi Film",
+     "breadth": "narrow",
+     "defn": "A Hong Kong horror-comedy of hopping corpses and the Taoist priests who fight them (<i>Mr. Vampire</i>). Kept as the named cycle; European vampires go to A4-16.",
+     "aliases": "hopping vampire film",
+     "see": "A4-16 Vampire Film; A4-38 Comedy Horror",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Jiangshi_fiction",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A4-15",
+     "label": "Gothic Horror",
+     "breadth": "broad",
+     "defn": "A period horror film in the Gothic tradition of castles, ancestral curses and literary monsters, from Universal and Hammer to modern revivals (<i>Frankenstein</i>, <i>Horror of Dracula</i>, <i>Black Sunday</i>, <i>Crimson Peak</i>). Dracula and vampire films go to A4-16; werewolves to A4-17.",
+     "aliases": "Gothic film",
+     "see": "A4-16 Vampire Film; A4-17 Werewolf & Shapeshifter Film; A8 Historical & Period Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Gothic_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Universal_Classic_Monsters",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Hammer_horror",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Poe_cycle",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by studio cycle and period: early gothic, Universal monsters, Corman's Poe cycle, Hammer, Italian gothic, later revivals",
+     "secs": [
+      "Silent & Early Sound Gothic",
+      "Universal Classic Monsters",
+      "Corman–Poe Cycle",
+      "Hammer Horror",
+      "Italian Gothic",
+      "Gothic Revival & Period Pastiche"
+     ]
+    },
+    {
+     "code": "A4-16",
+     "label": "Vampire Film",
+     "breadth": "medium",
+     "defn": "A film whose monster is a blood-drinking undead, from Dracula adaptations to vampire comedies and action franchises (<i>Nosferatu</i>, <i>Let the Right One In</i>, <i>The Lost Boys</i>, <i>Underworld</i>). Hopping corpses go to A4-14 Jiangshi Film.",
+     "aliases": "",
+     "see": "A4-15 Gothic Horror; A4-14 Jiangshi Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Vampire_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by register: Dracula adaptations first, then art-house, comic, teen/romantic, action, and siege/plague vampires",
+     "secs": [
+      "Dracula & Nosferatu Films",
+      "Art-House & Erotic Vampire Films",
+      "Vampire Comedies",
+      "Teen & Romantic Vampire Films",
+      "Vampire Action & Hunters",
+      "Vampire Sieges & Plagues"
+     ]
+    },
+    {
+     "code": "A4-17",
+     "label": "Werewolf & Shapeshifter Film",
+     "breadth": "narrow",
+     "defn": "A horror film whose monster is a human who turns into a wolf or another beast (<i>An American Werewolf in London</i>, <i>The Howling</i>, <i>Ginger Snaps</i>, <i>Cat People</i>). Universal's <i>The Wolf Man</i> stays in A4-15.",
+     "aliases": "lycanthrope film",
+     "see": "A4-15 Gothic Horror; A4-19 Creature Feature",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Werewolf_fiction",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A4-18",
+     "label": "Zombie Film",
+     "breadth": "broad",
+     "defn": "A horror film whose threat is the reanimated or infected dead, from voodoo to rage virus (<i>Night of the Living Dead</i>, <i>28 Days Later</i>, <i>Shaun of the Dead</i>, <i>Train to Busan</i>). Lab reanimation played for gore-comedy goes to A4-37 Splatstick.",
+     "aliases": "living dead film",
+     "see": "A5-19 Post-Apocalyptic Film; A4-37 Splatstick",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Zombie_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by what raises the dead: voodoo, Romero's ghouls, the Italian cycle, comedy, viral infection, action franchises, revenant drama",
+     "secs": [
+      "Voodoo & Sorcery Zombies",
+      "Romero Cycle & Ghoul Sieges",
+      "Italian & European Zombie Films",
+      "Zombie Comedies",
+      "Rage-Virus & Infected Films",
+      "Zombie Action & Game Adaptations",
+      "Revenant, Resurrection & Humanist Zombie Films"
+     ]
+    },
+    {
+     "code": "A4-19",
+     "label": "Creature Feature",
+     "breadth": "medium",
+     "defn": "A horror film whose threat is an invented monster that is neither a real animal nor an alien (<i>Creature from the Black Lagoon</i>, <i>Tremors</i>, <i>Gremlins</i>, <i>The Descent</i>). Real animals go to A4-21 Natural Horror; aliens to A4-22; giant city-smashers to A5-6 Kaiju.",
+     "aliases": "monster movie",
+     "see": "A4-21 Natural Horror; A4-22 Science Fiction Horror; A5-6 Kaiju",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Creature_feature",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Monster_movie",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by where the creature lives: water, underground, folklore and the demonic, small mischief-makers, prehistory and cryptids",
+     "secs": [
+      "Amphibious & Sea Monsters",
+      "Subterranean & Cave Creatures",
+      "Folkloric & Demonic Monsters",
+      "Little Monsters",
+      "Prehistoric Beasts & Cryptids"
+     ]
+    },
+    {
+     "code": "A4-20",
+     "label": "Killer Toy Film",
+     "breadth": "narrow",
+     "defn": "A horror film whose threat is a doll, puppet, toy or animatronic come alive (<i>Child's Play</i>, <i>Puppet Master</i>, <i>Annabelle</i>, <i>Five Nights at Freddy's</i>). An AI android doll goes to A4-22.",
+     "aliases": "killer doll film",
+     "see": "A4-3 Curse Film; A4-22 Science Fiction Horror",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Killer_toy",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A4-21",
+     "label": "Natural Horror",
+     "breadth": "medium",
+     "defn": "A horror film whose threat is real animals or nature turned predator, including enlarged or mutated real species (<i>Jaws 2</i>, <i>The Birds</i>, <i>Cujo</i>, <i>Them!</i>, <i>Long Weekend</i>). Invented monsters go to A4-19.",
+     "aliases": "animal attack film, eco-horror",
+     "see": "A4-19 Creature Feature; A5-6 Kaiju",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Natural_horror",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Eco-horror",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the attacker: sharks and sea beasts, reptiles, swarms and giant bugs, mammals and birds, nature itself",
+     "secs": [
+      "Shark & Sea-Beast Attacks",
+      "Crocodilians & Giant Snakes",
+      "Swarms, Bugs & Atomic Giants",
+      "Mammal & Bird Attacks",
+      "Eco-Horror & Nature's Revenge"
+     ]
+    },
+    {
+     "code": "A4-22",
+     "label": "Science Fiction Horror",
+     "breadth": "broad",
+     "defn": "A horror film whose threat comes from a science-fictional premise: aliens, space, experiments, contagion or machines (<i>Alien</i>, <i>The Thing</i>, <i>Invasion of the Body Snatchers</i>, <i>The Fly</i>). Bodily transformation as the point goes to A4-23 Body Horror; cosmic unknowability to A4-24.",
+     "aliases": "SF horror",
+     "see": "A5 Science Fiction; A4-23 Body Horror; A4-24 Lovecraftian Horror",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Science_fiction_horror",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the scientific source of the threat: alien predator, alien replacement, space and remote stations, the lab, contagion, machines",
+     "secs": [
+      "Alien Horror",
+      "Body Snatchers & Alien Infiltration",
+      "Space & Research-Station Horror",
+      "Mad Science & Lab-Made Monsters",
+      "Contagion & Outbreak Horror",
+      "Machine & Technology Horror"
+     ]
+    },
+    {
+     "code": "A4-23",
+     "label": "Body Horror",
+     "breadth": "medium",
+     "defn": "A horror film whose fear is the transformation, invasion or mutilation of the human body itself (<i>Videodrome</i>, <i>Tetsuo: The Iron Man</i>, <i>The Substance</i>, <i>Titane</i>). A creature born in a lab goes to A4-22.",
+     "aliases": "biological horror, venereal horror",
+     "see": "A4-22 Science Fiction Horror; A4-32 New French Extremity",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Body_horror",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by what happens to the body: Cronenbergian mutation, metamorphosis, surgery and beauty, infection and parasites",
+     "secs": [
+      "Cronenbergian & Venereal Horror",
+      "Transformation & Metamorphosis",
+      "Surgical, Beauty & Bodily-Modification Horror",
+      "Infection & Parasite Horror"
+     ]
+    },
+    {
+     "code": "A4-24",
+     "label": "Lovecraftian Horror",
+     "breadth": "narrow",
+     "defn": "A horror film of cosmic dread before entities or realities beyond human comprehension (<i>In the Mouth of Madness</i>, <i>Color Out of Space</i>, <i>The Void</i>, <i>The Mist</i>).",
+     "aliases": "cosmic horror",
+     "see": "A4-22 Science Fiction Horror; A4-5 Satanic Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Lovecraftian_horror",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Cosmic_horror",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A4-25",
+     "label": "Psychological Horror",
+     "breadth": "broad",
+     "defn": "A horror film whose terror lies in the mind: breakdown, trauma, doubled identity or unreal worlds, with any monster kept ambiguous (<i>Repulsion</i>, <i>Jacob's Ladder</i>, <i>Get Out</i>, <i>The Babadook</i>). A killer stalking victims goes to A4-28 Slasher Film.",
+     "aliases": "",
+     "see": "A3 Thriller & Mystery; A4-26 Psycho-Biddy; A4-28 Slasher Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Psychological_horror",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by where the horror sits: the unravelling mind, grief and family, the double, purgatory and unreality, social allegory, obsession and art, confinement",
+     "secs": [
+      "Madness & Breakdown",
+      "Grief, Trauma & the Family",
+      "Doubles & Fractured Identity",
+      "Purgatory, Loops & Unreality",
+      "Social-Thriller Horror & Allegory",
+      "Obsession, Performance & Art",
+      "Confinement, Traps & Captivity"
+     ]
+    },
+    {
+     "code": "A4-26",
+     "label": "Psycho-Biddy",
+     "breadth": "narrow",
+     "defn": "A horror-thriller cycle built on an ageing woman as a deranged menace (<i>What Ever Happened to Baby Jane?</i>, <i>Hush...Hush, Sweet Charlotte</i>, <i>Strait-Jacket</i>).",
+     "aliases": "hagsploitation, grande dame guignol",
+     "see": "A4-25 Psychological Horror",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Psycho-biddy",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Hagsploitation",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A4-27",
+     "label": "Home Invasion Film",
+     "breadth": "narrow",
+     "defn": "A horror or thriller film whose engine is intruders breaking into a home and besieging those inside (<i>Funny Games</i>, <i>The Strangers</i>, <i>You're Next</i>, <i>Don't Breathe</i>).",
+     "aliases": "",
+     "see": "A3 Thriller & Mystery; A5-18 Dystopian Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Home_invasion",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by who holds the house: siege thrillers, masked strangers, then reverse invasions where the home is the trap",
+     "secs": [
+      "Siege & Intruder Thrillers",
+      "Masked-Stranger Horror",
+      "Reverse Home Invasion"
+     ]
+    },
+    {
+     "code": "A4-28",
+     "label": "Slasher Film",
+     "breadth": "broad",
+     "defn": "A horror film in which a stalking killer murders a group of victims one by one, often till a final girl remains (<i>Halloween</i>, <i>Friday the 13th</i>, <i>A Nightmare on Elm Street</i>, <i>Scream</i>). Rural killer clans go to A4-29; holiday-themed killers to A4-30.",
+     "aliases": "stalk-and-slash film",
+     "see": "A4-29 Backwoods Horror; A4-30 Holiday Horror; A3 Thriller & Mystery",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Slasher_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Final_girl",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by phase of the form: proto-slashers, the big franchises, the golden age, supernatural killers, post-Scream revival, comic and meta slashers, retro and new-wave slashers, public-domain parodies",
+     "secs": [
+      "Proto-Slashers & Psycho-Killer Films",
+      "Halloween & Friday the 13th Franchises",
+      "Golden-Age Stalk-and-Slash",
+      "Supernatural Slashers",
+      "Post-Scream Revival Slashers",
+      "Slasher Comedies, Meta & Time-Loop Slashers",
+      "Retro & New-Wave Slashers",
+      "Public-Domain Parody Slashers"
+     ]
+    },
+    {
+     "code": "A4-29",
+     "label": "Backwoods Horror",
+     "breadth": "narrow",
+     "defn": "A horror film in which travellers stray into the countryside and are hunted by rural killers or inbred clans (<i>The Texas Chain Saw Massacre</i>, <i>The Hills Have Eyes</i>, <i>Wrong Turn</i>, <i>Wolf Creek</i>). Pagan rural communities go to A4-8 Folk Horror.",
+     "aliases": "hicksploitation, rural horror",
+     "see": "A4-28 Slasher Film; A4-8 Folk Horror",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Hixploitation",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the killers: the Leatherface cycle, cannibal and mutant clans, lone predators of tourists, swamp and forest stalkers",
+     "secs": [
+      "Texas Chain Saw Cycle",
+      "Cannibal & Mutant Clans",
+      "Outback & Roadside Predators",
+      "Swamp & Forest Stalkers"
+     ]
+    },
+    {
+     "code": "A4-30",
+     "label": "Holiday Horror",
+     "breadth": "narrow",
+     "defn": "A horror film whose killer or curse is built around a named holiday and its rituals (<i>Silent Night, Deadly Night</i>, <i>My Bloody Valentine</i>, <i>Krampus</i>, <i>Trick 'r Treat</i>). The Halloween franchise stays in A4-28.",
+     "aliases": "Christmas horror",
+     "see": "A4-28 Slasher Film; A4-36 Anthology Horror",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Holiday_horror",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by holiday: Christmas, then other holidays and Halloween night",
+     "secs": [
+      "Christmas Horror",
+      "Other Holidays & Halloween Night"
+     ]
+    },
+    {
+     "code": "A4-31",
+     "label": "Splatter Film",
+     "breadth": "medium",
+     "defn": "A horror film whose primary attraction is graphic gore and the spectacle of the opened body (<i>Blood Feast</i>, <i>Guinea Pig 2: Flower of Flesh and Blood</i>, <i>Nekromantik</i>, <i>Ichi the Killer</i>). Prolonged captivity and torture go to A4-33.",
+     "aliases": "gore film",
+     "see": "A4-33 Torture Porn; A4-37 Splatstick",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Splatter_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Rape_and_revenge_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A4-32",
+     "label": "New French Extremity",
+     "breadth": "narrow",
+     "defn": "The French-language extreme horror cycle of the 2000s, transgressive in violence and sexuality (<i>High Tension</i>, <i>Inside</i>, <i>Martyrs</i>, <i>Frontier(s)</i>).",
+     "aliases": "",
+     "see": "A4-31 Splatter Film; A1 Movements & Schools",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/New_French_Extremity",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A4-33",
+     "label": "Torture Porn",
+     "breadth": "narrow",
+     "defn": "A horror film whose engine is captivity and the prolonged torture of victims (<i>Saw</i>, <i>Hostel</i>, <i>The Collector</i>, <i>Would You Rather</i>).",
+     "aliases": "gorno",
+     "see": "A4-31 Splatter Film; A4-25 Psychological Horror",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Torture_porn",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A4-34",
+     "label": "Cannibal Film",
+     "breadth": "narrow",
+     "defn": "A horror film whose threat is people who eat people, including the Italian jungle cycle (<i>Cannibal Holocaust</i>, <i>Cannibal Ferox</i>, <i>Raw</i>, <i>Ravenous</i>). Rural killer families go to A4-29.",
+     "aliases": "cannibal boom",
+     "see": "A4-29 Backwoods Horror; A4-31 Splatter Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Cannibal_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A4-35",
+     "label": "Found-Footage Horror",
+     "breadth": "medium",
+     "defn": "A horror film presented as recovered recordings made by the characters (<i>The Blair Witch Project</i>, <i>REC</i>, <i>Paranormal Activity</i>, <i>Lake Mungo</i>). Sources are the form; the threat may be any.",
+     "aliases": "found footage, screenlife",
+     "see": "A4-1 Ghost Film; A20 Experimental & Avant-Garde",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Found_footage_(film_technique)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Screenlife",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the camera that records it: lost tapes, investigation crews, home video, faux broadcasts and mock documentaries, screens and livestreams, anthologies",
+     "secs": [
+      "Lost Tapes & Expedition Footage",
+      "Ghost-Hunt, News-Crew & Investigation Footage",
+      "Home-Video Hauntings",
+      "Faux Broadcasts & Mock Documentaries",
+      "Screenlife & Livestream Horror",
+      "Found-Footage Anthologies"
+     ]
+    },
+    {
+     "code": "A4-36",
+     "label": "Anthology Horror",
+     "breadth": "narrow",
+     "defn": "A horror film made of separate stories, usually joined by a frame (<i>Dead of Night</i>, <i>The House That Dripped Blood</i>, <i>Creepshow 2</i>, <i>Southbound</i>). Found-footage anthologies stay in A4-35.",
+     "aliases": "portmanteau horror",
+     "see": "A4-35 Found-Footage Horror; A4-30 Holiday Horror",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Portmanteau_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Anthology_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Amicus_Productions",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A4-37",
+     "label": "Splatstick",
+     "breadth": "narrow",
+     "defn": "A horror comedy whose humour is excessive gore staged as slapstick (<i>Evil Dead II</i>, <i>Bad Taste</i>, <i>Re-Animator</i>, <i>Deathgasm</i>). Zombie splatstick such as <i>Braindead</i> stays in A4-18.",
+     "aliases": "",
+     "see": "A4-38 Comedy Horror; A4-31 Splatter Film; A4-18 Zombie Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Splatstick",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A4-38",
+     "label": "Comedy Horror",
+     "breadth": "broad",
+     "defn": "A film in which horror's monsters, killers or hauntings drive a comic engine (<i>Ghostbusters</i>, <i>Beetlejuice</i>, <i>Stree</i>, <i>The Cabin in the Woods</i>, <i>Ready or Not</i>). Gore-as-slapstick goes to A4-37; pure parody of horror films to A12.",
+     "aliases": "horror comedy",
+     "see": "A12 Comedy; A4-37 Splatstick",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Comedy_horror",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the comic engine: monster-rally spoof, supernatural comedy, Asian horror-comedy, creature comedy, camp and cult, dark satire, meta-horror",
+     "secs": [
+      "Monster Rallies & Horror Spoofs",
+      "Ghost & Supernatural Comedies",
+      "Indian & Asian Horror-Comedies",
+      "Creature Comedies",
+      "Camp, Cult & Troma",
+      "Dark Satire & Social Horror-Comedy",
+      "Meta & Mockumentary Horror-Comedy"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "A5",
+   "label": "Science Fiction",
+   "axis": "Axis: by the speculative premise: space, aliens, giant monsters, time and other realities, machines and biology, societies of the future and their ending, then soft and comic science fiction last.",
+   "leaves": [
+    {
+     "code": "A5-1",
+     "label": "Hard Science Fiction",
+     "breadth": "medium",
+     "defn": "A science fiction film whose drama rests on plausible physics, biology and engineering, usually in spaceflight (<i>2001: A Space Odyssey</i>, <i>The Martian</i>, <i>Interstellar</i>, <i>The Andromeda Strain</i>). Space adventure with empires and aliens goes to A5-2.",
+     "aliases": "space exploration film",
+     "see": "A5-2 Space Opera; A5-5 First Contact",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Hard_science_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Space_exploration",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by distance from Earth: orbit, Moon and laboratory; Mars; deep-space voyages",
+     "secs": [
+      "Orbit, Moon & Laboratory",
+      "Mars Missions",
+      "Deep-Space Voyages"
+     ]
+    },
+    {
+     "code": "A5-2",
+     "label": "Space Opera",
+     "breadth": "broad",
+     "defn": "A science fiction adventure of interstellar empires, wars and heroes on a grand scale (<i>Star Wars</i>, <i>Star Trek II: The Wrath of Khan</i>, <i>Dune</i>, <i>Avatar</i>). Plausible spaceflight goes to A5-1.",
+     "aliases": "",
+     "see": "A5-1 Hard Science Fiction; A5-3 Military Science Fiction",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Space_opera",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Planetary_romance",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Space_Western",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by mode: the Star Wars and Star Trek sagas, planetary romance, space westerns, family space adventure",
+     "secs": [
+      "Star Wars Saga",
+      "Star Trek Films",
+      "Planetary Romance & Pulp Space Opera",
+      "Space Westerns & Frontier Adventures",
+      "Family Space Adventures"
+     ]
+    },
+    {
+     "code": "A5-3",
+     "label": "Military Science Fiction",
+     "breadth": "narrow",
+     "defn": "A science fiction film centred on soldiers, armies and future warfare (<i>Starship Troopers</i>, <i>Battle Los Angeles</i>, <i>Universal Soldier</i>, <i>Ender's Game</i>).",
+     "aliases": "",
+     "see": "A5-4 Alien Invasion; A9 War Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Military_science_fiction",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A5-4",
+     "label": "Alien Invasion",
+     "breadth": "medium",
+     "defn": "A science fiction film in which extraterrestrials attack or occupy Earth (<i>The War of the Worlds</i>, <i>Independence Day</i>, <i>They Live</i>, <i>Attack the Block</i>). Peaceful contact goes to A5-5; alien horror to A4-22.",
+     "aliases": "",
+     "see": "A5-5 First Contact & Alien Visitor; A4-22 Science Fiction Horror; A5-3 Military Science Fiction",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Alien_invasion",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A5-5",
+     "label": "First Contact & Alien Visitor",
+     "breadth": "medium",
+     "defn": "A science fiction film about humanity meeting extraterrestrials who are not simply invaders: messages, visitors, friends and abductors (<i>Arrival</i>, <i>E.T. the Extra-Terrestrial</i>, <i>Starman</i>, <i>Fire in the Sky</i>).",
+     "aliases": "close encounter film",
+     "see": "A5-4 Alien Invasion; A17 Children's & Family Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/First_contact_(science_fiction)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Alien_abduction",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the encounter: first contact, the visitor among us, the alien friend, abduction and UFO encounters",
+     "secs": [
+      "First Contact & Messages",
+      "Alien Visitors & Refugees",
+      "Alien-Friend Family Films",
+      "Abductions & UFO Encounters"
+     ]
+    },
+    {
+     "code": "A5-6",
+     "label": "Kaiju",
+     "breadth": "medium",
+     "defn": "A film of giant monsters that rampage through cities or fight each other, from Toho's Godzilla to its imitators (<i>Godzilla</i>, <i>Gamera</i>, <i>King Kong</i>, <i>The Host</i>). Ordinary-sized monsters go to A4-19.",
+     "aliases": "giant monster film, kaiju eiga",
+     "see": "A5-7 Tokusatsu; A4-19 Creature Feature",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Kaiju",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by studio cycle: Toho Showa, later Godzilla eras, Gamera, Hollywood giants, kaiju films elsewhere",
+     "secs": [
+      "Toho Showa Kaiju",
+      "Godzilla: Heisei, Millennium & Reiwa",
+      "Gamera",
+      "King Kong & Hollywood Giant Monsters",
+      "World Kaiju Films"
+     ]
+    },
+    {
+     "code": "A5-7",
+     "label": "Tokusatsu",
+     "breadth": "narrow",
+     "defn": "A live-action special-effects superhero film in the Japanese tradition of costumed transforming heroes, including adaptations (<i>Shin Ultraman</i>, <i>Shin Kamen Rider</i>, <i>Mighty Morphin Power Rangers: The Movie</i>).",
+     "aliases": "",
+     "see": "A5-6 Kaiju; B10 Children's Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Tokusatsu",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A5-8",
+     "label": "Time Travel Film",
+     "breadth": "medium",
+     "defn": "A science fiction film whose premise is movement through time or a broken flow of time (<i>Back to the Future</i>, <i>12 Monkeys</i>, <i>Primer</i>, <i>Edge of Tomorrow</i>).",
+     "aliases": "",
+     "see": "A5-12 Artificial Intelligence & Robots; A5-9 Parallel Universe Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Time_travel_in_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Time_loop",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by what time travel does: tourism in time, changing the past, the loop, comic culture clash, messages across time",
+     "secs": [
+      "Time Machines & Time Tourism",
+      "Changing the Past & Paradox",
+      "Time Loops",
+      "Time-Travel Comedies",
+      "Messages Across Time & Time-Slip Romance"
+     ]
+    },
+    {
+     "code": "A5-9",
+     "label": "Parallel Universe Film",
+     "breadth": "narrow",
+     "defn": "A science fiction film whose premise is alternate worlds or versions of reality existing side by side (<i>Another Earth</i>, <i>Coherence</i>, <i>Mr. Nobody</i>, <i>The One</i>).",
+     "aliases": "multiverse film",
+     "see": "A5-8 Time Travel Film; A5-10 Simulated Reality",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Parallel_universes_in_fiction",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A5-10",
+     "label": "Simulated Reality",
+     "breadth": "narrow",
+     "defn": "A science fiction film whose premise is a manufactured reality: virtual worlds, game spaces, dream and memory technology (<i>Inception</i>, <i>Total Recall</i>, <i>eXistenZ</i>, <i>Ready Player One</i>). The Matrix films stay in A5-11 Cyberpunk.",
+     "aliases": "virtual reality film",
+     "see": "A5-11 Cyberpunk; A5-9 Parallel Universe Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Simulated_reality",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Virtual_reality_in_fiction",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A5-11",
+     "label": "Cyberpunk",
+     "breadth": "narrow",
+     "defn": "A science fiction film of high-tech, low-life futures: corporations, cyborgs, hackers and networked cities (<i>Blade Runner</i>, <i>The Matrix</i>, <i>RoboCop</i>, <i>Tetsuo II: Body Hammer</i>).",
+     "aliases": "tech noir",
+     "see": "A5-10 Simulated Reality; A5-12 Artificial Intelligence & Robots; C2 Mecha & Science Fiction Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Cyberpunk",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Tech_noir",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A5-12",
+     "label": "Artificial Intelligence & Robots",
+     "breadth": "medium",
+     "defn": "A science fiction film whose premise is thinking machines: rogue computers, androids, robot companions and giant robots (<i>The Terminator</i>, <i>Ex Machina</i>, <i>Short Circuit</i>, <i>Transformers</i>). A killer AI as horror goes to A4-22.",
+     "aliases": "robot film",
+     "see": "A5-11 Cyberpunk; A4-22 Science Fiction Horror",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Artificial_intelligence_in_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Robots_in_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Mecha",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the machine's role: uprising and war, synthetic person, companion, giant robot, uploaded mind",
+     "secs": [
+      "Rogue AI & Machine Uprisings",
+      "Androids & Synthetic Persons",
+      "Robot Companions & Family Films",
+      "Giant Robots & Transformers",
+      "Mind Uploading & Digital Afterlives"
+     ]
+    },
+    {
+     "code": "A5-13",
+     "label": "Biopunk",
+     "breadth": "narrow",
+     "defn": "A science fiction film whose premise is biotechnology: cloning, genetic engineering and chemical enhancement of humans and animals (<i>The Boys from Brazil</i>, <i>Okja</i>, <i>Limitless</i>, <i>Mickey 17</i>). Lab monsters as horror go to A4-22.",
+     "aliases": "genetic engineering film, clone film",
+     "see": "A4-22 Science Fiction Horror; A5-18 Dystopian Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Biopunk",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Mad_scientist",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A5-14",
+     "label": "Lost World",
+     "breadth": "narrow",
+     "defn": "An adventure in which prehistoric creatures survive or are revived in the modern world (<i>The Lost World</i>, <i>Jurassic Park</i>, <i>65</i>).",
+     "aliases": "dinosaur film",
+     "see": "A5-15 Scientific Romance; A5-6 Kaiju",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Lost_world_(genre)",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A5-15",
+     "label": "Scientific Romance",
+     "breadth": "narrow",
+     "defn": "A Verne- and Wells-type science adventure of submarines, inventions and fabulous journeys, and its retro-futurist pastiches (<i>20,000 Leagues Under the Sea</i>, <i>Things to Come</i>, <i>Invention for Destruction</i>).",
+     "aliases": "Vernian film",
+     "see": "A5-14 Lost World; A6 Fantasy & Adventure",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Scientific_romance",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A5-16",
+     "label": "Size-Change Film",
+     "breadth": "narrow",
+     "defn": "A science fiction film whose premise is people shrunk or enlarged (<i>The Incredible Shrinking Man</i>, <i>Fantastic Voyage</i>, <i>Honey, I Shrunk the Kids</i>, <i>Downsizing</i>).",
+     "aliases": "shrinking film",
+     "see": "A5-22 Science Fiction Comedy; A17 Children's & Family Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Size_change_in_fiction",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A5-17",
+     "label": "Psionics",
+     "breadth": "narrow",
+     "defn": "A science fiction or horror film whose premise is psychic powers such as telekinesis, telepathy or teleportation (<i>Scanners</i>, <i>Carrie</i>, <i>Jumper</i>, <i>Midnight Special</i>).",
+     "aliases": "psychic-powers film",
+     "see": "A4-25 Psychological Horror; A7 Action & Martial Arts",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Psionics",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Superpower_(ability)",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A5-18",
+     "label": "Dystopian Film",
+     "breadth": "broad",
+     "defn": "A science fiction film set in a future society organised as oppression (<i>1984</i>, <i>Brazil</i>, <i>The Hunger Games: Mockingjay</i>, <i>Snowpiercer</i>). A world after collapse goes to A5-19.",
+     "aliases": "",
+     "see": "A5-19 Post-Apocalyptic Film; A5-13 Biopunk",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Dystopia",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the mechanism of control: the state, the lethal game, the YA system, control of age and birth, the class enclosure, the lawless city, absurdist satire",
+     "secs": [
+      "Totalitarian & Surveillance States",
+      "Lethal Games & Blood Sports",
+      "Young-Adult Dystopias",
+      "Control of Age, Birth & Life",
+      "Class Enclosures & Vertical Societies",
+      "Lawless Cities & Future Crime",
+      "Absurdist & Satirical Dystopias"
+     ]
+    },
+    {
+     "code": "A5-19",
+     "label": "Post-Apocalyptic Film",
+     "breadth": "broad",
+     "defn": "A science fiction film set during or after the collapse of civilisation (<i>Threads</i>, <i>Mad Max: Fury Road</i>, <i>The Road</i>, <i>Planet of the Apes</i>). The catastrophe itself as spectacle goes to A5-20.",
+     "aliases": "",
+     "see": "A5-20 Disaster Film; A5-18 Dystopian Film; A4-18 Zombie Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Apocalyptic_and_post-apocalyptic_fiction",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by what ended the world and what follows: nuclear war, the wasteland, the last survivors, the apes, slow collapse, then comic and cult wastelands",
+     "secs": [
+      "Nuclear War & Aftermath",
+      "Wasteland Road & Raider Films",
+      "Last Survivors",
+      "Planet of the Apes Cycle",
+      "Collapse & Survival",
+      "Post-Apocalyptic Comedy & Cult"
+     ]
+    },
+    {
+     "code": "A5-20",
+     "label": "Disaster Film",
+     "breadth": "broad",
+     "defn": "A film whose spectacle is a large-scale catastrophe and the struggle to survive it (<i>The Towering Inferno</i>, <i>Twister</i>, <i>Armageddon</i>, <i>Contagion</i>). Life after the collapse goes to A5-19.",
+     "aliases": "",
+     "see": "A5-19 Post-Apocalyptic Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Disaster_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Climate_fiction",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the catastrophe: earthquake, volcano and flood; cosmic impact; transport and structures; pandemic; storms and climate",
+     "secs": [
+      "Earthquakes, Volcanoes & Floods",
+      "Cosmic Impacts & End of the World",
+      "Transport, Structure & Industrial Disasters",
+      "Pandemic Outbreaks",
+      "Storms & Climate Catastrophes"
+     ]
+    },
+    {
+     "code": "A5-21",
+     "label": "Soft Science Fiction",
+     "breadth": "medium",
+     "defn": "A science fiction film whose speculative conceit serves human, social or philosophical questions rather than technology or spectacle (<i>Solaris</i>, <i>The Man from Earth</i>, <i>The Fountain</i>, <i>Hard to Be a God</i>).",
+     "aliases": "social science fiction",
+     "see": "A5-1 Hard Science Fiction; A16 Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Soft_science_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Social_science_fiction",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A5-22",
+     "label": "Science Fiction Comedy",
+     "breadth": "narrow",
+     "defn": "A film whose comic engine is a science-fictional premise, often aliens among ordinary people (<i>The Hitchhiker's Guide to the Galaxy</i>, <i>Kin-dza-dza!</i>, <i>Earth Girls Are Easy</i>, <i>Iron Sky</i>).",
+     "aliases": "",
+     "see": "A12 Comedy; A5-5 First Contact & Alien Visitor",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Science_fiction_comedy",
+       "Wikipedia"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

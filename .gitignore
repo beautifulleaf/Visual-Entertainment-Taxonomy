@@ -1,3 +1,8 @@
 data/
 !artifact/full/data/
 __pycache__/
+
+# R3 pass caches (large, regenerable)
+taxonomy/r3/**/*.pkl
+taxonomy/r3/**/*.pickle
+taxonomy/r3/**/cache*

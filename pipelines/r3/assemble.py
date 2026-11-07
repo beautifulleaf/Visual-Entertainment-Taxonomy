@@ -156,6 +156,8 @@ def remap_text(s, leafmap):
         c = m.group(0)
         if "-" in c:
             return leafmap.get(c, c)
+        if c[0] == "D":  # bare D1–D8 are the owner's rulings, not old family-D sub-families
+            return c
         return OLD_SUB.get(c, c)
     return re.sub(r"\b[ABCDEG]\d{1,2}(?:-\d{1,3})?\b", sub, s)
 
