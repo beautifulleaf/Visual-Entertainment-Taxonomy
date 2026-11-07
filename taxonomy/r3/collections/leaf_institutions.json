@@ -1541,14 +1541,14 @@
 "https://collections.si.edu/search/results.htm?q=Andean%20Textiles&fq=data_source%3A%22National+Museum+of+the+American+Indian%22"
 ],
 [
+"Art Institute of Chicago",
+54,
+"https://www.artic.edu/collection?q=Andean%20Textiles"
+],
+[
 "The Metropolitan Museum of Art",
 54,
 "https://www.metmuseum.org/art/collection/search?q=Andean%20Textiles"
-],
-[
-"Art Institute of Chicago",
-53,
-"https://www.artic.edu/collection?q=Andean%20Textiles"
 ],
 [
 "Smithsonian National Museum of the American Indian",
@@ -1562,7 +1562,7 @@
 ],
 [
 "Museum Volkenkunde",
-14,
+16,
 "https://collectie.wereldculturen.nl/#/query/Andean%20Textiles"
 ]
 ],
@@ -2975,7 +2975,7 @@
 "H5-10": [
 [
 "Tropenmuseum",
-576,
+574,
 "https://collectie.wereldculturen.nl/#/query/Indonesian%20Batik"
 ],
 [
@@ -3246,6 +3246,7 @@
 "https://collections.vam.ac.uk/search/?q=Mughal%20Carpet"
 ]
 ],
+"H3-60": [],
 "A6-5": [
 [
 "Victoria and Albert Museum",
@@ -4119,8 +4120,13 @@
 "H5-22": [],
 "H5-19": [
 [
+"Museum Volkenkunde",
+1453,
+"https://collectie.wereldculturen.nl/#/query/Katazome"
+],
+[
 "Wereldmuseum Rotterdam",
-32,
+293,
 "https://collectie.wereldculturen.nl/#/query/Katazome"
 ],
 [
@@ -8817,17 +8823,17 @@
 ],
 "C2-9": [
 [
-"Tropenmuseum",
-15,
-"https://collectie.wereldculturen.nl/#/query/Pustaha"
-],
-[
 "The Metropolitan Museum of Art",
 8,
 "https://www.metmuseum.org/art/collection/search?q=Pustaha"
 ],
 [
 "Museum Volkenkunde",
+5,
+"https://collectie.wereldculturen.nl/#/query/Pustaha"
+],
+[
+"Tropenmuseum",
 5,
 "https://collectie.wereldculturen.nl/#/query/Pustaha"
 ],
@@ -9450,7 +9456,7 @@
 ],
 [
 "Tropenmuseum",
-10,
+9,
 "https://collectie.wereldculturen.nl/#/query/Topeng"
 ],
 [
@@ -9466,14 +9472,14 @@
 "https://collectie.wereldculturen.nl/#/query/Wayang%20Golek"
 ],
 [
-"Tropenmuseum",
-134,
-"https://collectie.wereldculturen.nl/#/query/Wayang%20Golek"
-],
-[
 "Penn Museum",
 132,
 "https://www.penn.museum/collections/search.php?term=Wayang%20Golek"
+],
+[
+"Tropenmuseum",
+124,
+"https://collectie.wereldculturen.nl/#/query/Wayang%20Golek"
 ],
 [
 "Yale University (LUX)",
@@ -11715,7 +11721,7 @@
 ],
 [
 "Tropenmuseum",
-4,
+3,
 "https://collectie.wereldculturen.nl/#/query/Haute%20Couture%20%26%20Fashion%20Design"
 ]
 ],
@@ -11742,7 +11748,7 @@
 "G2-2": [
 [
 "Tropenmuseum",
-1172,
+1171,
 "https://collectie.wereldculturen.nl/#/query/Kris"
 ],
 [
@@ -11925,18 +11931,6 @@
 ]
 ],
 "G1-63": [],
-"C4-11": [
-[
-"Museum Volkenkunde",
-1413,
-"https://collectie.wereldculturen.nl/#/query/Kirie"
-],
-[
-"Wereldmuseum Rotterdam",
-243,
-"https://collectie.wereldculturen.nl/#/query/Kirie"
-]
-],
 "B2-21": [
 [
 "Museum Volkenkunde",

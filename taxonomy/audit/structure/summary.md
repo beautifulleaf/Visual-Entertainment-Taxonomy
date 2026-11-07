@@ -1,6 +1,6 @@
 # Structure audit
 
-Computed from the published data: FT 950 leaves (604 sectioned), VA 1782 leaves. Flags in `flags.csv`.
+Computed from the published data: FT 950 leaves (604 sectioned), VA 1795 leaves. Flags in `flags.csv`.
 
 | Check | Finding | High | Medium | Low |
 |---|---|---:|---:|---:|
@@ -71,7 +71,7 @@ S2: 0 titles fall outside the dates of their era section.
 | VA | A5 Easel Painting | 47 | 55 | 4 | 39 |
 | VA | A6 Folk & Popular Painting | 22 | 5 | 0 | 5 |
 | VA | B1 Drawing | 7 | 1 | 2 | 0 |
-| VA | B2 Printmaking | 10 | 3 | 0 | 8 |
+| VA | B2 Printmaking | 10 | 3 | 0 | 9 |
 | VA | C1 Calligraphy | 9 | 0 | 1 | 3 |
 | VA | C2 Illuminated Manuscripts & Illumination | 13 | 7 | 1 | 12 |
 | VA | C3 Bookbinding | 3 | 0 | 0 | 1 |
@@ -82,33 +82,33 @@ S2: 0 titles fall outside the dates of their era section.
 | VA | D4 Masks & Puppets | 0 | 1 | 0 | 32 |
 | VA | D5 Figurative Sculpture | 28 | 7 | 3 | 99 |
 | VA | D6 Ritual Objects & Regalia | 0 | 0 | 0 | 13 |
-| VA | E1 Earthenware | 136 | 0 | 0 | 4 |
+| VA | E1 Earthenware | 136 | 0 | 0 | 6 |
 | VA | E2 Fritware (Stonepaste) | 15 | 0 | 0 | 1 |
 | VA | E3 Stoneware | 34 | 0 | 0 | 0 |
 | VA | E4 Porcelain | 26 | 0 | 0 | 0 |
-| VA | F1 Blown & Moulded Glass | 0 | 0 | 2 | 16 |
+| VA | F1 Blown & Moulded Glass | 0 | 0 | 2 | 17 |
 | VA | F2 Cut & Carved Glass | 1 | 0 | 0 | 3 |
 | VA | F3 Enamelled & Gilded Glass | 0 | 0 | 0 | 1 |
 | VA | F4 Lustre-Painted Glass | 0 | 0 | 0 | 1 |
 | VA | F5 Stained Glass | 1 | 0 | 0 | 2 |
 | VA | G1 Metalwork | 14 | 0 | 0 | 59 |
-| VA | G2 Arms & Armour | 3 | 0 | 0 | 10 |
-| VA | G3 Jewellery | 5 | 0 | 0 | 27 |
+| VA | G2 Arms & Armour | 3 | 0 | 0 | 11 |
+| VA | G3 Jewellery | 5 | 0 | 0 | 28 |
 | VA | H1 Pile Carpets & Rugs | 5 | 0 | 0 | 9 |
 | VA | H2 Flatweaves | 5 | 0 | 0 | 20 |
-| VA | H3 Woven Silks & Figured Textiles | 7 | 0 | 0 | 46 |
+| VA | H3 Woven Silks & Figured Textiles | 7 | 0 | 0 | 48 |
 | VA | H4 Embroidery & Needlework | 13 | 0 | 1 | 85 |
 | VA | H5 Dyed & Printed Textiles | 10 | 0 | 0 | 29 |
 | VA | H6 Felt | 0 | 0 | 0 | 1 |
 | VA | H7 Dress & Costume | 2 | 2 | 0 | 17 |
 | VA | H8 Basketry, Barkcloth & Fibre Arts | 6 | 0 | 0 | 33 |
-| VA | H9 Beadwork, Quillwork & Featherwork | 3 | 0 | 0 | 11 |
+| VA | H9 Beadwork, Quillwork & Featherwork | 3 | 0 | 0 | 12 |
 | VA | H10 Leatherwork | 1 | 0 | 0 | 2 |
 | VA | I1 Carved & Inlaid Woodwork | 0 | 0 | 0 | 32 |
 | VA | I2 Lacquer | 3 | 1 | 0 | 18 |
 | VA | I3 Furniture & Decorative Arts Styles | 4 | 12 | 0 | 8 |
 | VA | I4 Musical Instruments | 1 | 0 | 0 | 22 |
-| VA | J1 Photographic Schools & Movements | 5 | 9 | 0 | 3 |
+| VA | J1 Photographic Schools & Movements | 5 | 9 | 1 | 3 |
 | VA | K1 Islamic Architecture | 19 | 0 | 0 | 0 |
 | VA | K2 Historicist & National Revivals | 1 | 33 | 0 | 0 |
 | VA | K3 Ancient Mediterranean & Near Eastern Architecture | 10 | 0 | 0 | 1 |
@@ -142,14 +142,14 @@ S2: 0 titles fall outside the dates of their era section.
 | VA | A5 Easel Painting | 145 | 19,245 | 0.83 | 31% |
 | VA | D5 Figurative Sculpture | 138 | 4,267 | 0.81 | 38% |
 | VA | H7 Dress & Costume | 23 | 291 | 0.70 | 60% |
+| VA | J1 Photographic Schools & Movements | 18 | 3,110 | 0.68 | 29% |
 | VA | K8 East Asian Architecture | 21 | 528 | 0.68 | 29% |
 | VA | K5 Early Modern European & Colonial Architecture | 24 | 1,285 | 0.68 | 33% |
 | VA | I3 Furniture & Decorative Arts Styles | 24 | 958 | 0.67 | 22% |
 | VA | B1 Drawing | 10 | 1,395 | 0.67 | 56% |
-| VA | J1 Photographic Schools & Movements | 17 | 3,104 | 0.66 | 29% |
+| VA | B2 Printmaking | 22 | 924 | 0.66 | 26% |
 | VA | L2 Wall Painting | 51 | 779 | 0.66 | 22% |
 | VA | K4 Medieval European Architecture | 13 | 684 | 0.65 | 46% |
-| VA | B2 Printmaking | 21 | 920 | 0.65 | 27% |
 | VA | L1 Rock Art | 42 | 584 | 0.62 | 19% |
 | VA | K9 Southeast Asian Architecture | 14 | 197 | 0.60 | 36% |
 | VA | H8 Basketry, Barkcloth & Fibre Arts | 49 | 192 | 0.58 | 14% |

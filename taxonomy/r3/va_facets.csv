@@ -268,6 +268,7 @@ B2-18,Shin-hanga,Japan,1900,2000,rule
 B2-19,Sōsaku-hanga,Japan,1904,1904,rule
 B2-20,Taller de Gráfica Popular,Mesoamerica & Caribbean,1937,1937,rule
 B2-21,Ehon,Japan,1788,1788,rule
+B2-22,Indian Chromolithographs,South Asia,1870,1894,rule
 C1-1,Kufic,"Islamic world (MENA, Iran, Anatolia)",900,1989,objects
 C1-2,Maghribi Script,Sub-Saharan Africa,1400,1800,objects
 C1-3,Six Pens (al-Aqlam al-Sitta),"Islamic world (MENA, Iran, Anatolia)",1299,1922,rule
@@ -453,7 +454,7 @@ D5-51,Lega Sculpture,Sub-Saharan Africa,1800,1925,objects
 D5-52,Ndop,Sub-Saharan Africa,1700,1900,rule
 D5-53,Makonde Sculpture,Sub-Saharan Africa,1950,1959,rule
 D5-54,Fantasy Coffins,Sub-Saharan Africa,1950,1959,override
-D5-55,Ancient Egyptian Sculpture,Ancient Near East,-2686,-1650,rule
+D5-55,Ancient Egyptian Sculpture,Ancient Egypt & Nubia,-3100,-30,rule+egypt
 D5-56,Cycladic Figures,Greco-Roman & Byzantine Mediterranean,-3000,-2000,rule
 D5-57,Ancient Greek Sculpture,Greco-Roman & Byzantine Mediterranean,-323,-31,rule+mediterranean
 D5-58,Greek Terracotta Figurines,Greco-Roman & Byzantine Mediterranean,-323,-31,rule+mediterranean
@@ -693,9 +694,14 @@ E1-140,St. Johns Pottery,North America (Indigenous),-500,1565,override
 E1-141,Christian Nubian Pottery,Ancient Egypt & Nubia,550,1500,rule
 E1-142,Multan Blue Pottery,South Asia,,,rule
 E1-143,Ancient Cypriot Pottery,Western Europe,,,rule
-E1-144,Predynastic Egyptian Pottery,Ancient Near East,-4400,-3000,rule
+E1-144,Predynastic Egyptian Pottery,Ancient Egypt & Nubia,-4400,-3000,rule+egypt
 E1-145,Paracas Pottery,South America,-800,800,rule
 E1-146,Lydian Pottery,Ancient Near East,-800,-500,rule
+E1-147,Lapita Pottery,Oceania (Pacific),-1500,-500,rule
+E1-148,Sepik Pottery,Oceania (Pacific),,,rule
+E1-149,Samarra Ware,Ancient Near East,-6200,-5700,rule
+E1-150,Halaf Pottery,Ancient Near East,-6100,-5100,rule
+E1-151,Ubaid Pottery,Ancient Near East,-5500,-3700,rule
 E2-1,Seljuk Pottery,"Islamic world (MENA, Iran, Anatolia)",1000,1300,rule
 E2-2,Kashan Lustreware,"Islamic world (MENA, Iran, Anatolia)",1100,1400,rule
 E2-3,Mina'i Ware,"Islamic world (MENA, Iran, Anatolia)",1100,1300,override
@@ -710,7 +716,7 @@ E2-11,Kütahya Ceramics,"Islamic world (MENA, Iran, Anatolia)",1700,1900,rule
 E2-12,Qajar Ceramics,"Islamic world (MENA, Iran, Anatolia)",1800,1900,rule
 E2-13,Qallaline Tiles,"Islamic world (MENA, Iran, Anatolia)",1600,1900,rule
 E2-14,Jaipur Blue Pottery,South Asia,1800,1900,rule
-E2-15,Egyptian Faience,"Islamic world (MENA, Iran, Anatolia)",,,rule
+E2-15,Egyptian Faience,Ancient Egypt & Nubia,,,rule+egypt
 E2-16,Mamluk Pottery,"Islamic world (MENA, Iran, Anatolia)",1250,1517,rule
 E3-1,Khmer Ceramics,Southeast Asia,800,1400,rule
 E3-2,Sawankhalok Ware,Southeast Asia,1300,1600,rule
@@ -788,9 +794,10 @@ F1-12,Swedish Art Glass,Western Europe,1910,1919,rule
 F1-13,Lauscha Glass,Western Europe,1500,1849,override
 F1-14,Edo Glass,Japan,1615,1868,rule
 F1-15,Roman Micromosaic,Greco-Roman & Byzantine Mediterranean,1700,1800,rule
-F1-16,Egyptian Hand-Blown Glass,"Islamic world (MENA, Iran, Anatolia)",,,rule
+F1-16,Egyptian Hand-Blown Glass,Ancient Egypt & Nubia,,,rule+egypt
 F1-17,Shiraz Glass,"Islamic world (MENA, Iran, Anatolia)",1700,1900,rule
 F1-18,Krobo Beads,Sub-Saharan Africa,,,rule
+F1-19,Late Bronze Age Glass,Ancient Near East,-1500,0,rule
 F2-1,Islamic Cut Glass,"Islamic world (MENA, Iran, Anatolia)",800,1100,rule
 F2-2,Bohemian Glass,Central & Eastern Europe,1600,1700,rule
 F2-3,Edo Kiriko,Japan,1834,1834,rule
@@ -886,6 +893,7 @@ G2-10,Gakgung,Korea,1392,1897,rule
 G2-11,German Gothic Armour,Western Europe,1420,1530,rule
 G2-12,Japanese Armour,Japan,794,1868,rule
 G2-13,Kiribati Armour,Oceania (Pacific),,,rule
+G2-14,Tibetan Arms and Armour,Himalaya,1100,1900,rule
 G3-1,Fatimid Jewellery,"Islamic world (MENA, Iran, Anatolia)",900,1200,rule
 G3-2,Mughal Jewellery,South Asia,1526,1857,rule
 G3-3,Bedouin Jewellery,"Islamic world (MENA, Iran, Anatolia)",1850,1850,objects
@@ -916,8 +924,9 @@ G3-27,Kanzashi,Japan,1615,1868,rule
 G3-28,Silla Goldwork,Korea,400,600,rule
 G3-29,Tumaco-La Tolita Goldwork,South America,-600,350,override
 G3-30,Zenú Goldwork,Mesoamerica & Caribbean,-200,1000,rule
-G3-31,Ancient Egyptian Jewellery & Amulets,"Islamic world (MENA, Iran, Anatolia)",,,rule
+G3-31,Ancient Egyptian Jewellery & Amulets,Ancient Egypt & Nubia,-3100,-30,rule+egypt
 G3-32,Turkmen Jewellery,Central Asia & Silk Road,1800,2000,rule
+G3-33,Kula Valuables,Oceania (Pacific),,,rule
 H1-1,Persian Carpet,"Islamic world (MENA, Iran, Anatolia)",1501,1736,rule
 H1-2,Anatolian Rug,"Islamic world (MENA, Iran, Anatolia)",1037,1308,rule
 H1-3,Mamluk Carpet,"Islamic world (MENA, Iran, Anatolia)",1400,1600,rule
@@ -1018,6 +1027,8 @@ H3-57,Irish Linen,Western Europe,1600,1700,rule
 H3-58,Basque Linen,Western Europe,,,rule
 H3-59,Linen Damask,Western Europe,1500,1600,rule
 H3-60,Mughal Textiles,South Asia,1500,1800,rule
+H3-61,Byzantine Silk,Greco-Roman & Byzantine Mediterranean,300,1453,rule
+H3-62,Bhutanese Textiles,Himalaya,,,rule
 H4-1,Suzani,Central Asia & Silk Road,1350,1850,objects
 H4-2,Ottoman Embroidery,"Islamic world (MENA, Iran, Anatolia)",1299,1922,rule
 H4-3,Palestinian Embroidery,"Islamic world (MENA, Iran, Anatolia)",1880,1930,objects
@@ -1257,6 +1268,7 @@ H9-12,Subarctic Beadwork,North America (Indigenous),,,rule
 H9-13,Xhosa Beadwork,Sub-Saharan Africa,,,rule
 H9-14,Amazonian Featherwork,South America,,,rule
 H9-15,Huichol Art,Mesoamerica & Caribbean,,,override
+H9-16,Subarctic Floral Beadwork,North America (Indigenous),1800,1900,rule
 H10-1,Jutti,South Asia,,,rule
 H10-2,Western Leatherwork,South America,1832,2018,entries
 H10-3,Moroccan Leatherwork,"Islamic world (MENA, Iran, Anatolia)",,,rule
@@ -1378,6 +1390,7 @@ J1-14,Photo-Secession,North America (settler),1902,1902,rule
 J1-15,Group f/64,Sub-Saharan Africa,1932,1935,rule
 J1-16,Photo League,North America (settler),1936,1951,rule
 J1-17,Magnum Photos,Transnational,1947,1947,override
+J1-18,Photography in the Dutch East Indies,Southeast Asia,1850,1949,override
 K1-1,Umayyad Architecture,"Islamic world (MENA, Iran, Anatolia)",661,750,rule
 K1-2,Abbasid Architecture,"Islamic world (MENA, Iran, Anatolia)",750,1258,rule
 K1-3,Fatimid Architecture,"Islamic world (MENA, Iran, Anatolia)",909,1171,rule
@@ -1431,7 +1444,7 @@ K2-31,Zakopane Style,Central & Eastern Europe,1890,1899,rule
 K2-32,Swiss Chalet Style,Western Europe,1800,1900,rule
 K2-33,Federation Architecture,Oceania (Pacific),1890,1915,rule
 K2-34,Rustic Architecture,North America (settler),1870,1940,rule
-K3-1,Ancient Egyptian Architecture,Ancient Near East,-3000,300,rule
+K3-1,Ancient Egyptian Architecture,Ancient Egypt & Nubia,-3000,300,rule+egypt
 K3-2,Architecture of Mesopotamia,Ancient Near East,-2100,0,entries
 K3-3,Achaemenid Architecture,Ancient Near East,-550,-330,rule
 K3-4,Parthian Architecture,Ancient Near East,-247,-247,rule
@@ -1674,7 +1687,7 @@ L2-24,Ethiopian Church Painting,Sub-Saharan Africa,,,rule
 L2-25,Litema,Sub-Saharan Africa,,,rule
 L2-26,Ndebele House Painting,Sub-Saharan Africa,1935,1940,entries
 L2-27,Imigongo,Sub-Saharan Africa,,,rule
-L2-28,Egyptian Tomb Painting,"Islamic world (MENA, Iran, Anatolia)",,,rule
+L2-28,Egyptian Tomb Painting,Ancient Egypt & Nubia,-3100,-30,rule+egypt
 L2-29,Minoan Wall Painting,Greco-Roman & Byzantine Mediterranean,-1700,-1450,rule
 L2-30,Etruscan Tomb Painting,Greco-Roman & Byzantine Mediterranean,-700,-100,rule
 L2-31,Ancient Greek Painting,Greco-Roman & Byzantine Mediterranean,-500,-200,rule+mediterranean

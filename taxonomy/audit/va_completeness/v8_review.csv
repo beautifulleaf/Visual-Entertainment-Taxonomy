@@ -1,0 +1,16 @@
+family,region,decision,reason
+B,South Asia,covered,B2-22 Indian Chromolithographs added; most 'Indian' print records are bazaar prints of that tradition
+C,South Asia,false signal,the 568 'Indian' book-arts records are miniature paintings (A1); manuscripts are covered by C2-5 and A1-9 Jain Manuscript Painting
+E,Himalaya,false signal,records typed as ceramics are skull cups and Tara figures; no attested Himalayan pottery tradition found (Nixi pottery not attested here)
+F,Southeast Asia,false signal,the 3854 'Indonesian' glass records are frogs masks and figures typed as glass by their materials list
+F,North America (Indigenous),covered,the records are glass trade beads on beadwork: H9-11 Great Lakes and H9-16 Subarctic Floral Beadwork added
+F,Ancient Near East,covered,F1-19 Late Bronze Age Glass added; Phoenician core-formed glass is in F1-4
+G,Ancient Egypt & Nubia,covered,G3-31 Ancient Egyptian Jewellery & Amulets (its region facet corrected)
+G,Himalaya,covered,G2-14 Tibetan Arms and Armour added; Himalayan metal images are D5-9 and D5-11
+G,Oceania (Pacific),partly covered,G3-33 Kula Valuables added; the rest are spears and clubs (wood) with no attested leaf beyond I1-15 Fijian Clubs; pounamu is D3-9
+H,Greco-Roman & Byzantine Mediterranean,covered,H3-61 Byzantine Silk added
+H,Himalaya,covered,H3-62 Bhutanese Textiles added; Tibetan rugs H1-13 and Kashmir shawls H3-6
+I,North America (Indigenous),covered,I1-31 Northwest Coast Woodcarving holds the NW Coast records; the rest are arrows drums and pipes (arms and instruments)
+I,Oceania (Pacific),partly covered,I1-15 Fijian Clubs; the Papua New Guinea wood figures are D5 sculpture (Sepik Carving etc.); headrests and kava bowls have no attested leaf yet
+J,Southeast Asia,covered,J1-18 Photography in the Dutch East Indies added (36 labels remapped)
+E,Oceania (Pacific),covered,E1-147 Lapita Pottery and E1-148 Sepik Pottery added

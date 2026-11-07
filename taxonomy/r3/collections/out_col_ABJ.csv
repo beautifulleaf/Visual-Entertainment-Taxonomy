@@ -5,7 +5,7 @@ world_extra,Indonesian,A,general:A,mixed painted objects
 east_asia,Japan ·,A,general:A,
 east_asia,China · Qing,A,general:A,
 east_asia,Japan · Edo,A,general:A,
-world_extra,Indonesian,J,general:J,colonial Indies photography
+world_extra,Indonesian,J,missing:Photography in the Dutch East Indies,colonial Indies photography sweep: Dutch East Indies photography
 east_asia,China · Ming,A,general:A,
 east_asia,Japan · Shōwa,B,B2-15,shin-hanga and sosaku-hanga mix
 east_asia,Korea · Joseon,A,general:A,
@@ -45,7 +45,7 @@ himalaya_central_asia,Dunhuang,A,A4-14,
 world_extra,Australia,A,general:A,bark and desert paintings mixed
 islamic,Safavid,A,E2-10,"ceramics, family guess wrong"
 south_southeast_asia,Company school,B,A1-6,
-world_extra,Culture of the Indies,J,general:J,
+world_extra,Culture of the Indies,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 south_southeast_asia,Rajput: Jaipur (Amber),A,A1-7,
 south_southeast_asia,Nepalese (Newar),A,missing:Nepalese Manuscript Painting,palm-leaf folios
 islamic,Ottoman,A,E2-7,tiles and dishes
@@ -59,7 +59,7 @@ world_extra,Suriname,A,general:A,
 himalaya_central_asia,Nepal: Transitional (Thakuri),A,missing:Nepalese Manuscript Painting,
 smithsonian,San Ildefonso Pueblo,A,missing:Pueblo Painting,
 smithsonian,Non-Indian,A,exclude:non-Native items in NMAI,
-world_extra,"Indonesian, Java",J,general:J,
+world_extra,"Indonesian, Java",J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 east_asia,China ·,A,general:A,
 east_asia,Japan · Momoyama,A,general:A,
 islamic,Iran,A,general:E,
@@ -119,7 +119,7 @@ south_southeast_asia,Unspecified,A,exclude:no attribution,
 gap_sweep,Napatan and Meroitic Kush,B,exclude:label noise,
 south_southeast_asia,Ajanta,A,L2-4,copies of Ajanta murals
 smithsonian,Iñupiaq,A,general:A,
-world_extra,Sumatran,J,general:J,
+world_extra,Sumatran,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 world_extra,Burmese,A,D4-8,marionettes
 world_extra,Libya,B,general:B,
 gap_sweep,Burmese court painting,A,A1-12,
@@ -147,7 +147,7 @@ himalaya_central_asia,Qing imperial (Qianlong),A,A4-7,Qing court thangka
 world_extra,"Indonesian, Java",B,general:J,"photographs, family guess wrong"
 himalaya_central_asia,Menri,A,A4-9,
 islamic,Kashan,A,E2-2,
-world_extra,"Indonesian, Bali",J,general:J,
+world_extra,"Indonesian, Bali",J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 himalaya_central_asia,Pala / Indian style (in Tibet),A,A4-7,
 smithsonian,Buddhists,A,general:A,"Buddhist paintings, mixed origin"
 world_extra,Democratic Republic of the Congo,A,general:A,
@@ -160,7 +160,7 @@ south_southeast_asia,Rajput,B,A1-7,
 smithsonian,Muslims,A,general:E,"ceramics, family guess wrong"
 smithsonian,Kwakwaka'wakw (Kwakiutl),A,general:D,
 world_extra,Moroccan,A,exclude:ethnographic everyday objects,
-world_extra,European; Indonesian,J,general:J,
+world_extra,European; Indonesian,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 world_extra,Brazil,B,general:B,
 smithsonian,Oklahoma Cherokee,A,missing:Native American Studio Painting,
 world_extra,"Indonesian, Bali",A,A5-2,Bali paintings
@@ -175,8 +175,8 @@ islamic,Damascus,A,E2-8,Damascus ceramics
 smithsonian,Haida,A,general:D,
 world_extra,Iranian,B,general:B,
 south_southeast_asia,Sikh (Punjab),A,A1-10,
-world_extra,Central Javanese,J,general:J,
-world_extra,Indonesian; European,J,general:J,
+world_extra,Central Javanese,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
+world_extra,Indonesian; European,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 east_asia,China · 時代不詳,A,general:A,
 east_asia,China · People's Republic,A,general:A,
 gap_sweep,Ethiopian icon and panel painting (Gondarine),A,A3-1,
@@ -225,7 +225,7 @@ world_extra,Greenland,B,general:B,
 south_southeast_asia,Awadh (Lucknow),A,A1-4,
 east_asia,Korea · Goryeo,A,missing:Goryeo Buddhist Painting,
 himalaya_central_asia,Sino-Tibetan (China),A,A4-7,Sino-Tibetan thangka
-world_extra,Culture of the Indies; Dutch,J,general:J,
+world_extra,Culture of the Indies; Dutch,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 world_folk,Bencharong porcelain,A,E4-1,
 smithsonian,probably Maya (archaeological culture) (attributed),A,E1-43,
 south_southeast_asia,Murshidabad,A,A1-4,
@@ -237,10 +237,10 @@ smithsonian,Kewa (Santo Domingo Pueblo),A,E1-66,
 world_extra,European,B,general:J,"photographs, family guess wrong"
 gap_sweep,Ethiopian traditional arts (other),B,general:B,
 islamic,Iznik; Turkey,A,E2-7,
-world_extra,Dutch; Culture of the Indies,J,general:J,
+world_extra,Dutch; Culture of the Indies,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 south_southeast_asia,Unspecified (Bombay),B,B2-9,Bombay film posters
 himalaya_central_asia,Nepal: Shah,A,general:A,"Nepalese painting, mixed"
-world_extra,"European; Indonesian, Java",J,general:J,
+world_extra,"European; Indonesian, Java",J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 south_southeast_asia,Gujarat,B,general:H,"textiles, family guess wrong"
 islamic,Ottoman,B,general:J,"photographs, family guess wrong"
 islamic,Ilkhanid,A,E2-6,Ilkhanid lustre and tiles
@@ -259,7 +259,7 @@ himalaya_central_asia,Nepal: Late Malla,A,A4-13,
 islamic,Mamluk,A,general:E,
 smithsonian,Chiricahua Apache,A,general:D,
 smithsonian,Ohkay Owingeh (San Juan Pueblo),A,missing:Pueblo Painting,mixed with pottery
-world_extra,"Indonesian, Java; European",J,general:J,
+world_extra,"Indonesian, Java; European",J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 world_extra,Ethiopian,A,A3-1,
 himalaya_central_asia,Menri (Tashi Lhunpo),A,A4-9,
 smithsonian,Nisga'a (Niska),A,general:D,
@@ -285,7 +285,7 @@ smithsonian,Taos Pueblo,A,missing:Pueblo Painting,
 smithsonian,Guerrero Nahua,A,A6-14,
 world_extra,Arabian,A,general:A,
 world_extra,Yemeni,B,general:J,"photographs, family guess wrong"
-world_extra,European; Culture of the Indies,J,general:J,
+world_extra,European; Culture of the Indies,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 south_southeast_asia,Pahari: Kulu,A,A1-8,
 east_asia,China · Liao,A,general:A,
 east_asia,Japan · 1927 (Published),B,B2-18,
@@ -300,7 +300,7 @@ world_extra,Malian,A,general:D,
 smithsonian,Wixarika (Huichol),A,missing:Huichol Yarn Painting,
 smithsonian,Zia Pueblo,A,missing:Pueblo Painting,mixed with pottery
 smithsonian,Dakota Indians,A,general:A,"Catlin portraits, subject label"
-world_extra,Culture of the Indies; European,J,general:J,
+world_extra,Culture of the Indies; European,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 east_asia,Japan · 19世紀,A,general:A,
 smithsonian,Mojave (Mohave),A,general:E,
 himalaya_central_asia,Jonang Dzamthang,A,A4-7,
@@ -462,7 +462,7 @@ world_folk,"Northwest Coast carving (totem poles, masks, bentwood boxes)",A,gene
 smithsonian,Yup'ik (Yupik),A,D4-25,
 smithsonian,Warm Springs,A,exclude:ethnographic everyday objects,
 smithsonian,Fox Indians,A,general:A,"Catlin portraits, subject label"
-world_extra,Dutch; Indonesian,J,general:J,
+world_extra,Dutch; Indonesian,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 world_extra,Ottoman; Turkish,A,general:A,Ottoman costume paintings
 south_southeast_asia,Mughal,B,A1-4,
 east_asia,Japan · 20世紀,A,general:A,
@@ -473,7 +473,7 @@ smithsonian,Colville,A,A5-111,
 smithsonian,Turks,B,general:B,
 world_extra,"Indian, Deccan",A,A1-5,
 world_extra,Colonial Insular Southeast Asian periodes and styles,J,general:J,
-world_extra,Indonesian; Dutch,J,general:J,
+world_extra,Indonesian; Dutch,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 world_extra,New Guinea cultures; European,J,general:J,
 world_extra,Papua cultures: south coast; Papua cultures: southwest coast,B,general:B,
 south_southeast_asia,Indonesian,B,general:H,"textiles, family guess wrong"
@@ -529,7 +529,7 @@ smithsonian,Nahua [Olinalá],A,I2-15,Olinalá lacquer
 world_extra,Arabian,B,general:J,"photographs, family guess wrong"
 world_extra,Ngaju,B,exclude:ethnographic everyday objects,
 world_extra,Togo,A,general:D,puppets
-world_extra,Classical Balinese period,J,general:J,
+world_extra,Classical Balinese period,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 world_extra,Papua cultures: southwest coast; Papua cultures: south coast,B,general:B,
 africa_oceania_targeted,Samoan,A,H8-24,
 south_southeast_asia,Pahari: Chamba,A,A1-8,
@@ -602,7 +602,7 @@ world_extra,Classical Balinese period,A,A4-15,Kamasan-style paintings
 world_extra,Angola,A,general:D,
 world_extra,Native North American,B,general:B,"Bodmer prints, subject label"
 world_extra,Azerbaijan,B,general:B,
-world_extra,"Dutch; Indonesian, Java",J,general:J,
+world_extra,"Dutch; Indonesian, Java",J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 east_asia,Japan · c. 1930,B,B2-18,
 europe_folk,wd:Q2876208,A,A3-6,
 europe_folk,people:roma:popular_prints,B,B2-8,
@@ -613,7 +613,7 @@ smithsonian,Chaticks Si Chaticks (Pawnee),A,A5-111,
 smithsonian,Mescalero Apache,A,missing:Native American Studio Painting,
 smithsonian,probably Hopi-Tewa (attributed),A,E1-68,
 smithsonian,Arabs,B,general:B,"Orientalist prints, subject label"
-world_extra,West Javanese,J,general:J,
+world_extra,West Javanese,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 world_extra,Culture of the Indies,B,general:B,
 world_extra,Ivory Coast,A,general:D,
 world_extra,Belgian,B,exclude:botanical illustration,
@@ -672,7 +672,7 @@ world_extra,Colonial Insular Southeast Asian periodes and styles,A,general:A,
 world_extra,Yemeni,A,exclude:ethnographic everyday objects,
 world_extra,Thai,B,general:B,
 world_extra,German,B,general:B,
-world_extra,"Indonesian, Java; Dutch",J,general:J,
+world_extra,"Indonesian, Java; Dutch",J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 world_extra,Polish,A,A6-20,
 south_southeast_asia,Bengal,B,general:B,
 south_southeast_asia,Unspecified (Rajasthan),A,general:A,
@@ -716,9 +716,9 @@ world_extra,"Chinese, Beijing",B,missing:Qianlong Conquest Engravings,
 world_extra,Sumatran,B,general:J,"photographs, family guess wrong"
 world_extra,Panamanian,A,general:E,
 world_extra,Saudi Arabian,B,general:B,
-world_extra,Borneo,J,general:J,
+world_extra,Borneo,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 world_extra,Papua New Guinean,J,general:J,
-world_extra,Culture of the Indies; Indonesian,J,general:J,
+world_extra,Culture of the Indies; Indonesian,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 world_extra,Timor-Leste,A,general:D,
 world_extra,Israeli,B,general:B,
 africa_oceania_targeted,Unspecified (Ghana),A,general:A,
@@ -750,7 +750,7 @@ smithsonian,Kaw (Kansa),A,general:A,
 smithsonian,Sac and Fox (Sauk & Fox),A,A4-18,parfleche painting
 smithsonian,"Pikuni (Piegan) [Blackfeet Nation, Browning, Montana]",A,B1-2,contemporary ledger art
 smithsonian,Osage Indians,A,general:A,"Catlin portraits, subject label"
-world_extra,Lombok,J,general:J,
+world_extra,Lombok,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 world_extra,Yemeni,J,general:J,
 world_extra,East Javanese,A,general:A,
 world_extra,Lampung,J,general:J,
@@ -782,14 +782,14 @@ smithsonian,Creek Indians,B,general:B,"McKenney-Hall lithographs, subject label"
 world_extra,"Chinese, Canton",A,missing:Chinese Export Painting,
 world_extra,"Japanese, Nagasaki",B,missing:Nagasaki-e,
 world_extra,Makassar,J,general:J,
-world_extra,Tanimbar,J,general:J,
-world_extra,Moluccan,J,general:J,
+world_extra,Tanimbar,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
+world_extra,Moluccan,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 world_extra,Zambia,A,exclude:ethnographic everyday objects,
 world_extra,Syrian,B,general:B,
-world_extra,European; Sumatran,J,general:J,
-world_extra,East Javanese,J,general:J,
+world_extra,European; Sumatran,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
+world_extra,East Javanese,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 world_extra,"Edo, Benin Kingdom",A,general:D,
-world_extra,Indonesian; Culture of the Indies,J,general:J,
+world_extra,Indonesian; Culture of the Indies,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 east_asia,Japan · 1938年,J,exclude:photographs of artworks,
 east_asia,Japan · 1957年,J,exclude:photographs of artworks,
 east_asia,China · Republic,B,missing:Chinese Modern Woodcut Movement,
@@ -875,7 +875,7 @@ world_extra,European; Aceh,J,general:J,
 world_extra,Malaysian,J,general:J,
 world_extra,Peranakan,J,general:J,
 world_extra,Toraja,J,general:J,
-world_extra,Dutch; Sumatran,J,general:J,
+world_extra,Dutch; Sumatran,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 world_extra,Austrian,A,general:D,
 world_extra,Kyoto,A,general:A,
 world_extra,Moroccan,J,general:J,
@@ -968,7 +968,7 @@ smithsonian,Arabs,A,A5-114,
 smithsonian,Turks,A,general:A,subject label
 smithsonian,Seminole Indians,B,general:B,"McKenney-Hall lithographs, subject label"
 world_extra,"Indian, Orissa",B,A4-1,
-world_extra,Sumatran; European,J,general:J,
+world_extra,Sumatran; European,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 world_extra,Russian,B,general:J,"photographs, family guess wrong"
 world_extra,European,A,general:A,
 world_extra,Liberia,A,general:D,
@@ -1042,7 +1042,7 @@ world_extra,Southern Sulwesi,J,general:J,
 world_extra,Peruvian,B,exclude:aerial photographs,
 world_extra,Zambezi River Region,J,general:J,
 world_extra,Madagascar,J,general:J,
-world_extra,Indonesian; Dutch; Culture of the Indies,J,general:J,
+world_extra,Indonesian; Dutch; Culture of the Indies,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 africa_oceania_targeted,Maori: other iwi,A,D5-81,
 africa_oceania_targeted,Melanesian,A,general:D,
 americas_oceania,Hawaiian,B,general:H,"textiles, family guess wrong"
@@ -1121,7 +1121,7 @@ world_extra,Berber,B,general:B,
 world_extra,Azerbaijan,A,general:A,
 world_extra,"Batak, Toba",J,general:J,
 world_extra,African,J,general:J,
-world_extra,Sumatran; Dutch,J,general:J,
+world_extra,Sumatran; Dutch,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 world_extra,"Ancient, Persian",A,E2-12,Qajar tile panels
 world_extra,Filipino,A,general:A,
 world_extra,Cuba,A,general:A,
@@ -1308,7 +1308,7 @@ world_extra,"Indian, Mewar",B,A1-7,
 world_extra,Italian,B,general:B,
 world_extra,Malay; Malaysian,B,general:J,"photographs, family guess wrong"
 world_extra,East Sumatran,B,general:J,"photographs, family guess wrong"
-world_extra,Classical Javanese period,J,general:J,
+world_extra,Classical Javanese period,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 world_extra,European; Papua cultures,J,general:J,
 world_extra,French,J,general:J,
 world_extra,West Asian peoples and cultures; Dutch,B,general:J,"photographs, family guess wrong"
@@ -1324,9 +1324,9 @@ world_extra,Papua New Guinea cultures,B,general:B,
 world_extra,"Marind, Western Marind",A,general:J,"photographs, family guess wrong"
 world_extra,South African,B,exclude:rock art copies,
 world_extra,Jamaica,J,general:J,
-world_extra,"European; Indonesian, Bali",J,general:J,
+world_extra,"European; Indonesian, Bali",J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 world_extra,Sepik cultures,J,general:J,
-world_extra,Dutch; Culture of the Indies; Indonesian,J,general:J,
+world_extra,Dutch; Culture of the Indies; Indonesian,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 world_extra,Niger,A,exclude:ethnographic everyday objects,
 world_extra,Mithila,A,A6-1,
 africa_oceania_targeted,Bobo,A,general:D,masks
@@ -1473,7 +1473,7 @@ world_extra,Polynesian,B,general:B,
 world_extra,Palembang,J,general:J,
 world_extra,Chinese; European,J,general:J,
 world_extra,Cambodian,B,general:J,"photographs, family guess wrong"
-world_extra,Culture of the Indies; European; Indonesian,J,general:J,
+world_extra,Culture of the Indies; European; Indonesian,J,missing:Photography in the Dutch East Indies, sweep: Dutch East Indies photography
 world_extra,Portuguese,J,general:J,
 world_extra,Kenyan,B,general:B,
 world_extra,Mughal,B,general:B,

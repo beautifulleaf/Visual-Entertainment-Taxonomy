@@ -46,7 +46,7 @@ DYN = {  # names of dynasties and periods -> (start, end)
  "romanesque": (1000, 1200), "gothic": (1140, 1500), "renaissance": (1400, 1600), "baroque": (1600, 1750), "rococo": (1720, 1780),
  "neoclassical": (1750, 1850), "victorian": (1837, 1901), "minoan": (-3000, -1100), "mycenaean": (-1750, -1050),
  "cycladic": (-3200, -2000), "hellenistic": (-323, -31), "old kingdom": (-2686, -2181), "middle kingdom": (-2055, -1650), "new kingdom": (-1550, -1069),
- "predynastic": (-4400, -3100), "inca": (1438, 1533), "aztec": (1325, 1521), "moche": (100, 800), "nazca": (-100, 800),
+ "predynastic": (-4400, -3100), "pharaonic": (-3100, -30), "inca": (1438, 1533), "aztec": (1325, 1521), "moche": (100, 800), "nazca": (-100, 800),
  "paracas": (-800, -100), "wari": (600, 1000), "chimu": (900, 1470), "olmec": (-1500, -400), "teotihuacan": (-100, 550),
  "classic maya": (250, 900), "toltec": (900, 1168), "nok": (-1500, 500), "ife": (1000, 1450),
 }
@@ -160,6 +160,11 @@ def compute(tree, ROWS, verbose=False):
                                  for y in (period_of(str(r[2])) or ()) if -5000 <= y <= 2026)
                     if len(pts) >= 4: per = (pts[len(pts) // 10], pts[(len(pts) * 9) // 10]); how = "entries"
                 if reg and per: reg = CA.era_fix(reg, per[0], lab + " " + al)
+                # pharaonic Egypt is Ancient Egypt & Nubia, not the Islamic world (an undated Egyptian leaf missed era_fix)
+                if reg in ("Islamic world (MENA, Iran, Anatolia)", "Ancient Near East") and (not per or per[0] < 700) and \
+                        (re.search(r"\b(pharaonic|ancient egypt|predynastic|egyptian faience)", fold(lab + " " + de)) or
+                         re.search(r"\b(egypt|nubia|kerma|meroitic|napatan|kushite)", fold(lab))):
+                    reg = "Ancient Egypt & Nubia"; how = how + "+egypt"
                 # ancient Greek, Roman, Etruscan, Aegean and Byzantine work is the Mediterranean region, not modern Europe
                 if reg in ("Western Europe", "Central & Eastern Europe") and per and per[0] < 1453 and \
                         (re.search(r"\b(greek|greece|hellen|roman empire|ancient rom|etrusc|minoan|mycen|cycladic|late antique|attic|corinth|laconian|apulian|south italian|campanian)", fold(lab + " " + de[:200])) or re.search(r"\bbyzant", fold(lab))) and \

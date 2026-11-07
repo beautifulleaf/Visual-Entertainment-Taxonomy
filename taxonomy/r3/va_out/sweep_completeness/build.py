@@ -284,6 +284,166 @@ L += [
          collections_from=["Kwoma Bark Painting"]),
 ]
 
+# Region x medium sweep (owner, 2026-11-07, "vet the 15 flagged cells"; completeness check V8). Each leaf answers a
+# medium x region cell where the museum records or the sourcing grid show a body of work and the tree had none.
+L += [
+    dict(key="INDCHR", sub="B2", label="Indian Chromolithographs", breadth="medium",
+         defn="Colour lithographs of gods, epics and national heroes printed in India from the 1870s for the popular market: "
+              "the Calcutta Art Studio, the Chitrashala Press of Pune and the Ravi Varma Press (Bombay 1894, then Malavli), whose "
+              "prints after Raja Ravi Varma fixed the modern image of the Hindu gods; the source of the later calendar and bazaar print.",
+         aliases="Indian oleographs; bazaar prints; calendar art; Ravi Varma prints", see="A6 Folk & Popular Painting; A5 Easel Painting",
+         src=[[W + "Raja_Ravi_Varma", "Wikipedia"]],
+         catalogues=[bm("Ravi Varma Press", "Ravi Varma Press prints in the British Museum"),
+                     ["https://collections.vam.ac.uk/search/?q=chromolithograph+India", "V&A collection search: Indian chromolithographs", "Indian popular prints in the Victoria and Albert Museum"]],
+         axis="presses in order of founding, then holding institutions",
+         kinds=[k("Calcutta Art Studio", "Centres & workshops", "Calcutta, from the 1870s", W + "Raja_Ravi_Varma"),
+                k("Chitrashala Press", "Centres & workshops", "Pune, from 1878", W + "Raja_Ravi_Varma"),
+                k("Ravi Varma Press", "Centres & workshops", "Bombay 1894, Malavli 1899", W + "Raja_Ravi_Varma")],
+         collections_from=["Indian Chromolithographs"]),
+    dict(key="DEIPHO", sub="J1", label="Photography in the Dutch East Indies", breadth="medium",
+         defn="Photography made in the Dutch East Indies (Indonesia) from the 1850s to 1949: the studio and topographic work of "
+              "Woodbury & Page and Isidore van Kinsbergen, archaeological survey photographs of Borobudur and Prambanan, colonial "
+              "ethnographic photography, and Kassian Cephas, court photographer at Yogyakarta and the first Indonesian professional.",
+         aliases="Netherlands Indies photography; colonial photography of Indonesia", see="J1-7 Early Photography; J1-12 Documentary Photography",
+         src=[[W + "Kassian_Cephas", "Wikipedia"], ["http://www.photo-web.com.au/gote/01-GN/index.html", "Garden of the East: Photography in Indonesia 1850s–1940s"]],
+         catalogues=[["https://collectie.wereldculturen.nl/#/query/foto%20Indonesi%C3%AB", "Wereldmuseum (Tropenmuseum) collection search", "the national collection of Dutch East Indies photographs"],
+                     ["https://digitalcollections.universiteitleiden.nl/", "Leiden University Digital Collections (KITLV)", "the KITLV photograph collection of the Indies"]],
+         axis="photographers and studios in order of activity, then holding institutions",
+         kinds=[k("Woodbury & Page", "Makers", "British studio in Batavia from 1857", "http://www.photo-web.com.au/gote/01-GN/index.html"),
+                k("Isidore van Kinsbergen", "Makers", "photographer of Javanese antiquities, 1860s", "http://www.photo-web.com.au/gote/01-GN/index.html"),
+                k("Kassian Cephas", "Makers", "Yogyakarta court photographer, 1845–1912", W + "Kassian_Cephas")],
+         collections_from=["Photography in the Dutch East Indies"]),
+    dict(key="LAPPOT", sub="E1", label="Lapita Pottery", breadth="narrow",
+         defn="Low-fired earthenware of the Lapita culture of the western Pacific (c. 1500–500 BCE), tempered with shell or sand and "
+              "decorated with dentate-stamped geometric designs, carried from the Bismarck Archipelago to Fiji, Tonga and Samoa by "
+              "the ancestors of the Polynesians; plain ware followed it before pottery ceased in Western Polynesia.",
+         aliases="Lapita ware; dentate-stamped pottery", see="E1 Sepik Pottery",
+         src=[[W + "Lapita_culture", "Wikipedia"]],
+         catalogues=[["https://collections.tepapa.govt.nz/search/Lapita", "Te Papa collections search: Lapita", "Lapita sherds and vessels at Te Papa"]],
+         axis="sub-types, then holding institutions",
+         kinds=[k("Dentate-stamped ware", "Sub-types", "geometric designs pressed with a toothed stamp", W + "Lapita_culture"),
+                k("Plain ware", "Sub-types", "the undecorated pottery that followed Lapita", W + "Lapita_culture")],
+         collections_from=[]),
+    dict(key="SEPPOT", sub="E1", label="Sepik Pottery", breadth="narrow",
+         defn="Coiled earthenware of the Sepik River region of Papua New Guinea: the incised and painted storage jars, sago bowls "
+              "and hooks of the Sawos and the modelled, face-decorated pots of Aibom on Chambri Lake, traded along the river.",
+         aliases="Aibom pottery; Sawos pottery", see="D5-85 Sepik Carving; E1 Lapita Pottery",
+         src=[[W + "Sepik", "Wikipedia (the region; no article on the pottery found)"]],
+         catalogues=[met("Sepik pottery", "Sepik pottery in the Metropolitan Museum")],
+         axis="centres, then holding institutions",
+         kinds=[k("Aibom", "Centres & workshops", "Chambri Lake pottery village", W + "Sepik"),
+                k("Sawos", "Centres & workshops", "villages north of the middle Sepik", W + "Sepik")],
+         collections_from=["Sepik pottery"]),
+    dict(key="LBAGLA", sub="F1", label="Late Bronze Age Glass", breadth="narrow",
+         defn="The first glass vessels, made in Mesopotamia and New Kingdom Egypt c. 1500–1100 BCE by core-forming over a removable "
+              "core, by casting and as mosaic glass, for temples, palaces and elite burials; the Mediterranean core-formed industry of "
+              "the 6th–1st century BCE is F1-4.",
+         aliases="Mesopotamian glass; New Kingdom glass; core-formed glass (Bronze Age)", see="F1-4 Hellenistic Glass; E2-15 Egyptian Faience",
+         src=[["https://resources.metmuseum.org/resources/metpublications/pdf/Ars_Vitraria_Glass_in_The_Metropolitan_Museum_of_Art_The_Metropolitan_Museum_of_Art_Bulletin_v_59_no_1_Summer_2001.pdf", "The Met, Ars Vitraria (2001)"],
+              ["https://www.getty.edu/publications/ancient-glass/", "Getty, Ancient Glass in the J. Paul Getty Museum"]],
+         catalogues=[met("core-formed glass", "core-formed glass in the Metropolitan Museum"), bm("Egyptian glass", "Egyptian glass in the British Museum")],
+         axis="techniques, then holding institutions",
+         kinds=[k("Bronze Age core-formed vessels", "Sub-types", "glass trailed over a removable core", "https://www.getty.edu/publications/ancient-glass/"),
+                k("Cast and mosaic glass", "Sub-types", "glass cast in moulds or fused from coloured canes", "https://www.getty.edu/publications/ancient-glass/")],
+         collections_from=[]),
+    dict(key="TIBARM", sub="G2", label="Tibetan Arms and Armour", breadth="narrow",
+         defn="The decorated arms, armour and horse equipment of Tibet's elite (12th–19th century): lamellar armour, helmets, "
+              "swords with chased and pierced iron and silver mounts, saddles and stirrups in damascened iron, many made for "
+              "aristocrats, monasteries and ceremonial cavalry.",
+         aliases="Tibetan armor; Tibetan weapons", see="D5-11 Tibetan Buddhist Sculpture; H1-13 Tibetan Rug",
+         src=[[W + "Tibetan_art", "Wikipedia (secular art)"]],
+         catalogues=[met("Tibetan arms and armor", "Tibetan arms and armour in the Metropolitan Museum")],
+         axis="sub-types, then holding institutions",
+         kinds=[k("Lamellar armour", "Sub-types", "armour of laced iron plates", W + "Tibetan_art"),
+                k("Horse equipment", "Sub-types", "saddles, stirrups and bridles in decorated iron", W + "Tibetan_art")],
+         collections_from=["Tibetan Arms and Armour"]),
+    dict(key="KULVAL", sub="G3", label="Kula Valuables", breadth="narrow",
+         defn="The shell valuables exchanged in the Kula ring of the Massim islands of Papua New Guinea: mwali armshells travelling "
+              "one way round the ring and soulava necklaces of red spondylus shell discs travelling the other, each with its own "
+              "history of owners.",
+         aliases="mwali; soulava; bagi", see="H9 Beadwork, Quillwork & Featherwork",
+         src=[[W + "Kula_ring", "Wikipedia"]],
+         catalogues=[bm("Massim armshell", "Massim armshells and necklaces in the British Museum")],
+         axis="sub-types, then holding institutions",
+         kinds=[k("Mwali", "Sub-types", "white conus-shell armshells", W + "Kula_ring"),
+                k("Soulava", "Sub-types", "necklaces of red spondylus shell discs", W + "Kula_ring")],
+         collections_from=[]),
+    dict(key="BYZSLK", sub="H3", label="Byzantine Silk", breadth="narrow",
+         defn="Silk woven in the Byzantine Empire from about the 4th century to 1453, Constantinople being Europe's first great "
+              "silk-weaving centre: imperial and church samites with lions, eagles, hunters and charioteers, used as diplomatic gifts "
+              "and as shrouds for relics, and regulated as an imperial monopoly.",
+         aliases="Byzantine samite; Constantinople silk", see="H3-27 Coptic Textiles; G1-69 Byzantine Silver; G1-46 Byzantine Enamel",
+         src=[[W + "Byzantine_silk", "Wikipedia"]],
+         catalogues=[met("Byzantine silk", "Byzantine silks in the Metropolitan Museum"),
+                     ["https://collections.vam.ac.uk/search/?q=Byzantine+silk", "V&A collection search: Byzantine silk", "Byzantine silks in the Victoria and Albert Museum"]],
+         axis="sub-types, then holding institutions",
+         kinds=[k("Samite", "Sub-types", "weft-faced compound twill of the imperial workshops", W + "Byzantine_silk")],
+         collections_from=[]),
+    dict(key="BHUTEX", sub="H3", label="Bhutanese Textiles", breadth="medium",
+         defn="The handwoven textiles of Bhutan, woven by women on backstrap and frame looms for the kira and gho and for gifts that "
+              "mark births, deaths, weddings and honours: plain weaves, warp-pattern weaves, and the continuous (sapma) and "
+              "discontinuous (tigma) supplementary-weft patterns of the silk kishuthara and woollen yathra.",
+         aliases="kishuthara; yathra; kira; gho", see="A4 Cloth & Scroll Painting; H1-13 Tibetan Rug",
+         src=[[W + "Textiles_of_Bhutan", "Wikipedia"], [W + "Bhutanese_art", "Wikipedia"]],
+         catalogues=[["https://www.textile.gov.bt/", "Royal Textile Academy of Bhutan", "the national textile museum in Thimphu"],
+                     met("Bhutanese textile", "Bhutanese textiles in the Metropolitan Museum")],
+         axis="weaves, then holding institutions",
+         kinds=[k("Kishuthara", "Sub-types", "silk kira with dense supplementary-weft patterns", W + "Textiles_of_Bhutan"),
+                k("Yathra", "Sub-types", "vegetable-dyed woollen cloth of Bumthang", W + "Bhutanese_art"),
+                k("Warp-pattern weaves", "Sub-types", "patterns made by the warp", W + "Textiles_of_Bhutan"),
+                k("Sapma and tigma", "Sub-types", "continuous and discontinuous supplementary-weft patterns", W + "Textiles_of_Bhutan")],
+         collections_from=[]),
+    dict(key="GLKBEA", sub="H9", label="Great Lakes Floral Beadwork", breadth="medium",
+         defn="Floral glass-bead embroidery of the Anishinaabe (Ojibwe, Odawa, Potawatomi), Ho-Chunk and Menominee of the Great Lakes, "
+              "learned in part from Ursuline nuns' floral needlework: bandolier bags (gashkibidaagan), moccasins, leggings, garters and "
+              "shirts, with loom-woven as well as spot-stitched work.",
+         aliases="Woodlands floral beadwork; Ojibwe beadwork; bandolier bags", see="H9-6 Plains Beadwork; H9-7 Haudenosaunee Raised Beadwork; H4-39 Ribbonwork",
+         src=[[W + "Beadwork", "Wikipedia (Great Lakes tribes)"]],
+         catalogues=[["https://collections.si.edu/search/results.htm?q=Ojibwe+beadwork&fq=data_source%3A%22National+Museum+of+the+American+Indian%22", "Smithsonian NMAI search: Ojibwe beadwork", "Great Lakes beadwork in the National Museum of the American Indian"]],
+         axis="peoples, then holding institutions",
+         kinds=[k("Bandolier bags (gashkibidaagan)", "Sub-types", "fully beaded shoulder bags", W + "Beadwork")],
+         collections_from=["Great Lakes floral beadwork"]),
+    dict(key="SUBBEA", sub="H9", label="Subarctic Floral Beadwork", breadth="medium",
+         defn="Floral glass-bead embroidery on hide and stroud of the Cree, Dene and Métis of the Canadian Subarctic, the Métis being "
+              "known as the Flower Beadwork People: moccasins, mittens, gauntlets, octopus bags and tunics, from the 19th century, "
+              "alongside moosehair and porcupine-quill embroidery.",
+         aliases="Métis floral beadwork; Flower Beadwork People; Cree beadwork; Dene beadwork", see="H4-40 Moosehair Embroidery; H9-6 Plains Beadwork",
+         src=[[W + "Beadwork", "Wikipedia (Métis Nation)"], [W + "Indigenous_peoples_of_the_Subarctic", "Wikipedia"], [W + "Métis_Art", "Wikipedia"]],
+         catalogues=[["https://collections.si.edu/search/results.htm?q=Cree+beadwork&fq=data_source%3A%22National+Museum+of+the+American+Indian%22", "Smithsonian NMAI search: Cree beadwork", "Subarctic beadwork in the National Museum of the American Indian"]],
+         axis="peoples, then holding institutions",
+         kinds=[k("Métis", "Sub-types", "the Flower Beadwork People", W + "Métis_Art"),
+                k("Cree and Dene", "Sub-types", "Subarctic First Nations floral beadwork", W + "Indigenous_peoples_of_the_Subarctic")],
+         collections_from=["Subarctic beadwork"]),
+]
+
+# Ceramics x Ancient Near East (V8, 34 traditions in the sourcing grid against 2 leaves): the prehistoric painted wares
+# of Mesopotamia, each with its own article.
+L += [
+    dict(key="SAMWAR", sub="E1", label="Samarra Ware", breadth="narrow",
+         defn="Painted pottery of the Samarra culture of northern and central Mesopotamia (c. 6200–5700 BCE): fine buff wares "
+              "painted in dark brown with geometric bands and whirling figures of women, birds, fish and scorpions, named after the "
+              "finds at Samarra on the Tigris.",
+         aliases="Samarran pottery", see="E1 Halaf Pottery; E1 Ubaid Pottery",
+         src=[[W + "Samarra_culture", "Wikipedia"]],
+         catalogues=[bm("Samarra pottery", "Samarra pottery in the British Museum")],
+         axis="holding institutions", kinds=[], collections_from=[]),
+    dict(key="HALPOT", sub="E1", label="Halaf Pottery", breadth="narrow",
+         defn="The polychrome painted pottery of the Halaf culture of northern Mesopotamia and Syria (c. 6100–5100 BCE), fired in "
+              "two-chambered kilns: thin-walled bowls and jars painted in red, black and white with bucrania, rosettes, Maltese "
+              "squares and checker patterns.",
+         aliases="Halafian pottery", see="E1 Samarra Ware; E1 Ubaid Pottery",
+         src=[[W + "Halaf_culture", "Wikipedia"]],
+         catalogues=[met("Halaf", "Halaf pottery in the Metropolitan Museum"), bm("Halaf", "Halaf pottery in the British Museum")],
+         axis="holding institutions", kinds=[], collections_from=[]),
+    dict(key="UBAPOT", sub="E1", label="Ubaid Pottery", breadth="narrow",
+         defn="The greenish-buff pottery of the Ubaid period of Mesopotamia (c. 5500–3700 BCE), painted in dark geometric designs and "
+              "increasingly made on the slow wheel, spread from southern Iraq to the Gulf and Anatolia before the Uruk period.",
+         aliases="Ubaid ware", see="E1 Samarra Ware; E1 Halaf Pottery",
+         src=[[W + "Ubaid_period", "Wikipedia"]],
+         catalogues=[bm("Ubaid", "Ubaid pottery in the British Museum")],
+         axis="holding institutions", kinds=[], collections_from=[]),
+]
+
 json.dump(dict(leaves={}, new_leaves=L, moves_out=[], dropped=[]),
           open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "result.json"), "w"), ensure_ascii=False, indent=1)
 print(len(L), "new leaves")

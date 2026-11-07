@@ -362,6 +362,8 @@ def main():
         if reg is None: reg = regcache[k["label"]] = VF.region_of(k["label"]) or ""
         if reg: rec_cell[(reg, fam)] += k["objects"]
     grid_rows = []
+    rv8 = os.path.join(OUT, "v8_review.csv")
+    v8rev = {(r["family"], r["region"]): r for r in csv.DictReader(open(rv8))} if os.path.exists(rv8) else {}
     for fam in sorted(FAM_MEDIA):
         for reg in VF.CA.REGIONS:
             n, rec, st_ = leaves_cell[(reg, fam)], rec_cell[(reg, fam)], src_trad[(reg, fam)]
@@ -369,6 +371,8 @@ def main():
             ev = []
             if rec >= 1000: ev.append(f"{rec:,} museum records")
             if st_ >= 5: ev.append(f"{st_} traditions in the sourcing grid")
+            if (fam, reg) in v8rev:
+                continue
             if n == 0 and ev:
                 flag("V8", "high" if rec >= 3000 or st_ >= 15 else "medium", f"{fam} {famlabel_.get(fam, '')} × {reg}",
                      "no leaf in this medium for this region, but the evidence shows a body of work", "; ".join(ev))
@@ -422,6 +426,10 @@ def main():
             cells.append(f"**{txt}**" if n == 0 and (rec >= 1000 or st_ >= 5) else txt)
         L.append(f"| {reg} | " + " | ".join(cells) + " |")
     L.append("")
+    if v8rev:
+        L += ["Reviewed cells (`v8_review.csv`):", "", "| Cell | Decision | Reason |", "|---|---|---|"]
+        L += [f"| {r['family']} × {r['region']} | {r['decision']} | {r['reason']} |" for r in v8rev.values()]
+        L.append("")
     for ch, title in (("V8", "Region × medium gaps"), ("V2", "Qualified labels resolved only to general (top 15)"), ("V3", "Culture × medium gaps (top 15)"),
                       ("V4", "Open named traditions (top 15)"), ("V6", "Leaf completeness (high and medium, top 15)")):
         sel = [f for f in flags if f["check"] == ch and (ch != "V6" or f["severity"] != "low")][:15]

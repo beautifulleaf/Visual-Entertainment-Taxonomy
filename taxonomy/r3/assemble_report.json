@@ -185,6 +185,19 @@
   "G3-32",
   "G1-73",
   "A6-32",
+  "B2-22",
+  "J1-18",
+  "E1-147",
+  "E1-148",
+  "F1-19",
+  "G2-14",
+  "G3-33",
+  "H3-61",
+  "H3-62",
+  "H9-16",
+  "E1-149",
+  "E1-150",
+  "E1-151",
   "H7-23"
  ],
  "va_moved": 3224,
@@ -204,8 +217,8 @@
  "collections": {
   "work_rows_removed": 22666,
   "old_collections_rows": 3075,
-  "leaves": 1513,
-  "institution_rows": 2653,
+  "leaves": 1526,
+  "institution_rows": 2659,
   "artist_leaf_work_rows_removed": 294,
   "sites_kept": 5527
  },
@@ -534,7 +547,7 @@
   "va_entries_dropped": 14,
   "va_entries_qualified": 17,
   "see_code_dropped": 54,
-  "see_relinked": 452,
+  "see_relinked": 460,
   "see_to_entry": 2,
   "see_dropped": 1,
   "finder_titles_repointed": 21,
@@ -669,8 +682,8 @@
  },
  "structure_fixes": {},
  "va_facets": {
-  "leaves": 1782,
-  "undated": 423
+  "leaves": 1795,
+  "undated": 424
  },
  "links": {
   "corrected": 7,
