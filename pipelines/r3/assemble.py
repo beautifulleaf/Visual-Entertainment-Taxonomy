@@ -232,6 +232,50 @@ def remap_text(s, leafmap):
     return re.sub(r"\b[ABCDEG]\d{1,2}(?:-\d{1,3})?\b", sub, s)
 
 
+def apply_startlist(subs, rows, report):
+    """TSPDT Starting List films (owner: every one gets a home): rule placements (decided.csv) and pass
+    placements (out_<batch>.csv, new_leaves_<batch>.json); 'out' rows become finder notes."""
+    O = os.path.join(R3, "startlist")
+    if not os.path.exists(os.path.join(O, "decided.csv")): return
+    leafobj = {l["code"]: l for s in subs.values() for l in s["leaves"]}
+    placed = {k[5] for rs in rows.values() for k in rs}
+    info = {}
+    for f in glob.glob(os.path.join(O, "in_*.csv")) + [os.path.join(O, "decided.csv")]:
+        for r in csv.DictReader(open(f)): info[r["id"]] = r
+    st = collections.Counter(); outs = []
+    def add(r, leaf, sec, note):
+        if r["id"] in placed: st["dup"] += 1; return
+        L = leafobj[leaf]; sec = (sec or "").strip()
+        if sec.startswith("new:"):
+            lab = sec[4:].strip(); L.setdefault("secs", [])
+            if lab not in L["secs"]: L["secs"].append(lab)
+            sec = str(L["secs"].index(lab) + 1)
+        kind = "tv" if leaf[0] == "B" else "film"
+        country = (r.get("country") or "")
+        rows[leaf].append([r["title"], r["year"], r["who"], "", (note or "").strip(), r["id"] if r["id"].startswith("tt") else "",
+                           "", kind, sec if (L.get("secs") and sec) else "", country])
+        placed.add(r["id"]); st["placed"] += 1
+    for r in csv.DictReader(open(os.path.join(O, "decided.csv"))):
+        if r["leaf"] in leafobj: add(r, r["leaf"], "", "")
+    for f in sorted(glob.glob(os.path.join(O, "out_*.csv"))):
+        b = os.path.basename(f)[4:-4]; key2code = {}
+        nf = os.path.join(O, f"new_leaves_{b}.json")
+        for nl in (json.load(open(nf)) if os.path.exists(nf) else []):
+            sub = subs.get(nl["sub"])
+            if not sub: continue
+            code = f"{nl['sub']}-{max(int(l['code'].split('-')[1]) for l in sub['leaves']) + 1}"
+            L = dict(code=code, label=nl["label"], breadth=nl.get("breadth", "narrow"), defn=nl["defn"], aliases=nl.get("aliases", ""),
+                     see=nl.get("see", ""), src=nl.get("src", []), weak="", secs=list(nl.get("secs") or []), axis=nl.get("axis", ""))
+            sub["leaves"].append(L); leafobj[code] = L; key2code[nl["key"]] = code; st["new_leaf"] += 1
+        for a in csv.DictReader(open(f)):
+            r = info.get(a["id"]); lf = key2code.get(a["leaf"].strip(), a["leaf"].strip())
+            if not r: continue
+            if lf == "out": outs.append([r["title"], a.get("note", "")]); st["out"] += 1; continue
+            if lf in leafobj: add(r, lf, a.get("sec", ""), a.get("note", ""))
+            else: st["bad_leaf"] += 1
+    report["startlist"] = dict(st); report["startlist_out"] = outs[:200]
+
+
 DROP_COVERAGE_LEAVES = {"news & current affairs"}  # news is not entertainment (B16 decision)
 
 
@@ -375,6 +419,7 @@ def build_ft(src, tree, partial, report):
         old2new[r["old_leaf"]][lf] += 1
     report["ft_routed"] = len(routed); report["ft_web_override"] = len(web_extra)
     apply_coverage(subs, rows, cc, report)
+    apply_startlist(subs, rows, report)
     if web_extra:
         with open(os.path.join(R3, "web_series_removed.csv"), "a", newline="") as fo:
             w = csv.DictWriter(fo, fieldnames=["id", "title", "year", "who", "old_leaf", "reason"])
