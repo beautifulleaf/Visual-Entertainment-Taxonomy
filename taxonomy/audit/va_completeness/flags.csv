@@ -228,7 +228,6 @@ V4,low,Triana (Seville) pottery,named tradition with gathered objects and no lea
 V4,low,Calais machine lace,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: French, Calais",29
 V4,low,Sarreguemines Pottery,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: French, Sarreguemines",29
 V4,low,Ryukyuan Painting,named tradition with gathered objects and no leaf,families A; max institutions per key 2; labels: Japan · Ryukyu Kingdom,28
-V4,low,Tangut Buddhist Painting,named tradition with gathered objects and no leaf,families A; max institutions per key 2; labels: Tangut (Western Xia),28
 V4,low,Colonial Inca Qeros,named tradition with gathered objects and no leaf,families A; max institutions per key 1; labels: Colonial Inka (Inca); probably Colonial Inka (archaeological) (attributed),28
 V4,low,Ndebele beadwork,named tradition with gathered objects and no leaf,families F; max institutions per key 4; labels: Ndebele; Ndebele beadwork,28
 V4,low,Ypres lace,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: Belgian, Ieper",28
@@ -274,7 +273,6 @@ V4,low,Totonac ceramics,named tradition with gathered objects and no leaf,famili
 V4,low,Chavín goldwork,named tradition with gathered objects and no leaf,families G; max institutions per key 2; labels: Chavin,20
 V4,low,Shipibo-Konibo kené textiles,named tradition with gathered objects and no leaf,families ?; max institutions per key 2; labels: Shipibo kene designs,20
 V4,low,Dida Raffia Textiles,named tradition with gathered objects and no leaf,families H; max institutions per key 4; labels: Dida; Dida raffia textiles,20
-V4,low,Kanak Sculpture,named tradition with gathered objects and no leaf,families DI; max institutions per key 1; labels: Kanak,20
 V4,low,Santafé de Bogotá Colonial Painting,named tradition with gathered objects and no leaf,families A; max institutions per key 7; labels: New Granada painting (Santafe de Bogota),19
 V4,low,Tz'utuhil Maya Painting,named tradition with gathered objects and no leaf,families A; max institutions per key 1; labels: Tz'utuhil Maya (Tzutuhil/Zutigil),19
 V4,low,Silla glass,named tradition with gathered objects and no leaf,families F; max institutions per key 2; labels: Korea · Silla; Korea · Unified Silla,19
@@ -409,6 +407,10 @@ V6,low,A3-3 Cretan School,no way to see the works: neither holding institutions 
 V6,low,A3-5 Palaeologan Renaissance,no way to see the works: neither holding institutions nor makers,"groups: {'Thessaloniki and Macedonian workshops': 3, ""Painters in Rus'"": 1, 'Cyprus': 1, 'Crete': 1}",
 V6,low,A4-5 Mata ni Pachedi,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
 V6,low,A4-16 Wayang Beber,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 1},
+V6,low,A4-19 Quillango,no way to see the works: neither holding institutions nor makers,groups: {'Peoples & cultures': 1},
+V6,low,A4-20 Naskapi Painted Coats,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,A4-21 Yao Ritual Paintings,no way to see the works: neither holding institutions nor makers,groups: {'Peoples & cultures': 1},
+V6,low,A4-22 Tangut Buddhist Painting,no way to see the works: neither holding institutions nor makers,groups: {'Peoples & cultures': 1},
 V6,low,A5-4 Fayum Mummy Portraits,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 2, 'Collectors': 1}",
 V6,low,A5-7 Enconchado,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
 V6,low,A5-8 Biombo,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 3},
@@ -498,16 +500,25 @@ V6,low,D2-17 Torre del Greco Shell and Coral Carving,no way to see the works: ne
 V6,low,D2-18 Romanesque Ivories,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
 V6,low,D3-1 Fatimid Rock Crystal,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
 V6,low,D3-12 Idar-Oberstein Agate Cutting,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 2}",
+V6,low,D3-14 Rai Stones,no way to see the works: neither holding institutions nor makers,groups: {'Peoples & cultures': 1},
 V6,low,D4-6 Nang Yai,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
 V6,low,D4-7 Sbek Thom,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
 V6,low,D4-11 Korean Masks,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 13},
 V6,low,D4-12 Dogon Masks,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 4, 'Centres & workshops': 2}",
-V6,low,D4-15 Chokwe Masks,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
+V6,low,D4-15 Chokwe Masks,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1, 'Peoples & cultures': 1}",
 V6,low,D4-16 Gelede,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
 V6,low,D4-20 Kuba Masks,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
 V6,low,D4-21 Kifwebe,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
 V6,low,D4-23 Punu Masks,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
 V6,low,D4-27 Processional Giants,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Named giants': 4}",
+V6,low,D4-34 Masks of Burkina Faso,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Peoples & cultures': 7}",
+V6,low,D4-35 Guro Masks,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,D4-36 Baga Headdresses,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Peoples & cultures': 1}",
+V6,low,D4-37 Ekpo Masks,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,D4-38 Niger Delta Water-Spirit Masks,no way to see the works: neither holding institutions nor makers,groups: {'Peoples & cultures': 1},
+V6,low,D4-39 Cross River Skin-Covered Headdresses,no way to see the works: neither holding institutions nor makers,groups: {'Peoples & cultures': 2},
+V6,low,D4-40 Urhobo Masks and Sculpture,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,D4-41 Yaka and Suku Masks,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 1},
 V6,low,D5-3 Amaravati Art,no way to see the works: neither holding institutions nor makers,"groups: {'Schools & phases': 1, 'Centres & workshops': 3}",
 V6,low,D5-6 Dhokra,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 3}",
 V6,low,D5-7 Bankura Horse,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
@@ -542,6 +553,11 @@ V6,low,D5-129 Erzgebirge Folk Art,no way to see the works: neither holding insti
 V6,low,D5-130 Dala Horse,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 4}",
 V6,low,D5-132 Val Gardena Woodcarving,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 2}",
 V6,low,D5-133 New British Sculpture,no way to see the works: neither holding institutions nor makers,groups: {'Lisson Gallery generation (1980s)': 12},
+V6,low,D5-142 Benue River Valley Sculpture,no way to see the works: neither holding institutions nor makers,groups: {'Peoples & cultures': 6},
+V6,low,D5-143 Mbole Ofika Figures,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Schools & phases': 1}",
+V6,low,D5-144 Kanak Sculpture,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Peoples & cultures': 1}",
+V6,low,D5-145 Austral Islands Carving,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 4},
+V6,low,D5-146 Huastec Sculpture,no way to see the works: neither holding institutions nor makers,groups: {'Peoples & cultures': 1},
 V6,low,D6-1 Kaavad,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
 V6,low,D6-9 Toas,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
 V6,low,D6-11 Lithuanian Cross Crafting,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
@@ -553,7 +569,7 @@ V6,low,E1-13 Rishton Ceramics,no way to see the works: neither holding instituti
 V6,low,E1-15 Cham Pottery,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
 V6,low,E1-16 Kasongan Pottery,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
 V6,low,E1-19 Yayoi Pottery,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
-V6,low,E1-20 Tang Sancai,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 4, 'Centres & workshops': 1}",
+V6,low,E1-20 Tang Sancai,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 4, 'Centres & workshops': 1, 'Peoples & cultures': 1}",
 V6,low,E1-23 Onggi,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 1},
 V6,low,E1-24 Kgatleng Pottery,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
 V6,low,E1-33 Centuripe Ware,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
@@ -581,6 +597,8 @@ V6,low,E1-147 Lapita Pottery,no way to see the works: neither holding institutio
 V6,low,E1-149 Samarra Ware,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
 V6,low,E1-150 Halaf Pottery,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
 V6,low,E1-151 Ubaid Pottery,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,E1-155 Lenca Pottery,no way to see the works: neither holding institutions nor makers,groups: {'Peoples & cultures': 1},
+V6,low,E1-156 Kadiwéu Ceramics,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
 V6,low,E2-2 Kashan Lustreware,per-object works list left after the collections-first rule,group 'Tiles and architectural ceramics': 2 rows,
 V6,low,E2-3 Mina'i Ware,per-object works list left after the collections-first rule,group 'Tiles and architectural ceramics': 6 rows,
 V6,low,E2-4 Lajvardina,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
@@ -596,7 +614,7 @@ V6,low,E3-6 Longquan Celadon,no way to see the works: neither holding institutio
 V6,low,E3-7 Ru Ware,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
 V6,low,E3-8 Guan Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
 V6,low,E3-9 Jun Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
-V6,low,E3-20 Iga Ware,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,E3-20 Iga Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Centres & workshops': 1, 'Peoples & cultures': 1}",
 V6,low,E3-21 Tamba Ware,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
 V6,low,E3-22 Tokoname Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
 V6,low,E3-23 Echizen Ware,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
@@ -691,7 +709,7 @@ V6,low,H3-18 Li Textiles,no way to see the works: neither holding institutions n
 V6,low,H3-19 Shuri Weaving,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 3},
 V6,low,H3-21 Echigo-jōfu and Ojiya-chijimi,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
 V6,low,H3-22 Hansan Mosi,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
-V6,low,H3-26 Ivorian Loincloth Weaving,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 4},
+V6,low,H3-26 Ivorian Loincloth Weaving,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 4, 'Peoples & cultures': 1}",
 V6,low,H3-32 Täkänä,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
 V6,low,H3-33 Northern Vidzeme Double-Weave Blankets,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 1},
 V6,low,H3-34 Sigulda Belts,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
@@ -805,8 +823,9 @@ V6,low,H8-39 Shchitky Reed Weaving,no way to see the works: neither holding inst
 V6,low,H8-41 Kiondo,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 1},
 V6,low,H8-42 Skep,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 1},
 V6,low,H8-43 Nantucket Lightship Baskets,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H8-50 Ye'kuana Basketry,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
 V6,low,H9-4 Mexican Featherwork,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 1},
-V6,low,H9-8 Wampum,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,H9-8 Wampum,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Peoples & cultures': 5}",
 V6,low,H9-10 Kahu Huruhuru,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
 V6,low,H10-1 Jutti,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 2}",
 V6,low,H10-3 Moroccan Leatherwork,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
@@ -827,7 +846,11 @@ V6,low,I1-26 Jepara Wood Carving,no way to see the works: neither holding instit
 V6,low,I1-27 Magewappa,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
 V6,low,I1-28 Tendō Shōgi Koma,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
 V6,low,I1-29 Vardo,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 5, 'Centres & workshops': 1}",
-V6,low,I1-33 Polynesian Clubs,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 3},
+V6,low,I1-33 Polynesian Clubs,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Peoples & cultures': 1}",
+V6,low,I1-34 Buka Ceremonial Paddles,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,I1-35 Marshall Islands Stick Charts,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Peoples & cultures': 1}",
+V6,low,I1-36 Palauan Storyboards,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,I1-37 Maroon Arts of Suriname,no way to see the works: neither holding institutions nor makers,"groups: {'Schools & phases': 2, 'Sub-types': 1}",
 V6,low,I2-2 Kashmiri Papier-Mâché,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
 V6,low,I2-4 Channapatna Toys,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
 V6,low,I2-5 Etikoppaka Toys,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",

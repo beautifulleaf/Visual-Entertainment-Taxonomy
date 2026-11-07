@@ -4,44 +4,44 @@ Getty AAT Styles and Periods: 5,990 named cultures, periods, dynasties, styles, 
 
 Coverage: **leaf** (a leaf bears the name), **entry** (an entry inside a leaf bears it), **mentioned** (a definition names it), **uncovered**. Mentioned is weak coverage: the tree knows the name but gives it no place of its own.
 
-Overall: 65% of in-scope AAT terms are covered (leaf, entry, mention, variant, held or facet); 18% have a leaf or entry.
+Overall: 69% of in-scope AAT terms are covered (leaf, entry, mention, variant, held or facet); 21% have a leaf or entry.
 
 ## By region
 
-| Region | Terms | Leaf | Entry | Mentioned | Variant | Held | Inherited | Placed | Facet | Out of scope | Uncovered | of which with records | Covered |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Sub-Saharan Africa | 1341 | 53 | 111 | 155 | 21 | 0 | 0 | 0 | 387 | 4 | 610 | 82 | 54% |
-| Western Europe | 823 | 143 | 75 | 176 | 36 | 1 | 0 | 0 | 215 | 6 | 171 | 1 | 79% |
-| Islamic world (MENA, Iran, Anatolia) | 503 | 16 | 45 | 87 | 10 | 0 | 0 | 0 | 236 | 14 | 95 | 9 | 81% |
-| North America (settler) | 433 | 27 | 30 | 65 | 9 | 0 | 0 | 0 | 114 | 7 | 181 | 21 | 58% |
-| North America (Indigenous) | 430 | 15 | 118 | 78 | 6 | 0 | 0 | 0 | 3 | 0 | 210 | 84 | 51% |
-| Transnational | 396 | 45 | 14 | 50 | 4 | 0 | 0 | 0 | 46 | 127 | 110 | 2 | 59% |
-| Mesoamerica & Caribbean | 249 | 13 | 28 | 44 | 10 | 0 | 0 | 0 | 97 | 3 | 54 | 10 | 78% |
-| South America | 240 | 12 | 17 | 39 | 9 | 0 | 0 | 0 | 31 | 0 | 132 | 43 | 45% |
-| China | 236 | 13 | 12 | 62 | 7 | 0 | 0 | 0 | 101 | 4 | 37 | 3 | 84% |
-| Japan | 196 | 29 | 30 | 43 | 5 | 0 | 0 | 0 | 7 | 10 | 72 | 3 | 61% |
-| South Asia | 188 | 13 | 26 | 58 | 9 | 0 | 0 | 0 | 21 | 2 | 59 | 1 | 68% |
-| Ancient Near East | 186 | 3 | 13 | 39 | 5 | 0 | 0 | 0 | 48 | 3 | 75 | 3 | 59% |
-| Greco-Roman & Byzantine Mediterranean | 171 | 22 | 14 | 55 | 9 | 0 | 0 | 0 | 18 | 5 | 48 | 0 | 71% |
-| Oceania (Pacific) | 151 | 15 | 6 | 26 | 3 | 0 | 0 | 0 | 51 | 0 | 50 | 11 | 67% |
-| Southeast Asia | 151 | 11 | 26 | 45 | 7 | 0 | 0 | 0 | 47 | 0 | 15 | 1 | 90% |
-| Central & Eastern Europe | 106 | 11 | 6 | 40 | 2 | 0 | 0 | 0 | 5 | 3 | 39 | 0 | 62% |
-| Central Asia & Silk Road | 57 | 2 | 9 | 13 | 0 | 0 | 0 | 0 | 18 | 0 | 15 | 2 | 74% |
-| Korea | 54 | 4 | 6 | 11 | 2 | 0 | 0 | 0 | 6 | 0 | 25 | 1 | 54% |
-| Himalaya | 43 | 3 | 5 | 11 | 2 | 0 | 0 | 0 | 7 | 5 | 10 | 1 | 74% |
-| Ancient Egypt & Nubia | 19 | 0 | 6 | 5 | 2 | 0 | 0 | 0 | 0 | 1 | 5 | 0 | 72% |
-| Australia (Aboriginal) | 17 | 1 | 3 | 9 | 0 | 0 | 0 | 0 | 2 | 0 | 2 | 0 | 88% |
+| Region | Terms | Leaf | Entry | Mentioned | Variant | Held | Inherited | Decided | Facet | Out of scope | Recorded | Uncovered | of which with records | Covered |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Sub-Saharan Africa | 1341 | 54 | 151 | 182 | 19 | 0 | 0 | 0 | 381 | 4 | 26 | 524 | 0 | 59% |
+| Western Europe | 823 | 143 | 75 | 176 | 36 | 1 | 0 | 0 | 216 | 6 | 0 | 170 | 0 | 79% |
+| Islamic world (MENA, Iran, Anatolia) | 503 | 16 | 49 | 87 | 10 | 0 | 0 | 0 | 240 | 14 | 1 | 86 | 0 | 82% |
+| North America (settler) | 433 | 27 | 41 | 66 | 9 | 0 | 0 | 0 | 114 | 7 | 9 | 160 | 0 | 60% |
+| North America (Indigenous) | 430 | 15 | 192 | 79 | 6 | 0 | 0 | 0 | 3 | 0 | 9 | 126 | 0 | 69% |
+| Transnational | 396 | 45 | 15 | 50 | 4 | 0 | 0 | 0 | 47 | 127 | 0 | 108 | 0 | 60% |
+| Mesoamerica & Caribbean | 249 | 13 | 33 | 44 | 10 | 0 | 0 | 0 | 97 | 3 | 5 | 44 | 0 | 80% |
+| South America | 240 | 13 | 31 | 44 | 11 | 0 | 0 | 0 | 32 | 0 | 21 | 88 | 0 | 55% |
+| China | 236 | 13 | 14 | 63 | 7 | 0 | 0 | 0 | 101 | 4 | 0 | 34 | 0 | 85% |
+| Japan | 196 | 29 | 31 | 44 | 5 | 0 | 0 | 0 | 7 | 10 | 1 | 69 | 0 | 62% |
+| South Asia | 188 | 13 | 28 | 58 | 9 | 0 | 0 | 0 | 20 | 2 | 0 | 58 | 0 | 69% |
+| Ancient Near East | 186 | 3 | 16 | 39 | 5 | 0 | 0 | 0 | 48 | 3 | 0 | 72 | 0 | 61% |
+| Greco-Roman & Byzantine Mediterranean | 171 | 22 | 14 | 55 | 9 | 0 | 0 | 0 | 18 | 5 | 0 | 48 | 0 | 71% |
+| Oceania (Pacific) | 151 | 15 | 13 | 32 | 6 | 0 | 0 | 0 | 50 | 0 | 0 | 35 | 0 | 77% |
+| Southeast Asia | 151 | 11 | 27 | 45 | 7 | 0 | 0 | 0 | 47 | 0 | 0 | 14 | 0 | 91% |
+| Central & Eastern Europe | 106 | 11 | 6 | 40 | 2 | 0 | 0 | 0 | 5 | 3 | 0 | 39 | 0 | 62% |
+| Central Asia & Silk Road | 57 | 2 | 11 | 13 | 0 | 0 | 0 | 0 | 18 | 0 | 0 | 13 | 0 | 77% |
+| Korea | 54 | 4 | 6 | 11 | 2 | 0 | 0 | 0 | 6 | 0 | 1 | 24 | 0 | 54% |
+| Himalaya | 43 | 3 | 6 | 11 | 2 | 0 | 0 | 0 | 7 | 5 | 0 | 9 | 0 | 76% |
+| Ancient Egypt & Nubia | 19 | 0 | 6 | 5 | 2 | 0 | 0 | 0 | 0 | 1 | 0 | 5 | 0 | 72% |
+| Australia (Aboriginal) | 17 | 1 | 3 | 9 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 2 | 0 | 88% |
 
 ## By kind of term
 
 | Kind | Terms | Leaf | Entry | Mentioned | Variant | Held | Facet | Out of scope | Uncovered | Covered |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | movement | 11 | 8 | 0 | 2 | 0 | 0 | 0 | 0 | 1 | 91% |
-| style | 928 | 100 | 132 | 314 | 18 | 0 | 0 | 0 | 364 | 61% |
-| culture | 67 | 6 | 2 | 30 | 1 | 0 | 0 | 1 | 27 | 59% |
-| other | 3489 | 331 | 463 | 747 | 132 | 1 | 0 | 192 | 1623 | 51% |
-| period | 864 | 6 | 3 | 18 | 7 | 0 | 829 | 1 | 0 | 100% |
-| nationality | 631 | 0 | 0 | 0 | 0 | 0 | 631 | 0 | 0 | 100% |
+| style | 929 | 102 | 192 | 327 | 18 | 0 | 0 | 0 | 267 | 69% |
+| culture | 67 | 6 | 4 | 32 | 1 | 0 | 0 | 1 | 21 | 65% |
+| other | 3488 | 331 | 568 | 774 | 135 | 1 | 0 | 192 | 1439 | 55% |
+| period | 861 | 6 | 4 | 18 | 7 | 0 | 825 | 1 | 0 | 100% |
+| nationality | 634 | 0 | 0 | 0 | 0 | 0 | 634 | 0 | 0 | 100% |
 
 ## UNESCO crafts: 66 named by a leaf, 74 mentioned, 8 uncovered (of 148)
 
@@ -61,98 +61,6 @@ Overall: 65% of in-scope AAT terms are covered (leaf, entry, mention, variant, h
 | AAT term | Kind | Region | AAT path | Records |
 |---|---|---|---|---:|
 | Metabolism (movement) | movement | Transnational | <styles, periods, and cultures by region> > <international post-1945 styles and movements> > <post-1945 architecture and design styles and movements> | 0 |
-| Arawak (culture or style) | style | Mesoamerica & Caribbean | The Americas > Native American > Native Middle American > Native Caribbean styles | 269 |
-| Society Islands (style) | style | Oceania (Pacific) | <styles, periods, and cultures by region> > Oceanic > Polynesian | 251 |
-| Opata (culture or style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Southwestern Native American | 208 |
-| Marshallese (culture or style) | style | Oceania (Pacific) | <styles, periods, and cultures by region> > Oceanic > Micronesian (culture or style) | 201 |
-| Yap (culture or style) | style | Oceania (Pacific) | <styles, periods, and cultures by region> > Oceanic > Micronesian (culture or style) > Caroline Islands | 185 |
-| Nuxalk (culture or style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Northwest Coast Native American | 146 |
-| Yaka (Kwango-Kwilu region style) | style | Sub-Saharan Africa | <African by cultural or regional designation> > Central African (cultural or regional style) > <Southwestern Democratic Republic of Congo and Angola styles> > Kwango-Kwilu (culture or style) | 126 |
-| Naskapi (culture or style) | style | North America (Indigenous) | Native North American > <Arctic and Subarctic Native American styles> > Eastern Subarctic Native American styles > Innu | 111 |
-| Guaraní (culture or style) | style | South America | Native American > Native South American > Native Eastern Brazilian styles > Tupí-Guaraní | 102 |
-| Nanticoke (culture or style) | style | North America (settler) | The Americas > Native American > Native North American > <Eastern Woodland and Eastern Great Lake Native American> | 91 |
-| Duwamish (style or culture) | style | North America (Indigenous) | The Americas > Native American > Native North American > Northwest Coast Native American | 90 |
-| Chickasaw (culture or style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Southeastern Native American | 63 |
-| Sumo (culture or style) | style | North America (settler) | The Americas > Native American > Native Middle American > Native Central American styles | 60 |
-| Chickahominy (style or culture) | style | North America (settler) | The Americas > Native American > Native North American > <Eastern Woodland and Eastern Great Lake Native American> | 51 |
-| Ewe (Guinea Coast style) | style | Sub-Saharan Africa | <African by cultural or regional designation> > West African (general) > Guinea Coast styles > Ewe cultures | 49 |
-| Montauk (style or culture) | style | North America (settler) | The Americas > Native American > Native North American > <Eastern Woodland and Eastern Great Lake Native American> | 41 |
-| Wampanoag (culture or style) | style | North America (Indigenous) | The Americas > Native American > Native North American > <Eastern Woodland and Eastern Great Lake Native American> | 40 |
-| Carrier (Native American style) | style | North America (Indigenous) | Native American > Native North American > <Arctic and Subarctic Native American styles> > Western Subarctic Native American styles | 39 |
-| Paipai (culture or style) | style | North America (Indigenous) | Native North American > Californian Native American > Baja Californian Native American styles > California Yuman | 36 |
-| Twana (culture or style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Northwest Coast Native American | 33 |
-| Baga (culture or style) | style | Sub-Saharan Africa | West African (general) > Guinea Coast styles > West Atlantic styles > Simo (culture or style) | 33 |
-| Ijo (culture or style) | style | Sub-Saharan Africa | <African by cultural or regional designation> > West African (general) > Southern Nigerian styles > Niger Delta region | 32 |
-| Narragansett (culture or style) | style | North America (settler) | The Americas > Native American > Native North American > <Eastern Woodland and Eastern Great Lake Native American> | 29 |
-| Kaska (culture or style) | style | North America (Indigenous) | Native American > Native North American > <Arctic and Subarctic Native American styles> > Western Subarctic Native American styles | 28 |
-| Ahtena (culture or style) | style | North America (Indigenous) | Native American > Native North American > <Arctic and Subarctic Native American styles> > Western Subarctic Native American styles | 27 |
-| Palauan (culture or style) | style | Oceania (Pacific) | <styles, periods, and cultures by region> > Oceanic > Micronesian (culture or style) > Caroline Islands | 25 |
-| Mangue (Native Central American style) | style | North America (settler) | The Americas > Native American > Native Middle American > Native Central American styles | 23 |
-| Tanaina (culture or style) | style | North America (Indigenous) | Native American > Native North American > <Arctic and Subarctic Native American styles> > Western Subarctic Native American styles | 22 |
-| Shinnecock (style or culture) | style | North America (settler) | The Americas > Native American > Native North American > <Eastern Woodland and Eastern Great Lake Native American> | 22 |
-| Comox (culture or style) | style | North America (Indigenous) | Native American > Native North American > Northwest Coast Native American > Salish (Northwest Coast Native American style) | 20 |
-| Shawnee (culture or style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Southeastern Native American | 19 |
-| Mambila (culture or style) | style | Sub-Saharan Africa | West African (general) > Northeastern Nigerian styles > Niger-Congo language groups styles > Benue-Congo | 18 |
-| Lunda (culture or style) | style | Sub-Saharan Africa | <African by cultural or regional designation> > Central African (cultural or regional style) > <Southwestern Democratic Republic of Congo and Angola styles> > Chokwe-Lunda | 16 |
-| Chehalis (culture or style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Northwest Coast Native American | 15 |
-| Tepehuan (culture or style) | style | Mesoamerica & Caribbean | The Americas > Native American > Native Middle American > Native Northwestern Mexican styles | 14 |
-| Trique (culture or style) | style | Mesoamerica & Caribbean | The Americas > Native American > Native Middle American > Native Southern Mexican styles | 14 |
-| Tonkawa (culture or style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Southeastern Native American | 13 |
-| Piscataway (style or culture) | style | North America (settler) | The Americas > Native American > Native North American > <Eastern Woodland and Eastern Great Lake Native American> | 11 |
-| Gabrieliño (culture or style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Californian Native American | 10 |
-| Cowlitz (culture or style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Northwest Coast Native American | 9 |
-| Walla Walla (culture or style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Plateau Native American | 9 |
-| Wet'suwet'en (culture or style) | style | North America (Indigenous) | Native American > Native North American > <Arctic and Subarctic Native American styles> > Western Subarctic Native American styles | 9 |
-| Wiyot (culture or style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Californian Native American | 9 |
-| Totonac (culture or style) | style | Mesoamerica & Caribbean | The Americas > Native American > Native Middle American > Native Central Mexican styles | 8 |
-| Lumbee (culture or style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Southeastern Native American | 8 |
-| Yana (culture or style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Californian Native American | 8 |
-| Cupeño (Native American style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Californian Native American | 7 |
-| Koyukon (culture or style) | style | North America (Indigenous) | Native American > Native North American > <Arctic and Subarctic Native American styles> > Western Subarctic Native American styles | 7 |
-| Tunica (Native American style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Southeastern Native American | 7 |
-| Patawomeck (style or culture) | style | North America (settler) | The Americas > Native American > Native North American > <Eastern Woodland and Eastern Great Lake Native American> | 7 |
-| Jukun (culture or style) | style | Sub-Saharan Africa | West African (general) > Northeastern Nigerian styles > Niger-Congo language groups styles > Benue-Congo | 7 |
-| Zoque (culture or style) | style | Mesoamerica & Caribbean | The Americas > Native American > Native Middle American > Native Southern Mexican styles | 6 |
-| Nansemond (style or culture) | style | North America (Indigenous) | The Americas > Native American > Native North American > Southeastern Native American | 6 |
-| Kpelle (culture or style) | style | Sub-Saharan Africa | <African by cultural or regional designation> > West African (general) > Mande > peripheral Mande styles | 6 |
-| Dogrib (culture or style) | style | North America (Indigenous) | Native American > Native North American > <Arctic and Subarctic Native American styles> > Western Subarctic Native American styles | 5 |
-| Sandia (Rio Grande Pueblo style) | style | North America (Indigenous) | Native North American > Southwestern Native American > Pueblo (Native American style) > Rio Grande Pueblo (culture) | 5 |
-| Syilx (culture or style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Plateau Native American | 5 |
-| Amahuaca (culture or style) | style | South America | The Americas > Native American > Native South American > Native Amazonian | 5 |
-| Dida (culture or style) | style | Sub-Saharan Africa | <African by cultural or regional designation> > West African (general) > Guinea Coast styles > West Atlantic styles | 5 |
-| Kusu (Luba region style) | style | Sub-Saharan Africa | <African by cultural or regional designation> > Central African (cultural or regional style) > Eastern Democratic Republic of Congo styles > Luba region styles | 5 |
-| Coos (culture or style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Northwest Coast Native American | 4 |
-| Serrano (culture or style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Californian Native American | 4 |
-| Wee (culture or style) | style | Sub-Saharan Africa | <African by cultural or regional designation> > West African (general) > Guinea Coast styles > Kru-speaking peoples styles | 4 |
-| Kiliwa (culture or style) | style | North America (Indigenous) | Native North American > Californian Native American > Baja Californian Native American styles > California Yuman | 3 |
-| Sekani (culture or style) | style | North America (Indigenous) | Native American > Native North American > <Arctic and Subarctic Native American styles> > Western Subarctic Native American styles | 3 |
-| Tutchone (culture or style) | style | North America (Indigenous) | Native American > Native North American > <Arctic and Subarctic Native American styles> > Western Subarctic Native American styles | 3 |
-| Tembé (Native Amazonian style) | style | South America | Native American > Native South American > Native Amazonian > Tenetehara (culture or style) | 3 |
-| Tembo (African culture or style) | style | Sub-Saharan Africa | <African by cultural or regional designation> > Central African (cultural or regional style) > Eastern Democratic Republic of Congo styles > Maniema (culture or style) | 3 |
-| Mixe (culture or style) | style | Mesoamerica & Caribbean | The Americas > Native American > Native Middle American > Native Southern Mexican styles | 2 |
-| Haliwa-Saponi (style or culture) | style | North America (Indigenous) | The Americas > Native American > Native North American > Southeastern Native American | 2 |
-| Kawaiisu (culture or style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Great Basin Native American | 2 |
-| Venda (Northern Sotho style) | style | Sub-Saharan Africa | Southern African > Sotho styles > Sotho (culture or style) > Northern Sotho (culture or style) | 2 |
-| Monégasque (culture or style) | style | Western Europe | <styles, periods, and cultures by region> > European > European regions | 2 |
-| Cochin Chinese (Chinese ceramics style) | style | China | Asian > East Asian > Chinese (culture or style) > Chinese ceramics styles | 1 |
-| Sivas (Islamic textile style) | style | Islamic world (MENA, Iran, Anatolia) | <Islamic World dynastic styles and periods> > <Anatolian Islamic styles and periods after Manzikert> > Anatolian Islamic styles after Manzikert > Anatolian Islamic textile styles after Manzikert | 1 |
-| Mazahua (culture or style) | style | Mesoamerica & Caribbean | The Americas > Native American > Native Middle American > Native Central Mexican styles | 1 |
-| Atsugewi (culture or style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Californian Native American | 1 |
-| Coahuiltecan (culture or style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Southeastern Native American | 1 |
-| Tillamook (culture or style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Northwest Coast Native American | 1 |
-| Tulalip (style or culture) | style | North America (Indigenous) | The Americas > Native American > Native North American > Northwest Coast Native American | 1 |
-| Wintu (culture or style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Californian Native American | 1 |
-| Yuki (culture or style) | style | North America (Indigenous) | The Americas > Native American > Native North American > Californian Native American | 1 |
-| Paya (culture or style) | style | North America (settler) | The Americas > Native American > Native Middle American > Native Central American styles | 1 |
-| Unkechaug (style or culture) | style | North America (settler) | The Americas > Native American > Native North American > <Eastern Woodland and Eastern Great Lake Native American> | 1 |
-| Mojo (culture and style) | style | South America | The Americas > Native American > Native South American > Native Amazonian | 1 |
-| Kanuri (culture or style) | style | Sub-Saharan Africa | <African by cultural or regional designation> > Central African (cultural or regional style) > Central Sudanese region styles > Lake Chad (culture or style) | 1 |
-| Koro (Niger-Congo style) | style | Sub-Saharan Africa | West African (general) > Northeastern Nigerian styles > Niger-Congo language groups styles > Benue-Congo | 1 |
-| Lengola (culture or style) | style | Sub-Saharan Africa | <African by cultural or regional designation> > Central African (cultural or regional style) > Eastern Democratic Republic of Congo styles > Maniema (culture or style) | 1 |
-| Sanga (Luba region style) | style | Sub-Saharan Africa | <African by cultural or regional designation> > Central African (cultural or regional style) > Eastern Democratic Republic of Congo styles > Luba region styles | 1 |
-| Soninke (culture or style) | style | Sub-Saharan Africa | <African by cultural or regional designation> > West African (general) > Mande > core Mande styles | 1 |
-| Tangale (culture or style) | style | Sub-Saharan Africa | West African (general) > Northeastern Nigerian styles > Niger-Congo language groups styles > Adamawa-Eastern branch styles | 1 |
-| Wolof (culture or style) | style | Sub-Saharan Africa | <African by cultural or regional designation> > West African (general) > Guinea Coast styles > West Atlantic styles | 1 |
 | Amorite (culture or style) | style | Ancient Near East | <styles, periods, and cultures by region> > Early Western World > Near Eastern (Early Western World) > Mesopotamian (culture or style) | 0 |
 | Brittle Painted (pottery style) | style | Ancient Near East | Early Western World > Near Eastern (Early Western World) > Levantine (culture or style) > Levantine pottery styles | 0 |
 | Canaanite (culture or style) | style | Ancient Near East | <styles, periods, and cultures by region> > Early Western World > Near Eastern (Early Western World) > Levantine (culture or style) | 0 |
@@ -270,16 +178,13 @@ Overall: 65% of in-scope AAT terms are covered (leaf, entry, mention, variant, h
 | Palisades (Eskimo style) | style | North America (settler) | <Pre-Columbian Arctic and Subarctic styles> > Eskimo (culture or style) > Pre-Columbian Western Eskimo styles > Pre-Columbian Choris area styles | 0 |
 | Pilgrim (style) | style | North America (settler) | <styles, periods, and cultures by region> > The Americas > Colonial American (pan-American style) > Colonial North American | 0 |
 | woodland style (beadwork style) | style | North America (settler) | The Americas > Native American > Native North American > <Great Lake and Central Woodland Native American> | 0 |
-| Buka (culture or style) | style | Oceania (Pacific) | <styles, periods, and cultures by region> > Oceanic > Melanesian > Solomon Islands | 0 |
 | Chamorro (style or culture) | style | Oceania (Pacific) | <styles, periods, and cultures by region> > Oceanic > Micronesian (culture or style) | 0 |
 | Choiseul (culture or style) | style | Oceania (Pacific) | <styles, periods, and cultures by region> > Oceanic > Melanesian > Solomon Islands | 0 |
 | Curvilinear style (Oceanic sculpture style) | style | Oceania (Pacific) | <styles, periods, and cultures by region> > Oceanic > Oceanic sculpture styles | 0 |
 | Malaita (culture or style) | style | Oceania (Pacific) | <styles, periods, and cultures by region> > Oceanic > Melanesian > Solomon Islands | 0 |
 | Nauruan (culture or style) | style | Oceania (Pacific) | <styles, periods, and cultures by region> > Oceanic > Micronesian (culture or style) | 0 |
-| New Caledonian (culture or style) | style | Oceania (Pacific) | <styles, periods, and cultures by region> > Oceanic > Melanesian | 0 |
 | Pohnpeian (culture or style) | style | Oceania (Pacific) | <styles, periods, and cultures by region> > Oceanic > Micronesian (culture or style) | 0 |
 | Tuvaluan (culture or style) | style | Oceania (Pacific) | <styles, periods, and cultures by region> > Oceanic > Polynesian | 0 |
-| Yapese (culture or style) | style | Oceania (Pacific) | <styles, periods, and cultures by region> > Oceanic > Micronesian (culture or style) | 0 |
 | Araucanian (culture or style) | style | South America | Native American > Native South American > Native Andean > Native South Andean styles | 0 |
 | Barbacoa (South American style) | style | South America | The Americas > Native American > Native South American > <Native Coastal Ecuadorian and Colombian styles> | 0 |
 | Belén (Pre-Columbian style) | style | South America | <Pre-Columbian South American styles and periods> > Pre-Columbian Chilean styles > Diaguita > Diaguita pottery styles | 0 |
@@ -322,11 +227,9 @@ Overall: 65% of in-scope AAT terms are covered (leaf, entry, mention, variant, h
 | Gwa (African style) | style | Sub-Saharan Africa | <African by cultural or regional designation> > West African (general) > Guinea Coast styles > Lagoon people | 0 |
 | Hamba (Central African style) | style | Sub-Saharan Africa | Central Democratic Republic of Congo styles > Mongo region styles > Mongo > Nkutshu (Nkutshu) | 0 |
 | Jarawa (culture or style) | style | Sub-Saharan Africa | West African (general) > Northeastern Nigerian styles > Niger-Congo language groups styles > Benue-Congo | 0 |
-| Kalabari (culture or style) | style | Sub-Saharan Africa | West African (general) > Southern Nigerian styles > Niger Delta region > Ijo (culture or style) | 0 |
 | Kansyore (pottery style) | style | Sub-Saharan Africa | African (general, continental cultures) > Ancient African > ancient East African > ancient East African pottery styles | 0 |
 | Kanyok (culture or style) | style | Sub-Saharan Africa | <African by cultural or regional designation> > Central African (cultural or regional style) > Eastern Democratic Republic of Congo styles > Luba region styles | 0 |
 | Kaonde (culture or style) | style | Sub-Saharan Africa | <African by cultural or regional designation> > Central African (cultural or regional style) > Eastern Democratic Republic of Congo styles > Luba region styles | 0 |
-| Karanga (culture or style) | style | Sub-Saharan Africa | <styles, periods, and cultures by region> > African (general, continental cultures) > Ancient African > Ancient Southern African | 0 |
 | Karon (culture or style) | style | Sub-Saharan Africa | West African (general) > Guinea Coast styles > West Atlantic styles > Jola | 0 |
 | Kasanga (culture or style) | style | Sub-Saharan Africa | <African by cultural or regional designation> > West African (general) > Guinea Coast styles > West Atlantic styles | 0 |
 | Kele (culture or style) | style | Sub-Saharan Africa | Central Democratic Republic of Congo styles > Kuba region styles > Kuba (Democratic Republic of Congo style) > Kuba Folk Style | 0 |
@@ -425,40 +328,3 @@ Overall: 65% of in-scope AAT terms are covered (leaf, entry, mention, variant, h
 | Volscan (culture or style) | style | Western Europe | <styles, periods, and cultures by region> > Early Western World > Mediterranean (Early Western World) > Ancient Italian | 0 |
 | Wemyss (ceramics style) | style | Western Europe | European > <modern European styles and movements> > <modern European decorative arts styles and movements> > modern European ceramics styles | 0 |
 | West Slope (pottery style) | style | Western Europe | Aegean styles > Aegean pottery styles > Greek pottery styles > Mainland Greek pottery styles | 0 |
-| Mosquito (culture) | culture | North America (settler) | The Americas > Native American > Native Middle American > Native Central American styles | 477 |
-| Piro (Amazonian culture) | culture | South America | Native American > Native South American > Native Andean > Native Central Andean styles | 80 |
-| Kanak | other | Oceania (Pacific) | <styles, periods, and cultures by region> > Oceanic > Melanesian > New Caledonian (culture or style) | 463 |
-| Israeli | other | Islamic world (MENA, Iran, Anatolia) | <styles, periods, and cultures by region> > Asian > West Asian | 340 |
-| Bougainville | other | Oceania (Pacific) | <styles, periods, and cultures by region> > Oceanic > Melanesian > Solomon Islands | 328 |
-| Nisga'a | other | North America (Indigenous) | The Americas > Native American > Native North American > Northwest Coast Native American | 325 |
-| Gitxsan | other | North America (Indigenous) | The Americas > Native American > Native North American > Northwest Coast Native American | 295 |
-| Sambla | other | Sub-Saharan Africa | West African (general) > Mande > core Mande styles > Samo | 271 |
-| Yahgan | other | South America | The Americas > Native American > Native South American > <Native Pampean and Fuegian styles> | 194 |
-| Lenca | other | North America (settler) | The Americas > Native American > Native Middle American > Native Central American styles | 181 |
-| Bella Bella | other | North America (Indigenous) | Native American > Native North American > Northwest Coast Native American > Heiltsuk (culture or style) | 162 |
-| Warrau | other | South America | The Americas > Native American > Native South American > Native South American Caribbean Coast styles | 141 |
-| Tucano | other | South America | The Americas > Native American > Native South American > Native Amazonian | 123 |
-| Chorotí | other | South America | The Americas > Native American > Native South American > Native Chaco styles | 117 |
-| Huilliche | other | South America | Native American > Native South American > Native Andean > Native South Andean styles | 114 |
-| Havasupai | other | North America (Indigenous) | The Americas > Native American > Native North American > Southwestern Native American | 111 |
-| Guahibo | other | South America | The Americas > Native American > Native South American > Native Amazonian | 109 |
-| Macusi | other | South America | The Americas > Native American > Native South American > Native Amazonian | 106 |
-| Tarahumara | other | Mesoamerica & Caribbean | The Americas > Native American > Native Middle American > Native Northwestern Mexican styles | 99 |
-| Ona | other | South America | The Americas > Native American > Native South American > <Native Pampean and Fuegian styles> | 99 |
-| Selk'nam | other | South America | Native American > Native South American > <Native Pampean and Fuegian styles> > Ona | 97 |
-| Spring and Autumn Annals | other | China | Chinese (culture or style) > Chinese dynastic styles and periods > Zhou (culture) > Eastern Zhou | 92 |
-| Moriori | other | Oceania (Pacific) | <styles, periods, and cultures by region> > Oceanic > Polynesian > New Zealand | 92 |
-| Bobo | other | Sub-Saharan Africa | <African by cultural or regional designation> > West African (general) > Western Sudanese > Gur | 90 |
-| Guaná | other | South America | The Americas > Native American > Native South American > Native Chaco styles | 86 |
-| Caduveo | other | South America | The Americas > Native American > Native South American > Native Chaco styles | 85 |
-| Walapai | other | North America (Indigenous) | The Americas > Native American > Native North American > Southwestern Native American | 83 |
-| Jordanian | other | Islamic world (MENA, Iran, Anatolia) | <styles, periods, and cultures by region> > Asian > West Asian | 78 |
-| Sukuma | other | Sub-Saharan Africa | <African by cultural or regional designation> > Eastern African > Central Tanzanian styles > Nyamwezi | 75 |
-| Native North American | other | North America (settler) | <styles, periods, and cultures by region> > The Americas > Native American | 73 |
-| Waiwai | other | South America | The Americas > Native American > Native South American > Native Amazonian | 72 |
-| Nupe | other | Sub-Saharan Africa | West African (general) > Northeastern Nigerian styles > Niger-Congo language groups styles > Benue-Congo | 72 |
-| Lebanese | other | Islamic world (MENA, Iran, Anatolia) | <styles, periods, and cultures by region> > Asian > West Asian | 69 |
-| Mattaponi | other | North America (Indigenous) | The Americas > Native American > Native North American > Southeastern Native American | 62 |
-| Caroline Islands | other | Oceania (Pacific) | <styles, periods, and cultures by region> > Oceanic > Micronesian (culture or style) | 62 |
-| Tehuelche | other | South America | The Americas > Native American > Native South American > <Native Pampean and Fuegian styles> | 51 |
-| Jicaque | other | North America (settler) | The Americas > Native American > Native Middle American > Native Central American styles | 50 |

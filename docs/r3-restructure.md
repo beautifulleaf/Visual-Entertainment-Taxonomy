@@ -77,3 +77,33 @@ The ~2,650 Getty AAT terms the crosswalk could not match by name are settled by 
 4. **Uncovered** (2,015): about 280 have gathered museum records and are ranked in `taxonomy/audit/reference/backlog.csv`. These are the only terms that need a decision. The rest have no records in the sources: the gap is in the sources, not the tree.
 
 `taxonomy/r3/va_peoples.csv` now holds 221 rows (117 held, 104 inherited).
+
+## AAT terms with records: decided one by one (v16)
+
+The 278 Getty AAT terms that were uncovered although gathered museum records carry their name were read one by one. `pipelines/r3/ref_decide.py` builds a dossier for each term (`taxonomy/audit/reference/dossier.csv`): the term's records by medium family, their median date and their commonest title words. Each term was then set against the leaves of its region. The decisions are in `taxonomy/r3/aat_decisions.csv`:
+
+- **134 entries in existing leaves**, written as "Peoples & cultures" entries through `va_peoples.csv` (how=decided). Examples:
+  - Nisga'a, Gitxsan, Heiltsuk and Nuxalk → Northwest Coast Masks and Woodcarving;
+  - Coast Salish peoples → Coast Salish Basketry and Weaving;
+  - Plateau peoples → Plateau Imbricated Basketry or Cornhusk Bags;
+  - Californian peoples → California Indian Basketry;
+  - Subarctic peoples → Subarctic Beadwork;
+  - Rio Grande Pueblos → Pueblo Pottery;
+  - Algonquian coastal peoples → Northeastern Splint Basketry and Wampum;
+  - Tupinambá and Tenetehara → Amazonian Featherwork;
+  - Luba-region peoples → Luba Sculpture;
+  - Anatolian, Persian and Caucasian rug names → their carpet leaves;
+  - Iga → Iga Ware.
+- **28 new leaves** (`taxonomy/r3/va_out/sweep_ref`), each attested by a museum, UNESCO or encyclopedia source found by web search. Their 57 AAT peoples are entries in them:
+  - Masks of Burkina Faso, Guro Masks, Baga Headdresses, Benue River Valley Sculpture, Ekpo Masks, Niger Delta Water-Spirit Masks, Cross River Skin-Covered Headdresses, Urhobo Masks and Sculpture, Yaka and Suku Masks, Mbole Ofika Figures;
+  - Kanak Sculpture, Buka Ceremonial Paddles, Marshall Islands Stick Charts, Rai Stones, Palauan Storyboards, Austral Islands Carving;
+  - Lenca Pottery, Kadiwéu Ceramics, Kusiwa, Selk'nam Body Painting, Quillango, Naskapi Painted Coats, Huastec Sculpture, Maroon Arts of Suriname, Ye'kuana Basketry;
+  - Pyu Architecture, Yao Ritual Paintings, Tangut Buddhist Painting.
+- **11 facets**: nationalities (Israeli, Jordanian, Lebanese, Laotian, Monégasque), periods (Spring and Autumn, Chaghatayid) and generic designations.
+- **76 recorded**: the records are utilitarian or ethnographic objects (paddles, arrows, food mashers), and no named visual tradition was found for the people. Nine of these are held for a named tradition that could not be confirmed from this environment:
+  - Nupe pottery;
+  - Wichí/Chorote chaguar weaving;
+  - Mosquitia barkcloth;
+  - Warao and Guiana basketry.
+
+No AAT term with gathered records is left uncovered. The remaining 1,728 uncovered terms have no records in the sources.

@@ -60,6 +60,10 @@ A4-15,Kamasan Painting,Southeast Asia,1500,1600,rule
 A4-16,Wayang Beber,Southeast Asia,,,rule
 A4-17,Ethiopian Magic Scrolls,Sub-Saharan Africa,1700,1800,objects
 A4-18,Plains Hide Painting,North America (Indigenous),1850,2012,objects
+A4-19,Quillango,South America,1700,1950,override
+A4-20,Naskapi Painted Coats,North America (Indigenous),1700,1930,override
+A4-21,Yao Ritual Paintings,China,1700,2000,override
+A4-22,Tangut Buddhist Painting,Himalaya,1038,1227,override
 A5-1,Qajar Painting,"Islamic world (MENA, Iran, Anatolia)",1789,1925,rule
 A5-2,Balinese Painting,Southeast Asia,1920,1929,rule
 A5-3,Sơn Mài,Southeast Asia,1930,1939,rule
@@ -367,6 +371,7 @@ D3-10,Pietra Dura,Western Europe,1588,1588,rule
 D3-11,Inkstone Carving,China,,,rule
 D3-12,Idar-Oberstein Agate Cutting,South America,1400,1500,rule
 D3-13,Sasanian Seals,Ancient Near East,224,651,rule
+D3-14,Rai Stones,Oceania (Pacific),1000,2026,override
 D4-1,Karagöz Shadow Puppets,"Islamic world (MENA, Iran, Anatolia)",1299,1922,rule
 D4-2,Tholu Bommalata,South Asia,,,rule
 D4-3,Wayang Kulit,Southeast Asia,2008,2008,rule
@@ -390,7 +395,7 @@ D4-20,Kuba Masks,Sub-Saharan Africa,,,rule
 D4-21,Kifwebe,Sub-Saharan Africa,,,rule
 D4-22,Pende Masks,Sub-Saharan Africa,1800,1933,objects
 D4-23,Punu Masks,Sub-Saharan Africa,,,rule
-D4-24,Northwest Coast Masks,North America (Indigenous),1873,1967,entries
+D4-24,Northwest Coast Masks,North America (Indigenous),325,1967,entries
 D4-25,Yup'ik Masks,North America (Indigenous),1900,1983,objects
 D4-26,Torres Strait Turtle-Shell Masks,Australia (Aboriginal),,,rule
 D4-27,Processional Giants,Western Europe,,,rule
@@ -400,6 +405,14 @@ D4-30,Noh Masks,Japan,1300,1400,override
 D4-31,Gigaku Masks,Japan,600,800,override
 D4-32,Bugaku Masks,Japan,794,1185,rule
 D4-33,Mexican Masks,Mesoamerica & Caribbean,,,rule
+D4-34,Masks of Burkina Faso,Sub-Saharan Africa,1800,2026,override
+D4-35,Guro Masks,Sub-Saharan Africa,1800,2026,override
+D4-36,Baga Headdresses,Sub-Saharan Africa,1800,2026,override
+D4-37,Ekpo Masks,Sub-Saharan Africa,1800,1970,override
+D4-38,Niger Delta Water-Spirit Masks,Sub-Saharan Africa,1800,2026,override
+D4-39,Cross River Skin-Covered Headdresses,Sub-Saharan Africa,1800,1960,override
+D4-40,Urhobo Masks and Sculpture,Sub-Saharan Africa,1800,2026,override
+D4-41,Yaka and Suku Masks,Sub-Saharan Africa,1800,2026,override
 D5-1,Gandharan Art,Central Asia & Silk Road,-100,500,rule
 D5-2,Art of Mathura,South Asia,-200,1200,rule
 D5-3,Amaravati Art,South Asia,,,rule
@@ -475,7 +488,7 @@ D5-72,Alebrije,Mesoamerica & Caribbean,1980,1989,rule
 D5-73,Cartonería,Mesoamerica & Caribbean,,,rule
 D5-74,Caruaru Clay Figures,South America,,,rule
 D5-75,Haitian Metal Art,Mesoamerica & Caribbean,1899,1991,entries
-D5-76,Totem Poles,North America (Indigenous),1839,1998,entries
+D5-76,Totem Poles,North America (Indigenous),325,1998,entries
 D5-77,Inuit Sculpture,North America (Indigenous),1940,1949,rule
 D5-78,Kachina Dolls,Sub-Saharan Africa,1900,2000,rule
 D5-79,Zuni Fetishes,North America (Indigenous),1900,2000,rule
@@ -541,6 +554,11 @@ D5-138,Classical Javanese Sculpture,Southeast Asia,700,1500,rule
 D5-139,Shunga Sculpture,South Asia,-200,0,rule
 D5-140,Batak Sculpture,Southeast Asia,,,rule
 D5-141,Dayak Sculpture,Southeast Asia,,,rule
+D5-142,Benue River Valley Sculpture,Sub-Saharan Africa,1500,2026,override
+D5-143,Mbole Ofika Figures,Sub-Saharan Africa,1800,1960,override
+D5-144,Kanak Sculpture,Oceania (Pacific),1700,2026,override
+D5-145,Austral Islands Carving,Oceania (Pacific),1700,1850,override
+D5-146,Huastec Sculpture,Mesoamerica & Caribbean,900,1521,rule
 D6-1,Kaavad,South Asia,,,rule
 D6-2,Minkisi,Sub-Saharan Africa,1800,1900,objects
 D6-3,Fang Reliquary Guardians,Sub-Saharan Africa,,,rule
@@ -708,6 +726,8 @@ E1-151,Ubaid Pottery,Ancient Near East,-5500,-3700,rule
 E1-152,Triana Pottery,Western Europe,,,rule
 E1-153,Sesklo Pottery,Western Europe,-6000,-5000,rule
 E1-154,Harappan Pottery,,-3300,-1300,rule
+E1-155,Lenca Pottery,Mesoamerica & Caribbean,1000,2026,override
+E1-156,Kadiwéu Ceramics,South America,1800,2026,override
 E2-1,Seljuk Pottery,"Islamic world (MENA, Iran, Anatolia)",1000,1300,rule
 E2-2,Kashan Lustreware,"Islamic world (MENA, Iran, Anatolia)",1100,1400,rule
 E2-3,Mina'i Ware,"Islamic world (MENA, Iran, Anatolia)",1100,1300,override
@@ -1264,6 +1284,7 @@ H8-46,Northeastern Splint Basketry,North America (Indigenous),,,rule
 H8-47,Great Basin Basketry,North America (Indigenous),,,rule
 H8-48,Seri Basketry,Mesoamerica & Caribbean,1960,1969,override
 H8-49,Wounaan and Emberá Basketry,Mesoamerica & Caribbean,,,rule
+H8-50,Ye'kuana Basketry,South America,1800,2026,override
 H9-1,Zulu Beadwork,Sub-Saharan Africa,1800,1870,objects
 H9-2,Maasai Beadwork,Sub-Saharan Africa,1900,1930,objects
 H9-3,Yoruba Beadwork,Sub-Saharan Africa,,,rule
@@ -1313,9 +1334,13 @@ I1-27,Magewappa,Japan,1615,1868,rule
 I1-28,Tendō Shōgi Koma,Japan,1996,1996,rule
 I1-29,Vardo,Western Europe,1870,1870,rule
 I1-30,Danish Freehand Pipes,Western Europe,1950,1959,rule
-I1-31,Northwest Coast Woodcarving,North America (Indigenous),1873,2006,entries
+I1-31,Northwest Coast Woodcarving,North America (Indigenous),1839,2006,entries
 I1-32,Kuba Woodcarving,Sub-Saharan Africa,,,rule
 I1-33,Polynesian Clubs,Oceania (Pacific),,,rule
+I1-34,Buka Ceremonial Paddles,Oceania (Pacific),1800,1950,override
+I1-35,Marshall Islands Stick Charts,Oceania (Pacific),1850,2026,override
+I1-36,Palauan Storyboards,Oceania (Pacific),1930,2026,override
+I1-37,Maroon Arts of Suriname,South America,1750,2026,override
 I2-1,Persian Lacquer,"Islamic world (MENA, Iran, Anatolia)",1370,1925,rule
 I2-2,Kashmiri Papier-Mâché,Himalaya,,,rule
 I2-3,Edirnekâri,"Islamic world (MENA, Iran, Anatolia)",1600,1900,rule
@@ -1585,6 +1610,7 @@ K9-11,Bahay Kubo,Southeast Asia,,,rule
 K9-12,Bahay na Bato,Western Europe,1700,1900,rule
 K9-13,Sino-Portuguese Architecture,Western Europe,1800,2000,rule
 K9-14,Malay Traditional House,Southeast Asia,,,rule
+K9-15,Pyu Architecture,Southeast Asia,-200,900,rule
 K10-1,Aksumite Architecture,Sub-Saharan Africa,0,700,rule
 K10-2,Ethiopian Rock-hewn Churches,Sub-Saharan Africa,900,1300,rule
 K10-3,Gondarine Architecture,Sub-Saharan Africa,1600,1800,override
@@ -1755,6 +1781,8 @@ L5-9,Kakiniit,North America (Indigenous),2000,2009,rule
 L5-10,Tā Moko,Oceania (Pacific),,,rule
 L5-11,Polynesian Tattooing,Oceania (Pacific),,,rule
 L5-12,Sailor Tattoos,North America (settler),1872,2019,entries
+L5-13,Kusiwa,South America,1500,2026,override
+L5-14,Selk'nam Body Painting,South America,1800,1930,override
 L6-1,Sona,Sub-Saharan Africa,,,rule
 L6-2,Navajo Sandpainting,North America (Indigenous),1930,1939,rule
 L6-3,Corpus Christi Flower Carpets,Central & Eastern Europe,,,rule

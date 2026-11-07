@@ -1,0 +1,1372 @@
+{
+ "leaves": {},
+ "new_leaves": [
+  {
+   "key": "BFMASK",
+   "sub": "D4",
+   "label": "Masks of Burkina Faso",
+   "breadth": "narrow",
+   "defn": "The painted wooden masks of the Volta River peoples of Burkina Faso and southern Mali: the tall plank masks (nwantantay) and animal masks of the Bwa, the masks of the Bobo, Nuna, Winiama and other Gurunsi-speaking peoples, the Mossi karanga, and the Nafana bedu, covered with red, white and black geometric patterns and danced at funerals, initiations and agricultural festivals.",
+   "aliases": "Voltaic masks; Bwa masks; Plank masks",
+   "see": "D4-12 Dogon Masks",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Art_of_Burkina_Faso",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Bwa_people",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Masks+of+Burkina+Faso",
+     "The Met collection search: Masks of Burkina Faso",
+     "Masks of Burkina Faso in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Plank mask (nwantantay)",
+     "Sub-types",
+     "Bwa plank mask surmounting a disk-shaped face",
+     "r3 https://en.wikipedia.org/wiki/Bwa_people",
+     0
+    ],
+    [
+     "Leaf mask",
+     "Sub-types",
+     "Bwa masks of leaves dedicated to Dwo",
+     "r3 https://en.wikipedia.org/wiki/Art_of_Burkina_Faso",
+     0
+    ],
+    [
+     "Bobo",
+     "Peoples & cultures",
+     "AAT Bobo; Bobo-Fing masks (nyanga)",
+     "r3 https://en.wikipedia.org/wiki/Art_of_Burkina_Faso",
+     0
+    ],
+    [
+     "Sambla",
+     "Peoples & cultures",
+     "AAT Sambla",
+     "r3 https://en.wikipedia.org/wiki/Art_of_Burkina_Faso",
+     0
+    ],
+    [
+     "Kurumba",
+     "Peoples & cultures",
+     "AAT Kurumba; antelope headdresses",
+     "r3 https://en.wikipedia.org/wiki/Art_of_Burkina_Faso",
+     0
+    ],
+    [
+     "Nuna",
+     "Peoples & cultures",
+     "AAT Nuna",
+     "r3 https://en.wikipedia.org/wiki/Art_of_Burkina_Faso",
+     0
+    ],
+    [
+     "Winiama",
+     "Peoples & cultures",
+     "AAT Winiama",
+     "r3 https://en.wikipedia.org/wiki/Art_of_Burkina_Faso",
+     0
+    ],
+    [
+     "Gurunsi",
+     "Peoples & cultures",
+     "AAT Gurunsi",
+     "r3 https://en.wikipedia.org/wiki/Art_of_Burkina_Faso",
+     0
+    ],
+    [
+     "Nafana",
+     "Peoples & cultures",
+     "AAT Nafana; bedu masks",
+     "r3 https://en.wikipedia.org/wiki/Art_of_Burkina_Faso",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "GUROMASK",
+   "sub": "D4",
+   "label": "Guro Masks",
+   "breadth": "narrow",
+   "defn": "The masks of the Guro (Kweni) of central Côte d'Ivoire: the sacred family of zamble, with its fused antelope and crocodile muzzle, his wife gu and his wild brother zauli, danced at funerals of lineage elders, and entertainment masks designed by individual performers; also heddle pulleys carved with heads.",
+   "aliases": "",
+   "see": "D5-46 Baule Sculpture",
+   "src": [
+    [
+     "https://www.artic.edu/articles/732/five-new-things-in-african-art",
+     "Art Institute of Chicago"
+    ],
+    [
+     "https://africanarchive.org/en/staemme/guro",
+     "African Art Archive"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Guro+Masks",
+     "The Met collection search: Guro Masks",
+     "Guro Masks in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Zamble",
+     "Sub-types",
+     "hybrid antelope-crocodile mask",
+     "r3 https://www.artic.edu/articles/732/five-new-things-in-african-art",
+     0
+    ],
+    [
+     "Gu",
+     "Sub-types",
+     "female face mask, wife of zamble",
+     "r3 https://africanarchive.org/en/staemme/guro",
+     0
+    ],
+    [
+     "Guro",
+     "Peoples & cultures",
+     "AAT Guro (peripheral Mande)",
+     "r3 https://www.artic.edu/articles/732/five-new-things-in-african-art",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "BAGA",
+   "sub": "D4",
+   "label": "Baga Headdresses",
+   "breadth": "narrow",
+   "defn": "The carved headdresses of the Baga of coastal Guinea: the colossal d'mba (nimba) shoulder mask of the great mother, the a-Mantsho-ña-Tshol serpent headdress, and the banda, danced at planting and harvest festivals, marriages and funerals; suppressed in the 1950s and revived since the 1980s.",
+   "aliases": "Nimba; D'mba",
+   "see": "",
+   "src": [
+    [
+     "https://dma.org/art/collection/object/3069658",
+     "Dallas Museum of Art"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Baga+Headdresses",
+     "The Met collection search: Baga Headdresses",
+     "Baga Headdresses in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "D'mba (nimba)",
+     "Sub-types",
+     "great-mother shoulder headdress",
+     "r3 https://dma.org/art/collection/object/3069658",
+     0
+    ],
+    [
+     "a-Mantsho-ña-Tshol",
+     "Sub-types",
+     "serpent headdress, master of medicine",
+     "r3 https://dma.org/art/collection/object/3069658",
+     0
+    ],
+    [
+     "Baga",
+     "Peoples & cultures",
+     "AAT Baga (Simo)",
+     "r3 https://dma.org/art/collection/object/3069658",
+     0
+    ],
+    [
+     "Landuma",
+     "Peoples & cultures",
+     "AAT Landuma (Simo)",
+     "r3 https://dma.org/art/collection/object/3069658",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "BENUE",
+   "sub": "D5",
+   "label": "Benue River Valley Sculpture",
+   "breadth": "narrow",
+   "defn": "The sculpture, masks and ceramic spirit vessels of the peoples of the Benue River valley in central Nigeria: Mumuye columnar figures and sukuru masks, Chamba buffalo masks, Jukun, Mambila, Tiv, Idoma and Igala figures and masks, Ga'anda and other Upper Benue spirit vessels, and the iron and bronze regalia of the region.",
+   "aliases": "Arts of the Benue River Valley; Central Nigerian sculpture",
+   "see": "D5-30 Nok Terracottas",
+   "src": [
+    [
+     "https://fowler.ucla.edu/exhibitions/central-nigeria-unmasked-arts-of-the-benue-river-valley/",
+     "Fowler Museum, Central Nigeria Unmasked (2011)"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Benue+River+Valley+Sculpture",
+     "The Met collection search: Benue River Valley Sculpture",
+     "Benue River Valley Sculpture in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Mumuye",
+     "Peoples & cultures",
+     "AAT Mumuye",
+     "r3 https://fowler.ucla.edu/exhibitions/central-nigeria-unmasked-arts-of-the-benue-river-valley/",
+     0
+    ],
+    [
+     "Chamba",
+     "Peoples & cultures",
+     "AAT Chamba (Nigerian)",
+     "r3 https://fowler.ucla.edu/exhibitions/central-nigeria-unmasked-arts-of-the-benue-river-valley/",
+     0
+    ],
+    [
+     "Jukun",
+     "Peoples & cultures",
+     "AAT Jukun",
+     "r3 https://fowler.ucla.edu/exhibitions/central-nigeria-unmasked-arts-of-the-benue-river-valley/",
+     0
+    ],
+    [
+     "Mambila",
+     "Peoples & cultures",
+     "AAT Mambila",
+     "r3 https://fowler.ucla.edu/exhibitions/central-nigeria-unmasked-arts-of-the-benue-river-valley/",
+     0
+    ],
+    [
+     "Tiv",
+     "Peoples & cultures",
+     "AAT Tiv",
+     "r3 https://fowler.ucla.edu/exhibitions/central-nigeria-unmasked-arts-of-the-benue-river-valley/",
+     0
+    ],
+    [
+     "Idoma",
+     "Peoples & cultures",
+     "AAT Idoma",
+     "r3 https://fowler.ucla.edu/exhibitions/central-nigeria-unmasked-arts-of-the-benue-river-valley/",
+     0
+    ],
+    [
+     "Igala",
+     "Peoples & cultures",
+     "AAT Igala",
+     "r3 https://fowler.ucla.edu/exhibitions/central-nigeria-unmasked-arts-of-the-benue-river-valley/",
+     0
+    ],
+    [
+     "Ga'anda",
+     "Peoples & cultures",
+     "AAT Ga'anda; spirit vessels",
+     "r3 https://fowler.ucla.edu/exhibitions/central-nigeria-unmasked-arts-of-the-benue-river-valley/",
+     0
+    ],
+    [
+     "Jen",
+     "Peoples & cultures",
+     "AAT Jen",
+     "r3 https://fowler.ucla.edu/exhibitions/central-nigeria-unmasked-arts-of-the-benue-river-valley/",
+     0
+    ],
+    [
+     "Tangale",
+     "Peoples & cultures",
+     "AAT Tangale",
+     "r3 https://fowler.ucla.edu/exhibitions/central-nigeria-unmasked-arts-of-the-benue-river-valley/",
+     0
+    ],
+    [
+     "Waja",
+     "Peoples & cultures",
+     "AAT Waja",
+     "r3 https://fowler.ucla.edu/exhibitions/central-nigeria-unmasked-arts-of-the-benue-river-valley/",
+     0
+    ],
+    [
+     "Wurkun",
+     "Peoples & cultures",
+     "AAT Wurkun",
+     "r3 https://fowler.ucla.edu/exhibitions/central-nigeria-unmasked-arts-of-the-benue-river-valley/",
+     0
+    ],
+    [
+     "Koro",
+     "Peoples & cultures",
+     "AAT Koro",
+     "r3 https://fowler.ucla.edu/exhibitions/central-nigeria-unmasked-arts-of-the-benue-river-valley/",
+     0
+    ],
+    [
+     "Gwari",
+     "Peoples & cultures",
+     "AAT Gwari",
+     "r3 https://fowler.ucla.edu/exhibitions/central-nigeria-unmasked-arts-of-the-benue-river-valley/",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "EKPO",
+   "sub": "D4",
+   "label": "Ekpo Masks",
+   "breadth": "narrow",
+   "defn": "The masks of the Ekpo men's society of the Ibibio and Anang of south-eastern Nigeria, worn at the festival after the yam harvest when the ancestors return: dark idiok ekpo masks of evil spirits and pale mfon ekpo masks of beauty, with Ibibio marionettes and ancestor figures.",
+   "aliases": "",
+   "see": "D4-17 Igbo Masks",
+   "src": [
+    [
+     "https://sainsburycentre.ac.uk/art-and-objects/237-dance-mask-for-the-ekpo-society",
+     "Sainsbury Centre"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Ekpo+Masks",
+     "The Met collection search: Ekpo Masks",
+     "Ekpo Masks in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Idiok ekpo",
+     "Sub-types",
+     "dark mask of an evil spirit",
+     "r3 https://sainsburycentre.ac.uk/art-and-objects/237-dance-mask-for-the-ekpo-society",
+     0
+    ],
+    [
+     "Mfon ekpo",
+     "Sub-types",
+     "pale mask of idealised beauty",
+     "r3 https://sainsburycentre.ac.uk/art-and-objects/237-dance-mask-for-the-ekpo-society",
+     0
+    ],
+    [
+     "Ibibio",
+     "Peoples & cultures",
+     "AAT Ibibio (Cross River)",
+     "r3 https://sainsburycentre.ac.uk/art-and-objects/237-dance-mask-for-the-ekpo-society",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "NDELTA",
+   "sub": "D4",
+   "label": "Niger Delta Water-Spirit Masks",
+   "breadth": "narrow",
+   "defn": "The masquerade headdresses of the Niger Delta: horizontal Ijo and Kalabari crests of water spirits in the form of hippopotamus, sawfish, shark and crocodile, performed by the Ekine society, and the articulated-jaw masks of the Ogoni.",
+   "aliases": "Ijo water-spirit headdresses; Kalabari masks",
+   "see": "",
+   "src": [
+    [
+     "https://africa.si.edu/collection/object/nmafa_2006-2-1",
+     "National Museum of African Art"
+    ],
+    [
+     "https://learn.ncartmuseum.org/artwork/sawfish-headdress",
+     "North Carolina Museum of Art"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Niger+Delta+Water-Spirit+Masks",
+     "The Met collection search: Niger Delta Water-Spirit Masks",
+     "Niger Delta Water-Spirit Masks in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Ijo",
+     "Peoples & cultures",
+     "AAT Ijo (Niger Delta)",
+     "r3 https://africa.si.edu/collection/object/nmafa_2006-2-1",
+     0
+    ],
+    [
+     "Ogoni",
+     "Peoples & cultures",
+     "AAT Ogoni (Cross River)",
+     "r3 https://africa.si.edu/collection/object/nmafa_2006-2-1",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "XRIVER",
+   "sub": "D4",
+   "label": "Cross River Skin-Covered Headdresses",
+   "breadth": "narrow",
+   "defn": "The dance crests of the Ejagham, Boki and neighbouring peoples of the Cross River in Nigeria and Cameroon: heads carved in wood and covered with soaked antelope skin, often Janus-faced, with pegged teeth and coiffures, owned by age and entertainment associations and worn at funerals and initiations.",
+   "aliases": "Ekoi headdresses",
+   "see": "",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/African_art",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Ejagham",
+     "The Met collection search: Ejagham",
+     "Ejagham headdresses in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Ejagham",
+     "Peoples & cultures",
+     "AAT Ejagham",
+     "r3 https://en.wikipedia.org/wiki/African_art",
+     0
+    ],
+    [
+     "Keaka",
+     "Peoples & cultures",
+     "AAT Keaka (Ejagham)",
+     "r3 https://en.wikipedia.org/wiki/African_art",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "URHOBO",
+   "sub": "D4",
+   "label": "Urhobo Masks and Sculpture",
+   "breadth": "narrow",
+   "defn": "The masks and figures of the Urhobo of the western Niger Delta: water-spirit masks danced at festivals for spirits who travel upriver, the maiden masks with bridal coiffures, and the large edjo shrine figures.",
+   "aliases": "",
+   "see": "",
+   "src": [
+    [
+     "https://africa.si.edu/collection/selected-artwork/2122",
+     "National Museum of African Art"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Urhobo+Masks+and+Sculpture",
+     "The Met collection search: Urhobo Masks and Sculpture",
+     "Urhobo Masks and Sculpture in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Water-spirit mask",
+     "Sub-types",
+     "maiden mask with bridal coiffure for river spirits",
+     "r3 https://africa.si.edu/collection/selected-artwork/2122",
+     0
+    ],
+    [
+     "Edjo shrine figure",
+     "Sub-types",
+     "large figure of a spirit kept in a shrine",
+     "r3 https://africa.si.edu/collection/selected-artwork/2122",
+     0
+    ],
+    [
+     "Urhobo",
+     "Peoples & cultures",
+     "AAT Urhobo (Edo-speaking)",
+     "r3 https://africa.si.edu/collection/selected-artwork/2122",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "YAKA",
+   "sub": "D4",
+   "label": "Yaka and Suku Masks",
+   "breadth": "narrow",
+   "defn": "The masks of the Kwango-Kwilu region of the Democratic Republic of the Congo: the polychrome Yaka masks with upturned noses and raffia ruffs, held by a handle and danced in pairs at the close of the n-khanda boys' initiation, the Suku hemba helmet masks, and the masks of the Holo, Huana and Mbun.",
+   "aliases": "",
+   "see": "D4-22 Pende Masks",
+   "src": [
+    [
+     "https://www.slam.org/collection/objects/1681/",
+     "Saint Louis Art Museum"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Yaka+and+Suku+Masks",
+     "The Met collection search: Yaka and Suku Masks",
+     "Yaka and Suku Masks in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Ndeemba",
+     "Sub-types",
+     "initiation mask of the n-khanda camp",
+     "r3 https://www.slam.org/collection/objects/1681/",
+     0
+    ],
+    [
+     "Yaka",
+     "Peoples & cultures",
+     "AAT Yaka (Kwango-Kwilu)",
+     "r3 https://www.slam.org/collection/objects/1681/",
+     0
+    ],
+    [
+     "Suku",
+     "Peoples & cultures",
+     "AAT Suku",
+     "r3 https://www.slam.org/collection/objects/1681/",
+     0
+    ],
+    [
+     "Holo",
+     "Peoples & cultures",
+     "AAT Holo",
+     "r3 https://www.slam.org/collection/objects/1681/",
+     0
+    ],
+    [
+     "Huana",
+     "Peoples & cultures",
+     "AAT Huana",
+     "r3 https://www.slam.org/collection/objects/1681/",
+     0
+    ],
+    [
+     "Mbun",
+     "Peoples & cultures",
+     "AAT Mbun (Lower Kasai)",
+     "r3 https://www.slam.org/collection/objects/1681/",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "MBOLE",
+   "sub": "D5",
+   "label": "Mbole Ofika Figures",
+   "breadth": "narrow",
+   "defn": "The ofika figures of the Mbole of the Lomami River region, Democratic Republic of the Congo: slender, hunched figures of hanged men, painted ochre and white, shown at the close of initiation into the Lilwa association to teach its law.",
+   "aliases": "",
+   "see": "D5-51 Lega Sculpture",
+   "src": [
+    [
+     "https://www.clevelandart.org/print/art/2016.33",
+     "Cleveland Museum of Art"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Mbole+Ofika+Figures",
+     "The Met collection search: Mbole Ofika Figures",
+     "Mbole Ofika Figures in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Ofika (hanging figure)",
+     "Sub-types",
+     "figure of a hanged man shown at Lilwa initiation",
+     "r3 https://www.clevelandart.org/print/art/2016.33",
+     0
+    ],
+    [
+     "Lilwa association",
+     "Schools & phases",
+     "the men's association whose law the figures teach",
+     "r3 https://www.clevelandart.org/print/art/2016.33",
+     0
+    ],
+    [
+     "Mbole",
+     "Peoples & cultures",
+     "AAT Mbole (Mongo)",
+     "r3 https://www.clevelandart.org/print/art/2016.33",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "KANAK",
+   "sub": "D5",
+   "label": "Kanak Sculpture",
+   "breadth": "narrow",
+   "defn": "The carving of the Kanak of New Caledonia: flèches faîtières (roof finials) and door jambs of the great clan houses, ancestor figures, masks of feathers and hair, and ceremonial axes and clubs.",
+   "aliases": "New Caledonian carving",
+   "see": "",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Flèche_faîtière",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Kanak+Sculpture",
+     "The Met collection search: Kanak Sculpture",
+     "Kanak Sculpture in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Flèche faîtière",
+     "Sub-types",
+     "roof finial of the clan house",
+     "r3 https://en.wikipedia.org/wiki/Flèche_faîtière",
+     0
+    ],
+    [
+     "Kanak",
+     "Peoples & cultures",
+     "AAT Kanak (New Caledonian)",
+     "r3 https://en.wikipedia.org/wiki/Flèche_faîtière",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "BUKA",
+   "sub": "I1",
+   "label": "Buka Ceremonial Paddles",
+   "breadth": "narrow",
+   "defn": "The carved and painted ceremonial paddles and dance clubs of Buka and Bougainville in the northern Solomon Islands, decorated in red, black and white with the kokorra, a squatting human figure wearing the upe headdress of male initiates.",
+   "aliases": "Kokorra paddles",
+   "see": "D5-87 Nguzu Nguzu",
+   "src": [
+    [
+     "https://web.prm.ox.ac.uk/rpr/index.php/article-index/12-articles/294-degeneration-part-2.html",
+     "Pitt Rivers Museum"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Buka+Ceremonial+Paddles",
+     "The Met collection search: Buka Ceremonial Paddles",
+     "Buka Ceremonial Paddles in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Kokorra paddle",
+     "Sub-types",
+     "ceremonial paddle with squatting figures",
+     "r3 https://web.prm.ox.ac.uk/rpr/index.php/article-index/12-articles/294-degeneration-part-2.html",
+     0
+    ],
+    [
+     "Dance club",
+     "Sub-types",
+     "carved and painted club used in dance",
+     "r3 https://web.prm.ox.ac.uk/rpr/index.php/article-index/12-articles/294-degeneration-part-2.html",
+     0
+    ],
+    [
+     "Bougainville",
+     "Peoples & cultures",
+     "AAT Bougainville (Solomon Islands)",
+     "r3 https://web.prm.ox.ac.uk/rpr/index.php/article-index/12-articles/294-degeneration-part-2.html",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "STICK",
+   "sub": "I1",
+   "label": "Marshall Islands Stick Charts",
+   "breadth": "narrow",
+   "defn": "The navigational charts of the Marshall Islands: frames of palm-frond midribs bound with coconut fibre, curved sticks for ocean swells and cowrie shells for islands (mattang, meddo and rebbelib), used to teach voyaging and since the 20th century also made for sale.",
+   "aliases": "",
+   "see": "",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Marshall_Islands_stick_chart",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Marshall+Islands+Stick+Charts",
+     "The Met collection search: Marshall Islands Stick Charts",
+     "Marshall Islands Stick Charts in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Mattang",
+     "Sub-types",
+     "teaching chart of swell patterns",
+     "r3 https://en.wikipedia.org/wiki/Marshall_Islands_stick_chart",
+     0
+    ],
+    [
+     "Rebbelib",
+     "Sub-types",
+     "chart of a whole island chain",
+     "r3 https://en.wikipedia.org/wiki/Marshall_Islands_stick_chart",
+     0
+    ],
+    [
+     "Marshallese",
+     "Peoples & cultures",
+     "AAT Marshallese (Micronesian)",
+     "r3 https://en.wikipedia.org/wiki/Marshall_Islands_stick_chart",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "RAI",
+   "sub": "D3",
+   "label": "Rai Stones",
+   "breadth": "narrow",
+   "defn": "The stone discs of Yap, quarried from aragonite on Palau and carried by canoe and raft, ranging from a few centimetres to several metres across, displayed outside houses and community buildings and exchanged at marriages, funerals and other ceremonies.",
+   "aliases": "Yapese stone money",
+   "see": "",
+   "src": [
+    [
+     "https://repository.si.edu/items/1e60ad21-d0ce-4421-a5be-8a41248644e9",
+     "Smithsonian (Gillilland 1975)"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Rai_stones",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Rai+Stones",
+     "The Met collection search: Rai Stones",
+     "Rai Stones in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Yap",
+     "Peoples & cultures",
+     "AAT Yap (Caroline Islands)",
+     "r3 https://repository.si.edu/items/1e60ad21-d0ce-4421-a5be-8a41248644e9",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "PALAU",
+   "sub": "I1",
+   "label": "Palauan Storyboards",
+   "breadth": "narrow",
+   "defn": "The carved and painted narrative wood panels of Palau, derived from the carved beams and gables of the bai (men's clubhouse) and since the 1930s made as portable boards, telling legends such as the breadfruit tree and the Yapese currency quarrying.",
+   "aliases": "Palau bai carving",
+   "see": "K12-3 Maneaba",
+   "src": [
+    [
+     "https://www.penn.museum/documents/publications/expedition/18-1/Smith.pdf",
+     "Penn Museum, Expedition 18-1"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Palauan+Storyboards",
+     "The Met collection search: Palauan Storyboards",
+     "Palauan Storyboards in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Storyboard",
+     "Sub-types",
+     "portable carved narrative board",
+     "r3 https://www.penn.museum/documents/publications/expedition/18-1/Smith.pdf",
+     0
+    ],
+    [
+     "Bai beam and gable carving",
+     "Sub-types",
+     "carved and painted beams of the men's house",
+     "r3 https://www.penn.museum/documents/publications/expedition/18-1/Smith.pdf",
+     0
+    ],
+    [
+     "Palauan",
+     "Peoples & cultures",
+     "AAT Palauan (Caroline Islands)",
+     "r3 https://www.penn.museum/documents/publications/expedition/18-1/Smith.pdf",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "AUSTRAL",
+   "sub": "D5",
+   "label": "Austral Islands Carving",
+   "breadth": "narrow",
+   "defn": "The woodcarving of the Austral Islands of French Polynesia: the deity figure A'a of Rurutu, the ceremonial paddles and ladles of Raivavae and Tubuai carved with interlocking geometric motifs and small human figures, fly whisks and drums.",
+   "aliases": "",
+   "see": "D5-88 Marquesan Carving",
+   "src": [
+    [
+     "https://www.penn.museum/sites/journal/938",
+     "Penn Museum Journal (1921)"
+    ],
+    [
+     "https://smarthistory.org/rurutu-figure-known-as-aa/",
+     "Smarthistory / British Museum"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Austral+Islands+Carving",
+     "The Met collection search: Austral Islands Carving",
+     "Austral Islands Carving in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "A'a of Rurutu",
+     "Sub-types",
+     "hollow deity figure covered with thirty small figures",
+     "r3 https://smarthistory.org/rurutu-figure-known-as-aa/",
+     0
+    ],
+    [
+     "Ceremonial paddle",
+     "Sub-types",
+     "Raivavae and Tubuai paddles with geometric relief and figures on the pommel",
+     "r3 https://www.penn.museum/sites/journal/938",
+     0
+    ],
+    [
+     "Ceremonial ladle",
+     "Sub-types",
+     "carved ladles of Raivavae and Tubuai",
+     "r3 https://www.penn.museum/sites/journal/938",
+     0
+    ],
+    [
+     "Fly whisk (tahiri)",
+     "Sub-types",
+     "whisk with a carved handle",
+     "r3 https://smarthistory.org/rurutu-figure-known-as-aa/",
+     0
+    ],
+    [
+     "Austral Islands",
+     "Peoples & cultures",
+     "AAT Austral Islands (Polynesian)",
+     "r3 https://www.penn.museum/sites/journal/938",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "LENCA",
+   "sub": "E1",
+   "label": "Lenca Pottery",
+   "breadth": "narrow",
+   "defn": "The pottery of the Lenca of western Honduras and eastern El Salvador, made by hand by women from pre-Columbian times to the present: orange and brick-coloured household ware, and since the 1980s the black-and-white painted pottery of the La Campa and Gracias cooperatives.",
+   "aliases": "",
+   "see": "E1-102 Ulúa Polychrome",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Lenca",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Lenca+Pottery",
+     "The Met collection search: Lenca Pottery",
+     "Lenca Pottery in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Lenca",
+     "Peoples & cultures",
+     "AAT Lenca (Native Central American)",
+     "r3 https://en.wikipedia.org/wiki/Lenca",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "KADIWEU",
+   "sub": "E1",
+   "label": "Kadiwéu Ceramics",
+   "breadth": "narrow",
+   "defn": "The pottery of the Kadiwéu (Caduveo) of Mato Grosso do Sul, Brazil: vessels, plates and figures painted with the minute symmetric scroll designs the Kadiwéu also paint on faces and bodies, recorded by Guido Boggiani and Claude Lévi-Strauss.",
+   "aliases": "Caduveo pottery",
+   "see": "",
+   "src": [
+    [
+     "https://pib.socioambiental.org/en/Povo:Kadiw%C3%A9u",
+     "Instituto Socioambiental, Indigenous Peoples in Brazil"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Kadiwéu+Ceramics",
+     "The Met collection search: Kadiwéu Ceramics",
+     "Kadiwéu Ceramics in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Painted vessel",
+     "Sub-types",
+     "vases and plates painted with scroll designs",
+     "r3 https://pib.socioambiental.org/en/Povo:Kadiw%C3%A9u",
+     0
+    ],
+    [
+     "Face and body painting",
+     "Sub-types",
+     "genipap and charcoal designs drawn with a sliver of bamboo",
+     "r3 https://pib.socioambiental.org/en/Povo:Kadiw%C3%A9u",
+     0
+    ],
+    [
+     "Caduveo",
+     "Peoples & cultures",
+     "AAT Caduveo (Chaco)",
+     "r3 https://pib.socioambiental.org/en/Povo:Kadiw%C3%A9u",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "KUSIWA",
+   "sub": "L5",
+   "label": "Kusiwa",
+   "breadth": "narrow",
+   "defn": "The graphic art of the Wajãpi of Amapá, Brazil: geometric motifs of the jaguar, anaconda, butterfly and fish painted on bodies and objects with annatto and resins, inscribed on the UNESCO Representative List in 2008.",
+   "aliases": "Wajapi body painting",
+   "see": "",
+   "src": [
+    [
+     "https://ich.unesco.org/en/RL/oral-and-graphic-expressions-of-the-wajapi-00049",
+     "UNESCO ICH"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Kusiwa",
+     "The Met collection search: Kusiwa",
+     "Kusiwa in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Body painting with annatto",
+     "Sub-types",
+     "red annatto and resin motifs on the body",
+     "r3 https://ich.unesco.org/en/RL/oral-and-graphic-expressions-of-the-wajapi-00049",
+     0
+    ],
+    [
+     "Painted objects",
+     "Sub-types",
+     "kusiwa motifs on objects",
+     "r3 https://ich.unesco.org/en/RL/oral-and-graphic-expressions-of-the-wajapi-00049",
+     0
+    ],
+    [
+     "Wajãpi",
+     "Peoples & cultures",
+     "AAT Wajãpi (Guaraní)",
+     "r3 https://ich.unesco.org/en/RL/oral-and-graphic-expressions-of-the-wajapi-00049",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "SELKNAM",
+   "sub": "L5",
+   "label": "Selk'nam Body Painting",
+   "breadth": "narrow",
+   "defn": "The body painting of the Selk'nam (Ona) of Tierra del Fuego in red, white and black, with designs for hunting, combat and peace, and the totemic designs and bark masks of the spirits of the Hain initiation ceremony, photographed by Martin Gusinde in 1919–1924.",
+   "aliases": "Hain body painting",
+   "see": "",
+   "src": [
+    [
+     "https://precolombino.cl/wp/en/culturas-americanas/pueblos-originarios-de-chile/selk%C2%B4nam/nggallery/slideshow",
+     "Museo Chileno de Arte Precolombino"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Selk'nam+Body+Painting",
+     "The Met collection search: Selk'nam Body Painting",
+     "Selk'nam Body Painting in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Selk'nam",
+     "Peoples & cultures",
+     "AAT Selk'nam",
+     "r3 https://precolombino.cl/wp/en/culturas-americanas/pueblos-originarios-de-chile/selk%C2%B4nam/nggallery/slideshow",
+     0
+    ],
+    [
+     "Ona",
+     "Peoples & cultures",
+     "AAT Ona",
+     "r3 https://precolombino.cl/wp/en/culturas-americanas/pueblos-originarios-de-chile/selk%C2%B4nam/nggallery/slideshow",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "QUILLANGO",
+   "sub": "A4",
+   "label": "Quillango",
+   "breadth": "narrow",
+   "defn": "The painted guanaco-skin robes of the Tehuelche (Aónikenk) of Patagonia, sewn from many pelts, worn fur inward with the painted side out, decorated with red, black and yellow geometric designs.",
+   "aliases": "Tehuelche painted robes",
+   "see": "A4-18 Plains Hide Painting",
+   "src": [
+    [
+     "https://www.mininterior.gob.ar/agn/pdf/Tehuelches.pdf",
+     "Archivo General de la Nación, Argentina"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Quillango",
+     "The Met collection search: Quillango",
+     "Quillango in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Tehuelche",
+     "Peoples & cultures",
+     "AAT Tehuelche",
+     "r3 https://www.mininterior.gob.ar/agn/pdf/Tehuelches.pdf",
+     0
+    ],
+    [
+     "Patagón",
+     "Peoples & cultures",
+     "AAT Patagón",
+     "r3 https://www.mininterior.gob.ar/agn/pdf/Tehuelches.pdf",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "NASKAPI",
+   "sub": "A4",
+   "label": "Naskapi Painted Coats",
+   "breadth": "narrow",
+   "defn": "The painted caribou-skin coats of the Innu (Naskapi) of Quebec and Labrador, cut on the model of European frock coats and painted with dream-given designs in mineral and plant pigments bound with fish roe, with a triangular back gusset for the mountain of the Caribou Master; worn for one hunting season.",
+   "aliases": "Innu painted coats",
+   "see": "A4-18 Plains Hide Painting",
+   "src": [
+    [
+     "https://www.heritage.nf.ca/articles/indigenous/innu-culture.php",
+     "Heritage Newfoundland and Labrador"
+    ],
+    [
+     "https://prm.web.ox.ac.uk/files/topleasethespiritspdf",
+     "Pitt Rivers Museum"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Naskapi+Painted+Coats",
+     "The Met collection search: Naskapi Painted Coats",
+     "Naskapi Painted Coats in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Painted caribou-skin coat",
+     "Sub-types",
+     "frock-coat cut with a triangular back gusset",
+     "r3 https://www.heritage.nf.ca/articles/indigenous/innu-culture.php",
+     0
+    ],
+    [
+     "Painted hide",
+     "Sub-types",
+     "caribou hide painted with the same designs, shown to the rising sun",
+     "r3 https://prm.web.ox.ac.uk/files/topleasethespiritspdf",
+     0
+    ],
+    [
+     "Naskapi",
+     "Peoples & cultures",
+     "AAT Naskapi (Innu)",
+     "r3 https://www.heritage.nf.ca/articles/indigenous/innu-culture.php",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "HUASTEC",
+   "sub": "D5",
+   "label": "Huastec Sculpture",
+   "breadth": "narrow",
+   "defn": "The stone sculpture of the Huastec of the Gulf Coast of Mexico (c. 900–1521): sandstone figures of deities and rulers, naturalistic bodies with tall conical or fan headdresses, carved fully in the round in the Postclassic, with shell ornaments and effigy vessels.",
+   "aliases": "",
+   "see": "D5-65 Classic Veracruz Sculpture",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Huastec_civilization",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Huastec+Sculpture",
+     "The Met collection search: Huastec Sculpture",
+     "Huastec Sculpture in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Huastec",
+     "Peoples & cultures",
+     "AAT Huastec (Native Central Mexican)",
+     "r3 https://en.wikipedia.org/wiki/Huastec_civilization",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "MAROON",
+   "sub": "I1",
+   "label": "Maroon Arts of Suriname",
+   "breadth": "narrow",
+   "defn": "The woodcarving, textiles and painting of the Saramaka, Ndyuka, Aluku and other Maroon peoples of Suriname and French Guiana: low-relief and openwork carved paddles, combs, stools and house fronts with tacks and inlays, appliqué and embroidered capes, and the painted carving of the eastern Maroons.",
+   "aliases": "Saramaka woodcarving; Tembe",
+   "see": "",
+   "src": [
+    [
+     "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/maroon-arts",
+     "Encyclopedia of African-American Culture and History"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Maroon+Arts+of+Suriname",
+     "The Met collection search: Maroon Arts of Suriname",
+     "Maroon Arts of Suriname in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Saramaka woodcarving",
+     "Schools & phases",
+     "central Maroon carving with tacks, inlays and pyrogravure",
+     "r3 https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/maroon-arts",
+     0
+    ],
+    [
+     "Eastern Maroon painted carving",
+     "Schools & phases",
+     "Aluku and Ndyuka carving with commercial paints",
+     "r3 https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/maroon-arts",
+     0
+    ],
+    [
+     "Appliqué and embroidered cape",
+     "Sub-types",
+     "men's shoulder capes of imported cotton",
+     "r3 https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/maroon-arts",
+     0
+    ],
+    [
+     "Maroon",
+     "Peoples & cultures",
+     "AAT Maroon",
+     "r3 https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/maroon-arts",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "PYU",
+   "sub": "K9",
+   "label": "Pyu Architecture",
+   "breadth": "narrow",
+   "defn": "The brick architecture of the Pyu city-states of the Irrawaddy dry zone (2nd century BCE – 9th century CE): the walled and moated cities of Halin, Beikthano and Sri Ksetra with palace citadels and the cylindrical memorial stupas of the earliest Buddhist urban culture in Southeast Asia; UNESCO World Heritage 2014.",
+   "aliases": "",
+   "see": "K9-5 Burmese Architecture",
+   "src": [
+    [
+     "https://whc.unesco.org/en/list/1444/",
+     "UNESCO World Heritage Centre"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Pyu+Architecture",
+     "The Met collection search: Pyu Architecture",
+     "Pyu Architecture in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Pyu",
+     "Peoples & cultures",
+     "AAT Pyu (Southeast Asian)",
+     "r3 https://whc.unesco.org/en/list/1444/",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "YAO",
+   "sub": "A4",
+   "label": "Yao Ritual Paintings",
+   "breadth": "narrow",
+   "defn": "The Taoist ceremonial scroll paintings (mien fang) of the Yao (Iu Mien) of South China, northern Vietnam, Laos and Thailand: sets of about seventeen hanging scrolls of the Three Pure Ones, the Jade Emperor, marshals and other deities displayed in ordinations and rites.",
+   "aliases": "Mien fang; Iu Mien paintings",
+   "see": "",
+   "src": [
+    [
+     "https://www.pha-tad-ke.com/wp-content/uploads/2022/02/2012-E-Catalog-Yao-Mien.pdf",
+     "Pha Tad Ke, Yao Mien Ceremonial Paintings"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Yao+Ritual+Paintings",
+     "The Met collection search: Yao Ritual Paintings",
+     "Yao Ritual Paintings in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Yao",
+     "Peoples & cultures",
+     "AAT Yao (Chinese, Vietnamese minorities; Southeast Asian)",
+     "r3 https://www.pha-tad-ke.com/wp-content/uploads/2022/02/2012-E-Catalog-Yao-Mien.pdf",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "TANGUT",
+   "sub": "A4",
+   "label": "Tangut Buddhist Painting",
+   "breadth": "narrow",
+   "defn": "The Buddhist painting of the Tangut Western Xia (1038–1227), known chiefly from the hoard of Khara-Khoto excavated by Kozlov in 1908–1909: thangkas and silk paintings of Amitabha, Chakrasamvara, Vajravarahi and other deities in Tibetan and Chinese styles, with clay sculpture and xylograph frontispieces.",
+   "aliases": "Western Xia painting; Xixia painting",
+   "see": "A4-7 Thangka",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Khara-Khoto",
+     "Wikipedia"
+    ],
+    [
+     "https://harvardartmuseums.org/article/inside-and-out-a-technical-investigation-of-clay-buddhist-objects-from-khara-khoto",
+     "Harvard Art Museums"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Tangut+Buddhist+Painting",
+     "The Met collection search: Tangut Buddhist Painting",
+     "Tangut Buddhist Painting in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Tangut",
+     "Peoples & cultures",
+     "AAT Tangut (Himalayan)",
+     "r3 https://en.wikipedia.org/wiki/Khara-Khoto",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "YEKUANA",
+   "sub": "H8",
+   "label": "Ye'kuana Basketry",
+   "breadth": "narrow",
+   "defn": "The plaited baskets of the Ye'kuana (Makiritare) of the upper Orinoco in Venezuela and Brazil: storage baskets and trays woven in black and natural strips with meander and animal designs (waja), made by men.",
+   "aliases": "Makiritare basketry; Waja trays",
+   "see": "H9-14 Amazonian Featherwork",
+   "src": [
+    [
+     "https://collection-online.moa.ubc.ca/search/item?category%5Bculture%5D%5B0%5D=1846581&row=4&tab=more",
+     "Museum of Anthropology at UBC"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Ye'kuana+Basketry",
+     "The Met collection search: Ye'kuana Basketry",
+     "Ye'kuana Basketry in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "types, then the peoples who make it, then holding institutions",
+   "kinds": [
+    [
+     "Waja",
+     "Sub-types",
+     "round plaited tray with figurative designs",
+     "r3 https://collection-online.moa.ubc.ca/search/item?category%5Bculture%5D%5B0%5D=1846581&row=4&tab=more",
+     0
+    ],
+    [
+     "Storage basket",
+     "Sub-types",
+     "square-based basket with meander designs",
+     "r3 https://collection-online.moa.ubc.ca/search/item?category%5Bculture%5D%5B0%5D=1846581&row=4&tab=more",
+     0
+    ],
+    [
+     "Makiritaré",
+     "Peoples & cultures",
+     "AAT Makiritaré (Native Amazonian)",
+     "r3 https://collection-online.moa.ubc.ca/search/item?category%5Bculture%5D%5B0%5D=1846581&row=4&tab=more",
+     0
+    ]
+   ]
+  }
+ ],
+ "moves_out": [],
+ "dropped": []
+}

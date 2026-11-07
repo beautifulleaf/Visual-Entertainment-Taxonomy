@@ -1,6 +1,6 @@
 # Structure audit
 
-Computed from the published data: FT 950 leaves (604 sectioned), VA 1807 leaves. Flags in `flags.csv`.
+Computed from the published data: FT 950 leaves (604 sectioned), VA 1835 leaves. Flags in `flags.csv`.
 
 | Check | Finding | High | Medium | Low |
 |---|---|---:|---:|---:|
@@ -67,7 +67,7 @@ S2: 0 titles fall outside the dates of their era section.
 | VA | A1 Manuscript & Album Painting | 11 | 2 | 2 | 7 |
 | VA | A2 East Asian Ink & Colour Painting | 11 | 0 | 2 | 2 |
 | VA | A3 Icon Painting | 4 | 0 | 1 | 1 |
-| VA | A4 Cloth & Scroll Painting | 8 | 1 | 0 | 9 |
+| VA | A4 Cloth & Scroll Painting | 8 | 1 | 0 | 11 |
 | VA | A5 Easel Painting | 47 | 55 | 4 | 39 |
 | VA | A6 Folk & Popular Painting | 22 | 5 | 0 | 5 |
 | VA | B1 Drawing | 7 | 1 | 2 | 0 |
@@ -79,10 +79,10 @@ S2: 0 titles fall outside the dates of their era section.
 | VA | D1 Architectural Carving & Stucco | 0 | 0 | 0 | 4 |
 | VA | D2 Ivory & Bone Carving | 3 | 0 | 0 | 15 |
 | VA | D3 Hardstone, Rock Crystal & Jade Carving | 3 | 0 | 0 | 10 |
-| VA | D4 Masks & Puppets | 0 | 1 | 0 | 32 |
-| VA | D5 Figurative Sculpture | 28 | 7 | 3 | 103 |
+| VA | D4 Masks & Puppets | 0 | 1 | 0 | 39 |
+| VA | D5 Figurative Sculpture | 28 | 7 | 3 | 107 |
 | VA | D6 Ritual Objects & Regalia | 0 | 0 | 0 | 13 |
-| VA | E1 Earthenware | 142 | 0 | 0 | 12 |
+| VA | E1 Earthenware | 142 | 0 | 0 | 14 |
 | VA | E2 Fritware (Stonepaste) | 15 | 0 | 0 | 1 |
 | VA | E3 Stoneware | 34 | 0 | 0 | 0 |
 | VA | E4 Porcelain | 27 | 0 | 0 | 0 |
@@ -101,10 +101,10 @@ S2: 0 titles fall outside the dates of their era section.
 | VA | H5 Dyed & Printed Textiles | 10 | 0 | 0 | 31 |
 | VA | H6 Felt | 0 | 0 | 0 | 1 |
 | VA | H7 Dress & Costume | 2 | 2 | 0 | 19 |
-| VA | H8 Basketry, Barkcloth & Fibre Arts | 6 | 0 | 0 | 43 |
+| VA | H8 Basketry, Barkcloth & Fibre Arts | 6 | 0 | 0 | 44 |
 | VA | H9 Beadwork, Quillwork & Featherwork | 3 | 0 | 0 | 13 |
 | VA | H10 Leatherwork | 1 | 0 | 0 | 2 |
-| VA | I1 Carved & Inlaid Woodwork | 0 | 0 | 0 | 33 |
+| VA | I1 Carved & Inlaid Woodwork | 0 | 0 | 0 | 37 |
 | VA | I2 Lacquer | 3 | 1 | 0 | 18 |
 | VA | I3 Furniture & Decorative Arts Styles | 4 | 12 | 0 | 8 |
 | VA | I4 Musical Instruments | 1 | 0 | 0 | 22 |
@@ -127,7 +127,7 @@ S2: 0 titles fall outside the dates of their era section.
 | VA | L2 Wall Painting | 37 | 1 | 0 | 13 |
 | VA | L3 Mosaic & Tile Revetment | 0 | 11 | 0 | 1 |
 | VA | L4 Geoglyphs | 0 | 7 | 0 | 1 |
-| VA | L5 Body Art | 0 | 0 | 0 | 12 |
+| VA | L5 Body Art | 0 | 0 | 0 | 13 |
 | VA | L6 Floor & Sand Painting | 0 | 0 | 0 | 3 |
 | VA | M1 Installation, Conceptual & Performance Art | 1 | 5 | 0 | 3 |
 | VA | M2 Video & New Media Art | 1 | 2 | 0 | 2 |
@@ -139,8 +139,8 @@ S2: 0 titles fall outside the dates of their era section.
 
 | Tab | Sub-family | Leaves | Entries | Gini | Largest leaf |
 |---|---|---:|---:|---:|---:|
-| VA | A5 Easel Painting | 145 | 19,256 | 0.83 | 31% |
-| VA | D5 Figurative Sculpture | 141 | 4,310 | 0.81 | 38% |
+| VA | A5 Easel Painting | 145 | 19,257 | 0.83 | 31% |
+| VA | D5 Figurative Sculpture | 146 | 4,337 | 0.81 | 37% |
 | VA | H7 Dress & Costume | 23 | 295 | 0.68 | 59% |
 | VA | J1 Photographic Schools & Movements | 18 | 3,110 | 0.68 | 29% |
 | VA | K8 East Asian Architecture | 21 | 528 | 0.68 | 29% |
@@ -150,7 +150,7 @@ S2: 0 titles fall outside the dates of their era section.
 | VA | L2 Wall Painting | 51 | 779 | 0.66 | 22% |
 | VA | B2 Printmaking | 22 | 936 | 0.66 | 26% |
 | VA | K4 Medieval European Architecture | 13 | 684 | 0.65 | 46% |
+| VA | K9 Southeast Asian Architecture | 15 | 201 | 0.63 | 36% |
 | VA | L1 Rock Art | 42 | 584 | 0.62 | 19% |
-| VA | K9 Southeast Asian Architecture | 14 | 200 | 0.61 | 36% |
 | VA | M1 Installation, Conceptual & Performance Art | 9 | 524 | 0.58 | 51% |
 | VA | K6 Modern & Contemporary Architecture | 26 | 2,227 | 0.57 | 35% |

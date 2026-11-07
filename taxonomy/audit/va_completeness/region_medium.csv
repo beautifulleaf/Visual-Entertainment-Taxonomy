@@ -6,17 +6,17 @@ A,Painting,Ancient Egypt & Nubia,0,0,2
 A,Painting,Ancient Near East,0,0,0
 A,Painting,"Islamic world (MENA, Iran, Anatolia)",6,5684,5
 A,Painting,Central Asia & Silk Road,1,981,12
-A,Painting,Himalaya,7,5170,58
+A,Painting,Himalaya,8,5170,58
 A,Painting,South Asia,24,18680,109
 A,Painting,Southeast Asia,7,11796,19
-A,Painting,China,8,18741,23
+A,Painting,China,9,18741,23
 A,Painting,Japan,13,22943,22
 A,Painting,Korea,3,4508,12
 A,Painting,Sub-Saharan Africa,11,1230,14
-A,Painting,North America (Indigenous),4,4423,0
+A,Painting,North America (Indigenous),5,4423,0
 A,Painting,North America (settler),22,193,8
 A,Painting,Mesoamerica & Caribbean,7,1385,11
-A,Painting,South America,11,1931,12
+A,Painting,South America,12,1931,12
 A,Painting,Oceania (Pacific),3,834,6
 A,Painting,Australia (Aboriginal),3,363,21
 B,Drawings & Prints,Western Europe,8,757,12
@@ -72,12 +72,12 @@ D,Sculpture & Carving,Southeast Asia,15,8754,55
 D,Sculpture & Carving,China,9,9636,28
 D,Sculpture & Carving,Japan,11,10529,29
 D,Sculpture & Carving,Korea,2,237,11
-D,Sculpture & Carving,Sub-Saharan Africa,42,4353,196
+D,Sculpture & Carving,Sub-Saharan Africa,52,4353,196
 D,Sculpture & Carving,North America (Indigenous),8,6920,9
 D,Sculpture & Carving,North America (settler),7,349,20
-D,Sculpture & Carving,Mesoamerica & Caribbean,13,4540,40
+D,Sculpture & Carving,Mesoamerica & Caribbean,14,4540,40
 D,Sculpture & Carving,South America,8,626,19
-D,Sculpture & Carving,Oceania (Pacific),10,6213,65
+D,Sculpture & Carving,Oceania (Pacific),13,6213,65
 D,Sculpture & Carving,Australia (Aboriginal),4,362,8
 E,Ceramics,Western Europe,24,82168,260
 E,Ceramics,Central & Eastern Europe,12,1498,83
@@ -95,8 +95,8 @@ E,Ceramics,Korea,8,3177,19
 E,Ceramics,Sub-Saharan Africa,4,9442,97
 E,Ceramics,North America (Indigenous),16,22752,18
 E,Ceramics,North America (settler),2,723,17
-E,Ceramics,Mesoamerica & Caribbean,24,18820,34
-E,Ceramics,South America,28,15224,36
+E,Ceramics,Mesoamerica & Caribbean,25,18820,34
+E,Ceramics,South America,29,15224,36
 E,Ceramics,Oceania (Pacific),3,1422,159
 E,Ceramics,Australia (Aboriginal),1,8,1
 F,Glass,Western Europe,6,5733,85
@@ -156,7 +156,7 @@ H,"Textiles, Carpets & Dress",Sub-Saharan Africa,26,16485,166
 H,"Textiles, Carpets & Dress",North America (Indigenous),31,23038,24
 H,"Textiles, Carpets & Dress",North America (settler),6,13079,32
 H,"Textiles, Carpets & Dress",Mesoamerica & Caribbean,13,5253,30
-H,"Textiles, Carpets & Dress",South America,15,12577,52
+H,"Textiles, Carpets & Dress",South America,16,12577,52
 H,"Textiles, Carpets & Dress",Oceania (Pacific),8,11989,92
 H,"Textiles, Carpets & Dress",Australia (Aboriginal),2,270,8
 I,"Woodwork, Lacquer & Furniture",Western Europe,27,910,16
@@ -176,8 +176,8 @@ I,"Woodwork, Lacquer & Furniture",Sub-Saharan Africa,3,9086,65
 I,"Woodwork, Lacquer & Furniture",North America (Indigenous),2,6585,22
 I,"Woodwork, Lacquer & Furniture",North America (settler),2,258,1
 I,"Woodwork, Lacquer & Furniture",Mesoamerica & Caribbean,1,1464,7
-I,"Woodwork, Lacquer & Furniture",South America,2,3725,9
-I,"Woodwork, Lacquer & Furniture",Oceania (Pacific),3,6939,35
+I,"Woodwork, Lacquer & Furniture",South America,3,3725,9
+I,"Woodwork, Lacquer & Furniture",Oceania (Pacific),6,6939,35
 I,"Woodwork, Lacquer & Furniture",Australia (Aboriginal),0,107,0
 J,Photography,Western Europe,5,2450,0
 J,Photography,Central & Eastern Europe,0,25,0
@@ -208,7 +208,7 @@ K,Architecture,"Islamic world (MENA, Iran, Anatolia)",22,0,66
 K,Architecture,Central Asia & Silk Road,1,0,3
 K,Architecture,Himalaya,4,0,4
 K,Architecture,South Asia,18,0,57
-K,Architecture,Southeast Asia,14,0,27
+K,Architecture,Southeast Asia,15,0,27
 K,Architecture,China,13,0,18
 K,Architecture,Japan,13,0,53
 K,Architecture,Korea,2,0,4
@@ -236,6 +236,6 @@ L,Art in Place,Sub-Saharan Africa,9,0,18
 L,Art in Place,North America (Indigenous),8,0,15
 L,Art in Place,North America (settler),2,0,11
 L,Art in Place,Mesoamerica & Caribbean,5,0,15
-L,Art in Place,South America,9,0,31
+L,Art in Place,South America,11,0,31
 L,Art in Place,Oceania (Pacific),4,0,14
 L,Art in Place,Australia (Aboriginal),5,0,9
