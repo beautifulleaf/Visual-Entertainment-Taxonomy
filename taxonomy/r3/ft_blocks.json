@@ -1,38 +1,302 @@
 {
- "film_movements_doc_exp_short": {"subs": [["A1","Movements & Schools"],["A19","Documentary"],["A20","Experimental & Avant-Garde"],["A21","Short Film"]],
-   "hint": "A1 keeps one leaf per named movement (they are attested canons; small leaves are fine here) but give big movements (New Hollywood, Slow Cinema, French New Wave) sections. A19 Documentary (old A13, 894) must be split by mode and subject into leaves (e.g. observational/direct cinema, essay film, investigative & political documentary, biographical & portrait documentary, music & concert, nature & wildlife, true crime, sports documentary, war & history documentary, art & artist documentary, personal/autobiographical, ethnographic, city symphony, mondo, compilation/archival). A21 Short Film takes the old live-action, documentary and experimental shorts (old B2, B3, B4): split by mode (trick film, actuality, silent comedy short, narrative short by genre, documentary short, avant-garde short ...). Animated shorts are NOT in this block (they go to Animation)."},
- "film_crime_thriller": {"subs": [["A2","Crime"],["A3","Thriller & Mystery"]],
-   "hint": "Old A2-4 Crime Drama (352), A2-5 Film Noir & Neo-Noir (250), A2-3 Police & Detective (214), A3-9 Suspense Thriller (247), A3-1 Psychological Thriller (195), A3-7 Spy (172) are catch-alls. Split by plot engine: e.g. classic film noir vs neo-noir; police procedural, private-eye, whodunit/mystery, legal-crime, caper, con-artist, gangster epic, mob, drug-trade, serial-killer thriller, erotic thriller, conspiracy, techno-thriller, cat-and-mouse, hostage & siege, chase, domestic/marriage thriller, stalker, amnesia/identity, Cold War spy, spy-action franchise, giallo, poliziottesco, yakuza, Korean revenge thriller, hood film, blaxploitation ..."},
- "film_horror_scifi": {"subs": [["A4","Horror"],["A5","Science Fiction"]],
-   "hint": "Old A4-3 Supernatural Horror (442) and A5-3 Science Fiction Film (220) are catch-alls. Horror by the source of fear: possession & exorcism, demonic/occult & satanic, ghost story, curse, witchcraft, religious horror, haunted house, folk horror, slasher (classic / meta / backwoods), monster movie, werewolf, vampire, zombie, mummy, creature feature, eco-horror, body horror, cosmic/Lovecraftian, psychological horror, home invasion, survival horror, found footage, anthology horror, splatter, torture porn, J-horror, K-horror, Thai horror, Italian gothic, Hammer horror, Universal Classic Monsters, comedy horror, elevated horror, etc. Science fiction by premise: hard SF, space exploration, space opera, alien invasion, first contact, time travel, dystopia, post-apocalyptic, disaster film, cyberpunk, artificial intelligence & robots, genetic engineering/mad science, parallel worlds, kaiju, tokusatsu, social science fiction, B-movie 1950s science fiction ... A5 is renamed Science Fiction (monster films that are horror stay A4; kaiju stays in A5)."},
- "film_history_war_western_biopic": {"subs": [["A8","Historical & Period Film"],["A9","War Film"],["A10","Western"],["A11","Biographical Film"]],
-   "hint": "Old A7 (Historical, Period & War) and A17 (Western). A11 Biographical Film (old A7-8, 649) must be split by the subject's field: musician biopic, artist & writer biopic, sports biopic, political & royal biopic, scientist & inventor, crime & outlaw biopic, religious figures, entertainment & showbusiness, military, business ... A9 War Film by war and mode (WWI, WWII combat, Holocaust, Pacific war, Vietnam War, anti-war film, POW film, war epic, home front, partisan film, Cold War / modern war, atomic bomb ...). A8 period film: costume drama, heritage film, epic, sword-and-sandal, jidaigeki, chanbara, historical epic, medieval film, royal court drama ... A10 Western: classic, revisionist, spaghetti, acid, neo-western, ostern, contemporary western ..."},
- "film_fantasy_action_family_popular": {"subs": [["A6","Fantasy & Adventure"],["A7","Action & Martial Arts"],["A17","Children's & Family Film"],["A18","Popular Cinema Modes"]],
-   "hint": "Old A6 (Fantasy Film 272, Superhero 216, Adventure 101), A8 (Action Film 264 ...), A19 (Children's Film 227, Christmas Film 155), A18 (Masala 112, Nollywood, Yeşilçam). Split: superhero by franchise universe / type (MCU, DC, standalone, deconstruction); fantasy (high fantasy, sword and sorcery, dark fantasy, urban fantasy, portal fantasy, mythological, fairy tale, magical realism, fantasy comedy); adventure (jungle adventure, treasure hunt, lost world, sea adventure, swashbuckler); action (action thriller, one-man army, martial arts, wuxia, kung fu, heroic bloodshed, gun fu, buddy cop, disaster action, car chase & heist action, video-game adaptation, girls-with-guns ...); family (family comedy, animal adventure, children's fantasy, holiday/Christmas film by mode, teen adventure ...); masala by industry where the field names it (Telugu masala, Tamil masala, Bollywood masala are attested)."},
- "film_comedy": {"subs": [["A12","Comedy"]],
-   "hint": "THE MAIN PROBLEM CASE: old A10-1 Comedy Film holds 630 titles from silent films to Zoolander, A10-2 Comedy-Drama 668, A10-3 Black Comedy & Satire 403. Split the whole comic field by comic mode and comic engine into many leaves: silent clown comedy, comedy teams (Marx Brothers, Laurel & Hardy), screwball, comedy of manners, comedy of remarriage, farce & bedroom farce, Ealing comedy, commedia all'italiana, slapstick, gross-out, stoner comedy, frat/college comedy, teen comedy, sex comedy, buddy comedy, road comedy, fish-out-of-water, body-swap & high-concept comedy, family comedy, wedding & holiday comedy, workplace comedy, sports comedy, military comedy, crime comedy & caper, action comedy, spy spoof, parody & spoof, mockumentary, satire (political, media, corporate, social), black comedy, absurdist & surreal comedy, deadpan & quirky indie comedy, cringe comedy, comedy-drama by subject (midlife, family dysfunction, coming-of-age dramedy, illness dramedy), Bourekas, stand-up film, sketch-anthology film ... Zoolander is a fashion-world parody; Animal House a frat comedy. Romantic comedy is NOT in this block (it is in A13 Romance)."},
- "film_romance_musical_erotic": {"subs": [["A13","Romance"],["A14","Musical & Dance Film"],["A15","Erotic Film"]],
-   "hint": "Old A9-1 Romantic Drama (687) and A9-2 Romantic Comedy (580) are catch-alls; A11-1 Musical & Music Film (312). Romance by the love-story engine: forbidden/class-crossed love, tragic romance & weepie, wartime romance, period romance (Austen-type heritage romance), brief encounter, second-chance, love triangle, queer romance, teen romance, May-December, epistolary/long-distance, supernatural/fantasy romance; romantic comedy by engine: screwball rom-com, meet-cute, enemies-to-lovers, fake relationship, wedding rom-com, holiday rom-com, workplace rom-com, rom-com of manners, Bollywood romance ... Musical: backstage musical, integrated book musical, jukebox musical, film-opera, rock opera, biopic-musical? (no, biopics are elsewhere), dance film, music-competition film, Bollywood song-and-dance where leaf-worthy, rumberas. Erotic: erotic drama, sexploitation, pink film, Roman Porno (keep leaves even if empty only if they had titles before; Pink Film and Roman Porno had 0 titles — keep them as leaves with a note only if attested canon; the pornographic film leaf is retired and must not appear)."},
- "film_drama": {"subs": [["A16","Drama"]],
-   "hint": "Old A14: Character Study (589), Coming-of-Age (377), Social Drama (354), Family Drama (298), Sports Film (219), Road Movie (202) ... Split by the dramatic engine and subject: family saga, parent-child drama, marriage & divorce drama, sibling drama, grief & loss, illness & disability, addiction drama, coming-of-age (by setting: school, summer, rural ...), teen drama, campus drama, social realism (kitchen-sink, working-class), immigrant & diaspora drama, poverty & street-life, political drama, legal drama (courtroom), journalism drama, medical drama, religious & faith drama, prison-free institutional drama, sports drama by sport, boxing film, road movie, survival drama, existential/arthouse character study, artist & performer drama, workplace drama, melodrama, shomingeki, banlieue film, Christian film, LGBTQ drama, animal film ..."},
- "tv_drama_serial": {"subs": [["B1","Drama Series"],["B12","Serial Drama Traditions"]],
-   "hint": "Old C1 (Drama Series 207 catch-all, Period Drama Series 328, Family 157, Teen 147, Docudrama 157 ...) and old D Serial Drama Traditions (telenovela, soap opera, dizi, South Asian serials, musalsal, teleserye: 367 titles; old D had 6 sub-families — they now become leaves or sections of the single sub-family B12). Split drama series by premise: prestige antihero drama, family saga series, workplace (medical, legal, newsroom, political, military), period drama (by era: costume, Victorian/Edwardian heritage, 20th-century period), historical epic series, teen & high-school, campus, small-town drama, LGBTQ drama, anthology drama, docudrama & historical miniseries, limited series literary adaptation, sports drama, westerns, action-adventure, erotic drama series, vertical short drama ..."},
- "tv_korean_japanese": {"subs": [["B2","Korean Drama"],["B3","Japanese Television Drama"]],
-   "hint": "Old C2-1 K-Drama (647 catch-all), C2-2 Sageuk, C2-3 Makjang, C2-7 Asadora, C2-8 Taiga Drama, C2-9 Japanese Television Drama (709 catch-all). Within each national tradition the leaves are genres the industry and fandom name: K-drama romantic comedy, chaebol romance, melodrama, makjang, sageuk (fusion sageuk, jeong-geuk), medical, legal, office, revenge drama, thriller & crime, fantasy romance (time slip, goblin/gumiho), school & youth, family weekend drama, daily drama, webtoon adaptations; J-drama: asadora, taiga, getsuku/trendy drama, renzoku, school drama, detective & police drama, medical, workplace (oshigoto), manga live-action adaptation, tokusatsu-adjacent, jidaigeki TV, Showa-era home drama ..."},
- "tv_chinese_thai_bl": {"subs": [["B4","Chinese-Language Drama"],["B5","Boys' Love & Girls' Love Drama"],["B6","Lakorn"]],
-   "hint": "Old C2-4 Chinese Costume Drama (264), C2-5 Wuxia & Xianxia (183), C2-6 Idol & Modern Romance Drama (511, catch-all incl. Taiwanese idol drama), C2-12 Main-Melody, C2-13 Republican-Era, C2-14 TVB, C2-10 Lakorn (87), C2-11 Boys' Love & Girls' Love Drama (820 catch-all, mostly Thai, also Japanese, Korean, Taiwanese, Chinese danmei). Split C-drama by attested genres: palace drama (gongdou), historical court intrigue, xianxia, wuxia, xuanhuan, danmei adaptation, Republican-era, main-melody, modern urban drama, idol drama (Taiwanese idol drama is attested), campus/youth (qingchun), sweet romance (tianchong), TVB drama, family ethics drama, suspense web drama ... BL by tradition and engine (Thai BL university series, Japanese BL drama, Korean BL web drama, Taiwanese BL, Filipino BL, GL series; by engine where attested: campus, office, fake-boyfriend, etc. — keep labels to terms fandoms and press use). Lakorn by attested lakorn genres (lakorn tob jub/slap-kiss, period lakorn, revenge lakorn, ghost/fantasy lakorn)."},
- "tv_crime_thriller": {"subs": [["B7","Crime & Thriller Series"]],
-   "hint": "Old C3: Thriller Series (560 catch-all), Police Procedural (531), Crime Drama Series (372), Detective (294), Spy (143), True Crime Drama (127), Psychological & Domestic (94), Nordic Noir (41). Split by plot engine: police procedural (forensic, precinct, case-of-the-week, serialised murder investigation), British detective series (cosy/village mystery, period detective), private-eye & amateur sleuth, whodunit, legal procedural, organised crime & mob saga, drug-trade saga, heist & con series, serial-killer series, conspiracy thriller, political thriller, espionage, techno-thriller, survival & mystery-box, psychological thriller, domestic noir, Nordic noir, Tartan/Celtic noir, Latin American narco series, Turkish crime... (country is a filter: national noir labels are leaves only where the term is attested, as Nordic noir)."},
- "tv_comedy_children_doc": {"subs": [["B8","Comedy Series"],["B10","Children's Series"],["B11","Documentary Series"]],
-   "hint": "Old C4 (Single-Camera 652, Comedy-Drama 405, Multi-Camera Sitcom 389, Sketch 105, Mockumentary 57, Satire 50), C7 Children's, C8 Documentary (Docuseries 287 catch-all, True Crime 147, Nature 41). Split comedy by comic engine as well as form: family sitcom, workplace sitcom, hangout/friends sitcom, domestic multi-cam classic, Britcom, cringe comedy, surreal & absurdist, political satire, dramedy by subject, teen comedy series, adult comedy, sketch & variety, mockumentary, parody series ... Documentary series: true crime docuseries, nature & wildlife, history, science, travel & food (non-competition), music, sports docuseries, social/investigative, celebrity/biographical, war history ... Children's by age and mode: preschool, educational, tween sitcom, teen live-action adventure, Christmas calendar."},
- "tv_genre_unscripted": {"subs": [["B9","Speculative Series"],["B13","Competition Formats"],["B14","Factual Entertainment Formats"],["B15","Variety & Talk Formats"]],
-   "hint": "Old C5 (Science Fiction 385, Supernatural 248, Horror 179, Fantasy 156, Tokusatsu 110, Superhero 97) and old G unscripted formats (G1 Competition, G2 Factual, G3 Variety & Talk; 591). Speculative by premise: space opera franchises (Star Trek/ Star Wars TV), dystopian, time travel, alien, AI, post-apocalyptic, mystery-box SF, anthology SF, superhero (Marvel/DC TV), supernatural procedural, teen supernatural, urban fantasy, high fantasy, horror anthology, slasher series, tokusatsu (Super Sentai, Kamen Rider, Ultra Series). Unscripted: talent show, singing competition, reality competition (elimination), cooking competition, baking, game show (quiz, panel game, physical), business pitch, dating show, docusoap, social experiment, makeover, hidden camera, variety show, late-night talk show, panel show, court show, lifestyle, web show ..."},
- "anime_action_mecha": {"subs": [["C1","Action & Battle Anime"],["C2","Mecha & Science Fiction Anime"]],
-   "hint": "Old E1 (Shōnen Battle 368, Action Anime 218 catch-all, Seinen Action 101 ...) and E2 (Science Fiction Anime 223, Real Robot 168 ...). Split by attested anime genre terms: shōnen battle (tournament arc, power-system battle), ninja & samurai, martial arts, superhero, delinquent (yankī), military action, gun action, battle school, seinen action, dark action; mecha: super robot, real robot (Gundam franchise as a leaf is fine if large), mecha-musume, space opera, cyberpunk, post-apocalyptic, time travel, military SF, hard SF, tokusatsu/kaiju anime."},
- "anime_fantasy_magical_romance": {"subs": [["C3","Fantasy & Isekai Anime"],["C4","Magical Girl Anime"],["C5","Romance Anime"]],
-   "hint": "Old E3 (Isekai 325, Fantasy Adventure 298, Supernatural & Yōkai 226, Dark Fantasy 87), E4, E5 (Romantic Comedy 285, Harem 173, Romantic Drama 161, Shōjo Romance 93, BL, Yuri). Split: isekai (transported, reincarnation/tensei, villainess/otome isekai, reverse isekai, game-world/VRMMO, slow-life isekai), fantasy adventure (sword & sorcery, high fantasy, dark fantasy, mythology, yōkai & supernatural, exorcist, vampire); magical girl (classic, warrior team, dark deconstruction); romance (school romcom, harem, reverse harem, shōjo romance, josei romance, romantic drama, love triangle, BL, yuri, otome ...)."},
- "anime_life_sports_drama_comedy": {"subs": [["C6","Slice of Life & Iyashikei Anime"],["C7","Sports & Game Anime"],["C8","Drama, Mystery & Psychological Anime"],["C9","Horror Anime"],["C10","Comedy Anime"],["C11","Children's & Family Anime"]],
-   "hint": "Old E6–E11: Gag & Parody 375, Ecchi 236, Sports 230, Comedy Anime 170, Kodomo-muke 122, Drama Anime 114, CGDCT 108 ... Split sports by sport (volleyball, basketball, baseball, football, boxing, cycling, racing, swimming, figure skating ...) and game (board/card, esports, mahjong); slice of life: iyashikei, CGDCT, club activity, idol, music/band, cooking & gourmet, workplace (oshigoto), rural/countryside; comedy: gag, parody, ecchi, school comedy, absurdist; children's: kodomo-muke (by franchise type: monster-collecting, toy/card-game tie-in, classic family anime), World Masterpiece Theater, early Japanese animation; drama/mystery: psychological thriller, detective, historical & war, crime, death game, art anime."},
- "animation_non_japanese": {"subs": [["C12","Animated Feature"],["C13","Animated Series"],["C14","Animated Short"]],
-   "hint": "Old A15 (Hand-Drawn 331, Computer-Animated 382, Stop-Motion 43, Adult 71), C6 (Children's Animated Series 278, Action-Adventure 193, Animated Sitcom 134, Adult 37), B1 animated shorts (theatrical cartoon, auteur short, stop-motion, CG, TV special; 250). These are non-Japanese animation (anime is C1–C11). Technique (hand-drawn, CG, stop-motion) is a strong axis but leaves of 380 are too big: organise features by the tradition or cycle the field names and by genre: Disney animated canon by era (Golden Age, Disney Renaissance, Revival), Pixar, DreamWorks Animation, Illumination/family CG comedy, animated musical fairy tale, Don Bluth, Soviet/Soyuzmultfilm, European auteur animation (Franco-Belgian, Cartoon Saloon, Aardman stop-motion), Chinese animation (donghua features), Korean, adult animation, animated documentary, rotoscope, puppet/stop-motion feature (Laika), etc. Studio-defined leaves are acceptable ONLY where the field names the studio's output as a canon (Disney animated canon, Pixar films, Golden Age of American animation). Series: animated sitcom, adult animated series, superhero animated series, action-adventure, preschool, Cartoon Network/Nicktoons era (attested as 'Nicktoons', 'Cartoon Cartoons'), donghua series, European children's series ... Shorts: Golden Age theatrical cartoons (Looney Tunes, Disney shorts, Fleischer), auteur/art shorts (NFB, Zagreb School), stop-motion shorts, CG shorts (Pixar shorts), TV specials."}
+ "film_movements_doc_exp_short": {
+  "subs": [
+   [
+    "A1",
+    "Movements & Schools"
+   ],
+   [
+    "A19",
+    "Documentary"
+   ],
+   [
+    "A20",
+    "Experimental & Avant-Garde"
+   ],
+   [
+    "A21",
+    "Short Film"
+   ]
+  ],
+  "hint": "A1 keeps one leaf per named movement (they are attested canons; small leaves are fine here) but give big movements (New Hollywood, Slow Cinema, French New Wave) sections. A19 Documentary (old A13, 894) must be split by mode and subject into leaves (e.g. observational/direct cinema, essay film, investigative & political documentary, biographical & portrait documentary, music & concert, nature & wildlife, true crime, sports documentary, war & history documentary, art & artist documentary, personal/autobiographical, ethnographic, city symphony, mondo, compilation/archival). A21 Short Film takes the old live-action, documentary and experimental shorts (old B2, B3, B4): split by mode (trick film, actuality, silent comedy short, narrative short by genre, documentary short, avant-garde short ...). Animated shorts are NOT in this block (they go to Animation)."
+ },
+ "film_crime_thriller": {
+  "subs": [
+   [
+    "A2",
+    "Crime"
+   ],
+   [
+    "A3",
+    "Thriller & Mystery"
+   ]
+  ],
+  "hint": "Old A2-4 Crime Drama (352), A2-5 Film Noir & Neo-Noir (250), A2-3 Police & Detective (214), A3-9 Suspense Thriller (247), A3-1 Psychological Thriller (195), A3-7 Spy (172) are catch-alls. Split by plot engine: e.g. classic film noir vs neo-noir; police procedural, private-eye, whodunit/mystery, legal-crime, caper, con-artist, gangster epic, mob, drug-trade, serial-killer thriller, erotic thriller, conspiracy, techno-thriller, cat-and-mouse, hostage & siege, chase, domestic/marriage thriller, stalker, amnesia/identity, Cold War spy, spy-action franchise, giallo, poliziottesco, yakuza, Korean revenge thriller, hood film, blaxploitation ..."
+ },
+ "film_horror_scifi": {
+  "subs": [
+   [
+    "A4",
+    "Horror"
+   ],
+   [
+    "A5",
+    "Science Fiction"
+   ]
+  ],
+  "hint": "Old A4-3 Supernatural Horror (442) and A5-3 Science Fiction Film (220) are catch-alls. Horror by the source of fear: possession & exorcism, demonic/occult & satanic, ghost story, curse, witchcraft, religious horror, haunted house, folk horror, slasher (classic / meta / backwoods), monster movie, werewolf, vampire, zombie, mummy, creature feature, eco-horror, body horror, cosmic/Lovecraftian, psychological horror, home invasion, survival horror, found footage, anthology horror, splatter, torture porn, J-horror, K-horror, Thai horror, Italian gothic, Hammer horror, Universal Classic Monsters, comedy horror, elevated horror, etc. Science fiction by premise: hard SF, space exploration, space opera, alien invasion, first contact, time travel, dystopia, post-apocalyptic, disaster film, cyberpunk, artificial intelligence & robots, genetic engineering/mad science, parallel worlds, kaiju, tokusatsu, social science fiction, B-movie 1950s science fiction ... A5 is renamed Science Fiction (monster films that are horror stay A4; kaiju stays in A5)."
+ },
+ "film_history_war_western_biopic": {
+  "subs": [
+   [
+    "A8",
+    "Historical & Period Film"
+   ],
+   [
+    "A9",
+    "War Film"
+   ],
+   [
+    "A10",
+    "Western"
+   ],
+   [
+    "A11",
+    "Biographical Film"
+   ]
+  ],
+  "hint": "Old A7 (Historical, Period & War) and A17 (Western). A11 Biographical Film (old A7-8, 649) must be split by the subject's field: musician biopic, artist & writer biopic, sports biopic, political & royal biopic, scientist & inventor, crime & outlaw biopic, religious figures, entertainment & showbusiness, military, business ... A9 War Film by war and mode (WWI, WWII combat, Holocaust, Pacific war, Vietnam War, anti-war film, POW film, war epic, home front, partisan film, Cold War / modern war, atomic bomb ...). A8 period film: costume drama, heritage film, epic, sword-and-sandal, jidaigeki, chanbara, historical epic, medieval film, royal court drama ... A10 Western: classic, revisionist, spaghetti, acid, neo-western, ostern, contemporary western ..."
+ },
+ "film_fantasy_action_family_popular": {
+  "subs": [
+   [
+    "A6",
+    "Fantasy & Adventure"
+   ],
+   [
+    "A7",
+    "Action & Martial Arts"
+   ],
+   [
+    "A17",
+    "Children's & Family Film"
+   ],
+   [
+    "A18",
+    "Popular Cinema Modes"
+   ]
+  ],
+  "hint": "Old A6 (Fantasy Film 272, Superhero 216, Adventure 101), A8 (Action Film 264 ...), A19 (Children's Film 227, Christmas Film 155), A18 (Masala 112, Nollywood, Yeşilçam). Split: superhero by franchise universe / type (MCU, DC, standalone, deconstruction); fantasy (high fantasy, sword and sorcery, dark fantasy, urban fantasy, portal fantasy, mythological, fairy tale, magical realism, fantasy comedy); adventure (jungle adventure, treasure hunt, lost world, sea adventure, swashbuckler); action (action thriller, one-man army, martial arts, wuxia, kung fu, heroic bloodshed, gun fu, buddy cop, disaster action, car chase & heist action, video-game adaptation, girls-with-guns ...); family (family comedy, animal adventure, children's fantasy, holiday/Christmas film by mode, teen adventure ...); masala by industry where the field names it (Telugu masala, Tamil masala, Bollywood masala are attested)."
+ },
+ "film_comedy": {
+  "subs": [
+   [
+    "A12",
+    "Comedy"
+   ]
+  ],
+  "hint": "THE MAIN PROBLEM CASE: old A10-1 Comedy Film holds 630 titles from silent films to Zoolander, A10-2 Comedy-Drama 668, A10-3 Black Comedy & Satire 403. Split the whole comic field by comic mode and comic engine into many leaves: silent clown comedy, comedy teams (Marx Brothers, Laurel & Hardy), screwball, comedy of manners, comedy of remarriage, farce & bedroom farce, Ealing comedy, commedia all'italiana, slapstick, gross-out, stoner comedy, frat/college comedy, teen comedy, sex comedy, buddy comedy, road comedy, fish-out-of-water, body-swap & high-concept comedy, family comedy, wedding & holiday comedy, workplace comedy, sports comedy, military comedy, crime comedy & caper, action comedy, spy spoof, parody & spoof, mockumentary, satire (political, media, corporate, social), black comedy, absurdist & surreal comedy, deadpan & quirky indie comedy, cringe comedy, comedy-drama by subject (midlife, family dysfunction, coming-of-age dramedy, illness dramedy), Bourekas, stand-up film, sketch-anthology film ... Zoolander is a fashion-world parody; Animal House a frat comedy. Romantic comedy is NOT in this block (it is in A13 Romance)."
+ },
+ "film_romance_musical_erotic": {
+  "subs": [
+   [
+    "A13",
+    "Romance"
+   ],
+   [
+    "A14",
+    "Musical & Dance Film"
+   ],
+   [
+    "A15",
+    "Erotic Film"
+   ]
+  ],
+  "hint": "Old A9-1 Romantic Drama (687) and A9-2 Romantic Comedy (580) are catch-alls; A11-1 Musical & Music Film (312). Romance by the love-story engine: forbidden/class-crossed love, tragic romance & weepie, wartime romance, period romance (Austen-type heritage romance), brief encounter, second-chance, love triangle, queer romance, teen romance, May-December, epistolary/long-distance, supernatural/fantasy romance; romantic comedy by engine: screwball rom-com, meet-cute, enemies-to-lovers, fake relationship, wedding rom-com, holiday rom-com, workplace rom-com, rom-com of manners, Bollywood romance ... Musical: backstage musical, integrated book musical, jukebox musical, film-opera, rock opera, biopic-musical? (no, biopics are elsewhere), dance film, music-competition film, Bollywood song-and-dance where leaf-worthy, rumberas. Erotic: erotic drama, sexploitation, pink film, Roman Porno (keep leaves even if empty only if they had titles before; Pink Film and Roman Porno had 0 titles — keep them as leaves with a note only if attested canon; the pornographic film leaf is retired and must not appear)."
+ },
+ "film_drama": {
+  "subs": [
+   [
+    "A16",
+    "Drama"
+   ]
+  ],
+  "hint": "Old A14: Character Study (589), Coming-of-Age (377), Social Drama (354), Family Drama (298), Sports Film (219), Road Movie (202) ... Split by the dramatic engine and subject: family saga, parent-child drama, marriage & divorce drama, sibling drama, grief & loss, illness & disability, addiction drama, coming-of-age (by setting: school, summer, rural ...), teen drama, campus drama, social realism (kitchen-sink, working-class), immigrant & diaspora drama, poverty & street-life, political drama, legal drama (courtroom), journalism drama, medical drama, religious & faith drama, prison-free institutional drama, sports drama by sport, boxing film, road movie, survival drama, existential/arthouse character study, artist & performer drama, workplace drama, melodrama, shomingeki, banlieue film, Christian film, LGBTQ drama, animal film ..."
+ },
+ "tv_drama_serial": {
+  "subs": [
+   [
+    "B1",
+    "Drama Series"
+   ],
+   [
+    "B12",
+    "Serial Drama Traditions"
+   ]
+  ],
+  "hint": "Old C1 (Drama Series 207 catch-all, Period Drama Series 328, Family 157, Teen 147, Docudrama 157 ...) and old D Serial Drama Traditions (telenovela, soap opera, dizi, South Asian serials, musalsal, teleserye: 367 titles; old D had 6 sub-families — they now become leaves or sections of the single sub-family B12). Split drama series by premise: prestige antihero drama, family saga series, workplace (medical, legal, newsroom, political, military), period drama (by era: costume, Victorian/Edwardian heritage, 20th-century period), historical epic series, teen & high-school, campus, small-town drama, LGBTQ drama, anthology drama, docudrama & historical miniseries, limited series literary adaptation, sports drama, westerns, action-adventure, erotic drama series, vertical short drama ..."
+ },
+ "tv_korean_japanese": {
+  "subs": [
+   [
+    "B2",
+    "Korean Drama"
+   ],
+   [
+    "B3",
+    "Japanese Television Drama"
+   ]
+  ],
+  "hint": "Old C2-1 K-Drama (647 catch-all), C2-2 Sageuk, C2-3 Makjang, C2-7 Asadora, C2-8 Taiga Drama, C2-9 Japanese Television Drama (709 catch-all). Within each national tradition the leaves are genres the industry and fandom name: K-drama romantic comedy, chaebol romance, melodrama, makjang, sageuk (fusion sageuk, jeong-geuk), medical, legal, office, revenge drama, thriller & crime, fantasy romance (time slip, goblin/gumiho), school & youth, family weekend drama, daily drama, webtoon adaptations; J-drama: asadora, taiga, getsuku/trendy drama, renzoku, school drama, detective & police drama, medical, workplace (oshigoto), manga live-action adaptation, tokusatsu-adjacent, jidaigeki TV, Showa-era home drama ..."
+ },
+ "tv_chinese_thai_bl": {
+  "subs": [
+   [
+    "B4",
+    "Chinese-Language Drama"
+   ],
+   [
+    "B5",
+    "Boys' Love & Girls' Love Drama"
+   ],
+   [
+    "B6",
+    "Lakorn"
+   ]
+  ],
+  "hint": "Old C2-4 Chinese Costume Drama (264), C2-5 Wuxia & Xianxia (183), C2-6 Idol & Modern Romance Drama (511, catch-all incl. Taiwanese idol drama), C2-12 Main-Melody, C2-13 Republican-Era, C2-14 TVB, C2-10 Lakorn (87), C2-11 Boys' Love & Girls' Love Drama (820 catch-all, mostly Thai, also Japanese, Korean, Taiwanese, Chinese danmei). Split C-drama by attested genres: palace drama (gongdou), historical court intrigue, xianxia, wuxia, xuanhuan, danmei adaptation, Republican-era, main-melody, modern urban drama, idol drama (Taiwanese idol drama is attested), campus/youth (qingchun), sweet romance (tianchong), TVB drama, family ethics drama, suspense web drama ... BL by tradition and engine (Thai BL university series, Japanese BL drama, Korean BL web drama, Taiwanese BL, Filipino BL, GL series; by engine where attested: campus, office, fake-boyfriend, etc. — keep labels to terms fandoms and press use). Lakorn by attested lakorn genres (lakorn tob jub/slap-kiss, period lakorn, revenge lakorn, ghost/fantasy lakorn)."
+ },
+ "tv_crime_thriller": {
+  "subs": [
+   [
+    "B7",
+    "Crime & Thriller Series"
+   ]
+  ],
+  "hint": "Old C3: Thriller Series (560 catch-all), Police Procedural (531), Crime Drama Series (372), Detective (294), Spy (143), True Crime Drama (127), Psychological & Domestic (94), Nordic Noir (41). Split by plot engine: police procedural (forensic, precinct, case-of-the-week, serialised murder investigation), British detective series (cosy/village mystery, period detective), private-eye & amateur sleuth, whodunit, legal procedural, organised crime & mob saga, drug-trade saga, heist & con series, serial-killer series, conspiracy thriller, political thriller, espionage, techno-thriller, survival & mystery-box, psychological thriller, domestic noir, Nordic noir, Tartan/Celtic noir, Latin American narco series, Turkish crime... (country is a filter: national noir labels are leaves only where the term is attested, as Nordic noir)."
+ },
+ "tv_comedy_children_doc": {
+  "subs": [
+   [
+    "B8",
+    "Comedy Series"
+   ],
+   [
+    "B10",
+    "Children's Series"
+   ],
+   [
+    "B11",
+    "Documentary Series"
+   ]
+  ],
+  "hint": "Old C4 (Single-Camera 652, Comedy-Drama 405, Multi-Camera Sitcom 389, Sketch 105, Mockumentary 57, Satire 50), C7 Children's, C8 Documentary (Docuseries 287 catch-all, True Crime 147, Nature 41). Split comedy by comic engine as well as form: family sitcom, workplace sitcom, hangout/friends sitcom, domestic multi-cam classic, Britcom, cringe comedy, surreal & absurdist, political satire, dramedy by subject, teen comedy series, adult comedy, sketch & variety, mockumentary, parody series ... Documentary series: true crime docuseries, nature & wildlife, history, science, travel & food (non-competition), music, sports docuseries, social/investigative, celebrity/biographical, war history ... Children's by age and mode: preschool, educational, tween sitcom, teen live-action adventure, Christmas calendar."
+ },
+ "tv_genre_unscripted": {
+  "subs": [
+   [
+    "B9",
+    "Speculative Series"
+   ],
+   [
+    "B13",
+    "Competition Formats"
+   ],
+   [
+    "B14",
+    "Factual Entertainment Formats"
+   ],
+   [
+    "B15",
+    "Variety & Talk Formats"
+   ]
+  ],
+  "hint": "Old C5 (Science Fiction 385, Supernatural 248, Horror 179, Fantasy 156, Tokusatsu 110, Superhero 97) and old G unscripted formats (G1 Competition, G2 Factual, G3 Variety & Talk; 591). Speculative by premise: space opera franchises (Star Trek/ Star Wars TV), dystopian, time travel, alien, AI, post-apocalyptic, mystery-box SF, anthology SF, superhero (Marvel/DC TV), supernatural procedural, teen supernatural, urban fantasy, high fantasy, horror anthology, slasher series, tokusatsu (Super Sentai, Kamen Rider, Ultra Series). Unscripted: talent show, singing competition, reality competition (elimination), cooking competition, baking, game show (quiz, panel game, physical), business pitch, dating show, docusoap, social experiment, makeover, hidden camera, variety show, late-night talk show, panel show, court show, lifestyle, web show ..."
+ },
+ "anime_action_mecha": {
+  "subs": [
+   [
+    "C1",
+    "Action & Battle Anime"
+   ],
+   [
+    "C2",
+    "Mecha & Science Fiction Anime"
+   ]
+  ],
+  "hint": "Old E1 (Shōnen Battle 368, Action Anime 218 catch-all, Seinen Action 101 ...) and E2 (Science Fiction Anime 223, Real Robot 168 ...). Split by attested anime genre terms: shōnen battle (tournament arc, power-system battle), ninja & samurai, martial arts, superhero, delinquent (yankī), military action, gun action, battle school, seinen action, dark action; mecha: super robot, real robot (Gundam franchise as a leaf is fine if large), mecha-musume, space opera, cyberpunk, post-apocalyptic, time travel, military SF, hard SF, tokusatsu/kaiju anime."
+ },
+ "anime_fantasy_magical_romance": {
+  "subs": [
+   [
+    "C3",
+    "Fantasy & Isekai Anime"
+   ],
+   [
+    "C4",
+    "Magical Girl Anime"
+   ],
+   [
+    "C5",
+    "Romance Anime"
+   ]
+  ],
+  "hint": "Old E3 (Isekai 325, Fantasy Adventure 298, Supernatural & Yōkai 226, Dark Fantasy 87), E4, E5 (Romantic Comedy 285, Harem 173, Romantic Drama 161, Shōjo Romance 93, BL, Yuri). Split: isekai (transported, reincarnation/tensei, villainess/otome isekai, reverse isekai, game-world/VRMMO, slow-life isekai), fantasy adventure (sword & sorcery, high fantasy, dark fantasy, mythology, yōkai & supernatural, exorcist, vampire); magical girl (classic, warrior team, dark deconstruction); romance (school romcom, harem, reverse harem, shōjo romance, josei romance, romantic drama, love triangle, BL, yuri, otome ...)."
+ },
+ "anime_life_sports_drama_comedy": {
+  "subs": [
+   [
+    "C6",
+    "Slice of Life & Iyashikei Anime"
+   ],
+   [
+    "C7",
+    "Sports & Game Anime"
+   ],
+   [
+    "C8",
+    "Drama, Mystery & Psychological Anime"
+   ],
+   [
+    "C9",
+    "Horror Anime"
+   ],
+   [
+    "C10",
+    "Comedy Anime"
+   ],
+   [
+    "C11",
+    "Children's & Family Anime"
+   ]
+  ],
+  "hint": "Old E6–E11: Gag & Parody 375, Ecchi 236, Sports 230, Comedy Anime 170, Kodomo-muke 122, Drama Anime 114, CGDCT 108 ... Split sports by sport (volleyball, basketball, baseball, football, boxing, cycling, racing, swimming, figure skating ...) and game (board/card, esports, mahjong); slice of life: iyashikei, CGDCT, club activity, idol, music/band, cooking & gourmet, workplace (oshigoto), rural/countryside; comedy: gag, parody, ecchi, school comedy, absurdist; children's: kodomo-muke (by franchise type: monster-collecting, toy/card-game tie-in, classic family anime), World Masterpiece Theater, early Japanese animation; drama/mystery: psychological thriller, detective, historical & war, crime, death game, art anime."
+ },
+ "animation_non_japanese": {
+  "subs": [
+   [
+    "C12",
+    "Animated Feature"
+   ],
+   [
+    "C13",
+    "Animated Series"
+   ],
+   [
+    "C14",
+    "Animated Short"
+   ]
+  ],
+  "hint": "Old A15 (Hand-Drawn 331, Computer-Animated 382, Stop-Motion 43, Adult 71), C6 (Children's Animated Series 278, Action-Adventure 193, Animated Sitcom 134, Adult 37), B1 animated shorts (theatrical cartoon, auteur short, stop-motion, CG, TV special; 250). These are non-Japanese animation (anime is C1–C11). Technique (hand-drawn, CG, stop-motion) is a strong axis but leaves of 380 are too big: organise features by the tradition or cycle the field names and by genre: Disney animated canon by era (Golden Age, Disney Renaissance, Revival), Pixar, DreamWorks Animation, Illumination/family CG comedy, animated musical fairy tale, Don Bluth, Soviet/Soyuzmultfilm, European auteur animation (Franco-Belgian, Cartoon Saloon, Aardman stop-motion), Chinese animation (donghua features), Korean, adult animation, animated documentary, rotoscope, puppet/stop-motion feature (Laika), etc. Studio-defined leaves are acceptable ONLY where the field names the studio's output as a canon (Disney animated canon, Pixar films, Golden Age of American animation). Series: animated sitcom, adult animated series, superhero animated series, action-adventure, preschool, Cartoon Network/Nicktoons era (attested as 'Nicktoons', 'Cartoon Cartoons'), donghua series, European children's series ... Shorts: Golden Age theatrical cartoons (Looney Tunes, Disney shorts, Fleischer), auteur/art shorts (NFB, Zagreb School), stop-motion shorts, CG shorts (Pixar shorts), TV specials."
+ },
+ "tv_live_sports": {
+  "subs": [
+   [
+    "B16",
+    "Live Event & Sports Television"
+   ]
+  ],
+  "additions": true,
+  "hint": "NEW sub-family, nothing gathered yet (owner, 2026-11-07: 'live performance/sports (HUGE part of television) are currently missing'). Build it from knowledge: television made of a live event broadcast as it happens (or as its recording), not a scripted or reality format. Leaves, each with sections where large: sports broadcasts by sport and event (association football: World Cup, Premier League/Match of the Day, Champions League; American football: Super Bowl, Monday Night Football, NFL on CBS...; basketball, baseball, ice hockey (Hockey Night in Canada), cricket, tennis (Wimbledon), golf, motor racing (Formula One), cycling (Tour de France), boxing & MMA (UFC), sumo, horse racing, sports magazine and highlights shows), multi-sport event coverage (Olympic Games, Commonwealth Games), professional wrestling programmes (WWE Raw, SmackDown, WrestleMania, AEW Dynamite, NJPW), award ceremonies (Academy Awards, Grammys, Emmys, Tony Awards, BAFTA, Golden Globes, Kōhaku is a song festival), song contests and music festivals on TV (Eurovision Song Contest, NHK Kōhaku Uta Gassen, Sanremo Music Festival, Intervision), beauty pageants (Miss Universe, Miss World, Miss America), parades and national ceremonies (Macy's Thanksgiving Day Parade, Rose Parade, Dick Clark's New Year's Rockin' Eve, Hogmanay, CCTV New Year's Gala/Chunwan, royal and state occasions), telethons and benefit concerts (Live Aid, Comic Relief / Red Nose Day, Children in Need, Jerry Lewis MDA Telethon), live concert broadcasts and concert specials, theatre, opera and ballet broadcasts (National Theatre Live, Live from Lincoln Center, Great Performances, Met Opera Live in HD), stand-up comedy specials on television (old C4-7 has 2), circus and spectacle broadcasts (Cirque du Soleil specials). News and current affairs are not entertainment and are out of scope. The input file holds the few existing titles that belong here (professional wrestling, stand-up specials); ADD 300–600 titles from knowledge: notable named programmes, annual broadcasts or specific landmark broadcasts. Each added row needs an id: an IMDb tconst you are confident of (tt...), else the Wikidata QID (Q...), else leave id blank and the coordinator assigns one; never invent ids."
+ }
 }

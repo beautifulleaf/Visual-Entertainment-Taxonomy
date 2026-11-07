@@ -1,6 +1,6 @@
 # R3 brief: Film & Television block pass
 
-You are one of 18 parallel passes rebuilding the Film & Television tab of the owner's Visual Entertainment Taxonomy (a browsable reference work, published as a claude.ai artifact). Each pass owns one **block**: a set of new sub-families and every title currently placed in them. Repository root: `/home/user/Visual-Entertainment-Taxonomy`.
+You are one of 19 parallel passes rebuilding the Film & Television tab of the owner's Visual Entertainment Taxonomy (a browsable reference work, published as a claude.ai artifact). Each pass owns one **block**: a set of new sub-families and every title currently placed in them. Repository root: `/home/user/Visual-Entertainment-Taxonomy`.
 
 ## Why
 The owner's review: "we are not at the level of granularity or organization needed. 'Comedy film' currently contains over 600 entries from silent films to Zoolander ... you will need to exhibit abstract thinking here to perfect this, take a look at the Culinary Taxonomy for an example."
@@ -12,7 +12,7 @@ The Culinary Taxonomy's method, which you must follow:
 - Membership is decided by tests, not by names; exactly one home per title.
 
 ## The tab's new shape (decided)
-Families: **A Film** (features and short films; the old Short Film family is now sub-family A21), **B Television** (series, the serial drama traditions, unscripted formats), **C Animation** (anime C1–C11 and non-Japanese animation C12–C14). The retired Asian Drama family is gone. All sub-families of the tab:
+Families: **A Film** (features and short films; the old Short Film family is now sub-family A21), **B Television** (series, the serial drama traditions, unscripted formats, live event and sports television). Web series (internet-native content) are out of scope: they go to the future Interactive Entertainment Taxonomy; subscription streaming series are television. **C Animation** (anime C1–C11 and non-Japanese animation C12–C14). The retired Asian Drama family is gone. All sub-families of the tab:
 - A1 Movements & Schools
 - A2 Crime
 - A3 Thriller & Mystery
@@ -49,6 +49,7 @@ Families: **A Film** (features and short films; the old Short Film family is now
 - B13 Competition Formats
 - B14 Factual Entertainment Formats
 - B15 Variety & Talk Formats
+- B16 Live Event & Sports Television
 - C1 Action & Battle Anime
 - C2 Mecha & Science Fiction Anime
 - C3 Fantasy & Isekai Anime
@@ -89,4 +90,5 @@ Families: **A Film** (features and short films; the old Short Film family is now
   - `summary.md`: ≤ 40 lines — the leaf list with counts, merges of old cycles, any weakly attested labels, routes.
 - Suggested method: (1) profile the input (counts per old leaf, sample titles); (2) draft the leaf + section scheme; (3) assign in chunks of ~200–300 titles with Python you write to files (you may write per-chunk CSVs into your output directory and concatenate them; delete scratch chunks at the end); (4) run `python3 pipelines/r3/ft_validate.py <block>` and fix every ERROR and as many WARNs as sensible; iterate until it exits 0.
 - Write only inside `taxonomy/r3/ft_out/<block>/`. Do not edit other files, do not commit, do not touch git.
+- **Blocks that add titles** (`"additions": true` in ft_blocks.json, e.g. tv_live_sports): also write `additions.csv` with header `id,title,year,who,leaf,sec,see_also,note` — one row per added title (who = country or broadcaster). Ids: an IMDb tconst or Wikidata QID you are confident of, else blank. Only real, notable programmes and broadcasts.
 - Final reply: ≤ 15 lines: leaves count, size max/median, routed count, validator status, notable judgement calls.

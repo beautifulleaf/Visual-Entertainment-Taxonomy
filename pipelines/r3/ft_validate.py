@@ -59,6 +59,26 @@ def main(b):
         for i, lab in enumerate(secs, 1):
             if ns[c][i] == 0: soft.append(f"{c} section {i} '{lab}' is empty")
         if k == 0: soft.append(f"{c} {l['label']} has 0 titles")
+    addf = os.path.join(od, "additions.csv")
+    if os.path.exists(addf):
+        if not blocks[b].get("additions"): hard.append("additions.csv is only allowed in blocks that add titles")
+        AD = list(csv.DictReader(open(addf)))
+        ids = collections.Counter(r["id"] for r in AD if r["id"])
+        for i, c in ids.items():
+            if c > 1 or i in seen: hard.append(f"added id {i} duplicated")
+            if not (i.startswith("tt") or i.startswith("Q")): hard.append(f"added id {i} must be tt... or Q... (or blank)")
+        for r in AD:
+            if not r.get("title") or not r.get("year"): hard.append(f"addition without title/year: {r}")
+            lf = r["leaf"].strip()
+            if lf not in leaves: hard.append(f"addition {r['title']}: unknown leaf {lf}"); continue
+            n[lf] += 1; secs = leaves[lf].get("secs") or []; sec = r.get("sec", "").strip()
+            if secs:
+                if not sec.isdigit() or not 1 <= int(sec) <= len(secs): hard.append(f"addition {r['title']}: sec '{sec}' out of range")
+                else: ns[lf][int(sec)] += 1
+        print(f"additions: {len(AD)}")
+        for c, l in leaves.items():
+            k = n[c]; secs = l.get("secs") or []
+            if k > 40 and not secs: hard.append(f"{c} {l['label']}: {k} titles and no sections")
     routed = sum(1 for r in A if r.get("route", "").strip())
     print(f"block {b}: {len(inp)} input, {len(A)} rows, {len(leaves)} leaves, routed {routed}")
     sizes = sorted(n.values())

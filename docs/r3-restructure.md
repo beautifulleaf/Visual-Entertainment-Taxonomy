@@ -17,3 +17,4 @@ Block passes, one per group of sub-families (18 FT blocks, 15 VA passes), each f
 
 ## Status
 - 2026-11-07: first launch of all 33 passes stopped on the account's weekly usage limit before any output was written. Inputs, briefs, validators and the web-series rule are in place.
+- 2026-11-07: owner: "some unscripted formats like live performance/sports (HUGE part of television) are currently missing". New sub-family **B16 Live Event & Sports Television** (sports broadcasts by sport and event, multi-sport events, professional wrestling, award ceremonies, song contests, pageants, parades and national ceremonies, telethons, live concert and theatre broadcasts, stand-up specials). Nothing was gathered for it, so its pass adds titles from knowledge (`additions.csv`, ids tconst or QID). Existing stand-up specials (old C4-7) and wrestling programmes move into it (`pipelines/r3/ft_live_block.py`, run after `ft_inputs.py`). News and current affairs stay out of scope.
