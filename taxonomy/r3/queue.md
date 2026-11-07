@@ -1,5 +1,5 @@
 # R3 pass queue (concurrency cap 20)
-FT: 16 of 19 blocks done (validators clean). Still running: film_comedy, film_horror_scifi, tv_comedy_children_doc (film_drama wrote output; awaiting its report).
+FT: 17 of 19 blocks done (validators clean). Still running: film_comedy, tv_comedy_children_doc.
 VA running: design, bucket_modern_west, bucket_modern_world, bucket_contemporary, bucket_academic_19c, bucket_modsculpture_photo, bucket_named_movements, bucket_print_arch_misc, small_A_B_C, small_D_F, small_E, small_G_I_J_M, small_H, small_K, small_L.
 Waiting: none.
 To do at assembly:
