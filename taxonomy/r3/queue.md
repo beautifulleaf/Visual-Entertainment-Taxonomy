@@ -36,3 +36,4 @@ To do at assembly:
 - Done VA: small_E (Ceramics: 4,112 kinds; 2,939 rule-based works; Bubnivka and Oleshnia still empty).
 - Done: Workplace Comedy B8-3 by era (12 sections, 197 titles; script kept as coverage_out/sitcom_eras/build_b83.py). Family Sitcom 1970 titles moved to the relevancy-era section (era starts 1970, as in B8-3).
 - Done VA: small_A_B_C (4,274 kinds; 741 manuscripts by rule; 623 Collections rows). Assembly: Malwa manuscripts unplaced; Registrum Gregorii master and Florentius one home.
+- Done VA: small_H (Textiles: 4,728 kinds, 3,283 works by rule, 500 Collections rows; 126 leaves ≤ 4 kinds). Gap: no couture/runway leaf — at assembly add H7 'Haute Couture & Fashion Design' (houses + the ~120 fashion designers left in I3-19/I3-20 and those left by the photo pass), catalogues: Vogue Runway, Met Costume Institute, Kyoto Costume Institute, Europeana Fashion.
