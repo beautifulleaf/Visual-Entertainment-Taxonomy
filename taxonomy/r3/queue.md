@@ -25,3 +25,5 @@ To do at assembly:
 - Check judgement calls: Saliger and Padua in Nazi art; Epstein in Modern Sculpture (not Vorticism); Buren in BMPT section.
 - Done VA: small_L (Art in Place: 3,010 kinds, 2,424 rule-based sites; 31 leaves still ≤ 4 kinds, ~20 leaves from knowledge only; some sources are Wikipedia search URLs — replace in the link check).
 - Done: small_K (Architecture: 13,766 kinds), FT coverage television (6 new leaves, 238 adds; News leaf dropped at assembly — news out of scope). Owner's call noted: sitcom eras (British sitcom eras, US network-era sitcoms) not sectioned, since that would re-sort the comedy leaves.
+- Done: FT coverage animation (4 new leaves incl. Soviet Animation and Animated Documentary; Golden Age cartoons by studio; ~414 canonical adds).
+- Assembly fixes: Ne Zha (2019) and Ne Zha 2 placed twice (MAL id and IMDb id) — keep one; Harem has leaves in both C5-5 and C10-9 — merge into one; move Tower (2016) and The Missing Picture (2013) from A19 to the new Animated Documentary leaf; Princess Iron Fan (1941) added without id.

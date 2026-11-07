@@ -30,7 +30,6 @@ cat: https://www.britishmuseum.org/collection/search?keyword=Huishan | British M
 
 @D5-28
 cat: https://en.wikipedia.org/wiki/Clay_Figure_Zhang | Wikipedia: Clay Figure Zhang | history and named generations of the workshop
-+ Makers | Zhang Yuting | 1917–2014, fourth-generation master of the workshop | Clay_Figure_Zhang | 1
 + Centres & workshops | Tianjin | the northern port city of the workshop | Tianjin | 0
 
 @D5-29
@@ -57,16 +56,12 @@ cat: https://www.quaibranly.fr/en/collections/ | Musée du quai Branly collectio
 @D5-39
 cat: https://en.wikipedia.org/wiki/Lydenburg_Heads | Wikipedia: Lydenburg Heads | the seven heads and their find
 + Centres & workshops | Lydenburg (Mashishing) | Mpumalanga town where the heads were found in the 1950s | Lydenburg | 0
-+ Named works | Lydenburg Head with animal snout | c. AD 500; Iziko South African Museum, Cape Town | Lydenburg_Heads | 0
-+ Named works | Lydenburg large heads (two) | the two larger helmet-like heads; Iziko South African Museum | Lydenburg_Heads | 0
 
 @D5-40
 cat: https://www.metmuseum.org/art/collection/search?q=nomoli | Met collection search: nomoli | Sapi stone figures in New York
 
 @D5-41
 cat: https://whc.unesco.org/en/list/364 | UNESCO World Heritage: Great Zimbabwe National Monument | the inscribed site of the birds
-+ Named works | Zimbabwe Bird returned from Germany | soapstone bird repatriated 2003; Great Zimbabwe site museum | Zimbabwe_Bird | 0
-+ Named works | Zimbabwe Birds of the Eastern Enclosure | soapstone birds on monoliths; Great Zimbabwe site museum | Zimbabwe_Bird | 0
 
 @D5-47
 cat: https://www.metmuseum.org/art/collection/search?q=Lobi | Met collection search: Lobi | Lobi sculpture in New York
@@ -190,7 +185,7 @@ cat: https://goskatalog.ru/portal/ | Goskatalog (State Catalogue of the Museum F
 @D5-102
 cat: https://www.europeana.eu/en/search?query=Yavoriv%20toy | Europeana search: Yavoriv toy | European museum records
 + Sub-types | Yavoriv carts and horses | turned toy carts and horses painted red, green and black | Yavoriv | 0
-+ Sub-types | Rattles (torokhtiyi) | turned wooden rattles | Yavoriv | 0
++ Sub-types | Wooden rattles | turned wooden rattles | Yavoriv | 0
 
 @D5-103
 cat: https://www.europeana.eu/en/search?query=Valky%20whistle | Europeana search: Valky whistle | European museum records
@@ -294,4 +289,3 @@ cat: https://collections.vam.ac.uk/search/?q=glass%20Cairo | V&A collection sear
 cat: https://colbase.nich.go.jp/ | ColBase (Japan's National Museums) | kiriko cut glass in the Tokyo National Museum
 
 @F5-2
-+ Makers | Master of the Seven Acts of Mercy | Netherlandish roundel designer of c. 1500 | Painted_glass_roundel | 1

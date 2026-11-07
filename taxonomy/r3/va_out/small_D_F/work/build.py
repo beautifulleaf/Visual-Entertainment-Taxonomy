@@ -248,7 +248,11 @@ for c in CODES:
         pinfo, purl = poss_info(gloss)
         isM = bool(ism) or grp in ('Artists', 'Makers', 'Architects', 'maker', 'makers')
         if name in k['drop'] and not isM:
-            out['dropped'].append([c, name, k['drop'][name]]); report['dropped'] += 1; continue
+            rs = k['drop'][name]
+            if re.search(r'restat|duplicate|label', rs):
+                if name not in aliases: aliases.append(name)
+                report['alias'] += 1; continue
+            out['dropped'].append([c, name, rs]); report['dropped'] += 1; continue
         if name in k['eq']:
             e = k['eq'][name]; ng, gl = e[1], e[2]
             if ng == 'Makers': isM = True

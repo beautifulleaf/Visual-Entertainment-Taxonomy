@@ -2602,7 +2602,9 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Scrimshaw"
+]
 },
 "D2-13": {
 "axis": "sub-types (hard and soft duodji, by material) first, then regional groups, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (49 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -3019,7 +3021,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Sámi duodji"
+]
 },
 "D2-14": {
 "axis": "centre and workshop first, then makers, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (32 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -3333,7 +3337,9 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Chukchi / bone carving"
+]
 },
 "D2-15": {
 "axis": "centres first, then sub-types, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (1 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -3562,7 +3568,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Yakut (Sakha) / bone carving"
+]
 },
 "D2-17": {
 "axis": "sub-types first, then centres, then Collections",
@@ -3596,9 +3604,23 @@
 0
 ],
 [
+"Sardonyx-shell cameos",
+"Sub-types",
+"cameos cut in the brown-and-white layers of Cassis shells",
+"r3 https://en.wikipedia.org/wiki/Cameo_(carving)",
+0
+],
+[
 "Torre del Greco",
 "Centres & workshops",
 "coastal town near Naples, coral and cameo centre since the 17th century",
+"r3 https://en.wikipedia.org/wiki/Torre_del_Greco",
+0
+],
+[
+"Museo del Corallo, Torre del Greco",
+"Centres & workshops",
+"coral and cameo museum of the town's art school",
 "r3 https://en.wikipedia.org/wiki/Torre_del_Greco",
 0
 ]
@@ -5217,6 +5239,13 @@
 0
 ],
 [
+"possibly Mixteca (Mixtec) (archaeological culture) (attributed)",
+"Sub-types",
+"Mixtec greenstone figures and ornaments",
+"smithsonian",
+0
+],
+[
 "Olmec jade",
 "Sub-types",
 "celts, masks and were-jaguar figures",
@@ -5228,13 +5257,6 @@
 "Sub-types",
 "jadeite pendants of Guanacaste-Nicoya",
 "r3 https://en.wikipedia.org/wiki/Axe_god_pendant",
-0
-],
-[
-"possibly Mixteca (Mixtec) (archaeological culture) (attributed)",
-"Mixtec",
-"stone ornaments",
-"smithsonian",
 0
 ],
 [
@@ -5581,7 +5603,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Maya (Mexico"
+]
 },
 "D3-9": {
 "axis": "sub-types first, then iwi (centres), then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (262 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -7341,7 +7365,9 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Wayang kulit (shadow puppets, Java / Bali)"
+]
 },
 "D4-4": {
 "axis": "sub-types first, then centres, then makers, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (484 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -7711,7 +7737,9 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Wayang golek (rod puppets, Sunda / Java)"
+]
 },
 "D4-5": {
 "axis": "sub-types (by region) first, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (535 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -8088,11 +8116,24 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Topeng masks (Java / Bali masked dance)"
+]
 },
 "D4-6": {
 "axis": "sub-types first, then centres, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (5 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.metmuseum.org/art/collection/search?q=nang%20yai",
+"Met collection search: nang yai",
+"Thai shadow puppets in New York"
+],
+[
+"https://collectie.wereldculturen.nl/",
+"Wereldmuseum collection (NMVW)",
+"Thai shadow puppets in the Dutch national collection"
+]
+],
 "kinds": [
 [
 "Nang talung",
@@ -8179,7 +8220,10 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Thai shadow theatre (nang yai, nang talung)",
+"Thai shadow puppets (nang yai, nang talung)"
+]
 },
 "D4-7": {
 "axis": "sub-types first, then centres, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (4 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -8252,7 +8296,18 @@
 },
 "D4-8": {
 "axis": "sub-types (stock characters) first, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (149 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://collections.vam.ac.uk/search/?q=Burmese%20puppet",
+"V&A collection search: Burmese puppet",
+"Burmese marionettes in London"
+],
+[
+"https://collectie.wereldculturen.nl/",
+"Wereldmuseum collection (NMVW)",
+"Burmese marionettes in the Dutch national collection"
+]
+],
 "kinds": [
 [
 "Burmese marionettes (yoke thé)",
@@ -8765,7 +8820,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Chinese shadow puppets (piyingxi)"
+]
 },
 "D4-10": {
 "axis": "sub-types first, then centres, then makers, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (29 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -9051,7 +9108,9 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Bunraku"
+]
 },
 "D4-11": {
 "axis": "by regional mask-dance drama (sub-types), Hahoe first, then other national intangible heritage sets, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (8 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -9548,7 +9607,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Bamana"
+]
 },
 "D4-14": {
 "axis": "sub-types first, then titled museum objects, then Collections, then makers. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (13 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -9729,7 +9790,9 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Senufo"
+]
 },
 "D4-15": {
 "axis": "sub-types first, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (5 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -9833,7 +9896,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Chokwe"
+]
 },
 "D4-16": {
 "axis": "sub-types first, then centres, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (5 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -10228,7 +10293,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Igbo"
+]
 },
 "D4-18": {
 "axis": "sub-types (named mask roles) first, then titled museum objects, then Collections, then makers. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (30 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -10535,7 +10602,9 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Dan"
+]
 },
 "D4-19": {
 "axis": "sub-types first, then centres (society), then titled museum objects, then Collections, then makers. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (36 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -10884,7 +10953,9 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Mende"
+]
 },
 "D4-20": {
 "axis": "sub-types (the royal trio and others) first, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (13 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -11273,7 +11344,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Pende"
+]
 },
 "D4-23": {
 "axis": "sub-types first, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (11 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -11433,7 +11506,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Punu"
+]
 },
 "D4-24": {
 "axis": "sub-types (by people) first, then makers by date, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (80 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -12190,7 +12265,8 @@
 ]
 ],
 "alias_rows": [
-"Torres Strait turtle-shell masks (krar, le-op)"
+"Torres Strait turtle-shell masks (krar, le-op)",
+"Torres Strait Islander art (dhari, masks, printmaking)"
 ]
 },
 "D4-27": {
@@ -12407,7 +12483,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"giant Jas de Keistamper"
+]
 },
 "D4-28": {
 "axis": "sub-types (stock characters) first, then makers, then Collections. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -12932,7 +13010,14 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Gandhara",
+"Gandharan",
+"Unspecified (Swat)",
+"Afghan, Hadda",
+"Pakistani, Ancient region Gandhara (Swat Valley",
+"Pakistani, Gandhara, Bajaur"
+]
 },
 "D5-2": {
 "axis": "phases (Kushan, Gupta) first, then centres, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (108 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -13328,7 +13413,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Mathura"
+]
 },
 "D5-3": {
 "axis": "centres (sites) first, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (20 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -14627,11 +14714,19 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Dhokra"
+]
 },
 "D5-7": {
 "axis": "centre first, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (6 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://collections.vam.ac.uk/search/?q=Bankura",
+"V&A collection search: Bankura",
+"Bankura terracottas in London"
+]
+],
 "kinds": [
 [
 "Panchmura",
@@ -14704,11 +14799,19 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Bankura horse"
+]
 },
 "D5-8": {
 "axis": "centre first, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (16 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://collectie.wereldculturen.nl/",
+"Wereldmuseum collection (NMVW)",
+"Molela plaques in the Dutch national collection"
+]
+],
 "kinds": [
 [
 "Devnarayan plaques",
@@ -14851,7 +14954,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Molela terracotta plaques"
+]
 },
 "D5-9": {
 "axis": "phases first, then centres, then makers, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (401 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -15645,7 +15750,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Kashmiri"
+]
 },
 "D5-11": {
 "axis": "schools and ateliers first, then centres, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (584 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -16481,7 +16588,9 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Zanabazar school"
+]
 },
 "D5-13": {
 "axis": "imperial ateliers in date order first, then centres, then makers, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (21 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -16732,7 +16841,9 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Sino-Tibetan (China)"
+]
 },
 "D5-14": {
 "axis": "phases (period styles in date order) first, then centres, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (151 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -18221,7 +18332,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Ifugao bulul (granary figures)"
+]
 },
 "D5-19": {
 "axis": "sub-types first, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (70 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -18577,7 +18690,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Hispano-Philippine"
+]
 },
 "D5-20": {
 "axis": "sub-types first, then centres (kofun), then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (405 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -20714,7 +20829,18 @@
 },
 "D5-25": {
 "axis": "centres (named doll towns) first, then sub-types, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (906 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://colbase.nich.go.jp/",
+"ColBase (Japan's National Museums)",
+"dolls in Tokyo and Kyoto National Museums"
+],
+[
+"https://www.artic.edu/collection?q=Japanese%20doll",
+"Art Institute of Chicago search: Japanese doll",
+"the Chicago doll holding"
+]
+],
 "kinds": [
 [
 "Japanese folk toys (kyodo gangu, hariko, Fushimi dolls)",
@@ -21136,7 +21262,18 @@
 },
 "D5-26": {
 "axis": "lineages (kei-tō) as sub-types first, then makers, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (5 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://collectie.wereldculturen.nl/",
+"Wereldmuseum collection (NMVW)",
+"kokeshi in the Dutch national collection"
+],
+[
+"https://www.britishmuseum.org/collection/search?keyword=kokeshi",
+"British Museum collection search: kokeshi",
+"kokeshi in London"
+]
+],
 "kinds": [
 [
 "Naruko kokeshi",
@@ -21216,11 +21353,19 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Kokeshi"
+]
 },
 "D5-27": {
 "axis": "sub-types first, then centre, then Collections",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.britishmuseum.org/collection/search?keyword=Huishan",
+"British Museum collection search: Huishan",
+"Huishan figures in London"
+]
+],
 "kinds": [
 [
 "Da A-fu",
@@ -21237,6 +21382,13 @@
 0
 ],
 [
+"Huishan opera figures",
+"Sub-types",
+"painted figures of Kunqu and Peking opera scenes",
+"r3 https://en.wikipedia.org/wiki/Huishan_clay_figurine",
+0
+],
+[
 "Huishan, Wuxi",
 "Centres & workshops",
 "town district at the foot of Mount Hui",
@@ -21245,18 +21397,32 @@
 ]
 ],
 "alias_rows": [
-"Chinese clay figurines (Huishan, Clay Figure Zhang)"
+"Chinese clay figurines (Huishan, Clay Figure Zhang)",
+"Huishan clay figurine"
 ]
 },
 "D5-28": {
 "axis": "makers (family generations) first, then Collections",
-"catalogues": [],
+"catalogues": [
+[
+"https://en.wikipedia.org/wiki/Clay_Figure_Zhang",
+"Wikipedia: Clay Figure Zhang",
+"history and named generations of the workshop"
+]
+],
 "kinds": [
 [
 "Clay Figure Zhang",
 "Centres & workshops",
 "the Zhang family studio of Tianjin",
 "gap_sweep",
+0
+],
+[
+"Tianjin",
+"Centres & workshops",
+"the northern port city of the workshop",
+"r3 https://en.wikipedia.org/wiki/Tianjin",
 0
 ],
 [
@@ -21271,13 +21437,33 @@
 },
 "D5-29": {
 "axis": "sub-types first, then Collections",
-"catalogues": [],
+"catalogues": [
+[
+"https://en.wikipedia.org/wiki/Tu%27er_Ye",
+"Wikipedia: Tu'er Ye",
+"the Beijing Moon Rabbit figures"
+]
+],
 "kinds": [
 [
 "Tu'er Ye",
 "Sub-types",
 "the warrior rabbit figure on its mount",
 "world_folk",
+0
+],
+[
+"Moon Rabbit",
+"Sub-types",
+"the hare of Chinese lunar lore that the figure dresses up",
+"r3 https://en.wikipedia.org/wiki/Moon_rabbit",
+0
+],
+[
+"Mid-Autumn Festival figures",
+"Sub-types",
+"festival clay toys sold at Beijing temple fairs",
+"r3 https://en.wikipedia.org/wiki/Mid-Autumn_Festival",
 0
 ],
 [
@@ -21455,7 +21641,10 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Nok terracottas",
+"Nok"
+]
 },
 "D5-31": {
 "axis": "sub-types first, then centres, then titled works, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (1 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -21529,7 +21718,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Ife (Ile-Ife) classical art"
+]
 },
 "D5-32": {
 "axis": "phases first, then centres and guilds, then makers, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (176 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -21925,11 +22116,20 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Edo",
+"Edo (Benin Kingdom)"
+]
 },
 "D5-33": {
 "axis": "sub-groups first, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (32 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.britishmuseum.org/collection/search?keyword=Lower%20Niger",
+"British Museum collection search: Lower Niger",
+"castings attributed to the Lower Niger Bronze Industry"
+]
+],
 "kinds": [
 [
 "Tsoede bronzes (Tada, Jebba)",
@@ -22226,17 +22426,32 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Tsoede bronzes (Tada, Jebba) and Lower Niger Bronze Industry"
+]
 },
 "D5-34": {
 "axis": "centre first, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (2 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://en.wikipedia.org/wiki/Esie_Museum",
+"Wikipedia: Esie Museum",
+"the museum holding the soapstone figures"
+]
+],
 "kinds": [
 [
 "Esie Museum",
 "Centres & workshops",
 "1945 museum, first in Nigeria, holding the figures",
 "r3 https://en.wikipedia.org/wiki/Esie_Museum",
+0
+],
+[
+"Esie",
+"Centres & workshops",
+"Yoruba town in Kwara State where the figures were found",
+"r3 https://en.wikipedia.org/wiki/Esie",
 0
 ],
 [
@@ -22261,7 +22476,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Esie soapstone figures"
+]
 },
 "D5-35": {
 "axis": "sub-groups first, then centres, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (286 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -22632,12 +22849,20 @@
 ]
 ],
 "alias_rows": [
-"Middle Niger civilization"
+"Middle Niger civilization",
+"Inland Niger Delta (Djenne-jeno) terracottas",
+"Inland Niger Delta (Djenne)"
 ]
 },
 "D5-36": {
 "axis": "centre first, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (11 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://lux.collections.yale.edu/",
+"Yale LUX collections",
+"the Yale holding of Bura terracottas"
+]
+],
 "kinds": [
 [
 "Bura Asinda-Sikka",
@@ -22745,11 +22970,19 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Bura (Asinda-Sikka) terracottas"
+]
 },
 "D5-37": {
 "axis": "centre first, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (2 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://lux.collections.yale.edu/",
+"Yale LUX collections",
+"the Yale holding of Koma terracottas"
+]
+],
 "kinds": [
 [
 "Komaland",
@@ -22787,11 +23020,19 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Koma (Komaland) terracottas"
+]
 },
 "D5-38": {
 "axis": "Collections. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.quaibranly.fr/en/collections/",
+"Musée du quai Branly collections",
+"Sao objects from the Lebeuf excavations"
+]
+],
 "kinds": [
 [
 "Lake Chad basin",
@@ -22822,11 +23063,19 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Sao culture (Lake Chad)"
+]
 },
 "D5-39": {
 "axis": "works first, then Collections",
-"catalogues": [],
+"catalogues": [
+[
+"https://en.wikipedia.org/wiki/Lydenburg_Heads",
+"Wikipedia: Lydenburg Heads",
+"the seven heads and their find"
+]
+],
 "kinds": [
 [
 "Iziko South African Museum, Cape Town",
@@ -22834,13 +23083,28 @@
 "holds the heads",
 "r3 https://en.wikipedia.org/wiki/Lydenburg_Heads",
 0
+],
+[
+"Lydenburg (Mashishing)",
+"Centres & workshops",
+"Mpumalanga town where the heads were found in the 1950s",
+"r3 https://en.wikipedia.org/wiki/Lydenburg",
+0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Lydenburg heads"
+]
 },
 "D5-40": {
 "axis": "sub-types first, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (4 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.metmuseum.org/art/collection/search?q=nomoli",
+"Met collection search: nomoli",
+"Sapi stone figures in New York"
+]
+],
 "kinds": [
 [
 "Pomdo",
@@ -22938,7 +23202,13 @@
 },
 "D5-41": {
 "axis": "works first, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (2 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://whc.unesco.org/en/list/364",
+"UNESCO World Heritage: Great Zimbabwe National Monument",
+"the inscribed site of the birds"
+]
+],
 "kinds": [
 [
 "Great Zimbabwe",
@@ -22976,7 +23246,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Great Zimbabwe (soapstone birds) and Zimbabwe culture"
+]
 },
 "D5-42": {
 "axis": "sub-types first, then sub-groups and centres, then makers by date, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (202 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -23451,7 +23723,9 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Yoruba"
+]
 },
 "D5-43": {
 "axis": "phases first, then makers, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (39 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -23829,7 +24103,8 @@
 ]
 ],
 "alias_rows": [
-"Tellem"
+"Tellem",
+"Dogon"
 ]
 },
 "D5-44": {
@@ -24200,7 +24475,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Bamana"
+]
 },
 "D5-45": {
 "axis": "sub-types first, then carver groups, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (43 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -24570,7 +24847,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Senufo"
+]
 },
 "D5-46": {
 "axis": "sub-types first, then makers, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (48 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -24933,11 +25212,19 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Baule"
+]
 },
 "D5-47": {
 "axis": "sub-types first, then makers, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (23 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.metmuseum.org/art/collection/search?q=Lobi",
+"Met collection search: Lobi",
+"Lobi sculpture in New York"
+]
+],
 "kinds": [
 [
 "Bateba",
@@ -25157,7 +25444,9 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Lobi"
+]
 },
 "D5-48": {
 "axis": "sub-types first, then sub-groups, then makers, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (232 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -25562,7 +25851,9 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Asante"
+]
 },
 "D5-49": {
 "axis": "sub-types first, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (9 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -25687,7 +25978,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Chokwe"
+]
 },
 "D5-50": {
 "axis": "sub-types first, then sub-groups, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (32 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -26008,11 +26301,19 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Luba"
+]
 },
 "D5-51": {
 "axis": "sub-types first, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (21 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.metmuseum.org/art/collection/search?q=Lega",
+"Met collection search: Lega",
+"Lega sculpture in New York"
+]
+],
 "kinds": [
 [
 "Iginga",
@@ -26225,7 +26526,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Lega"
+]
 },
 "D5-52": {
 "axis": "works (by king) first, then Collections",
@@ -26245,16 +26548,9 @@
 0
 ],
 [
-"Ndop of Mishe miShyaang maMbul",
+"Ndop of Mbop Mabiinc maMbeeky",
 "Named works",
 "18th c.; Brooklyn Museum",
-"r3 https://en.wikipedia.org/wiki/Ndop",
-0
-],
-[
-"Ndop of Kot a-Ntshey",
-"Named works",
-"18th c.; Royal Museum for Central Africa, Tervuren",
 "r3 https://en.wikipedia.org/wiki/Ndop",
 0
 ]
@@ -26263,7 +26559,13 @@
 },
 "D5-53": {
 "axis": "sub-types first, then centres, then makers, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (12 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.metmuseum.org/art/collection/search?q=Makonde",
+"Met collection search: Makonde",
+"Makonde sculpture in New York"
+]
+],
 "kinds": [
 [
 "Mapiko (lipiko) masks",
@@ -26427,11 +26729,19 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Makonde art"
+]
 },
 "D5-54": {
 "axis": "centres and workshops first, then makers, then Collections",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.britishmuseum.org/collection/search?keyword=Kane%20Kwei",
+"British Museum collection search: Kane Kwei",
+"the fantasy coffin in London"
+]
+],
 "kinds": [
 [
 "Kane Kwei Carpentry Workshop",
@@ -26462,7 +26772,9 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Ghanaian fantasy coffins (abebuu adekai)"
+]
 },
 "D5-55": {
 "axis": "sub-types first, then phases, then named works by period, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (125 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -26960,7 +27272,9 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Cycladic"
+]
 },
 "D5-57": {
 "axis": "phases (Archaic, Classical, Hellenistic) first, then named works by phase, then Collections; sculptors are in D5-107/108/109",
@@ -27721,7 +28035,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Olmec"
+]
 },
 "D5-63": {
 "axis": "centres (sites) first, then makers, then named works, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (180 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -28117,7 +28433,9 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Maya"
+]
 },
 "D5-64": {
 "axis": "named works first (monuments), then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (884 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -28527,11 +28845,19 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Aztec"
+]
 },
 "D5-65": {
 "axis": "sub-types (yugo, hacha, palma) first, then sub-styles, then centres, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (253 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.metmuseum.org/art/collection/search?q=Veracruz",
+"Met collection search: Veracruz",
+"Classic Veracruz sculpture in New York"
+]
+],
 "kinds": [
 [
 "Yugos (yokes)",
@@ -28911,7 +29237,18 @@
 },
 "D5-66": {
 "axis": "sub-styles (Colima, Nayarit, Jalisco) first, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (537 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.metmuseum.org/art/collection/search?q=Colima",
+"Met collection search: Colima",
+"West Mexican figures in New York"
+],
+[
+"https://www.lacma.org/art/collection",
+"LACMA collection",
+"the Proctor Stafford collection of West Mexican ceramics"
+]
+],
 "kinds": [
 [
 "Colima dogs",
@@ -29286,7 +29623,9 @@
 ]
 ],
 "alias_rows": [
-"West Mexico shaft-tomb ceramics"
+"West Mexico shaft-tomb ceramics",
+"West Mexico: Colima",
+"Nayarit"
 ]
 },
 "D5-67": {
@@ -29300,6 +29639,13 @@
 ],
 "kinds": [
 [
+"probably Chavín or Cupisnique (archaeological culture) (attributed)",
+"Sub-types",
+"Cupisnique ceramics of the north coast",
+"smithsonian",
+0
+],
+[
 "Chavin",
 "Sub-types",
 "Chavín gold and metalwork",
@@ -29311,13 +29657,6 @@
 "Sub-types",
 "heads set in the temple walls",
 "r3 https://en.wikipedia.org/wiki/Chavín_de_Huántar",
-0
-],
-[
-"probably Chavín or Cupisnique (archaeological culture) (attributed)",
-"Cupisnique ceramics",
-"",
-"smithsonian",
 0
 ],
 [
@@ -29647,7 +29986,13 @@
 },
 "D5-68": {
 "axis": "sub-types first, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (26 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://collections.si.edu/search/results.htm?q=Valdivia",
+"Smithsonian collections search: Valdivia",
+"Valdivia figurines"
+]
+],
 "kinds": [
 [
 "Venus of Valdivia",
@@ -29867,7 +30212,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Valdivia"
+]
 },
 "D5-69": {
 "axis": "centres and schools first, then makers, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (83 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -30276,7 +30623,13 @@
 },
 "D5-70": {
 "axis": "regional schools first, then makers, then named works, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (278 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://whc.unesco.org/en/list/124",
+"UNESCO World Heritage: Historic Town of Ouro Preto",
+"the inscribed Barroco mineiro town"
+]
+],
 "kinds": [
 [
 "Barroco mineiro",
@@ -30657,11 +31010,24 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Brazilian Baroque (Barroco mineiro, Bahia)"
+]
 },
 "D5-71": {
 "axis": "regional sub-types first, then makers, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (13 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.metmuseum.org/art/collection/search?q=santos",
+"Met collection search: santos",
+"santos in New York"
+],
+[
+"https://americanart.si.edu/search?query=santo",
+"Smithsonian American Art Museum search: santo",
+"the Teodoro Vigil collection of New Mexican santos"
+]
+],
 "kinds": [
 [
 "New Mexican santero tradition (retablos and bultos)",
@@ -30819,12 +31185,19 @@
 ]
 ],
 "alias_rows": [
-"Santos (Hispanic saint carving)"
+"Santos (Hispanic saint carving)",
+"New Mexican santos (retablos and bultos)"
 ]
 },
 "D5-72": {
 "axis": "centres first, then makers, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (3 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://collections.si.edu/search/results.htm?q=alebrije",
+"Smithsonian collections search: alebrije",
+"alebrijes in the Smithsonian"
+]
+],
 "kinds": [
 [
 "Arrazola",
@@ -30883,11 +31256,19 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Alebrijes and Oaxacan wood carving"
+]
 },
 "D5-73": {
 "axis": "sub-types first, then makers, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (97 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://collectie.wereldculturen.nl/",
+"Wereldmuseum collection (NMVW)",
+"Mexican papier-mâché in the Dutch national collection"
+]
+],
 "kinds": [
 [
 "Judas figures",
@@ -31234,12 +31615,19 @@
 ]
 ],
 "alias_rows": [
-"Mexican piñata"
+"Mexican piñata",
+"Mexican cartoneria (Judas figures)"
 ]
 },
 "D5-74": {
 "axis": "centre first, then makers, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (113 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://collectie.wereldculturen.nl/",
+"Wereldmuseum collection (NMVW)",
+"Caruaru figures in the Dutch national collection"
+]
+],
 "kinds": [
 [
 "Alto do Moura",
@@ -31571,11 +31959,19 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Caruaru clay figures (Mestre Vitalino)"
+]
 },
 "D5-75": {
 "axis": "centre first, then makers, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (48 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://collections.si.edu/search/results.htm?q=Haitian+metal",
+"Smithsonian collections search: Haitian metal",
+"Haitian cut-metal sculpture"
+]
+],
 "kinds": [
 [
 "Croix-des-Bouquets",
@@ -31921,7 +32317,9 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Haitian metal art (Croix-des-Bouquets)"
+]
 },
 "D5-76": {
 "axis": "sub-types first, then peoples (centres), then makers by date, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (18 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -32529,12 +32927,24 @@
 ]
 ],
 "alias_rows": [
-"Inuit stone carving"
+"Inuit stone carving",
+"Inuit"
 ]
 },
 "D5-78": {
 "axis": "sub-types first, then makers, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (678 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://collections.si.edu/search/results.htm?q=katsina",
+"Smithsonian collections search: katsina",
+"NMAI katsina figures"
+],
+[
+"https://www.heard.org/",
+"Heard Museum, Phoenix",
+"the Barry Goldwater katsina doll collection"
+]
+],
 "kinds": [
 [
 "Tihu (cradle dolls)",
@@ -32877,7 +33287,13 @@
 },
 "D5-79": {
 "axis": "sub-types first, then makers, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (35 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://collections.si.edu/search/results.htm?q=Zuni+fetish",
+"Smithsonian collections search: Zuni fetish",
+"Zuni carvings"
+]
+],
 "kinds": [
 [
 "Bear fetishes",
@@ -33171,7 +33587,13 @@
 },
 "D5-80": {
 "axis": "centres first, then makers, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (10 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://collections.si.edu/search/results.htm?q=storyteller+Cochiti",
+"Smithsonian collections search: Cochiti storyteller",
+"storyteller figures"
+]
+],
 "kinds": [
 [
 "Cochiti Pueblo",
@@ -33727,12 +34149,24 @@
 ]
 ],
 "alias_rows": [
-"Maori, Te Arawa"
+"Maori, Te Arawa",
+"Maori"
 ]
 },
 "D5-82": {
 "axis": "sub-types first, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (122 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.metmuseum.org/art/collection/search?q=malagan",
+"Met collection search: malagan",
+"malagan carvings in New York"
+],
+[
+"https://www.penn.museum/collections/search.php?term=New+Ireland",
+"Penn Museum collections search: New Ireland",
+"Penn's New Ireland holding"
+]
+],
 "kinds": [
 [
 "Malagan friezes",
@@ -34086,17 +34520,38 @@
 ]
 ],
 "alias_rows": [
-"Northern New Ireland"
+"Northern New Ireland",
+"New Ireland"
 ]
 },
 "D5-83": {
 "axis": "sub-types first, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (1 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.metmuseum.org/art/collection/search?q=uli",
+"Met collection search: uli",
+"uli figures in New York"
+]
+],
 "kinds": [
 [
 "Uli figures",
 "Sub-types",
 "hermaphroditic ancestor figures",
+"r3 https://en.wikipedia.org/wiki/Uli_figure",
+0
+],
+[
+"Mandak and Barak peoples",
+"Centres & workshops",
+"central New Ireland groups who made the uli",
+"r3 https://en.wikipedia.org/wiki/New_Ireland_(island)",
+0
+],
+[
+"Uli figure (Metropolitan Museum)",
+"Named works",
+"19th c., central New Ireland; The Met, New York",
 "r3 https://en.wikipedia.org/wiki/Uli_figure",
 0
 ],
@@ -34116,12 +34571,24 @@
 ]
 ],
 "alias_rows": [
-"Central New Ireland, Mandak-Barak region"
+"Central New Ireland, Mandak-Barak region",
+"Central New Ireland"
 ]
 },
 "D5-84": {
 "axis": "sub-types first, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (979 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.metmuseum.org/art/collection/search?q=Asmat",
+"Met collection search: Asmat",
+"the Rockefeller Asmat collection in New York"
+],
+[
+"https://collectie.wereldculturen.nl/",
+"Wereldmuseum collection (NMVW)",
+"the large Dutch Asmat holdings"
+]
+],
 "kinds": [
 [
 "bisj poles",
@@ -34487,7 +34954,18 @@
 },
 "D5-85": {
 "axis": "peoples (sub-groups) first, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (705 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.metmuseum.org/art/collection/search?q=Sepik",
+"Met collection search: Sepik",
+"Sepik art in New York"
+],
+[
+"https://www.penn.museum/collections/search.php?term=Sepik",
+"Penn Museum collections search: Sepik",
+"Sepik art in Philadelphia"
+]
+],
 "kinds": [
 [
 "Haus tambaran",
@@ -34863,12 +35341,19 @@
 ],
 "alias_rows": [
 "Sepik: Iatmul",
-"Sepik: Abelam"
+"Sepik: Abelam",
+"Sepik"
 ]
 },
 "D5-86": {
 "axis": "sub-types first, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (272 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.penn.museum/collections/search.php?term=Massim",
+"Penn Museum collections search: Massim",
+"Massim carving in Philadelphia"
+]
+],
 "kinds": [
 [
 "Tabuya (canoe splashboards)",
@@ -35221,11 +35706,19 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Massim"
+]
 },
 "D5-87": {
 "axis": "sub-types first, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (6 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://collections.tepapa.govt.nz/",
+"Te Papa Collections Online",
+"Solomon Islands canoe figureheads at Te Papa"
+]
+],
 "kinds": [
 [
 "New Georgia",
@@ -35306,12 +35799,24 @@
 ]
 ],
 "alias_rows": [
-"Solomon Islands"
+"Solomon Islands",
+"Solomon Islands shell inlay (nguzunguzu)"
 ]
 },
 "D5-88": {
 "axis": "sub-types first, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (183 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://collections.tepapa.govt.nz/",
+"Te Papa Collections Online",
+"Marquesan carving at Te Papa"
+],
+[
+"https://www.penn.museum/collections/search.php?term=Marquesas",
+"Penn Museum collections search: Marquesas",
+"Marquesan carving in Philadelphia"
+]
+],
 "kinds": [
 [
 "U'u clubs",
@@ -35671,7 +36176,13 @@
 },
 "D5-89": {
 "axis": "sub-types first, then makers, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (3 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.britishmuseum.org/collection/search?keyword=Rapa%20Nui",
+"British Museum collection search: Rapa Nui",
+"Rapa Nui carvings in London"
+]
+],
 "kinds": [
 [
 "Moai kavakava",
@@ -35764,7 +36275,13 @@
 },
 "D5-90": {
 "axis": "centres first, then makers, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (13 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://collectie.wereldculturen.nl/",
+"Wereldmuseum collection (NMVW)",
+"Aurukun sculpture in the Dutch national collection"
+]
+],
 "kinds": [
 [
 "Camp dogs",
@@ -35893,11 +36410,19 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Aurukun (Wik) sculpture"
+]
 },
 "D5-91": {
 "axis": "sub-types first, then makers, then named works, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (1 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.metmuseum.org/art/collection/search?q=creche%20Naples",
+"Met collection search: Neapolitan crèche",
+"the Loretta Hines Howard crèche figures"
+]
+],
 "kinds": [
 [
 "Via San Gregorio Armeno",
@@ -35943,12 +36468,24 @@
 ]
 ],
 "alias_rows": [
-"Neapolitan presepe"
+"Neapolitan presepe",
+"Italian, Naples"
 ]
 },
 "D5-92": {
 "axis": "sub-types first, then makers by date, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (52 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://collections.si.edu/search/results.htm?q=decoy",
+"Smithsonian collections search: decoy",
+"decoys in the Smithsonian"
+],
+[
+"https://www.shelburnemuseum.org/",
+"Shelburne Museum",
+"one of the largest decoy collections"
+]
+],
 "kinds": [
 [
 "Shorebird decoys",
@@ -36309,12 +36846,24 @@
 ]
 ],
 "alias_rows": [
-"American decoy carving"
+"American decoy carving",
+"American decoys"
 ]
 },
 "D5-93": {
 "axis": "sub-types first, then makers, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (48 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://americanart.si.edu/search?query=weathervane",
+"Smithsonian American Art Museum search: weathervane",
+"weathervanes in SAAM"
+],
+[
+"https://www.metmuseum.org/art/collection/search?q=weathervane",
+"Met collection search: weathervane",
+"weathervanes in New York"
+]
+],
 "kinds": [
 [
 "Whirligigs",
@@ -36660,7 +37209,9 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"American weathervanes and whirligigs"
+]
 },
 "D5-94": {
 "axis": "sub-types first, then centre, then Collections",
@@ -36687,11 +37238,19 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Estremoz clay figures"
+]
 },
 "D5-95": {
 "axis": "centres first, then makers, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (44 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://goskatalog.ru/portal/",
+"Goskatalog (State Catalogue of the Museum Fund of Russia)",
+"museum records of matryoshka dolls"
+]
+],
 "kinds": [
 [
 "Sergiev Posad",
@@ -37058,11 +37617,19 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Matryoshka doll"
+]
 },
 "D5-96": {
 "axis": "centre first, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (8 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://goskatalog.ru/portal/",
+"Goskatalog (State Catalogue of the Museum Fund of Russia)",
+"museum records of Polkhovsky Maidan toys"
+]
+],
 "kinds": [
 [
 "Polkhovsky Maidan",
@@ -37184,11 +37751,19 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Polkhovsky Maidan painting"
+]
 },
 "D5-97": {
 "axis": "centre first, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (15 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://goskatalog.ru/portal/",
+"Goskatalog (State Catalogue of the Museum Fund of Russia)",
+"museum records of Bogorodskoye carving"
+]
+],
 "kinds": [
 [
 "The Blacksmiths toy",
@@ -37366,11 +37941,19 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Bogorodskoye carving"
+]
 },
 "D5-98": {
 "axis": "centre first, then makers, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (26 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://goskatalog.ru/portal/",
+"Goskatalog (State Catalogue of the Museum Fund of Russia)",
+"museum records of Dymkovo toys"
+]
+],
 "kinds": [
 [
 "Dymkovo",
@@ -37619,12 +38202,19 @@
 ]
 ],
 "alias_rows": [
-"Dymkovo toys"
+"Dymkovo toys",
+"Dymkovo toy"
 ]
 },
 "D5-99": {
 "axis": "centre first, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (28 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://goskatalog.ru/portal/",
+"Goskatalog (State Catalogue of the Museum Fund of Russia)",
+"museum records of Filimonovo toys"
+]
+],
 "kinds": [
 [
 "Filimonovo",
@@ -37858,11 +38448,19 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Filimonovo toy"
+]
 },
 "D5-100": {
 "axis": "centre first, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (32 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://goskatalog.ru/portal/",
+"Goskatalog (State Catalogue of the Museum Fund of Russia)",
+"museum records of Kargopol toys"
+]
+],
 "kinds": [
 [
 "Polkan",
@@ -38159,11 +38757,19 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Kargopol toy"
+]
 },
 "D5-101": {
 "axis": "centre first, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (11 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://goskatalog.ru/portal/",
+"Goskatalog (State Catalogue of the Museum Fund of Russia)",
+"museum records of Abashevo toys"
+]
+],
 "kinds": [
 [
 "Abashevo",
@@ -38299,12 +38905,34 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Abashevo toy"
+]
 },
 "D5-102": {
 "axis": "centre first, then Collections",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.europeana.eu/en/search?query=Yavoriv%20toy",
+"Europeana search: Yavoriv toy",
+"European museum records"
+]
+],
 "kinds": [
+[
+"Yavoriv carts and horses",
+"Sub-types",
+"turned toy carts and horses painted red, green and black",
+"r3 https://en.wikipedia.org/wiki/Yavoriv",
+0
+],
+[
+"Wooden rattles",
+"Sub-types",
+"turned wooden rattles",
+"r3 https://en.wikipedia.org/wiki/Yavoriv",
+0
+],
 [
 "Yavoriv",
 "Centres & workshops",
@@ -38313,12 +38941,27 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Yavoriv toy"
+]
 },
 "D5-103": {
 "axis": "centre first, then Collections",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.europeana.eu/en/search?query=Valky%20whistle",
+"Europeana search: Valky whistle",
+"European museum records"
+]
+],
 "kinds": [
+[
+"Clay whistles (svystunky)",
+"Sub-types",
+"Ukrainian ceramic whistle toys",
+"r3 https://en.wikipedia.org/wiki/Valky",
+0
+],
 [
 "Valky",
 "Centres & workshops",
@@ -38327,7 +38970,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Valky whistle toy"
+]
 },
 "D5-104": {
 "axis": "centre first, then Collections",
@@ -38339,6 +38984,13 @@
 ]
 ],
 "kinds": [
+[
+"Horses and birds on wheels",
+"Sub-types",
+"pull-along toys of the Zagorje villages",
+"r3 https://en.wikipedia.org/wiki/Hrvatsko_Zagorje",
+0
+],
 [
 "Marija Bistrica",
 "Centres & workshops",
@@ -38354,11 +39006,19 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Wooden toys of Hrvatsko Zagorje"
+]
 },
 "D5-105": {
 "axis": "named statues first, then Collections",
-"catalogues": [],
+"catalogues": [
+[
+"https://en.wikipedia.org/wiki/Vaivaisukko",
+"Wikipedia: Vaivaisukko",
+"the pauper statues of Finland and Sweden"
+]
+],
 "kinds": [
 [
 "Vaivaisukko",
@@ -38382,7 +39042,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"poor man statue"
+]
 },
 "D5-106": {
 "axis": "sub-types first, then centres, then named works, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (2 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -40660,6 +41322,13 @@
 0
 ],
 [
+"Terracotta garden gnomes",
+"Sub-types",
+"moulded and hand-painted terracotta figures",
+"r3 https://en.wikipedia.org/wiki/Garden_gnome",
+0
+],
+[
 "Gräfenroda",
 "Centres & workshops",
 "Thuringian town where gnome making began in the 1870s",
@@ -40685,7 +41354,13 @@
 },
 "D5-125": {
 "axis": "centre and workshops first, then Collections",
-"catalogues": [],
+"catalogues": [
+[
+"https://en.wikipedia.org/wiki/Volterra",
+"Wikipedia: Volterra",
+"the alabaster town and its museums"
+]
+],
 "kinds": [
 [
 "Volterra alabaster",
@@ -40707,13 +41382,26 @@
 "alabaster museum of Volterra",
 "r3 https://en.wikipedia.org/wiki/Volterra",
 0
+],
+[
+"Museo Etrusco Guarnacci",
+"Centres & workshops",
+"Volterra museum of Etruscan alabaster urns",
+"r3 https://en.wikipedia.org/wiki/Museo_Etrusco_Guarnacci",
+0
 ]
 ],
 "alias_rows": []
 },
 "D5-126": {
 "axis": "sub-types first, then makers, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (8 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.nhm.ac.uk/",
+"Natural History Museum, London",
+"the historic taxidermy collections"
+]
+],
 "kinds": [
 [
 "Victorian taxidermy",
@@ -40825,7 +41513,13 @@
 },
 "D5-127": {
 "axis": "centres first, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (1 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.metmuseum.org/art/collection/search?q=meerschaum",
+"Met collection search: meerschaum",
+"meerschaum carving in New York"
+]
+],
 "kinds": [
 [
 "Meerschaum pipe",
@@ -40874,7 +41568,13 @@
 },
 "D5-128": {
 "axis": "sub-types first, then Collections",
-"catalogues": [],
+"catalogues": [
+[
+"https://en.wikipedia.org/wiki/Thanjavur_doll",
+"Wikipedia: Thanjavur doll",
+"the GI-tagged dolls of Thanjavur"
+]
+],
 "kinds": [
 [
 "Thanjavur dolls",
@@ -40909,7 +41609,13 @@
 },
 "D5-129": {
 "axis": "sub-types first, then centres, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (3 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.europeana.eu/en/search?query=Erzgebirge",
+"Europeana search: Erzgebirge",
+"European museum records of Ore Mountains folk art"
+]
+],
 "kinds": [
 [
 "Erzgebirge woodcraft",
@@ -40950,6 +41656,13 @@
 "Seiffen",
 "Centres & workshops",
 "toy village with the Erzgebirge Toy Museum",
+"r3 https://en.wikipedia.org/wiki/Seiffen",
+0
+],
+[
+"Erzgebirgisches Spielzeugmuseum, Seiffen",
+"Centres & workshops",
+"toy museum of the Ore Mountains",
 "r3 https://en.wikipedia.org/wiki/Seiffen",
 0
 ],
@@ -41007,7 +41720,13 @@
 },
 "D5-130": {
 "axis": "centre and workshops first, then Collections",
-"catalogues": [],
+"catalogues": [
+[
+"https://digitaltmuseum.se/search/?q=dalah%C3%A4st",
+"DigitaltMuseum search: dalahäst",
+"Swedish museum records of Dala horses"
+]
+],
 "kinds": [
 [
 "Dalecarlian horse",
@@ -41036,13 +41755,26 @@
 "Nusnäs workshop founded 1928",
 "r3 https://en.wikipedia.org/wiki/Dala_horse",
 0
+],
+[
+"Dalarna",
+"Centres & workshops",
+"the Swedish province of the horses",
+"r3 https://en.wikipedia.org/wiki/Dalarna",
+0
 ]
 ],
 "alias_rows": []
 },
 "D5-131": {
 "axis": "centre and school first, then makers, then Collections",
-"catalogues": [],
+"catalogues": [
+[
+"https://en.wikipedia.org/wiki/Brienz",
+"Wikipedia: Brienz",
+"the carving village and its school"
+]
+],
 "kinds": [
 [
 "Brienz woodcarving",
@@ -41059,6 +41791,13 @@
 0
 ],
 [
+"Swiss Ballenberg Open-Air Museum",
+"Centres & workshops",
+"open-air museum near Brienz with carving workshops",
+"r3 https://en.wikipedia.org/wiki/Ballenberg",
+0
+],
+[
 "Christian Fischer",
 "Makers",
 "1790–1848, Brienz carver credited with founding the trade (1816)",
@@ -41070,7 +41809,13 @@
 },
 "D5-132": {
 "axis": "centres first, then Collections",
-"catalogues": [],
+"catalogues": [
+[
+"https://en.wikipedia.org/wiki/Val_Gardena",
+"Wikipedia: Val Gardena",
+"the valley and its carving trade"
+]
+],
 "kinds": [
 [
 "Val Gardena woodcarving",
@@ -41092,18 +41837,45 @@
 "chief carving town of Val Gardena",
 "r3 https://en.wikipedia.org/wiki/Ortisei",
 0
+],
+[
+"Museum Gherdëina, Ortisei",
+"Centres & workshops",
+"Val Gardena museum of woodcarving",
+"r3 https://en.wikipedia.org/wiki/Ortisei",
+0
 ]
 ],
 "alias_rows": []
 },
 "D6-1": {
 "axis": "sub-types first, then centres, then Collections",
-"catalogues": [],
+"catalogues": [
+[
+"https://en.wikipedia.org/wiki/Kavad",
+"Wikipedia: Kavad",
+"the portable shrines of Bassi"
+]
+],
 "kinds": [
 [
 "Kaavadiya storytellers",
 "Sub-types",
 "Bhat bards who recite with the shrine",
+"r3 https://en.wikipedia.org/wiki/Kavad",
+0
+],
+[
+"Ram kaavad",
+"Sub-types",
+"shrine of Rama's story",
+"r3 https://en.wikipedia.org/wiki/Kavad",
+0
+],
+[
+"Krishna kaavad",
+"Sub-types",
+"shrine of Krishna's story",
 "r3 https://en.wikipedia.org/wiki/Kavad",
 0
 ],
@@ -41115,7 +41887,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Kavad"
+]
 },
 "D6-2": {
 "axis": "sub-types first, then sub-groups (peoples), then makers, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (9 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -41331,12 +42105,19 @@
 ],
 "alias_rows": [
 "Songye",
-"Kongo nkisi"
+"Kongo nkisi",
+"Kongo"
 ]
 },
 "D6-3": {
 "axis": "sub-groups and sub-types first, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (9 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.metmuseum.org/art/collection/search?q=Fang%20reliquary",
+"Met collection search: Fang reliquary",
+"Fang reliquary figures in New York"
+]
+],
 "kinds": [
 [
 "Eyema byeri",
@@ -41459,12 +42240,19 @@
 ]
 ],
 "alias_rows": [
-"Fang reliquary tradition"
+"Fang reliquary tradition",
+"Fang"
 ]
 },
 "D6-4": {
 "axis": "sub-groups first, then makers, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (4 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.metmuseum.org/art/collection/search?q=asen",
+"Met collection search: asen",
+"Fon memorial altars in New York"
+]
+],
 "kinds": [
 [
 "Hountondji family",
@@ -41545,12 +42333,20 @@
 ]
 ],
 "alias_rows": [
-"Fon, Danhomè Kingdom"
+"Fon, Danhomè Kingdom",
+"Fon",
+"Fon (Dahomey)"
 ]
 },
 "D6-5": {
 "axis": "sub-types first, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (44 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://collections.si.edu/search/results.htm?q=Taino",
+"Smithsonian collections search: Taíno",
+"NMAI Taíno objects"
+]
+],
 "kinds": [
 [
 "Three-pointed zemís (trigonolitos)",
@@ -41875,11 +42671,19 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Taíno"
+]
 },
 "D6-6": {
 "axis": "sub-types first, then makers, then Collections. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://collections.vam.ac.uk/search/?q=retablo%20Ayacucho",
+"V&A collection search: Ayacucho retablo",
+"Peruvian retablos in London"
+]
+],
 "kinds": [
 [
 "Huamanga alabaster (piedra de Huamanga)",
@@ -41918,7 +42722,8 @@
 ]
 ],
 "alias_rows": [
-"Ayacucho retablos and Huamanga alabaster (piedra de Huamanga)"
+"Ayacucho retablos and Huamanga alabaster (piedra de Huamanga)",
+"Retablos ayacuchanos"
 ]
 },
 "D6-7": {
@@ -41931,6 +42736,13 @@
 ]
 ],
 "kinds": [
+[
+"probably Woodland Tradition (archaeological culture) (attributed)",
+"Sub-types",
+"Woodland stone pipes",
+"smithsonian",
+0
+],
 [
 "probably Northeast (archaeological) (attributed)",
 "Sub-types",
@@ -41964,13 +42776,6 @@
 "Centres & workshops",
 "catlinite quarry, Minnesota",
 "r3 https://en.wikipedia.org/wiki/Pipestone_National_Monument",
-0
-],
-[
-"probably Woodland Tradition (archaeological culture) (attributed)",
-"Woodland stone pipes",
-"",
-"smithsonian",
 0
 ],
 [
@@ -42296,11 +43101,19 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"possibly Southeast (archaeological) (attributed)"
+]
 },
 "D6-8": {
 "axis": "centres (art centres) first, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (2 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.penn.museum/collections/search.php?term=Tiwi",
+"Penn Museum collections search: Tiwi",
+"Tiwi carving in Philadelphia"
+]
+],
 "kinds": [
 [
 "Ngaruwanajirri Inc.",
@@ -42367,13 +43180,27 @@
 ]
 ],
 "alias_rows": [
-"Aboriginal Australian: Tiwi"
+"Aboriginal Australian: Tiwi",
+"Tiwi art (pukumani poles, ochre painting)"
 ]
 },
 "D6-9": {
 "axis": "Collections",
-"catalogues": [],
+"catalogues": [
+[
+"https://en.wikipedia.org/wiki/Toas",
+"Wikipedia: Toas",
+"the Lake Eyre direction markers"
+]
+],
 "kinds": [
+[
+"Place-name toas",
+"Sub-types",
+"toas whose forms encode named places of Diyari country",
+"r3 https://en.wikipedia.org/wiki/Toas",
+0
+],
 [
 "South Australian Museum",
 "Centres & workshops",
@@ -42389,7 +43216,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Lake Eyre toas (direction markers)"
+]
 },
 "D6-10": {
 "axis": "centres (sites) first, then makers, then named works, then Collections",
@@ -42437,7 +43266,9 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"khachkar"
+]
 },
 "D6-11": {
 "axis": "sub-types first, then sites, then Collections",
@@ -42464,6 +43295,13 @@
 0
 ],
 [
+"Roadside shrines (stogastulpis)",
+"Sub-types",
+"roofed shrine poles with saints",
+"r3 https://en.wikipedia.org/wiki/Lithuanian_cross_crafting",
+0
+],
+[
 "Hill of Crosses",
 "Centres & workshops",
 "pilgrimage hill near Šiauliai",
@@ -42471,11 +43309,19 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Lithuanian cross crafting"
+]
 },
 "D6-12": {
 "axis": "centres (designated regional centres) first, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (102 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://colbase.nich.go.jp/",
+"ColBase (Japan's National Museums)",
+"zushi and household shrines in the national museums"
+]
+],
 "kinds": [
 [
 "Hikone butsudan",
@@ -44030,7 +44876,9 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Europeans"
+]
 },
 "F1-4": {
 "axis": "sub-types first, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (1 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -44111,7 +44959,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Greek, Eastern Mediterranean"
+]
 },
 "F1-5": {
 "axis": "sub-types (techniques) first, then centres and firms, then makers by date, then named works, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (6 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -44288,7 +45138,9 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Italian, Murano"
+]
 },
 "F1-6": {
 "axis": "sub-types first, then centres, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (2 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -44372,13 +45224,27 @@
 ]
 ],
 "alias_rows": [
-"Murano lampwork"
+"Murano lampwork",
+"The art of glass beads"
 ]
 },
 "F1-7": {
 "axis": "sub-types first, then centres, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (1 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.europeana.eu/en/search?query=Ponikl%C3%A1",
+"Europeana search: Poniklá",
+"European museum records of the decorations"
+]
+],
 "kinds": [
+[
+"Blown-bead ornaments",
+"Sub-types",
+"ornaments threaded from silvered blown glass beads",
+"r3 https://en.wikipedia.org/wiki/Poniklá",
+0
+],
 [
 "Poniklá",
 "Centres & workshops",
@@ -44421,7 +45287,13 @@
 },
 "F1-8": {
 "axis": "centres first, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (20 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.europeana.eu/en/search?query=L%C4%ABv%C4%81ni%20glass",
+"Europeana search: Līvāni glass",
+"European museum records"
+]
+],
 "kinds": [
 [
 "Līvāni Glass Factory",
@@ -44634,7 +45506,9 @@
 0
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"glassblowing craft skills in Līvāni"
+]
 },
 "F1-9": {
 "axis": "makers and firms by school (École de Nancy, Bohemian and Austrian Art Nouveau glass, Paris), then titled works, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (2 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
@@ -44956,13 +45830,26 @@
 },
 "F1-11": {
 "axis": "centres first, then Collections",
-"catalogues": [],
+"catalogues": [
+[
+"https://en.wikipedia.org/wiki/Mosaic_lamp",
+"Wikipedia: Mosaic lamp",
+"Turkish mosaic lamps"
+]
+],
 "kinds": [
 [
 "Turkish mosaic lamp making",
 "Sub-types",
 "mosaic-glass lamp globes · Possession: Turkish mosaic lamp (B3)",
 "possession https://kraftstories.com/blogs/turkish-mosaic-lamp/the-rich-history-of-turkish-lamps-craftsmanship-and-culture",
+0
+],
+[
+"Hanging mosaic lamps",
+"Sub-types",
+"multi-globe hanging lamps",
+"r3 https://en.wikipedia.org/wiki/Mosaic_lamp",
 0
 ],
 [
@@ -44984,7 +45871,13 @@
 },
 "F1-12": {
 "axis": "glassworks (centres) first, then designers by date, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (5 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://digitaltmuseum.se/search/?q=Orrefors",
+"DigitaltMuseum search: Orrefors",
+"Swedish museum records of Orrefors glass"
+]
+],
 "kinds": [
 [
 "Swedish art glass",
@@ -45117,7 +46010,13 @@
 },
 "F1-13": {
 "axis": "centres and makers first, then Collections",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.europeana.eu/en/search?query=Lauscha",
+"Europeana search: Lauscha",
+"European museum records of Lauscha glass"
+]
+],
 "kinds": [
 [
 "Lauscha glass ornaments",
@@ -45159,7 +46058,13 @@
 },
 "F1-14": {
 "axis": "sub-types first, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (280 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://colbase.nich.go.jp/",
+"ColBase (Japan's National Museums)",
+"Edo-period glass in the national museums"
+]
+],
 "kinds": [
 [
 "Edo fūrin",
@@ -45523,7 +46428,13 @@
 },
 "F1-15": {
 "axis": "centres first, then makers, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (15 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://www.metmuseum.org/art/collection/search?q=micromosaic",
+"Met collection search: micromosaic",
+"micromosaics in New York"
+]
+],
 "kinds": [
 [
 "Micromosaic jewellery",
@@ -45684,7 +46595,13 @@
 },
 "F1-16": {
 "axis": "centres first, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (85 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://collections.vam.ac.uk/search/?q=glass%20Cairo",
+"V&A collection search: glass Cairo",
+"Egyptian blown glass in London"
+]
+],
 "kinds": [
 [
 "Egyptian hand-blown perfume glass",
@@ -46395,11 +47312,19 @@
 1
 ]
 ],
-"alias_rows": []
+"alias_rows": [
+"Bohemian"
+]
 },
 "F2-3": {
 "axis": "sub-types first, then makers, then titled museum objects, then Collections. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture (one per title, museum page required), the 40 earliest-dated (28 qualify), grouped by object type. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)",
-"catalogues": [],
+"catalogues": [
+[
+"https://colbase.nich.go.jp/",
+"ColBase (Japan's National Museums)",
+"kiriko cut glass in the Tokyo National Museum"
+]
+],
 "kinds": [
 [
 "Edo kiriko",
@@ -47659,621 +48584,5 @@
 "D5-118"
 ]
 ],
-"dropped": [
-[
-"D2-12",
-"Scrimshaw",
-"museum label restating the leaf"
-],
-[
-"D2-13",
-"Sámi duodji",
-"museum label restating the leaf"
-],
-[
-"D2-14",
-"Chukchi / bone carving",
-"duplicate museum label for the leaf"
-],
-[
-"D2-16",
-"Yakut (Sakha) / bone carving",
-"duplicate museum label for the leaf"
-],
-[
-"D3-8",
-"Maya (Mexico",
-"museum culture label duplicating the Maya row"
-],
-[
-"D4-3",
-"Wayang kulit (shadow puppets, Java / Bali)",
-"museum label restating the leaf"
-],
-[
-"D4-4",
-"Wayang golek (rod puppets, Sunda / Java)",
-"museum label restating the leaf"
-],
-[
-"D4-5",
-"Topeng masks (Java / Bali masked dance)",
-"museum label restating the leaf"
-],
-[
-"D4-6",
-"Thai shadow theatre (nang yai, nang talung)",
-"museum label restating the leaf"
-],
-[
-"D4-6",
-"Thai shadow puppets (nang yai, nang talung)",
-"duplicate museum label"
-],
-[
-"D4-9",
-"Chinese shadow puppets (piyingxi)",
-"museum label restating the leaf"
-],
-[
-"D4-10",
-"Bunraku",
-"museum label restating the leaf"
-],
-[
-"D4-13",
-"Bamana",
-"museum culture label (Bamana), restating the people"
-],
-[
-"D4-14",
-"Senufo",
-"museum culture label restating the people"
-],
-[
-"D4-15",
-"Chokwe",
-"museum culture label restating the people"
-],
-[
-"D4-17",
-"Igbo",
-"museum culture label restating the people"
-],
-[
-"D4-18",
-"Dan",
-"museum culture label restating the people"
-],
-[
-"D4-19",
-"Mende",
-"museum culture label restating the people"
-],
-[
-"D4-22",
-"Pende",
-"museum culture label restating the people"
-],
-[
-"D4-23",
-"Punu",
-"museum culture label restating the people"
-],
-[
-"D4-26",
-"Torres Strait Islander art (dhari, masks, printmaking)",
-"museum label restating the art of the islands"
-],
-[
-"D4-27",
-"giant Jas de Keistamper",
-"duplicate museum label for the named giant"
-],
-[
-"D5-1",
-"Gandhara",
-"museum culture label restating the leaf"
-],
-[
-"D5-1",
-"Gandharan",
-"museum culture label restating the leaf"
-],
-[
-"D5-1",
-"Unspecified (Swat)",
-"museum culture label duplicating Swat"
-],
-[
-"D5-1",
-"Afghan, Hadda",
-"duplicate of the Hadda row"
-],
-[
-"D5-1",
-"Pakistani, Ancient region Gandhara (Swat Valley",
-"museum culture label duplicating Swat"
-],
-[
-"D5-1",
-"Pakistani, Gandhara, Bajaur",
-"museum culture label (Bajaur find-spot)"
-],
-[
-"D5-2",
-"Mathura",
-"museum place label restating the leaf"
-],
-[
-"D5-6",
-"Dhokra",
-"museum label restating the leaf"
-],
-[
-"D5-7",
-"Bankura horse",
-"museum label restating the leaf"
-],
-[
-"D5-8",
-"Molela terracotta plaques",
-"museum label restating the leaf"
-],
-[
-"D5-10",
-"Kashmiri",
-"museum culture label restating the leaf"
-],
-[
-"D5-12",
-"Zanabazar school",
-"museum label restating the leaf"
-],
-[
-"D5-13",
-"Sino-Tibetan (China)",
-"museum label restating the leaf"
-],
-[
-"D5-18",
-"Ifugao bulul (granary figures)",
-"museum label restating the leaf"
-],
-[
-"D5-19",
-"Hispano-Philippine",
-"duplicate culture label"
-],
-[
-"D5-26",
-"Kokeshi",
-"museum label restating the leaf"
-],
-[
-"D5-27",
-"Huishan clay figurine",
-"museum label restating the leaf"
-],
-[
-"D5-30",
-"Nok terracottas",
-"museum label restating the leaf"
-],
-[
-"D5-30",
-"Nok",
-"museum culture label restating the leaf"
-],
-[
-"D5-31",
-"Ife (Ile-Ife) classical art",
-"museum label restating the leaf"
-],
-[
-"D5-32",
-"Edo",
-"museum culture label restating the people"
-],
-[
-"D5-32",
-"Edo (Benin Kingdom)",
-"museum culture label restating the people"
-],
-[
-"D5-33",
-"Tsoede bronzes (Tada, Jebba) and Lower Niger Bronze Industry",
-"museum label restating the leaf"
-],
-[
-"D5-34",
-"Esie soapstone figures",
-"museum label restating the leaf"
-],
-[
-"D5-35",
-"Inland Niger Delta (Djenne-jeno) terracottas",
-"museum label restating the leaf"
-],
-[
-"D5-35",
-"Inland Niger Delta (Djenne)",
-"museum culture label restating the leaf"
-],
-[
-"D5-36",
-"Bura (Asinda-Sikka) terracottas",
-"museum label restating the leaf"
-],
-[
-"D5-37",
-"Koma (Komaland) terracottas",
-"museum label restating the leaf"
-],
-[
-"D5-38",
-"Sao culture (Lake Chad)",
-"museum label restating the leaf"
-],
-[
-"D5-39",
-"Lydenburg heads",
-"museum label restating the leaf"
-],
-[
-"D5-41",
-"Great Zimbabwe (soapstone birds) and Zimbabwe culture",
-"museum label restating the leaf"
-],
-[
-"D5-42",
-"Yoruba",
-"museum culture label restating the people"
-],
-[
-"D5-43",
-"Dogon",
-"museum culture label restating the people"
-],
-[
-"D5-44",
-"Bamana",
-"museum culture label restating the people"
-],
-[
-"D5-45",
-"Senufo",
-"museum culture label restating the people"
-],
-[
-"D5-46",
-"Baule",
-"museum culture label restating the people"
-],
-[
-"D5-47",
-"Lobi",
-"museum culture label restating the people"
-],
-[
-"D5-48",
-"Asante",
-"museum culture label restating the people"
-],
-[
-"D5-49",
-"Chokwe",
-"museum culture label restating the people"
-],
-[
-"D5-50",
-"Luba",
-"museum culture label restating the people"
-],
-[
-"D5-51",
-"Lega",
-"museum culture label restating the people"
-],
-[
-"D5-53",
-"Makonde art",
-"museum label restating the leaf"
-],
-[
-"D5-54",
-"Ghanaian fantasy coffins (abebuu adekai)",
-"museum label restating the leaf"
-],
-[
-"D5-56",
-"Cycladic",
-"museum culture label restating the leaf"
-],
-[
-"D5-62",
-"Olmec",
-"museum culture label restating the leaf"
-],
-[
-"D5-63",
-"Maya",
-"museum culture label restating the people"
-],
-[
-"D5-64",
-"Aztec",
-"museum culture label restating the people"
-],
-[
-"D5-65",
-"Classic Veracruz",
-"museum culture label restating the leaf"
-],
-[
-"D5-66",
-"West Mexico: Colima",
-"duplicate culture label"
-],
-[
-"D5-66",
-"Nayarit",
-"duplicate culture label"
-],
-[
-"D5-68",
-"Valdivia",
-"museum culture label restating the leaf"
-],
-[
-"D5-70",
-"Brazilian Baroque (Barroco mineiro, Bahia)",
-"museum label restating the leaf"
-],
-[
-"D5-71",
-"New Mexican santos (retablos and bultos)",
-"duplicate museum label"
-],
-[
-"D5-72",
-"Alebrijes and Oaxacan wood carving",
-"museum label restating the leaf"
-],
-[
-"D5-73",
-"Mexican cartoneria (Judas figures)",
-"museum label restating the leaf"
-],
-[
-"D5-74",
-"Caruaru clay figures (Mestre Vitalino)",
-"museum label restating the leaf"
-],
-[
-"D5-75",
-"Haitian metal art (Croix-des-Bouquets)",
-"museum label restating the leaf"
-],
-[
-"D5-77",
-"Inuit",
-"museum culture label restating the people"
-],
-[
-"D5-81",
-"Maori",
-"museum culture label restating the people"
-],
-[
-"D5-82",
-"New Ireland",
-"museum label restating the region"
-],
-[
-"D5-83",
-"Central New Ireland",
-"museum culture label restating the region"
-],
-[
-"D5-84",
-"Asmat",
-"museum culture label restating the people"
-],
-[
-"D5-85",
-"Sepik",
-"museum culture label restating the region"
-],
-[
-"D5-86",
-"Massim",
-"museum culture label restating the region"
-],
-[
-"D5-87",
-"Solomon Islands shell inlay (nguzunguzu)",
-"museum label restating the leaf"
-],
-[
-"D5-88",
-"Marquesan",
-"museum culture label restating the people"
-],
-[
-"D5-89",
-"Rapa Nui",
-"museum culture label restating the people"
-],
-[
-"D5-90",
-"Aurukun (Wik) sculpture",
-"museum label restating the leaf"
-],
-[
-"D5-91",
-"Italian, Naples",
-"museum culture label restating the leaf"
-],
-[
-"D5-92",
-"American decoys",
-"museum label restating the leaf"
-],
-[
-"D5-93",
-"American weathervanes and whirligigs",
-"museum label restating the leaf"
-],
-[
-"D5-94",
-"Estremoz clay figures",
-"museum label restating the leaf"
-],
-[
-"D5-95",
-"Matryoshka doll",
-"museum label restating the leaf"
-],
-[
-"D5-96",
-"Polkhovsky Maidan painting",
-"museum label restating the leaf"
-],
-[
-"D5-97",
-"Bogorodskoye carving",
-"museum label restating the leaf"
-],
-[
-"D5-98",
-"Dymkovo toy",
-"museum label restating the leaf"
-],
-[
-"D5-99",
-"Filimonovo toy",
-"museum label restating the leaf"
-],
-[
-"D5-100",
-"Kargopol toy",
-"museum label restating the leaf"
-],
-[
-"D5-101",
-"Abashevo toy",
-"museum label restating the leaf"
-],
-[
-"D5-102",
-"Yavoriv toy",
-"museum label restating the leaf"
-],
-[
-"D5-103",
-"Valky whistle toy",
-"museum label restating the leaf"
-],
-[
-"D5-104",
-"Wooden toys of Hrvatsko Zagorje",
-"museum label restating the leaf"
-],
-[
-"D5-105",
-"poor man statue",
-"museum label restating the leaf"
-],
-[
-"D6-1",
-"Kavad",
-"museum label restating the leaf"
-],
-[
-"D6-2",
-"Kongo",
-"museum culture label restating the people"
-],
-[
-"D6-3",
-"Fang",
-"museum culture label restating the people"
-],
-[
-"D6-4",
-"Fon",
-"museum culture label restating the people"
-],
-[
-"D6-4",
-"Fon (Dahomey)",
-"museum culture label restating the people"
-],
-[
-"D6-5",
-"Taíno",
-"museum culture label restating the people"
-],
-[
-"D6-6",
-"Retablos ayacuchanos",
-"museum label restating the leaf"
-],
-[
-"D6-7",
-"possibly Southeast (archaeological) (attributed)",
-"duplicate of the Southeastern pipes row"
-],
-[
-"D6-8",
-"Tiwi art (pukumani poles, ochre painting)",
-"museum label restating the art of the Tiwi"
-],
-[
-"D6-9",
-"Lake Eyre toas (direction markers)",
-"museum label restating the leaf"
-],
-[
-"D6-10",
-"khachkar",
-"museum label restating the leaf"
-],
-[
-"D6-11",
-"Lithuanian cross crafting",
-"museum label restating the leaf"
-],
-[
-"F1-3",
-"Europeans",
-"Smithsonian culture label for glass beads, not a kind of Roman glass"
-],
-[
-"F1-4",
-"Greek, Eastern Mediterranean",
-"museum culture label restating the leaf"
-],
-[
-"F1-5",
-"Italian, Murano",
-"museum culture label restating the leaf"
-],
-[
-"F1-6",
-"The art of glass beads",
-"museum label restating the leaf"
-],
-[
-"F1-8",
-"glassblowing craft skills in Līvāni",
-"museum label restating the leaf"
-],
-[
-"F2-2",
-"Bohemian",
-"museum culture label restating the leaf"
-]
-]
+"dropped": []
 }

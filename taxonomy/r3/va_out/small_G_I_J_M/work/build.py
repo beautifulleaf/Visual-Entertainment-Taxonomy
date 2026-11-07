@@ -41,7 +41,8 @@ CN = {'United States of America': 'United States', 'Francia': 'France', 'Republi
       "People's Republic of China": 'China', 'Czechoslovakia': 'Czech Republic', 'East Germany': 'Germany', 'West Germany': 'Germany', 'Weimar Republic': 'Germany', 'Nazi Germany': 'Germany',
       'Kingdom of Italy': 'Italy', 'Kingdom of Belgium': 'Belgium', 'Southern Netherlands': 'Belgium', 'Austrian Netherlands': 'Belgium', 'Kingdom of Poland': 'Poland',
       'Polish–Lithuanian Commonwealth': 'Poland', 'Second Polish Republic': 'Poland', 'Polish People\'s Republic': 'Poland', 'Swiss Confederation': 'Switzerland', 'Savoy': 'France', 'Geneva': 'Switzerland', 'Republic of Geneva': 'Switzerland', 'England': 'United Kingdom', 'Ferrara': 'Italy', 'Duchy of Ferrara': 'Italy', 'Saxe-Weimar-Eisenach': 'Germany', 'Baden': 'Germany', 'Grand Duchy of Baden': 'Germany', 'Duchy of Savoy': 'France', 'Old Swiss Confederacy': 'Switzerland'}
-def country(ev):
+def country(ev, name=None):
+    if name in k3.ROLEFIX and k3.ROLEFIX[name][1]: return k3.ROLEFIX[name][1]
     c = (ev or {}).get('countries') or ''
     c = c.split(',')[0].strip()
     if c.startswith('United Kingdom'): return 'United Kingdom'
@@ -54,6 +55,7 @@ LROLE = {'M1-3': 'Fluxus artist', 'M1-4': 'mail artist', 'M1-5': 'Arte Povera ar
          'I3-18': 'Mingei craftsman', 'I3-17': 'designer', 'J1-10': 'photographer', 'J1-11': 'humanist photographer', 'G1-49': 'Mosan goldsmith'}
 CUR = [None]
 def artist_gloss(r, ev):
+    if r[0] in k3.ROLEFIX: return k3.ROLEFIX[r[0]][0]
     parts = [p.strip() for p in (r[2] or '').split(';')]
     role = next((p for p in parts if p and not BAD.search(p) and ROLEKW.search(p)), None)
     if not role:
@@ -89,8 +91,9 @@ INST = {'NMAI': 'Smithsonian National Museum of the American Indian, Washington 
 def inst_name(x):
     x = (x or '').strip()
     if x in INST: return INST[x]
-    q = re.findall(r'"([^"]+)"', x)
-    if q and re.search(r'[А-Яа-я]', x): return q[-1].strip('"') if len(q) == 1 else '"'.join(q[-1:]).strip()
+    if re.search(r'[А-Яа-я]', x):
+        m = re.search(r'["«](.+)$', x)
+        if m: return m.group(1).replace('«', '').replace('»', '').strip('" ').replace('""', '"')[:90]
     return x or 'Institution unrecorded'
 def clean_title(t):
     t = html.unescape(html.unescape(t or ''))
@@ -99,6 +102,8 @@ def clean_title(t):
     t = re.sub(r'\s+', ' ', t)
     if t.isupper() and len(t) > 3: t = t[0] + t[1:].lower()
     return t
+CERL = {'G1-1', 'G1-2', 'G1-3', 'G1-4', 'G1-5', 'G1-7', 'G1-8', 'G1-10', 'G1-59', 'G2-1', 'G3-1', 'G3-2', 'G1-26', 'G1-27', 'G1-28', 'G1-29', 'G1-30', 'G3-8', 'G3-9', 'G3-10', 'G3-11', 'G3-12', 'G3-13'}
+CERX = re.compile(r'stonepaste|fritware|earthenware|ceramic|glaze|lustre|luster|porcelain|\\bglass|mina.i|pottery|terracotta|stoneware|textile|wool|cotton|silk', re.I)
 EXB = re.compile(r'Book of|\\bfrom (a|an|the)\\b.*(book|nama|manuscript|album|anthology|divan|khamsa)|Shahnam|Khamsa|Divan|Diwan|Gulistan|Bustan|Anthology', re.I)
 GENERIC = re.compile(r'^(fragment|part|piece|object|sample|specimen)\b', re.I)
 def descriptive(t):
@@ -121,7 +126,7 @@ CUSTOM = {
  'I1-15': ([('Throwing clubs (i ula)', r'ula|throwing|werpknots'), ('Totokia (pineapple clubs)', r'totokia|pineapple'), ('Gunstock clubs (gata, kiakavo)', r'gata|kiakavo|gunstock'), ('Rootstock and pole clubs', r'root|pole|madrali|wortel|staff'), ('Paddle and spurred clubs', r'culacula|paddle|blad|spur|sali')], 'Other clubs'),
  'G2-3': ([('Mountings (koshirae)', r'mount|koshirae|拵|scabbard'), ('Tantō (daggers)', r'tant|短刀'), ('Katana', r'katana|^刀'), ('Ken and chokutō (straight swords)', r'^剣|ken\b|straight|大刀|直刀')], 'Tachi'),
 }
-JPP = [('飛鳥', 'Asuka'), ('奈良', 'Nara'), ('平安', 'Heian'), ('鎌倉', 'Kamakura'), ('南北朝', 'Nanbokuchō'), ('室町', 'Muromachi'), ('桃山', 'Momoyama'), ('安土', 'Azuchi'), ('江戸', 'Edo'), ('明治', 'Meiji'), ('時代', ' period'), ('世紀', 'th century'), ('・', ', '), ('～', '–')]
+JPP = [('古墳', 'Kofun'), ('飛鳥', 'Asuka'), ('奈良', 'Nara'), ('平安', 'Heian'), ('鎌倉', 'Kamakura'), ('南北朝', 'Nanbokuchō'), ('室町', 'Muromachi'), ('桃山', 'Momoyama'), ('安土', 'Azuchi'), ('江戸', 'Edo'), ('明治', 'Meiji'), ('時代', ' period'), ('世紀', 'th century'), ('・', ', '), ('～', '–')]
 def jp(t):
     for a, b in JPP: t = t.replace(a, b)
     return t
@@ -129,7 +134,7 @@ PERNOUN = {'G2-12': 'armour', 'I2-9': 'maki-e', 'I2-10': 'lacquer'}
 def section(t, code=None, x=None):
     if code in PERNOUN and x is not None:
         p = jp((x.get('cult') or '').split('|')[0].strip() or x.get('date') or '')
-        for era in ['Asuka', 'Nara', 'Heian', 'Kamakura', 'Nanbokuchō', 'Muromachi', 'Momoyama', 'Azuchi', 'Edo', 'Meiji', 'Taishō', 'Shōwa']:
+        for era in ['Kofun', 'Asuka', 'Nara', 'Heian', 'Kamakura', 'Nanbokuchō', 'Muromachi', 'Momoyama', 'Azuchi', 'Edo', 'Meiji', 'Taishō', 'Shōwa']:
             if era in p or era in jp(x.get('date') or ''): return era + '-period ' + PERNOUN[code]
         return 'Undated ' + PERNOUN[code]
     if code in CUSTOM:
@@ -152,6 +157,7 @@ def works_and_collections(code, label):
     seen, objs = set(), []
     for x in L:
         if x['url'] in seen or not x['url'] or EXB.search(x['title'] or ''): continue
+        if code in CERL and CERX.search(x['typ'] + ' ' + (x['title'] or '')): continue
         seen.add(x['url']); objs.append(x)
     if not objs: return [], [], None
     cnt = collections.Counter(inst_name(x['inst']) for x in objs)
@@ -261,7 +267,7 @@ def build():
         for k in kinds:
             if k[4] == 1 or k[1] is None:
                 if k[1] in (None, MAK) and al:
-                    k[1] = agmap.get(k[0]) or ADDC.get(k[0]) or (country(evs.get(k[0])) if evs.get(k[0]) else (MAK if k[1] == MAK else MAK))
+                    k[1] = agmap.get(k[0]) or ADDC.get(k[0]) or (country(evs.get(k[0]), k[0]) if evs.get(k[0]) else (MAK if k[1] == MAK else MAK))
                 elif k[1] is None:
                     k[1] = agmap.get(k[0], MAK)
         works, cols, rule = works_and_collections(code, label)
@@ -272,7 +278,7 @@ def build():
         kinds += works + cols
         # order groups
         named = [k[1] for k in kinds if k[1].startswith('Named') or k[1].startswith('Tenka') or k[1] in ('Imperial Easter eggs', 'Minbars', 'Champlevé reliquaries', 'Earthworks and sites')]
-        dsec = [a for a, _ in SECT] + ['Other objects'] + [a for a, _ in CUSTOM.get(code, ([], ''))[0]] + ([CUSTOM[code][1]] if code in CUSTOM else []) + [e + '-period ' + PERNOUN.get(code, '') for e in ['Asuka', 'Nara', 'Heian', 'Kamakura', 'Nanbokuchō', 'Muromachi', 'Momoyama', 'Azuchi', 'Edo', 'Meiji', 'Taishō', 'Shōwa']] + ['Undated ' + PERNOUN.get(code, '')]
+        dsec = [a for a, _ in SECT] + ['Other objects'] + [a for a, _ in CUSTOM.get(code, ([], ''))[0]] + ([CUSTOM[code][1]] if code in CUSTOM else []) + [e + '-period ' + PERNOUN.get(code, '') for e in ['Kofun', 'Asuka', 'Nara', 'Heian', 'Kamakura', 'Nanbokuchō', 'Muromachi', 'Momoyama', 'Azuchi', 'Edo', 'Meiji', 'Taishō', 'Shōwa']] + ['Undated ' + PERNOUN.get(code, '')]
         def gkey(g):
             if g == SUB: return (0, 0)
             if g == SCH: return (1, 0)
