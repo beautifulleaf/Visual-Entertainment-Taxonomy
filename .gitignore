@@ -7,3 +7,4 @@ taxonomy/r3/**/*.pkl
 taxonomy/r3/**/*.pickle
 taxonomy/r3/**/cache*
 taxonomy/r3/tspdt/raw/
+data/enwiki-all-titles-in-ns0.gz

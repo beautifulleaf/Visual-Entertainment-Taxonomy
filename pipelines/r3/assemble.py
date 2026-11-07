@@ -486,6 +486,37 @@ def build_ft(src, tree, partial, report):
     return M, find
 
 
+def fix_links(tree, report):
+    """Apply the offline Wikipedia check (taxonomy/r3/wiki_check.csv): known corrections from link_fixes.json;
+    other missing article links are dropped when the leaf has another source, else turned into a Wikipedia search
+    link. Category pages are not in the article-title list and are kept."""
+    import urllib.parse as up
+    chk = os.path.join(R3, "wiki_check.csv")
+    if not os.path.exists(chk): return
+    missing = {r["url"] for r in csv.DictReader(open(chk)) if r["status"] == "missing" and "/Category:" not in r["url"]}
+    fixes = json.load(open(os.path.join(R3, "link_fixes.json")))
+    st = collections.Counter()
+    for tab in ("va", "ft"):
+        for f in tree[tab]["fams"]:
+            for s in f["subs"]:
+                for l in s["leaves"]:
+                    for field in ("src", "catalogues"):
+                        lst = l.get(field) or []; out = []
+                        for x in lst:
+                            u = x[0]
+                            if u in missing:
+                                t = up.unquote(u.split("/wiki/", 1)[1])
+                                if t in fixes:
+                                    x = [u.split("/wiki/")[0] + "/wiki/" + fixes[t]] + list(x[1:]); st["corrected"] += 1
+                                elif field == "src" and len(lst) > 1:
+                                    st["dropped"] += 1; continue
+                                else:
+                                    x = ["https://en.wikipedia.org/w/index.php?search=" + up.quote(t.replace("_", " "))] + list(x[1:]); st["search"] += 1
+                            out.append(x)
+                        if lst: l[field] = out
+    report["links"] = dict(st)
+
+
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--src"); ap.add_argument("--out"); ap.add_argument("--partial", action="store_true")
     a = ap.parse_args()
@@ -501,6 +532,7 @@ def main():
     report = {}
     find_va = build_va(src, tree, MV, find_old, report)
     MF, find_ft = build_ft(src, tree, a.partial, report)
+    fix_links(tree, report)
     os.makedirs(out, exist_ok=True)
     for fn in glob.glob(os.path.join(out, "m-*.json")): os.remove(fn)
     byfam = collections.defaultdict(dict)
