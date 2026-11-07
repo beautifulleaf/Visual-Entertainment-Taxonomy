@@ -268,6 +268,37 @@ def remap_text(s, leafmap):
     return re.sub(r"\b[ABCDEG]\d{1,2}(?:-\d{1,3})?\b", sub, s)
 
 
+def apply_resize(subs, rows, report):
+    """Leaves over the 200-title ceiling after the Starting List: split into attested sub-leaves and/or re-sectioned
+    (taxonomy/r3/resize/out_<batch>.json)."""
+    leafobj = {l["code"]: (s, l) for s in subs.values() for l in s["leaves"]}
+    st = collections.Counter()
+    for f in sorted(glob.glob(os.path.join(R3, "resize", "out_*.json"))):
+        for code, o in json.load(open(f)).items():
+            if code not in leafobj: st["missing_leaf"] += 1; continue
+            sub, L = leafobj[code]
+            if o.get("label"): L["label"] = o["label"]
+            if o.get("defn"): L["defn"] = o["defn"]
+            L["secs"] = list(o.get("secs") or []); L["axis"] = o.get("axis", "")
+            key2 = {"self": code}; pos = sub["leaves"].index(L) + 1
+            for nl in o.get("new_leaves", []):
+                n = max(int(l["code"].split("-")[1]) for l in sub["leaves"]) + 1
+                nc = f"{sub['code']}-{n}"
+                NL = dict(code=nc, label=nl["label"], breadth=nl.get("breadth", "medium"), defn=nl["defn"], aliases=nl.get("aliases", ""),
+                          see=f"{code} {L['label']}", src=nl.get("src", []), weak="", secs=list(nl.get("secs") or []), axis=nl.get("axis", ""))
+                sub["leaves"].insert(pos, NL); pos += 1; key2[nl["key"]] = nc; leafobj[nc] = (sub, NL); st["new_leaves"] += 1
+            byid = {k[5]: k for k in rows.get(code, [])}
+            keep = []
+            for idv, k in byid.items():
+                a = o.get("assign", {}).get(idv)
+                if not a: keep.append(k); continue
+                tgt = key2.get(a[0], code); k[8] = str(a[1]) if a[1] else ""
+                if tgt == code: keep.append(k)
+                else: rows[tgt].append(k); st["moved_to_new"] += 1
+            rows[code] = keep; st["leaves"] += 1
+    report["resize"] = dict(st)
+
+
 def apply_startlist(subs, rows, report):
     """TSPDT Starting List films (owner: every one gets a home): rule placements (decided.csv) and pass
     placements (out_<batch>.csv, new_leaves_<batch>.json); 'out' rows become finder notes."""
@@ -460,6 +491,7 @@ def build_ft(src, tree, partial, report):
     report["ft_routed"] = len(routed); report["ft_web_override"] = len(web_extra)
     apply_coverage(subs, rows, cc, report)
     apply_startlist(subs, rows, report)
+    apply_resize(subs, rows, report)
     if web_extra:
         with open(os.path.join(R3, "web_series_removed.csv"), "a", newline="") as fo:
             w = csv.DictWriter(fo, fieldnames=["id", "title", "year", "who", "old_leaf", "reason"])
