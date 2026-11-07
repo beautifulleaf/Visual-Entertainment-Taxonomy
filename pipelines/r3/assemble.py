@@ -110,6 +110,23 @@ def build_va(src, tree, M, find_old, report):
         order = list(dict.fromkeys(r[1] for r in rows))
         if code in replaced or code in added: l["secs"] = order
         l["n"] = len(rows)
+    # owner, 2026-11-07: "Remove retired leaves". A leaf emptied by R3 (its kinds moved to other leaves
+    # or to N Design) is dropped from the page, not marked retired; the record is va_migration.csv.
+    gone = []
+    for f in tree["va"]["fams"]:
+        for s in f["subs"]:
+            keep = []
+            for l in s["leaves"]:
+                if (l["code"] in replaced and l["n"] == 0) or "retired" in l["label"].lower():
+                    gone.append([l["code"], l["label"]])
+                else:
+                    keep.append(l)
+            s["leaves"] = keep
+    report["va_leaves_removed"] = gone
+    with open(os.path.join(R3, "va_migration.csv"), "w", newline="") as fo:
+        w = csv.writer(fo); w.writerow(["code", "label", "status"])
+        for c, lab in gone: w.writerow([c, lab, "removed in R3 (emptied: kinds moved)"])
+        for c in added: w.writerow([c, leafobj[c][2]["label"], "new in R3"])
     for f in tree["va"]["fams"]:
         for s in f["subs"]:
             s["n"] = sum(l["n"] for l in s["leaves"])

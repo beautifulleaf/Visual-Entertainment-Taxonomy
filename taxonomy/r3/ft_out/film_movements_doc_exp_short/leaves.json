@@ -1,0 +1,1508 @@
+{
+ "subs": [
+  {
+   "code": "A1",
+   "label": "Movements & Schools",
+   "axis": "Axis: by named movement or school, in rough order of emergence; Slow Cinema, a transnational style, last.",
+   "leaves": [
+    {
+     "code": "A1-1",
+     "label": "German Expressionism",
+     "breadth": "medium",
+     "defn": "A film of the Weimar Expressionist movement: painted, distorted décor, chiaroscuro and stylised acting expressing inner states (<i>The Cabinet of Dr. Caligari</i>, <i>Nosferatu</i>, <i>Metropolis</i>). Later Expressionist-influenced genre films go to their genre (A4 Horror).",
+     "aliases": "Expressionismus",
+     "see": "A1-2 French Impressionist Cinema; A4 Horror",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/German_Expressionism",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-2",
+     "label": "French Impressionist Cinema",
+     "breadth": "narrow",
+     "defn": "A film of the 1919–1929 French avant-garde narrative school (Gance, Epstein, Dulac) using rhythmic montage and subjective optical effects to render feeling (<i>J'accuse!</i>, <i>Napoleon</i>, <i>The Fall of the House of Usher</i>).",
+     "aliases": "First Avant-Garde, Impressionnisme",
+     "see": "A1-1 German Expressionism; A21-15 Avant-Garde Short",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/French_Impressionist_Cinema",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-3",
+     "label": "Soviet Montage",
+     "breadth": "narrow",
+     "defn": "A Soviet silent film built on montage theory, meaning made by the collision of shots (<i>Battleship Potemkin</i>, <i>Strike</i>, <i>Earth</i>). Vertov's documentary <i>Man with a Movie Camera</i> sits in A19-3.",
+     "aliases": "Soviet montage school",
+     "see": "A19-3 City Symphony",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Soviet_montage_theory",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-4",
+     "label": "Poetic Realism",
+     "breadth": "narrow",
+     "defn": "A 1930s French film of fatalistic working-class romance in studio-built, mist-laden settings (<i>Port of Shadows</i>, <i>L'Atalante</i>, <i>Daybreak</i>).",
+     "aliases": "Réalisme poétique",
+     "see": "A1-5 Italian Neorealism; A2 Crime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Poetic_realism",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-5",
+     "label": "Italian Neorealism",
+     "breadth": "medium",
+     "defn": "A postwar Italian film shot on location with non-professional actors about poverty and reconstruction (<i>Bicycle Thieves</i>, <i>Rome, Open City</i>, <i>Umberto D.</i>).",
+     "aliases": "Neorealismo",
+     "see": "A1-6 Parallel Cinema; A16 Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Italian_neorealism",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-6",
+     "label": "Parallel Cinema",
+     "breadth": "medium",
+     "defn": "An Indian art-cinema film of the realist, non-commercial alternative to the mainstream, from Ray and Ghatak onward (<i>Pather Panchali</i>, <i>Charulata</i>, <i>The Cloud-Capped Star</i>). Popular Hindi cinema goes to A18.",
+     "aliases": "Indian New Wave, art cinema",
+     "see": "A1-5 Italian Neorealism; A18 Popular Cinema Modes",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Parallel_cinema",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-7",
+     "label": "Polish Film School",
+     "breadth": "narrow",
+     "defn": "A Polish film of 1955–1961 reckoning with war and resistance (<i>Ashes and Diamonds</i>, <i>Kanal</i>, <i>A Generation</i>).",
+     "aliases": "Polska Szkoła Filmowa",
+     "see": "A1-25 Cinema of Moral Anxiety; A9 War Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Polish_Film_School",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-8",
+     "label": "French New Wave",
+     "breadth": "medium",
+     "defn": "A film by the late-1950s/1960s Cahiers-generation directors breaking classical continuity: location shooting, jump cuts, cinephile reference (<i>The 400 Blows</i>, <i>Breathless</i>, <i>Jules and Jim</i>). The Resnais–Marker–Varda wing with literary modernist leanings goes to A1-9.",
+     "aliases": "Nouvelle Vague",
+     "see": "A1-9 Left Bank; A1-31 Cinéma du look",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/French_New_Wave",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by phase of the movement: forerunners and first features, high period, late and politicised films",
+     "secs": [
+      "Forerunners & First Features (1956–1959)",
+      "High Period (1960–1964)",
+      "Late & Politicised Films (1965–1968)"
+     ]
+    },
+    {
+     "code": "A1-9",
+     "label": "Left Bank",
+     "breadth": "narrow",
+     "defn": "A film of the Rive Gauche group (Resnais, Marker, Varda, Duras) joining literary modernism to fractured memory and time (<i>Hiroshima Mon Amour</i>, <i>Last Year at Marienbad</i>, <i>Muriel</i>).",
+     "aliases": "Rive Gauche",
+     "see": "A1-8 French New Wave; A19-4 Essay Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Left_Bank_(film)",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-10",
+     "label": "British New Wave",
+     "breadth": "narrow",
+     "defn": "A British film of c.1959–1970 adapting kitchen-sink realism to working-class lives in the industrial North (<i>Saturday Night and Sunday Morning</i>, <i>A Taste of Honey</i>, <i>Kes</i>).",
+     "aliases": "Kitchen sink realism, Free Cinema",
+     "see": "A16 Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/British_New_Wave",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Kitchen_sink_realism",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-11",
+     "label": "Japanese New Wave",
+     "breadth": "medium",
+     "defn": "A Japanese film of the 1960s–70s nūberu bāgu breaking with studio humanism through sex, politics and formal rupture (<i>Death by Hanging</i>, <i>Woman in the Dunes</i>, <i>The Insect Woman</i>).",
+     "aliases": "Nūberu bāgu",
+     "see": "A1-8 French New Wave; A20 Experimental & Avant-Garde",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Japanese_New_Wave",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-12",
+     "label": "Czechoslovak New Wave",
+     "breadth": "medium",
+     "defn": "A Czechoslovak film of 1963–1970 using absurdist humour, surreal fantasy or non-professional realism against official culture (<i>Daisies</i>, <i>Closely Watched Trains</i>, <i>The Firemen's Ball</i>).",
+     "aliases": "Československá nová vlna",
+     "see": "A1-13 Yugoslav Black Wave",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Czechoslovak_New_Wave",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-13",
+     "label": "Yugoslav Black Wave",
+     "breadth": "narrow",
+     "defn": "A Yugoslav film of the 1960s–early 1970s whose dark, sexually frank critique of socialist society drew censure (<i>WR: Mysteries of the Organism</i>, <i>I Even Met Happy Gypsies</i>, <i>Early Works</i>).",
+     "aliases": "Crni talas",
+     "see": "A1-12 Czechoslovak New Wave",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Yugoslav_Black_Wave",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-14",
+     "label": "Portuguese New Cinema",
+     "breadth": "narrow",
+     "defn": "A film of the 1960s Novo Cinema in Portugal, modernist breaks with the Estado Novo studio tradition (<i>The Green Years</i>, <i>Change of Life</i>).",
+     "aliases": "Novo Cinema",
+     "see": "A1-8 French New Wave",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Cinema_of_Portugal",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-15",
+     "label": "New German Cinema",
+     "breadth": "medium",
+     "defn": "A West German film of the 1960s–early 1980s auteur renewal after the Oberhausen Manifesto (<i>Aguirre, the Wrath of God</i>, <i>Fear Eats the Soul</i>, <i>Kings of the Road</i>).",
+     "aliases": "Neuer Deutscher Film",
+     "see": "A1-36 Berlin School",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/New_German_Cinema",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-16",
+     "label": "Cinema Novo",
+     "breadth": "narrow",
+     "defn": "A Brazilian film of the 1960s movement of \"an idea in the head and a camera in the hand\", poverty, violence and myth in the sertão (<i>Black God, White Devil</i>, <i>Barren Lives</i>, <i>Entranced Earth</i>).",
+     "aliases": "",
+     "see": "A1-17 Cinema Marginal; A1-18 Third Cinema",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Cinema_Novo",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-17",
+     "label": "Cinema Marginal",
+     "breadth": "narrow",
+     "defn": "A Brazilian underground film of the late 1960s, a trash-aesthetic, anarchic reply to Cinema Novo (<i>The Red Light Bandit</i>).",
+     "aliases": "Cinema de Boca do Lixo, udigrudi",
+     "see": "A1-16 Cinema Novo; A20-2 Underground Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Cinema_of_Brazil",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-18",
+     "label": "Third Cinema",
+     "breadth": "narrow",
+     "defn": "A militant anti-colonial film of the Latin American, African and Arab \"third cinema\" manifesto against Hollywood and auteur cinema (<i>The Battle of Algiers</i>, <i>Memories of Underdevelopment</i>, <i>Blood of the Condor</i>). Its militant documentaries sit in A19.",
+     "aliases": "Tercer Cine",
+     "see": "A1-16 Cinema Novo; A19-4 Essay Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Third_Cinema",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-19",
+     "label": "New American Cinema",
+     "breadth": "narrow",
+     "defn": "A New York independent film of the late-1950s/1960s New American Cinema Group, improvised and anti-Hollywood (<i>Shadows</i>, <i>The Cool World</i>). Its underground and diary films sit in A20-2 and A19-5.",
+     "aliases": "",
+     "see": "A20-2 Underground Film; A1-20 New Hollywood",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/New_American_Cinema",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-20",
+     "label": "New Hollywood",
+     "breadth": "broad",
+     "defn": "An American studio-era film of 1967–1980 made by the auteur generation that took over Hollywood, with downbeat endings, sex, violence and European influence (<i>Bonnie and Clyde</i>, <i>Taxi Driver</i>, <i>Nashville</i>, <i>Jaws</i>).",
+     "aliases": "American New Wave, Hollywood Renaissance",
+     "see": "A2 Crime; A1-19 New American Cinema",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/New_Hollywood",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the strand of the movement: counterculture, crime revision, paranoia and horror, character studies, Vietnam and late epics; the blockbuster turn last",
+     "secs": [
+      "Counterculture & Youth Films",
+      "Revisionist Crime & Gangster Films",
+      "Paranoia, Horror & Suspense",
+      "Character Studies & Ensemble Films",
+      "Vietnam & Late Epics",
+      "The Blockbuster Turn"
+     ]
+    },
+    {
+     "code": "A1-21",
+     "label": "L.A. Rebellion",
+     "breadth": "narrow",
+     "defn": "A film by the Black filmmakers of UCLA's 1967–1990s L.A. School, neorealist and Third Cinema-informed (<i>Killer of Sheep</i>, <i>Daughters of the Dust</i>, <i>Bush Mama</i>).",
+     "aliases": "L.A. School of Black Filmmakers",
+     "see": "A1-18 Third Cinema",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/L.A._Rebellion",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-22",
+     "label": "No Wave Cinema",
+     "breadth": "narrow",
+     "defn": "A late-1970s/1980s Lower East Side underground film, punk, Super 8 or 16mm, deadpan (<i>Stranger Than Paradise</i>, <i>Permanent Vacation</i>, <i>Born in Flames</i>).",
+     "aliases": "No Wave",
+     "see": "A20-2 Underground Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/No_wave_cinema",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-23",
+     "label": "Australian New Wave",
+     "breadth": "narrow",
+     "defn": "An Australian film of the 1970s–early 1980s revival, landscape-haunted and period-set (<i>Picnic at Hanging Rock</i>, <i>Wake in Fright</i>, <i>Breaker Morant</i>).",
+     "aliases": "Australian film revival, Ozploitation (popular wing)",
+     "see": "A8 Historical & Period Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Australian_New_Wave",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-24",
+     "label": "Second Golden Age of Philippine Cinema",
+     "breadth": "narrow",
+     "defn": "A Filipino film of the 1970s–early 1980s auteur renaissance under martial law (<i>Manila in the Claws of Light</i>, <i>Insiang</i>, <i>Oro, Plata, Mata</i>).",
+     "aliases": "",
+     "see": "A1-39 Slow Cinema",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Cinema_of_the_Philippines",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-25",
+     "label": "Cinema of Moral Anxiety",
+     "breadth": "narrow",
+     "defn": "A Polish film of 1976–1981 probing compromise and corruption in socialist life (<i>Camera Buff</i>, <i>Man of Iron</i>, <i>Blind Chance</i>).",
+     "aliases": "Kino moralnego niepokoju",
+     "see": "A1-7 Polish Film School",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Cinema_of_moral_anxiety",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-26",
+     "label": "Iranian New Wave",
+     "breadth": "medium",
+     "defn": "An Iranian art film from the late 1960s onward, often child-centred, reflexive and near-documentary (<i>Close-Up</i>, <i>Taste of Cherry</i>, <i>The White Balloon</i>, <i>A Separation</i>).",
+     "aliases": "Moj-e No",
+     "see": "A1-39 Slow Cinema; A19-7 Docufiction",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Iranian_New_Wave",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-27",
+     "label": "Taiwan New Cinema",
+     "breadth": "narrow",
+     "defn": "A Taiwanese film of the 1980s–90s movement of long takes and historical memory (<i>A City of Sadness</i>, <i>Yi Yi</i>, <i>A Brighter Summer Day</i>).",
+     "aliases": "Taiwan New Wave",
+     "see": "A1-39 Slow Cinema; A1-28 Hong Kong New Wave",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Taiwan_New_Cinema",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-28",
+     "label": "Hong Kong New Wave",
+     "breadth": "narrow",
+     "defn": "A Hong Kong film of the late-1970s/1980s new wave and its second wave (<i>Boat People</i>, <i>Rouge</i>, <i>Chungking Express</i>).",
+     "aliases": "",
+     "see": "A1-27 Taiwan New Cinema",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Hong_Kong_New_Wave",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-29",
+     "label": "Fifth Generation",
+     "breadth": "narrow",
+     "defn": "A mainland Chinese film by the 1982 Beijing Film Academy graduates, allegorical and visually lavish (<i>Yellow Earth</i>, <i>Red Sorghum</i>, <i>Farewell My Concubine</i>).",
+     "aliases": "Fifth Generation filmmakers",
+     "see": "A1-30 Sixth Generation",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Cinema_of_China",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-30",
+     "label": "Sixth Generation",
+     "breadth": "narrow",
+     "defn": "A mainland Chinese film of the 1990s–2000s urban, semi-underground generation (<i>Platform</i>, <i>Suzhou River</i>, <i>Still Life</i>).",
+     "aliases": "Urban Generation",
+     "see": "A1-29 Fifth Generation; A1-39 Slow Cinema",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Cinema_of_China",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-31",
+     "label": "Cinéma du look",
+     "breadth": "narrow",
+     "defn": "A 1980s French film of glossy, youth-oriented, music-video visual style (<i>Diva</i>, <i>Subway</i>, <i>Betty Blue</i>).",
+     "aliases": "",
+     "see": "A1-8 French New Wave",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Cinéma_du_look",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-32",
+     "label": "New Queer Cinema",
+     "breadth": "narrow",
+     "defn": "An early-1990s independent queer film, defiant and formally transgressive in the AIDS era (<i>Poison</i>, <i>My Own Private Idaho</i>, <i>The Living End</i>).",
+     "aliases": "",
+     "see": "A19-4 Essay Film; A13 Romance",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/New_Queer_Cinema",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-33",
+     "label": "New Argentine Cinema",
+     "breadth": "narrow",
+     "defn": "An Argentine film of the 1990s–2000s renewal, minimalist and observational (<i>The Swamp</i>, <i>Pizza, Beer, and Cigarettes</i>, <i>Los Muertos</i>).",
+     "aliases": "Nuevo Cine Argentino",
+     "see": "A1-39 Slow Cinema",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/New_Argentine_Cinema",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-34",
+     "label": "Dogme 95",
+     "breadth": "narrow",
+     "defn": "A film certified under the Dogme 95 \"vow of chastity\": handheld, location sound, no added lighting or score (<i>The Celebration</i>, <i>The Idiots</i>, <i>Julien Donkey-Boy</i>).",
+     "aliases": "Dogme",
+     "see": "A1-35 Mumblecore",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Dogme_95",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-35",
+     "label": "Mumblecore",
+     "breadth": "narrow",
+     "defn": "A 2000s–2010s American micro-budget film of improvised talk among twenty-somethings (<i>Funny Ha Ha</i>, <i>Drinking Buddies</i>, <i>Tiny Furniture</i>).",
+     "aliases": "Bedhead cinema",
+     "see": "A1-34 Dogme 95; A12 Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Mumblecore",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-36",
+     "label": "Berlin School",
+     "breadth": "narrow",
+     "defn": "A German art film of the 1990s–2010s Berliner Schule, restrained and observational (<i>Yella</i>, <i>Everyone Else</i>, <i>Toni Erdmann</i>).",
+     "aliases": "Berliner Schule",
+     "see": "A1-15 New German Cinema",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Berlin_School_(filmmaking)",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-37",
+     "label": "Romanian New Wave",
+     "breadth": "narrow",
+     "defn": "A Romanian film of the 2000s onward, long-take realist dramas of post-communist bureaucracy and morality (<i>The Death of Mr. Lazarescu</i>, <i>4 Months, 3 Weeks and 2 Days</i>, <i>Police, Adjective</i>).",
+     "aliases": "Noul val românesc",
+     "see": "A1-39 Slow Cinema",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Romanian_New_Wave",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-38",
+     "label": "Greek Weird Wave",
+     "breadth": "narrow",
+     "defn": "A Greek film of the 2009–2010s crisis-era wave of deadpan, absurdist family and social allegory (<i>Dogtooth</i>, <i>Attenberg</i>, <i>Alps</i>).",
+     "aliases": "",
+     "see": "A1-37 Romanian New Wave",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Greek_Weird_Wave",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A1-39",
+     "label": "Slow Cinema",
+     "breadth": "broad",
+     "defn": "A narrative art film whose defining device is duration: very long takes, minimal action, contemplative observation (<i>Jeanne Dielman</i>, <i>Sátántangó</i>, <i>Stalker</i>, <i>Uncle Boonmee</i>). National movements with a slow strand (Taiwan New Cinema, Romanian New Wave) keep their own leaf.",
+     "aliases": "Contemplative cinema, cinema of slowness",
+     "see": "A1-27 Taiwan New Cinema; A20-3 Structural Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Slow_cinema",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by lineage and region: European modernist precursors first, then later European, Asian, Turkish and Ibero-American practitioners",
+     "secs": [
+      "European Modernist Precursors",
+      "Later European Slow Cinema",
+      "Taiwanese & Southeast Asian Slow Cinema",
+      "Turkish Slow Cinema",
+      "Iberian & Latin American Slow Cinema"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "A19",
+   "label": "Documentary",
+   "axis": "Axis: by documentary mode first (observational, ethnographic, poetic, essay, personal, archival, hybrid, propaganda), then by subject (politics, investigation, crime, war, history, people, art, cinema, music, sport, travel, nature); mondo last.",
+   "leaves": [
+    {
+     "code": "A19-1",
+     "label": "Direct Cinema & Cinéma Vérité",
+     "breadth": "broad",
+     "defn": "A documentary made by observing events as they happen, with lightweight sync-sound cameras, no narration and minimal intervention (<i>Primary</i>, <i>Titicut Follies</i>, <i>Salesman</i>, <i>Grey Gardens</i>). A first-person or reflexive film goes to A19-5; a film staging or re-enacting goes to A19-7.",
+     "aliases": "observational documentary, fly-on-the-wall",
+     "see": "A19-2 Ethnographic Film; A19-7 Docufiction",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Direct_cinema",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Cinéma_vérité",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Observational_documentary",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by what the camera watches: institutions, campaigns and public life, families and private lives, work, then communities and places",
+     "secs": [
+      "Institutions",
+      "Campaigns & Public Life",
+      "Families & Private Lives",
+      "Work & Labour",
+      "Communities & Places"
+     ]
+    },
+    {
+     "code": "A19-2",
+     "label": "Ethnographic Film",
+     "breadth": "medium",
+     "defn": "A documentary that records and interprets a culture or way of life, from Flaherty to sensory ethnography (<i>Nanook of the North</i>, <i>Dead Birds</i>, <i>Leviathan</i>, <i>Manakamana</i>).",
+     "aliases": "visual anthropology, sensory ethnography",
+     "see": "A19-1 Direct Cinema & Cinéma Vérité; A19-7 Docufiction",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Ethnographic_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Visual_anthropology",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A19-3",
+     "label": "City Symphony",
+     "breadth": "narrow",
+     "defn": "A feature-length silent-era documentary portraying a city's day as a rhythmic montage (<i>Berlin: Symphony of a Metropolis</i>, <i>Man with a Movie Camera</i>). City-symphony shorts sit in A21-12.",
+     "aliases": "city film",
+     "see": "A21-12 Documentary Short; A20-5 Non-Narrative Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/City_symphony",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A19-4",
+     "label": "Essay Film",
+     "breadth": "broad",
+     "defn": "A documentary that argues or meditates in a personal voice, usually through first-person narration over assembled images (<i>Sans Soleil</i>, <i>F for Fake</i>, <i>The Gleaners & I</i>, <i>I Am Not Your Negro</i>). When the subject is the filmmaker's own life the film goes to A19-5.",
+     "aliases": "film essay, cinematic essay",
+     "see": "A19-5 Diary Film; A19-6 Compilation Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Essay_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Film_essay",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the essay's object: images and cinema, history and politics, place, then identity and the body",
+     "secs": [
+      "Essays on Images & Cinema",
+      "History, Politics & Society",
+      "Place & Travel",
+      "Identity & the Body"
+     ]
+    },
+    {
+     "code": "A19-5",
+     "label": "Diary Film",
+     "breadth": "medium",
+     "defn": "A first-person documentary whose subject is the filmmaker's own life and family, often diaristic or home-movie based (<i>Reminiscences of a Journey to Lithuania</i>, <i>Sherman's March</i>, <i>Tarnation</i>, <i>Stories We Tell</i>).",
+     "aliases": "personal documentary, autobiographical documentary, first-person documentary",
+     "see": "A19-4 Essay Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Jonas_Mekas",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Essay_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A19-6",
+     "label": "Compilation Film",
+     "breadth": "medium",
+     "defn": "A documentary built mainly from pre-existing archival footage, edited without new interviews (<i>The Atomic Cafe</i>, <i>Apollo 11</i>, <i>They Shall Not Grow Old</i>, <i>State Funeral</i>). Artist appropriation of footage goes to A20-4.",
+     "aliases": "archival documentary, found-footage documentary",
+     "see": "A20-4 Found-Footage Film; A19-13 Historical Documentary",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Compilation_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A19-7",
+     "label": "Docufiction",
+     "breadth": "medium",
+     "defn": "A film that blends documentary and fiction: staged or re-enacted scenes with real people, or fiction shot as documentary (<i>Louisiana Story</i>, <i>Caesar Must Die</i>, <i>Four Daughters</i>, <i>The Arbor</i>). Includes mockumentary features.",
+     "aliases": "docudrama, hybrid documentary, ethnofiction, mockumentary",
+     "see": "A19-1 Direct Cinema & Cinéma Vérité; A19-2 Ethnographic Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Docufiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Mockumentary",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A19-8",
+     "label": "Propaganda Film",
+     "breadth": "narrow",
+     "defn": "A documentary made by or for a state or cause to persuade a mass audience (<i>Triumph of the Will</i>, <i>Why We Fight</i>, <i>The Negro Soldier</i>). Wartime sponsored shorts go to A21-14.",
+     "aliases": "",
+     "see": "A21-14 Sponsored Film; A19-12 War Documentary",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Propaganda_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A19-9",
+     "label": "Political Documentary",
+     "breadth": "broad",
+     "defn": "A documentary that takes a side on a public issue or follows a political movement, campaign or politician (<i>Roger &amp; Me</i>, <i>Harlan County U.S.A.</i>, <i>An Inconvenient Truth</i>, <i>13th</i>). Exposés of hidden wrongdoing go to A19-10.",
+     "aliases": "advocacy documentary, activist documentary, social-issue documentary",
+     "see": "A19-10 Investigative Documentary; A19-8 Propaganda Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Political_cinema",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Environmental_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the cause: first-person polemic, environment and food, labour, civil rights, gender and LGBTQ movements, then elections, politicians and protest",
+     "secs": [
+      "Polemic & First-Person Advocacy",
+      "Environment, Food & Animals",
+      "Labour & Class",
+      "Civil Rights, Race & Disability",
+      "Women's & LGBTQ Movements",
+      "Elections, Politicians & Protest"
+     ]
+    },
+    {
+     "code": "A19-10",
+     "label": "Investigative Documentary",
+     "breadth": "broad",
+     "defn": "A documentary that uncovers concealed wrongdoing through journalistic investigation (<i>Inside Job</i>, <i>Citizenfour</i>, <i>Going Clear</i>, <i>Collective</i>). A criminal case goes to A19-11.",
+     "aliases": "exposé",
+     "see": "A19-11 True Crime Documentary; A19-9 Political Documentary",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Investigative_journalism",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the target of the investigation: corporations, the state, cults and belief, disasters, then media and technology",
+     "secs": [
+      "Corporate & Financial Wrongdoing",
+      "State Power & Corruption",
+      "Cults, Religion & Belief",
+      "Disasters & Accidents",
+      "Media, Technology & the Internet"
+     ]
+    },
+    {
+     "code": "A19-11",
+     "label": "True Crime Documentary",
+     "breadth": "broad",
+     "defn": "A documentary reconstructing a specific crime, its investigation or trial (<i>The Thin Blue Line</i>, <i>Paradise Lost</i>, <i>Capturing the Friedmans</i>, <i>The Tinder Swindler</i>).",
+     "aliases": "true-crime film",
+     "see": "A19-10 Investigative Documentary; A2 Crime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/True_crime",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the kind of case: murder and violent crime, trials and wrongful convictions, fraud and hoaxes, then abuse and exploitation",
+     "secs": [
+      "Murder & Violent Crime",
+      "Trials & Wrongful Convictions",
+      "Fraud, Scams & Hoaxes",
+      "Abuse, Cults & Exploitation"
+     ]
+    },
+    {
+     "code": "A19-12",
+     "label": "War Documentary",
+     "breadth": "medium",
+     "defn": "A documentary filmed in or about a war or armed conflict, often from the front line (<i>Restrepo</i>, <i>For Sama</i>, <i>20 Days in Mariupol</i>, <i>Hearts and Minds</i>). Archival war compilations go to A19-6; wartime state films to A19-8.",
+     "aliases": "combat documentary, conflict documentary",
+     "see": "A19-8 Propaganda Film; A9 War Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/War_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Documentary_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A19-13",
+     "label": "Historical Documentary",
+     "breadth": "medium",
+     "defn": "A documentary reconstructing a past event or period through testimony and research (<i>Shoah</i>, <i>The Act of Killing</i>, <i>Freedom Riders</i>, <i>The Fog of War</i>).",
+     "aliases": "history documentary, Holocaust documentary",
+     "see": "A19-6 Compilation Film; A19-12 War Documentary",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Holocaust_in_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Documentary_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A19-14",
+     "label": "Biographical Documentary",
+     "breadth": "broad",
+     "defn": "A documentary portrait of one person, or of a small group or subculture, other than a musician, artist, filmmaker or athlete (<i>Won't You Be My Neighbor?</i>, <i>RBG</i>, <i>Gates of Heaven</i>, <i>Paris Is Burning</i>).",
+     "aliases": "portrait documentary, celebrity documentary",
+     "see": "A19-15 Art Documentary; A19-17 Rockumentary; A11 Biographical Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Biographical_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Documentary_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the subject: entertainers, public figures and thinkers, ordinary lives and eccentrics, then subcultures",
+     "secs": [
+      "Entertainers & Celebrities",
+      "Public Figures, Writers & Thinkers",
+      "Ordinary Lives & Eccentrics",
+      "Subcultures & Communities"
+     ]
+    },
+    {
+     "code": "A19-15",
+     "label": "Art Documentary",
+     "breadth": "medium",
+     "defn": "A documentary about a visual artist, designer, architect, dancer or fashion house and their work (<i>Crumb</i>, <i>Pina</i>, <i>Finding Vivian Maier</i>, <i>Exit Through the Gift Shop</i>).",
+     "aliases": "artist documentary, film on art",
+     "see": "A19-14 Biographical Documentary; A19-16 Making-of &amp; Film History Documentary",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Documentary_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Art_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A19-16",
+     "label": "Making-of & Film History Documentary",
+     "breadth": "medium",
+     "defn": "A documentary about cinema or television itself: the making of a production, a filmmaker or actor portrait, or a history of films (<i>Hearts of Darkness</i>, <i>Burden of Dreams</i>, <i>Jodorowsky's Dune</i>, <i>The Celluloid Closet</i>).",
+     "aliases": "behind-the-scenes documentary, documentary about filmmaking",
+     "see": "A19-4 Essay Film; A19-15 Art Documentary",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Making-of",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Behind-the-scenes",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by focus: one production, one filmmaker or actor, then film history and criticism",
+     "secs": [
+      "Making-of & Behind-the-Scenes",
+      "Filmmaker & Actor Portraits",
+      "Film History & Criticism"
+     ]
+    },
+    {
+     "code": "A19-17",
+     "label": "Rockumentary",
+     "breadth": "broad",
+     "defn": "A documentary about musicians or music, built on interviews, archive and backstage footage rather than a complete performance (<i>Dont Look Back</i>, <i>Amy</i>, <i>Searching for Sugar Man</i>, <i>Buena Vista Social Club</i>). A film of a performance goes to A19-18.",
+     "aliases": "music documentary",
+     "see": "A19-18 Concert Film; A14 Musical &amp; Dance Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Rockumentary",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by subject: an artist's life, a star's self-portrait or tour, a band or recording, then scenes and roots music",
+     "secs": [
+      "Musician Portraits",
+      "Star Self-Portraits & Tour Documentaries",
+      "Bands & Recording Sessions",
+      "Scenes, Genres & Roots Music"
+     ]
+    },
+    {
+     "code": "A19-18",
+     "label": "Concert Film",
+     "breadth": "medium",
+     "defn": "A film whose substance is a recorded live performance, concert, tour show or festival (<i>Monterey Pop</i>, <i>The Last Waltz</i>, <i>Stop Making Sense</i>, <i>Taylor Swift: The Eras Tour</i>).",
+     "aliases": "concert movie, performance film",
+     "see": "A19-17 Rockumentary; B16 Live Event &amp; Sports Television",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Concert_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the performance: festivals, rock and soul concerts, pop arena tours, then stage and studio performances",
+     "secs": [
+      "Festival Films",
+      "Rock, Soul & Jazz Concerts",
+      "Pop Arena & K-Pop Tour Films",
+      "Stage & Studio Performances"
+     ]
+    },
+    {
+     "code": "A19-19",
+     "label": "Sports Documentary",
+     "breadth": "medium",
+     "defn": "A documentary about an athlete, team, match or competition (<i>When We Were Kings</i>, <i>Senna</i>, <i>Hoop Dreams</i>, <i>The King of Kong</i>). Official Olympic films go to A19-20.",
+     "aliases": "sport documentary",
+     "see": "A19-20 Olympic Film; A19-22 Mountaineering Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Sports_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A19-20",
+     "label": "Olympic Film",
+     "breadth": "narrow",
+     "defn": "An official or authorised feature film of an Olympic Games (<i>Olympia</i>, <i>Tokyo Olympiad</i>, <i>Visions of Eight</i>, <i>16 Days of Glory</i>).",
+     "aliases": "official Olympic film",
+     "see": "A19-19 Sports Documentary",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Olympia_(1938_film)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Tokyo_Olympiad",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Bud_Greenspan",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by era of the Olympic film: interwar, postwar national and auteur films, then the Greenspan and later era",
+     "secs": [
+      "Interwar Olympic Films",
+      "Postwar & Auteur Olympic Films (1948–1984)",
+      "Later Olympic Films (1985–)"
+     ]
+    },
+    {
+     "code": "A19-21",
+     "label": "Travelogue Film",
+     "breadth": "narrow",
+     "defn": "A documentary organised as a journey through places, recording what the traveller sees (<i>This Is Cinerama</i>, <i>Calcutta</i>, <i>¡Vivan las antípodas!</i>).",
+     "aliases": "travel documentary, road documentary",
+     "see": "A19-22 Mountaineering Film; A19-4 Essay Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Travelogue_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Travel_documentary",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A19-22",
+     "label": "Mountaineering & Expedition Film",
+     "breadth": "medium",
+     "defn": "A documentary of an expedition or feat of endurance in mountains, ice, ocean or wilderness (<i>Kon-Tiki</i>, <i>Touching the Void</i>, <i>Free Solo</i>, <i>The Rescue</i>).",
+     "aliases": "mountain film, adventure documentary, expedition film",
+     "see": "A19-21 Travelogue Film; A19-19 Sports Documentary",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Mountaineering_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Adventure_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A19-23",
+     "label": "Nature Documentary",
+     "breadth": "medium",
+     "defn": "A documentary about animals, plants or the natural world (<i>The Silent World</i>, <i>March of the Penguins</i>, <i>Microcosmos</i>, <i>My Octopus Teacher</i>).",
+     "aliases": "wildlife film, natural history film",
+     "see": "A19-9 Political Documentary; A21-13 Scientific Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Nature_documentary",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Wildlife_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A19-24",
+     "label": "Mondo Film",
+     "breadth": "narrow",
+     "defn": "A shock documentary of real or staged death, cruelty and taboo customs (<i>Faces of Death</i>, <i>Orozco the Embalmer</i>).",
+     "aliases": "shockumentary",
+     "see": "A19-7 Docufiction; A4 Horror",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Mondo_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Shockumentary",
+       "Wikipedia"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "code": "A20",
+   "label": "Experimental & Avant-Garde",
+   "axis": "Axis: by avant-garde strategy for feature-length work: dream logic, underground, system, appropriation, tone poem, altered state, then avant-garde narrative.",
+   "leaves": [
+    {
+     "code": "A20-1",
+     "label": "Surrealist Film",
+     "breadth": "medium",
+     "defn": "A film built on Surrealist dream logic, irrational juxtaposition and the disruption of bourgeois order (<i>L'Age d'Or</i>, <i>The Exterminating Angel</i>, <i>The Holy Mountain</i>, <i>Eraserhead</i>). Surrealist shorts sit in A21-15.",
+     "aliases": "",
+     "see": "A21-15 Avant-Garde Short; A20-6 Psychedelic Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Surrealism",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Avant-garde_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A20-2",
+     "label": "Underground Film",
+     "breadth": "medium",
+     "defn": "A low-budget, self-distributed avant-garde feature made outside the industry, often transgressive or camp (<i>Flaming Creatures</i>, <i>Chelsea Girls</i>, <i>Pink Narcissus</i>, <i>Trash Humpers</i>).",
+     "aliases": "",
+     "see": "A1-19 New American Cinema; A1-22 No Wave Cinema",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Underground_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A20-3",
+     "label": "Structural Film",
+     "breadth": "narrow",
+     "defn": "An experimental film whose shape is a predetermined system: fixed camera, duration, repetition or rule (<i>Wavelength</i>, <i>Zorns Lemma</i>, <i>Empire</i>, <i>13 Lakes</i>).",
+     "aliases": "structural/materialist film",
+     "see": "A1-39 Slow Cinema; A21-15 Avant-Garde Short",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Structural_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A20-4",
+     "label": "Found-Footage Film",
+     "breadth": "narrow",
+     "defn": "An experimental feature made by re-editing appropriated film material (<i>Decasia</i>, <i>Star Spangled to Death</i>, <i>The Clock</i>). Archival documentary goes to A19-6.",
+     "aliases": "collage film, appropriation film",
+     "see": "A19-6 Compilation Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Found_footage_(appropriation)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Collage_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A20-5",
+     "label": "Non-Narrative Film",
+     "breadth": "narrow",
+     "defn": "A feature without plot or characters, built as an audiovisual tone poem of images and music (<i>Koyaanisqatsi</i>, <i>Baraka</i>, <i>Samsara</i>).",
+     "aliases": "tone poem, poetic documentary",
+     "see": "A19-3 City Symphony; A19-23 Nature Documentary",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Non-narrative_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A20-6",
+     "label": "Psychedelic Film",
+     "breadth": "narrow",
+     "defn": "An experimental feature that simulates altered states through strobing colour, sound and disorientation (<i>Head</i>, <i>Enter the Void</i>, <i>Lux Æterna</i>).",
+     "aliases": "trip film",
+     "see": "A20-1 Surrealist Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Psychedelic_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A20-7",
+     "label": "Art Film",
+     "breadth": "broad",
+     "defn": "A narrative feature whose avant-garde form (tableau, recitation, fragmentation, anti-illusion) is its defining element (<i>The Color of Pomegranates</i>, <i>India Song</i>, <i>Russian Ark</i>, <i>Holy Motors</i>). Duration-based art films go to A1-39 Slow Cinema.",
+     "aliases": "avant-garde narrative, art cinema",
+     "see": "A1-39 Slow Cinema; A16 Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Art_film",
+       "Wikipedia"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "code": "A21",
+   "label": "Short Film",
+   "axis": "Axis: by short-film mode: early cinema forms first, then fiction shorts by genre, then nonfiction shorts by purpose, avant-garde shorts last.",
+   "leaves": [
+    {
+     "code": "A21-1",
+     "label": "Actuality Film",
+     "breadth": "medium",
+     "defn": "A pre-1910 single-shot or few-shot nonfiction film recording a real scene (<i>Workers Leaving the Factory</i>, <i>The Arrival of a Train</i>, <i>Roundhay Garden Scene</i>).",
+     "aliases": "actualité, actuality",
+     "see": "A21-2 Newsreel; A21-3 Trick Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Actuality_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A21-2",
+     "label": "Newsreel",
+     "breadth": "narrow",
+     "defn": "A short topical news film for theatrical release (<i>Hindenburg Disaster Newsreel Footage</i>, <i>Tacoma Narrows Bridge Collapse</i>, <i>Faces of November</i>).",
+     "aliases": "",
+     "see": "A21-1 Actuality Film; A21-12 Documentary Short",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Newsreel",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A21-3",
+     "label": "Trick Film",
+     "breadth": "narrow",
+     "defn": "An early short built on camera tricks (stop substitution, multiple exposure) for magical effect (<i>A Trip to the Moon</i>, <i>The India Rubber Head</i>, <i>Dream of a Rarebit Fiend</i>).",
+     "aliases": "féerie",
+     "see": "A21-1 Actuality Film; A6 Fantasy &amp; Adventure",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Trick_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A21-4",
+     "label": "One-Reeler",
+     "breadth": "medium",
+     "defn": "A silent narrative short of one reel or less, the story film of the nickelodeon era (<i>The Great Train Robbery</i>, <i>A Corner in Wheat</i>, <i>The Musketeers of Pig Alley</i>). Silent comedy shorts go to A21-5.",
+     "aliases": "one-reel film",
+     "see": "A21-5 Slapstick Short",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/One-reeler",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A21-5",
+     "label": "Slapstick Short",
+     "breadth": "medium",
+     "defn": "A silent or early-sound comedy short of physical gags, typically a one- or two-reeler (<i>The Immigrant</i>, <i>One Week</i>, <i>The Music Box</i>).",
+     "aliases": "two-reeler, silent comedy short",
+     "see": "A21-8 Comedy Short Film; A12 Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Slapstick",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Two-reeler",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Silent_comedy",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A21-6",
+     "label": "Musical Short",
+     "breadth": "narrow",
+     "defn": "A short whose substance is a song or musical number: early sound musical shorts, soundies and long-form music videos (<i>Black and Tan</i>, <i>Jammin' the Blues</i>, <i>Runaway</i>, <i>Anima</i>).",
+     "aliases": "soundie, long-form music video",
+     "see": "A19-18 Concert Film; A14 Musical &amp; Dance Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Soundie",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Music_video",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A21-7",
+     "label": "Drama Short Film",
+     "breadth": "broad",
+     "defn": "A live-action fiction short whose engine is drama rather than comedy or genre (<i>The Lunch Date</i>, <i>Wasp</i>, <i>The Present</i>, <i>The Wonderful Story of Henry Sugar</i>).",
+     "aliases": "short drama",
+     "see": "A21-8 Comedy Short Film; A16 Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Short_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Social_realism",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Coming-of-age_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the dramatic engine: social realism, childhood, relationships, art-house and literary, crime, then war",
+     "secs": [
+      "Social Realist Shorts",
+      "Childhood & Coming of Age",
+      "Relationships & Family",
+      "Art-House & Literary Shorts",
+      "Crime & Thriller Shorts",
+      "War Shorts"
+     ]
+    },
+    {
+     "code": "A21-8",
+     "label": "Comedy Short Film",
+     "breadth": "medium",
+     "defn": "A sound-era live-action comedy short (<i>Bottle Rocket</i>, <i>Six Shooter</i>, <i>Coffee and Cigarettes</i>, <i>An Irish Goodbye</i>). Silent and early-sound slapstick goes to A21-5.",
+     "aliases": "",
+     "see": "A21-5 Slapstick Short; A12 Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Short_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Comedy_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A21-9",
+     "label": "Horror Short Film",
+     "breadth": "medium",
+     "defn": "A live-action horror short (<i>Lights Out</i>, <i>Saw</i>, <i>Tarantella</i>, <i>Frankenweenie</i>).",
+     "aliases": "",
+     "see": "A4 Horror; A21-10 Science Fiction &amp; Fantasy Short Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Short_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Horror_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A21-10",
+     "label": "Science Fiction & Fantasy Short Film",
+     "breadth": "medium",
+     "defn": "A live-action science-fiction or fantasy short (<i>La Jetée</i>, <i>The Red Balloon</i>, <i>Electronic Labyrinth THX 1138 4EB</i>, <i>Rakka</i>).",
+     "aliases": "",
+     "see": "A5 Science Fiction; A6 Fantasy &amp; Adventure",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Short_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Science_fiction_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Fantasy_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A21-11",
+     "label": "Tie-In Short Film",
+     "breadth": "medium",
+     "defn": "A short made to extend or promote an existing property or brand: studio one-shots, fan films, fake trailers, commissioned branded shorts (<i>Marvel One-Shot: Agent Carter</i>, <i>Team Thor</i>, <i>Power Rangers</i>, <i>Castello Cavalcanti</i>).",
+     "aliases": "one-shot, fan film, branded short",
+     "see": "A21-8 Comedy Short Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Tie-in",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Marvel_One-Shots",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Fan_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Branded_entertainment",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by who made it and why: studio tie-ins, unofficial fan films, then commissioned branded shorts",
+     "secs": [
+      "Studio Tie-Ins & One-Shots",
+      "Fan Films",
+      "Branded & Commissioned Shorts"
+     ]
+    },
+    {
+     "code": "A21-12",
+     "label": "Documentary Short",
+     "breadth": "broad",
+     "defn": "A nonfiction short of the sound era not made as sponsored or scientific film (<i>Night and Fog</i>, <i>Land Without Bread</i>, <i>The House Is Black</i>, <i>Period. End of Sentence.</i>).",
+     "aliases": "short documentary",
+     "see": "A19 Documentary; A21-14 Sponsored Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Documentary_short",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by mode and subject: portraits, political and activist films, city symphonies and poetic shorts, essays and memory, music, then sport",
+     "secs": [
+      "Portrait & Social Shorts",
+      "Political & Activist Shorts",
+      "City Symphonies & Poetic Shorts",
+      "Essay & Memory Shorts",
+      "Music & Performance Shorts",
+      "Sport Shorts"
+     ]
+    },
+    {
+     "code": "A21-13",
+     "label": "Scientific Film",
+     "breadth": "narrow",
+     "defn": "A short that films natural or laboratory phenomena for science, often through microcinematography (<i>The Sea Horse</i>, <i>The Vampire</i>, <i>The Love Life of the Octopus</i>).",
+     "aliases": "science film",
+     "see": "A19-23 Nature Documentary; A21-14 Sponsored Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Jean_Painlevé",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A21-14",
+     "label": "Sponsored Film",
+     "breadth": "medium",
+     "defn": "A short commissioned by a government, company or institution to inform, instruct or promote (<i>The Plow That Broke the Plains</i>, <i>Listen to Britain</i>, <i>Duck and Cover</i>, <i>Glass</i>).",
+     "aliases": "industrial film, educational film, government film",
+     "see": "A19-8 Propaganda Film; A21-12 Documentary Short",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Sponsored_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Industrial_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Educational_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by sponsor: governments and wartime ministries, industry, then educational bodies",
+     "secs": [
+      "Government & Wartime Films",
+      "Industrial & Corporate Films",
+      "Educational Films"
+     ]
+    },
+    {
+     "code": "A21-15",
+     "label": "Avant-Garde Short",
+     "breadth": "broad",
+     "defn": "A short experimental film working with form, perception or the film material rather than story (<i>Meshes of the Afternoon</i>, <i>Ballet Mécanique</i>, <i>Mothlight</i>, <i>Serene Velocity</i>).",
+     "aliases": "experimental short, avant-garde film",
+     "see": "A20 Experimental &amp; Avant-Garde",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Avant-garde_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Cinéma_pur",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Stan_Brakhage",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Maya_Deren",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by avant-garde mode: Dada and cinéma pur, surrealist and trance films, lyrical film, structural film, found footage, then video and expanded work",
+     "secs": [
+      "Dada & Cinéma Pur",
+      "Surrealist & Trance Films",
+      "Lyrical Film",
+      "Structural Film Shorts",
+      "Found-Footage & Collage Shorts",
+      "Video & Expanded Works"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,807 @@
+{
+ "subs": [
+  {
+   "code": "A16",
+   "label": "Drama",
+   "axis": "Axis: by the dramatic engine — the bond, inner state, social condition, institution, contest or journey the drama turns on: family and home first, then the self, youth, society and its institutions, faith, sport, and journeys and animals last.",
+   "leaves": [
+    {
+     "code": "A16-1",
+     "label": "Shomingeki (Shoshimin-eiga)",
+     "breadth": "narrow",
+     "defn": "A Japanese studio drama of ordinary lower-middle-class urban life: salarymen, households, marriages arranged and parents left behind, told at the scale of the home (<i>Tokyo Story</i>, <i>Late Spring</i>, <i>I Was Born, But...</i>). Non-Japanese family dramas go to A16-3 or A16-4.",
+     "aliases": "shoshimin-eiga; home drama (Ozu, Naruse)",
+     "see": "A16-4 Parent–Child Drama; A1 Movements & Schools",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Shomingeki",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A16-2",
+     "label": "Family Saga",
+     "breadth": "medium",
+     "defn": "A drama that follows one family across generations or decades, the passing of time and inheritance of fortune being the engine (<i>The Magnificent Ambersons</i>, <i>Giant</i>, <i>Fanny and Alexander</i>, <i>The Best of Youth</i>). A drama confined to one crisis in one generation goes to A16-3 or A16-4.",
+     "aliases": "generational saga; dynasty drama",
+     "see": "A16-3 Family Drama; A8 Historical & Period Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Family_saga",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A16-3",
+     "label": "Family Drama",
+     "breadth": "broad",
+     "defn": "A drama whose engine is the family as a group rather than one parent–child pair: siblings, the family gathered for a holiday or funeral, the inheritance, the household after a death, the chosen or foster family (<i>Hannah</i>-type ensembles such as <i>Still Walking</i>, <i>Rachel Getting Married</i>, <i>Shoplifters</i>, <i>Ordinary People</i>). One parent and child at the centre goes to A16-4; a couple to A16-5.",
+     "aliases": "ensemble family drama; dysfunctional-family film",
+     "see": "A16-4 Parent–Child Drama; A16-5 Domestic Drama; A16-2 Family Saga",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Category:Films_about_families",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Category:Films_about_dysfunctional_families",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the family bond in play: siblings first, then the gathered family, the inheritance, the bereaved household, and found or foster families last",
+     "secs": [
+      "Sibling Dramas",
+      "Family Gatherings & Reunions",
+      "Inheritance, Feuds & Family Fortunes",
+      "Bereaved Families",
+      "Foster, Adoptive & Found Families"
+     ]
+    },
+    {
+     "code": "A16-4",
+     "label": "Parent–Child Drama",
+     "breadth": "broad",
+     "defn": "A drama centred on one parent and child — the father–son or mother–daughter bond strained, broken or repaired (<i>Kramer</i>-free examples: <i>The Return</i>, <i>Aftersun</i>, <i>Autumn Sonata</i>, <i>Mommy</i>, <i>Tokyo</i>-free <i>On Golden Pond</i>). A drama of the whole family goes to A16-3; Japanese shomingeki to A16-1.",
+     "aliases": "father–son drama; mother–daughter drama",
+     "see": "A16-3 Family Drama; A16-13 Coming-of-Age Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Category:Films_about_father–son_relationships",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Category:Films_about_mother–daughter_relationships",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by which parent and child: fathers and sons, fathers and daughters, mothers and children, then ageing parents and their adult children",
+     "secs": [
+      "Fathers & Sons",
+      "Fathers & Daughters",
+      "Mothers & Children",
+      "Ageing Parents & Adult Children"
+     ]
+    },
+    {
+     "code": "A16-5",
+     "label": "Domestic Drama",
+     "breadth": "medium",
+     "defn": "A drama of the married couple at home — the marriage worn down, betrayed or dissolved (<i>Scenes from a Marriage</i>, <i>Revolutionary Road</i>, <i>Kramer vs. Kramer</i>, <i>Marriage Story</i>). A romance that ends in marriage goes to A13; the wider family to A16-3.",
+     "aliases": "marriage drama; divorce drama",
+     "see": "A13 Romance; A16-3 Family Drama; A16-6 Melodrama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Domestic_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the state of the marriage: the marriage in crisis, adultery, then divorce and custody",
+     "secs": [
+      "Marriage in Crisis",
+      "Adultery",
+      "Divorce & Custody"
+     ]
+    },
+    {
+     "code": "A16-6",
+     "label": "Melodrama",
+     "breadth": "broad",
+     "defn": "A drama in the melodramatic mode — heightened emotion, sacrifice and fate carried by music and mise-en-scène, usually centred on a suffering woman or family (<i>Stella Dallas</i>, <i>All That Heaven Allows</i>, <i>Imitation of Life</i>, <i>All About My Mother</i>). Realist family dramas go to A16-3 to A16-5.",
+     "aliases": "weepie; woman's picture; tearjerker",
+     "see": "A16-5 Domestic Drama; A13 Romance",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Melodrama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Woman's_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Tearjerker",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the sacrifice at the core: maternal sacrifice first, then the woman's film of the fallen or desiring woman, the family melodrama, and the illness tearjerker last",
+     "secs": [
+      "Maternal Melodrama",
+      "Woman's Film",
+      "Family Melodrama",
+      "Illness Tearjerkers"
+     ]
+    },
+    {
+     "code": "A16-7",
+     "label": "Psychological Drama",
+     "breadth": "broad",
+     "defn": "A drama whose engine is one person's inner state — grief, breakdown, trauma or obsession — rendered from inside (<i>Three Colors: Blue</i>, <i>Through a Glass Darkly</i>, <i>Manchester by the Sea</i>, <i>Death in Venice</i>). Where suspense drives it, see A3; where the crisis is existential rather than psychological, A16-8.",
+     "aliases": "psychodrama; grief drama",
+     "see": "A16-8 Existentialist Film; A3 Thriller & Mystery; A16-26 Medical Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Psychological_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Category:Films_about_mental_health",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the inner condition: grief first, then breakdown and mental illness, trauma and guilt, and obsession last",
+     "secs": [
+      "Grief & Mourning",
+      "Breakdown & Mental Illness",
+      "Trauma, Abuse & Guilt",
+      "Obsession & Desire"
+     ]
+    },
+    {
+     "code": "A16-8",
+     "label": "Existentialist Film",
+     "breadth": "broad",
+     "defn": "An art-film character study whose engine is a crisis of meaning — alienation, ennui, a life weighed up or a self disguised (<i>L'Avventura</i>-line works such as <i>La Dolce Vita</i>, <i>The Silence</i>, <i>Lost in Translation</i>, <i>The Passenger</i>, <i>Citizen Kane</i>). A clinical inner state goes to A16-7; a quiet everyday portrait to A16-9.",
+     "aliases": "art-house character study; existential drama",
+     "see": "A16-7 Psychological Drama; A16-9 Slice of Life; A1 Movements & Schools",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Category:Existentialist_films",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Art_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Midlife_crisis",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the shape of the crisis: modernist alienation, the ennui of the affluent, double lives and masks, rise-and-fall lives, then midlife and old age",
+     "secs": [
+      "Modernist Alienation",
+      "Ennui of the Affluent",
+      "Double Lives & Masks",
+      "Rise-and-Fall Lives",
+      "Midlife & Old Age"
+     ]
+    },
+    {
+     "code": "A16-9",
+     "label": "Slice of Life",
+     "breadth": "medium",
+     "defn": "A drama with no plot engine beyond daily life observed — routines, small encounters and drifting days (<i>Paterson</i>, <i>Perfect Days</i>, <i>Wanda</i>, <i>Wendy and Lucy</i>). A crisis of meaning goes to A16-8; a journey to A16-36.",
+     "aliases": "slice-of-life film; drifter film",
+     "see": "A16-8 Existentialist Film; A16-36 Road Movie",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Slice_of_life",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by whether the life is settled or adrift: everyday rituals, then drifters and loners",
+     "secs": [
+      "Everyday Lives",
+      "Drifters & Loners"
+     ]
+    },
+    {
+     "code": "A16-10",
+     "label": "Chamber Drama (Kammerspiel)",
+     "breadth": "narrow",
+     "defn": "A drama confined to a few characters in one space or one conversation, the dialogue being the action (<i>My Dinner with Andre</i>, <i>Tape</i>, <i>The Sunset Limited</i>, <i>Locke</i>). A filmed stage production goes to A16-12 when it is about performers.",
+     "aliases": "two-hander; Kammerspielfilm; conversation film",
+     "see": "A16-12 Artist Film; A16-5 Domestic Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Kammerspielfilm",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Two-hander",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A16-11",
+     "label": "Hyperlink Cinema",
+     "breadth": "narrow",
+     "defn": "An ensemble drama of several separate storylines linked by chance, place or a shared event (<i>Magnolia</i>, <i>21 Grams</i>, <i>Babel</i>, <i>Crash</i>). A single family's ensemble goes to A16-3.",
+     "aliases": "network narrative; mosaic film",
+     "see": "A16-3 Family Drama; A16-19 Social Realism",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Hyperlink_cinema",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A16-12",
+     "label": "Artist Film (Künstlerroman)",
+     "breadth": "medium",
+     "defn": "A drama of a fictional artist or performer whose art or career is the engine — the actor, filmmaker, musician, writer or painter at work and in crisis (<i>8½</i>, <i>All About Eve</i>, <i>Tár</i>, <i>La belle noiseuse</i>). Real artists' lives go to A11; musicals to A14.",
+     "aliases": "backstage drama; film about filmmaking (metacinema)",
+     "see": "A11 Biographical Film; A14 Musical & Dance Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Künstlerroman",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Metacinema",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Category:Films_about_actors",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the art: filmmakers first, then stage and screen performers, musicians, and writers and painters last",
+     "secs": [
+      "Filmmakers & the Film World",
+      "Actors & Performers",
+      "Musicians",
+      "Writers & Painters"
+     ]
+    },
+    {
+     "code": "A16-13",
+     "label": "Coming-of-Age Film",
+     "breadth": "broad",
+     "defn": "A drama of a child's or young adolescent's passage toward understanding, told from the child's side (<i>The 400 Blows</i>-line works such as <i>The Spirit of the Beehive</i>, <i>My Life as a Dog</i>, <i>Stand by Me</i>, <i>Boyhood</i>). High-school teen life goes to A16-14; delinquency to A16-15.",
+     "aliases": "Bildungsroman film; childhood film",
+     "see": "A16-14 Teen Film; A16-15 Juvenile Delinquency Film; A17 Children's & Family Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Coming-of-age_story",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the setting of the childhood: home and family first, then city streets, village and countryside, the summer away, childhood under war or dictatorship, and boarding school last",
+     "secs": [
+      "Childhood at Home",
+      "City Childhoods",
+      "Village & Country Childhoods",
+      "Summers Away",
+      "Childhood under War & Dictatorship",
+      "Boarding-School Childhoods"
+     ]
+    },
+    {
+     "code": "A16-14",
+     "label": "Teen Film",
+     "breadth": "broad",
+     "defn": "A drama of teenage life in its own institutions — high school, cliques, first love and sexual awakening (<i>The Breakfast Club</i>, <i>Lady Bird</i>, <i>Eighth Grade</i>, <i>Murmur of the Heart</i>). Rebellion and crisis go to A16-15; teen comedies to A12; teen romance to A13.",
+     "aliases": "high-school film; teen drama",
+     "see": "A16-13 Coming-of-Age Film; A16-15 Juvenile Delinquency Film; A13 Romance",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Teen_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the arena of adolescence: school and friendship, then first love and sexual awakening",
+     "secs": [
+      "High School & Friendship",
+      "First Love & Sexual Awakening"
+     ]
+    },
+    {
+     "code": "A16-15",
+     "label": "Juvenile Delinquency Film",
+     "breadth": "medium",
+     "defn": "A drama of youth in revolt or in danger — gangs, rebels, subcultures and teenagers in crisis (<i>Rebel Without a Cause</i>, <i>The Outsiders</i>, <i>This Is England</i>, <i>Thirteen</i>); includes the Japanese taiyōzoku cycle (<i>Crazed Fruit</i>). Crime-driven youth gangs go to A2.",
+     "aliases": "JD film; rebel youth film; taiyōzoku film",
+     "see": "A16-14 Teen Film; A2 Crime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Juvenile_delinquency",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Rebel_Without_a_Cause",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the form of revolt: street gangs, rebels and runaways, youth subcultures, then teenagers in crisis",
+     "secs": [
+      "Street Gangs",
+      "Rebels & Runaways",
+      "Youth Subcultures",
+      "Teens in Crisis"
+     ]
+    },
+    {
+     "code": "A16-16",
+     "label": "Campus Film",
+     "breadth": "narrow",
+     "defn": "A drama set in a college or university, or among its just-graduated (<i>The History Boys</i>-free examples: <i>Starter for 10</i>, <i>Higher Learning</i>, <i>St. Elmo's Fire</i>). High school goes to A16-14; campus comedy to A12.",
+     "aliases": "college film; university film",
+     "see": "A16-14 Teen Film; A16-17 Teacher Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Campus_novel",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A16-17",
+     "label": "Teacher Film",
+     "breadth": "medium",
+     "defn": "A drama whose engine is a teacher and a class — the inspirational, embattled or failing educator (<i>To Sir, with Love</i>, <i>Dead Poets Society</i>, <i>The Class</i>, <i>The Teachers' Lounge</i>). Pupils' own stories go to A16-13 or A16-14.",
+     "aliases": "school film; inspirational-teacher film",
+     "see": "A16-14 Teen Film; A16-16 Campus Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Category:Films_about_educators",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A16-18",
+     "label": "LGBTQ Film",
+     "breadth": "broad",
+     "defn": "A drama whose engine is queer identity — coming out, queer love and community, or trans life (<i>Beautiful Thing</i>, <i>Moonlight</i>, <i>The Boys in the Band</i>, <i>A Fantastic Woman</i>). A queer love story foregrounding romance goes to A13; the 1990s movement to A1.",
+     "aliases": "queer cinema; gay and lesbian film; coming-out film",
+     "see": "A1 Movements & Schools; A13 Romance; A16-14 Teen Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/LGBT_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Coming-out_story",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the queer experience: coming out, queer love and community, then trans and intersex lives",
+     "secs": [
+      "Coming Out",
+      "Queer Love & Community",
+      "Trans & Intersex Lives"
+     ]
+    },
+    {
+     "code": "A16-19",
+     "label": "Social Realism",
+     "breadth": "broad",
+     "defn": "A drama of ordinary working or poor people shown in their material conditions — labour, unemployment, the street, the village (<i>Salt of the Earth</i>, <i>Rosetta</i>, <i>I, Daniel Blake</i>, <i>Salaam Bombay!</i>). A drama built around one named social issue goes to A16-22; Italian neorealism and kitchen-sink realism as movements to A1.",
+     "aliases": "working-class film; kitchen-sink drama; social drama",
+     "see": "A1 Movements & Schools; A16-22 Social Problem Film; A16-21 Immigrant Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Social_realism",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Kitchen_sink_realism",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Category:Films_about_the_labor_movement",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by where the hardship falls: work and labour, unemployment and precarity, street life and slums, then the village",
+     "secs": [
+      "Working Lives & Labour",
+      "Unemployment & Precarity",
+      "Street Life & Slums",
+      "Rural & Peasant Life"
+     ]
+    },
+    {
+     "code": "A16-20",
+     "label": "Banlieue Film",
+     "breadth": "narrow",
+     "defn": "A French drama of the multi-ethnic housing estates of the urban periphery, youth and police at its centre (<i>La Haine</i>, <i>Girlhood</i>, <i>Les Misérables</i>). Non-French urban dramas go to A16-19.",
+     "aliases": "cinéma de banlieue",
+     "see": "A16-19 Social Realism; A16-15 Juvenile Delinquency Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/La_Haine",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Banlieue",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A16-21",
+     "label": "Immigrant Film",
+     "breadth": "medium",
+     "defn": "A drama whose engine is migration — the crossing, the arrival in a new country, or the second generation between cultures (<i>El Norte</i>, <i>Minari</i>, <i>My Beautiful Laundrette</i>, <i>Io Capitano</i>). Migration as backdrop to a crime goes to A2.",
+     "aliases": "migrant cinema; diaspora film; accented cinema",
+     "see": "A16-19 Social Realism; A16-36 Road Movie",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Category:Films_about_immigration",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Transnational_cinema",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the stage of migration: the arrival and new life, the second generation, then the crossing and the refugee",
+     "secs": [
+      "Arrival & New Lives",
+      "Second Generation",
+      "Crossings & Refugees"
+     ]
+    },
+    {
+     "code": "A16-22",
+     "label": "Social Problem Film",
+     "breadth": "broad",
+     "defn": "A drama built to expose one named social ill — addiction, racism, sexual violence, the oppression of women, prostitution (<i>The Lost Weekend</i>, <i>Gentleman's Agreement</i>, <i>Requiem for a Dream</i>, <i>Moolaadé</i>). Diffuse working-class hardship goes to A16-19; the courtroom to A16-25.",
+     "aliases": "problem picture; message film; issue film",
+     "see": "A16-19 Social Realism; A16-25 Legal Drama; A16-23 Political Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Social_problem_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Category:Films_about_alcoholism",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Category:Feminist_films",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the social ill: addictions first (drink, drugs, gambling), then race and caste, youth violence, sexual violence and reproductive rights, the oppression of women, and sex work last",
+     "secs": [
+      "Alcoholism",
+      "Drug Addiction",
+      "Gambling",
+      "Race & Caste",
+      "Youth Violence & Reform Schools",
+      "Sexual Violence & Reproductive Rights",
+      "Patriarchy & Women's Rights",
+      "Prostitution & Trafficking"
+     ]
+    },
+    {
+     "code": "A16-23",
+     "label": "Political Drama",
+     "breadth": "medium",
+     "defn": "A drama whose engine is political power — winning and abusing office, resisting it, or living under it (<i>Mr. Smith Goes to Washington</i>, <i>The Candidate</i>, <i>Yol</i>, <i>Leviathan</i>). Political thrillers go to A3; war to A9.",
+     "aliases": "political film",
+     "see": "A3 Thriller & Mystery; A16-24 Journalism Film; A9 War Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Political_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Political_cinema",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the relation to power: holding and seeking office, activism and revolution, life under repression, then communal conflict and extremism",
+     "secs": [
+      "Power & Office",
+      "Activism & Revolution",
+      "Life under Repression",
+      "Conflict & Extremism"
+     ]
+    },
+    {
+     "code": "A16-24",
+     "label": "Journalism Film",
+     "breadth": "narrow",
+     "defn": "A drama of reporters and the press, the getting or abusing of a story being the engine (<i>Ace in the Hole</i>, <i>Good Night, and Good Luck.</i>, <i>She Said</i>). Newspaper thrillers go to A3.",
+     "aliases": "newspaper film",
+     "see": "A16-23 Political Drama; A3 Thriller & Mystery",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Category:Films_about_journalism",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A16-25",
+     "label": "Legal Drama",
+     "breadth": "broad",
+     "defn": "A drama of the law in action — the trial, the lawyer's case, the wrongful conviction (<i>12 Angry Men</i>, <i>To Kill a Mockingbird</i>, <i>Anatomy of a Murder</i>, <i>Anatomy of a Fall</i>). A whodunit with a courtroom climax goes to A3.",
+     "aliases": "courtroom drama; trial film",
+     "see": "A3 Thriller & Mystery; A16-22 Social Problem Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Legal_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Category:Courtroom_films",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the kind of proceeding: the criminal trial, political and war-crimes trials, courts-martial, wrongful conviction and the death penalty, then the lawyer's civil case",
+     "secs": [
+      "Criminal Trials",
+      "Political & War-Crimes Trials",
+      "Courts-Martial",
+      "Wrongful Conviction & Death Penalty",
+      "Lawyers & Civil Suits"
+     ]
+    },
+    {
+     "code": "A16-26",
+     "label": "Medical Drama",
+     "breadth": "medium",
+     "defn": "A drama whose engine is illness, disability or medicine — the dying patient, the disabled life, dementia, the doctor's work (<i>Ikiru</i>, <i>The Father</i>, <i>Scent of a Woman</i>, <i>Bringing Out the Dead</i>). Mental illness as inner state goes to A16-7.",
+     "aliases": "illness drama; disability drama",
+     "see": "A16-7 Psychological Drama; A16-6 Melodrama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Medical_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Disability_in_the_arts",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the condition: doctors and carers, terminal illness, disability, then dementia",
+     "secs": [
+      "Doctors, Nurses & Carers",
+      "Terminal Illness",
+      "Disability",
+      "Dementia"
+     ]
+    },
+    {
+     "code": "A16-27",
+     "label": "Religious Drama",
+     "breadth": "medium",
+     "defn": "A drama whose engine is faith — the priest's or nun's vocation, doubt, conversion or fanaticism (<i>Diary of a Country Priest</i>, <i>Winter Light</i>, <i>Ida</i>, <i>First Reformed</i>). Evangelical industry films go to A16-28; biblical epics to A8.",
+     "aliases": "faith drama; spiritual film; transcendental style",
+     "see": "A16-28 Christian Film; A8 Historical & Period Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Religious_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Transcendental_style",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by who carries the faith: priests and pastors, nuns and convents, then lay believers and seekers",
+     "secs": [
+      "Priests & Pastors",
+      "Nuns & Convents",
+      "Believers & Seekers"
+     ]
+    },
+    {
+     "code": "A16-28",
+     "label": "Christian Film",
+     "breadth": "narrow",
+     "defn": "A film made by or for the evangelical Christian film industry, whose plot affirms faith (<i>Fireproof</i>, <i>God's Not Dead</i>, <i>The Shack</i>); includes the early race-film religious dramas (<i>The Blood of Jesus</i>). Art-house faith dramas go to A16-27.",
+     "aliases": "faith-based film",
+     "see": "A16-27 Religious Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Christian_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A16-29",
+     "label": "Sports Film",
+     "breadth": "broad",
+     "defn": "A drama whose engine is athletic contest outside the sports given their own leaves — ice and snow, field games, golf and racket sports, athletics, gymnastics, boards, racing animals and bicycles, cue games and combat sports (<i>Chariots of Fire</i>, <i>The Hustler</i>, <i>Miracle</i>, <i>Lagaan</i>). Boxing, baseball, American football, basketball, football and motor racing have leaves A16-30 to A16-35.",
+     "aliases": "sports drama",
+     "see": "A16-30 Boxing Film; A12 Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Sports_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the sport: ice and snow first, then field games, golf and racket sports, running and swimming, gymnastics and cheer, board sports, horse and bicycle racing, cue and table games, and combat sports last",
+     "secs": [
+      "Ice & Snow Sports",
+      "Cricket, Rugby & Other Field Games",
+      "Golf, Tennis & Table Tennis",
+      "Running, Swimming & Rowing",
+      "Gymnastics & Cheerleading",
+      "Surfing, Skating & BMX",
+      "Horse Racing & Cycling",
+      "Pool, Bowling & Board Games",
+      "Wrestling & Martial Combat"
+     ]
+    },
+    {
+     "code": "A16-30",
+     "label": "Boxing Film",
+     "breadth": "narrow",
+     "defn": "A sports drama of the prizefighter and the ring, including cage fighting (<i>Rocky</i>, <i>Fat City</i>, <i>Million Dollar Baby</i>, <i>Creed</i>).",
+     "aliases": "fight film; prizefight film",
+     "see": "A16-29 Sports Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/List_of_boxing_films",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A16-31",
+     "label": "Baseball Film",
+     "breadth": "narrow",
+     "defn": "A sports drama of baseball (<i>The Pride of the Yankees</i>, <i>The Natural</i>, <i>Bull Durham</i>, <i>Moneyball</i>).",
+     "aliases": "",
+     "see": "A16-29 Sports Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/List_of_baseball_films",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A16-32",
+     "label": "American Football Film",
+     "breadth": "narrow",
+     "defn": "A sports drama of American (gridiron) football (<i>Rudy</i>, <i>Remember the Titans</i>, <i>Friday Night Lights</i>, <i>Any Given Sunday</i>).",
+     "aliases": "gridiron film",
+     "see": "A16-29 Sports Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/List_of_American_football_films",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A16-33",
+     "label": "Basketball Film",
+     "breadth": "narrow",
+     "defn": "A sports drama of basketball (<i>Hoosiers</i>, <i>He Got Game</i>, <i>Coach Carter</i>, <i>Love & Basketball</i>).",
+     "aliases": "",
+     "see": "A16-29 Sports Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/List_of_basketball_films",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A16-34",
+     "label": "Association Football Film",
+     "breadth": "narrow",
+     "defn": "A sports drama of association football (<i>Victory</i>, <i>Bend It Like Beckham</i>, <i>Goal! The Dream Begins</i>, <i>Next Goal Wins</i>).",
+     "aliases": "soccer film; football film",
+     "see": "A16-29 Sports Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/List_of_association_football_films",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A16-35",
+     "label": "Auto Racing Film",
+     "breadth": "narrow",
+     "defn": "A sports drama of motor racing (<i>Grand Prix</i>, <i>Le Mans</i>, <i>Rush</i>, <i>Ford v Ferrari</i>).",
+     "aliases": "motor-racing film",
+     "see": "A16-29 Sports Film; A7 Action & Martial Arts",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/List_of_auto_racing_films",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A16-36",
+     "label": "Road Movie",
+     "breadth": "broad",
+     "defn": "A drama whose engine is the journey itself — leaving home, the open road and what it changes (<i>Wild Strawberries</i>, <i>Thelma & Louise</i>, <i>The Straight Story</i>, <i>Nomadland</i>). A journey driven by the bond of two friends goes to A16-37; migrant crossings to A16-21.",
+     "aliases": "road film; journey film",
+     "see": "A16-37 Buddy Film; A16-21 Immigrant Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Road_movie",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by who travels and why: the family trip, lovers and outlaws on the run, motorcycle journeys, pilgrimages on foot, quests of search and memory, then drifters and nomads",
+     "secs": [
+      "Family Road Trips",
+      "On the Run",
+      "Motorcycle Journeys",
+      "Pilgrimages & Long Walks",
+      "Quests of Search & Memory",
+      "Drifters & Nomads"
+     ]
+    },
+    {
+     "code": "A16-37",
+     "label": "Buddy Film",
+     "breadth": "medium",
+     "defn": "A film whose engine is the friendship of two (or a small band of) companions, here mostly on a trip together (<i>Planes, Trains & Automobiles</i>, <i>Rain Man</i>, <i>Y tu mamá también</i>, <i>The Trip</i>). Cop-buddy action goes to A7; pure road comedy also to A12.",
+     "aliases": "buddy road movie; female buddy film",
+     "see": "A16-36 Road Movie; A12 Comedy; A7 Action & Martial Arts",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Buddy_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Female_buddy_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the pairing: male friends, female friends, mismatched pairs, then groups of friends",
+     "secs": [
+      "Male Buddies",
+      "Female Buddies",
+      "Mismatched Pairs",
+      "Gangs of Friends"
+     ]
+    },
+    {
+     "code": "A16-38",
+     "label": "Animal Film",
+     "breadth": "medium",
+     "defn": "A drama whose engine is the bond between people and an animal, or an animal's own odyssey (<i>Lassie Come Home</i>, <i>The Black Stallion</i>, <i>Au hasard Balthazar</i>, <i>Hachi: A Dog's Tale</i>). Animated talking-animal films go to C12; wildlife documentary to A19.",
+     "aliases": "dog film; horse film",
+     "see": "A17 Children's & Family Film; A19 Documentary",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/List_of_films_about_animals",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Category:Films_about_dogs",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the animal: dogs first, then horses, then wild and farm animals",
+     "secs": [
+      "Dogs",
+      "Horses",
+      "Wild & Farm Animals"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -476,7 +476,7 @@
      "code": "B1-22",
      "label": "Period Drama",
      "breadth": "medium",
-     "defn": "A series set in a recent past of the twentieth century (roughly 1918–1999) whose era, its manners and its changes are the drama (<i>Mad Men</i>-era <i>Pan Am</i>, <i>The Queen's Gambit</i>, <i>Cable Girls</i>, <i>Blossoms Shanghai</i>). A series set within a war goes to B1-17; a multi-generation chronicle goes to B1-2.",
+     "defn": "A series set in a recent past of the twentieth century (roughly 1918–1999) whose era, its manners and its changes are the drama (<i>Pan Am</i>, <i>The Queen's Gambit</i>, <i>Cable Girls</i>, <i>Blossoms Shanghai</i>). A series set within a war goes to B1-17; a multi-generation chronicle goes to B1-2.",
      "aliases": "period piece; era drama (niandai ju); nostalgia drama",
      "see": "B1-2 Family Saga; B1-17 War Drama; B1-21 Heritage Drama",
      "src": [
@@ -691,7 +691,7 @@
      "code": "B12-3",
      "label": "Narconovela",
      "breadth": "narrow",
-     "defn": "A telenovela-format serial built around drug traffickers, cartels and the women around them (<i>El Cartel</i>, <i>Pablo Escobar: The Drug Lord</i>, <i>La Reina del Sur</i>). A narco crime series made in a non-telenovela format goes to B7.",
+     "defn": "A telenovela-format serial built around drug traffickers, cartels and the women around them (<i>The Cartel</i>, <i>Pablo Escobar: The Drug Lord</i>, <i>La Reina del Sur</i>). A narco crime series made in a non-telenovela format goes to B7.",
      "aliases": "narco-telenovela; narcoserie",
      "see": "B12-1 Telenovela; B7 Crime & Thriller Series",
      "src": [
@@ -863,7 +863,7 @@
      "code": "B12-12",
      "label": "Teleserye",
      "breadth": "narrow",
-     "defn": "A Philippine prime-time television serial in the telenovela mould, from romance to fantasy (<i>Marimar</i>, <i>Pangako Sa 'Yo</i>, <i>On the Wings of Love</i>). Latin American telenovelas go to B12-1.",
+     "defn": "A Philippine prime-time television serial in the telenovela mould, from romance to fantasy (<i>Marimar</i>, <i>The Promise</i> (<i>Pangako Sa 'Yo</i>), <i>On the Wings of Love</i>). Latin American telenovelas go to B12-1.",
      "aliases": "teleserye; teledrama (Philippines)",
      "see": "B12-1 Telenovela; B1-9 Romantic Drama",
      "src": [
