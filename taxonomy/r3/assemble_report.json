@@ -268,6 +268,13 @@
   "E1-160",
   "J1-19",
   "J1-20",
+  "D5-147",
+  "G1-77",
+  "H6-2",
+  "D3-15",
+  "E1-161",
+  "E1-162",
+  "L1-43",
   "H7-23"
  ],
  "va_moved": 3224,
@@ -287,7 +294,7 @@
  "collections": {
   "work_rows_removed": 22708,
   "old_collections_rows": 3075,
-  "leaves": 1596,
+  "leaves": 1603,
   "institution_rows": 2670,
   "artist_leaf_work_rows_removed": 294,
   "sites_kept": 5527
@@ -755,7 +762,7 @@
  },
  "structure_fixes": {},
  "va_facets": {
-  "leaves": 1865,
+  "leaves": 1872,
   "undated": 427
  },
  "links": {

@@ -1,0 +1,292 @@
+{
+ "leaves": {},
+ "new_leaves": [
+  {
+   "key": "OKUNEV",
+   "sub": "D5",
+   "label": "Okunev Stelae",
+   "breadth": "narrow",
+   "defn": "The monumental stone stelae and sculpture of the Okunev culture of the Minusinsk Basin, South Siberia (c. 2500–1800 BCE): saber-shaped slabs of sandstone and granite up to four metres or more carved with masked anthropomorphic faces, solar signs and beasts, with petroglyphs and small carved amulets.",
+   "aliases": "Okunevo culture",
+   "see": "L1-2 Petroglyphs of the Mongolian Altai",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Okunev_culture",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Okunev",
+     "British Museum collection search: Okunev",
+     "objects in the British Museum"
+    ]
+   ],
+   "axis": "phases and sites, then holding institutions",
+   "kinds": [
+    [
+     "Stele of Shira",
+     "Sub-types",
+     "Khakassia National Museum, Abakan",
+     "r3 https://en.wikipedia.org/wiki/Okunev_culture",
+     0
+    ],
+    [
+     "Okunev petroglyphs",
+     "Sub-types",
+     "",
+     "r3 https://en.wikipedia.org/wiki/Okunev_culture",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "KARASUK",
+   "sub": "G1",
+   "label": "Karasuk Bronzes",
+   "breadth": "narrow",
+   "defn": "Bronze knives, daggers and axes of the Karasuk culture of South Siberia and the Altai (c. 1500–800 BCE): curved single-edged knives with handles cast as animal heads, a realistic animal art that fed the later Scytho-Siberian Animal Style and reached Shang–Zhou China.",
+   "aliases": "",
+   "see": "G1-12 Animal Style",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Karasuk_culture",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Karasuk",
+     "British Museum collection search: Karasuk",
+     "objects in the British Museum"
+    ]
+   ],
+   "axis": "phases and sites, then holding institutions",
+   "kinds": [
+    [
+     "Animal-headed knife",
+     "Sub-types",
+     "curved knife with animal pommel",
+     "r3 https://en.wikipedia.org/wiki/Karasuk_culture",
+     0
+    ],
+    [
+     "Tagar culture",
+     "Schools & phases",
+     "Iron Age successor in Khakassia",
+     "r3 https://en.wikipedia.org/wiki/Karasuk_culture",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "PAZYRYK",
+   "sub": "H6",
+   "label": "Pazyryk Felts and Carvings",
+   "breadth": "narrow",
+   "defn": "The art preserved in the frozen kurgans of the Pazyryk culture of the Altai (6th–3rd century BCE; Pazyryk, Bashadar, Tuekta, Ukok): appliqué and dyed felt hangings and saddle cloths with animal combat and investiture scenes, carved wooden griffins, elk and felines, leather cut-work, tattoos, and imported Persian and Chinese textiles including the Pazyryk carpet.",
+   "aliases": "Pazyryk culture; Altai frozen tombs",
+   "see": "G1-12 Animal Style",
+   "src": [
+    [
+     "https://www.penn.museum/sites/expedition/the-textiles-from-pazyryk/",
+     "Penn Museum, Expedition"
+    ],
+    [
+     "https://whc.unesco.org/fr/listesindicatives/6283",
+     "UNESCO Tentative List: Treasures of the Pazyryk Culture"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Pazyryk",
+     "British Museum collection search: Pazyryk",
+     "objects in the British Museum"
+    ]
+   ],
+   "axis": "phases and sites, then holding institutions",
+   "kinds": [
+    [
+     "Bashadar",
+     "Schools & phases",
+     "earlier kurgans with carved wooden animals",
+     "r3 https://www.penn.museum/sites/expedition/the-textiles-from-pazyryk/",
+     0
+    ],
+    [
+     "Felt appliqué hanging",
+     "Sub-types",
+     "",
+     "r3 https://www.penn.museum/sites/expedition/the-textiles-from-pazyryk/",
+     0
+    ],
+    [
+     "Pazyryk carpet",
+     "Sub-types",
+     "oldest surviving pile carpet, Hermitage",
+     "r3 https://www.penn.museum/sites/expedition/the-textiles-from-pazyryk/",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "DILMUN",
+   "sub": "D3",
+   "label": "Dilmun Seals",
+   "breadth": "narrow",
+   "defn": "Round stamp seals of steatite of the Dilmun civilization of Bahrain, Failaka and the eastern Arabian coast (c. 2050–1650 BCE), carved with gazelles, bulls, human figures and symbols, drawing on the Indus seal tradition; with the ridged Barbar pottery and the royal burial mounds.",
+   "aliases": "",
+   "see": "D3-6 Minoan Seals",
+   "src": [
+    [
+     "https://www.harappa.com/sites/default/files/pdf/Laursen-2016-Arabian_Archaeology_and_Epigraphy.pdf",
+     "Laursen 2016, Arabian Archaeology and Epigraphy"
+    ],
+    [
+     "https://media.unesco.org/sites/default/files/webform/mow001/219.pdf",
+     "UNESCO Memory of the World nomination"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Dilmun",
+     "British Museum collection search: Dilmun",
+     "objects in the British Museum"
+    ]
+   ],
+   "axis": "phases and sites, then holding institutions",
+   "kinds": [
+    [
+     "Early Dilmun seal",
+     "Sub-types",
+     "round steatite stamp seal",
+     "r3 https://www.harappa.com/sites/default/files/pdf/Laursen-2016-Arabian_Archaeology_and_Epigraphy.pdf",
+     0
+    ],
+    [
+     "Barbar pottery",
+     "Sub-types",
+     "ridged red ware",
+     "r3 http://shell.cas.usf.edu/~rtykot/PR%20109%20Ashkanani%20&%20Tykot%202013.pdf",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "JORWE",
+   "sub": "E1",
+   "label": "Jorwe Ware",
+   "breadth": "narrow",
+   "defn": "Black-on-red painted pottery of the Chalcolithic Jorwe culture of Maharashtra (c. 1400–700 BCE; Inamgaon, Daimabad, Walki): fine wheel-thrown spouted jars and carinated bowls painted with geometric patterns and occasionally deer and human figures.",
+   "aliases": "",
+   "see": "E1-154 Harappan Pottery",
+   "src": [
+    [
+     "https://imp-art.org/articles/jorwe-culture/",
+     "Impart"
+    ],
+    [
+     "https://indike.org/pramana/inp.artefact.site.inamgaon.1968-dhavalikar-black-painted-red-ware-jorwe-fabric",
+     "Indian Archaeology: a Review, Inamgaon"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Jorwe",
+     "British Museum collection search: Jorwe",
+     "objects in the British Museum"
+    ]
+   ],
+   "axis": "phases and sites, then holding institutions",
+   "kinds": [
+    [
+     "Inamgaon",
+     "Schools & phases",
+     "type settlement",
+     "r3 https://imp-art.org/articles/jorwe-culture/",
+     0
+    ],
+    [
+     "Malwa ware",
+     "Schools & phases",
+     "preceding painted ware",
+     "r3 https://imp-art.org/articles/jorwe-culture/",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "KURAARAX",
+   "sub": "E1",
+   "label": "Kura–Araxes Pottery",
+   "breadth": "narrow",
+   "defn": "The handmade red-black burnished ware of the Kura–Araxes (Early Transcaucasian) culture of the South Caucasus and eastern Anatolia (c. 3500–2450 BCE), with incised and relief spirals and geometric motifs, decorated hearth stands, spread to the Levant as Khirbet Kerak ware.",
+   "aliases": "Early Transcaucasian ware; Karaz pottery",
+   "see": "",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Kura–Araxes_culture",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Kura–Araxes",
+     "British Museum collection search: Kura–Araxes",
+     "objects in the British Museum"
+    ]
+   ],
+   "axis": "phases and sites, then holding institutions",
+   "kinds": [
+    [
+     "Khirbet Kerak ware",
+     "Sub-types",
+     "Levantine variant",
+     "r3 https://en.wikipedia.org/wiki/Kura–Araxes_culture",
+     0
+    ],
+    [
+     "Red-black burnished ware",
+     "Sub-types",
+     "",
+     "r3 https://en.wikipedia.org/wiki/Kura–Araxes_culture",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "BELDIBI",
+   "sub": "L1",
+   "label": "Beldibi Cave Art",
+   "breadth": "narrow",
+   "defn": "Coloured rock engravings and paintings of the Beldibi cave near Antalya (late Palaeolithic to proto-Neolithic, c. 10,000 BCE), the only known cave art in western Asia, with portable stones carved with naturalistic animals and geometric ornament.",
+   "aliases": "",
+   "see": "L1-35 Levantine Rock Art",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Belbaşı",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Beldibi",
+     "British Museum collection search: Beldibi",
+     "objects in the British Museum"
+    ]
+   ],
+   "axis": "phases and sites, then holding institutions",
+   "kinds": [
+    [
+     "Belbaşı",
+     "Schools & phases",
+     "neighbouring cave of the same sequence",
+     "r3 https://en.wikipedia.org/wiki/Belbaşı",
+     0
+    ]
+   ]
+  }
+ ],
+ "moves_out": [],
+ "dropped": []
+}

@@ -453,7 +453,7 @@ aat_id,name,decision,leaves,note,records
 300263155,Sargonid,facet,,polity,0
 300444304,Early Phrygian,archaeology,,archaeological culture or phase with no gathered records,0
 300387731,Anatolian Islamic,facet,,read on its Getty scope note,0
-300107580,Dilmun,archaeology,,archaeological culture or phase with no gathered records,0
+300107580,Dilmun,entry,D3-15,empty region x era cell filled (va_out/sweep_ref3),0
 300020620,Canaanite,people,,people with no gathered records,0
 300018546,Early Nara,facet,,read on its Getty scope note,0
 300440780,Higashiyama culture,facet,,read on its Getty scope note,0
@@ -462,12 +462,12 @@ aat_id,name,decision,leaves,note,records
 300018649,Akita Ranga School,entry,A5-108,read on its Getty scope note,0
 300110922,Chuguji,entry,D5-24,read on its Getty scope note,0
 300018696,Korean pottery styles,facet,,grouping,0
-300018775,Afanasievo,archaeology,,archaeological culture or phase with no gathered records,0
+300018775,Afanasievo,recorded,,archaeological culture; no art source found,0
 300018780,Kamenny Log phase,archaeology,,archaeological culture or phase with no gathered records,0
 300018782,Bol'shaia Rechka,recorded,,read on its Getty scope note,0
 300018784,Biysk phase,archaeology,,archaeological culture or phase with no gathered records,0
 300018796,Bainov phase,archaeology,,archaeological culture or phase with no gathered records,0
-300018806,Bashadar,archaeology,,archaeological culture or phase with no gathered records,0
+300018806,Bashadar,entry,H6-2,empty region x era cell filled (va_out/sweep_ref3),0
 300417414,Academic Realism,recorded,,read on its Getty scope note,0
 300018918,Pallava,facet,,polity,0
 300444980,Pulakesin II,facet,,polity,0
@@ -657,7 +657,7 @@ aat_id,name,decision,leaves,note,records
 300244147,Lori,people,,people with no gathered records,0
 300244159,Bijar,entry,H1-1,read on its Getty scope note,0
 300107415,Timurid painting styles,facet,,grouping,0
-300448629,Kura-Araxes,archaeology,,archaeological culture or phase with no gathered records,0
+300448629,Kura-Araxes,entry,E1-162,empty region x era cell filled (va_out/sweep_ref3),0
 300244539,East Caucasian textile styles,facet,,grouping,0
 300244701,Lenkoran,entry,H1-4,read on its Getty scope note,0
 300245311,Chichaoua,people,,people with no gathered records,0
@@ -673,7 +673,7 @@ aat_id,name,decision,leaves,note,records
 300019156,Jayavarman III,entry,D5-14,read on its Getty scope note,0
 300021803,Samarkand School,entry,A1-2,read on its Getty scope note,0
 300107472,Irian Jaya regional styles,facet,,grouping,0
-300107531,Beldibi,archaeology,,archaeological culture or phase with no gathered records,0
+300107531,Beldibi,entry,L1-43,empty region x era cell filled (va_out/sweep_ref3),0
 300107550,brown-on-cream,recorded,,read on its Getty scope note,0
 300107584,Middle Dilmun,archaeology,,archaeological culture or phase with no gathered records,0
 300107607,Black Lustrous,entry,E1-143,read on its Getty scope note,0
@@ -728,7 +728,7 @@ aat_id,name,decision,leaves,note,records
 300020218,Argive School,entry,D5-108,read on its Getty scope note,0
 300114457,Ami School,entry,A2-14,read on its Getty scope note,0
 300459675,Korean ceramic styles,facet,,grouping,0
-300018788,Maiemir,archaeology,,archaeological culture or phase with no gathered records,0
+300018788,Maiemir,entry,G1-12,empty region x era cell filled (va_out/sweep_ref3),0
 300018786,Berëzovsk phase,archaeology,,archaeological culture or phase with no gathered records,0
 300018797,Podgornoe phase,archaeology,,archaeological culture or phase with no gathered records,0
 300018808,Goldi,people,,people with no gathered records,0
@@ -1137,7 +1137,7 @@ aat_id,name,decision,leaves,note,records
 300113018,Kudara Kannon,entry,D5-24,read on its Getty scope note,0
 300386536,South Korean,facet,,nationality,0
 300417395,Korean Informel Movement,entry,A5-155,new leaf (va_out/sweep_ref2),0
-300018793,Shibe,archaeology,,archaeological culture or phase with no gathered records,0
+300018793,Shibe,entry,H6-2,empty region x era cell filled (va_out/sweep_ref3),0
 300018799,Tes phase,archaeology,,archaeological culture or phase with no gathered records,0
 300018809,Tuva,people,,people with no gathered records,0
 300379553,Andhra Karnataka,recorded,,read on its Getty scope note,0
@@ -1256,7 +1256,7 @@ aat_id,name,decision,leaves,note,records
 300016351,Kanyok,people,,people with no gathered records,0
 300016390,Sango,people,,people with no gathered records,0
 300263314,Enya,people,,people with no gathered records,0
-300018779,Karasuk,archaeology,,archaeological culture or phase with no gathered records,0
+300018779,Karasuk,entry,G1-77,empty region x era cell filled (va_out/sweep_ref3),0
 300018795,Tagar,entry,G1-12,read on its Getty scope note,0
 300386738,Sherpa,facet,,read on its Getty scope note,0
 300106605,Medieval Japanese,facet,,read on its Getty scope note,0
@@ -1499,7 +1499,7 @@ aat_id,name,decision,leaves,note,records
 300386011,Cilician,facet,,read on its Getty scope note,0
 300018957,Colonial Indian,facet,,nationality,0
 300106878,Paramara,facet,,polity,0
-300018777,Okunev,archaeology,,archaeological culture or phase with no gathered records,0
+300018777,Okunev,entry,D5-147,empty region x era cell filled (va_out/sweep_ref3),0
 300245352,Chinese textile styles,facet,,grouping,0
 300451598,Exotic Revival,entry,K2-15,read on its Getty scope note,0
 300017988,Esmeralda,people,,people with no gathered records,0
@@ -1805,7 +1805,7 @@ aat_id,name,decision,leaves,note,records
 300262810,Kofyar,people,,people with no gathered records,0
 300015925,Serer,people,,people with no gathered records,0
 300444902,pre-war style,facet,,read on its Getty scope note,0
-300386034,Jorwe,archaeology,,archaeological culture or phase with no gathered records,0
+300386034,Jorwe,entry,E1-161,empty region x era cell filled (va_out/sweep_ref3),0
 300114476,Ryokuyo,recorded,,read on its Getty scope note,0
 300113550,Nara-e,out,,ideology or religion,0
 300448910,Irish-American,people,,people with no gathered records,0
