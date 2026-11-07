@@ -23,7 +23,6 @@ L.append(dict(key="THONET",sub="N1",label="Thonet Bentwood Furniture",breadth="n
  des=[("Michael Thonet","Designers","German-Austrian cabinetmaker (1796–1871); patented bentwood process, founder of Gebrüder Thonet",None),
  ("Otto Wagner","Designers","Austrian architect (1841–1918); bentwood furniture for the Postsparkasse",None),
  ("Adolf Loos","Designers","Austrian architect (1870–1933); Café Museum chair for J. & J. Kohn",None),
- ("Josef Hoffmann","Designers","Austrian architect (1870–1956); Sitzmaschine and Fledermaus bentwood chairs for Kohn",None),
  ("Gustav Siegel","Designers","Austrian designer (1880–1970); chief designer for J. & J. Kohn",None),
  ("Marcel Kammerer","Designers","Austrian architect (1878–1959); bentwood furniture for Gebrüder Thonet",None)]))
 L.append(dict(key="DESTIJL",sub="N1",label="De Stijl Design",breadth="narrow",
@@ -146,7 +145,6 @@ L.append(dict(key="AMCM",sub="N1",label="American Mid-Century Modern Design",bre
  ("Eero Saarinen","Knoll circle","Finnish-American architect (1910–1961); Womb and Tulip chairs",None),
  ("Harry Bertoia","Knoll circle","Italian-American sculptor-designer (1915–1978); Diamond chair",None),
  ("Warren Platner","Knoll circle","American designer (1919–2006); steel-wire Platner collection (1966)",None),
- ("Russel Wright","Other American designers","American designer (1904–1976); American Modern dinnerware",None),
  ("Peter Schlumbohm","Other American designers","German-American chemist-inventor (1896–1962); Chemex coffeemaker",None),
  ("Earl Tupper","Other American designers","American inventor (1907–1983); Tupperware",None)]))
 L.append(dict(key="DANISH",sub="N1",label="Danish Modern",breadth="medium",

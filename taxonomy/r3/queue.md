@@ -7,3 +7,5 @@ To do at assembly:
 - remap old FT codes left in notes and see-also;
 - check pass-made labels flagged as weakly attested and list them in the report;
 - review: Korean/Chinese weekend family serials in B1 Family Drama (may belong in B2/B4); "Desperation Crime Drama" section; Romantic Comedy-Drama leaf.
+- Wikipedia API rate-limited this connection (2026-11-07): rerun `pipelines/r3/check_wiki.py` after the passes finish.
+- Coverage step (owner: "make sure all existing subgenres are represented"): waits for the TSPDT harvest (taxonomy/r3/tspdt/), then 3 passes (film / television / animation) per taxonomy/r3/BRIEF_COVERAGE.md, using taxonomy/r3/imdb_interests.tsv (IMDb's 243 genre interests), AllMovie genre pages, Wikipedia genre lists and TSPDT lists.

@@ -11,14 +11,14 @@ def put(target, names, group=None):
         OUT[n] = (target, group)
 
 # ---- new leaves ----
-put('NEW:YBA', "Damien Hirst; Tracey Emin; Sarah Lucas; Marc Quinn; Angus Fairhurst; Michael Landy; Gary Hume; Fiona Rae; Ian Davenport; Glenn Brown; Simon Patterson", 'Goldsmiths circle and Freeze (1988)')
-put('NEW:YBA', "Rachel Whiteread; Gillian Wearing; Jake and Dinos Chapman; Jake Chapman; Dinos Chapman; Chris Ofili; Jenny Saville; Gavin Turk; Marcus Harvey; Mark Wallinger; Ron Mueck; Mark Francis; Richard Billingham; Keith Coventry; Alessandro Raho; Jason Martin", 'Saatchi and Sensation (1997) generation')
-put('NEW:YBA', "Douglas Gordon; Christine Borland; Tacita Dean; Fiona Banner; Adam Chodzko; Darren Almond; Jane and Louise Wilson", 'Turner Prize and film/video wing')
+put('NEW:YBA', "Damien Hirst; Sarah Lucas; Angus Fairhurst; Michael Landy; Gary Hume; Fiona Rae; Ian Davenport; Glenn Brown; Simon Patterson", 'Goldsmiths circle and Freeze (1988)')
+put('NEW:YBA', "Tracey Emin; Marc Quinn; Rachel Whiteread; Gillian Wearing; Jake and Dinos Chapman; Jake Chapman; Dinos Chapman; Chris Ofili; Jenny Saville; Gavin Turk; Marcus Harvey; Mark Wallinger; Ron Mueck; Mark Francis; Richard Billingham; Keith Coventry; Alessandro Raho; Jason Martin", 'Saatchi and Sensation (1997) generation')
+put('NEW:YBA', "Douglas Gordon; Tacita Dean; Fiona Banner; Adam Chodzko; Darren Almond; Jane and Louise Wilson", 'Turner Prize and film/video wing')
 
 put('NEW:NBS', "Tony Cragg; Bill Woodrow; Richard Deacon; Richard Wentworth; Antony Gormley; Anish Kapoor; Alison Wilding; Shirazeh Houshiary; Edward Allington; Stephen Cox; Julian Opie; Jean-Luc Vilmouth", 'Lisson Gallery generation (1980s)')
 
 put('NEW:PIC', "Troy Brauntuch; Sherrie Levine; Robert Longo; David Salle; Matt Mullican; James Welling", 'Artists Space Pictures show and CalArts circle')
-put('NEW:PIC', "Barbara Kruger; Richard Prince; Dara Birnbaum; Nancy Dwyer; Jimmy De Sana", 'New York appropriation circle')
+put('NEW:PIC', "Barbara Kruger; Richard Prince; Dara Birnbaum; Nancy Dwyer", 'New York appropriation circle')
 
 put('NEW:REL', "Rirkrit Tiravanija; Liam Gillick; Carsten Höller; Pierre Huyghe; Dominique Gonzalez-Foerster; Angela Bulloch; Jorge Pardo; Tobias Rehberger", 'Artists named in Relational Aesthetics (1998)')
 
@@ -83,13 +83,14 @@ put('I3-20', "Marc Newson; Marcel Wanders; Studio Swine; Tobi Wong; Arik Levy; S
 
 # ---- within the pass (row goes to that leaf, named group) ----
 put('M1-2', "Terry Atkinson; David Bainbridge; Michael Baldwin; Mel Ramsden; Ian Burn; Joseph Kosuth; Art & Language", 'Art & Language')
-put('M1-2', "Ilya & Emilia Kabakov; Andrey Monastyrsky; Irina Nakhova; Elena Elagina; Konstantin Zvezdochetov; Valeri Gerlovin; Rimma Gerlovina; Yuri Leiderman; Svetlana Kopystiansky; Vyacheslav Akhunov", 'Moscow Conceptualists')
+put('M1-2', "Ilya & Emilia Kabakov; Andrey Monastyrsky; Irina Nakhova; Elena Elagina; Konstantin Zvezdochetov; Valeri Gerlovin; Rimma Gerlovina; Yuri Leiderman; Svetlana Kopystiansky", 'Moscow Conceptualists')
 put('M1-2', "Rodney Graham; Ken Lum; Fernell Franco", 'Photoconceptualism')
 put('M1-2', "Luis Fernando Benedit", 'Centro de Arte y Comunicación (Grupo de los Trece)')
 put('M1-2', "Mark Lombardi", 'Neo-conceptual art')
 put('M1-2', "General Idea; Jorge Zontal", 'General Idea')
 put('M1-2', "IRWIN", 'Neue Slowenische Kunst')
-put('M1-2', "Mladen Stilinović; Sanja Iveković; Braco Dimitrijević; Gorgona Group", 'New Art Practice (Yugoslavia)')
+put('M1-2', "Mladen Stilinović; Sanja Iveković; Braco Dimitrijević", 'New Art Practice (Yugoslavia)')
+put('M1-2', "Gorgona Group", 'Gorgona Group')
 put('M1-1', "Robert Irwin; Peter Alexander; James Turrell; Mary Corse", 'Light and Space')
 put('M1-1', "Koji Enokura; Nobuo Sekine; Kishio Suga; Susumu Koshimizu; Noriyuki Haraguchi", 'Mono-ha')
 put('M1-1', "Gutai group; Minoru Onoda; Sadaharu Horio", 'Gutai Art Association')
@@ -122,9 +123,9 @@ grp('Sámi artists (Máze Group and after)', "Máze Group; Hans Ragnar Mathisen;
 grp('Lahore neo-miniature (National College of Arts)', "Aisha Khalid; Nusra Latif Qureshi; Shahzia Sikander; Khadim Ali")
 grp('Contemporary Māori art', "Shane Cotton; Brett Graham; Michael Parekōwhai; Lisa Reihana; Shona Rapira Davies; Saffronn Te Ratana; Lonnie Hutchinson; Nikau Hindin; Terri Te Tau; Ana Iti; Mata Aho Collective; Kahurangiariki Smith")
 grp('First Nations and Inuit artists (Canada)', "Robert Houle; Jane Ash Poitras; Rebecca Belmore; Kent Monkman; Brian Jungen; Sonny Assu; Duane Linklater; Nadia Myre; Bonnie Devine; Shelley Niro; Kimowan Metchewais; Beau Dick; Michael Nicoll Yahgulanaas; Richard Hunt; Gabrielle L'Hirondelle Hill; Caroline Monnet")
-grp('Native American artists (United States)', "T. C. Cannon; Earl Biss; Rick Bartow; James Lavadour; Edgar Heap of Birds; Emmi Whitehorse; Brad Kahlhamer; Tony Abeyta; Melanie Yazzie; Steven Yazzie; Jeffrey Gibson; Dyani White Hawk; Cannupa Hanska Luger; Natalie Ball; Wendy Red Star; Roxanne Swentzell; Rose B. Simpson; Marilou Schultz; Raven Chacon; Raven Chacon with Iggor Cavalera & Laima Leyton; Postcommodity; Sky Hopinka; Frohawk Two Feathers")
+grp('Native American artists (United States)', "T. C. Cannon; Earl Biss; Rick Bartow; James Lavadour; Edgar Heap of Birds; Emmi Whitehorse; Brad Kahlhamer; Tony Abeyta; Melanie Yazzie; Steven Yazzie; Jeffrey Gibson; Dyani White Hawk; Cannupa Hanska Luger; Natalie Ball; Wendy Red Star; Roxanne Swentzell; Rose B. Simpson; Marilou Schultz; Raven Chacon; Raven Chacon with Iggor Cavalera & Laima Leyton; Postcommodity; Sky Hopinka")
 grp('Chicano art movement', "Judithe Hernández; Gronk; Carmen Lomas Garza; Judy Baca; Enrique Chagoya; Alma Lopez")
-grp('Feminist art movement (1970s founders)', "Hannah Wilke; Faith Wilding; Adrian Piper; Mónica Mayer; Birgit Jürgenssen; Eugènia Balcells; Eulàlia Grau; Julie Rrap; Ana Mendieta; Pacita Abad; Kim Dingle; Andrea Bowers; Andrea Fraser; Janine Antoni; Sokari Douglas Camp; Rose Finn-Kelcey; Cosey Fanni Tutti")
+grp('Feminist art movement', "Hannah Wilke; Faith Wilding; Adrian Piper; Mónica Mayer; Birgit Jürgenssen; Eugènia Balcells; Eulàlia Grau; Julie Rrap; Ana Mendieta; Pacita Abad; Kim Dingle; Andrea Bowers; Andrea Fraser; Janine Antoni; Sokari Douglas Camp; Rose Finn-Kelcey; Cosey Fanni Tutti")
 grp('Yanomami and Amazonian Indigenous artists', "Aida Harika Yanomami, Edmar Tokorino Yanomami & Roseane Yariana Yanomami; André Taniki Yanomami; Joseca Mokahesi Yanomami; Morzaniel Ɨramari; Sheroanawe Hakihiiwe; Jaider Esbell; Denilson Baniwa; Mahku - Huni Kuin Artists Movement; Santiago Yahuarcani; Rember Yahuarcani; Gabriel Gentil Tukano; Aislan Pankararu")
 grp('Toyism', "")
 JUNK = set(L("date=20 October 2022}}; No award; O B; LY; NIKKI; mandla; Al-53167; Buenos Aires; CREATIVE TIME SUMMIT; E-FLUX JOURNAL; So Crates"))

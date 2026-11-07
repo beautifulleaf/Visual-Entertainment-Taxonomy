@@ -1,0 +1,306 @@
+{
+ "A5-111": {
+  "axis": "sub-types (named contemporary tendencies) first; then artists by named group or circle (Neo-Geo, New Leipzig School, New Glasgow Boys, Chinese groups from the Stars to Cynical Realism, Indigenous and diaspora movements); then by country of activity, largest first, split by birth generation where a country exceeds 150; countries with fewer than 3 artists pooled by region; artists with no recorded country grouped by the biennial or list that recorded them; within groups by birth year",
+  "defn": "The period style of painters and artists born from about 1945 who work after modernism in plural, global practices: post-colonial figurative painting, new abstraction, appropriation, art of the biennial circuit. Artists who belong to a named post-1945 movement (Neo-expressionism, Young British Artists, Pictures Generation, Superflat, Stuckism...) sit in that movement's leaf; this leaf keeps the rest.",
+  "catalogues": [
+   [
+    "https://www.moma.org/collection/",
+    "MoMA collection online",
+    "searchable catalogue of the Museum of Modern Art's c. 200,000 works, strong in post-1945 art"
+   ],
+   [
+    "https://www.tate.org.uk/search?q=contemporary",
+    "Tate collection search",
+    "the British national collection of modern and contemporary art, every work with a page"
+   ],
+   [
+    "https://www.guggenheim.org/collection-online",
+    "Guggenheim Collection Online",
+    "the Guggenheim museums' collection of modern and contemporary art"
+   ],
+   [
+    "https://whitney.org/collection/works",
+    "Whitney Museum collection",
+    "American art of the 20th and 21st centuries, all works online"
+   ],
+   [
+    "https://www.mplus.org.hk/en/collection/",
+    "M+ collection",
+    "Hong Kong museum's collection of Asian contemporary art, including the Sigg collection of Chinese contemporary art"
+   ]
+  ]
+ },
+ "D5-119": {
+  "axis": "monumental works first; then sculptors by named group (Feminist art movement and others), then by country of activity, largest first; countries with fewer than 3 sculptors pooled by region; within groups by birth year",
+  "defn": "Sculpture by artists born from about 1945: object, figure, assemblage and installation-based work. Members of named movements (New British Sculpture, Young British Artists, Mono-ha, Land Art) sit in those leaves.",
+  "catalogues": [
+   [
+    "https://www.tate.org.uk/search?q=sculpture",
+    "Tate collection search",
+    "Tate's holdings of modern and contemporary sculpture"
+   ],
+   [
+    "https://artuk.org/discover/artworks",
+    "Art UK",
+    "every publicly owned artwork in the UK, including its sculpture survey of public and outdoor sculpture"
+   ],
+   [
+    "https://www.moma.org/collection/",
+    "MoMA collection online",
+    "MoMA's painting and sculpture holdings, searchable by artist"
+   ],
+   [
+    "https://www.centrepompidou.fr/en/",
+    "Centre Pompidou collection",
+    "the Musée national d'art moderne collection, over 100,000 works"
+   ]
+  ]
+ },
+ "M1-1": {
+  "axis": "sub-types first; then artists by named movement or group (Light and Space, Mono-ha, Gutai Art Association, light art, feminist art), then by country of activity, largest first; countries with fewer than 3 artists pooled by region; artists with no recorded country grouped by the biennial that recorded them; within groups by birth year",
+  "catalogues": [
+   [
+    "https://www.moma.org/collection/",
+    "MoMA collection online",
+    "MoMA's holdings of installation and environment works, searchable by artist"
+   ],
+   [
+    "https://www.tate.org.uk/art/art-terms/i/installation-art",
+    "Tate: installation art",
+    "Tate's term page linking every Tate installation work"
+   ],
+   [
+    "https://www.diaart.org/collection",
+    "Dia Art Foundation collection",
+    "Dia's collection of large-scale works and long-term installations"
+   ],
+   [
+    "https://www.mattressfactory.org/",
+    "Mattress Factory",
+    "Pittsburgh museum of room-sized installation art and its archive of past installations"
+   ]
+  ]
+ },
+ "M1-2": {
+  "axis": "artists by named group or school first (Art & Language, Moscow Conceptualists, Photoconceptualism, CAYC, General Idea, New Art Practice in Yugoslavia, NSK, Neo-conceptual art); then by country of activity, largest first; countries with fewer than 3 artists pooled by region; within groups by birth year",
+  "catalogues": [
+   [
+    "https://www.moma.org/collection/terms/conceptual-art",
+    "MoMA: conceptual art",
+    "MoMA's term page with its conceptual works"
+   ],
+   [
+    "https://www.tate.org.uk/art/art-terms/c/conceptual-art",
+    "Tate: conceptual art",
+    "Tate's term page linking its conceptual works"
+   ],
+   [
+    "https://russianartarchive.net/en",
+    "Russian Art Archive Network (Garage)",
+    "digitised archives of Moscow Conceptualism and Russian unofficial art"
+   ]
+  ]
+ },
+ "M2-5": {
+  "axis": "sub-types first; then artists by named group, then by country of activity, largest first; countries with fewer than 3 artists pooled by region; artists with no recorded country grouped by the biennial that recorded them; within groups by birth year",
+  "catalogues": [
+   [
+    "https://artbase.rhizome.org/",
+    "Rhizome ArtBase",
+    "archive of over 2,000 works of net art and born-digital art since 1999"
+   ],
+   [
+    "https://www.digitalartarchive.at/",
+    "Archive of Digital Art (ADA)",
+    "scholarly database of digital and media art works and artists"
+   ],
+   [
+    "https://zkm.de/en",
+    "ZKM collection",
+    "Karlsruhe Centre for Art and Media: media art collection and archive"
+   ],
+   [
+    "https://www.li-ma.nl/",
+    "LIMA catalogue",
+    "Amsterdam collection and distribution of media art"
+   ]
+  ]
+ },
+ "L2-51": {
+  "axis": "sub-types (techniques) first; then artists by named group, then by country of activity, largest first; countries with fewer than 3 artists pooled by region; within groups by birth year",
+  "catalogues": [
+   [
+    "https://streetartcities.com/",
+    "Street Art Cities",
+    "crowd-sourced world map of street-art works, over 100,000 pieces"
+   ],
+   [
+    "https://artsandculture.google.com/project/street-art",
+    "Google Arts & Culture: Street Art",
+    "photographed street art from partner institutions and cities"
+   ],
+   [
+    "https://www.tate.org.uk/art/art-terms/s/street-art",
+    "Tate: street art",
+    "Tate's term page on street art and graffiti"
+   ]
+  ]
+ },
+ "_new": {
+  "YBA": {
+   "sub": "A5",
+   "label": "Young British Artists",
+   "breadth": "medium",
+   "defn": "Loose group of artists, many from Goldsmiths College, who showed together from the Freeze exhibition (London, 1988) and were collected by Charles Saatchi, culminating in Sensation (Royal Academy, 1997): Hirst, Emin, Lucas, Whiteread, the Chapman brothers, Ofili, Gordon.",
+   "aliases": "YBAs; Brit art",
+   "see": "New British Sculpture; Contemporary Art",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Young_British_Artists",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.tate.org.uk/art/art-terms/y/young-british-artists-ybas",
+     "Tate: Young British Artists",
+     "Tate's term page linking the YBAs' works in the national collection"
+    ],
+    [
+     "https://www.saatchigallery.com/",
+     "Saatchi Gallery",
+     "the gallery of the collector who championed the group, with its exhibition archive"
+    ],
+    [
+     "https://www.artscouncilcollection.org.uk/",
+     "Arts Council Collection",
+     "UK national loan collection, rich in 1990s British art"
+    ]
+   ],
+   "axis": "by phase: Goldsmiths circle and Freeze (1988); the Saatchi and Sensation (1997) generation; the Turner Prize and film/video wing; within groups by birth year"
+  },
+  "NBS": {
+   "sub": "D5",
+   "label": "New British Sculpture",
+   "breadth": "narrow",
+   "defn": "British sculptors who emerged around 1980–85, mostly shown by the Lisson Gallery, making sculpture from found, industrial and natural materials with a renewed interest in object and image: Cragg, Woodrow, Deacon, Gormley, Kapoor, Wilding.",
+   "aliases": "",
+   "see": "Contemporary Sculpture; Young British Artists",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/New_British_Sculpture",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.tate.org.uk/art/art-terms/n/new-british-sculpture",
+     "Tate: New British Sculpture",
+     "Tate's term page linking the group's works in the collection"
+    ],
+    [
+     "https://www.lissongallery.com/artists",
+     "Lisson Gallery artists",
+     "the London gallery that showed the group, with artist pages and exhibition histories"
+    ],
+    [
+     "https://artuk.org/discover/artworks",
+     "Art UK",
+     "every publicly owned sculpture in the UK, searchable by artist"
+    ]
+   ],
+   "axis": "by group: the Lisson Gallery generation of the early 1980s; within the group by birth year"
+  },
+  "PIC": {
+   "sub": "A5",
+   "label": "Pictures Generation",
+   "breadth": "narrow",
+   "defn": "American artists of the late 1970s–80s, named after Douglas Crimp's Pictures exhibition (Artists Space, New York, 1977), who used appropriation, montage and photography to examine mass-media images: Sherrie Levine, Richard Prince, Barbara Kruger, Robert Longo, Cindy Sherman.",
+   "aliases": "Pictures group",
+   "see": "Contemporary Photography; Neo-Expressionism",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Pictures_Generation",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/exhibitions/listings/2009/pictures-generation",
+     "The Pictures Generation, 1974–1984 (Met, 2009)",
+     "the Metropolitan Museum's survey exhibition of the group"
+    ],
+    [
+     "https://www.moma.org/collection/",
+     "MoMA collection online",
+     "MoMA's holdings of the group's photographs and paintings"
+    ],
+    [
+     "https://whitney.org/collection/works",
+     "Whitney Museum collection",
+     "American art collection with the group's works online"
+    ]
+   ],
+   "axis": "by circle: the Artists Space Pictures show (1977) and CalArts circle; the wider New York appropriation circle; within groups by birth year"
+  },
+  "REL": {
+   "sub": "M1",
+   "label": "Relational art",
+   "breadth": "narrow",
+   "defn": "Art of the 1990s whose material is human relations and their social context, theorised by Nicolas Bourriaud in Relational Aesthetics (1998): Tiravanija's cooked meals, Gillick's discussion platforms, Höller's slides.",
+   "aliases": "Relational aesthetics",
+   "see": "Installation Art; Conceptual Art",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Relational_art",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.tate.org.uk/art/art-terms/r/relational-aesthetics",
+     "Tate: relational aesthetics",
+     "Tate's term page linking relational works in the collection"
+    ],
+    [
+     "https://www.guggenheim.org/collection-online",
+     "Guggenheim Collection Online",
+     "includes the theanyspacewhatever (2008) group of relational artists"
+    ]
+   ],
+   "axis": "by group: the artists Bourriaud names in Relational Aesthetics (1998); within the group by birth year"
+  },
+  "FBC": {
+   "sub": "B1",
+   "label": "Franco-Belgian comics",
+   "breadth": "broad",
+   "defn": "French-language comics (bande dessinée) of Belgium, France and Switzerland, published as albums: from the Brussels and Marcinelle schools to adult auteur comics and the graphic memoir (Hergé, Franquin, Moebius, Bilal, Satrapi).",
+   "aliases": "bande dessinée; BD",
+   "see": "Ligne Claire; Marcinelle School",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Franco-Belgian_comics",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.bedetheque.com/",
+     "Bédéthèque",
+     "database of over 400,000 French-language comic albums and their authors"
+    ],
+    [
+     "https://www.lambiek.net/",
+     "Lambiek Comiclopedia",
+     "encyclopedia of comic artists worldwide"
+    ],
+    [
+     "https://www.citebd.org/",
+     "Cité internationale de la bande dessinée et de l'image",
+     "Angoulême museum and library holding the French legal-deposit comics collection"
+    ]
+   ],
+   "axis": "by school and phase: the Belgian publishers' tradition (ligne claire, atom style, Spirou); humour series and gag strips; adult and auteur bande dessinée; L'Association and the graphic memoir; within groups by birth year"
+  }
+ }
+}

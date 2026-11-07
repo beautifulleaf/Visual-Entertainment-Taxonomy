@@ -134,6 +134,8 @@ def build_va(src, tree, M, find_old, report):
         for s in f["subs"]:
             s["n"] = sum(l["n"] for l in s["leaves"])
         f["n"] = sum(s["n"] for s in f["subs"]); f["nleaves"] = sum(len(s["leaves"]) for s in f["subs"])
+    if not any(p[0] == "S3" for p in tree["va"]["precedence"]):
+        tree["va"]["precedence"].append(["S3", "Erotic art or pornography", "Explicitness alone never decides. A work made for the art or mainstream circuit (studios, patrons, galleries, museums, the regular print and publishing trades) is placed here by its tradition even when explicit (shunga under Ukiyo-e, Khajuraho sculpture, Courbet, Koons's Made in Heaven, Mapplethorpe). An explicit work made for the adult trade (adult magazines and photo trades, adult imprints, adult doujinshi, Tijuana bibles) belongs to the Pleasure Taxonomies, with a finder row here; the circuit of first publication decides, not later museum acquisition (docs/ruling-s3-erotic-line.md)."])
     c = tree["census"]["va"]
     c["leaves"] = sum(f["nleaves"] for f in tree["va"]["fams"]); c["kinds"] = sum(f["n"] for f in tree["va"]["fams"])
     c["families_built"] = sum(1 for f in tree["va"]["fams"] if f["nleaves"])
@@ -256,6 +258,7 @@ def build_ft(src, tree, partial, report):
         txt = re.sub(r"[^.]*\bweb (series|show)[^.]*\.\s*", "", txt).strip()
         if txt: prec.append([p[0], p[1], txt])
     mods = [remap_text(m, leafmap).replace(", web series", "") for m in ft["modifiers"]]
+    prec.append(["S3", "Erotic work or pornography", "Two questions about the work as made: is it explicit (unsimulated sex or genitals in sexual use), and was it made for the art or mainstream circuit or for the adult trade? Not explicit → here, by genre (a non-explicit adult-trade segment only when the field names it as a genre with a canon: pink film, Roman Porno, sexploitation; otherwise the Pleasure Taxonomies). Explicit and made for the art or mainstream circuit (In the Realm of the Senses, Nymphomaniac) → here, by genre. Explicit and made for the adult trade (hardcore features, hentai, adult video) → the Pleasure Taxonomies, with a finder row here. The circuit at making decides, not later fame (docs/ruling-s3-erotic-line.md)."])
     tree["ft"] = dict(fams=fams, familyKey=FAMILY_KEY, precedence=prec, modifiers=mods)
     placed = sum(f["n"] for f in fams)
     tree["census"]["ft"] = dict(leaves=sum(f["nleaves"] for f in fams), placed=placed,

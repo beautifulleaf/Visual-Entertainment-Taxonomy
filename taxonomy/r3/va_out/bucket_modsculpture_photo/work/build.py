@@ -78,7 +78,7 @@ for code in [l['code'] for l in leaves] + [n['key'] for n in meta.NEW]:
         g = k[1] if not isinstance(k[1], tuple) else k[1][1]
         rows = sorted(buckets[k], key=lambda x: birth(x[1]))
         if g is None: g = 'Members'
-        if isinstance(k[1], tuple) and len(rows) > 150:
+        if isinstance(k[1], tuple) and len(rows) > 100:
             # split by generation
             for row, r in rows:
                 b = birth(r)

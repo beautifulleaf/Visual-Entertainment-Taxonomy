@@ -1,0 +1,314 @@
+category	interest	slug
+Franchise	Marvel	marvel
+Franchise	James Bond	james-bond
+Franchise	DC	dc
+Franchise	Terminator	terminator
+Franchise	Resident Evil	resident-evil
+Franchise	Godzilla	godzilla
+Franchise	Scream	scream
+Franchise	Breaking Bad	breaking-bad
+Franchise	Saw	saw
+Franchise	Alien	alien
+Franchise	Transformers	transformers
+Franchise	Star Wars	star-wars
+Franchise	The Conjuring Universe	the-conjuring-universe
+Franchise	The Chronicles of Narnia	the-chronicles-of-narnia
+Franchise	The Hunger Games	hunger-games
+Franchise	Love Is Blind	love-is-blind
+Franchise	Despicable Me	despicable-me
+Franchise	The Lord of the Rings	lord-of-the-rings
+Franchise	Dragon Ball	dragon-ball
+Franchise	Fast & Furious	fast-and-furious
+Franchise	Avatar: The Last Airbender	avatar-the-last-airbender
+Franchise	Harry Potter	harry-potter
+Franchise	Evil Dead	evil-dead
+Franchise	Indiana Jones	indiana-jones
+Franchise	Predator	predator
+Franchise	The Walking Dead	the-walking-dead
+Franchise	Mission: Impossible	mission-impossible
+Franchise	The Addams Family	the-addams-family
+Franchise	Blade Runner	blade-runner
+Franchise	Toy Story	toy-story
+Franchise	Naruto	naruto
+Franchise	Evangelion	evangelion
+Franchise	One Piece	one-piece
+Franchise	Planet of the Apes	planet-of-the-apes
+Franchise	Dune	dune
+Franchise	The Matrix	the-matrix
+Franchise	Star Trek	star-trek
+Franchise	Scooby-Doo	scooby-doo
+Franchise	John Wick	john-wick
+Franchise	Power Rangers	power-rangers
+Franchise	Jurassic Park	jurassic-park
+Franchise	Stargate	stargate
+Franchise	Shrek	shrek
+Franchise	Pokémon	pokemon
+Franchise	Anne Rice's Immortal Universe	anne-rices-immortal-universe
+Franchise	Doctor Who	doctor-who
+Franchise	Frozen	frozen
+Franchise	Battlestar Galactica	battlestar-galactica
+Franchise	Degrassi	degrassi
+Franchise	The Real Housewives	the-real-housewives
+Franchise	Big Brother	big-brother
+Franchise	RuPaul's Drag Race	rupauls-drag-race
+Franchise	Love Island	love-island
+Franchise	The Witcher	the-witcher
+Franchise	Teenage Mutant Ninja Turtles	teenage-mutant-ninja-turtles
+Franchise	SpongeBob SquarePants	spongebob-squarepants
+Franchise	Super Mario Bros	super-mario-bros
+Franchise	Masters of the Universe	masters-of-the-universe
+Franchise	Pitch Perfect	pitch-perfect
+Franchise	90 Day Fiancé	90-day-fiance
+Franchise	Lego	lego
+Franchise	Gundam	gundam
+Franchise	Kung Fu Panda	kung-fu-panda
+Franchise	Buffyverse	buffyverse
+Franchise	Kamen Rider	kamen-rider
+Franchise	Maddock Horror Comedy Universe	maddock-horror-comedy-universe
+Franchise	Spy Universe Yash Raj Films	yash-raj-films-spy-universe
+Franchise	Housefull	housefull
+Franchise	Golmaal	golmaal
+Franchise	Rohit Shetty Cop Universe	rohit-shetty-cop-universe
+Action	Action	action
+Action	Action Epic	epic-action
+Action	One-Person Army Action	one-person-army-action
+Action	War	war
+Action	Superhero	superhero-action
+Action	Martial Arts	martial-arts-action
+Action	Disaster	disaster-action
+Action	Car Action	car-action
+Action	Jason Statham Action	jason-statham-action
+Action	B-Action	b-action
+Action	War Epic	epic-war
+Action	Gun Fu	gun-fu-action
+Action	Wuxia	wuxia-action
+Action	Sword & Sandal	sword-and-sandal-action
+Action	Kung Fu	kung-fu-action
+Action	Samurai	samurai-action
+Adventure	Adventure	adventure
+Adventure	Adventure Epic	epic-adventure
+Adventure	Globetrotting Adventure	globetrotting-adventure
+Adventure	Sea Adventure	sea-adventure
+Adventure	Teen Adventure	teen-adventure
+Adventure	Mountain Adventure	mountain-adventure
+Adventure	Jungle Adventure	jungle-adventure
+Adventure	Road Trip	road-trip-adventure
+Adventure	Quest	quest-adventure
+Adventure	Dinosaur Adventure	dinosaur-adventure
+Adventure	Urban Adventure	urban-adventure
+Adventure	Desert Adventure	desert-adventure
+Adventure	Swashbuckler	swashbuckler-adventure
+Animation	Animation	animation
+Animation	Adult Animation	for-grown-ups-animation
+Animation	Computer Animation	cg-animation
+Animation	Hand-Drawn Animation	hand-drawn-animation
+Animation	Stop Motion Animation	stop-motion-animation
+Anime	Anime	anime-animation
+Anime	Isekai	isekai-anime-animation
+Anime	Seinen	seinen-anime-animation
+Anime	Shōnen	shonen-anime-animation
+Anime	Slice of Life	slice-of-life-anime-animation
+Anime	Shōjo	shoujo-anime-animation
+Anime	Josei	josei-anime-animation
+Anime	Iyashikei	iyashikei-anime-animation
+Anime	Mecha	mecha-anime-animation
+Comedy	Comedy	comedy
+Comedy	Dark Comedy	dark-comedy
+Comedy	Raunchy Comedy	raunchy-comedy
+Comedy	Sitcom	sitcom-comedy
+Comedy	Buddy Comedy	buddy-comedy
+Comedy	High-Concept Comedy	high-concept-comedy
+Comedy	Satire	satire-comedy
+Comedy	Teen Comedy	teen-comedy
+Comedy	Parody	parody-comedy
+Comedy	Quirky Comedy	quirky-comedy
+Comedy	Slapstick	slapstick-comedy
+Comedy	Farce	farce-comedy
+Comedy	Mockumentary	mockumentary-comedy
+Comedy	Body Swap Comedy	body-swap-comedy
+Comedy	Stoner Comedy	stoner-comedy
+Comedy	Buddy Cop	buddy-cop-comedy
+Comedy	Screwball Comedy	screwball-comedy
+Comedy	Stand-Up	stand-up-comedy
+Comedy	Sketch Comedy	sketch-comedy
+Crime	Crime	crime
+Crime	Gangster	gangster-crime
+Crime	Police Procedural	police-procedural-crime
+Crime	True Crime	true-crime
+Crime	Cop Drama	cop-drama
+Crime	Heist	heist-crime
+Crime	Caper	caper-crime
+Crime	Drug Crime	drug-crime
+Crime	Film Noir	film-noir
+Documentary	Documentary	documentary
+Documentary	Crime Documentary	crime-documentary
+Documentary	Science & Technology Documentary	science-and-technology-documentary
+Documentary	Music Documentary	music-documentary
+Documentary	Docuseries	docuseries-documentary
+Documentary	History Documentary	history-documentary
+Documentary	Nature Documentary	nature-documentary
+Documentary	Political Documentary	politics-documentary
+Documentary	Sports Documentary	sports-documentary
+Documentary	Military Documentary	military-and-war-documentary
+Documentary	Faith & Spirituality Documentary	religion-and-spirituality-documentary
+Documentary	Travel Documentary	travel-documentary
+Documentary	Food Documentary	food-and-drink-documentary
+Drama	Drama	drama
+Drama	Psychological Drama	psychological-drama
+Drama	Period Drama	period-drama
+Drama	Coming-of-Age	coming-of-age-drama
+Drama	Biography	biography
+Drama	Korean Drama	k-drama
+Drama	Docudrama	docudrama-drama
+Drama	History	history
+Drama	Epic	epic-drama
+Drama	Costume Drama	costume-drama
+Drama	Tragedy	tragedy-drama
+Drama	Medical Drama	medical-drama
+Drama	Teen Drama	teen-drama
+Drama	Legal Drama	legal-drama
+Drama	Political Drama	political-drama
+Drama	Historical Epic	epic-history
+Drama	Soap Opera	soap-opera-drama
+Drama	Showbiz Drama	showbiz-drama
+Drama	Micro-Drama	micro-drama
+Drama	Prison Drama	prison-drama
+Drama	Workplace Drama	workplace-drama
+Drama	Financial Drama	financial-drama
+Drama	Telenovela	telenovela-drama
+Family	Family	family
+Family	Animal Adventure	animals-family
+Fantasy	Dark Fantasy	dark-fantasy
+Fantasy	Fantasy	fantasy
+Fantasy	Supernatural Fantasy	supernatural-fantasy
+Fantasy	Fantasy Epic	epic-fantasy
+Fantasy	Sword & Sorcery	sword-and-sorcery-fantasy
+Fantasy	Fairy Tale	fairy-tale-fantasy
+Fantasy	Teen Fantasy	teen-fantasy
+Game Show	Game Show	game-show
+Game Show	Survival Competition	survival-game-show
+Game Show	Cooking Competition	cookery-game-show
+Game Show	Quiz Show	quiz-game-show
+Game Show	Talent Competition	talent-game-show
+Game Show	Beauty Competition	beauty-game-show
+Horror	Horror	horror
+Horror	Psychological Horror	psychological-horror
+Horror	Supernatural Horror	supernatural-horror
+Horror	Body Horror	body-horror
+Horror	Folk Horror	folk-horror
+Horror	Slasher Horror	slasher-horror
+Horror	Monster Horror	monster-horror
+Horror	B-Horror	b-horror
+Horror	Found Footage Horror	found-footage-horror
+Horror	Zombie Horror	zombie-horror
+Horror	Splatter Horror	splatter-horror
+Horror	Teen Horror	teen-horror
+Horror	Vampire Horror	vampire-horror
+Horror	Witch Horror	witch-horror
+Horror	Werewolf Horror	werewolf-horror
+Language	Telugu	telugu
+Language	Hindi	hindi
+Language	Tamil	tamil
+Language	Spanish	spanish
+Language	Kannada	kannada
+Language	Japanese	japanese
+Language	Filipino	filipino
+Language	Korean	korean
+Language	Malayalam	malayalam
+Language	French	french
+Language	Turkish	turkish
+Language	German	german
+Language	Italian	italian
+Language	Portuguese	portuguese
+Language	Russian	russian
+Language	Bengali	bengali
+Language	Arabic	arabic
+Language	Mandarin	mandarin
+Language	Punjabi	punjabi
+Language	Norwegian	norwegian
+Language	Dutch	dutch
+Language	Marathi	marathi
+Language	Swedish	swedish
+Language	Cantonese	cantonese
+Language	Persian	persian
+Language	Danish	danish
+Language	Thai	thai
+Language	Greek	greek
+Language	Urdu	urdu
+Language	Finnish	finnish
+Lifestyle	Talk Show	talk-show
+Lifestyle	News	news
+Lifestyle	Home Improvement	home-makeover-reality-tv
+Lifestyle	Cooking & Food	cooking-reality-tv
+Lifestyle	Travel	travel-reality-tv
+Lifestyle	Lifestyle	lifestyle-reality-tv
+Lifestyle	Beauty Makeover	beauty-makeover-reality-tv
+Music	Music	music
+Music	Concert	concert-music
+Musical	Musical	musical
+Musical	Pop Musical	pop-musical
+Musical	Classic Musical	classic-musical
+Musical	Jukebox Musical	jukebox-musical
+Musical	Rock Musical	rock-musical
+Mystery	Mystery	mystery
+Mystery	Suspense Mystery	suspense-mystery
+Mystery	Whodunnit	whodunnit-mystery
+Mystery	Cozy Mystery	cozy-mystery
+Mystery	Hard-boiled Detective	hardboiled-mystery
+Mystery	Bumbling Detective	bumbling-detective-mystery
+Reality TV	Reality TV	reality-tv
+Reality TV	Dating Reality TV	dating-and-romance-reality-tv
+Reality TV	Docusoap Reality TV	docusoap-reality-tv
+Reality TV	Hidden Camera	hidden-camera-reality-tv
+Reality TV	Business Reality TV	business-and-occupation-reality-tv
+Reality TV	Paranormal Reality TV	supernatural-reality-tv
+Reality TV	Crime Reality TV	crime-reality-tv
+Romance	Romance	romance
+Romance	Steamy Romance	steamy-romance
+Romance	Romantic Comedy	romantic-comedy
+Romance	Dark Romance	dark-romance
+Romance	Feel-Good Romance	feel-good-romance
+Romance	Teen Romance	teen-romance
+Romance	Romantic Epic	epic-romance
+Romance	Tragic Romance	tragic-romance
+Sci-Fi	Sci-Fi	sci-fi
+Sci-Fi	Dystopian Sci-Fi	dystopian-sci-fi
+Sci-Fi	Artificial Intelligence	artificial-intelligence-sci-fi
+Sci-Fi	Cyberpunk	cyberpunk-sci-fi
+Sci-Fi	Space Sci-Fi	space-sci-fi
+Sci-Fi	Alien Invasion	alien-invasion-sci-fi
+Sci-Fi	Sci-Fi Epic	epic-sci-fi
+Sci-Fi	Time Travel	time-travel-sci-fi
+Sci-Fi	Kaiju	giant-monster-sci-fi
+Sci-Fi	Steampunk	steampunk-sci-fi
+Seasonal	Holiday Comedy	holiday-comedy
+Seasonal	Holiday	holiday-season
+Seasonal	Holiday Romance	holiday-romance
+Seasonal	Holiday Animation	holiday-animation
+Seasonal	Holiday Family	holiday-family
+Short	Short	short
+Sport	Sport	sport
+Sport	Football	american-football-sport
+Sport	Boxing	boxing-sport
+Sport	Soccer	soccer-sport
+Sport	Motorsport	motorsports-sport
+Sport	Basketball	basketball-sport
+Sport	Baseball	baseball-sport
+Sport	Water Sport	aquatic-sport
+Sport	Extreme Sport	extreme-sport
+Thriller	Thriller	thriller
+Thriller	Erotic Thriller	erotic-thriller
+Thriller	Psychological Thriller	psychological-thriller
+Thriller	Conspiracy Thriller	conspiracy-thriller
+Thriller	Survival	survival-adventure
+Thriller	Spy	spy-thriller
+Thriller	Serial Killer	serial-killer-crime
+Thriller	Political Thriller	political-thriller
+Thriller	Cyber Thriller	cyber-thriller
+Thriller	Legal Thriller	legal-thriller
+Thriller	Giallo	giallo-thriller
+Western	Western	western
+Western	Contemporary Western	contemporary-western
+Western	Classical Western	classical-western
+Western	Western Epic	epic-western
+Western	Spaghetti Western	spaghetti-western

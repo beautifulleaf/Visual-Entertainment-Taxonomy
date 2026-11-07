@@ -1,14 +1,219 @@
 {
  "leaves": {
   "A1-1": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Schools by centre (Baghdad, Mosul, Mamluk Cairo and Damascus); works: every gathered illustrated Arabic manuscript with sitelinks ≥ 1 (Qur'ans, papyri and text-only items excluded), by phase; then collections and painter-scribes.",
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Maqamat",
+     "The Met collection search: Maqamat",
+     "all Met objects matching 'Maqamat'"
+    ],
+    [
+     "https://gallica.bnf.fr/",
+     "Gallica (BnF)",
+     "digitised manuscripts and prints of the Bibliothèque nationale de France"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Arabic_miniature",
+     "Wikipedia: Arabic miniature",
+     "survey of Arab book painting with its principal illustrated manuscripts"
+    ]
+   ],
    "kinds": [
     [
-     "Baghdad school",
+     "Maqamat al-Hariri",
      "Sub-types",
-     "",
+     "al-Hariri's picaresque tales, the most often illustrated Arabic text (c. 13 illustrated copies, 1220s–1330s)",
+     "r3 https://en.wikipedia.org/wiki/Maqamat_al-Hariri",
+     0
+    ],
+    [
+     "Kalila wa Dimna",
+     "Sub-types",
+     "Arabic animal fables of Ibn al-Muqaffa, illustrated in Syria and Egypt from the 13th century",
+     "r3 https://en.wikipedia.org/wiki/Kalīla_wa-Dimna",
+     0
+    ],
+    [
+     "Book of Antidotes of Pseudo-Galen (Kitab al-Diryaq)",
+     "Sub-types",
+     "illustrated pharmacological treatise, Jazira copies 1199 (BnF) and c. 1250 (Vienna)",
+     "r3 https://en.wikipedia.org/wiki/Book_of_Antidotes_of_Pseudo-Galen",
+     0
+    ],
+    [
+     "Book of Knowledge of Ingenious Mechanical Devices (al-Jazari)",
+     "Sub-types",
+     "al-Jazari's 1206 treatise on automata, illustrated copies Syria and Egypt 13th–14th c.",
+     "r3 https://en.wikipedia.org/wiki/Book_of_Knowledge_of_Ingenious_Mechanical_Devices",
+     0
+    ],
+    [
+     "Baghdad school",
+     "Schools & phases",
+     "13th-century Abbasid book painting of Baghdad: the Maqamat of al-Hariri, Rasa'il Ikhwan al-Safa, Dioscorides",
      "islamic_schools",
+     0
+    ],
+    [
+     "Mamluk painting",
+     "Schools & phases",
+     "14th-century book painting of Cairo and Damascus: Maqamat, Kalila wa Dimna, furusiyya and automata treatises",
+     "r3 https://en.wikipedia.org/wiki/Mamluk_Sultanate",
+     0
+    ],
+    [
+     "Book of the Fixed Stars",
+     "Abbasid and Jaziran manuscripts (Baghdad, Mosul, to 1258)",
+     "1009; Bodleian Library",
+     "r3 https://www.wikidata.org/wiki/Q54224977",
+     0
+    ],
+    [
+     "Kitâb al-Diryâq - BNF Arabe2964",
+     "Abbasid and Jaziran manuscripts (Baghdad, Mosul, to 1258)",
+     "1198; Bibliothèque nationale de France",
+     "r3 https://www.wikidata.org/wiki/Q15965524",
+     0
+    ],
+    [
+     "Kitab al-Baytarah",
+     "Abbasid and Jaziran manuscripts (Baghdad, Mosul, to 1258)",
+     "1210; Topkapı Palace Museum Library",
+     "r3 https://www.wikidata.org/wiki/Q96947531",
+     0
+    ],
+    [
+     "De materia medica",
+     "Abbasid and Jaziran manuscripts (Baghdad, Mosul, to 1258)",
+     "1229; Topkapı Palace Museum Library",
+     "r3 https://www.wikidata.org/wiki/Q16628945",
+     0
+    ],
+    [
+     "Maqamat of al-Hariri",
+     "Abbasid and Jaziran manuscripts (Baghdad, Mosul, to 1258)",
+     "1237; Bibliothèque nationale de France",
+     "r3 https://www.wikidata.org/wiki/Q16641327",
+     0
+    ],
+    [
+     "Kitab fi Ma 'rifat al-Hiyal al-Handasiya",
+     "Mamluk and later manuscripts (Cairo, Damascus, Syria)",
+     "1264; Topkapı Palace Museum Library",
+     "r3 https://www.wikidata.org/wiki/Q96972269",
+     0
+    ],
+    [
+     "Kalīla wa Dimna, translated by Ibn al-MuqaffaʿʿAbd Allâh (-756)",
+     "Mamluk and later manuscripts (Cairo, Damascus, Syria)",
+     "Syria, c. 1300; Manuscript department of the National Library of France",
+     "r3 https://www.wikidata.org/wiki/Q123945862",
+     0
+    ],
+    [
+     "Maqamat of al-Hariri - Vienna ÖNB AF9",
+     "Mamluk and later manuscripts (Cairo, Damascus, Syria)",
+     "1334; Austrian National Library",
+     "r3 https://www.wikidata.org/wiki/Q15965344",
+     0
+    ],
+    [
+     "Shahnameh manuscript RVI 961-966, 974, 1876-1887",
+     "Mamluk and later manuscripts (Cairo, Damascus, Syria)",
+     "1437; Museum Rietberg",
+     "r3 https://www.wikidata.org/wiki/Q64666117",
+     0
+    ],
+    [
+     "Golshan Album",
+     "Mamluk and later manuscripts (Cairo, Damascus, Syria)",
+     "c. 1700; Fogg Museum; San Diego Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q5948124",
+     0
+    ],
+    [
+     "Lady Coote Album",
+     "Mamluk and later manuscripts (Cairo, Damascus, Syria)",
+     "1780; Fine Arts Museums of San Francisco; San Diego Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q141492085",
+     0
+    ],
+    [
+     "Book of Wonders",
+     "Undated Arabic illustrated manuscripts",
+     "Bodleian Library",
+     "r3 https://www.wikidata.org/wiki/Q4943103",
+     0
+    ],
+    [
+     "Hadith Bayad wa Riyad",
+     "Undated Arabic illustrated manuscripts",
+     "Vatican Library",
+     "r3 https://www.wikidata.org/wiki/Q3472545",
+     0
+    ],
+    [
+     "Risālat al-Ṣūfī fī al-kawākib",
+     "Undated Arabic illustrated manuscripts",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q124326625",
+     0
+    ],
+    [
+     "Bibliothèque nationale de France",
+     "Collections",
+     "3113 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Bibliothèque+nationale+de+France",
+     0
+    ],
+    [
+     "University of Pennsylvania",
+     "Collections",
+     "139 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=University+of+Pennsylvania",
+     0
+    ],
+    [
+     "Harvard University",
+     "Collections",
+     "121 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Harvard+University",
+     0
+    ],
+    [
+     "Rare Book and Manuscript Library (Columbia University)",
+     "Collections",
+     "94 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Rare+Book+and+Manuscript+Library+(Columbia+University)",
+     0
+    ],
+    [
+     "Free Library of Philadelphia",
+     "Collections",
+     "31 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Free+Library+of+Philadelphia",
+     0
+    ],
+    [
+     "Berlin Papyrus Collection",
+     "Collections",
+     "20 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Berlin+Papyrus+Collection",
+     0
+    ],
+    [
+     "Bodleian Library",
+     "Collections",
+     "9 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Bodleian+Library",
+     0
+    ],
+    [
+     "University of California, Riverside",
+     "Collections",
+     "9 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=University+of+California,+Riverside",
      0
     ],
     [
@@ -29,293 +234,998 @@
    "alias_rows": []
   },
   "A1-2": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Schools by dynasty and centre (Ilkhanid Tabriz to Safavid Isfahan), canonical sequence; works: every gathered Persian illustrated manuscript or album folio with sitelinks ≥ 1 (Mughal, Deccani and Ottoman items go to those leaves; Qur'ans to Islamic Illumination), by school; then collections; painters grouped by school.",
+   "catalogues": [
+    [
+     "https://shahnama.caret.cam.ac.uk/",
+     "Shahnama Project (Cambridge)",
+     "illustrated Shahnama manuscripts and their paintings, catalogued worldwide"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Safavid",
+     "The Met collection search: Safavid",
+     "all Met objects matching 'Safavid'"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=Persian+manuscript",
+     "Smithsonian Collections Search: Persian manuscript",
+     "Smithsonian objects (incl. Freer|Sackler) matching 'Persian manuscript'"
+    ],
+    [
+     "https://digital.bodleian.ox.ac.uk/",
+     "Digital Bodleian",
+     "digitised manuscripts of the Bodleian Libraries, Oxford"
+    ],
+    [
+     "https://collections.vam.ac.uk/search/?q=Persian+manuscript",
+     "V&A Collections search: Persian manuscript",
+     "all V&A objects matching 'Persian manuscript'"
+    ]
+   ],
    "kinds": [
     [
      "Isfahan school",
-     "Sub-types",
-     "",
+     "Schools & phases",
+     "Safavid capital school from c. 1598: single-page album painting of Riza-yi 'Abbasi and followers",
      "islamic_schools",
      0
     ],
     [
      "Shiraz school (Safavid)",
-     "Sub-types",
-     "",
+     "Schools & phases",
+     "commercial Shiraz workshops, 16th century, producing many Shahnamas and Khamsas",
      "islamic_schools",
      0
     ],
     [
      "Shiraz school (Timurid)",
-     "Sub-types",
-     "",
+     "Schools & phases",
+     "Timurid Shiraz under Iskandar Sultan and Ibrahim Sultan, early 15th century",
      "islamic_schools",
      0
     ],
     [
      "Herat school",
-     "Sub-types",
-     "",
+     "Schools & phases",
+     "Timurid Herat under Baysunghur and Sultan Husayn Bayqara, c. 1420–1507; Bihzad",
      "islamic_schools",
      0
     ],
     [
      "Tabriz school (Safavid)",
-     "Sub-types",
-     "",
+     "Schools & phases",
+     "early Safavid court workshop of Shah Isma'il and Tahmasp, 1501–48: Shahnama of Shah Tahmasp",
      "islamic_schools",
      0
     ],
     [
      "Qazvin school",
-     "Sub-types",
-     "",
+     "Schools & phases",
+     "Safavid capital 1548–98: elongated figures, album pages; Shahnama of Isma'il II",
      "islamic_schools",
      0
     ],
     [
      "Ilkhanid Tabriz",
-     "Sub-types",
-     "",
+     "Schools & phases",
+     "Mongol court centre, c. 1300–1336: Jami' al-Tawarikh, Great Mongol Shahnama",
      "islamic_schools",
      0
     ],
     [
      "Inju school (Shiraz)",
-     "Sub-types",
-     "",
+     "Schools & phases",
+     "Injuid Shiraz, 1330s–1350s: small Shahnamas with red and gold grounds",
      "islamic_schools",
      0
     ],
     [
      "Bukhara school",
-     "Sub-types",
-     "",
+     "Schools & phases",
+     "Shaybanid Bukhara, 16th century, continuing the Herat manner of Bihzad's pupils",
      "world_folk",
      0
     ],
     [
-     "Riza 'Abbasi",
-     "Makers",
-     "Safavid painter, Shah Abbas court, fl. 1587–1635",
-     "islamic_makers",
-     1
+     "Muzaffarid Shiraz",
+     "Schools & phases",
+     "Shiraz under the Muzaffarids, 1350s–1393, precursor of the Timurid style",
+     "r3 https://en.wikipedia.org/wiki/Muzaffarid_dynasty",
+     0
     ],
     [
-     "Bihzad",
-     "Makers",
-     "Timurid–Safavid master, Herat, c.1460–1535",
-     "islamic_makers",
-     1
+     "Siyah Qalam",
+     "Schools & phases",
+     "'black pen' album drawings of demons and nomads, Turkman Tabriz c. 1450–1500 (Topkapı albums)",
+     "r3 https://en.wikipedia.org/wiki/Siyah_Qalam",
+     0
     ],
     [
-     "Mir Musavvir",
-     "Makers",
-     "Safavid painter, Tahmasp Shahnama, fl. 1520–45",
-     "islamic_makers",
-     1
+     "Kitab fi Ma 'rifat al-Hiyal al-Handasiya",
+     "Ilkhanid manuscripts (Tabriz, Baghdad, Maragha)",
+     "1264; Topkapı Palace Museum Library",
+     "r3 https://www.wikidata.org/wiki/Q96972269",
+     0
     ],
     [
-     "Muhammad Yusuf",
-     "Makers",
-     "Safavid painter, fl. 1630–60; overmantel record stray",
-     "islamic_makers",
-     1
+     "Manafi' al-Hayawan",
+     "Ilkhanid manuscripts (Tabriz, Baghdad, Maragha)",
+     "Ilkhanate, 1290; The Morgan Library & Museum",
+     "r3 https://www.wikidata.org/wiki/Q124448555",
+     0
     ],
     [
-     "Abd al-Vahhab",
-     "Makers",
-     "Safavid painter, Tahmasp Shahnama, c.1520–40",
-     "islamic_makers",
-     1
+     "Kalīla wa Dimna, translated by Ibn al-MuqaffaʿʿAbd Allâh (-756)",
+     "Ilkhanid manuscripts (Tabriz, Baghdad, Maragha)",
+     "Syria, c. 1300; Manuscript department of the National Library of France",
+     "r3 https://www.wikidata.org/wiki/Q123945862",
+     0
     ],
     [
-     "Mirza ‘Ali",
-     "Makers",
-     "Safavid painter, son of Sultan Muhammad, fl. 1525–75",
-     "islamic_makers",
-     1
+     "First Small Shahnama in the Metropolitan Museum of Art",
+     "Ilkhanid manuscripts (Tabriz, Baghdad, Maragha)",
+     "Ilkhanate, c. 1300; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q62520567",
+     0
     ],
     [
-     "Sultan Muhammad",
-     "Makers",
-     "Safavid master, Tahmasp Shahnama, fl. 1505–45",
-     "islamic_makers",
-     1
+     "The Jami' al-Tawarikh of Rashid al-Din",
+     "Ilkhanid manuscripts (Tabriz, Baghdad, Maragha)",
+     "Tabriz, 1314; Nasser D. Khalili Collection of Islamic Art",
+     "r3 https://www.wikidata.org/wiki/Q107663668",
+     0
     ],
     [
-     "Shaykh Muhammad",
-     "Makers",
-     "Safavid painter-calligrapher, fl. 1540–90",
-     "islamic_makers",
-     1
+     "Great Mongol Shahnameh",
+     "Ilkhanid manuscripts (Tabriz, Baghdad, Maragha)",
+     "Ilkhanate, 1330; Department of Islamic Arts of the Louvre; British Museum",
+     "r3 https://www.wikidata.org/wiki/Q5797140",
+     0
     ],
     [
-     "Muhammadi",
-     "Makers",
-     "Safavid painter, Herat/Qazvin, fl. 1560–90",
-     "islamic_makers",
-     1
+     "Bahram Gur Arrives at the House of a Merchant, text page (recto); Bahram Gur Slays a Dragon (verso), from a Shahnama (Bo",
+     "Ilkhanid manuscripts (Tabriz, Baghdad, Maragha)",
+     "Ilkhanate, 1330; Cleveland Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q79900635",
+     0
     ],
     [
-     "Sadiqi Bek",
-     "Makers",
-     "Safavid painter, librarian of Shah Abbas, 1533–1610",
-     "islamic_makers",
-     1
+     "Kitāb-i-Samak 'Iyār",
+     "Ilkhanid manuscripts (Tabriz, Baghdad, Maragha)",
+     "1330; Bodleian Library",
+     "r3 https://www.wikidata.org/wiki/Q54311475",
+     0
     ],
     [
-     "Shafi' Abbasi",
-     "Makers",
-     "Safavid painter, son of Riza, fl. 1628–74",
-     "islamic_makers",
-     1
+     "Shahnama",
+     "Ilkhanid manuscripts (Tabriz, Baghdad, Maragha)",
+     "1330; Topkapı Palace Museum Library",
+     "r3 https://www.wikidata.org/wiki/Q97014652",
+     0
     ],
     [
-     "Muhammad Siya Qalam",
-     "Makers",
-     "Siyah Qalam album painter, 15th c.",
-     "islamic_makers",
-     1
+     "The bier of Iskandar (Alexander the Great)",
+     "Ilkhanid manuscripts (Tabriz, Baghdad, Maragha)",
+     "Ilkhanate, 1330; Freer Gallery of Art",
+     "r3 https://www.wikidata.org/wiki/Q18683196",
+     0
     ],
     [
-     "Siyavush",
-     "Makers",
-     "Siyavush the Georgian, Qazvin court painter",
-     "islamic_makers",
-     1
+     "\"The Funeral of Isfandiyar\", Folio from a Shahnama (Book of Kings)",
+     "Ilkhanid manuscripts (Tabriz, Baghdad, Maragha)",
+     "Ilkhanate, 1330; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q29385084",
+     0
     ],
     [
-     "Habiballah of Sava",
-     "Makers",
-     "painter for Shah Abbas c.1600",
-     "islamic_makers",
-     1
+     "Maqamat of al-Hariri - Vienna ÖNB AF9",
+     "Ilkhanid manuscripts (Tabriz, Baghdad, Maragha)",
+     "1334; Austrian National Library",
+     "r3 https://www.wikidata.org/wiki/Q15965344",
+     0
     ],
     [
-     "Afzal Al-Husayni",
-     "Makers",
+     "Folio from a Mu'nis al-ahrar fi daqa'iq al-ash'ar (The Free Man's Companion to the Subtleties of Poems) of Jajarmi",
+     "Ilkhanid manuscripts (Tabriz, Baghdad, Maragha)",
+     "Isfahan, 1340; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q29385047",
+     0
+    ],
+    [
+     "The Wonders of Creatures and the Marvels of Creation",
+     "Jalayirid manuscripts (Baghdad, Tabriz)",
+     "Baghdad, 1388; Manuscript department of the National Library of France",
+     "r3 https://www.wikidata.org/wiki/Q123681380",
+     0
+    ],
+    [
+     "Khamsah of Khvaju Kirmani",
+     "Jalayirid manuscripts (Baghdad, Tabriz)",
+     "Baghdad, 1396; British Library additional manuscripts",
+     "r3 https://www.wikidata.org/wiki/Q122617894",
+     0
+    ],
+    [
+     "Baysonghor Shahnameh",
+     "Timurid Herat manuscripts",
+     "c. 1400; Golestan Palace Library",
+     "r3 https://www.wikidata.org/wiki/Q5959450",
+     0
+    ],
+    [
+     "Shaqāʾiq al-utrunj fī raqāʾiq al-ghunj",
+     "Timurid Herat manuscripts",
+     "c. 1400",
+     "r3 https://www.wikidata.org/wiki/Q56290047",
+     0
+    ],
+    [
+     "\"Jonah and the Whale\", Folio from a Jami al-Tavarikh (Compendium of Chronicles)",
+     "Timurid Herat manuscripts",
+     "Iran, c. 1400; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q29385247",
+     0
+    ],
+    [
+     "Kitab-i viladat-i Iskandar",
+     "Timurid Herat manuscripts",
+     "1411; Wellcome Collection",
+     "r3 https://www.wikidata.org/wiki/Q140321070",
+     0
+    ],
+    [
+     "Prince Baysunghur's Gulistan by Sa`di (CBL Per 119)",
+     "Timurid Herat manuscripts",
+     "Herat, 1427; Chester Beatty Library",
+     "r3 https://www.wikidata.org/wiki/Q108040169",
+     0
+    ],
+    [
+     "Kalila and Dimna, 1429, Herat (Topkapı, R. 1022)",
+     "Timurid Herat manuscripts",
+     "Herat, 1429; Topkapı Palace Museum Library",
+     "r3 https://www.wikidata.org/wiki/Q140184732",
+     0
+    ],
+    [
+     "\"Laila and Majnun at School\", Folio from a Khamsa (Quintet) of Nizami",
+     "Timurid Herat manuscripts",
+     "Herat, 1431; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q109670454",
+     0
+    ],
+    [
+     "Shahnameh manuscript RVI 961-966, 974, 1876-1887",
+     "Timurid Herat manuscripts",
+     "1437; Museum Rietberg",
+     "r3 https://www.wikidata.org/wiki/Q64666117",
+     0
+    ],
+    [
+     "Khamsa of Nezami, Topkapi Palace Museum H. 781",
+     "Timurid Herat manuscripts",
+     "Herat, 1440; Topkapı Palace Museum",
+     "r3 https://www.wikidata.org/wiki/Q113571465",
+     0
+    ],
+    [
+     "\"Dancing Dervishes\", Folio from a Divan of Hafiz",
+     "Timurid Herat manuscripts",
+     "Herat, 1480; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q29385037",
+     0
+    ],
+    [
+     "'Khamsa' of Amir Khusraw (CBL Per 163)",
+     "Timurid Herat manuscripts",
+     "Herat, 1485; Chester Beatty Library",
+     "r3 https://www.wikidata.org/wiki/Q109329702",
+     0
+    ],
+    [
+     "Seduction of Yusuf",
+     "Timurid Herat manuscripts",
+     "Herat, 1488; Persian Illustrated and Illuminated Manuscripts (Egyptian National Library)",
+     "r3 https://www.wikidata.org/wiki/Q123686434",
+     0
+    ],
+    [
+     "Khamsa of Nezami, Topkapi Palace Museum",
+     "Timurid Herat manuscripts",
+     "Safavid Iran, c. 1500; Topkapı Palace Museum",
+     "r3 https://www.wikidata.org/wiki/Q113529024",
+     0
+    ],
+    [
+     "Khamsa (Quintet) of Nizami of Ganja",
+     "Timurid Herat manuscripts",
+     "Iran, c. 1500; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q116272793",
+     0
+    ],
+    [
+     "\"The Concourse of the Birds\", Folio 11r from a Mantiq al-tair (Language of the Birds)",
+     "Timurid Herat manuscripts",
+     "Safavid Iran, c. 1600; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q29385176",
+     0
+    ],
+    [
+     "Mantiq al-Tayr (Language of the Birds)",
+     "Timurid Herat manuscripts",
+     "Safavid Iran, c. 1600; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q116273750",
+     0
+    ],
+    [
+     "Kitāb ṣuwar al-kawākib al-ṯābita",
+     "Timurid Samarkand manuscripts",
+     "Timurid Empire, 1430; Manuscript department of the National Library of France",
+     "r3 https://www.wikidata.org/wiki/Q124041496",
+     0
+    ],
+    [
+     "Anthology of Sultan Iskandar (CGM LA 161)",
+     "Timurid Shiraz manuscripts",
+     "Timurid Empire, 1410; Calouste Gulbenkian Museum",
+     "r3 https://www.wikidata.org/wiki/Q111899457",
+     0
+    ],
+    [
+     "Shahnamah of Ibrahim Sultan",
+     "Timurid Shiraz manuscripts",
+     "Timurid Empire, 1430; Bodleian Library",
+     "r3 https://www.wikidata.org/wiki/Q53676578",
+     0
+    ],
+    [
+     "Shahnama Or. 494",
+     "Timurid Shiraz manuscripts",
+     "Timurid Empire, 1437; Leiden University Library",
+     "r3 https://www.wikidata.org/wiki/Q116812081",
+     0
+    ],
+    [
+     "Big Head Shahnameh",
+     "Turkman manuscripts (Tabriz, Shiraz)",
+     "Lahijan, 1493; Turkish and Islamic Arts Museum; British Museum",
+     "r3 https://www.wikidata.org/wiki/Q62607662",
+     0
+    ],
+    [
+     "Shahnameh of Shah Tahmasp (Sultan Muhammad and others, c. 1522–40)",
+     "Safavid Tabriz manuscripts",
+     "the 258-painting royal Shahnama, Tabriz; folios dispersed (Met, Aga Khan Museum...)",
+     "r3 https://en.wikipedia.org/wiki/Shahnameh_of_Shah_Tahmasp",
+     0
+    ],
+    [
+     "Khamsa of Nizami (British Library, Or. 2265)",
+     "Safavid Tabriz manuscripts",
+     "Tabriz, 1539–43, for Shah Tahmasp; paintings by Sultan Muhammad, Aqa Mirak, Mir Sayyid Ali; British Library",
+     "r3 https://en.wikipedia.org/wiki/Khamsa_of_Nizami_(British_Library,_Or._2265)",
+     0
+    ],
+    [
+     "The Court of Kayumars, Folio from the Shahnameh (Book of Kings) of Shah Tahmasp",
+     "Safavid Tabriz manuscripts",
+     "Tabriz, 1523; The Aga Khan Museum",
+     "r3 https://www.wikidata.org/wiki/Q64665898",
+     0
+    ],
+    [
+     "The mobad interprets Zahhak's dream",
+     "Safavid Tabriz manuscripts",
+     "Safavid Iran, 1524; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q64689662",
+     0
+    ],
+    [
+     "\"The Feast of Sada\", Folio 22v from the Shahnama (Book of Kings) of Shah Tahmasp",
+     "Safavid Tabriz manuscripts",
+     "Safavid Iran, 1525; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q29385197",
+     0
+    ],
+    [
+     "\"Isfandiyar's Third Course: He Slays a Dragon\", Folio 434v from the Shahnama (Book of Kings) of Shah Tahmasp",
+     "Safavid Tabriz manuscripts",
+     "Safavid Iran, 1530; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q29385202",
+     0
+    ],
+    [
+     "Shahnameh of Shah Tahmasp",
+     "Safavid Tabriz manuscripts",
+     "Tabriz, c. 1600; Museum of Islamic Art; Cincinnati Art Museum",
+     "r3 https://www.wikidata.org/wiki/Q3114572",
+     0
+    ],
+    [
+     "Rustam's seventh course: He kills the White Div, folio 124 from a Shah-nama (Book of Kings) of Firdausi (Persian, about ",
+     "Safavid Tabriz manuscripts",
+     "Safavid Iran, c. 1600; Cleveland Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q79941176",
+     0
+    ],
+    [
+     "Shahnameh manuscript Met 1970.301",
+     "Safavid Tabriz manuscripts",
+     "Tabriz, c. 1600; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q64675957",
+     0
+    ],
+    [
+     "\"Farhad Carves a Milk Channel for Shirin\", Folio 74 from a Khamsa (Quintet) of Nizami",
+     "Safavid Herat and Shaybanid Bukhara manuscripts",
+     "Safavid Iran, 1520; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q29385028",
+     0
+    ],
+    [
+     "A Stallion",
+     "Safavid Herat and Shaybanid Bukhara manuscripts",
+     "Safavid Iran, c. 1600; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q29385234",
+     0
+    ],
+    [
+     "The Court of Gayumarth",
+     "Safavid Shiraz manuscripts",
+     "Safavid Iran, c. 1600; David Collection",
+     "r3 https://www.wikidata.org/wiki/Q105302541",
+     0
+    ],
+    [
+     "The Slaying of Siyawush",
+     "Safavid Shiraz manuscripts",
+     "Safavid Iran, c. 1600; David Collection",
+     "r3 https://www.wikidata.org/wiki/Q105302665",
+     0
+    ],
+    [
+     "Haft Awrang of Ibrahim Mirza (Freer Jami)",
+     "Safavid Qazvin and Mashhad manuscripts",
+     "Mashhad, 1556–65, for Sultan Ibrahim Mirza; Freer Gallery of Art, Washington",
+     "r3 https://en.wikipedia.org/wiki/Freer_Jami",
+     0
+    ],
+    [
+     "Shahnameh manuscript Walters Ms. W. 600",
+     "Safavid Qazvin and Mashhad manuscripts",
+     "1510; Walters Art Museum",
+     "r3 https://www.wikidata.org/wiki/Q62522768",
+     0
+    ],
+    [
+     "Khamsa of Nizami, British Library, Or. 2265",
+     "Safavid Qazvin and Mashhad manuscripts",
+     "Safavid Iran, 1530; British Library",
+     "r3 https://www.wikidata.org/wiki/Q42163803",
+     0
+    ],
+    [
+     "Shahnameh of Shah Isma'il II",
+     "Safavid Qazvin and Mashhad manuscripts",
+     "Qazvin, 1570; Reza Abbasi Museum; Chester Beatty Library",
+     "r3 https://www.wikidata.org/wiki/Q113626882",
+     0
+    ],
+    [
+     "\"Luhrasp Hears from the Returning Paladins of the Vanishing Kai Khusrau\", Folio from a Shahnama (Book of Kings) of Firda",
+     "Safavid Qazvin and Mashhad manuscripts",
+     "Qazvin, 1570; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q116274439",
+     0
+    ],
+    [
+     "Futuh al-Haramayn",
+     "Safavid Qazvin and Mashhad manuscripts",
+     "Mecca, 1582; Khalili Collection: Hajj and the Arts of Pilgrimage",
+     "r3 https://www.wikidata.org/wiki/Q107063182",
+     0
+    ],
+    [
+     "Shahnameh of Shah Abbas",
+     "Safavid Qazvin and Mashhad manuscripts",
+     "Qazvin, 1592; Chester Beatty Library",
+     "r3 https://www.wikidata.org/wiki/Q64679062",
+     0
+    ],
+    [
+     "Shahnama Walters Ms. W.602",
+     "Safavid Isfahan manuscripts",
+     "1617; Walters Art Museum",
+     "r3 https://www.wikidata.org/wiki/Q64619057",
+     0
+    ],
+    [
+     "Khamsa (Baku, M-207)",
+     "Safavid Isfahan manuscripts",
+     "1636; Institute of Manuscripts of Azerbaijan",
+     "r3 https://www.wikidata.org/wiki/Q21644245",
+     0
+    ],
+    [
+     "Windsor Shahnameh",
+     "Safavid Isfahan manuscripts",
+     "Mashhad, 1648; Royal Collection",
+     "r3 https://www.wikidata.org/wiki/Q5943957",
+     0
+    ],
+    [
+     "Shahnameh of Rashida",
+     "Safavid Isfahan manuscripts",
+     "c. 1650; Golestan Palace Library",
+     "r3 https://www.wikidata.org/wiki/Q5941687",
+     0
+    ],
+    [
+     "Shahnameh Princeton Ms. 57 G",
+     "Safavid Isfahan manuscripts",
+     "1655; Princeton University Library",
+     "r3 https://www.wikidata.org/wiki/Q64653011",
+     0
+    ],
+    [
+     "Book of Kings (Shahnama) illustrated by Mu'in Musavvir",
+     "Safavid Isfahan manuscripts",
+     "Safavid Iran, 1655; The Aga Khan Museum; Chester Beatty Library",
+     "r3 https://www.wikidata.org/wiki/Q108274909",
+     0
+    ],
+    [
+     "Shahnameh Princeton Ms. 58 G",
+     "Safavid Isfahan manuscripts",
+     "1674; Princeton University Library",
+     "r3 https://www.wikidata.org/wiki/Q64645324",
+     0
+    ],
+    [
+     "Golshan Album",
+     "Safavid Isfahan manuscripts",
+     "c. 1700; Fogg Museum; San Diego Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q5948124",
+     0
+    ],
+    [
+     "Shahnama Walters Ms. W.603",
+     "Afsharid, Zand and Qajar manuscripts",
+     "Iran, c. 1750; Walters Art Museum",
+     "r3 https://www.wikidata.org/wiki/Q64616610",
+     0
+    ],
+    [
+     "Lady Coote Album",
+     "Afsharid, Zand and Qajar manuscripts",
+     "1780; Fine Arts Museums of San Francisco; San Diego Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q141492085",
+     0
+    ],
+    [
+     "St. Petersburg Album",
+     "Afsharid, Zand and Qajar manuscripts",
+     "Afsharid Iran, c. 1800; Fogg Museum; Art and History Collection",
+     "r3 https://www.wikidata.org/wiki/Q111628414",
+     0
+    ],
+    [
+     "David 86/2003",
+     "Undated Persian manuscripts",
+     "Umayyad Caliphate, c. 700; David Collection",
+     "r3 https://www.wikidata.org/wiki/Q121758388",
+     0
+    ],
+    [
+     "Book of the Fixed Stars",
+     "Undated Persian manuscripts",
+     "1009; Bodleian Library",
+     "r3 https://www.wikidata.org/wiki/Q54224977",
+     0
+    ],
+    [
+     "Kitâb al-Diryâq - BNF Arabe2964",
+     "Undated Persian manuscripts",
+     "1198; Bibliothèque nationale de France",
+     "r3 https://www.wikidata.org/wiki/Q15965524",
+     0
+    ],
+    [
+     "Kitab al-Baytarah",
+     "Undated Persian manuscripts",
+     "1210; Topkapı Palace Museum Library",
+     "r3 https://www.wikidata.org/wiki/Q96947531",
+     0
+    ],
+    [
+     "De materia medica",
+     "Undated Persian manuscripts",
+     "1229; Topkapı Palace Museum Library",
+     "r3 https://www.wikidata.org/wiki/Q16628945",
+     0
+    ],
+    [
+     "Maqamat of al-Hariri",
+     "Undated Persian manuscripts",
+     "1237; Bibliothèque nationale de France",
+     "r3 https://www.wikidata.org/wiki/Q16641327",
+     0
+    ],
+    [
+     "Shahnameh manuscript Topkapı Hazine 1511",
+     "Undated Persian manuscripts",
+     "1371; Topkapı Palace Museum Library",
+     "r3 https://www.wikidata.org/wiki/Q64681254",
+     0
+    ],
+    [
+     "Book of Wonders",
+     "Undated Persian manuscripts",
+     "Bodleian Library",
+     "r3 https://www.wikidata.org/wiki/Q4943103",
+     0
+    ],
+    [
+     "Hadith Bayad wa Riyad",
+     "Undated Persian manuscripts",
+     "Vatican Library",
+     "r3 https://www.wikidata.org/wiki/Q3472545",
+     0
+    ],
+    [
+     "The Free Man's Companion to the Niceties of Poems",
+     "Undated Persian manuscripts",
      "",
-     "islamic_makers",
-     1
+     "r3 https://www.wikidata.org/wiki/Q56358223",
+     0
     ],
     [
-     "Shaykh ʿAbbasi",
-     "Makers",
-     "Isfahan painter, Indian-influenced style",
-     "islamic_makers",
-     1
+     "Zahr al-Bustan fi Dawlat Bani Ziyan",
+     "Undated Persian manuscripts",
+     "John Rylands Library",
+     "r3 https://www.wikidata.org/wiki/Q132559952",
+     0
     ],
     [
-     "Muʿin Musavvir",
-     "Makers",
+     "Khayr al-Bayān",
+     "Undated Persian manuscripts",
      "",
-     "islamic_makers",
-     1
+     "r3 https://www.wikidata.org/wiki/Q94630644",
+     0
     ],
     [
-     "Muhammad Qasim",
-     "Makers",
+     "Risālat al-Ṣūfī fī al-kawākib",
+     "Undated Persian manuscripts",
      "",
-     "islamic_makers",
-     1
+     "r3 https://www.wikidata.org/wiki/Q124326625",
+     0
     ],
     [
-     "Āqā Mīrak",
-     "Makers",
-     "Shah Tahmasp's Shahnama painter",
-     "illuminators",
-     1
+     "Khamsa (Baku, M-156)",
+     "Undated Persian manuscripts",
+     "Institute of Manuscripts of Azerbaijan",
+     "r3 https://www.wikidata.org/wiki/Q21644246",
+     0
     ],
     [
-     "Dust Muhammad",
-     "Makers",
-     "painter, Bahram Mirza album compiler",
-     "illuminators",
-     1
+     "Bibliothèque nationale de France",
+     "Collections",
+     "2665 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Bibliothèque+nationale+de+France",
+     0
     ],
     [
-     "Ali Asghar",
-     "Makers",
-     "Riza's father, Ibrahim Mirza circle",
-     "illuminators",
-     1
+     "Free Library of Philadelphia",
+     "Collections",
+     "227 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Free+Library+of+Philadelphia",
+     0
     ],
     [
-     "Mirak",
-     "Makers",
-     "Mirak Naqqash, also illuminator",
-     "illuminators",
-     1
+     "Cleveland Museum of Art",
+     "Collections",
+     "120 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art",
+     0
+    ],
+    [
+     "Rare Book and Manuscript Library (Columbia University)",
+     "Collections",
+     "76 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Rare+Book+and+Manuscript+Library+(Columbia+University)",
+     0
+    ],
+    [
+     "Ashmolean Museum",
+     "Collections",
+     "57 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Ashmolean+Museum",
+     0
+    ],
+    [
+     "University of California, Berkeley",
+     "Collections",
+     "41 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=University+of+California,+Berkeley",
+     0
+    ],
+    [
+     "Victoria Memorial",
+     "Collections",
+     "40 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+Memorial",
+     0
+    ],
+    [
+     "University of Pennsylvania",
+     "Collections",
+     "25 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=University+of+Pennsylvania",
+     0
+    ],
+    [
+     "Metropolitan Museum of Art",
+     "Collections",
+     "24 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Metropolitan+Museum+of+Art",
+     0
+    ],
+    [
+     "Chester Beatty Library",
+     "Collections",
+     "17 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Chester+Beatty+Library",
+     0
+    ],
+    [
+     "Aga Khan Museum",
+     "Collections",
+     "17 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Aga+Khan+Museum",
+     0
+    ],
+    [
+     "Bodleian Library",
+     "Collections",
+     "16 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Bodleian+Library",
+     0
+    ],
+    [
+     "David Collection",
+     "Collections",
+     "14 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=David+Collection",
+     0
+    ],
+    [
+     "The Aga Khan Museum",
+     "Collections",
+     "10 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=The+Aga+Khan+Museum",
+     0
     ],
     [
      "Darvish Muhammad",
-     "Makers",
-     "Aq Qoyunlu painter",
+     "Turkman and Jalayirid painters",
+     "Aq Qoyunlu court painter, late 15th century",
      "illuminators",
      1
     ],
     [
      "Shaykhi",
-     "Makers",
+     "Turkman and Jalayirid painters",
      "Aq Qoyunlu court painter",
      "illuminators",
      1
     ],
     [
-     "Ali Naqi",
-     "Makers",
-     "son of Shaykh 'Abbasi",
-     "illuminators",
-     1
-    ],
-    [
-     "Qasim ‛Ali",
-     "Makers",
-     "pupil of Bihzad",
-     "illuminators",
-     1
-    ],
-    [
-     "Zayn al'-'Abidin",
-     "Makers",
-     "Isma'il II Shahnama painter",
-     "illuminators",
-     1
-    ],
-    [
      "Junayd",
-     "Makers",
+     "Turkman and Jalayirid painters",
      "Khwaju Kirmani painter, 1396",
      "pre1400_islamic",
      1
     ],
     [
      "Aḥmad Mūsā",
-     "Makers",
+     "Turkman and Jalayirid painters",
      "Abu Sa'id's court painter · b. 1300",
      "pre1400_islamic",
      1
     ],
     [
      "'Abd al-Hayy",
-     "Makers",
+     "Turkman and Jalayirid painters",
      "Jalayirid master, taken to Samarqand",
      "pre1400_islamic",
      1
     ],
     [
+     "Bihzad",
+     "Herat school painters",
+     "Timurid–Safavid master, Herat, c.1460–1535",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Mirak",
+     "Herat school painters",
+     "Mirak Naqqash, Herat painter-illuminator, teacher of Bihzad",
+     "illuminators",
+     1
+    ],
+    [
+     "Qasim ‛Ali",
+     "Herat school painters",
+     "pupil of Bihzad",
+     "illuminators",
+     1
+    ],
+    [
+     "Mir Musavvir",
+     "Tabriz school painters",
+     "Safavid painter, Tahmasp Shahnama, fl. 1520–45",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Abd al-Vahhab",
+     "Tabriz school painters",
+     "Safavid painter, Tahmasp Shahnama, c.1520–40",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Mirza ‘Ali",
+     "Tabriz school painters",
+     "Safavid painter, son of Sultan Muhammad, fl. 1525–75",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Sultan Muhammad",
+     "Tabriz school painters",
+     "Safavid master, Tahmasp Shahnama, fl. 1505–45",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Muhammad Siya Qalam",
+     "Tabriz school painters",
+     "15th-century album painter of the Siyah Qalam demons and nomads; attribution debated",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Āqā Mīrak",
+     "Tabriz school painters",
+     "Shah Tahmasp's Shahnama painter",
+     "illuminators",
+     1
+    ],
+    [
+     "Dust Muhammad",
+     "Tabriz school painters",
+     "painter, Bahram Mirza album compiler",
+     "illuminators",
+     1
+    ],
+    [
+     "Shaykh Muhammad",
+     "Qazvin school painters",
+     "Safavid painter-calligrapher, fl. 1540–90",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Muhammadi",
+     "Qazvin school painters",
+     "Safavid painter, Herat/Qazvin, fl. 1560–90",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Sadiqi Bek",
+     "Qazvin school painters",
+     "Safavid painter, librarian of Shah Abbas, 1533–1610",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Siyavush",
+     "Qazvin school painters",
+     "Siyavush the Georgian, Qazvin court painter",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Ali Asghar",
+     "Qazvin school painters",
+     "Riza's father, Ibrahim Mirza circle",
+     "illuminators",
+     1
+    ],
+    [
+     "Zayn al'-'Abidin",
+     "Qazvin school painters",
+     "Isma'il II Shahnama painter",
+     "illuminators",
+     1
+    ],
+    [
+     "Riza 'Abbasi",
+     "Isfahan school painters",
+     "Safavid painter, Shah Abbas court, fl. 1587–1635",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Muhammad Yusuf",
+     "Isfahan school painters",
+     "Safavid painter, Isfahan, fl. 1630–60",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Shafi' Abbasi",
+     "Isfahan school painters",
+     "Safavid painter, son of Riza, fl. 1628–74",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Habiballah of Sava",
+     "Isfahan school painters",
+     "painter for Shah Abbas c.1600",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Afzal Al-Husayni",
+     "Isfahan school painters",
+     "Isfahan painter, fl. 1640s",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Shaykh ʿAbbasi",
+     "Isfahan school painters",
+     "Isfahan painter, Indian-influenced style",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Muʿin Musavvir",
+     "Isfahan school painters",
+     "Isfahan painter, pupil of Riza, fl. 1635–97",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Muhammad Qasim",
+     "Isfahan school painters",
+     "Isfahan painter and poet, d. 1659/60",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Ali Naqi",
+     "Isfahan school painters",
+     "son of Shaykh 'Abbasi",
+     "illuminators",
+     1
+    ],
+    [
      "Yahya ibn Mahmud al-Wasiti",
      "Makers",
-     "painting · Iraq · b. 1300",
+     "Baghdad painter-scribe of the 1237 Maqamat (Arab painting)",
      "artists",
      1
     ],
     [
      "Jamal al-Din Muhammad Isfahani",
      "Makers",
-     "painting · Seljuk Empire",
+     "Persian painter",
      "artists",
      1
     ]
@@ -323,41 +1233,204 @@
    "alias_rows": []
   },
   "A1-3": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Workshop and phase (nakkaşhane of Mehmed II to the Tulip Period); works: every gathered Ottoman illustrated manuscript or album (illuminated flag, sitelinks ≥ 1; Qur'ans excluded), by reign; then collections and painters by date.",
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Ottoman+manuscript",
+     "The Met collection search: Ottoman manuscript",
+     "all Met objects matching 'Ottoman manuscript'"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=Ottoman",
+     "Smithsonian Collections Search: Ottoman",
+     "Smithsonian objects (incl. Freer|Sackler) matching 'Ottoman'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Ottoman_miniature",
+     "Wikipedia: Ottoman miniature",
+     "survey with the principal illustrated Ottoman manuscripts"
+    ]
+   ],
    "kinds": [
     [
+     "Şahname-i Selim Han",
+     "Schools & phases",
+     "illustrated dynastic history (1581), Topkapı Palace Library",
+     "r3 https://en.wikipedia.org/wiki/Şehname-i_Selim_Han",
+     0
+    ],
+    [
      "Ottoman court atelier (nakkaşhane)",
-     "Sub-types",
-     "",
+     "Centres & workshops",
+     "the palace painting studio of Istanbul, 15th–18th century",
      "islamic_schools",
+     0
+    ],
+    [
+     "Hünername",
+     "Manuscripts of Selim II and Murad III (1566–1603)",
+     "Lokman and Nakkaş Osman, 1584–88, Topkapı Palace Library",
+     "r3 https://en.wikipedia.org/wiki/Hünername",
+     0
+    ],
+    [
+     "Surname-i Hümayun",
+     "Manuscripts of Selim II and Murad III (1566–1603)",
+     "festival book of the 1582 circumcision feast, Nakkaş Osman's workshop; Topkapı",
+     "r3 https://en.wikipedia.org/wiki/Surname-i_Hümayun",
+     0
+    ],
+    [
+     "History of Sultan Süleyman",
+     "Manuscripts of Selim II and Murad III (1566–1603)",
+     "Ottoman Empire, 1579; Chester Beatty Library",
+     "r3 https://www.wikidata.org/wiki/Q108057881",
+     0
+    ],
+    [
+     "The Book of Felicity",
+     "Manuscripts of Selim II and Murad III (1566–1603)",
+     "Ottoman Empire, 1582; Manuscript department of the National Library of France",
+     "r3 https://www.wikidata.org/wiki/Q3224029",
+     0
+    ],
+    [
+     "Zubdat al-Tawarikh",
+     "Manuscripts of Selim II and Murad III (1566–1603)",
+     "Ottoman Empire, 1583; Turkish and Islamic Arts Museum",
+     "r3 https://www.wikidata.org/wiki/Q107814357",
+     0
+    ],
+    [
+     "The Life of the Prophet (Siyer-i nebi) (CBL T 419)",
+     "Manuscripts of Selim II and Murad III (1566–1603)",
+     "Ottoman Empire, 1590; Chester Beatty Library",
+     "r3 https://www.wikidata.org/wiki/Q108273334",
+     0
+    ],
+    [
+     "Surname-i Vehbi",
+     "17th–18th-century manuscripts and albums",
+     "Levni's festival book of 1720, Topkapı Palace Library",
+     "r3 https://en.wikipedia.org/wiki/Surname-i_Vehbi",
+     0
+    ],
+    [
+     "Album of Turkish costumes",
+     "17th–18th-century manuscripts and albums",
+     "c. 1700; National Library of Poland",
+     "r3 https://www.wikidata.org/wiki/Q125992790",
+     0
+    ],
+    [
+     "Beyan-ı Menazil",
+     "Manuscripts of Mehmed II to Süleyman (to 1566)",
+     "Matrakçı Nasuh's topographical account of the Iraq campaign, 1537; Istanbul University Library",
+     "r3 https://en.wikipedia.org/wiki/Beyan-ı_Menazil",
+     0
+    ],
+    [
+     "Süleymanname",
+     "Manuscripts of Mehmed II to Süleyman (to 1566)",
+     "Arifi's history of Süleyman, 1558, Topkapı Palace Library",
+     "r3 https://en.wikipedia.org/wiki/Süleymanname",
+     0
+    ],
+    [
+     "Khusrau and Shirin",
+     "Manuscripts of Mehmed II to Süleyman (to 1566)",
+     "Ottoman Empire, 1490; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q29385191",
+     0
+    ],
+    [
+     "Book of Solomon (Suleymannama) by Firdausi of Bursa (CBL T 406)",
+     "Manuscripts of Mehmed II to Süleyman (to 1566)",
+     "Ottoman Empire, c. 1500; Chester Beatty Library",
+     "r3 https://www.wikidata.org/wiki/Q108442709",
+     0
+    ],
+    [
+     "Bibliothèque nationale de France",
+     "Collections",
+     "410 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Bibliothèque+nationale+de+France",
+     0
+    ],
+    [
+     "Rare Book and Manuscript Library (Columbia University)",
+     "Collections",
+     "49 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Rare+Book+and+Manuscript+Library+(Columbia+University)",
+     0
+    ],
+    [
+     "University of Pennsylvania",
+     "Collections",
+     "21 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=University+of+Pennsylvania",
+     0
+    ],
+    [
+     "Free Library of Philadelphia",
+     "Collections",
+     "19 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Free+Library+of+Philadelphia",
+     0
+    ],
+    [
+     "Sharjah Museum of Islamic Civilisation",
+     "Collections",
+     "8 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Sharjah+Museum+of+Islamic+Civilisation",
+     0
+    ],
+    [
+     "Museum of Turkish and Islamic Arts",
+     "Collections",
+     "7 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Museum+of+Turkish+and+Islamic+Arts",
+     0
+    ],
+    [
+     "Vassar College",
+     "Collections",
+     "6 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Vassar+College",
+     0
+    ],
+    [
+     "Victoria and Albert Museum",
+     "Collections",
+     "6 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
      0
     ],
     [
      "Mustafa",
      "Makers",
-     "Surname-i Hümayun painter; generic name",
+     "nakkaşhane painter of the Surname-i Hümayun (1582)",
      "islamic_makers",
      1
     ],
     [
      "Feramruz?",
      "Makers",
-     "Surname-i Hümayun painter",
+     "nakkaşhane painter of the Surname-i Hümayun (1582)",
      "islamic_makers",
      1
     ],
     [
      "Ali",
      "Makers",
-     "Surname-i Hümayun painter; generic name",
+     "nakkaşhane painter of the Surname-i Hümayun (1582)",
      "islamic_makers",
      1
     ],
     [
      "Mehmet Haydar",
      "Makers",
-     "Surname-i Hümayun painter",
+     "nakkaşhane painter of the Surname-i Hümayun (1582)",
      "islamic_makers",
      1
     ],
@@ -371,70 +1444,70 @@
     [
      "Recep Abdullah",
      "Makers",
-     "Surname-i Hümayun painter",
+     "nakkaşhane painter of the Surname-i Hümayun (1582)",
      "islamic_makers",
      1
     ],
     [
      "Al-fakir Süleyman",
      "Makers",
-     "painter of Ahmed I portrait",
+     "painter of a portrait of Ahmed I",
      "islamic_makers",
      1
     ],
     [
      "Hüseyin al-Istanbuli",
      "Makers",
-     "genealogy scroll",
+     "painter of an Ottoman genealogy scroll",
      "islamic_makers",
      1
     ],
     [
      "Attributed to Vali Jan",
      "Makers",
-     "Persian émigré",
+     "Vali Jan, Persian émigré saz-style painter, Istanbul late 16th c.",
      "islamic_makers",
      1
     ],
     [
      "Rupen Manas",
      "Makers",
-     "Armenian painter at Ottoman court",
+     "Armenian painter at the Ottoman court, 17th century",
      "islamic_makers",
      1
     ],
     [
      "Kapidagli, Konstantin",
      "Makers",
-     "Ottoman court painter of Selim III portraits",
+     "Konstantin Kapıdağlı, court painter of Selim III's portraits, c. 1800",
      "islamic_makers",
      1
     ],
     [
      "Matrakçı Nasuh",
      "Makers",
-     "topographical miniatures · b. 1480",
+     "polymath and topographical painter, Beyan-ı Menazil (1537)",
      "europe_1400-1900",
      1
     ],
     [
      "Levni",
      "Makers",
-     "Surname-i Vehbi painter · b. 1650",
+     "court painter of the Surname-i Vehbi (c. 1720), Tulip Period",
      "europe_1400-1900",
      1
     ],
     [
      "Nakkaş Osman",
      "Makers",
-     "Hünername painter · b. 1501",
+     "head painter of Murad III's histories: Hünername, Surname-i Hümayun",
      "europe_1400-1900",
      1
     ],
     [
      "Anthim the Iberian",
      "Makers",
-     "painting · Ottoman Empire, Principality of Wallachia · b. 1650",
+     "Georgian-born printer and engraver active in Wallachia",
      "artists",
      1
     ]
@@ -442,49 +1515,128 @@
    "alias_rows": []
   },
   "A1-5": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Schools by sultanate (Ahmadnagar, Bijapur, Golconda, Hyderabad); works: every gathered Deccani manuscript or painting with sitelinks ≥ 1, by sultanate; then collections and painters.",
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Deccan",
+     "The Met collection search: Deccan",
+     "all Met objects matching 'Deccan'"
+    ],
+    [
+     "https://collections.vam.ac.uk/search/?q=Deccani+painting",
+     "V&A Collections search: Deccani painting",
+     "all V&A objects matching 'Deccani painting'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Deccan_painting",
+     "Wikipedia: Deccan painting",
+     "survey with schools and principal works"
+    ]
+   ],
    "kinds": [
     [
      "Golconda school",
-     "Sub-types",
-     "",
+     "Schools & phases",
+     "Qutb Shahi court painting, Golconda, late 16th–17th century",
      "islamic_schools",
      0
     ],
     [
      "Hyderabad school",
-     "Sub-types",
-     "",
+     "Schools & phases",
+     "Asaf Jahi painting of Hyderabad, 18th–19th century",
      "islamic_schools",
      0
     ],
     [
      "Bijapur school",
-     "Sub-types",
-     "",
+     "Schools & phases",
+     "Adil Shahi court painting under Ibrahim Adil Shah II (r. 1580–1627)",
      "islamic_schools",
      0
     ],
     [
-     "Deccani: Golconda",
-     "Sub-types",
-     "",
-     "south_southeast_asia",
-     0
-    ],
-    [
-     "Rahim Deccani",
-     "Sub-types",
-     "",
-     "evidence",
-     0
-    ],
-    [
-     "Bijapur",
+     "Ahmadnagar school",
      "Schools & phases",
-     "",
-     "evidence",
+     "Nizam Shahi court painting: the Tarif-i Husain Shahi (c. 1565)",
+     "r3 https://en.wikipedia.org/wiki/Ahmadnagar_Sultanate",
+     0
+    ],
+    [
+     "Tarif-i Husain Shahi",
+     "Ahmadnagar and other Deccani paintings",
+     "Ahmadnagar, c. 1565–69, earliest Deccani manuscript; Bharata Itihasa Samshodhaka Mandala, Pune",
+     "r3 https://en.wikipedia.org/wiki/Tarif-i_Husain_Shahi",
+     0
+    ],
+    [
+     "Nujum al-Ulum (Stars of the Sciences)",
+     "Bijapur manuscripts and album paintings",
+     "Bijapur, 1570; Chester Beatty Library, Dublin",
+     "r3 https://en.wikipedia.org/wiki/Nujum_al-Ulum",
+     0
+    ],
+    [
+     "Stars of the Sciences",
+     "Bijapur manuscripts and album paintings",
+     "Vijayapura, 1570; Chester Beatty Library",
+     "r3 https://www.wikidata.org/wiki/Q28173654",
+     0
+    ],
+    [
+     "Ibrahim Adil Shah II hawking",
+     "Bijapur manuscripts and album paintings",
+     "Vijayapura, 1590; Institute of Oriental Manuscripts of the Russian Academy of Sciences",
+     "r3 https://www.wikidata.org/wiki/Q132853290",
+     0
+    ],
+    [
+     "Yogini with a mynah bird (CBL In 11A.31)",
+     "Bijapur manuscripts and album paintings",
+     "Vijayapura, c. 1600; Chester Beatty Library",
+     "r3 https://www.wikidata.org/wiki/Q108257791",
+     0
+    ],
+    [
+     "Futuh al-Haramayn (Description of the Holy Cities)",
+     "Bijapur manuscripts and album paintings",
+     "Bijapur Sultanate, 1678; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q116256488",
+     0
+    ],
+    [
+     "The House of Bijapur",
+     "Bijapur manuscripts and album paintings",
+     "Bijapur Sultanate, 1680; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q29385220",
+     0
+    ],
+    [
+     "Victoria and Albert Museum",
+     "Collections",
+     "1435 objects in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
+     0
+    ],
+    [
+     "Cleveland Museum of Art",
+     "Collections",
+     "49 objects in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art",
+     0
+    ],
+    [
+     "Art Institute of Chicago",
+     "Collections",
+     "5 objects in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Art+Institute+of+Chicago",
+     0
+    ],
+    [
+     "Rijksmuseum",
+     "Collections",
+     "4 objects in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Rijksmuseum",
      0
     ],
     [
@@ -497,71 +1649,174 @@
     [
      "Shafi",
      "Makers",
-     "Bijapur painter of marbled picture, c.1650",
+     "Bijapur painter of a marbled picture, c. 1650",
      "islamic_makers",
+     1
+    ],
+    [
+     "Rahim Deccani",
+     "Makers",
+     "Deccani painter, 17th century",
+     "evidence",
+     1
+    ],
+    [
+     "Farrukh Beg",
+     "Makers",
+     "Persian-born painter at Bijapur and the Mughal court, c. 1545–c. 1615",
+     "r3 https://en.wikipedia.org/wiki/Farrukh_Beg",
      1
     ]
    ],
-   "alias_rows": []
+   "alias_rows": [
+    "Deccani: Golconda",
+    "Bijapur"
+   ]
   },
   "A1-6": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Centres of production (Murshidabad, Patna, Calcutta, Lucknow, Delhi, Tanjore, Trichinopoly, Punjab), then collections and painters.",
+   "catalogues": [
+    [
+     "https://collections.vam.ac.uk/search/?q=Company+painting",
+     "V&A Collections search: Company painting",
+     "all V&A objects matching 'Company painting'"
+    ],
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Company+school",
+     "British Museum collection search: Company school",
+     "all British Museum objects matching 'Company school'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Company_painting",
+     "Wikipedia: Company painting",
+     "survey with centres and painters"
+    ]
+   ],
    "kinds": [
     [
-     "Shiva Lal",
+     "Fraser Album",
      "Sub-types",
-     "",
-     "evidence",
+     "Delhi paintings of 1815–19 for William and James Fraser by Ghulam Ali Khan's circle",
+     "r3 https://en.wikipedia.org/wiki/Fraser_Album",
      0
     ],
     [
-     "Bahadur Lal II",
+     "Impey Album",
      "Sub-types",
-     "",
-     "evidence",
+     "natural-history paintings for Lady Impey, Calcutta, 1774–82, by Shaikh Zain al-Din and others",
+     "r3 https://en.wikipedia.org/wiki/Impey_Album",
      0
     ],
     [
-     "Brahmin Sadanand",
-     "Sub-types",
-     "",
-     "evidence",
+     "Patna school",
+     "Centres & workshops",
+     "Company painting of Patna and Arrah, c. 1770–1900, Sewak Ram to Shiva Lal",
+     "r3 https://en.wikipedia.org/wiki/Patna_School",
+     0
+    ],
+    [
+     "Murshidabad",
+     "Centres & workshops",
+     "Bengal Nawabi court centre where Company painting began, c. 1760s–80s",
+     "r3 https://en.wikipedia.org/wiki/Murshidabad",
+     0
+    ],
+    [
+     "Tanjore Company painting",
+     "Centres & workshops",
+     "Thanjavur sets of castes, deities and festivals for British buyers, c. 1770–1830",
+     "r3 https://en.wikipedia.org/wiki/Thanjavur_painting",
+     0
+    ],
+    [
+     "Victoria and Albert Museum",
+     "Collections",
+     "2978 objects in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
+     0
+    ],
+    [
+     "Cleveland Museum of Art",
+     "Collections",
+     "9 objects in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art",
      0
     ],
     [
      "Mazhar Ali Khan",
      "Makers",
-     "Delhi Company painter",
+     "Delhi Company painter of monuments, fl. 1840–60",
      "islamic_makers",
      1
     ],
     [
      "Faiz Ali Khan",
      "Makers",
-     "Delhi Company painter",
+     "Delhi Company painter, mid-19th century",
      "islamic_makers",
      1
     ],
     [
      "Khan, Ghulam Ali",
      "Makers",
-     "Delhi Company painter",
+     "Ghulam Ali Khan, Delhi painter for William Fraser and the Skinner family, fl. 1817–52",
      "islamic_makers",
      1
     ],
     [
      "Jiwan Ram",
      "Makers",
-     "Company portraitist",
+     "Delhi Company portraitist, fl. 1820s–40s",
      "islamic_makers",
      1
     ],
     [
      "Kehar Singh",
      "Makers",
-     "Lahore Sikh-period Company painter",
+     "Lahore painter of trades and costumes, Sikh period",
      "islamic_makers",
+     1
+    ],
+    [
+     "Shiva Lal",
+     "Makers",
+     "Patna Company painter, 19th century",
+     "evidence",
+     1
+    ],
+    [
+     "Bahadur Lal II",
+     "Makers",
+     "Patna Company painter, late 19th century",
+     "evidence",
+     1
+    ],
+    [
+     "Brahmin Sadanand",
+     "Makers",
+     "Company-period painter",
+     "evidence",
+     1
+    ],
+    [
+     "Shaikh Zain al-Din",
+     "Makers",
+     "Patna-born painter of the Impey natural-history album, Calcutta, fl. 1770s–80s",
+     "r3 https://en.wikipedia.org/wiki/Shaikh_Zain_al-Din",
+     1
+    ],
+    [
+     "Sita Ram",
+     "Makers",
+     "painter for Lord Hastings' tour of 1814–15, Bengal",
+     "r3 https://en.wikipedia.org/wiki/Sita_Ram_(artist)",
+     1
+    ],
+    [
+     "Sewak Ram",
+     "Makers",
+     "early Patna Company painter, c. 1770–1830",
+     "r3 https://en.wikipedia.org/wiki/Sewak_Ram",
      1
     ]
    ],
@@ -570,218 +1825,260 @@
    ]
   },
   "A1-7": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Court schools in canonical order (Mewar, Bundi, Kota, Kishangarh, Jaipur, Marwar, Bikaner, Malwa, then smaller thikanas); then named painters by school. No gathered named-manuscript catalogue exists for the tradition; Collections ranks museums by objects.",
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Rajput",
+     "The Met collection search: Rajput",
+     "all Met objects matching 'Rajput'"
+    ],
+    [
+     "https://collections.vam.ac.uk/search/?q=Rajasthan+painting",
+     "V&A Collections search: Rajasthan painting",
+     "all V&A objects matching 'Rajasthan painting'"
+    ],
+    [
+     "https://museumsofindia.gov.in/",
+     "Museums of India",
+     "national portal of Indian museum collections"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Rajput_painting",
+     "Wikipedia: Rajput painting",
+     "survey of the court schools and their works"
+    ]
+   ],
    "kinds": [
     [
-     "Rajput: Jaipur (Amber)",
-     "Sub-types",
-     "",
-     "south_southeast_asia",
-     0
-    ],
-    [
-     "Rajput: Mewar",
-     "Sub-types",
-     "",
-     "south_southeast_asia",
-     0
-    ],
-    [
-     "Rajput: Kota",
-     "Sub-types",
-     "",
-     "south_southeast_asia",
-     0
-    ],
-    [
-     "Rajput: Marwar (Jodhpur)",
-     "Sub-types",
-     "",
-     "south_southeast_asia",
-     0
-    ],
-    [
-     "Rajput: Malwa",
-     "Sub-types",
-     "",
-     "south_southeast_asia",
-     0
-    ],
-    [
-     "Rajput: Bikaner",
-     "Sub-types",
-     "",
-     "south_southeast_asia",
-     0
-    ],
-    [
-     "Rajput: Bundi",
-     "Sub-types",
-     "",
-     "south_southeast_asia",
-     0
-    ],
-    [
-     "Western India, Jhilai",
-     "Sub-types",
-     "",
-     "met/aic",
-     0
-    ],
-    [
-     "Chokha",
-     "Sub-types",
-     "",
-     "evidence",
-     0
-    ],
-    [
-     "Nasiruddin",
-     "Sub-types",
-     "",
-     "evidence",
-     0
-    ],
-    [
-     "Mewar Stipple Master",
-     "Sub-types",
-     "",
-     "evidence",
-     0
-    ],
-    [
-     "Jiva",
-     "Sub-types",
-     "",
-     "evidence",
-     0
-    ],
-    [
-     "Jugarsi",
-     "Sub-types",
-     "",
-     "evidence",
-     0
-    ],
-    [
-     "Ruknuddin",
-     "Sub-types",
-     "",
-     "evidence",
-     0
-    ],
-    [
-     "Ustad Murad",
-     "Sub-types",
-     "",
-     "evidence",
-     0
-    ],
-    [
-     "Nathu",
-     "Sub-types",
-     "",
-     "evidence",
-     0
-    ],
-    [
-     "Sahib Ram",
-     "Sub-types",
-     "",
-     "evidence",
-     0
-    ],
-    [
-     "Chhajju Lal",
-     "Sub-types",
-     "",
-     "evidence",
-     0
-    ],
-    [
-     "Amar Das Bhatti",
-     "Sub-types",
-     "",
-     "evidence",
-     0
-    ],
-    [
-     "Dana Bhatti",
-     "Sub-types",
-     "",
-     "evidence",
-     0
-    ],
-    [
-     "Ghasiram",
-     "Sub-types",
-     "",
-     "evidence",
-     0
-    ],
-    [
-     "Kishangarh",
+     "Mewar school",
      "Schools & phases",
-     "",
+     "Udaipur court, from the Chawand Ragamala (1605) to 19th-century court scenes",
+     "south_southeast_asia",
+     0
+    ],
+    [
+     "Kota school",
+     "Schools & phases",
+     "hunting scenes of the Kota court, 18th–19th century",
+     "south_southeast_asia",
+     0
+    ],
+    [
+     "Marwar (Jodhpur) school",
+     "Schools & phases",
+     "Jodhpur court painting, peaking under Man Singh (r. 1803–43)",
+     "south_southeast_asia",
+     0
+    ],
+    [
+     "Malwa school",
+     "Schools & phases",
+     "Central Indian school, 17th century: Rasikapriya and Ragamala sets",
+     "south_southeast_asia",
+     0
+    ],
+    [
+     "Bikaner school",
+     "Schools & phases",
+     "Bikaner court painting with strong Mughal-trained ustads, 17th–18th century",
+     "south_southeast_asia",
+     0
+    ],
+    [
+     "Bundi school",
+     "Schools & phases",
+     "Bundi court, lush landscapes and ragamalas, 17th–19th century",
+     "south_southeast_asia",
+     0
+    ],
+    [
+     "Kishangarh school",
+     "Schools & phases",
+     "Kishangarh court under Savant Singh, elongated Radha figures (Bani Thani)",
      "evidence",
      0
     ],
     [
-     "Nathdwara",
+     "Nathdwara school",
      "Schools & phases",
-     "maker Ghasiram",
+     "temple-town painting for the Shrinathji shrine, Pushtimarg",
      "evidence",
      0
     ],
     [
      "Bundelkhand",
      "Schools & phases",
-     "",
+     "Datia and Orchha courts, Central India",
      "evidence",
      0
     ],
     [
      "Sirohi",
      "Schools & phases",
-     "",
+     "Sirohi court, southern Rajasthan",
      "evidence",
      0
     ],
     [
      "Raghogarh",
      "Schools & phases",
-     "",
+     "Raghogarh thikana, Central India",
      "evidence",
      0
     ],
     [
      "Deogarh",
      "Schools & phases",
-     "makers Chokha, Kushala",
+     "Mewar thikana of Deogarh, 18th–19th century (Chokha, Bagta)",
      "evidence",
      0
     ],
     [
      "Isarda",
      "Schools & phases",
-     "",
+     "Isarda thikana near Jaipur",
      "evidence",
      0
     ],
     [
      "Sawar",
      "Schools & phases",
-     "",
+     "Sawar thikana near Ajmer",
      "evidence",
      0
     ],
     [
      "Alwar",
      "Schools & phases",
-     "",
+     "Alwar court, late 18th–19th century",
      "evidence",
      0
+    ],
+    [
+     "Jaipur (Amber) school",
+     "Schools & phases",
+     "Kachhwaha court of Amber and Jaipur, 17th–19th century",
+     "r3 https://en.wikipedia.org/wiki/Jaipur_painting",
+     0
+    ],
+    [
+     "Victoria and Albert Museum",
+     "Collections",
+     "607 objects in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
+     0
+    ],
+    [
+     "Cleveland Museum of Art",
+     "Collections",
+     "153 objects in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art",
+     0
+    ],
+    [
+     "Art Institute of Chicago",
+     "Collections",
+     "67 objects in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Art+Institute+of+Chicago",
+     0
+    ],
+    [
+     "Rijksmuseum",
+     "Collections",
+     "5 objects in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Rijksmuseum",
+     0
+    ],
+    [
+     "Chokha",
+     "Makers",
+     "Mewar and Deogarh painter, fl. 1799–1826",
+     "evidence",
+     1
+    ],
+    [
+     "Nasiruddin",
+     "Makers",
+     "painter of the Chawand Ragamala (1605), Mewar",
+     "evidence",
+     1
+    ],
+    [
+     "Mewar Stipple Master",
+     "Makers",
+     "anonymous Mewar painter of stippled court scenes, c. 1690–1710",
+     "evidence",
+     1
+    ],
+    [
+     "Jiva",
+     "Makers",
+     "Mewar court painter, 18th century",
+     "evidence",
+     1
+    ],
+    [
+     "Jugarsi",
+     "Makers",
+     "Mewar court painter",
+     "evidence",
+     1
+    ],
+    [
+     "Ruknuddin",
+     "Makers",
+     "Bikaner ustad, fl. 1650–97",
+     "evidence",
+     1
+    ],
+    [
+     "Ustad Murad",
+     "Makers",
+     "Bikaner painter, 18th century",
+     "evidence",
+     1
+    ],
+    [
+     "Nathu",
+     "Makers",
+     "Bikaner painter",
+     "evidence",
+     1
+    ],
+    [
+     "Sahib Ram",
+     "Makers",
+     "Jaipur court portraitist, late 18th century",
+     "evidence",
+     1
+    ],
+    [
+     "Chhajju Lal",
+     "Makers",
+     "Jaipur painter",
+     "evidence",
+     1
+    ],
+    [
+     "Amar Das Bhatti",
+     "Makers",
+     "Marwar painter, 19th century",
+     "evidence",
+     1
+    ],
+    [
+     "Dana Bhatti",
+     "Makers",
+     "Marwar painter, 19th century",
+     "evidence",
+     1
+    ],
+    [
+     "Ghasiram",
+     "Makers",
+     "Ghasiram Hardev Sharma, Nathdwara painter (1869–1930)",
+     "evidence",
+     1
     ],
     [
      "Nihal Chand",
@@ -789,176 +2086,255 @@
      "Painter (c. 1710–1782) of the Kishangarh court, creator of the Bani Thani Radha portrait",
      "possession",
      1
+    ],
+    [
+     "Bagta",
+     "Makers",
+     "Deogarh and Mewar painter, fl. 1761–1814",
+     "r3 https://en.wikipedia.org/wiki/Bagta",
+     1
+    ],
+    [
+     "Sahibdin",
+     "Makers",
+     "Mewar master of the Ramayana and Ragamala sets, fl. 1628–55",
+     "r3 https://en.wikipedia.org/wiki/Sahibdin",
+     1
     ]
    ],
    "alias_rows": [
-    "Rajput"
+    "Rajput: Jaipur (Amber)",
+    "Rajput",
+    "Western India, Jhilai"
    ]
   },
   "A1-8": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Hill-court schools from the Basohli phase to the Guler–Kangra phase (Basohli, Nurpur, Mankot, Jasrota, Guler, Kangra, Chamba, Mandi, Kulu, Bilaspur, Garhwal, Jammu); works: every gathered Pahari manuscript with sitelinks ≥ 1; then collections and painters (family of Pandit Seu first).",
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Pahari",
+     "The Met collection search: Pahari",
+     "all Met objects matching 'Pahari'"
+    ],
+    [
+     "https://collections.vam.ac.uk/search/?q=Pahari+painting",
+     "V&A Collections search: Pahari painting",
+     "all V&A objects matching 'Pahari painting'"
+    ],
+    [
+     "https://museumsofindia.gov.in/",
+     "Museums of India",
+     "national portal of Indian museum collections"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Pahari_painting",
+     "Wikipedia: Pahari painting",
+     "survey of schools and their works"
+    ]
+   ],
    "kinds": [
     [
-     "Pahari: Kangra",
-     "Sub-types",
-     "",
+     "Kangra school",
+     "Schools & phases",
+     "lyrical later phase under Sansar Chand (r. 1775–1823): Gita Govinda, Bhagavata Purana",
      "south_southeast_asia",
      0
     ],
     [
-     "Pahari: Guler",
-     "Sub-types",
-     "",
+     "Guler school",
+     "Schools & phases",
+     "family of Pandit Seu (Manaku, Nainsukh), Guler, c. 1740–80",
      "south_southeast_asia",
      0
     ],
     [
-     "Pahari: Garhwal",
-     "Sub-types",
-     "",
+     "Garhwal school",
+     "Schools & phases",
+     "Garhwal court, Mola Ram and the Guler-trained painters",
      "south_southeast_asia",
      0
     ],
     [
-     "Pahari: Kulu",
-     "Sub-types",
-     "",
+     "Kulu school",
+     "Schools & phases",
+     "Kulu court, 18th century: Shangri Ramayana",
      "south_southeast_asia",
      0
     ],
     [
-     "Pahari: Chamba",
-     "Sub-types",
-     "",
+     "Chamba school",
+     "Schools & phases",
+     "Chamba court, 18th–19th century",
      "south_southeast_asia",
      0
     ],
     [
-     "Pahari: Mandi",
-     "Sub-types",
-     "",
+     "Mandi school",
+     "Schools & phases",
+     "Mandi court, 17th–19th century",
      "south_southeast_asia",
      0
     ],
     [
-     "Pahari: Jammu",
-     "Sub-types",
-     "",
+     "Jammu school",
+     "Schools & phases",
+     "Jammu and Jasrota courts, Nainsukh's patron Balwant Singh",
      "south_southeast_asia",
      0
     ],
     [
-     "Pahari: Bilaspur",
-     "Sub-types",
-     "",
+     "Bilaspur school",
+     "Schools & phases",
+     "Bilaspur (Kahlur) court, 17th–18th century",
      "south_southeast_asia",
      0
     ],
     [
-     "Pahari: Nurpur",
-     "Sub-types",
-     "painting share placed",
+     "Nurpur school",
+     "Schools & phases",
+     "Nurpur court, Golu and Devidasa, late 17th–18th century",
      "south_southeast_asia",
      0
     ],
     [
-     "Pahari: Basohli",
-     "Sub-types",
-     "",
+     "Basohli school",
+     "Schools & phases",
+     "bold early style, c. 1660–1730: Rasamanjari of Kripal",
      "south_southeast_asia",
-     0
-    ],
-    [
-     "Nainsukh",
-     "Sub-types",
-     "",
-     "evidence",
-     0
-    ],
-    [
-     "Manaku",
-     "Sub-types",
-     "",
-     "evidence",
-     0
-    ],
-    [
-     "Fattu",
-     "Sub-types",
-     "",
-     "evidence",
-     0
-    ],
-    [
-     "Purkhu",
-     "Sub-types",
-     "",
-     "evidence",
-     0
-    ],
-    [
-     "Sanju",
-     "Sub-types",
-     "",
-     "evidence",
-     0
-    ],
-    [
-     "Mola Ram",
-     "Sub-types",
-     "",
-     "evidence",
-     0
-    ],
-    [
-     "Mangat Ram",
-     "Sub-types",
-     "",
-     "evidence",
-     0
-    ],
-    [
-     "Mangnu",
-     "Sub-types",
-     "",
-     "evidence",
-     0
-    ],
-    [
-     "Kripal of Nurpur",
-     "Sub-types",
-     "",
-     "evidence",
-     0
-    ],
-    [
-     "Master of the court of Mandi",
-     "Sub-types",
-     "",
-     "evidence",
      0
     ],
     [
      "Mankot",
      "Schools & phases",
-     "",
+     "Mankot court, early 18th century",
      "evidence",
      0
     ],
     [
      "Jasrota",
      "Schools & phases",
-     "Nainsukh",
+     "Jasrota, Nainsukh's base under Balwant Singh",
      "evidence",
      0
     ],
     [
      "Arki",
      "Schools & phases",
-     "",
+     "Arki (Baghal) court, 18th–19th century",
      "evidence",
      0
+    ],
+    [
+     "Early Rasamanjari Series",
+     "Pahari illustrated sets and manuscripts",
+     "Nurpur kingdom, 1660; San Diego Museum of Art; Cleveland Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q116262290",
+     0
+    ],
+    [
+     "Victoria and Albert Museum",
+     "Collections",
+     "449 objects in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
+     0
+    ],
+    [
+     "Cleveland Museum of Art",
+     "Collections",
+     "120 objects in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art",
+     0
+    ],
+    [
+     "Rijksmuseum",
+     "Collections",
+     "8 objects in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Rijksmuseum",
+     0
+    ],
+    [
+     "Nainsukh",
+     "Makers",
+     "Guler painter for Balwant Singh of Jasrota (c. 1710–1778)",
+     "evidence",
+     1
+    ],
+    [
+     "Manaku",
+     "Makers",
+     "Guler painter, elder son of Pandit Seu (c. 1700–1760)",
+     "evidence",
+     1
+    ],
+    [
+     "Fattu",
+     "Makers",
+     "Guler-Kangra painter, son of Manaku",
+     "evidence",
+     1
+    ],
+    [
+     "Purkhu",
+     "Makers",
+     "Kangra court painter of Sansar Chand, fl. 1780–1820",
+     "evidence",
+     1
+    ],
+    [
+     "Sanju",
+     "Makers",
+     "Pahari painter",
+     "evidence",
+     1
+    ],
+    [
+     "Mola Ram",
+     "Makers",
+     "Garhwal painter and poet (1743–1833)",
+     "evidence",
+     1
+    ],
+    [
+     "Mangat Ram",
+     "Makers",
+     "Garhwal painter",
+     "evidence",
+     1
+    ],
+    [
+     "Mangnu",
+     "Makers",
+     "Chamba painter",
+     "evidence",
+     1
+    ],
+    [
+     "Kripal of Nurpur",
+     "Makers",
+     "painter of the Basohli Rasamanjari (1695)",
+     "evidence",
+     1
+    ],
+    [
+     "Master of the court of Mandi",
+     "Makers",
+     "anonymous Mandi master, early 18th century",
+     "evidence",
+     1
+    ],
+    [
+     "Pandit Seu",
+     "Makers",
+     "Guler painter (c. 1680–1740), father of Manaku and Nainsukh",
+     "r3 https://en.wikipedia.org/wiki/Pandit_Seu",
+     1
+    ],
+    [
+     "Devidasa",
+     "Makers",
+     "Nurpur painter of the 1694 Basohli Rasamanjari",
+     "r3 https://en.wikipedia.org/wiki/Devidasa",
+     1
     ]
    ],
    "alias_rows": [
@@ -967,14 +2343,114 @@
    ]
   },
   "A1-9": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Sub-types by text (Kalpasutra, Kalakacharya-katha), then every gathered Jain illustrated manuscript with sitelinks ≥ 1 by date, then collections.",
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Kalpasutra",
+     "The Met collection search: Kalpasutra",
+     "all Met objects matching 'Kalpasutra'"
+    ],
+    [
+     "https://collections.vam.ac.uk/search/?q=Jain+manuscript",
+     "V&A Collections search: Jain manuscript",
+     "all V&A objects matching 'Jain manuscript'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Jain_art",
+     "Wikipedia: Jain art",
+     "survey including the Western Indian manuscript style"
+    ]
+   ],
    "kinds": [
     [
-     "Kalpasutra and Jain illustrated texts",
+     "Kalpasutra",
      "Sub-types",
-     "",
+     "the life of the Jinas, most often illustrated Jain text, palm leaf then paper, 13th–16th c.",
      "manuscripts",
+     0
+    ],
+    [
+     "Kalakacharya-katha",
+     "Sub-types",
+     "story of the monk Kalaka, bound with Kalpasutras from the 14th century",
+     "r3 https://en.wikipedia.org/wiki/Kalakacharya",
+     0
+    ],
+    [
+     "Western Indian style",
+     "Schools & phases",
+     "angular figures with projecting further eye, Gujarat and Rajasthan, 12th–16th century",
+     "r3 https://en.wikipedia.org/wiki/Jain_art",
+     0
+    ],
+    [
+     "Patan",
+     "Centres & workshops",
+     "Gujarat centre of Jain manuscript production and libraries (bhandars)",
+     "r3 https://en.wikipedia.org/wiki/Patan,_Gujarat",
+     0
+    ],
+    [
+     "Jaisalmer",
+     "Centres & workshops",
+     "Jinabhadra Suri bhandar, one of the great Jain manuscript libraries",
+     "r3 https://en.wikipedia.org/wiki/Jaisalmer",
+     0
+    ],
+    [
+     "Lustration of the Infant Jina Mahavira: Folio from a Kalpasutra Manuscript",
+     "Kalpasutra and other Jain manuscripts",
+     "Gujarat, 1383; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q78714293",
+     0
+    ],
+    [
+     "Kalpasutra and Kalakacharya Katha",
+     "Kalpasutra and other Jain manuscripts",
+     "West India, c. 1400; Chhatrapati Shivaji Maharaj Vastu Sangrahalaya",
+     "r3 https://www.wikidata.org/wiki/Q115913408",
+     0
+    ],
+    [
+     "Kalpa Sutra and Kalacharyakatha",
+     "Kalpasutra and other Jain manuscripts",
+     "Gujarat, 1411; Arthur M. Sackler Gallery",
+     "r3 https://www.wikidata.org/wiki/Q115801693",
+     0
+    ],
+    [
+     "Mandu Kalpasutra",
+     "Kalpasutra and other Jain manuscripts",
+     "Mandu, 1439; National Museum; Los Angeles County Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q115780593",
+     0
+    ],
+    [
+     "Devasano Pado \"Kalpasutra\" and \"Kalakacharya Katha\"",
+     "Kalpasutra and other Jain manuscripts",
+     "Gujarat, c. 1500; San Diego Museum of Art; Cleveland Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q123124935",
+     0
+    ],
+    [
+     "Kakawin Siwaratri Kalpa",
+     "Kalpasutra and other Jain manuscripts",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q12488525",
+     0
+    ],
+    [
+     "Kalpa Sanghara",
+     "Kalpasutra and other Jain manuscripts",
+     "Indonesia",
+     "r3 https://www.wikidata.org/wiki/Q109586115",
+     0
+    ],
+    [
+     "Victoria and Albert Museum",
+     "Collections",
+     "281 objects in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
      0
     ]
    ],
@@ -983,96 +2459,937 @@
    ]
   },
   "A1-10": {
-   "axis": "",
-   "catalogues": [],
-   "kinds": [],
+   "axis": "Sub-types (court portraiture, Janamsakhi illustration), then Lahore and hill painters active for Sikh patrons, by date; collections ranked by gathered Sikh (Punjab) objects. No named Sikh manuscript with sitelinks in the gathered data.",
+   "catalogues": [
+    [
+     "https://collections.vam.ac.uk/search/?q=Sikh",
+     "V&A Collections search: Sikh",
+     "all V&A objects matching 'Sikh'"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Sikh",
+     "The Met collection search: Sikh",
+     "all Met objects matching 'Sikh'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Sikh_art_and_culture",
+     "Wikipedia: Sikh art and culture",
+     "survey including Sikh painting"
+    ]
+   ],
+   "kinds": [
+    [
+     "Janamsakhi",
+     "Sub-types",
+     "illustrated hagiographies of Guru Nanak, from the 18th century (B-40 Janamsakhi, 1733)",
+     "r3 https://en.wikipedia.org/wiki/Janamsakhi",
+     0
+    ],
+    [
+     "Sikh court portraiture",
+     "Sub-types",
+     "portraits of Maharaja Ranjit Singh and his court, Lahore, 1810s–40s",
+     "r3 https://en.wikipedia.org/wiki/Ranjit_Singh",
+     0
+    ],
+    [
+     "Victoria and Albert Museum",
+     "Collections",
+     "71 objects in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
+     0
+    ],
+    [
+     "Cleveland Museum of Art",
+     "Collections",
+     "1 object in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art",
+     0
+    ],
+    [
+     "Purkhu",
+     "Makers",
+     "Kangra painter who also worked for Sikh patrons",
+     "r3 https://en.wikipedia.org/wiki/Purkhu",
+     1
+    ],
+    [
+     "Kapur Singh",
+     "Makers",
+     "Amritsar painter of Punjabi trades and portraits, mid-19th century",
+     "r3 https://en.wikipedia.org/wiki/Kapur_Singh_(painter)",
+     1
+    ],
+    [
+     "August Schoefft",
+     "Makers",
+     "Hungarian painter at the Lahore court, 1841, The Court of Lahore",
+     "r3 https://en.wikipedia.org/wiki/August_Schoefft",
+     1
+    ],
+    [
+     "Emily Eden",
+     "Makers",
+     "English artist who drew Ranjit Singh's court, 1838",
+     "r3 https://en.wikipedia.org/wiki/Emily_Eden",
+     1
+    ]
+   ],
    "alias_rows": []
   },
   "A1-11": {
-   "axis": "",
-   "catalogues": [],
-   "kinds": [],
+   "axis": "Styles (Sattriya, Ahom court Garhgaya, Darrang), then named manuscripts known from the literature (the gathered rows are noise), then painters; collections ranked by gathered Assam objects.",
+   "catalogues": [
+    [
+     "https://en.wikipedia.org/wiki/Assamese_painting",
+     "Wikipedia: Assamese painting",
+     "survey of manuscript painting in Assam"
+    ],
+    [
+     "https://museumsofindia.gov.in/",
+     "Museums of India",
+     "national portal of Indian museum collections"
+    ]
+   ],
+   "kinds": [
+    [
+     "Sanchipat",
+     "Sub-types",
+     "folios of agarwood bark, the writing and painting surface",
+     "r3 https://en.wikipedia.org/wiki/Sanchipat",
+     0
+    ],
+    [
+     "Sattriya style",
+     "Schools & phases",
+     "monastic (sattra) style of Vaishnava manuscripts, 16th–19th century",
+     "r3 https://en.wikipedia.org/wiki/Sattriya",
+     0
+    ],
+    [
+     "Garhgaya style",
+     "Schools & phases",
+     "Ahom court style of the capital Garhgaon, 18th century",
+     "r3 https://en.wikipedia.org/wiki/Ahom_kingdom",
+     0
+    ],
+    [
+     "Hastividyarnava",
+     "Named manuscripts",
+     "treatise on elephants painted by Dilbar and Dosai for Siva Singha, 1734; Directorate of Archives, Guwahati",
+     "r3 https://en.wikipedia.org/wiki/Hastividyarnava",
+     0
+    ],
+    [
+     "Chitra Bhagavata",
+     "Named manuscripts",
+     "illustrated Bhagavata Purana (Book X), 16th century, Barpeta Satra",
+     "r3 https://en.wikipedia.org/wiki/Chitra_Bhagavata",
+     0
+    ],
+    [
+     "Victoria and Albert Museum",
+     "Collections",
+     "96 objects in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
+     0
+    ],
+    [
+     "Dilbar and Dosai",
+     "Makers",
+     "Ahom court painters of the Hastividyarnava (1734)",
+     "r3 https://en.wikipedia.org/wiki/Hastividyarnava",
+     1
+    ]
+   ],
    "alias_rows": [
     "Assamese (Sanchipat) and Bengali manuscripts"
    ]
   },
   "A1-12": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Sub-types (white and black parabaik), then the Konbaung court workshops and named painters by date; collections ranked by gathered parabaik and court-painting objects.",
+   "catalogues": [
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=parabaik",
+     "British Museum collection search: parabaik",
+     "all British Museum objects matching 'parabaik'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Parabaik",
+     "Wikipedia: Parabaik",
+     "the Burmese folding-book form and its painting"
+    ]
+   ],
    "kinds": [
+    [
+     "White parabaik",
+     "Sub-types",
+     "white mulberry-paper folding books painted in watercolour with court and Jataka scenes",
+     "gap_sweep",
+     0
+    ],
+    [
+     "Black parabaik",
+     "Sub-types",
+     "blackened folding books written with steatite, used for records and drafts",
+     "r3 https://en.wikipedia.org/wiki/Parabaik",
+     0
+    ],
+    [
+     "Burmese court painting",
+     "Schools & phases",
+     "painting of the Konbaung court at Amarapura and Mandalay, 18th–19th century",
+     "gap_sweep",
+     0
+    ],
     [
      "Konbaung court workshops (Mindon, Thibaw)",
      "Centres & workshops",
-     "",
+     "royal painters' workshops of Mandalay under Mindon and Thibaw",
      "evidence",
+     0
+    ],
+    [
+     "Victoria and Albert Museum",
+     "Collections",
+     "181 objects in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
+     0
+    ],
+    [
+     "Cleveland Museum of Art",
+     "Collections",
+     "35 objects in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Cleveland+Museum+of+Art",
+     0
+    ],
+    [
+     "Penn Museum",
+     "Collections",
+     "22 objects in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Penn+Museum",
+     0
+    ],
+    [
+     "The Metropolitan Museum of Art",
+     "Collections",
+     "3 objects in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=The+Metropolitan+Museum+of+Art",
+     0
+    ],
+    [
+     "Art Institute of Chicago",
+     "Collections",
+     "2 objects in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Art+Institute+of+Chicago",
      0
     ],
     [
      "Maung Tin Hla",
      "Makers",
-     "",
+     "Mandalay painter of parabaik, late 19th century",
      "evidence",
      1
     ],
     [
      "Yatanabon Maung Su",
      "Makers",
-     "",
+     "Mandalay (Yatanabon) parabaik painter, late 19th century",
      "evidence",
+     1
+    ],
+    [
+     "Saya Chone",
+     "Makers",
+     "Konbaung court painter (1866–1917), bridge to modern Burmese painting",
+     "r3 https://en.wikipedia.org/wiki/Saya_Chone",
      1
     ]
    ],
-   "alias_rows": [
-    "Burmese court painting",
-    "Burmese parabaik manuscript painting"
-   ]
+   "alias_rows": []
   },
   "A1-13": {
-   "axis": "",
-   "catalogues": [],
-   "kinds": [],
+   "axis": "Sub-types by text (Phra Malai, Traiphum, treatises), then every gathered named Thai manuscript with sitelinks ≥ 1, then collections.",
+   "catalogues": [
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Phra+Malai",
+     "British Museum collection search: Phra Malai",
+     "all British Museum objects matching 'Phra Malai'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Samut_khoi",
+     "Wikipedia: Samut khoi",
+     "the Thai folding manuscript and its painting"
+    ]
+   ],
+   "kinds": [
+    [
+     "Phra Malai manuscripts",
+     "Sub-types",
+     "funerary chanting books of the monk Phra Malai's visit to heaven and hell, 18th–19th century",
+     "r3 https://en.wikipedia.org/wiki/Phra_Malai",
+     0
+    ],
+    [
+     "Traiphum manuscripts",
+     "Sub-types",
+     "illustrated Buddhist cosmologies (Three Worlds), Ayutthaya and Thonburi",
+     "r3 https://en.wikipedia.org/wiki/Traiphum_Phra_Ruang",
+     0
+    ],
+    [
+     "Samut khoi",
+     "Sub-types",
+     "folding books of khoi-bark paper, white or blackened",
+     "r3 https://en.wikipedia.org/wiki/Samut_khoi",
+     0
+    ],
+    [
+     "Treatise on Cats",
+     "Named Thai manuscripts",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q16294927",
+     0
+    ],
+    [
+     "Penn Museum",
+     "Collections",
+     "1 object in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Penn+Museum",
+     0
+    ]
+   ],
    "alias_rows": [
     "Thai manuscript painting (samut khoi, Phra Malai)"
    ]
   },
   "A1-14": {
-   "axis": "",
-   "catalogues": [],
-   "kinds": [],
+   "axis": "Sub-types (book and scroll formats, otogi-zōshi texts), then every gathered illustrated tale manuscript (monogatari copies) with sitelinks ≥ 1, then collections.",
+   "catalogues": [
+    [
+     "https://colbase.nich.go.jp/",
+     "ColBase",
+     "integrated collections database of Japan's four national museums"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Nara-ehon",
+     "Wikipedia: Nara-ehon",
+     "the illustrated-book genre and examples"
+    ]
+   ],
+   "kinds": [
+    [
+     "Otogi-zōshi",
+     "Sub-types",
+     "Muromachi and Edo short tales, the main texts of Nara-ehon",
+     "r3 https://en.wikipedia.org/wiki/Otogizōshi",
+     0
+    ],
+    [
+     "Emaki format (Nara-emaki)",
+     "Sub-types",
+     "Nara-ehon tales painted as handscrolls",
+     "r3 https://en.wikipedia.org/wiki/Emakimono",
+     0
+    ],
+    [
+     "Bunshō sōshi",
+     "Named works",
+     "otogi-zōshi tale of a salt-maker's rise, often illustrated as Nara-ehon",
+     "r3 https://en.wikipedia.org/wiki/Bunshō_sōshi",
+     0
+    ],
+    [
+     "Shuten-dōji",
+     "Named works",
+     "ogre-slaying tale, one of the most illustrated Nara-ehon subjects",
+     "r3 https://en.wikipedia.org/wiki/Shuten-dōji",
+     0
+    ],
+    [
+     "Ikeda-bon Genji monogatari",
+     "Illustrated and illuminated tale manuscripts",
+     "c. 1400; Tenri Central Library",
+     "r3 https://www.wikidata.org/wiki/Q11551973",
+     0
+    ],
+    [
+     "Ōshima-bon Genji monogatari",
+     "Illustrated and illuminated tale manuscripts",
+     "1481",
+     "r3 https://www.wikidata.org/wiki/Q11434908",
+     0
+    ],
+    [
+     "Autograph manuscript of the Tale of Genji by Fujiwara no Teika",
+     "Illustrated and illuminated tale manuscripts",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q201335",
+     0
+    ],
+    [
+     "Bishūke-bon Genji Monogatari",
+     "Illustrated and illuminated tale manuscripts",
+     "Hōsa Library",
+     "r3 https://www.wikidata.org/wiki/Q11465279",
+     0
+    ],
+    [
+     "Umezawa-bon Eiga Monogatari",
+     "Illustrated and illuminated tale manuscripts",
+     "Japan; Kyushu National Museum",
+     "r3 https://www.wikidata.org/wiki/Q107044932",
+     0
+    ],
+    [
+     "Suzuka-bon Konjaku Monogatarishū",
+     "Illustrated and illuminated tale manuscripts",
+     "Japan; Kyoto University Library",
+     "r3 https://www.wikidata.org/wiki/Q111812525",
+     0
+    ],
+    [
+     "Genji Monogatari Abutsuni-bon",
+     "Illustrated and illuminated tale manuscripts",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q11657211",
+     0
+    ],
+    [
+     "Bibliothèque nationale de France",
+     "Collections",
+     "536 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Bibliothèque+nationale+de+France",
+     0
+    ],
+    [
+     "Cabinet Library",
+     "Collections",
+     "29 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Cabinet+Library",
+     0
+    ],
+    [
+     "Tokyo National Museum",
+     "Collections",
+     "27 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Tokyo+National+Museum",
+     0
+    ],
+    [
+     "Kyoto National Museum",
+     "Collections",
+     "17 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Kyoto+National+Museum",
+     0
+    ],
+    [
+     "Tenri Central Library",
+     "Collections",
+     "5 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Tenri+Central+Library",
+     0
+    ],
+    [
+     "Tōyō Bunko",
+     "Collections",
+     "5 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Tōyō+Bunko",
+     0
+    ],
+    [
+     "Nara National Museum",
+     "Collections",
+     "5 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Nara+National+Museum",
+     0
+    ],
+    [
+     "University of Pennsylvania",
+     "Collections",
+     "5 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=University+of+Pennsylvania",
+     0
+    ]
+   ],
    "alias_rows": [
     "Japanese manuscripts and Nara-ehon"
    ]
   },
   "A1-15": {
-   "axis": "",
-   "catalogues": [],
-   "kinds": [],
+   "axis": "Phases (Aksumite and early Solomonic, Gondarine); works: every gathered Ethiopian painted manuscript (illuminated flag or Gospel book, sitelinks ≥ 1; scrolls go to Ethiopian Magic Scrolls), by phase; then collections.",
+   "catalogues": [
+    [
+     "https://www.vhmml.org/readingRoom/",
+     "vHMML Reading Room",
+     "Hill Museum & Manuscript Library digitised manuscripts (Ethiopia, Mali, Middle East, Armenia...)"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Ethiopian_art",
+     "Wikipedia: Ethiopian art",
+     "survey with manuscript painting"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Ethiopian+manuscript",
+     "The Met collection search: Ethiopian manuscript",
+     "all Met objects matching 'Ethiopian manuscript'"
+    ]
+   ],
+   "kinds": [
+    [
+     "Miracles of Mary (Te'amire Maryam)",
+     "Sub-types",
+     "Marian miracle books, the most richly illustrated Gondarine genre",
+     "r3 https://en.wikipedia.org/wiki/Miracles_of_Mary",
+     0
+    ],
+    [
+     "First Gondarine style",
+     "Schools & phases",
+     "court painting of Gondar, c. 1630–1730",
+     "r3 https://en.wikipedia.org/wiki/Gondarine_art",
+     0
+    ],
+    [
+     "Second Gondarine style",
+     "Schools & phases",
+     "18th-century Gondar painting with richer colour and Western prints as models",
+     "r3 https://en.wikipedia.org/wiki/Gondarine_art",
+     0
+    ],
+    [
+     "Garima Gospels",
+     "Early Ethiopian manuscripts (Aksumite to 15th century)",
+     "Aksumite Gospels, c. 390–660, the oldest illustrated Christian books; Abba Garima Monastery",
+     "r3 https://en.wikipedia.org/wiki/Garima_Gospels",
+     0
+    ],
+    [
+     "Ethiopian Gunda Gunde Gospels",
+     "Gondarine and later manuscripts (16th–18th century)",
+     "Gunda Gunde Monastery, c. 1550; Walters Art Museum",
+     "r3 https://www.wikidata.org/wiki/Q67120413",
+     0
+    ],
+    [
+     "Prayer Book: Arganonä Maryam (The Organ of Mary)",
+     "Gondarine and later manuscripts (16th–18th century)",
+     "c. 1650; Metropolitan Museum of Art",
+     "r3 https://www.wikidata.org/wiki/Q30080350",
+     0
+    ],
+    [
+     "Bibliothèque nationale de France",
+     "Collections",
+     "956 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Bibliothèque+nationale+de+France",
+     0
+    ],
+    [
+     "British Library",
+     "Collections",
+     "33 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=British+Library",
+     0
+    ],
+    [
+     "Penn Museum",
+     "Collections",
+     "9 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Penn+Museum",
+     0
+    ],
+    [
+     "Geneva Ethnography Museum",
+     "Collections",
+     "4 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Geneva+Ethnography+Museum",
+     0
+    ],
+    [
+     "The Metropolitan Museum of Art",
+     "Collections",
+     "4 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=The+Metropolitan+Museum+of+Art",
+     0
+    ],
+    [
+     "Victoria and Albert Museum",
+     "Collections",
+     "4 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Victoria+and+Albert+Museum",
+     0
+    ],
+    [
+     "University of Dayton",
+     "Collections",
+     "3 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=University+of+Dayton",
+     0
+    ],
+    [
+     "Wellesley College",
+     "Collections",
+     "3 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Wellesley+College",
+     0
+    ],
+    [
+     "Fere Seyon",
+     "Makers",
+     "15th-century painter at the court of Zara Yaqob, Marian icons and manuscripts",
+     "r3 https://en.wikipedia.org/wiki/Fre_Seyon",
+     1
+    ]
+   ],
    "alias_rows": [
     "Ethiopian illuminated manuscripts"
    ]
   },
   "A1-16": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Phases (Early, Macedonian Renaissance, Komnenian, Palaiologan, post-Byzantine); works: every gathered Byzantine manuscript with painted miniatures (illuminated flag or recorded miniature cycle; numbered New Testament witnesses excluded), sitelinks ≥ 1, by phase; then collections and illuminators.",
+   "catalogues": [
+    [
+     "https://pinakes.irht.cnrs.fr/",
+     "Pinakes (IRHT)",
+     "census of Greek manuscripts and their holding libraries"
+    ],
+    [
+     "https://digi.vatlib.it/",
+     "DigiVatLib",
+     "digitised manuscripts of the Vatican Library"
+    ],
+    [
+     "https://gallica.bnf.fr/",
+     "Gallica (BnF)",
+     "digitised manuscripts and prints of the Bibliothèque nationale de France"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Byzantine_illuminated_manuscripts",
+     "Wikipedia: Byzantine illuminated manuscripts",
+     "survey and list of principal manuscripts"
+    ]
+   ],
    "kinds": [
+    [
+     "Purple codices",
+     "Sub-types",
+     "Gospels on purple-dyed parchment in gold and silver: Rossano, Sinope, Petropolitanus",
+     "r3 https://en.wikipedia.org/wiki/Purple_parchment",
+     0
+    ],
+    [
+     "Aristocratic psalters",
+     "Sub-types",
+     "full-page miniature psalters of the Paris Psalter type",
+     "r3 https://en.wikipedia.org/wiki/Paris_Psalter",
+     0
+    ],
+    [
+     "Marginal psalters",
+     "Sub-types",
+     "psalters with marginal illustrations: Chludov, Theodore, Bristol Psalters",
+     "r3 https://en.wikipedia.org/wiki/Chludov_Psalter",
+     0
+    ],
     [
      "Macedonian Renaissance",
      "Schools & phases",
-     "",
+     "classicising revival of the 9th–10th century: Paris Psalter, Joshua Roll, Menologion of Basil II",
      "evidence",
+     0
+    ],
+    [
+     "Komnenian style",
+     "Schools & phases",
+     "12th-century court style, Kokkinobaphos Master",
+     "r3 https://en.wikipedia.org/wiki/Komnenian_restoration",
+     0
+    ],
+    [
+     "Palaiologan Renaissance",
+     "Schools & phases",
+     "late classicism of 1261–1453 in books and icons",
+     "r3 https://en.wikipedia.org/wiki/Palaiologan_Renaissance",
+     0
+    ],
+    [
+     "Rossano Gospels",
+     "Early Byzantine manuscripts (to 843)",
+     "Syria, c. 500",
+     "r3 https://www.wikidata.org/wiki/Q1106441",
+     0
+    ],
+    [
+     "Vienna Genesis",
+     "Early Byzantine manuscripts (to 843)",
+     "c. 500; Austrian National Library",
+     "r3 https://www.wikidata.org/wiki/Q697831",
+     0
+    ],
+    [
+     "Cotton Genesis",
+     "Early Byzantine manuscripts (to 843)",
+     "c. 500; British Library; Bodleian Library",
+     "r3 https://www.wikidata.org/wiki/Q1216468",
+     0
+    ],
+    [
+     "Vienna Dioscurides",
+     "Early Byzantine manuscripts (to 843)",
+     "c. 600; Austrian National Library",
+     "r3 https://www.wikidata.org/wiki/Q699363",
+     0
+    ],
+    [
+     "Codex Beratinus",
+     "Early Byzantine manuscripts (to 843)",
+     "c. 600",
+     "r3 https://www.wikidata.org/wiki/Q747767",
+     0
+    ],
+    [
+     "Uspenski Gospels",
+     "Early Byzantine manuscripts (to 843)",
+     "835; National Library of Russia",
+     "r3 https://www.wikidata.org/wiki/Q7713776",
+     0
+    ],
+    [
+     "Chludov Psalter",
+     "Middle Byzantine manuscripts (843–1204)",
+     "c. 850; State Historical Museum",
+     "r3 https://www.wikidata.org/wiki/Q765066",
+     0
+    ],
+    [
+     "Homilies of St. Gregory of Nazianzus",
+     "Middle Byzantine manuscripts (843–1204)",
+     "c. 900; Bibliothèque nationale de France",
+     "r3 https://www.wikidata.org/wiki/Q1626113",
+     0
+    ],
+    [
+     "Paris Psalter",
+     "Middle Byzantine manuscripts (843–1204)",
+     "Constantinople, 901; Bibliothèque nationale de France",
+     "r3 https://www.wikidata.org/wiki/Q1810000",
+     0
+    ],
+    [
+     "Joshua Roll",
+     "Middle Byzantine manuscripts (843–1204)",
+     "913; Vatican Library",
+     "r3 https://www.wikidata.org/wiki/Q785039",
+     0
+    ],
+    [
+     "Trebizond Gospel",
+     "Middle Byzantine manuscripts (843–1204)",
+     "c. 950; National Library of Russia",
+     "r3 https://www.wikidata.org/wiki/Q32290",
+     0
+    ],
+    [
+     "Minuscule 699",
+     "Middle Byzantine manuscripts (843–1204)",
+     "Byzantine Empire, c. 950; British Library",
+     "r3 https://www.wikidata.org/wiki/Q6870853",
+     0
+    ],
+    [
+     "Psalter with Catenae",
+     "Middle Byzantine manuscripts (843–1204)",
+     "c. 950; Bodleian Library",
+     "r3 https://www.wikidata.org/wiki/Q25388188",
+     0
+    ],
+    [
+     "Menologion of Basil II",
+     "Middle Byzantine manuscripts (843–1204)",
+     "Constantinople, c. 1000; Vatican Library",
+     "r3 https://www.wikidata.org/wiki/Q1918574",
+     0
+    ],
+    [
+     "The Homilies of James of Kokkinobaphos",
+     "Middle Byzantine manuscripts (843–1204)",
+     "c. 1200; Vatican Library; Bibliothèque nationale de France",
+     "r3 https://www.wikidata.org/wiki/Q28154661",
+     0
+    ],
+    [
+     "Minuscule 714",
+     "Palaiologan manuscripts (1261–1453)",
+     "c. 1300; British Library",
+     "r3 https://www.wikidata.org/wiki/Q3858626",
+     0
+    ],
+    [
+     "Complete Works of St. Dionysius the Areopagite",
+     "Palaiologan manuscripts (1261–1453)",
+     "Constantinople, 1385; Department of Decorative Arts of the Louvre",
+     "r3 https://www.wikidata.org/wiki/Q16686054",
+     0
+    ],
+    [
+     "Minuscule 1843",
+     "Palaiologan manuscripts (1261–1453)",
+     "1444; Vatican Library",
+     "r3 https://www.wikidata.org/wiki/Q2981677",
+     0
+    ],
+    [
+     "Madrid Skylitzes",
+     "Byzantine illuminated manuscripts, undated",
+     "Biblioteca Nacional de España",
+     "r3 https://www.wikidata.org/wiki/Q1444971",
+     0
+    ],
+    [
+     "Sinope Gospels",
+     "Byzantine illuminated manuscripts, undated",
+     "Bibliothèque nationale de France",
+     "r3 https://www.wikidata.org/wiki/Q1106292",
+     0
+    ],
+    [
+     "Ambrosian Iliad",
+     "Byzantine illuminated manuscripts, undated",
+     "Biblioteca Ambrosiana",
+     "r3 https://www.wikidata.org/wiki/Q1075702",
+     0
+    ],
+    [
+     "Romance Papyrus",
+     "Byzantine illuminated manuscripts, undated",
+     "Bibliothèque nationale de France",
+     "r3 https://www.wikidata.org/wiki/Q3940552",
+     0
+    ],
+    [
+     "Naples Dioscurides",
+     "Byzantine illuminated manuscripts, undated",
+     "Biblioteca nazionale Vittorio Emanuele III",
+     "r3 https://www.wikidata.org/wiki/Q1227069",
+     0
+    ],
+    [
+     "Oracles of Leo the Wise",
+     "Byzantine illuminated manuscripts, undated",
+     "Byzantine Empire",
+     "r3 https://www.wikidata.org/wiki/Q20552759",
+     0
+    ],
+    [
+     "Theological treatises of John VI Kantakouzenos",
+     "Byzantine illuminated manuscripts, undated",
+     "Bibliothèque nationale de France",
+     "r3 https://www.wikidata.org/wiki/Q16680925",
+     0
+    ],
+    [
+     "Berlin Genesis",
+     "Byzantine illuminated manuscripts, undated",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q24706443",
+     0
+    ],
+    [
+     "Rahlfs 73",
+     "Byzantine illuminated manuscripts, undated",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q3348794",
+     0
+    ],
+    [
+     "Codex Vatopedinus 602",
+     "Byzantine illuminated manuscripts, undated",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q25377613",
+     0
+    ],
+    [
+     "Oracula",
+     "Post-Byzantine manuscripts (after 1453)",
+     "1577; Bodleian Library",
+     "r3 https://www.wikidata.org/wiki/Q55237119",
+     0
+    ],
+    [
+     "Klontzas Marciana Manuscript",
+     "Post-Byzantine manuscripts (after 1453)",
+     "1592; Biblioteca Nazionale Marciana",
+     "r3 https://www.wikidata.org/wiki/Q135654579",
+     0
+    ],
+    [
+     "Thesaurus Picturarum",
+     "Post-Byzantine manuscripts (after 1453)",
+     "c. 1700",
+     "r3 https://www.wikidata.org/wiki/Q100725757",
+     0
+    ],
+    [
+     "Minuscule 106",
+     "Post-Byzantine manuscripts (after 1453)",
+     "Byzantine Empire, c. 2000; Chester Beatty Library",
+     "r3 https://www.wikidata.org/wiki/Q6869791",
+     0
+    ],
+    [
+     "Bibliothèque nationale de France",
+     "Collections",
+     "5 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Bibliothèque+nationale+de+France",
+     0
+    ],
+    [
+     "Vatican Library",
+     "Collections",
+     "4 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Vatican+Library",
+     0
+    ],
+    [
+     "British Library",
+     "Collections",
+     "3 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=British+Library",
+     0
+    ],
+    [
+     "Bodleian Library",
+     "Collections",
+     "3 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Bodleian+Library",
+     0
+    ],
+    [
+     "Austrian National Library",
+     "Collections",
+     "2 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Austrian+National+Library",
+     0
+    ],
+    [
+     "Chester Beatty Library",
+     "Collections",
+     "2 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Chester+Beatty+Library",
      0
     ],
     [
      "Kokkinobaphos Master",
      "Makers",
-     "",
+     "illuminator of the Homilies of James of Kokkinobaphos, Constantinople, 12th century",
      "evidence",
      1
     ],
     [
      "Pantoleon",
      "Makers",
-     "",
+     "lead painter of the Menologion of Basil II, c. 1000",
      "evidence",
      1
     ]
@@ -1082,137 +3399,689 @@
    ]
   },
   "A1-17": {
-   "axis": "",
-   "catalogues": [],
-   "kinds": [],
+   "axis": "Works: the five screenfold codices of the group as gathered (sitelinks ≥ 1; misattributed European items excluded), by date; then collections.",
+   "catalogues": [
+    [
+     "https://en.wikipedia.org/wiki/Borgia_Group",
+     "Wikipedia: Borgia Group",
+     "the five codices of the group with holdings"
+    ],
+    [
+     "https://digi.vatlib.it/",
+     "DigiVatLib",
+     "digitised manuscripts of the Vatican Library"
+    ],
+    [
+     "http://www.famsi.org/research/loubat/",
+     "FAMSI: Loubat facsimiles",
+     "facsimiles of the Borgia, Vaticanus B, Cospi and other codices"
+    ]
+   ],
+   "kinds": [
+    [
+     "Tonalamatl",
+     "Sub-types",
+     "260-day divinatory almanacs, the core content of the group",
+     "r3 https://en.wikipedia.org/wiki/Tonalpohualli",
+     0
+    ],
+    [
+     "Codex Laud",
+     "Borgia Group codices",
+     "c. 1500; Bodleian Library",
+     "r3 https://www.wikidata.org/wiki/Q2547582",
+     0
+    ],
+    [
+     "Codex Cospi",
+     "Borgia Group codices",
+     "c. 1500; Library of the University of Bologna",
+     "r3 https://www.wikidata.org/wiki/Q2433675",
+     0
+    ],
+    [
+     "Codex Borgia",
+     "Borgia Group codices",
+     "c. 1600; Vatican Library",
+     "r3 https://www.wikidata.org/wiki/Q2319342",
+     0
+    ],
+    [
+     "Codex Fejérváry-Mayer",
+     "Borgia Group codices",
+     "c. 1600; World Museum",
+     "r3 https://www.wikidata.org/wiki/Q937877",
+     0
+    ],
+    [
+     "Codex Vaticanus B",
+     "Borgia Group codices",
+     "Vatican Library",
+     "r3 https://www.wikidata.org/wiki/Q2530268",
+     0
+    ],
+    [
+     "Vatican Library",
+     "Collections",
+     "2 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Vatican+Library",
+     0
+    ],
+    [
+     "Bodleian Library",
+     "Collections",
+     "1 manuscript in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Bodleian+Library",
+     0
+    ],
+    [
+     "Library of the University of Bologna",
+     "Collections",
+     "1 manuscript in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Library+of+the+University+of+Bologna",
+     0
+    ]
+   ],
    "alias_rows": [
     "Borgia group codices"
    ]
   },
   "A1-18": {
-   "axis": "",
-   "catalogues": [],
-   "kinds": [],
+   "axis": "Works: every gathered Mixtec screenfold codex with sitelinks ≥ 1 (misattributed Vienna and Bodleian European items excluded), pre-Hispanic first then colonial; then collections.",
+   "catalogues": [
+    [
+     "https://en.wikipedia.org/wiki/Mixtec_codices",
+     "Wikipedia: Mixtec codices",
+     "list of the surviving codices"
+    ],
+    [
+     "https://digital.bodleian.ox.ac.uk/",
+     "Digital Bodleian",
+     "digitised manuscripts of the Bodleian Libraries, Oxford"
+    ]
+   ],
+   "kinds": [
+    [
+     "Eight Deer Jaguar Claw",
+     "Sub-types",
+     "Mixtec ruler (1063–1115) whose life is the main subject of the codices",
+     "r3 https://en.wikipedia.org/wiki/Eight_Deer_Jaguar_Claw",
+     0
+    ],
+    [
+     "Codex Colombino",
+     "Pre-Hispanic Mixtec codices",
+     "c. 1150; National Museum of Anthropology",
+     "r3 https://www.wikidata.org/wiki/Q3119259",
+     0
+    ],
+    [
+     "Codex Zouche-Nuttall",
+     "Pre-Hispanic Mixtec codices",
+     "British Library",
+     "r3 https://www.wikidata.org/wiki/Q1106134",
+     0
+    ],
+    [
+     "Codex Vindobonensis Mexicanus I",
+     "Pre-Hispanic Mixtec codices",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q2838604",
+     0
+    ],
+    [
+     "Codex Bodley",
+     "Pre-Hispanic Mixtec codices",
+     "Bodleian Library",
+     "r3 https://www.wikidata.org/wiki/Q2981657",
+     0
+    ],
+    [
+     "Codex Colombino-Becker",
+     "Pre-Hispanic Mixtec codices",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q3120937",
+     0
+    ],
+    [
+     "Codex Waecker-Gotter",
+     "Pre-Hispanic Mixtec codices",
+     "British Museum",
+     "r3 https://www.wikidata.org/wiki/Q11740782",
+     0
+    ],
+    [
+     "Codex Selden",
+     "Colonial Mixtec codices",
+     "1566",
+     "r3 https://www.wikidata.org/wiki/Q5796625",
+     0
+    ],
+    [
+     "Selden Roll",
+     "Colonial Mixtec codices",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q28225711",
+     0
+    ],
+    [
+     "British Library",
+     "Collections",
+     "1 manuscript in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=British+Library",
+     0
+    ],
+    [
+     "Bodleian Library",
+     "Collections",
+     "1 manuscript in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Bodleian+Library",
+     0
+    ],
+    [
+     "British Museum",
+     "Collections",
+     "1 manuscript in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=British+Museum",
+     0
+    ]
+   ],
    "alias_rows": [
     "Mixtec codices"
    ]
   },
   "A1-19": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Works: every gathered Aztec / Nahua codex with sitelinks ≥ 1, by type (ritual and calendrical, historical and tribute, colonial encyclopaedic); then collections.",
+   "catalogues": [
+    [
+     "https://en.wikipedia.org/wiki/Aztec_codices",
+     "Wikipedia: Aztec codices",
+     "list of surviving Aztec codices with holdings"
+    ],
+    [
+     "https://www.loc.gov/collections/",
+     "Library of Congress Digital Collections",
+     "includes the Codex Quetzalecatzin and other Mexican pictorial manuscripts"
+    ],
+    [
+     "https://gallica.bnf.fr/",
+     "Gallica (BnF)",
+     "digitised manuscripts and prints of the Bibliothèque nationale de France"
+    ]
+   ],
    "kinds": [
     [
-     "Mesoamerican codices, colonial",
+     "Tlacuilo",
      "Sub-types",
+     "the Nahua painter-scribe who made the codices",
+     "r3 https://en.wikipedia.org/wiki/Tlacuilo",
+     0
+    ],
+    [
+     "Codex Borbonicus",
+     "Ritual and calendrical codices",
+     "c. 1600; Bibliothèque de l'Assemblée Nationale",
+     "r3 https://www.wikidata.org/wiki/Q1950283",
+     0
+    ],
+    [
+     "Codex Ríos",
+     "Ritual and calendrical codices",
+     "c. 1600; Vatican Library",
+     "r3 https://www.wikidata.org/wiki/Q1106235",
+     0
+    ],
+    [
+     "Codex Telleriano-Remensis",
+     "Ritual and calendrical codices",
+     "Bibliothèque nationale de France",
+     "r3 https://www.wikidata.org/wiki/Q2409608",
+     0
+    ],
+    [
+     "Aubin Tonalamatl",
+     "Ritual and calendrical codices",
      "",
-     "manuscripts",
+     "r3 https://www.wikidata.org/wiki/Q24960985",
+     0
+    ],
+    [
+     "Codex Azcatitlan",
+     "Historical, migration and tribute codices",
+     "1501; Bibliothèque nationale de France",
+     "r3 https://www.wikidata.org/wiki/Q2981656",
+     0
+    ],
+    [
+     "Codex Mendoza",
+     "Historical, migration and tribute codices",
+     "Mexico City, 1542; Bodleian Library",
+     "r3 https://www.wikidata.org/wiki/Q1106099",
+     0
+    ],
+    [
+     "Codex Escalada",
+     "Historical, migration and tribute codices",
+     "Mexico, 1548; Basilica of Our Lady of Guadalupe",
+     "r3 https://www.wikidata.org/wiki/Q5140206",
+     0
+    ],
+    [
+     "Codex Ixtlilxóchitl",
+     "Historical, migration and tribute codices",
+     "c. 1550; Bibliothèque nationale de France",
+     "r3 https://www.wikidata.org/wiki/Q16928468",
+     0
+    ],
+    [
+     "Lienzo de Tlaxcala",
+     "Historical, migration and tribute codices",
+     "1552",
+     "r3 https://www.wikidata.org/wiki/Q128597278",
+     0
+    ],
+    [
+     "Codex Cozcatzin",
+     "Historical, migration and tribute codices",
+     "1572; Bibliothèque nationale de France",
+     "r3 https://www.wikidata.org/wiki/Q21530976",
+     0
+    ],
+    [
+     "Aubin Codex",
+     "Historical, migration and tribute codices",
+     "1576; British Library additional manuscripts",
+     "r3 https://www.wikidata.org/wiki/Q2333418",
+     0
+    ],
+    [
+     "Codex Boturini",
+     "Historical, migration and tribute codices",
+     "c. 1600; National Museum of Anthropology",
+     "r3 https://www.wikidata.org/wiki/Q3178037",
+     0
+    ],
+    [
+     "Anales de Tlatelolco",
+     "Historical, migration and tribute codices",
+     "Mexico, c. 1600; Manuscript department of the National Library of France",
+     "r3 https://www.wikidata.org/wiki/Q3617899",
+     0
+    ],
+    [
+     "Historia Tolteca-Chichimeca",
+     "Historical, migration and tribute codices",
+     "c. 1600",
+     "r3 https://www.wikidata.org/wiki/Q2294403",
+     0
+    ],
+    [
+     "Crónica Mexicayotl",
+     "Historical, migration and tribute codices",
+     "Bibliothèque nationale de France",
+     "r3 https://www.wikidata.org/wiki/Q1142565",
+     0
+    ],
+    [
+     "Historia de Tlaxcala",
+     "Historical, migration and tribute codices",
+     "",
+     "r3 https://www.wikidata.org/wiki/Q1648244",
+     0
+    ],
+    [
+     "Codex Totomixtlahuaca",
+     "Historical, migration and tribute codices",
+     "Center for the Study of Mexican History",
+     "r3 https://www.wikidata.org/wiki/Q21707108",
+     0
+    ],
+    [
+     "Relation of Michoacan",
+     "Colonial encyclopaedic and missionary codices",
+     "1540; Library of the Monastery of San Lorenzo de El Escorial",
+     "r3 https://www.wikidata.org/wiki/Q19608107",
+     0
+    ],
+    [
+     "Florentine Codex",
+     "Colonial encyclopaedic and missionary codices",
+     "1575; Biblioteca Medicea Laurenziana",
+     "r3 https://www.wikidata.org/wiki/Q1106019",
+     0
+    ],
+    [
+     "Codex Durán",
+     "Colonial encyclopaedic and missionary codices",
+     "New Spain, c. 1600; Biblioteca Nacional de España",
+     "r3 https://www.wikidata.org/wiki/Q1105948",
+     0
+    ],
+    [
+     "Libellus de Medicinalibus Indorum Herbis",
+     "Colonial encyclopaedic and missionary codices",
+     "Mexico; Vatican Library; Instituto Nacional de Antropología e Historia",
+     "r3 https://www.wikidata.org/wiki/Q2204297",
+     0
+    ],
+    [
+     "Bibliothèque nationale de France",
+     "Collections",
+     "381 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Bibliothèque+nationale+de+France",
+     0
+    ],
+    [
+     "Newberry Library",
+     "Collections",
+     "20 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Newberry+Library",
+     0
+    ],
+    [
+     "Vatican Library",
+     "Collections",
+     "2 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Vatican+Library",
+     0
+    ],
+    [
+     "University of Pennsylvania",
+     "Collections",
+     "2 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=University+of+Pennsylvania",
+     0
+    ],
+    [
+     "Cervantine Library",
+     "Collections",
+     "2 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Cervantine+Library",
      0
     ]
    ],
    "alias_rows": [
+    "Mesoamerican codices, colonial",
     "Aztec / Nahua codices (pre-conquest)"
    ]
   },
   "A1-20": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "Schools by region (early Armenian, Cilician, Gladzor, Tatev, Vaspurakan, Crimean, New Julfa); works: every gathered Armenian manuscript with sitelinks ≥ 2 (the ≥ 1 rule gives 1,170, mostly Matenadaran stubs), by school; then collections and illuminators.",
+   "catalogues": [
+    [
+     "https://www.matenadaran.am/",
+     "Matenadaran",
+     "the Mesrop Mashtots Institute of Ancient Manuscripts, Yerevan"
+    ],
+    [
+     "https://www.vhmml.org/readingRoom/",
+     "vHMML Reading Room",
+     "Hill Museum & Manuscript Library digitised manuscripts (Ethiopia, Mali, Middle East, Armenia...)"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Armenian_illuminated_manuscripts",
+     "Wikipedia: Armenian illuminated manuscripts",
+     "survey of schools and principal manuscripts"
+    ]
+   ],
    "kinds": [
     [
-     "Armenian: Ani / early Armenian (to 1200)",
-     "Sub-types",
-     "Etchmiadzin and Mugni Gospels",
+     "Early Armenian school (to 1200)",
+     "Schools & phases",
+     "Etchmiadzin and Mugni Gospels, 10th–11th century",
      "manuscripts",
      0
     ],
     [
-     "Armenian: Vaspurakan school",
-     "Sub-types",
+     "Vaspurakan school",
+     "Schools & phases",
+     "Lake Van monasteries, 13th–17th century",
+     "manuscripts",
+     0
+    ],
+    [
+     "New Julfa school",
+     "Schools & phases",
+     "Isfahan suburb workshops, 17th century",
+     "manuscripts",
+     0
+    ],
+    [
+     "Cilician school",
+     "Schools & phases",
+     "Hromkla and Sis, 12th–14th century, Toros Roslin",
+     "manuscripts",
+     0
+    ],
+    [
+     "Gladzor school",
+     "Schools & phases",
+     "Gladzor university, Vayots Dzor, c. 1280–1340, Momik and T'oros of Taron",
+     "manuscripts",
+     0
+    ],
+    [
+     "Tatev school",
+     "Schools & phases",
+     "Tatev monastery, 14th–15th century, Grigor Tatevatsi",
+     "manuscripts",
+     0
+    ],
+    [
+     "Crimean school",
+     "Schools & phases",
+     "Caffa and Surkhat, 14th–15th century",
+     "manuscripts",
+     0
+    ],
+    [
+     "Lesser Armenian school",
+     "Schools & phases",
+     "Lesser Armenia (Sebastia region) painting",
+     "manuscripts",
+     0
+    ],
+    [
+     "Etchmiadzin Gospels",
+     "Early Armenian manuscripts (to 1200)",
+     "989, with 6th-century ivory covers; Matenadaran, Yerevan",
+     "r3 https://en.wikipedia.org/wiki/Etchmiadzin_Gospels",
+     0
+    ],
+    [
+     "Echmiadzin Gospels",
+     "Early Armenian manuscripts (to 1200)",
+     "989; Matenadaran",
+     "r3 https://www.wikidata.org/wiki/Q5332637",
+     0
+    ],
+    [
+     "Ադրիանուպոլսի Ավետարան",
+     "Early Armenian manuscripts (to 1200)",
+     "1007",
+     "r3 https://www.wikidata.org/wiki/Q4057986",
+     0
+    ],
+    [
+     "Mugni Gospels",
+     "Early Armenian manuscripts (to 1200)",
+     "1060; Matenadaran",
+     "r3 https://www.wikidata.org/wiki/Q7930311",
+     0
+    ],
+    [
+     "King Gagik Gospels",
+     "Early Armenian manuscripts (to 1200)",
+     "1064; Cathedral of St. James, Jerusalem",
+     "r3 https://www.wikidata.org/wiki/Q16385245",
+     0
+    ],
+    [
+     "Skevra Evangeliary",
+     "Early Armenian manuscripts (to 1200)",
+     "c. 1150; National Library of Poland",
+     "r3 https://www.wikidata.org/wiki/Q3592715",
+     0
+    ],
+    [
+     "Annunciation (Grigor Tsaghkogh)",
+     "Later and unlocalised Armenian manuscripts",
+     "1232; Matenadaran",
+     "r3 https://www.wikidata.org/wiki/Q97683207",
+     0
+    ],
+    [
+     "Definition of Philosophy",
+     "Later and unlocalised Armenian manuscripts",
+     "1280; Matenadaran",
+     "r3 https://www.wikidata.org/wiki/Q56604910",
+     0
+    ],
+    [
+     "Matenadaran MS 7117",
+     "Later and unlocalised Armenian manuscripts",
+     "1442; Matenadaran",
+     "r3 https://www.wikidata.org/wiki/Q6786448",
+     0
+    ],
+    [
+     "Armeno-greek papyrus",
+     "Later and unlocalised Armenian manuscripts",
+     "Bibliothèque nationale de France",
+     "r3 https://www.wikidata.org/wiki/Q20671550",
+     0
+    ],
+    [
+     "Matenadaran MS 7729 - Homilies of Mush",
+     "Later and unlocalised Armenian manuscripts",
      "",
-     "manuscripts",
+     "r3 https://www.wikidata.org/wiki/Q16393754",
      0
     ],
     [
-     "Armenian: New Julfa / diaspora",
-     "Sub-types",
-     "",
-     "manuscripts",
+     "Vehapar Gospel",
+     "Later and unlocalised Armenian manuscripts",
+     "Matenadaran",
+     "r3 https://www.wikidata.org/wiki/Q21662497",
      0
     ],
     [
-     "Armenian: Cilician school",
-     "Sub-types",
-     "Toros Roslin",
-     "manuscripts",
+     "Mashtots",
+     "Later and unlocalised Armenian manuscripts",
+     "Matenadaran",
+     "r3 https://www.wikidata.org/wiki/Q26346930",
      0
     ],
     [
-     "Armenian: Glajor (Gladzor) school",
-     "Sub-types",
-     "",
-     "manuscripts",
+     "Matenadaran",
+     "Collections",
+     "1183 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Matenadaran",
      0
     ],
     [
-     "Armenian: Syunik / Tatev school",
-     "Sub-types",
-     "",
-     "manuscripts",
+     "Bibliothèque nationale de France",
+     "Collections",
+     "350 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Bibliothèque+nationale+de+France",
      0
     ],
     [
-     "Armenian: Crimean school",
-     "Sub-types",
-     "",
-     "manuscripts",
+     "Nasser D. Khalili Collection of Islamic Art",
+     "Collections",
+     "12 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Nasser+D.+Khalili+Collection+of+Islamic+Art",
      0
     ],
     [
-     "Lesser Armenian school of miniature painting",
-     "Sub-types",
-     "",
-     "manuscripts",
+     "Harvard University",
+     "Collections",
+     "7 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Harvard+University",
+     0
+    ],
+    [
+     "The Morgan Library & Museum",
+     "Collections",
+     "3 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=The+Morgan+Library+&+Museum",
+     0
+    ],
+    [
+     "Free Library of Philadelphia",
+     "Collections",
+     "3 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Free+Library+of+Philadelphia",
+     0
+    ],
+    [
+     "Chester Beatty Library",
+     "Collections",
+     "3 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Chester+Beatty+Library",
+     0
+    ],
+    [
+     "Vassar College",
+     "Collections",
+     "3 manuscripts in the gathered records",
+     "r3 https://www.wikidata.org/wiki/Special:Search?search=Vassar+College",
      0
     ],
     [
      "Toros Roslin",
      "Makers",
-     "",
+     "Cilician master, Hromkla, fl. 1256–68",
      "evidence",
      1
     ],
     [
      "Sargis Pitsak",
      "Makers",
-     "",
+     "Cilician painter, fl. 1307–55",
      "evidence",
      1
     ],
     [
      "Momik",
      "Makers",
-     "",
+     "Gladzor painter, sculptor and architect, d. 1333",
      "evidence",
      1
     ],
     [
      "Mesrop of Khizan",
      "Makers",
-     "",
+     "Khizan (Vaspurakan) painter, fl. 1605–51",
      "evidence",
      1
     ],
     [
      "Vardan Baghishetsi",
      "Makers",
-     "",
+     "Vaspurakan painter, 17th century",
      "evidence",
      1
     ],
     [
      "Naghash Hovnatan",
      "Makers",
-     "",
+     "painter and poet (1661–1722), founder of the Hovnatanian dynasty",
      "evidence",
+     1
+    ],
+    [
+     "T'oros Taronatsi",
+     "Makers",
+     "Gladzor painter, fl. 1307–46",
+     "r3 https://en.wikipedia.org/wiki/T'oros_Taronatsi",
+     1
+    ],
+    [
+     "Grigor Tatevatsi",
+     "Makers",
+     "Tatev theologian and painter (1346–1409)",
+     "r3 https://en.wikipedia.org/wiki/Grigor_Tatevatsi",
      1
     ]
    ],
@@ -17148,5 +20017,11 @@
    "A5-111"
   ]
  ],
- "dropped": []
+ "dropped": [
+  [
+   "A1-15",
+   "Garima Gospels",
+   "duplicate of another row"
+  ]
+ ]
 }

@@ -1,0 +1,56 @@
+D1-1 71 {'isl': np.int64(71)} | Victoria and Albert Museum=69, The British Museum=1, Museum of Islamic Art=1
+D1-2 79 {'isl': np.int64(77), 'gap': np.int64(1), 'smith': np.int64(1)} | Victoria and Albert Museum=70, National Archaeological Museum=2, Santa Clara Church Museum=1, Cleveland Museum of Art=1
+D1-3 0 {} | 
+D2-1 16 {'isl': np.int64(16)} | Victoria and Albert Museum=10, National Archaeological Museum=2, Silves Municipal Archaeology M=1, The Metropolitan Museum of Art=1
+D2-2 14 {'isl': np.int64(14)} | Museum of Islamic Art at the P=4, Museum of Islamic Art=2, Palatine Chapel, Treasury=2, Victoria and Albert Museum=2
+D2-3 9 {'him': np.int64(7), 'ssea': np.int64(1), 'isl': np.int64(1)} | Cleveland Museum of Art (India=7, Cleveland Museum of Art=2
+D2-4 1858 {'wx': np.int64(1143), 'east': np.int64(683), 'smith': np.int64(17), 'wfolk': np.int64(15)} | Museum Volkenkunde=987, Tokyo National Museum=518, Art Institute of Chicago=158, Wereldmuseum Rotterdam=76
+D2-5 64 {'aot': np.int64(44), 'wx': np.int64(11), 'africa': np.int64(4), 'smith': np.int64(4), 'gap': np.int64(1)} | Penn Museum=39, Museum Volkenkunde=7, Minneapolis Institute of Art=4, NMAfA=4
+D2-6 12 {'gap': np.int64(7), 'aot': np.int64(4), 'smith': np.int64(1)} | Yale University (LUX)=6, The Metropolitan Museum of Art=3, Penn Museum=1, Smithsonian National Museum of=1
+D2-7 0 {} | 
+D2-8 0 {} | 
+D2-9 3441 {'smith': np.int64(3403), 'wfolk': np.int64(31), 'wx': np.int64(4), 'amoc': np.int64(3)} | NMAI=3403, Smithsonian National Museum of=30, Wereldmuseum Rotterdam=4, Art Institute of Chicago=3
+D2-10 203 {'smith': np.int64(203)} | NMAI=203
+D2-11 10 {'smith': np.int64(9), 'wx': np.int64(1)} | CHNDM=9, Rijksmuseum=1
+D2-12 29 {'wfolk': np.int64(28), 'aot': np.int64(1)} | Smithsonian National Museum of=24, Museum of New Zealand Te Papa =3, The Metropolitan Museum of Art=1, Cooper Hewitt, Smithsonian Des=1
+D2-13 429 {'efolk': np.int64(429)} | Федеральное государственное бю=212, Государственное областное авто=41, Государственное областное авто=41, Государственное автономное учр=29
+D2-14 75 {'efolk': np.int64(75)} | Государственное бюджетное учре=55, Государственное краевое бюджет=5, Муниципальное бюджетное учрежд=4, Государственное бюджетное учре=3
+D2-15 19 {'efolk': np.int64(19)} | Федеральное государственное бю=15, Государственное бюджетное учре=4
+D2-16 51 {'efolk': np.int64(51)} | Муниципальное бюджетное учрежд=9, Муниципальное бюджетное учрежд=6, Муниципальное бюджетное учрежд=5, Государственное бюджетное учре=3
+D2-17 14 {'smith': np.int64(14)} | NMAI=10, CHNDM=4
+D2-18 1 {'smith': np.int64(1)} | NMAI=1
+D3-1 12 {'isl': np.int64(12)} | Victoria and Albert Museum=8, The British Museum=1, National Archaeological Museum=1, The David Collection=1
+D3-2 349 {'ssea': np.int64(185), 'isl': np.int64(164)} | Victoria and Albert Museum=332, Cleveland Museum of Art=10, Art Institute of Chicago=4, Museum of Islamic Art=3
+D3-3 1805 {'east': np.int64(1341), 'smith': np.int64(292), 'wx': np.int64(164), 'him': np.int64(4), 'isl': np.int64(3), 'gap': np.int64(1)} | Art Institute of Chicago=690, Cleveland Museum of Art=287, NMAA=283, National Palace Museum, Taipei=219
+D3-4 531 {'east': np.int64(451), 'wx': np.int64(72), 'smith': np.int64(8)} | Art Institute of Chicago=301, Cleveland Museum of Art=148, Museum Volkenkunde=69, CHNDM=8
+D3-5 0 {} | 
+D3-6 0 {} | 
+D3-7 1 {'wx': np.int64(1)} | Rijksmuseum=1
+D3-8 1179 {'smith': np.int64(845), 'wx': np.int64(241), 'amoc': np.int64(90), 'wfolk': np.int64(3)} | NMAI=845, Wereldmuseum Rotterdam=162, Cleveland Museum of Art=60, Tropenmuseum=48
+D3-9 2420 {'aot': np.int64(2323), 'wfolk': np.int64(95), 'amoc': np.int64(2)} | Museum of New Zealand Te Papa =2328, Penn Museum=30, The Metropolitan Museum of Art=25, Museum Volkenkunde=22
+D3-10 0 {} | 
+D3-11 468 {'east': np.int64(396), 'wx': np.int64(66), 'gap': np.int64(5), 'wfolk': np.int64(1)} | Tokyo National Museum=219, Kyoto National Museum=53, Museum Volkenkunde=44, Cleveland Museum of Art=29
+D3-12 172 {'ssea': np.int64(42), 'wfolk': np.int64(38), 'him': np.int64(35), 'wx': np.int64(33), 'smith': np.int64(17), 'isl': np.int64(6), 'gap': np.int64(1)} | Victoria and Albert Museum=64, Museum Volkenkunde=32, Victoria and Albert Museum (SS=27, NMAI=17
+D4-1 181 {'wx': np.int64(130), 'wfolk': np.int64(40), 'isl': np.int64(11)} | Museum Volkenkunde=150, Tropenmuseum=14, Victoria and Albert Museum=11, Wereldmuseum Rotterdam=6
+D4-2 22 {'wx': np.int64(20), 'ssea': np.int64(1), 'wfolk': np.int64(1)} | Wereldmuseum Rotterdam=17, Tropenmuseum=3, Victoria and Albert Museum=2
+D4-3 2171 {'wx': np.int64(1370), 'gap': np.int64(738), 'ssea': np.int64(58), 'wfolk': np.int64(4), 'smith': np.int64(1)} | Tropenmuseum=1038, Yale University (LUX)=471, Museum Volkenkunde=263, Penn Museum=174
+D4-4 937 {'wx': np.int64(839), 'gap': np.int64(62), 'wfolk': np.int64(36)} | Tropenmuseum=406, Museum Volkenkunde=312, Wereldmuseum Rotterdam=120, Yale University (LUX)=87
+D4-5 1222 {'wx': np.int64(1101), 'gap': np.int64(77), 'wfolk': np.int64(40), 'ssea': np.int64(3), 'aot': np.int64(1)} | Tropenmuseum=554, Museum Volkenkunde=451, Wereldmuseum Rotterdam=90, Yale University (LUX)=78
+D4-6 7 {'wx': np.int64(6), 'gap': np.int64(1)} | Museum Volkenkunde=3, Tropenmuseum=2, Penn Museum=1, Rijksmuseum=1
+D4-7 5 {'gap': np.int64(5)} | Rijksmuseum=5
+D4-8 279 {'wx': np.int64(213), 'gap': np.int64(42), 'ssea': np.int64(24)} | Tropenmuseum=204, Victoria and Albert Museum=63, Wereldmuseum Rotterdam=6, Penn Museum=3
+D4-9 586 {'wx': np.int64(573), 'wfolk': np.int64(11), 'east': np.int64(2)} | Museum Volkenkunde=563, Wereldmuseum Rotterdam=10, The Metropolitan Museum of Art=10, Tokyo National Museum=1
+D4-10 74 {'east': np.int64(46), 'wx': np.int64(27), 'smith': np.int64(1)} | Art Institute of Chicago=26, Museum Volkenkunde=20, Cleveland Museum of Art=16, Tropenmuseum=7
+D4-11 15 {'wfolk': np.int64(6), 'east': np.int64(4), 'gap': np.int64(4), 'wx': np.int64(1)} | Cleveland Museum of Art=4, Tokyo National Museum=3, 국립중앙박물관=2, Penn Museum=2
+D4-12 21 {'aot': np.int64(14), 'africa': np.int64(7)} | Penn Museum=6, Yale University (LUX)=6, Cleveland Museum of Art=4, Art Institute of Chicago=3
+D4-13 15 {'aot': np.int64(11), 'africa': np.int64(4)} | Yale University (LUX)=10, Art Institute of Chicago=3, Cleveland Museum of Art=1, Minneapolis Institute of Art=1
+D4-14 27 {'aot': np.int64(15), 'africa': np.int64(10), 'wfolk': np.int64(2)} | Yale University (LUX)=11, Art Institute of Chicago=6, Cleveland Museum of Art=4, Penn Museum=3
+D4-15 12 {'africa': np.int64(6), 'aot': np.int64(6)} | Art Institute of Chicago=5, Minneapolis Institute of Art=3, Yale University (LUX)=3, Cleveland Museum of Art=1
+D4-16 7 {'africa': np.int64(5), 'aot': np.int64(2)} | Art Institute of Chicago=5, Minneapolis Institute of Art=1, Yale University (LUX)=1
+D4-17 66 {'aot': np.int64(44), 'smith': np.int64(13), 'africa': np.int64(9)} | Yale University (LUX)=38, NMAI=13, Art Institute of Chicago=7, Penn Museum=6
+D4-18 206 {'aot': np.int64(182), 'africa': np.int64(23), 'wx': np.int64(1)} | Yale University (LUX)=155, Art Institute of Chicago=17, Minneapolis Institute of Art=14, Penn Museum=13
+D4-19 131 {'aot': np.int64(72), 'wx': np.int64(42), 'africa': np.int64(13), 'gap': np.int64(3), 'smith': np.int64(1)} | Penn Museum=29, Yale University (LUX)=28, Afrika Museum=22, Minneapolis Institute of Art=18
+D4-20 31 {'aot': np.int64(18), 'wfolk': np.int64(8), 'africa': np.int64(5)} | Art Institute of Chicago=10, Yale University (LUX)=7, Penn Museum=6, Minneapolis Institute of Art=5
+D4-21 6 {'aot': np.int64(5), 'africa': np.int64(1)} | Minneapolis Institute of Art=4, Cleveland Museum of Art=1, Yale University (LUX)=1
+D4-22 27 {'aot': np.int64(19), 'africa': np.int64(7), 'smith': np.int64(1)} | Penn Museum=8, Minneapolis Institute of Art=6, Yale University (LUX)=5, Art Institute of Chicago=4
+D4-23 47 {'wx': np.int64(25), 'aot': np.int64(20), 'africa': np.int64(2)} | Penn Museum=16, Afrika Museum=12, Tropenmuseum=8, Minneapolis Institute of Art=2

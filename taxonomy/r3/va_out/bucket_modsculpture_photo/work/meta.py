@@ -1,2 +1,71 @@
-META={}
-NEW=[]
+def W(t): return "https://en.wikipedia.org/wiki/" + t.replace(' ', '_')
+MET = "https://www.metmuseum.org/art/collection/search?q="
+MOMA = "https://www.moma.org/collection/?q="
+GETTY = "https://www.getty.edu/art/collection/search?q="
+COUNTRY_NOTE = "remaining artists by country of activity (largest first; countries with fewer than three gathered artists merged by region), each group by birth year"
+META = {
+ 'D5-118': {
+  'axis': "by named school, circle or movement of modern sculpture: Rodin's circle and the Bande à Schnegg, direct carving, American Renaissance and Western sculptors, later New Sculpture, Vienna Secession, Catalan Modernisme and Noucentisme, Tinerimea artistică, Bauhaus, Geometry of Fear, Park Place Group, New Generation, assemblage, Shona and Balinese carving; then " + COUNTRY_NOTE + "; members already moved to Art Deco, Art Nouveau, Animalier, Kinetic, Minimalism, Futurism, Harlem Renaissance and other movement leaves",
+  'defn': "Sculpture by artists born c. 1850–1944 who do not sit in a named movement leaf, from Rodin's generation to abstract, constructed and assemblage sculpture, sectioned by the named circles and schools the literature uses: <i>Rodin's The Thinker</i>, <i>Brâncuși's Bird in Space</i>, <i>Hepworth's Single Form</i>.",
+  'catalogues': [["https://sculpture.gla.ac.uk/", "Mapping the Practice and Profession of Sculpture in Britain and Ireland 1851–1951", "database of sculptors, works, foundries and firms in Britain and Ireland"],
+                 ["https://siris-artinventories.si.edu/", "Smithsonian Art Inventories (Inventory of American Sculpture)", "over 80,000 indoor and outdoor American sculptures"],
+                 ["https://catalogue.henry-moore.org/", "Henry Moore Foundation online catalogue", "the Henry Moore catalogue raisonné of sculpture and drawings"],
+                 ["https://www.tate.org.uk/search?q=sculpture", "Tate collection search", "modern British and international sculpture at Tate"],
+                 [MOMA + "sculpture", "MoMA collection search", "modern sculpture in the Museum of Modern Art, New York"]],
+  'order': ["Rodin's assistants and pupils", "Bande à Schnegg", "Direct carving", "American Renaissance", "Sculptors of the American West", "New Sculpture (later generation)", "Vienna Secession and Wiener Werkstätte", "Modernisme and Noucentisme (Catalonia)", "Tinerimea artistică", "Bauhaus", "Geometry of Fear", "Park Place Group", "New Generation sculptors (Whitechapel 1965)", "Assemblage", "Sculpture of Zimbabwe (Shona sculpture)", "Balinese carving"]},
+ 'J1-7': {
+  'axis': "by process and named circle, in historical order: inventors and process pioneers, daguerreotypists, British calotypists, French paper-negative photographers and the Mission héliographique, Victorian art photography, war photographers, American Civil War, American West surveys, chronophotography, Near East, British India, Yokohama photography; then " + COUNTRY_NOTE,
+  'defn': "Photography of the daguerreotype, calotype, wet-collodion and albumen decades (1839–c. 1880), from the inventors to the survey, war and studio photographers: <i>Talbot's The Open Door</i>, <i>Nadar's portraits</i>, <i>Cameron's portraits</i>.",
+  'catalogues': [["https://www.loc.gov/pictures/collection/dag/", "Library of Congress: Daguerreotypes", "the Library's daguerreotype collection, c. 1839–1864"],
+                 ["https://talbot.bodleian.ox.ac.uk/", "William Henry Fox Talbot Catalogue Raisonné (Bodleian)", "every known Talbot negative and print"],
+                 ["https://www.loc.gov/pictures/collection/cwp/", "Library of Congress: Civil War Photographs", "Brady, Gardner, O'Sullivan and other Civil War negatives"],
+                 [MET + "daguerreotype", "The Met collection search: daguerreotype", "daguerreotypes in the Metropolitan Museum of Art"],
+                 [GETTY + "calotype", "Getty Museum collection search: calotype", "early paper photographs at the J. Paul Getty Museum"]],
+  'order': ["Inventors and process pioneers", "Daguerreotypists", "Calotypists in Britain (Talbot circle and Edinburgh)", "French paper-negative photographers and the Mission héliographique", "Victorian art photography", "Crimean War and colonial war photographers", "Photographers of the American Civil War", "Photographers of the American West and the government surveys", "Chronophotography", "Photographers of the Ottoman Empire and the Near East", "Photographers of British India (Bourne & Shepherd era)", "Yokohama photography (Yokohama shashin)"]},
+ 'J1-8': {
+  'axis': "by pictorialist society or circle: the Linked Ring and naturalistic photography, Photo-Club de Paris, Vienna Trifolium, German Kunstphotographie, Clarence H. White School, West Coast pictorialists, Japanese geijutsu shashin (the Photo-Secession has its own leaf); then " + COUNTRY_NOTE + " (born c. 1850–1880; not all are pictorialists in the strict sense)",
+  'defn': "The first international art-photography movement (1880s–1920s), soft-focus and hand-worked, organised in salons and societies (the Linked Ring, Photo-Club de Paris, Vienna Camera Club, Photo-Secession), together with the other photographers of that generation: <i>Steichen's The Pond—Moonlight</i>, <i>Käsebier's Blessed Art Thou among Women</i>.",
+  'catalogues': [[MET + "pictorialism", "The Met collection search: pictorialism", "pictorialist prints in the Metropolitan Museum, including the Stieglitz collection"],
+                 ["https://collections.vam.ac.uk/search/?q=pictorialism", "V&A collection search: pictorialism", "the Royal Photographic Society collection at the V&A"],
+                 ["https://collections.eastman.org/", "George Eastman Museum collections", "one of the largest photography collections, strong in pictorialism"],
+                 [GETTY + "pictorialism", "Getty Museum collection search: pictorialism", "pictorialist photographs at the J. Paul Getty Museum"]],
+  'order': ["The Linked Ring and naturalistic photography", "Photo-Club de Paris", "Vienna Camera Club and the Trifolium", "German and Hamburg art photography (Kunstphotographie)", "Clarence H. White School and Pictorial Photographers of America", "Pictorialists of the West Coast", "Japanese art photography (geijutsu shashin)"]},
+ 'J1-9': {
+  'axis': "by named school: New York modernists, New Objectivity, Shinkō shashin, Hollywood studio glamour photographers, Mexico (Group f/64, Photo League, Photo-Secession, Magnum and FSA photographers have their own leaves or sections); then " + COUNTRY_NOTE + " (photographers born c. 1880–1919)",
+  'defn': "Sharp-focus, unmanipulated modernist photography from the 1910s to the 1950s and the photographers of that generation (born c. 1880–1919) not placed in a named school: <i>Strand's Wall Street</i>, <i>Weston's Pepper No. 30</i>, <i>Adams's Moonrise, Hernandez</i>.",
+  'catalogues': [[MOMA + "photograph", "MoMA collection search", "modernist photographs in the Museum of Modern Art, New York"],
+                 ["https://ccp.arizona.edu/", "Center for Creative Photography (University of Arizona)", "archives of Weston, Adams, Strand-era modernists"],
+                 [GETTY + "gelatin%20silver", "Getty Museum collection search", "modernist gelatin-silver prints at the J. Paul Getty Museum"],
+                 [MET + "straight%20photography", "The Met collection search", "modernist photography at the Metropolitan Museum"]],
+  'order': ["New York modernists", "New Objectivity", "Shinkō shashin (Japanese New Photography)", "Hollywood studio glamour photographers", "Mexico"]},
+ 'J1-12': {
+  'axis': "by named programme, group or school: early social documentary, FSA/OWI photographers, Kamoinge Workshop, DRUM magazine, Vivo and Provoke, Tio fotografer, AFAL group, Lithuanian school, African studio photography, then the postwar experimental Fotoform and Generative photography groups; then " + COUNTRY_NOTE + " (photographers born c. 1920–1944; Magnum and Photo League members have their own leaves)",
+  'defn': "Photography that records people, places and events for social or historical purpose, from Riis and Hine to the FSA and the postwar documentary groups, with the other photographers born c. 1920–1944: <i>Lange's Migrant Mother</i>, <i>Evans's Let Us Now Praise Famous Men</i>, <i>Salgado's Gold Mine</i>.",
+  'catalogues': [["https://www.loc.gov/pictures/collection/fsa/", "Library of Congress: FSA/OWI Black-and-White Negatives", "about 175,000 Farm Security Administration and Office of War Information photographs"],
+                 ["https://www.loc.gov/pictures/collection/nclc/", "Library of Congress: National Child Labor Committee (Lewis Hine)", "Hine's 5,000-plus child-labour photographs"],
+                 ["https://www.magnumphotos.com/", "Magnum Photos archive", "the agency's searchable archive of its members' stories"],
+                 [MOMA + "documentary", "MoMA collection search", "documentary photography at the Museum of Modern Art"]],
+  'order': ["Early social documentary", "Photographers of the Farm Security Administration and OWI", "Kamoinge Workshop", "DRUM magazine photographers", "Vivo and Provoke", "Tio fotografer", "AFAL group (Spain)", "Lithuanian school of photography", "African studio photography", "Fotoform and Subjective photography", "Generative photography"]},
+ 'J1-13': {
+  'axis': "by named school or tendency: New Topographics, the Pictures Generation, Vancouver School, Boston School, Young British Artists, Helsinki School, staged photography, African studio and portrait photography, tintype revival; then " + COUNTRY_NOTE + " (photographers and lens-based artists born from 1945)",
+  'defn': "Photography by artists born from 1945, staged, documentary and conceptual, sectioned by the named schools (New Topographics, Pictures Generation, Vancouver, Boston and Helsinki Schools) and then by country.",
+  'catalogues': [[MOMA + "photograph", "MoMA collection search", "contemporary photography at the Museum of Modern Art"],
+                 ["https://www.tate.org.uk/search?q=photograph", "Tate collection search", "photographs in the Tate collection"],
+                 [GETTY + "chromogenic", "Getty Museum collection search", "contemporary colour photographs at the J. Paul Getty Museum"],
+                 ["https://www.magnumphotos.com/", "Magnum Photos archive", "contemporary members' work"]],
+  'order': ["New Topographics", "The Pictures Generation", "Vancouver School", "Boston School", "Young British Artists", "Helsinki School", "Staged photography", "African studio and portrait photography", "Tintype revival"]},
+ 'NEW1': {'axis': "founders and fellows of the Photo-Secession (1902–c. 1917) by birth year, then the Camera Work circle", 'order': ["Photo-Secession founders and fellows", "Camera Work critics and circle"],
+  'catalogues': [[MET + "Photo-Secession", "The Met collection search: Photo-Secession", "the Alfred Stieglitz Collection of Photo-Secession prints"], ["https://www.nga.gov/collection-search-result.html?artobj_artistId=6007", "National Gallery of Art: Alfred Stieglitz", "the Stieglitz Key Set and related holdings"], [GETTY + "Camera%20Work", "Getty Museum collection search: Camera Work", "Camera Work photogravures at the Getty"]]},
+ 'NEW2': {'axis': "the seven founding members of 1932, then the associated exhibitors of the 1932 de Young show", 'order': ["Founding members (1932)", "Associated exhibitors"],
+  'catalogues': [["https://ccp.arizona.edu/", "Center for Creative Photography", "archives of Ansel Adams, Edward Weston and other f/64 members"], [MET + "Group%20f.64", "The Met collection search", "f/64 members' prints at the Metropolitan Museum"], [GETTY + "Edward%20Weston", "Getty Museum collection search: Edward Weston", "Weston and circle at the Getty"]]},
+ 'NEW3': {'axis': "founders and Feature Group members (1936–1945), then postwar members until the League's dissolution in 1951", 'order': ["Founders and Feature Group", "Postwar members (1946–1951)"],
+  'catalogues': [[MET + "Photo%20League", "The Met collection search: Photo League", "Photo League members' prints"], [MOMA + "Photo%20League", "MoMA collection search: Photo League", "Photo League photographers at MoMA"], [GETTY + "Photo%20League", "Getty Museum collection search", "Photo League photographers at the Getty"]]},
+ 'NEW4': {'axis': "members, associates and nominees by generation (decade of birth), founders first", 'order': ["Born 1900s–1920s", "Born 1930s", "Born 1940s", "Born 1950s", "Born 1960s and later"],
+  'catalogues': [["https://www.magnumphotos.com/photographers/", "Magnum Photos: photographers", "every current and past member with their archive"], ["https://www.magnumphotos.com/", "Magnum Photos archive", "the agency's complete searchable archive of stories since 1947"]]},
+}
+NEW = [
+ {'key': 'NEW1', 'sub': 'J1', 'label': 'Photo-Secession', 'breadth': 'narrow', 'defn': "Members and fellows of the Photo-Secession, the American pictorialist society founded by Alfred Stieglitz in New York in 1902 and shown at the Little Galleries (291) and in Camera Work: Stieglitz, Käsebier, White, Steichen, Coburn, Brigman.", 'aliases': 'Photo Secession', 'see': 'J1-8 Pictorialism', 'src': [[W('Photo-Secession'), 'Wikipedia']]},
+ {'key': 'NEW2', 'sub': 'J1', 'label': 'Group f/64', 'breadth': 'narrow', 'defn': "Members and exhibitors of Group f/64 (San Francisco, 1932–1935), who championed sharp-focus, full-tonal straight photography against pictorialism: Ansel Adams, Edward Weston, Imogen Cunningham, Willard Van Dyke.", 'aliases': 'f/64', 'see': 'J1-9 Straight Photography', 'src': [[W('Group f/64'), 'Wikipedia']]},
+ {'key': 'NEW3', 'sub': 'J1', 'label': 'Photo League', 'breadth': 'narrow', 'defn': "Members of the Photo League, the New York cooperative of documentary and street photographers (1936–1951), with its Feature Group projects such as Harlem Document: Sol Libsohn, Aaron Siskind, Walter Rosenblum, Ruth Orkin.", 'aliases': 'New York Photo League', 'see': 'J1-12 Documentary Photography', 'src': [[W('Photo League'), 'Wikipedia']]},
+ {'key': 'NEW4', 'sub': 'J1', 'label': 'Magnum Photos', 'breadth': 'medium', 'defn': "Members, associates and nominees of Magnum Photos, the photographers' cooperative founded in 1947 by Robert Capa, Henri Cartier-Bresson, David Seymour, George Rodger and William Vandivert, the standard-bearer of concerned photography and photo-essay reportage.", 'aliases': 'Magnum', 'see': 'J1-3 Photojournalism;J1-12 Documentary Photography', 'src': [[W('Magnum Photos'), 'Wikipedia']]},
+]

@@ -190,7 +190,7 @@ def ms_collections(spec, n=8, minc=10):
         if not flt(x):
             continue
         for k in (x["collections"] or "").split(";"):
-            k = k.strip()
+            k = re.sub(r"^The ", "", k.strip())
             if k:
                 c[k] += 1
     return c
@@ -227,6 +227,7 @@ def obj_collections(specs):
                 inst = (x.get(col) or "").strip()
                 if fn == "smithsonian_objects.csv":
                     inst = SI_UNITS.get(inst, inst)
+                inst = re.sub(r"^The ", "", inst)
                 if inst:
                     c[inst] += 1
     return c
@@ -241,7 +242,7 @@ def coll_rows(counter, what="objects", n=8, minc=10):
     for k, v in big:
         if v < 2 and len(rows) >= 3:
             break
-        rows.append([k[:110], "Collections", f"{v} {what if v != 1 else what.rstrip('s')} in the gathered records", "r3 https://www.wikidata.org/wiki/Special:Search?search=" + k.replace(" ", "+")[:80], 0])
+        rows.append([k[:110], "Collections", f"{v} {what if v != 1 else what.rstrip('s')} of the tradition in the gathered records", "r3 https://www.wikidata.org/wiki/Special:Search?search=" + k.replace(" ", "+")[:80], 0])
     return rows
 
 
@@ -311,7 +312,8 @@ def build_leaf(l):
         kinds.append([name2, g, g2, src2, 1 if person else 0])
     # added rows
     for a in cfg.get("add", []):
-        nm, g, gl, url, im = a
+        nm, g, gl, url = a[:4]
+        im = a[4] if len(a) > 4 else (1 if (g in ("Makers",) or g in cfg.get("maker_groups", ()) or g.endswith(("painters", "artists", "printmakers", "calligraphers", "illuminators", "designers")) or (cfg.get("artist_led") and g not in ("Sub-types", "Schools & phases", "Centres & workshops", "Collections") and not cfg.get("nonmaker_add"))) else 0)
         if not url.startswith("http"):
             url = WIKI + url.replace(" ", "_")
         kinds.append([nm, g, gl[:140], "r3 " + url, im])
