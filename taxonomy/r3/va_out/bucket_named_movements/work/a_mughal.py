@@ -44,9 +44,9 @@ MUGHAL_WORKS = [
  ["Gulshan Album (Muraqqa-e Gulshan, c. 1599–1609)", "Albums of Jahangir's reign", "Album begun by Prince Salim; Golestan Palace, Tehran, and Staatsbibliothek Berlin, leaves widely dispersed", WP + "Gulshan_Album", 0],
  ["St. Petersburg Muraqqa", "Albums of Jahangir's reign", "Album of Mughal and Persian paintings and calligraphy; Institute of Oriental Manuscripts, St Petersburg", WP + "St._Petersburg_Muraqqa", 0],
  ["Jahangir Preferring a Sufi Shaikh to Kings (Bichitr, c. 1615–1618)", "Albums of Jahangir's reign", "Allegorical album page from the St Petersburg album; Freer Gallery of Art, Washington", WP + "Jahangir_Preferring_a_Sufi_Shaikh_to_Kings", 0],
- ["Minto Album", "Albums of Shah Jahan's reign", "Jahangir- and Shah Jahan-period album pages; Chester Beatty Library, Dublin, and V&A London", WP + "Minto_Album", 0],
- ["Shah Jahan Album (Kevorkian Album, c. 1620–1820)", "Albums of Shah Jahan's reign", "Fifty album folios of portraits and natural history; Metropolitan Museum of Art (41) and Freer Gallery (9)", WP + "Shah_Jahan_Album", 0],
- ["Padshahnama (Windsor, c. 1630–1657)", "Manuscripts of Shah Jahan's reign", "Illustrated official chronicle of Shah Jahan; Royal Collection, Windsor Castle", WP + "Padshahnama", 0],
+ ["Minto Album", "Albums and manuscripts of Shah Jahan's reign", "Jahangir- and Shah Jahan-period album pages; Chester Beatty Library, Dublin, and V&A London", WP + "Minto_Album", 0],
+ ["Shah Jahan Album (Kevorkian Album, c. 1620–1820)", "Albums and manuscripts of Shah Jahan's reign", "Fifty album folios of portraits and natural history; Metropolitan Museum of Art (41) and Freer Gallery (9)", WP + "Shah_Jahan_Album", 0],
+ ["Padshahnama (Windsor, c. 1630–1657)", "Albums and manuscripts of Shah Jahan's reign", "Illustrated official chronicle of Shah Jahan; Royal Collection, Windsor Castle", WP + "Padshahnama", 0],
 ]
 COLL = [
  ("Victoria and Albert Museum, London", 2909), ("Cleveland Museum of Art", 1224),

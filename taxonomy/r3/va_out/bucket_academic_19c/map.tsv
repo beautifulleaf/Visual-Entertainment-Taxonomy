@@ -44,9 +44,9 @@ Otto Strützel	A5-46
 Rudolf Hirth du Frênes	A5-46
 Ludwig Willroider	A5-46
 Gregor von Bochmann	A5-34
-Claudius Jacquand	G:Lyon School
-Claudius Lavergne	G:Lyon School
-Louis Lamothe	G:Lyon School
+Claudius Jacquand	NEW:Lyon School
+Claudius Lavergne	NEW:Lyon School
+Louis Lamothe	NEW:Lyon School
 Hippolyte Boulenger	G:Tervuren School
 Joseph Théodore Coosemans	G:Tervuren School
 Alphonse Asselbergs	G:Tervuren School
@@ -250,10 +250,10 @@ Michael Ancher	NEW:Skagen Painters
 Viggo Johansen	NEW:Skagen Painters
 Laurits Tuxen	NEW:Skagen Painters
 Karl Madsen	NEW:Skagen Painters
-Gunnar Berndtson	G:Golden Age of Finnish Art
-Maria Wiik	G:Golden Age of Finnish Art
-Helena Westermarck	G:Golden Age of Finnish Art
-Amélie Lundahl	G:Golden Age of Finnish Art
+Gunnar Berndtson	NEW:Golden Age of Finnish Art
+Maria Wiik	NEW:Golden Age of Finnish Art
+Helena Westermarck	NEW:Golden Age of Finnish Art
+Amélie Lundahl	NEW:Golden Age of Finnish Art
 Aloysius O'Kelly	NEW:Orientalism
 Nathaniel Hone the Younger	NEW:Orientalism
 Gustav Bauernfeind	NEW:Orientalism
@@ -668,14 +668,14 @@ Ary Scheffer	G:Juste milieu
 Joseph-Nicolas Robert-Fleury	G:Juste milieu
 Léon Cogniet	G:Juste milieu
 Auguste Couder	G:Juste milieu
-Victor Orsel	G:Lyon School
-Paul Chenavard	G:Lyon School
-Louis Janmot	G:Lyon School
-Simon Saint-Jean	G:Lyon School
-Jean-Claude Bonnefond	G:Lyon School
-Anthelme Trimolet	G:Lyon School
-François-Auguste Ravier	G:Lyon School
-Joseph Guichard	G:Lyon School
+Victor Orsel	NEW:Lyon School
+Paul Chenavard	NEW:Lyon School
+Louis Janmot	NEW:Lyon School
+Simon Saint-Jean	NEW:Lyon School
+Jean-Claude Bonnefond	NEW:Lyon School
+Anthelme Trimolet	NEW:Lyon School
+François-Auguste Ravier	NEW:Lyon School
+Joseph Guichard	NEW:Lyon School
 Alexandre-Gabriel Decamps	NEW:Orientalism
 Adrien Dauzats	NEW:Orientalism
 Jean-Charles Langlois	NEW:Orientalism
@@ -781,7 +781,7 @@ Lucie Ingemann	A5-33
 Eduard Steinbrück	A5-34
 Jakob Becker	A5-34
 Hermann Kretzschmer	A5-34
-Akseli Gallen-Kallela	A5-51
+Akseli Gallen-Kallela	NEW:Golden Age of Finnish Art
 Eugène Viala	A5-51
 Le Pho	A5-110
 George Vincent	A5-37
@@ -968,10 +968,10 @@ Paul Flandrin	G:Ingres and his pupils
 Eugène Emmanuel Amaury Duval	G:Ingres and his pupils
 Victor Mottez	G:Ingres and his pupils
 Antoine Claude Ponthus-Cinier	G:Ingres and his pupils
-Pierre Révoil	G:Troubadour style
-François Fleury-Richard	G:Troubadour style
-Jean Louis Ducis	G:Troubadour style
-Antoine Berjon	G:Lyon School
+Pierre Révoil	NEW:Lyon School
+François Fleury-Richard	NEW:Lyon School
+Jean Louis Ducis	X:A5-31:Troubadour style
+Antoine Berjon	NEW:Lyon School
 Joseph Anton Koch	G:Deutschrömer
 Asmus Jacob Carstens	G:Deutschrömer
 Johann Christian Reinhart	G:Deutschrömer
@@ -1232,9 +1232,9 @@ Georgios Jakobides	A5-46
 Silvestro Lega	A5-44
 Christian Krohg	NEW:Skagen Painters
 Carl Locher	NEW:Skagen Painters
-Albert Edelfelt	X:A5-38:Golden Age of Finnish Art
-Helene Schjerfbeck	X:A5-38:Golden Age of Finnish Art
-Elin Danielson-Gambogi	X:A5-38:Golden Age of Finnish Art
+Albert Edelfelt	NEW:Golden Age of Finnish Art
+Helene Schjerfbeck	NEW:Golden Age of Finnish Art
+Elin Danielson-Gambogi	NEW:Golden Age of Finnish Art
 Hjalmar Munsterhjelm	A5-34
 Columbano Bordalo Pinheiro	X:A5-45:Grupo do Leão
 José Malhoa	X:A5-45:Grupo do Leão
@@ -1259,3 +1259,4 @@ John James Audubon	X:A5-31
 Rosa Bonheur	X:A5-40
 Auguste Bonheur	X:A5-40
 Christian Wilhelm Allers	B1-5
+Ellen Thesleff	NEW:Golden Age of Finnish Art

@@ -32164,1886 +32164,1930 @@
 ]
 },
 "E1-27": {
-"axis": "provisional",
+"axis": "sub-types and fabrics first, then the named vases, then Attic painters and potters by workshop and phase as Beazley grouped them (Protoattic and early, Komast Group, Siana and Tyrrhenian, Lydos, Little Masters, Amasis and Exekias, Andokides–Psiax, Nikosthenes, Leagros Group, late black-figure), then potters known from signatures; Corinthian and Laconian painters moved to their own leaves, red-figure cup painters to Red-Figure Pottery",
+"catalogues": [
+[
+"https://www.beazley.ox.ac.uk/carc/pottery",
+"Beazley Archive Pottery Database",
+"over 120,000 Athenian figure-decorated vases, searchable by painter, shape and technique"
+],
+[
+"https://www.cvaonline.org/cva/",
+"Corpus Vasorum Antiquorum online",
+"the CVA fascicules of Greek vases by museum"
+],
+[
+"https://www.britishmuseum.org/collection/search?keyword=black-figured",
+"British Museum collection: black-figured",
+"the BM's black-figured vases"
+],
+[
+"https://www.metmuseum.org/art/collection/search?q=black-figure",
+"The Met collection: black-figure",
+"black-figure vases at the Met"
+]
+],
 "kinds": [
 [
 "Protoattic",
-"phase",
-"",
+"Sub-types",
+"Athenian orientalising pottery of c. 700–630 BC, the forerunner of Attic black-figure",
 "evidence",
 0
 ],
 [
 "Boeotian black-figure",
-"sub-group",
-"",
+"Sub-types",
+"black-figure of Boeotia, including the Kabeiric ware of Thebes",
 "evidence",
 0
 ],
 [
-"Butades",
-"Artists",
-"",
-"artists",
-1
+"Corinthian vase painting",
+"Sub-types",
+"the first black-figure, Corinth c. 700–550 BC (own leaf)",
+"r3 https://en.wikipedia.org/wiki/Corinthian_vase_painting",
+0
 ],
 [
-"C Painter",
-"Artists",
-"",
-"artists",
-1
+"Laconian vase painting",
+"Sub-types",
+"Spartan black-figure, c. 620–500 BC (own leaf)",
+"r3 https://en.wikipedia.org/wiki/Laconian_vase_painting",
+0
 ],
 [
-"Camtar Painter",
-"Artists",
-"",
-"artists",
-1
+"Chalcidian vase painting",
+"Sub-types",
+"black-figure of Chalcidian type, probably made at Rhegion, c. 560–510 BC",
+"r3 https://en.wikipedia.org/wiki/Chalcidian_vase_painting",
+0
 ],
 [
-"Castellani Painter",
-"Artists",
-"",
-"artists",
-1
+"Caeretan hydria",
+"Sub-types",
+"hydriai made by East Greek immigrant painters at Caere, c. 530–510 BC",
+"r3 https://en.wikipedia.org/wiki/Caeretan_hydria",
+0
 ],
 [
-"Chares",
-"Artists",
-"",
-"artists",
-1
+"Panathenaic amphora",
+"Sub-types",
+"prize amphorae of the Panathenaic Games, kept in black-figure into the Hellenistic period",
+"r3 https://en.wikipedia.org/wiki/Panathenaic_amphora",
+0
 ],
 [
-"Charinus",
-"Artists",
-"",
-"artists",
-1
+"Little-master cup",
+"Sub-types",
+"fine Attic cups with miniature friezes, c. 560–530 BC",
+"r3 https://en.wikipedia.org/wiki/Little-master_cup",
+0
 ],
 [
-"Chelis",
-"Artists",
-"",
-"artists",
-1
+"Siana cup",
+"Sub-types",
+"early Attic black-figure cup type, c. 575–550 BC",
+"r3 https://en.wikipedia.org/wiki/Siana_cup",
+0
 ],
 [
-"Chiusi Painter",
-"Artists",
-"",
-"artists",
-1
+"Tyrrhenian amphora",
+"Sub-types",
+"Attic black-figure ovoid amphorae made for Etruria, c. 565–550 BC",
+"r3 https://en.wikipedia.org/wiki/Tyrrhenian_amphorae",
+0
 ],
 [
-"Civico Painter",
-"Artists",
-"",
-"artists",
-1
+"Six's technique",
+"Sub-types",
+"variant in which figures are painted over the black gloss in added colour",
+"r3 https://en.wikipedia.org/wiki/Six's_technique",
+0
 ],
 [
-"Timagoras",
-"Artists",
-"",
-"artists",
-1
+"François Vase (Kleitias and Ergotimos, c. 570 BC)",
+"Named vases",
+"Attic black-figure volute krater; Museo Archeologico Nazionale, Florence",
+"r3 https://en.wikipedia.org/wiki/François_Vase",
+0
 ],
 [
-"Diosphos Painter",
-"Artists",
-"",
-"artists",
-1
+"Dionysus Cup (Exekias, c. 530 BC)",
+"Named vases",
+"eye cup with Dionysus's ship; Staatliche Antikensammlungen, Munich",
+"r3 https://en.wikipedia.org/wiki/Dionysus_Cup",
+0
 ],
 [
-"Dodwell Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Duel Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sokles",
-"Artists",
-"",
-"artists",
-1
+"Eleusis Amphora (Polyphemos Painter, c. 670 BC)",
+"Named vases",
+"Protoattic amphora with the blinding of Polyphemos; Archaeological Museum of Eleusis",
+"r3 https://en.wikipedia.org/wiki/Eleusis_Amphora",
+0
 ],
 [
 "Cerameicus Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Edinburgh Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Marathon Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Carpenter Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Skythes",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Kealtes",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Painter of the Dresden Lekanis",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Pithos Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Swing Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Elbows Out",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sakonides",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Painter of the Nicosia Olpe",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Kleophrades Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ergoteles",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ergotimos",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sappho Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Oltos",
-"Artists",
-"",
+"Protoattic and early Attic black-figure",
+"Attic black-figure painter",
 "artists",
 1
 ],
 [
 "Nessos Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Eucharides Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Euphiletos Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Euxitheos",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Xenocles",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Psiax",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Painter of Berlin 1686",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Painter of Toronto 919.5.110",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Priam Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Rider Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Brygos",
-"Artists",
-"",
+"Protoattic and early Attic black-figure",
+"Attic black-figure painter",
 "artists",
 1
 ],
 [
 "Piraeus Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Wraith Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gela Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Painter of Palermo 489",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Griffin-Bird Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Glaukytes",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Nikias",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Goltyr Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Cavalcade Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Timenor",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Praxias Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gryton",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Painter of Berlin 1833",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hermaios",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hermogenes",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hischylos",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"N Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hypereides",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hypsis",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Pheidippos",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Xenokles Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Painter of Vatican 309",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Timonidas",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hippolytos Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Painter of Louvre E 574",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"KX Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"KY Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Naucratis Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Kachrylion",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Centaur Painter",
-"Artists",
-"",
+"Protoattic and early Attic black-figure",
+"Attic black-figure painter",
 "artists",
 1
 ],
 [
 "Painter of Berlin A 34",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Columbus Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Kiss Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Nikosthenes Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Python",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hunt Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Boreads painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Lysippides Painter",
-"Artists",
-"",
+"Protoattic and early Attic black-figure",
+"Attic black-figure painter",
 "artists",
 1
 ],
 [
 "Lion Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Madrid Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Painter of the Aachen horsehead",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Painter of the Vatican Mourner",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Painter of Athens 533",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Painter of Acropolis 606",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Painter of London B 76",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Painter of Louvre F6",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Painter of Tarquinia RC 6847",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Painter of Boston CA",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Painter of Vatican 73",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Painter of Munich 1410",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mastos Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Menon",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hieron",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Nikoxenos Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Tityos Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Pamphaios",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Panther Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Paseas",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Pasiades",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Michigan Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Painter of Vatican G. 31",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Paidikos",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Syriskos Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Pholoe Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Phrynos",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Phrynos Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Polos Painter",
-"Artists",
-"",
+"Protoattic and early Attic black-figure",
+"Attic black-figure painter",
 "artists",
 1
 ],
 [
 "Polyphemos Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ptoon Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Rycroft Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Shambling Bull Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sikelos",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sosias",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Daybreak Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Taleides Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Theseus Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Tleson Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Tleson",
-"Artists",
-"",
+"Protoattic and early Attic black-figure",
+"Attic black-figure painter",
 "artists",
 1
 ],
 [
 "Gorgon Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Epeleios Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Nikosthenes",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Brygos Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Wedding Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Nearchos",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Bearded Sphinx Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mesogeia Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ambrosios Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Kleomelos Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Affecter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Myson",
-"Artists",
-"",
+"Protoattic and early Attic black-figure",
+"Attic black-figure painter",
 "artists",
 1
 ],
 [
 "Ram Jug Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Inscription Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Andokides",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Makron",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Epidromos Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Peithinos",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Amphiaraos Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Onesimos",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Anagyrus Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Anakles",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Andokides painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Antimenes Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Princeton Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Honolulu Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Heidelberg Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Kassandra Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Aristonothos",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Arkesilas Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Amasis Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Triptolemos Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Kleitias",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Athena Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"BMN Painter",
-"Artists",
-"",
+"Protoattic and early Attic black-figure",
+"Attic black-figure painter",
 "artists",
 1
 ],
 [
 "Bellerophon Painter",
-"Artists",
-"",
+"Protoattic and early Attic black-figure",
+"Attic black-figure painter",
 "artists",
 1
 ],
 [
-"Berlin Painter",
-"Artists",
-"",
+"Mesogeia Painter",
+"Protoattic and early Attic black-figure",
+"Attic black-figure painter",
 "artists",
 1
 ],
 [
-"Goluchow Painter",
-"Artists",
-"",
+"KX Painter",
+"Komast Group, Sophilos and Kleitias",
+"Attic black-figure painter",
 "artists",
 1
 ],
 [
-"Dikaios Painter",
-"Artists",
-"",
+"KY Painter",
+"Komast Group, Sophilos and Kleitias",
+"Attic black-figure painter",
 "artists",
 1
 ],
 [
-"Thaliarchos Painter",
-"Artists",
-"",
+"Kleitias",
+"Komast Group, Sophilos and Kleitias",
+"Attic black-figure painter",
 "artists",
 1
 ],
 [
-"Bowdoin-Eye Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Delos Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Winchester Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hischylos Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Euergides Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Pasiades Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hermaios Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Chelis Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Thalia Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Elpinikos Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Salting Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gales Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Gales",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Pythokles Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Painter of London E 33",
-"Artists",
-"",
+"Ergotimos",
+"Komast Group, Sophilos and Kleitias",
+"Attic black-figure potter",
 "artists",
 1
 ],
 [
 "Sophilos",
-"Artists",
-"",
+"Komast Group, Sophilos and Kleitias",
+"Attic black-figure painter",
 "artists",
 1
 ],
 [
-"Epiktetos",
-"Artists",
-"",
+"Castellani Painter",
+"Siana cups and Tyrrhenian amphorae",
+"Attic black-figure painter",
 "artists",
 1
 ],
 [
-"Acheloos Painter",
-"Artists",
-"",
+"Painter of the Dresden Lekanis",
+"Siana cups and Tyrrhenian amphorae",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"C Painter",
+"Siana cups and Tyrrhenian amphorae",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Camtar Painter",
+"Siana cups and Tyrrhenian amphorae",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Griffin-Bird Painter",
+"Siana cups and Tyrrhenian amphorae",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Goltyr Painter",
+"Siana cups and Tyrrhenian amphorae",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Timenor",
+"Siana cups and Tyrrhenian amphorae",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Tityos Painter",
+"Siana cups and Tyrrhenian amphorae",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Ptoon Painter",
+"Siana cups and Tyrrhenian amphorae",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Polos Painter",
+"Siana cups and Tyrrhenian amphorae",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Heidelberg Painter",
+"Siana cups and Tyrrhenian amphorae",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Painter of London B 76",
+"Lydos and the mid-6th-century workshops",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Nearchos",
+"Lydos and the mid-6th-century workshops",
+"Attic black-figure painter",
 "artists",
 1
 ],
 [
 "Lydos",
-"Artists",
-"",
+"Lydos and the mid-6th-century workshops",
+"Attic black-figure painter",
 "artists",
 1
 ],
 [
-"Painter of Louvre G 36",
-"Artists",
-"",
+"Painter of Acropolis 606",
+"Lydos and the mid-6th-century workshops",
+"Attic black-figure painter",
 "artists",
 1
 ],
 [
-"Douris",
-"Artists",
-"",
+"Sokles",
+"Little-master cups",
+"Attic black-figure potter",
+"artists",
+1
+],
+[
+"Sakonides",
+"Little-master cups",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Hermogenes",
+"Little-master cups",
+"Attic black-figure potter",
+"artists",
+1
+],
+[
+"Hischylos",
+"Little-master cups",
+"Attic black-figure potter",
+"artists",
+1
+],
+[
+"Taleides Painter",
+"Little-master cups",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Anakles",
+"Little-master cups",
+"Attic black-figure potter",
 "artists",
 1
 ],
 [
 "Eucheiros",
-"Artists",
-"",
+"Little-master cups",
+"Attic black-figure potter",
+"artists",
+1
+],
+[
+"Elbows Out",
+"Little-master cups",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Ergoteles",
+"Little-master cups",
+"Attic black-figure potter",
+"artists",
+1
+],
+[
+"Xenocles",
+"Little-master cups",
+"Attic black-figure potter",
+"artists",
+1
+],
+[
+"Glaukytes",
+"Little-master cups",
+"Attic black-figure potter",
+"artists",
+1
+],
+[
+"Xenokles Painter",
+"Little-master cups",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Phrynos",
+"Little-master cups",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Phrynos Painter",
+"Little-master cups",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Tleson Painter",
+"Little-master cups",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Tleson",
+"Little-master cups",
+"Attic black-figure potter",
+"artists",
+1
+],
+[
+"Swing Painter",
+"Amasis Painter, Exekias and Group E",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Painter of the Vatican Mourner",
+"Amasis Painter, Exekias and Group E",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Painter of Munich 1410",
+"Amasis Painter, Exekias and Group E",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Princeton Painter",
+"Amasis Painter, Exekias and Group E",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Painter of Berlin 1686",
+"Amasis Painter, Exekias and Group E",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Affecter",
+"Amasis Painter, Exekias and Group E",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Amasis Painter",
+"Amasis Painter, Exekias and Group E",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Exekias",
+"Amasis Painter, Exekias and Group E",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Menon",
+"Bilingual workshop of Andokides and Psiax",
+"Attic black-figure potter",
+"artists",
+1
+],
+[
+"Andokides",
+"Bilingual workshop of Andokides and Psiax",
+"Attic black-figure potter",
+"artists",
+1
+],
+[
+"Andokides painter",
+"Bilingual workshop of Andokides and Psiax",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Psiax",
+"Bilingual workshop of Andokides and Psiax",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Lysippides Painter",
+"Bilingual workshop of Andokides and Psiax",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Pamphaios",
+"Nikosthenes and Pamphaios workshop",
+"Attic black-figure potter",
+"artists",
+1
+],
+[
+"Nikosthenes",
+"Nikosthenes and Pamphaios workshop",
+"Attic black-figure potter",
+"artists",
+1
+],
+[
+"BMN Painter",
+"Nikosthenes and Pamphaios workshop",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Nikosthenes Painter",
+"Nikosthenes and Pamphaios workshop",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Euphiletos Painter",
+"Leagros Group and the Antimenes Painter (late 6th century)",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Priam Painter",
+"Leagros Group and the Antimenes Painter (late 6th century)",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Painter of Louvre F6",
+"Leagros Group and the Antimenes Painter (late 6th century)",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Mastos Painter",
+"Leagros Group and the Antimenes Painter (late 6th century)",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Rycroft Painter",
+"Leagros Group and the Antimenes Painter (late 6th century)",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Daybreak Painter",
+"Leagros Group and the Antimenes Painter (late 6th century)",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Acheloos Painter",
+"Leagros Group and the Antimenes Painter (late 6th century)",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Timagoras",
+"Leagros Group and the Antimenes Painter (late 6th century)",
+"Attic black-figure potter",
+"artists",
+1
+],
+[
+"Madrid Painter",
+"Leagros Group and the Antimenes Painter (late 6th century)",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Antimenes Painter",
+"Leagros Group and the Antimenes Painter (late 6th century)",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Marathon Painter",
+"Late black-figure (5th century)",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Pithos Painter",
+"Late black-figure (5th century)",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Painter of the Nicosia Olpe",
+"Late black-figure (5th century)",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Eucharides Painter",
+"Late black-figure (5th century)",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Gela Painter",
+"Late black-figure (5th century)",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Nikoxenos Painter",
+"Late black-figure (5th century)",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Athena Painter",
+"Late black-figure (5th century)",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Diosphos Painter",
+"Late black-figure (5th century)",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Edinburgh Painter",
+"Late black-figure (5th century)",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Sappho Painter",
+"Late black-figure (5th century)",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Michigan Painter",
+"Late black-figure (5th century)",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Theseus Painter",
+"Late black-figure (5th century)",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Beldam Painter",
+"Late black-figure (5th century)",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Haimon Painter",
+"Late black-figure (5th century)",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Inscription Painter",
+"Chalcidian black-figure",
+"Chalcidian black-figure painter",
+"artists",
+1
+],
+[
+"Chelis",
+"Potters known from signatures",
+"Attic potter known from signatures",
+"artists",
+1
+],
+[
+"Gryton",
+"Potters known from signatures",
+"Attic potter known from signatures",
+"artists",
+1
+],
+[
+"Hermaios",
+"Potters known from signatures",
+"Attic potter known from signatures",
+"artists",
+1
+],
+[
+"Hypereides",
+"Potters known from signatures",
+"Attic potter known from signatures",
+"artists",
+1
+],
+[
+"Pasiades",
+"Potters known from signatures",
+"Attic potter known from signatures",
+"artists",
+1
+],
+[
+"Sikelos",
+"Potters known from signatures",
+"Attic potter known from signatures",
+"artists",
+1
+],
+[
+"Sosias",
+"Potters known from signatures",
+"Attic potter known from signatures",
+"artists",
+1
+],
+[
+"Paidikos",
+"Potters known from signatures",
+"Attic potter known from signatures",
+"artists",
+1
+],
+[
+"Charinus",
+"Potters known from signatures",
+"Attic potter known from signatures",
+"artists",
+1
+],
+[
+"Python",
+"Potters known from signatures",
+"Attic potter of Douris's cups, c. 500–470 BC",
+"artists",
+1
+],
+[
+"Gales",
+"Potters known from signatures",
+"Attic potter known from signatures",
+"artists",
+1
+],
+[
+"Pythokles Painter",
+"Potters known from signatures",
+"Attic potter known from signatures",
+"artists",
+1
+],
+[
+"Chiusi Painter",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Painter of Berlin 1833",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"N Painter",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Painter of Vatican 309",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Painter of the Aachen horsehead",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Painter of Tarquinia RC 6847",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Painter of Boston CA",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Wedding Painter",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Amphiaraos Painter",
+"Other named Attic hands",
+"Attic black-figure painter",
 "artists",
 1
 ],
 [
 "Bucci Painter",
-"Artists",
-"",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Carpenter Painter",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Nikias",
+"Other named Attic hands",
+"Attic black-figure potter",
+"artists",
+1
+],
+[
+"Kleomelos Painter",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Epidromos Painter",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Anagyrus Painter",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Delos Painter",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Thalia Painter",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Aristonothos",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Civico Painter",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Kealtes",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Wraith Painter",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Hippolytos Painter",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Painter of Louvre E 574",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Centaur Painter",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Kiss Painter",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Painter of Athens 533",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Painter of Vatican G. 31",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Dodwell Painter",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Praxias Painter",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Pholoe Painter",
+"Other named Attic hands",
+"Attic black-figure painter",
+"artists",
+1
+],
+[
+"Kassandra Painter",
+"Other named Attic hands",
+"Attic black-figure painter; vase painting",
 "artists",
 1
 ]
 ]
 },
 "E1-28": {
-"axis": "provisional",
+"axis": "sub-types and fabrics, then named vases, then Attic painters by Beazley's phases and groups (early cup painters, Pioneer Group, Late Archaic masters, Mannerists, Early Classical, High Classical, Rich and Kerch styles), then South Italian painters by fabric (Lucanian, Apulian, Campanian, Paestan); black-figure painters moved to Black-Figure Pottery, Etruscan painters to their leaf",
+"catalogues": [
+[
+"https://www.beazley.ox.ac.uk/carc/pottery",
+"Beazley Archive Pottery Database",
+"over 120,000 Athenian figure-decorated vases, searchable by painter, shape and technique"
+],
+[
+"https://www.cvaonline.org/cva/",
+"Corpus Vasorum Antiquorum online",
+"the CVA fascicules of Greek vases by museum"
+],
+[
+"https://www.britishmuseum.org/collection/search?keyword=red-figured",
+"British Museum collection: red-figured",
+"the BM's red-figured vases"
+],
+[
+"https://www.metmuseum.org/art/collection/search?q=red-figure",
+"The Met collection: red-figure",
+"red-figure vases at the Met"
+]
+],
 "kinds": [
 [
-"bilingual vase painting",
-"bilingual vase painting",
-"",
+"Bilingual vase painting",
+"Sub-types",
+"Attic vases c. 530–500 BC with one side black-figure and the other red-figure",
 "europe_folk",
 0
 ],
 [
-"Sellia Epyre",
-"Artists",
-"",
+"White-ground technique",
+"Sub-types",
+"Attic outline drawing on a white slip, above all on funerary lekythoi, from c. 500 BC",
+"r3 https://en.wikipedia.org/wiki/White-ground_technique",
+0
+],
+[
+"Kerch style",
+"Sub-types",
+"late Attic red-figure of the 4th century BC with added colour, named after finds at Kerch",
+"r3 https://en.wikipedia.org/wiki/Kerch_style",
+0
+],
+[
+"Apulian vase painting",
+"Sub-types",
+"the largest South Italian red-figure fabric, c. 430–300 BC",
+"r3 https://en.wikipedia.org/wiki/Apulian_vase_painting",
+0
+],
+[
+"Lucanian vase painting",
+"Sub-types",
+"the first South Italian red-figure fabric, from c. 440 BC",
+"r3 https://en.wikipedia.org/wiki/Lucanian_vase_painting",
+0
+],
+[
+"Campanian vase painting",
+"Sub-types",
+"red-figure of Campania, c. 380–300 BC",
+"r3 https://en.wikipedia.org/wiki/Campanian_vase_painting",
+0
+],
+[
+"Paestan vase painting",
+"Sub-types",
+"red-figure of Paestum, led by Asteas and Python",
+"r3 https://en.wikipedia.org/wiki/Paestan_vase_painting",
+0
+],
+[
+"Euphronios Krater (Euphronios, c. 515 BC)",
+"Named vases",
+"calyx krater with the death of Sarpedon; Museo Nazionale Etrusco di Villa Giulia, Rome",
+"r3 https://en.wikipedia.org/wiki/Euphronios_krater",
+0
+],
+[
+"Vivenzio Hydria (Kleophrades Painter, c. 480 BC)",
+"Named vases",
+"hydria with the sack of Troy; Museo Archeologico Nazionale, Naples",
+"r3 https://en.wikipedia.org/wiki/Vivenzio_Hydria",
+0
+],
+[
+"Berlin Foundry Cup (Foundry Painter, c. 490 BC)",
+"Named vases",
+"kylix with a bronze foundry; Antikensammlung, Berlin",
+"r3 https://en.wikipedia.org/wiki/Berlin_Foundry_Cup",
+0
+],
+[
+"Eurymedon vase (c. 460 BC)",
+"Named vases",
+"oinochoe alluding to the battle of the Eurymedon; Museum für Kunst und Gewerbe, Hamburg",
+"r3 https://en.wikipedia.org/wiki/Eurymedon_vase",
+0
+],
+[
+"Niobid Krater (Niobid Painter, c. 460 BC)",
+"Named vases",
+"calyx krater with Herakles and the Niobids; Louvre, Paris",
+"r3 https://en.wikipedia.org/wiki/Niobid_Krater",
+0
+],
+[
+"Pronomos Vase (Pronomos Painter, c. 400 BC)",
+"Named vases",
+"volute krater with a satyr-play cast; Museo Archeologico Nazionale, Naples",
+"r3 https://en.wikipedia.org/wiki/Pronomos_Vase",
+0
+],
+[
+"Darius Vase (Darius Painter, c. 340 BC)",
+"Named vases",
+"Apulian volute krater with the council of Darius; Museo Archeologico Nazionale, Naples",
+"r3 https://en.wikipedia.org/wiki/Darius_Vase",
+0
+],
+[
+"Skythes",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure painter",
 "artists",
 1
 ],
 [
-"Antiphon Painter",
-"Artists",
-"",
+"Oltos",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure painter",
 "artists",
 1
 ],
 [
-"Sosus of Pergamon",
-"Artists",
-"",
+"Euxitheos",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure potter",
 "artists",
 1
 ],
 [
-"Dioscorides of Samos",
-"Artists",
-"",
+"Pheidippos",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure painter",
 "artists",
 1
 ],
 [
-"Novius Plautius",
-"Artists",
-"",
+"Kachrylion",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure potter",
 "artists",
 1
 ],
 [
-"Achilles Painter",
-"Artists",
-"",
+"Paseas",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure painter",
 "artists",
 1
 ],
 [
-"Pan Painter",
-"Artists",
-"",
+"Epiktetos",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure painter",
 "artists",
 1
 ],
 [
-"Haimon Painter",
-"Artists",
-"",
+"Epeleios Painter",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure painter",
 "artists",
 1
 ],
 [
-"Meidias Painter",
-"Artists",
-"",
+"Ambrosios Painter",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure painter",
 "artists",
 1
 ],
 [
-"Foundry Painter",
-"Artists",
-"",
+"Peithinos",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Goluchow Painter",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Thaliarchos Painter",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Bowdoin-Eye Painter",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Winchester Painter",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Hischylos Painter",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Euergides Painter",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Pasiades Painter",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Hermaios Painter",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Chelis Painter",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Elpinikos Painter",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Salting Painter",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Gales Painter",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Painter of London E 33",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Painter of Louvre G 36",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Apollodoros",
+"Early red-figure cup painters (Oltos, Epiktetos)",
+"Attic red-figure painter",
 "artists",
 1
 ],
 [
 "Phintias",
 "Pioneer Group",
-"",
-"artists",
-1
-],
-[
-"Xenophantos",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Mannheim Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sotades",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Washing Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Dokimasia Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Florence Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ganymede Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Micali Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Nikias",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hegesiboulos Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Niobid Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Codrus Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Pronomos Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Carlsruhe Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Lycurgus Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Pisticci Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Loebbecke Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Lucera Painter",
-"Apulian vase painting",
-"",
-"artists",
-1
-],
-[
-"M Potter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Painter of the Berlin Dancing Girl",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Painter of the Wedding Procession",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Marsyas Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"(unnamed)",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Meidias",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Meleager Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Nausicaa Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Polygnotos",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"White Saccos Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sosias Painter",
-"Pioneer Group",
-"",
-"artists",
-1
-],
-[
-"Pig Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Polion",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Reed Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Aison",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Asteas",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Hermonax",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jena Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Underworld Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Phiale Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Dinos Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Varrese Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Sisyphus Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ilioupersis Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Tarporley Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Euphronios",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Exekias",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Nikias Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Eretria Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Amycus Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Aphrodite Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Kassandra Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Nazzano Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Parrish Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Choephoroi Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Python",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Altamura Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Apollodoros",
-"Artists",
-"",
+"Attic red-figure painter",
 "artists",
 1
 ],
 [
 "Smikros",
 "Pioneer Group",
-"",
+"Attic red-figure painter",
 "artists",
 1
 ],
 [
 "Euthymides",
 "Pioneer Group",
-"",
+"Attic red-figure painter",
 "artists",
 1
 ],
 [
-"Chimaera Painter",
-"Artists",
-"",
+"Hypsis",
+"Pioneer Group",
+"Attic red-figure painter",
 "artists",
 1
 ],
 [
-"Aristophanes",
-"Artists",
-"",
+"Dikaios Painter",
+"Pioneer Group",
+"Attic red-figure painter",
 "artists",
 1
 ],
 [
-"Armidale Painter",
-"Artists",
-"",
+"Euphronios",
+"Pioneer Group",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Sosias Painter",
+"Pioneer Group",
+"Attic red-figure painter; Classical Athens, vase painting",
+"artists",
+1
+],
+[
+"Kleophrades Painter",
+"Late Archaic masters (Kleophrades, Berlin, Brygos, Douris, Makron, Onesimos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Brygos",
+"Late Archaic masters (Kleophrades, Berlin, Brygos, Douris, Makron, Onesimos)",
+"Attic red-figure potter",
+"artists",
+1
+],
+[
+"Hieron",
+"Late Archaic masters (Kleophrades, Berlin, Brygos, Douris, Makron, Onesimos)",
+"Attic red-figure potter",
+"artists",
+1
+],
+[
+"Makron",
+"Late Archaic masters (Kleophrades, Berlin, Brygos, Douris, Makron, Onesimos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Onesimos",
+"Late Archaic masters (Kleophrades, Berlin, Brygos, Douris, Makron, Onesimos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Triptolemos Painter",
+"Late Archaic masters (Kleophrades, Berlin, Brygos, Douris, Makron, Onesimos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Berlin Painter",
+"Late Archaic masters (Kleophrades, Berlin, Brygos, Douris, Makron, Onesimos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Douris",
+"Late Archaic masters (Kleophrades, Berlin, Brygos, Douris, Makron, Onesimos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Syriskos Painter",
+"Late Archaic masters (Kleophrades, Berlin, Brygos, Douris, Makron, Onesimos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Brygos Painter",
+"Late Archaic masters (Kleophrades, Berlin, Brygos, Douris, Makron, Onesimos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Myson",
+"Late Archaic masters (Kleophrades, Berlin, Brygos, Douris, Makron, Onesimos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Antiphon Painter",
+"Late Archaic masters (Kleophrades, Berlin, Brygos, Douris, Makron, Onesimos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Foundry Painter",
+"Late Archaic masters (Kleophrades, Berlin, Brygos, Douris, Makron, Onesimos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Dokimasia Painter",
+"Late Archaic masters (Kleophrades, Berlin, Brygos, Douris, Makron, Onesimos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Hegesiboulos Painter",
+"Late Archaic masters (Kleophrades, Berlin, Brygos, Douris, Makron, Onesimos)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Pan Painter",
+"Mannerists",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Nausicaa Painter",
+"Mannerists",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Pig Painter",
+"Mannerists",
+"Attic red-figure painter; vase painting",
+"artists",
+1
+],
+[
+"Mannheim Painter",
+"Early Classical (Niobid, Pistoxenos, Penthesilea)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Florence Painter",
+"Early Classical (Niobid, Pistoxenos, Penthesilea)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"M Potter",
+"Early Classical (Niobid, Pistoxenos, Penthesilea)",
+"Attic red-figure potter",
+"artists",
+1
+],
+[
+"Sotades",
+"Early Classical (Niobid, Pistoxenos, Penthesilea)",
+"Attic red-figure potter",
+"artists",
+1
+],
+[
+"Niobid Painter",
+"Early Classical (Niobid, Pistoxenos, Penthesilea)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Hermonax",
+"Early Classical (Niobid, Pistoxenos, Penthesilea)",
+"Attic red-figure painter",
 "artists",
 1
 ],
 [
 "Pistoxenos Painter",
-"Artists",
-"",
+"Early Classical (Niobid, Pistoxenos, Penthesilea)",
+"Attic red-figure painter",
 "artists",
 1
 ],
 [
 "Penthesilea Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Kleophon Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Baltimore Painter",
-"Artists",
-"",
+"Early Classical (Niobid, Pistoxenos, Penthesilea)",
+"Attic red-figure painter",
 "artists",
 1
 ],
 [
 "Tarquinia Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Beldam Painter",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Darius Painter",
-"Artists",
-"",
+"Early Classical (Niobid, Pistoxenos, Penthesilea)",
+"Attic red-figure painter",
 "artists",
 1
 ],
 [
 "Providence Painter",
-"Artists",
-"",
+"Early Classical (Niobid, Pistoxenos, Penthesilea)",
+"Attic red-figure painter",
 "artists",
 1
 ],
 [
-"Painter of the Boston Orest",
-"Artists",
-"",
+"Carlsruhe Painter",
+"Early Classical (Niobid, Pistoxenos, Penthesilea)",
+"Attic red-figure painter; vase painting",
+"artists",
+1
+],
+[
+"Altamura Painter",
+"Early Classical (Niobid, Pistoxenos, Penthesilea)",
+"Attic red-figure painter; vase painting",
+"artists",
+1
+],
+[
+"Achilles Painter",
+"High Classical (Achilles, Polygnotos, Kleophon)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Washing Painter",
+"High Classical (Achilles, Polygnotos, Kleophon)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Codrus Painter",
+"High Classical (Achilles, Polygnotos, Kleophon)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Polygnotos",
+"High Classical (Achilles, Polygnotos, Kleophon)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Aison",
+"High Classical (Achilles, Polygnotos, Kleophon)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Phiale Painter",
+"High Classical (Achilles, Polygnotos, Kleophon)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Dinos Painter",
+"High Classical (Achilles, Polygnotos, Kleophon)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Eretria Painter",
+"High Classical (Achilles, Polygnotos, Kleophon)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Kleophon Painter",
+"High Classical (Achilles, Polygnotos, Kleophon)",
+"Attic red-figure painter",
 "artists",
 1
 ],
 [
 "Shuvalov Painter",
-"Artists",
-"",
+"High Classical (Achilles, Polygnotos, Kleophon)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Polion",
+"High Classical (Achilles, Polygnotos, Kleophon)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Reed Painter",
+"High Classical (Achilles, Polygnotos, Kleophon)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Nikias",
+"Rich style and Kerch style (late 5th–4th century)",
+"Attic red-figure potter",
+"artists",
+1
+],
+[
+"Meidias Painter",
+"Rich style and Kerch style (late 5th–4th century)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Meidias",
+"Rich style and Kerch style (late 5th–4th century)",
+"Attic red-figure potter",
+"artists",
+1
+],
+[
+"Jena Painter",
+"Rich style and Kerch style (late 5th–4th century)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Nikias Painter",
+"Rich style and Kerch style (late 5th–4th century)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Aristophanes",
+"Rich style and Kerch style (late 5th–4th century)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Pronomos Painter",
+"Rich style and Kerch style (late 5th–4th century)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Xenophantos",
+"Rich style and Kerch style (late 5th–4th century)",
+"Attic red-figure potter",
+"artists",
+1
+],
+[
+"Painter of the Wedding Procession",
+"Rich style and Kerch style (late 5th–4th century)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Marsyas Painter",
+"Rich style and Kerch style (late 5th–4th century)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Meleager Painter",
+"Rich style and Kerch style (late 5th–4th century)",
+"Attic red-figure painter",
+"artists",
+1
+],
+[
+"Pisticci Painter",
+"Lucanian red-figure",
+"Lucanian red-figure painter",
+"artists",
+1
+],
+[
+"Amycus Painter",
+"Lucanian red-figure",
+"Lucanian red-figure painter",
+"artists",
+1
+],
+[
+"Choephoroi Painter",
+"Lucanian red-figure",
+"Lucanian red-figure painter; vase painting",
+"artists",
+1
+],
+[
+"Painter of the Berlin Dancing Girl",
+"Apulian red-figure",
+"Apulian red-figure painter",
+"artists",
+1
+],
+[
+"Sisyphus Painter",
+"Apulian red-figure",
+"Apulian red-figure painter",
+"artists",
+1
+],
+[
+"Tarporley Painter",
+"Apulian red-figure",
+"Apulian red-figure painter",
+"artists",
+1
+],
+[
+"Ganymede Painter",
+"Apulian red-figure",
+"Apulian red-figure painter",
+"artists",
+1
+],
+[
+"Lucera Painter",
+"Apulian red-figure",
+"Apulian red-figure painter",
+"artists",
+1
+],
+[
+"White Saccos Painter",
+"Apulian red-figure",
+"Apulian red-figure painter",
+"artists",
+1
+],
+[
+"Underworld Painter",
+"Apulian red-figure",
+"Apulian red-figure painter",
+"artists",
+1
+],
+[
+"Varrese Painter",
+"Apulian red-figure",
+"Apulian red-figure painter",
+"artists",
+1
+],
+[
+"Ilioupersis Painter",
+"Apulian red-figure",
+"Apulian red-figure painter",
+"artists",
+1
+],
+[
+"Armidale Painter",
+"Apulian red-figure",
+"Apulian red-figure painter",
+"artists",
+1
+],
+[
+"Baltimore Painter",
+"Apulian red-figure",
+"Apulian red-figure painter",
+"artists",
+1
+],
+[
+"Darius Painter",
+"Apulian red-figure",
+"Apulian red-figure painter",
+"artists",
+1
+],
+[
+"Lycurgus Painter",
+"Apulian red-figure",
+"Apulian red-figure painter",
+"artists",
+1
+],
+[
+"Kassandra Painter",
+"Campanian red-figure",
+"Campanian red-figure painter; vase painting",
+"artists",
+1
+],
+[
+"Parrish Painter",
+"Campanian red-figure",
+"Campanian red-figure painter; vase painting",
+"artists",
+1
+],
+[
+"Python",
+"Paestan red-figure",
+"Paestan red-figure painter, partner of Asteas, c. 360–330 BC",
+"artists",
+1
+],
+[
+"Asteas",
+"Paestan red-figure",
+"Paestan red-figure painter",
+"artists",
+1
+],
+[
+"Loebbecke Painter",
+"South Italian red-figure (other workshops)",
+"South Italian red-figure painter",
+"artists",
+1
+],
+[
+"Aphrodite Painter",
+"South Italian red-figure (other workshops)",
+"South Italian red-figure painter",
+"artists",
+1
+],
+[
+"Painter of the Boston Orest",
+"South Italian red-figure (other workshops)",
+"South Italian red-figure painter",
+"artists",
+1
+],
+[
+"Sellia Epyre",
+"Other ancient craftspeople in the data",
+"Roman gold-embroiderer known from an inscription; not a vase painter",
 "artists",
 1
 ]
@@ -36831,6 +36875,131 @@
 "Robert (Mouseman) Thompson",
 "I3-15",
 "I3-14"
+],
+[
+"Butades",
+"E1-27",
+"E1-26"
+],
+[
+"Chares",
+"E1-27",
+"E1-26"
+],
+[
+"Duel Painter",
+"E1-27",
+"E1-26"
+],
+[
+"Painter of Toronto 919.5.110",
+"E1-27",
+"E1-26"
+],
+[
+"Rider Painter",
+"E1-27",
+"E1-29"
+],
+[
+"Painter of Palermo 489",
+"E1-27",
+"E1-26"
+],
+[
+"Cavalcade Painter",
+"E1-27",
+"E1-26"
+],
+[
+"Timonidas",
+"E1-27",
+"E1-26"
+],
+[
+"Naucratis Painter",
+"E1-27",
+"E1-29"
+],
+[
+"Columbus Painter",
+"E1-27",
+"E1-26"
+],
+[
+"Hunt Painter",
+"E1-27",
+"E1-29"
+],
+[
+"Boreads painter",
+"E1-27",
+"E1-29"
+],
+[
+"Painter of Vatican 73",
+"E1-27",
+"E1-26"
+],
+[
+"Panther Painter",
+"E1-27",
+"E1-26"
+],
+[
+"Shambling Bull Painter",
+"E1-27",
+"E1-26"
+],
+[
+"Bearded Sphinx Painter",
+"E1-27",
+"E1-34"
+],
+[
+"Honolulu Painter",
+"E1-27",
+"E1-26"
+],
+[
+"Arkesilas Painter",
+"E1-27",
+"E1-29"
+],
+[
+"Sosus of Pergamon",
+"E1-28",
+"L3-6"
+],
+[
+"Dioscorides of Samos",
+"E1-28",
+"L3-6"
+],
+[
+"Novius Plautius",
+"E1-28",
+"G1-25"
+],
+[
+"Micali Painter",
+"E1-28",
+"E1-34"
+],
+[
+"",
+"E1-28",
+"A5-111"
+],
+[
+"Nazzano Painter",
+"E1-28",
+"E1-34"
+],
+[
+"Chimaera Painter",
+"E1-28",
+"E1-26"
 ]
 ],
 "dropped": [
@@ -36911,6 +37080,11 @@
 ],
 [
 "B1-6",
+"(nameless row)",
+"empty name in the input; routed through moves_out only to satisfy the maker check, please discard"
+],
+[
+"E1-28",
 "(nameless row)",
 "empty name in the input; routed through moves_out only to satisfy the maker check, please discard"
 ]

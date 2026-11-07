@@ -1,13 +1,34 @@
 {
  "leaves": {
   "A5-25": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "by regional school: Caravaggisti, Bologna, Rome, Naples, Genoa, Venice, Florence, Lombardy, other Italian centres; Spain and colonies; France (Lorraine, classicism, Académie, Régence); Flanders, Dutch Republic, Holy Roman Empire, Central Europe, Britain, Scandinavia; quadratura, architects and others last; by birth year within groups",
+   "catalogues": [
+    [
+     "https://www.wga.hu/",
+     "Web Gallery of Art",
+     "searchable database of over 50,000 European paintings and sculptures, 3rd–19th century"
+    ],
+    [
+     "https://catalogo.fondazionezeri.unibo.it/",
+     "Fondazione Federico Zeri photo archive",
+     "catalogue of some 290,000 photographs of Italian paintings and sculpture, by artist and school"
+    ],
+    [
+     "https://rkd.nl/",
+     "RKD – Netherlands Institute for Art History",
+     "RKDartists and RKDimages: documentation of Netherlandish artists and their works"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Baroque+painting",
+     "The Met collection: Baroque painting",
+     "Baroque paintings in the Metropolitan Museum"
+    ]
+   ],
    "kinds": [
     [
      "Baroque and Rococo ceiling and quadratura painting",
      "Sub-types",
-     "",
+     "Illusionistic ceiling and architectural painting, Rome to Würzburg, 17th–18th c. (Pozzo, Cortona, Tiepolo)",
      "in_situ",
      0
     ],
@@ -4781,8 +4802,24 @@
    ]
   },
   "A5-29": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "by school: fête galante, French history and decorative painting, portrait and pastel, genre and still life, landscape, ornament and print; Venice; other Italian centres; South German and Austrian fresco; German courts; Switzerland; Low Countries; Britain; colonies; Scandinavia, Russia, Iberia; by birth year within groups",
+   "catalogues": [
+    [
+     "https://www.wga.hu/",
+     "Web Gallery of Art",
+     "searchable database of over 50,000 European paintings and sculptures, 3rd–19th century"
+    ],
+    [
+     "https://www.wallacecollection.org/",
+     "The Wallace Collection",
+     "the largest public holding of French Rococo painting and decorative art"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Rococo",
+     "The Met collection: Rococo",
+     "Rococo works in the Metropolitan Museum"
+    ]
+   ],
    "kinds": [
     [
      "Jean-Antoine Watteau",
@@ -7342,8 +7379,29 @@
    ]
   },
   "A5-28": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "by city school and circle (Haarlem, Amsterdam, Rembrandt's pupils, Leiden fijnschilders, Delft, Utrecht, Dordrecht), then the named specialisms of the period (Italianates, landscape phases, marine, genre, still life, architecture, portraiture), the late classicist phase, Dutch Brazil, printmakers and non-painters last; by birth year within groups",
+   "catalogues": [
+    [
+     "https://rkd.nl/",
+     "RKD – Netherlands Institute for Art History",
+     "RKDartists and RKDimages: documentation of Netherlandish artists and their works"
+    ],
+    [
+     "https://rembrandtdatabase.org/",
+     "Rembrandt Database",
+     "research database of Rembrandt's paintings with technical documentation"
+    ],
+    [
+     "https://www.rijksmuseum.nl/en",
+     "Rijksmuseum",
+     "the national collection of Dutch Golden Age painting"
+    ],
+    [
+     "https://www.wga.hu/",
+     "Web Gallery of Art",
+     "searchable database of over 50,000 European paintings and sculptures, 3rd–19th century"
+    ]
+   ],
    "kinds": [
     [
      "Jan Saenredam",
@@ -8881,8 +8939,29 @@
    ]
   },
   "A5-22": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "German lands by regional school (Cologne, Upper Rhine, Nuremberg, Little Masters, Augsburg, Danube school, Cranach, Tyrol, North), Switzerland, late courts; France (Avignon, court painting, Lyon and Limoges, Fontainebleau); Netherlands (Antwerp Mannerists, Romanists, Bruegel tradition, market scenes, landscape émigrés, print publishers); Tudor England; by birth year",
+   "catalogues": [
+    [
+     "https://lucascranach.org/",
+     "Cranach Digital Archive",
+     "research database of the paintings and prints of the Cranach workshop"
+    ],
+    [
+     "https://rkd.nl/",
+     "RKD – Netherlands Institute for Art History",
+     "RKDartists and RKDimages: documentation of Netherlandish artists and their works"
+    ],
+    [
+     "https://www.wga.hu/",
+     "Web Gallery of Art",
+     "searchable database of over 50,000 European paintings and sculptures, 3rd–19th century"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Northern+Renaissance",
+     "The Met collection: Northern Renaissance",
+     "Northern Renaissance works in the Metropolitan Museum"
+    ]
+   ],
    "kinds": [
     [
      "Stefan Lochner",
@@ -10049,21 +10128,37 @@
    ]
   },
   "A5-20": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "sub-types first; then by regional school and phase: Trecento forerunners, Florentine Early Renaissance and later Quattrocento, Umbria and the Marche, Ferrara and Bologna, Padua and Venice, Verona, Lombardy, Naples, High Renaissance masters and their Florentine contemporaries, Parma, maiolica and print, foreigners and outliers last; by birth year",
+   "catalogues": [
+    [
+     "https://catalogo.fondazionezeri.unibo.it/",
+     "Fondazione Federico Zeri photo archive",
+     "catalogue of some 290,000 photographs of Italian paintings and sculpture, by artist and school"
+    ],
+    [
+     "https://www.wga.hu/",
+     "Web Gallery of Art",
+     "searchable database of over 50,000 European paintings and sculptures, 3rd–19th century"
+    ],
+    [
+     "https://www.nationalgallery.org.uk/paintings",
+     "National Gallery, London: paintings",
+     "the national collection of Italian Renaissance painting"
+    ]
+   ],
    "kinds": [
     [
      "Italian Trecento and Renaissance fresco (Giotto, Masaccio, Michelangelo)",
      "Sub-types",
-     "",
+     "Buon fresco wall cycles from Giotto's Arena Chapel to the Sistine ceiling, c. 1300–1540",
      "in_situ",
      0
     ],
     [
      "Cassone painting",
      "Sub-types",
-     "Painted panels of Italian marriage chests, Florence and Siena, 15th-16th century (Apollonio di Giovanni workshop) · Possession: Cassone(B1)",
-     "possession",
+     "Painted panels of Italian marriage chests, Florence and Siena, 15th-16th century (Apollonio di Giovanni workshop) · Possession: Cassone (B1)",
+     "possession https://en.wikipedia.org/wiki/Cassone",
      0
     ],
     [
@@ -11189,8 +11284,24 @@
    ]
   },
   "A5-23": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "by centre and generation: Florence (first generation, court Mannerism, reform), Rome (Raphael's heirs, late Mannerism), Parma, Bologna, Venice, Lombardy and Cremona, Genoa, Urbino and the South; Northern Mannerism; Fontainebleau; Iberia; others last; by birth year",
+   "catalogues": [
+    [
+     "https://catalogo.fondazionezeri.unibo.it/",
+     "Fondazione Federico Zeri photo archive",
+     "catalogue of some 290,000 photographs of Italian paintings and sculpture, by artist and school"
+    ],
+    [
+     "https://www.wga.hu/",
+     "Web Gallery of Art",
+     "searchable database of over 50,000 European paintings and sculptures, 3rd–19th century"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Mannerism",
+     "The Met collection: Mannerism",
+     "Mannerist works in the Metropolitan Museum"
+    ]
+   ],
    "kinds": [
     [
      "Pontormo",
@@ -12224,8 +12335,24 @@
    ]
   },
   "A5-27": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "by generation and Antwerp circle: pre-Rubens Mannerists, the Brueghel dynasty and cabinet painting, Rubens and his studio, Flemish Caravaggisti, then specialisms (still life, landscape, genre), Brussels and Bruges, émigrés; by birth year within groups",
+   "catalogues": [
+    [
+     "https://rkd.nl/",
+     "RKD – Netherlands Institute for Art History",
+     "RKDartists and RKDimages: documentation of Netherlandish artists and their works"
+    ],
+    [
+     "https://www.rubenianum.be/",
+     "Rubenianum: Corpus Rubenianum Ludwig Burchard",
+     "the catalogue raisonné of Rubens's work, volumes free online"
+    ],
+    [
+     "https://www.wga.hu/",
+     "Web Gallery of Art",
+     "searchable database of over 50,000 European paintings and sculptures, 3rd–19th century"
+    ]
+   ],
    "kinds": [
     [
      "Lucas van Valckenborch",
@@ -13147,8 +13274,24 @@
    ]
   },
   "A5-16": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "by regional school: Italo-Byzantine Dugento, Rome and Assisi, Florence (Giotto and Giotteschi), Siena, Pisa, Rimini, Bologna, Umbria, the Veneto and Lombardy, Naples, Avignon; Catalonia, Castile, France, Central Europe, Scandinavia; Byzantine and other outliers last; by birth year",
+   "catalogues": [
+    [
+     "https://catalogo.fondazionezeri.unibo.it/",
+     "Fondazione Federico Zeri photo archive",
+     "catalogue of some 290,000 photographs of Italian paintings and sculpture, by artist and school"
+    ],
+    [
+     "https://www.wga.hu/",
+     "Web Gallery of Art",
+     "searchable database of over 50,000 European paintings and sculptures, 3rd–19th century"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Gothic+painting",
+     "The Met collection: Gothic painting",
+     "Gothic panel paintings in the Metropolitan Museum"
+    ]
+   ],
    "kinds": [
     [
      "Dietisalvi di Speme",
@@ -13965,8 +14108,24 @@
    ]
   },
   "A5-18": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "by court and regional school: Siena, Florence, the Marche, Venice, Bologna and Verona, Lombardy; Paris and the Valois courts, Provence, German lands (Soft Style), Crown of Aragon; by birth year",
+   "catalogues": [
+    [
+     "https://catalogo.fondazionezeri.unibo.it/",
+     "Fondazione Federico Zeri photo archive",
+     "catalogue of some 290,000 photographs of Italian paintings and sculpture, by artist and school"
+    ],
+    [
+     "https://www.wga.hu/",
+     "Web Gallery of Art",
+     "searchable database of over 50,000 European paintings and sculptures, 3rd–19th century"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=International+Gothic",
+     "The Met collection: International Gothic",
+     "International Gothic works in the Metropolitan Museum"
+    ]
+   ],
    "kinds": [
     [
      "Simone Martini",
@@ -14664,8 +14823,24 @@
    ]
   },
   "D5-113": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "by school: Rome, Florence, Venice, Naples and the South, Genoa and Bologna, Ticinese stuccatori; Spain; France (Versailles, Rococo, ornament); Flanders, Dutch Republic, England; German lands (early, Bohemia, Saxony-Prussia, Austria-South Germany), Poland, Scandinavia, Russia; medallists and architects last; by birth year",
+   "catalogues": [
+    [
+     "https://www.wga.hu/",
+     "Web Gallery of Art",
+     "searchable database of over 50,000 European paintings and sculptures, 3rd–19th century"
+    ],
+    [
+     "https://collections.vam.ac.uk/search/?q=Baroque+sculpture",
+     "V&A collections: Baroque sculpture",
+     "Baroque sculpture in the Victoria and Albert Museum"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Baroque+sculpture",
+     "The Met collection: Baroque sculpture",
+     "Baroque sculpture in the Metropolitan Museum"
+    ]
+   ],
    "kinds": [
     [
      "Nicolas Cordier",
@@ -16315,8 +16490,24 @@
    ]
   },
   "D5-112": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "sub-types first; then by centre: Florence, Rome, Venice-Padua-Mantua, Lombardy, Emilia, Naples and Sicily, High Renaissance and Mannerist Florence, later Rome and Milan; Spain, France, German lands, northern bronzes, Low Countries, Poland, England; by birth year",
+   "catalogues": [
+    [
+     "https://www.wga.hu/",
+     "Web Gallery of Art",
+     "searchable database of over 50,000 European paintings and sculptures, 3rd–19th century"
+    ],
+    [
+     "https://collections.vam.ac.uk/search/?q=Renaissance+sculpture",
+     "V&A collections: Renaissance sculpture",
+     "Renaissance sculpture in the Victoria and Albert Museum"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Renaissance+sculpture",
+     "The Met collection: Renaissance sculpture",
+     "Renaissance sculpture in the Metropolitan Museum"
+    ]
+   ],
    "kinds": [
     [
      "Paduan small bronzes",
@@ -17343,8 +17534,24 @@
    ]
   },
   "D5-111": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "by workshop and region: Pisano dynasty and Tuscany, Florentine transition, Campionese masters, Venice and Dalmatia, southern Italy; French cathedral and court workshops, Burgundy, German lands and the Parlers, Crown of Aragon; by birth year",
+   "catalogues": [
+    [
+     "https://www.wga.hu/",
+     "Web Gallery of Art",
+     "searchable database of over 50,000 European paintings and sculptures, 3rd–19th century"
+    ],
+    [
+     "https://collections.vam.ac.uk/search/?q=Gothic+sculpture",
+     "V&A collections: Gothic sculpture",
+     "Gothic sculpture in the Victoria and Albert Museum"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Gothic+sculpture",
+     "The Met collection: Gothic sculpture",
+     "Gothic sculpture in the Metropolitan Museum (incl. The Cloisters)"
+    ]
+   ],
    "kinds": [
     [
      "Lupo di Francesco",
@@ -17965,14 +18172,30 @@
    ]
   },
   "B2-13": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "sub-types first; then by school and phase: early engraving, Antwerp and Haarlem publishers, Rubens's engravers, Netherlandish mapmakers, Dutch Republic, mezzotint, Augsburg and Nuremberg, France (17th c., 18th c.), Italy, Britain (line and stipple, caricature), steel engraving and early lithography, Spain, Scandinavia and the East; outliers last; by birth year",
+   "catalogues": [
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=engraving",
+     "British Museum collection: engraving",
+     "the British Museum's print collection, the largest of European old master prints"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=engraving",
+     "The Met collection: engraving",
+     "prints in the Metropolitan Museum"
+    ],
+    [
+     "https://www.rijksmuseum.nl/en",
+     "Rijksmuseum (Rijksprentenkabinet)",
+     "the Dutch national print room"
+    ]
+   ],
    "kinds": [
     [
      "Dutch and Flemish cartography",
      "Sub-types",
-     "Engraved maps and atlases of Antwerp and Amsterdam, c. 1570–1670: Ortelius, Mercator, Blaeu, Hondius · Possession: Antique atlas(F1)",
-     "possession",
+     "Engraved maps and atlases of Antwerp and Amsterdam, c. 1570–1670: Ortelius, Mercator, Blaeu, Hondius · Possession: Antique atlas (F1)",
+     "possession https://oshermaps.org/?p=486",
      0
     ],
     [
@@ -19651,8 +19874,24 @@
    ]
   },
   "A5-56": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "by named group: forerunners, Die Brücke, NKVM and Der Blaue Reiter, Rhenish Expressionists, Berlin (Sturm, Pathetiker), Dresden Secession, Hamburg Secession, Lost Generation; Austria, Latem schools, Bergen School and De Ploeg, Swiss Rot-Blau, School of Paris émigrés; then countries of activity; by birth year",
+   "catalogues": [
+    [
+     "https://www.bruecke-museum.de/en",
+     "Brücke-Museum, Berlin",
+     "the collection of the Die Brücke artists' group"
+    ],
+    [
+     "https://www.geschkult.fu-berlin.de/e/db_entart_kunst/",
+     "Freie Universität Berlin: 'Degenerate Art' database",
+     "the c. 21,000 works confiscated from German museums in 1937, mostly Expressionist"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Expressionism",
+     "The Met collection: Expressionism",
+     "Expressionist works in the Metropolitan Museum"
+    ]
+   ],
    "kinds": [
     [
      "Christian Rohlfs",
@@ -21211,8 +21450,24 @@
    ]
   },
   "A5-47": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "by group: precursors, the Batignolles group and Impressionist exhibitions, later French Impressionists, Crozant and Rouen schools; American (Ten, Giverny, Boston, Old Lyme and Cos Cob, Hoosier, California); Heidelberg School, Canada, NEAC; German Secessions, Atmospheric Impressionism, Belgian Luminism, Skagen; then countries of activity; by birth year",
+   "catalogues": [
+    [
+     "https://www.musee-orsay.fr/en",
+     "Musée d'Orsay",
+     "the largest collection of French Impressionist painting"
+    ],
+    [
+     "https://www.artic.edu/collection?q=impressionism",
+     "Art Institute of Chicago: impressionism",
+     "Impressionist works in the Art Institute of Chicago"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Impressionism",
+     "The Met collection: Impressionism",
+     "Impressionist works in the Metropolitan Museum"
+    ]
+   ],
    "kinds": [
     [
      "Rudolf von Alt",
@@ -22624,8 +22879,24 @@
    ]
   },
   "A5-81": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "by circle and generation: teachers and precursors, New York School first generation, colour field, sculptors, second generation, Bay Area and Los Angeles, Chicago Allusive Abstractionists, Native American abstraction, Canada (Automatistes, Painters Eleven); then parallel movements abroad by region; by birth year",
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Abstract+Expressionism",
+     "The Met collection: Abstract Expressionism",
+     "Abstract Expressionist works in the Metropolitan Museum"
+    ],
+    [
+     "https://www.artic.edu/collection?q=abstract+expressionism",
+     "Art Institute of Chicago: abstract expressionism",
+     "Abstract Expressionist works in the Art Institute of Chicago"
+    ],
+    [
+     "https://www.tate.org.uk/search?q=abstract+expressionism",
+     "Tate collection: abstract expressionism",
+     "Abstract Expressionist works at Tate"
+    ]
+   ],
    "kinds": [
     [
      "Hans Hofmann",
@@ -23841,8 +24112,24 @@
    ]
   },
   "A5-51": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "by national school and circle: precursors, French founders, Rose + Croix and Idealists, Belgian Les XX, Dutch, Deutschrömer, Munich and Vienna Secessions, Swiss, Nordic, Young Poland, Czech, Hungarian, Russian (with Blue Rose), British, Catalan Modernisme, Italian, Americas; later echoes last; by birth year",
+   "catalogues": [
+    [
+     "https://www.musee-orsay.fr/en",
+     "Musée d'Orsay",
+     "the main collection of French Symbolist painting"
+    ],
+    [
+     "https://www.artic.edu/collection?q=symbolism",
+     "Art Institute of Chicago: symbolism",
+     "Symbolist works in the Art Institute of Chicago"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Symbolism",
+     "The Met collection: Symbolism",
+     "Symbolist works in the Metropolitan Museum"
+    ]
+   ],
    "kinds": [
     [
      "Jean Ignace Isidore Gérard Grandville",
@@ -24862,8 +25149,24 @@
    ]
   },
   "A5-49": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "by group: founders, Les Nabis, later French post-Impressionists, Belgian Intimism; British (Camden Town, Bloomsbury, Scottish Colourists); Jack of Diamonds; then countries of activity; by birth year",
+   "catalogues": [
+    [
+     "https://www.vangoghmuseum.nl/en/collection",
+     "Van Gogh Museum collection",
+     "the largest collection of Van Gogh's paintings, drawings and letters"
+    ],
+    [
+     "https://vangoghletters.org/",
+     "Vincent van Gogh: The Letters",
+     "complete annotated edition of Van Gogh's letters with the works they mention"
+    ],
+    [
+     "https://www.cezannecatalogue.com/",
+     "The Paintings, Watercolors and Drawings of Paul Cézanne: online catalogue raisonné",
+     "every known work by Cézanne"
+    ]
+   ],
    "kinds": [
     [
      "Paul Cézanne",
@@ -25519,8 +25822,24 @@
    ]
   },
   "A5-89": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "by scene: Independent Group and British Pop, American proto-Pop, New York Pop, West Coast Pop, Capitalist realism, Figuration narrative, other European Pop, Japan, Latin America, Australasia; Neo-pop and later last; by birth year",
+   "catalogues": [
+    [
+     "https://collection.warhol.org/",
+     "The Andy Warhol Museum collection",
+     "the museum's online collection of Warhol's work"
+    ],
+    [
+     "https://www.tate.org.uk/search?q=pop+art",
+     "Tate collection: pop art",
+     "Pop Art at Tate"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Pop+Art",
+     "The Met collection: Pop Art",
+     "Pop Art in the Metropolitan Museum"
+    ]
+   ],
    "kinds": [
     [
      "Richard Hamilton",
@@ -26169,8 +26488,24 @@
    ]
   },
   "A5-66": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "by group: Paris Surrealist group, Belgian Surrealism, British Surrealist Group, Mexico, Spain, American Surrealism and Post-Surrealism, Art and Liberty (Egypt), Japan, Central and Eastern Europe, Latin America; fantastic realism and later echoes last; by birth year",
+   "catalogues": [
+    [
+     "https://www.salvador-dali.org/en/artwork/catalogue-raisonne/",
+     "Fundació Gala-Salvador Dalí: catalogue raisonné",
+     "online catalogue raisonné of Dalí's paintings"
+    ],
+    [
+     "https://www.tate.org.uk/search?q=surrealism",
+     "Tate collection: surrealism",
+     "Surrealist works at Tate"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Surrealism",
+     "The Met collection: Surrealism",
+     "Surrealist works in the Metropolitan Museum"
+    ]
+   ],
    "kinds": [
     [
      "Valentine Hugo",
@@ -26798,8 +27133,24 @@
    ]
   },
   "A5-42": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "by circle: the founding Brotherhood, associates and first circle, patrons and muses, the Liverpool school, the second (Aesthetic) generation, later British followers, American and continental followers; by birth year",
+   "catalogues": [
+    [
+     "https://www.preraphaelites.org/",
+     "Birmingham Museums: Pre-Raphaelite Online Resource",
+     "the largest public collection of Pre-Raphaelite art, fully online"
+    ],
+    [
+     "http://www.rossettiarchive.org/",
+     "The Rossetti Archive",
+     "complete hypermedia archive of Dante Gabriel Rossetti's pictures and texts"
+    ],
+    [
+     "https://www.tate.org.uk/search?q=pre-raphaelite",
+     "Tate collection: pre-raphaelite",
+     "Pre-Raphaelite works at Tate"
+    ]
+   ],
    "kinds": [
     [
      "William Holman Hunt",
@@ -27266,8 +27617,24 @@
    ]
   },
   "A5-108": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "by phase and exhibiting society: Bakumatsu and early Meiji pioneers, Meiji Bijutsukai/Taiheiyō Gakai (old school), Hakubakai (new school), Taishō generation, early Shōwa; by birth year",
+   "catalogues": [
+    [
+     "https://www.momat.go.jp/en/",
+     "National Museum of Modern Art, Tokyo",
+     "the national collection of modern Japanese painting (yōga and nihonga)"
+    ],
+    [
+     "https://colbase.nich.go.jp/",
+     "ColBase (Japan's national museums)",
+     "integrated collection database of the Tokyo, Kyoto, Nara and Kyushu National Museums"
+    ],
+    [
+     "https://bunka.nii.ac.jp/",
+     "Cultural Heritage Online (Bunka Isan Online)",
+     "Japan's national portal to designated cultural properties and museum holdings"
+    ]
+   ],
    "kinds": [
     [
      "Takahashi Yuichi",
@@ -27699,8 +28066,24 @@
    ]
   },
   "A2-13": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "by school and exhibiting body: Kyoto Shijō lineage, Kokuga Sōsaku Kyōkai, Nihon Bijutsuin, Tokyo Bunten painters, revival Yamato-e, bijinga and ukiyo-e lineage, postwar; outliers last; by birth year",
+   "catalogues": [
+    [
+     "https://www.momat.go.jp/en/",
+     "National Museum of Modern Art, Tokyo",
+     "the national collection of modern Japanese painting (yōga and nihonga)"
+    ],
+    [
+     "https://colbase.nich.go.jp/",
+     "ColBase (Japan's national museums)",
+     "integrated collection database of the Tokyo, Kyoto, Nara and Kyushu National Museums"
+    ],
+    [
+     "https://bunka.nii.ac.jp/",
+     "Cultural Heritage Online (Bunka Isan Online)",
+     "Japan's national portal to designated cultural properties and museum holdings"
+    ]
+   ],
    "kinds": [
     [
      "Kōno Bairei",
@@ -27741,6 +28124,13 @@
      "Ōkoku Konoshima",
      "Kyoto school (Shijō lineage: Bairei, Seihō and pupils)",
      "Painter, b. 1877 · Empire of Japan",
+     "artists",
+     1
+    ],
+    [
+     "Goun Nishimura",
+     "Kyoto school (Shijō lineage: Bairei, Seihō and pupils)",
+     "Painter, b. 1877 · Japan",
      "artists",
      1
     ],
@@ -28093,19 +28483,28 @@
      "Painter, b. 1911 · Japan, Empire of Japan",
      "artists",
      1
-    ],
-    [
-     "Goun Nishimura",
-     "Japan",
-     "Painter, b. 1877 · Japan",
-     "artists",
-     1
     ]
    ]
   },
   "A2-1": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "by period and court tradition: Six Dynasties, Tang court, blue-and-green landscape, Five Dynasties and Southern Tang, Huang Quan and Xu Xi bird-and-flower, Northern Song landscape, Song Painting Academy, Liao and Jin, Chan figure painting, Song scholar flower painters; by birth year",
+   "catalogues": [
+    [
+     "https://digitalarchive.npm.gov.tw/",
+     "National Palace Museum (Taipei) digital archive",
+     "the former Qing imperial collection of Chinese painting and calligraphy"
+    ],
+    [
+     "https://en.dpm.org.cn/collections/",
+     "Palace Museum, Beijing: collections",
+     "paintings and calligraphy of the Forbidden City collection"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=Chinese+painting",
+     "Smithsonian collections (incl. Freer|Sackler): Chinese painting",
+     "Chinese painting in the Freer|Sackler and other Smithsonian collections"
+    ]
+   ],
    "kinds": [
     [
      "Dai Kui",
@@ -28307,6 +28706,13 @@
      "Gu Hongzhong",
      "Five Dynasties and Southern Tang court painting",
      "Painter, b. 937 · Southern Tang, Song dynasty",
+     "artists",
+     1
+    ],
+    [
+     "Zhao Gan",
+     "Five Dynasties and Southern Tang court painting",
+     "Painter, b. 950 · Song dynasty",
      "artists",
      1
     ],
@@ -28554,19 +28960,33 @@
      "Painter, b. 1199 · Song dynasty",
      "artists",
      1
-    ],
-    [
-     "Zhao Gan",
-     "China",
-     "Painter, b. 950 · Song dynasty",
-     "artists",
-     1
     ]
    ]
   },
   "A2-3": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "by period and lineage: Tang founders, Northern Song scholar-amateurs, Southern Song Chan ink, Song loyalists and early Yuan, Four Masters of the Yuan, late Yuan and early Ming scholars, Ming court, Qing Orthodox lineage, late Qing epigraphic school; outliers last; by birth year",
+   "catalogues": [
+    [
+     "https://digitalarchive.npm.gov.tw/",
+     "National Palace Museum (Taipei) digital archive",
+     "the former Qing imperial collection of Chinese painting and calligraphy"
+    ],
+    [
+     "https://en.dpm.org.cn/collections/",
+     "Palace Museum, Beijing: collections",
+     "paintings and calligraphy of the Forbidden City collection"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=Chinese+painting",
+     "Smithsonian collections (incl. Freer|Sackler): Chinese painting",
+     "Chinese painting in the Freer|Sackler and other Smithsonian collections"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Chinese+painting",
+     "The Met collection: Chinese painting",
+     "Chinese painting in the Metropolitan Museum"
+    ]
+   ],
    "kinds": [
     [
      "Wang Wei",
@@ -29057,35 +29477,182 @@
    ]
   },
   "A1-4": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "schools and phases first; works: every named Mughal illustrated manuscript or album with an English Wikipedia article (listed from knowledge; the gathered manuscript file holds no named Mughal manuscripts), by reign; collections ranked by Mughal paintings in the gathered object records (top institutions with ≥ 10); makers by reign and atelier",
+   "catalogues": [
+    [
+     "https://collections.vam.ac.uk/search/?q=Mughal",
+     "V&A collections: Mughal",
+     "Mughal paintings and album pages in the Victoria and Albert Museum"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=Mughal",
+     "Smithsonian collections (incl. Freer|Sackler): Mughal",
+     "Mughal painting in the Freer|Sackler (National Museum of Asian Art)"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Mughal",
+     "The Met collection: Mughal",
+     "Mughal paintings in the Metropolitan Museum"
+    ],
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Mughal",
+     "British Museum collection: Mughal",
+     "Mughal paintings in the British Museum"
+    ]
+   ],
    "kinds": [
     [
      "Imperial Mughal atelier",
      "Schools & phases",
-     "",
+     "The emperor's kitabkhana at Fatehpur Sikri, Lahore, Agra and Delhi under Akbar, Jahangir and Shah Jahan",
      "islamic_schools",
      0
     ],
     [
      "Prince Salim's atelier (Allahabad)",
      "Schools & phases",
-     "",
+     "Sub-imperial studio of the future Jahangir at Allahabad, c. 1599–1604",
      "islamic_schools",
      0
     ],
     [
      "Lucknow (Awadh)",
      "Schools & phases",
-     "",
+     "Provincial Mughal school of the Nawabs of Awadh at Faizabad and Lucknow, c. 1750–1850",
      "islamic_schools",
      0
     ],
     [
      "Murshidabad",
      "Schools & phases",
-     "",
+     "Provincial Mughal school of the Nawabs of Bengal, c. 1750–1800",
      "islamic_schools",
+     0
+    ],
+    [
+     "Hamzanama (Akbar's atelier, c. 1562–1577)",
+     "Manuscripts of Akbar's reign",
+     "Giant cloth-painted romance of Amir Hamza, c. 1,400 paintings; leaves in the MAK Vienna, V&A London and elsewhere",
+     "r3 https://en.wikipedia.org/wiki/Hamzanama",
+     0
+    ],
+    [
+     "Cleveland Tutinama (c. 1560)",
+     "Manuscripts of Akbar's reign",
+     "Early Akbar-period Tales of a Parrot; Cleveland Museum of Art",
+     "r3 https://en.wikipedia.org/wiki/Tutinama",
+     0
+    ],
+    [
+     "Razmnama (Akbar's atelier, 1584–1586)",
+     "Manuscripts of Akbar's reign",
+     "Persian Mahabharata made for Akbar; imperial copy in the City Palace Museum, Jaipur",
+     "r3 https://en.wikipedia.org/wiki/Razmnama",
+     0
+    ],
+    [
+     "Akbarnama (Akbar's atelier, c. 1590–1595)",
+     "Manuscripts of Akbar's reign",
+     "Illustrated official history of Akbar; V&A London (116 paintings) and Chester Beatty Library, Dublin",
+     "r3 https://en.wikipedia.org/wiki/Akbarnama",
+     0
+    ],
+    [
+     "Baburnama (illustrated copies, c. 1589–1600)",
+     "Manuscripts of Akbar's reign",
+     "Memoirs of Babur in Persian translation; copies dispersed (British Library, V&A, National Museum New Delhi)",
+     "r3 https://en.wikipedia.org/wiki/Baburnama",
+     0
+    ],
+    [
+     "Khamsa of Nizami (British Library, Or. 12208)",
+     "Manuscripts of Akbar's reign",
+     "Lahore, early 1590s, over forty miniatures; British Library, London, and Walters Art Museum, Baltimore",
+     "r3 https://en.wikipedia.org/wiki/Khamsa_of_Nizami_(British_Library,_Or._12208)",
+     0
+    ],
+    [
+     "Gulshan Album (Muraqqa-e Gulshan, c. 1599–1609)",
+     "Albums of Jahangir's reign",
+     "Album begun by Prince Salim; Golestan Palace, Tehran, and Staatsbibliothek Berlin, leaves widely dispersed",
+     "r3 https://en.wikipedia.org/wiki/Gulshan_Album",
+     0
+    ],
+    [
+     "St. Petersburg Muraqqa",
+     "Albums of Jahangir's reign",
+     "Album of Mughal and Persian paintings and calligraphy; Institute of Oriental Manuscripts, St Petersburg",
+     "r3 https://en.wikipedia.org/wiki/St._Petersburg_Muraqqa",
+     0
+    ],
+    [
+     "Jahangir Preferring a Sufi Shaikh to Kings (Bichitr, c. 1615–1618)",
+     "Albums of Jahangir's reign",
+     "Allegorical album page from the St Petersburg album; Freer Gallery of Art, Washington",
+     "r3 https://en.wikipedia.org/wiki/Jahangir_Preferring_a_Sufi_Shaikh_to_Kings",
+     0
+    ],
+    [
+     "Minto Album",
+     "Albums and manuscripts of Shah Jahan's reign",
+     "Jahangir- and Shah Jahan-period album pages; Chester Beatty Library, Dublin, and V&A London",
+     "r3 https://en.wikipedia.org/wiki/Minto_Album",
+     0
+    ],
+    [
+     "Shah Jahan Album (Kevorkian Album, c. 1620–1820)",
+     "Albums and manuscripts of Shah Jahan's reign",
+     "Fifty album folios of portraits and natural history; Metropolitan Museum of Art (41) and Freer Gallery (9)",
+     "r3 https://en.wikipedia.org/wiki/Shah_Jahan_Album",
+     0
+    ],
+    [
+     "Padshahnama (Windsor, c. 1630–1657)",
+     "Albums and manuscripts of Shah Jahan's reign",
+     "Illustrated official chronicle of Shah Jahan; Royal Collection, Windsor Castle",
+     "r3 https://en.wikipedia.org/wiki/Padshahnama",
+     0
+    ],
+    [
+     "Victoria and Albert Museum, London",
+     "Collections",
+     "2909 Mughal paintings and album pages in the gathered object records",
+     "computed: data/interim/regional/*_objects.csv",
+     0
+    ],
+    [
+     "Cleveland Museum of Art",
+     "Collections",
+     "1224 Mughal paintings and album pages in the gathered object records",
+     "computed: data/interim/regional/*_objects.csv",
+     0
+    ],
+    [
+     "National Museum of Asian Art (Freer and Sackler), Smithsonian, Washington",
+     "Collections",
+     "90 Mughal paintings and album pages in the gathered object records",
+     "computed: data/interim/regional/*_objects.csv",
+     0
+    ],
+    [
+     "Museum Volkenkunde, Leiden",
+     "Collections",
+     "40 Mughal paintings and album pages in the gathered object records",
+     "computed: data/interim/regional/*_objects.csv",
+     0
+    ],
+    [
+     "Art Institute of Chicago",
+     "Collections",
+     "16 Mughal paintings and album pages in the gathered object records",
+     "computed: data/interim/regional/*_objects.csv",
+     0
+    ],
+    [
+     "Aga Khan Museum, Toronto",
+     "Collections",
+     "12 Mughal paintings and album pages in the gathered object records",
+     "computed: data/interim/regional/*_objects.csv",
      0
     ],
     [
@@ -29530,6 +30097,13 @@
      1
     ],
     [
+     "Bhawani Kalan",
+     "Makers: Humayun and Akbar's atelier (c. 1550–1605)",
+     "distinct from Bhawani (makers_1)",
+     "islamic_makers",
+     1
+    ],
+    [
      "Jagannath",
      "Makers: Humayun and Akbar's atelier (c. 1550–1605)",
      "Akbarnama painter",
@@ -29544,9 +30118,23 @@
      1
     ],
     [
+     "Khem",
+     "Makers: Humayun and Akbar's atelier (c. 1550–1605)",
+     "possibly short form of Khem Karan; uncertain",
+     "islamic_makers",
+     1
+    ],
+    [
      "Mah Muhammad",
      "Makers: Humayun and Akbar's atelier (c. 1550–1605)",
      "Akbarnama painter",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Nandi",
+     "Makers: Humayun and Akbar's atelier (c. 1550–1605)",
+     "distinct from Nand Gwaliari?; uncertain",
      "islamic_makers",
      1
     ],
@@ -29610,6 +30198,20 @@
      "Devji Gujarati",
      "Makers: Humayun and Akbar's atelier (c. 1550–1605)",
      "Akbar-period painter",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Payag",
+     "Makers: Prince Salim's atelier (Allahabad)",
+     "Mughal painter, fl. 1595–1655",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Muhammad Sharif",
+     "Makers: Prince Salim's atelier (Allahabad)",
+     "painter, Mirat al-Quds c.1602",
      "islamic_makers",
      1
     ],
@@ -29747,83 +30349,6 @@
      1
     ],
     [
-     "Muhammad Rizavi Hindi",
-     "Makers: Lucknow and Faizabad (Awadh)",
-     "Awadh painter, Faizabad/Lucknow, fl. 1755–75",
-     "islamic_makers",
-     1
-    ],
-    [
-     "Fayzullah",
-     "Makers: Lucknow and Faizabad (Awadh)",
-     "Faizabad/Lucknow painter, fl. 1755–70",
-     "islamic_makers",
-     1
-    ],
-    [
-     "Hunhar II",
-     "Makers: Lucknow and Faizabad (Awadh)",
-     "Lucknow painter, fl. 1760s",
-     "islamic_makers",
-     1
-    ],
-    [
-     "Imad al-Husaini",
-     "Makers: Lucknow and Faizabad (Awadh)",
-     "Awadh-period maker, 1745–79; possibly calligrapher, uncertain",
-     "islamic_makers",
-     1
-    ],
-    [
-     "Aqil Khan",
-     "Makers: Lucknow and Faizabad (Awadh)",
-     "Awadh painter, fl. 1755–65",
-     "islamic_makers",
-     1
-    ],
-    [
-     "Mir Kalan Khan",
-     "Makers: Lucknow and Faizabad (Awadh)",
-     "Lucknow painter, fl. 1735–70",
-     "islamic_makers",
-     1
-    ],
-    [
-     "Fateh Chand",
-     "Makers: Lucknow and Faizabad (Awadh)",
-     "Awadh painter",
-     "islamic_makers",
-     1
-    ],
-    [
-     "Mihr Chand",
-     "Makers: Lucknow and Faizabad (Awadh)",
-     "Faizabad/Lucknow painter",
-     "islamic_makers",
-     1
-    ],
-    [
-     "Muhammad Husseyn (Hajji)",
-     "Makers: Lucknow and Faizabad (Awadh)",
-     "provincial Mughal painter; uncertain",
-     "islamic_makers",
-     1
-    ],
-    [
-     "Hedayat-Ullah",
-     "Makers: Lucknow and Faizabad (Awadh)",
-     "provincial Mughal painter; uncertain",
-     "islamic_makers",
-     1
-    ],
-    [
-     "Faqirullah",
-     "Makers: Lucknow and Faizabad (Awadh)",
-     "Awadh provincial Mughal painter",
-     "islamic_makers",
-     1
-    ],
-    [
      "Bichitr",
      "Makers: Shah Jahan and Aurangzeb (1628–1707)",
      "Jahangir–Shah Jahan portraitist, fl. 1615–60",
@@ -29922,158 +30447,81 @@
      1
     ],
     [
-     "Hamzanama (Akbar's atelier, c. 1562–1577)",
-     "Manuscripts of Akbar's reign",
-     "Giant cloth-painted romance of Amir Hamza, c. 1,400 paintings; leaves in the MAK Vienna, V&A London and elsewhere",
-     "r3 https://en.wikipedia.org/wiki/Hamzanama",
-     0
-    ],
-    [
-     "Cleveland Tutinama (c. 1560)",
-     "Manuscripts of Akbar's reign",
-     "Early Akbar-period Tales of a Parrot; Cleveland Museum of Art",
-     "r3 https://en.wikipedia.org/wiki/Tutinama",
-     0
-    ],
-    [
-     "Razmnama (Akbar's atelier, 1584–1586)",
-     "Manuscripts of Akbar's reign",
-     "Persian Mahabharata made for Akbar; imperial copy in the City Palace Museum, Jaipur",
-     "r3 https://en.wikipedia.org/wiki/Razmnama",
-     0
-    ],
-    [
-     "Akbarnama (Akbar's atelier, c. 1590–1595)",
-     "Manuscripts of Akbar's reign",
-     "Illustrated official history of Akbar; V&A London (116 paintings) and Chester Beatty Library, Dublin",
-     "r3 https://en.wikipedia.org/wiki/Akbarnama",
-     0
-    ],
-    [
-     "Baburnama (illustrated copies, c. 1589–1600)",
-     "Manuscripts of Akbar's reign",
-     "Memoirs of Babur in Persian translation; copies dispersed (British Library, V&A, National Museum New Delhi)",
-     "r3 https://en.wikipedia.org/wiki/Baburnama",
-     0
-    ],
-    [
-     "Khamsa of Nizami (British Library, Or. 12208)",
-     "Manuscripts of Akbar's reign",
-     "Lahore, early 1590s, over forty miniatures; British Library, London, and Walters Art Museum, Baltimore",
-     "r3 https://en.wikipedia.org/wiki/Khamsa_of_Nizami_(British_Library,_Or._12208)",
-     0
-    ],
-    [
-     "Victoria and Albert Museum, London",
-     "Collections",
-     "2909 Mughal paintings and album pages in the gathered object records",
-     "computed: data/interim/regional/*_objects.csv",
-     0
-    ],
-    [
-     "Cleveland Museum of Art",
-     "Collections",
-     "1224 Mughal paintings and album pages in the gathered object records",
-     "computed: data/interim/regional/*_objects.csv",
-     0
-    ],
-    [
-     "National Museum of Asian Art (Freer and Sackler), Smithsonian, Washington",
-     "Collections",
-     "90 Mughal paintings and album pages in the gathered object records",
-     "computed: data/interim/regional/*_objects.csv",
-     0
-    ],
-    [
-     "Museum Volkenkunde, Leiden",
-     "Collections",
-     "40 Mughal paintings and album pages in the gathered object records",
-     "computed: data/interim/regional/*_objects.csv",
-     0
-    ],
-    [
-     "Art Institute of Chicago",
-     "Collections",
-     "16 Mughal paintings and album pages in the gathered object records",
-     "computed: data/interim/regional/*_objects.csv",
-     0
-    ],
-    [
-     "Aga Khan Museum, Toronto",
-     "Collections",
-     "12 Mughal paintings and album pages in the gathered object records",
-     "computed: data/interim/regional/*_objects.csv",
-     0
-    ],
-    [
-     "Bhawani Kalan",
-     "Imperial Mughal atelier",
-     "distinct from Bhawani (makers_1)",
+     "Muhammad Rizavi Hindi",
+     "Makers: Lucknow and Faizabad (Awadh)",
+     "Awadh painter, Faizabad/Lucknow, fl. 1755–75",
      "islamic_makers",
      1
     ],
     [
-     "Khem",
-     "Imperial Mughal atelier",
-     "possibly short form of Khem Karan; uncertain",
+     "Fayzullah",
+     "Makers: Lucknow and Faizabad (Awadh)",
+     "Faizabad/Lucknow painter, fl. 1755–70",
      "islamic_makers",
      1
     ],
     [
-     "Nandi",
-     "Imperial Mughal atelier",
-     "distinct from Nand Gwaliari?; uncertain",
+     "Hunhar II",
+     "Makers: Lucknow and Faizabad (Awadh)",
+     "Lucknow painter, fl. 1760s",
      "islamic_makers",
      1
     ],
     [
-     "Gulshan Album (Muraqqa-e Gulshan, c. 1599–1609)",
-     "Albums of Jahangir's reign",
-     "Album begun by Prince Salim; Golestan Palace, Tehran, and Staatsbibliothek Berlin, leaves widely dispersed",
-     "r3 https://en.wikipedia.org/wiki/Gulshan_Album",
-     0
-    ],
-    [
-     "St. Petersburg Muraqqa",
-     "Albums of Jahangir's reign",
-     "Album of Mughal and Persian paintings and calligraphy; Institute of Oriental Manuscripts, St Petersburg",
-     "r3 https://en.wikipedia.org/wiki/St._Petersburg_Muraqqa",
-     0
-    ],
-    [
-     "Jahangir Preferring a Sufi Shaikh to Kings (Bichitr, c. 1615–1618)",
-     "Albums of Jahangir's reign",
-     "Allegorical album page from the St Petersburg album; Freer Gallery of Art, Washington",
-     "r3 https://en.wikipedia.org/wiki/Jahangir_Preferring_a_Sufi_Shaikh_to_Kings",
-     0
-    ],
-    [
-     "Payag",
-     "Makers: Prince Salim's atelier (Allahabad)",
-     "Mughal painter, fl. 1595–1655",
+     "Imad al-Husaini",
+     "Makers: Lucknow and Faizabad (Awadh)",
+     "Awadh-period maker, 1745–79; possibly calligrapher, uncertain",
      "islamic_makers",
      1
     ],
     [
-     "Muhammad Sharif",
-     "Makers: Prince Salim's atelier (Allahabad)",
-     "painter, Mirat al-Quds c.1602",
+     "Aqil Khan",
+     "Makers: Lucknow and Faizabad (Awadh)",
+     "Awadh painter, fl. 1755–65",
      "islamic_makers",
      1
     ],
     [
-     "Minto Album",
-     "Albums of Shah Jahan's reign",
-     "Jahangir- and Shah Jahan-period album pages; Chester Beatty Library, Dublin, and V&A London",
-     "r3 https://en.wikipedia.org/wiki/Minto_Album",
-     0
+     "Mir Kalan Khan",
+     "Makers: Lucknow and Faizabad (Awadh)",
+     "Lucknow painter, fl. 1735–70",
+     "islamic_makers",
+     1
     ],
     [
-     "Shah Jahan Album (Kevorkian Album, c. 1620–1820)",
-     "Albums of Shah Jahan's reign",
-     "Fifty album folios of portraits and natural history; Metropolitan Museum of Art (41) and Freer Gallery (9)",
-     "r3 https://en.wikipedia.org/wiki/Shah_Jahan_Album",
-     0
+     "Fateh Chand",
+     "Makers: Lucknow and Faizabad (Awadh)",
+     "Awadh painter",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Mihr Chand",
+     "Makers: Lucknow and Faizabad (Awadh)",
+     "Faizabad/Lucknow painter",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Muhammad Husseyn (Hajji)",
+     "Makers: Lucknow and Faizabad (Awadh)",
+     "provincial Mughal painter; uncertain",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Hedayat-Ullah",
+     "Makers: Lucknow and Faizabad (Awadh)",
+     "provincial Mughal painter; uncertain",
+     "islamic_makers",
+     1
+    ],
+    [
+     "Faqirullah",
+     "Makers: Lucknow and Faizabad (Awadh)",
+     "Awadh provincial Mughal painter",
+     "islamic_makers",
+     1
     ],
     [
      "Dip Chand",
@@ -30081,13 +30529,6 @@
      "Murshidabad painter, fl. 1755–70",
      "islamic_makers",
      1
-    ],
-    [
-     "Padshahnama (Windsor, c. 1630–1657)",
-     "Manuscripts of Shah Jahan's reign",
-     "Illustrated official chronicle of Shah Jahan; Royal Collection, Windsor Castle",
-     "r3 https://en.wikipedia.org/wiki/Padshahnama",
-     0
     ]
    ],
    "alias_rows": [
@@ -30126,13 +30567,34 @@
    ]
   },
   "C1-9": {
-   "axis": "",
-   "catalogues": [],
+   "axis": "sub-types first; then calligraphers by dynasty and lineage: Han and Three Kingdoms, Jin (the Wangs), Southern and Northern dynasties, early Tang, high and late Tang, Five Dynasties and Song, Yuan and Chan monks, Ming, Qing epigraphic school, Republican and modern; by birth year",
+   "catalogues": [
+    [
+     "https://digitalarchive.npm.gov.tw/",
+     "National Palace Museum (Taipei) digital archive",
+     "the former Qing imperial collection of Chinese painting and calligraphy"
+    ],
+    [
+     "https://en.dpm.org.cn/collections/",
+     "Palace Museum, Beijing: collections",
+     "paintings and calligraphy of the Forbidden City collection"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=Chinese+calligraphy",
+     "Smithsonian collections (incl. Freer|Sackler): Chinese calligraphy",
+     "Chinese calligraphy in the Freer|Sackler and other Smithsonian collections"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Chinese+calligraphy",
+     "The Met collection: Chinese calligraphy",
+     "Chinese calligraphy in the Metropolitan Museum"
+    ]
+   ],
    "kinds": [
     [
      "seal cutting",
      "Sub-types",
-     "",
+     "Zhuanke: carving of name and studio seals in seal script, a calligraphic art since the Ming (Wu Changshuo, Qi Baishi)",
      "world_folk",
      0
     ],
@@ -30710,6 +31172,41 @@
  ],
  "dropped": [
   [
+   "A5-25",
+   "",
+   "blank record: input row with an empty name"
+  ],
+  [
+   "A5-29",
+   "",
+   "blank record: input row with an empty name"
+  ],
+  [
+   "A5-28",
+   "",
+   "blank record: input row with an empty name"
+  ],
+  [
+   "A5-22",
+   "",
+   "blank record: input row with an empty name"
+  ],
+  [
+   "A5-20",
+   "",
+   "blank record: input row with an empty name"
+  ],
+  [
+   "A5-23",
+   "",
+   "blank record: input row with an empty name"
+  ],
+  [
+   "D5-113",
+   "",
+   "blank record: input row with an empty name"
+  ],
+  [
    "D5-112",
    "Italian, Padua",
    "museum culture label; merged into the new sub-type row Paduan small bronzes"
@@ -30720,6 +31217,26 @@
    "museum culture label; merged into the new sub-type row Paduan small bronzes"
   ],
   [
+   "B2-13",
+   "",
+   "blank record: input row with an empty name"
+  ],
+  [
+   "A5-56",
+   "",
+   "blank record: input row with an empty name"
+  ],
+  [
+   "A5-81",
+   "",
+   "blank record: input row with an empty name"
+  ],
+  [
+   "A5-66",
+   "",
+   "blank record: input row with an empty name"
+  ],
+  [
    "A5-108",
    "Yōga",
    "the leaf's own label repeated as a gathered evidence row"
@@ -30728,6 +31245,16 @@
    "A2-13",
    "Nihonga",
    "the leaf's own label repeated as a gathered evidence row"
+  ],
+  [
+   "A2-1",
+   "",
+   "blank record: input row with an empty name"
+  ],
+  [
+   "A2-3",
+   "",
+   "blank record: input row with an empty name"
   ],
   [
    "A1-4",
@@ -30748,6 +31275,11 @@
    "A1-4",
    "Faizullah",
    "duplicate of the maker row Fayzullah"
+  ],
+  [
+   "C1-9",
+   "",
+   "blank record: input row with an empty name"
   ]
  ]
 }

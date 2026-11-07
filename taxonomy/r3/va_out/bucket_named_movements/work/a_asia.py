@@ -7,7 +7,7 @@ A["A5-108"] = [
  ("Early Shōwa and the 1930 Association", "Yuzo Saeki;Kanji Maeta;Takeshi Hayashi;Keizō Koyama;Shikanosuke Oka;Sekine Shoji;Tadashi Kaminagai;Jun'ichi Dobashi;Masaru Nakanishi"),
 ]
 A["A2-13"] = [
- ("Kyoto school (Shijō lineage: Bairei, Seihō and pupils)", "Kōno Bairei;Hokkai Takashima;Takeuchi Seihō;Yamamoto Shōun;Kikuchi Keigetsu;Nishimura Goun;Ōkoku Konoshima;Nishiyama Suisho;Shoen Uemura;Hashimoto Kansetsu;Keigetsu Kikuchi;Miki Suizan;Kawasaki Shoko;Inshō Dōmoto;Fukuda Heihachirō;Daizaburō Nakamura"),
+ ("Kyoto school (Shijō lineage: Bairei, Seihō and pupils)", "Kōno Bairei;Goun Nishimura;Hokkai Takashima;Takeuchi Seihō;Yamamoto Shōun;Kikuchi Keigetsu;Nishimura Goun;Ōkoku Konoshima;Nishiyama Suisho;Shoen Uemura;Hashimoto Kansetsu;Keigetsu Kikuchi;Miki Suizan;Kawasaki Shoko;Inshō Dōmoto;Fukuda Heihachirō;Daizaburō Nakamura"),
  ("Kokuga Sōsaku Kyōkai (Kyoto, 1918)", "Tsuchida Bakusen;Murakami Kagaku;Irie Hakō;Tadaoto Kainoshō"),
  ("Nihon Bijutsuin (Okakura Tenshin's circle, Tokyo)", "Yokoyama Taikan;Kanzan Shimomura;Hishida Shunsō;Kimura Buzan;Tomita Keisen;Yukihiko Yasuda;Kokei Kobayashi;Seison Maeda;Gyoshū Hayami;Yuki Ogura;Ikuo Hirayama"),
  ("Tokyo: Bunten and the Japan Art Academy", "Iijima Kōga;Watanabe Shōtei;Suzuki Kason;Kawai Gyokudō;Yūki Somei;Kōgyō Terasaki;Ikegami Shūho;Matsubayashi Keigetsu;Hirafuku Hyakusui;Shoha Ito;Noda Kyūho;Kawabata Ryushi"),
@@ -20,7 +20,7 @@ A["A2-1"] = [
  ("Six Dynasties figure painting and theory", "Dai Kui;Gu Kaizhi;Zong Bing;Xie He;Zhang Sengyou"),
  ("Tang court figure, horse and Buddhist painting", "Yan Liben;Xue Ji;Han Xiu;Wu Daozi;Zheng Qian;Han Gan;Zhang Xuan;Han Huang;Chen Hong;Lu Hong;Guan Xiu;Sun Wei;Li Linfu;Yang Yan;Zhang Yanyuan;Luo Yin;Qian Liu"),
  ("Blue-and-green landscape (Li Sixun school)", "Li Sixun;Li Zhaodao;Wang Shen;Zhao Boju"),
- ("Five Dynasties and Southern Tang court painting", "Zhou Wenju;Gu Hongzhong;Dong Yuan;Juran;Wang Jingwu"),
+ ("Five Dynasties and Southern Tang court painting", "Zhou Wenju;Gu Hongzhong;Zhao Gan;Dong Yuan;Juran;Wang Jingwu"),
  ("Huang Quan and Xu Xi bird-and-flower traditions", "Huang Quan;Xu Xi;Huang Jucai;Zhao Chang;Xu Chongsi;Yi Yuanji;Cui Bai;Wu Yuanyu"),
  ("Northern Song monumental landscape", "Li Cheng;Guo Zhongshu;Yan Wengui;Xu Daoning;Qu Ding;Guo Xi;Wang Xi"),
  ("Song Imperial Painting Academy (Huizong to Southern Song)", "Emperor Renzong of Song;Li Tang;Emperor Huizong of Song;Zhang Zeduan;Su Hanchen;Xiao Zhao;Ma Hezhi;Ma Yuan;Liu Songnian;Xia Gui;Ma Lin;Zhou Jichang"),

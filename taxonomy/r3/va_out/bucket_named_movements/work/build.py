@@ -89,7 +89,7 @@ def main():
         for r in l["rows"]:
             name = r[0]; ev = r[5] if len(r) > 5 else {}
             if not name.strip():
-                continue  # handled below (blank record)
+                res["dropped"].append([code, "", "blank record: input row with an empty name"]); continue
             key = (code, name)
             if key in DROPS:
                 res["dropped"].append([code, name, DROPS[key]]); continue
@@ -102,7 +102,9 @@ def main():
                 if ev:
                     gloss = auto_gloss(name, ev, l["label"])
                 gloss = re.sub(r"\s*\(P\d+\)", "", gloss)
-                gloss = re.sub(r"\s*·?\s*owned as ([^·(]+?) \(Possession (\w+)\)", r" · Possession: \1(\2)", gloss)
+                gloss = re.sub(r"\s*·?\s*owned as ([^·(]+?) \(Possession (\w+)\)", r" · Possession: \1 (\2)", gloss)
+                mu = re.search(r"https?://\S+", r[2] or "")
+                if mu and str(src).startswith("possession") and "http" not in str(src): src = f"{src} {mu.group(0)}"
                 gloss = re.sub(r"\s*·\s*https?://\S+", "", gloss).strip()
             is_maker = 1 if (r[4] or g0 in ("Artists", "Architects", "Makers")) else 0
             if key in MOVES:

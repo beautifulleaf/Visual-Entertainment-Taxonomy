@@ -258,13 +258,13 @@ def wiki_check(titles):
         chunk = todo[i:i + 50]
         q = urllib.parse.urlencode({"action": "query", "titles": "|".join(chunk), "format": "json", "redirects": 1})
         import subprocess
-        for attempt in range(6):
+        for attempt in range(10):
             out = subprocess.run(["curl", "-sS", "-m", "60", "-A", "VisualEntertainmentTaxonomy/0.1 (research; contact via repo)", "https://en.wikipedia.org/w/api.php?" + q], capture_output=True, text=True).stdout
             try:
                 d = json.loads(out)["query"]
                 break
             except Exception:
-                time.sleep(5 * (attempt + 1))
+                time.sleep(8 * (attempt + 1))
         else:
             raise SystemExit("wiki api failed")
         norm = {n["from"]: n["to"] for n in d.get("normalized", [])}
@@ -297,7 +297,7 @@ def build_leaf(l):
         name, grp, gl, src, ism = r[0], r[1], r[2], r[3], r[4]
         maker_in = bool(ism) or grp in ("Artists", "Architects", "Makers")
         if not name.strip():
-            moves.append([name, code, "A5-111"])
+            dropped.append([code, name, "blank-name junk row (no artist identity)"])
             continue
         if name in mv:
             moves.append([name, code, mv[name]])

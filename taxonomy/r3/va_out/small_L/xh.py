@@ -4,8 +4,10 @@ from urllib.parse import quote_plus
 def wurl(a): return "https://en.wikipedia.org/wiki/" + a.replace(" ", "_")
 def surl(q): return "https://en.wikipedia.org/w/index.php?search=" + quote_plus(q)
 
+RISKY = set("""San rock art|X-ray style|Gaval dash|Galician petroglyphs|Zalavruga|Naquane National Park|Rock Paintings of Sierra de San Francisco|Gargas|Zuojiang Huashan Rock Art Cultural Landscape|Cheonjeon-ri Petroglyphs|Rock Art in the Hail Region of Saudi Arabia|Onega petroglyphs|Schematic art|Māori rock art|Vitlycke Museum|Game Pass Shelter|Côa Valley Paleolithic Art""".split("|"))
+def link(a): return surl(a) if a in RISKY else wurl(a)
 def W(name, group, gloss, art=None, mk=0):
-    return [name, group, gloss, "r3 " + wurl(art or name), mk]
+    return [name, group, gloss, "r3 " + link(art or name), mk]
 def SR(name, group, gloss, q=None, mk=0):
     return [name, group, gloss, "r3 " + surl(q or name), mk]
 def M(name, group, gloss, art=None):
@@ -19,7 +21,7 @@ def UN(i, label, what="UNESCO World Heritage List entry: description, maps and c
 def UNS(q, what):
     return [f"https://whc.unesco.org/en/list/?search={quote_plus(q)}", f"UNESCO World Heritage List search: {q}", what]
 def WP(a, what, label=None):
-    return [wurl(a), label or f"Wikipedia: {a}", what]
+    return [link(a), label or f"Wikipedia: {a}", what]
 def COM(q, what="Wikimedia Commons media search: photographs of all recorded sites and works"):
     return [f"https://commons.wikimedia.org/w/index.php?search={quote_plus(q)}", f"Wikimedia Commons: {q}", what]
 BRAD = ["https://www.bradshawfoundation.com/", "Bradshaw Foundation rock art archive", "online archive of world rock art, organised by region and site"]

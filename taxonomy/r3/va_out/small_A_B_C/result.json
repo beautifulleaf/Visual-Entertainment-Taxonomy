@@ -35,6 +35,13 @@
      0
     ],
     [
+     "Book of Antidotes of Pseudo-Galen (Kitab al-Diryaq)",
+     "Sub-types",
+     "illustrated pharmacological treatise, Jazira copies 1199 (BnF) and c. 1250 (Vienna)",
+     "r3 https://en.wikipedia.org/wiki/Kitab_al-Diryaq",
+     0
+    ],
+    [
      "Book of Knowledge of Ingenious Mechanical Devices (al-Jazari)",
      "Sub-types",
      "al-Jazari's 1206 treatise on automata, illustrated copies Syria and Egypt 13th–14th c.",
@@ -1159,6 +1166,13 @@
      "17th–18th-century manuscripts and albums",
      "c. 1700; National Library of Poland",
      "r3 https://www.wikidata.org/wiki/Q125992790",
+     0
+    ],
+    [
+     "Beyan-ı Menazil",
+     "Manuscripts of Mehmed II to Süleyman (to 1566)",
+     "Matrakçı Nasuh's topographical account of the Iraq campaign, 1537; Istanbul University Library",
+     "r3 https://en.wikipedia.org/wiki/Matrakçı_Nasuh",
      0
     ],
     [
@@ -2680,6 +2694,27 @@
    ],
    "kinds": [
     [
+     "Miracles of Mary (Te'amire Maryam)",
+     "Sub-types",
+     "Marian miracle books, the most richly illustrated Gondarine genre",
+     "r3 https://en.wikipedia.org/wiki/Ethiopian_art",
+     0
+    ],
+    [
+     "First Gondarine style",
+     "Schools & phases",
+     "court painting of Gondar, c. 1630–1730",
+     "r3 https://en.wikipedia.org/wiki/Gondarine_period",
+     0
+    ],
+    [
+     "Second Gondarine style",
+     "Schools & phases",
+     "18th-century Gondar painting with richer colour and Western prints as models",
+     "r3 https://en.wikipedia.org/wiki/Gondarine_period",
+     0
+    ],
+    [
      "Garima Gospels",
      "Early Ethiopian manuscripts (Aksumite to 15th century)",
      "Aksumite Gospels, c. 390–660, the oldest illustrated Christian books; Abba Garima Monastery",
@@ -2755,6 +2790,13 @@
      "3 manuscripts of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Wellesley+College",
      0
+    ],
+    [
+     "Fere Seyon",
+     "Makers",
+     "15th-century painter at the court of Zara Yaqob, Marian icons and manuscripts",
+     "r3 https://en.wikipedia.org/wiki/Ethiopian_art",
+     1
     ]
    ],
    "alias_rows": [
@@ -3590,6 +3632,13 @@
      0
     ],
     [
+     "Etchmiadzin Gospels",
+     "Early Armenian manuscripts (to 1200)",
+     "989, with 6th-century ivory covers; Matenadaran, Yerevan",
+     "r3 https://en.wikipedia.org/wiki/Echmiadzin_Gospels",
+     0
+    ],
+    [
      "Echmiadzin Gospels",
      "Early Armenian manuscripts (to 1200)",
      "989; Matenadaran",
@@ -3845,6 +3894,13 @@
      "landscape painter (c. 970–1051/52) in the Li Cheng manner",
      "r3 https://en.wikipedia.org/wiki/Xu_Daoning",
      1
+    ],
+    [
+     "Travelers among Mountains and Streams (Fan Kuan, c. 1000)",
+     "Monumental landscapes",
+     "hanging scroll, ink on silk; National Palace Museum, Taipei",
+     "r3 https://en.wikipedia.org/wiki/Fan_Kuan",
+     0
     ],
     [
      "Early Spring (Guo Xi, 1072)",
@@ -5113,6 +5169,13 @@
      "Kanō-trained painter (1823–1914) who became a pioneer photographer in Yokohama",
      "artists",
      1
+    ],
+    [
+     "Cypress Tree screens (Kanō Eitoku, 1590)",
+     "Works",
+     "eight-fold screen, Tokyo National Museum (National Treasure)",
+     "r3 https://en.wikipedia.org/wiki/Kanō_Eitoku",
+     0
     ]
    ],
    "alias_rows": []
@@ -5192,6 +5255,20 @@
      "Kamisaka Sekka, the last major Rinpa designer-painter · b. 1866",
      "artists",
      1
+    ],
+    [
+     "Wind God and Thunder God (Sōtatsu, 17th c.)",
+     "Works",
+     "pair of two-fold screens, Kennin-ji, Kyoto (National Treasure)",
+     "r3 https://en.wikipedia.org/wiki/Tawaraya_Sōtatsu",
+     0
+    ],
+    [
+     "Irises (Kōrin, c. 1705)",
+     "Works",
+     "pair of six-fold screens, Nezu Museum, Tokyo (National Treasure)",
+     "r3 https://en.wikipedia.org/wiki/Ogata_Kōrin",
+     0
     ]
    ],
    "alias_rows": []
@@ -5427,6 +5504,11 @@
      "https://www.metmuseum.org/art/collection/search?q=Shijo+school",
      "The Met collection search: Shijo school",
      "all Met objects matching 'Shijo school'"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Shijō_school",
+     "Wikipedia: Shijō school",
+     "the school and its painters"
     ]
    ],
    "kinds": [
@@ -5620,6 +5702,13 @@
      1
     ],
     [
+     "Sesson Shūkei",
+     "Sesshū and followers",
+     "eastern Japan ink painter (c. 1504–1589)",
+     "r3 https://en.wikipedia.org/wiki/Sesson_Shukei",
+     1
+    ],
+    [
      "Sōami",
      "Ami school",
      "shogunal connoisseur-painter (d. 1525)",
@@ -5632,6 +5721,13 @@
      "shogunal connoisseur-painter (1397–1471)",
      "r3 https://en.wikipedia.org/wiki/Nōami",
      1
+    ],
+    [
+     "Haboku Landscape (Sesshū, 1495)",
+     "Works",
+     "hanging scroll, Tokyo National Museum (National Treasure)",
+     "r3 https://en.wikipedia.org/wiki/Sesshū_Tōyō",
+     0
     ]
    ],
    "alias_rows": []
@@ -5656,6 +5752,13 @@
      "Schools & phases",
      "court style of Gondar, c. 1630–1730",
      "evidence",
+     0
+    ],
+    [
+     "Second Gondarine style",
+     "Schools & phases",
+     "18th-century Gondar style with modelled faces and rich textiles",
+     "r3 https://en.wikipedia.org/wiki/Gondarine_period",
      0
     ],
     [
@@ -5720,6 +5823,13 @@
      "2 objects of the tradition in the gathered records",
      "r3 https://www.wikidata.org/wiki/Special:Search?search=Minneapolis+Institute+of+Art",
      0
+    ],
+    [
+     "Fere Seyon",
+     "Makers",
+     "15th-century court painter of Zara Yaqob, author of Marian icons",
+     "r3 https://en.wikipedia.org/wiki/Ethiopian_art",
+     1
     ],
     [
      "Nicolò Brancaleon",
@@ -5800,6 +5910,13 @@
      "Named icons",
      "Constantinople, c. 1130; Tretyakov Gallery, Moscow",
      "r3 https://en.wikipedia.org/wiki/Theotokos_of_Vladimir",
+     0
+    ],
+    [
+     "Triumph of Orthodoxy (icon)",
+     "Named icons",
+     "Constantinople, c. 1400; British Museum, London",
+     "r3 https://en.wikipedia.org/wiki/Triumph_of_Orthodoxy",
      0
     ]
    ],
@@ -6130,10 +6247,24 @@
      0
     ],
     [
+     "Moscow school",
+     "Schools & phases",
+     "Muscovite icon painting from Theophanes and Rublev to Dionisius",
+     "r3 https://en.wikipedia.org/wiki/Russian_icons",
+     0
+    ],
+    [
      "Stroganov school",
      "Schools & phases",
      "miniature-like icons for the Stroganov family, c. 1600",
      "r3 https://en.wikipedia.org/wiki/Stroganov_school",
+     0
+    ],
+    [
+     "Pskov school",
+     "Schools & phases",
+     "expressive icons of Pskov, 13th–16th century",
+     "r3 https://en.wikipedia.org/wiki/Russian_icons",
      0
     ],
     [
@@ -6860,6 +6991,20 @@
      0
     ],
     [
+     "Khyenri",
+     "Schools & phases",
+     "see leaf Khyenri",
+     "r3 https://en.wikipedia.org/wiki/Gongkar_Chö_Monastery",
+     0
+    ],
+    [
+     "Karma Gadri",
+     "Schools & phases",
+     "see leaf Karma Gadri",
+     "r3 https://en.wikipedia.org/wiki/Thangka",
+     0
+    ],
+    [
      "Buryatia",
      "Centres & workshops",
      "Buryat thangka painting, Russia",
@@ -7292,6 +7437,13 @@
      "Menri painter",
      "evidence",
      1
+    ],
+    [
+     "Menla Döndrub",
+     "Makers",
+     "founder of the Menri style (b. 1440)",
+     "r3 https://en.wikipedia.org/wiki/Menri",
+     1
     ]
    ],
    "alias_rows": [
@@ -7318,6 +7470,13 @@
      "Sub-types",
      "Khyenri speciality of protector and wrathful deities",
      "r3 https://en.wikipedia.org/wiki/Dharmapala",
+     0
+    ],
+    [
+     "Gongkar Chöde",
+     "Centres & workshops",
+     "monastery whose 1460s murals by Khyentse are the style's touchstone",
+     "r3 https://en.wikipedia.org/wiki/Gongkar_Chö_Monastery",
      0
     ],
     [
@@ -7761,8 +7920,28 @@
   },
   "A4-15": {
    "axis": "Sub-types (ider-ider, langse, calendar paintings), then the Kamasan centre and painters by date; collections.",
-   "catalogues": [],
+   "catalogues": [
+    [
+     "https://en.wikipedia.org/wiki/Kamasan",
+     "Wikipedia: Kamasan",
+     "the tradition and painters"
+    ]
+   ],
    "kinds": [
+    [
+     "Ider-ider",
+     "Sub-types",
+     "long horizontal temple friezes on cloth",
+     "r3 https://en.wikipedia.org/wiki/Kamasan",
+     0
+    ],
+    [
+     "Kamasan",
+     "Centres & workshops",
+     "village of the sangging painters, Klungkung",
+     "r3 https://en.wikipedia.org/wiki/Kamasan",
+     0
+    ],
     [
      "Art Institute of Chicago",
      "Collections",
@@ -7808,6 +7987,13 @@
     ]
    ],
    "kinds": [
+    [
+     "Dluwang",
+     "Sub-types",
+     "beaten-bark paper on which the scrolls are painted",
+     "r3 https://en.wikipedia.org/wiki/Daluang",
+     0
+    ],
     [
      "Wayang beber Pacitan",
      "Works",
@@ -22633,53 +22819,52 @@
   }
  },
  "new_leaves": [],
- "moves_out": [
-  [
-   "",
-   "A5-80",
-   "A5-111"
-  ],
-  [
-   "",
-   "A5-93",
-   "A5-111"
-  ],
-  [
-   "",
-   "A5-96",
-   "A5-111"
-  ],
-  [
-   "",
-   "A5-98",
-   "A5-111"
-  ],
-  [
-   "",
-   "A5-102",
-   "A5-111"
-  ],
-  [
-   "",
-   "B1-4",
-   "A5-111"
-  ],
-  [
-   "",
-   "B1-9",
-   "A5-111"
-  ],
-  [
-   "",
-   "B2-16",
-   "A5-111"
-  ]
- ],
+ "moves_out": [],
  "dropped": [
   [
    "A1-15",
    "Garima Gospels",
    "duplicate of another row"
+  ],
+  [
+   "A5-80",
+   "",
+   "blank-name junk row (no artist identity)"
+  ],
+  [
+   "A5-93",
+   "",
+   "blank-name junk row (no artist identity)"
+  ],
+  [
+   "A5-96",
+   "",
+   "blank-name junk row (no artist identity)"
+  ],
+  [
+   "A5-98",
+   "",
+   "blank-name junk row (no artist identity)"
+  ],
+  [
+   "A5-102",
+   "",
+   "blank-name junk row (no artist identity)"
+  ],
+  [
+   "B1-4",
+   "",
+   "blank-name junk row (no artist identity)"
+  ],
+  [
+   "B1-9",
+   "",
+   "blank-name junk row (no artist identity)"
+  ],
+  [
+   "B2-16",
+   "",
+   "blank-name junk row (no artist identity)"
   ]
  ]
 }
