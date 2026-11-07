@@ -279,6 +279,7 @@ def apply_startlist(subs, rows, report):
     for f in glob.glob(os.path.join(O, "in_*.csv")):
         for r in csv.DictReader(open(f)): info[(os.path.basename(f)[3:-4], r["id"])].append(r)
     st = collections.Counter(); outs = []
+    restore = json.load(open(os.path.join(R3, "fixes.json"))).get("startlist_restore", {})
     def add(r, leaf, sec, note):
         key = r["id"] if r["id"].startswith("tt") else (r["id"], r["title"], r["who"])
         if key in placed or (r["id"].startswith("tt") and r["id"] in placed): st["dup"] += 1; return
@@ -289,7 +290,7 @@ def apply_startlist(subs, rows, report):
             sec = str(L["secs"].index(lab) + 1)
         kind = "tv" if leaf[0] == "B" else "film"
         country = (r.get("country") or "")
-        rows[leaf].append([r["title"], r["year"], r["who"], "", (note or "").strip(), r["id"] if r["id"].startswith("tt") else "",
+        rows[leaf].append([r["title"], r["year"], r["who"], "", (note or "").strip(), r["id"],
                            "", kind, sec if (L.get("secs") and sec) else "", country])
         placed.add(key); st["placed"] += 1
     for r in csv.DictReader(open(os.path.join(O, "decided.csv"))):
@@ -307,6 +308,8 @@ def apply_startlist(subs, rows, report):
         for a in csv.DictReader(open(f)):
             lf = key2code.get(a["leaf"].strip(), a["leaf"].strip())
             for r in info.get((b, a["id"]), []):
+                if lf == "out" and r["id"] in restore:
+                    lf2, sec2 = restore[r["id"]]; add(r, lf2, sec2, "restored: TSPDT-listed, in scope (S3 / streaming)"); st["restored"] += 1; continue
                 if lf == "out": outs.append([r["title"], a.get("note", "")]); st["out"] += 1; continue
                 if lf in leafobj: add(r, lf, a.get("sec", ""), a.get("note", ""))
                 else: st["bad_leaf"] += 1
@@ -327,7 +330,7 @@ def apply_coverage(subs, rows, cc, report):
         part = os.path.basename(d); key2code = {}
         f = os.path.join(d, "new_leaves.json")
         for nl in (json.load(open(f)) if os.path.exists(f) else []):
-            if nl["label"].strip().lower() in DROP_COVERAGE_LEAVES:
+            if any(nl["label"].strip().lower().startswith(x) for x in DROP_COVERAGE_LEAVES):
                 key2code[nl["key"]] = None; stats["dropped_leaf"] += 1; continue
             s = subs.get(nl["sub"])
             if not s: report.setdefault("cov_bad_sub", []).append([part, nl["sub"]]); continue

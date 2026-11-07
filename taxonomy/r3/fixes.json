@@ -1,26 +1,122 @@
 {
  "_note": "Final R3 fixes applied at the end of assembly (pipelines/r3/assemble.py apply_fixes). Leaf codes are the assembled R3 codes.",
  "ft_merge": [
-  {"from": "A13-10", "to": "A12-4", "section": "Screwball Romantic Comedies", "why": "one home for screwball comedy (comedy sub-family)"},
-  {"from": "A3-22", "to": "A12-50", "section": "Spy Thrillers Played for Laughs", "why": "one home for spy comedy (comedy sub-family)"},
-  {"from": "A5-14", "to": "A6-21", "section": "Science-Fiction Lost Worlds", "why": "one home for the lost-world film (adventure)"}
+  {
+   "from": "A13-10",
+   "to": "A12-4",
+   "section": "Screwball Romantic Comedies",
+   "why": "one home for screwball comedy (comedy sub-family)"
+  },
+  {
+   "from": "A3-22",
+   "to": "A12-50",
+   "section": "Spy Thrillers Played for Laughs",
+   "why": "one home for spy comedy (comedy sub-family)"
+  },
+  {
+   "from": "A5-14",
+   "to": "A6-21",
+   "section": "Science-Fiction Lost Worlds",
+   "why": "one home for the lost-world film (adventure)"
+  }
  ],
- "ft_relabel": {"C10-9": "Harem Comedy"},
- "ft_move": [["tt5116410", "C12-20"], ["tt2852470", "C12-20"]],
- "va_merge": [{"from": "I3-17", "to": "N1-3", "why": "Bauhaus decorative-arts makers into N1-3 Bauhaus Design"}],
- "va_rename": {"Maqsud Kashani, whose signature is woven into the carpet, but his exact role is debated": "Maqsud Kashani"},
+ "ft_relabel": {
+  "C10-9": "Harem Comedy"
+ },
+ "ft_move": [
+  [
+   "tt5116410",
+   "C12-20"
+  ],
+  [
+   "tt2852470",
+   "C12-20"
+  ]
+ ],
+ "va_merge": [
+  {
+   "from": "I3-17",
+   "to": "N1-3",
+   "why": "Bauhaus decorative-arts makers into N1-3 Bauhaus Design"
+  }
+ ],
+ "va_rename": {
+  "Maqsud Kashani, whose signature is woven into the carpet, but his exact role is debated": "Maqsud Kashani"
+ },
  "va_new_leaves": [
-  {"sub": "H7", "label": "Haute Couture & Fashion Design", "breadth": "broad",
+  {
+   "sub": "H7",
+   "label": "Haute Couture & Fashion Design",
+   "breadth": "broad",
    "defn": "Dress designed by a named couturier or fashion house and shown in collections — haute couture (the Chambre Syndicale's protected label, from Worth in 1858) and designer ready-to-wear — placed by designer; the garments and collections are the works (Dior's New Look, 1947; Chanel's suit; Balenciaga's sack dress). Regional and folk dress stays in its own H7 leaf; tailoring traditions (Savile Row, Neapolitan) are H7-14 and H7-15.",
    "aliases": "couture; haute couture; fashion design; designer fashion",
    "see": "H7-14 Savile Row Tailoring; J1-5 Fashion Photography; N Design.",
-   "src": [["https://en.wikipedia.org/wiki/Haute_couture", "Wikipedia"], ["https://en.wikipedia.org/wiki/Fashion_design", "Wikipedia"]],
-   "catalogues": [["https://www.vogue.com/fashion-shows", "Vogue Runway", "every runway show of the fashion houses, by season and designer"],
-                  ["https://www.metmuseum.org/art/collection/search?department=8", "The Met, Costume Institute", "the Costume Institute's collection"],
-                  ["https://www.kci.or.jp/en/archives/digital_archives/", "Kyoto Costume Institute Digital Archives", "dress from the 17th century to today"],
-                  ["https://www.europeana.eu/en/collections/topic/55-fashion", "Europeana Fashion", "European museums' fashion holdings"],
-                  ["https://collections.vam.ac.uk/search/?q=fashion", "V&A fashion", "the V&A's fashion collection"]],
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Haute_couture",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Fashion_design",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.vogue.com/fashion-shows",
+     "Vogue Runway",
+     "every runway show of the fashion houses, by season and designer"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?department=8",
+     "The Met, Costume Institute",
+     "the Costume Institute's collection"
+    ],
+    [
+     "https://www.kci.or.jp/en/archives/digital_archives/",
+     "Kyoto Costume Institute Digital Archives",
+     "dress from the 17th century to today"
+    ],
+    [
+     "https://www.europeana.eu/en/collections/topic/55-fashion",
+     "Europeana Fashion",
+     "European museums' fashion holdings"
+    ],
+    [
+     "https://collections.vam.ac.uk/search/?q=fashion",
+     "V&A fashion",
+     "the V&A's fashion collection"
+    ]
+   ],
    "axis": "designers by country of their house, in the order France, Italy, United Kingdom, United States, Japan, other countries; rows in date order",
-   "take_groups": [["I3-19", "Fashion design:"], ["I3-20", "Fashion design:"]]}
- ]
+   "take_groups": [
+    [
+     "I3-19",
+     "Fashion design:"
+    ],
+    [
+     "I3-20",
+     "Fashion design:"
+    ]
+   ]
+  }
+ ],
+ "startlist_restore": {
+  "tspdt:most-dangerous-game-tv-2020": [
+   "B7-27",
+   "5"
+  ],
+  "tspdt:the-elegant-spanking-1995": [
+   "A15-1",
+   "3"
+  ],
+  "tspdt:second-date-2017": [
+   "A15-1",
+   "4"
+  ],
+  "tspdt:ylen-tietoiskut-1970": [
+   "B11-10",
+   "3"
+  ]
+ }
 }

@@ -1,0 +1,13 @@
+# R3 resize pass: leaves over the 200-title ceiling
+
+After the TSPDT Starting List films were placed (owner: every Starting List film gets a home), 45 Film & Television leaves grew past 200 titles (up to 970). Each must be reorganised so the page stays browsable, in the Culinary Taxonomy's manner and the tab's rules (taxonomy/r3/BRIEF_FT.md: attested names only, abstract definitions, sections along a stated axis, era/country/director as axes where the field divides the genre that way, owner: "the best holistic organization", "don't force it either way").
+
+Input: `taxonomy/r3/resize/in_<batch>.json` → {"leaves": [{code, label, sub, sub_label, defn, secs, axis, siblings (labels of the other leaves in the sub-family), titles: [{id, title, year, who (director or country), country, sec (current section index), note}]}]}.
+
+For each leaf, choose what organises it best:
+- **Split** into 2–5 leaves when the field names distinct sub-genres, movements, schools or national/era cycles inside it (e.g. Avant-Garde Short → Visual Music / Structural Film / Lyrical & Diary Film / Found-Footage Film / Video Art; Direct Cinema → American Direct Cinema / Cinéma vérité / ...). The original code stays as one of the parts (keep its label or narrow it); new parts get keys NEW1, NEW2 ... with label, breadth, defn (membership test + examples), aliases, src (an existing Wikipedia/encyclopedia URL), axis and secs. Do not duplicate a sibling leaf; move titles to an existing sibling only if they clearly belong there (target = that sibling's code is not available here — note it in "moves" instead).
+- and/or **re-section** each resulting leaf (3–10 sections, ≤ ~150 titles per section, along the axis the field uses — era, school, national tradition, auteur, sub-type).
+Every title must be assigned. Target: no resulting leaf over ~200 titles; sections ≤ ~150.
+
+Output: `taxonomy/r3/resize/out_<batch>.json` = {"<leaf code>": {"label": "(narrowed label, optional)", "defn": "(optional)", "axis": "...", "secs": [...], "new_leaves": [{"key": "NEW1", "label": "...", "breadth": "...", "defn": "...", "aliases": "", "src": [["url", "Wikipedia"]], "axis": "...", "secs": [...]}], "assign": {"<id>": ["self" or "NEW1", <1-based section index or 0>]}, "moves": [["<id>", "<sibling label>", "reason"]]}}.
+Run `python3 pipelines/r3/resize_validate.py <batch>` until it exits 0. Use your knowledge of the films; for unknown titles use year, country, director and the current section. Python in chunks; scratch under taxonomy/r3/resize/work_<batch>/ deleted at the end; no git. Final reply ≤ 10 lines: per leaf, split or re-sectioned, resulting sizes.

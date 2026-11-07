@@ -91,19 +91,292 @@
    174
   ]
  ],
+ "collections": {
+  "old_collections_rows": 3075,
+  "leaves": 1403,
+  "institution_rows": 2276,
+  "work_rows_removed": 20930,
+  "sites_kept": 5527
+ },
  "va_maker_xrefs": 710,
  "va_leaves_removed": [],
  "ft_blocks_missing": [],
  "ft_routed": 66,
  "ft_web_override": 30,
  "coverage": {
-  "new_leaf": 36,
+  "new_leaf": 35,
   "new_section": 14,
   "moved": 107,
-  "added": 1563,
+  "added": 1520,
+  "dropped_leaf": 1,
+  "add_skipped": 43,
   "resectioned": 34,
   "resection_own_rows": 407
  },
+ "startlist": {
+  "placed": 20770,
+  "out": 64,
+  "restored": 4,
+  "new_leaf": 1
+ },
+ "startlist_out": [
+  [
+   "Legend of Zelda: Breath of the Wild, The [VIDEO GAME]",
+   "video game, not a film"
+  ],
+  [
+   "Friday Night Bites [WEB SERIES]",
+   "web series"
+  ],
+  [
+   "Pretty Peaches",
+   "adult-trade porn feature"
+  ],
+  [
+   "Change pas de main",
+   "adult-trade porn (Vecchiali, as G\u00e9rard Vall\u00e8s)"
+  ],
+  [
+   "Sensations",
+   "adult-trade porn"
+  ],
+  [
+   "Her Story [TV]",
+   "web series"
+  ],
+  [
+   "Chaudes adolescentes",
+   "adult-trade pornography"
+  ],
+  [
+   "The Bob Emergency",
+   "YouTube web documentary (Secret Base)"
+  ],
+  [
+   "Heavyweight [Podcast]",
+   "podcast, audio internet series"
+  ],
+  [
+   "Serial: Season 1 [Podcast]",
+   "podcast, audio internet series"
+  ],
+  [
+   "Man with a Movie Camera: The Participatory Global Remake an Experiment in Database Cinema for the 21st Century",
+   "web-crowdsourced database project"
+  ],
+  [
+   "Defunctland: Disney's Living Characters: A Broken Promise [TV]",
+   "YouTube web series"
+  ],
+  [
+   "The History of the Minnesota Vikings",
+   "YouTube web documentary (Secret Base)"
+  ],
+  [
+   "Captain Ahab: The Story of Dave Stieb [TV]",
+   "YouTube web documentary (Secret Base)"
+  ],
+  [
+   "History of the Seattle Mariners, The [TV]",
+   "YouTube web series"
+  ],
+  [
+   "On the Prowl",
+   "adult-trade pornography"
+  ],
+  [
+   "Loose Change",
+   "internet-native conspiracy video"
+  ],
+  [
+   "Fort McMoney [VIDEO GAME]",
+   "interactive web documentary game"
+  ],
+  [
+   "Sorority Sex Kittens 3",
+   "adult-trade pornography"
+  ],
+  [
+   "El Paso Wrecking Corp.",
+   "gay adult-trade pornography"
+  ],
+  [
+   "Cafe Flesh",
+   "hardcore adult-trade feature"
+  ],
+  [
+   "Reves de cuir/Leather Dreams",
+   "adult-trade pornography"
+  ],
+  [
+   "Strolling [TV]",
+   "internet-native web series"
+  ],
+  [
+   "The Devil in Miss Jones",
+   "adult-trade pornography"
+  ],
+  [
+   "\u00c9quation \u00e0 un inconnu",
+   "adult-trade gay pornography"
+  ],
+  [
+   "Pam & Tommy Lee: Stolen Honeymoon [Video]",
+   "celebrity sex tape, adult video"
+  ],
+  [
+   "What Makes This Song Stink, Episodes 1-7",
+   "internet-native web video series"
+  ],
+  [
+   "Labour Party General Election Social Media Launch Video",
+   "internet-native political campaign video"
+  ],
+  [
+   "Bijou",
+   "adult-trade gay pornography"
+  ],
+  [
+   "Doll Face",
+   "adult-trade pornography"
+  ],
+  [
+   "The Erotic Films of Peter De Rome",
+   "adult-trade gay pornography"
+  ],
+  [
+   "Look if You Reverse That iPad Advert and Put the Fugue from the End of Britten's Young Person\u2019s Guide to the Orchestra Over it, It Becomes Less of a Horrific Corporate Nightmare",
+   "internet-native web video"
+  ],
+  [
+   "Behind the Green Door",
+   "adult-trade pornography"
+  ],
+  [
+   "Deep Throat",
+   "adult-trade pornography"
+  ],
+  [
+   "[Enema Medley]",
+   "adult fetish loop"
+  ],
+  [
+   "John C. Depp, II v. Amber Laura Heard",
+   "courtroom livestream, not a film"
+  ],
+  [
+   "Water Power",
+   "adult-trade pornography"
+  ],
+  [
+   "The Fireworks Woman",
+   "adult-trade pornography"
+  ],
+  [
+   "Lottomainos",
+   "unknown 1978 promo, no director"
+  ],
+  [
+   "The Fire Island Kids",
+   "adult-trade gay pornography"
+  ],
+  [
+   "Debbie Does Dallas",
+   "adult-trade pornography"
+  ],
+  [
+   "State of Cinema [ONLINE LECTURE]",
+   "online lecture, not a film"
+  ],
+  [
+   "L.A. Plays Itself",
+   "explicit hardcore gay pornography"
+  ],
+  [
+   "Visions of Clair",
+   "adult-trade hardcore feature"
+  ],
+  [
+   "Mona: The Virgin Nymph",
+   "adult-trade hardcore feature"
+  ],
+  [
+   "Pandora's Mirror",
+   "adult-trade pornography"
+  ],
+  [
+   "Nightdreams",
+   "adult-trade pornography"
+  ],
+  [
+   "Pussy Talk",
+   "adult-trade pornography"
+  ],
+  [
+   "Boys in the Sand",
+   "adult-trade pornography"
+  ],
+  [
+   "Metal Gear Solid 2: Sons of Liberty [VIDEO GAME]",
+   "video game, not film or television"
+  ],
+  [
+   "Super Mario Odyssey [VIDEO GAME]",
+   "video game, not film or television"
+  ],
+  [
+   "BioShock [VIDEO GAME]",
+   "video game, not film/TV"
+  ],
+  [
+   "Memories Within Miss Aggie",
+   "adult-trade hardcore feature"
+  ],
+  [
+   "Forced Entry",
+   "adult-trade hardcore feature"
+  ],
+  [
+   "Falconhead Part II: The Maneaters",
+   "adult-trade hardcore feature"
+  ],
+  [
+   "Sex Garage",
+   "explicit gay adult-trade film"
+  ],
+  [
+   "Collateral Murder",
+   "WikiLeaks internet-released leak video"
+  ],
+  [
+   "Welcome to Pine Point",
+   "NFB interactive web documentary"
+  ],
+  [
+   "Bob Dylan: Like a Rolling Stone [VIDEO]",
+   "internet-native interactive music video"
+  ],
+  [
+   "Me at the Zoo",
+   "internet-native YouTube video"
+  ],
+  [
+   "Home - A VR Spacewalk [VIDEO GAME]",
+   "VR video game, not a film"
+  ],
+  [
+   "Camera Falls from Airplane and Lands in Pig Pen",
+   "internet-native viral clip"
+  ],
+  [
+   "History of the Entire World, I Guess",
+   "internet-native YouTube video"
+  ],
+  [
+   "Wrong Holes Only (Mistress Revenge, June Fontaine)",
+   "adult-trade pornography"
+  ]
+ ],
  "ft_fixes": {
   "merged": {
    "A13-10": "A12-4",
