@@ -48,6 +48,22 @@ def apply_collections(M, leafobj, replaced, report):
     fp = os.path.join(R3, "collections", "leaf_institutions.json")
     if not os.path.exists(fp): return
     LI = json.load(open(fp)); st = collections.Counter()
+    mp = os.path.join(R3, "collections", "missing_institutions.json")
+    MI = json.load(open(mp)) if os.path.exists(mp) else {}
+    def merge_into(code, names):
+        agg = collections.OrderedDict()
+        for row in LI.get(code, []) + [r for nm in names for r in MI.get(nm, [])]:
+            if row[0] in agg: agg[row[0]][1] += row[1]
+            else: agg[row[0]] = list(row)
+        LI[code] = sorted(agg.values(), key=lambda r: -r[1])[:25]
+    for code, (f0, s0, l0) in leafobj.items():
+        if l0.get("collections_from"): merge_into(code, l0["collections_from"])
+    mf = os.path.join(R3, "va_out", "missing_traditions", "merges.csv")
+    if os.path.exists(mf):
+        for r in csv.DictReader(open(mf)):
+            if r["leaf_code"] in leafobj:
+                merge_into(r["leaf_code"], [r["tradition"]])
+                l0 = leafobj[r["leaf_code"]][2]; l0["alias_rows"] = list(dict.fromkeys((l0.get("alias_rows") or []) + [r["tradition"]]))
     for code, rows in list(M.items()):
         if code not in leafobj: continue
         makers = sum(1 for r in rows if r[4])
@@ -126,6 +142,7 @@ def build_va(src, tree, M, find_old, report):
                     see=nl.get("see", ""), src=nl.get("src", []), weak="", n=0, alias_rows=[], new="R3")
         if nl.get("axis"): leaf["axis"] = nl["axis"]
         if nl.get("catalogues"): leaf["catalogues"] = nl["catalogues"]
+        if nl.get("collections_from"): leaf["collections_from"] = nl["collections_from"]
         subobj[sc]["leaves"].append(leaf); M[code] = nl["kinds"]; added.append(code)
         leafobj[code] = (None, subobj[sc], leaf)
     report["va_new_leaves"] = added

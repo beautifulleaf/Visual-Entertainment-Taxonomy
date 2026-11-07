@@ -76,6 +76,10 @@ def main():
         out[leaf] = [[i, c[0], link(i, q)] for i, c in rows if c[0] >= 3][:25]
     json.dump(out, open(os.path.join(O, "leaf_institutions.json"), "w"), ensure_ascii=False, indent=0)
     json.dump(general, open(os.path.join(O, "family_general.json"), "w"), indent=1)
+    mi = collections.defaultdict(collections.Counter)
+    for (t, fam), (n, ic) in missing.items(): mi[t].update(ic)
+    json.dump({t: [[i, n, link(i, t)] for i, n in c.most_common(25) if n >= 3] for t, c in mi.items()},
+              open(os.path.join(O, "missing_institutions.json"), "w"), ensure_ascii=False, indent=0)
     with open(os.path.join(O, "missing_traditions.csv"), "w", newline="") as fo:
         w = csv.writer(fo); w.writerow(["tradition", "family", "objects", "institutions", "top_institutions"])
         for (t, fam), (n, ic) in sorted(missing.items(), key=lambda x: -x[1][0]):
