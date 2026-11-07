@@ -1,0 +1,3184 @@
+{
+ "label": "Documentary Short",
+ "defn": "A nonfiction short of the sound era observing people, work and social life at first hand — portraits, social observation and sport — not made as sponsored, scientific, political, poetic, essay, arts or ethnographic film (Le Sang des bêtes, Les Raquetteurs, Talking Heads, Period. End of Sentence.).",
+ "axis": "by era for portrait and social shorts, then sport",
+ "secs": [
+  "Portrait & Social Shorts to 1959",
+  "Portrait & Social Shorts 1960–1979",
+  "Portrait & Social Shorts 1980–1999",
+  "Portrait & Social Shorts 2000–2014",
+  "Portrait & Social Shorts since 2015",
+  "Sport Shorts"
+ ],
+ "new_leaves": [
+  {
+   "key": "NEW1",
+   "label": "Political Documentary Short",
+   "breadth": "Short militant, activist and social-issue documentaries.",
+   "defn": "A documentary short made to argue, mobilise or bear witness on a political or social cause — militant and revolutionary newsreels, anticolonial and activist films, war and social-issue reportage (Misère au Borinage, Afrique 50, Now, Hanoi Tuesday 13th, The White Helmets).",
+   "aliases": "militant film; activist documentary short; social-issue documentary short",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Political_cinema",
+     "Wikipedia"
+    ]
+   ],
+   "axis": "by era: interwar and postwar militant film, the 1960s revolutionary and Third Cinema shorts, the 1970s collectives, then later activism",
+   "secs": [
+    "Militant Shorts to 1959",
+    "Revolutionary & Third Cinema Shorts 1960–1969",
+    "Activist & Collective Shorts 1970–1979",
+    "Activist & Issue Shorts 1980–2009",
+    "Activist & Issue Shorts since 2010"
+   ]
+  },
+  {
+   "key": "NEW2",
+   "label": "Poetic Documentary Short",
+   "breadth": "Short documentaries organised by rhythm, image and mood rather than argument: city symphonies and lyrical studies of place and labour.",
+   "defn": "A documentary short shaped by visual rhythm, montage and mood instead of exposition — city symphonies, lyrical studies of landscape, seasons and work (Manhatta, Rain, À propos de Nice, Islands of Fire, Beginning).",
+   "aliases": "city symphony short; lyrical documentary",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Poetic_documentary",
+     "Wikipedia"
+    ]
+   ],
+   "axis": "city symphonies first, then poetic documentary by era",
+   "secs": [
+    "City Symphonies & Street Films",
+    "Poetic Documentary to 1969",
+    "Poetic Documentary 1970–1999",
+    "Poetic Documentary since 2000"
+   ]
+  },
+  {
+   "key": "NEW3",
+   "label": "Essay Film Short",
+   "breadth": "Short first-person and reflective nonfiction films that think through images, memory and history.",
+   "defn": "A nonfiction short that reflects in a personal, argumentative voice, working through memory, history and images themselves (Night and Fog, The House Is Black, Reassemblage, Isle of Flowers, History and Memory).",
+   "aliases": "short essay film; video essay; film essay",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Essay_film",
+     "Wikipedia"
+    ]
+   ],
+   "axis": "by era",
+   "secs": [
+    "Essay Shorts to 1979",
+    "Essay Shorts 1980–1999",
+    "Essay Shorts 2000–2014",
+    "Essay Shorts 2015–2019",
+    "Essay Shorts since 2020"
+   ]
+  },
+  {
+   "key": "NEW4",
+   "label": "Arts Documentary Short",
+   "breadth": "Short documentaries about artists, writers, filmmakers, musicians and dancers and their work.",
+   "defn": "A documentary short whose subject is an art, an artist or a performance — painting and sculpture, writers, cinema and filmmakers, music and dance (Henri Matisse, Guernica, Jazz Dance, Werner Herzog Eats His Shoe, Kazuo Ohno).",
+   "aliases": "art documentary short; music documentary short; dance documentary",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Art_film_(documentary)",
+     "Wikipedia"
+    ]
+   ],
+   "axis": "by art form",
+   "secs": [
+    "Art & Artists",
+    "Writers & Poets",
+    "Cinema & Filmmakers",
+    "Music & Musicians",
+    "Dance & Performance"
+   ]
+  },
+  {
+   "key": "NEW5",
+   "label": "Ethnographic Short",
+   "breadth": "Short fieldwork and ethnographic documentaries of ritual, craft and community life.",
+   "defn": "A documentary short recording the ritual, craft or daily life of a community as ethnographic fieldwork (Trance and Dance in Bali, Les Maîtres fous, The Ax Fight, Gestes du repas).",
+   "aliases": "ethnographic documentary short; visual anthropology short",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Ethnographic_film",
+     "Wikipedia"
+    ]
+   ],
+   "axis": "by era of fieldwork",
+   "secs": [
+    "Early Fieldwork Films (to 1949)",
+    "Ethnographic Shorts 1950–1979",
+    "Ethnographic Shorts since 1980"
+   ]
+  }
+ ],
+ "assign": {
+  "tt0170155": [
+   "NEW1",
+   3
+  ],
+  "tspdt:adolescente-sucre-d-amour-1985": [
+   "NEW1",
+   4
+  ],
+  "tspdt:once-upon-a-time-in-beirut-1995": [
+   "NEW3",
+   2
+  ],
+  "tt1803199": [
+   "self",
+   1
+  ],
+  "tspdt:rituaes-e-festas-bororo-1916": [
+   "NEW5",
+   1
+  ],
+  "tspdt:tervanpolttoa-lapissa-1918": [
+   "NEW5",
+   1
+  ],
+  "tspdt:zora-neale-hurston-fieldwork-footage-1928": [
+   "NEW5",
+   1
+  ],
+  "tspdt:la-zone-1928": [
+   "self",
+   1
+  ],
+  "tspdt:st-kilda-britain-s-loneliest-isle-1928": [
+   "NEW5",
+   1
+  ],
+  "tspdt:ethnographic-films-1929": [
+   "NEW5",
+   1
+  ],
+  "tt2601508": [
+   "self",
+   1
+  ],
+  "tspdt:les-petits-metiers-de-paris-1932": [
+   "self",
+   1
+  ],
+  "tspdt:architekturkongress-1933": [
+   "self",
+   1
+  ],
+  "tspdt:george-washington-carver-at-tuskegee-ins-1937": [
+   "self",
+   1
+  ],
+  "tt1161442": [
+   "self",
+   1
+  ],
+  "tspdt:pelicula-familiar-1938": [
+   "self",
+   1
+  ],
+  "tt0303269": [
+   "self",
+   1
+  ],
+  "tt0495820": [
+   "NEW5",
+   1
+  ],
+  "tt0483919": [
+   "self",
+   1
+  ],
+  "tspdt:le-tonnelier-1942": [
+   "NEW5",
+   1
+  ],
+  "tspdt:henri-matisse-1946": [
+   "NEW4",
+   1
+  ],
+  "tspdt:powodz-1947": [
+   "self",
+   1
+  ],
+  "tspdt:frente-a-frente-com-os-xavantes-1948": [
+   "NEW5",
+   1
+  ],
+  "tt0040641": [
+   "self",
+   1
+  ],
+  "tspdt:bezoek-aan-picasso-1949": [
+   "NEW4",
+   1
+  ],
+  "tt0041842": [
+   "self",
+   1
+  ],
+  "tspdt:huono-filmi-1950": [
+   "self",
+   1
+  ],
+  "tspdt:bohulano-family-film-collection-1950": [
+   "self",
+   1
+  ],
+  "tt0043548": [
+   "self",
+   1
+  ],
+  "tspdt:david-1951": [
+   "self",
+   1
+  ],
+  "tspdt:henry-moore-tv-1951": [
+   "NEW4",
+   1
+  ],
+  "tspdt:trance-and-dance-in-bali-1952": [
+   "NEW5",
+   2
+  ],
+  "tspdt:vuelve-sebastiana-1953": [
+   "NEW5",
+   2
+  ],
+  "tspdt:paul-tomkowicz-street-railway-switchman-1954": [
+   "self",
+   1
+  ],
+  "tt0210340": [
+   "NEW2",
+   2
+  ],
+  "tt0048363": [
+   "NEW5",
+   2
+  ],
+  "tspdt:parabola-d-oro-1955": [
+   "NEW2",
+   2
+  ],
+  "tspdt:surfarara-1955": [
+   "NEW2",
+   2
+  ],
+  "tt1349452": [
+   "self",
+   1
+  ],
+  "tspdt:children-who-draw-1956": [
+   "self",
+   1
+  ],
+  "tt0048575": [
+   "NEW5",
+   2
+  ],
+  "tspdt:ikebana-1957": [
+   "NEW4",
+   1
+  ],
+  "tspdt:ignoti-alla-citta-1958": [
+   "self",
+   1
+  ],
+  "tspdt:andre-masson-et-les-quatre-elements-1958": [
+   "NEW4",
+   1
+  ],
+  "tspdt:pourvu-qu-on-ait-l-ivresse-1958": [
+   "self",
+   1
+  ],
+  "tspdt:les-raquetteurs-1958": [
+   "self",
+   1
+  ],
+  "tspdt:fishing-boats-1958": [
+   "NEW2",
+   2
+  ],
+  "tspdt:gestes-du-repas-1958": [
+   "NEW5",
+   2
+  ],
+  "tspdt:o-poeta-do-castelo-1959": [
+   "NEW4",
+   2
+  ],
+  "tspdt:la-petite-cuillere-1960": [
+   "self",
+   2
+  ],
+  "tspdt:think-of-me-first-as-a-person-1960": [
+   "self",
+   2
+  ],
+  "tt0056722": [
+   "self",
+   2
+  ],
+  "tspdt:circle-of-the-sun-1961": [
+   "NEW5",
+   2
+  ],
+  "tspdt:la-canta-delle-marane-1961": [
+   "self",
+   2
+  ],
+  "tspdt:strangers-of-the-earth-1961": [
+   "NEW5",
+   2
+  ],
+  "tspdt:jean-sibelius-kodissaan-1961": [
+   "NEW4",
+   4
+  ],
+  "tspdt:bucherons-de-la-manouane-1962": [
+   "NEW5",
+   2
+  ],
+  "tspdt:watch-the-birdie-tv-1963": [
+   "NEW4",
+   1
+  ],
+  "tspdt:blind-child-1964": [
+   "self",
+   2
+  ],
+  "tspdt:nejvetsi-prani-1964": [
+   "self",
+   2
+  ],
+  "tspdt:seven-up-tv-1964": [
+   "self",
+   2
+  ],
+  "tspdt:i-think-they-call-him-john-1964": [
+   "self",
+   2
+  ],
+  "tspdt:odenwaldstetten-1964": [
+   "self",
+   2
+  ],
+  "tt35664769": [
+   "self",
+   2
+  ],
+  "tspdt:viramundo-1965": [
+   "self",
+   2
+  ],
+  "tspdt:people-in-sheffield-1965": [
+   "self",
+   2
+  ],
+  "tspdt:ociel-del-toa-1965": [
+   "self",
+   2
+  ],
+  "tt0759569": [
+   "self",
+   2
+  ],
+  "tt0167319": [
+   "self",
+   2
+  ],
+  "tspdt:herman-slobbe-1966": [
+   "self",
+   2
+  ],
+  "tspdt:oskar-langenfeld-12-mal-1966": [
+   "self",
+   2
+  ],
+  "tspdt:look-at-the-face-1966": [
+   "self",
+   2
+  ],
+  "tspdt:behind-every-good-man-1966": [
+   "self",
+   2
+  ],
+  "tt0383211": [
+   "self",
+   2
+  ],
+  "tt1594563": [
+   "NEW1",
+   2
+  ],
+  "tt0179389": [
+   "self",
+   2
+  ],
+  "tspdt:respice-finem-1967": [
+   "self",
+   2
+  ],
+  "tspdt:liu-pi-chia-1967": [
+   "self",
+   2
+  ],
+  "tt0498510": [
+   "self",
+   2
+  ],
+  "tspdt:robert-kennedy-remembered-1968": [
+   "NEW1",
+   2
+  ],
+  "tspdt:lide-z-hor-1968": [
+   "self",
+   2
+  ],
+  "tspdt:lavra-dor-1968": [
+   "self",
+   2
+  ],
+  "tt13434358": [
+   "self",
+   2
+  ],
+  "tspdt:the-dreams-of-the-centenarians-1969": [
+   "self",
+   2
+  ],
+  "tspdt:los-santisimos-hermanos-1969": [
+   "NEW5",
+   2
+  ],
+  "tspdt:the-late-show-1969": [
+   "self",
+   2
+  ],
+  "tt0405251": [
+   "self",
+   2
+  ],
+  "tspdt:this-is-the-home-of-mrs-levant-graham-1970": [
+   "self",
+   2
+  ],
+  "tspdt:arthur-penn-the-director-1970": [
+   "NEW4",
+   3
+  ],
+  "tspdt:i-was-a-soldier-1970": [
+   "self",
+   2
+  ],
+  "tt35665094": [
+   "self",
+   2
+  ],
+  "tt0412990": [
+   "NEW4",
+   2
+  ],
+  "tt35665199": [
+   "self",
+   2
+  ],
+  "tspdt:dood-van-een-sandwichman-1971": [
+   "self",
+   2
+  ],
+  "tspdt:i-don-t-know-1971": [
+   "self",
+   2
+  ],
+  "tt1715747": [
+   "self",
+   2
+  ],
+  "tspdt:beauty-knows-no-pain-1972": [
+   "self",
+   2
+  ],
+  "tspdt:p-like-pelican-1972": [
+   "self",
+   2
+  ],
+  "tspdt:echecs-1972": [
+   "self",
+   2
+  ],
+  "tspdt:ronnie-1972": [
+   "self",
+   2
+  ],
+  "tspdt:joyce-at-34-1972": [
+   "self",
+   2
+  ],
+  "tspdt:psychodrama-1972": [
+   "self",
+   2
+  ],
+  "tspdt:going-where-i-ve-never-been-the-photogra-1972": [
+   "NEW4",
+   1
+  ],
+  "tspdt:l-ordre-1973": [
+   "self",
+   2
+  ],
+  "tspdt:a-tram-runs-through-the-city-1973": [
+   "self",
+   2
+  ],
+  "tspdt:the-reading-lesson-1973": [
+   "self",
+   2
+  ],
+  "tspdt:proud-to-be-british-1973": [
+   "NEW1",
+   3
+  ],
+  "tspdt:launch-1974": [
+   "self",
+   2
+  ],
+  "tt35051648": [
+   "self",
+   2
+  ],
+  "tspdt:a-pedra-da-riqueza-1975": [
+   "self",
+   2
+  ],
+  "tspdt:inventory-1975": [
+   "self",
+   2
+  ],
+  "tspdt:the-ax-fight-1975": [
+   "NEW5",
+   2
+  ],
+  "tt0076428": [
+   "self",
+   2
+  ],
+  "tspdt:tibesti-too-1976": [
+   "self",
+   2
+  ],
+  "tspdt:im-lohmgrund-1977": [
+   "self",
+   2
+  ],
+  "tspdt:the-cherry-tree-with-grey-blossoms-1977": [
+   "self",
+   2
+  ],
+  "tt0076741": [
+   "self",
+   2
+  ],
+  "tspdt:yasujiro-ozu-and-the-taste-of-sake-tv-1978": [
+   "NEW4",
+   3
+  ],
+  "tt0079704": [
+   "NEW4",
+   4
+  ],
+  "tt0078516": [
+   "self",
+   2
+  ],
+  "tt0080770": [
+   "self",
+   3
+  ],
+  "tt0081746": [
+   "NEW4",
+   3
+  ],
+  "tspdt:making-the-shining-tv-1980": [
+   "NEW4",
+   3
+  ],
+  "tspdt:arktisia-matkakuvia-1980": [
+   "NEW5",
+   3
+  ],
+  "tspdt:the-metaphor-1980": [
+   "NEW4",
+   1
+  ],
+  "tspdt:un-balcon-en-afrique-1980": [
+   "self",
+   3
+  ],
+  "tspdt:los-hieleros-del-chimborazo-1980": [
+   "NEW5",
+   3
+  ],
+  "tt0080900": [
+   "self",
+   3
+  ],
+  "tt0080796": [
+   "self",
+   3
+  ],
+  "tspdt:fannie-s-film-1981": [
+   "self",
+   3
+  ],
+  "tt6087350": [
+   "self",
+   3
+  ],
+  "tspdt:closes-1982": [
+   "self",
+   3
+  ],
+  "tspdt:chico-antonio-o-heroi-com-carater-1983": [
+   "NEW4",
+   4
+  ],
+  "tspdt:a-few-stories-about-a-man-1983": [
+   "self",
+   3
+  ],
+  "tspdt:llacquiy-huata-1983": [
+   "NEW5",
+   3
+  ],
+  "tt0417079": [
+   "self",
+   3
+  ],
+  "tspdt:kurzer-besuch-bei-hermann-glockner-1985": [
+   "NEW4",
+   1
+  ],
+  "tt1710348": [
+   "self",
+   3
+  ],
+  "tt0095199": [
+   "self",
+   3
+  ],
+  "tspdt:tiempo-de-mujeres-1987": [
+   "self",
+   3
+  ],
+  "tspdt:the-story-of-kindness-or-how-to-behave-1987": [
+   "self",
+   3
+  ],
+  "tspdt:foster-child-1987": [
+   "self",
+   3
+  ],
+  "tspdt:nastya-and-egor-1989": [
+   "self",
+   3
+  ],
+  "tspdt:maria-tv-1989": [
+   "self",
+   3
+  ],
+  "tspdt:augsta-dziesma-1989": [
+   "self",
+   3
+  ],
+  "tt0098669": [
+   "NEW5",
+   3
+  ],
+  "tspdt:ana-cristina-cesar-1990": [
+   "NEW4",
+   2
+  ],
+  "tspdt:illusionniste-l-tv-1991": [
+   "self",
+   3
+  ],
+  "tspdt:surprise-surprise-1991": [
+   "self",
+   3
+  ],
+  "tspdt:rota-abc-1991": [
+   "self",
+   3
+  ],
+  "tspdt:whispering-waters-1992": [
+   "self",
+   3
+  ],
+  "tspdt:group-portrait-as-a-still-life-1993": [
+   "self",
+   3
+  ],
+  "tspdt:rudy-wurlitzer-tv-1994": [
+   "NEW4",
+   2
+  ],
+  "tt0262234": [
+   "self",
+   3
+  ],
+  "tspdt:leon-g-damas-1995": [
+   "NEW4",
+   2
+  ],
+  "tt0228700": [
+   "self",
+   3
+  ],
+  "tspdt:dilemme-au-feminin-1995": [
+   "self",
+   3
+  ],
+  "tspdt:opening-night-of-close-up-1996": [
+   "NEW4",
+   3
+  ],
+  "tspdt:one-survivor-remembers-1996": [
+   "self",
+   3
+  ],
+  "tspdt:room-without-a-view-1997": [
+   "self",
+   3
+  ],
+  "tspdt:lap-rouge-1997": [
+   "self",
+   3
+  ],
+  "tspdt:sisters-1999": [
+   "self",
+   3
+  ],
+  "tspdt:naim-and-wadee-a-2000": [
+   "self",
+   4
+  ],
+  "tspdt:in-public-2001": [
+   "self",
+   4
+  ],
+  "tspdt:red-land-2001": [
+   "self",
+   4
+  ],
+  "tspdt:western-deep-2002": [
+   "self",
+   4
+  ],
+  "tspdt:the-red-flag-flies-2002": [
+   "self",
+   4
+  ],
+  "tspdt:kranky-klaus-2003": [
+   "self",
+   4
+  ],
+  "tspdt:amer-nasser-iraqi-brothers-2003": [
+   "self",
+   4
+  ],
+  "tspdt:me-myself-and-the-universe-2003": [
+   "self",
+   4
+  ],
+  "tspdt:in-one-breath-alexander-sokurov-s-russia-2003": [
+   "NEW4",
+   3
+  ],
+  "tspdt:in-the-dark-2004": [
+   "self",
+   4
+  ],
+  "tt0497204": [
+   "self",
+   4
+  ],
+  "tspdt:kinder-der-schlafviertel-2005": [
+   "self",
+   4
+  ],
+  "tspdt:obreras-saliendo-de-la-fabrica-2005": [
+   "self",
+   4
+  ],
+  "tt0459671": [
+   "self",
+   4
+  ],
+  "tt3569002": [
+   "self",
+   4
+  ],
+  "tspdt:wrath-of-gods-2006": [
+   "self",
+   4
+  ],
+  "tspdt:this-is-my-land-2006": [
+   "self",
+   4
+  ],
+  "tt8021928": [
+   "NEW4",
+   3
+  ],
+  "tspdt:michael-hamburger-2007": [
+   "NEW4",
+   2
+  ],
+  "tspdt:interview-with-the-earth-2008": [
+   "self",
+   4
+  ],
+  "tspdt:kids-money-2008": [
+   "NEW1",
+   4
+  ],
+  "tspdt:the-last-campaign-of-governor-booth-gard-2009": [
+   "NEW1",
+   4
+  ],
+  "tspdt:my-son-s-wedding-to-my-sister-in-law-2009": [
+   "self",
+   4
+  ],
+  "tspdt:the-pickers-2009": [
+   "self",
+   4
+  ],
+  "tspdt:aztlan-2009": [
+   "self",
+   4
+  ],
+  "tspdt:nskebrn-2009": [
+   "self",
+   4
+  ],
+  "tspdt:pulnoc-2010": [
+   "self",
+   4
+  ],
+  "tspdt:translating-edwin-honig-a-poet-s-alzheim-2010": [
+   "NEW4",
+   2
+  ],
+  "tspdt:i-touched-her-legs-2010": [
+   "self",
+   4
+  ],
+  "tspdt:raccaya-umasi-2011": [
+   "NEW5",
+   3
+  ],
+  "tspdt:former-models-2011": [
+   "self",
+   4
+  ],
+  "tspdt:sack-barrow-2011": [
+   "self",
+   4
+  ],
+  "tspdt:prisons-2012": [
+   "self",
+   4
+  ],
+  "tspdt:i-remember-a-film-about-joe-brainard-2012": [
+   "NEW4",
+   2
+  ],
+  "tspdt:macht-dass-mir-inne-wird-was-ich-durch-e-2012": [
+   "self",
+   4
+  ],
+  "tspdt:prison-terminal-the-last-days-of-private-2013": [
+   "NEW1",
+   5
+  ],
+  "tspdt:abandoned-goods-2014": [
+   "self",
+   4
+  ],
+  "tspdt:life-on-tape-2014": [
+   "self",
+   4
+  ],
+  "tspdt:buffalo-juggalos-2014": [
+   "self",
+   4
+  ],
+  "tspdt:on-ira-a-neuilly-inch-allah-2015": [
+   "self",
+   5
+  ],
+  "tspdt:das-offenbare-geheimnis-2015": [
+   "self",
+   5
+  ],
+  "tspdt:vers-la-tendresse-2016": [
+   "self",
+   5
+  ],
+  "tspdt:mountains-to-climb-2016": [
+   "self",
+   5
+  ],
+  "tspdt:ears-nose-and-throat-2016": [
+   "self",
+   5
+  ],
+  "tspdt:eason-2016": [
+   "self",
+   5
+  ],
+  "tt5553972": [
+   "self",
+   5
+  ],
+  "tt7344360": [
+   "self",
+   5
+  ],
+  "tspdt:if-only-there-were-peace-2017": [
+   "self",
+   5
+  ],
+  "tspdt:i-ve-got-a-little-problem-2017": [
+   "self",
+   5
+  ],
+  "tt3604156": [
+   "self",
+   5
+  ],
+  "tspdt:antonio-and-catarina-2017": [
+   "self",
+   5
+  ],
+  "tspdt:you-are-still-somebody-s-someone-2017": [
+   "self",
+   5
+  ],
+  "tspdt:brown-and-clear-2017": [
+   "self",
+   5
+  ],
+  "tspdt:oumoun-2017": [
+   "self",
+   5
+  ],
+  "tt6939026": [
+   "NEW1",
+   5
+  ],
+  "tt7924820": [
+   "self",
+   5
+  ],
+  "tspdt:mare-2018": [
+   "self",
+   5
+  ],
+  "tspdt:taking-the-waters-2018": [
+   "self",
+   5
+  ],
+  "tspdt:wild-berries-2018": [
+   "self",
+   5
+  ],
+  "tspdt:los-que-desean-2018": [
+   "self",
+   5
+  ],
+  "tspdt:maskirovka-2018": [
+   "self",
+   5
+  ],
+  "tspdt:claudette-s-star-2019": [
+   "self",
+   5
+  ],
+  "tspdt:sete-anos-em-maio-2019": [
+   "self",
+   5
+  ],
+  "tspdt:up-at-night-2019": [
+   "self",
+   5
+  ],
+  "tspdt:mat-and-her-mates-2019": [
+   "self",
+   5
+  ],
+  "tt13003692": [
+   "NEW1",
+   5
+  ],
+  "tspdt:tender-2020": [
+   "self",
+   5
+  ],
+  "tspdt:a-thousand-year-stage-2020": [
+   "self",
+   5
+  ],
+  "tspdt:trouble-sleep-2020": [
+   "self",
+   5
+  ],
+  "tt13241704": [
+   "self",
+   5
+  ],
+  "tspdt:nenad-2020": [
+   "self",
+   5
+  ],
+  "tt14135872": [
+   "self",
+   5
+  ],
+  "tt14608922": [
+   "self",
+   5
+  ],
+  "tspdt:fruit-of-thy-womb-2021": [
+   "self",
+   5
+  ],
+  "tt13998454": [
+   "self",
+   5
+  ],
+  "tspdt:healing-ray-2021": [
+   "self",
+   5
+  ],
+  "tspdt:homesick-lungs-2021": [
+   "self",
+   5
+  ],
+  "tspdt:blackwater-mouth-tollesbury-creek-jumpin-2021": [
+   "self",
+   5
+  ],
+  "tspdt:engomado-2021": [
+   "self",
+   5
+  ],
+  "tspdt:kalsubai-2021": [
+   "self",
+   5
+  ],
+  "tspdt:gargau-2021": [
+   "self",
+   5
+  ],
+  "tt23628262": [
+   "self",
+   5
+  ],
+  "tspdt:fe-2022": [
+   "self",
+   5
+  ],
+  "tspdt:young-guns-2022": [
+   "self",
+   5
+  ],
+  "tspdt:the-demands-of-ordinary-devotion-2022": [
+   "self",
+   5
+  ],
+  "tspdt:wankostattn-2023": [
+   "self",
+   5
+  ],
+  "tspdt:pier-34-new-york-summer-83-2023": [
+   "NEW4",
+   1
+  ],
+  "tspdt:still-free-2023": [
+   "self",
+   5
+  ],
+  "tspdt:one-aloe-one-ficus-one-avocado-and-six-d-2023": [
+   "self",
+   5
+  ],
+  "tt26218316": [
+   "self",
+   5
+  ],
+  "tt31014113": [
+   "NEW4",
+   3
+  ],
+  "tt17162620": [
+   "self",
+   5
+  ],
+  "tspdt:workers-wings-2024": [
+   "self",
+   5
+  ],
+  "tspdt:practice-practice-practice-2024": [
+   "self",
+   5
+  ],
+  "tspdt:home-again-2024": [
+   "self",
+   5
+  ],
+  "tt35515733": [
+   "NEW1",
+   5
+  ],
+  "tspdt:tell-me-a-fairy-tale-2025": [
+   "self",
+   5
+  ],
+  "tspdt:l-mina-2025": [
+   "self",
+   5
+  ],
+  "tspdt:when-the-sun-is-eaten-chi-bal-k-iin-2025": [
+   "self",
+   5
+  ],
+  "tspdt:les-habitants-2025": [
+   "self",
+   5
+  ],
+  "tspdt:hold-me-close-2025": [
+   "self",
+   5
+  ],
+  "tspdt:discount-funeral-2025": [
+   "self",
+   5
+  ],
+  "tspdt:frauenleben-frauenlos-1932": [
+   "NEW1",
+   1
+  ],
+  "tspdt:new-earth-1933": [
+   "NEW1",
+   1
+  ],
+  "tspdt:misere-au-borinage-1933": [
+   "NEW1",
+   1
+  ],
+  "tt7784208": [
+   "NEW1",
+   1
+  ],
+  "tspdt:heart-of-spain-1937": [
+   "NEW1",
+   1
+  ],
+  "tspdt:with-the-abraham-lincoln-brigade-in-spai-1938": [
+   "NEW1",
+   1
+  ],
+  "tt3413564": [
+   "NEW1",
+   1
+  ],
+  "tspdt:scenes-of-yan-an-1941": [
+   "NEW1",
+   1
+  ],
+  "tspdt:afrique-50-1950": [
+   "NEW1",
+   1
+  ],
+  "tspdt:to-be-a-woman-1951": [
+   "NEW1",
+   1
+  ],
+  "tspdt:hotel-des-invalides-1952": [
+   "NEW1",
+   1
+  ],
+  "tt0046365": [
+   "NEW1",
+   1
+  ],
+  "tspdt:tire-die-1958": [
+   "NEW1",
+   1
+  ],
+  "tspdt:algerie-en-flammes-1958": [
+   "NEW1",
+   1
+  ],
+  "tspdt:integration-report-i-1960": [
+   "NEW1",
+   2
+  ],
+  "tspdt:brutality-in-stone-1961": [
+   "NEW1",
+   2
+  ],
+  "tt0057466": [
+   "NEW1",
+   2
+  ],
+  "tspdt:revolucion-1963": [
+   "NEW1",
+   2
+  ],
+  "tspdt:forgotten-army-the-tv-1963": [
+   "NEW1",
+   2
+  ],
+  "tspdt:le-glas-1964": [
+   "NEW1",
+   2
+  ],
+  "tt0059520": [
+   "NEW1",
+   2
+  ],
+  "tspdt:being-women-1965": [
+   "NEW1",
+   2
+  ],
+  "tt3411590": [
+   "NEW1",
+   2
+  ],
+  "tspdt:cerro-pelado-1966": [
+   "NEW1",
+   2
+  ],
+  "tspdt:the-threatening-sky-1966": [
+   "NEW1",
+   2
+  ],
+  "tt0930760": [
+   "NEW1",
+   2
+  ],
+  "tspdt:hanoi-tuesday-13th-1967": [
+   "NEW1",
+   2
+  ],
+  "tt0150852": [
+   "NEW1",
+   2
+  ],
+  "tt0209942": [
+   "NEW1",
+   2
+  ],
+  "tt0063016": [
+   "NEW1",
+   2
+  ],
+  "tspdt:grosvenor-square-demonstration-1968": [
+   "NEW1",
+   2
+  ],
+  "tspdt:the-sixth-side-of-the-pentagon-1968": [
+   "NEW1",
+   2
+  ],
+  "tspdt:coffea-arabiga-1968": [
+   "NEW1",
+   2
+  ],
+  "tspdt:wie-baue-ich-einen-molotow-cocktail-1968": [
+   "NEW1",
+   2
+  ],
+  "tspdt:lbj-1968": [
+   "NEW1",
+   2
+  ],
+  "tspdt:la-reprise-du-travail-aux-usines-wonder-1968": [
+   "NEW1",
+   2
+  ],
+  "tt0215864": [
+   "NEW1",
+   2
+  ],
+  "tt0149565": [
+   "NEW1",
+   2
+  ],
+  "tspdt:the-inextinguishable-fire-1969": [
+   "NEW1",
+   2
+  ],
+  "tspdt:you-are-on-indian-land-1969": [
+   "NEW1",
+   2
+  ],
+  "tspdt:take-off-at-18-00-hours-1969": [
+   "NEW1",
+   2
+  ],
+  "tspdt:vtr-st-jacques-1969": [
+   "NEW1",
+   2
+  ],
+  "tt0231773": [
+   "NEW1",
+   3
+  ],
+  "tt13437536": [
+   "NEW1",
+   3
+  ],
+  "tt16425332": [
+   "NEW1",
+   3
+  ],
+  "tspdt:genet-parle-d-angela-davis-1970": [
+   "NEW1",
+   3
+  ],
+  "tt3502162": [
+   "NEW1",
+   3
+  ],
+  "tspdt:just-don-t-fuck-1971": [
+   "NEW1",
+   3
+  ],
+  "tspdt:janie-s-janie-1971": [
+   "NEW1",
+   3
+  ],
+  "tspdt:the-woman-s-film-1971": [
+   "NEW1",
+   3
+  ],
+  "tt29060382": [
+   "NEW1",
+   3
+  ],
+  "tt13442762": [
+   "NEW1",
+   3
+  ],
+  "tspdt:chircales-1972": [
+   "NEW1",
+   3
+  ],
+  "tt13434176": [
+   "NEW1",
+   3
+  ],
+  "tspdt:solidarity-1973": [
+   "NEW1",
+   3
+  ],
+  "tspdt:the-train-rolls-on-1973": [
+   "NEW1",
+   3
+  ],
+  "tt31909219": [
+   "NEW1",
+   3
+  ],
+  "tt3377898": [
+   "NEW1",
+   3
+  ],
+  "tt0495814": [
+   "NEW1",
+   3
+  ],
+  "tt0073619": [
+   "NEW1",
+   3
+  ],
+  "tspdt:geldsorgen-1975": [
+   "NEW1",
+   3
+  ],
+  "tspdt:mi-hermano-fidel-1977": [
+   "NEW1",
+   3
+  ],
+  "tspdt:tobacco-embers-1978": [
+   "NEW1",
+   3
+  ],
+  "tt16425634": [
+   "NEW1",
+   3
+  ],
+  "tspdt:ein-vietnamfluchtling-1979": [
+   "NEW1",
+   3
+  ],
+  "tspdt:did-i-kill-them-1982": [
+   "NEW1",
+   4
+  ],
+  "tspdt:sanggyedong-olympic-1988": [
+   "NEW1",
+   4
+  ],
+  "tspdt:doctors-liars-and-women-auds-activists-s-1988": [
+   "NEW1",
+   4
+  ],
+  "tspdt:classified-people-1988": [
+   "NEW1",
+   4
+  ],
+  "tspdt:khush-1991": [
+   "NEW1",
+   4
+  ],
+  "tspdt:l-is-for-the-way-you-look-1991": [
+   "NEW1",
+   4
+  ],
+  "tspdt:no-regret-1993": [
+   "NEW1",
+   4
+  ],
+  "tspdt:border-2004": [
+   "NEW1",
+   4
+  ],
+  "tspdt:soldiers-pay-2004": [
+   "NEW1",
+   4
+  ],
+  "tspdt:patria-2007": [
+   "NEW1",
+   4
+  ],
+  "tspdt:breaking-out-of-the-box-2011": [
+   "NEW1",
+   5
+  ],
+  "tspdt:stopover-in-dubai-2011": [
+   "NEW1",
+   5
+  ],
+  "tt2551790": [
+   "NEW1",
+   5
+  ],
+  "tspdt:fragments-of-dissolution-2012": [
+   "NEW1",
+   5
+  ],
+  "tspdt:los-desnudos-2012": [
+   "NEW1",
+   5
+  ],
+  "tspdt:gerilla-2012": [
+   "NEW1",
+   5
+  ],
+  "tspdt:burn-the-sea-2014": [
+   "NEW1",
+   5
+  ],
+  "tt6073176": [
+   "NEW1",
+   5
+  ],
+  "tspdt:hors-chant-2016": [
+   "NEW1",
+   5
+  ],
+  "tspdt:best-of-luck-with-the-wall-2016": [
+   "NEW1",
+   5
+  ],
+  "tspdt:traveling-while-black-2019": [
+   "NEW1",
+   5
+  ],
+  "tspdt:common-ground-2019": [
+   "NEW1",
+   5
+  ],
+  "tt10009148": [
+   "NEW1",
+   5
+  ],
+  "tspdt:cinetracts-20-2020": [
+   "NEW1",
+   5
+  ],
+  "tt15339848": [
+   "NEW1",
+   5
+  ],
+  "tspdt:newsreel-670-red-forests-2021": [
+   "NEW1",
+   5
+  ],
+  "tspdt:do-not-circulate-2021": [
+   "NEW1",
+   5
+  ],
+  "tt27990245": [
+   "NEW1",
+   5
+  ],
+  "tt24654284": [
+   "NEW1",
+   5
+  ],
+  "tspdt:grenfell-2023": [
+   "NEW1",
+   5
+  ],
+  "tspdt:everything-worthwhile-is-done-with-other-2023": [
+   "NEW1",
+   5
+  ],
+  "tt34205548": [
+   "NEW1",
+   5
+  ],
+  "tspdt:gaza-mp4-2024": [
+   "NEW1",
+   5
+  ],
+  "tspdt:on-the-battlefield-2024": [
+   "NEW1",
+   5
+  ],
+  "tspdt:confluencias-2024": [
+   "NEW1",
+   5
+  ],
+  "tt37798645": [
+   "NEW1",
+   5
+  ],
+  "tt38691874": [
+   "NEW1",
+   5
+  ],
+  "tspdt:the-day-to-come-is-a-bright-new-day-2025": [
+   "NEW1",
+   5
+  ],
+  "tspdt:a-trip-through-china-1917": [
+   "NEW2",
+   2
+  ],
+  "tt0131468": [
+   "NEW2",
+   1
+  ],
+  "tspdt:la-tour-1928": [
+   "NEW2",
+   1
+  ],
+  "tt0018728": [
+   "NEW2",
+   1
+  ],
+  "tt0020321": [
+   "NEW2",
+   1
+  ],
+  "tspdt:nyc-street-scenes-and-noises-1929": [
+   "NEW2",
+   1
+  ],
+  "tspdt:melody-of-the-world-1929": [
+   "NEW2",
+   1
+  ],
+  "tspdt:nogent-eldorado-du-dimanche-1929": [
+   "NEW2",
+   1
+  ],
+  "tspdt:impressionen-vom-alten-marseiller-hafen--1929": [
+   "NEW2",
+   1
+  ],
+  "tspdt:images-d-ostende-1929": [
+   "NEW2",
+   1
+  ],
+  "tt0021576": [
+   "NEW2",
+   1
+  ],
+  "tspdt:the-sea-of-ravens-1930": [
+   "NEW2",
+   2
+  ],
+  "tt0350659": [
+   "NEW2",
+   1
+  ],
+  "tt0021810": [
+   "NEW2",
+   2
+  ],
+  "tspdt:sumidagawa-1931": [
+   "NEW2",
+   2
+  ],
+  "tspdt:rhapsody-in-two-languages-1934": [
+   "NEW2",
+   1
+  ],
+  "tspdt:la-ruta-de-don-quijote-1934": [
+   "NEW2",
+   2
+  ],
+  "tspdt:shinano-fudoki-yori-kobayashi-issa-1941": [
+   "NEW2",
+   2
+  ],
+  "tspdt:the-private-life-of-a-cat-1944": [
+   "NEW2",
+   2
+  ],
+  "tspdt:rhythm-of-a-city-1947": [
+   "NEW2",
+   1
+  ],
+  "tt0267573": [
+   "NEW2",
+   1
+  ],
+  "tspdt:a-divided-world-1948": [
+   "NEW2",
+   2
+  ],
+  "tt0442820": [
+   "NEW2",
+   1
+  ],
+  "tspdt:london-to-brighton-in-four-minutes-tv-1952": [
+   "NEW2",
+   2
+  ],
+  "tt0045673": [
+   "NEW2",
+   1
+  ],
+  "tt0179897": [
+   "NEW2",
+   2
+  ],
+  "tspdt:contadini-del-mare-1955": [
+   "NEW2",
+   2
+  ],
+  "tspdt:pasqua-in-sicilia-1955": [
+   "NEW2",
+   2
+  ],
+  "tt0049620": [
+   "NEW2",
+   1
+  ],
+  "tt0049144": [
+   "NEW2",
+   2
+  ],
+  "tspdt:the-seine-meets-paris-1957": [
+   "NEW2",
+   1
+  ],
+  "tspdt:a-day-in-barbagia-1958": [
+   "NEW2",
+   2
+  ],
+  "tspdt:mimbre-1958": [
+   "NEW2",
+   2
+  ],
+  "tspdt:orgosolo-s-shepherds-1958": [
+   "NEW2",
+   2
+  ],
+  "tspdt:the-forgotten-1959": [
+   "NEW2",
+   2
+  ],
+  "tspdt:morning-in-the-streets-tv-1959": [
+   "NEW2",
+   1
+  ],
+  "tspdt:stendali-suonano-ancora-1960": [
+   "NEW2",
+   2
+  ],
+  "tspdt:domenica-sera-1962": [
+   "NEW2",
+   2
+  ],
+  "tspdt:dimanche-1963": [
+   "NEW2",
+   2
+  ],
+  "tspdt:tisza-oszi-vazlatok-1963": [
+   "NEW2",
+   2
+  ],
+  "tt0055715": [
+   "NEW2",
+   1
+  ],
+  "tspdt:le-mistral-1965": [
+   "NEW2",
+   2
+  ],
+  "tspdt:eto-loshadi-1965": [
+   "NEW2",
+   2
+  ],
+  "tspdt:yatrik-1966": [
+   "NEW2",
+   2
+  ],
+  "tspdt:beginning-1967": [
+   "NEW2",
+   2
+  ],
+  "tspdt:6-et-12-1968": [
+   "NEW2",
+   2
+  ],
+  "tspdt:city-of-contrasts-1969": [
+   "NEW2",
+   1
+  ],
+  "tspdt:objetivo-cuarenta-grados-1969": [
+   "NEW2",
+   2
+  ],
+  "tt0298452": [
+   "NEW2",
+   2
+  ],
+  "tspdt:the-winds-of-fogo-1970": [
+   "NEW2",
+   3
+  ],
+  "tspdt:inhabitants-1970": [
+   "NEW2",
+   3
+  ],
+  "tt0065947": [
+   "NEW2",
+   3
+  ],
+  "tspdt:healthy-people-for-fun-1971": [
+   "NEW2",
+   3
+  ],
+  "tt0071685": [
+   "NEW2",
+   3
+  ],
+  "tt0298597": [
+   "NEW2",
+   3
+  ],
+  "tt1018920": [
+   "NEW2",
+   3
+  ],
+  "tspdt:varosterkep-1979": [
+   "NEW2",
+   1
+  ],
+  "tt9680114": [
+   "NEW2",
+   3
+  ],
+  "tspdt:los-montes-1982": [
+   "NEW2",
+   3
+  ],
+  "tspdt:66-scenes-from-america-1982": [
+   "NEW2",
+   3
+  ],
+  "tspdt:zhertva-vechernyaya-1988": [
+   "NEW2",
+   3
+  ],
+  "tspdt:before-my-eyes-1989": [
+   "NEW2",
+   3
+  ],
+  "tspdt:in-memory-of-the-day-passed-by-1990": [
+   "NEW2",
+   3
+  ],
+  "tt0104263": [
+   "NEW2",
+   3
+  ],
+  "tt0108491": [
+   "NEW2",
+   3
+  ],
+  "tspdt:antigravitation-1995": [
+   "NEW2",
+   3
+  ],
+  "tspdt:lost-book-found-1996": [
+   "NEW2",
+   3
+  ],
+  "tspdt:oriental-elegy-1996": [
+   "NEW2",
+   3
+  ],
+  "tspdt:the-train-stop-2000": [
+   "NEW2",
+   4
+  ],
+  "tt0301799": [
+   "NEW2",
+   4
+  ],
+  "tspdt:roads-of-kiarostami-2006": [
+   "NEW2",
+   4
+  ],
+  "tspdt:the-solitary-life-of-cranes-2008": [
+   "NEW2",
+   4
+  ],
+  "tspdt:ser-de-luz-2009": [
+   "NEW2",
+   4
+  ],
+  "tspdt:the-houseless-shadow-2011": [
+   "NEW2",
+   1
+  ],
+  "tspdt:zima-2013": [
+   "NEW2",
+   4
+  ],
+  "tspdt:end-of-summer-2014": [
+   "NEW2",
+   4
+  ],
+  "tspdt:las-expansiones-2017": [
+   "NEW2",
+   4
+  ],
+  "tt14556014": [
+   "NEW2",
+   4
+  ],
+  "tt32205767": [
+   "NEW2",
+   4
+  ],
+  "tspdt:towards-the-sun-far-from-the-centre-2024": [
+   "NEW2",
+   4
+  ],
+  "tspdt:unstable-rocks-2024": [
+   "NEW2",
+   4
+  ],
+  "tt0023037": [
+   "NEW3",
+   1
+  ],
+  "tspdt:a-page-of-history-1941": [
+   "NEW3",
+   1
+  ],
+  "tspdt:le-6-juin-a-l-aube-1946": [
+   "NEW3",
+   1
+  ],
+  "tt0042528": [
+   "NEW4",
+   1
+  ],
+  "tspdt:appunti-su-un-fatto-di-cronaca-1951": [
+   "NEW3",
+   1
+  ],
+  "tt0048434": [
+   "NEW3",
+   1
+  ],
+  "tt0049869": [
+   "NEW3",
+   1
+  ],
+  "tspdt:city-of-gold-1958": [
+   "NEW3",
+   1
+  ],
+  "tt0208683": [
+   "NEW3",
+   1
+  ],
+  "tt0336693": [
+   "NEW3",
+   1
+  ],
+  "tt0197719": [
+   "NEW3",
+   1
+  ],
+  "tspdt:truth-and-illusion-an-introduction-to-me-1964": [
+   "NEW3",
+   1
+  ],
+  "tspdt:diary-of-a-yunbogi-boy-1965": [
+   "NEW3",
+   1
+  ],
+  "tt2132386": [
+   "NEW3",
+   1
+  ],
+  "tspdt:introduction-to-arnold-schoenberg-s-acco-1973": [
+   "NEW3",
+   1
+  ],
+  "tspdt:filmmaker-s-holiday-tv-1974": [
+   "NEW3",
+   1
+  ],
+  "tspdt:pasolini-e-la-forma-della-citta-1974": [
+   "NEW4",
+   1
+  ],
+  "tspdt:met-dieric-bouts-1975": [
+   "NEW4",
+   1
+  ],
+  "tt0169598": [
+   "NEW1",
+   3
+  ],
+  "tspdt:as-you-like-it-1976": [
+   "NEW4",
+   1
+  ],
+  "tspdt:di-cavalcanti-1977": [
+   "NEW4",
+   1
+  ],
+  "tspdt:tesouro-da-juventude-1977": [
+   "NEW3",
+   1
+  ],
+  "tspdt:daughter-rite-1978": [
+   "NEW3",
+   1
+  ],
+  "tspdt:and-the-dogs-were-quiet-1978": [
+   "NEW3",
+   1
+  ],
+  "tspdt:life-dances-on-1980": [
+   "NEW3",
+   2
+  ],
+  "tspdt:ma-premiere-brasse-1981": [
+   "NEW3",
+   2
+  ],
+  "tt0161034": [
+   "NEW3",
+   2
+  ],
+  "tspdt:two-portraits-1982": [
+   "NEW3",
+   2
+  ],
+  "tspdt:passion-amour-travail-1982": [
+   "NEW3",
+   2
+  ],
+  "tspdt:familiengruft-ein-liebesgedicht-an-meine-1982": [
+   "NEW3",
+   2
+  ],
+  "tt2969338": [
+   "NEW1",
+   4
+  ],
+  "tt0084577": [
+   "NEW3",
+   2
+  ],
+  "tspdt:serious-undertakings-1983": [
+   "NEW3",
+   2
+  ],
+  "tspdt:return-to-lisca-bianca-island-tv-1983": [
+   "NEW4",
+   3
+  ],
+  "tspdt:ma-loul-celebrates-its-destruction-1984": [
+   "NEW1",
+   4
+  ],
+  "tspdt:o-som-ou-tratado-de-harmonia-1984": [
+   "NEW3",
+   2
+  ],
+  "tspdt:arabesques-on-the-pirosmani-theme-1985": [
+   "NEW4",
+   1
+  ],
+  "tspdt:letter-from-a-filmmaker-chantal-akerman--1985": [
+   "NEW3",
+   2
+  ],
+  "tspdt:camera-natura-1985": [
+   "NEW3",
+   2
+  ],
+  "tspdt:universal-hotel-1986": [
+   "NEW3",
+   2
+  ],
+  "tspdt:the-ballad-of-sexual-dependency-1986": [
+   "NEW4",
+   1
+  ],
+  "tspdt:sock-ads-judith-williamson-consumes-pass-1987": [
+   "NEW3",
+   2
+  ],
+  "tspdt:ressurreicao-1987": [
+   "NEW3",
+   2
+  ],
+  "tspdt:universal-citizen-1987": [
+   "NEW3",
+   2
+  ],
+  "tspdt:a-ship-aground-1988": [
+   "NEW3",
+   2
+  ],
+  "tt0097564": [
+   "NEW3",
+   2
+  ],
+  "tt0123254": [
+   "NEW1",
+   4
+  ],
+  "tspdt:france-images-d-une-revolution-1989": [
+   "NEW3",
+   2
+  ],
+  "tt0136697": [
+   "NEW3",
+   2
+  ],
+  "tspdt:contacts-1990": [
+   "NEW3",
+   2
+  ],
+  "tspdt:soviet-elegy-1990": [
+   "NEW3",
+   2
+  ],
+  "tspdt:figures-of-thought-1990": [
+   "NEW4",
+   1
+  ],
+  "tspdt:the-body-beautiful-1991": [
+   "NEW3",
+   2
+  ],
+  "tspdt:vapautemme-hinta-1991": [
+   "NEW3",
+   2
+  ],
+  "tspdt:cabale-des-oursins-1991": [
+   "NEW3",
+   2
+  ],
+  "tspdt:history-and-memory-1992": [
+   "NEW3",
+   2
+  ],
+  "tspdt:embracing-1992": [
+   "NEW3",
+   2
+  ],
+  "tspdt:orbit-50-letters-to-my-3-sons-1992": [
+   "NEW3",
+   2
+  ],
+  "tt0830211": [
+   "NEW1",
+   4
+  ],
+  "tt0137129": [
+   "NEW3",
+   2
+  ],
+  "tspdt:rules-of-the-road-1993": [
+   "NEW3",
+   2
+  ],
+  "tspdt:exterior-night-1993": [
+   "NEW4",
+   3
+  ],
+  "tt0114044": [
+   "NEW3",
+   2
+  ],
+  "tspdt:katatsumori-1995": [
+   "NEW3",
+   2
+  ],
+  "tspdt:arbeiter-verlassen-die-fabrik-1995": [
+   "NEW4",
+   3
+  ],
+  "tspdt:how-to-invent-reality-1996": [
+   "NEW3",
+   2
+  ],
+  "tspdt:the-present-1996": [
+   "NEW3",
+   2
+  ],
+  "tspdt:passagen-1996": [
+   "NEW3",
+   2
+  ],
+  "tt3185022": [
+   "NEW3",
+   2
+  ],
+  "tspdt:respite-1997": [
+   "NEW3",
+   2
+  ],
+  "tspdt:en-une-poignee-de-mains-amies-1997": [
+   "NEW3",
+   2
+  ],
+  "tspdt:what-farocki-taught-1998": [
+   "NEW1",
+   4
+  ],
+  "tt0164053": [
+   "NEW3",
+   2
+  ],
+  "tspdt:death-in-vignole-1998": [
+   "NEW3",
+   2
+  ],
+  "tspdt:situation-leading-to-a-story-1999": [
+   "NEW3",
+   2
+  ],
+  "tt0246866": [
+   "NEW4",
+   3
+  ],
+  "tspdt:on-belfast-beach-2000": [
+   "NEW3",
+   3
+  ],
+  "tspdt:sea-in-the-blood-2000": [
+   "NEW3",
+   3
+  ],
+  "tspdt:senales-de-ruta-2000": [
+   "NEW3",
+   3
+  ],
+  "tspdt:remembrance-of-things-to-come-2001": [
+   "NEW4",
+   1
+  ],
+  "tspdt:hotel-diaries-frozen-war-2001": [
+   "NEW3",
+   3
+  ],
+  "tspdt:all-water-has-a-perfect-memory-2001": [
+   "NEW3",
+   3
+  ],
+  "tspdt:western-4-33-2001": [
+   "NEW3",
+   3
+  ],
+  "tspdt:auge-maschine-i-iii-tv-2001": [
+   "NEW3",
+   3
+  ],
+  "tspdt:investigation-of-a-flame-2002": [
+   "NEW3",
+   3
+  ],
+  "tspdt:dans-le-noir-du-temps-2002": [
+   "NEW3",
+   3
+  ],
+  "tspdt:untitled-part-3b-as-if-beauty-never-ends-2002": [
+   "NEW3",
+   3
+  ],
+  "tt0385051": [
+   "NEW3",
+   3
+  ],
+  "tspdt:pangyau-2002": [
+   "NEW3",
+   3
+  ],
+  "tspdt:in-order-not-to-be-here-2002": [
+   "NEW3",
+   3
+  ],
+  "tspdt:i-used-to-be-a-filmmaker-2003": [
+   "NEW3",
+   3
+  ],
+  "tspdt:on-three-posters-2004": [
+   "NEW1",
+   4
+  ],
+  "tspdt:michelangelo-eye-to-eye-2004": [
+   "NEW4",
+   1
+  ],
+  "tspdt:before-vanishing-2005": [
+   "NEW3",
+   3
+  ],
+  "tspdt:phantom-limb-2005": [
+   "NEW3",
+   3
+  ],
+  "tt0806125": [
+   "NEW3",
+   3
+  ],
+  "tspdt:new-york-zero-zero-2006": [
+   "NEW1",
+   4
+  ],
+  "tspdt:2006-1892-114-ans-2006": [
+   "NEW3",
+   3
+  ],
+  "tspdt:birth-mother-2006": [
+   "NEW3",
+   3
+  ],
+  "tspdt:como-construir-un-barco-2007": [
+   "NEW3",
+   3
+  ],
+  "tspdt:dangerous-supplement-2007": [
+   "NEW3",
+   3
+  ],
+  "tspdt:itineraire-de-jean-bricard-2008": [
+   "NEW3",
+   3
+  ],
+  "tspdt:ivul-unmade-2009": [
+   "NEW3",
+   3
+  ],
+  "tspdt:voodoo-science-park-2009": [
+   "NEW3",
+   3
+  ],
+  "tspdt:bernadette-2009": [
+   "NEW3",
+   3
+  ],
+  "tspdt:the-illusion-2009": [
+   "NEW3",
+   3
+  ],
+  "tspdt:get-out-of-the-car-2010": [
+   "NEW3",
+   3
+  ],
+  "tspdt:toujours-moins-2010": [
+   "NEW3",
+   3
+  ],
+  "tspdt:chef-d-oeuvre-2010": [
+   "NEW3",
+   3
+  ],
+  "tspdt:good-bye-mandima-2010": [
+   "NEW3",
+   3
+  ],
+  "tspdt:the-impossibility-of-knowing-2010": [
+   "NEW3",
+   3
+  ],
+  "tspdt:la-maladie-blanche-2011": [
+   "NEW3",
+   3
+  ],
+  "tspdt:i-think-this-is-the-closest-to-how-the-f-2012": [
+   "NEW3",
+   3
+  ],
+  "tspdt:the-pixelated-revolution-2012": [
+   "NEW1",
+   5
+  ],
+  "tspdt:jerry-me-2012": [
+   "NEW4",
+   3
+  ],
+  "tspdt:thus-a-noise-speaks-2012": [
+   "NEW3",
+   3
+  ],
+  "tspdt:like-rats-leaving-a-sinking-ship-2012": [
+   "NEW3",
+   3
+  ],
+  "tspdt:parallel-installation-2012": [
+   "NEW3",
+   3
+  ],
+  "tspdt:dad-s-stick-2012": [
+   "NEW3",
+   3
+  ],
+  "tspdt:lettres-du-voyant-2013": [
+   "NEW3",
+   3
+  ],
+  "tspdt:letter-to-a-refusing-pilot-2013": [
+   "NEW1",
+   5
+  ],
+  "tspdt:cairography-2013": [
+   "NEW3",
+   3
+  ],
+  "tspdt:nefandus-trilogy-2013": [
+   "NEW3",
+   3
+  ],
+  "tspdt:federsee-2013": [
+   "NEW3",
+   3
+  ],
+  "tspdt:sound-hunting-2013": [
+   "NEW3",
+   3
+  ],
+  "tspdt:face-deal-2014": [
+   "NEW3",
+   3
+  ],
+  "tspdt:orizzonti-orizzonti-2014": [
+   "NEW3",
+   3
+  ],
+  "tspdt:hacked-circuit-2014": [
+   "NEW3",
+   3
+  ],
+  "tspdt:hands-of-bresson-2014": [
+   "NEW4",
+   3
+  ],
+  "tspdt:reduit-2014": [
+   "NEW3",
+   3
+  ],
+  "tspdt:i-dalio-2015": [
+   "NEW4",
+   3
+  ],
+  "tspdt:la-impresion-de-una-guerra-2015": [
+   "NEW3",
+   4
+  ],
+  "tspdt:black-code-code-noir-2015": [
+   "NEW1",
+   5
+  ],
+  "tspdt:occidente-2015": [
+   "NEW3",
+   4
+  ],
+  "tspdt:remerciements-de-jean-luc-godard-a-son-p-2015": [
+   "NEW4",
+   3
+  ],
+  "tspdt:our-stars-2015": [
+   "NEW4",
+   3
+  ],
+  "tt5466850": [
+   "NEW3",
+   4
+  ],
+  "tspdt:jaaji-approx-2016": [
+   "NEW3",
+   4
+  ],
+  "tt1740683": [
+   "NEW3",
+   4
+  ],
+  "tspdt:the-hollow-coin-2016": [
+   "NEW3",
+   4
+  ],
+  "tspdt:foyer-2016": [
+   "NEW3",
+   4
+  ],
+  "tspdt:everyday-words-disappear-2016": [
+   "NEW3",
+   4
+  ],
+  "tt5870334": [
+   "NEW3",
+   4
+  ],
+  "tspdt:newsreel-63-the-train-of-shadows-2017": [
+   "NEW1",
+   5
+  ],
+  "tspdt:i-cannot-tell-you-how-i-feel-2017": [
+   "NEW3",
+   4
+  ],
+  "tspdt:dislocation-blues-2017": [
+   "NEW3",
+   4
+  ],
+  "tspdt:plus-ultra-2017": [
+   "NEW3",
+   4
+  ],
+  "tspdt:silica-2017": [
+   "NEW3",
+   4
+  ],
+  "tspdt:raymond-tallis-on-tickling-2017": [
+   "NEW3",
+   4
+  ],
+  "tspdt:i-like-it-a-lot-2017": [
+   "NEW3",
+   4
+  ],
+  "tspdt:bottled-songs-my-crush-was-a-superstar-2017": [
+   "NEW3",
+   4
+  ],
+  "tspdt:two-tone-in-five-hoods-2017": [
+   "NEW3",
+   4
+  ],
+  "tspdt:fish-story-2017": [
+   "NEW3",
+   4
+  ],
+  "tt11576058": [
+   "NEW3",
+   4
+  ],
+  "tspdt:how-does-an-invisible-boy-disappear-2018": [
+   "NEW3",
+   4
+  ],
+  "tspdt:another-decade-2018": [
+   "NEW4",
+   1
+  ],
+  "tspdt:walled-unwalled-installation-2018": [
+   "NEW3",
+   4
+  ],
+  "tspdt:i-hope-i-m-loud-when-i-m-dead-2018": [
+   "NEW3",
+   4
+  ],
+  "tspdt:vever-2018": [
+   "NEW3",
+   4
+  ],
+  "tspdt:mum-s-cards-2018": [
+   "NEW3",
+   4
+  ],
+  "tspdt:the-names-have-changed-including-my-own--2019": [
+   "NEW3",
+   4
+  ],
+  "tspdt:ou-en-etes-vous-teresa-villaverde-2019": [
+   "NEW3",
+   4
+  ],
+  "tspdt:the-giverny-document-single-channel-2019": [
+   "NEW3",
+   4
+  ],
+  "tspdt:letter-to-a-friend-2019": [
+   "NEW1",
+   5
+  ],
+  "tspdt:playback-2019": [
+   "NEW3",
+   4
+  ],
+  "tspdt:receiver-2019": [
+   "NEW3",
+   4
+  ],
+  "tspdt:the-blind-rabbit-2019": [
+   "NEW3",
+   4
+  ],
+  "tspdt:early-years-2019": [
+   "NEW3",
+   4
+  ],
+  "tspdt:once-removed-2019": [
+   "NEW1",
+   5
+  ],
+  "tspdt:saf05-2019": [
+   "NEW3",
+   4
+  ],
+  "tspdt:terril-2019": [
+   "NEW3",
+   4
+  ],
+  "tspdt:distancing-2019": [
+   "NEW3",
+   4
+  ],
+  "tspdt:chiyo-2019": [
+   "NEW3",
+   4
+  ],
+  "tspdt:fordlandia-malaise-2019": [
+   "NEW3",
+   4
+  ],
+  "tspdt:homenaje-a-la-obra-de-philip-henry-gosse-2020": [
+   "NEW3",
+   5
+  ],
+  "tspdt:apiyemiyeki-2020": [
+   "NEW3",
+   5
+  ],
+  "tspdt:still-processing-2020": [
+   "NEW3",
+   5
+  ],
+  "tspdt:last-year-in-dachau-2020": [
+   "NEW4",
+   3
+  ],
+  "tspdt:communicating-vessels-2020": [
+   "NEW3",
+   5
+  ],
+  "tspdt:south-2020": [
+   "NEW3",
+   5
+  ],
+  "tspdt:bicentenario-2020": [
+   "NEW3",
+   5
+  ],
+  "tspdt:this-is-an-address-2020": [
+   "NEW3",
+   5
+  ],
+  "tspdt:gyres-1-3-2020": [
+   "NEW3",
+   5
+  ],
+  "tspdt:blood-is-white-2020": [
+   "NEW3",
+   5
+  ],
+  "tspdt:one-image-two-acts-2020": [
+   "NEW3",
+   5
+  ],
+  "tspdt:forensickness-2020": [
+   "NEW3",
+   5
+  ],
+  "tspdt:i-want-to-make-a-film-about-women-2020": [
+   "NEW3",
+   5
+  ],
+  "tspdt:the-fantastic-2020": [
+   "NEW3",
+   5
+  ],
+  "tspdt:i-ran-from-it-and-was-still-in-it-2020": [
+   "NEW3",
+   5
+  ],
+  "tt12185614": [
+   "NEW3",
+   5
+  ],
+  "tspdt:citadel-2021": [
+   "NEW3",
+   5
+  ],
+  "tspdt:dog-star-descending-2021": [
+   "NEW3",
+   5
+  ],
+  "tspdt:liberation-radio-2021": [
+   "NEW1",
+   5
+  ],
+  "tspdt:handbuch-2021": [
+   "NEW3",
+   5
+  ],
+  "tspdt:comrade-tito-i-inherit-2021": [
+   "NEW3",
+   5
+  ],
+  "tspdt:all-of-your-stars-are-but-dust-on-my-sho-2021": [
+   "NEW3",
+   5
+  ],
+  "tspdt:home-when-you-return-2021": [
+   "NEW3",
+   5
+  ],
+  "tspdt:surviving-you-always-2021": [
+   "NEW3",
+   5
+  ],
+  "tspdt:i-am-trying-to-remember-2021": [
+   "NEW3",
+   5
+  ],
+  "tspdt:the-white-stone-2021": [
+   "NEW3",
+   5
+  ],
+  "tspdt:martin-und-hans-2021": [
+   "NEW4",
+   3
+  ],
+  "tspdt:what-are-our-years-2021": [
+   "NEW3",
+   5
+  ],
+  "tspdt:one-thousand-and-one-attempts-to-be-an-o-2021": [
+   "NEW3",
+   5
+  ],
+  "tspdt:parenthese-2021": [
+   "NEW3",
+   5
+  ],
+  "tspdt:birth-2021": [
+   "NEW3",
+   5
+  ],
+  "tspdt:letter-from-sapporo-2021": [
+   "NEW3",
+   5
+  ],
+  "tspdt:golden-jubilee-2021": [
+   "NEW3",
+   5
+  ],
+  "tt15026956": [
+   "NEW3",
+   5
+  ],
+  "tspdt:o-dente-do-dragao-2021": [
+   "NEW3",
+   5
+  ],
+  "tt16379454": [
+   "NEW1",
+   5
+  ],
+  "tspdt:as-mine-exactly-2022": [
+   "NEW3",
+   5
+  ],
+  "tspdt:landscape-suspended-2022": [
+   "NEW3",
+   5
+  ],
+  "tspdt:el-tren-se-ha-detenido-no-hay-estrellas--2022": [
+   "NEW3",
+   5
+  ],
+  "tspdt:trailer-of-the-film-that-will-never-exis-2022": [
+   "NEW3",
+   5
+  ],
+  "tspdt:agrilogistics-2022": [
+   "NEW3",
+   5
+  ],
+  "tspdt:the-empty-sphere-2022": [
+   "NEW3",
+   5
+  ],
+  "tspdt:against-time-2022": [
+   "NEW3",
+   5
+  ],
+  "tspdt:back-to-riano-2023": [
+   "NEW3",
+   5
+  ],
+  "tspdt:the-film-you-are-about-to-see-2023": [
+   "NEW4",
+   3
+  ],
+  "tspdt:a-dog-called-discord-2023": [
+   "NEW3",
+   5
+  ],
+  "tspdt:bliss-point-2023": [
+   "NEW3",
+   5
+  ],
+  "tt23867366": [
+   "NEW3",
+   5
+  ],
+  "tspdt:a-radical-duet-2023": [
+   "NEW3",
+   5
+  ],
+  "tspdt:radiance-2023": [
+   "NEW3",
+   5
+  ],
+  "tspdt:an-asian-ghost-story-2023": [
+   "NEW3",
+   5
+  ],
+  "tspdt:fade-2023": [
+   "NEW3",
+   5
+  ],
+  "tspdt:keeping-time-2023": [
+   "NEW3",
+   5
+  ],
+  "tspdt:nocturne-for-a-forest-2023": [
+   "NEW3",
+   5
+  ],
+  "tspdt:mangosteen-2023": [
+   "NEW3",
+   5
+  ],
+  "tspdt:at-that-very-moment-2023": [
+   "NEW3",
+   5
+  ],
+  "tspdt:scenarios-2024": [
+   "NEW3",
+   5
+  ],
+  "tspdt:expose-du-film-annonce-du-film-scenario-2024": [
+   "NEW4",
+   3
+  ],
+  "tspdt:the-diary-of-a-sky-2024": [
+   "NEW3",
+   5
+  ],
+  "tspdt:a-stone-s-throw-2024": [
+   "NEW3",
+   5
+  ],
+  "tspdt:city-of-poets-2024": [
+   "NEW3",
+   5
+  ],
+  "tspdt:pain-2024": [
+   "NEW3",
+   5
+  ],
+  "tspdt:the-flowers-stand-silently-witnessing-2024": [
+   "NEW1",
+   5
+  ],
+  "tspdt:like-a-sick-yellow-2024": [
+   "NEW3",
+   5
+  ],
+  "tspdt:listening-all-night-to-the-rain-2024": [
+   "NEW3",
+   5
+  ],
+  "tspdt:green-grey-black-brown-2024": [
+   "NEW3",
+   5
+  ],
+  "tspdt:the-ban-2024": [
+   "NEW3",
+   5
+  ],
+  "tspdt:a-move-2024": [
+   "NEW3",
+   5
+  ],
+  "tspdt:man-number-4-2024": [
+   "NEW3",
+   5
+  ],
+  "tspdt:carta-a-una-senorita-en-paris-2024": [
+   "NEW3",
+   5
+  ],
+  "tspdt:no-exorcism-film-2024": [
+   "NEW3",
+   5
+  ],
+  "tspdt:dreams-for-a-better-past-2025": [
+   "NEW3",
+   5
+  ],
+  "tspdt:fragments-for-venus-2025": [
+   "NEW3",
+   5
+  ],
+  "tspdt:what-if-we-run-out-of-stones-2025": [
+   "NEW3",
+   5
+  ],
+  "tspdt:okay-keskidee-let-me-see-inside-2025": [
+   "NEW3",
+   5
+  ],
+  "tspdt:it-s-so-beautiful-here-2025": [
+   "NEW3",
+   5
+  ],
+  "tspdt:memory-is-an-animal-it-barks-with-many-m-2025": [
+   "NEW3",
+   5
+  ],
+  "tspdt:murmures-2025": [
+   "NEW3",
+   5
+  ],
+  "tspdt:a-river-holds-a-perfect-memory-2025": [
+   "NEW3",
+   5
+  ],
+  "tspdt:we-were-the-scenery-2025": [
+   "NEW3",
+   5
+  ],
+  "tspdt:slet-1988-2025": [
+   "NEW3",
+   5
+  ],
+  "tspdt:occlusions-in-out-of-the-dark-2025": [
+   "NEW3",
+   5
+  ],
+  "tspdt:lloyd-wong-unfinished-2025": [
+   "NEW3",
+   5
+  ],
+  "tt0303272": [
+   "NEW4",
+   4
+  ],
+  "tspdt:oss-oss-wee-oss-1953": [
+   "NEW5",
+   2
+  ],
+  "tspdt:jazz-dance-1954": [
+   "NEW4",
+   5
+  ],
+  "tt0193850": [
+   "NEW4",
+   4
+  ],
+  "tt0389182": [
+   "NEW4",
+   4
+  ],
+  "tspdt:9-variations-on-a-dance-theme-1966": [
+   "NEW4",
+   5
+  ],
+  "tt0423782": [
+   "NEW4",
+   4
+  ],
+  "tspdt:pink-floyd-london-66-67-1967": [
+   "NEW4",
+   4
+  ],
+  "tspdt:the-singing-lesson-1967": [
+   "NEW4",
+   4
+  ],
+  "tt0064099": [
+   "NEW4",
+   4
+  ],
+  "tspdt:krsysztof-penderecki-tv-1968": [
+   "NEW4",
+   4
+  ],
+  "tspdt:who-is-sonny-rollins-1968": [
+   "NEW4",
+   4
+  ],
+  "tt0070005": [
+   "NEW4",
+   4
+  ],
+  "tspdt:little-richard-keep-on-rockin-1973": [
+   "NEW4",
+   4
+  ],
+  "tt2443752": [
+   "NEW4",
+   4
+  ],
+  "tspdt:partido-alto-1976": [
+   "NEW4",
+   4
+  ],
+  "tspdt:makwayela-1977": [
+   "NEW4",
+   4
+  ],
+  "tt0086353": [
+   "NEW4",
+   4
+  ],
+  "tspdt:flamenco-at-5-15-1983": [
+   "NEW4",
+   5
+  ],
+  "tspdt:mondo-elvis-1984": [
+   "NEW4",
+   4
+  ],
+  "tspdt:atalanta-strategy-1984": [
+   "NEW4",
+   4
+  ],
+  "tt0322526": [
+   "NEW4",
+   4
+  ],
+  "tspdt:big-fun-in-the-big-town-tv-1986": [
+   "NEW4",
+   4
+  ],
+  "tt0114595": [
+   "NEW4",
+   4
+  ],
+  "tspdt:kazuo-ohno-1995": [
+   "NEW4",
+   5
+  ],
+  "tspdt:natpwe-the-feast-of-the-spirits-2002": [
+   "NEW5",
+   3
+  ],
+  "tspdt:rap-o-canto-da-ceilandia-2005": [
+   "NEW4",
+   4
+  ],
+  "tspdt:long-after-tonight-2005": [
+   "NEW4",
+   4
+  ],
+  "tspdt:solar-flare-arkestral-marching-band-2011": [
+   "NEW4",
+   4
+  ],
+  "tspdt:chants-and-dances-for-hand-2016": [
+   "NEW4",
+   5
+  ],
+  "tspdt:lightning-dance-2018": [
+   "NEW4",
+   5
+  ],
+  "tt12498618": [
+   "NEW4",
+   5
+  ],
+  "tspdt:a-night-at-the-opera-2020": [
+   "NEW4",
+   4
+  ],
+  "tspdt:terminal-norte-tv-2021": [
+   "NEW4",
+   4
+  ],
+  "tt29497240": [
+   "NEW4",
+   4
+  ],
+  "tspdt:mind-on-the-run-the-basil-kirchin-story-2023": [
+   "NEW4",
+   4
+  ],
+  "tt32280470": [
+   "NEW4",
+   4
+  ],
+  "tt29118186": [
+   "NEW4",
+   4
+  ],
+  "tspdt:the-vanguard-tapes-2025": [
+   "NEW4",
+   4
+  ],
+  "tt7262026": [
+   "self",
+   6
+  ],
+  "tt7266916": [
+   "self",
+   6
+  ],
+  "tspdt:the-olympic-games-held-at-chamonix-in-19-1925": [
+   "self",
+   6
+  ],
+  "tt0022462": [
+   "self",
+   6
+  ],
+  "tt0247443": [
+   "self",
+   6
+  ],
+  "tt0042384": [
+   "self",
+   6
+  ],
+  "tt7242416": [
+   "self",
+   6
+  ],
+  "tspdt:la-lutte-1961": [
+   "self",
+   6
+  ],
+  "tt0056662": [
+   "self",
+   6
+  ],
+  "tspdt:runner-1963": [
+   "self",
+   6
+  ],
+  "tspdt:cincuenta-y-dos-domingos-1965": [
+   "self",
+   6
+  ],
+  "tspdt:rouli-roulant-1966": [
+   "self",
+   6
+  ],
+  "tt0244251": [
+   "self",
+   6
+  ],
+  "tspdt:rodeo-1969": [
+   "self",
+   6
+  ],
+  "tspdt:une-histoire-de-ballon-1976": [
+   "self",
+   6
+  ],
+  "tt7266258": [
+   "self",
+   6
+  ],
+  "tspdt:sceny-narciarskie-z-franzem-klammerem-1980": [
+   "self",
+   6
+  ],
+  "tt0177933": [
+   "self",
+   6
+  ],
+  "tt0186420": [
+   "self",
+   6
+  ],
+  "tspdt:boxeadora-2015": [
+   "self",
+   6
+  ],
+  "tt12038300": [
+   "self",
+   6
+  ],
+  "tspdt:the-fastest-boxer-in-the-world-2025": [
+   "self",
+   6
+  ]
+ },
+ "moves": []
+}

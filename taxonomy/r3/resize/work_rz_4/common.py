@@ -48,8 +48,10 @@ def T(code, *titles, year=None):
     """resolve titles to ids (all matches)."""
     m = ids_by_title(code); out = []
     for ti in titles:
-        if ti not in m: raise SystemExit(f"{code}: title not found: {ti}")
-        out += m[ti]
+        if ti in m: out += m[ti]; continue
+        hits = [i for k, v in m.items() if k.startswith(ti) for i in v]
+        if not hits: raise SystemExit(f"{code}: title not found: {ti}")
+        out += hits
     return out
 def W_(code, key, sec, *titles):
     return {i: (key, sec) for i in T(code, *titles)}
