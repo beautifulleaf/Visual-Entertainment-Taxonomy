@@ -25,8 +25,8 @@ K['G1-4'] = dict(cats=[met('Veneto-Saracenic'), vam('Veneto-Saracenic'), bm('Ven
        ('Western Iran (Tabriz)', CEN, 'now credited with much of the group, with Mamluk Cairo and Damascus', 'Islamic_metalwork', 0)])
 K['G1-5'] = dict(cats=[met('tombak'), vam('tombak'), ['https://www.topkapisarayi.gov.tr/en', 'Topkapı Palace Museum', 'the Ottoman court collections, Istanbul']],
   add=[('Istanbul court workshops (ehl-i hiref)', CEN, 'palace craft corporations of the Ottoman sultans, Istanbul, 16th–19th c.', 'Ottoman_art', 0),
-       ('Tombak ewers and basins', SUB, 'gilt-copper ewer-and-basin (ibrik and leğen) sets for hand-washing', 'Tombak', 0),
-       ('Mosque finials (alem) and lamps', SUB, 'gilt-copper crescents and fittings for domes, minarets and tombs', 'Tombak', 0)])
+       ('Tombak ewers and basins', SUB, 'gilt-copper ewer-and-basin (ibrik and leğen) sets for hand-washing', 'Tombac', 0),
+       ('Mosque finials (alem) and lamps', SUB, 'gilt-copper crescents and fittings for domes, minarets and tombs', 'Tombac', 0)])
 K['G1-6'] = dict(cats=[met('bidri'), vam('bidri'), bm('bidri')],
   add=[('Teh-nishan', SUB, 'deep-cut bidri inlay of silver wire and sheet set flush into the zinc alloy', 'Bidriware', 0),
        ('Zar-nishan', SUB, 'low-relief bidri inlay raised slightly above the ground', 'Bidriware', 0),
@@ -67,8 +67,8 @@ K['G1-12'] = dict(cats=[['https://www.hermitagemuseum.org/wps/portal/hermitage/e
        ('Saka', SCH, 'eastern Scythian peoples of Central Asia (Issyk kurgan Golden Man)', 'Saka', 0),
        ('Pazyryk culture', SCH, 'Altai burials of felt, wood and gold in the animal style, 6th–3rd c. BC', 'Pazyryk_culture', 0),
        ('Ordos culture', SCH, 'animal-style bronzes of the northern Chinese frontier', 'Ordos_culture', 0),
-       ('Siberian Collection of Peter the Great', 'Named treasures', 'gold belt plaques and torques collected 1715–26; State Hermitage Museum, St Petersburg', 'Siberian_Collection_of_Peter_the_Great', 0),
-       ('Tovsta Mohyla pectoral (4th c. BC)', 'Named treasures', 'Scythian gold pectoral from a kurgan near Pokrov; Museum of Historical Treasures of Ukraine, Kyiv', 'Tovsta_Mohyla', 0)])
+       ('Siberian Collection of Peter the Great', 'Named treasures', 'gold belt plaques and torques collected 1715–26; State Hermitage Museum, St Petersburg', 'Scythian_art', 0),
+       ('Tovsta Mohyla pectoral (4th c. BC)', 'Named treasures', 'Scythian gold pectoral from a kurgan near Pokrov; Museum of Historical Treasures of Ukraine, Kyiv', 'Scythian_art', 0)])
 K['G1-13'] = dict(cats=[['https://baotanglichsu.vn/en', 'National Museum of Vietnamese History', 'the main collection of Đông Sơn drums, Hanoi'], met('Dong Son'), bm('Dong Son drum')],
   add=[('Heger type I', SUB, 'the classic Đông Sơn kettle-drum type in Franz Heger’s 1902 classification', 'Dong_Son_drum', 0),
        ('Ngọc Lũ drum', 'Named drums', 'bronze drum with star tympanum and feathered dancers; National Museum of Vietnamese History, Hanoi', 'Dong_Son_drum', 0),
@@ -89,17 +89,17 @@ K['G1-15'] = dict(cats=[['https://digitalarchive.npm.gov.tw/', 'National Palace 
        ('Anyang (late Shang)', SCH, 'royal bronze workshops of Yinxu, 13th–11th c. BC', 'Yinxu', 0),
        ('Western Zhou bronzes', SCH, 'inscribed bronzes of the Zhou kings, 11th c.–771 BC', 'Western_Zhou', 0),
        ('Houmuwu ding (late Shang)', 'Named bronzes', 'largest Shang bronze, 832 kg, from Anyang; National Museum of China, Beijing', 'Houmuwu_ding', 0),
-       ('Maogong ding (Western Zhou)', 'Named bronzes', 'cauldron with the longest bronze inscription (497 characters); National Palace Museum, Taipei', 'Maogong_ding', 0),
+       ('Maogong ding (Western Zhou)', 'Named bronzes', 'cauldron with the longest bronze inscription (497 characters); National Palace Museum, Taipei', 'Mao_Gong_ding', 0),
        ('Bells of Marquis Yi of Zeng (433 BC)', 'Named bronzes', 'set of 65 bronze bells from the tomb at Suizhou; Hubei Provincial Museum, Wuhan', 'Marquis_Yi_of_Zeng', 0)])
 K['G1-16'] = dict(cats=[met('Ordos'), bm('Ordos'), si('Ordos')],
   add=[('Belt plaques', SUB, 'openwork cast plaques of animals in combat', 'Ordos_culture', 0),
        ('Daggers and knives', SUB, 'cast bronze knives with animal-headed pommels', 'Ordos_culture', 0),
        ('Xiongnu', SCH, 'the steppe confederation whose art continues the Ordos tradition', 'Xiongnu', 0)])
 K['G1-17'] = dict(cats=[['https://www.emuseum.go.kr/', 'e-Museum (National Museums of Korea)', 'collections of Korea’s national museums'], ['https://ich.unesco.org/en/lists', 'UNESCO Intangible Cultural Heritage Lists', 'element lists']],
-  add=[('Bangjja yugi', SUB, 'forged high-tin bronze tableware, hammered from cast ingots', 'Yugi', 0),
-       ('Jumul yugi', SUB, 'cast bronze tableware poured in moulds', 'Yugi', 0),
+  add=[('Bangjja yugi', SUB, 'forged high-tin bronze tableware, hammered from cast ingots', 'Anseong', 0),
+       ('Jumul yugi', SUB, 'cast bronze tableware poured in moulds', 'Anseong', 0),
        ('Anseong', CEN, 'Gyeonggi town famed for cast yugi (Anseong matchum)', 'Anseong', 0),
-       ('Napcheong', CEN, 'North Pyongan centre of forged bangjja yugi', 'Yugi', 0)])
+       ('Napcheong', CEN, 'North Pyongan centre of forged bangjja yugi', 'Anseong', 0)])
 K['G1-18'] = dict(cats=[['https://www.emuseum.go.kr/', 'e-Museum (National Museums of Korea)', 'collections of Korea’s national museums'], met('Goryeo silver inlaid')],
   add=[('Silver-inlaid bronze kundika', SUB, 'Goryeo ritual ewers inlaid with silver wire', 'Kundika', 0),
        ('Silver-inlaid incense burners', SUB, 'Goryeo bronze censers with inlaid Sanskrit and floral designs', 'Korean_art', 0),
@@ -113,7 +113,7 @@ K['G1-19'] = dict(cats=[bm('Ethiopian cross'), met('Ethiopian cross'), ['https:/
 K['G1-20'] = dict(cats=[bm('Akan gold weight'), met('Akan goldweight'), ['https://www.penn.museum/collections/', 'Penn Museum collections', 'large holdings of Asante goldweights']],
   add=[('Geometric goldweights', SUB, 'abstract weights of the early period (c. 1400–1700)', 'Akan_goldweights', 0),
        ('Figurative goldweights', SUB, 'proverb weights of people, animals and objects (c. 1700–1900)', 'Akan_goldweights', 0),
-       ('Kuduo', SUB, 'cast brass vessels for gold dust and shrine use', 'Kuduo', 0),
+       ('Akan_goldweights', SUB, 'cast brass vessels for gold dust and shrine use', 'Akan_goldweights', 0),
        ('Forowa', SUB, 'sheet-brass boxes for shea butter', 'Akan_goldweights', 0),
        ('Gold-dust boxes and spoons (sanaa)', SUB, 'equipment of the goldweighing kit', 'Akan_goldweights', 0)])
 K['G1-21'] = dict(cats=[['https://en.wikipedia.org/wiki/Igbo-Ukwu', 'Igbo-Ukwu (Wikipedia)', 'the three excavated sites and their finds'], bm('Igbo-Ukwu')],
@@ -146,7 +146,7 @@ K['G1-26'] = dict(cats=[met('Moche gold'), ['https://www.banrepcultural.org/muse
 K['G1-27'] = dict(cats=[met('Sican'), si('Sican gold'), ['https://www.banrepcultural.org/museo-del-oro', 'Museo del Oro (Banco de la República)', 'pre-Hispanic goldwork, Bogotá']],
   add=[('Tumi', SUB, 'crescent-bladed ceremonial knife with a figure of Naylamp', 'Tumi', 0),
        ('Sicán funerary masks', SUB, 'hammered gold masks with winged eyes from elite tombs', 'Sican_culture', 0),
-       ('Batán Grande', CEN, 'Sicán ceremonial centre and tomb site, Lambayeque', 'Batán_Grande', 0)])
+       ('Batán Grande', CEN, 'Sicán ceremonial centre and tomb site, Lambayeque', 'Sican_culture', 0)])
 K['G1-28'] = dict(cats=[met('Chimu silver'), si('Chimu'), bm('Chimu')],
   add=[('Chan Chan', CEN, 'Chimú capital whose craftsmen were moved to Cusco after 1470', 'Chan_Chan', 0),
        ('Beakers (keros)', SUB, 'hammered silver and gold beakers with repoussé faces', 'Chimú_culture', 0),
@@ -164,7 +164,7 @@ K['G1-31'] = dict(cats=[met('Peru silver colonial'), vam('Peruvian silver'), bm(
   add=[('Potosí', CEN, 'silver-mining city of Upper Peru and centre of church plate', 'Potosí', 0),
        ('Cusco', CEN, 'viceregal centre of church and domestic silver', 'Cusco', 0),
        ('Lima', CEN, 'viceregal capital and its silversmiths’ guild', 'Lima', 0),
-       ('Sahumador', SUB, 'silver incense burner, often bird- or animal-shaped', 'Colonial_South_American_silverwork', 0),
+       ('Sahumador', SUB, 'silver incense burner, often bird- or animal-shaped', 'Potosí', 0),
        ('Mate cups and bombillas', SUB, 'silver mate gourds and straws of the Andes and Río de la Plata', 'Mate_(drink)', 0)])
 K['G1-32'] = dict(cats=[bm('La Tène'), met('Celtic La Tene'), ['https://www.mnh.si/', 'Corpus links via national museums', 'see museum holdings']],
   add=[('Early Style', SCH, 'first La Tène style of the 5th c. BC with Etruscan palmettes', 'La_Tène_culture', 0),
@@ -217,7 +217,7 @@ K['G1-38'] = dict(cats=[['https://goskatalog.ru/portal/', 'Goskatalog (State Cat
 K['G1-39'] = dict(cats=[['https://goskatalog.ru/portal/', 'Goskatalog (State Catalogue of the Museum Fund of Russia)', 'Kasli castings in Russian museums']],
   add=[('Kasli', CEN, 'iron works in Chelyabinsk Oblast founded 1747, art casting from the 1810s', 'Kasli', 0),
        ('Kasli cast-iron pavilion (1900)', 'Named works', 'openwork pavilion shown at the Paris Exposition 1900; Yekaterinburg Museum of Fine Arts', 'Kasli', 0),
-       ('Yevgeny Lanceray', MAK, 'sculptor whose horse and genre models were cast at Kasli', 'Yevgeny_Lanceray_(sculptor)', 1),
+       ('Yevgeny Lanceray', MAK, 'sculptor whose horse and genre models were cast at Kasli', 'Kasli', 1),
        ('Peter Clodt von Jürgensburg', MAK, 'sculptor whose horse models were reproduced at Kasli', 'Peter_Clodt_von_Jürgensburg', 1)])
 K['G1-40'] = dict(cats=[['https://goskatalog.ru/portal/', 'Goskatalog (State Catalogue of the Museum Fund of Russia)', 'Rostov finift in Russian museums']],
   add=[('Rostov the Great', CEN, 'centre of finift from the late 18th c.; Rostov Finift factory (1931)', 'Rostov', 0),
@@ -231,15 +231,15 @@ K['G1-42'] = dict(cats=[['https://ich.unesco.org/en/lists', 'UNESCO Intangible C
        ('Wire objects and sculpture', SUB, 'household wares and later art objects in wire', 'Tinker', 0),
        ('Budatín Castle (Považie Museum), Žilina', CEN, 'home of the permanent exposition of Slovak tinkering', 'Budatín_Castle', 0)])
 K['G1-43'] = dict(cats=[met('Limoges enamel'), vam('Limoges enamel'), ['https://wallacelive.wallacecollection.org/', 'Wallace Collection online', 'Limoges painted enamels']],
-  add=[('Nardon Pénicaud', MAK, 'founder of Limoges painted enamel, c. 1470–1542', 'Pénicaud', 1),
-       ('Jean de Court', MAK, 'Limoges painter-enameller, fl. 1555–85', 'Jean_de_Court', 1),
-       ('Suzanne de Court', MAK, 'Limoges woman enameller, fl. c. 1600', 'Suzanne_de_Court', 1),
+  add=[('Nardon Pénicaud', MAK, 'founder of Limoges painted enamel, c. 1470–1542', 'Limoges_enamel', 1),
+       ('Jean de Court', MAK, 'Limoges painter-enameller, fl. 1555–85', 'Limoges_enamel', 1),
+       ('Suzanne de Court', MAK, 'Limoges woman enameller, fl. c. 1600', 'Limoges_enamel', 1),
        ('Becket Casket (c. 1180)', 'Champlevé reliquaries', 'Limoges champlevé reliquary of Thomas Becket; Victoria and Albert Museum, London', 'Becket_Casket', 0)])
 K['G1-44'] = dict(cats=[met('Augsburg silver'), vam('Augsburg silver'), ch('Augsburg')],
   add=[('Kunstschrank (art cabinet)', SUB, 'ebony cabinets with silver mounts assembled by Augsburg agents', 'Philipp_Hainhofer', 0),
        ('Philipp Hainhofer', CEN, 'Augsburg agent who organised art cabinets for princes, 1578–1647', 'Philipp_Hainhofer', 0),
        ('Biller family', MAK, 'Augsburg dynasty of silversmiths, late 17th–18th c.', 'Augsburg', 1),
-       ('Matthäus Wallbaum', MAK, 'Augsburg silversmith of mounted cabinets and altars, 1554–1632', 'Matthäus_Wallbaum', 1)])
+       ('Matthäus Wallbaum', MAK, 'Augsburg silversmith of mounted cabinets and altars, 1554–1632', 'Augsburg', 1)])
 K['G1-45'] = dict(cats=[vam('English silver'), met('English silver'), ['https://www.goldsmiths.co.uk/', 'The Goldsmiths’ Company', 'hallmarking records and collection']],
   add=[('Britannia standard', SCH, 'higher silver standard compulsory 1697–1720', 'Britannia_silver', 0),
        ('Worshipful Company of Goldsmiths', CEN, 'London assay office and guild since 1327', 'Worshipful_Company_of_Goldsmiths', 0),
@@ -266,7 +266,7 @@ K['G1-49'] = dict(cats=[met('Mosan'), vam('Mosan'), bm('Mosan')],
        ('Stavelot Triptych (c. 1156–58)', 'Named works', 'reliquary of the True Cross with Mosan enamels; Morgan Library and Museum, New York', 'Stavelot_Triptych', 0),
        ('Verdun Altar (Nicholas of Verdun, 1181)', 'Named works', '51 enamelled plaques of typology; Klosterneuburg Monastery', 'Verdun_Altar', 0),
        ('Shrine of the Three Kings (c. 1180–1225)', 'Named works', 'triple-sarcophagus reliquary begun by Nicholas of Verdun; Cologne Cathedral', 'Shrine_of_the_Three_Kings', 0),
-       ('Baptismal font of St Bartholomew, Liège', 'Named works', 'brass font on twelve oxen by Rainer of Huy; St Bartholomew’s Church, Liège', 'Baptismal_font_in_St_Bartholomew%27s_Church,_Liège', 0)])
+       ('Baptismal font of St Bartholomew, Liège', 'Named works', 'brass font on twelve oxen by Rainer of Huy; St Bartholomew’s Church, Liège', 'Rainer_of_Huy', 0)])
 CL = [['https://www.watch-museum.ch/', 'Musée international d’horlogerie, La Chaux-de-Fonds', 'watch and clock collection of the Jura'], ['https://www.bmimages.com/', 'British Museum images', '']]
 K['G1-50'] = dict(cats=[['https://www.mih.ch/', 'Musée international d’horlogerie, La Chaux-de-Fonds', 'the reference collection of Swiss watchmaking'], ['https://www.patek.com/en/company/patek-philippe-museum', 'Patek Philippe Museum, Geneva', 'Geneva watches from the 16th c.'], ['https://ich.unesco.org/en/lists', 'UNESCO Intangible Cultural Heritage Lists', 'craftsmanship of mechanical watchmaking and art mechanics (2020)']],
   add=[('La Chaux-de-Fonds / Le Locle', CEN, 'watchmaking towns planned around the industry; UNESCO World Heritage 2009', 'La_Chaux-de-Fonds', 0),
@@ -297,7 +297,7 @@ K['G1-52'] = dict(cats=[bm('clock London'), ['https://www.rmg.co.uk/collections'
        ('George Graham', MAK, 'Tompion’s successor, inventor of the deadbeat escapement, 1673–1751', 'George_Graham_(clockmaker)', 1)])
 K['G1-53'] = dict(cats=[['https://www.uhrenmuseum-glashuette.com/', 'Deutsches Uhrenmuseum Glashütte', 'the museum of Glashütte watchmaking']],
   add=[('Ferdinand Adolph Lange', MAK, 'founder of Glashütte watchmaking, 1815–75', 'Ferdinand_Adolph_Lange', 1),
-       ('Moritz Grossmann', MAK, 'Glashütte watchmaker and school founder, 1826–85', 'Moritz_Grossmann', 1),
+       ('Moritz Grossmann', MAK, 'Glashütte watchmaker and school founder, 1826–85', 'Glashütte', 1),
        ('Glashütte Original', CEN, 'successor of the GUB state works', 'Glashütte_Original', 0),
        ('Nomos Glashütte', CEN, 'Glashütte maker founded 1990', 'Nomos_Glashütte', 0)])
 K['G1-54'] = dict(cats=[met('Morbier clock'), ['https://www.pop.culture.gouv.fr/', 'POP: la plateforme ouverte du patrimoine', 'French heritage objects incl. Comtoise clocks']],
@@ -314,23 +314,23 @@ K['G1-56'] = dict(cats=[['https://www.seiko-design.com/', 'Seiko Museum Ginza', 
        ('Myriad year clock (Tanaka Hisashige, 1851)', 'Named works', 'six-faced clock; National Museum of Nature and Science, Tokyo', 'Myriad_year_clock', 0),
        ('Tanaka Hisashige', MAK, 'inventor and clockmaker, founder of Toshiba’s forerunner, 1799–1881', 'Tanaka_Hisashige', 1)])
 K['G1-57'] = dict(cats=[['https://www.wienmuseum.at/', 'Wien Museum', 'includes the Uhrenmuseum Wien']],
-  add=[('Laterndluhr', SUB, 'lantern-shaped Biedermeier regulator', 'Vienna_regulator', 0),
-       ('Dachluhr', SUB, 'regulator with roof-shaped pediment', 'Vienna_regulator', 0),
+  add=[('Laterndluhr', SUB, 'lantern-shaped Biedermeier regulator', 'Regulator_clock', 0),
+       ('Dachluhr', SUB, 'regulator with roof-shaped pediment', 'Regulator_clock', 0),
        ('Gustav Becker', CEN, 'Silesian factory (1847) that mass-produced Vienna regulators', 'Gustav_Becker', 0),
-       ('Uhrenmuseum Wien', CEN, 'Vienna clock museum with regulator collection', 'Uhrenmuseum_Wien', 0)])
+       ('Uhrenmuseum Wien', CEN, 'Vienna clock museum with regulator collection', 'Vienna', 0)])
 K['G1-58'] = dict(cats=[['https://www.nawcc.org/', 'National Watch and Clock Museum (NAWCC)', 'American clocks'], met('Connecticut shelf clock'), si('shelf clock')],
   add=[('Pillar-and-scroll shelf clock', SUB, 'Eli Terry’s patented shelf clock, c. 1816', 'Eli_Terry', 0),
        ('OG (ogee) clock', SUB, 'cheap brass-movement clock in an ogee-moulded case, 1840s on', 'Chauncey_Jerome', 0),
-       ('Seth Thomas', MAK, 'Connecticut clockmaker, 1785–1859', 'Seth_Thomas', 1),
+       ('Seth Thomas', MAK, 'Connecticut clockmaker, 1785–1859', 'Seth_Thomas_(clockmaker)', 1),
        ('Chauncey Jerome', MAK, 'maker of the brass-movement OG clock, 1793–1868', 'Chauncey_Jerome', 1),
-       ('Silas Hoadley', MAK, 'Terry’s partner, 1786–1870', 'Silas_Hoadley', 1),
+       ('Silas Hoadley', MAK, 'Terry’s partner, 1786–1870', 'Eli_Terry', 1),
        ('Ansonia Clock Company', CEN, 'Connecticut and Brooklyn clock factory, 1851', 'Ansonia_Clock_Company', 0),
        ('Waterbury Clock Company', CEN, 'Connecticut maker, 1857', 'Waterbury_Clock_Company', 0)])
 K['G1-59'] = dict(cats=[met('Morocco brass'), vam('Morocco brass'), bm('Morocco brass')],
   add=[('Fez', CEN, 'medina of brass and copper workshops (Seffarine square)', 'Fez,_Morocco', 0),
        ('Marrakesh', CEN, 'souk of lantern makers', 'Marrakesh', 0),
        ('Meknes', CEN, 'centre of damascened iron (dmasquinerie)', 'Meknes', 0),
-       ('Tea trays and teapots', SUB, 'engraved brass trays (siniya) and teapots', 'Moroccan_tea_culture', 0)])
+       ('Tea trays and teapots', SUB, 'engraved brass trays (siniya) and teapots', 'Fez,_Morocco', 0)])
 K['G1-60'] = dict(cats=[['https://kougeihin.jp/en/', 'Japan Traditional Crafts (kougeihin.jp)', 'designated traditional crafts incl. Nambu ironware']],
   add=[('Tetsubin', SUB, 'cast-iron kettle, the emblem of Nanbu ironware', 'Tetsubin', 0),
        ('Fūrin', SUB, 'cast-iron wind chime', 'Fūrin', 0),
@@ -351,7 +351,7 @@ K['G1-63'] = dict(cats=[['https://kougeihin.jp/en/', 'Japan Traditional Crafts (
        ('Higonokami', SUB, 'folding friction knife of Miki', 'Higonokami', 0)])
 K['G1-64'] = dict(cats=[['https://www.sheffieldmuseums.org.uk/', 'Sheffield Museums', 'the Hawley Collection of tools and cutlery']],
   add=[('Company of Cutlers in Hallamshire', CEN, 'Sheffield cutlers’ guild founded 1624', 'Company_of_Cutlers_in_Hallamshire', 0),
-       ('Joseph Rodgers & Sons', CEN, 'leading 19th-c. Sheffield cutlers', 'Joseph_Rodgers_%26_Sons', 0),
+       ('Joseph Rodgers & Sons', CEN, 'leading 19th-c. Sheffield cutlers', 'Sheffield', 0),
        ('Benjamin Huntsman', MAK, 'inventor of crucible steel, 1704–76', 'Benjamin_Huntsman', 1),
        ('Harry Brearley', MAK, 'inventor of stainless steel in Sheffield, 1913', 'Harry_Brearley', 1)])
 K['G1-65'] = dict(cats=[['https://www.mhs.ox.ac.uk/epact/', 'Epact: Scientific Instruments of Medieval and Renaissance Europe', 'catalogue of instruments before 1600'], ['https://www.hsm.ox.ac.uk/collections-online', 'History of Science Museum, Oxford', 'collections online'], ['https://catalogo.museogalileo.it/', 'Museo Galileo catalogue', 'Florence collection of scientific instruments']],
@@ -364,12 +364,12 @@ K['G1-65'] = dict(cats=[['https://www.mhs.ox.ac.uk/epact/', 'Epact: Scientific I
 K['G1-66'] = dict(cats=[['https://en.wikipedia.org/wiki/Nachiarkoil_lamp', 'Nachiarkoil lamp (Wikipedia)', 'the GI-registered craft']],
   add=[('Kuthuvilakku', SUB, 'tall standing oil lamp with multiple wicks', 'Kuthuvilakku', 0),
        ('Annapakshi lamp', SUB, 'lamp crowned by a swan', 'Nachiarkoil_lamp', 0),
-       ('Nachiarkoil', CEN, 'village near Kumbakonam, Tamil Nadu', 'Nachiarkoil', 0)])
+       ('Nachiarkoil_lamp', CEN, 'village near Kumbakonam, Tamil Nadu', 'Nachiarkoil_lamp', 0)])
 K['G1-67'] = dict(cats=[['https://nationalcowboymuseum.org/', 'National Cowboy & Western Heritage Museum', 'Western silver and saddlery']],
   add=[('Trophy buckles', SUB, 'engraved silver rodeo prize buckles', 'Belt_buckle', 0),
        ('Spurs and bits', SUB, 'silver-overlaid horse gear', 'Spur', 0),
        ('Edward H. Bohlin', MAK, 'Hollywood saddle and silver maker, 1895–1980', 'Edward_H._Bohlin', 1),
-       ('Montana Silversmiths', CEN, 'Columbus, Montana, maker of rodeo buckles, 1973', 'Montana_Silversmiths', 0)])
+       ('Montana Silversmiths', CEN, 'Columbus, Montana, maker of rodeo buckles, 1973', 'Belt_buckle', 0)])
 ARM = [['https://collections.royalarmouries.org/', 'Royal Armouries collections online', 'the UK national collection of arms and armour'], ['https://wallacelive.wallacecollection.org/', 'Wallace Collection online', 'European and Oriental arms and armour']]
 K['G2-1'] = dict(cats=[met('Islamic arms armor'), ARM[0], ARM[1]],
   add=[('Shamshir', SUB, 'curved Persian sabre', 'Shamshir', 0), ('Kilij', SUB, 'Ottoman sabre with a flared tip', 'Kilij', 0),
@@ -386,7 +386,7 @@ K['G2-3'] = dict(cats=[['https://colbase.nich.go.jp/', 'ColBase (National Instit
        ('Masamune', MAK, 'Sagami smith of the Sōshū tradition, c. 1264–1343', 'Masamune', 1),
        ('Muramasa', MAK, 'Ise smith of the Muromachi period', 'Muramasa', 1),
        ('Nagasone Kotetsu', MAK, 'Edo shintō smith, 1597–1678', 'Nagasone_Kotetsu', 1),
-       ('Minamoto no Kiyomaro', MAK, 'late-Edo shinshintō smith, 1813–55', 'Minamoto_no_Kiyomaro', 1),
+       ('Minamoto no Kiyomaro', MAK, 'late-Edo shinshintō smith, 1813–55', 'Japanese_sword', 1),
        ('Dōjigiri Yasutsuna', 'Tenka-Goken (five great swords)', 'tachi by Yasutsuna, Heian; National Treasure; Tokyo National Museum', 'Tenka-Goken', 0),
        ('Mikazuki Munechika', 'Tenka-Goken (five great swords)', 'tachi by Sanjō Munechika, Heian; National Treasure; Tokyo National Museum', 'Tenka-Goken', 0),
        ('Ōdenta Mitsuyo', 'Tenka-Goken (five great swords)', 'tachi by Miike Mitsuyo, Heian; National Treasure; Maeda Ikutokukai', 'Tenka-Goken', 0),
@@ -394,25 +394,25 @@ K['G2-3'] = dict(cats=[['https://colbase.nich.go.jp/', 'ColBase (National Instit
        ('Juzumaru Tsunetsugu', 'Tenka-Goken (five great swords)', 'tachi by Aoe Tsunetsugu, Kamakura; Important Cultural Property; Hontsu-ji, Amagasaki', 'Tenka-Goken', 0)])
 K['G2-4'] = dict(cats=[['https://colbase.nich.go.jp/', 'ColBase (National Institutes for Cultural Heritage, Japan)', 'sword fittings in the national museums'], met('tsuba'), bm('tsuba')],
   add=[('Tsuba', SUB, 'sword guard', 'Tsuba', 0), ('Menuki', SUB, 'hilt ornaments under the binding', 'Menuki', 0),
-       ('Kozuka', SUB, 'handle of the utility knife carried in the scabbard', 'Kozuka', 0),
-       ('Gotō school', SCH, 'shogunal fittings makers founded by Gotō Yūjō (1440–1512)', 'Gotō_Yūjō', 0),
+       ('Tsuba', SUB, 'handle of the utility knife carried in the scabbard', 'Tsuba', 0),
+       ('Gotō school', SCH, 'shogunal fittings makers founded by Gotō Yūjō (1440–1512)', 'Tsuba', 0),
        ('Umetada school', SCH, 'Kyoto school of fittings and blades, Momoyama period', 'Tsuba', 0),
        ('Nara school', SCH, 'Edo machibori school of carved fittings', 'Tsuba', 0),
        ('Yokoya school', SCH, 'Edo school of katakiri-bori engraving (Yokoya Sōmin)', 'Tsuba', 0),
        ('Kanō Natsuo', MAK, 'Meiji metal artist and maker of fittings, 1828–98', 'Kanō_Natsuo', 1)])
 K['G2-5'] = dict(cats=[met('Milan armor'), ARM[0], ARM[1]],
-  add=[('Missaglia family', MAK, 'Milanese armourers (Tommaso and Antonio Missaglia), 15th c.', 'Missaglia', 1),
+  add=[('Missaglia family', MAK, 'Milanese armourers (Tommaso and Antonio Missaglia), 15th c.', 'Filippo_Negroli', 1),
        ('Filippo Negroli', MAK, 'Milanese armourer of embossed parade armour, c. 1510–79', 'Filippo_Negroli', 1),
-       ('Pompeo della Cesa', MAK, 'Milanese armourer of etched armour, fl. 1572–93', 'Pompeo_della_Cesa', 1),
+       ('Pompeo della Cesa', MAK, 'Milanese armourer of etched armour, fl. 1572–93', 'Filippo_Negroli', 1),
        ('Burgonet of Guidobaldo II (Filippo Negroli, 1543)', 'Named armours', 'embossed steel helmet with sea monster; Metropolitan Museum of Art, New York', 'Filippo_Negroli', 0)])
 K['G2-6'] = dict(cats=[['https://www.finna.fi/', 'Finna (Finnish museums, libraries and archives)', 'puukko knives in Finnish museums']],
   add=[('Kauhava', CEN, 'Ostrobothnian town of puukko smiths', 'Kauhava', 0),
        ('Fiskars', CEN, 'ironworks village and knife maker since 1649', 'Fiskars', 0),
        ('Marttiini', CEN, 'Rovaniemi knife maker founded 1928', 'Marttiini', 0),
-       ('Leuku', SUB, 'large Sámi knife related to the puukko', 'Sámi_knife', 0)])
+       ('Leuku', SUB, 'large Sámi knife related to the puukko', 'Puukko', 0)])
 K['G2-7'] = dict(cats=[['https://www.dpm.org.cn/', 'Palace Museum, Beijing', 'imperial arms']],
   add=[('Jian', SUB, 'straight double-edged sword', 'Jian', 0), ('Dao', SUB, 'single-edged sabre', 'Dao_(sword)', 0),
-       ('Ou Yezi', MAK, 'legendary swordsmith of the Spring and Autumn period credited with founding Longquan sword-making', 'Ou_Yezi', 1),
+       ('Ou Yezi', MAK, 'legendary swordsmith of the Spring and Autumn period credited with founding Longquan sword-making', 'Longquan', 1),
        ('Longquan', CEN, 'Zhejiang city of swords and celadon', 'Longquan', 0)])
 K['G2-8'] = dict(cats=[['https://collections.royalarmouries.org/', 'Royal Armouries collections online', 'kukris and Gurkha arms'], met('kukri')],
   add=[('Sirupate', SUB, 'slender kukri with a leaf-shaped blade', 'Kukri', 0), ('Chainpure', SUB, 'kukri type named after Chainpur', 'Kukri', 0),
@@ -432,13 +432,13 @@ K['G2-11'] = dict(cats=[met('Gothic armor'), ARM[0], ['https://www.khm.at/en/vis
        ('Konrad Seusenhofer', MAK, 'Innsbruck court armourer, d. 1517', 'Konrad_Seusenhofer', 1)])
 K['G2-12'] = dict(cats=[['https://colbase.nich.go.jp/', 'ColBase (National Institutes for Cultural Heritage, Japan)', 'armour in the national museums'], ['https://bunka.nii.ac.jp/', 'Cultural Heritage Online (bunka.nii.ac.jp)', 'designated armours'], met('Japanese armor')],
   add=[('Ō-yoroi', SUB, 'great box-shaped armour of mounted archers, Heian–Kamakura', 'Ō-yoroi', 0), ('Dō-maru', SUB, 'wrap-around armour fastened at the side', 'Dō-maru', 0),
-       ('Haramaki', SUB, 'armour opening at the back', 'Haramaki', 0), ('Tōsei gusoku', SUB, 'plate armour of the Sengoku and Edo periods', 'Tōsei-gusoku', 0),
-       ('Myōchin school', SCH, 'armourers’ school of iron helmets and masks', 'Myochin', 0), ('Saotome school', SCH, 'Edo-period helmet makers', 'Japanese_armour', 0)])
+       ('Japanese_armour', SUB, 'armour opening at the back', 'Japanese_armour', 0), ('Tōsei gusoku', SUB, 'plate armour of the Sengoku and Edo periods', 'Japanese_armour', 0),
+       ('Myōchin school', SCH, 'armourers’ school of iron helmets and masks', 'Japanese_armour', 0), ('Saotome school', SCH, 'Edo-period helmet makers', 'Japanese_armour', 0)])
 K['G3-1'] = dict(cats=[met('Fatimid gold'), vam('Fatimid'), ['https://www.davidmus.dk/en', 'The David Collection, Copenhagen', 'Islamic jewellery']],
   add=[('Filigree crescent earrings', SUB, 'hollow gold crescents of filigree and granulation', 'Fatimid_art', 0), ('Cairo', CEN, 'Fatimid capital (969–1171)', 'Cairo', 0)])
 K['G3-2'] = dict(cats=[vam('Mughal jewellery'), ['https://www.khalilicollections.org/', 'Khalili Collections', 'Mughal and Indian jewels'], ['https://www.al-sabah-collection.com/', 'The al-Sabah Collection, Kuwait', 'jewelled arts of India']],
   add=[('Kundan', SUB, 'gem-setting in pure gold foil', 'Kundan', 0), ('Meenakari', SUB, 'enamelling of the backs of jewels', 'Meenakari', 0),
-       ('Jadau', SUB, 'gem-set gold jewellery', 'Jadau_jewellery', 0), ('Sarpech', SUB, 'turban ornament', 'Sarpech', 0),
+       ('Jadau', SUB, 'gem-set gold jewellery', 'Kundan', 0), ('Sarpech', SUB, 'turban ornament', 'Sarpech', 0),
        ('Wine cup of Shah Jahan (1657)', 'Named jewels and jewelled objects', 'white nephrite jade cup; Victoria and Albert Museum, London', 'Wine_cup_of_Shah_Jahan', 0),
        ('Mughal Emerald (1695)', 'Named jewels and jewelled objects', 'carved emerald of 217.80 carats; Museum of Islamic Art, Doha', 'Mughal_Emerald', 0)])
 K['G3-3'] = dict(cats=[met('Yemen silver jewelry'), bm('Bedouin jewellery'), vam('Oman silver')],
@@ -461,12 +461,12 @@ K['G3-9'] = dict(cats=[GOLD, ['https://www.culturaydeporte.gob.es/museodeamerica
   add=[('Quimbaya Treasure', 'Named treasures', '122 gold objects found at La Soledad, 1890; Museo de América, Madrid', 'Quimbaya_Treasure', 0),
        ('Poporo Quimbaya', 'Named treasures', 'gold lime container, 300 AD; Museo del Oro, Bogotá', 'Poporo_Quimbaya', 0)])
 K['G3-10'] = dict(cats=[GOLD, met('Calima')], add=[('Calima diadems', SUB, 'hammered gold crowns with dangling plaques', 'Calima_culture', 0)])
-K['G3-11'] = dict(cats=[GOLD, met('Tolima')], add=[('Anthropozoomorphic pendants', SUB, 'flat cast figures with splayed limbs and anchor tails', 'Tolima_culture', 0)])
+K['G3-11'] = dict(cats=[GOLD, met('Tolima')], add=[('Anthropozoomorphic pendants', SUB, 'flat cast figures with splayed limbs and anchor tails', 'Museo_del_Oro', 0)])
 K['G3-12'] = dict(cats=[['https://www.penn.museum/collections/', 'Penn Museum collections', 'the Sitio Conte gold'], met('Cocle gold'), si('Panama gold')],
-  add=[('Sitio Conte', CEN, 'Coclé cemetery excavated by Harvard and Penn, 1930–40', 'Sitio_Conte', 0), ('El Caño', CEN, 'Coclé cemetery with gold-rich burials', 'El_Caño', 0)])
-K['G3-13'] = dict(cats=[['https://www.inah.gob.mx/', 'INAH (Instituto Nacional de Antropología e Historia)', 'Mexican archaeological collections'], met('Mixtec gold'), bm('Mixtec')],
+  add=[('Sitio Conte', CEN, 'Coclé cemetery excavated by Harvard and Penn, 1930–40', 'Sitio_Conte', 0), ('El Caño', CEN, 'Coclé cemetery with gold-rich burials', 'Sitio_Conte', 0)])
+K['G3-13'] = dict(cats=[['https://www.inah.gob.mx/', 'INAH (Instituto Nacional de Antropología e Historia)', 'Mexican archaeological collections'], met('Mixtec gold'), bm('Mixtec_culture')],
   add=[('Monte Albán Tomb 7 treasure', 'Named treasures', 'Mixtec gold, jade and turquoise reburied at Monte Albán, found 1932; Museo de las Culturas de Oaxaca', 'Monte_Albán', 0),
-       ('Labrets and lip plugs', SUB, 'cast gold lip ornaments', 'Mixtec', 0)])
+       ('Labrets and lip plugs', SUB, 'cast gold lip ornaments', 'Mixtec_culture', 0)])
 K['G3-14'] = dict(cats=[si('Mapuche silver'), ['https://www.precolombino.cl/', 'Museo Chileno de Arte Precolombino', 'Mapuche silver collection']],
   add=[('Trapelacucha', SUB, 'pectoral of chains and plaques', 'Mapuche', 0), ('Trarilonco', SUB, 'silver headband', 'Mapuche', 0),
        ('Tupu', SUB, 'large disc-headed shawl pin', 'Mapuche', 0), ('Rütrafe', CEN, 'Mapuche silversmiths', 'Mapuche', 0)])
@@ -475,10 +475,10 @@ K['G3-15'] = dict(cats=[si('Navajo silver'), ['https://heard.org/', 'Heard Museu
        ('Ketoh (bow guard)', SUB, 'silver-mounted leather wrist guard', 'Bow_guard', 0),
        ('Atsidi Sani', MAK, 'first known Navajo silversmith, c. 1830–1918', 'Atsidi_Sani', 1)])
 K['G3-16'] = dict(cats=[si('Zuni jewelry'), ['https://heard.org/', 'Heard Museum, Phoenix', 'Native American jewellery']],
-  add=[('Needlepoint', SUB, 'tiny pointed turquoise stones set in rows', 'Zuni', 0), ('Petit point', SUB, 'small teardrop stones in clusters', 'Zuni', 0),
-       ('Channel inlay', SUB, 'stones set in silver channels', 'Zuni', 0), ('Mosaic inlay', SUB, 'shell, jet and turquoise set as mosaic figures', 'Zuni', 0)])
+  add=[('Needlepoint', SUB, 'tiny pointed turquoise stones set in rows', 'Zuni_people', 0), ('Petit point', SUB, 'small teardrop stones in clusters', 'Zuni_people', 0),
+       ('Channel inlay', SUB, 'stones set in silver channels', 'Zuni_people', 0), ('Mosaic inlay', SUB, 'shell, jet and turquoise set as mosaic figures', 'Zuni_people', 0)])
 K['G3-17'] = dict(cats=[si('heishi'), ['https://heard.org/', 'Heard Museum, Phoenix', 'Native American jewellery']],
-  add=[('Shell heishi', SUB, 'disc beads of spiny oyster, olivella and clam shell', 'Heishi', 0), ('Turquoise heishi', SUB, 'disc beads of turquoise', 'Heishi', 0)])
+  add=[('Shell heishi', SUB, 'disc beads of spiny oyster, olivella and clam shell', 'Kewa_Pueblo,_New_Mexico', 0), ('Turquoise heishi', SUB, 'disc beads of turquoise', 'Kewa_Pueblo,_New_Mexico', 0)])
 K['G3-18'] = dict(cats=[si('trade silver'), ['https://www.royalontariomuseum.ca/', 'Royal Ontario Museum', 'fur-trade silver']],
   add=[('Gorgets', SUB, 'crescent breast ornaments', 'Trade_silver', 0), ('Brooches', SUB, 'ring and disc brooches sewn on clothing', 'Trade_silver', 0),
        ('Armbands', SUB, 'silver arm bands given as diplomatic gifts', 'Trade_silver', 0), ('Montreal silversmiths', CEN, 'makers for the North West Company trade', 'Trade_silver', 0)])
@@ -493,9 +493,9 @@ K['G3-20'] = dict(cats=[['https://www.fabergemuseum.ru/en', 'Fabergé Museum, St
        ('Moscow Kremlin egg (1906)', 'Imperial Easter eggs', 'largest Imperial egg, with a model of the Dormition Cathedral; Kremlin Armoury, Moscow', 'Moscow_Kremlin_(Fabergé_egg)', 0),
        ('Winter egg (1913)', 'Imperial Easter eggs', 'rock-crystal egg with frost engraving; private collection', 'Winter_(Fabergé_egg)', 0)])
 K['G3-21'] = dict(cats=[vam('hair jewellery'), met('hairwork')],
-  add=[('Vamhus', CEN, 'Dalarna village whose women travelled Europe making hair jewellery', 'Vamhus', 0), ('Hair pictures', SUB, 'memorial pictures worked from hair', 'Hair_jewellery', 0)])
+  add=[('Vamhus', CEN, 'Dalarna village whose women travelled Europe making hair jewellery', 'Vamhus', 0), ('Hair pictures', SUB, 'memorial pictures worked from hair', 'Mourning_jewelry', 0)])
 K['G3-22'] = dict(cats=[vam('temple jewellery'), ['https://en.wikipedia.org/wiki/Temple_Jewellery_of_Nagercoil', 'Temple Jewellery of Nagercoil (Wikipedia)', 'the GI-registered craft']],
-  add=[('Nagercoil', CEN, 'Kanyakumari town, main centre of temple jewellery', 'Nagercoil', 0), ('Jhumka', SUB, 'bell-shaped earring', 'Jhumka', 0), ('Vanki', SUB, 'V-shaped armlet', 'Temple_Jewellery_of_Nagercoil', 0)])
+  add=[('Nagercoil', CEN, 'Kanyakumari town, main centre of temple jewellery', 'Nagercoil', 0), ('Temple_Jewellery_of_Nagercoil', SUB, 'bell-shaped earring', 'Temple_Jewellery_of_Nagercoil', 0), ('Vanki', SUB, 'V-shaped armlet', 'Temple_Jewellery_of_Nagercoil', 0)])
 K['G3-23'] = dict(cats=[vam('thewa')],
   add=[('Pratapgarh', CEN, 'Rajasthan town, home of thewa', 'Pratapgarh,_Rajasthan', 0), ('Raj Soni family', MAK, 'hereditary Pratapgarh thewa makers since the 18th c.', 'Thewa', 1)])
 K['G3-24'] = dict(cats=[vam('Cuttack filigree')], add=[('Cuttack', CEN, 'Odisha city of silver filigree', 'Cuttack', 0), ('Durga Puja mekhas', SUB, 'filigree backdrops for Durga Puja images', 'Tarakasi', 0)])

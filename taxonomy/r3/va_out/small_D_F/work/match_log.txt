@@ -204,3 +204,5 @@ F1-11 0 {} |
 F1-12 6 {'wx': np.int64(3), 'efolk': np.int64(2), 'smith': np.int64(1)} | Museum Volkenkunde=3, The Metropolitan Museum of Art=1, Art Institute of Chicago=1, CHNDM=1
 F1-13 0 {} | 
 F1-14 638 {'wx': np.int64(411), 'east': np.int64(222), 'smith': np.int64(4), 'gap': np.int64(1)} | Museum Volkenkunde=327, Tokyo National Museum=183, Wereldmuseum Rotterdam=50, Tropenmuseum=25
+F1-15 22 {'smith': np.int64(22)} | NMAA=12, CHNDM=10
+F1-16 258 {'wx': np.int64(138), 'isl': np.int64(101), 'smith': np.int64(18), 'gap': np.int64(1)} | Victoria and Albert Museum=98, Tropenmuseum=76, Museum Volkenkunde=31, Wereldmuseum Rotterdam=22
