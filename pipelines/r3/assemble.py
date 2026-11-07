@@ -533,6 +533,8 @@ def main():
     find_va = build_va(src, tree, MV, find_old, report)
     MF, find_ft = build_ft(src, tree, a.partial, report)
     fix_links(tree, report)
+    rp = os.path.join(R3, "report_r3.html")
+    if os.path.exists(rp) and '<h2 id="r3">' not in tree["report"]: tree["report"] += "\n" + open(rp).read()
     os.makedirs(out, exist_ok=True)
     for fn in glob.glob(os.path.join(out, "m-*.json")): os.remove(fn)
     byfam = collections.defaultdict(dict)
