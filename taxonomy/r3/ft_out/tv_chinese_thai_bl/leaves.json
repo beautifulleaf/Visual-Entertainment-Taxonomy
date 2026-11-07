@@ -1,0 +1,846 @@
+{
+ "subs": [
+  {
+   "code": "B4",
+   "label": "Chinese-Language Drama",
+   "axis": "Axis: by genre tradition, costume and mythic genres first (epic, palace, intrigue, case, romance, time travel, wuxia, xianxia, xuanhuan, shenmo), then the Republican and state genres, then modern romance traditions, TVB last",
+   "leaves": [
+    {
+     "code": "B4-1",
+     "label": "Historical Epic Drama",
+     "breadth": "medium",
+     "defn": "A serial that dramatises recorded dynastic history or a classic of Chinese literature at epic scale, statecraft and great events foremost and invented romance secondary (<i>Romance of the Three Kingdoms</i>, <i>The Qin Empire</i>, <i>Ming Dynasty in 1566</i>, <i>A Dream of Red Mansions</i>). A fictional court with romantic leads goes to B4-5; schemers in a fictional court go to B4-3.",
+     "aliases": "lishi zhengju (orthodox historical drama); classic-novel adaptation",
+     "see": "B4-3 Court Intrigue Drama; A8 Historical & Period Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Historical_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Chinese_television_drama",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B4-2",
+     "label": "Palace Drama",
+     "breadth": "narrow",
+     "defn": "A costume serial whose engine is the rivalry of consorts, empresses and palace women in the imperial harem, rising through scheming and survival (<i>Empresses in the Palace</i>, <i>Story of Yanxi Palace</i>, <i>Ruyi's Royal Love in the Palace</i>, <i>Legend of Mi Yue</i>). Male ministers and princes plotting for the throne go to B4-3.",
+     "aliases": "gongdou (palace fighting); harem drama",
+     "see": "B4-3 Court Intrigue Drama; B4-5 Costume Romance; B4-21 TVB Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Empresses_in_the_Palace",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Story_of_Yanxi_Palace",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B4-3",
+     "label": "Court Intrigue Drama",
+     "breadth": "narrow",
+     "defn": "A costume serial driven by political scheming for power, succession or revenge at court, with a strategist hero at its centre (<i>Nirvana in Fire</i>, <i>The Advisors Alliance</i>, <i>Joy of Life</i>, <i>The Longest Day in Chang'an</i>). Harem rivalry among women goes to B4-2; romance first goes to B4-5.",
+     "aliases": "quanmou (power-strategy drama)",
+     "see": "B4-2 Palace Drama; B4-1 Historical Epic Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Nirvana_in_Fire",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Joy_of_Life_(TV_series)",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B4-4",
+     "label": "Gong'an & Costume Detective Drama",
+     "breadth": "narrow",
+     "defn": "A costume serial built on cases solved by a magistrate, coroner or detective in imperial China, one or several cases per arc (<i>Justice Bao</i>, <i>The Imperial Coroner</i>, <i>Strange Tales of Tang Dynasty</i>, <i>Luoyang</i>). A jianghu swordsman solving mysteries goes to B4-7.",
+     "aliases": "gong'an fiction; costume mystery; ancient detective drama",
+     "see": "B4-3 Court Intrigue Drama; B7 Crime & Thriller Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Gong%27an_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Detective_Dee",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B4-5",
+     "label": "Costume Romance",
+     "breadth": "broad",
+     "defn": "A guzhuang serial set in imperial or invented dynastic China whose engine is the central love story, intrigue and history serving it (<i>Love Like the Galaxy: Part 1</i>, <i>The Story of Ming Lan</i>, <i>Blossoms in Adversity</i>, <i>Dawn Is Breaking</i>). Immortals and cultivation go to B4-8; a modern heroine thrown into the past goes to B4-6.",
+     "aliases": "guzhuang yanqing ju; costume drama; period romance",
+     "see": "B4-2 Palace Drama; B4-6 Time-Travel Drama; B4-8 Xianxia Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Costume_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/The_Story_of_Ming_Lan",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the engine of the love story: court romance, household rivalry, rebirth and revenge, the general and the frontier, the heroine's enterprise, comedy last",
+     "secs": [
+      "Royal & Court Romance",
+      "House-Fighting Drama (Zhaidou)",
+      "Rebirth & Revenge Romance",
+      "General & Frontier Romance",
+      "Heroine's Enterprise & Farming Drama (Zhongtian)",
+      "Costume Romantic Comedy"
+     ]
+    },
+    {
+     "code": "B4-6",
+     "label": "Time-Travel Drama",
+     "breadth": "medium",
+     "defn": "A serial whose premise is a protagonist displaced in time or into a fictional world, the gap between eras or texts being the engine (<i>Scarlet Heart</i>, <i>Go Princess, Go!</i>, <i>Romance of a Twin Flower</i>, <i>Back to Seventeen</i>). Supernatural lovers without displacement go to B4-20.",
+     "aliases": "chuanyue (crossing over); chuanshu (transmigration into a book); time-slip",
+     "see": "B4-5 Costume Romance; B4-20 Romantic Fantasy Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Time_travel_romance",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Time_travel_in_fiction",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by where the traveller lands: inside a novel or game, the dynastic past, a younger self in modern times",
+     "secs": [
+      "Transmigration into Fiction (Chuanshu)",
+      "Costume Time-Slip & Palace Time Travel",
+      "Modern Time-Slip & Rebirth Romance"
+     ]
+    },
+    {
+     "code": "B4-7",
+     "label": "Wuxia Drama",
+     "breadth": "medium",
+     "defn": "A serial of martial heroes in the jianghu, the world of sects, swordsmen and codes of honour, with martial skill realistic rather than magical (<i>The Legend of the Condor Heroes</i>, <i>Laughing in the Wind</i>, <i>Legend of Fei</i>, <i>Mysterious Lotus Casebook</i>). Immortals and cultivation go to B4-8.",
+     "aliases": "wuxia; jianghu drama; martial-arts drama",
+     "see": "B4-8 Xianxia Drama; A7 Action & Martial Arts",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Wuxia",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Jianghu",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by source: Jin Yong canon first, other classic authors, jianghu romance, original wuxia adventure last",
+     "secs": [
+      "Jin Yong Adaptations",
+      "Gu Long & Classic Wuxia Authors",
+      "Jianghu Romance",
+      "Original Wuxia Adventure"
+     ]
+    },
+    {
+     "code": "B4-8",
+     "label": "Xianxia Drama",
+     "breadth": "medium",
+     "defn": "A serial of immortals, gods, demons and cultivators in a Daoist-mythic cosmos, often across several lifetimes (<i>Eternal Love</i>, <i>Ashes of Love</i>, <i>Love between Fairy and Devil</i>, <i>Till the End of the Moon</i>). Secondary-world empires without Daoist cosmology go to B4-9; the Journey-to-the-West mythology goes to B4-10.",
+     "aliases": "xianxia; immortal-hero drama",
+     "see": "B4-9 Xuanhuan Drama; B4-10 Shenmo Drama; B5-11 Danmei Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Xianxia",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Xianxia_novel",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by engine: immortal romance across lives, cultivation and sect adventure, demon and spirit romance, comedy last",
+     "secs": [
+      "Immortal & Three-Lives Romance",
+      "Cultivation & Sect Adventure",
+      "Demon & Spirit Romance",
+      "Xianxia Comedy"
+     ]
+    },
+    {
+     "code": "B4-9",
+     "label": "Xuanhuan Drama",
+     "breadth": "narrow",
+     "defn": "A serial set in an invented secondary world of magic, races and empires, high fantasy not bound to Daoist cosmology (<i>Novoland: Eagle Flag</i>, <i>Ice Fantasy</i>, <i>Ever Night</i>, <i>Douluo Continent</i>). Immortals and heavens go to B4-8.",
+     "aliases": "xuanhuan; Eastern fantasy",
+     "see": "B4-8 Xianxia Drama; B9 Speculative Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Xuanhuan",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Novoland:_Eagle_Flag",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B4-10",
+     "label": "Shenmo Drama",
+     "breadth": "narrow",
+     "defn": "A serial adapting the gods-and-demons classics and folk legends of China (<i>Journey to the West</i>, <i>Feng Shen Bang</i>, <i>The Legend of White Snake</i>, <i>Butterfly Lovers</i>). Original immortal romances go to B4-8.",
+     "aliases": "shenmo (gods and demons); folk-legend drama",
+     "see": "B4-8 Xianxia Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Shenmo_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Journey_to_the_West_(1986_TV_series)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Legend_of_the_White_Snake",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B4-11",
+     "label": "Republican-Era Drama",
+     "breadth": "medium",
+     "defn": "A serial set in the Republic of China (1912–1949) whose engine is the period itself: warlords, Shanghai glamour, opera troupes and adventure (<i>Winter Begonia</i>, <i>The Mystic Nine</i>, <i>Siege in Fog</i>, <i>White Deer Plain</i>). Spies of the period go to B4-12.",
+     "aliases": "minguo ju",
+     "see": "B4-12 Spy Drama; B4-13 Main-Melody Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Republic_of_China_(1912%E2%80%931949)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Mystic_Nine",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by engine: literary saga, romance, mystery and adventure",
+     "secs": [
+      "Literary & Family Saga",
+      "Republican Romance",
+      "Republican Mystery & Adventure"
+     ]
+    },
+    {
+     "code": "B4-12",
+     "label": "Spy Drama",
+     "breadth": "narrow",
+     "defn": "A serial of undercover agents in the Republican and anti-Japanese war years, the double life and its unmasking the engine (<i>Lurk</i>, <i>Rookie Agent Rouge</i>, <i>All Quiet in Peking</i>, <i>Silent Honor</i>). A war-front epic goes to B4-13.",
+     "aliases": "diezhan ju (espionage drama)",
+     "see": "B4-11 Republican-Era Drama; B4-13 Main-Melody Drama; B7 Crime & Thriller Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Lurk_(TV_series)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Spy_fiction",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B4-13",
+     "label": "Main-Melody Drama",
+     "breadth": "medium",
+     "defn": "A state-endorsed serial celebrating the Party, the revolution, the army or a national achievement (<i>Awakening Age</i>, <i>Minning Town</i>, <i>Across the Yalu River</i>, <i>Ace Troops</i>). Spies go to B4-12; Republican romance goes to B4-11.",
+     "aliases": "zhuxuanlü",
+     "see": "B4-12 Spy Drama; B4-1 Historical Epic Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Main_melody",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Minning_Town",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by subject: revolutionary history and leaders, war, the army today, reform and national achievement",
+     "secs": [
+      "Revolutionary History & Leaders",
+      "War History",
+      "PLA Military Drama",
+      "Reform, Poverty Alleviation & National Achievement"
+     ]
+    },
+    {
+     "code": "B4-14",
+     "label": "Qiong Yao Drama",
+     "breadth": "narrow",
+     "defn": "A serial adapted from or produced by the novelist Qiong Yao, the canon of tearful romance and its comic costume offshoots (<i>Princess Pearl</i>, <i>Romance in the Rain</i>, <i>Love in the Rain</i>). Later Taiwanese idol drama goes to B4-15.",
+     "aliases": "Chiung Yao drama",
+     "see": "B4-15 Taiwanese Idol Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Chiung_Yao",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Princess_Pearl",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B4-15",
+     "label": "Taiwanese Idol Drama",
+     "breadth": "medium",
+     "defn": "A Taiwanese romance serial of the idol-drama tradition, young pop-star leads in a glossy love story often adapted from manga (<i>Meteor Garden</i>, <i>It Started with a Kiss</i>, <i>Hana Kimi</i>, <i>In Time with You</i>). Taiwanese BL goes to B5-9.",
+     "aliases": "ouxiang ju; Taiwanese drama; TW-drama",
+     "see": "B4-16 Idol Drama; B2 Korean Drama; B3 Japanese Television Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Taiwanese_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Meteor_Garden_(2001_TV_series)",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by engine, idol era first: manga and remake idol drama, romantic comedy, melodrama, idol fantasy, post-idol romance last",
+     "secs": [
+      "Manga & Remake Idol Drama",
+      "Idol Romantic Comedy",
+      "Idol Melodrama",
+      "Idol Fantasy",
+      "Post-Idol Taiwanese Romance"
+     ]
+    },
+    {
+     "code": "B4-16",
+     "label": "Idol Drama",
+     "breadth": "medium",
+     "defn": "A mainland romance serial of the idol-drama mode, young leads in a sweet, low-conflict love story (<i>Well-Intended Love</i>, <i>Boss & Me</i>, <i>Hello Mr. Right</i>). Adult workplace and marriage dramas go to B4-17; school settings go to B4-18.",
+     "aliases": "ouxiang ju; tianchong (sweet pet drama); C-drama romance",
+     "see": "B4-15 Taiwanese Idol Drama; B4-17 Urban Romance Drama; B4-18 Youth Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Chinese_television_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Love_O2O",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by premise: pure sweet romance first, the domineering CEO, contract and hidden identity, entertainment industry",
+     "secs": [
+      "Sweet Romance (Tianchong)",
+      "CEO & Rich-Heir Romance (Bazong)",
+      "Contract & Hidden-Identity Romance",
+      "Entertainment-Industry Romance"
+     ]
+    },
+    {
+     "code": "B4-17",
+     "label": "Urban Romance Drama",
+     "breadth": "medium",
+     "defn": "A mainland serial of adult lives in the city, love bound up with career, profession, marriage or family (<i>The Rational Life</i>, <i>You Are My Hero</i>, <i>Best Choice Ever</i>, <i>Love in the Edge of Divorce</i>). Young sweet romance goes to B4-16.",
+     "aliases": "dushi qinggan ju (urban emotional drama); urban drama",
+     "see": "B4-16 Idol Drama; B1 Drama Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Chinese_television_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Ode_to_Joy_(TV_series)",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the second engine beside love: the office, a profession, marriage and family",
+     "secs": [
+      "Workplace Romance",
+      "Professional Romance",
+      "Marriage & Family Drama"
+     ]
+    },
+    {
+     "code": "B4-18",
+     "label": "Youth Drama",
+     "breadth": "medium",
+     "defn": "A mainland coming-of-age serial of school or university years, first love and friendship before adulthood (<i>A Love So Beautiful</i>, <i>With You</i>, <i>When I Fly Towards You</i>, <i>Hidden Love</i>). Sports-team stories go to B4-19.",
+     "aliases": "qingchun ju; campus drama",
+     "see": "B4-16 Idol Drama; B4-19 Sports & Esports Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Coming-of-age_story",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/A_Love_So_Beautiful",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by setting: high school, college",
+     "secs": [
+      "High-School Youth Drama",
+      "College Youth Drama"
+     ]
+    },
+    {
+     "code": "B4-19",
+     "label": "Sports & Esports Drama",
+     "breadth": "narrow",
+     "defn": "A serial whose engine is competition in a sport or a video game, romance and rivalry riding on training and tournaments (<i>The Whirlwind Girl</i>, <i>Skate Into Love</i>, <i>Gank Your Heart</i>, <i>Love O2O</i>). Campus life without competition goes to B4-18.",
+     "aliases": "sports drama; e-sports drama",
+     "see": "B4-18 Youth Drama; B4-16 Idol Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Sports_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Esports",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by arena: physical sport, esports and online gaming",
+     "secs": [
+      "Athletic Sports Drama",
+      "Esports & Gaming Drama"
+     ]
+    },
+    {
+     "code": "B4-20",
+     "label": "Romantic Fantasy Drama",
+     "breadth": "narrow",
+     "defn": "A modern-day mainland romance with one supernatural element, a spirit, alien, mermaid or curse, at its centre (<i>My Girlfriend Is an Alien</i>, <i>I Cannot Hug You</i>, <i>The Fox's Summer</i>, <i>Love Me in Three Days</i>). Displacement in time goes to B4-6; immortals in mythic worlds go to B4-8.",
+     "aliases": "modern fantasy romance",
+     "see": "B4-6 Time-Travel Drama; B9 Speculative Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Romantic_fantasy",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B4-21",
+     "label": "TVB Drama",
+     "breadth": "medium",
+     "defn": "A Hong Kong serial in the house tradition of Television Broadcasts Limited, the 20-to-30-episode Cantonese drama of cops, professionals and family empires (<i>Line Walker</i>, <i>Forensic Heroes</i>, <i>Moonlight Resonance</i>, <i>War and Beauty</i>). TVB wuxia goes to B4-7.",
+     "aliases": "Hong Kong drama; HK drama; Cantonese drama",
+     "see": "B4-7 Wuxia Drama; B7 Crime & Thriller Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/TVB",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Hong_Kong_television_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Line_Walker",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by house genre: police and crime, professional drama, family and business saga, costume drama, supernatural and comedy last",
+     "secs": [
+      "Police & Crime Drama",
+      "Professional Drama",
+      "Family & Business Saga",
+      "Costume Drama",
+      "Supernatural & Comedy Drama"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "B5",
+   "label": "Boys' Love & Girls' Love Drama",
+   "axis": "Axis: by national tradition, Thai BL subdivided by its narrative engine, GL last",
+   "leaves": [
+    {
+     "code": "B5-1",
+     "label": "Thai Campus BL",
+     "breadth": "medium",
+     "defn": "A Thai BL (Y series) love story set among students, the faculty, the hazing senior and the dorm its stage (<i>SOTUS</i>, <i>2gether</i>, <i>Bad Buddy</i>, <i>I Told Sunset about You</i>). Thai BL among working adults goes to B5-2.",
+     "aliases": "Y series; Thai university BL; campus BL",
+     "see": "B5-2 Thai Workplace & Adult BL; B5-8 Korean BL Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Y_series",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/2gether:_The_Series",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/SOTUS",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by school level: university first, high school, campus sports and bands",
+     "secs": [
+      "University BL",
+      "High-School BL",
+      "Campus Sports & Band BL"
+     ]
+    },
+    {
+     "code": "B5-2",
+     "label": "Thai Workplace & Adult BL",
+     "breadth": "medium",
+     "defn": "A Thai BL series about working adults, love tied to the office, a profession, showbiz, a shop or a contract (<i>Lovely Writer</i>, <i>Step by Step</i>, <i>Moonlight Chicken</i>, <i>Last Twilight</i>). Students go to B5-1; gangsters go to B5-3.",
+     "aliases": "office BL; Y series",
+     "see": "B5-1 Thai Campus BL; B5-7 Japanese BL Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Y_series",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Boys%27_love_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the world the lovers work in: office, profession, showbiz and creative work, food and shop, contract and fake relationship, adult romance last",
+     "secs": [
+      "Office & Boss BL",
+      "Professional BL",
+      "Showbiz & Creative-World BL",
+      "Food, Shop & Small-Town BL",
+      "Fake-Boyfriend & Contract BL",
+      "Adult Romance BL"
+     ]
+    },
+    {
+     "code": "B5-3",
+     "label": "Mafia & Action BL",
+     "breadth": "narrow",
+     "defn": "A Thai BL series built on gangs, bodyguards, mafia families or fighters, violence and loyalty driving the romance (<i>KinnPorsche</i>, <i>Never Let Me Go</i>, <i>The Heart Killers</i>, <i>Not Me</i>). Murder mysteries go to B5-4.",
+     "aliases": "mafia BL",
+     "see": "B5-4 BL Thriller & Horror; B7 Crime & Thriller Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/KinnPorsche",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B5-4",
+     "label": "BL Thriller & Horror",
+     "breadth": "narrow",
+     "defn": "A Thai BL series whose engine is a murder case, a killer or a horror, the romance inside a suspense plot (<i>Manner of Death</i>, <i>Dead Friend Forever - DFF</i>, <i>Khemjira</i>, <i>The Effect</i>). Ghost romance without dread goes to B5-5.",
+     "aliases": "BL mystery; BL horror",
+     "see": "B5-3 Mafia & Action BL; B7 Crime & Thriller Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Boys%27_love_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Y_series",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B5-5",
+     "label": "Fantasy & Period BL",
+     "breadth": "medium",
+     "defn": "A Thai BL series with a supernatural, time-crossing or historical premise (<i>Until We Meet Again</i>, <i>Be My Favorite</i>, <i>Love in the Moonlight</i>, <i>OMG! Vampire</i>). Horror goes to B5-4.",
+     "aliases": "supernatural BL; period BL",
+     "see": "B5-4 BL Thriller & Horror; B9 Speculative Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Until_We_Meet_Again_(TV_series)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Y_series",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by premise: ghosts and the supernatural, time and reincarnation, period and royal settings, creatures and omegaverse",
+     "secs": [
+      "Ghost & Supernatural BL",
+      "Time-Slip & Reincarnation BL",
+      "Period & Royal BL",
+      "Vampire, Creature & Omegaverse BL"
+     ]
+    },
+    {
+     "code": "B5-6",
+     "label": "Japanese BL Drama",
+     "breadth": "medium",
+     "defn": "A Japanese boys' love television drama, usually a late-night adaptation of BL manga (<i>Ossan's Love</i>, <i>Cherry Magic! Thirty Years of Virginity Can Make You a Wizard?!</i>, <i>My Beautiful Man</i>, <i>What Did You Eat Yesterday?</i>). Japanese GL goes to B5-11.",
+     "aliases": "BL dorama; boys' love drama",
+     "see": "B3 Japanese Television Drama; B5-11 GL Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Boys%27_love_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Ossan%27s_Love",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/What_Did_You_Eat_Yesterday%3F",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by setting: office and adult life first, school and youth, fantasy, BL parody, yakuza and crime last",
+     "secs": [
+      "Office & Adult Romance",
+      "School & Youth BL",
+      "Fantasy & Supernatural BL",
+      "BL Parody & Meta-Comedy",
+      "Yakuza & Crime BL"
+     ]
+    },
+    {
+     "code": "B5-7",
+     "label": "Korean BL Drama",
+     "breadth": "medium",
+     "defn": "A Korean boys' love series, mostly short web-born drama adapted from webtoons and web novels (<i>Semantic Error</i>, <i>To My Star</i>, <i>Light on Me</i>, <i>Painter of the Night</i>). Korean GL goes to B5-11.",
+     "aliases": "Korean BL web drama; K-BL",
+     "see": "B2 Korean Drama; B5-6 Japanese BL Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Boys%27_love_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Korean_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by setting: school and campus first, office and adult life, fantasy, sageuk last",
+     "secs": [
+      "School & Campus BL",
+      "Office & Adult BL",
+      "Fantasy & Supernatural BL",
+      "Sageuk BL"
+     ]
+    },
+    {
+     "code": "B5-8",
+     "label": "Taiwanese & Hong Kong BL",
+     "breadth": "medium",
+     "defn": "A boys' love series from Taiwan, Hong Kong or Singapore, the HIStory anthologies and their successors (<i>HIStory</i>, <i>We Best Love: No. 1 For You</i>, <i>Kiseki: Dear to Me</i>, <i>I'm a Fool for You</i>). Mainland danmei goes to B5-10.",
+     "aliases": "Taiwanese BL; Hong Kong BL",
+     "see": "B5-10 Danmei Drama; B4-15 Taiwanese Idol Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/HIStory_(TV_series)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Boys%27_love_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by tradition and engine: Taiwanese campus BL, Taiwanese adult romance, queer family and literary drama, Hong Kong BL, Singapore BL",
+     "secs": [
+      "Taiwanese Campus BL",
+      "Taiwanese Adult BL",
+      "Queer Family & Literary Drama",
+      "Hong Kong BL",
+      "Singapore BL"
+     ]
+    },
+    {
+     "code": "B5-9",
+     "label": "Filipino BL",
+     "breadth": "medium",
+     "defn": "A Philippine boys' love series, the Pinoy BL wave that began with the lockdown productions of 2020 (<i>Gameboys</i>, <i>Hello Stranger</i>, <i>Gameboys 2</i>, <i>Love at First Spike</i>). Filipino GL goes to B5-11.",
+     "aliases": "Pinoy BL",
+     "see": "B5-1 Thai Campus BL",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Gameboys",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Boys%27_love_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by production wave: the 2020–21 lockdown wave, later Pinoy BL",
+     "secs": [
+      "Lockdown-Wave Pinoy BL",
+      "Post-Pandemic Pinoy BL"
+     ]
+    },
+    {
+     "code": "B5-10",
+     "label": "Danmei Drama",
+     "breadth": "narrow",
+     "defn": "A mainland Chinese drama from the danmei tradition, uncensored early web BL or censored 'bromance' adaptations of danmei novels (<i>Addicted</i>, <i>The Untamed</i>, <i>Word of Honor</i>, <i>Guardian</i>). Taiwanese BL goes to B5-8.",
+     "aliases": "danmei; dangai (danmei adaptation); bromance drama",
+     "see": "B4-7 Wuxia Drama; B4-8 Xianxia Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Danmei",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/The_Untamed_(TV_series)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Word_of_Honor_(TV_series)",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by period and censorship: uncensored web BL, censored danmei adaptation, later modern-day BL",
+     "secs": [
+      "Uncensored Web BL (2014–2017)",
+      "Censored Danmei Adaptation",
+      "Modern-Day Danmei & BL Drama"
+     ]
+    },
+    {
+     "code": "B5-11",
+     "label": "GL Series",
+     "breadth": "medium",
+     "defn": "A girls' love series, a romance between women in the GL/yuri tradition (<i>GAP</i>, <i>Blank</i>, <i>Ayaka Is in Love with Hiroko!</i>, <i>Lulu</i>). Mixed BL and GL anthologies stay with their BL tradition.",
+     "aliases": "girls' love; GL; yuri drama",
+     "see": "B5-1 Thai Campus BL; B5-6 Japanese BL Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Girls%27_love",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Yuri_(genre)",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by tradition: Thai GL, Japanese GL, other GL traditions",
+     "secs": [
+      "Thai GL",
+      "Japanese GL",
+      "Korean, Filipino & Chinese-Language GL"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "B6",
+   "label": "Lakorn",
+   "axis": "Axis: by lakorn genre: melodrama, comedy, period and fantasy, remake, teen series",
+   "leaves": [
+    {
+     "code": "B6-1",
+     "label": "Nam Nao Lakorn",
+     "breadth": "medium",
+     "defn": "A prime-time Thai melodrama of passion, rivalry and revenge, often with the forced 'slap-kiss' romance (<i>Sawan Biang</i>, <i>Leh Ratree</i>, <i>Game Sanaeha</i>, <i>So Wayree</i>). Comic romance goes to B6-2.",
+     "aliases": "lakorn nam nao (\"rotten water\"); lakorn tob jub (slap-kiss); revenge lakorn",
+     "see": "B6-2 Romantic Comedy Lakorn; B12 Serial Drama Traditions",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Lakorn",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Thai_television_soap_opera",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B6-2",
+     "label": "Romantic Comedy Lakorn",
+     "breadth": "narrow",
+     "defn": "A Thai romance serial played for comedy, bickering couples and contrived arrangements (<i>Love at First Hate</i>, <i>Boy for Rent</i>, <i>My Husband in Law</i>, <i>My Secret Bride</i>). Melodrama goes to B6-1.",
+     "aliases": "lakorn rom-com",
+     "see": "B6-1 Nam Nao Lakorn; B6-5 Thai Teen Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Lakorn",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Romantic_comedy",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B6-3",
+     "label": "Period & Fantasy Lakorn",
+     "breadth": "narrow",
+     "defn": "A lakorn with a period setting or a supernatural premise, ghosts, time-slip or magic (<i>Love Destiny</i>, <i>Happy Birthday</i>, <i>My Cherie Amour</i>, <i>55:15 Never Too Late</i>). Thai BL with such premises goes to B5-5.",
+     "aliases": "lakorn boran; lakorn phi (ghost lakorn); jak-jak wong-wong",
+     "see": "B6-4 Thai Remake Drama; B5-5 Fantasy & Period BL",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Love_Destiny",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Lakorn",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B6-4",
+     "label": "Thai Remake Drama",
+     "breadth": "narrow",
+     "defn": "A Thai serial remaking a Korean, Taiwanese, Chinese or Japanese drama (<i>Full House</i>, <i>F4 Thailand: Boys over Flowers</i>, <i>Princess Hours</i>, <i>Kiss Me</i>). Original lakorn go to B6-1 to B6-3.",
+     "aliases": "Thai remake",
+     "see": "B2 Korean Drama; B4-15 Taiwanese Idol Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Remake",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Lakorn",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B6-5",
+     "label": "Thai Teen Drama",
+     "breadth": "narrow",
+     "defn": "A Thai series of teenagers and students, school, sport and first love, mostly from GMMTV and GTH (<i>Hormones</i>, <i>U-Prince: Brian</i>, <i>Project S: Skate Our Souls</i>, <i>Kiss</i>). Teen BL goes to B5-1.",
+     "aliases": "Thai youth series",
+     "see": "B5-1 Thai Campus BL; B10 Children's Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Teen_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Hormones_(TV_series)",
+       "Wikipedia"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

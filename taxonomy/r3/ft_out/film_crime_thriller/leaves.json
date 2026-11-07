@@ -1,0 +1,970 @@
+{
+ "subs": [
+  {
+   "code": "A2",
+   "label": "Crime",
+   "axis": "Axis: by the criminal world and engine the story is built on — organised crime and its named national cycles first, then street-crime cycles, the heist and the swindle, the law's agents, prison and courts, real and social crime; noir as a mode and crime played for laughs last",
+   "leaves": [
+    {
+     "code": "A2-1",
+     "label": "Gangster Film",
+     "breadth": "broad",
+     "defn": "A film whose protagonist is a member or boss of a criminal organisation and whose story is the gang's rise, wars and fall (<i>Little Caesar</i>, <i>Once Upon a Time in America</i>, <i>Gomorrah</i>, <i>Vada Chennai</i>). Hindi-language underworld films go to A2-2 Mumbai Noir, Japanese ones to A2-3; a film that follows the police against the mob goes to A2-15/A2-16.",
+     "aliases": "mob film; mafia film; underworld film",
+     "see": "A2-2 Mumbai Noir; A2-3 Yakuza Film; A2-25 Neo-Noir",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Gangster_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Mafia_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the criminal tradition: the classical American cycle and the mafia saga first, then crime-boss biography and the national gangster traditions",
+     "secs": [
+      "Classical Gangster Cycle",
+      "Mafia & Mob Saga",
+      "Crime-Boss Rise and Fall",
+      "British Gangster Film",
+      "European Underworld Film",
+      "South Indian Gangster Film",
+      "Triad & East Asian Gangster Film"
+     ]
+    },
+    {
+     "code": "A2-2",
+     "label": "Mumbai Noir",
+     "breadth": "narrow",
+     "defn": "A Hindi-language film of the Bombay underworld (or its Shakespearean transpositions to the gangland of the Hindi heartland), shot in a realist, violent register (<i>Satya</i>, <i>Maqbool</i>, <i>Omkara</i>). South Indian gangster sagas stay in A2-1.",
+     "aliases": "Bombay noir",
+     "see": "A2-1 Gangster Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Mumbai_noir",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A2-3",
+     "label": "Yakuza Film",
+     "breadth": "narrow",
+     "defn": "A film about the Japanese yakuza, from the ninkyo chivalry films through Fukasaku's jitsuroku and Kitano's deadpan cycle (<i>Battles Without Honor and Humanity</i>, <i>Sonatine</i>, <i>Outrage</i>).",
+     "aliases": "yakuza eiga; ninkyo eiga; jitsuroku eiga",
+     "see": "A2-1 Gangster Film; A2-24 Film Noir",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Yakuza_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A2-4",
+     "label": "Poliziottesco",
+     "breadth": "narrow",
+     "defn": "An Italian crime-action film of the 1970s cycle of violent cops, mobsters and kidnappers (<i>Caliber 9</i>, <i>Rabid Dogs</i>).",
+     "aliases": "Italian crime film; Euro-crime",
+     "see": "A2-16 Police Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Poliziottesco",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A2-5",
+     "label": "Hitman Film",
+     "breadth": "medium",
+     "defn": "A film whose protagonist is a professional killer and whose drama is the contract, its code and its cost (<i>The Mechanic</i>, <i>Ghost Dog</i>, <i>The American</i>, <i>The Killer</i>). Stylised existential killers of the Melville line sit in A2-25 Neo-Noir.",
+     "aliases": "contract-killer film; assassin film",
+     "see": "A2-25 Neo-Noir; A3-10 Revenge Thriller",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Hitman_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Contract_killing",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A2-6",
+     "label": "Drug Film",
+     "breadth": "medium",
+     "defn": "A crime film whose engine is the illegal drug trade or drug addiction: cartels and mules, the dealer's world, the junkie's crimes (<i>Traffic</i>, <i>Maria Full of Grace</i>, <i>Pusher</i>, <i>Drugstore Cowboy</i>).",
+     "aliases": "narco film; drug-trade film",
+     "see": "A2-8 Hood Film; A2-16 Police Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Drug_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Narco_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the place in the trade: the cartel and the trafficking route first, then the dealer's street world, then the addict",
+     "secs": [
+      "Cartel & Trafficking Film (Narco Film)",
+      "Dealer's-World Film",
+      "Addiction Crime Film"
+     ]
+    },
+    {
+     "code": "A2-7",
+     "label": "Blaxploitation",
+     "breadth": "narrow",
+     "defn": "A 1970s American exploitation film made for Black urban audiences, with Black heroes against the Man, pimps and pushers (<i>Shaft</i>, <i>Super Fly</i>, <i>Coffy</i>), including its horror and Afrofuturist offshoots.",
+     "aliases": "",
+     "see": "A2-8 Hood Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Blaxploitation",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A2-8",
+     "label": "Hood Film",
+     "breadth": "narrow",
+     "defn": "An African-American (or Caribbean, Latino and Black British) film of street life, gangs and drugs in the inner-city neighbourhood (<i>Boyz n the Hood</i>, <i>Menace II Society</i>, <i>Kidulthood</i>).",
+     "aliases": "'hood film",
+     "see": "A2-7 Blaxploitation; A2-22 Social Problem Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Hood_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/List_of_hood_films",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A2-9",
+     "label": "Cine Quinqui",
+     "breadth": "narrow",
+     "defn": "A Spanish film of the late-1970s/80s cycle about juvenile delinquents of the urban periphery, often cast with real delinquents (<i>Deprisa, Deprisa</i>).",
+     "aliases": "quinqui film",
+     "see": "A2-22 Social Problem Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Cine_quinqui",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A2-10",
+     "label": "Pinky Violence",
+     "breadth": "narrow",
+     "defn": "A 1970s Toei exploitation film of female gangs and avenging women prisoners (<i>Female Prisoner #701: Scorpion</i>).",
+     "aliases": "",
+     "see": "A2-19 Prison Film; A3-10 Revenge Thriller",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Pinky_violence",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A2-11",
+     "label": "Heist Film",
+     "breadth": "broad",
+     "defn": "A film built around planning and executing a robbery, told from the thieves' side (<i>Rififi</i>, <i>Ocean's Eleven</i>, <i>Heat</i>, <i>Reservoir Dogs</i>). A swindle with no break-in goes to A2-12; a standoff with hostages to A3-12.",
+     "aliases": "caper film; robbery film",
+     "see": "A2-12 Con-Artist Film; A3-12 Hostage & Siege Thriller",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Heist_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Caper_story",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the heist's engine: the meticulous caper and the ensemble crew first, then the job that goes wrong, the professional thief, action spectacle; comic heists last",
+     "secs": [
+      "Classic Caper",
+      "Ensemble Caper",
+      "Robbery Gone Wrong",
+      "Professional-Thief Film",
+      "Heist Action Spectacle",
+      "Heist Comedy"
+     ]
+    },
+    {
+     "code": "A2-12",
+     "label": "Con-Artist Film",
+     "breadth": "medium",
+     "defn": "A film whose engine is a confidence trick: grifters, swindlers and the marks they play, often with a twist that cons the viewer (<i>Nine Queens</i>, <i>House of Games</i>, <i>The Grifters</i>, <i>Focus</i>).",
+     "aliases": "con film; grifter film; swindle film",
+     "see": "A2-11 Heist Film; A2-13 White-Collar Crime Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Confidence_trick",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Caper_story",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A2-13",
+     "label": "White-Collar Crime Film",
+     "breadth": "medium",
+     "defn": "A film about crime committed by the respectable in suits: fraud, embezzlement, financial and corporate crime (<i>Wall Street</i>, <i>Boiler Room</i>, <i>Arbitrage</i>, <i>Lord of War</i>).",
+     "aliases": "financial crime film",
+     "see": "A2-12 Con-Artist Film; A3-18 Conspiracy Thriller",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/White-collar_crime",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A2-14",
+     "label": "Gambling Film",
+     "breadth": "narrow",
+     "defn": "A crime film whose world is the gambling table and the debt it creates (<i>Rounders</i>, <i>Croupier</i>, <i>Uncut Gems</i>, <i>Hard Eight</i>).",
+     "aliases": "casino film",
+     "see": "A2-12 Con-Artist Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Gambling",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A2-15",
+     "label": "Police Procedural",
+     "breadth": "broad",
+     "defn": "A film that follows police or federal investigators working a case step by step, its drama in the method of the inquiry (<i>Stray Dog</i>, <i>The Night of the 12th</i>, <i>In the Heat of the Night</i>, <i>Mississippi Burning</i>). A hunt for a serial killer goes to A3-6; a film about the cop's own conduct goes to A2-16.",
+     "aliases": "cop procedural; detective film",
+     "see": "A2-16 Police Film; A3-6 Serial-Killer Thriller",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Police_procedural",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Detective_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the investigating force: city homicide squads first, then the rural lawman, the federal agent",
+     "secs": [
+      "Homicide Investigation",
+      "Rural & Small-Town Investigation",
+      "Federal Investigation"
+     ]
+    },
+    {
+     "code": "A2-16",
+     "label": "Police Film",
+     "breadth": "broad",
+     "defn": "A film whose subject is the police officer rather than the case: the rule-breaking maverick, the corrupt cop, the undercover cop, the beat or tactical unit (<i>Dirty Harry</i>, <i>Training Day</i>, <i>Infernal Affairs</i>, <i>Elite Squad</i>).",
+     "aliases": "cop film; cop thriller",
+     "see": "A2-15 Police Procedural; A2-1 Gangster Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Police_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Police_corruption",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the cop's relation to the law: the maverick first, then corruption, life undercover, the street and tactical unit",
+     "secs": [
+      "Maverick Cop",
+      "Police Corruption",
+      "Undercover Cop",
+      "Street Unit & Tactical Police"
+     ]
+    },
+    {
+     "code": "A2-17",
+     "label": "Nordic Noir",
+     "breadth": "narrow",
+     "defn": "A Scandinavian crime film in the bleak, procedural, socially critical Nordic-noir manner (<i>The Girl with the Dragon Tattoo</i>, <i>Department Q</i>, <i>Insomnia</i> 1997).",
+     "aliases": "Scandinavian noir; Scandi noir",
+     "see": "A2-15 Police Procedural",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Nordic_noir",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A2-18",
+     "label": "Private-Eye Film",
+     "breadth": "narrow",
+     "defn": "A film whose investigator is a private detective outside the noir canon: modern and comic private eyes and gentleman sleuths (<i>Harper</i>, <i>Gone Baby Gone</i>, <i>Detective Byomkesh Bakshy!</i>, <i>Veronica Mars</i>). Classic hardboiled eyes go to A2-24 and A2-25; closed-circle puzzles to A3-1.",
+     "aliases": "private detective film; PI film",
+     "see": "A2-24 Film Noir; A3-1 Whodunit",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Private_investigator",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Hardboiled",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A2-19",
+     "label": "Prison Film",
+     "breadth": "medium",
+     "defn": "A film set inside a prison whose drama is incarceration itself: escape, survival among inmates, guard and riot (<i>The Shawshank Redemption</i>, <i>Escape from Alcatraz</i>, <i>A Prophet</i>, <i>A Man Escaped</i>).",
+     "aliases": "jail film",
+     "see": "A2-10 Pinky Violence; A2-20 Legal Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Prison_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Prison_escape",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by what the prisoner wants: out first, then survival inside, then the action brawl; political and wartime prisons last",
+     "secs": [
+      "Prison-Escape Film",
+      "Inside-Life Prison Drama",
+      "Prison Action Film",
+      "Political & Wartime Prison Film"
+     ]
+    },
+    {
+     "code": "A2-20",
+     "label": "Legal Drama",
+     "breadth": "medium",
+     "defn": "A film whose drama runs through the legal process: trial, appeal, jury and death row (<i>The Third Murder</i>, <i>The Life of David Gale</i>, <i>The Juror</i>).",
+     "aliases": "courtroom drama; legal thriller",
+     "see": "A2-19 Prison Film; A3-18 Conspiracy Thriller",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Legal_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Legal_thriller",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A2-21",
+     "label": "True-Crime Film",
+     "breadth": "broad",
+     "defn": "A dramatisation of a real crime case, centred on the criminal, the victim or the case itself rather than on a fictional investigation (<i>In Cold Blood</i>, <i>10 Rillington Place</i>, <i>Snowtown</i>, <i>Killers of the Flower Moon</i>).",
+     "aliases": "based-on-a-true-crime film",
+     "see": "A3-6 Serial-Killer Thriller; A11 Biographical Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/True_crime",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by whose story is told: the killer first, then the abducted victim, the notorious case, the swindle",
+     "secs": [
+      "Killer Portrait",
+      "Abduction & Captivity",
+      "Notorious Case",
+      "Hustle & Swindle"
+     ]
+    },
+    {
+     "code": "A2-22",
+     "label": "Social Problem Film",
+     "breadth": "broad",
+     "defn": "A crime film that presents crime as the product of a social condition, youth, gangs, slum, poverty or vice, rather than as a genre puzzle (<i>The Young and the Damned</i>, <i>City of God</i>, <i>Pickpocket</i>, <i>A Touch of Sin</i>).",
+     "aliases": "social realist crime film; juvenile-delinquency film",
+     "see": "A2-8 Hood Film; A2-9 Cine Quinqui; A16 Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Social_problem_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Juvenile_delinquency",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the social condition: youth first, then the gang, the slum, poverty and desperation; vice exposés last",
+     "secs": [
+      "Juvenile Delinquency Film",
+      "Street-Gang & Hooligan Film",
+      "Slum & Favela Crime Film",
+      "Desperation Crime Drama",
+      "Vice Exposé"
+     ]
+    },
+    {
+     "code": "A2-23",
+     "label": "Lovers-on-the-Run Film",
+     "breadth": "narrow",
+     "defn": "A film of a criminal couple in flight from the law, the outlaw road movie of <i>Bonnie and Clyde</i> (<i>You Only Live Once</i>, <i>Breathless</i> 1983, <i>True Romance</i>, <i>Ain't Them Bodies Saints</i>).",
+     "aliases": "outlaw couple film; couple-on-the-run film",
+     "see": "A2-24 Film Noir; A2-25 Neo-Noir",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Bonnie_and_Clyde_(film)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Road_movie",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A2-24",
+     "label": "Film Noir",
+     "breadth": "broad",
+     "defn": "A crime film of the classical noir period (c.1940–1960), and its pre-war precursors and contemporaries abroad, with fatalistic, shadowed visual style and doomed protagonists (<i>Double Indemnity</i>, <i>Out of the Past</i>, <i>The Asphalt Jungle</i>, <i>Touchez pas au grisbi</i>). Post-classical noir goes to A2-25.",
+     "aliases": "classic noir",
+     "see": "A2-25 Neo-Noir; A2-23 Lovers-on-the-Run Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Film_noir",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the noir plot engine: the femme fatale and the private eye first, then gang and heist noir, the wrong man, the police; the national noirs abroad last",
+     "secs": [
+      "Femme-Fatale Noir",
+      "Private-Eye Noir",
+      "Heist & Gangster Noir",
+      "Wrong-Man & Paranoid Noir",
+      "Police & Semi-Documentary Noir",
+      "French Noir",
+      "Japanese Noir",
+      "Argentine & Other International Noir"
+     ]
+    },
+    {
+     "code": "A2-25",
+     "label": "Neo-Noir",
+     "breadth": "broad",
+     "defn": "A post-classical crime film that revives noir's fatalism, moral ambiguity and stylisation (<i>Chinatown</i>, <i>Blood Simple</i>, <i>Le Samouraï</i>, <i>Drive</i>). Classical-period noir goes to A2-24.",
+     "aliases": "modern noir",
+     "see": "A2-24 Film Noir; A2-5 Hitman Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Neo-noir",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Country_noir",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the noir engine: the private eye and the femme fatale first, then country noir, the professional criminal, the payback, the dream; the national new noirs and pastiche last",
+     "secs": [
+      "Neo-Noir Private Eye",
+      "Femme-Fatale Neo-Noir",
+      "Country Noir",
+      "Professional-Criminal Neo-Noir",
+      "Payback Neo-Noir",
+      "Surreal & Dream Noir",
+      "Korean Noir",
+      "Chinese-Language Noir",
+      "Neo-Noir Pastiche"
+     ]
+    },
+    {
+     "code": "A2-26",
+     "label": "Crime Comedy",
+     "breadth": "medium",
+     "defn": "A crime film played for laughs: bungling crooks and mob farce (<i>The Pope of Greenwich Village</i>, <i>Amateur</i>, <i>Caught Stealing</i>). Comic heists stay in A2-11; most crime comedies are in A12 Comedy.",
+     "aliases": "gangster comedy; black-comedy crime film",
+     "see": "A2-11 Heist Film; A12 Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Crime_comedy",
+       "Wikipedia"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "code": "A3",
+   "label": "Thriller & Mystery",
+   "axis": "Axis: by the source of suspense — the puzzle to be solved first, then the predator, the threatened mind and home, the abduction and the trap, the hunt and the chase; the state and its secrets last",
+   "leaves": [
+    {
+     "code": "A3-1",
+     "label": "Whodunit",
+     "breadth": "broad",
+     "defn": "A mystery whose engine is the fair-play puzzle of which suspect committed the murder, solved by a detective (<i>Murder on the Orient Express</i>, <i>Gosford Park</i>, <i>Knives Out</i>). Inquiries by police squads go to A2-15.",
+     "aliases": "murder mystery; detective mystery",
+     "see": "A3-2 Inverted Detective Story; A2-18 Private-Eye Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Whodunit",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Locked-room_mystery",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the shape of the puzzle: the great detective first, then the closed circle, the comic sleuths, the modern ensemble; twist-puzzle thrillers last",
+     "secs": [
+      "Classical Detective Mystery",
+      "Closed-Circle Mystery",
+      "Comic Whodunit",
+      "Contemporary Murder Mystery",
+      "Twist-Puzzle Mystery"
+     ]
+    },
+    {
+     "code": "A3-2",
+     "label": "Inverted Detective Story",
+     "breadth": "narrow",
+     "defn": "A crime story that shows the murder and the murderer first, its suspense in the cover-up and the investigator closing in (<i>Drishyam</i>, <i>Match Point</i>, <i>A Hard Day</i>, <i>Dial M for Murder</i>).",
+     "aliases": "howcatchem",
+     "see": "A3-1 Whodunit",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Inverted_detective_story",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A3-3",
+     "label": "Mystery Film",
+     "breadth": "medium",
+     "defn": "A mystery whose enigma is not a murder puzzle but a disappearance, a buried past or a riddle, pursued by an ordinary person (<i>Bunny Lake Is Missing</i>, <i>A Simple Favor</i>, <i>The Da Vinci Code</i>, <i>Blow-Up</i>).",
+     "aliases": "enigma film",
+     "see": "A3-1 Whodunit; A3-7 Psychological Thriller",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Mystery_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the enigma: the disappearance first, then the buried past, the esoteric riddle; the unresolved art-film enigma last",
+     "secs": [
+      "Disappearance Mystery",
+      "Buried-Past Mystery",
+      "Esoteric Puzzle Mystery",
+      "Art-Film Enigma"
+     ]
+    },
+    {
+     "code": "A3-4",
+     "label": "Krimi",
+     "breadth": "narrow",
+     "defn": "A West German Edgar Wallace (or Bryan Edgar Wallace) crime-mystery film of the 1959–1972 Rialto cycle (<i>Face of the Frog</i>).",
+     "aliases": "Edgar Wallace film",
+     "see": "A3-5 Giallo; A3-1 Whodunit",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Krimi",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A3-5",
+     "label": "Giallo",
+     "breadth": "narrow",
+     "defn": "An Italian murder-mystery thriller of the 1960s–80s cycle: black-gloved killer, stylised set-piece murders, amateur sleuth (<i>Blood and Black Lace</i>, <i>The Bird with the Crystal Plumage</i>, <i>Deep Red</i>).",
+     "aliases": "gialli",
+     "see": "A3-6 Serial-Killer Thriller; A4 Horror",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Giallo",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A3-6",
+     "label": "Serial-Killer Thriller",
+     "breadth": "medium",
+     "defn": "A thriller whose engine is a serial or spree killer, followed by the hunter, the killer himself or the survivor (<i>The Silence of the Lambs</i>, <i>Zodiac</i>, <i>The Chaser</i>). Dramatised portraits of real killers go to A2-21.",
+     "aliases": "serial killer film",
+     "see": "A2-15 Police Procedural; A2-21 True-Crime Film; A3-5 Giallo",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Serial_killer",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Crime_thriller",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by whose eyes: the manhunt first, then the killer's own, then the threatened witness or survivor",
+     "secs": [
+      "Manhunt Thriller",
+      "Killer's-Eye Thriller",
+      "Witness & Survivor Thriller"
+     ]
+    },
+    {
+     "code": "A3-7",
+     "label": "Psychological Thriller",
+     "breadth": "broad",
+     "defn": "A thriller whose threat comes from the mind: a protagonist's unstable perception, a double, lost memory, obsession or a mind game played on them (<i>Vertigo</i>, <i>Memento</i>, <i>Black Swan</i>, <i>Shutter Island</i>). Threats from spouse, family or lodger go to A3-8.",
+     "aliases": "mind-game film; puzzle film",
+     "see": "A3-8 Domestic Thriller; A3-3 Mystery Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Psychological_thriller",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the source of the threat: the unreliable mind first, then the double, lost identity, obsession, the impostor; the mind game played by another last",
+     "secs": [
+      "Unreliable Mind & Breakdown",
+      "Doppelgänger & Double",
+      "Amnesia & Lost Identity",
+      "Obsession & Fixation",
+      "Impostor & Assumed Identity",
+      "Manipulation & Mind Game"
+     ]
+    },
+    {
+     "code": "A3-8",
+     "label": "Domestic Thriller",
+     "breadth": "broad",
+     "defn": "A thriller whose danger lives in the home and its intimacies: the murderous spouse, the intruder who moves in, the stalker, the poisoned family (<i>Gaslight</i>, <i>Sleeping with the Enemy</i>, <i>The Hand That Rocks the Cradle</i>, <i>Single White Female</i>). Desire-driven danger goes to A3-9..",
+     "aliases": "domestic noir; '...from hell' thriller; female Gothic",
+     "see": "A3-7 Psychological Thriller; A3-9 Erotic Thriller; A3-13 Home-Invasion Thriller",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Domestic_noir",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Female_Gothic",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Psycho-biddy",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by who threatens: the spouse first, then the intruder who moves in, the stalker, the family itself",
+     "secs": [
+      "Marriage Thriller",
+      "Intruder from Hell",
+      "Stalker Thriller",
+      "Family-Secret Thriller"
+     ]
+    },
+    {
+     "code": "A3-9",
+     "label": "Erotic Thriller",
+     "breadth": "medium",
+     "defn": "A thriller in which sexual desire is the engine of danger and crime (<i>Body Heat</i>, <i>Fatal Attraction</i>, <i>Basic Instinct</i>, <i>The Handmaiden</i>).",
+     "aliases": "",
+     "see": "A3-8 Domestic Thriller; A2-25 Neo-Noir; A15 Erotic Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Erotic_thriller",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the shape of the danger: the femme fatale first, then the obsessive affair, voyeurism, the art-house variant; sexual power games last",
+     "secs": [
+      "Femme-Fatale Erotic Thriller",
+      "Obsessive-Affair Thriller",
+      "Voyeur Thriller",
+      "Art-House Erotic Thriller",
+      "Sexual-Power Thriller"
+     ]
+    },
+    {
+     "code": "A3-10",
+     "label": "Revenge Thriller",
+     "breadth": "broad",
+     "defn": "A thriller whose engine is the protagonist's vengeance for a wrong (<i>Death Wish</i>, <i>Oldboy</i>, <i>I Spit on Your Grave</i>, <i>Blue Ruin</i>).",
+     "aliases": "revenge film; vengeance thriller",
+     "see": "A2-5 Hitman Film; A7 Action & Martial Arts",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Revenge_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Vigilante_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Rape_and_revenge_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the shape of the vengeance: the Korean revenge cycle first, then the vigilante, rape and revenge, the personal vendetta; the revenge action spree last",
+     "secs": [
+      "Korean Revenge Thriller",
+      "Vigilante Film",
+      "Rape-and-Revenge Film",
+      "Vendetta Thriller",
+      "Revenge Action Thriller"
+     ]
+    },
+    {
+     "code": "A3-11",
+     "label": "Kidnapping Thriller",
+     "breadth": "medium",
+     "defn": "A thriller whose engine is an abduction: the ransom demand, the frantic search, or the captive's ordeal (<i>High and Low</i>, <i>Ransom</i>, <i>Prisoners</i>, <i>Misery</i>).",
+     "aliases": "abduction thriller",
+     "see": "A3-12 Hostage & Siege Thriller; A2-21 True-Crime Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Kidnapping",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the kidnapper's aim: ransom first, then abduction and the search, then captivity",
+     "secs": [
+      "Ransom Kidnapping",
+      "Abduction & Search",
+      "Captivity Thriller"
+     ]
+    },
+    {
+     "code": "A3-12",
+     "label": "Hostage & Siege Thriller",
+     "breadth": "medium",
+     "defn": "A thriller of a standoff: hostages taken, a building besieged, a plane or train hijacked (<i>The Negotiator</i>, <i>Toy Soldiers</i>, <i>Captain Phillips</i>, <i>The Taking of Pelham One Two Three</i>).",
+     "aliases": "siege film; hijack thriller",
+     "see": "A2-11 Heist Film; A3-13 Home-Invasion Thriller",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Hostage",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Siege",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the place held: the standoff first, then the siege, then the hijacked vehicle",
+     "secs": [
+      "Hostage Standoff",
+      "Siege Film",
+      "Hijacking & In-Transit Thriller"
+     ]
+    },
+    {
+     "code": "A3-13",
+     "label": "Home-Invasion Thriller",
+     "breadth": "narrow",
+     "defn": "A thriller in which intruders break into a home and hold or hunt its occupants (<i>Panic Room</i>, <i>Cold Creek Manor</i>, <i>Borgman</i>).",
+     "aliases": "home invasion film",
+     "see": "A3-12 Hostage & Siege Thriller; A4 Horror",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Home_invasion",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A3-14",
+     "label": "Survival Thriller",
+     "breadth": "broad",
+     "defn": "A thriller of staying alive against nature, a pursuer or a trap (<i>Deliverance</i>, <i>Duel</i>, <i>Buried</i>, <i>Alive</i>).",
+     "aliases": "survival film",
+     "see": "A3-15 Death Game Film; A6 Fantasy & Adventure",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Survival_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the hostile space: wilderness first, then the road and its pursuers, the water, the confined trap; escape from civil unrest last",
+     "secs": [
+      "Wilderness Survival",
+      "Road & Pursuit Terror",
+      "Sea & River Survival",
+      "Trapped & Confined",
+      "Escape from Unrest"
+     ]
+    },
+    {
+     "code": "A3-15",
+     "label": "Death Game Film",
+     "breadth": "narrow",
+     "defn": "A film in which people are forced into a lethal game or contest with rules (<i>Battle Royale</i>, <i>The Hunger Games</i>, <i>Cube</i>, <i>Escape Room</i>), including the human hunt of <i>The Most Dangerous Game</i>.",
+     "aliases": "death game; survival game film",
+     "see": "A3-14 Survival Thriller; A5 Science Fiction",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Death_game",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A3-16",
+     "label": "Real-Time Thriller",
+     "breadth": "narrow",
+     "defn": "A thriller whose suspense depends on unfolding in (near) real time in a confined frame, a phone line, a screen or a race against the clock (<i>Phone Booth</i>, <i>The Guilty</i>, <i>Run Lola Run</i>, <i>Profile</i>).",
+     "aliases": "ticking-clock thriller; screenlife thriller",
+     "see": "A3-12 Hostage & Siege Thriller",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Real_time_(media)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Screenlife",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A3-17",
+     "label": "Wrong-Man Thriller",
+     "breadth": "medium",
+     "defn": "A Hitchcockian thriller of an innocent accused or mistaken for someone else, who must flee and prove his innocence (<i>The 39 Steps</i>, <i>North by Northwest</i>, <i>The Fugitive</i>, <i>Tell No One</i>).",
+     "aliases": "innocent-on-the-run thriller; Hitchcockian thriller",
+     "see": "A3-21 Spy Film; A2-24 Film Noir",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Hitchcockian",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/The_Wrong_Man",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A3-18",
+     "label": "Conspiracy Thriller",
+     "breadth": "broad",
+     "defn": "A thriller in which the protagonist uncovers a hidden plot by the powerful, the state, corporations or secret societies (<i>The Parallax View</i>, <i>All the President's Men</i>, <i>The Insider</i>, <i>Enemy of the State</i>).",
+     "aliases": "paranoid thriller; conspiracy film",
+     "see": "A3-19 Political Thriller; A3-21 Spy Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Conspiracy_thriller",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Paranoid_thriller",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by who conspires: the shadowy cabal of the paranoid thriller first, then corporations, then the press investigation, then the state cover-up",
+     "secs": [
+      "Paranoid Thriller",
+      "Corporate & Whistleblower Thriller",
+      "Investigative-Journalism Thriller",
+      "Government Cover-Up"
+     ]
+    },
+    {
+     "code": "A3-19",
+     "label": "Political Thriller",
+     "breadth": "broad",
+     "defn": "A thriller whose stakes are political power itself: assassination, terrorism, military crisis, dictatorship, intrigue (<i>Z</i>, <i>The Day of the Jackal</i>, <i>The Lives of Others</i>, <i>Conclave</i>).",
+     "aliases": "",
+     "see": "A3-18 Conspiracy Thriller; A3-21 Spy Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Political_thriller",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the political threat: assassination first, then terror, military and nuclear crisis, dictatorship; intrigue for office last",
+     "secs": [
+      "Assassination Thriller",
+      "Terrorism & Counter-Terror",
+      "Military & Nuclear Crisis",
+      "Dictatorship & Repression",
+      "Power & Political Intrigue"
+     ]
+    },
+    {
+     "code": "A3-20",
+     "label": "Techno-Thriller",
+     "breadth": "narrow",
+     "defn": "A thriller whose engine is a technology: hacking, surveillance, AI, computer crime (<i>The Net</i>, <i>Blackhat</i>, <i>Eagle Eye</i>, <i>Who Am I</i>).",
+     "aliases": "",
+     "see": "A3-18 Conspiracy Thriller; A5 Science Fiction",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Techno-thriller",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "A3-21",
+     "label": "Spy Film",
+     "breadth": "broad",
+     "defn": "A film about espionage: agents, moles and covert operations for a state (<i>Notorious</i>, <i>The Spy Who Came in from the Cold</i>, <i>Dr. No</i>, <i>Tinker Tailor Soldier Spy</i>).",
+     "aliases": "espionage film; spy thriller",
+     "see": "A3-22 Spy Comedy; A3-18 Conspiracy Thriller",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Spy_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Spy_thriller",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the spy's war: the World Wars first, then the Cold War, the spy-action franchise, the covert operation, today's intelligence world; the inter-Korean spy film last",
+     "secs": [
+      "Wartime Espionage",
+      "Cold War Espionage",
+      "Spy-Action Franchise",
+      "Covert-Operation Film",
+      "Modern Intelligence Thriller",
+      "Inter-Korean Espionage Film"
+     ]
+    },
+    {
+     "code": "A3-22",
+     "label": "Spy Comedy",
+     "breadth": "narrow",
+     "defn": "A spy film played for laughs or as a parody of the genre (<i>The Tall Blond Man with One Black Shoe</i>, <i>True Lies</i>, <i>Spy</i>, <i>Kingsman</i>).",
+     "aliases": "spy parody",
+     "see": "A3-21 Spy Film; A12 Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Spy_comedy",
+       "Wikipedia"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

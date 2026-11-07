@@ -145,6 +145,24 @@ def classify(x):
     k, s = fallback(x)
     return k, s, "", ""
 
+def subsec(x, k, s):
+    t, g = tags(x), gen(x); H = lambda *a: any(z in t for z in a)
+    if k == "fantasy" and s in (0, 1):
+        if H("Isekai", "Video Games", "Dungeon", "Medieval", "Elf", "Reincarnation"): s = 3
+        elif H("Vampire", "Youkai", "Ghost", "Mythology", "Afterlife") and not H("Demons"): s = 2
+        elif H("Witch") or (H("Magic") and not H("Demons", "Gods", "Angels")): s = 4
+        else: s = 1
+    if k == "scifi" and s == 0:
+        if H("Space"): s = 3
+        elif H("Aliens"): s = 1
+        elif H("Robots", "Artificial Intelligence", "Medicine", "Cyborg"): s = 2
+        else: s = 4
+    if k == "family" and s == 0:
+        if "Fantasy" in g or "Supernatural" in g or "Sci-Fi" in g or H("Witch", "Magic"): s = 3
+        elif H("Parenthood", "Adoption", "Found Family", "Age Gap", "Maids", "Primarily Child Cast") and not H("Twins"): s = 1
+        else: s = 2
+    return k, s
+
 res = []
 for x in rows:
     o = OVR.get(x["id"])
@@ -152,6 +170,7 @@ for x in rows:
         k, s, see, note = (list(o) + ["", "", ""])[:4] if isinstance(o, tuple) else (o, 0, "", "")
     else:
         k, s, see, note = classify(x)
+    k, s = subsec(x, k, s)
     route = ""
     if k.startswith("ROUTE:"):
         route = k[6:]; leaf = ""; s = 0

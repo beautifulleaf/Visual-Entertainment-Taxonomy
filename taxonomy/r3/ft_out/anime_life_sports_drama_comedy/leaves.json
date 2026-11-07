@@ -173,6 +173,12 @@
        "https://en.wikipedia.org/wiki/Sitcom",
        "Wikipedia"
       ]
+     ],
+     "axis": "by the household: parents and found families, siblings and household comedies, supernatural and fantasy households",
+     "secs": [
+      "Parents & Found Families",
+      "Siblings & Household Comedies",
+      "Supernatural & Fantasy Households"
      ]
     },
     {
@@ -896,6 +902,13 @@
        "https://en.wikipedia.org/wiki/Science_fiction_comedy",
        "Wikipedia"
       ]
+     ],
+     "axis": "by the science-fiction premise: alien visitors and invaders, robots androids and the body, space crews and space opera, time travel and other premises",
+     "secs": [
+      "Alien Visitors & Invaders",
+      "Robots, Androids & the Body",
+      "Space Crews & Space-Opera Comedy",
+      "Time Travel & Other Premises"
      ]
     },
     {
