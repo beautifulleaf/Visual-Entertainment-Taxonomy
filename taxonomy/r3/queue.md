@@ -14,4 +14,4 @@ To do at assembly:
 - Done VA: bucket_modern_world (10 new leaves, 405 moved).
 - Merge fixes at assembly: duplicate artists "M'hamed Issiakhem" = "Mohammed Issiakhem (1928-1985)"; "Kamala Ibrahim Ishag" = "Kamala Ibrahim Ishaq" (Crystalist); new leaves with the same label across passes merge by label (Gutai, Feminist art); check Margaret Mellis and Joseph Uhl (Western European, left in a "Europe" group).
 - Verify all `catalogues` URLs (passes picked many from memory).
-- TSPDT Starting List (owner): harvest it fully (tspdt_starting_list), then place every Starting List film not already selected — a placement step after coverage (likely several passes by sub-family, depending on how many films are new).
+- TSPDT Starting List (owner): harvest it fully (tspdt_starting_list, and the 21st Century Starting List tspdt_21st_starting_list), then place every Starting List film not already selected — a placement step after coverage (likely several passes by sub-family, depending on how many films are new).
