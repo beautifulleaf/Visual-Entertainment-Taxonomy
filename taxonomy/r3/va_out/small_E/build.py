@@ -58,9 +58,9 @@ mould mold wall floor roof eave end funerary cinerary urn burial ceremonial ritu
 earthenware stoneware porcelain glazed glaze unglazed celadon blue white green brown black red yellow turquoise cobalt polychrome monochrome painted underglaze overglaze enamelled enameled
 incised carved moulded molded stamped impressed decorated decoration design designs type style ware wares in on for from or to as fritware stonepaste lustre luster lustreware
 chawan mizusashi chaire tokkuri hanaike kogo kōgō futamono mukozuke mukōzuke sara hachi tsubo kame wan jarra plato olla cuenco vasija cazuela cántaro
-object objects item model tablet sample samples specimen specimens shards waster wasters kiln kilns unknown unidentified miscellaneous container containers food serving drinking
+object objects item model cylinder shaped disc disk cone conical perforated adorno part parts fragmentary tablet sample samples specimen specimens shards waster wasters kiln kilns unknown unidentified miscellaneous container containers food serving drinking
 """.split())
-NONOBJ = re.compile(r"projectile|\bpoint\b|worked stone|\bstone\b|prayer stick|wand|\bpaint\b|\bbeads?\b|smoother|anvil|\btool|scraper|mosaic|inlay|arrow|\bprint\b|engraving|etching|photograph|drawing|textile|basket", re.I)
+NONOBJ = re.compile(r"design for|\bcelt\b|abrader|\baxe|knife|\bawl\b|gorget|object part|projectile|\bpoint\b|worked stone|\bstone\b|prayer stick|wand|\bpaint\b|\bbeads?\b|smoother|anvil|\btool|scraper|mosaic|inlay|arrow|\bprint\b|engraving|etching|photograph|drawing|textile|basket", re.I)
 DUTCH = re.compile(r"\b(met|van|aardewerken?|schaal|kom|bord|vaas|kan|beker|deksel|kopje|schotel|theepot|beeldje|tegel|scherf|porseleinen|stenen)\b")
 CJK = re.compile(r"[぀-ヿ㐀-鿿가-힯]")
 def clean_title(t):
@@ -200,7 +200,7 @@ for l in inp:
     cands, tseen = [], set()
     for r in sorted(ms, key=lambda r: (r[3] is None, r[3] if r[3] is not None else 0, r[1])):
         t = clean_title(r[1])
-        if r[0] == "world_extra" and r[4] != "Rijksmuseum": continue     # NMVW records carry Dutch-only titles
+        if (r[0] == "world_extra" and r[4] != "Rijksmuseum") or re.search(r"Volkenkunde|Tropenmuseum|Wereldmuseum|Afrika Museum", r[4] or ""): continue     # NMVW records carry Dutch-only titles
         if not descriptive(t, extra): continue
         if NONOBJ.search(t): continue
         if t.lower() in tseen or t in seen: continue

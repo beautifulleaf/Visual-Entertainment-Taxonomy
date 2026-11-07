@@ -16,17 +16,17 @@ E1-12 Sejnane Pottery: matched 0, works 0/0, kinds 1, coll 0
 E1-13 Rishton Ceramics: matched 28, works 4/4, kinds 11, coll 5
 E1-14 Ban Chiang Pottery: matched 33, works 7/7, kinds 14, coll 5
 DROPPED UNVERIFIED E1-15 Bàu Trúc
-E1-15 Cham Pottery: matched 56, works 11/11, kinds 16, coll 5
+E1-15 Cham Pottery: matched 56, works 10/10, kinds 15, coll 5
 E1-16 Kasongan Pottery: matched 3, works 0/0, kinds 1, coll 1
-E1-17 Yangshao Painted Pottery: matched 36, works 13/13, kinds 23, coll 6
+E1-17 Yangshao Painted Pottery: matched 36, works 12/12, kinds 22, coll 6
 NO INST URL 山梨県
-E1-18 Jōmon Pottery: matched 1166, works 50/85, kinds 64, coll 8
+E1-18 Jōmon Pottery: matched 1166, works 50/80, kinds 64, coll 8
 DROPPED UNVERIFIED E1-19 Karako-Kagi site
 NO INST URL 福岡市
-E1-19 Yayoi Pottery: matched 357, works 27/27, kinds 35, coll 7
+E1-19 Yayoi Pottery: matched 357, works 25/25, kinds 33, coll 7
 E1-20 Tang Sancai: matched 117, works 50/63, kinds 58, coll 3
 E1-21 Raku Ware: matched 148, works 39/39, kinds 52, coll 6
-E1-22 Satsuma Ware: matched 115, works 43/43, kinds 57, coll 8
+E1-22 Satsuma Ware: matched 115, works 42/42, kinds 56, coll 8
 E1-23 Onggi: matched 0, works 0/0, kinds 1, coll 0
 E1-24 Kgatleng Pottery: matched 1, works 0/0, kinds 3, coll 1
 E1-25 Geometric Pottery: matched 0, works 0/0, kinds 12, coll 0
@@ -37,7 +37,7 @@ E1-31 South Italian Vase Painting: matched 0, works 0/0, kinds 13, coll 1
 E1-32 Gnathia Vases: matched 0, works 0/0, kinds 3, coll 1
 E1-33 Centuripe Ware: matched 0, works 0/0, kinds 2, coll 1
 E1-34 Etruscan Vase Painting: matched 1, works 0/0, kinds 12, coll 2
-E1-35 Bucchero: matched 0, works 0/0, kinds 4, coll 0
+E1-35 Bucchero: matched 0, works 0/0, kinds 6, coll 0
 E1-36 Minoan Pottery: matched 0, works 0/0, kinds 7, coll 1
 E1-37 Mycenaean Pottery: matched 0, works 0/0, kinds 6, coll 1
 E1-38 Terra Sigillata: matched 0, works 0/0, kinds 6, coll 0
@@ -45,17 +45,17 @@ E1-39 Hadra Vases: matched 3, works 1/1, kinds 6, coll 4
 E1-40 Kerma Ware: matched 47, works 1/1, kinds 5, coll 2
 E1-41 Meroitic Pottery: matched 2464, works 22/22, kinds 28, coll 4
 E1-42 Nabataean Pottery: matched 0, works 0/0, kinds 2, coll 1
-E1-43 Maya Ceramics: matched 3139, works 50/176, kinds 61, coll 4
-E1-44 Teotihuacan Ceramics: matched 588, works 38/38, kinds 47, coll 6
-E1-45 Gran Coclé Pottery: matched 689, works 34/34, kinds 47, coll 4
-E1-46 Nicoya Polychrome: matched 828, works 46/46, kinds 53, coll 4
-E1-47 Moche Ceramics: matched 684, works 50/348, kinds 58, coll 5
-E1-48 Nazca Pottery: matched 1194, works 50/332, kinds 60, coll 7
-E1-49 Chimú Blackware: matched 616, works 50/85, kinds 57, coll 4
-E1-50 Shipibo-Conibo Pottery: matched 72, works 7/7, kinds 12, coll 4
-E1-51 Talavera Poblana: matched 1098, works 50/73, kinds 60, coll 8
-E1-52 Barro Negro Pottery: matched 170, works 20/20, kinds 27, coll 4
-E1-53 Tonalá Pottery: matched 143, works 10/10, kinds 19, coll 4
+E1-43 Maya Ceramics: matched 3139, works 50/163, kinds 61, coll 4
+E1-44 Teotihuacan Ceramics: matched 588, works 32/32, kinds 41, coll 6
+E1-45 Gran Coclé Pottery: matched 689, works 32/32, kinds 45, coll 4
+E1-46 Nicoya Polychrome: matched 828, works 42/42, kinds 49, coll 4
+E1-47 Moche Ceramics: matched 684, works 50/338, kinds 58, coll 5
+E1-48 Nazca Pottery: matched 1194, works 50/319, kinds 60, coll 7
+E1-49 Chimú Blackware: matched 616, works 50/82, kinds 57, coll 4
+E1-50 Shipibo-Conibo Pottery: matched 72, works 6/6, kinds 11, coll 4
+E1-51 Talavera Poblana: matched 1098, works 50/68, kinds 60, coll 8
+E1-52 Barro Negro Pottery: matched 161, works 13/13, kinds 20, coll 4
+E1-53 Tonalá Pottery: matched 142, works 9/9, kinds 18, coll 4
 E1-54 Mata Ortiz Pottery: matched 2, works 1/1, kinds 5, coll 2
 E1-55 Tree of Life: matched 189, works 5/5, kinds 10, coll 3
 E1-56 Pucará Bulls: matched 94, works 7/7, kinds 11, coll 3
@@ -63,20 +63,20 @@ E1-57 Chulucanas Pottery: matched 8, works 0/0, kinds 2, coll 1
 E1-58 Quinchamalí Pottery: matched 94, works 8/8, kinds 13, coll 3
 E1-59 Awajún Pottery: matched 3, works 0/0, kinds 1, coll 1
 E1-60 Goiabeiras Clay Pots: matched 0, works 0/0, kinds 1, coll 0
-E1-61 Ancestral Puebloan Pottery: matched 4762, works 50/131, kinds 62, coll 3
-E1-62 Mimbres Pottery: matched 405, works 15/15, kinds 20, coll 3
-E1-63 Hohokam Red-on-Buff Ware: matched 393, works 10/10, kinds 16, coll 3
-E1-64 Salado Polychrome: matched 856, works 19/19, kinds 25, coll 2
-E1-65 Casas Grandes Pottery: matched 875, works 22/22, kinds 27, coll 3
-E1-66 Pueblo Pottery: matched 3373, works 50/181, kinds 67, coll 6
-E1-67 Acoma Pottery: matched 414, works 34/34, kinds 44, coll 5
-E1-68 Hopi Pottery: matched 757, works 50/52, kinds 62, coll 6
-E1-69 Black-on-Black Ware: matched 29, works 15/15, kinds 24, coll 3
-E1-70 Mississippian Pottery: matched 996, works 50/54, kinds 57, coll 2
+E1-61 Ancestral Puebloan Pottery: matched 4762, works 50/103, kinds 62, coll 3
+E1-62 Mimbres Pottery: matched 405, works 13/13, kinds 18, coll 3
+E1-63 Hohokam Red-on-Buff Ware: matched 393, works 5/5, kinds 11, coll 3
+E1-64 Salado Polychrome: matched 856, works 14/14, kinds 20, coll 2
+E1-65 Casas Grandes Pottery: matched 875, works 20/20, kinds 25, coll 3
+E1-66 Pueblo Pottery: matched 3337, works 50/154, kinds 67, coll 6
+E1-67 Acoma Pottery: matched 414, works 32/32, kinds 42, coll 5
+E1-68 Hopi Pottery: matched 752, works 49/49, kinds 61, coll 6
+E1-69 Black-on-Black Ware: matched 28, works 14/14, kinds 23, coll 3
+E1-70 Mississippian Pottery: matched 996, works 45/45, kinds 52, coll 2
 E1-71 Swift Creek Pottery: matched 68, works 3/3, kinds 5, coll 1
 DROPPED UNVERIFIED E1-72 McKeithen site
 E1-72 Weeden Island Pottery: matched 89, works 1/1, kinds 2, coll 1
-E1-73 Catawba Pottery: matched 143, works 34/34, kinds 36, coll 1
+E1-73 Catawba Pottery: matched 143, works 29/29, kinds 31, coll 1
 E1-74 Hermannsburg Potters: matched 0, works 0/0, kinds 1, coll 0
 E1-75 Maiolica: matched 48, works 25/25, kinds 40, coll 3
 E1-76 Faience: matched 127, works 50/52, kinds 61, coll 3
@@ -85,7 +85,7 @@ NO INST URL Елабужский государственный историко
 NO INST URL Государственный Музей истории Санкт-Петербурга
 E1-77 Delftware: matched 1672, works 43/43, kinds 56, coll 8
 E1-78 Saint-Porchaire Ware: matched 0, works 0/0, kinds 1, coll 1
-E1-79 Staffordshire Pottery: matched 123, works 50/73, kinds 63, coll 4
+E1-79 Staffordshire Pottery: matched 123, works 50/64, kinds 63, coll 4
 E1-80 Pennsylvania German Redware: matched 125, works 11/11, kinds 14, coll 3
 DROPPED UNVERIFIED E1-81 Juan Ruiz de Luna
 E1-81 Talavera de la Reina Pottery: matched 28, works 9/9, kinds 12, coll 2
@@ -131,7 +131,7 @@ E2-7 Iznik Pottery: matched 516, works 41/41, kinds 57, coll 8
 E2-8 Damascus Tiles: matched 433, works 17/17, kinds 27, coll 8
 E2-9 Kubachi Ware: matched 18, works 1/1, kinds 6, coll 3
 E2-10 Safavid Pottery: matched 902, works 36/36, kinds 48, coll 8
-E2-11 Kütahya Ceramics: matched 215, works 11/11, kinds 20, coll 7
+E2-11 Kütahya Ceramics: matched 191, works 10/10, kinds 18, coll 6
 E2-12 Qajar Ceramics: matched 381, works 35/35, kinds 45, coll 3
 NO INST URL Sidi Qasim al-Jalizi Museum
 E2-13 Qallaline Tiles: matched 82, works 2/2, kinds 8, coll 4
@@ -147,26 +147,26 @@ E3-7 Ru Ware: matched 0, works 0/0, kinds 3, coll 0
 E3-8 Guan Ware: matched 17, works 8/8, kinds 14, coll 3
 E3-9 Jun Ware: matched 13, works 5/5, kinds 11, coll 4
 NO INST URL 大阪市
-E3-10 Jian Ware: matched 93, works 37/37, kinds 48, coll 7
+E3-10 Jian Ware: matched 93, works 36/36, kinds 47, coll 7
 E3-11 Cizhou Ware: matched 30, works 19/19, kinds 25, coll 3
 E3-12 Yixing Ware: matched 12, works 4/4, kinds 10, coll 2
-E3-13 Goryeo Celadon: matched 218, works 50/106, kinds 58, coll 5
-E3-14 Buncheong: matched 168, works 50/53, kinds 58, coll 4
+E3-13 Goryeo Celadon: matched 218, works 50/95, kinds 58, coll 5
+E3-14 Buncheong: matched 168, works 48/48, kinds 56, coll 4
 E3-15 Seto Ware: matched 132, works 50/65, kinds 62, coll 7
 E3-16 Shino Ware: matched 83, works 38/38, kinds 47, coll 5
 E3-17 Oribe Ware: matched 70, works 22/22, kinds 31, coll 4
 E3-18 Bizen Ware: matched 82, works 30/30, kinds 40, coll 6
 E3-19 Shigaraki Ware: matched 46, works 19/19, kinds 26, coll 5
-E3-20 Iga Ware: matched 22, works 7/7, kinds 11, coll 3
+E3-20 Iga Ware: matched 22, works 6/6, kinds 10, coll 3
 E3-21 Tamba Ware: matched 24, works 11/11, kinds 17, coll 5
 E3-22 Tokoname Ware: matched 31, works 11/11, kinds 16, coll 3
 E3-23 Echizen Ware: matched 3, works 0/0, kinds 3, coll 2
 E3-24 Karatsu Ware: matched 65, works 34/34, kinds 44, coll 6
-E3-25 Hagi Ware: matched 24, works 16/16, kinds 23, coll 5
+E3-25 Hagi Ware: matched 24, works 15/15, kinds 22, coll 5
 E3-26 Takatori Ware: matched 35, works 21/21, kinds 26, coll 4
 E3-27 Agano Ware: matched 20, works 14/14, kinds 18, coll 3
 NO INST URL 石川県
-E3-28 Kyō Ware: matched 468, works 50/297, kinds 68, coll 8
+E3-28 Kyō Ware: matched 468, works 50/285, kinds 68, coll 8
 E3-29 Onta Ware: matched 0, works 0/0, kinds 2, coll 0
 E3-30 Koishiwara Ware: matched 0, works 0/0, kinds 1, coll 0
 E3-31 Mumyōi Ware: matched 0, works 0/0, kinds 1, coll 0
@@ -174,25 +174,25 @@ NO INST URL Музей истории Кронштадта
 NO INST URL Государственный историко-мемориальный музей-заповедник 
 E3-32 Rhenish Stoneware: matched 55, works 19/19, kinds 29, coll 4
 E3-33 Banko Ware: matched 33, works 8/8, kinds 14, coll 3
-E3-34 Mino Ware: matched 81, works 50/52, kinds 57, coll 4
+E3-34 Mino Ware: matched 81, works 50/51, kinds 57, coll 4
 E4-1 Bencharong: matched 112, works 8/8, kinds 13, coll 4
-E4-2 Ding Ware: matched 31, works 18/18, kinds 25, coll 5
+E4-2 Ding Ware: matched 31, works 17/17, kinds 24, coll 5
 E4-3 Xing Ware: matched 6, works 4/4, kinds 8, coll 3
 E4-4 Qingbai Ware: matched 75, works 20/20, kinds 27, coll 5
-E4-5 Chinese Blue-and-White Porcelain: matched 1926, works 50/1008, kinds 63, coll 8
+E4-5 Chinese Blue-and-White Porcelain: matched 1926, works 50/986, kinds 63, coll 8
 E4-6 Doucai: matched 3, works 2/2, kinds 5, coll 1
-E4-7 Wucai: matched 308, works 50/131, kinds 56, coll 4
+E4-7 Wucai: matched 308, works 50/128, kinds 56, coll 4
 E4-8 Famille Verte: matched 4, works 2/2, kinds 6, coll 2
 E4-9 Famille Rose: matched 68, works 12/12, kinds 17, coll 2
-E4-10 Jingdezhen Porcelain: matched 495, works 50/174, kinds 63, coll 6
+E4-10 Jingdezhen Porcelain: matched 495, works 50/173, kinds 63, coll 6
 DROPPED UNVERIFIED E4-11 Witte Leeuw
 E4-11 Kraak Ware: matched 21, works 3/3, kinds 7, coll 4
 E4-12 Swatow Ware: matched 26, works 21/21, kinds 27, coll 4
 DROPPED UNVERIFIED E4-13 Nanking Cargo
-E4-13 Chinese Export Porcelain: matched 231, works 50/53, kinds 60, coll 4
+E4-13 Chinese Export Porcelain: matched 231, works 50/50, kinds 60, coll 4
 E4-14 Dehua Porcelain: matched 101, works 39/39, kinds 48, coll 7
-E4-15 Joseon White Porcelain: matched 172, works 50/70, kinds 59, coll 5
-E4-16 Arita Ware: matched 605, works 50/218, kinds 63, coll 8
+E4-15 Joseon White Porcelain: matched 172, works 50/69, kinds 59, coll 5
+E4-16 Arita Ware: matched 605, works 50/216, kinds 63, coll 8
 E4-17 Kakiemon: matched 46, works 16/16, kinds 24, coll 5
 E4-18 Nabeshima Ware: matched 14, works 9/9, kinds 15, coll 3
 E4-19 Hirado Ware: matched 23, works 9/9, kinds 14, coll 3
@@ -208,6 +208,6 @@ E4-22 Gzhel: matched 56, works 38/38, kinds 46, coll 7
 NO INST URL Екатеринбургский музей изобразительных искусств
 E4-23 Meissen Porcelain: matched 181, works 50/84, kinds 59, coll 4
 E4-24 Sèvres Porcelain: matched 155, works 50/100, kinds 57, coll 3
-E4-25 Soft-Paste Porcelain: matched 270, works 50/124, kinds 63, coll 3
-E4-26 Hard-Paste Porcelain: matched 425, works 50/220, kinds 69, coll 3
+E4-25 Soft-Paste Porcelain: matched 270, works 50/122, kinds 63, coll 3
+E4-26 Hard-Paste Porcelain: matched 425, works 50/219, kinds 69, coll 3
 E4-27 Hasami Ware: matched 2, works 1/1, kinds 6, coll 2

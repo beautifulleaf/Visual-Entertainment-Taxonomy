@@ -157,7 +157,7 @@ S("E3-34", pat=[(r"美濃|\bmino\b", JP)], kw="Mino ware", prof="japan", jp="美
 S("E4-1", pat=[r"bencharong|benjarong|lai nam thong"], node=r"Bencharong", kw="Bencharong", prof="seasia",
   rows=[("Lai nam thong", "Sub-types", "Bencharong with gold added to the enamels, for the Siamese court", "Bencharong", 0)],
   ov={"Bencharong porcelain": "alias"})
-S("E4-2", pat=[(r"定窯|定窑|\bding\b|ting ware", CN)], kw="Ding ware", prof="china", zh="定窯",
+S("E4-2", pat=[(r"定窯|定窑|\bding\b|ting ware", CN)], excl=r"cooking vessel|gr[ae]y pottery|\bhan\b|bronze", kw="Ding ware", prof="china", zh="定窯",
   rows=[("Jiancicun", "Centres & workshops", "kiln site at Quyang, Hebei", "Ding ware", 0),
         ("Black Ding", "Sub-types", "rare black- and brown-glazed Ding ware", "Ding ware", 0)],
   ov={"Ding ware": "alias"})
@@ -175,7 +175,7 @@ S("E4-5", pat=[(r"青花|blue.and.white|underglaze blue|染付|cobalt", CN)], ex
 S("E4-6", pat=[r"鬥彩|闘彩|鬭彩|doucai|tou-?ts.ai|chicken cup"], kw="doucai", prof="china", zh="鬥彩",
   rows=[("Chenghua doucai", "Schools & phases", "the classic doucai of the Chenghua reign, 1465–1487", "Chenghua Emperor", 0)],
   ov={"Chicken cups": ("Chicken cups", "Sub-types", "small Chenghua doucai wine cups with hens and chicks")})
-S("E4-7", pat=[(r"五彩|wucai|wu-?ts.ai", r"明|\bming\b|万暦|萬暦|嘉靖|wanli|jiajing|\bchina\b|中国")], excl=r"康熙|kangxi|famille|日本|japan|伊万里", kw="wucai", prof="china", zh="五彩",
+S("E4-7", pat=[(r"五彩|wucai|wu-?ts.ai", r"明|\bming\b|万暦|萬暦|嘉靖|wanli|jiajing|\bchina\b|中国")], excl=r"康熙|kangxi|famille|日本|japan|伊万里|\bsong\b|\bjin\b|宋|金時代", kw="wucai", prof="china", zh="五彩",
   rows=[("Jiajing wucai", "Schools & phases", "imperial wucai of the Jiajing reign, 1522–1566", "Wucai", 0),
         ("Wanli wucai", "Schools & phases", "dense imperial wucai of the Wanli reign, 1573–1620", "Wucai", 0)])
 S("E4-8", pat=[r"famille verte|康熙五彩|famille noire|famille jaune"], kw="famille verte", prof="china", zh="康熙 五彩",
@@ -260,7 +260,7 @@ S("E4-24", pat=[(r"s[eè]vres|vincennes", r"porcelain|biscuit|ceram|vase|cup|pla
         ("Étienne Maurice Falconet", "Makers", "director of the Sèvres sculpture workshop, biscuit figures, 1716–1791", "Étienne Maurice Falconet", 1)],
   ov={"Vincennes": ("Vincennes", "Schools & phases", "1740–1756, the manufactory before its move to Sèvres"),
       "Alexandre Brachard": ("Alexandre Brachard", "Makers", "Sèvres modeller of biscuit medallions and figures", None, 1)})
-S("E4-25", pat=[(r"soft.paste|chelsea|\bbow\b|worcester|derby|longton hall|caughley|saint.cloud|chantilly|mennecy|capodimonte|lowestoft|buen retiro", r"porcelain")], kw="soft-paste porcelain", prof="europe",
+S("E4-25", pat=[(r"soft.paste|chelsea|\bbow\b|worcester|derby|longton hall|caughley|saint.cloud|chantilly|mennecy|capodimonte|lowestoft|buen retiro", r"porcelain")], excl=r"chinese|\bchina\b|jingdezhen|japan|kangxi", kw="soft-paste porcelain", prof="europe",
   ov={"Chelsea": ("Chelsea", "Centres & workshops", "London factory, c. 1745–1784, raised- , red- and gold-anchor periods"),
       "Worcester": ("Worcester", "Centres & workshops", "factory founded 1751, later Royal Worcester"),
       "Derby": ("Derby", "Centres & workshops", "factory founded c. 1750, later Royal Crown Derby"),

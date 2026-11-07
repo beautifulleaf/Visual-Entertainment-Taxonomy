@@ -181,7 +181,7 @@ def apply_coverage(subs, rows, cc, report):
     where = {}
     for lf, rs in rows.items():
         for k in rs: where[k[5]] = lf
-    stats = collections.Counter()
+    stats = collections.Counter(); pending_resections = []
     for d in sorted(glob.glob(os.path.join(R3, "coverage_out", "*"))):
         part = os.path.basename(d); key2code = {}
         f = os.path.join(d, "new_leaves.json")
@@ -207,11 +207,7 @@ def apply_coverage(subs, rows, cc, report):
         for r in (csv.DictReader(open(f)) if os.path.exists(f) else []):
             if r["leaf"] in leafobj: secidx(r["leaf"], r["label"]); stats["new_section"] += 1
         f = os.path.join(d, "resections.json")
-        for code, v in (json.load(open(f)).items() if os.path.exists(f) else []):
-            if code not in leafobj: continue
-            leafobj[code]["secs"] = v["secs"]; leafobj[code]["axis"] = v.get("axis", leafobj[code].get("axis", ""))
-            for k in rows.get(code, []): k[8] = str(v["assign"].get(k[5], k[8] if k[8] and int(k[8]) <= len(v["secs"]) else ""))
-            stats["resectioned"] += 1
+        if os.path.exists(f): pending_resections.append(json.load(open(f)))
         f = os.path.join(d, "moves.csv")
         for r in (csv.DictReader(open(f)) if os.path.exists(f) else []):
             to = tgt(r["to"]); frm = where.get(r["id"])
@@ -228,6 +224,15 @@ def apply_coverage(subs, rows, cc, report):
             rows[to].append([r["title"], r["year"], r.get("who", ""), "", r.get("note", "").strip(), idv, "", r.get("kind", "film"),
                              secidx(to, r.get("sec")), cc(idv, r.get("who", ""), r.get("kind", "film"))])
             where[idv] = to; stats["added"] += 1
+    # re-sectioning last, after every part's moves and adds; titles a scheme does not list go to "Unsectioned"
+    for R in pending_resections:
+        for code, v in R.items():
+            if code not in leafobj: continue
+            leafobj[code]["secs"] = v["secs"]; leafobj[code]["axis"] = v.get("axis", leafobj[code].get("axis", ""))
+            for k in rows.get(code, []):
+                k[8] = str(v["assign"].get(k[5], ""))
+                if not k[8]: stats["resection_unlisted"] += 1
+            stats["resectioned"] += 1
     report["coverage"] = dict(stats)
 
 

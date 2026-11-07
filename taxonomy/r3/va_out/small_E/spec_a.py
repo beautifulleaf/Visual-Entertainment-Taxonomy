@@ -58,7 +58,7 @@ S("E1-11", pat=[r"kabyl"], kw="Kabyle pottery",
   rows=[("Kabylia", "Centres & workshops", "Berber region of northern Algeria where women hand-build and paint the ware", "Kabylia", 0)])
 S("E1-12", pat=[r"sejnane"], kw="Sejnane", ich=("https://ich.unesco.org/en/RL/pottery-skills-of-the-women-of-sejnane-01504", "UNESCO ICH: Pottery skills of the women of Sejnane", "Representative List element (2018) with documentation"),
   rows=[("Sejnane", "Centres & workshops", "town in Bizerte governorate, northern Tunisia, home of the women potters", "Sejnane", 0)])
-S("E1-13", pat=[(r"risht|gijduv|ghijduv|uzbek|fergana|ferghana|khorezm|samarkand ceramics", r"ceram|pott|earthenware|glaz|bowl|dish|plate|lagan")], kw="Rishtan ceramics",
+S("E1-13", pat=[r"risht|gijduv|ghijduv|fergana|ferghana"], node=r"Uzbek ceramics", kw="Rishtan ceramics",
   rows=[("Rishton", "Centres & workshops", "Fergana valley town, the main centre of ishkor-glazed blue ware", "Rishton", 0),
         ("Gijduvan", "Centres & workshops", "Bukhara region centre of brown-and-yellow glazed ware", "Gʻijduvon", 0)])
 S("E1-14", pat=[r"ban chiang"], kw="Ban Chiang",
@@ -67,7 +67,7 @@ S("E1-14", pat=[r"ban chiang"], kw="Ban Chiang",
 S("E1-15", pat=[r"\bch[aă]m\b|b[aà]u tr[uú]c"], node=r"Ch[aă]m", kw="Cham pottery", ich=("https://ich.unesco.org/en/USL/art-of-pottery-making-of-cham-people-01574", "UNESCO ICH: Art of pottery-making of Chăm people", "Urgent Safeguarding List element (2022)"),
   rows=[("Bàu Trúc", "Centres & workshops", "Cham pottery village in Ninh Thuận province, Vietnam", "Bàu Trúc", 0)])
 S("E1-16", pat=[r"kasongan"], kw="Kasongan")
-S("E1-17", pat=[r"yangshao|majiayao|banshan|machang|banpo|kansu|gansu|仰韶|馬家窯|彩陶"], kw="Yangshao", prof="china", zh="彩陶",
+S("E1-17", pat=[r"yangshao|majiayao|banshan|machang|banpo|kansu|gansu|仰韶|馬家窯|彩陶"], excl=r"meiji|nara period|明治|奈良|\bedo\b|江戸|tang|唐", kw="Yangshao", prof="china", zh="彩陶",
   rows=[("Banpo phase", "Schools & phases", "early Yangshao phase (c. 4800–4300 BC) named after the Banpo village site near Xi'an", "Banpo", 0),
         ("Miaodigou phase", "Schools & phases", "middle Yangshao phase with painted petal and dot motifs, c. 4000–3500 BC", "Yangshao culture", 0),
         ("Majiayao culture", "Schools & phases", "western successor in Gansu and Qinghai, with Majiayao, Banshan and Machang phases", "Majiayao culture", 0),

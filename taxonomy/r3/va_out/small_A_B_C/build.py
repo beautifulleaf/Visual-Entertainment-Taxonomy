@@ -282,6 +282,7 @@ MISSING = []
 
 # ---------------------------------------------------------------- per leaf
 XFER = {}
+INPUT_MAKERS = {r[0] for l in INP for r in l["rows"] if r[4] or r[1] in ("Artists", "Architects", "Makers")}
 
 
 def build_leaf(l):
@@ -350,6 +351,8 @@ def build_leaf(l):
     # added rows
     for a in cfg.get("add", []):
         nm, g, gl, url = a[:4]
+        if nm in INPUT_MAKERS:
+            continue
         im = a[4] if len(a) > 4 else (1 if (g in ("Makers",) or g in cfg.get("maker_groups", ()) or g.endswith(("painters", "artists", "printmakers", "calligraphers", "illuminators", "designers")) or (cfg.get("artist_led") and g not in ("Sub-types", "Schools & phases", "Centres & workshops", "Collections") and not cfg.get("nonmaker_add"))) else 0)
         if not url.startswith("http"):
             if WC.get(url) is False:
