@@ -134,3 +134,5 @@ D5-71 42 {'wfolk': np.int64(23), 'amoc': np.int64(9), 'gap': np.int64(9), 'smith
 D5-72 4 {'smith': np.int64(2), 'wfolk': np.int64(2)} | NMAI=2, Smithsonian National Museum of=2
 D5-73 255 {'wx': np.int64(189), 'wfolk': np.int64(55), 'smith': np.int64(10), 'gap': np.int64(1)} | Museum Volkenkunde=117, Tropenmuseum=107, NMAI=10, Wereldmuseum Rotterdam=10
 D5-74 261 {'wx': np.int64(214), 'wfolk': np.int64(40), 'gap': np.int64(7)} | Tropenmuseum=129, Wereldmuseum (NMVW)=70, Museum Volkenkunde=52, Penn Museum=7
+D5-75 90 {'wx': np.int64(58), 'smith': np.int64(30), 'wfolk': np.int64(2)} | Tropenmuseum=48, CHNDM=19, NMAI=11, Museum Volkenkunde=7
+D5-76 123 {'smith': np.int64(84), 'wfolk': np.int64(36), 'amoc': np.int64(3)} | NMAI=84, Museum Volkenkunde=13, The Metropolitan Museum of Art=12, Art Institute of Chicago=8
