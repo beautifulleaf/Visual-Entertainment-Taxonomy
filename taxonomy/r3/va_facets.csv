@@ -1,0 +1,1783 @@
+code,label,region,start,end,how
+A1-1,Arab Painting,"Islamic world (MENA, Iran, Anatolia)",1100,1500,rule
+A1-2,Persian Miniature,"Islamic world (MENA, Iran, Anatolia)",1800,1900,rule
+A1-3,Ottoman Miniature,"Islamic world (MENA, Iran, Anatolia)",1700,1800,rule
+A1-4,Mughal Painting,South Asia,1500,1900,rule
+A1-5,Deccan Painting,South Asia,1500,1900,rule
+A1-6,Company Painting,South Asia,1700,1900,rule
+A1-7,Rajput Painting,South Asia,1500,1900,rule
+A1-8,Pahari Painting,South Asia,1600,1900,rule
+A1-9,Jain Manuscript Painting,South Asia,1000,1600,rule
+A1-10,Sikh Painting,South Asia,1700,1900,rule
+A1-11,Assamese Manuscript Painting,South Asia,1500,1900,override
+A1-12,Burmese Parabaik Painting,Southeast Asia,1700,1900,rule
+A1-13,Thai Manuscript Painting,Southeast Asia,1600,1900,rule
+A1-14,Nara-ehon,Japan,1500,1800,override
+A1-15,Ethiopian Manuscript Painting,Sub-Saharan Africa,1350,1900,objects
+A1-16,Byzantine Illuminated Manuscripts,Greco-Roman & Byzantine Mediterranean,300,1500,rule
+A1-17,Borgia Group,Mesoamerica & Caribbean,1300,1600,rule
+A1-18,Mixtec Codices,Mesoamerica & Caribbean,1300,1600,rule
+A1-19,Aztec Codices,Mesoamerica & Caribbean,1540,1600,objects
+A1-20,Armenian Manuscript Illumination,Central & Eastern Europe,900,1800,rule
+A1-21,Nepalese Manuscript Painting,Himalaya,1000,1100,rule
+A1-22,Pala Painting,South Asia,900,1200,rule
+A2-1,Gongbi,China,618,1279,rule
+A2-2,Northern Landscape Style,China,907,1279,override
+A2-3,Literati Painting,China,1271,1271,objects
+A2-4,Zhe School,China,1400,1600,rule
+A2-5,Wu School,China,1400,1600,rule
+A2-6,Shanghai School,China,1644,1912,rule
+A2-7,Lingnan School,China,1900,2000,rule
+A2-8,Yamato-e,Japan,794,1185,rule
+A2-9,Kanō School,Japan,1400,1900,rule
+A2-10,Rinpa School,Japan,1600,1900,rule
+A2-11,Nanga,Japan,1615,1912,rule
+A2-12,Maruyama–Shijō School,Japan,1770,1779,override
+A2-13,Nihonga,Japan,1880,1889,rule
+A2-14,Ink Wash Painting,Japan,960,1573,rule
+A2-15,Goryeo Buddhist Painting,Korea,1200,1400,rule
+A3-1,Ethiopian Icon Painting,Sub-Saharan Africa,1400,1500,rule
+A3-2,Byzantine Icons,Greco-Roman & Byzantine Mediterranean,500,1500,rule
+A3-3,Cretan School,Greco-Roman & Byzantine Mediterranean,1400,1700,rule
+A3-4,Georgian Icon Painting,Central & Eastern Europe,900,1000,rule
+A3-5,Palaeologan Renaissance,Greco-Roman & Byzantine Mediterranean,1261,1453,rule
+A3-6,Russian Icons,Central & Eastern Europe,1200,1743,entries
+A4-1,Pattachitra,South Asia,1700,1905,objects
+A4-2,Bengal Patachitra,South Asia,,,rule
+A4-3,Kalighat Painting,South Asia,1800,2000,rule
+A4-4,Pichwai,South Asia,1800,1940,override
+A4-5,Mata ni Pachedi,South Asia,,,override
+A4-6,Cheriyal Scroll Painting,South Asia,,,override
+A4-7,Thangka,Himalaya,1300,1800,objects
+A4-8,Beri,Himalaya,1200,1500,rule
+A4-9,Menri,Himalaya,1400,1700,rule
+A4-10,Khyenri,Himalaya,1400,1500,rule
+A4-11,Karma Gadri,China,1500,1800,rule
+A4-12,Regong Arts,Himalaya,1600,1700,override
+A4-13,Paubha,Himalaya,1100,1200,rule
+A4-14,Dunhuang Paintings,Central Asia & Silk Road,700,1000,rule
+A4-15,Kamasan Painting,Southeast Asia,1500,1600,rule
+A4-16,Wayang Beber,Southeast Asia,,,rule
+A4-17,Ethiopian Magic Scrolls,Sub-Saharan Africa,1700,1800,objects
+A4-18,Plains Hide Painting,North America (Indigenous),1850,2012,objects
+A5-1,Qajar Painting,"Islamic world (MENA, Iran, Anatolia)",1789,1925,rule
+A5-2,Balinese Painting,Southeast Asia,1920,1929,rule
+A5-3,Sơn Mài,Southeast Asia,1930,1939,rule
+A5-4,Fayum Mummy Portraits,Greco-Roman & Byzantine Mediterranean,0,300,rule
+A5-5,New Spanish Baroque,Western Europe,1600,1800,rule
+A5-6,Casta Painting,Mesoamerica & Caribbean,1700,1800,rule
+A5-7,Enconchado,South America,1698,1800,rule
+A5-8,Biombo,South America,1600,1700,rule
+A5-9,Cusco School,South America,1500,1800,rule
+A5-10,Potosí School,South America,1600,1800,rule
+A5-11,Quito School,South America,1500,1800,rule
+A5-12,Western Desert Painting,Australia (Aboriginal),1971,1971,rule
+A5-13,Contemporary Indigenous Australian Art,Oceania (Pacific),1970,1979,rule
+A5-14,Hermannsburg School,Australia (Aboriginal),1934,1934,rule
+A5-15,Romanesque Painting,Western Europe,1000,1200,rule
+A5-16,Gothic Painting,Western Europe,1200,1400,rule
+A5-17,Sienese School,Western Europe,1200,1500,override
+A5-18,International Gothic,Western Europe,1375,1425,rule
+A5-19,Early Netherlandish Painting,Western Europe,1400,1600,rule
+A5-20,Italian Renaissance Painting,Western Europe,1400,1530,rule
+A5-21,Venetian School,Western Europe,1700,1800,rule
+A5-22,Northern Renaissance,Western Europe,1490,1580,rule
+A5-23,Mannerism,Western Europe,1520,1600,override
+A5-24,School of Fontainebleau,Western Europe,1530,1610,rule
+A5-25,Baroque Painting,Western Europe,1600,1800,rule
+A5-26,Caravaggisti,Western Europe,1600,1640,rule
+A5-27,Flemish Baroque Painting,Western Europe,1585,1700,rule
+A5-28,Dutch Golden Age Painting,Western Europe,1600,1700,rule
+A5-29,Rococo,Western Europe,1700,1800,rule
+A5-30,Neoclassicism,Western Europe,1700,1900,override
+A5-31,Romanticism,Central & Eastern Europe,1780,1850,rule
+A5-32,Nazarene Movement,Western Europe,1809,1809,rule
+A5-33,Danish Golden Age,Western Europe,1800,1900,rule
+A5-34,Düsseldorf School of Painting,North America (Indigenous),1819,1918,rule
+A5-35,Barbizon School,Western Europe,1830,1870,rule
+A5-36,Hudson River School,North America (settler),1825,1875,rule
+A5-37,Norwich School of Painters,Western Europe,1803,1833,rule
+A5-38,Academic Art,Western Europe,1800,1900,rule
+A5-39,Neo-Grec,Western Europe,1800,1900,rule
+A5-40,Realism,Western Europe,1800,1900,rule
+A5-41,Costumbrismo,Western Europe,1800,1900,rule
+A5-42,Pre-Raphaelite Brotherhood,Western Europe,1848,1848,rule
+A5-43,Hague School,Western Europe,1860,1900,rule
+A5-44,Macchiaioli,Western Europe,1850,1870,rule
+A5-45,Naturalism,Western Europe,1800,1900,override
+A5-46,Munich School,Western Europe,1850,1914,override
+A5-47,Impressionism,Western Europe,1860,1880,rule
+A5-48,Neo-Impressionism,Western Europe,1886,1886,rule
+A5-49,Post-Impressionism,Western Europe,1886,1905,override
+A5-50,Pont-Aven School,Western Europe,1886,1886,override
+A5-51,Symbolism,Western Europe,1800,1900,override
+A5-52,Aestheticism,Western Europe,1860,1890,rule
+A5-53,Tonalism,North America (settler),1880,1915,rule
+A5-54,Luminism,North America (settler),1850,1875,rule
+A5-55,Glasgow School,Western Europe,1880,1900,rule
+A5-56,Expressionism,Western Europe,1905,1905,rule
+A5-57,Fauvism,Western Europe,1904,1908,rule
+A5-58,Cubism,Western Europe,1907,1907,override
+A5-59,Futurism,Western Europe,1909,1909,rule
+A5-60,Orphism,Western Europe,1912,1912,override
+A5-61,Vorticism,Western Europe,1914,1915,rule
+A5-62,Suprematism,Central & Eastern Europe,1915,1915,override
+A5-63,Constructivism,Central & Eastern Europe,1915,1915,rule
+A5-64,De Stijl,Western Europe,1917,1917,rule
+A5-65,Dada,North America (settler),1916,1916,rule
+A5-66,Surrealism,Western Europe,1924,1924,rule
+A5-67,Metaphysical Painting,Western Europe,1910,1920,override
+A5-68,New Objectivity,Western Europe,1920,1929,rule
+A5-69,Magic Realism,Western Europe,1920,1950,override
+A5-70,Precisionism,North America (settler),1920,1930,rule
+A5-71,Regionalism,North America (settler),1930,2026,rule
+A5-72,Ashcan School,North America (settler),1900,2000,rule
+A5-73,Social Realism,Transnational,1920,1940,override
+A5-74,Socialist Realism,Central & Eastern Europe,1932,1932,rule
+A5-75,Harlem Renaissance,Sub-Saharan Africa,1920,1930,rule
+A5-76,School of Paris,Western Europe,1900,1940,override
+A5-77,Scuola Romana,Western Europe,1920,1930,rule
+A5-78,Neo-Romanticism,Western Europe,1930,1950,rule
+A5-79,Naïve Art,Transnational,1806,1960,override
+A5-80,Art Brut,Western Europe,1864,1943,override
+A5-81,Abstract Expressionism,North America (settler),1940,1950,rule
+A5-82,Color Field,North America (settler),1940,1949,override
+A5-83,Lyrical Abstraction,North America (settler),1960,1969,rule
+A5-84,Informalism,Western Europe,1899,1930,entries
+A5-85,COBRA,Western Europe,1948,1951,override
+A5-86,Hard-edge Painting,North America (settler),1950,1959,override
+A5-87,Concrete Art,Western Europe,1930,1930,rule
+A5-88,Op Art,Transnational,1960,1969,override
+A5-89,Pop Art,North America (settler),1950,1960,override
+A5-90,Neo-Dada,North America (settler),1950,1959,rule
+A5-91,Nouveau Réalisme,Western Europe,1960,1960,rule
+A5-92,Funk Art,Sub-Saharan Africa,1960,1969,rule
+A5-93,Bay Area Figurative Movement,Sub-Saharan Africa,1950,1960,rule
+A5-94,Northwest School,North America (Indigenous),1930,1950,rule
+A5-95,Pattern and Decoration,North America (settler),1970,1979,rule
+A5-96,Photorealism,North America (settler),1960,1969,override
+A5-97,Neo-figurative,South America,1960,1969,rule
+A5-98,Neo-Expressionism,Western Europe,1970,1980,override
+A5-99,Lettrism,Western Europe,1945,1945,override
+A5-100,Black Arts Movement,Sub-Saharan Africa,1965,1975,rule
+A5-101,British Black Arts Movement,Western Europe,1980,1989,rule
+A5-102,Lowbrow,North America (settler),1970,1979,override
+A5-103,Mission School,Sub-Saharan Africa,1990,1999,rule
+A5-104,Stuckism,Western Europe,1999,1999,override
+A5-105,Superflat,Japan,2000,2000,rule
+A5-106,Hurufiyya Movement,"Islamic world (MENA, Iran, Anatolia)",1950,1959,rule
+A5-107,Dakar School,Sub-Saharan Africa,1960,1970,rule
+A5-108,Yōga,Japan,1868,1912,rule
+A5-109,Bengal School of Art,South Asia,1900,1940,rule
+A5-110,Modern Art,Western Europe,1860,1944,rule
+A5-111,Contemporary Art,Western Europe,1945,1945,rule
+A5-112,Hispano-Flemish Style,Western Europe,1425,1470,entries
+A5-113,Dansaekhwa,Korea,1970,1979,rule
+A5-114,Orientalism,"Islamic world (MENA, Iran, Anatolia)",1780,1914,rule
+A5-115,Peredvizhniki,Central & Eastern Europe,1870,1923,rule
+A5-116,Skagen Painters,Western Europe,1875,1910,override
+A5-117,Newlyn School,Western Europe,1882,1882,override
+A5-118,Lyon School,Western Europe,1776,1815,override
+A5-119,Golden Age of Finnish Art,Central & Eastern Europe,1880,1910,rule
+A5-120,Young British Artists,Western Europe,1988,1997,rule
+A5-121,Pictures Generation,North America (settler),1970,1980,rule
+A5-122,Mir iskusstva,Central & Eastern Europe,1898,1924,override
+A5-123,St Ives School,Western Europe,1939,1939,override
+A5-124,Camden Town Group,Western Europe,1911,1911,override
+A5-125,ZERO,Western Europe,1957,1966,rule
+A5-126,Leipzig School,Western Europe,1990,1990,rule
+A5-127,Nazi art,Western Europe,1933,1945,rule
+A5-128,Vienna Secession,Western Europe,1897,1932,rule
+A5-129,Novecento Italiano,Western Europe,1922,1929,rule
+A5-130,Modernisme,Western Europe,1888,1911,override
+A5-131,Noucentisme,Oceania (Pacific),1906,1923,rule
+A5-132,Soviet nonconformist art,Central & Eastern Europe,1953,1986,rule
+A5-133,Nagybánya artists' colony,Central & Eastern Europe,1896,1896,rule
+A5-134,Young Poland,Central & Eastern Europe,1890,1918,rule
+A5-135,Kraków Group,Central & Eastern Europe,1932,1957,override
+A5-136,Gutai group,Japan,1954,1972,override
+A5-137,Group of Seven (artists),North America (settler),1920,1931,override
+A5-138,Brazilian modernism,South America,1917,1949,rule
+A5-139,Progressive Artists' Group,South Asia,1947,1947,override
+A5-140,Generación de la Ruptura,Mesoamerica & Caribbean,1950,1960,rule
+A5-141,Indigenismo,South America,1920,1960,rule
+A5-142,Chicago Imagists,North America (settler),1966,1971,override
+A5-143,Feminist art movement,North America (settler),1960,1980,rule
+A5-144,American Abstract Artists,North America (settler),1936,1936,rule
+A5-145,Flatstyle,North America (Indigenous),1910,1962,rule
+A6-1,Madhubani Painting,South Asia,1960,1969,rule
+A6-2,Warli Painting,South Asia,,,rule
+A6-3,Gond Painting,South Asia,1962,2001,entries
+A6-4,Tanjore Painting,South Asia,1700,1900,override
+A6-5,Mysore Painting,South Asia,1600,1800,objects
+A6-6,Truck Art,South Asia,,,rule
+A6-7,Rickshaw Painting,South Asia,,,override
+A6-8,Letras y Figuras,Southeast Asia,1800,1900,rule
+A6-9,Ōtsu-e,Japan,1600,1700,rule
+A6-10,Ema,Japan,1300,1827,objects
+A6-11,Minhwa,Korea,1392,1897,rule
+A6-12,Tingatinga Painting,Sub-Saharan Africa,1968,1968,rule
+A6-13,Retablo,Mesoamerica & Caribbean,1800,1900,rule
+A6-14,Amate Painting,Sub-Saharan Africa,1960,1969,rule
+A6-15,Tablas de Sarhua,South America,,,override
+A6-16,Tigua Painting,South America,1970,1979,rule
+A6-17,Fileteado,South America,,,override
+A6-18,Bark Painting,Australia (Aboriginal),1900,2014,objects
+A6-19,Theorem Painting,North America (settler),1810,1860,rule
+A6-20,Reverse Glass Painting,Western Europe,1700,1800,rule
+A6-21,Petrykivka Painting,Central & Eastern Europe,,,rule
+A6-22,Tauric Painting,Central & Eastern Europe,,,rule
+A6-23,Gorodets Painting,Central & Eastern Europe,1800,1900,override
+A6-24,Mezen Painting,Central & Eastern Europe,,,override
+A6-25,Northern Dvina Painting,Central & Eastern Europe,,,override
+A6-26,Ural-Siberian Painting,Central & Eastern Europe,1700,1900,rule
+A6-27,Zhostovo Painting,Central & Eastern Europe,1800,1900,override
+A6-28,Nizhny Tagil Tray Painting,Central & Eastern Europe,1700,1800,override
+A6-29,Naïve Painting of Kovačica,Central & Eastern Europe,1950,1959,rule
+A6-30,Pysanka,Central & Eastern Europe,,,rule
+A6-31,Haitian Painting,Mesoamerica & Caribbean,1944,1972,rule
+A6-32,Kwoma Bark Painting,Oceania (Pacific),,,rule
+B1-1,Saz Style,"Islamic world (MENA, Iran, Anatolia)",1500,1600,rule
+B1-2,Ledger Art,North America (Indigenous),1860,1869,rule
+B1-3,American Comics,North America (settler),1890,1899,rule
+B1-4,Old Master Drawing,Western Europe,1800,1800,rule
+B1-5,Illustration,North America (settler),1700,1800,rule
+B1-6,Golden Age of Illustration,"Islamic world (MENA, Iran, Anatolia)",1880,1920,rule
+B1-7,Ligne Claire,Western Europe,1907,1957,entries
+B1-8,Marcinelle School,Western Europe,1921,1962,entries
+B1-9,Manga,Japan,1900,2000,rule
+B1-10,Franco-Belgian comics,Western Europe,1934,1974,entries
+B2-1,Đông Hồ Painting,China,,,rule
+B2-2,Hàng Trống Painting,Southeast Asia,,,override
+B2-3,Kim Hoàng Painting,Southeast Asia,,,override
+B2-4,Nianhua,China,1900,1900,objects
+B2-5,Cordel Literature,South America,1928,2024,entries
+B2-6,Inuit Printmaking,North America (Indigenous),1957,1957,rule
+B2-7,Torres Strait Islander Printmaking,Australia (Aboriginal),1990,1999,rule
+B2-8,Lubok,Central & Eastern Europe,1600,2000,rule
+B2-9,Poster Art,Western Europe,1870,1879,rule
+B2-10,Plakatstil,Western Europe,1906,1906,rule
+B2-11,Soviet Poster,Central & Eastern Europe,1917,1991,rule
+B2-12,Polish School of Posters,Central & Eastern Europe,1950,1990,rule
+B2-13,Old Master Print,Western Europe,1830,1830,override
+B2-14,Etching Revival,Western Europe,1850,1930,rule
+B2-15,Modern Printmaking,Transnational,1880,1944,override
+B2-16,Contemporary Printmaking,Transnational,1945,1945,override
+B2-17,Ukiyo-e,Japan,1600,1900,rule
+B2-18,Shin-hanga,Japan,1900,2000,rule
+B2-19,Sōsaku-hanga,Japan,1904,1904,rule
+B2-20,Taller de Gráfica Popular,Mesoamerica & Caribbean,1937,1937,rule
+B2-21,Ehon,Japan,1788,1788,rule
+C1-1,Kufic,"Islamic world (MENA, Iran, Anatolia)",900,1989,objects
+C1-2,Maghribi Script,Sub-Saharan Africa,1400,1800,objects
+C1-3,Six Pens (al-Aqlam al-Sitta),"Islamic world (MENA, Iran, Anatolia)",1299,1922,rule
+C1-4,Nasta'liq,"Islamic world (MENA, Iran, Anatolia)",1300,1400,rule
+C1-5,Diwani,"Islamic world (MENA, Iran, Anatolia)",1299,1922,rule
+C1-6,Sini,China,,,rule
+C1-7,Mongolian Calligraphy,Himalaya,1655,1744,objects
+C1-8,Georgian Calligraphy,Central & Eastern Europe,999,1900,objects
+C1-9,Chinese Calligraphy,China,960,1644,objects
+C1-10,Japanese Calligraphy,Japan,1185,1615,objects
+C1-11,Western Calligraphy,Western Europe,1400,1600,override
+C1-12,Type Design,Transnational,1800,1900,override
+C1-13,Korean Calligraphy,Korea,-206,1897,rule
+C2-1,Early Qur'anic Manuscripts,"Islamic world (MENA, Iran, Anatolia)",600,1000,override
+C2-2,Islamic Illumination,"Islamic world (MENA, Iran, Anatolia)",1000,1000,rule
+C2-3,Timbuktu Manuscripts,Sub-Saharan Africa,,,rule
+C2-4,Malay Manuscripts,Southeast Asia,1550,1850,objects
+C2-5,Palm-Leaf Manuscripts,South Asia,750,1174,rule
+C2-6,Lontar,Southeast Asia,1130,1988,objects
+C2-7,Folding-Book Manuscripts,Southeast Asia,1801,2000,objects
+C2-8,Kammavaca,Southeast Asia,,,rule
+C2-9,Pustaha,Southeast Asia,,,rule
+C2-10,Dunhuang Manuscripts,Central Asia & Silk Road,868,1900,rule
+C2-11,Uigwe,Korea,1392,1910,rule
+C2-12,Sutra Copying,Japan,918,1392,rule
+C2-13,Dongba Manuscripts,Himalaya,,,rule
+C2-14,Ethiopian Manuscripts,Sub-Saharan Africa,1501,1901,objects
+C2-15,Book of the Dead,Ancient Near East,-1550,-1069,rule
+C2-16,Maya Codices,Mesoamerica & Caribbean,1001,1501,objects
+C2-17,Late Antique Illumination,Greco-Roman & Byzantine Mediterranean,300,700,override
+C2-18,Insular Illumination,Western Europe,600,900,rule
+C2-19,Merovingian Illumination,Western Europe,600,800,rule
+C2-20,Carolingian Illumination,Western Europe,780,900,rule
+C2-21,Ottonian Illumination,Western Europe,950,1050,rule
+C2-22,Anglo-Saxon Illumination,Western Europe,900,1100,rule
+C2-23,Mozarabic Illumination,Western Europe,900,1100,rule
+C2-24,Romanesque Illumination,Western Europe,1050,1200,rule
+C2-25,Renaissance Illumination,Western Europe,1400,1600,rule
+C2-26,Hebrew Illuminated Manuscripts,Transnational,1301,1900,override
+C2-27,Russian Illuminated Manuscripts,Central & Eastern Europe,1000,1700,rule
+C2-28,Fraktur,North America (settler),1700,1900,rule
+C2-29,Gothic Book Illustration,Western Europe,1200,1500,rule
+C2-30,Ghent-Bruges School,Western Europe,1475,1560,rule
+C2-31,Tibetan Manuscript Illumination,Himalaya,1000,1500,entries
+C2-32,Coptic Manuscript Illumination,Ancient Egypt & Nubia,300,400,rule
+C2-33,Syriac Manuscript Illumination,"Islamic world (MENA, Iran, Anatolia)",500,600,rule
+C3-1,Islamic Bookbinding,"Islamic world (MENA, Iran, Anatolia)",1400,1500,rule
+C3-2,Treasure Binding,Western Europe,700,1200,rule
+C3-3,Fine Binding,Western Europe,1900,2000,rule
+C3-4,East Asian Bookbinding,China,1368,1912,rule
+C4-1,Ebru,"Islamic world (MENA, Iran, Anatolia)",1299,1922,rule
+C4-2,Sanjhi,South Asia,,,rule
+C4-3,Chinese Paper Cutting,China,1900,1986,objects
+C4-4,Papel Picado,Mesoamerica & Caribbean,,,rule
+C4-5,Vytsinanka,Central & Eastern Europe,,,rule
+C4-6,Slovenian Paper Flower Making,Central & Eastern Europe,,,rule
+C4-7,Oil-Paper Umbrella,China,,,rule
+C4-8,Fan Making,Transnational,1615,1868,override
+C4-9,Chōchin,Japan,,,rule
+C4-10,Scherenschnitte,Western Europe,1700,1800,rule
+C4-11,Kirie,Japan,1615,1868,rule
+C4-12,Wycinanki,Central & Eastern Europe,,,rule
+C4-13,Hanji,Korea,918,1392,rule
+D1-1,Samarra Stucco,"Islamic world (MENA, Iran, Anatolia)",800,900,rule
+D1-2,Nasrid Stucco (Yesería),"Islamic world (MENA, Iran, Anatolia)",1238,1492,rule
+D1-3,Assyrian Palace Reliefs,Ancient Near East,-900,-600,rule
+D1-4,Seljuk Stucco,"Islamic world (MENA, Iran, Anatolia)",1000,1300,rule
+D2-1,Andalusian Ivories,"Islamic world (MENA, Iran, Anatolia)",900,1100,rule
+D2-2,Siculo-Arabic Ivories,"Islamic world (MENA, Iran, Anatolia)",1100,1300,rule
+D2-3,Begram Ivories,Ancient Egypt & Nubia,0,200,rule
+D2-4,Netsuke,Japan,1615,1912,rule
+D2-5,Benin Ivories,Sub-Saharan Africa,1400,1900,rule
+D2-6,Afro-Portuguese Ivories,Western Europe,1400,1600,rule
+D2-7,Nimrud Ivories,Ancient Near East,-900,-600,rule
+D2-8,Byzantine Ivories,Greco-Roman & Byzantine Mediterranean,400,1200,rule
+D2-9,Alaska Native Ivory Carving,North America (Indigenous),1880,1983,objects
+D2-10,Mississippian Shell Gorgets,North America (Indigenous),1000,1600,rule
+D2-11,Gothic Ivories,Western Europe,1200,1530,rule
+D2-12,Scrimshaw,North America (settler),1700,1900,override
+D2-13,Duodji,Central & Eastern Europe,,,rule
+D2-14,Uelen Bone Carving,Central & Eastern Europe,1931,1931,rule
+D2-15,Tobolsk Bone Carving,Central & Eastern Europe,1700,1929,rule
+D2-16,Yakut Bone Carving,Central & Eastern Europe,1800,1900,rule
+D2-17,Torre del Greco Shell and Coral Carving,Greco-Roman & Byzantine Mediterranean,1600,1700,rule
+D2-18,Romanesque Ivories,Western Europe,1000,1200,rule
+D3-1,Fatimid Rock Crystal,"Islamic world (MENA, Iran, Anatolia)",900,1100,rule
+D3-2,Mughal Jade,South Asia,1657,1657,rule
+D3-3,Chinese Jade,China,-1600,1912,rule
+D3-4,Chinese Snuff Bottles,China,1600,2000,rule
+D3-5,Cylinder Seals,Ancient Near East,-3500,-1000,entries
+D3-6,Minoan Seals,Greco-Roman & Byzantine Mediterranean,-2000,-1000,rule
+D3-7,Engraved Gems,Greco-Roman & Byzantine Mediterranean,-600,400,rule+mediterranean
+D3-8,Mesoamerican Jade,Mesoamerica & Caribbean,-1500,1521,rule
+D3-9,Hei-tiki,Oceania (Pacific),,,rule
+D3-10,Pietra Dura,Western Europe,1588,1588,rule
+D3-11,Inkstone Carving,China,,,rule
+D3-12,Idar-Oberstein Agate Cutting,South America,1400,1500,rule
+D3-13,Sasanian Seals,Ancient Near East,224,651,rule
+D4-1,Karagöz Shadow Puppets,"Islamic world (MENA, Iran, Anatolia)",1299,1922,rule
+D4-2,Tholu Bommalata,South Asia,,,rule
+D4-3,Wayang Kulit,Southeast Asia,2008,2008,rule
+D4-4,Wayang Golek,Southeast Asia,1800,1900,objects
+D4-5,Topeng,Southeast Asia,1875,1910,objects
+D4-6,Nang Yai,Southeast Asia,,,rule
+D4-7,Sbek Thom,Southeast Asia,802,1431,rule
+D4-8,Yoke Thé,Southeast Asia,1800,1930,objects
+D4-9,Chinese Shadow Puppetry,China,,,rule
+D4-10,Bunraku,Japan,,,rule
+D4-11,Korean Masks,Korea,,,rule
+D4-12,Dogon Masks,Sub-Saharan Africa,,,rule
+D4-13,Chiwara,Sub-Saharan Africa,,,rule
+D4-14,Senufo Masks,Sub-Saharan Africa,,,rule
+D4-15,Chokwe Masks,Sub-Saharan Africa,,,rule
+D4-16,Gelede,Sub-Saharan Africa,,,rule
+D4-17,Igbo Masks,Sub-Saharan Africa,1900,1933,objects
+D4-18,Dan Masks,Sub-Saharan Africa,1867,1900,objects
+D4-19,Sowei Masks,Sub-Saharan Africa,1800,1900,objects
+D4-20,Kuba Masks,Sub-Saharan Africa,,,rule
+D4-21,Kifwebe,Sub-Saharan Africa,,,rule
+D4-22,Pende Masks,Sub-Saharan Africa,1800,1933,objects
+D4-23,Punu Masks,Sub-Saharan Africa,,,rule
+D4-24,Northwest Coast Masks,North America (Indigenous),1873,1967,entries
+D4-25,Yup'ik Masks,North America (Indigenous),1900,1983,objects
+D4-26,Torres Strait Turtle-Shell Masks,Australia (Aboriginal),,,rule
+D4-27,Processional Giants,Western Europe,,,rule
+D4-28,Punch and Judy,Western Europe,1662,1662,rule
+D4-29,Czech Marionettes,Central & Eastern Europe,1700,1800,rule
+D4-30,Noh Masks,Japan,1300,1400,override
+D4-31,Gigaku Masks,Japan,600,800,override
+D4-32,Bugaku Masks,Japan,794,1185,rule
+D4-33,Mexican Masks,Mesoamerica & Caribbean,,,rule
+D5-1,Gandharan Art,Central Asia & Silk Road,-100,500,rule
+D5-2,Art of Mathura,South Asia,-200,1200,rule
+D5-3,Amaravati Art,South Asia,,,rule
+D5-4,Pala Art,South Asia,700,1200,rule
+D5-5,Chola Bronzes,South Asia,850,1280,rule
+D5-6,Dhokra,South Asia,,,rule
+D5-7,Bankura Horse,South Asia,,,rule
+D5-8,Molela Terracotta,South Asia,,,rule
+D5-9,Nepalese Sculpture,Himalaya,1000,1700,objects
+D5-10,Kashmiri Bronzes,Himalaya,500,1200,rule
+D5-11,Tibetan Buddhist Sculpture,Himalaya,1000,1100,rule
+D5-12,Zanabazar School,Himalaya,1635,1723,rule
+D5-13,Sino-Tibetan Sculpture,Himalaya,1271,1912,rule
+D5-14,Khmer Sculpture,Southeast Asia,500,1300,rule
+D5-15,Dvaravati Art,Southeast Asia,500,1100,rule
+D5-16,Cham Sculpture,Southeast Asia,600,1500,rule
+D5-17,Majapahit Terracotta,Southeast Asia,1200,1500,rule
+D5-18,Bulul,Southeast Asia,1400,1800,objects
+D5-19,Philippine Santos,Southeast Asia,1500,1600,rule
+D5-20,Haniwa,Japan,200,600,rule
+D5-21,Mingqi,China,-206,907,rule
+D5-22,Chinese Buddhist Sculpture,China,300,400,rule
+D5-23,Korean Buddhist Sculpture,Korea,-57,1897,rule
+D5-24,Japanese Buddhist Sculpture,Japan,538,1333,rule
+D5-25,Japanese Dolls (Ningyō),Japan,,,rule
+D5-26,Kokeshi,Japan,1800,1900,override
+D5-27,Huishan Clay Figurines,China,1368,1644,rule
+D5-28,Clay Figure Zhang,China,1826,1906,override
+D5-29,Tu'er Ye,China,1368,1644,rule
+D5-30,Nok Terracottas,Sub-Saharan Africa,-900,300,rule
+D5-31,Ife Art,Sub-Saharan Africa,1000,1450,rule
+D5-32,Benin Bronzes,Sub-Saharan Africa,1200,1900,rule
+D5-33,Lower Niger Bronze Industry,Sub-Saharan Africa,1300,1600,rule
+D5-34,Esie Soapstone Figures,Sub-Saharan Africa,1100,1500,rule
+D5-35,Djenné Terracottas,Sub-Saharan Africa,1100,1600,rule
+D5-36,Bura Terracottas,Sub-Saharan Africa,300,300,objects
+D5-37,Koma Terracottas,Sub-Saharan Africa,1100,1700,rule
+D5-38,Sao Terracottas,Sub-Saharan Africa,500,1600,rule
+D5-39,Lydenburg Heads,Sub-Saharan Africa,500,500,rule
+D5-40,Nomoli,Sub-Saharan Africa,1400,1600,rule
+D5-41,Zimbabwe Birds,Sub-Saharan Africa,1200,1500,rule
+D5-42,Yoruba Sculpture,Sub-Saharan Africa,1800,1933,objects
+D5-43,Dogon Sculpture,Sub-Saharan Africa,1400,1933,objects
+D5-44,Bamana Sculpture,Sub-Saharan Africa,1867,1925,objects
+D5-45,Senufo Sculpture,Sub-Saharan Africa,1800,1901,objects
+D5-46,Baule Sculpture,Sub-Saharan Africa,1800,1930,objects
+D5-47,Lobi Sculpture,Sub-Saharan Africa,1800,1933,objects
+D5-48,Akan Sculpture,Sub-Saharan Africa,1800,1930,objects
+D5-49,Chokwe Sculpture,Sub-Saharan Africa,1800,1900,rule
+D5-50,Luba Sculpture,Sub-Saharan Africa,1800,1930,objects
+D5-51,Lega Sculpture,Sub-Saharan Africa,1800,1925,objects
+D5-52,Ndop,Sub-Saharan Africa,1700,1900,rule
+D5-53,Makonde Sculpture,Sub-Saharan Africa,1950,1959,rule
+D5-54,Fantasy Coffins,Sub-Saharan Africa,1950,1959,override
+D5-55,Ancient Egyptian Sculpture,Ancient Near East,-2686,-1650,rule
+D5-56,Cycladic Figures,Greco-Roman & Byzantine Mediterranean,-3000,-2000,rule
+D5-57,Ancient Greek Sculpture,Greco-Roman & Byzantine Mediterranean,-323,-31,rule+mediterranean
+D5-58,Greek Terracotta Figurines,Greco-Roman & Byzantine Mediterranean,-323,-31,rule+mediterranean
+D5-59,Etruscan Sculpture,Greco-Roman & Byzantine Mediterranean,-700,0,rule
+D5-60,Roman Portraiture,Greco-Roman & Byzantine Mediterranean,,,rule
+D5-61,Roman Sculpture,Greco-Roman & Byzantine Mediterranean,,,rule
+D5-62,Olmec Sculpture,Mesoamerica & Caribbean,-1500,-400,rule
+D5-63,Maya Sculpture,Mesoamerica & Caribbean,250,700,objects
+D5-64,Aztec Sculpture,Mesoamerica & Caribbean,1300,1600,rule
+D5-65,Classic Veracruz Sculpture,Mesoamerica & Caribbean,-1000,600,objects
+D5-66,West Mexican Shaft-Tomb Figures,Mesoamerica & Caribbean,-300,400,rule
+D5-67,Chavín Sculpture,South America,-900,-200,rule
+D5-68,Valdivia Figurines,South America,-3500,-1500,rule
+D5-69,Estofado,Western Europe,-2500,1785,objects
+D5-70,Brazilian Baroque,South America,1600,1900,rule
+D5-71,Santos,Mesoamerica & Caribbean,1600,1800,objects
+D5-72,Alebrije,Mesoamerica & Caribbean,1980,1989,rule
+D5-73,Cartonería,Mesoamerica & Caribbean,,,rule
+D5-74,Caruaru Clay Figures,South America,,,rule
+D5-75,Haitian Metal Art,Mesoamerica & Caribbean,1899,1991,entries
+D5-76,Totem Poles,North America (Indigenous),1839,1998,entries
+D5-77,Inuit Sculpture,North America (Indigenous),1940,1949,rule
+D5-78,Kachina Dolls,Sub-Saharan Africa,1900,2000,rule
+D5-79,Zuni Fetishes,North America (Indigenous),1900,2000,rule
+D5-80,Storyteller Figures,North America (Indigenous),1964,1964,rule
+D5-81,Whakairo,Oceania (Pacific),1500,1880,objects
+D5-82,Malagan,Oceania (Pacific),,,rule
+D5-83,Uli,Oceania (Pacific),,,rule
+D5-84,Asmat Woodcarving,Oceania (Pacific),1900,1970,objects
+D5-85,Sepik Carving,Oceania (Pacific),1900,1930,objects
+D5-86,Massim Carving,Oceania (Pacific),1800,1919,objects
+D5-87,Nguzu Nguzu,Central & Eastern Europe,1800,1897,objects
+D5-88,Marquesan Carving,Oceania (Pacific),1800,1864,objects
+D5-89,Moai Kavakava,Oceania (Pacific),1600,1853,objects
+D5-90,Aurukun Sculpture,Australia (Aboriginal),1990,1999,override
+D5-91,Neapolitan Nativity Scene,Western Europe,1700,1800,rule
+D5-92,Wildfowl Decoys,North America (settler),1800,2000,rule
+D5-93,Weathervanes,North America (settler),1700,1900,rule
+D5-94,Estremoz Clay Figures,Western Europe,1600,1700,override
+D5-95,Matryoshka Doll,Central & Eastern Europe,1890,1890,rule
+D5-96,Polkhovsky Maidan,Central & Eastern Europe,,,rule
+D5-97,Bogorodskoye Carving,Central & Eastern Europe,,,override
+D5-98,Dymkovo Toys,"Islamic world (MENA, Iran, Anatolia)",,,rule
+D5-99,Filimonovo Toys,Central & Eastern Europe,,,override
+D5-100,Kargopol Toys,Central & Eastern Europe,,,override
+D5-101,Abashevo Toys,Central & Eastern Europe,,,override
+D5-102,Yavoriv Toy,Central & Eastern Europe,,,rule
+D5-103,Valky Whistle Toy,Central & Eastern Europe,,,rule
+D5-104,Wooden Toys of Hrvatsko Zagorje,Central & Eastern Europe,,,rule
+D5-105,Pauper Statues,Central & Eastern Europe,1700,1900,rule
+D5-106,Moai,Oceania (Pacific),1250,1500,rule
+D5-107,Archaic Greek Sculpture,Greco-Roman & Byzantine Mediterranean,-650,-480,rule+mediterranean
+D5-108,Classical Greek Sculpture,Greco-Roman & Byzantine Mediterranean,-480,-323,rule+mediterranean
+D5-109,Hellenistic Sculpture,Greco-Roman & Byzantine Mediterranean,-331,-323,rule
+D5-110,Romanesque Sculpture,Western Europe,1000,1200,rule
+D5-111,Gothic Sculpture,Western Europe,1140,1500,rule
+D5-112,Renaissance Sculpture,Western Europe,1400,1560,rule
+D5-113,Baroque Sculpture,Western Europe,1600,1800,override
+D5-114,Neoclassical Sculpture,Western Europe,1750,1840,override
+D5-115,Academic Sculpture,Western Europe,1800,1900,override
+D5-116,New Sculpture,Western Europe,1880,1910,rule
+D5-117,Animalier School,Western Europe,1800,1900,rule
+D5-118,Modern Sculpture,Transnational,1850,1944,override
+D5-119,Contemporary Sculpture,Western Europe,1945,1945,rule
+D5-120,Kinetic Art,North America (settler),1898,2005,entries
+D5-121,Minimalism,North America (settler),1960,1969,rule
+D5-122,Postminimalism,North America (settler),1960,1969,override
+D5-123,Kei School,Japan,1185,1333,rule
+D5-124,Garden Gnomes,Western Europe,1870,1879,override
+D5-125,Volterra Alabaster Carving,Western Europe,1700,1800,rule
+D5-126,Taxidermy,South Asia,1837,1901,rule
+D5-127,Meerschaum Carving,"Islamic world (MENA, Iran, Anatolia)",1700,1800,rule
+D5-128,Thanjavur Dolls,South Asia,,,rule
+D5-129,Erzgebirge Folk Art,Western Europe,1600,1700,override
+D5-130,Dala Horse,Western Europe,1800,1939,rule
+D5-131,Brienz Woodcarving,Western Europe,1816,1816,rule
+D5-132,Val Gardena Woodcarving,Western Europe,1600,1700,override
+D5-133,New British Sculpture,Western Europe,1980,1985,rule
+D5-134,Karajá Dolls (Ritxoko),South America,,,rule
+D5-135,Bahía Figurines,South America,-500,500,rule
+D5-136,Kushite Sculpture,Ancient Egypt & Nubia,-750,350,rule
+D5-137,Ancient Cypriot Sculpture,Western Europe,-323,-31,rule
+D5-138,Classical Javanese Sculpture,Southeast Asia,700,1500,rule
+D6-1,Kaavad,South Asia,,,rule
+D6-2,Minkisi,Sub-Saharan Africa,1800,1900,objects
+D6-3,Fang Reliquary Guardians,Sub-Saharan Africa,,,rule
+D6-4,Asen,Sub-Saharan Africa,1800,1900,objects
+D6-5,Taíno Zemís,Mesoamerica & Caribbean,800,1200,objects
+D6-6,Peruvian Retablo,South America,,,rule
+D6-7,Ceremonial Pipes,North America (settler),-600,1700,objects
+D6-8,Pukumani Poles,Australia (Aboriginal),1954,1954,objects
+D6-9,Toas,Australia (Aboriginal),1904,1904,override
+D6-10,Khachkar,Central & Eastern Europe,800,900,rule
+D6-11,Lithuanian Cross Crafting,Central & Eastern Europe,,,rule
+D6-12,Butsudan,Japan,,,rule
+D6-13,Nuchu,Mesoamerica & Caribbean,,,rule
+E1-1,Abbasid Tin-Glazed Ware,"Islamic world (MENA, Iran, Anatolia)",800,900,rule
+E1-2,Abbasid Lustreware,"Islamic world (MENA, Iran, Anatolia)",800,1000,rule
+E1-3,Fatimid Lustreware,"Islamic world (MENA, Iran, Anatolia)",900,1200,rule
+E1-4,Samanid Slipware,"Islamic world (MENA, Iran, Anatolia)",800,1000,rule
+E1-5,Splashware,China,800,900,rule
+E1-6,Persian Sgraffito Ware,"Islamic world (MENA, Iran, Anatolia)",900,1300,rule
+E1-7,Islamic Unglazed Pottery,"Islamic world (MENA, Iran, Anatolia)",900,1400,rule
+E1-8,Hispano-Moresque Ware,"Islamic world (MENA, Iran, Anatolia)",1200,1600,rule
+E1-9,Çanakkale Pottery,"Islamic world (MENA, Iran, Anatolia)",1600,1900,override
+E1-10,Fez Pottery,"Islamic world (MENA, Iran, Anatolia)",1865,1865,objects
+E1-11,Kabyle Pottery,"Islamic world (MENA, Iran, Anatolia)",,,rule
+E1-12,Sejnane Pottery,"Islamic world (MENA, Iran, Anatolia)",,,rule
+E1-13,Rishton Ceramics,Central Asia & Silk Road,,,rule
+E1-14,Ban Chiang Pottery,Southeast Asia,-300,-300,rule
+E1-15,Cham Pottery,Southeast Asia,,,rule
+E1-16,Kasongan Pottery,Southeast Asia,,,override
+E1-17,Yangshao Painted Pottery,China,-5000,-2000,rule
+E1-18,Jōmon Pottery,Japan,-300,0,rule
+E1-19,Yayoi Pottery,Japan,-300,300,rule
+E1-20,Tang Sancai,China,618,1279,rule
+E1-21,Raku Ware,Japan,1570,1579,override
+E1-22,Satsuma Ware,Japan,1598,1598,rule
+E1-23,Onggi,Korea,,,rule
+E1-24,Kgatleng Pottery,Sub-Saharan Africa,,,rule
+E1-25,Geometric Pottery,Greco-Roman & Byzantine Mediterranean,-900,-700,rule+mediterranean
+E1-26,Corinthian Vase Painting,Greco-Roman & Byzantine Mediterranean,-725,-550,rule
+E1-27,Black-Figure Pottery,Greco-Roman & Byzantine Mediterranean,-620,-480,rule+mediterranean
+E1-28,Red-Figure Pottery,Greco-Roman & Byzantine Mediterranean,-530,-530,rule+mediterranean
+E1-29,Laconian Vase Painting,Greco-Roman & Byzantine Mediterranean,-700,-500,rule
+E1-30,East Greek Vase Painting,Greco-Roman & Byzantine Mediterranean,-700,-500,rule+mediterranean
+E1-31,South Italian Vase Painting,Greco-Roman & Byzantine Mediterranean,-500,-200,rule
+E1-32,Gnathia Vases,Greco-Roman & Byzantine Mediterranean,-370,-250,override
+E1-33,Centuripe Ware,Greco-Roman & Byzantine Mediterranean,-300,-100,rule
+E1-34,Etruscan Vase Painting,Greco-Roman & Byzantine Mediterranean,-700,-200,rule
+E1-35,Bucchero,Greco-Roman & Byzantine Mediterranean,-700,-400,rule
+E1-36,Minoan Pottery,Greco-Roman & Byzantine Mediterranean,-2100,-1100,entries
+E1-37,Mycenaean Pottery,Greco-Roman & Byzantine Mediterranean,-1600,-1100,rule
+E1-38,Terra Sigillata,Greco-Roman & Byzantine Mediterranean,-100,300,rule
+E1-39,Hadra Vases,Greco-Roman & Byzantine Mediterranean,-300,-200,rule
+E1-40,Kerma Ware,Ancient Egypt & Nubia,-2500,-1500,rule
+E1-41,Meroitic Pottery,Ancient Egypt & Nubia,-100,400,rule
+E1-42,Nabataean Pottery,Ancient Near East,-100,200,rule
+E1-43,Maya Ceramics,Mesoamerica & Caribbean,250,900,rule
+E1-44,Teotihuacan Ceramics,Mesoamerica & Caribbean,-100,550,rule
+E1-45,Gran Coclé Pottery,Mesoamerica & Caribbean,700,1400,objects
+E1-46,Nicoya Polychrome,Mesoamerica & Caribbean,800,1500,rule
+E1-47,Moche Ceramics,South America,100,800,rule
+E1-48,Nazca Pottery,South America,-100,700,rule
+E1-49,Chimú Blackware,South America,900,1470,rule
+E1-50,Shipibo-Conibo Pottery,South America,1901,1965,objects
+E1-51,Talavera Poblana,Mesoamerica & Caribbean,1500,1600,rule
+E1-52,Barro Negro Pottery,Sub-Saharan Africa,1950,1959,rule
+E1-53,Tonalá Pottery,Mesoamerica & Caribbean,,,rule
+E1-54,Mata Ortiz Pottery,Mesoamerica & Caribbean,1970,1979,override
+E1-55,Tree of Life,Mesoamerica & Caribbean,,,override
+E1-56,Pucará Bulls,South America,,,override
+E1-57,Chulucanas Pottery,South America,,,override
+E1-58,Quinchamalí Pottery,South America,,,rule
+E1-59,Awajún Pottery,South America,,,rule
+E1-60,Goiabeiras Clay Pots,South America,,,rule
+E1-61,Ancestral Puebloan Pottery,North America (Indigenous),500,1300,rule
+E1-62,Mimbres Pottery,North America (Indigenous),1000,1130,rule
+E1-63,Hohokam Red-on-Buff Ware,North America (Indigenous),300,1450,rule
+E1-64,Salado Polychrome,North America (Indigenous),1275,1450,override
+E1-65,Casas Grandes Pottery,Mesoamerica & Caribbean,1200,1450,override
+E1-66,Pueblo Pottery,North America (Indigenous),1400,1979,objects
+E1-67,Acoma Pottery,North America (Indigenous),1940,1992,objects
+E1-68,Hopi Pottery,North America (Indigenous),1400,1895,rule
+E1-69,Black-on-Black Ware,Sub-Saharan Africa,1918,1918,rule
+E1-70,Mississippian Pottery,North America (Indigenous),800,1600,rule
+E1-71,Swift Creek Pottery,North America (Indigenous),150,150,objects
+E1-72,Weeden Island Pottery,North America (Indigenous),650,650,override
+E1-73,Catawba Pottery,South Asia,1920,1987,objects
+E1-74,Hermannsburg Potters,Australia (Aboriginal),1990,1990,rule
+E1-75,Maiolica,Western Europe,1400,1600,rule
+E1-76,Faience,Western Europe,1500,1600,rule
+E1-77,Delftware,Western Europe,1600,1800,rule
+E1-78,Saint-Porchaire Ware,Western Europe,1500,1600,rule
+E1-79,Staffordshire Pottery,Western Europe,1600,1900,override
+E1-80,Pennsylvania German Redware,North America (settler),1700,1900,rule
+E1-81,Talavera de la Reina Pottery,Mesoamerica & Caribbean,1500,1600,rule
+E1-82,Bisalhães Black Pottery,Western Europe,,,override
+E1-83,Gmundner Keramik,Western Europe,1400,1500,override
+E1-84,Émaux de Longwy,Western Europe,1870,1879,rule
+E1-85,Izraztsy,Central & Eastern Europe,1500,1900,rule
+E1-86,Skopin Ceramics,Central & Eastern Europe,1800,1900,override
+E1-87,Balkhar Pottery,Central & Eastern Europe,,,rule
+E1-88,Opishnia Ceramics,Central & Eastern Europe,,,rule
+E1-89,Kosiv Painted Ceramics,Central & Eastern Europe,,,rule
+E1-90,Sokal Ceramics,Central & Eastern Europe,,,rule
+E1-91,Bubnivka Ceramics,Central & Eastern Europe,,,rule
+E1-92,Oleshnia Pottery,Central & Eastern Europe,,,rule
+E1-93,Horezu Ceramics,Central & Eastern Europe,,,rule
+E1-94,Zlakusa Pottery,Central & Eastern Europe,,,rule
+E1-95,Impruneta Terracotta,Western Europe,1300,1400,rule
+E1-96,Thrapsano Pottery,Greco-Roman & Byzantine Mediterranean,-3000,-1100,rule
+E1-97,Encaustic Tiles,Western Europe,1200,1930,rule
+E1-98,Kachelofen,Western Europe,1400,1600,rule
+E1-99,Atlantic Watershed Pottery,Mesoamerica & Caribbean,-500,1550,rule
+E1-100,Diquís Pottery,Mesoamerica & Caribbean,300,1550,rule
+E1-101,Chiriquí Pottery,Mesoamerica & Caribbean,300,1500,rule
+E1-102,Ulúa Polychrome,Mesoamerica & Caribbean,600,1000,rule
+E1-103,Selin Pottery,Mesoamerica & Caribbean,300,1000,rule
+E1-104,Usulután Ware,Mesoamerica & Caribbean,-500,-500,rule
+E1-105,Zapotec Ceramics,Mesoamerica & Caribbean,-500,1500,rule
+E1-106,Mixteca-Puebla Polychrome,Mesoamerica & Caribbean,1200,1520,rule
+E1-107,Aztec Pottery,Mesoamerica & Caribbean,1150,1520,rule
+E1-108,Purépecha Pottery,Mesoamerica & Caribbean,1350,1530,override
+E1-109,Tumaco-La Tolita Ceramics,Oceania (Pacific),-600,350,rule
+E1-110,Jama-Coaque Ceramics,South America,-350,1530,rule
+E1-111,Manteño-Huancavilca Pottery,South America,800,1532,rule
+E1-112,Carchi-Nariño Pottery,South America,700,1500,rule
+E1-113,Quimbaya Pottery,South America,-500,1600,rule
+E1-114,Tairona Pottery,South America,,,rule
+E1-115,Inca Pottery,South America,1400,1532,rule
+E1-116,Wari Pottery,South America,600,1000,rule
+E1-117,Tiwanaku Pottery,South America,500,1000,rule
+E1-118,Sicán Pottery,South America,900,1100,rule
+E1-119,Chancay Pottery,South America,1000,1470,rule
+E1-120,Ica-Chincha Pottery,South America,1000,1476,rule
+E1-121,Humahuaca Pottery,South America,900,1535,rule
+E1-122,San Pedro de Atacama Pottery,Sub-Saharan Africa,-500,1450,rule
+E1-123,Mapuche Pottery,South America,,,rule
+E1-124,Chachi Pottery,South America,,,rule
+E1-125,Ngäbe Pottery,Mesoamerica & Caribbean,,,rule
+E1-126,Kali'na Pottery,South America,,,rule
+E1-127,Akawaio Pottery,South America,,,rule
+E1-128,Valencioid Pottery,South America,900,1500,rule
+E1-129,Tierroid Pottery,South America,,,rule
+E1-130,Saladoid Pottery,Mesoamerica & Caribbean,-500,600,rule
+E1-131,Ostionoid Pottery,Mesoamerica & Caribbean,600,1500,rule
+E1-132,Troumassoid Pottery,Mesoamerica & Caribbean,600,1500,rule
+E1-133,Mogollon Pottery,North America (Indigenous),,,rule
+E1-134,Yuman Pottery,Central & Eastern Europe,,,rule
+E1-135,Cherokee Pottery,North America (Indigenous),,,rule
+E1-136,Iroquoian Pottery,North America (settler),900,1650,rule
+E1-137,Susquehannock Pottery,North America (Indigenous),1550,1675,override
+E1-138,Pamunkey Pottery,North America (Indigenous),1930,1939,override
+E1-139,Deptford Pottery,North America (Indigenous),-800,700,rule
+E1-140,St. Johns Pottery,North America (Indigenous),-500,1565,override
+E1-141,Christian Nubian Pottery,Ancient Egypt & Nubia,550,1500,rule
+E1-142,Multan Blue Pottery,South Asia,,,rule
+E1-143,Ancient Cypriot Pottery,Western Europe,,,rule
+E1-144,Predynastic Egyptian Pottery,Ancient Near East,-4400,-3000,rule
+E1-145,Paracas Pottery,South America,-800,800,rule
+E1-146,Lydian Pottery,Ancient Near East,-800,-500,rule
+E2-1,Seljuk Pottery,"Islamic world (MENA, Iran, Anatolia)",1000,1300,rule
+E2-2,Kashan Lustreware,"Islamic world (MENA, Iran, Anatolia)",1100,1400,rule
+E2-3,Mina'i Ware,"Islamic world (MENA, Iran, Anatolia)",1100,1300,override
+E2-4,Lajvardina,"Islamic world (MENA, Iran, Anatolia)",1200,1400,rule
+E2-5,Raqqa Ware,"Islamic world (MENA, Iran, Anatolia)",1100,1300,rule
+E2-6,Sultanabad Ware,"Islamic world (MENA, Iran, Anatolia)",1200,1400,rule
+E2-7,Iznik Pottery,"Islamic world (MENA, Iran, Anatolia)",1400,1700,rule
+E2-8,Damascus Tiles,"Islamic world (MENA, Iran, Anatolia)",1500,1700,rule
+E2-9,Kubachi Ware,"Islamic world (MENA, Iran, Anatolia)",1500,1700,rule
+E2-10,Safavid Pottery,"Islamic world (MENA, Iran, Anatolia)",1500,1700,rule
+E2-11,Kütahya Ceramics,"Islamic world (MENA, Iran, Anatolia)",1700,1900,rule
+E2-12,Qajar Ceramics,"Islamic world (MENA, Iran, Anatolia)",1800,1900,rule
+E2-13,Qallaline Tiles,"Islamic world (MENA, Iran, Anatolia)",1600,1900,rule
+E2-14,Jaipur Blue Pottery,South Asia,1800,1900,rule
+E2-15,Egyptian Faience,"Islamic world (MENA, Iran, Anatolia)",,,rule
+E2-16,Mamluk Pottery,"Islamic world (MENA, Iran, Anatolia)",1250,1517,rule
+E3-1,Khmer Ceramics,Southeast Asia,800,1400,rule
+E3-2,Sawankhalok Ware,Southeast Asia,1300,1600,rule
+E3-3,Vietnamese Ceramics,Southeast Asia,1100,1700,objects
+E3-4,Yue Ware,China,-206,1279,rule
+E3-5,Yaozhou Ware,China,618,1368,rule
+E3-6,Longquan Celadon,China,960,1644,rule
+E3-7,Ru Ware,China,1086,1125,override
+E3-8,Guan Ware,China,960,1279,override
+E3-9,Jun Ware,China,960,1368,override
+E3-10,Jian Ware,China,960,1279,override
+E3-11,Cizhou Ware,China,960,1644,rule
+E3-12,Yixing Ware,China,1500,1600,override
+E3-13,Goryeo Celadon,Korea,900,1400,rule
+E3-14,Buncheong,Korea,1400,1600,rule
+E3-15,Seto Ware,Japan,1200,1300,rule
+E3-16,Shino Ware,Japan,1573,1615,rule
+E3-17,Oribe Ware,Japan,1600,1700,override
+E3-18,Bizen Ware,Japan,1400,1800,objects
+E3-19,Shigaraki Ware,Japan,1500,1800,override
+E3-20,Iga Ware,Japan,1573,1615,rule
+E3-21,Tamba Ware,Japan,1615,1868,rule
+E3-22,Tokoname Ware,Western Europe,,,rule
+E3-23,Echizen Ware,Japan,,,override
+E3-24,Karatsu Ware,Korea,1500,1600,rule
+E3-25,Hagi Ware,Korea,1604,1604,rule
+E3-26,Takatori Ware,Korea,1600,1700,rule
+E3-27,Agano Ware,Korea,1600,1700,rule
+E3-28,Kyō Ware,Japan,1600,1700,override
+E3-29,Onta Ware,Japan,1705,1705,rule
+E3-30,Koishiwara Ware,Japan,1600,1700,override
+E3-31,Mumyōi Ware,Japan,1800,1900,override
+E3-32,Rhenish Stoneware,Western Europe,1400,1900,rule
+E3-33,Banko Ware,Japan,1700,1800,rule
+E3-34,Mino Ware,Western Europe,1573,1615,rule
+E4-1,Bencharong,Southeast Asia,1351,1767,rule
+E4-2,Ding Ware,China,618,1368,rule
+E4-3,Xing Ware,China,618,907,rule
+E4-4,Qingbai Ware,China,960,1368,rule
+E4-5,Chinese Blue-and-White Porcelain,China,1271,1644,rule
+E4-6,Doucai,China,1465,1487,rule
+E4-7,Wucai,China,1522,1620,entries
+E4-8,Famille Verte,China,1662,1722,rule
+E4-9,Famille Rose,Western Europe,1720,1729,rule
+E4-10,Jingdezhen Porcelain,China,1368,1912,rule
+E4-11,Kraak Ware,China,1570,1650,rule
+E4-12,Swatow Ware,China,1500,1700,rule
+E4-13,Chinese Export Porcelain,China,1500,1900,rule
+E4-14,Dehua Porcelain,China,1368,1912,rule
+E4-15,Joseon White Porcelain,Korea,1400,1900,rule
+E4-16,Arita Ware,Japan,1616,1616,rule
+E4-17,Kakiemon,Western Europe,1640,1649,rule
+E4-18,Nabeshima Ware,Japan,1600,1900,override
+E4-19,Hirado Ware,China,1700,1900,rule
+E4-20,Kutani Ware,Japan,1600,1900,rule
+E4-21,Limoges Porcelain,Western Europe,1768,2000,rule
+E4-22,Gzhel,Central & Eastern Europe,1700,2000,rule
+E4-23,Meissen Porcelain,Western Europe,1710,1710,rule
+E4-24,Sèvres Porcelain,Western Europe,1756,1779,rule
+E4-25,Soft-Paste Porcelain,Western Europe,1700,1800,rule
+E4-26,Hard-Paste Porcelain,Western Europe,1700,1800,rule
+E4-27,Hasami Ware,Japan,1599,1599,rule
+F1-1,Beykoz Glass,"Islamic world (MENA, Iran, Anatolia)",1700,1900,rule
+F1-2,Syrian Glassblowing,"Islamic world (MENA, Iran, Anatolia)",,,rule
+F1-3,Roman Glass,Greco-Roman & Byzantine Mediterranean,-100,500,rule
+F1-4,Hellenistic Glass,Greco-Roman & Byzantine Mediterranean,-600,0,rule
+F1-5,Venetian Glass,Western Europe,1400,1500,rule
+F1-6,Art of Glass Beads,Western Europe,,,rule
+F1-7,Czech Blown Glass Bead Christmas Decorations,Central & Eastern Europe,,,rule
+F1-8,Līvāni Glassblowing,Central & Eastern Europe,1887,1887,rule
+F1-9,Art Nouveau Glass,Transnational,1885,1915,override
+F1-10,Studio Glass,Central & Eastern Europe,1962,1962,rule
+F1-11,Turkish Mosaic Lamp,"Islamic world (MENA, Iran, Anatolia)",,,rule
+F1-12,Swedish Art Glass,Western Europe,1910,1919,rule
+F1-13,Lauscha Glass,Western Europe,1500,1849,override
+F1-14,Edo Glass,Japan,1615,1868,rule
+F1-15,Roman Micromosaic,Greco-Roman & Byzantine Mediterranean,1700,1800,rule
+F1-16,Egyptian Hand-Blown Glass,"Islamic world (MENA, Iran, Anatolia)",,,rule
+F1-17,Shiraz Glass,"Islamic world (MENA, Iran, Anatolia)",1700,1900,rule
+F1-18,Krobo Beads,Sub-Saharan Africa,,,rule
+F2-1,Islamic Cut Glass,"Islamic world (MENA, Iran, Anatolia)",800,1100,rule
+F2-2,Bohemian Glass,Central & Eastern Europe,1600,1700,rule
+F2-3,Edo Kiriko,Japan,1834,1834,rule
+F2-4,Peking Glass,China,1696,1696,rule
+F3-1,Mamluk Enamelled Glass,"Islamic world (MENA, Iran, Anatolia)",1200,1400,rule
+F4-1,Islamic Lustre-Painted Glass,"Islamic world (MENA, Iran, Anatolia)",700,1100,rule
+F5-1,Medieval Stained Glass,Western Europe,1100,1500,rule
+F5-2,Painted Glass Roundels,Western Europe,1480,1560,rule
+F5-3,Tiffany Glass,North America (settler),1878,1933,rule
+G1-1,Khurasan Metalwork,"Islamic world (MENA, Iran, Anatolia)",1100,1300,rule
+G1-2,Mosul School of Metalwork,"Islamic world (MENA, Iran, Anatolia)",1200,1300,rule
+G1-3,Mamluk Metalwork,"Islamic world (MENA, Iran, Anatolia)",1250,1517,rule
+G1-4,Veneto-Saracenic Metalwork,Western Europe,1400,1600,rule
+G1-5,Ottoman Tombak,"Islamic world (MENA, Iran, Anatolia)",1600,1900,rule
+G1-6,Bidri Ware,South Asia,1300,1400,rule
+G1-7,Koftgari,South Asia,1526,1857,rule
+G1-8,Islamic Astrolabes,"Islamic world (MENA, Iran, Anatolia)",1238,1659,entries
+G1-9,Firoozeh Koobi,"Islamic world (MENA, Iran, Anatolia)",,,rule
+G1-10,Persian Metalwork,"Islamic world (MENA, Iran, Anatolia)",1300,1400,rule
+G1-11,Sogdian Silver,Central Asia & Silk Road,500,900,rule
+G1-12,Animal Style,Ancient Near East,-900,300,rule
+G1-13,Dong Son Drums,China,-500,300,rule
+G1-14,Burmese Silver,Southeast Asia,1800,2000,rule
+G1-15,Chinese Ritual Bronzes,China,-1600,220,rule
+G1-16,Ordos Bronzes,China,-600,0,rule
+G1-17,Yugi,Korea,,,rule
+G1-18,Ipsa,Korea,918,1897,rule
+G1-19,Ethiopian Crosses,Sub-Saharan Africa,1400,1867,objects
+G1-20,Akan Goldweights,Sub-Saharan Africa,1500,1900,objects
+G1-21,Igbo-Ukwu Bronzes,Sub-Saharan Africa,800,1000,rule
+G1-22,Luristan Bronzes,Ancient Near East,-1000,0,rule
+G1-23,Achaemenid Metalwork,Ancient Near East,-600,-300,rule
+G1-24,Sasanian Silver,Ancient Near East,200,700,rule
+G1-25,Etruscan Mirrors,Greco-Roman & Byzantine Mediterranean,-600,-100,rule
+G1-26,Moche Metalwork,South America,100,800,rule
+G1-27,Sicán Metalwork,South America,900,1100,rule
+G1-28,Chimú Metalwork,South America,900,1470,rule
+G1-29,Inca Metalwork,South America,1400,1532,rule
+G1-30,Muisca Goldwork,South America,600,1600,rule
+G1-31,Colonial Andean Silverwork,South America,1500,1900,rule
+G1-32,La Tène Art,Greco-Roman & Byzantine Mediterranean,-450,-450,rule
+G1-33,Migration Period Art,Western Europe,300,800,rule
+G1-34,Anglo-Saxon Metalwork,Western Europe,400,1100,rule
+G1-35,Viking Art,Western Europe,750,1100,rule
+G1-36,South Staffordshire Enamels,Western Europe,1750,1800,rule
+G1-37,Ormolu,Western Europe,1600,1900,rule
+G1-38,Kubachi Silver,Central & Eastern Europe,,,rule
+G1-39,Kasli Iron Casting,Central & Eastern Europe,1800,1900,override
+G1-40,Finift,Central & Eastern Europe,1700,1800,rule
+G1-41,Hutsul Metalwork,Central & Eastern Europe,,,rule
+G1-42,Drotárstvo,Central & Eastern Europe,,,rule
+G1-43,Limoges Enamel,Western Europe,1150,1630,rule
+G1-44,Augsburg Goldsmiths' Work,Western Europe,1500,1800,rule
+G1-45,English Silver,Western Europe,1685,1900,rule
+G1-46,Byzantine Enamel,Greco-Roman & Byzantine Mediterranean,500,1200,rule
+G1-47,Chinese Cloisonné,China,1426,1435,rule
+G1-48,Japanese Cloisonné,Japan,1830,1910,rule
+G1-49,Mosan Art,Western Europe,1000,1300,rule
+G1-50,Jura Watchmaking,Western Europe,1600,1700,rule
+G1-51,Black Forest Clockmaking,Western Europe,1850,1861,override
+G1-52,London Clockmaking,Western Europe,1660,1800,rule
+G1-53,Glashütte Watchmaking,Western Europe,1845,1845,rule
+G1-54,Comtoise Clockmaking,Western Europe,1680,1910,rule
+G1-55,Mora Clockmaking,Western Europe,,,rule
+G1-56,Wadokei,Japan,1615,1868,rule
+G1-57,Vienna Regulator Clockmaking,Western Europe,1780,1930,override
+G1-58,Connecticut Clockmaking,North America (settler),1814,1814,rule
+G1-59,Moroccan Metalwork,"Islamic world (MENA, Iran, Anatolia)",,,rule
+G1-60,Nanbu Tekki,Japan,1600,1700,override
+G1-61,Solingen Cutlery,Western Europe,1731,1869,entries
+G1-62,Thiers Cutlery,Western Europe,1829,1829,entries
+G1-63,Uchihamono,Japan,1337,1868,entries
+G1-64,Sheffield Cutlery,Western Europe,1624,1749,override
+G1-65,European Scientific Instruments,Western Europe,1800,1900,rule
+G1-66,Nachiarkoil Lamps,South Asia,1857,2010,rule
+G1-67,Western Silversmithing,North America (settler),1920,1929,rule
+G1-68,Chinese Bronze Mirrors,China,-475,1644,rule
+G1-69,Byzantine Silver,Greco-Roman & Byzantine Mediterranean,300,700,rule
+G1-70,Etruscan Bronzes,Greco-Roman & Byzantine Mediterranean,-800,0,rule
+G1-71,Roman Metalwork,Greco-Roman & Byzantine Mediterranean,,,rule
+G1-72,Ancient Greek Bronzes,Greco-Roman & Byzantine Mediterranean,-323,-31,rule+mediterranean
+G1-73,Vicús Metalwork,South America,-200,600,rule
+G2-1,Islamic Arms and Armour,"Islamic world (MENA, Iran, Anatolia)",1250,1922,rule
+G2-2,Kris,Southeast Asia,,,rule
+G2-3,Japanese Swords,Japan,794,1813,entries
+G2-4,Japanese Sword Mountings,Japan,1336,1912,rule
+G2-5,Milanese Armour,Western Europe,1400,1600,rule
+G2-6,Puukko,Central & Eastern Europe,1649,1928,entries
+G2-7,Longquan Swords,China,2006,2006,override
+G2-8,Khukuri,Himalaya,,,rule
+G2-9,Yumi,Japan,1615,1868,rule
+G2-10,Gakgung,Korea,1392,1897,rule
+G2-11,German Gothic Armour,Western Europe,1420,1530,rule
+G2-12,Japanese Armour,Japan,794,1868,rule
+G2-13,Kiribati Armour,Oceania (Pacific),,,rule
+G3-1,Fatimid Jewellery,"Islamic world (MENA, Iran, Anatolia)",900,1200,rule
+G3-2,Mughal Jewellery,South Asia,1526,1857,rule
+G3-3,Bedouin Jewellery,"Islamic world (MENA, Iran, Anatolia)",1850,1850,objects
+G3-4,Berber Jewellery,"Islamic world (MENA, Iran, Anatolia)",1800,1900,objects
+G3-5,Javanese Gold Jewellery,Southeast Asia,700,1500,rule
+G3-6,Miao Silver Ornaments,China,1850,1915,objects
+G3-7,Jangdo,Korea,,,rule
+G3-8,Tairona Goldwork,South America,900,1600,rule
+G3-9,Quimbaya Goldwork,South America,1,800,objects
+G3-10,Calima Goldwork,South America,1,1,objects
+G3-11,Tolima Goldwork,South America,100,100,objects
+G3-12,Isthmian Goldwork,Mesoamerica & Caribbean,400,1000,objects
+G3-13,Mixtec Goldwork,Mesoamerica & Caribbean,-1350,1200,objects
+G3-14,Mapuche Silverwork,South America,1700,1800,rule
+G3-15,Navajo Silverwork,North America (Indigenous),1850,1889,rule
+G3-16,Zuni Jewelry,North America (Indigenous),1920,1929,rule
+G3-17,Heishe,North America (Indigenous),,,rule
+G3-18,Trade Silver,Western Europe,1700,1900,rule
+G3-19,Riji,Australia (Aboriginal),1800,1915,objects
+G3-20,Fabergé,Central & Eastern Europe,1842,1918,override
+G3-21,Hairwork,Western Europe,1800,1900,override
+G3-22,Temple Jewellery,South Asia,,,rule
+G3-23,Thewa,South Asia,1700,1800,rule
+G3-24,Tarakasi,South Asia,,,rule
+G3-25,Hopi Silverwork,North America (Indigenous),1930,1939,rule
+G3-26,Taxco Silver,Mesoamerica & Caribbean,1931,1931,rule
+G3-27,Kanzashi,Japan,1615,1868,rule
+G3-28,Silla Goldwork,Korea,400,600,rule
+G3-29,Tumaco-La Tolita Goldwork,South America,-600,350,override
+G3-30,Zenú Goldwork,Mesoamerica & Caribbean,-200,1000,rule
+G3-31,Ancient Egyptian Jewellery & Amulets,"Islamic world (MENA, Iran, Anatolia)",,,rule
+G3-32,Turkmen Jewellery,Central Asia & Silk Road,1800,2000,rule
+H1-1,Persian Carpet,"Islamic world (MENA, Iran, Anatolia)",1501,1736,rule
+H1-2,Anatolian Rug,"Islamic world (MENA, Iran, Anatolia)",1037,1308,rule
+H1-3,Mamluk Carpet,"Islamic world (MENA, Iran, Anatolia)",1400,1600,rule
+H1-4,Caucasian Carpet,"Islamic world (MENA, Iran, Anatolia)",1770,1870,objects
+H1-5,Turkmen Carpet,Central Asia & Silk Road,1800,1850,objects
+H1-6,Baluch Rug,"Islamic world (MENA, Iran, Anatolia)",,,rule
+H1-7,Afghan Rug,Central Asia & Silk Road,1979,1979,rule
+H1-8,Mughal Carpet,South Asia,1500,1700,rule
+H1-9,Moroccan Rug,"Islamic world (MENA, Iran, Anatolia)",,,rule
+H1-10,Freest Fisherman's Carpets,Western Europe,1920,1929,override
+H1-11,Ryijy,Central & Eastern Europe,1700,1800,rule
+H1-12,Chinese Carpet,China,1600,1700,rule
+H1-13,Tibetan Rug,Himalaya,1800,2000,rule
+H1-14,Savonnerie Carpet,"Islamic world (MENA, Iran, Anatolia)",1615,1825,rule
+H2-1,Kilim,Ancient Near East,,,rule
+H2-2,Soumak,"Islamic world (MENA, Iran, Anatolia)",,,rule
+H2-3,Al Sadu,"Islamic world (MENA, Iran, Anatolia)",,,rule
+H2-4,Inca Textiles,South America,1438,1533,rule
+H2-5,Wari Textiles,South America,600,1000,rule
+H2-6,Colonial Andean Tapestry,South America,1500,1900,rule
+H2-7,Andean Textiles,South America,1880,1990,objects
+H2-8,Taquile Textile Art,South America,,,override
+H2-9,Saltillo Serape,Mesoamerica & Caribbean,1700,1900,rule
+H2-10,Navajo Weaving,North America (Indigenous),1870,1982,objects
+H2-11,Chilkat Weaving,North America (Indigenous),1800,1900,objects
+H2-12,Coast Salish Weaving,North America (Indigenous),1960,1969,rule
+H2-13,Chimayó Weaving,Mesoamerica & Caribbean,,,rule
+H2-14,Māori Weaving,Oceania (Pacific),1750,1900,objects
+H2-15,Ceinture Fléchée,Western Europe,,,rule
+H2-16,Raanu,Central & Eastern Europe,,,rule
+H2-17,Chiprovtsi Kilim,Central & Eastern Europe,1600,1700,rule
+H2-18,Pirot Kilim,Central & Eastern Europe,,,rule
+H2-19,Sjenica-Pešter Kilim,Central & Eastern Europe,,,rule
+H2-20,Stapar Rugs,Central & Eastern Europe,,,rule
+H2-21,Kotsy,Central & Eastern Europe,,,rule
+H2-22,Reshetylivka Carpets,Central & Eastern Europe,,,rule
+H2-23,Romanian and Moldovan Wall Carpets,Central & Eastern Europe,,,rule
+H2-24,Mapuche Textiles,South America,,,rule
+H2-25,Chimú Textiles,South America,900,1470,rule
+H2-26,Nasca Textiles,South America,-100,700,rule
+H3-1,Tiraz,"Islamic world (MENA, Iran, Anatolia)",800,1468,objects
+H3-2,Safavid Silk Textiles,"Islamic world (MENA, Iran, Anatolia)",1501,1736,rule
+H3-3,Ottoman Silk Textiles,"Islamic world (MENA, Iran, Anatolia)",1400,1700,rule
+H3-4,Nasrid Silk,"Islamic world (MENA, Iran, Anatolia)",1200,1500,rule
+H3-5,Termeh,"Islamic world (MENA, Iran, Anatolia)",,,rule
+H3-6,Kashmir Shawl,Himalaya,1600,1900,rule
+H3-7,Banarasi Brocade,South Asia,1526,1857,rule
+H3-8,Jamdani,South Asia,,,rule
+H3-9,Kanchipuram Silk,South Asia,,,override
+H3-10,Paithani,South Asia,,,override
+H3-11,Songket,Southeast Asia,1801,1901,objects
+H3-12,Lampung Ship Cloths,Southeast Asia,1800,1895,objects
+H3-13,Piña,Southeast Asia,,,override
+H3-14,Inabel,Southeast Asia,,,override
+H3-15,Naga Motif Weaving in Lao Communities,Southeast Asia,1801,1955,objects
+H3-16,Kesi,China,618,1912,rule
+H3-17,Zhuang Brocade,China,,,rule
+H3-18,Li Textiles,China,,,rule
+H3-19,Shuri Weaving,Japan,,,rule
+H3-20,Bashōfu,Japan,,,rule
+H3-21,Echigo-jōfu and Ojiya-chijimi,Japan,,,override
+H3-22,Hansan Mosi,Korea,,,override
+H3-23,Kente Cloth,Sub-Saharan Africa,,,rule
+H3-24,Aso Oke,Sub-Saharan Africa,,,rule
+H3-25,Akwete Cloth,Sub-Saharan Africa,,,rule
+H3-26,Ivorian Loincloth Weaving,Sub-Saharan Africa,,,rule
+H3-27,Coptic Textiles,Ancient Egypt & Nubia,200,800,rule
+H3-28,Maya Textiles,Mesoamerica & Caribbean,1930,1990,objects
+H3-29,Chancay Textiles,South America,1000,1470,rule
+H3-30,Flemish Tapestry,Western Europe,1300,1700,rule
+H3-31,Aubusson Tapestry,Western Europe,1500,2000,override
+H3-32,Täkänä,Central & Eastern Europe,,,rule
+H3-33,Northern Vidzeme Double-Weave Blankets,Central & Eastern Europe,,,rule
+H3-34,Sigulda Belts,Central & Eastern Europe,,,rule
+H3-35,Bezdan Damask,Central & Eastern Europe,1880,1889,rule
+H3-36,Serpanok Weaving,Central & Eastern Europe,,,rule
+H3-37,Hlyniany Textile,Central & Eastern Europe,,,rule
+H3-38,Obukhovychi Weaving,Central & Eastern Europe,,,rule
+H3-39,Gobelins Tapestry,Western Europe,1662,1662,rule
+H3-40,Beauvais Tapestry,Western Europe,1664,1664,rule
+H3-41,Chanderi,South Asia,,,override
+H3-42,Maheshwari,South Asia,1700,1800,override
+H3-43,Mangalagiri,South Asia,,,rule
+H3-44,Tangaliya,South Asia,,,rule
+H3-45,Kasavu,South Asia,,,rule
+H3-46,Kota Doria,South Asia,,,rule
+H3-47,Nishijin-ori,Japan,794,1185,rule
+H3-48,Acheik,Southeast Asia,,,rule
+H3-49,Shemma,Sub-Saharan Africa,,,rule
+H3-50,Oaxacan Textiles,Mesoamerica & Caribbean,1930,1985,objects
+H3-51,Tartan,Western Europe,1800,1900,rule
+H3-52,Tweed,Western Europe,,,rule
+H3-53,Faso Dan Fani,Sub-Saharan Africa,1983,1983,rule
+H3-54,Welsh Tapestry,Western Europe,1800,1900,rule
+H3-55,Trade Blankets,North America (settler),1779,1909,entries
+H3-56,Peshtemal,"Islamic world (MENA, Iran, Anatolia)",1299,1922,rule
+H3-57,Irish Linen,Western Europe,1600,1700,rule
+H3-58,Basque Linen,Western Europe,,,rule
+H3-59,Linen Damask,Western Europe,1500,1600,rule
+H3-60,Mughal Textiles,South Asia,1500,1800,rule
+H4-1,Suzani,Central Asia & Silk Road,1350,1850,objects
+H4-2,Ottoman Embroidery,"Islamic world (MENA, Iran, Anatolia)",1299,1922,rule
+H4-3,Palestinian Embroidery,"Islamic world (MENA, Iran, Anatolia)",1880,1930,objects
+H4-4,Pateh,Ancient Egypt & Nubia,,,rule
+H4-5,Rasht Embroidery,"Islamic world (MENA, Iran, Anatolia)",,,rule
+H4-6,Oya,"Islamic world (MENA, Iran, Anatolia)",,,rule
+H4-7,Khayamiya,"Islamic world (MENA, Iran, Anatolia)",,,rule
+H4-8,Balochi Needlework,"Islamic world (MENA, Iran, Anatolia)",,,rule
+H4-9,Phulkari,South Asia,,,rule
+H4-10,Chikankari,South Asia,,,override
+H4-11,Kantha,South Asia,,,rule
+H4-12,Sujani,South Asia,,,override
+H4-13,Ralli Quilt,South Asia,,,rule
+H4-14,Chakan,Central Asia & Silk Road,,,rule
+H4-15,Khamak,Central Asia & Silk Road,,,rule
+H4-16,Turkmen Needlework,Central Asia & Silk Road,,,rule
+H4-17,Tapis,Southeast Asia,1801,1901,override
+H4-18,Kalaga,Southeast Asia,1830,1875,objects
+H4-19,Tekat,Southeast Asia,,,rule
+H4-20,Suzhou Embroidery,China,,,rule
+H4-21,Xiang Embroidery,China,,,override
+H4-22,Shu Embroidery,China,,,override
+H4-23,Cantonese Embroidery,China,,,override
+H4-24,Gu Embroidery,China,-206,1644,rule
+H4-25,Korean Embroidery,Korea,1392,1897,rule
+H4-26,Bojagi,Korea,1801,1999,objects
+H4-27,Sashiko,Japan,,,rule
+H4-28,Hmong Textile Art,China,1880,1955,objects
+H4-29,Ainu Textiles,Japan,1800,1898,objects
+H4-30,Kuba Raffia Textiles,Sub-Saharan Africa,1800,1925,objects
+H4-31,Asafo Flags,Sub-Saharan Africa,,,rule
+H4-32,Paracas Textiles,South America,-300,-300,rule
+H4-33,Mola,Mesoamerica & Caribbean,1925,2002,objects
+H4-34,Arpillera,South America,,,rule
+H4-35,Drapo Vodou,Mesoamerica & Caribbean,,,rule
+H4-36,Ñandutí,South America,,,rule
+H4-37,Divina Pastora Irish Lace,Western Europe,,,rule
+H4-38,Seminole Patchwork,North America (Indigenous),1900,2000,rule
+H4-39,Ribbonwork,North America (Indigenous),1700,1800,rule
+H4-40,Moosehair Embroidery,North America (Indigenous),1800,1880,objects
+H4-41,Star Quilts,North America (Indigenous),,,rule
+H4-42,Tivaevae,Oceania (Pacific),,,rule
+H4-43,Opus Anglicanum,Western Europe,1200,1400,rule
+H4-44,Bucks Point Lace,Western Europe,1700,1900,rule
+H4-45,Bedfordshire Lace,Western Europe,1800,1900,rule
+H4-46,Amish Quilts,North America (settler),1870,1950,rule
+H4-47,Hooked Rugs,North America (settler),1800,1900,rule
+H4-48,Greek Island Embroidery,Western Europe,1600,1900,rule
+H4-49,Hardanger Embroidery,Western Europe,,,rule
+H4-50,Mountmellick Embroidery,Western Europe,1825,1825,rule
+H4-51,Arraiolos Rug,Western Europe,1600,1700,rule
+H4-52,Bordados da Glória do Ribatejo,Western Europe,,,override
+H4-53,Alençon Lace,Western Europe,1660,1900,rule
+H4-54,Burano Lace,Western Europe,1872,1872,rule
+H4-55,Lefkara Lace,Western Europe,,,rule
+H4-56,Brussels Lace,Western Europe,1600,1900,rule
+H4-57,Mechlin Lace,Western Europe,1700,1800,rule
+H4-58,Quill Embroidery,Western Europe,,,rule
+H4-59,Honiton Lace,Western Europe,1840,1840,rule
+H4-60,Le Puy Lace,Western Europe,1825,1910,override
+H4-61,Maltese Lace,Western Europe,1800,1900,rule
+H4-62,Headford Lace,Western Europe,1700,2026,override
+H4-63,Carrickmacross Lace,Western Europe,1820,1820,rule
+H4-64,Limerick Lace,Western Europe,1829,1829,rule
+H4-65,Irish Crochet Lace,Western Europe,1840,1849,rule
+H4-66,Ukrainian Embroidery,Central & Eastern Europe,,,rule
+H4-67,Rushnyk,Central & Eastern Europe,,,rule
+H4-68,Belarusian Embroidery,Central & Eastern Europe,,,rule
+H4-69,Chuvash Embroidery,Central & Eastern Europe,,,rule
+H4-70,Mari Embroidery,Central & Eastern Europe,,,rule
+H4-71,Karelian Embroidery,Central & Eastern Europe,,,rule
+H4-72,Krestets Stitch,Central & Eastern Europe,,,rule
+H4-73,Mstyora Embroidery,Central & Eastern Europe,,,override
+H4-74,Muhu Embroidery,Central & Eastern Europe,,,rule
+H4-75,Matyó Embroidery,Central & Eastern Europe,,,rule
+H4-76,Zmijanje Embroidery,Central & Eastern Europe,,,override
+H4-77,Macedonian Embroidery,Greco-Roman & Byzantine Mediterranean,,,rule
+H4-78,Kosovo-Style Embroidery,Central & Eastern Europe,,,rule
+H4-79,Altiță,Central & Eastern Europe,,,rule
+H4-80,Syrian-Armenian Embroidery,"Islamic world (MENA, Iran, Anatolia)",,,rule
+H4-81,Armenian Needlelace,Central & Eastern Europe,,,rule
+H4-82,Tatar Leather Mosaic,Central & Eastern Europe,,,rule
+H4-83,Orenburg Shawl,Central & Eastern Europe,,,override
+H4-84,Vologda Lace,Central & Eastern Europe,1800,1900,override
+H4-85,Yelets Lace,Central & Eastern Europe,,,override
+H4-86,Rauma Lace,Central & Eastern Europe,1700,1800,rule
+H4-87,Lace-Making in Heinämaa,Central & Eastern Europe,,,rule
+H4-88,Knipelēšana,Central & Eastern Europe,,,rule
+H4-89,Idrija Lace,Central & Eastern Europe,1600,1700,rule
+H4-90,Lacemaking in Croatia,Central & Eastern Europe,,,rule
+H4-91,Venetian Lace,Western Europe,1500,1800,rule
+H4-92,Quilting,Western Europe,1700,1800,rule
+H4-93,Quilts of Gee's Bend,North America (settler),1800,1900,override
+H4-94,Aran Knitting,Western Europe,1950,1959,override
+H4-95,Gansey Knitting,Western Europe,,,rule
+H4-96,Fair Isle Knitting,Western Europe,1921,1921,override
+H4-97,Lopapeysa,Western Europe,1900,2000,rule
+H4-98,Norwegian Knitting,Western Europe,1900,2000,rule
+H4-99,Cowichan Knitting,North America (Indigenous),1800,1900,rule
+H4-100,Sukajan,Japan,1945,1945,override
+H4-101,Nyonya Kebaya,Southeast Asia,,,rule
+H4-102,Majboud Embroidery,"Islamic world (MENA, Iran, Anatolia)",,,rule
+H4-103,Hausa Embroidery,Sub-Saharan Africa,,,rule
+H4-104,Crewelwork,Western Europe,1600,1700,rule
+H4-105,Stumpwork,Western Europe,1650,1700,rule
+H4-106,Berlin Wool Work,Western Europe,1804,1875,rule
+H4-107,Kutch Embroidery,South Asia,,,rule
+H4-108,Valenciennes Lace,Western Europe,1600,1700,rule
+H4-109,Needlework Samplers,North America (settler),1500,1600,rule
+H4-110,Button Blankets,North America (Indigenous),,,rule
+H5-1,Central Asian Ikat,Central Asia & Silk Road,1865,1870,objects
+H5-2,Qalamkar,"Islamic world (MENA, Iran, Anatolia)",,,rule
+H5-3,Indian Chintz,South Asia,1600,1800,rule
+H5-4,Kalamkari,South Asia,1700,1770,objects
+H5-5,Ajrakh,South Asia,,,override
+H5-6,Bandhani,South Asia,,,rule
+H5-7,Leheriya,South Asia,,,rule
+H5-8,Patola,South Asia,,,rule
+H5-9,Rogan Art,South Asia,,,override
+H5-10,Indonesian Batik,Southeast Asia,,,rule
+H5-11,Malaysian Batik,Southeast Asia,,,rule
+H5-12,Indonesian Ikat,Southeast Asia,,,rule
+H5-13,Geringsing,Southeast Asia,,,rule
+H5-14,Tais,Southeast Asia,,,rule
+H5-15,Pua Kumbu,Southeast Asia,1801,1901,override
+H5-16,T'nalak,Southeast Asia,,,rule
+H5-17,Telepuk,Southeast Asia,,,rule
+H5-18,Yūzen,Japan,1600,1700,override
+H5-19,Katazome,Japan,1863,1863,objects
+H5-20,Bingata,Japan,1429,1900,objects
+H5-21,Tsutsugaki,Japan,1900,2000,rule
+H5-22,Shibori,Japan,1573,1615,rule
+H5-23,Kasuri,Japan,,,rule
+H5-24,Bai Tie-Dye,China,,,rule
+H5-25,Geumbak,Korea,,,rule
+H5-26,Bògòlanfini,Sub-Saharan Africa,1949,1994,entries
+H5-27,Adire,Sub-Saharan Africa,,,rule
+H5-28,Adinkra Cloth,Sub-Saharan Africa,,,rule
+H5-29,Ndop Cloth,Sub-Saharan Africa,1900,1910,objects
+H5-30,Kanga,Sub-Saharan Africa,,,rule
+H5-31,Rebozo,Mesoamerica & Caribbean,,,rule
+H5-32,Blaudruck,Western Europe,,,rule
+H5-33,Staphorster Stipwerk,Western Europe,,,override
+H5-34,Pavlovo Posad Shawl,Central & Eastern Europe,1860,1869,override
+H5-35,Kelaghayi,Central & Eastern Europe,,,rule
+H5-36,African Wax Prints,Sub-Saharan Africa,1846,1846,rule
+H5-37,Khmer Silk Weaving,Southeast Asia,1880,1900,objects
+H5-38,Shweshwe,Sub-Saharan Africa,1800,1900,rule
+H5-39,Indian Ikat,South Asia,,,rule
+H5-40,Rajasthani Block Printing,South Asia,1500,1700,rule
+H5-41,Indiennes,Western Europe,1600,1759,rule
+H6-1,Kyrgyz and Kazakh Felt,Central Asia & Silk Road,,,rule
+H7-1,Palestinian Costume,"Islamic world (MENA, Iran, Anatolia)",,,rule
+H7-2,Ottoman Court Dress,"Islamic world (MENA, Iran, Anatolia)",1299,1922,rule
+H7-3,Possum-Skin Cloak,Australia (Aboriginal),1990,1999,rule
+H7-4,Gákti,Central & Eastern Europe,,,rule
+H7-5,Bunad,Western Europe,1800,1900,rule
+H7-6,Swedish Folk Costume,Western Europe,,,rule
+H7-7,Tracht,Western Europe,,,rule
+H7-8,Traditional Albanian Clothing,Central & Eastern Europe,,,rule
+H7-9,Croatian National Costume,Central & Eastern Europe,,,rule
+H7-10,Macedonian Traditional Clothing,Greco-Roman & Byzantine Mediterranean,,,rule
+H7-11,Erzya Costume,Central & Eastern Europe,,,rule
+H7-12,Kimono,Japan,1573,1912,rule
+H7-13,Basotho Blanket,Sub-Saharan Africa,1870,1879,rule
+H7-14,Savile Row Tailoring,Western Europe,1800,1900,rule
+H7-15,Neapolitan Tailoring,Western Europe,1900,2000,rule
+H7-16,Qipao,China,1920,1929,rule
+H7-17,Moroccan Caftan,"Islamic world (MENA, Iran, Anatolia)",,,rule
+H7-18,Tlemcen Wedding Costume,"Islamic world (MENA, Iran, Anatolia)",,,rule
+H7-19,Highland Dress,Western Europe,1700,1800,rule
+H7-20,Pollera,Mesoamerica & Caribbean,,,rule
+H7-21,Klederdracht,Western Europe,1900,2026,rule
+H7-22,Inuit Clothing,North America (Indigenous),,,rule
+H7-23,Haute Couture & Fashion Design,Transnational,1858,1947,override
+H8-1,Dumbara Mats,South Asia,,,rule
+H8-2,Noken,Oceania (Pacific),,,rule
+H8-3,Daluang,Southeast Asia,,,rule
+H8-4,Kumihimo,Japan,,,rule
+H8-5,Maedeup,Korea,,,rule
+H8-6,Chaesang,Korea,,,rule
+H8-7,Wanchojang,Korea,,,rule
+H8-8,Ugandan Barkcloth,Sub-Saharan Africa,,,rule
+H8-9,Mbuti Barkcloth,Sub-Saharan Africa,1900,1950,override
+H8-10,Agaseke,Sub-Saharan Africa,1900,1900,objects
+H8-11,Panama Hat,Mesoamerica & Caribbean,,,rule
+H8-12,Pomo Basketry,North America (Indigenous),1875,1910,objects
+H8-13,California Indian Basketry,South Asia,1875,1969,objects
+H8-14,Spruce-Root Basketry,North America (Indigenous),1850,1994,objects
+H8-15,Unangan Grass Basketry,North America (Indigenous),1867,1867,rule
+H8-16,Plateau Cornhusk Bags,South Asia,1880,2003,objects
+H8-17,Plateau Imbricated Basketry,North America (Indigenous),1890,1920,objects
+H8-18,Apache Basketry,North America (Indigenous),1880,1910,objects
+H8-19,Pima Basketry,North America (Indigenous),1895,1983,override
+H8-20,Hopi Basketry,North America (Indigenous),1930,1979,objects
+H8-21,Rivercane Basketry,North America (Indigenous),1900,1989,objects
+H8-22,Wabanaki Basketry,North America (Indigenous),1880,2003,objects
+H8-23,Birchbark Biting,North America (Indigenous),,,rule
+H8-24,Tapa Cloth,Oceania (Pacific),1850,1973,objects
+H8-25,ʻIe Tōga,Oceania (Pacific),1920,1936,objects
+H8-26,Aboriginal Fibre Art,Australia (Aboriginal),1944,1954,objects
+H8-27,Lalava,Oceania (Pacific),,,rule
+H8-28,Sweetgrass Baskets,Sub-Saharan Africa,,,rule
+H8-29,Panier de Mayun,Western Europe,,,override
+H8-30,Bastabinne,Western Europe,,,rule
+H8-31,Birch-Bark Crafts,Central & Eastern Europe,,,rule
+H8-32,Shemogodsk Carving,Central & Eastern Europe,1800,1900,override
+H8-33,Pärekori,Central & Eastern Europe,,,rule
+H8-34,Clubrush Work of Kruunupyy,Central & Eastern Europe,,,rule
+H8-35,Himmeli,Central & Eastern Europe,,,rule
+H8-36,Straw Weaving in Belarus,Central & Eastern Europe,,,rule
+H8-37,Turiisk Straw Plaiting,Central & Eastern Europe,,,rule
+H8-38,Iza Vine Weaving,Central & Eastern Europe,,,rule
+H8-39,Shchitky Reed Weaving,Central & Eastern Europe,,,rule
+H8-40,Wayuu Weaving,South America,,,rule
+H8-41,Kiondo,Sub-Saharan Africa,,,rule
+H8-42,Skep,Western Europe,,,rule
+H8-43,Nantucket Lightship Baskets,North America (settler),1800,1900,override
+H8-44,Coast Salish Basketry,North America (Indigenous),,,rule
+H8-45,Nuu-chah-nulth and Makah Basketry,North America (Indigenous),,,rule
+H8-46,Northeastern Splint Basketry,North America (Indigenous),,,rule
+H8-47,Great Basin Basketry,North America (Indigenous),,,rule
+H8-48,Seri Basketry,Mesoamerica & Caribbean,1960,1969,override
+H8-49,Wounaan and Emberá Basketry,Mesoamerica & Caribbean,,,rule
+H9-1,Zulu Beadwork,Sub-Saharan Africa,1800,1870,objects
+H9-2,Maasai Beadwork,Sub-Saharan Africa,1900,1930,objects
+H9-3,Yoruba Beadwork,Sub-Saharan Africa,,,rule
+H9-4,Mexican Featherwork,Mesoamerica & Caribbean,1539,1539,rule
+H9-5,Porcupine Quillwork,North America (Indigenous),1850,1983,objects
+H9-6,Plains Beadwork,North America (Indigenous),1870,1970,objects
+H9-7,Haudenosaunee Raised Beadwork,North America (Indigenous),1800,1900,rule
+H9-8,Wampum,North America (Indigenous),,,rule
+H9-9,Hawaiian Featherwork,Oceania (Pacific),,,rule
+H9-10,Kahu Huruhuru,Oceania (Pacific),1800,1900,rule
+H9-11,Great Lakes Floral Beadwork,North America (Indigenous),1800,1900,rule
+H9-12,Subarctic Beadwork,North America (Indigenous),,,rule
+H9-13,Xhosa Beadwork,Sub-Saharan Africa,,,rule
+H9-14,Amazonian Featherwork,South America,,,rule
+H9-15,Huichol Art,Mesoamerica & Caribbean,,,override
+H10-1,Jutti,South Asia,,,rule
+H10-2,Western Leatherwork,South America,1832,2018,entries
+H10-3,Moroccan Leatherwork,"Islamic world (MENA, Iran, Anatolia)",,,rule
+I1-1,Mashrabiya,"Islamic world (MENA, Iran, Anatolia)",,,rule
+I1-2,Khatam,"Islamic world (MENA, Iran, Anatolia)",,,rule
+I1-3,Ottoman Mother-of-Pearl Inlay,"Islamic world (MENA, Iran, Anatolia)",1299,1922,rule
+I1-4,Palestinian Olive-Wood Carving,"Islamic world (MENA, Iran, Anatolia)",1500,1600,rule
+I1-5,Islamic Woodwork,"Islamic world (MENA, Iran, Anatolia)",1168,1168,rule
+I1-6,ʿAjami,"Islamic world (MENA, Iran, Anatolia)",1600,1707,rule
+I1-7,Kondapalli Toys,South Asia,,,rule
+I1-8,Nirmal Toys,South Asia,,,override
+I1-9,Malay Woodcarving,Southeast Asia,,,rule
+I1-10,Yosegi-zaiku,Japan,,,override
+I1-11,Ainu Woodcarving,Japan,1615,1891,objects
+I1-12,Hwagak,Korea,1392,1868,objects
+I1-13,Mate Burilado,South America,,,rule
+I1-14,Bentwood Boxes,North America (Indigenous),1839,1998,entries
+I1-15,Fijian Clubs,Oceania (Pacific),1800,1950,objects
+I1-16,Tramp Art,North America (settler),1870,1940,rule
+I1-17,Abramtsevo-Kudrino Carving,Central & Eastern Europe,1800,1900,override
+I1-18,Untsukul Inlay,Central & Eastern Europe,,,rule
+I1-19,Hutsul Wood Carving,Central & Eastern Europe,,,rule
+I1-20,Chernihiv Wood Carving,Central & Eastern Europe,,,rule
+I1-21,Konjic Woodcarving,Central & Eastern Europe,,,rule
+I1-22,Kuksa,Central & Eastern Europe,,,rule
+I1-23,Boulle Work,Western Europe,1800,1900,override
+I1-24,Essaouira Thuya Marquetry,"Islamic world (MENA, Iran, Anatolia)",,,rule
+I1-25,Kashmir Walnut Wood Carving,Himalaya,2008,2008,rule
+I1-26,Jepara Wood Carving,Southeast Asia,1500,1600,rule
+I1-27,Magewappa,Japan,1615,1868,rule
+I1-28,Tendō Shōgi Koma,Japan,1996,1996,rule
+I1-29,Vardo,Western Europe,1870,1870,rule
+I1-30,Danish Freehand Pipes,Western Europe,1950,1959,rule
+I1-31,Northwest Coast Woodcarving,North America (Indigenous),1873,2006,entries
+I1-32,Kuba Woodcarving,Sub-Saharan Africa,,,rule
+I2-1,Persian Lacquer,"Islamic world (MENA, Iran, Anatolia)",1370,1925,rule
+I2-2,Kashmiri Papier-Mâché,Himalaya,,,rule
+I2-3,Edirnekâri,"Islamic world (MENA, Iran, Anatolia)",1600,1900,rule
+I2-4,Channapatna Toys,South Asia,,,rule
+I2-5,Etikoppaka Toys,South Asia,,,rule
+I2-6,Burmese Lacquerware,Southeast Asia,1750,1925,objects
+I2-7,Lai Rot Nam,Southeast Asia,1800,1949,objects
+I2-8,Carved Lacquer,China,960,1279,rule
+I2-9,Maki-e,Japan,794,1185,rule
+I2-10,Japanese Lacquerware,Japan,1185,1333,rule
+I2-11,Ryukyuan Lacquerware,Japan,1400,1900,rule
+I2-12,Najeonchilgi,Korea,918,1897,rule
+I2-13,Yi Lacquerware,China,,,rule
+I2-14,Kintsugi,Japan,1500,1600,rule
+I2-15,Mexican Lacquerware,Mesoamerica & Caribbean,1980,1981,objects
+I2-16,Barniz de Pasto,South America,1640,2023,override
+I2-17,Khokhloma,Central & Eastern Europe,1600,1700,rule
+I2-18,Palekh Miniature,Central & Eastern Europe,1923,1923,rule
+I2-19,Fedoskino Miniature,Central & Eastern Europe,1795,1795,override
+I2-20,Mstyora Miniature,Central & Eastern Europe,1923,1923,override
+I2-21,Kholuy Miniature,Central & Eastern Europe,1934,1934,override
+I2-22,Chinese Lacquerware,China,-206,1912,rule
+I3-1,Soban,Korea,,,rule
+I3-2,Queen Anne Style (furniture),Western Europe,1700,1755,rule
+I3-3,Chippendale Furniture,Western Europe,1750,1790,rule
+I3-4,Hepplewhite Style,Western Europe,1775,1800,rule
+I3-5,Sheraton Style,Western Europe,1790,1820,rule
+I3-6,International Gothic (decorative arts),Western Europe,1250,1450,rule
+I3-7,Mannerism (decorative arts),Western Europe,1450,1600,override
+I3-8,Louis XIV Style,Western Europe,1660,1715,rule
+I3-9,Louis XV Style,Western Europe,1715,1760,rule
+I3-10,Louis XVI Style,Western Europe,1760,1790,rule
+I3-11,Empire Style,Western Europe,1800,1830,override
+I3-12,Biedermeier,Western Europe,1815,1848,rule
+I3-13,Victorian Decorative Arts,Western Europe,1837,1901,rule
+I3-14,Arts and Crafts Movement,Western Europe,1860,1920,override
+I3-15,Art Nouveau,Western Europe,1890,1910,override
+I3-16,Art Deco,Transnational,1920,1930,override
+I3-18,Mingei,Japan,1926,1926,rule
+I3-19,Mid-Century Modern,Transnational,1910,1944,override
+I3-20,Contemporary Design,Transnational,1945,1945,override
+I3-21,Bezalel School,"Islamic world (MENA, Iran, Anatolia)",1906,1906,rule
+I3-22,Shaker Furniture,North America (settler),1800,1900,rule
+I3-23,Chinese Classical Furniture,China,1368,1912,rule
+I3-24,Tansu,Japan,1615,1912,rule
+I3-25,Bandaji,Korea,1392,1897,rule
+I4-1,Vanuatu Slit Gongs,Oceania (Pacific),,,rule
+I4-2,Spanish Guitar,Western Europe,1800,1900,rule
+I4-3,Djembe,Sub-Saharan Africa,,,override
+I4-4,Mbira,Sub-Saharan Africa,,,rule
+I4-5,Violin Making,Western Europe,1500,1600,rule
+I4-6,Tanpura,South Asia,1850,1850,rule
+I4-7,Saraswati Veena,South Asia,1600,2013,override
+I4-8,Celtic Harp,Western Europe,1700,1900,entries
+I4-9,Cimbalom,Western Europe,1874,1874,rule
+I4-10,Santur,"Islamic world (MENA, Iran, Anatolia)",,,rule
+I4-11,Appalachian Dulcimer,Western Europe,1800,1959,rule
+I4-12,Kantele,Central & Eastern Europe,,,rule
+I4-13,Koto,Japan,1615,1868,rule
+I4-14,Guzheng,China,,,rule
+I4-15,Erhu,China,,,rule
+I4-16,Taus and Dilruba,South Asia,1600,1700,rule
+I4-17,Sarangi,South Asia,,,override
+I4-18,Hardanger Fiddle,Western Europe,1651,1651,rule
+I4-19,Nyckelharpa,Western Europe,1900,2000,rule
+I4-20,Accordion,Western Europe,1863,1863,rule
+I4-21,Bagpipes,Western Europe,,,rule
+I4-22,Gagaku Instruments,Japan,,,rule
+I4-23,Mechanical Musical Instruments,Western Europe,1700,1865,entries
+J1-1,Modernist Photography,Transnational,1860,2000,override
+J1-2,Street Photography,North America (settler),1930,1969,rule
+J1-3,Photojournalism,Western Europe,1899,1947,entries
+J1-4,Surrealist Photography,Western Europe,1920,1950,override
+J1-5,Fashion Photography,Transnational,1911,1969,override
+J1-6,Düsseldorf School of Photography,Western Europe,1976,1976,override
+J1-7,Early Photography,Transnational,1839,1880,override
+J1-8,Pictorialism,Transnational,1880,1920,override
+J1-9,Straight Photography,North America (settler),1880,1959,override
+J1-10,New Vision,Western Europe,1920,1930,override
+J1-11,Humanistic Photography,Western Europe,1890,2007,entries
+J1-12,Documentary Photography,Transnational,1920,1944,override
+J1-13,Contemporary Photography,North America (settler),1945,1945,rule
+J1-14,Photo-Secession,North America (settler),1902,1902,rule
+J1-15,Group f/64,Sub-Saharan Africa,1932,1935,rule
+J1-16,Photo League,North America (settler),1936,1951,rule
+J1-17,Magnum Photos,Transnational,1947,1947,override
+K1-1,Umayyad Architecture,"Islamic world (MENA, Iran, Anatolia)",661,750,rule
+K1-2,Abbasid Architecture,"Islamic world (MENA, Iran, Anatolia)",750,1258,rule
+K1-3,Fatimid Architecture,"Islamic world (MENA, Iran, Anatolia)",909,1171,rule
+K1-4,Moorish Architecture,"Islamic world (MENA, Iran, Anatolia)",1238,1492,rule
+K1-5,Mudéjar Architecture,"Islamic world (MENA, Iran, Anatolia)",1100,1600,rule
+K1-6,Seljuk Architecture,"Islamic world (MENA, Iran, Anatolia)",1000,1200,rule
+K1-7,Anatolian Seljuk Architecture,"Islamic world (MENA, Iran, Anatolia)",1100,1400,rule
+K1-8,Mamluk Architecture,"Islamic world (MENA, Iran, Anatolia)",1250,1517,rule
+K1-9,Ilkhanid Architecture,"Islamic world (MENA, Iran, Anatolia)",1256,1335,rule
+K1-10,Timurid Architecture,"Islamic world (MENA, Iran, Anatolia)",1370,1507,rule
+K1-11,Safavid Architecture,"Islamic world (MENA, Iran, Anatolia)",1501,1736,rule
+K1-12,Ottoman Architecture,"Islamic world (MENA, Iran, Anatolia)",1299,1922,rule
+K1-13,Qajar Architecture,"Islamic world (MENA, Iran, Anatolia)",1789,1925,rule
+K1-14,Indo-Islamic Architecture,"Islamic world (MENA, Iran, Anatolia)",1407,1656,entries
+K1-15,Mughal Architecture,South Asia,1526,1857,rule
+K1-16,Sudano-Sahelian Architecture,Sub-Saharan Africa,1290,1943,entries
+K1-17,Swahili Architecture,Sub-Saharan Africa,900,1994,entries
+K1-18,Chinese Islamic Architecture,China,1009,1963,entries
+K1-19,Javanese Mosque Architecture,Southeast Asia,,,rule
+K2-1,Moorish Revival Architecture,"Islamic world (MENA, Iran, Anatolia)",1800,2000,rule
+K2-2,Neo-Mudéjar,"Islamic world (MENA, Iran, Anatolia)",1800,2000,rule
+K2-3,Neo-Mamluk Architecture,"Islamic world (MENA, Iran, Anatolia)",1800,2000,rule
+K2-4,First National Architectural Movement,"Islamic world (MENA, Iran, Anatolia)",1908,1930,rule
+K2-5,Indo-Saracenic Architecture,Western Europe,1870,1879,rule
+K2-6,Gothic Revival Architecture,Western Europe,1700,1800,rule
+K2-7,Tudor Revival Architecture,Western Europe,1900,2000,override
+K2-8,Romanesque Revival Architecture,Western Europe,1800,1900,rule
+K2-9,Neo-Byzantine Architecture,Greco-Roman & Byzantine Mediterranean,1800,2000,rule
+K2-10,Renaissance Revival Architecture,Western Europe,1800,1900,rule
+K2-11,Italianate Architecture,Western Europe,1800,1900,rule
+K2-12,Second Empire Style,North America (settler),1400,1750,rule
+K2-13,Baroque Revival Architecture,Western Europe,1900,2000,override
+K2-14,Greek Revival Architecture,Western Europe,1800,1900,rule
+K2-15,Egyptian Revival Architecture,"Islamic world (MENA, Iran, Anatolia)",1766,1945,entries
+K2-16,Beaux-Arts Architecture,North America (settler),1830,1920,rule
+K2-17,Eclecticism in Architecture,Central & Eastern Europe,1900,2000,rule
+K2-18,Victorian Architecture,North America (settler),1837,1901,rule
+K2-19,Queen Anne Style Architecture,Western Europe,1800,1900,rule
+K2-20,Shingle Style Architecture,North America (settler),1880,1889,rule
+K2-21,Colonial Revival Architecture,North America (settler),1876,1876,rule
+K2-22,Spanish Colonial Revival Architecture,Western Europe,1900,2000,rule
+K2-23,Mission Revival Architecture,Western Europe,1890,1920,rule
+K2-24,Pueblo Revival Architecture,North America (Indigenous),1900,2000,rule
+K2-25,Mayan Revival Architecture,Mesoamerica & Caribbean,1920,1930,rule
+K2-26,Neo-Manueline,Western Europe,1840,1849,rule
+K2-27,Russian Revival Architecture,Central & Eastern Europe,1800,1900,rule
+K2-28,Russian Neoclassical Revival,Central & Eastern Europe,1900,1917,rule
+K2-29,Romanian Revival Architecture,Central & Eastern Europe,1880,1889,rule
+K2-30,National Romantic Style,Western Europe,1890,1920,rule
+K2-31,Zakopane Style,Central & Eastern Europe,1890,1899,rule
+K2-32,Swiss Chalet Style,Western Europe,1800,1900,rule
+K2-33,Federation Architecture,Oceania (Pacific),1890,1915,rule
+K2-34,Rustic Architecture,North America (settler),1870,1940,rule
+K3-1,Ancient Egyptian Architecture,Ancient Near East,-3000,300,rule
+K3-2,Architecture of Mesopotamia,Ancient Near East,-2100,0,entries
+K3-3,Achaemenid Architecture,Ancient Near East,-550,-330,rule
+K3-4,Parthian Architecture,Ancient Near East,-247,-247,rule
+K3-5,Sasanian Architecture,Ancient Near East,224,651,rule
+K3-6,Minoan Architecture,Greco-Roman & Byzantine Mediterranean,-2000,-1450,rule
+K3-7,Mycenaean Architecture,Greco-Roman & Byzantine Mediterranean,-1750,-1050,entries
+K3-8,Ancient Greek Architecture,Greco-Roman & Byzantine Mediterranean,-323,-31,rule+mediterranean
+K3-9,Etruscan Architecture,Greco-Roman & Byzantine Mediterranean,-927,-900,rule
+K3-10,Ancient Roman Architecture,Greco-Roman & Byzantine Mediterranean,-500,400,rule
+K3-11,Nabataean Architecture,Ancient Near East,-100,200,rule
+K4-1,Early Christian Architecture,Greco-Roman & Byzantine Mediterranean,300,600,rule
+K4-2,Byzantine Architecture,Greco-Roman & Byzantine Mediterranean,330,1453,rule
+K4-3,Serbo-Byzantine Architecture,Greco-Roman & Byzantine Mediterranean,1100,1500,rule
+K4-4,Architecture of Kievan Rus',Central & Eastern Europe,900,1300,rule
+K4-5,Armenian Architecture,Central & Eastern Europe,300,400,rule
+K4-6,Architecture of Georgia,Central & Eastern Europe,,,rule
+K4-7,Pre-Romanesque Architecture,Western Europe,1000,1000,rule
+K4-8,Carolingian Architecture,Western Europe,780,900,rule
+K4-9,Ottonian Architecture,Western Europe,936,1056,rule
+K4-10,Romanesque Architecture,Western Europe,1000,1200,rule
+K4-11,Arab-Norman Architecture,"Islamic world (MENA, Iran, Anatolia)",1091,1194,rule
+K4-12,Moldavian Style,Central & Eastern Europe,1400,1600,rule
+K4-13,Gothic Architecture,Western Europe,1140,1520,rule
+K5-1,Tudor Architecture,Western Europe,1485,1603,rule
+K5-2,Plateresque,Western Europe,1490,1560,rule
+K5-3,Manueline,Western Europe,1495,1521,rule
+K5-4,Herrerian Style,South Asia,1567,1567,rule
+K5-5,Churrigueresque,Western Europe,1700,1760,rule
+K5-6,Rococo Architecture,Western Europe,1730,1770,override
+K5-7,Uzorochye,Central & Eastern Europe,1600,1700,rule
+K5-8,Brâncovenesc Style,"Islamic world (MENA, Iran, Anatolia)",1688,1714,rule
+K5-9,Palladian Architecture,Western Europe,1700,1800,rule
+K5-10,Georgian Architecture,Central & Eastern Europe,1714,1830,rule
+K5-11,Empire Style,Western Europe,1800,1830,rule
+K5-12,Federal Architecture,North America (settler),1780,1830,rule
+K5-13,Pombaline Style,Western Europe,1755,1755,override
+K5-14,Architecture of the Bulgarian Revival,Central & Eastern Europe,1700,1900,rule
+K5-15,American Colonial Architecture,North America (settler),1600,1800,rule
+K5-16,Spanish Colonial Architecture,Western Europe,1500,1900,rule
+K5-17,Andean Baroque,South America,1680,1780,rule
+K5-18,Portuguese Colonial Architecture,Western Europe,1500,1900,rule
+K5-19,French Colonial Architecture,Western Europe,1768,1883,entries
+K5-20,Dutch Colonial Architecture,Western Europe,1720,1835,entries
+K5-21,Cape Dutch Architecture,Western Europe,1600,1800,rule
+K5-22,Renaissance Architecture,Western Europe,1400,1600,rule
+K5-23,Baroque Architecture,Western Europe,1600,1750,rule
+K5-24,Neoclassical Architecture,Western Europe,1750,1850,rule
+K6-1,Arts and Crafts Architecture,Western Europe,1860,1920,override
+K6-2,Chicago School,North America (settler),1880,1910,override
+K6-3,Prairie School,North America (settler),1900,1917,rule
+K6-4,Czech Cubism,Central & Eastern Europe,1910,1925,rule
+K6-5,Expressionist Architecture,Western Europe,1900,2000,rule
+K6-6,Futurist Architecture,Western Europe,1914,1914,override
+K6-7,Art Deco Architecture,Transnational,1920,1940,override
+K6-8,Bauhaus Architecture,Western Europe,1919,1933,override
+K6-9,International Style,Transnational,1932,1932,override
+K6-10,Constructivist Architecture,Central & Eastern Europe,1920,1939,rule
+K6-11,Reform Architecture,Western Europe,1800,1930,rule
+K6-12,Traditionalist School,Western Europe,1900,1960,rule
+K6-13,Nordic Classicism,Central & Eastern Europe,1910,1930,rule
+K6-14,Stripped Classicism,Transnational,1920,1940,override
+K6-15,Stalinist Architecture,Central & Eastern Europe,1933,1955,override
+K6-16,Fascist Architecture,Western Europe,1922,1943,rule
+K6-17,Nazi Architecture,Western Europe,1933,1945,rule
+K6-18,Mid-Century Modern Architecture,North America (settler),1945,1970,rule
+K6-19,High-tech Architecture,China,1970,1979,rule
+K6-20,New Classical Architecture,Transnational,1980,1989,override
+K6-21,Art Nouveau Architecture,Western Europe,1890,1914,override
+K6-22,Modern Architecture,Transnational,1900,1975,override
+K6-23,Brutalist Architecture,North America (settler),1950,1970,rule
+K6-24,Postmodern Architecture,Transnational,1960,1990,override
+K6-25,Deconstructivism,Transnational,1980,1989,override
+K6-26,Contemporary Architecture,Transnational,1945,1945,override
+K7-1,Nagara Architecture,South Asia,600,1500,entries
+K7-2,Kalinga Architecture,South Asia,600,1300,rule
+K7-3,Maru-Gurjara Architecture,South Asia,1000,1300,rule
+K7-4,Dravidian Architecture,South Asia,668,1646,entries
+K7-5,Vesara,South Asia,600,1200,entries
+K7-6,Kerala Architecture,South Asia,,,rule
+K7-7,Bengal Temple Architecture,South Asia,1500,1900,rule
+K7-8,Buddhist Architecture,Central Asia & Silk Road,0,1200,entries
+K7-9,Indian Rock-cut Architecture,South Asia,-300,1000,rule
+K7-10,Sinhalese Architecture,South Asia,-400,1815,entries
+K7-11,Newar Architecture,Himalaya,,,rule
+K7-12,Tibetan Buddhist Architecture,Himalaya,637,1736,entries
+K7-13,Dzong Architecture,Himalaya,,,rule
+K7-14,Rajput Architecture,South Asia,700,1900,rule
+K7-15,Stepwell,South Asia,,,rule
+K7-16,Sikh Architecture,South Asia,1600,1900,rule
+K7-17,Harappan Architecture,South Asia,-2600,-1900,override
+K7-18,Haveli,South Asia,1700,1900,entries
+K7-19,Kashmiri Houseboat,Himalaya,1900,1909,rule
+K7-20,Assam-type House,South Asia,1800,2000,rule
+K8-1,Chinese Architecture,China,648,1877,entries
+K8-2,Siheyuan,China,,,rule
+K8-3,Yaodong,China,1937,1975,override
+K8-4,Hakka Walled Village,China,1786,1847,entries
+K8-5,Hui-style Architecture,China,,,override
+K8-6,Lingnan Architecture,China,1368,1930,override
+K8-7,Hokkien Architecture,China,,,rule
+K8-8,Sichuanese Architecture,China,960,1368,override
+K8-9,Shikumen,China,1860,1930,rule
+K8-10,Shinto Shrine Architecture,Japan,656,1617,entries
+K8-11,Japanese Buddhist Architecture,Japan,686,1486,entries
+K8-12,Shinden-zukuri,Japan,794,1185,rule
+K8-13,Shoin-zukuri,Japan,1336,1868,rule
+K8-14,Sukiya-zukuri,Japan,1868,1989,override
+K8-15,Minka,Japan,1768,1863,entries
+K8-16,Japanese Castle Architecture,Japan,1500,1700,rule
+K8-17,Kofun,Japan,200,700,rule
+K8-18,Ryukyuan Architecture,Japan,1400,1501,entries
+K8-19,Giyōfū Architecture,Japan,1860,1880,rule
+K8-20,Korean Architecture,Korea,553,1785,entries
+K8-21,Hanok,Korea,700,1900,entries
+K9-1,Khmer Architecture,Southeast Asia,600,1300,rule
+K9-2,Candi Architecture,Southeast Asia,600,1500,rule
+K9-3,Balinese Architecture,Southeast Asia,,,rule
+K9-4,Javanese Traditional House,Southeast Asia,1755,1757,entries
+K9-5,Burmese Architecture,Southeast Asia,1000,1800,entries
+K9-6,Thai Architecture,Southeast Asia,1238,1767,rule
+K9-7,Lao Architecture,Southeast Asia,,,rule
+K9-8,Cham Architecture,Southeast Asia,600,1500,rule
+K9-9,Vietnamese Architecture,Southeast Asia,1635,1945,entries
+K9-10,Batak Architecture,Southeast Asia,,,rule
+K9-11,Bahay Kubo,Southeast Asia,,,rule
+K9-12,Bahay na Bato,Western Europe,1700,1900,rule
+K9-13,Sino-Portuguese Architecture,Western Europe,1800,2000,rule
+K9-14,Malay Traditional House,Southeast Asia,,,rule
+K10-1,Aksumite Architecture,Sub-Saharan Africa,0,700,rule
+K10-2,Ethiopian Rock-hewn Churches,Sub-Saharan Africa,900,1300,rule
+K10-3,Gondarine Architecture,Sub-Saharan Africa,1600,1800,override
+K10-4,Nubian Pyramids,Ancient Egypt & Nubia,-800,400,rule
+K10-5,Great Zimbabwe,Sub-Saharan Africa,1000,1900,rule
+K10-6,Ksar,"Islamic world (MENA, Iran, Anatolia)",1478,1910,entries
+K10-7,Hausa Architecture,Sub-Saharan Africa,1000,1500,entries
+K11-1,Maya Architecture,Mesoamerica & Caribbean,-1000,1500,rule
+K11-2,Mesoamerican Architecture,Mesoamerica & Caribbean,-1500,1168,rule
+K11-3,Aztec Architecture,Mesoamerica & Caribbean,1300,1600,rule
+K11-4,Inca Architecture,South America,1400,1600,rule
+K11-5,Andean Architecture,South America,100,1533,rule
+K11-6,Ancestral Puebloan Architecture,North America (Indigenous),1699,1986,entries
+K11-7,Mound Builders,North America (Indigenous),-3500,1600,rule
+K12-1,Wharenui,Oceania (Pacific),1849,1995,entries
+K12-2,Fale,Oceania (Pacific),,,rule
+K12-3,Maneaba,Oceania (Pacific),,,rule
+K12-4,Haus Tambaran,Oceania (Pacific),,,rule
+K12-5,Marae,Oceania (Pacific),1200,1992,entries
+K12-6,Nan Madol,Oceania (Pacific),1180,1628,override
+K12-7,Chilotan Architecture,South America,1700,1900,override
+K12-8,British Vernacular Architecture,Western Europe,1200,1600,entries
+K12-9,German Vernacular Architecture,Western Europe,300,1900,entries
+K12-10,Kulla,Central & Eastern Europe,1600,1900,rule
+K12-11,Vainakh Tower Architecture,Central & Eastern Europe,1000,1800,rule
+K12-12,Spanish Vernacular Architecture,Western Europe,700,1800,entries
+K12-13,Italian Vernacular Architecture,Western Europe,900,1900,entries
+K12-14,American Vernacular Architecture,North America (settler),1810,1900,entries
+K12-15,Nordic Log Architecture,Central & Eastern Europe,1763,1900,entries
+K12-16,Swiss Farmhouse Architecture,Western Europe,,,rule
+K12-17,French Vernacular Architecture,Western Europe,,,rule
+K12-18,Cycladic Architecture,Greco-Roman & Byzantine Mediterranean,,,rule
+K12-19,Chattel House,Mesoamerica & Caribbean,,,rule
+K12-20,Queenslander,North America (settler),1840,1849,override
+K13-1,Persian Garden,Ancient Near East,-550,1925,rule
+K13-2,Mughal Garden,South Asia,1500,1800,rule
+K13-3,Chinese Garden,China,1044,1860,entries
+K13-4,Japanese Garden,Japan,794,1868,rule
+K13-5,Italian Renaissance Garden,Western Europe,1400,1600,rule
+K13-6,French Formal Garden,Western Europe,1600,1700,rule
+K13-7,English Landscape Garden,Western Europe,1700,1800,rule
+K14-1,Bonsai,Japan,1914,2004,entries
+K14-2,Penjing,China,618,907,rule
+K14-3,Hòn Non Bộ,Southeast Asia,900,1000,rule
+K14-4,Ikebana,Japan,1400,1979,entries
+L1-1,Bhimbetka Rock Paintings,South Asia,,,override
+L1-2,Petroglyphs of the Mongolian Altai,Himalaya,,,rule
+L1-3,Tamgaly Petroglyphs,Western Europe,,,rule
+L1-4,Maros-Pangkep Cave Art,Southeast Asia,900,2024,entries
+L1-5,Sangkulirang-Mangkalihat Rock Art,Southeast Asia,,,rule
+L1-6,Zuojiang Huashan Rock Art,China,,,override
+L1-7,Bangudae Petroglyphs,Korea,,,override
+L1-8,Fugoppe Cave,Japan,-14000,-300,rule
+L1-9,Helan Mountains Petroglyphs,Himalaya,,,rule
+L1-10,Saharan Rock Art,Sub-Saharan Africa,-3000,0,override
+L1-11,San Rock Art,Sub-Saharan Africa,,,rule
+L1-12,Sasanian Rock Reliefs,Ancient Near East,200,700,rule
+L1-13,Hittite Rock Reliefs,Ancient Near East,-1400,-1200,rule
+L1-14,Gobustan Rock Art,Central & Eastern Europe,,,rule
+L1-15,Rock Art in the Hail Region,"Islamic world (MENA, Iran, Anatolia)",,,rule
+L1-16,Cueva de las Manos,South America,,,override
+L1-17,Serra da Capivara Rock Art,South America,,,override
+L1-18,Toro Muerto Petroglyphs,South America,,,rule
+L1-19,Chiribiquete Rock Paintings,South America,,,rule
+L1-20,Pecos River Style,North America (Indigenous),-2700,-2700,override
+L1-21,Barrier Canyon Style,North America (Indigenous),,,override
+L1-22,Chumash Rock Painting,North America (Indigenous),1000,1800,rule
+L1-23,Coso Rock Art,North America (settler),,,rule
+L1-24,Writing-on-Stone Rock Art,North America (Indigenous),,,rule
+L1-25,Rock Paintings of the Sierra de San Francisco,Sub-Saharan Africa,,,rule
+L1-26,Arnhem Land Rock Art,Australia (Aboriginal),1600,2000,entries
+L1-27,Gwion Gwion Rock Paintings,Australia (Aboriginal),,,rule
+L1-28,Murujuga Rock Art,Australia (Aboriginal),,,override
+L1-29,Sydney Rock Engravings,Australia (Aboriginal),,,override
+L1-30,Quinkan Rock Art,Australia (Aboriginal),,,override
+L1-31,Panaramitee Style,Oceania (Pacific),,,rule
+L1-32,Māori Rock Art,Oceania (Pacific),,,rule
+L1-33,Franco-Cantabrian Cave Art,Western Europe,,,rule
+L1-34,Côa Valley and Siega Verde Rock Art,Western Europe,,,rule
+L1-35,Levantine Rock Art,Ancient Near East,-8000,-3500,rule
+L1-36,Iberian Schematic Art,Western Europe,-5000,-1000,override
+L1-37,Cup and Ring Marks,Western Europe,,,rule
+L1-38,Rock Carvings in Tanum,Western Europe,-1700,-500,rule
+L1-39,Rock Carvings at Alta,Western Europe,-5000,-5000,override
+L1-40,Petroglyphs of Lake Onega and the White Sea,Central & Eastern Europe,-4000,-2000,rule
+L1-41,Ural Pictograms,Central & Eastern Europe,,,override
+L1-42,Rock Drawings in Valcamonica,Western Europe,,,override
+L2-1,Umayyad Wall Painting,"Islamic world (MENA, Iran, Anatolia)",700,800,rule
+L2-2,Persian Wall Painting,"Islamic world (MENA, Iran, Anatolia)",1501,1925,rule
+L2-3,Al-Qatt Al-Asiri,"Islamic world (MENA, Iran, Anatolia)",,,rule
+L2-4,Ajanta Paintings,South Asia,-200,500,rule
+L2-5,Sigiriya Frescoes,South Asia,400,500,override
+L2-6,Kerala Mural Painting,South Asia,800,1900,rule
+L2-7,Kandyan Period Painting,South Asia,1592,1815,rule
+L2-8,Shekhawati Frescoes,South Asia,1700,2000,rule
+L2-9,Pithora Painting,South Asia,,,rule
+L2-10,Saura Painting,South Asia,,,rule
+L2-11,Sohrai and Khovar Painting,South Asia,,,override
+L2-12,Rangoli,South Asia,,,override
+L2-13,Tibetan Buddhist Wall Paintings,Himalaya,996,1440,entries
+L2-14,Dunhuang Murals,Central Asia & Silk Road,300,1400,rule
+L2-15,Kizil Murals,Central Asia & Silk Road,300,800,rule
+L2-16,Bezeklik Murals,Central Asia & Silk Road,800,1300,rule
+L2-17,Sogdian Wall Painting,Central Asia & Silk Road,400,800,rule
+L2-18,Bagan Murals,Southeast Asia,1000,1300,rule
+L2-19,Thai Mural Painting,Southeast Asia,1351,1767,rule
+L2-20,Yongle Palace Murals,China,1300,1443,override
+L2-21,Takamatsuzuka Tomb Murals,Japan,600,700,rule
+L2-22,Goguryeo Tomb Murals,Korea,300,700,rule
+L2-23,Dancheong,Korea,,,rule
+L2-24,Ethiopian Church Painting,Sub-Saharan Africa,,,rule
+L2-25,Litema,Sub-Saharan Africa,,,rule
+L2-26,Ndebele House Painting,Sub-Saharan Africa,1935,1940,entries
+L2-27,Imigongo,Sub-Saharan Africa,,,rule
+L2-28,Egyptian Tomb Painting,"Islamic world (MENA, Iran, Anatolia)",,,rule
+L2-29,Minoan Wall Painting,Greco-Roman & Byzantine Mediterranean,-1700,-1450,rule
+L2-30,Etruscan Tomb Painting,Greco-Roman & Byzantine Mediterranean,-700,-100,rule
+L2-31,Ancient Greek Painting,Greco-Roman & Byzantine Mediterranean,-500,-200,rule+mediterranean
+L2-32,Pompeian Wall Painting,Greco-Roman & Byzantine Mediterranean,-200,-100,rule
+L2-33,Catacomb Painting,Greco-Roman & Byzantine Mediterranean,100,500,override
+L2-34,Byzantine Wall Painting,Greco-Roman & Byzantine Mediterranean,500,1500,rule
+L2-35,Faras Wall Paintings,Ancient Egypt & Nubia,700,1964,rule
+L2-36,Maya Mural Painting,Mesoamerica & Caribbean,,,rule
+L2-37,Teotihuacan Mural Painting,Mesoamerica & Caribbean,-100,550,rule
+L2-38,Cacaxtla Murals,Mesoamerica & Caribbean,650,900,rule
+L2-39,Moche Murals,South America,100,800,rule
+L2-40,Mexican Muralism,Mesoamerica & Caribbean,1920,1970,rule
+L2-41,Chilean Muralism,South America,1940,1949,rule
+L2-42,Murals of Revolutionary Nicaragua,Mesoamerica & Caribbean,1979,1990,rule
+L2-43,Romanesque Wall Painting,Western Europe,1000,1200,rule
+L2-44,Gothic Wall Painting,Western Europe,1200,1500,rule
+L2-45,Painted Churches of Northern Moldavia,Central & Eastern Europe,1400,1600,rule
+L2-46,Scottish Renaissance Painted Ceilings,Western Europe,1550,1650,rule
+L2-47,Murals in Northern Ireland,Western Europe,1900,2000,rule
+L2-48,Samchyky Painting,Central & Eastern Europe,,,rule
+L2-49,Illusionistic Ceiling Painting,Western Europe,1600,1780,override
+L2-50,Italian Renaissance Fresco,Western Europe,1400,1600,rule
+L2-51,Street Art,Transnational,1970,1979,override
+L3-1,Umayyad Mosaics,"Islamic world (MENA, Iran, Anatolia)",600,800,rule
+L3-2,Zellige,"Islamic world (MENA, Iran, Anatolia)",1239,1900,entries
+L3-3,Moʿaraq (Cut-Tile Mosaic),"Islamic world (MENA, Iran, Anatolia)",1370,1736,rule
+L3-4,Kashi Kari,South Asia,1526,1857,rule
+L3-5,Aina-kari,"Islamic world (MENA, Iran, Anatolia)",1501,1925,entries
+L3-6,Hellenistic Mosaics,Greco-Roman & Byzantine Mediterranean,-500,0,rule
+L3-7,Roman Mosaics,Greco-Roman & Byzantine Mediterranean,-100,500,rule
+L3-8,Byzantine Mosaics,Greco-Roman & Byzantine Mediterranean,400,1400,rule
+L3-9,Azulejo,Western Europe,1500,1600,rule
+L3-10,Trencadís,Western Europe,1852,1926,override
+L3-11,Portuguese Pavement,Western Europe,1800,1900,rule
+L3-12,Soviet Mosaics,Central & Eastern Europe,1920,1991,rule
+L4-1,Steppe Geoglyphs,Central Asia & Silk Road,,,rule
+L4-2,Gozan no Okuribi,Japan,,,override
+L4-3,Nazca Lines,South America,-500,500,rule
+L4-4,Pintados Geoglyphs,South America,600,1500,override
+L4-5,Acre Geoglyphs,South America,1300,1300,rule
+L4-6,Effigy Mounds,North America (Indigenous),,,rule
+L4-7,Blythe Intaglios,North America (Indigenous),,,override
+L4-8,Hill Figures,Western Europe,1700,1900,rule
+L5-1,Deq,"Islamic world (MENA, Iran, Anatolia)",,,rule
+L5-2,Godna,South Asia,,,rule
+L5-3,Mehndi,South Asia,,,override
+L5-4,Sak Yant,Southeast Asia,802,1431,rule
+L5-5,Mentawai Tattooing,Southeast Asia,,,rule
+L5-6,Batok,Southeast Asia,,,rule
+L5-7,Irezumi,Japan,1615,1868,rule
+L5-8,African Scarification,Sub-Saharan Africa,,,rule
+L5-9,Kakiniit,North America (Indigenous),2000,2009,rule
+L5-10,Tā Moko,Oceania (Pacific),,,rule
+L5-11,Polynesian Tattooing,Oceania (Pacific),,,rule
+L5-12,Sailor Tattoos,North America (settler),1872,2019,entries
+L6-1,Sona,Sub-Saharan Africa,,,rule
+L6-2,Navajo Sandpainting,North America (Indigenous),1930,1939,rule
+L6-3,Corpus Christi Flower Carpets,Central & Eastern Europe,,,rule
+M1-1,Installation Art,Transnational,1960,1969,override
+M1-2,Conceptual Art,Transnational,1960,1969,override
+M1-3,Fluxus,Transnational,1960,1969,override
+M1-4,Mail Art,North America (settler),1960,1969,rule
+M1-5,Arte Povera,Western Europe,1967,1967,rule
+M1-6,Land Art,North America (settler),1960,1969,override
+M1-7,Viennese Actionism,Western Europe,1960,1969,rule
+M1-8,Performance Art,North America (settler),1960,1969,rule
+M1-9,Relational art,Transnational,1990,1999,override
+M2-1,Generative Art,Transnational,1960,1969,override
+M2-2,Internet Art,Transnational,1990,1999,override
+M2-3,AI Art,Transnational,1973,1973,override
+M2-4,Video Art,Transnational,1960,1969,override
+M2-5,New Media Art,Transnational,1957,1984,override
+N1-1,Thonet Bentwood Furniture,Western Europe,1849,1849,override
+N1-2,De Stijl Design,Western Europe,1917,1931,rule
+N1-3,Bauhaus Design,Western Europe,1919,1933,rule
+N1-4,Union des Artistes Modernes,Western Europe,1929,1929,rule
+N1-5,American Mid-Century Modern Design,North America (settler),1940,1970,rule
+N1-6,Danish Modern,Western Europe,1925,1975,rule
+N1-7,Italian Modern Design,Western Europe,1945,1980,rule
+N1-8,British Modern Design,Western Europe,1930,1975,rule
+N1-9,Pop Design,Transnational,1960,1969,override
+N1-10,Radical Design,Western Europe,1966,1980,rule
+N1-11,Memphis Group,Western Europe,1981,1988,override
+N1-12,Dutch Design,Western Europe,1993,1993,rule
+N2-1,Wiener Werkstätte,Western Europe,1903,1932,override
+N2-2,Deutscher Werkbund,Western Europe,1907,1907,override
+N2-3,Streamline Moderne,North America (settler),1930,1955,rule
+N2-4,Ulm School and Braun Functionalism,Western Europe,606,1968,rule
+N2-5,Scandinavian Modern,"Islamic world (MENA, Iran, Anatolia)",1930,1980,rule
+N2-6,Japanese Industrial Design,Japan,1927,2011,entries
+N2-7,Automobile Design,Western Europe,1951,1951,rule
+N2-8,Postmodern Design,Transnational,1978,2011,override
+N2-9,Contemporary Industrial Design,Transnational,1990,1990,override
+N3-1,Art Deco Poster,Transnational,1920,1930,override
+N3-2,Constructivist Graphic Design,Central & Eastern Europe,1919,1935,rule
+N3-3,New Typography,Western Europe,1920,1930,rule
+N3-4,Isotype,Western Europe,1925,1925,override
+N3-5,Swiss Style (International Typographic Style),Western Europe,1950,1960,rule
+N3-6,New York School (graphic design),North America (settler),1940,1970,rule
+N3-7,Corporate Identity Design,Transnational,1950,1959,override
+N3-8,Push Pin Studios,North America (settler),1954,1954,rule
+N3-9,Psychedelic Poster Art,Sub-Saharan Africa,1966,1970,rule
+N3-10,Album Cover Design,Transnational,1940,1940,override
+N3-11,Japanese Graphic Design,Japan,1960,1969,rule
+N3-12,Dutch Graphic Design,Western Europe,1925,2019,entries
+N3-13,New Wave Typography,Western Europe,1970,1979,rule

@@ -1,0 +1,241 @@
+family,family_label,region,leaves,museum_records,sourcing_traditions
+A,Painting,Western Europe,76,327,32
+A,Painting,Central & Eastern Europe,24,2014,117
+A,Painting,Greco-Roman & Byzantine Mediterranean,5,7231,1
+A,Painting,Ancient Egypt & Nubia,0,0,2
+A,Painting,Ancient Near East,0,0,0
+A,Painting,"Islamic world (MENA, Iran, Anatolia)",6,5684,5
+A,Painting,Central Asia & Silk Road,1,981,12
+A,Painting,Himalaya,7,5170,58
+A,Painting,South Asia,24,18680,109
+A,Painting,Southeast Asia,7,11796,19
+A,Painting,China,8,18741,23
+A,Painting,Japan,13,22943,22
+A,Painting,Korea,3,4508,12
+A,Painting,Sub-Saharan Africa,11,1230,14
+A,Painting,North America (Indigenous),4,4423,0
+A,Painting,North America (settler),22,193,8
+A,Painting,Mesoamerica & Caribbean,7,1385,11
+A,Painting,South America,11,1931,12
+A,Painting,Oceania (Pacific),3,834,6
+A,Painting,Australia (Aboriginal),3,363,21
+B,Drawings & Prints,Western Europe,8,757,12
+B,Drawings & Prints,Central & Eastern Europe,3,161,22
+B,Drawings & Prints,Greco-Roman & Byzantine Mediterranean,0,0,0
+B,Drawings & Prints,Ancient Egypt & Nubia,0,0,1
+B,Drawings & Prints,Ancient Near East,0,0,0
+B,Drawings & Prints,"Islamic world (MENA, Iran, Anatolia)",2,606,0
+B,Drawings & Prints,Central Asia & Silk Road,0,78,0
+B,Drawings & Prints,Himalaya,0,162,3
+B,Drawings & Prints,South Asia,0,1857,38
+B,Drawings & Prints,Southeast Asia,2,2803,5
+B,Drawings & Prints,China,2,2027,18
+B,Drawings & Prints,Japan,5,39489,14
+B,Drawings & Prints,Korea,0,0,1
+B,Drawings & Prints,Sub-Saharan Africa,0,384,0
+B,Drawings & Prints,North America (Indigenous),2,615,1
+B,Drawings & Prints,North America (settler),2,865,3
+B,Drawings & Prints,Mesoamerica & Caribbean,1,72,1
+B,Drawings & Prints,South America,1,284,1
+B,Drawings & Prints,Oceania (Pacific),0,77,1
+B,Drawings & Prints,Australia (Aboriginal),1,0,1
+C,Book Arts & Calligraphy,Western Europe,14,63542,56
+C,Book Arts & Calligraphy,Central & Eastern Europe,5,178,76
+C,Book Arts & Calligraphy,Greco-Roman & Byzantine Mediterranean,1,1099,7
+C,Book Arts & Calligraphy,Ancient Egypt & Nubia,1,289,4
+C,Book Arts & Calligraphy,Ancient Near East,1,0,1
+C,Book Arts & Calligraphy,"Islamic world (MENA, Iran, Anatolia)",9,5619,67
+C,Book Arts & Calligraphy,Central Asia & Silk Road,1,3366,3
+C,Book Arts & Calligraphy,Himalaya,3,2597,10
+C,Book Arts & Calligraphy,South Asia,2,973,38
+C,Book Arts & Calligraphy,Southeast Asia,5,3209,16
+C,Book Arts & Calligraphy,China,5,10818,22
+C,Book Arts & Calligraphy,Japan,4,35470,19
+C,Book Arts & Calligraphy,Korea,3,1849,10
+C,Book Arts & Calligraphy,Sub-Saharan Africa,3,1065,9
+C,Book Arts & Calligraphy,North America (Indigenous),0,0,0
+C,Book Arts & Calligraphy,North America (settler),1,17,2
+C,Book Arts & Calligraphy,Mesoamerica & Caribbean,2,23,7
+C,Book Arts & Calligraphy,South America,0,9,2
+C,Book Arts & Calligraphy,Oceania (Pacific),0,253,2
+C,Book Arts & Calligraphy,Australia (Aboriginal),0,0,0
+D,Sculpture & Carving,Western Europe,26,5665,75
+D,Sculpture & Carving,Central & Eastern Europe,18,1858,118
+D,Sculpture & Carving,Greco-Roman & Byzantine Mediterranean,13,4084,14
+D,Sculpture & Carving,Ancient Egypt & Nubia,2,589,3
+D,Sculpture & Carving,Ancient Near East,5,4862,50
+D,Sculpture & Carving,"Islamic world (MENA, Iran, Anatolia)",9,7447,19
+D,Sculpture & Carving,Central Asia & Silk Road,1,1248,17
+D,Sculpture & Carving,Himalaya,5,2698,51
+D,Sculpture & Carving,South Asia,12,2850,78
+D,Sculpture & Carving,Southeast Asia,13,8754,55
+D,Sculpture & Carving,China,9,9636,28
+D,Sculpture & Carving,Japan,11,10529,29
+D,Sculpture & Carving,Korea,2,237,11
+D,Sculpture & Carving,Sub-Saharan Africa,42,4353,196
+D,Sculpture & Carving,North America (Indigenous),8,6920,9
+D,Sculpture & Carving,North America (settler),7,349,20
+D,Sculpture & Carving,Mesoamerica & Caribbean,13,4540,40
+D,Sculpture & Carving,South America,8,626,19
+D,Sculpture & Carving,Oceania (Pacific),10,6213,65
+D,Sculpture & Carving,Australia (Aboriginal),4,362,8
+E,Ceramics,Western Europe,22,82168,260
+E,Ceramics,Central & Eastern Europe,12,1498,83
+E,Ceramics,Greco-Roman & Byzantine Mediterranean,16,3672,85
+E,Ceramics,Ancient Egypt & Nubia,3,4028,10
+E,Ceramics,Ancient Near East,3,918,34
+E,Ceramics,"Islamic world (MENA, Iran, Anatolia)",26,56859,33
+E,Ceramics,Central Asia & Silk Road,1,231,4
+E,Ceramics,Himalaya,0,359,6
+E,Ceramics,South Asia,3,2383,35
+E,Ceramics,Southeast Asia,7,3026,33
+E,Ceramics,China,25,44126,109
+E,Ceramics,Japan,21,29367,77
+E,Ceramics,Korea,8,3177,19
+E,Ceramics,Sub-Saharan Africa,4,9442,97
+E,Ceramics,North America (Indigenous),16,22752,18
+E,Ceramics,North America (settler),2,723,17
+E,Ceramics,Mesoamerica & Caribbean,24,18820,34
+E,Ceramics,South America,28,15224,36
+E,Ceramics,Oceania (Pacific),1,1422,159
+E,Ceramics,Australia (Aboriginal),1,8,1
+F,Glass,Western Europe,6,5733,85
+F,Glass,Central & Eastern Europe,4,242,42
+F,Glass,Greco-Roman & Byzantine Mediterranean,3,7508,33
+F,Glass,Ancient Egypt & Nubia,0,298,2
+F,Glass,Ancient Near East,0,135,5
+F,Glass,"Islamic world (MENA, Iran, Anatolia)",8,3351,13
+F,Glass,Central Asia & Silk Road,0,46,0
+F,Glass,Himalaya,0,62,0
+F,Glass,South Asia,0,580,0
+F,Glass,Southeast Asia,0,4238,1
+F,Glass,China,1,379,4
+F,Glass,Japan,2,227,6
+F,Glass,Korea,0,41,4
+F,Glass,Sub-Saharan Africa,1,1209,2
+F,Glass,North America (Indigenous),0,1499,0
+F,Glass,North America (settler),1,178,2
+F,Glass,Mesoamerica & Caribbean,0,37,2
+F,Glass,South America,0,100,0
+F,Glass,Oceania (Pacific),0,59,0
+F,Glass,Australia (Aboriginal),0,0,0
+G,"Metalwork, Arms & Jewellery",Western Europe,25,14137,173
+G,"Metalwork, Arms & Jewellery",Central & Eastern Europe,7,2200,143
+G,"Metalwork, Arms & Jewellery",Greco-Roman & Byzantine Mediterranean,7,4220,55
+G,"Metalwork, Arms & Jewellery",Ancient Egypt & Nubia,0,2480,6
+G,"Metalwork, Arms & Jewellery",Ancient Near East,4,1438,42
+G,"Metalwork, Arms & Jewellery","Islamic world (MENA, Iran, Anatolia)",13,24314,58
+G,"Metalwork, Arms & Jewellery",Central Asia & Silk Road,2,1209,10
+G,"Metalwork, Arms & Jewellery",Himalaya,1,1900,29
+G,"Metalwork, Arms & Jewellery",South Asia,7,9607,98
+G,"Metalwork, Arms & Jewellery",Southeast Asia,3,52576,46
+G,"Metalwork, Arms & Jewellery",China,7,10339,40
+G,"Metalwork, Arms & Jewellery",Japan,9,42580,33
+G,"Metalwork, Arms & Jewellery",Korea,5,1520,20
+G,"Metalwork, Arms & Jewellery",Sub-Saharan Africa,3,17389,184
+G,"Metalwork, Arms & Jewellery",North America (Indigenous),4,10001,3
+G,"Metalwork, Arms & Jewellery",North America (settler),2,638,10
+G,"Metalwork, Arms & Jewellery",Mesoamerica & Caribbean,4,2370,24
+G,"Metalwork, Arms & Jewellery",South America,13,7047,38
+G,"Metalwork, Arms & Jewellery",Oceania (Pacific),1,13866,107
+G,"Metalwork, Arms & Jewellery",Australia (Aboriginal),1,594,8
+H,"Textiles, Carpets & Dress",Western Europe,58,37372,574
+H,"Textiles, Carpets & Dress",Central & Eastern Europe,54,7956,602
+H,"Textiles, Carpets & Dress",Greco-Roman & Byzantine Mediterranean,2,5,23
+H,"Textiles, Carpets & Dress",Ancient Egypt & Nubia,2,5,4
+H,"Textiles, Carpets & Dress",Ancient Near East,1,40,2
+H,"Textiles, Carpets & Dress","Islamic world (MENA, Iran, Anatolia)",29,14190,205
+H,"Textiles, Carpets & Dress",Central Asia & Silk Road,8,2512,30
+H,"Textiles, Carpets & Dress",Himalaya,2,1699,21
+H,"Textiles, Carpets & Dress",South Asia,31,12250,96
+H,"Textiles, Carpets & Dress",Southeast Asia,20,53775,129
+H,"Textiles, Carpets & Dress",China,12,1530,97
+H,"Textiles, Carpets & Dress",Japan,15,19466,51
+H,"Textiles, Carpets & Dress",Korea,7,561,17
+H,"Textiles, Carpets & Dress",Sub-Saharan Africa,26,16485,166
+H,"Textiles, Carpets & Dress",North America (Indigenous),30,23038,24
+H,"Textiles, Carpets & Dress",North America (settler),6,13079,32
+H,"Textiles, Carpets & Dress",Mesoamerica & Caribbean,13,5253,30
+H,"Textiles, Carpets & Dress",South America,15,12577,52
+H,"Textiles, Carpets & Dress",Oceania (Pacific),8,11989,92
+H,"Textiles, Carpets & Dress",Australia (Aboriginal),2,270,8
+I,"Woodwork, Lacquer & Furniture",Western Europe,27,910,16
+I,"Woodwork, Lacquer & Furniture",Central & Eastern Europe,12,1854,26
+I,"Woodwork, Lacquer & Furniture",Greco-Roman & Byzantine Mediterranean,0,0,2
+I,"Woodwork, Lacquer & Furniture",Ancient Egypt & Nubia,0,148,1
+I,"Woodwork, Lacquer & Furniture",Ancient Near East,0,0,0
+I,"Woodwork, Lacquer & Furniture","Islamic world (MENA, Iran, Anatolia)",11,2325,8
+I,"Woodwork, Lacquer & Furniture",Central Asia & Silk Road,0,382,2
+I,"Woodwork, Lacquer & Furniture",Himalaya,2,403,3
+I,"Woodwork, Lacquer & Furniture",South Asia,8,2231,14
+I,"Woodwork, Lacquer & Furniture",Southeast Asia,4,22919,11
+I,"Woodwork, Lacquer & Furniture",China,6,2540,1
+I,"Woodwork, Lacquer & Furniture",Japan,12,10594,2
+I,"Woodwork, Lacquer & Furniture",Korea,4,343,1
+I,"Woodwork, Lacquer & Furniture",Sub-Saharan Africa,3,9086,65
+I,"Woodwork, Lacquer & Furniture",North America (Indigenous),2,6585,22
+I,"Woodwork, Lacquer & Furniture",North America (settler),2,258,1
+I,"Woodwork, Lacquer & Furniture",Mesoamerica & Caribbean,1,1464,7
+I,"Woodwork, Lacquer & Furniture",South America,2,3725,9
+I,"Woodwork, Lacquer & Furniture",Oceania (Pacific),2,6939,35
+I,"Woodwork, Lacquer & Furniture",Australia (Aboriginal),0,107,0
+J,Photography,Western Europe,5,2450,0
+J,Photography,Central & Eastern Europe,0,25,0
+J,Photography,Greco-Roman & Byzantine Mediterranean,0,0,0
+J,Photography,Ancient Egypt & Nubia,0,0,0
+J,Photography,Ancient Near East,0,0,0
+J,Photography,"Islamic world (MENA, Iran, Anatolia)",0,419,1
+J,Photography,Central Asia & Silk Road,0,0,0
+J,Photography,Himalaya,0,0,0
+J,Photography,South Asia,0,92,0
+J,Photography,Southeast Asia,0,6023,0
+J,Photography,China,0,78,0
+J,Photography,Japan,0,64,3
+J,Photography,Korea,0,0,0
+J,Photography,Sub-Saharan Africa,1,174,1
+J,Photography,North America (Indigenous),0,9,0
+J,Photography,North America (settler),5,0,0
+J,Photography,Mesoamerica & Caribbean,0,24,0
+J,Photography,South America,0,117,0
+J,Photography,Oceania (Pacific),0,259,0
+J,Photography,Australia (Aboriginal),0,0,0
+K,Architecture,Western Europe,55,0,322
+K,Architecture,Central & Eastern Europe,19,0,127
+K,Architecture,Greco-Roman & Byzantine Mediterranean,10,0,14
+K,Architecture,Ancient Egypt & Nubia,1,0,3
+K,Architecture,Ancient Near East,7,0,6
+K,Architecture,"Islamic world (MENA, Iran, Anatolia)",22,0,66
+K,Architecture,Central Asia & Silk Road,1,0,3
+K,Architecture,Himalaya,4,0,4
+K,Architecture,South Asia,18,0,57
+K,Architecture,Southeast Asia,14,0,27
+K,Architecture,China,13,0,18
+K,Architecture,Japan,13,0,53
+K,Architecture,Korea,2,0,4
+K,Architecture,Sub-Saharan Africa,7,0,14
+K,Architecture,North America (Indigenous),3,0,5
+K,Architecture,North America (settler),14,0,85
+K,Architecture,Mesoamerica & Caribbean,5,0,17
+K,Architecture,South America,4,0,15
+K,Architecture,Oceania (Pacific),7,0,6
+K,Architecture,Australia (Aboriginal),0,0,1
+L,Art in Place,Western Europe,18,0,103
+L,Art in Place,Central & Eastern Europe,7,0,63
+L,Art in Place,Greco-Roman & Byzantine Mediterranean,9,0,26
+L,Art in Place,Ancient Egypt & Nubia,1,0,5
+L,Art in Place,Ancient Near East,3,0,10
+L,Art in Place,"Islamic world (MENA, Iran, Anatolia)",10,0,22
+L,Art in Place,Central Asia & Silk Road,5,0,10
+L,Art in Place,Himalaya,3,0,7
+L,Art in Place,South Asia,13,0,40
+L,Art in Place,Southeast Asia,7,0,16
+L,Art in Place,China,2,0,11
+L,Art in Place,Japan,4,0,8
+L,Art in Place,Korea,3,0,6
+L,Art in Place,Sub-Saharan Africa,9,0,18
+L,Art in Place,North America (Indigenous),8,0,15
+L,Art in Place,North America (settler),2,0,11
+L,Art in Place,Mesoamerica & Caribbean,5,0,15
+L,Art in Place,South America,9,0,31
+L,Art in Place,Oceania (Pacific),4,0,14
+L,Art in Place,Australia (Aboriginal),5,0,9

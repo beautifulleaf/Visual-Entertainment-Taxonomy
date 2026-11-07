@@ -32,8 +32,56 @@ Of the general-only objects, 18,256 sit under labels reviewed and kept general (
 | V5 | 0 | 0 | 1 |
 | V6 | 0 | 47 | 415 |
 | V7 | 0 | 26 | 34 |
+| V8 | 3 | 12 | 0 |
 
 V4: 384 named missing traditions in the mapping, 140 now carried by a leaf name, 244 open. V6: 84 rows in leftover per-object works lists.
+
+## V8 Region × medium: leaves (museum records)
+
+Each cell: leaves in the tree, then gathered museum records in thousands. A dash is an empty cell; **bold** marks a cell with evidence and no leaf. Full table in `region_medium.csv`.
+
+| Region | A | B | C | D | E | F | G | H | I | J | K | L |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Western Europe | 76 | 8 (1k) | 14 (64k) | 26 (6k) | 22 (82k) | 6 (6k) | 25 (14k) | 58 (37k) | 27 (1k) | 5 (2k) | 55 | 18 |
+| Central & Eastern Europe | 24 (2k) | 3 | 5 | 18 (2k) | 12 (1k) | 4 | 7 (2k) | 54 (8k) | 12 (2k) | – | 19 | 7 |
+| Greco-Roman & Byzantine Mediterranean | 5 (7k) | – | 1 (1k) | 13 (4k) | 16 (4k) | 3 (8k) | 7 (4k) | 2 | – | – | 10 | 9 |
+| Ancient Egypt & Nubia | – | – | 1 | 2 (1k) | 3 (4k) | – | **– (2k)** | 2 | – | – | 1 | 1 |
+| Ancient Near East | – | – | 1 | 5 (5k) | 3 (1k) | **–** | 4 (1k) | 1 | – | – | 7 | 3 |
+| Islamic world (MENA, Iran, Anatolia) | 6 (6k) | 2 (1k) | 9 (6k) | 9 (7k) | 26 (57k) | 8 (3k) | 13 (24k) | 29 (14k) | 11 (2k) | – | 22 | 10 |
+| Central Asia & Silk Road | 1 (1k) | – | 1 (3k) | 1 (1k) | 1 | – | 2 (1k) | 8 (3k) | – | – | 1 | 5 |
+| Himalaya | 7 (5k) | – | 3 (3k) | 5 (3k) | **–** | – | 1 (2k) | 2 (2k) | 2 | – | 4 | 3 |
+| South Asia | 24 (19k) | **– (2k)** | 2 (1k) | 12 (3k) | 3 (2k) | – (1k) | 7 (10k) | 31 (12k) | 8 (2k) | – | 18 | 13 |
+| Southeast Asia | 7 (12k) | 2 (3k) | 5 (3k) | 13 (9k) | 7 (3k) | **– (4k)** | 3 (53k) | 20 (54k) | 4 (23k) | **– (6k)** | 14 | 7 |
+| China | 8 (19k) | 2 (2k) | 5 (11k) | 9 (10k) | 25 (44k) | 1 | 7 (10k) | 12 (2k) | 6 (3k) | – | 13 | 2 |
+| Japan | 13 (23k) | 5 (39k) | 4 (35k) | 11 (11k) | 21 (29k) | 2 | 9 (43k) | 15 (19k) | 12 (11k) | – | 13 | 4 |
+| Korea | 3 (5k) | – | 3 (2k) | 2 | 8 (3k) | – | 5 (2k) | 7 (1k) | 4 | – | 2 | 3 |
+| Sub-Saharan Africa | 11 (1k) | – | 3 (1k) | 42 (4k) | 4 (9k) | 1 (1k) | 3 (17k) | 26 (16k) | 3 (9k) | 1 | 7 | 9 |
+| North America (Indigenous) | 4 (4k) | 2 (1k) | – | 8 (7k) | 16 (23k) | **– (1k)** | 4 (10k) | 30 (23k) | 2 (7k) | – | 3 | 8 |
+| North America (settler) | 22 | 2 (1k) | 1 | 7 | 2 (1k) | 1 | 2 (1k) | 6 (13k) | 2 | 5 | 14 | 2 |
+| Mesoamerica & Caribbean | 7 (1k) | 1 | 2 | 13 (5k) | 24 (19k) | – | 4 (2k) | 13 (5k) | 1 (1k) | – | 5 | 5 |
+| South America | 11 (2k) | 1 | – | 8 (1k) | 28 (15k) | – | 13 (7k) | 15 (13k) | 2 (4k) | – | 4 | 9 |
+| Oceania (Pacific) | 3 (1k) | – | – | 10 (6k) | 1 (1k) | – | 1 (14k) | 8 (12k) | 2 (7k) | – | 7 | 4 |
+| Australia (Aboriginal) | 3 | 1 | – | 4 | 1 | – | 1 (1k) | 2 | – | – | – | 5 |
+
+### Region × medium gaps
+
+| Severity | Where | What | Evidence | Objects |
+|---|---|---|---|---:|
+| high | B Drawings & Prints × South Asia | no leaf in this medium for this region, but the evidence shows a body of work | 1,857 museum records; 38 traditions in the sourcing grid |  |
+| high | F Glass × Southeast Asia | no leaf in this medium for this region, but the evidence shows a body of work | 4,238 museum records |  |
+| high | J Photography × Southeast Asia | no leaf in this medium for this region, but the evidence shows a body of work | 6,023 museum records |  |
+| medium | C Book Arts & Calligraphy × South Asia | only 2 leaf/leaves against a large body of work | 38 traditions in the sourcing grid |  |
+| medium | E Ceramics × Himalaya | no leaf in this medium for this region, but the evidence shows a body of work | 6 traditions in the sourcing grid |  |
+| medium | E Ceramics × Oceania (Pacific) | only 1 leaf/leaves against a large body of work | 1,422 museum records; 159 traditions in the sourcing grid |  |
+| medium | F Glass × Ancient Near East | no leaf in this medium for this region, but the evidence shows a body of work | 5 traditions in the sourcing grid |  |
+| medium | F Glass × North America (Indigenous) | no leaf in this medium for this region, but the evidence shows a body of work | 1,499 museum records |  |
+| medium | G Metalwork, Arms & Jewellery × Ancient Egypt & Nubia | no leaf in this medium for this region, but the evidence shows a body of work | 2,480 museum records; 6 traditions in the sourcing grid |  |
+| medium | G Metalwork, Arms & Jewellery × Himalaya | only 1 leaf/leaves against a large body of work | 1,900 museum records; 29 traditions in the sourcing grid |  |
+| medium | G Metalwork, Arms & Jewellery × Oceania (Pacific) | only 1 leaf/leaves against a large body of work | 13,866 museum records; 107 traditions in the sourcing grid |  |
+| medium | H Textiles, Carpets & Dress × Greco-Roman & Byzantine Mediterranean | only 2 leaf/leaves against a large body of work | 23 traditions in the sourcing grid |  |
+| medium | H Textiles, Carpets & Dress × Himalaya | only 2 leaf/leaves against a large body of work | 1,699 museum records; 21 traditions in the sourcing grid |  |
+| medium | I Woodwork, Lacquer & Furniture × North America (Indigenous) | only 2 leaf/leaves against a large body of work | 6,585 museum records; 22 traditions in the sourcing grid |  |
+| medium | I Woodwork, Lacquer & Furniture × Oceania (Pacific) | only 2 leaf/leaves against a large body of work | 6,939 museum records; 35 traditions in the sourcing grid |  |
 
 ### Qualified labels resolved only to general (top 15)
 

@@ -766,6 +766,18 @@ def main():
             e[2] = next(iter(where[e[0]])); report.setdefault("structure_fix", {})["finder_titles_repointed"] = report["structure_fix"].get("finder_titles_repointed", 0) + 1
     report.setdefault("structure_fix", {})["finder_dead_codes"] = sum(1 for e in find_ft if e[1] == "FT" and e[2] and e[2] not in live)
     fix_structure(tree, MV, MF, report)
+    import va_facets  # region, period and eras on every VA leaf (filters and region groups on the page)
+    fac = va_facets.compute(tree["va"], MV)
+    for f in tree["va"]["fams"]:
+        for s_ in f["subs"]:
+            for l in s_["leaves"]:
+                reg, a, b = fac.get(l["code"], ("", "", ""))
+                l["region"] = reg
+                if a != "" and b != "": l["period"] = [int(a), int(b)]; l["eras"] = va_facets.era_names(int(a), int(b))
+                else: l.pop("period", None); l["eras"] = []
+    tree["va"]["regions"] = va_facets.REGIONS
+    tree["va"]["eras"] = [[n, lo, hi] for n, lo, hi in va_facets.ERAS]
+    report["va_facets"] = {"leaves": len(fac), "undated": sum(1 for v in fac.values() if v[1] == "")}
     fix_links(tree, report)
     rp = os.path.join(R3, "report_r3.html")
     if os.path.exists(rp) and '<h2 id="r3">' not in tree["report"]: tree["report"] += "\n" + open(rp).read()

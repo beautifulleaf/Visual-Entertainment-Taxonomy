@@ -20,6 +20,8 @@ Checks
                          see the works (holding institutions, or makers/artists), no
                          leftover per-object works lists, no empty leaf
   V7 probes              coverage probes still weak or missing
+  V8 region x medium     each medium against each world region: leaves in the tree, gathered museum records
+                         and sourcing-grid traditions per cell; a cell with evidence and no leaf is a gap
 
 Writes taxonomy/audit/va_completeness/{flags.csv, summary.md}.
 Run: python3 pipelines/r3/va_completeness_audit.py
@@ -144,6 +146,7 @@ def load_keys():
 def main():
     os.makedirs(OUT, exist_ok=True)
     tree, leaves, rows = load_tree()
+    famlabel_ = {f["code"]: f["label"] for f in tree["fams"]}
     keys = load_keys()
     flags = []
 
@@ -328,6 +331,52 @@ def main():
         elif st == "ok" and code and code not in leaves:
             flag("V7", "medium", p["probe"], "probe home no longer exists", home)
 
+    # ---- V8 region x medium coverage -------------------------------------
+    # Does each medium cover each world region? Three independent signals per cell: leaves in the tree (by the
+    # leaf's region facet), gathered museum records of that medium from that region (labels mapped to regions with
+    # the coverage grid's scheme), and named traditions counted in that cell by the sourcing coverage grid.
+    import sys as _sys
+    _sys.path.insert(0, os.path.join(ROOT, "pipelines", "r3"))
+    import va_facets as VF
+    FAM_MEDIA = {"A": ["painting"], "B": ["prints", "drawing"], "C": ["calligraphy & book arts"],
+                 "D": ["sculpture & carving", "masks & ritual objects"], "E": ["ceramics"], "F": ["glass"],
+                 "G": ["jewellery & metalwork", "arms & armour"], "H": ["textiles & costume", "basketry & fibre"],
+                 "I": ["woodwork, lacquer & furniture", "musical instruments"], "J": ["photography"], "K": ["architecture"],
+                 "L": ["art in place", "mosaics & architectural decoration"]}
+    src_trad = collections.Counter()
+    cm = os.path.join(ROOT, "data", "interim", "coverage_media.csv")
+    if os.path.exists(cm):
+        m2f = {m: f for f, ms in FAM_MEDIA.items() for m in ms}
+        for r in csv.DictReader(open(cm)):
+            fam = m2f.get(r["medium"])
+            if fam: src_trad[(r["region"], fam)] += int(r["traditions"] or 0)
+    leaves_cell = collections.Counter((l.get("region") or "", l["fam"]) for l in leaves.values())
+    rec_cell = collections.Counter()
+    regcache = {}
+    for k in keys:
+        if k["kind"] == "exclude": continue
+        fam = leaves[k["map"]]["fam"] if k["kind"] == "leaf" and k["map"] in leaves else \
+            (k["map"].split(":", 1)[1] if k["kind"] == "general" and ":" in k["map"] else k["family"])
+        if fam not in OBJECT_FAMS: continue
+        reg = regcache.get(k["label"])
+        if reg is None: reg = regcache[k["label"]] = VF.region_of(k["label"]) or ""
+        if reg: rec_cell[(reg, fam)] += k["objects"]
+    grid_rows = []
+    for fam in sorted(FAM_MEDIA):
+        for reg in VF.CA.REGIONS:
+            n, rec, st_ = leaves_cell[(reg, fam)], rec_cell[(reg, fam)], src_trad[(reg, fam)]
+            grid_rows.append([fam, famlabel_.get(fam, ""), reg, n, rec, st_])
+            ev = []
+            if rec >= 1000: ev.append(f"{rec:,} museum records")
+            if st_ >= 5: ev.append(f"{st_} traditions in the sourcing grid")
+            if n == 0 and ev:
+                flag("V8", "high" if rec >= 3000 or st_ >= 15 else "medium", f"{fam} {famlabel_.get(fam, '')} × {reg}",
+                     "no leaf in this medium for this region, but the evidence shows a body of work", "; ".join(ev))
+            elif n <= 2 and (rec >= 5000 or st_ >= 20):
+                flag("V8", "medium", f"{fam} {famlabel_.get(fam, '')} × {reg}", f"only {n} leaf/leaves against a large body of work", "; ".join(ev))
+    with open(os.path.join(OUT, "region_medium.csv"), "w", newline="") as fh:
+        w = csv.writer(fh); w.writerow(["family", "family_label", "region", "leaves", "museum_records", "sourcing_traditions"]); w.writerows(grid_rows)
+
     # ---- write -----------------------------------------------------------
     order = {"high": 0, "medium": 1, "low": 2}
     flags.sort(key=lambda f: (f["check"], order[f["severity"]], -(f["objects"] or 0) if isinstance(f["objects"], int) else 0))
@@ -361,7 +410,19 @@ def main():
         L.append(f"| {ch} | {byc[ch]['high']} | {byc[ch]['medium']} | {byc[ch]['low']} |")
     L += ["", f"V4: {len(miss)} named missing traditions in the mapping, {resolved} now carried by a leaf name, "
           f"{len(miss) - resolved} open. V6: {leftover:,} rows in leftover per-object works lists.", ""]
-    for ch, title in (("V2", "Qualified labels resolved only to general (top 15)"), ("V3", "Culture × medium gaps (top 15)"),
+    L += ["## V8 Region × medium: leaves (museum records)", "",
+          "Each cell: leaves in the tree, then gathered museum records in thousands. A dash is an empty cell; **bold** marks a cell with evidence and no leaf. Full table in `region_medium.csv`.", "",
+          "| Region | " + " | ".join(FAM_MEDIA) + " |", "|---|" + "---:|" * len(FAM_MEDIA)]
+    G_ = {(r[0], r[2]): r for r in grid_rows}
+    for reg in VF.CA.REGIONS:
+        cells = []
+        for fam in FAM_MEDIA:
+            r = G_[(fam, reg)]; n, rec, st_ = r[3], r[4], r[5]
+            txt = (f"{n}" if n else "–") + (f" ({rec / 1000:.0f}k)" if rec >= 500 else "")
+            cells.append(f"**{txt}**" if n == 0 and (rec >= 1000 or st_ >= 5) else txt)
+        L.append(f"| {reg} | " + " | ".join(cells) + " |")
+    L.append("")
+    for ch, title in (("V8", "Region × medium gaps"), ("V2", "Qualified labels resolved only to general (top 15)"), ("V3", "Culture × medium gaps (top 15)"),
                       ("V4", "Open named traditions (top 15)"), ("V6", "Leaf completeness (high and medium, top 15)")):
         sel = [f for f in flags if f["check"] == ch and (ch != "V6" or f["severity"] != "low")][:15]
         if not sel:

@@ -668,6 +668,10 @@
   ]
  },
  "structure_fixes": {},
+ "va_facets": {
+  "leaves": 1782,
+  "undated": 423
+ },
  "links": {
   "corrected": 7,
   "search": 11,

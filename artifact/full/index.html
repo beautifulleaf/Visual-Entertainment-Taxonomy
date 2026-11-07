@@ -63,6 +63,11 @@ button{font:inherit;color:inherit}
 .ixres .sl{grid-column:2;font-size:.72rem;color:var(--muted)}
 .ixres .none{font-size:.8rem;color:var(--muted);padding:3px 6px}
 .leaf.flash{box-shadow:0 0 0 2px var(--h)}
+.lgrp{grid-column:1/-1;margin:8px 0 0;font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--h);display:flex;gap:8px;align-items:baseline;border-bottom:1px solid var(--rule);padding-bottom:2px}
+.lgrp:first-child{margin-top:0}
+.lgrp .n{color:var(--muted);letter-spacing:0;text-transform:none;font-variant-numeric:tabular-nums}
+.where{font-size:.8rem;color:var(--muted);margin:0}
+.where b{color:var(--ink);font-weight:500}
 @media (prefers-reduced-motion: reduce){.index .tog{transition:none}}
 .index .n{color:var(--muted);font-variant-numeric:tabular-nums;font-size:.78rem}
 main{min-width:0}
@@ -159,7 +164,7 @@ details.key p{margin:5px 0}
 <script>
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const norm=s=>String(s||'').toLowerCase().normalize('NFKD').replace(/[̀-ͯʻʿʾ'’]/g,'');
-let D=null, FIND=null, MEM={}, state={tab:'VA',open:new Set(),hl:null,all:new Set(),f:{c:'',d:'',dir:''},ixOpen:new Set(),ixq:''};
+let D=null, FIND=null, MEM={}, state={tab:'VA',open:new Set(),hl:null,all:new Set(),f:{c:'',d:'',dir:''},ixOpen:new Set(),ixq:'',vf:{r:'',e:'',q:''}};
 try{const t=localStorage.getItem('vet-full-tab'); if(t) state.tab=t;}catch(e){}
 const TABS=[['VA','Visual Art'],['FT','Film & Television'],['KEY','How to place'],['REPORT','Report']];
 const SHOW=300;
@@ -230,24 +235,49 @@ function ftKinds(l,rows){
   return `${l.axis?`<p class="kaxis">Sections: ${esc(l.axis)}</p>`:''}<div class="tw"><table class="films"><thead><tr><th>Year</th><th>Title</th><th>Director / country</th><th>See also</th><th>Note</th></tr></thead><tbody>${body}</tbody></table></div>${more(l.code,rows.length)}`;
 }
 function fCount(l){const rs=(MEM['FT-'+famOf(l.code)]||{})[l.code]||[]; return rs.filter(fMatch).length}
+/* Visual Art filters and region groups: region, period (era) and culture or style are filters, not nodes */
+const yr=y=>y<0?`${-y} BCE`:String(y);
+function yrs(p){return p[0]===p[1]?yr(p[0]):(p[0]<0&&p[1]<0?`${-p[0]}–${-p[1]} BCE`:`${yr(p[0])}–${p[1]>=2026?'present':yr(p[1])}`)}
+const ERA_LABEL={antiquity:'Antiquity (to 499)',early:'500–1399',late:'1400–1859',modern:'1860–1959',contemporary:'1960 onward'};
+function vOn(){const v=state.vf;return !!(v.r||v.e||v.q.trim())}
+function vMatch(l){const v=state.vf;
+  if(v.r&&l.region!==v.r) return false;
+  if(v.e){ if(v.e==='undated'){ if(l.period) return false; } else if(!(l.eras||[]).includes(v.e)) return false; }
+  const q=norm(v.q.trim()); if(q&&!norm(l.label+' '+(l.aliases||'')+' '+String(l.defn||'').replace(/<[^>]+>/g,'')).includes(q)) return false;
+  return true}
+function vaFilterBar(){ const v=state.vf, L=[]; for(const f of D.va.fams) for(const s of f.subs) L.push(...s.leaves);
+  const rc={}, ec={}; let und=0; for(const l of L){ if(l.region) rc[l.region]=(rc[l.region]||0)+1; if(l.period) for(const e of l.eras||[]) ec[e]=(ec[e]||0)+1; else und++; }
+  const ro=(D.va.regions||Object.keys(rc)).filter(r=>rc[r]).map(r=>`<option value="${esc(r)}"${v.r===r?' selected':''}>${esc(r)} (${rc[r]})</option>`).join('');
+  const eo=(D.va.eras||[]).map(([e])=>`<option value="${e}"${v.e===e?' selected':''}>${ERA_LABEL[e]||e} (${ec[e]||0})</option>`).join('')+`<option value="undated"${v.e==='undated'?' selected':''}>Undated living traditions (${und})</option>`;
+  const shown=vOn()?L.filter(vMatch).length:null;
+  return `<div class="fbar" role="search" aria-label="Filter leaves"><label>Region <select id="vf-r" data-vf="r"><option value="">all</option>${ro}</select></label><label>Period <select id="vf-e" data-vf="e"><option value="">all</option>${eo}</select></label><label>Culture or style <input id="vf-q" data-vf="q" type="search" value="${esc(v.q)}" placeholder="e.g. Mughal, Byzantine"></label>${vOn()?`<span class="kmeta">${shown.toLocaleString()} leaves</span><button class="clr" data-vf="clear">Clear filters</button>`:''}</div>`; }
+const MODERN_GROUP='Modern & Contemporary', MODERN_REG=new Set(['Western Europe','Central & Eastern Europe','North America (settler)','Transnational']);
+function vaGroup(l){ return (l.period&&l.period[0]>=1860&&MODERN_REG.has(l.region))?MODERN_GROUP:(l.region||'Other'); }
+function vaLeaves(s,f){ const html=l=>leafHTML('VA',l,f.unit);
+  if(s.leaves.length<25) return s.leaves.map(html).join('');
+  const order=[...(D.va.regions||[]).filter(r=>r!=='Transnational'),'Transnational',MODERN_GROUP,'Other'], g={};
+  for(const l of s.leaves){ const k=vaGroup(l); (g[k]=g[k]||[]).push(l); }
+  return order.filter(k=>g[k]).map(k=>{ const body=g[k].map(html).join(''); return body?`<h4 class="lgrp">${esc(k)} <span class="n">${(vOn()?g[k].filter(vMatch):g[k]).length}</span></h4>${body}`:''; }).join(''); }
 function leafHTML(t,l,unit){
   const open=state.open.has(l.code); const id=t+'-'+l.code;
   const fc=(t==='FT'&&fOn())?fCount(l):null; if(fc===0) return '';
+  if(t==='VA'&&vOn()&&!vMatch(l)) return '';
   const rows=open?((MEM[t+'-'+famOf(l.code)]||{})[l.code]||[]):[];
   return `<article class="leaf${open?' open':''}" id="${id}">
    <div class="leaf-top"><h4><span class="code">${l.code}</span>${esc(l.label)}</h4><span class="badge b-${l.breadth}">${l.breadth}</span></div>
    <p class="defn">${l.defn}</p>
    ${l.aliases?`<p class="aka"><b>Aliases</b> ${esc(l.aliases)}</p>`:''}${l.see?`<p class="aka"><b>See also</b> ${esc(l.see)}</p>`:''}
-   ${srcHTML(l.src)}${l.catalogues&&l.catalogues.length?`<p class="aka viewall"><b>View all</b> ${l.catalogues.map(([u,lab,w])=>`<a href="${esc(u)}" target="_blank" rel="noopener" title="${esc(w)}">${esc(lab)}</a>${w?` <span class="kmeta">(${esc(w)})</span>`:''}`).join(' · ')}</p>`:''}${l.weak?`<span class="weak">Attestation to confirm: ${esc(l.weak)}</span>`:''}
+   ${t==='VA'&&l.region?`<p class="where"><b>Where &amp; when</b> ${esc(l.region)}${l.period?' · '+yrs(l.period):' · undated living tradition'}</p>`:''}${srcHTML(l.src)}${l.catalogues&&l.catalogues.length?`<p class="aka viewall"><b>View all</b> ${l.catalogues.map(([u,lab,w])=>`<a href="${esc(u)}" target="_blank" rel="noopener" title="${esc(w)}">${esc(lab)}</a>${w?` <span class="kmeta">(${esc(w)})</span>`:''}`).join(' · ')}</p>`:''}${l.weak?`<span class="weak">Attestation to confirm: ${esc(l.weak)}</span>`:''}
    <div class="leaf-foot"><span class="count">${fc!==null?fc.toLocaleString()+' of ':''}${l.n.toLocaleString()} ${t==='FT'?unit:(l.n===1?'kind':'kinds')}</span>${l.n?`<button class="copy-btn" data-leaf="${l.code}" title="Copy this leaf's ${t==='FT'?'titles':'kinds'} as text">Copy</button>`:''}${l.n?`<button class="open-btn" data-leaf="${l.code}" aria-expanded="${open}">${open?'Close':(t==='FT'?'Show titles':'Show kinds')}</button>`:''}</div>
    ${open?`<div class="kinds">${t==='FT'?ftKinds(l,rows):vaKinds(l,rows)}</div>`:''}</article>`;
 }
 function renderTree(t){
   setHue(t); const T=D[t.toLowerCase()]; const c=D.census[t.toLowerCase()];
   let out = t==='VA'
-   ? `<p class="lede">Visual Art is divided by what the work is (its medium), never by region or period. This release holds ${c.leaves.toLocaleString()} leaves in ${c.families_built} of the ${T.fams.length} families, with ${c.kinds.toLocaleString()} entries under them: schools, centres, sub-types, makers, architects, artists and the gathered rows that attest each tradition. Dynasties, periods, places and cultures are filters, not nodes.</p>`
+   ? `<p class="lede">Visual Art is divided first by what the work is (its medium). Inside each medium, sub-families follow that field's own established division: clay body for ceramics, technique for textiles, format for painting outside the European easel tradition, period style for European painting and sculpture, region for architecture. Large sub-families are grouped by region, and every leaf carries a region and a period, which you can filter by below. This release holds ${c.leaves.toLocaleString()} leaves in ${T.fams.length} families, with ${c.kinds.toLocaleString()} entries under them: schools, centres, sub-types, makers, architects, artists and the collections that hold each tradition.</p>`
    : `<p class="lede">Film &amp; Television is divided by form (film, television, animation), then by genre, cycle, movement, tradition and format; large leaves are divided into sections along a stated axis. This release places ${c.placed.toLocaleString()} selected titles in ${c.leaves} leaves. Country, decade, format and platform are filters.</p>`;
   if(t==='FT'){ if(!D.ft.fams.every(f=>MEM['FT-'+f.code])){ out+='<p class="lede">Loading the title lists for the filters…</p>'; ftAll().then(render).catch(()=>{}); } else out+=ftFilterBar(); }
+  else out+=vaFilterBar();
   let ix=`<h3>${t==='VA'?'Visual Art':'Film & Television'}</h3><input id="ixq" class="ixq" type="search" placeholder="Jump to a leaf" aria-label="Jump to a leaf by name or code" autocomplete="off" value="${esc(state.ixq)}"><ol id="ixres" class="ixres"${state.ixq.trim().length>=2?'':' hidden'}>${ixResults(t,state.ixq)}</ol><ol>`;
   for(const f of T.fams){
     const sl=f.subs.filter(s=>s.leaves.length).map(s=>`<li><a href="#${t}-${s.code}" data-ix="${t}-${s.code}"><span>${s.code} ${esc(s.label)}</span><span class="n">${s.n.toLocaleString()}</span></a></li>`).join('');
@@ -255,10 +285,11 @@ function renderTree(t){
       :`<li><a href="#${t}-${f.code}" class="dim"><span>${f.code} ${esc(f.label)}</span><span class="n"></span></a></li>`;
     let subs='';
     for(const s of f.subs){
-      const lh=s.leaves.map(l=>leafHTML(t,l,f.unit)).join(''); if(t==='FT'&&fOn()&&!lh) continue;
+      const lh=t==='VA'?vaLeaves(s,f):s.leaves.map(l=>leafHTML(t,l,f.unit)).join(''); if(((t==='FT'&&fOn())||(t==='VA'&&vOn()))&&!lh) continue;
       subs+=`<section class="sub" id="${t}-${s.code}"><div class="sub-h"><span class="code">${s.code}</span><h3>${esc(s.label)}</h3>${s.leaves.length?`<span class="count">${s.leaves.length} leaves · ${s.n.toLocaleString()}</span>`:''}</div><p class="axis">${esc(s.axis)}</p>
         ${s.leaves.length?`<div class="leaves">${lh}</div>`:'<p class="later">No leaf in this release; nothing gathered falls here yet.</p>'}</section>`;
     }
+    if(t==='VA'&&vOn()&&!subs) continue;
     out+=`<section class="fam" id="${t}-${f.code}"><div class="fam-h"><span class="code">${t}-${f.code}</span><h2>${esc(f.label)}</h2>${f.nleaves?`<span class="count">${f.nleaves} leaves · ${f.n.toLocaleString()} ${t==='FT'?f.unit:'kinds'}</span>`:''}</div>
       <p class="test">Membership test: ${esc(f.test)}</p>
       ${f.key.length?`<details class="key"><summary>Key to this family (first yes wins)</summary>${f.key.map(p=>`<p>${p}</p>`).join('')}</details>`:''}
@@ -362,7 +393,10 @@ main.addEventListener('click',e=>{
   const b=e.target.closest('.open-btn'); if(b){const c=b.dataset.leaf; if(state.open.has(c)){state.open.delete(c);render();const el=document.getElementById(state.tab+'-'+c); if(el) el.scrollIntoView({block:'nearest'})} else openLeaf(state.tab,c,false); return;}
   const r=e.target.closest('.res'); if(r) go(r);
 });
-main.addEventListener('change',e=>{const x=e.target.closest('[data-f]'); if(x&&x.tagName==='SELECT'){state.f[x.dataset.f]=x.value; render();}});
+main.addEventListener('change',e=>{const x=e.target.closest('[data-f]'); if(x&&x.tagName==='SELECT'){state.f[x.dataset.f]=x.value; render();}
+  const y=e.target.closest('select[data-vf]'); if(y){state.vf[y.dataset.vf]=y.value; render();}});
+main.addEventListener('click',e=>{const c=e.target.closest('[data-vf="clear"]'); if(c){state.vf={r:'',e:'',q:''}; render();}});
+let vfm; main.addEventListener('input',e=>{const x=e.target.closest('input[data-vf]'); if(x){clearTimeout(vfm); vfm=setTimeout(()=>{state.vf.q=x.value; render(); const i=document.getElementById('vf-q'); if(i){i.focus(); i.setSelectionRange(i.value.length,i.value.length)}},250)}});
 let ftm; main.addEventListener('input',e=>{const x=e.target.closest('input[data-f]'); if(x){clearTimeout(ftm); ftm=setTimeout(()=>{state.f[x.dataset.f]=x.value; render(); const i=main.querySelector('input[data-f="dir"]'); if(i){i.focus(); i.setSelectionRange(i.value.length,i.value.length)}},250)}});
 main.addEventListener('keydown',e=>{if(e.key==='Enter'){const r=e.target.closest('.res'); if(r) go(r);}});
 function go(r){if(!r.dataset.leaf) return; state.tab=r.dataset.t; state.hl=r.dataset.name; state.all.add(r.dataset.leaf); q.value=''; openLeaf(r.dataset.t,r.dataset.leaf,true);}
