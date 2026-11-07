@@ -38,6 +38,8 @@ def tribe(l):
     """Native American / Indigenous labels -> map"""
     T = [
      (r"chilkat", "H2-11"),
+     (r"eastern shoshone|northern shoshone|^shoshone$|bannock", "H9-6"),
+     (r"kwakwaka'wakw|kwakiutl", "missing:Northwest Coast Button Blankets"),
      (r"button blanket", "missing:Button Blankets"),
      (r"tlingit|haida", "H8-14"),
      (r"\bpomo\b", "H8-12"),
@@ -55,12 +57,12 @@ def tribe(l):
      (r"mohawk|seneca|onondaga|oneida|cayuga|tuscarora|iroquois", "H9-7"),
      (r"osage|menominee|ho-chunk|winnebago|meskwaki|\bfox\b|potawatomi|sac and fox|\bsauk\b|kickapoo|\boto\b|^iowa|kaw \(|quapaw|miami|shawnee", "H4-39"),
      (r"sioux|lakota|dakota|apsáalooke|crow|kiowa|cheyenne|tsitsistas|arapaho|inunaina|blackf|piegan|kainai|siksika|niitsitapii|assiniboine|plains cree|arikara|sahnish|comanche|niuam|\bute\b|mandan|numakiki|hidatsa|minitari|gros ventre|a'aninin|ponca|omaha|pawnee|chaticks|tsuu t'ina|sarcee|plains ojibwa|plains apache|wichita|caddo|plains|metis|cree metis|salish \(flathead\)|ktunaxa|kootenai", "H9-6"),
-     (r"odawa|ottawa|anishinaabe|ojibw|chippewa|saulteaux|mississauga|algonquin|great lakes|native north american", "H9-5"),
+     (r"odawa|ottawa|anishinaabe|ojibw|chippewa|saulteaux|mississauga|great lakes", "H9-5"),
      (r"diné|navajo", "H2-10"),
      (r"chimayo", "H2-13"),
      (r"saltillo", "H2-9"),
      (r"inuit|iñupiaq|inupiaq|yup'ik|yupik|cup'ik|cu'pig|inughuit|kalaallit|tunumiit|inuvialuit|sugpiaq|alutiiq|greenland", "missing:Inuit Skin Clothing"),
-     (r"kwakwaka'wakw|kwakiutl|nisga'a|gitxsan|tsimshian|gitxaała|heiltsuk|haisla|nuxalk|wuikinuxv|northwest coast", "missing:Northwest Coast Button Blankets"),
+     (r"nisga'a|gitxsan|tsimshian|gitxaała|heiltsuk|haisla|nuxalk|wuikinuxv|northwest coast|dakelh|carrier", G),
      (r"makah|nuu-chah-nulth|nootka|tla-o-qui-aht", "missing:Nuu-chah-nulth and Makah Basketry"),
      (r"salish|cowichan|quinault|quileute|puyallup|duwamish|twana|squaxon|suquamish|skokomish|tsartlip|tsawout|saanich|snuneymuxw|lummi|chehalis|s'klallam|cowlitz|stó:lo|songhees|esquimalt|shishalh|siletz", "missing:Coast Salish Basketry"),
      (r"pequot|mohegan|narragansett|niantic|wampanoag|schaghticoke|paugussett|tunxis|mahican|stockbridge|montauk|shinnecock|matinecock|canarsee|munsee|lenape|delaware|nanticoke|rappahannock|mattaponi|pamunkey|chickahominy|peoria", "missing:Northeastern Splint Basketry"),
@@ -148,3 +150,22 @@ CULT = {
  "people:breton:costume":"missing:Breton Costume","culture:polish:embroidery":"exclude:keyword noise",
  "culture:swedish:embroidery":"exclude:keyword noise",
 }
+
+def base(r):
+    l=r["label"]; ll=l.lower()
+    if l in PAT: return PAT[l]
+    if l in CULT: return (CULT[l],"")
+    if l.startswith("culture:"): return (G,"")
+    p=people(ll)
+    if p: return p
+    for pat,m,n in R:
+        if re.search(pat,ll): return (m,n)
+    if r["file"] in ("smithsonian",):
+        t=tribe(ll)
+        if t: return (t,"")
+        return None
+    return None
+if __name__=="__main__":
+    for i,r in enumerate(rows):
+        b=base(r)
+        if b is None: print(i,r["file"][:4],r["label"],"|",r["sample_title"][:30],"|",r["seed"])

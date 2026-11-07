@@ -36,6 +36,41 @@ OLD_SUB = {"A1": "A1", "A2": "A2", "A3": "A3", "A4": "A4", "A5": "A5", "A6": "A6
 OLD_SUB.update({f"E{i}": f"C{i}" for i in range(1, 12)})
 
 
+WORK_RX = re.compile(r"wikidata\.org/wiki/Q|metmuseum\.org/art/collection/search/\d|collections\.vam\.ac\.uk/item|colbase\.nich|clevelandart\.org/art/\d|artic\.edu/artworks|hdl\.handle\.net|n2t\.net|penn\.museum/collections/object|tepapa\.govt\.nz/object|artsmia\.org/art/|britishmuseum\.org/collection/object|goskatalog|digitalarchive\.npm|emuseum\.go\.kr|himalayanart\.org/items|rijksmuseum\.nl/[a-z]+/collect|asia\.si\.edu/object|collections\.si\.edu/search/detail|kunishitei\.bunka")
+KEEP_SITE_RX = re.compile(r"UNESCO|World Heritage|National Treasure|designated|Grade I|listed|Monument historique|heritage", re.I)
+
+
+def apply_collections(M, leafobj, replaced, report):
+    """Owner, 2026-11-07: for traditions not centred on named artists, where the works can be seen is the primary
+    organisation. Per-object works rows are removed (architecture and art in place keep only UNESCO and nationally
+    designated sites) and the pass-made Collections rows are replaced by Holding institutions computed from the
+    leaf × institution table (taxonomy/r3/collections/leaf_institutions.json), each with its search link."""
+    fp = os.path.join(R3, "collections", "leaf_institutions.json")
+    if not os.path.exists(fp): return
+    LI = json.load(open(fp)); st = collections.Counter()
+    for code, rows in list(M.items()):
+        if code not in leafobj: continue
+        makers = sum(1 for r in rows if r[4])
+        tradition_led = makers < 0.5 * max(1, len(rows)) or code in LI
+        if not tradition_led: continue
+        keep = []
+        insitu = code[0] in "KL"
+        for r in rows:
+            src = str(r[3])
+            if r[1] == "Collections": st["old_collections_rows"] += 1; continue
+            if not r[4] and WORK_RX.search(src):
+                if insitu and KEEP_SITE_RX.search(str(r[2])): keep.append(r); st["sites_kept"] += 1; continue
+                st["work_rows_removed"] += 1; continue
+            keep.append(r)
+        inst = [[i, "Holding institutions", f"{n:,} objects of this tradition in the gathered records", ("link " + u) if u else "", 0]
+                for i, n, u in LI.get(code, [])]
+        # holding institutions sit after sub-types, schools and centres, before makers
+        pos = next((k for k, r in enumerate(keep) if r[4]), len(keep))
+        M[code] = keep[:pos] + inst + keep[pos:]; replaced[code] = M[code]
+        st["leaves"] += 1; st["institution_rows"] += len(inst)
+    report["collections"] = dict(st)
+
+
 def load_va_results():
     res = {}
     for d in sorted(glob.glob(os.path.join(R3, "va_out", "*"))):
@@ -145,6 +180,7 @@ def build_va(src, tree, M, find_old, report):
                     src=nl["src"], weak="", n=0, alias_rows=[], new="R3", axis=nl["axis"], catalogues=nl["catalogues"])
         sub["leaves"].append(leaf); M[code] = kinds; leafobj[code] = (None, sub, leaf); replaced[code] = kinds; added.append(code)
         report.setdefault("va_fix_new_leaves", []).append([code, nl["label"], len(kinds)])
+    apply_collections(M, leafobj, replaced, report)
     # one home per maker: primary = the leaf where the row came from the gathered data (not an "r3" addition),
     # else the first named-school leaf seen; other leaves keep a cross-reference row (not a maker)
     seen_in = collections.defaultdict(list)

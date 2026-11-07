@@ -176,7 +176,7 @@ function vaKinds(l,rows){
   if(l.secs&&l.secs.length){const p=g=>{const i=l.secs.indexOf(g);return i<0?1e6:i}; order.sort((a,b)=>p(a)-p(b))}
   else order.sort((a,b)=>(a==='Makers'||a==='Artists')-(b==='Makers'||b==='Artists'));
   const lim=state.all.has(l.code)?1e9:SHOW;
-  return (l.axis?`<p class="kaxis">Sections: ${esc(l.axis)}</p>`:'')+order.map(g=>`<div class="kgrp"><h5>${esc(g)} · ${groups[g].length}</h5><ul>${groups[g].slice(0,lim).map(k=>`<li class="${state.hl===k[0]?'hl':''}"><span class="kn">${esc(k[0])}</span>${k[2]?` <span class="kmeta">— ${esc(k[2])}</span>`:''}</li>`).join('')}</ul>${more(l.code,groups[g].length)}</div>`).join('')
+  return (l.axis?`<p class="kaxis">Sections: ${esc(l.axis)}</p>`:'')+order.map(g=>`<div class="kgrp"><h5>${esc(g)} · ${groups[g].length}</h5><ul>${groups[g].slice(0,lim).map(k=>`<li class="${state.hl===k[0]?'hl':''}"><span class="kn">${String(k[3]||'').startsWith('link ')?`<a href="${esc(String(k[3]).slice(5))}" target="_blank" rel="noopener">${esc(k[0])}</a>`:esc(k[0])}</span>${k[2]?` <span class="kmeta">— ${esc(k[2])}</span>`:''}</li>`).join('')}</ul>${more(l.code,groups[g].length)}</div>`).join('')
    +(l.alias_rows&&l.alias_rows.length?`<p class="extra"><b>Also gathered as</b> ${l.alias_rows.map(esc).join(' · ')}</p>`:'');
 }
 const CN=(()=>{try{return new Intl.DisplayNames(['en'],{type:'region'})}catch(e){return null}})();
