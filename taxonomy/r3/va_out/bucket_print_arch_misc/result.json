@@ -2572,6 +2572,13 @@
 1
 ],
 [
+"Villard de Honnecourt",
+"French cathedral masters",
+"13th-century Picard master known from his portfolio of drawings (BnF, Paris)",
+"artists",
+1
+],
+[
 "Richard Lenginour",
 "English master masons",
 "1272–1314, Chester Cathedral",
@@ -2665,7 +2672,7 @@
 [
 "Johann Kuene van Franckenberg",
 "German and Central European masters (Cologne, Parler)",
-"1500–, Germany, Cologne Cathedral",
+"b. 1500, Germany, Cologne Cathedral",
 "evidence",
 1
 ],
@@ -3015,7 +3022,7 @@
 [
 "Jacob Clementsson Leppänen",
 "Restorers, completers and revival architects",
-"1750–, Finland, Petäjävesi Old Church",
+"b. 1750, Finland, Petäjävesi Old Church",
 "evidence",
 1
 ],
@@ -3351,22 +3358,15 @@
 [
 "Barbara Schock-Werner",
 "Restorers, completers and revival architects",
-"1947–, Germany, Cologne Cathedral",
+"b. 1947, Germany, Cologne Cathedral",
 "evidence",
 1
 ],
 [
 "Kaspar Kraemer",
 "Restorers, completers and revival architects",
-"1949–, Germany, Cologne Cathedral",
+"b. 1949, Germany, Cologne Cathedral",
 "evidence",
-1
-],
-[
-"Villard de Honnecourt",
-"Other",
-"",
-"artists",
 1
 ],
 [
@@ -6417,14 +6417,14 @@
 ],
 [
 "Grand-Place",
-"Baroque other buildings and ensembles",
+"Baroque buildings of other or unrecorded type",
 "Belgium; UNESCO World Heritage site 857; protected monument",
 "r3 https://www.wikidata.org/wiki/Q215429",
 0
 ],
 [
 "Casa de la Corregidora",
-"Baroque other buildings and ensembles",
+"Baroque buildings of other or unrecorded type",
 "Mexico",
 "r3 https://www.wikidata.org/wiki/Q5755124",
 0
@@ -6950,14 +6950,14 @@
 [
 "Yakov Bukhvostov",
 "Russian Baroque architects (Petrine and Elizabethan)",
-"1601–, Cathedral of the Dormition",
+"b. 1601, Cathedral of the Dormition",
 "evidence",
 1
 ],
 [
 "Johann Friedrich Braunstein",
 "Russian Baroque architects (Petrine and Elizabethan)",
-"1650–, Germany, Monplaisir Palace",
+"b. 1650, Germany, Monplaisir Palace",
 "evidence",
 1
 ],
@@ -6985,7 +6985,7 @@
 [
 "Christof Konrad",
 "Russian Baroque architects (Petrine and Elizabethan)",
-"1670–, Russian Empire, Annunciation Church of the Alexander Nevsky Lavra",
+"b. 1670, Russian Empire, Annunciation Church of the Alexander Nevsky Lavra",
 "evidence",
 1
 ],
@@ -7020,7 +7020,7 @@
 [
 "Leonard Theodor Schwertfeger",
 "Russian Baroque architects (Petrine and Elizabethan)",
-"1680–, Annunciation Church of the Alexander Nevsky Lavra",
+"b. 1680, Annunciation Church of the Alexander Nevsky Lavra",
 "evidence",
 1
 ],
@@ -7111,7 +7111,7 @@
 [
 "Pavel Sparro",
 "Later architects of buildings tagged Baroque",
-"1814–, Russian Empire, Bell tower of Saint Sophia Cathedral",
+"b. 1814, Russian Empire, Bell tower of Saint Sophia Cathedral",
 "evidence",
 1
 ],
@@ -7139,7 +7139,7 @@
 [
 "Цинке, Богдан Богданович",
 "Later architects of buildings tagged Baroque",
-"1832–, Preĝejo de Mikaelo la Ĉefanĝelo",
+"b. 1832, Preĝejo de Mikaelo la Ĉefanĝelo",
 "evidence",
 1
 ],
@@ -7254,7 +7254,7 @@
 [
 "Mannerism",
 "Sub-styles and phases",
-"Mannerism = Mannerist architecture (alias of that kind)",
+"Mannerism as tagged on buildings: Mannerist architecture",
 "architecture_west",
 0
 ],
@@ -8849,14 +8849,14 @@
 ],
 [
 "Immeuble au 7, place de la Cathédrale à Colmar",
-"Renaissance other buildings and ensembles",
+"Renaissance buildings of other or unrecorded type",
 "France, 1669; monument historique inscrit",
 "r3 https://www.wikidata.org/wiki/Q2929264",
 0
 ],
 [
 "Sabbioneta",
-"Renaissance other buildings and ensembles",
+"Renaissance buildings of other or unrecorded type",
 "Italy; UNESCO World Heritage site 1287-002; part of UNESCO World Heritage Site",
 "r3 https://www.wikidata.org/wiki/Q43014",
 0
@@ -8871,7 +8871,7 @@
 [
 "Giovanni Battagio",
 "Italian Renaissance architects",
-"1401–, Italy, Santa Maria presso San Celso Church",
+"b. 1401, Italy, Santa Maria presso San Celso Church",
 "evidence",
 1
 ],
@@ -9053,7 +9053,7 @@
 [
 "Pierre Nepveu",
 "French Renaissance architects",
-"1450–, France, Château de Chambord",
+"b. 1450, France, Château de Chambord",
 "evidence",
 1
 ],
@@ -9578,7 +9578,7 @@
 [
 "Matti Härmä",
 "Finland",
-"1650–, Finland, Tornio Church",
+"b. 1650, Finland, Tornio Church",
 "evidence",
 1
 ],
@@ -10646,21 +10646,21 @@
 ],
 [
 "Clarendon Hotel",
-"Art Nouveau other buildings and ensembles",
+"Art Nouveau buildings of other or unrecorded type",
 "Canada, 1870; by Charles Baillairgé, Raoul Chênevert; part of a UNESCO World Heritage site; part of a Quebec heritage property",
 "r3 https://www.wikidata.org/wiki/Q3145454",
 0
 ],
 [
 "Artists' Colony in Darmstadt",
-"Art Nouveau other buildings and ensembles",
+"Art Nouveau buildings of other or unrecorded type",
 "Germany, 1899; UNESCO World Heritage site 1614",
 "r3 https://www.wikidata.org/wiki/Q314730",
 0
 ],
 [
 "Bauhaus",
-"Art Nouveau other buildings and ensembles",
+"Art Nouveau buildings of other or unrecorded type",
 "Germany, 1919; part of a UNESCO World Heritage site",
 "r3 https://www.wikidata.org/wiki/Q124354",
 0
@@ -10871,7 +10871,7 @@
 [
 "José Sala Sala",
 "Catalan modernisme and Spanish architects",
-"1900–, Spain, Sanctuary of Santa María Magdalena, Novelda",
+"b. 1900, Spain, Sanctuary of Santa María Magdalena, Novelda",
 "evidence",
 1
 ],
@@ -11032,7 +11032,7 @@
 [
 "Filippo La Porta",
 "Stile Liberty architects",
-"1851–, Kingdom of Italy, Villa Virginia Caruso",
+"b. 1851, Kingdom of Italy, Villa Virginia Caruso",
 "evidence",
 1
 ],
@@ -11060,7 +11060,7 @@
 [
 "Corrado Andreini",
 "Stile Liberty architects",
-"1875–, Kingdom of Italy, Palazzina Tempesti",
+"b. 1875, Kingdom of Italy, Palazzina Tempesti",
 "evidence",
 1
 ],
@@ -11188,27 +11188,6 @@
 "Ukrainian modern architects",
 "1869–1940, Second Polish Republic, Lviv railway station",
 "evidence",
-1
-],
-[
-"William Lethaby",
-"Other",
-"",
-"artists",
-1
-],
-[
-"Charles Robert Ashbee",
-"Other",
-"",
-"artists",
-1
-],
-[
-"Jacques-Émile Ruhlmann",
-"Other",
-"",
-"artists",
 1
 ],
 [
@@ -12076,42 +12055,42 @@
 ],
 [
 "Kazan Manege",
-"Eclectic other buildings and ensembles",
+"Eclectic buildings of other or unrecorded type",
 "Russia, 1880; part of a UNESCO World Heritage site; federal cultural heritage site in Russia",
 "r3 https://www.wikidata.org/wiki/Q55984201",
 0
 ],
 [
 "Club Uruguay",
-"Eclectic other buildings and ensembles",
+"Eclectic buildings of other or unrecorded type",
 "Uruguay, 1886; by Luis Andreoni; Cultural Heritage Monument",
 "r3 https://www.wikidata.org/wiki/Q1103148",
 0
 ],
 [
 "La Perla",
-"Eclectic other buildings and ensembles",
+"Eclectic buildings of other or unrecorded type",
 "Spain, 1912; by Antonio Cortázar; part of a UNESCO World Heritage site; Basque government heritage site",
 "r3 https://www.wikidata.org/wiki/Q12261747",
 0
 ],
 [
 "Nebraska State Capitol",
-"Eclectic other buildings and ensembles",
+"Eclectic buildings of other or unrecorded type",
 "United States, 1932; by Bertram Goodhue; National Historic Landmark",
 "r3 https://www.wikidata.org/wiki/Q1683354",
 0
 ],
 [
 "Building of Dadiani's former girls gymnasium in Chișinău",
-"Eclectic other buildings and ensembles",
+"Eclectic buildings of other or unrecorded type",
 "Moldova; by Alexander Bernardazzi; architectural monument of Moldova",
 "r3 https://www.wikidata.org/wiki/Q25463492",
 0
 ],
 [
 "Beti Jai fronton",
-"Eclectic other buildings and ensembles",
+"Eclectic buildings of other or unrecorded type",
 "Spain; by Joaquín Rucoba; bien de interés cultural",
 "r3 https://www.wikidata.org/wiki/Q8962895",
 0
@@ -12399,7 +12378,7 @@
 [
 "Rafael Moneo",
 "Spain",
-"1937–, Spain, Bank of Spain headquarters",
+"b. 1937, Spain, Bank of Spain headquarters",
 "evidence",
 1
 ],
@@ -12689,7 +12668,7 @@
 [
 "Romanticism",
 "Sub-styles",
-"Romanticism = Romantic (early Gothic Revival) historicism; the art movement itself is artist-led",
+"Romanticism as tagged on buildings: the Romantic, early phase of Gothic Revival historicism",
 "architecture_west",
 0
 ],
@@ -13927,21 +13906,21 @@
 ],
 [
 "Grand-Place",
-"Gothic Revival other buildings and ensembles",
+"Gothic Revival buildings of other or unrecorded type",
 "Belgium; UNESCO World Heritage site 857; protected monument",
 "r3 https://www.wikidata.org/wiki/Q215429",
 0
 ],
 [
 "Dacha Orlova, Strelna",
-"Gothic Revival other buildings and ensembles",
+"Gothic Revival buildings of other or unrecorded type",
 "Russia; UNESCO World Heritage site 540-014b; federal cultural heritage site in Russia",
 "r3 https://www.wikidata.org/wiki/Q4336883",
 0
 ],
 [
 "стайня",
-"Gothic Revival other buildings and ensembles",
+"Gothic Revival buildings of other or unrecorded type",
 "Belarus; Cultural heritage of Belarus",
 "r3 https://www.wikidata.org/wiki/Q141519130",
 0
@@ -14138,7 +14117,7 @@
 [
 "S.S. Voigt",
 "American Gothic Revival architects",
-"1885–, United States, Belleville High School",
+"b. 1885, United States, Belleville High School",
 "evidence",
 1
 ],
@@ -15253,7 +15232,7 @@
 [
 "Franz Seulen",
 "Belgium",
-"1845–, Belgium, Schaarbeek railway station",
+"b. 1845, Belgium, Schaarbeek railway station",
 "evidence",
 1
 ],
@@ -15344,7 +15323,7 @@
 [
 "Norman Foster",
 "United States",
-"1935–, United Kingdom, Reichstag",
+"b. 1935, United Kingdom, Reichstag",
 "evidence",
 1
 ],
@@ -16031,21 +16010,21 @@
 ],
 [
 "Exhibition of achievements of national economy",
-"Stalinist other buildings and ensembles",
+"Stalinist buildings of other or unrecorded type",
 "Russia, 1939; federal cultural heritage site in Russia",
 "r3 https://www.wikidata.org/wiki/Q855493",
 0
 ],
 [
 "Dom Sindikata",
-"Stalinist other buildings and ensembles",
+"Stalinist buildings of other or unrecorded type",
 "Serbia, 1957; by Branko Petricic; Monument of Culture",
 "r3 https://www.wikidata.org/wiki/Q1565167",
 0
 ],
 [
 "Lubyanka Building",
-"Stalinist other buildings and ensembles",
+"Stalinist buildings of other or unrecorded type",
 "Russia; by Alexey Shchusev, Alexander Ivanov; tentative cultural heritage site in Russia",
 "r3 https://www.wikidata.org/wiki/Q646334",
 0
@@ -16291,28 +16270,28 @@
 [
 "Алег Аляксандравіч Стаховіч",
 "Belarus (Minsk rebuilding)",
-"1934–, Belarus, Mound of Glory",
+"b. 1934, Belarus, Mound of Glory",
 "evidence",
 1
 ],
 [
 "Аліса Аляксееўна Антонава",
 "Belarus (Minsk rebuilding)",
-"1938–, Soviet Union, Karla Marksa Street 14, Minsk",
+"b. 1938, Soviet Union, Karla Marksa Street 14, Minsk",
 "evidence",
 1
 ],
 [
 "Валерый Міхайлавіч Лапцэвіч",
 "Belarus (Minsk rebuilding)",
-"1939–, Soviet Union, Mound of Glory",
+"b. 1939, Soviet Union, Mound of Glory",
 "evidence",
 1
 ],
 [
 "Святлана Георгіеўна Мацяўшук",
 "Belarus (Minsk rebuilding)",
-"1947–, Soviet Union, Karla Marksa Street 14, Minsk",
+"b. 1947, Soviet Union, Karla Marksa Street 14, Minsk",
 "evidence",
 1
 ],
@@ -17404,56 +17383,56 @@
 ],
 [
 "Great Gostiny Dvor",
-"Neoclassical other buildings and ensembles",
+"Neoclassical buildings of other or unrecorded type",
 "Russia, 1785; by Jean-Baptiste Vallin de la Mothe; part of a UNESCO World Heritage site; federal cultural heritage site in Russia",
 "r3 https://www.wikidata.org/wiki/Q3052597",
 0
 ],
 [
 "Alexander Dacha park",
-"Neoclassical other buildings and ensembles",
+"Neoclassical buildings of other or unrecorded type",
 "Russia, 1786; by Nikolay Alexandrovich Lvov, Giacomo Quarenghi; UNESCO World Heritage site 540-007b; federal cultural heritage site in Russi",
 "r3 https://www.wikidata.org/wiki/Q64760090",
 0
 ],
 [
 "Casa Rosada",
-"Neoclassical other buildings and ensembles",
+"Neoclassical buildings of other or unrecorded type",
 "Argentina, 1898; by Francesco Tamburini, Carlos Kihlberg; Place or National Historic Site",
 "r3 https://www.wikidata.org/wiki/Q478926",
 0
 ],
 [
 "Monticello",
-"Neoclassical other buildings and ensembles",
+"Neoclassical buildings of other or unrecorded type",
 "United States; by Thomas Jefferson; UNESCO World Heritage site 442bis-002; National Historic Landmark",
 "r3 https://www.wikidata.org/wiki/Q199618",
 0
 ],
 [
 "Leal Senado Building",
-"Neoclassical other buildings and ensembles",
+"Neoclassical buildings of other or unrecorded type",
 "People's Republic of China; UNESCO World Heritage site 1110; Heritage of Portuguese Influence",
 "r3 https://www.wikidata.org/wiki/Q3181816",
 0
 ],
 [
 "Zumardia frontoia",
-"Neoclassical other buildings and ensembles",
+"Neoclassical buildings of other or unrecorded type",
 "Spain; part of a UNESCO World Heritage site; Basque government heritage site",
 "r3 https://www.wikidata.org/wiki/Q65925082",
 0
 ],
 [
 "Escuelas Publicas",
-"Neoclassical other buildings and ensembles",
+"Neoclassical buildings of other or unrecorded type",
 "Spain; part of a UNESCO World Heritage site; Basque government heritage site",
 "r3 https://www.wikidata.org/wiki/Q65559714",
 0
 ],
 [
 "General Staff Building, Saint Petersburg",
-"Neoclassical other buildings and ensembles",
+"Neoclassical buildings of other or unrecorded type",
 "Russia; by Carlo Rossi; part of a UNESCO World Heritage site; federal cultural heritage site in Russia",
 "r3 https://www.wikidata.org/wiki/Q2622043",
 0
@@ -17792,13 +17771,6 @@
 "Lithuania",
 "1753–1798, Polish–Lithuanian Commonwealth, Vilnius Cathedral",
 "evidence",
-1
-],
-[
-"Émile Prisse d'Avennes",
-"Other",
-"",
-"artists",
 1
 ],
 [
@@ -20054,63 +20026,63 @@
 ],
 [
 "Orphanage in Modra",
-"Modernist other buildings and ensembles",
+"Modernist buildings of other or unrecorded type",
 "Slovakia, 1912; Cultural Heritage Monuments of Slovakia",
 "r3 https://www.wikidata.org/wiki/Q69410489",
 0
 ],
 [
 "Domovina",
-"Modernist other buildings and ensembles",
+"Modernist buildings of other or unrecorded type",
 "Czech Republic, 1921; by Karel Roštík; cultural monument of the Czech Republic",
 "r3 https://www.wikidata.org/wiki/Q12031888",
 0
 ],
 [
 "Hufeisensiedlung",
-"Modernist other buildings and ensembles",
+"Modernist buildings of other or unrecorded type",
 "Germany, 1925; by Bruno Taut, Martin Wagner; UNESCO World Heritage site 1239-003; cultural heritage ensemble",
 "r3 https://www.wikidata.org/wiki/Q644490",
 0
 ],
 [
 "Immeuble Molitor",
-"Modernist other buildings and ensembles",
+"Modernist buildings of other or unrecorded type",
 "France, 1934; by Le Corbusier, Pierre Jeanneret; UNESCO World Heritage site 1321-008; Maisons des Illustres",
 "r3 https://www.wikidata.org/wiki/Q3796698",
 0
 ],
 [
 "Πολυκατοικία του Λιούμπομιρ Μιλαντίνοβιτς",
-"Modernist other buildings and ensembles",
+"Modernist buildings of other or unrecorded type",
 "Serbia, 1938; by Momčilo Belobrk; Monument of Culture",
 "r3 https://www.wikidata.org/wiki/Q3149075",
 0
 ],
 [
 "Secretariat Building",
-"Modernist other buildings and ensembles",
+"Modernist buildings of other or unrecorded type",
 "India, 1953; by Le Corbusier",
 "r3 https://www.wikidata.org/wiki/Q7444209",
 0
 ],
 [
 "Niezaliežnasci Avenue 8, Minsk",
-"Modernist other buildings and ensembles",
+"Modernist buildings of other or unrecorded type",
 "Belarus, 1963; by Georgy Sysoev, Sergei Musinsky; Cultural heritage of Belarus",
 "r3 https://www.wikidata.org/wiki/Q16176577",
 0
 ],
 [
 "Mauzoleum Andreje Hlinky",
-"Modernist other buildings and ensembles",
+"Modernist buildings of other or unrecorded type",
 "Slovakia, 2000; Cultural Heritage Monuments of Slovakia",
 "r3 https://www.wikidata.org/wiki/Q13441847",
 0
 ],
 [
 "Großsiedlung Siemensstadt",
-"Modernist other buildings and ensembles",
+"Modernist buildings of other or unrecorded type",
 "Germany; UNESCO World Heritage site 1239bis-006; part of UNESCO World Heritage Site",
 "r3 https://www.wikidata.org/wiki/Q641741",
 0
@@ -20125,21 +20097,21 @@
 [
 "Masato Otaka",
 "Metabolism",
-"b. 1923, Japan, architecture",
+"b. 1923, Japan",
 "artists",
 1
 ],
 [
 "Kiyonori Kikutake",
 "Metabolism",
-"b. 1928, Japan, architecture",
+"b. 1928, Japan",
 "artists",
 1
 ],
 [
 "Arata Isozaki",
 "Metabolism",
-"b. 1931, Japan, architecture",
+"b. 1931, Japan",
 "artists",
 1
 ],
@@ -20230,14 +20202,14 @@
 [
 "Joan van der Mey",
 "Amsterdam School",
-"b. 1878, Netherlands, architecture",
+"b. 1878, Netherlands",
 "artists",
 1
 ],
 [
 "Christiaan Bartels",
 "Amsterdam School",
-"b. 1889, Netherlands, architecture",
+"b. 1889, Netherlands",
 "artists",
 1
 ],
@@ -20846,7 +20818,7 @@
 [
 "Gianemilio Monti",
 "Italian Rationalism (Como group)",
-"b. 1920, Italy, architecture",
+"b. 1920, Italy",
 "artists",
 1
 ],
@@ -20958,7 +20930,7 @@
 [
 "Jan Wils",
 "Organic architecture",
-"b. 1891, Netherlands, architecture",
+"b. 1891, Netherlands",
 "artists",
 1
 ],
@@ -20986,7 +20958,7 @@
 [
 "Reima Pietilä",
 "Organic architecture",
-"b. 1923, Finland, architecture",
+"b. 1923, Finland",
 "artists",
 1
 ],
@@ -21007,7 +20979,7 @@
 [
 "Raili Pietilä",
 "Organic architecture",
-"b. 1926, Finland, architecture",
+"b. 1926, Finland",
 "artists",
 1
 ],
@@ -21035,21 +21007,21 @@
 [
 "Douglas Cardinal",
 "Organic architecture",
-"b. 1934, Canada, architecture",
+"b. 1934, Canada",
 "artists",
 1
 ],
 [
 "Imre Makovecz",
 "Organic architecture",
-"b. 1935, Hungary, architecture",
+"b. 1935, Hungary",
 "artists",
 1
 ],
 [
 "Max van Huut",
 "Organic architecture",
-"1947–, Kingdom of the Netherlands, Zandkasteel",
+"b. 1947, Kingdom of the Netherlands, Zandkasteel",
 "evidence",
 1
 ],
@@ -21140,21 +21112,21 @@
 [
 "Guus Küpfer",
 "Structuralism",
-"1931–, City Hall, Hoorn, the Netherlands",
+"b. 1931, City Hall, Hoorn, the Netherlands",
 "evidence",
 1
 ],
 [
 "Herman Hertzberger",
 "Structuralism",
-"1932–, Kingdom of the Netherlands, De Rots",
+"b. 1932, Kingdom of the Netherlands, De Rots",
 "evidence",
 1
 ],
 [
 "Miroslav Masák",
 "Structuralism",
-"1932–, Czechoslovakia, Ještěd",
+"b. 1932, Czechoslovakia, Ještěd",
 "evidence",
 1
 ],
@@ -21280,7 +21252,7 @@
 [
 "Paul Robiette",
 "Brussels style (Expo 58)",
-"1921–, Belgium, Bollekensschool",
+"b. 1921, Belgium, Bollekensschool",
 "evidence",
 1
 ],
@@ -21308,14 +21280,14 @@
 [
 "Jiří Nenadál",
 "Brussels style (Expo 58)",
-"1930–, Czechoslovakia, Magistrát města Ústí nad Labem",
+"b. 1930, Czechoslovakia, Magistrát města Ústí nad Labem",
 "evidence",
 1
 ],
 [
 "Zdeněk Michal",
 "Brussels style (Expo 58)",
-"1931–, Kino Metro 70",
+"b. 1931, Kino Metro 70",
 "evidence",
 1
 ],
@@ -21448,7 +21420,7 @@
 [
 "Yuriy Khimich",
 "Soviet Modernism",
-"b. 1928, Russia and the Soviet Union, architecture",
+"b. 1928, Russia and the Soviet Union",
 "artists",
 1
 ],
@@ -21469,7 +21441,7 @@
 [
 "Sabir Rakhimovich Adylov",
 "Soviet Modernism",
-"b. 1932, Russia and the Soviet Union, architecture",
+"b. 1932, Russia and the Soviet Union",
 "artists",
 1
 ],
@@ -21483,581 +21455,588 @@
 [
 "Igor Vasilevsky",
 "Soviet Modernism",
-"1935–, Russia, Drujba Sanatorium, Kurpaty",
+"b. 1935, Russia, Drujba Sanatorium, Kurpaty",
 "evidence",
 1
 ],
 [
 "Raine Karp",
 "Soviet Modernism",
-"b. 1939, Russia and the Soviet Union, architecture",
+"b. 1939, Russia and the Soviet Union",
 "artists",
 1
 ],
 [
 "Andrey Bokov",
 "Soviet Modernism",
-"b. 1943, Russia and the Soviet Union, architecture",
+"b. 1943, Russia and the Soviet Union",
 "artists",
 1
 ],
 [
 "Roberto Gabetti",
 "Neo-Liberty",
-"b. 1925, Italy, architecture",
+"b. 1925, Italy",
 "artists",
 1
 ],
 [
 "Gae Aulenti",
 "Neo-Liberty",
-"b. 1927, Italy, architecture",
+"b. 1927, Italy",
 "artists",
 1
 ],
 [
 "Aimaro Isola",
 "Neo-Liberty",
-"b. 1928, Italy, architecture",
+"b. 1928, Italy",
 "artists",
 1
 ],
 [
 "Antoni de Moragas i Gallissà",
 "Grup R (Barcelona)",
-"b. 1913, Spain, architecture",
+"b. 1913, Spain",
 "artists",
 1
 ],
 [
 "Josep Antoni Coderch",
 "Grup R (Barcelona)",
-"b. 1913, Spain, architecture",
+"b. 1913, Spain",
 "artists",
 1
 ],
 [
 "Josep Maria Martorell i Codina",
 "Grup R (Barcelona)",
-"b. 1925, Spain, architecture",
+"b. 1925, Spain",
 "artists",
 1
 ],
 [
 "Oriol Bohigas",
 "Grup R (Barcelona)",
-"b. 1925, Spain, architecture",
+"b. 1925, Spain",
 "artists",
 1
 ],
 [
 "Manuel Ribas i Piera",
 "Grup R (Barcelona)",
-"b. 1925, Spain, architecture",
+"b. 1925, Spain",
 "artists",
 1
 ],
 [
 "Antonio Lamela",
 "Escuela de Madrid",
-"b. 1926, Spain, architecture",
+"b. 1926, Spain",
 "artists",
 1
 ],
 [
 "Javier Carvajal Ferrer",
 "Escuela de Madrid",
-"b. 1926, Spain, architecture",
+"b. 1926, Spain",
 "artists",
 1
 ],
 [
 "Antonio Fernández Alba",
 "Escuela de Madrid",
-"b. 1927, Spain, architecture",
+"b. 1927, Spain",
 "artists",
 1
 ],
 [
 "Fernando Higueras",
 "Escuela de Madrid",
-"b. 1930, Spain, architecture",
+"b. 1930, Spain",
 "artists",
 1
 ],
 [
 "Rafael Moneo",
 "Escuela de Madrid",
-"b. 1937, Spain, architecture",
+"b. 1937, Spain",
 "artists",
 1
 ],
 [
 "Fernando Távora",
 "Porto School",
-"b. 1923, Portugal, architecture",
+"b. 1923, Portugal",
 "artists",
 1
 ],
 [
 "Álvaro Siza Vieira",
 "Porto School",
-"b. 1933, Portugal, architecture",
+"b. 1933, Portugal",
 "artists",
 1
 ],
 [
 "Luigi Snozzi",
 "Ticino School",
-"b. 1932, Switzerland, architecture",
+"b. 1932, Switzerland",
 "artists",
 1
 ],
 [
 "Bruno Reichlin",
 "Ticino School",
-"b. 1941, Switzerland, architecture",
+"b. 1941, Switzerland",
 "artists",
 1
 ],
 [
 "Mario Botta",
 "Ticino School",
-"b. 1943, Switzerland, architecture",
+"b. 1943, Switzerland",
 "artists",
 1
 ],
 [
 "Alessandro Mendini",
 "Italian Radical architecture (Superstudio, Archizoom, Gruppo Strum)",
-"b. 1931, Italy, architecture",
+"b. 1931, Italy",
 "artists",
 1
 ],
 [
 "Giorgio Ceretti",
 "Italian Radical architecture (Superstudio, Archizoom, Gruppo Strum)",
-"b. 1932, Italy, architecture",
+"b. 1932, Italy",
 "artists",
 1
 ],
 [
 "Pietro Derossi",
 "Italian Radical architecture (Superstudio, Archizoom, Gruppo Strum)",
-"b. 1933, Italy, architecture",
+"b. 1933, Italy",
 "artists",
 1
 ],
 [
 "Andrea Branzi",
 "Italian Radical architecture (Superstudio, Archizoom, Gruppo Strum)",
-"b. 1938, Italy, architecture",
+"b. 1938, Italy",
 "artists",
 1
 ],
 [
 "Paolo Deganello",
 "Italian Radical architecture (Superstudio, Archizoom, Gruppo Strum)",
-"b. 1940, Italy, architecture",
+"b. 1940, Italy",
 "artists",
 1
 ],
 [
 "Adolfo Natalini",
 "Italian Radical architecture (Superstudio, Archizoom, Gruppo Strum)",
-"b. 1941, Italy, architecture",
+"b. 1941, Italy",
 "artists",
 1
 ],
 [
 "Cristiano Toraldo di Francia",
 "Italian Radical architecture (Superstudio, Archizoom, Gruppo Strum)",
-"b. 1941, Italy, architecture",
+"b. 1941, Italy",
 "artists",
 1
 ],
 [
 "Yona Friedman",
 "Visionary and experimental architecture (Archigram, Haus-Rucker-Co, GIAP)",
-"b. 1923, France, architecture",
+"b. 1923, France",
 "artists",
 1
 ],
 [
 "James Wines",
 "Visionary and experimental architecture (Archigram, Haus-Rucker-Co, GIAP)",
-"b. 1932, United States, architecture",
+"b. 1932, United States",
 "artists",
 1
 ],
 [
 "Friedrich St. Florian",
 "Visionary and experimental architecture (Archigram, Haus-Rucker-Co, GIAP)",
-"b. 1932, United States, architecture",
+"b. 1932, United States",
 "artists",
 1
 ],
 [
 "Matti Suuronen",
 "Visionary and experimental architecture (Archigram, Haus-Rucker-Co, GIAP)",
-"b. 1933, Finland, architecture",
+"b. 1933, Finland",
 "artists",
 1
 ],
 [
 "Raimund Abraham",
 "Visionary and experimental architecture (Archigram, Haus-Rucker-Co, GIAP)",
-"b. 1933, United States, architecture",
+"b. 1933, United States",
 "artists",
 1
 ],
 [
 "Cedric Price",
 "Visionary and experimental architecture (Archigram, Haus-Rucker-Co, GIAP)",
-"b. 1934, United Kingdom, architecture",
+"b. 1934, United Kingdom",
 "artists",
 1
 ],
 [
 "Michael Webb",
 "Visionary and experimental architecture (Archigram, Haus-Rucker-Co, GIAP)",
-"b. 1937, United Kingdom, architecture",
+"b. 1937, United Kingdom",
 "artists",
 1
 ],
 [
 "Günter Zamp Kelp",
 "Visionary and experimental architecture (Archigram, Haus-Rucker-Co, GIAP)",
-"b. 1941, Austria, architecture",
+"b. 1941, Austria",
 "artists",
 1
 ],
 [
 "Laurids Ortner",
 "Visionary and experimental architecture (Archigram, Haus-Rucker-Co, GIAP)",
-"b. 1941, Austria, architecture",
+"b. 1941, Austria",
 "artists",
 1
 ],
 [
 "Luc Deleu",
 "Visionary and experimental architecture (Archigram, Haus-Rucker-Co, GIAP)",
-"b. 1944, Belgium, architecture",
+"b. 1944, Belgium",
 "artists",
 1
 ],
 [
 "Stanko Kristl",
 "Yugoslav modernism",
-"b. 1922, Yugoslavia and successor states, architecture",
+"b. 1922, Yugoslavia and successor states",
 "artists",
 1
 ],
 [
 "Mihajlo Mitrović",
 "Yugoslav modernism",
-"b. 1922, Yugoslavia and successor states, architecture",
+"b. 1922, Yugoslavia and successor states",
 "artists",
 1
 ],
 [
 "Uglješa Bogunović",
 "Yugoslav modernism",
-"b. 1922, Yugoslavia and successor states, architecture",
+"b. 1922, Yugoslavia and successor states",
 "artists",
 1
 ],
 [
 "Ivan Antić",
 "Yugoslav modernism",
-"b. 1923, Yugoslavia and successor states, architecture",
+"b. 1923, Yugoslavia and successor states",
 "artists",
 1
 ],
 [
 "Milan Mihelič",
 "Yugoslav modernism",
-"b. 1925, Yugoslavia and successor states, architecture",
+"b. 1925, Yugoslavia and successor states",
 "artists",
 1
 ],
 [
 "Savin Sever",
 "Yugoslav modernism",
-"b. 1927, Yugoslavia and successor states, architecture",
+"b. 1927, Yugoslavia and successor states",
 "artists",
 1
 ],
 [
 "Ivan Štraus",
 "Yugoslav modernism",
-"b. 1928, Yugoslavia and successor states, architecture",
+"b. 1928, Yugoslavia and successor states",
 "artists",
 1
 ],
 [
 "Andrija Mutnjaković",
 "Yugoslav modernism",
-"b. 1929, Yugoslavia and successor states, architecture",
+"b. 1929, Yugoslavia and successor states",
 "artists",
 1
 ],
 [
 "Zlatko Ugljen",
 "Yugoslav modernism",
-"b. 1929, Yugoslavia and successor states, architecture",
+"b. 1929, Yugoslavia and successor states",
 "artists",
 1
 ],
 [
 "Boris Magaš",
 "Yugoslav modernism",
-"b. 1930, Yugoslavia and successor states, architecture",
+"b. 1930, Yugoslavia and successor states",
 "artists",
 1
 ],
 [
 "Hrvoje Šarinić",
 "Yugoslav modernism",
-"b. 1935, Yugoslavia and successor states, architecture",
+"b. 1935, Yugoslavia and successor states",
 "artists",
 1
 ],
 [
 "Aleksandar Đokić",
 "Yugoslav modernism",
-"b. 1936, Yugoslavia and successor states, architecture",
+"b. 1936, Yugoslavia and successor states",
 "artists",
 1
 ],
 [
 "Svetlana Kana Radević",
 "Yugoslav modernism",
-"b. 1937, Yugoslavia and successor states, architecture",
+"b. 1937, Yugoslavia and successor states",
 "artists",
 1
 ],
 [
 "Dinko Kovačić",
 "Yugoslav modernism",
-"b. 1938, Yugoslavia and successor states, architecture",
+"b. 1938, Yugoslavia and successor states",
 "artists",
 1
 ],
 [
 "Boris Podrecca",
 "Yugoslav modernism",
-"b. 1940, Yugoslavia and successor states, architecture",
+"b. 1940, Yugoslavia and successor states",
 "artists",
 1
 ],
 [
 "Marko Mušič",
 "Yugoslav modernism",
-"b. 1941, Yugoslavia and successor states, architecture",
+"b. 1941, Yugoslavia and successor states",
 "artists",
+1
+],
+[
+"Branko Žeželj",
+"Yugoslav modernism",
+"1910–1995, Belgrade Fair – Hall 1",
+"evidence",
 1
 ],
 [
 "Turgut Cansever",
 "Critical regionalism and regional modernisms",
-"b. 1921, Turkey, architecture",
+"b. 1921, Turkey",
 "artists",
 1
 ],
 [
 "Wu Liangyong",
 "Critical regionalism and regional modernisms",
-"b. 1922, People's Republic of China, architecture",
+"b. 1922, People's Republic of China",
 "artists",
 1
 ],
 [
 "Muzharul Islam",
 "Critical regionalism and regional modernisms",
-"b. 1923, India, architecture",
+"b. 1923, India",
 "artists",
 1
 ],
 [
 "Sverre Fehn",
 "Critical regionalism and regional modernisms",
-"b. 1924, Norway, architecture",
+"b. 1924, Norway",
 "artists",
 1
 ],
 [
 "Guillermo Bermúdez",
 "Critical regionalism and regional modernisms",
-"b. 1924, Colombia, architecture",
+"b. 1924, Colombia",
 "artists",
 1
 ],
 [
 "Rifat Chadirji",
 "Critical regionalism and regional modernisms",
-"b. 1926, Iraq, architecture",
+"b. 1926, Iraq",
 "artists",
 1
 ],
 [
 "Rogelio Salmona",
 "Critical regionalism and regional modernisms",
-"b. 1927, Colombia, architecture",
+"b. 1927, Colombia",
 "artists",
 1
 ],
 [
 "Leandro Locsin",
 "Critical regionalism and regional modernisms",
-"b. 1928, Philippines, architecture",
+"b. 1928, Philippines",
 "artists",
 1
 ],
 [
 "Charles Correa",
 "Critical regionalism and regional modernisms",
-"b. 1930, India, architecture",
+"b. 1930, India",
 "artists",
 1
 ],
 [
 "Alex Ifeanyichukwu Ekwueme",
 "Critical regionalism and regional modernisms",
-"b. 1932, Nigeria, architecture",
+"b. 1932, Nigeria",
 "artists",
 1
 ],
 [
 "Raj Rewal",
 "Critical regionalism and regional modernisms",
-"b. 1934, India, architecture",
+"b. 1934, India",
 "artists",
 1
 ],
 [
 "Glenn Murcutt",
 "Critical regionalism and regional modernisms",
-"b. 1936, Australia, architecture",
+"b. 1936, Australia",
 "artists",
 1
 ],
 [
 "Juha Leiviskä",
 "Critical regionalism and regional modernisms",
-"b. 1936, Finland, architecture",
+"b. 1936, Finland",
 "artists",
 1
 ],
 [
 "Kamran Diba",
 "Critical regionalism and regional modernisms",
-"b. 1937, Iran, architecture",
+"b. 1937, Iran",
 "artists",
 1
 ],
 [
 "Mick Pearce",
 "Critical regionalism and regional modernisms",
-"b. 1938, Zimbabwe, architecture",
+"b. 1938, Zimbabwe",
 "artists",
 1
 ],
 [
 "Ja'afar Tuqan",
 "Critical regionalism and regional modernisms",
-"b. 1938, Jordan, architecture",
+"b. 1938, Jordan",
 "artists",
 1
 ],
 [
 "Tadao Ando",
 "Critical regionalism and regional modernisms",
-"b. 1941, Japan, architecture",
+"b. 1941, Japan",
 "artists",
 1
 ],
 [
 "Hossein Amanat",
 "Critical regionalism and regional modernisms",
-"b. 1942, Canada, architecture",
+"b. 1942, Canada",
 "artists",
 1
 ],
 [
 "Nayyar Ali Dada",
 "Critical regionalism and regional modernisms",
-"b. 1943, India, architecture",
+"b. 1943, India",
 "artists",
 1
 ],
 [
 "Bruno Stagno",
 "Critical regionalism and regional modernisms",
-"b. 1943, Chile, architecture",
+"b. 1943, Chile",
 "artists",
 1
 ],
 [
 "Arif Hasan",
 "Critical regionalism and regional modernisms",
-"b. 1943, India, architecture",
+"b. 1943, India",
 "artists",
 1
 ],
 [
 "Ian McHarg",
 "Landscape architects and urban planners",
-"b. 1920, United Kingdom, architecture",
+"b. 1920, United Kingdom",
 "artists",
 1
 ],
 [
 "Cornelia Oberlander",
 "Landscape architects and urban planners",
-"b. 1921, Canada, architecture",
+"b. 1921, Canada",
 "artists",
 1
 ],
 [
 "Klaus Humpert",
 "Landscape architects and urban planners",
-"b. 1929, Germany, architecture",
+"b. 1929, Germany",
 "artists",
 1
 ],
 [
 "Jan Gehl",
 "Landscape architects and urban planners",
-"b. 1936, Denmark, architecture",
+"b. 1936, Denmark",
 "artists",
 1
 ],
 [
 "Shlomo Aronson",
 "Landscape architects and urban planners",
-"b. 1936, Israel, architecture",
+"b. 1936, Israel",
 "artists",
 1
 ],
 [
 "Jaime Lerner",
 "Landscape architects and urban planners",
-"b. 1937, Brazil, architecture",
+"b. 1937, Brazil",
 "artists",
 1
 ],
 [
 "Liu Thai Ker",
 "Landscape architects and urban planners",
-"b. 1938, Singapore, architecture",
+"b. 1938, Singapore",
 "artists",
 1
 ],
 [
 "Peter Latz",
 "Landscape architects and urban planners",
-"b. 1939, Germany, architecture",
+"b. 1939, Germany",
 "artists",
 1
 ],
@@ -22085,112 +22064,112 @@
 [
 "Ernst Hürlimann",
 "Germany",
-"b. 1921, Germany, architecture",
+"b. 1921, Germany",
 "artists",
 1
 ],
 [
 "Heinz Schudnagies",
 "Germany",
-"b. 1925, Germany, architecture",
+"b. 1925, Germany",
 "artists",
 1
 ],
 [
 "Georg Heinrichs",
 "Germany",
-"b. 1926, Germany, architecture",
+"b. 1926, Germany",
 "artists",
 1
 ],
 [
 "Stefan Wewerka",
 "Germany",
-"b. 1928, Germany, architecture",
+"b. 1928, Germany",
 "artists",
 1
 ],
 [
 "Dorothea Tscheschner",
 "Germany",
-"b. 1928, Germany, architecture",
+"b. 1928, Germany",
 "artists",
 1
 ],
 [
 "James Ingo Freed",
 "Germany",
-"b. 1930, Germany, architecture",
+"b. 1930, Germany",
 "artists",
 1
 ],
 [
 "Roland Ostertag",
 "Germany",
-"b. 1931, Germany, architecture",
+"b. 1931, Germany",
 "artists",
 1
 ],
 [
 "Josef Paul Kleihues",
 "Germany",
-"b. 1933, Germany, architecture",
+"b. 1933, Germany",
 "artists",
 1
 ],
 [
 "Rainer Oefelein",
 "Germany",
-"b. 1935, Germany, architecture",
+"b. 1935, Germany",
 "artists",
 1
 ],
 [
 "Meinhard von Gerkan",
 "Germany",
-"b. 1935, Germany, architecture",
+"b. 1935, Germany",
 "artists",
 1
 ],
 [
 "Volkwin Marg",
 "Germany",
-"b. 1936, Germany, architecture",
+"b. 1936, Germany",
 "artists",
 1
 ],
 [
 "Hinrich Baller",
 "Germany",
-"b. 1936, Germany, architecture",
+"b. 1936, Germany",
 "artists",
 1
 ],
 [
 "Jürgen Sawade",
 "Germany",
-"b. 1937, Germany, architecture",
+"b. 1937, Germany",
 "artists",
 1
 ],
 [
 "Andreas Brandt",
 "Germany",
-"b. 1937, Germany, architecture",
+"b. 1937, Germany",
 "artists",
 1
 ],
 [
 "Inken Baller",
 "Germany",
-"b. 1942, Germany, architecture",
+"b. 1942, Germany",
 "artists",
 1
 ],
 [
 "Hans Dieter Schaal",
 "Germany",
-"b. 1943, Germany, architecture",
+"b. 1943, Germany",
 "artists",
 1
 ],
@@ -22211,476 +22190,476 @@
 [
 "Claude Parent",
 "France",
-"b. 1923, France, architecture",
+"b. 1923, France",
 "artists",
 1
 ],
 [
 "Jean Renaudie",
 "France",
-"b. 1925, France, architecture",
+"b. 1925, France",
 "artists",
 1
 ],
 [
 "Roger Taillibert",
 "France",
-"b. 1926, France, architecture",
+"b. 1926, France",
 "artists",
 1
 ],
 [
 "Renée Gailhoustet",
 "France",
-"b. 1929, France, architecture",
+"b. 1929, France",
 "artists",
 1
 ],
 [
 "Henri Ciriani",
 "France",
-"b. 1936, France, architecture",
+"b. 1936, France",
 "artists",
 1
 ],
 [
 "Aymeric Zublena",
 "France",
-"b. 1936, France, architecture",
+"b. 1936, France",
 "artists",
 1
 ],
 [
 "Roland Castro",
 "France",
-"b. 1940, France, architecture",
+"b. 1940, France",
 "artists",
 1
 ],
 [
 "Krzysztof Pruszkowski",
 "France",
-"b. 1943, France, architecture",
+"b. 1943, France",
 "artists",
 1
 ],
 [
 "Christian de Portzamparc",
 "France",
-"b. 1944, France, architecture",
+"b. 1944, France",
 "artists",
 1
 ],
 [
 "Nikola, Crown Prince of Montenegro",
 "France",
-"b. 1944, France, architecture",
+"b. 1944, France",
 "artists",
 1
 ],
 [
 "Yōji Watanabe",
 "Japan",
-"b. 1923, Japan, architecture",
+"b. 1923, Japan",
 "artists",
 1
 ],
 [
 "Sachio Otani",
 "Japan",
-"b. 1924, Japan, architecture",
+"b. 1924, Japan",
 "artists",
 1
 ],
 [
 "Kazuo Shinohara",
 "Japan",
-"b. 1925, Japan, architecture",
+"b. 1925, Japan",
 "artists",
 1
 ],
 [
 "Shin'ichi Okada",
 "Japan",
-"b. 1928, Japan, architecture",
+"b. 1928, Japan",
 "artists",
 1
 ],
 [
 "Shōji Hayashi",
 "Japan",
-"b. 1928, Japan, architecture",
+"b. 1928, Japan",
 "artists",
 1
 ],
 [
 "Yoshirō Ikehara",
 "Japan",
-"b. 1928, Japan, architecture",
+"b. 1928, Japan",
 "artists",
 1
 ],
 [
 "Takamitsu Azuma",
 "Japan",
-"b. 1933, Japan, architecture",
+"b. 1933, Japan",
 "artists",
 1
 ],
 [
 "Takahiko Yanagisawa",
 "Japan",
-"b. 1935, Japan, architecture",
+"b. 1935, Japan",
 "artists",
 1
 ],
 [
 "Yoshio Taniguchi",
 "Japan",
-"b. 1937, Japan, architecture",
+"b. 1937, Japan",
 "artists",
 1
 ],
 [
 "Toyo Ito",
 "Japan",
-"b. 1941, Japan, architecture",
+"b. 1941, Japan",
 "artists",
 1
 ],
 [
 "Kazuyo Sejima",
 "Japan",
-"b. 1956, Japan, architecture",
+"b. 1956, Japan",
 "artists",
 1
 ],
 [
 "Bruce Graham",
 "United States",
-"b. 1925, United States, architecture",
+"b. 1925, United States",
 "artists",
 1
 ],
 [
 "James Polshek",
 "United States",
-"b. 1930, United States, architecture",
+"b. 1930, United States",
 "artists",
 1
 ],
 [
 "Jaquelin T. Robertson",
 "United States",
-"b. 1933, United States, architecture",
+"b. 1933, United States",
 "artists",
 1
 ],
 [
 "Barton Myers",
 "United States",
-"b. 1934, United States, architecture",
+"b. 1934, United States",
 "artists",
 1
 ],
 [
 "Ricardo Scofidio",
 "United States",
-"b. 1935, United States, architecture",
+"b. 1935, United States",
 "artists",
 1
 ],
 [
 "Charles Gwathmey",
 "United States",
-"b. 1938, United States, architecture",
+"b. 1938, United States",
 "artists",
 1
 ],
 [
 "Mario Gandelsonas",
 "United States",
-"b. 1938, United States, architecture",
+"b. 1938, United States",
 "artists",
 1
 ],
 [
 "David Childs",
 "United States",
-"b. 1941, United States, architecture",
+"b. 1941, United States",
 "artists",
 1
 ],
 [
 "Samuel Mockbee",
 "United States",
-"b. 1944, United States, architecture",
+"b. 1944, United States",
 "artists",
 1
 ],
 [
 "Rafael Viñoly",
 "United States",
-"b. 1944, United States, architecture",
+"b. 1944, United States",
 "artists",
 1
 ],
 [
 "Harry Seidler",
 "Austria",
-"b. 1923, Austria, architecture",
+"b. 1923, Austria",
 "artists",
 1
 ],
 [
 "Gustav Peichl",
 "Austria",
-"b. 1928, Austria, architecture",
+"b. 1928, Austria",
 "artists",
 1
 ],
 [
 "Josef Krawina",
 "Austria",
-"b. 1928, Austria, architecture",
+"b. 1928, Austria",
 "artists",
 1
 ],
 [
 "Wilhelm Holzbauer",
 "Austria",
-"b. 1930, Austria, architecture",
+"b. 1930, Austria",
 "artists",
 1
 ],
 [
 "Hans von Klier",
 "Austria",
-"b. 1934, Austria, architecture",
+"b. 1934, Austria",
 "artists",
 1
 ],
 [
 "Hermann Czech",
 "Austria",
-"b. 1936, Austria, architecture",
+"b. 1936, Austria",
 "artists",
 1
 ],
 [
 "Heinz Tesar",
 "Austria",
-"b. 1939, Austria, architecture",
+"b. 1939, Austria",
 "artists",
 1
 ],
 [
 "Peter Noever",
 "Austria",
-"b. 1941, Austria, architecture",
+"b. 1941, Austria",
 "artists",
 1
 ],
 [
 "Romaldo Giurgola",
 "Italy",
-"b. 1920, Italy, architecture",
+"b. 1920, Italy",
 "artists",
 1
 ],
 [
 "Franca Helg",
 "Italy",
-"b. 1920, Italy, architecture",
+"b. 1920, Italy",
 "artists",
 1
 ],
 [
 "Roberto Menghi",
 "Italy",
-"b. 1920, Italy, architecture",
+"b. 1920, Italy",
 "artists",
 1
 ],
 [
 "Alberto Rosselli",
 "Italy",
-"b. 1921, Italy, architecture",
+"b. 1921, Italy",
 "artists",
 1
 ],
 [
 "Pierluigi Spadolini",
 "Italy",
-"b. 1922, Italy, architecture",
+"b. 1922, Italy",
 "artists",
 1
 ],
 [
 "Gino Valle",
 "Italy",
-"b. 1923, Italy, architecture",
+"b. 1923, Italy",
 "artists",
 1
 ],
 [
 "Alberto Ponis",
 "Italy",
-"b. 1933, Italy, architecture",
+"b. 1933, Italy",
 "artists",
 1
 ],
 [
 "Franca Stagi",
 "Italy",
-"b. 1937, Italy, architecture",
+"b. 1937, Italy",
 "artists",
 1
 ],
 [
 "Yaakov Rechter",
 "Israel",
-"b. 1924, Israel, architecture",
+"b. 1924, Israel",
 "artists",
 1
 ],
 [
 "Avraham Yaski",
 "Israel",
-"b. 1927, Israel, architecture",
+"b. 1927, Israel",
 "artists",
 1
 ],
 [
 "Zvi Hecker",
 "Israel",
-"b. 1931, Israel, architecture",
+"b. 1931, Israel",
 "artists",
 1
 ],
 [
 "Ram Karmi",
 "Israel",
-"b. 1931, Israel, architecture",
+"b. 1931, Israel",
 "artists",
 1
 ],
 [
 "Ada Karmi-Melamede",
 "Israel",
-"b. 1936, Israel, architecture",
+"b. 1936, Israel",
 "artists",
 1
 ],
 [
 "David Kroyanker",
 "Israel",
-"b. 1939, Israel, architecture",
+"b. 1939, Israel",
 "artists",
 1
 ],
 [
 "Yarom Vardimon",
 "Israel",
-"b. 1941, Israel, architecture",
+"b. 1941, Israel",
 "artists",
 1
 ],
 [
 "Josef Ongenae",
 "Netherlands",
-"b. 1921, Netherlands, architecture",
+"b. 1921, Netherlands",
 "artists",
 1
 ],
 [
 "William Graatsma",
 "Netherlands",
-"b. 1925, Netherlands, architecture",
+"b. 1925, Netherlands",
 "artists",
 1
 ],
 [
 "Abe Bonnema",
 "Netherlands",
-"b. 1926, Netherlands, architecture",
+"b. 1926, Netherlands",
 "artists",
 1
 ],
 [
 "Wim Quist",
 "Netherlands",
-"b. 1930, Netherlands, architecture",
+"b. 1930, Netherlands",
 "artists",
 1
 ],
 [
 "Cees Dam",
 "Netherlands",
-"b. 1932, Netherlands, architecture",
+"b. 1932, Netherlands",
 "artists",
 1
 ],
 [
 "Mart van Schijndel",
 "Netherlands",
-"b. 1943, Netherlands, architecture",
+"b. 1943, Netherlands",
 "artists",
 1
 ],
 [
 "Aldo van den Nieuwelaar",
 "Netherlands",
-"b. 1944, Netherlands, architecture",
+"b. 1944, Netherlands",
 "artists",
 1
 ],
 [
 "Colin St John Wilson",
 "United Kingdom",
-"b. 1922, United Kingdom, architecture",
+"b. 1922, United Kingdom",
 "artists",
 1
 ],
 [
 "James Gowan",
 "United Kingdom",
-"b. 1923, United Kingdom, architecture",
+"b. 1923, United Kingdom",
 "artists",
 1
 ],
 [
 "Gerald Abramovitz",
 "United Kingdom",
-"b. 1928, United Kingdom, architecture",
+"b. 1928, United Kingdom",
 "artists",
 1
 ],
 [
 "Edward Cullinan",
 "United Kingdom",
-"b. 1931, United Kingdom, architecture",
+"b. 1931, United Kingdom",
 "artists",
 1
 ],
 [
 "Jimmy Alcock",
 "United Kingdom",
-"b. 1932, United Kingdom, architecture",
+"b. 1932, United Kingdom",
 "artists",
 1
 ],
 [
 "Keith Critchlow",
 "United Kingdom",
-"b. 1933, United Kingdom, architecture",
+"b. 1933, United Kingdom",
 "artists",
 1
 ],
 [
 "Witold Rybczynski",
 "United Kingdom",
-"b. 1943, United Kingdom, architecture",
+"b. 1943, United Kingdom",
 "artists",
 1
 ],
@@ -22701,63 +22680,63 @@
 [
 "André Jacqmain",
 "Belgium",
-"b. 1921, Belgium, architecture",
+"b. 1921, Belgium",
 "artists",
 1
 ],
 [
 "Constantin Brodzki",
 "Belgium",
-"b. 1924, Belgium, architecture",
+"b. 1924, Belgium",
 "artists",
 1
 ],
 [
 "Charles Vandenhove",
 "Belgium",
-"b. 1927, Belgium, architecture",
+"b. 1927, Belgium",
 "artists",
 1
 ],
 [
 "Bob Van Reeth",
 "Belgium",
-"b. 1943, Belgium, architecture",
+"b. 1943, Belgium",
 "artists",
 1
 ],
 [
 "Vilhelm Wohlert",
 "Denmark",
-"b. 1920, Denmark, architecture",
+"b. 1920, Denmark",
 "artists",
 1
 ],
 [
 "Henning Larsen",
 "Denmark",
-"b. 1925, Denmark, architecture",
+"b. 1925, Denmark",
 "artists",
 1
 ],
 [
 "Hanne Kjærholm",
 "Denmark",
-"b. 1930, Denmark, architecture",
+"b. 1930, Denmark",
 "artists",
 1
 ],
 [
 "Susanne Ussing",
 "Denmark",
-"b. 1940, Denmark, architecture",
+"b. 1940, Denmark",
 "artists",
 1
 ],
 [
 "Claus Bonderup",
 "Denmark",
-"b. 1943, Denmark, architecture",
+"b. 1943, Denmark",
 "artists",
 1
 ],
@@ -22771,91 +22750,91 @@
 [
 "Luis Peña Gantxegi",
 "Spain",
-"b. 1926, Spain, architecture",
+"b. 1926, Spain",
 "artists",
 1
 ],
 [
 "Lluis Clotet",
 "Spain",
-"b. 1941, Spain, architecture",
+"b. 1941, Spain",
 "artists",
 1
 ],
 [
 "Peridis",
 "Spain",
-"b. 1941, Spain, architecture",
+"b. 1941, Spain",
 "artists",
 1
 ],
 [
 "Kristian Gullichsen",
 "Finland",
-"b. 1932, Finland, architecture",
+"b. 1932, Finland",
 "artists",
 1
 ],
 [
 "Juhani Pallasmaa",
 "Finland",
-"b. 1936, Finland, architecture",
+"b. 1936, Finland",
 "artists",
 1
 ],
 [
 "Pekka Salminen",
 "Finland",
-"b. 1937, Finland, architecture",
+"b. 1937, Finland",
 "artists",
 1
 ],
 [
 "Fritz Haller",
 "Switzerland",
-"b. 1924, Switzerland, architecture",
+"b. 1924, Switzerland",
 "artists",
 1
 ],
 [
 "Werner Blaser",
 "Switzerland",
-"b. 1924, Switzerland, architecture",
+"b. 1924, Switzerland",
 "artists",
 1
 ],
 [
 "Peter Zumthor",
 "Switzerland",
-"b. 1943, Switzerland, architecture",
+"b. 1943, Switzerland",
 "artists",
 1
 ],
 [
 "Josefa Santos",
 "Argentina",
-"b. 1931, Argentina, architecture",
+"b. 1931, Argentina",
 "artists",
 1
 ],
 [
 "Guillermo Gonzalez Ruiz",
 "Argentina",
-"b. 1937, Argentina, architecture",
+"b. 1937, Argentina",
 "artists",
 1
 ],
 [
 "Arthur Erickson",
 "Canada",
-"b. 1924, Canada, architecture",
+"b. 1924, Canada",
 "artists",
 1
 ],
 [
 "Eberhard Zeidler",
 "Canada",
-"b. 1926, Canada, architecture",
+"b. 1926, Canada",
 "artists",
 1
 ],
@@ -22869,7 +22848,7 @@
 [
 "Karel Honzík",
 "Czech lands",
-"b. 1900, Czech lands, architecture",
+"b. 1900, Czech lands",
 "artists",
 1
 ],
@@ -22883,35 +22862,35 @@
 [
 "Elia Zenghelis",
 "Greece",
-"b. 1937, Greece, architecture",
+"b. 1937, Greece",
 "artists",
 1
 ],
 [
 "Kim Swoo-geun",
 "South Korea",
-"b. 1931, South Korea, architecture",
+"b. 1931, South Korea",
 "artists",
 1
 ],
 [
 "Jun Itami",
 "South Korea",
-"b. 1937, South Korea, architecture",
+"b. 1937, South Korea",
 "artists",
 1
 ],
 [
 "Peter Celsing",
 "Sweden",
-"b. 1920, Sweden, architecture",
+"b. 1920, Sweden",
 "artists",
 1
 ],
 [
 "Hans Asplund",
 "Sweden",
-"b. 1921, Sweden, architecture",
+"b. 1921, Sweden",
 "artists",
 1
 ],
@@ -22939,56 +22918,49 @@
 [
 "Anna Maria Niemeyer",
 "Brazil",
-"b. 1929, Brazil, architecture",
+"b. 1929, Brazil",
 "artists",
-1
-],
-[
-"Branko Žeželj",
-"Country not recorded",
-"1910–1995, Belgrade Fair – Hall 1",
-"evidence",
 1
 ],
 [
 "Roberto Gottardi",
 "Cuba",
-"b. 1927, Cuba, architecture",
+"b. 1927, Cuba",
 "artists",
 1
 ],
 [
 "József Finta",
 "Hungary",
-"b. 1935, Hungary, architecture",
+"b. 1935, Hungary",
 "artists",
 1
 ],
 [
 "Kevin Roche",
 "Ireland",
-"b. 1922, Ireland, architecture",
+"b. 1922, Ireland",
 "artists",
 1
 ],
 [
 "Gunnar Birkerts",
 "Latvia",
-"b. 1925, Latvia, architecture",
+"b. 1925, Latvia",
 "artists",
 1
 ],
 [
 "Samy Vellu",
 "Malaysia",
-"b. 1936, Malaysia, architecture",
+"b. 1936, Malaysia",
 "artists",
 1
 ],
 [
 "Ingmar Relling",
 "Norway",
-"b. 1920, Norway, architecture",
+"b. 1920, Norway",
 "artists",
 1
 ],
@@ -23002,28 +22974,28 @@
 [
 "Cengiz Bektaş",
 "Turkey",
-"b. 1934, Turkey, architecture",
+"b. 1934, Turkey",
 "artists",
 1
 ],
 [
 "Guillermo Gómez Platero",
 "Uruguay",
-"b. 1922, Uruguay, architecture",
+"b. 1922, Uruguay",
 "artists",
 1
 ],
 [
 "Manuel Núñez Yanowsky",
 "Uzbekistan",
-"b. 1942, Uzbekistan, architecture",
+"b. 1942, Uzbekistan",
 "artists",
 1
 ],
 [
 "José Vivas",
 "Venezuela",
-"b. 1928, Venezuela, architecture",
+"b. 1928, Venezuela",
 "artists",
 1
 ]
@@ -23307,105 +23279,105 @@
 ],
 [
 "Edificação à Rua Marquês Tocantins, 5",
-"Contemporary other buildings and ensembles",
+"Contemporary buildings of other or unrecorded type",
 "Brazil",
 "r3 https://www.wikidata.org/wiki/Q139635267",
 0
 ],
 [
 "Edificação à Rua Marquês Tocantins, 3",
-"Contemporary other buildings and ensembles",
+"Contemporary buildings of other or unrecorded type",
 "Brazil",
 "r3 https://www.wikidata.org/wiki/Q139635272",
 0
 ],
 [
 "Edificação à Rua Marquês Tocantins, s/n (3)",
-"Contemporary other buildings and ensembles",
+"Contemporary buildings of other or unrecorded type",
 "Brazil",
 "r3 https://www.wikidata.org/wiki/Q139635278",
 0
 ],
 [
 "Edificação à Rua Marquês Tocantins, 2 (4)",
-"Contemporary other buildings and ensembles",
+"Contemporary buildings of other or unrecorded type",
 "Brazil",
 "r3 https://www.wikidata.org/wiki/Q139635279",
 0
 ],
 [
 "Edificação à Rua Marquês Tocantins, 1 (3)",
-"Contemporary other buildings and ensembles",
+"Contemporary buildings of other or unrecorded type",
 "Brazil",
 "r3 https://www.wikidata.org/wiki/Q139635281",
 0
 ],
 [
 "Edificação à Rua Marquês Tocantins, s/n (4)",
-"Contemporary other buildings and ensembles",
+"Contemporary buildings of other or unrecorded type",
 "Brazil",
 "r3 https://www.wikidata.org/wiki/Q139635282",
 0
 ],
 [
 "Edificação à Rua Marquês Tocantins, s/n (5)",
-"Contemporary other buildings and ensembles",
+"Contemporary buildings of other or unrecorded type",
 "Brazil",
 "r3 https://www.wikidata.org/wiki/Q139635283",
 0
 ],
 [
 "Edificação à Rua Americano do Brasil, s/n (1)",
-"Contemporary other buildings and ensembles",
+"Contemporary buildings of other or unrecorded type",
 "Brazil",
 "r3 https://www.wikidata.org/wiki/Q139635288",
 0
 ],
 [
 "Edificação à Rua Americano do Brasil, 30 (1)",
-"Contemporary other buildings and ensembles",
+"Contemporary buildings of other or unrecorded type",
 "Brazil",
 "r3 https://www.wikidata.org/wiki/Q139635292",
 0
 ],
 [
 "Edificação à Rua Americano do Brasil, 33",
-"Contemporary other buildings and ensembles",
+"Contemporary buildings of other or unrecorded type",
 "Brazil",
 "r3 https://www.wikidata.org/wiki/Q139635297",
 0
 ],
 [
 "Edificação à Rua Americano do Brasil, 32",
-"Contemporary other buildings and ensembles",
+"Contemporary buildings of other or unrecorded type",
 "Brazil",
 "r3 https://www.wikidata.org/wiki/Q139635300",
 0
 ],
 [
 "Edificação à Rua Americano do Brasil, 9 (2)",
-"Contemporary other buildings and ensembles",
+"Contemporary buildings of other or unrecorded type",
 "Brazil",
 "r3 https://www.wikidata.org/wiki/Q139635317",
 0
 ],
 [
 "Edificação à Rua Ernestina, 10",
-"Contemporary other buildings and ensembles",
+"Contemporary buildings of other or unrecorded type",
 "Brazil",
 "r3 https://www.wikidata.org/wiki/Q139635318",
 0
 ],
 [
 "Edificação à Rua Americano do Brasil, 22 (1)",
-"Contemporary other buildings and ensembles",
+"Contemporary buildings of other or unrecorded type",
 "Brazil",
 "r3 https://www.wikidata.org/wiki/Q139635320",
 0
 ],
 [
 "Edificação à Rua Americano do Brasil, s/n (3)",
-"Contemporary other buildings and ensembles",
+"Contemporary buildings of other or unrecorded type",
 "Brazil",
 "r3 https://www.wikidata.org/wiki/Q139635322",
 0
@@ -23413,7 +23385,7 @@
 [
 "Peter Cook",
 "Blobitecture",
-"1936–, United Kingdom, Kunsthaus Graz",
+"b. 1936, United Kingdom, Kunsthaus Graz",
 "evidence",
 1
 ],
@@ -23434,14 +23406,14 @@
 [
 "Amanda Levete",
 "Blobitecture",
-"1955–, United Kingdom, Selfridges Building, Birmingham",
+"b. 1955, United Kingdom, Selfridges Building, Birmingham",
 "evidence",
 1
 ],
 [
 "Greg Lynn",
 "Blobitecture",
-"b. 1964, United States, architecture",
+"b. 1964, United States",
 "artists",
 1
 ],
@@ -23462,84 +23434,84 @@
 [
 "Alberto Campo Baeza",
 "Minimalism in architecture",
-"b. 1946, Spain, architecture",
+"b. 1946, Spain",
 "artists",
 1
 ],
 [
 "John Pawson",
 "Minimalism in architecture",
-"b. 1949, United Kingdom, architecture",
+"b. 1949, United Kingdom",
 "artists",
 1
 ],
 [
 "Max Dudler",
 "Minimalism in architecture",
-"b. 1949, Germany, architecture",
+"b. 1949, Germany",
 "artists",
 1
 ],
 [
 "Jacques Herzog",
 "Minimalism in architecture",
-"b. 1950, Switzerland, architecture",
+"b. 1950, Switzerland",
 "artists",
 1
 ],
 [
 "Pierre de Meuron",
 "Minimalism in architecture",
-"b. 1950, Switzerland, architecture",
+"b. 1950, Switzerland",
 "artists",
 1
 ],
 [
 "David Chipperfield",
 "Minimalism in architecture",
-"b. 1953, United Kingdom, architecture",
+"b. 1953, United Kingdom",
 "artists",
 1
 ],
 [
 "Alexander Brodsky",
 "Minimalism in architecture",
-"1955–, Russia, Last Address",
+"b. 1955, Russia, Last Address",
 "evidence",
 1
 ],
 [
 "Jan Jehlík",
 "Minimalism in architecture",
-"1959–, Czech Republic, Penzion pro seniory na Bukově",
+"b. 1959, Czech Republic, Penzion pro seniory na Bukově",
 "evidence",
 1
 ],
 [
 "Annette Gigon",
 "Minimalism in architecture",
-"b. 1959, Switzerland, architecture",
+"b. 1959, Switzerland",
 "artists",
 1
 ],
 [
 "Stanislav Fiala",
 "Minimalism in architecture",
-"1962–, Czech Republic, Pod Starou školou 69",
+"b. 1962, Czech Republic, Pod Starou školou 69",
 "evidence",
 1
 ],
 [
 "Tomáš Pilař",
 "Minimalism in architecture",
-"1963–, Vilové bytové domy čp. 520",
+"b. 1963, Vilové bytové domy čp. 520",
 "evidence",
 1
 ],
 [
 "Walter Steenhoudt",
 "Neomodern",
-"1930–, Belgium, Sint-Jan Maria Vianneykerk",
+"b. 1930, Belgium, Sint-Jan Maria Vianneykerk",
 "evidence",
 1
 ],
@@ -23553,7 +23525,7 @@
 [
 "Ian Simpson",
 "Neomodern",
-"1950–, United Kingdom, Beetham Tower",
+"b. 1950, United Kingdom, Beetham Tower",
 "evidence",
 1
 ],
@@ -23623,910 +23595,910 @@
 [
 "Richard England",
 "Critical regionalism",
-"1937–, Malta, Parish Church of St Joseph, Manikata",
+"b. 1937, Malta, Parish Church of St Joseph, Manikata",
 "evidence",
 1
 ],
 [
 "Rasem Badran",
 "Critical regionalism",
-"b. 1945, Israel, architecture",
+"b. 1945, Israel",
 "artists",
 1
 ],
 [
 "Ken Yeang",
 "Critical regionalism",
-"b. 1948, Malaysia, architecture",
+"b. 1948, Malaysia",
 "artists",
 1
 ],
 [
 "Simón Vélez",
 "Critical regionalism",
-"b. 1949, Colombia, architecture",
+"b. 1949, Colombia",
 "artists",
 1
 ],
 [
 "Paul Pholeros",
 "Critical regionalism",
-"b. 1953, Australia, architecture",
+"b. 1953, Australia",
 "artists",
 1
 ],
 [
 "Giancarlo Mazzanti",
 "Critical regionalism",
-"b. 1963, Colombia, architecture",
+"b. 1963, Colombia",
 "artists",
 1
 ],
 [
 "Bijoy Jain",
 "Critical regionalism",
-"b. 1965, India, architecture",
+"b. 1965, India",
 "artists",
 1
 ],
 [
 "Diébédo Francis Kéré",
 "Critical regionalism",
-"b. 1965, Q965, architecture",
+"b. 1965, Q965",
 "artists",
 1
 ],
 [
 "Anupama Kundoo",
 "Critical regionalism",
-"b. 1967, India, architecture",
+"b. 1967, India",
 "artists",
 1
 ],
 [
 "Alejandro Alavena",
 "Critical regionalism",
-"b. 1967, Chile, architecture",
+"b. 1967, Chile",
 "artists",
 1
 ],
 [
 "Marina Tabassum",
 "Critical regionalism",
-"b. 1968, Bangladesh, architecture",
+"b. 1968, Bangladesh",
 "artists",
 1
 ],
 [
 "Zhang Ke",
 "Critical regionalism",
-"b. 1970, People's Republic of China, architecture",
+"b. 1970, People's Republic of China",
 "artists",
 1
 ],
 [
 "Tatiana Bilbao",
 "Critical regionalism",
-"b. 1972, Mexico, architecture",
+"b. 1972, Mexico",
 "artists",
 1
 ],
 [
 "Vo Trong Nghia",
 "Critical regionalism",
-"b. 1976, Vietnam, architecture",
+"b. 1976, Vietnam",
 "artists",
 1
 ],
 [
 "Kunlé Adeyemi",
 "Critical regionalism",
-"b. 1976, Nigeria, architecture",
+"b. 1976, Nigeria",
 "artists",
 1
 ],
 [
 "Anna Heringer",
 "Critical regionalism",
-"b. 1977, Germany, architecture",
+"b. 1977, Germany",
 "artists",
 1
 ],
 [
 "Mariam Kamara",
 "Critical regionalism",
-"b. 1979, Niger, architecture",
+"b. 1979, Niger",
 "artists",
 1
 ],
 [
 "Frida Escobedo",
 "Critical regionalism",
-"b. 1979, Mexico, architecture",
+"b. 1979, Mexico",
 "artists",
 1
 ],
 [
 "Joar Nango",
 "Critical regionalism",
-"b. 1979, Norway, architecture",
+"b. 1979, Norway",
 "artists",
 1
 ],
 [
 "Marwa Al-Sabouni",
 "Critical regionalism",
-"b. 1981, Syria, architecture",
+"b. 1981, Syria",
 "artists",
 1
 ],
 [
 "Hani Rashid",
 "Parametricism and digital architecture",
-"b. 1958, Canada, architecture",
+"b. 1958, Canada",
 "artists",
 1
 ],
 [
 "Lise Anne Couture",
 "Parametricism and digital architecture",
-"b. 1959, Canada, architecture",
+"b. 1959, Canada",
 "artists",
 1
 ],
 [
 "Preston Scott Cohen",
 "Parametricism and digital architecture",
-"b. 1961, United States, architecture",
+"b. 1961, United States",
 "artists",
 1
 ],
 [
 "Vicente Guallart",
 "Parametricism and digital architecture",
-"b. 1963, Spain, architecture",
+"b. 1963, Spain",
 "artists",
 1
 ],
 [
 "Alejandro Zaera-Polo",
 "Parametricism and digital architecture",
-"b. 1963, Spain, architecture",
+"b. 1963, Spain",
 "artists",
 1
 ],
 [
 "Farshid Moussavi",
 "Parametricism and digital architecture",
-"b. 1965, United Kingdom, architecture",
+"b. 1965, United Kingdom",
 "artists",
 1
 ],
 [
 "Jürgen Mayer",
 "Parametricism and digital architecture",
-"b. 1965, Germany, architecture",
+"b. 1965, Germany",
 "artists",
 1
 ],
 [
 "Enric Ruiz Geli",
 "Parametricism and digital architecture",
-"b. 1968, Spain, architecture",
+"b. 1968, Spain",
 "artists",
 1
 ],
 [
 "Arturo Vittori",
 "Parametricism and digital architecture",
-"b. 1971, Italy, architecture",
+"b. 1971, Italy",
 "artists",
 1
 ],
 [
 "Neri Oxman",
 "Parametricism and digital architecture",
-"b. 1976, United States, architecture",
+"b. 1976, United States",
 "artists",
 1
 ],
 [
 "Mels Crouwel",
 "SuperDutch",
-"b. 1953, Netherlands, architecture",
+"b. 1953, Netherlands",
 "artists",
 1
 ],
 [
 "Francine Houben",
 "SuperDutch",
-"b. 1955, Netherlands, architecture",
+"b. 1955, Netherlands",
 "artists",
 1
 ],
 [
 "Petra Blaisse",
 "SuperDutch",
-"b. 1955, Netherlands, architecture",
+"b. 1955, Netherlands",
 "artists",
 1
 ],
 [
 "Erick van Egeraat",
 "SuperDutch",
-"b. 1956, Netherlands, architecture",
+"b. 1956, Netherlands",
 "artists",
 1
 ],
 [
 "Xaveer De Geyter",
 "SuperDutch",
-"b. 1957, Belgium, architecture",
+"b. 1957, Belgium",
 "artists",
 1
 ],
 [
 "Ben van Berkel",
 "SuperDutch",
-"b. 1957, Netherlands, architecture",
+"b. 1957, Netherlands",
 "artists",
 1
 ],
 [
 "Winy Maas",
 "SuperDutch",
-"b. 1959, Netherlands, architecture",
+"b. 1959, Netherlands",
 "artists",
 1
 ],
 [
 "Caroline Bos",
 "SuperDutch",
-"b. 1959, Netherlands, architecture",
+"b. 1959, Netherlands",
 "artists",
 1
 ],
 [
 "Adriaan Geuze",
 "SuperDutch",
-"b. 1960, Netherlands, architecture",
+"b. 1960, Netherlands",
 "artists",
 1
 ],
 [
 "Ellen van Loon",
 "SuperDutch",
-"b. 1963, Netherlands, architecture",
+"b. 1963, Netherlands",
 "artists",
 1
 ],
 [
 "Winka Dubbeldam",
 "SuperDutch",
-"b. 1966, Netherlands, architecture",
+"b. 1966, Netherlands",
 "artists",
 1
 ],
 [
 "Utkin Ilya Valentinovich",
 "Russian paper architecture",
-"b. 1955, Russia and the Soviet Union, architecture",
+"b. 1955, Russia and the Soviet Union",
 "artists",
 1
 ],
 [
 "Yury Avvakumov",
 "Russian paper architecture",
-"b. 1957, Russia and the Soviet Union, architecture",
+"b. 1957, Russia and the Soviet Union",
 "artists",
 1
 ],
 [
 "Eduardo Souto de Moura",
 "Porto School",
-"b. 1952, Portugal, architecture",
+"b. 1952, Portugal",
 "artists",
 1
 ],
 [
 "Josep Lluis Mateo",
 "Catalan architecture since the 1980s",
-"b. 1949, Spain, architecture",
+"b. 1949, Spain",
 "artists",
 1
 ],
 [
 "Carme Pinós",
 "Catalan architecture since the 1980s",
-"b. 1954, Spain, architecture",
+"b. 1954, Spain",
 "artists",
 1
 ],
 [
 "Enric Miralles",
 "Catalan architecture since the 1980s",
-"b. 1955, Spain, architecture",
+"b. 1955, Spain",
 "artists",
 1
 ],
 [
 "Carme Pigem",
 "Catalan architecture since the 1980s",
-"b. 1962, Spain, architecture",
+"b. 1962, Spain",
 "artists",
 1
 ],
 [
 "Benedetta Tagliabue",
 "Catalan architecture since the 1980s",
-"b. 1963, Italy, architecture",
+"b. 1963, Italy",
 "artists",
 1
 ],
 [
 "Hans Kollhoff",
 "Neo-Rationalism",
-"b. 1946, Germany, architecture",
+"b. 1946, Germany",
 "artists",
 1
 ],
 [
 "Michel Desvigne",
 "Landscape architects",
-"b. 1958, France, architecture",
+"b. 1958, France",
 "artists",
 1
 ],
 [
 "Jacques Rougerie",
 "France",
-"b. 1945, France, architecture",
+"b. 1945, France",
 "artists",
 1
 ],
 [
 "Jean Nouvel",
 "France",
-"b. 1945, France, architecture",
+"b. 1945, France",
 "artists",
 1
 ],
 [
 "Jean-Michel Wilmotte",
 "France",
-"b. 1948, France, architecture",
+"b. 1948, France",
 "artists",
 1
 ],
 [
 "Rudy Ricciotti",
 "France",
-"b. 1952, France, architecture",
+"b. 1952, France",
 "artists",
 1
 ],
 [
 "Jean-Philippe Vassal",
 "France",
-"b. 1954, France, architecture",
+"b. 1954, France",
 "artists",
 1
 ],
 [
 "Odile Decq",
 "France",
-"b. 1955, France, architecture",
+"b. 1955, France",
 "artists",
 1
 ],
 [
 "Anne Lacaton",
 "France",
-"b. 1955, France, architecture",
+"b. 1955, France",
 "artists",
 1
 ],
 [
 "Françoise-Hélène Jourda",
 "France",
-"b. 1955, France, architecture",
+"b. 1955, France",
 "artists",
 1
 ],
 [
 "Frédéric Druot",
 "France",
-"b. 1958, France, architecture",
+"b. 1958, France",
 "artists",
 1
 ],
 [
 "Michel Mossessian",
 "France",
-"b. 1959, France, architecture",
+"b. 1959, France",
 "artists",
 1
 ],
 [
 "François Roche",
 "France",
-"b. 1961, France, architecture",
+"b. 1961, France",
 "artists",
 1
 ],
 [
 "Manuelle Gautrand",
 "France",
-"b. 1961, France, architecture",
+"b. 1961, France",
 "artists",
 1
 ],
 [
 "Dietmar Feichtinger",
 "France",
-"b. 1961, France, architecture",
+"b. 1961, France",
 "artists",
 1
 ],
 [
 "Didier Faustino",
 "France",
-"b. 1968, France, architecture",
+"b. 1968, France",
 "artists",
 1
 ],
 [
 "Fernando Menis",
 "Spain",
-"b. 1951, Spain, architecture",
+"b. 1951, Spain",
 "artists",
 1
 ],
 [
 "Iñaki Ábalos",
 "Spain",
-"b. 1956, Spain, architecture",
+"b. 1956, Spain",
 "artists",
 1
 ],
 [
 "María Jesús González",
 "Spain",
-"b. 1956, Spain, architecture",
+"b. 1956, Spain",
 "artists",
 1
 ],
 [
 "Francisco Mangado",
 "Spain",
-"b. 1957, Spain, architecture",
+"b. 1957, Spain",
 "artists",
 1
 ],
 [
 "Fuensanta Nieto",
 "Spain",
-"b. 1957, Spain, architecture",
+"b. 1957, Spain",
 "artists",
 1
 ],
 [
 "Juan Herreros",
 "Spain",
-"b. 1958, Spain, architecture",
+"b. 1958, Spain",
 "artists",
 1
 ],
 [
 "Emilio Tuñón",
 "Spain",
-"b. 1959, Spain, architecture",
+"b. 1959, Spain",
 "artists",
 1
 ],
 [
 "Luis Moreno Mansilla",
 "Spain",
-"b. 1959, Spain, architecture",
+"b. 1959, Spain",
 "artists",
 1
 ],
 [
 "Lucía Cano",
 "Spain",
-"b. 1965, Spain, architecture",
+"b. 1965, Spain",
 "artists",
 1
 ],
 [
 "Andrés Jaque",
 "Spain",
-"b. 1971, Spain, architecture",
+"b. 1971, Spain",
 "artists",
 1
 ],
 [
 "Belinda Tato",
 "Spain",
-"b. 1971, Spain, architecture",
+"b. 1971, Spain",
 "artists",
 1
 ],
 [
 "Riken Yamamoto",
 "Japan",
-"b. 1945, Japan, architecture",
+"b. 1945, Japan",
 "artists",
 1
 ],
 [
 "Kengo Kuma",
 "Japan",
-"b. 1954, Japan, architecture",
+"b. 1954, Japan",
 "artists",
 1
 ],
 [
 "Shigeru Ban",
 "Japan",
-"b. 1957, Japan, architecture",
+"b. 1957, Japan",
 "artists",
 1
 ],
 [
 "Ryue Nishizawa",
 "Japan",
-"b. 1966, Japan, architecture",
+"b. 1966, Japan",
 "artists",
 1
 ],
 [
 "Kumiko Inui",
 "Japan",
-"b. 1969, Japan, architecture",
+"b. 1969, Japan",
 "artists",
 1
 ],
 [
 "Akihisa Hirata",
 "Japan",
-"b. 1971, Japan, architecture",
+"b. 1971, Japan",
 "artists",
 1
 ],
 [
 "Sou Fujimoto",
 "Japan",
-"b. 1971, Japan, architecture",
+"b. 1971, Japan",
 "artists",
 1
 ],
 [
 "Jun'ya Ishigami",
 "Japan",
-"b. 1974, Japan, architecture",
+"b. 1974, Japan",
 "artists",
 1
 ],
 [
 "Hilde Léon",
 "Germany",
-"b. 1953, Germany, architecture",
+"b. 1953, Germany",
 "artists",
 1
 ],
 [
 "Hadi Teherani",
 "Germany",
-"b. 1954, Germany, architecture",
+"b. 1954, Germany",
 "artists",
 1
 ],
 [
 "Matthias Sauerbruch",
 "Germany",
-"b. 1955, Germany, architecture",
+"b. 1955, Germany",
 "artists",
 1
 ],
 [
 "Regine Leibinger",
 "Germany",
-"b. 1963, Germany, architecture",
+"b. 1963, Germany",
 "artists",
 1
 ],
 [
 "Manuel Herz",
 "Germany",
-"b. 1967, Germany, architecture",
+"b. 1967, Germany",
 "artists",
 1
 ],
 [
 "Ole Scheeren",
 "Germany",
-"b. 1971, Germany, architecture",
+"b. 1971, Germany",
 "artists",
 1
 ],
 [
 "Stanley Saitowitz",
 "United States",
-"b. 1949, United States, architecture",
+"b. 1949, United States",
 "artists",
 1
 ],
 [
 "Laurinda Hope Spear",
 "United States",
-"b. 1950, United States, architecture",
+"b. 1950, United States",
 "artists",
 1
 ],
 [
 "Douglas Darden",
 "United States",
-"b. 1951, United States, architecture",
+"b. 1951, United States",
 "artists",
 1
 ],
 [
 "Elizabeth Diller",
 "United States",
-"b. 1954, United States, architecture",
+"b. 1954, United States",
 "artists",
 1
 ],
 [
 "Teddy Cruz",
 "United States",
-"b. 1962, United States, architecture",
+"b. 1962, United States",
 "artists",
 1
 ],
 [
 "Jeanne Gang",
 "United States",
-"b. 1964, United States, architecture",
+"b. 1964, United States",
+"artists",
+1
+],
+[
+"Jing Liu",
+"United States",
+"b. 1980, co-founder of SO-IL, New York",
 "artists",
 1
 ],
 [
 "Markku Komonen",
 "Finland",
-"b. 1945, Finland, architecture",
+"b. 1945, Finland",
 "artists",
 1
 ],
 [
 "Mikko Heikkinen",
 "Finland",
-"b. 1949, Finland, architecture",
+"b. 1949, Finland",
 "artists",
 1
 ],
 [
 "Rainer Mahlamäki",
 "Finland",
-"b. 1956, Finland, architecture",
+"b. 1956, Finland",
 "artists",
 1
 ],
 [
 "Anders Adlercreutz",
 "Finland",
-"b. 1970, Finland, architecture",
+"b. 1970, Finland",
 "artists",
 1
 ],
 [
 "Marco Casagrande",
 "Finland",
-"b. 1971, Finland, architecture",
+"b. 1971, Finland",
 "artists",
 1
 ],
 [
 "Lene Tranberg",
 "Denmark",
-"b. 1956, Denmark, architecture",
+"b. 1956, Denmark",
 "artists",
 1
 ],
 [
 "Dorte Mandrup",
 "Denmark",
-"b. 1961, Denmark, architecture",
+"b. 1961, Denmark",
 "artists",
 1
 ],
 [
 "Bjarke Ingels",
 "Denmark",
-"b. 1974, Denmark, architecture",
+"b. 1974, Denmark",
 "artists",
 1
 ],
 [
 "Louisa Hutton",
 "United Kingdom",
-"b. 1957, United Kingdom, architecture",
+"b. 1957, United Kingdom",
 "artists",
 1
 ],
 [
 "Elspeth Beard",
 "United Kingdom",
-"b. 1959, United Kingdom, architecture",
+"b. 1959, United Kingdom",
 "artists",
 1
 ],
 [
 "Liam Young",
 "United Kingdom",
-"b. 1979, United Kingdom, architecture",
+"b. 1979, United Kingdom",
 "artists",
 1
 ],
 [
 "Ilze Wolff",
-"Country not recorded",
-"b. 1980, architecture",
-"artists",
-1
-],
-[
-"Jing Liu",
-"Country not recorded",
-"b. 1980, architecture",
-"artists",
-1
-],
-[
-"Elsie Owusu",
-"Ghana",
-"b. 1953, Ghana, architecture",
-"artists",
-1
-],
-[
-"David Adjaye",
-"Ghana",
-"b. 1966, Ghana, architecture",
-"artists",
-1
-],
-[
-"Christos Papoulias",
-"Greece",
-"b. 1953, Greece, architecture",
-"artists",
-1
-],
-[
-"Aristide Antonas",
-"Greece",
-"b. 1963, Greece, architecture",
-"artists",
-1
-],
-[
-"Kjetil Trædal Thorsen",
-"Norway",
-"b. 1958, Norway, architecture",
-"artists",
-1
-],
-[
-"Craig Dykers",
-"Norway",
-"b. 1961, Norway, architecture",
+"South Africa",
+"b. 1980",
 "artists",
 1
 ],
 [
 "Laura Kurgan",
 "South Africa",
-"b. 1961, South Africa, architecture",
+"b. 1961, South Africa",
 "artists",
 1
 ],
 [
 "Mpho Matsipa",
 "South Africa",
-"South Africa, architecture",
+"South Africa",
+"artists",
+1
+],
+[
+"Elsie Owusu",
+"Ghana",
+"b. 1953, Ghana",
+"artists",
+1
+],
+[
+"David Adjaye",
+"Ghana",
+"b. 1966, Ghana",
+"artists",
+1
+],
+[
+"Christos Papoulias",
+"Greece",
+"b. 1953, Greece",
+"artists",
+1
+],
+[
+"Aristide Antonas",
+"Greece",
+"b. 1963, Greece",
+"artists",
+1
+],
+[
+"Kjetil Trædal Thorsen",
+"Norway",
+"b. 1958, Norway",
+"artists",
+1
+],
+[
+"Craig Dykers",
+"Norway",
+"b. 1961, Norway",
 "artists",
 1
 ],
 [
 "Diana Agrest",
 "Argentina",
-"b. 1945, Argentina, architecture",
+"b. 1945, Argentina",
 "artists",
 1
 ],
 [
 "Adolf Krischanitz",
 "Austria",
-"b. 1946, Austria, architecture",
+"b. 1946, Austria",
 "artists",
 1
 ],
 [
 "Gulchohra Mammadova",
 "Azerbaijan",
-"b. 1953, Azerbaijan, architecture",
+"b. 1953, Azerbaijan",
 "artists",
 1
 ],
 [
 "Nasrine Seraji",
 "Iran",
-"b. 1957, Iran, architecture",
+"b. 1957, Iran",
 "artists",
 1
 ],
 [
 "Eyal Weizman",
 "Israel",
-"b. 1970, Israel, architecture",
+"b. 1970, Israel",
 "artists",
 1
 ],
 [
 "Bernard Khoury",
 "Lebanon",
-"b. 1968, Lebanon, architecture",
+"b. 1968, Lebanon",
 "artists",
 1
 ],
 [
 "Hana Elhebshi",
 "Libya",
-"b. 1985, Libya, architecture",
+"b. 1985, Libya",
 "artists",
 1
 ],
 [
 "Raukura Turei",
 "New Zealand",
-"b. 1987, New Zealand, architecture",
+"b. 1987, New Zealand",
 "artists",
 1
 ],
 [
 "Yewande Omotoso",
 "Nigeria",
-"b. 1980, Nigeria, architecture",
+"b. 1980, Nigeria",
 "artists",
 1
 ],
 [
 "Albert Refiti",
 "Samoa",
-"Samoa, architecture",
+"Samoa",
 "artists",
 1
 ],
 [
 "Gert Wingårdh",
 "Sweden",
-"b. 1951, Sweden, architecture",
+"b. 1951, Sweden",
 "artists",
 1
 ],
 [
 "Andreas Vogler",
 "Switzerland",
-"b. 1964, Switzerland, architecture",
+"b. 1964, Switzerland",
 "artists",
 1
 ],
 [
 "Dana Whabira",
 "Zimbabwe",
-"b. 1976, Zimbabwe, architecture",
+"b. 1976, Zimbabwe",
 "artists",
 1
 ]
@@ -24558,6 +24530,62 @@
 ]
 ],
 "kinds": [
+[
+"James Gillray",
+"Canonical illustrators and caricaturists",
+"English caricaturist of Georgian politics, 1756–1815",
+"r3 https://en.wikipedia.org/wiki/James_Gillray",
+1
+],
+[
+"Thomas Rowlandson",
+"Canonical illustrators and caricaturists",
+"English caricaturist and illustrator, 1757–1827",
+"r3 https://en.wikipedia.org/wiki/Thomas_Rowlandson",
+1
+],
+[
+"George Cruikshank",
+"Canonical illustrators and caricaturists",
+"English caricaturist and illustrator of Dickens, 1792–1878",
+"r3 https://en.wikipedia.org/wiki/George_Cruikshank",
+1
+],
+[
+"Honoré Daumier",
+"Canonical illustrators and caricaturists",
+"French lithographer and caricaturist of La Caricature and Le Charivari, 1808–1879",
+"r3 https://en.wikipedia.org/wiki/Honoré_Daumier",
+1
+],
+[
+"John Tenniel",
+"Canonical illustrators and caricaturists",
+"English Punch cartoonist and illustrator of the Alice books, 1820–1914",
+"r3 https://en.wikipedia.org/wiki/John_Tenniel",
+1
+],
+[
+"Gustave Doré",
+"Canonical illustrators and caricaturists",
+"French wood-engraved book illustrator (Dante, the Bible), 1832–1883",
+"r3 https://en.wikipedia.org/wiki/Gustave_Doré",
+1
+],
+[
+"Norman Rockwell",
+"Canonical illustrators and caricaturists",
+"American illustrator of Saturday Evening Post covers, 1894–1978",
+"r3 https://en.wikipedia.org/wiki/Norman_Rockwell",
+1
+],
+[
+"Saul Steinberg",
+"Canonical illustrators and caricaturists",
+"Romanian-American cartoonist of The New Yorker, 1914–1999",
+"r3 https://en.wikipedia.org/wiki/Saul_Steinberg",
+1
+],
 [
 "Henry Bunbury",
 "Georgian and Regency caricature",
@@ -27640,7 +27668,7 @@
 [
 "Paul Martin",
 "Special artists and war illustrators",
-"b. 1864, France, photography",
+"b. 1864, France",
 "artists",
 1
 ],
@@ -28718,910 +28746,910 @@
 [
 "Amédée de Noé",
 "Painter-etchers",
-"b. 1818, France, printmaking",
+"b. 1818, France",
 "artists",
 1
 ],
 [
 "Francis Seymour Haden",
 "Painter-etchers",
-"b. 1818, United Kingdom, printmaking",
+"b. 1818, United Kingdom",
 "artists",
 1
 ],
 [
 "Charles-Michel Geoffroy",
 "Painter-etchers",
-"b. 1819, France, printmaking",
+"b. 1819, France",
 "artists",
 1
 ],
 [
 "Rodolphe Bresdin",
 "Painter-etchers",
-"b. 1822, France, printmaking",
+"b. 1822, France",
 "artists",
 1
 ],
 [
 "Manuel Manilla",
 "Painter-etchers",
-"b. 1830, Mexico, printmaking",
+"b. 1830, Mexico",
 "artists",
 1
 ],
 [
 "Mary Nimmo Moran",
 "Painter-etchers",
-"b. 1842, United Kingdom, printmaking",
+"b. 1842, United Kingdom",
 "artists",
 1
 ],
 [
 "Henry Wolf",
 "Painter-etchers",
-"b. 1852, France, printmaking",
+"b. 1852, France",
 "artists",
 1
 ],
 [
 "Emma Zorn",
 "Painter-etchers",
-"b. 1860, Sweden, printmaking",
+"b. 1860, Sweden",
 "artists",
 1
 ],
 [
 "Edmund Edel",
 "Painter-etchers",
-"b. 1863, Germany, printmaking",
+"b. 1863, Germany",
 "artists",
 1
 ],
 [
 "Helen Hyde",
 "Painter-etchers",
-"b. 1868, United States, printmaking",
+"b. 1868, United States",
 "artists",
 1
 ],
 [
 "Malo-Renault",
 "Painter-etchers",
-"b. 1870, France, printmaking",
+"b. 1870, France",
 "artists",
 1
 ],
 [
 "Thomas Sturge Moore",
 "Painter-etchers",
-"b. 1870, United Kingdom, printmaking",
+"b. 1870, United Kingdom",
 "artists",
 1
 ],
 [
 "Elizabeth Campbell Fisher Clay",
 "Painter-etchers",
-"b. 1871, United States, printmaking",
+"b. 1871, United States",
 "artists",
 1
 ],
 [
 "Achille Ouvré",
 "Painter-etchers",
-"b. 1872, France, printmaking",
+"b. 1872, France",
 "artists",
 1
 ],
 [
 "Auguste Brouet",
 "Painter-etchers",
-"b. 1872, France, printmaking",
+"b. 1872, France",
 "artists",
 1
 ],
 [
 "Edmond Andre Rocher",
 "Painter-etchers",
-"b. 1873, France, printmaking",
+"b. 1873, France",
 "artists",
 1
 ],
 [
 "Bert Nienhuis",
 "Painter-etchers",
-"b. 1873, Netherlands, printmaking",
+"b. 1873, Netherlands",
 "artists",
 1
 ],
 [
 "Nelly Bodenheim",
 "Painter-etchers",
-"b. 1874, Netherlands, printmaking",
+"b. 1874, Netherlands",
 "artists",
 1
 ],
 [
 "F. L. Griggs",
 "Painter-etchers",
-"b. 1876, United Kingdom, printmaking",
+"b. 1876, United Kingdom",
 "artists",
 1
 ],
 [
 "Aleksei Aleksandrovich Radakov",
 "Painter-etchers",
-"b. 1877, Russia and the Soviet Union, printmaking",
+"b. 1877, Russia and the Soviet Union",
 "artists",
 1
 ],
 [
 "Joseph Lemercier",
 "Printers, publishers and dealers (Société des Aquafortistes)",
-"b. 1803, France, printmaking",
+"b. 1803, France",
 "artists",
 1
 ],
 [
 "Auguste Delâtre",
 "Printers, publishers and dealers (Société des Aquafortistes)",
-"b. 1822, France, printmaking",
+"b. 1822, France",
 "artists",
 1
 ],
 [
 "Edmond Ramus",
 "Printers, publishers and dealers (Société des Aquafortistes)",
-"b. 1822, France, printmaking",
+"b. 1822, France",
 "artists",
 1
 ],
 [
 "Alfred Cadart",
 "Printers, publishers and dealers (Société des Aquafortistes)",
-"b. 1828, France, printmaking",
+"b. 1828, France",
 "artists",
 1
 ],
 [
 "Adolph Friedländer",
 "Printers, publishers and dealers (Société des Aquafortistes)",
-"b. 1851, Germany, printmaking",
+"b. 1851, Germany",
 "artists",
 1
 ],
 [
 "Auguste Clot",
 "Printers, publishers and dealers (Société des Aquafortistes)",
-"b. 1858, France, printmaking",
+"b. 1858, France",
 "artists",
 1
 ],
 [
 "Pierre Gusman",
 "Printers, publishers and dealers (Société des Aquafortistes)",
-"b. 1862, France, printmaking",
+"b. 1862, France",
 "artists",
 1
 ],
 [
 "Horace de Viel-Castel",
 "Critics, collectors and cataloguers",
-"b. 1802, France, printmaking",
+"b. 1802, France",
 "artists",
 1
 ],
 [
 "Charles Blanc",
 "Critics, collectors and cataloguers",
-"b. 1813, France, printmaking",
+"b. 1813, France",
 "artists",
 1
 ],
 [
 "Llewellynn Jewitt",
 "Critics, collectors and cataloguers",
-"b. 1816, United Kingdom, printmaking",
+"b. 1816, United Kingdom",
 "artists",
 1
 ],
 [
 "Philippe Burty",
 "Critics, collectors and cataloguers",
-"b. 1830, France, printmaking",
+"b. 1830, France",
 "artists",
 1
 ],
 [
 "Henry Havard",
 "Critics, collectors and cataloguers",
-"b. 1838, France, printmaking",
+"b. 1838, France",
 "artists",
 1
 ],
 [
 "Victor de Stuers",
 "Critics, collectors and cataloguers",
-"b. 1843, Netherlands, printmaking",
+"b. 1843, Netherlands",
 "artists",
 1
 ],
 [
 "Louis Alexander Fagan",
 "Critics, collectors and cataloguers",
-"b. 1845, United Kingdom, printmaking",
+"b. 1845, United Kingdom",
 "artists",
 1
 ],
 [
 "Gustav Pauli",
 "Critics, collectors and cataloguers",
-"b. 1866, Germany, printmaking",
+"b. 1866, Germany",
 "artists",
 1
 ],
 [
 "Loÿs Delteil",
 "Critics, collectors and cataloguers",
-"b. 1869, France, printmaking",
+"b. 1869, France",
 "artists",
 1
 ],
 [
 "Fyodor Iordan",
 "Reproductive line and mezzotint engravers",
-"b. 1800, Russia and the Soviet Union, printmaking",
+"b. 1800, Russia and the Soviet Union",
 "artists",
 1
 ],
 [
 "James Tibbits Willmore",
 "Reproductive line and mezzotint engravers",
-"b. 1800, United Kingdom, printmaking",
+"b. 1800, United Kingdom",
 "artists",
 1
 ],
 [
 "Samuel Cousins",
 "Reproductive line and mezzotint engravers",
-"b. 1801, United Kingdom, printmaking",
+"b. 1801, United Kingdom",
 "artists",
 1
 ],
 [
 "Eugen Eduard Schäffer",
 "Reproductive line and mezzotint engravers",
-"b. 1802, Germany, printmaking",
+"b. 1802, Germany",
 "artists",
 1
 ],
 [
 "Carl Johan Billmark",
 "Reproductive line and mezzotint engravers",
-"b. 1804, Sweden, printmaking",
+"b. 1804, Sweden",
 "artists",
 1
 ],
 [
 "John Cousen",
 "Reproductive line and mezzotint engravers",
-"b. 1804, United Kingdom, printmaking",
+"b. 1804, United Kingdom",
 "artists",
 1
 ],
 [
 "Gaetano Dura",
 "Reproductive line and mezzotint engravers",
-"b. 1805, Italy, printmaking",
+"b. 1805, Italy",
 "artists",
 1
 ],
 [
 "Achille-Louis Martinet",
 "Reproductive line and mezzotint engravers",
-"b. 1806, France, printmaking",
+"b. 1806, France",
 "artists",
 1
 ],
 [
 "William Holl",
 "Reproductive line and mezzotint engravers",
-"b. 1807, United Kingdom, printmaking",
+"b. 1807, United Kingdom",
 "artists",
 1
 ],
 [
 "Charles George Lewis",
 "Reproductive line and mezzotint engravers",
-"b. 1808, United Kingdom, printmaking",
+"b. 1808, United Kingdom",
 "artists",
 1
 ],
 [
 "John Sartain",
 "Reproductive line and mezzotint engravers",
-"b. 1808, United Kingdom, printmaking",
+"b. 1808, United Kingdom",
 "artists",
 1
 ],
 [
 "Tommaso Aloysio Juvara",
 "Reproductive line and mezzotint engravers",
-"b. 1809, Italy, printmaking",
+"b. 1809, Italy",
 "artists",
 1
 ],
 [
 "Eduard Mandel",
 "Reproductive line and mezzotint engravers",
-"b. 1810, Germany, printmaking",
+"b. 1810, Germany",
 "artists",
 1
 ],
 [
 "John Henry Le Keux",
 "Reproductive line and mezzotint engravers",
-"b. 1812, United Kingdom, printmaking",
+"b. 1812, United Kingdom",
 "artists",
 1
 ],
 [
 "François-Eugène-Augustin Bridoux",
 "Reproductive line and mezzotint engravers",
-"b. 1813, France, printmaking",
+"b. 1813, France",
 "artists",
 1
 ],
 [
 "Alphonse François",
 "Reproductive line and mezzotint engravers",
-"b. 1814, France, printmaking",
+"b. 1814, France",
 "artists",
 1
 ],
 [
 "Patrick H. Reason",
 "Reproductive line and mezzotint engravers",
-"b. 1816, United States, printmaking",
+"b. 1816, United States",
 "artists",
 1
 ],
 [
 "Auguste III Blanchard",
 "Reproductive line and mezzotint engravers",
-"b. 1819, France, printmaking",
+"b. 1819, France",
 "artists",
 1
 ],
 [
 "John Chester Buttre",
 "Reproductive line and mezzotint engravers",
-"b. 1821, United States, printmaking",
+"b. 1821, United States",
 "artists",
 1
 ],
 [
 "August Weger",
 "Reproductive line and mezzotint engravers",
-"b. 1823, Germany, printmaking",
+"b. 1823, Germany",
 "artists",
 1
 ],
 [
 "Thomas Oldham Barlow",
 "Reproductive line and mezzotint engravers",
-"b. 1824, United Kingdom, printmaking",
+"b. 1824, United Kingdom",
 "artists",
 1
 ],
 [
 "Johann Leonhard Raab",
 "Reproductive line and mezzotint engravers",
-"b. 1825, Germany, printmaking",
+"b. 1825, Germany",
 "artists",
 1
 ],
 [
 "Charles Henry Jeens",
 "Reproductive line and mezzotint engravers",
-"b. 1827, United Kingdom, printmaking",
+"b. 1827, United Kingdom",
 "artists",
 1
 ],
 [
 "Louis Jacoby",
 "Reproductive line and mezzotint engravers",
-"b. 1828, Germany, printmaking",
+"b. 1828, Germany",
 "artists",
 1
 ],
 [
 "Saro Cucinotta",
 "Reproductive line and mezzotint engravers",
-"b. 1830, Italy, printmaking",
+"b. 1830, Italy",
 "artists",
 1
 ],
 [
 "Charles Edward Barber",
 "Reproductive line and mezzotint engravers",
-"b. 1840, United States, printmaking",
+"b. 1840, United States",
 "artists",
 1
 ],
 [
 "Giuseppe Barberis",
 "Reproductive line and mezzotint engravers",
-"b. 1840, Italy, printmaking",
+"b. 1840, Italy",
 "artists",
 1
 ],
 [
 "Gustav Kruell",
 "Reproductive line and mezzotint engravers",
-"b. 1843, United States, printmaking",
+"b. 1843, United States",
 "artists",
 1
 ],
 [
 "Wilhelm Hecht",
 "Reproductive line and mezzotint engravers",
-"b. 1843, Germany, printmaking",
+"b. 1843, Germany",
 "artists",
 1
 ],
 [
 "Achille Jacquet",
 "Reproductive line and mezzotint engravers",
-"b. 1846, France, printmaking",
+"b. 1846, France",
 "artists",
 1
 ],
 [
 "Charles Albert Waltner",
 "Reproductive line and mezzotint engravers",
-"b. 1846, France, printmaking",
+"b. 1846, France",
 "artists",
 1
 ],
 [
 "Doris Raab",
 "Reproductive line and mezzotint engravers",
-"b. 1851, Germany, printmaking",
+"b. 1851, Germany",
 "artists",
 1
 ],
 [
 "Edwin Davis French",
 "Reproductive line and mezzotint engravers",
-"b. 1851, United States, printmaking",
+"b. 1851, United States",
 "artists",
 1
 ],
 [
 "Charles Swain",
 "Wood engravers of the illustrated press",
-"b. 1801, United Kingdom, printmaking",
+"b. 1801, United Kingdom",
 "artists",
 1
 ],
 [
 "Henry Linton",
 "Wood engravers of the illustrated press",
-"b. 1815, United Kingdom, printmaking",
+"b. 1815, United Kingdom",
 "artists",
 1
 ],
 [
 "Alexandre Manceau",
 "Wood engravers of the illustrated press",
-"b. 1817, France, printmaking",
+"b. 1817, France",
 "artists",
 1
 ],
 [
 "George Samuel Measom",
 "Wood engravers of the illustrated press",
-"b. 1818, United Kingdom, printmaking",
+"b. 1818, United Kingdom",
 "artists",
 1
 ],
 [
 "Firmin Gillot",
 "Wood engravers of the illustrated press",
-"b. 1819, France, printmaking",
+"b. 1819, France",
 "artists",
 1
 ],
 [
 "Mason Jackson",
 "Wood engravers of the illustrated press",
-"b. 1819, United Kingdom, printmaking",
+"b. 1819, United Kingdom",
 "artists",
 1
 ],
 [
 "Joseph Swain",
 "Wood engravers of the illustrated press",
-"b. 1820, United Kingdom, printmaking",
+"b. 1820, United Kingdom",
 "artists",
 1
 ],
 [
 "Frank Leslie",
 "Wood engravers of the illustrated press",
-"b. 1821, United Kingdom, printmaking",
+"b. 1821, United Kingdom",
 "artists",
 1
 ],
 [
 "François Pannemaker",
 "Wood engravers of the illustrated press",
-"b. 1822, Belgium, printmaking",
+"b. 1822, Belgium",
 "artists",
 1
 ],
 [
 "Jean-Baptiste Danguin",
 "Wood engravers of the illustrated press",
-"b. 1823, France, printmaking",
+"b. 1823, France",
 "artists",
 1
 ],
 [
 "Abraham Jacobus Wendel",
 "Wood engravers of the illustrated press",
-"b. 1826, Netherlands, printmaking",
+"b. 1826, Netherlands",
 "artists",
 1
 ],
 [
 "Gustave Janet",
 "Wood engravers of the illustrated press",
-"b. 1829, France, printmaking",
+"b. 1829, France",
 "artists",
 1
 ],
 [
 "Auguste Danse",
 "Wood engravers of the illustrated press",
-"b. 1829, Belgium, printmaking",
+"b. 1829, Belgium",
 "artists",
 1
 ],
 [
 "William Luson Thomas",
 "Wood engravers of the illustrated press",
-"b. 1830, United Kingdom, printmaking",
+"b. 1830, United Kingdom",
 "artists",
 1
 ],
 [
 "Andrew Varick Stout Anthony",
 "Wood engravers of the illustrated press",
-"b. 1835, United States, printmaking",
+"b. 1835, United States",
 "artists",
 1
 ],
 [
 "Charles Barbant",
 "Wood engravers of the illustrated press",
-"b. 1844, France, printmaking",
+"b. 1844, France",
 "artists",
 1
 ],
 [
 "Tony Beltrand",
 "Wood engravers of the illustrated press",
-"b. 1847, France, printmaking",
+"b. 1847, France",
 "artists",
 1
 ],
 [
 "Hugo Kaeseberg",
 "Wood engravers of the illustrated press",
-"b. 1847, Germany, printmaking",
+"b. 1847, Germany",
 "artists",
 1
 ],
 [
 "Henri Boutet",
 "Wood engravers of the illustrated press",
-"b. 1851, France, printmaking",
+"b. 1851, France",
 "artists",
 1
 ],
 [
 "Charles Baude",
 "Wood engravers of the illustrated press",
-"b. 1853, France, printmaking",
+"b. 1853, France",
 "artists",
 1
 ],
 [
 "Émile Jean Sulpis",
 "Wood engravers of the illustrated press",
-"b. 1856, France, printmaking",
+"b. 1856, France",
 "artists",
 1
 ],
 [
 "George Baxter",
 "Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
-"b. 1804, United Kingdom, printmaking",
+"b. 1804, United Kingdom",
 "artists",
 1
 ],
 [
 "Alfred Guesdon",
 "Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
-"b. 1808, France, printmaking",
+"b. 1808, France",
 "artists",
 1
 ],
 [
 "John Henry Bufford",
 "Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
-"b. 1810, United States, printmaking",
+"b. 1810, United States",
 "artists",
 1
 ],
 [
 "Edward Tracy Turnerelli",
 "Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
-"b. 1813, United Kingdom, printmaking",
+"b. 1813, United Kingdom",
 "artists",
 1
 ],
 [
 "Wilhelm Heuer",
 "Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
-"b. 1813, Germany, printmaking",
+"b. 1813, Germany",
 "artists",
 1
 ],
 [
 "Nathaniel Currier",
 "Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
-"b. 1813, United States, printmaking",
+"b. 1813, United States",
 "artists",
 1
 ],
 [
 "Pierre Gustave Staal",
 "Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
-"b. 1817, France, printmaking",
+"b. 1817, France",
 "artists",
 1
 ],
 [
 "Alfred Taiée",
 "Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
-"b. 1820, France, printmaking",
+"b. 1820, France",
 "artists",
 1
 ],
 [
 "Émile Théodore Therond",
 "Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
-"b. 1821, France, printmaking",
+"b. 1821, France",
 "artists",
 1
 ],
 [
 "Wilhelm Tempel",
 "Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
-"b. 1821, Germany, printmaking",
+"b. 1821, Germany",
 "artists",
 1
 ],
 [
 "Louis Prang",
 "Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
-"b. 1824, United States, printmaking",
+"b. 1824, United States",
 "artists",
 1
 ],
 [
 "James Merritt Ives",
 "Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
-"b. 1824, United States, printmaking",
+"b. 1824, United States",
 "artists",
 1
 ],
 [
 "Julius Bien",
 "Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
-"b. 1826, United States, printmaking",
+"b. 1826, United States",
 "artists",
 1
 ],
 [
 "Eusebi Planas i Franquesa",
 "Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
-"b. 1833, Spain, printmaking",
+"b. 1833, Spain",
 "artists",
 1
 ],
 [
 "Alfred Concanen",
 "Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
-"b. 1835, printmaking",
+"b. 1835",
 "artists",
 1
 ],
 [
 "Frank Mason Robinson",
 "Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
-"b. 1845, United States, printmaking",
+"b. 1845, United States",
 "artists",
 1
 ],
 [
 "Charles Clérice",
 "Lithographers and chromolithograph publishers (Currier & Ives, Prang)",
-"b. 1855, Argentina, printmaking",
+"b. 1855, Argentina",
 "artists",
 1
 ],
 [
 "Niels Christian Kierkegaard",
 "Botanical and scientific illustrators",
-"b. 1806, Denmark, printmaking",
+"b. 1806, Denmark",
 "artists",
 1
 ],
 [
 "Louis van Houtte",
 "Botanical and scientific illustrators",
-"b. 1810, Belgium, printmaking",
+"b. 1810, Belgium",
 "artists",
 1
 ],
 [
 "Walter Hood Fitch",
 "Botanical and scientific illustrators",
-"b. 1817, United Kingdom, printmaking",
+"b. 1817, United Kingdom",
 "artists",
 1
 ],
 [
 "Marie Firmin Bocourt",
 "Botanical and scientific illustrators",
-"b. 1819, France, printmaking",
+"b. 1819, France",
 "artists",
 1
 ],
 [
 "George Allen",
 "Botanical and scientific illustrators",
-"b. 1832, United Kingdom, printmaking",
+"b. 1832, United Kingdom",
 "artists",
 1
 ],
 [
 "William Griggs",
 "Botanical and scientific illustrators",
-"b. 1832, United Kingdom, printmaking",
+"b. 1832, United Kingdom",
 "artists",
 1
 ],
 [
 "Caroline Amelia Powell",
 "Botanical and scientific illustrators",
-"b. 1852, United Kingdom, printmaking",
+"b. 1852, United Kingdom",
 "artists",
 1
 ],
 [
 "Anna Botsford Comstock",
 "Botanical and scientific illustrators",
-"b. 1854, United States, printmaking",
+"b. 1854, United States",
 "artists",
 1
 ],
 [
 "Margaret Flockton",
 "Botanical and scientific illustrators",
-"b. 1861, Australia, printmaking",
+"b. 1861, Australia",
 "artists",
 1
 ],
 [
 "Joseph Bouchardy",
 "Writers, designers and amateurs",
-"b. 1810, France, printmaking",
+"b. 1810, France",
 "artists",
 1
 ],
 [
 "Charles Francis Hall",
 "Writers, designers and amateurs",
-"b. 1821, United States, printmaking",
+"b. 1821, United States",
 "artists",
 1
 ],
 [
 "Aglaüs Bouvenne",
 "Writers, designers and amateurs",
-"b. 1829, France, printmaking",
+"b. 1829, France",
 "artists",
 1
 ],
 [
 "Gabrielle-Marie Niel",
 "Writers, designers and amateurs",
-"b. 1831, France, printmaking",
+"b. 1831, France",
 "artists",
 1
 ],
 [
 "John Henry Walker",
 "Writers, designers and amateurs",
-"b. 1831, Canada, printmaking",
+"b. 1831, Canada",
 "artists",
 1
 ],
 [
 "Marc-Louis Solon",
 "Writers, designers and amateurs",
-"b. 1835, France, printmaking",
+"b. 1835, France",
 "artists",
 1
 ],
 [
 "Mary Louise McLaughlin",
 "Writers, designers and amateurs",
-"b. 1847, United States, printmaking",
+"b. 1847, United States",
 "artists",
 1
 ],
 [
 "Walter Montieth Aikman",
 "Writers, designers and amateurs",
-"b. 1857, United States, printmaking",
+"b. 1857, United States",
 "artists",
 1
 ],
 [
 "Auguste Roedel",
 "Writers, designers and amateurs",
-"b. 1859, France, printmaking",
+"b. 1859, France",
 "artists",
 1
 ],
 [
 "Gustave Le Rouge",
 "Writers, designers and amateurs",
-"b. 1867, France, printmaking",
+"b. 1867, France",
 "artists",
 1
 ],
 [
 "F. H. Townsend",
 "Writers, designers and amateurs",
-"b. 1868, United Kingdom, printmaking",
+"b. 1868, United Kingdom",
 "artists",
 1
 ],
 [
 "Henry Bataille",
 "Writers, designers and amateurs",
-"b. 1872, France, printmaking",
+"b. 1872, France",
 "artists",
 1
 ],
 [
 "Alfred Jarry",
 "Writers, designers and amateurs",
-"b. 1873, France, printmaking",
+"b. 1873, France",
 "artists",
 1
 ],
 [
 "Paul Renner",
 "Writers, designers and amateurs",
-"b. 1878, Germany, printmaking",
+"b. 1878, Germany",
 "artists",
 1
 ]
@@ -29732,21 +29760,21 @@
 [
 "Sofiya Nalepinska-Boychuk",
 "Expressionist and social woodcut",
-"b. 1884, Russia and the Soviet Union, printmaking",
+"b. 1884, Russia and the Soviet Union",
 "artists",
 1
 ],
 [
 "Karl Bickel",
 "Expressionist and social woodcut",
-"b. 1886, Switzerland, printmaking",
+"b. 1886, Switzerland",
 "artists",
 1
 ],
 [
 "Fritz Eichenberg",
 "Expressionist and social woodcut",
-"b. 1901, Germany, printmaking",
+"b. 1901, Germany",
 "artists",
 1
 ],
@@ -29760,14 +29788,14 @@
 [
 "Vjačeslav Vasʹkovsʹkyj",
 "Expressionist and social woodcut",
-"b. 1904, Ukraine, printmaking",
+"b. 1904, Ukraine",
 "artists",
 1
 ],
 [
 "Hanna Nagel",
 "Expressionist and social woodcut",
-"b. 1907, Germany, printmaking",
+"b. 1907, Germany",
 "artists",
 1
 ],
@@ -29781,203 +29809,203 @@
 [
 "Malcolm Osborne",
 "British wood-engraving revival",
-"b. 1880, United Kingdom, printmaking",
+"b. 1880, United Kingdom",
 "artists",
 1
 ],
 [
 "Gwen Raverat",
 "British wood-engraving revival",
-"b. 1885, United Kingdom, printmaking",
+"b. 1885, United Kingdom",
 "artists",
 1
 ],
 [
 "Phyllis Barron",
 "British wood-engraving revival",
-"b. 1890, United Kingdom, printmaking",
+"b. 1890, United Kingdom",
 "artists",
 1
 ],
 [
 "Eileen Soper",
 "British wood-engraving revival",
-"b. 1905, United Kingdom, printmaking",
+"b. 1905, United Kingdom",
 "artists",
 1
 ],
 [
 "Joan Hassall",
 "British wood-engraving revival",
-"b. 1906, United Kingdom, printmaking",
+"b. 1906, United Kingdom",
 "artists",
 1
 ],
 [
 "Reynolds Stone",
 "British wood-engraving revival",
-"b. 1909, United Kingdom, printmaking",
+"b. 1909, United Kingdom",
 "artists",
 1
 ],
 [
 "George Worsley Adamson",
 "British wood-engraving revival",
-"b. 1913, United Kingdom, printmaking",
+"b. 1913, United Kingdom",
 "artists",
 1
 ],
 [
 "Monica Poole",
 "British wood-engraving revival",
-"b. 1921, United Kingdom, printmaking",
+"b. 1921, United Kingdom",
 "artists",
 1
 ],
 [
 "Jessie Traill",
 "Grosvenor School linocut and Australian printmakers",
-"b. 1881, Australia, printmaking",
+"b. 1881, Australia",
 "artists",
 1
 ],
 [
 "Ethel Spowers",
 "Grosvenor School linocut and Australian printmakers",
-"b. 1890, Australia, printmaking",
+"b. 1890, Australia",
 "artists",
 1
 ],
 [
 "Martin Lewis",
 "American printmakers (etching and lithography)",
-"b. 1881, United States, printmaking",
+"b. 1881, United States",
 "artists",
 1
 ],
 [
 "John R. Sinnock",
 "American printmakers (etching and lithography)",
-"b. 1888, United States, printmaking",
+"b. 1888, United States",
 "artists",
 1
 ],
 [
 "Roi Partridge",
 "American printmakers (etching and lithography)",
-"b. 1888, United States, printmaking",
+"b. 1888, United States",
 "artists",
 1
 ],
 [
 "Clarence William Anderson",
 "American printmakers (etching and lithography)",
-"b. 1891, United States, printmaking",
+"b. 1891, United States",
 "artists",
 1
 ],
 [
 "Lynton Richards Kistler",
 "American printmakers (etching and lithography)",
-"b. 1897, United States, printmaking",
+"b. 1897, United States",
 "artists",
 1
 ],
 [
 "Thomas Handforth",
 "American printmakers (etching and lithography)",
-"b. 1897, United States, printmaking",
+"b. 1897, United States",
 "artists",
 1
 ],
 [
 "Ian Hugo",
 "American printmakers (etching and lithography)",
-"b. 1898, United States, printmaking",
+"b. 1898, United States",
 "artists",
 1
 ],
 [
 "Ruth Chaney",
 "American printmakers (etching and lithography)",
-"b. 1908, United States, printmaking",
+"b. 1908, United States",
 "artists",
 1
 ],
 [
 "Robert Mallary",
 "American printmakers (etching and lithography)",
-"b. 1917, United States, printmaking",
+"b. 1917, United States",
 "artists",
 1
 ],
 [
 "Irene Aronson",
 "American printmakers (etching and lithography)",
-"b. 1918, Germany, printmaking",
+"b. 1918, Germany",
 "artists",
 1
 ],
 [
 "Irving Amen",
 "American printmakers (etching and lithography)",
-"b. 1918, United States, printmaking",
+"b. 1918, United States",
 "artists",
 1
 ],
 [
 "Sante Graziani",
 "American printmakers (etching and lithography)",
-"b. 1920, United States, printmaking",
+"b. 1920, United States",
 "artists",
 1
 ],
 [
 "Charles Cajori",
 "American printmakers (etching and lithography)",
-"b. 1921, United States, printmaking",
+"b. 1921, United States",
 "artists",
 1
 ],
 [
 "Ansei Uchima",
 "American printmakers (etching and lithography)",
-"b. 1921, United States, printmaking",
+"b. 1921, United States",
 "artists",
 1
 ],
 [
 "Warrington Colescott",
 "American printmakers (etching and lithography)",
-"b. 1921, United States, printmaking",
+"b. 1921, United States",
 "artists",
 1
 ],
 [
 "Tadeusz Lapinski",
 "American printmakers (etching and lithography)",
-"b. 1928, United States, printmaking",
+"b. 1928, United States",
 "artists",
 1
 ],
 [
 "Ce Roser",
 "American printmakers (etching and lithography)",
-"b. 1930, United States, printmaking",
+"b. 1930, United States",
 "artists",
 1
 ],
 [
 "Peter Milton",
 "American printmakers (etching and lithography)",
-"b. 1930, United States, printmaking",
+"b. 1930, United States",
 "artists",
 1
 ],
 [
 "Barry Moser",
 "American printmakers (etching and lithography)",
-"b. 1940, United States, printmaking",
+"b. 1940, United States",
 "artists",
 1
 ],
@@ -29991,119 +30019,119 @@
 [
 "Fernand Mourlot",
 "Print workshops and master printers (Mourlot, Crommelynck, Tamarind)",
-"b. 1895, France, printmaking",
+"b. 1895, France",
 "artists",
 1
 ],
 [
 "Julien Levy",
 "Print workshops and master printers (Mourlot, Crommelynck, Tamarind)",
-"b. 1906, United States, printmaking",
+"b. 1906, United States",
 "artists",
 1
 ],
 [
 "Garo Antreasian",
 "Print workshops and master printers (Mourlot, Crommelynck, Tamarind)",
-"b. 1922, United States, printmaking",
+"b. 1922, United States",
 "artists",
 1
 ],
 [
 "Irwin Hollander",
 "Print workshops and master printers (Mourlot, Crommelynck, Tamarind)",
-"b. 1927, United States, printmaking",
+"b. 1927, United States",
 "artists",
 1
 ],
 [
 "Pierre Restany",
 "Print workshops and master printers (Mourlot, Crommelynck, Tamarind)",
-"b. 1930, France, printmaking",
+"b. 1930, France",
 "artists",
 1
 ],
 [
 "Aldo Crommelynck",
 "Print workshops and master printers (Mourlot, Crommelynck, Tamarind)",
-"b. 1931, France, printmaking",
+"b. 1931, France",
 "artists",
 1
 ],
 [
 "Claire Van Vliet",
 "Print workshops and master printers (Mourlot, Crommelynck, Tamarind)",
-"b. 1933, Canada, printmaking",
+"b. 1933, Canada",
 "artists",
 1
 ],
 [
 "Donald Saff",
 "Print workshops and master printers (Mourlot, Crommelynck, Tamarind)",
-"b. 1937, United States, printmaking",
+"b. 1937, United States",
 "artists",
 1
 ],
 [
 "André Édouard Marty",
 "French book illustration and engraving (livre d'artiste)",
-"b. 1882, France, printmaking",
+"b. 1882, France",
 "artists",
 1
 ],
 [
 "Maximilien Vox",
 "French book illustration and engraving (livre d'artiste)",
-"b. 1894, France, printmaking",
+"b. 1894, France",
 "artists",
 1
 ],
 [
 "Jean Bruller",
 "French book illustration and engraving (livre d'artiste)",
-"b. 1902, France, printmaking",
+"b. 1902, France",
 "artists",
 1
 ],
 [
 "Marc Saint-Saëns",
 "French book illustration and engraving (livre d'artiste)",
-"b. 1903, France, printmaking",
+"b. 1903, France",
 "artists",
 1
 ],
 [
 "Valentin le Campion",
 "French book illustration and engraving (livre d'artiste)",
-"b. 1903, France, printmaking",
+"b. 1903, France",
 "artists",
 1
 ],
 [
 "Cécile Reims",
 "French book illustration and engraving (livre d'artiste)",
-"b. 1927, France, printmaking",
+"b. 1927, France",
 "artists",
 1
 ],
 [
 "Jean Widmer",
 "French book illustration and engraving (livre d'artiste)",
-"b. 1929, France, printmaking",
+"b. 1929, France",
 "artists",
 1
 ],
 [
 "Yves Beaujard",
 "French book illustration and engraving (livre d'artiste)",
-"b. 1939, France, printmaking",
+"b. 1939, France",
 "artists",
 1
 ],
 [
 "Philippe Mohlitz",
 "French book illustration and engraving (livre d'artiste)",
-"b. 1941, France, printmaking",
+"b. 1941, France",
 "artists",
 1
 ],
@@ -30117,182 +30145,182 @@
 [
 "Mukul Dey",
 "Bengal and Indian printmaking",
-"b. 1895, India, printmaking",
+"b. 1895, India",
 "artists",
 1
 ],
 [
 "Chittaprosad Bhattacharya",
 "Bengal and Indian printmaking",
-"b. 1915, India, printmaking",
+"b. 1915, India",
 "artists",
 1
 ],
 [
 "Azaria Mbatha",
 "Rorke's Drift and African printmaking",
-"b. 1941, South Africa, printmaking",
+"b. 1941, South Africa",
 "artists",
 1
 ],
 [
 "John Muafangejo",
 "Rorke's Drift and African printmaking",
-"b. 1943, Namibia, printmaking",
+"b. 1943, Namibia",
 "artists",
 1
 ],
 [
 "Oswaldo Goeldi",
 "Latin American printmaking",
-"b. 1895, Brazil, printmaking",
+"b. 1895, Brazil",
 "artists",
 1
 ],
 [
 "Renina Katz",
 "Latin American printmaking",
-"b. 1925, Brazil, printmaking",
+"b. 1925, Brazil",
 "artists",
 1
 ],
 [
 "Florencia de Amesti",
 "Latin American printmaking",
-"b. 1925, Chile, printmaking",
+"b. 1925, Chile",
 "artists",
 1
 ],
 [
 "Julio Plaza",
 "Latin American printmaking",
-"b. 1938, Brazil, printmaking",
+"b. 1938, Brazil",
 "artists",
 1
 ],
 [
 "Francisco Copello",
 "Latin American printmaking",
-"b. 1938, Chile, printmaking",
+"b. 1938, Chile",
 "artists",
 1
 ],
 [
 "Jan Marcin Szancer",
 "Central and Eastern European graphic art",
-"b. 1902, Poland, printmaking",
+"b. 1902, Poland",
 "artists",
 1
 ],
 [
 "Kazimierz Mann",
 "Central and Eastern European graphic art",
-"b. 1910, Poland, printmaking",
+"b. 1910, Poland",
 "artists",
 1
 ],
 [
 "Czesław Słania",
 "Central and Eastern European graphic art",
-"b. 1921, Sweden, printmaking",
+"b. 1921, Sweden",
 "artists",
 1
 ],
 [
 "Ádám Würtz",
 "Central and Eastern European graphic art",
-"b. 1927, Hungary, printmaking",
+"b. 1927, Hungary",
 "artists",
 1
 ],
 [
 "Szymon Kobyliński",
 "Central and Eastern European graphic art",
-"b. 1927, Poland, printmaking",
+"b. 1927, Poland",
 "artists",
 1
 ],
 [
 "Andrzej Heidrich",
 "Central and Eastern European graphic art",
-"b. 1928, Poland, printmaking",
+"b. 1928, Poland",
 "artists",
 1
 ],
 [
 "Alena Kučerová",
 "Central and Eastern European graphic art",
-"b. 1935, Czech lands, printmaking",
+"b. 1935, Czech lands",
 "artists",
 1
 ],
 [
 "Rie Cramer",
 "Nordic printmaking and illustration",
-"b. 1887, Netherlands, printmaking",
+"b. 1887, Netherlands",
 "artists",
 1
 ],
 [
 "Harald Damsleth",
 "Nordic printmaking and illustration",
-"b. 1906, Norway, printmaking",
+"b. 1906, Norway",
 "artists",
 1
 ],
 [
 "Thorbjørn Egner",
 "Nordic printmaking and illustration",
-"b. 1912, Norway, printmaking",
+"b. 1912, Norway",
 "artists",
 1
 ],
 [
 "Palle Nielsen",
 "Nordic printmaking and illustration",
-"b. 1920, Denmark, printmaking",
+"b. 1920, Denmark",
 "artists",
 1
 ],
 [
 "Lars Fredrikson",
 "Nordic printmaking and illustration",
-"b. 1926, Sweden, printmaking",
+"b. 1926, Sweden",
 "artists",
 1
 ],
 [
 "Dagny Hald",
 "Nordic printmaking and illustration",
-"b. 1936, Norway, printmaking",
+"b. 1936, Norway",
 "artists",
 1
 ],
 [
 "Outi Heiskanen",
 "Nordic printmaking and illustration",
-"b. 1937, Finland, printmaking",
+"b. 1937, Finland",
 "artists",
 1
 ],
 [
 "Luigi Servolini",
 "Italian xylography",
-"b. 1906, Italy, printmaking",
+"b. 1906, Italy",
 "artists",
 1
 ],
 [
 "Nedo Mion Ferrario",
 "Italian xylography",
-"b. 1926, Italy, printmaking",
+"b. 1926, Italy",
 "artists",
 1
 ],
 [
 "Anastasios Alevizos",
 "Postwar print artists",
-"b. 1914, Greece, printmaking",
+"b. 1914, Greece",
 "artists",
 1
 ],
@@ -30306,28 +30334,28 @@
 [
 "Shirley Hughes",
 "Postwar print artists",
-"b. 1927, United Kingdom, printmaking",
+"b. 1927, United Kingdom",
 "artists",
 1
 ],
 [
 "Mariam A. Aleem",
 "Postwar print artists",
-"b. 1930, Egypt, printmaking",
+"b. 1930, Egypt",
 "artists",
 1
 ],
 [
 "Shiou-Ping Liao",
 "Postwar print artists",
-"b. 1936, Japan, printmaking",
+"b. 1936, Japan",
 "artists",
 1
 ],
 [
 "Barry Cleavin",
 "Postwar print artists",
-"b. 1939, New Zealand, printmaking",
+"b. 1939, New Zealand",
 "artists",
 1
 ],
@@ -30348,14 +30376,14 @@
 [
 "Jackson Mac Low",
 "Writers, performers and designers",
-"b. 1922, United States, printmaking",
+"b. 1922, United States",
 "artists",
 1
 ],
 [
 "Hannah Weiner",
 "Writers, performers and designers",
-"b. 1928, United States, printmaking",
+"b. 1928, United States",
 "artists",
 1
 ]
@@ -30387,10 +30415,10 @@
 ],
 "kinds": [
 [
-"Émile-Jacques Ruhlmann",
+"Jacques-Émile Ruhlmann",
 "Canonical Art Deco designers",
 "French ensemblier, master of Art Deco furniture, 1879–1933",
-"r3 https://en.wikipedia.org/wiki/Émile-Jacques_Ruhlmann",
+"artists",
 1
 ],
 [
@@ -30445,1051 +30473,1051 @@
 [
 "Sibyl, Lady Colefax",
 "Furniture, interiors and decorators",
-"b. 1874, United Kingdom, design and decorative arts",
+"b. 1874, United Kingdom",
 "artists",
 1
 ],
 [
 "Maurice Dufrêne",
 "Furniture, interiors and decorators",
-"b. 1876, France, design and decorative arts",
+"b. 1876, France",
 "artists",
 1
 ],
 [
 "Syrie Maugham",
 "Furniture, interiors and decorators",
-"b. 1879, United Kingdom, design and decorative arts",
+"b. 1879, United Kingdom",
 "artists",
 1
 ],
 [
 "Jules Leleu",
 "Furniture, interiors and decorators",
-"b. 1883, France, design and decorative arts",
+"b. 1883, France",
 "artists",
 1
 ],
 [
 "André Groult",
 "Furniture, interiors and decorators",
-"b. 1884, France, design and decorative arts",
+"b. 1884, France",
 "artists",
 1
 ],
 [
 "René Gabriel",
 "Furniture, interiors and decorators",
-"b. 1890, France, design and decorative arts",
+"b. 1890, France",
 "artists",
 1
 ],
 [
 "Betty Joel",
 "Furniture, interiors and decorators",
-"b. 1894, United Kingdom, design and decorative arts",
+"b. 1894, United Kingdom",
 "artists",
 1
 ],
 [
 "Jean-Michel Frank",
 "Furniture, interiors and decorators",
-"b. 1895, France, design and decorative arts",
+"b. 1895, France",
 "artists",
 1
 ],
 [
 "Ilonka Karasz",
 "Furniture, interiors and decorators",
-"b. 1896, Hungary, design and decorative arts",
+"b. 1896, Hungary",
 "artists",
 1
 ],
 [
 "Nancy Lancaster",
 "Furniture, interiors and decorators",
-"b. 1897, United States, design and decorative arts",
+"b. 1897, United States",
 "artists",
 1
 ],
 [
 "Jean Royère",
 "Furniture, interiors and decorators",
-"b. 1902, France, design and decorative arts",
+"b. 1902, France",
 "artists",
 1
 ],
 [
 "Pipsan Saarinen Swanson",
 "Furniture, interiors and decorators",
-"b. 1905, United States, design and decorative arts",
+"b. 1905, United States",
 "artists",
 1
 ],
 [
 "Prince Sigvard Bernadotte",
 "Furniture, interiors and decorators",
-"b. 1907, Sweden, design and decorative arts",
+"b. 1907, Sweden",
 "artists",
 1
 ],
 [
 "Edward Wormley",
 "Furniture, interiors and decorators",
-"b. 1907, United States, design and decorative arts",
+"b. 1907, United States",
 "artists",
 1
 ],
 [
 "Susi Singer-Schinnerl",
 "Wiener Werkstätte (late phase)",
-"b. 1891, United States, design and decorative arts",
+"b. 1891, United States",
 "artists",
 1
 ],
 [
 "Felice Rix-Ueno",
 "Wiener Werkstätte (late phase)",
-"b. 1893, Austria, design and decorative arts",
+"b. 1893, Austria",
 "artists",
 1
 ],
 [
 "Mathilde Flögl",
 "Wiener Werkstätte (late phase)",
-"b. 1893, Austria, design and decorative arts",
+"b. 1893, Austria",
 "artists",
 1
 ],
 [
 "Raymond Templier",
 "Jewellery and silver",
-"b. 1891, France, design and decorative arts",
+"b. 1891, France",
 "artists",
 1
 ],
 [
 "Harald Nielsen",
 "Jewellery and silver",
-"b. 1892, Denmark, design and decorative arts",
+"b. 1892, Denmark",
 "artists",
 1
 ],
 [
 "Wiwen Nilsson",
 "Jewellery and silver",
-"b. 1897, Sweden, design and decorative arts",
+"b. 1897, Sweden",
 "artists",
 1
 ],
 [
 "Elisabeth Treskow",
 "Jewellery and silver",
-"b. 1898, Germany, design and decorative arts",
+"b. 1898, Germany",
 "artists",
 1
 ],
 [
 "William Spratling",
 "Jewellery and silver",
-"b. 1900, Mexico, design and decorative arts",
+"b. 1900, Mexico",
 "artists",
 1
 ],
 [
 "Héctor Aguilar",
 "Jewellery and silver",
-"b. 1905, Mexico, design and decorative arts",
+"b. 1905, Mexico",
 "artists",
 1
 ],
 [
 "Jean Schlumberger",
 "Jewellery and silver",
-"b. 1907, France, design and decorative arts",
+"b. 1907, France",
 "artists",
 1
 ],
 [
 "Sylvia Stave",
 "Jewellery and silver",
-"b. 1908, Sweden, design and decorative arts",
+"b. 1908, Sweden",
 "artists",
+1
+],
+[
+"Christofle",
+"Jewellery and silver",
+"Paris silversmiths; Art Deco silver for the liner Normandie",
+"possession",
 1
 ],
 [
 "Miksa Róth",
 "Glass and lighting",
-"b. 1865, Hungary, design and decorative arts",
+"b. 1865, Hungary",
 "artists",
 1
 ],
 [
 "Paolo Venini",
 "Glass and lighting",
-"b. 1895, Italy, design and decorative arts",
+"b. 1895, Italy",
 "artists",
 1
 ],
 [
 "Flavio Poli",
 "Glass and lighting",
-"b. 1900, Italy, design and decorative arts",
+"b. 1900, Italy",
 "artists",
 1
 ],
 [
 "Göran Hongell",
 "Glass and lighting",
-"b. 1902, Finland, design and decorative arts",
+"b. 1902, Finland",
 "artists",
 1
 ],
 [
 "Stasys Ušinskas",
 "Glass and lighting",
-"b. 1905, Lithuania, design and decorative arts",
+"b. 1905, Lithuania",
 "artists",
 1
 ],
 [
 "Lisa Johansson-Pape",
 "Glass and lighting",
-"b. 1907, Finland, design and decorative arts",
+"b. 1907, Finland",
 "artists",
 1
 ],
 [
 "Max Ingrand",
 "Glass and lighting",
-"b. 1908, France, design and decorative arts",
+"b. 1908, France",
 "artists",
 1
 ],
 [
 "Archimede Seguso",
 "Glass and lighting",
-"b. 1909, Italy, design and decorative arts",
+"b. 1909, Italy",
 "artists",
 1
 ],
 [
 "Gunnel Nyman",
 "Glass and lighting",
-"b. 1909, Finland, design and decorative arts",
+"b. 1909, Finland",
 "artists",
 1
 ],
 [
 "Katherine Pleydell-Bouverie",
 "Ceramics and studio pottery",
-"b. 1895, United Kingdom, design and decorative arts",
+"b. 1895, United Kingdom",
 "artists",
 1
 ],
 [
 "Lea Halpern",
 "Ceramics and studio pottery",
-"b. 1899, Netherlands, design and decorative arts",
+"b. 1899, Netherlands",
 "artists",
 1
 ],
 [
 "Clarice Cliff",
 "Ceramics and studio pottery",
-"b. 1899, United Kingdom, design and decorative arts",
+"b. 1899, United Kingdom",
 "artists",
 1
 ],
 [
 "Maija Grotell",
 "Ceramics and studio pottery",
-"b. 1899, United States, design and decorative arts",
+"b. 1899, United States",
 "artists",
 1
 ],
 [
 "Lucie Rie",
 "Ceramics and studio pottery",
-"b. 1902, United Kingdom, design and decorative arts",
+"b. 1902, United Kingdom",
 "artists",
 1
 ],
 [
 "Susie Cooper",
 "Ceramics and studio pottery",
-"b. 1902, United Kingdom, design and decorative arts",
+"b. 1902, United Kingdom",
 "artists",
 1
 ],
 [
 "Laura Andreson",
 "Ceramics and studio pottery",
-"b. 1902, United States, design and decorative arts",
+"b. 1902, United States",
 "artists",
 1
 ],
 [
 "Toini Muona",
 "Ceramics and studio pottery",
-"b. 1904, Finland, design and decorative arts",
+"b. 1904, Finland",
 "artists",
 1
 ],
 [
 "Gunnar Nylund",
 "Ceramics and studio pottery",
-"b. 1904, Sweden, design and decorative arts",
+"b. 1904, Sweden",
 "artists",
 1
 ],
 [
 "Friedl Holzer-Kjellberg",
 "Ceramics and studio pottery",
-"b. 1905, Finland, design and decorative arts",
+"b. 1905, Finland",
 "artists",
 1
 ],
 [
 "Trude Petri",
 "Ceramics and studio pottery",
-"b. 1906, Germany, design and decorative arts",
+"b. 1906, Germany",
 "artists",
 1
 ],
 [
 "Hedwig Bollhagen",
 "Ceramics and studio pottery",
-"b. 1907, Germany, design and decorative arts",
+"b. 1907, Germany",
 "artists",
 1
 ],
 [
 "Gertrud Natzler",
 "Ceramics and studio pottery",
-"b. 1908, United States, design and decorative arts",
+"b. 1908, United States",
 "artists",
 1
 ],
 [
 "Otto Natzler",
 "Ceramics and studio pottery",
-"b. 1908, United States, design and decorative arts",
+"b. 1908, United States",
 "artists",
 1
 ],
 [
 "Eva Frieberger",
 "Textiles, tapestry and fibre art",
-"b. 1892, Germany, design and decorative arts",
+"b. 1892, Germany",
 "artists",
 1
 ],
 [
 "Bessie M. Scott",
 "Textiles, tapestry and fibre art",
-"b. 1893, United States, design and decorative arts",
+"b. 1893, United States",
 "artists",
 1
 ],
 [
 "Hannah Ryggen",
 "Textiles, tapestry and fibre art",
-"b. 1894, Norway, design and decorative arts",
+"b. 1894, Norway",
 "artists",
 1
 ],
 [
 "Dorothy Liebes",
 "Textiles, tapestry and fibre art",
-"b. 1897, United States, design and decorative arts",
+"b. 1897, United States",
 "artists",
 1
 ],
 [
 "Mariska Karasz",
 "Textiles, tapestry and fibre art",
-"b. 1898, Hungary, design and decorative arts",
+"b. 1898, Hungary",
 "artists",
 1
 ],
 [
 "Barbro Nilsson",
 "Textiles, tapestry and fibre art",
-"b. 1899, Sweden, design and decorative arts",
+"b. 1899, Sweden",
 "artists",
 1
 ],
 [
 "Sigrun Berg",
 "Textiles, tapestry and fibre art",
-"b. 1901, Norway, design and decorative arts",
+"b. 1901, Norway",
 "artists",
 1
 ],
 [
 "Pola Stout",
 "Textiles, tapestry and fibre art",
-"b. 1902, United States, design and decorative arts",
+"b. 1902, United States",
 "artists",
 1
 ],
 [
 "Jacqueline Groag",
 "Textiles, tapestry and fibre art",
-"b. 1903, United Kingdom, design and decorative arts",
+"b. 1903, United Kingdom",
 "artists",
 1
 ],
 [
 "Claire Zeisler",
 "Textiles, tapestry and fibre art",
-"b. 1903, United States, design and decorative arts",
+"b. 1903, United States",
 "artists",
 1
 ],
 [
 "Wanda Telakowska",
 "Textiles, tapestry and fibre art",
-"b. 1905, Poland, design and decorative arts",
+"b. 1905, Poland",
 "artists",
 1
 ],
 [
 "Dora Jung",
 "Textiles, tapestry and fibre art",
-"b. 1906, Finland, design and decorative arts",
+"b. 1906, Finland",
 "artists",
 1
 ],
 [
 "Lenore Tawney",
 "Textiles, tapestry and fibre art",
-"b. 1907, United States, design and decorative arts",
+"b. 1907, United States",
 "artists",
 1
 ],
 [
 "Vera Neumann",
 "Textiles, tapestry and fibre art",
-"b. 1907, United States, design and decorative arts",
+"b. 1907, United States",
 "artists",
 1
 ],
 [
 "Synnøve Anker Aurdal",
 "Textiles, tapestry and fibre art",
-"b. 1908, Norway, design and decorative arts",
+"b. 1908, Norway",
 "artists",
 1
 ],
 [
 "Marianne Strengell",
 "Textiles, tapestry and fibre art",
-"b. 1909, United States, design and decorative arts",
+"b. 1909, United States",
 "artists",
 1
 ],
 [
 "Astrid Sampe",
 "Textiles, tapestry and fibre art",
-"b. 1909, Sweden, design and decorative arts",
+"b. 1909, Sweden",
 "artists",
 1
 ],
 [
 "Madeleine Vionnet",
 "Paris couture of the 1920s–30s",
-"b. 1876, France, design and decorative arts",
+"b. 1876, France",
 "artists",
 1
 ],
 [
 "Nina Ricci",
 "Paris couture of the 1920s–30s",
-"b. 1883, France, design and decorative arts",
+"b. 1883, France",
 "artists",
 1
 ],
 [
 "Charles Jourdan",
 "Paris couture of the 1920s–30s",
-"b. 1883, France, design and decorative arts",
+"b. 1883, France",
 "artists",
 1
 ],
 [
 "Jean Patou",
 "Paris couture of the 1920s–30s",
-"b. 1887, France, design and decorative arts",
+"b. 1887, France",
 "artists",
 1
 ],
 [
 "Lucien Lelong",
 "Paris couture of the 1920s–30s",
-"b. 1889, France, design and decorative arts",
+"b. 1889, France",
 "artists",
 1
 ],
 [
 "Elsa Schiaparelli",
 "Paris couture of the 1920s–30s",
-"b. 1890, France, design and decorative arts",
+"b. 1890, France",
 "artists",
 1
 ],
 [
 "André Perugia",
 "Paris couture of the 1920s–30s",
-"b. 1893, France, design and decorative arts",
+"b. 1893, France",
 "artists",
 1
 ],
 [
 "Cristóbal Balenciaga",
 "Paris couture of the 1920s–30s",
-"b. 1895, Spain, design and decorative arts",
+"b. 1895, Spain",
 "artists",
 1
 ],
 [
 "Louis Réard",
 "Paris couture of the 1920s–30s",
-"b. 1896, France, design and decorative arts",
+"b. 1896, France",
 "artists",
 1
 ],
 [
 "Maggy Rouff",
 "Paris couture of the 1920s–30s",
-"b. 1896, France, design and decorative arts",
+"b. 1896, France",
 "artists",
 1
 ],
 [
 "Jacques Heim",
 "Paris couture of the 1920s–30s",
-"b. 1899, France, design and decorative arts",
+"b. 1899, France",
 "artists",
 1
 ],
 [
 "Marcel Rochas",
 "Paris couture of the 1920s–30s",
-"b. 1902, France, design and decorative arts",
+"b. 1902, France",
 "artists",
 1
 ],
 [
 "Grès",
 "Paris couture of the 1920s–30s",
-"b. 1903, France, design and decorative arts",
+"b. 1903, France",
 "artists",
 1
 ],
 [
 "Christian Dior",
 "Paris couture of the 1920s–30s",
-"b. 1905, France, design and decorative arts",
+"b. 1905, France",
 "artists",
 1
 ],
 [
 "Roger Vivier",
 "Paris couture of the 1920s–30s",
-"b. 1907, France, design and decorative arts",
+"b. 1907, France",
 "artists",
 1
 ],
 [
 "Hattie Carnegie",
 "London, Italian and American couture and ready-to-wear",
-"b. 1886, United States, design and decorative arts",
+"b. 1886, United States",
 "artists",
 1
 ],
 [
 "Nettie Rosenstein",
 "London, Italian and American couture and ready-to-wear",
-"b. 1890, Austria, design and decorative arts",
+"b. 1890, Austria",
 "artists",
 1
 ],
 [
 "Main Bocher",
 "London, Italian and American couture and ready-to-wear",
-"b. 1890, United States, design and decorative arts",
+"b. 1890, United States",
 "artists",
 1
 ],
 [
 "Omar Kiam",
 "London, Italian and American couture and ready-to-wear",
-"b. 1894, Mexico, design and decorative arts",
+"b. 1894, Mexico",
 "artists",
 1
 ],
 [
 "Lilly Daché",
 "London, Italian and American couture and ready-to-wear",
-"b. 1898, France, design and decorative arts",
+"b. 1898, France",
 "artists",
 1
 ],
 [
 "Salvatore Ferragamo",
 "London, Italian and American couture and ready-to-wear",
-"b. 1898, Italy, design and decorative arts",
+"b. 1898, Italy",
 "artists",
 1
 ],
 [
 "Valentina",
 "London, Italian and American couture and ready-to-wear",
-"b. 1899, Ukraine, design and decorative arts",
+"b. 1899, Ukraine",
 "artists",
 1
 ],
 [
 "Norman Norell",
 "London, Italian and American couture and ready-to-wear",
-"b. 1900, United States, design and decorative arts",
+"b. 1900, United States",
 "artists",
 1
 ],
 [
 "Norman Hartnell",
 "London, Italian and American couture and ready-to-wear",
-"b. 1901, United Kingdom, design and decorative arts",
+"b. 1901, United Kingdom",
 "artists",
 1
 ],
 [
 "Vera Maxwell",
 "London, Italian and American couture and ready-to-wear",
-"b. 1901, United States, design and decorative arts",
+"b. 1901, United States",
 "artists",
 1
 ],
 [
 "Adele Simpson",
 "London, Italian and American couture and ready-to-wear",
-"b. 1903, United States, design and decorative arts",
+"b. 1903, United States",
 "artists",
 1
 ],
 [
 "Elizabeth Hawes",
 "London, Italian and American couture and ready-to-wear",
-"b. 1903, United States, design and decorative arts",
+"b. 1903, United States",
 "artists",
 1
 ],
 [
 "Etienne Aigner",
 "London, Italian and American couture and ready-to-wear",
-"b. 1904, Hungary, design and decorative arts",
+"b. 1904, Hungary",
 "artists",
 1
 ],
 [
 "Aldo Gucci",
 "London, Italian and American couture and ready-to-wear",
-"b. 1905, Italy, design and decorative arts",
+"b. 1905, Italy",
 "artists",
 1
 ],
 [
 "Claire McCardell",
 "London, Italian and American couture and ready-to-wear",
-"b. 1905, United States, design and decorative arts",
+"b. 1905, United States",
 "artists",
 1
 ],
 [
 "Fernanda Gattinoni",
 "London, Italian and American couture and ready-to-wear",
-"b. 1906, Italy, design and decorative arts",
+"b. 1906, Italy",
 "artists",
 1
 ],
 [
 "Charles James",
 "London, Italian and American couture and ready-to-wear",
-"b. 1906, United Kingdom, design and decorative arts",
+"b. 1906, United Kingdom",
 "artists",
 1
 ],
 [
 "Victor Stiebel",
 "London, Italian and American couture and ready-to-wear",
-"b. 1907, South Africa, design and decorative arts",
+"b. 1907, South Africa",
 "artists",
 1
 ],
 [
 "Pauline Trigère",
 "London, Italian and American couture and ready-to-wear",
-"b. 1908, France, design and decorative arts",
+"b. 1908, France",
 "artists",
 1
 ],
 [
 "Edwin Hardy Amies",
 "London, Italian and American couture and ready-to-wear",
-"b. 1909, United Kingdom, design and decorative arts",
+"b. 1909, United Kingdom",
 "artists",
 1
 ],
 [
 "Zara Bate",
 "London, Italian and American couture and ready-to-wear",
-"b. 1909, Australia, design and decorative arts",
+"b. 1909, Australia",
 "artists",
 1
 ],
 [
 "Aline Bernstein",
 "Hollywood and stage costume and set design",
-"b. 1880, United States, design and decorative arts",
+"b. 1880, United States",
 "artists",
 1
 ],
 [
 "Travis Banton",
 "Hollywood and stage costume and set design",
-"b. 1894, United States, design and decorative arts",
+"b. 1894, United States",
 "artists",
 1
 ],
 [
 "Rudi Feld",
 "Hollywood and stage costume and set design",
-"b. 1896, Germany, design and decorative arts",
+"b. 1896, Germany",
 "artists",
 1
 ],
 [
 "Edith Head",
 "Hollywood and stage costume and set design",
-"b. 1897, United States, design and decorative arts",
+"b. 1897, United States",
 "artists",
 1
 ],
 [
 "Boris Aronson",
 "Hollywood and stage costume and set design",
-"b. 1899, United States, design and decorative arts",
+"b. 1899, United States",
 "artists",
 1
 ],
 [
 "Adrian",
 "Hollywood and stage costume and set design",
-"b. 1903, United States, design and decorative arts",
+"b. 1903, United States",
 "artists",
 1
 ],
 [
 "Helen Rose",
 "Hollywood and stage costume and set design",
-"b. 1904, United States, design and decorative arts",
+"b. 1904, United States",
 "artists",
 1
 ],
 [
 "Jean Louis",
 "Hollywood and stage costume and set design",
-"b. 1907, France, design and decorative arts",
+"b. 1907, France",
 "artists",
 1
 ],
 [
 "George Barbier",
 "Graphic design, book design and illustration",
-"b. 1882, France, design and decorative arts",
+"b. 1882, France",
 "artists",
 1
 ],
 [
 "Conrad Fehn",
 "Graphic design, book design and illustration",
-"b. 1891, Netherlands, design and decorative arts",
+"b. 1891, Netherlands",
 "artists",
 1
 ],
 [
 "Carl Erickson",
 "Graphic design, book design and illustration",
-"b. 1891, United States, design and decorative arts",
+"b. 1891, United States",
 "artists",
 1
 ],
 [
 "Francis Meynell",
 "Graphic design, book design and illustration",
-"b. 1891, United Kingdom, design and decorative arts",
+"b. 1891, United Kingdom",
 "artists",
 1
 ],
 [
 "Merle Armitage",
 "Graphic design, book design and illustration",
-"b. 1893, United States, design and decorative arts",
+"b. 1893, United States",
 "artists",
 1
 ],
 [
 "Russell Patterson",
 "Graphic design, book design and illustration",
-"b. 1893, United States, design and decorative arts",
+"b. 1893, United States",
 "artists",
 1
 ],
 [
 "Willem Sandberg",
 "Graphic design, book design and illustration",
-"b. 1897, Netherlands, design and decorative arts",
+"b. 1897, Netherlands",
 "artists",
 1
 ],
 [
 "George Salter",
 "Graphic design, book design and illustration",
-"b. 1897, Germany, design and decorative arts",
+"b. 1897, Germany",
 "artists",
 1
 ],
 [
 "Otto Soglow",
 "Graphic design, book design and illustration",
-"b. 1900, United States, design and decorative arts",
+"b. 1900, United States",
 "artists",
 1
 ],
 [
 "Sander Stols",
 "Graphic design, book design and illustration",
-"b. 1900, Netherlands, design and decorative arts",
+"b. 1900, Netherlands",
 "artists",
 1
 ],
 [
 "Donia Nachshen",
 "Graphic design, book design and illustration",
-"b. 1903, United Kingdom, design and decorative arts",
+"b. 1903, United Kingdom",
 "artists",
 1
 ],
 [
 "Lester Beall",
 "Graphic design, book design and illustration",
-"b. 1903, United States, design and decorative arts",
+"b. 1903, United States",
 "artists",
 1
 ],
 [
 "Marcel Jacno",
 "Graphic design, book design and illustration",
-"b. 1904, France, design and decorative arts",
+"b. 1904, France",
 "artists",
 1
 ],
 [
 "Henri Friedlaender",
 "Graphic design, book design and illustration",
-"b. 1904, Israel, design and decorative arts",
+"b. 1904, Israel",
 "artists",
 1
 ],
 [
 "Erik Nitsche",
 "Graphic design, book design and illustration",
-"b. 1908, Switzerland, design and decorative arts",
+"b. 1908, Switzerland",
 "artists",
 1
 ],
 [
 "Will Burtin",
 "Graphic design, book design and illustration",
-"b. 1908, Germany, design and decorative arts",
+"b. 1908, Germany",
 "artists",
 1
 ],
 [
 "Virginia Lee Burton",
 "Graphic design, book design and illustration",
-"b. 1909, United States, design and decorative arts",
+"b. 1909, United States",
 "artists",
 1
 ],
 [
 "Egmont Hegel Arens",
 "Streamline Moderne and industrial design",
-"b. 1887, United States, design and decorative arts",
+"b. 1887, United States",
 "artists",
 1
 ],
 [
 "Corradino D'Ascanio",
 "Streamline Moderne and industrial design",
-"b. 1891, Italy, design and decorative arts",
+"b. 1891, Italy",
 "artists",
 1
 ],
 [
 "Raymond Loewy",
 "Streamline Moderne and industrial design",
-"b. 1893, France, design and decorative arts",
+"b. 1893, France",
 "artists",
 1
 ],
 [
 "Harley Earl",
 "Streamline Moderne and industrial design",
-"b. 1893, United States, design and decorative arts",
+"b. 1893, United States",
 "artists",
 1
 ],
 [
 "Gilbert Rohde",
 "Streamline Moderne and industrial design",
-"b. 1894, United States, design and decorative arts",
+"b. 1894, United States",
 "artists",
 1
 ],
 [
 "Harold Van Doren",
 "Streamline Moderne and industrial design",
-"b. 1895, United States, design and decorative arts",
+"b. 1895, United States",
 "artists",
 1
 ],
 [
 "John Tjaarda",
 "Streamline Moderne and industrial design",
-"b. 1897, Netherlands, design and decorative arts",
+"b. 1897, Netherlands",
 "artists",
 1
 ],
 [
 "John Vassos",
 "Streamline Moderne and industrial design",
-"b. 1898, Turkey, design and decorative arts",
+"b. 1898, Turkey",
 "artists",
 1
 ],
 [
 "Hans Hilfiker",
 "Streamline Moderne and industrial design",
-"b. 1901, Switzerland, design and decorative arts",
+"b. 1901, Switzerland",
 "artists",
 1
 ],
 [
 "Russel Wright",
 "Streamline Moderne and industrial design",
-"b. 1904, United States, design and decorative arts",
+"b. 1904, United States",
 "artists",
 1
 ],
 [
 "Henry Dreyfuss",
 "Streamline Moderne and industrial design",
-"b. 1904, United States, design and decorative arts",
+"b. 1904, United States",
 "artists",
 1
 ],
 [
 "Dante Giacosa",
 "Streamline Moderne and industrial design",
-"b. 1905, Italy, design and decorative arts",
+"b. 1905, Italy",
 "artists",
 1
 ],
 [
 "Walter Zapp",
 "Streamline Moderne and industrial design",
-"b. 1905, Germany, design and decorative arts",
+"b. 1905, Germany",
 "artists",
 1
 ],
 [
 "Piet Hein",
 "Streamline Moderne and industrial design",
-"b. 1905, Denmark, design and decorative arts",
+"b. 1905, Denmark",
 "artists",
 1
 ],
 [
 "Alec Issigonis",
 "Streamline Moderne and industrial design",
-"b. 1906, United Kingdom, design and decorative arts",
+"b. 1906, United Kingdom",
 "artists",
 1
 ],
 [
 "Earl Tupper",
 "Streamline Moderne and industrial design",
-"b. 1907, United States, design and decorative arts",
+"b. 1907, United States",
 "artists",
 1
 ],
 [
 "Leo Gerstenzang",
 "Inventors, manufacturers and patrons",
-"b. 1892, United States, design and decorative arts",
+"b. 1892, United States",
 "artists",
 1
 ],
 [
 "Earle Dickson",
 "Inventors, manufacturers and patrons",
-"b. 1892, United States, design and decorative arts",
+"b. 1892, United States",
 "artists",
 1
 ],
 [
 "Sidney Janis",
 "Inventors, manufacturers and patrons",
-"b. 1896, United States, design and decorative arts",
+"b. 1896, United States",
 "artists",
 1
 ],
 [
 "Forrest Mars",
 "Inventors, manufacturers and patrons",
-"b. 1904, United States, design and decorative arts",
+"b. 1904, United States",
 "artists",
 1
 ],
 [
 "Larry Aldrich",
 "Inventors, manufacturers and patrons",
-"b. 1906, United States, design and decorative arts",
+"b. 1906, United States",
 "artists",
 1
 ],
 [
 "Estée Lauder",
 "Inventors, manufacturers and patrons",
-"b. 1908, United States, design and decorative arts",
+"b. 1908, United States",
 "artists",
 1
 ],
 [
 "Pauline de Rothschild",
 "Inventors, manufacturers and patrons",
-"b. 1908, United States, design and decorative arts",
+"b. 1908, United States",
 "artists",
-1
-],
-[
-"Christofle",
-"Country not recorded",
-"",
-"possession",
 1
 ]
 ]
@@ -31660,84 +31688,84 @@
 [
 "Théodore Deck",
 "Paris (Maison de l'Art Nouveau)",
-"b. 1823, France, design and decorative arts",
+"b. 1823, France",
 "artists",
 1
 ],
 [
 "Auguste Jean",
 "Paris (Maison de l'Art Nouveau)",
-"b. 1829, France, design and decorative arts",
+"b. 1829, France",
 "artists",
 1
 ],
 [
 "Louis Aucoc",
 "Paris (Maison de l'Art Nouveau)",
-"b. 1850, France, design and decorative arts",
+"b. 1850, France",
 "artists",
 1
 ],
 [
 "Henri Vever",
 "Paris (Maison de l'Art Nouveau)",
-"b. 1854, France, design and decorative arts",
+"b. 1854, France",
 "artists",
 1
 ],
 [
 "Pierre Yantorny",
 "Paris (Maison de l'Art Nouveau)",
-"b. 1874, France, design and decorative arts",
+"b. 1874, France",
 "artists",
 1
 ],
 [
 "Louis Cartier",
 "Paris (Maison de l'Art Nouveau)",
-"b. 1875, France, design and decorative arts",
+"b. 1875, France",
 "artists",
 1
 ],
 [
 "Emile Lenoble",
 "Paris (Maison de l'Art Nouveau)",
-"b. 1875, France, design and decorative arts",
+"b. 1875, France",
 "artists",
 1
 ],
 [
 "Henriette Negrin",
 "Paris (Maison de l'Art Nouveau)",
-"b. 1877, France, design and decorative arts",
+"b. 1877, France",
 "artists",
 1
 ],
 [
 "Camille Tharaud",
 "Paris (Maison de l'Art Nouveau)",
-"b. 1878, France, design and decorative arts",
+"b. 1878, France",
 "artists",
 1
 ],
 [
 "Pierre C. Cartier",
 "Paris (Maison de l'Art Nouveau)",
-"b. 1878, France, design and decorative arts",
+"b. 1878, France",
 "artists",
 1
 ],
 [
 "Jean Gaudin",
 "Paris (Maison de l'Art Nouveau)",
-"b. 1879, France, design and decorative arts",
+"b. 1879, France",
 "artists",
 1
 ],
 [
 "Blaise Cendrars",
 "Paris (Maison de l'Art Nouveau)",
-"b. 1887, France, design and decorative arts",
+"b. 1887, France",
 "artists",
 1
 ],
@@ -31758,7 +31786,7 @@
 [
 "Victor Amalric Walter",
 "École de Nancy",
-"b. 1870, France, design and decorative arts",
+"b. 1870, France",
 "artists",
 1
 ],
@@ -31779,28 +31807,28 @@
 [
 "Emilie Louise Flöge",
 "Vienna Secession and Wiener Werkstätte",
-"b. 1874, Austria, design and decorative arts",
+"b. 1874, Austria",
 "artists",
 1
 ],
 [
 "Ditha Moser",
 "Vienna Secession and Wiener Werkstätte",
-"b. 1883, Austria, design and decorative arts",
+"b. 1883, Austria",
 "artists",
 1
 ],
 [
 "Franz Josef Popp",
 "Vienna Secession and Wiener Werkstätte",
-"b. 1886, Germany, design and decorative arts",
+"b. 1886, Germany",
 "artists",
 1
 ],
 [
 "Paul Jaray",
 "Vienna Secession and Wiener Werkstätte",
-"b. 1889, Austria, design and decorative arts",
+"b. 1889, Austria",
 "artists",
 1
 ],
@@ -31842,28 +31870,28 @@
 [
 "Frederick Meyer",
 "Jugendstil",
-"b. 1872, Germany, design and decorative arts",
+"b. 1872, Germany",
 "artists",
 1
 ],
 [
 "Patriz Huber",
 "Jugendstil",
-"b. 1878, Germany, design and decorative arts",
+"b. 1878, Germany",
 "artists",
 1
 ],
 [
 "Friedrich Adler",
 "Jugendstil",
-"b. 1878, Germany, design and decorative arts",
+"b. 1878, Germany",
 "artists",
 1
 ],
 [
 "Paul Leni",
 "Jugendstil",
-"b. 1885, Germany, design and decorative arts",
+"b. 1885, Germany",
 "artists",
 1
 ],
@@ -31884,14 +31912,14 @@
 [
 "Jessie Newbery",
 "Glasgow Style",
-"b. 1864, United Kingdom, design and decorative arts",
+"b. 1864, United Kingdom",
 "artists",
 1
 ],
 [
 "Gaspar Homar i Mezquida",
 "Catalan modernisme",
-"b. 1870, Spain, design and decorative arts",
+"b. 1870, Spain",
 "artists",
 1
 ],
@@ -31905,259 +31933,259 @@
 [
 "Maria Monaci Gallenga",
 "Stile Liberty",
-"b. 1880, Italy, design and decorative arts",
+"b. 1880, Italy",
 "artists",
 1
 ],
 [
 "Alfonso Bialetti",
 "Stile Liberty",
-"b. 1888, Italy, design and decorative arts",
+"b. 1888, Italy",
 "artists",
 1
 ],
 [
 "Frida Hansen",
 "Skønvirke and Nordic Art Nouveau",
-"b. 1855, Norway, design and decorative arts",
+"b. 1855, Norway",
 "artists",
 1
 ],
 [
 "Patrick Nordström",
 "Skønvirke and Nordic Art Nouveau",
-"b. 1870, Sweden, design and decorative arts",
+"b. 1870, Sweden",
 "artists",
 1
 ],
 [
 "Märta Måås-Fjetterström",
 "Skønvirke and Nordic Art Nouveau",
-"b. 1873, Sweden, design and decorative arts",
+"b. 1873, Sweden",
 "artists",
 1
 ],
 [
 "Karl Gustaf Hjalmar Armfeldt",
 "Skønvirke and Nordic Art Nouveau",
-"b. 1873, Finland, design and decorative arts",
+"b. 1873, Finland",
 "artists",
 1
 ],
 [
 "Sven Gustaf Wingqvist",
 "Skønvirke and Nordic Art Nouveau",
-"b. 1876, Sweden, design and decorative arts",
+"b. 1876, Sweden",
 "artists",
 1
 ],
 [
 "Evald Nielsen",
 "Skønvirke and Nordic Art Nouveau",
-"b. 1879, Denmark, design and decorative arts",
+"b. 1879, Denmark",
 "artists",
 1
 ],
 [
 "Emma Jacobsson",
 "Skønvirke and Nordic Art Nouveau",
-"b. 1883, Sweden, design and decorative arts",
+"b. 1883, Sweden",
 "artists",
 1
 ],
 [
 "Louise Adelborg",
 "Skønvirke and Nordic Art Nouveau",
-"b. 1885, Sweden, design and decorative arts",
+"b. 1885, Sweden",
 "artists",
 1
 ],
 [
 "Kay Bojesen",
 "Skønvirke and Nordic Art Nouveau",
-"b. 1886, Denmark, design and decorative arts",
+"b. 1886, Denmark",
 "artists",
 1
 ],
 [
 "Alma Pihl",
 "Skønvirke and Nordic Art Nouveau",
-"b. 1888, Finland, design and decorative arts",
+"b. 1888, Finland",
 "artists",
 1
 ],
 [
 "Thomas Andrews",
 "British Arts and Crafts and Art Nouveau",
-"b. 1873, United Kingdom, design and decorative arts",
+"b. 1873, United Kingdom",
 "artists",
 1
 ],
 [
 "Christine Angus",
 "British Arts and Crafts and Art Nouveau",
-"b. 1877, United Kingdom, design and decorative arts",
+"b. 1877, United Kingdom",
 "artists",
 1
 ],
 [
 "Frank Pick",
 "British Arts and Crafts and Art Nouveau",
-"b. 1878, United Kingdom, design and decorative arts",
+"b. 1878, United Kingdom",
 "artists",
 1
 ],
 [
 "Charlotte Rhead",
 "British Arts and Crafts and Art Nouveau",
-"b. 1885, United Kingdom, design and decorative arts",
+"b. 1885, United Kingdom",
 "artists",
 1
 ],
 [
 "Martin Travers",
 "British Arts and Crafts and Art Nouveau",
-"b. 1886, United Kingdom, design and decorative arts",
+"b. 1886, United Kingdom",
 "artists",
 1
 ],
 [
 "Fougasse",
 "British Arts and Crafts and Art Nouveau",
-"b. 1887, United Kingdom, design and decorative arts",
+"b. 1887, United Kingdom",
 "artists",
 1
 ],
 [
 "Wilhelmina Geddes",
 "British Arts and Crafts and Art Nouveau",
-"b. 1887, Ireland, design and decorative arts",
+"b. 1887, Ireland",
 "artists",
 1
 ],
 [
 "Dorothea Warren O'Hara",
 "American art pottery and metalwork",
-"b. 1873, United States, design and decorative arts",
+"b. 1873, United States",
 "artists",
 1
 ],
 [
 "Marie Zimmermann",
 "American art pottery and metalwork",
-"b. 1879, United States, design and decorative arts",
+"b. 1879, United States",
 "artists",
 1
 ],
 [
 "Frederick Hurten Rhead",
 "American art pottery and metalwork",
-"b. 1880, United States, design and decorative arts",
+"b. 1880, United States",
 "artists",
 1
 ],
 [
 "R. Guy Cowan",
 "American art pottery and metalwork",
-"b. 1884, United States, design and decorative arts",
+"b. 1884, United States",
 "artists",
 1
 ],
 [
 "Arthur Eugene Baggs",
 "American art pottery and metalwork",
-"b. 1886, United States, design and decorative arts",
+"b. 1886, United States",
 "artists",
 1
 ],
 [
 "Glen Lukens",
 "American art pottery and metalwork",
-"b. 1887, United States, design and decorative arts",
+"b. 1887, United States",
 "artists",
 1
 ],
 [
 "John Hays Hammond Jr.",
 "American art pottery and metalwork",
-"b. 1888, United States, design and decorative arts",
+"b. 1888, United States",
 "artists",
 1
 ],
 [
 "Frederick Strothmann",
 "American poster and magazine illustration",
-"b. 1872, United States, design and decorative arts",
+"b. 1872, United States",
 "artists",
 1
 ],
 [
 "J. Allen St. John",
 "American poster and magazine illustration",
-"b. 1872, United States, design and decorative arts",
+"b. 1872, United States",
 "artists",
 1
 ],
 [
 "Charles Buckles Falls",
 "American poster and magazine illustration",
-"b. 1874, United States, design and decorative arts",
+"b. 1874, United States",
 "artists",
 1
 ],
 [
 "Herbert Paus",
 "American poster and magazine illustration",
-"b. 1880, United States, design and decorative arts",
+"b. 1880, United States",
 "artists",
 1
 ],
 [
 "Arthur William Brown",
 "American poster and magazine illustration",
-"b. 1881, Canada, design and decorative arts",
+"b. 1881, Canada",
 "artists",
 1
 ],
 [
 "Hendrik Willem van Loon",
 "American poster and magazine illustration",
-"b. 1882, Netherlands, design and decorative arts",
+"b. 1882, Netherlands",
 "artists",
 1
 ],
 [
 "Paul Stahr",
 "American poster and magazine illustration",
-"b. 1883, United States, design and decorative arts",
+"b. 1883, United States",
 "artists",
 1
 ],
 [
 "Louis D. Fancher",
 "American poster and magazine illustration",
-"b. 1884, United States, design and decorative arts",
+"b. 1884, United States",
 "artists",
 1
 ],
 [
 "Pingali Venkayya",
 "Colonial and Asian figures",
-"b. 1876, India, design and decorative arts",
+"b. 1876, India",
 "artists",
 1
 ],
 [
 "Kartini",
 "Colonial and Asian figures",
-"b. 1879, Dutch East Indies, design and decorative arts",
+"b. 1879, Dutch East Indies",
 "artists",
 1
 ],
 [
 "Maria Louisa Gardner",
 "Colonial and Asian figures",
-"b. 1879, New Zealand, design and decorative arts",
+"b. 1879, New Zealand",
 "artists",
 1
 ]
@@ -33199,7 +33227,7 @@
 [
 "Kassandra Painter",
 "Other named Attic hands",
-"Attic black-figure painter; vase painting",
+"Attic black-figure painter",
 "artists",
 1
 ]
@@ -33548,7 +33576,7 @@
 [
 "Sosias Painter",
 "Pioneer Group",
-"Attic red-figure painter; Classical Athens, vase painting",
+"Attic red-figure painter; Classical Athens",
 "artists",
 1
 ],
@@ -33674,7 +33702,7 @@
 [
 "Pig Painter",
 "Mannerists",
-"Attic red-figure painter; vase painting",
+"Attic red-figure painter",
 "artists",
 1
 ],
@@ -33751,14 +33779,14 @@
 [
 "Carlsruhe Painter",
 "Early Classical (Niobid, Pistoxenos, Penthesilea)",
-"Attic red-figure painter; vase painting",
+"Attic red-figure painter",
 "artists",
 1
 ],
 [
 "Altamura Painter",
 "Early Classical (Niobid, Pistoxenos, Penthesilea)",
-"Attic red-figure painter; vase painting",
+"Attic red-figure painter",
 "artists",
 1
 ],
@@ -33940,7 +33968,7 @@
 [
 "Choephoroi Painter",
 "Lucanian red-figure",
-"Lucanian red-figure painter; vase painting",
+"Lucanian red-figure painter",
 "artists",
 1
 ],
@@ -34038,14 +34066,14 @@
 [
 "Kassandra Painter",
 "Campanian red-figure",
-"Campanian red-figure painter; vase painting",
+"Campanian red-figure painter",
 "artists",
 1
 ],
 [
 "Parrish Painter",
 "Campanian red-figure",
-"Campanian red-figure painter; vase painting",
+"Campanian red-figure painter",
 "artists",
 1
 ],
@@ -34094,983 +34122,2037 @@
 ]
 },
 "H1-1": {
-"axis": "provisional",
+"axis": "sub-types (court and design types) first, then weaving centres by region (Azerbaijan, Kurdistan–Hamadan, Arak, central Iran, Khorasan, Kerman, Fars and the tribes); works: named carpets with Wikipedia articles, then every titled (non-generic) Persian carpet in the gathered Islamic-object records with its museum page, by period; collections ranked by gathered objects; makers last",
+"catalogues": [
+[
+"https://collections.vam.ac.uk/search/?q=persian%20carpet",
+"V&A collections: Persian carpets",
+"the largest museum holding of Persian carpets, with the Ardabil"
+],
+[
+"https://www.metmuseum.org/art/collection/search?q=Safavid%20carpet",
+"The Met collection: Safavid carpets",
+"Persian carpets at the Met, including the Emperor's Carpet"
+],
+[
+"https://islamicart.museumwnf.org/",
+"Discover Islamic Art (Museum With No Frontiers)",
+"carpets and other objects from Islamic collections across Europe and the Middle East"
+],
+[
+"https://www.carpetmuseum.ir/",
+"Carpet Museum of Iran, Tehran",
+"the national collection of Persian carpets"
+]
+],
 "kinds": [
-[
-"Shiraz rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Tabriz carpet",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Heriz rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Kashan rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Varamin rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Nain rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Qom rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Isfahan rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Bakhtiari",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Kerman carpet",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Bijar rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Ardabil rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Abadeh rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Seraband rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Saruq rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Mashhad rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Zanjan rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Kashmar carpet",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Karadagh rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Hamadan rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Meshkin rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Sanandaj rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Yazd rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Arak rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Jozan rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Shahsevan rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Sarab carpet",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Joshaghan rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Feraghan carpet",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Borujerd rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"mir",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Lorestan rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Ahar rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Herat carpet",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Bakshaish rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Dorukhsh carpet",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Qaen rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Qazvin rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Nishapur rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
 [
 "court carpet",
 "Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Qashqai rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Four Seasons carpet",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Polonais carpet",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Ardabil carpet weaving",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Mamasani carpet",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Moud rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Shahrekord carpet",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Mushkabad rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Shiraki pich",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"sofra kordi",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Semnan rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Salting carpet",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Enjilas carpet",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Viss carpet",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Karaja carpet",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Afshar carpet of Azerbaijan",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Afshar Jiroft rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Khorasan carpet",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Afshar Khuzestan carpet",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Afshar Sirjan rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Afshar Kerman rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Afshar Baft rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Gorevan carpet",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Lechek-Turunj carpet",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Tabriz rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Yalameh rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Khoi carpet",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Azarshahr carpet",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Sardroud carpet",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Mahabad rug",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"Bukan carpet",
-"Sub-types",
-"",
-"world_folk",
-0
-],
-[
-"hunting carpet",
-"Sub-types",
-"",
+"carpets woven in royal workshops for the Safavid court, 16th–17th c.",
 "world_folk",
 0
 ],
 [
 "Safavid carpet",
 "Sub-types",
-"",
+"the classical carpets of the Safavid period, 1501–1736",
+"world_folk",
+0
+],
+[
+"Lechek-Turunj carpet",
+"Sub-types",
+"medallion-and-corner design of Tabriz and NW Iran",
+"world_folk",
+0
+],
+[
+"hunting carpet",
+"Sub-types",
+"carpets with mounted hunters and game, a Safavid court type",
 "world_folk",
 0
 ],
 [
 "animal carpet",
 "Sub-types",
-"",
+"carpets with animal combats and figures among scrolling vines",
 "world_folk",
 0
 ],
 [
-"Maqsud Kashani, whose signature is woven into the carpet, but his exact role is debated",
+"Salting carpet",
 "Sub-types",
-"",
+"group of silk-and-metal-thread prayer and medallion carpets named after the Salting gift to the V&A",
+"world_folk",
+0
+],
+[
+"Polonais carpet",
+"Sub-types",
+"silk and metal-thread Isfahan and Kashan carpets of c. 1600, once thought Polish",
+"world_folk",
+0
+],
+[
+"Four Seasons carpet",
+"Sub-types",
+"classical design of garden and seasons compartments",
+"world_folk",
+0
+],
+[
+"Herat carpet",
+"Sub-types",
+"the classical Khorasan carpet of Herat, with the Herati pattern",
+"world_folk",
+0
+],
+[
+"mir",
+"Sub-types",
+"Mir (Mir-i-Bota) small-boteh field design of Saraband and Sarouk",
+"world_folk",
+0
+],
+[
+"Shiraki pich",
+"Sub-types",
+"twisting-vine design associated with Fars",
+"world_folk",
+0
+],
+[
+"sofra kordi",
+"Sub-types",
+"Kurdish flat-woven food cloth (sofreh)",
+"world_folk",
+0
+],
+[
+"Tabriz carpet",
+"Centres of Iranian Azerbaijan (Tabriz, Heriz)",
+"weaving centre or type, Iranian Azerbaijan",
+"world_folk",
+0
+],
+[
+"Heriz rug",
+"Centres of Iranian Azerbaijan (Tabriz, Heriz)",
+"weaving centre or type, Iranian Azerbaijan",
+"world_folk",
+0
+],
+[
+"Gorevan carpet",
+"Centres of Iranian Azerbaijan (Tabriz, Heriz)",
+"weaving centre or type, Iranian Azerbaijan",
+"world_folk",
+0
+],
+[
+"Bakshaish rug",
+"Centres of Iranian Azerbaijan (Tabriz, Heriz)",
+"weaving centre or type, Iranian Azerbaijan",
+"world_folk",
+0
+],
+[
+"Ahar rug",
+"Centres of Iranian Azerbaijan (Tabriz, Heriz)",
+"weaving centre or type, Iranian Azerbaijan",
+"world_folk",
+0
+],
+[
+"Karadagh rug",
+"Centres of Iranian Azerbaijan (Tabriz, Heriz)",
+"weaving centre or type, Iranian Azerbaijan",
+"world_folk",
+0
+],
+[
+"Sarab carpet",
+"Centres of Iranian Azerbaijan (Tabriz, Heriz)",
+"weaving centre or type, Iranian Azerbaijan",
+"world_folk",
+0
+],
+[
+"Meshkin rug",
+"Centres of Iranian Azerbaijan (Tabriz, Heriz)",
+"weaving centre or type, Iranian Azerbaijan",
+"world_folk",
+0
+],
+[
+"Ardabil rug",
+"Centres of Iranian Azerbaijan (Tabriz, Heriz)",
+"weaving centre or type, Iranian Azerbaijan",
+"world_folk",
+0
+],
+[
+"Khoi carpet",
+"Centres of Iranian Azerbaijan (Tabriz, Heriz)",
+"weaving centre or type, Iranian Azerbaijan",
+"world_folk",
+0
+],
+[
+"Azarshahr carpet",
+"Centres of Iranian Azerbaijan (Tabriz, Heriz)",
+"weaving centre or type, Iranian Azerbaijan",
+"world_folk",
+0
+],
+[
+"Sardroud carpet",
+"Centres of Iranian Azerbaijan (Tabriz, Heriz)",
+"weaving centre or type, Iranian Azerbaijan",
+"world_folk",
+0
+],
+[
+"Karaja carpet",
+"Centres of Iranian Azerbaijan (Tabriz, Heriz)",
+"weaving centre or type, Iranian Azerbaijan",
+"world_folk",
+0
+],
+[
+"Afshar carpet of Azerbaijan",
+"Centres of Iranian Azerbaijan (Tabriz, Heriz)",
+"weaving centre or type, Iranian Azerbaijan",
+"world_folk",
+0
+],
+[
+"Shahsevan rug",
+"Centres of Iranian Azerbaijan (Tabriz, Heriz)",
+"weaving centre or type, Iranian Azerbaijan",
+"world_folk",
+0
+],
+[
+"Zanjan rug",
+"Centres of Iranian Azerbaijan (Tabriz, Heriz)",
+"weaving centre or type, Iranian Azerbaijan",
+"world_folk",
+0
+],
+[
+"Bijar rug",
+"Centres of Kurdistan and Hamadan",
+"weaving centre or type, Kurdistan and Hamadan",
+"world_folk",
+0
+],
+[
+"Sanandaj rug",
+"Centres of Kurdistan and Hamadan",
+"weaving centre or type, Kurdistan and Hamadan",
+"world_folk",
+0
+],
+[
+"Mahabad rug",
+"Centres of Kurdistan and Hamadan",
+"weaving centre or type, Kurdistan and Hamadan",
+"world_folk",
+0
+],
+[
+"Bukan carpet",
+"Centres of Kurdistan and Hamadan",
+"weaving centre or type, Kurdistan and Hamadan",
+"world_folk",
+0
+],
+[
+"Hamadan rug",
+"Centres of Kurdistan and Hamadan",
+"weaving centre or type, Kurdistan and Hamadan",
+"world_folk",
+0
+],
+[
+"Enjilas carpet",
+"Centres of Kurdistan and Hamadan",
+"weaving centre or type, Kurdistan and Hamadan",
+"world_folk",
+0
+],
+[
+"Qazvin rug",
+"Centres of Kurdistan and Hamadan",
+"weaving centre or type, Kurdistan and Hamadan",
+"world_folk",
+0
+],
+[
+"Arak rug",
+"Centres of Arak and the west (Sarouk, Feraghan)",
+"weaving centre or type, Arak and the west",
+"world_folk",
+0
+],
+[
+"Saruq rug",
+"Centres of Arak and the west (Sarouk, Feraghan)",
+"weaving centre or type, Arak and the west",
+"world_folk",
+0
+],
+[
+"Feraghan carpet",
+"Centres of Arak and the west (Sarouk, Feraghan)",
+"weaving centre or type, Arak and the west",
+"world_folk",
+0
+],
+[
+"Seraband rug",
+"Centres of Arak and the west (Sarouk, Feraghan)",
+"weaving centre or type, Arak and the west",
+"world_folk",
+0
+],
+[
+"Mushkabad rug",
+"Centres of Arak and the west (Sarouk, Feraghan)",
+"weaving centre or type, Arak and the west",
+"world_folk",
+0
+],
+[
+"Viss carpet",
+"Centres of Arak and the west (Sarouk, Feraghan)",
+"weaving centre or type, Arak and the west",
+"world_folk",
+0
+],
+[
+"Jozan rug",
+"Centres of Arak and the west (Sarouk, Feraghan)",
+"weaving centre or type, Arak and the west",
+"world_folk",
+0
+],
+[
+"Borujerd rug",
+"Centres of Arak and the west (Sarouk, Feraghan)",
+"weaving centre or type, Arak and the west",
+"world_folk",
+0
+],
+[
+"Lorestan rug",
+"Centres of Arak and the west (Sarouk, Feraghan)",
+"weaving centre or type, Arak and the west",
+"world_folk",
+0
+],
+[
+"Kashan rug",
+"Centres of central Iran (Kashan, Isfahan, Nain, Qom)",
+"weaving centre or type, central Iran",
+"world_folk",
+0
+],
+[
+"Isfahan rug",
+"Centres of central Iran (Kashan, Isfahan, Nain, Qom)",
+"weaving centre or type, central Iran",
+"world_folk",
+0
+],
+[
+"Nain rug",
+"Centres of central Iran (Kashan, Isfahan, Nain, Qom)",
+"weaving centre or type, central Iran",
+"world_folk",
+0
+],
+[
+"Qom rug",
+"Centres of central Iran (Kashan, Isfahan, Nain, Qom)",
+"weaving centre or type, central Iran",
+"world_folk",
+0
+],
+[
+"Joshaghan rug",
+"Centres of central Iran (Kashan, Isfahan, Nain, Qom)",
+"weaving centre or type, central Iran",
+"world_folk",
+0
+],
+[
+"Varamin rug",
+"Centres of central Iran (Kashan, Isfahan, Nain, Qom)",
+"weaving centre or type, central Iran",
+"world_folk",
+0
+],
+[
+"Semnan rug",
+"Centres of central Iran (Kashan, Isfahan, Nain, Qom)",
+"weaving centre or type, central Iran",
+"world_folk",
+0
+],
+[
+"Yazd rug",
+"Centres of central Iran (Kashan, Isfahan, Nain, Qom)",
+"weaving centre or type, central Iran",
+"world_folk",
+0
+],
+[
+"Mashhad rug",
+"Centres of Khorasan (Mashhad, Qaen)",
+"weaving centre or type, Khorasan",
+"world_folk",
+0
+],
+[
+"Khorasan carpet",
+"Centres of Khorasan (Mashhad, Qaen)",
+"weaving centre or type, Khorasan",
+"world_folk",
+0
+],
+[
+"Kashmar carpet",
+"Centres of Khorasan (Mashhad, Qaen)",
+"weaving centre or type, Khorasan",
+"world_folk",
+0
+],
+[
+"Nishapur rug",
+"Centres of Khorasan (Mashhad, Qaen)",
+"weaving centre or type, Khorasan",
+"world_folk",
+0
+],
+[
+"Qaen rug",
+"Centres of Khorasan (Mashhad, Qaen)",
+"weaving centre or type, Khorasan",
+"world_folk",
+0
+],
+[
+"Dorukhsh carpet",
+"Centres of Khorasan (Mashhad, Qaen)",
+"weaving centre or type, Khorasan",
+"world_folk",
+0
+],
+[
+"Moud rug",
+"Centres of Khorasan (Mashhad, Qaen)",
+"weaving centre or type, Khorasan",
+"world_folk",
+0
+],
+[
+"Kerman carpet",
+"Centres of Kerman and the south-east",
+"weaving centre or type, Kerman and the south-east",
+"world_folk",
+0
+],
+[
+"Afshar Kerman rug",
+"Centres of Kerman and the south-east",
+"weaving centre or type, Kerman and the south-east",
+"world_folk",
+0
+],
+[
+"Afshar Sirjan rug",
+"Centres of Kerman and the south-east",
+"weaving centre or type, Kerman and the south-east",
+"world_folk",
+0
+],
+[
+"Afshar Baft rug",
+"Centres of Kerman and the south-east",
+"weaving centre or type, Kerman and the south-east",
+"world_folk",
+0
+],
+[
+"Afshar Jiroft rug",
+"Centres of Kerman and the south-east",
+"weaving centre or type, Kerman and the south-east",
+"world_folk",
+0
+],
+[
+"Shiraz rug",
+"Fars and tribal weaving (Qashqai, Bakhtiari)",
+"weaving centre or type, Fars and tribal weaving",
+"world_folk",
+0
+],
+[
+"Qashqai rug",
+"Fars and tribal weaving (Qashqai, Bakhtiari)",
+"weaving centre or type, Fars and tribal weaving",
+"world_folk",
+0
+],
+[
+"Abadeh rug",
+"Fars and tribal weaving (Qashqai, Bakhtiari)",
+"weaving centre or type, Fars and tribal weaving",
+"world_folk",
+0
+],
+[
+"Yalameh rug",
+"Fars and tribal weaving (Qashqai, Bakhtiari)",
+"weaving centre or type, Fars and tribal weaving",
+"world_folk",
+0
+],
+[
+"Mamasani carpet",
+"Fars and tribal weaving (Qashqai, Bakhtiari)",
+"weaving centre or type, Fars and tribal weaving",
+"world_folk",
+0
+],
+[
+"Bakhtiari",
+"Fars and tribal weaving (Qashqai, Bakhtiari)",
+"weaving centre or type, Fars and tribal weaving",
+"world_folk",
+0
+],
+[
+"Shahrekord carpet",
+"Fars and tribal weaving (Qashqai, Bakhtiari)",
+"weaving centre or type, Fars and tribal weaving",
+"world_folk",
+0
+],
+[
+"Afshar Khuzestan carpet",
+"Fars and tribal weaving (Qashqai, Bakhtiari)",
+"weaving centre or type, Fars and tribal weaving",
+"world_folk",
+0
+],
+[
+"Pazyryk carpet",
+"Named carpets (from Wikipedia)",
+"oldest surviving pile carpet, c. 400 BC, from a Scythian burial; possibly Achaemenid Persian; State Hermitage, St Petersburg",
+"r3 https://en.wikipedia.org/wiki/Pazyryk_carpet",
+0
+],
+[
+"Ardabil Carpet",
+"Named carpets (from Wikipedia)",
+"pair of Safavid medallion carpets dated 1539–40, signed Maqsud Kashani; V&A, London, and LACMA, Los Angeles",
+"r3 https://en.wikipedia.org/wiki/Ardabil_Carpet",
+0
+],
+[
+"Chelsea Carpet",
+"Named carpets (from Wikipedia)",
+"Safavid animal carpet, Tabriz or Kerman, c. 1500–1550; V&A, London",
+"r3 https://en.wikipedia.org/wiki/Chelsea_Carpet",
+0
+],
+[
+"Coronation Carpet",
+"Named carpets (from Wikipedia)",
+"Safavid silk-and-wool medallion carpet, c. 1520–30, used at Edward VII's coronation; LACMA, Los Angeles",
+"r3 https://en.wikipedia.org/wiki/Coronation_Carpet",
+0
+],
+[
+"Emperor's Carpet",
+"Named carpets (from Wikipedia)",
+"Safavid animal-and-tree carpet, Herat, mid-16th c.; Metropolitan Museum of Art, New York",
+"r3 https://en.wikipedia.org/wiki/Emperor's_Carpet",
+0
+],
+[
+"Clark Sickle-Leaf carpet",
+"Named carpets (from Wikipedia)",
+"Safavid Kerman vase-technique carpet, 17th c.; record auction price in 2013",
+"r3 https://en.wikipedia.org/wiki/Clark_Sickle-Leaf_carpet",
+0
+],
+[
+"Two-faced Carpet Fragment",
+"Seljuq and Timurid carpets",
+"1100s; Cleveland Museum of Art",
+"r3 https://clevelandart.org/art/1966.132",
+0
+],
+[
+"Fragment of a pile “Seljuq carpet”",
+"Seljuq and Timurid carpets",
+"Hegira c. 800 / AD c. 1400; The David Collection",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;EPM;dn;Mus21;33;en",
+0
+],
+[
+"Star Medallion Carpet",
+"Seljuq and Timurid carpets",
+"1475-1525; Victoria and Albert Museum",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;DCA;uk;Mus32;6;en",
+0
+],
+[
+"Medallion carpet with hunting animals",
+"Safavid carpets, 16th century",
+"1500-1550; Victoria and Albert Museum",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;DCA;uk;Mus32;4;en",
+0
+],
+[
+"The Chelsea Carpet",
+"Safavid carpets, 16th century",
+"1500-1550; Victoria and Albert Museum",
+"r3 https://collections.vam.ac.uk/item/O85144/",
+0
+],
+[
+"Coronation Carpet",
+"Safavid carpets, 16th century",
+"Hegira c. 926-936/ AD c. 1520-1530; Los Angeles County Museum of Art (LACMA)",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;EPM;us;Mus21;26;en",
+0
+],
+[
+"Ardabil Carpet",
+"Safavid carpets, 16th century",
+"Hegira 946 / AD 1539-40; Los Angeles County Museum of Art (LACMA)",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;EPM;us;Mus21;25;en",
+0
+],
+[
+"The Ardabil Carpet",
+"Safavid carpets, 16th century",
+"Hejira 946 / AD 1539-40; Victoria and Albert Museum",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;DCA;uk;Mus32;3;en",
+0
+],
+[
+"Hunting Carpet with wild animals and lotus scrollwork",
+"Safavid carpets, 16th century",
+"1550-1600; Victoria and Albert Museum",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;DCA;uk;Mus32;1;en",
+0
+],
+[
+"Carpet Fragment with Hunting Animals",
+"Safavid carpets, 16th century",
+"1550-1600; Victoria and Albert Museum",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;DCA;uk;Mus32;2;en",
+0
+],
+[
+"Medallion Carpet with Angels",
+"Safavid carpets, 16th century",
+"1550-1600; Victoria and Albert Museum",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;DCA;uk;Mus32;10;en",
+0
+],
+[
+"The Salting Carpet",
+"Safavid carpets, 16th century",
+"c. 1560-1580; Victoria and Albert Museum",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;DCA;uk;Mus32;9;en",
+0
+],
+[
+"Royal Carpet with Silk and Metal Thread",
+"Safavid carpets, 17th century",
+"1600–1625; Cleveland Museum of Art",
+"r3 https://clevelandart.org/art/1926.533",
+0
+],
+[
+"Isfahani Carpet",
+"Safavid carpets, 17th century",
+"1600-1700; Victoria and Albert Museum",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;DCA;uk;Mus32;5;en",
+0
+],
+[
+"Vase Carpet",
+"Safavid carpets, 17th century",
+"1600-1700; Victoria and Albert Museum",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;DCA;uk;Mus32;7;en",
+0
+],
+[
+"Silk Carpet with metal thread",
+"Safavid carpets, 17th century",
+"1600-1650; Victoria and Albert Museum",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;DCA;uk;Mus32;8;en",
+0
+],
+[
+"Polonaise Carpet",
+"Safavid carpets, 17th century",
+"17th century; FBQ Museum",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;EPM;qt;Mus22;7;en",
+0
+],
+[
+"Polonaise' carpet",
+"Safavid carpets, 17th century",
+"1600-1625; Victoria and Albert Museum",
+"r3 https://collections.vam.ac.uk/item/O85114/",
+0
+],
+[
+"Carpet-Qajar Portrait",
+"Qajar carpets",
+"19th century; FBQ Museum",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;EPM;qt;Mus22;2;en",
+0
+],
+[
+"Qajar Carpet -Hunting Scene",
+"Qajar carpets",
+"19th century; FBQ Museum",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;EPM;qt;Mus22;10;en",
+0
+],
+[
+"Tree of Life Carpet",
+"Qajar carpets",
+"19th century; FBQ Museum",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;EPM;qt;Mus22;25;en",
+0
+],
+[
+"Majlis Carpet",
+"Qajar carpets",
+"19th century; FBQ Museum",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;EPM;qt;Mus22;20;en",
+0
+],
+[
+"Vienna hunting carpet",
+"Qajar carpets",
+"First half of the 16th century; MAK – Museum of Applied Arts",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;EPM;at;Mus21;46;en",
+0
+],
+[
+"Tree Carpet",
+"Qajar carpets",
+"16th-17th century; Philadelphia Museum of Art",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;DCA;us;Mus33;7;en",
+0
+],
+[
+"Safavid Herat Spiral Vine and Palmette Rug",
+"Qajar carpets",
+"16th-17th century; Museum of Applied Arts",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;DCA;hu;Mus32;14;en",
+0
+],
+[
+"Safavid Carpet with animals and spiral strings",
+"Qajar carpets",
+"Hegira 940-980 / AD mid-16th century; MKG Museum for Applied Arts",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;EPM;de;Mus21;19;en",
+0
+],
+[
+"Carpet of floral arabesque type",
+"Qajar carpets",
+"AD late 16th–17th century; The Khanenko Museum",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;EPM;uc;Mus21;10;en",
+0
+],
+[
+"A massive Safavid Isfahan gallery carpet",
+"Qajar carpets",
+"Hegira 11 / AD 17; Islamic Arts Museum Malaysia",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;DCA;my;Mus31;3;en",
+0
+],
+[
+"Polonaise carpet",
+"Qajar carpets",
+"First quarter of the 17th century; MAK – Museum of Applied Arts",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;EPM;at;Mus21;29;en",
+0
+],
+[
+"Carpet ' shedde",
+"Qajar carpets",
+"AD early 18th century; The Khanenko Museum",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;EPM;uc;Mus21;46;en",
+0
+],
+[
+"Kerman Carpet",
+"Qajar carpets",
+"1896 AD / 1314 Hegira; FBQ Museum",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;EPM;qt;Mus22;8;en",
+0
+],
+[
+"Medallion carpet",
+"Qajar carpets",
+"Hegira Noruz 1313 / 20-21. March 1896; Museum Rietberg",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;EPM;sw;Mus21;28;en",
+0
+],
+[
+"Isfahan Carpet",
+"Qajar carpets",
+"1899 AD / 1317 Hegira; FBQ Museum",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;EPM;qt;Mus22;24;en",
+0
+],
+[
+"Qajar Double-sided Carpet",
+"Qajar carpets",
+"1905 AD / 1322-1323 Hegira; FBQ Museum",
+"r3 https://islamicart.museumwnf.org/database_item.php?id=object;EPM;qt;Mus22;3;en",
+0
+],
+[
+"Victoria and Albert Museum",
+"Collections",
+"254 Persian carpets in the gathered Islamic-object records",
+"r3 https://en.wikipedia.org/wiki/Victoria_and_Albert_Museum",
+0
+],
+[
+"FBQ Museum",
+"Collections",
+"8 Persian carpets in the gathered Islamic-object records",
+"r3 https://en.wikipedia.org/wiki/FBQ_Museum",
+0
+],
+[
+"Museum of Applied Arts",
+"Collections",
+"4 Persian carpets in the gathered Islamic-object records",
+"r3 https://en.wikipedia.org/wiki/Museum_of_Applied_Arts",
+0
+],
+[
+"Cleveland Museum of Art",
+"Collections",
+"2 Persian carpets in the gathered Islamic-object records",
+"r3 https://en.wikipedia.org/wiki/Cleveland_Museum_of_Art",
+0
+],
+[
+"Museum Rietberg",
+"Collections",
+"2 Persian carpets in the gathered Islamic-object records",
+"r3 https://en.wikipedia.org/wiki/Museum_Rietberg",
+0
+],
+[
+"The David Collection",
+"Collections",
+"2 Persian carpets in the gathered Islamic-object records",
+"r3 https://en.wikipedia.org/wiki/The_David_Collection",
+0
+],
+[
+"Los Angeles County Museum of Art (LACMA)",
+"Collections",
+"2 Persian carpets in the gathered Islamic-object records",
+"r3 https://en.wikipedia.org/wiki/Los_Angeles_County_Museum_of_Art",
+0
+],
+[
+"MAK – Museum of Applied Arts",
+"Collections",
+"2 Persian carpets in the gathered Islamic-object records",
+"r3 https://en.wikipedia.org/wiki/MAK",
+0
+],
+[
+"Maqsud Kashani, whose signature is woven into the carpet, but his exact role is debated",
+"Makers",
+"signatory of the Ardabil Carpet (1539–40); his role as designer or patron is debated",
 "islamic_makers",
 1
 ],
 [
 "Ustad Ali-yi Kirmani",
-"Kerman",
-"",
+"Makers",
+"master weaver of Kerman, signed carpets",
 "islamic_makers",
 1
 ]
+],
+"alias_rows": [
+"Persian carpet",
+"Persian carpet weaving"
 ]
 },
 "C2-29": {
-"axis": "provisional",
+"axis": "sub-types, then regional schools; works: every named Gothic manuscript in the gathered manuscript records with a Wikipedia article (sitelinks >= 1; calendar leaves merged into their book), plus canonical named manuscripts with Wikipedia articles from the literature, by school then date; collections ranked by gathered items; illuminators by school (Paris court, provincial France, England, Burgundian Netherlands, Italy, Central Europe, Iberia)",
+"catalogues": [
+[
+"https://www.bl.uk/manuscripts/",
+"British Library: Digitised Manuscripts",
+"the BL's fully digitised Gothic psalters, Apocalypses and books of hours"
+],
+[
+"https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&query=%28gallica%20all%20%22enluminure%22%29",
+"Gallica (BnF): illuminated manuscripts",
+"the Bibliothèque nationale de France's digitised manuscripts"
+],
+[
+"https://digital.bodleian.ox.ac.uk/",
+"Digital Bodleian",
+"Oxford's digitised manuscripts, including the Douce Apocalypse"
+],
+[
+"https://www.digital-scriptorium.org/",
+"Digital Scriptorium",
+"union catalogue of medieval manuscripts in American collections"
+],
+[
+"https://www.getty.edu/art/collection/search?q=manuscript",
+"Getty Museum: manuscripts",
+"the Getty's collection of illuminated manuscripts and leaves"
+]
+],
 "kinds": [
 [
-"Gothic: French and Northern French",
-"French",
-"",
+"Bibles moralisées",
+"Sub-types",
+"picture Bibles pairing scenes with moral commentary, Paris 13th c.",
 "manuscripts",
 0
 ],
 [
-"Gothic: Italian (Bologna, Florence, Siena, Lombardy)",
-"Italian",
-"",
+"Book of hours",
+"Sub-types",
+"the lay prayer book, the commonest Gothic illuminated manuscript",
+"r3 https://en.wikipedia.org/wiki/Book_of_hours",
+0
+],
+[
+"Psalter",
+"Sub-types",
+"the illuminated book of psalms, chief luxury book before the book of hours",
+"r3 https://en.wikipedia.org/wiki/Psalter",
+0
+],
+[
+"Grisaille",
+"Sub-types",
+"monochrome grey painting, the Parisian manner of Pucelle",
+"r3 https://en.wikipedia.org/wiki/Grisaille",
+0
+],
+[
+"French and Northern French",
+"Schools",
+"Gothic illumination of this region, 13th–15th c.",
 "manuscripts",
 0
 ],
 [
-"Gothic: English",
+"Italian (Bologna, Florence, Siena, Lombardy)",
+"Schools",
+"Gothic illumination of this region, 13th–15th c.",
+"manuscripts",
+0
+],
+[
 "English",
-"",
+"Schools",
+"Gothic illumination of this region, 13th–15th c.",
 "manuscripts",
 0
 ],
 [
-"Gothic: German and Austrian",
-"German",
-"",
+"German and Austrian",
+"Schools",
+"Gothic illumination of this region, 13th–15th c.",
 "manuscripts",
 0
 ],
 [
-"Bibles moralisées and illustrated Bibles",
-"Bible moralisée",
-"",
-"manuscripts",
-0
-],
-[
-"Gothic: Low Countries",
 "Low Countries",
-"",
+"Schools",
+"Gothic illumination of this region, 13th–15th c.",
 "manuscripts",
 0
 ],
 [
-"Gothic: Parisian",
-"Parisian",
-"",
+"Parisian court school (Pucelle and after)",
+"Schools",
+"Gothic illumination of this region, 13th–15th c.",
 "manuscripts",
 0
 ],
 [
-"Gothic: Iberian",
 "Iberian",
-"",
+"Schools",
+"Gothic illumination of this region, 13th–15th c.",
 "manuscripts",
 0
 ],
 [
 "International Gothic",
-"International Gothic",
-"",
+"Schools",
+"courtly style c. 1380–1430 (Limbourg brothers, Boucicaut Master)",
 "manuscripts",
 0
 ],
 [
-"Gothic: Central European (Poland, Hungary)",
-"Central European",
-"",
+"Central European (Poland, Hungary)",
+"Schools",
+"Gothic illumination of this region, 13th–15th c.",
 "manuscripts",
 0
 ],
 [
-"Gothic: Bohemian",
-"Bohemian",
-"",
+"Bohemian (Luxembourg court)",
+"Schools",
+"Gothic illumination of this region, 13th–15th c.",
 "manuscripts",
 0
 ],
 [
-"Márk Kálti",
-"Artists",
-"",
-"artists",
-1
+"Psalter of Saint Louis",
+"Parisian court school (Pucelle and after) manuscripts",
+"Paris, c. 1270; Bibliothèque nationale de France, Paris",
+"r3 https://en.wikipedia.org/wiki/Psalter_of_Saint_Louis",
+0
 ],
 [
-"Mazarine Master",
-"Artists",
-"",
-"artists",
-1
+"Montpellier Codex",
+"Parisian court school (Pucelle and after) manuscripts",
+"1280",
+"r3 https://www.wikidata.org/wiki/Q1106061",
+0
 ],
 [
-"Mikael Modrekili",
-"Artists",
-"",
-"artists",
-1
+"Belleville Breviary (Jean Pucelle)",
+"Parisian court school (Pucelle and after) manuscripts",
+"Paris, c. 1323–26; Bibliothèque nationale de France, Paris",
+"r3 https://en.wikipedia.org/wiki/Belleville_Breviary",
+0
 ],
 [
-"Maître Frana",
-"Artists",
-"",
-"artists",
-1
+"Hours of Jeanne d'Evreux (Jean Pucelle)",
+"Parisian court school (Pucelle and after) manuscripts",
+"Paris, c. 1324–28; Metropolitan Museum of Art (The Cloisters), New York",
+"r3 https://en.wikipedia.org/wiki/Hours_of_Jeanne_d'Evreux",
+0
 ],
 [
-"Orosius Master",
-"Artists",
-"",
-"artists",
-1
+"Le Roman de la Rose",
+"Parisian court school (Pucelle and after) manuscripts",
+"1348; Bodleian Library",
+"r3 https://www.wikidata.org/wiki/Q55285322",
+0
 ],
 [
-"Virgil Master",
-"Artists",
-"",
-"artists",
-1
+"Petites Heures of Jean de Berry",
+"Parisian court school (Pucelle and after) manuscripts",
+"Paris, c. 1375–90; Bibliothèque nationale de France, Paris",
+"r3 https://en.wikipedia.org/wiki/Petites_Heures_of_Jean_de_Berry",
+0
 ],
 [
-"Luçon Master",
-"Artists",
-"",
-"artists",
-1
+"Chroniques de Froissart (KB 72 A 25)",
+"Parisian court school (Pucelle and after) manuscripts",
+"1400; KB, nationale bibliotheek",
+"r3 https://www.wikidata.org/wiki/Q46999823",
+0
+],
+[
+"Bréviaire de Jeanne d'Evreux - Musée Condé Ms51",
+"Parisian court school (Pucelle and after) manuscripts",
+"1400; Condé Museum",
+"r3 https://www.wikidata.org/wiki/Q16534326",
+0
+],
+[
+"Abelard and Heloise",
+"Parisian court school (Pucelle and after) manuscripts",
+"1400; Condé Museum",
+"r3 https://www.wikidata.org/wiki/Q124034583",
+0
+],
+[
+"Book of Hours. Use of Paris",
+"Parisian court school (Pucelle and after) manuscripts",
+"1407; Bodleian Library",
+"r3 https://www.wikidata.org/wiki/Q124085617",
+0
+],
+[
+"Grandes Heures of Jean de Berry",
+"Parisian court school (Pucelle and after) manuscripts",
+"Paris, 1409; Bibliothèque nationale de France, Paris",
+"r3 https://en.wikipedia.org/wiki/Grandes_Heures_of_Jean_de_Berry",
+0
+],
+[
+"Book of Hours of the Duke of Guise",
+"Parisian court school (Pucelle and after) manuscripts",
+"1410; Condé Museum",
+"r3 https://www.wikidata.org/wiki/Q3134960",
+0
+],
+[
+"Bible manuscript Pierpont Morgan Library M395",
+"Parisian court school (Pucelle and after) manuscripts",
+"1415; The Morgan Library & Museum",
+"r3 https://www.wikidata.org/wiki/Q131990580",
+0
+],
+[
+"Ingeborg Psalter",
+"French and Northern French manuscripts",
+"1210; Condé Museum",
+"r3 https://www.wikidata.org/wiki/Q1424297",
+0
+],
+[
+"Morgan Bible (Maciejowski Bible)",
+"French and Northern French manuscripts",
+"Paris, c. 1250; Morgan Library & Museum, New York",
+"r3 https://en.wikipedia.org/wiki/Morgan_Bible",
+0
+],
+[
+"Fontevrault Gradual",
+"French and Northern French manuscripts",
+"1255; Bibliothèque francophone multimédia de Limoges",
+"r3 https://www.wikidata.org/wiki/Q3113171",
+0
+],
+[
+"Wilanów Psalter",
+"French and Northern French manuscripts",
+"1300; National Library of Poland",
+"r3 https://www.wikidata.org/wiki/Q15132103",
+0
+],
+[
+"Felbrigge Psalter",
+"French and Northern French manuscripts",
+"1300; British Library",
+"r3 https://www.wikidata.org/wiki/Q5441632",
+0
+],
+[
+"Lyghfield Bible",
+"French and Northern French manuscripts",
+"1300",
+"r3 https://www.wikidata.org/wiki/Q55889879",
+0
+],
+[
+"The Cloisters Apocalypse",
+"French and Northern French manuscripts",
+"1330; Metropolitan Museum of Art",
+"r3 https://www.wikidata.org/wiki/Q20201150",
+0
+],
+[
+"Psalter of Bonne de Luxembourg",
+"French and Northern French manuscripts",
+"1348; Metropolitan Museum of Art",
+"r3 https://www.wikidata.org/wiki/Q3409488",
+0
+],
+[
+"Chantilly Codex",
+"French and Northern French manuscripts",
+"1400; Condé Museum",
+"r3 https://www.wikidata.org/wiki/Q2521364",
+0
+],
+[
+"Hours of Saint-Omer",
+"French and Northern French manuscripts",
+"1400; The Morgan Library & Museum",
+"r3 https://www.wikidata.org/wiki/Q1406907",
+0
+],
+[
+"Calendarium Parisiense",
+"French and Northern French manuscripts",
+"1400; National Library of Poland",
+"r3 https://www.wikidata.org/wiki/Q101423576",
+0
+],
+[
+"Book of Hours (fragmentary), Use of St Omer",
+"French and Northern French manuscripts",
+"1400; British Library additional manuscripts",
+"r3 https://www.wikidata.org/wiki/Q123472546",
+0
+],
+[
+"Dialogues de Pierre Salmon",
+"French and Northern French manuscripts",
+"1405; Bibliothèque nationale de France",
+"r3 https://www.wikidata.org/wiki/Q102417242",
+0
+],
+[
+"Breviary of John the Fearless and Margaret of Bavaria",
+"French and Northern French manuscripts",
+"1410; Harley Manuscripts",
+"r3 https://www.wikidata.org/wiki/Q16534321",
+0
+],
+[
+"Douce Apocalypse",
+"English manuscripts",
+"England, c. 1265–70; Bodleian Library, Oxford",
+"r3 https://en.wikipedia.org/wiki/Douce_Apocalypse",
+0
+],
+[
+"Ramsey Psalter",
+"English manuscripts",
+"1310; The Morgan Library & Museum",
+"r3 https://www.wikidata.org/wiki/Q2130413",
+0
+],
+[
+"Tickhill Psalter",
+"English manuscripts",
+"England, c. 1310; New York Public Library",
+"r3 https://en.wikipedia.org/wiki/Tickhill_Psalter",
+0
+],
+[
+"Queen Mary Psalter",
+"English manuscripts",
+"London, c. 1310–20; British Library, London",
+"r3 https://en.wikipedia.org/wiki/Queen_Mary_Psalter",
+0
+],
+[
+"Gorleston Psalter",
+"English manuscripts",
+"East Anglia, c. 1310–24; British Library, London",
+"r3 https://en.wikipedia.org/wiki/Gorleston_Psalter",
+0
+],
+[
+"Ormesby Psalter",
+"English manuscripts",
+"East Anglia, c. 1310–25; Bodleian Library, Oxford",
+"r3 https://en.wikipedia.org/wiki/Ormesby_Psalter",
+0
+],
+[
+"Kildare Poems",
+"English manuscripts",
+"1330; Harley Manuscripts",
+"r3 https://www.wikidata.org/wiki/Q6406735",
+0
+],
+[
+"Luttrell Psalter",
+"English manuscripts",
+"Lincolnshire, c. 1325–40; British Library, London",
+"r3 https://en.wikipedia.org/wiki/Luttrell_Psalter",
+0
+],
+[
+"Holkham Bible",
+"English manuscripts",
+"1400; British Library additional manuscripts",
+"r3 https://www.wikidata.org/wiki/Q18425445",
+0
+],
+[
+"Sherborne Missal",
+"English manuscripts",
+"Sherborne Abbey, c. 1400; British Library, London",
+"r3 https://en.wikipedia.org/wiki/Sherborne_Missal",
+0
+],
+[
+"British Library, Harley MS 7334",
+"English manuscripts",
+"1410; Harley Manuscripts",
+"r3 https://www.wikidata.org/wiki/Q5658822",
+0
+],
+[
+"Hours of Catherine of Cleves",
+"Low Countries manuscripts",
+"Utrecht, c. 1440; Morgan Library & Museum, New York",
+"r3 https://en.wikipedia.org/wiki/Hours_of_Catherine_of_Cleves",
+0
+],
+[
+"Bardewik codex",
+"German and Austrian manuscripts",
+"1294",
+"r3 https://www.wikidata.org/wiki/Q23900974",
+0
+],
+[
+"Codex Manesse",
+"German and Austrian manuscripts",
+"Zurich, c. 1300–40; Heidelberg University Library",
+"r3 https://en.wikipedia.org/wiki/Codex_Manesse",
+0
+],
+[
+"Lancelotcompilatie",
+"German and Austrian manuscripts",
+"1325; KB, nationale bibliotheek",
+"r3 https://www.wikidata.org/wiki/Q2729909",
+0
+],
+[
+"Zürich armorial",
+"German and Austrian manuscripts",
+"1340; Swiss National Museum",
+"r3 https://www.wikidata.org/wiki/Q248536",
+0
+],
+[
+"Bellifortis",
+"German and Austrian manuscripts",
+"1402; Göttingen State and University Library",
+"r3 https://www.wikidata.org/wiki/Q4883999",
+0
+],
+[
+"Peace treaty of Perleberg",
+"German and Austrian manuscripts",
+"1420",
+"r3 https://www.wikidata.org/wiki/Q2518891",
+0
+],
+[
+"Liber viaticus of Jan of Středa",
+"Bohemian (Luxembourg court) manuscripts",
+"Prague, c. 1360; National Museum Library, Prague",
+"r3 https://en.wikipedia.org/wiki/Liber_viaticus",
+0
+],
+[
+"Wenceslas Bible",
+"Bohemian (Luxembourg court) manuscripts",
+"Prague, c. 1390–1400; Austrian National Library, Vienna",
+"r3 https://en.wikipedia.org/wiki/Wenceslas_Bible",
+0
+],
+[
+"Psalter of Hanuš from Kolovrat",
+"Bohemian (Luxembourg court) manuscripts",
+"1438; Collection of the National Library of the Czech Republic.",
+"r3 https://www.wikidata.org/wiki/Q10270393",
+0
+],
+[
+"Chronicon Pictum",
+"Central European (Poland, Hungary) manuscripts",
+"Buda, c. 1358–70; National Széchényi Library, Budapest",
+"r3 https://en.wikipedia.org/wiki/Chronicon_Pictum",
+0
+],
+[
+"Chronicae et annales Poloniae",
+"Central European (Poland, Hungary) manuscripts",
+"1400",
+"r3 https://www.wikidata.org/wiki/Q102108367",
+0
+],
+[
+"Banderia Prutenorum",
+"Central European (Poland, Hungary) manuscripts",
+"1448",
+"r3 https://www.wikidata.org/wiki/Q636825",
+0
+],
+[
+"Ars dictaminis",
+"Central European (Poland, Hungary) manuscripts",
+"1449",
+"r3 https://www.wikidata.org/wiki/Q25415680",
+0
+],
+[
+"Antiquities of the Jews",
+"Central European (Poland, Hungary) manuscripts",
+"1466; National Library of Poland",
+"r3 https://www.wikidata.org/wiki/Q102316917",
+0
+],
+[
+"Graduale de tempore",
+"Central European (Poland, Hungary) manuscripts",
+"1493; National Library of Poland",
+"r3 https://www.wikidata.org/wiki/Q106284853",
+0
+],
+[
+"Puławy Psalter",
+"Central European (Poland, Hungary) manuscripts",
+"1500; Princes Czartoryski Library",
+"r3 https://www.wikidata.org/wiki/Q4383550",
+0
+],
+[
+"Cronica magna Lechitarum et Polonorum",
+"Central European (Poland, Hungary) manuscripts",
+"1500; National Library of Poland",
+"r3 https://www.wikidata.org/wiki/Q25405073",
+0
+],
+[
+"Retoryka Krakowska",
+"Central European (Poland, Hungary) manuscripts",
+"1500; National Library of the Czech Republic",
+"r3 https://www.wikidata.org/wiki/Q24632634",
+0
+],
+[
+"Dante Inferno - Chantilly Musée Condé Ms597",
+"Italian (Bologna, Florence, Siena, Lombardy) manuscripts",
+"1329; Condé Museum",
+"r3 https://www.wikidata.org/wiki/Q16651029",
+0
+],
+[
+"Anjou Bible",
+"Italian (Bologna, Florence, Siena, Lombardy) manuscripts",
+"1340; Maurits Sabbe Library",
+"r3 https://www.wikidata.org/wiki/Q2121759",
+0
+],
+[
+"Manuscript Hamilton 90",
+"Italian (Bologna, Florence, Siena, Lombardy) manuscripts",
+"1370; Berlin State Library",
+"r3 https://www.wikidata.org/wiki/Q131835767",
+0
+],
+[
+"Cantigas de Santa Maria",
+"Iberian manuscripts",
+"1280; National Central Library of Florence",
+"r3 https://www.wikidata.org/wiki/Q50158072",
+0
+],
+[
+"Hebrew Bible",
+"Iberian manuscripts",
+"1350; Metropolitan Museum of Art",
+"r3 https://www.wikidata.org/wiki/Q65040875",
+0
+],
+[
+"Catalan Atlas (Cresques Abraham)",
+"Iberian manuscripts",
+"Majorca, 1375; Bibliothèque nationale de France, Paris",
+"r3 https://en.wikipedia.org/wiki/Catalan_Atlas",
+0
+],
+[
+"Rylands Haggadah",
+"Iberian manuscripts",
+"1400; John Rylands Library",
+"r3 https://www.wikidata.org/wiki/Q23987900",
+0
+],
+[
+"Belles Heures of Jean de France, Duc de Berry",
+"International Gothic manuscripts",
+"Limbourg brothers, c. 1405–09; Metropolitan Museum of Art (The Cloisters), New York",
+"r3 https://en.wikipedia.org/wiki/Belles_Heures_of_Jean_de_France,_Duc_de_Berry",
+0
+],
+[
+"Très Riches Heures du duc de Berry",
+"International Gothic manuscripts",
+"1410; Condé Museum",
+"r3 https://www.wikidata.org/wiki/Q211062",
+0
+],
+[
+"Bedford Hours",
+"International Gothic manuscripts",
+"Bedford Master, Paris, c. 1410–30; British Library, London",
+"r3 https://en.wikipedia.org/wiki/Bedford_Hours",
+0
+],
+[
+"Rohan Hours",
+"International Gothic manuscripts",
+"Rohan Master, Paris or Angers, c. 1430; Bibliothèque nationale de France, Paris",
+"r3 https://en.wikipedia.org/wiki/Rohan_Hours",
+0
+],
+[
+"Ohio State University",
+"Collections",
+"367 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/Ohio_State_University",
+0
+],
+[
+"Free Library of Philadelphia",
+"Collections",
+"280 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/Free_Library_of_Philadelphia",
+0
+],
+[
+"The Huntington Library, Art Museum, and Botanical Gardens",
+"Collections",
+"257 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/The_Huntington_Library,_Art_Museum,_and_Botanical_Gardens",
+0
+],
+[
+"Newberry Library",
+"Collections",
+"255 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/Newberry_Library",
+0
+],
+[
+"University of Missouri",
+"Collections",
+"168 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/University_of_Missouri",
+0
+],
+[
+"University of California, Berkeley",
+"Collections",
+"152 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/University_of_California,_Berkeley",
+0
+],
+[
+"Bibliothèque nationale de France",
+"Collections",
+"108 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/Bibliothèque_nationale_de_France",
+0
+],
+[
+"University of Pennsylvania",
+"Collections",
+"89 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/University_of_Pennsylvania",
+0
+],
+[
+"New York University",
+"Collections",
+"79 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/New_York_University",
+0
+],
+[
+"Cornell University",
+"Collections",
+"73 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/Cornell_University",
+0
+],
+[
+"Boston Public Library",
+"Collections",
+"62 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/Boston_Public_Library",
+0
+],
+[
+"Lehigh University",
+"Collections",
+"59 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/Lehigh_University",
+0
+],
+[
+"University of Kansas",
+"Collections",
+"55 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/University_of_Kansas",
+0
+],
+[
+"Rochester Institute of Technology",
+"Collections",
+"55 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/Rochester_Institute_of_Technology",
+0
+],
+[
+"Wellesley College",
+"Collections",
+"46 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/Wellesley_College",
+0
+],
+[
+"Vassar College",
+"Collections",
+"41 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/Vassar_College",
+0
+],
+[
+"Rutgers University",
+"Collections",
+"39 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/Rutgers_University",
+0
+],
+[
+"Indiana University Bloomington",
+"Collections",
+"38 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/Indiana_University_Bloomington",
+0
+],
+[
+"Condé Museum",
+"Collections",
+"38 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/Condé_Museum",
+0
+],
+[
+"Saint Louis University",
+"Collections",
+"37 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/Saint_Louis_University",
+0
+],
+[
+"Bryn Mawr College",
+"Collections",
+"32 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/Bryn_Mawr_College",
+0
+],
+[
+"Fordham University",
+"Collections",
+"30 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/Fordham_University",
+0
+],
+[
+"Western Michigan University",
+"Collections",
+"28 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/Western_Michigan_University",
+0
+],
+[
+"University of California, Davis",
+"Collections",
+"26 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/University_of_California,_Davis",
+0
+],
+[
+"The Nelson-Atkins Museum of Art",
+"Collections",
+"22 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/The_Nelson-Atkins_Museum_of_Art",
+0
+],
+[
+"Ohio University",
+"Collections",
+"22 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/Ohio_University",
+0
+],
+[
+"Williams College",
+"Collections",
+"14 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/Williams_College",
+0
+],
+[
+"Conception Seminary College",
+"Collections",
+"13 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/Conception_Seminary_College",
+0
+],
+[
+"University of Rochester",
+"Collections",
+"11 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/University_of_Rochester",
+0
+],
+[
+"New York Academy of Medicine",
+"Collections",
+"10 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/New_York_Academy_of_Medicine",
+0
+],
+[
+"General Theological Seminary",
+"Collections",
+"10 Gothic manuscripts or leaves in the gathered records (Wikidata, much from Digital Scriptorium)",
+"r3 https://en.wikipedia.org/wiki/General_Theological_Seminary",
+0
 ],
 [
 "Jean Pucelle",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Herman Scheerre",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Master of the Livre du Sacre",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Bourgot",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Master of the Berry Apocalypse",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Master of the City of Ladies",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Maître de Marguerite d'Orléans",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Master of the Harvard Hannibal",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Master of Mansel",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Master of Fitzwilliam 268",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Master of the London Wavrin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Bruges Master of 1482",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Master of the Cardinal de Bourbon",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Richard of Verdun",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Rambures Master",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Master of the Flemish Boethius",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Master of Edward IV",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Master of Berry’s Cleres Femmes",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Master of the Vraie Cronicque descoce",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Master of the Getty Froissart",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Master of the Vienna Chronique d'Angleterre",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Master of the Grisailles fleurdelisées",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Master of the Vienna and Copenhagen Toison d’Or",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Master of the Moral Treatises",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Master of the Houghton Miniatures",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Ende",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Colard Mansion",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Maria Ormani",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Master of Egerton",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Cresques Abraham",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Master of the Breviary of John the Fearless",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Master of the Champion des Dames",
-"Artists",
-"",
+"Parisian court illuminators",
+"Gothic illuminator active in Paris",
 "artists",
 1
 ],
 [
 "Pseudo-Jacquemart",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Anastasia",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Bartolomeo Sanvito",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Cristoforo de Predis",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"First Master of the Bible Historiale of Jean de Berry",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Spitz Master",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Folchardus",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Jacques Daliwe",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Toros Roslin",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Vigila",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"William de Brailes",
-"Artists",
-"",
-"artists",
-1
-],
-[
-"Master of the Boqueteaux",
-"Artists",
-"",
+"Parisian court illuminators",
+"Gothic illuminator active in Paris",
 "artists",
 1
 ],
 [
 "Master of 1328",
-"Artists",
-"",
+"Parisian court illuminators",
+"Gothic illuminator active in Paris",
+"artists",
+1
+],
+[
+"Anastasia",
+"Parisian court illuminators",
+"Gothic illuminator active in Paris",
+"artists",
+1
+],
+[
+"First Master of the Bible Historiale of Jean de Berry",
+"Parisian court illuminators",
+"Gothic illuminator active in Paris",
+"artists",
+1
+],
+[
+"Mazarine Master",
+"Parisian court illuminators",
+"Gothic illuminator active in Paris",
+"artists",
+1
+],
+[
+"Orosius Master",
+"Parisian court illuminators",
+"Gothic illuminator active in Paris",
+"artists",
+1
+],
+[
+"Virgil Master",
+"Parisian court illuminators",
+"Gothic illuminator active in Paris",
+"artists",
+1
+],
+[
+"Luçon Master",
+"Parisian court illuminators",
+"Gothic illuminator active in Paris",
+"artists",
+1
+],
+[
+"Master of the Livre du Sacre",
+"Parisian court illuminators",
+"Gothic illuminator active in Paris",
+"artists",
+1
+],
+[
+"Master of the City of Ladies",
+"Parisian court illuminators",
+"Gothic illuminator active in Paris",
+"artists",
+1
+],
+[
+"Master of the Harvard Hannibal",
+"Parisian court illuminators",
+"Gothic illuminator active in Paris",
+"artists",
+1
+],
+[
+"Master of Egerton",
+"Parisian court illuminators",
+"Gothic illuminator active in Paris",
+"artists",
+1
+],
+[
+"Master of the Breviary of John the Fearless",
+"Parisian court illuminators",
+"Gothic illuminator active in Paris",
+"artists",
+1
+],
+[
+"Spitz Master",
+"Parisian court illuminators",
+"Gothic illuminator active in Paris",
+"artists",
+1
+],
+[
+"Master of the Boqueteaux",
+"Parisian court illuminators",
+"Gothic illuminator active in Paris",
+"artists",
+1
+],
+[
+"Maître Frana",
+"Parisian court illuminators",
+"Gothic illuminator active in Paris",
+"artists",
+1
+],
+[
+"Bourgot",
+"Parisian court illuminators",
+"Gothic illuminator active in Paris",
+"artists",
+1
+],
+[
+"Master of the Berry Apocalypse",
+"Parisian court illuminators",
+"Gothic illuminator active in Paris",
+"artists",
+1
+],
+[
+"Master of Berry’s Cleres Femmes",
+"Parisian court illuminators",
+"Gothic illuminator active in Paris",
+"artists",
+1
+],
+[
+"Maître de Marguerite d'Orléans",
+"Provincial French masters (Loire, Picardy)",
+"Gothic illuminator of provincial France",
+"artists",
+1
+],
+[
+"Master of the Cardinal de Bourbon",
+"Provincial French masters (Loire, Picardy)",
+"Gothic illuminator of provincial France",
+"artists",
+1
+],
+[
+"Rambures Master",
+"Provincial French masters (Loire, Picardy)",
+"Gothic illuminator of provincial France",
+"artists",
+1
+],
+[
+"Master of the Grisailles fleurdelisées",
+"Provincial French masters (Loire, Picardy)",
+"Gothic illuminator of provincial France",
+"artists",
+1
+],
+[
+"William de Brailes",
+"English illuminators",
+"Gothic illuminator active in England",
+"artists",
+1
+],
+[
+"Herman Scheerre",
+"English illuminators",
+"Gothic illuminator active in England",
+"artists",
+1
+],
+[
+"Jacques Daliwe",
+"Burgundian Netherlands (Flemish) workshops",
+"illuminator of the Burgundian Netherlands, 15th c.",
+"artists",
+1
+],
+[
+"Colard Mansion",
+"Burgundian Netherlands (Flemish) workshops",
+"illuminator of the Burgundian Netherlands, 15th c.",
+"artists",
+1
+],
+[
+"Master of Mansel",
+"Burgundian Netherlands (Flemish) workshops",
+"illuminator of the Burgundian Netherlands, 15th c.",
+"artists",
+1
+],
+[
+"Master of Fitzwilliam 268",
+"Burgundian Netherlands (Flemish) workshops",
+"illuminator of the Burgundian Netherlands, 15th c.",
+"artists",
+1
+],
+[
+"Master of the London Wavrin",
+"Burgundian Netherlands (Flemish) workshops",
+"illuminator of the Burgundian Netherlands, 15th c.",
+"artists",
+1
+],
+[
+"Bruges Master of 1482",
+"Burgundian Netherlands (Flemish) workshops",
+"illuminator of the Burgundian Netherlands, 15th c.",
+"artists",
+1
+],
+[
+"Richard of Verdun",
+"Burgundian Netherlands (Flemish) workshops",
+"illuminator of the Burgundian Netherlands, 15th c.",
+"artists",
+1
+],
+[
+"Master of the Flemish Boethius",
+"Burgundian Netherlands (Flemish) workshops",
+"illuminator of the Burgundian Netherlands, 15th c.",
+"artists",
+1
+],
+[
+"Master of Edward IV",
+"Burgundian Netherlands (Flemish) workshops",
+"illuminator of the Burgundian Netherlands, 15th c.",
+"artists",
+1
+],
+[
+"Master of the Vraie Cronicque descoce",
+"Burgundian Netherlands (Flemish) workshops",
+"illuminator of the Burgundian Netherlands, 15th c.",
+"artists",
+1
+],
+[
+"Master of the Getty Froissart",
+"Burgundian Netherlands (Flemish) workshops",
+"illuminator of the Burgundian Netherlands, 15th c.",
+"artists",
+1
+],
+[
+"Master of the Vienna Chronique d'Angleterre",
+"Burgundian Netherlands (Flemish) workshops",
+"illuminator of the Burgundian Netherlands, 15th c.",
+"artists",
+1
+],
+[
+"Master of the Vienna and Copenhagen Toison d’Or",
+"Burgundian Netherlands (Flemish) workshops",
+"illuminator of the Burgundian Netherlands, 15th c.",
+"artists",
+1
+],
+[
+"Master of the Moral Treatises",
+"Burgundian Netherlands (Flemish) workshops",
+"illuminator of the Burgundian Netherlands, 15th c.",
+"artists",
+1
+],
+[
+"Master of the Houghton Miniatures",
+"Burgundian Netherlands (Flemish) workshops",
+"illuminator of the Burgundian Netherlands, 15th c.",
+"artists",
+1
+],
+[
+"Master of the Champion des Dames",
+"Burgundian Netherlands (Flemish) workshops",
+"illuminator of the Burgundian Netherlands, 15th c.",
+"artists",
+1
+],
+[
+"Maria Ormani",
+"Italian illuminators",
+"Florentine illuminator-scribe, 15th c.",
+"artists",
+1
+],
+[
+"Márk Kálti",
+"Central European illuminators",
+"Hungarian illuminator of the Chronicon Pictum, 14th c.",
+"artists",
+1
+],
+[
+"Cresques Abraham",
+"Iberian illuminators and cartographers",
+"Majorcan cartographer-illuminator of the Catalan Atlas, 1375",
+"artists",
+1
+],
+[
+"Toros Roslin",
+"Eastern Christian illuminators in the data",
+"illuminator of the Armenian or Georgian tradition",
+"artists",
+1
+],
+[
+"Mikael Modrekili",
+"Eastern Christian illuminators in the data",
+"illuminator of the Armenian or Georgian tradition",
 "artists",
 1
 ]
@@ -37000,6 +38082,46 @@
 "Chimaera Painter",
 "E1-28",
 "E1-26"
+],
+[
+"Ende",
+"C2-29",
+"C2-23"
+],
+[
+"Bartolomeo Sanvito",
+"C2-29",
+"C2-25"
+],
+[
+"Cristoforo de Predis",
+"C2-29",
+"C2-25"
+],
+[
+"Folchardus",
+"C2-29",
+"C2-20"
+],
+[
+"Vigila",
+"C2-29",
+"C2-23"
+],
+[
+"William Lethaby",
+"K6-21",
+"K6-1"
+],
+[
+"Charles Robert Ashbee",
+"K6-21",
+"K6-1"
+],
+[
+"Émile Prisse d'Avennes",
+"K5-24",
+"K3-1"
 ]
 ],
 "dropped": [
@@ -37087,6 +38209,16 @@
 "E1-28",
 "(nameless row)",
 "empty name in the input; routed through moves_out only to satisfy the maker check, please discard"
+],
+[
+"H1-1",
+"Tabriz rug",
+"duplicate of Tabriz carpet"
+],
+[
+"H1-1",
+"Ardabil carpet weaving",
+"duplicate of Ardabil rug"
 ]
 ]
 }

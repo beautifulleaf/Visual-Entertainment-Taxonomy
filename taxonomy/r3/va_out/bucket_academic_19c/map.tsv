@@ -149,7 +149,6 @@ Paul Saïn	NEW:Orientalism
 Louis-Auguste Girardot	NEW:Orientalism
 Ludwig Deutsch	NEW:Orientalism
 Victor Huguet	NEW:Orientalism
-Hans Makart	NEW:Orientalism
 Eugène Lavieille	A5-35
 Victor Prouvé	I3-15
 Louis Majorelle	I3-15
@@ -651,8 +650,6 @@ Ferdinand Cheval	A5-80
 Thomas Brock	D5-116
 Thomas Woolner	A5-42
 Alexander Munro	A5-42
-Augustus Saint-Gaudens	G:American Renaissance
-Olin Levi Warner	G:American Renaissance
 Harriet Hosmer	G:White Marmorean Flock
 Emma Stebbins	G:White Marmorean Flock
 Edmonia Lewis	G:White Marmorean Flock
@@ -1054,18 +1051,18 @@ Hippolyte Maindron	X:D5-115:French Romantic sculpture
 Jean-Pierre Dantan	X:D5-115:French Romantic sculpture
 John-Étienne Chaponnière	X:D5-115:French Romantic sculpture
 Étienne-Jules Ramey	X:D5-115:French Romantic sculpture
-Antonio Canova	G:Canova and his school
+Antonio Canova	X:D5-114:Canova and his school
 Pompeo Marchesi	G:Canova and his school
 Adamo Tadolini	G:Canova and his school
 Rinaldo Rinaldi	G:Canova and his school
-Antonio Solà	G:Canova and his school
+Antoni Solà	G:Canova and his school
 Bertel Thorvaldsen	G:Thorvaldsen and his workshop
 Hermann Ernst Freund	G:Thorvaldsen and his workshop
 Herman Wilhelm Bissen	G:Thorvaldsen and his workshop
 Pietro Tenerani	G:Thorvaldsen and his workshop
 Luigi Bienaimé	G:Thorvaldsen and his workshop
-Jens Adolf Jerichau	G:Thorvaldsen and his workshop
-Johann Gottfried Schadow	G:Berlin school of sculpture
+Jens Adolf Jerichau	X:D5-114:Thorvaldsen and his workshop
+Johann Gottfried Schadow	X:D5-114:Berlin school of sculpture
 Christian Daniel Rauch	G:Berlin school of sculpture
 Christian Friedrich Tieck	G:Berlin school of sculpture
 Rudolph Schadow	G:Berlin school of sculpture
@@ -1254,9 +1251,10 @@ John William North	G:Idyllic school
 Simon Hollósy	G:Nagybánya artists' colony
 János Thorma	G:Nagybánya artists' colony
 Oszkár Nagy	G:Nagybánya artists' colony
-Oda Krohg	G:Norway
 John James Audubon	X:A5-31
 Rosa Bonheur	X:A5-40
 Auguste Bonheur	X:A5-40
 Christian Wilhelm Allers	B1-5
 Ellen Thesleff	NEW:Golden Age of Finnish Art
+Virginie Demont-Breton	G:Wissant school
+Adrien Demont	X:A5-45:Wissant school

@@ -1,0 +1,689 @@
+@D1-1
+axis: sub-types (the three Samarra styles) first, then the site and its palaces, then titled works (rule below), then Collections
+cat: https://collections.vam.ac.uk/search/?q=Samarra | V&A collection search: Samarra | the Herzfeld excavation share of Samarra stucco and wall fragments
+cat: https://www.britishmuseum.org/collection/search?keyword=Samarra | British Museum collection search: Samarra | Samarra finds from the 1911–13 excavations
+cat: https://whc.unesco.org/en/list/276 | UNESCO World Heritage: Samarra Archaeological City | the inscribed site and its palace and mosque remains
++ Sub-types | Samarra Style A (vine-scroll style) | first style: deeply carved vine scrolls and leaves within framed fields, 9th century | Samarra | 0
++ Sub-types | Samarra Style B | second style: stylised, less naturalistic leaf forms in sunken relief, 9th century | Samarra | 0
++ Sub-types | Samarra Style C (bevelled style) | third style: moulded abstract curves cut on a slant, spread across the Abbasid world (Ibn Tulun Mosque) | Bevelled_style | 0
++ Centres & workshops | Samarra (Abbasid capital, 836–892) | the caliphal capital on the Tigris whose palaces and houses carried the stucco dadoes | Samarra | 0
++ Centres & workshops | Dar al-Khilafa (Jawsaq al-Khaqani) | the caliphal palace at Samarra, source of many excavated stucco panels | Samarra | 0
++ Centres & workshops | Mosque of Ibn Tulun, Cairo | 876–879 mosque whose stucco soffits carry the Samarra bevelled style to Egypt | Mosque_of_Ibn_Tulun | 0
+
+@D1-2
+axis: sub-types of carved stucco first, then centres (Nasrid palaces and Mudéjar workshops), then titled works (rule below), then Collections
+cat: https://collections.vam.ac.uk/search/?q=Nasrid | V&A collection search: Nasrid | Alhambra plaster casts and stucco panels in the V&A
+cat: https://www.alhambra-patronato.es/en | Patronato de la Alhambra y Generalife | the Alhambra and its museum (Museo de la Alhambra)
+cat: https://whc.unesco.org/en/list/314 | UNESCO World Heritage: Alhambra, Generalife and Albayzín, Granada | the inscribed palace complex
++ Sub-types | Muqarnas vaulting | honeycomb stucco vaults of the Hall of the Abencerrajes and Hall of the Two Sisters | Muqarnas | 0
++ Sub-types | Sebka panels | lozenge-net carved stucco wall panels of Nasrid and Mudéjar buildings | Sebka | 0
++ Sub-types | Epigraphic stucco (poems of Ibn Zamrak) | carved stucco bands with verses by the court poet Ibn Zamrak in the Alhambra | Ibn_Zamrak | 0
++ Centres & workshops | Alhambra, Granada | Nasrid palace-city (13th–15th c.), the main body of yesería | Alhambra | 0
++ Centres & workshops | Generalife, Granada | Nasrid summer palace with carved stucco porticoes | Generalife | 0
++ Centres & workshops | Alcázar of Seville (Palace of Pedro I) | 1360s Mudéjar palace worked by Granadan and Toledan stucco carvers | Alcázar_of_Seville | 0
++ Centres & workshops | Synagogue of El Tránsito, Toledo | 1356 synagogue with Mudéjar yesería and Hebrew inscriptions | Synagogue_of_El_Tránsito | 0
+
+@D1-3
+axis: sub-types first, then palaces (centres) in date order, then named relief series, then Collections
+defn: Carved gypsum (Mosul alabaster) orthostat reliefs from Neo-Assyrian palaces, 9th–7th century BC, with lamassu gateway figures: Ashurnasirpal II at Nimrud, Sennacherib's Lachish reliefs, Ashurbanipal's lion hunt at Nineveh.
+cat: https://www.britishmuseum.org/collection/search?keyword=Assyrian%20relief | British Museum collection search: Assyrian relief | the largest holding of Nimrud and Nineveh palace reliefs
+cat: https://www.metmuseum.org/art/collection/search?q=Assyrian%20relief | Met collection search: Assyrian relief | Nimrud reliefs in New York
+cat: https://en.wikipedia.org/wiki/Assyrian_sculpture | Wikipedia: Assyrian sculpture | overview with lists of palaces and dispersed reliefs
+= Neo-Assyrian palace reliefs | Sub-types | the narrative and genie orthostat slabs that line palace rooms | evidence
++ Sub-types | Lamassu | human-headed winged bull and lion gateway figures | Lamassu | 0
++ Centres & workshops | Northwest Palace, Nimrud | palace of Ashurnasirpal II (c. 879 BC), earliest relief programme | Northwest_Palace | 0
++ Centres & workshops | Palace of Sargon II, Dur-Sharrukin (Khorsabad) | 717–706 BC palace whose lamassu are in Paris and Chicago | Dur-Sharrukin | 0
++ Centres & workshops | Southwest Palace, Nineveh | Sennacherib's "Palace without Rival" with the Lachish reliefs | Nineveh | 0
++ Centres & workshops | North Palace, Nineveh | Ashurbanipal's palace with the lion-hunt reliefs | Nineveh | 0
++ Relief series | Lachish reliefs | Sennacherib's siege of Lachish (701 BC), Southwest Palace, Nineveh; British Museum, London | Lachish_reliefs | 0
++ Relief series | Royal Lion Hunt of Ashurbanipal | c. 645–635 BC, North Palace, Nineveh; British Museum, London | Lion_Hunt_of_Ashurbanipal | 0
++ Relief series | Balawat Gates | bronze gate bands of Shalmaneser III, 9th c. BC; British Museum, London | Balawat_Gates | 0
++ Relief series | Black Obelisk of Shalmaneser III | 825 BC relief obelisk from Nimrud; British Museum, London | Black_Obelisk_of_Shalmaneser_III | 0
++ Relief series | Garden Party relief (Ashurbanipal) | Ashurbanipal and his queen feasting, North Palace, Nineveh; British Museum, London | Ashurbanipal | 0
+
+@D2-1
+axis: centres and workshops first, then titled works (rule below), then Collections, then makers
+cat: https://collections.vam.ac.uk/search/?q=ivory%20Cordoba | V&A collection search: ivory Cordoba | caliphal ivory caskets and pyxides in London
+cat: https://www.metmuseum.org/art/collection/search?q=ivory%20Spain%20Umayyad | Met collection search: Umayyad Spain ivory | Andalusian ivories in New York
+= 'Abd al-Rahman ibn Zayyan | Makers | carver named on the Palencia ivory casket, Cuenca workshop (1049/50) | islamic_makers
+a ‘Abd al-Rahman bin Zaywan
++ Centres & workshops | Madinat al-Zahra | the caliphal palace-city of Córdoba whose workshops carved the 10th-century ivories | Madinat_al-Zahra | 0
++ Centres & workshops | Cuenca workshop | 11th-century taifa workshop of the Dhu'l-Nunids (Palencia casket) | Cuenca,_Spain | 0
++ Works | Pyxis of al-Mughira | 968, carved for Prince al-Mughira; Louvre, Paris | Pyxis_of_al-Mughira | 0
++ Works | Leyre Casket | 1004/5, made for 'Abd al-Malik; Museo de Navarra, Pamplona | Leyre_Casket | 0
++ Works | Zamora Pyxis | 964, for Subh, consort of al-Hakam II; Museo Arqueológico Nacional, Madrid | Pyxis_of_Zamora | 0
+
+@D2-2
+axis: sub-types first, then centres, then titled works (rule below), then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=Siculo-Arabic | Met collection search: Siculo-Arabic | painted ivory caskets in New York
+cat: https://collections.vam.ac.uk/search/?q=Siculo-Arabic | V&A collection search: Siculo-Arabic | painted ivory caskets in London
++ Sub-types | Painted ivory caskets | ivory boxes painted and gilded with birds, hunters and Arabic good-wish inscriptions | Siculo-Arabic_ivories | 0
++ Sub-types | Oliphants | carved ivory horns of the 11th–12th century attributed to southern Italian workshops | Oliphant | 0
++ Centres & workshops | Palermo | Norman royal capital whose court workshops are credited with the painted caskets | Palermo | 0
++ Centres & workshops | Cappella Palatina, Palermo | Norman royal chapel whose treasury holds painted ivory caskets | Palatine_Chapel,_Palermo | 0
+
+@D2-3
+axis: centre first, then titled works (rule below), then Collections
+cat: https://www.clevelandart.org/art/collection/search?search=Begram | Cleveland Museum of Art search: Begram | the Begram ivory plaques outside Kabul
+cat: https://www.guimet.fr/collections/ | Musée Guimet collections | the Paris share of the Begram treasure
+= Begram | Centres & workshops | Kushan summer capital (Kapisa) where the 1937–39 French excavations found the hoard | evidence
++ Centres & workshops | National Museum of Afghanistan, Kabul | holds the Kabul share of the Begram ivories, partly lost and recovered after 1990s looting | National_Museum_of_Afghanistan | 0
++ Sub-types | Begram hoard | the sealed rooms of ivories, Roman glass, bronzes and Chinese lacquer found at Begram | Begram | 0
+
+@D2-4
+axis: phases first, then schools and centres, then named carvers by date, then titled works (rule below), then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=netsuke | Met collection search: netsuke | netsuke in New York
+cat: https://collections.vam.ac.uk/search/?q=netsuke | V&A collection search: netsuke | the V&A netsuke collection
+cat: https://www.britishmuseum.org/collection/search?keyword=netsuke | British Museum collection search: netsuke | netsuke in London
+= Meiji netsuke | Schools & phases | late netsuke of the Meiji period (1868–1912), much made for export | evidence
+a Netsuke carving
++ Sub-types | Katabori netsuke | compact figure carvings in the round, the classic form | Netsuke | 0
++ Sub-types | Manjū netsuke | flat round bun-shaped netsuke carved in relief | Netsuke | 0
++ Sub-types | Sashi netsuke | elongated netsuke tucked into the sash | Netsuke | 0
++ Sub-types | Kagamibuta netsuke | bowl with a metal lid disc, made by metalworkers | Netsuke | 0
++ Schools & phases | Kyoto school | 18th-century Kyoto carvers of ivory animals (Tomotada, Okatomo, Masanao) | Netsuke | 0
++ Schools & phases | Hida (Takayama) school | ittōbori yew-wood carving of Matsuda Sukenaga | Netsuke | 0
++ Makers | Tomotada | 18th-century Kyoto carver famed for ivory oxen and dogs | Netsuke | 1
++ Makers | Masanao of Kyoto | 18th-century Kyoto ivory carver listed in the Sōken Kishō (1781) | Netsuke | 1
++ Makers | Kaigyokusai Masatsugu | 1813–1892, Osaka ivory carver of the 19th century | Kaigyokusai_Masatsugu | 1
++ Makers | Ohara Mitsuhiro | 1810–1875, Osaka carver | Netsuke | 1
+
+@D2-5
+axis: centres and guilds first, then sub-types, then titled works (rule below), then Collections, then makers
+cat: https://www.britishmuseum.org/collection/search?keyword=Benin%20ivory | British Museum collection search: Benin ivory | carved tusks and masks from Benin City
+cat: https://www.metmuseum.org/art/collection/search?q=Benin%20ivory | Met collection search: Benin ivory | Benin and Owo ivories in New York
+cat: https://digitalbenin.org/ | Digital Benin | the online catalogue of Benin objects dispersed after 1897
+= Owo art | Centres & workshops | Owo, Yoruba kingdom east of Benin whose ivory carvers also worked for the Oba | gap_sweep
+= Obamadesara | Makers | Owo ivory carver named in museum records | evidence
+a Yoruba, Owo group
+a Owo-Yoruba
++ Centres & workshops | Igbesanmwan guild | Benin City guild of ivory and wood carvers serving the Oba | Benin_Ivory_Mask | 0
++ Sub-types | Carved altar tusks | elephant tusks carved in spiral registers for royal ancestral altars | Benin_Bronzes | 0
++ Sub-types | Pendant masks of Queen Mother Idia | 16th-century ivory hip masks of Idia, mother of Oba Esigie | Benin_Ivory_Mask | 0
++ Works | Queen Idia pendant mask (British Museum) | 16th century; British Museum, London | Benin_Ivory_Mask | 0
++ Works | Queen Idia pendant mask (Metropolitan Museum) | 16th century; The Met, New York | Benin_Ivory_Mask | 0
+
+@D2-6
+axis: sub-types (by carving centre) first, then titled works (rule below), then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=Afro-Portuguese | Met collection search: Afro-Portuguese | salt cellars and oliphants in New York
+cat: https://www.britishmuseum.org/collection/search?keyword=Afro-Portuguese | British Museum collection search: Afro-Portuguese | salt cellars and horns in London
+= Sapi-Portuguese | Sub-types | ivories carved by Sapi masters of the Sierra Leone coast, c. 1490–1540 | evidence
+- Sapi stone figures (nomoli, pomdo) and Sapi-Portuguese ivori | museum culture label restating the leaf and Nomoli (D5-40)
++ Sub-types | Bini-Portuguese ivories | ivories carved at Benin City for Portuguese patrons | Afro-Portuguese_ivories | 0
++ Sub-types | Kongo oliphants | side-blown ivory horns from the Kongo kingdom | Afro-Portuguese_ivories | 0
++ Sub-types | Salt cellars | lidded saltcellars on figural bases, the main Sapi export form | Afro-Portuguese_ivories | 0
++ Makers | Master of the Heraldic Ship | Sapi carver of saltcellars and horns, early 16th century | Afro-Portuguese_ivories | 1
++ Makers | Master of the Symbolic Execution | Sapi carver of a saltcellar in Vienna, early 16th century | Afro-Portuguese_ivories | 1
+
+@D2-7
+axis: sub-types (stylistic groups) first, then find-spots, then titled works, then Collections
+cat: https://www.britishmuseum.org/collection/search?keyword=Nimrud%20ivory | British Museum collection search: Nimrud ivory | the Nimrud ivories in London
+cat: https://www.metmuseum.org/art/collection/search?q=Nimrud%20ivory | Met collection search: Nimrud ivory | Nimrud ivories in New York
+= Phoenician style | Sub-types | Egyptianising openwork and inlaid plaques of Phoenician workshops | evidence
+= North Syrian style | Sub-types | heavier-figured plaques of North Syrian workshops | evidence
++ Sub-types | Assyrian style | incised ivories in the court style of the palace reliefs | Nimrud_ivories | 0
++ Centres & workshops | Fort Shalmaneser, Nimrud | royal arsenal where Mallowan found thousands of stored ivories | Nimrud | 0
++ Centres & workshops | Northwest Palace wells, Nimrud | wells that yielded the Lioness and Woman at the Window ivories | Nimrud | 0
++ Works | Ivory of a lioness devouring a boy | c. 9th–8th c. BC, Phoenician; British Museum, London | Nimrud_ivories | 0
++ Works | Mona Lisa of Nimrud | c. 8th c. BC ivory female head; Iraq Museum, Baghdad | Nimrud_ivories | 0
++ Works | Woman at the Window plaques | c. 9th–8th c. BC Phoenician plaques; British Museum, London | Woman_at_the_window | 0
+
+@D2-8
+axis: sub-types (object classes) first, then named groups and workshops, then titled works, then Collections
+cat: https://www.britishmuseum.org/collection/search?keyword=Byzantine%20ivory | British Museum collection search: Byzantine ivory | Byzantine ivories in London
+cat: https://www.metmuseum.org/art/collection/search?q=Byzantine%20ivory | Met collection search: Byzantine ivory | Byzantine ivories in New York
+cat: https://collections.vam.ac.uk/search/?q=Byzantine%20ivory | V&A collection search: Byzantine ivory | Byzantine ivories including the Veroli Casket
++ Sub-types | Consular diptychs | hinged ivory leaves issued by consuls on taking office, 5th–6th century | Consular_diptych | 0
++ Sub-types | Imperial diptychs | five-part diptychs celebrating emperors | Barberini_ivory | 0
++ Sub-types | Rosette caskets | boxes framed with rosette borders and classical figures, 10th–11th century | Veroli_Casket | 0
++ Sub-types | Ivory icons and triptychs | Middle Byzantine devotional panels (Harbaville Triptych) | Harbaville_Triptych | 0
++ Schools & phases | Romanos group | mid-10th-century court workshop named from the Romanos and Eudokia ivory | Romanos_Ivory | 0
++ Schools & phases | Nikephoros group | later 10th-century court workshop group | Byzantine_art | 0
++ Works | Barberini ivory | 6th-century imperial diptych leaf; Louvre, Paris | Barberini_ivory | 0
++ Works | Archangel ivory | early 6th-century diptych leaf with St Michael; British Museum, London | Archangel_ivory | 0
++ Works | Throne of Maximian | 6th-century ivory-panelled cathedra; Museo Arcivescovile, Ravenna | Throne_of_Maximian | 0
++ Works | Veroli Casket | 10th-century rosette casket with classical scenes; V&A, London | Veroli_Casket | 0
++ Works | Harbaville Triptych | mid-10th-century ivory triptych; Louvre, Paris | Harbaville_Triptych | 0
++ Works | Romanos ivory | 10th-century plaque of Christ crowning Romanos and Eudokia; BnF, Paris | Romanos_Ivory | 0
+
+@D2-9
+axis: phases (archaeological cultures) first, then centres (islands and villages), then titled works (rule below), then Collections
+cat: https://collections.si.edu/search/results.htm?q=ivory+Inupiaq | Smithsonian collections search: Iñupiaq ivory | NMAI and NMNH Bering Strait ivories
+cat: https://www.museumofthenorth.org/ | University of Alaska Museum of the North | Alaska's main holding of St Lawrence Island ivories
+= St Lawrence Island | Centres & workshops | Siberian Yupik island whose sites yielded Okvik and Old Bering Sea ivories | evidence
+= King Island | Centres & workshops | Iñupiaq island village famed for 20th-century ivory carvers | evidence
++ Schools & phases | Okvik style | earliest engraved ivory style of the Bering Strait, c. 250 BC–AD 100 | Okvik | 0
++ Schools & phases | Old Bering Sea culture | finely engraved ivory harpoon parts and winged objects, c. 200 BC–AD 500 | Old_Bering_Sea_culture | 0
++ Schools & phases | Ipiutak culture | Point Hope ivory openwork and masks, c. AD 1–800 | Ipiutak_culture | 0
++ Schools & phases | Punuk culture | successor style of St Lawrence Island, c. AD 800–1200 | Punuk_culture | 0
++ Centres & workshops | Point Hope (Tikiġaq) | Iñupiat village at the Ipiutak site | Point_Hope,_Alaska | 0
++ Makers | Happy Jack (Angokwazhuk) | c. 1870–1918, Nome ivory engraver | Happy_Jack_(artist) | 1
+
+@D2-10
+axis: sub-types (by engraved theme) first, then centres (mound sites), then titled works (rule below), then Collections
+cat: https://collections.si.edu/search/results.htm?q=shell+gorget | Smithsonian collections search: shell gorget | NMAI and NMNH engraved gorgets
+cat: https://www.metmuseum.org/art/collection/search?q=shell%20gorget | Met collection search: shell gorget | gorgets in New York
++ Sub-types | Spider gorgets | gorgets engraved with a spider and cross motif | Gorget | 0
++ Sub-types | Rattlesnake gorgets | Tennessee and Citico-style gorgets with coiled rattlesnakes | Southeastern_Ceremonial_Complex | 0
++ Sub-types | Cross-in-circle gorgets | the sun-cross motif of the Southeastern Ceremonial Complex | Southeastern_Ceremonial_Complex | 0
++ Sub-types | Birdman gorgets | Falcon Dancer imagery shared with copper plates | Birdman_(Mississippian) | 0
++ Centres & workshops | Spiro Mounds | Oklahoma mound centre with the largest cache of engraved shell | Spiro_Mounds | 0
++ Centres & workshops | Etowah Indian Mounds | Georgia mound centre with engraved shell and copper | Etowah_Indian_Mounds | 0
++ Centres & workshops | Moundville | Alabama mound centre with engraved shell and stone | Moundville_Archaeological_Site | 0
+
+@D2-11
+axis: sub-types (object classes) first, then centres, then titled works, then Collections
+cat: http://www.gothicivories.courtauld.ac.uk/ | Gothic Ivories Project (Courtauld) | online corpus of over 5,000 Gothic ivories
+cat: https://collections.vam.ac.uk/search/?q=Gothic%20ivory | V&A collection search: Gothic ivory | Gothic ivories in London
+cat: https://www.metmuseum.org/art/collection/search?q=Gothic%20ivory | Met collection search: Gothic ivory | Gothic ivories in New York
++ Sub-types | Devotional diptychs | folding ivory panels of the Passion and Virgin, Paris, 14th century | Gothic_ivory | 0
++ Sub-types | Virgin and Child statuettes | standing ivory Madonnas following the tusk's curve | Gothic_ivory | 0
++ Sub-types | Mirror cases | secular ivories of the Siege of the Castle of Love and courting couples | Gothic_ivory | 0
++ Sub-types | Composite caskets | boxes with romance scenes (Tristan, Lancelot) | Gothic_ivory | 0
++ Centres & workshops | Paris workshops | the leading centre of ivory carving from c. 1250 | Gothic_ivory | 0
++ Centres & workshops | Embriachi workshop | Venetian–Florentine bone and ivory altarpiece workshop, c. 1390–1430 | Embriachi_workshop | 0
++ Works | Virgin and Child from the Sainte-Chapelle | c. 1260–70; Louvre, Paris | Gothic_ivory | 0
++ Works | Soissons Diptych | c. 1250–70; V&A, London | Soissons_Diptych | 0
++ Works | Casket with Scenes of Romances | c. 1330–50, Paris; Walters Art Museum, Baltimore | Casket_with_Scenes_of_Romances_(Walters_71264) | 0
+
+@D2-12
+axis: sub-types first, then centres (whaling ports), then titled works (rule below), then Collections, then makers
+cat: https://www.whalingmuseum.org/ | New Bedford Whaling Museum | the largest scrimshaw collection
+cat: https://nha.org/ | Nantucket Historical Association (Whaling Museum) | Nantucket scrimshaw collection
+- Scrimshaw | museum label restating the leaf
++ Sub-types | Engraved sperm-whale teeth | the classic scrimshaw panbone and tooth engraving | Scrimshaw | 0
++ Sub-types | Jagging wheels (pie crimpers) | carved whale-ivory pastry tools | Scrimshaw | 0
++ Sub-types | Busks | engraved whalebone corset stays given as love tokens | Busk | 0
++ Sub-types | Swifts | collapsible yarn winders of whalebone | Scrimshaw | 0
++ Centres & workshops | New Bedford | Massachusetts whaling port, home of the main scrimshaw collection | New_Bedford_Whaling_Museum | 0
++ Centres & workshops | Nantucket | island whaling port and museum | Nantucket | 0
++ Makers | Edward Burdett | 1805–1833, earliest scrimshander known by name | Scrimshaw | 1
++ Makers | Frederick Myrick | fl. 1828–29, engraver of the Susan's Teeth | Scrimshaw | 1
+
+@D2-13
+axis: sub-types (hard and soft duodji, by material) first, then regional groups, then Collections
+cat: https://digitaltmuseum.no/search/?q=duodji | DigitaltMuseum search: duodji | Norwegian and Swedish museum holdings of Sámi duodji
+cat: https://www.europeana.eu/en/search?query=Sami%20duodji | Europeana search: Sami duodji | European museum records of Sámi handicraft
+- Sámi duodji | museum label restating the leaf
+= Sami / bone carving | Sub-types | hard duodji in antler and bone: knife handles, spoons and needle cases | europe_folk
+= Sami / woodcarving / woodwork | Sub-types | hard duodji in wood: guksi cups, boxes and spoons | europe_folk
+= Sami / metalwork | Sub-types | pewter-thread embroidery and silver work | europe_folk
+= Sami / leather | Sub-types | soft duodji in leather and fur | europe_folk
+= Sami / textiles | Sub-types | soft duodji in wool and cloth: gákti dress and woven bands | europe_folk
+= Kola Sámi (Lovozero) | Centres & workshops | Lovozero, Murmansk oblast, centre of Kola Sámi craft in Russian collections | evidence
++ Sub-types | Guksi | carved burl drinking cup, emblem of duodji | Guksi | 0
++ Sub-types | Gákti | the Sámi dress, chief work of soft duodji | Gákti | 0
++ Centres & workshops | Sámi Duodji (association) | the Sámi handicraft association and trademark | Duodji | 0
+
+@D2-14
+axis: centre and workshop first, then makers, then Collections
+cat: https://goskatalog.ru/portal/#/collections?q=Уэлен | Goskatalog search: Uelen | Russian State Catalogue of museum objects: Uelen ivory
+= Chukchi walrus-ivory engraving (Uelen) | Sub-types | engraved and coloured walrus tusks with narrative scenes of Chukchi life | europe_folk
+- Chukchi / bone carving | duplicate museum label for the leaf
++ Centres & workshops | Uelen bone-carving workshop | founded 1931 in Uelen, Chukotka; museum of the workshop | Uelen | 0
++ Makers | Vukvol | Chukchi engraver of the Uelen workshop, early generation | Uelen | 1
+
+@D2-15
+axis: centres first, then sub-types, then Collections
+cat: https://goskatalog.ru/portal/ | Goskatalog (State Catalogue of the Museum Fund of Russia) | searchable records of Tobolsk bone carving in Russian museums
+= Tobolsk bone carving | Sub-types | small mammoth-ivory and bone sculptures of northern life | europe_folk
++ Centres & workshops | Tobolsk | Siberian town, carving centre from the 18th century | Tobolsk | 0
++ Centres & workshops | Tobolsk Kremlin museum | museum-reserve holding Tobolsk carved bone | Tobolsk_Kremlin | 0
+
+@D2-16
+axis: sub-types first, then centres, then Collections
+cat: https://goskatalog.ru/portal/ | Goskatalog (State Catalogue of the Museum Fund of Russia) | searchable records of Yakut bone carving in Russian museums
+= Yakut bone carving | Sub-types | mammoth-ivory sculptural compositions and caskets of the Sakha | europe_folk
+- Yakut (Sakha) / bone carving | duplicate museum label for the leaf
++ Centres & workshops | Yakutsk | capital of Sakha, centre of mammoth-ivory carving | Yakutsk | 0
+
+@D2-17
+axis: sub-types first, then centres, then Collections
+cat: https://collections.vam.ac.uk/search/?q=shell%20cameo | V&A collection search: shell cameo | shell cameos in London
+= Torre del Greco shell and coral carving | Sub-types | shell cameo and coral carving of Torre del Greco · Possession: Cameo (A3) | possession https://en.wikipedia.org/wiki/Torre_del_Greco
++ Sub-types | Shell cameo | cameos cut from helmet and cowrie shells with the bulino | Cameo_(carving) | 0
++ Sub-types | Coral carving | carving of Mediterranean red coral into beads and figures | Precious_coral | 0
++ Centres & workshops | Torre del Greco | coastal town near Naples, coral and cameo centre since the 17th century | Torre_del_Greco | 0
+
+@D2-18
+axis: sub-types first, then centres and workshops, then named works, then Collections
+cat: https://www.britishmuseum.org/collection/search?keyword=walrus%20ivory | British Museum collection search: walrus ivory | Romanesque walrus ivories in London
+cat: https://collections.vam.ac.uk/search/?q=Romanesque%20ivory | V&A collection search: Romanesque ivory | Romanesque ivories in London
+= Norse walrus-ivory chessmen | Sub-types | carved walrus-ivory chess sets of the North · Possession: Lewis chessmen (E1) | possession https://en.wikipedia.org/wiki/Lewis_chessmen
++ Centres & workshops | Trondheim (Nidaros) | Norwegian centre proposed for the Lewis chessmen | Lewis_chessmen | 0
++ Centres & workshops | Canterbury | English centre of 12th-century walrus-ivory carving | Romanesque_art | 0
++ Works | Lewis chessmen | 12th century; British Museum, London and National Museum of Scotland | Lewis_chessmen | 0
++ Works | Cloisters Cross (Bury St Edmunds Cross) | 12th-century walrus-ivory cross; The Met Cloisters, New York | Cloisters_Cross | 0
++ Works | Gloucester Candlestick | c. 1110, gilt bronze, comparable workshop; V&A, London | Gloucester_Candlestick | 0
+
+@D3-1
+axis: sub-types first, then titled works (rule below), then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=Fatimid%20rock%20crystal | Met collection search: Fatimid rock crystal | rock crystal in New York
+cat: https://collections.vam.ac.uk/search/?q=rock%20crystal%20Fatimid | V&A collection search: Fatimid rock crystal | rock crystal in London
++ Sub-types | Rock crystal ewers | pear-shaped ewers carved in relief with animals, about seven survive | Fatimid_rock_crystal | 0
++ Sub-types | Hedwig-type cut ornament | relief cutting shared with Hedwig glass beakers | Hedwig_glass | 0
++ Works | Ewer of al-Aziz | c. 975–996, inscribed for caliph al-Aziz; Treasury of San Marco, Venice | Fatimid_rock_crystal | 0
++ Works | Fatimid ewer (V&A) | c. 1000; Victoria and Albert Museum, London | Fatimid_rock_crystal | 0
++ Works | Ewer of al-Hakim (Fieschi Morgan ewer) | c. 1000, Treasury of San Marco; or Louvre | Fatimid_rock_crystal | 0
+
+@D3-2
+axis: sub-types first, then named works, then Collections, then makers
+cat: https://collections.vam.ac.uk/search/?q=Mughal%20jade | V&A collection search: Mughal jade | Mughal jade in London, incl. Shah Jahan's cup
+cat: https://www.metmuseum.org/art/collection/search?q=Mughal%20jade | Met collection search: Mughal jade | Mughal jade in New York
+= Sa'ida-ye Gilani | Makers | goldsmith-poet and head of Jahangir's goldsmiths, maker of jade cups | islamic_makers
++ Sub-types | Wine cups and bowls | nephrite vessels carved with lotus and ibex-head handles | Wine_cup_of_Shah_Jahan | 0
++ Sub-types | Dagger hilts | jade hilts carved as horse and nilgai heads | Mughal_jade | 0
++ Works | Wine cup of Shah Jahan | 1657, white nephrite; V&A, London | Wine_cup_of_Shah_Jahan | 0
++ Works | Jade terrapin | early 17th c., from Allahabad; British Museum, London | Mughal_jade | 0
+
+@D3-3
+axis: phases (period) first, then sub-types, then titled works (rule below), then Collections
+cat: https://www.britishmuseum.org/collection/search?keyword=Chinese%20jade | British Museum collection search: Chinese jade | Chinese jades in London
+cat: https://www.metmuseum.org/art/collection/search?q=Chinese%20jade | Met collection search: Chinese jade | Chinese jades in New York
+cat: https://digicol.dpm.org.cn/ | Palace Museum Digital Collection | the Beijing Palace Museum's Qing jade holdings
++ Schools & phases | Hongshan culture jades | Neolithic pig-dragons and cloud pendants of Inner Mongolia and Liaoning | Hongshan_culture | 0
++ Schools & phases | Liangzhu culture jades | Neolithic cong and bi with mask motifs, Yangtze delta | Liangzhu_culture | 0
++ Schools & phases | Shang jades | ritual blades and animal pendants (Fu Hao tomb) | Tomb_of_Fu_Hao | 0
++ Schools & phases | Han burial jades | jade burial suits and plugs of the Han | Jade_burial_suit | 0
++ Schools & phases | Qianlong imperial jades | 18th-century palace jades, boulders and vessels | Qianlong_Emperor | 0
++ Sub-types | Bi disc | flat ring disc of Neolithic and later ritual | Bi_(jade) | 0
++ Sub-types | Cong | square-sectioned tube of Liangzhu ritual | Cong_(vessel) | 0
++ Sub-types | Jade burial suit | Han suits sewn of jade plates (Liu Sheng) | Jade_burial_suit | 0
++ Works | Jade burial suit of Liu Sheng | 2nd c. BC; Hebei Museum, Shijiazhuang | Jade_burial_suit | 0
++ Works | Jadeite Cabbage | Qing, 19th c.; National Palace Museum, Taipei | Jadeite_Cabbage | 0
+
+@D3-4
+axis: sub-types (by material) first, then centres, then titled works (rule below), then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=snuff%20bottle | Met collection search: snuff bottle | Chinese snuff bottles in New York
+cat: https://collections.vam.ac.uk/search/?q=snuff%20bottle | V&A collection search: snuff bottle | snuff bottles in London
++ Sub-types | Inside-painted snuff bottles | glass bottles painted from within, from c. 1800 | Snuff_bottle | 0
++ Sub-types | Glass snuff bottles | overlay and enamelled glass from the palace glassworks | Snuff_bottle | 0
++ Sub-types | Hardstone snuff bottles | jade, agate and chalcedony bottles | Snuff_bottle | 0
++ Sub-types | Porcelain snuff bottles | Jingdezhen moulded and painted bottles | Snuff_bottle | 0
++ Centres & workshops | Imperial glassworks, Beijing | palace workshop founded 1696 under Kangxi | Snuff_bottle | 0
++ Makers | Ye Zhongsan | 1869–1945, Beijing inside-painting master | Snuff_bottle | 1
+
+@D3-5
+axis: phases (by period and region) first, then sub-types, then titled works (rule below), then Collections
+cat: https://www.britishmuseum.org/collection/search?keyword=cylinder%20seal | British Museum collection search: cylinder seal | thousands of Mesopotamian seals in London
+cat: https://www.metmuseum.org/art/collection/search?q=cylinder%20seal | Met collection search: cylinder seal | cylinder seals in New York
+cat: https://cdli.mpiwg-berlin.mpg.de/ | Cuneiform Digital Library Initiative | catalogue including seal impressions and inscribed seals
+= Old Syrian glyptic | Schools & phases | seals of Syria in the early 2nd millennium BC | evidence
+= Stamp seals | Sub-types | the earlier stamped form that cylinder seals replaced | evidence
++ Schools & phases | Uruk and Jemdet Nasr seals | the first cylinder seals, c. 3500–2900 BC | Cylinder_seal | 0
++ Schools & phases | Akkadian glyptic | finely cut contest and mythological scenes, c. 2334–2154 BC | Akkadian_Empire | 0
++ Schools & phases | Ur III presentation seals | worshipper led before a seated deity, c. 2100–2000 BC | Third_Dynasty_of_Ur | 0
++ Schools & phases | Mitanni (Hurrian) glyptic | 2nd-millennium faience and stone seals | Mitanni | 0
++ Schools & phases | Neo-Assyrian glyptic | 1st-millennium cut and drilled seals | Neo-Assyrian_Empire | 0
++ Works | Adda Seal | Akkadian, c. 2300 BC; British Museum, London | Adda_Seal | 0
++ Works | Seal of Puabi | Early Dynastic III, Royal Cemetery at Ur; Penn Museum | Puabi | 0
+
+@D3-6
+axis: phases first, then sub-types (shapes), then titled works, then Collections
+cat: https://arachne.dainst.org/project/corpusminoischen | CMS: Corpus der minoischen und mykenischen Siegel (Arachne) | the corpus of all Aegean seals
+cat: https://www.britishmuseum.org/collection/search?keyword=Minoan%20seal | British Museum collection search: Minoan seal | Aegean sealstones in London
++ Schools & phases | Prepalatial seals | ivory and soft-stone seals, Early Minoan | Minoan_seals | 0
++ Schools & phases | Neopalatial hardstone seals | lentoids and amygdaloids cut on the wheel, 17th–15th c. BC | Minoan_seals | 0
++ Schools & phases | Mycenaean seals | mainland seals and gold signet rings | Minoan_seals | 0
++ Sub-types | Lentoid seal | lens-shaped sealstone | Minoan_seals | 0
++ Sub-types | Gold signet rings | engraved bezel rings with cult scenes | Ring_of_Minos | 0
++ Works | Griffin Warrior Combat Agate | c. 1450 BC, Pylos; Archaeological Museum of Chora | Pylos_Combat_Agate | 0
++ Works | Ring of Minos | gold signet ring; Heraklion Archaeological Museum | Ring_of_Minos | 0
++ Works | Ring of Nestor | gold signet ring; Ashmolean Museum, Oxford | Ring_of_Nestor | 0
+
+@D3-7
+axis: sub-types (Greek and Roman groups) first, then named gem engravers, then titled works, then Collections
+cat: https://www.beazley.ox.ac.uk/gems/ | Beazley Archive gems database | Classical engraved gems and impressions
+cat: https://www.britishmuseum.org/collection/search?keyword=intaglio | British Museum collection search: intaglio | Greek and Roman gems in London
+= Graeco-Persian gems | Sub-types | gems of Greek cutters for Achaemenid patrons, 5th–4th c. BC | evidence
+= Etruscan and Italic scarabs | Sub-types | carnelian scarabs of Etruria and Italy | evidence
+= Roman Republican gems | Sub-types | intaglios of the late Republic | evidence
++ Sub-types | Archaic Greek gems | scarabs and scaraboids of the 6th c. BC | Engraved_gem | 0
++ Sub-types | Imperial cameos | large sardonyx cameos of the Julio-Claudian court | Cameo_(carving) | 0
++ Makers | Dexamenos of Chios | 5th-c. BC Greek gem engraver who signed his work | Dexamenos | 1
++ Makers | Pyrgoteles | gem engraver of Alexander the Great | Pyrgoteles | 1
++ Makers | Dioskourides | Augustan gem engraver | Dioscurides_of_Samos | 1
++ Works | Gemma Augustea | Augustan sardonyx cameo; Kunsthistorisches Museum, Vienna | Gemma_Augustea | 0
++ Works | Great Cameo of France | c. AD 23, sardonyx; Bibliothèque nationale, Paris | Great_Cameo_of_France | 0
++ Works | Gemma Claudia | AD 49; Kunsthistorisches Museum, Vienna | Gemma_Claudia | 0
+
+@D3-8
+axis: sub-types (by culture) first, then titled works (rule below), then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=jadeite%20Mesoamerica | Met collection search: Mesoamerican jadeite | jades in New York
+cat: https://collections.si.edu/search/results.htm?q=jadeite+Mexico | Smithsonian collections search: jadeite Mexico | NMAI and NMNH greenstone
+= possibly Maya (archaeological culture) (attributed) | Sub-types | Maya jade: plaques, earspools and mosaic masks | smithsonian
+= possibly Mixteca (Mixtec) (archaeological culture) (attribut | Sub-types | Mixtec greenstone figures and ornaments | smithsonian
+- Maya (Mexico | museum culture label duplicating the Maya row
++ Sub-types | Olmec jade | celts, masks and were-jaguar figures | Olmec | 0
++ Sub-types | Costa Rican axe-god pendants | jadeite pendants of Guanacaste-Nicoya | Axe_god_pendant | 0
++ Works | Mask of Pakal | jade mosaic funerary mask, Palenque; Museo Nacional de Antropología | Mask_of_Pakal | 0
++ Works | Kunz Axe | Olmec jadeite figure; American Museum of Natural History | Kunz_Axe | 0
+
+@D3-9
+axis: sub-types first, then iwi (centres), then Collections
+cat: https://collections.tepapa.govt.nz/ | Te Papa Collections Online | hei-tiki and pounamu taonga at Te Papa
+cat: https://www.britishmuseum.org/collection/search?keyword=hei-tiki | British Museum collection search: hei-tiki | hei-tiki in London
+= Maori: Ngai Tahu | Centres & workshops | Ngāi Tahu, the South Island iwi holding the pounamu sources | africa_oceania_targeted
+a Māori pounamu carving
++ Sub-types | Hei-tiki | human-figure neck pendant | Hei-tiki | 0
++ Sub-types | Hei-matau | fish-hook pendant | Pounamu | 0
++ Sub-types | Mere pounamu | short flat greenstone club | Mere_(weapon) | 0
++ Sub-types | Pekapeka | bat-shaped double-figure pendant | Pounamu | 0
+
+@D3-10
+axis: centres (workshops) first, then makers, then titled works, then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=pietra%20dura | Met collection search: pietra dura | pietre dure in New York
+cat: https://collections.vam.ac.uk/search/?q=pietra%20dura | V&A collection search: pietra dura | pietre dure in London
+= Florentine commesso (Galleria dei Lavori) | Centres & workshops | Galleria dei Lavori (Opificio delle Pietre Dure), Florence, founded 1588 | evidence
+= Milan | Centres & workshops | Milanese hardstone carving workshops (Miseroni, Saracchi) | evidence
+= Rome | Centres & workshops | Roman pietre dure tables of the 16th–17th century | evidence
++ Centres & workshops | Opificio delle Pietre Dure | the Florentine grand-ducal workshop, now a conservation institute | Opificio_delle_Pietre_Dure | 0
++ Centres & workshops | Prague court workshop of Rudolf II | Castrucci workshop of Florentine pietre dure in Prague | Rudolf_II,_Holy_Roman_Emperor | 0
++ Sub-types | Parchin kari | Mughal hardstone inlay, Taj Mahal | Pietra_dura | 0
++ Makers | Castrucci family | Florentine inlayers working in Prague for Rudolf II | Pietra_dura | 1
++ Works | Badminton Cabinet | 1726–32, Florence; Liechtenstein Museum, Vienna | Badminton_Cabinet | 0
++ Works | Cappella dei Principi inlay | Medici chapel, San Lorenzo, Florence, from 1604 | Medici_Chapel | 0
+
+@D3-11
+axis: sub-types (by quarry) first, then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=inkstone | Met collection search: inkstone | inkstones in New York
+= Duan inkstone carving | Sub-types | Duan stone of Zhaoqing, Guangdong, the first of China's Four Famous Inkstones · Possession: Duan inkstone (C5) | possession https://en.wikipedia.org/wiki/Inkstone
+= She inkstone | Sub-types | black slate inkstones of She County and Wuyuan with gold-like markings | possession
+= Amehata suzuri | Sub-types | inkstones of Amehata River slate, Yamanashi, from the Edo period | possession
++ Sub-types | Tao inkstone | green Taohe stone of Gansu, one of the Four Famous Inkstones | Inkstone | 0
++ Sub-types | Chengni inkstone | fired-clay inkstone, one of the Four Famous Inkstones | Inkstone | 0
++ Sub-types | Akama suzuri | red-purple stone inkstones of Yamaguchi | Inkstone | 0
+
+@D3-12
+axis: sub-types first, then centres, then Collections
+cat: https://www.edelsteinmuseum.de/ | Deutsches Edelsteinmuseum, Idar-Oberstein | museum of the Idar-Oberstein gem trade
+= Idar-Oberstein agate cutting | Sub-types | agate and jasper cutting and carving on the Nahe · Possession: Agate and chalcedony (F6) | possession https://en.wikipedia.org/wiki/Idar-Oberstein
++ Centres & workshops | Historische Weiherschleife | water-driven agate grinding mill, now a museum | Idar-Oberstein | 0
++ Centres & workshops | Felsenkirche, Oberstein | rock church above the town, emblem of the gem town | Idar-Oberstein | 0
++ Sub-types | Animal carvings in agate | carved hardstone animal figures of the 20th century | Idar-Oberstein | 0
+
+@D4-1
+axis: sub-types (stock characters) first, then makers, then Collections
+cat: https://ich.unesco.org/en/RL/karagoz-00180 | UNESCO intangible heritage: Karagöz | the inscribed shadow theatre (2009)
+cat: https://www.metmuseum.org/art/collection/search?q=Karagoz | Met collection search: Karagöz | shadow puppets in New York
++ Sub-types | Karagöz | the plain-spoken commoner of the shadow play | Karagöz_and_Hacivat | 0
++ Sub-types | Hacivat | the pedantic educated foil | Karagöz_and_Hacivat | 0
++ Sub-types | Göstermelik | decorative screen figures set before the play | Karagöz_and_Hacivat | 0
++ Makers | Hayali Küçük Ali | 1886–1974, Istanbul Karagöz master | Karagöz_and_Hacivat | 1
++ Makers | Metin Özlen | 1940–2023, Karagöz master and puppet maker | Karagöz_and_Hacivat | 1
+
+@D4-2
+axis: regional sub-types first, then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=shadow%20puppet%20Andhra | Met collection search: Andhra shadow puppet | tholu bommalata in New York
+- Shadow puppetry of South India (tholu bommalata, togalu gomb | museum label restating the leaf
+= Togalu gombeyata | Sub-types | the Karnataka form with smaller leather puppets | evidence
++ Sub-types | Tholu bommalata (Andhra Pradesh) | large translucent leather puppets of Andhra | Tholu_bommalata | 0
++ Sub-types | Tholpavakoothu | Kerala temple shadow puppetry | Tholpavakoothu | 0
++ Sub-types | Ravanachhaya | Odisha shadow puppetry with opaque deer-skin figures | Ravanachhaya | 0
++ Centres & workshops | Nimmalakunta | Anantapur village of leather-puppet makers | Tholu_bommalata | 0
+
+@D4-3
+axis: sub-types first, then makers (dalang and puppet carvers) by date, then Collections
+cat: https://ich.unesco.org/en/RL/wayang-puppet-theatre-00063 | UNESCO intangible heritage: Wayang puppet theatre | the inscribed Indonesian puppet theatre (2008)
+cat: https://collectie.wereldculturen.nl/ | Wereldmuseum collection (NMVW) | the Dutch national holding of wayang
+- Wayang kulit (shadow puppets, Java / Bali) | museum label restating the leaf
+= Ki Kertiwanda | Makers | wayang kulit maker named on many museum puppets | evidence
+= Ki Bekel Prawirasucitra | Makers | wayang kulit maker named on museum puppets | evidence
+= Ki Enthus Susmono | Makers | 1966–2018, Tegal dalang and puppet innovator | evidence
+= Marto Suwondo | Makers | wayang kulit maker named on museum puppets | evidence
+= Raden Mas Sajid | Makers | Surakarta wayang kulit maker and writer | evidence
++ Sub-types | Wayang purwa | the Mahabharata and Ramayana cycle | Wayang_kulit | 0
++ Sub-types | Gunungan (kayon) | tree-of-life puppet opening and closing scenes | Gunungan | 0
++ Sub-types | Wayang kulit Bali | the Balinese shadow-puppet style | Wayang_kulit | 0
++ Makers | Ki Nartosabdho | 1925–1985, Central Javanese dalang | Ki_Nartosabdho | 1
++ Makers | Ki Manteb Soedharsono | 1948–2021, Javanese dalang | Manteb_Soedharsono | 1
+
+@D4-4
+axis: sub-types first, then centres, then makers, then Collections
+cat: https://ich.unesco.org/en/RL/wayang-puppet-theatre-00063 | UNESCO intangible heritage: Wayang puppet theatre | the inscribed Indonesian puppet theatre (2008)
+- Wayang golek (rod puppets, Sunda / Java) | museum label restating the leaf
+= Wayang klitik / krucil (flat wooden puppets) | Sub-types | flat carved wooden puppets of East Java | gap_sweep
++ Sub-types | Wayang golek purwa | Sundanese rod puppets for the Mahabharata and Ramayana | Wayang_golek | 0
++ Sub-types | Wayang golek menak | Central Javanese rod puppets for the Amir Hamzah cycle | Wayang_golek | 0
++ Centres & workshops | Bandung | Sundanese centre of wayang golek | Wayang_golek | 0
++ Makers | Asep Sunandar Sunarya | 1955–2014, Sundanese dalang of wayang golek | Asep_Sunandar_Sunarya | 1
+
+@D4-5
+axis: sub-types (by region) first, then Collections
+cat: https://collectie.wereldculturen.nl/ | Wereldmuseum collection (NMVW) | topeng masks in the Dutch national collection
+- Topeng masks (Java / Bali masked dance) | museum label restating the leaf
++ Sub-types | Topeng Cirebon | Panji masks of the five characters of Cirebon | Topeng_dance | 0
++ Sub-types | Topeng Malang | East Javanese wooden masks | Topeng_dance | 0
++ Sub-types | Topeng pajegan | Balinese solo masked dance | Topeng_dance | 0
++ Sub-types | Wayang topeng | the Javanese masked dance-drama of the Panji cycle | Wayang_topeng | 0
+
+@D4-6
+axis: sub-types first, then centres, then Collections
+- Thai shadow theatre (nang yai, nang talung) | museum label restating the leaf
+- Thai shadow puppets (nang yai, nang talung) | duplicate museum label
+= Nang talung | Sub-types | small jointed southern Thai shadow puppets | evidence
++ Sub-types | Nang yai | large single-panel hide figures of the court theatre | Nang_yai | 0
++ Centres & workshops | Wat Khanon, Ratchaburi | temple that keeps the nang yai tradition and its puppets | Nang_yai | 0
+
+@D4-7
+axis: sub-types first, then centres, then Collections
+cat: https://ich.unesco.org/en/RL/sbek-thom-khmer-shadow-theatre-00110 | UNESCO intangible heritage: Sbek Thom | the inscribed Khmer shadow theatre
+= Khmer shadow theatre (sbek thom) | Sub-types | large hide panels for the Reamker | gap_sweep
++ Sub-types | Sbek touch | the small-puppet Khmer shadow theatre | Sbek_thom | 0
++ Centres & workshops | Siem Reap | centre of sbek thom troupes and puppet makers | Sbek_thom | 0
+
+@D4-8
+axis: sub-types (stock characters) first, then Collections
+= Burmese marionettes (yoke thé) | Sub-types | the 28-figure court marionette set | gap_sweep
++ Sub-types | Zawgyi | the flying alchemist figure | Yoke_thé | 0
++ Sub-types | Nat figures | spirit figures of the marionette set | Yoke_thé | 0
++ Centres & workshops | Mandalay Marionettes Theater | Mandalay troupe keeping the court repertoire | Yoke_thé | 0
+
+@D4-9
+axis: regional sub-types first, then Collections
+cat: https://ich.unesco.org/en/RL/chinese-shadow-puppetry-00421 | UNESCO intangible heritage: Chinese shadow puppetry | the inscribed shadow theatre (2011)
+- Chinese shadow puppets (piyingxi) | museum label restating the leaf
++ Sub-types | Shaanxi shadow puppets | ox-hide puppets of the Wanwanqiang and Huaxian styles | Chinese_shadow_theatre | 0
++ Sub-types | Tangshan (Luanzhou) shadow puppets | donkey-hide puppets of Hebei | Chinese_shadow_theatre | 0
++ Sub-types | Sichuan shadow puppets | large cowhide puppets of Chengdu | Chinese_shadow_theatre | 0
+
+@D4-10
+axis: sub-types first, then centres, then makers, then Collections
+cat: https://ich.unesco.org/en/RL/ningyo-johruri-bunraku-puppet-theatre-00076 | UNESCO intangible heritage: Ningyo Johruri Bunraku | the inscribed puppet theatre (2008)
+- Bunraku | museum label restating the leaf
+= Hachioji Kuruma Ningyo | Sub-types | single-operator cart-puppet form of Hachiōji | gap_sweep
++ Sub-types | Kashira | carved wooden puppet heads with moving eyes and brows | Bunraku | 0
++ Centres & workshops | National Bunraku Theatre, Osaka | the home theatre of bunraku | National_Bunraku_Theatre | 0
++ Centres & workshops | Awaji ningyō jōruri | the Awaji Island puppet tradition | Awaji_Puppet_Theater | 0
++ Makers | Ōe Minosuke | 20th-century carver of bunraku kashira from Tokushima | Bunraku | 1
+
+@D4-11
+axis: by regional mask-dance drama (sub-types), Hahoe first, then other national intangible heritage sets, then Collections
+cat: https://ich.unesco.org/en/RL/talchum-mask-dance-drama-in-the-republic-of-korea-01665 | UNESCO intangible heritage: Talchum | Korean mask-dance drama (2022)
+cat: https://www.museum.go.kr/ | National Museum of Korea | Korean masks and Hahoe tal
+= Korean folk masks (Hahoe tal) | Sub-types | Hahoe and Byeongsan masks of alder wood, National Treasure no. 121 | gap_sweep
+= Goseong ogwangdae | Sub-types | Goseong five-clown mask dance set | gap_sweep
+= Dongnae Yaryu | Sub-types | Dongnae field mask dance set, Busan | gap_sweep
+= Gangnyeong Talchum | Sub-types | Gangnyeong mask dance set, Hwanghae | gap_sweep
+= Eunyul talchum | Sub-types | Eunyul mask dance set, Hwanghae | gap_sweep
+= Suyeong Yaryu | Sub-types | Suyeong field mask dance set, Busan | gap_sweep
+= Songpasandaenori | Sub-types | Songpa sandae mask play set, Seoul | gap_sweep
+= Tongyeong ogwandae | Sub-types | Tongyeong five-clown mask dance set | gap_sweep
+= Yangju byeolsandae nori | Sub-types | Yangju byeolsandae mask play set | gap_sweep
+= Bukcheong sajanoreum | Sub-types | Bukcheong lion mask play | gap_sweep
+= Gasan Ogwangdae | Sub-types | Gasan five-clown mask dance set | gap_sweep
+= Baltal | Sub-types | foot-mask puppet play | gap_sweep
+= Bongsan Talchum | Sub-types | Bongsan mask dance set, Hwanghae | gap_sweep
+a Hahoe byeolsingut talnori
+
+@D4-12
+axis: sub-types (named mask types of the Awa) first, then titled works (rule below), then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=Dogon%20mask | Met collection search: Dogon mask | Dogon masks in New York
+cat: https://www.quaibranly.fr/en/collections/ | Musée du quai Branly collections | the largest Dogon collection (Griaule missions)
++ Sub-types | Kanaga | mask with a double-barred cross superstructure | Kanaga_mask | 0
++ Sub-types | Sirige | towering multi-storey house mask | Dogon_people | 0
++ Sub-types | Satimbe | mask topped by a female figure, the first woman | Dogon_people | 0
++ Sub-types | Walu (antelope) mask | antelope mask of the Awa | Dogon_people | 0
++ Centres & workshops | Awa society | the men's mask society of the dama and Sigi | Dogon_people | 0
++ Centres & workshops | Sangha | Bandiagara village studied by Griaule | Bandiagara_Escarpment | 0
+
+@D4-13
+axis: sub-types (regional styles) first, then titled works (rule below), then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=Ciwara | Met collection search: Ciwara | chiwara headdresses in New York
+cat: https://www.artic.edu/collection?q=Ciwara | Art Institute of Chicago search: Ciwara | the pair of Bamana headdresses in Chicago
+- Bamana | museum culture label (Bamana), restating the people
++ Sub-types | Vertical style | tall openwork antelopes of the Ségou and Bamako regions | Chiwara | 0
++ Sub-types | Horizontal style | horizontal antelope headdresses of the Bougouni region | Chiwara | 0
++ Sub-types | Abstract style | composite stylised forms of the Wassoulou | Chiwara | 0
++ Sub-types | Male and female pair | the paired headdresses, male with mane, female with fawn | Chiwara | 0
+
+@D4-14
+axis: sub-types first, then titled works (rule below), then Collections, then makers
+cat: https://www.metmuseum.org/art/collection/search?q=Senufo%20mask | Met collection search: Senufo mask | Senufo masks in New York
+- Senufo | museum culture label restating the people
+= Nyaamadyo Koné | Makers | Senufo carver named in museum records | evidence
++ Sub-types | Kpeliyehe (kpeliye'e) | face mask with lateral extensions and legs | Senufo_people | 0
++ Sub-types | Kponyungo (firespitter) | helmet mask of the Poro society | Senufo_people | 0
++ Sub-types | Kunugbaha | heavy helmet mask of the Poro | Senufo_people | 0
++ Centres & workshops | Poro society | the men's initiation society of the Senufo | Poro | 0
+
+@D4-15
+axis: sub-types first, then titled works (rule below), then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=Chokwe%20mask | Met collection search: Chokwe mask | Chokwe masks in New York
+- Chokwe | museum culture label restating the people
++ Sub-types | Mwana pwo | young woman mask danced by men | Mwana_Pwo | 0
++ Sub-types | Cihongo | male mask of wealth and power | Chokwe_people | 0
++ Sub-types | Cikunza | conical mukanda initiation mask | Chokwe_people | 0
++ Centres & workshops | Mukanda | boys' initiation at which the masks appear | Mukanda | 0
+
+@D4-16
+axis: sub-types first, then centres, then titled works (rule below), then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=Gelede | Met collection search: Gelede | Gelede masks in New York
+cat: https://ich.unesco.org/en/RL/the-oral-heritage-of-gelede-00002 | UNESCO intangible heritage: Oral heritage of Gelede | the inscribed festival (2008)
++ Sub-types | Gelede helmet mask | headpiece with a carved superstructure scene | Gelede | 0
++ Sub-types | Efe mask | night mask of the Efe performance | Gelede | 0
++ Centres & workshops | Ketu | Yoruba kingdom in Benin, heartland of Gelede | Ketu | 0
+
+@D4-17
+axis: sub-types (masquerade types) first, then sub-groups, then titled works (rule below), then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=Igbo%20mask | Met collection search: Igbo mask | Igbo masks in New York
+- Igbo | museum culture label restating the people
+= Ijele Masquerade | Sub-types | towering Ijele masquerade (UNESCO 2009) | world_folk
+= Agaba masquerade | Sub-types | aggressive young men's masquerade | world_folk
+= Afikpo | Sub-types | Afikpo (Ehugbo) masks of the okumkpa play | evidence
+= Izzi | Sub-types | Izzi elephant-spirit masks (ogbodo enyi) | evidence
++ Sub-types | Agbogho mmuo | maiden-spirit masks | Agbogho_mmuo | 0
++ Sub-types | Mgbedike | fierce male-spirit masquerade | Igbo_art | 0
+
+@D4-18
+axis: sub-types (named mask roles) first, then titled works (rule below), then Collections, then makers
+cat: https://www.metmuseum.org/art/collection/search?q=Dan%20mask | Met collection search: Dan mask | Dan masks in New York
+- Dan | museum culture label restating the people
+= Son of Nuopie | Makers | Dan carver named in museum records | evidence
+= Ldamie of Gaple | Makers | Dan carver named in museum records | evidence
++ Sub-types | Deangle | smiling female-faced mask | Dan_people | 0
++ Sub-types | Gunye ge | racing mask with round eyes | Dan_people | 0
++ Sub-types | Bugle | war mask | Dan_people | 0
++ Makers | Zlan of Belewale | c. 1880s–1960s, celebrated Dan carver | Zlan | 1
+
+@D4-19
+axis: sub-types first, then centres (society), then titled works (rule below), then Collections, then makers
+cat: https://www.metmuseum.org/art/collection/search?q=Sowei | Met collection search: Sowei | Sande masks in New York
+- Mende | museum culture label restating the people
+= Sogande family workshop | Centres & workshops | Mende carving workshop named in museum records | evidence
+= Nguabu Master | Makers | Mende carver identified by style | evidence
++ Sub-types | Sowei (sowo) mask | black helmet mask of the Sande society | Sowei_mask | 0
++ Centres & workshops | Sande society | women's initiation society of Sierra Leone and Liberia | Sande_society | 0
+
+@D4-20
+axis: sub-types (the royal trio and others) first, then titled works (rule below), then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=Kuba%20mask | Met collection search: Kuba mask | Kuba masks in New York
++ Sub-types | Mwaash aMbooy | royal mask of the founder Woot | Mwaash_aMbooy | 0
++ Sub-types | Ngady amwaash | mask of Woot's sister-wife | Kuba_Kingdom | 0
++ Sub-types | Bwoom | mask of the commoner or prince | Bwoom | 0
++ Centres & workshops | Bushoong court, Nsheng | royal capital of the Kuba kingdom | Kuba_Kingdom | 0
+
+@D4-21
+axis: sub-types first, then titled works (rule below), then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=kifwebe | Met collection search: kifwebe | kifwebe masks in New York
++ Sub-types | Male kifwebe (kilume) | masks with a crest, red and black striations | Kifwebe | 0
++ Sub-types | Female kifwebe (kikashi) | white-faced masks without a crest | Kifwebe | 0
++ Sub-types | Luba kifwebe | round Luba masks of the bwadi society | Kifwebe | 0
++ Centres & workshops | Bwadi bwa kifwebe society | Songye society that danced the masks | Kifwebe | 0
+
+@D4-22
+axis: sub-types first, then titled works (rule below), then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=Pende%20mask | Met collection search: Pende mask | Pende masks in New York
+- Pende | museum culture label restating the people
++ Sub-types | Mbuya village masks | character masks of the mbuya masquerades | Pende_people | 0
++ Sub-types | Giphogo | chief's helmet mask of the Kwilu Pende | Pende_people | 0
++ Sub-types | Ikhoko | ivory miniature mask pendants | Pende_people | 0
++ Sub-types | Minyangi masks | masks of the Central Pende chief's rites | Pende_people | 0
+
+@D4-23
+axis: sub-types first, then titled works (rule below), then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=Punu%20mask | Met collection search: Punu mask | Punu masks in New York
+- Punu | museum culture label restating the people
++ Sub-types | Okuyi mask | white-faced maiden mask danced on stilts | Okuyi | 0
++ Sub-types | Mukudj | Punu-Lumbo dance of the white masks | Punu_people | 0
+
+@D4-24
+axis: sub-types (by people) first, then makers by date, then titled works (rule below), then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=Northwest%20Coast%20mask | Met collection search: Northwest Coast mask | masks in New York
+cat: https://collections.si.edu/search/results.htm?q=mask+Kwakwaka%27wakw | Smithsonian collections search: Kwakwaka'wakw mask | NMAI masks
+cat: https://collections.moa.ubc.ca/ | Museum of Anthropology at UBC collections | Northwest Coast masks in Vancouver
++ Sub-types | Kwakwaka'wakw transformation masks | opening masks revealing an inner face | Transformation_mask | 0
++ Sub-types | Hamatsa masks | cannibal-bird masks of the Kwakwaka'wakw winter ceremonial | Hamatsa | 0
++ Sub-types | Tlingit shaman masks | spirit masks of Tlingit shamans | Tlingit | 0
++ Sub-types | Haida portrait masks | naturalistic masks of the Haida | Haida_people | 0
++ Makers | Willie Seaweed | 1873–1967, Kwakwaka'wakw carver | Willie_Seaweed | 1
++ Makers | Mungo Martin | 1879–1962, Kwakwaka'wakw carver | Mungo_Martin | 1
++ Makers | Robert Davidson | b. 1946, Haida carver | Robert_Davidson_(artist) | 1
+
+@D4-25
+axis: sub-types first, then centres, then titled works (rule below), then Collections
+cat: https://collections.si.edu/search/results.htm?q=Yup%27ik+mask | Smithsonian collections search: Yup'ik mask | NMAI and NMNH masks
++ Sub-types | Kegginaquq | Yup'ik dance mask | Yup'ik | 0
++ Sub-types | Finger masks | small masks held on the fingers by women dancers | Yup'ik | 0
++ Centres & workshops | Kuskokwim River | region of Yup'ik mask making | Kuskokwim_River | 0
++ Centres & workshops | Nunivak Island | Cup'ik island of mask carving | Nunivak_Island | 0
+
+@D4-26
+axis: sub-types first, then islands (centres), then titled works (rule below), then Collections
+cat: https://www.britishmuseum.org/collection/search?keyword=Torres%20Strait%20mask | British Museum collection search: Torres Strait mask | turtle-shell masks in London
+- Torres Strait Islander art (dhari, masks, printmaking) | museum label restating the art of the islands
+= dhari | Sub-types | dancing headdress, emblem of the Torres Strait flag | evidence
+= krar | Sub-types | turtle-shell mask (western islands term) | evidence
+= le op | Sub-types | human-face turtle-shell mask (eastern islands term) | evidence
+a Torres Strait turtle-shell masks (krar, le-op)
++ Centres & workshops | Mabuiag Island | western island whose turtle-shell masks are in early collections | Mabuiag_Island | 0
++ Centres & workshops | Mer (Murray Island) | eastern island of le-op masks | Mer_Island | 0
+
+@D4-27
+axis: sub-types (regional families) first, then named giants, then Collections
+cat: https://ich.unesco.org/en/RL/processional-giants-and-dragons-in-belgium-and-france-00153 | UNESCO intangible heritage: Processional giants and dragons | the inscribed giants (2008)
+- giant Jas de Keistamper | duplicate museum label for the named giant
+= Jas de Keistamper (Boxtel) | Named giants | giant of Boxtel, North Brabant | evidence
++ Sub-types | Gegants (Catalonia) | Catalan festival giants | Gegants | 0
++ Sub-types | Reuzen (Flanders) | Flemish and Brabant processional giants | Processional_giant | 0
++ Named giants | Goliath of Ath (Ducasse d'Ath) | giant of the Ath festival, Belgium | Ducasse_d'Ath | 0
++ Named giants | Gayant of Douai | giant family of Douai, France | Gayant | 0
++ Named giants | Ommegang giants of Mechelen | Mechelen giants (Op-Signoorke) | Ommegang_of_Mechelen | 0
+
+@D4-28
+axis: sub-types (stock characters) first, then makers, then Collections
+cat: https://collections.vam.ac.uk/search/?q=Punch%20and%20Judy | V&A collection search: Punch and Judy | puppets in the V&A Theatre and Performance collections
+= Punch and Judy | Sub-types | the glove-puppet show · Possession: Puppet (E1) | possession https://en.wikipedia.org/wiki/Punch_and_Judy
++ Sub-types | Mr Punch | the hook-nosed hero | Mr._Punch | 0
++ Sub-types | Pulcinella | the Neapolitan commedia ancestor | Pulcinella | 0
++ Makers | Pietro Gimonde | Italian showman who brought Punch to London in 1662 (Pepys) | Punch_and_Judy | 1
++ Makers | Codman family | Liverpool and Llandudno Punch and Judy dynasty | Punch_and_Judy | 1
+
+@D4-29
+axis: sub-types first, then centres, then makers, then Collections
+cat: https://ich.unesco.org/en/RL/puppetry-in-slovakia-and-czechia-01202 | UNESCO intangible heritage: Puppetry in Slovakia and Czechia | inscribed 2016
+= Czech marionette puppetry | Sub-types | travelling family marionette theatre · Possession: Puppet (E1) | possession https://unima.idu.cz/en/history-of-czech-puppetry/
++ Sub-types | Kašpárek | the comic Czech puppet hero | Kašpárek | 0
++ Centres & workshops | Chrudim Puppetry Museum | Czech museum of puppet culture | Chrudim | 0
++ Makers | Matěj Kopecký | 1775–1847, founder of Czech marionette theatre | Matěj_Kopecký | 1
++ Makers | Josef Skupa | 1892–1957, creator of Spejbl and Hurvínek | Josef_Skupa | 1

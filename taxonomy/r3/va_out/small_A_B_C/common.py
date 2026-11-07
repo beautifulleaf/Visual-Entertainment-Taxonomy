@@ -76,3 +76,14 @@ def y(x):
 
 def low(x, *keys):
     return " ".join((x.get(k) or "") for k in keys).lower()
+
+
+def G(d):
+    """{"Group": "name; name; ..."} -> {name: group}"""
+    out = {}
+    for g, names in d.items():
+        for n in names.split(";"):
+            n = n.strip()
+            if n:
+                out[n] = g
+    return out

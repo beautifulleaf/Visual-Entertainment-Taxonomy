@@ -281,6 +281,9 @@ def wiki_check(titles):
 MISSING = []
 
 # ---------------------------------------------------------------- per leaf
+XFER = {}
+
+
 def build_leaf(l):
     code, label = l["code"], l["label"]
     cfg = CFG.get(code, {})
@@ -293,7 +296,7 @@ def build_leaf(l):
     to_alias = set(cfg.get("to_alias", []))
     home = cfg.get("home")
     artist_led = cfg.get("artist_led", False)
-    for r in l["rows"]:
+    for r in [r for r in l["rows"] if r[0] not in cfg.get("xfer", {})] + XFER.get(code, []):
         name, grp, gl, src, ism = r[0], r[1], r[2], r[3], r[4]
         maker_in = bool(ism) or grp in ("Artists", "Architects", "Makers")
         if not name.strip():
@@ -411,6 +414,11 @@ def main():
     titles += [u[0].split("/wiki/")[1].replace("_", " ") for c in CFG.values() for u in c.get("cat", []) if "en.wikipedia.org/wiki/" in u[0]]
     wiki_check(titles)
     res = {"leaves": {}, "new_leaves": [], "moves_out": [], "dropped": []}
+    for l in INP:
+        for r in l["rows"]:
+            t = CFG.get(l["code"], {}).get("xfer", {}).get(r[0])
+            if t:
+                XFER.setdefault(t, []).append(r)
     for l in INP:
         leaf, dr, mv = build_leaf(l)
         res["leaves"][l["code"]] = leaf

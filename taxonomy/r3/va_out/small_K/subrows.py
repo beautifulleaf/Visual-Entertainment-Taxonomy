@@ -51,8 +51,7 @@ add("K1-14", ("Delhi Sultanate architecture", SS, "Mamluk, Khalji, Tughlaq, Sayy
      ("Deccan Sultanate architecture", SS, "Bahmani, Adil Shahi and Qutb Shahi Deccan: Gol Gumbaz, Charminar", "Deccan Sultanates (Bahmani / Qutb Shahi / Adil Shahi)"))
 add("K1-15", ("Mughal gardens", ST, "Charbagh gardens of the Mughals (Shalimar Bagh, Nishat Bagh); see Mughal Garden leaf", "Mughal gardens"),
      ("Agra", CE, "Mughal capital: Taj Mahal, Agra Fort, Fatehpur Sikri nearby · UNESCO", W + "Agra"))
-add("K1-16", ("Inland Niger Delta towns", SS, "Djenné-Djenno and the tells of the Inland Niger Delta, Mali, incl. pre-Islamic phases", "Sudano-Sahelian (urban sites)"),
-     ("Toron", ST, "Projecting wooden beams of Sudano-Sahelian mud walls, used as scaffolding for replastering", W + "Toron_(architecture)"))
+add("K1-16", ("Inland Niger Delta towns", SS, "Djenné-Djenno and the tells of the Inland Niger Delta, Mali, incl. pre-Islamic phases", "Sudano-Sahelian (urban sites)"))
 add("K1-17", ("Swahili coast arts (doors, furniture)", ST, "Carved Swahili doors, Lamu and Zanzibar furniture of the coral-stone towns", "Swahili coast (Kilwa, Lamu, Zanzibar) arts"))
 
 # K2
@@ -121,7 +120,7 @@ add("K3-6", ("Knossos", "Minoan palaces and sites", "Largest Minoan palace, Hera
     ("Palaikastro", "Minoan palaces and sites", "Minoan town, eastern Crete", W + "Palaikastro"),
     ("Akrotiri (prehistoric city)", "Minoan palaces and sites", "Bronze Age town buried by the Thera eruption, Santorini, c. 1600 BC", W + "Akrotiri_(prehistoric_city)"))
 add("K3-7", ("Cyclopean masonry", ST, "Unworked massive limestone walling of Mycenaean citadels", "Cyclopean masonry"),
-    ("Tholos tomb", ST, "Mycenaean beehive tomb with corbelled dome", W + "Tholos_tomb"),
+    ("Tholos tomb", ST, "Mycenaean beehive tomb with corbelled dome", W + "Beehive_tomb"),
     ("Mycenae", "Mycenaean citadels and tombs", "Citadel, Argolid, Greece, c. 1600–1100 BC · UNESCO World Heritage Site", W + "Mycenae"),
     ("Lion Gate", "Mycenaean citadels and tombs", "Main gate of the Mycenae citadel, c. 1250 BC", W + "Lion_Gate"),
     ("Treasury of Atreus", "Mycenaean citadels and tombs", "Tholos tomb at Mycenae, c. 1250 BC", W + "Treasury_of_Atreus"),
@@ -137,11 +136,10 @@ add("K3-8", ("Doric order", ST, "Plainest Greek order, mainland Greece and the w
     ("Amphiprostyle temple", ST, "Temple with porticoes at front and rear only", "amphiprostyle"),
     ("Tetrastyle portico", ST, "Portico of four columns", "tetrastyle"),
     ("Hellenistic architecture", SS, "Greek architecture after Alexander, 323–31 BC (Pergamon, Priene, Didyma)", "Hellenistic architecture"))
-add("K3-9", ("Banditaccia", "Etruscan buildings and tombs", "Necropolis of Cerveteri, Lazio, 9th–3rd century BC · UNESCO World Heritage Site", W + "Banditaccia"),
+add("K3-9", ("Banditaccia", "Etruscan buildings and tombs", "Necropolis of Cerveteri, Lazio, 9th–3rd century BC · UNESCO World Heritage Site", W + "Cerveteri"),
     ("Monterozzi necropolis", "Etruscan buildings and tombs", "Painted-tomb necropolis of Tarquinia, Lazio · UNESCO World Heritage Site", W + "Monterozzi_necropolis"),
     ("Tomb of the Reliefs", "Etruscan buildings and tombs", "Stucco-relief chamber tomb, Banditaccia, Cerveteri, 4th century BC", W + "Tomb_of_the_Reliefs"),
-    ("Tomb of the Leopards", "Etruscan buildings and tombs", "Painted tomb, Monterozzi, Tarquinia, c. 480–450 BC", W + "Tomb_of_the_Leopards"),
-    ("Porta all'Arco", "Etruscan buildings and tombs", "Etruscan arched city gate, Volterra, 4th–3rd century BC", W + "Porta_all%27Arco"))
+    ("Tomb of the Leopards", "Etruscan buildings and tombs", "Painted tomb, Monterozzi, Tarquinia, c. 480–450 BC", W + "Tomb_of_the_Leopards"))
 add("K3-10", ("Tuscan order", ST, "Roman simplified Doric order with unfluted shaft", "Tuscan order"),
      ("Composite order", ST, "Roman order combining Ionic volutes and Corinthian acanthus", "Composite order"),
      ("Tetrapylon", ST, "Four-way monumental arch at a crossroads", "tetrapylon"))
@@ -150,10 +148,9 @@ add("K3-11", ("Petra", "Nabataean cities, tombs and temples", "Nabataean capital
      ("Ed-Deir, Petra", "Nabataean cities, tombs and temples", "Rock-cut 'Monastery' monument, Petra, Jordan, 1st century AD", W + "Ed-Deir,_Petra"),
      ("Qasr al-Bint", "Nabataean cities, tombs and temples", "Free-standing temple, Petra, Jordan, 1st century BC", W + "Qasr_al-Bint"),
      ("Little Petra", "Nabataean cities, tombs and temples", "Nabataean suburb of Siq al-Barid, Jordan", W + "Little_Petra"),
-     ("Hegra (Mada'in Salih)", "Nabataean cities, tombs and temples", "Nabataean tomb city, AlUla, Saudi Arabia, 1st century BC – 1st century AD · UNESCO World Heritage Site", W + "Hegra_(Mada%27in_Salih)"),
-     ("Qasr al-Farid", "Nabataean cities, tombs and temples", "Unfinished rock-cut tomb, Hegra, Saudi Arabia, 1st century AD", W + "Qasr_al-Farid"),
+     ("Hegra (Mada'in Salih)", "Nabataean cities, tombs and temples", "Nabataean tomb city, AlUla, Saudi Arabia, 1st century BC – 1st century AD · UNESCO World Heritage Site", W + "Hegra"),
      ("Avdat", "Nabataean cities, tombs and temples", "Nabataean town on the Incense Route, Negev, Israel · UNESCO World Heritage Site", W + "Avdat"),
-     ("Mamshit", "Nabataean cities, tombs and temples", "Nabataean town, Negev, Israel · UNESCO (Incense Route)", W + "Mamshit"),
+     ("Mamshit", "Nabataean cities, tombs and temples", "Nabataean town, Negev, Israel · UNESCO (Incense Route)", W + "Mampsis"),
      ("Shivta", "Nabataean cities, tombs and temples", "Nabataean–Byzantine town, Negev, Israel · UNESCO (Incense Route)", W + "Shivta"))
 
 # K4
@@ -300,9 +297,8 @@ add("K7-12", ("Kumbum", ST, "Multi-chapelled stupa (Gyantse Kumbum)", "Kumbum"),
      ("Palace-fortress", ST, "Dzong-type palace-fortress (Potala Palace · UNESCO)", "Palace-fortress"))
 add("K7-14", ("Maratha forts", SS, "Hill and sea forts of the Maratha era, Deccan and Konkan, 17th–18th century", "Deccan hill and sea forts (Maratha era)"),
      ("Hill Forts of Rajasthan", ST, "Amber, Kumbhalgarh, Chittorgarh, Jaisalmer, Gagron, Ranthambore · UNESCO", "Hill forts"))
-add("K7-18", ("Patwon Ki Haveli", "Havelis", "Cluster of five merchant havelis, Jaisalmer, Rajasthan, 1805", W + "Patwon_Ki_Haveli"),
-     ("Salim Singh Ki Haveli", "Havelis", "Prime minister's haveli, Jaisalmer, Rajasthan, 1815", W + "Salim_Singh_Ki_Haveli"),
-     ("Bagore-ki-Haveli", "Havelis", "Haveli on Gangaur Ghat, Udaipur, Rajasthan, 18th century; museum", W + "Bagore-ki-Haveli"),
+add("K7-18", 
+     ("Bagore-ki-Haveli", "Havelis", "Haveli on Gangaur Ghat, Udaipur, Rajasthan, 18th century; museum", W + "Bagore_Ki_Haveli"),
      ("Haveli of Nau Nihal Singh", "Havelis", "Sikh-period haveli, Walled City of Lahore, Pakistan, 19th century", W + "Haveli_of_Nau_Nihal_Singh"),
      ("Shekhawati", CE, "Region of painted merchant havelis (Mandawa, Nawalgarh, Fatehpur), Rajasthan", W + "Shekhawati"))
 add("K7-19", ("Dal Lake", CE, "Srinagar lake with the largest fleet of moored houseboats", W + "Dal_Lake"),
@@ -323,20 +319,13 @@ add("K8-3", ("Yan'an", CE, "Shaanxi city of cliffside yaodong, CCP headquarters 
     ("Loess Plateau", CE, "Loess region of Shaanxi, Shanxi, Gansu and Henan where yaodong are dug", W + "Loess_Plateau"))
 add("K8-4", ("Fujian tulou", ST, "Earthen communal round or square buildings of Hakka and Minnan Fujian · UNESCO", "Fujian tulou"),
     ("Tianluokeng Tulou cluster", "Tulou and walled villages", "Four round and one square tulou, Nanjing County, Fujian · UNESCO", W + "Tianluokeng_Tulou_cluster"),
-    ("Chengqi Lou", "Tulou and walled villages", "Concentric-ring tulou, Gaobei, Yongding, Fujian, 1709 · UNESCO", W + "Chengqi_Lou"),
-    ("Zhencheng Lou", "Tulou and walled villages", "Double-ring tulou, Hongkeng, Yongding, Fujian, 1912 · UNESCO", W + "Zhencheng_Lou"),
-    ("Eryi Lou", "Tulou and walled villages", "Round tulou, Hua'an County, Fujian, 1770 · UNESCO", W + "Eryi_Lou"),
-    ("Huaiyuan Lou", "Tulou and walled villages", "Round tulou, Nanjing County, Fujian, 1909 · UNESCO", W + "Huaiyuan_Lou"),
-    ("Hegui Lou", "Tulou and walled villages", "Rectangular tulou on marshland, Nanjing County, Fujian, 1732 · UNESCO", W + "Hegui_Lou"),
-    ("Yuchang Lou", "Tulou and walled villages", "Five-storey round tulou, Nanjing County, Fujian, c. 1308 · UNESCO", W + "Yuchang_Lou"),
     ("Tsang Tai Uk", "Tulou and walled villages", "Hakka walled village, Sha Tin, Hong Kong, 1847", W + "Tsang_Tai_Uk"),
     ("Sam Tung Uk Museum", "Tulou and walled villages", "Hakka walled village (1786) turned museum, Tsuen Wan, Hong Kong", W + "Sam_Tung_Uk_Museum"))
-add("K8-6", ("Qilou", ST, "Arcaded shophouse of Lingnan and Southeast Asia", W + "Qilou"),
+add("K8-6", ("Qilou", ST, "Arcaded shophouse of Lingnan and Southeast Asia", W + "Tong_lau"),
     ("Chen Clan Ancestral Hall", "Lingnan buildings and gardens", "Clan academy with ceramic and wood carving, Guangzhou, 1894", W + "Chen_Clan_Ancestral_Hall"),
     ("Foshan Ancestral Temple", "Lingnan buildings and gardens", "Taoist temple, Foshan, Guangdong, rebuilt 1372", W + "Foshan_Ancestral_Temple"),
-    ("Yuyin Shanfang", "Lingnan buildings and gardens", "Lingnan garden, Panyu, Guangzhou, 1871", W + "Yuyin_Shanfang"),
     ("Qinghui Garden", "Lingnan buildings and gardens", "Lingnan garden, Shunde, Foshan, Ming–Qing", W + "Qinghui_Garden"),
-    ("Kaiping Diaolou and Villages", "Lingnan buildings and gardens", "Fortified multi-storey towers of Kaiping, Guangdong, 1900s–1930s · UNESCO", W + "Kaiping_Diaolou_and_Villages"))
+    ("Kaiping Diaolou and Villages", "Lingnan buildings and gardens", "Fortified multi-storey towers of Kaiping, Guangdong, 1900s–1930s · UNESCO", W + "Diaolou"))
 add("K8-7", ("Taiwanese temple architecture", SS, "Minnan temples of Taiwan with cut-and-paste ceramic roof ridges", "Taiwanese (Minnan) temple"))
 add("K8-9", ("Lilong", ST, "Shanghai alley neighbourhood of shikumen rows", W + "Lilong"),
     ("Xintiandi", "Shikumen neighbourhoods and buildings", "Restored shikumen quarter, Huangpu, Shanghai, 1920s", W + "Xintiandi"),
@@ -385,8 +374,7 @@ add("K8-21", ("Ondol", ST, "Underfloor heating system of the hanok", W + "Ondol"
      ("Hahoe Folk Village", "Hanok villages and houses", "Clan village of the Ryu, Andong · UNESCO (Historic Villages of Korea)", W + "Hahoe_Folk_Village"),
      ("Yangdong Folk Village", "Hanok villages and houses", "Clan village, Gyeongju · UNESCO (Historic Villages of Korea)", W + "Yangdong_Folk_Village"),
      ("Korean Folk Village", "Hanok villages and houses", "Open-air museum of relocated houses, Yongin, Gyeonggi", W + "Korean_Folk_Village"),
-     ("Unhyeongung", "Hanok villages and houses", "Residence of the Heungseon Daewongun, Seoul, 19th century", W + "Unhyeongung"),
-     ("Seongyojang", "Hanok villages and houses", "Yangban manor house, Gangneung, 1703", W + "Seongyojang"))
+     ("Unhyeongung", "Hanok villages and houses", "Residence of the Heungseon Daewongun, Seoul, 19th century", W + "Unhyeongung"))
 
 # K9
 add("K9-1", ("Pre-Angkorian architecture", SS, "Funan and Chenla temples, 6th–8th century (Sambor Prei Kuk · UNESCO)", "Pre-Angkorian Khmer"),
@@ -419,7 +407,6 @@ add("K9-9", ("Chùa (Buddhist pagoda)", ST, "Vietnamese Buddhist pagoda complexe
 add("K9-10", ("Rumah Bolon", ST, "Large Toba Batak family house with saddle roof", W + "Batak_architecture"),
      ("Samosir", CE, "Island in Lake Toba with Toba Batak house villages", W + "Samosir"))
 add("K9-11", ("Bahay na bato", ST, "Colonial stone-and-wood house developed from the bahay kubo", W + "Bahay_na_bato"))
-add("K9-14", ("Istana Lama Seri Menanti", "Malay houses and palaces", "Timber palace on 99 pillars, Negeri Sembilan, 1902–08", W + "Istana_Lama_Seri_Menanti"))
 
 # K10
 add("K10-1", ("Stele", ST, "Monolithic granite stelae of Aksum carved as multi-storey buildings", W + "Obelisk_of_Axum"),
@@ -427,7 +414,7 @@ add("K10-1", ("Stele", ST, "Monolithic granite stelae of Aksum carved as multi-s
      ("King Ezana's Stele", "Aksumite sites", "Standing stele, Aksum, Ethiopia, 4th century · UNESCO (Aksum)", W + "King_Ezana%27s_Stele"),
      ("Dungur", "Aksumite sites", "Aksumite elite mansion, Aksum, 6th century", W + "Dungur"),
      ("Yeha", "Aksumite sites", "Pre-Aksumite Great Temple, Tigray, c. 700 BC", W + "Yeha"),
-     ("Debre Damo", "Aksumite sites", "Monastery church in Aksumite timber-and-stone style, Tigray, 6th century", W + "Debre_Damo"))
+     ("Debre Damo", "Aksumite sites", "Monastery church in Aksumite timber-and-stone style, Tigray, 6th century", W + "Debre_Dammo"))
 add("K10-2", ("Lalibela", CE, "Eleven monolithic churches, Amhara, 12th–13th century · UNESCO", "Lalibela"))
 add("K10-4", ("Meroë", CE, "Meroitic royal city and pyramid fields · UNESCO (Island of Meroe)", "Meroë"),
      ("Napata", CE, "Jebel Barkal, El-Kurru, Nuri, Sanam · UNESCO (Gebel Barkal)", "Napata"))
@@ -480,67 +467,56 @@ add("K11-7", ("Mississippian culture", SS, "Platform-mound towns, 800–1600 (Ca
 
 # K12
 add("K12-1", ("Whare whakairo", ST, "Carved meeting house, the full form of the wharenui", W + "Wharenui"),
-     ("Te Hau ki Tūranga", "Wharenui (meeting houses)", "Carved meeting house by Raharuhi Rukupō, 1842; Te Papa, Wellington", W + "Te_Hau_ki_T%C5%ABranga"),
-     ("Mataatua (meeting house)", "Wharenui (meeting houses)", "Ngāti Awa meeting house, 1875, returned to Whakatāne 1996", W + "Mataatua_(meeting_house)"),
      ("Hinemihi", "Wharenui (meeting houses)", "Meeting house of 1881 from Te Wairoa, now at Clandon Park, Surrey", W + "Hinemihi"),
-     ("Te Tokanganui-a-Noho", "Wharenui (meeting houses)", "Ngāti Maniapoto meeting house, Te Kūiti, built for Te Kooti 1873", W + "Te_Tokanganui-a-Noho"),
      ("Rangiātea Church", "Wharenui (meeting houses)", "Māori church, Ōtaki, 1849–51 (destroyed 1995, rebuilt)", W + "Rangiātea_Church"),
      ("Raharuhi Rukupō", "Makers", "Ngāti Kaipoho master carver of Te Hau ki Tūranga (d. 1873)", W + "Raharuhi_Rukup%C5%8D"))
-add("K12-2", ("Fale tele", ST, "Large round Samoan guest house of the village", W + "Samoan_architecture"),
-     ("Faleo'o", ST, "Small Samoan house, now often a beach fale", W + "Samoan_architecture"))
+add("K12-2", ("Fale tele", ST, "Large round Samoan guest house of the village", W + "Architecture_of_Samoa"),
+     ("Faleo'o", ST, "Small Samoan house, now often a beach fale", W + "Architecture_of_Samoa"))
 add("K12-3", ("Kiribati", CE, "Gilbert Islands, where the maneaba is the village meeting house", W + "Kiribati"))
 add("K12-4", ("Sepik River", CE, "Region of the tambaran haus (spirit houses) of Papua New Guinea", W + "Sepik"))
 add("K12-5", ("Ahu Tongariki", "Ahu and marae", "Largest ahu of Rapa Nui, 15 moai, Chile · UNESCO", W + "Ahu_Tongariki"),
-     ("Taputapuātea marae", "Ahu and marae", "Marae complex, Raiatea, French Polynesia · UNESCO World Heritage Site", W + "Taputapu%C4%81tea_marae"),
+     ("Taputapuātea marae", "Ahu and marae", "Marae complex, Raiatea, French Polynesia · UNESCO World Heritage Site", W + "Taputapuatea_marae"),
      ("Haʻamonga ʻa Maui", "Ahu and marae", "Trilithon, Tongatapu, Tonga, c. 1200", W + "Ha%CA%BBamonga_%CA%BBa_Maui"),
      ("Heiau", ST, "Hawaiian temple platform, counterpart of the marae", W + "Heiau"),
      ("Puʻukoholā Heiau National Historic Site", "Ahu and marae", "Heiau built by Kamehameha I, Hawaii, 1790–91", W + "Pu%CA%BBukohol%C4%81_Heiau_National_Historic_Site"))
 add("K12-6", ("Leluh (Kosrae)", CE, "Basalt-walled royal city, Kosrae, Micronesia, 13th–19th century", "Leluh (Kosrae)"),
      ("Nan Madol", "Saudeleur megalithic sites", "Basalt islet city off Pohnpei, Micronesia, c. 1180–1628 · UNESCO World Heritage Site", W + "Nan_Madol"))
 add("K12-7", ("Churches of Chiloé", "Churches of Chiloé", "Sixteen wooden churches of the Chiloé archipelago, Chile, 18th–19th century · UNESCO World Heritage Site", W + "Churches_of_Chilo%C3%A9"),
-     ("Palafito", ST, "Timber stilt house over the water, Castro, Chiloé", W + "Palafito"))
+     ("Palafito", ST, "Timber stilt house over the water, Castro, Chiloé", W + "Stilt_house"))
 add("K12-8", ("Wealden hall house", ST, "Timber-framed open-hall house with jettied end bays, Kent and Sussex, 14th–16th century", "Wealden hall house"),
      ("Weald and Downland Living Museum", CE, "Open-air museum of rescued vernacular buildings, Singleton, West Sussex", W + "Weald_and_Downland_Living_Museum"),
      ("Avoncroft Museum of Historic Buildings", CE, "Open-air museum of rescued buildings, Bromsgrove, Worcestershire", W + "Avoncroft_Museum_of_Historic_Buildings"),
      ("St Fagans National Museum of History", CE, "Open-air museum of Welsh buildings, Cardiff", W + "St_Fagans_National_Museum_of_History"))
 add("K12-9", ("German Fachwerk", ST, "Exposed timber framing with infill (half-timbering), Germany and Alsace, from the 14th century", "German Fachwerk"),
-     ("Quedlinburg", CE, "Town of over 1,300 half-timbered houses, Saxony-Anhalt · UNESCO", W + "Quedlinburg"),
-     ("Freilichtmuseum am Kiekeberg", CE, "Open-air museum of north German farmhouses, Rosengarten, Lower Saxony", W + "Freilichtmuseum_am_Kiekeberg"))
-add("K12-10", ("Kulla of Jashar Pasha", "Kulla tower houses", "Tower house, Junik, Kosovo, 19th century", W + "Kulla_of_Jashar_Pasha"),
+     ("Quedlinburg", CE, "Town of over 1,300 half-timbered houses, Saxony-Anhalt · UNESCO", W + "Quedlinburg"))
+add("K12-10", 
      ("Kosovo", CE, "Dukagjini plain (Deçan, Junik, Gjakova), heartland of the kulla", W + "Kosovo"))
 add("K12-11", ("Vainakh tower architecture", SS, "Battle and residential towers of Chechnya and Ingushetia, 12th–17th century", W + "Vainakh_tower_architecture"),
      ("Vovnushki", "Vainakh towers", "Tower complex on cliffs, Dzheyrakhsky District, Ingushetia", W + "Vovnushki"),
      ("Erzi", "Vainakh towers", "Fortified tower village, Dzheyrakhsky District, Ingushetia", W + "Erzi"),
-     ("Egikal", "Vainakh towers", "Tower village, Dzheyrakhsky District, Ingushetia", W + "Egikal"),
-     ("Khaskali", "Vainakh towers", "Tower settlement, Dzheyrakhsky District, Ingushetia", W + "Khaskali"))
+     ("Egikal", "Vainakh towers", "Tower village, Dzheyrakhsky District, Ingushetia", W + "Egikal"))
 add("K12-12", ("Hórreo", ST, "Raised granary on pillars, Galicia and Asturias", W + "H%C3%B3rreo"),
-     ("Barraca", ST, "Thatched farmhouse of the Valencian huerta", W + "Barraca_(house)"),
      ("Palloza", ST, "Round stone hut with thatched roof, Ancares, León and Galicia", W + "Palloza"),
      ("Cortijo", ST, "Andalusian farmstead with courtyard", W + "Cortijo"))
 add("K12-13", ("Trullo", ST, "Corbelled dry-stone hut, Apulia", W + "Trullo"),
      ("Alberobello", CE, "Town of trulli, Apulia · UNESCO (Trulli of Alberobello)", W + "Alberobello"),
-     ("Sassi di Matera", CE, "Cave dwellings of Matera, Basilicata · UNESCO", W + "Sassi_di_Matera"),
-     ("Masseria", ST, "Fortified farmstead of southern Italy", W + "Masseria_(farmhouse)"))
+     ("Sassi di Matera", CE, "Cave dwellings of Matera, Basilicata · UNESCO", W + "Sassi_di_Matera"))
 add("K12-14", ("Shotgun house", ST, "Narrow one-room-wide house with rooms in line front to back, US South, c. 1865–1920s", "Shotgun house"))
-add("K12-15", ("Stabbur", ST, "Raised Norwegian log storehouse", W + "Stabbur"),
+add("K12-15", 
      ("Røros", CE, "Mining town of turf-roofed log houses, Norway · UNESCO", W + "R%C3%B8ros"),
      ("Gammelstad Church Town", CE, "Church town of log cottages, Luleå, Sweden · UNESCO", W + "Gammelstad_Church_Town"),
      ("Skansen", CE, "Open-air museum of Swedish log buildings, Stockholm, founded 1891", W + "Skansen"),
-     ("Norsk Folkemuseum", CE, "Open-air museum of Norwegian log buildings, Bygdøy, Oslo", W + "Norsk_Folkemuseum"),
+     ("Norsk Folkemuseum", CE, "Open-air museum of Norwegian log buildings, Bygdøy, Oslo", W + "Norwegian_Museum_of_Cultural_History"),
      ("Petäjävesi Old Church", "Log churches and buildings", "Log church, Central Finland, 1763–65 · UNESCO World Heritage Site", W + "Pet%C3%A4j%C3%A4vesi_Old_Church"),
      ("Old Rauma", CE, "Wooden town, Finland · UNESCO", W + "Old_Rauma"))
-add("K12-16", ("Ballenberg", CE, "Swiss Open-Air Museum of rural buildings, Brienz, Bern", W + "Ballenberg"),
-     ("Engadin house", ST, "Stone-faced farmhouse with sgraffito, Engadine, Graubünden", W + "Engadin_house"))
+add("K12-16", ("Ballenberg", CE, "Swiss Open-Air Museum of rural buildings, Brienz, Bern", W + "Ballenberg"))
 add("K12-17", ("Longère", ST, "Long, narrow single-storey longhouse of farmers and artisans, Brittany and Normandy", "Longère"),
-     ("Mas (Provençal farmhouse)", ST, "Stone farmhouse of Provence and Languedoc", W + "Mas_(Provence)"),
-     ("Borie", ST, "Dry-stone hut of Provence (Village des Bories, Gordes)", W + "Borie"),
-     ("Basque house (etxe)", ST, "Large Basque farmhouse with timbered gable", W + "Basque_house"))
+     ("Borie", ST, "Dry-stone hut of Provence (Village des Bories, Gordes)", W + "Borie"))
 add("K12-18", ("Oia, Greece", CE, "Cave and whitewashed houses of Santorini", W + "Oia,_Greece"),
-     ("Chora (Mykonos)", CE, "Whitewashed island town and windmills of Mykonos", W + "Mykonos_(town)"),
-     ("Panagia Paraportiani", "Cycladic buildings", "Whitewashed church complex, Mykonos, 15th–17th century", W + "Panagia_Paraportiani"))
+     ("Panagia Paraportiani", "Cycladic buildings", "Whitewashed church complex, Mykonos, 15th–17th century", W + "Church_of_Panagia_Paraportiani"))
 add("K12-19", ("George Washington House (Barbados)", CE, "18th-century plantation house in Bridgetown, setting of chattel-house villages", W + "George_Washington_House_(Barbados)"))
 add("K12-20", ("Miegunyah", "Queenslanders", "Queenslander house, Bowen Hills, Brisbane, 1886; museum", W + "Miegunyah"),
-     ("Newstead House", "Queenslanders", "Oldest surviving residence in Brisbane, 1846; verandahed house museum", W + "Newstead_House"))
+     ("Newstead House", "Queenslanders", "Oldest surviving residence in Brisbane, 1846; verandahed house museum", W + "Newstead_House,_Brisbane"))
 
 # K13 gardens
 add("K13-1", ("Charbagh", ST, "Fourfold garden divided by water channels", "Charbagh"),
@@ -550,19 +526,17 @@ add("K13-1", ("Charbagh", ST, "Fourfold garden divided by water channels", "Char
      ("Chehel Sotoun", "Persian gardens", "Safavid pavilion garden, Isfahan, 1647 · UNESCO (The Persian Garden)", W + "Chehel_Sotoun"),
      ("Shazdeh Garden", "Persian gardens", "Qajar terraced garden, Mahan, Kerman, Iran · UNESCO (The Persian Garden)", W + "Shazdeh_Garden"),
      ("Dowlatabad Garden", "Persian gardens", "Zand garden with tallest windcatcher, Yazd, Iran · UNESCO (The Persian Garden)", W + "Dowlatabad_Garden"),
-     ("Abbasabad Garden", "Persian gardens", "Safavid garden, Behshahr, Mazandaran · UNESCO (The Persian Garden)", W + "Abbasabad_Garden"),
-     ("Akbarieh Garden", "Persian gardens", "Garden, Birjand, South Khorasan · UNESCO (The Persian Garden)", W + "Akbarieh_Garden"),
-     ("Pahlevanpour Garden", "Persian gardens", "Qajar garden, Mehriz, Yazd · UNESCO (The Persian Garden)", W + "Pahlevanpour_Garden"))
+     ("Akbarieh Garden", "Persian gardens", "Garden, Birjand, South Khorasan · UNESCO (The Persian Garden)", W + "Akbarieh_Garden"))
 add("K13-2", ("Charbagh", ST, "Fourfold garden divided by water channels, the Mughal garden's basic plan", W + "Charbagh"),
-     ("Bagh-e Babur", "Mughal gardens", "Babur's terraced garden and tomb, Kabul, Afghanistan, c. 1528", W + "Bagh-e_Babur"),
+     ("Bagh-e Babur", "Mughal gardens", "Babur's terraced garden and tomb, Kabul, Afghanistan, c. 1528", W + "Gardens_of_Babur"),
      ("Ram Bagh", "Mughal gardens", "Earliest Mughal garden in India (Aram Bagh), Agra, 1528", W + "Ram_Bagh"),
-     ("Humayun's Tomb", "Mughal gardens", "Tomb garden, Delhi, 1570 · UNESCO World Heritage Site", W + "Humayun%27s_Tomb"),
+     ("Humayun's Tomb", "Mughal gardens", "Tomb garden, Delhi, 1570 · UNESCO World Heritage Site", W + "Humayun%27s_tomb"),
      ("Shalimar Bagh, Srinagar", "Mughal gardens", "Jahangir's terraced garden on Dal Lake, Srinagar, 1619", W + "Shalimar_Bagh,_Srinagar"),
      ("Nishat Bagh", "Mughal gardens", "Twelve-terrace garden on Dal Lake, Srinagar, 1633", W + "Nishat_Bagh"),
      ("Achabal Gardens", "Mughal gardens", "Spring-fed Mughal garden, Anantnag, Kashmir, 1620", W + "Achabal_Gardens"),
-     ("Shalimar Gardens, Lahore", "Mughal gardens", "Shah Jahan's terraced garden, Lahore, 1641–42 · UNESCO World Heritage Site", W + "Shalimar_Gardens,_Lahore"),
+     ("Shalimar Gardens, Lahore", "Mughal gardens", "Shah Jahan's terraced garden, Lahore, 1641–42 · UNESCO World Heritage Site", W + "Shalamar_Gardens,_Lahore"),
      ("Mehtab Bagh", "Mughal gardens", "Moonlight garden facing the Taj Mahal, Agra, c. 1631–35", W + "Mehtab_Bagh"),
-     ("Pinjore Gardens", "Mughal gardens", "Yadavindra Gardens, terraced Mughal garden, Pinjore, Haryana, 17th century", W + "Pinjore_Gardens"))
+     ("Pinjore Gardens", "Mughal gardens", "Yadavindra Gardens, terraced Mughal garden, Pinjore, Haryana, 17th century", W + "Yadavindra_Gardens"))
 add("K13-3", ("Classical Gardens of Suzhou", CE, "Nine scholar gardens of Suzhou, Jiangsu, 11th–19th century · UNESCO", "Classical Gardens of Suzhou"),
      ("Lingnan garden", SS, "Cantonese garden style of Guangdong (Yuyin Shanfang, Qinghui Garden)", "Lingnan garden"),
      ("Humble Administrator's Garden", "Suzhou and Jiangnan gardens", "Suzhou, 1509 · UNESCO (Classical Gardens of Suzhou)", W + "Humble_Administrator%27s_Garden"),
@@ -571,7 +545,7 @@ add("K13-3", ("Classical Gardens of Suzhou", CE, "Nine scholar gardens of Suzhou
      ("Canglang Pavilion", "Suzhou and Jiangnan gardens", "Suzhou, 1044, oldest of the Suzhou gardens · UNESCO", W + "Canglang_Pavilion"),
      ("Lion Grove Garden", "Suzhou and Jiangnan gardens", "Suzhou, 1342, famed for rockery · UNESCO (Classical Gardens of Suzhou)", W + "Lion_Grove_Garden"),
      ("Yu Garden", "Suzhou and Jiangnan gardens", "Shanghai, 1559–77", W + "Yu_Garden"),
-     ("Ge Garden", "Suzhou and Jiangnan gardens", "Yangzhou salt-merchant garden, 1818", W + "Ge_Garden"),
+     ("Ge Garden", "Suzhou and Jiangnan gardens", "Yangzhou salt-merchant garden, 1818", W + "Geyuan"),
      ("Summer Palace", "Imperial gardens", "Qing imperial garden, Beijing, 1750 · UNESCO World Heritage Site", W + "Summer_Palace"),
      ("Old Summer Palace", "Imperial gardens", "Yuanmingyuan, Qing imperial garden, Beijing, destroyed 1860", W + "Old_Summer_Palace"),
      ("Chengde Mountain Resort", "Imperial gardens", "Qing summer palace and park, Hebei, 1703–92 · UNESCO", W + "Chengde_Mountain_Resort"))
@@ -587,12 +561,12 @@ add("K13-4", ("Japanese dry garden (karesansui)", ST, "Dry landscape of raked gr
      ("Kōraku-en", "Japanese gardens", "Daimyō stroll garden, Okayama, 1700; Three Great Gardens", W + "K%C5%8Draku-en"),
      ("Kairaku-en", "Japanese gardens", "Plum garden, Mito, 1842; Three Great Gardens", W + "Kairaku-en"),
      ("Ritsurin Garden", "Japanese gardens", "Daimyō stroll garden, Takamatsu, 17th century", W + "Ritsurin_Garden"),
-     ("Koishikawa Kōrakuen", "Japanese gardens", "Daimyō garden, Tokyo, 1629", W + "Koishikawa_K%C5%8Drakuen"))
+     ("Koishikawa Kōrakuen", "Japanese gardens", "Daimyō garden, Tokyo, 1629", W + "Koishikawa-K%C5%8Drakuen"))
 add("K13-5", ("Villa d'Este", "Italian Renaissance gardens", "Terraced water garden by Pirro Ligorio, Tivoli, 1560–72 · UNESCO", W + "Villa_d%27Este"),
      ("Villa Lante", "Italian Renaissance gardens", "Mannerist water garden, Bagnaia, Viterbo, 1566 onward", W + "Villa_Lante"),
      ("Boboli Gardens", "Italian Renaissance gardens", "Medici garden behind the Palazzo Pitti, Florence, 1550 onward", W + "Boboli_Gardens"),
      ("Villa di Castello", "Italian Renaissance gardens", "Medici villa garden by Niccolò Tribolo, Florence, 1538 · UNESCO (Medici Villas)", W + "Villa_di_Castello"),
-     ("Sacro Bosco", "Italian Renaissance gardens", "Park of monsters, Bomarzo, Lazio, 1552", W + "Sacro_Bosco"),
+     ("Gardens of Bomarzo", "Italian Renaissance gardens", "Park of monsters, Bomarzo, Lazio, 1552", W + "Gardens_of_Bomarzo"),
      ("Villa Farnese", "Italian Renaissance gardens", "Palazzo and gardens, Caprarola, 1559–75", W + "Villa_Farnese"),
      ("Villa Medici at Pratolino", "Italian Renaissance gardens", "Buontalenti's lost wonder garden, Vaglia, Florence, 1569", W + "Villa_di_Pratolino"),
      ("Villa Aldobrandini", "Italian Renaissance gardens", "Water theatre garden, Frascati, 1598–1603", W + "Villa_Aldobrandini"),
@@ -613,16 +587,14 @@ add("K13-7", ("Stourhead", "English landscape gardens", "Henry Hoare's lakeside 
      ("Blenheim Palace", "English landscape gardens", "Capability Brown's park, Woodstock, Oxfordshire, 1760s · UNESCO", W + "Blenheim_Palace"),
      ("Painshill", "English landscape gardens", "Charles Hamilton's landscape garden, Cobham, Surrey, 1738–73", W + "Painshill"),
      ("Chiswick House", "English landscape gardens", "Early landscape garden by Lord Burlington and Kent, London, 1720s", W + "Chiswick_House"),
-     ("Wörlitz Park", "English landscape gardens", "Garden Kingdom of Dessau-Wörlitz, Germany, 1769–1800 · UNESCO", W + "W%C3%B6rlitz_Park"),
+     ("Wörlitz Park", "English landscape gardens", "Garden Kingdom of Dessau-Wörlitz, Germany, 1769–1800 · UNESCO", W + "Dessau-W%C3%B6rlitz_Garden_Realm"),
      ("Charles Bridgeman", "Makers", "Royal gardener, pioneer of the ha-ha and the landscape style (1690–1738)", W + "Charles_Bridgeman"))
 
 # K14
-add("K14-1", ("Omiya Bonsai Village", CE, "Bonsai nursery village, Saitama, from 1925", W + "Omiya_Bonsai_Village"),
-     ("National Bonsai & Penjing Museum", "Collections", "US National Arboretum, Washington, D.C., from 1976", W + "National_Bonsai_%26_Penjing_Museum"),
-     ("Pacific Bonsai Museum", "Collections", "Federal Way, Washington, from 1989", W + "Pacific_Bonsai_Museum"),
-     ("Sandai-Shogun-No Matsu", "Bonsai trees", "Japanese white pine bonsai in the Tokyo Imperial Palace collection, over 500 years old", W + "Sandai-Shogun-No_Matsu"),
+add("K14-1", ("Omiya Bonsai Village", CE, "Bonsai nursery village, Saitama, from 1925", W + "%C5%8Cmiya_Bonsai_Village"),
+     ("National Bonsai & Penjing Museum", "Collections", "US National Arboretum, Washington, D.C., from 1976", W + "National_Bonsai_Foundation"),
      ("Yamaki Pine", "Bonsai trees", "Japanese white pine that survived Hiroshima; National Bonsai & Penjing Museum", W + "Yamaki_Pine"),
-     ("John Y. Naka", "Makers", "Japanese-American bonsai master (1914–2004)", W + "John_Y._Naka"),
+     ("John Y. Naka", "Makers", "Japanese-American bonsai master (1914–2004)", W + "John_Naka"),
      ("Masahiko Kimura", "Makers", "Japanese bonsai artist, 'magician' of deadwood styling (b. 1940)", W + "Masahiko_Kimura"))
 add("K14-2", ("Shanshui penjing", ST, "Rock landscape penjing", W + "Penjing"),
      ("Shumu penjing", ST, "Tree penjing", W + "Penjing"),
@@ -636,5 +608,4 @@ add("K14-4", ("Ikenobō", "Schools", "Oldest school, Rokkaku-dō, Kyoto, from th
      ("Rikka", ST, "Standing-flower formal style of Ikenobō", W + "Ikebana"),
      ("Moribana", ST, "Piled-up style in a shallow container", W + "Ikebana"),
      ("Nageire", ST, "Thrown-in style in a tall vase", W + "Ikebana"),
-     ("Ikenobō Senkō II", "Makers", "Ikenobō master who codified rikka (1575–1658)", W + "Ikenob%C5%8D_Senk%C5%8D_II"),
-     ("Sōfū Teshigahara", "Makers", "Founder of the Sōgetsu school (1900–1979)", W + "S%C5%8Dfu_Teshigahara"))
+     ("Sōfū Teshigahara", "Makers", "Founder of the Sōgetsu school (1900–1979)", W + "S%C5%8Df%C5%AB_Teshigahara"))

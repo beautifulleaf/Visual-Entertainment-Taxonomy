@@ -211,7 +211,16 @@ def build(out):
     fbnames = set(n for _, ns in FB_GROUPS for n in ns)
     # B1-5
     l = leaf_without('B1-5', fbnames | set(B15_TO_B215))
-    kinds = assign(l, B15_GROUPS, B15_MOVES)
+    kinds = add([], 'Canonical illustrators and caricaturists', [(n, g, wp(u)) for n, g, u in [
+        ('James Gillray', 'English caricaturist of Georgian politics, 1756–1815', 'James Gillray'),
+        ('Thomas Rowlandson', 'English caricaturist and illustrator, 1757–1827', 'Thomas Rowlandson'),
+        ('George Cruikshank', 'English caricaturist and illustrator of Dickens, 1792–1878', 'George Cruikshank'),
+        ('Honoré Daumier', 'French lithographer and caricaturist of La Caricature and Le Charivari, 1808–1879', 'Honoré Daumier'),
+        ('John Tenniel', 'English Punch cartoonist and illustrator of the Alice books, 1820–1914', 'John Tenniel'),
+        ('Gustave Doré', 'French wood-engraved book illustrator (Dante, the Bible), 1832–1883', 'Gustave Doré'),
+        ('Norman Rockwell', 'American illustrator of Saturday Evening Post covers, 1894–1978', 'Norman Rockwell'),
+        ('Saul Steinberg', 'Romanian-American cartoonist of The New Yorker, 1914–1999', 'Saul Steinberg')]], 1)
+    kinds += assign(l, B15_GROUPS, B15_MOVES)
     out['leaves']['B1-5'] = dict(
         axis='by sub-type of illustration (caricature, magazine, scientific, topographical, children\'s books, cartoons, fantasy, graphic design), then national comics traditions not covered by their own leaves; within each group by birth; comics artists of the Franco-Belgian, American, Marcinelle and manga traditions, poster artists and gallery artists moved to their own leaves',
         catalogues=[['https://www.loc.gov/pictures/collection/cai/', 'Library of Congress: Cabinet of American Illustration', 'original drawings by American illustrators, c. 1880–1940'],

@@ -156,7 +156,7 @@ def main():
                 if v and v[0] == "move": continue  # handled in MOVES
                 if v and v[0] == "reloc":
                     RELOC.setdefault(v[1], []).append([r[0], v[2], v[3], r[3], 1]); continue
-                grp, gl = (v if v and v[0] not in ("drop", "alias", "dup") else (None, None))
+                grp, gl = ((v[0], v[1]) if v and v[0] not in ("drop", "alias", "dup") else (None, None))
                 keep.append([r[0], grp or "Makers", gl if gl is not None else re.sub(r";?\s*now T\d+.*$", "", r[2]), r[3], 1])
                 continue
             if v is None:
@@ -171,7 +171,7 @@ def main():
             elif kind == "dup":
                 res["dropped"].append([code, r[0], "duplicate of the same site in the rule-based catalogue"])
             else:
-                keep.append([v[2] if len(v) > 2 and v[2] else r[0], v[0], v[1], r[3], 0])
+                keep.append([v[2] if len(v) > 2 and v[2] else r[0], v[0], v[1], r[3], v[3] if len(v) > 3 else 0])
         add = ex.get("kinds", []) + RELOC.get(code, [])
         pre_groups = ex.get("pre", ["Sub-types", "Schools & phases", "Centres & workshops"])
         allk = keep + add

@@ -46,7 +46,7 @@ def mgloss(r, extra=''):
         bits.append(('b. ' + b) if not b.startswith('-') else ('c. %s BC' % b[1:]))
     if e.get('countries'):
         bits.append(country(e['countries']))
-    if e.get('medium') and e['medium'] not in ('visual art (unspecified)', 'drawing and illustration'):
+    if False:
         bits.append(e['medium'])
     g = ', '.join(bits)
     if extra:

@@ -23,7 +23,7 @@ def btype(e):
     for name, rx in TYPES:
         if re.search(rx, s):
             return name
-    return 'other buildings and ensembles'
+    return 'buildings of other or unrecorded type'
 
 def gloss(e):
     bits = [e['country_label'].split('|')[0] or '']
@@ -74,7 +74,7 @@ def works(sections, generic, prefix, hi=None, exclude=()):
         for e in byS.get(lab.lower(), []):
             if ok(e):
                 seen.add(e['qid']); gen[btype(e)].append(e)
-    for name, _ in TYPES + [('other buildings and ensembles', '')]:
+    for name, _ in TYPES + [('buildings of other or unrecorded type', '')]:
         for e in sorted(gen.get(name, []), key=key):
             out.append([e['label'], prefix + ' ' + name, gloss(e), 'r3 https://www.wikidata.org/wiki/' + e['qid'], 0])
     return out
@@ -92,8 +92,10 @@ def arch_gloss(row, info):
     if info:
         b = info['birth'] or ''
         d = info['death'] or ''
-        if b or d:
-            bits.append(f"{b}–{d}" if b else f"d. {d}")
+        if b and d:
+            bits.append(f"{b}–{d}")
+        elif b or d:
+            bits.append(f"b. {b}" if b else f"d. {d}")
         if info['citizenship']:
             bits.append(info['citizenship'].split('|')[0])
     if m:

@@ -11,6 +11,10 @@ for r in A:
     if r["style_label"]: WI[r["style_label"]].append(r)
 for r in N:
     if r["proposed_style"]: NI[r["proposed_style"]].append(r)
+II = collections.defaultdict(list)
+for r in A:
+    for i in r["instance_of_label"].split("|"):
+        if i: II[i].append(r)
 
 JREG = {}
 for reg, prefs in {
@@ -44,7 +48,7 @@ def norm(r, src):
     adm = [a for a in r["admin"].split("|") if a and a != r["country"]]
     return dict(qid=r["qid"], label=r["label"], sl=int(r["sitelinks"] or 0), unesco=r["tier"] in ("unesco_site", "part_of_unesco"),
                 her=bool(r["heritage"]) or r["tier"] in ("unesco_site", "part_of_unesco"), herlabel=(r["heritage"].split("|")[0] if r["heritage"] else ""),
-                place=adm[0] if adm else "", country=r["country"], continent="", region=r["region"], year=yr(r), typ=typ, cls=typ,
+                place=adm[0] if adm else "", adm=adm, country=r["country"], continent="", region=r["region"], year=yr(r), typ=typ, cls=typ,
                 unesco_site=r["unesco_site"], tier=r["tier"], inception=r["inception"])
 
 def passes(b, t):
@@ -75,7 +79,16 @@ def gloss(b):
 def key_for(b, mode):
     if mode == "country": return b["country"] or "other"
     if mode == "class": return b["cls"] or "other"
-    if mode == "region": return b["region"] or b["country"] or "other"
+    if mode == "region": return b["region"] or "region unassigned"
+    if mode == "place":
+        ds = [a for a in b.get("adm", []) if "district" in a.lower() or "department" in a.lower() or "province" in a.lower()]
+        return ds[0] if ds else "region unassigned"
+    if mode == "century":
+        y = b["year"]
+        if y is None: return "region unassigned"
+        c = (y - 1) // 100 + 1 if y > 0 else 0
+        suf = "th" if 10 <= c % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(c % 10, "th")
+        return f"{c}{suf} century"
     if mode == "jregion":
         reg = b["region"].replace(" Prefecture", "").replace("Prefecture", "").strip()
         for p, R in JREG.items():
@@ -94,10 +107,10 @@ def build(code, threshold=None):
             items = []
             for s in srcs:
                 kind, name = s.split(":", 1)
-                pool = WI.get(name, []) if kind == "W" else NI.get(name, [])
+                pool = WI.get(name, []) if kind == "W" else NI.get(name, []) if kind == "N" else II.get(name, [])
                 for r in pool:
                     if f and not f(r): continue
-                    b = norm(r, kind)
+                    b = norm(r, "N" if kind == "N" else "W")
                     if b["qid"] in seen: continue
                     if any(x.lower() in b["label"].lower() for x in cfg["black"]): continue
                     if not passes(b, t): continue
@@ -113,18 +126,23 @@ def build(code, threshold=None):
     for lab, items in secs:
         if not items: continue
         items.sort(key=lambda b: (b["year"] is None, b["year"] or 0, -b["sl"], b["label"]))
-        if cfg["split"] and len(items) > 60:
+        done = False
+        modes = cfg["split"] if isinstance(cfg["split"], list) else ([cfg["split"]] if cfg["split"] else [])
+        for mode in (modes if len(items) > 60 else []):
             groups = collections.OrderedDict()
-            for b in items: groups.setdefault(key_for(b, cfg["split"]), []).append(b)
-            big = [(k, v) for k, v in groups.items() if len(v) >= 5 and k not in ("other", "region unassigned")]
-            small = [b for k, v in groups.items() if not (len(v) >= 5 and k not in ("other", "region unassigned")) for b in v]
-            big.sort(key=lambda kv: -len(kv[1]))
-            if len(big) >= 2:
+            for b in items: groups.setdefault(key_for(b, mode), []).append(b)
+            okk = lambda k, v: len(v) >= 5 and k not in ("other", "region unassigned", "")
+            big = [(k, v) for k, v in groups.items() if okk(k, v)]
+            small = [b for k, v in groups.items() if not okk(k, v) for b in v]
+            big.sort(key=lambda kv: (kv[0] if mode == 'century' else '', -len(kv[1])))
+            if len(big) >= 2 and len(big[0][1]) < 0.85 * len(items):
                 for k, v in big: out.append((f"{lab}: {k}", v))
                 if small:
                     small.sort(key=lambda b: (b["year"] is None, b["year"] or 0, -b["sl"], b["label"]))
-                    out.append((f"{lab}: other regions" if cfg["split"] != "class" else f"{lab}: other types", small))
-                continue
+                    out.append((f"{lab}: other " + ("types" if mode == "class" else "dates and undated" if mode == "century" else "regions"), small))
+                done = True
+                break
+        if done: continue
         out.append((lab, items))
     return dict(t=t, total=total, sections=out)
 

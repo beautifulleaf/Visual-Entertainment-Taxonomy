@@ -218,14 +218,25 @@ def finish(code, items, named_order, axis_named, cap=150, minsize=3, gen_label='
         if len(lst) > cap:
             k = math.ceil(len(lst) / cap)
             size = math.ceil(len(lst) / k)
-            for i in range(k):
-                chunk = lst[i * size:(i + 1) * size]
-                if not chunk:
-                    continue
+            chunks, cur = [], []
+            for x in lst:
+                if len(cur) >= size and birth(x[1]) != birth(cur[-1][1]) and len(chunks) < k - 1:
+                    chunks.append(cur); cur = []
+                cur.append(x)
+            chunks.append(cur)
+            for j, chunk in enumerate(chunks):
                 b0, b1 = birth(chunk[0][1]), birth(chunk[-1][1])
-                out_groups.append((f'{c}, {gen_label} {b0}–{b1}', chunk))
+                lab = f'{c}, born before {birth(chunks[1][0][1])}' if j == 0 else (f'{c}, born {b0} and later' if j == len(chunks) - 1 else f'{c}, born {b0}–{b1}')
+                out_groups.append((lab, chunk))
         else:
             out_groups.append((c, lst))
+    # pool tiny regional tails
+    TAILS = ('Other Europe', 'Americas', 'Oceania', 'Asia and Africa', 'Other')
+    tails = [x for x in out_groups if x[0] in TAILS]
+    if any(len(x[1]) < 3 for x in tails):
+        out_groups = [x for x in out_groups if x[0] not in TAILS]
+        allp = [y for x in tails for y in x[1]]
+        out_groups.append(('Other regions', sorted(allp, key=lambda x: (birth(x[1]) or 9999, x[0][0]))))
     kinds = []
     for g, lst in out_groups:
         lst = sorted(lst, key=lambda x: (birth(x[1]) or 9999, x[0][0])) if not g.startswith(tuple(COUNTRY_ORDER)) else lst
@@ -235,3 +246,141 @@ def finish(code, items, named_order, axis_named, cap=150, minsize=3, gen_label='
             kinds.append(r)
     axis = axis_named + ' Then the remaining artists by country of activity (historic states folded into present-day countries; groups over 150 split by birth year; countries with fewer than 3 artists pooled by region), each group ordered by birth year.'
     return kinds
+
+W = 'https://en.wikipedia.org/wiki/'
+WA = 'https://www.wikiart.org/en/artists-by-art-movement/'
+CFG = {
+ 'A5-38': (['Lyon School', "École d'Écouen", 'Victorian classicism', 'The Clique', "St John's Wood Clique", 'Fairy painting', 'Grand-Ducal Saxon Art School, Weimar', 'Biedermeier',
+            'Tervuren School', 'Generation of the National Theatre', 'Tinerimea artistică and the Official Salon (Romania)', 'American Renaissance', 'Western American Art',
+            'Academy of San Carlos (Mexico)', 'Imperial Academy of Fine Arts (Brazil)'],
+           'by named academy, school or circle first (Écouen, Victorian classicism, The Clique, St John\'s Wood Clique, fairy painting, Weimar, Tervuren, Generation of the National Theatre, Romanian Official Salon, American Renaissance, Western American Art, San Carlos, Imperial Academy of Brazil); Salon painters already in named school leaves (Munich, Düsseldorf, Hague, Barbizon, Neo-Grec, Orientalism...) moved out.',
+           [['https://salons.musee-orsay.fr/', 'Base Salons (Musée d\'Orsay)', 'every work exhibited at the Paris Salons, 1673–1914'],
+            [WA + 'academicism', 'WikiArt: Academicism', 'artists and works tagged Academicism'],
+            ['https://www.pop.culture.gouv.fr/', 'POP – Joconde', 'French national catalogue of museum collections'],
+            ['https://commons.wikimedia.org/wiki/Category:Academic_art', 'Wikimedia Commons: Academic art', 'images of academic paintings by artist and museum']]),
+ 'D5-115': (['French Romantic sculpture', 'Berlin school of sculpture', 'American Renaissance', 'White Marmorean Flock'],
+            'by named school or circle first (French Romantic sculptors, Berlin school of sculpture, American Renaissance, the White Marmorean Flock of American women sculptors in Rome); animaliers, New Sculpture and architects moved out.',
+            [['https://sculpture.gla.ac.uk/', 'Mapping Sculpture 1851–1951', 'sculptors, works and firms in Britain and Ireland'],
+             ['https://www.pop.culture.gouv.fr/', 'POP – Joconde', 'French national catalogue of museum collections, incl. Salon sculpture'],
+             ['https://salons.musee-orsay.fr/', 'Base Salons (Musée d\'Orsay)', 'every sculpture shown at the Paris Salons, 1673–1914']]),
+ 'A5-31': (['Troubadour style', 'Juste milieu', 'German Romanticism', 'Biedermeier', 'The Ancients', 'Bristol School', 'Society of Painters in Water Colours', 'Norwegian romantic nationalism',
+            'School of Posillipo', 'Scapigliatura', 'Venetsianov school', 'Western American Art'],
+           'by named circle or national school first (Troubadour style, juste milieu, German Romanticism, Biedermeier, the Ancients, Bristol School, Society of Painters in Water Colours, Norwegian romantic nationalism, School of Posillipo, Scapigliatura, Venetsianov school, Western American Art); Nazarenes, Düsseldorf, Danish Golden Age, Norwich, Hudson River, Luminism, Lyon and Orientalist painters moved to their own leaves.',
+           [[WA + 'romanticism', 'WikiArt: Romanticism', 'artists and works tagged Romanticism'],
+            ['https://www.tate.org.uk/search?q=romanticism', 'Tate collection search', 'British Romantic painting incl. the Turner Bequest'],
+            ['https://collections.louvre.fr/en/', 'Louvre collections', 'complete online catalogue of the Louvre, incl. French Romantic painting'],
+            ['https://commons.wikimedia.org/wiki/Category:Romanticism', 'Wikimedia Commons: Romanticism', 'images of Romantic works by artist']]),
+ 'A5-30': (['Atelier of Jacques-Louis David', 'Ingres and his pupils', 'Troubadour style', 'Deutschrömer', 'Society of Painters in Water Colours', 'Peale family'],
+           'by atelier or circle first (David\'s atelier, Ingres and his pupils, the Troubadour painters, the Deutschrömer in Rome, the founders of the Society of Painters in Water Colours, the Peale family); sculptors and architects moved to Neoclassical Sculpture and Neoclassical Architecture.',
+           [[WA + 'neoclassicism', 'WikiArt: Neoclassicism', 'artists and works tagged Neoclassicism'],
+            ['https://collections.louvre.fr/en/', 'Louvre collections', 'complete online catalogue, incl. David and his school'],
+            ['https://commons.wikimedia.org/wiki/Category:Neoclassical_paintings', 'Wikimedia Commons: Neoclassical paintings', 'images of Neoclassical paintings']]),
+ 'D5-114': (['Canova and his school', 'Thorvaldsen and his workshop', 'Berlin school of sculpture'],
+            'by workshop or school first (Canova and his school, Thorvaldsen and his workshop, Berlin school of sculpture); then a works section (rock-cut monuments).',
+            [['https://www.museocanova.it/', 'Museo Gypsotheca Antonio Canova', 'Canova\'s plaster models and studio collection, Possagno'],
+             ['https://www.thorvaldsensmuseum.dk/', 'Thorvaldsens Museum', 'Thorvaldsen\'s works and collections, Copenhagen'],
+             ['https://commons.wikimedia.org/wiki/Category:Neoclassical_sculptures', 'Wikimedia Commons: Neoclassical sculptures', 'images of Neoclassical sculpture by sculptor']]),
+ 'A5-40': (["École d'Écouen", 'Volcano School', 'Molse School', 'Verismo (painting)'],
+           'by named school or colony first (École d\'Écouen, Volcano School, Molse School, Verismo); Peredvizhniki moved to their own leaf, Soviet painters to Socialist Realism and 20th-century realists to their movements.',
+           [[WA + 'realism', 'WikiArt: Realism', 'artists and works tagged Realism'],
+            ['https://www.pop.culture.gouv.fr/', 'POP – Joconde', 'French national catalogue of museum collections'],
+            ['https://www.tretyakovgallery.ru/en/collection/', 'Tretyakov Gallery collection', 'Russian realist painting']]),
+ 'A5-45': (['Grupo do Leão', 'Cranbrook Colony', 'Idyllic school', 'École de Concarneau', 'Étaples art colony', 'Wissant school', 'Nagybánya artists\' colony', 'École de Murol'],
+           'by artists\' colony or group first (Grupo do Leão, Cranbrook Colony, Idyllic school, Concarneau, Étaples, Wissant, Nagybánya); Newlyn and Skagen painters moved to their own leaves.',
+           [[WA + 'naturalism', 'WikiArt: Naturalism', 'artists and works tagged Naturalism'],
+            ['https://www.pop.culture.gouv.fr/', 'POP – Joconde', 'French national catalogue of museum collections']]),
+}
+RENAME.update({'Society of Painters in Tempera': None, 'École de Murol': None, 'Official Salon (Romania)': 'Tinerimea artistică and the Official Salon (Romania)', 'Verismo': 'Verismo (painting)', 'Kalmthout School': None,
+               'American realism': None, 'Kristiania Bohème': None, 'Skagen Painters': None, 'Newlyn School': None, 'Nagybánya art colony': "Nagybánya artists' colony",
+               'Wissant school': 'Wissant school'})
+
+out = {'leaves': {}, 'new_leaves': [], 'moves_out': moves, 'dropped': dropped}
+for l in IN:
+    code = l['code']
+    named, axis, cats = CFG[code]
+    items = []
+    for g, row, raw in leaf_rows[code]:
+        if g in RENAME:
+            g = RENAME[g]
+        items.append((g, row, raw))
+    kinds = finish(code, items, named, axis)
+    out['leaves'][code] = {'axis': axis + ' Then the remaining artists by country of activity (historic states folded into present-day countries, Czech, Polish, South Slavic and Baltic artists of the empires listed separately; groups over 150 split by birth year; countries with fewer than 3 artists pooled by region); each group ordered by birth year.',
+                           'catalogues': cats, 'kinds': kinds, 'alias_rows': []}
+
+def nk(name, group, gloss, url):
+    return [name, group, gloss, 'r3 ' + url, 1]
+
+NEWDEF = {
+ 'Orientalism': dict(breadth='broad', defn='Western painting of North Africa, the Ottoman lands, the Middle East and India, c. 1780–1914, from travel sketches to Salon harem and street scenes: <i>Delacroix\'s Women of Algiers</i>, <i>Gérôme\'s The Snake Charmer</i>, <i>Lewis\'s The Hhareem</i>. Membership: painters known chiefly for such subjects (or tagged Orientalist in Wikidata) whom no narrower school claims.',
+                     aliases='Orientalist painting;Orientalist art', see='T40 Academic Art;T33 Romanticism', src=[[W + 'Orientalism', 'Wikipedia'], [W + 'List_of_Orientalist_artists', 'Wikipedia list']],
+                     cats=[[W + 'List_of_Orientalist_artists', 'Wikipedia: List of Orientalist artists', 'Orientalist painters by country'], [WA + 'orientalism', 'WikiArt: Orientalism', 'artists and works tagged Orientalism'],
+                           ['https://www.metmuseum.org/art/collection/search?q=Orientalism', 'The Met collection search', 'Orientalist paintings and works on paper'], ['https://commons.wikimedia.org/wiki/Category:Orientalist_paintings', 'Wikimedia Commons: Orientalist paintings', 'images by artist and subject']],
+                     named=[], axis='by country of activity of the painter (France first, then Britain, Italy, Spain, Germany and Austria, Belgium and the Netherlands, eastern Europe, the Americas and the Ottoman world); each group ordered by birth year.'),
+ 'Peredvizhniki': dict(breadth='medium', defn='The Russian realist artists\' cooperative (Society for Travelling Art Exhibitions, 1870–1923) that toured exhibitions of national genre, history and landscape painting: <i>Repin\'s Barge Haulers on the Volga</i>, <i>Savrasov\'s The Rooks Have Come Back</i>, <i>Surikov\'s Boyarynya Morozova</i>. Membership: members or regular exhibitors of the Society.',
+                     aliases='Wanderers;Itinerants;Society for Travelling Art Exhibitions', see='T42 Realism', src=[[W + 'Peredvizhniki', 'Wikipedia']],
+                     cats=[['https://www.tretyakovgallery.ru/en/collection/', 'Tretyakov Gallery collection', 'the main collection of Peredvizhniki painting, Moscow'], ['https://rusmuseumvrm.ru/', 'Russian Museum virtual branch', 'collection of the State Russian Museum, St Petersburg'],
+                           ['https://commons.wikimedia.org/wiki/Category:Peredvizhniki', 'Wikimedia Commons: Peredvizhniki', 'images of works by members']],
+                     named=['Founding generation (born before 1840)', 'Second generation (born 1840–1854)', 'Younger members (born 1855 and later)'],
+                     axis='by generation of membership: founding generation of 1870 (born before 1840), second generation (born 1840–1854), younger members (born 1855 and later); each group ordered by birth year.'),
+ 'Skagen Painters': dict(breadth='narrow', defn='The Scandinavian artists\' colony at Skagen in northern Jutland, c. 1875–1910, painting fishermen, beaches and the summer light: <i>Krøyer\'s Summer Evening on Skagen\'s Southern Beach</i>, <i>Michael Ancher\'s Will He Round the Point?</i>. Membership: painters who worked at Skagen as part of the colony.',
+                     aliases='Skagen school', see='T47 Naturalism;T49 Impressionism', src=[[W + 'Skagen_Painters', 'Wikipedia']],
+                     cats=[['https://skagenskunstmuseer.dk/en/', 'Art Museums of Skagen', 'the Skagens Museum collection of the colony'], ['https://open.smk.dk/en/art?q=skagen', 'SMK Open (Statens Museum for Kunst)', 'Danish national gallery works on Skagen'],
+                           ['https://commons.wikimedia.org/wiki/Category:Skagen_Painters', 'Wikimedia Commons: Skagen Painters', 'images of works by the colony']],
+                     named=['Danish Skagen Painters', 'Norwegian and Swedish members'], axis='by nationality within the colony: Danish core members first, then Norwegian and Swedish members; each group ordered by birth year.'),
+ 'Newlyn School': dict(breadth='narrow', defn='The colony of plein-air naturalist painters at Newlyn and Lamorna in Cornwall, from c. 1882: <i>Stanhope Forbes\'s A Fish Sale on a Cornish Beach</i>, <i>Langley\'s Never Morning Wore to Evening</i>, <i>Bramley\'s A Hopeless Dawn</i>. Membership: painters who settled or worked at Newlyn as part of the colony.',
+                     aliases='Newlyn colony', see='T47 Naturalism', src=[[W + 'Newlyn_School', 'Wikipedia']],
+                     cats=[['https://penleehouse.org.uk/', 'Penlee House Gallery & Museum', 'the principal public collection of Newlyn School painting, Penzance'],
+                           ['https://commons.wikimedia.org/wiki/Category:Newlyn_School', 'Wikimedia Commons: Newlyn School', 'images of works by the colony']],
+                     named=['Newlyn colony painters'], axis='one group: painters of the Newlyn colony from its founding in the early 1880s, ordered by birth year.'),
+ 'Lyon School': dict(breadth='narrow', defn='The school of painting of Lyon, from the Troubadour painters around Révoil and Richard to the religious and idealist painters of the July Monarchy and Second Empire: <i>Révoil\'s Joan of Arc in Prison</i>, <i>Janmot\'s The Poem of the Soul</i>, <i>Orsel\'s Good and Evil</i>. Membership: painters trained at or working from the École des Beaux-Arts of Lyon.',
+                     aliases='École lyonnaise;Lyonnais school', see='T33 Romanticism;T40 Academic Art', src=[[W + 'Lyon_School', 'Wikipedia']],
+                     cats=[['https://www.pop.culture.gouv.fr/', 'POP – Joconde', 'French museum collections incl. the Musée des Beaux-Arts de Lyon'], ['https://www.mba-lyon.fr/', 'Musée des Beaux-Arts de Lyon', 'the principal collection of the school']],
+                     named=['Troubadour founders', 'Religious and idealist painters', 'Landscape and genre'],
+                     axis='by phase and subject: the Troubadour founders of c. 1800, the religious and idealist painters of the 1830s–1860s, then landscape, flower and genre painters; each group ordered by birth year.'),
+ 'Golden Age of Finnish Art': dict(breadth='narrow', defn='Finnish painting of c. 1880–1910, from Paris-trained naturalism to national romanticism and the Kalevala: <i>Edelfelt\'s Conveying the Child\'s Coffin</i>, <i>Gallen-Kallela\'s The Defence of the Sampo</i>, <i>Schjerfbeck\'s The Convalescent</i>. Membership: Finnish painters active in that generation.',
+                     aliases='Finnish Golden Age', see='T47 Naturalism;T53 Symbolism', src=[[W + 'Golden_Age_of_Finnish_Art', 'Wikipedia']],
+                     cats=[['https://www.kansallisgalleria.fi/en/search', 'Finnish National Gallery collections', 'Ateneum and national collections online'], [W + 'Golden_Age_of_Finnish_Art', 'Wikipedia: Golden Age of Finnish Art', 'overview with the painters of the period']],
+                     named=['Paris-trained naturalists', 'National romanticism'], axis='by phase: Paris-trained naturalists of the 1880s first, then national-romantic painters of the 1890s; each group ordered by birth year.'),
+}
+LYON_T = {'Pierre Révoil', 'François Fleury-Richard', 'Antoine Berjon', 'Claudius Jacquand'}
+LYON_R = {'Victor Orsel', 'Paul Chenavard', 'Louis Janmot', 'Louis Lamothe', 'Claudius Lavergne', 'Jean-Claude Bonnefond', 'Joseph Guichard'}
+EXTRA = {
+ 'Skagen Painters': [nk('Peder Severin Krøyer', 'Danish Skagen Painters', 'Painter, b. 1851; leading figure of the colony (Summer Evening on Skagen\'s Southern Beach)', W + 'Peder_Severin_Kr%C3%B8yer'),
+                     nk('Anna Ancher', 'Danish Skagen Painters', 'Painter, b. 1859 in Skagen; interiors and light; wife of Michael Ancher', W + 'Anna_Ancher'),
+                     nk('Holger Drachmann', 'Danish Skagen Painters', 'Poet and marine painter, b. 1846; early member of the colony', W + 'Holger_Drachmann'),
+                     nk('Marie Krøyer', 'Danish Skagen Painters', 'Painter, b. 1867; wife of P. S. Krøyer', W + 'Marie_Kr%C3%B8yer'),
+                     nk('Oscar Björck', 'Norwegian and Swedish members', 'Swedish painter, b. 1860; worked at Skagen in the 1880s', W + 'Oscar_Bj%C3%B6rck'),
+                     nk('Frits Thaulow', 'Norwegian and Swedish members', 'Norwegian painter, b. 1847; at Skagen 1879–80', W + 'Frits_Thaulow')],
+ 'Newlyn School': [nk('Thomas Cooper Gotch', 'Newlyn colony painters', 'Painter, b. 1854; settled at Newlyn 1887', W + 'Thomas_Cooper_Gotch'),
+                   nk('Albert Chevallier Tayler', 'Newlyn colony painters', 'Painter, b. 1862; Newlyn genre scenes of the 1880s', W + 'Albert_Chevallier_Tayler')],
+ 'Golden Age of Finnish Art': [nk('Eero Järnefelt', 'National romanticism', 'Painter, b. 1863; Koli landscapes and Burning the Brushwood', W + 'Eero_J%C3%A4rnefelt'),
+                               nk('Pekka Halonen', 'National romanticism', 'Painter, b. 1865; Tuusula winter landscapes', W + 'Pekka_Halonen')],
+ 'Peredvizhniki': [nk('Nikolai Ge', 'Founding generation (born before 1840)', 'Painter, b. 1831; founding member (What Is Truth?)', W + 'Nikolai_Ge'),
+                   nk('Viktor Vasnetsov', 'Second generation (born 1840–1854)', 'Painter, b. 1848; member from 1874 (Bogatyrs)', W + 'Viktor_Vasnetsov')],
+}
+NAT_SK = {'Christian Krohg'}
+NEWLYN_LATE = {'Harold Harvey'}
+FIN_NR = {'Akseli Gallen-Kallela', 'Ellen Thesleff'}
+for i, (key, d) in enumerate(NEWDEF.items(), 1):
+    items = []
+    for _, row, raw in new_rows.get(key, []):
+        b = birth(raw); n = row[0]; g = None
+        if key == 'Peredvizhniki':
+            g = d['named'][0] if b < 1840 else d['named'][1] if b < 1855 else d['named'][2]
+        elif key == 'Skagen Painters':
+            g = d['named'][1] if n in NAT_SK else d['named'][0]
+        elif key == 'Newlyn School':
+            g = d['named'][0]
+        elif key == 'Lyon School':
+            g = d['named'][0] if n in LYON_T else d['named'][1] if n in LYON_R else d['named'][2]
+        elif key == 'Golden Age of Finnish Art':
+            g = d['named'][1] if n in FIN_NR else d['named'][0]
+        items.append((g, row, raw))
+    for ex in EXTRA.get(key, []):
+        b = int(re.search(r'b\. (\d{4})', ex[2]).group(1))
+        items.append((ex[1], ex, [None] * 5 + [{'birth': str(b)}]))
+    kinds = finish(key, items, d['named'], '', cap=150, minsize=3)
+    out['new_leaves'].append({'key': f'NEW{i}', 'sub': 'A5', 'label': key, 'breadth': d['breadth'], 'defn': d['defn'], 'aliases': d['aliases'], 'see': d['see'],
+                              'src': d['src'], 'catalogues': d['cats'], 'axis': d['axis'], 'kinds': kinds})
+json.dump(out, open('result.json', 'w'), ensure_ascii=False, indent=0)
+print({k: len(v['kinds']) for k, v in out['leaves'].items()}, [(n['label'], len(n['kinds'])) for n in out['new_leaves']], len(moves))

@@ -41,7 +41,7 @@ L("K1-6", ("Great Seljuk buildings (Iran, Central Asia)", ["W:Seljuk architectur
           ("Pre-Seljuk Persianate buildings (Samanid, Buyid, Ghaznavid, Ziyarid)", ["N:Persian — early Islamic (Samanid / Buyid / Ghaznavid)", "W:Samanid architecture", "W:Ghaznavid architecture", "W:Buyid architecture", "W:Ziyarid architecture", "W:Saffarid architecture", "W:Tahirid architecture", "W:Ghaznavid art"]),
           ("Nakhchivan school", ["W:Architectural school of Nakhchivan"]),
           ("Arran school", ["W:Arran architectural school"]),
-          ("Shirvan–Absheron school", ["W:Shirvan-Absheron architectural school", "N:Azerbaijani (Shirvan–Absheron)"]))
+          ("Shirvan–Absheron school", ["W:Shirvan-Absheron architectural school", "N:Azerbaijani (Shirvan–Absheron)"]), split=None)
 L("K1-7", ("Anatolian Seljuk and beylik buildings", ["W:Anatolian Seljuk architecture", "N:Anatolian Seljuk / Beylik"]))
 L("K1-8", ("Ayyubid buildings (precursor)", ["W:Ayyubid architecture", "N:Ayyubid"]),
           ("Bahri Mamluk buildings (1250–1382)", ["W:Mamluk architecture", "N:Mamluk"], before(1382)),
@@ -50,13 +50,13 @@ L("K1-9", ("Ilkhanid buildings", ["W:Ilkhanid architecture", "N:Persian — Ilkh
           ("Azari style buildings", ["W:Azari style"]),
           ("Jalayirid Iraq", ["N:Iraqi Islamic (Ilkhanid / Jalayirid)"]))
 L("K1-10", ("Timurid buildings", ["W:Timurid architecture", "W:Timurid art", "N:Timurid"]),
-           ("Shaybanid and khanate buildings (post-Timurid Central Asia)", ["N:Central Asian — Shaybanid / khanates (Bukhara, Khiva, Kokand)"]))
+           ("Shaybanid and khanate buildings (post-Timurid Central Asia)", ["N:Central Asian — Shaybanid / khanates (Bukhara, Khiva, Kokand)"]), split=["country"])
 L("K1-11", ("Safavid buildings", ["W:Safavid architecture", "N:Persian — Safavid"]),
            ("Isfahani style buildings", ["W:Isfahani style"]))
 L("K1-12", ("Ottoman buildings in Anatolia and the Balkans", ["W:Ottoman architecture", "N:Ottoman"]),
            ("Ottoman Baroque buildings", ["W:Ottoman Baroque"]),
            ("Ottoman buildings of the Arab provinces", ["N:Ottoman (Arab provinces)", "W:Ottoman architecture in Egypt"]),
-           split="country")
+           split=["century", "class"])
 L("K1-13", ("Afsharid buildings", ["W:Afsharid architecture"]),
            ("Zand buildings", ["W:Zand architecture"]),
            ("Qajar buildings", ["W:Qajar architecture", "N:Persian — Qajar"]))
@@ -206,25 +206,25 @@ L("K6-25", ("Deconstructivist buildings", ["W:deconstructivism"]))
 L("K7-1", ("Nagara temples of central and north India", ["N:Nagara — central / north India"]), ("Chandela temples (Khajuraho)", ["N:Nagara — Chandela (Khajuraho)"]),
           ("Bhumija and Hemadpanti temples (Deccan)", ["N:Nagara — Bhumija / Hemadpanti (Deccan)"]), ("Himalayan Nagara temples", ["N:Nagara — Himalayan (Himachal / Uttarakhand)"]),
           ("Kashmiri temples (Karkota and Utpala)", ["N:Kashmiri (Karkota / Utpala)"]), ("Assamese (Ahom) temples", ["N:Assamese / Ahom temple"]),
-          black=["Sanchi", "Dhamek", "Chaukhandi"], split="region")
-L("K7-2", ("Kalinga (Odishan) temples", ["W:Kalinga architecture", "W:Rekha deul", "N:Nagara — Kalinga (Odisha)"]), ("Deul temples outside Odisha", ["W:Deul"]))
+          black=["Sanchi", "Dhamek", "Chaukhandi"], split=["region"])
+L("K7-2", ("Kalinga (Odishan) temples", ["W:Kalinga architecture", "W:Rekha deul", "N:Nagara — Kalinga (Odisha)"]), ("Deul temples outside Odisha", ["W:Deul"]), split=None)
 L("K7-3", ("Maru-Gurjara temples", ["W:Māru-Gurjara architecture", "N:Nagara — Maru-Gurjara"]), split="region")
 L("K7-4", ("Pallava temples", ["N:Dravidian — Pallava"]), ("Chola temples", ["N:Dravidian — Chola"]), ("Vijayanagara temples", ["N:Dravidian — Vijayanagara"]), ("Kakatiya temples", ["N:Kakatiya", "W:Kakatiya architecture"]),
           ("Later Dravidian temples (after 1736)", ["N:Dravidian — modern (after 1736)"]), ("Dravidian temples of Tamil Nadu and the south, period unassigned", ["W:Dravidian architecture", "W:Tamil architecture", "N:Dravidian (undated)"]),
-          ("Andhra Dravidian temples", ["N:Andhra Dravidian (other / undated)"]), ("Karnataka Dravidian temples", ["N:Karnataka Dravidian (other / undated)"]), ("Sri Lankan kovils", ["N:Sri Lankan Dravidian (kovil)"]), split="region")
+          ("Andhra Dravidian temples", ["N:Andhra Dravidian (other / undated)"]), ("Karnataka Dravidian temples", ["N:Karnataka Dravidian (other / undated)"]), ("Sri Lankan kovils", ["N:Sri Lankan Dravidian (kovil)"]), split=None)
 L("K7-5", ("Badami Chalukya temples", ["N:Badami Chalukya", "W:Badami Chalukya architecture"]), ("Western Chalukya (Kalyani) temples", ["N:Western Chalukya (Kalyani)"]), ("Hoysala temples", ["N:Hoysala", "W:Hoysala architecture"]))
-L("K7-6", ("Kerala temples", ["N:Kerala temple architecture", "W:architecture of Kerala"]), split="class")
+L("K7-6", ("Kerala temples", ["N:Kerala temple architecture", "W:architecture of Kerala"]), split=["place"])
 L("K7-7", ("At-chala temples", ["W:At-chala"]), ("Char-chala temples", ["W:Char-chala"]), ("Do-chala temples", ["W:Do-chala"]), ("Jor-bangla temples", ["W:Jor-bangla"]),
           ("Ek-ratna temples", ["W:Ek-ratna"]), ("Pancharatna temples", ["W:Pancharatna"]), ("Navaratna temples", ["W:Navaratna"]), ("Higher ratna temples (13, 17, 25 pinnacles)", ["W:Trayodash-ratna", "W:Saptadash-ratna", "W:Panchabimsati-ratna"]),
           ("Dalan temples", ["W:dalan"]), ("Bengal temples, type unassigned", ["N:Bengal temple (chala / ratna, terracotta)", "W:Baro-chala"]))
 L("K7-8", ("Early Buddhist stupas, viharas and chaityas (Maurya to Pala)", ["N:Early Buddhist (Maurya – Gupta – Pala)", "W:Buddhist architecture"]), ("Gandharan Buddhist sites", ["N:Gandharan Buddhist", "W:Greco-Buddhist art"]),
           black=["Buddhas of Bamiyan"])
 L("K7-9", ("Rock-cut caves and temples", ["N:Indian rock-cut (caves)", "W:rock-cut architecture in India"]))
-L("K7-10", ("Anuradhapura period", ["N:Sinhalese — Anuradhapura"]), ("Polonnaruwa period", ["N:Sinhalese — Polonnaruwa"]), ("Kandyan period", ["N:Sinhalese — Kandyan"]), ("Sinhalese Buddhist sites, period unassigned", ["N:Sinhalese Buddhist (other)"]))
-L("K7-11", ("Newar temples, stupas and palaces (Kathmandu valley)", ["N:Newar (Kathmandu valley)", "W:Newa architecture"]), split="class")
+L("K7-10", ("Anuradhapura period", ["N:Sinhalese — Anuradhapura"]), ("Polonnaruwa period", ["N:Sinhalese — Polonnaruwa"]), ("Kandyan period", ["N:Sinhalese — Kandyan"]), ("Sinhalese Buddhist sites, period unassigned", ["N:Sinhalese Buddhist (other)"]), split=["region", "class"])
+L("K7-11", ("Newar temples, stupas and palaces (Kathmandu valley)", ["N:Newar (Kathmandu valley)", "W:Newa architecture"]), split=None)
 L("K7-12", ("Tibetan Buddhist monasteries and temples", ["N:Tibetan Buddhist", "W:Tibetan Buddhist architecture"]), black=["Vikram"], split="region")
 L("K7-13", ("Bhutanese dzongs", ["N:Bhutanese dzong", "W:dzong"]))
-L("K7-14", ("Rajput forts and palaces", ["N:Rajput (forts and palaces)", "W:Rajasthani architecture style"]), ("Maratha hill and sea forts (Deccan)", ["N:Deccan hill and sea forts (Maratha era)"]))
+L("K7-14", ("Rajput forts and palaces", ["N:Rajput (forts and palaces)", "W:Rajasthani architecture style"]), ("Maratha hill and sea forts (Deccan)", ["N:Deccan hill and sea forts (Maratha era)"]), split=["class"])
 L("K7-15", ("Stepwells", ["N:Stepwell (western India)"]), split="region")
 L("K7-16", ("Gurdwaras and Sikh buildings", ["W:Sikh architecture"]))
 L("K7-17", ("Harappan cities and sites", ["N:Harappan (Indus)"]))
@@ -236,9 +236,10 @@ L("K8-1", ("Pre-Tang buildings (to 617)", ["N:Chinese — pre-Tang (to 617)"]), 
           ("Imperial palaces and paifang", ["W:Chinese Palaces", "W:paifang", "W:Imperial Chinese Architecture Style"]), ("Chinese buildings, period unassigned", ["W:Chinese architecture"]),
           ("Chinese temples, period unassigned", ["N:Chinese temple (undated)"]), split="class")
 L("K8-2", ("Siheyuan", ["W:siheyuan"]), ("Sanheyuan (Taiwan)", ["W:sanheyuan"]))
-L("K8-3"); L("K8-4"); L("K8-6"); L("K8-9")
+L("K8-3"); L("K8-6"); L("K8-9")
+L("K8-4", ("Tulou and walled villages", ["I:tulou cluster", "I:tulou"]))
 L("K8-5", ("Hui-style villages, houses and halls", ["W:Hui-style architecture"]))
-L("K8-7", ("Taiwanese (Minnan) temples", ["N:Taiwanese (Minnan) temple"]), split="class")
+L("K8-7", ("Taiwanese (Minnan) temples", ["N:Taiwanese (Minnan) temple"]), split=["region", "class"])
 L("K8-8", ("Sichuanese buildings", ["W:Sichuanese architecture", "W:vernacular residential architecture of Western Sichuan"]))
 L("K8-10", ("Shinmei-zukuri shrines", ["W:Shinmei-zukuri"]), ("Taisha-zukuri shrines", ["W:Taisha-zukuri"]), ("Sumiyoshi-zukuri shrines", ["W:Sumiyoshi-zukuri"]), ("Nagare-zukuri shrines", ["W:nagare-zukuri"]),
            ("Kasuga-zukuri shrines", ["W:Kasuga-zukuri"]), ("Hachiman-zukuri shrines", ["W:Hachiman-zukuri"]), ("Hiyoshi-zukuri shrines", ["W:Hiyoshi-zukuri"]), ("Ishi-no-ma-zukuri (gongen-zukuri) shrines", ["W:Ishi-no-ma-zukuri"]),
@@ -252,7 +253,7 @@ L("K8-12", ("Shinden-zukuri palaces and halls", ["W:Shinden-zukuri"]))
 L("K8-13", ("Shuden-zukuri halls", ["W:shuden-zukuri"]), ("Shoin-zukuri halls and residences", ["W:shoin-zukuri"]))
 L("K8-14", ("Sukiya-zukuri villas and residences", ["W:sukiya-zukuri"]), ("Chashitsu (tea houses)", ["W:chashitsu", "W:sōan"]), ("Modern Japanese-style (kindai wafū) buildings", ["W:modern Japanese-style architecture"]))
 L("K8-15", ("Nōka farmhouses", ["W:minka", "W:Kudozukuri", "W:Tamugimata multilayered house"]), ("Gasshō-zukuri houses", ["W:gasshō-zukuri"]), ("Magariya (L-shaped farmhouses)", ["W:magariya"]),
-           ("Machiya (townhouses)", ["W:machiya"]), ("Dozō (kura storehouses)", ["W:dozō"]), ("Buke yashiki and nagayamon", ["W:buke yashiki", "W:nagayamon"]))
+           ("Machiya (townhouses)", ["W:machiya"]), ("Kominka (preserved old houses)", ["I:kominka"]), ("Dozō (kura storehouses)", ["W:dozō"]), ("Buke yashiki and nagayamon", ["W:buke yashiki", "W:nagayamon"]))
 L("K8-16", ("Japanese castles", ["N:Japanese castle", "W:Japanese castle architecture", "W:southern Kyushu type castle"]), split="jregion")
 L("K8-17", ("Keyhole-shaped kofun (zenpō-kōen-fun)", ["W:zenpō-kōen-fun", "W:Makimuku-type keyhole-shaped kofun"]), ("Zenpō-kōhō-fun", ["W:Zenpō-kōhō-fun"]), ("Scallop-shaped kofun", ["W:scallop-shaped kofun"]),
            ("Round kofun", ["W:round-topped burial mound"]), ("Square and rectangular kofun", ["W:square kofun", "W:Rectangular Kofun", "W:Sōhō-chūen Kofun"]), ("Octagonal kofun", ["W:octagonal kofun"]),
@@ -260,18 +261,18 @@ L("K8-17", ("Keyhole-shaped kofun (zenpō-kōen-fun)", ["W:zenpō-kōen-fun", "W
 L("K8-18", ("Ryukyuan gusuku, palaces and tombs", ["W:Ryukyuan architecture", "W:hahubaka"]))
 L("K8-19", ("Giyōfū buildings", ["W:Giyōfū architecture"]), ("Japanese-Western eclectic buildings", ["W:Japanese-Western Eclectic Architecture"]))
 L("K8-20", ("Three Kingdoms and Unified Silla temples", ["N:Korean Buddhist — Three Kingdoms / Unified Silla"]), ("Goryeo temples", ["N:Korean Buddhist — Goryeo"]), ("Joseon buildings", ["N:Korean — Joseon"]),
-           ("Korean buildings, other", ["W:Korean architecture"]), ("Korean Buddhist temples, period unassigned", ["N:Korean Buddhist (undated)"]), split="region")
+           ("Korean buildings, other", ["W:Korean architecture"]), ("Korean Buddhist temples, period unassigned", ["N:Korean Buddhist (undated)"]), split=["region"])
 L("K8-21")
 
 # ---------------- K9 Southeast Asia ----------------
 L("K9-1", ("Pre-Angkorian temples", ["N:Pre-Angkorian Khmer"]), ("Angkorian temples", ["N:Khmer (Angkorian)", "W:Khmer architecture"]), ("Provincial Angkorian temples (Thailand, Laos)", ["N:Khmer (Angkorian, provincial)"]),
-          ("Post-Angkorian Buddhist buildings", ["N:Cambodian Buddhist (post-Angkor)"]))
+          ("Post-Angkorian Buddhist buildings", ["N:Cambodian Buddhist (post-Angkor)"]), split=["region", "country"])
 L("K9-2", ("Central Javanese candi (Mataram)", ["N:Javanese candi — Central Java (Mataram)"]), ("East Javanese candi (Kediri, Singhasari, Majapahit)", ["N:Javanese candi — East Java (Kediri / Singhasari / Majapahit)"]),
           ("Sumatran candi (Srivijaya and Melayu)", ["N:Sumatran candi (Srivijaya / Melayu)"]), ("Javanese candi, period unassigned", ["N:Javanese candi (other)"]), black=["Sri Mariamman"])
-L("K9-3", ("Balinese pura (temples)", ["N:Balinese (pura)"]), ("Balinese buildings, other", ["W:Balinese architecture"]))
+L("K9-3", ("Balinese pura (temples)", ["N:Balinese (pura)"]), ("Balinese buildings, other", ["W:Balinese architecture"]), split=None)
 L("K9-4")
-L("K9-5", ("Pagan temples and stupas", ["N:Burmese — Pagan"]), ("Mrauk U (Arakan)", ["N:Arakanese (Mrauk U)"]), ("Post-Pagan Burmese pagodas and monasteries", ["N:Burmese Buddhist (post-Pagan)"]))
-L("K9-6", ("Sukhothai", ["N:Thai — Sukhothai"]), ("Lanna", ["N:Thai — Lanna"]), ("Ayutthaya", ["N:Thai — Ayutthaya"]), ("Rattanakosin", ["N:Thai — Rattanakosin"]), ("Thai buildings, period unassigned", ["W:Thai architecture", "W:architecture of Thailand"]))
+L("K9-5", ("Pagan temples and stupas", ["N:Burmese — Pagan"]), ("Mrauk U (Arakan)", ["N:Arakanese (Mrauk U)"]), ("Post-Pagan Burmese pagodas and monasteries", ["N:Burmese Buddhist (post-Pagan)"]), split=["region"])
+L("K9-6", ("Sukhothai", ["N:Thai — Sukhothai"]), ("Lanna", ["N:Thai — Lanna"]), ("Ayutthaya", ["N:Thai — Ayutthaya"]), ("Rattanakosin", ["N:Thai — Rattanakosin"]), ("Thai buildings, period unassigned", ["W:Thai architecture", "W:architecture of Thailand"]), split=["region"])
 L("K9-7", ("Lao temples and stupas", ["N:Lao (Lan Xang / Luang Prabang)"]))
 L("K9-8", ("Cham temple towers", ["N:Cham"]))
 L("K9-9", ("Vietnamese Buddhist pagodas", ["N:Vietnamese Buddhist (Lý – Nguyễn)"]), ("Vietnamese buildings, other", ["W:Vietnamese architecture", "W:Trùng thiềm điệp ốc"]))
@@ -284,25 +285,25 @@ L("K9-14", ("Malay houses and palaces", ["W:Malay architecture", "W:architecture
 L("K10-1", ("Aksumite sites", ["N:Aksumite"]))
 L("K10-2", ("Rock-hewn churches", ["N:Ethiopian rock-hewn churches"]), black=["Abu Simbel", "Ruins of Aksum"])
 L("K10-3", ("Gondarine castles and churches", ["N:Gondarine (Ethiopia)"]))
-L("K10-4", ("Kushite pyramids, temples and towns", ["N:Kushite (Napatan / Meroitic)"]))
+L("K10-4", ("Kushite pyramids, temples and towns", ["N:Kushite (Napatan / Meroitic)"]), split=["class"])
 L("K10-5", ("Zimbabwe culture dry-stone sites", ["N:Zimbabwe culture (dry-stone)"]), black=["Tsodilo", "Makapansgat", "Kubu"])
-L("K10-6", ("Maghrebi ksour and kasbahs", ["N:Maghrebi earthen (ksar / kasbah)"]), ("Saharan stone ksour (Mauritania)", ["N:Saharan stone (Mauritania ksour)"]), black=["Nouakchott"], split="country")
+L("K10-6", ("Maghrebi ksour and kasbahs", ["N:Maghrebi earthen (ksar / kasbah)", "I:ksar", "I:kasbah"]), ("Saharan stone ksour (Mauritania)", ["N:Saharan stone (Mauritania ksour)"]), black=["Nouakchott"], split="country")
 L("K10-7")
 
 # ---------------- K11 Americas ----------------
 L("K11-1", ("Southern lowland Maya (Petén, Usumacinta, Belize)", ["N:Maya — southern lowlands (Petén / Usumacinta / Belize)"]), ("Maya highlands and southeast (Guatemala, Copán)", ["N:Maya — highlands and southeast (Guatemala highlands, Copán)"]),
-           ("Río Bec", ["N:Maya — Río Bec"]), ("Chenes", ["N:Maya — Chenes"]), ("Puuc", ["N:Maya — Puuc"]), ("Northern lowland Maya", ["N:Maya — northern lowlands"]), ("Maya sites, region unassigned", ["N:Maya (unlocated)", "W:Maya architecture"]))
+           ("Río Bec", ["N:Maya — Río Bec"]), ("Chenes", ["N:Maya — Chenes"]), ("Puuc", ["N:Maya — Puuc"]), ("Northern lowland Maya", ["N:Maya — northern lowlands"]), ("Maya sites, region unassigned", ["N:Maya (unlocated)", "W:Maya architecture"]), split=["country", "region"])
 L("K11-2", ("Olmec sites", ["N:Olmec"]), ("Teotihuacan", ["N:Teotihuacan"]), ("Zapotec and Mixtec sites (Oaxaca)", ["N:Zapotec / Mixtec (Oaxaca)"]), ("Classic Veracruz and Totonac sites", ["N:Classic Veracruz / Totonac"]),
-           ("Toltec sites", ["N:Toltec"]), ("Mesoamerican sites of central and western Mexico, culture unassigned", ["N:Mesoamerican (central / western Mexico, unassigned)", "W:Mesoamerican architecture"]), black=["Guilá Naquitz", "Gheo-Shih"])
+           ("Toltec sites", ["N:Toltec"]), ("Mesoamerican sites of central and western Mexico, culture unassigned", ["N:Mesoamerican (central / western Mexico, unassigned)", "W:Mesoamerican architecture"]), black=["Guilá Naquitz", "Gheo-Shih"], split=["region"])
 L("K11-3", ("Aztec sites", ["N:Aztec"]))
-L("K11-4", ("Inca sites", ["N:Inca", "W:Inca architecture"]), split="country")
+L("K11-4", ("Inca sites", ["N:Inca", "W:Inca architecture"]), split=["region","country"])
 L("K11-5", ("Caral / Norte Chico", ["N:Caral / Norte Chico"]), ("Chavín", ["N:Chavín"]), ("Moche", ["N:Moche"]), ("Wari", ["N:Wari"]), ("Chimú", ["N:Chimú"]), ("Chachapoya", ["N:Chachapoya"]),
-           ("Regional cultures (Recuay, Lima, Sicán ...)", ["N:Andean regional (Recuay, Lima, Sicán, ...)"]), ("Andean sites, culture unassigned (incl. Tiwanaku)", ["N:Andean (culture unassigned)"]), black=["Toro Muerto", "שלום"])
+           ("Regional cultures (Recuay, Lima, Sicán ...)", ["N:Andean regional (Recuay, Lima, Sicán, ...)"]), ("Andean sites, culture unassigned (incl. Tiwanaku)", ["N:Andean (culture unassigned)"]), black=["Toro Muerto", "שלום"], split=["region","country"])
 L("K11-6", ("Ancestral Puebloan great houses, cliff dwellings and pueblos", ["N:Ancestral Puebloan", "W:Pueblo architecture"]), split="region")
 L("K11-7", ("Mound Builder earthworks", ["N:Mississippian / mound builders"]))
 
 # ---------------- K12 Oceania & vernacular ----------------
-L("K12-5", ("Rapa Nui ahu", ["N:Rapa Nui (ahu / moai)"]), ("Tongan langi and trilithon", ["N:Tongan megalithic (langi / trilithon)"]))
+L("K12-5", ("Marae", ["I:marae"]), ("Rapa Nui ahu", ["N:Rapa Nui (ahu / moai)"]), ("Tongan langi and trilithon", ["N:Tongan megalithic (langi / trilithon)"]))
 L("K12-6", ("Saudeleur megalithic sites", ["N:Nan Madol (Saudeleur megalithic)"]))
 L("K12-7", ("Churches of Chiloé", ["W:Chilotan architecture"]))
 L("K12-8", ("British vernacular buildings", ["W:Cotswold architecture"]))
@@ -312,5 +313,12 @@ L("K12-14", ("I-houses", ["W:I-house"]), ("Gablefront houses", ["W:gablefront ho
             ("New Mexico vernacular", ["W:New Mexico vernacular"]), ("Round barns", ["W:round barn"]))
 L("K12-17", ("French vernacular buildings", ["W:Briarde architecture"]))
 L("K12-18", ("Cycladic buildings", ["W:Cycladic architecture", "W:κυκλαδική αρχιτεκτονική"]))
-for c in ("K12-1", "K12-2", "K12-3", "K12-4", "K12-10", "K12-12", "K12-13", "K12-15", "K12-16", "K12-19", "K12-20"): L(c)
-for c in ("K13-1", "K13-2", "K13-3", "K13-4", "K13-5", "K13-6", "K13-7", "K14-1", "K14-2", "K14-3", "K14-4"): L(c)
+L("K12-12", ("Hórreos", ["I:hórreo"], country("Spain")))
+L("K12-13", ("Trulli", ["I:trullo"], country("Italy")))
+for c in ("K12-1", "K12-2", "K12-3", "K12-4", "K12-10", "K12-15", "K12-16", "K12-19", "K12-20"): L(c)
+L("K13-1", ("Persian gardens", ["I:Persian garden"]))
+L("K13-3", ("Chinese gardens", ["I:Chinese garden"]))
+L("K13-4", ("Japanese gardens", ["I:Japanese garden", "I:Japanese strolling garden", "I:daimyō garden", "I:dry landscape garden"]))
+L("K13-6", ("French formal gardens", ["I:French formal garden"]))
+L("K13-7", ("English landscape gardens", ["I:English garden"]))
+for c in ("K13-2", "K13-5", "K14-1", "K14-2", "K14-3", "K14-4"): L(c)
