@@ -156,6 +156,21 @@
   ]
  },
  {
+  "key": "NEW_A8_SAGEUK",
+  "sub": "A8",
+  "label": "Sageuk Film",
+  "breadth": "national genre",
+  "defn": "The Korean historical film (sageuk), set chiefly in the Goryeo and Joseon courts and countryside: palace intrigue, royal doubles, scholars, painters and kisaeng (<i>The King and the Clown</i>, <i>Masquerade</i>, <i>Untold Scandal</i>).",
+  "aliases": "sageuk",
+  "see": "A8-4 Royal Court Drama",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Sageuk",
+    "Wikipedia"
+   ]
+  ]
+ },
+ {
   "key": "NEW_A15_CAT3",
   "sub": "A15",
   "label": "Hong Kong Category III Film",

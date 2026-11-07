@@ -49,3 +49,43 @@ def apply(CFG):
             v["cat"] = list(v.get("cat", [])) + CAT[c]
         if c in ADD:
             v["add"] = list(v["add"]) + ADD[c]
+
+GLOSS = {
+    "A5-12": {"Utopia (Anmatyerre / Alyawarr batik and painting)": "Utopia homelands NE of Alice Springs: batik (1977) then acrylic painting (Kngwarreye, Petyarre)",
+              "Papunya Tula (Western Desert painting)": "Papunya, NT: the founding company of the movement (1972)",
+              "Yuendumu / Lajamanu (Warlpiri: Warlukurlangu, Warnayaka)": "Warlpiri art centres of Yuendumu and Lajamanu",
+              "APY / Ngaanyatjarra Lands art centres (Ernabella, Tjala, Spinifex, Tjanpi)": "Pitjantjatjara and Ngaanyatjarra art centres of SA and WA",
+              "Balgo (Warlayirti Artists)": "Balgo (Wirrimanu), Kimberley edge, from 1987", "Haasts Bluff (Ikuntji Artists)": "Ikuntji art centre, Haasts Bluff, NT (1992)",
+              "Jukurrpa Designs": "Alice Springs Aboriginal design studio", "Ernabella Arts": "Pukatja (Ernabella), SA, oldest Aboriginal art centre (1948)",
+              "Tjala Arts": "Amata, APY Lands, SA", "Lajamanu (Warnayaka)": "Warnayaka Art Centre, Lajamanu, NT"},
+    "A5-13": {"Tiwi ochre painting (Munupi, Jilamara)": "ochre painting of the Tiwi Islands (Munupi, Jilamara art centres)", "Warmun / East Kimberley (Gija) painting": "Gija ochre painting of Warmun (Turkey Creek), WA",
+              "Fitzroy Crossing (Mangkaja Arts)": "Mangkaja Arts, Fitzroy Crossing, WA (1981)", "Mornington Island (Lardil, Kaiadilt) art": "Mornington Island Art, Gulf of Carpentaria, Qld",
+              "Ngukurr (Roper River) painting": "Ngukurr Arts, Roper River, NT", "Waringarri Aboriginal Arts": "Kununurra art centre, East Kimberley (1985)"},
+    "A6-18": {"x-ray style": "West Arnhem Land depiction of skeleton and organs", "Eastern Arnhem Land (Yolngu) bark painting (Yirrkala, Galiwin'ku)": "Yolŋu clan painting of Yirrkala and Galiwin'ku",
+              "Western Arnhem Land bark painting (Kunwinjku, Oenpelli)": "Kunwinjku painting of Gunbalanya (Oenpelli) and Maningrida's west",
+              "Groote Eylandt bark painting (Anindilyakwa)": "Anindilyakwa painting of Groote Eylandt", "Central Arnhem Land bark painting (Maningrida, Ramingining, Milingimbi)": "Maningrida, Ramingining and Milingimbi painting",
+              "Buku-Larrnggay Mulka Centre (Yirrkala)": "Yolŋu art centre of Yirrkala (1976)", "Injalak Arts (Gunbalanya/Oenpelli)": "Kunwinjku art centre of Gunbalanya (1989)",
+              "Maningrida Arts & Culture": "Maningrida art centre, Central Arnhem Land (1973)", "Ramingining and Milingimbi": "Central Arnhem Land communities (Bula'bula Arts, Milingimbi Art and Culture)"},
+    "A6-31": {"Hector Hyppolite": "Vodou priest-painter (1894–1948), first master of the Centre d'Art", "Philomé Obin": "Cap-Haïtien painter (1892–1986)", "Préfète Duffaut": "Jacmel painter of imaginary cities (1923–2012)"},
+    "B1-3": {"Newspaper comic strips": "daily and Sunday strips from the 1890s", "Underground comix": "self-published adult comics of the late 1960s–70s", "Superhero comics": "the genre launched by Superman (1938)",
+             "Golden Age of Comic Books": "c. 1938–1956", "Winsor McCay": "Little Nemo (1867–1934)", "George Herriman": "Krazy Kat (1880–1944)", "Will Eisner": "The Spirit, A Contract with God (1917–2005)",
+             "Robert Crumb": "underground cartoonist (b. 1943)", "Art Spiegelman": "Maus (b. 1948)"},
+    "B2-4": {"Zhuxianzhen New Year prints (Kaifeng)": "Henan, oldest centre (Song origin)", "Taohuawu (Suzhou) prints": "Suzhou, Jiangsu, refined colour prints from the Ming",
+             "Yangliuqing New Year prints (Tianjin)": "Tianjin, printed then hand-painted", "Weifang / Yangjiabu New Year prints": "Shandong", "Wuqiang New Year prints (Hebei)": "Hebei", "Mianzhu New Year prints (Sichuan)": "Sichuan"},
+    "B2-9": {"Belle Époque poster": "colour lithograph posters, Paris 1870s–1914", "American poster of the 1890s": "literary and magazine posters", "Italian poster (Ricordi)": "posters printed by Ricordi, Milan",
+             "Swiss poster": "object and typographic posters from the 1900s", "British poster": "railway and Underground posters", "Art Deco poster": "France 1920s–30s", "Psychedelic poster": "San Francisco concert posters, 1960s",
+             "Jules Chéret": "father of the colour poster (1836–1932)", "Alphonse Mucha": "Gismonda (1894) (1860–1939)", "Leonetto Cappiello": "Le Thermogène (1909) (1875–1942)"},
+    "B2-11": {"ROSTA windows": "stencilled news posters of the Russian Telegraph Agency, 1919–22", "Constructivist photomontage poster": "1920s–30s photomontage of Klutsis and Kulagina",
+              "Dmitry Moor": "Have You Volunteered? (1920) (1883–1946)", "Viktor Deni": "Civil War caricaturist (1893–1946)", "Viktor Koretsky": "wartime and Cold War posters (1909–1998)", "Irakli Toidze": "The Motherland Calls! (1941) (1902–1985)"},
+    "B2-12": {"Henryk Tomaszewski": "founder of the school (1914–2005)", "Jan Lenica": "poster artist and animator (1928–2001)", "Roman Cieślewicz": "poster and collage artist (1930–1996)",
+              "Waldemar Świerzy": "poster artist (1931–2013)", "Franciszek Starowieyski": "poster artist (1930–2009)"},
+    "C2-5": {"South Indian palm-leaf (Tamil, Malayalam, Telugu, Kannada)": "incised olas of South India", "Odia palm-leaf": "incised and illustrated palm leaves of Odisha", "Sinhalese palm-leaf": "Buddhist ola books of Sri Lanka",
+             "Nepalese (Newar) manuscripts": "illuminated Buddhist palm-leaf books of the Kathmandu Valley", "Khmer manuscripts": "Cambodian palm-leaf books", "Southeast Asian palm-leaf (unlocalised)": "palm-leaf books of mainland Southeast Asia"},
+    "A5-91": {"Christo and Jeanne-Claude": "wrapping artists (1935–2020; 1935–2009)"},
+    "C1-4": {"Muhammad Husain Zarin Qalam": "Muhammad Husain Kashmiri 'Zarin Qalam', Akbar's nasta'liq master (d. 1611)"},
+}
+
+
+def apply_gloss(CFG):
+    for c, d in GLOSS.items():
+        CFG.setdefault(c, {}).setdefault("gloss", {}).update(d)

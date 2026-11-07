@@ -88,7 +88,10 @@ lace collar collars cuff cuffs flounce lappet lappets insertion edging edge hand
 embroidery embroidered woven weave weaving printed painted dyed brocade brocaded tapestry tapestries velvet silk cotton wool linen
 prayer saddle saddlebag bag-face face fragmentary small large long short pair one two three four
 huipil huipiles rebozo serape sarape blanket blankets wrapper wrappers loincloth sarong tube sampot hol
-untitled unknown various object objects item""".split())
+untitled unknown various object objects item
+doek hoofddoek omslagdoek draagdoek schouderdoek heupdoek lendendoek borstdoek rok jas jasje baadje broek tas mand mandje sjabloon kleed tafelkleed wandkleed deken
+slendang selendang kain panjang stof lap van een met op en de het der des katoenen zijden wollen geweven gebatikte jurk muts kap kant strook
+ковер коврик полотенце платок рубаха рубашка рушник шаль кружево фрагмент образец ткани ткань фартук пояс головной убор юбка сарафан покрывало подзор""".lower().split())
 
 def titled(t, leafwords):
     w = re.findall(r"[a-zA-ZÀ-ɏ'Ā-￿]+", t.lower())
@@ -202,7 +205,7 @@ for l in INP:
             ng = (ng + " · Possession: %s (%s)" % (pm.group(1), pm.group(2))).strip(" ·")
         s = src
         if src == "possession" and purl: s = "possession " + purl.group()
-        kinds.append([nn, g, ng[:200], s, 1 if maker else 0])
+        kinds.append([nn, g, ng[:200], s, 1 if (maker or g == "Makers") else 0])
     for old in rules:
         if old not in used: print("RULE UNUSED", code, old)
     for g, name, gl, src, m in k["adds"]:

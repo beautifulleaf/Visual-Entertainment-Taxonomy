@@ -33,3 +33,4 @@ To do at assembly:
 - Owner: yes to sitcom eras — pass re-sections B8 (and B10-4) by attested sitcom eras (coverage_out/sitcom_eras/resections.json); assembly applies re-sectioning after all moves and adds.
 - Done: sitcom eras (B8-1 Family, B8-5 Hangout, B8-9 Character Comedy re-sectioned by attested US/UK eras; 315 titles). Broad City web original (tt1948541) out by override.
 - Owner: yes to Workplace Comedy (B8-3) by era — pass running (adds to coverage_out/sitcom_eras/resections.json).
+- Done VA: small_E (Ceramics: 4,112 kinds; 2,939 rule-based works; Bubnivka and Oleshnia still empty).

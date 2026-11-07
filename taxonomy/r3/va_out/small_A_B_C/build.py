@@ -19,6 +19,7 @@ for m in ("cfg_a1", "cfg_a234", "cfg_a5", "cfg_a6", "cfg_b", "cfg_c"):
 
 import cfg_fix
 cfg_fix.apply(CFG)
+cfg_fix.apply_gloss(CFG)
 
 # ---------------------------------------------------------------- helpers
 CTRY = {
@@ -178,6 +179,8 @@ def ms_works(spec):
         gl = ", ".join(bits)
         if coll:
             gl = (gl + "; " if gl else "") + coll
+        if not gl:
+            gl = "named manuscript; date and holder not recorded in the gathered data"
         rows.append([lab[:120], g, gl[:140], "r3 https://www.wikidata.org/wiki/" + x["qid"], 0, x["_y"] if x["_y"] is not None else 9999, -x["_sl"]])
     order = spec.get("order")
     rows.sort(key=lambda r: ((order.index(r[1]) if order and r[1] in order else 99), r[5], r[6]))

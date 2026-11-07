@@ -1,0 +1,10 @@
+# small_E (R3 VA pass, Ceramics) — summary (saved by the coordinator from the pass report)
+
+All 172 small Ceramics leaves are sectioned in the standard order (Sub-types · Schools & phases · Centres & workshops · works by object type: tiles, dishes, bowls, jars/vases, ewers/jugs, figures, other · Collections · Makers) with an axis stating the rule. 4,112 kinds; 3,928 rows added; no new leaves, no moves.
+
+- Works (2,939 rows), rule-based: every gathered ceramic object of the ware (regex over culture, dynasty, place, kiln, materials and title in the regional object files) with a descriptive title and a museum page; bare names ("Bowl", "Tile") excluded; the 50 earliest-dated where more qualify (axis gives the full count). Dutch-titled Volkenkunde/Tropenmuseum/Wereldmuseum records count in Collections but are not listed as works.
+- Collections (585 rows): institutions ranked by the ware's object count (count in gloss); Met culture-label counts added for Greek, Etruscan, European and export-porcelain leaves.
+- Named kinds from the literature (404): sub-types, centres, makers and ~40 named works (Chigi vase, David Vases, Darius Vase ...).
+- View all (655 links): V&A, Met, British Museum; National Palace Museum and Freer|Sackler (China); ColBase (Japan, Korea); Beazley Archive and CVA (Greek, Etruscan); Smithsonian (Americas); Rijksmuseum (Europe); UNESCO ICH pages for 10 folk wares.
+- Input: 36 makers kept; 122 culture labels restating the leaf → alias rows; dropped 2 duplicates and "Painted dower chests" (furniture).
+- Doubts: 46 non-existent Wikipedia titles were repointed (parent articles, ColBase/NPM searches, Met object pages); 7 rows dropped for lack of a safe source; Veii, Vulci, Strasbourg, Jian ware not API-checked. Some matching broad (Fez = all Moroccan ware; Meroitic from the Kush node; Russian state-catalogue objects under Gzhel, Skopin, Balkhar, Izraztsy, Delftware). Greek leaves have almost no object-level works (Met data only label counts). Bubnivka (E1-91) and Oleshnia (E1-92) empty; 30 other folk or thin leaves ≤ 4 kinds.
