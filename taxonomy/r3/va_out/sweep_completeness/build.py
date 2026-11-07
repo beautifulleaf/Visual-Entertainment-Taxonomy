@@ -184,6 +184,106 @@ L = [
          collections_from=["Javanese Hindu-Buddhist Sculpture"]),
 ]
 
+# Held traditions, added on the owner's instruction (2026-11-07, "add held traditions"). Vicús, Turkmen jewellery,
+# Greek bronzes and Mughal textiles were attested in a second search; Mamluk pottery, Sasanian seals and Lydian
+# pottery cite the parent article; Kwoma bark painting has no article found and carries a Wikipedia search link.
+SEARCH = "https://en.wikipedia.org/w/index.php?search="
+L += [
+    dict(key="MAMPOT", sub="E2", label="Mamluk Pottery", breadth="narrow",
+         defn="The pottery of the Mamluk Sultanate of Egypt and Syria (1250–1517): underglaze-painted fritware of Damascus and Cairo, "
+              "often in blue and black on white after Chinese porcelain, and the incised and slip-painted sgraffito earthenware with "
+              "heraldic blazons and inscriptions naming amirs.",
+         aliases="Mamluk ceramics; Mamluk sgraffito; Mamluk blue-and-white", see="G1-3 Mamluk Metalwork; F3-1 Mamluk Enamelled Glass; H1-3 Mamluk Carpet",
+         src=[[W + "Mamluk_Sultanate", "Wikipedia (parent article; no article on the pottery found)"]],
+         catalogues=[met("Mamluk ceramics", "Mamluk ceramics in the Metropolitan Museum"), bm("Mamluk pottery", "Mamluk pottery in the British Museum")],
+         axis="sub-types, then holding institutions",
+         kinds=[k("Underglaze-painted fritware", "Sub-types", "Syrian and Egyptian fritware painted under the glaze, often blue and black on white", W + "Mamluk_Sultanate"),
+                k("Sgraffito ware", "Sub-types", "incised slipped earthenware with heraldic blazons and inscriptions", W + "Mamluk_Sultanate")],
+         collections_from=["Mamluk Pottery"]),
+    dict(key="MUGTEX", sub="H3", label="Mughal Textiles", breadth="medium",
+         defn="The court and luxury textiles of Mughal India (16th–18th century): silk and gold-thread brocades and velvets, "
+              "embroidered and painted cottons, patka sashes and Kashmir-type shawls, with the flowering-plant designs of Shah Jahan's reign "
+              "shared with every other Mughal medium. Carpets are H1-8.",
+         aliases="Mughal silks; Mughal velvets; patka", see="H1-8 Mughal Carpet; A1-4 Mughal Painting; G3-2 Mughal Jewellery; H5-3 Indian Chintz",
+         src=[[W + "Mughal_clothing", "Wikipedia"]],
+         catalogues=[met("Mughal textile", "Mughal textiles in the Metropolitan Museum"),
+                     ["https://collections.vam.ac.uk/search/?q=Mughal+textile", "V&A collection search: Mughal textile", "Mughal textiles in the Victoria and Albert Museum"]],
+         axis="sub-types, then holding institutions",
+         kinds=[k("Brocades and velvets", "Sub-types", "silk and gold-thread figured silks and velvets of the court workshops", W + "Mughal_clothing"),
+                k("Patka sashes", "Sub-types", "the long court sash, woven or painted, with floral end panels", W + "Mughal_clothing"),
+                k("Embroidered textiles", "Sub-types", "silk and metal-thread embroidery on satin and cotton", W + "Mughal_clothing")],
+         collections_from=["Mughal Textiles"]),
+    dict(key="GRKBRZ", sub="G1", label="Ancient Greek Bronzes", breadth="medium",
+         defn="The bronze work of ancient Greece from the Geometric to the Hellenistic period, apart from monumental statuary (D5-57): "
+              "votive figurines, tripods and cauldrons, hydriae, kraters and other vessels exported as far as the Celts (the Vix Krater), "
+              "polished mirrors with caryatid handles and later folding mirrors, and armour.",
+         aliases="Greek bronzes; Greek metalwork", see="D5-57 Ancient Greek Sculpture; G1-70 Etruscan Bronzes; G1-25 Etruscan Mirrors",
+         src=[[W + "Ancient_Greek_art", "Wikipedia"]],
+         catalogues=[met("Greek bronze", "Greek bronzes in the Metropolitan Museum"), bm("Greek bronze", "Greek bronzes in the British Museum")],
+         axis="sub-types, then holding institutions",
+         kinds=[k("Votive figurines", "Sub-types", "small cast figures dedicated in sanctuaries, from the Geometric period", W + "Ancient_Greek_art"),
+                k("Vessels", "Sub-types", "tripods, cauldrons, hydriae and kraters, among them the Vix Krater", W + "Ancient_Greek_art"),
+                k("Mirrors", "Sub-types", "stand mirrors with caryatid handles and later folding mirrors", W + "Ancient_Greek_art")],
+         collections_from=["Ancient Greek Bronzes"]),
+    dict(key="SASSEA", sub="D3", label="Sasanian Seals", breadth="narrow",
+         defn="The engraved stamp seals and seal impressions of Sasanian Iran (224–651): hemispherical and ring-set stamp seals in "
+              "chalcedony, carnelian and other hardstones cut with portraits, animals, monograms and Middle Persian inscriptions, and the "
+              "clay bullae that carry their impressions.",
+         aliases="Sasanian glyptic; Sasanian stamp seals; Sasanian gems", see="D3-5 Cylinder Seals; G1-24 Sasanian Silver; L1-12 Sasanian Rock Reliefs",
+         src=[[W + "Sasanian_art", "Wikipedia (parent article; no article on the seals found)"]],
+         catalogues=[met("Sasanian seal", "Sasanian seals in the Metropolitan Museum"), bm("Sasanian seal", "Sasanian seals in the British Museum")],
+         axis="sub-types, then holding institutions",
+         kinds=[k("Stamp seals", "Sub-types", "hardstone stamp seals cut with portraits, animals and inscriptions", W + "Sasanian_art"),
+                k("Bullae", "Sub-types", "clay sealings carrying seal impressions", W + "Sasanian_art")],
+         collections_from=["Sasanian Stamp Seals"]),
+    dict(key="LYDPOT", sub="E1", label="Lydian Pottery", breadth="narrow",
+         defn="The pottery of Lydia in western Anatolia, centred on Sardis (8th–6th century BCE): streaked and marbled wares, "
+              "black-on-red and bichrome painted vessels in an East Greek-related style, and the lydion, the footed spherical perfume jar "
+              "named after Lydia and adopted by Greek potters.",
+         aliases="Lydian ware; Sardis pottery; lydion", see="E1-30 East Greek Vase Painting; K3 Ancient Mediterranean & Near Eastern Architecture",
+         src=[[W + "Lydion", "Wikipedia"], [W + "Lydia", "Wikipedia (parent article)"]],
+         catalogues=[met("Lydian", "Lydian objects in the Metropolitan Museum (Sardis excavation share)")],
+         axis="sub-types, then holding institutions",
+         kinds=[k("Lydion", "Sub-types", "the footed spherical perfume jar of Lydian origin", W + "Lydion"),
+                k("Streaked and marbled ware", "Sub-types", "Lydian fine ware with streaked or marbled slip", W + "Lydia")],
+         collections_from=["Lydian Pottery"]),
+    dict(key="TURJEW", sub="G3", label="Turkmen Jewellery", breadth="narrow",
+         defn="The silver jewellery of the Turkmen of Central Asia and northeast Iran (19th–early 20th century), made by men for "
+              "women and horses: fire-gilded silver set with carnelian and turquoise, crowns and headbands, braid ornaments, cordiform "
+              "pendants, amulet holders, collar studs and armbands; worn as wealth, rank and protection, with tribal styles (Teke, Yomut).",
+         aliases="Turkmen jewelry; Turkmen silver", see="H1-5 Turkmen Carpet; H4-16 Turkmen Needlework",
+         src=[[W + "Turkmen_jewelry", "Wikipedia"]],
+         catalogues=[met("Turkmen jewelry", "Turkmen jewellery in the Metropolitan Museum (Wolf collection)")],
+         axis="sub-types and tribal styles, then holding institutions",
+         kinds=[k("Cordiform pendants", "Sub-types", "large heart-shaped dorsal ornaments", W + "Turkmen_jewelry"),
+                k("Amulet holders", "Sub-types", "triangular and tubular silver amulet cases", W + "Turkmen_jewelry"),
+                k("Crowns and headbands", "Sub-types", "women's headgear jewellery", W + "Turkmen_jewelry"),
+                k("Teke jewellery", "Schools & phases", "Merv oasis: bold fire-gilded and plain silver with table-cut carnelians", W + "Turkmen_jewelry"),
+                k("Yomut jewellery", "Schools & phases", "Yomut tribal style", W + "Turkmen_jewelry")],
+         collections_from=["Turkmen Jewellery"]),
+    dict(key="VICMET", sub="G1", label="Vicús Metalwork", breadth="narrow",
+         defn="The metalwork of the Vicús culture of the upper Piura valley, far north coast of Peru (c. 200 BCE–600 CE): hammered and "
+              "gilt copper and gold ornaments, masks, crowns, nose and ear ornaments and plaques for high-ranking individuals, in a style "
+              "of its own beside the Moche.",
+         aliases="Vicús gold; Vicús copper", see="E1-57 Chulucanas Pottery",
+         src=[[W + "Vicús_culture", "Wikipedia"]],
+         catalogues=[met("Vicús", "Vicús metalwork in the Metropolitan Museum"),
+                     ["https://www.museolarco.org/", "Museo Larco, Lima", "major Peruvian collection of ancient Andean ceramics, online catalogue"]],
+         axis="sub-types, then holding institutions",
+         kinds=[k("Gilt copper ornaments", "Sub-types", "hammered and gilt copper plaques, pectorals and nose ornaments", W + "Vicús_culture"),
+                k("Masks and crowns", "Sub-types", "copper masks and metal crowns of rank", W + "Vicús_culture")],
+         collections_from=["Vicús Metalwork"]),
+    dict(key="KWOBRK", sub="A6", label="Kwoma Bark Painting", breadth="narrow",
+         defn="The painted sago-palm bark panels of the Kwoma of the Washkuk Hills, upper Sepik, Papua New Guinea, made to line the "
+              "ceilings of ceremonial houses with clan designs and spirit figures in ochre, white and black. Arnhem Land bark painting is A6-18.",
+         aliases="Kwoma ceiling paintings; Kwoma painted panels", see="A6-18 Bark Painting; D5-85 Sepik Carving",
+         src=[[SEARCH + "Kwoma+painting", "Wikipedia search (no article found)"]],
+         catalogues=[met("Kwoma", "Kwoma painted panels in the Metropolitan Museum")],
+         axis="holding institutions",
+         kinds=[],
+         collections_from=["Kwoma Bark Painting"]),
+]
+
 json.dump(dict(leaves={}, new_leaves=L, moves_out=[], dropped=[]),
           open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "result.json"), "w"), ensure_ascii=False, indent=1)
 print(len(L), "new leaves")

@@ -177,6 +177,14 @@
   "G3-31",
   "A1-22",
   "D5-138",
+  "E2-16",
+  "H3-60",
+  "G1-72",
+  "D3-13",
+  "E1-146",
+  "G3-32",
+  "G1-73",
+  "A6-32",
   "H7-23"
  ],
  "va_moved": 3224,
@@ -196,8 +204,8 @@
  "collections": {
   "work_rows_removed": 22666,
   "old_collections_rows": 3075,
-  "leaves": 1505,
-  "institution_rows": 2645,
+  "leaves": 1513,
+  "institution_rows": 2653,
   "artist_leaf_work_rows_removed": 294,
   "sites_kept": 5527
  },

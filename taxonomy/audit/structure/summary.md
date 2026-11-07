@@ -1,6 +1,6 @@
 # Structure audit
 
-Computed from the published data: FT 962 leaves (545 sectioned), VA 1774 leaves. Flags in `flags.csv`.
+Computed from the published data: FT 962 leaves (545 sectioned), VA 1782 leaves. Flags in `flags.csv`.
 
 | Check | Finding | High | Medium | Low |
 |---|---|---:|---:|---:|
@@ -15,7 +15,7 @@ Computed from the published data: FT 962 leaves (545 sectioned), VA 1774 leaves.
 | S2 | era sections overlap | 0 | 7 | 0 |
 | S2 | titles outside their era section's dates | 0 | 9 | 12 |
 | S3 | section not in year order | 0 | 0 | 1 |
-| S4 | one sub-type name in two leaves | 0 | 0 | 22 |
+| S4 | one sub-type name in two leaves | 0 | 0 | 23 |
 | S4 | one title in two leaves | 0 | 6 | 0 |
 | S5 | section label is also a leaf elsewhere | 0 | 16 | 0 |
 | S5 | two leaves with one label in one family | 0 | 19 | 0 |
@@ -85,7 +85,7 @@ S2: 147 titles fall outside the dates of their era section.
 | VA | A3 Icon Painting | 4 | 0 | 1 | 1 |
 | VA | A4 Cloth & Scroll Painting | 8 | 1 | 0 | 9 |
 | VA | A5 Easel Painting | 47 | 55 | 4 | 39 |
-| VA | A6 Folk & Popular Painting | 22 | 5 | 0 | 4 |
+| VA | A6 Folk & Popular Painting | 22 | 5 | 0 | 5 |
 | VA | B1 Drawing | 7 | 1 | 2 | 0 |
 | VA | B2 Printmaking | 10 | 3 | 0 | 8 |
 | VA | C1 Calligraphy | 9 | 0 | 1 | 3 |
@@ -94,12 +94,12 @@ S2: 147 titles fall outside the dates of their era section.
 | VA | C4 Paper Arts | 2 | 3 | 0 | 8 |
 | VA | D1 Architectural Carving & Stucco | 0 | 0 | 0 | 4 |
 | VA | D2 Ivory & Bone Carving | 3 | 0 | 0 | 15 |
-| VA | D3 Hardstone, Rock Crystal & Jade Carving | 3 | 0 | 0 | 9 |
+| VA | D3 Hardstone, Rock Crystal & Jade Carving | 3 | 0 | 0 | 10 |
 | VA | D4 Masks & Puppets | 0 | 1 | 0 | 32 |
 | VA | D5 Figurative Sculpture | 28 | 7 | 3 | 99 |
 | VA | D6 Ritual Objects & Regalia | 0 | 0 | 0 | 13 |
-| VA | E1 Earthenware | 136 | 0 | 0 | 3 |
-| VA | E2 Fritware (Stonepaste) | 15 | 0 | 0 | 0 |
+| VA | E1 Earthenware | 136 | 0 | 0 | 4 |
+| VA | E2 Fritware (Stonepaste) | 15 | 0 | 0 | 1 |
 | VA | E3 Stoneware | 34 | 0 | 0 | 0 |
 | VA | E4 Porcelain | 26 | 0 | 0 | 0 |
 | VA | F1 Blown & Moulded Glass | 0 | 0 | 2 | 16 |
@@ -107,12 +107,12 @@ S2: 147 titles fall outside the dates of their era section.
 | VA | F3 Enamelled & Gilded Glass | 0 | 0 | 0 | 1 |
 | VA | F4 Lustre-Painted Glass | 0 | 0 | 0 | 1 |
 | VA | F5 Stained Glass | 1 | 0 | 0 | 2 |
-| VA | G1 Metalwork | 14 | 0 | 0 | 57 |
+| VA | G1 Metalwork | 14 | 0 | 0 | 59 |
 | VA | G2 Arms & Armour | 3 | 0 | 0 | 10 |
-| VA | G3 Jewellery | 5 | 0 | 0 | 26 |
+| VA | G3 Jewellery | 5 | 0 | 0 | 27 |
 | VA | H1 Pile Carpets & Rugs | 5 | 0 | 0 | 9 |
 | VA | H2 Flatweaves | 5 | 0 | 0 | 20 |
-| VA | H3 Woven Silks & Figured Textiles | 7 | 0 | 0 | 45 |
+| VA | H3 Woven Silks & Figured Textiles | 7 | 0 | 0 | 46 |
 | VA | H4 Embroidery & Needlework | 13 | 0 | 1 | 85 |
 | VA | H5 Dyed & Printed Textiles | 10 | 0 | 0 | 29 |
 | VA | H6 Felt | 0 | 0 | 0 | 1 |

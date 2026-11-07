@@ -28,12 +28,12 @@ Of the general-only objects, 18,256 sit under labels reviewed and kept general (
 |---|---:|---:|---:|
 | V2 | 0 | 13 | 61 |
 | V3 | 18 | 40 | 39 |
-| V4 | 1 | 9 | 242 |
+| V4 | 0 | 2 | 242 |
 | V5 | 0 | 0 | 1 |
 | V6 | 0 | 47 | 411 |
 | V7 | 0 | 26 | 34 |
 
-V4: 384 named missing traditions in the mapping, 132 now carried by a leaf name, 252 open. V6: 84 rows in leftover per-object works lists.
+V4: 384 named missing traditions in the mapping, 140 now carried by a leaf name, 244 open. V6: 84 rows in leftover per-object works lists.
 
 ### Qualified labels resolved only to general (top 15)
 
@@ -79,21 +79,21 @@ V4: 384 named missing traditions in the mapping, 132 now carried by a leaf name,
 
 | Severity | Where | What | Evidence | Objects |
 |---|---|---|---|---:|
-| high | Ancient Greek Bronzes | named tradition with gathered objects and no leaf | families G; max institutions per key 2; labels: Greek; Greek / Classical; Greek / Geometric; Greek / Hellenistic; Greek, Cretan; Greek, Cretan / Arc | 1,275 |
-| medium | Mamluk Pottery | named tradition with gathered objects and no leaf | families E; max institutions per key 1; labels: Egyptian / Mamluk; Mamluk; Syrian / Mamluk | 1,613 |
-| medium | Mughal Textiles | named tradition with gathered objects and no leaf | families E; max institutions per key 1; labels: Indian / Mughal; Mughal; Pakistani / Mughal | 1,046 |
-| medium | Sasanian Stamp Seals | named tradition with gathered objects and no leaf | families D; max institutions per key 1; labels: Sasanian; Sasanian / Sasanian | 961 |
-| medium | Lydian Pottery | named tradition with gathered objects and no leaf | families E; max institutions per key 1; labels: Lydian; Lydian / Archaic; Lydian / Geometric; Lydian, Sardis; Lydian, Sardis / Geometric | 646 |
-| medium | Turkmen Jewellery | named tradition with gathered objects and no leaf | families G; max institutions per key 2; labels: Central Asia; Central Asia / Qajar; Turkmenistan | 449 |
 | medium | Bactria-Margiana Metalwork | named tradition with gathered objects and no leaf | families G; max institutions per key 1; labels: Bactria-Margiana Archaeological Complex; Bactria-Margiana Archaeological Complex / Bronze Age | 386 |
 | medium | Laconian Lead Figurines | named tradition with gathered objects and no leaf | families ?; max institutions per key 1; labels: Greek, Laconian; Greek, Laconian / Archaic | 277 |
-| medium | Kwoma Bark Painting | named tradition with gathered objects and no leaf | families H; max institutions per key 1; labels: Kwoma; Kwoma, Kalaba clan; Yinibu | 224 |
-| medium | Vicús Metalwork | named tradition with gathered objects and no leaf | families G; max institutions per key 1; labels: Vicús | 216 |
 | low | Italic Bronzes | named tradition with gathered objects and no leaf | families G; max institutions per key 1; labels: Italic; Italic / Archaic; Italic / Classical; Italic / Geometric; Italic / Hellenistic | 197 |
 | low | Mezcala Stone Sculpture | named tradition with gathered objects and no leaf | families D; max institutions per key 1; labels: Mezcala | 153 |
 | low | Tibetan Arms and Armour | named tradition with gathered objects and no leaf | families ?; max institutions per key 2; labels: Tibetan | 107 |
 | low | Fon Metal Sculpture | named tradition with gathered objects and no leaf | families G; max institutions per key 1; labels: Fon | 101 |
 | low | Irish Cut Glass | named tradition with gathered objects and no leaf | families F; max institutions per key 2; labels: Irish | 89 |
+| low | Seville Pottery | named tradition with gathered objects and no leaf | families E; max institutions per key 2; labels: Spanish, Seville | 86 |
+| low | Batak Sculpture | named tradition with gathered objects and no leaf | families DI; max institutions per key 1; labels: Toba Batak | 80 |
+| low | Dayak Sculpture | named tradition with gathered objects and no leaf | families D; max institutions per key 1; labels: Indonesian, Kalimantan; Kayan; Kenyah; Ngadju; Ot Danum | 80 |
+| low | Gupta Sculpture | named tradition with gathered objects and no leaf | families D; max institutions per key 1; labels: Gupta period; Indian / Gupta period | 67 |
+| low | Shipibo-Conibo Textiles | named tradition with gathered objects and no leaf | families EH; max institutions per key 1; labels: Conibo; Shipibo; Shipibo-Conibo | 64 |
+| low | Thessalian Neolithic Pottery | named tradition with gathered objects and no leaf | families E; max institutions per key 1; labels: Neolithic, Thessaly; Neolithic, Thessaly / Neolithic | 64 |
+| low | Shunga Art | named tradition with gathered objects and no leaf | families ?D; max institutions per key 1; labels: Indian / Shunga period; Shunga period | 62 |
+| low | Harappan Pottery | named tradition with gathered objects and no leaf | families E; max institutions per key 1; labels: Early Harappan; Indus; Indus / Early Harappan | 57 |
 
 ### Leaf completeness (high and medium, top 15)
 
