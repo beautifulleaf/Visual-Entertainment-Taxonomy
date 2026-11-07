@@ -31,3 +31,4 @@ To do at assembly:
 - Assembly decisions: merge I3-17 Bauhaus (1 row) into the new Bauhaus Design leaf; ~120 fashion designers left in I3-19/I3-20 → a Fashion Design leaf under H7 Dress & Costume (check what small_H built; with the fashion designers from the photo pass); B2-11 Soviet Poster vs Constructivist Graphic Design: keep both, see-also.
 - Done VA: small_G_I_J_M (3,863 kinds from 872; 1,888 works-catalogue rows, 428 Collections rows, 483 View-all links; 53 leaves still ≤ 4 kinds; Pierre Gole in I1-23 and I3-8 — one home).
 - Owner: yes to sitcom eras — pass re-sections B8 (and B10-4) by attested sitcom eras (coverage_out/sitcom_eras/resections.json); assembly applies re-sectioning after all moves and adds.
+- Done: sitcom eras (B8-1 Family, B8-5 Hangout, B8-9 Character Comedy re-sectioned by attested US/UK eras; 315 titles). Broad City web original (tt1948541) out by override.

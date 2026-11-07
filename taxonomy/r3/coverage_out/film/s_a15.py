@@ -2,7 +2,7 @@ NEW = [
  {"key": "NEW_A15_CAT3", "sub": "A15", "label": "Hong Kong Category III Film",
   "breadth": "cycle", "defn": "A Hong Kong film of the adults-only Category III rating cycle (1988 onward, peaking in the early 1990s): sex-and-violence exploitation, erotic costume romps (<i>Sex and Zen</i>) and lurid true-crime shockers (<i>The Untold Story</i>, <i>Ebola Syndrome</i>). Defined by the named Hong Kong cycle rather than one plot type.",
   "aliases": "Cat III; Category III", "see": "A4 Horror; A7-10 Hong Kong Action Cinema",
-  "src": [["https://en.wikipedia.org/wiki/Category_III_film", "Wikipedia"]],
+  "src": [["https://en.wikipedia.org/wiki/Category_III_films", "Wikipedia"]],
   "axis": "strand of the cycle", "secs": ["Erotic Category III", "True-Crime & Shock Category III"]},
 ]
 SECS = [

@@ -17,6 +17,9 @@ for m in ("cfg_a1", "cfg_a234", "cfg_a5", "cfg_a6", "cfg_b", "cfg_c"):
     except ModuleNotFoundError:
         pass
 
+import cfg_fix
+cfg_fix.apply(CFG)
+
 # ---------------------------------------------------------------- helpers
 CTRY = {
     "German Reich": "Germany", "German Empire": "Germany", "Kingdom of Prussia": "Germany", "Kingdom of Bavaria": "Germany",
@@ -191,7 +194,7 @@ def ms_collections(spec, n=8, minc=10):
             continue
         for k in (x["collections"] or "").split(";"):
             k = re.sub(r"^The ", "", k.strip())
-            if k:
+            if k and not re.match(r"(?i)private|unknown", k):
                 c[k] += 1
     return c
 
@@ -228,7 +231,7 @@ def obj_collections(specs):
                 if fn == "smithsonian_objects.csv":
                     inst = SI_UNITS.get(inst, inst)
                 inst = re.sub(r"^The ", "", inst)
-                if inst:
+                if inst and not re.match(r"(?i)private|unknown|anonymous", inst):
                     c[inst] += 1
     return c
 
