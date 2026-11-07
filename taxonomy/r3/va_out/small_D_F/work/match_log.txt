@@ -82,3 +82,4 @@ D5-19 213 {'wx': np.int64(199), 'ssea': np.int64(9), 'gap': np.int64(5)} | Trope
 D5-20 793 {'east': np.int64(793)} | Tokyo National Museum=699, Kyushu National Museum=15, Kyoto National Museum=14, 独立行政法人国立文化財機構=11
 D5-21 437 {'east': np.int64(211), 'wx': np.int64(115), 'smith': np.int64(88), 'him': np.int64(14), 'amoc': np.int64(6), 'gap': np.int64(2), 'ssea': np.int64(1)} | Rijksmuseum=109, Art Institute of Chicago=93, NMAA=69, Tokyo National Museum=59
 D5-22 1161 {'east': np.int64(514), 'him': np.int64(367), 'smith': np.int64(157), 'wx': np.int64(121), 'gap': np.int64(2)} | Tokyo National Museum=309, Private=289, NMAA=151, Art Institute of Chicago=91
+D5-23 97 {'east': np.int64(87), 'ssea': np.int64(3), 'wx': np.int64(3), 'smith': np.int64(2), 'wfolk': np.int64(2)} | Tokyo National Museum=64, Art Institute of Chicago=12, Cleveland Museum of Art=10, Kyoto National Museum=2
