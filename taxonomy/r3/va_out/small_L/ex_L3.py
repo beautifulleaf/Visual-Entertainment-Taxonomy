@@ -146,7 +146,7 @@ E["L4-8"] = dict(axis=GAX, catalogues=[HIST_ENG, WP("Hill figure", "type article
 # ---------------- L5 body art ----------------
 def B(code, cats, kinds, ex=None):
     E[code] = dict(axis=BODY, catalogues=cats, kinds=kinds)
-B("L5-1", [WELL, WP("Deq (tattoo)", "practice article") if False else [surl("Deq tattoo"), "Wikipedia search: Deq", "article on the Kurdish tattoo practice"], COM("Deq tattoo")],
+B("L5-1", [WELL, [surl("Deq tattoo"), "Wikipedia search: Deq", "article on the Kurdish tattoo practice"], COM("Deq tattoo")],
   [SR("Arab facial tattooing (washm)", "Sub-types", "chin, forehead and hand tattoos of rural Arab and Bedouin women", "washm tattoo"),
    SR("Amazigh tattooing", "Sub-types", "Berber facial and hand tattoos of North Africa, related designs", "Berber tattoo"),
    SR("Dakkak", "Centres & workshops", "Kurdish and Dom (Ghorbati) women practitioners who travelled between villages", "Deq tattoo")])
@@ -195,7 +195,7 @@ B("L5-11", [WELL, COM("Samoan tatau")],
 X[("L5-11", "peʻa")] = D
 X[("L5-11", "veiqia (Fiji)")] = D
 X[("L5-11", "malu")] = D
-B("L5-12", [WELL, COM("Sailor tattoo"), WP("Traditional tattooing", "article on American traditional style") if False else [surl("American traditional tattoo"), "Wikipedia search: American traditional tattoo", "style articles"]],
+B("L5-12", [WELL, COM("Sailor tattoo"), [surl("American traditional tattoo"), "Wikipedia search: American traditional tattoo", "style articles"]],
   [M("Sutherland Macdonald", "Makers", "(1860-1942) London tattooist, patented the electric machine in Britain"),
    M("George Burchett", "Makers", "(1872-1953) 'King of Tattooists', London"),
    M("Sailor Jerry", "Makers", "Norman Collins (1911-1973), Honolulu; codified American traditional"),
@@ -205,7 +205,7 @@ X[("L5-12", "Prison tattooing")] = D
 X[("L5-12", "American traditional")] = D
 
 # ---------------- L6 floor & sand ----------------
-E["L6-1"] = dict(axis="Sub-types first, then centres and peoples.", catalogues=[WP("Sona (sand drawing)", "tradition article") if False else [surl("Sona sand drawing"), "Wikipedia search: Sona", "article on Chokwe sand drawings"], COM("Sona Chokwe")],
+E["L6-1"] = dict(axis="Sub-types first, then centres and peoples.", catalogues=[[surl("Sona sand drawing"), "Wikipedia search: Sona", "article on Chokwe sand drawings"], COM("Sona Chokwe")],
     kinds=[SR("Lusona", "Sub-types", "a single drawing: one continuous line looped around a grid of dots, illustrating a tale", "Sona sand drawing"),
            W("Chokwe people", "Centres & workshops", "Angola, DR Congo and Zambia; the akwa kuta sona storytellers"),
            W("Lunda Norte Province", "Centres & workshops", "north-east Angola; core area of sona with Moxico")])

@@ -20,3 +20,6 @@ To do at assembly:
 - Done VA: bucket_print_arch_misc (2,230 rows added, 304 moved, new Franco-Belgian Comics leaf — merge by label with the one from bucket_contemporary).
 - Assembly fixes: rename "Maqsud Kashani, whose signature ..." → "Maqsud Kashani"; Josef Hoffmann and Henry van de Velde appear in both I3-15 and K6-21 (keep one home: I3-15 for Hoffmann? decide; van de Velde K6-21 as architect with I3-15 see-also).
 - Starting List placement (owner: rules first, passes for the rest): ~10,400 matched + ~11,000 id-less films.
+- Done VA: bucket_modern_west (15 new leaves, 1,242 moved; 4,072 residue grouped by ~110 named groups then country), bucket_academic_19c (6 new leaves, 667 moved).
+- Assembly: merge same-label new leaves (Orientalism ×2, Franco-Belgian comics ×2, possibly Gutai, Feminist art, Mir iskusstva, Vienna Secession, Young Poland, Nagybánya); dedupe makers placed in two leaves (Krøyer, Nikolai Ge, Vasnetsov, Halonen ...): keep the named-school leaf over a residual bucket.
+- Check judgement calls: Saliger and Padua in Nazi art; Epstein in Modern Sculpture (not Vorticism); Buren in BMPT section.

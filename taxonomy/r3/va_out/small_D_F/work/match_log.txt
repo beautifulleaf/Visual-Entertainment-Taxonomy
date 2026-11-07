@@ -199,3 +199,8 @@ F1-5 19 {'smith': np.int64(15), 'isl': np.int64(4)} | NMAI=9, Victoria and Alber
 F1-6 17 {'smith': np.int64(15), 'isl': np.int64(2)} | NMAI=14, Victoria and Albert Museum=2, NMAA=1
 F1-7 2 {'smith': np.int64(2)} | CHNDM=1, NMAI=1
 F1-8 36 {'efolk': np.int64(36)} | Федеральное государственное бю=9, Государственное автономное учр=5, Федеральное государственное бю=5, Государственное бюджетное учре=4
+F1-9 5 {'smith': np.int64(5)} | CHNDM=5
+F1-11 0 {} | 
+F1-12 6 {'wx': np.int64(3), 'efolk': np.int64(2), 'smith': np.int64(1)} | Museum Volkenkunde=3, The Metropolitan Museum of Art=1, Art Institute of Chicago=1, CHNDM=1
+F1-13 0 {} | 
+F1-14 638 {'wx': np.int64(411), 'east': np.int64(222), 'smith': np.int64(4), 'gap': np.int64(1)} | Museum Volkenkunde=327, Tokyo National Museum=183, Wereldmuseum Rotterdam=50, Tropenmuseum=25
