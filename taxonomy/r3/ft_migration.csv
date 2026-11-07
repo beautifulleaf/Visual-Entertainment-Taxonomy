@@ -78,7 +78,7 @@ A2-4,Crime Drama,A3-11,Kidnapping Thriller,6
 A2-4,Crime Drama,A3-6,Serial-Killer Thriller,6
 A2-4,Crime Drama,A3-10,Revenge Thriller,5
 A2-4,Crime Drama,A2-20,Legal Drama,4
-A2-4,Crime Drama,A2-24,Film Noir,2
+A2-4,Crime Drama,A2-24,American Film Noir,2
 A2-4,Crime Drama,A2-19,Prison Film,2
 A2-4,Crime Drama,A3-20,Techno-Thriller,2
 A2-4,Crime Drama,A3-18,Conspiracy Thriller,1
@@ -86,7 +86,7 @@ A2-4,Crime Drama,A2-8,Hood Film,1
 A2-4,Crime Drama,A2-2,Mumbai Noir,1
 A2-4,Crime Drama,A2-17,Nordic Noir,1
 A2-5,Film Noir & Neo-Noir,A2-25,Neo-Noir,133
-A2-5,Film Noir & Neo-Noir,A2-24,Film Noir,95
+A2-5,Film Noir & Neo-Noir,A2-24,American Film Noir,95
 A2-5,Film Noir & Neo-Noir,A2-1,Gangster Film,4
 A2-5,Film Noir & Neo-Noir,A3-7,Psychological Thriller,3
 A2-5,Film Noir & Neo-Noir,A2-16,Police Film,3
@@ -512,7 +512,7 @@ A9-1,Romantic Drama,A13-5,Relationship Drama,138
 A9-1,Romantic Drama,A13-9,LGBTQ+ Romance,94
 A9-1,Romantic Drama,A13-2,Romantic Melodrama & Weepie,90
 A9-1,Romantic Drama,A13-8,Teen Romance,74
-A9-1,Romantic Drama,A13-4,Adultery & Love Triangle,73
+A9-1,Romantic Drama,A13-4,Adultery Film,73
 A9-1,Romantic Drama,A13-1,Star-Crossed Romance,67
 A9-1,Romantic Drama,A13-23,Romantic Fantasy,51
 A9-1,Romantic Drama,A13-3,Amour Fou & Obsessive Love,48
@@ -749,7 +749,7 @@ A12-5,Pornographic Film (retired),,retired,0
 A13-1,Documentary Film,A19-14,Biographical Documentary,65
 A13-1,Documentary Film,A19-1,Direct Cinema & Cinéma Vérité,64
 A13-1,Documentary Film,A19-9,Political Documentary,62
-A13-1,Documentary Film,A19-16,Making-of & Film History Documentary,55
+A13-1,Documentary Film,A19-16,Making-of Documentary,55
 A13-1,Documentary Film,A19-10,Investigative Documentary,45
 A13-1,Documentary Film,A19-20,Olympic Film,42
 A13-1,Documentary Film,A19-19,Sports Documentary,30
@@ -786,7 +786,7 @@ A13-7,City Symphony,A19-3,City Symphony,2
 A13-8,Mondo Film,A19-24,Mondo Film,2
 A13-9,Ethnographic Film,A19-2,Ethnographic Film,11
 A14-1,Shomingeki,A16-1,Shomingeki (Shoshimin-eiga),21
-A14-2,Family Drama,A16-4,Parent–Child Drama,134
+A14-2,Family Drama,A16-4,Father–Child Drama,134
 A14-2,Family Drama,A16-3,Family Drama,99
 A14-2,Family Drama,A16-5,Domestic Drama,32
 A14-2,Family Drama,A16-2,Family Saga,15
@@ -844,7 +844,7 @@ A14-5,Character Study,A16-3,Family Drama,6
 A14-5,Character Study,A16-11,Hyperlink Cinema,6
 A14-5,Character Study,A16-23,Political Drama,4
 A14-5,Character Study,A16-36,Road Movie,2
-A14-5,Character Study,A16-4,Parent–Child Drama,2
+A14-5,Character Study,A16-4,Father–Child Drama,2
 A14-5,Character Study,A16-24,Journalism Film,1
 A14-5,Character Study,A16-25,Legal Drama,1
 A14-5,Character Study,A16-29,Sports Film,1

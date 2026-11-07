@@ -18,10 +18,17 @@
    "to": "A6-21",
    "section": "Science-Fiction Lost Worlds",
    "why": "one home for the lost-world film (adventure)"
+  },
+  {
+   "from": "A19-39",
+   "to": "A19-27",
+   "section": "Domestic Ethnography",
+   "why": "two resize passes made a family-documentary leaf; one home"
   }
  ],
  "ft_relabel": {
-  "C10-9": "Harem Comedy"
+  "C10-9": "Harem Comedy",
+  "A21-17": "Landscape Film (short)"
  },
  "ft_move": [
   [
@@ -31,6 +38,90 @@
   [
    "tt2852470",
    "C12-20"
+  ],
+  [
+   "tt0076852",
+   "A12-7"
+  ],
+  [
+   "tt0076470",
+   "A12-7"
+  ],
+  [
+   "tspdt:courage-fuyons-1979",
+   "A12-7"
+  ],
+  [
+   "tt0137100",
+   "A13-4"
+  ],
+  [
+   "tt0037749",
+   "A2-24"
+  ],
+  [
+   "tt0039881",
+   "A2-24"
+  ],
+  [
+   "tt0039748",
+   "A2-24"
+  ],
+  [
+   "tt0040723",
+   "A2-24"
+  ],
+  [
+   "tt0040153",
+   "A2-24"
+  ],
+  [
+   "tt0041796",
+   "A2-24"
+  ],
+  [
+   "tt0041198",
+   "A2-24"
+  ],
+  [
+   "tt0042960",
+   "A2-24"
+  ],
+  [
+   "tt0044105",
+   "A2-24"
+  ],
+  [
+   "tt0049405",
+   "A2-24"
+  ],
+  [
+   "tt0045072",
+   "A9-3"
+  ],
+  [
+   "tt0050699",
+   "A9-3"
+  ],
+  [
+   "tt0046425",
+   "A6-25"
+  ],
+  [
+   "tspdt:the-mistress-1962",
+   "A13-4"
+  ],
+  [
+   "tt0049665",
+   "A11-3"
+  ],
+  [
+   "tt0052735",
+   "A12-33"
+  ],
+  [
+   "tt0068341",
+   "A2-1"
   ]
  ],
  "va_merge": [

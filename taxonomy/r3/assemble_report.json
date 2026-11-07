@@ -1,5 +1,7 @@
 {
- "va_passes_missing": [],
+ "va_passes_missing": [
+  "missing_traditions"
+ ],
  "va_junk_rows_dropped": 11,
  "va_new_leaves": [
   "A5-114",
@@ -377,16 +379,25 @@
    "adult-trade pornography"
   ]
  ],
+ "resize": {
+  "new_leaves": 64,
+  "moved_to_new": 6023,
+  "leaves": 45,
+  "moved_out": 37,
+  "move_unresolved": 16
+ },
  "ft_fixes": {
   "merged": {
    "A13-10": "A12-4",
    "A3-22": "A12-50",
-   "A5-14": "A6-21"
+   "A5-14": "A6-21",
+   "A19-39": "A19-27"
   },
   "relabelled": {
-   "C10-9": "Harem Comedy"
+   "C10-9": "Harem Comedy",
+   "A21-17": "Landscape Film (short)"
   },
-  "moved": 2
+  "moved": 23
  },
  "links": {
   "corrected": 7,
