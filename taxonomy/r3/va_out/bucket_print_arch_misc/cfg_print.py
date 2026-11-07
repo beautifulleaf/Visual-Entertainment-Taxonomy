@@ -13,7 +13,7 @@ B15_GROUPS = [
     ('Historical, military and reconstruction illustration', ['Paul Girardet', 'Björn Landström', 'Liliane Funcken', 'Angus McBride', 'Peter Connolly', 'Victor Ambrus']),
     ('Editorial and political cartoonists', ['David Langdon', 'Herblock', 'Bill Mauldin', 'Antonio Arias Bernal', 'Edmund Valtman', 'Philipp Rupprecht', 'Horst von Möllendorff', 'Friedel Stern', 'Zeev', 'Kariel Gardosh',
         'Turhan Selçuk', 'R. K. Laxman', 'Mangesh Tendulkar', 'Parviz Shapour', 'Zbigniew Lengren', 'Jacques Faizant', 'Piem', 'Siné', 'Marie Marcks', 'Giorgio Forattini', 'Ranan Lurie', 'Predrag Koraksić Corax',
-        'Nicholas Garland', 'Heinz Valk', 'Forges', 'Gerhard Haderer', 'Plantu', 'Ali Farzat', 'Andrey Bilzho', 'Michel Kichka', 'Jonathan Shapiro', 'Pierre Kroll', 'Ali Dilem', 'Luz', 'Ramón Esono', 'Doaa el-Adl', 'Tony Rafty', 'Michael Atchison', 'Finn Graff', 'Jacques-Armand Cardon', 'Aurel']),
+        'Nicholas Garland', 'Heinz Valk', 'Forges', 'Gerhard Haderer', 'Plantu', 'Ali Farzat', 'Andrey Bilzho', 'Michel Kichka', 'Jonathan Shapiro', 'Pierre Kroll', 'Ali Dilem', 'Luz', 'Ramón Esono', 'Doaa el-Adl', 'Tony Rafty', 'Michael Atchison', 'Finn Graff', 'Jacques-Armand Cardon', 'Marek Rudnicki', 'Aurel']),
     ('Gag and magazine cartoonists (The New Yorker, Punch, Esquire)', ['Enrique Herreros', 'Félix Kassowitz', 'Osbert Lancaster', 'E. Simms Campbell', 'Mischa Richter', 'Syd Hoff', 'Chaval', 'Ronald Searle', 'Paul Flora',
         'Jean Bosc', 'Gerard Hoffnung', 'Henrik Tikkanen', 'Ton Smits', 'Carlos Garaycochea', 'Gahan Wilson', 'Guillermo Mordillo', 'Peter van Straaten', 'Jaap Vegter', 'Erich Sokol', 'Charles Barsotti', 'Ed Koren',
         'Willie Rushton', 'Balázs Balázs-Piri', 'Claude Serre', 'Hans Georg Rauch', 'Ray Lowry', 'Roz Chast', 'Jacky Fleming', 'Gébé', 'Jean-Marc Reiser', 'Roy Doty', 'Franz Eggenschwiler']),
@@ -26,8 +26,8 @@ B15_GROUPS = [
     ('Children\'s book illustration: continental Europe and beyond', ['Heinrich Hoffmann', 'Marie Olfers', 'Ernest Nister', 'Tony Schumacher', 'Sulamith Wülfing', 'Wiktoria Goryńska', 'Pierre Probst', 'Ingrid Vang Nyman',
         'Svend Otto S.', 'Zbigniew Rychlicki', 'Leonid Vladimirski', 'Felicitas Kuhn', 'Mance Post', 'Fritzi Harmsen van Beek', 'Gabrielle Vincent', 'Sybil Wettasinghe', 'Marcel Marlier', 'Victor Chizhikov', 'Valery Traugot',
         'Alona Frankel', 'Philippe Fix', 'Josse Goffin', 'Lena Anderson', 'Roser Capdevila', 'Nicole Claveloux', 'Ulf Löfgren', 'Per Åhlin', 'Bengt Böckman', 'Wolf Erlbruch', 'Hervé Tullet', 'Iwona Chmielewska',
-        'Blexbolex', 'Rébecca Dautremer', 'Jakob Martin Strid', 'Terry Denton', 'Galinka Ehrenfest', 'Hans Ticha', 'Gerhard Kettner', 'Erkki Tanttu', 'Folke Dahlberg', 'Bertil Almqvist', 'Marion Fayolle']),
-    ('Book illustration and decoration', ['Fritz Kredel', 'Eric Fraser', 'Erich Mönch', 'Robert Lips', 'Elisabeth Schumacher', 'Robert Trossin', 'Christoph Meckel', 'Nanne Meyer', 'John Alan Maxwell', 'Gray Foy', 'Agus Djaya', 'Kasing Lung']),
+        'Blexbolex', 'Rébecca Dautremer', 'Jakob Martin Strid', 'Terry Denton', 'Galinka Ehrenfest', 'Edgar Valter', 'Hans Ticha', 'Gerhard Kettner', 'Erkki Tanttu', 'Folke Dahlberg', 'Bertil Almqvist', 'Marion Fayolle']),
+    ('Book illustration and decoration', ['Heinrich Schlitt', 'Mieczysław Piotrowski', 'Fritz Kredel', 'Eric Fraser', 'Erich Mönch', 'Robert Lips', 'Elisabeth Schumacher', 'Robert Trossin', 'Christoph Meckel', 'Nanne Meyer', 'John Alan Maxwell', 'Gray Foy', 'Agus Djaya', 'Kasing Lung']),
     ('American magazine and advertising illustration', ['Robert Fawcett', 'Oronzo Vito Gasparo', 'Al Parker', 'Austin Briggs', 'Coby Whitmore', 'Stephen Longstreet', 'Ione Robinson', 'Bob Peak', 'Roger Hane', 'Peter Fingesten']),
     ('Fashion illustration', ['Joe Eula', 'Kenneth Paul Block', 'Tom Keogh', 'Alvin Colt']),
     ('Fantasy, science-fiction and pulp illustration', ['Hannes Bok', 'Virgil Finlay', 'Ed Emshwiller', 'Basil Gogos', 'Darrell K. Sweet', 'John Schoenherr', 'Didier Graffet', 'Kim Jung Gi']),
@@ -61,7 +61,7 @@ B15_MOVES = {
     # printmaking / painting / contemporary art
     'Annie Pootoogook': 'B2-6', 'Krishen Khanna': 'A5-110', 'Ernesto Deira': 'A5-110', 'Antun Motika': 'A5-110', 'Pedro de Oraá': 'A5-110', 'Gauri Bhanja': 'A5-109', 'Ida Bagus Pegug': 'A5-2',
     'Susan Te Kahurangi King': 'A5-80', 'Grazia Varisco': 'D5-120', 'Katalin Ladik': 'M1-8', 'Karen Finley': 'M1-8', 'Kembra Pfahler': 'M1-8', 'Felix Partz': 'M1-2', 'Mary Bauermeister': 'M1-3', 'Robert Whitman': 'M1-8',
-    'Terry Jennings': 'M1-3',
+    'Terry Jennings': 'M1-3', 'Leopold Strobl': 'A5-80',
 }
 B15_CONTEMP = ['Rinus Van de Velde', 'Joëlle Tuerlinckx', 'Sophie Podolski', 'José Damasceno', 'Gloria Ortiz-Hernández', 'Eva Koťátková', 'Adolfo Nadal Walcot', 'Ala Younis', 'Toyin Ojih Odutola', 'Fernando Bryce',
     'Gilda Mantilla', 'Ding Yi', 'Jacky Tsai', 'Ciprian Mureşan', 'Petra Štefanková', 'Kagiso Patrick Mautloa', 'Araya Rasdjarmrearnsook', 'Nidhal Chamekh', 'Emre Hüner', 'Anya Gallaccio', 'Paul Noble', 'Adam Dant',
@@ -170,7 +170,7 @@ B214_ADD = [
 B215_GROUPS = [
     ('Expressionist and social woodcut', ['Heinz Kiwitz', 'Clément Moreau', 'Hanna Nagel', 'Fritz Eichenberg', 'Karl Bickel', 'Vjačeslav Vasʹkovsʹkyj', 'Sofiya Nalepinska-Boychuk']),
     ('British wood-engraving revival', ['Gwen Raverat', 'Phyllis Barron', 'Joan Hassall', 'Reynolds Stone', 'Monica Poole', 'Eileen Soper', 'George Worsley Adamson', 'Malcolm Osborne']),
-    ('Grosvenor School and colour linocut', ['Ethel Spowers', 'Jessie Traill']),
+    ('Grosvenor School linocut and Australian printmakers', ['Ethel Spowers', 'Jessie Traill']),
     ('American printmakers (etching and lithography)', ['Martin Lewis', 'Roi Partridge', 'John R. Sinnock', 'Clarence William Anderson', 'Thomas Handforth', 'Lynton Richards Kistler', 'Ian Hugo', 'Ruth Chaney', 'Irving Amen',
         'Irene Aronson', 'Sante Graziani', 'Warrington Colescott', 'Charles Cajori', 'Robert Mallary', 'Peter Milton', 'Ce Roser', 'Barry Moser', 'Tadeusz Lapinski', 'Ansei Uchima', 'Glen Alps']),
     ('Print workshops and master printers (Mourlot, Crommelynck, Tamarind)', ['Fernand Mourlot', 'Aldo Crommelynck', 'Garo Antreasian', 'Irwin Hollander', 'Donald Saff', 'Claire Van Vliet', 'Julien Levy', 'Pierre Restany']),
