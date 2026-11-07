@@ -15,3 +15,5 @@ To do at assembly:
 - Merge fixes at assembly: duplicate artists "M'hamed Issiakhem" = "Mohammed Issiakhem (1928-1985)"; "Kamala Ibrahim Ishag" = "Kamala Ibrahim Ishaq" (Crystalist); new leaves with the same label across passes merge by label (Gutai, Feminist art); check Margaret Mellis and Joseph Uhl (Western European, left in a "Europe" group).
 - Verify all `catalogues` URLs (passes picked many from memory).
 - TSPDT Starting List (owner): harvest it fully (tspdt_starting_list, and the 21st Century Starting List tspdt_21st_starting_list), then place every Starting List film not already selected — a placement step after coverage (likely several passes by sub-family, depending on how many films are new).
+- Done VA: bucket_named_movements (27 leaves sectioned by named schools; 20 moved out; Mughal works and Collections).
+- Review after assembly: non-artists left in "outliers" groups (Maria Cunitz in Baroque, Carême in Old Master Print, Tarō Okamoto in Nihonga); suspect birth years (Richard Wilson b. 1953 in Rococo, François Dumont b. 1751 in Baroque Sculpture).
