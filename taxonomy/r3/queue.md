@@ -17,3 +17,6 @@ To do at assembly:
 - TSPDT Starting List (owner): harvest it fully (tspdt_starting_list, and the 21st Century Starting List tspdt_21st_starting_list), then place every Starting List film not already selected — a placement step after coverage (likely several passes by sub-family, depending on how many films are new).
 - Done VA: bucket_named_movements (27 leaves sectioned by named schools; 20 moved out; Mughal works and Collections).
 - Review after assembly: non-artists left in "outliers" groups (Maria Cunitz in Baroque, Carême in Old Master Print, Tarō Okamoto in Nihonga); suspect birth years (Richard Wilson b. 1953 in Rococo, François Dumont b. 1751 in Baroque Sculpture).
+- Done VA: bucket_print_arch_misc (2,230 rows added, 304 moved, new Franco-Belgian Comics leaf — merge by label with the one from bucket_contemporary).
+- Assembly fixes: rename "Maqsud Kashani, whose signature ..." → "Maqsud Kashani"; Josef Hoffmann and Henry van de Velde appear in both I3-15 and K6-21 (keep one home: I3-15 for Hoffmann? decide; van de Velde K6-21 as architect with I3-15 see-also).
+- Starting List placement (owner: rules first, passes for the rest): ~10,400 matched + ~11,000 id-less films.

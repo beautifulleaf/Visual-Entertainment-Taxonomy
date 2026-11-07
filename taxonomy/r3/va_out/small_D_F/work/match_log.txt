@@ -189,3 +189,13 @@ D6-7 3387 {'smith': np.int64(3374), 'amoc': np.int64(5), 'wx': np.int64(4), 'wfo
 D6-8 18 {'gap': np.int64(9), 'aot': np.int64(8), 'wx': np.int64(1)} | Penn Museum=16, The Metropolitan Museum of Art=1, Wereldmuseum (NMVW)=1
 D6-9 0 {} | 
 D6-10 0 {} | 
+D6-11 0 {} | 
+D6-12 116 {'east': np.int64(116)} | Tokyo National Museum=21, Art Institute of Chicago=15, Nara National Museum=12, Kyushu National Museum=6
+F1-1 181 {'wx': np.int64(134), 'isl': np.int64(36), 'wfolk': np.int64(5), 'smith': np.int64(3), 'africa': np.int64(2), 'aot': np.int64(1)} | Tropenmuseum=73, Museum Volkenkunde=26, Wereldmuseum Rotterdam=23, Wereldmuseum (NMVW)=11
+F1-2 383 {'smith': np.int64(191), 'wx': np.int64(98), 'isl': np.int64(93), 'wfolk': np.int64(1)} | NMAA=184, Victoria and Albert Museum=86, Tropenmuseum=72, Museum Volkenkunde=19
+F1-3 330 {'smith': np.int64(329), 'isl': np.int64(1)} | NMAA=322, CHNDM=7, Museum of Islamic Art=1
+F1-4 5 {'isl': np.int64(2), 'wx': np.int64(2), 'smith': np.int64(1)} | Cleveland Museum of Art=2, Tropenmuseum=2, NMAA=1
+F1-5 19 {'smith': np.int64(15), 'isl': np.int64(4)} | NMAI=9, Victoria and Albert Museum=4, CHNDM=4, NMAA=2
+F1-6 17 {'smith': np.int64(15), 'isl': np.int64(2)} | NMAI=14, Victoria and Albert Museum=2, NMAA=1
+F1-7 2 {'smith': np.int64(2)} | CHNDM=1, NMAI=1
+F1-8 36 {'efolk': np.int64(36)} | Федеральное государственное бю=9, Государственное автономное учр=5, Федеральное государственное бю=5, Государственное бюджетное учре=4
