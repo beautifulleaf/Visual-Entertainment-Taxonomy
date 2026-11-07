@@ -1,0 +1,423 @@
+@D5-59
+axis: sub-types first, then centres, then named works by date, then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=Etruscan | Met collection search: Etruscan | Etruscan sculpture in New York
+cat: https://www.britishmuseum.org/collection/search?keyword=Etruscan | British Museum collection search: Etruscan | Etruscan sculpture in London
+= Bronze votive statuettes | Sub-types | small cast bronze votive figures | evidence
++ Sub-types | Cinerary urns | alabaster and terracotta urns of Volterra, Chiusi and Perugia | Etruscan_art | 0
++ Sub-types | Terracotta sarcophagi | reclining-couple sarcophagi of Caere | Etruscan_art | 0
++ Centres & workshops | Veii | city of the terracotta workshop of Vulca | Veii | 0
++ Centres & workshops | Volterra | centre of alabaster urns | Volterra | 0
++ Centres & workshops | Museo Nazionale Etrusco di Villa Giulia | the main Etruscan museum, Rome | National_Etruscan_Museum | 0
++ Named works | Sarcophagus of the Spouses | c. 520 BC, Cerveteri; Villa Giulia, Rome | Sarcophagus_of_the_Spouses | 0
++ Named works | Apollo of Veii | c. 510 BC; Villa Giulia, Rome | Apollo_of_Veii | 0
++ Named works | Chimera of Arezzo | c. 400 BC; Museo Archeologico Nazionale, Florence | Chimera_of_Arezzo | 0
++ Named works | Capitoline Wolf | bronze; Capitoline Museums, Rome | Capitoline_Wolf | 0
++ Named works | Mars of Todi | c. 400 BC bronze; Vatican Museums | Mars_of_Todi | 0
++ Named works | Orator (Arringatore) | c. 100 BC bronze; Museo Archeologico Nazionale, Florence | Aule_Metele | 0
+
+@D5-60
+axis: phases (Republican, imperial dynasties) first, then named works by date, then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=Roman%20portrait | Met collection search: Roman portrait | Roman portraits in New York
+cat: https://www.britishmuseum.org/collection/search?keyword=Roman%20portrait | British Museum collection search: Roman portrait | Roman portraits in London
++ Schools & phases | Republican verism | wrinkled veristic heads of the 1st c. BC | Roman_portraiture | 0
++ Schools & phases | Augustan classicism | idealised portraits after the Prima Porta type | Augustus_of_Prima_Porta | 0
++ Schools & phases | Fayum portraits (painted) | Roman Egypt mummy portraits, related genre | Fayum_mummy_portraits | 0
++ Named works | Patrician Torlonia | 1st c. BC; Torlonia Collection, Rome | Patrician_Torlonia | 0
++ Named works | Augustus of Prima Porta | early 1st c. AD; Vatican Museums | Augustus_of_Prima_Porta | 0
++ Named works | Equestrian Statue of Marcus Aurelius | AD 175; Capitoline Museums, Rome | Equestrian_Statue_of_Marcus_Aurelius | 0
++ Named works | Colossus of Constantine | 4th c.; Capitoline Museums, Rome | Colossus_of_Constantine | 0
++ Named works | Portrait of the Four Tetrarchs | c. 300; St Mark's Basilica, Venice | Portrait_of_the_Four_Tetrarchs | 0
++ Named works | Fonseca Bust | early 2nd c.; Capitoline Museums, Rome | Fonseca_Bust | 0
+
+@D5-61
+axis: sub-types first, then named works by date, then Collections, then makers
+cat: https://www.metmuseum.org/art/collection/search?q=Roman%20marble | Met collection search: Roman marble | Roman sculpture in New York
+cat: https://www.britishmuseum.org/collection/search?keyword=Roman%20sculpture | British Museum collection search: Roman sculpture | Roman sculpture in London
+= Menodorus of Athens | Makers | Athenian sculptor of the Roman period, copyist of Praxiteles' Eros | artists
+> Anthemius of Tralles | K4-2
++ Sub-types | Historical relief | state reliefs of triumphs and sacrifices | Roman_sculpture | 0
++ Sub-types | Carved sarcophagi | battle, myth and season sarcophagi, 2nd–4th century | Ancient_Roman_sarcophagi | 0
++ Sub-types | Copies after Greek works | marble copies of Greek bronzes | Roman_copies_of_Greek_sculpture | 0
++ Named works | Ara Pacis | 13–9 BC; Museo dell'Ara Pacis, Rome | Ara_Pacis | 0
++ Named works | Trajan's Column | AD 113; Rome | Trajan's_Column | 0
++ Named works | Column of Marcus Aurelius | c. AD 193; Piazza Colonna, Rome | Column_of_Marcus_Aurelius | 0
++ Named works | Arch of Titus reliefs | c. AD 81; Rome | Arch_of_Titus | 0
++ Named works | Ludovisi Battle sarcophagus | c. AD 250–260; Palazzo Altemps, Rome | Ludovisi_Battle_sarcophagus | 0
++ Named works | Sarcophagus of Junius Bassus | AD 359; Treasury of St Peter's, Vatican | Sarcophagus_of_Junius_Bassus | 0
+
+@D5-62
+axis: sub-types first, then centres (sites), then named works, then titled works (rule below), then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=Olmec | Met collection search: Olmec | Olmec sculpture in New York
+- Olmec | museum culture label restating the leaf
++ Sub-types | Colossal heads | basalt portrait heads of rulers | Olmec_colossal_heads | 0
++ Sub-types | Were-jaguar figures | infantile jaguar-human greenstone figures | Were-jaguar | 0
++ Sub-types | Hollow ceramic babies | white-slipped baby figures | Olmec | 0
++ Centres & workshops | San Lorenzo Tenochtitlán | early Olmec centre, c. 1200–900 BC | San_Lorenzo_Tenochtitlán | 0
++ Centres & workshops | La Venta | Olmec centre, c. 900–400 BC | La_Venta | 0
++ Named works | San Lorenzo Colossal Head 1 | Museo de Antropología de Xalapa | Olmec_colossal_heads | 0
++ Named works | Las Limas Monument 1 | greenstone figure; Museo de Antropología de Xalapa | Las_Limas_Monument_1 | 0
++ Named works | La Venta Altar 4 | Parque-Museo La Venta, Villahermosa | La_Venta | 0
+
+@D5-63
+axis: centres (sites) first, then makers, then named works, then titled works (rule below), then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=Maya%20stela | Met collection search: Maya | Maya sculpture in New York
+cat: https://www.peabody.harvard.edu/cmhi | Corpus of Maya Hieroglyphic Inscriptions (Peabody Museum) | the corpus of Maya monuments
+- Maya | museum culture label restating the people
+= K'in Lakam Chahk | Makers | 8th-century sculptor who signed Piedras Negras monuments | evidence
+= Jun Nat Omootz | Makers | Piedras Negras sculptor named on a panel | evidence
++ Centres & workshops | Copán | Honduran city famed for high-relief stelae (UNESCO 1980) | Copán | 0
++ Centres & workshops | Quiriguá | Guatemala site with the tallest stelae (UNESCO 1981) | Quiriguá | 0
++ Centres & workshops | Yaxchilan | carved lintel site, Chiapas | Yaxchilan | 0
++ Centres & workshops | Piedras Negras | Guatemala site of signed sculpture | Piedras_Negras_(Maya_site) | 0
++ Centres & workshops | Palenque | Chiapas city of stucco and tablets (UNESCO 1987) | Palenque | 0
++ Named works | Yaxchilan Lintel 24 | AD 709; British Museum, London | Yaxchilan_Lintel_24 | 0
++ Named works | Piedras Negras Panel 3 | AD 782; Museo Nacional de Arqueología, Guatemala City | Piedras_Negras_Panel_3 | 0
++ Named works | Copán Stela A | AD 731; Copán | Copán | 0
++ Named works | Sarcophagus lid of Pakal | AD 683; Temple of the Inscriptions, Palenque | Temple_of_the_Inscriptions | 0
+
+@D5-64
+axis: named works first (monuments), then titled works (rule below), then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=Aztec | Met collection search: Aztec | Aztec sculpture in New York
+cat: https://www.britishmuseum.org/collection/search?keyword=Aztec | British Museum collection search: Aztec | Aztec sculpture in London
+- Aztec | museum culture label restating the people
++ Centres & workshops | Templo Mayor | the great temple of Tenochtitlan and its museum | Templo_Mayor | 0
++ Centres & workshops | Museo Nacional de Antropología | Mexico City, home of the Aztec Sun Stone | National_Museum_of_Anthropology_(Mexico) | 0
++ Named works | Aztec Sun Stone | c. 1502–21; Museo Nacional de Antropología, Mexico City | Aztec_sun_stone | 0
++ Named works | Coatlicue statue | basalt; Museo Nacional de Antropología, Mexico City | Coatlicue | 0
++ Named works | Coyolxāuhqui Stone | c. 1473; Museo del Templo Mayor, Mexico City | Coyolxāuhqui_Stone | 0
++ Named works | Stone of Tizoc | c. 1481–86; Museo Nacional de Antropología | Stone_of_Tizoc | 0
++ Named works | Tlaltecuhtli monolith | 2006 find; Museo del Templo Mayor | Tlaltecuhtli | 0
++ Named works | Xochipilli statue | Museo Nacional de Antropología, Mexico City | Xochipilli | 0
+
+@D5-65
+axis: sub-types (yugo, hacha, palma) first, then sub-styles, then centres, then titled works (rule below), then Collections
+- Classic Veracruz | museum culture label restating the leaf
+a Classic Veracruz
+= Remojadas | Sub-styles | hollow ceramic smiling figures of central Veracruz | evidence
++ Sub-types | Yugos (yokes) | stone ballgame belts | Mesoamerican_ballgame | 0
++ Sub-types | Hachas | thin stone heads worn on the yoke | Mesoamerican_ballgame | 0
++ Sub-types | Palmas | fan-shaped stones set on the yoke | Mesoamerican_ballgame | 0
++ Centres & workshops | El Tajín | ballcourt city of the Gulf Coast (UNESCO 1992) | El_Tajín | 0
+
+@D5-66
+axis: sub-styles (Colima, Nayarit, Jalisco) first, then titled works (rule below), then Collections
+= Colima | Sub-styles | Colima burnished red ware: dogs and figures | met/aic
+- West Mexico: Colima | duplicate culture label
+= West Mexico: Nayarit | Sub-styles | Nayarit village tableaux and couples | americas_oceania
+- Nayarit | duplicate culture label
+= Jalisco | Sub-styles | Jalisco Ameca-gray figures | met/aic
+= Chinesco | Sub-styles | Chinesco style of southern Nayarit | evidence
+a West Mexico shaft-tomb ceramics
++ Sub-types | Colima dogs | fat techichi dog vessels | Colima_dog | 0
++ Centres & workshops | Teuchitlán tradition | culture of the Guachimontones (Jalisco) | Teuchitlan_tradition | 0
+
+@D5-67
+axis: named works first (Chavín de Huántar monuments), then sub-types, then titled works (rule below), then Collections
+cat: https://whc.unesco.org/en/list/330 | UNESCO World Heritage: Chavín (Archaeological Site) | the inscribed temple of the Lanzón
+= probably Chavín or Cupisnique (archaeological culture) (attr | Sub-types | Cupisnique ceramics of the north coast | smithsonian
+= Chavin | Sub-types | Chavín gold and metalwork | americas_oceania
++ Named works | Lanzón | granite cult image in the Old Temple, Chavín de Huántar | Lanzón | 0
++ Named works | Raimondi Stela | granite; Museo Nacional de Arqueología, Lima | Raimondi_Stela | 0
++ Named works | Tello Obelisk | granite; Museo Nacional Chavín | Tello_Obelisk | 0
++ Sub-types | Tenon heads (cabezas clavas) | heads set in the temple walls | Chavín_de_Huántar | 0
+
+@D5-68
+axis: sub-types first, then titled works (rule below), then Collections
+- Valdivia | museum culture label restating the leaf
++ Sub-types | Venus of Valdivia | stone and clay female figurines | Venus_of_Valdivia | 0
++ Centres & workshops | Real Alto | Valdivia village site, Santa Elena | Real_Alto | 0
+
+@D5-69
+axis: centres and schools first, then makers, then titled works (rule below), then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=polychrome%20wood%20Spanish | Met collection search: Spanish polychrome wood | estofado sculpture in New York
+= New Spain polychrome sculpture (estofado) | Sub-types | estofado imagery of viceregal Mexico | gap_sweep
+= Guatemalan colonial sculpture and painting (Antigua) | Centres & workshops | Antigua Guatemala workshops | gap_sweep
++ Centres & workshops | Seville school | Andalusian imaginería (Montañés, Mesa) | Sevillian_school_of_sculpture | 0
++ Centres & workshops | Quito School | viceregal Ecuadorian sculpture | Quito_School | 0
++ Makers | Juan Martínez Montañés | 1568–1649, Seville sculptor | Juan_Martínez_Montañés | 1
++ Makers | Gregorio Fernández | 1576–1636, Valladolid sculptor | Gregorio_Fernández | 1
++ Makers | Pedro de Mena | 1628–1688, Granada and Málaga sculptor | Pedro_de_Mena | 1
++ Makers | Bernardo de Legarda | d. 1773, Quito sculptor | Bernardo_de_Legarda | 1
+
+@D5-70
+axis: regional schools first, then makers, then named works, then Collections
+- Brazilian Baroque (Barroco mineiro, Bahia) | museum label restating the leaf
++ Schools & phases | Barroco mineiro | Rococo of Minas Gerais | Barroco_mineiro | 0
++ Centres & workshops | Ouro Preto | Minas Gerais gold town (UNESCO 1980) | Ouro_Preto | 0
++ Centres & workshops | Salvador, Bahia | colonial capital with gilded talha churches | Salvador,_Bahia | 0
++ Makers | Aleijadinho | 1738–1814, sculptor and architect of Minas Gerais | Aleijadinho | 1
++ Makers | Mestre Valentim | c. 1745–1813, Rio de Janeiro sculptor | Mestre_Valentim | 1
++ Named works | Prophets of Congonhas | 1800–05, soapstone; Sanctuary of Bom Jesus de Matosinhos (UNESCO) | Sanctuary_of_Bom_Jesus_de_Matosinhos | 0
+
+@D5-71
+axis: regional sub-types first, then makers, then titled works (rule below), then Collections
+= New Mexican santero tradition (retablos and bultos) | Sub-types | New Mexican santero bultos and retablos | gap_sweep
+- New Mexican santos (retablos and bultos) | duplicate museum label
+= Puerto Rican santos de palo | Sub-types | carved Puerto Rican household saints | world_folk
+a Santos (Hispanic saint carving)
++ Makers | José Rafael Aragón | c. 1796–1862, New Mexican santero | José_Rafael_Aragón | 1
++ Makers | Pedro Antonio Fresquís | 1749–1831, New Mexican santero | Pedro_Antonio_Fresquís | 1
++ Makers | Patrocinio Barela | 1900–1964, New Mexican carver | Patrocinio_Barela | 1
+
+@D5-72
+axis: centres first, then makers, then Collections
+- Alebrijes and Oaxacan wood carving | museum label restating the leaf
+= Arrazola | Centres & workshops | San Antonio Arrazola, Oaxaca, carving village | evidence
+= San Martín Tilcajete | Centres & workshops | Oaxaca carving village | evidence
++ Makers | Pedro Linares | 1906–1992, Mexico City cartonero, inventor of alebrijes | Pedro_Linares | 1
++ Makers | Manuel Jiménez Ramírez | 1919–2005, Arrazola carver | Manuel_Jiménez_Ramírez | 1
+
+@D5-73
+axis: sub-types first, then makers, then titled works (rule below), then Collections
+- Mexican cartoneria (Judas figures) | museum label restating the leaf
+= Judas figures | Sub-types | effigies burned on Holy Saturday | evidence
+= Piñata | Sub-types | papier-mâché or clay-pot figures broken at Las Posadas | possession
+a Mexican piñata
++ Sub-types | Mojigangas | giant papier-mâché parade puppets | Mojiganga | 0
++ Makers | Pedro Linares | 1906–1992, Mexico City cartonero | Pedro_Linares | 1
+
+@D5-74
+axis: centre first, then makers, then titled works (rule below), then Collections
+- Caruaru clay figures (Mestre Vitalino) | museum label restating the leaf
+= Mestre Vitalino | Makers | 1909–1963, founder of the Caruaru figure tradition | evidence
+= Alto do Moura | Centres & workshops | Caruaru district of the figureiros | evidence
+
+@D5-75
+axis: centre first, then makers, then titled works (rule below), then Collections
+- Haitian metal art (Croix-des-Bouquets) | museum label restating the leaf
++ Centres & workshops | Croix-des-Bouquets | metalworkers' town near Port-au-Prince | Croix-des-Bouquets | 0
++ Makers | Georges Liautaud | 1899–1991, founder of the cut-drum art | Georges_Liautaud | 1
++ Makers | Serge Jolimeau | b. 1952, Croix-des-Bouquets sculptor | Serge_Jolimeau | 1
+
+@D5-76
+axis: sub-types first, then peoples (centres), then makers by date, then titled works (rule below), then Collections
+cat: https://www.metmuseum.org/art/collection/search?q=totem%20pole | Met collection search: totem pole | totem poles in New York
++ Sub-types | Memorial poles | poles raised for a deceased chief | Totem_pole | 0
++ Sub-types | House-frontal poles | entrance poles of plank houses | Totem_pole | 0
++ Sub-types | Mortuary poles | poles holding remains | Totem_pole | 0
++ Centres & workshops | SGang Gwaay | Haida village of standing poles (UNESCO 1981) | SGang_Gwaay | 0
++ Centres & workshops | Stanley Park totem poles | Vancouver display of poles | Stanley_Park | 0
++ Makers | Mungo Martin | 1879–1962, Kwakwaka'wakw carver | Mungo_Martin | 1
++ Makers | Bill Reid | 1920–1998, Haida artist | Bill_Reid | 1
++ Makers | Charles Edenshaw | c. 1839–1920, Haida carver | Charles_Edenshaw | 1
+
+@D5-77
+axis: centres first, then makers by date, then titled works (rule below), then Collections
+cat: https://collections.si.edu/search/results.htm?q=Inuit+sculpture | Smithsonian collections search: Inuit sculpture | Inuit carvings
+- Inuit | museum culture label restating the people
+a Inuit stone carving
+= Osuitok Ipeelee | Makers | 1923–2005, Kinngait carver in stone and antler | possession
++ Centres & workshops | Kinngait (Cape Dorset) | Nunavut community of carvers and printmakers | Kinngait | 0
++ Centres & workshops | West Baffin Eskimo Co-operative | Kinngait co-operative | West_Baffin_Eskimo_Co-operative | 0
++ Makers | Kiugak Ashoona | 1933–2014, Kinngait sculptor | Kiugak_Ashoona | 1
++ Makers | Karoo Ashevak | 1940–1974, Taloyoak sculptor | Karoo_Ashevak | 1
+
+@D5-78
+axis: sub-types first, then makers, then titled works (rule below), then Collections
++ Sub-types | Tihu (cradle dolls) | flat dolls given to infants | Kachina | 0
++ Sub-types | Action figures | 20th-century carved dancers in motion | Kachina | 0
++ Makers | Manfred Susunkewa | Hopi carver | Kachina | 1
+
+@D5-79
+axis: sub-types first, then makers, then titled works (rule below), then Collections
++ Sub-types | Bear fetishes | the commonest animal | Zuni_fetishes | 0
++ Sub-types | Six directional guardians | the six animals of the directions | Zuni_fetishes | 0
++ Centres & workshops | Zuni Pueblo | New Mexico pueblo | Zuni_Pueblo,_New_Mexico | 0
+
+@D5-80
+axis: centres first, then makers, then titled works (rule below), then Collections
+= Cochiti Pueblo | Centres & workshops | Cochiti, where Helen Cordero made the first storyteller | smithsonian
++ Makers | Helen Cordero | 1915–1994, Cochiti potter, creator of the storyteller | Helen_Cordero | 1
++ Centres & workshops | Jemez Pueblo | pueblo of many storyteller makers | Jemez_Pueblo,_New_Mexico | 0
+
+@D5-81
+axis: iwi and carving schools first, then makers by date, then titled works (rule below), then Collections
+cat: https://collections.tepapa.govt.nz/ | Te Papa Collections Online | the national collection of whakairo
+- Maori | museum culture label restating the people
+= Maori: Te Arawa | Schools & phases | Te Arawa carving (Ngāti Tarawhai school) | africa_oceania_targeted
+a Maori, Te Arawa
+= Maori: Tuhoe | Schools & phases | Tūhoe carving | africa_oceania_targeted
+= Maori: Ngati Porou | Schools & phases | Ngāti Porou carving revival | africa_oceania_targeted
+= Thomas Heberley | Makers | 1878–1937, Wellington carver | evidence
+= Jacob Heberley | Makers | 1849–1906, Wellington carver | evidence
+= Anaha Te Rahui | Makers | c. 1822–1913, Ngāti Tarawhai carver | evidence
+= Tene Waitere | Makers | 1853–1931, Ngāti Tarawhai carver | evidence
+= Neke Kapua | Makers | c. 1840s–1925, Ngāti Tarawhai carver | evidence
+= Wero Taroi | Makers | c. 1810–1880, Ngāti Tarawhai carver | evidence
+= Pineamine Taiapa | Makers | 1901–1972, Ngāti Porou carver | evidence
++ Centres & workshops | New Zealand Māori Arts and Crafts Institute | Rotorua carving school, 1926/1963 | New_Zealand_Māori_Arts_and_Crafts_Institute | 0
++ Named works | Te Hau ki Tūranga | 1842 meeting house; Te Papa, Wellington | Te_Hau_ki_Tūranga | 0
++ Named works | Hinemihi | 1880 meeting house; Clandon Park, Surrey | Hinemihi | 0
++ Named works | Mataatua wharenui | 1875 meeting house, Whakatāne | Mataatua_wharenui | 0
+
+@D5-82
+axis: sub-types first, then titled works (rule below), then Collections
+- New Ireland | museum label restating the region
+a Northern New Ireland
++ Sub-types | Malagan friezes | openwork horizontal carvings | Malanggan | 0
++ Sub-types | Tatanua masks | helmet masks of the malagan | Malanggan | 0
+
+@D5-83
+axis: sub-types first, then titled works (rule below), then Collections
+- Central New Ireland | museum culture label restating the region
+a Central New Ireland, Mandak-Barak region
++ Sub-types | Uli figures | hermaphroditic ancestor figures | Uli_figure | 0
+
+@D5-84
+axis: sub-types first, then titled works (rule below), then Collections
+- Asmat | museum culture label restating the people
+= bisj poles | Sub-types | ancestor poles for headhunting rites | evidence
+a Asmat
++ Sub-types | Asmat shields | carved war shields | Asmat_people | 0
++ Centres & workshops | Asmat Museum of Culture and Progress | Agats museum | Asmat_people | 0
+
+@D5-85
+axis: peoples (sub-groups) first, then titled works (rule below), then Collections
+- Sepik | museum culture label restating the region
+= Iatmul | Sub-groups | Iatmul of the middle Sepik | met/aic
+= Abelam | Sub-groups | Abelam of the Prince Alexander Mountains | met/aic
+= Sawos | Sub-groups | Sawos of the Sepik plains | evidence
+a Sepik: Iatmul
+a Sepik: Abelam
++ Sub-types | Haus tambaran | men's ceremonial houses | Haus_Tambaran | 0
+
+@D5-86
+axis: sub-types first, then titled works (rule below), then Collections
+- Massim | museum culture label restating the region
++ Sub-types | Tabuya (canoe splashboards) | Kula canoe prowboards | Kula_ring | 0
++ Centres & workshops | Trobriand Islands | islands of the Kula exchange | Trobriand_Islands | 0
+
+@D5-87
+axis: sub-types first, then titled works (rule below), then Collections
+- Solomon Islands shell inlay (nguzunguzu) | museum label restating the leaf
+a Solomon Islands
++ Centres & workshops | New Georgia | western Solomons island group | New_Georgia_Islands | 0
+
+@D5-88
+axis: sub-types first, then titled works (rule below), then Collections
+- Marquesan | museum culture label restating the people
+a Marquesan
+a Marquesan, Enata
++ Sub-types | U'u clubs | carved ironwood war clubs | Uu_(club) | 0
++ Sub-types | Tiki figures | stone and wood figures | Tiki | 0
+
+@D5-89
+axis: sub-types first, then makers, then titled works (rule below), then Collections
+- Rapa Nui | museum culture label restating the people
+a Rapa Nui
+= Benedicto Tuki | Makers | 20th-century Rapa Nui carver | evidence
++ Sub-types | Moai kavakava | emaciated male figures | Moai_kavakava | 0
++ Sub-types | Rongorongo tablets | inscribed wooden tablets | Rongorongo | 0
++ Sub-types | Rei miro | crescent breast ornaments | Rei_miro | 0
+
+@D5-90
+axis: centres first, then makers, then Collections
+- Aurukun (Wik) sculpture | museum label restating the leaf
+= Wik & Kugu Aurukun Art Centre | Centres & workshops | art centre of Aurukun, Cape York | gap_sweep
++ Sub-types | Camp dogs | carved and ochred dog figures | Aurukun,_Queensland | 0
+
+@D5-91
+axis: sub-types first, then makers, then named works, then Collections
+- Italian, Naples | museum culture label restating the leaf
+a Neapolitan presepe
++ Named works | Angel Tree and Neapolitan Baroque Crèche | Metropolitan Museum of Art, New York | Christmas_tree | 0
++ Centres & workshops | Via San Gregorio Armeno | Naples street of crib makers | San_Gregorio_Armeno | 0
++ Centres & workshops | Presepe Cuciniello | crib in the Certosa di San Martino, Naples | Certosa_di_San_Martino | 0
++ Makers | Giuseppe Sanmartino | 1720–1793, Neapolitan sculptor of crib figures | Giuseppe_Sanmartino | 1
+
+@D5-92
+axis: sub-types first, then makers by date, then titled works (rule below), then Collections
+- American decoys | museum label restating the leaf
+a American decoy carving
++ Sub-types | Shorebird decoys | decoys of plovers and curlews | Decoy | 0
++ Makers | Elmer Crowell | 1862–1952, Cape Cod decoy carver | A._Elmer_Crowell | 1
++ Makers | Ira Hudson | 1873–1949, Chincoteague carver | Decoy | 1
+
+@D5-93
+axis: sub-types first, then makers, then titled works (rule below), then Collections
+- American weathervanes and whirligigs | museum label restating the leaf
+= Whirligigs | Sub-types | wind-driven moving figures | evidence
++ Sub-types | Moulded copper weathervanes | factory-made vanes of the 19th century | Weather_vane | 0
++ Makers | Shem Drowne | 1683–1774, Boston coppersmith of the Faneuil Hall grasshopper | Shem_Drowne | 1
+
+@D5-94
+axis: sub-types first, then centre, then Collections
+cat: https://ich.unesco.org/en/RL/craftmanship-of-estremoz-clay-figures-01279 | UNESCO intangible heritage: Estremoz clay figures | inscribed 2017
+- Estremoz clay figures | museum label restating the leaf
++ Centres & workshops | Estremoz | Alentejo town | Estremoz | 0
++ Sub-types | Primavera figure | the spring figure, emblem of the craft | Estremoz_clay_figures | 0
+
+@D5-95
+axis: centres first, then makers, then Collections
+- Matryoshka doll | museum label restating the leaf
++ Makers | Vasily Zvyozdochkin | 1876–1956, turner of the first matryoshka | Matryoshka_doll | 1
++ Makers | Sergey Malyutin | 1859–1937, painter who designed the first matryoshka | Sergey_Malyutin | 1
++ Centres & workshops | Sergiev Posad | toy centre | Sergiyev_Posad | 0
++ Centres & workshops | Semyonov | Nizhny Novgorod matryoshka centre | Semyonov,_Nizhny_Novgorod_Oblast | 0
+
+@D5-96
+axis: centre first, then Collections
+- Polkhovsky Maidan painting | museum label restating the leaf
++ Centres & workshops | Polkhovsky Maidan | village in Nizhny Novgorod oblast | Polkhovsky_Maidan | 0
+
+@D5-97
+axis: centre first, then Collections
+- Bogorodskoye carving | museum label restating the leaf
++ Sub-types | The Blacksmiths toy | bear and peasant hammering on a moving slat | Bogorodskoye_carving | 0
++ Centres & workshops | Bogorodskoye | village near Sergiev Posad | Bogorodskoye_carving | 0
+
+@D5-98
+axis: centre first, then makers, then Collections
+- Dymkovo toy | museum label restating the leaf
+a Dymkovo toys
++ Centres & workshops | Dymkovo | settlement opposite Kirov (Vyatka) | Dymkovo_toys | 0
+
+@D5-99
+axis: centre first, then Collections
+- Filimonovo toy | museum label restating the leaf
++ Centres & workshops | Filimonovo | Tula oblast village | Filimonovo_toy | 0
+
+@D5-100
+axis: centre first, then Collections
+- Kargopol toy | museum label restating the leaf
++ Sub-types | Polkan | the centaur figure | Kargopol_toys | 0
++ Centres & workshops | Kargopol | Arkhangelsk oblast town | Kargopol | 0
+
+@D5-101
+axis: centre first, then Collections
+- Abashevo toy | museum label restating the leaf
++ Centres & workshops | Abashevo | Penza oblast village | Abashevo_toy | 0
+
+@D5-102
+axis: centre first, then Collections
+- Yavoriv toy | museum label restating the leaf
++ Centres & workshops | Yavoriv | Lviv oblast town | Yavoriv | 0
+
+@D5-103
+axis: centre first, then Collections
+- Valky whistle toy | museum label restating the leaf
++ Centres & workshops | Valky | Kharkiv oblast town | Valky | 0
+
+@D5-104
+axis: centre first, then Collections
+cat: https://ich.unesco.org/en/RL/traditional-manufacturing-of-childrens-wooden-toys-in-hrvatsko-zagorje-00243 | UNESCO intangible heritage: wooden toys of Hrvatsko Zagorje | inscribed 2009
+- Wooden toys of Hrvatsko Zagorje | museum label restating the leaf
++ Centres & workshops | Marija Bistrica | pilgrimage town where toys are sold | Marija_Bistrica | 0
++ Centres & workshops | Hrvatsko Zagorje | hill region north of Zagreb | Hrvatsko_Zagorje | 0
+
+@D5-105
+axis: named statues first, then Collections
+- poor man statue | museum label restating the leaf
++ Sub-types | Vaivaisukko | Finnish pauper statue | Vaivaisukko | 0
++ Sub-types | Fattiggubbe | Swedish pauper statue | Vaivaisukko | 0
++ Named works | Vaivaisukko of Ylihärmä church | Ostrobothnia, Finland | Vaivaisukko | 0
+
+@D5-106
+axis: sub-types first, then centres, then named works, then Collections
+cat: https://whc.unesco.org/en/list/715 | UNESCO World Heritage: Rapa Nui National Park | the inscribed moai and ahu
+= Rano Raraku quarry moai | Centres & workshops | volcanic tuff quarry where nearly all moai were carved | evidence
+= Hoa Hakananai'a | Named works | basalt moai from Orongo, c. 1000–1200; British Museum, London | evidence
++ Sub-types | Pukao | red scoria topknots | Pukao | 0
++ Centres & workshops | Ahu Tongariki | platform of fifteen re-erected moai | Ahu_Tongariki | 0
++ Named works | Moai Hava | basalt moai; British Museum, London | Moai_Hava | 0
++ Named works | Paro (moai) | the largest erected moai | Paro_(moai) | 0
