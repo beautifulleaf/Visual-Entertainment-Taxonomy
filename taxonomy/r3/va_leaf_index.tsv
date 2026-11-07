@@ -1,0 +1,1600 @@
+code	label	family	sub_family	n
+A1-1	Arab Painting	Painting	Manuscript & Album Painting	3
+A1-2	Persian Miniature	Painting	Manuscript & Album Painting	41
+A1-3	Ottoman Miniature	Painting	Manuscript & Album Painting	16
+A1-4	Mughal Painting	Painting	Manuscript & Album Painting	133
+A1-5	Deccan Painting	Painting	Manuscript & Album Painting	8
+A1-6	Company Painting	Painting	Manuscript & Album Painting	9
+A1-7	Rajput Painting	Painting	Manuscript & Album Painting	32
+A1-8	Pahari Painting	Painting	Manuscript & Album Painting	25
+A1-9	Jain Manuscript Painting	Painting	Manuscript & Album Painting	2
+A1-10	Sikh Painting	Painting	Manuscript & Album Painting	0
+A1-11	Assamese Manuscript Painting	Painting	Manuscript & Album Painting	1
+A1-12	Burmese Parabaik Painting	Painting	Manuscript & Album Painting	5
+A1-13	Thai Manuscript Painting	Painting	Manuscript & Album Painting	1
+A1-14	Nara-ehon	Painting	Manuscript & Album Painting	1
+A1-15	Ethiopian Manuscript Painting	Painting	Manuscript & Album Painting	1
+A1-16	Byzantine Illuminated Manuscripts	Painting	Manuscript & Album Painting	4
+A1-17	Borgia Group	Painting	Manuscript & Album Painting	1
+A1-18	Mixtec Codices	Painting	Manuscript & Album Painting	1
+A1-19	Aztec Codices	Painting	Manuscript & Album Painting	2
+A1-20	Armenian Manuscript Illumination	Painting	Manuscript & Album Painting	16
+A2-1	Gongbi	Painting	East Asian Ink & Colour Painting	76
+A2-2	Northern Landscape Style	Painting	East Asian Ink & Colour Painting	3
+A2-3	Literati Painting	Painting	East Asian Ink & Colour Painting	63
+A2-4	Zhe School	Painting	East Asian Ink & Colour Painting	0
+A2-5	Wu School	Painting	East Asian Ink & Colour Painting	0
+A2-6	Shanghai School	Painting	East Asian Ink & Colour Painting	5
+A2-7	Lingnan School	Painting	East Asian Ink & Colour Painting	8
+A2-8	Yamato-e	Painting	East Asian Ink & Colour Painting	9
+A2-9	Kanō School	Painting	East Asian Ink & Colour Painting	7
+A2-10	Rinpa School	Painting	East Asian Ink & Colour Painting	4
+A2-11	Nanga	Painting	East Asian Ink & Colour Painting	19
+A2-12	Maruyama–Shijō School	Painting	East Asian Ink & Colour Painting	10
+A2-13	Nihonga	Painting	East Asian Ink & Colour Painting	63
+A2-14	Ink Wash Painting	Painting	East Asian Ink & Colour Painting	4
+A3-1	Ethiopian Icon Painting	Painting	Icon Painting	3
+A3-2	Byzantine Icons	Painting	Icon Painting	2
+A3-3	Cretan School	Painting	Icon Painting	10
+A3-4	Georgian Icon Painting	Painting	Icon Painting	1
+A3-5	Palaeologan Renaissance	Painting	Icon Painting	4
+A3-6	Russian Icons	Painting	Icon Painting	19
+A4-1	Pattachitra	Painting	Cloth & Scroll Painting	2
+A4-2	Bengal Patachitra	Painting	Cloth & Scroll Painting	2
+A4-3	Kalighat Painting	Painting	Cloth & Scroll Painting	6
+A4-4	Pichwai	Painting	Cloth & Scroll Painting	1
+A4-5	Mata ni Pachedi	Painting	Cloth & Scroll Painting	1
+A4-6	Cheriyal Scroll Painting	Painting	Cloth & Scroll Painting	1
+A4-7	Thangka	Painting	Cloth & Scroll Painting	16
+A4-8	Beri	Painting	Cloth & Scroll Painting	2
+A4-9	Menri	Painting	Cloth & Scroll Painting	6
+A4-10	Khyenri	Painting	Cloth & Scroll Painting	2
+A4-11	Karma Gadri	Painting	Cloth & Scroll Painting	4
+A4-12	Regong Arts	Painting	Cloth & Scroll Painting	2
+A4-13	Paubha	Painting	Cloth & Scroll Painting	1
+A4-14	Dunhuang Paintings	Painting	Cloth & Scroll Painting	2
+A4-15	Kamasan Painting	Painting	Cloth & Scroll Painting	3
+A4-16	Wayang Beber	Painting	Cloth & Scroll Painting	1
+A4-17	Ethiopian Magic Scrolls	Painting	Cloth & Scroll Painting	2
+A4-18	Plains Hide Painting	Painting	Cloth & Scroll Painting	0
+A5-1	Qajar Painting	Painting	Easel Painting	8
+A5-2	Balinese Painting	Painting	Easel Painting	10
+A5-3	Sơn Mài	Painting	Easel Painting	3
+A5-4	Fayum Mummy Portraits	Painting	Easel Painting	0
+A5-5	New Spanish Baroque	Painting	Easel Painting	3
+A5-6	Casta Painting	Painting	Easel Painting	1
+A5-7	Enconchado	Painting	Easel Painting	1
+A5-8	Biombo	Painting	Easel Painting	1
+A5-9	Cusco School	Painting	Easel Painting	4
+A5-10	Potosí School	Painting	Easel Painting	3
+A5-11	Quito School	Painting	Easel Painting	8
+A5-12	Western Desert Painting	Painting	Easel Painting	30
+A5-13	Contemporary Indigenous Australian Art	Painting	Easel Painting	17
+A5-14	Hermannsburg School	Painting	Easel Painting	2
+A5-15	Romanesque Painting	Painting	Easel Painting	27
+A5-16	Gothic Painting	Painting	Easel Painting	114
+A5-17	Sienese School	Painting	Easel Painting	38
+A5-18	International Gothic	Painting	Easel Painting	99
+A5-19	Early Netherlandish Painting	Painting	Easel Painting	49
+A5-20	Italian Renaissance Painting	Painting	Easel Painting	162
+A5-21	Venetian School	Painting	Easel Painting	47
+A5-22	Northern Renaissance	Painting	Easel Painting	169
+A5-23	Mannerism	Painting	Easel Painting	147
+A5-24	School of Fontainebleau	Painting	Easel Painting	5
+A5-25	Baroque Painting	Painting	Easel Painting	685
+A5-26	Caravaggisti	Painting	Easel Painting	10
+A5-27	Flemish Baroque Painting	Painting	Easel Painting	131
+A5-28	Dutch Golden Age Painting	Painting	Easel Painting	220
+A5-29	Rococo	Painting	Easel Painting	366
+A5-30	Neoclassicism	Painting	Easel Painting	547
+A5-31	Romanticism	Painting	Easel Painting	1055
+A5-32	Nazarene Movement	Painting	Easel Painting	9
+A5-33	Danish Golden Age	Painting	Easel Painting	13
+A5-34	Düsseldorf School of Painting	Painting	Easel Painting	13
+A5-35	Barbizon School	Painting	Easel Painting	40
+A5-36	Hudson River School	Painting	Easel Painting	24
+A5-37	Norwich School of Painters	Painting	Easel Painting	6
+A5-38	Academic Art	Painting	Easel Painting	2614
+A5-39	Neo-Grec	Painting	Easel Painting	18
+A5-40	Realism	Painting	Easel Painting	262
+A5-41	Costumbrismo	Painting	Easel Painting	10
+A5-42	Pre-Raphaelite Brotherhood	Painting	Easel Painting	66
+A5-43	Hague School	Painting	Easel Painting	39
+A5-44	Macchiaioli	Painting	Easel Painting	7
+A5-45	Naturalism	Painting	Easel Painting	73
+A5-46	Munich School	Painting	Easel Painting	7
+A5-47	Impressionism	Painting	Easel Painting	203
+A5-48	Neo-Impressionism	Painting	Easel Painting	34
+A5-49	Post-Impressionism	Painting	Easel Painting	93
+A5-50	Pont-Aven School	Painting	Easel Painting	40
+A5-51	Symbolism	Painting	Easel Painting	145
+A5-52	Aestheticism	Painting	Easel Painting	6
+A5-53	Tonalism	Painting	Easel Painting	7
+A5-54	Luminism	Painting	Easel Painting	6
+A5-55	Glasgow School	Painting	Easel Painting	8
+A5-56	Expressionism	Painting	Easel Painting	227
+A5-57	Fauvism	Painting	Easel Painting	34
+A5-58	Cubism	Painting	Easel Painting	59
+A5-59	Futurism	Painting	Easel Painting	23
+A5-60	Orphism	Painting	Easel Painting	9
+A5-61	Vorticism	Painting	Easel Painting	6
+A5-62	Suprematism	Painting	Easel Painting	10
+A5-63	Constructivism	Painting	Easel Painting	22
+A5-64	De Stijl	Painting	Easel Painting	7
+A5-65	Dada	Painting	Easel Painting	23
+A5-66	Surrealism	Painting	Easel Painting	90
+A5-67	Metaphysical Painting	Painting	Easel Painting	5
+A5-68	New Objectivity	Painting	Easel Painting	12
+A5-69	Magic Realism	Painting	Easel Painting	17
+A5-70	Precisionism	Painting	Easel Painting	9
+A5-71	Regionalism	Painting	Easel Painting	10
+A5-72	Ashcan School	Painting	Easel Painting	11
+A5-73	Social Realism	Painting	Easel Painting	29
+A5-74	Socialist Realism	Painting	Easel Painting	19
+A5-75	Harlem Renaissance	Painting	Easel Painting	14
+A5-76	School of Paris	Painting	Easel Painting	47
+A5-77	Scuola Romana	Painting	Easel Painting	5
+A5-78	Neo-Romanticism	Painting	Easel Painting	6
+A5-79	Naïve Art	Painting	Easel Painting	26
+A5-80	Art Brut	Painting	Easel Painting	23
+A5-81	Abstract Expressionism	Painting	Easel Painting	174
+A5-82	Color Field	Painting	Easel Painting	16
+A5-83	Lyrical Abstraction	Painting	Easel Painting	13
+A5-84	Informalism	Painting	Easel Painting	15
+A5-85	COBRA	Painting	Easel Painting	10
+A5-86	Hard-edge Painting	Painting	Easel Painting	12
+A5-87	Concrete Art	Painting	Easel Painting	28
+A5-88	Op Art	Painting	Easel Painting	14
+A5-89	Pop Art	Painting	Easel Painting	92
+A5-90	Neo-Dada	Painting	Easel Painting	5
+A5-91	Nouveau Réalisme	Painting	Easel Painting	15
+A5-92	Funk Art	Painting	Easel Painting	5
+A5-93	Bay Area Figurative Movement	Painting	Easel Painting	6
+A5-94	Northwest School	Painting	Easel Painting	5
+A5-95	Pattern and Decoration	Painting	Easel Painting	7
+A5-96	Photorealism	Painting	Easel Painting	26
+A5-97	Neo-figurative	Painting	Easel Painting	8
+A5-98	Neo-Expressionism	Painting	Easel Painting	27
+A5-99	Lettrism	Painting	Easel Painting	6
+A5-100	Black Arts Movement	Painting	Easel Painting	6
+A5-101	British Black Arts Movement	Painting	Easel Painting	6
+A5-102	Lowbrow	Painting	Easel Painting	3
+A5-103	Mission School	Painting	Easel Painting	3
+A5-104	Stuckism	Painting	Easel Painting	3
+A5-105	Superflat	Painting	Easel Painting	3
+A5-106	Hurufiyya Movement	Painting	Easel Painting	20
+A5-107	Dakar School	Painting	Easel Painting	6
+A5-108	Yōga	Painting	Easel Painting	63
+A5-109	Bengal School of Art	Painting	Easel Painting	13
+A5-110	Modern Art	Painting	Easel Painting	7952
+A5-111	Contemporary Art	Painting	Easel Painting	3344
+A5-112	Hispano-Flemish Style	Painting	Easel Painting	9
+A5-113	Dansaekhwa	Painting	Easel Painting	7
+A6-1	Madhubani Painting	Painting	Folk & Popular Painting	9
+A6-2	Warli Painting	Painting	Folk & Popular Painting	1
+A6-3	Gond Painting	Painting	Folk & Popular Painting	1
+A6-4	Tanjore Painting	Painting	Folk & Popular Painting	1
+A6-5	Mysore Painting	Painting	Folk & Popular Painting	1
+A6-6	Truck Art	Painting	Folk & Popular Painting	1
+A6-7	Rickshaw Painting	Painting	Folk & Popular Painting	1
+A6-8	Letras y Figuras	Painting	Folk & Popular Painting	3
+A6-9	Ōtsu-e	Painting	Folk & Popular Painting	1
+A6-10	Ema	Painting	Folk & Popular Painting	1
+A6-11	Minhwa	Painting	Folk & Popular Painting	2
+A6-12	Tingatinga Painting	Painting	Folk & Popular Painting	4
+A6-13	Retablo	Painting	Folk & Popular Painting	2
+A6-14	Amate Painting	Painting	Folk & Popular Painting	4
+A6-15	Tablas de Sarhua	Painting	Folk & Popular Painting	1
+A6-16	Tigua Painting	Painting	Folk & Popular Painting	1
+A6-17	Fileteado	Painting	Folk & Popular Painting	1
+A6-18	Bark Painting	Painting	Folk & Popular Painting	17
+A6-19	Theorem Painting	Painting	Folk & Popular Painting	1
+A6-20	Reverse Glass Painting	Painting	Folk & Popular Painting	4
+A6-21	Petrykivka Painting	Painting	Folk & Popular Painting	1
+A6-22	Tauric Painting	Painting	Folk & Popular Painting	1
+A6-23	Gorodets Painting	Painting	Folk & Popular Painting	1
+A6-24	Mezen Painting	Painting	Folk & Popular Painting	1
+A6-25	Northern Dvina Painting	Painting	Folk & Popular Painting	3
+A6-26	Ural-Siberian Painting	Painting	Folk & Popular Painting	1
+A6-27	Zhostovo Painting	Painting	Folk & Popular Painting	1
+A6-28	Nizhny Tagil Tray Painting	Painting	Folk & Popular Painting	1
+A6-29	Naïve Painting of Kovačica	Painting	Folk & Popular Painting	1
+A6-30	Pysanka	Painting	Folk & Popular Painting	10
+A6-31	Haitian Painting	Painting	Folk & Popular Painting	16
+B1-1	Saz Style	Drawings & Prints	Drawing	1
+B1-2	Ledger Art	Drawings & Prints	Drawing	5
+B1-3	American Comics	Drawings & Prints	Drawing	32
+B1-4	Old Master Drawing	Drawings & Prints	Drawing	29
+B1-5	Illustration	Drawings & Prints	Drawing	567
+B1-6	Golden Age of Illustration	Drawings & Prints	Drawing	186
+B1-7	Ligne Claire	Drawings & Prints	Drawing	18
+B1-8	Marcinelle School	Drawings & Prints	Drawing	12
+B1-9	Manga	Drawings & Prints	Drawing	39
+B2-1	Đông Hồ Painting	Drawings & Prints	Printmaking	2
+B2-2	Hàng Trống Painting	Drawings & Prints	Printmaking	1
+B2-3	Kim Hoàng Painting	Drawings & Prints	Printmaking	2
+B2-4	Nianhua	Drawings & Prints	Printmaking	7
+B2-5	Cordel Literature	Drawings & Prints	Printmaking	1
+B2-6	Inuit Printmaking	Drawings & Prints	Printmaking	3
+B2-7	Torres Strait Islander Printmaking	Drawings & Prints	Printmaking	1
+B2-8	Lubok	Drawings & Prints	Printmaking	2
+B2-9	Poster Art	Drawings & Prints	Printmaking	34
+B2-10	Plakatstil	Drawings & Prints	Printmaking	4
+B2-11	Soviet Poster	Drawings & Prints	Printmaking	9
+B2-12	Polish School of Posters	Drawings & Prints	Printmaking	12
+B2-13	Old Master Print	Drawings & Prints	Printmaking	248
+B2-14	Etching Revival	Drawings & Prints	Printmaking	130
+B2-15	Modern Printmaking	Drawings & Prints	Printmaking	93
+B2-16	Contemporary Printmaking	Drawings & Prints	Printmaking	48
+B2-17	Ukiyo-e	Drawings & Prints	Printmaking	35
+B2-18	Shin-hanga	Drawings & Prints	Printmaking	0
+B2-19	Sōsaku-hanga	Drawings & Prints	Printmaking	24
+C1-1	Kufic	Book Arts & Calligraphy	Calligraphy	1
+C1-2	Maghribi Script	Book Arts & Calligraphy	Calligraphy	1
+C1-3	Six Pens (al-Aqlam al-Sitta)	Book Arts & Calligraphy	Calligraphy	42
+C1-4	Nasta'liq	Book Arts & Calligraphy	Calligraphy	29
+C1-5	Diwani	Book Arts & Calligraphy	Calligraphy	1
+C1-6	Sini	Book Arts & Calligraphy	Calligraphy	0
+C1-7	Mongolian Calligraphy	Book Arts & Calligraphy	Calligraphy	1
+C1-8	Georgian Calligraphy	Book Arts & Calligraphy	Calligraphy	1
+C1-9	Chinese Calligraphy	Book Arts & Calligraphy	Calligraphy	66
+C1-10	Japanese Calligraphy	Book Arts & Calligraphy	Calligraphy	35
+C1-11	Western Calligraphy	Book Arts & Calligraphy	Calligraphy	14
+C1-12	Type Design	Book Arts & Calligraphy	Calligraphy	29
+C1-13	Korean Calligraphy	Book Arts & Calligraphy	Calligraphy	1
+C2-1	Early Qur'anic Manuscripts	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	1
+C2-2	Islamic Illumination	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	14
+C2-3	Timbuktu Manuscripts	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	0
+C2-4	Malay Manuscripts	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	3
+C2-5	Palm-Leaf Manuscripts	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	8
+C2-6	Lontar	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	4
+C2-7	Folding-Book Manuscripts	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	1
+C2-8	Kammavaca	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	1
+C2-9	Pustaha	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	1
+C2-10	Dunhuang Manuscripts	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	1
+C2-11	Uigwe	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	1
+C2-12	Sutra Copying	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	2
+C2-13	Dongba Manuscripts	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	3
+C2-14	Ethiopian Manuscripts	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	1
+C2-15	Book of the Dead	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	2
+C2-16	Maya Codices	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	1
+C2-17	Late Antique Illumination	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	1
+C2-18	Insular Illumination	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	3
+C2-19	Merovingian Illumination	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	1
+C2-20	Carolingian Illumination	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	5
+C2-21	Ottonian Illumination	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	3
+C2-22	Anglo-Saxon Illumination	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	2
+C2-23	Mozarabic Illumination	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	6
+C2-24	Romanesque Illumination	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	6
+C2-25	Renaissance Illumination	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	12
+C2-26	Hebrew Illuminated Manuscripts	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	7
+C2-27	Russian Illuminated Manuscripts	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	6
+C2-28	Fraktur	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	1
+C2-29	Gothic Book Illustration	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	64
+C2-30	Ghent-Bruges School	Book Arts & Calligraphy	Illuminated Manuscripts & Illumination	1
+C3-1	Islamic Bookbinding	Book Arts & Calligraphy	Bookbinding	2
+C3-2	Treasure Binding	Book Arts & Calligraphy	Bookbinding	2
+C3-3	Fine Binding	Book Arts & Calligraphy	Bookbinding	7
+C3-4	East Asian Bookbinding	Book Arts & Calligraphy	Bookbinding	2
+C4-1	Ebru	Book Arts & Calligraphy	Paper Arts	0
+C4-2	Sanjhi	Book Arts & Calligraphy	Paper Arts	1
+C4-3	Chinese Paper Cutting	Book Arts & Calligraphy	Paper Arts	1
+C4-4	Papel Picado	Book Arts & Calligraphy	Paper Arts	1
+C4-5	Vytsinanka	Book Arts & Calligraphy	Paper Arts	1
+C4-6	Slovenian Paper Flower Making	Book Arts & Calligraphy	Paper Arts	1
+C4-7	Oil-Paper Umbrella	Book Arts & Calligraphy	Paper Arts	3
+C4-8	Fan Making	Book Arts & Calligraphy	Paper Arts	6
+C4-9	Chōchin	Book Arts & Calligraphy	Paper Arts	2
+C4-10	Scherenschnitte	Book Arts & Calligraphy	Paper Arts	1
+C4-11	Kirie	Book Arts & Calligraphy	Paper Arts	1
+C4-12	Wycinanki	Book Arts & Calligraphy	Paper Arts	1
+C4-13	Hanji	Book Arts & Calligraphy	Paper Arts	1
+D1-1	Samarra Stucco	Sculpture & Carving	Architectural Carving & Stucco	0
+D1-2	Nasrid Stucco (Yesería)	Sculpture & Carving	Architectural Carving & Stucco	0
+D1-3	Assyrian Palace Reliefs	Sculpture & Carving	Architectural Carving & Stucco	1
+D2-1	Andalusian Ivories	Sculpture & Carving	Ivory & Bone Carving	1
+D2-2	Siculo-Arabic Ivories	Sculpture & Carving	Ivory & Bone Carving	0
+D2-3	Begram Ivories	Sculpture & Carving	Ivory & Bone Carving	1
+D2-4	Netsuke	Sculpture & Carving	Ivory & Bone Carving	1
+D2-5	Benin Ivories	Sculpture & Carving	Ivory & Bone Carving	2
+D2-6	Afro-Portuguese Ivories	Sculpture & Carving	Ivory & Bone Carving	2
+D2-7	Nimrud Ivories	Sculpture & Carving	Ivory & Bone Carving	2
+D2-8	Byzantine Ivories	Sculpture & Carving	Ivory & Bone Carving	0
+D2-9	Alaska Native Ivory Carving	Sculpture & Carving	Ivory & Bone Carving	2
+D2-10	Mississippian Shell Gorgets	Sculpture & Carving	Ivory & Bone Carving	0
+D2-11	Gothic Ivories	Sculpture & Carving	Ivory & Bone Carving	0
+D2-12	Scrimshaw	Sculpture & Carving	Ivory & Bone Carving	1
+D2-13	Duodji	Sculpture & Carving	Ivory & Bone Carving	7
+D2-14	Uelen Bone Carving	Sculpture & Carving	Ivory & Bone Carving	2
+D2-15	Tobolsk Bone Carving	Sculpture & Carving	Ivory & Bone Carving	1
+D2-16	Yakut Bone Carving	Sculpture & Carving	Ivory & Bone Carving	2
+D2-17	Torre del Greco Shell and Coral Carving	Sculpture & Carving	Ivory & Bone Carving	1
+D2-18	Romanesque Ivories	Sculpture & Carving	Ivory & Bone Carving	1
+D3-1	Fatimid Rock Crystal	Sculpture & Carving	Hardstone, Rock Crystal & Jade Carving	0
+D3-2	Mughal Jade	Sculpture & Carving	Hardstone, Rock Crystal & Jade Carving	1
+D3-3	Chinese Jade	Sculpture & Carving	Hardstone, Rock Crystal & Jade Carving	0
+D3-4	Chinese Snuff Bottles	Sculpture & Carving	Hardstone, Rock Crystal & Jade Carving	0
+D3-5	Cylinder Seals	Sculpture & Carving	Hardstone, Rock Crystal & Jade Carving	2
+D3-6	Minoan Seals	Sculpture & Carving	Hardstone, Rock Crystal & Jade Carving	0
+D3-7	Engraved Gems	Sculpture & Carving	Hardstone, Rock Crystal & Jade Carving	3
+D3-8	Mesoamerican Jade	Sculpture & Carving	Hardstone, Rock Crystal & Jade Carving	3
+D3-9	Hei-tiki	Sculpture & Carving	Hardstone, Rock Crystal & Jade Carving	1
+D3-10	Pietra Dura	Sculpture & Carving	Hardstone, Rock Crystal & Jade Carving	3
+D3-11	Inkstone Carving	Sculpture & Carving	Hardstone, Rock Crystal & Jade Carving	3
+D3-12	Idar-Oberstein Agate Cutting	Sculpture & Carving	Hardstone, Rock Crystal & Jade Carving	1
+D4-1	Karagöz Shadow Puppets	Sculpture & Carving	Masks & Puppets	0
+D4-2	Tholu Bommalata	Sculpture & Carving	Masks & Puppets	2
+D4-3	Wayang Kulit	Sculpture & Carving	Masks & Puppets	6
+D4-4	Wayang Golek	Sculpture & Carving	Masks & Puppets	2
+D4-5	Topeng	Sculpture & Carving	Masks & Puppets	1
+D4-6	Nang Yai	Sculpture & Carving	Masks & Puppets	3
+D4-7	Sbek Thom	Sculpture & Carving	Masks & Puppets	1
+D4-8	Yoke Thé	Sculpture & Carving	Masks & Puppets	1
+D4-9	Chinese Shadow Puppetry	Sculpture & Carving	Masks & Puppets	1
+D4-10	Bunraku	Sculpture & Carving	Masks & Puppets	2
+D4-11	Korean Masks	Sculpture & Carving	Masks & Puppets	13
+D4-12	Dogon Masks	Sculpture & Carving	Masks & Puppets	0
+D4-13	Chiwara	Sculpture & Carving	Masks & Puppets	1
+D4-14	Senufo Masks	Sculpture & Carving	Masks & Puppets	2
+D4-15	Chokwe Masks	Sculpture & Carving	Masks & Puppets	1
+D4-16	Gelede	Sculpture & Carving	Masks & Puppets	0
+D4-17	Igbo Masks	Sculpture & Carving	Masks & Puppets	5
+D4-18	Dan Masks	Sculpture & Carving	Masks & Puppets	3
+D4-19	Sowei Masks	Sculpture & Carving	Masks & Puppets	3
+D4-20	Kuba Masks	Sculpture & Carving	Masks & Puppets	0
+D4-21	Kifwebe	Sculpture & Carving	Masks & Puppets	0
+D4-22	Pende Masks	Sculpture & Carving	Masks & Puppets	1
+D4-23	Punu Masks	Sculpture & Carving	Masks & Puppets	1
+D4-24	Northwest Coast Masks	Sculpture & Carving	Masks & Puppets	0
+D4-25	Yup'ik Masks	Sculpture & Carving	Masks & Puppets	0
+D4-26	Torres Strait Turtle-Shell Masks	Sculpture & Carving	Masks & Puppets	4
+D4-27	Processional Giants	Sculpture & Carving	Masks & Puppets	2
+D4-28	Punch and Judy	Sculpture & Carving	Masks & Puppets	1
+D4-29	Czech Marionettes	Sculpture & Carving	Masks & Puppets	1
+D5-1	Gandharan Art	Sculpture & Carving	Figurative Sculpture	9
+D5-2	Art of Mathura	Sculpture & Carving	Figurative Sculpture	1
+D5-3	Amaravati Art	Sculpture & Carving	Figurative Sculpture	1
+D5-4	Pala Art	Sculpture & Carving	Figurative Sculpture	2
+D5-5	Chola Bronzes	Sculpture & Carving	Figurative Sculpture	1
+D5-6	Dhokra	Sculpture & Carving	Figurative Sculpture	1
+D5-7	Bankura Horse	Sculpture & Carving	Figurative Sculpture	1
+D5-8	Molela Terracotta	Sculpture & Carving	Figurative Sculpture	1
+D5-9	Nepalese Sculpture	Sculpture & Carving	Figurative Sculpture	0
+D5-10	Kashmiri Bronzes	Sculpture & Carving	Figurative Sculpture	2
+D5-11	Tibetan Buddhist Sculpture	Sculpture & Carving	Figurative Sculpture	3
+D5-12	Zanabazar School	Sculpture & Carving	Figurative Sculpture	2
+D5-13	Sino-Tibetan Sculpture	Sculpture & Carving	Figurative Sculpture	6
+D5-14	Khmer Sculpture	Sculpture & Carving	Figurative Sculpture	5
+D5-15	Dvaravati Art	Sculpture & Carving	Figurative Sculpture	3
+D5-16	Cham Sculpture	Sculpture & Carving	Figurative Sculpture	0
+D5-17	Majapahit Terracotta	Sculpture & Carving	Figurative Sculpture	0
+D5-18	Bulul	Sculpture & Carving	Figurative Sculpture	2
+D5-19	Philippine Santos	Sculpture & Carving	Figurative Sculpture	3
+D5-20	Haniwa	Sculpture & Carving	Figurative Sculpture	0
+D5-21	Mingqi	Sculpture & Carving	Figurative Sculpture	1
+D5-22	Chinese Buddhist Sculpture	Sculpture & Carving	Figurative Sculpture	5
+D5-23	Korean Buddhist Sculpture	Sculpture & Carving	Figurative Sculpture	3
+D5-24	Japanese Buddhist Sculpture	Sculpture & Carving	Figurative Sculpture	5
+D5-25	Japanese Dolls (Ningyō)	Sculpture & Carving	Figurative Sculpture	7
+D5-26	Kokeshi	Sculpture & Carving	Figurative Sculpture	1
+D5-27	Huishan Clay Figurines	Sculpture & Carving	Figurative Sculpture	1
+D5-28	Clay Figure Zhang	Sculpture & Carving	Figurative Sculpture	1
+D5-29	Tu'er Ye	Sculpture & Carving	Figurative Sculpture	1
+D5-30	Nok Terracottas	Sculpture & Carving	Figurative Sculpture	4
+D5-31	Ife Art	Sculpture & Carving	Figurative Sculpture	1
+D5-32	Benin Bronzes	Sculpture & Carving	Figurative Sculpture	5
+D5-33	Lower Niger Bronze Industry	Sculpture & Carving	Figurative Sculpture	2
+D5-34	Esie Soapstone Figures	Sculpture & Carving	Figurative Sculpture	1
+D5-35	Djenné Terracottas	Sculpture & Carving	Figurative Sculpture	4
+D5-36	Bura Terracottas	Sculpture & Carving	Figurative Sculpture	1
+D5-37	Koma Terracottas	Sculpture & Carving	Figurative Sculpture	1
+D5-38	Sao Terracottas	Sculpture & Carving	Figurative Sculpture	1
+D5-39	Lydenburg Heads	Sculpture & Carving	Figurative Sculpture	1
+D5-40	Nomoli	Sculpture & Carving	Figurative Sculpture	1
+D5-41	Zimbabwe Birds	Sculpture & Carving	Figurative Sculpture	1
+D5-42	Yoruba Sculpture	Sculpture & Carving	Figurative Sculpture	15
+D5-43	Dogon Sculpture	Sculpture & Carving	Figurative Sculpture	4
+D5-44	Bamana Sculpture	Sculpture & Carving	Figurative Sculpture	1
+D5-45	Senufo Sculpture	Sculpture & Carving	Figurative Sculpture	3
+D5-46	Baule Sculpture	Sculpture & Carving	Figurative Sculpture	3
+D5-47	Lobi Sculpture	Sculpture & Carving	Figurative Sculpture	2
+D5-48	Akan Sculpture	Sculpture & Carving	Figurative Sculpture	4
+D5-49	Chokwe Sculpture	Sculpture & Carving	Figurative Sculpture	1
+D5-50	Luba Sculpture	Sculpture & Carving	Figurative Sculpture	3
+D5-51	Lega Sculpture	Sculpture & Carving	Figurative Sculpture	1
+D5-52	Ndop	Sculpture & Carving	Figurative Sculpture	0
+D5-53	Makonde Sculpture	Sculpture & Carving	Figurative Sculpture	1
+D5-54	Fantasy Coffins	Sculpture & Carving	Figurative Sculpture	1
+D5-55	Ancient Egyptian Sculpture	Sculpture & Carving	Figurative Sculpture	2
+D5-56	Cycladic Figures	Sculpture & Carving	Figurative Sculpture	2
+D5-57	Ancient Greek Sculpture	Sculpture & Carving	Figurative Sculpture	0
+D5-58	Greek Terracotta Figurines	Sculpture & Carving	Figurative Sculpture	5
+D5-59	Etruscan Sculpture	Sculpture & Carving	Figurative Sculpture	1
+D5-60	Roman Portraiture	Sculpture & Carving	Figurative Sculpture	0
+D5-61	Roman Sculpture	Sculpture & Carving	Figurative Sculpture	2
+D5-62	Olmec Sculpture	Sculpture & Carving	Figurative Sculpture	1
+D5-63	Maya Sculpture	Sculpture & Carving	Figurative Sculpture	3
+D5-64	Aztec Sculpture	Sculpture & Carving	Figurative Sculpture	1
+D5-65	Classic Veracruz Sculpture	Sculpture & Carving	Figurative Sculpture	2
+D5-66	West Mexican Shaft-Tomb Figures	Sculpture & Carving	Figurative Sculpture	6
+D5-67	Chavín Sculpture	Sculpture & Carving	Figurative Sculpture	2
+D5-68	Valdivia Figurines	Sculpture & Carving	Figurative Sculpture	1
+D5-69	Estofado	Sculpture & Carving	Figurative Sculpture	2
+D5-70	Brazilian Baroque	Sculpture & Carving	Figurative Sculpture	1
+D5-71	Santos	Sculpture & Carving	Figurative Sculpture	3
+D5-72	Alebrije	Sculpture & Carving	Figurative Sculpture	3
+D5-73	Cartonería	Sculpture & Carving	Figurative Sculpture	3
+D5-74	Caruaru Clay Figures	Sculpture & Carving	Figurative Sculpture	3
+D5-75	Haitian Metal Art	Sculpture & Carving	Figurative Sculpture	1
+D5-76	Totem Poles	Sculpture & Carving	Figurative Sculpture	0
+D5-77	Inuit Sculpture	Sculpture & Carving	Figurative Sculpture	2
+D5-78	Kachina Dolls	Sculpture & Carving	Figurative Sculpture	0
+D5-79	Zuni Fetishes	Sculpture & Carving	Figurative Sculpture	0
+D5-80	Storyteller Figures	Sculpture & Carving	Figurative Sculpture	1
+D5-81	Whakairo	Sculpture & Carving	Figurative Sculpture	11
+D5-82	Malagan	Sculpture & Carving	Figurative Sculpture	1
+D5-83	Uli	Sculpture & Carving	Figurative Sculpture	1
+D5-84	Asmat Woodcarving	Sculpture & Carving	Figurative Sculpture	2
+D5-85	Sepik Carving	Sculpture & Carving	Figurative Sculpture	4
+D5-86	Massim Carving	Sculpture & Carving	Figurative Sculpture	1
+D5-87	Nguzu Nguzu	Sculpture & Carving	Figurative Sculpture	1
+D5-88	Marquesan Carving	Sculpture & Carving	Figurative Sculpture	1
+D5-89	Moai Kavakava	Sculpture & Carving	Figurative Sculpture	2
+D5-90	Aurukun Sculpture	Sculpture & Carving	Figurative Sculpture	2
+D5-91	Neapolitan Nativity Scene	Sculpture & Carving	Figurative Sculpture	1
+D5-92	Wildfowl Decoys	Sculpture & Carving	Figurative Sculpture	1
+D5-93	Weathervanes	Sculpture & Carving	Figurative Sculpture	2
+D5-94	Estremoz Clay Figures	Sculpture & Carving	Figurative Sculpture	1
+D5-95	Matryoshka Doll	Sculpture & Carving	Figurative Sculpture	1
+D5-96	Polkhovsky Maidan	Sculpture & Carving	Figurative Sculpture	1
+D5-97	Bogorodskoye Carving	Sculpture & Carving	Figurative Sculpture	1
+D5-98	Dymkovo Toys	Sculpture & Carving	Figurative Sculpture	1
+D5-99	Filimonovo Toys	Sculpture & Carving	Figurative Sculpture	1
+D5-100	Kargopol Toys	Sculpture & Carving	Figurative Sculpture	1
+D5-101	Abashevo Toys	Sculpture & Carving	Figurative Sculpture	1
+D5-102	Yavoriv Toy	Sculpture & Carving	Figurative Sculpture	1
+D5-103	Valky Whistle Toy	Sculpture & Carving	Figurative Sculpture	1
+D5-104	Wooden Toys of Hrvatsko Zagorje	Sculpture & Carving	Figurative Sculpture	1
+D5-105	Pauper Statues	Sculpture & Carving	Figurative Sculpture	1
+D5-106	Moai	Sculpture & Carving	Figurative Sculpture	2
+D5-107	Archaic Greek Sculpture	Sculpture & Carving	Figurative Sculpture	58
+D5-108	Classical Greek Sculpture	Sculpture & Carving	Figurative Sculpture	40
+D5-109	Hellenistic Sculpture	Sculpture & Carving	Figurative Sculpture	34
+D5-110	Romanesque Sculpture	Sculpture & Carving	Figurative Sculpture	19
+D5-111	Gothic Sculpture	Sculpture & Carving	Figurative Sculpture	88
+D5-112	Renaissance Sculpture	Sculpture & Carving	Figurative Sculpture	147
+D5-113	Baroque Sculpture	Sculpture & Carving	Figurative Sculpture	236
+D5-114	Neoclassical Sculpture	Sculpture & Carving	Figurative Sculpture	177
+D5-115	Academic Sculpture	Sculpture & Carving	Figurative Sculpture	298
+D5-116	New Sculpture	Sculpture & Carving	Figurative Sculpture	13
+D5-117	Animalier School	Sculpture & Carving	Figurative Sculpture	4
+D5-118	Modern Sculpture	Sculpture & Carving	Figurative Sculpture	1600
+D5-119	Contemporary Sculpture	Sculpture & Carving	Figurative Sculpture	533
+D5-120	Kinetic Art	Sculpture & Carving	Figurative Sculpture	8
+D5-121	Minimalism	Sculpture & Carving	Figurative Sculpture	25
+D5-122	Postminimalism	Sculpture & Carving	Figurative Sculpture	12
+D5-123	Kei School	Sculpture & Carving	Figurative Sculpture	8
+D5-124	Garden Gnomes	Sculpture & Carving	Figurative Sculpture	1
+D5-125	Volterra Alabaster Carving	Sculpture & Carving	Figurative Sculpture	1
+D5-126	Taxidermy	Sculpture & Carving	Figurative Sculpture	2
+D5-127	Meerschaum Carving	Sculpture & Carving	Figurative Sculpture	1
+D5-128	Thanjavur Dolls	Sculpture & Carving	Figurative Sculpture	1
+D5-129	Erzgebirge Folk Art	Sculpture & Carving	Figurative Sculpture	1
+D5-130	Dala Horse	Sculpture & Carving	Figurative Sculpture	1
+D5-131	Brienz Woodcarving	Sculpture & Carving	Figurative Sculpture	1
+D5-132	Val Gardena Woodcarving	Sculpture & Carving	Figurative Sculpture	1
+D6-1	Kaavad	Sculpture & Carving	Ritual Objects & Regalia	1
+D6-2	Minkisi	Sculpture & Carving	Ritual Objects & Regalia	14
+D6-3	Fang Reliquary Guardians	Sculpture & Carving	Ritual Objects & Regalia	3
+D6-4	Asen	Sculpture & Carving	Ritual Objects & Regalia	4
+D6-5	Taíno Zemís	Sculpture & Carving	Ritual Objects & Regalia	1
+D6-6	Peruvian Retablo	Sculpture & Carving	Ritual Objects & Regalia	2
+D6-7	Ceremonial Pipes	Sculpture & Carving	Ritual Objects & Regalia	6
+D6-8	Pukumani Poles	Sculpture & Carving	Ritual Objects & Regalia	3
+D6-9	Toas	Sculpture & Carving	Ritual Objects & Regalia	1
+D6-10	Khachkar	Sculpture & Carving	Ritual Objects & Regalia	1
+D6-11	Lithuanian Cross Crafting	Sculpture & Carving	Ritual Objects & Regalia	1
+D6-12	Butsudan	Sculpture & Carving	Ritual Objects & Regalia	5
+E1-1	Abbasid Tin-Glazed Ware	Ceramics	Earthenware	1
+E1-2	Abbasid Lustreware	Ceramics	Earthenware	1
+E1-3	Fatimid Lustreware	Ceramics	Earthenware	1
+E1-4	Samanid Slipware	Ceramics	Earthenware	0
+E1-5	Splashware	Ceramics	Earthenware	0
+E1-6	Persian Sgraffito Ware	Ceramics	Earthenware	0
+E1-7	Islamic Unglazed Pottery	Ceramics	Earthenware	1
+E1-8	Hispano-Moresque Ware	Ceramics	Earthenware	1
+E1-9	Çanakkale Pottery	Ceramics	Earthenware	0
+E1-10	Fez Pottery	Ceramics	Earthenware	0
+E1-11	Kabyle Pottery	Ceramics	Earthenware	0
+E1-12	Sejnane Pottery	Ceramics	Earthenware	0
+E1-13	Rishton Ceramics	Ceramics	Earthenware	1
+E1-14	Ban Chiang Pottery	Ceramics	Earthenware	1
+E1-15	Cham Pottery	Ceramics	Earthenware	1
+E1-16	Kasongan Pottery	Ceramics	Earthenware	1
+E1-17	Yangshao Painted Pottery	Ceramics	Earthenware	1
+E1-18	Jōmon Pottery	Ceramics	Earthenware	1
+E1-19	Yayoi Pottery	Ceramics	Earthenware	0
+E1-20	Tang Sancai	Ceramics	Earthenware	2
+E1-21	Raku Ware	Ceramics	Earthenware	0
+E1-22	Satsuma Ware	Ceramics	Earthenware	2
+E1-23	Onggi	Ceramics	Earthenware	1
+E1-24	Kgatleng Pottery	Ceramics	Earthenware	1
+E1-25	Geometric Pottery	Ceramics	Earthenware	8
+E1-26	Corinthian Vase Painting	Ceramics	Earthenware	2
+E1-27	Black-Figure Pottery	Ceramics	Earthenware	186
+E1-28	Red-Figure Pottery	Ceramics	Earthenware	84
+E1-29	Laconian Vase Painting	Ceramics	Earthenware	1
+E1-30	East Greek Vase Painting	Ceramics	Earthenware	6
+E1-31	South Italian Vase Painting	Ceramics	Earthenware	6
+E1-32	Gnathia Vases	Ceramics	Earthenware	1
+E1-33	Centuripe Ware	Ceramics	Earthenware	1
+E1-34	Etruscan Vase Painting	Ceramics	Earthenware	5
+E1-35	Bucchero	Ceramics	Earthenware	0
+E1-36	Minoan Pottery	Ceramics	Earthenware	0
+E1-37	Mycenaean Pottery	Ceramics	Earthenware	1
+E1-38	Terra Sigillata	Ceramics	Earthenware	1
+E1-39	Hadra Vases	Ceramics	Earthenware	0
+E1-40	Kerma Ware	Ceramics	Earthenware	1
+E1-41	Meroitic Pottery	Ceramics	Earthenware	1
+E1-42	Nabataean Pottery	Ceramics	Earthenware	1
+E1-43	Maya Ceramics	Ceramics	Earthenware	3
+E1-44	Teotihuacan Ceramics	Ceramics	Earthenware	1
+E1-45	Gran Coclé Pottery	Ceramics	Earthenware	7
+E1-46	Nicoya Polychrome	Ceramics	Earthenware	1
+E1-47	Moche Ceramics	Ceramics	Earthenware	1
+E1-48	Nazca Pottery	Ceramics	Earthenware	1
+E1-49	Chimú Blackware	Ceramics	Earthenware	2
+E1-50	Shipibo-Conibo Pottery	Ceramics	Earthenware	1
+E1-51	Talavera Poblana	Ceramics	Earthenware	1
+E1-52	Barro Negro Pottery	Ceramics	Earthenware	2
+E1-53	Tonalá Pottery	Ceramics	Earthenware	4
+E1-54	Mata Ortiz Pottery	Ceramics	Earthenware	2
+E1-55	Tree of Life	Ceramics	Earthenware	2
+E1-56	Pucará Bulls	Ceramics	Earthenware	1
+E1-57	Chulucanas Pottery	Ceramics	Earthenware	1
+E1-58	Quinchamalí Pottery	Ceramics	Earthenware	1
+E1-59	Awajún Pottery	Ceramics	Earthenware	1
+E1-60	Goiabeiras Clay Pots	Ceramics	Earthenware	1
+E1-61	Ancestral Puebloan Pottery	Ceramics	Earthenware	10
+E1-62	Mimbres Pottery	Ceramics	Earthenware	3
+E1-63	Hohokam Red-on-Buff Ware	Ceramics	Earthenware	2
+E1-64	Salado Polychrome	Ceramics	Earthenware	1
+E1-65	Casas Grandes Pottery	Ceramics	Earthenware	1
+E1-66	Pueblo Pottery	Ceramics	Earthenware	8
+E1-67	Acoma Pottery	Ceramics	Earthenware	5
+E1-68	Hopi Pottery	Ceramics	Earthenware	4
+E1-69	Black-on-Black Ware	Ceramics	Earthenware	3
+E1-70	Mississippian Pottery	Ceramics	Earthenware	3
+E1-71	Swift Creek Pottery	Ceramics	Earthenware	1
+E1-72	Weeden Island Pottery	Ceramics	Earthenware	1
+E1-73	Catawba Pottery	Ceramics	Earthenware	1
+E1-74	Hermannsburg Potters	Ceramics	Earthenware	1
+E1-75	Maiolica	Ceramics	Earthenware	6
+E1-76	Faience	Ceramics	Earthenware	3
+E1-77	Delftware	Ceramics	Earthenware	2
+E1-78	Saint-Porchaire Ware	Ceramics	Earthenware	1
+E1-79	Staffordshire Pottery	Ceramics	Earthenware	5
+E1-80	Pennsylvania German Redware	Ceramics	Earthenware	2
+E1-81	Talavera de la Reina Pottery	Ceramics	Earthenware	3
+E1-82	Bisalhães Black Pottery	Ceramics	Earthenware	1
+E1-83	Gmundner Keramik	Ceramics	Earthenware	2
+E1-84	Émaux de Longwy	Ceramics	Earthenware	1
+E1-85	Izraztsy	Ceramics	Earthenware	1
+E1-86	Skopin Ceramics	Ceramics	Earthenware	1
+E1-87	Balkhar Pottery	Ceramics	Earthenware	1
+E1-88	Opishnia Ceramics	Ceramics	Earthenware	1
+E1-89	Kosiv Painted Ceramics	Ceramics	Earthenware	2
+E1-90	Sokal Ceramics	Ceramics	Earthenware	1
+E1-91	Bubnivka Ceramics	Ceramics	Earthenware	1
+E1-92	Oleshnia Pottery	Ceramics	Earthenware	1
+E1-93	Horezu Ceramics	Ceramics	Earthenware	1
+E1-94	Zlakusa Pottery	Ceramics	Earthenware	1
+E1-95	Impruneta Terracotta	Ceramics	Earthenware	1
+E1-96	Thrapsano Pottery	Ceramics	Earthenware	1
+E1-97	Encaustic Tiles	Ceramics	Earthenware	1
+E1-98	Kachelofen	Ceramics	Earthenware	2
+E2-1	Seljuk Pottery	Ceramics	Fritware (Stonepaste)	0
+E2-2	Kashan Lustreware	Ceramics	Fritware (Stonepaste)	4
+E2-3	Mina'i Ware	Ceramics	Fritware (Stonepaste)	0
+E2-4	Lajvardina	Ceramics	Fritware (Stonepaste)	0
+E2-5	Raqqa Ware	Ceramics	Fritware (Stonepaste)	0
+E2-6	Sultanabad Ware	Ceramics	Fritware (Stonepaste)	0
+E2-7	Iznik Pottery	Ceramics	Fritware (Stonepaste)	2
+E2-8	Damascus Tiles	Ceramics	Fritware (Stonepaste)	0
+E2-9	Kubachi Ware	Ceramics	Fritware (Stonepaste)	0
+E2-10	Safavid Pottery	Ceramics	Fritware (Stonepaste)	0
+E2-11	Kütahya Ceramics	Ceramics	Fritware (Stonepaste)	1
+E2-12	Qajar Ceramics	Ceramics	Fritware (Stonepaste)	4
+E2-13	Qallaline Tiles	Ceramics	Fritware (Stonepaste)	1
+E2-14	Jaipur Blue Pottery	Ceramics	Fritware (Stonepaste)	1
+E2-15	Egyptian Faience	Ceramics	Fritware (Stonepaste)	3
+E3-1	Khmer Ceramics	Ceramics	Stoneware	1
+E3-2	Sawankhalok Ware	Ceramics	Stoneware	4
+E3-3	Vietnamese Ceramics	Ceramics	Stoneware	3
+E3-4	Yue Ware	Ceramics	Stoneware	2
+E3-5	Yaozhou Ware	Ceramics	Stoneware	0
+E3-6	Longquan Celadon	Ceramics	Stoneware	1
+E3-7	Ru Ware	Ceramics	Stoneware	0
+E3-8	Guan Ware	Ceramics	Stoneware	0
+E3-9	Jun Ware	Ceramics	Stoneware	0
+E3-10	Jian Ware	Ceramics	Stoneware	1
+E3-11	Cizhou Ware	Ceramics	Stoneware	0
+E3-12	Yixing Ware	Ceramics	Stoneware	0
+E3-13	Goryeo Celadon	Ceramics	Stoneware	0
+E3-14	Buncheong	Ceramics	Stoneware	3
+E3-15	Seto Ware	Ceramics	Stoneware	4
+E3-16	Shino Ware	Ceramics	Stoneware	1
+E3-17	Oribe Ware	Ceramics	Stoneware	0
+E3-18	Bizen Ware	Ceramics	Stoneware	2
+E3-19	Shigaraki Ware	Ceramics	Stoneware	0
+E3-20	Iga Ware	Ceramics	Stoneware	0
+E3-21	Tamba Ware	Ceramics	Stoneware	0
+E3-22	Tokoname Ware	Ceramics	Stoneware	0
+E3-23	Echizen Ware	Ceramics	Stoneware	0
+E3-24	Karatsu Ware	Ceramics	Stoneware	0
+E3-25	Hagi Ware	Ceramics	Stoneware	1
+E3-26	Takatori Ware	Ceramics	Stoneware	0
+E3-27	Agano Ware	Ceramics	Stoneware	0
+E3-28	Kyō Ware	Ceramics	Stoneware	4
+E3-29	Onta Ware	Ceramics	Stoneware	1
+E3-30	Koishiwara Ware	Ceramics	Stoneware	1
+E3-31	Mumyōi Ware	Ceramics	Stoneware	1
+E3-32	Rhenish Stoneware	Ceramics	Stoneware	2
+E3-33	Banko Ware	Ceramics	Stoneware	1
+E3-34	Mino Ware	Ceramics	Stoneware	1
+E4-1	Bencharong	Ceramics	Porcelain	1
+E4-2	Ding Ware	Ceramics	Porcelain	1
+E4-3	Xing Ware	Ceramics	Porcelain	0
+E4-4	Qingbai Ware	Ceramics	Porcelain	0
+E4-5	Chinese Blue-and-White Porcelain	Ceramics	Porcelain	2
+E4-6	Doucai	Ceramics	Porcelain	1
+E4-7	Wucai	Ceramics	Porcelain	0
+E4-8	Famille Verte	Ceramics	Porcelain	2
+E4-9	Famille Rose	Ceramics	Porcelain	2
+E4-10	Jingdezhen Porcelain	Ceramics	Porcelain	5
+E4-11	Kraak Ware	Ceramics	Porcelain	1
+E4-12	Swatow Ware	Ceramics	Porcelain	0
+E4-13	Chinese Export Porcelain	Ceramics	Porcelain	7
+E4-14	Dehua Porcelain	Ceramics	Porcelain	2
+E4-15	Joseon White Porcelain	Ceramics	Porcelain	2
+E4-16	Arita Ware	Ceramics	Porcelain	4
+E4-17	Kakiemon	Ceramics	Porcelain	2
+E4-18	Nabeshima Ware	Ceramics	Porcelain	1
+E4-19	Hirado Ware	Ceramics	Porcelain	0
+E4-20	Kutani Ware	Ceramics	Porcelain	1
+E4-21	Limoges Porcelain	Ceramics	Porcelain	2
+E4-22	Gzhel	Ceramics	Porcelain	1
+E4-23	Meissen Porcelain	Ceramics	Porcelain	2
+E4-24	Sèvres Porcelain	Ceramics	Porcelain	2
+E4-25	Soft-Paste Porcelain	Ceramics	Porcelain	10
+E4-26	Hard-Paste Porcelain	Ceramics	Porcelain	16
+E4-27	Hasami Ware	Ceramics	Porcelain	1
+F1-1	Beykoz Glass	Glass	Blown & Moulded Glass	0
+F1-2	Syrian Glassblowing	Glass	Blown & Moulded Glass	1
+F1-3	Roman Glass	Glass	Blown & Moulded Glass	6
+F1-4	Hellenistic Glass	Glass	Blown & Moulded Glass	2
+F1-5	Venetian Glass	Glass	Blown & Moulded Glass	1
+F1-6	Art of Glass Beads	Glass	Blown & Moulded Glass	1
+F1-7	Czech Blown Glass Bead Christmas Decorations	Glass	Blown & Moulded Glass	1
+F1-8	Līvāni Glassblowing	Glass	Blown & Moulded Glass	1
+F1-9	Art Nouveau Glass	Glass	Blown & Moulded Glass	7
+F1-10	Studio Glass	Glass	Blown & Moulded Glass	23
+F1-11	Turkish Mosaic Lamp	Glass	Blown & Moulded Glass	1
+F1-12	Swedish Art Glass	Glass	Blown & Moulded Glass	1
+F1-13	Lauscha Glass	Glass	Blown & Moulded Glass	1
+F1-14	Edo Glass	Glass	Blown & Moulded Glass	2
+F1-15	Roman Micromosaic	Glass	Blown & Moulded Glass	1
+F1-16	Egyptian Hand-Blown Glass	Glass	Blown & Moulded Glass	1
+F2-1	Islamic Cut Glass	Glass	Cut & Carved Glass	0
+F2-2	Bohemian Glass	Glass	Cut & Carved Glass	1
+F2-3	Edo Kiriko	Glass	Cut & Carved Glass	1
+F3-1	Mamluk Enamelled Glass	Glass	Enamelled & Gilded Glass	0
+F4-1	Islamic Lustre-Painted Glass	Glass	Lustre-Painted Glass	0
+F5-1	Medieval Stained Glass	Glass	Stained Glass	5
+F5-2	Painted Glass Roundels	Glass	Stained Glass	2
+F5-3	Tiffany Glass	Glass	Stained Glass	8
+G1-1	Khurasan Metalwork	Metalwork, Arms & Jewellery	Metalwork	0
+G1-2	Mosul School of Metalwork	Metalwork, Arms & Jewellery	Metalwork	5
+G1-3	Mamluk Metalwork	Metalwork, Arms & Jewellery	Metalwork	2
+G1-4	Veneto-Saracenic Metalwork	Metalwork, Arms & Jewellery	Metalwork	2
+G1-5	Ottoman Tombak	Metalwork, Arms & Jewellery	Metalwork	0
+G1-6	Bidri Ware	Metalwork, Arms & Jewellery	Metalwork	3
+G1-7	Koftgari	Metalwork, Arms & Jewellery	Metalwork	1
+G1-8	Islamic Astrolabes	Metalwork, Arms & Jewellery	Metalwork	13
+G1-9	Firoozeh Koobi	Metalwork, Arms & Jewellery	Metalwork	1
+G1-10	Persian Metalwork	Metalwork, Arms & Jewellery	Metalwork	5
+G1-11	Sogdian Silver	Metalwork, Arms & Jewellery	Metalwork	1
+G1-12	Animal Style	Metalwork, Arms & Jewellery	Metalwork	2
+G1-13	Dong Son Drums	Metalwork, Arms & Jewellery	Metalwork	0
+G1-14	Burmese Silver	Metalwork, Arms & Jewellery	Metalwork	2
+G1-15	Chinese Ritual Bronzes	Metalwork, Arms & Jewellery	Metalwork	0
+G1-16	Ordos Bronzes	Metalwork, Arms & Jewellery	Metalwork	1
+G1-17	Yugi	Metalwork, Arms & Jewellery	Metalwork	1
+G1-18	Ipsa	Metalwork, Arms & Jewellery	Metalwork	1
+G1-19	Ethiopian Crosses	Metalwork, Arms & Jewellery	Metalwork	1
+G1-20	Akan Goldweights	Metalwork, Arms & Jewellery	Metalwork	4
+G1-21	Igbo-Ukwu Bronzes	Metalwork, Arms & Jewellery	Metalwork	1
+G1-22	Luristan Bronzes	Metalwork, Arms & Jewellery	Metalwork	0
+G1-23	Achaemenid Metalwork	Metalwork, Arms & Jewellery	Metalwork	0
+G1-24	Sasanian Silver	Metalwork, Arms & Jewellery	Metalwork	0
+G1-25	Etruscan Mirrors	Metalwork, Arms & Jewellery	Metalwork	2
+G1-26	Moche Metalwork	Metalwork, Arms & Jewellery	Metalwork	1
+G1-27	Sicán Metalwork	Metalwork, Arms & Jewellery	Metalwork	1
+G1-28	Chimú Metalwork	Metalwork, Arms & Jewellery	Metalwork	1
+G1-29	Inca Metalwork	Metalwork, Arms & Jewellery	Metalwork	1
+G1-30	Muisca Goldwork	Metalwork, Arms & Jewellery	Metalwork	1
+G1-31	Colonial Andean Silverwork	Metalwork, Arms & Jewellery	Metalwork	2
+G1-32	La Tène Art	Metalwork, Arms & Jewellery	Metalwork	1
+G1-33	Migration Period Art	Metalwork, Arms & Jewellery	Metalwork	10
+G1-34	Anglo-Saxon Metalwork	Metalwork, Arms & Jewellery	Metalwork	1
+G1-35	Viking Art	Metalwork, Arms & Jewellery	Metalwork	8
+G1-36	South Staffordshire Enamels	Metalwork, Arms & Jewellery	Metalwork	6
+G1-37	Ormolu	Metalwork, Arms & Jewellery	Metalwork	3
+G1-38	Kubachi Silver	Metalwork, Arms & Jewellery	Metalwork	2
+G1-39	Kasli Iron Casting	Metalwork, Arms & Jewellery	Metalwork	1
+G1-40	Finift	Metalwork, Arms & Jewellery	Metalwork	2
+G1-41	Hutsul Metalwork	Metalwork, Arms & Jewellery	Metalwork	2
+G1-42	Drotárstvo	Metalwork, Arms & Jewellery	Metalwork	1
+G1-43	Limoges Enamel	Metalwork, Arms & Jewellery	Metalwork	7
+G1-44	Augsburg Goldsmiths' Work	Metalwork, Arms & Jewellery	Metalwork	3
+G1-45	English Silver	Metalwork, Arms & Jewellery	Metalwork	11
+G1-46	Byzantine Enamel	Metalwork, Arms & Jewellery	Metalwork	3
+G1-47	Chinese Cloisonné	Metalwork, Arms & Jewellery	Metalwork	2
+G1-48	Japanese Cloisonné	Metalwork, Arms & Jewellery	Metalwork	4
+G1-49	Mosan Art	Metalwork, Arms & Jewellery	Metalwork	6
+G1-50	Jura Watchmaking	Metalwork, Arms & Jewellery	Metalwork	1
+G1-51	Black Forest Clockmaking	Metalwork, Arms & Jewellery	Metalwork	1
+G1-52	London Clockmaking	Metalwork, Arms & Jewellery	Metalwork	1
+G1-53	Glashütte Watchmaking	Metalwork, Arms & Jewellery	Metalwork	1
+G1-54	Comtoise Clockmaking	Metalwork, Arms & Jewellery	Metalwork	1
+G1-55	Mora Clockmaking	Metalwork, Arms & Jewellery	Metalwork	1
+G1-56	Wadokei	Metalwork, Arms & Jewellery	Metalwork	1
+G1-57	Vienna Regulator Clockmaking	Metalwork, Arms & Jewellery	Metalwork	1
+G1-58	Connecticut Clockmaking	Metalwork, Arms & Jewellery	Metalwork	1
+G1-59	Moroccan Metalwork	Metalwork, Arms & Jewellery	Metalwork	1
+G1-60	Nanbu Tekki	Metalwork, Arms & Jewellery	Metalwork	1
+G1-61	Solingen Cutlery	Metalwork, Arms & Jewellery	Metalwork	1
+G1-62	Thiers Cutlery	Metalwork, Arms & Jewellery	Metalwork	2
+G1-63	Uchihamono	Metalwork, Arms & Jewellery	Metalwork	6
+G1-64	Sheffield Cutlery	Metalwork, Arms & Jewellery	Metalwork	1
+G1-65	European Scientific Instruments	Metalwork, Arms & Jewellery	Metalwork	3
+G1-66	Nachiarkoil Lamps	Metalwork, Arms & Jewellery	Metalwork	1
+G1-67	Western Silversmithing	Metalwork, Arms & Jewellery	Metalwork	1
+G2-1	Islamic Arms and Armour	Metalwork, Arms & Jewellery	Arms & Armour	8
+G2-2	Kris	Metalwork, Arms & Jewellery	Arms & Armour	8
+G2-3	Japanese Swords	Metalwork, Arms & Jewellery	Arms & Armour	5
+G2-4	Japanese Sword Mountings	Metalwork, Arms & Jewellery	Arms & Armour	2
+G2-5	Milanese Armour	Metalwork, Arms & Jewellery	Arms & Armour	1
+G2-6	Puukko	Metalwork, Arms & Jewellery	Arms & Armour	1
+G2-7	Longquan Swords	Metalwork, Arms & Jewellery	Arms & Armour	1
+G2-8	Khukuri	Metalwork, Arms & Jewellery	Arms & Armour	1
+G2-9	Yumi	Metalwork, Arms & Jewellery	Arms & Armour	1
+G2-10	Gakgung	Metalwork, Arms & Jewellery	Arms & Armour	1
+G2-11	German Gothic Armour	Metalwork, Arms & Jewellery	Arms & Armour	1
+G2-12	Japanese Armour	Metalwork, Arms & Jewellery	Arms & Armour	1
+G3-1	Fatimid Jewellery	Metalwork, Arms & Jewellery	Jewellery	0
+G3-2	Mughal Jewellery	Metalwork, Arms & Jewellery	Jewellery	0
+G3-3	Bedouin Jewellery	Metalwork, Arms & Jewellery	Jewellery	0
+G3-4	Berber Jewellery	Metalwork, Arms & Jewellery	Jewellery	3
+G3-5	Javanese Gold Jewellery	Metalwork, Arms & Jewellery	Jewellery	2
+G3-6	Miao Silver Ornaments	Metalwork, Arms & Jewellery	Jewellery	1
+G3-7	Jangdo	Metalwork, Arms & Jewellery	Jewellery	1
+G3-8	Tairona Goldwork	Metalwork, Arms & Jewellery	Jewellery	3
+G3-9	Quimbaya Goldwork	Metalwork, Arms & Jewellery	Jewellery	4
+G3-10	Calima Goldwork	Metalwork, Arms & Jewellery	Jewellery	4
+G3-11	Tolima Goldwork	Metalwork, Arms & Jewellery	Jewellery	1
+G3-12	Isthmian Goldwork	Metalwork, Arms & Jewellery	Jewellery	7
+G3-13	Mixtec Goldwork	Metalwork, Arms & Jewellery	Jewellery	2
+G3-14	Mapuche Silverwork	Metalwork, Arms & Jewellery	Jewellery	1
+G3-15	Navajo Silverwork	Metalwork, Arms & Jewellery	Jewellery	2
+G3-16	Zuni Jewelry	Metalwork, Arms & Jewellery	Jewellery	1
+G3-17	Heishe	Metalwork, Arms & Jewellery	Jewellery	1
+G3-18	Trade Silver	Metalwork, Arms & Jewellery	Jewellery	1
+G3-19	Riji	Metalwork, Arms & Jewellery	Jewellery	1
+G3-20	Fabergé	Metalwork, Arms & Jewellery	Jewellery	2
+G3-21	Hairwork	Metalwork, Arms & Jewellery	Jewellery	2
+G3-22	Temple Jewellery	Metalwork, Arms & Jewellery	Jewellery	1
+G3-23	Thewa	Metalwork, Arms & Jewellery	Jewellery	1
+G3-24	Tarakasi	Metalwork, Arms & Jewellery	Jewellery	1
+G3-25	Hopi Silverwork	Metalwork, Arms & Jewellery	Jewellery	1
+G3-26	Taxco Silver	Metalwork, Arms & Jewellery	Jewellery	1
+G3-27	Kanzashi	Metalwork, Arms & Jewellery	Jewellery	1
+H1-1	Persian Carpet	Textiles, Carpets & Dress	Pile Carpets & Rugs	76
+H1-2	Anatolian Rug	Textiles, Carpets & Dress	Pile Carpets & Rugs	16
+H1-3	Mamluk Carpet	Textiles, Carpets & Dress	Pile Carpets & Rugs	1
+H1-4	Caucasian Carpet	Textiles, Carpets & Dress	Pile Carpets & Rugs	12
+H1-5	Turkmen Carpet	Textiles, Carpets & Dress	Pile Carpets & Rugs	8
+H1-6	Baluch Rug	Textiles, Carpets & Dress	Pile Carpets & Rugs	0
+H1-7	Afghan Rug	Textiles, Carpets & Dress	Pile Carpets & Rugs	3
+H1-8	Mughal Carpet	Textiles, Carpets & Dress	Pile Carpets & Rugs	1
+H1-9	Moroccan Rug	Textiles, Carpets & Dress	Pile Carpets & Rugs	1
+H1-10	Freest Fisherman's Carpets	Textiles, Carpets & Dress	Pile Carpets & Rugs	1
+H1-11	Ryijy	Textiles, Carpets & Dress	Pile Carpets & Rugs	1
+H1-12	Chinese Carpet	Textiles, Carpets & Dress	Pile Carpets & Rugs	1
+H1-13	Tibetan Rug	Textiles, Carpets & Dress	Pile Carpets & Rugs	1
+H1-14	Savonnerie Carpet	Textiles, Carpets & Dress	Pile Carpets & Rugs	1
+H2-1	Kilim	Textiles, Carpets & Dress	Flatweaves	8
+H2-2	Soumak	Textiles, Carpets & Dress	Flatweaves	0
+H2-3	Al Sadu	Textiles, Carpets & Dress	Flatweaves	0
+H2-4	Inca Textiles	Textiles, Carpets & Dress	Flatweaves	1
+H2-5	Wari Textiles	Textiles, Carpets & Dress	Flatweaves	1
+H2-6	Colonial Andean Tapestry	Textiles, Carpets & Dress	Flatweaves	2
+H2-7	Andean Textiles	Textiles, Carpets & Dress	Flatweaves	9
+H2-8	Taquile Textile Art	Textiles, Carpets & Dress	Flatweaves	1
+H2-9	Saltillo Serape	Textiles, Carpets & Dress	Flatweaves	1
+H2-10	Navajo Weaving	Textiles, Carpets & Dress	Flatweaves	1
+H2-11	Chilkat Weaving	Textiles, Carpets & Dress	Flatweaves	0
+H2-12	Coast Salish Weaving	Textiles, Carpets & Dress	Flatweaves	0
+H2-13	Chimayó Weaving	Textiles, Carpets & Dress	Flatweaves	1
+H2-14	Māori Weaving	Textiles, Carpets & Dress	Flatweaves	7
+H2-15	Ceinture Fléchée	Textiles, Carpets & Dress	Flatweaves	1
+H2-16	Raanu	Textiles, Carpets & Dress	Flatweaves	1
+H2-17	Chiprovtsi Kilim	Textiles, Carpets & Dress	Flatweaves	1
+H2-18	Pirot Kilim	Textiles, Carpets & Dress	Flatweaves	1
+H2-19	Sjenica-Pešter Kilim	Textiles, Carpets & Dress	Flatweaves	1
+H2-20	Stapar Rugs	Textiles, Carpets & Dress	Flatweaves	1
+H2-21	Kotsy	Textiles, Carpets & Dress	Flatweaves	2
+H2-22	Reshetylivka Carpets	Textiles, Carpets & Dress	Flatweaves	1
+H2-23	Romanian and Moldovan Wall Carpets	Textiles, Carpets & Dress	Flatweaves	1
+H3-1	Tiraz	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	0
+H3-2	Safavid Silk Textiles	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	0
+H3-3	Ottoman Silk Textiles	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	0
+H3-4	Nasrid Silk	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	0
+H3-5	Termeh	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	0
+H3-6	Kashmir Shawl	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-7	Banarasi Brocade	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-8	Jamdani	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	2
+H3-9	Kanchipuram Silk	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-10	Paithani	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-11	Songket	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	4
+H3-12	Lampung Ship Cloths	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	3
+H3-13	Piña	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	2
+H3-14	Inabel	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-15	Naga Motif Weaving in Lao Communities	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-16	Kesi	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-17	Zhuang Brocade	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-18	Li Textiles	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-19	Shuri Weaving	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-20	Bashōfu	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-21	Echigo-jōfu and Ojiya-chijimi	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-22	Hansan Mosi	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-23	Kente Cloth	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	2
+H3-24	Aso Oke	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-25	Akwete Cloth	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-26	Ivorian Loincloth Weaving	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-27	Coptic Textiles	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	0
+H3-28	Maya Textiles	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	8
+H3-29	Chancay Textiles	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-30	Flemish Tapestry	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	2
+H3-31	Aubusson Tapestry	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-32	Täkänä	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-33	Northern Vidzeme Double-Weave Blankets	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-34	Sigulda Belts	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-35	Bezdan Damask	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-36	Serpanok Weaving	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-37	Hlyniany Textile	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-38	Obukhovychi Weaving	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-39	Gobelins Tapestry	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	0
+H3-40	Beauvais Tapestry	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	0
+H3-41	Chanderi	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-42	Maheshwari	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-43	Mangalagiri	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-44	Tangaliya	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-45	Kasavu	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-46	Kota Doria	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-47	Nishijin-ori	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-48	Acheik	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-49	Shemma	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-50	Oaxacan Textiles	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-51	Tartan	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-52	Tweed	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-53	Faso Dan Fani	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-54	Welsh Tapestry	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-55	Trade Blankets	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	2
+H3-56	Peshtemal	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-57	Irish Linen	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H3-58	Basque Linen	Textiles, Carpets & Dress	Woven Silks & Figured Textiles	1
+H4-1	Suzani	Textiles, Carpets & Dress	Embroidery & Needlework	2
+H4-2	Ottoman Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-3	Palestinian Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	0
+H4-4	Pateh	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-5	Rasht Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	0
+H4-6	Oya	Textiles, Carpets & Dress	Embroidery & Needlework	0
+H4-7	Khayamiya	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-8	Balochi Needlework	Textiles, Carpets & Dress	Embroidery & Needlework	3
+H4-9	Phulkari	Textiles, Carpets & Dress	Embroidery & Needlework	2
+H4-10	Chikankari	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-11	Kantha	Textiles, Carpets & Dress	Embroidery & Needlework	2
+H4-12	Sujani	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-13	Ralli Quilt	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-14	Chakan	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-15	Khamak	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-16	Turkmen Needlework	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-17	Tapis	Textiles, Carpets & Dress	Embroidery & Needlework	3
+H4-18	Kalaga	Textiles, Carpets & Dress	Embroidery & Needlework	2
+H4-19	Tekat	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-20	Suzhou Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-21	Xiang Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-22	Shu Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-23	Cantonese Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	3
+H4-24	Gu Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-25	Korean Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-26	Bojagi	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-27	Sashiko	Textiles, Carpets & Dress	Embroidery & Needlework	3
+H4-28	Hmong Textile Art	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-29	Ainu Textiles	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-30	Kuba Raffia Textiles	Textiles, Carpets & Dress	Embroidery & Needlework	5
+H4-31	Asafo Flags	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-32	Paracas Textiles	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-33	Mola	Textiles, Carpets & Dress	Embroidery & Needlework	4
+H4-34	Arpillera	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-35	Drapo Vodou	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-36	Ñandutí	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-37	Divina Pastora Irish Lace	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-38	Seminole Patchwork	Textiles, Carpets & Dress	Embroidery & Needlework	0
+H4-39	Ribbonwork	Textiles, Carpets & Dress	Embroidery & Needlework	0
+H4-40	Moosehair Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	2
+H4-41	Star Quilts	Textiles, Carpets & Dress	Embroidery & Needlework	0
+H4-42	Tivaevae	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-43	Opus Anglicanum	Textiles, Carpets & Dress	Embroidery & Needlework	2
+H4-44	Bucks Point Lace	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-45	Bedfordshire Lace	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-46	Amish Quilts	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-47	Hooked Rugs	Textiles, Carpets & Dress	Embroidery & Needlework	2
+H4-48	Greek Island Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	5
+H4-49	Hardanger Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-50	Mountmellick Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-51	Arraiolos Rug	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-52	Bordados da Glória do Ribatejo	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-53	Alençon Lace	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-54	Burano Lace	Textiles, Carpets & Dress	Embroidery & Needlework	2
+H4-55	Lefkara Lace	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-56	Brussels Lace	Textiles, Carpets & Dress	Embroidery & Needlework	2
+H4-57	Mechlin Lace	Textiles, Carpets & Dress	Embroidery & Needlework	2
+H4-58	Quill Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-59	Honiton Lace	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-60	Le Puy Lace	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-61	Maltese Lace	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-62	Headford Lace	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-63	Carrickmacross Lace	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-64	Limerick Lace	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-65	Irish Crochet Lace	Textiles, Carpets & Dress	Embroidery & Needlework	2
+H4-66	Ukrainian Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	6
+H4-67	Rushnyk	Textiles, Carpets & Dress	Embroidery & Needlework	3
+H4-68	Belarusian Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	3
+H4-69	Chuvash Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-70	Mari Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-71	Karelian Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-72	Krestets Stitch	Textiles, Carpets & Dress	Embroidery & Needlework	2
+H4-73	Mstyora Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-74	Muhu Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-75	Matyó Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	2
+H4-76	Zmijanje Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-77	Macedonian Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-78	Kosovo-Style Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-79	Altiță	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-80	Syrian-Armenian Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-81	Armenian Needlelace	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-82	Tatar Leather Mosaic	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-83	Orenburg Shawl	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-84	Vologda Lace	Textiles, Carpets & Dress	Embroidery & Needlework	2
+H4-85	Yelets Lace	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-86	Rauma Lace	Textiles, Carpets & Dress	Embroidery & Needlework	2
+H4-87	Lace-Making in Heinämaa	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-88	Knipelēšana	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-89	Idrija Lace	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-90	Lacemaking in Croatia	Textiles, Carpets & Dress	Embroidery & Needlework	4
+H4-91	Venetian Lace	Textiles, Carpets & Dress	Embroidery & Needlework	3
+H4-92	Quilting	Textiles, Carpets & Dress	Embroidery & Needlework	10
+H4-93	Quilts of Gee's Bend	Textiles, Carpets & Dress	Embroidery & Needlework	0
+H4-94	Aran Knitting	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-95	Gansey Knitting	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-96	Fair Isle Knitting	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-97	Lopapeysa	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-98	Norwegian Knitting	Textiles, Carpets & Dress	Embroidery & Needlework	2
+H4-99	Cowichan Knitting	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-100	Sukajan	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-101	Nyonya Kebaya	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-102	Majboud Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-103	Hausa Embroidery	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-104	Crewelwork	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-105	Stumpwork	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H4-106	Berlin Wool Work	Textiles, Carpets & Dress	Embroidery & Needlework	1
+H5-1	Central Asian Ikat	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-2	Qalamkar	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-3	Indian Chintz	Textiles, Carpets & Dress	Dyed & Printed Textiles	2
+H5-4	Kalamkari	Textiles, Carpets & Dress	Dyed & Printed Textiles	3
+H5-5	Ajrakh	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-6	Bandhani	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-7	Leheriya	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-8	Patola	Textiles, Carpets & Dress	Dyed & Printed Textiles	2
+H5-9	Rogan Art	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-10	Indonesian Batik	Textiles, Carpets & Dress	Dyed & Printed Textiles	10
+H5-11	Malaysian Batik	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-12	Indonesian Ikat	Textiles, Carpets & Dress	Dyed & Printed Textiles	8
+H5-13	Geringsing	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-14	Tais	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-15	Pua Kumbu	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-16	T'nalak	Textiles, Carpets & Dress	Dyed & Printed Textiles	2
+H5-17	Telepuk	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-18	Yūzen	Textiles, Carpets & Dress	Dyed & Printed Textiles	2
+H5-19	Katazome	Textiles, Carpets & Dress	Dyed & Printed Textiles	4
+H5-20	Bingata	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-21	Tsutsugaki	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-22	Shibori	Textiles, Carpets & Dress	Dyed & Printed Textiles	2
+H5-23	Kasuri	Textiles, Carpets & Dress	Dyed & Printed Textiles	11
+H5-24	Bai Tie-Dye	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-25	Geumbak	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-26	Bògòlanfini	Textiles, Carpets & Dress	Dyed & Printed Textiles	3
+H5-27	Adire	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-28	Adinkra Cloth	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-29	Ndop Cloth	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-30	Kanga	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-31	Rebozo	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-32	Blaudruck	Textiles, Carpets & Dress	Dyed & Printed Textiles	4
+H5-33	Staphorster Stipwerk	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-34	Pavlovo Posad Shawl	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-35	Kelaghayi	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-36	African Wax Prints	Textiles, Carpets & Dress	Dyed & Printed Textiles	2
+H5-37	Khmer Silk Weaving	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-38	Shweshwe	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-39	Indian Ikat	Textiles, Carpets & Dress	Dyed & Printed Textiles	3
+H5-40	Rajasthani Block Printing	Textiles, Carpets & Dress	Dyed & Printed Textiles	1
+H5-41	Indiennes	Textiles, Carpets & Dress	Dyed & Printed Textiles	2
+H6-1	Kyrgyz and Kazakh Felt	Textiles, Carpets & Dress	Felt	2
+H7-1	Palestinian Costume	Textiles, Carpets & Dress	Dress & Costume	0
+H7-2	Ottoman Court Dress	Textiles, Carpets & Dress	Dress & Costume	0
+H7-3	Possum-Skin Cloak	Textiles, Carpets & Dress	Dress & Costume	1
+H7-4	Gákti	Textiles, Carpets & Dress	Dress & Costume	2
+H7-5	Bunad	Textiles, Carpets & Dress	Dress & Costume	2
+H7-6	Swedish Folk Costume	Textiles, Carpets & Dress	Dress & Costume	1
+H7-7	Tracht	Textiles, Carpets & Dress	Dress & Costume	4
+H7-8	Traditional Albanian Clothing	Textiles, Carpets & Dress	Dress & Costume	3
+H7-9	Croatian National Costume	Textiles, Carpets & Dress	Dress & Costume	1
+H7-10	Macedonian Traditional Clothing	Textiles, Carpets & Dress	Dress & Costume	1
+H7-11	Erzya Costume	Textiles, Carpets & Dress	Dress & Costume	1
+H7-12	Kimono	Textiles, Carpets & Dress	Dress & Costume	8
+H7-13	Basotho Blanket	Textiles, Carpets & Dress	Dress & Costume	1
+H7-14	Savile Row Tailoring	Textiles, Carpets & Dress	Dress & Costume	1
+H7-15	Neapolitan Tailoring	Textiles, Carpets & Dress	Dress & Costume	1
+H7-16	Qipao	Textiles, Carpets & Dress	Dress & Costume	1
+H7-17	Moroccan Caftan	Textiles, Carpets & Dress	Dress & Costume	1
+H7-18	Tlemcen Wedding Costume	Textiles, Carpets & Dress	Dress & Costume	1
+H7-19	Highland Dress	Textiles, Carpets & Dress	Dress & Costume	1
+H7-20	Pollera	Textiles, Carpets & Dress	Dress & Costume	1
+H8-1	Dumbara Mats	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-2	Noken	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	2
+H8-3	Daluang	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-4	Kumihimo	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-5	Maedeup	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-6	Chaesang	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-7	Wanchojang	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-8	Ugandan Barkcloth	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-9	Mbuti Barkcloth	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-10	Agaseke	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-11	Panama Hat	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-12	Pomo Basketry	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	4
+H8-13	California Indian Basketry	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	14
+H8-14	Spruce-Root Basketry	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	0
+H8-15	Unangan Grass Basketry	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	0
+H8-16	Plateau Cornhusk Bags	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	2
+H8-17	Plateau Imbricated Basketry	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	3
+H8-18	Apache Basketry	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-19	Pima Basketry	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	2
+H8-20	Hopi Basketry	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-21	Rivercane Basketry	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	6
+H8-22	Wabanaki Basketry	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	2
+H8-23	Birchbark Biting	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	0
+H8-24	Tapa Cloth	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	10
+H8-25	ʻIe Tōga	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	2
+H8-26	Aboriginal Fibre Art	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	6
+H8-27	Lalava	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-28	Sweetgrass Baskets	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-29	Panier de Mayun	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-30	Bastabinne	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-31	Birch-Bark Crafts	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	2
+H8-32	Shemogodsk Carving	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-33	Pärekori	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	2
+H8-34	Clubrush Work of Kruunupyy	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-35	Himmeli	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	2
+H8-36	Straw Weaving in Belarus	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-37	Turiisk Straw Plaiting	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-38	Iza Vine Weaving	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-39	Shchitky Reed Weaving	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-40	Wayuu Weaving	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-41	Kiondo	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-42	Skep	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H8-43	Nantucket Lightship Baskets	Textiles, Carpets & Dress	Basketry, Barkcloth & Fibre Arts	1
+H9-1	Zulu Beadwork	Textiles, Carpets & Dress	Beadwork, Quillwork & Featherwork	3
+H9-2	Maasai Beadwork	Textiles, Carpets & Dress	Beadwork, Quillwork & Featherwork	1
+H9-3	Yoruba Beadwork	Textiles, Carpets & Dress	Beadwork, Quillwork & Featherwork	0
+H9-4	Mexican Featherwork	Textiles, Carpets & Dress	Beadwork, Quillwork & Featherwork	1
+H9-5	Porcupine Quillwork	Textiles, Carpets & Dress	Beadwork, Quillwork & Featherwork	2
+H9-6	Plains Beadwork	Textiles, Carpets & Dress	Beadwork, Quillwork & Featherwork	3
+H9-7	Haudenosaunee Raised Beadwork	Textiles, Carpets & Dress	Beadwork, Quillwork & Featherwork	3
+H9-8	Wampum	Textiles, Carpets & Dress	Beadwork, Quillwork & Featherwork	0
+H9-9	Hawaiian Featherwork	Textiles, Carpets & Dress	Beadwork, Quillwork & Featherwork	0
+H9-10	Kahu Huruhuru	Textiles, Carpets & Dress	Beadwork, Quillwork & Featherwork	0
+H10-1	Jutti	Textiles, Carpets & Dress	Leatherwork	1
+H10-2	Western Leatherwork	Textiles, Carpets & Dress	Leatherwork	6
+H10-3	Moroccan Leatherwork	Textiles, Carpets & Dress	Leatherwork	2
+I1-1	Mashrabiya	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	2
+I1-2	Khatam	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	0
+I1-3	Ottoman Mother-of-Pearl Inlay	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	1
+I1-4	Palestinian Olive-Wood Carving	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	0
+I1-5	Islamic Woodwork	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	6
+I1-6	ʿAjami	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	1
+I1-7	Kondapalli Toys	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	1
+I1-8	Nirmal Toys	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	1
+I1-9	Malay Woodcarving	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	1
+I1-10	Yosegi-zaiku	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	1
+I1-11	Ainu Woodcarving	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	0
+I1-12	Hwagak	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	1
+I1-13	Mate Burilado	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	1
+I1-14	Bentwood Boxes	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	0
+I1-15	Fijian Clubs	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	1
+I1-16	Tramp Art	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	1
+I1-17	Abramtsevo-Kudrino Carving	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	2
+I1-18	Untsukul Inlay	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	1
+I1-19	Hutsul Wood Carving	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	2
+I1-20	Chernihiv Wood Carving	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	1
+I1-21	Konjic Woodcarving	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	1
+I1-22	Kuksa	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	1
+I1-23	Boulle Work	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	3
+I1-24	Essaouira Thuya Marquetry	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	1
+I1-25	Kashmir Walnut Wood Carving	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	1
+I1-26	Jepara Wood Carving	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	1
+I1-27	Magewappa	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	1
+I1-28	Tendō Shōgi Koma	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	1
+I1-29	Vardo	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	1
+I1-30	Danish Freehand Pipes	Woodwork, Lacquer & Furniture	Carved & Inlaid Woodwork	1
+I2-1	Persian Lacquer	Woodwork, Lacquer & Furniture	Lacquer	6
+I2-2	Kashmiri Papier-Mâché	Woodwork, Lacquer & Furniture	Lacquer	0
+I2-3	Edirnekâri	Woodwork, Lacquer & Furniture	Lacquer	2
+I2-4	Channapatna Toys	Woodwork, Lacquer & Furniture	Lacquer	1
+I2-5	Etikoppaka Toys	Woodwork, Lacquer & Furniture	Lacquer	1
+I2-6	Burmese Lacquerware	Woodwork, Lacquer & Furniture	Lacquer	8
+I2-7	Lai Rot Nam	Woodwork, Lacquer & Furniture	Lacquer	1
+I2-8	Carved Lacquer	Woodwork, Lacquer & Furniture	Lacquer	2
+I2-9	Maki-e	Woodwork, Lacquer & Furniture	Lacquer	1
+I2-10	Japanese Lacquerware	Woodwork, Lacquer & Furniture	Lacquer	8
+I2-11	Ryukyuan Lacquerware	Woodwork, Lacquer & Furniture	Lacquer	1
+I2-12	Najeonchilgi	Woodwork, Lacquer & Furniture	Lacquer	2
+I2-13	Yi Lacquerware	Woodwork, Lacquer & Furniture	Lacquer	1
+I2-14	Kintsugi	Woodwork, Lacquer & Furniture	Lacquer	1
+I2-15	Mexican Lacquerware	Woodwork, Lacquer & Furniture	Lacquer	5
+I2-16	Barniz de Pasto	Woodwork, Lacquer & Furniture	Lacquer	1
+I2-17	Khokhloma	Woodwork, Lacquer & Furniture	Lacquer	1
+I2-18	Palekh Miniature	Woodwork, Lacquer & Furniture	Lacquer	1
+I2-19	Fedoskino Miniature	Woodwork, Lacquer & Furniture	Lacquer	1
+I2-20	Mstyora Miniature	Woodwork, Lacquer & Furniture	Lacquer	1
+I2-21	Kholuy Miniature	Woodwork, Lacquer & Furniture	Lacquer	1
+I3-1	Soban	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	1
+I3-2	Queen Anne Style (furniture)	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	0
+I3-3	Chippendale Furniture	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	2
+I3-4	Hepplewhite Style	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	1
+I3-5	Sheraton Style	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	1
+I3-6	International Gothic (decorative arts)	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	7
+I3-7	Mannerism (decorative arts)	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	10
+I3-8	Louis XIV Style	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	4
+I3-9	Louis XV Style	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	13
+I3-10	Louis XVI Style	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	20
+I3-11	Empire Style	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	7
+I3-12	Biedermeier	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	27
+I3-13	Victorian Decorative Arts	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	42
+I3-14	Arts and Crafts Movement	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	55
+I3-15	Art Nouveau	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	81
+I3-16	Art Deco	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	153
+I3-17	Bauhaus	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	1
+I3-18	Mingei	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	22
+I3-19	Mid-Century Modern	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	434
+I3-20	Contemporary Design	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	259
+I3-21	Bezalel School	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	1
+I3-22	Shaker Furniture	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	2
+I3-23	Chinese Classical Furniture	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	1
+I3-24	Tansu	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	1
+I3-25	Bandaji	Woodwork, Lacquer & Furniture	Furniture & Decorative Arts Styles	1
+I4-1	Vanuatu Slit Gongs	Woodwork, Lacquer & Furniture	Musical Instruments	2
+I4-2	Spanish Guitar	Woodwork, Lacquer & Furniture	Musical Instruments	1
+I4-3	Djembe	Woodwork, Lacquer & Furniture	Musical Instruments	1
+I4-4	Mbira	Woodwork, Lacquer & Furniture	Musical Instruments	1
+I4-5	Violin Making	Woodwork, Lacquer & Furniture	Musical Instruments	4
+I4-6	Tanpura	Woodwork, Lacquer & Furniture	Musical Instruments	1
+I4-7	Saraswati Veena	Woodwork, Lacquer & Furniture	Musical Instruments	1
+I4-8	Celtic Harp	Woodwork, Lacquer & Furniture	Musical Instruments	2
+I4-9	Cimbalom	Woodwork, Lacquer & Furniture	Musical Instruments	1
+I4-10	Santur	Woodwork, Lacquer & Furniture	Musical Instruments	1
+I4-11	Appalachian Dulcimer	Woodwork, Lacquer & Furniture	Musical Instruments	1
+I4-12	Kantele	Woodwork, Lacquer & Furniture	Musical Instruments	1
+I4-13	Koto	Woodwork, Lacquer & Furniture	Musical Instruments	1
+I4-14	Guzheng	Woodwork, Lacquer & Furniture	Musical Instruments	1
+I4-15	Erhu	Woodwork, Lacquer & Furniture	Musical Instruments	1
+I4-16	Taus and Dilruba	Woodwork, Lacquer & Furniture	Musical Instruments	1
+I4-17	Sarangi	Woodwork, Lacquer & Furniture	Musical Instruments	1
+I4-18	Hardanger Fiddle	Woodwork, Lacquer & Furniture	Musical Instruments	1
+I4-19	Nyckelharpa	Woodwork, Lacquer & Furniture	Musical Instruments	1
+I4-20	Accordion	Woodwork, Lacquer & Furniture	Musical Instruments	2
+I4-21	Bagpipes	Woodwork, Lacquer & Furniture	Musical Instruments	2
+I4-22	Gagaku Instruments	Woodwork, Lacquer & Furniture	Musical Instruments	1
+I4-23	Mechanical Musical Instruments	Woodwork, Lacquer & Furniture	Musical Instruments	2
+J1-1	Modernist Photography	Photography	Photographic Schools & Movements	1
+J1-2	Street Photography	Photography	Photographic Schools & Movements	27
+J1-3	Photojournalism	Photography	Photographic Schools & Movements	42
+J1-4	Surrealist Photography	Photography	Photographic Schools & Movements	15
+J1-5	Fashion Photography	Photography	Photographic Schools & Movements	45
+J1-6	Düsseldorf School of Photography	Photography	Photographic Schools & Movements	12
+J1-7	Early Photography	Photography	Photographic Schools & Movements	400
+J1-8	Pictorialism	Photography	Photographic Schools & Movements	330
+J1-9	Straight Photography	Photography	Photographic Schools & Movements	512
+J1-10	New Vision	Photography	Photographic Schools & Movements	4
+J1-11	Humanistic Photography	Photography	Photographic Schools & Movements	5
+J1-12	Documentary Photography	Photography	Photographic Schools & Movements	654
+J1-13	Contemporary Photography	Photography	Photographic Schools & Movements	931
+K1-1	Umayyad Architecture	Architecture	Islamic Architecture	1
+K1-2	Abbasid Architecture	Architecture	Islamic Architecture	1
+K1-3	Fatimid Architecture	Architecture	Islamic Architecture	1
+K1-4	Moorish Architecture	Architecture	Islamic Architecture	16
+K1-5	Mudéjar Architecture	Architecture	Islamic Architecture	4
+K1-6	Seljuk Architecture	Architecture	Islamic Architecture	8
+K1-7	Anatolian Seljuk Architecture	Architecture	Islamic Architecture	4
+K1-8	Mamluk Architecture	Architecture	Islamic Architecture	2
+K1-9	Ilkhanid Architecture	Architecture	Islamic Architecture	2
+K1-10	Timurid Architecture	Architecture	Islamic Architecture	2
+K1-11	Safavid Architecture	Architecture	Islamic Architecture	0
+K1-12	Ottoman Architecture	Architecture	Islamic Architecture	12
+K1-13	Qajar Architecture	Architecture	Islamic Architecture	4
+K1-14	Indo-Islamic Architecture	Architecture	Islamic Architecture	5
+K1-15	Mughal Architecture	Architecture	Islamic Architecture	3
+K1-16	Sudano-Sahelian Architecture	Architecture	Islamic Architecture	4
+K1-17	Swahili Architecture	Architecture	Islamic Architecture	1
+K1-18	Chinese Islamic Architecture	Architecture	Islamic Architecture	0
+K1-19	Javanese Mosque Architecture	Architecture	Islamic Architecture	0
+K2-1	Moorish Revival Architecture	Architecture	Historicist & National Revivals	4
+K2-2	Neo-Mudéjar	Architecture	Historicist & National Revivals	1
+K2-3	Neo-Mamluk Architecture	Architecture	Historicist & National Revivals	2
+K2-4	First National Architectural Movement	Architecture	Historicist & National Revivals	7
+K2-5	Indo-Saracenic Architecture	Architecture	Historicist & National Revivals	0
+K2-6	Gothic Revival Architecture	Architecture	Historicist & National Revivals	77
+K2-7	Tudor Revival Architecture	Architecture	Historicist & National Revivals	17
+K2-8	Romanesque Revival Architecture	Architecture	Historicist & National Revivals	35
+K2-9	Neo-Byzantine Architecture	Architecture	Historicist & National Revivals	18
+K2-10	Renaissance Revival Architecture	Architecture	Historicist & National Revivals	68
+K2-11	Italianate Architecture	Architecture	Historicist & National Revivals	14
+K2-12	Second Empire Style	Architecture	Historicist & National Revivals	39
+K2-13	Baroque Revival Architecture	Architecture	Historicist & National Revivals	47
+K2-14	Greek Revival Architecture	Architecture	Historicist & National Revivals	20
+K2-15	Egyptian Revival Architecture	Architecture	Historicist & National Revivals	16
+K2-16	Beaux-Arts Architecture	Architecture	Historicist & National Revivals	27
+K2-17	Eclecticism in Architecture	Architecture	Historicist & National Revivals	85
+K2-18	Victorian Architecture	Architecture	Historicist & National Revivals	24
+K2-19	Queen Anne Style Architecture	Architecture	Historicist & National Revivals	14
+K2-20	Shingle Style Architecture	Architecture	Historicist & National Revivals	7
+K2-21	Colonial Revival Architecture	Architecture	Historicist & National Revivals	18
+K2-22	Spanish Colonial Revival Architecture	Architecture	Historicist & National Revivals	24
+K2-23	Mission Revival Architecture	Architecture	Historicist & National Revivals	7
+K2-24	Pueblo Revival Architecture	Architecture	Historicist & National Revivals	11
+K2-25	Mayan Revival Architecture	Architecture	Historicist & National Revivals	8
+K2-26	Neo-Manueline	Architecture	Historicist & National Revivals	3
+K2-27	Russian Revival Architecture	Architecture	Historicist & National Revivals	25
+K2-28	Russian Neoclassical Revival	Architecture	Historicist & National Revivals	15
+K2-29	Romanian Revival Architecture	Architecture	Historicist & National Revivals	3
+K2-30	National Romantic Style	Architecture	Historicist & National Revivals	43
+K2-31	Zakopane Style	Architecture	Historicist & National Revivals	6
+K2-32	Swiss Chalet Style	Architecture	Historicist & National Revivals	4
+K2-33	Federation Architecture	Architecture	Historicist & National Revivals	6
+K2-34	Rustic Architecture	Architecture	Historicist & National Revivals	15
+K3-1	Ancient Egyptian Architecture	Architecture	Ancient Mediterranean & Near Eastern Architecture	2
+K3-2	Architecture of Mesopotamia	Architecture	Ancient Mediterranean & Near Eastern Architecture	1
+K3-3	Achaemenid Architecture	Architecture	Ancient Mediterranean & Near Eastern Architecture	2
+K3-4	Parthian Architecture	Architecture	Ancient Mediterranean & Near Eastern Architecture	1
+K3-5	Sasanian Architecture	Architecture	Ancient Mediterranean & Near Eastern Architecture	1
+K3-6	Minoan Architecture	Architecture	Ancient Mediterranean & Near Eastern Architecture	1
+K3-7	Mycenaean Architecture	Architecture	Ancient Mediterranean & Near Eastern Architecture	2
+K3-8	Ancient Greek Architecture	Architecture	Ancient Mediterranean & Near Eastern Architecture	20
+K3-9	Etruscan Architecture	Architecture	Ancient Mediterranean & Near Eastern Architecture	1
+K3-10	Ancient Roman Architecture	Architecture	Ancient Mediterranean & Near Eastern Architecture	5
+K3-11	Nabataean Architecture	Architecture	Ancient Mediterranean & Near Eastern Architecture	1
+K4-1	Early Christian Architecture	Architecture	Medieval European Architecture	5
+K4-2	Byzantine Architecture	Architecture	Medieval European Architecture	6
+K4-3	Serbo-Byzantine Architecture	Architecture	Medieval European Architecture	4
+K4-4	Architecture of Kievan Rus'	Architecture	Medieval European Architecture	9
+K4-5	Armenian Architecture	Architecture	Medieval European Architecture	3
+K4-6	Architecture of Georgia	Architecture	Medieval European Architecture	1
+K4-7	Pre-Romanesque Architecture	Architecture	Medieval European Architecture	12
+K4-8	Carolingian Architecture	Architecture	Medieval European Architecture	3
+K4-9	Ottonian Architecture	Architecture	Medieval European Architecture	3
+K4-10	Romanesque Architecture	Architecture	Medieval European Architecture	33
+K4-11	Arab-Norman Architecture	Architecture	Medieval European Architecture	2
+K4-12	Moldavian Style	Architecture	Medieval European Architecture	1
+K4-13	Gothic Architecture	Architecture	Medieval European Architecture	160
+K5-1	Tudor Architecture	Architecture	Early Modern European & Colonial Architecture	7
+K5-2	Plateresque	Architecture	Early Modern European & Colonial Architecture	8
+K5-3	Manueline	Architecture	Early Modern European & Colonial Architecture	7
+K5-4	Herrerian Style	Architecture	Early Modern European & Colonial Architecture	5
+K5-5	Churrigueresque	Architecture	Early Modern European & Colonial Architecture	5
+K5-6	Rococo Architecture	Architecture	Early Modern European & Colonial Architecture	36
+K5-7	Uzorochye	Architecture	Early Modern European & Colonial Architecture	7
+K5-8	Brâncovenesc Style	Architecture	Early Modern European & Colonial Architecture	1
+K5-9	Palladian Architecture	Architecture	Early Modern European & Colonial Architecture	4
+K5-10	Georgian Architecture	Architecture	Early Modern European & Colonial Architecture	19
+K5-11	Empire Style	Architecture	Early Modern European & Colonial Architecture	13
+K5-12	Federal Architecture	Architecture	Early Modern European & Colonial Architecture	12
+K5-13	Pombaline Style	Architecture	Early Modern European & Colonial Architecture	3
+K5-14	Architecture of the Bulgarian Revival	Architecture	Early Modern European & Colonial Architecture	2
+K5-15	American Colonial Architecture	Architecture	Early Modern European & Colonial Architecture	7
+K5-16	Spanish Colonial Architecture	Architecture	Early Modern European & Colonial Architecture	13
+K5-17	Andean Baroque	Architecture	Early Modern European & Colonial Architecture	1
+K5-18	Portuguese Colonial Architecture	Architecture	Early Modern European & Colonial Architecture	3
+K5-19	French Colonial Architecture	Architecture	Early Modern European & Colonial Architecture	4
+K5-20	Dutch Colonial Architecture	Architecture	Early Modern European & Colonial Architecture	3
+K5-21	Cape Dutch Architecture	Architecture	Early Modern European & Colonial Architecture	5
+K5-22	Renaissance Architecture	Architecture	Early Modern European & Colonial Architecture	126
+K5-23	Baroque Architecture	Architecture	Early Modern European & Colonial Architecture	142
+K5-24	Neoclassical Architecture	Architecture	Early Modern European & Colonial Architecture	64
+K6-1	Arts and Crafts Architecture	Architecture	Modern & Contemporary Architecture	31
+K6-2	Chicago School	Architecture	Modern & Contemporary Architecture	8
+K6-3	Prairie School	Architecture	Modern & Contemporary Architecture	6
+K6-4	Czech Cubism	Architecture	Modern & Contemporary Architecture	20
+K6-5	Expressionist Architecture	Architecture	Modern & Contemporary Architecture	55
+K6-6	Futurist Architecture	Architecture	Modern & Contemporary Architecture	31
+K6-7	Art Deco Architecture	Architecture	Modern & Contemporary Architecture	36
+K6-8	Bauhaus Architecture	Architecture	Modern & Contemporary Architecture	9
+K6-9	International Style	Architecture	Modern & Contemporary Architecture	10
+K6-10	Constructivist Architecture	Architecture	Modern & Contemporary Architecture	15
+K6-11	Reform Architecture	Architecture	Modern & Contemporary Architecture	47
+K6-12	Traditionalist School	Architecture	Modern & Contemporary Architecture	35
+K6-13	Nordic Classicism	Architecture	Modern & Contemporary Architecture	13
+K6-14	Stripped Classicism	Architecture	Modern & Contemporary Architecture	14
+K6-15	Stalinist Architecture	Architecture	Modern & Contemporary Architecture	64
+K6-16	Fascist Architecture	Architecture	Modern & Contemporary Architecture	30
+K6-17	Nazi Architecture	Architecture	Modern & Contemporary Architecture	18
+K6-18	Mid-Century Modern Architecture	Architecture	Modern & Contemporary Architecture	23
+K6-19	High-tech Architecture	Architecture	Modern & Contemporary Architecture	23
+K6-20	New Classical Architecture	Architecture	Modern & Contemporary Architecture	13
+K6-21	Art Nouveau Architecture	Architecture	Modern & Contemporary Architecture	98
+K6-22	Modern Architecture	Architecture	Modern & Contemporary Architecture	507
+K6-23	Brutalist Architecture	Architecture	Modern & Contemporary Architecture	13
+K6-24	Postmodern Architecture	Architecture	Modern & Contemporary Architecture	40
+K6-25	Deconstructivism	Architecture	Modern & Contemporary Architecture	17
+K6-26	Contemporary Architecture	Architecture	Modern & Contemporary Architecture	208
+K7-1	Nagara Architecture	Architecture	South Asian Architecture	8
+K7-2	Kalinga Architecture	Architecture	South Asian Architecture	5
+K7-3	Maru-Gurjara Architecture	Architecture	South Asian Architecture	3
+K7-4	Dravidian Architecture	Architecture	South Asian Architecture	10
+K7-5	Vesara	Architecture	South Asian Architecture	6
+K7-6	Kerala Architecture	Architecture	South Asian Architecture	1
+K7-7	Bengal Temple Architecture	Architecture	South Asian Architecture	11
+K7-8	Buddhist Architecture	Architecture	South Asian Architecture	6
+K7-9	Indian Rock-cut Architecture	Architecture	South Asian Architecture	2
+K7-10	Sinhalese Architecture	Architecture	South Asian Architecture	5
+K7-11	Newar Architecture	Architecture	South Asian Architecture	3
+K7-12	Tibetan Buddhist Architecture	Architecture	South Asian Architecture	4
+K7-13	Dzong Architecture	Architecture	South Asian Architecture	1
+K7-14	Rajput Architecture	Architecture	South Asian Architecture	3
+K7-15	Stepwell	Architecture	South Asian Architecture	1
+K7-16	Sikh Architecture	Architecture	South Asian Architecture	1
+K7-17	Harappan Architecture	Architecture	South Asian Architecture	1
+K7-18	Haveli	Architecture	South Asian Architecture	1
+K7-19	Kashmiri Houseboat	Architecture	South Asian Architecture	1
+K7-20	Assam-type House	Architecture	South Asian Architecture	1
+K8-1	Chinese Architecture	Architecture	East Asian Architecture	8
+K8-2	Siheyuan	Architecture	East Asian Architecture	2
+K8-3	Yaodong	Architecture	East Asian Architecture	1
+K8-4	Hakka Walled Village	Architecture	East Asian Architecture	2
+K8-5	Hui-style Architecture	Architecture	East Asian Architecture	1
+K8-6	Lingnan Architecture	Architecture	East Asian Architecture	1
+K8-7	Hokkien Architecture	Architecture	East Asian Architecture	2
+K8-8	Sichuanese Architecture	Architecture	East Asian Architecture	1
+K8-9	Shikumen	Architecture	East Asian Architecture	1
+K8-10	Shinto Shrine Architecture	Architecture	East Asian Architecture	11
+K8-11	Japanese Buddhist Architecture	Architecture	East Asian Architecture	11
+K8-12	Shinden-zukuri	Architecture	East Asian Architecture	1
+K8-13	Shoin-zukuri	Architecture	East Asian Architecture	1
+K8-14	Sukiya-zukuri	Architecture	East Asian Architecture	4
+K8-15	Minka	Architecture	East Asian Architecture	6
+K8-16	Japanese Castle Architecture	Architecture	East Asian Architecture	1
+K8-17	Kofun	Architecture	East Asian Architecture	7
+K8-18	Ryukyuan Architecture	Architecture	East Asian Architecture	2
+K8-19	Giyōfū Architecture	Architecture	East Asian Architecture	4
+K8-20	Korean Architecture	Architecture	East Asian Architecture	3
+K8-21	Hanok	Architecture	East Asian Architecture	0
+K9-1	Khmer Architecture	Architecture	Southeast Asian Architecture	7
+K9-2	Candi Architecture	Architecture	Southeast Asian Architecture	4
+K9-3	Balinese Architecture	Architecture	Southeast Asian Architecture	2
+K9-4	Javanese Traditional House	Architecture	Southeast Asian Architecture	1
+K9-5	Burmese Architecture	Architecture	Southeast Asian Architecture	4
+K9-6	Thai Architecture	Architecture	Southeast Asian Architecture	6
+K9-7	Lao Architecture	Architecture	Southeast Asian Architecture	3
+K9-8	Cham Architecture	Architecture	Southeast Asian Architecture	2
+K9-9	Vietnamese Architecture	Architecture	Southeast Asian Architecture	1
+K9-10	Batak Architecture	Architecture	Southeast Asian Architecture	1
+K9-11	Bahay Kubo	Architecture	Southeast Asian Architecture	1
+K9-12	Bahay na Bato	Architecture	Southeast Asian Architecture	1
+K9-13	Sino-Portuguese Architecture	Architecture	Southeast Asian Architecture	1
+K9-14	Malay Traditional House	Architecture	Southeast Asian Architecture	1
+K10-1	Aksumite Architecture	Architecture	African Architecture	1
+K10-2	Ethiopian Rock-hewn Churches	Architecture	African Architecture	2
+K10-3	Gondarine Architecture	Architecture	African Architecture	1
+K10-4	Nubian Pyramids	Architecture	African Architecture	3
+K10-5	Great Zimbabwe	Architecture	African Architecture	4
+K10-6	Ksar	Architecture	African Architecture	2
+K10-7	Hausa Architecture	Architecture	African Architecture	1
+K11-1	Maya Architecture	Architecture	Indigenous American Architecture	6
+K11-2	Mesoamerican Architecture	Architecture	Indigenous American Architecture	7
+K11-3	Aztec Architecture	Architecture	Indigenous American Architecture	1
+K11-4	Inca Architecture	Architecture	Indigenous American Architecture	3
+K11-5	Andean Architecture	Architecture	Indigenous American Architecture	9
+K11-6	Ancestral Puebloan Architecture	Architecture	Indigenous American Architecture	4
+K11-7	Mound Builders	Architecture	Indigenous American Architecture	4
+K12-1	Wharenui	Architecture	Vernacular & Oceanic Architecture	0
+K12-2	Fale	Architecture	Vernacular & Oceanic Architecture	0
+K12-3	Maneaba	Architecture	Vernacular & Oceanic Architecture	0
+K12-4	Haus Tambaran	Architecture	Vernacular & Oceanic Architecture	0
+K12-5	Marae	Architecture	Vernacular & Oceanic Architecture	2
+K12-6	Nan Madol	Architecture	Vernacular & Oceanic Architecture	2
+K12-7	Chilotan Architecture	Architecture	Vernacular & Oceanic Architecture	1
+K12-8	British Vernacular Architecture	Architecture	Vernacular & Oceanic Architecture	7
+K12-9	German Vernacular Architecture	Architecture	Vernacular & Oceanic Architecture	6
+K12-10	Kulla	Architecture	Vernacular & Oceanic Architecture	1
+K12-11	Vainakh Tower Architecture	Architecture	Vernacular & Oceanic Architecture	1
+K12-12	Spanish Vernacular Architecture	Architecture	Vernacular & Oceanic Architecture	3
+K12-13	Italian Vernacular Architecture	Architecture	Vernacular & Oceanic Architecture	2
+K12-14	American Vernacular Architecture	Architecture	Vernacular & Oceanic Architecture	5
+K12-15	Nordic Log Architecture	Architecture	Vernacular & Oceanic Architecture	2
+K12-16	Swiss Farmhouse Architecture	Architecture	Vernacular & Oceanic Architecture	1
+K12-17	French Vernacular Architecture	Architecture	Vernacular & Oceanic Architecture	1
+K12-18	Cycladic Architecture	Architecture	Vernacular & Oceanic Architecture	1
+K12-19	Chattel House	Architecture	Vernacular & Oceanic Architecture	1
+K12-20	Queenslander	Architecture	Vernacular & Oceanic Architecture	1
+K13-1	Persian Garden	Architecture	Gardens & Designed Landscapes	1
+K13-2	Mughal Garden	Architecture	Gardens & Designed Landscapes	0
+K13-3	Chinese Garden	Architecture	Gardens & Designed Landscapes	2
+K13-4	Japanese Garden	Architecture	Gardens & Designed Landscapes	3
+K13-5	Italian Renaissance Garden	Architecture	Gardens & Designed Landscapes	3
+K13-6	French Formal Garden	Architecture	Gardens & Designed Landscapes	1
+K13-7	English Landscape Garden	Architecture	Gardens & Designed Landscapes	3
+K14-1	Bonsai	Architecture	Plant & Floral Arts	3
+K14-2	Penjing	Architecture	Plant & Floral Arts	1
+K14-3	Hòn Non Bộ	Architecture	Plant & Floral Arts	1
+K14-4	Ikebana	Architecture	Plant & Floral Arts	1
+L1-1	Bhimbetka Rock Paintings	Art in Place	Rock Art	2
+L1-2	Petroglyphs of the Mongolian Altai	Art in Place	Rock Art	2
+L1-3	Tamgaly Petroglyphs	Art in Place	Rock Art	2
+L1-4	Maros-Pangkep Cave Art	Art in Place	Rock Art	3
+L1-5	Sangkulirang-Mangkalihat Rock Art	Art in Place	Rock Art	3
+L1-6	Zuojiang Huashan Rock Art	Art in Place	Rock Art	1
+L1-7	Bangudae Petroglyphs	Art in Place	Rock Art	2
+L1-8	Fugoppe Cave	Art in Place	Rock Art	2
+L1-9	Helan Mountains Petroglyphs	Art in Place	Rock Art	2
+L1-10	Saharan Rock Art	Art in Place	Rock Art	5
+L1-11	San Rock Art	Art in Place	Rock Art	4
+L1-12	Sasanian Rock Reliefs	Art in Place	Rock Art	4
+L1-13	Hittite Rock Reliefs	Art in Place	Rock Art	1
+L1-14	Gobustan Rock Art	Art in Place	Rock Art	1
+L1-15	Rock Art in the Hail Region	Art in Place	Rock Art	3
+L1-16	Cueva de las Manos	Art in Place	Rock Art	1
+L1-17	Serra da Capivara Rock Art	Art in Place	Rock Art	2
+L1-18	Toro Muerto Petroglyphs	Art in Place	Rock Art	3
+L1-19	Chiribiquete Rock Paintings	Art in Place	Rock Art	1
+L1-20	Pecos River Style	Art in Place	Rock Art	2
+L1-21	Barrier Canyon Style	Art in Place	Rock Art	3
+L1-22	Chumash Rock Painting	Art in Place	Rock Art	3
+L1-23	Coso Rock Art	Art in Place	Rock Art	1
+L1-24	Writing-on-Stone Rock Art	Art in Place	Rock Art	1
+L1-25	Rock Paintings of the Sierra de San Francisco	Art in Place	Rock Art	2
+L1-26	Arnhem Land Rock Art	Art in Place	Rock Art	4
+L1-27	Gwion Gwion Rock Paintings	Art in Place	Rock Art	2
+L1-28	Murujuga Rock Art	Art in Place	Rock Art	1
+L1-29	Sydney Rock Engravings	Art in Place	Rock Art	1
+L1-30	Quinkan Rock Art	Art in Place	Rock Art	1
+L1-31	Panaramitee Style	Art in Place	Rock Art	1
+L1-32	Māori Rock Art	Art in Place	Rock Art	1
+L1-33	Franco-Cantabrian Cave Art	Art in Place	Rock Art	1
+L1-34	Côa Valley and Siega Verde Rock Art	Art in Place	Rock Art	1
+L1-35	Levantine Rock Art	Art in Place	Rock Art	1
+L1-36	Iberian Schematic Art	Art in Place	Rock Art	1
+L1-37	Cup and Ring Marks	Art in Place	Rock Art	1
+L1-38	Rock Carvings in Tanum	Art in Place	Rock Art	1
+L1-39	Rock Carvings at Alta	Art in Place	Rock Art	1
+L1-40	Petroglyphs of Lake Onega and the White Sea	Art in Place	Rock Art	1
+L1-41	Ural Pictograms	Art in Place	Rock Art	1
+L1-42	Rock Drawings in Valcamonica	Art in Place	Rock Art	1
+L2-1	Umayyad Wall Painting	Art in Place	Wall Painting	0
+L2-2	Persian Wall Painting	Art in Place	Wall Painting	0
+L2-3	Al-Qatt Al-Asiri	Art in Place	Wall Painting	0
+L2-4	Ajanta Paintings	Art in Place	Wall Painting	4
+L2-5	Sigiriya Frescoes	Art in Place	Wall Painting	1
+L2-6	Kerala Mural Painting	Art in Place	Wall Painting	1
+L2-7	Kandyan Period Painting	Art in Place	Wall Painting	1
+L2-8	Shekhawati Frescoes	Art in Place	Wall Painting	1
+L2-9	Pithora Painting	Art in Place	Wall Painting	1
+L2-10	Saura Painting	Art in Place	Wall Painting	1
+L2-11	Sohrai and Khovar Painting	Art in Place	Wall Painting	1
+L2-12	Rangoli	Art in Place	Wall Painting	4
+L2-13	Tibetan Buddhist Wall Paintings	Art in Place	Wall Painting	6
+L2-14	Dunhuang Murals	Art in Place	Wall Painting	3
+L2-15	Kizil Murals	Art in Place	Wall Painting	3
+L2-16	Bezeklik Murals	Art in Place	Wall Painting	2
+L2-17	Sogdian Wall Painting	Art in Place	Wall Painting	4
+L2-18	Bagan Murals	Art in Place	Wall Painting	3
+L2-19	Thai Mural Painting	Art in Place	Wall Painting	2
+L2-20	Yongle Palace Murals	Art in Place	Wall Painting	2
+L2-21	Takamatsuzuka Tomb Murals	Art in Place	Wall Painting	3
+L2-22	Goguryeo Tomb Murals	Art in Place	Wall Painting	1
+L2-23	Dancheong	Art in Place	Wall Painting	1
+L2-24	Ethiopian Church Painting	Art in Place	Wall Painting	2
+L2-25	Litema	Art in Place	Wall Painting	1
+L2-26	Ndebele House Painting	Art in Place	Wall Painting	0
+L2-27	Imigongo	Art in Place	Wall Painting	1
+L2-28	Egyptian Tomb Painting	Art in Place	Wall Painting	2
+L2-29	Minoan Wall Painting	Art in Place	Wall Painting	2
+L2-30	Etruscan Tomb Painting	Art in Place	Wall Painting	1
+L2-31	Ancient Greek Painting	Art in Place	Wall Painting	57
+L2-32	Pompeian Wall Painting	Art in Place	Wall Painting	5
+L2-33	Catacomb Painting	Art in Place	Wall Painting	3
+L2-34	Byzantine Wall Painting	Art in Place	Wall Painting	10
+L2-35	Faras Wall Paintings	Art in Place	Wall Painting	1
+L2-36	Maya Mural Painting	Art in Place	Wall Painting	4
+L2-37	Teotihuacan Mural Painting	Art in Place	Wall Painting	3
+L2-38	Cacaxtla Murals	Art in Place	Wall Painting	1
+L2-39	Moche Murals	Art in Place	Wall Painting	1
+L2-40	Mexican Muralism	Art in Place	Wall Painting	3
+L2-41	Chilean Muralism	Art in Place	Wall Painting	1
+L2-42	Murals of Revolutionary Nicaragua	Art in Place	Wall Painting	1
+L2-43	Romanesque Wall Painting	Art in Place	Wall Painting	4
+L2-44	Gothic Wall Painting	Art in Place	Wall Painting	4
+L2-45	Painted Churches of Northern Moldavia	Art in Place	Wall Painting	3
+L2-46	Scottish Renaissance Painted Ceilings	Art in Place	Wall Painting	1
+L2-47	Murals in Northern Ireland	Art in Place	Wall Painting	1
+L2-48	Samchyky Painting	Art in Place	Wall Painting	1
+L2-49	Illusionistic Ceiling Painting	Art in Place	Wall Painting	7
+L2-50	Italian Renaissance Fresco	Art in Place	Wall Painting	3
+L2-51	Street Art	Art in Place	Wall Painting	69
+L3-1	Umayyad Mosaics	Art in Place	Mosaic & Tile Revetment	1
+L3-2	Zellige	Art in Place	Mosaic & Tile Revetment	0
+L3-3	Moʿaraq (Cut-Tile Mosaic)	Art in Place	Mosaic & Tile Revetment	0
+L3-4	Kashi Kari	Art in Place	Mosaic & Tile Revetment	1
+L3-5	Aina-kari	Art in Place	Mosaic & Tile Revetment	1
+L3-6	Hellenistic Mosaics	Art in Place	Mosaic & Tile Revetment	2
+L3-7	Roman Mosaics	Art in Place	Mosaic & Tile Revetment	5
+L3-8	Byzantine Mosaics	Art in Place	Mosaic & Tile Revetment	9
+L3-9	Azulejo	Art in Place	Mosaic & Tile Revetment	3
+L3-10	Trencadís	Art in Place	Mosaic & Tile Revetment	1
+L3-11	Portuguese Pavement	Art in Place	Mosaic & Tile Revetment	1
+L3-12	Soviet Mosaics	Art in Place	Mosaic & Tile Revetment	1
+L4-1	Steppe Geoglyphs	Art in Place	Geoglyphs	1
+L4-2	Gozan no Okuribi	Art in Place	Geoglyphs	1
+L4-3	Nazca Lines	Art in Place	Geoglyphs	2
+L4-4	Pintados Geoglyphs	Art in Place	Geoglyphs	3
+L4-5	Acre Geoglyphs	Art in Place	Geoglyphs	1
+L4-6	Effigy Mounds	Art in Place	Geoglyphs	1
+L4-7	Blythe Intaglios	Art in Place	Geoglyphs	1
+L4-8	Hill Figures	Art in Place	Geoglyphs	1
+L5-1	Deq	Art in Place	Body Art	0
+L5-2	Godna	Art in Place	Body Art	3
+L5-3	Mehndi	Art in Place	Body Art	1
+L5-4	Sak Yant	Art in Place	Body Art	1
+L5-5	Mentawai Tattooing	Art in Place	Body Art	0
+L5-6	Batok	Art in Place	Body Art	1
+L5-7	Irezumi	Art in Place	Body Art	3
+L5-8	African Scarification	Art in Place	Body Art	2
+L5-9	Kakiniit	Art in Place	Body Art	1
+L5-10	Tā Moko	Art in Place	Body Art	1
+L5-11	Polynesian Tattooing	Art in Place	Body Art	4
+L5-12	Sailor Tattoos	Art in Place	Body Art	3
+L6-1	Sona	Art in Place	Floor & Sand Painting	1
+L6-2	Navajo Sandpainting	Art in Place	Floor & Sand Painting	0
+L6-3	Corpus Christi Flower Carpets	Art in Place	Floor & Sand Painting	1
+M1-1	Installation Art	New Media, Installation & Performance	Installation, Conceptual & Performance Art	278
+M1-2	Conceptual Art	New Media, Installation & Performance	Installation, Conceptual & Performance Art	64
+M1-3	Fluxus	New Media, Installation & Performance	Installation, Conceptual & Performance Art	38
+M1-4	Mail Art	New Media, Installation & Performance	Installation, Conceptual & Performance Art	31
+M1-5	Arte Povera	New Media, Installation & Performance	Installation, Conceptual & Performance Art	14
+M1-6	Land Art	New Media, Installation & Performance	Installation, Conceptual & Performance Art	18
+M1-7	Viennese Actionism	New Media, Installation & Performance	Installation, Conceptual & Performance Art	7
+M1-8	Performance Art	New Media, Installation & Performance	Installation, Conceptual & Performance Art	2
+M2-1	Generative Art	New Media, Installation & Performance	Video & New Media Art	16
+M2-2	Internet Art	New Media, Installation & Performance	Video & New Media Art	17
+M2-3	AI Art	New Media, Installation & Performance	Video & New Media Art	5
+M2-4	Video Art	New Media, Installation & Performance	Video & New Media Art	11
+M2-5	New Media Art	New Media, Installation & Performance	Video & New Media Art	135
