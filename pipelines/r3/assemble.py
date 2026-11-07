@@ -161,11 +161,20 @@ def build_ft(src, tree, partial, report):
     for b, o in outs.items():
         for s in o["L"]["subs"]:
             subs[s["code"]] = s
+    OV = {r["id"]: r for r in csv.DictReader(open(os.path.join(R3, "overrides.csv")))}
+    b16_ids = {a["id"] for o in outs.values() for a in o["AD"] if a["id"]}
+    web_extra = []
     rows = collections.defaultdict(list); old2new = collections.defaultdict(collections.Counter); routed = []
     for b, o in outs.items():
         for a in o["A"]:
             r = ins[b].get(a["id"])
             if r is None: continue
+            ov = OV.get(a["id"])
+            if ov:
+                if ov["action"] == "web":
+                    web_extra.append(dict(id=r["id"], title=r["title"], year=r["year"], who=r["who"], old_leaf=r["old_leaf"], reason=ov["reason"])); continue
+                if ov["action"] == "to_b16" and a["id"] in b16_ids: continue
+                a = dict(a, route=ov["target"] or "B16")
             if a.get("route", "").strip():
                 routed.append((a, r)); continue
             rows[a["leaf"]].append([r["title"], r["year"], r["who"], a.get("see_also", "").strip(), (a.get("note") or "").strip(),
@@ -186,7 +195,15 @@ def build_ft(src, tree, partial, report):
         lf = max(cand)[1]
         rows[lf].append([r["title"], r["year"], r["who"], "", (a.get("note") or "routed").strip(), r["id"], r["movement_tag"], r["kind"], ""])
         old2new[r["old_leaf"]][lf] += 1
-    report["ft_routed"] = len(routed)
+    report["ft_routed"] = len(routed); report["ft_web_override"] = len(web_extra)
+    if web_extra:
+        with open(os.path.join(R3, "web_series_removed.csv"), "a", newline="") as fo:
+            w = csv.DictWriter(fo, fieldnames=["id", "title", "year", "who", "old_leaf", "reason"])
+            known = {x["id"] for x in csv.DictReader(open(os.path.join(R3, "web_series_removed.csv")))}
+            w.writerows([x for x in web_extra if x["id"] not in known])
+    # leaves left empty by the overrides (e.g. Web Animation, Television Special) are dropped
+    for sc, s in subs.items():
+        s["leaves"] = [l for l in s["leaves"] if rows.get(l["code"]) or not any(OV.get(a["id"]) for o in outs.values() for a in o["A"] if a.get("leaf") == l["code"])]
     leafmap = {o: c.most_common(1)[0][0] for o, c in old2new.items()}
     # see-also from S2 (old codes) on unrouted rows is replaced by the block's own; leave as given
     fams = []
