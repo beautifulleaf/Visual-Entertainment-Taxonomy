@@ -25,3 +25,9 @@ Decided 2026-11-07 at the owner's request ("solidly decide where is the line bet
 - FT A15 Erotic Film keeps Erotic Drama, Erotic Thriller, Softcore, Sexploitation, Pornochanchada and **Pink Film / Roman Porno** (theatrical softcore with a critical canon; the coverage pass fills it, including the 2016 Roman Porno Reboot with *Antiporno*).
 - The pornographic-film and hentai leaves stay out (S1); their finder rows point to the Pleasure Taxonomies.
 - VA: explicit traditions made in the art or mainstream circuit stay with their tradition (shunga under Ukiyo-e; erotic temple sculpture under its temple style; erotic Attic vase painting under its workshop), each kind or leaf noting the EP finder row where relevant.
+
+## Owner decision, 2026-11-07 (TSPDT adult titles)
+- **Model A stays** (exclusive, one home per work by explicitness × circuit). Of the 61 TSPDT Starting List titles set aside, the owner agreed with the web, game and non-film exclusions; for the adult films the owner chose A, with a change on the Pleasure side:
+- **The Pleasure Taxonomies drop B16's "no titles" clause** so that the visual-pornography portion (II-K-1, II-K-11 to II-K-15) can be fully mapped; its named entries are **directors and studios** (photographers, publishers, artists, labels, platforms), not individual titles.
+- A draft of that portion and the boundary record are prepared in this repo (`taxonomy/seams/s4_visual_pornography/`) and applied in the Pleasure repository afterwards.
+- Corrections to the TSPDT set-aside list: Most Dangerous Game (Quibi, subscription streaming) and Ylen Tietoiskut (broadcast TV) are television; Second Date and The Elegant Spanking were made for the art/festival circuit and stay in VE (S3).
