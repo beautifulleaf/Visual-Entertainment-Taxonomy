@@ -34,3 +34,4 @@ To do at assembly:
 - Done: sitcom eras (B8-1 Family, B8-5 Hangout, B8-9 Character Comedy re-sectioned by attested US/UK eras; 315 titles). Broad City web original (tt1948541) out by override.
 - Owner: yes to Workplace Comedy (B8-3) by era — pass running (adds to coverage_out/sitcom_eras/resections.json).
 - Done VA: small_E (Ceramics: 4,112 kinds; 2,939 rule-based works; Bubnivka and Oleshnia still empty).
+- Done: Workplace Comedy B8-3 by era (12 sections, 197 titles; script kept as coverage_out/sitcom_eras/build_b83.py). Family Sitcom 1970 titles moved to the relevancy-era section (era starts 1970, as in B8-3).
