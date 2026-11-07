@@ -1,0 +1,971 @@
+{
+ "subs": [
+  {
+   "code": "C12",
+   "label": "Animated Feature",
+   "axis": "Axis: by the studio canon, production mode or tradition the feature belongs to (studio canons first, then franchise modes, national traditions, technique and auteur/adult cinema last)",
+   "leaves": [
+    {
+     "code": "C12-1",
+     "label": "Disney Animated Canon",
+     "breadth": "medium",
+     "defn": "A theatrical feature produced by Walt Disney Animation Studios and counted in its official canon, hand-drawn or computer-animated (<i>Snow White and the Seven Dwarfs</i>, <i>The Lion King</i>, <i>Frozen</i>). Disney direct-to-video sequels go to C12-10; Pixar to C12-3.",
+     "aliases": "Walt Disney Animation Studios features; Disney classics",
+     "see": "C12-3 Pixar Films; C12-10 Direct-to-Video Animated Feature",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_films",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Disney_Renaissance",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by era of the canon, in order",
+     "secs": [
+      "Golden Age (1937–1942)",
+      "Wartime Package Films (1942–1949)",
+      "Silver Age (1950–1967)",
+      "Bronze Age (1970–1988)",
+      "Disney Renaissance (1989–1999)",
+      "Post-Renaissance Era (2000–2009)",
+      "Revival Era (2010– )"
+     ]
+    },
+    {
+     "code": "C12-2",
+     "label": "Traditional Animated Feature",
+     "breadth": "broad",
+     "defn": "A hand-drawn (cel) theatrical feature from an English-language studio other than Disney (<i>The Secret of NIMH</i>, <i>Watership Down</i>, <i>The Iron Giant</i>). European and other auteur hand-drawn features go to C12-18.",
+     "aliases": "hand-drawn animation; cel animation; classical animation",
+     "see": "C12-1 Disney Animated Canon; C12-18 Arthouse Animation",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Traditional_animation",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Don_Bluth",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by producing tradition",
+     "secs": [
+      "American Features of the 1960s–1980s",
+      "British Hand-Drawn Features",
+      "Don Bluth Films",
+      "Studio Rivals of the Disney Renaissance and After"
+     ]
+    },
+    {
+     "code": "C12-3",
+     "label": "Pixar Films",
+     "breadth": "narrow",
+     "defn": "A feature produced by Pixar Animation Studios (<i>Toy Story</i>, <i>WALL·E</i>, <i>Inside Out</i>, <i>Coco</i>). Pixar short films go to C14-2.",
+     "aliases": "Pixar Animation Studios features",
+     "see": "C12-1 Disney Animated Canon; C14-2 Pixar Short Films",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/List_of_Pixar_films",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C12-4",
+     "label": "DreamWorks Animation",
+     "breadth": "medium",
+     "defn": "A feature produced by DreamWorks Animation, from its hand-drawn epics to its computer-animated franchises (<i>The Prince of Egypt</i>, <i>Shrek</i>, <i>Kung Fu Panda</i>, <i>How to Train Your Dragon</i>). DreamWorks shorts and specials go to C14.",
+     "aliases": "DreamWorks features; PDI/DreamWorks",
+     "see": "C12-5 Computer-Animated Family Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/DreamWorks_Animation",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/List_of_DreamWorks_Animation_productions",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the film's engine or franchise",
+     "secs": [
+      "Hand-Drawn Epics",
+      "Shrek & Fairy-Tale Parody",
+      "Talking-Animal Comedies",
+      "Fantasy & Adventure Franchises",
+      "High-Concept Comedies & Musicals"
+     ]
+    },
+    {
+     "code": "C12-5",
+     "label": "Computer-Animated Family Film",
+     "breadth": "broad",
+     "defn": "A computer-animated family feature from a Hollywood or American studio other than Disney, Pixar and DreamWorks (<i>Despicable Me</i>, <i>Ice Age</i>, <i>Cloudy with a Chance of Meatballs</i>, <i>The Lego Movie</i>). European, Latin American and Asian mainstream features go to C12-7; motion-capture films to C12-6.",
+     "aliases": "CGI family film; CG animated comedy",
+     "see": "C12-4 DreamWorks Animation; C12-6 Performance-Capture Animation; C12-7 International Family Animated Feature",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Computer-animated_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Illumination_(company)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Blue_Sky_Studios",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by producing studio",
+     "secs": [
+      "Illumination",
+      "Blue Sky Studios",
+      "Sony Pictures Animation",
+      "Warner Bros. CG Features & Lego Films",
+      "Paramount, Nickelodeon & Other Major-Studio Features",
+      "Independent & Low-Budget American CG",
+      "Streaming-Era Originals"
+     ]
+    },
+    {
+     "code": "C12-6",
+     "label": "Performance-Capture Animation",
+     "breadth": "narrow",
+     "defn": "A feature animated from motion- or performance-captured actors rather than keyframed (<i>The Polar Express</i>, <i>Beowulf</i>, <i>The Adventures of Tintin</i>). Rotoscoped films go to C12-17.",
+     "aliases": "mocap animation; performance capture",
+     "see": "C12-17 Rotoscoped Feature; C12-5 Computer-Animated Family Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Motion_capture",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Robert_Zemeckis",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C12-7",
+     "label": "International Family Animated Feature",
+     "breadth": "broad",
+     "defn": "A mainstream family feature (mostly computer-animated) from a European, Latin American, African or Asian studio outside the auteur circuit (<i>Arthur and the Invisibles</i>, <i>Planet 51</i>, <i>Mavka: The Forest Song</i>, <i>BoBoiBoy: The Movie</i>). Festival auteur features go to C12-18; Chinese features to C12-14.",
+     "aliases": "European animation; Latin American animation",
+     "see": "C12-18 Arthouse Animation; C12-14 Chinese Animation",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Animation_in_the_United_Kingdom",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Malaysian_animation",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Cinema_of_Europe",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by region of production",
+     "secs": [
+      "French, Belgian & British",
+      "Nordic, Central & Southern European",
+      "Russian & Ukrainian",
+      "Latin American",
+      "African & Asian"
+     ]
+    },
+    {
+     "code": "C12-8",
+     "label": "Live-Action/Animated Film",
+     "breadth": "narrow",
+     "defn": "A feature combining live-action footage with animated characters, including photoreal 'live-action' remakes made wholly in CG (<i>Who Framed Roger Rabbit</i>, <i>Space Jam</i>, <i>Cool World</i>, <i>The Lion King</i> (2019)).",
+     "aliases": "hybrid film; live-action/animation",
+     "see": "C12-5 Computer-Animated Family Film; C12-1 Disney Animated Canon",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Live-action_animated_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C12-9",
+     "label": "Television Spin-off Feature",
+     "breadth": "medium",
+     "defn": "A feature (theatrical, streaming or TV movie) continuing the cast and world of a specific animated series (<i>The Simpsons Movie</i>, <i>The SpongeBob SquarePants Movie</i>, <i>South Park: Bigger, Longer & Uncut</i>, <i>Futurama: Bender's Big Score</i>). Scooby-Doo films go to C12-10; DC and Marvel films to C12-12.",
+     "aliases": "series film; TV movie spin-off",
+     "see": "C12-10 Direct-to-Video Animated Feature; C13-7 Nicktoons",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Spin-off_(media)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Nicktoons",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the series' network or audience",
+     "secs": [
+      "Nicktoons Features",
+      "Disney Television Features",
+      "Cartoon Network Features",
+      "Prime-Time & Adult Series Features",
+      "Action & Fantasy Series Features"
+     ]
+    },
+    {
+     "code": "C12-10",
+     "label": "Direct-to-Video Animated Feature",
+     "breadth": "medium",
+     "defn": "A feature made for home video (later streaming) as a sequel to a theatrical film or as an entry of a long-running franchise (<i>The Return of Jafar</i>, <i>Tinker Bell</i>, <i>Scooby-Doo on Zombie Island</i>, <i>The Land Before Time II</i>).",
+     "aliases": "DTV feature; Disney sequels; DisneyToon",
+     "see": "C12-1 Disney Animated Canon; C12-9 Television Spin-off Feature",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Direct-to-video",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/DisneyToon_Studios",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by franchise",
+     "secs": [
+      "Disney Direct-to-Video Sequels",
+      "Disney Fairies & Planes",
+      "Scooby-Doo Films",
+      "Other Franchise Sequels & TV Films"
+     ]
+    },
+    {
+     "code": "C12-11",
+     "label": "Toy-Based Film",
+     "breadth": "medium",
+     "defn": "A feature produced to extend a toy or doll line (<i>Barbie in the Nutcracker</i>, <i>Monster High: Ghouls Rule!</i>, <i>Bionicle: Mask of Light</i>, <i>My Little Pony: Equestria Girls</i>). Theatrical Lego films go to C12-5.",
+     "aliases": "Barbie films; toy-line films",
+     "see": "C12-10 Direct-to-Video Animated Feature; C13-12 Toy-Based Animated Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Barbie_(film_series)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Monster_High",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by toy line",
+     "secs": [
+      "Barbie Fairy-Tale & Princess Films",
+      "Barbie Fairy & Mermaid Films",
+      "Barbie Contemporary Adventures",
+      "Monster High & Ever After High",
+      "Other Toy-Line Films"
+     ]
+    },
+    {
+     "code": "C12-12",
+     "label": "Superhero Animated Feature",
+     "breadth": "medium",
+     "defn": "An animated feature whose protagonists are comic-book superheroes, chiefly DC and Marvel (<i>Batman: Mask of the Phantasm</i>, <i>Batman: Under the Red Hood</i>, <i>Justice League: The Flashpoint Paradox</i>, <i>Spider-Man: Into the Spider-Verse</i>). Superhero comedies of a studio canon (<i>The Incredibles</i>) stay with C12-3.",
+     "aliases": "DC Universe Animated Original Movies; DCAU films",
+     "see": "C13-11 Superhero Animated Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/DC_Universe_Animated_Original_Movies",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Superhero_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by franchise",
+     "secs": [
+      "DC Animated Universe Films",
+      "Batman Films",
+      "Superman, Wonder Woman & Green Lantern Films",
+      "Justice League & Team Films",
+      "Marvel & Spider-Verse Features"
+     ]
+    },
+    {
+     "code": "C12-13",
+     "label": "Franco-Belgian Comics Adaptation",
+     "breadth": "narrow",
+     "defn": "An animated feature adapting a <i>bande dessinée</i> or Spanish <i>historieta</i> series (<i>Asterix the Gaul</i>, <i>The Twelve Tasks of Asterix</i>, <i>Seven Crystal Balls and the Prisoners of the Sun</i>). Sony's Smurfs films stay in C12-5.",
+     "aliases": "bande dessinée films; Asterix films",
+     "see": "C12-18 Arthouse Animation; C12-7 International Family Animated Feature",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Franco-Belgian_comics",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Asterix",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C12-14",
+     "label": "Chinese Animation",
+     "breadth": "narrow",
+     "defn": "A feature from the Chinese animation tradition (<i>donghua</i>), from the Shanghai Animation Film Studio classics to the 2010s revival (<i>Havoc in Heaven</i>, <i>Big Fish & Begonia</i>, <i>Ne Zha</i>).",
+     "aliases": "donghua; 中国动画",
+     "see": "C12-7 International Family Animated Feature",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Chinese_animation",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Shanghai_Animation_Film_Studio",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C12-15",
+     "label": "Faith-Based Animated Film",
+     "breadth": "narrow",
+     "defn": "An animated feature made to retell scripture or religious narrative for devotional audiences (<i>The Star</i>, <i>The King of Kings</i>, <i>Mahavatar Narsimha</i>). DreamWorks' <i>The Prince of Egypt</i> stays in C12-4.",
+     "aliases": "Christian animation; Bible animation; devotional film",
+     "see": "C12-4 DreamWorks Animation",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Christian_film_industry",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C12-16",
+     "label": "Stop-Motion Feature",
+     "breadth": "medium",
+     "defn": "A feature animated frame by frame with puppets, clay, cut-outs or objects (<i>The Nightmare Before Christmas</i>, <i>Chicken Run</i>, <i>Coraline</i>, <i>My Life as a Zucchini</i>).",
+     "aliases": "puppet film; claymation; cut-out animation",
+     "see": "C14-6 Stop-Motion & Puppet Short; C12-18 Arthouse Animation",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Stop-motion_animation",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Laika_(company)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Aardman_Animations",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by studio tradition",
+     "secs": [
+      "Puppet & Silhouette Pioneers",
+      "Aardman Features",
+      "Selick & Burton Gothic",
+      "Laika",
+      "American & Australian Auteur Stop-Motion",
+      "European & Latin American Auteur Stop-Motion"
+     ]
+    },
+    {
+     "code": "C12-17",
+     "label": "Rotoscoped Feature",
+     "breadth": "narrow",
+     "defn": "A feature animated by tracing or painting over live-action footage (<i>Waking Life</i>, <i>A Scanner Darkly</i>, <i>Loving Vincent</i>, Bakshi's <i>The Lord of the Rings</i>).",
+     "aliases": "rotoscope; interpolated rotoscope; painted animation",
+     "see": "C12-6 Performance-Capture Animation; C12-19 Adult Animation",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Rotoscoping",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C12-18",
+     "label": "Arthouse Animation",
+     "breadth": "broad",
+     "defn": "An auteur-driven animated feature made for the festival and art-cinema circuit, usually outside the US studio system (<i>The Triplets of Belleville</i>, <i>The Secret of Kells</i>, <i>Persepolis</i>, <i>Flow</i>). Stop-motion auteur features go to C12-16; mainstream European family films to C12-7.",
+     "aliases": "auteur animation; independent animation; European animation",
+     "see": "C12-16 Stop-Motion Feature; C12-7 International Family Animated Feature",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Independent_animation",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Cartoon_Saloon",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Art_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by national tradition",
+     "secs": [
+      "French & Belgian Auteur Animation",
+      "Cartoon Saloon & British Arthouse",
+      "Central & Eastern European",
+      "Iberian & Latin American",
+      "North American, Israeli & South Asian Independent"
+     ]
+    },
+    {
+     "code": "C12-19",
+     "label": "Adult Animation",
+     "breadth": "medium",
+     "defn": "An animated feature made for adults through explicit sex, violence or transgressive comedy (<i>Fritz the Cat</i>, <i>Heavy Metal</i>, <i>Sausage Party</i>, <i>The Witcher: Nightmare of the Wolf</i>). Adult auteur features go to C12-18; adult series features to C12-9.",
+     "aliases": "adult animated film; X-rated animation",
+     "see": "C12-18 Arthouse Animation; C12-17 Rotoscoped Feature",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Adult_animation",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Ralph_Bakshi",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the adult engine",
+     "secs": [
+      "Underground & Countercultural Features",
+      "Adult Animated Comedy",
+      "Adult Fantasy, Horror & Action"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "C13",
+   "label": "Animated Series",
+   "axis": "Axis: by format and audience (prime-time and adult first, then network-canon children's comedy, action genres, national traditions and preschool last)",
+   "leaves": [
+    {
+     "code": "C13-1",
+     "label": "Animated Sitcom",
+     "breadth": "broad",
+     "defn": "A situation comedy in animated form built on a fixed household, workplace or ensemble (<i>The Simpsons</i>, <i>King of the Hill</i>, <i>Futurama</i>, <i>Daria</i>). Adult Swim-style absurdist or shock comedy goes to C13-2; network-canon children's comedies to C13-7–C13-9.",
+     "aliases": "adult animated sitcom; prime-time animation",
+     "see": "C13-2 Adult Animated Comedy; B8 Comedy Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Animated_sitcom",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by setting and comic engine",
+     "secs": [
+      "Prime-Time Family Sitcom",
+      "Workplace & Ensemble Sitcom",
+      "Teen & Coming-of-Age Sitcom",
+      "Science-Fiction & Fantasy Sitcom",
+      "Anthropomorphic Tragicomedy",
+      "Children's & Teen Sitcom"
+     ]
+    },
+    {
+     "code": "C13-2",
+     "label": "Adult Animated Comedy",
+     "breadth": "medium",
+     "defn": "An animated comedy series for adults whose engine is parody, absurdism or shock rather than the sitcom household (<i>Aqua Teen Hunger Force</i>, <i>Robot Chicken</i>, <i>South Park</i>, <i>Archer</i>).",
+     "aliases": "Adult Swim comedy; adult cartoon",
+     "see": "C13-1 Animated Sitcom; C13-3 Adult Animated Action & Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Adult_animation",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Adult_Swim",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by comic engine",
+     "secs": [
+      "Parody & Repurposed-Cartoon Comedy",
+      "Surreal & Absurdist Comedy",
+      "Satire & Shock Comedy",
+      "Genre & Action Spoof"
+     ]
+    },
+    {
+     "code": "C13-3",
+     "label": "Adult Animated Action & Drama",
+     "breadth": "medium",
+     "defn": "A non-comic animated series for adults: violent action, horror, epic or psychological drama (<i>Æon Flux</i>, <i>Castlevania</i>, <i>Arcane</i>, <i>Invincible</i>).",
+     "aliases": "adult animated drama; mature animation",
+     "see": "C13-2 Adult Animated Comedy; C13-11 Superhero Animated Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Adult_animation",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Love,_Death_&_Robots",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by source and mode",
+     "secs": [
+      "Anthology Series",
+      "Video-Game & Tabletop Adaptations",
+      "Superhero & Comics Adaptations",
+      "Myth & Historical Epics",
+      "Science Fiction & Psychological Drama"
+     ]
+    },
+    {
+     "code": "C13-4",
+     "label": "Web Animation",
+     "breadth": "medium",
+     "defn": "An animated series made for and first distributed on the internet (Flash, YouTube, machinima) (<i>Happy Tree Friends</i>, <i>Red vs. Blue</i>, <i>Salad Fingers</i>, <i>The Amazing Digital Circus</i>).",
+     "aliases": "Flash cartoon; YouTube animation; machinima",
+     "see": "C13-2 Adult Animated Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Flash_animation",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Machinima",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Web_series",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C13-5",
+     "label": "Saturday-Morning Cartoon",
+     "breadth": "medium",
+     "defn": "A comedy cartoon series made for US network or syndicated children's slots from the 1960s to the 1990s, including television packages and revivals of theatrical cartoon stars (<i>The Bugs Bunny Show</i>, <i>The Yogi Bear Show</i>, <i>Scooby-Doo, Where Are You!</i>, <i>Animaniacs</i>). Action cartoons of the same slots go to C13-11–C13-13.",
+     "aliases": "Saturday morning cartoons; Hanna-Barbera cartoons",
+     "see": "C13-6 The Disney Afternoon; C14-1 Theatrical Cartoon",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Saturday-morning_cartoon",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Hanna-Barbera",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by origin of the characters",
+     "secs": [
+      "Theatrical-Cartoon Characters on Television",
+      "Hanna-Barbera & Made-for-TV Comedies",
+      "Scooby-Doo Series",
+      "Licensed Comedies of the 1980s",
+      "1990s Warner & Syndicated Comedies"
+     ]
+    },
+    {
+     "code": "C13-6",
+     "label": "The Disney Afternoon",
+     "breadth": "narrow",
+     "defn": "A series of the Disney Afternoon syndicated block and its revivals (<i>DuckTales</i>, <i>Chip 'n' Dale Rescue Rangers</i>, <i>Darkwing Duck</i>, <i>Gargoyles</i>).",
+     "aliases": "Disney Afternoon",
+     "see": "C13-9 Disney Television Animation; C13-10 Film Spin-off Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/The_Disney_Afternoon",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C13-7",
+     "label": "Nicktoons",
+     "breadth": "narrow",
+     "defn": "An original animated series of Nickelodeon's Nicktoons brand (<i>Rugrats</i>, <i>The Ren & Stimpy Show</i>, <i>SpongeBob SquarePants</i>, <i>The Loud House</i>). Nickelodeon's action series (<i>Avatar</i>) go to C13-13.",
+     "aliases": "Nickelodeon cartoons",
+     "see": "C13-8 Cartoon Cartoons; C13-9 Disney Television Animation",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Nicktoons",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C13-8",
+     "label": "Cartoon Cartoons",
+     "breadth": "narrow",
+     "defn": "An original series of Cartoon Network Studios, from the Cartoon Cartoons brand to its later creator-driven shows (<i>Dexter's Laboratory</i>, <i>The Powerpuff Girls</i>, <i>Adventure Time</i>, <i>Steven Universe</i>). <i>Samurai Jack</i> and DC series go to C13-13 and C13-11.",
+     "aliases": "Cartoon Network originals",
+     "see": "C13-7 Nicktoons; C13-9 Disney Television Animation",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Cartoon_Cartoons",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Cartoon_Network_Studios",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by period of the brand",
+     "secs": [
+      "Cartoon Cartoons (1995–2008)",
+      "Later Cartoon Network Studios Originals"
+     ]
+    },
+    {
+     "code": "C13-9",
+     "label": "Disney Television Animation",
+     "breadth": "narrow",
+     "defn": "An original series of Disney Television Animation for Disney Channel, Disney XD or ABC, not based on a feature film (<i>Recess</i>, <i>Phineas and Ferb</i>, <i>Gravity Falls</i>, <i>The Owl House</i>). Feature spin-offs go to C13-10; Disney Junior series to C13-15.",
+     "aliases": "Disney Channel cartoons",
+     "see": "C13-6 The Disney Afternoon; C13-10 Film Spin-off Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Disney_Television_Animation",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C13-10",
+     "label": "Film Spin-off Series",
+     "breadth": "medium",
+     "defn": "A series continuing the characters of a specific feature film (<i>Lilo & Stitch: The Series</i>, <i>The Penguins of Madagascar</i>, <i>The Real Ghostbusters</i>, <i>Dug Days</i>). Star Wars and superhero series go to their genre leaves.",
+     "aliases": "TV series based on films",
+     "see": "C13-6 The Disney Afternoon; C12-9 Television Spin-off Feature",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Spin-off_(media)",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by source studio",
+     "secs": [
+      "Disney Feature Spin-offs",
+      "Pixar & Disney+ Shorts Series",
+      "DreamWorks Spin-offs",
+      "Live-Action Film Spin-offs"
+     ]
+    },
+    {
+     "code": "C13-11",
+     "label": "Superhero Animated Series",
+     "breadth": "medium",
+     "defn": "A series whose protagonists are costumed superheroes (<i>Batman: The Animated Series</i>, <i>X-Men</i>, <i>Teen Titans</i>, <i>The Spectacular Spider-Man</i>). Adult superhero series go to C13-3.",
+     "aliases": "DCAU; Marvel animation",
+     "see": "C13-3 Adult Animated Action & Drama; C12-12 Superhero Animated Feature",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/DC_Animated_Universe",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Superhero_fiction",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by franchise",
+     "secs": [
+      "DC Animated Universe",
+      "Other DC Series",
+      "Marvel Series",
+      "Original Superheroes"
+     ]
+    },
+    {
+     "code": "C13-12",
+     "label": "Toy-Based Animated Series",
+     "breadth": "medium",
+     "defn": "A series created with or to sell a toy line, the 'program-length commercial' of 1980s syndication and its reboots (<i>He-Man and the Masters of the Universe</i>, <i>The Transformers</i>, <i>G.I. Joe</i>, <i>My Little Pony: Friendship Is Magic</i>).",
+     "aliases": "toy-line cartoon; program-length commercial",
+     "see": "C13-13 Action-Adventure Animated Series; C12-11 Toy-Based Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Program-length_commercial",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Masters_of_the_Universe",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by period and toy type",
+     "secs": [
+      "1980s Toy-Line Cartoons",
+      "Toy-Line Revivals & Reboots",
+      "Construction-Toy & Doll Lines"
+     ]
+    },
+    {
+     "code": "C13-13",
+     "label": "Action-Adventure Animated Series",
+     "breadth": "broad",
+     "defn": "A children's or family series built on adventure, quests and combat rather than gags (<i>Jonny Quest</i>, <i>Star Wars: The Clone Wars</i>, <i>Avatar: The Last Airbender</i>, <i>Code Lyoko</i>). Superhero and toy-line series go to C13-11 and C13-12.",
+     "aliases": "animated adventure series",
+     "see": "C13-11 Superhero Animated Series; C13-12 Toy-Based Animated Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Action_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by premise",
+     "secs": [
+      "Classic Adventure Serials",
+      "Science-Fiction Franchise Series",
+      "Martial-Arts & Ninja Series",
+      "Teen Spy & Paranormal Series",
+      "Gadget, Game & Sports Heroes",
+      "Fantasy Quest Series"
+     ]
+    },
+    {
+     "code": "C13-14",
+     "label": "European Children's Animated Series",
+     "breadth": "medium",
+     "defn": "A children's series from a European tradition, from Soyuzmultfilm and the Czech, Polish and Hungarian studios to British and French television (<i>Well, Just You Wait!</i>, <i>The Adventures of the Mole</i>, <i>Bolek and Lolek</i>, <i>Oggy and the Cockroaches</i>). European preschool series go to C13-15.",
+     "aliases": "Eastern Bloc animation; European cartoons",
+     "see": "C13-15 Preschool Animated Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Soyuzmultfilm",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Bolek_and_Lolek",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by national tradition",
+     "secs": [
+      "Soviet & Russian",
+      "Central European",
+      "Western European"
+     ]
+    },
+    {
+     "code": "C13-15",
+     "label": "Preschool Animated Series",
+     "breadth": "medium",
+     "defn": "A series made for children under six, built on gentle storytelling, curriculum or play (<i>Little Bear</i>, <i>Dora the Explorer</i>, <i>Thomas & Friends</i>, <i>Bluey</i>).",
+     "aliases": "preschool television; Disney Junior; Nick Jr.",
+     "see": "C13-16 Educational Animated Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Preschool",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Children's_television_series",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by format",
+     "secs": [
+      "Storybook & Family-Life Series",
+      "Curriculum & Mission Series",
+      "Model & Stop-Motion Series"
+     ]
+    },
+    {
+     "code": "C13-16",
+     "label": "Educational Animated Series",
+     "breadth": "narrow",
+     "defn": "A series whose stated purpose is teaching a subject, from history to science and literacy (<i>Schoolhouse Rock!</i>, <i>Once Upon a Time… Man</i>, <i>The Magic School Bus</i>).",
+     "aliases": "edutainment",
+     "see": "C13-15 Preschool Animated Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Educational_television",
+       "Wikipedia"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "code": "C14",
+   "label": "Animated Short",
+   "axis": "Axis: by production context (theatrical studio cartoons, studio shorts, art shorts, technique, television specials)",
+   "leaves": [
+    {
+     "code": "C14-1",
+     "label": "Theatrical Cartoon",
+     "breadth": "medium",
+     "defn": "A short made for cinema programmes by a studio or pioneer from the silent era to the end of the studio system (<i>Gertie the Dinosaur</i>, <i>Steamboat Willie</i>, <i>Duck Amuck</i>, <i>What's Opera, Doc?</i>).",
+     "aliases": "Golden Age cartoon; Looney Tunes; Silly Symphonies",
+     "see": "C13-5 Saturday-Morning Cartoon",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Golden_age_of_American_animation",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/History_of_animation",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by era",
+     "secs": [
+      "Silent-Era Pioneers",
+      "Studio-Era Theatrical Cartoons"
+     ]
+    },
+    {
+     "code": "C14-2",
+     "label": "Pixar Short Films",
+     "breadth": "narrow",
+     "defn": "A short produced by Pixar or its Lucasfilm Graphics Group precursor (<i>Luxo Jr.</i>, <i>Geri's Game</i>, <i>Bao</i>, <i>Jack-Jack Attack</i>).",
+     "aliases": "Pixar shorts; SparkShorts",
+     "see": "C12-3 Pixar Films; C14-3 Studio Short Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/List_of_Pixar_shorts",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by period and release",
+     "secs": [
+      "Graphics Group & Early Pixar",
+      "Theatrical Pixar Shorts",
+      "Franchise Shorts & SparkShorts"
+     ]
+    },
+    {
+     "code": "C14-3",
+     "label": "Studio Short Film",
+     "breadth": "narrow",
+     "defn": "A post-studio-era short from a major animation studio or franchise, released theatrically, on home video or streaming (<i>Paperman</i>, <i>Feast</i>, <i>Far Far Away Idol</i>, <i>The Longest Daycare</i>).",
+     "aliases": "Disney shorts; franchise shorts",
+     "see": "C14-2 Pixar Short Films; C14-7 Animated Television Special",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_short_films",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by studio",
+     "secs": [
+      "Walt Disney Animation Studios Shorts",
+      "DreamWorks Animation Shorts",
+      "Franchise Shorts from Television & Other Studios"
+     ]
+    },
+    {
+     "code": "C14-4",
+     "label": "Abstract Animation",
+     "breadth": "narrow",
+     "defn": "A short of non-figurative form, colour and rhythm, often drawn on film or set to music (<i>Begone Dull Care</i>, <i>Motion Painting No. 1</i>, <i>Free Radicals</i>). Figurative auteur shorts go to C14-5.",
+     "aliases": "visual music; direct animation; absolute film",
+     "see": "C14-5 Auteur Animated Short; A20 Experimental & Avant-Garde",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Abstract_animation",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Visual_music",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C14-5",
+     "label": "Auteur Animated Short",
+     "breadth": "broad",
+     "defn": "An independent or state-studio art short driven by its maker's vision, the festival short (<i>Neighbours</i>, <i>Hedgehog in the Fog</i>, <i>Rejected</i>, <i>The Windshield Wiper</i>). Stop-motion art shorts go to C14-6.",
+     "aliases": "art short; festival short; NFB; Zagreb School",
+     "see": "C14-4 Abstract Animation; C14-6 Stop-Motion & Puppet Short",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Zagreb_School_of_Animated_Films",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/National_Film_Board_of_Canada",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Independent_animation",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by national tradition",
+     "secs": [
+      "National Film Board of Canada",
+      "Zagreb School & Central European",
+      "Soviet, Russian & Estonian",
+      "American Independent",
+      "Western European Festival Shorts",
+      "Latin American, African & Asian Auteurs"
+     ]
+    },
+    {
+     "code": "C14-6",
+     "label": "Stop-Motion & Puppet Short",
+     "breadth": "medium",
+     "defn": "A short animated with puppets, clay or objects (<i>The Cameraman's Revenge</i>, <i>Dimensions of Dialogue</i>, <i>The Wrong Trousers</i>, <i>Harvie Krumpet</i>).",
+     "aliases": "puppet film; claymation; object animation",
+     "see": "C12-16 Stop-Motion Feature; C14-5 Auteur Animated Short",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Stop-motion_animation",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Jan_Švankmajer",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by tradition",
+     "secs": [
+      "Stop-Motion Pioneers",
+      "Czech Puppet & Object Animation",
+      "Aardman & British Clay",
+      "Contemporary Stop-Motion Auteurs",
+      "Puppet Horror-Comedy"
+     ]
+    },
+    {
+     "code": "C14-7",
+     "label": "Animated Television Special",
+     "breadth": "narrow",
+     "defn": "A one-off animated programme made for television, typically a holiday special (<i>A Charlie Brown Christmas</i>, <i>How the Grinch Stole Christmas!</i>, <i>Rudolph the Red-Nosed Reindeer</i>, <i>The Gruffalo</i>).",
+     "aliases": "holiday special; Rankin/Bass special",
+     "see": "C14-3 Studio Short Film; C12-10 Direct-to-Video Animated Feature",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Christmas_television_special",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Rankin/Bass_Productions",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by period and source",
+     "secs": [
+      "Classic Network Holiday Specials (1964–1979)",
+      "Franchise & Storybook Specials"
+     ]
+    }
+   ]
+  }
+ ]
+}

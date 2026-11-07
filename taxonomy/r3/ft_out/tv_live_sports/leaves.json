@@ -1,0 +1,626 @@
+{
+ "subs": [
+  {
+   "code": "B16",
+   "label": "Live Event & Sports Television",
+   "axis": "Axis: by the kind of live event the broadcast carries: sporting competition (by sport, then multi-sport and anthology), professional wrestling, then ceremonies, contests and pageants, civic and state occasions, fund-raising broadcasts, and stage performances (concert, theatre, circus, stand-up)",
+   "leaves": [
+    {
+     "code": "B16-1",
+     "label": "Association Football Broadcasts",
+     "breadth": "broad",
+     "defn": "A broadcast of competitive association football played as it happens (or as its recording), together with the named broadcast strands, studio and highlights programmes built around that sport (<i>FIFA World Cup</i>, <i>UEFA Champions League</i>, <i>Match of the Day</i>, <i>Sportschau</i>). A multi-sport Saturday programme that merely carries football goes to B16-17.",
+     "aliases": "soccer on television; Fußball im Fernsehen",
+     "see": "B16-17 Sports Anthology & Magazine Shows; B16-16 Multi-Sport Event Coverage",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Sports_broadcasting",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Match_of_the_Day",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by competition level, highlights apart: international tournaments, continental club competitions, domestic league and cup coverage; highlights and magazine programmes last",
+     "secs": [
+      "International Tournaments",
+      "Continental Club Competitions",
+      "Domestic League & Cup Coverage",
+      "Football Highlights & Magazine Programmes"
+     ]
+    },
+    {
+     "code": "B16-2",
+     "label": "American Football Broadcasts",
+     "breadth": "medium",
+     "defn": "A broadcast of competitive American (gridiron) or Canadian football played as it happens (or as its recording), together with the named broadcast strands, studio and highlights programmes built around that sport (<i>Super Bowl</i>, <i>Monday Night Football</i>, <i>The NFL Today</i>, <i>Grey Cup</i>). The Super Bowl halftime show as a concert goes to B16-25.",
+     "aliases": "gridiron football on television; NFL on television",
+     "see": "B16-25 Concert Broadcasts & Specials",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Monday_Night_Football",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Super_Bowl",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-3",
+     "label": "Basketball Broadcasts",
+     "breadth": "medium",
+     "defn": "A broadcast of competitive basketball played as it happens (or as its recording), together with the named broadcast strands, studio and highlights programmes built around that sport (<i>NBA Finals</i>, <i>Inside the NBA</i>, <i>NCAA March Madness</i>).",
+     "aliases": "NBA on television",
+     "see": "B16-2 American Football Broadcasts; B16-4 Baseball Broadcasts",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/NBA_Finals",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Inside_the_NBA",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-4",
+     "label": "Baseball Broadcasts",
+     "breadth": "medium",
+     "defn": "A broadcast of competitive baseball played as it happens (or as its recording), together with the named broadcast strands, studio and highlights programmes built around that sport (<i>World Series</i>, <i>Sunday Night Baseball</i>, <i>Japan Series</i>, <i>Little League World Series</i>).",
+     "aliases": "MLB on television; yakyū chūkei",
+     "see": "B16-3 Basketball Broadcasts",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/World_Series",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Sunday_Night_Baseball",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-5",
+     "label": "Ice Hockey Broadcasts",
+     "breadth": "medium",
+     "defn": "A broadcast of competitive ice hockey played as it happens (or as its recording), together with the named broadcast strands, studio and highlights programmes built around that sport (<i>Hockey Night in Canada</i>, <i>Stanley Cup Final</i>, <i>Summit Series</i>). Olympic hockey games famous in their own right stay here with see_also B16-16.",
+     "aliases": "NHL on television",
+     "see": "B16-16 Multi-Sport Event Coverage",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Hockey_Night_in_Canada",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Stanley_Cup_Final",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-6",
+     "label": "Cricket Broadcasts",
+     "breadth": "medium",
+     "defn": "A broadcast of competitive cricket played as it happens (or as its recording), together with the named broadcast strands, studio and highlights programmes built around that sport (<i>Cricket World Cup</i>, <i>The Ashes</i>, <i>Indian Premier League</i>, <i>World Series Cricket</i>).",
+     "aliases": "cricket on television",
+     "see": "B16-7 Rugby Broadcasts",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Cricket_World_Cup",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/World_Series_Cricket",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Indian_Premier_League",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-7",
+     "label": "Rugby Broadcasts",
+     "breadth": "medium",
+     "defn": "A broadcast of competitive rugby union or rugby league played as it happens (or as its recording), together with the named broadcast strands, studio and highlights programmes built around that sport (<i>Rugby World Cup</i>, <i>Six Nations Championship</i>, <i>State of Origin series</i>, <i>Rugby Special</i>).",
+     "aliases": "rugby on television",
+     "see": "B16-6 Cricket Broadcasts; B16-1 Association Football Broadcasts",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Rugby_World_Cup",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Six_Nations_Championship",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Rugby_Special",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-8",
+     "label": "Tennis Broadcasts",
+     "breadth": "medium",
+     "defn": "A broadcast of competitive tennis played as it happens (or as its recording), together with the named broadcast strands, studio and highlights programmes built around that sport (<i>Wimbledon</i>, <i>Breakfast at Wimbledon</i>, <i>Battle of the Sexes</i>).",
+     "aliases": "tennis on television",
+     "see": "B16-9 Golf Broadcasts",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Wimbledon_Championships",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Battle_of_the_Sexes_(tennis)",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-9",
+     "label": "Golf Broadcasts",
+     "breadth": "medium",
+     "defn": "A broadcast of competitive golf played as it happens (or as its recording), together with the named broadcast strands, studio and highlights programmes built around that sport (<i>Masters Tournament</i>, <i>The Open Championship</i>, <i>Ryder Cup</i>, <i>Shell's Wonderful World of Golf</i>).",
+     "aliases": "golf on television",
+     "see": "B16-8 Tennis Broadcasts",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Masters_Tournament",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Shell's_Wonderful_World_of_Golf",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-10",
+     "label": "Motorsport Broadcasts",
+     "breadth": "medium",
+     "defn": "A broadcast of competitive motor racing on cars or motorcycles played as it happens (or as its recording), together with the named broadcast strands, studio and highlights programmes built around that sport (<i>Formula One World Championship</i>, <i>Indianapolis 500</i>, <i>Daytona 500</i>, <i>24 Hours of Le Mans</i>). A motoring magazine such as <i>Top Gear</i> is factual entertainment (B14).",
+     "aliases": "motor racing on television",
+     "see": "B14 Factual Entertainment Formats; B16-11 Cycling Broadcasts",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Formula_One",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Indianapolis_500",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Daytona_500",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-11",
+     "label": "Cycling Broadcasts",
+     "breadth": "narrow",
+     "defn": "A broadcast of competitive road or track cycling played as it happens (or as its recording), together with the named broadcast strands, studio and highlights programmes built around that sport (<i>Tour de France</i>, <i>Giro d'Italia</i>, <i>Paris–Roubaix</i>).",
+     "aliases": "cycle racing on television",
+     "see": "B16-10 Motorsport Broadcasts; B16-12 Athletics Broadcasts",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Tour_de_France",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Grand_Tour_(cycling)",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-12",
+     "label": "Athletics Broadcasts",
+     "breadth": "narrow",
+     "defn": "A broadcast of competitive track-and-field athletics or road running played as it happens (or as its recording), together with the named broadcast strands, studio and highlights programmes built around that sport (<i>World Athletics Championships</i>, <i>London Marathon</i>, <i>Diamond League</i>). Athletics inside the Olympics goes to B16-16.",
+     "aliases": "track and field on television; marathon coverage",
+     "see": "B16-16 Multi-Sport Event Coverage",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/World_Athletics_Championships",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/London_Marathon",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-13",
+     "label": "Snooker & Darts Broadcasts",
+     "breadth": "narrow",
+     "defn": "A broadcast of competitive snooker, pool or darts played as it happens (or as its recording), together with the named broadcast strands, studio and highlights programmes built around that sport, the indoor sports that became mass television in Britain (<i>Pot Black</i>, <i>World Snooker Championship</i>, <i>PDC World Darts Championship</i>). A darts game show such as <i>Bullseye</i> is a competition format (B13).",
+     "aliases": "cue sports on television",
+     "see": "B13 Competition Formats",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Pot_Black",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/World_Snooker_Championship",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/PDC_World_Darts_Championship",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-14",
+     "label": "Combat Sports Broadcasts",
+     "breadth": "medium",
+     "defn": "A broadcast of competitive boxing, mixed martial arts, kickboxing or sumo played as it happens (or as its recording), together with the named broadcast strands, studio and highlights programmes built around that sport, including named landmark bouts sold as pay-per-view events (<i>Rumble in the Jungle</i>, <i>HBO World Championship Boxing</i>, <i>UFC 1</i>, NHK <i>Ōzumō</i>). Professional wrestling, whose outcomes are scripted, goes to B16-18.",
+     "aliases": "fight broadcasts; pay-per-view boxing",
+     "see": "B16-18 Professional Wrestling Television",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Combat_sport",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Pay-per-view",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Ultimate_Fighting_Championship",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-15",
+     "label": "Horse Racing Broadcasts",
+     "breadth": "medium",
+     "defn": "A broadcast of competitive horse racing played as it happens (or as its recording), together with the named broadcast strands, studio and highlights programmes built around that sport (<i>Kentucky Derby</i>, <i>Grand National</i>, <i>Melbourne Cup</i>, <i>Channel 4 Racing</i>).",
+     "aliases": "racing on television",
+     "see": "B16-12 Athletics Broadcasts; B16-23 State & Royal Occasions",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Kentucky_Derby",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Grand_National",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-16",
+     "label": "Multi-Sport Event Coverage",
+     "breadth": "medium",
+     "defn": "The broadcast of a multi-sport games as one event, including its opening and closing ceremonies as landmark broadcasts (<i>Olympic Games</i>, <i>2012 Summer Olympics opening ceremony</i>, <i>Commonwealth Games</i>, <i>X Games</i>). A single-sport championship goes to its sport leaf.",
+     "aliases": "Olympics on television; Olympic broadcasting",
+     "see": "B16-1 to B16-15 single-sport leaves; B16-23 State & Royal Occasions",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Olympic_Games",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Olympic_Broadcasting_Services",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Commonwealth_Games",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-17",
+     "label": "Sports Anthology & Magazine Shows",
+     "breadth": "medium",
+     "defn": "A recurring studio-based programme that covers many sports, by live inserts, highlights, results, features or debate, rather than one sport (<i>ABC's Wide World of Sports</i>, <i>Grandstand</i>, <i>SportsCenter</i>, <i>Das aktuelle Sportstudio</i>). A highlights show for one sport goes to that sport's leaf; a sports quiz is a competition format (B13).",
+     "aliases": "sports anthology series; sports magazine programme; sports talk show",
+     "see": "B16-1 Association Football Broadcasts; B13 Competition Formats; B11 Documentary Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/ABC's_Wide_World_of_Sports",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Grandstand_(TV_programme)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/SportsCenter",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-18",
+     "label": "Professional Wrestling Television",
+     "breadth": "broad",
+     "defn": "A programme or event of professional wrestling: athletic performance with scripted outcomes and serial storylines, broadcast as live or live-to-tape matches (<i>WWE Raw</i>, <i>WCW Monday Nitro</i>, <i>WrestleMania</i>, <i>Wrestle Kingdom</i>). Unscripted combat sports go to B16-14.",
+     "aliases": "sports entertainment; puroresu; lucha libre",
+     "see": "B16-14 Combat Sports Broadcasts; B15 Variety & Talk Formats",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Professional_wrestling",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/WWE_Raw",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/WrestleMania",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by broadcast form, foreign traditions apart: weekly episodic shows, pay-per-view and premium live events; puroresu and lucha libre programmes last",
+     "secs": [
+      "Weekly Wrestling Programmes",
+      "Pay-Per-View & Premium Live Events",
+      "Puroresu & Lucha Libre Programmes"
+     ]
+    },
+    {
+     "code": "B16-19",
+     "label": "Award Ceremonies",
+     "breadth": "broad",
+     "defn": "The televised ceremony at which an academy, industry body or publication presents its annual awards, hosted and staged as a show (<i>Academy Awards</i>, <i>Primetime Emmy Awards</i>, <i>Grammy Awards</i>, <i>Tony Awards</i>). A song contest whose prize is decided on the night goes to B16-20.",
+     "aliases": "awards show; awards ceremony",
+     "see": "B16-20 Song Contests & Music Festival Broadcasts",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Academy_Awards",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Primetime_Emmy_Awards",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Grammy_Awards",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the field honoured: film, television, music; theatre, sports and multi-field awards last",
+     "secs": [
+      "Film Award Ceremonies",
+      "Television Award Ceremonies",
+      "Music Award Ceremonies",
+      "Theatre, Sports & Multi-Field Award Ceremonies"
+     ]
+    },
+    {
+     "code": "B16-20",
+     "label": "Song Contests & Music Festival Broadcasts",
+     "breadth": "medium",
+     "defn": "The broadcast of a song contest, in which new songs or national entries compete live for a prize, or of a named music festival as a televised event (<i>Eurovision Song Contest</i>, <i>NHK Kōhaku Uta Gassen</i>, <i>Sanremo Music Festival</i>, <i>Melodifestivalen</i>). A talent-search series with weekly eliminations (<i>The X Factor</i>) is a competition format (B13).",
+     "aliases": "song festival; national selection; kayō festival",
+     "see": "B13 Competition Formats; B16-19 Award Ceremonies; B16-25 Concert Broadcasts & Specials",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Eurovision_Song_Contest",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Song_contest",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Sanremo_Music_Festival",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Kōhaku_Uta_Gassen",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-21",
+     "label": "Beauty Pageants",
+     "breadth": "narrow",
+     "defn": "The televised final of a beauty pageant, in which contestants are judged on stage for a title (<i>Miss Universe</i>, <i>Miss World</i>, <i>Miss America</i>). A reality series about pageant children (<i>Toddlers & Tiaras</i>) is factual entertainment (B14).",
+     "aliases": "beauty contest; pageant telecast",
+     "see": "B14 Factual Entertainment Formats",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Beauty_pageant",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Miss_Universe",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Miss_World",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-22",
+     "label": "Parades & New Year's Eve Broadcasts",
+     "breadth": "medium",
+     "defn": "Annual live coverage of a civic parade, carnival or calendar festivity, above all New Year's Eve countdown shows (<i>Macy's Thanksgiving Day Parade</i>, <i>Dick Clark's New Year's Rockin' Eve</i>, <i>CCTV New Year's Gala</i>, <i>Jools' Annual Hootenanny</i>). Military and state parades go to B16-23.",
+     "aliases": "holiday specials; New Year's Eve special; Chunwan",
+     "see": "B16-23 State & Royal Occasions; B15 Variety & Talk Formats",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Macy's_Thanksgiving_Day_Parade",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Dick_Clark's_New_Year's_Rockin'_Eve",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/CCTV_New_Year's_Gala",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-23",
+     "label": "State & Royal Occasions",
+     "breadth": "medium",
+     "defn": "Live coverage of a ceremony of state: coronations, royal weddings, state funerals, inaugurations, national-day and military parades (<i>Coronation of Elizabeth II</i>, <i>Wedding of Prince Charles and Lady Diana Spencer</i>, <i>Trooping the Colour</i>). Political news coverage is out of scope.",
+     "aliases": "royal broadcast; national ceremony; outside broadcast",
+     "see": "B16-22 Parades & New Year's Eve Broadcasts; B16-16 Multi-Sport Event Coverage",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Coronation_of_Elizabeth_II",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/State_funeral",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Trooping_the_Colour",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-24",
+     "label": "Telethons & Benefit Concerts",
+     "breadth": "medium",
+     "defn": "A broadcast staged to raise money for a cause, either a long-form appeal telethon or a benefit concert broadcast live (<i>Live Aid</i>, <i>Jerry Lewis MDA Labor Day Telethon</i>, <i>Comic Relief</i>, <i>24-Hour Television</i>). A concert without a fund-raising purpose goes to B16-25.",
+     "aliases": "telethon; charity appeal; benefit concert",
+     "see": "B16-25 Concert Broadcasts & Specials",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Telethon",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Benefit_concert",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Live_Aid",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-25",
+     "label": "Concert Broadcasts & Specials",
+     "breadth": "medium",
+     "defn": "A musical performance before an audience broadcast as a programme, as a one-off concert special or a recurring concert strand (<i>Elvis: Aloha from Hawaii</i>, <i>Vienna New Year's Concert</i>, <i>MTV Unplugged</i>, <i>Austin City Limits</i>). Studio chart and music-variety shows go to B15; benefit concerts to B16-24; opera and ballet to B16-26.",
+     "aliases": "concert special; television special; music special",
+     "see": "B15 Variety & Talk Formats; B16-24 Telethons & Benefit Concerts; B16-26 Theatre, Opera & Ballet Broadcasts",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Television_special",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Elvis:_Aloha_from_Hawaii",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/MTV_Unplugged",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-26",
+     "label": "Theatre, Opera & Ballet Broadcasts",
+     "breadth": "medium",
+     "defn": "A staged theatrical work (play, musical, opera, ballet) broadcast live or relayed from the stage, including the live television musical (<i>Great Performances</i>, <i>Live from Lincoln Center</i>, <i>The Metropolitan Opera: Live in HD</i>, <i>The Sound of Music Live!</i>). A drama written for television (anthology drama) goes to B1.",
+     "aliases": "live theatre broadcast; event cinema; live television musical",
+     "see": "B1 Drama Series; B16-25 Concert Broadcasts & Specials",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Great_Performances",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Live_from_Lincoln_Center",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/The_Metropolitan_Opera_Live_in_HD",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/National_Theatre_Live",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-27",
+     "label": "Circus & Spectacle Broadcasts",
+     "breadth": "narrow",
+     "defn": "A broadcast of a circus show or of a live stunt or feat staged as a television event outside organized sport (<i>Circus of the Stars</i>, <i>International Circus Festival of Monte-Carlo</i>, <i>Evel Knievel's Snake River Canyon jump</i>, <i>Skywire</i>).",
+     "aliases": "circus special; stunt special",
+     "see": "B16-26 Theatre, Opera & Ballet Broadcasts; B14 Factual Entertainment Formats",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Circus",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Cirque_du_Soleil",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Circus_of_the_Stars",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B16-28",
+     "label": "Stand-Up Comedy Specials",
+     "breadth": "broad",
+     "defn": "A recorded stand-up (or live improvised) comedy performance before an audience broadcast or streamed as a special, or a showcase series of such sets (<i>Eddie Murphy: Delirious</i>, <i>Chris Rock: Bring the Pain</i>, <i>Nanette</i>, <i>Live at the Apollo</i>). A theatrically released concert film goes to A12; sketch shows go to B8 or B15.",
+     "aliases": "comedy special; stand-up special",
+     "see": "A12 Comedy; B8 Comedy Series; B15 Variety & Talk Formats",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Stand-up_comedy",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Comedy_Central_Presents",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Live_at_the_Apollo_(TV_series)",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by outlet and form: premium-cable and broadcast specials, streaming-era specials, showcase series; musical and improvised comedy specials last",
+     "secs": [
+      "Premium Cable & Broadcast Specials",
+      "Streaming-Era Specials",
+      "Stand-Up Showcase Series",
+      "Musical & Improvised Comedy Specials"
+     ]
+    }
+   ]
+  }
+ ]
+}

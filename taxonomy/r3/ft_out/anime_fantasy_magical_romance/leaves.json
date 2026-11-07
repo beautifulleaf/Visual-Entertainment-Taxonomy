@@ -1,0 +1,612 @@
+{
+ "subs": [
+  {
+   "code": "C3",
+   "label": "Fantasy & Isekai Anime",
+   "axis": "Axis: by where the fantastic lies relative to our world: other worlds entered from ours, invented secondary worlds, myth, then the supernatural inside the modern world",
+   "leaves": [
+    {
+     "code": "C3-1",
+     "label": "Isekai (Transported to Another World)",
+     "breadth": "broad",
+     "defn": "A series or film whose protagonist is physically carried, summoned or dropped from our world into another, and whose story turns on being an outsider there (<i>Fushigi Yuugi</i>, <i>Re:Zero</i>, <i>Tate no Yuusha no Nariagari</i>, <i>Gate</i>). Rebirth into the other world goes to C3-2; being trapped inside a game goes to C3-4.",
+     "aliases": "isekai, isekai tenni, portal fantasy, reverse isekai",
+     "see": "C3-2 Isekai Tensei; C3-4 Game-World Isekai; C3-3 Otome Isekai",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Isekai",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Portal_fantasy",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by how the hero crosses and what he does there: classic portal journeys, summoned heroes, free adventurers, modern know-how, parody; reverse isekai last",
+     "secs": [
+      "Portal Fantasy",
+      "Summoned Hero",
+      "Transported Adventurer (Cheat Skill)",
+      "Modern Know-How in Another World",
+      "Isekai Comedy & Parody",
+      "Reverse Isekai"
+     ]
+    },
+    {
+     "code": "C3-2",
+     "label": "Isekai Tensei (Reincarnation)",
+     "breadth": "medium",
+     "defn": "A story whose protagonist dies in our world and is reborn, with memories intact, into a fantasy world, as a person or as something else (<i>Mushoku Tensei</i>, <i>Tensei shitara Slime Datta Ken</i>, <i>Kumo desu ga, Nani ka?</i>, <i>Isekai Nonbiri Nouka</i>). Reborn into an otome game goes to C3-3.",
+     "aliases": "tensei, isekai tensei, reincarnation isekai, slow life",
+     "see": "C3-1 Isekai; C3-3 Otome Isekai",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Isekai",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by what the hero is reborn as and the pace of the second life: new human life, non-human body, slow life",
+     "secs": [
+      "Reborn into a New Life",
+      "Reborn as a Non-Human",
+      "Slow-Life Isekai"
+     ]
+    },
+    {
+     "code": "C3-3",
+     "label": "Otome Isekai (Villainess)",
+     "breadth": "narrow",
+     "defn": "A story whose heroine (rarely a hero) is reborn or transported into the world of an otome game or romance novel, typically as its doomed villainess, and must rewrite the plot (<i>Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta</i>, <i>Akuyaku Reijou Level 99</i>, <i>Seijo no Maryoku wa Bannou desu</i>). A villainess romance with no crossing goes to C5-9.",
+     "aliases": "akuyaku reijō, villainess isekai, otome-game isekai",
+     "see": "C3-2 Isekai Tensei; C5-9 Romantic Fantasy; C5-3 Reverse Harem",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Isekai",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Otome_game",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C3-4",
+     "label": "Game-World Isekai (VRMMO & LitRPG)",
+     "breadth": "medium",
+     "defn": "A story set inside an online or video game, or a world run on its rules, where the hero is a player, trapped player or transported avatar (<i>Sword Art Online</i>, <i>.hack//Sign</i>, <i>Log Horizon</i>, <i>Overlord</i>, <i>Shangri-La Frontier</i>). A fantasy world with mere status screens stays in C3-1.",
+     "aliases": "VRMMO, LitRPG, trapped in a game",
+     "see": "C3-1 Isekai; C7 Sports & Game Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/LitRPG",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Massively_multiplayer_online_role-playing_game",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by whether the players can log out: trapped in the game, transported into a game world, voluntary VR play",
+     "secs": [
+      "Trapped in a VRMMO",
+      "Transported into a Game World",
+      "Virtual-Reality Gaming"
+     ]
+    },
+    {
+     "code": "C3-5",
+     "label": "High Fantasy",
+     "breadth": "broad",
+     "defn": "A story set wholly in an invented secondary world with its own history, kingdoms and magic, built around wars, courts, journeys or the craft of magic rather than a questing party (<i>Arslan Senki</i>, <i>Kemono no Souja Erin</i>, <i>Kino no Tabi</i>, <i>Little Witch Academia</i>). Party adventure goes to C3-6; grim violence to C3-8.",
+     "aliases": "epic fantasy, secondary-world fantasy",
+     "see": "C3-6 Sword and Sorcery; C3-8 Dark Fantasy; C5-9 Romantic Fantasy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/High_fantasy",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by what the world-building serves: war, court, journey, magic craft, fable",
+     "secs": [
+      "Fantasy War Epic",
+      "Court & Kingdom Intrigue",
+      "Travelogue Fantasy",
+      "Witch & Wizard Fantasy",
+      "Storybook & Fable Fantasy"
+     ]
+    },
+    {
+     "code": "C3-6",
+     "label": "Sword and Sorcery",
+     "breadth": "broad",
+     "defn": "A fantasy-world adventure whose engine is a hero or party of swordsmen, mages and thieves questing, fighting monsters and delving dungeons (<i>Lodoss-tou Senki</i>, <i>Sousou no Frieren</i>, <i>Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka</i>, <i>Tales of Zestiria the X</i>). Comic sword and sorcery goes to C3-7; grimdark to C3-8.",
+     "aliases": "adventure fantasy, adventurer guild, tsuihō (party exile)",
+     "see": "C3-5 High Fantasy; C3-7 Comic Fantasy; C1 Action & Battle Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Sword_and_sorcery",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the adventuring frame: questing parties, dungeons and guilds, party-exile stories, video-game franchises last",
+     "secs": [
+      "Questing Heroes & Parties",
+      "Dungeon & Adventurers' Guild",
+      "Party Exile & Hidden-Power Adventurers",
+      "Video-Game Franchise Fantasy"
+     ]
+    },
+    {
+     "code": "C3-7",
+     "label": "Comic Fantasy",
+     "breadth": "medium",
+     "defn": "A secondary-world fantasy whose primary engine is comedy and genre parody (<i>Slayers</i>, <i>Dragon Half</i>, <i>Mairimashita! Iruma-kun</i>). Isekai parody goes to C3-1 section 5.",
+     "aliases": "humorous fantasy, fantasy parody",
+     "see": "C3-6 Sword and Sorcery; C10 Comedy Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Comic_fantasy",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C3-8",
+     "label": "Dark Fantasy",
+     "breadth": "medium",
+     "defn": "A fantasy whose world is defined by horror, cruelty and despair, with demons, monsters and graphic violence (<i>Berserk</i>, <i>Claymore</i>, <i>Shingeki no Kyojin</i>, <i>Devilman: Crybaby</i>, <i>Made in Abyss</i>). Pure horror without a fantasy world goes to C9.",
+     "aliases": "grimdark",
+     "see": "C3-6 Sword and Sorcery; C9 Horror Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Dark_fantasy",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the source of the darkness: grimdark warriors, demonic transformation, siege by monsters, gothic and fairy-tale darkness",
+     "secs": [
+      "Grimdark Swords & Monsters",
+      "Demonic Transformation",
+      "Titans & Siege Survival",
+      "Gothic & Fairy-Tale Darkness"
+     ]
+    },
+    {
+     "code": "C3-9",
+     "label": "Science Fantasy",
+     "breadth": "narrow",
+     "defn": "A fantasy whose world mixes magic with lost technology, steampunk machines or a post-apocalyptic future (<i>Tenkuu no Shiro Laputa</i>, <i>Final Fantasy VII: Advent Children</i>, <i>Utawarerumono</i>, <i>Houseki no Kuni</i>). Hard science fiction goes to C2.",
+     "aliases": "steampunk fantasy, post-apocalyptic fantasy",
+     "see": "C2 Mecha & Science Fiction Anime; C3-5 High Fantasy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Science_fantasy",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C3-10",
+     "label": "Mythic Fiction",
+     "breadth": "medium",
+     "defn": "A story built from myth and religion: gods, kami, demons and the afterlife acting in a world or limbo of their own (<i>Mononoke Hime</i>, <i>Haibane Renmei</i>, <i>Angel Beats!</i>, <i>Campione!</i>). Chinese gods-and-demons stories go to C3-11; yōkai to C3-13.",
+     "aliases": "mythological fantasy, afterlife fantasy",
+     "see": "C3-11 Shenmo & Xianxia; C3-13 Yōkai",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Mythic_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Afterlife",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the mythology: Japanese gods and kami, gods and demons of world myth, afterlife and limbo",
+     "secs": [
+      "Japanese Gods & Kami",
+      "Gods & Demons of World Myth",
+      "Afterlife & Limbo"
+     ]
+    },
+    {
+     "code": "C3-11",
+     "label": "Shenmo & Xianxia",
+     "breadth": "narrow",
+     "defn": "A Chinese-tradition fantasy of gods, demons, immortals and spirit beasts, from the <i>shenmo</i> classics to cultivation (<i>xianxia</i>) and fox-spirit tales (<i>Hakujaden</i>, <i>Nezha Zhi Mo Tong Jiang Shi</i>, <i>Huyao Xiao Hongniang</i>, <i>Fanren Xiu Xian Zhuan</i>). Martial-arts combat-first wuxia goes to C1.",
+     "aliases": "shenmo xiaoshuo, gods and demons fiction, xianxia, cultivation",
+     "see": "C3-10 Mythic Fiction; C1 Action & Battle Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Gods_and_demons_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Xianxia",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C3-12",
+     "label": "Urban Fantasy",
+     "breadth": "broad",
+     "defn": "A story set in the contemporary everyday world where magic, monsters or a hidden supernatural society exist alongside ordinary life (<i>Durarara!!</i>, <i>Kara no Kyoukai</i>, <i>Kyoukai no Kanata</i>, <i>Bakemonogatari</i>). Japanese folklore spirits go to C3-13; ghost hunters to C3-14; vampires to C3-15.",
+     "aliases": "contemporary fantasy, low fantasy, modern fantasy",
+     "see": "C3-13 Yōkai; C3-14 Occult Detective Fiction; C3-15 Vampire Fiction; C1 Action & Battle Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Urban_fantasy",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Contemporary_fantasy",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by how the supernatural is organised: hidden mage societies, beings in the city, everyday magic and contemporary fantasy films, the Monogatari oddity cycle",
+     "secs": [
+      "Hidden Magic & Mage Societies",
+      "Supernatural Beings in the City",
+      "Everyday Magic & Contemporary Fantasy Films",
+      "Monogatari Oddities"
+     ]
+    },
+    {
+     "code": "C3-13",
+     "label": "Yōkai Fiction",
+     "breadth": "medium",
+     "defn": "A story whose supernatural beings are the yōkai, kami and spirits of Japanese folklore, met by seers, children or guardians (<i>Natsume Yuujinchou</i>, <i>Mushishi</i>, <i>Gegege no Kitarou</i>, <i>Sen to Chihiro no Kamikakushi</i>). Yōkai romances go to C5-8.",
+     "aliases": "yōkai, ayakashi, mononoke",
+     "see": "C3-10 Mythic Fiction; C3-12 Urban Fantasy; C5-8 Paranormal Romance",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Y%C5%8Dkai",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the encounter: seer and spirit tales, yōkai comedy and everyday life, battles with and for yōkai, the spirit world as a place",
+     "secs": [
+      "Spirit-Seer Tales",
+      "Yōkai Comedy & Everyday Life",
+      "Yōkai Battle & Guardians",
+      "Spirit-World & Kamikakushi Journeys"
+     ]
+    },
+    {
+     "code": "C3-14",
+     "label": "Occult Detective Fiction",
+     "breadth": "narrow",
+     "defn": "A story whose protagonists investigate and exorcise ghosts, curses and demons as a profession or calling (<i>Tokyo Babylon</i>, <i>Ga-Rei: Zero</i>, <i>Koukyuu no Karasu</i>, <i>Muhyo to Rouji</i>). Battle-first exorcist shōnen goes to C1.",
+     "aliases": "exorcist, onmyōji, ghost hunter",
+     "see": "C3-12 Urban Fantasy; C9 Horror Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Occult_detective_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Exorcism",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C3-15",
+     "label": "Vampire Fiction",
+     "breadth": "narrow",
+     "defn": "A story whose central figures are vampires, as hunters, monsters or anti-heroes (<i>Vampire Hunter D</i>, <i>Trinity Blood</i>, <i>Vanitas no Karte</i>, <i>Kizumonogatari</i>). A vampire love story goes to C5-8.",
+     "aliases": "vampire anime",
+     "see": "C5-8 Paranormal Romance; C9 Horror Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Vampire_literature",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Vampire_film",
+       "Wikipedia"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "code": "C4",
+   "label": "Magical Girl Anime",
+   "axis": "Axis: by what the heroine's magic is for: everyday wishes, battle, and the deconstruction of both",
+   "leaves": [
+    {
+     "code": "C4-1",
+     "label": "Majokko (Classic Magical Girl)",
+     "breadth": "medium",
+     "defn": "A magical-girl series whose heroine uses magic, often with a transforming item and mascot, in everyday life rather than in battle (<i>Mahoutsukai Sally</i>, <i>Mahou no Tenshi Creamy Mami</i>, <i>Cardcaptor Sakura</i>, <i>Ojamajo Doremi</i>). Teams fighting monsters go to C4-2.",
+     "aliases": "majokko, mahō shōjo",
+     "see": "C4-2 Magical Girl Warrior; C11 Children's & Family Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Magical_girl",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C4-2",
+     "label": "Magical Girl Warrior",
+     "breadth": "medium",
+     "defn": "A magical-girl series whose transformed heroines, usually a team, fight monsters or villains (<i>Bishoujo Senshi Sailor Moon</i>, <i>Futari wa Precure</i>, <i>Mahou Shoujo Lyrical Nanoha</i>, <i>Senki Zesshou Symphogear</i>). Grim deconstructions go to C4-3.",
+     "aliases": "sentai magical girl, battle magical girl, magical boy",
+     "see": "C4-1 Majokko; C4-3 Dark Magical Girl; C1 Action & Battle Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Magical_girl",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Sailor_Moon",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by audience and gender play: shōjo warrior teams, otaku-oriented battle magical girls, magical boys and parodies last",
+     "secs": [
+      "Shōjo Warrior Teams",
+      "Otaku-Oriented Battle Magical Girls",
+      "Magical Boys & Parodies"
+     ]
+    },
+    {
+     "code": "C4-3",
+     "label": "Dark Magical Girl",
+     "breadth": "narrow",
+     "defn": "A magical-girl series that deconstructs the form, making the contract, battles and transformation sources of trauma, death or despair (<i>Mahou Shoujo Madoka Magica</i>, <i>Yuuki Yuuna wa Yuusha de Aru</i>, <i>Mahou Shoujo Ikusei Keikaku</i>, <i>Mahou Shoujo Site</i>).",
+     "aliases": "magical girl deconstruction",
+     "see": "C4-2 Magical Girl Warrior; C8 Drama, Mystery & Psychological Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Magical_girl",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Puella_Magi_Madoka_Magica",
+       "Wikipedia"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "code": "C5",
+   "label": "Romance Anime",
+   "axis": "Axis: by the romantic engine: the girl's love story, comedy and harem forms, drama, then supernatural, fantasy and same-sex romance traditions",
+   "leaves": [
+    {
+     "code": "C5-1",
+     "label": "Shōjo Romance",
+     "breadth": "broad",
+     "defn": "A love story told from a girl's point of view in the shōjo-manga tradition, about first love, confession and the couple's bond (<i>Kimi ni Todoke</i>, <i>Ao Haru Ride</i>, <i>Marmalade Boy</i>, <i>Fruits Basket</i>). Comedy-first school romance goes to C5-4; one heroine wooed by many to C5-3.",
+     "aliases": "shōjo manga romance",
+     "see": "C5-2 Josei Romance; C5-3 Reverse Harem; C5-4 Romantic Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Sh%C5%8Djo_manga",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by setting: school first love, comic and boy's-eye shōjo romance, period and adult shōjo romance",
+     "secs": [
+      "School First Love",
+      "Comic & Boy-Centred Shōjo Romance",
+      "Period & Adult Shōjo Romance"
+     ]
+    },
+    {
+     "code": "C5-2",
+     "label": "Josei Romance",
+     "breadth": "narrow",
+     "defn": "A love story about adult women's work, friendship and relationships, from the josei-manga tradition (<i>Nana</i>, <i>Hachimitsu to Clover</i>, <i>Paradise Kiss</i>, <i>Wotaku ni Koi wa Muzukashii</i>).",
+     "aliases": "josei",
+     "see": "C5-1 Shōjo Romance; C5-6 Romantic Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Josei_manga",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by tone: adult romantic drama, workplace comedy",
+     "secs": [
+      "Adult Romantic Drama",
+      "Workplace & Otaku Romantic Comedy"
+     ]
+    },
+    {
+     "code": "C5-3",
+     "label": "Reverse Harem",
+     "breadth": "narrow",
+     "defn": "A romance in which one heroine is surrounded and courted by several young men (<i>Ouran Koukou Host Club</i>, <i>Hana yori Dango</i>, <i>Uta no Prince-sama</i>-type otome adaptations such as <i>Kiniro no Corda</i>, <i>Diabolik Lovers</i>).",
+     "aliases": "gyaku hāremu, otome game adaptation",
+     "see": "C5-1 Shōjo Romance; C5-5 Harem; C3-3 Otome Isekai",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Reverse_harem",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Otome_game",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by source: shōjo-manga reverse harem, otome-game adaptations",
+     "secs": [
+      "Shōjo Reverse Harem",
+      "Otome-Game Adaptations"
+     ]
+    },
+    {
+     "code": "C5-4",
+     "label": "Romantic Comedy",
+     "breadth": "broad",
+     "defn": "A romance whose engine is comic: misunderstandings, pride, teasing and slow-burning confessions between one central couple (<i>Toradora!</i>, <i>Kaguya-sama wa Kokurasetai</i>, <i>Karakai Jouzu no Takagi-san</i>, <i>Tonikaku Kawaii</i>). A boy courted by many girls goes to C5-5; a girl's first-love story to C5-1.",
+     "aliases": "rabukome, love comedy",
+     "see": "C5-5 Harem; C5-1 Shōjo Romance; C10 Comedy Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Romantic_comedy",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the comic engine: school love comedy, teasing, otaku and gamer romance, marriage and cohabitation, workplace",
+     "secs": [
+      "School Love Comedy",
+      "Teasing Romantic Comedy",
+      "Otaku & Gamer Romantic Comedy",
+      "Marriage & Cohabitation Comedy",
+      "Workplace Romantic Comedy"
+     ]
+    },
+    {
+     "code": "C5-5",
+     "label": "Harem",
+     "breadth": "medium",
+     "defn": "A romance in which one ordinary male lead is surrounded by several girls who desire him (<i>Love Hina</i>, <i>Tenchi Muyou!</i>, <i>Nisekoi</i>, <i>5-toubun no Hanayome</i>). One girl courted by many men goes to C5-3.",
+     "aliases": "hāremu, harem anime",
+     "see": "C5-3 Reverse Harem; C5-4 Romantic Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Harem_(genre)",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by what assembles the harem: domestic and school setting, dating-sim adaptation, sci-fi and fantasy arrivals",
+     "secs": [
+      "Domestic & School Harem",
+      "Dating-Sim & Visual-Novel Harem",
+      "Science-Fiction & Fantasy Harem (Oshikake)"
+     ]
+    },
+    {
+     "code": "C5-6",
+     "label": "Romantic Drama",
+     "breadth": "broad",
+     "defn": "A love story whose engine is longing, loss, illness, love triangles or separation rather than comedy (<i>Clannad</i>, <i>White Album 2</i>, <i>Byousoku 5 Centimeter</i>, <i>Koi wa Ameagari no You ni</i>).",
+     "aliases": "renai drama, nakige, love triangle",
+     "see": "C5-4 Romantic Comedy; C5-7 Sekai-kei; C8 Drama, Mystery & Psychological Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Romance_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Love_triangle",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Visual_novel",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by source and age: visual-novel drama, school-age drama, adult drama, feature films",
+     "secs": [
+      "Visual-Novel Romantic Drama",
+      "School-Age Romantic Drama",
+      "Adult Romantic Drama",
+      "Romance Feature Films"
+     ]
+    },
+    {
+     "code": "C5-7",
+     "label": "Sekai-kei",
+     "breadth": "narrow",
+     "defn": "A love story in which a teenage couple's relationship is tied directly to the fate of the world, with society in between left out (<i>Saishuu Heiki Kanojo</i>, <i>Kimi no Na wa.</i>, <i>Tenki no Ko</i>, <i>Seishun Buta Yarou</i>).",
+     "aliases": "sekai-kei",
+     "see": "C5-6 Romantic Drama; C2 Mecha & Science Fiction Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Sekai-kei",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C5-8",
+     "label": "Paranormal Romance",
+     "breadth": "medium",
+     "defn": "A love story between a human and a supernatural or artificial being: goddess, android, alien, yōkai, vampire or ghost (<i>Aa! Megami-sama!</i>, <i>Chobits</i>, <i>Kamisama Hajimemashita</i>, <i>Vampire Knight</i>). Supernatural stories without a romance engine go to C3.",
+     "aliases": "supernatural romance, oshikake",
+     "see": "C5-5 Harem; C3-13 Yōkai Fiction; C3-15 Vampire Fiction",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Paranormal_romance",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the beloved's nature: goddess, android and alien; yōkai and monster; vampire; ghost",
+     "secs": [
+      "Goddess, Android & Alien Lovers",
+      "Yōkai & Monster Lovers",
+      "Vampire Romance",
+      "Ghost & Spirit Romance"
+     ]
+    },
+    {
+     "code": "C5-9",
+     "label": "Romantic Fantasy",
+     "breadth": "medium",
+     "defn": "A love story set in a fantasy or fairy-tale kingdom whose engine is the courtship (<i>Akagami no Shirayuki-hime</i>, <i>Akatsuki no Yona</i>, <i>Unnamed Memory</i>, <i>Loop 7-kaime no Akuyaku Reijou</i>). Rebirth into an otome game goes to C3-3.",
+     "aliases": "fantasy romance, villainess romance, konyaku haki",
+     "see": "C3-3 Otome Isekai; C3-5 High Fantasy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Romantic_fantasy",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the romance plot: fairy-tale and court romance, villainess and broken-engagement romance",
+     "secs": [
+      "Fairy-Tale & Court Romance",
+      "Villainess & Broken-Engagement Romance"
+     ]
+    },
+    {
+     "code": "C5-10",
+     "label": "Boys' Love",
+     "breadth": "medium",
+     "defn": "A romance between male characters in the boys' love (yaoi) tradition (<i>Junjou Romantica</i>, <i>Given</i>, <i>Sasaki to Miyano</i>, <i>Loveless</i>).",
+     "aliases": "BL, yaoi, shōnen-ai",
+     "see": "C5-11 Yuri; B5 Boys' Love & Girls' Love Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Yaoi",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by setting and mode: school and youth BL, adult and workplace BL, fantasy and OVA BL",
+     "secs": [
+      "School & Youth BL",
+      "Adult & Workplace BL",
+      "Fantasy, Sci-Fi & OVA BL"
+     ]
+    },
+    {
+     "code": "C5-11",
+     "label": "Yuri",
+     "breadth": "narrow",
+     "defn": "A romance or intense bond between female characters in the yuri tradition (<i>Maria-sama ga Miteru</i>, <i>Yagate Kimi ni Naru</i>, <i>Adachi to Shimamura</i>, <i>Citrus</i>).",
+     "aliases": "girls' love, shōjo-ai",
+     "see": "C5-10 Boys' Love; B5 Boys' Love & Girls' Love Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Yuri_(genre)",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by mode: everyday and school yuri, fantasy and comic yuri",
+     "secs": [
+      "School & Everyday Yuri",
+      "Fantasy & Comic Yuri"
+     ]
+    }
+   ]
+  }
+ ]
+}
