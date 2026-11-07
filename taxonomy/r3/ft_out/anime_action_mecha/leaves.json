@@ -1,0 +1,717 @@
+{
+ "subs": [
+  {
+   "code": "C1",
+   "label": "Action & Battle Anime",
+   "axis": "Axis: by the fighting engine and its tradition: shōnen power battles first, then contest, school and urban-fantasy forms, adult and martial traditions, heroes, street and gun action, military last",
+   "leaves": [
+    {
+     "code": "C1-1",
+     "label": "Battle Shōnen",
+     "breadth": "broad",
+     "defn": "A long-running shōnen serial whose engine is an escalating ladder of fights inside a power system, with a hero who grows through rivals, training arcs and tournaments (<i>One Piece</i>, <i>Hunter x Hunter</i>, <i>Fairy Tail</i>, <i>Fullmetal Alchemist</i>). If the powers are ki-based martial arts it goes to C1-9; if the foes are demons, yōkai or curses, to C1-2.",
+     "aliases": "battle manga, battle shōnen",
+     "see": "C1-2 Supernatural Battle Shōnen; C1-9 Martial Arts Anime; C3 Fantasy & Isekai Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Shōnen_manga",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the world the fights happen in: sea and quest worlds first, then fantasy kingdoms, then modern cities, contest formats last",
+     "secs": [
+      "Pirate, Hunter & Quest Adventures",
+      "Fantasy-Kingdom & Alchemy Battles",
+      "Modern-World Ability Squads",
+      "Proxy-Battle Contests"
+     ]
+    },
+    {
+     "code": "C1-2",
+     "label": "Supernatural Battle Shōnen",
+     "breadth": "medium",
+     "defn": "A battle shōnen whose fighters hunt or channel the supernatural, shinigami, yōkai, demons, curses, as an organised calling (<i>Bleach</i>, <i>Kimetsu no Yaiba</i>, <i>Jujutsu Kaisen</i>, <i>InuYasha</i>). Vampire hunting goes to C1-7; adult splatter to C1-8.",
+     "aliases": "yōkai battle, exorcist shōnen",
+     "see": "C1-1 Battle Shōnen; C1-7 Vampire Anime; C9 Horror Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Shōnen_manga",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Yōkai",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the kind of spirit fought: the afterlife first, then yōkai and demons, then curses and exorcism",
+     "secs": [
+      "Shinigami & Afterlife Battles",
+      "Yōkai & Demon-Hunter Battles",
+      "Exorcist & Curse-User Battles"
+     ]
+    },
+    {
+     "code": "C1-3",
+     "label": "Superpower Anime (chōnōryoku)",
+     "breadth": "medium",
+     "defn": "Action whose combatants are espers or ability users with one personal power each, and whose drama is the rules of those powers (<i>JoJo no Kimyou na Bouken</i>, <i>Toaru Kagaku no Railgun</i>, <i>Bungou Stray Dogs</i>, <i>Darker than Black</i>). Costumed hero work goes to C1-13.",
+     "aliases": "esper anime, ability battle, chōnōryoku",
+     "see": "C1-13 Superhero Anime; C1-1 Battle Shōnen",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Superpower_(ability)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Psychic",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by how the powers are organised: one-to-one ability duels, then esper cities, then agencies and syndicates, then hunted test subjects",
+     "secs": [
+      "Stand & Ability Duels",
+      "Esper Cities & Institutes",
+      "Ability Detectives & Syndicates",
+      "Fugitive Espers & Test Subjects"
+     ]
+    },
+    {
+     "code": "C1-4",
+     "label": "Battle Royale & Death Game Anime",
+     "breadth": "medium",
+     "defn": "Action built on an enclosed, rule-bound contest in which participants must kill or be eliminated until one survives (<i>Fate/Zero</i>, <i>Gantz</i>, <i>Darwin's Game</i>, <i>Juuni Taisen</i>). An open tournament without killing goes to C1-9.",
+     "aliases": "death game (desu gēmu), Holy Grail War",
+     "see": "C8 Drama, Mystery & Psychological Anime; C1-3 Superpower Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Battle_royale_genre",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Death_game",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the contest: the Holy Grail War franchise first, then other kill-or-die games",
+     "secs": [
+      "Holy Grail Wars (Fate)",
+      "Death-Game Survival"
+     ]
+    },
+    {
+     "code": "C1-5",
+     "label": "Battle School Anime",
+     "breadth": "medium",
+     "defn": "A school or academy series, usually from a light novel, in which students rank, duel and graduate by combat magic or weapons (<i>Mahouka Koukou no Rettousei</i>, <i>Rakudai Kishi no Cavalry</i>, <i>Gakusen Toshi Asterisk</i>, <i>Kill la Kill</i>). A school setting in a Jump battle serial stays in C1-1.",
+     "aliases": "gakuen battle, battle academy, magic high school",
+     "see": "C1-6 Urban Fantasy Action; C5 Romance Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Light_novel",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Harem_(genre)",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by what the hierarchy rests on: magic-school rankings first, then duel-harem and uniform-weapon academies",
+     "secs": [
+      "Magic-School Hierarchies",
+      "Duel & Harem Academies"
+     ]
+    },
+    {
+     "code": "C1-6",
+     "label": "Urban Fantasy Action",
+     "breadth": "medium",
+     "defn": "Action in which a hidden magical or otherworldly order breaks into the contemporary city and ordinary teens fight it, chiefly from light novels and games (<i>Shakugan no Shana</i>, <i>Persona 4 the Animation</i>, <i>Ore dake Level Up na Ken</i>, <i>X</i>). Shōnen-magazine demon hunting goes to C1-2.",
+     "aliases": "gendai fantasy",
+     "see": "C1-2 Supernatural Battle Shōnen; C3 Fantasy & Isekai Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Urban_fantasy",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by what breaks in: hidden magic among us, then dungeon gates and hunters, then demon and otherworld incursions",
+     "secs": [
+      "Hidden-World Magic Battles",
+      "Dungeon-Gate Hunters",
+      "Demon & Otherworld Incursions"
+     ]
+    },
+    {
+     "code": "C1-7",
+     "label": "Vampire Anime",
+     "breadth": "narrow",
+     "defn": "Action whose fighters are vampires or vampire hunters and whose conflict is the war between the undead and the living (<i>Hellsing Ultimate</i>, <i>Strike the Blood</i>, <i>Owari no Seraph</i>, <i>Blade</i>).",
+     "aliases": "kyūketsuki",
+     "see": "C1-2 Supernatural Battle Shōnen; C9 Horror Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Vampire_film",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Vampire_literature",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C1-8",
+     "label": "Seinen Action Anime",
+     "breadth": "medium",
+     "defn": "Adult-demographic action whose fights are graphic, its heroes monstrous or compromised, and its tone nihilist (<i>Tokyo Ghoul</i>, <i>Ajin</i>, <i>Terra Formars</i>, <i>Akame ga Kill!</i>). Horror without a fighting engine goes to C9.",
+     "aliases": "dark action",
+     "see": "C9 Horror Anime; C1-2 Supernatural Battle Shōnen",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Seinen_manga",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Splatter_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C1-9",
+     "label": "Martial Arts Anime",
+     "breadth": "medium",
+     "defn": "Anime whose fights are bodily martial technique, ki, styles and lineages, contested in duels and tournaments (<i>Dragon Ball Z</i>, <i>Grappler Baki</i>, <i>Hokuto no Ken</i>, <i>Saint Seiya</i>). Weapon-based Japanese swordsmanship goes to C1-11; Chinese martial worlds to C1-12.",
+     "aliases": "kakutō anime",
+     "see": "C1-1 Battle Shōnen; C1-12 Wuxia & Xianxia Animation; A7 Action & Martial Arts",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Martial_arts_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the fighting tradition: ki power-escalation first, then armoured warriors, tournaments, game adaptations, school brawlers and the post-apocalyptic fist",
+     "secs": [
+      "Ki & Power-Escalation Fighters",
+      "Armoured Constellation Warriors",
+      "Fighting Tournaments & Underground Bouts",
+      "Fighting-Game Adaptations",
+      "School-Brawl Fighters",
+      "Post-Apocalyptic Fist"
+     ]
+    },
+    {
+     "code": "C1-10",
+     "label": "Ninja Anime",
+     "breadth": "medium",
+     "defn": "Anime whose fighters are shinobi using ninjutsu or ninpō, historical or modern (<i>Naruto</i>, <i>Basilisk: Kouga Ninpou Chou</i>, <i>Juubee Ninpuuchou</i>, <i>Nabari no Ou</i>).",
+     "aliases": "shinobi, ninpōchō",
+     "see": "C1-11 Samurai & Chanbara Anime; C1-1 Battle Shōnen",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Ninja_in_popular_culture",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Ninja_film",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by setting: the Naruto franchise first, then historical ninpō duels, then modern ninja",
+     "secs": [
+      "Naruto & Boruto",
+      "Historical Ninpō Battles",
+      "Modern Ninja"
+     ]
+    },
+    {
+     "code": "C1-11",
+     "label": "Samurai & Chanbara Anime",
+     "breadth": "medium",
+     "defn": "A jidaigeki in animation: swordsmen of feudal or Bakumatsu Japan whose engine is the blade duel (<i>Rurouni Kenshin</i>, <i>Samurai Champloo</i>, <i>Shigurui</i>, <i>Hakuouki</i>). Ninja go to C1-10.",
+     "aliases": "chanbara, jidaigeki anime, kengeki",
+     "see": "C1-10 Ninja Anime; A8 Historical & Period Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Chanbara",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Jidaigeki",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by era and engine: wandering swordsmen first, then Bakumatsu and Shinsengumi, Sengoku warlords, supernatural jidaigeki, battle-shōnen jidaigeki",
+     "secs": [
+      "Wandering Swordsmen & Rōnin",
+      "Bakumatsu & Shinsengumi",
+      "Sengoku Warlords",
+      "Supernatural & Demon-Hunting Jidaigeki",
+      "Battle-Shōnen Jidaigeki"
+     ]
+    },
+    {
+     "code": "C1-12",
+     "label": "Wuxia & Xianxia Animation",
+     "breadth": "medium",
+     "defn": "Chinese animation (donghua) of the martial world (<i>wuxia</i>) or of Daoist cultivation toward immortality (<i>xianxia</i>), including modern-city cultivation (<i>Mo Dao Zu Shi</i>, <i>Doupo Cangqiong</i>, <i>Scissor Seven</i>, <i>Yi Ren Zhi Xia</i>).",
+     "aliases": "donghua cultivation, xiuxian",
+     "see": "C1-9 Martial Arts Anime; C3 Fantasy & Isekai Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Wuxia",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Xianxia",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Donghua",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the martial world: jianghu wuxia first, then xianxia cultivation epics, then modern-city cultivation",
+     "secs": [
+      "Jianghu Wuxia",
+      "Xianxia Cultivation Epics",
+      "Modern-City Cultivation"
+     ]
+    },
+    {
+     "code": "C1-13",
+     "label": "Superhero Anime",
+     "breadth": "medium",
+     "defn": "Anime about costumed or transforming heroes who protect the public, including hero societies, henshin teams, deconstructions and American comics made in Japan (<i>Boku no Hero Academia</i>, <i>One Punch Man</i>, <i>Tiger & Bunny</i>, <i>Kagaku Ninja-tai Gatchaman</i>). Tokusatsu-derived giant heroes go to C2-5.",
+     "aliases": "hīrō anime",
+     "see": "C1-3 Superpower Anime; C2-5 Tokusatsu & Kaiju Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Superhero_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Henshin",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the hero tradition: hero society first, then henshin and cyborg teams, parody and deconstruction, American comics",
+     "secs": [
+      "Hero Society (My Hero Academia)",
+      "Henshin & Cyborg Hero Teams",
+      "Superhero Parody & Deconstruction",
+      "American Comics in Anime"
+     ]
+    },
+    {
+     "code": "C1-14",
+     "label": "Delinquent Anime (yankī)",
+     "breadth": "narrow",
+     "defn": "Anime about high-school delinquents and bōsōzoku gangs whose engine is the street brawl and gang loyalty (<i>Tokyo Revengers</i>, <i>Wind Breaker</i>, <i>Beelzebub</i>).",
+     "aliases": "furyō, yankī manga",
+     "see": "C1-9 Martial Arts Anime; C10 Comedy Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Yankī",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Bōsōzoku",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C1-15",
+     "label": "Gun Action Anime",
+     "breadth": "medium",
+     "defn": "Action whose engine is gunplay by hitmen, sweepers, mercenaries or armed heroines (<i>Black Lagoon</i>, <i>City Hunter</i>, <i>Noir</i>, <i>Lycoris Recoil</i>). Military units go to C1-17; cyborg police to C2-8.",
+     "aliases": "girls with guns, gun fu, hitman anime",
+     "see": "A2 Crime; C1-17 Military Action Anime; C2-8 Cyberpunk Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Girls_with_guns",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Gun_fu",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Heroic_bloodshed",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by who holds the gun: hitmen and sweepers, then girls with guns, then mercenaries and mafia",
+     "secs": [
+      "Hitmen, Sweepers & Assassins",
+      "Girls with Guns",
+      "Mercenaries, Arms Dealers & Mafia"
+     ]
+    },
+    {
+     "code": "C1-16",
+     "label": "Spy Anime",
+     "breadth": "narrow",
+     "defn": "Action whose heroes are secret agents running covert missions (<i>Princess Principal</i>, <i>Spy Kyoushitsu</i>, <i>R.O.D: Read or Die</i>, <i>Yozakura-san Chi no Daisakusen</i>).",
+     "aliases": "espionage anime",
+     "see": "C1-15 Gun Action Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Spy_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Spy_film",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C1-17",
+     "label": "Military Action Anime",
+     "breadth": "narrow",
+     "defn": "Action about soldiers, pilots and units in present-day or alternate-history warfare, without mecha or space settings (<i>Area 88</i>, <i>Pumpkin Scissors</i>, <i>Kouya no Kotobuki Hikoutai</i>). Future warfare goes to C2-7.",
+     "aliases": "military anime",
+     "see": "C2-7 Military Science Fiction Anime; A9 War Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Military_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Aerial_warfare_film",
+       "Wikipedia"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "code": "C2",
+   "label": "Mecha & Science Fiction Anime",
+   "axis": "Axis: by the science-fiction premise: giant robots first, then tokusatsu, space, war and tech-noir premises, then future societies, time and alien premises, anthologies last",
+   "leaves": [
+    {
+     "code": "C2-1",
+     "label": "Super Robot",
+     "breadth": "medium",
+     "defn": "Mecha anime in which a unique, near-mythic giant robot piloted by a hot-blooded hero fights monsters or invaders, with named attacks and combinations (<i>Mazinger Z</i>, <i>Tengen Toppa Gurren Lagann</i>, <i>Shinseiki Evangelion</i>, <i>Yuusha-Ou GaoGaiGar</i>). Mass-produced machines in a realistic war go to C2-2.",
+     "aliases": "sūpā robotto",
+     "see": "C2-2 Real Robot; C2-5 Tokusatsu & Kaiju Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Super_robot",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Mecha_anime_and_manga",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the robot's mode: 1970s classics first, then hot-blooded revivals, deconstructions, occult giants, surreal and parody robots",
+     "secs": [
+      "Classic Super Robots",
+      "Combining & Hot-Blooded Revivals",
+      "Mecha Deconstructions",
+      "Occult & Mystic Giants",
+      "Surreal & Parody Robots"
+     ]
+    },
+    {
+     "code": "C2-2",
+     "label": "Real Robot",
+     "breadth": "broad",
+     "defn": "Mecha anime in which robots are mass-produced weapons or tools in a plausible war or society, with logistics, politics and attrition (<i>Soukou Kihei Votoms</i>, <i>Macross</i>, <i>Code Geass</i>, <i>Kidou Keisatsu Patlabor</i>). The Gundam franchise is C2-3.",
+     "aliases": "riaru robotto",
+     "see": "C2-3 Gundam; C2-1 Super Robot; C2-7 Military Science Fiction Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Real_robot",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Mecha_anime_and_manga",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the battlefield: military mecha wars first, then rebellion and politics, transforming fighters, alien wars, police mecha, fantasy-world mecha, teen and comedy mecha",
+     "secs": [
+      "Military Mecha Wars",
+      "Rebellion & Political Mecha (Code Geass)",
+      "Transforming Fighters & Idol Wars (Macross)",
+      "Alien-War & Survival Mecha",
+      "Police & Labor Mecha",
+      "Fantasy-World Mecha",
+      "Teen & Comedy Mecha"
+     ]
+    },
+    {
+     "code": "C2-3",
+     "label": "Gundam",
+     "breadth": "narrow",
+     "defn": "Any entry of Sunrise's Gundam franchise, the founding real-robot saga (<i>Kidou Senshi Gundam</i>, <i>Kidou Senshi Zeta Gundam</i>, <i>Gundam Wing</i>, <i>Kidou Senshi Gundam: Suisei no Majo</i>).",
+     "aliases": "Mobile Suit Gundam",
+     "see": "C2-2 Real Robot",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Gundam",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by continuity: the Universal Century first, then alternate universes, then Gunpla battle spin-offs",
+     "secs": [
+      "Universal Century",
+      "Alternate Universes",
+      "Gunpla Battle"
+     ]
+    },
+    {
+     "code": "C2-4",
+     "label": "Mecha Musume",
+     "breadth": "narrow",
+     "defn": "Anime whose fighters are girls fused with machine parts, warships or aircraft, or girl-shaped machines (<i>Strike Witches</i>, <i>Kantai Collection: KanColle</i>, <i>Aoki Hagane no Arpeggio</i>, <i>Frame Arms Girl</i>).",
+     "aliases": "moe anthropomorphism, ship girls",
+     "see": "C2-7 Military Science Fiction Anime; C6 Slice of Life & Iyashikei Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Mecha_musume",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C2-5",
+     "label": "Tokusatsu & Kaiju Anime",
+     "breadth": "narrow",
+     "defn": "Animation of the tokusatsu tradition, giant monsters (kaiju), Ultra-type giant heroes and Kamen Rider-type henshin armour (<i>SSSS.Gridman</i>, <i>Ultraman</i>, <i>Godzilla: Kaijuu Wakusei</i>, <i>Kaijuu 8-gou</i>).",
+     "aliases": "kaijū eiga, henshin hero",
+     "see": "C1-13 Superhero Anime; C2-1 Super Robot",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Tokusatsu",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Kaiju",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C2-6",
+     "label": "Space Opera Anime",
+     "breadth": "broad",
+     "defn": "Science fiction set among starships and planets, whose scale is interstellar war, piracy or roaming adventure (<i>Ginga Eiyuu Densetsu</i>, <i>Uchuu Senkan Yamato</i>, <i>Cowboy Bebop</i>, <i>Uchuu Kaizoku Captain Herlock</i>). Space mecha go to C2-1/C2-2.",
+     "aliases": "uchū SF",
+     "see": "C2-2 Real Robot; C2-7 Military Science Fiction Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Space_opera",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Space_Western",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the voyage: galactic war epics first, then space pirates and wanderers, space westerns and bounty hunters, space adventure and survival",
+     "secs": [
+      "Galactic War Epics",
+      "Space Pirates & Wanderers",
+      "Space Westerns & Bounty Hunters",
+      "Space Adventure & Survival"
+     ]
+    },
+    {
+     "code": "C2-7",
+     "label": "Military Science Fiction Anime",
+     "breadth": "narrow",
+     "defn": "Science fiction about future or alternate-world soldiers, fleets and wars, without giant robots as the core (<i>Last Exile</i>, <i>Blue Gender</i>, <i>Gyakusatsu Kikan</i>, <i>All You Need Is Kill</i>).",
+     "aliases": "military SF",
+     "see": "C2-2 Real Robot; C1-17 Military Action Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Military_science_fiction",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C2-8",
+     "label": "Cyberpunk Anime",
+     "breadth": "medium",
+     "defn": "Science fiction of high tech and low life: cyborgs, networks and megacities policed by corporations and states (<i>Akira</i>, <i>Koukaku Kidoutai</i>, <i>Psycho-Pass</i>, <i>Cyberpunk: Edgerunners</i>).",
+     "aliases": "saibāpanku",
+     "see": "C2-9 Virtual Reality Anime; C2-11 Dystopian Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Cyberpunk",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the cyberpunk strand: Ghost in the Shell first, then cyber-police and hardsuits, cyborg and android noir, megacity dystopias",
+     "secs": [
+      "Ghost in the Shell",
+      "Cyber-Police & Hardsuits",
+      "Cyborg & Android Noir",
+      "Megacity Underworlds"
+     ]
+    },
+    {
+     "code": "C2-9",
+     "label": "Virtual Reality Anime",
+     "breadth": "narrow",
+     "defn": "Science fiction whose stakes play out inside virtual worlds, games or augmented reality (<i>Accel World</i>, <i>Summer Wars</i>, <i>Dennou Coil</i>, <i>Sword Art Online Alternative: Gun Gale Online</i>). Trapped-in-another-world fantasy goes to C3.",
+     "aliases": "VRMMO anime, cyberspace",
+     "see": "C3 Fantasy & Isekai Anime; C2-8 Cyberpunk Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Virtual_reality_in_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Simulated_reality_in_fiction",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C2-10",
+     "label": "Android & Artificial Intelligence Anime",
+     "breadth": "narrow",
+     "defn": "Science fiction whose subject is robots, androids and AIs as persons (<i>Tetsuwan Atom</i>, <i>Pluto</i>, <i>Eve no Jikan</i>, <i>Vivy: Fluorite Eye's Song</i>). Giant piloted robots go to C2-1/C2-2.",
+     "aliases": "robot anime (non-mecha)",
+     "see": "C2-8 Cyberpunk Anime; C2-1 Super Robot",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Artificial_intelligence_in_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Android_(robot)",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C2-11",
+     "label": "Dystopian Anime",
+     "breadth": "narrow",
+     "defn": "Science fiction of a controlled, unjust future society that its heroes expose or resist (<i>Shinsekai yori</i>, <i>No.6</i>, <i>Harmony</i>, <i>Guilty Crown</i>). Tech-noir megacities go to C2-8.",
+     "aliases": "",
+     "see": "C2-8 Cyberpunk Anime; C2-12 Post-Apocalyptic Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Dystopia",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Utopian_and_dystopian_fiction",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C2-12",
+     "label": "Post-Apocalyptic Anime",
+     "breadth": "medium",
+     "defn": "Science fiction set after the collapse of civilisation, about surviving, wandering or rebuilding (<i>Kaze no Tani no Nausicaä</i>, <i>Dr. Stone</i>, <i>Shoujo Shuumatsu Ryokou</i>, <i>Casshern Sins</i>). Hokuto no Ken stays in C1-9.",
+     "aliases": "",
+     "see": "C2-11 Dystopian Anime; C1-9 Martial Arts Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Apocalyptic_and_post-apocalyptic_fiction",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by what follows the fall: rebuilding first, then wasteland action, eco-apocalypse, quiet end-of-world journeys",
+     "secs": [
+      "Survival & Rebuilding",
+      "Wasteland Action",
+      "Eco-Apocalypse",
+      "Quiet End-of-the-World"
+     ]
+    },
+    {
+     "code": "C2-13",
+     "label": "Time Travel Anime",
+     "breadth": "narrow",
+     "defn": "Science fiction whose plot engine is time travel, time loops or crossing between parallel worlds (<i>Steins;Gate</i>, <i>Toki wo Kakeru Shoujo</i>, <i>Noein</i>, <i>Gnosia</i>).",
+     "aliases": "time leap, taimu ripu",
+     "see": "C8 Drama, Mystery & Psychological Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Time_travel_in_fiction",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Parallel_universes_in_fiction",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C2-14",
+     "label": "Alien Invasion & First Contact Anime",
+     "breadth": "narrow",
+     "defn": "Science fiction about aliens arriving on Earth, invading, infiltrating, or simply moving in (<i>Kiseijuu: Sei no Kakuritsu</i>, <i>Seikaisuru Kado</i>, <i>Dead Dead Demons Dededede Destruction</i>, <i>Ansatsu Kyoushitsu</i>).",
+     "aliases": "",
+     "see": "C2-6 Space Opera Anime; C10 Comedy Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Alien_invasion",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/First_contact_(science_fiction)",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C2-15",
+     "label": "Hard Science Fiction Anime",
+     "breadth": "narrow",
+     "defn": "Science fiction grounded in plausible physics and engineering, usually of spaceflight and work in orbit (<i>Planetes</i>, <i>Ouritsu Uchuugun: Honneamise no Tsubasa</i>, <i>Chikyuugai Shounen Shoujo</i>).",
+     "aliases": "",
+     "see": "C2-6 Space Opera Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Hard_science_fiction",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C2-16",
+     "label": "Steampunk Anime",
+     "breadth": "narrow",
+     "defn": "Science fiction of an alternate steam-age technology, airships and clockwork (<i>Steamboy</i>, <i>Fushigi no Umi no Nadia</i>, <i>Sakura Taisen</i>, <i>Clockwork Planet</i>).",
+     "aliases": "",
+     "see": "C2-2 Real Robot; C1-16 Spy Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Steampunk",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "C2-17",
+     "label": "Science Fiction Anthology Film",
+     "breadth": "narrow",
+     "defn": "An omnibus of short SF films by several directors under one title (<i>Memories</i>, <i>Robot Carnival</i>, <i>Manie-Manie: Meikyuu Monogatari</i>, <i>Genius Party</i>).",
+     "aliases": "omnibus film",
+     "see": "C14 Animated Short; C2-8 Cyberpunk Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Anthology_film",
+       "Wikipedia"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

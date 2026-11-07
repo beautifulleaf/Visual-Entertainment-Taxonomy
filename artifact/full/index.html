@@ -81,6 +81,10 @@ details.key p{margin:5px 0}
 .srcs a{text-decoration:none}
 .srcs a:hover{text-decoration:underline}
 .leaf-foot{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:auto}
+.copy-btn{border:0;background:none;color:var(--muted);cursor:pointer;padding:2px 0;font-size:.85rem;font-weight:500;margin-left:auto;margin-right:14px}
+.copy-btn:hover{color:var(--h)}
+.kaxis{font-size:.8rem;color:var(--muted);font-style:italic;margin:2px 0 8px}
+.fsec{margin:10px 0 2px;font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--h)}
 .open-btn{border:0;background:none;color:var(--h);cursor:pointer;padding:2px 0;font-size:.85rem;font-weight:500}
 .kinds{border-top:1px solid var(--rule);margin-top:4px;padding-top:6px;display:grid;gap:10px}
 .kgrp h5{margin:0 0 3px;font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--h)}
@@ -166,15 +170,25 @@ function vaKinds(l,rows){
   if(!rows.length) return '<p class="empty">No kind placed yet. The tradition is attested; its sub-types and makers arrive with the next sources.</p>';
   const groups={}; const order=[];
   for(const k of rows){const g=k[1]||(k[4]?'Makers':'Sub-types, centres and named groups'); if(!groups[g]){groups[g]=[];order.push(g)} groups[g].push(k)}
-  order.sort((a,b)=>(a==='Makers'||a==='Artists')-(b==='Makers'||b==='Artists'));
+  if(l.secs&&l.secs.length){const p=g=>{const i=l.secs.indexOf(g);return i<0?1e6:i}; order.sort((a,b)=>p(a)-p(b))}
+  else order.sort((a,b)=>(a==='Makers'||a==='Artists')-(b==='Makers'||b==='Artists'));
   const lim=state.all.has(l.code)?1e9:SHOW;
-  return order.map(g=>`<div class="kgrp"><h5>${esc(g)} · ${groups[g].length}</h5><ul>${groups[g].slice(0,lim).map(k=>`<li class="${state.hl===k[0]?'hl':''}"><span class="kn">${esc(k[0])}</span>${k[2]?` <span class="kmeta">— ${esc(k[2])}</span>`:''}</li>`).join('')}</ul>${more(l.code,groups[g].length)}</div>`).join('')
+  return (l.axis?`<p class="kaxis">Sections: ${esc(l.axis)}</p>`:'')+order.map(g=>`<div class="kgrp"><h5>${esc(g)} · ${groups[g].length}</h5><ul>${groups[g].slice(0,lim).map(k=>`<li class="${state.hl===k[0]?'hl':''}"><span class="kn">${esc(k[0])}</span>${k[2]?` <span class="kmeta">— ${esc(k[2])}</span>`:''}</li>`).join('')}</ul>${more(l.code,groups[g].length)}</div>`).join('')
    +(l.alias_rows&&l.alias_rows.length?`<p class="extra"><b>Also gathered as</b> ${l.alias_rows.map(esc).join(' · ')}</p>`:'');
 }
+function ftSections(l,rows){ /* [[label,rows]] in section order; rows without a section last */
+  if(!(l.secs&&l.secs.length)) return [['',rows]];
+  const g=l.secs.map(x=>[x,[]]), rest=[];
+  for(const k of rows){const i=parseInt(k[8],10); if(i>=1&&i<=g.length) g[i-1][1].push(k); else rest.push(k)}
+  if(rest.length) g.push(['Unsectioned',rest]); return g.filter(x=>x[1].length);
+}
+function ftRow(k){return `<tr class="${state.hl===k[0]?'hl':''}"><td class="y">${esc(String(k[1]).slice(0,9))}</td><td>${idLink(k[5],k[0])}${k[6]?` <span class="mtag">${esc(k[6])}</span>`:''}${k[7]&&k[7]!=='film'?` <span class="kindtag">${esc(k[7])}</span>`:''}</td><td>${esc(k[2])}</td><td class="code">${esc(k[3])}</td><td class="kmeta">${esc(k[4])}</td></tr>`}
 function ftKinds(l,rows){
   if(!rows.length) return '<p class="empty">No title is placed here in this release. The leaf is attested and kept for completeness.</p>';
-  const lim=state.all.has(l.code)?rows.length:Math.min(rows.length,SHOW);
-  return `<div class="tw"><table class="films"><thead><tr><th>Year</th><th>Title</th><th>Director / country</th><th>See also</th><th>Note</th></tr></thead><tbody>${rows.slice(0,lim).map(k=>`<tr class="${state.hl===k[0]?'hl':''}"><td class="y">${esc(String(k[1]).slice(0,9))}</td><td>${idLink(k[5],k[0])}${k[6]?` <span class="mtag">${esc(k[6])}</span>`:''}${k[7]&&k[7]!=='film'?` <span class="kindtag">${esc(k[7])}</span>`:''}</td><td>${esc(k[2])}</td><td class="code">${esc(k[3])}</td><td class="kmeta">${esc(k[4])}</td></tr>`).join('')}</tbody></table></div>${more(l.code,rows.length)}`;
+  let left=state.all.has(l.code)?1e9:SHOW, body='';
+  for(const [lab,rs] of ftSections(l,rows)){ if(left<=0) break; const sl=rs.slice(0,left); left-=sl.length;
+    body+=(lab?`<tr><td colspan="5"><h5 class="fsec">${esc(lab)} · ${rs.length}</h5></td></tr>`:'')+sl.map(ftRow).join(''); }
+  return `${l.axis?`<p class="kaxis">Sections: ${esc(l.axis)}</p>`:''}<div class="tw"><table class="films"><thead><tr><th>Year</th><th>Title</th><th>Director / country</th><th>See also</th><th>Note</th></tr></thead><tbody>${body}</tbody></table></div>${more(l.code,rows.length)}`;
 }
 function leafHTML(t,l,unit){
   const open=state.open.has(l.code); const id=t+'-'+l.code;
@@ -183,15 +197,15 @@ function leafHTML(t,l,unit){
    <div class="leaf-top"><h4><span class="code">${l.code}</span>${esc(l.label)}</h4><span class="badge b-${l.breadth}">${l.breadth}</span></div>
    <p class="defn">${l.defn}</p>
    ${l.aliases?`<p class="aka"><b>Aliases</b> ${esc(l.aliases)}</p>`:''}${l.see?`<p class="aka"><b>See also</b> ${esc(l.see)}</p>`:''}
-   ${srcHTML(l.src)}${l.weak?`<span class="weak">Attestation to confirm: ${esc(l.weak)}</span>`:''}
-   <div class="leaf-foot"><span class="count">${l.n.toLocaleString()} ${t==='FT'?unit:(l.n===1?'kind':'kinds')}</span>${l.n?`<button class="open-btn" data-leaf="${l.code}" aria-expanded="${open}">${open?'Close':(t==='FT'?'Show titles':'Show kinds')}</button>`:''}</div>
+   ${srcHTML(l.src)}${l.catalogues&&l.catalogues.length?`<p class="aka viewall"><b>View all</b> ${l.catalogues.map(([u,lab,w])=>`<a href="${esc(u)}" target="_blank" rel="noopener" title="${esc(w)}">${esc(lab)}</a>${w?` <span class="kmeta">(${esc(w)})</span>`:''}`).join(' · ')}</p>`:''}${l.weak?`<span class="weak">Attestation to confirm: ${esc(l.weak)}</span>`:''}
+   <div class="leaf-foot"><span class="count">${l.n.toLocaleString()} ${t==='FT'?unit:(l.n===1?'kind':'kinds')}</span>${l.n?`<button class="copy-btn" data-leaf="${l.code}" title="Copy this leaf's ${t==='FT'?'titles':'kinds'} as text">Copy</button>`:''}${l.n?`<button class="open-btn" data-leaf="${l.code}" aria-expanded="${open}">${open?'Close':(t==='FT'?'Show titles':'Show kinds')}</button>`:''}</div>
    ${open?`<div class="kinds">${t==='FT'?ftKinds(l,rows):vaKinds(l,rows)}</div>`:''}</article>`;
 }
 function renderTree(t){
   setHue(t); const T=D[t.toLowerCase()]; const c=D.census[t.toLowerCase()];
   let out = t==='VA'
    ? `<p class="lede">Visual Art is divided by what the work is (its medium), never by region or period. This release holds ${c.leaves.toLocaleString()} leaves in ${c.families_built} of the ${T.fams.length} families, with ${c.kinds.toLocaleString()} entries under them: schools, centres, sub-types, makers, architects, artists and the gathered rows that attest each tradition. Dynasties, periods, places and cultures are filters, not nodes.</p>`
-   : `<p class="lede">Film &amp; Television is divided by form (feature, short, series, serial tradition, anime, unscripted format), then by genre, cycle, movement and tradition. This release places ${c.placed.toLocaleString()} selected titles in ${c.leaves} leaves. Country, decade, format and platform are filters.</p>`;
+   : `<p class="lede">Film &amp; Television is divided by form (film, television, animation), then by genre, cycle, movement, tradition and format; large leaves are divided into sections along a stated axis. This release places ${c.placed.toLocaleString()} selected titles in ${c.leaves} leaves. Country, decade, format and platform are filters.</p>`;
   let ix=`<h3>${t==='VA'?'Visual Art':'Film & Television'}</h3><ol>`;
   for(const f of T.fams){
     ix+=`<li><a href="#${t}-${f.code}" class="${f.nleaves?'':'dim'}"><span>${f.code} ${esc(f.label)}</span><span class="n">${f.nleaves?f.n.toLocaleString():''}</span></a></li>`;
@@ -243,7 +257,34 @@ function render(){
   if(state.tab==='REPORT') return renderReport();
   renderTree(state.tab);
 }
+function leafTree(t,code){ if(!LEAF) leafIndex(); const l=LEAF[t+'-'+code]; const rows=(MEM[t+'-'+famOf(code)]||{})[code]||[];
+  const plain=s=>String(s||'').replace(/<[^>]+>/g,'');
+  const title=`${t}-${code} ${l.label} — ${plain(l.defn)}`; const items=[];
+  if(t==='FT'){ for(const [lab,rs] of ftSections(l,rows)){ const kids=rs.map(k=>({text:`${k[0]} (${String(k[1]).slice(0,9)})${k[2]?' — '+k[2]:''}`,kids:[]}));
+      if(lab) items.push({head:lab,text:'',kids}); else items.push(...kids); } }
+  else { const groups={},order=[]; for(const k of rows){const g=k[1]||'Kinds'; if(!groups[g]){groups[g]=[];order.push(g)} groups[g].push(k)}
+    if(l.secs&&l.secs.length){const p=g=>{const i=l.secs.indexOf(g);return i<0?1e6:i}; order.sort((a,b)=>p(a)-p(b))}
+    for(const g of order) items.push({head:g,text:'',kids:groups[g].map(k=>({text:k[0]+(k[2]?' — '+k[2]:''),kids:[]}))}); }
+  return {title,items}; }
+function leafText(t,code){ const T=leafTree(t,code); const out=[T.title];
+  const walk=(ns,d)=>ns.forEach(n=>{ out.push('    '.repeat(d)+'- '+(n.head?(d?'':'**')+n.head+(d?'':'**')+(n.text?': ':''):'')+n.text); walk(n.kids,d+1); });
+  walk(T.items,0); return out.join('\n'); }
+function leafRich(t,code){ const T=leafTree(t,code);
+  const ul=(ns,top)=>ns.length?'<ul>'+ns.map(n=>'<li>'+(n.head?(top?'<strong>'+esc(n.head)+'</strong>':esc(n.head))+(n.text?': ':''):'')+esc(n.text)+ul(n.kids,false)+'</li>').join('')+'</ul>':'';
+  return '<p>'+esc(T.title)+'</p>'+ul(T.items,true); }
+function fallbackCopy(x){ const a=document.createElement('textarea'); a.value=x; a.setAttribute('readonly',''); a.style.position='fixed'; a.style.opacity='0'; document.body.appendChild(a); a.select(); let ok=false; try{ok=document.execCommand('copy')}catch(e){} a.remove(); if(!ok) throw new Error('copy failed'); }
+function richCopy(t,code){ const md=leafText(t,code), html=leafRich(t,code); let ok=false;
+  const h=e=>{ e.clipboardData.setData('text/plain',md); e.clipboardData.setData('text/html',html); e.preventDefault(); ok=true; };
+  document.addEventListener('copy',h); try{ document.execCommand('copy'); }catch(e){} document.removeEventListener('copy',h);
+  if(!ok) fallbackCopy(md); }
+function copyText(x){ if(navigator.clipboard&&window.isSecureContext) return navigator.clipboard.writeText(x).catch(()=>fallbackCopy(x)); return Promise.resolve(fallbackCopy(x)); }
 main.addEventListener('click',e=>{
+  const cb=e.target.closest('.copy-btn'); if(cb){ const c=cb.dataset.leaf, t=state.tab; const done=m=>{cb.textContent=m; setTimeout(()=>{cb.textContent='Copy'},1500)};
+    /* the clipboard write must happen inside the click, so a first click on an unloaded family only loads it */
+    if(MEM[t+'-'+famOf(c)]){ let ok=false; try{ richCopy(t,c); ok=true; }catch(err){}
+      if(ok) done('Copied'); else copyText(leafText(t,c)).then(()=>done('Copied'),()=>done('Copy failed')); }
+    else { cb.textContent='Loading…'; members(t,c).then(()=>{ cb.textContent='Click again to copy'; }, ()=>done('Copy failed')); }
+    return; }
   const a=e.target.closest('.more'); if(a){state.all.add(a.dataset.all); render(); return;}
   const b=e.target.closest('.open-btn'); if(b){const c=b.dataset.leaf; if(state.open.has(c)){state.open.delete(c);render();const el=document.getElementById(state.tab+'-'+c); if(el) el.scrollIntoView({block:'nearest'})} else openLeaf(state.tab,c,false); return;}
   const r=e.target.closest('.res'); if(r) go(r);

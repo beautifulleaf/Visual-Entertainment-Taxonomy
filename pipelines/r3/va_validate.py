@@ -31,8 +31,13 @@ def main(p):
             for g, n in groups.items():
                 if n > 300: soft.append(f"{where}: group '{g}' has {n} rows")
         return len(rows)
+    def check_cats(where, cats):
+        if not cats: soft.append(f"{where}: no catalogues (View all) links"); return
+        for x in cats:
+            if not (isinstance(x, list) and len(x) == 3 and str(x[0]).startswith("http")): hard.append(f"{where}: bad catalogue entry {str(x)[:80]}")
     sizes = {}
-    for c, v in L.items(): sizes[c] = check_rows(c, v.get("kinds", []), v.get("axis"))
+    for c, v in L.items(): sizes[c] = check_rows(c, v.get("kinds", []), v.get("axis")); check_cats(c, v.get("catalogues"))
+    for nl in out.get("new_leaves", []): check_cats(nl.get("key", "?"), nl.get("catalogues"))
     for i, nl in enumerate(out.get("new_leaves", [])):
         k = nl.get("key", f"new{i}")
         for f in ("sub", "label", "breadth", "defn", "src", "kinds"):
