@@ -6425,5 +6425,3597 @@
    ]
   },
   "moves": []
+ },
+ "C14-5": {
+  "label": "Auteur Animated Short",
+  "defn": "An independent or state-studio art short driven by its maker's vision, the festival short of the European and world schools (Piccolo, Hedgehog in the Fog, The Street, Father and Daughter, The Windshield Wiper). American independents go to American Independent Animation; the National Film Board of Canada to its own leaf; stop-motion art shorts to C14-6.",
+  "axis": "by national school: the Zagreb School first, then the Polish School, the Czech-Hungarian-Bulgarian studios, the Soviet and post-Soviet schools, British, French-Belgian-Swiss and other Western European shorts, and the rest of the world last",
+  "secs": [
+   "Zagreb School & Yugoslav Animation",
+   "Polish School of Animation",
+   "Czech, Hungarian & Bulgarian Studios",
+   "Soviet, Russian, Ukrainian & Estonian",
+   "British & Irish Auteur Shorts",
+   "French, Belgian & Swiss Auteur Shorts",
+   "Italian, Iberian, German, Dutch & Nordic Shorts",
+   "Latin American, African & Asian Auteurs"
+  ],
+  "new_leaves": [
+   {
+    "key": "NEW1",
+    "label": "American Independent Animation",
+    "breadth": "US auteur shorts outside the studio system, from the underground to the festival circuit",
+    "defn": "An auteur animated short made in the United States outside the studio system — the underground collage and experimental film, the independent studio short of the Hubleys and their circle, the art-school short, the web-era indie and the studio artist's personal festival short (Number 11: Mirror Animations, The Hole, Asparagus, Rejected, World of Tomorrow, Hair Love). Test: American production, an individual maker's vision; non-figurative work goes to C14-4, studio shorts to C14-3.",
+    "aliases": "US independent animation; underground animation",
+    "src": [
+     [
+      "https://en.wikipedia.org/wiki/Independent_animation",
+      "Wikipedia"
+     ]
+    ],
+    "axis": "by circle and era: underground and collage animation first, then the Hubleys and the independent studio short, the art-school and underground cartoon, Hertzfeldt and the web-era indies, and studio artists' personal festival shorts last",
+    "secs": [
+     "Underground & Collage Animation",
+     "Hubley & the Independent Studio Short",
+     "Art-School & Underground Cartoons",
+     "Hertzfeldt & the Web-Era Indies",
+     "Studio Artists' Festival Shorts"
+    ]
+   },
+   {
+    "key": "NEW2",
+    "label": "National Film Board of Canada Animation",
+    "breadth": "auteur shorts of the NFB animation studios and the Canadian state-broadcaster tradition beside them",
+    "defn": "An auteur animated short from the National Film Board of Canada's English and French animation studios, or from the Canadian public-broadcaster tradition around it (Neighbours, The Street, The Sweater, The Big Snit, The Man Who Planted Trees, When the Day Breaks). Test: a Canadian state-studio production; independents elsewhere stay in C14-5.",
+    "aliases": "NFB animation; ONF animation",
+    "src": [
+     [
+      "https://en.wikipedia.org/wiki/National_Film_Board_of_Canada",
+      "Wikipedia"
+     ]
+    ],
+    "axis": "",
+    "secs": []
+   }
+  ],
+  "assign": {
+   "tt0044958": [
+    "NEW2",
+    0
+   ],
+   "tt0050534": [
+    "NEW2",
+    0
+   ],
+   "tt0055594": [
+    "NEW2",
+    0
+   ],
+   "tt0063417": [
+    "NEW2",
+    0
+   ],
+   "tt0071636": [
+    "NEW2",
+    0
+   ],
+   "tspdt:cat-s-cradle-1974": [
+    "NEW2",
+    0
+   ],
+   "tspdt:an-old-box-1975": [
+    "NEW2",
+    0
+   ],
+   "tt0075273": [
+    "NEW2",
+    0
+   ],
+   "tt0075047": [
+    "NEW2",
+    0
+   ],
+   "tspdt:why-me-1978": [
+    "NEW2",
+    0
+   ],
+   "tt0079126": [
+    "NEW2",
+    0
+   ],
+   "tt0206312": [
+    "NEW2",
+    0
+   ],
+   "tspdt:elbowing-1979": [
+    "NEW2",
+    0
+   ],
+   "tt0134127": [
+    "NEW2",
+    0
+   ],
+   "tt0082209": [
+    "NEW2",
+    0
+   ],
+   "tspdt:beginnings-1981": [
+    "NEW2",
+    0
+   ],
+   "tt0088805": [
+    "NEW2",
+    0
+   ],
+   "tt0093488": [
+    "NEW2",
+    0
+   ],
+   "tt0094847": [
+    "NEW2",
+    0
+   ],
+   "tspdt:two-sisters-1991": [
+    "NEW2",
+    0
+   ],
+   "tt0200282": [
+    "NEW2",
+    0
+   ],
+   "tspdt:le-chapeau-1999": [
+    "NEW2",
+    0
+   ],
+   "tspdt:flux-2002": [
+    "NEW2",
+    0
+   ],
+   "tt0415853": [
+    "self",
+    6
+   ],
+   "tt0933357": [
+    "NEW2",
+    0
+   ],
+   "tspdt:le-journaux-de-lipsett-2010": [
+    "NEW2",
+    0
+   ],
+   "tt11454944": [
+    "NEW2",
+    0
+   ],
+   "tt20240228": [
+    "NEW2",
+    0
+   ],
+   "tt0239854": [
+    "self",
+    3
+   ],
+   "tt0147171": [
+    "self",
+    1
+   ],
+   "tt0051544": [
+    "self",
+    2
+   ],
+   "tt0052585": [
+    "self",
+    2
+   ],
+   "tt0054186": [
+    "self",
+    3
+   ],
+   "tt0054854": [
+    "self",
+    1
+   ],
+   "tt0367944": [
+    "self",
+    2
+   ],
+   "tt0057450": [
+    "self",
+    2
+   ],
+   "tt0058246": [
+    "self",
+    2
+   ],
+   "tt0848381": [
+    "self",
+    2
+   ],
+   "tspdt:macka-1971": [
+    "self",
+    1
+   ],
+   "tspdt:apel-1971": [
+    "self",
+    2
+   ],
+   "tt1814743": [
+    "self",
+    2
+   ],
+   "tspdt:de-fakto-1973": [
+    "self",
+    3
+   ],
+   "tt0073715": [
+    "self",
+    3
+   ],
+   "tt0475949": [
+    "self",
+    1
+   ],
+   "tspdt:hitlerpinochet-1975": [
+    "self",
+    3
+   ],
+   "tt0263091": [
+    "self",
+    3
+   ],
+   "tspdt:oj-nie-moge-sie-zatrzymac-1976": [
+    "self",
+    2
+   ],
+   "tt9347268": [
+    "self",
+    3
+   ],
+   "tspdt:portret-1977": [
+    "self",
+    2
+   ],
+   "tspdt:rondino-1977": [
+    "self",
+    3
+   ],
+   "tt0257098": [
+    "self",
+    1
+   ],
+   "tspdt:refleksy-1979": [
+    "self",
+    2
+   ],
+   "tt0081040": [
+    "self",
+    3
+   ],
+   "tspdt:fly-the-a-legy-1980": [
+    "self",
+    3
+   ],
+   "tt0084764": [
+    "self",
+    2
+   ],
+   "tspdt:blok-1982": [
+    "self",
+    2
+   ],
+   "tspdt:reci-reci-reci-1991": [
+    "self",
+    3
+   ],
+   "tspdt:franz-kafka-1992": [
+    "self",
+    2
+   ],
+   "tt0114269": [
+    "self",
+    3
+   ],
+   "tspdt:tuning-the-instruments-2000": [
+    "self",
+    2
+   ],
+   "tt0440846": [
+    "self",
+    2
+   ],
+   "tt1474921": [
+    "self",
+    1
+   ],
+   "tt3044174": [
+    "self",
+    1
+   ],
+   "tspdt:hipopotamy-2014": [
+    "self",
+    2
+   ],
+   "tt6324176": [
+    "self",
+    2
+   ],
+   "tspdt:impossible-figures-and-other-stories-ii-2016": [
+    "self",
+    2
+   ],
+   "tt7489792": [
+    "self",
+    2
+   ],
+   "tt11386280": [
+    "self",
+    1
+   ],
+   "tspdt:three-birds-2024": [
+    "self",
+    1
+   ],
+   "tt13021784": [
+    "self",
+    3
+   ],
+   "tspdt:pochta-1929": [
+    "self",
+    4
+   ],
+   "tspdt:man-and-word-1973": [
+    "self",
+    4
+   ],
+   "tt0383165": [
+    "self",
+    4
+   ],
+   "tt0475747": [
+    "self",
+    4
+   ],
+   "tt0452324": [
+    "self",
+    4
+   ],
+   "tt0383174": [
+    "self",
+    4
+   ],
+   "tt0452346": [
+    "self",
+    4
+   ],
+   "tspdt:his-wife-is-a-hen-1990": [
+    "self",
+    4
+   ],
+   "tt0475612": [
+    "self",
+    4
+   ],
+   "tt0475730": [
+    "self",
+    4
+   ],
+   "tt5694506": [
+    "self",
+    4
+   ],
+   "tt26235068": [
+    "self",
+    4
+   ],
+   "tt5928514": [
+    "self",
+    4
+   ],
+   "tspdt:the-lion-with-the-white-beard-1995": [
+    "self",
+    4
+   ],
+   "tt0219977": [
+    "self",
+    4
+   ],
+   "tt0207639": [
+    "self",
+    4
+   ],
+   "tt0222743": [
+    "self",
+    4
+   ],
+   "tspdt:yshov-tramvay-n-9-2002": [
+    "self",
+    4
+   ],
+   "tt3965660": [
+    "self",
+    4
+   ],
+   "tt4373610": [
+    "self",
+    4
+   ],
+   "tspdt:before-love-2016": [
+    "self",
+    4
+   ],
+   "tt10325740": [
+    "self",
+    4
+   ],
+   "tt26382358": [
+    "self",
+    4
+   ],
+   "tt35676079": [
+    "self",
+    4
+   ],
+   "tspdt:number-11-mirror-animations-1956": [
+    "NEW1",
+    1
+   ],
+   "tspdt:science-friction-1958": [
+    "NEW1",
+    1
+   ],
+   "tt0056075": [
+    "NEW1",
+    2
+   ],
+   "tspdt:fist-fight-1964": [
+    "NEW1",
+    1
+   ],
+   "tspdt:duo-concertantes-1964": [
+    "NEW1",
+    1
+   ],
+   "tspdt:hamfat-asar-1965": [
+    "NEW1",
+    1
+   ],
+   "tspdt:gymnopedies-1965": [
+    "NEW1",
+    1
+   ],
+   "tspdt:death-in-the-forenoon-1966": [
+    "NEW1",
+    1
+   ],
+   "tt0060984": [
+    "NEW1",
+    3
+   ],
+   "tspdt:oz-the-tin-woodman-s-dream-1967": [
+    "NEW1",
+    1
+   ],
+   "tt0063804": [
+    "NEW1",
+    2
+   ],
+   "tt0352875": [
+    "NEW1",
+    3
+   ],
+   "tspdt:windy-day-1968": [
+    "NEW1",
+    2
+   ],
+   "tt0064064": [
+    "NEW1",
+    3
+   ],
+   "tt0062653": [
+    "NEW1",
+    3
+   ],
+   "tt0305934": [
+    "NEW1",
+    1
+   ],
+   "tt2048807": [
+    "NEW1",
+    3
+   ],
+   "tt0065794": [
+    "NEW1",
+    3
+   ],
+   "tt0070071": [
+    "NEW1",
+    1
+   ],
+   "tt0196883": [
+    "NEW1",
+    2
+   ],
+   "tspdt:fantastic-animation-festival-1977": [
+    "NEW1",
+    2
+   ],
+   "tspdt:lmno-1978": [
+    "NEW1",
+    1
+   ],
+   "tt0140821": [
+    "NEW1",
+    2
+   ],
+   "tspdt:the-cask-of-amontillado-1979": [
+    "NEW1",
+    2
+   ],
+   "tspdt:swiss-army-knife-with-rats-and-pigeons-1981": [
+    "NEW1",
+    1
+   ],
+   "tspdt:babobilicons-1982": [
+    "NEW1",
+    1
+   ],
+   "tt0231693": [
+    "NEW1",
+    2
+   ],
+   "tspdt:jac-mac-rad-boy-go-1985": [
+    "NEW1",
+    3
+   ],
+   "tspdt:the-visible-compendium-1991": [
+    "NEW1",
+    1
+   ],
+   "tspdt:the-pharoah-s-belt-1993": [
+    "NEW1",
+    1
+   ],
+   "tt1594568": [
+    "NEW1",
+    1
+   ],
+   "tt0960839": [
+    "NEW1",
+    1
+   ],
+   "tt0141455": [
+    "NEW1",
+    2
+   ],
+   "tspdt:my-universe-inside-out-1996": [
+    "NEW1",
+    2
+   ],
+   "tspdt:pony-glass-1998": [
+    "NEW1",
+    1
+   ],
+   "tt0234588": [
+    "NEW1",
+    4
+   ],
+   "tspdt:daylight-moon-2002": [
+    "NEW1",
+    1
+   ],
+   "tt1329269": [
+    "NEW1",
+    4
+   ],
+   "tspdt:nonspecific-threat-2003": [
+    "NEW1",
+    1
+   ],
+   "tspdt:two-minutes-to-zero-2003": [
+    "NEW1",
+    1
+   ],
+   "tspdt:two-days-to-zero-2004": [
+    "NEW1",
+    1
+   ],
+   "tspdt:two-hours-to-zero-2004": [
+    "NEW1",
+    1
+   ],
+   "tt0440972": [
+    "NEW1",
+    4
+   ],
+   "tspdt:milch-2005": [
+    "NEW1",
+    2
+   ],
+   "tt0887734": [
+    "NEW1",
+    4
+   ],
+   "tt1282053": [
+    "NEW1",
+    4
+   ],
+   "tspdt:false-aging-2008": [
+    "NEW1",
+    1
+   ],
+   "tspdt:in-the-woods-2008": [
+    "NEW1",
+    2
+   ],
+   "tt1656716": [
+    "NEW1",
+    4
+   ],
+   "tspdt:rpg-okc-2013": [
+    "NEW1",
+    4
+   ],
+   "tt3699220": [
+    "NEW1",
+    4
+   ],
+   "tspdt:the-pride-of-strathmoor-2014": [
+    "NEW1",
+    4
+   ],
+   "tt4171032": [
+    "NEW1",
+    4
+   ],
+   "tspdt:pig-2015": [
+    "NEW1",
+    1
+   ],
+   "tt6794476": [
+    "NEW1",
+    5
+   ],
+   "tt7278178": [
+    "NEW1",
+    4
+   ],
+   "tt6969946": [
+    "NEW1",
+    5
+   ],
+   "tt8783042": [
+    "NEW1",
+    5
+   ],
+   "tspdt:wolves-in-the-walls-2018": [
+    "NEW1",
+    5
+   ],
+   "tt7129636": [
+    "NEW1",
+    5
+   ],
+   "tt11768948": [
+    "NEW1",
+    5
+   ],
+   "tt12837488": [
+    "NEW1",
+    4
+   ],
+   "tt11020596": [
+    "NEW1",
+    5
+   ],
+   "tt17663790": [
+    "NEW1",
+    4
+   ],
+   "tt29795707": [
+    "NEW1",
+    5
+   ],
+   "tspdt:a-once-lonely-man-2023": [
+    "NEW1",
+    4
+   ],
+   "tt35664086": [
+    "NEW1",
+    5
+   ],
+   "tt36454323": [
+    "NEW1",
+    5
+   ],
+   "tt39075285": [
+    "NEW1",
+    5
+   ],
+   "tt0145834": [
+    "self",
+    6
+   ],
+   "tt0024721": [
+    "self",
+    6
+   ],
+   "tt0286736": [
+    "self",
+    6
+   ],
+   "tspdt:the-little-soldier-1948": [
+    "self",
+    6
+   ],
+   "tspdt:the-battle-of-new-orleans-1960": [
+    "self",
+    5
+   ],
+   "tspdt:the-flying-man-1962": [
+    "self",
+    5
+   ],
+   "tt0057361": [
+    "self",
+    6
+   ],
+   "tspdt:the-thieving-magpie-1964": [
+    "self",
+    7
+   ],
+   "tspdt:automania-2000-1964": [
+    "self",
+    5
+   ],
+   "tt0309566": [
+    "self",
+    6
+   ],
+   "tspdt:breath-1967": [
+    "self",
+    5
+   ],
+   "tspdt:a-fairy-story-1967": [
+    "self",
+    5
+   ],
+   "tspdt:bang-1967": [
+    "self",
+    5
+   ],
+   "tspdt:ali-baba-1970": [
+    "self",
+    7
+   ],
+   "tspdt:lineman-1971": [
+    "self",
+    7
+   ],
+   "tspdt:damon-the-mower-1972": [
+    "self",
+    5
+   ],
+   "tspdt:pulcinella-1973": [
+    "self",
+    7
+   ],
+   "tspdt:dejeuner-du-matin-1974": [
+    "self",
+    6
+   ],
+   "tt0073068": [
+    "self",
+    5
+   ],
+   "tspdt:ubu-1978": [
+    "self",
+    5
+   ],
+   "tt0261725": [
+    "self",
+    6
+   ],
+   "tspdt:on-land-at-sea-and-in-the-air-1980": [
+    "self",
+    7
+   ],
+   "tspdt:home-on-the-rails-1981": [
+    "self",
+    7
+   ],
+   "tspdt:give-us-a-smile-1983": [
+    "self",
+    5
+   ],
+   "tt0088725": [
+    "self",
+    5
+   ],
+   "tt0091152": [
+    "self",
+    6
+   ],
+   "tt0321750": [
+    "self",
+    6
+   ],
+   "tspdt:the-black-dog-1987": [
+    "self",
+    5
+   ],
+   "tspdt:the-public-voice-1988": [
+    "self",
+    7
+   ],
+   "tspdt:feet-of-song-1988": [
+    "self",
+    5
+   ],
+   "tspdt:girls-night-out-1988": [
+    "self",
+    5
+   ],
+   "tt0096880": [
+    "self",
+    7
+   ],
+   "tspdt:the-hill-farm-1989": [
+    "self",
+    5
+   ],
+   "tt0099696": [
+    "self",
+    7
+   ],
+   "tspdt:haut-pays-des-neiges-1990": [
+    "self",
+    6
+   ],
+   "tt0102392": [
+    "self",
+    5
+   ],
+   "tspdt:cowboys-1991": [
+    "self",
+    5
+   ],
+   "tspdt:little-wolf-1992": [
+    "self",
+    5
+   ],
+   "tspdt:la-course-a-l-abime-1992": [
+    "self",
+    6
+   ],
+   "tt0108494": [
+    "self",
+    5
+   ],
+   "tt0106446": [
+    "self",
+    5
+   ],
+   "tspdt:alternative-fringe-1993": [
+    "self",
+    5
+   ],
+   "tspdt:revolver-1994": [
+    "self",
+    7
+   ],
+   "tt0127710": [
+    "self",
+    6
+   ],
+   "tspdt:did-i-say-hairdressing-i-meant-astrophys-1998": [
+    "self",
+    5
+   ],
+   "tspdt:pleasures-of-war-1998": [
+    "self",
+    5
+   ],
+   "tspdt:ali-in-wonderland-1999": [
+    "self",
+    6
+   ],
+   "tspdt:noite-a-the-night-1999": [
+    "self",
+    7
+   ],
+   "tspdt:the-man-with-the-beautiful-eyes-2000": [
+    "self",
+    5
+   ],
+   "tspdt:the-king-s-wake-2000": [
+    "self",
+    5
+   ],
+   "tt0279079": [
+    "self",
+    6
+   ],
+   "tspdt:dad-s-dead-2002": [
+    "self",
+    5
+   ],
+   "tt0498121": [
+    "self",
+    5
+   ],
+   "tspdt:ten-thousand-pictures-of-you-2006": [
+    "self",
+    5
+   ],
+   "tspdt:forest-murmurs-2006": [
+    "self",
+    5
+   ],
+   "tspdt:please-say-something-2008": [
+    "self",
+    5
+   ],
+   "tt1616989": [
+    "self",
+    6
+   ],
+   "tspdt:fard-2009": [
+    "self",
+    6
+   ],
+   "tspdt:i-was-crying-out-at-life-or-for-it-2009": [
+    "self",
+    6
+   ],
+   "tt1720261": [
+    "self",
+    5
+   ],
+   "tspdt:big-bang-big-boom-2010": [
+    "self",
+    7
+   ],
+   "tspdt:out-of-a-forest-2010": [
+    "self",
+    7
+   ],
+   "tspdt:this-is-where-we-live-2011": [
+    "self",
+    5
+   ],
+   "tspdt:buildings-vampires-2011": [
+    "self",
+    7
+   ],
+   "tt4516050": [
+    "self",
+    8
+   ],
+   "tspdt:sous-tes-doigts-2015": [
+    "self",
+    6
+   ],
+   "tt4189526": [
+    "self",
+    5
+   ],
+   "tspdt:unhappy-happy-2015": [
+    "self",
+    5
+   ],
+   "tt7189380": [
+    "self",
+    8
+   ],
+   "tt7704920": [
+    "self",
+    5
+   ],
+   "tspdt:and-yet-we-re-not-super-heroes-2019": [
+    "self",
+    7
+   ],
+   "tt10498098": [
+    "self",
+    7
+   ],
+   "tt11884670": [
+    "self",
+    6
+   ],
+   "tspdt:altotting-2020": [
+    "self",
+    7
+   ],
+   "tt9464038": [
+    "self",
+    7
+   ],
+   "tt14293560": [
+    "self",
+    7
+   ],
+   "tspdt:glimpse-2021": [
+    "self",
+    5
+   ],
+   "tspdt:third-study-for-swedge-of-heaven-2021": [
+    "self",
+    5
+   ],
+   "tspdt:the-tell-tale-rooms-2022": [
+    "self",
+    5
+   ],
+   "tspdt:the-temptation-of-the-coconut-clock-2022": [
+    "self",
+    7
+   ],
+   "tt19781688": [
+    "self",
+    7
+   ],
+   "tspdt:the-purple-season-2023": [
+    "self",
+    6
+   ],
+   "tt20862526": [
+    "self",
+    6
+   ],
+   "tt33019507": [
+    "self",
+    5
+   ],
+   "tt28356173": [
+    "self",
+    6
+   ],
+   "tspdt:reise-der-schatten-2024": [
+    "self",
+    6
+   ],
+   "tt30970587": [
+    "self",
+    6
+   ],
+   "tspdt:i-want-to-know-what-love-is-2025": [
+    "self",
+    7
+   ],
+   "tt1331015": [
+    "self",
+    8
+   ],
+   "tspdt:where-is-mother-1960": [
+    "self",
+    8
+   ],
+   "tspdt:the-cowboy-s-flute-1963": [
+    "self",
+    8
+   ],
+   "tt3453072": [
+    "self",
+    8
+   ],
+   "tspdt:coffee-break-1977": [
+    "self",
+    8
+   ],
+   "tt0133191": [
+    "self",
+    8
+   ],
+   "tt1330999": [
+    "self",
+    8
+   ],
+   "tt0355439": [
+    "self",
+    8
+   ],
+   "tt1756512": [
+    "self",
+    8
+   ],
+   "tspdt:history-of-the-main-complaint-1996": [
+    "self",
+    8
+   ],
+   "tspdt:printed-rainbow-2006": [
+    "self",
+    8
+   ],
+   "tspdt:a-country-doctor-2007": [
+    "self",
+    8
+   ],
+   "tspdt:noodle-fish-2012": [
+    "self",
+    8
+   ],
+   "tspdt:mecanismo-velador-2014": [
+    "self",
+    8
+   ],
+   "tspdt:more-sweetly-play-the-dance-2015": [
+    "self",
+    8
+   ],
+   "tt3829254": [
+    "self",
+    8
+   ],
+   "tt11064862": [
+    "self",
+    8
+   ],
+   "tspdt:the-line-2019": [
+    "self",
+    8
+   ],
+   "tspdt:gloomy-eyes-2019": [
+    "self",
+    8
+   ],
+   "tspdt:movements-2019": [
+    "self",
+    8
+   ],
+   "tspdt:gakjil-2022": [
+    "self",
+    8
+   ],
+   "tt28768883": [
+    "self",
+    8
+   ],
+   "tt28058015": [
+    "self",
+    8
+   ],
+   "tt10346066": [
+    "self",
+    8
+   ],
+   "tt28101600": [
+    "self",
+    8
+   ],
+   "tspdt:a-taste-of-beer-2025": [
+    "self",
+    8
+   ],
+   "tspdt:merrimundi-2025": [
+    "self",
+    8
+   ],
+   "tspdt:erase-una-vez-1950": [
+    "self",
+    7
+   ],
+   "tspdt:monsieur-tete-1959": [
+    "self",
+    6
+   ],
+   "tspdt:labyrint-1963": [
+    "self",
+    2
+   ],
+   "tspdt:mr-and-mrs-kabal-s-theater-1967": [
+    "self",
+    2
+   ],
+   "tspdt:adam-2-1968": [
+    "self",
+    2
+   ],
+   "tspdt:ubu-et-la-grande-gidouille-1979": [
+    "self",
+    2
+   ],
+   "tspdt:breakfast-on-the-grass-1987": [
+    "self",
+    4
+   ],
+   "tspdt:switchcraft-1994": [
+    "self",
+    4
+   ],
+   "tspdt:red-book-1994": [
+    "NEW1",
+    1
+   ],
+   "tt0874952": [
+    "self",
+    4
+   ],
+   "tspdt:circumstantial-pleasures-2020": [
+    "NEW1",
+    1
+   ]
+  },
+  "moves": []
+ },
+ "A16-13": {
+  "label": "Coming-of-Age Film",
+  "defn": "A drama of a child's or young adolescent's passage toward understanding, told from the child's side, in the ordinary settings of home, city or village (My Life as a Dog, The Long Day Closes, Boyhood, Ratcatcher, Close). Childhood under war or dictatorship goes to the War-Childhood Film; the summer away to the Summer Coming-of-Age Film; school and boarding school to the School Story Film; high-school teen life to A16-14; delinquency to A16-15.",
+  "axis": "by the setting of the childhood: home and family first, then city streets, and village and countryside last",
+  "secs": [
+   "Childhood at Home",
+   "City Childhoods",
+   "Village & Country Childhoods"
+  ],
+  "new_leaves": [
+   {
+    "key": "NEW1",
+    "label": "War-Childhood Film",
+    "breadth": "coming-of-age dramas of children under war, occupation or dictatorship",
+    "defn": "A coming-of-age drama told from the side of a child growing up under war, occupation or dictatorship, where the historical violence shapes the passage (The Spirit of the Beehive, Cría Cuervos, In the Heat of the Sun, West Beirut, Kamchatka, Clandestine Childhood). Test: a child's-eye coming of age with war or repression as its condition; a combat film with child soldiers goes to A9.",
+    "aliases": "childhood war film; children-in-war film; child's-eye war film",
+    "src": [
+     [
+      "https://en.wikipedia.org/wiki/Children_in_war",
+      "Wikipedia"
+     ]
+    ],
+    "axis": "",
+    "secs": []
+   },
+   {
+    "key": "NEW2",
+    "label": "Summer Coming-of-Age Film",
+    "breadth": "coming-of-age dramas of the summer holiday away from routine",
+    "defn": "A coming-of-age drama set in the suspended time of a summer holiday — the trip, the camp, the summer house, the gang's adventure — whose end marks the passage (Stand by Me, My Father's Glory, The Sandlot, Summer 1993, The Way Way Back). Test: the summer away is the frame; school-year childhoods stay in A16-13.",
+    "aliases": "summer coming-of-age story; summer-vacation film",
+    "src": [
+     [
+      "https://en.wikipedia.org/wiki/Summer_vacation",
+      "Wikipedia"
+     ]
+    ],
+    "axis": "",
+    "secs": []
+   },
+   {
+    "key": "NEW3",
+    "label": "School Story Film",
+    "breadth": "childhood dramas set in the classroom or boarding school",
+    "defn": "A childhood drama whose world is the school — the boarding school, the classroom and its teacher, exams and school tyranny — told from the pupils' side (Zéro de conduite, Evil, Son of Rambow, Our Twisted Hero, Playground, Monster). Test: pre-teen or early-adolescent pupils and their school; the high school goes to A16-14, college to A16-16, the teacher's own story to A16-17.",
+    "aliases": "boarding-school film; school drama",
+    "src": [
+     [
+      "https://en.wikipedia.org/wiki/School_story",
+      "Wikipedia"
+     ]
+    ],
+    "axis": "",
+    "secs": []
+   }
+  ],
+  "assign": {
+   "tt0008443": [
+    "self",
+    1
+   ],
+   "tspdt:poil-de-carotte-1925": [
+    "self",
+    1
+   ],
+   "tt0023345": [
+    "self",
+    1
+   ],
+   "tspdt:little-friend-1934": [
+    "self",
+    1
+   ],
+   "tspdt:children-in-the-wind-1937": [
+    "self",
+    1
+   ],
+   "tt0043972": [
+    "self",
+    1
+   ],
+   "tt0044896": [
+    "self",
+    1
+   ],
+   "tspdt:the-maid-s-kid-1955": [
+    "self",
+    1
+   ],
+   "tt0050231": [
+    "self",
+    1
+   ],
+   "tspdt:the-fall-1959": [
+    "self",
+    1
+   ],
+   "tt0065695": [
+    "self",
+    1
+   ],
+   "tspdt:baxter-1973": [
+    "self",
+    1
+   ],
+   "tspdt:elvis-elvis-1976": [
+    "self",
+    1
+   ],
+   "tspdt:julio-comienza-en-julio-1979": [
+    "self",
+    1
+   ],
+   "tspdt:kamilla-1981": [
+    "self",
+    1
+   ],
+   "tt0084740": [
+    "self",
+    1
+   ],
+   "tt0089808": [
+    "self",
+    1
+   ],
+   "tspdt:a-idade-maior-1991": [
+    "self",
+    1
+   ],
+   "tspdt:our-twisted-hero-1992": [
+    "NEW3",
+    0
+   ],
+   "tt0107322": [
+    "self",
+    1
+   ],
+   "tt0107736": [
+    "self",
+    1
+   ],
+   "tt0110630": [
+    "self",
+    1
+   ],
+   "tt0111421": [
+    "self",
+    1
+   ],
+   "tspdt:keita-voice-of-the-griot-1996": [
+    "self",
+    1
+   ],
+   "tt0122648": [
+    "self",
+    1
+   ],
+   "tt0119506": [
+    "self",
+    1
+   ],
+   "tt0124879": [
+    "self",
+    1
+   ],
+   "tt0254637": [
+    "self",
+    1
+   ],
+   "tt0148103": [
+    "self",
+    1
+   ],
+   "tt0255321": [
+    "self",
+    1
+   ],
+   "tspdt:off-balance-2000": [
+    "self",
+    1
+   ],
+   "tspdt:pretend-2003": [
+    "self",
+    1
+   ],
+   "tspdt:i-remember-2005": [
+    "self",
+    1
+   ],
+   "tspdt:twelve-and-holding-2005": [
+    "self",
+    1
+   ],
+   "tt1143155": [
+    "self",
+    1
+   ],
+   "tt1353033": [
+    "self",
+    1
+   ],
+   "tt1426371": [
+    "self",
+    1
+   ],
+   "tspdt:yuki-nina-2009": [
+    "self",
+    1
+   ],
+   "tt1381282": [
+    "self",
+    1
+   ],
+   "tt1703914": [
+    "self",
+    1
+   ],
+   "tspdt:big-boy-2011": [
+    "self",
+    1
+   ],
+   "tt1441940": [
+    "self",
+    1
+   ],
+   "tt2402186": [
+    "self",
+    1
+   ],
+   "tt1065073": [
+    "self",
+    1
+   ],
+   "tt4195368": [
+    "NEW3",
+    0
+   ],
+   "tt4247492": [
+    "self",
+    1
+   ],
+   "tt3416532": [
+    "self",
+    1
+   ],
+   "tt4547194": [
+    "self",
+    1
+   ],
+   "tt7336012": [
+    "self",
+    1
+   ],
+   "tspdt:nervous-translation-2017": [
+    "self",
+    1
+   ],
+   "tt7681824": [
+    "self",
+    1
+   ],
+   "tt11937640": [
+    "NEW3",
+    0
+   ],
+   "tt11165716": [
+    "self",
+    1
+   ],
+   "tt12322986": [
+    "self",
+    1
+   ],
+   "tt9660502": [
+    "self",
+    1
+   ],
+   "tspdt:astrakan-2022": [
+    "self",
+    1
+   ],
+   "tt13384564": [
+    "self",
+    1
+   ],
+   "tt26255358": [
+    "self",
+    1
+   ],
+   "tt28277817": [
+    "self",
+    1
+   ],
+   "tt28480219": [
+    "self",
+    1
+   ],
+   "tt20729172": [
+    "self",
+    1
+   ],
+   "tt29470244": [
+    "self",
+    1
+   ],
+   "tt30220107": [
+    "self",
+    1
+   ],
+   "tspdt:vanilla-2025": [
+    "self",
+    1
+   ],
+   "tt0025569": [
+    "self",
+    2
+   ],
+   "tspdt:tsuzurikata-kyoshitsu-1938": [
+    "NEW3",
+    0
+   ],
+   "tspdt:robo-no-ishi-1938": [
+    "self",
+    2
+   ],
+   "tspdt:homeless-angel-1941": [
+    "self",
+    2
+   ],
+   "tt0034461": [
+    "self",
+    2
+   ],
+   "tt0038190": [
+    "self",
+    2
+   ],
+   "tspdt:gu-er-jiu-zu-1949": [
+    "self",
+    2
+   ],
+   "tt0046004": [
+    "self",
+    2
+   ],
+   "tspdt:sandu-follows-the-sun-1962": [
+    "self",
+    2
+   ],
+   "tt0057237": [
+    "self",
+    2
+   ],
+   "tspdt:la-calesita-1963": [
+    "self",
+    2
+   ],
+   "tspdt:ritzar-bez-bronya-1966": [
+    "self",
+    2
+   ],
+   "tspdt:largo-viaje-1967": [
+    "self",
+    2
+   ],
+   "tt0062164": [
+    "self",
+    2
+   ],
+   "tt11193012": [
+    "self",
+    2
+   ],
+   "tt0070766": [
+    "self",
+    2
+   ],
+   "tt0069771": [
+    "self",
+    2
+   ],
+   "tt0070319": [
+    "self",
+    2
+   ],
+   "tt0072822": [
+    "self",
+    2
+   ],
+   "tt0074782": [
+    "self",
+    2
+   ],
+   "tspdt:the-long-night-1976": [
+    "self",
+    2
+   ],
+   "tspdt:a-child-in-the-crowd-1976": [
+    "self",
+    2
+   ],
+   "tt0082280": [
+    "self",
+    2
+   ],
+   "tt0085326": [
+    "self",
+    2
+   ],
+   "tt0134279": [
+    "self",
+    2
+   ],
+   "tspdt:children-of-the-steps-1984": [
+    "self",
+    2
+   ],
+   "tspdt:ahlam-el-madina-1985": [
+    "self",
+    2
+   ],
+   "tt0090665": [
+    "self",
+    2
+   ],
+   "tt0099764": [
+    "self",
+    2
+   ],
+   "tt0104753": [
+    "self",
+    2
+   ],
+   "tspdt:niaz-1992": [
+    "self",
+    2
+   ],
+   "tspdt:an-independent-life-1992": [
+    "self",
+    2
+   ],
+   "tt0111751": [
+    "self",
+    2
+   ],
+   "tt0139249": [
+    "self",
+    2
+   ],
+   "tt0171685": [
+    "self",
+    2
+   ],
+   "tt0196848": [
+    "self",
+    2
+   ],
+   "tspdt:winter-stories-1999": [
+    "self",
+    2
+   ],
+   "tt0243794": [
+    "self",
+    2
+   ],
+   "tspdt:half-price-2003": [
+    "self",
+    2
+   ],
+   "tt1094278": [
+    "self",
+    2
+   ],
+   "tt0990404": [
+    "self",
+    2
+   ],
+   "tspdt:my-black-little-heart-2008": [
+    "self",
+    2
+   ],
+   "tt1174047": [
+    "self",
+    2
+   ],
+   "tt1482194": [
+    "self",
+    2
+   ],
+   "tt1886502": [
+    "self",
+    2
+   ],
+   "tt2258858": [
+    "self",
+    2
+   ],
+   "tt2304426": [
+    "self",
+    2
+   ],
+   "tspdt:the-girls-on-liberty-street-2013": [
+    "self",
+    2
+   ],
+   "tt4919484": [
+    "self",
+    2
+   ],
+   "tt5208216": [
+    "self",
+    2
+   ],
+   "tt5649144": [
+    "self",
+    2
+   ],
+   "tt6802896": [
+    "self",
+    2
+   ],
+   "tt8267604": [
+    "self",
+    2
+   ],
+   "tt7802246": [
+    "self",
+    2
+   ],
+   "tt12991844": [
+    "self",
+    2
+   ],
+   "tt12890988": [
+    "self",
+    2
+   ],
+   "tt10343028": [
+    "self",
+    2
+   ],
+   "tt28639049": [
+    "self",
+    2
+   ],
+   "tt27816866": [
+    "self",
+    2
+   ],
+   "tt30320410": [
+    "self",
+    2
+   ],
+   "tt21605226": [
+    "self",
+    2
+   ],
+   "tt33396536": [
+    "self",
+    2
+   ],
+   "tspdt:ish-2025": [
+    "self",
+    2
+   ],
+   "tt41592086": [
+    "self",
+    2
+   ],
+   "tspdt:ollin-oppivuodet-1920": [
+    "self",
+    3
+   ],
+   "tt0012763": [
+    "self",
+    3
+   ],
+   "tspdt:sentimental-tommy-1921": [
+    "self",
+    3
+   ],
+   "tspdt:de-witte-1934": [
+    "self",
+    3
+   ],
+   "tspdt:kare-to-kanojo-to-shonentachi-1935": [
+    "self",
+    3
+   ],
+   "tspdt:four-seasons-of-children-1939": [
+    "self",
+    3
+   ],
+   "tspdt:premieres-armes-1950": [
+    "self",
+    3
+   ],
+   "tt0055618": [
+    "self",
+    3
+   ],
+   "tspdt:el-camino-1963": [
+    "self",
+    3
+   ],
+   "tspdt:deti-pamira-1963": [
+    "self",
+    3
+   ],
+   "tspdt:atithi-1966": [
+    "self",
+    3
+   ],
+   "tt0060484": [
+    "self",
+    3
+   ],
+   "tt0064579": [
+    "self",
+    3
+   ],
+   "tt0064542": [
+    "self",
+    3
+   ],
+   "tt0067439": [
+    "self",
+    3
+   ],
+   "tspdt:forest-1973": [
+    "self",
+    3
+   ],
+   "tspdt:the-traveller-1974": [
+    "self",
+    3
+   ],
+   "tspdt:the-white-ship-1976": [
+    "self",
+    3
+   ],
+   "tspdt:gahanu-lamai-1978": [
+    "self",
+    3
+   ],
+   "tspdt:peruvazhiyampalam-1979": [
+    "self",
+    3
+   ],
+   "tt0079447": [
+    "self",
+    3
+   ],
+   "tt0081765": [
+    "self",
+    3
+   ],
+   "tspdt:wend-kuuni-1982": [
+    "self",
+    3
+   ],
+   "tt0086213": [
+    "self",
+    3
+   ],
+   "tt0088355": [
+    "self",
+    3
+   ],
+   "tt0089606": [
+    "self",
+    3
+   ],
+   "tspdt:butterfly-and-flowers-1986": [
+    "self",
+    3
+   ],
+   "tt0094347": [
+    "self",
+    3
+   ],
+   "tspdt:river-of-fireflies-1987": [
+    "self",
+    3
+   ],
+   "tt0095765": [
+    "self",
+    3
+   ],
+   "tt0100469": [
+    "self",
+    3
+   ],
+   "tspdt:spotted-dog-running-at-the-edge-of-the-s-1990": [
+    "self",
+    3
+   ],
+   "tspdt:himmel-oder-holle-1990": [
+    "self",
+    3
+   ],
+   "tt0102753": [
+    "self",
+    3
+   ],
+   "tspdt:one-full-moon-1991": [
+    "self",
+    3
+   ],
+   "tspdt:bratan-1991": [
+    "self",
+    3
+   ],
+   "tt0104543": [
+    "self",
+    3
+   ],
+   "tspdt:swing-1993": [
+    "self",
+    3
+   ],
+   "tspdt:angelochek-sdelay-radost-1993": [
+    "self",
+    3
+   ],
+   "tt0113952": [
+    "self",
+    3
+   ],
+   "tspdt:when-the-stars-meet-the-sea-1996": [
+    "self",
+    3
+   ],
+   "tt0120090": [
+    "self",
+    3
+   ],
+   "tt0124315": [
+    "self",
+    3
+   ],
+   "tspdt:dois-corregos-verdades-submersas-no-temp-1999": [
+    "self",
+    3
+   ],
+   "tt0120683": [
+    "self",
+    3
+   ],
+   "tspdt:deep-breath-2001": [
+    "self",
+    3
+   ],
+   "tspdt:delbaran-2001": [
+    "self",
+    3
+   ],
+   "tt0340854": [
+    "self",
+    3
+   ],
+   "tt0326977": [
+    "self",
+    3
+   ],
+   "tt0298228": [
+    "self",
+    3
+   ],
+   "tt0332285": [
+    "self",
+    3
+   ],
+   "tt0353691": [
+    "self",
+    3
+   ],
+   "tspdt:l-isola-2003": [
+    "self",
+    3
+   ],
+   "tt0325675": [
+    "self",
+    3
+   ],
+   "tt0478175": [
+    "self",
+    3
+   ],
+   "tt0855729": [
+    "self",
+    3
+   ],
+   "tspdt:le-dernier-des-fous-2006": [
+    "self",
+    3
+   ],
+   "tt0997184": [
+    "NEW3",
+    0
+   ],
+   "tt0863091": [
+    "self",
+    3
+   ],
+   "tt0848596": [
+    "self",
+    3
+   ],
+   "tt1301264": [
+    "NEW3",
+    0
+   ],
+   "tt1417034": [
+    "self",
+    3
+   ],
+   "tspdt:nana-2011": [
+    "self",
+    3
+   ],
+   "tt2125435": [
+    "self",
+    3
+   ],
+   "tt1935179": [
+    "self",
+    3
+   ],
+   "tt2178256": [
+    "self",
+    3
+   ],
+   "tt3009070": [
+    "self",
+    3
+   ],
+   "tt3566788": [
+    "self",
+    3
+   ],
+   "tspdt:wallay-2017": [
+    "self",
+    3
+   ],
+   "tt9686154": [
+    "self",
+    3
+   ],
+   "tspdt:ainu-mosir-2020": [
+    "self",
+    3
+   ],
+   "tt10366574": [
+    "self",
+    3
+   ],
+   "tt32086034": [
+    "self",
+    3
+   ],
+   "tspdt:village-rockstars-2-2024": [
+    "self",
+    3
+   ],
+   "tt28690468": [
+    "self",
+    3
+   ],
+   "tt39075020": [
+    "self",
+    3
+   ],
+   "tspdt:the-burning-secret-1933": [
+    "NEW2",
+    0
+   ],
+   "tspdt:agostino-1962": [
+    "NEW2",
+    0
+   ],
+   "tspdt:goodbye-boys-1964": [
+    "NEW2",
+    0
+   ],
+   "tt0080419": [
+    "NEW2",
+    0
+   ],
+   "tspdt:over-the-summer-1985": [
+    "NEW2",
+    0
+   ],
+   "tt0092005": [
+    "NEW2",
+    0
+   ],
+   "tt0099669": [
+    "NEW2",
+    0
+   ],
+   "tt0099266": [
+    "NEW2",
+    0
+   ],
+   "tt0102492": [
+    "NEW2",
+    0
+   ],
+   "tt0107501": [
+    "NEW2",
+    0
+   ],
+   "tt0108037": [
+    "NEW2",
+    0
+   ],
+   "tt0114011": [
+    "NEW2",
+    0
+   ],
+   "tt0112757": [
+    "NEW2",
+    0
+   ],
+   "tt0156408": [
+    "NEW3",
+    0
+   ],
+   "tt0262432": [
+    "NEW2",
+    0
+   ],
+   "tt0252501": [
+    "NEW2",
+    0
+   ],
+   "tt0287645": [
+    "NEW2",
+    0
+   ],
+   "tspdt:dog-in-a-sidecar-2007": [
+    "NEW2",
+    0
+   ],
+   "tt0416212": [
+    "NEW2",
+    0
+   ],
+   "tt1342378": [
+    "NEW2",
+    0
+   ],
+   "tt1756595": [
+    "NEW2",
+    0
+   ],
+   "tt2179116": [
+    "NEW2",
+    0
+   ],
+   "tt1727388": [
+    "NEW2",
+    0
+   ],
+   "tt3778086": [
+    "NEW2",
+    0
+   ],
+   "tt4572682": [
+    "NEW2",
+    0
+   ],
+   "tt5897636": [
+    "NEW2",
+    0
+   ],
+   "tspdt:sasong-2019": [
+    "NEW2",
+    0
+   ],
+   "tt14625190": [
+    "NEW3",
+    0
+   ],
+   "tt28522540": [
+    "NEW2",
+    0
+   ],
+   "tt30319516": [
+    "NEW2",
+    0
+   ],
+   "tt29344907": [
+    "NEW2",
+    0
+   ],
+   "tt38897659": [
+    "NEW2",
+    0
+   ],
+   "tspdt:children-of-the-beehive-1948": [
+    "NEW1",
+    0
+   ],
+   "tspdt:en-el-balcon-vacio-1961": [
+    "NEW1",
+    0
+   ],
+   "tt0057242": [
+    "NEW1",
+    0
+   ],
+   "tt0057977": [
+    "NEW1",
+    0
+   ],
+   "tt0070040": [
+    "NEW1",
+    0
+   ],
+   "tt0074360": [
+    "NEW1",
+    0
+   ],
+   "tt0075079": [
+    "NEW1",
+    0
+   ],
+   "tt0094849": [
+    "NEW1",
+    0
+   ],
+   "tt0101003": [
+    "NEW1",
+    0
+   ],
+   "tt0103971": [
+    "NEW1",
+    0
+   ],
+   "tt0111786": [
+    "NEW1",
+    0
+   ],
+   "tspdt:winnetou-1995": [
+    "NEW1",
+    0
+   ],
+   "tt0157183": [
+    "NEW1",
+    0
+   ],
+   "tt0115005": [
+    "NEW1",
+    0
+   ],
+   "tt0213847": [
+    "NEW1",
+    0
+   ],
+   "tt0320042": [
+    "NEW1",
+    0
+   ],
+   "tspdt:ira-madiyama-2003": [
+    "NEW1",
+    0
+   ],
+   "tt0365285": [
+    "NEW1",
+    0
+   ],
+   "tt0857355": [
+    "NEW1",
+    0
+   ],
+   "tt1094627": [
+    "NEW1",
+    0
+   ],
+   "tt1305027": [
+    "NEW1",
+    0
+   ],
+   "tt1696181": [
+    "NEW1",
+    0
+   ],
+   "tt1715853": [
+    "NEW1",
+    0
+   ],
+   "tt1726888": [
+    "NEW1",
+    0
+   ],
+   "tt2042432": [
+    "NEW1",
+    0
+   ],
+   "tspdt:the-prize-2011": [
+    "NEW1",
+    0
+   ],
+   "tt2741806": [
+    "NEW1",
+    0
+   ],
+   "tt4991660": [
+    "NEW1",
+    0
+   ],
+   "tt5678218": [
+    "NEW1",
+    0
+   ],
+   "tt11735544": [
+    "NEW1",
+    0
+   ],
+   "tt38765198": [
+    "NEW1",
+    0
+   ],
+   "tt0024803": [
+    "NEW3",
+    0
+   ],
+   "tspdt:in-the-name-of-the-father-1971": [
+    "NEW3",
+    0
+   ],
+   "tt4912834": [
+    "NEW3",
+    0
+   ],
+   "tspdt:naughty-boys-1984": [
+    "NEW3",
+    0
+   ],
+   "tt0338309": [
+    "NEW3",
+    0
+   ],
+   "tspdt:evil-ondskan-2003": [
+    "NEW3",
+    0
+   ],
+   "tt0845046": [
+    "NEW3",
+    0
+   ],
+   "tt1183665": [
+    "NEW3",
+    0
+   ],
+   "tt3294200": [
+    "NEW3",
+    0
+   ],
+   "tspdt:the-girls-2020": [
+    "NEW3",
+    0
+   ],
+   "tt11087960": [
+    "NEW3",
+    0
+   ],
+   "tt23736044": [
+    "NEW3",
+    0
+   ],
+   "tt0054949": [
+    "self",
+    3
+   ],
+   "tt0076852": [
+    "self",
+    1
+   ],
+   "tt0076470": [
+    "self",
+    1
+   ],
+   "tspdt:courage-fuyons-1979": [
+    "self",
+    1
+   ],
+   "tt0137100": [
+    "self",
+    1
+   ],
+   "tt8529134": [
+    "self",
+    1
+   ]
+  },
+  "moves": []
+ },
+ "A13-22": {
+  "label": "Romantic Comedy-Drama",
+  "defn": "A romantic comedy played half-seriously, from the 1970s on, whose obstacle lies in the lovers' own eccentricity, damage, family burdens or age (Moonstruck, As Good as It Gets, Silver Linings Playbook, Something's Gotta Give, Amélie). The studio-era and other pre-1970 comedy-dramas go to the Classical Romantic Comedy-Drama; the American and English-language independent strand to the Indie Romantic Comedy; a purely dramatic treatment to A13-5.",
+  "axis": "by the lovers' burden: eccentricity, damage or illness, children and second chances, age, a homecoming",
+  "secs": [
+   "Deadpan & Eccentric Lovers",
+   "Damaged & Healing Lovers",
+   "Single Parents & Second Chances",
+   "Age-Gap & Late-Life Love Comedy",
+   "Homecoming & Small-Town Romance"
+  ],
+  "new_leaves": [
+   {
+    "key": "NEW1",
+    "label": "Classical Romantic Comedy-Drama",
+    "breadth": "romantic comedy-dramas of the silent and studio eras, to 1969, across national cinemas",
+    "defn": "A romantic comedy-drama of the silent and studio eras, before 1970, in any national cinema — the bittersweet star romance of Hollywood, the European and Soviet lyrical comedy, the Argentine and Mexican comedia romántica, the Asian and Egyptian studio romance (The Strawberry Blonde, Breakfast at Tiffany's, Walking the Streets of Moscow, Arroz con leche, Windfall in Athens). Test: made before 1970; screwball and sophisticated comedy go to their own leaves.",
+    "aliases": "classical romantic comedy; studio-era romantic comedy",
+    "src": [
+     [
+      "https://en.wikipedia.org/wiki/Romantic_comedy",
+      "Wikipedia"
+     ]
+    ],
+    "axis": "by national studio tradition: Hollywood first, then Europe and the Soviet Union, Latin America, and Asia and the Middle East last",
+    "secs": [
+     "Hollywood",
+     "European & Soviet",
+     "Latin American",
+     "Asian & Middle Eastern"
+    ]
+   },
+   {
+    "key": "NEW2",
+    "label": "Indie Romantic Comedy",
+    "breadth": "romantic comedy-dramas of the American and English-language independent cinema",
+    "defn": "A romantic comedy-drama made in the American or English-language independent cinema from the 1970s on, deadpan, talky or wounded in tone and outside the studio formula (Minnie and Moskowitz, Chilly Scenes of Winter, Trust, Punch-Drunk Love, Results, The Big Sick, Enough Said). Test: independent production and an off-formula register; studio rom-coms of the same burdens stay in A13-22.",
+    "aliases": "independent romantic comedy; indie rom-com",
+    "src": [
+     [
+      "https://en.wikipedia.org/wiki/Independent_film",
+      "Wikipedia"
+     ]
+    ],
+    "axis": "by the lovers' burden: deadpan and eccentric lovers, then damaged and healing lovers, and age-gap love last",
+    "secs": [
+     "Deadpan & Eccentric Lovers",
+     "Damaged & Healing Lovers",
+     "Age-Gap Love"
+    ]
+   }
+  ],
+  "assign": {
+   "tspdt:the-wishing-ring-1914": [
+    "NEW1",
+    1
+   ],
+   "tt0020585": [
+    "NEW1",
+    1
+   ],
+   "tspdt:abschied-1930": [
+    "NEW1",
+    2
+   ],
+   "tspdt:las-luces-de-buenos-aires-1931": [
+    "NEW1",
+    3
+   ],
+   "tt0023202": [
+    "NEW1",
+    1
+   ],
+   "tspdt:two-hearts-beat-as-one-1932": [
+    "NEW1",
+    2
+   ],
+   "tspdt:mec-fuld-musik-1933": [
+    "NEW1",
+    2
+   ],
+   "tt0025158": [
+    "NEW1",
+    2
+   ],
+   "tt0026409": [
+    "NEW1",
+    1
+   ],
+   "tspdt:mieheke-1936": [
+    "NEW1",
+    2
+   ],
+   "tt0030888": [
+    "NEW1",
+    1
+   ],
+   "tspdt:la-rubia-del-camino-1938": [
+    "NEW1",
+    3
+   ],
+   "tt0032946": [
+    "NEW1",
+    1
+   ],
+   "tspdt:isabelita-1940": [
+    "NEW1",
+    3
+   ],
+   "tt0034236": [
+    "NEW1",
+    1
+   ],
+   "tspdt:premier-rendez-vous-1941": [
+    "NEW1",
+    2
+   ],
+   "tt0036526": [
+    "NEW1",
+    1
+   ],
+   "tspdt:la-vida-en-un-hilo-1945": [
+    "NEW1",
+    2
+   ],
+   "tspdt:here-s-to-the-girls-1949": [
+    "NEW1",
+    4
+   ],
+   "tspdt:arroz-con-leche-1950": [
+    "NEW1",
+    3
+   ],
+   "tspdt:ay-amor-como-me-has-puesto-1951": [
+    "NEW1",
+    3
+   ],
+   "tt0046304": [
+    "NEW1",
+    4
+   ],
+   "tspdt:ansiedad-1953": [
+    "NEW1",
+    3
+   ],
+   "tspdt:agulha-no-palheiro-1953": [
+    "NEW1",
+    3
+   ],
+   "tt0139413": [
+    "NEW1",
+    2
+   ],
+   "tspdt:boyfriend-in-sight-1954": [
+    "NEW1",
+    2
+   ],
+   "tspdt:riviera-1954": [
+    "NEW1",
+    2
+   ],
+   "tspdt:bildnis-einer-unbekannten-1954": [
+    "NEW1",
+    2
+   ],
+   "tt0048705": [
+    "NEW1",
+    1
+   ],
+   "tspdt:la-vida-por-delante-1958": [
+    "NEW1",
+    2
+   ],
+   "tt0050312": [
+    "NEW1",
+    2
+   ],
+   "tspdt:miss-april-1958": [
+    "NEW1",
+    2
+   ],
+   "tspdt:red-cross-girls-1958": [
+    "NEW1",
+    2
+   ],
+   "tspdt:bachelor-of-hearts-1958": [
+    "NEW1",
+    2
+   ],
+   "tspdt:le-bel-age-1959": [
+    "NEW1",
+    2
+   ],
+   "tspdt:beautiful-adventure-1959": [
+    "NEW1",
+    2
+   ],
+   "tt0052705": [
+    "NEW1",
+    2
+   ],
+   "tspdt:my-intimate-partner-1960": [
+    "NEW1",
+    4
+   ],
+   "tt0054698": [
+    "NEW1",
+    1
+   ],
+   "tspdt:the-agony-of-love-1961": [
+    "NEW1",
+    4
+   ],
+   "tspdt:paradise-alley-1961": [
+    "NEW1",
+    1
+   ],
+   "tspdt:ce-soir-ou-jamais-1961": [
+    "NEW1",
+    2
+   ],
+   "tt0056665": [
+    "NEW1",
+    2
+   ],
+   "tspdt:les-petits-matins-1962": [
+    "NEW1",
+    2
+   ],
+   "tspdt:adorable-menteuse-1962": [
+    "NEW1",
+    2
+   ],
+   "tt0057263": [
+    "NEW1",
+    1
+   ],
+   "tt0057694": [
+    "NEW1",
+    2
+   ],
+   "tspdt:lel-regal-fakat-1964": [
+    "NEW1",
+    4
+   ],
+   "tspdt:o-beautiful-istanbul-1966": [
+    "NEW1",
+    4
+   ],
+   "tt0061072": [
+    "NEW1",
+    4
+   ],
+   "tt0063157": [
+    "NEW1",
+    2
+   ],
+   "tt0182856": [
+    "NEW1",
+    4
+   ],
+   "tt0064385": [
+    "self",
+    1
+   ],
+   "tspdt:minha-namorada-1970": [
+    "self",
+    1
+   ],
+   "tt0317305": [
+    "self",
+    1
+   ],
+   "tspdt:quackser-fortune-has-a-cousin-in-the-bro-1970": [
+    "self",
+    1
+   ],
+   "tt0067433": [
+    "NEW2",
+    1
+   ],
+   "tt0067701": [
+    "self",
+    1
+   ],
+   "tt0069131": [
+    "self",
+    1
+   ],
+   "tspdt:vincent-mit-l-ane-dans-un-pre-et-s-en-vi-1975": [
+    "self",
+    1
+   ],
+   "tspdt:lily-aime-moi-1975": [
+    "self",
+    1
+   ],
+   "tt0076155": [
+    "self",
+    1
+   ],
+   "tspdt:amore-tv-1978": [
+    "self",
+    1
+   ],
+   "tt0081820": [
+    "self",
+    1
+   ],
+   "tt0082682": [
+    "self",
+    1
+   ],
+   "tt0083717": [
+    "self",
+    1
+   ],
+   "tspdt:cherie-1984": [
+    "self",
+    1
+   ],
+   "tt0092149": [
+    "self",
+    1
+   ],
+   "tt0093565": [
+    "self",
+    1
+   ],
+   "tt0095511": [
+    "self",
+    1
+   ],
+   "tspdt:black-rose-is-an-emblem-of-sorrow-red-ro-1989": [
+    "self",
+    1
+   ],
+   "tt0098160": [
+    "self",
+    1
+   ],
+   "tt0098436": [
+    "self",
+    1
+   ],
+   "tt0103130": [
+    "NEW2",
+    1
+   ],
+   "tt0099014": [
+    "NEW2",
+    1
+   ],
+   "tt0102478": [
+    "self",
+    1
+   ],
+   "tt0102609": [
+    "self",
+    1
+   ],
+   "tspdt:career-opportunities-one-wild-night-1991": [
+    "self",
+    1
+   ],
+   "tt0104662": [
+    "self",
+    1
+   ],
+   "tspdt:amoureuse-1992": [
+    "self",
+    1
+   ],
+   "tt0105481": [
+    "self",
+    1
+   ],
+   "tspdt:all-under-the-moon-1993": [
+    "self",
+    1
+   ],
+   "tt0111201": [
+    "NEW2",
+    1
+   ],
+   "tspdt:a-la-campagne-1995": [
+    "self",
+    1
+   ],
+   "tt0117057": [
+    "self",
+    1
+   ],
+   "tt0115928": [
+    "self",
+    1
+   ],
+   "tspdt:rainclouds-over-wushan-1996": [
+    "self",
+    1
+   ],
+   "tspdt:we-re-still-here-1997": [
+    "self",
+    1
+   ],
+   "tt0119717": [
+    "NEW2",
+    1
+   ],
+   "tspdt:julie-est-amourese-1998": [
+    "self",
+    1
+   ],
+   "tt0288621": [
+    "self",
+    1
+   ],
+   "tt0124298": [
+    "self",
+    1
+   ],
+   "tt0145929": [
+    "self",
+    1
+   ],
+   "tspdt:walk-the-talk-2000": [
+    "NEW2",
+    1
+   ],
+   "tspdt:aie-2000": [
+    "self",
+    1
+   ],
+   "tspdt:mujhe-chand-chaiye-2000": [
+    "self",
+    1
+   ],
+   "tt0234853": [
+    "NEW2",
+    1
+   ],
+   "tt0249893": [
+    "NEW2",
+    1
+   ],
+   "tt0211915": [
+    "self",
+    1
+   ],
+   "tt0272338": [
+    "NEW2",
+    1
+   ],
+   "tt0367975": [
+    "self",
+    1
+   ],
+   "tt0342844": [
+    "self",
+    1
+   ],
+   "tspdt:destiny-has-no-favourites-2003": [
+    "self",
+    1
+   ],
+   "tt0410549": [
+    "self",
+    1
+   ],
+   "tspdt:verflixt-verliebt-2004": [
+    "self",
+    1
+   ],
+   "tt0401244": [
+    "NEW2",
+    1
+   ],
+   "tt0913446": [
+    "self",
+    1
+   ],
+   "tt0391229": [
+    "NEW2",
+    1
+   ],
+   "tt0494222": [
+    "NEW2",
+    1
+   ],
+   "tt0987918": [
+    "self",
+    1
+   ],
+   "tt1068680": [
+    "self",
+    1
+   ],
+   "tt0881891": [
+    "self",
+    1
+   ],
+   "tt1499666": [
+    "self",
+    1
+   ],
+   "tt1372282": [
+    "self",
+    1
+   ],
+   "tt1565958": [
+    "self",
+    1
+   ],
+   "tt1722450": [
+    "self",
+    1
+   ],
+   "tt1646974": [
+    "self",
+    1
+   ],
+   "tt1602479": [
+    "self",
+    1
+   ],
+   "tt1805297": [
+    "self",
+    1
+   ],
+   "tt1945081": [
+    "self",
+    1
+   ],
+   "tt1648201": [
+    "NEW2",
+    1
+   ],
+   "tt2317337": [
+    "self",
+    1
+   ],
+   "tt2255934": [
+    "self",
+    1
+   ],
+   "tt2238839": [
+    "self",
+    1
+   ],
+   "tt3696800": [
+    "self",
+    1
+   ],
+   "tt3204144": [
+    "self",
+    1
+   ],
+   "tt5880296": [
+    "self",
+    1
+   ],
+   "tt5579982": [
+    "self",
+    1
+   ],
+   "tspdt:strange-birds-2017": [
+    "self",
+    1
+   ],
+   "tt5607096": [
+    "NEW2",
+    1
+   ],
+   "tt7527512": [
+    "self",
+    1
+   ],
+   "tspdt:pure-as-snow-2019": [
+    "self",
+    1
+   ],
+   "tt8253606": [
+    "self",
+    1
+   ],
+   "tt15747042": [
+    "self",
+    1
+   ],
+   "tt9058654": [
+    "NEW2",
+    1
+   ],
+   "tspdt:there-there-2022": [
+    "NEW2",
+    1
+   ],
+   "tt21027780": [
+    "self",
+    1
+   ],
+   "tt19853698": [
+    "self",
+    1
+   ],
+   "tt32044233": [
+    "self",
+    1
+   ],
+   "tspdt:le-rendezvous-de-lete-2025": [
+    "self",
+    1
+   ],
+   "tspdt:situations-2025": [
+    "NEW2",
+    1
+   ],
+   "tt33301434": [
+    "NEW2",
+    1
+   ],
+   "tspdt:memory-lane-1926": [
+    "NEW1",
+    1
+   ],
+   "tspdt:unfinished-business-1941": [
+    "NEW1",
+    1
+   ],
+   "tt0043915": [
+    "NEW1",
+    1
+   ],
+   "tspdt:hungry-for-love-1960": [
+    "NEW1",
+    2
+   ],
+   "tt0054225": [
+    "NEW1",
+    2
+   ],
+   "tt0060453": [
+    "NEW1",
+    2
+   ],
+   "tt0066184": [
+    "self",
+    2
+   ],
+   "tspdt:at-the-top-1971": [
+    "self",
+    2
+   ],
+   "tspdt:made-for-each-other-1971": [
+    "NEW2",
+    2
+   ],
+   "tt0069808": [
+    "self",
+    2
+   ],
+   "tt0079278": [
+    "NEW2",
+    2
+   ],
+   "tt0079100": [
+    "self",
+    2
+   ],
+   "tspdt:lonely-hearts-1981": [
+    "NEW2",
+    2
+   ],
+   "tspdt:the-personals-1981": [
+    "NEW2",
+    2
+   ],
+   "tt0090377": [
+    "self",
+    2
+   ],
+   "tspdt:paradise-1986": [
+    "self",
+    2
+   ],
+   "tt0098343": [
+    "self",
+    2
+   ],
+   "tt0098552": [
+    "self",
+    2
+   ],
+   "tt0101912": [
+    "self",
+    2
+   ],
+   "tspdt:autumn-moon-1992": [
+    "self",
+    2
+   ],
+   "tt0106387": [
+    "self",
+    2
+   ],
+   "tt0112883": [
+    "self",
+    2
+   ],
+   "tt0110251": [
+    "self",
+    2
+   ],
+   "tt0119822": [
+    "self",
+    2
+   ],
+   "tt0212423": [
+    "self",
+    2
+   ],
+   "tt0186397": [
+    "self",
+    2
+   ],
+   "tt0122459": [
+    "self",
+    2
+   ],
+   "tt0286797": [
+    "self",
+    2
+   ],
+   "tt0320193": [
+    "self",
+    2
+   ],
+   "tt0299117": [
+    "NEW2",
+    2
+   ],
+   "tt0343660": [
+    "self",
+    2
+   ],
+   "tt0365885": [
+    "self",
+    2
+   ],
+   "tt0368709": [
+    "self",
+    2
+   ],
+   "tt0497137": [
+    "self",
+    2
+   ],
+   "tt0772157": [
+    "NEW2",
+    2
+   ],
+   "tt0490579": [
+    "NEW2",
+    2
+   ],
+   "tt0944958": [
+    "self",
+    2
+   ],
+   "tt1185836": [
+    "NEW2",
+    2
+   ],
+   "tt1022603": [
+    "self",
+    2
+   ],
+   "tt0758752": [
+    "self",
+    2
+   ],
+   "tt1686313": [
+    "self",
+    2
+   ],
+   "tt1179927": [
+    "self",
+    2
+   ],
+   "tt2082197": [
+    "self",
+    2
+   ],
+   "tt1045658": [
+    "self",
+    2
+   ],
+   "tt1729226": [
+    "self",
+    2
+   ],
+   "tt2916510": [
+    "self",
+    2
+   ],
+   "tt3118664": [
+    "self",
+    2
+   ],
+   "tt2463512": [
+    "NEW2",
+    2
+   ],
+   "tt2355495": [
+    "self",
+    2
+   ],
+   "tt3173910": [
+    "self",
+    2
+   ],
+   "tt3082826": [
+    "NEW2",
+    2
+   ],
+   "tt3824412": [
+    "NEW2",
+    2
+   ],
+   "tt4699388": [
+    "self",
+    2
+   ],
+   "tt5078214": [
+    "self",
+    2
+   ],
+   "tt5462602": [
+    "NEW2",
+    2
+   ],
+   "tt6527426": [
+    "self",
+    2
+   ],
+   "tt10555482": [
+    "self",
+    2
+   ],
+   "tt9575164": [
+    "self",
+    2
+   ],
+   "tt11154906": [
+    "self",
+    2
+   ],
+   "tt11698630": [
+    "self",
+    2
+   ],
+   "tt14031338": [
+    "NEW2",
+    2
+   ],
+   "tt14494586": [
+    "NEW2",
+    2
+   ],
+   "tt11559472": [
+    "NEW2",
+    2
+   ],
+   "tt26691319": [
+    "self",
+    2
+   ],
+   "tt29031019": [
+    "self",
+    2
+   ],
+   "tt21057800": [
+    "NEW2",
+    2
+   ],
+   "tt32598483": [
+    "self",
+    2
+   ],
+   "tt23732034": [
+    "NEW2",
+    2
+   ],
+   "tt0031602": [
+    "NEW1",
+    1
+   ],
+   "tt0038206": [
+    "NEW1",
+    2
+   ],
+   "tt0051745": [
+    "NEW1",
+    1
+   ],
+   "tt0071334": [
+    "self",
+    3
+   ],
+   "tt0076095": [
+    "self",
+    3
+   ],
+   "tt0079948": [
+    "self",
+    3
+   ],
+   "tt0097778": [
+    "self",
+    3
+   ],
+   "tt0102598": [
+    "self",
+    3
+   ],
+   "tt0107166": [
+    "self",
+    3
+   ],
+   "tt0113986": [
+    "self",
+    3
+   ],
+   "tt0117247": [
+    "self",
+    3
+   ],
+   "tt0119620": [
+    "self",
+    3
+   ],
+   "tt0180837": [
+    "self",
+    3
+   ],
+   "tt0456165": [
+    "self",
+    3
+   ],
+   "tt0480242": [
+    "self",
+    3
+   ],
+   "tt0425413": [
+    "self",
+    3
+   ],
+   "tt1055292": [
+    "self",
+    3
+   ],
+   "tt1212436": [
+    "self",
+    3
+   ],
+   "tt1086772": [
+    "self",
+    3
+   ],
+   "tt3528284": [
+    "self",
+    3
+   ],
+   "tt1473832": [
+    "self",
+    3
+   ],
+   "tt5538800": [
+    "self",
+    3
+   ],
+   "tt26903085": [
+    "self",
+    3
+   ],
+   "tt32063050": [
+    "self",
+    3
+   ],
+   "tt27795377": [
+    "self",
+    3
+   ],
+   "tt31281659": [
+    "self",
+    3
+   ],
+   "tt32827713": [
+    "self",
+    3
+   ],
+   "tt0057664": [
+    "NEW1",
+    2
+   ],
+   "tt0096523": [
+    "self",
+    4
+   ],
+   "tt0113228": [
+    "self",
+    4
+   ],
+   "tt0120703": [
+    "self",
+    4
+   ],
+   "tt0206963": [
+    "NEW2",
+    3
+   ],
+   "tt0245407": [
+    "NEW2",
+    3
+   ],
+   "tspdt:une-femme-de-menagem-2002": [
+    "self",
+    4
+   ],
+   "tt0271219": [
+    "NEW2",
+    3
+   ],
+   "tt0337741": [
+    "self",
+    4
+   ],
+   "tt0387514": [
+    "self",
+    4
+   ],
+   "tt0466839": [
+    "self",
+    4
+   ],
+   "tt0945550": [
+    "self",
+    4
+   ],
+   "tt1230414": [
+    "self",
+    4
+   ],
+   "tt1205535": [
+    "self",
+    4
+   ],
+   "tt2390361": [
+    "NEW2",
+    3
+   ],
+   "tt2186812": [
+    "self",
+    4
+   ],
+   "tt2258345": [
+    "NEW2",
+    3
+   ],
+   "tt5719700": [
+    "self",
+    4
+   ],
+   "tt6857166": [
+    "self",
+    4
+   ],
+   "tt7205316": [
+    "self",
+    4
+   ],
+   "tt11271038": [
+    "self",
+    4
+   ],
+   "tt20879602": [
+    "self",
+    4
+   ],
+   "tt19890316": [
+    "self",
+    4
+   ],
+   "tspdt:the-sentimental-bloke-1919": [
+    "NEW1",
+    2
+   ],
+   "tt0016013": [
+    "NEW1",
+    1
+   ],
+   "tt0017809": [
+    "NEW1",
+    2
+   ],
+   "tspdt:green-fields-1937": [
+    "NEW1",
+    1
+   ],
+   "tt0173504": [
+    "self",
+    5
+   ],
+   "tspdt:eight-taels-of-gold-1989": [
+    "self",
+    5
+   ],
+   "tt0101745": [
+    "self",
+    5
+   ],
+   "tt0115899": [
+    "self",
+    5
+   ],
+   "tt0195814": [
+    "self",
+    5
+   ],
+   "tt0237539": [
+    "self",
+    5
+   ],
+   "tt0256415": [
+    "self",
+    5
+   ],
+   "tt0471395": [
+    "self",
+    5
+   ],
+   "tt0401445": [
+    "self",
+    5
+   ],
+   "tt1095174": [
+    "self",
+    5
+   ],
+   "tt9860728": [
+    "self",
+    5
+   ],
+   "tt6842770": [
+    "self",
+    5
+   ],
+   "tt19862722": [
+    "self",
+    5
+   ],
+   "tt31519456": [
+    "self",
+    5
+   ],
+   "tspdt:april-1-vidudala-1991": [
+    "self",
+    1
+   ],
+   "tt0236034": [
+    "self",
+    1
+   ],
+   "tt3119172": [
+    "self",
+    1
+   ]
+  },
+  "moves": []
  }
 }
