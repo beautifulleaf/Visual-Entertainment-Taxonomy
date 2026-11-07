@@ -25,6 +25,9 @@ Each reference term gets the strongest coverage the tree gives it:
   decided    read term by term on its records (aat_decisions.csv): an entry in an existing leaf or a "Peoples &
              cultures" entry of a new leaf (va_out/sweep_ref)
   recorded   read on its records and left: utilitarian or ethnographic objects with no named visual tradition found
+  people     a people or ethnic group with no gathered records and no covered AAT parent (ref_notes.py): a gap in the
+             sources, not in the tree
+  archaeology  an archaeological culture, phase or type site with no gathered records (ref_notes.py)
   uncovered  none of these; most have no gathered records: the gap is in the sources, not the tree
 AAT terms are mapped to the project's 20 regions (va_facets / coverage grid) from the term and its ancestors in the AAT
 hierarchy; the AAT type (culture, period, style...) is read from the label's qualifier. The uncovered backlog is ranked:
@@ -225,9 +228,12 @@ def main():
         if dec:
             if dec["decision"] == "entry":
                 r["coverage"], r["leaves"] = "decided", dec["leaves"]
-                for l in dec["leaves"].split(): peoples.append([r["id"], nm, l, dec["records"], "decided", dec["note"]])
+                grp = dec["note"] if int(dec["records"] or 0) else byid.get(par, {}).get("label", "")
+                for l in dec["leaves"].split(): peoples.append([r["id"], nm, l, dec["records"], "decided", grp])
             elif dec["decision"] == "new leaf": r["coverage"] = "decided"
             elif dec["decision"] == "facet": r["coverage"], r["kind"] = "facet", "nationality"
+            elif dec["decision"] == "out": r["coverage"] = "out"
+            elif dec["decision"] in ("people", "archaeology"): r["coverage"] = dec["decision"]
             else: r["coverage"] = "recorded"
             continue
         # (placement by the medium of a people's records and word overlap with its AAT cluster was tried and dropped:
@@ -284,10 +290,10 @@ def main():
          "**uncovered**. Mentioned is weak coverage: the tree knows the name but gives it no place of its own.", "",
          f"Overall: {pct(sum(byreg.values(), collections.Counter())):.0%} of in-scope AAT terms are covered (leaf, entry, mention, variant, held or facet); "
          f"{pct(sum(byreg.values(), collections.Counter()), ('leaf', 'entry')):.0%} have a leaf or entry.", "",
-         "## By region", "", "| Region | Terms | Leaf | Entry | Mentioned | Variant | Held | Inherited | Decided | Facet | Out of scope | Recorded | Uncovered | of which with records | Covered |", "|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|"]
+         "## By region", "", "| Region | Terms | Leaf | Entry | Mentioned | Variant | Held | Inherited | Decided | Facet | Out of scope | Recorded | People, no records | Archaeology, no records | Uncovered | of which with records | Covered |", "|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|"]
     for reg, c in sorted(byreg.items(), key=lambda x: -sum(x[1].values())):
         ev = sum(1 for r in arows if r["region"] == reg and r["coverage"] == "uncovered" and r["records"])
-        L.append(f"| {reg} | {sum(c.values())} | {c['leaf']} | {c['entry']} | {c['mentioned']} | {c['variant']} | {c['held']} | {c['inherited']} | {c['decided']} | {c['facet']} | {c['out']} | {c['recorded']} | {c['uncovered']} | {ev} | {pct(c):.0%} |")
+        L.append(f"| {reg} | {sum(c.values())} | {c['leaf']} | {c['entry']} | {c['mentioned']} | {c['variant']} | {c['held']} | {c['inherited']} | {c['decided']} | {c['facet']} | {c['out']} | {c['recorded']} | {c['people']} | {c['archaeology']} | {c['uncovered']} | {ev} | {pct(c):.0%} |")
     L += ["", "## By kind of term", "", "| Kind | Terms | Leaf | Entry | Mentioned | Variant | Held | Facet | Out of scope | Uncovered | Covered |", "|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|"]
     for k, c in sorted(bykind.items(), key=lambda x: rank[x[0]]):
         L.append(f"| {k} | {sum(c.values())} | {c['leaf']} | {c['entry']} | {c['mentioned']} | {c['variant']} | {c['held']} | {c['facet']} | {c['out']} | {c['uncovered']} | {pct(c):.0%} |")

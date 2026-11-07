@@ -537,18 +537,22 @@ def apply(tree, MV, MF, report):
             rows_ = MV.get(r["leaf"])
             if rows_ is None or any(fold(x[0]) == fold(r["name"]) for x in rows_): continue
             how = r.get("how") or "held"
+            nobj = int(r["objects"] or 0)
+            # a style, school or ware placed from its Getty scope note (no gathered records) is not a people
+            grp = "Peoples & cultures" if (nobj or how != "decided") else "Schools & phases"
             note = (f"grouped by Getty AAT under {r['aat_group']}" if how == "inherited" else
-                    f"{int(r['objects'] or 0):,} objects in the gathered records" + (f"; Getty AAT: {r['aat_group']}" if r.get("aat_group") else ""))
-            rows_.append([r["name"], "Peoples & cultures", note,
+                    f"Getty AAT, under {r['aat_group']}" if not nobj else
+                    f"{nobj:,} objects in the gathered records" + (f"; Getty AAT: {r['aat_group']}" if r.get("aat_group") else ""))
+            rows_.append([r["name"], grp, note,
                           "r3 http://vocab.getty.edu/page/aat/" + r["aat_id"], 0])
             st["va_peoples_added"] += 1
         for f in tree["va"]["fams"]:
             for s_ in f["subs"]:
                 for l in s_["leaves"]:
                     rs_ = MV.get(l["code"], [])
-                    if any(x[1] == "Peoples & cultures" for x in rs_):
-                        if isinstance(l.get("secs"), list) and l["secs"] and "Peoples & cultures" not in l["secs"]:
-                            l["secs"].append("Peoples & cultures")
+                    for g_ in ("Schools & phases", "Peoples & cultures"):
+                        if any(x[1] == g_ for x in rs_) and isinstance(l.get("secs"), list) and l["secs"] and g_ not in l["secs"]:
+                            l["secs"].append(g_)
                     l["n"] = len(rs_)
                 s_["n"] = sum(int(l.get("n") or 0) for l in s_["leaves"])
             f["n"] = sum(s_["n"] for s_ in f["subs"])

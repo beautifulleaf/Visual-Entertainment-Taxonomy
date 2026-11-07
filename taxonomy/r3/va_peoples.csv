@@ -1,5 +1,302 @@
 aat_id,name,leaf,objects,how,aat_group
 300020093,Classical,E1-28,28015,held,
+300459687,Goryeo ceramics,E3-13,0,decided,Korean ceramic styles
+300459753,Seo-ri,E3-13,0,decided,central-western region (ceramic style)
+300459770,Joseon celadon,E3-14,0,decided,Joseon ceramics (ceramic style)
+300459773,Usan-ri,E4-15,0,decided,Bunwon (ceramic style)
+300438498,Jeddito Yellow Ware,E1-68,0,decided,<Hopi pottery styles>
+300419365,Kilia type,D5-56,0,decided,Anatolian sculpture styles
+300448850,Ibero-Roman,D5-61,0,decided,"Iberian (Iberian peninsula, culture and style)"
+300264851,Anglo-Venetian,F1-5,0,decided,Renaissance-Baroque glassware styles
+300264885,Miaodigou I,E1-17,0,decided,Miaodigou
+300343732,Irreganaten,G3-4,0,decided,Iwellemmeden
+300263459,Twifo Hemang,D5-48,0,decided,Twifo
+300256909,Violet Style,L2-28,0,decided,Christian Nubian painting styles
+300197404,Chila,H1-4,0,decided,Shirvan
+300245452,Indo-Feraghan,H3-60,0,decided,Mughal textile styles
+300244027,Balikesir,H1-2,0,decided,Anatolian Islamic textile styles after Manzikert
+300244674,Baku,H1-4,0,decided,East Caucasian textile styles
+300180700,Amstel,E4-26,0,decided,modern Dutch ceramics styles
+300020580,Gallo-Roman,D5-61,0,decided,Roman provincial styles
+300114517,Yamachawan,E3-15,0,decided,Sanage
+300262962,Cajun,K12-14,0,decided,Colonial North American
+300107170,Melian,E1-30,0,decided,Aegean styles
+300020855,Angevin Gothic,K4-13,0,decided,French Medieval architecture styles
+300107038,Curvilinear Style,E1-37,0,decided,Cycladic pottery styles
+300107102,Argive Minyan,E1-37,0,decided,Minyan (pottery style)
+300107115,Ayios Onouphrios,E1-36,0,decided,Minoan pottery styles
+300263165,Chalandriani,D5-56,0,decided,folded-arm type
+300107362,brittle,E1-38,0,decided,Roman pottery styles
+300106426,Saint Clément,E1-76,0,decided,modern French ceramics styles
+300112063,Abstract Imagist,A5-81,0,decided,Abstract Expressionist
+300448613,Assyrian Revival,K2-15,0,decided,modern European revival styles
+300021716,Kazvin School,A1-2,0,decided,Safavid painting styles
+300021774,Agkhand,E2-1,0,decided,Seljuk pottery styles
+300021798,Baysunghur Style,A1-2,0,decided,Herat School
+300440775,Baroque Classicism,A5-25,0,decided,Late Baroque
+300021165,Auricular,I3-7,0,decided,Renaissance-Baroque decorative arts styles
+300444306,Elizabethan Gothic Revival,K2-6,0,decided,Elizabethan Revival
+300021215,Chinese Chippendale,I3-3,0,decided,Chippendale
+300020071,Phylakopi I phase,D5-56,0,decided,Early Cycladic
+300020107,Aeolic,K3-8,0,decided,Aegean architecture styles
+300265013,Cabiran,E1-27,0,decided,Boeotian (pottery style)
+300107009,Clazomenian,E1-30,0,decided,East Greek
+300020158,Chalice Style,E1-30,0,decided,Chian
+300107058,Canosa,E1-31,0,decided,Apulian (pottery style)
+300107079,Florid Style,E1-28,0,decided,Red-figure
+300020206,Archaistic,D5-109,0,decided,Greek sculpture styles
+300020217,Polykleitan,D5-108,0,decided,Argive School
+300020601,Aphrodisian,D5-61,0,decided,Roman sculpture styles
+300020692,Comnenian,K4-2,0,decided,Middle Byzantine
+300018963,Goan,K5-18,0,decided,Portuguese Colonial Indian
+300107072,Phnom Da,D5-14,0,decided,Funan (Pre-Angkorean style)
+300019120,Kompong Preah,D5-14,0,decided,Chen-la
+300018649,Akita Ranga School,A5-108,0,decided,Japanese painting styles
+300110922,Chuguji,D5-24,0,decided,Japanese sculpture styles
+300018919,Mamalla,K7-4,0,decided,Pallava
+300021599,Khalji,K1-14,0,decided,Delhi Sultanate
+300106458,Bai Miao,A2-3,0,decided,Chinese painting styles
+300312102,Saulteux,H9-11,0,decided,Ojibwa (culture or style)
+300016776,Aztalan,E1-70,0,decided,Pre-Columbian Great Lakes styles
+300016935,Alma,E1-133,0,decided,Pine Lawn Mogollon pottery styles
+300016313,Kuba Revived Court Style,I1-32,0,decided,Kuba Court Style
+300016002,Akwamu,D5-48,0,decided,Akyem
+300459757,Bangsan-dong,E3-13,0,decided,central-western region (ceramic style)
+300459774,Doma-ri,E4-15,0,decided,Bunwon (ceramic style)
+300459709,Goryeo white porcelain,E3-13,0,decided,Goryeo ceramics (ceramic style)
+300379314,Ngä Käkano,D5-81,0,decided,Maori sculpture styles
+300264886,Miaodigou II,E1-17,0,decided,Miaodigou
+300245277,Ouarzata,G3-4,0,decided,High Atlas styles
+300312140,White Style,L2-28,0,decided,Christian Nubian painting styles
+300244056,Bandirma,H1-2,0,decided,Anatolian Islamic textile styles after Manzikert
+300244134,Joshaghan,H1-1,0,decided,Central Persian textile styles after the Mongols
+300244159,Bijar,H1-1,0,decided,West Persian textile styles after the Mongols
+300244701,Lenkoran,H1-4,0,decided,South Caucasian textile styles
+300107453,Romano-British,D5-61,0,decided,Roman provincial styles
+300022107,Abstract Impressionist,A5-81,0,decided,<post-1945 fine arts styles and movements>
+300021439,Decadent Movement,A5-51,0,decided,fin de siècle
+300173488,lost color,E1-45,0,decided,Pre-Columbian Panamanian pottery styles
+300018850,Kadam School,A4-7,0,decided,Tibetan painting styles
+300019156,Jayavarman III,D5-14,0,decided,Transitional (Cambodian)
+300021803,Samarkand School,A1-2,0,decided,Timurid painting styles
+300107607,Black Lustrous,E1-143,0,decided,Cypriote pottery styles
+300105690,Sarreguemines,E1-76,0,decided,modern French ceramics styles
+300106449,Kara yo,K8-1,0,decided,Chinese architecture styles
+300114406,Kamigata-e,B2-17,0,decided,Japanese printmaking styles
+300020663,Justinianic,K4-2,0,decided,Early Byzantine
+300107042,Cycladic White,D5-56,0,decided,Cycladic pottery styles
+300107106,Gray Minyan,E1-37,0,decided,Minyan (pottery style)
+300263163,Louros type,D5-56,0,decided,Cycladic sculpture styles
+300021782,Rusapha,E2-16,0,decided,Ayyubid pottery styles
+300107357,Civitavecchia,E1-34,0,decided,Etruscan pottery styles
+300107388,Hard Style,D5-61,0,decided,Roman sculpture styles
+300410352,Cistercian Gothic,K4-13,0,decided,Gothic (Medieval)
+300020097,High Classical,D5-108,0,decided,Classical
+300107054,Calene,E1-31,0,decided,South Italian (Greek pottery style)
+300266750,bilingual,E1-28,0,decided,Greek vase painting styles
+300020218,Argive School,D5-108,0,decided,Greek sculpture styles
+300114457,Ami School,A2-14,0,decided,Japanese painting styles
+300117306,Popular Mughal,A1-4,0,decided,Mughal styles
+300018962,Portuguese Colonial Indian,K5-18,0,decided,Colonial Indian
+300018992,Jaunpur,K1-14,0,decided,Oudh
+300019092,Thatôn,D5-15,0,decided,Mon
+300458965,Brazilian Colonial Revival,K2-21,0,decided,Colonial Latin American architecture styles
+300265472,Brulé,H9-6,0,decided,Lakota (culture or style)
+300016946,Mimbres corrugated,E1-62,0,decided,Mimbres pottery styles
+300016003,Akwapim,D5-48,0,decided,Akyem
+300459720,sanggam cheongja,E3-13,0,decided,Goryeo ceramics (ceramic style)
+300459761,Haenam,E3-13,0,decided,southwestern region (ceramic style)
+300459775,Beoncheon-ri,E4-15,0,decided,Bunwon (ceramic style)
+300018930,Islamic Indian,K1-14,0,decided,Islamic (culture or style)
+300417422,Toyoga,A5-108,0,decided,Taiwanese
+300343768,Kel Ferwan,G3-4,0,decided,Kel Ayr
+300379315,Te Tipunga,D5-81,0,decided,Maori sculpture styles
+300265329,Soussi,G3-4,0,decided,Shluh
+300244678,Derbent,H1-4,0,decided,East Caucasian textile styles
+300244708,Moghan,H1-4,0,decided,South Caucasian textile styles
+300245464,Indo-Sarouk,H1-8,0,decided,Indian textile styles
+300379363,Romano-German,D5-61,0,decided,Roman provincial styles
+300380336,Buen Retiro,E4-25,0,decided,modern European ceramics styles
+300111959,Scarified,E1-45,0,decided,Pre-Columbian Panamanian pottery styles
+300457625,Desert Modernism,K6-9,0,decided,<post-1945 architecture and design styles and movements>
+300457625,Desert Modernism,K6-22,0,decided,<post-1945 architecture and design styles and movements>
+300018861,Karma Gardri School,A4-11,0,decided,Tibetan painting styles
+300114395,Nagasaki-e,B2-17,0,decided,Japanese printmaking styles
+300020187,Parian,D5-107,0,decided,Aegean styles
+300310215,schwellenbau,K12-9,0,decided,German Medieval architecture styles
+300107063,Linear Island Style,E1-25,0,decided,Island Greek pottery styles
+300020131,Chalcidian,E1-27,0,decided,Mainland Greek pottery styles
+300107109,Yellow Minyan,E1-37,0,decided,Minyan (pottery style)
+300263164,Kapsala,D5-56,0,decided,folded-arm type
+300107609,Black-slip-and-combed,E1-143,0,decided,Cypriote pottery styles
+300020014,Choga Mami Transitional,E1-149,0,decided,Persian pottery styles
+300386013,Colonial Canadian,K5-19,0,decided,Colonial North American
+300248161,colossal orders,K5-22,0,decided,architectural orders (assembly and style)
+300021843,Gabri,E2-1,0,decided,Seljuk pottery styles
+300020069,Grotta-Pelos,D5-56,0,decided,Early Cycladic
+300020111,Doric,K3-8,0,decided,Aegean architecture styles
+300112477,Black and White Style,E1-30,0,decided,Greek vase painting styles
+300020208,Daedalic,D5-107,0,decided,Greek sculpture styles
+300020484,Tarquinian,L2-30,0,decided,Etruscan (culture or style)
+300018102,Poblano,K5-5,0,decided,Colonial Latin American architecture styles
+300265653,California Modernism,K6-9,0,decided,<modern North American architecture styles and movements>
+300109915,Hachiman,K8-10,0,decided,Japanese architecture styles
+300113530,Haboku,A2-14,0,decided,Japanese painting styles
+300109930,Saiko Kutani,E4-20,0,decided,Kutani (ceramics style)
+300114471,Seto-guro,E3-15,0,decided,Seto (ceramics style)
+300018914,Ganga,K7-2,0,decided,Post-Gupta
+300019052,Sirmur,A1-8,0,decided,South Indian
+300019122,Prei Kmeng,D5-14,0,decided,Chen-la
+300265468,Hunkpapa,H9-6,0,decided,Lakota (culture or style)
+300343769,Itesan,G3-4,0,decided,Tuareg
+300016319,Ngongo,I1-32,0,decided,Kuba Folk Style
+300016320,Pianga,I1-32,0,decided,Kuba Folk Style
+300017657,Yankton,H9-6,0,decided,Sioux
+300265469,Miniconjou,H9-6,0,decided,Lakota (culture or style)
+300018223,Grand Rapids,I3-13,0,decided,<modern North American decorative arts styles and movements>
+300310148,chih-hua,A2-3,0,decided,Chinese painting styles
+300114510,Hie,K8-10,0,decided,Japanese architecture styles
+300114345,Hanabusa School,A2-9,0,decided,Japanese painting styles
+300113018,Kudara Kannon,D5-24,0,decided,Japanese sculpture styles
+300021804,Tughluq,K1-14,0,decided,Islamic Indian
+300018954,Sub-Imperial Mughal,A1-4,0,decided,Mughal styles
+300019055,Sittanavasal,L2-4,0,decided,South Indian
+300020070,Keros-Syros,D5-56,0,decided,Early Cycladic
+300020112,Ionic,K3-8,0,decided,Aegean architecture styles
+300107081,Simple Style,E1-28,0,decided,Red-figure
+300107168,Ionian Island Style,D5-107,0,decided,Greek sculpture styles
+300412119,Greco-Egyptian,D5-55,0,decided,Egyptian (ancient)
+300440779,French Gothic,D5-111,0,decided,Gothic (Medieval)
+300440779,French Gothic,K4-13,0,decided,Gothic (Medieval)
+300121793,Modern Movement,K6-9,0,decided,<modern European architecture styles and movements>
+300021727,Yezd,E2-10,0,decided,Safavid pottery styles
+300404774,French order,K5-23,0,decided,architectural orders (assembly and style)
+300114390,Osaka Print School,B2-17,0,decided,Japanese printmaking styles
+300020165,Eretrian,E1-27,0,decided,Mainland Greek pottery styles
+300107090,dark-on-light painted,E1-37,0,decided,Helladic pottery styles
+300107292,orange-burnished,E1-144,0,decided,Egyptian pottery styles
+300107370,Pergamene,E1-38,0,decided,Roman pottery styles
+300107614,Red Lustrous,E1-143,0,decided,Cypriote pottery styles
+300440778,Contemporary Realism,A5-96,0,decided,<modern North American fine arts styles and movements>
+300264052,Khamdi,A4-11,0,decided,Tibetan painting styles
+300120987,Banteay Chmar,K9-1,0,decided,Angkorean styles
+300312181,column Ladik,H1-2,0,decided,Anatolian Islamic textile styles after Manzikert
+300244146,Ravar,H1-1,0,decided,South Persian textile styles after the Mongols
+300245381,Tientsin,H1-12,0,decided,Chinese textile styles
+300245465,Indo-Turkoman,H1-8,0,decided,Indian textile styles
+300459731,sanghyeong cheongja,E3-13,0,decided,Goryeo ceramics (ceramic style)
+300459780,Dudong-ri,E3-14,0,decided,Joseon ceramics (ceramic style)
+300459776,Seondong-ri,E4-15,0,decided,Bunwon (ceramic style)
+300016321,Shobwa,I1-32,0,decided,Kuba Folk Style
+300018795,Tagar,G1-12,0,decided,Early Nomads (Asian)
+300018528,Final Jōmon,E1-18,0,decided,Jōmon
+300018651,Hasegawa School,A2-14,0,decided,Japanese painting styles
+300106468,Dong-Ju,A2-3,0,decided,Chinese painting styles
+300107838,Tepalcingo,K5-5,0,decided,Colonial Latin American architecture styles
+300020210,Lysippic,D5-108,0,decided,Greek sculpture styles
+300265014,Coral-red,E1-27,0,decided,Greek vase painting styles
+300019039,Marwar,A1-7,0,decided,Rajasthani (culture or style)
+300018665,Sanjo Street School,D5-24,0,decided,Japanese sculpture styles
+300459768,Chunghyo-dong,E3-14,0,decided,buncheong (ceramic style)
+300021779,Gurgan,E2-1,0,decided,Seljuk pottery styles
+300311559,Solomonic order,K5-23,0,decided,architectural orders (assembly and style)
+300107135,light-on-dark,E1-36,0,decided,Minoan pottery styles
+300107372,red-gloss,E1-38,0,decided,Roman pottery styles
+300435700,Cypro-Geometric,E1-143,0,decided,Cypriote styles
+300020188,Theran,L2-29,0,decided,Island Greek pottery styles
+300020166,Euboean,E1-25,0,decided,Mainland Greek pottery styles
+300107092,Ephyraean,E1-37,0,decided,Helladic pottery styles
+300387411,Capodimonte ware,E4-25,0,decided,modern European ceramics styles
+300459742,central-western region,E3-13,0,decided,Goryeo ceramics (ceramic style)
+300459781,Mungyeong,E4-15,0,decided,Joseon ceramics (ceramic style)
+300459777,Songjeong-dong,E4-15,0,decided,Bunwon (ceramic style)
+300018666,Shichijo Street School,D5-24,0,decided,Japanese sculpture styles
+300266172,Hatsuboku,A2-14,0,decided,Japanese painting styles
+300018503,Individualist,A2-3,0,decided,Chinese painting styles
+300018108,Ultrabaroque,K5-5,0,decided,Colonial Latin American architecture styles
+300020213,Pergamene,D5-109,0,decided,Greek sculpture styles
+300106943,Kastri group,D5-56,0,decided,Early Cycladic
+300107068,Megarian,E1-38,0,decided,Mainland Greek pottery styles
+300107094,Matt-painted,E1-37,0,decided,Helladic pottery styles
+300444899,Jeffersonian,K5-24,0,decided,Colonial North American
+300107298,ripple-burnished,E1-144,0,decided,Egyptian pottery styles
+300386540,Spanish Islamic,K1-5,0,decided,Islamic (culture or style)
+300459758,southwestern region,E3-13,0,decided,Goryeo ceramics (ceramic style)
+300459782,Yanggu,E4-15,0,decided,Joseon ceramics (ceramic style)
+300440790,Die Brücke,A5-56,0,decided,<modern European fine arts styles and movements>
+300020215,Phidian,D5-108,0,decided,Greek sculpture styles
+300379774,Romano-Egyptian,D5-55,0,decided,Egyptian (ancient)
+300020200,Outline Style,E1-30,0,decided,Greek vase painting styles
+300018652,Kaiho School,A2-14,0,decided,Japanese painting styles
+300310143,jinbi shanshui,A2-2,0,decided,Chinese painting styles
+300116399,Pala-Tibetan,A4-7,0,decided,Tibetan painting styles
+300107384,Thorn,E1-38,0,decided,Roman pottery styles
+300114385,Torii School,B2-17,0,decided,Japanese printmaking styles
+300107070,West Slope,E1-32,0,decided,Mainland Greek pottery styles
+300244097,Hereke,H1-2,0,decided,Anatolian Islamic textile styles after Manzikert
+300459779,Bunwon-ri,E4-15,0,decided,Bunwon (ceramic style)
+300451598,Exotic Revival,K2-15,0,decided,<modern North American architecture styles and movements>
+300020219,Praxitelean,D5-108,0,decided,Greek sculpture styles
+300107132,Phi Mai,K9-1,0,decided,Angkorean styles
+300018857,Sakya School,A4-7,0,decided,Tibetan painting styles
+300107153,Pattern Style,E1-36,0,decided,Minoan pottery styles
+300244170,Sarab,H1-1,0,decided,West Persian textile styles after the Mongols
+300263550,Otori,K8-10,0,decided,Japanese architecture styles
+300445651,Italian Renaissance Revival,K2-10,0,decided,<modern North American architecture styles and movements>
+300440782,Leibl-Kreis,A5-40,0,decided,<modern European fine arts styles and movements>
+300264051,Tibeto-Kashmiri style,D5-10,0,decided,Tibetan painting styles
+300411286,Pennsylvania Impressionist,A5-47,0,decided,<modern North American fine arts styles and movements>
+300107813,Pilgrim,K5-15,0,decided,Colonial North American
+300107112,Urfirnis,E1-37,0,decided,Helladic pottery styles
+300107146,Pyrgos,E1-36,0,decided,Minoan pottery styles
+300107448,Etrusco-Italic,D5-59,0,decided,Ancient Italian
+300193715,Kayseri,H1-2,0,decided,Anatolian Islamic textile styles after Manzikert
+300244189,Sarouk,H1-1,0,decided,West Persian textile styles after the Mongols
+300020223,Skopasian,D5-108,0,decided,Greek sculpture styles
+300179288,Kasama,I3-18,0,decided,Japanese ceramics styles
+300018508,Ru,E3-7,0,decided,Chinese ceramics styles
+300114448,Kara-e,A2-8,0,decided,Japanese painting styles
+300444315,Masonry Vernacular,K12-14,0,decided,<modern North American architecture styles and movements>
+300020493,Etrusco-Roman,D5-59,0,decided,Ancient Italian
+300112822,Nuovo Design,N2-8,0,decided,<post-1945 architecture and design styles and movements>
+300016870,Santa Rosa - Swift Creek,E1-71,0,decided,Pre-Columbian Southeastern North American styles
+300444316,Mudéjar revival,K2-2,0,decided,modern European revival styles
+300417402,Modern Ink Movement,A2-6,0,decided,Chinese painting styles
+300114497,Shimmei,K8-10,0,decided,Japanese architecture styles
+300018654,Kasuga School,A2-8,0,decided,Japanese painting styles
+300444310,Federal Revival,K5-12,0,decided,modern North American
+300107446,Greco-Etruscan,D5-59,0,decided,Ancient Italian
+300110281,Kose School,A2-8,0,decided,Japanese painting styles
+300021462,Pompeian Style,L2-32,0,decided,modern European revival styles
+300444896,German Moravian,K5-15,0,decided,modern North American
+300179349,Monterey Style,K2-21,0,decided,<modern North American architecture styles and movements>
+300438526,woodland style,H9-11,0,decided,<Great Lake and Central Woodland Native American>
+300018921,Pandya,K7-4,0,decided,Post-Gupta
+300266174,Mokkotsu,A2-10,0,decided,Japanese painting styles
+300107873,Gingerbread,K2-18,0,decided,modern North American
+300310144,shuimo,A2-3,0,decided,Chinese painting styles
+300114491,Sumiyoshi,K8-10,0,decided,Japanese architecture styles
+300391507,Phocaean,E1-30,0,decided,Near Eastern (Early Western World)
+300386632,Nishi Sarayama,E4-16,0,decided,Japanese ceramics styles
+300444319,New England Meeting House Style,K5-15,0,decided,<modern North American architecture styles and movements>
+300444353,Venetian Revival,K2-10,0,decided,modern European revival styles
+300106507,Su-Song,A2-3,0,decided,Chinese painting styles
+300106520,Zhe,A2-4,0,decided,Chinese painting styles
+300310644,Otoko-e,A2-8,0,decided,Japanese painting styles
+300021198,Regency Revival,K5-10,0,decided,<modern North American architecture styles and movements>
+300192655,Eccentric Abstraction,D5-122,0,decided,<post-1945 fine arts styles and movements>
+300266171,Shitōga,A2-11,0,decided,Japanese painting styles
+300113555,Soga,A2-14,0,decided,Japanese painting styles
+300444324,Spanish Baroque Revival,K2-22,0,decided,<modern North American architecture styles and movements>
+300444327,Spanish-Italian Romanesque Revival,K2-8,0,decided,<modern North American architecture styles and movements>
+300114427,Sumiyoshi,A2-8,0,decided,Japanese painting styles
+300444326,Spanish Renaissance Revival,K2-22,0,decided,<modern North American architecture styles and movements>
+300114463,Yakishime,E3-18,0,decided,Japanese ceramics styles
+300266173,Tsuketate,A2-11,0,decided,Japanese painting styles
+300018661,Unkoku School,A2-14,0,decided,Japanese painting styles
+300251301,Neo-Pop,A5-89,0,decided,<post-1945 fine arts styles and movements>
+300132708,Supermannerist,N2-8,0,decided,<post-1945 fine arts styles and movements>
+300112839,Systemic,D5-121,0,decided,<post-1945 fine arts styles and movements>
 300015928,Landuma,D4-36,1,decided,new leaf (va_out/sweep_ref)
 300016056,Ijo,D4-38,32,decided,new leaf (va_out/sweep_ref)
 300021932,Yap,D3-14,185,decided,new leaf (va_out/sweep_ref)

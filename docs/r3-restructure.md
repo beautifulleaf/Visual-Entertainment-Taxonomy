@@ -107,3 +107,38 @@ The 278 Getty AAT terms that were uncovered although gathered museum records car
   - Warao and Guiana basketry.
 
 No AAT term with gathered records is left uncovered. The remaining 1,728 uncovered terms have no records in the sources.
+
+## The rest of AAT, sorted by Getty's own scope notes (v17)
+
+Getty publishes a scope note for most AAT terms. `pipelines/r3/ref_notes.py` fetches the 4,737 English notes (Getty SPARQL, `data/reference/aat_notes.json`) and sorts the 1,728 terms that were still uncovered, none of which have gathered records, by what the note says the term is:
+
+| Sort | Terms | How it is settled |
+|---|---:|---|
+| note-placed | 22 | the note's first sentence names a leaf of the same region and medium ("Nagasaki-e … Ukiyo-e print style") → entry |
+| parent-placed | 17 | the AAT parent, stripped of "pottery styles" and the like, is a leaf name of the same region and medium ("Mimbres corrugated" → Mimbres Pottery) → entry |
+| grouping / nationality / polity | 241 | a heading of Getty's hierarchy, a nationality, a dynasty or beylik without a medium → facet |
+| ideology | 20 | political ideologies and religions → out of scope |
+| people | 803 | a people or ethnic group with no records and no covered parent → a gap in the sources (483 in sub-Saharan Africa, where AAT lists sub-groups and clans) |
+| archaeology | 172 | an archaeological culture, phase or type site (lithic and Paleo-Indian phases, kurgan phases) with no records |
+| art | 452 | named styles, schools, movements and wares: decided cluster by cluster under their AAT parent |
+
+The 452 art terms became:
+- **292 entries** in existing leaves, as "Schools & phases" rows noted with their AAT parent. Examples:
+  - Kose, Kasuga and Takuma → Yamato-e;
+  - Ami, Unkoku and Hasegawa → Ink Wash Painting;
+  - Phidian, Polykleitan and Praxitelean → Classical Greek Sculpture;
+  - the Korean kiln sites → Goryeo Celadon, Buncheong and Joseon White Porcelain;
+  - Shinto shrine styles → Shinto Shrine Architecture;
+  - Helladic and Minyan wares → Mycenaean Pottery;
+  - Kadam and Sakya → Thangka;
+  - American revivals → their revival leaves.
+- **30 new leaves** (`taxonomy/r3/va_out/sweep_ref2`), each attested by an encyclopedia, museum or Wikipedia source:
+  - Spatialism, Dau al Set, Supports/Surfaces, Synchromism, American Scene Painting, Nabis, Vienna School of Fantastic Realism, Bad Painting, Nanyang Style, Korean Informel, Minjung Art, Woodlands Style, Japonisme;
+  - Situationist International, Tropicália, Auto-destructive Art, Light and Space, Afrofuturism, Bioart;
+  - Graffiti Art, Metabolism, Brick Gothic, Celtic Revival;
+  - Plumbate Ware, Sue Ware, Hassuna Pottery, Khabur Ware, Nuzi Ware;
+  - Provoke, Subjective Photography.
+- **Facet, out or recorded** for the rest. Recorded covers minor prehistoric wares known by fabric names (red-washed buff, gritty buff and the like) and named traditions whose attestation was not confirmed (held):
+  - Estridentismo, Palissy ware, Scarlet Ware, Sialk pottery, Syro-Phoenician ivories, Arte Nucleare, Neo-Tantric art, Universal Constructivism.
+
+Every AAT Styles & Periods term now has a disposition: 0 uncovered. 80% of in-scope terms are covered (leaf, entry, mention, variant, held or facet), up from 54% at the start of the reference crosswalk. The 801 peoples and 172 archaeological terms without gathered records are the measured gap in the sources. California Indian Basketry was tagged South Asia (from "Indian"); it is corrected by an override.

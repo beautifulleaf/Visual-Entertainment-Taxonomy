@@ -1,6 +1,6 @@
 # Structure audit
 
-Computed from the published data: FT 950 leaves (604 sectioned), VA 1835 leaves. Flags in `flags.csv`.
+Computed from the published data: FT 950 leaves (604 sectioned), VA 1865 leaves. Flags in `flags.csv`.
 
 | Check | Finding | High | Medium | Low |
 |---|---|---:|---:|---:|
@@ -68,7 +68,7 @@ S2: 0 titles fall outside the dates of their era section.
 | VA | A2 East Asian Ink & Colour Painting | 11 | 0 | 2 | 2 |
 | VA | A3 Icon Painting | 4 | 0 | 1 | 1 |
 | VA | A4 Cloth & Scroll Painting | 8 | 1 | 0 | 11 |
-| VA | A5 Easel Painting | 47 | 55 | 4 | 39 |
+| VA | A5 Easel Painting | 60 | 55 | 4 | 39 |
 | VA | A6 Folk & Popular Painting | 22 | 5 | 0 | 5 |
 | VA | B1 Drawing | 7 | 1 | 2 | 0 |
 | VA | B2 Printmaking | 10 | 3 | 0 | 9 |
@@ -82,9 +82,9 @@ S2: 0 titles fall outside the dates of their era section.
 | VA | D4 Masks & Puppets | 0 | 1 | 0 | 39 |
 | VA | D5 Figurative Sculpture | 28 | 7 | 3 | 107 |
 | VA | D6 Ritual Objects & Regalia | 0 | 0 | 0 | 13 |
-| VA | E1 Earthenware | 142 | 0 | 0 | 14 |
+| VA | E1 Earthenware | 146 | 0 | 0 | 14 |
 | VA | E2 Fritware (Stonepaste) | 15 | 0 | 0 | 1 |
-| VA | E3 Stoneware | 34 | 0 | 0 | 0 |
+| VA | E3 Stoneware | 35 | 0 | 0 | 0 |
 | VA | E4 Porcelain | 27 | 0 | 0 | 0 |
 | VA | F1 Blown & Moulded Glass | 0 | 0 | 2 | 17 |
 | VA | F2 Cut & Carved Glass | 1 | 0 | 0 | 3 |
@@ -106,15 +106,15 @@ S2: 0 titles fall outside the dates of their era section.
 | VA | H10 Leatherwork | 1 | 0 | 0 | 2 |
 | VA | I1 Carved & Inlaid Woodwork | 0 | 0 | 0 | 37 |
 | VA | I2 Lacquer | 3 | 1 | 0 | 18 |
-| VA | I3 Furniture & Decorative Arts Styles | 4 | 12 | 0 | 8 |
+| VA | I3 Furniture & Decorative Arts Styles | 5 | 12 | 0 | 8 |
 | VA | I4 Musical Instruments | 1 | 0 | 0 | 22 |
-| VA | J1 Photographic Schools & Movements | 5 | 9 | 1 | 3 |
+| VA | J1 Photographic Schools & Movements | 7 | 9 | 1 | 3 |
 | VA | K1 Islamic Architecture | 19 | 0 | 0 | 0 |
 | VA | K2 Historicist & National Revivals | 1 | 33 | 0 | 0 |
 | VA | K3 Ancient Mediterranean & Near Eastern Architecture | 10 | 0 | 0 | 1 |
-| VA | K4 Medieval European Architecture | 13 | 0 | 0 | 0 |
+| VA | K4 Medieval European Architecture | 14 | 0 | 0 | 0 |
 | VA | K5 Early Modern European & Colonial Architecture | 4 | 20 | 0 | 0 |
-| VA | K6 Modern & Contemporary Architecture | 3 | 23 | 0 | 0 |
+| VA | K6 Modern & Contemporary Architecture | 4 | 23 | 0 | 0 |
 | VA | K7 South Asian Architecture | 2 | 16 | 0 | 2 |
 | VA | K8 East Asian Architecture | 18 | 0 | 0 | 3 |
 | VA | K9 Southeast Asian Architecture | 11 | 0 | 0 | 3 |
@@ -124,13 +124,13 @@ S2: 0 titles fall outside the dates of their era section.
 | VA | K13 Gardens & Designed Landscapes | 0 | 7 | 0 | 0 |
 | VA | K14 Plant & Floral Arts | 0 | 0 | 0 | 4 |
 | VA | L1 Rock Art | 38 | 3 | 0 | 1 |
-| VA | L2 Wall Painting | 37 | 1 | 0 | 13 |
+| VA | L2 Wall Painting | 38 | 1 | 0 | 13 |
 | VA | L3 Mosaic & Tile Revetment | 0 | 11 | 0 | 1 |
 | VA | L4 Geoglyphs | 0 | 7 | 0 | 1 |
 | VA | L5 Body Art | 0 | 0 | 0 | 13 |
 | VA | L6 Floor & Sand Painting | 0 | 0 | 0 | 3 |
-| VA | M1 Installation, Conceptual & Performance Art | 1 | 5 | 0 | 3 |
-| VA | M2 Video & New Media Art | 1 | 2 | 0 | 2 |
+| VA | M1 Installation, Conceptual & Performance Art | 5 | 5 | 0 | 3 |
+| VA | M2 Video & New Media Art | 3 | 2 | 0 | 2 |
 | VA | N1 Furniture & Lighting Design | 12 | 0 | 0 | 0 |
 | VA | N2 Product & Industrial Design | 9 | 0 | 0 | 0 |
 | VA | N3 Graphic Design | 13 | 0 | 0 | 0 |
@@ -139,18 +139,18 @@ S2: 0 titles fall outside the dates of their era section.
 
 | Tab | Sub-family | Leaves | Entries | Gini | Largest leaf |
 |---|---|---:|---:|---:|---:|
-| VA | A5 Easel Painting | 145 | 19,257 | 0.83 | 31% |
-| VA | D5 Figurative Sculpture | 146 | 4,337 | 0.81 | 37% |
+| VA | A5 Easel Painting | 158 | 19,300 | 0.84 | 31% |
+| VA | D5 Figurative Sculpture | 146 | 4,387 | 0.81 | 37% |
+| VA | J1 Photographic Schools & Movements | 20 | 3,115 | 0.71 | 29% |
+| VA | M1 Installation, Conceptual & Performance Art | 13 | 534 | 0.68 | 50% |
 | VA | H7 Dress & Costume | 23 | 295 | 0.68 | 59% |
-| VA | J1 Photographic Schools & Movements | 18 | 3,110 | 0.68 | 29% |
-| VA | K8 East Asian Architecture | 21 | 528 | 0.68 | 29% |
-| VA | K5 Early Modern European & Colonial Architecture | 24 | 1,286 | 0.68 | 33% |
-| VA | I3 Furniture & Decorative Arts Styles | 24 | 958 | 0.67 | 22% |
+| VA | I3 Furniture & Decorative Arts Styles | 25 | 964 | 0.68 | 22% |
+| VA | K8 East Asian Architecture | 21 | 534 | 0.68 | 28% |
+| VA | K5 Early Modern European & Colonial Architecture | 24 | 1,301 | 0.67 | 33% |
+| VA | K4 Medieval European Architecture | 14 | 691 | 0.67 | 46% |
 | VA | B1 Drawing | 10 | 1,395 | 0.67 | 56% |
-| VA | L2 Wall Painting | 51 | 779 | 0.66 | 22% |
-| VA | B2 Printmaking | 22 | 936 | 0.66 | 26% |
-| VA | K4 Medieval European Architecture | 13 | 684 | 0.65 | 46% |
-| VA | K9 Southeast Asian Architecture | 15 | 201 | 0.63 | 36% |
+| VA | B2 Printmaking | 22 | 940 | 0.66 | 26% |
+| VA | L2 Wall Painting | 52 | 788 | 0.65 | 22% |
+| VA | K9 Southeast Asian Architecture | 15 | 203 | 0.63 | 37% |
 | VA | L1 Rock Art | 42 | 584 | 0.62 | 19% |
-| VA | M1 Installation, Conceptual & Performance Art | 9 | 524 | 0.58 | 51% |
-| VA | K6 Modern & Contemporary Architecture | 26 | 2,227 | 0.57 | 35% |
+| VA | M2 Video & New Media Art | 7 | 228 | 0.61 | 59% |

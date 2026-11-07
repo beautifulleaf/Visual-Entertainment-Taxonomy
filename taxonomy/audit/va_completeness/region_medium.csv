@@ -1,5 +1,5 @@
 family,family_label,region,leaves,museum_records,sourcing_traditions
-A,Painting,Western Europe,76,327,32
+A,Painting,Western Europe,81,327,32
 A,Painting,Central & Eastern Europe,24,2014,117
 A,Painting,Greco-Roman & Byzantine Mediterranean,5,7231,1
 A,Painting,Ancient Egypt & Nubia,0,0,2
@@ -9,12 +9,12 @@ A,Painting,Central Asia & Silk Road,1,981,12
 A,Painting,Himalaya,8,5170,58
 A,Painting,South Asia,24,18680,109
 A,Painting,Southeast Asia,7,11796,19
-A,Painting,China,9,18741,23
+A,Painting,China,10,18741,23
 A,Painting,Japan,13,22943,22
-A,Painting,Korea,3,4508,12
+A,Painting,Korea,5,4508,12
 A,Painting,Sub-Saharan Africa,11,1230,14
-A,Painting,North America (Indigenous),5,4423,0
-A,Painting,North America (settler),22,193,8
+A,Painting,North America (Indigenous),6,4423,0
+A,Painting,North America (settler),25,193,8
 A,Painting,Mesoamerica & Caribbean,7,1385,11
 A,Painting,South America,12,1931,12
 A,Painting,Oceania (Pacific),3,834,6
@@ -83,19 +83,19 @@ E,Ceramics,Western Europe,24,82168,260
 E,Ceramics,Central & Eastern Europe,12,1498,83
 E,Ceramics,Greco-Roman & Byzantine Mediterranean,16,3672,85
 E,Ceramics,Ancient Egypt & Nubia,5,4028,10
-E,Ceramics,Ancient Near East,5,918,34
+E,Ceramics,Ancient Near East,8,918,34
 E,Ceramics,"Islamic world (MENA, Iran, Anatolia)",25,56859,33
 E,Ceramics,Central Asia & Silk Road,1,231,4
 E,Ceramics,Himalaya,0,359,6
 E,Ceramics,South Asia,3,2383,35
 E,Ceramics,Southeast Asia,7,3026,33
 E,Ceramics,China,25,44126,109
-E,Ceramics,Japan,21,29367,77
+E,Ceramics,Japan,22,29367,77
 E,Ceramics,Korea,8,3177,19
 E,Ceramics,Sub-Saharan Africa,4,9442,97
 E,Ceramics,North America (Indigenous),16,22752,18
 E,Ceramics,North America (settler),2,723,17
-E,Ceramics,Mesoamerica & Caribbean,25,18820,34
+E,Ceramics,Mesoamerica & Caribbean,26,18820,34
 E,Ceramics,South America,29,15224,36
 E,Ceramics,Oceania (Pacific),3,1422,159
 E,Ceramics,Australia (Aboriginal),1,8,1
@@ -147,19 +147,19 @@ H,"Textiles, Carpets & Dress",Ancient Near East,1,40,2
 H,"Textiles, Carpets & Dress","Islamic world (MENA, Iran, Anatolia)",29,14190,205
 H,"Textiles, Carpets & Dress",Central Asia & Silk Road,8,2512,30
 H,"Textiles, Carpets & Dress",Himalaya,3,1699,21
-H,"Textiles, Carpets & Dress",South Asia,31,12250,96
+H,"Textiles, Carpets & Dress",South Asia,30,12250,96
 H,"Textiles, Carpets & Dress",Southeast Asia,20,53775,129
 H,"Textiles, Carpets & Dress",China,12,1530,97
 H,"Textiles, Carpets & Dress",Japan,15,19466,51
 H,"Textiles, Carpets & Dress",Korea,7,561,17
 H,"Textiles, Carpets & Dress",Sub-Saharan Africa,26,16485,166
-H,"Textiles, Carpets & Dress",North America (Indigenous),31,23038,24
+H,"Textiles, Carpets & Dress",North America (Indigenous),32,23038,24
 H,"Textiles, Carpets & Dress",North America (settler),6,13079,32
 H,"Textiles, Carpets & Dress",Mesoamerica & Caribbean,13,5253,30
 H,"Textiles, Carpets & Dress",South America,16,12577,52
 H,"Textiles, Carpets & Dress",Oceania (Pacific),8,11989,92
 H,"Textiles, Carpets & Dress",Australia (Aboriginal),2,270,8
-I,"Woodwork, Lacquer & Furniture",Western Europe,27,910,16
+I,"Woodwork, Lacquer & Furniture",Western Europe,28,910,16
 I,"Woodwork, Lacquer & Furniture",Central & Eastern Europe,12,1854,26
 I,"Woodwork, Lacquer & Furniture",Greco-Roman & Byzantine Mediterranean,0,0,2
 I,"Woodwork, Lacquer & Furniture",Ancient Egypt & Nubia,0,148,1
@@ -179,7 +179,7 @@ I,"Woodwork, Lacquer & Furniture",Mesoamerica & Caribbean,1,1464,7
 I,"Woodwork, Lacquer & Furniture",South America,3,3725,9
 I,"Woodwork, Lacquer & Furniture",Oceania (Pacific),6,6939,35
 I,"Woodwork, Lacquer & Furniture",Australia (Aboriginal),0,107,0
-J,Photography,Western Europe,5,2450,0
+J,Photography,Western Europe,6,2450,0
 J,Photography,Central & Eastern Europe,0,25,0
 J,Photography,Greco-Roman & Byzantine Mediterranean,0,0,0
 J,Photography,Ancient Egypt & Nubia,0,0,0
@@ -190,7 +190,7 @@ J,Photography,Himalaya,0,0,0
 J,Photography,South Asia,0,92,0
 J,Photography,Southeast Asia,1,6023,0
 J,Photography,China,0,78,0
-J,Photography,Japan,0,64,3
+J,Photography,Japan,1,64,3
 J,Photography,Korea,0,0,0
 J,Photography,Sub-Saharan Africa,1,174,1
 J,Photography,North America (Indigenous),0,9,0
@@ -199,7 +199,7 @@ J,Photography,Mesoamerica & Caribbean,0,24,0
 J,Photography,South America,0,117,0
 J,Photography,Oceania (Pacific),0,259,0
 J,Photography,Australia (Aboriginal),0,0,0
-K,Architecture,Western Europe,55,0,322
+K,Architecture,Western Europe,56,0,322
 K,Architecture,Central & Eastern Europe,19,0,127
 K,Architecture,Greco-Roman & Byzantine Mediterranean,10,0,14
 K,Architecture,Ancient Egypt & Nubia,2,0,3
@@ -210,7 +210,7 @@ K,Architecture,Himalaya,4,0,4
 K,Architecture,South Asia,18,0,57
 K,Architecture,Southeast Asia,15,0,27
 K,Architecture,China,13,0,18
-K,Architecture,Japan,13,0,53
+K,Architecture,Japan,14,0,53
 K,Architecture,Korea,2,0,4
 K,Architecture,Sub-Saharan Africa,7,0,14
 K,Architecture,North America (Indigenous),3,0,5

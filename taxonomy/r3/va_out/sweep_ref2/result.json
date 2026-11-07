@@ -1,0 +1,1268 @@
+{
+ "leaves": {},
+ "new_leaves": [
+  {
+   "key": "SPATIALISM",
+   "sub": "A5",
+   "label": "Spatialism",
+   "breadth": "narrow",
+   "defn": "Movement founded by Lucio Fontana in Milan in 1947 (anticipated by the Manifiesto blanco, Buenos Aires 1946) that sought to fuse colour, sound, space, movement and time, projecting art into real space with neon, television and the slashed and punctured canvas (Buchi, Tagli).",
+   "aliases": "Spazialismo; Spatialist",
+   "see": "A5-83 Lyrical Abstraction",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Spatialism",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Spatialism",
+     "The Met collection search: Spatialism",
+     "objects matching 'Spatialism' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Lucio Fontana",
+     "Makers",
+     "founder; Concetto spaziale, Buchi and Tagli",
+     "r3 https://en.wikipedia.org/wiki/Lucio_Fontana",
+     0
+    ],
+    [
+     "Roberto Crippa",
+     "Makers",
+     "Spirals",
+     "r3 https://en.wikipedia.org/wiki/Spatialism",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "DAUALSET",
+   "sub": "A5",
+   "label": "Dau al Set",
+   "breadth": "narrow",
+   "defn": "The first post-war avant-garde group in Spain, founded in Barcelona in 1948 by Joan Brossa with Antoni Tàpies, Modest Cuixart, Joan Ponç and others, drawing on Surrealism and Dada and publishing the review Dau al Set until 1956.",
+   "aliases": "",
+   "see": "A5-66 Surrealism",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Dau_al_Set",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Dau+al+Set",
+     "The Met collection search: Dau al Set",
+     "objects matching 'Dau al Set' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Antoni Tàpies",
+     "Makers",
+     "later matter painting",
+     "r3 https://en.wikipedia.org/wiki/Dau_al_Set",
+     0
+    ],
+    [
+     "Modest Cuixart",
+     "Makers",
+     "",
+     "r3 https://en.wikipedia.org/wiki/Dau_al_Set",
+     0
+    ],
+    [
+     "Joan Ponç",
+     "Makers",
+     "",
+     "r3 https://en.wikipedia.org/wiki/Dau_al_Set",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "SUPPORTS",
+   "sub": "A5",
+   "label": "Supports/Surfaces",
+   "breadth": "narrow",
+   "defn": "French group of 1966–1972 from Montpellier, Nîmes and Nice that deconstructed painting into its support (stretcher) and surface (canvas): unstretched canvases, stretchers without canvas and repeated imprinted forms, with a Marxist and structuralist theory.",
+   "aliases": "",
+   "see": "",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Supports/Surfaces",
+     "Wikipedia"
+    ],
+    [
+     "https://www.nationalmusee.lu/en/exhibitions/supportssurfaces-viallat-saytour",
+     "Nationalmusée Luxembourg"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Supports/Surfaces",
+     "The Met collection search: Supports/Surfaces",
+     "objects matching 'Supports/Surfaces' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Claude Viallat",
+     "Makers",
+     "repeated bean-shaped imprint",
+     "r3 https://www.nationalmusee.lu/en/exhibitions/supportssurfaces-viallat-saytour",
+     0
+    ],
+    [
+     "Daniel Dezeuze",
+     "Makers",
+     "stretchers without canvas",
+     "r3 https://en.wikipedia.org/wiki/Supports/Surfaces",
+     0
+    ],
+    [
+     "Patrick Saytour",
+     "Makers",
+     "",
+     "r3 https://en.wikipedia.org/wiki/Supports/Surfaces",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "SYNCHROMISM",
+   "sub": "A5",
+   "label": "Synchromism",
+   "breadth": "narrow",
+   "defn": "American colour abstraction founded in Paris in 1912–1913 by Morgan Russell and Stanton Macdonald-Wright, orchestrating colour on the analogy of music (synchromies); the first American avant-garde movement to receive international attention.",
+   "aliases": "",
+   "see": "A5-144 American Abstract Artists",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Synchromism",
+     "Wikipedia"
+    ],
+    [
+     "https://www.britannica.com/art/Synchromism",
+     "Britannica"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Synchromism",
+     "The Met collection search: Synchromism",
+     "objects matching 'Synchromism' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Morgan Russell",
+     "Makers",
+     "Synchromy in Green, 1913",
+     "r3 https://www.britannica.com/art/Synchromism",
+     0
+    ],
+    [
+     "Stanton Macdonald-Wright",
+     "Makers",
+     "",
+     "r3 https://en.wikipedia.org/wiki/Stanton_Macdonald-Wright",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "AMSCENE",
+   "sub": "A5",
+   "label": "American Scene Painting",
+   "breadth": "narrow",
+   "defn": "Naturalistic painting of everyday American life of the 1920s–1940s, rooted in the Ashcan School and encouraged by the federal art projects of the Depression, comprising the Regionalists (Benton, Wood, Curry) and the Social Realists.",
+   "aliases": "",
+   "see": "A5-73 Social Realism",
+   "src": [
+    [
+     "https://www.britannica.com/topic/American-Scene-painting",
+     "Britannica"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=American+Scene+Painting",
+     "The Met collection search: American Scene Painting",
+     "objects matching 'American Scene Painting' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Regionalism",
+     "Schools & phases",
+     "Benton, Wood and Curry",
+     "r3 https://www.britannica.com/topic/American-Scene-painting",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "NABIS",
+   "sub": "A5",
+   "label": "Nabis",
+   "breadth": "narrow",
+   "defn": "Group of young Paris painters (1888–c. 1900) formed around Paul Sérusier's Talisman, painted under Gauguin's guidance at Pont-Aven: Bonnard, Vuillard, Denis, Ranson, Vallotton; flat colour, decorative pattern and intimate interiors, with screens, posters and theatre design.",
+   "aliases": "Les Nabis",
+   "see": "A5-49 Post-Impressionism",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Nabis_(art)",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Nabis",
+     "The Met collection search: Nabis",
+     "objects matching 'Nabis' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Paul Sérusier",
+     "Makers",
+     "Le Talisman, 1888",
+     "r3 https://en.wikipedia.org/wiki/Nabis_(art)",
+     0
+    ],
+    [
+     "Pierre Bonnard",
+     "Makers",
+     "",
+     "r3 https://en.wikipedia.org/wiki/Nabis_(art)",
+     0
+    ],
+    [
+     "Édouard Vuillard",
+     "Makers",
+     "interiors",
+     "r3 https://en.wikipedia.org/wiki/Nabis_(art)",
+     0
+    ],
+    [
+     "Maurice Denis",
+     "Makers",
+     "theorist",
+     "r3 https://en.wikipedia.org/wiki/Nabis_(art)",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "FANTREAL",
+   "sub": "A5",
+   "label": "Vienna School of Fantastic Realism",
+   "breadth": "narrow",
+   "defn": "Group of Viennese painters formed after 1946 at the Akademie under Albert Paris Gütersloh — Ernst Fuchs, Rudolf Hausner, Arik Brauer, Wolfgang Hutter, Anton Lehmden — who painted dreamlike visions with the precision of the old masters.",
+   "aliases": "Fantastic Realism; Phantastischer Realismus",
+   "see": "A5-66 Surrealism",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Vienna_School_of_Fantastic_Realism",
+     "Wikipedia"
+    ],
+    [
+     "https://www.tate.org.uk/art/art-terms/f/fantastic-realism",
+     "Tate"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Vienna+School+of+Fantastic+Realism",
+     "The Met collection search: Vienna School of Fantastic Realism",
+     "objects matching 'Vienna School of Fantastic Realism' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Ernst Fuchs",
+     "Makers",
+     "",
+     "r3 https://www.tate.org.uk/art/art-terms/f/fantastic-realism",
+     0
+    ],
+    [
+     "Rudolf Hausner",
+     "Makers",
+     "",
+     "r3 https://www.tate.org.uk/art/art-terms/f/fantastic-realism",
+     0
+    ],
+    [
+     "Arik Brauer",
+     "Makers",
+     "",
+     "r3 https://www.tate.org.uk/art/art-terms/f/fantastic-realism",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "BADPAINT",
+   "sub": "A5",
+   "label": "Bad Painting",
+   "breadth": "narrow",
+   "defn": "Figurative painting that deliberately rejects good draftsmanship and taste, named by Marcia Tucker's 1978 exhibition at the New Museum, New York: deformed figures, high and low sources mixed, fantastic and irreverent content.",
+   "aliases": "\"Bad\" Painting",
+   "see": "A5-98 Neo-Expressionism",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Bad_Painting",
+     "Wikipedia"
+    ],
+    [
+     "https://archive.newmuseum.org/exhibitions/5",
+     "New Museum Digital Archive"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Bad+Painting",
+     "The Met collection search: Bad Painting",
+     "objects matching 'Bad Painting' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Joan Brown",
+     "Makers",
+     "",
+     "r3 https://archive.newmuseum.org/exhibitions/5",
+     0
+    ],
+    [
+     "Neil Jenney",
+     "Makers",
+     "",
+     "r3 https://archive.newmuseum.org/exhibitions/5",
+     0
+    ],
+    [
+     "William Wegman",
+     "Makers",
+     "",
+     "r3 https://archive.newmuseum.org/exhibitions/5",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "NANYANG",
+   "sub": "A5",
+   "label": "Nanyang Style",
+   "breadth": "narrow",
+   "defn": "Modern painting of migrant Chinese artists in Singapore and Malaya from the 1930s to the 1960s, joining the Chinese ink tradition and the School of Paris with Southeast Asian subjects; associated with the Nanyang Academy of Fine Arts (Liu Kang, Chen Chong Swee, Cheong Soo Pieng, Chen Wen Hsi).",
+   "aliases": "Nanyang school; Nanyang art",
+   "see": "",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Nanyang_Style",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Nanyang+Style",
+     "The Met collection search: Nanyang Style",
+     "objects matching 'Nanyang Style' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Cheong Soo Pieng",
+     "Makers",
+     "",
+     "r3 https://en.wikipedia.org/wiki/Nanyang_Style",
+     0
+    ],
+    [
+     "Liu Kang",
+     "Makers",
+     "",
+     "r3 https://en.wikipedia.org/wiki/Nanyang_Style",
+     0
+    ],
+    [
+     "Chen Wen Hsi",
+     "Makers",
+     "",
+     "r3 https://en.wikipedia.org/wiki/Nanyang_Style",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "KINFORMEL",
+   "sub": "A5",
+   "label": "Korean Informel",
+   "breadth": "narrow",
+   "defn": "Gestural, non-geometric abstraction in Korea from the mid-1950s to the mid-1960s, the first radical post-war movement there, linked to Art Informel and Abstract Expressionism and staged against the government-sponsored National Art Exhibition (gukjeon).",
+   "aliases": "Art Informel in Korea",
+   "see": "A5-81 Abstract Expressionism",
+   "src": [
+    [
+     "https://www.rem.routledge.com/articles/art-informel-in-korea",
+     "Routledge Encyclopedia of Modernism"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Korean+Informel",
+     "The Met collection search: Korean Informel",
+     "objects matching 'Korean Informel' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Park Seo-bo",
+     "Makers",
+     "",
+     "r3 https://www.rem.routledge.com/articles/art-informel-in-korea",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "MINJUNG",
+   "sub": "A5",
+   "label": "Minjung Art",
+   "breadth": "narrow",
+   "defn": "\"People's art\" of South Korea in the 1980s, a politically engaged figurative art of the democratisation movement: paintings, woodcuts, banners (geolgae) and murals made by collectives and shown in open schools and protests.",
+   "aliases": "Minjung misul; People's art",
+   "see": "",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Minjung_art",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Minjung+Art",
+     "The Met collection search: Minjung Art",
+     "objects matching 'Minjung Art' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Oh Yoon",
+     "Makers",
+     "woodcuts",
+     "r3 https://en.wikipedia.org/wiki/Minjung_art",
+     0
+    ],
+    [
+     "Geolgae banner painting",
+     "Sub-types",
+     "large banners for rallies",
+     "r3 https://en.wikipedia.org/wiki/Minjung_art",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "WOODLANDS",
+   "sub": "A5",
+   "label": "Woodlands Style",
+   "breadth": "narrow",
+   "defn": "Painting of Anishinaabe and other First Nations artists founded by Norval Morrisseau in the 1960s: heavy black formlines, X-ray views and flat bright colour for legends and spiritual beings; practised by Carl Ray, Daphne Odjig, Jackson Beardy and the 'Indian Group of Seven'.",
+   "aliases": "Woodlands school; Legend painting; Medicine painting; Anishnabe painting",
+   "see": "",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Woodlands_style",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Woodlands+Style",
+     "The Met collection search: Woodlands Style",
+     "objects matching 'Woodlands Style' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Norval Morrisseau",
+     "Makers",
+     "founder",
+     "r3 https://en.wikipedia.org/wiki/Norval_Morrisseau",
+     0
+    ],
+    [
+     "Carl Ray",
+     "Makers",
+     "",
+     "r3 https://en.wikipedia.org/wiki/Woodlands_style",
+     0
+    ],
+    [
+     "Jackson Beardy",
+     "Makers",
+     "",
+     "r3 https://en.wikipedia.org/wiki/Woodlands_style",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "JAPONISME",
+   "sub": "A5",
+   "label": "Japonisme",
+   "breadth": "narrow",
+   "defn": "The influence of Japanese art, especially ukiyo-e prints, on Western painting, prints and decorative arts after the opening of Japan in the 1850s: flat colour, cropped compositions and asymmetry in Manet, Whistler, Degas, Van Gogh and the Nabis, and the Anglo-Japanese style in design.",
+   "aliases": "",
+   "see": "B2-17 Ukiyo-e",
+   "src": [
+    [
+     "https://www.metmuseum.org/essays/japonisme",
+     "The Met, Heilbrunn Timeline of Art History"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Japonisme",
+     "The Met collection search: Japonisme",
+     "objects matching 'Japonisme' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Anglo-Japanese style",
+     "Sub-types",
+     "British furniture and design (Godwin, Dresser)",
+     "r3 https://www.metmuseum.org/essays/japonisme",
+     0
+    ],
+    [
+     "Japonaiserie",
+     "Sub-types",
+     "Japanese motifs in Western decorative arts",
+     "r3 https://www.metmuseum.org/essays/japonisme",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "SITUATIONIST",
+   "sub": "M1",
+   "label": "Situationist International",
+   "breadth": "narrow",
+   "defn": "Avant-garde of artists and theorists (1957–1972) grown out of Lettrism, led by Guy Debord, practising détournement, the dérive and psychogeography; its art included Asger Jorn's modified paintings and Pinot-Gallizio's industrial painting.",
+   "aliases": "Situationism",
+   "see": "M1-3 Fluxus",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Situationist",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Situationist+International",
+     "The Met collection search: Situationist International",
+     "objects matching 'Situationist International' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Détournement",
+     "Sub-types",
+     "re-working of existing works",
+     "r3 https://en.wikipedia.org/wiki/Situationist",
+     0
+    ],
+    [
+     "Asger Jorn",
+     "Makers",
+     "modifications",
+     "r3 https://en.wikipedia.org/wiki/Situationist",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "TROPICALIA",
+   "sub": "M1",
+   "label": "Tropicália",
+   "breadth": "narrow",
+   "defn": "Brazilian movement of the late 1960s joining installation, painting, performance, film, theatre and music, named after Hélio Oiticica's 1967 installation and allied with the musicians Caetano Veloso and Gilberto Gil.",
+   "aliases": "Tropicalismo",
+   "see": "A5-138 Brazilian modernism",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Tropicália",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Tropicália",
+     "The Met collection search: Tropicália",
+     "objects matching 'Tropicália' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Hélio Oiticica",
+     "Makers",
+     "Tropicália (1967), Parangolés",
+     "r3 https://en.wikipedia.org/wiki/Tropicália",
+     0
+    ],
+    [
+     "Lygia Clark",
+     "Makers",
+     "",
+     "r3 https://en.wikipedia.org/wiki/Tropicália",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "AUTODESTRUCT",
+   "sub": "M1",
+   "label": "Auto-destructive Art",
+   "breadth": "narrow",
+   "defn": "Art in which destruction is part of the making, launched by Gustav Metzger in London in 1959 (acid on nylon paintings) and pursued in Jean Tinguely's self-destroying machines and the 1966 Destruction in Art Symposium.",
+   "aliases": "",
+   "see": "",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Auto-destructive_art",
+     "Wikipedia"
+    ],
+    [
+     "https://www.tate.org.uk/art/art-terms/a/auto-destructive-art",
+     "Tate"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Auto-destructive+Art",
+     "The Met collection search: Auto-destructive Art",
+     "objects matching 'Auto-destructive Art' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Gustav Metzger",
+     "Makers",
+     "founder",
+     "r3 https://en.wikipedia.org/wiki/Gustav_Metzger",
+     0
+    ],
+    [
+     "Jean Tinguely",
+     "Makers",
+     "Hommage à New York, 1960",
+     "r3 https://www.tate.org.uk/art/art-terms/a/auto-destructive-art",
+     0
+    ],
+    [
+     "Destruction in Art Symposium",
+     "Schools & phases",
+     "London 1966, New York 1968",
+     "r3 https://www.tate.org.uk/art/art-terms/a/auto-destructive-art",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "LIGHTSPACE",
+   "sub": "M1",
+   "label": "Light and Space",
+   "breadth": "narrow",
+   "defn": "Southern California movement of the 1960s–1970s making perception its subject with light, transparent resins, glass and built environments: James Turrell, Robert Irwin, Larry Bell, Doug Wheeler, Helen Pashgian, De Wain Valentine.",
+   "aliases": "",
+   "see": "D5-121 Minimalism",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Light_and_Space",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Light+and+Space",
+     "The Met collection search: Light and Space",
+     "objects matching 'Light and Space' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "James Turrell",
+     "Makers",
+     "",
+     "r3 https://en.wikipedia.org/wiki/Light_and_Space",
+     0
+    ],
+    [
+     "Robert Irwin",
+     "Makers",
+     "",
+     "r3 https://en.wikipedia.org/wiki/Light_and_Space",
+     0
+    ],
+    [
+     "Larry Bell",
+     "Makers",
+     "",
+     "r3 https://en.wikipedia.org/wiki/Light_and_Space",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "AFROFUT",
+   "sub": "M2",
+   "label": "Afrofuturism",
+   "breadth": "narrow",
+   "defn": "Art, music and literature of the African diaspora that join science fiction, technology and Afrocentric myth to reimagine the past and future of Black people, in painting, collage, installation, film and video from the 1960s to the present.",
+   "aliases": "",
+   "see": "",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Afrofuturism",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Afrofuturism",
+     "The Met collection search: Afrofuturism",
+     "objects matching 'Afrofuturism' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Sun Ra",
+     "Makers",
+     "",
+     "r3 https://en.wikipedia.org/wiki/Afrofuturism",
+     0
+    ],
+    [
+     "Wangechi Mutu",
+     "Makers",
+     "",
+     "r3 https://en.wikipedia.org/wiki/Afrofuturism",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "BIOART",
+   "sub": "M2",
+   "label": "Bioart",
+   "breadth": "narrow",
+   "defn": "Art practice working with live tissues, bacteria, living organisms and life processes, often in laboratories with scientists: transgenic works, tissue culture and genetic art.",
+   "aliases": "Bio art",
+   "see": "",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/BioArt",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Bioart",
+     "The Met collection search: Bioart",
+     "objects matching 'Bioart' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Transgenic art",
+     "Sub-types",
+     "",
+     "r3 https://en.wikipedia.org/wiki/BioArt",
+     0
+    ],
+    [
+     "Tissue culture art",
+     "Sub-types",
+     "",
+     "r3 https://en.wikipedia.org/wiki/BioArt",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "GRAFFITI",
+   "sub": "L2",
+   "label": "Graffiti Art",
+   "breadth": "narrow",
+   "defn": "Spray-painted lettering and images on walls and trains, from the New York subway writers of the 1970s to global street art: tags, throw-ups, pieces and the interlocking letters of wildstyle.",
+   "aliases": "Aerosol art; Writing",
+   "see": "L2-40 Mexican Muralism",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Wildstyle",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Graffiti+Art",
+     "The Met collection search: Graffiti Art",
+     "objects matching 'Graffiti Art' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Wildstyle",
+     "Sub-types",
+     "the most complex interlocking letter style",
+     "r3 https://en.wikipedia.org/wiki/Wildstyle",
+     0
+    ],
+    [
+     "Piece (masterpiece)",
+     "Sub-types",
+     "large multicolour work",
+     "r3 https://en.wikipedia.org/wiki/Wildstyle",
+     0
+    ],
+    [
+     "Throw-up",
+     "Sub-types",
+     "",
+     "r3 https://en.wikipedia.org/wiki/Wildstyle",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "METABOLISM",
+   "sub": "K6",
+   "label": "Metabolism",
+   "breadth": "narrow",
+   "defn": "Post-war Japanese architectural movement launched at the 1960 World Design Conference in Tokyo (Kikutake, Kurokawa, Maki, Otaka, with Tange), proposing megastructures with replaceable capsules on the model of organic growth: Nakagin Capsule Tower (1972).",
+   "aliases": "Metabolist movement",
+   "see": "K6-23 Brutalist Architecture",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Metabolism_(architecture)",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Metabolism",
+     "The Met collection search: Metabolism",
+     "objects matching 'Metabolism' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Nakagin Capsule Tower",
+     "Sub-types",
+     "Kurokawa, 1972",
+     "r3 https://en.wikipedia.org/wiki/Metabolism_(architecture)",
+     0
+    ],
+    [
+     "Kisho Kurokawa",
+     "Makers",
+     "",
+     "r3 https://en.wikipedia.org/wiki/Metabolism_(architecture)",
+     0
+    ],
+    [
+     "Kiyonori Kikutake",
+     "Makers",
+     "",
+     "r3 https://en.wikipedia.org/wiki/Metabolism_(architecture)",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "BRICKGOTHIC",
+   "sub": "K4",
+   "label": "Brick Gothic",
+   "breadth": "narrow",
+   "defn": "Gothic architecture in brick of the north European plain and the Baltic (13th–16th centuries), where building stone was scarce: hall churches, town halls and castles of the Hanseatic towns and the Teutonic Order, with glazed and moulded brick ornament (St Mary's, Lübeck; Malbork).",
+   "aliases": "Backsteingotik",
+   "see": "K4-13 Gothic Architecture",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Brick_Gothic",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Brick+Gothic",
+     "The Met collection search: Brick Gothic",
+     "objects matching 'Brick Gothic' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "St Mary's Church, Lübeck",
+     "Sub-types",
+     "the model Hanseatic basilica",
+     "r3 https://en.wikipedia.org/wiki/Brick_Gothic",
+     0
+    ],
+    [
+     "Teutonic Order castles",
+     "Sub-types",
+     "Malbork",
+     "r3 https://en.wikipedia.org/wiki/Brick_Gothic",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "CELTREV",
+   "sub": "I3",
+   "label": "Celtic Revival",
+   "breadth": "narrow",
+   "defn": "Decorative and fine arts of the 19th- and early-20th-century revival of Celtic culture in Ireland, Scotland and the Isle of Man: interlace and knotwork from the Book of Kells and early metalwork in jewellery, silver, pewter (Archibald Knox for Liberty), book illustration and painting (John Duncan).",
+   "aliases": "Celtic Twilight; Gaelic revival art",
+   "see": "I3-14 Arts and Crafts Movement",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Celtic_Revival",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Celtic+Revival",
+     "The Met collection search: Celtic Revival",
+     "objects matching 'Celtic Revival' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Archibald Knox",
+     "Makers",
+     "Liberty Cymric silver and Tudric pewter",
+     "r3 https://en.wikipedia.org/wiki/Celtic_Revival",
+     0
+    ],
+    [
+     "John Duncan",
+     "Makers",
+     "painter",
+     "r3 https://en.wikipedia.org/wiki/Celtic_Revival",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "PLUMBATE",
+   "sub": "E1",
+   "label": "Plumbate Ware",
+   "breadth": "narrow",
+   "defn": "Mesoamerican trade ware of the Soconusco (Pacific coast of Guatemala and Chiapas) with a lustrous grey glaze-like slip fired from iron-rich clay: San Juan Plumbate of the Late Classic and the widely traded Tohil Plumbate (c. 900–1200), often effigy vessels.",
+   "aliases": "",
+   "see": "E1-43 Maya Ceramics",
+   "src": [
+    [
+     "https://es.wikipedia.org/wiki/Cer%C3%A1mica_plumbate",
+     "Wikipedia (es)"
+    ],
+    [
+     "https://es.wikipedia.org/wiki/Cer%C3%A1mica_Tohil_Plomiza",
+     "Wikipedia (es)"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Plumbate+Ware",
+     "The Met collection search: Plumbate Ware",
+     "objects matching 'Plumbate Ware' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Tohil Plumbate",
+     "Sub-types",
+     "Early Postclassic effigy vessels",
+     "r3 https://es.wikipedia.org/wiki/Cer%C3%A1mica_Tohil_Plomiza",
+     0
+    ],
+    [
+     "San Juan Plumbate",
+     "Sub-types",
+     "Late Classic",
+     "r3 https://es.wikipedia.org/wiki/Cer%C3%A1mica_plumbate",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "SUE",
+   "sub": "E3",
+   "label": "Sue Ware",
+   "breadth": "narrow",
+   "defn": "Blue-grey high-fired stoneware of Japan (5th–12th centuries), introduced from the Gaya region of Korea and made in tunnel kilns: jars, recumbent bottles and pedestal bowls with natural ash glaze, used in tombs and rites; produced at the Suemura and later the Sanage kilns.",
+   "aliases": "Sueki; Sue pottery",
+   "see": "E1-19 Yayoi Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Sue_pottery",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Sue+Ware",
+     "The Met collection search: Sue Ware",
+     "objects matching 'Sue Ware' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Sanage kilns",
+     "Schools & phases",
+     "Nagoya area; ash-glazed successor wares",
+     "r3 https://en.wikipedia.org/wiki/Sue_pottery",
+     0
+    ],
+    [
+     "Yokobe (recumbent bottle)",
+     "Sub-types",
+     "",
+     "r3 https://en.wikipedia.org/wiki/Sue_pottery",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "HASSUNA",
+   "sub": "E1",
+   "label": "Hassuna Pottery",
+   "breadth": "narrow",
+   "defn": "Neolithic pottery of northern Mesopotamia (c. 6000–5500 BCE) named after Tell Hassuna: coarse Archaic Hassuna ware and the incised and red-painted Standard Hassuna ware, followed by imported Samarra painted ware.",
+   "aliases": "",
+   "see": "E1-149 Samarra Ware",
+   "src": [
+    [
+     "http://www.britannica.com/place/Hassuna",
+     "Britannica"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Hassuna+Pottery",
+     "The Met collection search: Hassuna Pottery",
+     "objects matching 'Hassuna Pottery' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Archaic Hassuna",
+     "Schools & phases",
+     "",
+     "r3 http://www.britannica.com/place/Hassuna",
+     0
+    ],
+    [
+     "Standard Hassuna",
+     "Schools & phases",
+     "incised and painted",
+     "r3 http://www.britannica.com/place/Hassuna",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "KHABUR",
+   "sub": "E1",
+   "label": "Khabur Ware",
+   "breadth": "narrow",
+   "defn": "Wheel-made painted pottery of northern Mesopotamia and the Khabur basin (c. 1900–1500 BCE), with monochrome geometric bands in red, brown or black on jars, beakers and bowls; named by Max Mallowan at Chagar Bazar.",
+   "aliases": "Habur ware",
+   "see": "E1-151 Ubaid Pottery",
+   "src": [
+    [
+     "http://leilan.yale.edu/resources/habur-ware-ceramics",
+     "Tell Leilan Project, Yale"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Khabur+Ware",
+     "The Met collection search: Khabur Ware",
+     "objects matching 'Khabur Ware' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Chagar Bazar",
+     "Schools & phases",
+     "type site",
+     "r3 http://leilan.yale.edu/resources/habur-ware-ceramics",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "NUZI",
+   "sub": "E1",
+   "label": "Nuzi Ware",
+   "breadth": "narrow",
+   "defn": "Fine painted ware of the Mitanni kingdom (15th–early 13th century BCE), first identified at Nuzi: tall goblets with white designs of birds, plants and spirals on a dark band.",
+   "aliases": "",
+   "see": "",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Nuzi_ware",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Nuzi+Ware",
+     "The Met collection search: Nuzi Ware",
+     "objects matching 'Nuzi Ware' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Nuzi goblet",
+     "Sub-types",
+     "white-on-dark painted goblet",
+     "r3 https://en.wikipedia.org/wiki/Nuzi_ware",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "PROVOKE",
+   "sub": "J1",
+   "label": "Provoke",
+   "breadth": "narrow",
+   "defn": "Japanese photography of the magazine Provoke (1968–1969, Takuma Nakahira, Daidō Moriyama, Yutaka Takanashi) and its circle: grainy, blurred, out-of-focus images (are-bure-boke) against objective photojournalism.",
+   "aliases": "",
+   "see": "",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Provoke_(magazine)",
+     "Wikipedia"
+    ],
+    [
+     "https://archive.artic.edu/ryerson/provoke/4",
+     "Art Institute of Chicago"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Provoke",
+     "The Met collection search: Provoke",
+     "objects matching 'Provoke' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Are-bure-boke",
+     "Sub-types",
+     "rough, blurry, out of focus",
+     "r3 https://en.wikipedia.org/wiki/Provoke_(magazine)",
+     0
+    ],
+    [
+     "Daidō Moriyama",
+     "Makers",
+     "",
+     "r3 https://en.wikipedia.org/wiki/Provoke_(magazine)",
+     0
+    ],
+    [
+     "Takuma Nakahira",
+     "Makers",
+     "",
+     "r3 https://archive.artic.edu/ryerson/provoke/4",
+     0
+    ]
+   ]
+  },
+  {
+   "key": "SUBJPHOTO",
+   "sub": "J1",
+   "label": "Subjective Photography",
+   "breadth": "narrow",
+   "defn": "Post-war experimental art photography named by Otto Steinert's exhibitions Subjektive Fotografie (Saarbrücken 1951–1958): photographs made from the photographer's inner visual impulse rather than as documents, with high contrast, abstraction and photograms.",
+   "aliases": "Subjektive Fotografie",
+   "see": "",
+   "src": [
+    [
+     "https://www.nasjonalmuseet.no/utstillinger-og-arrangementer/nasjonalmuseet/utstillinger/2021/samlingsutstillingen/endringer-i-samlingspresentasjonen/rom-81",
+     "Nasjonalmuseet, Oslo"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Subjective+Photography",
+     "The Met collection search: Subjective Photography",
+     "objects matching 'Subjective Photography' in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "phases and centres, then artists and holding institutions",
+   "kinds": [
+    [
+     "Otto Steinert",
+     "Makers",
+     "founder",
+     "r3 https://www.nasjonalmuseet.no/utstillinger-og-arrangementer/nasjonalmuseet/utstillinger/2021/samlingsutstillingen/endringer-i-samlingspresentasjonen/rom-81",
+     0
+    ],
+    [
+     "fotoform",
+     "Schools & phases",
+     "group of 1949",
+     "r3 https://www.nasjonalmuseet.no/utstillinger-og-arrangementer/nasjonalmuseet/utstillinger/2021/samlingsutstillingen/endringer-i-samlingspresentasjonen/rom-81",
+     0
+    ]
+   ]
+  }
+ ],
+ "moves_out": [],
+ "dropped": []
+}

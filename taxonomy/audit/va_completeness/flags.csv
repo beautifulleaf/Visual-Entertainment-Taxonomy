@@ -175,7 +175,6 @@ V4,low,Irish Cut Glass,named tradition with gathered objects and no leaf,familie
 V4,low,Gupta Sculpture,named tradition with gathered objects and no leaf,families D; max institutions per key 1; labels: Gupta period; Indian | Gupta period,67
 V4,low,Shipibo-Conibo Textiles,named tradition with gathered objects and no leaf,families EH; max institutions per key 1; labels: Conibo; Shipibo; Shipibo-Conibo,64
 V4,low,Dali Kingdom Buddhist sculpture,named tradition with gathered objects and no leaf,families DG; max institutions per key 7; labels: Dali Kingdom (Yunnan),49
-V4,low,Plumbate ware,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Mesoamerican: Plumbate style (archaeological culture) (attributed),49
 V4,low,Barrancoid pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: possibly Barrancoid Tradition (archaeological culture) (attributed); probably Barrancoid Tradition (,49
 V4,low,Casma pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: possibly Casma or Ychsma (Ichma) (archaeological culture) (attributed; probably Casma (archaeologica,48
 V4,low,Kichwa pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Highland Kichua (attributed),47
@@ -372,7 +371,6 @@ V4,low,Phad Painting,named tradition with gathered objects and no leaf,families 
 V4,low,Taos Society of Artists,named tradition with gathered objects and no leaf,families A; max institutions per key 1; labels: Taos Indians,6
 V4,low,Karajá ritxoko dolls,named tradition with gathered objects and no leaf,families D; max institutions per key 1; labels: Karaja dolls (ritxoko),6
 V4,low,Huon Gulf pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 2; labels: Huon Gulf,6
-V4,low,Sue ware,named tradition with gathered objects and no leaf,families E; max institutions per key 4; labels: Japan · Kofun,6
 V4,low,Gardner porcelain (Verbilki),named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: culture:russian_verbilki:ceramics,6
 V4,low,Salinar pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Salinar (archaeological culture) (attributed),6
 V4,low,Virú (Gallinazo) pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Viru-Gallinazo: Viru style (archaeological culture) (attributed),6
@@ -395,12 +393,12 @@ V4,low,Tonkin export lacquer,named tradition with gathered objects and no leaf,f
 V4,low,Fulani Wedding Blankets,named tradition with gathered objects and no leaf,"families H; max institutions per key 2; labels: Fulani wedding blankets (khasa, arkilla)",5
 V4,low,Fez Embroidery,named tradition with gathered objects and no leaf,families H; max institutions per key 1; labels: Fez,5
 V5,low,japan × E,hole in the dated chain of this culture's leaves,0–1600: nothing between E1-18 Jōmon Pottery and E3-28 Kyō Ware,
-V6,low,A2-2 Northern Landscape Style,no way to see the works: neither holding institutions nor makers,"groups: {'Five Dynasties founders': 2, 'Northern Song masters': 4, 'Monumental landscapes': 2}",
+V6,low,A2-2 Northern Landscape Style,no way to see the works: neither holding institutions nor makers,"groups: {'Five Dynasties founders': 2, 'Northern Song masters': 4, 'Monumental landscapes': 2, 'Schools & phases': 1}",
 V6,low,A2-2 Northern Landscape Style,per-object works list left after the collections-first rule,group 'Monumental landscapes': 2 rows,
-V6,low,A2-4 Zhe School,no way to see the works: neither holding institutions nor makers,"groups: {'Hangzhou founders': 3, 'Jiangxia school': 2, 'Late Zhe painters': 1}",
+V6,low,A2-4 Zhe School,no way to see the works: neither holding institutions nor makers,"groups: {'Hangzhou founders': 3, 'Jiangxia school': 2, 'Late Zhe painters': 1, 'Schools & phases': 1}",
 V6,low,A2-5 Wu School,no way to see the works: neither holding institutions nor makers,"groups: {'Four Masters of the Ming': 4, 'Wen family and Suzhou followers': 5}",
-V6,low,A2-6 Shanghai School,no way to see the works: neither holding institutions nor makers,"groups: {'Early Shanghai masters': 2, 'Four Rens': 3, 'Wu Changshuo circle': 3}",
-V6,low,A2-10 Rinpa School,no way to see the works: neither holding institutions nor makers,"groups: {'Kyoto founders': 2, 'Genroku Rinpa': 3, 'Edo Rinpa': 2, 'Modern Rinpa': 1}",
+V6,low,A2-6 Shanghai School,no way to see the works: neither holding institutions nor makers,"groups: {'Early Shanghai masters': 2, 'Four Rens': 3, 'Wu Changshuo circle': 3, 'Schools & phases': 1}",
+V6,low,A2-10 Rinpa School,no way to see the works: neither holding institutions nor makers,"groups: {'Kyoto founders': 2, 'Genroku Rinpa': 3, 'Edo Rinpa': 2, 'Modern Rinpa': 1, 'Schools & phases': 1}",
 V6,low,A2-12 Maruyama–Shijō School,no way to see the works: neither holding institutions nor makers,"groups: {'Maruyama school': 3, 'Shijō school': 7, 'Meiji–Taishō Kyoto heirs': 6}",
 V6,low,A3-2 Byzantine Icons,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 2}",
 V6,low,A3-3 Cretan School,no way to see the works: neither holding institutions nor makers,"groups: {'15th-century founders': 4, '16th-century masters': 3, '17th century and Ionian transition': 4, 'Cretan-trained painters abroad': 3}",
@@ -423,7 +421,7 @@ V6,low,A5-23 Mannerism,no way to see the works: neither holding institutions nor
 V6,low,A5-24 School of Fontainebleau,no way to see the works: neither holding institutions nor makers,"groups: {'First School of Fontainebleau': 5, 'Second School of Fontainebleau': 3, 'France': 1}",
 V6,low,A5-26 Caravaggisti,no way to see the works: neither holding institutions nor makers,"groups: {'Roman and Italian Caravaggisti': 5, 'French Caravaggisti': 3, 'Utrecht Caravaggism': 5, 'Haarlem followers': 1}",
 V6,low,A5-27 Flemish Baroque Painting,no way to see the works: neither holding institutions nor makers,"groups: {'Late Mannerist and pre-Rubens generation (Antwerp, c. 1570–1610)': 20, 'The Brueghel dynasty and cabinet painting': 14, 'Rubens, his studio and engravers': 24, 'Flemish Caravaggisti': 4, 'Antwerp still life, flower and animal painting': 24, 'Landscape, marine and battle painting': 21, 'Genre and peasant painting (after Brouwer)': 7, 'Brussels and Bruges': 10, 'Flemish painters in England and France': 6, 'Dutch-born painters in Flanders': 1}",
-V6,low,A5-40 Realism,no way to see the works: neither holding institutions nor makers,"groups: {'Volcano School': 6, 'Molse School': 3, 'Verismo (painting)': 3, 'France': 21, 'Italy': 3, 'Belgium': 9, 'Spain': 5, 'Denmark': 5, 'Russia': 5, 'Baltic provinces': 3, 'Poland': 17, 'South Slavic lands': 5, 'Romania': 3, 'United States': 10, 'Latin America': 4, 'Other regions': 17}",
+V6,low,A5-40 Realism,no way to see the works: neither holding institutions nor makers,"groups: {'Volcano School': 6, 'Molse School': 3, 'Verismo (painting)': 3, 'France': 21, 'Italy': 3, 'Belgium': 9, 'Spain': 5, 'Denmark': 5, 'Russia': 5, 'Baltic provinces': 3, 'Poland': 17, 'South Slavic lands': 5, 'Romania': 3, 'United States': 10, 'Latin America': 4, 'Other regions': 17, 'Schools & phases': 1}",
 V6,low,A5-50 Pont-Aven School,no way to see the works: neither holding institutions nor makers,"groups: {""Gauguin's Synthetist circle"": 18, 'Nabis at Pont-Aven': 4, 'Later followers': 5, 'International colonists (1860s–80s)': 13}",
 V6,low,A5-60 Orphism,no way to see the works: neither holding institutions nor makers,"groups: {'Orphism': 3, 'Synchromism': 2, 'Musicalism': 1, 'Portuguese followers': 2, 'Ireland': 1}",
 V6,low,A5-67 Metaphysical Painting,no way to see the works: neither holding institutions nor makers,"groups: {'Ferrara founders': 3, 'Later adherents': 3}",
@@ -463,6 +461,8 @@ V6,low,A5-141 Indigenismo,no way to see the works: neither holding institutions 
 V6,low,A5-142 Chicago Imagists,no way to see the works: neither holding institutions nor makers,"groups: {'Monster Roster (precursors, 1950s)': 6, 'Hairy Who (1966–1969)': 3, 'False Image and Nonplussed Some': 3, 'Teachers and associates': 3}",
 V6,low,A5-143 Feminist art movement,no way to see the works: neither holding institutions nor makers,"groups: {'A.I.R. Gallery founders (1972)': 6, 'Heresies Collective': 4, 'Feminist Art Program and West Coast': 3, 'Other United States artists': 8, 'Outside the United States': 2}",
 V6,low,A5-144 American Abstract Artists,no way to see the works: neither holding institutions nor makers,"groups: {'Founding members (1936–37)': 10, 'Park Avenue Cubists and later members': 6}",
+V6,low,A5-150 American Scene Painting,no way to see the works: neither holding institutions nor makers,groups: {'Schools & phases': 1},
+V6,low,A5-158 Japonisme,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
 V6,low,A6-11 Minhwa,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
 V6,low,A6-19 Theorem Painting,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
 V6,low,A6-22 Tauric Painting,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
@@ -543,7 +543,7 @@ V6,low,D5-104 Wooden Toys of Hrvatsko Zagorje,no way to see the works: neither h
 V6,low,D5-105 Pauper Statues,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
 V6,low,D5-106 Moai,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
 V6,low,D5-110 Romanesque Sculpture,no way to see the works: neither holding institutions nor makers,"groups: {'France': 3, 'Italy': 7, 'Spain and Catalonia': 2, 'Mosan metalwork': 2, 'England': 1, 'Gotland and Scandinavian font masters': 5}",
-V6,low,D5-111 Gothic Sculpture,no way to see the works: neither holding institutions nor makers,"groups: {'Pisano dynasty and Tuscan Gothic': 29, 'Florentine International Gothic to early Renaissance': 7, 'Campionese masters and Lombard Gothic': 10, 'Venice and Dalmatia': 9, 'Southern Italy': 3, 'France: cathedral workshops and the Valois courts': 6, 'Burgundian sculpture (Sluter and Champmol)': 4, 'German lands: Naumburg Master and the Parler family': 14, 'Crown of Aragon': 6}",
+V6,low,D5-111 Gothic Sculpture,no way to see the works: neither holding institutions nor makers,"groups: {'Pisano dynasty and Tuscan Gothic': 29, 'Florentine International Gothic to early Renaissance': 7, 'Campionese masters and Lombard Gothic': 10, 'Venice and Dalmatia': 9, 'Southern Italy': 3, 'France: cathedral workshops and the Valois courts': 6, 'Burgundian sculpture (Sluter and Champmol)': 4, 'German lands: Naumburg Master and the Parler family': 14, 'Crown of Aragon': 6, 'Schools & phases': 1}",
 V6,low,D5-114 Neoclassical Sculpture,no way to see the works: neither holding institutions nor makers,"groups: {'Canova and his school': 5, 'Thorvaldsen and his workshop': 6, 'Berlin school of sculpture': 11, 'Rock-cut monuments': 1, 'France': 64, 'United Kingdom': 22, 'Germany': 9, 'Italy': 12, 'Belgium': 4, 'Netherlands': 3, 'Spain': 4, 'Switzerland': 3, 'Sweden': 3, 'Russia': 9, 'United States': 8, 'Other regions': 8}",
 V6,low,D5-119 Contemporary Sculpture,no way to see the works: neither holding institutions nor makers,"groups: {'Contemporary Māori art': 3, 'Native American artists (United States)': 3, 'Feminist art movement': 2, 'United States': 93, 'United Kingdom': 54, 'Germany': 42, 'Netherlands': 34, 'France': 28, 'Spain': 15, 'Finland': 13, 'Italy': 13, 'Brazil': 12, 'Belgium': 12, 'Israel': 10, 'Japan': 10, 'Austria': 9, 'Poland': 8, 'Mexico': 7, 'South Africa': 6, 'Switzerland': 6, 'India': 6, 'China': 5, 'Argentina': 5, 'Portugal': 4, 'Greece': 4, 'New Zealand': 4, 'Norway': 4, 'Sweden': 4, 'Turkey': 4, 'Colombia': 4, 'South Korea': 3, 'Luxembourg': 3, 'Mozambique': 3, 'Russia': 3, 'Ukraine': 3, 'Canada': 3, 'Nigeria': 3, 'Other countries: Europe': 16, 'Other countries: Americas and Caribbean': 4, 'Other countries: Asia': 5, 'Other countries: Middle East and Central Asia': 5, 'Other countries: Africa': 8, 'Other countries: Oceania': 2, 'Country not recorded': 2, 'Other biennial and prize lists, country not recorded': 2}",
 V6,low,D5-125 Volterra Alabaster Carving,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 2}",
@@ -594,11 +594,15 @@ V6,low,E1-95 Impruneta Terracotta,no way to see the works: neither holding insti
 V6,low,E1-96 Thrapsano Pottery,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
 V6,low,E1-98 Kachelofen,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
 V6,low,E1-147 Lapita Pottery,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
-V6,low,E1-149 Samarra Ware,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,E1-149 Samarra Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Schools & phases': 1}",
 V6,low,E1-150 Halaf Pottery,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
 V6,low,E1-151 Ubaid Pottery,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
 V6,low,E1-155 Lenca Pottery,no way to see the works: neither holding institutions nor makers,groups: {'Peoples & cultures': 1},
 V6,low,E1-156 Kadiwéu Ceramics,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,E1-157 Plumbate Ware,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,E1-158 Hassuna Pottery,no way to see the works: neither holding institutions nor makers,groups: {'Schools & phases': 2},
+V6,low,E1-159 Khabur Ware,no way to see the works: neither holding institutions nor makers,groups: {'Schools & phases': 1},
+V6,low,E1-160 Nuzi Ware,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 1},
 V6,low,E2-2 Kashan Lustreware,per-object works list left after the collections-first rule,group 'Tiles and architectural ceramics': 2 rows,
 V6,low,E2-3 Mina'i Ware,per-object works list left after the collections-first rule,group 'Tiles and architectural ceramics': 6 rows,
 V6,low,E2-4 Lajvardina,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
@@ -611,7 +615,7 @@ V6,low,E2-13 Qallaline Tiles,per-object works list left after the collections-fi
 V6,low,E3-1 Khmer Ceramics,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
 V6,low,E3-5 Yaozhou Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
 V6,low,E3-6 Longquan Celadon,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
-V6,low,E3-7 Ru Ware,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
+V6,low,E3-7 Ru Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Centres & workshops': 2, 'Schools & phases': 1}",
 V6,low,E3-8 Guan Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
 V6,low,E3-9 Jun Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
 V6,low,E3-20 Iga Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Centres & workshops': 1, 'Peoples & cultures': 1}",
@@ -620,6 +624,7 @@ V6,low,E3-22 Tokoname Ware,no way to see the works: neither holding institutions
 V6,low,E3-23 Echizen Ware,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
 V6,low,E3-29 Onta Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
 V6,low,E3-30 Koishiwara Ware,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,E3-35 Sue Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Schools & phases': 1, 'Sub-types': 1}",
 V6,low,E4-2 Ding Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
 V6,low,E4-3 Xing Ware,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
 V6,low,E4-4 Qingbai Ware,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
@@ -628,9 +633,9 @@ V6,low,E4-6 Doucai,no way to see the works: neither holding institutions nor mak
 V6,low,E4-7 Wucai,no way to see the works: neither holding institutions nor makers,groups: {'Schools & phases': 2},
 V6,low,E4-8 Famille Verte,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
 V6,low,E4-11 Kraak Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
-V6,low,E4-15 Joseon White Porcelain,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
+V6,low,E4-15 Joseon White Porcelain,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1, 'Schools & phases': 8}",
 V6,low,E4-21 Limoges Porcelain,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 3},
-V6,low,E4-25 Soft-Paste Porcelain,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 10},
+V6,low,E4-25 Soft-Paste Porcelain,no way to see the works: neither holding institutions nor makers,"groups: {'Centres & workshops': 10, 'Schools & phases': 2}",
 V6,low,E4-27 Hasami Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
 V6,low,F1-1 Beykoz Glass,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 2}",
 V6,low,F1-6 Art of Glass Beads,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 4, 'Centres & workshops': 1}",
@@ -645,7 +650,7 @@ V6,low,F1-19 Late Bronze Age Glass,no way to see the works: neither holding inst
 V6,low,F4-1 Islamic Lustre-Painted Glass,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
 V6,low,G1-5 Ottoman Tombak,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
 V6,low,G1-9 Firoozeh Koobi,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
-V6,low,G1-12 Animal Style,no way to see the works: neither holding institutions nor makers,"groups: {'Schools & phases': 6, 'Named treasures': 2}",
+V6,low,G1-12 Animal Style,no way to see the works: neither holding institutions nor makers,"groups: {'Schools & phases': 7, 'Named treasures': 2}",
 V6,low,G1-12 Animal Style,per-object works list left after the collections-first rule,group 'Named treasures': 2 rows,
 V6,low,G1-13 Dong Son Drums,per-object works list left after the collections-first rule,group 'Named drums': 3 rows,
 V6,low,G1-15 Chinese Ritual Bronzes,per-object works list left after the collections-first rule,group 'Named bronzes': 3 rows,
@@ -689,7 +694,7 @@ V6,low,G3-33 Kula Valuables,no way to see the works: neither holding institution
 V6,low,H1-3 Mamluk Carpet,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
 V6,low,H1-6 Baluch Rug,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 2}",
 V6,low,H1-10 Freest Fisherman's Carpets,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
-V6,low,H1-12 Chinese Carpet,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 5, 'Centres & workshops': 2}",
+V6,low,H1-12 Chinese Carpet,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 5, 'Centres & workshops': 2, 'Schools & phases': 1}",
 V6,low,H1-13 Tibetan Rug,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 5, 'Centres & workshops': 3}",
 V6,low,H2-2 Soumak,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
 V6,low,H2-3 Al Sadu,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
@@ -858,13 +863,13 @@ V6,low,I2-14 Kintsugi,no way to see the works: neither holding institutions nor 
 V6,low,I3-1 Soban,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 3},
 V6,low,I3-2 Queen Anne Style (furniture),no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 3}",
 V6,low,I3-6 International Gothic (decorative arts),no way to see the works: neither holding institutions nor makers,"groups: {'France': 2, 'Italy': 2, 'Belgium': 1, 'United Kingdom': 1, 'Germany': 1}",
-V6,low,I3-7 Mannerism (decorative arts),no way to see the works: neither holding institutions nor makers,"groups: {'Italy': 4, 'Germany': 3, 'France': 2, 'United Kingdom': 1, 'North Macedonia': 1, 'Belgium': 1}",
+V6,low,I3-7 Mannerism (decorative arts),no way to see the works: neither holding institutions nor makers,"groups: {'Italy': 4, 'Germany': 3, 'France': 2, 'United Kingdom': 1, 'North Macedonia': 1, 'Belgium': 1, 'Schools & phases': 1}",
 V6,low,I3-8 Louis XIV Style,no way to see the works: neither holding institutions nor makers,"groups: {'Centres & workshops': 1, 'France': 3, 'United Kingdom': 1, 'Iceland': 1, 'Italy': 1}",
 V6,low,I3-9 Louis XV Style,no way to see the works: neither holding institutions nor makers,"groups: {'Centres & workshops': 1, 'France': 7, 'Germany': 3, 'United Kingdom': 2, 'Russia': 1}",
 V6,low,I3-10 Louis XVI Style,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'France': 7, 'United States': 3, 'Italy': 2, 'United Kingdom': 2, 'Germany': 2, 'Sweden': 1, 'Switzerland': 1}",
 V6,low,I3-11 Empire Style,no way to see the works: neither holding institutions nor makers,"groups: {'France': 4, 'Italy': 1, 'Haiti': 1, 'Saxe-Weimar-Eisenach': 1, 'United States': 1, 'Germany': 1, 'Named interiors': 1}",
 V6,low,I3-12 Biedermeier,no way to see the works: neither holding institutions nor makers,"groups: {'France': 9, 'United States': 9, 'United Kingdom': 3, 'Italy': 2, 'Austria': 2, 'Norway': 1}",
-V6,low,I3-13 Victorian Decorative Arts,no way to see the works: neither holding institutions nor makers,"groups: {'Centres & workshops': 1, 'France': 9, 'United Kingdom': 8, 'United States': 8, 'Germany': 5, 'Hungary': 2, 'Netherlands': 1, 'Norway': 1, 'Italy': 1, 'Denmark': 1, 'Russia': 1, 'Algeria': 1, 'Sweden': 1, 'Japan': 1}",
+V6,low,I3-13 Victorian Decorative Arts,no way to see the works: neither holding institutions nor makers,"groups: {'Centres & workshops': 1, 'France': 9, 'United Kingdom': 8, 'United States': 8, 'Germany': 5, 'Hungary': 2, 'Netherlands': 1, 'Norway': 1, 'Italy': 1, 'Denmark': 1, 'Russia': 1, 'Algeria': 1, 'Sweden': 1, 'Japan': 1, 'Schools & phases': 1}",
 V6,low,I3-22 Shaker Furniture,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 3}",
 V6,low,I3-24 Tansu,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 4, 'Centres & workshops': 2}",
 V6,low,I3-25 Bandaji,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 4},

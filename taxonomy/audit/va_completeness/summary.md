@@ -28,11 +28,11 @@ Of the general-only objects, 18,256 sit under labels reviewed and kept general (
 |---|---:|---:|---:|
 | V2 | 0 | 13 | 60 |
 | V3 | 18 | 40 | 39 |
-| V4 | 0 | 0 | 225 |
+| V4 | 0 | 0 | 223 |
 | V5 | 0 | 0 | 1 |
-| V6 | 0 | 0 | 488 |
+| V6 | 0 | 0 | 495 |
 
-V4: 385 named missing traditions in the mapping, 160 now carried by a leaf name, 225 open. V6: 84 rows in leftover per-object works lists.
+V4: 385 named missing traditions in the mapping, 162 now carried by a leaf name, 223 open. V6: 84 rows in leftover per-object works lists.
 
 ## V8 Region × medium: leaves (museum records)
 
@@ -40,23 +40,23 @@ Each cell: leaves in the tree, then gathered museum records in thousands. A dash
 
 | Region | A | B | C | D | E | F | G | H | I | J | K | L |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Western Europe | 76 | 8 (1k) | 14 (64k) | 26 (6k) | 24 (82k) | 6 (6k) | 25 (14k) | 60 (37k) | 27 (1k) | 5 (2k) | 55 | 18 |
+| Western Europe | 81 | 8 (1k) | 14 (64k) | 26 (6k) | 24 (82k) | 6 (6k) | 25 (14k) | 60 (37k) | 28 (1k) | 6 (2k) | 56 | 18 |
 | Central & Eastern Europe | 24 (2k) | 3 | 5 | 18 (2k) | 12 (1k) | 4 | 7 (2k) | 54 (8k) | 12 (2k) | – | 19 | 7 |
 | Greco-Roman & Byzantine Mediterranean | 5 (7k) | – | 1 (1k) | 13 (4k) | 16 (4k) | 3 (8k) | 9 (4k) | 3 | – | – | 10 | 9 |
 | Ancient Egypt & Nubia | – | – | 1 | 3 (1k) | 5 (4k) | 1 | 1 (2k) | 2 | – | – | 2 | 2 |
-| Ancient Near East | – | – | 1 | 4 (5k) | 5 (1k) | 1 | 5 (1k) | 1 | – | – | 6 | 3 |
+| Ancient Near East | – | – | 1 | 4 (5k) | 8 (1k) | 1 | 5 (1k) | 1 | – | – | 6 | 3 |
 | Islamic world (MENA, Iran, Anatolia) | 6 (6k) | 2 (1k) | 9 (6k) | 9 (7k) | 25 (57k) | 7 (3k) | 12 (24k) | 29 (14k) | 11 (2k) | – | 22 | 9 |
 | Central Asia & Silk Road | 1 (1k) | – | 1 (3k) | 1 (1k) | 1 | – | 2 (1k) | 8 (3k) | – | – | 1 | 5 |
 | Himalaya | 8 (5k) | – | 3 (3k) | 5 (3k) | **–** | – | 2 (2k) | 3 (2k) | 2 | – | 4 | 3 |
-| South Asia | 24 (19k) | 1 (2k) | 2 (1k) | 13 (3k) | 3 (2k) | – (1k) | 7 (10k) | 31 (12k) | 8 (2k) | – | 18 | 13 |
+| South Asia | 24 (19k) | 1 (2k) | 2 (1k) | 13 (3k) | 3 (2k) | – (1k) | 7 (10k) | 30 (12k) | 8 (2k) | – | 18 | 13 |
 | Southeast Asia | 7 (12k) | 2 (3k) | 5 (3k) | 15 (9k) | 7 (3k) | **– (4k)** | 3 (53k) | 20 (54k) | 4 (23k) | 1 (6k) | 15 | 7 |
-| China | 9 (19k) | 2 (2k) | 5 (11k) | 9 (10k) | 25 (44k) | 1 | 7 (10k) | 12 (2k) | 6 (3k) | – | 13 | 2 |
-| Japan | 13 (23k) | 5 (39k) | 4 (35k) | 11 (11k) | 21 (29k) | 2 | 9 (43k) | 15 (19k) | 12 (11k) | – | 13 | 4 |
-| Korea | 3 (5k) | – | 3 (2k) | 2 | 8 (3k) | – | 5 (2k) | 7 (1k) | 4 | – | 2 | 3 |
+| China | 10 (19k) | 2 (2k) | 5 (11k) | 9 (10k) | 25 (44k) | 1 | 7 (10k) | 12 (2k) | 6 (3k) | – | 13 | 2 |
+| Japan | 13 (23k) | 5 (39k) | 4 (35k) | 11 (11k) | 22 (29k) | 2 | 9 (43k) | 15 (19k) | 12 (11k) | 1 | 14 | 4 |
+| Korea | 5 (5k) | – | 3 (2k) | 2 | 8 (3k) | – | 5 (2k) | 7 (1k) | 4 | – | 2 | 3 |
 | Sub-Saharan Africa | 11 (1k) | – | 3 (1k) | 52 (4k) | 4 (9k) | 1 (1k) | 3 (17k) | 26 (16k) | 3 (9k) | 1 | 7 | 9 |
-| North America (Indigenous) | 5 (4k) | 2 (1k) | – | 8 (7k) | 16 (23k) | **– (1k)** | 4 (10k) | 31 (23k) | 2 (7k) | – | 3 | 8 |
-| North America (settler) | 22 | 2 (1k) | 1 | 7 | 2 (1k) | 1 | 2 (1k) | 6 (13k) | 2 | 5 | 14 | 2 |
-| Mesoamerica & Caribbean | 7 (1k) | 1 | 2 | 14 (5k) | 25 (19k) | – | 4 (2k) | 13 (5k) | 1 (1k) | – | 5 | 5 |
+| North America (Indigenous) | 6 (4k) | 2 (1k) | – | 8 (7k) | 16 (23k) | **– (1k)** | 4 (10k) | 32 (23k) | 2 (7k) | – | 3 | 8 |
+| North America (settler) | 25 | 2 (1k) | 1 | 7 | 2 (1k) | 1 | 2 (1k) | 6 (13k) | 2 | 5 | 14 | 2 |
+| Mesoamerica & Caribbean | 7 (1k) | 1 | 2 | 14 (5k) | 26 (19k) | – | 4 (2k) | 13 (5k) | 1 (1k) | – | 5 | 5 |
 | South America | 12 (2k) | 1 | – | 8 (1k) | 29 (15k) | – | 13 (7k) | 16 (13k) | 3 (4k) | – | 4 | 11 |
 | Oceania (Pacific) | 3 (1k) | – | – | 13 (6k) | 3 (1k) | – | 2 (14k) | 8 (12k) | 6 (7k) | – | 7 | 4 |
 | Australia (Aboriginal) | 3 | 1 | – | 4 | 1 | – | 1 (1k) | 2 | – | – | – | 5 |
@@ -131,7 +131,6 @@ Reviewed cells (`v8_review.csv`):
 | low | Gupta Sculpture | named tradition with gathered objects and no leaf | families D; max institutions per key 1; labels: Gupta period; Indian / Gupta period | 67 |
 | low | Shipibo-Conibo Textiles | named tradition with gathered objects and no leaf | families EH; max institutions per key 1; labels: Conibo; Shipibo; Shipibo-Conibo | 64 |
 | low | Dali Kingdom Buddhist sculpture | named tradition with gathered objects and no leaf | families DG; max institutions per key 7; labels: Dali Kingdom (Yunnan) | 49 |
-| low | Plumbate ware | named tradition with gathered objects and no leaf | families E; max institutions per key 1; labels: probably Mesoamerican: Plumbate style (archaeological culture) (attributed) | 49 |
 | low | Barrancoid pottery | named tradition with gathered objects and no leaf | families E; max institutions per key 1; labels: possibly Barrancoid Tradition (archaeological culture) (attributed); probably Barrancoid Tradition ( | 49 |
 | low | Casma pottery | named tradition with gathered objects and no leaf | families E; max institutions per key 1; labels: possibly Casma or Ychsma (Ichma) (archaeological culture) (attributed; probably Casma (archaeologica | 48 |
 | low | Kichwa pottery | named tradition with gathered objects and no leaf | families E; max institutions per key 1; labels: probably Highland Kichua (attributed) | 47 |
@@ -140,3 +139,4 @@ Reviewed cells (`v8_review.csv`):
 | low | Burmese Buddhist sculpture | named tradition with gathered objects and no leaf | families D; max institutions per key 3; labels: Burmese | 46 |
 | low | Chupícuaro ceramics | named tradition with gathered objects and no leaf | families E; max institutions per key 2; labels: Chupicuaro; probably Chupícuaro (archaeological culture) (attributed) | 46 |
 | low | Cupisnique pottery | named tradition with gathered objects and no leaf | families E; max institutions per key 2; labels: Cupisnique; probably Chavín or Cupisnique (archaeological culture) (attributed) | 46 |
+| low | Zulu pottery (ukhamba) | named tradition with gathered objects and no leaf | families E; max institutions per key 7; labels: Zulu; Zulu ceramics (ukhamba) and wire baskets (imbenge) | 46 |

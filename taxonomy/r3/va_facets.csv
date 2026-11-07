@@ -209,6 +209,19 @@ A5-142,Chicago Imagists,North America (settler),1966,1971,override
 A5-143,Feminist art movement,North America (settler),1960,1980,rule
 A5-144,American Abstract Artists,North America (settler),1936,1936,rule
 A5-145,Flatstyle,North America (Indigenous),1910,1962,rule
+A5-146,Spatialism,Western Europe,1946,1968,override
+A5-147,Dau al Set,Western Europe,1948,1956,rule
+A5-148,Supports/Surfaces,Western Europe,1966,1972,rule
+A5-149,Synchromism,North America (settler),1912,1920,override
+A5-150,American Scene Painting,North America (settler),1920,1940,rule
+A5-151,Nabis,Western Europe,1888,1900,override
+A5-152,Vienna School of Fantastic Realism,Western Europe,1946,1980,override
+A5-153,Bad Painting,North America (settler),1970,1990,override
+A5-154,Nanyang Style,China,1930,1969,rule
+A5-155,Korean Informel,Korea,1950,1969,rule
+A5-156,Minjung Art,Korea,1980,1989,rule
+A5-157,Woodlands Style,North America (Indigenous),1960,2026,override
+A5-158,Japonisme,Transnational,1856,1910,override
 A6-1,Madhubani Painting,South Asia,1960,1969,rule
 A6-2,Warli Painting,South Asia,,,rule
 A6-3,Gond Painting,South Asia,1962,2001,entries
@@ -607,7 +620,7 @@ E1-32,Gnathia Vases,Greco-Roman & Byzantine Mediterranean,-370,-250,override
 E1-33,Centuripe Ware,Greco-Roman & Byzantine Mediterranean,-300,-100,rule
 E1-34,Etruscan Vase Painting,Greco-Roman & Byzantine Mediterranean,-700,-200,rule
 E1-35,Bucchero,Greco-Roman & Byzantine Mediterranean,-700,-400,rule
-E1-36,Minoan Pottery,Greco-Roman & Byzantine Mediterranean,-2100,-1100,entries
+E1-36,Minoan Pottery,Greco-Roman & Byzantine Mediterranean,-3000,-1100,entries
 E1-37,Mycenaean Pottery,Greco-Roman & Byzantine Mediterranean,-1600,-1100,rule
 E1-38,Terra Sigillata,Greco-Roman & Byzantine Mediterranean,-100,300,rule
 E1-39,Hadra Vases,Greco-Roman & Byzantine Mediterranean,-300,-200,rule
@@ -728,6 +741,10 @@ E1-153,Sesklo Pottery,Western Europe,-6000,-5000,rule
 E1-154,Harappan Pottery,,-3300,-1300,rule
 E1-155,Lenca Pottery,Mesoamerica & Caribbean,1000,2026,override
 E1-156,Kadiwéu Ceramics,South America,1800,2026,override
+E1-157,Plumbate Ware,Mesoamerica & Caribbean,900,1200,rule
+E1-158,Hassuna Pottery,Ancient Near East,-6000,-5500,rule
+E1-159,Khabur Ware,Ancient Near East,-1900,-1500,rule
+E1-160,Nuzi Ware,Ancient Near East,-1500,-1200,rule
 E2-1,Seljuk Pottery,"Islamic world (MENA, Iran, Anatolia)",1000,1300,rule
 E2-2,Kashan Lustreware,"Islamic world (MENA, Iran, Anatolia)",1100,1400,rule
 E2-3,Mina'i Ware,"Islamic world (MENA, Iran, Anatolia)",1100,1300,override
@@ -778,6 +795,7 @@ E3-31,Mumyōi Ware,Japan,1800,1900,override
 E3-32,Rhenish Stoneware,Western Europe,1400,1900,rule
 E3-33,Banko Ware,Japan,1700,1800,rule
 E3-34,Mino Ware,Western Europe,1573,1615,rule
+E3-35,Sue Ware,Japan,400,1200,rule
 E4-1,Bencharong,Southeast Asia,1351,1767,rule
 E4-2,Ding Ware,China,618,1368,rule
 E4-3,Xing Ware,China,618,907,rule
@@ -1247,7 +1265,7 @@ H8-9,Mbuti Barkcloth,Sub-Saharan Africa,1900,1950,override
 H8-10,Agaseke,Sub-Saharan Africa,1900,1900,objects
 H8-11,Panama Hat,Mesoamerica & Caribbean,,,rule
 H8-12,Pomo Basketry,North America (Indigenous),1875,1910,objects
-H8-13,California Indian Basketry,South Asia,1875,1969,objects
+H8-13,California Indian Basketry,North America (Indigenous),1875,1969,override
 H8-14,Spruce-Root Basketry,North America (Indigenous),1850,1994,objects
 H8-15,Unangan Grass Basketry,North America (Indigenous),1867,1867,rule
 H8-16,Plateau Cornhusk Bags,South Asia,1880,2003,objects
@@ -1387,6 +1405,7 @@ I3-22,Shaker Furniture,North America (settler),1800,1900,rule
 I3-23,Chinese Classical Furniture,China,1368,1912,rule
 I3-24,Tansu,Japan,1615,1912,rule
 I3-25,Bandaji,Korea,1392,1897,rule
+I3-26,Celtic Revival,Western Europe,1850,1930,override
 I4-1,Vanuatu Slit Gongs,Oceania (Pacific),,,rule
 I4-2,Spanish Guitar,Western Europe,1800,1900,rule
 I4-3,Djembe,Sub-Saharan Africa,,,override
@@ -1428,6 +1447,8 @@ J1-15,Group f/64,Sub-Saharan Africa,1932,1935,rule
 J1-16,Photo League,North America (settler),1936,1951,rule
 J1-17,Magnum Photos,Transnational,1947,1947,override
 J1-18,Photography in the Dutch East Indies,Southeast Asia,1850,1949,override
+J1-19,Provoke,Japan,1968,1969,rule
+J1-20,Subjective Photography,Western Europe,1949,1960,override
 K1-1,Umayyad Architecture,"Islamic world (MENA, Iran, Anatolia)",661,750,rule
 K1-2,Abbasid Architecture,"Islamic world (MENA, Iran, Anatolia)",750,1258,rule
 K1-3,Fatimid Architecture,"Islamic world (MENA, Iran, Anatolia)",909,1171,rule
@@ -1505,6 +1526,7 @@ K4-10,Romanesque Architecture,Western Europe,1000,1200,rule
 K4-11,Arab-Norman Architecture,"Islamic world (MENA, Iran, Anatolia)",1091,1194,rule
 K4-12,Moldavian Style,Central & Eastern Europe,1400,1600,rule
 K4-13,Gothic Architecture,Western Europe,1140,1520,rule
+K4-14,Brick Gothic,Western Europe,1200,1600,rule
 K5-1,Tudor Architecture,Western Europe,1485,1603,rule
 K5-2,Plateresque,Western Europe,1490,1560,rule
 K5-3,Manueline,Western Europe,1495,1521,rule
@@ -1555,10 +1577,11 @@ K6-23,Brutalist Architecture,North America (settler),1950,1970,rule
 K6-24,Postmodern Architecture,Transnational,1960,1990,override
 K6-25,Deconstructivism,Transnational,1980,1989,override
 K6-26,Contemporary Architecture,Transnational,1945,1945,override
+K6-27,Metabolism,Japan,1960,1972,rule
 K7-1,Nagara Architecture,South Asia,600,1500,entries
 K7-2,Kalinga Architecture,South Asia,600,1300,rule
 K7-3,Maru-Gurjara Architecture,South Asia,1000,1300,rule
-K7-4,Dravidian Architecture,South Asia,668,1646,entries
+K7-4,Dravidian Architecture,South Asia,600,1646,entries
 K7-5,Vesara,South Asia,600,1200,entries
 K7-6,Kerala Architecture,South Asia,,,rule
 K7-7,Bengal Temple Architecture,South Asia,1500,1900,rule
@@ -1749,6 +1772,7 @@ L2-48,Samchyky Painting,Central & Eastern Europe,,,rule
 L2-49,Illusionistic Ceiling Painting,Western Europe,1600,1780,override
 L2-50,Italian Renaissance Fresco,Western Europe,1400,1600,rule
 L2-51,Street Art,Transnational,1970,1979,override
+L2-52,Graffiti Art,Transnational,1970,2026,override
 L3-1,Umayyad Mosaics,"Islamic world (MENA, Iran, Anatolia)",600,800,rule
 L3-2,Zellige,"Islamic world (MENA, Iran, Anatolia)",1239,1900,entries
 L3-3,Moʿaraq (Cut-Tile Mosaic),"Islamic world (MENA, Iran, Anatolia)",1370,1736,rule
@@ -1795,11 +1819,17 @@ M1-6,Land Art,North America (settler),1960,1969,override
 M1-7,Viennese Actionism,Western Europe,1960,1969,rule
 M1-8,Performance Art,North America (settler),1960,1969,rule
 M1-9,Relational art,Transnational,1990,1999,override
+M1-10,Situationist International,Western Europe,1957,1972,override
+M1-11,Tropicália,South America,1967,1972,override
+M1-12,Auto-destructive Art,Western Europe,1959,1970,override
+M1-13,Light and Space,North America (settler),1960,1980,override
 M2-1,Generative Art,Transnational,1960,1969,override
 M2-2,Internet Art,Transnational,1990,1999,override
 M2-3,AI Art,Transnational,1973,1973,override
 M2-4,Video Art,Transnational,1960,1969,override
 M2-5,New Media Art,Transnational,1957,1984,override
+M2-6,Afrofuturism,Transnational,1960,2026,override
+M2-7,Bioart,Transnational,1980,2026,override
 N1-1,Thonet Bentwood Furniture,Western Europe,1849,1849,override
 N1-2,De Stijl Design,Western Europe,1917,1931,rule
 N1-3,Bauhaus Design,Western Europe,1919,1933,rule
