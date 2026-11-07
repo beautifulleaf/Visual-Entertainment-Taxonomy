@@ -3760,10 +3760,10 @@
 {
 "qid": "Q5639863",
 "label": "Haji Alakbar Mosque",
-"gloss": "Mosque, Azerbaijan Soviet Socialist Republic, Azerbaijan|Republic of Artsakh, 1890",
+"gloss": "Mosque, Azerbaijan Soviet Socialist Republic, Azerbaijan, 1890",
 "year": 1890,
 "sl": 6,
-"country": "Azerbaijan|Republic of Artsakh"
+"country": "Azerbaijan"
 },
 {
 "qid": "Q31298745",
@@ -6443,6 +6443,14 @@
 "country": "Uzbekistan"
 },
 {
+"qid": "Q139985658",
+"label": "Jome madrasasi",
+"gloss": "Madrasa, Uzbekistan, 1889",
+"year": 1889,
+"sl": 1,
+"country": "Uzbekistan"
+},
+{
 "qid": "Q122808934",
 "label": "Shaykhon mosque",
 "gloss": "Mosque, Surxondaryo Region, Uzbekistan, 1889 · object of tangible cultural heritage of Uzbekistan",
@@ -6844,18 +6852,10 @@
 {
 "qid": "Q16433707",
 "label": "Mausoleum of Esim Khan",
-"gloss": "Mausoleum, Kazakhstan, Soviet Union|Kazakhstan|Russian Empire, 1700 · κατάλογος ιστορικών μνημείων στο Καζακστάν",
+"gloss": "Mausoleum, Kazakhstan, Soviet Union, 1700 · κατάλογος ιστορικών μνημείων στο Καζακστάν",
 "year": 1700,
 "sl": 3,
-"country": "Soviet Union|Kazakhstan|Russian Empire"
-},
-{
-"qid": "Q139985658",
-"label": "Jome madrasasi",
-"gloss": "Madrasa, Uzbekistan|Iran, 1889",
-"year": 1889,
-"sl": 1,
-"country": "Uzbekistan|Iran"
+"country": "Soviet Union"
 },
 {
 "qid": "Q12123152",
@@ -7319,10 +7319,10 @@
 {
 "qid": "Q65279817",
 "label": "Madrasa of Ganja",
-"gloss": "Madrasa, Azerbaijan, Azerbaijan|Russian Empire, 1700 · demolished or destroyed",
+"gloss": "Madrasa, Azerbaijan, 1700 · demolished or destroyed",
 "year": 1700,
 "sl": 1,
-"country": "Azerbaijan|Russian Empire"
+"country": "Azerbaijan"
 },
 {
 "qid": "Q12844330",
@@ -7399,10 +7399,10 @@
 {
 "qid": "Q12843685",
 "label": "Ordubad mədrəsəsi",
-"gloss": "Madrasa, Azerbaijan|Russian Empire, 1714",
+"gloss": "Madrasa, Azerbaijan, 1714",
 "year": 1714,
 "sl": 3,
-"country": "Azerbaijan|Russian Empire"
+"country": "Azerbaijan"
 },
 {
 "qid": "Q5306459",
@@ -8465,10 +8465,10 @@
 {
 "qid": "Q113570440",
 "label": "Büyükçekmece Caravanserai",
-"gloss": "Caravanserai, Istanbul Province, Ottoman Empire|Turkey, 1566",
+"gloss": "Caravanserai, Istanbul Province, Ottoman Empire, 1566",
 "year": 1566,
 "sl": 4,
-"country": "Ottoman Empire|Turkey"
+"country": "Ottoman Empire"
 },
 {
 "qid": "Q6048574",
@@ -12881,18 +12881,18 @@
 {
 "qid": "Q656765",
 "label": "Babri Masjid",
-"gloss": "Mosque, India, British Raj|Mughal Empire|India, 1528",
+"gloss": "Mosque, India, British Raj, 1528",
 "year": 1528,
 "sl": 50,
-"country": "British Raj|Mughal Empire|India"
+"country": "British Raj"
 },
 {
 "qid": "Q45957",
 "label": "Red Fort",
-"gloss": "Fort, India, Mughal Empire|India, 1648 · UNESCO World Heritage Site",
+"gloss": "Fort, India, Mughal Empire, 1648 · UNESCO World Heritage Site",
 "year": 1648,
 "sl": 76,
-"country": "Mughal Empire|India"
+"country": "Mughal Empire"
 }
 ]
 ]
@@ -15261,7 +15261,7 @@
 {
 "qid": "Q17035028",
 "label": "Longwu Great mosque",
-"gloss": "Mosque, Huangnan Tibetan Autonomous Prefecture, People's Republic of China · Major historical and cultural sites protected by Qinghai Provin",
+"gloss": "Mosque, Huangnan Tibetan Autonomous Prefecture, People's Republic of China",
 "year": null,
 "sl": 1,
 "country": "People's Republic of China"
@@ -56158,10 +56158,10 @@
 {
 "qid": "Q71229",
 "label": "Potala Palace",
-"gloss": "Temple, People's Republic of China, People's Republic of China|Tibet, 637 · UNESCO World Heritage Site",
+"gloss": "Temple, People's Republic of China, 637 · UNESCO World Heritage Site",
 "year": 637,
 "sl": 85,
-"country": "People's Republic of China|Tibet"
+"country": "People's Republic of China"
 },
 {
 "qid": "Q735914",
@@ -56198,10 +56198,10 @@
 {
 "qid": "Q1430211",
 "label": "Samye",
-"gloss": "Temple, Zhanang County, Chinese Empire|People's Republic of China, 779 · Major Historical and Cultural Site Protected at the National Level",
+"gloss": "Temple, Zhanang County, Chinese Empire, 779 · Major Historical and Cultural Site Protected at the National Level",
 "year": 779,
 "sl": 27,
-"country": "Chinese Empire|People's Republic of China"
+"country": "Chinese Empire"
 },
 {
 "qid": "Q770276",
@@ -56904,7 +56904,7 @@
 {
 "qid": "Q1430204",
 "label": "Katok Monastery",
-"gloss": "Monastery, Garzê Tibetan Autonomous Prefecture, People's Republic of China, 1159 · Major Historical and Cultural Site Protected at the Natio",
+"gloss": "Monastery, Garzê Tibetan Autonomous Prefecture, People's Republic of China, 1159",
 "year": 1159,
 "sl": 10,
 "country": "People's Republic of China"
@@ -56944,7 +56944,7 @@
 {
 "qid": "Q1576819",
 "label": "Litang Monastery",
-"gloss": "Temple, Garzê Tibetan Autonomous Prefecture, People's Republic of China, 1580 · Major Historical and Cultural Site Protected at the National",
+"gloss": "Temple, Garzê Tibetan Autonomous Prefecture, People's Republic of China, 1580",
 "year": 1580,
 "sl": 6,
 "country": "People's Republic of China"
@@ -56952,7 +56952,7 @@
 {
 "qid": "Q820557",
 "label": "Beri Gonpa",
-"gloss": "Monastery, Garzê Tibetan Autonomous Prefecture, People's Republic of China, 1649 · Major Historical and Cultural Site Protected at the Natio",
+"gloss": "Monastery, Garzê Tibetan Autonomous Prefecture, People's Republic of China, 1649",
 "year": 1649,
 "sl": 4,
 "country": "People's Republic of China"
@@ -57016,10 +57016,10 @@
 {
 "qid": "Q833137",
 "label": "Dzongsar Monastery",
-"gloss": "Monastery, Garzê Tibetan Autonomous Prefecture, People's Republic of China|Tibet, 1918",
+"gloss": "Monastery, Garzê Tibetan Autonomous Prefecture, People's Republic of China, 1918",
 "year": 1918,
 "sl": 7,
-"country": "People's Republic of China|Tibet"
+"country": "People's Republic of China"
 },
 {
 "qid": "Q8049253",
@@ -57106,7 +57106,7 @@
 {
 "qid": "Q196175",
 "label": "Longwu Temple",
-"gloss": "Monastery, Huangnan Tibetan Autonomous Prefecture, People's Republic of China, 1301 · Major Historical and Cultural Site Protected at the Na",
+"gloss": "Monastery, Huangnan Tibetan Autonomous Prefecture, People's Republic of China, 1301",
 "year": 1301,
 "sl": 6,
 "country": "People's Republic of China"
@@ -57154,7 +57154,7 @@
 {
 "qid": "Q1514893",
 "label": "Rakya Monastery",
-"gloss": "Temple, Golog Tibetan Autonomous Prefecture, People's Republic of China, 1769 · Major Historical and Cultural Site Protected at the National",
+"gloss": "Temple, Golog Tibetan Autonomous Prefecture, People's Republic of China, 1769",
 "year": 1769,
 "sl": 7,
 "country": "People's Republic of China"
@@ -57292,10 +57292,10 @@
 {
 "qid": "Q3349882",
 "label": "Tawang Monastery",
-"gloss": "Monastery, India, People's Republic of China|India, 1650",
+"gloss": "Monastery, India, People's Republic of China, 1650",
 "year": 1650,
 "sl": 18,
-"country": "People's Republic of China|India"
+"country": "People's Republic of China"
 },
 {
 "qid": "Q972987",
@@ -61884,7 +61884,7 @@
 {
 "qid": "Q7126233",
 "label": "Palace of Earthly Tranquility",
-"gloss": "Palace, Beijing, People's Republic of China, 1420 · part of UNESCO site Imperial Palaces of the Ming and Qing Dynasties in Beijing and Sheny",
+"gloss": "Palace, Beijing, People's Republic of China, 1420",
 "year": 1420,
 "sl": 5,
 "country": "People's Republic of China"
@@ -62153,7 +62153,7 @@
 {
 "qid": "Q7126256",
 "label": "Palace of Tranquil Longevity",
-"gloss": "Palace, Beijing, People's Republic of China, 1771 · part of UNESCO site Imperial Palaces of the Ming and Qing Dynasties in Beijing and Sheny",
+"gloss": "Palace, Beijing, People's Republic of China, 1771",
 "year": 1771,
 "sl": 4,
 "country": "People's Republic of China"
@@ -64119,10 +64119,10 @@
 {
 "qid": "Q10927768",
 "label": "Tuku Shuntian Temple",
-"gloss": "Temple, Tuku Township, Empire of Japan|Taiwan|Qing dynasty, 1834 · county-level monument",
+"gloss": "Temple, Tuku Township, Empire of Japan, 1834 · county-level monument",
 "year": 1834,
 "sl": 3,
-"country": "Empire of Japan|Taiwan|Qing dynasty"
+"country": "Empire of Japan"
 },
 {
 "qid": "Q10902680",
@@ -64151,10 +64151,10 @@
 {
 "qid": "Q96254962",
 "label": "Chaozhou Zhaolin Temple",
-"gloss": "Temple, Chaojhou Township, Empire of Japan|Taiwan, 1909 · county-level monument",
+"gloss": "Temple, Chaojhou Township, Empire of Japan, 1909 · county-level monument",
 "year": 1909,
 "sl": 3,
-"country": "Empire of Japan|Taiwan"
+"country": "Empire of Japan"
 },
 {
 "qid": "Q18572584",
@@ -64719,10 +64719,10 @@
 {
 "qid": "Q127790427",
 "label": "Xuanwang Temple",
-"gloss": "Temple, Xihu Township, Empire of Japan|Taiwan|Qing dynasty",
+"gloss": "Temple, Xihu Township, Empire of Japan",
 "year": null,
 "sl": 3,
-"country": "Empire of Japan|Taiwan|Qing dynasty"
+"country": "Empire of Japan"
 },
 {
 "qid": "Q10898390",
@@ -64839,10 +64839,10 @@
 {
 "qid": "Q56210888",
 "label": "Lianhua Temple (Zhubei)",
-"gloss": "Temple, Hsinchu County, Empire of Japan|Taiwan|Qing dynasty · county-level monument",
+"gloss": "Temple, Hsinchu County, Empire of Japan · county-level monument",
 "year": null,
 "sl": 2,
-"country": "Empire of Japan|Taiwan|Qing dynasty"
+"country": "Empire of Japan"
 },
 {
 "qid": "Q21041706",
@@ -64895,18 +64895,18 @@
 {
 "qid": "Q24836615",
 "label": "Wandan Wanquan Temple",
-"gloss": "Temple, Wandan Township, Empire of Japan|Taiwan|Qing dynasty · Historic Building of Taiwan",
+"gloss": "Temple, Wandan Township, Empire of Japan · Historic Building of Taiwan",
 "year": null,
 "sl": 2,
-"country": "Empire of Japan|Taiwan|Qing dynasty"
+"country": "Empire of Japan"
 },
 {
 "qid": "Q104875954",
 "label": "Xihu Word-worshipping Paper Incinerator",
-"gloss": "Temple, Xihu Township, Empire of Japan|Taiwan|Qing dynasty · Historic Building of Taiwan",
+"gloss": "Temple, Xihu Township, Empire of Japan · Historic Building of Taiwan",
 "year": null,
 "sl": 2,
-"country": "Empire of Japan|Taiwan|Qing dynasty"
+"country": "Empire of Japan"
 },
 {
 "qid": "Q15938987",
@@ -64948,10 +64948,10 @@
 {
 "qid": "Q15904288",
 "label": "Tainan Dongyue Temple",
-"gloss": "Temple, Tainan, Kingdom of Tungning|Empire of Japan|Taiwan|Qing dynasty, 1661 · Historic Sites at the Municipality Level (Taiwan)",
+"gloss": "Temple, Tainan, Kingdom of Tungning, 1661 · Historic Sites at the Municipality Level (Taiwan)",
 "year": 1661,
 "sl": 3,
-"country": "Kingdom of Tungning|Empire of Japan|Taiwan|Qing dynasty"
+"country": "Kingdom of Tungning"
 },
 {
 "qid": "Q28860008",
@@ -65012,10 +65012,10 @@
 {
 "qid": "Q8010918",
 "label": "Koxinga's Shrine",
-"gloss": "Temple, Tainan, Empire of Japan|Taiwan|Qing dynasty · Historic Building of Taiwan",
+"gloss": "Temple, Tainan, Empire of Japan · Historic Building of Taiwan",
 "year": null,
 "sl": 6,
-"country": "Empire of Japan|Taiwan|Qing dynasty"
+"country": "Empire of Japan"
 },
 {
 "qid": "Q7698759",
@@ -65060,10 +65060,10 @@
 {
 "qid": "Q10945764",
 "label": "Xuejia Ciji Temple",
-"gloss": "Temple, Syuejia District, Empire of Japan|Taiwan|Qing dynasty · Historic Sites at the Municipality Level (Taiwan)",
+"gloss": "Temple, Syuejia District, Empire of Japan · Historic Sites at the Municipality Level (Taiwan)",
 "year": null,
 "sl": 4,
-"country": "Empire of Japan|Taiwan|Qing dynasty"
+"country": "Empire of Japan"
 },
 {
 "qid": "Q14526962",
@@ -65164,10 +65164,10 @@
 {
 "qid": "Q15932597",
 "label": "Yancheng Tianhou Temple",
-"gloss": "Temple, Taiwan, Empire of Japan|Taiwan|Qing dynasty",
+"gloss": "Temple, Taiwan, Empire of Japan",
 "year": null,
 "sl": 3,
-"country": "Empire of Japan|Taiwan|Qing dynasty"
+"country": "Empire of Japan"
 },
 {
 "qid": "Q24835841",
@@ -65212,10 +65212,10 @@
 {
 "qid": "Q10914433",
 "label": "Fahua Temple (Tainan)",
-"gloss": "Temple, West Central District, Empire of Japan|Taiwan|Qing dynasty · Historic Sites at the Municipality Level (Taiwan)",
+"gloss": "Temple, West Central District, Empire of Japan · Historic Sites at the Municipality Level (Taiwan)",
 "year": null,
 "sl": 2,
-"country": "Empire of Japan|Taiwan|Qing dynasty"
+"country": "Empire of Japan"
 },
 {
 "qid": "Q15913242",
@@ -65228,10 +65228,10 @@
 {
 "qid": "Q15931044",
 "label": "Guang'an Temple, Tainan",
-"gloss": "Temple, Taiwan, Empire of Japan|Taiwan|Qing dynasty · Historic Sites at the Municipality Level (Taiwan)",
+"gloss": "Temple, Taiwan, Empire of Japan · Historic Sites at the Municipality Level (Taiwan)",
 "year": null,
 "sl": 2,
-"country": "Empire of Japan|Taiwan|Qing dynasty"
+"country": "Empire of Japan"
 },
 {
 "qid": "Q10887045",
@@ -65244,10 +65244,10 @@
 {
 "qid": "Q10943036",
 "label": "Miaosho Temple",
-"gloss": "Temple, Anping District, Empire of Japan|Taiwan|Qing dynasty · Historic Sites at the Municipality Level (Taiwan)",
+"gloss": "Temple, Anping District, Empire of Japan · Historic Sites at the Municipality Level (Taiwan)",
 "year": null,
 "sl": 2,
-"country": "Empire of Japan|Taiwan|Qing dynasty"
+"country": "Empire of Japan"
 },
 {
 "qid": "Q15908962",
@@ -65582,10 +65582,10 @@
 {
 "qid": "Q698701",
 "label": "Zushi Temple",
-"gloss": "Temple, Sanxia District, Empire of Japan|Taiwan|Qing dynasty, 1767 · Historic Sites at the Municipality Level (Taiwan)",
+"gloss": "Temple, Sanxia District, Empire of Japan, 1767 · Historic Sites at the Municipality Level (Taiwan)",
 "year": 1767,
 "sl": 5,
-"country": "Empire of Japan|Taiwan|Qing dynasty"
+"country": "Empire of Japan"
 },
 {
 "qid": "Q10865953",
@@ -65771,10 +65771,10 @@
 {
 "qid": "Q11085448",
 "label": "Cishan Tianhou Temple",
-"gloss": "Temple, Cishan District, Empire of Japan|Taiwan|Qing dynasty, 1817 · Historic Sites at the Municipality Level (Taiwan)",
+"gloss": "Temple, Cishan District, Empire of Japan, 1817 · Historic Sites at the Municipality Level (Taiwan)",
 "year": 1817,
 "sl": 3,
-"country": "Empire of Japan|Taiwan|Qing dynasty"
+"country": "Empire of Japan"
 },
 {
 "qid": "Q28951245",
@@ -65923,10 +65923,10 @@
 {
 "qid": "Q20688664",
 "label": "Nanzih Tianhou Temple",
-"gloss": "Temple, Kaohsiung, Empire of Japan|Taiwan|Qing dynasty · Historic Sites at the Municipality Level (Taiwan)",
+"gloss": "Temple, Kaohsiung, Empire of Japan · Historic Sites at the Municipality Level (Taiwan)",
 "year": null,
 "sl": 2,
-"country": "Empire of Japan|Taiwan|Qing dynasty"
+"country": "Empire of Japan"
 },
 {
 "qid": "Q97352074",
@@ -66085,10 +66085,10 @@
 {
 "qid": "Q136342575",
 "label": "Houpu Lingji Temple",
-"gloss": "Temple, Jincheng Township, Republic of China|Taiwan|Qing dynasty · Historic Building of Taiwan",
+"gloss": "Temple, Jincheng Township, Republic of China · Historic Building of Taiwan",
 "year": null,
 "sl": 2,
-"country": "Republic of China|Taiwan|Qing dynasty"
+"country": "Republic of China"
 },
 {
 "qid": "Q130384653",
@@ -66146,10 +66146,10 @@
 {
 "qid": "Q15914691",
 "label": "Caota Bauzhang Temple",
-"gloss": "Temple, Taoyuan, Empire of Japan|Taiwan|Qing dynasty, 1854",
+"gloss": "Temple, Taoyuan, Empire of Japan, 1854",
 "year": 1854,
 "sl": 3,
-"country": "Empire of Japan|Taiwan|Qing dynasty"
+"country": "Empire of Japan"
 },
 {
 "qid": "Q1933073",
@@ -68794,7 +68794,7 @@
 {
 "qid": "Q11369789",
 "label": "Kusushi Shrine",
-"gloss": "Shrine, http://www.wikidata.org/.well-known/genid/1fd03bc9c191e1bc9017cc3ced04a87f, Japan · part of UNESCO site Fujisan, sacred place and so",
+"gloss": "Shrine, http://www.wikidata.org/.well-known/genid/1fd03bc9c191e1bc9017cc3ced04a87f, Japan",
 "year": null,
 "sl": 2,
 "country": "Japan"
@@ -76682,10 +76682,10 @@
 {
 "qid": "Q28169683",
 "label": "Hall of Guanyin",
-"gloss": "Temple, People's Republic of China|India|Taiwan|South Korea",
+"gloss": "Temple, People's Republic of China",
 "year": null,
 "sl": 3,
-"country": "People's Republic of China|India|Taiwan|South Korea"
+"country": "People's Republic of China"
 },
 {
 "qid": "Q15227264",
@@ -78496,10 +78496,10 @@
 {
 "qid": "Q134738619",
 "label": "Candi Puntadewa",
-"gloss": "Archaeological site, Indonesia, Indonesia|Mataram kingdom, 809",
+"gloss": "Archaeological site, Indonesia, 809",
 "year": 809,
 "sl": 3,
-"country": "Indonesia|Mataram kingdom"
+"country": "Indonesia"
 },
 {
 "qid": "Q47721",
@@ -79642,7 +79642,7 @@
 {
 "qid": "Q7809287",
 "label": "Tirta Empul Temple",
-"gloss": "Temple, Tampaksiring, Indonesia · part of UNESCO site Cultural Landscape of Bali Province: the Subak System as a Manifestation of the Tri Hi",
+"gloss": "Temple, Tampaksiring, Indonesia",
 "year": null,
 "sl": 20,
 "country": "Indonesia"
@@ -79834,7 +79834,7 @@
 {
 "qid": "Q115721343",
 "label": "Gunung Kawi Temple",
-"gloss": "Temple, Gianyar, Indonesia · part of UNESCO site Cultural Landscape of Bali Province: the Subak System as a Manifestation of the Tri Hita Ka",
+"gloss": "Temple, Gianyar, Indonesia",
 "year": null,
 "sl": 2,
 "country": "Indonesia"
@@ -80170,7 +80170,7 @@
 {
 "qid": "Q102234791",
 "label": "Pura Luhur Tamba Waras",
-"gloss": "Temple, Bali, Indonesia · part of UNESCO site Cultural Landscape of Bali Province: the Subak System as a Manifestation of the Tri Hita Karan",
+"gloss": "Temple, Bali, Indonesia",
 "year": null,
 "sl": 1,
 "country": "Indonesia"
@@ -80442,7 +80442,7 @@
 {
 "qid": "Q121268162",
 "label": "Luhur Besikalung Temple",
-"gloss": "Temple, Indonesia · part of UNESCO site Cultural Landscape of Bali Province: the Subak System as a Manifestation of the Tri Hita Karana Phil",
+"gloss": "Temple, Indonesia",
 "year": null,
 "sl": 0,
 "country": "Indonesia"
@@ -80450,7 +80450,7 @@
 {
 "qid": "Q121268101",
 "label": "Pura Luhur Muncak Sari",
-"gloss": "Temple, Indonesia · part of UNESCO site Cultural Landscape of Bali Province: the Subak System as a Manifestation of the Tri Hita Karana Phil",
+"gloss": "Temple, Indonesia",
 "year": null,
 "sl": 0,
 "country": "Indonesia"
@@ -80458,7 +80458,7 @@
 {
 "qid": "Q121268082",
 "label": "Pura Luhur Pucak Petali",
-"gloss": "Temple, Indonesia · part of UNESCO site Cultural Landscape of Bali Province: the Subak System as a Manifestation of the Tri Hita Karana Phil",
+"gloss": "Temple, Indonesia",
 "year": null,
 "sl": 0,
 "country": "Indonesia"
@@ -84715,10 +84715,10 @@
 {
 "qid": "Q584387",
 "label": "Faras",
-"gloss": "Archaeological site, Sudan, Sudan|Egypt",
+"gloss": "Archaeological site, Sudan",
 "year": null,
 "sl": 21,
-"country": "Sudan|Egypt"
+"country": "Sudan"
 },
 {
 "qid": "Q1760360",
@@ -85067,10 +85067,10 @@
 {
 "qid": "Q67439146",
 "label": "Kerma Necropolis",
-"gloss": "Archaeological site, Northern State, Sudan|Kingdom of Kush",
+"gloss": "Archaeological site, Northern State, Sudan",
 "year": null,
 "sl": 1,
-"country": "Sudan|Kingdom of Kush"
+"country": "Sudan"
 },
 {
 "qid": "Q135887679",
@@ -87155,6 +87155,14 @@
 "country": "Guatemala"
 },
 {
+"qid": "Q1770492",
+"label": "Naachtun",
+"gloss": "Archaeological site, Guatemala",
+"year": null,
+"sl": 9,
+"country": "Guatemala"
+},
+{
 "qid": "Q2098146",
 "label": "Río Azul",
 "gloss": "Archaeological site, Guatemala",
@@ -87848,6 +87856,14 @@
 "country": "Belize"
 },
 {
+"qid": "Q1324484",
+"label": "El Pilar",
+"gloss": "Archaeological site, Guatemala, Belize",
+"year": null,
+"sl": 14,
+"country": "Belize"
+},
+{
 "qid": "Q7047565",
 "label": "Nohmul",
 "gloss": "Archaeological site, Orange Walk District, Belize",
@@ -88387,27 +88403,6 @@
 "year": null,
 "sl": 1,
 "country": "Mexico"
-}
-]
-],
-[
-"Southern lowland Maya (Petén, Usumacinta, Belize): other regions",
-[
-{
-"qid": "Q1324484",
-"label": "El Pilar",
-"gloss": "Archaeological site, Guatemala, Belize|Guatemala",
-"year": null,
-"sl": 14,
-"country": "Belize|Guatemala"
-},
-{
-"qid": "Q1770492",
-"label": "Naachtun",
-"gloss": "Archaeological site, Guatemala, Guatemala|Mexico",
-"year": null,
-"sl": 9,
-"country": "Guatemala|Mexico"
 }
 ]
 ],
@@ -89173,10 +89168,10 @@
 {
 "qid": "Q1548550",
 "label": "Muyil",
-"gloss": "Archaeological site, Quintana Roo, Quintana Roo|Mexico",
+"gloss": "Archaeological site, Quintana Roo",
 "year": null,
 "sl": 9,
-"country": "Quintana Roo|Mexico"
+"country": "Quintana Roo"
 },
 {
 "qid": "Q113197",
@@ -91758,7 +91753,7 @@
 },
 "K11-5": {
 "t": 1,
-"total": 230,
+"total": 228,
 "sections": [
 [
 "Caral / Norte Chico",
@@ -91793,27 +91788,11 @@
 "country": "Peru"
 },
 {
-"qid": "Q29547012",
-"label": "Stela of the cactus-bearer shaman",
-"gloss": "Chincha Province, Peru · part of UNESCO site Chavin de Huantar",
-"year": null,
-"sl": 6,
-"country": "Peru"
-},
-{
 "qid": "Q929473",
 "label": "Mojeque",
 "gloss": "Archaeological site, Áncash Department, Peru",
 "year": null,
 "sl": 4,
-"country": "Peru"
-},
-{
-"qid": "Q72086899",
-"label": "Portal of the Falcons",
-"gloss": "Áncash Department, Peru · part of UNESCO site Chavin de Huantar",
-"year": null,
-"sl": 2,
 "country": "Peru"
 },
 {
@@ -93528,10 +93507,10 @@
 {
 "qid": "Q13189603",
 "label": "Inkachaka",
-"gloss": "Archaeological site, Chapare Province, Colomi Municipality|Bolivia",
+"gloss": "Archaeological site, Chapare Province, Colomi Municipality",
 "year": null,
 "sl": 3,
-"country": "Colomi Municipality|Bolivia"
+"country": "Colomi Municipality"
 },
 {
 "qid": "Q76737966",

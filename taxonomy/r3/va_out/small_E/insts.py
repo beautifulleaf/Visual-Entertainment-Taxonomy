@@ -70,3 +70,17 @@ INST = {
  'Федеральное государственное бюджетное учреждение культуры "Государственный музей искусства народов Востока"': ("State Museum of Oriental Art", "Moscow", "https://goskatalog.ru/portal/"),
  'Государственное бюджетное учреждение Республики Дагестан "Национальный музей Республики Дагестан им. А. Тахо-Годи"': ("National Museum of the Republic of Dagestan", "Makhachkala", "https://goskatalog.ru/portal/"),
 }
+for k, v in {
+ "公益財団法人根津美術館": ("Nezu Museum", "Tokyo"), "公益財団法人五島美術館": ("Gotoh Museum", "Tokyo"), "公益財団法人静嘉堂": ("Seikadō Bunko Art Museum", "Tokyo"),
+ "公益財団法人三井文庫": ("Mitsui Memorial Museum", "Tokyo"), "財団法人出光美術館": ("Idemitsu Museum of Arts", "Tokyo"), "公益財団法人日本民藝館": ("Japan Folk Crafts Museum", "Tokyo"),
+ "公益財団法人徳川黎明会": ("Tokugawa Reimeikai (Tokugawa Art Museum)", "Nagoya"), "公益財団法人湯木美術館": ("Yuki Museum of Art", "Osaka"),
+ "公益財団法人サンリツ服部美術館": ("Sunritz Hattori Museum of Arts", "Suwa"), "公益財団法人藤田美術館": ("Fujita Museum", "Osaka"),
+ "公益財団法人荏原畠山記念文化財団": ("Hatakeyama Memorial Museum of Fine Art", "Tokyo"), "世界救世教": ("MOA Museum of Art (Sekai Kyūsei Kyō)", "Atami"),
+ "愛知県陶磁美術館　": ("Aichi Prefectural Ceramic Museum", "Seto"), "公益財団法人北村文華財団": ("Kitamura Museum", "Kyoto"),
+ "財団法人陽明文庫": ("Yōmei Bunko", "Kyoto"), "財団法人辰馬考古資料館": ("Tatsuuma Archaeological Museum", "Nishinomiya"),
+ "独立行政法人文化財機構": ("National Institutes for Cultural Heritage (Japan)", "Tokyo"), "相国寺": ("Shōkoku-ji", "Kyoto"), "竜光院": ("Ryūkō-in (Daitoku-ji)", "Kyoto"),
+ "香取神宮": ("Katori Jingū", "Katori"), "道明寺天満宮": ("Dōmyōji Tenmangū", "Fujiidera"), "国立海洋文化財研究所": ("National Research Institute of Maritime Cultural Heritage", "Mokpo"),
+ "국립해양문화재연구소": ("National Research Institute of Maritime Cultural Heritage", "Mokpo"), "영남대학교박물관": ("Yeungnam University Museum", "Gyeongsan"),
+ "東急株式会社": ("Tokyu Corporation (Gotoh Museum)", "Tokyo"), "近鉄グループホールディングス株式会社": ("Kintetsu Group (Museum Yamato Bunkakan)", "Nara"),
+}.items():
+    INST[k] = (v[0], v[1], "https://bunka.nii.ac.jp/")

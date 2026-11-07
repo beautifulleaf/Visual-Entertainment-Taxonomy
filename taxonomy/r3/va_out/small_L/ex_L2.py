@@ -226,6 +226,7 @@ GRP = {"Archaic painters": "Aridices|Damophilus|Gorgasus|Milonidas|Taleides|Areg
        "Women painters recorded by Pliny": "Timarete|Eirene|Calypso|Aristarete|Iaia|Helena of Egypt|Kora of Sicyon"}
 for g, ns in GRP.items():
     for n in ns.split("|"): X[("L2-31", n)] = (g, "Greek painter known from Pliny, Pausanias and other ancient sources; no works survive")
+E["L2-31"]["maker_order"] = list(GRP)
 for n in ("Famulus", "Gaius Fabius Pictor", "Pacuvius", "Quintus Pedius", "Cornelius Pinus", "Furius Dionysius Filocalus"):
     X[("L2-31", n)] = ("reloc", "L2-32", "Roman painters", "Roman painter recorded in ancient sources")
 
@@ -257,7 +258,15 @@ E["L2-34"] = dict(axis="Sites catalogue by school and region of the Byzantine co
            M("Andrei Rublev", "Painters", "Muscovite painter, frescoes of the Dormition Cathedral, Vladimir (1408)"),
            M("Dionisius", "Painters", "Muscovite painter of the Ferapontov Monastery frescoes (1502)"),
            M("Theophanes the Cretan", "Painters", "post-Byzantine painter of the Meteora and Mount Athos (Great Lavra, 1535)"),
-           M("Pârvu Mutu", "Painters", "Wallachian church painter (1657-1735), Brâncovenesc style")])
+           M("Pârvu Mutu", "Painters", "Wallachian church painter (1657-1735), Brâncovenesc style")],
+    knowledge_sites=[W("Church of St. Sophia, Ohrid", "Komnenian Macedonia (Nerezi, Kurbinovo, Ohrid)", "Ohrid; 11th c. sanctuary frescoes; UNESCO (Natural and Cultural Heritage of the Ohrid region)"),
+                     W("Studenica Monastery", "Serbian schools (Raška, Palaiologan, Morava)", "Raška; 1209 Crucifixion fresco; UNESCO World Heritage Site"),
+                     W("Mileševa Monastery", "Serbian schools (Raška, Palaiologan, Morava)", "Prijepolje; c. 1228; the White Angel fresco"),
+                     W("Sopoćani", "Serbian schools (Raška, Palaiologan, Morava)", "Raška; c. 1265 Dormition fresco; UNESCO (Stari Ras and Sopoćani)"),
+                     W("Protaton", "Late Byzantine: Mount Athos, Mystras and Meteora", "Karyes, Mount Athos; c. 1290 frescoes attributed to Manuel Panselinos"),
+                     W("Chora Church", "Late Byzantine: Mount Athos, Mystras and Meteora", "Istanbul; 1315-21 parekklesion frescoes incl. the Anastasis"),
+                     W("Church of the Transfiguration on Ilyina Street", "Novgorod, Vladimir and Muscovy", "Veliky Novgorod; 1378 frescoes by Theophanes the Greek"),
+                     W("Dormition Cathedral, Vladimir", "Novgorod, Vladimir and Muscovy", "Vladimir; 1408 Last Judgement by Andrei Rublev and Daniil Chorny; UNESCO")])
 for n in ["Byzantine church painting (Greece, Anatolia)", "Mount Athos and Late Byzantine Macedonian school (Panselinos)", "Troödos painted churches (Cyprus)", "Cappadocian rock-cut church painting",
           "Macedonian (Ohrid) medieval fresco (Nerezi, Kurbinovo, St Sophia Ohrid)", "Serbian medieval fresco (Raška, Morava schools)", "Bulgarian medieval fresco (Boyana, Ivanovo)",
           "Kyivan Rus' fresco (St Sophia, Kyiv)", "Russian medieval church fresco (Novgorod, Vladimir, Theophanes, Rublev, Dionisius)", "Yaroslavl and Muscovite church painting (17th c.)"]:
@@ -434,4 +443,6 @@ E["L2-50"] = dict(axis="Sites and cycles by period (Trecento, Early, High and La
            M("Andrea del Sarto", "High Renaissance fresco painters", "(1486-1530) Chiostro dello Scalzo; Santissima Annunziata"),
            M("Giulio Romano", "Late Renaissance and Mannerist fresco painters", "(c. 1499-1546) Palazzo del Te, Mantua"),
            M("Pontormo", "Late Renaissance and Mannerist fresco painters", "(1494-1557) Poggio a Caiano lunette; Certosa del Galluzzo")])
-for n in ("Scrovegni (Arena) Chapel", "Brancacci Chapel", "Sistine Chapel ceiling"): X[("L2-50", n)] = None
+X[("L2-50", "Scrovegni (Arena) Chapel")] = D
+X[("L2-50", "Brancacci Chapel")] = ("Early Renaissance (1400-1490)", "Santa Maria del Carmine, Florence; c. 1424-28 and 1480s; Masolino, Masaccio, Filippino Lippi")
+X[("L2-50", "Sistine Chapel ceiling")] = ("High Renaissance (1490-1530)", "Vatican City; 1508-12; Michelangelo; Vatican Museums")

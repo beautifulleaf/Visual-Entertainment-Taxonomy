@@ -208,7 +208,9 @@ for l in inp:
     for k, v in cnt.items(): merged[inst_info(k)[0]] += v
     ranked = merged.most_common()
     sel = [x for x in ranked if x[1] >= 10]
-    if len(sel) < 8: sel = ranked[:8]
+    if len(sel) < 8:
+        two = [x for x in ranked if x[1] >= 2]
+        sel = (two if len(two) >= 3 else ranked)[:8]
     for en, n in sel:
         info = next((INST[k] for k in INST if INST[k][0] == en), (en, None, None))
         city, url = info[1], info[2]

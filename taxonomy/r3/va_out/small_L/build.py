@@ -65,7 +65,7 @@ def gloss(r, spec):
     w = (r["works"] or "").split("|")[0]
     w = re.sub(r"\s*\(Q\d+\)\s*$", "", w).strip()
     if desc and len(desc) > 6 and not re.search(r"(Q\d{3,}|ACT ID|photo by|unidentified)", desc) and desc.lower() not in ("cave", "mural", "fresco", "monument"):
-        if not re.match(r"^(cultural property in|cultural heritage monument in|archaeological site in|rock art in)", desc):
+        if not re.match(r"^(cultural property in|cultural heritage monument in|archaeological site in|rock art in)", desc) and "heritage" not in desc.lower():
             parts.append(desc[:70])
     elif w and w != r["site"] and len(w) < 70 and not re.search(r"(unide|Q\d{4,})", w):
         parts.append(w)
@@ -101,7 +101,8 @@ def build_sites(code, spec):
     out = []
     for r in sel:
         name = r["site"].strip()
-        if cnt[name] > 1:
+        name = name[0].upper() + name[1:] if name else name
+        if cnt[r["site"].strip()] > 1:
             p = (r["place"] or "").split("|")[0]
             if p and p != name: name = f"{name} ({p})"
             else: name = f"{name} ({r['qid']})"
@@ -199,6 +200,8 @@ def main():
         mgroups = []
         for k in allk:
             if k[4] == 1 and k[1] not in mgroups: mgroups.append(k[1])
+        mo = ex.get("maker_order")
+        if mo: mgroups.sort(key=lambda g: mo.index(g) if g in mo else len(mo))
         for g in mgroups:
             for k in allk:
                 if k[4] == 1 and k[1] == g: push(k)
@@ -213,7 +216,7 @@ def main():
         res["leaves"][code] = entry
         report.append(f"{code} {l['label'][:30]}: pool {npool} -> {len(kinds)} sites, {len(final)} kinds, cats {len(entry['catalogues'])}")
     json.dump(res, open(os.path.join(HERE, "result.json"), "w"), ensure_ascii=False, indent=1)
-    open(os.path.join(HERE, "report.txt"), "w").write("\n".join(report))
+
     print("\n".join(x for x in report if x.startswith("UNHANDLED")))
     print(len([x for x in report if not x.startswith("UNH")]), "leaves written")
 

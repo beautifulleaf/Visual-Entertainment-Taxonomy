@@ -74,7 +74,7 @@ add("L1-12", ["Sasanian and Achaemenid rock reliefs", "rock relief - Afghanistan
                 (r"Elamite|Anobanini|Naram|Darband|Khinnis|Rabana|Kurangun", "Pre-Achaemenid reliefs (Elamite, Lullubi, Assyrian)"),
                 (r"Qir and Karzin", "Other Iranian rock carvings")], "Sasanian reliefs"),
     group_order=["Pre-Achaemenid reliefs (Elamite, Lullubi, Assyrian)", "Achaemenid and Median reliefs", "Parthian and Elymaean reliefs", "Sasanian reliefs", "Qajar revival reliefs", "Other Iranian rock carvings"])
-add("L1-13", ["rock relief - Turkey (ancient)"], group="Hittite Imperial rock reliefs", order="date", excl=r"^Manisa relief")
+add("L1-13", ["rock relief - Turkey (ancient)"], group="Hittite Imperial rock reliefs", order="date")
 add("L1-14", ["Gobustan petroglyphs", "rock art - Azerbaijan (undated)"],
     section=kw([(r"Gobustan|Qobustan|Garadagh", "Gobustan Rock Art Cultural Landscape")], "Other Azerbaijani rock-art sites (Gamigaya, Nakhchivan)"),
     group_order=["Gobustan Rock Art Cultural Landscape", "Other Azerbaijani rock-art sites (Gamigaya, Nakhchivan)"],
@@ -188,6 +188,7 @@ add("L2-32", ["Roman wall painting (Pompeian Styles I-IV)"],
     collections=True)
 add("L2-33", ["Roman and late-antique wall painting (catacombs, provincial)", "mural - United States (ancient)"], order="date",
     section=kw([(r"Dura|Synagogue|Mithra|Yale|YUAG", "Dura-Europos (Syria)"), (r"Catacomb|Rome|Vatican", "Roman catacombs and Rome")], "Provincial Roman wall painting"),
+    note="Italian rows outside Rome are listed under Provincial and other Roman wall painting",
     group_order=["Roman catacombs and Rome", "Dura-Europos (Syria)", "Provincial Roman wall painting"], collections=True)
 add("L2-34", ["Byzantine church painting (Greece, Anatolia)", "Cappadocian rock-cut church painting", "Troödos painted churches (Cyprus)",
               "Macedonian (Ohrid) medieval fresco (Nerezi, Kurbinovo, St Sophia Ohrid)", "Mount Athos and Late Byzantine Macedonian school (Panselinos)",
@@ -195,15 +196,15 @@ add("L2-34", ["Byzantine church painting (Greece, Anatolia)", "Cappadocian rock-
               "Russian medieval church fresco (Novgorod, Vladimir, Theophanes, Rublev, Dionisius)", "Yaroslavl and Muscovite church painting (17th c.)",
               "Romanian church painting (Wallachia, Transylvania, Maramureș)", "Post-Byzantine Greek church painting (Cretan school)",
               "Ukrainian, Belarusian and Polish-Lithuanian church painting"],
-    excl=r"Habib Gerez|Bedri Rahmi|Beccafumi|Ikony Revolutsii|murals in Kyiv|^ceiling$|Fra Angelico|Chișinău|Moldova|Palatul de cultur|Casa de cultur|Spitalului|Primăriei|Royal Theatre|Makurian|Bishop Marianus|Apostle Saints Peter and John|Marea",
+    excl=r"Habib Gerez|Bedri Rahmi|Beccafumi|Ikony Revolutsii|murals in Kyiv|^ceiling$|^Pictură religioasă$|Fra Angelico|Chișinău|Moldova|Palatul de cultur|Casa de cultur|Spitalului|Primăriei|Royal Theatre|Makurian|Bishop Marianus|Apostle Saints Peter and John|Marea",
     trad_groups={"Byzantine church painting (Greece, Anatolia)": "Middle and Late Byzantine Greece", "Cappadocian rock-cut church painting": "Cappadocian rock-cut churches",
                  "Troödos painted churches (Cyprus)": "Troödos painted churches (Cyprus)", "Macedonian (Ohrid) medieval fresco (Nerezi, Kurbinovo, St Sophia Ohrid)": "Komnenian Macedonia (Nerezi, Kurbinovo, Ohrid)",
-                 "Mount Athos and Late Byzantine Macedonian school (Panselinos)": "Mount Athos and the Macedonian school", "Serbian medieval fresco (Raška, Morava schools)": "Serbian schools (Raška, Palaiologan, Morava)",
+                 "Mount Athos and Late Byzantine Macedonian school (Panselinos)": "Late Byzantine: Mount Athos, Mystras and Meteora", "Serbian medieval fresco (Raška, Morava schools)": "Serbian schools (Raška, Palaiologan, Morava)",
                  "Bulgarian medieval fresco (Boyana, Ivanovo)": "Bulgarian churches", "Kyivan Rus' fresco (St Sophia, Kyiv)": "Kyivan Rus'",
                  "Russian medieval church fresco (Novgorod, Vladimir, Theophanes, Rublev, Dionisius)": "Novgorod, Vladimir and Muscovy", "Yaroslavl and Muscovite church painting (17th c.)": "Yaroslavl school (17th c.)",
                  "Romanian church painting (Wallachia, Transylvania, Maramureș)": "Post-Byzantine Romania (Wallachia, Moldavia)", "Post-Byzantine Greek church painting (Cretan school)": "Post-Byzantine Greece (Cretan school, Meteora)",
                  "Ukrainian, Belarusian and Polish-Lithuanian church painting": "Ruthenian and Polish-Lithuanian church painting"},
-    group_order=["Middle and Late Byzantine Greece", "Cappadocian rock-cut churches", "Troödos painted churches (Cyprus)", "Komnenian Macedonia (Nerezi, Kurbinovo, Ohrid)", "Mount Athos and the Macedonian school",
+    group_order=["Middle and Late Byzantine Greece", "Cappadocian rock-cut churches", "Troödos painted churches (Cyprus)", "Komnenian Macedonia (Nerezi, Kurbinovo, Ohrid)", "Late Byzantine: Mount Athos, Mystras and Meteora",
                  "Serbian schools (Raška, Palaiologan, Morava)", "Bulgarian churches", "Kyivan Rus'", "Novgorod, Vladimir and Muscovy", "Yaroslavl school (17th c.)",
                  "Post-Byzantine Greece (Cretan school, Meteora)", "Post-Byzantine Romania (Wallachia, Moldavia)", "Ruthenian and Polish-Lithuanian church painting"],
     note="modern murals and Nubian (Faras) items mis-filed in the source buckets are excluded or moved to Faras")
@@ -221,7 +222,7 @@ add("L2-41", ["Chilean muralism"], order="date", modern=True,
     section=by_date([(1970, "Early murals (1940s-1960s)"), (1974, "Popular Unity brigades (1970-1973)"), (3000, "Post-dictatorship murals")]),
     group_order=["Early murals (1940s-1960s)", "Popular Unity brigades (1970-1973)", "Post-dictatorship murals", "Undated"])
 add("L2-43", ["Romanesque wall painting", "Catalan Romanesque wall painting (Taüll, Boí)", "Italian medieval wall painting", "mural - United States (medieval)"],
-    excl=r"Bhaishajyaguru|Murals ceràmics|Buddha", order="date",
+    excl=r"Bhaishajyaguru|Murals ceràmics|Buddha|Tjepu", order="date",
     section=lambda r: ("Detached frescoes in American museums" if r["country"] == "United States" else
                        "Catalonia and Aragon (Boí Valley, Pyrenees)" if r["tradition"].startswith("Catalan") or "Andorra" in r["country"] else
                        {"France": "France", "Spain": "Castile and León and other Spanish churches", "Italy": "Italy", "Vatican City": "Italy", "Germany": "Germany (Reichenau, Rhineland)"}.get(r["country"].split("|")[0], "Other countries")),
@@ -272,12 +273,14 @@ add("L3-7", ["Roman mosaics", "Roman mosaics of the East (Antioch, Zeugma)", "Ro
 add("L3-8", ["Byzantine mosaics (other)", "Middle Byzantine mosaics (Hagia Sophia, Hosios Loukas, Daphni, Nea Moni)", "Early Christian and medieval mosaics of Rome",
              "Ravenna Early Christian and Byzantine mosaics", "Norman Sicilian mosaics (Palermo, Monreale, Cefalù)", "Venetian Byzantine mosaics (San Marco, Torcello)",
              "Kyivan Rus' mosaics", "Levantine church floor mosaics (Madaba school)"],
-    excl=r"Venus and Cupid among sea creatures|Mosaic of Orpheus|Villa Romana",
+    excl=r"Venus and Cupid among sea creatures|Mosaic of Orpheus|Villa Romana|Siena Cathedral|Palazzo Massimo|combattimento",
     trad_groups={"Early Christian and medieval mosaics of Rome": "Early Christian and medieval Rome", "Ravenna Early Christian and Byzantine mosaics": "Ravenna",
                  "Levantine church floor mosaics (Madaba school)": "Levantine floor mosaics (Madaba school)", "Middle Byzantine mosaics (Hagia Sophia, Hosios Loukas, Daphni, Nea Moni)": "Constantinople and Middle Byzantine Greece",
                  "Kyivan Rus' mosaics": "Kyivan Rus'", "Norman Sicilian mosaics (Palermo, Monreale, Cefalù)": "Norman Sicily", "Venetian Byzantine mosaics (San Marco, Torcello)": "Venice and the Adriatic",
-                 "Byzantine mosaics (other)": "Constantinople and Middle Byzantine Greece"},
-    group_order=["Early Christian and medieval Rome", "Ravenna", "Levantine floor mosaics (Madaba school)", "Constantinople and Middle Byzantine Greece", "Kyivan Rus'", "Norman Sicily", "Venice and the Adriatic"],
+                 },
+    section=lambda r: S["L3-8"]["trad_groups"].get(r["tradition"]) or {"Turkey": "Constantinople and Middle Byzantine Greece", "Greece": "Constantinople and Middle Byzantine Greece",
+                      "Italy": "Other Italian medieval mosaics", "Ukraine": "Kyivan Rus'", "Jordan": "Levantine floor mosaics (Madaba school)", "Israel": "Levantine floor mosaics (Madaba school)"}.get((r["country"] or "").split("|")[0], "Other regions"),
+    group_order=["Early Christian and medieval Rome", "Ravenna", "Levantine floor mosaics (Madaba school)", "Constantinople and Middle Byzantine Greece", "Kyivan Rus'", "Norman Sicily", "Venice and the Adriatic", "Other Italian medieval mosaics", "Other regions"],
     collections=True)
 add("L3-9", ["Portuguese azulejo panels", "Spanish azulejo and alicatado"],
     section=by_country({"Portugal": "Portugal", "Brazil": "Brazil (colonial and 19th-century façades)", "Spain": "Spain (Seville, Valencia)"}),

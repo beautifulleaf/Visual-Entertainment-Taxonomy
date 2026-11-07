@@ -298,7 +298,7 @@ L("K11-2", ("Olmec sites", ["N:Olmec"]), ("Teotihuacan", ["N:Teotihuacan"]), ("Z
 L("K11-3", ("Aztec sites", ["N:Aztec"]))
 L("K11-4", ("Inca sites", ["N:Inca", "W:Inca architecture"]), split=["region","country"])
 L("K11-5", ("Caral / Norte Chico", ["N:Caral / Norte Chico"]), ("Chavín", ["N:Chavín"]), ("Moche", ["N:Moche"]), ("Wari", ["N:Wari"]), ("Chimú", ["N:Chimú"]), ("Chachapoya", ["N:Chachapoya"]),
-           ("Regional cultures (Recuay, Lima, Sicán ...)", ["N:Andean regional (Recuay, Lima, Sicán, ...)"]), ("Andean sites, culture unassigned (incl. Tiwanaku)", ["N:Andean (culture unassigned)"]), black=["Toro Muerto", "שלום"], split=["region","country"])
+           ("Regional cultures (Recuay, Lima, Sicán ...)", ["N:Andean regional (Recuay, Lima, Sicán, ...)"]), ("Andean sites, culture unassigned (incl. Tiwanaku)", ["N:Andean (culture unassigned)"]), black=["Toro Muerto", "שלום", "Stela", "Portal of the Falcons", "Obelisk", "Lanzón"], split=["region","country"])
 L("K11-6", ("Ancestral Puebloan great houses, cliff dwellings and pueblos", ["N:Ancestral Puebloan", "W:Pueblo architecture"]), split="region")
 L("K11-7", ("Mound Builder earthworks", ["N:Mississippian / mound builders"]))
 

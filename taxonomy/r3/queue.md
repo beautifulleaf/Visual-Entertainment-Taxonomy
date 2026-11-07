@@ -23,3 +23,4 @@ To do at assembly:
 - Done VA: bucket_modern_west (15 new leaves, 1,242 moved; 4,072 residue grouped by ~110 named groups then country), bucket_academic_19c (6 new leaves, 667 moved).
 - Assembly: merge same-label new leaves (Orientalism ×2, Franco-Belgian comics ×2, possibly Gutai, Feminist art, Mir iskusstva, Vienna Secession, Young Poland, Nagybánya); dedupe makers placed in two leaves (Krøyer, Nikolai Ge, Vasnetsov, Halonen ...): keep the named-school leaf over a residual bucket.
 - Check judgement calls: Saliger and Padua in Nazi art; Epstein in Modern Sculpture (not Vorticism); Buren in BMPT section.
+- Done VA: small_L (Art in Place: 3,010 kinds, 2,424 rule-based sites; 31 leaves still ≤ 4 kinds, ~20 leaves from knowledge only; some sources are Wikipedia search URLs — replace in the link check).

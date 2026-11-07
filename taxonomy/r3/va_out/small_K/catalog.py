@@ -48,7 +48,7 @@ def norm(r, src):
     adm = [a for a in r["admin"].split("|") if a and a != r["country"]]
     return dict(qid=r["qid"], label=r["label"], sl=int(r["sitelinks"] or 0), unesco=r["tier"] in ("unesco_site", "part_of_unesco"),
                 her=bool(r["heritage"]) or r["tier"] in ("unesco_site", "part_of_unesco"), herlabel=(r["heritage"].split("|")[0] if r["heritage"] else ""),
-                place=adm[0] if adm else "", adm=adm, country=r["country"], continent="", region=r["region"], year=yr(r), typ=typ, cls=typ,
+                place=(adm[0] if adm and adm[0] != r["country"].split("|")[0] else ""), adm=adm, country=r["country"].split("|")[0], continent="", region=r["region"], year=yr(r), typ=typ, cls=typ,
                 unesco_site=r["unesco_site"], tier=r["tier"], inception=r["inception"])
 
 def passes(b, t):
@@ -74,6 +74,7 @@ def gloss(b):
     elif b["herlabel"]:
         parts.append(b["herlabel"])
     g = " · ".join(parts)
+    if len(g) > 140: g = parts[0]
     return g[:140]
 
 def key_for(b, mode):

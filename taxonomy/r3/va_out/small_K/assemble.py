@@ -82,7 +82,7 @@ for l in inp:
         if ref.startswith("http"):
             row = [name, grp, gloss, f"r3 {ref}", 1 if grp == "Makers" else 0]
         else:
-            if ref not in byname: raise SystemExit(f"{code}: ref {ref!r} not in input")
+            if ref not in byname: print(f"MISSINGREF {code}: {ref!r}"); continue
             src = byname[ref][3]
             if src.startswith("possession"): _, src = clean_poss(byname[ref][2], src)
             row = [name, grp, gloss, src, 0]; used.add(ref)
@@ -124,7 +124,13 @@ for l in inp:
     makers_extra = [r for r in extra if r[1] == "Makers"]
     extra = [r for r in extra if r[1] != "Makers"]
     archs.sort(key=lambda r: (birth(r[0]), r[0]))
-    kinds = sub + works + extra + archs + makers_extra
+    secmap = collections.OrderedDict()
+    for r in works: secmap.setdefault(r[1], []).append(r)
+    tail = collections.OrderedDict()
+    for r in extra:
+        (secmap if r[1] in secmap else tail).setdefault(r[1], []).append(r)
+    works = [r for v in secmap.values() for r in v] + [r for v in tail.values() for r in v]
+    kinds = sub + works + archs + makers_extra
     # dedupe identical names within a group
     seen = set(); final = []
     for r in kinds:
