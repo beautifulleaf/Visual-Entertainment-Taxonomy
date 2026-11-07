@@ -1,0 +1,1014 @@
+check,severity,where,what,evidence,objects
+V2,high,"Greek, Attic [E]",mapping miss: label names a tradition that has a leaf,"qualifier 'attic' matches E1-27, E1-28",15461
+V2,medium,China · Qing [A],label names a period/school/ware but resolves only to general; no leaf carries it,"qualifier 'qing'; top: National Palace Museum, Taipei (6061); Tokyo National Museum (358); Kyoto National Museum ",7287
+V2,medium,Japan · Kofun [G],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'kofun'; top: Tokyo National Museum (6150); Kyoto National Museum (322); Kyushu National Museum (139); N,6896
+V2,medium,Japan · Edo [A],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'edo'; top: Tokyo National Museum (4262); Kyoto National Museum (535); Cleveland Museum of Art (362); ,5891
+V2,medium,Japan · Edo [H],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'edo'; top: Tokyo National Museum (2779); Kyoto National Museum (868); Art Institute of Chicago (415);,4558
+V2,medium,"Western European manuscripts, late medieval/Renaissance (unlocalised, 1451-1600) [C]",label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'medieval renaissance'; top: Bibliothèque nationale de France (2159); Harvard University (524); University of Pennsylva,3490
+V2,medium,China · Ming [A],label names a period/school/ware but resolves only to general; no leaf carries it,"qualifier 'ming'; top: National Palace Museum, Taipei (2858); Tokyo National Museum (209); Cleveland Museum of Ar",3417
+V2,medium,Korea · Joseon [A],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'joseon'; top: 국립중앙박물관 (2895); Tokyo National Museum (90); Cleveland Museum of Art (54); 제주추사관 (25),3142
+V2,medium,Japan · Edo [B],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'edo'; top: Tokyo National Museum (2677); Kyushu National Museum (165); Kyoto National Museum (52); 独立,3103
+V2,medium,China · Qing [E],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'qing'; top: Art Institute of Chicago (1765); Tokyo National Museum (741); Cleveland Museum of Art (292,2940
+V2,medium,Japan · Edo [G],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'edo'; top: Tokyo National Museum (1416); Cleveland Museum of Art (571); Kyoto National Museum (374); ,2534
+V2,medium,China · Song [A],mapping miss: label names a tradition that has a leaf,qualifier 'song' matches A2-2,895
+V2,medium,China · Tang [E],mapping miss: label names a tradition that has a leaf,qualifier 'tang' matches E1-20,503
+V2,medium,Korea · Joseon [E],mapping miss: label names a tradition that has a leaf,qualifier 'joseon' matches E4-15,403
+V2,medium,"Philippine weaving (pina, Yakan, Kalinga, Ifugao) [H]",mapping miss: label names a tradition that has a leaf,qualifier 'pina yakan kalinga ifugao' matches H3-14,344
+V2,medium,possibly Zapotec or Mixteca (Mixtec) (archaeological culture) (attributed) [G],mapping miss: label names a tradition that has a leaf,qualifier 'mixtec' matches G3-13,282
+V2,medium,"possibly Multiple archaeological cultures (attributed), including Ancestral Pueblo (Anasazi): Cibola and Mogollon Traditions [E]",mapping miss: label names a tradition that has a leaf,qualifier 'including ancestral pueblo anasazi cibola mogollon traditions' matches E1-61,254
+V2,medium,Wixarika (Huichol) [H],mapping miss: label names a tradition that has a leaf,qualifier 'huichol' matches H9-15,247
+V2,medium,Comcaac (Seri) [H],mapping miss: label names a tradition that has a leaf,qualifier 'seri' matches H8-48,233
+V2,medium,"Philippine weaving (pina, Yakan, Kalinga, Ifugao) [H]",mapping miss: label names a tradition that has a leaf,qualifier 'pina yakan kalinga ifugao' matches H3-14,225
+V2,medium,Guna (Kuna) [H],mapping miss: label names a tradition that has a leaf,qualifier 'kuna' matches H4-33,203
+V2,low,Japan · Meiji [A],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'meiji'; top: Tokyo National Museum (1216); Kyoto National Museum (267); Cleveland Museum of Art (64); A,1584
+V2,low,Japan · Edo [I],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'edo'; top: Tokyo National Museum (1117); Kyoto National Museum (200); Kyushu National Museum (86); Cl,1501
+V2,low,China · Ming [E],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'ming'; top: Tokyo National Museum (618); Art Institute of Chicago (353); Kyoto National Museum (196); ,1309
+V2,low,China · Republic [A],label names a period/school/ware but resolves only to general; no leaf carries it,"qualifier 'republic'; top: National Palace Museum, Taipei (716); Kyoto National Museum (510); Tokyo National Museum (",1284
+V2,low,Unspecified (DR Congo) [G],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'dr congo'; top: Penn Museum (1131); Minneapolis Institute of Art (36); Yale University (LUX) (34),1201
+V2,low,Japan · Meiji [E],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'meiji'; top: Kyoto National Museum (465); Tokyo National Museum (281); Cleveland Museum of Art (267); A,1185
+V2,low,Japan · Kamakura [G],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'kamakura'; top: Tokyo National Museum (228); Kyoto National Museum (100); 個人 (85); 独立行政法人国立文化財機構 (74),1138
+V2,low,Japan · Yayoi [G],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'yayoi'; top: Tokyo National Museum (814); Kyoto National Museum (87); Kyushu National Museum (42); 国（文化,1053
+V2,low,"possibly Multiple archaeological cultures (attributed), including Late Archaic and Woodland Traditions [G]",label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'including archaic woodland traditions'; top: Smithsonian (NMAI) (1045),1045
+V2,low,Japan · Kamakura [A],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'kamakura'; top: Tokyo National Museum (127); Nara National Museum (76); 独立行政法人国立文化財機構 (66); Kyoto National,1030
+V2,low,"Western European manuscripts, early medieval (unlocalised, to 1060) [C]",label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'medieval to'; top: Bibliothèque nationale de France (645); Ohio State University (44); Cornell University (36,917
+V2,low,Japan · Heian [G],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'heian'; top: Tokyo National Museum (573); Kyoto National Museum (37); 独立行政法人国立文化財機構 (28); Kyushu Nation,887
+V2,low,China · Qing [C],label names a period/school/ware but resolves only to general; no leaf carries it,"qualifier 'qing'; top: National Palace Museum, Taipei (594); Tokyo National Museum (145); Cleveland Museum of Art",834
+V2,low,Japan · Asuka [E],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'asuka'; top: Tokyo National Museum (572); Kyoto National Museum (107); Nara National Museum (87); 独立行政法,789
+V2,low,Japan · Kamakura [C],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'kamakura'; top: Tokyo National Museum (120); Nara National Museum (84); Kyoto National Museum (36); 独立行政法人,745
+V2,low,Japan · Heian [E],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'heian'; top: Tokyo National Museum (152); Kyoto National Museum (137); Nara National Museum (86);  (31),708
+V2,low,"Italian, Venice [H]",label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'venice'; top: The Metropolitan Museum of Art (1135),613
+V2,low,Japan · Muromachi [G],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'muromachi'; top: Tokyo National Museum (246); Kyushu National Museum (95); Kyoto National Museum (73); Clev,569
+V2,low,Japan · Shōwa [H],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'sh wa'; top: Tokyo National Museum (226); Art Institute of Chicago (105); Cleveland Museum of Art (103),528
+V2,low,China · Republic [C],label names a period/school/ware but resolves only to general; no leaf carries it,"qualifier 'republic'; top: National Palace Museum, Taipei (385); Tokyo National Museum (129)",514
+V2,low,Korea · Goryeo [G],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'goryeo'; top: Tokyo National Museum (184); Cleveland Museum of Art (143); Kyoto National Museum (139); 국,504
+V2,low,Korea · Three Kingdoms (Korea) [E],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'three kingdoms korea'; top: Tokyo National Museum (477); Kyoto National Museum (10),487
+V2,low,China · Ming [C],label names a period/school/ware but resolves only to general; no leaf carries it,"qualifier 'ming'; top: National Palace Museum, Taipei (361); Tokyo National Museum (48); Cleveland Museum of Art ",440
+V2,low,Japan · Nara [H],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'nara'; top: Tokyo National Museum (308); Kyoto National Museum (91); 独立行政法人国立文化財機構 (24); 法隆寺 (3),435
+V2,low,Pakistan (Indus / NW) [H],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'indus nw'; top: Victoria and Albert Museum (394); Art Institute of Chicago (1),395
+V2,low,China · Yuan [G],label names a period/school/ware but resolves only to general; no leaf carries it,"qualifier 'yuan'; top: Nara National Museum (366); Tokyo National Museum (11); National Palace Museum, Taipei (3)",390
+V2,low,Chachilla (Cayapas) [H],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'cayapas'; top: Smithsonian (NMAI) (389),389
+V2,low,Ethiopian traditional arts (other) [G],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'other'; top: Penn Museum (307); Victoria and Albert Museum (40); Yale University (LUX) (13); Art Instit,370
+V2,low,"Indonesian, Java [J]",label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'java'; top: Tropenmuseum (361); Wereldmuseum (NMVW) (2),363
+V2,low,A:shiwi (Zuni) [H],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'zuni'; top: Smithsonian (NMAI) (359),359
+V2,low,Japan · Nanbokuchō [G],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'nanbokuch'; top: Tokyo National Museum (53); 大山祇神社 (48); Kyoto National Museum (40); 個人 (21),352
+V2,low,Nepalese (Newar) [G],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'newar'; top: Victoria and Albert Museum (269); Cleveland Museum of Art (42); Art Institute of Chicago (,350
+V2,low,Japan · Taishō [H],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'taish'; top: Kyoto National Museum (145); Tokyo National Museum (91); Art Institute of Chicago (52); Cl,338
+V2,low,Japan · Momoyama [A],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'momoyama'; top: Kyoto National Museum (86); Tokyo National Museum (45); Cleveland Museum of Art (31); 南禅寺 ,333
+V2,low,China · Western Han [G],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'western han'; top: Tokyo National Museum (285); Kyushu National Museum (31); Kyoto National Museum (14),330
+V2,low,China · Southern Song [E],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'southern song'; top: Tokyo National Museum (153); Cleveland Museum of Art (57); Art Institute of Chicago (31); ,313
+V2,low,China · Northern Song [E],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'northern song'; top: Tokyo National Museum (147); Art Institute of Chicago (73); Cleveland Museum of Art (46); ,298
+V2,low,Japan · Taishō [A],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'taish'; top: Tokyo National Museum (244); Kyoto National Museum (16); 独立行政法人国立美術館 (6); Art Institute of,286
+V2,low,Unspecified (DR Congo) [H],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'dr congo'; top: Penn Museum (274); Minneapolis Institute of Art (9); Yale University (LUX) (3),286
+V2,low,Unspecified (DR Congo) [I],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'dr congo'; top: Penn Museum (256); Minneapolis Institute of Art (17); Yale University (LUX) (10),283
+V2,low,Unspecified (Oceania) [H],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'oceania'; top: Penn Museum (240); Museum of New Zealand Te Papa Tongarewa (27),267
+V2,low,Japan · Momoyama [G],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'momoyama'; top: Tokyo National Museum (98); Kyushu National Museum (79); Kyoto National Museum (38); 独立行政法,259
+V2,low,Japan · Momoyama [E],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'momoyama'; top: Tokyo National Museum (103); Kyoto National Museum (39); Cleveland Museum of Art (22); 独立行,252
+V2,low,Japan · Taishō [B],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'taish'; top: Tokyo National Museum (238); Kyushu National Museum (4); 東日本旅客鉄道株式会社 (2); Kyoto National M,249
+V2,low,Japan · Meiji [G],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'meiji'; top: Tokyo National Museum (141); Cleveland Museum of Art (78); Kyoto National Museum (16); Kyu,243
+V2,low,Japan · Heian [A],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'heian'; top: Tokyo National Museum (39); Kyoto National Museum (28); 独立行政法人国立文化財機構 (28); Kyushu Nationa,242
+V2,low,Chamacoco (Zamuko) [H],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'zamuko'; top: Smithsonian (NMAI) (239),239
+V2,low,China · Five Dynasties [A],label names a period/school/ware but resolves only to general; no leaf carries it,"qualifier 'five dynasties'; top: National Palace Museum, Taipei (234); Tokyo National Museum (3)",237
+V2,low,China · Southern Song [A],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'southern song'; top: Cleveland Museum of Art (98); Tokyo National Museum (24); 独立行政法人国立文化財機構 (16); 大徳寺 (8),233
+V2,low,"Indonesian, Bali [F]",label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'bali'; top: Wereldmuseum Rotterdam (154); Tropenmuseum (77); Rijksmuseum (2),233
+V2,low,Unspecified (DR Congo) [H],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'dr congo'; top: Penn Museum (208); Minneapolis Institute of Art (18); Yale University (LUX) (3),229
+V2,low,Tomaráho (Tumraha) [H],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'tumraha'; top: Smithsonian (NMAI) (229),229
+V2,low,Japan · Muromachi [C],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'muromachi'; top: Tokyo National Museum (46); Kyushu National Museum (38); Nara National Museum (26); 独立行政法人,228
+V2,low,"Shanshan (Miran, Niya, Loulan) [H]",label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'miran niya loulan'; top: V&A (155); Victoria and Albert Museum (EAS) (70); British Library (1); British Museum (1),227
+V2,low,China · Song [E],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'song'; top: Art Institute of Chicago (134); Kyoto National Museum (54); Cleveland Museum of Art (26); ,218
+V2,low,Enxet (Lengua) [H],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'lengua'; top: Smithsonian (NMAI) (215),215
+V2,low,Unspecified (Western Australia) [G],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'western australia'; top: Penn Museum (212),212
+V2,low,"Indonesian, Java [A]",label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'java'; top: Tropenmuseum (196); Rijksmuseum (12); Wereldmuseum (NMVW) (1),209
+V2,low,Japan · Shōwa [A],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'sh wa'; top: Tokyo National Museum (128); Kyoto National Museum (33); Art Institute of Chicago (32); Ky,205
+V2,low,Japan · Nanbokuchō [A],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'nanbokuch'; top: Tokyo National Museum (43); 独立行政法人国立文化財機構 (12); Kyoto National Museum (8); Cleveland Museu,205
+V2,low,China · Yuan [E],label names a period/school/ware but resolves only to general; no leaf carries it,qualifier 'yuan'; top: Tokyo National Museum (85); Art Institute of Chicago (48); Cleveland Museum of Art (46); K,204
+V3,high,indonesia × H,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 48,547 in scope; general 48,547, missing 0; leaves in other families: AG",48547
+V3,high,indonesia × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 6% of 46,618 in scope; general 43,633, missing 0; leaves in other families: A",46618
+V3,high,china × E,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 7% of 29,752 in scope; general 27,760, missing 0; leaves in other families: ABCDIJ",29752
+V3,high,japan × A,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 4% of 21,535 in scope; general 20,730, missing 34; leaves in other families: BCDEGHIJ",21535
+V3,high,indonesia × I,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 20,937 in scope; general 20,937, missing 0; leaves in other families: AG",20937
+V3,high,japan × H,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 18,567 in scope; general 18,561, missing 0; leaves in other families: ABCDEGIJ",18567
+V3,high,china × A,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 5% of 17,614 in scope; general 16,702, missing 14; leaves in other families: BCDEIJ",17614
+V3,high,indonesia × A,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 1% of 10,589 in scope; general 10,491, missing 0; leaves in other families: G",10589
+V3,high,france × H,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 2% of 9,886 in scope; general 9,663, missing 6; leaves in other families: E",9886
+V3,high,egypt × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 9,445 in scope; general 365, missing 9,080; leaves in other families: CEFHI",9445
+V3,high,italy × H,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 2% of 9,418 in scope; general 9,193, missing 0; leaves in other families: DEFG",9418
+V3,high,china × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 9,021 in scope; general 8,478, missing 543; leaves in other families: ABCDEIJ",9021
+V3,high,india × H,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 1% of 8,359 in scope; general 8,250, missing 0; leaves in other families: ADG",8359
+V3,high,india × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 1% of 5,944 in scope; general 5,878, missing 0; leaves in other families: ADH",5944
+V3,high,indonesia × D,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 5,909 in scope; general 5,575, missing 334; leaves in other families: AG",5909
+V3,high,iran × E,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 4% of 5,610 in scope; general 5,395, missing 0; leaves in other families: ACGHI",5610
+V3,high,indonesia × J,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 5,239 in scope; general 5,239, missing 0; leaves in other families: AG",5239
+V3,high,qing dynasty × E,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 5,201 in scope; general 5,201, missing 0; leaves in other families: D",5201
+V3,high,chinese qing dynasty × E,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 5,188 in scope; general 5,188, missing 0; leaves in other families: D",5188
+V3,medium,native americans × E,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 11,075 in scope; general 11,075, missing 0; leaves in other families: none",11075
+V3,medium,suriname × H,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 6,291 in scope; general 6,291, missing 0; leaves in other families: none",6291
+V3,medium,mexico × E,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 5,484 in scope; general 5,484, missing 0; leaves in other families: none",5484
+V3,medium,edo period × E,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 4,625 in scope; general 4,625, missing 0; leaves in other families: D",4625
+V3,medium,japanese edo period × E,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 4,624 in scope; general 4,624, missing 0; leaves in other families: D",4624
+V3,medium,britain × H,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 5% of 4,592 in scope; general 4,351, missing 0; leaves in other families: EG",4592
+V3,medium,korea × A,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 4,388 in scope; general 4,320, missing 68; leaves in other families: CDE",4388
+V3,medium,indonesia × F,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 4,141 in scope; general 4,141, missing 0; leaves in other families: AG",4141
+V3,medium,unspecified × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 3,982 in scope; general 3,972, missing 0; leaves in other families: ABDH",3982
+V3,medium,germany × H,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 3,217 in scope; general 3,217, missing 0; leaves in other families: CEG",3217
+V3,medium,france × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 3,149 in scope; general 3,149, missing 0; leaves in other families: EH",3149
+V3,medium,unspecified × H,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 4% of 2,792 in scope; general 2,643, missing 37; leaves in other families: ABDG",2792
+V3,medium,indonesia × B,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 2,711 in scope; general 2,711, missing 0; leaves in other families: AG",2711
+V3,medium,maori × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 2,669 in scope; general 0, missing 2,669; leaves in other families: DH",2669
+V3,medium,turkey × H,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 9% of 2,394 in scope; general 2,189, missing 0; leaves in other families: BE",2394
+V3,medium,china × I,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 1% of 2,388 in scope; general 2,096, missing 265; leaves in other families: ABCDEJ",2388
+V3,medium,thai × E,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 4% of 2,242 in scope; general 2,147, missing 0; leaves in other families: A",2242
+V3,medium,germany × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 7% of 2,212 in scope; general 2,067, missing 0; leaves in other families: CE",2212
+V3,medium,solomon islands × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 2,154 in scope; general 2,154, missing 0; leaves in other families: D",2154
+V3,medium,spain × H,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 2,110 in scope; general 2,110, missing 0; leaves in other families: CE",2110
+V3,medium,late period × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 2,029 in scope; general 0, missing 2,029; leaves in other families: DE",2029
+V3,medium,egyptian late period × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,930 in scope; general 0, missing 1,930; leaves in other families: DE",1930
+V3,medium,egyptian new kingdom × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,859 in scope; general 0, missing 1,859; leaves in other families: E",1859
+V3,medium,new kingdom × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,858 in scope; general 0, missing 1,858; leaves in other families: E",1858
+V3,medium,thai × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,846 in scope; general 1,846, missing 0; leaves in other families: AE",1846
+V3,medium,iran × H,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 3% of 1,745 in scope; general 1,697, missing 0; leaves in other families: ACEGI",1745
+V3,medium,unspecified × I,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,601 in scope; general 1,601, missing 0; leaves in other families: ABDGH",1601
+V3,medium,india × I,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,560 in scope; general 1,560, missing 0; leaves in other families: ADGH",1560
+V3,medium,ptolemaic period × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,520 in scope; general 0, missing 1,520; leaves in other families: D",1520
+V3,medium,egyptian ptolemaic period × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,516 in scope; general 0, missing 1,516; leaves in other families: D",1516
+V3,medium,china × H,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,386 in scope; general 1,386, missing 0; leaves in other families: ABCDEIJ",1386
+V3,medium,abbasid × E,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 9% of 1,325 in scope; general 1,202, missing 0; leaves in other families: CFH",1325
+V3,medium,france × D,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,321 in scope; general 1,321, missing 0; leaves in other families: EH",1321
+V3,medium,hopi pueblo × A,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,306 in scope; general 0, missing 1,306; leaves in other families: DEGH",1306
+V3,medium,india × B,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,295 in scope; general 1,241, missing 54; leaves in other families: ADGH",1295
+V3,medium,korea × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,192 in scope; general 1,102, missing 90; leaves in other families: CDE",1192
+V3,medium,possibly multiple archaeological cultures × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,157 in scope; general 1,157, missing 0; leaves in other families: E",1157
+V3,medium,coptic × E,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,112 in scope; general 1,112, missing 0; leaves in other families: F",1112
+V3,medium,egypt × H,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 1% of 1,063 in scope; general 1,057, missing 0; leaves in other families: CEFI",1063
+V3,medium,ecuadoran × E,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,019 in scope; general 1,019, missing 0; leaves in other families: A",1019
+V3,low,malian × E,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 4,581 in scope; general 4,581, missing 0; leaves in other families: none",4581
+V3,low,sanskrit manuscripts × C,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 4,174 in scope; general 4,174, missing 0; leaves in other families: none",4174
+V3,low,peru × E,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 3,783 in scope; general 3,783, missing 0; leaves in other families: none",3783
+V3,low,native americans × D,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 3,661 in scope; general 3,661, missing 0; leaves in other families: none",3661
+V3,low,papua new guinean × H,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 3,386 in scope; general 3,386, missing 0; leaves in other families: none",3386
+V3,low,native americans × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 2,930 in scope; general 2,930, missing 0; leaves in other families: none",2930
+V3,low,papua new guinean × I,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 2,749 in scope; general 2,749, missing 0; leaves in other families: none",2749
+V3,low,european × H,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 2,608 in scope; general 2,608, missing 0; leaves in other families: none",2608
+V3,low,democratic republic of the congo × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 2,334 in scope; general 2,334, missing 0; leaves in other families: none",2334
+V3,low,tibetan manuscripts and illustrated books × C,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 2,323 in scope; general 0, missing 2,323; leaves in other families: none",2323
+V3,low,papua new guinean × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 2,264 in scope; general 2,264, missing 0; leaves in other families: none",2264
+V3,low,suriname × E,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 2,232 in scope; general 2,232, missing 0; leaves in other families: none",2232
+V3,low,probably central caribbean × E,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 2,144 in scope; general 14, missing 2,130; leaves in other families: none",2144
+V3,low,european × F,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,914 in scope; general 1,914, missing 0; leaves in other families: none",1914
+V3,low,mexico × H,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,760 in scope; general 1,760, missing 0; leaves in other families: none",1760
+V3,low,suriname × I,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,727 in scope; general 1,727, missing 0; leaves in other families: none",1727
+V3,low,afghan × H,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,639 in scope; general 1,634, missing 0; leaves in other families: none",1639
+V3,low,cypriot × E,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,628 in scope; general 0, missing 1,628; leaves in other families: none",1628
+V3,low,melanesian × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,626 in scope; general 1,626, missing 0; leaves in other families: none",1626
+V3,low,malian × H,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,543 in scope; general 1,543, missing 0; leaves in other families: none",1543
+V3,low,european × J,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,530 in scope; general 1,530, missing 0; leaves in other families: none",1530
+V3,low,suriname × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,504 in scope; general 1,504, missing 0; leaves in other families: none",1504
+V3,low,south african × H,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,491 in scope; general 1,491, missing 0; leaves in other families: none",1491
+V3,low,european × E,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,354 in scope; general 1,354, missing 0; leaves in other families: none",1354
+V3,low,roman period × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,267 in scope; general 1,267, missing 0; leaves in other families: none",1267
+V3,low,mexico × A,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,223 in scope; general 1,223, missing 0; leaves in other families: none",1223
+V3,low,probably tumaco la tolita × E,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,219 in scope; general 7, missing 1,212; leaves in other families: none",1219
+V3,low,democratic republic of the congo × I,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,218 in scope; general 1,218, missing 0; leaves in other families: none",1218
+V3,low,egyptian roman period × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,215 in scope; general 1,215, missing 0; leaves in other families: none",1215
+V3,low,ghanaian × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,157 in scope; general 1,157, missing 0; leaves in other families: none",1157
+V3,low,philippine × H,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,127 in scope; general 1,127, missing 0; leaves in other families: none",1127
+V3,low,post byzantine greek × C,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,099 in scope; general 1,099, missing 0; leaves in other families: none",1099
+V3,low,indonesian manuscripts × C,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,083 in scope; general 1,083, missing 0; leaves in other families: none",1083
+V3,low,peru × G,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,048 in scope; general 1,048, missing 0; leaves in other families: none",1048
+V3,low,native americans × H,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,036 in scope; general 1,036, missing 0; leaves in other families: none",1036
+V3,low,brazil × H,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,032 in scope; general 1,032, missing 0; leaves in other families: none",1032
+V3,low,ming dynasty × E,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,018 in scope; general 1,018, missing 0; leaves in other families: none",1018
+V3,low,chinese ming dynasty × E,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,016 in scope; general 1,016, missing 0; leaves in other families: none",1016
+V3,low,chinese illustrated manuscripts and scrolls × C,"unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)","leaf 0% of 1,010 in scope; general 1,010, missing 0; leaves in other families: none",1010
+V4,high,Ancient Egyptian Jewellery and Metalwork,named tradition with gathered objects and no leaf,families G; max institutions per key 2; labels: 26th; 30th Dynasty; Egyptian; Egyptian | 26th; Egyptian | 30th Dynasty; Egyptian | Late Dynastic; Eg,20847
+V4,high,Seljuk Stucco,named tradition with gathered objects and no leaf,families ?; max institutions per key 2; labels: Iranian; Iranian | Seljuq; Seljuq,6651
+V4,high,Cypriot Pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 2; labels: Cypriot; Cypriot | Bronze Age; Cypriot | Cypro-Archaic; Cypriot | Cypro-Geometric; Cypriot | Early C,3828
+V4,high,Cypriot Sculpture,named tradition with gathered objects and no leaf,families DE; max institutions per key 2; labels: Cypriot; Cypriot | Archaic; Cypriot | Classical; Cypriot | Cypro-Classical; Cypriot | Hellenistic; C,1690
+V4,high,Ancient Greek Bronzes,named tradition with gathered objects and no leaf,"families G; max institutions per key 2; labels: Greek; Greek | Classical; Greek | Geometric; Greek | Hellenistic; Greek, Cretan; Greek, Cretan | Arc",1275
+V4,medium,Mamluk Pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Egyptian | Mamluk; Mamluk; Syrian | Mamluk,1613
+V4,medium,Predynastic Egyptian Pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Egyptian | Naqada; Egyptian | Predynastic Period; Naqada; Predynastic Period,1258
+V4,medium,Native American Studio Painting,named tradition with gathered objects and no leaf,"families A; max institutions per key 1; labels: Absentee Shawnee; Absentee Shawnee [Shawnee, Oklahoma-Pottawatomie County]; Diné (Navajo); Eastern B",1252
+V4,medium,Chican Ostionoid (Taíno) pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: possibly Chican Ostionoid (Chicoid) (archaeological culture) (attributed); probably Chican Ostionoid,1151
+V4,medium,Ehon (Japanese woodblock-printed books),named tradition with gathered objects and no leaf,families C; max institutions per key 1; labels: Japan · 1682; Japan · 1683; Japan · 1720; Japan · 1735; Japan · 1752; Japan · 1765; Japan · 1771; Ja,1066
+V4,medium,Mughal Textiles,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Indian | Mughal; Mughal; Pakistani | Mughal,1046
+V4,medium,Sasanian Stamp Seals,named tradition with gathered objects and no leaf,families D; max institutions per key 1; labels: Sasanian; Sasanian | Sasanian,961
+V4,medium,Roman Metalwork,named tradition with gathered objects and no leaf,families G; max institutions per key 1; labels: Mid-Imperial; Roman; Roman | Hellenistic; Roman | Mid-Imperial,867
+V4,medium,Lydian Pottery,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: Lydian; Lydian | Archaic; Lydian | Geometric; Lydian, Sardis; Lydian, Sardis | Geometric",646
+V4,medium,Krobo glass beads,named tradition with gathered objects and no leaf,families F; max institutions per key 4; labels: Ghanaian,618
+V4,medium,Kali'na (Carib) pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Carib [Guyana]; Carib [Suriname]; possibly Carib [Suriname] (attributed),529
+V4,medium,Javanese Hindu-Buddhist Sculpture,named tradition with gathered objects and no leaf,families D; max institutions per key 1; labels: Central Javanese period; Eastern Javanese period; Indonesian | Central Javanese period; Indonesian |,501
+V4,medium,Byzantine Metalwork,named tradition with gathered objects and no leaf,families G; max institutions per key 1; labels: Byzantine,457
+V4,medium,Turkmen Jewellery,named tradition with gathered objects and no leaf,families G; max institutions per key 2; labels: Central Asia; Central Asia | Qajar; Turkmenistan,449
+V4,medium,Pala Manuscript Painting,named tradition with gathered objects and no leaf,"families A; max institutions per key 2; labels: Bangladeshi; Bangladeshi | Pala period; Eastern India; Indian | Pala period; Indian, Bengal; Indian,",437
+V4,medium,Ulúa polychrome pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Ulúa River (archaeological culture) (attributed),419
+V4,medium,Guna nuchu figures,named tradition with gathered objects and no leaf,families I; max institutions per key 1; labels: Guna (Kuna); Guna [Guna Yala],401
+V4,medium,Paracas Pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Paracas,400
+V4,medium,Bactria-Margiana Metalwork,named tradition with gathered objects and no leaf,families G; max institutions per key 1; labels: Bactria-Margiana Archaeological Complex; Bactria-Margiana Archaeological Complex | Bronze Age,386
+V4,medium,Huichol Textiles and Beadwork,named tradition with gathered objects and no leaf,families H; max institutions per key 1; labels: Huichol yarn and bead art (nierika); Wixarika (Huichol),367
+V4,medium,Northwest Coast Button Blankets,named tradition with gathered objects and no leaf,families H; max institutions per key 1; labels: Gwa'sala Kwakwaka'wakw (Goasila); Kwakwaka'wakw (Kwakiutl); Namgis Kwakwaka'wakw (Nemquic); Quatsino,336
+V4,medium,Laconian Lead Figurines,named tradition with gathered objects and no leaf,"families ?; max institutions per key 1; labels: Greek, Laconian; Greek, Laconian | Archaic",277
+V4,medium,Elenan Ostionoid pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: possibly Elenan Ostionoid (Elenoid) (archaeological culture) (attributed); probably Elenan Ostionoid,258
+V4,medium,Kiowa Six,named tradition with gathered objects and no leaf,families A; max institutions per key 1; labels: Kiowa,239
+V4,medium,Kwoma Bark Painting,named tradition with gathered objects and no leaf,"families H; max institutions per key 1; labels: Kwoma; Kwoma, Kalaba clan; Yinibu",224
+V4,medium,Vicús Metalwork,named tradition with gathered objects and no leaf,families G; max institutions per key 1; labels: Vicús,216
+V4,medium,Kuba wood carving,named tradition with gathered objects and no leaf,families I; max institutions per key 3; labels: Kuba,210
+V4,medium,Puebla-Tlaxcala polychrome pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: possibly Puebla-Tlaxcala (archaeological) (attributed); probably Puebla-Tlaxcala (archaeological) (a,202
+V4,low,Italic Bronzes,named tradition with gathered objects and no leaf,families G; max institutions per key 1; labels: Italic; Italic | Archaic; Italic | Classical; Italic | Geometric; Italic | Hellenistic,197
+V4,low,Karajá ceramic dolls,named tradition with gathered objects and no leaf,families E; max institutions per key 3; labels: Karaja dolls (ritxoko); Karajá (Caraja),189
+V4,low,Haarlem linen damask,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: Dutch, Haarlem",175
+V4,low,Meillacan Ostionoid pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Meillacan Ostionoid (Meillacoid) (archaeological culture) (attributed),169
+V4,low,Kumeyaay pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Campo Band of Kumeyaay; Manzanita Band of Kumeyaay; possibly Kumeyaay (Diegueño) (archaeological) (a,154
+V4,low,Mezcala Stone Sculpture,named tradition with gathered objects and no leaf,families D; max institutions per key 1; labels: Mezcala,153
+V4,low,Kushite (Napatan-Meroitic) sculpture,named tradition with gathered objects and no leaf,families D; max institutions per key 3; labels: Napatan and Meroitic Kush,146
+V4,low,Huichol ceramics,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Wixarika (Huichol),120
+V4,low,Persian blown glass (Shiraz),named tradition with gathered objects and no leaf,families F; max institutions per key 5; labels: Iranian; Qajar,114
+V4,low,Mixteca-Puebla polychrome pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 2; labels: Mixtec; possibly Mixteca (Mixtec) (archaeological culture) (attributed); probably Mixtec (attributed,114
+V4,low,Sicán (Lambayeque) pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Sicán (Lambayeque) (archaeological culture) (attributed),112
+V4,low,Qing imperial glass (Peking glass),named tradition with gathered objects and no leaf,families F; max institutions per key 2; labels: China · Qing,109
+V4,low,Tibetan Arms and Armour,named tradition with gathered objects and no leaf,families ?; max institutions per key 2; labels: Tibetan,107
+V4,low,Fon Metal Sculpture,named tradition with gathered objects and no leaf,families G; max institutions per key 1; labels: Fon,101
+V4,low,American Needlework Samplers,named tradition with gathered objects and no leaf,families H; max institutions per key 3; labels: American needlework samplers,100
+V4,low,Wounaan basketry,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Wounaan (Noanama),98
+V4,low,Ostionan Ostionoid pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Ostionan Ostionoid (archaeological culture) (attributed),91
+V4,low,Irish Cut Glass,named tradition with gathered objects and no leaf,families F; max institutions per key 2; labels: Irish,89
+V4,low,Kortrijk linen damask,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: Belgian, Kortrijk",87
+V4,low,Seville Pottery,named tradition with gathered objects and no leaf,"families E; max institutions per key 2; labels: Spanish, Seville",86
+V4,low,Batak Sculpture,named tradition with gathered objects and no leaf,families DI; max institutions per key 1; labels: Toba Batak,80
+V4,low,Dayak Sculpture,named tradition with gathered objects and no leaf,"families D; max institutions per key 1; labels: Indonesian, Kalimantan; Kayan; Kenyah; Ngadju; Ot Danum",80
+V4,low,Multani blue pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 5; labels: Multani blue pottery and tiles; Unspecified (Multan),70
+V4,low,Mojave pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Mojave (Mohave),67
+V4,low,Gupta Sculpture,named tradition with gathered objects and no leaf,families D; max institutions per key 1; labels: Gupta period; Indian | Gupta period,67
+V4,low,Kiribati coconut-fibre armour,named tradition with gathered objects and no leaf,families ?GI; max institutions per key 4; labels: Kiribati coconut-fibre armour,66
+V4,low,Shipibo-Conibo Textiles,named tradition with gathered objects and no leaf,families EH; max institutions per key 1; labels: Conibo; Shipibo; Shipibo-Conibo,64
+V4,low,Thessalian Neolithic Pottery,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: Neolithic, Thessaly; Neolithic, Thessaly | Neolithic",64
+V4,low,Quechan pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Quechan (Yuma/Cuchan),63
+V4,low,Shunga Art,named tradition with gathered objects and no leaf,families ?D; max institutions per key 1; labels: Indian | Shunga period; Shunga period,62
+V4,low,Harappan Pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Early Harappan; Indus; Indus | Early Harappan,57
+V4,low,Dutch Klederdracht,named tradition with gathered objects and no leaf,"families H; max institutions per key 1; labels: Dutch, Friesland; Dutch, Zaanstreek",53
+V4,low,Chantilly Lace,named tradition with gathered objects and no leaf,"families EH; max institutions per key 2; labels: French, Chantilly; wd:Q2718962",53
+V4,low,Lyon Silk,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: French, Lyons",50
+V4,low,Dali Kingdom Buddhist sculpture,named tradition with gathered objects and no leaf,families DG; max institutions per key 7; labels: Dali Kingdom (Yunnan),49
+V4,low,Plumbate ware,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Mesoamerican: Plumbate style (archaeological culture) (attributed),49
+V4,low,Maricopa pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Piipaash (Maricopa),49
+V4,low,Barrancoid pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: possibly Barrancoid Tradition (archaeological culture) (attributed); probably Barrancoid Tradition (,49
+V4,low,Casma pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: possibly Casma or Ychsma (Ichma) (archaeological culture) (attributed; probably Casma (archaeologica,48
+V4,low,Kichwa pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Highland Kichua (attributed),47
+V4,low,Mandan pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Numakiki (Mandan); probably Plains Village Tradition: Numakiki (Mandan) (archaeological) (attributed,47
+V4,low,Tzeltal Maya pottery (Amatenango),named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Oxchuc Tzeltal Maya (Occucero); probably Tzeltal Maya (attributed),47
+V4,low,Burmese Buddhist sculpture,named tradition with gathered objects and no leaf,families D; max institutions per key 3; labels: Burmese,46
+V4,low,Chupícuaro ceramics,named tradition with gathered objects and no leaf,families E; max institutions per key 2; labels: Chupicuaro; probably Chupícuaro (archaeological culture) (attributed),46
+V4,low,Cupisnique pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 2; labels: Cupisnique; probably Chavín or Cupisnique (archaeological culture) (attributed),46
+V4,low,Zulu pottery (ukhamba),named tradition with gathered objects and no leaf,families E; max institutions per key 7; labels: Zulu; Zulu ceramics (ukhamba) and wire baskets (imbenge),46
+V4,low,Sepik Painting,named tradition with gathered objects and no leaf,"families A; max institutions per key 4; labels: Sepik carving and painting (Iatmul, Abelam, Kwoma)",44
+V4,low,South Slavic manuscript illumination,named tradition with gathered objects and no leaf,"families C; max institutions per key 21; labels: South Slavic (Serbian, Bulgarian)",44
+V4,low,Tapirapé ceramic figures,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Tapirapé (Tapirape),42
+V4,low,Lima School Painting,named tradition with gathered objects and no leaf,families A; max institutions per key 7; labels: Viceroyalty of Peru painting (Lima and other centres),41
+V4,low,Shona stone sculpture,named tradition with gathered objects and no leaf,families ?D; max institutions per key 2; labels: Shona stone sculpture,41
+V4,low,Lacandon Maya incense burners,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Lakandon Maya (Lacandon),41
+V4,low,Cauca pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: possibly Cauca (archaeological culture) (attributed),41
+V4,low,Ychsma pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: possibly Ychsma (Ichma) (archaeological culture) (attributed); probably Ychsma (Ichma) (archaeologic,41
+V4,low,Circassian Gold Embroidery,named tradition with gathered objects and no leaf,families H; max institutions per key 16; labels: people:adyghe_circassian_kabardian:embroidery,41
+V4,low,Ukrainian Icon Painting,named tradition with gathered objects and no leaf,families A; max institutions per key 15; labels: people:ukrainian:icon_painting,40
+V4,low,Royal Copenhagen porcelain,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: culture:danish_copenhagen:ceramics,40
+V4,low,Tatar Embroidery,named tradition with gathered objects and no leaf,families H; max institutions per key 16; labels: people:tatar:embroidery,40
+V4,low,Udmurt Embroidery,named tradition with gathered objects and no leaf,families H; max institutions per key 16; labels: people:udmurt:embroidery,40
+V4,low,Bashkir Embroidery,named tradition with gathered objects and no leaf,families H; max institutions per key 12; labels: people:bashkir:embroidery,40
+V4,low,Mordvin Embroidery,named tradition with gathered objects and no leaf,families H; max institutions per key 14; labels: people:mordvin_erzya_moksha:embroidery,40
+V4,low,Nanai Fish-Skin Appliqué,named tradition with gathered objects and no leaf,families H; max institutions per key 8; labels: people:nanai:embroidery,40
+V4,low,Dagestani Gold Embroidery,named tradition with gathered objects and no leaf,families H; max institutions per key 3; labels: people:dagestani_general:embroidery,40
+V4,low,Sheffield Plate,named tradition with gathered objects and no leaf,"families G; max institutions per key 2; labels: British, Sheffield",40
+V4,low,Urartian Metalwork,named tradition with gathered objects and no leaf,families G; max institutions per key 1; labels: Urartian; Urartian | Iron Age,40
+V4,low,Sepik pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Sepik: Sawos,39
+V4,low,Imperial Porcelain Factory (St Petersburg),named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: culture:russian_st_petersburg:ceramics,39
+V4,low,Battala Woodcuts,named tradition with gathered objects and no leaf,"families B; max institutions per key 2; labels: Indian, West Bengal; West Bengal)",39
+V4,low,Haida argillite carving,named tradition with gathered objects and no leaf,families ?DE; max institutions per key 2; labels: Haida argillite carving,38
+V4,low,Gotsatl metalwork,named tradition with gathered objects and no leaf,families G; max institutions per key 4; labels: pattern:gotsatl_metalwork,37
+V4,low,Tlatilco Figurines,named tradition with gathered objects and no leaf,families DE; max institutions per key 1; labels: Tlatilco,37
+V4,low,Woodland School,named tradition with gathered objects and no leaf,"families A; max institutions per key 1; labels: Anishinaabe [Manitoulin Island, Ontario]; Anishinaabe [Sand Point, Ontario]; Ontario Ojibwe",36
+V4,low,Wayang klitik,named tradition with gathered objects and no leaf,families D; max institutions per key 2; labels: Wayang klitik / krucil (flat wooden puppets),36
+V4,low,Métis floral beadwork,named tradition with gathered objects and no leaf,families ?F; max institutions per key 2; labels: Metis floral beadwork and octopus bags,36
+V4,low,Glades pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: possibly Glades (archaeological culture) (attributed),36
+V4,low,Russian cast metal icons,named tradition with gathered objects and no leaf,families ?G; max institutions per key 8; labels: pattern:old_believer_icons_and_cast_icons,36
+V4,low,Spitalfields Silk,named tradition with gathered objects and no leaf,"families E; max institutions per key 2; labels: British, Spitalfields",35
+V4,low,Nupe pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 3; labels: Nupe,34
+V4,low,Binche lace,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: Belgian, Binche",34
+V4,low,Bristol Glass,named tradition with gathered objects and no leaf,"families F; max institutions per key 1; labels: British, Bristol",34
+V4,low,Vicús pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: possibly Vicús (archaeological culture) (attributed); probably Vicús (archaeological culture) (attri,33
+V4,low,Silesian Glass,named tradition with gathered objects and no leaf,"families F; max institutions per key 1; labels: German, Silesia",33
+V4,low,Chupícuaro Figurines,named tradition with gathered objects and no leaf,families D; max institutions per key 1; labels: Chupicuaro,32
+V4,low,Guro Sculpture,named tradition with gathered objects and no leaf,families DI; max institutions per key 1; labels: Guro,32
+V4,low,Ica-Chincha Textiles,named tradition with gathered objects and no leaf,families H; max institutions per key 1; labels: probably Ica-Chincha (archaeological culture) (attributed),31
+V4,low,Cupisnique Pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Cupisnique,31
+V4,low,Kashmiri Painting,named tradition with gathered objects and no leaf,"families AB; max institutions per key 1; labels: Indian, Kashmir",30
+V4,low,Triana (Seville) pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Seville,30
+V4,low,Calais machine lace,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: French, Calais",29
+V4,low,Sarreguemines Pottery,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: French, Sarreguemines",29
+V4,low,Ryukyuan Painting,named tradition with gathered objects and no leaf,families A; max institutions per key 2; labels: Japan · Ryukyu Kingdom,28
+V4,low,Tangut Buddhist Painting,named tradition with gathered objects and no leaf,families A; max institutions per key 2; labels: Tangut (Western Xia),28
+V4,low,Colonial Inca Qeros,named tradition with gathered objects and no leaf,families A; max institutions per key 1; labels: Colonial Inka (Inca); probably Colonial Inka (archaeological) (attributed),28
+V4,low,Ndebele beadwork,named tradition with gathered objects and no leaf,families F; max institutions per key 4; labels: Ndebele; Ndebele beadwork,28
+V4,low,Ypres lace,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: Belgian, Ieper",28
+V4,low,Ambalangoda masks,named tradition with gathered objects and no leaf,families I; max institutions per key 2; labels: Ambalangoda masks,28
+V4,low,Zlatoust steel engraving,named tradition with gathered objects and no leaf,families G; max institutions per key 10; labels: pattern:zlatoust_engraving,27
+V4,low,Crimean Tatar Embroidery,named tradition with gathered objects and no leaf,families H; max institutions per key 6; labels: people:crimean_tatar:embroidery,27
+V4,low,Indian Chromolithographs,named tradition with gathered objects and no leaf,"families B; max institutions per key 1; labels: Indian, Maharashtra",27
+V4,low,Platería criolla (gaucho silverwork),named tradition with gathered objects and no leaf,families C; max institutions per key 2; labels: Gaucho silverwork (plateria criolla),26
+V4,low,X-Group (Ballana) pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Post-Meroitic Nubia (X-Group / Ballana),26
+V4,low,Choctaw pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Mississippi Choctaw,26
+V4,low,Recuay pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 2; labels: Recuay; probably Recuay (archaeological culture) (attributed),26
+V4,low,Luiseño pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Pala Band Luiseño (Agua Caliente); Soboba Luiseño,26
+V4,low,Southeast Australian carved shields,named tradition with gathered objects and no leaf,"families ?G; max institutions per key 4; labels: Southeast Australian carved shields, clubs and possum-skin cloaks",26
+V4,low,Nevers Glass Figures,named tradition with gathered objects and no leaf,"families F; max institutions per key 1; labels: French, Nevers",26
+V4,low,Nubian C-Group pottery,named tradition with gathered objects and no leaf,"families E; max institutions per key 2; labels: Nubian A-Group, C-Group and Pan-Grave cultures",25
+V4,low,Muisca pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Muisca (archaeological) (attributed),25
+V4,low,Loro (Ecuador) pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Loro (archaeological culture) (attributed),25
+V4,low,Arikara pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Sahnish (Arikara),25
+V4,low,Chocoan pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: possibly Chocoan (archaeological culture) (attributed),25
+V4,low,Argentan lace,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: French, Argentan",25
+V4,low,Tenango embroidery,named tradition with gathered objects and no leaf,families ?E; max institutions per key 2; labels: Otomi tenango embroidery,25
+V4,low,Canelos Kichwa pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Canelos Kichua; Sarayacu Kichua,25
+V4,low,Fort Ancient pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: possibly Fort Ancient (archaeological culture) (attributed); probably Fort Ancient (archaeological c,25
+V4,low,Huichol yarn painting (nierika),named tradition with gathered objects and no leaf,families ?; max institutions per key 1; labels: Huichol yarn and bead art (nierika),25
+V4,low,Hopewell art,named tradition with gathered objects and no leaf,families G; max institutions per key 1; labels: probably Hopewell (archaeological culture) (attributed),25
+V4,low,Catalan Glass,named tradition with gathered objects and no leaf,"families F; max institutions per key 1; labels: Spanish, Catalonia",24
+V4,low,Oneota pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: possibly Oneota (archaeological culture) (attributed),23
+V4,low,Paracas pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Paracas (archaeological culture) (attributed),23
+V4,low,Silla pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 3; labels: Korea · Silla; Korea · Unified Silla,23
+V4,low,Fulani wedding blankets (arkilla),named tradition with gathered objects and no leaf,"families ?; max institutions per key 7; labels: Fulani wedding blankets (khasa, arkilla)",23
+V4,low,Korwar,named tradition with gathered objects and no leaf,families DI; max institutions per key 1; labels: Cenderawasih Bay,23
+V4,low,Thai Banner Painting,named tradition with gathered objects and no leaf,"families A; max institutions per key 3; labels: Thai temple painting (phra bot banners, murals)",22
+V4,low,Dayak beadwork,named tradition with gathered objects and no leaf,families F; max institutions per key 3; labels: Dayak carving and beadwork,22
+V4,low,Asyut pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Asyut,22
+V4,low,Diaguita pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Diaguita (archaeological culture) (attributed),22
+V4,low,Sokoto terracottas,named tradition with gathered objects and no leaf,families D; max institutions per key 2; labels: Sokoto terracottas,21
+V4,low,Gentilar pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Arica/Western Valleys Tradition: Gentilar style (archaeological culture) (attributed),21
+V4,low,Bayeux lace,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: French, Bayeux",21
+V4,low,Engraved Powder Horns,named tradition with gathered objects and no leaf,families G; max institutions per key 1; labels: Colonial American,21
+V4,low,Lontara manuscripts (Bugis-Makassar),named tradition with gathered objects and no leaf,families C; max institutions per key 2; labels: Bugis / Makassar (lontara),20
+V4,low,Mughal glass,named tradition with gathered objects and no leaf,families F; max institutions per key 4; labels: Delhi; Mughal,20
+V4,low,Murshidabad ivory carving,named tradition with gathered objects and no leaf,families D; max institutions per key 1; labels: Murshidabad,20
+V4,low,Admiralty Islands pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 2; labels: Admiralty Islands,20
+V4,low,Totonac ceramics,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: possibly Totonac (Totonaco) (archaeological culture) (attributed),20
+V4,low,Chavín goldwork,named tradition with gathered objects and no leaf,families G; max institutions per key 2; labels: Chavin,20
+V4,low,Shipibo-Konibo kené textiles,named tradition with gathered objects and no leaf,families ?; max institutions per key 2; labels: Shipibo kene designs,20
+V4,low,Dida Raffia Textiles,named tradition with gathered objects and no leaf,families H; max institutions per key 4; labels: Dida; Dida raffia textiles,20
+V4,low,Kanak Sculpture,named tradition with gathered objects and no leaf,families DI; max institutions per key 1; labels: Kanak,20
+V4,low,Santafé de Bogotá Colonial Painting,named tradition with gathered objects and no leaf,families A; max institutions per key 7; labels: New Granada painting (Santafe de Bogota),19
+V4,low,Tz'utuhil Maya Painting,named tradition with gathered objects and no leaf,families A; max institutions per key 1; labels: Tz'utuhil Maya (Tzutuhil/Zutigil),19
+V4,low,Silla glass,named tradition with gathered objects and no leaf,families F; max institutions per key 2; labels: Korea · Silla; Korea · Unified Silla,19
+V4,low,Huastec pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Huastec (Huasteca) (archaeological culture) (attributed),19
+V4,low,Chorrera pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: possibly Chorrera (archaeological culture) (attributed); probably Chorrera (archaeological culture) ,19
+V4,low,Slutsk Sashes,named tradition with gathered objects and no leaf,families H; max institutions per key 8; labels: pattern:slutsk_sashes,19
+V4,low,Mezcala stone sculpture,named tradition with gathered objects and no leaf,families D; max institutions per key 2; labels: Mezcala,18
+V4,low,Tlatilco ceramics,named tradition with gathered objects and no leaf,families E; max institutions per key 2; labels: Tlatilco,18
+V4,low,Ritxoko (Karajá dolls),named tradition with gathered objects and no leaf,families ?G; max institutions per key 2; labels: Karaja dolls (ritxoko),18
+V4,low,Qero,named tradition with gathered objects and no leaf,families I; max institutions per key 1; labels: Quechua,18
+V4,low,Kholmogory bone carving,named tradition with gathered objects and no leaf,families D; max institutions per key 2; labels: culture:russian_kholmogory:bone_carving; pattern:kholmogory_bone_carving,17
+V4,low,Yucatec Maya pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Yukatek (Yucatec) Maya (attributed),17
+V4,low,Rarámuri pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Rarámuri (Tarahumara),17
+V4,low,Muscogee (Creek) pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Oklahoma Muscogee (Creek),17
+V4,low,Geraardsbergen lace,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: Belgian, Geraardsbergen",17
+V4,low,Swahili coast woodcarving,named tradition with gathered objects and no leaf,"families I; max institutions per key 5; labels: Swahili coast (Kilwa, Lamu, Zanzibar) arts",17
+V4,low,Vienna Porcelain,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: Austrian, Vienna",17
+V4,low,Qianlong Conquest Engravings,named tradition with gathered objects and no leaf,"families B; max institutions per key 1; labels: Chinese, Beijing",16
+V4,low,Mangbetu pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 6; labels: Mangbetu pottery and figurative arts,16
+V4,low,Huaura pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Central Andes: Huaura style (archaeological culture) (attributed),16
+V4,low,Guangala ceramic figures,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Guangala (archaeological culture) (attributed),16
+V4,low,Dayak woodcarving,named tradition with gathered objects and no leaf,families I; max institutions per key 3; labels: Dayak carving and beadwork,16
+V4,low,Vyatka Lace,named tradition with gathered objects and no leaf,families H; max institutions per key 5; labels: pattern:kirov_vyatka_lace,16
+V4,low,Toledo Swords,named tradition with gathered objects and no leaf,"families G; max institutions per key 1; labels: Spanish, Toledo",16
+V4,low,Naxi Painting,named tradition with gathered objects and no leaf,families A; max institutions per key 3; labels: Naxi,15
+V4,low,Teotihuacan stone sculpture,named tradition with gathered objects and no leaf,families D; max institutions per key 2; labels: Teotihuacan,15
+V4,low,Pachacamac pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Pachacamac (archaeological culture) (attributed),15
+V4,low,Batak woodcarving,named tradition with gathered objects and no leaf,families I; max institutions per key 3; labels: Batak carving and magic books (pustaha),15
+V4,low,Yaka Sculpture,named tradition with gathered objects and no leaf,families D; max institutions per key 1; labels: Yaka,15
+V4,low,Khotanese Painting,named tradition with gathered objects and no leaf,families A; max institutions per key 4; labels: Khotanese,14
+V4,low,Chinese Export Painting,named tradition with gathered objects and no leaf,"families A; max institutions per key 1; labels: Chinese, Canton",14
+V4,low,Nagasaki-e,named tradition with gathered objects and no leaf,"families B; max institutions per key 1; labels: Japanese, Nagasaki",14
+V4,low,Cocopah pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Cocopa,14
+V4,low,Fort Walton pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: possibly Fort Walton (archaeological culture) (attributed),14
+V4,low,Dabajuroid pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: possibly Dabajuroid (archaeological culture) (attributed); probably Dabajuroid (archaeological cultu,14
+V4,low,Wayuu pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Wayuu (Guajira/Goajiro); Wayuu mochila and weaving,14
+V4,low,Yavapai basketry,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Yavapai; Yavapai [Fort McDowell],14
+V4,low,Chinese Modern Woodcut Movement,named tradition with gathered objects and no leaf,families B; max institutions per key 2; labels: China · Republic,13
+V4,low,Armenian Icon Painting,named tradition with gathered objects and no leaf,families A; max institutions per key 6; labels: people:armenian:icon_painting,13
+V4,low,Katsina terracottas,named tradition with gathered objects and no leaf,families D; max institutions per key 1; labels: Katsina terracottas,13
+V4,low,Sinagua pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: possibly Sinagua (archaeological culture) (attributed),13
+V4,low,Achuar pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Achuar,13
+V4,low,Toraja woodcarving,named tradition with gathered objects and no leaf,"families I; max institutions per key 3; labels: Toraja carving (tau tau, pa'ssura)",13
+V4,low,Moche Textiles,named tradition with gathered objects and no leaf,families H; max institutions per key 1; labels: probably Moche (Mochica) (archaeological culture) (attributed),13
+V4,low,Batak Ulos,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Toba Batak,13
+V4,low,San Agustín pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: possibly San Agustín (archaeological culture) (attributed),12
+V4,low,Plauen lace,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: German, Plauen",12
+V4,low,Breton Costume,named tradition with gathered objects and no leaf,families H; max institutions per key 1; labels: people:breton:costume,12
+V4,low,Sri Lankan Masks,named tradition with gathered objects and no leaf,families A; max institutions per key 1; labels: Ambalangoda masks,11
+V4,low,Gaya pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 3; labels: Korea · Gaya,11
+V4,low,Pawnee pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Chaticks Si Chaticks (Pawnee) (archaeological) (attributed),11
+V4,low,Mikhailov Lace,named tradition with gathered objects and no leaf,families H; max institutions per key 6; labels: pattern:mikhailov_lace,11
+V4,low,Tenango Embroidery,named tradition with gathered objects and no leaf,families H; max institutions per key 1; labels: Otomi tenango embroidery,11
+V4,low,Sicán Textiles,named tradition with gathered objects and no leaf,families H; max institutions per key 1; labels: probably Sicán (Lambayeque) (archaeological culture) (attributed),11
+V4,low,Stroganov School,named tradition with gathered objects and no leaf,families A; max institutions per key 8; labels: pattern:stroganov_school,10
+V4,low,Vyg (Pomor) Old Believer book painting,named tradition with gathered objects and no leaf,families C; max institutions per key 5; labels: pattern:old_believer_pomor_vyg_book_painting,10
+V4,low,Owo ivory carving,named tradition with gathered objects and no leaf,families D; max institutions per key 5; labels: Owo art,10
+V4,low,Nubian manuscript illumination,named tradition with gathered objects and no leaf,"families C; max institutions per key 3; labels: Nubian (Old Nubian, Greek, Coptic)",10
+V4,low,Olmec ceramics,named tradition with gathered objects and no leaf,families E; max institutions per key 2; labels: Olmec,10
+V4,low,Cosanga pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Cosanga (Cosanga-Píllaro/Panzaleo) archaeological culture) (attributed),10
+V4,low,Shuar pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Shuar,10
+V4,low,Chantilly lace,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: French, Chantilly",10
+V4,low,Chumash basketry,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Chumash; Santa Ynez Chumash (Santa Inez),10
+V4,low,Krolevets Rushnyk Weaving,named tradition with gathered objects and no leaf,families H; max institutions per key 7; labels: pattern:krolevets_weaving,10
+V4,low,Tønder Lace,named tradition with gathered objects and no leaf,families H; max institutions per key 1; labels: culture:danish_tnder:lace; wd:Q7862370,10
+V4,low,Zlatoust Engraving,named tradition with gathered objects and no leaf,families B; max institutions per key 3; labels: pattern:zlatoust_engraving,9
+V4,low,Ainu-e,named tradition with gathered objects and no leaf,"families A; max institutions per key 1; labels: Ainu textiles and carving (attush, ruunpe, ikupasuy)",9
+V4,low,Cantonese ivory carving,named tradition with gathered objects and no leaf,"families D; max institutions per key 1; labels: Chinese, Canton",9
+V4,low,Zenú pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Zenú (Sinú) (archaeological) (attributed),9
+V4,low,Clemson Island pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: possibly Clemson Island (archaeological culture) (attributed),9
+V4,low,Norwich shawls,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: British, Norwich",9
+V4,low,Caen lace,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: French, Caen",9
+V4,low,Lizhnyk,named tradition with gathered objects and no leaf,families ?; max institutions per key 2; labels: pattern:ukrainian_kilim_lizhnyk,9
+V4,low,Akamba woodcarving,named tradition with gathered objects and no leaf,families I; max institutions per key 2; labels: Kamba (Akamba) carving,9
+V4,low,Tuohityö (Finnish birch-bark work),named tradition with gathered objects and no leaf,families D; max institutions per key 2; labels: pattern:birch_bark_work_tuohityo,8
+V4,low,Tiv pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 3; labels: Tiv,8
+V4,low,Baekje pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 2; labels: Korea · Baekje,8
+V4,low,Alcora faience,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: pattern:alcora_faience,8
+V4,low,Tophane ware,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Tophane,8
+V4,low,Vadstena lace,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: Swedish, Vadstena",8
+V4,low,St. Gallen embroidery,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: Swiss, Sankt Gallen",8
+V4,low,Abruzzo bobbin lace,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: Italian, Abruzzi",8
+V4,low,Tula steelwork,named tradition with gathered objects and no leaf,families G; max institutions per key 1; labels: culture:russian_tula:metalwork,8
+V4,low,Dida raffia textiles,named tradition with gathered objects and no leaf,families ?; max institutions per key 3; labels: Dida raffia textiles,8
+V4,low,Vadstena Lace,named tradition with gathered objects and no leaf,families H; max institutions per key 1; labels: culture:swedish_vadstena:lace,8
+V4,low,Dayak Beadwork,named tradition with gathered objects and no leaf,families H; max institutions per key 4; labels: Dayak carving and beadwork,8
+V4,low,Batak Ritual Carving,named tradition with gathered objects and no leaf,families H; max institutions per key 1; labels: Batak carving and magic books (pustaha),8
+V4,low,Banjara Embroidery,named tradition with gathered objects and no leaf,families H; max institutions per key 2; labels: Banjara (Lambani) embroidery,8
+V4,low,Nievería pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Nieveria,7
+V4,low,Picunche pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Picunche (archaeological) (attributed),7
+V4,low,Lyon silk weaving,named tradition with gathered objects and no leaf,"families ?; max institutions per key 1; labels: French, Lyon",7
+V4,low,Binche Lace,named tradition with gathered objects and no leaf,families H; max institutions per key 1; labels: wd:Q4913954,7
+V4,low,Kontusz Sashes,named tradition with gathered objects and no leaf,families H; max institutions per key 1; labels: culture:polish_kobylka:costume,7
+V4,low,Zulu Basketry,named tradition with gathered objects and no leaf,families H; max institutions per key 2; labels: Zulu ceramics (ukhamba) and wire baskets (imbenge),7
+V4,low,Farrukhabad Painting,named tradition with gathered objects and no leaf,families A; max institutions per key 2; labels: Farrukhabad,6
+V4,low,Namban Painting,named tradition with gathered objects and no leaf,families A; max institutions per key 1; labels: Japan · 17～18世紀,6
+V4,low,Phad Painting,named tradition with gathered objects and no leaf,families A; max institutions per key 3; labels: Phad painting,6
+V4,low,Taos Society of Artists,named tradition with gathered objects and no leaf,families A; max institutions per key 1; labels: Taos Indians,6
+V4,low,Karajá ritxoko dolls,named tradition with gathered objects and no leaf,families D; max institutions per key 1; labels: Karaja dolls (ritxoko),6
+V4,low,Huon Gulf pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 2; labels: Huon Gulf,6
+V4,low,Sue ware,named tradition with gathered objects and no leaf,families E; max institutions per key 4; labels: Japan · Kofun,6
+V4,low,Gardner porcelain (Verbilki),named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: culture:russian_verbilki:ceramics,6
+V4,low,Salinar pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Salinar (archaeological culture) (attributed),6
+V4,low,Virú (Gallinazo) pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Viru-Gallinazo: Viru style (archaeological culture) (attributed),6
+V4,low,Paisley shawls,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: Scottish, Paisley",6
+V4,low,Akamba Woodcarving,named tradition with gathered objects and no leaf,families H; max institutions per key 1; labels: Kamba (Akamba) carving,6
+V4,low,Lyon Silks,named tradition with gathered objects and no leaf,"families H; max institutions per key 1; labels: French, Lyon",6
+V4,low,Miran Wall Paintings,named tradition with gathered objects and no leaf,"families A; max institutions per key 1; labels: Shanshan (Miran, Niya, Loulan)",5
+V4,low,Shunga sculpture,named tradition with gathered objects and no leaf,families D; max institutions per key 2; labels: Bharhut,5
+V4,low,Quimper faience,named tradition with gathered objects and no leaf,families E; max institutions per key 2; labels: pattern:quimper_faience,5
+V4,low,Rörstrand (Stockholm) faience,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: culture:swedish_stockholm:ceramics,5
+V4,low,Edgefield stoneware,named tradition with gathered objects and no leaf,families E; max institutions per key 2; labels: Edgefield stoneware and face jugs,5
+V4,low,Caliphal (Umayyad Spain) pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 3; labels: Umayyad (Spain),5
+V4,low,Fayyumi ware,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: Fayyum,5
+V4,low,Marajoara pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Marajoara/Marajó (archaeological culture) (attributed),5
+V4,low,Calima pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: possibly Calima (archaeological culture) (attributed),5
+V4,low,Condorhuasi pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Circumpuna Andes: Condorhuasi style (archaeological) (attributed),5
+V4,low,Lucayan (Palmetto ware) pottery,named tradition with gathered objects and no leaf,families E; max institutions per key 1; labels: probably Lucayan (archaeological) (attributed),5
+V4,low,Tønder lace,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: Danish, Tonderen",5
+V4,low,Nottingham machine lace,named tradition with gathered objects and no leaf,"families E; max institutions per key 1; labels: British, Nottingham",5
+V4,low,Tonkin export lacquer,named tradition with gathered objects and no leaf,families G; max institutions per key 1; labels: Tonkin export lacquer (17th-18th c.),5
+V4,low,Fulani Wedding Blankets,named tradition with gathered objects and no leaf,"families H; max institutions per key 2; labels: Fulani wedding blankets (khasa, arkilla)",5
+V4,low,Fez Embroidery,named tradition with gathered objects and no leaf,families H; max institutions per key 1; labels: Fez,5
+V5,low,japan × E,hole in the dated chain of this culture's leaves,0–1600: nothing between E1-18 Jōmon Pottery and E3-28 Kyō Ware,
+V6,medium,D5-52 Ndop,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,E1-15 Cham Pottery,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,E1-16 Kasongan Pottery,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,E1-59 Awajún Pottery,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,E1-78 Saint-Porchaire Ware,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,E1-91 Bubnivka Ceramics,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,E1-92 Oleshnia Pottery,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,E2-13 Qallaline Tiles,no attesting source,,
+V6,medium,E4-11 Kraak Ware,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H2-16 Raanu,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H3-17 Zhuang Brocade,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H3-19 Shuri Weaving,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H3-22 Hansan Mosi,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H3-26 Ivorian Loincloth Weaving,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H3-32 Täkänä,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H3-33 Northern Vidzeme Double-Weave Blankets,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H3-38 Obukhovychi Weaving,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H4-14 Chakan,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H4-19 Tekat,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H4-43 Opus Anglicanum,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H4-52 Bordados da Glória do Ribatejo,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H4-58 Quill Embroidery,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H4-76 Zmijanje Embroidery,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H4-77 Macedonian Embroidery,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H4-78 Kosovo-Style Embroidery,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H4-81 Armenian Needlelace,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H4-87 Lace-Making in Heinämaa,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H4-88 Knipelēšana,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H5-17 Telepuk,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H5-25 Geumbak,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H7-3 Possum-Skin Cloak,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H7-10 Macedonian Traditional Clothing,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H8-1 Dumbara Mats,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H8-3 Daluang,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H8-6 Chaesang,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H8-8 Ugandan Barkcloth,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H8-27 Lalava,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H8-30 Bastabinne,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H8-33 Pärekori,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H8-36 Straw Weaving in Belarus,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H8-38 Iza Vine Weaving,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H8-39 Shchitky Reed Weaving,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,H9-8 Wampum,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,medium,I1-5 Islamic Woodwork,no attesting source,,
+V6,medium,I2-3 Edirnekâri,no attesting source,,
+V6,medium,K1-19 Javanese Mosque Architecture,no attesting source,,
+V6,medium,K7-16 Sikh Architecture,leaf has no rows: the card shows only the definition and View-all links,n = 0,
+V6,low,A2-2 Northern Landscape Style,no way to see the works: neither holding institutions nor makers,"groups: {'Five Dynasties founders': 2, 'Northern Song masters': 4, 'Monumental landscapes': 2}",
+V6,low,A2-2 Northern Landscape Style,per-object works list left after the collections-first rule,group 'Monumental landscapes': 2 rows,
+V6,low,A2-4 Zhe School,no way to see the works: neither holding institutions nor makers,"groups: {'Hangzhou founders': 3, 'Jiangxia school': 2, 'Late Zhe painters': 1}",
+V6,low,A2-5 Wu School,no way to see the works: neither holding institutions nor makers,"groups: {'Four Masters of the Ming': 4, 'Wen family and Suzhou followers': 5}",
+V6,low,A2-6 Shanghai School,no way to see the works: neither holding institutions nor makers,"groups: {'Early Shanghai masters': 2, 'Four Rens': 3, 'Wu Changshuo circle': 3}",
+V6,low,A2-10 Rinpa School,no way to see the works: neither holding institutions nor makers,"groups: {'Kyoto founders': 2, 'Genroku Rinpa': 3, 'Edo Rinpa': 2, 'Modern Rinpa': 1}",
+V6,low,A2-12 Maruyama–Shijō School,no way to see the works: neither holding institutions nor makers,"groups: {'Maruyama school': 3, 'Shijō school': 7, 'Meiji–Taishō Kyoto heirs': 6}",
+V6,low,A3-2 Byzantine Icons,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 2}",
+V6,low,A3-3 Cretan School,no way to see the works: neither holding institutions nor makers,"groups: {'15th-century founders': 4, '16th-century masters': 3, '17th century and Ionian transition': 4, 'Cretan-trained painters abroad': 3}",
+V6,low,A3-5 Palaeologan Renaissance,no way to see the works: neither holding institutions nor makers,"groups: {'Thessaloniki and Macedonian workshops': 3, ""Painters in Rus'"": 1, 'Cyprus': 1, 'Crete': 1}",
+V6,low,A4-5 Mata ni Pachedi,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,A4-16 Wayang Beber,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 1},
+V6,low,A5-4 Fayum Mummy Portraits,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 2, 'Collectors': 1}",
+V6,low,A5-7 Enconchado,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,A5-8 Biombo,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 3},
+V6,low,A5-14 Hermannsburg School,no way to see the works: neither holding institutions nor makers,"groups: {'Teacher': 1, 'Namatjira and his family': 1, 'Pareroultja brothers and other Arrernte painters': 1, 'Centres & workshops': 1}",
+V6,low,A5-15 Romanesque Painting,no way to see the works: neither holding institutions nor makers,"groups: {'Wall and panel painters': 6, 'Illuminators and scribes': 10, 'Byzantine and Georgian painters': 4, 'Metalworkers and goldsmiths': 4, 'Runemasters': 3}",
+V6,low,A5-16 Gothic Painting,no way to see the works: neither holding institutions nor makers,"groups: {'Italo-Byzantine (maniera greca) and Dugento': 22, 'Rome and Assisi (Cavallini, Isaac Master)': 4, 'Florence: Cimabue, Giotto and the Giotteschi': 22, ""Siena (Duccio's followers)"": 4, 'Pisa, Lucca and Liguria': 3, 'Rimini school': 7, 'Bologna and Emilia': 11, 'Umbria and the Marche': 6, 'Lombardy and the Veneto (Venetian Trecento, Padua, Verona)': 11, 'Naples and the Angevin South': 2, 'Avignon papal court': 1, 'Crown of Aragon: Catalan Gothic': 8, 'Castile': 1, 'France and the Burgundian Netherlands': 5, 'Central Europe and the Holy Roman Empire': 4, 'Scandinavia': 1, 'Byzantine, Georgian and Russian painters': 3, 'Outliers': 1}",
+V6,low,A5-17 Sienese School,no way to see the works: neither holding institutions nor makers,"groups: {'13th-century founders': 6, 'Trecento': 9, 'Late Trecento': 10, 'Quattrocento': 10, 'Sienese Mannerism': 5}",
+V6,low,A5-21 Venetian School,no way to see the works: neither holding institutions nor makers,"groups: {'Early Renaissance': 14, 'High Renaissance': 12, 'Late Renaissance': 16, '17th-century followers': 3, 'Printmakers': 4}",
+V6,low,A5-23 Mannerism,no way to see the works: neither holding institutions nor makers,"groups: {'Florentine Mannerism: first generation (Pontormo, Rosso)': 5, ""Roman Mannerism: Raphael's heirs"": 15, 'Florentine court Mannerism (Bronzino, Vasari, Studiolo painters)': 19, 'Florentine Counter-Maniera and reform (late 16th c.)': 8, ""Late Roman Mannerism (Zuccari brothers, Cavalier d'Arpino)"": 16, 'Parma and Emilia (Parmigianino and followers)': 7, 'Bologna (Fontana, Passarotti, Carracci beginnings)': 9, 'Venice and the Veneto': 7, 'Lombardy, Cremona and Piedmont': 19, 'Genoa': 5, 'Urbino, Marche and the South': 5, 'Northern Mannerism (Haarlem, Utrecht, Prague)': 15, 'School of Fontainebleau': 1, 'Iberia: Italianate generation and Escorial painters': 14, 'Sculptors and others': 2}",
+V6,low,A5-24 School of Fontainebleau,no way to see the works: neither holding institutions nor makers,"groups: {'First School of Fontainebleau': 5, 'Second School of Fontainebleau': 3, 'France': 1}",
+V6,low,A5-26 Caravaggisti,no way to see the works: neither holding institutions nor makers,"groups: {'Roman and Italian Caravaggisti': 5, 'French Caravaggisti': 3, 'Utrecht Caravaggism': 5, 'Haarlem followers': 1}",
+V6,low,A5-27 Flemish Baroque Painting,no way to see the works: neither holding institutions nor makers,"groups: {'Late Mannerist and pre-Rubens generation (Antwerp, c. 1570–1610)': 20, 'The Brueghel dynasty and cabinet painting': 14, 'Rubens, his studio and engravers': 24, 'Flemish Caravaggisti': 4, 'Antwerp still life, flower and animal painting': 24, 'Landscape, marine and battle painting': 21, 'Genre and peasant painting (after Brouwer)': 7, 'Brussels and Bruges': 10, 'Flemish painters in England and France': 6, 'Dutch-born painters in Flanders': 1}",
+V6,low,A5-40 Realism,no way to see the works: neither holding institutions nor makers,"groups: {'Volcano School': 6, 'Molse School': 3, 'Verismo (painting)': 3, 'France': 21, 'Italy': 3, 'Belgium': 9, 'Spain': 5, 'Denmark': 5, 'Russia': 5, 'Baltic provinces': 3, 'Poland': 17, 'South Slavic lands': 5, 'Romania': 3, 'United States': 10, 'Latin America': 4, 'Other regions': 17}",
+V6,low,A5-50 Pont-Aven School,no way to see the works: neither holding institutions nor makers,"groups: {""Gauguin's Synthetist circle"": 18, 'Nabis at Pont-Aven': 4, 'Later followers': 5, 'International colonists (1860s–80s)': 13}",
+V6,low,A5-60 Orphism,no way to see the works: neither holding institutions nor makers,"groups: {'Orphism': 3, 'Synchromism': 2, 'Musicalism': 1, 'Portuguese followers': 2, 'Ireland': 1}",
+V6,low,A5-67 Metaphysical Painting,no way to see the works: neither holding institutions nor makers,"groups: {'Ferrara founders': 3, 'Later adherents': 3}",
+V6,low,A5-90 Neo-Dada,no way to see the works: neither holding institutions nor makers,"groups: {'American Neo-Dada': 5, 'Fluxus-linked': 1, 'Neo-Dadaism Organizers (Tokyo)': 2}",
+V6,low,A5-92 Funk Art,no way to see the works: neither holding institutions nor makers,groups: {'United States': 8},
+V6,low,A5-94 Northwest School,no way to see the works: neither holding institutions nor makers,"groups: {'The Big Four': 4, 'Associated artists': 2}",
+V6,low,A5-97 Neo-figurative,no way to see the works: neither holding institutions nor makers,"groups: {'Otra Figuración (Argentina)': 5, 'Nouvelle Figuration (France)': 3, 'Spain': 1, 'Italy': 1, 'Colombia': 1}",
+V6,low,A5-103 Mission School,no way to see the works: neither holding institutions nor makers,groups: {'Core members': 7},
+V6,low,A5-105 Superflat,no way to see the works: neither holding institutions nor makers,"groups: {'Centres & workshops': 1, 'Kaikai Kiki circle': 4, 'Associated painters': 1}",
+V6,low,A5-113 Dansaekhwa,no way to see the works: neither holding institutions nor makers,"groups: {'Precursors': 1, 'First generation': 8}",
+V6,low,A5-115 Peredvizhniki,no way to see the works: neither holding institutions nor makers,"groups: {'Founding generation (born before 1840)': 13, 'Second generation (born 1840–1854)': 20, 'Younger members (born 1855 and later)': 13}",
+V6,low,A5-116 Skagen Painters,no way to see the works: neither holding institutions nor makers,"groups: {'Danish Skagen Painters': 9, 'Norwegian and Swedish members': 3}",
+V6,low,A5-117 Newlyn School,no way to see the works: neither holding institutions nor makers,groups: {'Newlyn colony painters': 12},
+V6,low,A5-118 Lyon School,no way to see the works: neither holding institutions nor makers,"groups: {'Troubadour founders': 4, 'Religious and idealist painters': 7, 'Landscape and genre': 3}",
+V6,low,A5-119 Golden Age of Finnish Art,no way to see the works: neither holding institutions nor makers,"groups: {'Paris-trained naturalists': 7, 'National romanticism': 4}",
+V6,low,A5-120 Young British Artists,no way to see the works: neither holding institutions nor makers,"groups: {'Goldsmiths circle and Freeze (1988)': 9, 'Saatchi and Sensation (1997) generation': 18, 'Turner Prize and film/video wing': 6}",
+V6,low,A5-121 Pictures Generation,no way to see the works: neither holding institutions nor makers,"groups: {'Artists Space Pictures show and CalArts circle': 6, 'New York appropriation circle': 4}",
+V6,low,A5-122 Mir iskusstva,no way to see the works: neither holding institutions nor makers,"groups: {'Founders and first generation': 9, 'Second generation (from 1910)': 13}",
+V6,low,A5-123 St Ives School,no way to see the works: neither holding institutions nor makers,"groups: {'Early St Ives art colony': 2, 'St Ives modernists (1939 onward)': 15}",
+V6,low,A5-124 Camden Town Group,no way to see the works: neither holding institutions nor makers,"groups: {'Camden Town Group members': 7, 'Fitzroy Street Group and associates': 3}",
+V6,low,A5-125 ZERO,no way to see the works: neither holding institutions nor makers,"groups: {'ZERO group, Düsseldorf': 3, 'Nul group, Netherlands': 5, 'Azimut/h and the Italian ZERO circle': 5, 'Belgian ZERO circle': 2, 'International ZERO associates': 1}",
+V6,low,A5-126 Leipzig School,no way to see the works: neither holding institutions nor makers,"groups: {""Founders: the 'big four' generation"": 3, 'Second generation': 4}",
+V6,low,A5-127 Nazi art,no way to see the works: neither holding institutions nor makers,"groups: {'Painters of the Great German Art Exhibitions': 12, 'Designers and functionaries': 3}",
+V6,low,A5-128 Vienna Secession,no way to see the works: neither holding institutions nor makers,"groups: {'Founding members (1897)': 14, 'Later members': 6, 'Members from outside Vienna': 2, 'Wiener Werkstätte and the Kunstschau': 10}",
+V6,low,A5-129 Novecento Italiano,no way to see the works: neither holding institutions nor makers,"groups: {""The 'Seven painters of the Novecento' (1922)"": 6, 'Exhibitors of the Novecento Italiano (1926–1929)': 5, 'Italiens de Paris': 2}",
+V6,low,A5-130 Modernisme,no way to see the works: neither holding institutions nor makers,"groups: {'Founders: the Sitges festes modernistes': 3, 'Colla del Safrà and Els Quatre Gats circle': 7, 'Later Modernista painters': 5}",
+V6,low,A5-131 Noucentisme,no way to see the works: neither holding institutions nor makers,"groups: {'Noucentista painters': 7, 'Noucentista sculptors and designers': 2}",
+V6,low,A5-132 Soviet nonconformist art,no way to see the works: neither holding institutions nor makers,"groups: {'Lianozovo group': 2, 'Moscow Conceptualism': 7, 'Sots Art': 1, 'Dvizhenie group': 1, 'Moscow and Leningrad unofficial artists': 15}",
+V6,low,A5-134 Young Poland,no way to see the works: neither holding institutions nor makers,"groups: {""Society of Polish Artists 'Sztuka'"": 10, 'Sculptors and designers': 2}",
+V6,low,A5-135 Kraków Group,no way to see the works: neither holding institutions nor makers,groups: {'Kraków Group': 10},
+V6,low,A5-136 Gutai group,no way to see the works: neither holding institutions nor makers,"groups: {'Founding members (1954)': 2, 'Zero Society members (joined 1955)': 4, 'Members from 1955': 2, 'Second generation (1960s)': 2}",
+V6,low,A5-137 Group of Seven (artists),no way to see the works: neither holding institutions nor makers,"groups: {'Original members (1920)': 5, 'Later members': 3}",
+V6,low,A5-138 Brazilian modernism,no way to see the works: neither holding institutions nor makers,"groups: {'Semana de Arte Moderna and Grupo dos Cinco': 4, 'Second generation (1925–1945)': 8, 'Grupo Santa Helena': 3, 'Núcleo Bernardelli': 2}",
+V6,low,A5-139 Progressive Artists' Group,no way to see the works: neither holding institutions nor makers,"groups: {'Founding members (1947)': 6, 'Later members and associates': 3}",
+V6,low,A5-140 Generación de la Ruptura,no way to see the works: neither holding institutions nor makers,"groups: {'Precursors': 2, 'Ruptura painters': 12}",
+V6,low,A5-141 Indigenismo,no way to see the works: neither holding institutions nor makers,"groups: {'Peru': 4, 'Ecuador': 3, 'Bolivia': 2}",
+V6,low,A5-142 Chicago Imagists,no way to see the works: neither holding institutions nor makers,"groups: {'Monster Roster (precursors, 1950s)': 6, 'Hairy Who (1966–1969)': 3, 'False Image and Nonplussed Some': 3, 'Teachers and associates': 3}",
+V6,low,A5-143 Feminist art movement,no way to see the works: neither holding institutions nor makers,"groups: {'A.I.R. Gallery founders (1972)': 6, 'Heresies Collective': 4, 'Feminist Art Program and West Coast': 3, 'Other United States artists': 8, 'Outside the United States': 2}",
+V6,low,A5-144 American Abstract Artists,no way to see the works: neither holding institutions nor makers,"groups: {'Founding members (1936–37)': 10, 'Park Avenue Cubists and later members': 6}",
+V6,low,A6-11 Minhwa,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,A6-19 Theorem Painting,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,A6-22 Tauric Painting,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,B1-4 Old Master Drawing,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 4, 'Italian draughtsmen': 3, 'Northern draughtsmen': 3, 'French draughtsmen': 1, 'Amateur and court draughtsmen': 7, 'Travel and topographical draughtsmen': 5, 'Engravers and writing masters': 4, 'Cartographers, chroniclers and scholars': 6}",
+V6,low,B1-10 Franco-Belgian comics,no way to see the works: neither holding institutions nor makers,"groups: {'Belgian publishers and the Brussels-Marcinelle tradition': 6, 'Humour series and gag strips': 4, 'Adult and auteur bande dessinée': 10, ""L'Association and the graphic memoir"": 2, 'Journal de Tintin and Spirou generation (1946–1970s)': 10, 'Pilote generation (1959–1970s)': 6, 'Adult bande dessinée of the 1970s–80s (Métal hurlant, Fluide glacial, À suivre)': 10, 'Realist album series (1980s–2000s)': 18, ""Nouvelle bande dessinée (L'Association and after)"": 14}",
+V6,low,B2-3 Kim Hoàng Painting,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
+V6,low,B2-20 Taller de Gráfica Popular,no way to see the works: neither holding institutions nor makers,"groups: {'Founders (1937)': 2, 'Members': 10}",
+V6,low,C1-6 Sini,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 4},
+V6,low,C1-11 Western Calligraphy,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Burgundian and Italian scribes and illuminators': 5, 'Renaissance writing masters': 3, 'Engrossers and penmen': 6, 'United States': 1}",
+V6,low,C2-3 Timbuktu Manuscripts,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
+V6,low,C2-15 Book of the Dead,per-object works list left after the collections-first rule,group 'New Kingdom funerary papyri': 2 rows,
+V6,low,C2-19 Merovingian Illumination,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
+V6,low,C3-2 Treasure Binding,no way to see the works: neither holding institutions nor makers,groups: {'Treasure bindings': 4},
+V6,low,C3-4 East Asian Bookbinding,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 5},
+V6,low,C4-1 Ebru,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 4},
+V6,low,C4-2 Sanjhi,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,C4-4 Papel Picado,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
+V6,low,C4-5 Vytsinanka,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,C4-6 Slovenian Paper Flower Making,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,C4-7 Oil-Paper Umbrella,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 2}",
+V6,low,C4-8 Fan Making,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 7, 'Centres & workshops': 1}",
+V6,low,C4-9 Chōchin,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 4},
+V6,low,C4-10 Scherenschnitte,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,C4-11 Kirie,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 3},
+V6,low,C4-13 Hanji,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,D1-1 Samarra Stucco,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 3}",
+V6,low,D1-3 Assyrian Palace Reliefs,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 4}",
+V6,low,D2-2 Siculo-Arabic Ivories,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 2}",
+V6,low,D2-3 Begram Ivories,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
+V6,low,D2-7 Nimrud Ivories,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 2}",
+V6,low,D2-8 Byzantine Ivories,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 4, 'Schools & phases': 2}",
+V6,low,D2-10 Mississippian Shell Gorgets,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 4, 'Centres & workshops': 3}",
+V6,low,D2-11 Gothic Ivories,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 4, 'Centres & workshops': 2}",
+V6,low,D2-17 Torre del Greco Shell and Coral Carving,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 4, 'Centres & workshops': 2}",
+V6,low,D2-18 Romanesque Ivories,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
+V6,low,D3-1 Fatimid Rock Crystal,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,D3-11 Inkstone Carving,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 6},
+V6,low,D3-12 Idar-Oberstein Agate Cutting,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 2}",
+V6,low,D4-6 Nang Yai,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,D4-7 Sbek Thom,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,D4-11 Korean Masks,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 13},
+V6,low,D4-12 Dogon Masks,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 4, 'Centres & workshops': 2}",
+V6,low,D4-13 Chiwara,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 4},
+V6,low,D4-15 Chokwe Masks,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
+V6,low,D4-16 Gelede,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,D4-20 Kuba Masks,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
+V6,low,D4-21 Kifwebe,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
+V6,low,D4-23 Punu Masks,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,D4-27 Processional Giants,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Named giants': 4}",
+V6,low,D5-3 Amaravati Art,no way to see the works: neither holding institutions nor makers,"groups: {'Schools & phases': 1, 'Centres & workshops': 3}",
+V6,low,D5-6 Dhokra,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 3}",
+V6,low,D5-7 Bankura Horse,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
+V6,low,D5-16 Cham Sculpture,no way to see the works: neither holding institutions nor makers,"groups: {'Schools & phases': 4, 'Centres & workshops': 1}",
+V6,low,D5-19 Philippine Santos,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,D5-27 Huishan Clay Figurines,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
+V6,low,D5-29 Tu'er Ye,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
+V6,low,D5-31 Ife Art,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
+V6,low,D5-34 Esie Soapstone Figures,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
+V6,low,D5-38 Sao Terracottas,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,D5-39 Lydenburg Heads,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
+V6,low,D5-41 Zimbabwe Birds,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,D5-60 Roman Portraiture,no way to see the works: neither holding institutions nor makers,groups: {'Schools & phases': 3},
+V6,low,D5-67 Chavín Sculpture,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 3},
+V6,low,D5-83 Uli,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,D5-90 Aurukun Sculpture,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,D5-94 Estremoz Clay Figures,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,D5-102 Yavoriv Toy,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,D5-103 Valky Whistle Toy,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,D5-104 Wooden Toys of Hrvatsko Zagorje,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
+V6,low,D5-105 Pauper Statues,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,D5-106 Moai,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
+V6,low,D5-110 Romanesque Sculpture,no way to see the works: neither holding institutions nor makers,"groups: {'France': 3, 'Italy': 7, 'Spain and Catalonia': 2, 'Mosan metalwork': 2, 'England': 1, 'Gotland and Scandinavian font masters': 5}",
+V6,low,D5-111 Gothic Sculpture,no way to see the works: neither holding institutions nor makers,"groups: {'Pisano dynasty and Tuscan Gothic': 29, 'Florentine International Gothic to early Renaissance': 7, 'Campionese masters and Lombard Gothic': 10, 'Venice and Dalmatia': 9, 'Southern Italy': 3, 'France: cathedral workshops and the Valois courts': 6, 'Burgundian sculpture (Sluter and Champmol)': 4, 'German lands: Naumburg Master and the Parler family': 14, 'Crown of Aragon': 6}",
+V6,low,D5-114 Neoclassical Sculpture,no way to see the works: neither holding institutions nor makers,"groups: {'Canova and his school': 5, 'Thorvaldsen and his workshop': 6, 'Berlin school of sculpture': 11, 'Rock-cut monuments': 1, 'France': 64, 'United Kingdom': 22, 'Germany': 9, 'Italy': 12, 'Belgium': 4, 'Netherlands': 3, 'Spain': 4, 'Switzerland': 3, 'Sweden': 3, 'Russia': 9, 'United States': 8, 'Other regions': 8}",
+V6,low,D5-119 Contemporary Sculpture,no way to see the works: neither holding institutions nor makers,"groups: {'Contemporary Māori art': 3, 'Native American artists (United States)': 3, 'Feminist art movement': 2, 'United States': 93, 'United Kingdom': 54, 'Germany': 42, 'Netherlands': 34, 'France': 28, 'Spain': 15, 'Finland': 13, 'Italy': 13, 'Brazil': 12, 'Belgium': 12, 'Israel': 10, 'Japan': 10, 'Austria': 9, 'Poland': 8, 'Mexico': 7, 'South Africa': 6, 'Switzerland': 6, 'India': 6, 'China': 5, 'Argentina': 5, 'Portugal': 4, 'Greece': 4, 'New Zealand': 4, 'Norway': 4, 'Sweden': 4, 'Turkey': 4, 'Colombia': 4, 'South Korea': 3, 'Luxembourg': 3, 'Mozambique': 3, 'Russia': 3, 'Ukraine': 3, 'Canada': 3, 'Nigeria': 3, 'Other countries: Europe': 16, 'Other countries: Americas and Caribbean': 4, 'Other countries: Asia': 5, 'Other countries: Middle East and Central Asia': 5, 'Other countries: Africa': 8, 'Other countries: Oceania': 2, 'Country not recorded': 2, 'Other biennial and prize lists, country not recorded': 2}",
+V6,low,D5-125 Volterra Alabaster Carving,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 2}",
+V6,low,D5-127 Meerschaum Carving,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
+V6,low,D5-128 Thanjavur Dolls,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
+V6,low,D5-129 Erzgebirge Folk Art,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 5, 'Centres & workshops': 2}",
+V6,low,D5-130 Dala Horse,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 4}",
+V6,low,D5-132 Val Gardena Woodcarving,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 2}",
+V6,low,D5-133 New British Sculpture,no way to see the works: neither holding institutions nor makers,groups: {'Lisson Gallery generation (1980s)': 12},
+V6,low,D6-1 Kaavad,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
+V6,low,D6-9 Toas,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
+V6,low,D6-11 Lithuanian Cross Crafting,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
+V6,low,D6-12 Butsudan,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 5},
+V6,low,E1-5 Splashware,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,E1-9 Çanakkale Pottery,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,E1-10 Fez Pottery,per-object works list left after the collections-first rule,group 'Tiles and architectural ceramics': 2 rows,
+V6,low,E1-12 Sejnane Pottery,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,E1-13 Rishton Ceramics,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
+V6,low,E1-19 Yayoi Pottery,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,E1-20 Tang Sancai,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 4, 'Centres & workshops': 1}",
+V6,low,E1-23 Onggi,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 1},
+V6,low,E1-24 Kgatleng Pottery,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
+V6,low,E1-33 Centuripe Ware,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,E1-35 Bucchero,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 4}",
+V6,low,E1-42 Nabataean Pottery,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,E1-55 Tree of Life,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
+V6,low,E1-57 Chulucanas Pottery,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,E1-60 Goiabeiras Clay Pots,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,E1-74 Hermannsburg Potters,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,E1-76 Faience,per-object works list left after the collections-first rule,group 'Tiles and architectural ceramics': 2 rows,
+V6,low,E1-82 Bisalhães Black Pottery,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,E1-83 Gmundner Keramik,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,E1-84 Émaux de Longwy,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,E1-90 Sokal Ceramics,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,E1-93 Horezu Ceramics,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,E1-94 Zlakusa Pottery,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,E1-95 Impruneta Terracotta,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,E1-96 Thrapsano Pottery,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,E1-98 Kachelofen,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,E2-2 Kashan Lustreware,per-object works list left after the collections-first rule,group 'Tiles and architectural ceramics': 2 rows,
+V6,low,E2-3 Mina'i Ware,per-object works list left after the collections-first rule,group 'Tiles and architectural ceramics': 6 rows,
+V6,low,E2-4 Lajvardina,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
+V6,low,E2-7 Iznik Pottery,per-object works list left after the collections-first rule,group 'Tiles and architectural ceramics': 8 rows,
+V6,low,E2-8 Damascus Tiles,per-object works list left after the collections-first rule,group 'Tiles and architectural ceramics': 2 rows,
+V6,low,E2-9 Kubachi Ware,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
+V6,low,E2-10 Safavid Pottery,per-object works list left after the collections-first rule,group 'Tiles and architectural ceramics': 2 rows,
+V6,low,E2-12 Qajar Ceramics,per-object works list left after the collections-first rule,group 'Tiles and architectural ceramics': 4 rows,
+V6,low,E2-13 Qallaline Tiles,per-object works list left after the collections-first rule,group 'Tiles and architectural ceramics': 2 rows,
+V6,low,E3-1 Khmer Ceramics,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
+V6,low,E3-4 Yue Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,E3-5 Yaozhou Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,E3-6 Longquan Celadon,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,E3-7 Ru Ware,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
+V6,low,E3-8 Guan Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
+V6,low,E3-9 Jun Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,E3-10 Jian Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,E3-11 Cizhou Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
+V6,low,E3-14 Buncheong,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 4},
+V6,low,E3-20 Iga Ware,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,E3-21 Tamba Ware,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,E3-22 Tokoname Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,E3-23 Echizen Ware,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,E3-29 Onta Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,E3-30 Koishiwara Ware,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,E4-2 Ding Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,E4-3 Xing Ware,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,E4-4 Qingbai Ware,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,E4-5 Chinese Blue-and-White Porcelain,no way to see the works: neither holding institutions nor makers,groups: {'Schools & phases': 4},
+V6,low,E4-6 Doucai,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Schools & phases': 1}",
+V6,low,E4-7 Wucai,no way to see the works: neither holding institutions nor makers,groups: {'Schools & phases': 2},
+V6,low,E4-8 Famille Verte,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,E4-15 Joseon White Porcelain,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
+V6,low,E4-21 Limoges Porcelain,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 3},
+V6,low,E4-25 Soft-Paste Porcelain,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 10},
+V6,low,E4-27 Hasami Ware,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,F1-1 Beykoz Glass,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 2}",
+V6,low,F1-6 Art of Glass Beads,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 4, 'Centres & workshops': 1}",
+V6,low,F1-7 Czech Blown Glass Bead Christmas Decorations,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
+V6,low,F1-8 Līvāni Glassblowing,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
+V6,low,F1-9 Art Nouveau Glass,no way to see the works: neither holding institutions nor makers,"groups: {'École de Nancy': 8, 'Bohemian and Austrian Art Nouveau glass': 2, 'Paris': 2, 'makers': 1}",
+V6,low,F1-11 Turkish Mosaic Lamp,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 2}",
+V6,low,F1-13 Lauscha Glass,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 2}",
+V6,low,F1-14 Edo Glass,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 3},
+V6,low,F1-16 Egyptian Hand-Blown Glass,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,F4-1 Islamic Lustre-Painted Glass,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,G1-5 Ottoman Tombak,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,G1-9 Firoozeh Koobi,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
+V6,low,G1-12 Animal Style,no way to see the works: neither holding institutions nor makers,"groups: {'Schools & phases': 6, 'Named treasures': 2}",
+V6,low,G1-12 Animal Style,per-object works list left after the collections-first rule,group 'Named treasures': 2 rows,
+V6,low,G1-13 Dong Son Drums,per-object works list left after the collections-first rule,group 'Named drums': 3 rows,
+V6,low,G1-15 Chinese Ritual Bronzes,per-object works list left after the collections-first rule,group 'Named bronzes': 3 rows,
+V6,low,G1-17 Yugi,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 2}",
+V6,low,G1-18 Ipsa,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,G1-21 Igbo-Ukwu Bronzes,no way to see the works: neither holding institutions nor makers,"groups: {'Centres & workshops': 3, 'Named bronzes': 1}",
+V6,low,G1-22 Luristan Bronzes,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
+V6,low,G1-23 Achaemenid Metalwork,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Named treasures': 2}",
+V6,low,G1-23 Achaemenid Metalwork,per-object works list left after the collections-first rule,group 'Named treasures': 2 rows,
+V6,low,G1-24 Sasanian Silver,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,G1-32 La Tène Art,no way to see the works: neither holding institutions nor makers,groups: {'Schools & phases': 4},
+V6,low,G1-33 Migration Period Art,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Schools & phases': 5, 'Named treasures': 4}",
+V6,low,G1-33 Migration Period Art,per-object works list left after the collections-first rule,group 'Named treasures': 4 rows,
+V6,low,G1-34 Anglo-Saxon Metalwork,no way to see the works: neither holding institutions nor makers,"groups: {'Schools & phases': 1, 'Named treasures': 5}",
+V6,low,G1-34 Anglo-Saxon Metalwork,per-object works list left after the collections-first rule,group 'Named treasures': 5 rows,
+V6,low,G1-35 Viking Art,no way to see the works: neither holding institutions nor makers,"groups: {'Schools & phases': 6, 'Named finds': 5}",
+V6,low,G1-35 Viking Art,per-object works list left after the collections-first rule,group 'Named finds': 5 rows,
+V6,low,G1-42 Drotárstvo,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,G1-46 Byzantine Enamel,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,G1-47 Chinese Cloisonné,no way to see the works: neither holding institutions nor makers,"groups: {'Schools & phases': 3, 'Centres & workshops': 2}",
+V6,low,G1-51 Black Forest Clockmaking,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 3}",
+V6,low,G1-54 Comtoise Clockmaking,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 2}",
+V6,low,G1-55 Mora Clockmaking,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
+V6,low,G1-57 Vienna Regulator Clockmaking,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 2}",
+V6,low,G1-59 Moroccan Metalwork,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 3}",
+V6,low,G1-60 Nanbu Tekki,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 2}",
+V6,low,G1-61 Solingen Cutlery,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 3}",
+V6,low,G1-62 Thiers Cutlery,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 3}",
+V6,low,G1-63 Uchihamono,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 4, 'Centres & workshops': 6}",
+V6,low,G1-66 Nachiarkoil Lamps,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
+V6,low,G2-2 Kris,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 9, 'Centres & workshops': 3}",
+V6,low,G2-6 Puukko,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 3}",
+V6,low,G2-8 Khukuri,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 2}",
+V6,low,G2-10 Gakgung,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,G2-12 Japanese Armour,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 5, 'Schools & phases': 2}",
+V6,low,G3-1 Fatimid Jewellery,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,G3-7 Jangdo,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,G3-17 Heishe,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,G3-20 Fabergé,per-object works list left after the collections-first rule,group 'Imperial Easter eggs': 6 rows,
+V6,low,G3-21 Hairwork,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,G3-22 Temple Jewellery,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
+V6,low,G3-24 Tarakasi,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,G3-27 Kanzashi,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 4},
+V6,low,H1-3 Mamluk Carpet,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,H1-6 Baluch Rug,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 2}",
+V6,low,H1-10 Freest Fisherman's Carpets,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H1-12 Chinese Carpet,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 5, 'Centres & workshops': 2}",
+V6,low,H1-13 Tibetan Rug,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 5, 'Centres & workshops': 3}",
+V6,low,H2-2 Soumak,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
+V6,low,H2-3 Al Sadu,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,H2-15 Ceinture Fléchée,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H2-17 Chiprovtsi Kilim,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H2-18 Pirot Kilim,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H2-19 Sjenica-Pešter Kilim,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H2-20 Stapar Rugs,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H2-21 Kotsy,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,H2-22 Reshetylivka Carpets,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H3-5 Termeh,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
+V6,low,H3-10 Paithani,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
+V6,low,H3-14 Inabel,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
+V6,low,H3-16 Kesi,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 1},
+V6,low,H3-18 Li Textiles,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,H3-21 Echigo-jōfu and Ojiya-chijimi,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H3-34 Sigulda Belts,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H3-35 Bezdan Damask,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H3-36 Serpanok Weaving,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H3-37 Hlyniany Textile,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H3-41 Chanderi,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H3-42 Maheshwari,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
+V6,low,H3-43 Mangalagiri,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H3-44 Tangaliya,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H3-45 Kasavu,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 2}",
+V6,low,H3-46 Kota Doria,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H3-47 Nishijin-ori,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
+V6,low,H3-48 Acheik,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H3-49 Shemma,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 4},
+V6,low,H3-51 Tartan,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 4, 'Centres & workshops': 2}",
+V6,low,H3-52 Tweed,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
+V6,low,H3-53 Faso Dan Fani,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H3-54 Welsh Tapestry,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 3}",
+V6,low,H3-55 Trade Blankets,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 2}",
+V6,low,H3-56 Peshtemal,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H3-57 Irish Linen,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 3}",
+V6,low,H3-58 Basque Linen,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H4-4 Pateh,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H4-5 Rasht Embroidery,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H4-8 Balochi Needlework,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H4-12 Sujani,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
+V6,low,H4-13 Ralli Quilt,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,H4-15 Khamak,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H4-16 Turkmen Needlework,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 1},
+V6,low,H4-21 Xiang Embroidery,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H4-22 Shu Embroidery,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H4-23 Cantonese Embroidery,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 2}",
+V6,low,H4-25 Korean Embroidery,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
+V6,low,H4-36 Ñandutí,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H4-37 Divina Pastora Irish Lace,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H4-41 Star Quilts,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,H4-50 Mountmellick Embroidery,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H4-51 Arraiolos Rug,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H4-61 Maltese Lace,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H4-62 Headford Lace,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H4-65 Irish Crochet Lace,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
+V6,low,H4-74 Muhu Embroidery,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H4-79 Altiță,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 1},
+V6,low,H4-86 Rauma Lace,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H4-89 Idrija Lace,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H4-90 Lacemaking in Croatia,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 4},
+V6,low,H4-94 Aran Knitting,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 2}",
+V6,low,H4-95 Gansey Knitting,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H4-96 Fair Isle Knitting,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 2}",
+V6,low,H4-97 Lopapeysa,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,H4-99 Cowichan Knitting,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H4-100 Sukajan,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H4-101 Nyonya Kebaya,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 1},
+V6,low,H4-102 Majboud Embroidery,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H4-104 Crewelwork,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,H4-105 Stumpwork,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,H4-106 Berlin Wool Work,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 1},
+V6,low,H5-5 Ajrakh,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
+V6,low,H5-7 Leheriya,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H5-14 Tais,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,H5-22 Shibori,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,H5-24 Bai Tie-Dye,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
+V6,low,H5-33 Staphorster Stipwerk,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H5-35 Kelaghayi,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 2},
+V6,low,H5-38 Shweshwe,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H5-39 Indian Ikat,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 3}",
+V6,low,H5-40 Rajasthani Block Printing,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 3}",
+V6,low,H7-1 Palestinian Costume,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 2}",
+V6,low,H7-7 Tracht,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 3}",
+V6,low,H7-13 Basotho Blanket,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,H7-15 Neapolitan Tailoring,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 3}",
+V6,low,H7-16 Qipao,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H7-17 Moroccan Caftan,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,H7-18 Tlemcen Wedding Costume,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 1},
+V6,low,H7-19 Highland Dress,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 4},
+V6,low,H7-20 Pollera,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,H7-23 Haute Couture & Fashion Design,no way to see the works: neither holding institutions nor makers,"groups: {'France': 29, 'Italy': 27, 'United Kingdom': 25, 'United States': 26, 'Japan': 7, 'Other countries': 60}",
+V6,low,H8-4 Kumihimo,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,H8-5 Maedeup,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 1},
+V6,low,H8-7 Wanchojang,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H8-29 Panier de Mayun,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H8-34 Clubrush Work of Kruunupyy,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H8-35 Himmeli,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 1},
+V6,low,H8-37 Turiisk Straw Plaiting,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,H8-41 Kiondo,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 1},
+V6,low,H8-42 Skep,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 1},
+V6,low,H8-43 Nantucket Lightship Baskets,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,H9-4 Mexican Featherwork,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 1},
+V6,low,H9-10 Kahu Huruhuru,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,H10-1 Jutti,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 2}",
+V6,low,H10-3 Moroccan Leatherwork,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,I1-2 Khatam,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
+V6,low,I1-4 Palestinian Olive-Wood Carving,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,I1-6 ʿAjami,per-object works list left after the collections-first rule,group 'Named rooms': 2 rows,
+V6,low,I1-7 Kondapalli Toys,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,I1-8 Nirmal Toys,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
+V6,low,I1-9 Malay Woodcarving,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
+V6,low,I1-10 Yosegi-zaiku,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,I1-16 Tramp Art,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,I1-20 Chernihiv Wood Carving,no way to see the works: neither holding institutions nor makers,groups: {'Centres & workshops': 1},
+V6,low,I1-21 Konjic Woodcarving,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 2}",
+V6,low,I1-22 Kuksa,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,I1-24 Essaouira Thuya Marquetry,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,I1-25 Kashmir Walnut Wood Carving,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
+V6,low,I1-26 Jepara Wood Carving,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,I1-27 Magewappa,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
+V6,low,I1-28 Tendō Shōgi Koma,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 1}",
+V6,low,I1-29 Vardo,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 5, 'Centres & workshops': 1}",
+V6,low,I2-2 Kashmiri Papier-Mâché,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,I2-4 Channapatna Toys,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,I2-5 Etikoppaka Toys,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Centres & workshops': 1}",
+V6,low,I2-14 Kintsugi,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 2},
+V6,low,I3-1 Soban,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 3},
+V6,low,I3-2 Queen Anne Style (furniture),no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 3}",
+V6,low,I3-6 International Gothic (decorative arts),no way to see the works: neither holding institutions nor makers,"groups: {'France': 2, 'Italy': 2, 'Belgium': 1, 'United Kingdom': 1, 'Germany': 1}",
+V6,low,I3-7 Mannerism (decorative arts),no way to see the works: neither holding institutions nor makers,"groups: {'Italy': 4, 'Germany': 3, 'France': 2, 'United Kingdom': 1, 'North Macedonia': 1, 'Belgium': 1}",
+V6,low,I3-8 Louis XIV Style,no way to see the works: neither holding institutions nor makers,"groups: {'Centres & workshops': 1, 'France': 3, 'United Kingdom': 1, 'Iceland': 1, 'Italy': 1}",
+V6,low,I3-9 Louis XV Style,no way to see the works: neither holding institutions nor makers,"groups: {'Centres & workshops': 1, 'France': 7, 'Germany': 3, 'United Kingdom': 2, 'Russia': 1}",
+V6,low,I3-10 Louis XVI Style,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'France': 7, 'United States': 3, 'Italy': 2, 'United Kingdom': 2, 'Germany': 2, 'Sweden': 1, 'Switzerland': 1}",
+V6,low,I3-11 Empire Style,no way to see the works: neither holding institutions nor makers,"groups: {'France': 4, 'Italy': 1, 'Haiti': 1, 'Saxe-Weimar-Eisenach': 1, 'United States': 1, 'Germany': 1, 'Named interiors': 1}",
+V6,low,I3-12 Biedermeier,no way to see the works: neither holding institutions nor makers,"groups: {'France': 9, 'United States': 9, 'United Kingdom': 3, 'Italy': 2, 'Austria': 2, 'Norway': 1}",
+V6,low,I3-13 Victorian Decorative Arts,no way to see the works: neither holding institutions nor makers,"groups: {'Centres & workshops': 1, 'France': 9, 'United Kingdom': 8, 'United States': 8, 'Germany': 5, 'Hungary': 2, 'Netherlands': 1, 'Norway': 1, 'Italy': 1, 'Denmark': 1, 'Russia': 1, 'Algeria': 1, 'Sweden': 1, 'Japan': 1}",
+V6,low,I3-22 Shaker Furniture,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 3, 'Centres & workshops': 3}",
+V6,low,I3-24 Tansu,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 4, 'Centres & workshops': 2}",
+V6,low,I3-25 Bandaji,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 4},
+V6,low,I4-3 Djembe,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,I4-4 Mbira,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 4},
+V6,low,I4-6 Tanpura,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,I4-7 Saraswati Veena,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 2, 'Centres & workshops': 1}",
+V6,low,I4-10 Santur,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 3},
+V6,low,I4-12 Kantele,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 3},
+V6,low,I4-13 Koto,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 3},
+V6,low,I4-14 Guzheng,no way to see the works: neither holding institutions nor makers,"groups: {'Sub-types': 1, 'Schools & phases': 5}",
+V6,low,I4-15 Erhu,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 4},
+V6,low,I4-16 Taus and Dilruba,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 4},
+V6,low,I4-17 Sarangi,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 3},
+V6,low,I4-21 Bagpipes,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 4},
+V6,low,I4-22 Gagaku Instruments,no way to see the works: neither holding institutions nor makers,groups: {'Sub-types': 5},
+V6,low,K2-22 Spanish Colonial Revival Architecture,per-object works list left after the collections-first rule,group 'Mediterranean Revival buildings': 3 rows,
+V6,low,K3-11 Nabataean Architecture,per-object works list left after the collections-first rule,"group 'Nabataean cities, tombs and temples': 9 rows",
+V6,low,K8-9 Shikumen,per-object works list left after the collections-first rule,group 'Shikumen neighbourhoods and buildings': 4 rows,
+V6,low,K12-20 Queenslander,per-object works list left after the collections-first rule,group 'Queenslanders': 2 rows,
+V7,medium,illuminated manuscript,probe home no longer exists,C2 Illuminated Manuscripts & Illumination,
+V7,medium,Meissen porcelain,probe missing at audit time,"home then: none (Meissen mentioned only in E4-17 Kakiemon definition); leaf names matching now: E4-23; E4 has no European porcelain leaves apart from Limoges and Gzhel: Meissen, Sevre",
+V7,medium,studio glass,probe missing at audit time,"home then: none; leaf names matching now: F1-10; No modern/contemporary glass leaf (Studio Glass movement, Chihuly, Littleton); G",
+V7,medium,Limoges enamel,probe missing at audit time,home then: none (Limoges only as E4-21 Limoges Porcelain); leaf names matching now: G1-43; Limoges painted enamel and champlevé (Oeuvre de Limoges) absent; a search for Li,
+V7,medium,cloisonne,probe missing at audit time,"home then: none (cloisonné only in defs E1-84, G1-33, G3-4); leaf names matching now: none; Chinese cloisonné (jingtailan), Japanese shippō and Byzantine cloisonné enamel h",
+V7,medium,Pre-Columbian goldwork,probe home no longer exists,G1-26..G1-30; G3-8..G3-13,
+V7,medium,arms and armour,probe home no longer exists,G2 Arms & Armour,
+V7,medium,ikat,probe home no longer exists,H5-1; H5-12; H5-23; H5-8; H5-15,
+V7,medium,embroidery,probe home no longer exists,H4 Embroidery & Needlework,
+V7,medium,street photography,probe missing at audit time,"home then: J1 (closest J1-5 Humanistic Photography); leaf names matching now: J1-2; No street photography leaf or alias (Cartier-Bresson, Winogrand, Vivian Maier)",
+V7,medium,Islamic architecture,probe home no longer exists,K1 Islamic Architecture,
+V7,medium,Japanese garden,probe missing at audit time,"home then: none (K test admits gardens; only K1-15 alias Mughal gardens); leaf names matching now: K13-4; No garden leaves: Japanese (karesansui, stroll), Chinese scholar gardens, Persia",
+V7,medium,rock art,probe home no longer exists,L1 Rock Art,
+V7,medium,African mask,probe home no longer exists,D4 Masks & Puppets (D4-12..D4-23),
+V7,medium,tattoo,probe home no longer exists,L5 Body Art,
+V7,medium,still life,probe missing at audit time,home then: none; leaf names matching now: none; No subject/genre modifier; only A6-19 Theorem Painting mentions still lifes,
+V7,medium,medieval manuscript,probe home no longer exists,C2 Illuminated Manuscripts & Illumination,
+V7,medium,Buddha statue,probe home no longer exists,D5-1; D5-22; D5-23; D5-24; D5-11,
+V7,medium,wood carving,probe home no longer exists,D5 Figurative Sculpture / I1 Carved & Inlaid Woodwork,
+V7,medium,pottery,probe home no longer exists,E Ceramics,
+V7,medium,glass blowing,probe home no longer exists,F1 Blown & Moulded Glass,
+V7,medium,jewellery,probe home no longer exists,G3 Jewellery,
+V7,medium,Scottish tartan,probe missing at audit time,home then: none; leaf names matching now: H3-51; No Scottish/Highland textile or dress leaf,
+V7,medium,antique furniture,probe home no longer exists,I3 Furniture & Decorative Arts Styles,
+V7,medium,black and white photography,probe missing at audit time,home then: J Photography; leaf names matching now: none; No photographic process/format tag,
+V7,medium,pyramids,probe home no longer exists,K3-1; K10-4; K11-1,
+V7,low,Chinese ink landscape painting,probe weak at audit time,home then: A2 East Asian Ink & Colour Painting (A2-2 Northern Landscape Style; A2-3 Literati Painting; A2-4 Zhe; A2-5 Wu); leaf names matching now: none; No leaf or alias for the umbrella 'Chinese landscape painting / shanshui'; split,
+V7,low,Haitian painting,probe weak at audit time,"home then: A5-79 Naive Art (broad); leaf names matching now: A6-31; Haitian painting (Centre d'Art, Hyppolite, Saint-Soleil) not named anywhere; Hai",
+V7,low,etching,probe weak at audit time,"home then: B2 Printmaking (B2-9 Old Master Print; B2-10 Etching Revival); leaf names matching now: B2-14; B2 axis says 'process, then school' but no process level or process tag exists; ",
+V7,low,lithography,probe weak at audit time,"home then: B2 Printmaking (B2-11 Modern Printmaking mentions artist's lithograph); leaf names matching now: none; No process node/tag; lithography only in definitions (B2-6, B2-8, B2-11)",
+V7,low,screen printing,probe weak at audit time,home then: B2-11 Modern Printmaking (mentions screenprint); leaf names matching now: none; No process node/tag; not named as label or alias,
+V7,low,woodcut,probe weak at audit time,home then: B2 Printmaking (B2-9; B2-5 xilogravura; B2-11 expressionist woodcut); leaf names matching now: none; No process node/tag; generic woodcut only in definitions,
+V7,low,Islamic calligraphy,probe weak at audit time,home then: C1 Calligraphy (C1-1 Kufic..C1-6 Sini); leaf names matching now: C1-3; Islamic/Arabic calligraphy split by script; no umbrella label or alias 'Islamic ,
+V7,low,bookbinding,probe weak at audit time,"home then: C3 Bookbinding (only C3-1 Islamic Bookbinding); leaf names matching now: C3-1, C3-3, C3-4; European, Ethiopian (in C2-14 def), East Asian and modern fine binding have no l",
+V7,low,Moai (Easter Island),probe weak at audit time,home then: K12-5 Marae (mentions moai on ahu); D5-89 Moai Kavakava (wooden only); leaf names matching now: D5-106; The monumental stone moai have no sculpture leaf; only reachable via an architec,
+V7,low,stained glass,probe weak at audit time,"home then: F5 Stained Glass (empty, no leaves); leaf names matching now: F4-1, F5-1, F5-2, F5-3; F5 exists in the key but holds no leaves: Gothic stained glass (Chartres, Sainte",
+V7,low,Bayeux Tapestry,probe weak at audit time,home then: H4 Embroidery & Needlework (no leaf); leaf names matching now: none; Bayeux Tapestry not named; H4-43 Opus Anglicanum starts c.1200; no early medieva,
+V7,low,kimono,probe weak at audit time,home then: H5-18 Yuzen; H5-19 Katazome (mention kimono); P10 excludes garment types; leaf names matching now: H7-12; No Japanese dress leaf in H7; kimono is named only inside dyeing definitions,
+V7,low,quilting,probe weak at audit time,"home then: H4 leaves H4-41 Star Quilts; H4-46 Amish Quilts; H4-91 Gee's Bend; H4-13 Ralli; H4-42 Tivaevae; leaf names matching now: H4-13, H4-46, H4-92, H4-93; No umbrella quilting/patchwork leaf; British and American quilting outside these",
+V7,low,marquetry,probe weak at audit time,"home then: I1-2 Khatam; I1-10 Yosegi-zaiku; I3-4 Louis XIV Style (Boulle); leaf names matching now: I1-10, I1-2, I1-23, I1-24; European marquetry (Boulle, Dutch floral, Roentgen) has no leaf or tag; only Per",
+V7,low,fresco,probe weak at audit time,"home then: L2 Wall Painting; leaf names matching now: L2-50; No technique tag; Italian Renaissance and Baroque fresco (Giotto's Arena Chapel,",
+V7,low,NFT art,probe weak at audit time,home then: M2-2 New Media Art (broad); leaf names matching now: M2-2; NFT/crypto art not named,
+V7,low,generative art,probe weak at audit time,"home then: M2-2 New Media Art (broad); leaf names matching now: M2-1; generative/algorithmic/computer art (Vera Molnar, Manfred Mohr) not named",
+V7,low,Chinese vase,probe weak at audit time,"home then: E3 / E4 Chinese wares (E4-5, E4-10, E3-x); leaf names matching now: E4-10; No umbrella 'Chinese ceramics/porcelain' alias; user must know ware names",
+V7,low,Mexican folk art,probe weak at audit time,"home then: A6-13; A6-14; D5-72; D5-73; E1-51; E1-55; C4-4; leaf names matching now: none; Scattered, no folk/popular-art filter to gather them",
+V7,low,oil painting,probe weak at audit time,"home then: A5 Easel Painting (key mentions oil); leaf names matching now: none; No medium/technique tag (oil, tempera, acrylic, watercolour)",
+V7,low,portrait,probe weak at audit time,"home then: none as facet; D5-60 Roman Portraiture; A5-4 Fayum; leaf names matching now: D5-60, E1-47; No subject/genre modifier; portrait painting in general has no home",
+V7,low,landscape painting,probe weak at audit time,home then: none as facet; A2-2; A5-36; A5-35 schools; leaf names matching now: A2-3; No subject/genre modifier; only landscape schools,
+V7,low,abstract art,probe weak at audit time,"home then: A5 movement leaves (A5-62, A5-81, A5-82, A5-87...); leaf names matching now: A5-81; No umbrella abstraction leaf/alias",
+V7,low,Chinese scroll painting,probe weak at audit time,home then: A2 East Asian Ink & Colour Painting; leaf names matching now: A2-3; scroll formats only in family key; no alias,
+V7,low,cartoon,probe weak at audit time,home then: B1-4 Illustration (alias Caricature); B1-6..B1-8 comics; leaf names matching now: none; 'cartoon' not named; comics only Franco-Belgian and manga (no American comics),
+V7,low,poster art,probe weak at audit time,"home then: B1-4 Illustration (def mentions posters); leaf names matching now: B2-11, B2-9, N3-9; No poster leaf (Belle Epoque posters, Soviet, Polish poster school)",
+V7,low,Arabic calligraphy,probe weak at audit time,"home then: C1-1..C1-5; leaf names matching now: C1-3, C1-6; 'Arabic calligraphy' only as alias of C1-6 Sini (Chinese Arabic) — misleading",
+V7,low,Greek vase,probe weak at audit time,"home then: E1-25..E1-31 (Black-Figure, Red-Figure...); leaf names matching now: E1-27, E1-28, E1-30; No umbrella 'Greek vase painting/Greek pottery' leaf or alias",
+V7,low,church windows,probe weak at audit time,home then: F5 Stained Glass (empty); leaf names matching now: none; F5 has no leaves,
+V7,low,quilt,probe weak at audit time,"home then: H4-41; H4-46; H4-91; leaf names matching now: H4-13, H4-41; no umbrella quilt leaf",
+V7,low,African fabric,probe weak at audit time,home then: H3-23; H5-26..H5-30; leaf names matching now: none; no umbrella; African wax print (Ankara/Dutch wax) missing,
+V7,low,skyscraper,probe weak at audit time,home then: K6-2 Chicago School; leaf names matching now: none; skyscraper named only for Chicago School; no building-type tag,
+V7,low,AI art,probe weak at audit time,home then: M2-2 New Media Art; leaf names matching now: M2-3; AI-generated art not named,
+V7,low,pixel art,probe weak at audit time,home then: M2-2 New Media Art; leaf names matching now: M2-2; not named,
