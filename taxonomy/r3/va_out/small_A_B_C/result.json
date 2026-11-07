@@ -3090,7 +3090,7 @@
     [
      "Minuscule 106",
      "Post-Byzantine manuscripts (after 1453)",
-     "Byzantine Empire, c. 2000; Chester Beatty Library",
+     "Byzantine Empire; Chester Beatty Library",
      "r3 https://www.wikidata.org/wiki/Q6869791",
      0
     ],
@@ -8806,13 +8806,6 @@
      "series of the Conquest, 1698; Museo de América, Madrid",
      "r3 https://en.wikipedia.org/wiki/Enconchado",
      0
-    ],
-    [
-     "Museo de América",
-     "Collections",
-     "Madrid museum holding the Conquest of Mexico enconchados",
-     "r3 https://en.wikipedia.org/wiki/Museo_de_América",
-     0
     ]
    ],
    "alias_rows": [
@@ -8855,13 +8848,6 @@
      "Works",
      "Conquest and city-view screen, late 17th century; Museo Franz Mayer, Mexico City",
      "r3 https://en.wikipedia.org/wiki/Biombo",
-     0
-    ],
-    [
-     "Franz Mayer Museum",
-     "Collections",
-     "Mexico City museum with major biombos",
-     "r3 https://en.wikipedia.org/wiki/Franz_Mayer_Museum",
      0
     ]
    ],
@@ -11421,8 +11407,8 @@
    "axis": "Teachers (the Achenbach brothers and the Academy), then the Scandinavian Düsseldorfers, then other national students; unplaced artists fall back to their country of activity",
    "catalogues": [
     [
-     "https://www.smkp.de/",
-     "Museum Kunstpalast, Düsseldorf",
+     "https://www.kunstpalast.de/en/",
+     "Kunstpalast, Düsseldorf",
      "holding of the Düsseldorf school"
     ],
     [
@@ -12402,8 +12388,8 @@
      "artists and images database for Netherlandish and Flemish art"
     ],
     [
-     "https://www.gemeentemuseum.nl/en/collection",
-     "Kunstmuseum Den Haag collection",
+     "https://www.kunstmuseum.nl/en",
+     "Kunstmuseum Den Haag",
      "major Hague School holding"
     ],
     [
@@ -12700,7 +12686,7 @@
    "axis": "The Florentine Caffè Michelangiolo group, then associated and later painters",
    "catalogues": [
     [
-     "https://www.uffizi.it/en/pitti-palace/gallery-of-modern-art",
+     "https://www.uffizi.it/en/pitti-palace",
      "Galleria d'arte moderna, Palazzo Pitti",
      "the principal Macchiaioli collection"
     ],
@@ -12795,7 +12781,7 @@
    "axis": "German masters and teachers of the Munich Academy, then the Greek Munich School",
    "catalogues": [
     [
-     "https://www.pinakothek.de/en/collection",
+     "https://www.pinakothek.de/en",
      "Bayerische Staatsgemäldesammlungen",
      "Neue Pinakothek holdings of the Munich school"
     ],
@@ -15202,7 +15188,7 @@
      "artists and images database for Netherlandish and Flemish art"
     ],
     [
-     "https://www.kunstmuseum.nl/en/collection",
+     "https://www.kunstmuseum.nl/en",
      "Kunstmuseum Den Haag",
      "the largest Mondrian and De Stijl collection"
     ],
@@ -15576,9 +15562,9 @@
    "axis": "Verists (Berlin, Dresden, Karlsruhe), the Hanover group, Classicists, then Swiss and other branches; unplaced artists fall back to their country of activity",
    "catalogues": [
     [
-     "https://www.kunsthalle-mannheim.de/en/",
-     "Kunsthalle Mannheim",
-     "museum of the 1925 Neue Sachlichkeit exhibition"
+     "https://www.moma.org/collection/?q=New+Objectivity",
+     "MoMA collection search: New Objectivity",
+     "MoMA works matching 'New Objectivity'"
     ],
     [
      "https://en.wikipedia.org/wiki/New_Objectivity",
@@ -19854,7 +19840,7 @@
     [
      "Denzil Forrester",
      "Other artists",
-     "painting · United Kingdom, Q769 · b. 1956",
+     "painting · United Kingdom · b. 1956",
      "artists",
      1
     ],
@@ -25024,7 +25010,7 @@
    "axis": "Phases: Civil War posters and ROSTA windows, 1920s constructivist and film posters, Stalin-era and World War II (TASS windows), postwar",
    "catalogues": [
     [
-     "https://www.hoover.org/library-archives/collections/poster-collection",
+     "https://digitalcollections.hoover.org/",
      "Hoover Institution Poster Collection",
      "large holding of Soviet political posters"
     ]
@@ -26842,7 +26828,7 @@
     [
      "Abd al-Rahim 'Anbarin-Qalam",
      "Mughal nasta'liq",
-     "book arts · Q33296",
+     "book arts",
      "artists",
      1
     ],
@@ -28868,9 +28854,9 @@
      "Indonesian, Malay and other Asian manuscripts of Leiden University Library"
     ],
     [
-     "https://archive.org/details/bali-lontar",
-     "Lontar collection (Internet Archive)",
-     "digitised Balinese lontar"
+     "https://www.bl.uk/",
+     "British Library",
+     "Balinese and Javanese lontar collections"
     ],
     [
      "https://en.wikipedia.org/wiki/Lontar",
@@ -30663,9 +30649,9 @@
      "complete list of Insular illuminated manuscripts"
     ],
     [
-     "https://www.tcd.ie/library/manuscripts/book-of-kells.php",
-     "Trinity College Dublin: Book of Kells",
-     "the Book of Kells digitised"
+     "https://digitalcollections.tcd.ie/",
+     "Trinity College Dublin Digital Collections",
+     "the Book of Kells, Book of Durrow and other Insular manuscripts digitised"
     ]
    ],
    "kinds": [

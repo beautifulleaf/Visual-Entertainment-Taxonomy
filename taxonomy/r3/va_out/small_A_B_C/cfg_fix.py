@@ -15,8 +15,8 @@ CAT = {"A6-3": [wp("Jangarh Singh Shyam", "the founder of Pardhan Gond painting"
        "A6-13": [si("retablo"), met("retablo")], "A6-22": [("https://uk.wikipedia.org/wiki/Таврійський_розпис", "Wikipedia (uk): Таврійський розпис", "the tradition")],
        "A6-23": [GOSKAT, ("https://ru.wikipedia.org/wiki/Городецкая_роспись", "Wikipedia (ru): Городецкая роспись", "the tradition")]}
 ADD = {
-    "A5-7": [("Nanban art", "Sub-types", "Japanese namban lacquer, the model for shell inlay", "Nanban art"), ("Museo de América", "Collections", "Madrid museum holding the Conquest of Mexico enconchados", "Museo de América")],
-    "A5-8": [("Folding screen", "Sub-types", "the screen form adopted from Japan", "Folding screen"), ("Franz Mayer Museum", "Collections", "Mexico City museum with major biombos", "Franz Mayer Museum")],
+    "A5-7": [("Nanban art", "Sub-types", "Japanese namban lacquer, the model for shell inlay", "Nanban art")],
+    "A5-8": [("Folding screen", "Sub-types", "the screen form adopted from Japan", "Folding screen")],
     "A6-3": [("Bharat Bhavan", "Centres & workshops", "Bhopal arts centre where Jangarh Singh Shyam began painting (1981)", "Bharat Bhavan")],
     "A6-7": [("Cycle rickshaw", "Sub-types", "the vehicle whose panels and hoods are painted", "Cycle rickshaw")],
     "A6-15": [("Ayacucho Region", "Centres & workshops", "Andean region of Sarhua and the retablo makers", "Ayacucho Region")],

@@ -61,7 +61,7 @@ MACHINE = re.compile(r"(movement |other movements|country group|P1066|P106\b|now
 
 def norm_ctry(s):
     out = []
-    for c in [x.strip() for x in (s or "").split(",") if x.strip()]:
+    for c in [x.strip() for x in (s or "").split(",") if x.strip() and not re.fullmatch(r"Q\d+", x.strip())]:
         c = CTRY.get(c, c)
         if c not in out:
             out.append(c)
@@ -139,6 +139,8 @@ def load_ms():
                 x["_sl"] = 0
             try:
                 x["_y"] = int(x["year"]) if x["year"] else None
+                if x["_y"] is not None and x["_y"] > 1950:
+                    x["_y"] = None
             except ValueError:
                 x["_y"] = None
     return MS

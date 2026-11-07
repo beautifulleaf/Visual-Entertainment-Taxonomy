@@ -186,6 +186,165 @@
    "tt0052829": 1
   }
  },
+ "A5-6": {
+  "axis": "era of the Japanese kaiju eiga (Shōwa / Heisei / Millennium / Reiwa) and tradition outside Japan",
+  "secs": [
+   "Shōwa Era (1954–1975)",
+   "Heisei Era (1984–1999)",
+   "Millennium Era (1999–2004)",
+   "Reiwa Era (2016–)",
+   "Hollywood Giant Monsters & the MonsterVerse",
+   "Kaiju beyond Japan and Hollywood"
+  ],
+  "assign": {
+   "tt0047034": 1,
+   "tt0048127": 1,
+   "tt0197521": 1,
+   "tt0049782": 1,
+   "tt0055198": 1,
+   "tt13364334": 1,
+   "tt0056142": 1,
+   "tt0058544": 1,
+   "tt0058379": 1,
+   "tt0059346": 1,
+   "tt0060464": 1,
+   "tt0061856": 1,
+   "tt0063172": 1,
+   "tt0064373": 1,
+   "tt0067148": 1,
+   "tt0068371": 1,
+   "tt0070122": 1,
+   "tt0071565": 1,
+   "tt0073373": 1,
+   "tt9015178": 2,
+   "tt0097444": 2,
+   "tt0101962": 2,
+   "tt0104352": 2,
+   "tt0107027": 2,
+   "tt0109916": 2,
+   "tt0113187": 2,
+   "tt0188640": 3,
+   "tt0255198": 3,
+   "tt0279112": 3,
+   "tt0314111": 3,
+   "tt0366526": 3,
+   "tt0399102": 3,
+   "tt4262980": 4,
+   "tt23289160": 4,
+   "tt0059080": 1,
+   "tt0113142": 2,
+   "tt0116390": 2,
+   "tt0024216": 5,
+   "tt0074751": 5,
+   "tt0120685": 5,
+   "tt0360717": 5,
+   "tt1663662": 5,
+   "tt0831387": 5,
+   "tt3731562": 5,
+   "tt2557478": 5,
+   "tt2231461": 5,
+   "tt3741700": 5,
+   "tt5034838": 5,
+   "tt14539740": 5,
+   "tt0056405": 6,
+   "tt0062411": 1,
+   "tt0061549": 6,
+   "tt0074148": 6,
+   "tt0089851": 6,
+   "tt0468492": 6,
+   "tt0372873": 6,
+   "tt1060277": 5,
+   "tt1740707": 6,
+   "tt4680182": 5,
+   "tt11116912": 6,
+   "tt29232158": 6
+  }
+ },
+ "A5-7": {
+  "axis": "production tradition",
+  "secs": [
+   "Toho, Daiei & Toei Special-Effects Films",
+   "Henshin Heroes (Ultra, Rider, Sentai & Power Rangers)"
+  ],
+  "assign": {
+   "tt0113820": 2,
+   "tt0120389": 2,
+   "tt3717490": 2,
+   "tt10737918": 2,
+   "tt23219684": 2,
+   "tt14379088": 2
+  }
+ },
+ "A6-2": {
+  "axis": "era (the field dates the screen genre from the 1982 Conan boom)",
+  "secs": [
+   "1980s Sword-and-Sorcery Boom (incl. Italian barbarian films)",
+   "Later Sword and Sorcery (1990s–)"
+  ],
+  "assign": {
+   "tt0082198": 1,
+   "tt0083630": 1,
+   "tt0084749": 1,
+   "tt0087127": 1,
+   "tt0085811": 1,
+   "tt0087078": 1,
+   "tt0089893": 1,
+   "tt0116136": 2,
+   "tt0300657": 2,
+   "tt0277296": 2,
+   "tt0970452": 2,
+   "tt0816462": 2,
+   "tt1121096": 2,
+   "tt33996087": 2,
+   "tt4419684": 2,
+   "tt0800175": 2
+  }
+ },
+ "A7-12": {
+  "axis": "era / school of the wuxia film",
+  "secs": [
+   "New-School Wuxia (1966–1984: King Hu, Chang Cheh, Chu Yuan)",
+   "Hong Kong New Wave Wuxia (1985–1999)",
+   "Wuxia Blockbusters (2000–)"
+  ],
+  "assign": {
+   "tt0059079": 1,
+   "tt0060635": 1,
+   "tt0061597": 1,
+   "tt0978752": 1,
+   "tt0064265": 1,
+   "tt0064451": 1,
+   "tt0070942": 1,
+   "tt0071324": 1,
+   "tt0077655": 1,
+   "tt0192213": 1,
+   "tt0109688": 2,
+   "tt0112800": 2,
+   "tt0190332": 3,
+   "tt0299977": 3,
+   "tt0385004": 3,
+   "tt0865556": 3,
+   "tt3508840": 3,
+   "tt2652118": 3,
+   "tt6864046": 3,
+   "tt32649961": 3
+  }
+ },
+ "A7-14": {
+  "axis": "national tradition / production cycle",
+  "secs": [
+   "Japanese Ninja Films",
+   "Hong Kong Ninja Films",
+   "Cannon & Western Ninja Boom (1981–)"
+  ],
+  "assign": {
+   "tt0087805": 3,
+   "tt0088708": 3,
+   "tt1186367": 3,
+   "tt15358226": 3,
+   "tt8404256": 3
+  }
+ },
  "A15-4": {
   "axis": "named exploitation cycle",
   "secs": [

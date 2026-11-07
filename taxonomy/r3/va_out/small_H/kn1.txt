@@ -26,7 +26,7 @@
 = Yilmaz, Fatma => . | M | weaver of the DOBAG natural-dye co-operative, Ayvacık
 = Küllú, Fatma => . | M | weaver of the DOBAG natural-dye co-operative, Ayvacık
 
-@H1-3 | Mamluk_carpet | Mamluk carpet | MVBT
+@H1-3 | Mamluk_carpets | Mamluk carpet | MVBT
 = Para-Mamluk carpet => . | S | Anatolian carpets of the 15th–16th c. sharing Mamluk layout and palette
 + S | Cairene Ottoman carpet | carpets woven in Cairo after 1517 in the Ottoman floral court style | w:Ottoman_carpets
 + C | Cairo | the Mamluk capital whose court workshops wove these carpets c. 1470–1530 | -
@@ -60,7 +60,7 @@
 = Salor rug => Salor | S | the oldest-attested Turkmen tribal weaving group, with the Salor gül
 + S | Tekke | Turkmen tribe of Merv and Ahal whose rugs became the 'Bukhara' of the trade | w:Tekke
 = Yomut carpet => Yomut | S | Turkmen tribe of the Caspian, known for asmalyk camel trappings
-+ S | Saryk | Turkmen tribe of the Murghab, with Saryk gül rugs | w:Saryks
++ S | Saryk | Turkmen tribe of the Murghab, with Saryk gül rugs | w:Saryk
 = Ersari carpet => Ersari | S | Turkmen tribe of the middle Amu Darya, large guls and floral 'Beshir' designs
 = Beshir carpet => Beshir | S | Ersari-related Amu Darya rugs with floral and cloudband designs
 = Göklen rug => Göklen | S | Turkmen tribe of the Sumbar and Gorgan valleys
@@ -69,7 +69,7 @@
 + S | Asmalyk | five-sided camel trapping of Turkmen weddings | -
 + C | Turkmen Carpet Museum | museum of Turkmen carpets in Ashgabat | w:Turkmen_Carpet_Museum
 
-@H1-6 | Baluch_rugs | Baluch rug | MVBT
+@H1-6 | Baluchi_rug | Baluch rug | MVBT
 + S | Baluch prayer rug | rugs with tree-of-life niche, the commonest Baluch format | -
 + S | Balisht | Baluch pillow-bag face | -
 + S | Sofreh | flatwoven eating cloth of Baluch and Persian nomads | w:Sofreh
@@ -105,7 +105,7 @@
 + C | Middle Atlas | homeland of the Zemmour, Zaiane and Beni Mguild tribes | -
 + C | Glaoua | High Atlas Glaoua tribes' mixed-technique rugs | -
 
-@H1-10 | Freester_Fischerteppiche | Freester Fischerteppich | E
+@H1-10 | Freest | Freester Fischerteppich | E
 = Design and Traditionally Handcrafted Production of the Western Pomeranian Fisherman’s Carpets => ALIAS
 + C | Freest | fishing village on the Greifswalder Bodden where the carpets have been knotted since 1928 | w:Freest
 
@@ -169,7 +169,7 @@
 + S | Al-qata | woven tent divider of Sadu | -
 + C | Al Sadu House | Kuwait cultural foundation (1980) preserving Sadu weaving | w:Al_Sadu_House
 
-@H2-4 | Inca_textiles | Inca tunic | MVBS
+@H2-4 | Inca_Empire | Inca tunic | MVBS
 = possibly Inka (Inca) (archaeological) (attributed) => ALIAS
 + S | Qompi (cumbi) | finest tapestry cloth of the Inca state | -
 + S | Tocapu | the geometric squares of Inca high-status tunics | w:Tocapu
@@ -229,7 +229,7 @@
 + C | Crystal | trading-post style of vegetal-dyed banded rugs | -
 + S | Yei rug | rugs with figures of the Holy People | -
 + M | Hosteen Klah | Navajo weaver and singer of sandpainting tapestries (1867–1937) | w:Hosteen_Klah | 1
-+ M | D. Y. Begay | Navajo weaver (b. 1953) | w:D._Y._Begay | 1
++ M | D. Y. Begay | Navajo weaver (b. 1953) | w:D.Y._Begay | 1
 
 @H2-11 | Chilkat_weaving | Chilkat | MSB
 + S | Chilkat robe | five-sided ceremonial robe in formline designs | -
@@ -243,7 +243,7 @@
 + C | Musqueam | weavers of the 1980s revival | w:Musqueam_Indian_Band
 + M | Debra Sparrow | Musqueam weaver (b. 1958) | w:Debra_Sparrow | 1
 
-@H2-13 | Chimayo_weaving | Chimayo weaving | MSB
+@H2-13 | Chimayo,_New_Mexico | Chimayo weaving | MSB
 = Chimayo => ALIAS
 + S | Rio Grande blanket | colonial Hispano banded wool blanket | -
 + S | Chimayó vest | woven vest of 20th-c. tourist production | -

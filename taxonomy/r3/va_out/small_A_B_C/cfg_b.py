@@ -176,7 +176,7 @@ CFG = {
                        ("Alexander Rodchenko", "1920s film posters", "Battleship Potemkin and Lengiz posters (1891–1956)", "Alexander Rodchenko"),
                        ("Motherland Calls! (Toidze, 1941)", "Works", "Irakli Toidze's wartime poster", "The Motherland Calls (poster)", 0)],
                   order=["Sub-types", "Civil War posters", "1920s film posters", "Stalin era and World War II", "Works"],
-                  cat=[("https://www.hoover.org/library-archives/collections/poster-collection", "Hoover Institution Poster Collection", "large holding of Soviet political posters"), wp("Soviet poster art", "survey of Soviet posters and designers")]),
+                  cat=[("https://digitalcollections.hoover.org/", "Hoover Institution Poster Collection", "large holding of Soviet political posters"), wp("Soviet poster art", "survey of Soviet posters and designers")]),
     "B2-12": dict(artist_led=True, axis="First generation around Tomaszewski and Trepkowski, then the second generation of the 1960s–70s, then later designers",
                   regroup=G({"First generation": "Henryk Tomaszewski; Tadeusz Trepkowski; Józef Mroszczak; Eryk Lipiński; Wojciech Zamecznik",
                              "Second generation": "Jan Lenica; Roman Cieślewicz; Waldemar Świerzy; Franciszek Starowieyski; Maciej Urbaniec; Julian Pałka", "Later designers": "Rafał Olbiński"}),

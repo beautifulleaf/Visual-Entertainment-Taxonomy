@@ -16,7 +16,7 @@
 + C | Isfahan | Shah Abbas's capital with royal silk workshops | w:Isfahan
 + M | Ghiyath al-Din 'Ali-yi Naqshband | Yazd master silk designer, signed silks c. 1600 | w:Ghiyath | 1
 
-@H3-3 | Ottoman_textiles | Ottoman silk | MVBCL
+@H3-3 | Ottoman_art | Ottoman silk | MVBCL
 + S | Kemha | Ottoman silk lampas with metal thread | -
 + S | Çatma | Ottoman voided silk velvet, often for cushions | -
 + S | Seraser | Ottoman cloth of gold | -
@@ -25,7 +25,7 @@
 + C | Bursa | principal Ottoman silk-weaving centre | w:Bursa
 + C | Istanbul court workshops | palace weavers producing kaftan silks | -
 
-@H3-4 | Nasrid_art | Nasrid silk | MVBCL
+@H3-4 | Nasrid_dynasty | Nasrid silk | MVBCL
 + S | Alhambra silk | lampas silks with interlace and inscription bands echoing the Alhambra stucco | -
 + C | Granada | Nasrid capital and silk-weaving centre | w:Granada
 + C | Almería | Andalusian silk centre of the 11th–13th c. | w:Almería
@@ -37,7 +37,7 @@
 
 @H3-6 | Kashmir_shawl | Kashmir shawl | MVBCL
 = Kashmir shawl => ALIAS
-+ S | Kani shawl | twill-tapestry woven shawl with kani shuttles | w:Kani_shawl
++ S | Kani shawl | twill-tapestry woven shawl with kani shuttles | w:Kani_Shawl
 + S | Amli shawl | embroidered Kashmir shawl | -
 + S | Paisley shawl | European imitation of the boteh shawl woven in Paisley | w:Paisley_shawl
 + C | Srinagar | shawl-weaving capital of Kashmir | w:Srinagar
@@ -76,7 +76,7 @@
 + C | Pandai Sikek | Minangkabau songket village | -
 + C | Silungkang | West Sumatra songket town | -
 
-@H3-12 | Ship_cloth | ship cloth | MVBCL
+@H3-12 | Palepai | ship cloth | MVBCL
 = Lampung ship cloths (tapis, tampan, palepai) => ALIAS
 = palepai => Palepai | S | long aristocratic ship banners of the Paminggir
 = tampan => Tampan | S | small square ship cloths exchanged at rites
@@ -106,7 +106,7 @@
 + M | Zhu Kerou | Song kesi master (fl. 12th c.) | w:Zhu_Kerou | 1
 + M | Shen Zifan | Song kesi master | -  | 1
 
-@H3-17 | Zhuang_brocade | Zhuang brocade | MV
+@H3-17 | Zhuang_people | Zhuang brocade | MV
 = Zhuang brocade (zhuangjin) => ALIAS
 
 @H3-18 | Li_people | Li textile | MV
@@ -119,17 +119,17 @@
 + S | Hanaori | float-weave flower patterns | -
 + S | Rōton-ori | court gauze-like weave | -
 
-@H3-20 | Bashōfu | bashofu | MV
+@H3-20 | - | bashofu | MV
 = Bashofu (Ryukyuan banana-fibre cloth) => ALIAS
 + C | Kijoka | Okinawan village of bashōfu weaving | -
 + M | Toshiko Taira | bashōfu weaver, Living National Treasure (1921–2022) | w:Toshiko_Taira | 1
 
-@H3-21 | Echigo-jōfu | Echigo jofu | MV
+@H3-21 | Echigo-jofu | Echigo jofu | MV
 = Echigo-jofu => ALIAS
 + S | Ojiya-chijimi | crêpe ramie of Ojiya | -
 + C | Ojiya | Niigata town of chijimi weaving | w:Ojiya
 
-@H3-22 | Hansan_mosi | Hansan mosi | MV
+@H3-22 | Hansan | Hansan mosi | MV
 = Weaving of Mosi (fine ramie) in the Hansan region => ALIAS
 
 @H3-23 | Kente_cloth | kente | MVBS
@@ -162,7 +162,7 @@
 + S | Hangings | large wool-and-linen hangings | -
 + C | Antinoë | Egyptian burial site of many late antique textiles | w:Antinoöpolis
 + C | Akhmim | Panopolis burial grounds | w:Akhmim
-+ Named works | Hestia Polyolbos tapestry | 6th-c. Egyptian tapestry; Dumbarton Oaks, Washington | w:Hestia_tapestry
++ Named works | Hestia Polyolbos tapestry | 6th-c. Egyptian tapestry; Dumbarton Oaks, Washington | w:Hestia_Tapestry
 
 @H3-28 | Maya_textiles | Maya textile | MSV
 = K'iche' Maya (Quiché) => K'iche' weaving | C | huipiles of Chichicastenango and the K'iche' towns
@@ -185,7 +185,7 @@
 + S | Chancay doll | woven grave dolls | -
 + S | Painted cloth | painted cotton panels | -
 
-@H3-30 | Flemish_tapestry | Brussels tapestry | MVB
+@H3-30 | Tapestry | Brussels tapestry | MVB
 = Netherlandish, Brussels => Brussels tapestry | C | Brussels workshops, leading from c. 1500, marked BB from 1528
 = South Netherlandish, Woven => ALIAS
 + C | Arras | 14th–15th-c. centre giving 'arras' its name | w:Arras
@@ -247,7 +247,7 @@
 = Chanderi weaving => Chanderi sari | S | sheer silk-cotton handloom sari of Chanderi · Possession: Chanderi sari (A1)
 + C | Chanderi | Ashoknagar district weaving town | w:Chanderi
 
-@H3-42 | Maheshwari_sari | Maheshwari | MV
+@H3-42 | Maheshwari_Saree | Maheshwari | MV
 = Maheshwari weaving => Maheshwari sari | S | light silk-and-cotton sari of Maheshwar · Possession: Maheshwari sari (A1)
 + C | Maheshwar | Narmada town of the Holkar-patronised weavers | w:Maheshwar
 + C | Rehwa Society | weaving trust founded 1978 by the Holkars | -

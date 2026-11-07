@@ -9,7 +9,7 @@
 + S | Ruijo | bridal bedcover suzani | -
 + S | Palak | 'sky' suzani of Tashkent with large discs | -
 
-@H4-2 | Ottoman_embroidery | Ottoman embroidery | MVBCL
+@H4-2 | Ottoman_art | Ottoman embroidery | MVBCL
 = Algerian embroidery => DROP | belongs to Majboud Embroidery (H4-102)
 + S | Yağlık | embroidered towel and napkin | -
 + S | Bohça | wrapping cloth | -
@@ -70,7 +70,7 @@
 + S | Sujni kantha | ceremonial spread | -
 + C | Bolpur (Santiniketan) | West Bengal kantha centre | -
 
-@H4-12 | Sujani_embroidery | sujani | MV
+@H4-12 | - | sujani | MV
 = Sujani => ALIAS
 + C | Bhusura | Muzaffarpur village of the revival | -
 
@@ -91,7 +91,7 @@
 + S | Chyrpy | woman's mantle worn over the head | -
 + S | Kurte | embroidered woman's robe | -
 
-@H4-17 | Tapis_(Lampung) | tapis | MVB
+@H4-17 | Lampung_people | tapis | MVB
 = Maduaro => Maduaro | S | Lampung embroidered head shawl
 = sulam usus => Sulam usus | S | Lampung couched-ribbon embroidery
 = Tapis Pesisir Barat => Pesisir Barat tapis | C | tapis of the west-coast regency of Lampung
@@ -120,7 +120,7 @@
 = Mantón de Manila => . | S | Canton-embroidered silk shawl exported via Manila · Possession: Manila shawl (A1)
 + C | Guangzhou | Guangxiu embroidery centre | w:Guangzhou
 
-@H4-24 | Gu_embroidery | Gu embroidery | MV
+@H4-24 | Han_Ximeng | Gu embroidery | MV
 = Gu embroidery => ALIAS
 + M | Han Ximeng | Gu family embroiderer, late Ming | w:Han_Ximeng | 1
 
@@ -150,7 +150,7 @@
 + S | Pleated skirt | batik and embroidered pleated skirt | -
 + C | Guizhou | Miao textile heartland | w:Guizhou
 
-@H4-29 | Ainu_textiles | Ainu robe | MVB
+@H4-29 | Ainu_clothing | Ainu robe | MVB
 = Ainu textiles and carving => ALIAS
 + S | Attus | elm-bark robe | -
 + S | Ruunpe | cotton robe with appliqué | -
@@ -166,13 +166,13 @@
 + S | Ncak | woman's overskirt | -
 + S | Mapel | men's raffia skirt | -
 
-@H4-31 | Asafo_flag | Asafo flag | MVBS
+@H4-31 | Asafo | Asafo flag | MVBS
 = Asafo flags => ALIAS
 
 @H4-32 | Paracas_textile | Paracas | MSV
 = Paracas => ALIAS
 + C | Paracas Necropolis | Wari Kayan burial ground of the mantles | -
-+ Named works | Paracas Textile | embroidered mantle; Brooklyn Museum, New York | w:Paracas_Textile
++ Named works | Paracas Textile | embroidered mantle; Brooklyn Museum, New York | w:Paracas_textile
 
 @H4-33 | Mola_(art_form) | mola | MSV
 = Guna => ALIAS
@@ -209,12 +209,12 @@
 + C | Osage | Prairie ribbonwork | -
 + C | Meskwaki | Great Lakes ribbonwork | -
 
-@H4-40 | Moosehair_embroidery | moosehair | MSV
+@H4-40 | - | moosehair | MSV
 = Lorette Huron => Wendake (Lorette) | C | Wendat souvenir work of Lorette near Quebec
 = probably Lorette Huron (attributed) => ALIAS
 + C | Ursuline Convent of Quebec | nuns who taught moosehair embroidery | -
 
-@H4-41 | Star_quilt | star quilt | MSQ
+@H4-41 | Quilt | star quilt | MSQ
 + S | Lone Star quilt | eight-pointed star of diamond patches | -
 + S | Morning Star quilt | Plains star quilt name | -
 
@@ -228,7 +228,7 @@
 = Opus Anglicanum => ALIAS
 = Bayeux Tapestry => . | Named works | embroidered hanging of the Norman Conquest, c. 1070s; Bayeux Museum
 + Named works | Syon Cope | English embroidered cope, 1310–20; V&A, London | w:Syon_Cope
-+ Named works | Butler-Bowdon Cope | English embroidered cope, 1330–50; V&A, London | -
++ Named works | Butler-Bowdon Cope | English embroidered cope, 1330–50; V&A, London | w:Butler-Bowdon_Cope
 + Named works | Vich Embroidery | Opus Anglicanum altar frontal; Museu Episcopal de Vic | -
 + Named works | Pienza Cope | English cope, 14th c.; Pienza Cathedral | -
 
@@ -243,7 +243,7 @@
 + M | Thomas Lester | Bedford lace designer (1791–1867) | w:Thomas_Lester | 1
 + C | Cecil Higgins Art Gallery | Bedford museum with lace collection | -
 
-@H4-46 | Amish_quilt | Amish quilt | QMS
+@H4-46 | - | Amish quilt | QMS
 = Amish quilts => ALIAS
 + S | Center Diamond | Lancaster County quilt pattern | -
 + S | Sunshine and Shadow | concentric-square pattern | -
@@ -257,7 +257,7 @@
 + C | Chéticamp | Acadian hooked-rug centre, Cape Breton | w:Chéticamp
 + M | Edward Sands Frost | Maine pattern maker (1843–1894) | -  | 1
 
-@H4-48 | Greek_embroidery | Greek embroidery | MVBE
+@H4-48 | Greek_dress | Greek embroidery | MVBE
 = Greek Islands => ALIAS
 = Greek / embroidery => ALIAS
 = Greek, Ionian Islands => Ionian Islands embroidery | C | Corfu, Lefkada and Zakynthos embroidery
@@ -318,7 +318,7 @@
 + Named works | Queen Victoria's wedding lace | Honiton lace for the 1840 wedding dress; Royal Collection | -
 + C | Allhallows Museum | Honiton museum of lace | -
 
-@H4-60 | Le_Puy_lace | Le Puy | CVE
+@H4-60 | Le_Puy-en-Velay | Le Puy | CVE
 = dentelle du Puy => ALIAS
 + S | Cluny lace | guipure bobbin lace | -
 + C | Le Puy-en-Velay | the lace town | w:Le_Puy-en-Velay
@@ -384,10 +384,10 @@
 @H4-74 | - | Muhu | E
 = Muhu embroidery => ALIAS
 
-@H4-75 | Matyó_embroidery | Matyó | E
+@H4-75 | Matyó | Matyó | E
 = Folk art of the Matyó, embroidery of a traditional community => ALIAS
 = Mezőkövesd => Mezőkövesd | C | the Matyó town
-+ M | Kis Jankó Bori | Matyó embroidery designer (1876–1954) | w:Bori_Kis_Jankó | 1
++ M | Kis Jankó Bori | Matyó embroidery designer (1876–1954) | w:Kis_Jankó_Bori | 1
 
 @H4-76 | - | Zmijanje | E
 = Zmijanje embroidery => ALIAS
@@ -398,7 +398,7 @@
 @H4-78 | - | Kosovo embroidery | E
 = Kosovo-style embroidery => ALIAS
 
-@H4-79 | Romanian_blouse | ie | EV
+@H4-79 | Romanian_folk_costume | ie | EV
 = The art of the traditional blouse with embroidery on the shoulder (altiţă) — an element of cultural identity in Romania and the Republic of Moldova => ALIAS
 + S | Ie | the Romanian blouse | w:Romanian_blouse
 
@@ -410,18 +410,18 @@
 @H4-81 | - | Armenian lace | E
 = Armenian needlelace => ALIAS
 
-@H4-82 | Ichigi | ichigi | E
+@H4-82 | Kazan_Tatars | ichigi | E
 = Tatar leather mosaic (ichigi) => ALIAS
 
 @H4-83 | Orenburg_shawl | Orenburg shawl | E
 = Orenburg shawl => ALIAS
 + S | Pautinka | 'cobweb' shawl | -
 
-@H4-84 | Vologda_lace | Vologda lace | E
+@H4-84 | Vologda | Vologda lace | E
 = Vologda lace => ALIAS
 = Vyatka lace => Vyatka lace | C | Kirov lace centre related to Vologda
 
-@H4-85 | Yelets_lace | Yelets lace | E
+@H4-85 | Yelets | Yelets lace | E
 = Yelets lace => ALIAS
 
 @H4-86 | - | Rauma lace | E

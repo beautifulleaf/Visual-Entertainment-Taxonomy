@@ -1586,69 +1586,6 @@
      "Bukhara region centre of brown-and-yellow glazed ware",
      "r3 https://en.wikipedia.org/wiki/G%CA%BBijduvon",
      0
-    ],
-    [
-     "Section of tilework frieze",
-     "Tiles and architectural ceramics",
-     "about 1359; Victoria and Albert Museum, London",
-     "r3 https://collections.vam.ac.uk/item/O110005/",
-     0
-    ],
-    [
-     "Bowl with Epigraphic and Vegetal Decoration",
-     "Bowls and cups",
-     "Hegira 4th century / AD 10th century; Los Angeles County Museum of Art, Los Angeles",
-     "r3 https://islamicart.museumwnf.org/database_item.php?id=object;EPM;us;Mus21;43;en",
-     0
-    ],
-    [
-     "Column",
-     "Other works",
-     "ca. 1360; Victoria and Albert Museum, London",
-     "r3 https://collections.vam.ac.uk/item/O39531/",
-     0
-    ],
-    [
-     "Architectural fragment",
-     "Other works",
-     "ca. 1375-1400; National Museum of Asian Art (Freer|Sackler), Washington, DC",
-     "r3 https://asia.si.edu/object/F1908.192/",
-     0
-    ],
-    [
-     "Victoria and Albert Museum",
-     "Collections",
-     "London — 24 objects in the gathered records",
-     "r3 https://collections.vam.ac.uk/",
-     0
-    ],
-    [
-     "National Museum of Asian Art (Freer|Sackler)",
-     "Collections",
-     "Washington, DC — 1 object in the gathered records",
-     "r3 https://asia.si.edu/",
-     0
-    ],
-    [
-     "Los Angeles County Museum of Art",
-     "Collections",
-     "Los Angeles — 1 object in the gathered records",
-     "r3 https://collections.lacma.org/",
-     0
-    ],
-    [
-     "Tropenmuseum (Wereldmuseum Amsterdam)",
-     "Collections",
-     "Amsterdam — 1 object in the gathered records",
-     "r3 https://collectie.wereldculturen.nl/",
-     0
-    ],
-    [
-     "Wereldmuseum Rotterdam",
-     "Collections",
-     "Rotterdam — 1 object in the gathered records",
-     "r3 https://collectie.wereldculturen.nl/",
-     0
     ]
    ],
    "alias_rows": [
@@ -1805,13 +1742,6 @@
    ],
    "kinds": [
     [
-     "Kruik",
-     "Other works",
-     "1850; Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/676027",
-     0
-    ],
-    [
      "Figurative Vessel",
      "Other works",
      "late 19th–early 20th century; Yale University collections (LUX), New Haven",
@@ -1837,41 +1767,6 @@
      "Other works",
      "1971; National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws6d69c24db-1ce1-4ec2-bc6f-0cc6455fc7cb",
-     0
-    ],
-    [
-     "Beeld",
-     "Other works",
-     "Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/695346",
-     0
-    ],
-    [
-     "Driepootkruik",
-     "Other works",
-     "Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/754916",
-     0
-    ],
-    [
-     "Dubbelkruik",
-     "Other works",
-     "Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/754913",
-     0
-    ],
-    [
-     "Kan",
-     "Other works",
-     "Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/754912",
-     0
-    ],
-    [
-     "Miniatuur eierdop",
-     "Other works",
-     "Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/694956",
      0
     ],
     [
@@ -2005,13 +1900,6 @@
      0
     ],
     [
-     "Dish with Inscriptions",
-     "Dishes and plates",
-     "Meiji period; Tokyo National Museum, Tokyo",
-     "r3 https://colbase.nich.go.jp/collection_items/tnm/G-297",
-     0
-    ],
-    [
      "Double-Handled Beaker",
      "Bowls and cups",
      "Neolithic period; Cleveland Museum of Art, Cleveland",
@@ -2068,30 +1956,9 @@
      0
     ],
     [
-     "Lidded Jar with Three-color Glaze (Cinerary Urn)",
-     "Jars, vases and bottles",
-     "Nara period; Kyoto National Museum, Kyoto",
-     "r3 https://colbase.nich.go.jp/collection_items/kyohaku/J%E7%94%B2259-2",
-     0
-    ],
-    [
-     "Headrest",
-     "Other works",
-     "Tang period; Tokyo National Museum, Tokyo",
-     "r3 https://colbase.nich.go.jp/collection_items/tnm/TG-2053",
-     0
-    ],
-    [
-     "Three-color Glazed Pillow, With Stamped Ornament",
-     "Other works",
-     "Tang period; Tokyo National Museum, Tokyo",
-     "r3 https://colbase.nich.go.jp/collection_items/tnm/TG-679",
-     0
-    ],
-    [
      "Tokyo National Museum",
      "Collections",
-     "Tokyo — 11 objects in the gathered records",
+     "Tokyo — 8 objects in the gathered records",
      "r3 https://colbase.nich.go.jp/",
      0
     ],
@@ -2117,13 +1984,6 @@
      0
     ],
     [
-     "Kyoto National Museum",
-     "Collections",
-     "Kyoto — 3 objects in the gathered records",
-     "r3 https://colbase.nich.go.jp/",
-     0
-    ],
-    [
      "Kyushu National Museum",
      "Collections",
      "Dazaifu — 2 objects in the gathered records",
@@ -2134,7 +1994,7 @@
    "alias_rows": []
   },
   "E1-18": {
-   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 80, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
+   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 79, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
    "catalogues": [
     [
      "https://colbase.nich.go.jp/collection_items?locale=en&keyword=%E7%B8%84%E6%96%87%E5%9C%9F%E5%99%A8",
@@ -2236,17 +2096,17 @@
      0
     ],
     [
-     "Deep Bowl with Perforated Rim",
-     "Bowls and cups",
-     "Jōmon period; Tokyo National Museum, Tokyo",
-     "r3 https://colbase.nich.go.jp/collection_items/tnm/J-38214",
-     0
-    ],
-    [
      "Irregularly-Shaped Shallow Bowl",
      "Bowls and cups",
      "Jōmon period; Tokyo National Museum, Tokyo",
      "r3 https://colbase.nich.go.jp/collection_items/tnm/J-34913",
+     0
+    ],
+    [
+     "Jar with Spout and Human Face Ornament",
+     "Ewers, jugs and teapots",
+     "Jōmon period; Tokyo National Museum, Tokyo",
+     "r3 https://colbase.nich.go.jp/collection_items/tnm/J-38311",
      0
     ],
     [
@@ -4279,49 +4139,49 @@
     [
      "Painter of Athens 894",
      "Makers",
-     "",
+     "Attic Late Geometric painter named after an amphora in the National Archaeological Museum, Athens, c. 730 BC",
      "artists",
      1
     ],
     [
      "Hirschfeld Painter",
      "Makers",
-     "",
+     "Attic Late Geometric painter of funerary kraters, c. 750–735 BC",
      "artists",
      1
     ],
     [
      "Philadelphia Painter",
      "Makers",
-     "",
+     "Attic Late Geometric painter, late 8th c. BC",
      "artists",
      1
     ],
     [
      "Stathatou Painter",
      "Makers",
-     "",
+     "Attic Late Geometric painter, late 8th c. BC",
      "artists",
      1
     ],
     [
      "Birdseed Painter",
      "Makers",
-     "",
+     "Attic Late Geometric painter, late 8th c. BC",
      "artists",
      1
     ],
     [
      "Analatos Painter",
      "Makers",
-     "",
+     "Attic painter at the turn from Late Geometric to Protoattic, c. 700–680 BC",
      "artists",
      1
     ],
     [
      "Dipylon Master",
      "Makers",
-     "",
+     "leading Attic Late Geometric painter of the monumental Dipylon grave vases, c. 760–750 BC",
      "artists",
      1
     ]
@@ -4445,13 +4305,6 @@
      "Bowls and cups",
      "Laconian cup showing King Arkesilas II weighing goods, c. 565–560 BC; Bibliothèque nationale, Paris",
      "r3 https://en.wikipedia.org/wiki/Arkesilas_Cup",
-     0
-    ],
-    [
-     "Vessel fragment/potsherd with effigy/adorno",
-     "Figures and models",
-     "600 BC–AD 1100; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws67c9c06a9-dc31-403a-90f4-1b5503da32a9",
      0
     ],
     [
@@ -5462,13 +5315,6 @@
      0
     ],
     [
-     "Fragmentary Bowl",
-     "Bowls and cups",
-     "14th–15th century; The Metropolitan Museum of Art, New York",
-     "r3 http://www.metmuseum.org/art/collection/search/445168",
-     0
-    ],
-    [
      "Bowl,Reproduction",
      "Bowls and cups",
      "Penn Museum, Philadelphia",
@@ -5646,7 +5492,7 @@
    ]
   },
   "E1-43": {
-   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 163, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
+   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 160, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
    "catalogues": [
     [
      "https://collections.si.edu/search/results.htm?q=Maya+ceramics",
@@ -5820,13 +5666,6 @@
      0
     ],
     [
-     "Vessel fragment/potsherd with effigy/adorno",
-     "Figures and models",
-     "c. 2500 BC; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws64f262622-7cd3-440f-b076-771d92f93076",
-     0
-    ],
-    [
      "Human figure",
      "Figures and models",
      "2000–850 BC (Early Formative period); National Museum of the American Indian (Smithsonian), Washington, DC",
@@ -5862,6 +5701,13 @@
      0
     ],
     [
+     "Snake figure",
+     "Figures and models",
+     "AD 250–950 (Classic period); National Museum of the American Indian (Smithsonian), Washington, DC",
+     "r3 http://n2t.net/ark:/65665/ws687b4ed24-41d7-4190-8949-2f35bac92526",
+     0
+    ],
+    [
      "Building ornament part/fragment",
      "Other works",
      "c. 2500 BC; National Museum of the American Indian (Smithsonian), Washington, DC",
@@ -5880,20 +5726,6 @@
      "Other works",
      "c. 2500 BC; National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws6614dca4b-ba55-495a-92dc-7685872d4773",
-     0
-    ],
-    [
-     "Cylinder-shaped object part/fragment",
-     "Other works",
-     "c. 2500 BC; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws6b855d5b2-af80-4869-9575-e99135fb725a",
-     0
-    ],
-    [
-     "Disc-shaped object",
-     "Other works",
-     "c. 2500 BC; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws6ba2e79ba-98b7-4174-9d8d-10a6615a6f5d",
      0
     ],
     [
@@ -6065,6 +5897,20 @@
      0
     ],
     [
+     "Strainer part/fragment",
+     "Other works",
+     "AD 250–1550 (Classic to Post-Classic period); National Museum of the American Indian (Smithsonian), Washington, DC",
+     "r3 http://n2t.net/ark:/65665/ws67863312c-3633-4f93-b708-305796790673",
+     0
+    ],
+    [
+     "Tripod Vessel with Lid",
+     "Other works",
+     "250–600 CE; Cleveland Museum of Art, Cleveland",
+     "r3 https://clevelandart.org/art/1996.400",
+     0
+    ],
+    [
      "National Museum of the American Indian (Smithsonian)",
      "Collections",
      "Washington, DC — 3057 objects in the gathered records",
@@ -6216,13 +6062,6 @@
      0
     ],
     [
-     "Vessel fragment/potsherd with effigy/adorno",
-     "Figures and models",
-     "c. 2000 BC; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws67ee1de8c-11dd-4609-aca5-2de3b6f0a79e",
-     0
-    ],
-    [
      "Miniature of a Headless Hunchback Figurine",
      "Figures and models",
      "1–150 CE; Art Institute of Chicago, Chicago",
@@ -6248,13 +6087,6 @@
      "Figures and models",
      "AD 350–650 (Classic period); National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws6d1dd4364-e001-4da1-ac6d-fb9e689b97c6",
-     0
-    ],
-    [
-     "Disc-shaped object",
-     "Other works",
-     "c. 2000 BC; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws69d184aea-05b6-4152-b4b2-f0b23a49e98a",
      0
     ],
     [
@@ -6619,13 +6451,6 @@
      0
     ],
     [
-     "Vessel fragment/potsherd with effigy/adorno",
-     "Figures and models",
-     "AD 550-700; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws6f0e53494-a1fb-4c33-8c00-3704c4838c7e",
-     0
-    ],
-    [
      "Footed vessel in the form of a bird",
      "Figures and models",
      "AD 1400-1522; National Museum of the American Indian (Smithsonian), Washington, DC",
@@ -6679,13 +6504,6 @@
      "Other works",
      "1000–1300; Cleveland Museum of Art, Cleveland",
      "r3 https://clevelandart.org/art/1998.30",
-     0
-    ],
-    [
-     "Disc-shaped object",
-     "Other works",
-     "National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws6262474c2-cee4-4c3e-87c8-d44526f3c699",
      0
     ],
     [
@@ -6908,13 +6726,6 @@
      0
     ],
     [
-     "Vessel fragment/potsherd with effigy/adorno",
-     "Figures and models",
-     "300 BC-AD 500; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws6e2c85530-9905-4014-8713-29f0606de7f5",
-     0
-    ],
-    [
      "Human figure",
      "Figures and models",
      "AD 300-500; National Museum of the American Indian (Smithsonian), Washington, DC",
@@ -7116,7 +6927,7 @@
    ]
   },
   "E1-47": {
-   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 338, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
+   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 337, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
    "catalogues": [
     [
      "https://collections.si.edu/search/results.htm?q=Moche+ceramic",
@@ -7547,7 +7358,7 @@
    ]
   },
   "E1-48": {
-   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 319, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
+   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 318, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
    "catalogues": [
     [
      "https://collections.si.edu/search/results.htm?q=Nasca+ceramic",
@@ -7992,7 +7803,7 @@
    ]
   },
   "E1-49": {
-   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 82, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
+   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 81, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
    "catalogues": [
     [
      "https://collections.si.edu/search/results.htm?q=Chimu+blackware",
@@ -8257,10 +8068,10 @@
      0
     ],
     [
-     "Vessel fragment/potsherd with effigy/adorno",
-     "Figures and models",
-     "AD 900–1470 (Late Intermediate period); National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws6fb332f8f-6bcd-48b0-ae26-544face1f290",
+     "Blackware Stirrup Spout Vessel with a Relief Depicting Warriors with Raised Arms",
+     "Ewers, jugs and teapots",
+     "1200–1450; Art Institute of Chicago, Chicago",
+     "r3 https://www.artic.edu/artworks/8880",
      0
     ],
     [
@@ -8518,7 +8329,7 @@
    ]
   },
   "E1-51": {
-   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 68, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
+   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 65, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
    "catalogues": [
     [
      "https://ich.unesco.org/en/RL/artisanal-talavera-of-puebla-and-tlaxcala-mexico-and-ceramics-of-talavera-de-la-reina-and-el-puente-del-arzobispo-spain-making-process-01462",
@@ -8711,6 +8522,20 @@
      0
     ],
     [
+     "Tibor chocolatero (Chocolate jar)",
+     "Jars, vases and bottles",
+     "1725; Art Institute of Chicago, Chicago",
+     "r3 https://www.artic.edu/artworks/10703",
+     0
+    ],
+    [
+     "Barrel-shaped Flower Pot",
+     "Jars, vases and bottles",
+     "ca. 1750; The Metropolitan Museum of Art, New York",
+     "r3 http://www.metmuseum.org/art/collection/search/784873",
+     0
+    ],
+    [
      "Female figure",
      "Figures and models",
      "1500 BC–AD 200 (Formative period); National Museum of the American Indian (Smithsonian), Washington, DC",
@@ -8722,13 +8547,6 @@
      "Figures and models",
      "1500 BC–AD 200 (Formative period); National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws6d1e6aabd-8015-4434-9d69-c5c37a0459c6",
-     0
-    ],
-    [
-     "Vessel fragment/potsherd with effigy/adorno",
-     "Figures and models",
-     "c. 1500 BC; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws66ff5d2f2-ad10-4bc3-a4f4-0e202c796bf0",
      0
     ],
     [
@@ -8767,13 +8585,6 @@
      0
     ],
     [
-     "Cone-shaped object",
-     "Other works",
-     "c. 1500 BC; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws660cfc19e-f38a-4133-891b-e5af9332df1f",
-     0
-    ],
-    [
      "Cylinder seal representing Tezcatlipoca (god of night and war) in jaguar disguise",
      "Other works",
      "1500–500 BC (Early Formative period); National Museum of the American Indian (Smithsonian), Washington, DC",
@@ -8785,13 +8596,6 @@
      "Other works",
      "1500 BC–AD 200 (Formative period); National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws677bc9958-d803-428b-8b4f-0237c11fafdc",
-     0
-    ],
-    [
-     "Disc-shaped object",
-     "Other works",
-     "c. 1500 BC; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws6c2b9064c-2206-4b7d-af4a-f87141a6614c",
      0
     ],
     [
@@ -8904,6 +8708,13 @@
      "Other works",
      "AD 1200–1600 (Late Post-Classic period); National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws6674904d7-207c-4b0a-bd42-47a6bd59b4a6",
+     0
+    ],
+    [
+     "Lavabo",
+     "Other works",
+     "1750; Art Institute of Chicago, Chicago",
+     "r3 https://www.artic.edu/artworks/10598",
      0
     ],
     [
@@ -9025,13 +8836,6 @@
      0
     ],
     [
-     "ZEEF",
-     "Other works",
-     "1965; Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/786859",
-     0
-    ],
-    [
      "Coiling base/Puki and vessel",
      "Other works",
      "1968; National Museum of the American Indian (Smithsonian), Washington, DC",
@@ -9046,45 +8850,10 @@
      0
     ],
     [
-     "Beeld",
-     "Other works",
-     "Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/799070",
-     0
-    ],
-    [
-     "Bel",
-     "Other works",
-     "Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/791662",
-     0
-    ],
-    [
-     "MOLDE",
-     "Other works",
-     "Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/793174",
-     0
-    ],
-    [
-     "SCHAAL",
-     "Other works",
-     "Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/789936",
-     0
-    ],
-    [
      "Tripod vessel",
      "Other works",
      "National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws6c76fb1f3-ae25-46c8-b14e-4baa658cb72a",
-     0
-    ],
-    [
-     "VAAS",
-     "Other works",
-     "Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/793173",
      0
     ],
     [
@@ -9204,45 +8973,10 @@
      0
     ],
     [
-     "BEKER",
-     "Other works",
-     "Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/789994",
-     0
-    ],
-    [
-     "Kruik",
-     "Other works",
-     "Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/785382",
-     0
-    ],
-    [
      "Rattle",
      "Other works",
      "National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws6fea76c00-856d-49be-a83a-63a8d8723362",
-     0
-    ],
-    [
-     "SCHAAL",
-     "Other works",
-     "Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/789995",
-     0
-    ],
-    [
-     "SLANG",
-     "Other works",
-     "Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/791564",
-     0
-    ],
-    [
-     "UIL",
-     "Other works",
-     "Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/789996",
      0
     ],
     [
@@ -9503,20 +9237,6 @@
      0
     ],
     [
-     "Dierenfiguur: stier",
-     "Other works",
-     "Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/820576",
-     0
-    ],
-    [
-     "STIER",
-     "Other works",
-     "Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/780373",
-     0
-    ],
-    [
      "National Museum of the American Indian (Smithsonian)",
      "Collections",
      "Washington, DC — 62 objects in the gathered records",
@@ -9621,13 +9341,6 @@
      0
     ],
     [
-     "Kruik",
-     "Other works",
-     "1850; Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/676027",
-     0
-    ],
-    [
      "Coin bank",
      "Other works",
      "1971-1972; National Museum of the American Indian (Smithsonian), Washington, DC",
@@ -9639,41 +9352,6 @@
      "Other works",
      "1971-1972; National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws6d69c24db-1ce1-4ec2-bc6f-0cc6455fc7cb",
-     0
-    ],
-    [
-     "Beeld",
-     "Other works",
-     "Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/695346",
-     0
-    ],
-    [
-     "Driepootkruik",
-     "Other works",
-     "Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/754916",
-     0
-    ],
-    [
-     "Dubbelkruik",
-     "Other works",
-     "Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/754913",
-     0
-    ],
-    [
-     "Kan",
-     "Other works",
-     "Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/754912",
-     0
-    ],
-    [
-     "Miniatuur eierdop",
-     "Other works",
-     "Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/694956",
      0
     ],
     [
@@ -9773,7 +9451,7 @@
    ]
   },
   "E1-61": {
-   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 103, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
+   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 96, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
    "catalogues": [
     [
      "https://collections.si.edu/search/results.htm?q=Ancestral+Pueblo+pottery",
@@ -9975,13 +9653,6 @@
      0
     ],
     [
-     "Cylinder jar",
-     "Jars, vases and bottles",
-     "AD 800–1140 (Pueblo I to Pueblo II period); National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws65499b533-9436-408d-8f41-b4a6fd9d6f5c",
-     0
-    ],
-    [
      "Storage Jar with Horizontal Bands of Interlocking Scrolls",
      "Jars, vases and bottles",
      "875–1130; Art Institute of Chicago, Chicago",
@@ -10038,10 +9709,10 @@
      0
     ],
     [
-     "Vessel fragment/potsherd with effigy/adorno",
+     "Altar figure",
      "Figures and models",
-     "AD 750–1350 (Pueblo I to Pueblo III period); National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws6f7ea11b0-7639-4a3c-89b6-81f98e0cfa81",
+     "AD 1400–1680 (Pueblo IV to Post-contact period); National Museum of the American Indian (Smithsonian), Washington, DC",
+     "r3 http://n2t.net/ark:/65665/ws67a160de0-ffc4-4f69-81ad-4b16703a5803",
      0
     ],
     [
@@ -10063,13 +9734,6 @@
      "Other works",
      "1500 BC-AD 1500; National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws6e74fc541-5189-4e48-a913-4ad3e0ba8b18",
-     0
-    ],
-    [
-     "Disc-shaped object",
-     "Other works",
-     "c. 500 BC; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws66a7c8ccc-129c-4336-9c8a-2d4589bb7dec",
      0
     ],
     [
@@ -10206,6 +9870,20 @@
      0
     ],
     [
+     "Bell",
+     "Other works",
+     "AD 1400–1680 (Pueblo IV to Post-contact period); National Museum of the American Indian (Smithsonian), Washington, DC",
+     "r3 http://n2t.net/ark:/65665/ws65167d62d-53fc-4cdb-99ff-72fc9c75bde9",
+     0
+    ],
+    [
+     "Bell part/fragment",
+     "Other works",
+     "AD 1400–1680 (Pueblo IV to Post-contact period); National Museum of the American Indian (Smithsonian), Washington, DC",
+     "r3 http://n2t.net/ark:/65665/ws6cba90cb9-5f60-4f41-a3a1-d2f2894b5152",
+     0
+    ],
+    [
      "National Museum of the American Indian (Smithsonian)",
      "Collections",
      "Washington, DC — 4734 objects in the gathered records",
@@ -10308,13 +9986,6 @@
      0
     ],
     [
-     "Vessel fragment/potsherd with effigy/adorno",
-     "Figures and models",
-     "AD 850–1300 (Mogollon Pueblo period); National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws62e043737-c244-44eb-8f5e-16c44981dbf5",
-     0
-    ],
-    [
      "Pipe fragment",
      "Other works",
      "AD 200–1450 (Pithouse to Mogollon Pueblo period); National Museum of the American Indian (Smithsonian), Washington, DC",
@@ -10326,13 +9997,6 @@
      "Other works",
      "c. 550; National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws6468e2cbf-c464-4b69-9293-32ef0502de88",
-     0
-    ],
-    [
-     "Disc-shaped object",
-     "Other works",
-     "c. 550; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws6026d6d9d-1aa0-48ee-9df5-4565df972c7a",
      0
     ],
     [
@@ -10437,13 +10101,6 @@
      "Jars, vases and bottles",
      "AD 850–950 (Pre-Classic period); National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws6e0d900c3-b0d9-4064-aa6e-5b5789d54d65",
-     0
-    ],
-    [
-     "Disc-shaped object",
-     "Other works",
-     "c. 100; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws6bc2d7713-110c-4e9d-9dc4-7af52713e6fc",
      0
     ],
     [
@@ -10564,31 +10221,10 @@
      0
     ],
     [
-     "Vessel fragment/potsherd with effigy/adorno",
-     "Figures and models",
-     "600 BC–AD 1100; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws67c9c06a9-dc31-403a-90f4-1b5503da32a9",
-     0
-    ],
-    [
-     "Vessel fragment/potsherd with effigy/adorno (No image available)",
-     "Figures and models",
-     "AD 800-1500; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws68b6a32b1-e174-4bc6-93dd-b17dff498c8a",
-     0
-    ],
-    [
      "Griddle/cooking surface part/fragment",
      "Other works",
      "c. 600 BC; National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws67f89992f-aae9-4a92-a63b-4600eeb35205",
-     0
-    ],
-    [
-     "Disc-shaped object",
-     "Other works",
-     "500 BC-AD 1100; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws6c99cc4bf-deb2-4418-90fd-8f3e08340e84",
      0
     ],
     [
@@ -10603,13 +10239,6 @@
      "Other works",
      "300 BC-AD 1450; National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws66814404b-c4cd-480d-bfee-64dbf978ae49",
-     0
-    ],
-    [
-     "Cylinder-shaped object part/fragment",
-     "Other works",
-     "AD 1-600; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws60b8554b7-3f82-40d3-8993-91edb6f9a9a3",
      0
     ],
     [
@@ -10750,13 +10379,6 @@
      0
     ],
     [
-     "Vessel fragment/potsherd with effigy/adorno",
-     "Figures and models",
-     "probably AD 1150-1450; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws64c1e4035-9e3f-4d4c-8069-aea02c828576",
-     0
-    ],
-    [
      "Vessel in the form of a woman",
      "Figures and models",
      "AD 1150-1450; National Museum of the American Indian (Smithsonian), Washington, DC",
@@ -10853,7 +10475,7 @@
    ]
   },
   "E1-66": {
-   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 154, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
+   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 140, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
    "catalogues": [
     [
      "https://collections.si.edu/search/results.htm?q=Pueblo+pottery",
@@ -11006,6 +10628,20 @@
      0
     ],
     [
+     "Polychrome Jar (Olla) with Curvilinear Geometric Motifs and Abstract Birds within Bold Frames",
+     "Jars, vases and bottles",
+     "1890–1930; Art Institute of Chicago, Chicago",
+     "r3 https://www.artic.edu/artworks/109305",
+     0
+    ],
+    [
+     "Wedding vase",
+     "Jars, vases and bottles",
+     "1900-1920; National Museum of the American Indian (Smithsonian), Washington, DC",
+     "r3 http://n2t.net/ark:/65665/ws630938004-a0e0-4c9d-9304-78f7c7ea7879",
+     0
+    ],
+    [
      "Vessel with Four Spouts",
      "Ewers, jugs and teapots",
      "early 1800s?; Cleveland Museum of Art, Cleveland",
@@ -11013,17 +10649,10 @@
      0
     ],
     [
-     "Vessel fragment/potsherd with effigy/adorno",
-     "Figures and models",
-     "AD 600–1800; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws6dcb22bc3-d7b0-4e65-8b50-1c4676b6ae4a",
-     0
-    ],
-    [
-     "Vessel fragment/potsherd with effigy/adorno (No image available)",
-     "Figures and models",
-     "AD 800-1500; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws62cf621a4-eb9a-488b-a4a3-b1c3e45dfc5b",
+     "Pitcher in the form of a snail (?)",
+     "Ewers, jugs and teapots",
+     "circa 1890; National Museum of the American Indian (Smithsonian), Washington, DC",
+     "r3 http://n2t.net/ark:/65665/ws6076bb96a-08fc-4b51-b5fa-07fe2c2abb64",
      0
     ],
     [
@@ -11076,6 +10705,41 @@
      0
     ],
     [
+     "Singing man figure",
+     "Figures and models",
+     "circa 1890; National Museum of the American Indian (Smithsonian), Washington, DC",
+     "r3 http://n2t.net/ark:/65665/ws6a35eb78f-6df5-4124-ac68-ae392f0e0b92",
+     0
+    ],
+    [
+     "Rain God/Figure (No image available)",
+     "Figures and models",
+     "1900-1930; National Museum of the American Indian (Smithsonian), Washington, DC",
+     "r3 http://n2t.net/ark:/65665/ws61c0ac3f7-67f4-4cda-8d03-a103bc0a7e72",
+     0
+    ],
+    [
+     "Cradleboard model/toy",
+     "Figures and models",
+     "1910-1930; National Museum of the American Indian (Smithsonian), Washington, DC",
+     "r3 http://n2t.net/ark:/65665/ws6426c6232-b411-41b9-a117-365c802009a4",
+     0
+    ],
+    [
+     "House model",
+     "Figures and models",
+     "circa 1915; National Museum of the American Indian (Smithsonian), Washington, DC",
+     "r3 http://n2t.net/ark:/65665/ws6379b55e4-28f1-4f43-acea-13f8fd977ce5",
+     0
+    ],
+    [
+     "Kiva model with figures",
+     "Figures and models",
+     "circa 1915; National Museum of the American Indian (Smithsonian), Washington, DC",
+     "r3 http://n2t.net/ark:/65665/ws6145e6723-2baf-4657-ab84-b8d2492d7b69",
+     0
+    ],
+    [
      "Tripod vessel",
      "Other works",
      "AD 800-1500; National Museum of the American Indian (Smithsonian), Washington, DC",
@@ -11097,13 +10761,6 @@
      0
     ],
     [
-     "Disc-shaped object",
-     "Other works",
-     "AD 1250–1650 (Pueblo III to Post-contact period); National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws6ea9b381c-7450-463c-8077-9439645465fc",
-     0
-    ],
-    [
      "Pendant",
      "Other works",
      "AD 1250–1650 (Pueblo III to Post-contact period); National Museum of the American Indian (Smithsonian), Washington, DC",
@@ -11115,13 +10772,6 @@
      "Other works",
      "AD 1350–1450 (Pueblo IV period); National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws6f1eb07a8-bfbc-43cc-98ab-6bfa65754488",
-     0
-    ],
-    [
-     "Abrader",
-     "Other works",
-     "AD 1400–1680 (Pueblo IV to Post-contact period); National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws6e0b8df07-820b-4091-979a-20f83bb0c9b5",
      0
     ],
     [
@@ -11164,27 +10814,6 @@
      "Other works",
      "AD 1400–1680 (Pueblo IV to Post-contact period); National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws6679c1158-6b51-4640-8f60-c539aaa6a838",
-     0
-    ],
-    [
-     "Cone-shaped object",
-     "Other works",
-     "AD 1400–1680 (Pueblo IV to Post-contact period); National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws6e38a80f1-925d-453c-b2d4-43ba90d51b03",
-     0
-    ],
-    [
-     "Cylinder-shaped object part/fragment",
-     "Other works",
-     "AD 1400–1680 (Pueblo IV to Post-contact period); National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws65682d980-ec94-4c17-8e28-58f3098c476a",
-     0
-    ],
-    [
-     "Perforated object",
-     "Other works",
-     "AD 1400–1680 (Pueblo IV to Post-contact period); National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws6c900d585-4c98-4040-9ac4-cad807cdc351",
      0
     ],
     [
@@ -11237,59 +10866,52 @@
      0
     ],
     [
-     "LEPEL",
-     "Other works",
-     "1870; Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/653193",
-     0
-    ],
-    [
-     "SCHAAL",
-     "Other works",
-     "1870; Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/686693",
-     0
-    ],
-    [
-     "KOM",
-     "Other works",
-     "1875; Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/666827",
-     0
-    ],
-    [
-     "KOP",
-     "Other works",
-     "1875; Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/666833",
-     0
-    ],
-    [
-     "POTJE",
-     "Other works",
-     "1875; Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/666840",
-     0
-    ],
-    [
-     "UILTJE",
-     "Other works",
-     "1875; Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/666843",
-     0
-    ],
-    [
-     "KAN",
-     "Other works",
-     "1885; Museum Volkenkunde (Wereldmuseum Leiden), Leiden",
-     "r3 https://hdl.handle.net/20.500.11840/666828",
-     0
-    ],
-    [
      "Figural group",
      "Other works",
      "1890-1910; National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws6a607f46e-6863-4e78-a8ee-71e34904ecfc",
+     0
+    ],
+    [
+     "Pipe",
+     "Other works",
+     "1890-1910; National Museum of the American Indian (Smithsonian), Washington, DC",
+     "r3 http://n2t.net/ark:/65665/ws64dcc052e-9b99-4f33-8a38-618e17d4c638",
+     0
+    ],
+    [
+     "Necklace",
+     "Other works",
+     "1900–10; Art Institute of Chicago, Chicago",
+     "r3 https://www.artic.edu/artworks/279980",
+     0
+    ],
+    [
+     "Woman's legging moccasins",
+     "Other works",
+     "circa 1900; National Museum of the American Indian (Smithsonian), Washington, DC",
+     "r3 http://n2t.net/ark:/65665/ws650ad0e3e-8143-441c-ba45-2792027f8744",
+     0
+    ],
+    [
+     "Baking Pottery at Laguna, New Mexico",
+     "Other works",
+     "June 1, 1901; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/21799",
+     0
+    ],
+    [
+     "Pump drill",
+     "Other works",
+     "1910-1930; National Museum of the American Indian (Smithsonian), Washington, DC",
+     "r3 http://n2t.net/ark:/65665/ws608746a1c-9feb-4907-bc05-90a5546ddbd7",
+     0
+    ],
+    [
+     "Grog/crushed sherds",
+     "Other works",
+     "1918; National Museum of the American Indian (Smithsonian), Washington, DC",
+     "r3 http://n2t.net/ark:/65665/ws6b2b21af5-d7ea-4e16-8400-766855ecba81",
      0
     ],
     [
@@ -12398,24 +12020,10 @@
      0
     ],
     [
-     "Vessel fragment/potsherd with effigy/adorno",
-     "Figures and models",
-     "c. 100 BC; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws6f1c41d38-0178-4137-bb5c-3120f9ce502f",
-     0
-    ],
-    [
      "Vessel in the form of a woman",
      "Figures and models",
      "AD 1350–1600 (Late Mississippian period); National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws6cd0a3b73-5758-4359-8859-07d6c732f89b",
-     0
-    ],
-    [
-     "Perforated object",
-     "Other works",
-     "c. 3000 BC; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws6727aa34d-daec-44b8-a52b-bc8419443373",
      0
     ],
     [
@@ -12433,13 +12041,6 @@
      0
     ],
     [
-     "Disc-shaped object",
-     "Other works",
-     "c. 1000 BC; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws6294e7db6-7392-4249-be9b-79aaf3f7753d",
-     0
-    ],
-    [
      "Ear spool",
      "Other works",
      "c. 1000 BC; National Museum of the American Indian (Smithsonian), Washington, DC",
@@ -12451,13 +12052,6 @@
      "Other works",
      "c. 1000 BC; National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws61b4f6523-53a4-455d-9340-84688dcf3afd",
-     0
-    ],
-    [
-     "Gorget",
-     "Other works",
-     "c. 1000 BC; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws637321ed7-9875-4593-9f68-bdee442d7296",
      0
     ],
     [
@@ -12510,24 +12104,10 @@
      0
     ],
     [
-     "Celt",
-     "Other works",
-     "AD 900-1250 (Early Mississippian period); National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws69a29b663-2b38-4e2e-96f3-03a4edd8a6e5",
-     0
-    ],
-    [
      "Clay",
      "Other works",
      "AD 900-1100 (Early Mississippian period); National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws650299c5a-2b70-4b22-8457-88c1dfbe4c69",
-     0
-    ],
-    [
-     "Cone-shaped object",
-     "Other works",
-     "AD 900-1250 (Early Mississippian period); National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws6ae9bf6d7-0783-4889-9fe8-466775ce9d16",
      0
     ],
     [
@@ -12584,20 +12164,6 @@
      "Other works",
      "AD 900–1565 (Early to Late Mississippian period); National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws66199a752-dc8c-4916-8805-6250460bac77",
-     0
-    ],
-    [
-     "Abrader",
-     "Other works",
-     "AD 1000–1500 (Early to Middle Caddo period); National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws65e4dd473-cda1-4886-95be-15f27e5cf57f",
-     0
-    ],
-    [
-     "Cylinder-shaped object part/fragment",
-     "Other works",
-     "AD 1000–1500 (Early to Middle Caddo period); National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws678f29b33-2cad-48e9-8321-f70a1fe4390c",
      0
     ],
     [
@@ -12731,13 +12297,6 @@
      0
     ],
     [
-     "Vessel fragment/potsherd with effigy/adorno",
-     "Figures and models",
-     "AD 150-650 (Middle Woodland period); National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws68864d3bd-c707-40c0-b503-b502d1fedddf",
-     0
-    ],
-    [
      "National Museum of the American Indian (Smithsonian)",
      "Collections",
      "Washington, DC — 68 objects in the gathered records",
@@ -12769,13 +12328,6 @@
     ]
    ],
    "kinds": [
-    [
-     "Vessel fragment/potsherd with effigy/adorno",
-     "Figures and models",
-     "c. 300; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws673e15e32-56dd-4f59-bf4b-73f1f1cff8c6",
-     0
-    ],
     [
      "National Museum of the American Indian (Smithsonian)",
      "Collections",
@@ -12841,13 +12393,6 @@
      "Bowls and cups",
      "1973; National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws603602794-7ae8-405a-8a38-021cac4eef56",
-     0
-    ],
-    [
-     "Pipe bowl in the form of a tomahawk or axe",
-     "Bowls and cups",
-     "1973; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws6bcb9d12e-893c-4838-8a8a-c8d1100a6c60",
      0
     ],
     [
@@ -12921,13 +12466,6 @@
      0
     ],
     [
-     "Vessel fragment/potsherd with effigy/adorno",
-     "Figures and models",
-     "National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws695cd21ab-3e0d-4857-9e34-e09402189a49",
-     0
-    ],
-    [
      "Pipe fragment",
      "Other works",
      "1680-1800; National Museum of the American Indian (Smithsonian), Washington, DC",
@@ -12967,13 +12505,6 @@
      "Other works",
      "National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws68dc5a9f2-301e-45cb-a492-c4860ee26e71",
-     0
-    ],
-    [
-     "Knife",
-     "Other works",
-     "National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws699bedc86-eead-4022-80ef-ff970490215d",
      0
     ],
     [
@@ -13291,13 +12822,6 @@
      0
     ],
     [
-     "Design for Majolica Pitcher",
-     "Ewers, jugs and teapots",
-     "18th century; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/11098",
-     0
-    ],
-    [
      "Globe",
      "Other works",
      "1400; The Metropolitan Museum of Art, New York",
@@ -13373,7 +12897,7 @@
    ]
   },
   "E1-76": {
-   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 52, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
+   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
    "catalogues": [
     [
      "https://collections.vam.ac.uk/search/?q=faience+French",
@@ -13601,6 +13125,13 @@
      0
     ],
     [
+     "Figure of a dog",
+     "Figures and models",
+     "1870–80; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/139233",
+     0
+    ],
+    [
      "Inkstand",
      "Other works",
      "1760s–70s; Cooper Hewitt, Smithsonian Design Museum, New York",
@@ -13633,13 +13164,6 @@
      "Other works",
      "18th century; Cooper Hewitt, Smithsonian Design Museum, New York",
      "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/58677",
-     0
-    ],
-    [
-     "Dinner Knife with Earthenware Handle",
-     "Other works",
-     "possibly 18th century; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/78227",
      0
     ],
     [
@@ -13706,13 +13230,6 @@
      0
     ],
     [
-     "Knife with Earthenware Handle",
-     "Other works",
-     "ca. 1735; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/182244",
-     0
-    ],
-    [
      "Commode Chair",
      "Other works",
      "ca. 1750; Cooper Hewitt, Smithsonian Design Museum, New York",
@@ -13748,13 +13265,6 @@
      0
     ],
     [
-     "Knife with Earthenware Handle (One of a Pair)",
-     "Other works",
-     "late 18th century; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/182212",
-     0
-    ],
-    [
      "wall fountain",
      "Other works",
      "1774–1793; Cooper Hewitt, Smithsonian Design Museum, New York",
@@ -13787,6 +13297,13 @@
      "Other works",
      "1866; Cooper Hewitt, Smithsonian Design Museum, New York",
      "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/192211",
+     0
+    ],
+    [
+     "Worsham-Rockefeller House",
+     "Other works",
+     "ca. 1880; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/56355",
      0
     ],
     [
@@ -14805,20 +14322,6 @@
      0
     ],
     [
-     "Vessel fragment/potsherd with effigy/adorno",
-     "Figures and models",
-     "AD 1500–1590; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws60637dce3-597d-49b7-b8a7-18db12e85891",
-     0
-    ],
-    [
-     "Abrader",
-     "Other works",
-     "c. 6000 BC; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws68ca83d32-ce74-4442-adcc-e61c6b4503ee",
-     0
-    ],
-    [
      "Smoking tube/Pipe",
      "Other works",
      "c. 600; National Museum of the American Indian (Smithsonian), Washington, DC",
@@ -14837,13 +14340,6 @@
      "Other works",
      "AD 900–1650 (Late Woodland period); National Museum of the American Indian (Smithsonian), Washington, DC",
      "r3 http://n2t.net/ark:/65665/ws6612d1c59-4ce7-46bf-bd73-1eb777283f5d",
-     0
-    ],
-    [
-     "Disc-shaped object",
-     "Other works",
-     "AD 1000–1600 (Late Woodland period); National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws69ce0a20d-df19-4cc8-8260-1098bfffb929",
      0
     ],
     [
@@ -16406,13 +15902,6 @@
      "Bowls and cups",
      "c. 1125; Museum für Kunst und Gewerbe, Hamburg",
      "r3 https://islamicart.museumwnf.org/database_item.php?id=object;EPM;de;Mus21;31;en",
-     0
-    ],
-    [
-     "Fragmentary base of a bowl",
-     "Bowls and cups",
-     "early 13th century; National Museum of Asian Art (Freer|Sackler), Washington, DC",
-     "r3 https://asia.si.edu/object/FSC-P-4780/",
      0
     ],
     [
@@ -18775,13 +18264,6 @@
      "Other works",
      "ca. 1750; Victoria and Albert Museum, London",
      "r3 https://collections.vam.ac.uk/item/O308673/",
-     0
-    ],
-    [
-     "Conical object",
-     "Other works",
-     "1750-1775; Victoria and Albert Museum, London",
-     "r3 https://collections.vam.ac.uk/item/O39238/",
      0
     ],
     [
@@ -26943,20 +26425,6 @@
      0
     ],
     [
-     "Incense Burner Shaped Like a Cooking Vessel (\"Ding\") with Lion and Peony Ornaments",
-     "Jars, vases and bottles",
-     "Qing period; Tokyo National Museum, Tokyo",
-     "r3 https://colbase.nich.go.jp/collection_items/tnm/TG-1657",
-     0
-    ],
-    [
-     "Incense Burner in the Shape of an Ancient Bronze Ding Cauldron",
-     "Jars, vases and bottles",
-     "Qing period; Kyoto National Museum, Kyoto",
-     "r3 https://colbase.nich.go.jp/collection_items/kyohaku/G%E7%94%B2610",
-     0
-    ],
-    [
      "Ding Porcelain Flowerpot with Engraved Lotus Petals",
      "Jars, vases and bottles",
      "Kyoto National Museum, Kyoto",
@@ -26978,45 +26446,10 @@
      0
     ],
     [
-     "Ding\" Cooking Vessel, Ash glaze",
-     "Other works",
-     "Western Han; Tokyo National Museum, Tokyo",
-     "r3 https://colbase.nich.go.jp/collection_items/tnm/TJ-4669",
-     0
-    ],
-    [
-     "Gray Pottery \"Ding\" Cooking Vessel",
-     "Other works",
-     "Western Han; Tokyo National Museum, Tokyo",
-     "r3 https://colbase.nich.go.jp/collection_items/tnm/TJ-2060",
-     0
-    ],
-    [
-     "Covered Tripod Caldron (Ding) with Geometric Designs",
-     "Other works",
-     "Eastern Han; Art Institute of Chicago, Chicago",
-     "r3 https://www.artic.edu/artworks/21382",
-     0
-    ],
-    [
-     "Gray Pottery Ding Tripod",
-     "Other works",
-     "Eastern Han; Tokyo National Museum, Tokyo",
-     "r3 https://colbase.nich.go.jp/collection_items/tnm/TJ-2991",
-     0
-    ],
-    [
      "Tripod: Ding",
      "Other works",
      "Ming period; Cleveland Museum of Art, Cleveland",
      "r3 https://clevelandart.org/art/1956.606",
-     0
-    ],
-    [
-     "Censer in the Form of an Ancient Bronze Tripod Cauldron (Ding)",
-     "Other works",
-     "Qing period; Art Institute of Chicago, Chicago",
-     "r3 https://www.artic.edu/artworks/57450",
      0
     ],
     [
@@ -27029,28 +26462,21 @@
     [
      "Kyoto National Museum",
      "Collections",
-     "Kyoto — 6 objects in the gathered records",
+     "Kyoto — 5 objects in the gathered records",
      "r3 https://colbase.nich.go.jp/",
-     0
-    ],
-    [
-     "Tokyo National Museum",
-     "Collections",
-     "Tokyo — 6 objects in the gathered records",
-     "r3 https://colbase.nich.go.jp/",
-     0
-    ],
-    [
-     "Art Institute of Chicago",
-     "Collections",
-     "Chicago — 5 objects in the gathered records",
-     "r3 https://www.artic.edu/collection",
      0
     ],
     [
      "National Institutes for Cultural Heritage (Japan)",
      "Collections",
      "Tokyo — 3 objects in the gathered records",
+     "r3 https://colbase.nich.go.jp/",
+     0
+    ],
+    [
+     "Tokyo National Museum",
+     "Collections",
+     "Tokyo — 2 objects in the gathered records",
      "r3 https://colbase.nich.go.jp/",
      0
     ]
@@ -27913,7 +27339,7 @@
    "alias_rows": []
   },
   "E4-7": {
-   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 128, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
+   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 116, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
    "catalogues": [
     [
      "https://digitalarchive.npm.gov.tw/Collection/Search?Keyword=%E4%BA%94%E5%BD%A9",
@@ -27954,13 +27380,6 @@
      "Schools & phases",
      "dense imperial wucai of the Wanli reign, 1573–1620",
      "r3 https://en.wikipedia.org/wiki/Wucai",
-     0
-    ],
-    [
-     "Round Dish with Birds and Flowers, and the Character for “Pioneer” Zhangzhou ware",
-     "Dishes and plates",
-     "Song period; Kyoto National Museum, Kyoto",
-     "r3 https://colbase.nich.go.jp/collection_items/kyohaku/G%E7%94%B2913",
      0
     ],
     [
@@ -28097,73 +27516,45 @@
      0
     ],
     [
-     "Cizhou Bowl with Peonies in Overglaze Enamels",
-     "Bowls and cups",
-     "Song period; Kyoto National Museum, Kyoto",
-     "r3 https://colbase.nich.go.jp/collection_items/kyohaku/G%E7%94%B2220",
+     "Flower-shaped Dish with Flowers and Birds in Underglaze Blue and Overglaze Enamels",
+     "Dishes and plates",
+     "Ming period; Kyoto National Museum, Kyoto",
+     "r3 https://colbase.nich.go.jp/collection_items/kyohaku/G%E7%94%B2347",
      0
     ],
     [
-     "Bowl Design of flowering plant in overglaze enamels.",
-     "Bowls and cups",
-     "Jin period; Tokyo National Museum, Tokyo",
-     "r3 https://colbase.nich.go.jp/collection_items/tnm/TG-779",
+     "Flower-shaped Dish with Peonies, Flowering Plants, and Fish in Underglaze Blue and Overglaze Enamels (Iroe Shonzui)",
+     "Dishes and plates",
+     "Ming period; Kyoto National Museum, Kyoto",
+     "r3 https://colbase.nich.go.jp/collection_items/kyohaku/G%E7%94%B2351",
      0
     ],
     [
-     "Bowl with Flowering Plants, Stoneware with white slip and overglaze enamel",
-     "Bowls and cups",
-     "Jin period; Tokyo National Museum, Tokyo",
-     "r3 https://colbase.nich.go.jp/collection_items/tnm/TG-777",
+     "Flower-shaped Dish with Rabbit, Cranes, and Twisted Bands in Iroe Shonzui (Underglaze Blue and Overglaze Enamels)",
+     "Dishes and plates",
+     "Ming period; Kyoto National Museum, Kyoto",
+     "r3 https://colbase.nich.go.jp/collection_items/kyohaku/G%E7%94%B2350",
      0
     ],
     [
-     "Bowl with Waterfowl",
-     "Bowls and cups",
-     "Jin period; Tokyo National Museum, Tokyo",
-     "r3 https://colbase.nich.go.jp/collection_items/tnm/TG-2503",
+     "Foliate Rimmed Dish, Figure under the tree in overglaze enamel",
+     "Dishes and plates",
+     "Ming period; Tokyo National Museum, Tokyo",
+     "r3 https://colbase.nich.go.jp/collection_items/tnm/TG-612",
      0
     ],
     [
-     "Bowl with a Lotus and Fish",
-     "Bowls and cups",
-     "Jin period; Tokyo National Museum, Tokyo",
-     "r3 https://colbase.nich.go.jp/collection_items/tnm/TG-2504",
+     "Foliate Rimmed Dish, Landscape in overglaze enamel",
+     "Dishes and plates",
+     "Ming period; Tokyo National Museum, Tokyo",
+     "r3 https://colbase.nich.go.jp/collection_items/tnm/TG-262",
      0
     ],
     [
-     "Bowl with a Peony",
-     "Bowls and cups",
-     "Jin period; Tokyo National Museum, Tokyo",
-     "r3 https://colbase.nich.go.jp/collection_items/tnm/TG-780",
-     0
-    ],
-    [
-     "Bowl with the Character for \"Chicken",
-     "Bowls and cups",
-     "Jin period; Tokyo National Museum, Tokyo",
-     "r3 https://colbase.nich.go.jp/collection_items/tnm/TG-781",
-     0
-    ],
-    [
-     "Bowl, Flower in overglaze enamels",
-     "Bowls and cups",
-     "Jin period; Tokyo National Museum, Tokyo",
-     "r3 https://colbase.nich.go.jp/collection_items/tnm/TG-2986",
-     0
-    ],
-    [
-     "Bowl, Peony design in overglaze enamel",
-     "Bowls and cups",
-     "Jin period; Tokyo National Museum, Tokyo",
-     "r3 https://colbase.nich.go.jp/collection_items/tnm/TG-778",
-     0
-    ],
-    [
-     "Stemmed Alcohol Cup with Peonies",
-     "Bowls and cups",
-     "Jin period; Tokyo National Museum, Tokyo",
-     "r3 https://colbase.nich.go.jp/collection_items/tnm/TG-784",
+     "Hexagonal Dish, Landscape design in overglaze enamel",
+     "Dishes and plates",
+     "Ming period; Tokyo National Museum, Tokyo",
+     "r3 https://colbase.nich.go.jp/collection_items/tnm/TG-925",
      0
     ],
     [
@@ -28251,10 +27642,38 @@
      0
     ],
     [
-     "Cizhou Female Figurine in Overglaze Enamels",
-     "Figures and models",
-     "Yuan period; Kyoto National Museum, Kyoto",
-     "r3 https://colbase.nich.go.jp/collection_items/kyohaku/G%E7%94%B2194",
+     "Four-Sided Jar with Birds and Flowers",
+     "Jars, vases and bottles",
+     "Ming period; Tokyo National Museum, Tokyo",
+     "r3 https://colbase.nich.go.jp/collection_items/tnm/TG-906",
+     0
+    ],
+    [
+     "Four-Sided Vase with Dragons",
+     "Jars, vases and bottles",
+     "Ming period; Tokyo National Museum, Tokyo",
+     "r3 https://colbase.nich.go.jp/collection_items/tnm/TG-903",
+     0
+    ],
+    [
+     "Jar Bat and cloud design in overglaze enamel",
+     "Jars, vases and bottles",
+     "Ming period; Tokyo National Museum, Tokyo",
+     "r3 https://colbase.nich.go.jp/collection_items/tnm/TG-902",
+     0
+    ],
+    [
+     "Jar with One Hundred Deer",
+     "Jars, vases and bottles",
+     "Ming period; Tokyo National Museum, Tokyo",
+     "r3 https://colbase.nich.go.jp/collection_items/tnm/TG-901",
+     0
+    ],
+    [
+     "Jar with One-Hundred Boys",
+     "Jars, vases and bottles",
+     "Ming period; Tokyo National Museum, Tokyo",
+     "r3 https://colbase.nich.go.jp/collection_items/tnm/TG-2184",
      0
     ],
     [
@@ -28307,16 +27726,23 @@
      0
     ],
     [
+     "Incense Container with Flowers",
+     "Other works",
+     "Ming period; Tokyo National Museum, Tokyo",
+     "r3 https://colbase.nich.go.jp/collection_items/tnm/TG-2547",
+     0
+    ],
+    [
      "Tokyo National Museum",
      "Collections",
-     "Tokyo — 254 objects in the gathered records",
+     "Tokyo — 237 objects in the gathered records",
      "r3 https://colbase.nich.go.jp/",
      0
     ],
     [
      "Kyoto National Museum",
      "Collections",
-     "Kyoto — 44 objects in the gathered records",
+     "Kyoto — 41 objects in the gathered records",
      "r3 https://colbase.nich.go.jp/",
      0
     ],
@@ -29998,13 +29424,6 @@
      0
     ],
     [
-     "Vessel fragment/potsherd with effigy/adorno",
-     "Figures and models",
-     "AD 1200–1550 (Late Post-Classic period); National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws6d39bac27-2965-4c31-bd62-7e8bac7f9629",
-     0
-    ],
-    [
      "Figure of a crowing cock",
      "Figures and models",
      "c. 1675; Rijksmuseum, Amsterdam",
@@ -30619,7 +30038,7 @@
    ]
   },
   "E4-16": {
-   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 216, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
+   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 214, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
    "catalogues": [
     [
      "https://colbase.nich.go.jp/collection_items?locale=en&keyword=%E4%BC%8A%E4%B8%87%E9%87%8C",
@@ -30931,6 +30350,20 @@
      0
     ],
     [
+     "Bottle vase with two continuous landscapes with figures",
+     "Jars, vases and bottles",
+     "c. 1650; Rijksmuseum, Amsterdam",
+     "r3 https://hdl.handle.net/10934/RM0001.COLLECT.3520",
+     0
+    ],
+    [
+     "Cilindrical vase with a continuous image with figures in a landscape",
+     "Jars, vases and bottles",
+     "c. 1650; Rijksmuseum, Amsterdam",
+     "r3 https://hdl.handle.net/10934/RM0001.COLLECT.3521",
+     0
+    ],
+    [
      "Jingdezhen Ewer with Peonies and Arabesque in Overglaze Enamels and Gilt",
      "Ewers, jugs and teapots",
      "Ming period; Kyoto National Museum, Kyoto",
@@ -30949,13 +30382,6 @@
      "Ewers, jugs and teapots",
      "17th century; Rijksmuseum, Amsterdam",
      "r3 https://hdl.handle.net/10934/RM0001.COLLECT.3544",
-     0
-    ],
-    [
-     "Vessel fragment/potsherd with effigy/adorno",
-     "Figures and models",
-     "600 BC–AD 1100; National Museum of the American Indian (Smithsonian), Washington, DC",
-     "r3 http://n2t.net/ark:/65665/ws67c9c06a9-dc31-403a-90f4-1b5503da32a9",
      0
     ],
     [
@@ -31012,13 +30438,6 @@
      "Other works",
      "Edo period; Kyoto National Museum, Kyoto",
      "r3 https://colbase.nich.go.jp/collection_items/kyohaku/G%E7%94%B2322",
-     0
-    ],
-    [
-     "Knife with Porcelain Handle",
-     "Other works",
-     "Handle, Kangxi, 1622–1722; blade, ca. 1710; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/182257",
      0
     ],
     [
@@ -32321,7 +31740,7 @@
    ]
   },
   "E4-23": {
-   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 84, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
+   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 79, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
    "catalogues": [
     [
      "https://collections.vam.ac.uk/search/?q=Meissen",
@@ -32444,6 +31863,13 @@
      0
     ],
     [
+     "Beaker with Water Birds (One of a Pair)",
+     "Bowls and cups",
+     "late 18th century; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/194940",
+     0
+    ],
+    [
      "Square bottle with prunus and chrysanthemum",
      "Jars, vases and bottles",
      "c. 1670; Rijksmuseum, Amsterdam",
@@ -32479,6 +31905,13 @@
      0
     ],
     [
+     "Pair of Potpourri Vases",
+     "Jars, vases and bottles",
+     "ca. 1760; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/108042",
+     0
+    ],
+    [
      "Teapot with \"Hausmaler\" Decor",
      "Ewers, jugs and teapots",
      "1725–1730; Cooper Hewitt, Smithsonian Design Museum, New York",
@@ -32497,6 +31930,13 @@
      "Ewers, jugs and teapots",
      "1730–1735; Cooper Hewitt, Smithsonian Design Museum, New York",
      "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/181405",
+     0
+    ],
+    [
+     "Coffeepot with Grisaille Roses (with Milk Jug)",
+     "Ewers, jugs and teapots",
+     "late 18th–early 19th century; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/44546",
      0
     ],
     [
@@ -32591,27 +32031,6 @@
      0
     ],
     [
-     "Fork and Knife with Porcelain Handles",
-     "Other works",
-     "mid- 18th–18th century; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/44568",
-     0
-    ],
-    [
-     "Fork with Porcelain Handle (Paired with Knife)",
-     "Other works",
-     "18th century; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/45165",
-     0
-    ],
-    [
-     "Knife with Porcelain Handle (Paired with Fork)",
-     "Other works",
-     "18th century; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/45164",
-     0
-    ],
-    [
      "Hexagonal Balustrade Tea Caddy",
      "Other works",
      "1725–1740; Cooper Hewitt, Smithsonian Design Museum, New York",
@@ -32637,13 +32056,6 @@
      "Other works",
      "1730; The Metropolitan Museum of Art, New York",
      "r3 http://www.metmuseum.org/art/collection/search/207193",
-     0
-    ],
-    [
-     "Fork and Knife with Glazed Earthenware Handles",
-     "Other works",
-     "mid-18th century; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/19476",
      0
     ],
     [
@@ -32710,6 +32122,13 @@
      0
     ],
     [
+     "Ink Eraser with Porcelain Handle",
+     "Other works",
+     "late 18th–19th century; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/42107",
+     0
+    ],
+    [
      "Cooper Hewitt, Smithsonian Design Museum",
      "Collections",
      "New York — 137 objects in the gathered records",
@@ -32762,7 +32181,7 @@
    "alias_rows": []
   },
   "E4-24": {
-   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 100, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
+   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
    "catalogues": [
     [
      "https://collections.vam.ac.uk/search/?q=Sevres+porcelain",
@@ -32794,10 +32213,10 @@
      0
     ],
     [
-     "Design for a Painted Porcelain Tureen and Tray",
-     "Dishes and plates",
-     "ca. 1750; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/69397",
+     "Royal Jewel Cabinet with Sèvres Plaques",
+     "Tiles and architectural ceramics",
+     "1825–1826; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/193063",
      0
     ],
     [
@@ -32836,80 +32255,59 @@
      0
     ],
     [
-     "Design for a Painted Porcelain Plate, Café (Coffee) from the Service des Objets de Dessert (Dessert Service)",
+     "Designs for Painted Porcelain Plates, Les Ananas (Pineapples) from the Service des Objets de Dessert (Dessert Service)",
      "Dishes and plates",
      "1819–20; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/191010",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/190998",
      0
     ],
     [
-     "Design for a Painted Porcelain Plate, Confiture en Pot (Potted Jam) for the Service des Objets de Dessert (Dessert Service)",
+     "Plate Designs Cover Sheet for the Service des Objets de Dessert (Dessert Service)",
      "Dishes and plates",
-     "1819–20; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/191005",
+     "1819–21; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/191018",
      0
     ],
     [
-     "Design for a Painted Porcelain Plate, Cutting and Working in the Vineyard",
+     "Plate, from the Industrial Arts Dessert Service (Assiette Platte, Service des Arts Industriels)",
      "Dishes and plates",
-     "1819–20; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/163213",
+     "ca. 1821–1827; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/191587",
      0
     ],
     [
-     "Design for a Painted Porcelain Plate, Fruits à l'eau de Vie (Fruits in Plum Liquor) for the Services des Objets de Dessert (Dessert Service)",
+     "Plate Depicting the Sèvres Porcelain Manufactory",
      "Dishes and plates",
-     "1819–20; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/191008",
+     "ca. 1822; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/53978",
      0
     ],
     [
-     "Design for a Painted Porcelain Plate, Kitchen Scene with Rear Bedroom, possibly for the Service des Objets de Dessert (Dessert Service)",
+     "Plate, from a Dessert Service",
      "Dishes and plates",
-     "1819–20; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/191016",
+     "1823–1824; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/58464",
      0
     ],
     [
-     "Design for a Painted Porcelain Plate, L'Ananas (Pineapple) from the Service des Objets de Dessert (Dessert Service)",
+     "Dish, from the Service des Officiers at Château de Bizy",
      "Dishes and plates",
-     "1819–20; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/190997",
+     "1846; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/24677",
      0
     ],
     [
-     "Design for a Painted Porcelain Plate, Les Biscuits (Cookies) for the Service des Objets de Dessert (Dessert Service)",
+     "Plate with Monogram",
      "Dishes and plates",
-     "1819–20; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/191007",
+     "ca. 1846; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/122526",
      0
     ],
     [
-     "Design for a Painted Porcelain Plate, Les Cerises (Cherries) for the Service des Objets de Dessert (Dessert Service)",
+     "Two Plates, from a Napoleon III Table Service (Assiettes, Service à Chiffre Doré de l'Empereur Napoléon III)",
      "Dishes and plates",
-     "1819–1920; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/190994",
-     0
-    ],
-    [
-     "Design for a Painted Porcelain Plate, Les Compotes et Marmelades (Compotes and Marmalades) for the Service des Objets de Dessert (Dessert Service)",
-     "Dishes and plates",
-     "1819–20; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/191002",
-     0
-    ],
-    [
-     "Design for a Painted Porcelain Plate, Les Fromages (Cheeses) for the Service des Objets de Dessert (Dessert Service)",
-     "Dishes and plates",
-     "1819–20; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/191004",
-     0
-    ],
-    [
-     "Design for a Painted Porcelain Plate, Les Liqueurs (Liqueurs) for the Services des Objets des Dessert (Dessert Service)",
-     "Dishes and plates",
-     "1819–20; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/191009",
+     "ca. 1846; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/130280",
      0
     ],
     [
@@ -32917,20 +32315,6 @@
      "Bowls and cups",
      "1754; Cooper Hewitt, Smithsonian Design Museum, New York",
      "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/157257",
-     0
-    ],
-    [
-     "Design for a Painted Porcelain Feuilles de Choux (Cabbage Leaves) Salad Bowl",
-     "Bowls and cups",
-     "1760–75; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/69394",
-     0
-    ],
-    [
-     "Design for a Painted Porcelain Salad Bowl",
-     "Bowls and cups",
-     "ca. 1763; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/69392",
      0
     ],
     [
@@ -32945,20 +32329,6 @@
      "Bowls and cups",
      "1773; Cooper Hewitt, Smithsonian Design Museum, New York",
      "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/157437",
-     0
-    ],
-    [
-     "Design for a Painted Porcelain Scalloped Salad Bowl",
-     "Bowls and cups",
-     "ca. 1775; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/69395",
-     0
-    ],
-    [
-     "Design for a Painted Porcelain Sugar Bowl and Stand",
-     "Bowls and cups",
-     "ca. 1775; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/69396",
      0
     ],
     [
@@ -32990,10 +32360,31 @@
      0
     ],
     [
-     "Design for a Painted Porcelain Cooler for Wine Bottle and Glasses",
-     "Jars, vases and bottles",
-     "1765–75; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/69398",
+     "Ice Cream Cup (Tasse à Glace), from a Dessert Service",
+     "Bowls and cups",
+     "ca. 1824; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/53955",
+     0
+    ],
+    [
+     "Egg Cup, from a Napoleon III Table Service (Coquetier, Service à Chiffre Doré de l'Empereur Napoléon III)",
+     "Bowls and cups",
+     "1844; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/41913",
+     0
+    ],
+    [
+     "Cup and Saucer, from a Napoleon III Table Service (Tasse et soucoupe, Service à Chiffre Doré de l'Empereur Napoléon III)",
+     "Bowls and cups",
+     "1849–1856; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/41905",
+     0
+    ],
+    [
+     "Cup, from a Napoleon III Table Service (Tasse, Service à Chiffre Doré de l'Empereur Napoléon III)",
+     "Bowls and cups",
+     "1849–1853; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/41912",
      0
     ],
     [
@@ -33029,6 +32420,13 @@
      "Jars, vases and bottles",
      "ca. 1810; Cooper Hewitt, Smithsonian Design Museum, New York",
      "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/58749",
+     0
+    ],
+    [
+     "Coffeepot",
+     "Jars, vases and bottles",
+     "ca. 1859–1867; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/57972",
      0
     ],
     [
@@ -33078,6 +32476,13 @@
      "Figures and models",
      "ca. 1815; Cooper Hewitt, Smithsonian Design Museum, New York",
      "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/12441",
+     0
+    ],
+    [
+     "Portrait Medallion of Napoleon I",
+     "Figures and models",
+     "ca. 1865; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/47388",
      0
     ],
     [
@@ -33144,6 +32549,20 @@
      0
     ],
     [
+     "Sujets et Liste des Objets de Dessert par ordre (List of Subjects for the Service on the Theme of Desserts by Order)",
+     "Other works",
+     "1819–20; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/191017",
+     0
+    ],
+    [
+     "Compote and Stand",
+     "Other works",
+     "ca. 1832; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/122774",
+     0
+    ],
+    [
      "Cooper Hewitt, Smithsonian Design Museum",
      "Collections",
      "New York — 152 objects in the gathered records",
@@ -33189,7 +32608,7 @@
    "alias_rows": []
   },
   "E4-25": {
-   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 122, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
+   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 100, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
    "catalogues": [
     [
      "https://collections.vam.ac.uk/search/?q=soft-paste+porcelain",
@@ -33305,10 +32724,59 @@
      0
     ],
     [
-     "Bowl with rounded sides and a band of scroll work",
-     "Bowls and cups",
-     "18th century; Rijksmuseum, Amsterdam",
-     "r3 https://hdl.handle.net/10934/RM0001.COLLECT.1229",
+     "Hans Sloane\" Botanical Plate (One of Twelve)",
+     "Dishes and plates",
+     "1754–1758; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/115933",
+     0
+    ],
+    [
+     "Group of Twelve \"Hans Sloane\" Botanical Plates",
+     "Dishes and plates",
+     "1754–1758; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/296477",
+     0
+    ],
+    [
+     "Fruit Platter (One of a Pair)",
+     "Dishes and plates",
+     "1755–1760; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/194934",
+     0
+    ],
+    [
+     "Pierced Dish",
+     "Dishes and plates",
+     "ca. 1755; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/194956",
+     0
+    ],
+    [
+     "Group of Thirteen \"Disheveled Birds\" Plates",
+     "Dishes and plates",
+     "ca. 1758–1769; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/296478",
+     0
+    ],
+    [
+     "Plate with \"Disheveled Birds",
+     "Dishes and plates",
+     "ca. 1758–1769; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/132446",
+     0
+    ],
+    [
+     "Plate with \"Disheveled Birds\" (One of Thirteen)",
+     "Dishes and plates",
+     "ca. 1758–1769; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/132443",
+     0
+    ],
+    [
+     "Platter with Birds (One of a Pair)",
+     "Dishes and plates",
+     "ca. 1760; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/182523",
      0
     ],
     [
@@ -33347,31 +32815,24 @@
      0
     ],
     [
-     "Soft-Paste Blue and White 'Landscape' Jar",
-     "Jars, vases and bottles",
-     "Qing period; Art Institute of Chicago, Chicago",
-     "r3 https://www.artic.edu/artworks/105590",
+     "Tea Bowl with Trembleuse Saucer",
+     "Bowls and cups",
+     "ca. 1755; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/182527",
      0
     ],
     [
-     "Miniature bottle vase with flowering plants and insects",
-     "Jars, vases and bottles",
-     "c. 1675; Rijksmuseum, Amsterdam",
-     "r3 https://hdl.handle.net/10934/RM0001.COLLECT.2770",
+     "Mug Depicting Frederick the Great",
+     "Bowls and cups",
+     "ca. 1757; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/53993",
      0
     ],
     [
-     "Brush pot with a boy riding an ox in a river landscape",
-     "Jars, vases and bottles",
-     "first quarter 18th century; Rijksmuseum, Amsterdam",
-     "r3 https://hdl.handle.net/10934/RM0001.COLLECT.2777",
-     0
-    ],
-    [
-     "Brush pot with a fishing boat in a river landscape",
-     "Jars, vases and bottles",
-     "first quarter 18th century; Rijksmuseum, Amsterdam",
-     "r3 https://hdl.handle.net/10934/RM0001.COLLECT.19968",
+     "Salad Bowl",
+     "Bowls and cups",
+     "1763; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/135325",
      0
     ],
     [
@@ -33424,38 +32885,10 @@
      0
     ],
     [
-     "Miniature teapot with stylized lotus scrolls, ruyi-motif and ornamental borders",
-     "Ewers, jugs and teapots",
-     "c. 1700; Rijksmuseum, Amsterdam",
-     "r3 https://hdl.handle.net/10934/RM0001.COLLECT.1225",
-     0
-    ],
-    [
-     "Teapot with a tiger, birds and floral scrolls",
-     "Ewers, jugs and teapots",
-     "18th century; Rijksmuseum, Amsterdam",
-     "r3 https://hdl.handle.net/10934/RM0001.COLLECT.647898",
-     0
-    ],
-    [
-     "Teapot with stylized lotus scrolls, ruyi-motif and ornamental borders",
-     "Ewers, jugs and teapots",
-     "c. 1700; Rijksmuseum, Amsterdam",
-     "r3 https://hdl.handle.net/10934/RM0001.COLLECT.694799",
-     0
-    ],
-    [
      "Covered Milk Jug",
      "Ewers, jugs and teapots",
      "mid- 18th–late 18th century; Cooper Hewitt, Smithsonian Design Museum, New York",
      "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/44541",
-     0
-    ],
-    [
-     "Box with a river landscape and two figures",
-     "Figures and models",
-     "c. 1700; Rijksmuseum, Amsterdam",
-     "r3 https://hdl.handle.net/10934/RM0001.COLLECT.2686",
      0
     ],
     [
@@ -33487,6 +32920,27 @@
      0
     ],
     [
+     "Figure \"La Feuille à l'Envers",
+     "Figures and models",
+     "ca. 1760; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/56017",
+     0
+    ],
+    [
+     "Figure \"Le Sabot Cassé\" (The Broken Shoe)",
+     "Figures and models",
+     "ca. 1760; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/56016",
+     0
+    ],
+    [
+     "Figure of a Rooster",
+     "Figures and models",
+     "ca. 1760; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/42079",
+     0
+    ],
+    [
      "Creamboat (One of Three)",
      "Other works",
      "18th century; Cooper Hewitt, Smithsonian Design Museum, New York",
@@ -33494,59 +32948,10 @@
      0
     ],
     [
-     "Fork with Porcelain Handle (Paired with Knife)",
-     "Other works",
-     "18th century; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/182249",
-     0
-    ],
-    [
-     "Knife with Porcelain Handle",
-     "Other works",
-     "18th–19th century; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/182231",
-     0
-    ],
-    [
-     "Knife with Porcelain Handle (Paired with Fork)",
-     "Other works",
-     "18th century; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/182250",
-     0
-    ],
-    [
      "Snuffbox",
      "Other works",
      "18th century; Cooper Hewitt, Smithsonian Design Museum, New York",
      "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/139268",
-     0
-    ],
-    [
-     "Stemcup with rocks, peony sprays and butterfly",
-     "Other works",
-     "first quarter 18th century; Rijksmuseum, Amsterdam",
-     "r3 https://hdl.handle.net/10934/RM0001.COLLECT.2764",
-     0
-    ],
-    [
-     "Round box with flower sprays",
-     "Other works",
-     "c. 1720; Rijksmuseum, Amsterdam",
-     "r3 https://hdl.handle.net/10934/RM0001.COLLECT.703510",
-     0
-    ],
-    [
-     "Round box with flowering plans, flower sprays and an erotic scene",
-     "Other works",
-     "c. 1720; Rijksmuseum, Amsterdam",
-     "r3 https://hdl.handle.net/10934/RM0001.COLLECT.703511",
-     0
-    ],
-    [
-     "Two-Tined Fork with Porcelain Handle (Paired with Knife)",
-     "Other works",
-     "ca. 1730; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/182268",
      0
     ],
     [
@@ -33599,20 +33004,6 @@
      0
     ],
     [
-     "Knife with Porcelain Handle (One of Four)",
-     "Other works",
-     "ca. 1735–1740; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/182263",
-     0
-    ],
-    [
-     "Knife with Porcelain Handle (One of a Pair)",
-     "Other works",
-     "ca. 1740; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/182269",
-     0
-    ],
-    [
      "Mantle Clock Supported by a Hotei (\"Laughing Buddha\")",
      "Other works",
      "1740–45; Cooper Hewitt, Smithsonian Design Museum, New York",
@@ -33634,17 +33025,38 @@
      0
     ],
     [
-     "Cooper Hewitt, Smithsonian Design Museum",
-     "Collections",
-     "New York — 243 objects in the gathered records",
-     "r3 https://collection.cooperhewitt.org/",
+     "Sauceboat (One of a Pair)",
+     "Other works",
+     "ca. 1750; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/159716",
      0
     ],
     [
-     "Rijksmuseum",
+     "Allegorical Figural Group of \"Africa",
+     "Other works",
+     "1757–1759; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/228823",
+     0
+    ],
+    [
+     "Allegorical Figural Group of \"America",
+     "Other works",
+     "1757–1759; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/228824",
+     0
+    ],
+    [
+     "Allegorical Figural Group of \"Europe",
+     "Other works",
+     "1757–1759; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/228822",
+     0
+    ],
+    [
+     "Cooper Hewitt, Smithsonian Design Museum",
      "Collections",
-     "Amsterdam — 24 objects in the gathered records",
-     "r3 https://www.rijksmuseum.nl/en/collection",
+     "New York — 241 objects in the gathered records",
+     "r3 https://collection.cooperhewitt.org/",
      0
     ],
     [
@@ -33658,7 +33070,7 @@
    "alias_rows": []
   },
   "E4-26": {
-   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 219, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
+   "axis": "sub-types and phases first, then centres and workshops; works: every gathered object of the ware with a descriptive title and a museum page (bare object names such as 'Bowl' or 'Tile' excluded), the 50 earliest-dated of 214, by object type (tiles, dishes, bowls, jars and vases, ewers and jugs, figures, other), plus named works from the literature; Collections ranked by the number of the ware's objects in the gathered object files; makers last",
    "catalogues": [
     [
      "https://collections.vam.ac.uk/search/?q=porcelain+manufactory",
@@ -33914,6 +33326,13 @@
      0
     ],
     [
+     "Bottle cooler",
+     "Jars, vases and bottles",
+     "1755; The Metropolitan Museum of Art, New York",
+     "r3 http://www.metmuseum.org/art/collection/search/199372",
+     0
+    ],
+    [
      "Teapot with \"Hausmaler\" Decor",
      "Ewers, jugs and teapots",
      "1725–1730; Cooper Hewitt, Smithsonian Design Museum, New York",
@@ -34040,27 +33459,6 @@
      0
     ],
     [
-     "Fork and Knife with Porcelain Handles",
-     "Other works",
-     "mid- 18th–18th century; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/44568",
-     0
-    ],
-    [
-     "Fork with Porcelain Handle (Paired with Knife)",
-     "Other works",
-     "18th century; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/45165",
-     0
-    ],
-    [
-     "Knife with Porcelain Handle (Paired with Fork)",
-     "Other works",
-     "18th century; Cooper Hewitt, Smithsonian Design Museum, New York",
-     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/45164",
-     0
-    ],
-    [
      "Hexagonal Balustrade Tea Caddy",
      "Other works",
      "1725–1740; Cooper Hewitt, Smithsonian Design Museum, New York",
@@ -34135,6 +33533,20 @@
      "Other works",
      "ca. 1745; Cooper Hewitt, Smithsonian Design Museum, New York",
      "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/12560",
+     0
+    ],
+    [
+     "Four Tapersticks",
+     "Other works",
+     "ca. 1750–1760; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/186153",
+     0
+    ],
+    [
+     "Taperstick (One of Four)",
+     "Other works",
+     "ca. 1750–1760; Cooper Hewitt, Smithsonian Design Museum, New York",
+     "r3 https://collection.cooperhewitt.org/view/objects/asitem/id/296125",
      0
     ],
     [

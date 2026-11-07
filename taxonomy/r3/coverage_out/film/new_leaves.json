@@ -90,6 +90,72 @@
   ]
  },
  {
+  "key": "NEW_A4_FANTA",
+  "sub": "A4",
+  "label": "Fantaterror",
+  "breadth": "national cycle",
+  "defn": "The Spanish horror boom of c. 1968–1980 — Paul Naschy's Waldemar Daninsky werewolf films, Amando de Ossorio's Blind Dead, Narciso Ibáñez Serrador, Vicente Aranda, León Klimovsky — mixing gothic monsters, Templar ghouls and late-Franco-era sexual and Catholic dread (<i>Tombs of the Blind Dead</i>, <i>The House That Screamed</i>).",
+  "aliases": "Spanish horror boom; cine fantaterrorífico",
+  "see": "A4-15 Gothic Horror",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Fantaterror",
+    "Wikipedia"
+   ]
+  ],
+  "axis": "auteur / series",
+  "secs": [
+   "Paul Naschy & the Daninsky Cycle",
+   "Amando de Ossorio & the Blind Dead",
+   "Other Fantaterror (Serrador, Aranda, Franco, Klimovsky)"
+  ]
+ },
+ {
+  "key": "NEW_A4_RAMSAY",
+  "sub": "A4",
+  "label": "Ramsay Brothers Horror",
+  "breadth": "national cycle",
+  "defn": "The Hindi low-budget horror cycle of the Ramsay family (1972–1990s): haunted havelis, cursed temples, monster-men and songs, the B-movie strand of Bollywood horror (<i>Purana Mandir</i>, <i>Veerana</i>).",
+  "aliases": "Ramsay horror",
+  "see": "A18-1 Bollywood Masala",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Ramsay_Brothers",
+    "Wikipedia"
+   ]
+  ]
+ },
+ {
+  "key": "NEW_A5_AFRO",
+  "sub": "A5",
+  "label": "Afrofuturist Film",
+  "breadth": "movement",
+  "defn": "Science fiction of the Afrofuturist movement (the term is Mark Dery's, 1993): Black diasporic and African speculative futures, cosmic myth and technoculture (<i>Space Is the Place</i>, <i>The Brother from Another Planet</i>, <i>Neptune Frost</i>).",
+  "aliases": "Afrofuturism",
+  "see": "A1-21 L.A. Rebellion",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Afrofuturism",
+    "Wikipedia"
+   ]
+  ]
+ },
+ {
+  "key": "NEW_A7_LUCHA",
+  "sub": "A7",
+  "label": "Lucha Film",
+  "breadth": "national cycle",
+  "defn": "The Mexican luchador film (1952–1980s): masked professional wrestlers — El Santo, Blue Demon, Mil Máscaras, the Wrestling Women — fighting vampires, mummies, mad scientists and Martians in action-horror-science-fiction serials (<i>Santo vs. the Vampire Women</i>).",
+  "aliases": "luchador film; cine de luchadores",
+  "see": "A4 Horror",
+  "src": [
+   [
+    "https://en.wikipedia.org/wiki/Lucha_film",
+    "Wikipedia"
+   ]
+  ]
+ },
+ {
   "key": "NEW_A15_CAT3",
   "sub": "A15",
   "label": "Hong Kong Category III Film",
@@ -99,7 +165,7 @@
   "see": "A4 Horror; A7-10 Hong Kong Action Cinema",
   "src": [
    [
-    "https://en.wikipedia.org/wiki/Category_III_film",
+    "https://en.wikipedia.org/wiki/Category_III_films",
     "Wikipedia"
    ]
   ],

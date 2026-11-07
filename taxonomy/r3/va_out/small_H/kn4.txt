@@ -24,7 +24,7 @@
 = Srikalahasti => Srikalahasti kalamkari | C | pen-drawn temple kalamkari
 + M | J. Gurappa Chetty | Srikalahasti kalamkari master (1930s–2020s) | -  | 1
 
-@H5-5 | Ajrakh_print | ajrakh | MV
+@H5-5 | Ajrak | ajrakh | MV
 = Ajrakh => ALIAS
 + C | Ajrakhpur | Kutch village founded 2001 by Khatri printers | -
 + C | Dhamadka | Kutch ajrakh village | -
@@ -153,7 +153,7 @@
 = Ōshima tsumugi => . | C | mud-dyed kasuri silk of Amami Ōshima
 = Yūki tsumugi => . | C | floss-silk kasuri of Yūki
 
-@H5-24 | Bai_tie-dye | zharan | MV
+@H5-24 | Bai_people | zharan | MV
 = Bai tie-dye (zharan) => ALIAS
 + C | Zhoucheng | Dali village of zharan | -
 
@@ -195,7 +195,7 @@
 + C | Santa María del Río | San Luis Potosí silk rebozo town | w:Santa_María_del_Río
 + C | Tenancingo | State of Mexico rebozo town | w:Tenancingo,_State_of_Mexico
 
-@H5-32 | Blaudruck | blaudruck | EV
+@H5-32 | Indigo_dye | blaudruck | EV
 = blue-dyeing => ALIAS
 = Blueprint (resist-dye printing) => ALIAS
 = Blueprint - resist block printing and indigo dyeing in Burgenland => Burgenland blueprint | C | dye-works of Burgenland (Koó family, Steinberg)
@@ -292,7 +292,7 @@
 + C | Norsk Folkedraktforum | Norwegian folk-dress body | -
 + M | Hulda Garborg | bunad reformer (1862–1934) | w:Hulda_Garborg | 1
 
-@H7-6 | Folkdräkt | folkdräkt | E
+@H7-6 | National_costume_of_Sweden | folkdräkt | E
 = folk costume of Sweden => ALIAS
 + C | Dalarna | parish costumes of Rättvik, Leksand and Mora | w:Dalarna
 + S | Sverigedräkten | national dress designed 1903 | -
@@ -380,7 +380,7 @@
 + S | Tembleques | hair ornaments of beads | -
 + C | Las Tablas | Azuero town of pollera festivals | w:Las_Tablas
 
-@H8-1 | Dumbara_mats | Dumbara | MB
+@H8-1 | - | Dumbara | MB
 = Dumbara weaving => ALIAS
 
 @H8-2 | Noken | noken | MB
@@ -395,7 +395,7 @@
 + S | Marudai | round braiding stand | -
 + S | Takadai | high braiding stand | -
 
-@H8-5 | Maedeup | maedeup | MV
+@H8-5 | Korean_knot | maedeup | MV
 = Maedeupjang => ALIAS
 + S | Norigae | pendant with knots and tassels | w:Norigae
 
@@ -419,7 +419,7 @@
 + C | Montecristi | Manabí town of the finest hats | w:Montecristi,_Ecuador
 + C | Cuenca | Azuay hat centre | w:Cuenca,_Ecuador
 
-@H8-12 | Pomo_basketry | Pomo basket | MSV
+@H8-12 | Pomo_people | Pomo basket | MSV
 = Pomo => ALIAS
 = Sally Burris => . | M | Pomo basket weaver
 = Mary Benson => . | M | Pomo basket weaver (1878–1930)
@@ -464,7 +464,7 @@
 = Nlaka'pamux (Thompson River Salish) => Nlaka'pamux basketry | C | imbricated coiled baskets
 = probably Interior Salish (attributed) => ALIAS
 
-@H8-18 | Apache_basketry | Apache basket | MS
+@H8-18 | Apache | Apache basket | MS
 = probably Western Apache (attributed) => Western Apache basketry | C | coiled ollas and trays
 + C | Jicarilla Apache | coiled basketry | w:Jicarilla_Apache
 + S | Tus | pitch-coated water jar | -
@@ -492,7 +492,7 @@
 = Passamaquoddy => Passamaquoddy basketry | C | ash splint and sweetgrass
 = Penobscot => Penobscot basketry | C | ash splint and birchbark
 + C | Maine Indian Basketmakers Alliance | revival organisation (1993) | -
-+ M | Jeremy Frey | Passamaquoddy basket maker (b. 1978) | w:Jeremy_Frey_(artist) | 1
++ M | Jeremy Frey | Passamaquoddy basket maker (b. 1978) | w:Jeremy_Frey | 1
 
 @H8-23 | Birch_bark_biting | birchbark biting | MS
 + M | Angelique Merasty | Cree birchbark biter (1924–1996) | w:Angelique_Merasty | 1
@@ -525,7 +525,7 @@
 @H8-27 | - | lalava | MB
 = Lalava (Pacific lashing) => ALIAS
 
-@H8-28 | Sweetgrass_basket | sweetgrass basket | MS
+@H8-28 | Gullah | sweetgrass basket | MS
 = Gullah sweetgrass baskets => ALIAS
 + C | Mount Pleasant | South Carolina basket stand town | w:Mount_Pleasant,_South_Carolina
 + M | Mary Jackson | Gullah basket maker (b. 1945) | w:Mary_Jackson_(artist) | 1
@@ -603,7 +603,7 @@
 
 @H9-4 | Featherwork | arte plumario | MVB
 = Mexican feather mosaic (arte plumario) => ALIAS
-+ Named works | Penacho of Moctezuma | Aztec feather headdress; Weltmuseum Wien | w:Penacho_of_Moctezuma
++ Named works | Penacho of Moctezuma | Aztec feather headdress; Weltmuseum Wien | w:Moctezuma's_headdress
 + Named works | Mass of Saint Gregory | feather mosaic, 1539; Musée des Jacobins, Auch | w:Mass_of_St._Gregory_(featherwork)
 + S | Amanteca | Aztec feather-workers | w:Amanteca
 
@@ -619,7 +619,7 @@
 + S | Lane stitch | lazy stitch | -
 + S | Pipe bag | beaded tobacco bag | -
 
-@H9-7 | Iroquois_beadwork | Haudenosaunee beadwork | MS
+@H9-7 | Iroquois | Haudenosaunee beadwork | MS
 = Mohawk [Kahnawake] => Kahnawake Mohawk whimsies | C | Mohawk souvenir beadwork
 = Tuscarora => Tuscarora whimsies | C | Tuscarora souvenir beadwork
 = probably Tuscarora (attributed) => ALIAS
@@ -627,11 +627,11 @@
 + M | Samuel Thomas | Cayuga beadworker | -  | 1
 
 @H9-8 | Wampum | wampum | MSB
-+ Named works | Two Row Wampum | Haudenosaunee treaty belt, 1613 | w:Two_Row_Wampum_Treaty
-+ Named works | Hiawatha Belt | Haudenosaunee Confederacy belt | w:Hiawatha_belt
++ Named works | Two Row Wampum | Haudenosaunee treaty belt, 1613 | w:Two_Row_Wampum
++ Named works | Hiawatha Belt | Haudenosaunee Confederacy belt | w:Hiawatha_Belt
 + Named works | Penn wampum belt | treaty belt given to William Penn, 1682 | -
 
-@H9-9 | Hawaiian_featherwork | Hawaiian featherwork | MBS
+@H9-9 | ʻAhu_ʻula | Hawaiian featherwork | MBS
 + S | ʻAhu ʻula | feather cloak | -
 + S | Mahiole | feather helmet | -
 + S | Kāhili | feather standard | w:Kāhili

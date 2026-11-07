@@ -118,7 +118,14 @@ S("E1-25", pat=[(r"geometric|dipylon", r"greek|attic|athen|argive|boeot")], kw="
         ("Late Geometric", "Schools & phases", "c. 760–700 BC, figured funeral scenes on monumental grave vases", "Geometric art", 0),
         ("Dipylon Amphora", "W", "monumental Late Geometric grave amphora with a prothesis scene, c. 760–750 BC; National Archaeological Museum, Athens", "Dipylon Amphora", 0),
         ("Dipylon krater", "W", "Late Geometric funerary krater by the Hirschfeld workshop, c. 750–735 BC; Metropolitan Museum, New York", "Dipylon krater", 0)],
-  ov={"Subgeometric": ("Subgeometric", "Schools & phases", "lingering Geometric decoration in peripheral Greek workshops after c. 700 BC")})
+  ov={"Subgeometric": ("Subgeometric", "Schools & phases", "lingering Geometric decoration in peripheral Greek workshops after c. 700 BC"),
+      "Dipylon Master": ("Dipylon Master", "Makers", "leading Attic Late Geometric painter of the monumental Dipylon grave vases, c. 760–750 BC"),
+      "Hirschfeld Painter": ("Hirschfeld Painter", "Makers", "Attic Late Geometric painter of funerary kraters, c. 750–735 BC"),
+      "Painter of Athens 894": ("Painter of Athens 894", "Makers", "Attic Late Geometric painter named after an amphora in the National Archaeological Museum, Athens, c. 730 BC"),
+      "Philadelphia Painter": ("Philadelphia Painter", "Makers", "Attic Late Geometric painter, late 8th c. BC"),
+      "Stathatou Painter": ("Stathatou Painter", "Makers", "Attic Late Geometric painter, late 8th c. BC"),
+      "Birdseed Painter": ("Birdseed Painter", "Makers", "Attic Late Geometric painter, late 8th c. BC"),
+      "Analatos Painter": ("Analatos Painter", "Makers", "Attic painter at the turn from Late Geometric to Protoattic, c. 700–680 BC")})
 S("E1-26", pat=[r"corinth"], excl=r"etrusco", kw="Corinthian", prof=GRK, met=["Greek, Corinthian"],
   rows=[("Transitional Corinthian", "Schools & phases", "c. 640–625 BC, between Protocorinthian and Early Corinthian", "Corinthian vase painting", 0),
         ("Early, Middle and Late Corinthian", "Schools & phases", "the animal-frieze and later figured phases, c. 625–550 BC", "Corinthian vase painting", 0),
