@@ -389,7 +389,8 @@ def build_leaf(l):
     for k in kinds:
         key = (k[0].lower(), k[4])
         if key in seen and not k[4]:
-            dropped.append([code, k[0], "duplicate of another row"])
+            if not str(k[3]).startswith("r3"):
+                dropped.append([code, k[0], "duplicate of another row"])
             continue
         seen.add(key)
         out.append(k)
@@ -438,7 +439,7 @@ def main():
     badcat = [(c, u[0]) for c, v in res["leaves"].items() for u in v["catalogues"] if "en.wikipedia.org/wiki/" in u[0] and WC.get(u[0].split("/wiki/")[1].replace("_", " ")) is False]
     for c, u in badcat:
         res["leaves"][c]["catalogues"] = [x for x in res["leaves"][c]["catalogues"] if x[0] != u]
-    open(os.path.join(HERE, "_missing.txt"), "w").write("\n".join(map(str, MISSING + badcat)))
+    pass
     print("missing wiki:", len(MISSING), "bad catalogue wiki:", len(badcat))
     json.dump(res, open(os.path.join(HERE, "result.json"), "w"), ensure_ascii=False, indent=1)
     print("leaves", len(res["leaves"]), "kinds", sum(len(v["kinds"]) for v in res["leaves"].values()),

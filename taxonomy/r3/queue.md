@@ -35,3 +35,4 @@ To do at assembly:
 - Owner: yes to Workplace Comedy (B8-3) by era — pass running (adds to coverage_out/sitcom_eras/resections.json).
 - Done VA: small_E (Ceramics: 4,112 kinds; 2,939 rule-based works; Bubnivka and Oleshnia still empty).
 - Done: Workplace Comedy B8-3 by era (12 sections, 197 titles; script kept as coverage_out/sitcom_eras/build_b83.py). Family Sitcom 1970 titles moved to the relevancy-era section (era starts 1970, as in B8-3).
+- Done VA: small_A_B_C (4,274 kinds; 741 manuscripts by rule; 623 Collections rows). Assembly: Malwa manuscripts unplaced; Registrum Gregorii master and Florentius one home.

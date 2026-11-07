@@ -419,6 +419,44 @@
    "tt39602215": 4
   }
  },
+ "A10-8": {
+  "axis": "auteur and named sub-cycle",
+  "secs": [
+   "Sergio Leone",
+   "Sergio Corbucci",
+   "Zapata Westerns (Sollima, Damiani & the political spaghetti)",
+   "Other Spaghetti Westerns",
+   "Comic Spaghetti & the Trinity Cycle"
+  ],
+  "assign": {
+   "tt0058461": 1,
+   "tt0059578": 1,
+   "tt0060315": 2,
+   "tt0060196": 1,
+   "tt0064208": 4,
+   "tt0063501": 3,
+   "tt0064116": 1,
+   "tt0063032": 2,
+   "tt0067355": 5,
+   "tt0067140": 1,
+   "tt0067770": 4,
+   "tt0068154": 5,
+   "tt0070215": 5,
+   "tt0074575": 4
+  }
+ },
+ "A10-9": {
+  "axis": "national production tradition",
+  "secs": [
+   "DEFA Indianerfilme (1966–1985)",
+   "Soviet Red Westerns (Easterns)"
+  ],
+  "assign": {
+   "tt0151750": 2,
+   "tt0061057": 1,
+   "tt0069725": 1
+  }
+ },
  "A15-4": {
   "axis": "named exploitation cycle",
   "secs": [

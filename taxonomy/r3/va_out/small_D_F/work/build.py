@@ -145,10 +145,76 @@ CATS = [('Masks and headdresses', r'mask|headdress|headcrest|helmet|masker|okuyi
         ('Tools, weapons and regalia', r'staff|stool|chair|seat|club|knife|dagger|sword|spear|harpoon|pipe|tool|spoon|ladle|whistle|drum|instrument|shield|paddle|door|post|pole')]
 NONLATIN = re.compile(r'[^\x00-ɏ\s\d\W]')
 
+EXTRA_GENERIC = set("""celt axe adze tool tools blade flake debitage core point projectile bifacial scraper sherd potsherd abrader hammerstone worked
+grinding mortar pestle net weight netsinker sinker gouge drill bannerstone birdstone griddle cooking surface unfinished shaped maskette button spool ear nose
+inlay rod bar slicing used toggle socket shaft counterweight harpoon arrow arrowhead spearhead spear head finial handle fitting mount plate sample swatch
+vessel jar sculpture monument number no part parts piece pieces section side top bottom base stand holder case bag basket cloth headcloth scarf belt
+charm votive offering ceremonial ritual dance shaman shamans funerary tomb burial grave cover covered lidded footed round square oval rectangular
+cylindrical globular miniature model souvenir decorative ornamental image images""".split())
+
+def distinctive(t, stop):
+    if re.search(r'[\u0400-\u04FF]', t):
+        return bool(re.search(r'[«"“].+[»"”]', t))
+    if NONLATIN.search(t): return True
+    st = stop | EXTRA_GENERIC
+    def ok(tok):
+        w = tok.lower().strip("'’-")
+        return len(w) > 2 and w not in st and w.rstrip('s') not in st and not w.isdigit()
+    segs = re.findall(r'\(([^)]*)\)|"([^"]*)"|“([^”]*)”|:\s*(.+)$', t)
+    for g in segs:
+        for part in g:
+            if part and any(ok(x) for x in re.findall(r"[\w'’-]+", part)): return True
+    words = re.findall(r"[\w'’-]+", re.sub(r'\([^)]*\)', '', t))
+    if any(w[:1].isupper() and ok(w) for w in words[1:]): return True
+    if re.search(r'\b(van|een|met|voorstellende|voorstellend|beeld)\b', t, re.I):
+        dutch = set('van een met de het en voorstellende voorstellend beeld beeldje figuur pop houten stenen gesneden'.split())
+        if any(ok(w) and w.lower() not in dutch and len(w) > 3 for w in words): return True
+    return False
+
 def fmt_date(d):
     try: y = int(float(d))
     except Exception: return ''
     return f'c. {-y} BC' if y < 0 else f'c. {y}'
+
+
+POSTX = {
+ 'D1-2': dict(drop=r'^Model'),
+ 'D2-13': dict(drop=r'Wilhelm Lapp|Lovers Playing', idrop=r'Metropolitan|Art Institute'),
+ 'D3-8': dict(drop=r'Throwing stick|Atlatl|Labret|Incense'),
+ 'D4-5': dict(drop=r'stilleven|Batak'),
+ 'D4-10': dict(keep=r'puppet|人形|ningy|head|pop\b'),
+ 'D4-11': dict(keep=r'mask|탈'),
+ 'D5-9': dict(drop=r'Goudiao|Ancient Bron'),
+ 'D5-21': dict(drop=r'Dog[uū]|Bell|Stein Collection|Counterweight|Coffin|Mirror', keep=r'figur|horse|camel|guardian|attendant|tomb|lokapala|zhenmushou|musician|dancer|model|lady|official|warrior|groom|rider|ox\b|dog|pig|ram\b'),
+ 'D5-22': dict(drop=r'mirror|eulogy|kong miao|rubbing', keep=r'buddh|bodhisattva|guanyin|avalok|maitreya|amitabha|sakyamuni|shakyamuni|lohan|luohan|arhat|stele|votive|altar|kannon|ksitigarbha|manjusri|samantabhadra|vairocana|lokapala|guardian|apsara|deva'),
+ 'D5-23': dict(drop=r'painting|mirror'),
+ 'D5-25': dict(keep=r'doll|ningy|人形|雛|pop\b|poppen'),
+ 'D5-33': dict(drop=r'甲州|Kokoshukin|Tunic'),
+ 'D5-35': dict(drop=r'Speelgoed|Model van|pijpenkop|moskee', files=['aot', 'gap', 'africa', 'smith']),
+ 'D5-46': dict(drop=r'Game Board|Kepi|Gong Beater|Mancala'),
+ 'D5-48': dict(drop=r'Schilderij|Geschilderd|painting'),
+ 'D5-55': dict(drop=r'Sketch|Smoking|drawing|Han slab|Tomb figure of'),
+ 'D5-63': dict(drop=r'Huipil|Atlatl|Throwing|Maul|Biface|Chopper', keep=r'stela|stele|panel|lintel|relief|altar|figure|head|mask|stucco|sculpt|deity|ruler|glyph|god|lord'),
+ 'D5-64': dict(drop=r'Metate|mortar'),
+ 'D5-67': dict(drop=r'Textile'),
+ 'D5-73': dict(drop=r'Bidprent|Schildering'),
+ 'D5-75': dict(drop=r'Koffer|Trom'),
+ 'D5-76': dict(drop=r'Pioneer Square'),
+ 'D5-82': dict(keep=r'malagan|malanggan|frieze|pole|figure|mask|tatanua|paneel|beeld|masker|dodenritue|voorouder'),
+ 'D5-84': dict(drop=r'draagtas|Versiering met veren'),
+ 'D5-85': dict(drop=r'Basket|Creel'),
+ 'D5-90': dict(drop=r'kachina|Vuurstok'),
+ 'D5-126': dict(drop=r'bamboe|speer'),
+ 'D5-18': dict(drop=r'baggermachine'),
+ 'D6-7': dict(keep=r'pipe'),
+ 'D6-12': dict(keep=r'zushi|厨子|shrine|butsudan|仏壇'),
+ 'F1-1': dict(drop=r'Achterglas|Apron|Akarum'),
+ 'F1-2': dict(drop=r'Achterglas'),
+ 'F1-14': dict(drop=r'写真|原板|photograph|stereo|kiriko|切子'),
+ 'F2-1': dict(keep=r'cut|relief|facet|hedwig'),
+ 'F2-2': dict(drop=r'Design'),
+ 'F5-1': dict(drop=r'Fork|Design'),
+}
 
 def obj_works(code, label_words):
     df = MATCH.get(code)
@@ -156,6 +222,11 @@ def obj_works(code, label_words):
     df = df.copy()
     df['instn'] = df.inst.map(norm_inst)
     good = df[~df.instn.str.lower().isin(['private', '', 'unknown', 'nan']) & df.url.str.startswith('http')]
+    px = POSTX.get(code, {})
+    if px.get('drop'): good = good[~good.title.str.contains(px['drop'], case=False, regex=True)]
+    if px.get('idrop'): good = good[~good.instn.str.contains(px['idrop'], case=False, regex=True)]
+    if px.get('files'): good = good[good.f.isin(px['files'])]
+    if len(good) == 0: return [], [], 0
     # collections
     vc = good.instn.value_counts()
     sel = [i for i, n in vc.items() if n >= 10]
@@ -168,18 +239,15 @@ def obj_works(code, label_words):
     stop = GENERIC | label_words
     cand = []
     seen = set()
-    for _, r in good.iterrows():
-        t = re.sub(r'\s+', ' ', str(r.title or '')).strip().strip('.')
+    wgood = good[good.title.str.contains(px['keep'], case=False, regex=True)] if px.get('keep') else good
+    for _, r in wgood.iterrows():
+        t = re.sub(r'\s*\((Image withheld|No image)[^)]*\)', '', str(r.title or ''))
+        t = re.sub(r'\s+', ' ', t).replace('&quot;', '"').strip().strip('.')
         if not t or len(t) > 110: continue
         if t.isupper(): t = t.capitalize()
         low = t.lower()
         latin = not NONLATIN.search(t)
-        if re.search(r'[Ѐ-ӿ]', t):
-            if not re.search(r'[«"“].+[»"”]', t): continue
-        elif latin:
-            toks = [w for w in re.findall(r"[a-zà-ÿāēīōūɛɔ'’]+", low) if len(w) > 2]
-            rest = [w for w in toks if w not in stop and w.rstrip('s') not in stop]
-            if not rest: continue
+        if not distinctive(t, stop): continue
         key = low
         if key in seen: continue
         seen.add(key)
@@ -293,10 +361,16 @@ for c in CODES:
     # order
     idx = {id(x): i for i, x in enumerate(kinds)}
     kinds.sort(key=lambda x: (grank(x[1], Gorder), idx[id(x)]))
-    axis = k['axis'] or 'sub-types first, then centres and makers'
-    axis = axis.replace('titled works (rule below)', 'titled museum objects')
+    gseq = []
+    for x in kinds:
+        g = 'Titled objects (by object type)' if x[1].startswith('Titled objects') else x[1]
+        if g not in gseq: gseq.append(g)
+    if k['G']:
+        axis = k['axis']
+    else:
+        axis = 'Sections in order: ' + ' · '.join(gseq) + ' (canonical and core entries first within each section)'
     if works:
-        axis += (f'. Titled museum objects: every object in the gathered museum files for this tradition whose title names more than its object type or culture '
+        axis += (f'. Titled museum objects: every object in the gathered museum files for this tradition whose title carries a proper or native name or a named subject beyond the generic object word and the culture name '
                  f'(one per title, museum page required), the 40 earliest-dated ({nall} qualify), grouped by object type')
     if coll:
         axis += '. Collections: holding institutions ranked by objects in the gathered files (all with 10 or more, else the top 8)'

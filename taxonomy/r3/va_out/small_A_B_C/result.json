@@ -26453,37 +26453,37 @@
      1
     ],
     [
-     "'Abd al-Qadir Hisari",
-     "Ottoman masters",
-     "Ottoman naskh/thuluth calligrapher, 18th c.",
-     "islamic_makers",
-     1
-    ],
-    [
      "'Abdullah b. Ahmad b.Fadl Allah b. 'Abd al-Hamid (Calligrapher)",
-     "Ottoman masters",
+     "Mamluk and Ilkhanid Qur'an scribes",
      "Ilkhanid Qur'an calligrapher, 14th c.",
      "islamic_makers",
      1
     ],
     [
      "The calligrapher Zaynab bint (daughter of) Ahmad al-Maqdisiyya",
-     "Ottoman masters",
+     "Mamluk and Ilkhanid Qur'an scribes",
      "Mamluk Qur'an calligrapher, 14th c.",
      "islamic_makers",
      1
     ],
     [
      "Shadi bin Muhammad bin Shadi bin Dawud bin Isa bin Abu Bakr bin Ayyub",
-     "Ottoman masters",
+     "Mamluk and Ilkhanid Qur'an scribes",
      "Ayyubid-descended Mamluk Qur'an scribe, 14th c.",
      "islamic_makers",
      1
     ],
     [
      "Copied by Muhammad bin' Abd al-Rahman al-Qirsh. The first two pages were decorated by Muhammad al-'Arari",
-     "Ottoman masters",
+     "Mamluk and Ilkhanid Qur'an scribes",
      "scribe al-Qirsh, Mamluk Syria 14th c.; illuminator al-'Arari",
+     "islamic_makers",
+     1
+    ],
+    [
+     "'Abd al-Qadir Hisari",
+     "Ottoman masters",
+     "Ottoman naskh/thuluth calligrapher, 18th c.",
      "islamic_makers",
      1
     ],
@@ -26530,17 +26530,17 @@
      1
     ],
     [
-     "copied by Mir ‘Abdallah Mir Ja‘far al-Husayni al-Tabrizi",
-     "Ottoman masters",
-     "scribe of scientific text; script uncertain",
-     "islamic_makers",
-     1
-    ],
-    [
      "Mustafa, son of Mehmet",
      "Ottoman masters",
      "Ottoman Qur'an scribe, naskh",
      "islamic_makers",
+     1
+    ],
+    [
+     "Sheikh Hamdullah",
+     "Ottoman masters",
+     "master of Ottoman naskh and thuluth (1436–1520)",
+     "europe_1400-1900",
      1
     ],
     [
@@ -26561,13 +26561,6 @@
      "Mesihi of Prishtina",
      "Ottoman masters",
      "Ottoman poet-calligrapher (d. 1512)",
-     "artists",
-     1
-    ],
-    [
-     "Ahmed the Calligrapher",
-     "Ottoman masters",
-     "calligrapher",
      "artists",
      1
     ],
@@ -26663,22 +26656,29 @@
      1
     ],
     [
-     "Sheikh Hamdullah",
-     "Ottoman",
-     "master of Ottoman naskh and thuluth (1436–1520)",
-     "europe_1400-1900",
+     "copied by Mir ‘Abdallah Mir Ja‘far al-Husayni al-Tabrizi",
+     "Persian and other scribes",
+     "scribe of scientific text; script uncertain",
+     "islamic_makers",
      1
     ],
     [
      "Mohammad Hosni",
-     "Egypt",
+     "Persian and other scribes",
      "Syrian-Egyptian calligrapher (1894–1969)",
      "artists",
      1
     ],
     [
+     "Ahmed the Calligrapher",
+     "Persian and other scribes",
+     "calligrapher",
+     "artists",
+     1
+    ],
+    [
      "Mohammed Racim",
-     "France",
+     "Persian and other scribes",
      "Algerian miniaturist and calligrapher (1896–1975)",
      "artists",
      1
@@ -28438,7 +28438,7 @@
     [
      "'Abd al-Gani painted the binding as well as folios 1b-2a and fol. 18a",
      "Makers",
-     "illumination and painted binding",
+     "'Abd al-Gani, illuminator and binding painter",
      "islamic_makers",
      1
     ],
@@ -28452,7 +28452,7 @@
     [
      "Razi Taliqani, active Hegira before 1295-after 1327 / AD before 1878-after 1908/09",
      "Makers",
-     "Qajar border painter (illumination)",
+     "Qajar illuminator and border painter",
      "islamic_makers",
      1
     ],
@@ -34911,16 +34911,6 @@
  ],
  "dropped": [
   [
-   "A1-15",
-   "Garima Gospels",
-   "duplicate of another row"
-  ],
-  [
-   "A4-1",
-   "Raghurajpur",
-   "duplicate of another row"
-  ],
-  [
    "A5-80",
    "",
    "blank-name junk row (no artist identity)"
@@ -34959,36 +34949,6 @@
    "B2-16",
    "",
    "blank-name junk row (no artist identity)"
-  ],
-  [
-   "C2-15",
-   "Papyrus of Ani",
-   "duplicate of another row"
-  ],
-  [
-   "C2-20",
-   "Utrecht Psalter",
-   "duplicate of another row"
-  ],
-  [
-   "C2-22",
-   "Harley Psalter",
-   "duplicate of another row"
-  ],
-  [
-   "C2-26",
-   "Sarajevo Haggadah",
-   "duplicate of another row"
-  ],
-  [
-   "C2-26",
-   "Birds' Head Haggadah",
-   "duplicate of another row"
-  ],
-  [
-   "C2-27",
-   "Ostromir Gospels",
-   "duplicate of another row"
   ]
  ]
 }
