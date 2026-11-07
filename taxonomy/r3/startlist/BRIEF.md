@@ -1,0 +1,14 @@
+# R3 Starting List placement pass
+
+The owner wants every film on TSPDT's Starting List and 21st Century Starting List to have one home in the Film & Television tab of the Visual Entertainment Taxonomy (repo /home/user/Visual-Entertainment-Taxonomy). Rules already placed what they could; you place the rest of one batch into **existing leaves**.
+
+Input: `taxonomy/r3/startlist/in_<batch>.csv` — id (IMDb tconst, or tspdt:… for films without one), title, year, who (director), country, genre (TSPDT's genre words, e.g. "Drama-Romance"), mins, lists. Leaves: `taxonomy/r3/startlist/leaves.tsv` (code, label, sub-family, size, numbered sections, definition). Your batch's sub-families are given in your prompt and in `plan.json`.
+
+How to place (the tab's key, most specific identity first):
+1. A **named cycle, movement or national tradition** the film belongs to (giallo, pink film, Heimatfilm, Japanese New Wave, Third Cinema, poetic realism, Cinema Novo, Ealing, Pre-Code ...) — if its leaf exists anywhere in the Film family A (any sub-family) or Animation C, use it.
+2. Otherwise the leaf in your sub-families whose **definition** fits the film's engine (what drives it), using your knowledge of the film first; for films you do not know, decide from title, director, country, year, genre words and running time, choosing the most fitting leaf — never leave a film unplaced.
+3. **Section**: if the leaf has sections, give the section number that fits (era, school, sub-type), else blank.
+4. If the film plainly belongs to another family entirely (a TV series, an animated film in a live-action batch), put the right leaf anyway (any code in leaves.tsv is allowed); if it is internet-native web content or explicit adult-trade pornography, put `out` in leaf with a short reason.
+Do not create new leaves or sections; do not use the web (the work is title-level judgement; speed matters — about 1,500 films). Write in chunks of ~300 with Python and concatenate.
+
+Output: `taxonomy/r3/startlist/out_<batch>.csv` with header `id,leaf,sec,note` — one row per input id; note ≤ 10 words, only for non-obvious calls. Run `python3 pipelines/r3/startlist_validate.py <batch>` until it exits 0. Write only that output file (and scratch files under taxonomy/r3/startlist/work_<batch>/, delete them at the end). No git. Final reply ≤ 8 lines: counts per sub-family, how many decided from knowledge vs from metadata only, doubts.

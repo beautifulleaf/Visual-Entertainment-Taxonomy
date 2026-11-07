@@ -1,0 +1,105 @@
+{
+ "sl_drama_1": {
+  "subs": [
+   "A16"
+  ],
+  "n": 1517
+ },
+ "sl_drama_2": {
+  "subs": [
+   "A16"
+  ],
+  "n": 1517
+ },
+ "sl_drama_3": {
+  "subs": [
+   "A16"
+  ],
+  "n": 1517
+ },
+ "sl_drama_4": {
+  "subs": [
+   "A16"
+  ],
+  "n": 1517
+ },
+ "sl_documentary_1": {
+  "subs": [
+   "A19"
+  ],
+  "n": 1547
+ },
+ "sl_documentary_2": {
+  "subs": [
+   "A19"
+  ],
+  "n": 1546
+ },
+ "sl_short_1": {
+  "subs": [
+   "A21"
+  ],
+  "n": 1114
+ },
+ "sl_short_2": {
+  "subs": [
+   "A21"
+  ],
+  "n": 1113
+ },
+ "sl_comedy": {
+  "subs": [
+   "A12"
+  ],
+  "n": 1814
+ },
+ "sl_crime_thriller": {
+  "subs": [
+   "A2",
+   "A3"
+  ],
+  "n": 1318
+ },
+ "sl_horror_scifi": {
+  "subs": [
+   "A4",
+   "A5"
+  ],
+  "n": 839
+ },
+ "sl_fantasy_action_family": {
+  "subs": [
+   "A6",
+   "A7",
+   "A17",
+   "A18"
+  ],
+  "n": 1143
+ },
+ "sl_history_war_western_bio": {
+  "subs": [
+   "A8",
+   "A9",
+   "A10",
+   "A11"
+  ],
+  "n": 1352
+ },
+ "sl_romance_musical_erotic_exp": {
+  "subs": [
+   "A13",
+   "A14",
+   "A15",
+   "A20"
+  ],
+  "n": 1183
+ },
+ "sl_animation": {
+  "subs": [
+   "C12",
+   "C14",
+   "anime"
+  ],
+  "n": 422
+ }
+}
