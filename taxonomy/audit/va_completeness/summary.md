@@ -30,7 +30,7 @@ Of the general-only objects, 18,256 sit under labels reviewed and kept general (
 | V3 | 18 | 40 | 39 |
 | V4 | 0 | 2 | 242 |
 | V5 | 0 | 0 | 1 |
-| V6 | 0 | 47 | 411 |
+| V6 | 0 | 47 | 415 |
 | V7 | 0 | 26 | 34 |
 
 V4: 384 named missing traditions in the mapping, 140 now carried by a leaf name, 244 open. V6: 84 rows in leftover per-object works lists.

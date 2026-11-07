@@ -52,6 +52,9 @@ def year(v):
 def era_range(label):
     """(start, end) from a section label, or None. '1990–2004', '(to 1959)', '2020 onward', '1970s', 'Pre-Code (1929–1934)'."""
     t = label.replace("—", "–")
+    m = re.search(r"(\d{4})s?\s*[–-]\s*(?:\)|$|,|;)", t)  # "2010s–", "(1994–)": open-ended
+    if m:
+        return int(m.group(1)), 9999
     m = re.search(r"(\d{4})s?\s*[–-]\s*(\d{2,4})s?", t)
     if m:
         a, b = int(m.group(1)), m.group(2)
@@ -165,8 +168,12 @@ def main():
             # S2 era validity
             rng = {i: era_range(s) for i, s in enumerate(secs)}
             dated = [(i, rg) for i, rg in rng.items() if rg]
-            if len(dated) >= 2 and len(dated) >= len(secs) // 2:
-                seq = [rg for _, rg in sorted(dated)]
+            def pure(x):  # a date band: nothing but dates and era words once the dates are removed
+                rest = re.sub(r"\(?\b(?:to|until|before|since|from|after|onward|onwards|pre|the|and|early|late|mid|era|years|period|s)\b\)?|\d{2,4}s?|[–\-()+,]", " ", x.lower())
+                return not rest.strip()
+            bands = [(i, rg) for i, rg in dated if pure(secs[i])]
+            if len(bands) >= 2:
+                seq = [rg for _, rg in sorted(bands)]
                 for (a1, b1), (a2, b2) in zip(seq, seq[1:]):
                     if a2 < a1:
                         flag("S2", "medium", tab, name, "era sections out of chronological order", f"{a1}–{b1} before {a2}–{b2}")
@@ -185,17 +192,17 @@ def main():
                 if any(b < a for a, b in zip(ys, ys[1:])):
                     flag("S3", "low", tab, name, "section not in year order", secs[i])
             # S10 purity
-            if kind == "country/region":
+            if re.search(r"country of production|national cinema|by country\b", (l.get("axis") or "").lower()):
                 for i, g in groups.items():
-                    cs = collections.Counter(x[9] for x in g if x[9])
-                    if len(g) >= 5 and cs:
+                    cs = collections.Counter(cc for x in g for cc in set(str(x[9] or "").split("|")) if cc)
+                    if len(g) >= 5 and cs and not secs[i].lower().startswith("other"):
                         top, n = cs.most_common(1)[0]
                         if n / len(g) < 0.6:
                             flag("S10", "low", tab, name, "country section with mixed countries", f"{secs[i]}: top {top} {n}/{len(g)}; {dict(cs.most_common(4))}")
-            if kind == "auteur/school":
+            if re.search(r"filmmaker|director|auteur", (l.get("axis") or "").lower()):
                 for i, g in groups.items():
                     sur = [w for w in fold(secs[i]).split() if len(w) > 3]
-                    if not sur or len(g) < 3:
+                    if not sur or len(g) < 3 or secs[i].lower().startswith("other"):
                         continue
                     hit = sum(1 for x in g if any(w in fold(x[2]) for w in sur))
                     if 0 < hit / len(g) < 0.6:
@@ -239,7 +246,7 @@ def main():
         if tab != "ft":
             continue
         for s in l["secs"]:
-            hit = [x for x in labels.get((tab, fold(s)), []) if x != c]
+            hit = [x for x in labels.get((tab, fold(s)), []) if x != c and x[0] == c[0]]  # same family; form splits are deliberate
             if hit:
                 flag("S5", "medium", tab, f"{c} {l['label']}", "section label is also a leaf elsewhere", f"section '{s}' = leaf {', '.join(hit)}")
 

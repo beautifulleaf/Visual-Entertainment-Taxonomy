@@ -281,21 +281,18 @@ function render(){
   if(state.tab==='REPORT') return renderReport();
   renderTree(state.tab);
 }
+/* Copy: the leaf's code and label, then one line per group or section with its names, comma-separated (no prose) */
 function leafTree(t,code){ if(!LEAF) leafIndex(); const l=LEAF[t+'-'+code]; const rows=(MEM[t+'-'+famOf(code)]||{})[code]||[];
-  const plain=s=>String(s||'').replace(/<[^>]+>/g,'');
-  const title=`${t}-${code} ${l.label} — ${plain(l.defn)}`; const items=[];
-  if(t==='FT'){ for(const [lab,rs] of ftSections(l,rows)){ const kids=rs.map(k=>({text:`${k[0]} (${String(k[1]).slice(0,9)})${k[2]?' — '+k[2]:''}`,kids:[]}));
-      if(lab) items.push({head:lab,text:'',kids}); else items.push(...kids); } }
+  const title=`${t}-${code} ${l.label}`; const lines=[];
+  if(t==='FT'){ for(const [lab,rs] of ftSections(l,rows)) lines.push({head:lab,names:rs.map(k=>`${k[0]} (${String(k[1]).slice(0,9)})`)}); }
   else { const groups={},order=[]; for(const k of rows){const g=k[1]||'Kinds'; if(!groups[g]){groups[g]=[];order.push(g)} groups[g].push(k)}
     if(l.secs&&l.secs.length){const p=g=>{const i=l.secs.indexOf(g);return i<0?1e6:i}; order.sort((a,b)=>p(a)-p(b))}
-    for(const g of order) items.push({head:g,text:'',kids:groups[g].map(k=>({text:k[0]+(k[2]?' — '+k[2]:''),kids:[]}))}); }
-  return {title,items}; }
-function leafText(t,code){ const T=leafTree(t,code); const out=[T.title];
-  const walk=(ns,d)=>ns.forEach(n=>{ out.push('    '.repeat(d)+'- '+(n.head?(d?'':'**')+n.head+(d?'':'**')+(n.text?': ':''):'')+n.text); walk(n.kids,d+1); });
-  walk(T.items,0); return out.join('\n'); }
+    for(const g of order) lines.push({head:g,names:groups[g].map(k=>k[0])}); }
+  return {title,lines}; }
+function leafText(t,code){ const T=leafTree(t,code);
+  return [T.title,...T.lines.map(x=>(x.head?`**${x.head}**: `:'')+x.names.join(', '))].join('\n'); }
 function leafRich(t,code){ const T=leafTree(t,code);
-  const ul=(ns,top)=>ns.length?'<ul>'+ns.map(n=>'<li>'+(n.head?(top?'<strong>'+esc(n.head)+'</strong>':esc(n.head))+(n.text?': ':''):'')+esc(n.text)+ul(n.kids,false)+'</li>').join('')+'</ul>':'';
-  return '<p>'+esc(T.title)+'</p>'+ul(T.items,true); }
+  return '<p><strong>'+esc(T.title)+'</strong></p>'+T.lines.map(x=>'<p>'+(x.head?'<strong>'+esc(x.head)+'</strong>: ':'')+esc(x.names.join(', '))+'</p>').join(''); }
 function fallbackCopy(x){ const a=document.createElement('textarea'); a.value=x; a.setAttribute('readonly',''); a.style.position='fixed'; a.style.opacity='0'; document.body.appendChild(a); a.select(); let ok=false; try{ok=document.execCommand('copy')}catch(e){} a.remove(); if(!ok) throw new Error('copy failed'); }
 function richCopy(t,code){ const md=leafText(t,code), html=leafRich(t,code); let ok=false;
   const h=e=>{ e.clipboardData.setData('text/plain',md); e.clipboardData.setData('text/html',html); e.preventDefault(); ok=true; };

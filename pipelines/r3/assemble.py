@@ -9,6 +9,7 @@ with taxonomy/r3/va_out/<pass>/result.json applied. Passes with no output are sk
 reported (their leaves stay as in S2 for VA; for FT a missing block is an error unless --partial).
 Writes tree.json, m-*.json, find.json, and taxonomy/r3/ft_migration.csv.
 """
+import sys as _sys, os as _os; _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
 import argparse, collections, csv, glob, json, os, re, shutil, sys
 ROOT = os.path.join(os.path.dirname(__file__), "..", "..")
 R3 = os.path.join(ROOT, "taxonomy", "r3")
@@ -750,6 +751,7 @@ def main():
     report = {}
     find_va = build_va(src, tree, MV, find_old, report)
     MF, find_ft = build_ft(src, tree, a.partial, report)
+    import structure_fix; structure_fix.apply(tree, MV, MF, report)
     fix_structure(tree, MV, MF, report)
     fix_links(tree, report)
     rp = os.path.join(R3, "report_r3.html")

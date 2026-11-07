@@ -35,7 +35,7 @@ L = [
               "handmade wares of the Chalcolithic and Early–Middle Bronze Age, the Late Bronze Age Base Ring and White Slip wares "
               "exported across the Levant, and the Iron Age White Painted, Bichrome and Black-on-Red wares with free-field figural jugs "
               "and barrel-shaped jugs.",
-         aliases="Cypriot pottery; Pottery of ancient Cyprus", see="D5 Ancient Cypriot Sculpture; E1-25 Geometric Pottery",
+         aliases="Cypriot pottery; Pottery of ancient Cyprus", see="D5-137 Ancient Cypriot Sculpture; E1-25 Geometric Pottery",
          src=[[W + "Pottery_of_ancient_Cyprus", "Wikipedia"], [W + "Ancient_Cypriot_art", "Wikipedia"]],
          catalogues=[met("Cypriot", "the Cesnola Collection and other Cypriot objects in the Metropolitan Museum"),
                      bm("Cypriot pottery", "Cypriot pottery in the British Museum")],
@@ -53,7 +53,7 @@ L = [
          defn="The sculpture of ancient Cyprus: Chalcolithic picrolite cruciform figurines, Bronze Age terracotta plank figures, and the "
               "limestone and terracotta votive statues dedicated in the island's sanctuaries from the Cypro-Archaic to the Hellenistic "
               "period, in a local style that absorbed Near Eastern, Egyptian and Greek forms.",
-         aliases="Cypriot sculpture; Cypro-Archaic sculpture", see="E1 Ancient Cypriot Pottery; D5-57 Ancient Greek Sculpture",
+         aliases="Cypriot sculpture; Cypro-Archaic sculpture", see="E1-143 Ancient Cypriot Pottery; D5-57 Ancient Greek Sculpture",
          src=[[W + "Ancient_Cypriot_art", "Wikipedia"]],
          catalogues=[met("Cypriot sculpture", "Cypriot limestone and terracotta sculpture in the Metropolitan Museum (Cesnola Collection)"),
                      bm("Cypriot sculpture", "Cypriot sculpture in the British Museum")],

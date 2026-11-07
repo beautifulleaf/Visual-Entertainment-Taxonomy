@@ -77,7 +77,7 @@ A2-4,Crime Drama,A2-26,Crime Comedy,6
 A2-4,Crime Drama,A3-11,Kidnapping Thriller,6
 A2-4,Crime Drama,A3-6,Serial-Killer Thriller,6
 A2-4,Crime Drama,A3-10,Revenge Thriller,5
-A2-4,Crime Drama,A2-20,Legal Drama,4
+A2-4,Crime Drama,A16-25,Legal Drama,4
 A2-4,Crime Drama,A2-24,American Film Noir,2
 A2-4,Crime Drama,A2-19,Prison Film,2
 A2-4,Crime Drama,A3-20,Techno-Thriller,2
@@ -121,7 +121,7 @@ A3-2,Mystery Film,A3-3,Mystery Film,29
 A3-2,Mystery Film,A3-7,Psychological Thriller,3
 A3-2,Mystery Film,A2-17,Nordic Noir,3
 A3-2,Mystery Film,A3-6,Serial-Killer Thriller,2
-A3-2,Mystery Film,A2-20,Legal Drama,1
+A3-2,Mystery Film,A16-25,Legal Drama,1
 A3-2,Mystery Film,A3-2,Inverted Detective Story,1
 A3-2,Mystery Film,A3-10,Revenge Thriller,1
 A3-3,Survival & Death-Game Thriller,A3-14,Survival Thriller,60
@@ -155,7 +155,7 @@ A3-9,Suspense Thriller,A3-20,Techno-Thriller,8
 A3-9,Suspense Thriller,A3-19,Political Thriller,5
 A3-9,Suspense Thriller,A3-3,Mystery Film,5
 A3-9,Suspense Thriller,A3-2,Inverted Detective Story,3
-A3-9,Suspense Thriller,A2-20,Legal Drama,2
+A3-9,Suspense Thriller,A16-25,Legal Drama,2
 A3-9,Suspense Thriller,A3-21,Spy Film,2
 A3-9,Suspense Thriller,A2-26,Crime Comedy,1
 A3-9,Suspense Thriller,A3-18,Conspiracy Thriller,1
@@ -308,7 +308,7 @@ A5-3,Science Fiction Film,A5-18,Dystopian Film,4
 A5-3,Science Fiction Film,A5-19,Post-Apocalyptic Film,3
 A5-3,Science Fiction Film,A4-22,Science Fiction Horror,3
 A5-3,Science Fiction Film,A5-2,Space Opera,3
-A5-3,Science Fiction Film,A17-5,Family Comedy,3
+A5-3,Science Fiction Film,A12-35,Family Comedy,3
 A5-3,Science Fiction Film,A5-20,Disaster Film,1
 A5-3,Science Fiction Film,A4-21,Natural Horror,1
 A5-3,Science Fiction Film,A5-4,Alien Invasion,1
@@ -338,7 +338,7 @@ A5-9,Time Travel Film,A5-12,Artificial Intelligence & Robots,3
 A5-9,Time Travel Film,A5-15,Scientific Romance,1
 A5-9,Time Travel Film,A5-19,Post-Apocalyptic Film,1
 A5-9,Time Travel Film,A5-2,Space Opera,1
-A6-1,Fantasy Film,A6-9,Fantasy Comedy,41
+A6-1,Fantasy Film,A12-28,Fantasy Comedy,41
 A6-1,Fantasy Film,A6-11,Mythological Fantasy,39
 A6-1,Fantasy Film,A17-1,Children's Fantasy Film,39
 A6-1,Fantasy Film,A6-10,Magical Realism,35
@@ -346,13 +346,13 @@ A6-1,Fantasy Film,A6-4,Portal Fantasy,28
 A6-1,Fantasy Film,A6-6,Contemporary Fantasy,20
 A6-1,Fantasy Film,A6-7,Urban Fantasy,17
 A6-1,Fantasy Film,A6-5,Dark Fantasy,13
-A6-1,Fantasy Film,A6-8,Romantic Fantasy,9
+A6-1,Fantasy Film,A13-23,Romantic Fantasy,9
 A6-1,Fantasy Film,A6-12,Fairy-Tale Film,5
 A6-1,Fantasy Film,A6-1,High Fantasy,5
 A6-1,Fantasy Film,A6-3,Arthurian Film,4
 A6-1,Fantasy Film,A7-16,Video Game Adaptation,4
 A6-1,Fantasy Film,A17-6,Disney Channel Original Movie,3
-A6-1,Fantasy Film,A17-5,Family Comedy,2
+A6-1,Fantasy Film,A12-35,Family Comedy,2
 A6-1,Fantasy Film,A6-16,Standalone Superhero Film,2
 A6-1,Fantasy Film,A6-21,Lost World,1
 A6-1,Fantasy Film,A6-2,Sword and Sorcery,1
@@ -370,10 +370,10 @@ A6-2,Adventure Film,A6-11,Mythological Fantasy,5
 A6-2,Adventure Film,A17-3,Children's Adventure Film,5
 A6-2,Adventure Film,A6-24,Prehistoric Fiction,3
 A6-2,Adventure Film,A17-4,Children's Drama,3
-A6-2,Adventure Film,A17-5,Family Comedy,3
+A6-2,Adventure Film,A12-35,Family Comedy,3
 A6-2,Adventure Film,A6-18,Swashbuckler,2
 A6-2,Adventure Film,A17-2,Animal Adventure Film,2
-A6-2,Adventure Film,A6-9,Fantasy Comedy,1
+A6-2,Adventure Film,A12-28,Fantasy Comedy,1
 A6-2,Adventure Film,A6-5,Dark Fantasy,1
 A6-2,Adventure Film,A6-4,Portal Fantasy,1
 A6-2,Adventure Film,A6-12,Fairy-Tale Film,1
@@ -483,7 +483,7 @@ A8-2,Action Film,A7-3,Vigilante Film,37
 A8-2,Action Film,A7-4,Military Action Film,26
 A8-2,Action Film,A7-5,Car Chase Film,24
 A8-2,Action Film,A7-7,Girls with Guns,17
-A8-2,Action Film,A7-6,Hitman Film,17
+A8-2,Action Film,A2-5,Hitman Film,17
 A8-2,Action Film,A7-8,Gun Fu,12
 A8-2,Action Film,A7-17,Exploitation Action Film,8
 A8-2,Action Film,A7-13,Martial Arts Film,4
@@ -543,7 +543,7 @@ A9-2,Romantic Comedy,A13-21,Holiday Romantic Comedy,5
 A9-2,Romantic Comedy,A13-1,Star-Crossed Romance,4
 A9-2,Romantic Comedy,A13-11,Pink Neorealism,1
 A9-2,Romantic Comedy,A13-7,Period Romance,1
-A9-2,Romantic Comedy,A17-5,Family Comedy,1
+A9-2,Romantic Comedy,A12-35,Family Comedy,1
 A10-1,Comedy Film,A12-2,Comedian Comedy,87
 A10-1,Comedy Film,A12-35,Family Comedy,68
 A10-1,Comedy Film,A12-27,Fish-out-of-Water Comedy,48
@@ -553,11 +553,11 @@ A10-1,Comedy Film,A12-7,Farce,44
 A10-1,Comedy Film,A12-32,Workplace Comedy,41
 A10-1,Comedy Film,A12-31,Road & Vacation Comedy,27
 A10-1,Comedy Film,A12-37,Teen Comedy,17
-A10-1,Comedy Film,A12-36,Wedding Comedy,16
+A10-1,Comedy Film,A13-20,Wedding Comedy,16
 A10-1,Comedy Film,A12-41,Stoner Film,15
 A10-1,Comedy Film,A12-54,Midlife Crisis Comedy,14
 A10-1,Comedy Film,A12-19,Surreal & Absurdist Comedy,13
-A10-1,Comedy Film,A12-29,Science Fiction Comedy,12
+A10-1,Comedy Film,A5-22,Science Fiction Comedy,12
 A10-1,Comedy Film,A12-57,Slice-of-Life Comedy-Drama,11
 A10-1,Comedy Film,A12-33,Military Comedy,11
 A10-1,Comedy Film,A12-47,Cop Comedy,11
@@ -572,7 +572,7 @@ A10-1,Comedy Film,A12-8,Picaresque Comedy,5
 A10-1,Comedy Film,A12-34,Sports Comedy,5
 A10-1,Comedy Film,A12-39,College & Fraternity Comedy,5
 A10-1,Comedy Film,A12-1,Silent Clown Comedy,4
-A10-1,Comedy Film,A12-40,Sex Comedy,4
+A10-1,Comedy Film,A13-13,Sex Comedy,4
 A10-1,Comedy Film,A12-43,Caper Comedy,4
 A10-1,Comedy Film,A12-3,Slapstick,4
 A10-1,Comedy Film,A12-11,Comédia à portuguesa,3
@@ -610,7 +610,7 @@ A10-2,Comedy-Drama,A12-15,Social Satire,14
 A10-2,Comedy-Drama,A12-21,Quirky Indie Comedy,13
 A10-2,Comedy-Drama,A12-19,Surreal & Absurdist Comedy,12
 A10-2,Comedy-Drama,A12-25,Sketch Film,10
-A10-2,Comedy-Drama,A12-36,Wedding Comedy,9
+A10-2,Comedy-Drama,A13-20,Wedding Comedy,9
 A10-2,Comedy-Drama,A12-42,Slacker Comedy,9
 A10-2,Comedy-Drama,A12-17,Black Comedy,8
 A10-2,Comedy-Drama,A12-31,Road & Vacation Comedy,8
@@ -619,7 +619,7 @@ A10-2,Comedy-Drama,A12-14,Political Satire,6
 A10-2,Comedy-Drama,A12-1,Silent Clown Comedy,5
 A10-2,Comedy-Drama,A12-34,Sports Comedy,5
 A10-2,Comedy-Drama,A12-2,Comedian Comedy,5
-A10-2,Comedy-Drama,A12-40,Sex Comedy,5
+A10-2,Comedy-Drama,A13-13,Sex Comedy,5
 A10-2,Comedy-Drama,A12-33,Military Comedy,4
 A10-2,Comedy-Drama,A12-22,Cringe Comedy,4
 A10-2,Comedy-Drama,A12-4,Screwball Comedy,3
@@ -631,7 +631,7 @@ A10-2,Comedy-Drama,A16-19,Social Realism,3
 A10-2,Comedy-Drama,A12-44,Gangster Comedy,2
 A10-2,Comedy-Drama,A12-39,College & Fraternity Comedy,1
 A10-2,Comedy-Drama,A12-26,Stand-Up Comedy Film,1
-A10-2,Comedy-Drama,A12-29,Science Fiction Comedy,1
+A10-2,Comedy-Drama,A5-22,Science Fiction Comedy,1
 A10-2,Comedy-Drama,A12-45,Crime-Gone-Wrong Comedy,1
 A10-3,Black Comedy & Satire,A12-17,Black Comedy,133
 A10-3,Black Comedy & Satire,A12-14,Political Satire,90
@@ -658,20 +658,20 @@ A10-3,Black Comedy & Satire,A12-2,Comedian Comedy,1
 A10-3,Black Comedy & Satire,A12-22,Cringe Comedy,1
 A10-3,Black Comedy & Satire,A12-51,Coming-of-Age Comedy-Drama,1
 A10-3,Black Comedy & Satire,A12-43,Caper Comedy,1
-A10-3,Black Comedy & Satire,A12-36,Wedding Comedy,1
+A10-3,Black Comedy & Satire,A13-20,Wedding Comedy,1
 A10-4,Screwball Comedy,A12-4,Screwball Comedy,14
 A10-4,Screwball Comedy,A12-5,Comedy of Remarriage,5
 A10-5,Slapstick Comedy,A12-3,Slapstick,26
 A10-5,Slapstick Comedy,A12-1,Silent Clown Comedy,15
 A10-5,Slapstick Comedy,A12-2,Comedian Comedy,9
-A10-5,Slapstick Comedy,A12-29,Science Fiction Comedy,1
+A10-5,Slapstick Comedy,A5-22,Science Fiction Comedy,1
 A10-5,Slapstick Comedy,A12-33,Military Comedy,1
 A10-5,Slapstick Comedy,A12-27,Fish-out-of-Water Comedy,1
 A10-6,Parody & Spoof,A12-23,Parody & Spoof,107
 A10-6,Parody & Spoof,A12-50,Spy Comedy,22
 A10-6,Parody & Spoof,A12-35,Family Comedy,3
 A10-6,Parody & Spoof,A12-25,Sketch Film,2
-A10-6,Parody & Spoof,A12-29,Science Fiction Comedy,2
+A10-6,Parody & Spoof,A5-22,Science Fiction Comedy,2
 A10-6,Parody & Spoof,A12-18,Camp & Trash Comedy,2
 A10-6,Parody & Spoof,A12-16,Media & Show-Business Satire,2
 A10-6,Parody & Spoof,A12-1,Silent Clown Comedy,1
@@ -680,12 +680,12 @@ A10-6,Parody & Spoof,A12-42,Slacker Comedy,1
 A10-7,Teen & Sex Comedy,A12-37,Teen Comedy,88
 A10-7,Teen & Sex Comedy,A12-38,Teen Sex Comedy,29
 A10-7,Teen & Sex Comedy,A12-39,College & Fraternity Comedy,12
-A10-7,Teen & Sex Comedy,A12-40,Sex Comedy,10
+A10-7,Teen & Sex Comedy,A13-13,Sex Comedy,10
 A10-7,Teen & Sex Comedy,A12-32,Workplace Comedy,4
 A10-7,Teen & Sex Comedy,A12-28,Fantasy Comedy,3
 A10-7,Teen & Sex Comedy,A12-31,Road & Vacation Comedy,3
 A10-7,Teen & Sex Comedy,A12-2,Comedian Comedy,2
-A10-7,Teen & Sex Comedy,A12-36,Wedding Comedy,2
+A10-7,Teen & Sex Comedy,A13-20,Wedding Comedy,2
 A10-7,Teen & Sex Comedy,A12-30,Buddy Comedy,1
 A10-7,Teen & Sex Comedy,A12-21,Quirky Indie Comedy,1
 A10-7,Teen & Sex Comedy,A12-7,Farce,1
@@ -740,7 +740,7 @@ A11-3,Rumberas Film,A14-12,Rumberas Film,1
 A12-1,Pink Film,,no titles,0
 A12-2,Roman Porno,,no titles,0
 A12-3,Erotic Drama,A15-1,Erotic Drama,49
-A12-3,Erotic Drama,A15-2,Erotic Thriller,6
+A12-3,Erotic Drama,A3-9,Erotic Thriller,6
 A12-3,Erotic Drama,A15-3,Softcore Film,2
 A12-3,Erotic Drama,A15-6,Pornochanchada,1
 A12-4,Sexploitation,A15-4,Sexploitation,5
@@ -948,7 +948,7 @@ A18-1,Masala Film,A18-6,Dhallywood & Lollywood Masala,6
 A18-1,Masala Film,A18-5,Malayalam Mass Film,3
 A18-2,Nollywood Film,A18-7,Nollywood,17
 A18-3,Yeşilçam Film,A18-8,Yeşilçam,13
-A19-1,Children's Film,A17-5,Family Comedy,69
+A19-1,Children's Film,A12-35,Family Comedy,69
 A19-1,Children's Film,A17-2,Animal Adventure Film,57
 A19-1,Children's Film,A17-6,Disney Channel Original Movie,55
 A19-1,Children's Film,A17-3,Children's Adventure Film,21
@@ -1145,7 +1145,7 @@ C3-1,Police Procedural Series,B7-4,Forensic Procedural,12
 C3-1,Police Procedural Series,B7-13,Amateur Sleuth,11
 C3-1,Police Procedural Series,B7-7,Tartan Noir,5
 C3-1,Police Procedural Series,B7-11,Cozy Mystery,3
-C3-1,Police Procedural Series,B7-31,Techno-Thriller,3
+C3-1,Police Procedural Series,B9-5,Techno-thriller,3
 C3-1,Police Procedural Series,B7-10,Inverted Detective Story,2
 C3-1,Police Procedural Series,B7-26,Revenge & Vigilante Thriller,2
 C3-1,Police Procedural Series,B7-23,Psychological Thriller,2
@@ -1203,7 +1203,7 @@ C3-6,Thriller Series,B7-33,Teen Noir,44
 C3-6,Thriller Series,B7-22,Serial-Killer Thriller,31
 C3-6,Thriller Series,B7-32,Death Game,28
 C3-6,Thriller Series,B7-29,Political Thriller,25
-C3-6,Thriller Series,B7-31,Techno-Thriller,22
+C3-6,Thriller Series,B9-5,Techno-thriller,22
 C3-6,Thriller Series,B7-34,Survival Thriller,21
 C3-6,Thriller Series,B7-24,Domestic Noir,21
 C3-6,Thriller Series,B7-8,Whodunit,10
@@ -1398,7 +1398,7 @@ C7-1,Preschool Series,B10-1,Preschool Television,23
 C7-2,Children's & Tween Series,B10-4,Teen Sitcom,62
 C7-2,Children's & Tween Series,B10-7,Children's Fantasy Series,42
 C7-2,Children's & Tween Series,B10-6,Children's Adventure Series,25
-C7-2,Children's & Tween Series,B10-5,Teen Drama,13
+C7-2,Children's & Tween Series,B1-7,Teen Drama,13
 C7-2,Children's & Tween Series,B10-3,Children's Sketch & Puppet Comedy,11
 C7-2,Children's & Tween Series,B10-2,Educational Children's Series,7
 C7-3,Nordic Christmas Calendar,B10-8,Christmas Calendar,10
@@ -1680,7 +1680,7 @@ E8-7,Art & Experimental Anime,C8-10,Art Anime,7
 E9-1,Horror Anime,C9-1,Ghost Story Anime (Kaidan),27
 E9-1,Horror Anime,C9-5,Body Horror & Cosmic Horror Anime,19
 E9-1,Horror Anime,C9-2,Folk Horror Anime,12
-E9-1,Horror Anime,C9-3,Vampire Anime,8
+E9-1,Horror Anime,C1-7,Vampire Anime,8
 E9-1,Horror Anime,C9-4,Zombie Anime,6
 E9-1,Horror Anime,C9-6,Comedy Horror Anime,3
 E9-1,Horror Anime,C8-1,Detective & Mystery Anime,1
