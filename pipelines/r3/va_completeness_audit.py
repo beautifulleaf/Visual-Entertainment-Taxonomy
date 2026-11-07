@@ -158,6 +158,14 @@ def main():
             if nn:
                 names[nn].append(c)
 
+    for c, l in leaves.items():
+        for n in lit(l.get("collections_from"), []):
+            names[norm(n)].append(c)
+    mf = os.path.join(ROOT, "taxonomy/r3/va_out/missing_traditions/merges.csv")
+    if os.path.exists(mf):
+        for r in csv.DictReader(open(mf)):
+            names[norm(r["tradition"])].append(r["leaf_code"])
+
     def leaf_for(text, fam=None):
         """Leaves whose name contains, or is contained in, the text (word-bounded)."""
         t = norm(text)
@@ -184,6 +192,8 @@ def main():
 
     # ---- V2 qualified general --------------------------------------------
     v2 = collections.Counter()
+    rv = os.path.join(OUT, "v2_review.csv")
+    reviewed = {(r["label"], r["family"]) for r in csv.DictReader(open(rv))} if os.path.exists(rv) else set()
     for k in keys:
         if k["kind"] != "general":
             continue
@@ -193,10 +203,13 @@ def main():
             continue
         fam = k["map"].split(":", 1)[1] if ":" in k["map"] else k["family"]
         hit = leaf_for(q, fam)
+        if (k["label"], k["family"]) in reviewed:
+            v2["reviewed: kept general"] += k["objects"]
+            continue
         if hit:
             v2["mapping miss"] += k["objects"]
             flag("V2", "high" if k["objects"] >= 2000 else "medium", f"{k['label']} [{fam}]",
-                 "mapping miss: label names a tradition that has a leaf", f"qualifier '{q}' matches {', '.join(hit[:4])}", k["objects"])
+                 "label names a leaf: remap if that leaf holds the whole key", f"qualifier '{q}' matches {', '.join(hit[:4])}", k["objects"])
         else:
             v2["gap candidate"] += k["objects"]
             flag("V2", "medium" if k["objects"] >= 2000 else "low", f"{k['label']} [{fam}]",
@@ -218,16 +231,21 @@ def main():
         if fam not in OBJECT_FAMS:
             continue
         grid[(cu, fam)][k["kind"]] += k["objects"]
+    resolved_cell = collections.Counter()
+    vc = os.path.join(OUT, "v3_cells.csv")
+    if os.path.exists(vc):  # written by collections_resolve.py: general objects whose own title names a leaf
+        for r in csv.DictReader(open(vc)):
+            resolved_cell[(r["culture"], r["family"])] = int(r["resolved"])
     for (cu, fam), c in sorted(grid.items(), key=lambda x: -sum(x[1].values())):
         inscope = c["leaf"] + c["general"] + c["missing"]
         if inscope < 1000:
             continue
-        share = c["leaf"] / inscope
+        share = (c["leaf"] + resolved_cell[(cu, fam)]) / inscope
         if share < 0.10:
             other = sorted(culture_leaf_fams[cu] - {fam})
             sev = "high" if other and inscope >= 5000 else ("medium" if other or inscope >= 5000 else "low")
-            flag("V3", sev, f"{cu} × {fam}", "unverified coverage: many objects in this medium, (almost) none resolvable to a leaf from their source label (either a missing leaf or a label coarser than the leaves; decide from object titles and dates)",
-                 f"leaf {share:.0%} of {inscope:,} in scope; general {c['general']:,}, missing {c['missing']:,}; "
+            flag("V3", sev, f"{cu} × {fam}", "coverage not verifiable from the records: the label names only a culture and the titles name no tradition (see residual title words in v3_cells.csv); a coarse label, not a missing leaf, unless those words name one",
+                 f"leaf {share:.0%} of {inscope:,} in scope (incl. {resolved_cell[(cu, fam)]:,} resolved by title); general {c['general']:,}, missing {c['missing']:,}; "
                  f"leaves in other families: {''.join(other) or 'none'}", inscope)
 
     # ---- V4 missing residue ----------------------------------------------
@@ -334,8 +352,10 @@ def main():
                  f"| {fam} {famlabel.get(fam, 'unknown type')} | 0 | 0 | 0 | {c['exclude']:,} | – |")
     ins = tot["leaf"] + tot["general"] + tot["missing"]
     L += [f"| **All** | {tot['leaf']:,} | {tot['general']:,} | {tot['missing']:,} | {tot['exclude']:,} | **{tot['leaf'] / ins:.0%}** |", "",
-          f"Of the general-only objects, {v2['mapping miss']:,} sit under labels whose qualifier already names a leaf "
-          f"(mapping misses, fixable without new leaves) and {v2['gap candidate']:,} under qualified labels no leaf carries.", "",
+          f"Of the general-only objects, {v2['reviewed: kept general']:,} sit under labels reviewed and kept general "
+          f"(`v2_review.csv`: the named leaf does not hold the whole label), {v2['mapping miss']:,} under unreviewed labels whose "
+          f"qualifier names a leaf, and {v2['gap candidate']:,} under qualified labels no leaf carries. "
+          f"V3 counts general objects resolved by their own titles (`v3_cells.csv`, `pipelines/r3/collections_resolve.py`).", "",
           "## Flags by check", "", "| Check | High | Medium | Low |", "|---|---:|---:|---:|"]
     for ch in sorted(byc):
         L.append(f"| {ch} | {byc[ch]['high']} | {byc[ch]['medium']} | {byc[ch]['low']} |")

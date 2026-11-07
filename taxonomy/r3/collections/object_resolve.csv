@@ -1,0 +1,637 @@
+file,label,family,leaf,objects
+world_extra,Indonesian,G,G2-2,1953
+world_extra,Japanese,?,C4-11,1656
+world_extra,Japanese,I,D2-4,911
+world_extra,Japanese,G,G2-4,702
+east_asia,Japan · Edo,E,H7-12,591
+world_extra,Indonesian,E,H5-10,570
+east_asia,Japan · Edo,I,D2-4,467
+world_extra,Japanese,D,H5-23,431
+world_extra,Indonesian,A,D4-4,332
+east_asia,Japan · Edo,G,G2-4,317
+world_extra,Indonesian,D,D4-3,291
+east_asia,Japan · Kofun,?,D5-20,214
+east_asia,Japan · Edo,I,I2-9,188
+world_extra,Japanese,H,H7-12,159
+world_extra,Guatemalan,E,H3-28,137
+africa_oceania_targeted,Samoan,E,H8-24,132
+world_extra,Indonesian,A,G2-2,128
+south_southeast_asia,Indian,C,A1-9,118
+east_asia,Japan · Meiji,E,H7-12,102
+world_extra,Indian,A,A4-1,101
+africa_oceania_targeted,Fijian,E,H8-24,90
+africa_oceania_targeted,Polynesian,E,H8-24,88
+islamic,Fatimid,E,H3-1,78
+world_extra,Japanese,G,D2-4,75
+world_extra,Japanese,E,H7-12,73
+world_extra,Indonesian,A,D4-3,73
+world_extra,Indonesian,E,D4-4,58
+east_asia,Japan · Taishō,E,H7-12,56
+africa_oceania_targeted,Maori,E,H2-14,54
+east_asia,Japan · Edo,E,D5-25,53
+world_extra,Indonesian,G,D4-3,53
+east_asia,Japan · Shōwa,E,H7-12,50
+east_asia,China · Yuan,?,G1-15,50
+gap_sweep,"Japanese folk textiles (tsutsugaki, sashiko, kogin, boro, sakiori)",E,H5-21,47
+world_extra,Indonesian,I,D4-3,45
+world_extra,Japanese,A,D5-25,40
+world_folk,Kasuri (Japanese ikat),?,H5-23,38
+africa_oceania_targeted,Samoan,E,H8-25,34
+americas_oceania,Maya,H,H3-28,34
+east_asia,Japan · Shōwa,E,H5-21,33
+world_folk,Chinese New Year prints (nianhua),?,B2-4,33
+world_extra,Japanese,B,B2-17,33
+world_extra,Mexican,E,H5-31,33
+east_asia,China · Qing,E,E4-1,30
+world_extra,Japanese,E,D2-4,28
+world_extra,Indonesian,I,D4-5,28
+world_extra,Japanese,E,H5-23,27
+south_southeast_asia,Gujarat,E,H5-8,26
+east_asia,Japan · Edo,E,E4-16,26
+world_folk,Otsu-e,?,A6-9,26
+world_extra,Indonesian,E,H4-17,25
+africa_oceania_targeted,Tongan,E,H8-25,24
+east_asia,Japan · Edo,E,I2-9,24
+world_extra,Indonesian,E,G2-2,23
+south_southeast_asia,Indian,A,H5-3,21
+east_asia,Japan · Momoyama,E,H7-12,21
+world_extra,Burmese,J,G1-14,21
+world_extra,Japanese,B,H7-12,20
+world_extra,Indonesian,A,H5-10,19
+world_extra,Indonesian,E,H3-12,19
+world_extra,Indonesian,H,H5-10,19
+africa_oceania_targeted,Hawaiian,E,H8-24,18
+africa_oceania_targeted,Yoruba,H,D5-42,17
+south_southeast_asia,Indian,E,H5-3,17
+world_folk,"Lampung ship cloths (tapis, tampan, palepai)",G,H4-17,17
+world_extra,Indian,B,A4-1,17
+africa_oceania_targeted,Ethiopian,G,G1-19,16
+east_asia,Japan ·,E,H7-12,16
+world_folk,Adinkra cloth,I,H5-28,16
+manuscripts,"Western European manuscripts, late medieval/Renaissance (unlocalised, 1451-1600)",C,C2-29,16
+africa_oceania_targeted,Tongan,H,H8-25,15
+world_extra,Indonesian,E,H3-11,15
+africa_oceania_targeted,Cook Islands,E,H4-42,14
+east_asia,Korea · Joseon,E,E3-14,14
+world_extra,Japanese,I,I4-13,14
+south_southeast_asia,Kashmiri,E,H3-6,13
+east_asia,Japan · Edo,E,D2-4,13
+world_extra,Indonesian,I,D4-4,13
+world_extra,Japanese,E,A2-8,13
+world_extra,Turkish,C,C1-5,13
+east_asia,Japan · Edo,E,E3-28,12
+east_asia,China · Eastern Zhou,D,D3-3,12
+world_extra,Indonesian,H,C2-6,12
+world_extra,Indonesian,A,D4-5,12
+world_extra,Indonesian,E,D4-3,12
+africa_oceania_targeted,Yoruba,E,H3-24,11
+americas_oceania,Maya,E,H3-28,11
+east_asia,Japan · Edo,E,G2-12,11
+world_folk,"Lampung ship cloths (tapis, tampan, palepai)",G,H3-12,11
+world_folk,Amate bark-paper painting,G,A6-14,11
+smithsonian,Japanese,E,E3-24,11
+world_extra,Japanese,G,I2-9,11
+world_extra,Indonesian,D,D4-4,11
+africa_oceania_targeted,Yoruba,E,H5-27,10
+africa_oceania_targeted,Solomon Islands,I,D5-87,10
+east_asia,Japan · Kofun,?,I4-13,10
+world_folk,"Polynesian tapa (other: Niue, Tahiti, Marquesas, Wallis-Futuna, Rapa Nui)",I,H8-24,10
+smithsonian,Japanese,H,D2-4,10
+smithsonian,San Carlos Apache,A,H8-18,10
+world_extra,Japanese,B,I4-13,10
+manuscripts,Western European manuscripts (undated),C,C2-29,10
+africa_oceania_targeted,Niue,E,H8-24,9
+south_southeast_asia,Bengal,E,H4-11,9
+east_asia,Japan · Edo,G,I2-9,9
+east_asia,China · Ming,E,D5-21,9
+world_extra,Indonesian,H,D4-5,9
+world_extra,Japanese,?,H5-21,9
+africa_oceania_targeted,Bamana,H,D4-13,8
+south_southeast_asia,Thai,E,E3-2,8
+east_asia,Japan · Taishō,E,D5-25,8
+east_asia,Japan · Edo,E,E4-20,8
+world_folk,Mapuche silverwork and weaving,?,H2-24,8
+gap_sweep,Ethiopian traditional arts (other),B,C2-14,8
+gap_sweep,"Japanese folk textiles (tsutsugaki, sashiko, kogin, boro, sakiori)",E,H7-12,8
+himalaya_central_asia,"Western Himalayan (Ladakh, Spiti, Kinnaur)",?,A4-7,8
+smithsonian,White Mountain Apache,A,H8-18,8
+smithsonian,Tlingit,A,D5-76,8
+world_extra,Japanese,J,H7-12,8
+world_extra,Chinese,E,H3-16,8
+world_extra,Indonesian,F,G2-2,8
+world_extra,Indonesian,H,G2-2,8
+world_extra,Indonesian,I,H5-10,8
+world_extra,Indonesian,J,D4-4,8
+world_extra,"Indonesian, Java",J,C2-9,8
+world_extra,Papua New Guinean,E,H8-2,8
+east_asia,China · Northern Song,E,E3-11,7
+east_asia,Japan · Kamakura,E,E3-15,7
+east_asia,Japan · Edo,E,E1-22,7
+east_asia,Japan · Muromachi,G,G2-12,7
+east_asia,Japan · Edo,E,D3-11,7
+east_asia,China · Qing,E,E4-10,7
+islamic,Egypt,D,D5-55,7
+smithsonian,Haida,?,D5-76,7
+world_extra,Japanese,A,H7-12,7
+world_extra,Japanese,?,I4-13,7
+world_extra,Mexican,E,H2-9,7
+world_extra,Japanese,?,G2-4,7
+east_asia,Japan · Nanbokuchō,E,I2-9,6
+east_asia,Japan · Edo,E,E3-18,6
+east_asia,Japan · Muromachi,G,G2-4,6
+east_asia,Japan · 6～7世紀,?,D5-20,6
+east_asia,Japan · Edo,I,I4-13,6
+east_asia,China · Qing,G,G1-15,6
+east_asia,China · Spring and Autumn,?,G1-15,6
+world_folk,Kokeshi,I,D5-26,6
+himalaya_central_asia,Nepal: Shah,G,G2-8,6
+smithsonian,Chinese,D,D3-3,6
+smithsonian,Assiniboine (Stoney),?,A4-18,6
+smithsonian,Choctaw Indians,A,H8-21,6
+world_extra,Indonesian,I,C2-6,6
+world_extra,Chile,E,H4-34,6
+world_extra,Japanese,F,D2-4,6
+world_extra,Japanese,E,H5-21,6
+africa_oceania_targeted,Hawaiian,H,H9-9,5
+south_southeast_asia,Burmese,E,H3-48,5
+south_southeast_asia,South Indian,G,D5-5,5
+east_asia,Japan · Muromachi,E,H7-12,5
+east_asia,China · Qing,E,H3-16,5
+east_asia,Japan · Edo,I,D3-11,5
+east_asia,China · Six Dynasties,E,E3-4,5
+east_asia,Japan · Edo,E,E3-26,5
+east_asia,Japan · Momoyama,G,G2-4,5
+east_asia,China · Qing,E,G1-15,5
+east_asia,China · Shang,?,G1-15,5
+east_asia,Korea · 19～20世紀,E,H4-26,5
+world_folk,Songket,I,H3-11,5
+world_folk,Chinese New Year prints (nianhua),G,B2-4,5
+gap_sweep,"Japanese folk textiles (tsutsugaki, sashiko, kogin, boro, sakiori)",E,H4-27,5
+islamic,Fatimid,?,H3-1,5
+smithsonian,Japanese,E,E3-34,5
+smithsonian,Japanese,E,H7-12,5
+smithsonian,Buddhists,A,A2-15,5
+smithsonian,Sac and Fox (Sauk & Fox),G,A4-18,5
+smithsonian,probably Western Apache (attributed),C,H8-18,5
+world_extra,Japanese,H,D2-4,5
+world_extra,Indonesian,G,H5-10,5
+world_extra,Indonesian,C,H5-10,5
+africa,Ethiopian,G,G1-19,4
+africa_oceania_targeted,Yoruba,G,D5-42,4
+south_southeast_asia,Indian,B,H5-3,4
+south_southeast_asia,Nepalese (Newar),G,G2-8,4
+south_southeast_asia,Unspecified (Delhi),B,B2-9,4
+east_asia,Japan · Meiji,E,D5-25,4
+east_asia,Japan · Meiji,E,E4-20,4
+east_asia,Japan · Momoyama,E,E3-34,4
+east_asia,Japan · Muromachi,E,E3-15,4
+east_asia,Japan · Edo,A,H7-12,4
+east_asia,Japan · Edo,G,D2-4,4
+east_asia,China · Qing,E,D3-11,4
+east_asia,Japan · Heisei,E,H5-21,4
+east_asia,Japan · n.d.,E,D2-4,4
+europe_folk,people:armenian_paper_cut:prints,B,A1-20,4
+smithsonian,Yakama (Yakima),?,A4-18,4
+smithsonian,Sac and Fox (Sauk & Fox),?,A4-18,4
+smithsonian,probably Northern Mesoamerica (attributed),H,H3-28,4
+smithsonian,Peruvians,A,G1-31,4
+world_extra,Mexican,E,D5-73,4
+world_extra,Indonesian,B,G2-2,4
+world_extra,Moroccan,E,H10-3,4
+world_extra,Japanese,A,D2-4,4
+world_extra,Indonesian,A,H5-13,4
+world_extra,Japanese,H,H5-23,4
+africa,Igbo,I,D4-17,3
+africa_oceania_targeted,Yoruba,A,H3-24,3
+africa_oceania_targeted,Maori,E,D5-81,3
+africa_oceania_targeted,Maori: Tainui,E,H2-14,3
+east_asia,Japan · Heian,?,D3-11,3
+east_asia,Japan · Muromachi,E,I2-9,3
+east_asia,China · Sui,E,D3-11,3
+east_asia,Japan · Edo,E,E3-34,3
+east_asia,Korea ·,E,E3-14,3
+east_asia,Japan · Edo,E,E3-14,3
+east_asia,Japan · Heian,G,D6-12,3
+east_asia,Japan · Edo,I,I4-22,3
+east_asia,Japan · Yayoi,?,E1-18,3
+east_asia,China · Ming,E,D3-11,3
+east_asia,China · Yuan,E,D3-3,3
+east_asia,China · Shang,E,E3-4,3
+east_asia,China · Song,E,E3-4,3
+east_asia,China · Tang,E,D5-21,3
+east_asia,Japan · Heisei,E,E3-34,3
+world_folk,"Northwest Coast carving (totem poles, masks, bentwood boxes)",A,D5-76,3
+islamic,Abbasid,E,H3-1,3
+islamic,Ottoman,G,C1-5,3
+islamic,Qajar,I,I2-1,3
+islamic,Iran; Isfahan,A,I2-1,3
+smithsonian,Japanese,E,E3-18,3
+smithsonian,Japanese,E,E4-16,3
+smithsonian,Japanese,E,E3-28,3
+smithsonian,Chinese,G,G1-15,3
+smithsonian,A:shiwi (Zuni),H,H7-19,3
+smithsonian,A:shiwi (Zuni),H,H8-18,3
+smithsonian,Bering Strait Iñupiaq [King Island],A,D2-9,3
+smithsonian,Osage Indians,A,H4-39,3
+smithsonian,Navajo Indians,A,H2-10,3
+world_extra,Tibetan,G,A4-7,3
+world_extra,Peruvian,E,H2-4,3
+world_extra,Dutch,G,H5-36,3
+world_extra,Japanese,D,D2-4,3
+world_extra,Chinese,J,H7-16,3
+world_extra,Japanese,D,I4-13,3
+world_extra,Japanese,?,B2-21,3
+world_extra,Mexican,H,H5-31,3
+world_extra,Japanese,?,H7-12,3
+world_extra,Bhutanese,E,A4-7,3
+world_extra,Turkish,A,C1-5,3
+world_extra,Japanese,B,D2-4,3
+africa,Ethiopian,G,A4-17,2
+africa,Yoruba,E,H5-27,2
+africa_oceania_targeted,Ewe,E,H3-23,2
+africa_oceania_targeted,Fang,I,D6-3,2
+africa_oceania_targeted,Hausa,H,H4-103,2
+africa_oceania_targeted,Yoruba,A,D5-42,2
+africa_oceania_targeted,Maori,E,H9-10,2
+africa_oceania_targeted,Marquesan,E,H8-24,2
+africa_oceania_targeted,Vanuatu,I,I4-1,2
+south_southeast_asia,Burmese,A,H4-18,2
+south_southeast_asia,Indian,A,A1-7,2
+south_southeast_asia,Khmer,E,H5-37,2
+east_asia,Japan · Meiji,E,H5-23,2
+east_asia,Japan · Taishō,E,H5-21,2
+east_asia,Japan · Edo,E,H5-19,2
+east_asia,China ·,E,G1-15,2
+east_asia,China · Yuan,E,E3-11,2
+east_asia,Japan · Muromachi,E,E3-19,2
+east_asia,Japan · Kamakura,G,E3-18,2
+east_asia,Japan · Momoyama,G,G2-12,2
+east_asia,Japan · Meiji,A,H7-12,2
+east_asia,Japan · Edo,A,D5-25,2
+east_asia,Japan · 6世紀,?,D5-20,2
+east_asia,Japan · Shōwa,G,G2-12,2
+east_asia,Japan · Muromachi,E,E3-10,2
+east_asia,Japan · Meiji,E,D2-4,2
+east_asia,Japan · Edo,E,E3-10,2
+east_asia,Japan · Edo,E,I4-13,2
+east_asia,Japan · Momoyama,E,G2-12,2
+east_asia,Japan · Kofun,?,G2-4,2
+east_asia,China · Western Han,?,G1-15,2
+east_asia,China · Warring States,?,G1-15,2
+east_asia,Japan · Edo,E,G3-27,2
+east_asia,China · Northern Song,E,E4-10,2
+east_asia,China · Qing,E,E4-14,2
+east_asia,China · Jin,E,E3-11,2
+east_asia,Japan · Muromachi,E,E3-18,2
+east_asia,Japan · Shōwa,E,E3-18,2
+east_asia,Japan · Meiji,E,H5-21,2
+east_asia,China · Tang,E,D3-11,2
+east_asia,China · Eastern Zhou,G,G1-15,2
+east_asia,China · Han,D,D3-3,2
+world_folk,"Japanese folk toys (kyodo gangu, hariko, Fushimi dolls)",B,H7-12,2
+world_folk,Patola,G,H5-8,2
+world_folk,"Philippine pina and other weaving (Yakan, Kalinga, Ifugao, inabel)",H,H3-13,2
+world_folk,"Northwest Coast carving (totem poles, masks, bentwood boxes)",D,H4-110,2
+world_folk,Huichol yarn and bead art (nierika),E,H9-15,2
+world_folk,Wayang (shadow and rod puppets),D,D4-4,2
+himalaya_central_asia,Nepal: Shah,?,G2-8,2
+islamic,Ottoman,E,H7-2,2
+islamic,Ottoman,E,H3-3,2
+islamic,Ottoman,G,H7-2,2
+islamic,Umayyad,E,H3-1,2
+islamic,Iran,I,I2-1,2
+smithsonian,Japanese,E,E1-22,2
+smithsonian,Japanese,E,E3-10,2
+smithsonian,Tsitsistas/Suhtai (Cheyenne),?,A4-18,2
+smithsonian,Meskwaki (Fox),?,A4-18,2
+smithsonian,Kwakwaka'wakw (Kwakiutl),A,D5-76,2
+smithsonian,Diné (Navajo),E,H2-10,2
+smithsonian,Tsimshian (Ts’msyen) [Metlakatla],A,D5-76,2
+world_extra,"Indian, Tamil Nadu",G,D5-5,2
+world_extra,Indian,G,D5-5,2
+world_extra,Chinese,D,D3-3,2
+world_extra,Indian,E,H5-3,2
+world_extra,Japanese,E,I4-13,2
+world_extra,Japanese,B,E3-18,2
+world_extra,Japanese,B,E3-34,2
+world_extra,Japanese,B,G2-4,2
+world_extra,"Indonesian, Java",E,G2-2,2
+world_extra,"Indonesian, Java",F,D4-4,2
+world_extra,Indonesian,E,C2-6,2
+world_extra,"Indonesian, Java",E,D4-4,2
+world_extra,Indonesian,G,C2-9,2
+world_extra,Brazil,H,H9-14,2
+world_extra,Peruvian,E,G1-28,2
+world_extra,Indian,E,H1-8,2
+world_extra,Indonesian,H,H3-11,2
+world_extra,Mexican,G,A6-13,2
+world_extra,Peruvian,I,E1-50,2
+world_extra,Asmat,H,D5-84,2
+world_extra,Indonesian,E,H5-13,2
+world_extra,Peruvian,H,H2-7,2
+world_extra,Peruvian,D,G1-29,2
+world_extra,Indian,I,A4-1,2
+world_extra,Sepik cultures,J,D5-85,2
+world_extra,"Indonesian, Java",J,D4-4,2
+world_extra,Burkina Faso,E,H3-53,2
+world_extra,Nigerian,E,D5-42,2
+world_extra,Japanese,C,D2-4,2
+world_extra,Japanese,G,G1-63,2
+world_extra,Indonesian,D,D4-5,2
+world_extra,Indian,G,G2-1,2
+world_extra,New Zealand,G,D3-9,2
+world_extra,Indonesian,G,D4-4,2
+world_extra,Mexican,A,D4-33,2
+world_extra,Peruvian,E,E1-47,2
+world_extra,Mexican,E,E1-81,2
+world_extra,Peruvian,E,H2-7,2
+world_extra,Japanese,E,E1-22,2
+world_extra,Indonesian,H,H5-12,2
+world_extra,Japanese,I,I2-9,2
+africa,Chokwe,H,D4-15,1
+africa,Yoruba,H,D5-42,1
+africa,Yoruba,H,H3-24,1
+africa,Yoruba,H,H5-27,1
+africa_oceania_targeted,Bamana,E,H5-26,1
+africa_oceania_targeted,Bamana,H,D5-44,1
+africa_oceania_targeted,Chokwe,G,D4-15,1
+africa_oceania_targeted,Dan,H,D4-18,1
+africa_oceania_targeted,Fang,G,D6-3,1
+africa_oceania_targeted,Fang,H,D6-3,1
+africa_oceania_targeted,Fon (Dahomey),H,D6-4,1
+africa_oceania_targeted,Igbo,I,D4-17,1
+africa_oceania_targeted,Kongo,E,D6-2,1
+africa_oceania_targeted,Kongo,G,D6-2,1
+africa_oceania_targeted,Luba,H,D5-50,1
+africa_oceania_targeted,Songye,H,D6-2,1
+africa_oceania_targeted,Yoruba,A,H5-27,1
+africa_oceania_targeted,Hawaiian,H,H8-24,1
+africa_oceania_targeted,Hawaiian,I,H8-24,1
+africa_oceania_targeted,Maori,A,D5-81,1
+africa_oceania_targeted,Maori,A,D3-9,1
+africa_oceania_targeted,Maori,E,D3-9,1
+africa_oceania_targeted,Maori: Te Arawa,D,D5-81,1
+africa_oceania_targeted,Maori: other iwi,E,H2-14,1
+africa_oceania_targeted,Marquesan,H,H8-24,1
+africa_oceania_targeted,Samoan,I,H8-24,1
+africa_oceania_targeted,Solomon Islands,E,D5-87,1
+africa_oceania_targeted,Tongan,G,H8-25,1
+americas_oceania,Lakota / Dakota (Sioux),E,H9-6,1
+south_southeast_asia,Balinese,H,H5-13,1
+south_southeast_asia,Balinese,E,H3-11,1
+south_southeast_asia,Burmese,F,C2-8,1
+south_southeast_asia,Burmese,E,H4-18,1
+south_southeast_asia,Gujarat,E,H5-6,1
+south_southeast_asia,Indian,G,D5-5,1
+south_southeast_asia,Indian,G,G2-1,1
+south_southeast_asia,Indian,H,G3-22,1
+south_southeast_asia,Indian,B,H5-5,1
+south_southeast_asia,Indonesian,E,H4-17,1
+south_southeast_asia,Indonesian,E,H3-12,1
+south_southeast_asia,Indonesian,H,H5-12,1
+south_southeast_asia,Javanese,E,H5-10,1
+south_southeast_asia,Kashmiri,C,H3-6,1
+south_southeast_asia,Mughal,D,H1-8,1
+south_southeast_asia,Philippine,E,H3-14,1
+south_southeast_asia,South Indian,G,G3-22,1
+south_southeast_asia,Sumatran,H,H4-17,1
+south_southeast_asia,Sumatran,E,H3-12,1
+south_southeast_asia,Sumatran,H,H3-11,1
+south_southeast_asia,Sumatran: Minangkabau,E,H3-11,1
+east_asia,Japan ·,E,H5-22,1
+east_asia,Japan · Momoyama,E,H5-22,1
+east_asia,Japan · Meiji,E,I2-9,1
+east_asia,China · Ming,E,E4-10,1
+east_asia,Japan · Momoyama,E,E3-10,1
+east_asia,Japan · Edo,E,E3-25,1
+east_asia,Japan · Nanbokuchō,G,E3-18,1
+east_asia,China · Republic,A,D3-11,1
+east_asia,China · Yuan,?,I4-14,1
+east_asia,Japan · Meiji,A,I4-13,1
+east_asia,Japan · Edo,A,E3-34,1
+east_asia,Japan · Edo,A,I4-13,1
+east_asia,Japan · Edo,A,C1-10,1
+east_asia,Japan · Edo,A,B2-17,1
+east_asia,Japan · Edo,G,I4-13,1
+east_asia,Japan · Muromachi,G,G3-27,1
+east_asia,Japan · Edo,G,G3-27,1
+east_asia,Japan · Nanbokuchō,G,G2-12,1
+east_asia,Japan · Meiji,G,G2-12,1
+east_asia,Japan · Taishō,G,G2-12,1
+east_asia,Japan · Taishō,G,I2-9,1
+east_asia,Japan · Edo,E,G2-4,1
+east_asia,Japan · Edo,E,E3-19,1
+east_asia,Japan · Momoyama,E,E3-18,1
+east_asia,Japan · Shōwa,E,E3-10,1
+east_asia,Japan ·,E,E4-16,1
+east_asia,Japan · Kamakura,E,E3-19,1
+east_asia,Japan · Momoyama,E,E1-22,1
+east_asia,Japan · Edo,I,I2-11,1
+east_asia,Japan · Heisei,E,H7-12,1
+east_asia,Japan · Kofun,?,G2-9,1
+east_asia,Japan · Kofun,?,D3-11,1
+east_asia,Japan · Muromachi,?,I2-9,1
+east_asia,China · Tang,?,I4-14,1
+east_asia,Japan · Edo,?,H7-12,1
+east_asia,Japan · Taishō,?,G2-12,1
+east_asia,China · Qing,A,G1-15,1
+east_asia,China · Ming,E,G1-68,1
+east_asia,China · Southern Song,E,D3-3,1
+east_asia,China · Qing,I,I2-22,1
+east_asia,Korea · Joseon,I,I3-25,1
+east_asia,Korea · Joseon,E,H4-25,1
+east_asia,China · Yuan,E,H3-16,1
+east_asia,China · Liao,E,H3-16,1
+east_asia,China · Qing,?,G1-15,1
+east_asia,China · Eastern Han,?,G1-15,1
+east_asia,China · Western Zhou,?,G1-15,1
+east_asia,Korea · 19～20世紀,?,I3-25,1
+east_asia,China · Tang,?,D3-11,1
+east_asia,China · Song,E,E3-11,1
+east_asia,Japan · Edo,A,A1-14,1
+east_asia,Japan · Edo,E,I3-24,1
+east_asia,Japan · Edo,?,G2-9,1
+east_asia,Japan · Edo,I,E4-16,1
+east_asia,Japan · 20世紀,?,D3-11,1
+east_asia,Japan · 20世紀,?,I4-13,1
+east_asia,Japan · Edo,E,H5-22,1
+east_asia,China · Ming,A,G1-68,1
+east_asia,China · Qing,A,G1-68,1
+east_asia,China · Five Dynasties,E,D3-3,1
+east_asia,China · Qing,?,D3-4,1
+east_asia,China · Tang,E,E3-4,1
+east_asia,China · Qing,I,I4-15,1
+east_asia,China · Ming,E,G1-15,1
+east_asia,Japan · Momoyama,E,D3-11,1
+east_asia,Japan · Momoyama,E,E3-25,1
+east_asia,Korea · Joseon,A,A6-11,1
+east_asia,China · Eastern Han,E,G1-15,1
+east_asia,Japan · 20th century,E,E3-15,1
+east_asia,Japan · Shōwa,E,E3-19,1
+east_asia,Japan · Heisei,E,E3-18,1
+east_asia,Korea · Post-1945 (Korea),E,H4-26,1
+east_asia,Japan · Edo,I,H7-12,1
+east_asia,China · Han,E,D3-11,1
+east_asia,China · Qing,E,I2-8,1
+east_asia,Japan · Meiji,A,I2-10,1
+east_asia,Korea · Japanese colonial period,A,A6-11,1
+east_asia,Korea · Joseon,E,E4-15,1
+east_asia,China · Eastern Zhou,E,G1-15,1
+east_asia,China · Spring and Autumn,G,G1-15,1
+east_asia,Korea · Joseon,E,H4-26,1
+east_asia,Japan · early 20th century,B,H7-12,1
+east_asia,Japan · Meiji,E,H4-27,1
+east_asia,China · Warring States,D,D3-3,1
+east_asia,China · Eastern Zhou,E,I4-14,1
+east_asia,Japan · 20th century,E,E3-14,1
+east_asia,China · Qing,I,I2-8,1
+east_asia,China · Western Han,E,G1-15,1
+europe_folk,people:seto:ceramics,E,E3-15,1
+europe_folk,people:armenian:textiles,E,A1-20,1
+europe_folk,people:armenian:painting_folk_decorative,A,A1-20,1
+world_folk,"Japanese folk toys (kyodo gangu, hariko, Fushimi dolls)",G,D5-25,1
+world_folk,"Northwest Coast carving (totem poles, masks, bentwood boxes)",A,D4-24,1
+world_folk,"Northwest Coast carving (totem poles, masks, bentwood boxes)",A,I1-14,1
+world_folk,"Philippine pina and other weaving (Yakan, Kalinga, Ifugao, inabel)",E,H3-14,1
+world_folk,Korean najeon (mother-of-pearl lacquer),E,E3-24,1
+world_folk,Korean najeon (mother-of-pearl lacquer),E,E3-25,1
+world_folk,Great Lakes beadwork and ribbonwork,G,H9-11,1
+world_folk,Mexican dance masks,A,D4-33,1
+world_folk,Songket,G,H3-11,1
+world_folk,Ainu textiles and carving,?,H4-29,1
+world_folk,Wayang (shadow and rod puppets),D,D4-5,1
+gap_sweep,Ethiopian traditional arts (other),D,C2-14,1
+gap_sweep,"Ryukyuan weaving (bashofu, kasuri, Shuri)",?,I2-11,1
+islamic,Umayyad; Abbasid,E,H3-1,1
+islamic,Ayyubid,A,E2-5,1
+islamic,Mamluk,E,H1-3,1
+islamic,Ottoman,E,E2-7,1
+islamic,Ottoman,G,H3-3,1
+islamic,Iranian,G,I2-1,1
+islamic,Islamic,G,G1-8,1
+islamic,Turkey,?,H7-2,1
+islamic,Iran,A,I2-1,1
+smithsonian,Japanese,E,E3-14,1
+smithsonian,Japanese,E,E3-26,1
+smithsonian,Japanese,E,E3-19,1
+smithsonian,Japanese,E,E3-25,1
+smithsonian,Japanese,A,H7-12,1
+smithsonian,Japanese,I,E3-26,1
+smithsonian,Buddhists,I,A2-15,1
+smithsonian,Chinese,A,G1-68,1
+smithsonian,"Liangzhu culture, ca. 3300-ca. 2250 BCE",G,D3-3,1
+smithsonian,Chinese,E,H3-16,1
+smithsonian,Chinese,A,H3-16,1
+smithsonian,Chinese,A,I4-14,1
+smithsonian,Chinese,E,E3-4,1
+smithsonian,Chinese,G,G1-68,1
+smithsonian,Chiricahua Apache,A,H8-18,1
+smithsonian,Inunaina (Arapaho),?,A4-18,1
+smithsonian,Haida,G,D5-76,1
+smithsonian,probably Western Apache (attributed),F,H8-18,1
+smithsonian,Inuit [Iglulik/Igloolik],?,H7-22,1
+smithsonian,Hopi Pueblo,I,H8-20,1
+smithsonian,Chilkat Tlingit,A,H2-11,1
+smithsonian,A:shiwi (Zuni),H,G3-15,1
+smithsonian,Chinese,D,E4-13,1
+smithsonian,Hopi Indians,A,E1-68,1
+smithsonian,Ojibwa Indians,A,H9-11,1
+smithsonian,Apache Indians,A,H8-18,1
+world_extra,"Indonesian, Sumatra",E,H3-12,1
+world_extra,Japanese,E,H5-22,1
+world_extra,Chinese,G,G1-15,1
+world_extra,Chinese,E,E4-10,1
+world_extra,Chinese,E,G1-37,1
+world_extra,Chinese,G,I2-22,1
+world_extra,Iranian,E,H2-2,1
+world_extra,Iranian,E,H2-1,1
+world_extra,Iranian,H,G2-1,1
+world_extra,"Indonesian, Bali",F,G2-2,1
+world_extra,"Indonesian, Java",F,G2-2,1
+world_extra,Indian,A,H1-8,1
+world_extra,Indonesian,G,C2-6,1
+world_extra,Peruvian,I,H4-32,1
+world_extra,Peruvian,E,H4-32,1
+world_extra,Indonesian,I,C2-9,1
+world_extra,Indonesian,E,C2-9,1
+world_extra,Dutch,A,H7-21,1
+world_extra,"Indonesian, Java",I,G2-2,1
+world_extra,Japanese,E,H4-27,1
+world_extra,Indonesian,J,D4-5,1
+world_extra,Pakistani,?,D5-1,1
+world_extra,Burkina Faso,H,D5-45,1
+world_extra,Indonesian,G,H4-17,1
+world_extra,Iranian,H,H5-2,1
+world_extra,"Indonesian, Java",B,D4-3,1
+world_extra,"Indonesian, Java",A,G2-2,1
+world_extra,"Indonesian, Java",A,D4-3,1
+world_extra,Burmese,F,H4-18,1
+world_extra,Peruvian,H,E1-50,1
+world_extra,"Indonesian, Java",E,D4-3,1
+world_extra,Burmese,E,D4-8,1
+world_extra,Indian,B,D5-5,1
+world_extra,Indian,E,A4-1,1
+world_extra,Malaysian,B,H5-11,1
+world_extra,Brazil,A,H9-14,1
+world_extra,Mexican,A,D5-73,1
+world_extra,Burmese,I,D4-8,1
+world_extra,Dutch,E,H5-36,1
+world_extra,Indonesian,F,C2-6,1
+world_extra,Burmese,D,G1-14,1
+world_extra,"Indonesian, Java",J,H5-10,1
+world_extra,Dutch,J,H3-59,1
+world_extra,Indonesian,F,H5-10,1
+world_extra,Indian,J,A1-5,1
+world_extra,Indonesian,J,G2-2,1
+world_extra,Indonesian,F,D4-4,1
+world_extra,Dutch,J,H7-21,1
+world_extra,Peruvian,D,H2-5,1
+world_extra,Peruvian,H,G1-31,1
+world_extra,Indonesian,J,C2-9,1
+world_extra,Indonesian,B,C2-9,1
+world_extra,Egyptian,E,E2-15,1
+world_extra,Algerian,J,H4-102,1
+world_extra,Dutch; Culture of the Indies,J,H7-21,1
+world_extra,"Indonesian, Java; Dutch",J,C2-9,1
+world_extra,Burmese,J,I2-6,1
+world_extra,Indonesian,J,H5-10,1
+world_extra,Rwanda,E,H8-10,1
+world_extra,Indian,I,I4-6,1
+world_extra,Dutch,H,H7-21,1
+world_extra,Burmese,H,G1-14,1
+world_extra,Australia,A,A6-18,1
+world_extra,Nigerian,H,D5-42,1
+world_extra,Japanese,A,A2-8,1
+world_extra,Japanese,I,D3-11,1
+world_extra,Indian,G,I4-6,1
+world_extra,Japanese,G,I4-13,1
+world_extra,Indonesian,G,D4-5,1
+world_extra,Chinese,E,I4-15,1
+world_extra,Chinese,I,I4-15,1
+world_extra,Thai,E,E4-1,1
+world_extra,Indonesian,H,H5-13,1
+world_extra,Japanese,E,G2-4,1
+world_extra,Japanese,B,B2-21,1
+world_extra,Indian,C,A1-9,1
+world_extra,Mexican,I,A6-13,1
+world_extra,Indonesian,I,D5-84,1
+world_extra,Indian,E,H3-6,1
+world_extra,Indian,C,A4-1,1
+world_extra,New Zealand,H,D3-9,1
+world_extra,Peruvian,E,G1-27,1
+world_extra,Indonesian,E,H5-12,1
+world_extra,Japanese,G,A2-8,1
+world_extra,Mexican,G,D4-33,1
+world_extra,Ethiopian,G,A4-17,1
+world_extra,Indonesian,A,C2-6,1
+world_extra,Iranian,A,I2-1,1
+world_extra,Fiji,G,I1-15,1
+world_extra,Japanese,I,B2-17,1
+world_extra,Japanese,D,D5-25,1
+world_extra,Japanese,I,E3-34,1
+world_extra,Chinese,H,H7-16,1
+world_extra,Chinese,A,G1-68,1
+manuscripts,Central and Eastern European manuscripts,C,H5-1,1
+manuscripts,Chinese illustrated manuscripts and scrolls (1000+),C,G1-15,1
+manuscripts,Chinese illustrated manuscripts and scrolls (1000+),C,G1-68,1
+manuscripts,Indonesian manuscripts (unlocalised),C,H5-10,1

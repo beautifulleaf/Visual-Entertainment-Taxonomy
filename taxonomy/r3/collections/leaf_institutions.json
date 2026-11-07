@@ -58,14 +58,14 @@
 "https://artgallery.yale.edu/collection?q=Bamana%20Sculpture"
 ],
 [
+"Minneapolis Institute of Art",
+9,
+"https://collections.artsmia.org/search/Bamana%20Sculpture"
+],
+[
 "Art Institute of Chicago",
 8,
 "https://www.artic.edu/collection?q=Bamana%20Sculpture"
-],
-[
-"Minneapolis Institute of Art",
-8,
-"https://collections.artsmia.org/search/Bamana%20Sculpture"
 ],
 [
 "Cleveland Museum of Art",
@@ -139,10 +139,11 @@
 "https://www.penn.museum/collections/search.php?term=Chokwe%20Sculpture"
 ]
 ],
+"D4-15": [],
 "D4-18": [
 [
 "Yale University (LUX)",
-190,
+191,
 "https://artgallery.yale.edu/collection?q=Dan%20Masks"
 ],
 [
@@ -265,6 +266,67 @@
 ""
 ]
 ],
+"G1-19": [
+[
+"Yale University (LUX)",
+103,
+"https://artgallery.yale.edu/collection?q=Ethiopian%20Crosses"
+],
+[
+"Penn Museum",
+93,
+"https://www.penn.museum/collections/search.php?term=Ethiopian%20Crosses"
+],
+[
+"Victoria and Albert Museum",
+19,
+"https://collections.vam.ac.uk/search/?q=Ethiopian%20Crosses"
+],
+[
+"The Metropolitan Museum of Art",
+10,
+"https://www.metmuseum.org/art/collection/search?q=Ethiopian%20Crosses"
+],
+[
+"Minneapolis Institute of Art",
+9,
+"https://collections.artsmia.org/search/Ethiopian%20Crosses"
+],
+[
+"Smithsonian National Museum of African Art",
+8,
+"https://collections.si.edu/search/results.htm?q=Ethiopian%20Crosses"
+]
+],
+"A4-17": [
+[
+"Penn Museum",
+16,
+"https://www.penn.museum/collections/search.php?term=Ethiopian%20Magic%20Scrolls"
+],
+[
+"The Metropolitan Museum of Art",
+11,
+"https://www.metmuseum.org/art/collection/search?q=Ethiopian%20Magic%20Scrolls"
+]
+],
+"D4-17": [
+[
+"Yale University (LUX)",
+9,
+"https://artgallery.yale.edu/collection?q=Igbo%20Masks"
+],
+[
+"Penn Museum",
+4,
+"https://www.penn.museum/collections/search.php?term=Igbo%20Masks"
+],
+[
+"Art Institute of Chicago",
+3,
+"https://www.artic.edu/collection?q=Igbo%20Masks"
+]
+],
 "D6-2": [
 [
 "Penn Museum",
@@ -272,18 +334,18 @@
 "https://www.penn.museum/collections/search.php?term=Minkisi"
 ],
 [
+"Yale University (LUX)",
+18,
+"https://artgallery.yale.edu/collection?q=Minkisi"
+],
+[
 "Cleveland Museum of Art",
 16,
 "https://www.clevelandart.org/art/collection/search?search=Minkisi"
 ],
 [
-"Yale University (LUX)",
-16,
-"https://artgallery.yale.edu/collection?q=Minkisi"
-],
-[
 "Minneapolis Institute of Art",
-11,
+12,
 "https://collections.artsmia.org/search/Minkisi"
 ],
 [
@@ -381,7 +443,7 @@
 ],
 [
 "Minneapolis Institute of Art",
-8,
+9,
 "https://collections.artsmia.org/search/Luba%20Sculpture"
 ]
 ],
@@ -505,29 +567,73 @@
 ],
 "D5-42": [
 [
+"Yale University (LUX)",
+87,
+"https://artgallery.yale.edu/collection?q=Yoruba%20Sculpture"
+],
+[
 "Penn Museum",
 75,
 "https://www.penn.museum/collections/search.php?term=Yoruba%20Sculpture"
 ],
 [
-"Yale University (LUX)",
-68,
-"https://artgallery.yale.edu/collection?q=Yoruba%20Sculpture"
-],
-[
 "Art Institute of Chicago",
-41,
+42,
 "https://www.artic.edu/collection?q=Yoruba%20Sculpture"
 ],
 [
 "Minneapolis Institute of Art",
-31,
+35,
 "https://collections.artsmia.org/search/Yoruba%20Sculpture"
 ],
 [
 "Cleveland Museum of Art",
 28,
 "https://www.clevelandart.org/art/collection/search?search=Yoruba%20Sculpture"
+],
+[
+"Afrika Museum",
+3,
+"https://collectie.wereldculturen.nl/#/query/Yoruba%20Sculpture"
+]
+],
+"H5-27": [
+[
+"Minneapolis Institute of Art",
+25,
+"https://collections.artsmia.org/search/Adire"
+],
+[
+"Afrika Museum",
+24,
+"https://collectie.wereldculturen.nl/#/query/Adire"
+],
+[
+"Art Institute of Chicago",
+12,
+"https://www.artic.edu/collection?q=Adire"
+],
+[
+"The Metropolitan Museum of Art",
+6,
+"https://www.metmuseum.org/art/collection/search?q=Adire"
+]
+],
+"H3-24": [
+[
+"Yale University (LUX)",
+22,
+"https://artgallery.yale.edu/collection?q=Aso%20Oke"
+],
+[
+"Art Institute of Chicago",
+3,
+"https://www.artic.edu/collection?q=Aso%20Oke"
+],
+[
+"Penn Museum",
+3,
+"https://www.penn.museum/collections/search.php?term=Aso%20Oke"
 ]
 ],
 "H9-1": [
@@ -592,6 +698,45 @@
 "Minneapolis Institute of Art",
 8,
 "https://collections.artsmia.org/search/Akan%20Sculpture"
+]
+],
+"D4-13": [
+[
+"Yale University (LUX)",
+8,
+"https://artgallery.yale.edu/collection?q=Chiwara"
+]
+],
+"H5-26": [
+[
+"Minneapolis Institute of Art",
+38,
+"https://collections.artsmia.org/search/B%C3%B2g%C3%B2lanfini"
+],
+[
+"Museum Volkenkunde",
+28,
+"https://collectie.wereldculturen.nl/#/query/B%C3%B2g%C3%B2lanfini"
+],
+[
+"The Metropolitan Museum of Art",
+7,
+"https://www.metmuseum.org/art/collection/search?q=B%C3%B2g%C3%B2lanfini"
+],
+[
+"Art Institute of Chicago",
+6,
+"https://www.artic.edu/collection?q=B%C3%B2g%C3%B2lanfini"
+],
+[
+"Tropenmuseum",
+4,
+"https://collectie.wereldculturen.nl/#/query/B%C3%B2g%C3%B2lanfini"
+],
+[
+"Afrika Museum",
+4,
+"https://collectie.wereldculturen.nl/#/query/B%C3%B2g%C3%B2lanfini"
 ]
 ],
 "H8-9": [
@@ -665,16 +810,36 @@
 "https://collectie.wereldculturen.nl/#/query/Ethiopian%20Icon%20Painting"
 ]
 ],
-"A4-17": [
+"H3-23": [
 [
-"Penn Museum",
-16,
-"https://www.penn.museum/collections/search.php?term=Ethiopian%20Magic%20Scrolls"
+"Museum Volkenkunde",
+33,
+"https://collectie.wereldculturen.nl/#/query/Kente%20Cloth"
+],
+[
+"Art Institute of Chicago",
+24,
+"https://www.artic.edu/collection?q=Kente%20Cloth"
 ],
 [
 "The Metropolitan Museum of Art",
-11,
-"https://www.metmuseum.org/art/collection/search?q=Ethiopian%20Magic%20Scrolls"
+17,
+"https://www.metmuseum.org/art/collection/search?q=Kente%20Cloth"
+],
+[
+"Minneapolis Institute of Art",
+6,
+"https://collections.artsmia.org/search/Kente%20Cloth"
+],
+[
+"Tropenmuseum",
+6,
+"https://collectie.wereldculturen.nl/#/query/Kente%20Cloth"
+],
+[
+"Yale University (LUX)",
+4,
+"https://artgallery.yale.edu/collection?q=Kente%20Cloth"
 ]
 ],
 "D6-3": [
@@ -682,6 +847,11 @@
 "Penn Museum",
 5,
 "https://www.penn.museum/collections/search.php?term=Fang%20Reliquary%20Guardians"
+],
+[
+"Yale University (LUX)",
+4,
+"https://artgallery.yale.edu/collection?q=Fang%20Reliquary%20Guardians"
 ]
 ],
 "D6-4": [
@@ -697,20 +867,30 @@
 ],
 [
 "Yale University (LUX)",
-8,
+9,
 "https://artgallery.yale.edu/collection?q=Asen"
 ]
 ],
-"D4-17": [
+"H4-103": [
 [
-"Yale University (LUX)",
-8,
-"https://artgallery.yale.edu/collection?q=Igbo%20Masks"
+"Minneapolis Institute of Art",
+19,
+"https://collections.artsmia.org/search/Hausa%20Embroidery"
 ],
 [
-"Penn Museum",
-4,
-"https://www.penn.museum/collections/search.php?term=Igbo%20Masks"
+"Yale University (LUX)",
+14,
+"https://artgallery.yale.edu/collection?q=Hausa%20Embroidery"
+],
+[
+"Art Institute of Chicago",
+10,
+"https://www.artic.edu/collection?q=Hausa%20Embroidery"
+],
+[
+"The Metropolitan Museum of Art",
+7,
+"https://www.metmuseum.org/art/collection/search?q=Hausa%20Embroidery"
 ]
 ],
 "D5-35": [
@@ -894,8 +1074,82 @@
 ],
 [
 "Tropenmuseum",
-36,
+38,
 "https://collectie.wereldculturen.nl/#/query/Asmat%20Woodcarving"
+]
+],
+"H4-42": [
+[
+"Museum of New Zealand Te Papa Tongarewa",
+43,
+"https://collections.tepapa.govt.nz/search/Tivaevae"
+]
+],
+"H8-24": [
+[
+"Museum of New Zealand Te Papa Tongarewa",
+441,
+"https://collections.tepapa.govt.nz/search/Tapa%20Cloth"
+],
+[
+"Museum Volkenkunde",
+314,
+"https://collectie.wereldculturen.nl/#/query/Tapa%20Cloth"
+],
+[
+"Penn Museum",
+125,
+"https://www.penn.museum/collections/search.php?term=Tapa%20Cloth"
+],
+[
+"The Metropolitan Museum of Art",
+30,
+"https://www.metmuseum.org/art/collection/search?q=Tapa%20Cloth"
+],
+[
+"Tropenmuseum",
+23,
+"https://collectie.wereldculturen.nl/#/query/Tapa%20Cloth"
+],
+[
+"Cleveland Museum of Art",
+20,
+"https://www.clevelandart.org/art/collection/search?search=Tapa%20Cloth"
+],
+[
+"Victoria and Albert Museum",
+14,
+"https://collections.vam.ac.uk/search/?q=Tapa%20Cloth"
+],
+[
+"Minneapolis Institute of Art",
+6,
+"https://collections.artsmia.org/search/Tapa%20Cloth"
+],
+[
+"Cooper Hewitt, Smithsonian Design Museum",
+4,
+"https://collection.cooperhewitt.org/search/collection/?query=Tapa%20Cloth"
+],
+[
+"Wereldmuseum Rotterdam",
+4,
+"https://collectie.wereldculturen.nl/#/query/Tapa%20Cloth"
+],
+[
+"Yale University (LUX)",
+3,
+"https://artgallery.yale.edu/collection?q=Tapa%20Cloth"
+],
+[
+"Smithsonian National Museum of the American Indian",
+3,
+"https://collections.si.edu/search/results.htm?q=Tapa%20Cloth&fq=data_source%3A%22National+Museum+of+the+American+Indian%22"
+],
+[
+"Wereldmuseum (NMVW)",
+3,
+"https://collectie.wereldculturen.nl/#/query/Tapa%20Cloth"
 ]
 ],
 "I1-15": [
@@ -910,10 +1164,17 @@
 "https://www.penn.museum/collections/search.php?term=Fijian%20Clubs"
 ]
 ],
+"H9-9": [
+[
+"Museum of New Zealand Te Papa Tongarewa",
+9,
+"https://collections.tepapa.govt.nz/search/Hawaiian%20Featherwork"
+]
+],
 "D5-81": [
 [
 "Museum of New Zealand Te Papa Tongarewa",
-3828,
+3833,
 "https://collections.tepapa.govt.nz/search/Whakairo"
 ],
 [
@@ -955,7 +1216,7 @@
 "H2-14": [
 [
 "Museum of New Zealand Te Papa Tongarewa",
-1398,
+1456,
 "https://collections.tepapa.govt.nz/search/M%C4%81ori%20Weaving"
 ],
 [
@@ -984,10 +1245,11 @@
 "https://www.artic.edu/collection?q=M%C4%81ori%20Weaving"
 ]
 ],
+"H9-10": [],
 "D3-9": [
 [
 "Museum of New Zealand Te Papa Tongarewa",
-26,
+28,
 "https://collections.tepapa.govt.nz/search/Hei-tiki"
 ],
 [
@@ -1089,78 +1351,16 @@
 "https://collections.tepapa.govt.nz/search/Moai%20Kavakava"
 ]
 ],
-"H8-24": [
-[
-"Museum Volkenkunde",
-314,
-"https://collectie.wereldculturen.nl/#/query/Tapa%20Cloth"
-],
-[
-"Penn Museum",
-125,
-"https://www.penn.museum/collections/search.php?term=Tapa%20Cloth"
-],
-[
-"Museum of New Zealand Te Papa Tongarewa",
-92,
-"https://collections.tepapa.govt.nz/search/Tapa%20Cloth"
-],
-[
-"The Metropolitan Museum of Art",
-30,
-"https://www.metmuseum.org/art/collection/search?q=Tapa%20Cloth"
-],
-[
-"Tropenmuseum",
-23,
-"https://collectie.wereldculturen.nl/#/query/Tapa%20Cloth"
-],
-[
-"Cleveland Museum of Art",
-20,
-"https://www.clevelandart.org/art/collection/search?search=Tapa%20Cloth"
-],
-[
-"Victoria and Albert Museum",
-14,
-"https://collections.vam.ac.uk/search/?q=Tapa%20Cloth"
-],
-[
-"Cooper Hewitt, Smithsonian Design Museum",
-4,
-"https://collection.cooperhewitt.org/search/collection/?query=Tapa%20Cloth"
-],
-[
-"Wereldmuseum Rotterdam",
-4,
-"https://collectie.wereldculturen.nl/#/query/Tapa%20Cloth"
-],
-[
-"Yale University (LUX)",
-3,
-"https://artgallery.yale.edu/collection?q=Tapa%20Cloth"
-],
-[
-"Smithsonian National Museum of the American Indian",
-3,
-"https://collections.si.edu/search/results.htm?q=Tapa%20Cloth&fq=data_source%3A%22National+Museum+of+the+American+Indian%22"
-],
-[
-"Wereldmuseum (NMVW)",
-3,
-"https://collectie.wereldculturen.nl/#/query/Tapa%20Cloth"
-]
-],
 "H8-25": [
 [
-"Penn Museum",
-214,
-"https://www.penn.museum/collections/search.php?term=%CA%BBIe%20T%C5%8Dga"
+"Museum of New Zealand Te Papa Tongarewa",
+232,
+"https://collections.tepapa.govt.nz/search/%CA%BBIe%20T%C5%8Dga"
 ],
 [
-"Museum of New Zealand Te Papa Tongarewa",
-159,
-"https://collections.tepapa.govt.nz/search/%CA%BBIe%20T%C5%8Dga"
+"Penn Museum",
+215,
+"https://www.penn.museum/collections/search.php?term=%CA%BBIe%20T%C5%8Dga"
 ]
 ],
 "D5-85": [
@@ -1171,7 +1371,7 @@
 ],
 [
 "Tropenmuseum",
-37,
+39,
 "https://collectie.wereldculturen.nl/#/query/Sepik%20Carving"
 ],
 [
@@ -1193,6 +1393,28 @@
 "Cleveland Museum of Art",
 3,
 "https://www.clevelandart.org/art/collection/search?search=Sepik%20Carving"
+]
+],
+"D5-87": [
+[
+"Museum Volkenkunde",
+37,
+"https://collectie.wereldculturen.nl/#/query/Nguzu%20Nguzu"
+],
+[
+"Museum of New Zealand Te Papa Tongarewa",
+21,
+"https://collections.tepapa.govt.nz/search/Nguzu%20Nguzu"
+],
+[
+"Penn Museum",
+21,
+"https://www.penn.museum/collections/search.php?term=Nguzu%20Nguzu"
+],
+[
+"Tropenmuseum",
+15,
+"https://collectie.wereldculturen.nl/#/query/Nguzu%20Nguzu"
 ]
 ],
 "A6-18": [
@@ -1242,6 +1464,23 @@
 "https://collectie.wereldculturen.nl/#/query/Bark%20Painting"
 ]
 ],
+"I4-1": [
+[
+"The Metropolitan Museum of Art",
+15,
+"https://www.metmuseum.org/art/collection/search?q=Vanuatu%20Slit%20Gongs"
+],
+[
+"Penn Museum",
+4,
+"https://www.penn.museum/collections/search.php?term=Vanuatu%20Slit%20Gongs"
+],
+[
+"Museum Volkenkunde",
+3,
+"https://collectie.wereldculturen.nl/#/query/Vanuatu%20Slit%20Gongs"
+]
+],
 "H8-19": [
 [
 "Smithsonian (NMAI)",
@@ -1286,7 +1525,7 @@
 "H8-18": [
 [
 "Smithsonian (NMAI)",
-585,
+613,
 "https://collections.si.edu/search/results.htm?q=Apache%20Basketry&fq=data_source%3A%22National+Museum+of+the+American+Indian%22"
 ],
 [
@@ -1318,12 +1557,12 @@
 ],
 [
 "Tropenmuseum",
-14,
+16,
 "https://collectie.wereldculturen.nl/#/query/Andean%20Textiles"
 ],
 [
 "Museum Volkenkunde",
-12,
+14,
 "https://collectie.wereldculturen.nl/#/query/Andean%20Textiles"
 ]
 ],
@@ -1403,7 +1642,7 @@
 ],
 [
 "Cleveland Museum of Art",
-19,
+20,
 "https://www.clevelandart.org/art/collection/search?search=Plains%20Beadwork"
 ],
 [
@@ -1602,6 +1841,38 @@
 "https://www.artic.edu/collection?q=Maya%20Sculpture"
 ]
 ],
+"H3-28": [
+[
+"Smithsonian (NMAI)",
+1098,
+"https://collections.si.edu/search/results.htm?q=Maya%20Textiles&fq=data_source%3A%22National+Museum+of+the+American+Indian%22"
+],
+[
+"Museum Volkenkunde",
+509,
+"https://collectie.wereldculturen.nl/#/query/Maya%20Textiles"
+],
+[
+"Tropenmuseum",
+191,
+"https://collectie.wereldculturen.nl/#/query/Maya%20Textiles"
+],
+[
+"Art Institute of Chicago",
+121,
+"https://www.artic.edu/collection?q=Maya%20Textiles"
+],
+[
+"Smithsonian National Museum of the American Indian",
+40,
+"https://collections.si.edu/search/results.htm?q=Maya%20Textiles&fq=data_source%3A%22National+Museum+of+the+American+Indian%22"
+],
+[
+"The Metropolitan Museum of Art",
+9,
+"https://www.metmuseum.org/art/collection/search?q=Maya%20Textiles"
+]
+],
 "E1-62": [
 [
 "Smithsonian (NMAI)",
@@ -1702,7 +1973,7 @@
 "H2-10": [
 [
 "Smithsonian (NMAI)",
-1267,
+1269,
 "https://collections.si.edu/search/results.htm?q=Navajo%20Weaving&fq=data_source%3A%22National+Museum+of+the+American+Indian%22"
 ],
 [
@@ -1724,12 +1995,17 @@
 "The Metropolitan Museum of Art",
 19,
 "https://www.metmuseum.org/art/collection/search?q=Navajo%20Weaving"
+],
+[
+"Smithsonian (SAAM)",
+3,
+"https://americanart.si.edu/search?query=Navajo%20Weaving"
 ]
 ],
 "G3-15": [
 [
 "Smithsonian (NMAI)",
-1407,
+1408,
 "https://collections.si.edu/search/results.htm?q=Navajo%20Silverwork&fq=data_source%3A%22National+Museum+of+the+American+Indian%22"
 ],
 [
@@ -1922,6 +2198,11 @@
 "Cleveland Museum of Art",
 4,
 "https://www.clevelandart.org/art/collection/search?search=Shipibo-Conibo%20Pottery"
+],
+[
+"Tropenmuseum",
+3,
+"https://collectie.wereldculturen.nl/#/query/Shipibo-Conibo%20Pottery"
 ]
 ],
 "H8-13": [
@@ -1973,7 +2254,7 @@
 "H2-11": [
 [
 "Smithsonian (NMAI)",
-56,
+57,
 "https://collections.si.edu/search/results.htm?q=Chilkat%20Weaving&fq=data_source%3A%22National+Museum+of+the+American+Indian%22"
 ],
 [
@@ -1994,14 +2275,14 @@
 "https://collections.si.edu/search/results.htm?q=Saltillo%20Serape&fq=data_source%3A%22National+Museum+of+the+American+Indian%22"
 ],
 [
+"Museum Volkenkunde",
+15,
+"https://collectie.wereldculturen.nl/#/query/Saltillo%20Serape"
+],
+[
 "Cleveland Museum of Art",
 13,
 "https://www.clevelandart.org/art/collection/search?search=Saltillo%20Serape"
-],
-[
-"Museum Volkenkunde",
-8,
-"https://collectie.wereldculturen.nl/#/query/Saltillo%20Serape"
 ],
 [
 "The Metropolitan Museum of Art",
@@ -2153,6 +2434,65 @@
 "https://www.artic.edu/collection?q=Kamasan%20Painting"
 ]
 ],
+"H5-13": [
+[
+"The Metropolitan Museum of Art",
+5,
+"https://www.metmuseum.org/art/collection/search?q=Geringsing"
+],
+[
+"Museum Volkenkunde",
+5,
+"https://collectie.wereldculturen.nl/#/query/Geringsing"
+],
+[
+"Art Institute of Chicago",
+4,
+"https://www.artic.edu/collection?q=Geringsing"
+],
+[
+"Tropenmuseum",
+3,
+"https://collectie.wereldculturen.nl/#/query/Geringsing"
+]
+],
+"H3-11": [
+[
+"Tropenmuseum",
+30,
+"https://collectie.wereldculturen.nl/#/query/Songket"
+],
+[
+"Wereldmuseum Rotterdam",
+25,
+"https://collectie.wereldculturen.nl/#/query/Songket"
+],
+[
+"Art Institute of Chicago",
+24,
+"https://www.artic.edu/collection?q=Songket"
+],
+[
+"Rijksmuseum",
+12,
+"https://www.rijksmuseum.nl/en/search?q=Songket"
+],
+[
+"The Metropolitan Museum of Art",
+8,
+"https://www.metmuseum.org/art/collection/search?q=Songket"
+],
+[
+"Wereldmuseum (NMVW)",
+8,
+"https://collectie.wereldculturen.nl/#/query/Songket"
+],
+[
+"Victoria and Albert Museum",
+3,
+"https://collections.vam.ac.uk/search/?q=Songket"
+]
+],
 "D5-4": [
 [
 "The Metropolitan Museum of Art",
@@ -2173,6 +2513,18 @@
 "Cleveland Museum of Art",
 7,
 "https://www.clevelandart.org/art/collection/search?search=Pala%20Art"
+]
+],
+"H4-11": [
+[
+"Victoria and Albert Museum",
+13,
+"https://collections.vam.ac.uk/search/?q=Kantha"
+],
+[
+"Cleveland Museum of Art",
+4,
+"https://www.clevelandart.org/art/collection/search?search=Kantha"
 ]
 ],
 "A1-12": [
@@ -2200,6 +2552,32 @@
 "The Metropolitan Museum of Art",
 3,
 "https://www.metmuseum.org/art/collection/search?q=Burmese%20Parabaik%20Painting"
+]
+],
+"C2-8": [
+[
+"Cleveland Museum of Art",
+35,
+"https://www.clevelandart.org/art/collection/search?search=Kammavaca"
+]
+],
+"H3-48": [
+[
+"Victoria and Albert Museum",
+5,
+"https://collections.vam.ac.uk/search/?q=Acheik"
+]
+],
+"H4-18": [
+[
+"Penn Museum",
+35,
+"https://www.penn.museum/collections/search.php?term=Kalaga"
+],
+[
+"Victoria and Albert Museum",
+18,
+"https://collections.vam.ac.uk/search/?q=Kalaga"
 ]
 ],
 "A1-6": [
@@ -2340,7 +2718,7 @@
 "A1-9": [
 [
 "Victoria and Albert Museum",
-244,
+362,
 "https://collections.vam.ac.uk/search/?q=Jain%20Manuscript%20Painting"
 ],
 [
@@ -2372,6 +2750,263 @@
 "Art Institute of Chicago",
 10,
 "https://www.artic.edu/collection?q=Jain%20Manuscript%20Painting"
+]
+],
+"H5-8": [
+[
+"Victoria and Albert Museum",
+46,
+"https://collections.vam.ac.uk/search/?q=Patola"
+],
+[
+"Wereldmuseum Rotterdam",
+26,
+"https://collectie.wereldculturen.nl/#/query/Patola"
+],
+[
+"Art Institute of Chicago",
+9,
+"https://www.artic.edu/collection?q=Patola"
+],
+[
+"Wereldmuseum (NMVW)",
+9,
+"https://collectie.wereldculturen.nl/#/query/Patola"
+],
+[
+"Cleveland Museum of Art",
+5,
+"https://www.clevelandart.org/art/collection/search?search=Patola"
+],
+[
+"Tropenmuseum",
+4,
+"https://collectie.wereldculturen.nl/#/query/Patola"
+],
+[
+"The Metropolitan Museum of Art",
+3,
+"https://www.metmuseum.org/art/collection/search?q=Patola"
+]
+],
+"H5-6": [
+[
+"Victoria and Albert Museum",
+35,
+"https://collections.vam.ac.uk/search/?q=Bandhani"
+],
+[
+"Cleveland Museum of Art",
+3,
+"https://www.clevelandart.org/art/collection/search?search=Bandhani"
+]
+],
+"D5-5": [
+[
+"The Metropolitan Museum of Art",
+111,
+"https://www.metmuseum.org/art/collection/search?q=Chola%20Bronzes"
+],
+[
+"Rijksmuseum",
+6,
+"https://www.rijksmuseum.nl/en/search?q=Chola%20Bronzes"
+]
+],
+"G2-1": [
+[
+"Victoria and Albert Museum",
+244,
+"https://collections.vam.ac.uk/search/?q=Islamic%20Arms%20and%20Armour"
+],
+[
+"The Metropolitan Museum of Art",
+66,
+"https://www.metmuseum.org/art/collection/search?q=Islamic%20Arms%20and%20Armour"
+]
+],
+"H5-3": [
+[
+"Rijksmuseum",
+47,
+"https://www.rijksmuseum.nl/en/search?q=Indian%20Chintz"
+],
+[
+"The Metropolitan Museum of Art",
+46,
+"https://www.metmuseum.org/art/collection/search?q=Indian%20Chintz"
+],
+[
+"Victoria and Albert Museum",
+41,
+"https://collections.vam.ac.uk/search/?q=Indian%20Chintz"
+],
+[
+"Art Institute of Chicago",
+5,
+"https://www.artic.edu/collection?q=Indian%20Chintz"
+]
+],
+"G3-22": [],
+"A1-7": [
+[
+"Victoria and Albert Museum",
+1136,
+"https://collections.vam.ac.uk/search/?q=Rajput%20Painting"
+],
+[
+"Cleveland Museum of Art",
+154,
+"https://www.clevelandart.org/art/collection/search?search=Rajput%20Painting"
+],
+[
+"The Metropolitan Museum of Art",
+101,
+"https://www.metmuseum.org/art/collection/search?q=Rajput%20Painting"
+],
+[
+"Rijksmuseum",
+78,
+"https://www.rijksmuseum.nl/en/search?q=Rajput%20Painting"
+],
+[
+"Art Institute of Chicago",
+59,
+"https://www.artic.edu/collection?q=Rajput%20Painting"
+],
+[
+"Freer Gallery of Art",
+3,
+""
+]
+],
+"H5-5": [],
+"H4-17": [
+[
+"Art Institute of Chicago",
+26,
+"https://www.artic.edu/collection?q=Tapis"
+],
+[
+"Tropenmuseum",
+23,
+"https://collectie.wereldculturen.nl/#/query/Tapis"
+],
+[
+"The Metropolitan Museum of Art",
+9,
+"https://www.metmuseum.org/art/collection/search?q=Tapis"
+],
+[
+"Wereldmuseum Rotterdam",
+3,
+"https://collectie.wereldculturen.nl/#/query/Tapis"
+]
+],
+"H3-12": [
+[
+"Art Institute of Chicago",
+58,
+"https://www.artic.edu/collection?q=Lampung%20Ship%20Cloths"
+],
+[
+"Tropenmuseum",
+58,
+"https://collectie.wereldculturen.nl/#/query/Lampung%20Ship%20Cloths"
+],
+[
+"The Metropolitan Museum of Art",
+31,
+"https://www.metmuseum.org/art/collection/search?q=Lampung%20Ship%20Cloths"
+],
+[
+"Victoria and Albert Museum",
+5,
+"https://collections.vam.ac.uk/search/?q=Lampung%20Ship%20Cloths"
+],
+[
+"Cleveland Museum of Art",
+4,
+"https://www.clevelandart.org/art/collection/search?search=Lampung%20Ship%20Cloths"
+]
+],
+"H5-12": [
+[
+"Art Institute of Chicago",
+58,
+"https://www.artic.edu/collection?q=Indonesian%20Ikat"
+],
+[
+"The Metropolitan Museum of Art",
+52,
+"https://www.metmuseum.org/art/collection/search?q=Indonesian%20Ikat"
+],
+[
+"Tropenmuseum",
+23,
+"https://collectie.wereldculturen.nl/#/query/Indonesian%20Ikat"
+],
+[
+"Victoria and Albert Museum",
+15,
+"https://collections.vam.ac.uk/search/?q=Indonesian%20Ikat"
+],
+[
+"Cooper Hewitt, Smithsonian Design Museum",
+10,
+"https://collection.cooperhewitt.org/search/collection/?query=Indonesian%20Ikat"
+],
+[
+"Cleveland Museum of Art",
+3,
+"https://www.clevelandart.org/art/collection/search?search=Indonesian%20Ikat"
+],
+[
+"Rijksmuseum",
+3,
+"https://www.rijksmuseum.nl/en/search?q=Indonesian%20Ikat"
+],
+[
+"Museum Volkenkunde",
+3,
+"https://collectie.wereldculturen.nl/#/query/Indonesian%20Ikat"
+]
+],
+"H5-10": [
+[
+"Tropenmuseum",
+576,
+"https://collectie.wereldculturen.nl/#/query/Indonesian%20Batik"
+],
+[
+"Wereldmuseum Rotterdam",
+80,
+"https://collectie.wereldculturen.nl/#/query/Indonesian%20Batik"
+],
+[
+"Art Institute of Chicago",
+67,
+"https://www.artic.edu/collection?q=Indonesian%20Batik"
+],
+[
+"Cooper Hewitt, Smithsonian Design Museum",
+32,
+"https://collection.cooperhewitt.org/search/collection/?query=Indonesian%20Batik"
+],
+[
+"Victoria and Albert Museum",
+15,
+"https://collections.vam.ac.uk/search/?q=Indonesian%20Batik"
+],
+[
+"Museum Volkenkunde",
+8,
+"https://collectie.wereldculturen.nl/#/query/Indonesian%20Batik"
+],
+[
+"The Metropolitan Museum of Art",
+5,
+"https://www.metmuseum.org/art/collection/search?q=Indonesian%20Batik"
 ]
 ],
 "A4-3": [
@@ -2426,7 +3061,7 @@
 "H3-6": [
 [
 "Victoria and Albert Museum",
-229,
+243,
 "https://collections.vam.ac.uk/search/?q=Kashmir%20Shawl"
 ],
 [
@@ -2490,7 +3125,7 @@
 ],
 [
 "Art Institute of Chicago",
-15,
+17,
 "https://www.artic.edu/collection?q=Khmer%20Silk%20Weaving"
 ],
 [
@@ -2523,6 +3158,16 @@
 "https://artgallery.yale.edu/collection?q=Wayang%20Kulit"
 ],
 [
+"Tropenmuseum",
+320,
+"https://collectie.wereldculturen.nl/#/query/Wayang%20Kulit"
+],
+[
+"Museum Volkenkunde",
+180,
+"https://collectie.wereldculturen.nl/#/query/Wayang%20Kulit"
+],
+[
 "Penn Museum",
 174,
 "https://www.penn.museum/collections/search.php?term=Wayang%20Kulit"
@@ -2533,8 +3178,8 @@
 "https://collections.vam.ac.uk/search/?q=Wayang%20Kulit"
 ],
 [
-"Tropenmuseum",
-35,
+"Wereldmuseum Rotterdam",
+12,
 "https://collectie.wereldculturen.nl/#/query/Wayang%20Kulit"
 ]
 ],
@@ -2592,6 +3237,13 @@
 "Victoria and Albert Museum",
 3,
 "https://collections.vam.ac.uk/search/?q=Dvaravati%20Art"
+]
+],
+"H1-8": [
+[
+"Victoria and Albert Museum",
+31,
+"https://collections.vam.ac.uk/search/?q=Mughal%20Carpet"
 ]
 ],
 "A6-5": [
@@ -2688,7 +3340,24 @@
 ""
 ]
 ],
+"G2-8": [
+[
+"Cleveland Museum of Art",
+6,
+"https://www.clevelandart.org/art/collection/search?search=Khukuri"
+],
+[
+"Victoria and Albert Museum",
+6,
+"https://collections.vam.ac.uk/search/?q=Khukuri"
+]
+],
 "A4-1": [
+[
+"Tropenmuseum",
+115,
+"https://collectie.wereldculturen.nl/#/query/Pattachitra"
+],
 [
 "Victoria and Albert Museum",
 25,
@@ -2708,6 +3377,11 @@
 "Art Institute of Chicago",
 9,
 "https://www.artic.edu/collection?q=Pattachitra"
+],
+[
+"Museum Volkenkunde",
+7,
+"https://collectie.wereldculturen.nl/#/query/Pattachitra"
 ],
 [
 "Cleveland Museum of Art",
@@ -2774,38 +3448,7 @@
 "https://www.metmuseum.org/art/collection/search?q=Pahari%20Painting"
 ]
 ],
-"A1-7": [
-[
-"Victoria and Albert Museum",
-1136,
-"https://collections.vam.ac.uk/search/?q=Rajput%20Painting"
-],
-[
-"Cleveland Museum of Art",
-153,
-"https://www.clevelandart.org/art/collection/search?search=Rajput%20Painting"
-],
-[
-"The Metropolitan Museum of Art",
-101,
-"https://www.metmuseum.org/art/collection/search?q=Rajput%20Painting"
-],
-[
-"Rijksmuseum",
-78,
-"https://www.rijksmuseum.nl/en/search?q=Rajput%20Painting"
-],
-[
-"Art Institute of Chicago",
-58,
-"https://www.artic.edu/collection?q=Rajput%20Painting"
-],
-[
-"Freer Gallery of Art",
-3,
-""
-]
-],
+"H3-14": [],
 "A4-4": [
 [
 "Art Institute of Chicago",
@@ -2827,84 +3470,6 @@
 "https://collections.vam.ac.uk/search/?q=Kandyan%20Period%20Painting"
 ]
 ],
-"H4-17": [
-[
-"Art Institute of Chicago",
-16,
-"https://www.artic.edu/collection?q=Tapis"
-]
-],
-"H3-12": [
-[
-"Art Institute of Chicago",
-51,
-"https://www.artic.edu/collection?q=Lampung%20Ship%20Cloths"
-],
-[
-"Tropenmuseum",
-39,
-"https://collectie.wereldculturen.nl/#/query/Lampung%20Ship%20Cloths"
-],
-[
-"The Metropolitan Museum of Art",
-26,
-"https://www.metmuseum.org/art/collection/search?q=Lampung%20Ship%20Cloths"
-],
-[
-"Cleveland Museum of Art",
-4,
-"https://www.clevelandart.org/art/collection/search?search=Lampung%20Ship%20Cloths"
-],
-[
-"Victoria and Albert Museum",
-4,
-"https://collections.vam.ac.uk/search/?q=Lampung%20Ship%20Cloths"
-]
-],
-"H3-11": [
-[
-"Wereldmuseum Rotterdam",
-24,
-"https://collectie.wereldculturen.nl/#/query/Songket"
-],
-[
-"Art Institute of Chicago",
-21,
-"https://www.artic.edu/collection?q=Songket"
-],
-[
-"Rijksmuseum",
-12,
-"https://www.rijksmuseum.nl/en/search?q=Songket"
-],
-[
-"Tropenmuseum",
-12,
-"https://collectie.wereldculturen.nl/#/query/Songket"
-],
-[
-"The Metropolitan Museum of Art",
-8,
-"https://www.metmuseum.org/art/collection/search?q=Songket"
-],
-[
-"Wereldmuseum (NMVW)",
-4,
-"https://collectie.wereldculturen.nl/#/query/Songket"
-],
-[
-"Victoria and Albert Museum",
-3,
-"https://collections.vam.ac.uk/search/?q=Songket"
-]
-],
-"A1-13": [
-[
-"Victoria and Albert Museum",
-4,
-"https://collections.vam.ac.uk/search/?q=Thai%20Manuscript%20Painting"
-]
-],
 "E3-2": [
 [
 "The Metropolitan Museum of Art",
@@ -2923,8 +3488,20 @@
 ],
 [
 "Cleveland Museum of Art",
-12,
+16,
 "https://www.clevelandart.org/art/collection/search?search=Sawankhalok%20Ware"
+],
+[
+"Art Institute of Chicago",
+4,
+"https://www.artic.edu/collection?q=Sawankhalok%20Ware"
+]
+],
+"A1-13": [
+[
+"Victoria and Albert Museum",
+4,
+"https://collections.vam.ac.uk/search/?q=Thai%20Manuscript%20Painting"
 ]
 ],
 "A6-4": [
@@ -3001,6 +3578,11 @@
 ""
 ],
 [
+"Museum Volkenkunde",
+18,
+"https://collectie.wereldculturen.nl/#/query/Thangka"
+],
+[
 "Федеральное государственное бюджетное учреждение культуры \"Российский этнографический музей\"",
 17,
 "https://goskatalog.ru/portal/#/collections?q=Thangka"
@@ -3014,11 +3596,6 @@
 "American Museum of Natural History",
 16,
 ""
-],
-[
-"Museum Volkenkunde",
-15,
-"https://collectie.wereldculturen.nl/#/query/Thangka"
 ],
 [
 "Федеральное государственное бюджетное учреждение культуры \"Государственный музей искусства народов Востока\"",
@@ -3046,6 +3623,11 @@
 ""
 ],
 [
+"Victoria and Albert Museum (PDP)",
+9,
+"https://collections.vam.ac.uk/search/?q=Thangka"
+],
+[
 "The Metropolitan Museum of Art",
 9,
 "https://www.metmuseum.org/art/collection/search?q=Thangka"
@@ -3058,11 +3640,6 @@
 [
 "Royal Ontario Museum",
 9,
-""
-],
-[
-"John & Karina Stewart",
-8,
 ""
 ]
 ],
@@ -3213,7 +3790,7 @@
 "B2-9": [
 [
 "Victoria and Albert Museum",
-99,
+103,
 "https://collections.vam.ac.uk/search/?q=Poster%20Art"
 ],
 [
@@ -3232,23 +3809,6 @@
 "The Metropolitan Museum of Art",
 11,
 "https://www.metmuseum.org/art/collection/search?q=Kalamkari"
-]
-],
-"H5-3": [
-[
-"Rijksmuseum",
-46,
-"https://www.rijksmuseum.nl/en/search?q=Indian%20Chintz"
-],
-[
-"The Metropolitan Museum of Art",
-46,
-"https://www.metmuseum.org/art/collection/search?q=Indian%20Chintz"
-],
-[
-"Victoria and Albert Museum",
-5,
-"https://collections.vam.ac.uk/search/?q=Indian%20Chintz"
 ]
 ],
 "E3-3": [
@@ -3276,7 +3836,7 @@
 "E1-18": [
 [
 "Tokyo National Museum",
-2261,
+2264,
 "https://colbase.nich.go.jp/collection_items?locale=en&q=J%C5%8Dmon%20Pottery"
 ],
 [
@@ -3345,6 +3905,230 @@
 ""
 ]
 ],
+"D5-20": [
+[
+"Tokyo National Museum",
+199,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Haniwa"
+],
+[
+"The Metropolitan Museum of Art",
+32,
+"https://www.metmuseum.org/art/collection/search?q=Haniwa"
+],
+[
+"Kyoto National Museum",
+11,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Haniwa"
+],
+[
+"Nara National Museum",
+8,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Haniwa"
+],
+[
+"Kyushu National Museum",
+4,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Haniwa"
+]
+],
+"D3-11": [
+[
+"Tokyo National Museum",
+15,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Inkstone%20Carving"
+],
+[
+"Kyoto National Museum",
+9,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Inkstone%20Carving"
+],
+[
+"Cleveland Museum of Art",
+4,
+"https://www.clevelandart.org/art/collection/search?search=Inkstone%20Carving"
+],
+[
+"Art Institute of Chicago",
+3,
+"https://www.artic.edu/collection?q=Inkstone%20Carving"
+]
+],
+"D5-25": [
+[
+"Museum Volkenkunde",
+48,
+"https://collectie.wereldculturen.nl/#/query/Japanese%20Dolls%20%28Ningy%C5%8D%29"
+],
+[
+"Tokyo National Museum",
+34,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Japanese%20Dolls%20%28Ningy%C5%8D%29"
+],
+[
+"Kyoto National Museum",
+33,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Japanese%20Dolls%20%28Ningy%C5%8D%29"
+],
+[
+"The Metropolitan Museum of Art",
+5,
+"https://www.metmuseum.org/art/collection/search?q=Japanese%20Dolls%20%28Ningy%C5%8D%29"
+],
+[
+"Art Institute of Chicago",
+3,
+"https://www.artic.edu/collection?q=Japanese%20Dolls%20%28Ningy%C5%8D%29"
+]
+],
+"H7-12": [
+[
+"Tokyo National Museum",
+512,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Kimono"
+],
+[
+"Kyoto National Museum",
+266,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Kimono"
+],
+[
+"Museum Volkenkunde",
+126,
+"https://collectie.wereldculturen.nl/#/query/Kimono"
+],
+[
+"Rijksmuseum",
+118,
+"https://www.rijksmuseum.nl/en/search?q=Kimono"
+],
+[
+"The Metropolitan Museum of Art",
+79,
+"https://www.metmuseum.org/art/collection/search?q=Kimono"
+],
+[
+"Art Institute of Chicago",
+76,
+"https://www.artic.edu/collection?q=Kimono"
+],
+[
+"Tropenmuseum",
+21,
+"https://collectie.wereldculturen.nl/#/query/Kimono"
+],
+[
+"Cleveland Museum of Art",
+9,
+"https://www.clevelandart.org/art/collection/search?search=Kimono"
+],
+[
+"Smithsonian (NMAA)",
+6,
+"https://asia.si.edu/explore-art-culture/collections/search/?edan_q=Kimono"
+],
+[
+"Wereldmuseum (NMVW)",
+5,
+"https://collectie.wereldculturen.nl/#/query/Kimono"
+]
+],
+"H5-23": [
+[
+"Wereldmuseum Rotterdam",
+501,
+"https://collectie.wereldculturen.nl/#/query/Kasuri"
+],
+[
+"Art Institute of Chicago",
+32,
+"https://www.artic.edu/collection?q=Kasuri"
+],
+[
+"Cooper Hewitt, Smithsonian Design Museum",
+15,
+"https://collection.cooperhewitt.org/search/collection/?query=Kasuri"
+],
+[
+"The Metropolitan Museum of Art",
+10,
+"https://www.metmuseum.org/art/collection/search?q=Kasuri"
+],
+[
+"Kyoto National Museum",
+9,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Kasuri"
+]
+],
+"I2-9": [
+[
+"Tokyo National Museum",
+120,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Maki-e"
+],
+[
+"Kyoto National Museum",
+113,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Maki-e"
+],
+[
+"The Metropolitan Museum of Art",
+94,
+"https://www.metmuseum.org/art/collection/search?q=Maki-e"
+],
+[
+"Rijksmuseum",
+11,
+"https://www.rijksmuseum.nl/en/search?q=Maki-e"
+]
+],
+"H5-21": [
+[
+"Art Institute of Chicago",
+85,
+"https://www.artic.edu/collection?q=Tsutsugaki"
+],
+[
+"Wereldmuseum Rotterdam",
+14,
+"https://collectie.wereldculturen.nl/#/query/Tsutsugaki"
+],
+[
+"The Metropolitan Museum of Art",
+3,
+"https://www.metmuseum.org/art/collection/search?q=Tsutsugaki"
+],
+[
+"Victoria and Albert Museum",
+3,
+"https://collections.vam.ac.uk/search/?q=Tsutsugaki"
+]
+],
+"H3-16": [
+[
+"Tropenmuseum",
+8,
+"https://collectie.wereldculturen.nl/#/query/Kesi"
+],
+[
+"Kyoto National Museum",
+5,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Kesi"
+]
+],
+"H5-22": [],
+"H5-19": [
+[
+"Wereldmuseum Rotterdam",
+32,
+"https://collectie.wereldculturen.nl/#/query/Katazome"
+],
+[
+"Cooper Hewitt, Smithsonian Design Museum",
+5,
+"https://collection.cooperhewitt.org/search/collection/?query=Katazome"
+]
+],
 "I2-10": [
 [
 "Tokyo National Museum",
@@ -3373,7 +4157,7 @@
 ],
 [
 "Art Institute of Chicago",
-16,
+17,
 "https://www.artic.edu/collection?q=Japanese%20Lacquerware"
 ],
 [
@@ -3594,6 +4378,145 @@
 ""
 ]
 ],
+"E3-28": [
+[
+"Rijksmuseum",
+51,
+"https://www.rijksmuseum.nl/en/search?q=Ky%C5%8D%20Ware"
+],
+[
+"Kyoto National Museum",
+8,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Ky%C5%8D%20Ware"
+],
+[
+"Smithsonian (NMAA)",
+3,
+"https://asia.si.edu/explore-art-culture/collections/search/?edan_q=Ky%C5%8D%20Ware"
+]
+],
+"E3-34": [
+[
+"Rijksmuseum",
+16,
+"https://www.rijksmuseum.nl/en/search?q=Mino%20Ware"
+],
+[
+"Smithsonian (NMAA)",
+5,
+"https://asia.si.edu/explore-art-culture/collections/search/?edan_q=Mino%20Ware"
+],
+[
+"Kyoto National Museum",
+4,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Mino%20Ware"
+],
+[
+"Tokyo National Museum",
+4,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Mino%20Ware"
+],
+[
+"Art Institute of Chicago",
+3,
+"https://www.artic.edu/collection?q=Mino%20Ware"
+]
+],
+"E4-20": [
+[
+"Rijksmuseum",
+8,
+"https://www.rijksmuseum.nl/en/search?q=Kutani%20Ware"
+],
+[
+"Kyoto National Museum",
+7,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Kutani%20Ware"
+],
+[
+"Art Institute of Chicago",
+4,
+"https://www.artic.edu/collection?q=Kutani%20Ware"
+]
+],
+"E3-11": [
+[
+"Cleveland Museum of Art",
+6,
+"https://www.clevelandart.org/art/collection/search?search=Cizhou%20Ware"
+],
+[
+"Kyoto National Museum",
+4,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Cizhou%20Ware"
+]
+],
+"G1-15": [
+[
+"The Metropolitan Museum of Art",
+515,
+"https://www.metmuseum.org/art/collection/search?q=Chinese%20Ritual%20Bronzes"
+],
+[
+"Nara National Museum",
+50,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Chinese%20Ritual%20Bronzes"
+],
+[
+"Tokyo National Museum",
+27,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Chinese%20Ritual%20Bronzes"
+],
+[
+"Art Institute of Chicago",
+8,
+"https://www.artic.edu/collection?q=Chinese%20Ritual%20Bronzes"
+],
+[
+"Kyoto National Museum",
+3,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Chinese%20Ritual%20Bronzes"
+],
+[
+"Smithsonian (NMAA)",
+3,
+"https://asia.si.edu/explore-art-culture/collections/search/?edan_q=Chinese%20Ritual%20Bronzes"
+]
+],
+"E3-4": [
+[
+"Cleveland Museum of Art",
+9,
+"https://www.clevelandart.org/art/collection/search?search=Yue%20Ware"
+],
+[
+"Kyoto National Museum",
+3,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Yue%20Ware"
+]
+],
+"E3-15": [
+[
+"Rijksmuseum",
+27,
+"https://www.rijksmuseum.nl/en/search?q=Seto%20Ware"
+],
+[
+"Kyoto National Museum",
+5,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Seto%20Ware"
+],
+[
+"Tokyo National Museum",
+3,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Seto%20Ware"
+],
+[
+"Cleveland Museum of Art",
+3,
+"https://www.clevelandart.org/art/collection/search?search=Seto%20Ware"
+]
+],
 "D5-22": [
 [
 "Tokyo National Museum",
@@ -3646,6 +4569,28 @@
 ""
 ]
 ],
+"E4-16": [
+[
+"Rijksmuseum",
+287,
+"https://www.rijksmuseum.nl/en/search?q=Arita%20Ware"
+],
+[
+"Tokyo National Museum",
+16,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Arita%20Ware"
+],
+[
+"Kyoto National Museum",
+10,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Arita%20Ware"
+],
+[
+"Smithsonian (NMAA)",
+3,
+"https://asia.si.edu/explore-art-culture/collections/search/?edan_q=Arita%20Ware"
+]
+],
 "E3-13": [
 [
 "The Metropolitan Museum of Art",
@@ -3678,6 +4623,54 @@
 "https://colbase.nich.go.jp/collection_items?locale=en&q=Goryeo%20Celadon"
 ]
 ],
+"E1-22": [
+[
+"Rijksmuseum",
+24,
+"https://www.rijksmuseum.nl/en/search?q=Satsuma%20Ware"
+],
+[
+"Kyoto National Museum",
+5,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Satsuma%20Ware"
+],
+[
+"Tokyo National Museum",
+3,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Satsuma%20Ware"
+]
+],
+"E4-10": [
+[
+"Rijksmuseum",
+654,
+"https://www.rijksmuseum.nl/en/search?q=Jingdezhen%20Porcelain"
+],
+[
+"Kyoto National Museum",
+9,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Jingdezhen%20Porcelain"
+]
+],
+"E3-14": [
+[
+"Tokyo National Museum",
+16,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Buncheong"
+],
+[
+"Kyoto National Museum",
+4,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Buncheong"
+]
+],
+"E3-10": [
+[
+"Tokyo National Museum",
+5,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Jian%20Ware"
+]
+],
 "E1-17": [
 [
 "The Metropolitan Museum of Art",
@@ -3693,6 +4686,93 @@
 "Rijksmuseum",
 6,
 "https://www.rijksmuseum.nl/en/search?q=Yangshao%20Painted%20Pottery"
+]
+],
+"E3-25": [
+[
+"Rijksmuseum",
+5,
+"https://www.rijksmuseum.nl/en/search?q=Hagi%20Ware"
+]
+],
+"E3-26": [
+[
+"Rijksmuseum",
+6,
+"https://www.rijksmuseum.nl/en/search?q=Takatori%20Ware"
+],
+[
+"Kyoto National Museum",
+3,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Takatori%20Ware"
+]
+],
+"E3-18": [
+[
+"Rijksmuseum",
+10,
+"https://www.rijksmuseum.nl/en/search?q=Bizen%20Ware"
+],
+[
+"Kyoto National Museum",
+5,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Bizen%20Ware"
+],
+[
+"Tokyo National Museum",
+5,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Bizen%20Ware"
+],
+[
+"Cleveland Museum of Art",
+3,
+"https://www.clevelandart.org/art/collection/search?search=Bizen%20Ware"
+],
+[
+"Smithsonian (NMAA)",
+3,
+"https://asia.si.edu/explore-art-culture/collections/search/?edan_q=Bizen%20Ware"
+]
+],
+"G2-4": [
+[
+"Museum Volkenkunde",
+708,
+"https://collectie.wereldculturen.nl/#/query/Japanese%20Sword%20Mountings"
+],
+[
+"Cleveland Museum of Art",
+234,
+"https://www.clevelandart.org/art/collection/search?search=Japanese%20Sword%20Mountings"
+],
+[
+"Kyoto National Museum",
+55,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Japanese%20Sword%20Mountings"
+],
+[
+"Tokyo National Museum",
+42,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Japanese%20Sword%20Mountings"
+],
+[
+"Rijksmuseum",
+4,
+"https://www.rijksmuseum.nl/en/search?q=Japanese%20Sword%20Mountings"
+]
+],
+"E3-19": [
+[
+"Rijksmuseum",
+7,
+"https://www.rijksmuseum.nl/en/search?q=Shigaraki%20Ware"
+]
+],
+"G2-12": [
+[
+"Tokyo National Museum",
+26,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Japanese%20Armour"
 ]
 ],
 "D5-24": [
@@ -3872,7 +4952,7 @@
 "C1-10": [
 [
 "Tokyo National Museum",
-19669,
+19670,
 "https://colbase.nich.go.jp/collection_items?locale=en&q=Japanese%20Calligraphy"
 ],
 [
@@ -4352,7 +5432,7 @@
 "I2-11": [
 [
 "Tokyo National Museum",
-85,
+86,
 "https://colbase.nich.go.jp/collection_items?locale=en&q=Ryukyuan%20Lacquerware"
 ],
 [
@@ -4367,7 +5447,7 @@
 ],
 [
 "Kyushu National Museum",
-10,
+11,
 "https://colbase.nich.go.jp/collection_items?locale=en&q=Ryukyuan%20Lacquerware"
 ]
 ],
@@ -4393,6 +5473,7 @@
 "https://www.clevelandart.org/art/collection/search?search=Carved%20Lacquer"
 ]
 ],
+"I4-14": [],
 "B2-17": [
 [
 "Art Institute of Chicago",
@@ -4401,7 +5482,7 @@
 ],
 [
 "Tokyo National Museum",
-6942,
+6943,
 "https://colbase.nich.go.jp/collection_items?locale=en&q=Ukiyo-e"
 ],
 [
@@ -4411,7 +5492,7 @@
 ],
 [
 "Rijksmuseum",
-506,
+508,
 "https://www.rijksmuseum.nl/en/search?q=Ukiyo-e"
 ],
 [
@@ -4425,9 +5506,36 @@
 "https://colbase.nich.go.jp/collection_items?locale=en&q=Ukiyo-e"
 ],
 [
+"Museum Volkenkunde",
+31,
+"https://collectie.wereldculturen.nl/#/query/Ukiyo-e"
+],
+[
 "Smithsonian (NMAA)",
 9,
 "https://asia.si.edu/explore-art-culture/collections/search/?edan_q=Ukiyo-e"
+]
+],
+"I4-13": [
+[
+"Museum Volkenkunde",
+24,
+"https://collectie.wereldculturen.nl/#/query/Koto"
+],
+[
+"Tokyo National Museum",
+16,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Koto"
+],
+[
+"Rijksmuseum",
+11,
+"https://www.rijksmuseum.nl/en/search?q=Koto"
+],
+[
+"Cleveland Museum of Art",
+5,
+"https://www.clevelandart.org/art/collection/search?search=Koto"
 ]
 ],
 "B2-18": [
@@ -4457,7 +5565,7 @@
 "D3-3": [
 [
 "Art Institute of Chicago",
-425,
+440,
 "https://www.artic.edu/collection?q=Chinese%20Jade"
 ],
 [
@@ -4467,15 +5575,84 @@
 ],
 [
 "Smithsonian (NMAA)",
-102,
+109,
 "https://asia.si.edu/explore-art-culture/collections/search/?edan_q=Chinese%20Jade"
 ],
 [
 "Cleveland Museum of Art",
-57,
+61,
 "https://www.clevelandart.org/art/collection/search?search=Chinese%20Jade"
 ]
 ],
+"D6-12": [
+[
+"Tokyo National Museum",
+3,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Butsudan"
+]
+],
+"D2-4": [
+[
+"The Metropolitan Museum of Art",
+4480,
+"https://www.metmuseum.org/art/collection/search?q=Netsuke"
+],
+[
+"Museum Volkenkunde",
+892,
+"https://collectie.wereldculturen.nl/#/query/Netsuke"
+],
+[
+"Tokyo National Museum",
+472,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Netsuke"
+],
+[
+"Art Institute of Chicago",
+155,
+"https://www.artic.edu/collection?q=Netsuke"
+],
+[
+"Wereldmuseum Rotterdam",
+73,
+"https://collectie.wereldculturen.nl/#/query/Netsuke"
+],
+[
+"Rijksmuseum",
+49,
+"https://www.rijksmuseum.nl/en/search?q=Netsuke"
+],
+[
+"Tropenmuseum",
+20,
+"https://collectie.wereldculturen.nl/#/query/Netsuke"
+],
+[
+"Smithsonian (NMAA)",
+10,
+"https://asia.si.edu/explore-art-culture/collections/search/?edan_q=Netsuke"
+],
+[
+"Wereldmuseum (NMVW)",
+3,
+"https://collectie.wereldculturen.nl/#/query/Netsuke"
+]
+],
+"G3-27": [
+[
+"Tokyo National Museum",
+3,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Kanzashi"
+]
+],
+"I4-22": [
+[
+"Tokyo National Museum",
+3,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Gagaku%20Instruments"
+]
+],
+"G2-9": [],
 "D5-21": [
 [
 "The Metropolitan Museum of Art",
@@ -4484,7 +5661,7 @@
 ],
 [
 "Art Institute of Chicago",
-11,
+23,
 "https://www.artic.edu/collection?q=Mingqi"
 ],
 [
@@ -4496,6 +5673,32 @@
 "Cleveland Museum of Art",
 4,
 "https://www.clevelandart.org/art/collection/search?search=Mingqi"
+]
+],
+"G1-68": [],
+"I2-22": [],
+"I3-25": [],
+"H4-25": [],
+"H4-26": [
+[
+"The Metropolitan Museum of Art",
+30,
+"https://www.metmuseum.org/art/collection/search?q=Bojagi"
+],
+[
+"Tokyo National Museum",
+20,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Bojagi"
+],
+[
+"Art Institute of Chicago",
+18,
+"https://www.artic.edu/collection?q=Bojagi"
+],
+[
+"Victoria and Albert Museum",
+9,
+"https://collections.vam.ac.uk/search/?q=Bojagi"
 ]
 ],
 "J1-7": [
@@ -4537,6 +5740,121 @@
 "https://colbase.nich.go.jp/collection_items?locale=en&q=Dunhuang%20Paintings"
 ]
 ],
+"E4-14": [
+[
+"Rijksmuseum",
+50,
+"https://www.rijksmuseum.nl/en/search?q=Dehua%20Porcelain"
+]
+],
+"A1-14": [
+[
+"Bibliothèque nationale de France",
+536,
+"https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&query=(gallica%20all%20%22Nara-ehon%22)"
+],
+[
+"(institution not recorded)",
+93,
+""
+],
+[
+"Cabinet Library",
+29,
+""
+],
+[
+"Tokyo National Museum",
+27,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Nara-ehon"
+],
+[
+"Kyoto National Museum",
+18,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Nara-ehon"
+],
+[
+"Tenri Central Library",
+5,
+""
+],
+[
+"Tōyō Bunko",
+5,
+""
+],
+[
+"Nara National Museum",
+5,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Nara-ehon"
+],
+[
+"University of Pennsylvania",
+5,
+"https://www.penn.museum/collections/search.php?term=Nara-ehon"
+],
+[
+"Gotoh Museum",
+4,
+""
+],
+[
+"Ashikaga School Iseki Library",
+4,
+""
+],
+[
+"Williams College",
+4,
+""
+],
+[
+"Harvard University",
+4,
+""
+],
+[
+"Setagaya Art Museum",
+4,
+""
+],
+[
+"Kyo-U Library",
+3,
+""
+],
+[
+"Koyasan Reihōkan",
+3,
+""
+],
+[
+"Waseda University Library",
+3,
+""
+],
+[
+"National Museum of Japanese History",
+3,
+""
+],
+[
+"Masaki Art Museum",
+3,
+""
+],
+[
+"Daigo-ji Temple",
+3,
+""
+],
+[
+"Ashmolean Museum",
+3,
+""
+]
+],
+"I3-24": [],
 "A2-13": [
 [
 "独立行政法人国立美術館",
@@ -4688,6 +6006,14 @@
 "https://www.clevelandart.org/art/collection/search?search=Contemporary%20Printmaking"
 ]
 ],
+"D3-4": [
+[
+"The Metropolitan Museum of Art",
+2044,
+"https://www.metmuseum.org/art/collection/search?q=Chinese%20Snuff%20Bottles"
+]
+],
+"I4-15": [],
 "A5-111": [
 [
 "Smithsonian (NMAI)",
@@ -4700,6 +6026,7 @@
 "https://www.artic.edu/collection?q=Contemporary%20Art"
 ]
 ],
+"A6-11": [],
 "B2-19": [
 [
 "Art Institute of Chicago",
@@ -4707,28 +6034,34 @@
 "https://www.artic.edu/collection?q=S%C5%8Dsaku-hanga"
 ]
 ],
-"D2-4": [
-[
-"The Metropolitan Museum of Art",
-4480,
-"https://www.metmuseum.org/art/collection/search?q=Netsuke"
-],
+"E4-1": [
 [
 "Art Institute of Chicago",
-139,
-"https://www.artic.edu/collection?q=Netsuke"
+145,
+"https://www.artic.edu/collection?q=Bencharong"
+],
+[
+"The Metropolitan Museum of Art",
+120,
+"https://www.metmuseum.org/art/collection/search?q=Bencharong"
 ]
 ],
-"H7-12": [
+"E4-15": [],
+"H4-27": [
 [
-"The Metropolitan Museum of Art",
-77,
-"https://www.metmuseum.org/art/collection/search?q=Kimono"
+"Cooper Hewitt, Smithsonian Design Museum",
+6,
+"https://collection.cooperhewitt.org/search/collection/?query=Sashiko"
 ],
 [
 "Art Institute of Chicago",
-6,
-"https://www.artic.edu/collection?q=Kimono"
+3,
+"https://www.artic.edu/collection?q=Sashiko"
+],
+[
+"The Metropolitan Museum of Art",
+3,
+"https://www.metmuseum.org/art/collection/search?q=Sashiko"
 ]
 ],
 "I2-19": [
@@ -6555,6 +7888,48 @@
 "https://www.artic.edu/collection?q=Greek%20Terracotta%20Figurines"
 ]
 ],
+"A1-20": [
+[
+"Matenadaran",
+1183,
+""
+],
+[
+"Bibliothèque nationale de France",
+350,
+"https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&query=(gallica%20all%20%22Armenian%20Manuscript%20Illumination%22)"
+],
+[
+"Nasser D. Khalili Collection of Islamic Art",
+12,
+""
+],
+[
+"Harvard University",
+7,
+""
+],
+[
+"(institution not recorded)",
+6,
+""
+],
+[
+"Victoria and Albert Museum",
+4,
+"https://collections.vam.ac.uk/search/?q=Armenian%20Manuscript%20Illumination"
+],
+[
+"Free Library of Philadelphia",
+3,
+""
+],
+[
+"Vassar College",
+3,
+""
+]
+],
 "E1-51": [
 [
 "Art Institute of Chicago",
@@ -6710,38 +8085,6 @@
 "https://www.metmuseum.org/art/collection/search?q=Amish%20Quilts"
 ]
 ],
-"H3-28": [
-[
-"Smithsonian (NMAI)",
-1094,
-"https://collections.si.edu/search/results.htm?q=Maya%20Textiles&fq=data_source%3A%22National+Museum+of+the+American+Indian%22"
-],
-[
-"Museum Volkenkunde",
-372,
-"https://collectie.wereldculturen.nl/#/query/Maya%20Textiles"
-],
-[
-"Tropenmuseum",
-191,
-"https://collectie.wereldculturen.nl/#/query/Maya%20Textiles"
-],
-[
-"Art Institute of Chicago",
-76,
-"https://www.artic.edu/collection?q=Maya%20Textiles"
-],
-[
-"Smithsonian National Museum of the American Indian",
-40,
-"https://collections.si.edu/search/results.htm?q=Maya%20Textiles&fq=data_source%3A%22National+Museum+of+the+American+Indian%22"
-],
-[
-"The Metropolitan Museum of Art",
-9,
-"https://www.metmuseum.org/art/collection/search?q=Maya%20Textiles"
-]
-],
 "H4-39": [
 [
 "Smithsonian (NMAI)",
@@ -6762,6 +8105,11 @@
 "Museum Volkenkunde",
 3,
 "https://collectie.wereldculturen.nl/#/query/Ribbonwork"
+],
+[
+"Smithsonian (SAAM)",
+3,
+"https://americanart.si.edu/search?query=Ribbonwork"
 ]
 ],
 "A6-10": [
@@ -6788,33 +8136,33 @@
 ],
 "A6-9": [
 [
+"The Metropolitan Museum of Art",
+23,
+"https://www.metmuseum.org/art/collection/search?q=%C5%8Ctsu-e"
+],
+[
 "Tokyo National Museum",
 21,
 "https://colbase.nich.go.jp/collection_items?locale=en&q=%C5%8Ctsu-e"
 ],
 [
-"The Metropolitan Museum of Art",
-11,
-"https://www.metmuseum.org/art/collection/search?q=%C5%8Ctsu-e"
-],
-[
 "Art Institute of Chicago",
-11,
+16,
 "https://www.artic.edu/collection?q=%C5%8Ctsu-e"
 ],
 [
 "Victoria and Albert Museum",
-11,
+14,
 "https://collections.vam.ac.uk/search/?q=%C5%8Ctsu-e"
 ],
 [
 "Cleveland Museum of Art",
-9,
+13,
 "https://www.clevelandart.org/art/collection/search?search=%C5%8Ctsu-e"
 ],
 [
 "Kyoto National Museum",
-5,
+6,
 "https://colbase.nich.go.jp/collection_items?locale=en&q=%C5%8Ctsu-e"
 ]
 ],
@@ -6870,7 +8218,7 @@
 ],
 [
 "Tropenmuseum",
-40,
+41,
 "https://collectie.wereldculturen.nl/#/query/Burmese%20Lacquerware"
 ],
 [
@@ -6882,43 +8230,6 @@
 "Art Institute of Chicago",
 6,
 "https://www.artic.edu/collection?q=Burmese%20Lacquerware"
-]
-],
-"H5-8": [
-[
-"Wereldmuseum Rotterdam",
-26,
-"https://collectie.wereldculturen.nl/#/query/Patola"
-],
-[
-"Victoria and Albert Museum",
-25,
-"https://collections.vam.ac.uk/search/?q=Patola"
-],
-[
-"Wereldmuseum (NMVW)",
-9,
-"https://collectie.wereldculturen.nl/#/query/Patola"
-],
-[
-"Art Institute of Chicago",
-4,
-"https://www.artic.edu/collection?q=Patola"
-],
-[
-"Tropenmuseum",
-4,
-"https://collectie.wereldculturen.nl/#/query/Patola"
-],
-[
-"The Metropolitan Museum of Art",
-3,
-"https://www.metmuseum.org/art/collection/search?q=Patola"
-],
-[
-"Cleveland Museum of Art",
-3,
-"https://www.clevelandart.org/art/collection/search?search=Patola"
 ]
 ],
 "H5-20": [
@@ -6943,57 +8254,6 @@
 "https://collections.vam.ac.uk/search/?q=Bingata"
 ]
 ],
-"H5-23": [
-[
-"Art Institute of Chicago",
-32,
-"https://www.artic.edu/collection?q=Kasuri"
-],
-[
-"Cooper Hewitt, Smithsonian Design Museum",
-15,
-"https://collection.cooperhewitt.org/search/collection/?query=Kasuri"
-],
-[
-"The Metropolitan Museum of Art",
-10,
-"https://www.metmuseum.org/art/collection/search?q=Kasuri"
-],
-[
-"Kyoto National Museum",
-7,
-"https://colbase.nich.go.jp/collection_items?locale=en&q=Kasuri"
-]
-],
-"D5-25": [
-[
-"Museum Volkenkunde",
-8,
-"https://collectie.wereldculturen.nl/#/query/Japanese%20Dolls%20%28Ningy%C5%8D%29"
-],
-[
-"The Metropolitan Museum of Art",
-4,
-"https://www.metmuseum.org/art/collection/search?q=Japanese%20Dolls%20%28Ningy%C5%8D%29"
-],
-[
-"Art Institute of Chicago",
-3,
-"https://www.artic.edu/collection?q=Japanese%20Dolls%20%28Ningy%C5%8D%29"
-]
-],
-"E4-1": [
-[
-"The Metropolitan Museum of Art",
-120,
-"https://www.metmuseum.org/art/collection/search?q=Bencharong"
-],
-[
-"Art Institute of Chicago",
-115,
-"https://www.artic.edu/collection?q=Bencharong"
-]
-],
 "C4-3": [
 [
 "Victoria and Albert Museum",
@@ -7011,20 +8271,6 @@
 "https://www.artic.edu/collection?q=Chinese%20Paper%20Cutting"
 ]
 ],
-"H4-27": [
-[
-"Cooper Hewitt, Smithsonian Design Museum",
-4,
-"https://collection.cooperhewitt.org/search/collection/?query=Sashiko"
-]
-],
-"H5-21": [
-[
-"Art Institute of Chicago",
-3,
-"https://www.artic.edu/collection?q=Tsutsugaki"
-]
-],
 "H4-29": [
 [
 "Penn Museum",
@@ -7038,7 +8284,7 @@
 ],
 [
 "Art Institute of Chicago",
-6,
+7,
 "https://www.artic.edu/collection?q=Ainu%20Textiles"
 ]
 ],
@@ -7057,35 +8303,13 @@
 "B2-4": [
 [
 "The Metropolitan Museum of Art",
-382,
+419,
 "https://www.metmuseum.org/art/collection/search?q=Nianhua"
 ],
 [
 "Cleveland Museum of Art",
 7,
 "https://www.clevelandart.org/art/collection/search?search=Nianhua"
-]
-],
-"H4-26": [
-[
-"The Metropolitan Museum of Art",
-30,
-"https://www.metmuseum.org/art/collection/search?q=Bojagi"
-],
-[
-"Art Institute of Chicago",
-16,
-"https://www.artic.edu/collection?q=Bojagi"
-],
-[
-"Tokyo National Museum",
-15,
-"https://colbase.nich.go.jp/collection_items?locale=en&q=Bojagi"
-],
-[
-"Victoria and Albert Museum",
-9,
-"https://collections.vam.ac.uk/search/?q=Bojagi"
 ]
 ],
 "H3-7": [
@@ -7108,43 +8332,6 @@
 "Tropenmuseum",
 3,
 "https://collectie.wereldculturen.nl/#/query/Banarasi%20Brocade"
-]
-],
-"H5-12": [
-[
-"Art Institute of Chicago",
-57,
-"https://www.artic.edu/collection?q=Indonesian%20Ikat"
-],
-[
-"The Metropolitan Museum of Art",
-52,
-"https://www.metmuseum.org/art/collection/search?q=Indonesian%20Ikat"
-],
-[
-"Tropenmuseum",
-23,
-"https://collectie.wereldculturen.nl/#/query/Indonesian%20Ikat"
-],
-[
-"Victoria and Albert Museum",
-15,
-"https://collections.vam.ac.uk/search/?q=Indonesian%20Ikat"
-],
-[
-"Cooper Hewitt, Smithsonian Design Museum",
-10,
-"https://collection.cooperhewitt.org/search/collection/?query=Indonesian%20Ikat"
-],
-[
-"Cleveland Museum of Art",
-3,
-"https://www.clevelandart.org/art/collection/search?search=Indonesian%20Ikat"
-],
-[
-"Rijksmuseum",
-3,
-"https://www.rijksmuseum.nl/en/search?q=Indonesian%20Ikat"
 ]
 ],
 "H5-1": [
@@ -7205,31 +8392,14 @@
 "https://www.metmuseum.org/art/collection/search?q=Pi%C3%B1a"
 ],
 [
+"Cleveland Museum of Art",
+4,
+"https://www.clevelandart.org/art/collection/search?search=Pi%C3%B1a"
+],
+[
 "Art Institute of Chicago",
 3,
 "https://www.artic.edu/collection?q=Pi%C3%B1a"
-]
-],
-"H4-103": [
-[
-"Minneapolis Institute of Art",
-19,
-"https://collections.artsmia.org/search/Hausa%20Embroidery"
-],
-[
-"Yale University (LUX)",
-12,
-"https://artgallery.yale.edu/collection?q=Hausa%20Embroidery"
-],
-[
-"Art Institute of Chicago",
-10,
-"https://www.artic.edu/collection?q=Hausa%20Embroidery"
-],
-[
-"The Metropolitan Museum of Art",
-7,
-"https://www.metmuseum.org/art/collection/search?q=Hausa%20Embroidery"
 ]
 ],
 "H5-30": [
@@ -7242,38 +8412,6 @@
 "Art Institute of Chicago",
 7,
 "https://www.artic.edu/collection?q=Kanga"
-]
-],
-"H3-23": [
-[
-"Museum Volkenkunde",
-33,
-"https://collectie.wereldculturen.nl/#/query/Kente%20Cloth"
-],
-[
-"Art Institute of Chicago",
-24,
-"https://www.artic.edu/collection?q=Kente%20Cloth"
-],
-[
-"The Metropolitan Museum of Art",
-17,
-"https://www.metmuseum.org/art/collection/search?q=Kente%20Cloth"
-],
-[
-"Tropenmuseum",
-6,
-"https://collectie.wereldculturen.nl/#/query/Kente%20Cloth"
-],
-[
-"Minneapolis Institute of Art",
-5,
-"https://collections.artsmia.org/search/Kente%20Cloth"
-],
-[
-"Yale University (LUX)",
-3,
-"https://artgallery.yale.edu/collection?q=Kente%20Cloth"
 ]
 ],
 "G3-3": [
@@ -7340,7 +8478,7 @@
 ],
 [
 "Rijksmuseum",
-9,
+10,
 "https://www.rijksmuseum.nl/en/search?q=Kilim"
 ],
 [
@@ -7411,7 +8549,7 @@
 ],
 [
 "Tropenmuseum",
-15,
+16,
 "https://collectie.wereldculturen.nl/#/query/Colonial%20Andean%20Silverwork"
 ],
 [
@@ -7428,6 +8566,11 @@
 "Rijksmuseum",
 7,
 "https://www.rijksmuseum.nl/en/search?q=Colonial%20Andean%20Silverwork"
+],
+[
+"Smithsonian (SAAM)",
+4,
+"https://americanart.si.edu/search?query=Colonial%20Andean%20Silverwork"
 ]
 ],
 "J1-8": [
@@ -7494,35 +8637,8 @@
 ],
 [
 "The Metropolitan Museum of Art",
-3,
+4,
 "https://www.metmuseum.org/art/collection/search?q=Northwest%20Coast%20Masks"
-]
-],
-"H5-10": [
-[
-"Art Institute of Chicago",
-67,
-"https://www.artic.edu/collection?q=Indonesian%20Batik"
-],
-[
-"Tropenmuseum",
-35,
-"https://collectie.wereldculturen.nl/#/query/Indonesian%20Batik"
-],
-[
-"Cooper Hewitt, Smithsonian Design Museum",
-32,
-"https://collection.cooperhewitt.org/search/collection/?query=Indonesian%20Batik"
-],
-[
-"Victoria and Albert Museum",
-14,
-"https://collections.vam.ac.uk/search/?q=Indonesian%20Batik"
-],
-[
-"The Metropolitan Museum of Art",
-5,
-"https://www.metmuseum.org/art/collection/search?q=Indonesian%20Batik"
 ]
 ],
 "D5-78": [
@@ -7633,35 +8749,6 @@
 "https://collections.si.edu/search/results.htm?q=Yoruba%20Beadwork&fq=data_source%3A%22National+Museum+of+the+American+Indian%22"
 ]
 ],
-"H5-13": [
-[
-"The Metropolitan Museum of Art",
-5,
-"https://www.metmuseum.org/art/collection/search?q=Geringsing"
-],
-[
-"Art Institute of Chicago",
-3,
-"https://www.artic.edu/collection?q=Geringsing"
-]
-],
-"I4-1": [
-[
-"The Metropolitan Museum of Art",
-15,
-"https://www.metmuseum.org/art/collection/search?q=Vanuatu%20Slit%20Gongs"
-],
-[
-"Penn Museum",
-3,
-"https://www.penn.museum/collections/search.php?term=Vanuatu%20Slit%20Gongs"
-],
-[
-"Museum Volkenkunde",
-3,
-"https://collectie.wereldculturen.nl/#/query/Vanuatu%20Slit%20Gongs"
-]
-],
 "D4-26": [
 [
 "Penn Museum",
@@ -7713,14 +8800,14 @@
 "https://collections.tepapa.govt.nz/search/Noken"
 ],
 [
+"Wereldmuseum (NMVW)",
+16,
+"https://collectie.wereldculturen.nl/#/query/Noken"
+],
+[
 "Penn Museum",
 9,
 "https://www.penn.museum/collections/search.php?term=Noken"
-],
-[
-"Wereldmuseum (NMVW)",
-8,
-"https://collectie.wereldculturen.nl/#/query/Noken"
 ],
 [
 "The Metropolitan Museum of Art",
@@ -7728,39 +8815,12 @@
 "https://www.metmuseum.org/art/collection/search?q=Noken"
 ]
 ],
-"H5-26": [
-[
-"Minneapolis Institute of Art",
-37,
-"https://collections.artsmia.org/search/B%C3%B2g%C3%B2lanfini"
-],
-[
-"Museum Volkenkunde",
-28,
-"https://collectie.wereldculturen.nl/#/query/B%C3%B2g%C3%B2lanfini"
-],
-[
-"The Metropolitan Museum of Art",
-7,
-"https://www.metmuseum.org/art/collection/search?q=B%C3%B2g%C3%B2lanfini"
-],
-[
-"Art Institute of Chicago",
-6,
-"https://www.artic.edu/collection?q=B%C3%B2g%C3%B2lanfini"
-],
+"C2-9": [
 [
 "Tropenmuseum",
-4,
-"https://collectie.wereldculturen.nl/#/query/B%C3%B2g%C3%B2lanfini"
+15,
+"https://collectie.wereldculturen.nl/#/query/Pustaha"
 ],
-[
-"Afrika Museum",
-4,
-"https://collectie.wereldculturen.nl/#/query/B%C3%B2g%C3%B2lanfini"
-]
-],
-"C2-9": [
 [
 "The Metropolitan Museum of Art",
 8,
@@ -7777,28 +8837,6 @@
 ""
 ]
 ],
-"H5-27": [
-[
-"Afrika Museum",
-24,
-"https://collectie.wereldculturen.nl/#/query/Adire"
-],
-[
-"Minneapolis Institute of Art",
-15,
-"https://collections.artsmia.org/search/Adire"
-],
-[
-"Art Institute of Chicago",
-9,
-"https://www.artic.edu/collection?q=Adire"
-],
-[
-"The Metropolitan Museum of Art",
-6,
-"https://www.metmuseum.org/art/collection/search?q=Adire"
-]
-],
 "H3-25": [
 [
 "The Metropolitan Museum of Art",
@@ -7811,6 +8849,13 @@
 "The Metropolitan Museum of Art",
 11,
 "https://www.metmuseum.org/art/collection/search?q=Asafo%20Flags"
+]
+],
+"H2-24": [
+[
+"The Metropolitan Museum of Art",
+5,
+"https://www.metmuseum.org/art/collection/search?q=Mapuche%20silverwork%20and%20weaving"
 ]
 ],
 "E1-53": [
@@ -7923,7 +8968,7 @@
 ],
 [
 "Museum Volkenkunde",
-26,
+37,
 "https://collectie.wereldculturen.nl/#/query/Amate%20Painting"
 ],
 [
@@ -8019,7 +9064,7 @@
 "H5-31": [
 [
 "Museum Volkenkunde",
-37,
+73,
 "https://collectie.wereldculturen.nl/#/query/Rebozo"
 ],
 [
@@ -8057,14 +9102,22 @@
 "https://www.artic.edu/collection?q=Adinkra%20Cloth"
 ],
 [
-"Museum Volkenkunde",
-14,
+"Tropenmuseum",
+22,
 "https://collectie.wereldculturen.nl/#/query/Adinkra%20Cloth"
 ],
 [
-"Tropenmuseum",
-9,
+"Museum Volkenkunde",
+17,
 "https://collectie.wereldculturen.nl/#/query/Adinkra%20Cloth"
+]
+],
+"I1-14": [],
+"D5-76": [
+[
+"Smithsonian (NMAI)",
+20,
+"https://collections.si.edu/search/results.htm?q=Totem%20Poles&fq=data_source%3A%22National+Museum+of+the+American+Indian%22"
 ]
 ],
 "I2-16": [
@@ -8082,13 +9135,6 @@
 "Tropenmuseum",
 4,
 "https://collectie.wereldculturen.nl/#/query/Barniz%20de%20Pasto"
-]
-],
-"H3-24": [
-[
-"Yale University (LUX)",
-11,
-"https://artgallery.yale.edu/collection?q=Aso%20Oke"
 ]
 ],
 "H3-9": [
@@ -8142,59 +9188,16 @@
 "https://www.metmuseum.org/art/collection/search?q=Hmong%20Textile%20Art"
 ]
 ],
-"H5-6": [
-[
-"Victoria and Albert Museum",
-35,
-"https://collections.vam.ac.uk/search/?q=Bandhani"
-]
-],
 "H5-11": [
 [
 "Tropenmuseum",
-19,
+20,
 "https://collectie.wereldculturen.nl/#/query/Malaysian%20Batik"
 ],
 [
 "Victoria and Albert Museum",
 5,
 "https://collections.vam.ac.uk/search/?q=Malaysian%20Batik"
-]
-],
-"H4-42": [
-[
-"Museum of New Zealand Te Papa Tongarewa",
-29,
-"https://collections.tepapa.govt.nz/search/Tivaevae"
-]
-],
-"H9-9": [
-[
-"Museum of New Zealand Te Papa Tongarewa",
-4,
-"https://collections.tepapa.govt.nz/search/Hawaiian%20Featherwork"
-]
-],
-"D5-87": [
-[
-"Museum Volkenkunde",
-37,
-"https://collectie.wereldculturen.nl/#/query/Nguzu%20Nguzu"
-],
-[
-"Penn Museum",
-21,
-"https://www.penn.museum/collections/search.php?term=Nguzu%20Nguzu"
-],
-[
-"Tropenmuseum",
-15,
-"https://collectie.wereldculturen.nl/#/query/Nguzu%20Nguzu"
-],
-[
-"Museum of New Zealand Te Papa Tongarewa",
-10,
-"https://collections.tepapa.govt.nz/search/Nguzu%20Nguzu"
 ]
 ],
 "G3-14": [
@@ -8233,25 +9236,6 @@
 "Victoria and Albert Museum",
 19,
 "https://collections.vam.ac.uk/search/?q=Bengal%20Patachitra"
-]
-],
-"H4-11": [
-[
-"Victoria and Albert Museum",
-6,
-"https://collections.vam.ac.uk/search/?q=Kantha"
-]
-],
-"H4-18": [
-[
-"Penn Museum",
-35,
-"https://www.penn.museum/collections/search.php?term=Kalaga"
-],
-[
-"Victoria and Albert Museum",
-15,
-"https://collections.vam.ac.uk/search/?q=Kalaga"
 ]
 ],
 "H4-9": [
@@ -8302,18 +9286,20 @@
 "https://collections.vam.ac.uk/search/?q=Karag%C3%B6z%20Shadow%20Puppets"
 ]
 ],
-"H5-19": [
+"H4-110": [],
+"E3-24": [
 [
-"Wereldmuseum Rotterdam",
-32,
-"https://collectie.wereldculturen.nl/#/query/Katazome"
+"Smithsonian (NMAA)",
+11,
+"https://asia.si.edu/explore-art-culture/collections/search/?edan_q=Karatsu%20Ware"
 ],
 [
-"Cooper Hewitt, Smithsonian Design Museum",
-5,
-"https://collection.cooperhewitt.org/search/collection/?query=Katazome"
+"Rijksmuseum",
+10,
+"https://www.rijksmuseum.nl/en/search?q=Karatsu%20Ware"
 ]
 ],
+"H9-11": [],
 "D5-79": [
 [
 "Smithsonian (NMAI)",
@@ -8331,6 +9317,13 @@
 "https://collectie.wereldculturen.nl/#/query/Zuni%20Fetishes"
 ]
 ],
+"D4-33": [
+[
+"Museum Volkenkunde",
+3,
+"https://collectie.wereldculturen.nl/#/query/Mexican"
+]
+],
 "H8-40": [
 [
 "Smithsonian (NMAI)",
@@ -8346,7 +9339,7 @@
 "D5-73": [
 [
 "Tropenmuseum",
-30,
+32,
 "https://collectie.wereldculturen.nl/#/query/Cartoner%C3%ADa"
 ],
 [
@@ -8356,7 +9349,7 @@
 ],
 [
 "Museum Volkenkunde",
-6,
+9,
 "https://collectie.wereldculturen.nl/#/query/Cartoner%C3%ADa"
 ]
 ],
@@ -8418,10 +9411,11 @@
 "H4-34": [
 [
 "Tropenmuseum",
-5,
+11,
 "https://collectie.wereldculturen.nl/#/query/Arpillera"
 ]
 ],
+"H9-15": [],
 "D5-8": [
 [
 "Tropenmuseum",
@@ -8439,8 +9433,57 @@
 "D5-26": [
 [
 "Museum Volkenkunde",
-34,
+40,
 "https://collectie.wereldculturen.nl/#/query/Kokeshi"
+]
+],
+"D4-5": [
+[
+"Yale University (LUX)",
+78,
+"https://artgallery.yale.edu/collection?q=Topeng"
+],
+[
+"Museum Volkenkunde",
+40,
+"https://collectie.wereldculturen.nl/#/query/Topeng"
+],
+[
+"Tropenmuseum",
+10,
+"https://collectie.wereldculturen.nl/#/query/Topeng"
+],
+[
+"Wereldmuseum Rotterdam",
+3,
+"https://collectie.wereldculturen.nl/#/query/Topeng"
+]
+],
+"D4-4": [
+[
+"Museum Volkenkunde",
+296,
+"https://collectie.wereldculturen.nl/#/query/Wayang%20Golek"
+],
+[
+"Tropenmuseum",
+134,
+"https://collectie.wereldculturen.nl/#/query/Wayang%20Golek"
+],
+[
+"Penn Museum",
+132,
+"https://www.penn.museum/collections/search.php?term=Wayang%20Golek"
+],
+[
+"Yale University (LUX)",
+24,
+"https://artgallery.yale.edu/collection?q=Wayang%20Golek"
+],
+[
+"Victoria and Albert Museum",
+11,
+"https://collections.vam.ac.uk/search/?q=Wayang%20Golek"
 ]
 ],
 "D5-18": [
@@ -8523,38 +9566,6 @@
 "https://artgallery.yale.edu/collection?q=Bura%20Terracottas"
 ]
 ],
-"G1-19": [
-[
-"Penn Museum",
-93,
-"https://www.penn.museum/collections/search.php?term=Ethiopian%20Crosses"
-],
-[
-"Yale University (LUX)",
-91,
-"https://artgallery.yale.edu/collection?q=Ethiopian%20Crosses"
-],
-[
-"Victoria and Albert Museum",
-15,
-"https://collections.vam.ac.uk/search/?q=Ethiopian%20Crosses"
-],
-[
-"The Metropolitan Museum of Art",
-10,
-"https://www.metmuseum.org/art/collection/search?q=Ethiopian%20Crosses"
-],
-[
-"Smithsonian National Museum of African Art",
-8,
-"https://collections.si.edu/search/results.htm?q=Ethiopian%20Crosses"
-],
-[
-"Minneapolis Institute of Art",
-5,
-"https://collections.artsmia.org/search/Ethiopian%20Crosses"
-]
-],
 "A1-15": [
 [
 "Penn Museum",
@@ -8579,14 +9590,14 @@
 "https://www.bl.uk/manuscripts/Search.aspx?q=Ethiopian%20Manuscripts"
 ],
 [
+"The Metropolitan Museum of Art",
+11,
+"https://www.metmuseum.org/art/collection/search?q=Ethiopian%20Manuscripts"
+],
+[
 "(institution not recorded)",
 9,
 ""
-],
-[
-"The Metropolitan Museum of Art",
-4,
-"https://www.metmuseum.org/art/collection/search?q=Ethiopian%20Manuscripts"
 ],
 [
 "Geneva Ethnography Museum",
@@ -8925,7 +9936,7 @@
 "D4-8": [
 [
 "Tropenmuseum",
-141,
+143,
 "https://collectie.wereldculturen.nl/#/query/Yoke%20Th%C3%A9"
 ],
 [
@@ -8945,6 +9956,11 @@
 ]
 ],
 "G1-14": [
+[
+"Tropenmuseum",
+23,
+"https://collectie.wereldculturen.nl/#/query/Burmese%20Silver"
+],
 [
 "Victoria and Albert Museum",
 20,
@@ -8976,30 +9992,6 @@
 "Victoria and Albert Museum",
 9,
 "https://collections.vam.ac.uk/search/?q=Lai%20Rot%20Nam"
-]
-],
-"D4-5": [
-[
-"Yale University (LUX)",
-77,
-"https://artgallery.yale.edu/collection?q=Topeng"
-]
-],
-"D4-4": [
-[
-"Penn Museum",
-132,
-"https://www.penn.museum/collections/search.php?term=Wayang%20Golek"
-],
-[
-"Yale University (LUX)",
-22,
-"https://artgallery.yale.edu/collection?q=Wayang%20Golek"
-],
-[
-"Victoria and Albert Museum",
-11,
-"https://collections.vam.ac.uk/search/?q=Wayang%20Golek"
 ]
 ],
 "A5-6": [
@@ -9346,12 +10338,12 @@
 "H3-1": [
 [
 "Cleveland Museum of Art",
-24,
+101,
 "https://www.clevelandart.org/art/collection/search?search=Tiraz"
 ],
 [
 "Victoria and Albert Museum",
-11,
+18,
 "https://collections.vam.ac.uk/search/?q=Tiraz"
 ],
 [
@@ -9688,13 +10680,6 @@
 ""
 ]
 ],
-"H1-8": [
-[
-"Victoria and Albert Museum",
-30,
-"https://collections.vam.ac.uk/search/?q=Mughal%20Carpet"
-]
-],
 "C3-1": [
 [
 "Victoria and Albert Museum",
@@ -9730,6 +10715,18 @@
 "The Nasser D. Khalili Collection of Hajj and The Arts of Pilgrimage",
 3,
 ""
+]
+],
+"H7-2": [
+[
+"The Metropolitan Museum of Art",
+53,
+"https://www.metmuseum.org/art/collection/search?q=Ottoman%20Court%20Dress"
+],
+[
+"Victoria and Albert Museum",
+3,
+"https://collections.vam.ac.uk/search/?q=Ottoman%20Court%20Dress"
 ]
 ],
 "B1-1": [
@@ -9951,7 +10948,7 @@
 "I2-1": [
 [
 "Victoria and Albert Museum",
-17,
+26,
 "https://collections.vam.ac.uk/search/?q=Persian%20Lacquer"
 ],
 [
@@ -10204,6 +11201,18 @@
 ""
 ]
 ],
+"E2-5": [
+[
+"The Metropolitan Museum of Art",
+104,
+"https://www.metmuseum.org/art/collection/search?q=Raqqa%20Ware"
+],
+[
+"Victoria and Albert Museum",
+24,
+"https://collections.vam.ac.uk/search/?q=Raqqa%20Ware"
+]
+],
 "I1-5": [
 [
 "Victoria and Albert Museum",
@@ -10226,6 +11235,7 @@
 ""
 ]
 ],
+"H1-3": [],
 "H3-4": [
 [
 "The Metropolitan Museum of Art",
@@ -10250,6 +11260,20 @@
 "https://www.metmuseum.org/art/collection/search?q=Nasrid%20Stucco%20%28Yeser%C3%ADa%29"
 ]
 ],
+"H3-3": [
+[
+"The Metropolitan Museum of Art",
+799,
+"https://www.metmuseum.org/art/collection/search?q=Ottoman%20Silk%20Textiles"
+]
+],
+"C1-5": [
+[
+"Wereldmuseum (NMVW)",
+16,
+"https://collectie.wereldculturen.nl/#/query/Diwani"
+]
+],
 "A5-1": [
 [
 "Victoria and Albert Museum",
@@ -10262,18 +11286,6 @@
 "In situ at Qusayr ‘Amra About",
 7,
 ""
-]
-],
-"G2-1": [
-[
-"Victoria and Albert Museum",
-244,
-"https://collections.vam.ac.uk/search/?q=Islamic%20Arms%20and%20Armour"
-],
-[
-"The Metropolitan Museum of Art",
-66,
-"https://www.metmuseum.org/art/collection/search?q=Islamic%20Arms%20and%20Armour"
 ]
 ],
 "E2-2": [
@@ -10319,18 +11331,6 @@
 "Victoria and Albert Museum",
 5,
 "https://collections.vam.ac.uk/search/?q=Persian%20Sgraffito%20Ware"
-]
-],
-"E2-5": [
-[
-"The Metropolitan Museum of Art",
-104,
-"https://www.metmuseum.org/art/collection/search?q=Raqqa%20Ware"
-],
-[
-"Victoria and Albert Museum",
-24,
-"https://collections.vam.ac.uk/search/?q=Raqqa%20Ware"
 ]
 ],
 "E1-7": [
@@ -10388,11 +11388,24 @@
 "https://collections.vam.ac.uk/search/?q=%CA%BFAjami"
 ]
 ],
+"G1-8": [],
 "E2-13": [
 [
 "Victoria and Albert Museum",
 69,
 "https://collections.vam.ac.uk/search/?q=Qallaline%20Tiles"
+]
+],
+"D5-55": [
+[
+"The Metropolitan Museum of Art",
+9421,
+"https://www.metmuseum.org/art/collection/search?q=Ancient%20Egyptian%20Sculpture"
+],
+[
+"Victoria and Albert Museum",
+7,
+"https://collections.vam.ac.uk/search/?q=Ancient%20Egyptian%20Sculpture"
 ]
 ],
 "A5-110": [
@@ -10428,6 +11441,13 @@
 "Smithsonian (NMAA)",
 84,
 "https://asia.si.edu/explore-art-culture/collections/search/?edan_q=Aestheticism"
+]
+],
+"A2-15": [
+[
+"Smithsonian (NMAA)",
+6,
+"https://asia.si.edu/explore-art-culture/collections/search/?edan_q=Buddhists"
 ]
 ],
 "D6-7": [
@@ -10468,7 +11488,7 @@
 "D2-9": [
 [
 "Smithsonian (NMAI)",
-1269,
+1272,
 "https://collections.si.edu/search/results.htm?q=Alaska%20Native%20Ivory%20Carving&fq=data_source%3A%22National+Museum+of+the+American+Indian%22"
 ]
 ],
@@ -10484,12 +11504,17 @@
 "Smithsonian (NMAI)",
 798,
 "https://collections.si.edu/search/results.htm?q=Rivercane%20Basketry&fq=data_source%3A%22National+Museum+of+the+American+Indian%22"
+],
+[
+"Smithsonian (SAAM)",
+6,
+"https://americanart.si.edu/search?query=Rivercane%20Basketry"
 ]
 ],
 "H8-20": [
 [
 "Smithsonian (NMAI)",
-1114,
+1115,
 "https://collections.si.edu/search/results.htm?q=Hopi%20Basketry&fq=data_source%3A%22National+Museum+of+the+American+Indian%22"
 ]
 ],
@@ -10531,7 +11556,7 @@
 "A4-18": [
 [
 "Smithsonian (NMAI)",
-190,
+214,
 "https://collections.si.edu/search/results.htm?q=Plains%20Hide%20Painting&fq=data_source%3A%22National+Museum+of+the+American+Indian%22"
 ]
 ],
@@ -10584,6 +11609,13 @@
 "https://collections.si.edu/search/results.htm?q=Hohokam%20Red-on-Buff%20Ware&fq=data_source%3A%22National+Museum+of+the+American+Indian%22"
 ]
 ],
+"H7-19": [
+[
+"Smithsonian (NMAI)",
+3,
+"https://collections.si.edu/search/results.htm?q=Highland%20Dress&fq=data_source%3A%22National+Museum+of+the+American+Indian%22"
+]
+],
 "E1-73": [
 [
 "Smithsonian (NMAI)",
@@ -10626,6 +11658,7 @@
 "https://collections.si.edu/search/results.htm?q=Valdivia%20Figurines&fq=data_source%3A%22National+Museum+of+the+American+Indian%22"
 ]
 ],
+"H7-22": [],
 "A5-114": [
 [
 "Smithsonian (SAAM)",
@@ -10633,81 +11666,11 @@
 "https://americanart.si.edu/search?query=Orientalism"
 ]
 ],
-"E4-14": [
+"E4-13": [
 [
-"Rijksmuseum",
-50,
-"https://www.rijksmuseum.nl/en/search?q=Dehua%20Porcelain"
-]
-],
-"E4-16": [
-[
-"Rijksmuseum",
-287,
-"https://www.rijksmuseum.nl/en/search?q=Arita%20Ware"
-]
-],
-"E1-22": [
-[
-"Rijksmuseum",
-24,
-"https://www.rijksmuseum.nl/en/search?q=Satsuma%20Ware"
-]
-],
-"E3-34": [
-[
-"Rijksmuseum",
-14,
-"https://www.rijksmuseum.nl/en/search?q=Mino%20Ware"
-]
-],
-"E3-24": [
-[
-"Rijksmuseum",
-10,
-"https://www.rijksmuseum.nl/en/search?q=Karatsu%20Ware"
-]
-],
-"E3-25": [
-[
-"Rijksmuseum",
-5,
-"https://www.rijksmuseum.nl/en/search?q=Hagi%20Ware"
-]
-],
-"E3-18": [
-[
-"Rijksmuseum",
-9,
-"https://www.rijksmuseum.nl/en/search?q=Bizen%20Ware"
-]
-],
-"E3-28": [
-[
-"Rijksmuseum",
-51,
-"https://www.rijksmuseum.nl/en/search?q=Ky%C5%8D%20Ware"
-]
-],
-"E3-15": [
-[
-"Rijksmuseum",
-27,
-"https://www.rijksmuseum.nl/en/search?q=Seto%20Ware"
-]
-],
-"E3-19": [
-[
-"Rijksmuseum",
-7,
-"https://www.rijksmuseum.nl/en/search?q=Shigaraki%20Ware"
-]
-],
-"E3-26": [
-[
-"Rijksmuseum",
-6,
-"https://www.rijksmuseum.nl/en/search?q=Takatori%20Ware"
+"The Metropolitan Museum of Art",
+1230,
+"https://www.metmuseum.org/art/collection/search?q=Chinese%20Export%20Porcelain"
 ]
 ],
 "E4-19": [
@@ -10717,20 +11680,7 @@
 "https://www.rijksmuseum.nl/en/search?q=Hirado%20Ware"
 ]
 ],
-"E4-20": [
-[
-"Rijksmuseum",
-8,
-"https://www.rijksmuseum.nl/en/search?q=Kutani%20Ware"
-]
-],
-"E4-10": [
-[
-"Rijksmuseum",
-653,
-"https://www.rijksmuseum.nl/en/search?q=Jingdezhen%20Porcelain"
-]
-],
+"G1-37": [],
 "H4-91": [
 [
 "Rijksmuseum",
@@ -10762,8 +11712,14 @@
 "Rijksmuseum",
 54,
 "https://www.rijksmuseum.nl/en/search?q=Haute%20Couture%20%26%20Fashion%20Design"
+],
+[
+"Tropenmuseum",
+4,
+"https://collectie.wereldculturen.nl/#/query/Haute%20Couture%20%26%20Fashion%20Design"
 ]
 ],
+"H2-2": [],
 "H4-44": [
 [
 "The Metropolitan Museum of Art",
@@ -10783,6 +11739,95 @@
 "https://www.rijksmuseum.nl/en/search?q=Swatow%20Ware"
 ]
 ],
+"G2-2": [
+[
+"Tropenmuseum",
+1172,
+"https://collectie.wereldculturen.nl/#/query/Kris"
+],
+[
+"Museum Volkenkunde",
+942,
+"https://collectie.wereldculturen.nl/#/query/Kris"
+],
+[
+"Wereldmuseum Rotterdam",
+15,
+"https://collectie.wereldculturen.nl/#/query/Kris"
+]
+],
+"C2-6": [
+[
+"(institution not recorded)",
+879,
+""
+],
+[
+"Digital Repository of Endangered and Affected Manuscripts in Southeast Asia",
+184,
+""
+],
+[
+"British Library",
+143,
+"https://www.bl.uk/manuscripts/Search.aspx?q=Lontar"
+],
+[
+"Leiden University Library",
+137,
+""
+],
+[
+"Manuskrip Nusantara Kementerian Agama Republik Indonesia",
+132,
+""
+],
+[
+"Endangered Archives Programme",
+69,
+""
+],
+[
+"Ministry of Religious Affairs",
+69,
+""
+],
+[
+"Tropenmuseum",
+22,
+"https://collectie.wereldculturen.nl/#/query/Lontar"
+],
+[
+"Gedong Kirtya",
+22,
+""
+],
+[
+"National Library of Indonesia",
+21,
+""
+],
+[
+"Repositori Wanantara",
+14,
+""
+],
+[
+"Balinese Cultural Documentation Library Office",
+7,
+""
+],
+[
+"Balinese Language Center",
+5,
+""
+],
+[
+"Qalamos – Connecting Manuscript Traditions",
+5,
+""
+]
+],
 "A6-12": [
 [
 "Tropenmuseum",
@@ -10795,6 +11840,9 @@
 "https://collectie.wereldculturen.nl/#/query/Tingatinga%20Painting"
 ]
 ],
+"H9-14": [],
+"H10-3": [],
+"H5-2": [],
 "C1-1": [
 [
 "Wereldmuseum Rotterdam",
@@ -10812,6 +11860,88 @@
 "Afrika Museum",
 5,
 "https://collectie.wereldculturen.nl/#/query/Haitian%20Painting"
+]
+],
+"H5-36": [
+[
+"Tropenmuseum",
+4,
+"https://collectie.wereldculturen.nl/#/query/African%20Wax%20Prints"
+]
+],
+"H3-59": [],
+"H7-16": [
+[
+"Tropenmuseum",
+3,
+"https://collectie.wereldculturen.nl/#/query/Qipao"
+]
+],
+"E2-15": [
+[
+"The Metropolitan Museum of Art",
+14849,
+"https://www.metmuseum.org/art/collection/search?q=Egyptian%20Faience"
+]
+],
+"H4-102": [],
+"H3-53": [],
+"I4-6": [],
+"A2-8": [
+[
+"Vanderbilt Museum of Art",
+49,
+""
+],
+[
+"(institution not recorded)",
+33,
+""
+],
+[
+"Tokyo National Museum",
+17,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Yamato-e"
+],
+[
+"Museum Volkenkunde",
+13,
+"https://collectie.wereldculturen.nl/#/query/Yamato-e"
+],
+[
+"Kyoto National Museum",
+5,
+"https://colbase.nich.go.jp/collection_items?locale=en&q=Yamato-e"
+],
+[
+"Museum of the Imperial Collections",
+4,
+""
+],
+[
+"Museum of Fine Arts Boston",
+3,
+""
+]
+],
+"G1-63": [],
+"C4-11": [
+[
+"Museum Volkenkunde",
+1413,
+"https://collectie.wereldculturen.nl/#/query/Kirie"
+],
+[
+"Wereldmuseum Rotterdam",
+243,
+"https://collectie.wereldculturen.nl/#/query/Kirie"
+]
+],
+"B2-21": [
+[
+"Museum Volkenkunde",
+4,
+"https://collectie.wereldculturen.nl/#/query/Japanese"
 ]
 ],
 "D5-17": [
@@ -10948,43 +12078,6 @@
 ""
 ]
 ],
-"A1-20": [
-[
-"Matenadaran",
-1183,
-""
-],
-[
-"Bibliothèque nationale de France",
-350,
-"https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&query=(gallica%20all%20%22Armenian%20Manuscript%20Illumination%22)"
-],
-[
-"Nasser D. Khalili Collection of Islamic Art",
-12,
-""
-],
-[
-"Harvard University",
-7,
-""
-],
-[
-"(institution not recorded)",
-6,
-""
-],
-[
-"Free Library of Philadelphia",
-3,
-""
-],
-[
-"Vassar College",
-3,
-""
-]
-],
 "C1-8": [
 [
 "Bibliothèque nationale de France",
@@ -11015,7 +12108,7 @@
 "C2-29": [
 [
 "Bibliothèque nationale de France",
-6038,
+6039,
 "https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&query=(gallica%20all%20%22Gothic%20Book%20Illustration%22)"
 ],
 [
@@ -11094,14 +12187,14 @@
 ""
 ],
 [
+"Bodleian Library",
+56,
+"https://digital.bodleian.ox.ac.uk/search/?q=Gothic%20Book%20Illustration"
+],
+[
 "Rochester Institute of Technology",
 55,
 ""
-],
-[
-"Bodleian Library",
-53,
-"https://digital.bodleian.ox.ac.uk/search/?q=Gothic%20Book%20Illustration"
 ],
 [
 "Indiana University Bloomington",
@@ -11125,7 +12218,7 @@
 ],
 [
 "(institution not recorded)",
-39,
+41,
 ""
 ],
 [
@@ -11241,145 +12334,6 @@
 ],
 [
 "Burke Library at Union Theological Seminary",
-3,
-""
-]
-],
-"A2-8": [
-[
-"Vanderbilt Museum of Art",
-49,
-""
-],
-[
-"(institution not recorded)",
-33,
-""
-],
-[
-"Tokyo National Museum",
-17,
-"https://colbase.nich.go.jp/collection_items?locale=en&q=Yamato-e"
-],
-[
-"Kyoto National Museum",
-5,
-"https://colbase.nich.go.jp/collection_items?locale=en&q=Yamato-e"
-],
-[
-"Museum of the Imperial Collections",
-4,
-""
-],
-[
-"Museum of Fine Arts Boston",
-3,
-""
-]
-],
-"A1-14": [
-[
-"Bibliothèque nationale de France",
-536,
-"https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&query=(gallica%20all%20%22Nara-ehon%22)"
-],
-[
-"(institution not recorded)",
-93,
-""
-],
-[
-"Cabinet Library",
-29,
-""
-],
-[
-"Tokyo National Museum",
-27,
-"https://colbase.nich.go.jp/collection_items?locale=en&q=Nara-ehon"
-],
-[
-"Kyoto National Museum",
-17,
-"https://colbase.nich.go.jp/collection_items?locale=en&q=Nara-ehon"
-],
-[
-"Tenri Central Library",
-5,
-""
-],
-[
-"Tōyō Bunko",
-5,
-""
-],
-[
-"Nara National Museum",
-5,
-"https://colbase.nich.go.jp/collection_items?locale=en&q=Nara-ehon"
-],
-[
-"University of Pennsylvania",
-5,
-"https://www.penn.museum/collections/search.php?term=Nara-ehon"
-],
-[
-"Gotoh Museum",
-4,
-""
-],
-[
-"Ashikaga School Iseki Library",
-4,
-""
-],
-[
-"Williams College",
-4,
-""
-],
-[
-"Harvard University",
-4,
-""
-],
-[
-"Setagaya Art Museum",
-4,
-""
-],
-[
-"Kyo-U Library",
-3,
-""
-],
-[
-"Koyasan Reihōkan",
-3,
-""
-],
-[
-"Waseda University Library",
-3,
-""
-],
-[
-"National Museum of Japanese History",
-3,
-""
-],
-[
-"Masaki Art Museum",
-3,
-""
-],
-[
-"Daigo-ji Temple",
-3,
-""
-],
-[
-"Ashmolean Museum",
 3,
 ""
 ]
@@ -11569,80 +12523,6 @@
 "Vatican Library",
 12,
 ""
-]
-],
-"C2-6": [
-[
-"(institution not recorded)",
-879,
-""
-],
-[
-"Digital Repository of Endangered and Affected Manuscripts in Southeast Asia",
-184,
-""
-],
-[
-"British Library",
-143,
-"https://www.bl.uk/manuscripts/Search.aspx?q=Lontar"
-],
-[
-"Leiden University Library",
-137,
-""
-],
-[
-"Manuskrip Nusantara Kementerian Agama Republik Indonesia",
-132,
-""
-],
-[
-"Endangered Archives Programme",
-69,
-""
-],
-[
-"Ministry of Religious Affairs",
-69,
-""
-],
-[
-"Gedong Kirtya",
-22,
-""
-],
-[
-"National Library of Indonesia",
-21,
-""
-],
-[
-"Repositori Wanantara",
-14,
-""
-],
-[
-"Balinese Cultural Documentation Library Office",
-7,
-""
-],
-[
-"Balinese Language Center",
-5,
-""
-],
-[
-"Qalamos – Connecting Manuscript Traditions",
-5,
-""
-]
-],
-"C2-8": [
-[
-"Cleveland Museum of Art",
-35,
-"https://www.clevelandart.org/art/collection/search?search=Kammavaca"
 ]
 ],
 "C2-4": [
@@ -12149,13 +13029,6 @@
 "https://www.metmuseum.org/art/collection/search?q=Ancient%20Greek%20Sculpture"
 ]
 ],
-"E4-13": [
-[
-"The Metropolitan Museum of Art",
-1230,
-"https://www.metmuseum.org/art/collection/search?q=Chinese%20Export%20Porcelain"
-]
-],
 "F1-5": [
 [
 "The Metropolitan Museum of Art",
@@ -12282,13 +13155,6 @@
 "https://www.metmuseum.org/art/collection/search?q=Terra%20Sigillata"
 ]
 ],
-"D5-5": [
-[
-"The Metropolitan Museum of Art",
-111,
-"https://www.metmuseum.org/art/collection/search?q=Chola%20Bronzes"
-]
-],
 "H4-45": [
 [
 "The Metropolitan Museum of Art",
@@ -12331,13 +13197,6 @@
 "https://www.metmuseum.org/art/collection/search?q=Hadra%20Vases"
 ]
 ],
-"E2-15": [
-[
-"The Metropolitan Museum of Art",
-14849,
-"https://www.metmuseum.org/art/collection/search?q=Egyptian%20Faience"
-]
-],
 "E1-27": [
 [
 "The Metropolitan Museum of Art",
@@ -12366,20 +13225,6 @@
 "https://www.metmuseum.org/art/collection/search?q=Classical%20Greek%20Sculpture"
 ]
 ],
-"D3-4": [
-[
-"The Metropolitan Museum of Art",
-2044,
-"https://www.metmuseum.org/art/collection/search?q=Chinese%20Snuff%20Bottles"
-]
-],
-"D5-55": [
-[
-"The Metropolitan Museum of Art",
-9421,
-"https://www.metmuseum.org/art/collection/search?q=Ancient%20Egyptian%20Sculpture"
-]
-],
 "D3-7": [
 [
 "The Metropolitan Museum of Art",
@@ -12394,32 +13239,11 @@
 "https://www.metmuseum.org/art/collection/search?q=Mughal%20Jewellery"
 ]
 ],
-"H3-3": [
-[
-"The Metropolitan Museum of Art",
-798,
-"https://www.metmuseum.org/art/collection/search?q=Ottoman%20Silk%20Textiles"
-]
-],
-"H7-2": [
-[
-"The Metropolitan Museum of Art",
-53,
-"https://www.metmuseum.org/art/collection/search?q=Ottoman%20Court%20Dress"
-]
-],
 "H3-2": [
 [
 "The Metropolitan Museum of Art",
 440,
 "https://www.metmuseum.org/art/collection/search?q=Safavid%20Silk%20Textiles"
-]
-],
-"G1-15": [
-[
-"The Metropolitan Museum of Art",
-515,
-"https://www.metmuseum.org/art/collection/search?q=Chinese%20Ritual%20Bronzes"
 ]
 ],
 "E1-36": [
@@ -12448,20 +13272,6 @@
 "The Metropolitan Museum of Art",
 314,
 "https://www.metmuseum.org/art/collection/search?q=Geometric%20Pottery"
-]
-],
-"I2-9": [
-[
-"The Metropolitan Museum of Art",
-94,
-"https://www.metmuseum.org/art/collection/search?q=Maki-e"
-]
-],
-"D5-20": [
-[
-"The Metropolitan Museum of Art",
-32,
-"https://www.metmuseum.org/art/collection/search?q=Haniwa"
 ]
 ],
 "G1-13": [

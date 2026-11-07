@@ -166,6 +166,17 @@
   "I1-31",
   "I1-32",
   "I2-22",
+  "E1-143",
+  "D5-137",
+  "D1-4",
+  "E1-144",
+  "E1-145",
+  "G1-69",
+  "G1-70",
+  "G1-71",
+  "G3-31",
+  "A1-22",
+  "D5-138",
   "H7-23"
  ],
  "va_moved": 3224,
@@ -185,8 +196,8 @@
  "collections": {
   "work_rows_removed": 22666,
   "old_collections_rows": 3075,
-  "leaves": 1493,
-  "institution_rows": 2489,
+  "leaves": 1505,
+  "institution_rows": 2645,
   "artist_leaf_work_rows_removed": 294,
   "sites_kept": 5527
  },
@@ -488,6 +499,12 @@
    "A21-17": "Landscape Film (short)"
   },
   "moved": 23
+ },
+ "structure_fixes": {
+  "see_codes_corrected": 43,
+  "see_codes_unresolved": 25,
+  "loose_titles_sectioned": 37,
+  "leaves_resectioned": 6
  },
  "links": {
   "corrected": 7,

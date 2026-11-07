@@ -1272,8 +1272,8 @@
 "Chantilly Lace": [
 [
 "The Metropolitan Museum of Art",
-8,
-"https://www.metmuseum.org/art/collection/search?q=Chantilly%20Lace"
+43,
+"https://www.metmuseum.org/art/collection/search?q=French%2C%20Chantilly"
 ]
 ],
 "Vadstena Lace": [
@@ -2801,6 +2801,11 @@
 ],
 "Shipibo-Conibo Textiles": [
 [
+"The Metropolitan Museum of Art",
+33,
+"https://www.metmuseum.org/art/collection/search?q=Shipibo-Conibo"
+],
+[
 "Smithsonian (NMAI)",
 31,
 "https://collections.si.edu/search/results.htm?q=Shipibo-Conibo%20Textiles&fq=data_source%3A%22National+Museum+of+the+American+Indian%22"
@@ -3415,6 +3420,398 @@
 "Digital Repository of Endangered and Affected Manuscripts in Southeast Asia",
 19,
 ""
+]
+],
+"Ancient Egyptian Jewellery and Metalwork": [
+[
+"The Metropolitan Museum of Art",
+9080,
+"https://www.metmuseum.org/art/collection/search?q=Egyptian"
+]
+],
+"Ancient Greek Bronzes": [
+[
+"The Metropolitan Museum of Art",
+503,
+"https://www.metmuseum.org/art/collection/search?q=Greek"
+]
+],
+"Seljuk Stucco": [
+[
+"The Metropolitan Museum of Art",
+1856,
+"https://www.metmuseum.org/art/collection/search?q=Seljuq"
+]
+],
+"Roman Metalwork": [
+[
+"The Metropolitan Museum of Art",
+740,
+"https://www.metmuseum.org/art/collection/search?q=Roman"
+]
+],
+"Cypriot Pottery": [
+[
+"The Metropolitan Museum of Art",
+1628,
+"https://www.metmuseum.org/art/collection/search?q=Cypriot"
+]
+],
+"Cypriot Sculpture": [
+[
+"The Metropolitan Museum of Art",
+711,
+"https://www.metmuseum.org/art/collection/search?q=Cypriot"
+]
+],
+"Etruscan Bronzes": [
+[
+"The Metropolitan Museum of Art",
+609,
+"https://www.metmuseum.org/art/collection/search?q=Etruscan"
+]
+],
+"Javanese Hindu-Buddhist Sculpture": [
+[
+"The Metropolitan Museum of Art",
+203,
+"https://www.metmuseum.org/art/collection/search?q=Indonesian%2C%20Java"
+]
+],
+"Sasanian Stamp Seals": [
+[
+"The Metropolitan Museum of Art",
+481,
+"https://www.metmuseum.org/art/collection/search?q=Sasanian"
+]
+],
+"Byzantine Metalwork": [
+[
+"The Metropolitan Museum of Art",
+457,
+"https://www.metmuseum.org/art/collection/search?q=Byzantine"
+]
+],
+"Tibetan Arms and Armour": [
+[
+"The Metropolitan Museum of Art",
+107,
+"https://www.metmuseum.org/art/collection/search?q=Tibetan"
+]
+],
+"Irish Cut Glass": [
+[
+"The Metropolitan Museum of Art",
+89,
+"https://www.metmuseum.org/art/collection/search?q=Irish"
+]
+],
+"Paracas Pottery": [
+[
+"The Metropolitan Museum of Art",
+400,
+"https://www.metmuseum.org/art/collection/search?q=Paracas"
+]
+],
+"Turkmen Jewellery": [
+[
+"The Metropolitan Museum of Art",
+9,
+"https://www.metmuseum.org/art/collection/search?q=Turkmenistan"
+]
+],
+"Lydian Pottery": [
+[
+"The Metropolitan Museum of Art",
+270,
+"https://www.metmuseum.org/art/collection/search?q=Lydian"
+]
+],
+"Laconian Lead Figurines": [
+[
+"The Metropolitan Museum of Art",
+186,
+"https://www.metmuseum.org/art/collection/search?q=Greek%2C%20Laconian"
+]
+],
+"Vicús Metalwork": [
+[
+"The Metropolitan Museum of Art",
+216,
+"https://www.metmuseum.org/art/collection/search?q=Vic%C3%BAs"
+]
+],
+"Bactria-Margiana Metalwork": [
+[
+"The Metropolitan Museum of Art",
+193,
+"https://www.metmuseum.org/art/collection/search?q=Bactria-Margiana%20Archaeological%20Complex"
+]
+],
+"Italic Bronzes": [
+[
+"The Metropolitan Museum of Art",
+130,
+"https://www.metmuseum.org/art/collection/search?q=Italic"
+]
+],
+"Kwoma Bark Painting": [
+[
+"The Metropolitan Museum of Art",
+149,
+"https://www.metmuseum.org/art/collection/search?q=Kwoma"
+]
+],
+"Mezcala Stone Sculpture": [
+[
+"The Metropolitan Museum of Art",
+153,
+"https://www.metmuseum.org/art/collection/search?q=Mezcala"
+]
+],
+"Fon Metal Sculpture": [
+[
+"The Metropolitan Museum of Art",
+101,
+"https://www.metmuseum.org/art/collection/search?q=Fon"
+]
+],
+"Pala Manuscript Painting": [
+[
+"The Metropolitan Museum of Art",
+79,
+"https://www.metmuseum.org/art/collection/search?q=Pala%20period"
+]
+],
+"Batak Sculpture": [
+[
+"The Metropolitan Museum of Art",
+28,
+"https://www.metmuseum.org/art/collection/search?q=Toba%20Batak"
+]
+],
+"Batak Ulos": [
+[
+"The Metropolitan Museum of Art",
+13,
+"https://www.metmuseum.org/art/collection/search?q=Toba%20Batak"
+]
+],
+"Seville Pottery": [
+[
+"The Metropolitan Museum of Art",
+86,
+"https://www.metmuseum.org/art/collection/search?q=Spanish%2C%20Seville"
+]
+],
+"Lyon Silk": [
+[
+"The Metropolitan Museum of Art",
+50,
+"https://www.metmuseum.org/art/collection/search?q=French%2C%20Lyons"
+]
+],
+"Bristol Glass": [
+[
+"The Metropolitan Museum of Art",
+34,
+"https://www.metmuseum.org/art/collection/search?q=British%2C%20Bristol"
+]
+],
+"Nevers Glass Figures": [
+[
+"The Metropolitan Museum of Art",
+26,
+"https://www.metmuseum.org/art/collection/search?q=French%2C%20Nevers"
+]
+],
+"Catalan Glass": [
+[
+"The Metropolitan Museum of Art",
+24,
+"https://www.metmuseum.org/art/collection/search?q=Spanish%2C%20Catalonia"
+]
+],
+"Battala Woodcuts": [
+[
+"The Metropolitan Museum of Art",
+22,
+"https://www.metmuseum.org/art/collection/search?q=Indian%2C%20West%20Bengal"
+]
+],
+"Vienna Porcelain": [
+[
+"The Metropolitan Museum of Art",
+17,
+"https://www.metmuseum.org/art/collection/search?q=Austrian%2C%20Vienna"
+]
+],
+"Sheffield Plate": [
+[
+"The Metropolitan Museum of Art",
+40,
+"https://www.metmuseum.org/art/collection/search?q=British%2C%20Sheffield"
+]
+],
+"Silesian Glass": [
+[
+"The Metropolitan Museum of Art",
+33,
+"https://www.metmuseum.org/art/collection/search?q=German%2C%20Silesia"
+]
+],
+"Qero": [
+[
+"The Metropolitan Museum of Art",
+18,
+"https://www.metmuseum.org/art/collection/search?q=Quechua"
+]
+],
+"Tlatilco Figurines": [
+[
+"The Metropolitan Museum of Art",
+11,
+"https://www.metmuseum.org/art/collection/search?q=Tlatilco"
+]
+],
+"Chupícuaro Figurines": [
+[
+"The Metropolitan Museum of Art",
+32,
+"https://www.metmuseum.org/art/collection/search?q=Chupicuaro"
+]
+],
+"Spitalfields Silk": [
+[
+"The Metropolitan Museum of Art",
+35,
+"https://www.metmuseum.org/art/collection/search?q=British%2C%20Spitalfields"
+]
+],
+"Cupisnique Pottery": [
+[
+"The Metropolitan Museum of Art",
+31,
+"https://www.metmuseum.org/art/collection/search?q=Cupisnique"
+]
+],
+"Guro Sculpture": [
+[
+"The Metropolitan Museum of Art",
+9,
+"https://www.metmuseum.org/art/collection/search?q=Guro"
+]
+],
+"Dayak Sculpture": [
+[
+"The Metropolitan Museum of Art",
+32,
+"https://www.metmuseum.org/art/collection/search?q=Indonesian%2C%20Kalimantan"
+]
+],
+"Thessalian Neolithic Pottery": [
+[
+"The Metropolitan Museum of Art",
+32,
+"https://www.metmuseum.org/art/collection/search?q=Neolithic%2C%20Thessaly"
+]
+],
+"Indian Chromolithographs": [
+[
+"The Metropolitan Museum of Art",
+27,
+"https://www.metmuseum.org/art/collection/search?q=Indian%2C%20Maharashtra"
+]
+],
+"Sarreguemines Pottery": [
+[
+"The Metropolitan Museum of Art",
+29,
+"https://www.metmuseum.org/art/collection/search?q=French%2C%20Sarreguemines"
+]
+],
+"Urartian Metalwork": [
+[
+"The Metropolitan Museum of Art",
+20,
+"https://www.metmuseum.org/art/collection/search?q=Urartian"
+]
+],
+"Harappan Pottery": [
+[
+"The Metropolitan Museum of Art",
+19,
+"https://www.metmuseum.org/art/collection/search?q=Indus%20Early%20Harappan"
+]
+],
+"Korwar": [
+[
+"The Metropolitan Museum of Art",
+6,
+"https://www.metmuseum.org/art/collection/search?q=Cenderawasih%20Bay"
+]
+],
+"Toledo Swords": [
+[
+"The Metropolitan Museum of Art",
+16,
+"https://www.metmuseum.org/art/collection/search?q=Spanish%2C%20Toledo"
+]
+],
+"Engraved Powder Horns": [
+[
+"The Metropolitan Museum of Art",
+21,
+"https://www.metmuseum.org/art/collection/search?q=Colonial%20American"
+]
+],
+"Yaka Sculpture": [
+[
+"The Metropolitan Museum of Art",
+15,
+"https://www.metmuseum.org/art/collection/search?q=Yaka"
+]
+],
+"Kanak Sculpture": [
+[
+"The Metropolitan Museum of Art",
+6,
+"https://www.metmuseum.org/art/collection/search?q=Kanak"
+]
+],
+"Mughal Textiles": [
+[
+"The Metropolitan Museum of Art",
+520,
+"https://www.metmuseum.org/art/collection/search?q=Mughal"
+]
+],
+"Mamluk Pottery": [
+[
+"The Metropolitan Museum of Art",
+785,
+"https://www.metmuseum.org/art/collection/search?q=Mamluk"
+]
+],
+"Predynastic Egyptian Pottery": [
+[
+"The Metropolitan Museum of Art",
+562,
+"https://www.metmuseum.org/art/collection/search?q=Egyptian%20Predynastic%20Period"
+]
+],
+"Gupta Sculpture": [
+[
+"The Metropolitan Museum of Art",
+35,
+"https://www.metmuseum.org/art/collection/search?q=Gupta%20period"
+]
+],
+"Shunga Art": [
+[
+"The Metropolitan Museum of Art",
+5,
+"https://www.metmuseum.org/art/collection/search?q=Indian%20Shunga%20period"
 ]
 ]
 }

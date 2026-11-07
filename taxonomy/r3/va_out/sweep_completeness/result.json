@@ -1,0 +1,693 @@
+{
+ "leaves": {},
+ "new_leaves": [
+  {
+   "key": "CYPPOT",
+   "sub": "E1",
+   "label": "Ancient Cypriot Pottery",
+   "breadth": "medium",
+   "defn": "The pottery of ancient Cyprus from the Chalcolithic to the Cypro-Classical period: Red-on-White and Red Polished handmade wares of the Chalcolithic and Early–Middle Bronze Age, the Late Bronze Age Base Ring and White Slip wares exported across the Levant, and the Iron Age White Painted, Bichrome and Black-on-Red wares with free-field figural jugs and barrel-shaped jugs.",
+   "aliases": "Cypriot pottery; Pottery of ancient Cyprus",
+   "see": "D5 Ancient Cypriot Sculpture; E1-25 Geometric Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Pottery_of_ancient_Cyprus",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Ancient_Cypriot_art",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Cypriot",
+     "The Met collection search: Cypriot",
+     "the Cesnola Collection and other Cypriot objects in the Metropolitan Museum"
+    ],
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Cypriot+pottery",
+     "British Museum collection search: Cypriot pottery",
+     "Cypriot pottery in the British Museum"
+    ]
+   ],
+   "axis": "wares in order of appearance (Chalcolithic to Cypro-Classical), then holding institutions",
+   "kinds": [
+    [
+     "Red-on-White ware",
+     "Sub-types",
+     "Chalcolithic painted pottery, red designs on a light slip",
+     "r3 https://en.wikipedia.org/wiki/Pottery_of_ancient_Cyprus",
+     0
+    ],
+    [
+     "Red Polished ware",
+     "Sub-types",
+     "handmade burnished ware of the Philia phase and Early–Middle Cypriot Bronze Age",
+     "r3 https://en.wikipedia.org/wiki/Philia_culture",
+     0
+    ],
+    [
+     "Base Ring ware",
+     "Sub-types",
+     "Late Cypriot thin-walled handmade ware, widely exported",
+     "r3 https://en.wikipedia.org/wiki/Pottery_of_ancient_Cyprus",
+     0
+    ],
+    [
+     "White Slip ware",
+     "Sub-types",
+     "Late Cypriot ware with dark painted ladder patterns on a white slip",
+     "r3 https://en.wikipedia.org/wiki/Pottery_of_ancient_Cyprus",
+     0
+    ],
+    [
+     "White Painted ware",
+     "Sub-types",
+     "the long-lived painted ware of the Bronze and Iron Ages",
+     "r3 https://en.wikipedia.org/wiki/Pottery_of_ancient_Cyprus",
+     0
+    ],
+    [
+     "Bichrome ware",
+     "Sub-types",
+     "red and black painted ware, Late Bronze and Iron Age",
+     "r3 https://en.wikipedia.org/wiki/Cypriot_Bichrome_ware",
+     0
+    ],
+    [
+     "Barrel-shaped jug",
+     "Sub-types",
+     "Iron Age jug type of eastern Cypriot tombs, 10th century BCE onward",
+     "r3 https://en.wikipedia.org/wiki/Barrel-shaped_jug",
+     0
+    ],
+    [
+     "Free-field style",
+     "Schools & phases",
+     "Cypro-Archaic figural decoration on jugs, birds and figures set free in the field",
+     "r3 https://en.wikipedia.org/wiki/Pottery_of_ancient_Cyprus",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Cypriot Pottery"
+   ]
+  },
+  {
+   "key": "CYPSCU",
+   "sub": "D5",
+   "label": "Ancient Cypriot Sculpture",
+   "breadth": "medium",
+   "defn": "The sculpture of ancient Cyprus: Chalcolithic picrolite cruciform figurines, Bronze Age terracotta plank figures, and the limestone and terracotta votive statues dedicated in the island's sanctuaries from the Cypro-Archaic to the Hellenistic period, in a local style that absorbed Near Eastern, Egyptian and Greek forms.",
+   "aliases": "Cypriot sculpture; Cypro-Archaic sculpture",
+   "see": "E1 Ancient Cypriot Pottery; D5-57 Ancient Greek Sculpture",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Ancient_Cypriot_art",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Cypriot+sculpture",
+     "The Met collection search: Cypriot sculpture",
+     "Cypriot limestone and terracotta sculpture in the Metropolitan Museum (Cesnola Collection)"
+    ],
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Cypriot+sculpture",
+     "British Museum collection search: Cypriot sculpture",
+     "Cypriot sculpture in the British Museum"
+    ]
+   ],
+   "axis": "phases from the Chalcolithic to the Hellenistic period, then holding institutions",
+   "kinds": [
+    [
+     "Cruciform figurines",
+     "Sub-types",
+     "Chalcolithic picrolite and clay figures with outstretched arms",
+     "r3 https://en.wikipedia.org/wiki/Prehistoric_Cyprus",
+     0
+    ],
+    [
+     "Plank figures",
+     "Sub-types",
+     "flat terracotta figures of the Early and Middle Cypriot Bronze Age tombs",
+     "r3 https://en.wikipedia.org/wiki/Ancient_Cypriot_art",
+     0
+    ],
+    [
+     "Cypro-Archaic votive statues",
+     "Schools & phases",
+     "limestone and terracotta votaries of the sanctuaries, 7th–6th century BCE",
+     "r3 https://en.wikipedia.org/wiki/Ancient_Cypriot_art",
+     0
+    ],
+    [
+     "Cypro-Classical and Hellenistic sculpture",
+     "Schools & phases",
+     "votive and funerary sculpture under growing Greek influence",
+     "r3 https://en.wikipedia.org/wiki/Ancient_Cypriot_art",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Cypriot Sculpture"
+   ]
+  },
+  {
+   "key": "SELSTU",
+   "sub": "D1",
+   "label": "Seljuk Stucco",
+   "breadth": "narrow",
+   "defn": "Carved, moulded and painted stucco of the Seljuk lands (11th–13th century): the stucco figures of courtiers, guards and rulers and the ornamented friezes that lined the inner walls of Seljuk palaces, with the stucco revetments of mosques and tombs.",
+   "aliases": "Seljuk stucco figures; Saljuq stucco",
+   "see": "D1-1 Samarra Stucco; K1-6 Seljuk Architecture; E2-1 Seljuk Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Seljuk_stucco_figures",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Seljuq+stucco",
+     "The Met collection search: Seljuq stucco",
+     "Seljuq stucco in the Metropolitan Museum"
+    ]
+   ],
+   "axis": "sub-types (figures, friezes, architectural revetment), then holding institutions",
+   "kinds": [
+    [
+     "Royal and courtly figures",
+     "Sub-types",
+     "standing and seated stucco figures with crowns, caftans and tiraz bands",
+     "r3 https://en.wikipedia.org/wiki/Seljuk_stucco_figures",
+     0
+    ],
+    [
+     "Palace friezes",
+     "Sub-types",
+     "ornamented and figural stucco friezes of palace interiors",
+     "r3 https://en.wikipedia.org/wiki/Seljuk_stucco_figures",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Seljuk Stucco"
+   ]
+  },
+  {
+   "key": "PREPOT",
+   "sub": "E1",
+   "label": "Predynastic Egyptian Pottery",
+   "breadth": "narrow",
+   "defn": "The pottery of prehistoric Upper Egypt, c. 4400–3000 BCE, in Petrie's sequence: Badarian and Naqada black-topped red ware, the White Cross-lined ware of Naqada I, and the Decorated ware of Naqada II–III painted in red on buff marl clay with boats, figures and spirals, with the wavy-handled jars used to date the sequence.",
+   "aliases": "Naqada pottery; Amratian pottery; Gerzean pottery",
+   "see": "E2-15 Egyptian Faience; D5-55 Ancient Egyptian Sculpture",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Naqada_culture",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Ancient_Egyptian_pottery",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Predynastic",
+     "The Met collection search: Predynastic",
+     "Predynastic Egyptian objects in the Metropolitan Museum"
+    ],
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Naqada",
+     "British Museum collection search: Naqada",
+     "Naqada finds in the British Museum"
+    ]
+   ],
+   "axis": "wares in the Badarian–Naqada sequence, then holding institutions",
+   "kinds": [
+    [
+     "Black-topped red ware",
+     "Sub-types",
+     "red burnished pots with blackened rims, Badarian to Naqada II",
+     "r3 https://en.wikipedia.org/wiki/Naqada_I",
+     0
+    ],
+    [
+     "White Cross-lined ware",
+     "Sub-types",
+     "C-ware: red pottery painted with white lines and figures, Naqada I",
+     "r3 https://en.wikipedia.org/wiki/Naqada_I",
+     0
+    ],
+    [
+     "Decorated ware",
+     "Sub-types",
+     "D-ware: buff marl pottery painted in red with boats and figures, Naqada II–III",
+     "r3 https://en.wikipedia.org/wiki/Ancient_Egyptian_pottery",
+     0
+    ],
+    [
+     "Wavy-handled jars",
+     "Sub-types",
+     "the jar type on which Petrie built his sequence dating",
+     "r3 https://en.wikipedia.org/wiki/Ancient_Egyptian_pottery",
+     0
+    ],
+    [
+     "Badarian",
+     "Schools & phases",
+     "c. 4400–4000 BCE",
+     "r3 https://en.wikipedia.org/wiki/Art_of_ancient_Egypt",
+     0
+    ],
+    [
+     "Naqada I (Amratian)",
+     "Schools & phases",
+     "c. 4000–3500 BCE",
+     "r3 https://en.wikipedia.org/wiki/Naqada_I",
+     0
+    ],
+    [
+     "Naqada II–III (Gerzean to Protodynastic)",
+     "Schools & phases",
+     "c. 3500–3000 BCE",
+     "r3 https://en.wikipedia.org/wiki/Naqada_culture",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Predynastic Egyptian Pottery"
+   ]
+  },
+  {
+   "key": "PARPOT",
+   "sub": "E1",
+   "label": "Paracas Pottery",
+   "breadth": "narrow",
+   "defn": "The pottery of the Paracas culture of the south coast of Peru (first millennium BCE): incised vessels painted after firing with resin-based colours, double-spout-and-bridge bottles and feline-face bottles, in geometric, zoomorphic and abstract designs; the forerunner of Nazca polychrome.",
+   "aliases": "Paracas ceramics",
+   "see": "H4-32 Paracas Textiles; E1-48 Nazca Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Paracas_culture",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Paracas",
+     "The Met collection search: Paracas",
+     "Paracas objects in the Metropolitan Museum"
+    ],
+    [
+     "https://www.museolarco.org/",
+     "Museo Larco, Lima",
+     "major Peruvian collection of ancient Andean ceramics, online catalogue"
+    ]
+   ],
+   "axis": "sub-types, then holding institutions",
+   "kinds": [
+    [
+     "Post-fire resin-painted ware",
+     "Sub-types",
+     "incised outlines filled with resin-based colours after firing",
+     "r3 https://en.wikipedia.org/wiki/Paracas_culture",
+     0
+    ],
+    [
+     "Double-spout-and-bridge bottles",
+     "Sub-types",
+     "the characteristic Paracas closed vessel",
+     "r3 https://en.wikipedia.org/wiki/Paracas_culture",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Paracas Pottery"
+   ]
+  },
+  {
+   "key": "BYZSIL",
+   "sub": "G1",
+   "label": "Byzantine Silver",
+   "breadth": "narrow",
+   "defn": "Silver plate of the Byzantine Empire: domestic tableware with classical and biblical scenes (4th–7th century), church silver (chalices, patens, processional crosses) and the imperial control stamps that dated it; about 1,500 plates and crosses survive.",
+   "aliases": "Byzantine silverwork; Byzantine metalwork",
+   "see": "G1-46 Byzantine Enamel; G1-24 Sasanian Silver; D2-8 Byzantine Ivories",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Byzantine_silver",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Byzantine+silver",
+     "The Met collection search: Byzantine silver",
+     "Byzantine silver in the Metropolitan Museum"
+    ],
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Byzantine+silver",
+     "British Museum collection search: Byzantine silver",
+     "Byzantine silver in the British Museum"
+    ]
+   ],
+   "axis": "sub-types (domestic plate, church silver, crosses), then holding institutions",
+   "kinds": [
+    [
+     "Domestic plate",
+     "Sub-types",
+     "dishes and vessels with mythological and biblical scenes, 4th–7th century",
+     "r3 https://en.wikipedia.org/wiki/Byzantine_silver",
+     0
+    ],
+    [
+     "Liturgical silver",
+     "Sub-types",
+     "chalices, patens and church furnishings",
+     "r3 https://en.wikipedia.org/wiki/Byzantine_silver",
+     0
+    ],
+    [
+     "Silver crosses",
+     "Sub-types",
+     "processional and altar crosses",
+     "r3 https://en.wikipedia.org/wiki/Byzantine_silver",
+     0
+    ],
+    [
+     "Imperial control stamps",
+     "Sub-types",
+     "the stamps that regulated and date Byzantine silver",
+     "r3 https://en.wikipedia.org/wiki/Byzantine_silver",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Byzantine Metalwork"
+   ]
+  },
+  {
+   "key": "ETRBRZ",
+   "sub": "G1",
+   "label": "Etruscan Bronzes",
+   "breadth": "medium",
+   "defn": "The cast and hammered bronze work of Etruria (8th–1st century BCE), widely exported in antiquity: votive statuettes, vessels and tripods, candelabra and furniture fittings, chariot and armour fittings; engraved mirrors are G1-25.",
+   "aliases": "Etruscan bronzework; Etruscan metalwork",
+   "see": "G1-25 Etruscan Mirrors; D5-59 Etruscan Sculpture; E1-34 Etruscan Vase Painting",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Etruscan_art",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Etruscan+bronze",
+     "The Met collection search: Etruscan bronze",
+     "Etruscan bronzes in the Metropolitan Museum"
+    ],
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Etruscan+bronze",
+     "British Museum collection search: Etruscan bronze",
+     "Etruscan bronzes in the British Museum"
+    ]
+   ],
+   "axis": "sub-types, then holding institutions",
+   "kinds": [
+    [
+     "Votive statuettes",
+     "Sub-types",
+     "small cast figures dedicated in sanctuaries",
+     "r3 https://en.wikipedia.org/wiki/Etruscan_art",
+     0
+    ],
+    [
+     "Vessels and tripods",
+     "Sub-types",
+     "bronze vessels, stands and tripods for elite use and burial",
+     "r3 https://en.wikipedia.org/wiki/Etruscan_art",
+     0
+    ],
+    [
+     "Candelabra and furniture fittings",
+     "Sub-types",
+     "cast lamp stands and fittings",
+     "r3 https://en.wikipedia.org/wiki/Etruscan_art",
+     0
+    ],
+    [
+     "Chariot and armour fittings",
+     "Sub-types",
+     "hammered bronze chariot panels, helmets and armour",
+     "r3 https://en.wikipedia.org/wiki/Etruscan_art",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Etruscan Bronzes"
+   ]
+  },
+  {
+   "key": "ROMMET",
+   "sub": "G1",
+   "label": "Roman Metalwork",
+   "breadth": "medium",
+   "defn": "Metalwork of the Roman world: the silver tableware known from the great hoards of the late empire, bronze vessels, figurines and household shrine images, and cast fittings for furniture and lamps.",
+   "aliases": "Roman silver; Roman bronzes",
+   "see": "D5-61 Roman Sculpture; F1-3 Roman Glass; G1-46 Byzantine Enamel",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Ancient_Roman_art",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Roman+bronze",
+     "The Met collection search: Roman bronze",
+     "Roman bronzes in the Metropolitan Museum"
+    ],
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Roman+silver",
+     "British Museum collection search: Roman silver",
+     "Roman silver and hoards in the British Museum"
+    ]
+   ],
+   "axis": "sub-types, then holding institutions",
+   "kinds": [
+    [
+     "Silver tableware and hoards",
+     "Sub-types",
+     "dining silver known from late Roman hoards",
+     "r3 https://en.wikipedia.org/wiki/Ancient_Roman_art",
+     0
+    ],
+    [
+     "Bronze vessels",
+     "Sub-types",
+     "cast and hammered bronze vessels",
+     "r3 https://en.wikipedia.org/wiki/Ancient_Roman_art",
+     0
+    ],
+    [
+     "Bronze figurines",
+     "Sub-types",
+     "small cast figures, including household shrine images",
+     "r3 https://en.wikipedia.org/wiki/Ancient_Roman_art",
+     0
+    ],
+    [
+     "Furniture and lamp fittings",
+     "Sub-types",
+     "cast fittings of couches, lamps and stands",
+     "r3 https://en.wikipedia.org/wiki/Ancient_Roman_art",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Roman Metalwork"
+   ]
+  },
+  {
+   "key": "EGYJEW",
+   "sub": "G3",
+   "label": "Ancient Egyptian Jewellery & Amulets",
+   "breadth": "medium",
+   "defn": "The jewellery and amulets of pharaonic Egypt, in gold, silver, semi-precious stones and faience: scarabs and scaraboids, protective amulets of deities and symbols, broad collars, pectorals, rings, bracelets and bead jewellery. Faience as a material and its vessels are E2-15.",
+   "aliases": "Ancient Egyptian jewelry; Egyptian amulets; Scarabs",
+   "see": "E2-15 Egyptian Faience; D5-55 Ancient Egyptian Sculpture",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Art_of_ancient_Egypt",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Egyptian_faience",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Egyptian+amulet",
+     "The Met collection search: Egyptian amulet",
+     "Egyptian amulets and scarabs in the Metropolitan Museum"
+    ],
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Egyptian+jewellery",
+     "British Museum collection search: Egyptian jewellery",
+     "Egyptian jewellery in the British Museum"
+    ]
+   ],
+   "axis": "sub-types, then holding institutions",
+   "kinds": [
+    [
+     "Scarabs and scaraboids",
+     "Sub-types",
+     "the commonest Egyptian amulet, often of faience or steatite",
+     "r3 https://en.wikipedia.org/wiki/Egyptian_faience",
+     0
+    ],
+    [
+     "Protective amulets",
+     "Sub-types",
+     "amulets of deities and symbols worn by the living and the dead",
+     "r3 https://en.wikipedia.org/wiki/Egyptian_faience",
+     0
+    ],
+    [
+     "Collars, pectorals and bead jewellery",
+     "Sub-types",
+     "broad collars, pectorals and strung bead jewellery",
+     "r3 https://en.wikipedia.org/wiki/Art_of_ancient_Egypt",
+     0
+    ],
+    [
+     "Flint jewellery",
+     "Sub-types",
+     "flint bracelets and armlets of the prehistoric to early dynastic periods",
+     "r3 https://en.wikipedia.org/wiki/Ancient_Egyptian_flint_jewelry",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Ancient Egyptian Jewellery and Metalwork"
+   ]
+  },
+  {
+   "key": "PALPNT",
+   "sub": "A1",
+   "label": "Pala Painting",
+   "breadth": "narrow",
+   "defn": "The manuscript painting of Bengal and Bihar under the Pala dynasty (c. 10th–12th century), the earliest surviving Indian book painting: small panels of Buddhist deities and scenes on the palm leaves and painted wooden covers of Buddhist texts, above all the Prajnaparamita; the style was carried on in Nepal and Tibet. The manuscripts as books are C2-5.",
+   "aliases": "Pala manuscript painting; Pala-period painting",
+   "see": "C2-5 Palm-Leaf Manuscripts; D5-4 Pala Art; A4-7 Thangka",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Indian_art",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Palm-leaf_manuscript",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Pala+period+painting",
+     "The Met collection search: Pala period painting",
+     "Pala-period manuscript pages and covers in the Metropolitan Museum"
+    ],
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Pala+manuscript",
+     "British Museum collection search: Pala manuscript",
+     "Pala manuscripts in the British Museum"
+    ]
+   ],
+   "axis": "sub-types (leaf paintings, painted covers), then holding institutions",
+   "kinds": [
+    [
+     "Illustrated palm leaves",
+     "Sub-types",
+     "panels of deities and Buddha-life scenes set into the text of the leaves",
+     "r3 https://en.wikipedia.org/wiki/Palm-leaf_manuscript",
+     0
+    ],
+    [
+     "Painted manuscript covers",
+     "Sub-types",
+     "painted wooden boards that bound the leaves",
+     "r3 https://en.wikipedia.org/wiki/Indian_art",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Pala Manuscript Painting"
+   ]
+  },
+  {
+   "key": "JAVSCU",
+   "sub": "D5",
+   "label": "Classical Javanese Sculpture",
+   "breadth": "medium",
+   "defn": "The Hindu and Buddhist sculpture of Java from the 8th to the 15th century, in stone and in bronze, silver and gold: the Central Javanese period of the Sailendra and Mataram kingdoms (Borobudur, Prambanan) and the East Javanese period of Singhasari and Majapahit (the Prajnaparamita of Java). The temples as buildings are K9-2.",
+   "aliases": "Classical Indonesian sculpture; Hindu-Buddhist art of Java; Central Javanese art; East Javanese art",
+   "see": "K9-2 Candi Architecture; G3-5 Javanese Gold Jewellery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Indonesian_art",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Ancient_monuments_of_Java",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Javanese+sculpture",
+     "The Met collection search: Javanese sculpture",
+     "Javanese sculpture in the Metropolitan Museum"
+    ],
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Java+sculpture",
+     "British Museum collection search: Java sculpture",
+     "Javanese sculpture in the British Museum"
+    ]
+   ],
+   "axis": "periods (Central Javanese, East Javanese), then holding institutions",
+   "kinds": [
+    [
+     "Central Javanese period",
+     "Schools & phases",
+     "8th–10th century, Sailendra and Mataram; Borobudur and Prambanan",
+     "r3 https://en.wikipedia.org/wiki/Ancient_monuments_of_Java",
+     0
+    ],
+    [
+     "East Javanese period",
+     "Schools & phases",
+     "10th–15th century, Kediri, Singhasari and Majapahit",
+     "r3 https://en.wikipedia.org/wiki/Archaeology_of_Indonesia",
+     0
+    ],
+    [
+     "Bronze and precious-metal images",
+     "Sub-types",
+     "cast devotional images, as in the Sambas Treasure and the Wonoboyo Hoard",
+     "r3 https://en.wikipedia.org/wiki/Archaeology_of_Indonesia",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Javanese Hindu-Buddhist Sculpture"
+   ]
+  }
+ ],
+ "moves_out": [],
+ "dropped": []
+}

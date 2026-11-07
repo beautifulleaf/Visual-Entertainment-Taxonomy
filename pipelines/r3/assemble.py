@@ -645,6 +645,65 @@ def build_ft(src, tree, partial, report):
     return M, find
 
 
+
+NATION_RX = r"(?i)\b(american|british|english|us|uk|french|italian|german|spanish|japanese|chinese|hong kong|taiwanese|korean|indian|soviet|russian|mexican|brazilian|argentine|australian|canadian|nordic|scandinavian|european|asian|latin|turkish|iranian|egyptian|nigerian|filipino|thai|polish|czech|hungarian)\b"
+
+
+def fix_structure(tree, MV, MF, report):
+    """Structure audit repairs (2026-11-07, pipelines/r3/structure_audit.py), deterministic only:
+    (1) a 'see' entry that gives a code with a label is pointed at the leaf that carries that label when the code is
+        stale (R3 renumbering) and exactly one leaf of the tab has the label;
+    (2) a title outside every section of an era-sectioned FT leaf goes to the one section whose dates contain its
+        release year (leaves sectioned by setting, such as period drama, are left alone)."""
+    import sys; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from structure_audit import era_range, fold, year
+    st = collections.Counter()
+    for tab in ("va", "ft"):
+        lv = [l for f in tree[tab]["fams"] for s in f["subs"] for l in s["leaves"]]
+        bycode = {l["code"]: l for l in lv}
+        bylab = collections.defaultdict(list)
+        for l in lv: bylab[fold(l["label"])].append(l["code"])
+        for l in lv:
+            see = l.get("see") or ""
+            if not see: continue
+            parts = re.split(r"(;\s*)", see); changed = False
+            for i, p in enumerate(parts):
+                m = re.match(r"^(\s*)([A-N]\d{1,2}-\d{1,3})\s+([^()]+?)(\s*\([^)]*\))?(\.?\s*)$", p)
+                if not m: continue
+                code, lab = m.group(2), m.group(3).strip()
+                cur = bycode.get(code)
+                if cur and (fold(cur["label"]) == fold(lab) or fold(cur["label"]).startswith(fold(lab)) or fold(lab).startswith(fold(cur["label"]))):
+                    continue
+                hits = [c for c in bylab.get(fold(lab), []) if c != l["code"]]
+                if len(hits) == 1:
+                    parts[i] = f"{m.group(1)}{hits[0]} {lab}{m.group(5)}"; changed = True; st["see_codes_corrected"] += 1
+                else:
+                    st["see_codes_unresolved"] += 1
+            if changed: l["see"] = "".join(parts)
+    for f in tree["ft"]["fams"]:
+        for s in f["subs"]:
+            for l in s["leaves"]:
+                secs = l.get("secs") or []
+                if not secs or re.search(r"period|historical|history|war\b|epic|setting|set in", (l["label"] + " " + (l.get("axis") or "")).lower()):
+                    continue
+                rng = [era_range(x) for x in secs]
+                if sum(1 for r in rng if r) < max(2, len(secs) // 2): continue
+                # only where the axis is declared as dates and no section also names a country (dates alone decide)
+                if not re.search(r"\b(era|eras|decade|decades|period|periods|phase|phases|chronolog|by date|earliest first)", (l.get("axis") or "").lower()): continue
+                if any(re.search(NATION_RX, x) for x in secs): continue
+                rows = MF.get(f["code"], {}).get(l["code"], []); moved = 0
+                for r in rows:
+                    i = str(r[8]).strip()
+                    if i.isdigit() and 0 < int(i) <= len(secs): continue
+                    y = year(r[1])
+                    cand = [k for k, g in enumerate(rng) if g and y is not None and g[0] <= y <= g[1]]
+                    if len(cand) == 1:
+                        r[8] = str(cand[0] + 1); moved += 1
+                if moved:
+                    rows.sort(key=lambda k: (int(k[8]) if str(k[8]).isdigit() else 99, str(k[1])))  # as build_ft
+                    st["loose_titles_sectioned"] += moved; st["leaves_resectioned"] += 1
+    report["structure_fixes"] = dict(st)
+
 def fix_links(tree, report):
     """Apply the offline Wikipedia check (taxonomy/r3/wiki_check.csv): known corrections from link_fixes.json;
     other missing article links are dropped when the leaf has another source, else turned into a Wikipedia search
@@ -691,6 +750,7 @@ def main():
     report = {}
     find_va = build_va(src, tree, MV, find_old, report)
     MF, find_ft = build_ft(src, tree, a.partial, report)
+    fix_structure(tree, MV, MF, report)
     fix_links(tree, report)
     rp = os.path.join(R3, "report_r3.html")
     if os.path.exists(rp) and '<h2 id="r3">' not in tree["report"]: tree["report"] += "\n" + open(rp).read()

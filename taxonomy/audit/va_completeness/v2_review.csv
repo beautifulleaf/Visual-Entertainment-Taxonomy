@@ -1,0 +1,11 @@
+label,family,objects,candidate_leaf,decision,reason
+"Greek, Attic",E,15461,E1-27 Black-Figure Pottery; E1-28 Red-Figure Pottery,keep general:E,"key holds black-figure, red-figure, white-ground and plain black-gloss ware; titles (Terracotta kylix, neck-amphora) do not name the technique, so no single leaf holds the whole key"
+China · Song,A,895,A2-2 Northern Landscape Style,keep general:A,"Song painting spans academy gongbi, Northern and Southern Song landscape, Chan and literati painting"
+China · Tang,E,503,E1-20 Tang Sancai,keep general:E,"Tang ceramics include Yue, Xing, Changsha and white wares, not only sancai"
+Korea · Joseon,E,403,E4-15 Joseon White Porcelain,keep general:E,"Joseon ceramics include buncheong and onggi as well as white porcelain"
+"Philippine weaving (pina, Yakan, Kalinga, Ifugao)",H,569,H3-14 Inabel,keep general:H,"label covers pina, Yakan, Kalinga and Ifugao weaving; Inabel is the Ilocos handloom only"
+possibly Zapotec or Mixteca (Mixtec) (archaeological culture) (attributed),G,282,G3-13 Mixtec Goldwork,keep general:G,"attribution is Zapotec or Mixtec, and the key is not only cast gold"
+"possibly Multiple archaeological cultures (attributed), including Ancestral Pueblo (Anasazi): Cibola and Mogollon Traditions",E,254,E1-61 Ancestral Puebloan Pottery,keep general:E,"key mixes Ancestral Puebloan and Mogollon (Mimbres) pottery"
+Wixarika (Huichol),H,247,H9-15 Huichol Art,keep general:H,"records are mostly woven sashes, bags and prayer sticks; the leaf is the beaded and yarn-painting art"
+Comcaac (Seri),H,233,H8-48 Seri Basketry,keep general:H,"records are mostly necklaces; baskets are a minority"
+Guna (Kuna),H,203,H4-33 Mola,keep general:H,"records are mostly baskets and necklaces; molas are a minority"

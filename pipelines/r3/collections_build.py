@@ -60,16 +60,29 @@ def main():
         for r in csv.DictReader(open(f)): M[(r["file"], r["label"], r["family"])] = r["map"].strip()
     LI = collections.defaultdict(lambda: collections.defaultdict(lambda: [0, collections.Counter()]))
     general = collections.Counter(); missing = collections.defaultdict(lambda: [0, collections.Counter()])
+    import sys; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from collections_resolve import Resolver
+    RES = Resolver(); resolved = 0
     with gzip.open(os.path.join(O, "objects_norm.csv.gz"), "rt") as f:
         for r in csv.DictReader(f):
             m = M.get((r["file"], r["label"], r["family"]), "")
             if not m or m.startswith("exclude"): continue
-            if m.startswith("general"): general[m.split(":", 1)[1]] += 1; continue
+            if m.startswith("general"):
+                # an object under a culture-only label still counts for a leaf its own title names (collections_resolve.py)
+                code = RES.resolve(m.split(":", 1)[1], r["label"], r["title"], r["date_begin"])
+                if code:
+                    cell = LI[code][canon(r["institution"]) or "(institution not recorded)"]; cell[0] += 1; cell[1][r["label"]] += 1; resolved += 1
+                else:
+                    general[m.split(":", 1)[1]] += 1
+                continue
             if m.startswith("missing"):
                 x = missing[(m.split(":", 1)[1], r["family"])]; x[0] += 1; x[1][canon(r["institution"])] += 1; continue
             cell = LI[m][canon(r["institution"]) or "(institution not recorded)"]; cell[0] += 1; cell[1][r["label"]] += 1
+    met_missing = collections.defaultdict(collections.Counter)  # tradition -> label -> Met objects
     for r in csv.DictReader(open(os.path.join(O, "in_col_met.csv"))):  # Met/AIC culture counts
         m = M.get((r["file"], r["label"], r["family"]), "")
+        if m.startswith("missing:"):
+            met_missing[m.split(":", 1)[1].strip()][r["label"]] = int(r["objects"]); continue
         if not m or ":" in m or m not in leaves: continue
         L = leaves[m]
         if len(words(r["label"])) < 2 and "," not in r["label"]: continue  # bare culture or period ("Egyptian", "Roman")
@@ -85,12 +98,25 @@ def main():
     json.dump(general, open(os.path.join(O, "family_general.json"), "w"), indent=1)
     mi = collections.defaultdict(collections.Counter)
     for (t, fam), (n, ic) in missing.items(): mi[t].update(ic)
-    json.dump({t: [[i, n, link(i, t)] for i, n in c.most_common(25) if n >= 3] for t, c in mi.items()},
+    # Met-only missing traditions (2026-11-07 completeness audit): the Met's culture labels overlap ("Seljuq" and
+    # "Iranian | Seljuq" are largely the same objects), so the tradition counts its largest single label, not the sum
+    # and a label sharing a word stem with the tradition ("Seljuq" for Seljuk Stucco) is preferred to a bare culture
+    # ("Iranian"); the Met search link queries that label
+    met_q = {}
+    def stems(x): return {w[:4] for w in words(x) if len(w) >= 4}
+    for t, labs in met_missing.items():
+        near = {l: n for l, n in labs.items() if stems(l) & stems(t)} or labs
+        lab, n = max(near.items(), key=lambda x: x[1])
+        if n >= 3:
+            mi[t]["The Metropolitan Museum of Art"] = max(mi[t]["The Metropolitan Museum of Art"], n)
+            met_q[t] = re.sub(r"\s*\|\s*", " ", lab)
+    json.dump({t: [[i, n, link(i, met_q.get(t, t) if i == "The Metropolitan Museum of Art" else t)] for i, n in c.most_common(25) if n >= 3] for t, c in mi.items()},
               open(os.path.join(O, "missing_institutions.json"), "w"), ensure_ascii=False, indent=0)
     with open(os.path.join(O, "missing_traditions.csv"), "w", newline="") as fo:
         w = csv.writer(fo); w.writerow(["tradition", "family", "objects", "institutions", "top_institutions"])
         for (t, fam), (n, ic) in sorted(missing.items(), key=lambda x: -x[1][0]):
             w.writerow([t, fam, n, len(ic), "; ".join(f"{i} ({c})" for i, c in ic.most_common(4))])
+    print("general objects resolved to a leaf by title", resolved)
     print("leaves with holdings", len(out), "| missing traditions", len(missing), "| general by family", dict(general))
 
 def c0(rows): return rows[0][1][1].most_common(1)[0][0] if rows else ""
