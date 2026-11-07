@@ -45,6 +45,25 @@ button{font:inherit;color:inherit}
 .index a{display:flex;justify-content:space-between;gap:8px;padding:3px 6px;border-radius:6px;text-decoration:none;color:var(--ink)}
 .index a:hover{background:var(--chip)}
 .index a.dim{color:var(--muted)}
+.index details>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:2px;border-radius:6px}
+.index details>summary::-webkit-details-marker{display:none}
+.index details>summary:hover{background:var(--chip)}
+.index .tog{flex:none;width:1.2em;text-align:center;color:var(--muted);font-size:.7rem;transition:transform .15s}
+.index details[open]>summary .tog{transform:rotate(90deg)}
+.index summary a{flex:1;min-width:0}
+.index summary a:hover{background:none}
+.index .ixsub{padding-left:1.2em;margin:1px 0 6px}
+.index .ixsub a{font-size:.8rem;padding:2px 6px}
+.index a[aria-current="true"]{background:var(--chip);color:var(--h);font-weight:600}
+.ixq{width:100%;margin:0 0 8px;border:1px solid var(--rule);background:var(--surface);color:var(--ink);border-radius:6px;padding:5px 8px;font:inherit;font-size:.84rem}
+.ixres{margin:0 0 10px!important;padding-bottom:6px!important;border-bottom:1px solid var(--rule)}
+.ixres button{display:grid;grid-template-columns:auto minmax(0,1fr);gap:0 8px;width:100%;text-align:left;border:0;background:none;padding:3px 6px;border-radius:6px;cursor:pointer;font-size:.82rem}
+.ixres button:hover,.ixres button:focus-visible{background:var(--chip)}
+.ixres .code{color:var(--h)}
+.ixres .sl{grid-column:2;font-size:.72rem;color:var(--muted)}
+.ixres .none{font-size:.8rem;color:var(--muted);padding:3px 6px}
+.leaf.flash{box-shadow:0 0 0 2px var(--h)}
+@media (prefers-reduced-motion: reduce){.index .tog{transition:none}}
 .index .n{color:var(--muted);font-variant-numeric:tabular-nums;font-size:.78rem}
 main{min-width:0}
 .lede{max-width:72ch;color:var(--muted);margin:0 0 16px}
@@ -140,13 +159,13 @@ details.key p{margin:5px 0}
 <script>
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const norm=s=>String(s||'').toLowerCase().normalize('NFKD').replace(/[̀-ͯʻʿʾ'’]/g,'');
-let D=null, FIND=null, MEM={}, state={tab:'VA',open:new Set(),hl:null,all:new Set(),f:{c:'',d:'',dir:''}};
+let D=null, FIND=null, MEM={}, state={tab:'VA',open:new Set(),hl:null,all:new Set(),f:{c:'',d:'',dir:''},ixOpen:new Set(),ixq:''};
 try{const t=localStorage.getItem('vet-full-tab'); if(t) state.tab=t;}catch(e){}
 const TABS=[['VA','Visual Art'],['FT','Film & Television'],['KEY','How to place'],['REPORT','Report']];
 const SHOW=300;
 const tabs=document.getElementById('tabs'), main=document.getElementById('main'), idx=document.getElementById('index'), q=document.getElementById('q');
 TABS.forEach(([k,l])=>{const b=document.createElement('button');b.className='tab';b.setAttribute('role','tab');b.dataset.t=k;b.textContent=l;
-  b.onclick=()=>{state.tab=k;state.hl=null;q.value='';try{localStorage.setItem('vet-full-tab',k)}catch(e){};render();window.scrollTo(0,0)};tabs.appendChild(b)});
+  b.onclick=()=>{state.tab=k;state.hl=null;q.value='';state.ixq='';try{localStorage.setItem('vet-full-tab',k)}catch(e){};render();window.scrollTo(0,0)};tabs.appendChild(b)});
 const getJSON=u=>fetch(u).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()});
 getJSON('data/tree.json').then(j=>{D=j;
   const h=location.hash.slice(1); const m=/^(VA|FT)-([A-Z]\d*-\d+)$/.exec(h);
@@ -229,9 +248,11 @@ function renderTree(t){
    ? `<p class="lede">Visual Art is divided by what the work is (its medium), never by region or period. This release holds ${c.leaves.toLocaleString()} leaves in ${c.families_built} of the ${T.fams.length} families, with ${c.kinds.toLocaleString()} entries under them: schools, centres, sub-types, makers, architects, artists and the gathered rows that attest each tradition. Dynasties, periods, places and cultures are filters, not nodes.</p>`
    : `<p class="lede">Film &amp; Television is divided by form (film, television, animation), then by genre, cycle, movement, tradition and format; large leaves are divided into sections along a stated axis. This release places ${c.placed.toLocaleString()} selected titles in ${c.leaves} leaves. Country, decade, format and platform are filters.</p>`;
   if(t==='FT'){ if(!D.ft.fams.every(f=>MEM['FT-'+f.code])){ out+='<p class="lede">Loading the title lists for the filters…</p>'; ftAll().then(render).catch(()=>{}); } else out+=ftFilterBar(); }
-  let ix=`<h3>${t==='VA'?'Visual Art':'Film & Television'}</h3><ol>`;
+  let ix=`<h3>${t==='VA'?'Visual Art':'Film & Television'}</h3><input id="ixq" class="ixq" type="search" placeholder="Jump to a leaf" aria-label="Jump to a leaf by name or code" autocomplete="off" value="${esc(state.ixq)}"><ol id="ixres" class="ixres"${state.ixq.trim().length>=2?'':' hidden'}>${ixResults(t,state.ixq)}</ol><ol>`;
   for(const f of T.fams){
-    ix+=`<li><a href="#${t}-${f.code}" class="${f.nleaves?'':'dim'}"><span>${f.code} ${esc(f.label)}</span><span class="n">${f.nleaves?f.n.toLocaleString():''}</span></a></li>`;
+    const sl=f.subs.filter(s=>s.leaves.length).map(s=>`<li><a href="#${t}-${s.code}" data-ix="${t}-${s.code}"><span>${s.code} ${esc(s.label)}</span><span class="n">${s.n.toLocaleString()}</span></a></li>`).join('');
+    ix+=sl?`<li><details data-fam="${t}-${f.code}"${state.ixOpen.has(t+'-'+f.code)?' open':''}><summary><span class="tog" aria-hidden="true">▶</span><a href="#${t}-${f.code}" data-ix="${t}-${f.code}"><span>${f.code} ${esc(f.label)}</span><span class="n">${f.n.toLocaleString()}</span></a></summary><ol class="ixsub">${sl}</ol></details></li>`
+      :`<li><a href="#${t}-${f.code}" class="dim"><span>${f.code} ${esc(f.label)}</span><span class="n"></span></a></li>`;
     let subs='';
     for(const s of f.subs){
       const lh=s.leaves.map(l=>leafHTML(t,l,f.unit)).join(''); if(t==='FT'&&fOn()&&!lh) continue;
@@ -243,8 +264,38 @@ function renderTree(t){
       ${f.key.length?`<details class="key"><summary>Key to this family (first yes wins)</summary>${f.key.map(p=>`<p>${p}</p>`).join('')}</details>`:''}
       ${subs||'<p class="later">Retired or not yet divided; see the report.</p>'}</section>`;
   }
-  idx.innerHTML=ix+'</ol>'; main.innerHTML=out;
+  idx.innerHTML=ix+'</ol>'; main.innerHTML=out; spy(t);
 }
+/* Contents: jump-to-leaf results, open-family memory, and the current sub-family highlighted while reading */
+function ixResults(t,s){ const n=norm(s.trim()); if(n.length<2) return '';
+  const T=D[t.toLowerCase()], hits=[];
+  for(const f of T.fams) for(const sb of f.subs) for(const l of sb.leaves){
+    const lab=norm(l.label), al=norm(l.aliases||''), code=l.code.toLowerCase();
+    const r=code===n?0:lab.startsWith(n)?1:lab.includes(' '+n)?2:lab.includes(n)?3:al.includes(n)?4:code.startsWith(n)?5:9;
+    if(r<9) hits.push([r,l,sb]); }
+  hits.sort((a,b)=>a[0]-b[0]);
+  return hits.length?hits.slice(0,40).map(([r,l,sb])=>`<li><button type="button" data-jump="${l.code}"><span class="code">${l.code}</span><span>${esc(l.label)}</span><span class="sl">${esc(sb.label)}</span></button></li>`).join('')
+    +(hits.length>40?`<li class="none">${hits.length-40} more; type more of the name</li>`:''):'<li class="none">No leaf matches. Use the finder above for artists, titles and kinds.</li>'; }
+let spyObs=null;
+function spy(t){ if(spyObs) spyObs.disconnect(); if(!('IntersectionObserver' in window)) return;
+  spyObs=new IntersectionObserver(es=>{ for(const e of es){ if(!e.isIntersecting) continue; const id=e.target.id;
+      idx.querySelectorAll('a[aria-current]').forEach(a=>a.removeAttribute('aria-current'));
+      const a=idx.querySelector(`a[data-ix="${id}"]`); if(!a) continue; a.setAttribute('aria-current','true');
+      const d=a.closest('details'); if(d&&!d.open){ d.open=true; }
+      const box=idx.getBoundingClientRect(), r=a.getBoundingClientRect(); if(r.top<box.top||r.bottom>box.bottom) a.scrollIntoView({block:'nearest'}); } },
+    {rootMargin:'-100px 0px -70% 0px'});
+  main.querySelectorAll('.sub[id]').forEach(el=>spyObs.observe(el)); }
+idx.addEventListener('toggle',e=>{const d=e.target; if(d.tagName!=='DETAILS'||!d.dataset.fam) return; if(d.open) state.ixOpen.add(d.dataset.fam); else state.ixOpen.delete(d.dataset.fam);},true);
+idx.addEventListener('click',e=>{
+  const a=e.target.closest('summary a'); if(a){ const d=a.closest('details'); if(d) d.open=true; return; }
+  const b=e.target.closest('[data-jump]'); if(!b) return; const c=b.dataset.jump, t=state.tab;
+  const go=()=>{ const el=document.getElementById(t+'-'+c); if(!el) return; el.scrollIntoView({block:'start'}); el.classList.add('flash'); setTimeout(()=>el.classList.remove('flash'),1600); };
+  if(t==='FT'&&fOn()&&!document.getElementById(t+'-'+c)){ state.f={c:'',d:'',dir:''}; }
+  if(state.open.has(c)){ render(); requestAnimationFrame(go); } else members(t,c).then(()=>{ state.open.add(c); render(); requestAnimationFrame(go); }).catch(()=>{ render(); requestAnimationFrame(go); });
+});
+let ixt; idx.addEventListener('input',e=>{ if(e.target.id!=='ixq') return; state.ixq=e.target.value; clearTimeout(ixt);
+  ixt=setTimeout(()=>{ const r=document.getElementById('ixres'); if(!r) return; r.innerHTML=ixResults(state.tab,state.ixq); r.hidden=state.ixq.trim().length<2; },120); });
+idx.addEventListener('keydown',e=>{ if(e.target.id==='ixq'&&e.key==='Enter'){ const b=idx.querySelector('#ixres [data-jump]'); if(b){ e.preventDefault(); b.click(); } } });
 function renderKey(){
   setHue('VA');
   const part=(t,name)=>{const T=D[t];return `<h2 id="k-${t}">${name}: which family</h2>${T.familyKey.map(p=>`<p>${p}</p>`).join('')}
