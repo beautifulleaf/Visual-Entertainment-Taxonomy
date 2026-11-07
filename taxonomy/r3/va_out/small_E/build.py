@@ -23,7 +23,8 @@ CORE = re.compile(r"ceram|pott|porcel|stoneware|earthenware|fa[iy]ence|terra ?co
 WEAK = re.compile(r"glaz|slip|clay|vase|tile|窯|lustre", re.I)
 NONCER = re.compile(r"\bsilk\b|\bwool\b|cotton|\bpaper\b|parchment|\bglass\b|bronze|copper|brass|silver|lacquer|\bwood|ivory|\bjade|textile|velvet|embroider|\bink\b|leather|basket|\bbone\b|stone\b(?!ware)|marble|響銅|金銅|漆|絹|紙", re.I)
 def is_cer(r):
-    t = r[2] + " " + (r[6] or "") + " " + r[1]
+    ct = r[2].partition(" | ")[2] if r[2].startswith("NODE:") else r[2]
+    t = ct + " " + (r[6] or "") + " " + r[1]
     if r[0] == "east_asia":
         return r[6] in ("ceramics",) or (r[6] == "archaeology" and bool(CORE.search(t)))
     if CORE.search(t): return True
@@ -59,6 +60,7 @@ incised carved moulded molded stamped impressed decorated decoration design desi
 chawan mizusashi chaire tokkuri hanaike kogo kōgō futamono mukozuke mukōzuke sara hachi tsubo kame wan jarra plato olla cuenco vasija cazuela cántaro
 object objects item model tablet sample samples specimen specimens shards waster wasters kiln kilns unknown unidentified miscellaneous container containers food serving drinking
 """.split())
+NONOBJ = re.compile(r"projectile|\bpoint\b|worked stone|\bstone\b|prayer stick|wand|\bpaint\b|\bbeads?\b|smoother|anvil|\btool|scraper|mosaic|inlay|arrow|\bprint\b|engraving|etching|photograph|drawing|textile|basket", re.I)
 DUTCH = re.compile(r"\b(met|van|aardewerken?|schaal|kom|bord|vaas|kan|beker|deksel|kopje|schotel|theepot|beeldje|tegel|scherf|porseleinen|stenen)\b")
 CJK = re.compile(r"[぀-ヿ㐀-鿿가-힯]")
 def clean_title(t):
@@ -200,6 +202,7 @@ for l in inp:
         t = clean_title(r[1])
         if r[0] == "world_extra" and r[4] != "Rijksmuseum": continue     # NMVW records carry Dutch-only titles
         if not descriptive(t, extra): continue
+        if NONOBJ.search(t): continue
         if t.lower() in tseen or t in seen: continue
         tseen.add(t.lower()); cands.append((t, r))
     nworks_all = len(cands)

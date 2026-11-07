@@ -1,4 +1,4 @@
-FIX={"Arco_lamp":"Achille_Castiglioni","Ball_Clock":"George_Nelson_(designer)","Bauhausb%C3%BCcher":"L%C3%A1szl%C3%B3_Moholy-Nagy",
+FIX={"Archizoom":"Archizoom_Associati","AEG":"AEG_(German_company)","David_Carson":"David_Carson_(graphic_designer)","Fritz_Hansen":"Fritz_Hansen_(company)","Josef_Frank":"Josef_Frank_(architect)","Ron_Arad":"Ron_Arad_(industrial_designer)","Tom_Dixon":"Tom_Dixon_(industrial_designer)","William_Golden":"William_Golden_(graphic_designer)","Colin_Forbes":"Colin_Forbes_(graphic_designer)","Alessi_(company)":"Alessi_(Italian_company)","Arco_lamp":"Achille_Castiglioni","Ball_Clock":"George_Nelson_(designer)","Bauhausb%C3%BCcher":"L%C3%A1szl%C3%B3_Moholy-Nagy",
 "Braun_SK_4":"Dieter_Rams","British_Rail_corporate_identity":"Design_Research_Unit","Butterfly_stool":"Sori_Yanagi","Chair_No._14":"Thonet",
 "David_Rowland_(designer)":"David_Rowland_(industrial_designer)","Droog_(design_firm)":"Droog_(company)","Fiat_500_(1957)":"Fiat_500",
 "Flos_(company)":"Flos","Gispen_(company)":"Willem_Hendrik_Gispen","J._%26_J._Kohn":"Jacob_%26_Josef_Kohn","Lockheed_Lounge":"Marc_Newson",
@@ -20,7 +20,7 @@ ALT={"Blow chair (De Pas, D'Urbino, Lomazzi and Scolari, 1967)":"https://www.mom
 "OXO Good Grips peeler (Smart Design, 1990)":"https://www.moma.org/collection/?q=OXO%20Good%20Grips",
 "Spotty chair (Peter Murdoch, 1963)":"https://collections.vam.ac.uk/search/?q=Peter%20Murdoch",
 "Joe chair (De Pas, D'Urbino and Lomazzi, 1970)":"https://www.moma.org/collection/?q=De%20Pas"}
-DROP={"Riki Watanabe","Gustav Siegel","Marcel Kammerer","Ugo La Pietra","Sigurd Persson","Anthon Beeke","Peter Murdoch","Magis",
+DROP={"Kōichi Satō","Riki Watanabe","Gustav Siegel","Marcel Kammerer","Ugo La Pietra","Sigurd Persson","Anthon Beeke","Peter Murdoch","Magis",
 "Costanza lamp (Paolo Rizzatto, 1986)","Forest (Ryuichi Yamashiro, 1955)"}
 SRC={"JAPIND":[["https://en.wikipedia.org/wiki/Sori_Yanagi","Wikipedia"],["https://en.wikipedia.org/wiki/Kenji_Ekuan","Wikipedia"]],
 "JAPGD":[["https://en.wikipedia.org/wiki/Yusaku_Kamekura","Wikipedia"],["https://en.wikipedia.org/wiki/Ikko_Tanaka","Wikipedia"]],
@@ -31,6 +31,9 @@ SRC={"JAPIND":[["https://en.wikipedia.org/wiki/Sori_Yanagi","Wikipedia"],["https
 def apply(out):
     for nl in out["new_leaves"]:
         if nl["key"] in SRC: nl["src"]=SRC[nl["key"]]
+        for x in nl["src"]:
+            t=x[0].split("/wiki/")[1]
+            if t in FIX and FIX[t]: x[0]="https://en.wikipedia.org/wiki/"+FIX[t]
         ks=[]
         for k in nl["kinds"]:
             if k[0] in DROP: continue

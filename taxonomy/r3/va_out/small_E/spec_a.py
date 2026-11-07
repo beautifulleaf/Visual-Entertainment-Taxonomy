@@ -181,7 +181,9 @@ S("E1-35", pat=[r"bucchero"], kw="bucchero", prof=GRK,
   rows=[("Bucchero sottile", "Sub-types", "thin-walled fine bucchero of the 7th c. BC, often incised", "Bucchero", 0),
         ("Bucchero pesante", "Sub-types", "heavy, relief-decorated bucchero of the 6th c. BC, Chiusi and inland Etruria", "Bucchero", 0),
         ("Cerveteri", "Centres & workshops", "Etruscan Caere, the main early centre of bucchero", "Cerveteri", 0),
-        ("Chiusi", "Centres & workshops", "inland Etruscan city, centre of bucchero pesante", "Chiusi", 0)])
+        ("Chiusi", "Centres & workshops", "inland Etruscan city, centre of bucchero pesante", "Chiusi", 0),
+        ("Veii", "Centres & workshops", "southern Etruscan city with early bucchero workshops, 7th c. BC", "Veii", 0),
+        ("Vulci", "Centres & workshops", "Etruscan city whose tombs yielded much bucchero alongside imported Greek vases", "Vulci", 0)])
 S("E1-36", pat=[r"minoan|kamares|knossos|phaistos"], kw="Minoan", prof=GRK, met=["Minoan"],
   rows=[("Vasiliki ware", "Sub-types", "mottled red-black Early Minoan ware from Vasiliki, eastern Crete", "Minoan pottery", 0),
         ("Kamares ware", "Sub-types", "polychrome eggshell-thin Middle Minoan palace ware, c. 2100–1700 BC", "Kamares ware", 0),
