@@ -162,12 +162,6 @@
        "https://en.wikipedia.org/wiki/Korean_drama",
        "Wikipedia"
       ]
-     ],
-     "axis": "by broadcast format: weekend family dramas first, then daily dramas, then family miniseries",
-     "secs": [
-      "Weekend Family Dramas",
-      "Daily Dramas",
-      "Family Miniseries"
      ]
     },
     {
@@ -282,13 +276,12 @@
        "Wikipedia"
       ]
      ],
-     "axis": "by the youth setting: high school first, then university and twenty-something life, idol and music, sport, and period nostalgia last",
+     "axis": "by the youth setting: high school first, then university and twenty-something life, idol and music, and sport last",
      "secs": [
       "High-School Dramas",
       "Campus & Twenty-Something Dramas",
       "Idol & Music Youth Dramas",
-      "Sports Youth Dramas",
-      "Period Youth Dramas"
+      "Sports Youth Dramas"
      ]
     }
    ]
