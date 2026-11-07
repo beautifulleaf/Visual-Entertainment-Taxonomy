@@ -1,0 +1,603 @@
+{
+ "subs": [
+  {
+   "code": "B2",
+   "label": "Korean Drama",
+   "axis": "Axis: by the genre the Korean industry and fandom name: romance forms first (rom-com, office, chaebol, melodrama), then the serial forms (makjang, revenge, family), the historical sageuk, professional and thriller genres, fantasy romance, and school and youth drama last",
+   "leaves": [
+    {
+     "code": "B2-1",
+     "label": "Romantic Comedy (rom-com)",
+     "breadth": "broad",
+     "defn": "A Korean romance series whose engine is comic: mismatched leads, a contrived premise that forces them together, and a happy ending (<i>Coffee Prince</i>, <i>Because This Is My First Life</i>, <i>Hometown Cha-Cha-Cha</i>). A romance set mainly at work goes to B2-2; a rich-heir and poor-heroine romance goes to B2-3; a supernatural premise goes to B2-12.",
+     "aliases": "K-drama rom-com; romcom",
+     "see": "B2-2 Office Romance; B2-3 Chaebol Romance; B2-12 Fantasy Romance",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Romantic_comedy",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Korean_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the premise that throws the couple together: contract and fake relationships first, then cohabitation, disguise, showbiz, mature second chances, small-town healing; genre-hybrid rom-coms last",
+     "secs": [
+      "Contract, Fake-Relationship & Marriage-First Rom-Coms",
+      "Cohabitation & Neighbour Rom-Coms",
+      "Cross-Dressing, Makeover & Disguise Rom-Coms",
+      "Showbiz & Celebrity Rom-Coms",
+      "Thirty-Something & Second-Chance Rom-Coms",
+      "Small-Town & Healing Rom-Coms",
+      "Spy, Crime & Political Rom-Coms"
+     ]
+    },
+    {
+     "code": "B2-2",
+     "label": "Office Romance",
+     "breadth": "medium",
+     "defn": "A Korean romance series set inside a workplace, where the job, hierarchy and colleagues drive the love story (<i>What's Wrong with Secretary Kim</i>, <i>Business Proposal</i>, <i>Pasta</i>, <i>Romance Is a Bonus Book</i>). A series about a profession first and foremost (hospital, court) goes to B2-9 or B2-10.",
+     "aliases": "workplace romance; office rom-com",
+     "see": "B2-1 Romantic Comedy; B2-9 Medical Drama; B2-10 Legal Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Workplace_romance",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Korean_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the workplace: boss-and-secretary hierarchies first, then company ensembles, kitchens and shops, media and creative industries",
+     "secs": [
+      "Boss & Secretary Romances",
+      "Company & Office Ensembles",
+      "Kitchen, Shop & Trade Romances",
+      "Broadcasting, Publishing & Creative-Industry Romances"
+     ]
+    },
+    {
+     "code": "B2-3",
+     "label": "Chaebol Romance",
+     "breadth": "medium",
+     "defn": "A Korean romance built on the class gap between a chaebol (conglomerate) heir or heiress and a poor partner, the \"Candy\" Cinderella formula (<i>Boys over Flowers</i>, <i>Lovers in Paris</i>, <i>The Heirs</i>, <i>Queen of Tears</i>). Chaebol family intrigue with birth secrets and revenge goes to B2-5 Makjang.",
+     "aliases": "Cinderella story; Candy-girl romance; jaebeol romance",
+     "see": "B2-1 Romantic Comedy; B2-5 Makjang Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Chaebol",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Cinderella",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Korean_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by who is rich: the Cinderella form (poor heroine, rich heir) first, then the reverse (heiress and poor man), then royals of an imagined constitutional monarchy",
+     "secs": [
+      "Cinderella (\"Candy\") Romances",
+      "Reverse-Cinderella & Heiress Romances",
+      "Royal & Constitutional-Monarchy Romances"
+     ]
+    },
+    {
+     "code": "B2-4",
+     "label": "Korean Melodrama",
+     "breadth": "broad",
+     "defn": "A Korean romance played for tears or emotional realism rather than laughs: fated or doomed love, illness, love triangles, adultery, or the quiet realism of adult relationships (<i>Winter Sonata</i>, <i>Autumn in My Heart</i>, <i>Something in the Rain</i>, <i>Secret Love Affair</i>). Melodrama of birth secrets, affairs and outrageous plotting goes to B2-5 Makjang.",
+     "aliases": "melo; Hallyu melodrama; trendy drama",
+     "see": "B2-5 Makjang Drama; B2-1 Romantic Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Melodrama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Korean_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by emotional mode, in the order the forms arose: early trendy dramas first, then Hallyu tearjerkers of fate and illness, adult and affair melodramas, the realist and healing romances of the 2010s, and music and arts melodramas last",
+     "secs": [
+      "Classic & Trendy Dramas (to 1999)",
+      "Hallyu Tearjerkers: Fate, First Love & Illness",
+      "Adult & Affair Melodramas",
+      "Realist & Healing Romance Dramas",
+      "Music & Arts Melodramas"
+     ]
+    },
+    {
+     "code": "B2-5",
+     "label": "Makjang Drama",
+     "breadth": "medium",
+     "defn": "A Korean serial built on deliberately outrageous plotting: birth secrets, adultery, amnesia, chaebol family feuds and revenge escalating beyond plausibility (<i>The Penthouse: War in Life</i>, <i>The World of the Married</i>, <i>East of Eden</i>, <i>Money Flower</i>). A weekend family drama without the excess goes to B2-7.",
+     "aliases": "makjang; makjang deurama",
+     "see": "B2-6 Revenge Drama; B2-7 Family Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Makjang_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the engine of the excess: birth-secret and family-feud serials first, then adultery and marriage makjang, then revenge and chaebol-intrigue makjang",
+     "secs": [
+      "Birth-Secret & Family-Feud Makjang",
+      "Adultery & Marriage Makjang",
+      "Revenge & Chaebol-Intrigue Makjang"
+     ]
+    },
+    {
+     "code": "B2-6",
+     "label": "Revenge Drama",
+     "breadth": "narrow",
+     "defn": "A Korean series whose spine is a protagonist's long-planned vengeance, usually wrapped in a romance or melodrama (<i>Green Rose</i>, <i>Don't Look Back: The Legend of Orpheus</i>, <i>Goodbye Mr. Black</i>, <i>Call It Love</i>). Revenge inside an outrageous family serial goes to B2-5 Makjang.",
+     "aliases": "boksu-geuk; revenge melodrama",
+     "see": "B2-5 Makjang Drama; B2-11 Thriller & Mystery Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Korean_drama",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B2-7",
+     "label": "Family Drama (gajok deurama)",
+     "breadth": "medium",
+     "defn": "A Korean series centred on an extended family across generations, typically the long-running weekend family drama or the evening daily drama (<i>My Golden Life</i>, <i>Young Lady and Gentleman</i>, <i>Homemade Love Story</i>). Family serials driven by birth secrets and revenge go to B2-5 Makjang.",
+     "aliases": "weekend drama (jumal deurama); daily drama (ilil deurama); home drama",
+     "see": "B2-5 Makjang Drama; B2-4 Korean Melodrama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Family_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Korean_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by broadcast format: weekend family dramas first, then daily dramas, then family miniseries",
+     "secs": [
+      "Weekend Family Dramas",
+      "Daily Dramas",
+      "Family Miniseries"
+     ]
+    },
+    {
+     "code": "B2-8",
+     "label": "Sageuk (historical drama)",
+     "breadth": "broad",
+     "defn": "A Korean historical drama set in the Joseon, Goryeo or Three Kingdoms periods, or a modern-era period drama of the Korean Empire, the colonial era and the later twentieth century (<i>Jewel in the Palace</i>, <i>Jumong</i>, <i>Moon Embracing the Sun</i>, <i>Mr. Sunshine</i>). A present-day romance with a brief slip into the past goes to B2-12.",
+     "aliases": "sageuk; jeong-geuk (orthodox sageuk); fusion sageuk; daeha drama; sidae-geuk",
+     "see": "B2-12 Fantasy Romance; A8 Historical & Period Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Sageuk",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by mode, from historical fidelity to invention: orthodox jeong-geuk and dynastic epics first, then fusion sageuk of adventure, mystery and comedy, sageuk romance, fantasy, time-slip and horror sageuk, and modern-era period dramas last",
+     "secs": [
+      "Jeong-geuk & Dynastic Epics",
+      "Fusion Sageuk: Adventure, Mystery & Comedy",
+      "Sageuk Romance",
+      "Fantasy, Time-Slip & Horror Sageuk",
+      "Modern-Era Period Dramas (1890s-1990s)"
+     ]
+    },
+    {
+     "code": "B2-9",
+     "label": "Medical Drama",
+     "breadth": "narrow",
+     "defn": "A Korean series set among doctors and hospitals, whose cases and careers drive the story even when a romance runs alongside (<i>Descendants of the Sun</i>, <i>Emergency Couple</i>, <i>Doctor Slump</i>). A psychiatric healing melodrama goes to B2-4.",
+     "aliases": "hospital drama",
+     "see": "B2-2 Office Romance; B2-4 Korean Melodrama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Medical_drama",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B2-10",
+     "label": "Legal Drama",
+     "breadth": "narrow",
+     "defn": "A Korean series set among lawyers, prosecutors and judges, with cases framing the plot (<i>I Hear Your Voice</i>, <i>Suspicious Partner</i>, <i>While You Were Sleeping</i>). A Joseon-era lawyer goes to B2-8 Sageuk.",
+     "aliases": "courtroom drama; beopjeong deurama",
+     "see": "B2-9 Medical Drama; B7 Crime & Thriller Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Legal_drama",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B2-11",
+     "label": "Thriller & Mystery Drama",
+     "breadth": "narrow",
+     "defn": "A Korean series driven by a crime, a mystery or a threat, usually entwined with a love story (<i>The Smile Has Left Your Eyes</i>, <i>When the Phone Rings</i>, <i>The Trunk</i>). A revenge plan as spine goes to B2-6; a police procedural without romance belongs in B7.",
+     "aliases": "romance thriller; mystery melo",
+     "see": "B2-6 Revenge Drama; B7 Crime & Thriller Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Thriller_(genre)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Korean_drama",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B2-12",
+     "label": "Fantasy Romance",
+     "breadth": "broad",
+     "defn": "A Korean romance series whose premise is supernatural or speculative: time slips, immortal beings (goblin, gumiho, grim reaper), body swaps, ghosts, superpowers or a fictional world (<i>Guardian: The Lonely and Great God</i>, <i>My Love from the Star</i>, <i>Lovely Runner</i>, <i>W</i>). A historical drama with fantasy elements goes to B2-8 section 4.",
+     "aliases": "fantasy rom-com; time-slip drama; gumiho drama",
+     "see": "B2-8 Sageuk; B9 Speculative Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Fantasy_romance",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Korean_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the supernatural device: time-slip, time-loop and reincarnation first, then mythical and immortal beings, body swaps and possession, ghosts and the afterlife, superpowers and science-fiction devices, and fictional or webtoon worlds last",
+     "secs": [
+      "Time-Slip, Time-Loop & Reincarnation",
+      "Mythical & Immortal Beings",
+      "Body-Swap, Possession & Transmigration",
+      "Ghosts, Reapers & the Afterlife",
+      "Superpowers & Science-Fiction Devices",
+      "Webtoon, Drama & Fictional-World Romances"
+     ]
+    },
+    {
+     "code": "B2-13",
+     "label": "School & Youth Drama",
+     "breadth": "broad",
+     "defn": "A Korean series about teenagers or people in their early twenties, set in high school, university, idol training or sport, where growing up is the subject (<i>Playful Kiss</i>, <i>Cheese in the Trap</i>, <i>Weightlifting Fairy Kim Bok-joo</i>, <i>Twenty-Five Twenty-One</i>). A rich-heir high-school romance goes to B2-3.",
+     "aliases": "teen drama; hakgyo drama; campus drama; cheongchun drama",
+     "see": "B2-3 Chaebol Romance; B2-1 Romantic Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Teen_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Korean_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the youth setting: high school first, then university and twenty-something life, idol and music, sport, and period nostalgia last",
+     "secs": [
+      "High-School Dramas",
+      "Campus & Twenty-Something Dramas",
+      "Idol & Music Youth Dramas",
+      "Sports Youth Dramas",
+      "Period Youth Dramas"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "B3",
+   "label": "Japanese Television Drama",
+   "axis": "Axis: by the genre or slot tradition Japanese broadcasting names: NHK serial forms first (asadora, taiga), then romance forms (trendy/getsuku, jun'ai, rom-com, office, school romance), then school, home and workplace dramas, gourmet and slice-of-life, and suspense and fantasy last",
+   "leaves": [
+    {
+     "code": "B3-1",
+     "label": "Asadora (Renzoku Terebi Shōsetsu)",
+     "breadth": "narrow",
+     "defn": "An NHK morning serial: some 150 fifteen-minute episodes over six months following a heroine's life, often across decades (<i>Oshin</i>, <i>Amachan</i>, <i>Massan</i>). A family drama in other slots goes to B3-9.",
+     "aliases": "asadora; morning drama; renzoku terebi shosetsu",
+     "see": "B3-2 Taiga Drama; B3-9 Home Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Asadora",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B3-2",
+     "label": "Taiga Drama",
+     "breadth": "narrow",
+     "defn": "NHK's year-long Sunday historical epic, one historical figure or era per year (<i>Atsu Hime</i>, <i>Taira no Kiyomori</i>, <i>What Will You Do, Ieyasu?</i>). Other period dramas belong in A8 or B1.",
+     "aliases": "taiga dorama; jidaigeki",
+     "see": "B3-1 Asadora; A8 Historical & Period Film",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Taiga_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Jidaigeki",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B3-3",
+     "label": "Trendy Drama & Getsuku",
+     "breadth": "medium",
+     "defn": "A Japanese prime-time romance in the trendy-drama tradition: urban young professionals in love, star casts and theme songs, most famously Fuji TV's Monday 9 pm \"getsuku\" slot (<i>Tokyo Love Story</i>, <i>Long Vacation</i>, <i>Beautiful Life</i>, <i>Rich Man, Poor Woman</i>). A late-night or streaming romance goes to B3-4 or B3-5.",
+     "aliases": "torendi dorama; getsuku (Monday nine)",
+     "see": "B3-4 Jun'ai & Romantic Melodrama; B3-5 Romantic Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Trendy_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Getsuku",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by phase of the cycle: bubble-era trendy dramas first, then the getsuku peak, then later getsuku and prime-time romances",
+     "secs": [
+      "Bubble-Era Trendy Dramas (to 1995)",
+      "Getsuku Peak (1996-2009)",
+      "Later Getsuku & Prime-Time Romances (2010-)"
+     ]
+    },
+    {
+     "code": "B3-4",
+     "label": "Jun'ai & Romantic Melodrama",
+     "breadth": "medium",
+     "defn": "A Japanese romance played for tears or for dark adult emotion: pure love against illness or death (jun'ai), forbidden or adulterous love (furin), obsessive love (<i>Crying Out Love, in the Center of the World</i>, <i>Silent</i>, <i>Hirugao</i>, <i>Last Friends</i>). A prime-time trendy romance goes to B3-3.",
+     "aliases": "jun'ai (pure love); furin drama; tearjerker",
+     "see": "B3-3 Trendy Drama & Getsuku; B3-5 Romantic Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Melodrama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Japanese_television_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the obstacle to love: illness, death and pure love first, then adultery and forbidden love, then obsessive and dark romance",
+     "secs": [
+      "Pure-Love & Tearjerker Dramas",
+      "Furin (Adultery) & Forbidden-Love Dramas",
+      "Obsessive & Dark Romances"
+     ]
+    },
+    {
+     "code": "B3-5",
+     "label": "Romantic Comedy (ren'ai komedi)",
+     "breadth": "broad",
+     "defn": "A Japanese romance series whose engine is comic: a contrived arrangement, a marriage hunt, a cohabitation or an oddball heroine, often adapted from josei or TL manga (<i>Tokyo Tarareba Girls</i>, <i>Princess Jellyfish</i>, <i>Densha Otoko</i>, <i>Busu no Hitomi ni Koishiteru</i>). An office love story goes to B3-6; a school romance goes to B3-7.",
+     "aliases": "romcom; rabukome; josei manga adaptation",
+     "see": "B3-6 Office Romance; B3-7 School Romance",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Romantic_comedy",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Japanese_television_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the comic premise: contract and fake marriages first, then marriage-hunting and single life, cohabitation and housekeepers, makeovers and otaku heroines, rich-man Cinderella stories, and Teens' Love late-night romances last",
+     "secs": [
+      "Contract & Fake-Marriage Rom-Coms",
+      "Konkatsu & Single-Life Rom-Coms",
+      "Cohabitation & Housekeeper Rom-Coms",
+      "Makeover, Otaku & Oddball Rom-Coms",
+      "Rich-Man & Cinderella Rom-Coms",
+      "Teens' Love & Late-Night Romances"
+     ]
+    },
+    {
+     "code": "B3-6",
+     "label": "Office Romance (shanai ren'ai)",
+     "breadth": "narrow",
+     "defn": "A Japanese romance set inside a company or workplace, between boss and subordinate or colleagues (<i>Hotaru no Hikari</i>, <i>Oh My Boss! Love Not Included</i>, <i>Kissing the Ring Finger</i>). A drama about the work itself goes to B3-10 Oshigoto Drama.",
+     "aliases": "shanai ren'ai; office love",
+     "see": "B3-10 Oshigoto Drama; B3-5 Romantic Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Workplace_romance",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B3-7",
+     "label": "School Romance (gakuen ren'ai)",
+     "breadth": "medium",
+     "defn": "A Japanese romance among students, mostly live-action adaptations of shōjo manga, set in high school or college (<i>Hana Yori Dango</i>, <i>Itazura na Kiss</i>, <i>Good Morning Call</i>, <i>Ao Haru Ride</i>). A school drama about teachers, delinquents or clubs goes to B3-8.",
+     "aliases": "shōjo manga live-action; seishun ren'ai",
+     "see": "B3-8 School Drama; B3-5 Romantic Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Shōjo_manga",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Japanese_television_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by age and pairing: high-school romances first, then campus and young-adult romances, then teacher-student romances",
+     "secs": [
+      "High-School Romances",
+      "Campus & Young-Adult Romances",
+      "Teacher-Student Romances"
+     ]
+    },
+    {
+     "code": "B3-8",
+     "label": "School Drama (gakuen dorama)",
+     "breadth": "broad",
+     "defn": "A Japanese series set in a school whose subject is the institution itself: the crusading teacher, the delinquent class, bullying, or the school club (<i>GTO</i>, <i>Gokusen</i>, <i>The Queen's Classroom</i>, <i>Rookies</i>). A love story between students goes to B3-7.",
+     "aliases": "gakuen dorama; teacher drama; yankii drama; bukatsu drama",
+     "see": "B3-7 School Romance; B10 Children's Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/School_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Japanese_television_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the engine of the school story: teacher dramas first, then delinquent (yankii) dramas, bullying and dark classroom dramas, school-club and sports dramas, and school comedies last",
+     "secs": [
+      "Teacher Dramas",
+      "Delinquent (Yankii) Dramas",
+      "Bullying & Dark Classroom Dramas",
+      "School-Club & Sports Dramas (bukatsu)",
+      "School Comedies & Coming-of-Age"
+     ]
+    },
+    {
+     "code": "B3-9",
+     "label": "Home Drama (hōmu dorama)",
+     "breadth": "medium",
+     "defn": "A Japanese series about a household: siblings, parents and children, single fathers, a family's illness or hardship (<i>Hitotsu Yane no Shita</i>, <i>Tonbi</i>, <i>One Liter of Tears</i>, <i>Mother</i>). A comedy of everyday eccentricity goes to B3-12.",
+     "aliases": "hōmu dorama; kazoku dorama; Showa home drama",
+     "see": "B3-1 Asadora; B3-12 Slice-of-Life Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Home_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Japanese_television_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by what tests the family: family ensembles first, then parenting and single parents, then illness, disability and hardship",
+     "secs": [
+      "Family Ensemble & Sibling Dramas",
+      "Parenting & Single-Parent Dramas",
+      "Illness, Disability & Hardship Dramas"
+     ]
+    },
+    {
+     "code": "B3-10",
+     "label": "Oshigoto Drama (workplace drama)",
+     "breadth": "broad",
+     "defn": "A Japanese series about a job: the company, the trade, the profession or the industry is the subject (<i>Naoki Hanzawa</i>, <i>Shomuni</i>, <i>The Pride of the Temp</i>, <i>Downtown Rocket</i>). A romance at work goes to B3-6; a cooking or restaurant drama goes to B3-11.",
+     "aliases": "oshigoto dorama; work drama; business drama",
+     "see": "B3-6 Office Romance; B3-11 Gourmet Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Workplace_drama",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Japanese_television_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by the kind of work: corporate and finance first, then office comedies and temps, trades and service professions, media, publishing and entertainment, and medical, legal, care and rescue professions last",
+     "secs": [
+      "Corporate & Finance Dramas",
+      "Office Comedies & Temp Dramas",
+      "Trades & Service Professions",
+      "Media, Publishing & Entertainment",
+      "Medical, Legal, Care & Rescue"
+     ]
+    },
+    {
+     "code": "B3-11",
+     "label": "Gourmet Drama (gurume dorama)",
+     "breadth": "narrow",
+     "defn": "A Japanese series in which food, cooking and eating are the subject, often episodic around one dish per episode (<i>Solitary Gourmet</i>, <i>Midnight Diner</i>, <i>The Makanai: Cooking for the Maiko House</i>). A romance between cooks goes to B3-5 or B3-6.",
+     "aliases": "gurume dorama; meshi-tero drama; food drama",
+     "see": "B3-10 Oshigoto Drama; B3-12 Slice-of-Life Drama",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Kodoku_no_Gurume",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Midnight_Diner",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B3-12",
+     "label": "Slice-of-Life Drama (nichijō)",
+     "breadth": "medium",
+     "defn": "A Japanese series of everyday life with no strong romantic or professional engine: healing (iyashi) rhythms or eccentric small-group comedy (<i>Yuru Camp</i>, <i>Barakamon</i>, <i>Kisarazu Cat's Eye</i>, <i>Tiger and Dragon</i>). A food-centred series goes to B3-11.",
+     "aliases": "nichijō-kei; iyashi-kei drama; comedy-drama",
+     "see": "B3-11 Gourmet Drama; C6 Slice of Life & Iyashikei Anime",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Slice_of_life",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by tone: healing (iyashi) slice of life first, then eccentric-ensemble comedy-drama",
+     "secs": [
+      "Healing (Iyashi) Slice of Life",
+      "Eccentric-Ensemble Comedy-Drama"
+     ]
+    },
+    {
+     "code": "B3-13",
+     "label": "Suspense Drama (sasupensu)",
+     "breadth": "narrow",
+     "defn": "A Japanese series driven by a secret, crime or threat, often a domestic or romantic mystery (<i>I Am Mita, Your Housekeeper</i>, <i>Quartet</i>, <i>Perfect Crime</i>). A detective or police procedural belongs in B7.",
+     "aliases": "sasupensu dorama; kōsatsu (theorising) drama",
+     "see": "B3-4 Jun'ai & Romantic Melodrama; B7 Crime & Thriller Series",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Suspense_(genre)",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Japanese_television_drama",
+       "Wikipedia"
+      ]
+     ]
+    },
+    {
+     "code": "B3-14",
+     "label": "Fantasy & Supernatural Drama",
+     "breadth": "medium",
+     "defn": "A Japanese series whose premise is supernatural or science-fictional, usually framing a romance: a robot or alien lover, a ghost, a time slip, a body swap (<i>Zettai Kareshi</i>, <i>Ima, Ai ni Yukimasu</i>, <i>Q10</i>). Tokusatsu hero shows belong in B9.",
+     "aliases": "fantasy romance; SF drama; tokusatsu-adjacent drama",
+     "see": "B9 Speculative Series; B3-5 Romantic Comedy",
+     "src": [
+      [
+       "https://en.wikipedia.org/wiki/Fantasy_romance",
+       "Wikipedia"
+      ],
+      [
+       "https://en.wikipedia.org/wiki/Japanese_television_drama",
+       "Wikipedia"
+      ]
+     ],
+     "axis": "by what the premise serves: fantasy-premise romances first, then supernatural and science-fiction dramas without a central romance",
+     "secs": [
+      "Fantasy-Premise Romances",
+      "Supernatural & Science-Fiction Dramas"
+     ]
+    }
+   ]
+  }
+ ]
+}

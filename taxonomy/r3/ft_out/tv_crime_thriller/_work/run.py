@@ -67,7 +67,7 @@ def default(r):
     if "hostage" in k or "hijack" in k: return "26.4"
     if "kidnap" in k or "missing" in k or "disappear" in k or "abduct" in k: return "22.1"
     if "hacker" in k or "hacking" in k or "artificial intelligence" in k: return "30"
-    if "conspiracy" in k: return "29"
+    if "conspiracy" in k: return "29.2"
     if "politic" in k or "president" in k or "government" in k: return "28"
     if "high school" in k or "student" in k or "teenager" in k: return "32.1"
     if "game" in k and "death" in k: return "31"
@@ -93,7 +93,7 @@ if __name__ == "__main__":
     by = collections.defaultdict(list)
     for r, c, s in out: by[c].append((r, s))
     def keyf(c):
-        a = c.rstrip("?").split(".")
+        a = c.rstrip("?").replace("ROUTE:B8","99").split(".")
         return (int(a[0]), int(a[1]) if len(a) > 1 and a[1] else 0, c)
     for c in sorted(by, key=keyf):
         if mode == "def":

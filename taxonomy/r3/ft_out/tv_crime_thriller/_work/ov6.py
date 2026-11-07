@@ -80,3 +80,4 @@ put("29.1", "Mammon; Whisper; Bad Banks; Beat; Homecoming; Success; Devils; Inhu
 put("29.2", "Rubicon; Edge of Darkness; The Lone Gunmen; Joker Yurusarezaru Sousakan; The Shadow Line; Crisis; MOZU: Night Cry of the MOZU; The Border; Blindspot; Fearless; The Guardians; Black Earth Rising; Informer; Blacklist; Departure; Nippon Noir: Detective Y's Rebellion")
 put("29.3", "The Last Templar; Chosen; Cult; Dig; The Family; Children of Nobody; Hunters; Messiah; Dan Brown's The Lost Symbol; Wayward")
 put("29.4", "ReGenesis; Utopia; Human; Pill; The Iris Affair")
+put("29.4", "Utopia@2020")

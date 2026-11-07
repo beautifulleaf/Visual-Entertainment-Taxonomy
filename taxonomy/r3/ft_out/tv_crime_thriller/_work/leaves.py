@@ -150,3 +150,16 @@ LEAVES = [
   defn="A thriller in which characters are stranded, trapped or hunted in a hostile place and must survive while a mystery unfolds (<i>The Wilds</i>, <i>The Stranded</i>, <i>Persons Unknown</i>, <i>Jirisan</i>).",
   aliases="mystery-box survival series", see="B7-31 Death Game; B9 Speculative Series", src=S("Survival_film")),
 ]
+
+LEAVES[28]["axis"] = "by the hidden power: corporations and finance, then the state and its security services, then cults and secret societies, then science and medicine"
+LEAVES[28]["secs"] = ["Corporate & Financial Conspiracies", "State & Security-Service Conspiracies", "Cults & Secret Societies", "Scientific & Biomedical Conspiracies"]
+LEAVES[0]["defn"] = "A series whose engine is the investigation itself: detectives, agents or a specialist unit work cases through interviews, evidence and chain of command, usually one case per episode (<i>Law &amp; Order</i>, <i>NCIS</i>, <i>Criminal Minds</i>, <i>Cold Case</i>). A series about the lives of uniformed cops or of bent and undercover officers goes to B7-2; a two-hander built on the partnership to B7-3; a lab-led show to B7-4; a single literary detective to B7-9; a serialised single murder to B7-8."
+LEAVES[0]["see"] = "B7-2 Police Drama; B7-3 Buddy Cop Series; B7-4 Forensic Procedural; B7-8 Whodunit"
+LEAVES[0]["axis"] = "by the unit the series follows: detective squads, federal and specialist units, profilers, cold-case teams, then fantastic-premise procedurals last"
+LEAVES[0]["secs"] = ["Detective Squad Procedurals", "Federal & Specialist Units", "Profiling & Behavioural Units", "Cold-Case Units", "Fantastic-Premise Procedurals"]
+POLICE_DRAMA = dict(label="Police Drama", breadth="medium",
+  defn="A series about the working lives of police officers themselves, the shift, the station, the street and the temptations of the badge, rather than about solving a case (<i>Hill Street Blues</i>, <i>The Bill</i>, <i>The Shield</i>, <i>Line of Duty</i>). A case-driven investigation series goes to B7-1.",
+  aliases="police television drama; cop show", see="B7-1 Police Procedural; B7-3 Buddy Cop Series",
+  src=[["https://en.wikipedia.org/wiki/List_of_police_television_dramas", "Wikipedia"], ["https://en.wikipedia.org/wiki/Police_procedural", "Wikipedia"]],
+  axis="by the officers' world: patrol and precinct ensembles, then undercover and police-corruption dramas",
+  secs=["Patrol & Precinct Ensembles", "Undercover & Police-Corruption Dramas"])
