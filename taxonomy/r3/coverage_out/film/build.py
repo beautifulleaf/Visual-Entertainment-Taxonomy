@@ -36,6 +36,7 @@ for mod, to, sec, title, year, who, tid in items:
     if to not in LEAVES and to not in newkeys: warn.append(f"unknown target {to} ({title})"); continue
     tc = tid or lk(title, year or None, None)
     if tid == "-": tc = ""
+    if tc and tc in PLACED and not PLACED[tc]["leaf"].startswith("A"): warn.append(f"NONFILM match {title} -> {tc} {PLACED[tc]['leaf']}"); continue
     if tc and tc in used:
         warn.append(f"dup {tc} {title} ({used[tc]} vs {to})"); continue
     ss = secs_of(to)

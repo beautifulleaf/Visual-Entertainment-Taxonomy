@@ -54,10 +54,11 @@ def lk(title, year=None, d=None):
     res = []
     for tc in c:
         i = INFO[tc]
-        try: y = int(i["year"])
+        try: y = int(str(i["year"])[:4])
         except (ValueError, TypeError): y = None
         if year and y and abs(y - int(year)) > 1: continue
         if d and i["dir"] and norm(d.split()[-1]) not in norm(i["dir"]): continue
+        if not tc.startswith("tt"): continue
         res.append((tc in PLACED, i["lb"] + i["votes"], tc))
     res.sort(reverse=True)
     return res[0][2] if res else None
