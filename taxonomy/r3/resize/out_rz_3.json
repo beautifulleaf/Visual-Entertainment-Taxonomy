@@ -8667,5 +8667,1375 @@
    ]
   },
   "moves": []
+ },
+ "A19-17": {
+  "defn": "A documentary about rock and pop musicians or their music, built on interviews, archive and backstage footage rather than a complete performance (Dont Look Back, Amy, Searching for Sugar Man, The Decline of Western Civilization). Jazz, blues, roots and world music go to Jazz, Blues & Roots Music Documentary; hip-hop to Hip-Hop Documentary; classical, electronic and experimental music to Classical & Art Music Documentary; a film of a performance to A19-18.",
+  "axis": "by subject: an artist's life, a star's self-portrait or tour, a band or recording, then scenes and movements",
+  "secs": [
+   "Musician Portraits",
+   "Star Self-Portraits & Tour Documentaries",
+   "Bands & Recording Sessions",
+   "Scenes, Movements & Labels"
+  ],
+  "new_leaves": [
+   {
+    "key": "NEW1",
+    "label": "Jazz, Blues & Roots Music Documentary",
+    "breadth": "Documentaries of jazz, blues, gospel, folk-roots and world music traditions",
+    "defn": "A music documentary about jazz, the blues and gospel, American roots music, or a traditional or world-music culture (Thelonious Monk: Straight, No Chaser, Let's Get Lost, Always for Pleasure, Say Amen, Somebody, Buena Vista Social Club). Rock and pop go to Rockumentary.",
+    "aliases": "jazz documentary; roots music documentary; world music documentary",
+    "src": [
+     [
+      "https://en.wikipedia.org/wiki/Roots_music",
+      "Wikipedia"
+     ],
+     [
+      "https://en.wikipedia.org/wiki/Les_Blank",
+      "Wikipedia"
+     ]
+    ],
+    "axis": "by tradition: jazz, then blues, gospel and American roots, then world and traditional music",
+    "secs": [
+     "Jazz",
+     "Blues, Gospel & American Roots",
+     "World & Traditional Music"
+    ]
+   },
+   {
+    "key": "NEW2",
+    "label": "Hip-Hop Documentary",
+    "breadth": "Documentaries of rappers, DJs, crews and hip-hop culture",
+    "defn": "A music documentary about hip-hop — a rapper's life, a crew or label, the history of MCing, DJing and breaking, or a national hip-hop scene (Rhyme & Reason, Scratch, Beats, Rhymes & Life, Time is Illmatic, Slingshot Hip Hop).",
+    "aliases": "rap documentary",
+    "src": [
+     [
+      "https://en.wikipedia.org/wiki/Hip_hop_music",
+      "Wikipedia"
+     ]
+    ],
+    "axis": "by subject: artist portraits, crews and hip-hop history, then hip-hop outside the United States",
+    "secs": [
+     "Artist Portraits",
+     "Crews, Labels & Hip-Hop History",
+     "Global Hip-Hop"
+    ]
+   },
+   {
+    "key": "NEW3",
+    "label": "Classical & Art Music Documentary",
+    "breadth": "Documentaries of composers, classical performers, and electronic and experimental music",
+    "defn": "A music documentary about art music — a composer, a classical performer or conductor, or the pioneers of electronic and experimental sound (A Stravinsky Portrait, Glass: A Portrait of Philip in Twelve Parts, Seymour: An Introduction, Ennio, Theremin: An Electronic Odyssey). A filmed opera or concert goes to A19-18.",
+    "aliases": "classical music documentary; composer documentary",
+    "src": [
+     [
+      "https://en.wikipedia.org/wiki/Classical_music",
+      "Wikipedia"
+     ]
+    ],
+    "axis": "by subject: composers, performers and conductors, then electronic and experimental music",
+    "secs": [
+     "Composers",
+     "Performers & Conductors",
+     "Electronic & Experimental Music"
+    ]
+   }
+  ],
+  "assign": {
+   "tt0189740": [
+    "NEW1",
+    1
+   ],
+   "tspdt:joe-albany-a-jazz-life-1980": [
+    "NEW1",
+    1
+   ],
+   "tspdt:sun-ra-a-joyful-noise-1981": [
+    "NEW1",
+    1
+   ],
+   "tspdt:art-pepper-notes-from-a-jazz-survivor-1982": [
+    "NEW1",
+    1
+   ],
+   "tt0098465": [
+    "NEW1",
+    1
+   ],
+   "tt0095515": [
+    "NEW1",
+    1
+   ],
+   "tspdt:louis-prima-the-wildest-1999": [
+    "NEW1",
+    1
+   ],
+   "tspdt:michel-petrucciani-2011": [
+    "NEW1",
+    1
+   ],
+   "tt2674040": [
+    "NEW1",
+    1
+   ],
+   "tt4170344": [
+    "NEW1",
+    1
+   ],
+   "tspdt:milford-graves-full-mantis-2018": [
+    "NEW1",
+    1
+   ],
+   "tt1305619": [
+    "NEW1",
+    1
+   ],
+   "tt14447458": [
+    "NEW1",
+    1
+   ],
+   "tspdt:max-roach-the-drum-also-waltzes-2023": [
+    "NEW1",
+    1
+   ],
+   "tspdt:the-last-of-the-blue-devils-1980": [
+    "NEW1",
+    1
+   ],
+   "tt0109934": [
+    "NEW1",
+    1
+   ],
+   "tspdt:fire-music-2021": [
+    "NEW1",
+    1
+   ],
+   "tspdt:listening-to-kenny-g-2021": [
+    "NEW1",
+    1
+   ],
+   "tspdt:rewind-play-2022": [
+    "NEW1",
+    1
+   ],
+   "tt0089507": [
+    "NEW1",
+    2
+   ],
+   "tt0067782": [
+    "NEW1",
+    2
+   ],
+   "tspdt:spend-it-all-1972": [
+    "NEW1",
+    2
+   ],
+   "tt0067968": [
+    "NEW1",
+    2
+   ],
+   "tt0070193": [
+    "NEW1",
+    2
+   ],
+   "tspdt:blues-under-the-skin-1973": [
+    "NEW1",
+    2
+   ],
+   "tt0424359": [
+    "NEW1",
+    2
+   ],
+   "tt0074316": [
+    "NEW1",
+    2
+   ],
+   "tt0405963": [
+    "NEW1",
+    2
+   ],
+   "tt0077154": [
+    "NEW1",
+    2
+   ],
+   "tt0086245": [
+    "NEW1",
+    2
+   ],
+   "tt0087465": [
+    "NEW1",
+    2
+   ],
+   "tspdt:why-should-the-devil-have-all-the-good-m-2004": [
+    "NEW1",
+    2
+   ],
+   "tt0368287": [
+    "NEW1",
+    2
+   ],
+   "tspdt:rejoice-and-shout-2010": [
+    "NEW1",
+    2
+   ],
+   "tt0423853": [
+    "NEW1",
+    2
+   ],
+   "tspdt:fela-kuti-music-is-the-weapon-1982": [
+    "NEW1",
+    3
+   ],
+   "tspdt:siddeshwari-1989": [
+    "NEW1",
+    3
+   ],
+   "tspdt:carmen-miranda-bananas-is-my-business-1994": [
+    "NEW1",
+    3
+   ],
+   "tspdt:maria-bethania-do-brasil-2001": [
+    "NEW1",
+    3
+   ],
+   "tspdt:cartola-musica-para-os-olhos-2007": [
+    "NEW1",
+    3
+   ],
+   "tt0339349": [
+    "NEW1",
+    3
+   ],
+   "tt6789126": [
+    "NEW1",
+    3
+   ],
+   "tspdt:e-rocha-e-rio-negro-leo-2020": [
+    "NEW1",
+    3
+   ],
+   "tspdt:andanca-os-encontros-e-as-memorias-de-be-2022": [
+    "NEW1",
+    3
+   ],
+   "tt33336813": [
+    "NEW1",
+    3
+   ],
+   "tspdt:reggae-1971": [
+    "NEW1",
+    3
+   ],
+   "tt0406280": [
+    "NEW1",
+    3
+   ],
+   "tt0108459": [
+    "NEW1",
+    3
+   ],
+   "tt0186508": [
+    "NEW1",
+    3
+   ],
+   "tt0187859": [
+    "NEW1",
+    3
+   ],
+   "tt0276189": [
+    "NEW1",
+    3
+   ],
+   "tspdt:amandia-a-revolution-in-four-part-harmon-2002": [
+    "NEW1",
+    3
+   ],
+   "tt0459242": [
+    "NEW1",
+    3
+   ],
+   "tspdt:when-the-road-bends-tales-of-a-gypsy-car-2006": [
+    "NEW1",
+    3
+   ],
+   "tt0499034": [
+    "NEW1",
+    3
+   ],
+   "tt1597538": [
+    "NEW1",
+    3
+   ],
+   "tspdt:jajouka-something-good-comes-to-you-2012": [
+    "NEW1",
+    3
+   ],
+   "tt1625857": [
+    "NEW1",
+    3
+   ],
+   "tspdt:the-orchestra-of-piazza-vittorio-2006": [
+    "NEW1",
+    3
+   ],
+   "tt4995590": [
+    "NEW1",
+    3
+   ],
+   "tspdt:bob-marley-the-making-of-a-legend-2011": [
+    "NEW1",
+    3
+   ],
+   "tt1183919": [
+    "NEW1",
+    3
+   ],
+   "tspdt:stepping-razor-red-x-1992": [
+    "NEW1",
+    3
+   ],
+   "tt8718814": [
+    "NEW1",
+    3
+   ],
+   "tspdt:bewogen-koper-1993": [
+    "NEW1",
+    3
+   ],
+   "tspdt:the-underground-orchestra-1998": [
+    "NEW1",
+    3
+   ],
+   "tt5045644": [
+    "NEW1",
+    3
+   ],
+   "tt1562360": [
+    "NEW1",
+    3
+   ],
+   "tt1247371": [
+    "NEW2",
+    1
+   ],
+   "tt3549508": [
+    "NEW2",
+    1
+   ],
+   "tt14058484": [
+    "NEW2",
+    1
+   ],
+   "tt3041550": [
+    "NEW2",
+    1
+   ],
+   "tt10856726": [
+    "NEW2",
+    1
+   ],
+   "tt11872780": [
+    "NEW2",
+    1
+   ],
+   "tt38504137": [
+    "NEW2",
+    1
+   ],
+   "tt1464783": [
+    "NEW2",
+    1
+   ],
+   "tt1613023": [
+    "NEW2",
+    2
+   ],
+   "tspdt:the-art-of-organized-noise-2016": [
+    "NEW2",
+    2
+   ],
+   "tt11615290": [
+    "NEW2",
+    2
+   ],
+   "tspdt:beat-this-a-hip-hop-history-tv-1984": [
+    "NEW2",
+    2
+   ],
+   "tspdt:the-show-1995": [
+    "NEW2",
+    2
+   ],
+   "tt0120014": [
+    "NEW2",
+    2
+   ],
+   "tt0262424": [
+    "NEW2",
+    2
+   ],
+   "tt0143861": [
+    "NEW2",
+    2
+   ],
+   "tspdt:freshest-kids-the-video-2002": [
+    "NEW2",
+    2
+   ],
+   "tt2062996": [
+    "NEW2",
+    2
+   ],
+   "tt2475454": [
+    "NEW2",
+    2
+   ],
+   "tt4974396": [
+    "NEW2",
+    2
+   ],
+   "tt22988228": [
+    "NEW2",
+    3
+   ],
+   "tspdt:risky-roadz-volume-1-tha-roadz-are-real-2004": [
+    "NEW2",
+    3
+   ],
+   "tt1157718": [
+    "NEW2",
+    3
+   ],
+   "tt13458600": [
+    "NEW2",
+    3
+   ],
+   "tspdt:a-stravinsky-portrait-1966": [
+    "NEW3",
+    1
+   ],
+   "tspdt:four-american-composers-philip-glass-tv-1983": [
+    "NEW3",
+    1
+   ],
+   "tt1092004": [
+    "NEW3",
+    1
+   ],
+   "tspdt:arvo-part-24-preluudi-uhele-fuugale-2002": [
+    "NEW3",
+    1
+   ],
+   "tt3031654": [
+    "NEW3",
+    1
+   ],
+   "tt26420234": [
+    "NEW3",
+    1
+   ],
+   "tt6578572": [
+    "NEW3",
+    1
+   ],
+   "tt3385404": [
+    "NEW3",
+    1
+   ],
+   "tspdt:nelson-freire-2003": [
+    "NEW3",
+    2
+   ],
+   "tspdt:speaking-in-strings-1999": [
+    "NEW3",
+    2
+   ],
+   "tt2219650": [
+    "NEW3",
+    2
+   ],
+   "tt7364566": [
+    "NEW3",
+    2
+   ],
+   "tspdt:igor-levit-no-fear-2022": [
+    "NEW3",
+    2
+   ],
+   "tspdt:maestra-2023": [
+    "NEW3",
+    2
+   ],
+   "tspdt:kj-music-and-life-2009": [
+    "NEW3",
+    2
+   ],
+   "tt0424509": [
+    "NEW3",
+    2
+   ],
+   "tt0108323": [
+    "NEW3",
+    3
+   ],
+   "tspdt:electro-pythagorus-a-portrait-of-martin--2017": [
+    "NEW3",
+    3
+   ],
+   "tspdt:delia-derbyshire-the-myths-and-legendary-2020": [
+    "NEW3",
+    3
+   ],
+   "tspdt:burning-bridges-the-story-of-paul-burwel-2024": [
+    "NEW3",
+    3
+   ],
+   "tt1168662": [
+    "NEW3",
+    3
+   ],
+   "tspdt:zorn-i-ii-et-iii-2017": [
+    "NEW3",
+    3
+   ],
+   "tt0100692": [
+    "NEW3",
+    3
+   ],
+   "tt0139468": [
+    "NEW3",
+    3
+   ],
+   "tspdt:better-living-through-circuitry-1999": [
+    "NEW3",
+    3
+   ],
+   "tspdt:practical-electronica-2011": [
+    "NEW3",
+    3
+   ],
+   "tspdt:the-echo-of-astro-boy-s-footsteps-2011": [
+    "NEW3",
+    3
+   ],
+   "tt0275623": [
+    "self",
+    3
+   ],
+   "tt0070242": [
+    "self",
+    1
+   ],
+   "tt0071151": [
+    "self",
+    1
+   ],
+   "tspdt:the-little-richard-story-1980": [
+    "self",
+    1
+   ],
+   "tt0107086": [
+    "self",
+    1
+   ],
+   "tspdt:benjamin-smoke-2000": [
+    "self",
+    1
+   ],
+   "tspdt:jandek-on-corwood-2003": [
+    "self",
+    1
+   ],
+   "tt0343107": [
+    "self",
+    1
+   ],
+   "tspdt:let-s-rock-again-2004": [
+    "self",
+    1
+   ],
+   "tt0791268": [
+    "self",
+    1
+   ],
+   "tspdt:no-direction-home-bob-dylan-tv-2005": [
+    "self",
+    1
+   ],
+   "tt0436629": [
+    "self",
+    1
+   ],
+   "tt0436231": [
+    "self",
+    1
+   ],
+   "tt0800099": [
+    "self",
+    1
+   ],
+   "tt0790769": [
+    "self",
+    1
+   ],
+   "tt0486541": [
+    "self",
+    1
+   ],
+   "tspdt:vashti-bunyan-from-here-to-before-2008": [
+    "self",
+    1
+   ],
+   "tspdt:of-all-the-things-2008": [
+    "self",
+    1
+   ],
+   "tt1229360": [
+    "self",
+    1
+   ],
+   "tt1520367": [
+    "self",
+    1
+   ],
+   "tspdt:the-agony-and-the-ecstasy-of-phil-specto-2009": [
+    "self",
+    1
+   ],
+   "tspdt:peter-green-man-of-the-world-tv-2009": [
+    "self",
+    1
+   ],
+   "tspdt:phil-ochs-there-but-for-fortune-2010": [
+    "self",
+    1
+   ],
+   "tt0756727": [
+    "self",
+    1
+   ],
+   "tt1236472": [
+    "self",
+    1
+   ],
+   "tt1113829": [
+    "self",
+    1
+   ],
+   "tspdt:amma-lo-fi-2011": [
+    "self",
+    1
+   ],
+   "tt1821635": [
+    "self",
+    1
+   ],
+   "tspdt:autoluminescent-rowland-s-howard-2011": [
+    "self",
+    1
+   ],
+   "tt1723126": [
+    "self",
+    1
+   ],
+   "tt1796503": [
+    "self",
+    1
+   ],
+   "tt2125608": [
+    "self",
+    1
+   ],
+   "tt1931388": [
+    "self",
+    1
+   ],
+   "tt1785612": [
+    "self",
+    1
+   ],
+   "tt2920540": [
+    "self",
+    1
+   ],
+   "tspdt:i-don-t-believe-in-anarchy-2014": [
+    "self",
+    1
+   ],
+   "tspdt:john-mayer-someday-i-ll-fly-2014": [
+    "self",
+    1
+   ],
+   "tt2049586": [
+    "self",
+    1
+   ],
+   "tt2870648": [
+    "self",
+    1
+   ],
+   "tt4229236": [
+    "self",
+    1
+   ],
+   "tt4284010": [
+    "self",
+    1
+   ],
+   "tspdt:voice-of-the-eagle-the-enigma-of-robbie--2015": [
+    "self",
+    1
+   ],
+   "tt5563330": [
+    "self",
+    1
+   ],
+   "tt7440432": [
+    "self",
+    1
+   ],
+   "tt5740866": [
+    "self",
+    1
+   ],
+   "tt9617716": [
+    "self",
+    1
+   ],
+   "tt10011448": [
+    "self",
+    1
+   ],
+   "tt9358196": [
+    "self",
+    1
+   ],
+   "tt5938950": [
+    "self",
+    1
+   ],
+   "tspdt:karen-dalton-in-my-own-time-2020": [
+    "self",
+    1
+   ],
+   "tt11778272": [
+    "self",
+    1
+   ],
+   "tt8399720": [
+    "self",
+    1
+   ],
+   "tt7206446": [
+    "self",
+    1
+   ],
+   "tt7600742": [
+    "self",
+    1
+   ],
+   "tt7155286": [
+    "self",
+    1
+   ],
+   "tt9883832": [
+    "self",
+    1
+   ],
+   "tspdt:christophe-definitivement-2022": [
+    "self",
+    1
+   ],
+   "tt10196368": [
+    "self",
+    1
+   ],
+   "tt13885492": [
+    "self",
+    1
+   ],
+   "tt26594061": [
+    "self",
+    1
+   ],
+   "tt32138523": [
+    "self",
+    1
+   ],
+   "tt20316978": [
+    "self",
+    1
+   ],
+   "tspdt:teaches-of-peaches-2024": [
+    "self",
+    1
+   ],
+   "tspdt:any-other-way-the-jackie-shane-story-2024": [
+    "self",
+    1
+   ],
+   "tt34385058": [
+    "self",
+    1
+   ],
+   "tt34966650": [
+    "self",
+    1
+   ],
+   "tt33029955": [
+    "self",
+    1
+   ],
+   "tspdt:goodbye-horses-the-many-lives-of-q-lazza-2025": [
+    "self",
+    1
+   ],
+   "tt26931594": [
+    "self",
+    1
+   ],
+   "tspdt:charlie-is-my-darling-1966": [
+    "self",
+    2
+   ],
+   "tt0061589": [
+    "self",
+    2
+   ],
+   "tspdt:don-t-look-back-1967": [
+    "self",
+    2
+   ],
+   "tt0065780": [
+    "self",
+    2
+   ],
+   "tt0068389": [
+    "self",
+    2
+   ],
+   "tt0233629": [
+    "self",
+    2
+   ],
+   "tspdt:rory-gallagher-irish-tour-1974": [
+    "self",
+    2
+   ],
+   "tspdt:journey-through-the-past-1974": [
+    "self",
+    2
+   ],
+   "tspdt:cracked-actor-tv-1975": [
+    "self",
+    2
+   ],
+   "tt0094590": [
+    "self",
+    2
+   ],
+   "tspdt:the-road-to-god-knows-where-1990": [
+    "self",
+    2
+   ],
+   "tt0102370": [
+    "self",
+    2
+   ],
+   "tt0103595": [
+    "self",
+    2
+   ],
+   "tspdt:blur-starshaped-1993": [
+    "self",
+    2
+   ],
+   "tt0120539": [
+    "self",
+    2
+   ],
+   "tt0195909": [
+    "self",
+    2
+   ],
+   "tt1477715": [
+    "self",
+    2
+   ],
+   "tt1487275": [
+    "self",
+    2
+   ],
+   "tspdt:leonard-cohen-bird-on-a-wire-2010": [
+    "self",
+    2
+   ],
+   "tt1702443": [
+    "self",
+    2
+   ],
+   "tt2215719": [
+    "self",
+    2
+   ],
+   "tt2515086": [
+    "self",
+    2
+   ],
+   "tt7291268": [
+    "self",
+    2
+   ],
+   "tt6922018": [
+    "self",
+    2
+   ],
+   "tt10545076": [
+    "self",
+    2
+   ],
+   "tt9577852": [
+    "self",
+    2
+   ],
+   "tt13058290": [
+    "self",
+    2
+   ],
+   "tt11388580": [
+    "self",
+    2
+   ],
+   "tt11459366": [
+    "self",
+    2
+   ],
+   "tt12759142": [
+    "self",
+    2
+   ],
+   "tt21819250": [
+    "self",
+    2
+   ],
+   "tt28865980": [
+    "self",
+    2
+   ],
+   "tt26675252": [
+    "self",
+    2
+   ],
+   "tt28620587": [
+    "self",
+    2
+   ],
+   "tt33034822": [
+    "self",
+    2
+   ],
+   "tt39578551": [
+    "self",
+    2
+   ],
+   "tt37172278": [
+    "self",
+    2
+   ],
+   "tt0063665": [
+    "self",
+    3
+   ],
+   "tt0065976": [
+    "self",
+    3
+   ],
+   "tt0293475": [
+    "self",
+    3
+   ],
+   "tspdt:so-you-wanna-be-a-rock-n-roll-star-tv-1976": [
+    "self",
+    3
+   ],
+   "tt0079400": [
+    "self",
+    3
+   ],
+   "tspdt:ebba-the-movie-1982": [
+    "self",
+    3
+   ],
+   "tspdt:the-weavers-wasn-t-that-a-time-1982": [
+    "self",
+    3
+   ],
+   "tspdt:x-the-unheard-music-1986": [
+    "self",
+    3
+   ],
+   "tspdt:making-of-a-boyband-the-tv-1996": [
+    "self",
+    3
+   ],
+   "tspdt:welcome-to-portishead-1998": [
+    "self",
+    3
+   ],
+   "tt0230334": [
+    "self",
+    3
+   ],
+   "tt0236216": [
+    "self",
+    3
+   ],
+   "tspdt:the-target-shoots-first-2000": [
+    "self",
+    3
+   ],
+   "tt0321711": [
+    "self",
+    3
+   ],
+   "tspdt:mc5-a-true-testimonial-2002": [
+    "self",
+    3
+   ],
+   "tspdt:jack-johnson-the-september-sessions-2002": [
+    "self",
+    3
+   ],
+   "tt0304081": [
+    "self",
+    3
+   ],
+   "tt0327920": [
+    "self",
+    3
+   ],
+   "tt0314725": [
+    "self",
+    3
+   ],
+   "tt0388888": [
+    "self",
+    3
+   ],
+   "tt0387412": [
+    "self",
+    3
+   ],
+   "tt0368711": [
+    "self",
+    3
+   ],
+   "tspdt:the-gits-2005": [
+    "self",
+    3
+   ],
+   "tt0441758": [
+    "self",
+    3
+   ],
+   "tt0446071": [
+    "self",
+    3
+   ],
+   "tt0811136": [
+    "self",
+    3
+   ],
+   "tt1097239": [
+    "self",
+    3
+   ],
+   "tt0965382": [
+    "self",
+    3
+   ],
+   "tt1157605": [
+    "self",
+    3
+   ],
+   "tt1185418": [
+    "self",
+    3
+   ],
+   "tt1379092": [
+    "self",
+    3
+   ],
+   "tt1545103": [
+    "self",
+    3
+   ],
+   "tt1611180": [
+    "self",
+    3
+   ],
+   "tspdt:lawrence-of-belgravia-2011": [
+    "self",
+    3
+   ],
+   "tt1417592": [
+    "self",
+    3
+   ],
+   "tt2064713": [
+    "self",
+    3
+   ],
+   "tt2112868": [
+    "self",
+    3
+   ],
+   "tt2290151": [
+    "self",
+    3
+   ],
+   "tt2396566": [
+    "self",
+    3
+   ],
+   "tt2306745": [
+    "self",
+    3
+   ],
+   "tt2492916": [
+    "self",
+    3
+   ],
+   "tt2737310": [
+    "self",
+    3
+   ],
+   "tt3510654": [
+    "self",
+    3
+   ],
+   "tt3636326": [
+    "self",
+    3
+   ],
+   "tt3265262": [
+    "self",
+    3
+   ],
+   "tt3512486": [
+    "self",
+    3
+   ],
+   "tt1714917": [
+    "self",
+    3
+   ],
+   "tt5213534": [
+    "self",
+    3
+   ],
+   "tt5777628": [
+    "self",
+    3
+   ],
+   "tt2531318": [
+    "self",
+    3
+   ],
+   "tt4143508": [
+    "self",
+    3
+   ],
+   "tt7043176": [
+    "self",
+    3
+   ],
+   "tt9850386": [
+    "self",
+    3
+   ],
+   "tt11394468": [
+    "self",
+    3
+   ],
+   "tt8610436": [
+    "self",
+    3
+   ],
+   "tt7230750": [
+    "self",
+    3
+   ],
+   "tt27726927": [
+    "self",
+    3
+   ],
+   "tt33986138": [
+    "self",
+    3
+   ],
+   "tt27210519": [
+    "self",
+    3
+   ],
+   "tt31922530": [
+    "self",
+    3
+   ],
+   "tt30796448": [
+    "self",
+    3
+   ],
+   "tt10365912": [
+    "self",
+    3
+   ],
+   "tt30253514": [
+    "self",
+    3
+   ],
+   "tt34963797": [
+    "self",
+    3
+   ],
+   "tt36150957": [
+    "self",
+    3
+   ],
+   "tt36971084": [
+    "self",
+    3
+   ],
+   "tspdt:blank-generation-1976": [
+    "self",
+    4
+   ],
+   "tspdt:the-punk-rock-movie-1978": [
+    "self",
+    4
+   ],
+   "tspdt:shellshock-rock-1979": [
+    "self",
+    4
+   ],
+   "tt0082226": [
+    "self",
+    4
+   ],
+   "tt0082252": [
+    "self",
+    4
+   ],
+   "tspdt:rough-cut-and-ready-dubbed-1982": [
+    "self",
+    4
+   ],
+   "tt0198307": [
+    "self",
+    4
+   ],
+   "tt0094980": [
+    "self",
+    4
+   ],
+   "tt0116589": [
+    "self",
+    4
+   ],
+   "tt0138393": [
+    "self",
+    4
+   ],
+   "tspdt:made-in-sheffield-2001": [
+    "self",
+    4
+   ],
+   "tt0461958": [
+    "self",
+    4
+   ],
+   "tt0419434": [
+    "self",
+    4
+   ],
+   "tt0350002": [
+    "self",
+    4
+   ],
+   "tt1092007": [
+    "self",
+    4
+   ],
+   "tt1014809": [
+    "self",
+    4
+   ],
+   "tt1274725": [
+    "self",
+    4
+   ],
+   "tspdt:troubadours-2011": [
+    "self",
+    4
+   ],
+   "tspdt:sound-it-out-2011": [
+    "self",
+    4
+   ],
+   "tt1937419": [
+    "self",
+    4
+   ],
+   "tspdt:the-secret-disco-revolution-2012": [
+    "self",
+    4
+   ],
+   "tspdt:big-gold-dream-2015": [
+    "self",
+    4
+   ],
+   "tspdt:carmine-street-guitars-2018": [
+    "self",
+    4
+   ],
+   "tspdt:river-city-drumbeat-2019": [
+    "self",
+    4
+   ],
+   "tt15004156": [
+    "self",
+    4
+   ],
+   "tt16378298": [
+    "self",
+    4
+   ],
+   "tspdt:the-last-year-of-darkness-2023": [
+    "self",
+    4
+   ],
+   "tspdt:radio-shimo-kajiro-the-songs-that-led-us-2023": [
+    "self",
+    4
+   ],
+   "tt34280353": [
+    "self",
+    4
+   ],
+   "tspdt:twst-things-we-said-today-2024": [
+    "self",
+    4
+   ],
+   "tt31313835": [
+    "self",
+    4
+   ]
+  },
+  "moves": [
+   [
+    "tt0303353",
+    "Biographical Documentary",
+    "portrait of producer Robert Evans; not about music"
+   ]
+  ]
  }
 }
