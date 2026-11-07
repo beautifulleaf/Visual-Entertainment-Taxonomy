@@ -139,15 +139,15 @@ S2: 0 titles fall outside the dates of their era section.
 
 | Tab | Sub-family | Leaves | Entries | Gini | Largest leaf |
 |---|---|---:|---:|---:|---:|
-| VA | A5 Easel Painting | 145 | 19,245 | 0.83 | 31% |
-| VA | D5 Figurative Sculpture | 141 | 4,279 | 0.81 | 38% |
+| VA | A5 Easel Painting | 145 | 19,251 | 0.83 | 31% |
+| VA | D5 Figurative Sculpture | 141 | 4,286 | 0.81 | 38% |
 | VA | H7 Dress & Costume | 23 | 295 | 0.68 | 59% |
 | VA | J1 Photographic Schools & Movements | 18 | 3,110 | 0.68 | 29% |
 | VA | K8 East Asian Architecture | 21 | 528 | 0.68 | 29% |
 | VA | K5 Early Modern European & Colonial Architecture | 24 | 1,285 | 0.68 | 33% |
 | VA | I3 Furniture & Decorative Arts Styles | 24 | 958 | 0.67 | 22% |
 | VA | B1 Drawing | 10 | 1,395 | 0.67 | 56% |
-| VA | B2 Printmaking | 22 | 924 | 0.66 | 26% |
+| VA | B2 Printmaking | 22 | 925 | 0.66 | 26% |
 | VA | L2 Wall Painting | 51 | 779 | 0.66 | 22% |
 | VA | K4 Medieval European Architecture | 13 | 684 | 0.65 | 46% |
 | VA | L1 Rock Art | 42 | 584 | 0.62 | 19% |

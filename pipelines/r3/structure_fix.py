@@ -530,6 +530,25 @@ def apply(tree, MV, MF, report):
                     l["src"] = [[SEARCH + NOSRC[l["code"]].replace(" ", "+"), "Wikipedia search"]]; st["va_sources_added"] += 1
             s["n"] = sum(int(l.get("n") or 0) for l in s["leaves"])
         f["n"] = sum(s["n"] for s in f["subs"])
+    # peoples and cultures from the AAT crosswalk (ref_crosswalk.py): the tree holds their work in these leaves
+    pp = os.path.join(R3, "va_peoples.csv")
+    if os.path.exists(pp):
+        for r in csv.DictReader(open(pp)):
+            rows_ = MV.get(r["leaf"])
+            if rows_ is None or any(fold(x[0]) == fold(r["name"]) for x in rows_): continue
+            rows_.append([r["name"], "Peoples & cultures", f"{int(r['objects']):,} objects of this people in the gathered records",
+                          "r3 http://vocab.getty.edu/page/aat/" + r["aat_id"], 0])
+            st["va_peoples_added"] += 1
+        for f in tree["va"]["fams"]:
+            for s_ in f["subs"]:
+                for l in s_["leaves"]:
+                    rs_ = MV.get(l["code"], [])
+                    if any(x[1] == "Peoples & cultures" for x in rs_):
+                        if isinstance(l.get("secs"), list) and l["secs"] and "Peoples & cultures" not in l["secs"]:
+                            l["secs"].append("Peoples & cultures")
+                    l["n"] = len(rs_)
+                s_["n"] = sum(int(l.get("n") or 0) for l in s_["leaves"])
+            f["n"] = sum(s_["n"] for s_ in f["subs"])
     cv = tree.get("census", {}).get("va")
     if cv is not None: cv["kinds"] = sum(len(v) for v in MV.values())
     # 9 see references, both tabs
