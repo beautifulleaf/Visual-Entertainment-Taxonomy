@@ -38,6 +38,13 @@ SEARCH = [  # (institution name pattern, search URL template with {q})
     (r"^국립|^National Museum of Korea", "https://www.emuseum.go.kr/search?keyword={q}"),
     (r"^National Palace Museum", "https://digitalarchive.npm.gov.tw/Collection/Search?keyword={q}"),
 ]
+def canon(inst):
+    """One row per museum: departments merge into the museum (Smithsonian units are separate museums)."""
+    inst = (inst or "").strip()
+    if inst.startswith("Smithsonian"): return inst
+    if inst in ("V&A",): return "Victoria and Albert Museum"
+    return re.sub(r"\s*\((?:SSEA|EAS|Indian and Southeast Asian Art|[^)]*Department[^)]*)\)$", "", inst)
+
 def link(inst, q):
     for rx, t in SEARCH:
         if re.search(rx, inst or ""): return t.replace("{q}", urllib.parse.quote(q))
@@ -59,8 +66,8 @@ def main():
             if not m or m.startswith("exclude"): continue
             if m.startswith("general"): general[m.split(":", 1)[1]] += 1; continue
             if m.startswith("missing"):
-                x = missing[(m.split(":", 1)[1], r["family"])]; x[0] += 1; x[1][r["institution"]] += 1; continue
-            cell = LI[m][r["institution"] or "(institution not recorded)"]; cell[0] += 1; cell[1][r["label"]] += 1
+                x = missing[(m.split(":", 1)[1], r["family"])]; x[0] += 1; x[1][canon(r["institution"])] += 1; continue
+            cell = LI[m][canon(r["institution"]) or "(institution not recorded)"]; cell[0] += 1; cell[1][r["label"]] += 1
     for r in csv.DictReader(open(os.path.join(O, "in_col_met.csv"))):  # Met/AIC culture counts
         m = M.get((r["file"], r["label"], r["family"]), "")
         if not m or ":" in m or m not in leaves: continue

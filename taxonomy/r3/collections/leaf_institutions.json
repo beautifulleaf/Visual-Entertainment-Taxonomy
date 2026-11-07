@@ -2298,12 +2298,7 @@
 "D5-1": [
 [
 "Victoria and Albert Museum",
-312,
-"https://collections.vam.ac.uk/search/?q=Gandharan%20Art"
-],
-[
-"Victoria and Albert Museum (SSEA)",
-309,
+621,
 "https://collections.vam.ac.uk/search/?q=Gandharan%20Art"
 ],
 [
@@ -2312,19 +2307,14 @@
 "https://www.artic.edu/collection?q=Gandharan%20Art"
 ],
 [
+"Cleveland Museum of Art",
+59,
+"https://www.clevelandart.org/art/collection/search?search=Gandharan%20Art"
+],
+[
 "Private",
 38,
 "https://www.himalayanart.org/search/results.cfm?searchterm=Gandharan%20Art"
-],
-[
-"Cleveland Museum of Art (Indian and Southeast Asian Art)",
-33,
-"https://www.clevelandart.org/art/collection/search?search=Gandharan%20Art"
-],
-[
-"Cleveland Museum of Art",
-26,
-"https://www.clevelandart.org/art/collection/search?search=Gandharan%20Art"
 ],
 [
 "Rubin Museum of Art",
@@ -2408,23 +2398,13 @@
 "https://www.himalayanart.org/search/results.cfm?searchterm=Kashmiri%20Bronzes"
 ],
 [
-"Cleveland Museum of Art (Indian and Southeast Asian Art)",
-21,
-"https://www.clevelandart.org/art/collection/search?search=Kashmiri%20Bronzes"
-],
-[
 "Cleveland Museum of Art",
-12,
+33,
 "https://www.clevelandart.org/art/collection/search?search=Kashmiri%20Bronzes"
-],
-[
-"Victoria and Albert Museum (SSEA)",
-9,
-"https://collections.vam.ac.uk/search/?q=Kashmiri%20Bronzes"
 ],
 [
 "Victoria and Albert Museum",
-6,
+15,
 "https://collections.vam.ac.uk/search/?q=Kashmiri%20Bronzes"
 ],
 [
@@ -2623,19 +2603,14 @@
 ],
 "D5-9": [
 [
-"Victoria and Albert Museum (SSEA)",
-153,
+"Victoria and Albert Museum",
+258,
 "https://collections.vam.ac.uk/search/?q=Nepalese%20Sculpture"
 ],
 [
 "Private",
 109,
 "https://www.himalayanart.org/search/results.cfm?searchterm=Nepalese%20Sculpture"
-],
-[
-"Victoria and Albert Museum",
-105,
-"https://collections.vam.ac.uk/search/?q=Nepalese%20Sculpture"
 ],
 [
 "The Metropolitan Museum of Art",
@@ -2648,8 +2623,8 @@
 "https://www.artic.edu/collection?q=Nepalese%20Sculpture"
 ],
 [
-"Cleveland Museum of Art (Indian and Southeast Asian Art)",
-42,
+"Cleveland Museum of Art",
+49,
 "https://www.clevelandart.org/art/collection/search?search=Nepalese%20Sculpture"
 ],
 [
@@ -2681,11 +2656,6 @@
 "Asia Society",
 8,
 ""
-],
-[
-"Cleveland Museum of Art",
-7,
-"https://www.clevelandart.org/art/collection/search?search=Nepalese%20Sculpture"
 ],
 [
 "Nyingjei Lam",
@@ -2981,19 +2951,14 @@
 "https://www.himalayanart.org/search/results.cfm?searchterm=Thangka"
 ],
 [
+"Victoria and Albert Museum",
+347,
+"https://collections.vam.ac.uk/search/?q=Thangka"
+],
+[
 "Rubin Museum of Art",
 211,
 "https://www.himalayanart.org/search/results.cfm?searchterm=Thangka"
-],
-[
-"Victoria and Albert Museum (SSEA)",
-188,
-"https://collections.vam.ac.uk/search/?q=Thangka"
-],
-[
-"Victoria and Albert Museum",
-159,
-"https://collections.vam.ac.uk/search/?q=Thangka"
 ],
 [
 "Art Institute of Chicago",
@@ -3016,6 +2981,11 @@
 "https://collectie.wereldculturen.nl/#/query/Thangka"
 ],
 [
+"Cleveland Museum of Art",
+34,
+"https://www.clevelandart.org/art/collection/search?search=Thangka"
+],
+[
 "Hahn Cultural Foundation",
 23,
 ""
@@ -3024,11 +2994,6 @@
 "Tibet House Museum, New Delhi",
 23,
 ""
-],
-[
-"Cleveland Museum of Art (Indian and Southeast Asian Art)",
-19,
-"https://www.clevelandart.org/art/collection/search?search=Thangka"
 ],
 [
 "Garuda Virtual Museum",
@@ -3049,11 +3014,6 @@
 "American Museum of Natural History",
 16,
 ""
-],
-[
-"Cleveland Museum of Art",
-15,
-"https://www.clevelandart.org/art/collection/search?search=Thangka"
 ],
 [
 "Museum Volkenkunde",
@@ -3094,6 +3054,16 @@
 "Los Angeles County Museum of Art",
 9,
 ""
+],
+[
+"Royal Ontario Museum",
+9,
+""
+],
+[
+"John & Karina Stewart",
+8,
+""
 ]
 ],
 "D5-11": [
@@ -3103,8 +3073,8 @@
 "https://www.himalayanart.org/search/results.cfm?searchterm=Tibetan%20Buddhist%20Sculpture"
 ],
 [
-"Victoria and Albert Museum (SSEA)",
-375,
+"Victoria and Albert Museum",
+403,
 "https://collections.vam.ac.uk/search/?q=Tibetan%20Buddhist%20Sculpture"
 ],
 [
@@ -3128,19 +3098,14 @@
 "https://www.artic.edu/collection?q=Tibetan%20Buddhist%20Sculpture"
 ],
 [
-"Cleveland Museum of Art (Indian and Southeast Asian Art)",
-36,
+"Cleveland Museum of Art",
+38,
 "https://www.clevelandart.org/art/collection/search?search=Tibetan%20Buddhist%20Sculpture"
 ],
 [
 "Carolyn and Wesley Halpert",
 29,
 ""
-],
-[
-"Victoria and Albert Museum",
-28,
-"https://collections.vam.ac.uk/search/?q=Tibetan%20Buddhist%20Sculpture"
 ],
 [
 "Nyingjei Lam",
@@ -3221,6 +3186,11 @@
 "The Metropolitan Museum of Art",
 3,
 "https://www.metmuseum.org/art/collection/search?q=Tibetan%20Buddhist%20Sculpture"
+],
+[
+"Southern Alleghenies Museum of Art",
+3,
+""
 ]
 ],
 "A1-11": [
@@ -3609,17 +3579,17 @@
 ""
 ],
 [
+"公益財団法人荏原畠山記念文化財団",
+6,
+""
+],
+[
 "国（文化庁）",
 6,
 ""
 ],
 [
 "公益財団法人前田育徳会",
-5,
-""
-],
-[
-"公益財団法人荏原畠山記念文化財団\n",
 5,
 ""
 ]
@@ -4210,17 +4180,17 @@
 ""
 ],
 [
+"国（文化庁）",
+6,
+""
+],
+[
 "東福寺",
 6,
 ""
 ],
 [
 "大徳寺",
-5,
-""
-],
-[
-"国（文化庁）",
 5,
 ""
 ],
@@ -4552,13 +4522,8 @@
 "https://www.britishmuseum.org/collection/search?keyword=Dunhuang%20Paintings"
 ],
 [
-"V&A",
-291,
-"https://collections.vam.ac.uk/search/?q=Dunhuang%20Paintings"
-],
-[
-"Victoria and Albert Museum (EAS)",
-125,
+"Victoria and Albert Museum",
+416,
 "https://collections.vam.ac.uk/search/?q=Dunhuang%20Paintings"
 ],
 [
@@ -5014,7 +4979,7 @@
 ],
 "D5-99": [
 [
-"Государственное бюджетное учреждение культуры Республики Татарстан \"Елабужский государственный историко-архитектурный и ",
+"Государственное бюджетное учреждение культуры Республики Татарстан \"Елабужский государственный историко-архитектурный и",
 29,
 "https://goskatalog.ru/portal/#/collections?q=Filimonovo%20Toys"
 ],
@@ -5253,7 +5218,7 @@
 "https://goskatalog.ru/portal/#/collections?q=Balkhar%20Pottery"
 ],
 [
-"Государственное бюджетное учреждение культуры Республики Татарстан \"Елабужский государственный историко-архитектурный и ",
+"Государственное бюджетное учреждение культуры Республики Татарстан \"Елабужский государственный историко-архитектурный и",
 3,
 "https://goskatalog.ru/portal/#/collections?q=Balkhar%20Pottery"
 ],
@@ -5415,7 +5380,7 @@
 "https://goskatalog.ru/portal/#/collections?q=Polkhovsky%20Maidan"
 ],
 [
-"Государственное бюджетное учреждение культуры Республики Татарстан \"Елабужский государственный историко-архитектурный и ",
+"Государственное бюджетное учреждение культуры Республики Татарстан \"Елабужский государственный историко-архитектурный и",
 3,
 "https://goskatalog.ru/portal/#/collections?q=Polkhovsky%20Maidan"
 ]
@@ -5526,7 +5491,7 @@
 ],
 "H4-73": [
 [
-"Федеральное государственное бюджетное учреждение культуры \"Государственный Владимиро-Суздальский историко-архитектурный ",
+"Федеральное государственное бюджетное учреждение культуры \"Государственный Владимиро-Суздальский историко-архитектурный",
 35,
 "https://goskatalog.ru/portal/#/collections?q=Mstyora%20Embroidery"
 ]
@@ -5578,7 +5543,7 @@
 "https://goskatalog.ru/portal/#/collections?q=Ukrainian%20Embroidery"
 ],
 [
-"Муниципальное бюджетное учреждение культуры \"Народный фольклорно-этнографический музей\" городского округа город Шахунья ",
+"Муниципальное бюджетное учреждение культуры \"Народный фольклорно-этнографический музей\" городского округа город Шахунья",
 3,
 "https://goskatalog.ru/portal/#/collections?q=Ukrainian%20Embroidery"
 ],
@@ -5668,7 +5633,7 @@
 "https://goskatalog.ru/portal/#/collections?q=Russian%20Icons"
 ],
 [
-"Федеральное государственное бюджетное учреждение культуры \"Государственный Владимиро-Суздальский историко-архитектурный ",
+"Федеральное государственное бюджетное учреждение культуры \"Государственный Владимиро-Суздальский историко-архитектурный",
 11,
 "https://goskatalog.ru/portal/#/collections?q=Russian%20Icons"
 ],
@@ -6047,7 +6012,7 @@
 "https://goskatalog.ru/portal/#/collections?q=Orenburg%20Shawl"
 ],
 [
-"Государственное бюджетное учреждение культуры Республики Татарстан \"Елабужский государственный историко-архитектурный и ",
+"Государственное бюджетное учреждение культуры Республики Татарстан \"Елабужский государственный историко-архитектурный и",
 3,
 "https://goskatalog.ru/portal/#/collections?q=Orenburg%20Shawl"
 ]
@@ -6232,7 +6197,7 @@
 "https://goskatalog.ru/portal/#/collections?q=Georgian%20Icon%20Painting"
 ],
 [
-"Государственное бюджетное учреждение культуры города Москвы \"Государственный культурный центр-музей В.С. Высоцкого \"Дом ",
+"Государственное бюджетное учреждение культуры города Москвы \"Государственный культурный центр-музей В.С. Высоцкого \"Дом",
 4,
 "https://goskatalog.ru/portal/#/collections?q=Georgian%20Icon%20Painting"
 ],
@@ -6927,7 +6892,7 @@
 ],
 [
 "Victoria and Albert Museum",
-24,
+25,
 "https://collections.vam.ac.uk/search/?q=Patola"
 ],
 [
@@ -7131,7 +7096,7 @@
 ],
 [
 "Victoria and Albert Museum",
-21,
+22,
 "https://collections.vam.ac.uk/search/?q=Banarasi%20Brocade"
 ],
 [
@@ -9061,8 +9026,8 @@
 "https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&query=(gallica%20all%20%22Dunhuang%20Manuscripts%22)"
 ],
 [
-"Victoria and Albert Museum (EAS)",
-94,
+"Victoria and Albert Museum",
+95,
 "https://collections.vam.ac.uk/search/?q=Dunhuang%20Manuscripts"
 ],
 [
@@ -9105,7 +9070,7 @@
 ],
 "G1-11": [
 [
-"Cleveland Museum of Art (Indian and Southeast Asian Art)",
+"Cleveland Museum of Art",
 4,
 "https://www.clevelandart.org/art/collection/search?search=Sogdian%20Silver"
 ]
@@ -9272,7 +9237,7 @@
 "https://www.himalayanart.org/search/results.cfm?searchterm=Sino-Tibetan%20Sculpture"
 ],
 [
-"Cleveland Museum of Art (Indian and Southeast Asian Art)",
+"Cleveland Museum of Art",
 6,
 "https://www.clevelandart.org/art/collection/search?search=Sino-Tibetan%20Sculpture"
 ],
@@ -9319,12 +9284,12 @@
 "https://www.artic.edu/collection?q=Paubha"
 ],
 [
-"Cleveland Museum of Art (Indian and Southeast Asian Art)",
+"Cleveland Museum of Art",
 14,
 "https://www.clevelandart.org/art/collection/search?search=Paubha"
 ],
 [
-"Victoria and Albert Museum (SSEA)",
+"Victoria and Albert Museum",
 10,
 "https://collections.vam.ac.uk/search/?q=Paubha"
 ],

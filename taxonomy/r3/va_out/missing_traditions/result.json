@@ -1,0 +1,5667 @@
+{
+ "leaves": {},
+ "new_leaves": [
+  {
+   "key": "FLATSTYLE",
+   "sub": "A5",
+   "label": "Flatstyle",
+   "breadth": "medium",
+   "defn": "Twentieth-century Native American easel painting in opaque watercolour with flat, outlined colour and little shading or perspective, showing dances, ceremonies and daily life: the San Ildefonso watercolourists (1910s), Hopi painters, the Kiowa Six (Southern Plains style), Dorothy Dunn's Studio at the Santa Fe Indian School (1932–62) and the Bacone school.",
+   "aliases": "Flat style; Traditional Indian painting; Studio style; Pueblo painting; Kiowa style; Southern Plains style",
+   "see": "Ledger Art; Plains Hide Painting",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Flatstyle",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Studio_style",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Kiowa_Six",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Kiowa+painting",
+     "Smithsonian collections search: Kiowa painting",
+     "Native American paintings in the Smithsonian (NMAI) and American Art Museum"
+    ],
+    [
+     "https://americanart.si.edu/search?query=Native+American+painting",
+     "Smithsonian American Art Museum search",
+     "Native American easel paintings in SAAM"
+    ],
+    [
+     "https://philbrook.org/",
+     "Philbrook Museum of Art",
+     "Tulsa museum founded on the Native American painting annuals; major Flatstyle holdings"
+    ]
+   ],
+   "axis": "artist-led: by named school in order of emergence — San Ildefonso school, Hopi painters, Kiowa Six, Studio style, Bacone school; artists by birth within each",
+   "kinds": [
+    [
+     "Julian Martinez",
+     "San Ildefonso school",
+     "San Ildefonso Pueblo painter and potter (1879–1943); early watercolours of dances",
+     "r3 https://en.wikipedia.org/wiki/Julian_Martinez",
+     1
+    ],
+    [
+     "Jose Encarnacion Peña",
+     "San Ildefonso school",
+     "San Ildefonso painter (1902–1979), one of the first Pueblo watercolourists",
+     "r3 https://en.wikipedia.org/wiki/Jose_Encarnacion_Peña",
+     1
+    ],
+    [
+     "Awa Tsireh",
+     "San Ildefonso school",
+     "Alfonso Roybal (1898–1955), San Ildefonso watercolourist of ceremonial dances",
+     "r3 https://en.wikipedia.org/wiki/Awa_Tsireh",
+     1
+    ],
+    [
+     "Tonita Peña",
+     "San Ildefonso school",
+     "San Ildefonso/Cochiti painter (1893–1949), first Pueblo woman painter of note",
+     "r3 https://en.wikipedia.org/wiki/Tonita_Peña",
+     1
+    ],
+    [
+     "Velino Shije Herrera",
+     "San Ildefonso school",
+     "Zia Pueblo painter (1902–1973) of the Santa Fe 'self-taught' generation",
+     "r3 https://en.wikipedia.org/wiki/Velino_Shije_Herrera",
+     1
+    ],
+    [
+     "Fred Kabotie",
+     "Hopi painters",
+     "Hopi painter (1900–1986) of katsina dances; Painted Desert Inn murals",
+     "r3 https://en.wikipedia.org/wiki/Fred_Kabotie",
+     1
+    ],
+    [
+     "Otis Polelonema",
+     "Hopi painters",
+     "Hopi painter (1902–1981), contemporary of Kabotie at the Santa Fe Indian School",
+     "r3 https://en.wikipedia.org/wiki/Otis_Polelonema",
+     1
+    ],
+    [
+     "Waldo Mootzka",
+     "Hopi painters",
+     "Hopi painter (1903–1940) of katsina and Snake Dance scenes",
+     "r3 https://en.wikipedia.org/wiki/Waldo_Mootzka",
+     1
+    ],
+    [
+     "Stephen Mopope",
+     "Kiowa Six",
+     "Kiowa painter and muralist (1898–1974), founder of the Kiowa (Southern Plains) style",
+     "r3 https://en.wikipedia.org/wiki/Stephen_Mopope",
+     1
+    ],
+    [
+     "Jack Hokeah",
+     "Kiowa Six",
+     "Kiowa painter and dancer (1900–1969)",
+     "r3 https://en.wikipedia.org/wiki/Jack_Hokeah",
+     1
+    ],
+    [
+     "Monroe Tsatoke",
+     "Kiowa Six",
+     "Kiowa painter (1904–1937) of Peyote and dance subjects",
+     "r3 https://en.wikipedia.org/wiki/Monroe_Tsatoke",
+     1
+    ],
+    [
+     "Spencer Asah",
+     "Kiowa Six",
+     "Kiowa painter (1905–1954); Anadarko murals with Mopope",
+     "r3 https://en.wikipedia.org/wiki/Spencer_Asah",
+     1
+    ],
+    [
+     "James Auchiah",
+     "Kiowa Six",
+     "Kiowa painter (1906–1974); Department of the Interior murals",
+     "r3 https://en.wikipedia.org/wiki/James_Auchiah",
+     1
+    ],
+    [
+     "Lois Smoky Kaulaity",
+     "Kiowa Six",
+     "Kiowa painter and beadworker (1907–1981), the group's only woman",
+     "r3 https://en.wikipedia.org/wiki/Lois_Smoky_Kaulaity",
+     1
+    ],
+    [
+     "Geronima Cruz Montoya",
+     "Studio style",
+     "Ohkay Owingeh painter (1915–2015), Dunn's successor at the Studio, Santa Fe",
+     "r3 https://en.wikipedia.org/wiki/Geronima_Cruz_Montoya",
+     1
+    ],
+    [
+     "Pablita Velarde",
+     "Studio style",
+     "Santa Clara Pueblo painter (1918–2006), Studio student; earth-pigment paintings",
+     "r3 https://en.wikipedia.org/wiki/Pablita_Velarde",
+     1
+    ],
+    [
+     "Pop Chalee",
+     "Studio style",
+     "Taos Pueblo painter (1906–1993) of 'enchanted forest' scenes; Studio student",
+     "r3 https://en.wikipedia.org/wiki/Pop_Chalee",
+     1
+    ],
+    [
+     "Harrison Begay",
+     "Studio style",
+     "Diné (Navajo) painter (1914/17–2012), Studio student",
+     "r3 https://en.wikipedia.org/wiki/Harrison_Begay",
+     1
+    ],
+    [
+     "Gerald Nailor",
+     "Studio style",
+     "Diné painter (1917–1952); Navajo Nation Council Chamber murals",
+     "r3 https://en.wikipedia.org/wiki/Gerald_Nailor",
+     1
+    ],
+    [
+     "Quincy Tahoma",
+     "Studio style",
+     "Diné painter (1920–1956), Studio student",
+     "r3 https://en.wikipedia.org/wiki/Quincy_Tahoma",
+     1
+    ],
+    [
+     "Allan Houser",
+     "Studio style",
+     "Chiricahua Apache painter and sculptor (1914–1994), Studio student",
+     "r3 https://en.wikipedia.org/wiki/Allan_Houser",
+     1
+    ],
+    [
+     "Joe Herrera",
+     "Studio style",
+     "Cochiti painter (1923–2001), Studio student who moved to abstraction",
+     "r3 https://en.wikipedia.org/wiki/Joe_Herrera",
+     1
+    ],
+    [
+     "Oscar Howe",
+     "Studio style",
+     "Yanktonai Dakota painter (1915–1983), Studio student, later broke with the style",
+     "r3 https://en.wikipedia.org/wiki/Oscar_Howe",
+     1
+    ],
+    [
+     "Acee Blue Eagle",
+     "Bacone school",
+     "Muscogee/Pawnee painter (1907–1959), first head of Bacone College's art department",
+     "r3 https://en.wikipedia.org/wiki/Acee_Blue_Eagle",
+     1
+    ],
+    [
+     "Woody Crumbo",
+     "Bacone school",
+     "Potawatomi painter (1912–1989), Bacone art director 1938–41",
+     "r3 https://en.wikipedia.org/wiki/Woody_Crumbo",
+     1
+    ],
+    [
+     "Solomon McCombs",
+     "Bacone school",
+     "Muscogee painter (1913–1980) of the Bacone style",
+     "r3 https://en.wikipedia.org/wiki/Solomon_McCombs",
+     1
+    ],
+    [
+     "Fred Beaver",
+     "Bacone school",
+     "Muscogee/Seminole painter (1911–1980) of the Bacone style",
+     "r3 https://en.wikipedia.org/wiki/Fred_Beaver",
+     1
+    ],
+    [
+     "Jerome Tiger",
+     "Bacone school",
+     "Muscogee/Seminole painter (1941–1967), late Bacone style",
+     "r3 https://en.wikipedia.org/wiki/Jerome_Tiger",
+     1
+    ]
+   ],
+   "collections_from": [
+    "Pueblo Painting",
+    "Native American Studio Painting",
+    "Kiowa Six"
+   ]
+  },
+  {
+   "key": "NEPMS",
+   "sub": "A1",
+   "label": "Nepalese Manuscript Painting",
+   "breadth": "medium",
+   "defn": "Paintings on the palm-leaf folios and wooden covers of Buddhist and Hindu manuscripts made by Newar artists of the Kathmandu Valley from the 11th century, in the Pala-derived style that fed Tibetan painting: illustrated Prajnaparamita and Pancharaksha manuscripts, painted book covers.",
+   "aliases": "Newar manuscript painting; Nepali illuminated manuscripts",
+   "see": "Paubha; Palm-Leaf Manuscripts; Pala Art",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Nepalese_painting",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Newar_art",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.clevelandart.org/art/collection/search?search=Nepal+manuscript+cover",
+     "Cleveland Museum of Art: Nepal manuscript cover",
+     "Nepalese manuscript covers and folios at Cleveland"
+    ],
+    [
+     "https://collections.vam.ac.uk/search/?q=Nepal+manuscript",
+     "V&A collections: Nepal manuscript",
+     "Nepalese manuscripts and covers at the V&A"
+    ],
+    [
+     "https://www.himalayanart.org/",
+     "Himalayan Art Resources",
+     "image database of Himalayan and Newar art"
+    ]
+   ],
+   "axis": "sub-types (manuscript texts) first, then phases by dynasty",
+   "kinds": [
+    [
+     "Prajnaparamita manuscripts",
+     "Sub-types",
+     "illustrated Perfection of Wisdom sutras, the chief illuminated text of Newar workshops",
+     "r3 https://en.wikipedia.org/wiki/Prajnaparamita",
+     0
+    ],
+    [
+     "Pancharaksha manuscripts",
+     "Sub-types",
+     "texts of the five protective goddesses with their painted images",
+     "r3 https://en.wikipedia.org/wiki/Pancharaksha",
+     0
+    ],
+    [
+     "Gandavyuha manuscripts",
+     "Sub-types",
+     "illustrated Gandavyuha Sutra folios",
+     "r3 https://en.wikipedia.org/wiki/Gandavyuha_Sutra",
+     0
+    ],
+    [
+     "Painted manuscript covers",
+     "Sub-types",
+     "wooden covers (book boards) painted with deities and narratives",
+     "r3 https://en.wikipedia.org/wiki/Book_covers",
+     0
+    ],
+    [
+     "Thakuri period",
+     "Schools & phases",
+     "11th–12th-century transitional period of the earliest dated Nepalese illuminated manuscripts",
+     "r3 https://en.wikipedia.org/wiki/Thakuri_dynasty",
+     0
+    ],
+    [
+     "Malla period",
+     "Schools & phases",
+     "Newar manuscript painting under the Malla kings, 13th–18th century",
+     "r3 https://en.wikipedia.org/wiki/Malla_(Nepal)",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Nepalese Manuscript Painting"
+   ]
+  },
+  {
+   "key": "GORYEOBP",
+   "sub": "A2",
+   "label": "Goryeo Buddhist Painting",
+   "breadth": "narrow",
+   "defn": "Buddhist hanging scrolls painted in mineral colours and gold on silk in Goryeo Korea, chiefly 13th–14th century, often coloured from both sides of the silk, most now in Japanese temples: Water-Moon Avalokiteshvara, Amitabha triads, Ksitigarbha, arhats.",
+   "aliases": "Goryeo bulhwa",
+   "see": "Korean Buddhist Sculpture; Sutra Copying",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Goryeo_Buddhist_paintings",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.emuseum.go.kr/",
+     "e-Museum (Korea's national museums)",
+     "integrated collection database of Korea's national and public museums"
+    ],
+    [
+     "https://colbase.nich.go.jp/collection_items?locale=en&keyword=%E9%AB%98%E9%BA%97%E4%BB%8F%E7%94%BB",
+     "ColBase (Japan's national museums): 高麗仏画",
+     "Goryeo Buddhist paintings in Japan's national museums"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Goryeo+Buddhist+painting",
+     "The Met collection: Goryeo Buddhist painting",
+     "Goryeo paintings at the Met"
+    ]
+   ],
+   "axis": "sub-types by iconography, then named painters",
+   "kinds": [
+    [
+     "Water-Moon Avalokiteshvara",
+     "Sub-types",
+     "Suwol Gwaneum, the bodhisattva seated on a rock by water; the type most associated with Goryeo",
+     "r3 https://en.wikipedia.org/wiki/Goryeo_Buddhist_paintings",
+     0
+    ],
+    [
+     "Amitabha",
+     "Sub-types",
+     "Amitabha Buddha alone or in triads, welcoming souls to the Pure Land",
+     "r3 https://en.wikipedia.org/wiki/Amitabha",
+     0
+    ],
+    [
+     "Ksitigarbha",
+     "Sub-types",
+     "Jijang bodhisattva with monk's staff, often with the Ten Kings",
+     "r3 https://en.wikipedia.org/wiki/Goryeo_Buddhist_paintings",
+     0
+    ],
+    [
+     "Hyeheo",
+     "Makers",
+     "Goryeo monk-painter (14th c.) of the Water-Moon Avalokiteshvara at Sensō-ji, Tokyo",
+     "r3 https://en.wikipedia.org/wiki/Goryeo_Buddhist_paintings",
+     1
+    ]
+   ],
+   "collections_from": [
+    "Goryeo Buddhist Painting"
+   ]
+  },
+  {
+   "key": "EHON",
+   "sub": "B2",
+   "label": "Ehon",
+   "breadth": "medium",
+   "defn": "Japanese woodblock-printed picture books of the Edo and Meiji periods, from illustrated tales to colour-printed kyōka anthologies, painting manuals and sketchbooks: Moronobu's picture books, Utamaro's Picture Book of Selected Insects (1788), the Hokusai Manga.",
+   "aliases": "e-hon; Japanese illustrated books; ehon picture books",
+   "see": "Ukiyo-e; Nara-ehon",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Ehon",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Kusazōshi",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.artic.edu/collection?q=ehon",
+     "Art Institute of Chicago: ehon",
+     "the AIC holds over a thousand Japanese printed books"
+    ],
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=ehon",
+     "British Museum: ehon",
+     "Japanese illustrated books in the BM"
+    ],
+    [
+     "https://ukiyo-e.org/",
+     "Ukiyo-e.org",
+     "search engine of Japanese woodblock prints across museums"
+    ]
+   ],
+   "axis": "sub-types (book formats) first, then makers by date",
+   "kinds": [
+    [
+     "Kusazōshi",
+     "Sub-types",
+     "popular illustrated fiction in small-format booklets",
+     "r3 https://en.wikipedia.org/wiki/Kusazōshi",
+     0
+    ],
+    [
+     "Kibyōshi",
+     "Sub-types",
+     "'yellow-cover' satirical picture books, 1775–1806",
+     "r3 https://en.wikipedia.org/wiki/Kibyōshi",
+     0
+    ],
+    [
+     "Hokusai Manga",
+     "Sub-types",
+     "Hokusai's sketchbook-manual in 15 volumes (1814–1878), the best-known gafu (painting manual)",
+     "r3 https://en.wikipedia.org/wiki/Hokusai_Manga",
+     0
+    ],
+    [
+     "Hishikawa Moronobu",
+     "Makers",
+     "Edo designer (1618–1694) who made the illustrated book a popular art",
+     "r3 https://en.wikipedia.org/wiki/Hishikawa_Moronobu",
+     1
+    ],
+    [
+     "Nishikawa Sukenobu",
+     "Makers",
+     "Kyoto designer (1671–1750) of picture books of women",
+     "r3 https://en.wikipedia.org/wiki/Nishikawa_Sukenobu",
+     1
+    ],
+    [
+     "Kitao Shigemasa",
+     "Makers",
+     "Edo designer (1739–1820) of colour picture books",
+     "r3 https://en.wikipedia.org/wiki/Kitao_Shigemasa",
+     1
+    ],
+    [
+     "Tsutaya Jūzaburō",
+     "Makers",
+     "Edo publisher (1750–1797) of Utamaro's ehon",
+     "r3 https://en.wikipedia.org/wiki/Tsutaya_Jūzaburō",
+     1
+    ],
+    [
+     "Kitagawa Utamaro",
+     "Makers",
+     "designer (c. 1753–1806) of the insect, shell and bird ehon of the 1780s–90s",
+     "r3 https://en.wikipedia.org/wiki/Kitagawa_Utamaro",
+     1
+    ],
+    [
+     "Katsushika Hokusai",
+     "Makers",
+     "designer (1760–1849) of the Manga and One Hundred Views of Mount Fuji",
+     "r3 https://en.wikipedia.org/wiki/Katsushika_Hokusai",
+     1
+    ],
+    [
+     "Kawanabe Kyōsai",
+     "Makers",
+     "Meiji painter-designer (1831–1889) of illustrated books",
+     "r3 https://en.wikipedia.org/wiki/Kawanabe_Kyōsai",
+     1
+    ]
+   ],
+   "collections_from": [
+    "Ehon (Japanese woodblock-printed books)"
+   ]
+  },
+  {
+   "key": "TIBMS",
+   "sub": "C2",
+   "label": "Tibetan Manuscript Illumination",
+   "breadth": "medium",
+   "defn": "Illuminated and illustrated Tibetan books in the long pothi format, from the Dunhuang finds (8th–10th c.) to the gold-and-silver on indigo-paper Kangyur and Tengyur sets of monasteries, with painted miniatures of deities and carved and painted book covers.",
+   "aliases": "Tibetan illuminated manuscripts; pecha",
+   "see": "Thangka; Dunhuang Manuscripts",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Pecha",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Kangyur",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://archivesetmanuscrits.bnf.fr/",
+     "BnF Archives et manuscrits",
+     "catalogue of the manuscript departments of the Bibliothèque nationale de France"
+    ],
+    [
+     "https://www.himalayanart.org/",
+     "Himalayan Art Resources",
+     "image database of Tibetan art including manuscript folios and covers"
+    ],
+    [
+     "https://collections.vam.ac.uk/search/?q=Tibetan+manuscript",
+     "V&A collections: Tibetan manuscript",
+     "Tibetan manuscripts and book covers at the V&A"
+    ]
+   ],
+   "axis": "sub-types (canonical sets and book parts) first, then centres",
+   "kinds": [
+    [
+     "Kangyur",
+     "Sub-types",
+     "the translated words of the Buddha, copied in illuminated multi-volume sets",
+     "r3 https://en.wikipedia.org/wiki/Kangyur",
+     0
+    ],
+    [
+     "Tengyur",
+     "Sub-types",
+     "the translated treatises, the second half of the canon",
+     "r3 https://en.wikipedia.org/wiki/Tengyur",
+     0
+    ],
+    [
+     "Pecha",
+     "Sub-types",
+     "loose-leaf oblong book format wrapped between wooden covers",
+     "r3 https://en.wikipedia.org/wiki/Pecha",
+     0
+    ],
+    [
+     "Dunhuang Tibetan manuscripts",
+     "Sub-types",
+     "Tibetan texts from the Library Cave, Dunhuang (Pelliot and Stein collections)",
+     "r3 https://en.wikipedia.org/wiki/Dunhuang_manuscripts",
+     0
+    ],
+    [
+     "Tholing Monastery",
+     "Centres & workshops",
+     "Guge royal monastery, western Tibet, a centre of early illumination",
+     "r3 https://en.wikipedia.org/wiki/Tholing_Monastery",
+     0
+    ],
+    [
+     "Tabo Monastery",
+     "Centres & workshops",
+     "Spiti monastery with 11th-century manuscripts",
+     "r3 https://en.wikipedia.org/wiki/Tabo_Monastery",
+     0
+    ],
+    [
+     "Gyantse",
+     "Centres & workshops",
+     "15th-century centre of painting and book production in Tsang",
+     "r3 https://en.wikipedia.org/wiki/Gyantse",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Tibetan manuscript illumination"
+   ]
+  },
+  {
+   "key": "COPTMS",
+   "sub": "C2",
+   "label": "Coptic Manuscript Illumination",
+   "breadth": "narrow",
+   "defn": "Illuminated and decorated manuscripts in Coptic (Sahidic and Bohairic) of the Egyptian church, from the 4th century onward: interlace frontispieces, ornamented initials and full-page saints, from the White Monastery, the Hamuli (Fayum) library and the Wadi Natrun monasteries.",
+   "aliases": "Coptic illuminated manuscripts",
+   "see": "Coptic Textiles; Ethiopian Manuscripts",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Coptic_art",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Coptic_language",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://archivesetmanuscrits.bnf.fr/",
+     "BnF Archives et manuscrits",
+     "catalogue of the manuscript departments of the Bibliothèque nationale de France"
+    ],
+    [
+     "https://www.themorgan.org/",
+     "Morgan Library & Museum",
+     "holds the Hamuli Coptic manuscripts (9th–10th c.)"
+    ],
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Coptic+manuscript",
+     "British Museum collection: Coptic manuscript",
+     "Coptic manuscripts and papyri in the British Museum"
+    ]
+   ],
+   "axis": "centres (monastic libraries) by date; then named manuscripts' collections",
+   "kinds": [
+    [
+     "White Monastery",
+     "Centres & workshops",
+     "Shenoute's monastery at Sohag, whose library yielded many Sahidic codices",
+     "r3 https://en.wikipedia.org/wiki/White_Monastery",
+     0
+    ],
+    [
+     "Hamuli manuscripts",
+     "Centres & workshops",
+     "library of the Monastery of St Michael, Fayum, 9th–10th c.; Morgan Library",
+     "r3 https://en.wikipedia.org/wiki/Hamuli",
+     0
+    ],
+    [
+     "Monastery of Saint Macarius the Great",
+     "Centres & workshops",
+     "Wadi Natrun monastery, source of Bohairic manuscripts",
+     "r3 https://en.wikipedia.org/wiki/Monastery_of_Saint_Macarius_the_Great",
+     0
+    ],
+    [
+     "Glazier Codex",
+     "Centres & workshops",
+     "4th–5th-century Coptic Acts with a crux ansata frontispiece; Morgan Library",
+     "r3 https://en.wikipedia.org/wiki/Glazier_Codex",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Coptic manuscript illumination"
+   ]
+  },
+  {
+   "key": "SYRMS",
+   "sub": "C2",
+   "label": "Syriac Manuscript Illumination",
+   "breadth": "narrow",
+   "defn": "Illuminated manuscripts of the Syriac churches of Mesopotamia and Syria from the 6th century: canon tables and full-page miniatures, as in the Rabbula Gospels (586), the Syriac Bible of Paris and the Jacobite lectionaries of Tur Abdin and Mosul (12th–13th c.).",
+   "aliases": "Syriac illuminated manuscripts",
+   "see": "Late Antique Illumination; Armenian Manuscript Illumination",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Rabbula_Gospels",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Syriac_Christianity",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://archivesetmanuscrits.bnf.fr/",
+     "BnF Archives et manuscrits",
+     "catalogue of the manuscript departments of the Bibliothèque nationale de France"
+    ],
+    [
+     "https://hmml.org/",
+     "Hill Museum & Manuscript Library",
+     "vHMML: digitised Syriac manuscripts of the Middle East"
+    ],
+    [
+     "https://www.bl.uk/",
+     "British Library",
+     "the largest Syriac manuscript collection in Europe"
+    ]
+   ],
+   "axis": "named manuscripts' traditions and centres by date",
+   "kinds": [
+    [
+     "Rabbula Gospels",
+     "Sub-types",
+     "illuminated Syriac Gospel book of 586, Biblioteca Laurenziana, Florence",
+     "r3 https://en.wikipedia.org/wiki/Rabbula_Gospels",
+     0
+    ],
+    [
+     "Syriac Bible of Paris",
+     "Sub-types",
+     "6th–7th-century illustrated Peshitta Old Testament, BnF syr. 341",
+     "r3 https://en.wikipedia.org/wiki/Syriac_Bible_of_Paris",
+     0
+    ],
+    [
+     "Tur Abdin",
+     "Centres & workshops",
+     "monastic region of south-east Anatolia producing illuminated lectionaries",
+     "r3 https://en.wikipedia.org/wiki/Tur_Abdin",
+     0
+    ],
+    [
+     "Mar Mattai Monastery",
+     "Centres & workshops",
+     "monastery near Mosul, a centre of 12th–13th-century Syriac illumination",
+     "r3 https://en.wikipedia.org/wiki/Mar_Mattai_Monastery",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Syriac manuscript illumination"
+   ]
+  },
+  {
+   "key": "NOHMASK",
+   "sub": "D4",
+   "label": "Noh Masks",
+   "breadth": "medium",
+   "defn": "Carved and painted hinoki masks (omote) of Noh and Kyōgen theatre, from the 14th century, in fixed types for old men, women, demons and gods, made by hereditary carver lines and held by Noh schools and temples: ko-omote, hannya, okina, shikami.",
+   "aliases": "nōmen; omote; Noh mask",
+   "see": "Gigaku Masks; Bugaku Masks",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Noh_mask",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Noh",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://colbase.nich.go.jp/collection_items?locale=en&keyword=%E8%83%BD%E9%9D%A2",
+     "ColBase (Japan's national museums): 能面",
+     "Noh masks in the Tokyo, Kyoto, Nara and Kyushu national museums"
+    ],
+    [
+     "https://emuseum.nich.go.jp/",
+     "e-Museum (National Treasures and Important Cultural Properties)",
+     "Japan's designated masks from the national museums"
+    ],
+    [
+     "https://www.clevelandart.org/art/collection/search?search=Noh+mask",
+     "Cleveland Museum of Art: Noh mask",
+     "Noh masks at Cleveland"
+    ]
+   ],
+   "axis": "sub-types by role category (god, man, woman, madwoman, demon), canonical first",
+   "kinds": [
+    [
+     "Okina",
+     "Sub-types",
+     "the old-man god mask with separate jaw, for the ritual Okina play",
+     "r3 https://en.wikipedia.org/wiki/Okina_(Noh)",
+     0
+    ],
+    [
+     "Ko-omote",
+     "Sub-types",
+     "young-woman mask, the type of the Konparu and Kita schools",
+     "r3 https://en.wikipedia.org/wiki/Noh_mask",
+     0
+    ],
+    [
+     "Zō-onna",
+     "Sub-types",
+     "dignified woman's mask created by Zōami",
+     "r3 https://en.wikipedia.org/wiki/Noh_mask",
+     0
+    ],
+    [
+     "Uba",
+     "Sub-types",
+     "old-woman mask",
+     "r3 https://en.wikipedia.org/wiki/Noh_mask",
+     0
+    ],
+    [
+     "Wakaotoko",
+     "Sub-types",
+     "young-man mask",
+     "r3 https://en.wikipedia.org/wiki/Noh_mask",
+     0
+    ],
+    [
+     "Akobujō",
+     "Sub-types",
+     "old-man mask with a wrinkled face",
+     "r3 https://en.wikipedia.org/wiki/Noh_mask",
+     0
+    ],
+    [
+     "Shikami",
+     "Sub-types",
+     "grimacing demon mask",
+     "r3 https://en.wikipedia.org/wiki/Noh_mask",
+     0
+    ],
+    [
+     "Hannya",
+     "Sub-types",
+     "horned female demon of jealousy",
+     "r3 https://en.wikipedia.org/wiki/Hannya",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Noh masks"
+   ]
+  },
+  {
+   "key": "GIGAKU",
+   "sub": "D4",
+   "label": "Gigaku Masks",
+   "breadth": "narrow",
+   "defn": "Large wooden and dry-lacquer masks covering the whole head, worn in gigaku processional dance-drama introduced from the continent in 612, carved mostly in the 7th–8th centuries and preserved at Hōryū-ji, Tōdai-ji and the Shōsōin: Karura, Kuron, Gokō, Suikoō.",
+   "aliases": "gigakumen",
+   "see": "Noh Masks; Bugaku Masks",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Gigaku",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://colbase.nich.go.jp/collection_items?locale=en&keyword=%E4%BC%8E%E6%A5%BD%E9%9D%A2",
+     "ColBase (Japan's national museums): 伎楽面",
+     "gigaku masks of the Hōryū-ji treasures (Tokyo National Museum) and other national museums"
+    ],
+    [
+     "https://shosoin.kunaicho.go.jp/en-US/",
+     "Shōsōin Treasures",
+     "the Imperial Household Agency's database of the Shōsōin, including gigaku masks"
+    ]
+   ],
+   "axis": "sub-types (characters) first, then the temple treasuries that hold them",
+   "kinds": [
+    [
+     "Karura",
+     "Sub-types",
+     "Garuda bird-headed mask",
+     "r3 https://en.wikipedia.org/wiki/Karura",
+     0
+    ],
+    [
+     "Kuron",
+     "Sub-types",
+     "Kunlun mask of a dark-skinned lustful character",
+     "r3 https://en.wikipedia.org/wiki/Kuron",
+     0
+    ],
+    [
+     "Hōryū-ji",
+     "Centres & workshops",
+     "temple whose 7th-century gigaku masks are in the Gallery of Hōryū-ji Treasures, Tokyo",
+     "r3 https://en.wikipedia.org/wiki/Hōryū-ji",
+     0
+    ],
+    [
+     "Tōdai-ji",
+     "Centres & workshops",
+     "temple holding masks used at its 752 eye-opening ceremony",
+     "r3 https://en.wikipedia.org/wiki/Tōdai-ji",
+     0
+    ],
+    [
+     "Shōsōin",
+     "Centres & workshops",
+     "imperial repository at Nara holding 8th-century gigaku masks",
+     "r3 https://en.wikipedia.org/wiki/Shōsōin",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Gigaku masks"
+   ]
+  },
+  {
+   "key": "BUGAKU",
+   "sub": "D4",
+   "label": "Bugaku Masks",
+   "breadth": "narrow",
+   "defn": "Wooden masks, often with movable eyes or jaws, worn in bugaku court dances of gagaku from the Heian period, preserved at shrines and temples: Ranryō-ō, Nasori, Saisōrō, Ama and Ni-no-mai.",
+   "aliases": "bugakumen",
+   "see": "Gigaku Masks; Noh Masks",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Bugaku",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Gagaku",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://colbase.nich.go.jp/collection_items?locale=en&keyword=%E8%88%9E%E6%A5%BD%E9%9D%A2",
+     "ColBase (Japan's national museums): 舞楽面",
+     "bugaku masks in Japan's national museums"
+    ]
+   ],
+   "axis": "sub-types (dance characters) first, then the shrines that hold sets",
+   "kinds": [
+    [
+     "Ranryō-ō",
+     "Sub-types",
+     "dragon-crowned mask of the Prince of Lanling dance",
+     "r3 https://en.wikipedia.org/wiki/Bugaku",
+     0
+    ],
+    [
+     "Nasori",
+     "Sub-types",
+     "mask of the dragon dance paired with Ranryō-ō",
+     "r3 https://en.wikipedia.org/wiki/Bugaku",
+     0
+    ],
+    [
+     "Saisōrō",
+     "Sub-types",
+     "old-man mask of a slow dance",
+     "r3 https://en.wikipedia.org/wiki/Bugaku",
+     0
+    ],
+    [
+     "Itsukushima Shrine",
+     "Centres & workshops",
+     "shrine with a long-preserved bugaku tradition and mask set",
+     "r3 https://en.wikipedia.org/wiki/Itsukushima_Shrine",
+     0
+    ],
+    [
+     "Kasuga-taisha",
+     "Centres & workshops",
+     "Nara shrine holding Heian–Kamakura bugaku masks",
+     "r3 https://en.wikipedia.org/wiki/Kasuga-taisha",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Bugaku masks"
+   ]
+  },
+  {
+   "key": "MEXMASK",
+   "sub": "D4",
+   "label": "Mexican Masks",
+   "breadth": "medium",
+   "defn": "Carved and painted wood, papier-mâché and leather masks worn in Mexican dances and carnivals that blend Indigenous and Spanish ritual: Danza de los Viejitos of Michoacán, Parachicos of Chiapa de Corzo, Chinelos of Morelos, Yaqui pascola masks, Moors and Christians dances.",
+   "aliases": "Mexican dance masks; máscaras mexicanas",
+   "see": "Cartonería; Alebrije",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Mexican_mask-folk_art",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Mexican+mask",
+     "Smithsonian collections search: Mexican mask",
+     "Mexican masks in the Smithsonian (NMAI)"
+    ],
+    [
+     "https://collectie.wereldculturen.nl/",
+     "Wereldculturen collection (NMVW)",
+     "Museum Volkenkunde, Tropenmuseum, Afrika Museum and Wereldmuseum Rotterdam"
+    ],
+    [
+     "https://mediateca.inah.gob.mx/",
+     "Mediateca INAH",
+     "Mexico's national archaeological and ethnographic collections online"
+    ]
+   ],
+   "axis": "sub-types by dance, then regions",
+   "kinds": [
+    [
+     "Danza de los Viejitos",
+     "Sub-types",
+     "'dance of the little old men' of Michoacán, with smiling old-man masks",
+     "r3 https://en.wikipedia.org/wiki/Danza_de_los_Viejitos",
+     0
+    ],
+    [
+     "Parachicos",
+     "Sub-types",
+     "lacquered wooden masks of the January fiesta of Chiapa de Corzo, Chiapas",
+     "r3 https://en.wikipedia.org/wiki/Parachicos",
+     0
+    ],
+    [
+     "Chinelos",
+     "Sub-types",
+     "bearded masks of the carnival dancers of Morelos",
+     "r3 https://en.wikipedia.org/wiki/Chinelos",
+     0
+    ],
+    [
+     "Pascola",
+     "Sub-types",
+     "small carved masks of Yaqui and Mayo pascola dancers, Sonora",
+     "r3 https://en.wikipedia.org/wiki/Pascola",
+     0
+    ],
+    [
+     "Moors and Christians",
+     "Sub-types",
+     "dance-drama with masks of Spaniards and Moors",
+     "r3 https://en.wikipedia.org/wiki/Moors_and_Christians",
+     0
+    ],
+    [
+     "Guerrero",
+     "Centres & workshops",
+     "state with the richest tradition of carved dance masks",
+     "r3 https://en.wikipedia.org/wiki/Guerrero",
+     0
+    ],
+    [
+     "Michoacán",
+     "Centres & workshops",
+     "Purépecha state of the Viejitos and Corpus masks",
+     "r3 https://en.wikipedia.org/wiki/Michoacán",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Mexican Dance Masks"
+   ]
+  },
+  {
+   "key": "KARAJA",
+   "sub": "D5",
+   "label": "Karajá Dolls (Ritxoko)",
+   "breadth": "narrow",
+   "defn": "Fired and painted clay figurines made by Karajá women on Bananal Island and the Araguaia River, Brazil, representing people, animals and ritual scenes, registered as Brazilian cultural heritage by IPHAN in 2012.",
+   "aliases": "ritxoko; bonecas Karajá",
+   "see": "Caruaru Clay Figures",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Karajá_people",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Bananal_Island",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Karaja",
+     "Smithsonian collections search: Karaja",
+     "Karajá figures in the Smithsonian (NMAI)"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Karaja",
+     "The Met collection: Karaja",
+     "Karajá figures at the Met"
+    ]
+   ],
+   "axis": "sub-types first, then centres",
+   "kinds": [
+    [
+     "Ritxoko",
+     "Sub-types",
+     "the Karajá name for the figures, made by women and given to girls",
+     "r3 https://en.wikipedia.org/wiki/Karajá_people",
+     0
+    ],
+    [
+     "Bananal Island",
+     "Centres & workshops",
+     "river island on the Araguaia, home of the Karajá villages that make the dolls",
+     "r3 https://en.wikipedia.org/wiki/Bananal_Island",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Karajá ceramic dolls"
+   ]
+  },
+  {
+   "key": "BAHIA",
+   "sub": "D5",
+   "label": "Bahía Figurines",
+   "breadth": "narrow",
+   "defn": "Mould-made and hand-modelled ceramic figures of the Bahía culture of coastal Manabí, Ecuador (c. 500 BCE–500 CE): large hollow figures with elaborate headdresses and ear-spools, seated 'Buddha-like' figures and small solid figurines.",
+   "aliases": "Bahía ceramic figures",
+   "see": "Valdivia Figurines; Jama-Coaque Ceramics",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Bahía_culture",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Bah%C3%ADa+culture",
+     "Smithsonian collections search: Bahía culture",
+     "Bahía figures in the Smithsonian (NMAI)"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Bahia+Ecuador",
+     "The Met collection: Bahia Ecuador",
+     "Bahía figures at the Met"
+    ]
+   ],
+   "axis": "sub-types first, then sites",
+   "kinds": [
+    [
+     "Hollow figures",
+     "Sub-types",
+     "large hollow seated and standing figures with headdresses",
+     "r3 https://en.wikipedia.org/wiki/Bahía_culture",
+     0
+    ],
+    [
+     "Bahía de Caráquez",
+     "Centres & workshops",
+     "type site of the culture on the Manabí coast",
+     "r3 https://en.wikipedia.org/wiki/Bahía_de_Caráquez",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Bahía ceramic figures"
+   ]
+  },
+  {
+   "key": "KUSHSCULP",
+   "sub": "D5",
+   "label": "Kushite Sculpture",
+   "breadth": "medium",
+   "defn": "Statuary, relief and figurines of the Nubian kingdom of Kush in its Napatan (c. 750–300 BCE) and Meroitic (c. 300 BCE–350 CE) phases, Egyptianising royal statues of the 25th Dynasty and Meroitic ba-statues and temple reliefs: Taharqa sphinx, Jebel Barkal statues, Meroë reliefs.",
+   "aliases": "Napatan sculpture; Meroitic sculpture; Nubian sculpture",
+   "see": "Ancient Egyptian Sculpture; Meroitic Pottery; Nubian Pyramids",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Kingdom_of_Kush",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Napata",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Meroë",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.penn.museum/collections/search.php?term=Meroitic",
+     "Penn Museum collections: Meroitic",
+     "Penn Museum's Karanog and Buhen excavation finds"
+    ],
+    [
+     "https://collections.mfa.org/search/objects/*/Kushite",
+     "MFA Boston collections: Kushite",
+     "the Harvard–MFA excavations of Kerma, Napata and Meroë"
+    ],
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Kushite",
+     "British Museum collection: Kushite",
+     "Kushite sculpture in the British Museum"
+    ]
+   ],
+   "axis": "phases first, then centres (royal sites)",
+   "kinds": [
+    [
+     "Twenty-fifth Dynasty",
+     "Schools & phases",
+     "Kushite pharaohs ruling Egypt (c. 744–656 BCE), patrons of revived classical sculpture",
+     "r3 https://en.wikipedia.org/wiki/Twenty-fifth_Dynasty_of_Egypt",
+     0
+    ],
+    [
+     "Meroitic period",
+     "Schools & phases",
+     "the later kingdom centred on Meroë, with ba-statues and local styles",
+     "r3 https://en.wikipedia.org/wiki/Meroitic",
+     0
+    ],
+    [
+     "Jebel Barkal",
+     "Centres & workshops",
+     "sacred mountain and temple complex at Napata, findspot of royal statues",
+     "r3 https://en.wikipedia.org/wiki/Jebel_Barkal",
+     0
+    ],
+    [
+     "El-Kurru",
+     "Centres & workshops",
+     "early royal cemetery of Napata",
+     "r3 https://en.wikipedia.org/wiki/El-Kurru",
+     0
+    ],
+    [
+     "Nuri",
+     "Centres & workshops",
+     "royal pyramid cemetery begun by Taharqa",
+     "r3 https://en.wikipedia.org/wiki/Nuri",
+     0
+    ],
+    [
+     "Meroë",
+     "Centres & workshops",
+     "capital and pyramid field of the Meroitic kingdom",
+     "r3 https://en.wikipedia.org/wiki/Meroë",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Kushite (Napatan-Meroitic) sculpture"
+   ]
+  },
+  {
+   "key": "NUCHU",
+   "sub": "D6",
+   "label": "Nuchu",
+   "breadth": "narrow",
+   "defn": "Small carved wooden human figures (nuchukana) of the Guna of Panama's Guna Yala, made by master carvers and kept in households to cure illness and guard against spirits; many show foreigners in hats and coats.",
+   "aliases": "nuchukana; Kuna curing figures",
+   "see": "Mola",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Guna_people",
+     "Wikipedia"
+    ],
+    [
+     "https://maxwellmuseum.unm.edu/maxwell-at-home/objects/object-monday-guna-nuchu",
+     "museum"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Guna+nuchu",
+     "Smithsonian collections search: Guna nuchu",
+     "Guna objects in the Smithsonian (NMAI)"
+    ],
+    [
+     "https://maxwellmuseum.unm.edu/",
+     "Maxwell Museum of Anthropology",
+     "Mari Lyn Salvador Guna collection"
+    ]
+   ],
+   "axis": "sub-types first",
+   "kinds": [
+    [
+     "Nuchukana",
+     "Sub-types",
+     "curing and guardian figures (plural of nuchu), carved of balsa and other spirit-bearing woods",
+     "r3 https://maxwellmuseum.unm.edu/maxwell-at-home/objects/object-monday-guna-nuchu",
+     0
+    ],
+    [
+     "Guna Yala",
+     "Centres & workshops",
+     "Caribbean comarca of the Guna, where the figures are carved",
+     "r3 https://en.wikipedia.org/wiki/Guna_people",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Guna nuchu figures"
+   ]
+  },
+  {
+   "key": "ATLWS",
+   "sub": "E1",
+   "label": "Atlantic Watershed Pottery",
+   "breadth": "narrow",
+   "defn": "Pre-Columbian pottery of the Central Highlands and Caribbean (Atlantic Watershed) region of Costa Rica, c. 500 BCE–1550 CE: tripod vessels with modelled animal feet, appliqué effigy jars and painted wares buried in stone-cist cemeteries around Guayabo and Las Mercedes.",
+   "aliases": "Central Highlands–Atlantic Watershed pottery; Costa Rican Atlantic Watershed",
+   "see": "Nicoya Polychrome; Diquís Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Atlantic_Watershed",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Isthmo-Colombian_area",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.museosdelbancocentral.org/",
+     "Museos del Banco Central de Costa Rica",
+     "Costa Rica's national collections of pre-Columbian gold and ceramics"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=Atlantic+Watershed",
+     "Smithsonian collections search: Atlantic Watershed",
+     "the Smithsonian (NMAI) Costa Rica collections"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Atlantic+Watershed",
+     "The Met collection: Atlantic Watershed",
+     "Atlantic Watershed objects at the Met"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Irazú Yellow Line",
+     "Sub-types",
+     "Period VI (c. 1000–1550) tripod wares with thick yellow painted lines",
+     "r3 https://www.floridamuseum.ufl.edu/latinarch/catalog/intermediate-area-artifacts/",
+     0
+    ],
+    [
+     "Guayabo",
+     "Centres & workshops",
+     "Guayabo National Monument, the largest excavated Atlantic Watershed settlement",
+     "r3 https://en.wikipedia.org/wiki/Guayabo_National_Monument",
+     0
+    ],
+    [
+     "Las Mercedes",
+     "Centres & workshops",
+     "mound site near Guácimo, source of early stone and ceramic finds",
+     "r3 https://en.wikipedia.org/wiki/Las_Mercedes",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Atlantic Watershed pottery"
+   ]
+  },
+  {
+   "key": "DIQUIS",
+   "sub": "E1",
+   "label": "Diquís Pottery",
+   "breadth": "narrow",
+   "defn": "Pottery of the Diquís sub-region of the Gran Chiriquí in south-western Costa Rica (c. 300–1550 CE), contemporary with the stone spheres: tripod bowls, painted and incised jars and effigy vessels.",
+   "aliases": "Diquís ceramics",
+   "see": "Chiriquí Pottery; Isthmian Goldwork",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Diquís",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.museosdelbancocentral.org/",
+     "Museos del Banco Central de Costa Rica",
+     "Costa Rica's national collections of pre-Columbian gold and ceramics"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=Diqu%C3%ADs",
+     "Smithsonian collections search: Diquís",
+     "Diquís pottery in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Finca 6",
+     "Centres & workshops",
+     "Diquís Delta site with stone spheres (UNESCO 2014)",
+     "r3 https://en.wikipedia.org/wiki/Finca_6",
+     0
+    ],
+    [
+     "Stone spheres of Costa Rica",
+     "Centres & workshops",
+     "the sphere sites of the Diquís Delta that define the culture",
+     "r3 https://en.wikipedia.org/wiki/Stone_spheres_of_Costa_Rica",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Diquís pottery"
+   ]
+  },
+  {
+   "key": "CHIRIQUI",
+   "sub": "E1",
+   "label": "Chiriquí Pottery",
+   "breadth": "narrow",
+   "defn": "The pottery of the Gran Chiriquí region of western Panama and south-eastern Costa Rica (c. 300–1500 CE), in named wares: thin buff Biscuit ware (Armadillo ware), Alligator ware painted with stylised crocodiles, and negative-painted lost-colour ware.",
+   "aliases": "Gran Chiriquí pottery; Chiriqui ware",
+   "see": "Isthmian Goldwork; Gran Coclé Pottery; Diquís Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Chiriquí_Province",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Barriles",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Chiriqui",
+     "Smithsonian collections search: Chiriqui",
+     "Chiriquí pottery in the Smithsonian (NMAI)"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Chiriqui",
+     "The Met collection: Chiriqui",
+     "Chiriquí objects at the Met"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Biscuit ware",
+     "Sub-types",
+     "thin unslipped buff ware (Tarrago Biscuit, 'Armadillo ware') with modelled animal feet",
+     "r3 https://www.floridamuseum.ufl.edu/latinarch/catalog/intermediate-area-artifacts/",
+     0
+    ],
+    [
+     "Alligator ware",
+     "Sub-types",
+     "painted ware with stylised crocodile motifs",
+     "r3 https://www.floridamuseum.ufl.edu/latinarch/catalog/intermediate-area-artifacts/",
+     0
+    ],
+    [
+     "Barriles",
+     "Centres & workshops",
+     "early Chiriquí ceremonial site in the Chiriquí highlands",
+     "r3 https://en.wikipedia.org/wiki/Barriles",
+     0
+    ],
+    [
+     "Bugaba",
+     "Centres & workshops",
+     "district of the Chiriquí highlands with extensive cemeteries",
+     "r3 https://en.wikipedia.org/wiki/Bugaba",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Chiriquí pottery"
+   ]
+  },
+  {
+   "key": "ULUA",
+   "sub": "E1",
+   "label": "Ulúa Polychrome",
+   "breadth": "narrow",
+   "defn": "Painted pottery of the Ulúa valley and Lake Yojoa region of north-western Honduras, c. 600–1000 CE, with Maya-derived figural and glyph-like decoration on cylinders and tripod bowls.",
+   "aliases": "Ulúa-Yojoa polychrome; Ulúa pottery",
+   "see": "Maya Ceramics",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Ulúa_River",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Travesía",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Ulua",
+     "Smithsonian collections search: Ulua",
+     "Ulúa pottery in the Smithsonian (NMAI)"
+    ],
+    [
+     "https://peabody.harvard.edu/",
+     "Peabody Museum, Harvard",
+     "early excavated Ulúa valley collections"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Las Vegas Polychrome",
+     "Sub-types",
+     "related polychrome of the Lake Yojoa area",
+     "r3 https://www.floridamuseum.ufl.edu/latinarch/catalog/intermediate-area-artifacts/",
+     0
+    ],
+    [
+     "Travesía",
+     "Centres & workshops",
+     "Late Classic centre in the lower Ulúa valley",
+     "r3 https://en.wikipedia.org/wiki/Travesía",
+     0
+    ],
+    [
+     "Los Naranjos",
+     "Centres & workshops",
+     "site on Lake Yojoa",
+     "r3 https://en.wikipedia.org/wiki/Los_Naranjos",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Ulúa polychrome pottery"
+   ]
+  },
+  {
+   "key": "SELIN",
+   "sub": "E1",
+   "label": "Selin Pottery",
+   "breadth": "narrow",
+   "defn": "Pottery of the Selin period (c. 300–1000 CE) of north-eastern Honduras, defined from excavations near Trujillo: incised and appliqué bowls, effigy rattles and supports.",
+   "aliases": "Selin Tradition",
+   "see": "Ulúa Polychrome",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Pre-Columbian_Honduras",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Selin",
+     "Smithsonian collections search: Selin",
+     "Selin pottery in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "North-east Honduras",
+     "Centres & workshops",
+     "the Caribbean coast around Trujillo where the period was defined",
+     "r3 https://en.wikipedia.org/wiki/History_of_Honduras",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Selin pottery"
+   ]
+  },
+  {
+   "key": "USULUTAN",
+   "sub": "E1",
+   "label": "Usulután Ware",
+   "breadth": "narrow",
+   "defn": "Resist-decorated pottery of south-eastern Mesoamerica, c. 500 BCE–250 CE, with wavy parallel lines left light on an orange slip, centred on El Salvador and traded into the Maya region.",
+   "aliases": "Usulután resist ware",
+   "see": "Maya Ceramics",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Usulután",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Chalchuapa",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Usulutan",
+     "Smithsonian collections search: Usulutan",
+     "Usulután ware in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Resist decoration",
+     "Sub-types",
+     "wavy multiple lines left light under a darker slip",
+     "r3 https://en.wikipedia.org/wiki/Usulután",
+     0
+    ],
+    [
+     "Chalchuapa",
+     "Centres & workshops",
+     "Late Preclassic centre in El Salvador with abundant Usulután ware",
+     "r3 https://en.wikipedia.org/wiki/Chalchuapa",
+     0
+    ],
+    [
+     "Usulután",
+     "Centres & workshops",
+     "the Salvadoran department after which the ware is named",
+     "r3 https://en.wikipedia.org/wiki/Usulután",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Usulután ware"
+   ]
+  },
+  {
+   "key": "ZAPOTEC",
+   "sub": "E1",
+   "label": "Zapotec Ceramics",
+   "breadth": "narrow",
+   "defn": "Pottery of the Zapotec civilization of the Valley of Oaxaca (c. 500 BCE–1500 CE), above all grey-ware effigy urns of deities such as Cocijo set in tombs, and the phases of Monte Albán.",
+   "aliases": "Zapotec urns; Zapotec pottery",
+   "see": "Mixtec Codices; Barro Negro Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Zapotec_civilization",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Monte_Albán",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Zapotec",
+     "Smithsonian collections search: Zapotec",
+     "Zapotec ceramics in the Smithsonian (NMAI)"
+    ],
+    [
+     "https://mediateca.inah.gob.mx/",
+     "Mediateca INAH",
+     "Mexico's national archaeological and ethnographic collections online"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Zapotec",
+     "The Met collection: Zapotec",
+     "Zapotec urns at the Met"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Effigy urns",
+     "Sub-types",
+     "funerary urns with seated deity or ancestor figures",
+     "r3 https://en.wikipedia.org/wiki/Zapotec_civilization",
+     0
+    ],
+    [
+     "Cocijo",
+     "Sub-types",
+     "rain-god image, the most frequent urn deity",
+     "r3 https://en.wikipedia.org/wiki/Cocijo",
+     0
+    ],
+    [
+     "Monte Albán",
+     "Centres & workshops",
+     "Zapotec capital whose phases (I–V) date the pottery",
+     "r3 https://en.wikipedia.org/wiki/Monte_Albán",
+     0
+    ],
+    [
+     "Lambityeco",
+     "Centres & workshops",
+     "Late Classic Zapotec site with modelled tomb figures",
+     "r3 https://en.wikipedia.org/wiki/Lambityeco",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Zapotec ceramics"
+   ]
+  },
+  {
+   "key": "MIXPUE",
+   "sub": "E1",
+   "label": "Mixteca-Puebla Polychrome",
+   "breadth": "narrow",
+   "defn": "Late Postclassic (c. 1200–1520) painted pottery of Puebla, Tlaxcala and the Mixteca in the Mixteca-Puebla style shared with the Borgia Group codices: Cholula polychrome lacquer-like wares and Puebla-Tlaxcala codex-style vessels.",
+   "aliases": "Cholula polychrome; Puebla-Tlaxcala polychrome; codex-style pottery",
+   "see": "Borgia Group; Aztec Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Cholula_(Mesoamerican_site)",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Mixtec",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Mixteca-Puebla",
+     "Smithsonian collections search: Mixteca-Puebla",
+     "Mixteca-Puebla ceramics in the Smithsonian (NMAI)"
+    ],
+    [
+     "https://mediateca.inah.gob.mx/",
+     "Mediateca INAH",
+     "Mexico's national archaeological and ethnographic collections online"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Cholula polychrome",
+     "Sub-types",
+     "glossy painted ware of Cholula traded across Mesoamerica",
+     "r3 https://en.wikipedia.org/wiki/Cholula_(Mesoamerican_site)",
+     0
+    ],
+    [
+     "Puebla-Tlaxcala polychrome",
+     "Sub-types",
+     "codex-style vessels of the Puebla-Tlaxcala valley",
+     "r3 https://en.wikipedia.org/wiki/Tlaxcala_(Nahua_state)",
+     0
+    ],
+    [
+     "Cholula",
+     "Centres & workshops",
+     "Puebla city and pilgrimage centre, chief producer",
+     "r3 https://en.wikipedia.org/wiki/Cholula_(Mesoamerican_site)",
+     0
+    ],
+    [
+     "Tlaxcala",
+     "Centres & workshops",
+     "Nahua state east of the Valley of Mexico",
+     "r3 https://en.wikipedia.org/wiki/Tlaxcala_(Nahua_state)",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Mixteca-Puebla polychrome pottery",
+    "Puebla-Tlaxcala polychrome pottery"
+   ]
+  },
+  {
+   "key": "AZTECPOT",
+   "sub": "E1",
+   "label": "Aztec Pottery",
+   "breadth": "narrow",
+   "defn": "Pottery of the Basin of Mexico in the Aztec period (c. 1150–1520): Aztec Black-on-Orange in phases I–IV, red wares, Texcoco fabric-marked salt vessels, censers and figurines, from Tenochtitlan and the Templo Mayor offerings.",
+   "aliases": "Aztec ceramics; Mexica pottery",
+   "see": "Aztec Sculpture; Mixteca-Puebla Polychrome",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Aztec_pottery",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://mediateca.inah.gob.mx/",
+     "Mediateca INAH",
+     "Mexico's national archaeological and ethnographic collections online"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=Aztec",
+     "Smithsonian collections search: Aztec",
+     "Aztec pottery in the Smithsonian (NMAI)"
+    ],
+    [
+     "https://www.templomayor.inah.gob.mx/",
+     "Museo del Templo Mayor",
+     "offerings from the Templo Mayor of Tenochtitlan"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Aztec Black-on-Orange",
+     "Sub-types",
+     "the diagnostic Basin of Mexico ware, seriated in phases I–IV",
+     "r3 https://en.wikipedia.org/wiki/Aztec_pottery",
+     0
+    ],
+    [
+     "Tenochtitlan",
+     "Centres & workshops",
+     "Mexica capital",
+     "r3 https://en.wikipedia.org/wiki/Tenochtitlan",
+     0
+    ],
+    [
+     "Templo Mayor",
+     "Centres & workshops",
+     "main temple whose offerings preserve ritual ceramics",
+     "r3 https://en.wikipedia.org/wiki/Templo_Mayor",
+     0
+    ],
+    [
+     "Texcoco",
+     "Centres & workshops",
+     "Acolhua capital",
+     "r3 https://en.wikipedia.org/wiki/Texcoco",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Aztec pottery"
+   ]
+  },
+  {
+   "key": "PUREPECHA",
+   "sub": "E1",
+   "label": "Purépecha Pottery",
+   "breadth": "narrow",
+   "defn": "Pottery of the Tarascan (Purépecha) state of Michoacán, c. 1350–1530: spouted and stirrup-handled jars, painted and negative-decorated vessels and figures from Tzintzuntzan and Ihuatzio, and later Purépecha village pottery.",
+   "aliases": "Tarascan pottery",
+   "see": "Mexican Lacquerware",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Tarascan_state",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Purépecha",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Purepecha",
+     "Smithsonian collections search: Purepecha",
+     "Purépecha (Tarascan) pottery in the Smithsonian (NMAI)"
+    ],
+    [
+     "https://mediateca.inah.gob.mx/",
+     "Mediateca INAH",
+     "Mexico's national archaeological and ethnographic collections online"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Spouted jars",
+     "Sub-types",
+     "teapot-like spouted and stirrup-handled vessels",
+     "r3 https://en.wikipedia.org/wiki/Tarascan_state",
+     0
+    ],
+    [
+     "Tzintzuntzan",
+     "Centres & workshops",
+     "Tarascan capital on Lake Pátzcuaro",
+     "r3 https://en.wikipedia.org/wiki/Tzintzuntzan",
+     0
+    ],
+    [
+     "Ihuatzio",
+     "Centres & workshops",
+     "Tarascan ceremonial centre",
+     "r3 https://en.wikipedia.org/wiki/Ihuatzio",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Purépecha pottery"
+   ]
+  },
+  {
+   "key": "TUMACO",
+   "sub": "E1",
+   "label": "Tumaco-La Tolita Ceramics",
+   "breadth": "narrow",
+   "defn": "Mould-made and modelled ceramic figures, masks, vessels and plaques of the Tumaco-La Tolita culture of the Pacific coast of Colombia and Ecuador (c. 600 BCE–350 CE): seated figures, erotic and deity figurines, feline masks.",
+   "aliases": "Tolita pottery; Tumaco figurines",
+   "see": "Tumaco-La Tolita Goldwork; Jama-Coaque Ceramics",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Tumaco-La_Tolita_culture",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/La_Tolita",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.banrepcultural.org/museo-del-oro",
+     "Museo del Oro, Bogotá",
+     "Colombia's national collection of pre-Hispanic goldwork and pottery"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=Tumaco+La+Tolita",
+     "Smithsonian collections search: Tumaco La Tolita",
+     "Tumaco-La Tolita objects in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Mould-made figurines",
+     "Sub-types",
+     "figures pressed in moulds, the culture's most numerous art",
+     "r3 https://en.wikipedia.org/wiki/Tumaco-La_Tolita_culture",
+     0
+    ],
+    [
+     "La Tolita",
+     "Centres & workshops",
+     "island ceremonial centre in Esmeraldas, Ecuador",
+     "r3 https://en.wikipedia.org/wiki/La_Tolita",
+     0
+    ],
+    [
+     "Tumaco",
+     "Centres & workshops",
+     "Colombian Pacific port region of the culture's sites",
+     "r3 https://en.wikipedia.org/wiki/Tumaco",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Tumaco-La Tolita ceramics"
+   ]
+  },
+  {
+   "key": "JAMA",
+   "sub": "E1",
+   "label": "Jama-Coaque Ceramics",
+   "breadth": "narrow",
+   "defn": "Hollow and mould-made ceramic figures, pipes and stamps of the Jama-Coaque culture of northern Manabí, Ecuador (c. 350 BCE–1530 CE), showing costumed shamans, warriors and dignitaries.",
+   "aliases": "Jama-Coaque figures",
+   "see": "Bahía Figurines; Tumaco-La Tolita Ceramics",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Jama_Canton",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Manabí_Province",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Jama-Coaque",
+     "Smithsonian collections search: Jama-Coaque",
+     "Jama-Coaque objects in the Smithsonian (NMAI)"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Jama-Coaque",
+     "The Met collection: Jama-Coaque",
+     "Jama-Coaque figures at the Met"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Jama valley",
+     "Centres & workshops",
+     "valley of northern Manabí where the culture is named",
+     "r3 https://en.wikipedia.org/wiki/Jama_Canton",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Jama-Coaque ceramics"
+   ]
+  },
+  {
+   "key": "MANTENO",
+   "sub": "E1",
+   "label": "Manteño-Huancavilca Pottery",
+   "breadth": "narrow",
+   "defn": "Burnished black and grey pottery of the Manteño-Huancavilca culture of coastal Ecuador (c. 800–1532 CE): figural whistles and jars, ceramic figures and spindle whorls, alongside the stone U-shaped seats.",
+   "aliases": "Manteño pottery",
+   "see": "Bahía Figurines",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Manteño-Huancavilca_culture",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Mante%C3%B1o",
+     "Smithsonian collections search: Manteño",
+     "Manteño-Huancavilca objects in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Manta",
+     "Centres & workshops",
+     "port at the centre of the Manteño area",
+     "r3 https://en.wikipedia.org/wiki/Manta,_Ecuador",
+     0
+    ],
+    [
+     "Agua Blanca",
+     "Centres & workshops",
+     "Manteño town site in Machalilla National Park",
+     "r3 https://en.wikipedia.org/wiki/Agua_Blanca",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Manteño-Huancavilca pottery"
+   ]
+  },
+  {
+   "key": "CARCHI",
+   "sub": "E1",
+   "label": "Carchi-Nariño Pottery",
+   "breadth": "narrow",
+   "defn": "Pottery of the highland Carchi (Ecuador) and Nariño (Colombia) region, c. 700–1500 CE, in the Capulí, Piartal and Tuza complexes: negative-painted footed bowls, coqueros figures chewing coca, ocarinas.",
+   "aliases": "Nariño pottery; Carchi pottery; Capulí pottery",
+   "see": "Barniz de Pasto",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Nariño_culture",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Capulí_culture",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.banrepcultural.org/museo-del-oro",
+     "Museo del Oro, Bogotá",
+     "Colombia's national collection of pre-Hispanic goldwork and pottery"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=Carchi",
+     "Smithsonian collections search: Carchi",
+     "Carchi-Nariño pottery in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Capulí",
+     "Schools & phases",
+     "complex of negative-painted bowls and seated coquero figures",
+     "r3 https://en.wikipedia.org/wiki/Capulí_culture",
+     0
+    ],
+    [
+     "Piartal",
+     "Schools & phases",
+     "later complex with painted geometric and animal designs",
+     "r3 https://en.wikipedia.org/wiki/Nariño_culture",
+     0
+    ],
+    [
+     "Tuza",
+     "Schools & phases",
+     "latest complex, red-on-cream painting",
+     "r3 https://en.wikipedia.org/wiki/Nariño_culture",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Carchi (Nariño) pottery"
+   ]
+  },
+  {
+   "key": "QUIMBAYA",
+   "sub": "E1",
+   "label": "Quimbaya Pottery",
+   "breadth": "narrow",
+   "defn": "Pottery of the Quimbaya region of the middle Cauca valley, Colombia (c. 500 BCE–1600 CE): seated 'cacique' figures, negative-painted and incised vessels and urns of Early and Late Quimbaya.",
+   "aliases": "Quimbaya ceramics",
+   "see": "Quimbaya Goldwork",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Quimbaya_culture",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.banrepcultural.org/museo-del-oro",
+     "Museo del Oro, Bogotá",
+     "Colombia's national collection of pre-Hispanic goldwork and pottery"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=Quimbaya",
+     "Smithsonian collections search: Quimbaya",
+     "Quimbaya objects in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Early Quimbaya",
+     "Schools & phases",
+     "Classic period of the gold Treasure of the Quimbayas",
+     "r3 https://en.wikipedia.org/wiki/Quimbaya_culture",
+     0
+    ],
+    [
+     "Late Quimbaya",
+     "Schools & phases",
+     "later period of slab figures and urns",
+     "r3 https://en.wikipedia.org/wiki/Quimbaya_culture",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Quimbaya pottery"
+   ]
+  },
+  {
+   "key": "TAIRONA",
+   "sub": "E1",
+   "label": "Tairona Pottery",
+   "breadth": "narrow",
+   "defn": "Black and red pottery of the Tairona of the Sierra Nevada de Santa Marta, Colombia (c. 200–1600 CE): footed and effigy vessels, ocarinas and figures from stone-terraced towns such as Ciudad Perdida.",
+   "aliases": "Tayrona pottery",
+   "see": "Tairona Goldwork",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Tairona",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.banrepcultural.org/museo-del-oro",
+     "Museo del Oro, Bogotá",
+     "Colombia's national collection of pre-Hispanic goldwork and pottery"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=Tairona",
+     "Smithsonian collections search: Tairona",
+     "Tairona objects in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Ciudad Perdida",
+     "Centres & workshops",
+     "Teyuna, the largest Tairona town (c. 800 CE)",
+     "r3 https://en.wikipedia.org/wiki/Ciudad_Perdida",
+     0
+    ],
+    [
+     "Sierra Nevada de Santa Marta",
+     "Centres & workshops",
+     "mountain massif of the Tairona towns, Colombia",
+     "r3 https://en.wikipedia.org/wiki/Sierra_Nevada_de_Santa_Marta",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Tairona pottery"
+   ]
+  },
+  {
+   "key": "INCAPOT",
+   "sub": "E1",
+   "label": "Inca Pottery",
+   "breadth": "narrow",
+   "defn": "Imperial Inca pottery (c. 1400–1532) in the Cusco polychrome style spread through the empire: aryballos (urpu) storage jars, plates with bird handles and pedestal pots, alongside local Inca-provincial wares.",
+   "aliases": "Inka pottery; Cusco polychrome",
+   "see": "Inca Textiles; Inca Metalwork; Inca Architecture",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Aryballos",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Inca_Empire",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.museolarco.org/",
+     "Museo Larco, Lima",
+     "major Peruvian collection of ancient Andean ceramics, online catalogue"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=Inka",
+     "Smithsonian collections search: Inka",
+     "Inca pottery in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Aryballos",
+     "Sub-types",
+     "narrow-necked storage jar with nubbin and strap handles",
+     "r3 https://en.wikipedia.org/wiki/Aryballos",
+     0
+    ],
+    [
+     "Cusco",
+     "Centres & workshops",
+     "imperial capital and origin of the style",
+     "r3 https://en.wikipedia.org/wiki/Cusco",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Inca pottery"
+   ]
+  },
+  {
+   "key": "WARIPOT",
+   "sub": "E1",
+   "label": "Wari Pottery",
+   "breadth": "narrow",
+   "defn": "Polychrome pottery of the Wari state of the central Andes (c. 600–1000 CE): oversized offering urns with staff-god faces smashed in ritual at Conchopata, face-neck jars and kero cups in the Chakipampa, Robles Moqo and Viñaque styles.",
+   "aliases": "Huari pottery",
+   "see": "Wari Textiles; Tiwanaku Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Wari_culture",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Conchopata",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.museolarco.org/",
+     "Museo Larco, Lima",
+     "major Peruvian collection of ancient Andean ceramics, online catalogue"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=Wari",
+     "Smithsonian collections search: Wari",
+     "Wari pottery in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Conchopata",
+     "Centres & workshops",
+     "Ayacucho site of the smashed oversized urns",
+     "r3 https://en.wikipedia.org/wiki/Conchopata",
+     0
+    ],
+    [
+     "Wari",
+     "Centres & workshops",
+     "capital near Ayacucho",
+     "r3 https://en.wikipedia.org/wiki/Wari_(archaeological_site)",
+     0
+    ],
+    [
+     "Pikillaqta",
+     "Centres & workshops",
+     "Wari administrative centre near Cusco",
+     "r3 https://en.wikipedia.org/wiki/Pikillaqta",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Wari pottery"
+   ]
+  },
+  {
+   "key": "TIWANAKU",
+   "sub": "E1",
+   "label": "Tiwanaku Pottery",
+   "breadth": "narrow",
+   "defn": "Polychrome pottery of Tiwanaku in the Lake Titicaca basin (c. 500–1000 CE): flaring kero beakers, puma-headed incense burners and tazones painted with condor and feline heads.",
+   "aliases": "Tiahuanaco pottery",
+   "see": "Wari Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Tiwanaku",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Tiwanaku",
+     "Smithsonian collections search: Tiwanaku",
+     "Tiwanaku pottery in the Smithsonian (NMAI)"
+    ],
+    [
+     "https://www.museolarco.org/",
+     "Museo Larco, Lima",
+     "major Peruvian collection of ancient Andean ceramics, online catalogue"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Kero",
+     "Sub-types",
+     "flaring drinking beaker, Tiwanaku's signature form",
+     "r3 https://en.wikipedia.org/wiki/Kero",
+     0
+    ],
+    [
+     "Puma incense burners",
+     "Sub-types",
+     "incensarios with modelled puma heads",
+     "r3 https://en.wikipedia.org/wiki/Tiwanaku",
+     0
+    ],
+    [
+     "Tiwanaku",
+     "Centres & workshops",
+     "the capital near Lake Titicaca",
+     "r3 https://en.wikipedia.org/wiki/Tiwanaku",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Tiwanaku pottery"
+   ]
+  },
+  {
+   "key": "SICAN",
+   "sub": "E1",
+   "label": "Sicán Pottery",
+   "breadth": "narrow",
+   "defn": "Burnished blackware of the Middle Sicán (Lambayeque) culture of Peru's north coast (c. 900–1100 CE): single-spout and stirrup bottles with the Sicán Lord face, whistling vessels and paddle-stamped wares.",
+   "aliases": "Lambayeque pottery",
+   "see": "Sicán Metalwork; Chimú Blackware",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Lambayeque_culture",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.museolarco.org/",
+     "Museo Larco, Lima",
+     "major Peruvian collection of ancient Andean ceramics, online catalogue"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=Sican",
+     "Smithsonian collections search: Sican",
+     "Sicán pottery in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Sicán Lord bottles",
+     "Sub-types",
+     "bottles with the face of the Sicán deity",
+     "r3 https://en.wikipedia.org/wiki/Lambayeque_culture",
+     0
+    ],
+    [
+     "Batán Grande",
+     "Centres & workshops",
+     "Sicán capital and cemetery in the Lambayeque valley",
+     "r3 https://en.wikipedia.org/wiki/Batán_Grande",
+     0
+    ],
+    [
+     "Túcume",
+     "Centres & workshops",
+     "later Lambayeque pyramid centre",
+     "r3 https://en.wikipedia.org/wiki/Túcume",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Sicán (Lambayeque) pottery"
+   ]
+  },
+  {
+   "key": "CHANCAY",
+   "sub": "E1",
+   "label": "Chancay Pottery",
+   "breadth": "narrow",
+   "defn": "Black-on-white matte pottery of the Chancay culture of Peru's central coast (c. 1000–1470 CE): large ovoid jars with painted faces and cuchimilco standing figures with raised arms.",
+   "aliases": "Chancay black-on-white",
+   "see": "Chancay Textiles",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Chancay_culture",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.museolarco.org/",
+     "Museo Larco, Lima",
+     "major Peruvian collection of ancient Andean ceramics, online catalogue"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=Chancay",
+     "Smithsonian collections search: Chancay",
+     "Chancay pottery in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Cuchimilco",
+     "Sub-types",
+     "hollow standing figure with raised arms, placed in tombs",
+     "r3 https://en.wikipedia.org/wiki/Cuchimilco",
+     0
+    ],
+    [
+     "Chancay black-on-white",
+     "Sub-types",
+     "matte white-slipped ware painted in black, the culture's hallmark",
+     "r3 https://en.wikipedia.org/wiki/Chancay_culture",
+     0
+    ],
+    [
+     "Chancay valley",
+     "Centres & workshops",
+     "central-coast valley north of Lima",
+     "r3 https://en.wikipedia.org/wiki/Chancay",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Chancay pottery"
+   ]
+  },
+  {
+   "key": "ICACHINCHA",
+   "sub": "E1",
+   "label": "Ica-Chincha Pottery",
+   "breadth": "narrow",
+   "defn": "Late Intermediate pottery of the Ica and Chincha valleys of Peru's south coast (c. 1000–1476 CE), with textile-like geometric painting in black, white and red on globular jars and bowls.",
+   "aliases": "Ica pottery; Chincha pottery",
+   "see": "Nazca Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Chincha_culture",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Ica,_Peru",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Ica-Chincha",
+     "Smithsonian collections search: Ica-Chincha",
+     "Ica-Chincha pottery in the Smithsonian (NMAI)"
+    ],
+    [
+     "https://www.museolarco.org/",
+     "Museo Larco, Lima",
+     "major Peruvian collection of ancient Andean ceramics, online catalogue"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Chincha",
+     "Centres & workshops",
+     "valley of the Chincha kingdom of traders",
+     "r3 https://en.wikipedia.org/wiki/Chincha_culture",
+     0
+    ],
+    [
+     "Ica",
+     "Centres & workshops",
+     "valley of the Ica style",
+     "r3 https://en.wikipedia.org/wiki/Ica,_Peru",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Ica-Chincha pottery"
+   ]
+  },
+  {
+   "key": "HUMAHUACA",
+   "sub": "E1",
+   "label": "Humahuaca Pottery",
+   "breadth": "narrow",
+   "defn": "Late pottery of the Quebrada de Humahuaca in north-western Argentina (c. 900–1535 CE), black-on-red bowls and jars and later Humahuaca-Inca vessels from pucará hill-forts such as Tilcara.",
+   "aliases": "Humahuaca-Inca pottery",
+   "see": "Inca Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Quebrada_de_Humahuaca",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Humahuaca",
+     "Smithsonian collections search: Humahuaca",
+     "Humahuaca pottery in the Smithsonian (NMAI)"
+    ],
+    [
+     "https://precolombino.cl/",
+     "Museo Chileno de Arte Precolombino",
+     "Chile's museum of pre-Columbian art and its collection"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Humahuaca-Inca style",
+     "Schools & phases",
+     "local wares made under Inca rule (c. 1430–1535)",
+     "r3 https://en.wikipedia.org/wiki/Quebrada_de_Humahuaca",
+     0
+    ],
+    [
+     "Pucará de Tilcara",
+     "Centres & workshops",
+     "fortified settlement of the Quebrada",
+     "r3 https://en.wikipedia.org/wiki/Pucará_de_Tilcara",
+     0
+    ],
+    [
+     "Quebrada de Humahuaca",
+     "Centres & workshops",
+     "valley in Jujuy, UNESCO World Heritage",
+     "r3 https://en.wikipedia.org/wiki/Quebrada_de_Humahuaca",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Humahuaca pottery"
+   ]
+  },
+  {
+   "key": "SPATACAMA",
+   "sub": "E1",
+   "label": "San Pedro de Atacama Pottery",
+   "breadth": "narrow",
+   "defn": "Polished black and red pottery of the San Pedro de Atacama oases in northern Chile (c. 500 BCE–1450 CE), with grey-black polished bowls and ladles, found with snuff trays and Tiwanaku imports.",
+   "aliases": "San Pedro polished blackware",
+   "see": "Tiwanaku Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/San_Pedro_de_Atacama",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Atacameño",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://precolombino.cl/",
+     "Museo Chileno de Arte Precolombino",
+     "Chile's museum of pre-Columbian art and its collection"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=San+Pedro+de+Atacama",
+     "Smithsonian collections search: San Pedro de Atacama",
+     "San Pedro de Atacama pottery in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "San Pedro de Atacama",
+     "Centres & workshops",
+     "oasis town and cemeteries of the tradition",
+     "r3 https://en.wikipedia.org/wiki/San_Pedro_de_Atacama",
+     0
+    ]
+   ],
+   "collections_from": [
+    "San Pedro de Atacama pottery"
+   ]
+  },
+  {
+   "key": "MAPUCHEPOT",
+   "sub": "E1",
+   "label": "Mapuche Pottery",
+   "breadth": "narrow",
+   "defn": "Pottery of the Mapuche of south-central Chile and Argentina: metawe jars, ketru metawe duck-shaped jars and red-and-white painted vessels of the Vergel and Valdivia styles, still made by women potters.",
+   "aliases": "metawe",
+   "see": "Mapuche Silverwork; Mapuche Textiles; Quinchamalí Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Mapuche",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://precolombino.cl/",
+     "Museo Chileno de Arte Precolombino",
+     "Chile's museum of pre-Columbian art and its collection"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=Mapuche",
+     "Smithsonian collections search: Mapuche",
+     "Mapuche objects in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Metawe",
+     "Sub-types",
+     "the jar, the basic Mapuche pottery form",
+     "r3 https://en.wikipedia.org/wiki/Mapuche",
+     0
+    ],
+    [
+     "Ketru metawe",
+     "Sub-types",
+     "jar in the form of a duck",
+     "r3 https://en.wikipedia.org/wiki/Mapuche",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Mapuche pottery"
+   ]
+  },
+  {
+   "key": "CHACHI",
+   "sub": "E1",
+   "label": "Chachi Pottery",
+   "breadth": "narrow",
+   "defn": "Pottery of the Chachi (Cayapas) of Esmeraldas, Ecuador, made by women for cooking and ritual drinking.",
+   "aliases": "Cayapas pottery",
+   "see": "",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Chachi_people",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Chachi",
+     "Smithsonian collections search: Chachi",
+     "Chachi objects in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Esmeraldas",
+     "Centres & workshops",
+     "Ecuadorian province of the Chachi rivers",
+     "r3 https://en.wikipedia.org/wiki/Esmeraldas",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Chachi pottery"
+   ]
+  },
+  {
+   "key": "NGABE",
+   "sub": "E1",
+   "label": "Ngäbe Pottery",
+   "breadth": "narrow",
+   "defn": "Pottery of the Ngäbe (Guaymí) of western Panama, bowls and pipe bowls of the Ngäbe-Buglé region.",
+   "aliases": "Guaymí pottery",
+   "see": "Chiriquí Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Ngäbe",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Ngabe",
+     "Smithsonian collections search: Ngabe",
+     "Ngäbe objects in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Ngäbe-Buglé Comarca",
+     "Centres & workshops",
+     "Indigenous territory of the Ngäbe",
+     "r3 https://en.wikipedia.org/wiki/Ngäbe-Buglé_Comarca",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Ngäbe pottery"
+   ]
+  },
+  {
+   "key": "KALINA",
+   "sub": "E1",
+   "label": "Kali'na Pottery",
+   "breadth": "narrow",
+   "defn": "Pottery of the Kali'na (Carib, Galibi) of coastal Suriname, Guyana and French Guiana: red and black painted jars, double jars and griddles made by women along the Marowijne.",
+   "aliases": "Carib pottery; Galibi pottery",
+   "see": "Akawaio Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Kali'na",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Carib+Suriname",
+     "Smithsonian collections search: Carib Suriname",
+     "Kali'na objects in the Smithsonian (NMAI)"
+    ],
+    [
+     "https://collectie.wereldculturen.nl/",
+     "Wereldculturen collection (NMVW)",
+     "Museum Volkenkunde, Tropenmuseum, Afrika Museum and Wereldmuseum Rotterdam"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Marowijne River",
+     "Centres & workshops",
+     "border river of Suriname and French Guiana with Kali'na villages",
+     "r3 https://en.wikipedia.org/wiki/Marowijne_River",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Kali'na (Carib) pottery"
+   ]
+  },
+  {
+   "key": "AKAWAIO",
+   "sub": "E1",
+   "label": "Akawaio Pottery",
+   "breadth": "narrow",
+   "defn": "Pottery of the Akawaio (Kapon) of the upper Mazaruni, Guyana, including pipe bowls and cooking pots.",
+   "aliases": "Acawai pottery",
+   "see": "Kali'na Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Akawaio_people",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Akawaio",
+     "Smithsonian collections search: Akawaio",
+     "Akawaio objects in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Akawaio",
+     "Centres & workshops",
+     "Cariban people of the Guiana Highlands",
+     "r3 https://en.wikipedia.org/wiki/Akawaio_people",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Akawaio pottery"
+   ]
+  },
+  {
+   "key": "VALENCIOID",
+   "sub": "E1",
+   "label": "Valencioid Pottery",
+   "breadth": "narrow",
+   "defn": "Unpainted, richly modelled pottery and figurines of the Valencioid series around Lake Valencia, north-central Venezuela (c. 900–1500 CE): coffee-bean-eyed female figurines and anthropomorphic jars.",
+   "aliases": "Valencia phase pottery; Valencia figurines",
+   "see": "Tierroid Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Lake_Valencia",
+     "Wikipedia"
+    ],
+    [
+     "https://www.floridamuseum.ufl.edu/latinarch/catalog/intermediate-area-artifacts/",
+     "museum"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Valencioid",
+     "Smithsonian collections search: Valencioid",
+     "Valencioid objects in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Valencia phase figurines",
+     "Sub-types",
+     "female figurines with broad heads, the 'Valencia phase trait'",
+     "r3 https://www.floridamuseum.ufl.edu/latinarch/catalog/intermediate-area-artifacts/",
+     0
+    ],
+    [
+     "El Topo style",
+     "Sub-types",
+     "late coastal style of the Valencioid series",
+     "r3 https://link.springer.com/article/10.1007/s10963-017-9102-y",
+     0
+    ],
+    [
+     "Lake Valencia",
+     "Centres & workshops",
+     "the lake basin defining the series",
+     "r3 https://en.wikipedia.org/wiki/Lake_Valencia",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Valencioid pottery"
+   ]
+  },
+  {
+   "key": "TIERROID",
+   "sub": "E1",
+   "label": "Tierroid Pottery",
+   "breadth": "narrow",
+   "defn": "Figurines and vessels of the Tierroid series (Tierra de los Indios style) of western Venezuela, white-on-red painted figures classified by head form.",
+   "aliases": "Tierra de los Indios style",
+   "see": "Valencioid Pottery",
+   "src": [
+    [
+     "https://www.floridamuseum.ufl.edu/latinarch/catalog/intermediate-area-artifacts/",
+     "museum"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Tierroid",
+     "Smithsonian collections search: Tierroid",
+     "Tierroid objects in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Tierra de los Indios style",
+     "Sub-types",
+     "figurine style of five groups defined by head and body form",
+     "r3 https://www.floridamuseum.ufl.edu/latinarch/catalog/intermediate-area-artifacts/",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Tierroid pottery"
+   ]
+  },
+  {
+   "key": "SALADOID",
+   "sub": "E1",
+   "label": "Saladoid Pottery",
+   "breadth": "narrow",
+   "defn": "White-on-red painted and zoned-incised pottery of the Saladoid series, made by the first farming potters to move from the Orinoco into the Antilles (c. 500 BCE–600 CE): bell-shaped bowls, effigy adornos and griddles.",
+   "aliases": "Saladoid ceramics; Cedrosan Saladoid",
+   "see": "Ostionoid Pottery; Troumassoid Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Saladoid",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Saladoid",
+     "Smithsonian collections search: Saladoid",
+     "Saladoid objects in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Cedrosan Saladoid",
+     "Sub-types",
+     "white-on-red painted subseries of the Lesser Antilles and Puerto Rico",
+     "r3 https://en.wikipedia.org/wiki/Saladoid",
+     0
+    ],
+    [
+     "Huecan Saladoid",
+     "Sub-types",
+     "zoned-incised subseries of La Hueca, Vieques",
+     "r3 https://en.wikipedia.org/wiki/Saladoid",
+     0
+    ],
+    [
+     "Saladero",
+     "Centres & workshops",
+     "type site on the lower Orinoco, Venezuela",
+     "r3 https://en.wikipedia.org/wiki/Saladero",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Saladoid pottery"
+   ]
+  },
+  {
+   "key": "OSTIONOID",
+   "sub": "E1",
+   "label": "Ostionoid Pottery",
+   "breadth": "narrow",
+   "defn": "Pottery of the Ostionoid series of the Greater Antilles (c. 600–1500 CE), developing from the Saladoid and ending in the Chican wares of the Taíno: red-slipped Ostionan, Elenan, Meillacan and Chican (Chicoid) subseries with modelled-incised adornos.",
+   "aliases": "Taíno pottery; Chicoid pottery",
+   "see": "Saladoid Pottery; Taíno Zemís",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Taíno",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Saladoid",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Ostionoid",
+     "Smithsonian collections search: Ostionoid",
+     "Ostionoid objects in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Ostionan Ostionoid",
+     "Sub-types",
+     "earliest red-slipped subseries, Puerto Rico and Hispaniola",
+     "r3 https://en.wikipedia.org/wiki/Taíno",
+     0
+    ],
+    [
+     "Elenan Ostionoid",
+     "Sub-types",
+     "subseries of eastern Puerto Rico and the Virgin Islands",
+     "r3 https://en.wikipedia.org/wiki/Taíno",
+     0
+    ],
+    [
+     "Meillacan Ostionoid",
+     "Sub-types",
+     "appliqué and incised subseries of Hispaniola, Jamaica and Cuba",
+     "r3 https://en.wikipedia.org/wiki/Taíno",
+     0
+    ],
+    [
+     "Chican Ostionoid",
+     "Sub-types",
+     "the Taíno subseries with modelled-incised effigy adornos",
+     "r3 https://en.wikipedia.org/wiki/Taíno",
+     0
+    ],
+    [
+     "Tibes",
+     "Centres & workshops",
+     "ceremonial centre near Ponce, Puerto Rico",
+     "r3 https://en.wikipedia.org/wiki/Tibes_Indigenous_Ceremonial_Center",
+     0
+    ],
+    [
+     "Caguana",
+     "Centres & workshops",
+     "Taíno ball-court site, Utuado, Puerto Rico",
+     "r3 https://en.wikipedia.org/wiki/Caguana_Ceremonial_Ball_Courts_Site",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Ostionoid pottery",
+    "Chican Ostionoid (Taíno) pottery",
+    "Elenan Ostionoid pottery",
+    "Meillacan Ostionoid pottery",
+    "Ostionan Ostionoid pottery"
+   ]
+  },
+  {
+   "key": "TROUMASSOID",
+   "sub": "E1",
+   "label": "Troumassoid Pottery",
+   "breadth": "narrow",
+   "defn": "Post-Saladoid pottery of the Lesser Antilles (c. 600–1500 CE), red-slipped dishes, legged griddles and painted Calivigny ware, in the Troumassan, Mamoran and Suazan subseries.",
+   "aliases": "Suazoid pottery; Troumassoid series",
+   "see": "Saladoid Pottery",
+   "src": [
+    [
+     "https://www.universiteitleiden.nl/en/research/research-projects/archaeology/guadeloupe",
+     "museum"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Troumassoid",
+     "Smithsonian collections search: Troumassoid",
+     "Troumassoid objects in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Troumassan Troumassoid",
+     "Sub-types",
+     "earlier subseries of the Windward Islands",
+     "r3 https://www.universiteitleiden.nl/en/research/research-projects/archaeology/guadeloupe",
+     0
+    ],
+    [
+     "Mamoran Troumassoid",
+     "Sub-types",
+     "subseries of the northern Lesser Antilles",
+     "r3 https://www.universiteitleiden.nl/en/research/research-projects/archaeology/guadeloupe",
+     0
+    ],
+    [
+     "Suazan Troumassoid",
+     "Sub-types",
+     "late subseries (Suazoid), with finger-indented rims and Calivigny painted ware",
+     "r3 https://www.universiteitleiden.nl/en/research/research-projects/archaeology/guadeloupe",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Troumassoid pottery"
+   ]
+  },
+  {
+   "key": "MOGOLLON",
+   "sub": "E1",
+   "label": "Mogollon Pottery",
+   "breadth": "narrow",
+   "defn": "Pottery of the Mogollon culture of south-western New Mexico, eastern Arizona and Chihuahua (c. 200–1450 CE): brown wares, red-on-brown and the Mimbres black-on-white of its Mimbres branch.",
+   "aliases": "Mogollon brown ware",
+   "see": "Mimbres Pottery; Casas Grandes Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Mogollon_culture",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Mogollon",
+     "Smithsonian collections search: Mogollon",
+     "Mogollon pottery in the Smithsonian (NMAI)"
+    ],
+    [
+     "https://www.mimbres.org/",
+     "Mimbres Foundation",
+     "Mimbres and Mogollon pottery research"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Mimbres black-on-white",
+     "Sub-types",
+     "figural bowls of the Mimbres branch (see Mimbres Pottery)",
+     "r3 https://en.wikipedia.org/wiki/Mimbres_pottery",
+     0
+    ],
+    [
+     "Grasshopper Pueblo",
+     "Centres & workshops",
+     "late Mogollon pueblo in east-central Arizona",
+     "r3 https://en.wikipedia.org/wiki/Grasshopper_Pueblo",
+     0
+    ],
+    [
+     "Mimbres valley",
+     "Centres & workshops",
+     "valley of the classic Mimbres sites",
+     "r3 https://en.wikipedia.org/wiki/Mimbres",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Mogollon pottery"
+   ]
+  },
+  {
+   "key": "YUMAN",
+   "sub": "E1",
+   "label": "Yuman Pottery",
+   "breadth": "narrow",
+   "defn": "Paddle-and-anvil pottery of the Yuman-speaking peoples of the lower Colorado River and southern California, descended from the Patayan: Kumeyaay ollas, Mojave and Quechan painted jars and effigy figures, Maricopa red-and-black polished ware.",
+   "aliases": "Patayan pottery; Colorado River pottery",
+   "see": "Ancestral Puebloan Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Patayan",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Kumeyaay",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Mojave+pottery",
+     "Smithsonian collections search: Mojave pottery",
+     "Yuman pottery in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Patayan",
+     "Schools & phases",
+     "archaeological ancestors of the Yuman peoples (c. 700–1550)",
+     "r3 https://en.wikipedia.org/wiki/Patayan",
+     0
+    ],
+    [
+     "Kumeyaay",
+     "Centres & workshops",
+     "Diegueño of San Diego county and Baja California; ollas",
+     "r3 https://en.wikipedia.org/wiki/Kumeyaay",
+     0
+    ],
+    [
+     "Mojave",
+     "Centres & workshops",
+     "potters of painted jars and doll-like effigy figures",
+     "r3 https://en.wikipedia.org/wiki/Mohave_people",
+     0
+    ],
+    [
+     "Quechan",
+     "Centres & workshops",
+     "Yuma potters of the Colorado–Gila confluence",
+     "r3 https://en.wikipedia.org/wiki/Quechan_people",
+     0
+    ],
+    [
+     "Maricopa",
+     "Centres & workshops",
+     "polished red-and-black ware of the Gila River",
+     "r3 https://en.wikipedia.org/wiki/Maricopa_people",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Kumeyaay pottery",
+    "Mojave pottery",
+    "Quechan pottery",
+    "Maricopa pottery"
+   ]
+  },
+  {
+   "key": "CHEROKEEPOT",
+   "sub": "E1",
+   "label": "Cherokee Pottery",
+   "breadth": "narrow",
+   "defn": "Stamped and incised pottery of the Cherokee of the southern Appalachians and its revival among the Eastern Band on the Qualla Boundary, North Carolina: pipe bowls, bowls and black-burnished wares.",
+   "aliases": "Eastern Band Cherokee pottery",
+   "see": "Catawba Pottery; Rivercane Basketry",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Eastern_Band_of_Cherokee_Indians",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Cherokee+pottery",
+     "Smithsonian collections search: Cherokee pottery",
+     "Cherokee pottery in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Qualla Boundary",
+     "Centres & workshops",
+     "Eastern Band land in western North Carolina, centre of the revival",
+     "r3 https://en.wikipedia.org/wiki/Qualla_Boundary",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Cherokee pottery"
+   ]
+  },
+  {
+   "key": "IROQUOIAN",
+   "sub": "E1",
+   "label": "Iroquoian Pottery",
+   "breadth": "narrow",
+   "defn": "Collared and incised pottery and effigy clay pipes of the Iroquoian peoples of New York and Ontario (c. 900–1650), above all Seneca and Niagara Iroquoian pipes with human and animal heads.",
+   "aliases": "Haudenosaunee pottery; Iroquois pottery",
+   "see": "Ceremonial Pipes; Haudenosaunee Raised Beadwork",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Iroquoian_peoples",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Seneca_people",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Seneca+pipe",
+     "Smithsonian collections search: Seneca pipe",
+     "Iroquoian pottery and pipes in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Effigy pipes",
+     "Sub-types",
+     "clay pipes with modelled human or animal heads",
+     "r3 https://en.wikipedia.org/wiki/Iroquoian_peoples",
+     0
+    ],
+    [
+     "Collared jars",
+     "Sub-types",
+     "jars with incised collars and castellations",
+     "r3 https://en.wikipedia.org/wiki/Iroquoian_peoples",
+     0
+    ],
+    [
+     "Seneca",
+     "Centres & workshops",
+     "western Haudenosaunee nation whose village sites yielded many pipes",
+     "r3 https://en.wikipedia.org/wiki/Seneca_people",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Iroquoian pottery"
+   ]
+  },
+  {
+   "key": "SUSQ",
+   "sub": "E1",
+   "label": "Susquehannock Pottery",
+   "breadth": "narrow",
+   "defn": "Collared incised pottery and clay pipes of the Susquehannock of the lower Susquehanna valley (c. 1550–1675).",
+   "aliases": "Susquehannock ware",
+   "see": "Iroquoian Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Susquehannock",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Susquehannock",
+     "Smithsonian collections search: Susquehannock",
+     "Susquehannock objects in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Lower Susquehanna valley",
+     "Centres & workshops",
+     "Lancaster County, Pennsylvania, homeland of the Susquehannock",
+     "r3 https://en.wikipedia.org/wiki/Susquehannock",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Susquehannock pottery"
+   ]
+  },
+  {
+   "key": "PAMUNKEY",
+   "sub": "E1",
+   "label": "Pamunkey Pottery",
+   "breadth": "narrow",
+   "defn": "Pottery of the Pamunkey of tidewater Virginia, an unbroken tradition of shell-tempered ware revived in the 1930s with glazed wares from the reservation pottery school.",
+   "aliases": "",
+   "see": "Catawba Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Pamunkey",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Pamunkey",
+     "Smithsonian collections search: Pamunkey",
+     "Pamunkey objects in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Pamunkey Indian Reservation",
+     "Centres & workshops",
+     "reservation on the Pamunkey River, King William County, Virginia",
+     "r3 https://en.wikipedia.org/wiki/Pamunkey_Indian_Reservation",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Pamunkey pottery"
+   ]
+  },
+  {
+   "key": "DEPTFORD",
+   "sub": "E1",
+   "label": "Deptford Pottery",
+   "breadth": "narrow",
+   "defn": "Check-stamped and simple-stamped pottery of the Deptford culture of the south-eastern Atlantic and Gulf coasts (c. 800 BCE–700 CE), preceding Swift Creek.",
+   "aliases": "Deptford check-stamped",
+   "see": "Swift Creek Pottery; Weeden Island Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Deptford_culture",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Deptford",
+     "Smithsonian collections search: Deptford",
+     "Deptford pottery in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Check-stamped ware",
+     "Sub-types",
+     "pottery impressed with a grid-carved paddle, the culture's marker",
+     "r3 https://en.wikipedia.org/wiki/Deptford_culture",
+     0
+    ],
+    [
+     "Simple-stamped ware",
+     "Sub-types",
+     "pottery impressed with a paddle of parallel grooves",
+     "r3 https://en.wikipedia.org/wiki/Deptford_culture",
+     0
+    ],
+    [
+     "Crystal River",
+     "Centres & workshops",
+     "Gulf-coast mound centre begun in the Deptford period",
+     "r3 https://en.wikipedia.org/wiki/Crystal_River_Archaeological_State_Park",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Deptford pottery"
+   ]
+  },
+  {
+   "key": "STJOHNS",
+   "sub": "E1",
+   "label": "St. Johns Pottery",
+   "breadth": "narrow",
+   "defn": "Chalky, sponge-spicule-tempered pottery of the St. Johns culture of north-eastern Florida (c. 500 BCE–1565 CE), plain, incised and later check-stamped.",
+   "aliases": "St. Johns chalky ware",
+   "see": "Mississippian Pottery; Weeden Island Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/St._Johns_culture",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=St.+Johns",
+     "Smithsonian collections search: St. Johns",
+     "St. Johns pottery in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "St. Johns Check Stamped",
+     "Sub-types",
+     "late (St. Johns II) stamped variety",
+     "r3 https://en.wikipedia.org/wiki/St._Johns_culture",
+     0
+    ],
+    [
+     "St. Johns Plain",
+     "Sub-types",
+     "the plain chalky ware of all periods",
+     "r3 https://en.wikipedia.org/wiki/St._Johns_culture",
+     0
+    ],
+    [
+     "Mount Royal",
+     "Centres & workshops",
+     "St. Johns II mound site on the St. Johns River",
+     "r3 https://en.wikipedia.org/wiki/Mount_Royal_(Florida)",
+     0
+    ]
+   ],
+   "collections_from": [
+    "St. Johns pottery"
+   ]
+  },
+  {
+   "key": "NUBIANCHR",
+   "sub": "E1",
+   "label": "Christian Nubian Pottery",
+   "breadth": "narrow",
+   "defn": "Wheel-made painted pottery of the Christian kingdoms of Nubia (c. 550–1500), decorated with birds, crosses and vegetal designs in the manner of manuscripts, from the workshops of Faras and Old Dongola.",
+   "aliases": "Makurian pottery; Faras pottery",
+   "see": "Meroitic Pottery; Ethiopian Manuscripts",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Christian_Nubia",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Makuria",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.penn.museum/collections/search.php?term=Christian+Nubia",
+     "Penn Museum collections: Christian Nubia",
+     "Penn Museum's Faras and Nubian finds"
+    ],
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Christian+Nubian",
+     "British Museum collection: Christian Nubian",
+     "Christian Nubian pottery in the British Museum"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Faras",
+     "Centres & workshops",
+     "Nobadian capital and potteries",
+     "r3 https://en.wikipedia.org/wiki/Faras",
+     0
+    ],
+    [
+     "Old Dongola",
+     "Centres & workshops",
+     "Makurian capital",
+     "r3 https://en.wikipedia.org/wiki/Old_Dongola",
+     0
+    ],
+    [
+     "Qasr Ibrim",
+     "Centres & workshops",
+     "fortress-town with long pottery sequence",
+     "r3 https://en.wikipedia.org/wiki/Qasr_Ibrim",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Christian Nubian pottery"
+   ]
+  },
+  {
+   "key": "MULTAN",
+   "sub": "E1",
+   "label": "Multan Blue Pottery",
+   "breadth": "narrow",
+   "defn": "Blue-and-turquoise painted, glazed earthenware and tiles (kashi) of Multan in Punjab, used on its Sufi shrines and still made by kashigar families: dishes, vases and tile panels.",
+   "aliases": "kashigari; Multani pottery",
+   "see": "Blue Pottery of Jaipur; Kashi Kari",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Multan",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Tomb_of_Shah_Rukn-e-Alam",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.vam.ac.uk/search/?q=Multan",
+     "V&A collections: Multan",
+     "Multan pottery and tiles at the V&A"
+    ]
+   ],
+   "axis": "sub-types first, then phases, then centres and sites; holding institutions attach from the collections index",
+   "kinds": [
+    [
+     "Kashi tile panels",
+     "Sub-types",
+     "painted glazed tiles for shrines and mosques",
+     "r3 https://en.wikipedia.org/wiki/Multan",
+     0
+    ],
+    [
+     "Tomb of Shah Rukn-e-Alam",
+     "Centres & workshops",
+     "14th-century Multan shrine with glazed tilework",
+     "r3 https://en.wikipedia.org/wiki/Tomb_of_Shah_Rukn-e-Alam",
+     0
+    ],
+    [
+     "Multan",
+     "Centres & workshops",
+     "Punjab city of the kashigar potters",
+     "r3 https://en.wikipedia.org/wiki/Multan",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Multani blue pottery"
+   ]
+  },
+  {
+   "key": "PEKING",
+   "sub": "F2",
+   "label": "Peking Glass",
+   "breadth": "narrow",
+   "defn": "Glass of the Qing imperial glassworks founded in Beijing in 1696 and of its later imitators, carved like hardstone: monochrome and overlay (cameo) vases, faceted bottles, snuff bottles, golden age under Qianlong.",
+   "aliases": "Qing imperial glass; Beijing glass",
+   "see": "Chinese Snuff Bottles; Chinese Jade",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Peking_glass",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.clevelandart.org/art/collection/search?search=Qing+glass",
+     "Cleveland Museum of Art: Qing glass",
+     "Qing glass at Cleveland"
+    ],
+    [
+     "https://collections.vam.ac.uk/search/?q=Peking+glass",
+     "V&A collections: Peking glass",
+     "Peking glass at the V&A"
+    ],
+    [
+     "https://www.dpm.org.cn/",
+     "Palace Museum, Beijing",
+     "the imperial collection of Qing glass"
+    ]
+   ],
+   "axis": "sub-types first, then phases by reign and centres",
+   "kinds": [
+    [
+     "Overlay glass",
+     "Sub-types",
+     "layers of coloured glass carved in cameo relief",
+     "r3 https://en.wikipedia.org/wiki/Peking_glass",
+     0
+    ],
+    [
+     "Glass snuff bottles",
+     "Sub-types",
+     "the most numerous product of the workshops",
+     "r3 https://en.wikipedia.org/wiki/Snuff_bottle",
+     0
+    ],
+    [
+     "Kangxi period",
+     "Schools & phases",
+     "foundation of the palace glassworks in 1696",
+     "r3 https://en.wikipedia.org/wiki/Kangxi_Emperor",
+     0
+    ],
+    [
+     "Qianlong period",
+     "Schools & phases",
+     "golden age of the imperial glass (1735–96)",
+     "r3 https://en.wikipedia.org/wiki/Qianlong_Emperor",
+     0
+    ],
+    [
+     "Boshan",
+     "Centres & workshops",
+     "Shandong glassmaking town that supplied raw glass",
+     "r3 https://en.wikipedia.org/wiki/Boshan_District",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Qing imperial glass (Peking glass)"
+   ]
+  },
+  {
+   "key": "SHIRAZ",
+   "sub": "F1",
+   "label": "Shiraz Glass",
+   "breadth": "narrow",
+   "defn": "Free-blown glass of 18th–19th-century Iran, associated with Shiraz, in clear blue, green and amethyst: rosewater sprinklers with long twisted necks, decanters and ewers.",
+   "aliases": "Persian blown glass; Qajar glass",
+   "see": "Syrian Glassblowing; Beykoz Glass",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Qajar_art",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Shiraz",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.vam.ac.uk/search/?q=Persian+glass",
+     "V&A collections: Persian glass",
+     "Qajar blown glass at the V&A"
+    ],
+    [
+     "https://collectie.wereldculturen.nl/",
+     "Wereldculturen collection (NMVW)",
+     "Museum Volkenkunde, Tropenmuseum, Afrika Museum and Wereldmuseum Rotterdam"
+    ]
+   ],
+   "axis": "sub-types first, then centres",
+   "kinds": [
+    [
+     "Rosewater sprinklers",
+     "Sub-types",
+     "gulabpash with long, often twisted necks",
+     "r3 https://en.wikipedia.org/wiki/Rosewater_sprinkler",
+     0
+    ],
+    [
+     "Decanters and ewers",
+     "Sub-types",
+     "blown table glass with applied handles",
+     "r3 https://en.wikipedia.org/wiki/Qajar_art",
+     0
+    ],
+    [
+     "Qajar period",
+     "Schools & phases",
+     "19th-century floruit of the glass",
+     "r3 https://en.wikipedia.org/wiki/Qajar_art",
+     0
+    ],
+    [
+     "Shiraz",
+     "Centres & workshops",
+     "Fars city with which the glass is associated",
+     "r3 https://en.wikipedia.org/wiki/Shiraz",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Persian blown glass (Shiraz)"
+   ]
+  },
+  {
+   "key": "KROBO",
+   "sub": "F1",
+   "label": "Krobo Beads",
+   "breadth": "narrow",
+   "defn": "Powder-glass beads made by Krobo craftsmen of south-eastern Ghana from ground recycled glass fused in clay moulds: monochrome, painted 'writing' beads and fused-fragment beads, worn at Dipo puberty rites.",
+   "aliases": "Krobo powder-glass beads; Ghanaian glass beads",
+   "see": "Art of Glass Beads",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Powder_glass_beads",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Krobo_people",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collectie.wereldculturen.nl/",
+     "Wereldculturen collection (NMVW)",
+     "Museum Volkenkunde, Tropenmuseum, Afrika Museum and Wereldmuseum Rotterdam"
+    ],
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Krobo+bead",
+     "British Museum collection: Krobo bead",
+     "Krobo beads in the British Museum"
+    ]
+   ],
+   "axis": "sub-types first, then centres",
+   "kinds": [
+    [
+     "Writing beads",
+     "Sub-types",
+     "'mue ne angma', powder-glass beads with painted designs",
+     "r3 https://en.wikipedia.org/wiki/Powder_glass_beads",
+     0
+    ],
+    [
+     "Fused-fragment beads",
+     "Sub-types",
+     "translucent beads from fused bottle-glass fragments",
+     "r3 https://en.wikipedia.org/wiki/Powder_glass_beads",
+     0
+    ],
+    [
+     "Odumase",
+     "Centres & workshops",
+     "Krobo town, centre of the bead industry",
+     "r3 https://en.wikipedia.org/wiki/Odumase",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Krobo glass beads"
+   ]
+  },
+  {
+   "key": "CNMIRROR",
+   "sub": "G1",
+   "label": "Chinese Bronze Mirrors",
+   "breadth": "medium",
+   "defn": "Cast bronze mirrors of China, polished on one face and decorated on the back around a central knob, from the Warring States to the Ming: Warring States 'shan' mirrors, Han TLV mirrors, Tang lobed and sea-beast-and-grape mirrors, Song Huzhou mirrors.",
+   "aliases": "Chinese mirrors; jing",
+   "see": "Chinese Ritual Bronzes; Etruscan Mirrors",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Chinese_bronze_mirror",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/TLV_mirror",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://colbase.nich.go.jp/collection_items?locale=en&keyword=%E9%8A%85%E9%8F%A1",
+     "ColBase (Japan's national museums): 銅鏡",
+     "bronze mirrors in Japan's national museums"
+    ],
+    [
+     "https://www.clevelandart.org/art/collection/search?search=Chinese+mirror",
+     "Cleveland Museum of Art: Chinese mirror",
+     "Chinese mirrors at Cleveland"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Chinese+bronze+mirror",
+     "The Met collection: Chinese bronze mirror",
+     "Chinese mirrors at the Met"
+    ]
+   ],
+   "axis": "sub-types by period, earliest first, then centres",
+   "kinds": [
+    [
+     "Warring States mirrors",
+     "Sub-types",
+     "thin mirrors with interlace and 'shan'-character grounds",
+     "r3 https://en.wikipedia.org/wiki/Warring_States_period",
+     0
+    ],
+    [
+     "TLV mirrors",
+     "Sub-types",
+     "Han mirrors with cosmological T, L and V motifs",
+     "r3 https://en.wikipedia.org/wiki/TLV_mirror",
+     0
+    ],
+    [
+     "Magic mirrors",
+     "Sub-types",
+     "mirrors that project their back design in reflected light",
+     "r3 https://en.wikipedia.org/wiki/Chinese_magic_mirror",
+     0
+    ],
+    [
+     "Tang mirrors",
+     "Sub-types",
+     "lobed, sea-beast-and-grape and inlaid mirrors of the Tang",
+     "r3 https://en.wikipedia.org/wiki/Tang_dynasty_art",
+     0
+    ],
+    [
+     "Huzhou",
+     "Centres & workshops",
+     "Zhejiang city of plain Song mirrors with maker's stamps",
+     "r3 https://en.wikipedia.org/wiki/Huzhou",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Chinese bronze mirrors"
+   ]
+  },
+  {
+   "key": "SILLAGOLD",
+   "sub": "G3",
+   "label": "Silla Goldwork",
+   "breadth": "narrow",
+   "defn": "Gold and gilt-bronze regalia from the 5th–6th-century royal mound tombs of Silla at Gyeongju — tree-and-antler crowns hung with jade gogok, earrings, girdles and vessels — and the bronze temple bells of Unified Silla.",
+   "aliases": "Silla gold crowns; Silla metalwork",
+   "see": "Korean Buddhist Sculpture",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Crowns_of_Silla",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.emuseum.go.kr/",
+     "e-Museum (Korea's national museums)",
+     "integrated collection database of Korea's national and public museums"
+    ],
+    [
+     "https://gyeongju.museum.go.kr/",
+     "Gyeongju National Museum",
+     "the Silla tomb finds and the Bell of King Seongdeok"
+    ]
+   ],
+   "axis": "sub-types first, then the tombs (centres) that yielded them",
+   "kinds": [
+    [
+     "Crowns of Silla",
+     "Sub-types",
+     "gold crowns with tree and antler uprights, spangles and jade",
+     "r3 https://en.wikipedia.org/wiki/Crowns_of_Silla",
+     0
+    ],
+    [
+     "Silla bronze bells",
+     "Sub-types",
+     "Unified Silla temple bells, culminating in the Bell of King Seongdeok (771)",
+     "r3 https://en.wikipedia.org/wiki/Bell_of_King_Seongdeok",
+     0
+    ],
+    [
+     "Geumgwanchong",
+     "Centres & workshops",
+     "'Gold Crown Tomb', Gyeongju, excavated 1921",
+     "r3 https://en.wikipedia.org/wiki/Geumgwanchong",
+     0
+    ],
+    [
+     "Cheonmachong",
+     "Centres & workshops",
+     "'Heavenly Horse Tomb', Gyeongju, excavated 1973",
+     "r3 https://en.wikipedia.org/wiki/Cheonmachong",
+     0
+    ],
+    [
+     "Gyeongju",
+     "Centres & workshops",
+     "Silla capital and its tumuli park",
+     "r3 https://en.wikipedia.org/wiki/Gyeongju",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Silla goldwork"
+   ]
+  },
+  {
+   "key": "TUMACOGOLD",
+   "sub": "G3",
+   "label": "Tumaco-La Tolita Goldwork",
+   "breadth": "narrow",
+   "defn": "Gold, tumbaga and sintered gold-platinum ornaments of the Tumaco-La Tolita culture (c. 600 BCE–350 CE), the earliest platinum working in the world: nose rings, masks, mirrors and miniature figures.",
+   "aliases": "La Tolita gold; Tumaco goldwork",
+   "see": "Tumaco-La Tolita Ceramics; Calima Goldwork",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Tumaco-La_Tolita_culture",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Platinum",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.banrepcultural.org/museo-del-oro",
+     "Museo del Oro, Bogotá",
+     "Colombia's national collection of pre-Hispanic goldwork and pottery"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=La+Tolita+gold",
+     "Smithsonian collections search: La Tolita gold",
+     "Tumaco-La Tolita goldwork in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then centres",
+   "kinds": [
+    [
+     "Gold-platinum sintering",
+     "Sub-types",
+     "alloys of platinum and gold made by sintering grains",
+     "r3 https://en.wikipedia.org/wiki/Platinum",
+     0
+    ],
+    [
+     "Nose ornaments",
+     "Sub-types",
+     "hammered and cast nose rings and plaques",
+     "r3 https://en.wikipedia.org/wiki/Tumaco-La_Tolita_culture",
+     0
+    ],
+    [
+     "La Tolita",
+     "Centres & workshops",
+     "island site in Esmeraldas, Ecuador",
+     "r3 https://en.wikipedia.org/wiki/La_Tolita",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Tumaco-La Tolita goldwork"
+   ]
+  },
+  {
+   "key": "ZENU",
+   "sub": "G3",
+   "label": "Zenú Goldwork",
+   "breadth": "narrow",
+   "defn": "Cast-filigree gold and tumbaga of the Zenú (Sinú) of the Caribbean lowlands of Colombia (c. 200 BCE–1000 CE): semicircular filigree ear ornaments, staff finials with birds and animals, pectorals.",
+   "aliases": "Sinú goldwork",
+   "see": "Tairona Goldwork; Quimbaya Goldwork",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Zenú",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.banrepcultural.org/museo-del-oro",
+     "Museo del Oro, Bogotá",
+     "Colombia's national collection of pre-Hispanic goldwork and pottery"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=Zenu",
+     "Smithsonian collections search: Zenu",
+     "Zenú goldwork in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then centres",
+   "kinds": [
+    [
+     "False-filigree ear ornaments",
+     "Sub-types",
+     "lost-wax cast openwork ear ornaments imitating filigree",
+     "r3 https://en.wikipedia.org/wiki/Zenú",
+     0
+    ],
+    [
+     "Staff finials",
+     "Sub-types",
+     "cast finials with birds and animals for staffs of office",
+     "r3 https://en.wikipedia.org/wiki/Zenú",
+     0
+    ],
+    [
+     "Sinú River",
+     "Centres & workshops",
+     "river valley of the Zenú hydraulic landscape",
+     "r3 https://en.wikipedia.org/wiki/Sinú_River",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Zenú goldwork"
+   ]
+  },
+  {
+   "key": "KIRIBATIARM",
+   "sub": "G2",
+   "label": "Kiribati Armour",
+   "breadth": "narrow",
+   "defn": "Body armour of the I-Kiribati (Gilbert Islands) knotted and woven from coconut-fibre sennit, sometimes with human-hair patterns — cuirasses, jerkins, leggings, porcupine-fish helmets — worn with shark-tooth weapons in formal duels.",
+   "aliases": "Gilbertese armour; te otanga; coconut-fibre armour",
+   "see": "Fijian Clubs",
+   "src": [
+    [
+     "https://web.prm.ox.ac.uk/weapons/index.php/tour-by-region/oceania/oceania/arms-and-armour-oceania-222/index.html",
+     "museum"
+    ],
+    [
+     "https://www.fg-art.org/en/artwork-of-the-month-archives/the-art-of-armour-in-kiribati",
+     "museum"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.tepapa.govt.nz/",
+     "Te Papa Collections Online",
+     "New Zealand's national museum collection, including taonga Māori"
+    ],
+    [
+     "https://collectie.wereldculturen.nl/",
+     "Wereldculturen collection (NMVW)",
+     "Museum Volkenkunde, Tropenmuseum, Afrika Museum and Wereldmuseum Rotterdam"
+    ],
+    [
+     "https://www.britishmuseum.org/collection/search?keyword=Kiribati+armour",
+     "British Museum collection: Kiribati armour",
+     "Kiribati armour in the British Museum"
+    ]
+   ],
+   "axis": "sub-types first",
+   "kinds": [
+    [
+     "Te otanga",
+     "Sub-types",
+     "the full suit of coconut-fibre armour",
+     "r3 https://www.aucklandmuseum.com/discover/stories/blog/2021/moving-the-needle",
+     0
+    ],
+    [
+     "Te barantauti",
+     "Sub-types",
+     "helmet of dried porcupine-fish skin",
+     "r3 https://www.rct.uk/collection/stories/grand-vestibule-the-british-monarchy-and-the-world/porcupine-fish-helmet-te-barantauti",
+     0
+    ],
+    [
+     "Shark-tooth weapons",
+     "Sub-types",
+     "wooden swords and spears edged with shark teeth",
+     "r3 https://web.prm.ox.ac.uk/weapons/index.php/tour-by-region/oceania/oceania/arms-and-armour-oceania-222/index.html",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Kiribati coconut-fibre armour"
+   ]
+  },
+  {
+   "key": "LINDAMASK",
+   "sub": "H3",
+   "label": "Linen Damask",
+   "breadth": "medium",
+   "defn": "Figured linen table linen woven on draw-looms in the Southern Netherlands and Holland from the 16th century, with hunting scenes, biblical stories, maps and coats of arms: Kortrijk (Courtrai) damask, Haarlem damask.",
+   "aliases": "Flemish damask; Courtrai damask; Haarlem damask",
+   "see": "Irish Linen; Bezdan Damask",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Damask",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Kortrijk",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.rijksmuseum.nl/en/collection/search?query=damast",
+     "Rijksmuseum collection: damast",
+     "Kortrijk and Haarlem damask in the Rijksmuseum"
+    ],
+    [
+     "https://collections.vam.ac.uk/search/?q=linen+damask",
+     "V&A collections: linen damask",
+     "linen damask at the V&A"
+    ]
+   ],
+   "axis": "centres in order of rise (Kortrijk, then Haarlem), then makers",
+   "kinds": [
+    [
+     "Kortrijk",
+     "Centres & workshops",
+     "Flemish centre of linen damask weaving, 16th–17th c.",
+     "r3 https://en.wikipedia.org/wiki/Kortrijk",
+     0
+    ],
+    [
+     "Haarlem",
+     "Centres & workshops",
+     "Dutch centre after Flemish weavers emigrated, 17th c.",
+     "r3 https://en.wikipedia.org/wiki/Haarlem",
+     0
+    ],
+    [
+     "Passchier Lammertijn",
+     "Makers",
+     "Kortrijk-born damask weaver active in Haarlem (c. 1600)",
+     "r3 https://www.rijksmuseum.nl/en/collection/search?query=Passchier+Lammertijn",
+     1
+    ]
+   ],
+   "collections_from": [
+    "Haarlem linen damask",
+    "Kortrijk linen damask"
+   ]
+  },
+  {
+   "key": "MAPUCHETEX",
+   "sub": "H2",
+   "label": "Mapuche Textiles",
+   "breadth": "medium",
+   "defn": "Warp-faced weaving of the Mapuche women of Chile and Argentina on the vertical loom, a pre-Hispanic tradition and major trade good: ponchos (makuñ) with stepped crosses, sashes, blankets and saddle cloths.",
+   "aliases": "Mapuche weaving",
+   "see": "Mapuche Silverwork; Mapuche Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Mapuche_textiles",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://precolombino.cl/",
+     "Museo Chileno de Arte Precolombino",
+     "Chile's museum of pre-Columbian art and its collection"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=Mapuche",
+     "Smithsonian collections search: Mapuche",
+     "Mapuche textiles in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first",
+   "kinds": [
+    [
+     "Poncho",
+     "Sub-types",
+     "makuñ, the chief's poncho with ikat or stepped designs",
+     "r3 https://en.wikipedia.org/wiki/Poncho",
+     0
+    ],
+    [
+     "Huilliche weaving",
+     "Sub-types",
+     "southern Mapuche (Huilliche) ponchos and blankets",
+     "r3 https://en.wikipedia.org/wiki/Mapuche_textiles",
+     0
+    ],
+    [
+     "Vertical loom weaving",
+     "Sub-types",
+     "witral loom weaving of ponchos and blankets",
+     "r3 https://en.wikipedia.org/wiki/Mapuche_textiles",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Mapuche Textiles"
+   ]
+  },
+  {
+   "key": "CHIMUTEX",
+   "sub": "H2",
+   "label": "Chimú Textiles",
+   "breadth": "narrow",
+   "defn": "Textiles of the Chimú kingdom of Peru's north coast (c. 900–1470 CE): cotton and camelid tapestry, brocade and painted cloth, feathered tunics and ponchos from Chan Chan and coastal cemeteries.",
+   "aliases": "Chimu textiles",
+   "see": "Chimú Blackware; Chimú Metalwork; Chancay Textiles",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Chimú_culture",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.museolarco.org/",
+     "Museo Larco, Lima",
+     "major Peruvian collection of ancient Andean ceramics, online catalogue"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=Chimu+textile",
+     "Smithsonian collections search: Chimu textile",
+     "Chimú textiles in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types, then centres",
+   "kinds": [
+    [
+     "Feathered tunics",
+     "Sub-types",
+     "tunics and panels covered with tropical feathers",
+     "r3 https://en.wikipedia.org/wiki/Chimú_culture",
+     0
+    ],
+    [
+     "Chan Chan",
+     "Centres & workshops",
+     "Chimú capital",
+     "r3 https://en.wikipedia.org/wiki/Chan_Chan",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Chimú Textiles"
+   ]
+  },
+  {
+   "key": "NASCATEX",
+   "sub": "H2",
+   "label": "Nasca Textiles",
+   "breadth": "narrow",
+   "defn": "Textiles of the Nasca culture of Peru's south coast (c. 100 BCE–700 CE), successors of Paracas: tapestry and embroidered mantles and tunics, three-dimensional needle-knitted borders, feathered ornaments.",
+   "aliases": "Nazca textiles",
+   "see": "Paracas Textiles; Nazca Pottery",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Nazca_culture",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.museolarco.org/",
+     "Museo Larco, Lima",
+     "major Peruvian collection of ancient Andean ceramics, online catalogue"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=Nasca",
+     "Smithsonian collections search: Nasca",
+     "Nasca textiles in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "centres",
+   "kinds": [
+    [
+     "Cahuachi",
+     "Centres & workshops",
+     "Nasca ceremonial centre",
+     "r3 https://en.wikipedia.org/wiki/Cahuachi",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Nasca Textiles"
+   ]
+  },
+  {
+   "key": "KUTCH",
+   "sub": "H4",
+   "label": "Kutch Embroidery",
+   "breadth": "medium",
+   "defn": "Embroidery of the pastoral and farming communities of Kutch, Gujarat, worked in silk and cotton with inset mirrors (abhla), each community with its own stitches and motifs: Rabari, Ahir, Banni, Mutwa, Jat and Sodha styles; GI-registered.",
+   "aliases": "Kutchi embroidery; Kachchhi bharat",
+   "see": "Rogan Art; Ajrakh; Ralli Quilt",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Kutch_embroidery",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.vam.ac.uk/search/?q=Kutch+embroidery",
+     "V&A collections: Kutch embroidery",
+     "Kutch embroidery at the V&A"
+    ],
+    [
+     "https://www.clevelandart.org/art/collection/search?search=Kutch",
+     "Cleveland Museum of Art: Kutch",
+     "Kutch textiles at Cleveland"
+    ]
+   ],
+   "axis": "sub-types (community styles) first, then centres",
+   "kinds": [
+    [
+     "Rabari",
+     "Sub-types",
+     "chain-stitch and mirror embroidery of the Rabari herders",
+     "r3 https://en.wikipedia.org/wiki/Rabari",
+     0
+    ],
+    [
+     "Ahir",
+     "Sub-types",
+     "Ahir style with circles and mirrors",
+     "r3 https://en.wikipedia.org/wiki/Ahir",
+     0
+    ],
+    [
+     "Banni",
+     "Sub-types",
+     "embroidery of the Banni grassland communities",
+     "r3 https://en.wikipedia.org/wiki/Banni",
+     0
+    ],
+    [
+     "Mutwa",
+     "Sub-types",
+     "fine Mutwa embroidery of northern Banni",
+     "r3 https://en.wikipedia.org/wiki/Mutwa",
+     0
+    ],
+    [
+     "Jat",
+     "Sub-types",
+     "cross-stitch embroidery of the Jat herders",
+     "r3 https://en.wikipedia.org/wiki/Jat_people",
+     0
+    ],
+    [
+     "Abhla bharat",
+     "Sub-types",
+     "mirror work, common to all styles",
+     "r3 https://en.wikipedia.org/wiki/Abhla_bharat",
+     0
+    ],
+    [
+     "Bhuj",
+     "Centres & workshops",
+     "chief town of Kutch and its craft market",
+     "r3 https://en.wikipedia.org/wiki/Bhuj",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Kutch Embroidery"
+   ]
+  },
+  {
+   "key": "VALLACE",
+   "sub": "H4",
+   "label": "Valenciennes Lace",
+   "breadth": "medium",
+   "defn": "Straight bobbin lace made in one piece with ground and pattern worked together, originating at Valenciennes in the 17th century and later made in Flanders: Ypres, Bruges and Ghent 'Valenciennes' with round or diamond mesh.",
+   "aliases": "Val lace; Valenciennes",
+   "see": "Mechlin Lace; Brussels Lace; Alençon Lace",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Valenciennes_lace",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.rijksmuseum.nl/en/collection/search?query=Valenciennes+kant",
+     "Rijksmuseum collection: Valenciennes kant",
+     "Valenciennes lace in the Rijksmuseum"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=Valenciennes+lace",
+     "The Met collection: Valenciennes lace",
+     "Valenciennes lace at the Met"
+    ],
+    [
+     "https://www.artic.edu/collection?q=Valenciennes%20lace",
+     "Art Institute of Chicago: Valenciennes lace",
+     "lace in the AIC textile collection"
+    ]
+   ],
+   "axis": "centres in order of production",
+   "kinds": [
+    [
+     "Valenciennes",
+     "Centres & workshops",
+     "town in Hainaut, origin of the lace",
+     "r3 https://en.wikipedia.org/wiki/Valenciennes",
+     0
+    ],
+    [
+     "Lille",
+     "Centres & workshops",
+     "nearby French centre",
+     "r3 https://en.wikipedia.org/wiki/Lille",
+     0
+    ],
+    [
+     "Bailleul",
+     "Centres & workshops",
+     "French Flanders lace town",
+     "r3 https://en.wikipedia.org/wiki/Bailleul",
+     0
+    ],
+    [
+     "Ypres",
+     "Centres & workshops",
+     "chief Belgian centre of 19th-century Valenciennes",
+     "r3 https://en.wikipedia.org/wiki/Ypres",
+     0
+    ],
+    [
+     "Bruges",
+     "Centres & workshops",
+     "Flemish lace centre",
+     "r3 https://en.wikipedia.org/wiki/Bruges",
+     0
+    ],
+    [
+     "Ghent",
+     "Centres & workshops",
+     "Flemish lace centre",
+     "r3 https://en.wikipedia.org/wiki/Ghent",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Valenciennes Lace"
+   ]
+  },
+  {
+   "key": "SAMPLERS",
+   "sub": "H4",
+   "label": "Needlework Samplers",
+   "breadth": "medium",
+   "defn": "Embroidered samplers worked by girls to record stitches, alphabets, verses and pictures, from 16th-century band samplers to the schoolgirl samplers of Britain and America: band, spot, alphabet, map and memorial samplers, and the school samplers of Westtown and Mary Balch's Providence school.",
+   "aliases": "samplers; schoolgirl samplers; American samplers",
+   "see": "Berlin Wool Work; Crewelwork",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Sampler_(needlework)",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.cooperhewitt.org/search/collection?query=sampler",
+     "Cooper Hewitt collection: samplers",
+     "a large sampler collection at the Smithsonian Design Museum"
+    ],
+    [
+     "https://www.metmuseum.org/art/collection/search?q=sampler",
+     "The Met collection: sampler",
+     "samplers at the Met"
+    ],
+    [
+     "https://collections.vam.ac.uk/search/?q=sampler",
+     "V&A collections: sampler",
+     "samplers at the V&A"
+    ]
+   ],
+   "axis": "sub-types first, then schools (centres)",
+   "kinds": [
+    [
+     "Band samplers",
+     "Sub-types",
+     "long narrow early samplers of stitch bands",
+     "r3 https://en.wikipedia.org/wiki/Sampler_(needlework)",
+     0
+    ],
+    [
+     "Alphabet samplers",
+     "Sub-types",
+     "letters and numerals for marking linen",
+     "r3 https://en.wikipedia.org/wiki/Sampler_(needlework)",
+     0
+    ],
+    [
+     "Map samplers",
+     "Sub-types",
+     "embroidered maps, popular c. 1770–1840",
+     "r3 https://en.wikipedia.org/wiki/Sampler_(needlework)",
+     0
+    ],
+    [
+     "Memorial samplers",
+     "Sub-types",
+     "mourning pictures with tombs and willows, early 19th c.",
+     "r3 https://en.wikipedia.org/wiki/Sampler_(needlework)",
+     0
+    ],
+    [
+     "Westtown School",
+     "Centres & workshops",
+     "Quaker boarding school, Pennsylvania, known for its samplers and globes",
+     "r3 https://en.wikipedia.org/wiki/Westtown_School",
+     0
+    ],
+    [
+     "Balch School",
+     "Centres & workshops",
+     "Mary Balch's school for girls, Providence, Rhode Island",
+     "r3 https://en.wikipedia.org/wiki/Balch_School",
+     0
+    ]
+   ],
+   "collections_from": [
+    "American Needlework Samplers"
+   ]
+  },
+  {
+   "key": "BUTTONBL",
+   "sub": "H4",
+   "label": "Button Blankets",
+   "breadth": "narrow",
+   "defn": "Ceremonial robes of the Northwest Coast peoples made from trade wool blankets with red appliqué borders and crest figures outlined in mother-of-pearl buttons, worn at potlatches.",
+   "aliases": "button robes",
+   "see": "Chilkat Weaving; Northwest Coast Woodcarving",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Button_blanket",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=button+blanket",
+     "Smithsonian collections search: button blanket",
+     "button blankets in the Smithsonian (NMAI)"
+    ],
+    [
+     "https://www.historymuseum.ca/collections/",
+     "Canadian Museum of History collections",
+     "Canada's national collection of Indigenous material culture"
+    ]
+   ],
+   "axis": "centres by people",
+   "kinds": [
+    [
+     "Kwakwaka'wakw",
+     "Centres & workshops",
+     "button blankets of the Kwakwaka'wakw of Vancouver Island",
+     "r3 https://en.wikipedia.org/wiki/Kwakwaka'wakw",
+     0
+    ],
+    [
+     "Tlingit",
+     "Centres & workshops",
+     "Tlingit crest robes",
+     "r3 https://en.wikipedia.org/wiki/Tlingit",
+     0
+    ],
+    [
+     "Haida",
+     "Centres & workshops",
+     "Haida crest robes",
+     "r3 https://en.wikipedia.org/wiki/Haida_people",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Northwest Coast Button Blankets"
+   ]
+  },
+  {
+   "key": "KLEDER",
+   "sub": "H7",
+   "label": "Klederdracht",
+   "breadth": "medium",
+   "defn": "The regional folk costumes of the Netherlands, worn daily in fishing and Protestant farming communities into the 20th century and some still today, each with its caps, bodices and jewellery: Volendam, Marken, Staphorst, Spakenburg, Urk, Zeeland, Hindeloopen, Zaanstreek.",
+   "aliases": "Dutch folk costume; Dutch traditional dress",
+   "see": "Tracht; Bunad",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Volendam",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Staphorst",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.rijksmuseum.nl/en/collection/search?query=klederdracht",
+     "Rijksmuseum collection: klederdracht",
+     "Dutch regional costume in the Rijksmuseum"
+    ],
+    [
+     "https://www.openluchtmuseum.nl/",
+     "Nederlands Openluchtmuseum",
+     "the Dutch Open Air Museum's national costume collection"
+    ]
+   ],
+   "axis": "centres (regions) from best-known living costumes to historical ones",
+   "kinds": [
+    [
+     "Volendam",
+     "Centres & workshops",
+     "fishing-village costume with the pointed lace cap",
+     "r3 https://en.wikipedia.org/wiki/Volendam",
+     0
+    ],
+    [
+     "Marken",
+     "Centres & workshops",
+     "former island costume with striped bodice",
+     "r3 https://en.wikipedia.org/wiki/Marken",
+     0
+    ],
+    [
+     "Staphorst",
+     "Centres & workshops",
+     "Overijssel costume still worn daily",
+     "r3 https://en.wikipedia.org/wiki/Staphorst",
+     0
+    ],
+    [
+     "Spakenburg",
+     "Centres & workshops",
+     "costume with the starched 'kraplap' shoulder piece",
+     "r3 https://en.wikipedia.org/wiki/Spakenburg",
+     0
+    ],
+    [
+     "Urk",
+     "Centres & workshops",
+     "former island fishing costume",
+     "r3 https://en.wikipedia.org/wiki/Urk",
+     0
+    ],
+    [
+     "Scheveningen",
+     "Centres & workshops",
+     "fishing-village costume of The Hague",
+     "r3 https://en.wikipedia.org/wiki/Scheveningen",
+     0
+    ],
+    [
+     "Zeeland",
+     "Centres & workshops",
+     "province of several costumes and gold ear-irons",
+     "r3 https://en.wikipedia.org/wiki/Zeeland",
+     0
+    ],
+    [
+     "Hindeloopen",
+     "Centres & workshops",
+     "Frisian town of painted furniture and chintz costume",
+     "r3 https://en.wikipedia.org/wiki/Hindeloopen",
+     0
+    ],
+    [
+     "Zaanstreek",
+     "Centres & workshops",
+     "18th-century costume of the Zaan region",
+     "r3 https://en.wikipedia.org/wiki/Zaanstreek",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Dutch Klederdracht"
+   ]
+  },
+  {
+   "key": "INUITCL",
+   "sub": "H7",
+   "label": "Inuit Clothing",
+   "breadth": "medium",
+   "defn": "Tailored skin clothing of the Inuit and Yup'ik of the Arctic, sewn from caribou, seal and bird skins with sinew: parkas and the women's amauti, trousers, mukluks and kamiit, gut-skin rain parkas and snow goggles.",
+   "aliases": "Inuit skin clothing; Eskimo clothing",
+   "see": "Inuit Sculpture; Yup'ik Masks",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Inuit_clothing",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Inuit+parka",
+     "Smithsonian collections search: Inuit parka",
+     "Inuit clothing in the Smithsonian (NMAI and NMNH)"
+    ],
+    [
+     "https://www.historymuseum.ca/collections/",
+     "Canadian Museum of History collections",
+     "Canada's national collection of Indigenous material culture"
+    ]
+   ],
+   "axis": "sub-types first, then peoples (centres)",
+   "kinds": [
+    [
+     "Parka",
+     "Sub-types",
+     "hooded outer garment of caribou or sealskin",
+     "r3 https://en.wikipedia.org/wiki/Parka",
+     0
+    ],
+    [
+     "Amauti",
+     "Sub-types",
+     "women's parka with a pouch for carrying a child",
+     "r3 https://en.wikipedia.org/wiki/Amauti",
+     0
+    ],
+    [
+     "Anorak",
+     "Sub-types",
+     "pullover hooded jacket",
+     "r3 https://en.wikipedia.org/wiki/Anorak",
+     0
+    ],
+    [
+     "Mukluk",
+     "Sub-types",
+     "soft boot of sealskin or caribou",
+     "r3 https://en.wikipedia.org/wiki/Mukluk",
+     0
+    ],
+    [
+     "Snow goggles",
+     "Sub-types",
+     "slit goggles of wood, bone or ivory",
+     "r3 https://en.wikipedia.org/wiki/Snow_goggles",
+     0
+    ],
+    [
+     "Copper Inuit",
+     "Centres & workshops",
+     "central Arctic group of Coronation Gulf",
+     "r3 https://en.wikipedia.org/wiki/Copper_Inuit",
+     0
+    ],
+    [
+     "Iñupiat",
+     "Centres & workshops",
+     "northern Alaskan Inuit",
+     "r3 https://en.wikipedia.org/wiki/Iñupiat",
+     0
+    ],
+    [
+     "Yup'ik",
+     "Centres & workshops",
+     "south-western Alaskan Yup'ik",
+     "r3 https://en.wikipedia.org/wiki/Yup'ik",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Inuit Skin Clothing"
+   ]
+  },
+  {
+   "key": "CSBASK",
+   "sub": "H8",
+   "label": "Coast Salish Basketry",
+   "breadth": "narrow",
+   "defn": "Coiled cedar-root baskets imbricated with bear grass and cherry bark, and twined baskets, of the Coast Salish and neighbouring peoples of Washington State and British Columbia: Cowichan, Quinault and Quileute baskets, lidded trunks and berry baskets.",
+   "aliases": "Salish basketry",
+   "see": "Plateau Imbricated Basketry; Coast Salish Weaving",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Coast_Salish",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Salish+basket",
+     "Smithsonian collections search: Salish basket",
+     "Coast Salish baskets in the Smithsonian (NMAI)"
+    ],
+    [
+     "https://www.historymuseum.ca/collections/",
+     "Canadian Museum of History collections",
+     "Canada's national collection of Indigenous material culture"
+    ]
+   ],
+   "axis": "sub-types first, then peoples and centres, then named makers",
+   "kinds": [
+    [
+     "Cowichan",
+     "Centres & workshops",
+     "Cowichan Tribes of Vancouver Island",
+     "r3 https://en.wikipedia.org/wiki/Cowichan_Tribes",
+     0
+    ],
+    [
+     "Quinault",
+     "Centres & workshops",
+     "Washington coast weavers of twined baskets",
+     "r3 https://en.wikipedia.org/wiki/Quinault",
+     0
+    ],
+    [
+     "Quileute",
+     "Centres & workshops",
+     "Olympic Peninsula basket makers",
+     "r3 https://en.wikipedia.org/wiki/Quileute",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Coast Salish Basketry"
+   ]
+  },
+  {
+   "key": "NCNMAKAH",
+   "sub": "H8",
+   "label": "Nuu-chah-nulth and Makah Basketry",
+   "breadth": "narrow",
+   "defn": "Fine wrapped-twined baskets of the Nuu-chah-nulth of Vancouver Island and the Makah of Cape Flattery, in bear grass and cedar bark with whaling scenes, from the conical whaler's hat to lidded 'trinket' baskets for the tourist trade.",
+   "aliases": "Makah basketry; Nootka basketry",
+   "see": "Spruce-Root Basketry",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Makah",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Nuu-chah-nulth",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Makah+basket",
+     "Smithsonian collections search: Makah basket",
+     "Makah and Nuu-chah-nulth baskets in the Smithsonian (NMAI)"
+    ],
+    [
+     "https://makah.com/makah-tribal-info/museum/",
+     "Makah Museum",
+     "Neah Bay museum of the Ozette finds"
+    ]
+   ],
+   "axis": "sub-types first, then peoples and centres, then named makers",
+   "kinds": [
+    [
+     "Makah",
+     "Centres & workshops",
+     "Neah Bay, Washington",
+     "r3 https://en.wikipedia.org/wiki/Makah",
+     0
+    ],
+    [
+     "Nuu-chah-nulth",
+     "Centres & workshops",
+     "west coast of Vancouver Island",
+     "r3 https://en.wikipedia.org/wiki/Nuu-chah-nulth",
+     0
+    ],
+    [
+     "Ozette",
+     "Centres & workshops",
+     "buried Makah village with preserved basketry (c. 1700)",
+     "r3 https://en.wikipedia.org/wiki/Ozette_Indian_Village_Archeological_Site",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Nuu-chah-nulth and Makah Basketry"
+   ]
+  },
+  {
+   "key": "NESPLINT",
+   "sub": "H8",
+   "label": "Northeastern Splint Basketry",
+   "breadth": "narrow",
+   "defn": "Plaited wood-splint baskets of black ash and oak made by the Indigenous peoples of the north-east and mid-Atlantic, painted or stamped with designs: Mohegan painted baskets, Lenape (Delaware), Pequot and Rappahannock baskets.",
+   "aliases": "woodsplint basketry; ash splint baskets",
+   "see": "Wabanaki Basketry",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Mohegan",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Black_ash",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=splint+basket",
+     "Smithsonian collections search: splint basket",
+     "splint baskets in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then peoples and centres, then named makers",
+   "kinds": [
+    [
+     "Mohegan",
+     "Centres & workshops",
+     "Connecticut makers of painted splint baskets",
+     "r3 https://en.wikipedia.org/wiki/Mohegan",
+     0
+    ],
+    [
+     "Pequot",
+     "Centres & workshops",
+     "Connecticut basket makers",
+     "r3 https://en.wikipedia.org/wiki/Pequot",
+     0
+    ],
+    [
+     "Lenape",
+     "Centres & workshops",
+     "Delaware basket makers, later in Oklahoma",
+     "r3 https://en.wikipedia.org/wiki/Lenape",
+     0
+    ],
+    [
+     "Rappahannock",
+     "Centres & workshops",
+     "Virginia basket makers",
+     "r3 https://en.wikipedia.org/wiki/Rappahannock_people",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Northeastern Splint Basketry"
+   ]
+  },
+  {
+   "key": "GBBASK",
+   "sub": "H8",
+   "label": "Great Basin Basketry",
+   "breadth": "narrow",
+   "defn": "Coiled and twined willow baskets of the Washoe, Paiute, Shoshone and Chemehuevi of the Great Basin, from water jars pitched with pine resin to the fine degikup baskets of Washoe weavers.",
+   "aliases": "Washoe basketry; Paiute basketry",
+   "see": "California Indian Basketry; Pomo Basketry",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Great_Basin_tribes",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Paiute+basket",
+     "Smithsonian collections search: Paiute basket",
+     "Great Basin baskets in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then peoples and centres, then named makers",
+   "kinds": [
+    [
+     "Washoe",
+     "Centres & workshops",
+     "Lake Tahoe weavers of degikup baskets",
+     "r3 https://en.wikipedia.org/wiki/Washoe_people",
+     0
+    ],
+    [
+     "Northern Paiute",
+     "Centres & workshops",
+     "Pyramid Lake and Nevada weavers",
+     "r3 https://en.wikipedia.org/wiki/Northern_Paiute",
+     0
+    ],
+    [
+     "Chemehuevi",
+     "Centres & workshops",
+     "southern Paiute weavers of fine coiled baskets",
+     "r3 https://en.wikipedia.org/wiki/Chemehuevi",
+     0
+    ],
+    [
+     "Louisa Keyser",
+     "Makers",
+     "Washoe weaver Dat So La Lee (c. 1829–1925)",
+     "r3 https://en.wikipedia.org/wiki/Louisa_Keyser",
+     1
+    ]
+   ],
+   "collections_from": [
+    "Great Basin basketry"
+   ]
+  },
+  {
+   "key": "SERIBASK",
+   "sub": "H8",
+   "label": "Seri Basketry",
+   "breadth": "narrow",
+   "defn": "Coiled baskets of the Comcaac (Seri) of Sonora, made of torote stems, from the giant ceremonial saptim baskets to the bowls made for sale since the 1960s.",
+   "aliases": "Comcaac basketry; Seri coritas",
+   "see": "Pima Basketry",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Seri_people",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Seri",
+     "Smithsonian collections search: Seri",
+     "Seri objects in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then peoples and centres, then named makers",
+   "kinds": [
+    [
+     "Saptim",
+     "Sub-types",
+     "giant ceremonial basket",
+     "r3 https://en.wikipedia.org/wiki/Seri_people",
+     0
+    ],
+    [
+     "Comcaac",
+     "Centres & workshops",
+     "Seri communities of Punta Chueca and El Desemboque",
+     "r3 https://en.wikipedia.org/wiki/Seri_people",
+     0
+    ],
+    [
+     "Punta Chueca",
+     "Centres & workshops",
+     "Seri village on the Gulf of California",
+     "r3 https://en.wikipedia.org/wiki/Punta_Chueca",
+     0
+    ],
+    [
+     "El Desemboque",
+     "Centres & workshops",
+     "Seri village, Sonora",
+     "r3 https://en.wikipedia.org/wiki/El_Desemboque",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Seri basketry"
+   ]
+  },
+  {
+   "key": "WOUNAAN",
+   "sub": "H8",
+   "label": "Wounaan and Emberá Basketry",
+   "breadth": "narrow",
+   "defn": "Tightly coiled palm-fibre baskets of the Wounaan and Emberá of Panama's Darién and Colombia's Chocó, made of chunga and nahuala palm dyed with plants, in animal and geometric designs.",
+   "aliases": "Wounaan baskets; Emberá baskets; werregue",
+   "see": "Mola",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Wounaan",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Emberá",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Wounaan",
+     "Smithsonian collections search: Wounaan",
+     "Wounaan and Emberá baskets in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then peoples and centres, then named makers",
+   "kinds": [
+    [
+     "Wounaan",
+     "Centres & workshops",
+     "weavers of the Darién and Chocó",
+     "r3 https://en.wikipedia.org/wiki/Wounaan",
+     0
+    ],
+    [
+     "Emberá",
+     "Centres & workshops",
+     "weavers of the Darién and Chocó",
+     "r3 https://en.wikipedia.org/wiki/Emberá",
+     0
+    ],
+    [
+     "Darién Province",
+     "Centres & workshops",
+     "Panamanian province of the weaving communities",
+     "r3 https://en.wikipedia.org/wiki/Darién_Province",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Wounaan basketry",
+    "Wounaan and Emberá Basketry"
+   ]
+  },
+  {
+   "key": "GLBEAD",
+   "sub": "H9",
+   "label": "Great Lakes Floral Beadwork",
+   "breadth": "narrow",
+   "defn": "Glass-bead embroidery and loom beadwork of the Anishinaabe, Ho-Chunk, Meskwaki, Potawatomi and other Great Lakes peoples, from the 19th century, in curvilinear floral designs: bandolier bags, sashes, moccasins and hair ties.",
+   "aliases": "Woodlands floral beadwork; Ojibwe beadwork",
+   "see": "Ribbonwork; Plains Beadwork",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Native_American_beadwork",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Bandolier_bag",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Ojibwe+beadwork",
+     "Smithsonian collections search: Ojibwe beadwork",
+     "Great Lakes beadwork in the Smithsonian (NMAI)"
+    ],
+    [
+     "https://www.historymuseum.ca/collections/",
+     "Canadian Museum of History collections",
+     "Canada's national collection of Indigenous material culture"
+    ]
+   ],
+   "axis": "sub-types first, then peoples (centres)",
+   "kinds": [
+    [
+     "Bandolier bag",
+     "Sub-types",
+     "gashkibidaagan, large shoulder bag, a showpiece of Great Lakes beadwork",
+     "r3 https://en.wikipedia.org/wiki/Bandolier_bag",
+     0
+    ],
+    [
+     "Ojibwe",
+     "Centres & workshops",
+     "Anishinaabe beadworkers of the upper Great Lakes",
+     "r3 https://en.wikipedia.org/wiki/Ojibwe",
+     0
+    ],
+    [
+     "Ho-Chunk",
+     "Centres & workshops",
+     "Winnebago beadworkers of Wisconsin",
+     "r3 https://en.wikipedia.org/wiki/Ho-Chunk",
+     0
+    ],
+    [
+     "Meskwaki",
+     "Centres & workshops",
+     "Fox beadworkers, Iowa",
+     "r3 https://en.wikipedia.org/wiki/Meskwaki",
+     0
+    ],
+    [
+     "Potawatomi",
+     "Centres & workshops",
+     "Great Lakes beadworkers",
+     "r3 https://en.wikipedia.org/wiki/Potawatomi",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Great Lakes floral beadwork"
+   ]
+  },
+  {
+   "key": "SUBARCBEAD",
+   "sub": "H9",
+   "label": "Subarctic Beadwork",
+   "breadth": "narrow",
+   "defn": "Floral glass-bead embroidery on hide and velvet of the Dene, Innu, Cree, Métis and other peoples of the Canadian and Alaskan Subarctic: moccasins, tunics, mitts, baby belts and gun cases.",
+   "aliases": "Métis beadwork; Dene beadwork",
+   "see": "Moosehair Embroidery; Porcupine Quillwork",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Métis",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Subarctic_peoples",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.historymuseum.ca/collections/",
+     "Canadian Museum of History collections",
+     "Canada's national collection of Indigenous material culture"
+    ],
+    [
+     "https://collections.si.edu/search/results.htm?q=Dene+beadwork",
+     "Smithsonian collections search: Dene beadwork",
+     "Subarctic beadwork in the Smithsonian (NMAI)"
+    ]
+   ],
+   "axis": "sub-types first, then peoples (centres)",
+   "kinds": [
+    [
+     "Métis",
+     "Centres & workshops",
+     "the 'flower beadwork people' of the Red River and north-west",
+     "r3 https://en.wikipedia.org/wiki/Métis",
+     0
+    ],
+    [
+     "Dene",
+     "Centres & workshops",
+     "Athabaskan beadworkers of the Northwest Territories",
+     "r3 https://en.wikipedia.org/wiki/Dene",
+     0
+    ],
+    [
+     "Gwich'in",
+     "Centres & workshops",
+     "Alaskan and Yukon Athabaskans",
+     "r3 https://en.wikipedia.org/wiki/Gwich'in",
+     0
+    ],
+    [
+     "Tahltan",
+     "Centres & workshops",
+     "northern British Columbia",
+     "r3 https://en.wikipedia.org/wiki/Tahltan",
+     0
+    ],
+    [
+     "Innu",
+     "Centres & workshops",
+     "Labrador and Quebec",
+     "r3 https://en.wikipedia.org/wiki/Innu",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Subarctic beadwork"
+   ]
+  },
+  {
+   "key": "XHOSABEAD",
+   "sub": "H9",
+   "label": "Xhosa Beadwork",
+   "breadth": "narrow",
+   "defn": "Glass-bead ornaments of the Xhosa of South Africa's Eastern Cape, in white, blue and red, signalling age and status: collars (ingqosha), aprons, headbands and beaded tobacco pouches.",
+   "aliases": "isiXhosa beadwork",
+   "see": "Zulu Beadwork; Shweshwe",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Xhosa_people",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://lux.collections.yale.edu/",
+     "LUX: Yale Collections Discovery",
+     "Yale's collections including Xhosa beadwork"
+    ],
+    [
+     "https://www.clevelandart.org/art/collection/search?search=Xhosa",
+     "Cleveland Museum of Art: Xhosa",
+     "Xhosa beadwork at Cleveland"
+    ]
+   ],
+   "axis": "sub-types first, then peoples (centres)",
+   "kinds": [
+    [
+     "Ingqosha",
+     "Sub-types",
+     "beaded collar",
+     "r3 https://en.wikipedia.org/wiki/Xhosa_people",
+     0
+    ],
+    [
+     "Beaded tobacco pouches",
+     "Sub-types",
+     "pouches carried by men and women",
+     "r3 https://en.wikipedia.org/wiki/Xhosa_people",
+     0
+    ],
+    [
+     "Eastern Cape",
+     "Centres & workshops",
+     "home of the Xhosa",
+     "r3 https://en.wikipedia.org/wiki/Xhosa_people",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Xhosa Beadwork"
+   ]
+  },
+  {
+   "key": "AMAZFEATH",
+   "sub": "H9",
+   "label": "Amazonian Featherwork",
+   "breadth": "narrow",
+   "defn": "Feather ornaments of the Indigenous peoples of the Amazon and Brazilian interior, tied and glued on cords and frames: head rings and diadems, ear ornaments, armbands and dance capes of the Karajá, Bororo, Kayapó and Munduruku.",
+   "aliases": "plumária; Amazonian feather art",
+   "see": "Mexican Featherwork; Hawaiian Featherwork",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Featherwork",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=feather+headdress+Brazil",
+     "Smithsonian collections search: feather headdress Brazil",
+     "Amazonian featherwork in the Smithsonian (NMAI)"
+    ],
+    [
+     "https://collectie.wereldculturen.nl/",
+     "Wereldculturen collection (NMVW)",
+     "Museum Volkenkunde, Tropenmuseum, Afrika Museum and Wereldmuseum Rotterdam"
+    ],
+    [
+     "https://www.quaibranly.fr/en/collections/",
+     "Musée du quai Branly collections",
+     "French national collection of the arts of Africa, Oceania and the Americas"
+    ]
+   ],
+   "axis": "sub-types first, then peoples (centres)",
+   "kinds": [
+    [
+     "Karajá",
+     "Centres & workshops",
+     "Araguaia River featherworkers",
+     "r3 https://en.wikipedia.org/wiki/Karajá_people",
+     0
+    ],
+    [
+     "Bororo",
+     "Centres & workshops",
+     "Mato Grosso featherworkers",
+     "r3 https://en.wikipedia.org/wiki/Bororo",
+     0
+    ],
+    [
+     "Kayapó",
+     "Centres & workshops",
+     "Xingu featherworkers",
+     "r3 https://en.wikipedia.org/wiki/Kayapo",
+     0
+    ],
+    [
+     "Munduruku",
+     "Centres & workshops",
+     "Tapajós featherworkers",
+     "r3 https://en.wikipedia.org/wiki/Munduruku",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Amazonian Featherwork"
+   ]
+  },
+  {
+   "key": "HUICHOL",
+   "sub": "H9",
+   "label": "Huichol Art",
+   "breadth": "medium",
+   "defn": "The ritual and commercial arts of the Wixárika (Huichol) of the Sierra Madre Occidental: beaded gourd bowls and figures pressed into beeswax, yarn paintings (nierika), woven and embroidered sashes and bags, and ceramic offering bowls.",
+   "aliases": "Wixárika art; nierika; Huichol beadwork; Huichol yarn painting",
+   "see": "Mexican Featherwork",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Huichol_art",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Huichol",
+     "Smithsonian collections search: Huichol",
+     "Huichol objects in the Smithsonian (NMAI)"
+    ],
+    [
+     "https://mediateca.inah.gob.mx/",
+     "Mediateca INAH",
+     "Mexico's national archaeological and ethnographic collections online"
+    ],
+    [
+     "https://collectie.wereldculturen.nl/",
+     "Wereldculturen collection (NMVW)",
+     "Museum Volkenkunde, Tropenmuseum, Afrika Museum and Wereldmuseum Rotterdam"
+    ]
+   ],
+   "axis": "sub-types (media) first, then makers",
+   "kinds": [
+    [
+     "Beadwork",
+     "Sub-types",
+     "glass beads pressed into beeswax on gourds, masks and figures",
+     "r3 https://en.wikipedia.org/wiki/Huichol_art",
+     0
+    ],
+    [
+     "Yarn painting",
+     "Sub-types",
+     "nierika: yarn pressed into wax on boards",
+     "r3 https://en.wikipedia.org/wiki/Huichol_art",
+     0
+    ],
+    [
+     "Textiles",
+     "Sub-types",
+     "embroidered sashes, bags and men's costume",
+     "r3 https://en.wikipedia.org/wiki/Huichol_art",
+     0
+    ],
+    [
+     "José Benítez Sánchez",
+     "Makers",
+     "Huichol yarn painter (1938–2009)",
+     "r3 https://en.wikipedia.org/wiki/José_Benítez_Sánchez",
+     1
+    ]
+   ],
+   "collections_from": [
+    "Huichol Textiles and Beadwork",
+    "Huichol beadwork",
+    "Huichol ceramics",
+    "Huichol Yarn Painting"
+   ]
+  },
+  {
+   "key": "NWCWOOD",
+   "sub": "I1",
+   "label": "Northwest Coast Woodcarving",
+   "breadth": "broad",
+   "defn": "Carved and painted wood of the Northwest Coast peoples in formline design other than masks, poles and bentwood boxes: feast dishes, rattles, house posts and screens, canoes and paddles, chiefs' seats, combs and spoons.",
+   "aliases": "Northwest Coast art; formline carving",
+   "see": "Northwest Coast Masks; Totem Poles; Bentwood Boxes",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Northwest_Coast_art",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Formline_art",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://collections.si.edu/search/results.htm?q=Kwakwaka%27wakw",
+     "Smithsonian collections search: Kwakwaka'wakw",
+     "Northwest Coast objects in the Smithsonian (NMAI)"
+    ],
+    [
+     "https://www.historymuseum.ca/collections/",
+     "Canadian Museum of History collections",
+     "Canada's national collection of Indigenous material culture"
+    ],
+    [
+     "https://www.si.edu/",
+     "Smithsonian Institution",
+     "NMNH and NMAI hold the largest 19th-century Northwest Coast collections"
+    ]
+   ],
+   "axis": "sub-types first, then makers by birth",
+   "kinds": [
+    [
+     "Feast dishes",
+     "Sub-types",
+     "large carved dishes for potlatch feasts",
+     "r3 https://en.wikipedia.org/wiki/Feast_dish",
+     0
+    ],
+    [
+     "Formline",
+     "Sub-types",
+     "the design system of ovoids and U-forms underlying the carving",
+     "r3 https://en.wikipedia.org/wiki/Formline_art",
+     0
+    ],
+    [
+     "Charles Edenshaw",
+     "Makers",
+     "Haida carver (c. 1839–1920)",
+     "r3 https://en.wikipedia.org/wiki/Charles_Edenshaw",
+     1
+    ],
+    [
+     "Willie Seaweed",
+     "Makers",
+     "Kwakwaka'wakw carver (1873–1967)",
+     "r3 https://en.wikipedia.org/wiki/Willie_Seaweed",
+     1
+    ],
+    [
+     "Mungo Martin",
+     "Makers",
+     "Kwakwaka'wakw carver (1879–1962)",
+     "r3 https://en.wikipedia.org/wiki/Mungo_Martin",
+     1
+    ],
+    [
+     "Ellen Neel",
+     "Makers",
+     "Kwakwaka'wakw carver (1916–1966)",
+     "r3 https://en.wikipedia.org/wiki/Ellen_Neel",
+     1
+    ],
+    [
+     "Henry Hunt",
+     "Makers",
+     "Kwakwaka'wakw carver (1923–1985)",
+     "r3 https://en.wikipedia.org/wiki/Henry_Hunt",
+     1
+    ],
+    [
+     "Doug Cranmer",
+     "Makers",
+     "'Namgis carver (1927–2006)",
+     "r3 https://en.wikipedia.org/wiki/Doug_Cranmer",
+     1
+    ],
+    [
+     "Bill Reid",
+     "Makers",
+     "Haida sculptor (1920–1998)",
+     "r3 https://en.wikipedia.org/wiki/Bill_Reid",
+     1
+    ],
+    [
+     "Tony Hunt",
+     "Makers",
+     "Kwakwaka'wakw carver (1942–2017)",
+     "r3 https://en.wikipedia.org/wiki/Tony_Hunt",
+     1
+    ],
+    [
+     "Robert Davidson",
+     "Makers",
+     "Haida carver (b. 1946)",
+     "r3 https://en.wikipedia.org/wiki/Robert_Davidson_(artist)",
+     1
+    ]
+   ],
+   "collections_from": [
+    "Northwest Coast woodcarving"
+   ]
+  },
+  {
+   "key": "KUBAWOOD",
+   "sub": "I1",
+   "label": "Kuba Woodcarving",
+   "breadth": "narrow",
+   "defn": "Carved wooden objects of the Kuba kingdom (Bushoong and related peoples) of the DR Congo, covered in interlace patterns: palm-wine cups with heads, tukula camwood boxes, drums, panels and figures.",
+   "aliases": "Kuba carving",
+   "see": "Ndop; Kuba Masks; Kuba Raffia Textiles",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Kuba_art",
+     "Wikipedia"
+    ],
+    [
+     "https://en.wikipedia.org/wiki/Kuba_Kingdom",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://www.penn.museum/collections/search.php?term=Kuba",
+     "Penn Museum collections: Kuba",
+     "Penn Museum's Kuba collection"
+    ],
+    [
+     "https://www.africamuseum.be/en",
+     "Royal Museum for Central Africa",
+     "Tervuren, the largest Kuba collection"
+    ]
+   ],
+   "axis": "sub-types first, then centres",
+   "kinds": [
+    [
+     "Ndop",
+     "Sub-types",
+     "royal portrait figures (see Ndop)",
+     "r3 https://en.wikipedia.org/wiki/Ndop_(Kuba)",
+     0
+    ],
+    [
+     "Tukula boxes",
+     "Sub-types",
+     "lidded boxes for red camwood (tukula) powder",
+     "r3 https://en.wikipedia.org/wiki/Kuba_art",
+     0
+    ],
+    [
+     "Palm-wine cups",
+     "Sub-types",
+     "carved cups, some with human heads, for palm wine",
+     "r3 https://en.wikipedia.org/wiki/Kuba_art",
+     0
+    ],
+    [
+     "Bushoong",
+     "Centres & workshops",
+     "ruling people of the Kuba kingdom at Nsheng",
+     "r3 https://en.wikipedia.org/wiki/Bushoong",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Kuba wood carving"
+   ]
+  },
+  {
+   "key": "CNLACQ",
+   "sub": "I2",
+   "label": "Chinese Lacquerware",
+   "breadth": "broad",
+   "defn": "Lacquer of China from the Neolithic to the Qing on wood, cloth and leather cores: painted Chu and Han lacquer, mother-of-pearl inlay, qiangjin incised gold, carved cinnabar lacquer and Coromandel screens.",
+   "aliases": "Chinese lacquer; qiqi",
+   "see": "Carved Lacquer; Japanese Lacquerware; Ryukyuan Lacquerware",
+   "src": [
+    [
+     "https://en.wikipedia.org/wiki/Chinese_lacquerware",
+     "Wikipedia"
+    ]
+   ],
+   "catalogues": [
+    [
+     "https://colbase.nich.go.jp/collection_items?locale=en&keyword=%E6%BC%86%E5%99%A8+%E4%B8%AD%E5%9B%BD",
+     "ColBase (Japan's national museums): 漆器 中国",
+     "Chinese lacquer in Japan's national museums"
+    ],
+    [
+     "https://www.clevelandart.org/art/collection/search?search=Chinese+lacquer",
+     "Cleveland Museum of Art: Chinese lacquer",
+     "Chinese lacquer at Cleveland"
+    ],
+    [
+     "https://collections.vam.ac.uk/search/?q=Chinese+lacquer",
+     "V&A collections: Chinese lacquer",
+     "Chinese lacquer at the V&A"
+    ]
+   ],
+   "axis": "sub-types by technique, earliest first, then centres",
+   "kinds": [
+    [
+     "Painted lacquer",
+     "Sub-types",
+     "red-and-black painted lacquer of the Warring States and Han",
+     "r3 https://en.wikipedia.org/wiki/Chinese_lacquerware",
+     0
+    ],
+    [
+     "Carved lacquer",
+     "Sub-types",
+     "cinnabar and tixi lacquer carved in relief (see Carved Lacquer)",
+     "r3 https://en.wikipedia.org/wiki/Chinese_lacquerware",
+     0
+    ],
+    [
+     "Coromandel lacquer",
+     "Sub-types",
+     "incised and coloured screens of the Qing exported to Europe",
+     "r3 https://en.wikipedia.org/wiki/Coromandel_lacquer",
+     0
+    ],
+    [
+     "Mawangdui",
+     "Centres & workshops",
+     "Han tombs near Changsha with painted lacquer",
+     "r3 https://en.wikipedia.org/wiki/Mawangdui",
+     0
+    ]
+   ],
+   "collections_from": [
+    "Chinese lacquerware"
+   ]
+  }
+ ],
+ "moves_out": [],
+ "dropped": []
+}

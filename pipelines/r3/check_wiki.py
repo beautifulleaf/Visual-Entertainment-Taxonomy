@@ -32,7 +32,11 @@ def main(path):
                         t = t[:1].upper() + t[1:]
                         st = "ok" if t in T else "missing"; c[st] += 1
                         rows.append([tab.upper(), l["code"], u, st])
-    with open(os.path.join(ROOT, "taxonomy/r3/wiki_check.csv"), "w", newline="") as fo:
+    out = os.path.join(ROOT, "taxonomy/r3/wiki_check.csv")
+    if os.path.exists(out):  # cumulative: links found missing earlier stay listed, so their fixes survive rebuilds
+        seen = {r[2] for r in rows if r[3] == "missing"}
+        rows += [[r["tab"], r["leaf"], r["url"], r["status"]] for r in csv.DictReader(open(out)) if r["status"] == "missing" and r["url"] not in seen]
+    with open(out, "w", newline="") as fo:
         w = csv.writer(fo); w.writerow(["tab", "leaf", "url", "status"]); w.writerows(rows)
     print(c)
 

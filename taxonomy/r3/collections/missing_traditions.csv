@@ -1,6 +1,6 @@
 tradition,family,objects,institutions,top_institutions
 Māori pounamu carving,G,2859,3,Museum of New Zealand Te Papa Tongarewa (2780); Penn Museum (75); Minneapolis Institute of Art (4)
-Tibetan manuscript illumination,C,2378,11,Bibliothèque nationale de France (2313); Victoria and Albert Museum (26); Victoria and Albert Museum (SSEA) (23); Art Institute of Chicago (6)
+Tibetan manuscript illumination,C,2378,10,Bibliothèque nationale de France (2313); Victoria and Albert Museum (49); Art Institute of Chicago (6); Stein Collection (2)
 Atlantic Watershed pottery,E,2130,1,Smithsonian (NMAI) (2130)
 Pueblo Painting,A,2093,1,Smithsonian (NMAI) (2093)
 Northwest Coast woodcarving,I,1863,6,Smithsonian (NMAI) (1816); Smithsonian National Museum of the American Indian (18); The Metropolitan Museum of Art (15); Art Institute of Chicago (8)
@@ -13,7 +13,7 @@ Ehon (Japanese woodblock-printed books),C,1066,1,Art Institute of Chicago (1066)
 Chiriquí pottery,E,956,2,Smithsonian (NMAI) (948); Wereldmuseum Rotterdam (8)
 Subarctic beadwork,F,950,1,Smithsonian (NMAI) (950)
 Amazonian Featherwork,H,885,8,Smithsonian (NMAI) (806); Smithsonian National Museum of the American Indian (38); Tropenmuseum (26); The Metropolitan Museum of Art (8)
-Nepalese Manuscript Painting,A,882,9,Cleveland Museum of Art (405); Cleveland Museum of Art (Indian and Southeast Asian Art) (400); Art Institute of Chicago (35); Victoria and Albert Museum (33)
+Nepalese Manuscript Painting,A,882,7,Cleveland Museum of Art (805); Art Institute of Chicago (35); Victoria and Albert Museum (34); Private (4)
 Tumaco-La Tolita goldwork,G,806,1,Smithsonian (NMAI) (806)
 Carchi (Nariño) pottery,E,789,3,Smithsonian (NMAI) (783); Art Institute of Chicago (3); Cleveland Museum of Art (3)
 Noh masks,D,721,77,Tokyo National Museum (515); Cleveland Museum of Art (42); Nara National Museum (19); Kyushu National Museum (16)
@@ -201,7 +201,7 @@ Mughal glass,F,20,4,Victoria and Albert Museum (12); Cleveland Museum of Art (6)
 Totonac ceramics,E,20,1,Smithsonian (NMAI) (20)
 Lontara manuscripts (Bugis-Makassar),C,20,2,Digital Repository of Endangered and Affected Manuscripts in Southeast Asia (19); Leiden University library catalogue (1)
 Silla glass,F,19,3,국립경주박물관 (9); 국립중앙박물관 (9); 울산박물관 (1)
-Russian cast metal icons,?,19,3,"Муниципальное бюджетное учреждение культуры ""Бежаницкий историко-культурный центр Философовых"" (14); Муниципальное бюджетное учреждение культуры ""Народный фольклорно-этнографический музей"" городского округа город Шахунья  (4); Государственное бюджетное учреждение культуры Астраханской области ""Астраханский государственный объединенный историко-а (1)"
+Russian cast metal icons,?,19,3,"Муниципальное бюджетное учреждение культуры ""Бежаницкий историко-культурный центр Философовых"" (14); Муниципальное бюджетное учреждение культуры ""Народный фольклорно-этнографический музей"" городского округа город Шахунья (4); Государственное бюджетное учреждение культуры Астраханской области ""Астраханский государственный объединенный историко-а (1)"
 Slutsk Sashes,H,19,8,"Государственное бюджетное учреждение культуры Московской области ""Сергиево-Посадский государственный историко-художестве (5); Федеральное государственное бюджетное учреждение культуры ""Государственный Эрмитаж"" (4); Муниципальное бюджетное учреждение культуры ""Череповецкое музейное объединение"" (2); Федеральное государственное бюджетное учреждение культуры ""Всероссийский музей декоративно-прикладного и народного искус (2)"
 Miao embroidery,?,19,3,Penn Museum (13); Art Institute of Chicago (4); Victoria and Albert Museum (2)
 Santafé de Bogotá Colonial Painting,A,19,7,Santa Clara Church Museum (6); Museo de Arte Miguel Urrutia (4); Museum of Colonial Art (3); Colombian National Museum (2)
@@ -218,7 +218,7 @@ Yucatec Maya pottery,E,17,1,Smithsonian (NMAI) (17)
 Rarámuri pottery,E,17,1,Smithsonian (NMAI) (17)
 Muscogee (Creek) pottery,E,17,1,Smithsonian (NMAI) (17)
 Geraardsbergen lace,E,17,1,Rijksmuseum (17)
-Vyatka Lace,H,16,5,"Федеральное государственное бюджетное учреждение культуры ""Государственный Владимиро-Суздальский историко-архитектурный  (6); Федеральное государственное бюджетное учреждение культуры ""Всероссийский музей декоративно-прикладного и народного искус (5); Бюджетное учреждение культуры Вологодской области ""Вологодская областная картинная галерея"" (3); Кировское областное государственное бюджетное учреждение культуры ""Кировский областной краеведческий музей"" (1)"
+Vyatka Lace,H,16,5,"Федеральное государственное бюджетное учреждение культуры ""Государственный Владимиро-Суздальский историко-архитектурный (6); Федеральное государственное бюджетное учреждение культуры ""Всероссийский музей декоративно-прикладного и народного искус (5); Бюджетное учреждение культуры Вологодской области ""Вологодская областная картинная галерея"" (3); Кировское областное государственное бюджетное учреждение культуры ""Кировский областной краеведческий музей"" (1)"
 Dayak woodcarving,I,16,3,The Metropolitan Museum of Art (11); Tropenmuseum (3); Smithsonian National Museum of the American Indian (2)
 Northwest Coast woodcarving,?,16,4,Smithsonian National Museum of the American Indian (8); The Metropolitan Museum of Art (3); Museum Volkenkunde (3); Wereldmuseum Rotterdam (2)
 Mangbetu pottery,E,16,6,Yale University (LUX) (6); The Metropolitan Museum of Art (3); Art Institute of Chicago (2); Cleveland Museum of Art (2)
@@ -233,7 +233,7 @@ Fez Pottery,A,15,1,Victoria and Albert Museum (15)
 Pachacamac pottery,E,15,1,Smithsonian (NMAI) (15)
 Haida argillite carving,?,14,2,Smithsonian National Museum of the American Indian (11); The Metropolitan Museum of Art (3)
 Wayuu pottery,E,14,2,Smithsonian (NMAI) (8); Smithsonian National Museum of the American Indian (6)
-Khotanese Painting,A,14,4,British Museum (9); Victoria and Albert Museum (SSEA) (2); Victoria and Albert Museum (EAS) (2); British Library (1)
+Khotanese Painting,A,14,3,British Museum (9); Victoria and Albert Museum (4); British Library (1)
 Ulúa Polychrome,A,14,1,Smithsonian (NMAI) (14)
 Yavapai basketry,E,14,1,Smithsonian (NMAI) (14)
 Cocopah pottery,E,14,1,Smithsonian (NMAI) (14)
@@ -242,7 +242,7 @@ Fort Walton pottery,E,14,1,Smithsonian (NMAI) (14)
 Chinese Export Painting,A,14,1,Rijksmuseum (14)
 Nagasaki-e,B,14,1,Rijksmuseum (14)
 Chinese Modern Woodcut Movement,B,13,2,Cleveland Museum of Art (12); Art Institute of Chicago (1)
-Krolevets weaving,E,13,8,"Государственное бюджетное учреждение культуры Воронежской области ""Воронежский областной краеведческий музей"" (4); Историко-краеведческий музей - структурное подразделение БУ Называевского муниципального района ""Культура Называевского  (2); Государственное бюджетное учреждение культуры ""Белгородский государственный музей народной культуры"" (2); Федеральное государственное бюджетное учреждение культуры ""Всероссийский музей декоративно-прикладного и народного искус (1)"
+Krolevets weaving,E,13,8,"Государственное бюджетное учреждение культуры Воронежской области ""Воронежский областной краеведческий музей"" (4); Историко-краеведческий музей - структурное подразделение БУ Называевского муниципального района ""Культура Называевского (2); Государственное бюджетное учреждение культуры ""Белгородский государственный музей народной культуры"" (2); Федеральное государственное бюджетное учреждение культуры ""Всероссийский музей декоративно-прикладного и народного искус (1)"
 Armenian Icon Painting,A,13,6,"Государственное бюджетное учреждение культуры Ставропольского края ""Ставропольский государственный историко-культурный и (5); Федеральное государственное бюджетное учреждение культуры ""Государственный исторический музей"" (3); Государственное бюджетное учреждение культуры Архангельской области ""Сольвычегодский историко-художественный музей"" (2); Юматовский этнографический музей муниципального бюджетного учреждения ""Музей боевой и трудовой славы муниципального райо (1)"
 Toraja woodcarving,I,13,3,Tropenmuseum (11); The Metropolitan Museum of Art (1); Museum of New Zealand Te Papa Tongarewa (1)
 Métis floral beadwork,?,13,1,Smithsonian National Museum of the American Indian (13)
@@ -264,7 +264,7 @@ Pawnee pottery,E,11,1,Smithsonian (NMAI) (11)
 Sicán Textiles,H,11,1,Smithsonian (NMAI) (11)
 Olmec ceramics,E,10,2,Art Institute of Chicago (7); Cleveland Museum of Art (3)
 Vyg (Pomor) Old Believer book painting,C,10,5,"Государственное бюджетное учреждение культуры города Москвы ""Московский государственный объединенный художественный исто (4); Муниципальное казенное учреждение Мытский краеведческий музей (3); Муниципальное бюджетное учреждение культуры ""Верхнепышминский исторический музей"" (1); Федеральное государственное бюджетное учреждение культуры ""Государственный Эрмитаж"" (1)"
-Krolevets Rushnyk Weaving,H,10,7,"Федеральное государственное бюджетное учреждение культуры ""Государственный центральный музей современной истории России"" (3); Государственное бюджетное учреждение культуры Воронежской области ""Воронежский областной краеведческий музей"" (2); Государственное бюджетное учреждение культуры ""Белгородский государственный музей народной культуры"" (1); Историко-краеведческий музей - структурное подразделение БУ Называевского муниципального района ""Культура Называевского  (1)"
+Krolevets Rushnyk Weaving,H,10,7,"Федеральное государственное бюджетное учреждение культуры ""Государственный центральный музей современной истории России"" (3); Государственное бюджетное учреждение культуры Воронежской области ""Воронежский областной краеведческий музей"" (2); Государственное бюджетное учреждение культуры ""Белгородский государственный музей народной культуры"" (1); Историко-краеведческий музей - структурное подразделение БУ Называевского муниципального района ""Культура Называевского (1)"
 Stroganov School,A,10,8,"Областное государственное бюджетное учреждение культуры ""Смоленский государственный музей-заповедник"" (2); Муниципальное бюджетное учреждение культуры Вязниковского района Владимирской области ""Мстерский художественный музей"" (2); Государственное бюджетное учреждение культуры города Москвы ""Московская государственная картинная галерея народного худо (1); Государственное бюджетное учреждение Ивановской области ""Государственный музей Палехского искусства"" (1)"
 Chantilly Lace,H,10,2,The Metropolitan Museum of Art (8); Art Institute of Chicago (2)
 Tønder Lace,H,10,1,The Metropolitan Museum of Art (10)
@@ -333,7 +333,7 @@ Fulani Wedding Blankets,H,5,2,Art Institute of Chicago (4); Minneapolis Institut
 Mexican dance masks,F,5,2,Smithsonian National Museum of the American Indian (4); Tropenmuseum (1)
 Tenango embroidery,?,5,2,Smithsonian National Museum of the American Indian (3); Tropenmuseum (2)
 Tonkin export lacquer,G,5,1,Rijksmuseum (5)
-Miran Wall Paintings,A,5,1,Victoria and Albert Museum (EAS) (5)
+Miran Wall Paintings,A,5,1,Victoria and Albert Museum (5)
 Caliphal (Umayyad Spain) pottery,E,5,3,National Archaeological Museum (2); Silves Municipal Archaeology Museum (2); Museum of Mértola (1)
 Fayyumi ware,E,5,1,Victoria and Albert Museum (5)
 Fez Embroidery,H,5,1,Victoria and Albert Museum (5)

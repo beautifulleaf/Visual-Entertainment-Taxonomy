@@ -37,6 +37,8 @@ OLD_SUB.update({f"E{i}": f"C{i}" for i in range(1, 12)})
 
 
 WORK_RX = re.compile(r"wikidata\.org/wiki/Q|metmuseum\.org/art/collection/search/\d|collections\.vam\.ac\.uk/item|colbase\.nich|clevelandart\.org/art/\d|artic\.edu/artworks|hdl\.handle\.net|n2t\.net|penn\.museum/collections/object|tepapa\.govt\.nz/object|artsmia\.org/art/|britishmuseum\.org/collection/object|goskatalog|digitalarchive\.npm|emuseum\.go\.kr|himalayanart\.org/items|rijksmuseum\.nl/[a-z]+/collect|asia\.si\.edu/object|collections\.si\.edu/search/detail|kunishitei\.bunka")
+WORK_GROUP_RX = re.compile(r"manuscripts?\b|albums?\b|works?\b|objects?\b|vases?\b|bowls?|jars?|dish|ewers?|jugs?|figures?|figurines|plates?|tiles?|carpets?|rugs?|textiles?|garments?|pieces|vessels?|codices|books?\b|scrolls?|folios?|paintings?\b|prints?\b|sculptures?\b|statues?|reliefs?|masks?\b|ornaments?|jewell?ery|weapons?|swords?|armou?r|instruments?|furniture|panels?|icons?\b", re.I)
+KEEP_GROUP_RX = re.compile(r"sub-?type|school|phase|centre|center|workshop|style|maker|artist|designer|architect|holding|period|dynast|lineage|group|movement|circle|kiln|technique", re.I)
 KEEP_SITE_RX = re.compile(r"UNESCO|World Heritage|National Treasure|designated|Grade I|listed|Monument historique|heritage", re.I)
 
 
@@ -68,13 +70,23 @@ def apply_collections(M, leafobj, replaced, report):
         if code not in leafobj: continue
         makers = sum(1 for r in rows if r[4])
         tradition_led = makers < 0.5 * max(1, len(rows)) or code in LI
-        if not tradition_led: continue
+        if not tradition_led:
+            if code[0] not in "KL":  # artist-led leaves: no hand-picked works lists either (owner: arbitrary)
+                n0 = len(rows)
+                M[code] = [r for r in rows if r[4] or not re.search(r"(manuscripts?|albums?|works|objects|vases|codices|books|scrolls|folios|pieces)\s*$", str(r[1]), re.I)]
+                if len(M[code]) != n0: replaced[code] = M[code]; st["artist_leaf_work_rows_removed"] += n0 - len(M[code])
+            continue
         keep = []
         insitu = code[0] in "KL"
         for r in rows:
             src = str(r[3])
             if r[1] == "Collections": st["old_collections_rows"] += 1; continue
-            if not r[4] and WORK_RX.search(src):
+            g = str(r[1])
+            ends_in_work = bool(re.search(r"(manuscripts?|albums?|works|objects|vases|codices|books|scrolls|folios|pieces)\s*$", g, re.I))
+            objlike = (not r[4] and "link " not in src and (
+                (not insitu and ends_in_work) or
+                (not KEEP_GROUP_RX.search(g) and (("http" in src and "wikipedia.org" not in src) or (not insitu and WORK_GROUP_RX.search(g))))))
+            if not r[4] and (WORK_RX.search(src) or objlike):
                 if insitu and KEEP_SITE_RX.search(str(r[2])): keep.append(r); st["sites_kept"] += 1; continue
                 st["work_rows_removed"] += 1; continue
             keep.append(r)
@@ -234,6 +246,10 @@ def build_va(src, tree, M, find_old, report):
                 if l["code"] in replaced or l["code"] in added:
                     order = list(dict.fromkeys(r[1] for r in rows_))
                     if l.get("secs"): order = [g for g in l["secs"] if g in order] + [g for g in order if g not in l["secs"]]
+                    if "Holding institutions" in order:  # where to see it comes before the makers
+                        order.remove("Holding institutions")
+                        mk = [i for i, g in enumerate(order) if any(r[4] for r in rows_ if r[1] == g)]
+                        order.insert(mk[0] if mk else len(order), "Holding institutions")
                     l["secs"] = order
             keep = []
             for l in s["leaves"]:

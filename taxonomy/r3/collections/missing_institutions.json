@@ -479,12 +479,7 @@
 "Nepalese Manuscript Painting": [
 [
 "Cleveland Museum of Art",
-405,
-"https://www.clevelandart.org/art/collection/search?search=Nepalese%20Manuscript%20Painting"
-],
-[
-"Cleveland Museum of Art (Indian and Southeast Asian Art)",
-400,
+805,
 "https://www.clevelandart.org/art/collection/search?search=Nepalese%20Manuscript%20Painting"
 ],
 [
@@ -494,7 +489,7 @@
 ],
 [
 "Victoria and Albert Museum",
-33,
+34,
 "https://collections.vam.ac.uk/search/?q=Nepalese%20Manuscript%20Painting"
 ],
 [
@@ -511,12 +506,7 @@
 ],
 [
 "Victoria and Albert Museum",
-26,
-"https://collections.vam.ac.uk/search/?q=Tibetan%20manuscript%20illumination"
-],
-[
-"Victoria and Albert Museum (SSEA)",
-23,
+49,
 "https://collections.vam.ac.uk/search/?q=Tibetan%20manuscript%20illumination"
 ],
 [
@@ -884,7 +874,7 @@
 "https://goskatalog.ru/portal/#/collections?q=Russian%20cast%20metal%20icons"
 ],
 [
-"Муниципальное бюджетное учреждение культуры \"Народный фольклорно-этнографический музей\" городского округа город Шахунья ",
+"Муниципальное бюджетное учреждение культуры \"Народный фольклорно-этнографический музей\" городского округа город Шахунья",
 4,
 "https://goskatalog.ru/portal/#/collections?q=Russian%20cast%20metal%20icons"
 ]
@@ -983,7 +973,7 @@
 ],
 "Vyatka Lace": [
 [
-"Федеральное государственное бюджетное учреждение культуры \"Государственный Владимиро-Суздальский историко-архитектурный ",
+"Федеральное государственное бюджетное учреждение культуры \"Государственный Владимиро-Суздальский историко-архитектурный",
 6,
 "https://goskatalog.ru/portal/#/collections?q=Vyatka%20Lace"
 ],
@@ -2121,11 +2111,16 @@
 "British Museum",
 9,
 "https://www.britishmuseum.org/collection/search?keyword=Khotanese%20Painting"
+],
+[
+"Victoria and Albert Museum",
+4,
+"https://collections.vam.ac.uk/search/?q=Khotanese%20Painting"
 ]
 ],
 "Miran Wall Paintings": [
 [
-"Victoria and Albert Museum (EAS)",
+"Victoria and Albert Museum",
 5,
 "https://collections.vam.ac.uk/search/?q=Miran%20Wall%20Paintings"
 ]
